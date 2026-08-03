@@ -1,4 +1,4 @@
-# Voynich first translation — working version 0.23
+# Voynich first translation — working version 0.26
 
 This is the first semantic reading supported by our local experiments. It is
 not yet a word-for-word plaintext translation. Question marks are deliberately
@@ -153,6 +153,28 @@ The contributing constructions are final `X+od` versus initial `ot+X`, and
 `ar` versus `al`. They encode the passage state as aggregate choices; they are
 not licensed as universal English words.
 
+One state now has a narrower contextual reading. Holding the entire preceding
+base X identical, zodiac Cc prose chooses final `od` rather than final `os`
+for the three fire signs. FIRE ranks 1st/2nd/1st among all 120 three-sign
+groups in ZL/IT/RF; the non-Aries/Taurus fire signs Leo and Sagittarius retain
+the direction. The scoped candidate interlinear is:
+
+> **zodiac Cc `X+od` -> `X+[FIRE-CLASS-MARKED?]`**  
+> **zodiac Cc `X+os` -> `X+[NONFIRE-ALTERNANT?]`**
+
+This is a class choice inside a word, not the dictionary equations `od=fire`
+or `os=water`. A complete exact suffix atlas also finds a jointly non-random
+four-choice profile (p=.00730), with new candidate cells Earth `or>od`, Air
+`H>or`, and Water `os>o`. Those cells fail strict first-cycle-to-later-sign
+confirmation (whole test p=.145), so they are not added as translations.
+The fixed `od/os` pair also fails every matched herbal-versus-bathing transfer
+panel (exact p=1), so even an abstract manuscript-wide dry/wet polarity is not
+licensed.
+It also fails to carry ordinary CHE+OD q-dispatch into zodiac Cc: base-held
+next-q counts are only 1/44, 1/42, and 0/29 for od in ZL/IT/RF
+(p=.333/.500/1). The zodiac fire-class association and prose q-dispatch are
+separate register-specific constructions.
+
 ## 4. First ordinary-sequence structural reading
 
 The f67r2 body fragment
@@ -282,6 +304,25 @@ construction translation is therefore:
 
 This remains a relative content axis. “Operator -> content-like dependent” is
 a useful functional paraphrase, not a claim of “verb -> noun.”
+
+The same direction now survives across longer expressions. There are 164
+maximal ZL chains containing at least two consecutive D->q edges. In every
+ZL/IT/RF odd/even panel, the chain end is more P-label/content-like than its
+first D-selector (two-metric family p<=.000828). But the last target does not
+consistently exceed the intervening q+D nodes. The licensed multiword parse is:
+
+> **[LOW-CONTENT D-SELECTOR] -> [CONTENT-BEARING q-DEPENDENT] -> [q+D
+> CONTENT-BEARING CONTINUATION ...]**
+
+This resembles a serial or chaining description more than a stack of empty
+operators ending in one noun-like head. A stronger computational-notation
+alternative was tested and rejected: q and D are not balanced link brackets.
+D roughly triples next-q probability, but q follows only .375--.389 of D
+states and only .371--.380 of physical lines balance the two counts.
+Nor is continuation hidden in a simple q+D lexical switch: among exact
+single-unit q+D forms, the sufficiently supported roots `ok` and `ot` show no
+replicated next-q difference and reverse their weak tendency between odd and
+even folios. They remain untranslated roots, not “continue” and “stop.”
 
 A corrected four-root filler search sharpens the pair without inventing a
 noun. The normalized root class `H` is a **P-label-depleted D-selector
@@ -480,14 +521,110 @@ passes and both generated-process tails are 0/69. The morphological reading is:
 “Derivation/class” is deliberately neutral: it may ultimately be a topic,
 state, relation, or classifier. It is not yet an English prefix/suffix gloss.
 Canonical base `che` (usually surfaced as `chey`) is the one complete
-three-form paradigm present in every parity and transcription:
+four-form paradigm present in every parity and transcription:
 
-> **`chey` -> [CROSS-FIELD BASE X; LEX=?]**  
+> **`chey` -> [E-BOUND CARRIER BASE X; LEX=?]**  
 > **`lchey` -> [LINKED/DEPENDENT L-FORM OF X; BATHING-ENRICHED]**  
-> **`cheody` -> [HERBAL-FIELD DERIVATION OF X]**
+> **`cheol` -> [BATHING-SIDE STATE/CLASS OF X]**  
+> **`cheody` -> [HERBAL-SIDE STATE/CLASS OF X]**
 
-The v0.15 interlinear marks 117 plain bases, 25 `l` forms, and 9 `od` forms.
-This is an internal morphological translation; it does not yet say what X is.
+The exact carrier now has one additional scoped semantic value. After fixing
+the complete `BOUND_E:che + BARE:VALUE` frame and excluding the already known
+`ol` and `od`, a page-exact atlas tests every sufficiently supported value.
+Only `k` survives the four-value family (p=.0188); every ZL/IT/RF odd/even
+effect points herbalward, and 0/69 relaid generated texts reproduce the
+odd-selection/even-holdout process. The licensed reading is:
+
+> **`che+k` -> [HERBAL-FIELD-ASSOCIATED VALUE OF THE CHE CARRIER]**
+
+This is deliberately construction-local. When `che` is removed and `X+k` is
+compared with identical-base `X+ol`, the predicted direction reverses in every
+even reading. Bare `k`, other `X+k` words, and the EVA glyph are therefore not
+translated as plant or herbal. A paired ten-folio image test also fails all
+seven cached plant axes (best BROAD_LEAF family p=.625), so the distinction
+cannot be narrowed to leaf, flower, branching, aquatic, or pigment content.
+The field also does not determine syntax: herbal-side `che+od` reliably
+dispatches a following q-state, while `che+k` has no stable positive
+neighbor-state destination. The CHE value slot is consequently at least a
+field-plus-grammar feature bundle, not a one-dimensional topic suffix.
+Attempts to propagate the new anchor are negative: no parser-defined value
+family, non-CHE frame/value cell, local whole-herbal/pharmaceutical value, or
+shared two-word context survives its complete correction. In particular,
+`ckh+cth` remains only a bathingward candidate (family p=.094), not a new
+translated class.
+
+ZL contains 117 plain bases, 25 `l` forms, 48 `ol` forms, and 9 `od` forms in
+the matched register. Across the complete manuscript, exact `che` is the most
+productive E-bound frame before a final BARE value in every reading: 897 ZL
+events and 33 different final roots. This is an internal morphological
+translation and a strong carrier/frame diagnosis; it does not yet say what X
+means in English.
+
+The carrier also exposes a word-boundary rule. With the canonical unit pair
+held exactly as `BOUND_E:che` followed by plain `BARE:R`, R predicts whether
+the pair is written internally as `che+R` or externally as `che R`. Every
+odd/even/readings panel beats 50,000 within-page boundary shuffles
+(p<.00002), and odd-ZL root groups predict held boundaries at 95.9--97.7%:
+
+> **`che + {ol, od, o, or, k, ...}` -> [JOIN-PREFERRED CARRIER VALUE]**  
+> **`che {ai, aii, al, ar, l}` -> [SPACE-PREFERRED RIGHT-ROOT BOUNDARY]**
+
+This makes `che+ol` and `che+od` bound carrier-value constructions rather than
+ordinary two-word noun phrases. It does not identify the English name of the
+carrier relation, and the 0.833--0.916 balanced accuracies mean the rule is
+strongly probabilistic rather than exceptionless.
+
+A direct falsifier prevents overreading the SPACE class. Against permutations
+of complete words inside the same line, the frozen group is not preferentially
+selected after `che` on even ZL/IT (p=.360/.332; RF alone is positive). Thus
+root identity controls the boundary *when the pair occurs*, but no general
+`che -> SPACE-root` phrase relation is translated.
+
+Joined values do control the following syntax. All 120 JOIN-value × root-free
+neighbor-feature × direction candidates were tested on disjoint odd/even ZL;
+their two exact p-values were Fisher-combined and Bonferroni-corrected across
+the complete family. Exactly two rules survive and transfer through every
+IT/RF parity panel; previous-word controls are null:
+
+> **`[CHE+OD Q-FAVORING STATE] -> [FOLLOWING Q-STATE]`**  
+> **`[CHE+O BARE-FAVORING STATE] -> [FOLLOWING BARE-INITIAL STATE]`**
+
+The full-family p-values are .000244 and .0421. These are probabilistic
+directional dependencies (33 observed q edges and 81 BARE edges among 216 ZL
+sources), not evidence that either carrier form is a verb or that q/BARE are
+noun cases. Apparent final-`od` copying into q followers fails page-conditioned
+even panels, so no cross-word value agreement is added.
+
+The rule is local to the complete carrier. After every `che` base is removed,
+`X+od` versus `X+o` has no page- and exact-base-controlled q effect in any of
+the six panels. A separately corrected atlas of 360 candidate rules over nine
+other high-support carrier frames has no odd/even survivor, and even canonical
+`she` does not reproduce both dispatches. Thus exact `che` is provisionally a
+special grammatical head/frame; neither `od` nor its final `d` is translated
+as a universal q-selector. A stricter same-page comparison also finds that
+`che+od` is not individually more q-leading than `she+od`, nor `che+o` more
+BARE-leading than `she+o`. The predictive fact is therefore the contrast
+among values inside the complete `che` paradigm, not a meaning assigned to
+the `ch`/`sh` glyph alone. A direct value-by-frame interaction resolves the
+important half: against the same frozen 11-value inventory on the same pages,
+the `+od -> q` association is significantly stronger in `che` than `she`
+(two-rule-corrected p=.00781, all IT/RF parity contrasts concordant), whereas
+the `+o -> BARE` interaction is null. We can therefore localize the first edge
+to a **CHE+OD q-dispatch construction**; the second remains a reliable pattern
+inside `che` but not a demonstrably CHE-specific one.
+
+Once q is reached, however, CHE+OD does not choose a narrower q root/form,
+source position, following construction, or third-word role than other joined
+values of the same carrier (complete nine-category family, best p=.855). Its
+current translation is therefore a broad state dispatch, not a recurrent
+fixed phrase or a selected object name. Comparing it with every other q word
+on the same page and in the same line-position bin gives the same result: zero
+of 38 root/form/continuation categories survives (best family p=.332).
+CHE+OD also has no reproducible line/paragraph/page-edge position among other
+CHE values (best corrected p=.813), and its q destination is not unusually
+high on the independently learned P-label/content axis (corrected p=1/.751).
+It is presently a structural state switch—not punctuation, a fixed phrase,
+or a licensed noun/object selector.
 
 The `l` operator participates in a visible phrase rule. Holding the base exact,
 odd ZL selects the preceding role `BOUND_E`: it favors `l+BASE` over plain BASE
@@ -516,18 +653,27 @@ its odd-to-even challenge. Bases `ar`, `che`, and `e` carry both values in
 every transcription/parity panel. This translates a binary class/state choice,
 not `ol=water` or `od=plant`.
 
+The same already-fixed exact-base pair points toward zodiac phase 0 when
+projected into circular zodiac prose (exact p=.00833/.0500/.01667 in
+ZL/IT/RF). This is supporting evidence for a reusable state slot. It is not a
+new universal gloss: after Aries and Taurus are removed, IT and RF do not pass
+the held-sign test. No fire, water, plant, or zodiac-name word is inferred.
+
 ## 7. Complete manuscript-wide interlinear
 
 The current evidence has been merged token-for-token over the complete ZL
 transcription. The export contains all 38,988 tokens; 35,060 ordinary-prose
-tokens retain the full structural parse, 9,255 tokens carry at least one
+tokens retain the full structural parse, 10,168 tokens carry at least one
 supported relational or local-semantic tag, and 935 lines carry a specific
-star-entry, lunar-record, fan, or zodiac-passage reading.
+star-entry, lunar-record, fan, or zodiac-passage reading. V0.24 marks 527 token
+occurrences inside 164 multi-edge D->q chains and 31 carrier-local `che+k`
+field values. Those tokens already carried D/q or CHE tags, so unique coverage
+does not change.
 
 The readable version is
-`experiments/semantic_assumptions/results/complete_first_translation_v018.txt`;
+`experiments/semantic_assumptions/results/complete_first_translation_v024.txt`;
 the auditable token table is
-`experiments/semantic_assumptions/results/complete_first_translation_v018.tsv`.
+`experiments/semantic_assumptions/results/complete_first_translation_v024.tsv`.
 Every unknown English lexeme is printed as `LEX=?`, so the export cannot be
 mistaken for a substitution plaintext.
 
@@ -538,6 +684,11 @@ the family p-value is .722. The ten four-state passage readings above therefore
 remain the maximal supported zodiac translation.
 
 ## Current hard boundary
+
+A complete 13-cell atlas across edge-facing roots in the confirmed D/REL/L
+constructions adds no bathing/herbal sentence-slot value. `D_TARGET:ol`
+remains the sole field-grounded generic endpoint; `ok`, `ot`, `H`, `k`, and
+`o` gain no lexical or clause-role reading from this test.
 
 This is a real first translation of local functions, semantic classes,
 line-order relations, and a technical-core entry template. It does **not** yet
