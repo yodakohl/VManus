@@ -2923,13 +2923,16 @@ unresolved line-control alternative: whether the repeated `s` at positions 1,
 4, and 9 selects a reusable root-free first-word/line-entry state among the
 nine approximately aligned prose lines. Its representation contains only the
 known line carrier, first-word q state, and q-stripped formal role path. The
-exact null is all 84 three-line subsets, synchronized across ZL/IT/RF. All nine
-anonymous planted, negative, channel-dominance, pair-leverage, reading-
-disagreement, tie, degeneracy, enumeration, and determinism controls pass and
-bind the input, preregistration, runner, and nonimporting validator. The target
-is still unrun pending an independent prescore audit. Even a later pass can
-nominate only a repeated-`s` line-entry association, not mark ownership, a
-glyph meaning, lexeme, plaintext, or translation.
+exact null is all 84 three-line subsets, synchronized across ZL/IT/RF. Its
+first independent prescore audit returned **REVISE, TARGET UNRUN**: the runner
+bound the crosswalk under the wrong source-audit name, its tie fixture did not
+actually distinguish conservative from strict tails, duplicate target rows
+could silently overwrite, and the future validator checked an incomplete
+binding contract. A prospective amendment freezes exact repairs. Corrected
+anonymous controls and a new independent prescore audit are required before
+any target invocation. Even a later pass can nominate only an association
+under the fixed human-editorial pairing, not mark ownership, selector meaning,
+reuse outside this panel, glyph meaning, lexeme, plaintext, or translation.
 
 ## Admission rule for new work
 
