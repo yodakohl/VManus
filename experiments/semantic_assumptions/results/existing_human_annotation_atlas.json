@@ -1,0 +1,276 @@
+{
+  "artifact_hashes": {
+    "experiments/semantic_assumptions/results/existing_human_exact_locus_annotations.tsv": "79c7f06e91f90054aff4cdf27f098a5977d820acdf91f239a14c6ddf553a7f61",
+    "experiments/semantic_assumptions/results/existing_human_label_annotations.tsv": "93b14fb00801ee401df018447730c2e2a1036a9aa36135aca44125c177524ed6",
+    "experiments/semantic_assumptions/results/existing_human_locus_roles.tsv": "f800e96457a3dd6e93d6533fc8a2637172ec8e4c6758202f51d38d5c1fca18a7",
+    "experiments/semantic_assumptions/results/existing_human_page_annotations.tsv": "b358f244cbe853448dd5c32dbc04004cb8ce63d9a8c5ed5afe2a679a115d87fa"
+  },
+  "best_label_title_index_asserted_complete_or_current": false,
+  "complete_author_independent_object_ownership": false,
+  "correction": "new manual labeling is not the next action for the source-only role pass; existing public annotation was overlooked",
+  "coverage": {
+    "active_page_records": 227,
+    "active_pages_without_exact_catalogue_id": [
+      "fRos"
+    ],
+    "best_label_title_legacy_page_ids_needing_alias": [
+      "f101v1",
+      "f101v2",
+      "f86r4"
+    ],
+    "best_label_title_pages": 79,
+    "best_label_title_proposed_title_records": 43,
+    "best_label_title_records": 1018,
+    "best_label_title_tagged_records": 651,
+    "catalogue_page_records": 228,
+    "catalogue_wrapper_ids_not_active_pages": [
+      "f85r",
+      "f86v"
+    ],
+    "evt_indexed_context_rows": 1192,
+    "evt_label_only_context_rows": 93,
+    "evt_object_bearing_context_rows": 1099,
+    "exact_active_page_matches": 226,
+    "exact_locus_pages": 78,
+    "exact_unhedged_local_relation_pages": 42,
+    "exact_unhedged_local_relation_rows": 398,
+    "exact_unhedged_local_relation_tag_row_counts": {
+      "REL_ARRAY_OR_GROUP": 2,
+      "REL_ENCLOSURE": 48,
+      "REL_EXPLICIT_ATTACHMENT": 51,
+      "REL_OVERLAP_OR_CONTACT": 8,
+      "REL_PROXIMITY": 317
+    },
+    "exact_unhedged_strong_local_relation_pages": 13,
+    "exact_unhedged_strong_local_relation_rows": 109,
+    "page_source_tag_counts": {
+      "SOURCE_BIOLOGICAL_OR_BATH_PAGE": 19,
+      "SOURCE_COSMOLOGICAL_PAGE": 11,
+      "SOURCE_HERBAL_PAGE": 128,
+      "SOURCE_PHARMACEUTICAL_PAGE": 16,
+      "SOURCE_TEXT_ONLY_PAGE": 8,
+      "SOURCE_ZODIAC_PAGE": 12,
+      "TEXT_AVOIDS_GRAPHIC": 3,
+      "TEXT_BETWEEN_GRAPHICS": 18,
+      "TEXT_CIRCULAR": 21,
+      "TEXT_INSIDE_GRAPHIC": 3,
+      "TEXT_LABELS": 57,
+      "TEXT_LIST_OR_SEQUENCE": 3,
+      "TEXT_PARAGRAPHS": 206,
+      "TEXT_RADIAL": 4,
+      "TEXT_TITLES": 6,
+      "TEXT_WRAPS_GRAPHIC": 3
+    },
+    "pages_with_general_description": 225,
+    "pages_with_illustration_description": 226,
+    "pages_with_text_description": 226,
+    "structural_locus_kind_counts": {
+      "C": 84,
+      "L": 1029,
+      "P": 4130,
+      "R": 142
+    },
+    "structural_locus_pages": 227,
+    "structural_locus_rows": 5385,
+    "zl_it_exact_locus_code_matches": 5214,
+    "zl_it_shared_loci": 5214,
+    "zl_rf_exact_locus_code_matches": 5385,
+    "zl_rf_locus_code_differences": 0
+  },
+  "evidence_rules": [
+    "P/L/C/R is a complete ZL3b/RF1b editorial locus-role layer, not object ownership or authorial semantics",
+    "page and text-layout prose is source-level human description, not authorial semantics",
+    "tentative identifications are preserved but excluded from document-role evidence",
+    "page and relation tags are nonexhaustive regex indexes into retained source prose",
+    "exact unhedged local comments outrank unit descriptions",
+    "proximity remains distinct from attachment",
+    "the 1998 best label/title index is a described legacy subset, not the current 1029-L-locus inventory",
+    "legacy split-page identifiers remain flagged until an explicit current-locus crosswalk is applied",
+    "VIB is a renderer of the same Stolfi archive and is not an independent witness"
+  ],
+  "image_pixels_or_automated_vision_used": false,
+  "live_all_match": false,
+  "live_verification": [],
+  "manual_reannotation_required_for_current_source_only_role_pass": false,
+  "ocr_used": false,
+  "runtime_seconds": 0.38374278717674315,
+  "semantic_or_grammar_score_computed": false,
+  "sources": {
+    "it2a_ivtff": {
+      "path": "transcription/sources/IT2a-n.txt",
+      "sha256": "7f27a8b0feed8f6de0a99900df6bf912dd1d295c38e5f830bac8b41c3f536fb5"
+    },
+    "rf1b_ivtff": {
+      "path": "transcription/sources/RF1b-e.txt",
+      "sha256": "e7d3238e35743e06c63367a933909ec37b1e2de7ada3a1b449447eafa1918782"
+    },
+    "stolfi_best_label_index": {
+      "path": "experiments/semantic_assumptions/cache/existing_human_annotations/labtit-best.idx",
+      "sha256": "9267a2bbf2d485320ce8baaa2e3eeaccb6be7a02aa81ee9422a39ba00bef420a",
+      "url": "https://www.ic.unicamp.br/~stolfi/PUB/EXPORT/voynich/Notes/107/work/Notes/614/labtit-best.idx"
+    },
+    "stolfi_evt": {
+      "path": "transcription/sources/Stolfi_text25e1-52.evt",
+      "sha256": "0509b276fcb7c98c574ccc92e70a1272567851816c5a8ebbfda95da084a3da4b"
+    },
+    "stolfi_line_crosswalk": {
+      "path": "transcription/voynich_stolfi25e1_lines.tsv",
+      "sha256": "b4c83c18f8f814e547ab4a849dab8cf24188680fc512d9497885bdaa0d944988"
+    },
+    "voynich_nu_catalogue": [
+      {
+        "bytes": 42473,
+        "pages": 16,
+        "path": "archive_pre_reset_2026-08-06/semantic_assumptions/cache/gheuens_rapaport_traits/q01.html",
+        "sha256": "6c82ec816e5b4b320d87551af34eaec768531e32bde00afc4415652f5ddc10a4",
+        "source_id": "q01",
+        "url": "https://www.voynich.nu/q01/index.html"
+      },
+      {
+        "bytes": 33025,
+        "pages": 14,
+        "path": "archive_pre_reset_2026-08-06/semantic_assumptions/cache/gheuens_rapaport_traits/q02.html",
+        "sha256": "62dacc593854f9de724820c427ee5285492084b08839684fe59143ff2e95c89a",
+        "source_id": "q02",
+        "url": "https://www.voynich.nu/q02/index.html"
+      },
+      {
+        "bytes": 35880,
+        "pages": 16,
+        "path": "archive_pre_reset_2026-08-06/semantic_assumptions/cache/gheuens_rapaport_traits/q03.html",
+        "sha256": "c43ff6e75e0d6db22a6c7e887101f3d1045f8a72878717e733c10ec93ce65ab3",
+        "source_id": "q03",
+        "url": "https://www.voynich.nu/q03/index.html"
+      },
+      {
+        "bytes": 36180,
+        "pages": 16,
+        "path": "archive_pre_reset_2026-08-06/semantic_assumptions/cache/gheuens_rapaport_traits/q04.html",
+        "sha256": "c4e5921c0f6d312f8b73ec9a4a3e09cee0089ff7d53c1f279a24066a8c830dbd",
+        "source_id": "q04",
+        "url": "https://www.voynich.nu/q04/index.html"
+      },
+      {
+        "bytes": 37365,
+        "pages": 16,
+        "path": "archive_pre_reset_2026-08-06/semantic_assumptions/cache/gheuens_rapaport_traits/q05.html",
+        "sha256": "48d3ee83bde2ffffa8a95770f5ca54ae996f340d81080e4024f9f94581d7f3ed",
+        "source_id": "q05",
+        "url": "https://www.voynich.nu/q05/index.html"
+      },
+      {
+        "bytes": 36621,
+        "pages": 16,
+        "path": "archive_pre_reset_2026-08-06/semantic_assumptions/cache/gheuens_rapaport_traits/q06.html",
+        "sha256": "bd377ccecf0c472e4b7965f9885b130943be6c98097b33fa5486c592cf133beb",
+        "source_id": "q06",
+        "url": "https://www.voynich.nu/q06/index.html"
+      },
+      {
+        "bytes": 36520,
+        "pages": 16,
+        "path": "archive_pre_reset_2026-08-06/semantic_assumptions/cache/gheuens_rapaport_traits/q07.html",
+        "sha256": "69af3fe68a574e4ac12e1af5eddf46c642d0ffa52b36b0fa577d3676294c2b1f",
+        "source_id": "q07",
+        "url": "https://www.voynich.nu/q07/index.html"
+      },
+      {
+        "bytes": 23446,
+        "pages": 8,
+        "path": "archive_pre_reset_2026-08-06/semantic_assumptions/cache/gheuens_rapaport_traits/q08.html",
+        "sha256": "ce3df63cb48cf440faa2d637b382b7665b992a55709b5a721fdce078e21e42d7",
+        "source_id": "q08",
+        "url": "https://www.voynich.nu/q08/index.html"
+      },
+      {
+        "bytes": 29525,
+        "pages": 10,
+        "path": "archive_pre_reset_2026-08-06/semantic_assumptions/cache/gheuens_rapaport_traits/q09.html",
+        "sha256": "56b592284239fbd4d2ffabac2c534207c2e8a6da00ce4570d526544b9793f977",
+        "source_id": "q09",
+        "url": "https://www.voynich.nu/q09/index.html"
+      },
+      {
+        "bytes": 18808,
+        "pages": 6,
+        "path": "archive_pre_reset_2026-08-06/semantic_assumptions/cache/gheuens_rapaport_traits/q10.html",
+        "sha256": "2f15159cd9ea04213f2031fbbebe33e3b057795656e349bf765e4f0344ff2ec5",
+        "source_id": "q10",
+        "url": "https://www.voynich.nu/q10/index.html"
+      },
+      {
+        "bytes": 23226,
+        "pages": 8,
+        "path": "archive_pre_reset_2026-08-06/semantic_assumptions/cache/gheuens_rapaport_traits/q11.html",
+        "sha256": "5553f82d3c7d016c3a9f7853388e844764239f929cdd24f2870a1d56b172ad64",
+        "source_id": "q11",
+        "url": "https://www.voynich.nu/q11/index.html"
+      },
+      {
+        "bytes": 8452,
+        "pages": 2,
+        "path": "archive_pre_reset_2026-08-06/semantic_assumptions/cache/gheuens_rapaport_traits/q12.html",
+        "sha256": "3a9b4e587c9b9d0228bf87eea1b3a0e34f3fcfe4abafd71e712213e0af9132b6",
+        "source_id": "q12",
+        "url": "https://www.voynich.nu/q12/index.html"
+      },
+      {
+        "bytes": 47007,
+        "pages": 20,
+        "path": "archive_pre_reset_2026-08-06/semantic_assumptions/cache/gheuens_rapaport_traits/q13.html",
+        "sha256": "424956a525b3bc0cf63aee266e8fd92c3c8c98c3f6d36427eeb3f62085ad6437",
+        "source_id": "q13",
+        "url": "https://www.voynich.nu/q13/index.html"
+      },
+      {
+        "bytes": 22225,
+        "pages": 8,
+        "path": "archive_pre_reset_2026-08-06/semantic_assumptions/cache/gheuens_rapaport_traits/q14.html",
+        "sha256": "a7f48085a58fec9d2e842665f74424a42a9a0524f8c9e7589616c15b2a667a4f",
+        "source_id": "q14",
+        "url": "https://www.voynich.nu/q14/index.html"
+      },
+      {
+        "bytes": 35198,
+        "pages": 12,
+        "path": "archive_pre_reset_2026-08-06/semantic_assumptions/cache/gheuens_rapaport_traits/q15.html",
+        "sha256": "25a8bb0083a2c6c09913910c52d03a699091c100294f8fe3c604e3846253f3a7",
+        "source_id": "q15",
+        "url": "https://www.voynich.nu/q15/index.html"
+      },
+      {
+        "bytes": 24539,
+        "pages": 10,
+        "path": "archive_pre_reset_2026-08-06/semantic_assumptions/cache/gheuens_rapaport_traits/q17.html",
+        "sha256": "5b5f1743df54e5e0b5f3e1e60e994870b237a3722122b8c6ce7be9121d6a24dd",
+        "source_id": "q17",
+        "url": "https://www.voynich.nu/q17/index.html"
+      },
+      {
+        "bytes": 40151,
+        "pages": 10,
+        "path": "archive_pre_reset_2026-08-06/semantic_assumptions/cache/gheuens_rapaport_traits/q19.html",
+        "sha256": "119fe32a005723833ec07a313fd87e1cd044a1f685ddd4fdd199e573c1dff1fb",
+        "source_id": "q19",
+        "url": "https://www.voynich.nu/q19/index.html"
+      },
+      {
+        "bytes": 54126,
+        "pages": 24,
+        "path": "archive_pre_reset_2026-08-06/semantic_assumptions/cache/gheuens_rapaport_traits/q20.html",
+        "sha256": "322002b8c8da66a5f1d2d4c05ab4e4bfca8233bb05751fbac5a7be88cea33201",
+        "source_id": "q20",
+        "url": "https://www.voynich.nu/q20/index.html"
+      }
+    ],
+    "zl3b_ivtff": {
+      "path": "transcription/sources/ZL3b-n.txt",
+      "sha256": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc"
+    },
+    "zl3b_structural_loci": {
+      "path": "transcription/voynich_zl3b_lines.tsv",
+      "sha256": "7520dd4c11f4d23c8492e4b2a52cc0fcbda6d9fc88a96ead8f1c31081a4d7ed2"
+    }
+  },
+  "status": "PASS_EXISTING_HUMAN_ANNOTATION_REUSE_SCOPED"
+}

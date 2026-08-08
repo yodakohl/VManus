@@ -1,0 +1,131 @@
+<HTML>
+<HEAD>
+<TITLE>Stolfi's Voynich pages - Label reference maps - Source text and encoding</TITLE>
+</HEAD>
+<BODY BGCOLOR="#efffde">
+
+<H1>Label reference maps</H1>
+
+<H2>Notes on the source text and encoding</H2>
+  
+  <p>The source text used to prepare this map is <a
+href="http://web.bham.ac.uk/G.Landini/evmt/evmt.htm">Gabriel Landini</a>'s
+  interlinear transcription of the VMs, version 1.6.  </p>
+  
+  <p>The file was slightly edited to simplify my processing.
+  The main change was replacing the "anonymous" text locations 
+  by specific locations (usually ".P", but sometimes ".P1", "P2",
+  or "R".)</p>
+  
+  <p>From this file, I manually extracted two sub-files: the <a
+  href="labels-m-fsg.evt">labels</a> and the the <a
+  href="parags-m-fsg.evt">paragraphic text</a> (or <a
+  href="parags-m-fsg.evt">parags</a> for short).</p>
+
+<H2>Labels file</H2>
+
+  <p>For the puposes of this map, a <em>label</em> is an isolated
+  short bit of Voynich text (a couple of words at most).  This definition includes the 
+  "day names" from the zodiac diagrams, the labels of stars 
+  in the "astro" section, and the labels of plants in the
+  "pharma" section, and so forth.  It includes also the "words" in the 
+  left column of page f66r.</p>
+  
+  <p>Unfortunately, the interlinear file contains only a small subset
+  of all the labels in the VMs.  The bulk comes from these pages:
+
+<pre>
+  location   section  L & H  text type        comments            
+  ---------  -------  -----  ---------------  --------------------
+  f66r       ?        B  ?   words            left col of a table 
+   
+  f67r1      astro    ?  ?   labels           on sectors          
+  f67v2      cosmo    ?  ?   labels           on diagram          
+   
+  f68r2      astro    ?  ?   labels           on stars            
+  f68v3      astro    ?  ?   labels           on diagram          
+  f68v2      astro    ?  ?   labels           radial              
+   
+  f70v2      zodiac   ?  ?   labels           on stars            
+  f70v1      zodiac   ?  ?   labels           on stars            
+  f71r       zodiac   ?  ?   labels           on stars            
+  f71v       zodiac   ?  ?   labels           on stars            
+  f72r1      zodiac   ?  ?   labels           on stars            
+  f72r2      zodiac   ?  ?   labels           on stars            
+   
+  f88r       pharma   A  4   labels           under plants        
+  f88v       pharma   A  4   labels           under plants        
+  f89r1      pharma   A  ?   labels           under plants        
+  f89r2      pharma   A  ?   labels           under plants        
+  f89v2      pharma   A  ?   labels           under plants        
+  f89v1      pharma   A  ?   labels           under plants        
+  f100r      pharma   A? 4?  labels           under plants        
+  f100v      pharma   A? 4?  labels           under plants        
+  f101v1     pharma   A? 4?  labels           under plants        
+</pre>
+
+<H2>Parags file</H2>
+
+  <p>The <a
+  href="parags-m-fsg.evt">parags</a> sub-file consists of all multi-line text
+  blocks that seem to be continuous paragraphs of "prose" text, broken
+  into lines in the usual way. In particular, it includes the
+  right-hand text in page f66r.</p>
+   
+  <p>(The balance of the interlinear file comprises text
+  in circles, isolated lines, titles, and the columns of isolated
+  letters in f49v and f66r.)</p>
+  
+<H2>Reencoding</H2>
+
+  The <em>labels</em> and <em>parags</em> sub-files were converted to
+  a <a href="ecc.html">special encoding</a>, named "ECC"
+  for no good reason, that discards those character details that are
+  most prone to transcription error or appear to have low semantic value.</p>
+  
+  <p>As part of the ECC recoding, all the inter-word spaces
+  (denoted by "."  in the interlinear file) were discarded.
+  Line breaks were preserved, however.</p>
+  
+<H2>Mechanical consensus</H2>
+
+  <p>After the ECC recoding, all the transcriptions for each line were mechanically
+  combined into a "consensus" transcription, producing the <a
+  href="labels-j-ecc.evt">encoded labels</a> and the the <a
+  href="parags-j-ecc.evt">encoded parags</a> files, respectively.</p>
+  
+  <p>The labels file was then sorted and cleaned, discarding
+  duplicates and labels that had conflicting transcriptions or
+  unreadable characters.  Any label with an embedded "-" (signifying
+  an intruding star, plant stem, or other element of a drawing) was
+  entered twice: once as single label, with the "-" removed, and once
+  as two distinct labels, as if the "-" was a line break.  After these
+  transformations, there remained 231 distinct labels, ranging between
+  2 and 18 ECC characters.</p>
+  
+  <p>The encoded parags file was not subjected to any further
+  cleanup. In particular, embedded "-" codes were left there.  It
+  comprised 3918 lines and 164571 ECC characters of Voynich text.</p>
+  
+<H2>Label reference index</H2>
+
+  <p>Each encoded label was then searched in the encoded parags
+  file. The position of each match was recorded into an 
+  <a href="label-occ-def.idx">index file</a>, both as a (line-num,
+  char-offset) pair and as a total count of Voynich characters since the
+  beginning of the encoded parags file. The location where the label
+  was first defined was also listed there, in curly braces.</p>
+  
+  <p>This index was then used to build the <a
+  href="Welcome.html">label reference maps and tables</a>.</p>
+  
+  <p><a href="label-fsg-rare-occ-def.idx">Another version</a> of
+  the index file, with the ECC labels replaced by their FSG originals,
+  was used to produce a printout of <a href="matches.html">selected
+  pages</a> showing the matches and near matches</a> for selected
+  labels.</p>
+  
+<hr>
+<em> Last edited on 97-10-23 by stolfi </em>
+</BODY>
+</HTML>

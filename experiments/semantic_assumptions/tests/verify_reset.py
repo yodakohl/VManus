@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verify the clean active baseline and frozen archive evidence pointers."""
+"""Verify active research state and curated archive evidence pointers."""
 
 from __future__ import annotations
 
@@ -18,6 +18,11 @@ ARCHIVE = ROOT / "archive_pre_reset_2026-08-06"
 MANIFEST = ARCHIVE / "ARCHIVE_MANIFEST.tsv"
 SUMMARY = ARCHIVE / "ARCHIVE_MANIFEST.json"
 LOCK = ACTIVE / "grammar" / "PRIMARY_EVIDENCE_LOCK.tsv"
+
+
+def is_transient(path: Path) -> bool:
+    """Ignore interpreter/build debris that is not research evidence."""
+    return "__pycache__" in path.parts or path.suffix == ".pyc" or path.name.endswith(".part")
 
 
 def digest(path: Path) -> str:
@@ -51,11 +56,33 @@ def main() -> None:
     if missing:
         raise FileNotFoundError(missing[0])
     ledger = read_tsv(ACTIVE / "ACTIVE_EXPERIMENT_LEDGER.tsv")
-    if len(ledger) > 64:
+    # The ledger is intentionally row-oriented and grows after every material
+    # pass. Keep a generous hard ceiling so this catches accidental archive
+    # re-expansion without failing during normal compact experiment turnover.
+    if len(ledger) > 1024:
         raise RuntimeError(f"active ledger is no longer compact: {len(ledger)} rows")
     hypotheses = read_tsv(ACTIVE / "hypotheses" / "ACTIVE_HYPOTHESES.tsv")
-    if hypotheses:
-        raise RuntimeError("fresh hypothesis queue is not empty")
+    if len(hypotheses) > 48:
+        raise RuntimeError(f"active hypothesis registry is no longer compact: {len(hypotheses)} rows")
+    identifiers = [row["hypothesis_id"] for row in hypotheses]
+    if len(identifiers) != len(set(identifiers)):
+        raise RuntimeError("duplicate active hypothesis id")
+    required_hypothesis_fields = {
+        "hypothesis_id", "status", "claim", "independent_evidence",
+        "predeclared_falsifier", "held_data", "result",
+    }
+    for row in hypotheses:
+        missing_fields = sorted(
+            field for field in required_hypothesis_fields if not row.get(field)
+        )
+        if missing_fields:
+            raise RuntimeError(
+                f"incomplete hypothesis {row.get('hypothesis_id', '?')}: {missing_fields}"
+            )
+        if row["status"] == "REGISTERED_UNSCORED" and row["result"] != "PENDING":
+            raise RuntimeError(
+                f"registered hypothesis {row['hypothesis_id']} has a non-pending result"
+            )
 
     archive_rows = read_tsv(MANIFEST)
     archive_by_path = {row["path"]: row for row in archive_rows}
@@ -99,16 +126,19 @@ def main() -> None:
                 raise RuntimeError(f"archive drift: {row['path']}")
         actual = {
             str(path.relative_to(ARCHIVE)) for path in ARCHIVE.rglob("*") if path.is_file()
-            and path.name not in {MANIFEST.name, SUMMARY.name}
+            and path.name not in {MANIFEST.name, SUMMARY.name} and not is_transient(path)
         }
         if actual != set(archive_by_path):
             raise RuntimeError("archive file inventory drift")
 
     summary = json.loads(SUMMARY.read_text(encoding="utf-8"))
     output = {
-        "status": "RESET_BASELINE_VERIFIED",
+        "status": "ACTIVE_STATE_VERIFIED",
         "active_ledger_rows": len(ledger),
         "active_hypotheses": len(hypotheses),
+        "registered_unscored_hypotheses": sum(
+            row["status"] == "REGISTERED_UNSCORED" for row in hypotheses
+        ),
         "primary_evidence_files": len(locked),
         "archive_files": len(archive_rows),
         "archive_manifest_sha256": digest(MANIFEST),

@@ -9,7 +9,12 @@ and may contain superseded claims.
 
 - Use subagents only when the user explicitly authorizes them; preserve task
   independence where blinding is part of an experiment.
-- Never commit, push, open a PR, or otherwise publish to GitHub.
+- Publish every material finding promptly to the public GitHub repository,
+  together with the experiment source, preregistration, validator, and compact
+  result artifacts needed to reproduce it. Direct pushes to `main` are
+  authorized. Before every push, scan the exact staged tree for credentials,
+  private keys, private machine metadata, absolute local paths, and private or
+  unrelated files; never publish any such material.
 - Prefer cached transcription/features and up to 32 CPU workers; avoid repeated
   OCR/image decoding.
 - Keep structural tags distinct from English word translations.

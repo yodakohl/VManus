@@ -1,0 +1,225 @@
+{
+  "created": "2026-08-06",
+  "editions": {
+    "IT2a": {
+      "contrasts": {
+        "A_ADJACENCY": {
+          "control_mean": 0.08555311406676717,
+          "coverage": 1.0,
+          "effect": 0.0053344233543341155,
+          "matched_pairs": 911,
+          "median_form_mismatch": 0.004179454358881535,
+          "median_total_length_mismatch": 0.0,
+          "page_bootstrap_95_ci": [
+            -0.004681086661939111,
+            0.015339923263436247
+          ],
+          "pages": 43,
+          "possible_pairs": 911,
+          "raw_p": 0.15509922450387748,
+          "relative_effect": 0.06235218217972798,
+          "target_mean": 0.09088753742110128
+        },
+        "B_REMOTE_PAGE": {
+          "control_mean": 0.0732045062065275,
+          "coverage": 0.8903280905273646,
+          "effect": 0.009127224599766542,
+          "matched_pairs": 12510,
+          "median_form_mismatch": 9.81001622312877e-05,
+          "median_total_length_mismatch": 0.0,
+          "page_bootstrap_95_ci": [
+            0.0020332638400791963,
+            0.016816383064265302
+          ],
+          "pages": 41,
+          "possible_pairs": 14051,
+          "raw_p": 0.009334953325233373,
+          "relative_effect": 0.12468118525403953,
+          "target_mean": 0.08233173080629405
+        },
+        "eligible_lines": 956
+      },
+      "eligible_roots": 222,
+      "forms": 373,
+      "inventory": {
+        "test": {
+          "lines": 962,
+          "pages": 43,
+          "strata": 8,
+          "targets": 7954
+        },
+        "train": {
+          "lines": 1896,
+          "pages": 101,
+          "strata": 13,
+          "targets": 15981
+        },
+        "validation": {
+          "lines": 1142,
+          "pages": 52,
+          "strata": 8,
+          "targets": 9496
+        }
+      },
+      "scales": {
+        "imbalance": 2.05951818010237,
+        "total_length": 4.41984180690592
+      },
+      "weight_signature": "8c16f82f1e039c11ebb579a4e8b29abaae86d0308063e9ea2f56fdd93afc2a71"
+    },
+    "RF1b": {
+      "contrasts": {
+        "A_ADJACENCY": {
+          "control_mean": 0.08584184193889725,
+          "coverage": 1.0,
+          "effect": 0.0022158350302240453,
+          "matched_pairs": 918,
+          "median_form_mismatch": 0.00469326000241338,
+          "median_total_length_mismatch": 0.0,
+          "page_bootstrap_95_ci": [
+            -0.009023092275299228,
+            0.014140761902723075
+          ],
+          "pages": 44,
+          "possible_pairs": 918,
+          "raw_p": 0.3605931970340148,
+          "relative_effect": 0.025812994923865802,
+          "target_mean": 0.08805767696912131
+        },
+        "B_REMOTE_PAGE": {
+          "control_mean": 0.06842502751116854,
+          "coverage": 0.8876700619702258,
+          "effect": 0.013604700098928953,
+          "matched_pairs": 12462,
+          "median_form_mismatch": 0.00010799068899161601,
+          "median_total_length_mismatch": 0.0,
+          "page_bootstrap_95_ci": [
+            0.007177085973603675,
+            0.020183803427439334
+          ],
+          "pages": 41,
+          "possible_pairs": 14039,
+          "raw_p": 5.4999725001374995e-05,
+          "relative_effect": 0.19882637382510884,
+          "target_mean": 0.08202972761009748
+        },
+        "eligible_lines": 965
+      },
+      "eligible_roots": 209,
+      "forms": 374,
+      "inventory": {
+        "test": {
+          "lines": 974,
+          "pages": 44,
+          "strata": 9,
+          "targets": 8197
+        },
+        "train": {
+          "lines": 1896,
+          "pages": 101,
+          "strata": 13,
+          "targets": 16339
+        },
+        "validation": {
+          "lines": 1143,
+          "pages": 52,
+          "strata": 8,
+          "targets": 9710
+        }
+      },
+      "scales": {
+        "imbalance": 2.0823018903228006,
+        "total_length": 4.671911204367213
+      },
+      "weight_signature": "72ae208f25a3e3b9b4be19aabe54e9e2872a426e180df017c4ebd3a40037a1ca"
+    },
+    "ZL3b": {
+      "contrasts": {
+        "A_ADJACENCY": {
+          "alternate_readings_same_sign": true,
+          "control_mean": 0.08637228396312507,
+          "coverage": 1.0,
+          "effect": 0.0022526978269416897,
+          "holm_p": 0.32439337803310986,
+          "matched_pairs": 915,
+          "median_form_mismatch": 0.0037972927983020988,
+          "median_total_length_mismatch": 0.0,
+          "page_bootstrap_95_ci": [
+            -0.007404792795346484,
+            0.011565766034207751
+          ],
+          "pages": 44,
+          "possible_pairs": 915,
+          "raw_p": 0.32439337803310986,
+          "relative_effect": 0.02608125805615415,
+          "target_mean": 0.08862498179006675
+        },
+        "B_REMOTE_PAGE": {
+          "alternate_readings_same_sign": true,
+          "control_mean": 0.07278234693548286,
+          "coverage": 0.8874625588361147,
+          "effect": 0.009735632506684482,
+          "holm_p": 0.007179964100179499,
+          "matched_pairs": 12444,
+          "median_form_mismatch": 0.00010139232963945338,
+          "median_total_length_mismatch": 0.0,
+          "page_bootstrap_95_ci": [
+            0.0030303157460621084,
+            0.016253342890355998
+          ],
+          "pages": 41,
+          "possible_pairs": 14022,
+          "raw_p": 0.0035899820500897494,
+          "relative_effect": 0.13376365171783386,
+          "target_mean": 0.08251797944216734
+        },
+        "eligible_lines": 965
+      },
+      "eligible_roots": 210,
+      "forms": 363,
+      "inventory": {
+        "test": {
+          "lines": 975,
+          "pages": 44,
+          "strata": 9,
+          "targets": 8038
+        },
+        "train": {
+          "lines": 1896,
+          "pages": 101,
+          "strata": 13,
+          "targets": 16153
+        },
+        "validation": {
+          "lines": 1143,
+          "pages": 52,
+          "strata": 8,
+          "targets": 9616
+        }
+      },
+      "scales": {
+        "imbalance": 2.082259101731162,
+        "total_length": 4.534791247077035
+      },
+      "weight_signature": "c4d5dff942db611bd772ea711b30e9cf2e7c642cc2824452328bd8aa67c5dc3f"
+    }
+  },
+  "elapsed_seconds": 11.56230303295888,
+  "experiment": "IL002",
+  "interpretation": "Exact roots carry nonadjacent page-level coherence without a material adjacency result, supporting topic/catalogue/mnemonic organization.",
+  "material": {
+    "A_ADJACENCY": false,
+    "B_REMOTE_PAGE": true
+  },
+  "preregistration_sha256": "1db582d81f1324b0c9d470564f5c5a94b8cbb78473a3ba29995da61aab431941",
+  "runner_sha256": "f1f287d170363e73ef78deedaa009eb0138765805e0cae6bf0410d3ab1000787",
+  "status": "FINAL_HELD_EVALUATED",
+  "validation_gates": {
+    "matching_A": true,
+    "matching_B": true,
+    "planted_A": true,
+    "planted_B": true,
+    "shuffle_removes_planted_A": true,
+    "split_nonempty": true
+  }
+}

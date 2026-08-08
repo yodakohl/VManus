@@ -1,0 +1,106 @@
+<HTML>
+<HEAD>
+<TITLE>Voynich manuscript encodings: ECC</TITLE>
+</HEAD>
+<BODY BGCOLOR="#deffde">
+
+<H1>Jorge's error-tolerant encoding "ECC"</H1>
+
+<p>The <b>ECC</b> column is an error-tolerant encoding 
+that I used to prepare the label location map. (The name
+"ECC" has no particular meaning.)</p>
+
+<p>To produce this encoding, the Voynich characters are broken down
+into separate pen strokes.  Then certain stroke sequences are
+collapsed back into single characters (not necessarily honoring the
+original character boundaries), omitting several details that are
+either too prone to error, that seem to be meaningless calligraphic
+variations, or that seem to have little semantic value.</p>
+
+<p>In particular, the <b>ECC</b> encoding ignores
+<ul>
+  <li> ligatures, such as the difference between Friedman's [T] and [CC], or [S] and
+[2C];
+  <li> the horizontal line in "intruding" gallows, such as [HZ], [PZ], [DZ], [FZ];
+  <li> the left "eye" on the gallows, that distinguishes [H] from [D], and [P] from [F];
+  <li> the connectivity between the `<b><tt>c</tt></b>' and `<b><tt>i</tt></b>' strokes that distinguishes [A] from [CI];
+  <li> any additional `<b><tt>i</tt></b>'s  after three consecutive `<b><tt>i</tt></b>' strokes, in particular the difference
+      between [AM], [AN], [AIM], [CIN], [CIIN], etc.
+  <li> extension of strokes below the baseline, in particular the difference between [G] and [A].
+  <li> the difference between [O] and [A].
+</ul>
+The ECC encoding is, therefore, highly ambiguous.
+The purpose of this encoding is to remove the main sources of noise that could
+confuse the statistical analysis, even at the cost of losing
+some significant information.</p> 
+
+<p>The ECC encoding uses only the letters <tt>8coqHPemrkij</tt>.
+Here is the approximate correspondence between Frogguy and ECC:</p>
+
+.
+<pre>
+    Frogguy:  o    a    9    4    8    ig  
+    --------  ---- ---- ---- ---- ---- ----
+    ECC:      o    o    o    q    8    8   
+            
+    Frogguy:  x    ix   iix  iiix
+    --------  ---- ---- ---- ----
+    ECC:      e    e    e    e   
+            
+    Frogguy:  e    e'   c    t    s    v    iv   iiv  iiiv
+    --------  ---- ---- ---- ---- ---- ---- ---- ---- ---- 
+    ECC:      c    c    c    c    c    m    m    m    m    
+            
+    Frogguy:  2    i2   ii2  iii2 r    ir   iir  iiir 
+    --------  ---- ---- ---- ---- ---- ---- ---- ---- 
+    ECC:      r    r    r    r    r    r    r    r    
+            
+    Frogguy:  k    ik   iik  iiik eg  
+    --------  ---- ---- ---- ---- ----
+    ECC:      k    k    k    k    cj  
+            
+    Frogguy:  qp   lp   eQPt eLPt
+    --------  ---- ---- ---- ----
+    ECC:      H    H    cHc  cHc 
+            
+    Frogguy:  dj   fj   eDJt eFJt
+    --------  ---- ---- ---- ----
+    ECC:      P    P    cPc  cPc 
+</pre>
+
+<p> Here is the approximate inverse mapping 
+from ECC to FSG:</p>
+
+<pre>
+    ECC   FSG  
+    ----  ---  
+    8     8, 7    
+    H     H, D       
+    P     P, F       
+    o     A, G, CI, O   
+    om    AM, AIN, CIIIL, AN, CM, CN, OM, ...
+    or    AR, CIR, OR, OIR, O2, A2, ...
+    ak    AIK, CIIK, OK, ...
+    c     C        
+    cHc   HZ, DZ      
+    cPc   PZ, FZ      
+    co    CA, CG, CCI, TI, SI
+    cc    T, S, CC     
+    cj    6        
+    e     E, IE, IIE, IIIE
+    i     I        
+    k     K, IK, IIK, IIIK
+    m     M, N, IM, IL, L
+    q     4        
+    r     R, IR, IIR, IIIR, 2, I2, II2, III2
+</pre>     
+<p> Note that the inverse mapping is (on purpose) quite ambiguous. </p>
+ 
+<p> Leaving the <tt>cj</tt> code for FSG <tt>6</tt> was a minor mistake; I 
+shoudl have mapped it to <tt>8</tt>, as I did for FSG <tt>7</tt>. </p>
+ 
+<hr>
+<em> Last edited on 97-10-23 by stolfi </em>
+</BODY>
+</HTML>
+                 

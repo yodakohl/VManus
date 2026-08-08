@@ -1,0 +1,1748 @@
+{
+  "status": "LINE_LOCAL_AII_BEFORE_AI_ORDER_PASS",
+  "design": {
+    "frozen_direction_source": "adjacent AII+N -> AI+N rule",
+    "held_distance_test": "nonadjacent pairs on even folios",
+    "conditional_nulls": [
+      "BASE",
+      "PAGE_BASE"
+    ],
+    "permutations": 200000,
+    "workers": 18
+  },
+  "editions": {
+    "ZL3b": {
+      "ODD": {
+        "ADJACENT": {
+          "mode": "ADJACENT",
+          "descending": 59,
+          "ascending": 40,
+          "delta": 19,
+          "contributing_lines": 86,
+          "page_sign_flip": {
+            "active_clusters": 39,
+            "observed_delta": 19,
+            "assignments": 549755813888,
+            "assignments_at_least_observed": 12701777133,
+            "exact_one_sided_p": 0.02310439801112807
+          },
+          "line_sign_flip": {
+            "active_clusters": 80,
+            "observed_delta": 19,
+            "assignments": 1208925819614629174706176,
+            "assignments_at_least_observed": 33674614509191037039890,
+            "exact_one_sided_p": 0.027854988257199717
+          }
+        },
+        "NONADJACENT": {
+          "mode": "NONADJACENT",
+          "descending": 231,
+          "ascending": 200,
+          "delta": 31,
+          "contributing_lines": 220,
+          "page_sign_flip": {
+            "active_clusters": 47,
+            "observed_delta": 31,
+            "assignments": 140737488355328,
+            "assignments_at_least_observed": 33534316213099,
+            "exact_one_sided_p": 0.23827564783899646
+          },
+          "line_sign_flip": {
+            "active_clusters": 186,
+            "observed_delta": 31,
+            "assignments": 98079714615416886934934209737619787751599303819750539264,
+            "assignments_at_least_observed": 13290123870229604889491116993425430643637632653557098482,
+            "exact_one_sided_p": 0.13550328854791108
+          }
+        },
+        "LINE_ALL": {
+          "mode": "LINE_ALL",
+          "descending": 290,
+          "ascending": 240,
+          "delta": 50,
+          "contributing_lines": 256,
+          "page_sign_flip": {
+            "active_clusters": 57,
+            "observed_delta": 50,
+            "assignments": 144115188075855872,
+            "assignments_at_least_observed": 18424010017670451,
+            "exact_one_sided_p": 0.1278422507971392
+          },
+          "line_sign_flip": {
+            "active_clusters": 215,
+            "observed_delta": 50,
+            "assignments": 52656145834278593348959013841835216159447547700274555627155488768,
+            "assignments_at_least_observed": 2157933463886988006015296879039737476821293375323958073861544362,
+            "exact_one_sided_p": 0.040981606794362004
+          }
+        }
+      },
+      "EVEN": {
+        "ADJACENT": {
+          "mode": "ADJACENT",
+          "descending": 61,
+          "ascending": 41,
+          "delta": 20,
+          "contributing_lines": 101,
+          "page_sign_flip": {
+            "active_clusters": 36,
+            "observed_delta": 20,
+            "assignments": 68719476736,
+            "assignments_at_least_observed": 2449968875,
+            "exact_one_sided_p": 0.035651739381137304
+          },
+          "line_sign_flip": {
+            "active_clusters": 100,
+            "observed_delta": 20,
+            "assignments": 1267650600228229401496703205376,
+            "assignments_at_least_observed": 36057011612866492098338762600,
+            "exact_one_sided_p": 0.028443966820490395
+          }
+        },
+        "NONADJACENT": {
+          "mode": "NONADJACENT",
+          "descending": 254,
+          "ascending": 163,
+          "delta": 91,
+          "contributing_lines": 242,
+          "page_sign_flip": {
+            "active_clusters": 57,
+            "observed_delta": 91,
+            "assignments": 144115188075855872,
+            "assignments_at_least_observed": 170715037876387,
+            "exact_one_sided_p": 0.0011845735356257533
+          },
+          "line_sign_flip": {
+            "active_clusters": 220,
+            "observed_delta": 91,
+            "assignments": 1684996666696914987166688442938726917102321526408785780068975640576,
+            "assignments_at_least_observed": 384577142053122487102204429361343886458487027808659431166057992,
+            "exact_one_sided_p": 0.00022823614411475714
+          }
+        },
+        "LINE_ALL": {
+          "mode": "LINE_ALL",
+          "descending": 315,
+          "ascending": 204,
+          "delta": 111,
+          "contributing_lines": 282,
+          "page_sign_flip": {
+            "active_clusters": 58,
+            "observed_delta": 111,
+            "assignments": 288230376151711744,
+            "assignments_at_least_observed": 213964557549383,
+            "exact_one_sided_p": 0.0007423386820158105
+          },
+          "line_sign_flip": {
+            "active_clusters": 251,
+            "observed_delta": 111,
+            "assignments": 3618502788666131106986593281521497120414687020801267626233049500247285301248,
+            "assignments_at_least_observed": 231134150619212213685894477219362967527097137966668372605688635275579378,
+            "exact_one_sided_p": 6.387563147475532e-05
+          }
+        }
+      },
+      "ALL": {
+        "ADJACENT": {
+          "mode": "ADJACENT",
+          "descending": 120,
+          "ascending": 81,
+          "delta": 39,
+          "contributing_lines": 187,
+          "page_sign_flip": {
+            "active_clusters": 75,
+            "observed_delta": 39,
+            "assignments": 37778931862957161709568,
+            "assignments_at_least_observed": 105632756913044049699,
+            "exact_one_sided_p": 0.002796075794207899
+          },
+          "line_sign_flip": {
+            "active_clusters": 180,
+            "observed_delta": 39,
+            "assignments": 1532495540865888858358347027150309183618739122183602176,
+            "assignments_at_least_observed": 4250401284903133621409609592324427458980976773377468,
+            "exact_one_sided_p": 0.0027735162495165088
+          }
+        },
+        "NONADJACENT": {
+          "mode": "NONADJACENT",
+          "descending": 485,
+          "ascending": 363,
+          "delta": 122,
+          "contributing_lines": 462,
+          "page_sign_flip": {
+            "active_clusters": 104,
+            "observed_delta": 122,
+            "assignments": 20282409603651670423947251286016,
+            "assignments_at_least_observed": 177557961115382915166159481441,
+            "exact_one_sided_p": 0.008754283370917387
+          },
+          "line_sign_flip": {
+            "active_clusters": 406,
+            "observed_delta": 122,
+            "assignments": 165263992197562149737978827008192759957101170741070304821162198818601447809077836456297302609928821211897803006255839576064,
+            "assignments_at_least_observed": 100961138332230623535095700600523143426239247867251356725007243524869433674902028519323463174209442193866259667217191322,
+            "exact_one_sided_p": 0.0006109082625302811
+          }
+        },
+        "LINE_ALL": {
+          "mode": "LINE_ALL",
+          "descending": 605,
+          "ascending": 444,
+          "delta": 161,
+          "contributing_lines": 538,
+          "page_sign_flip": {
+            "active_clusters": 115,
+            "observed_delta": 161,
+            "assignments": 41538374868278621028243970633760768,
+            "assignments_at_least_observed": 74067619107538281047000753907801,
+            "exact_one_sided_p": 0.0017831130693584522
+          },
+          "line_sign_flip": {
+            "active_clusters": 466,
+            "observed_delta": 161,
+            "assignments": 190536410541747572716161940294993060653600960856016305594430966774009505543198585212421026798308836130360530463953040948208494609331560382464,
+            "assignments_at_least_observed": 6562432308678961154776909545068600269973862977848215284707571143299500698022235720345087655385224158407883960403314775010943047855037712,
+            "exact_one_sided_p": 3.4441880635938064e-05
+          }
+        }
+      }
+    },
+    "IT2a": {
+      "ODD": {
+        "ADJACENT": {
+          "mode": "ADJACENT",
+          "descending": 59,
+          "ascending": 34,
+          "delta": 25,
+          "contributing_lines": 84,
+          "page_sign_flip": {
+            "active_clusters": 38,
+            "observed_delta": 25,
+            "assignments": 274877906944,
+            "assignments_at_least_observed": 462455474,
+            "exact_one_sided_p": 0.0016824032136355527
+          },
+          "line_sign_flip": {
+            "active_clusters": 79,
+            "observed_delta": 25,
+            "assignments": 604462909807314587353088,
+            "assignments_at_least_observed": 2647404091955354884136,
+            "exact_one_sided_p": 0.004379762676918045
+          }
+        },
+        "NONADJACENT": {
+          "mode": "NONADJACENT",
+          "descending": 226,
+          "ascending": 195,
+          "delta": 31,
+          "contributing_lines": 216,
+          "page_sign_flip": {
+            "active_clusters": 49,
+            "observed_delta": 31,
+            "assignments": 562949953421312,
+            "assignments_at_least_observed": 134413671591525,
+            "exact_one_sided_p": 0.23876664484050458
+          },
+          "line_sign_flip": {
+            "active_clusters": 187,
+            "observed_delta": 31,
+            "assignments": 196159429230833773869868419475239575503198607639501078528,
+            "assignments_at_least_observed": 26823840307027538535621633988971003342909919227004051424,
+            "exact_one_sided_p": 0.13674509765962947
+          }
+        },
+        "LINE_ALL": {
+          "mode": "LINE_ALL",
+          "descending": 285,
+          "ascending": 229,
+          "delta": 56,
+          "contributing_lines": 249,
+          "page_sign_flip": {
+            "active_clusters": 58,
+            "observed_delta": 56,
+            "assignments": 288230376151711744,
+            "assignments_at_least_observed": 28064541184501835,
+            "exact_one_sided_p": 0.09736843687054657
+          },
+          "line_sign_flip": {
+            "active_clusters": 210,
+            "observed_delta": 56,
+            "assignments": 1645504557321206042154969182557350504982735865633579863348609024,
+            "assignments_at_least_observed": 43557785395268573549701162855885076159129710578868747678447996,
+            "exact_one_sided_p": 0.02647077773286653
+          }
+        }
+      },
+      "EVEN": {
+        "ADJACENT": {
+          "mode": "ADJACENT",
+          "descending": 67,
+          "ascending": 42,
+          "delta": 25,
+          "contributing_lines": 106,
+          "page_sign_flip": {
+            "active_clusters": 34,
+            "observed_delta": 25,
+            "assignments": 17179869184,
+            "assignments_at_least_observed": 240159970,
+            "exact_one_sided_p": 0.013979150098748505
+          },
+          "line_sign_flip": {
+            "active_clusters": 103,
+            "observed_delta": 25,
+            "assignments": 10141204801825835211973625643008,
+            "assignments_at_least_observed": 89288526032234345493083549440,
+            "exact_one_sided_p": 0.008804528433954783
+          }
+        },
+        "NONADJACENT": {
+          "mode": "NONADJACENT",
+          "descending": 262,
+          "ascending": 165,
+          "delta": 97,
+          "contributing_lines": 246,
+          "page_sign_flip": {
+            "active_clusters": 57,
+            "observed_delta": 97,
+            "assignments": 144115188075855872,
+            "assignments_at_least_observed": 181162701217770,
+            "exact_one_sided_p": 0.0012570687630953509
+          },
+          "line_sign_flip": {
+            "active_clusters": 223,
+            "observed_delta": 97,
+            "assignments": 13479973333575319897333507543509815336818572211270286240551805124608,
+            "assignments_at_least_observed": 1285914404183447293330764689941386011209893654644375328960531104,
+            "exact_one_sided_p": 9.539443234509587e-05
+          }
+        },
+        "LINE_ALL": {
+          "mode": "LINE_ALL",
+          "descending": 329,
+          "ascending": 207,
+          "delta": 122,
+          "contributing_lines": 287,
+          "page_sign_flip": {
+            "active_clusters": 58,
+            "observed_delta": 122,
+            "assignments": 288230376151711744,
+            "assignments_at_least_observed": 125584881987655,
+            "exact_one_sided_p": 0.000435710086023524
+          },
+          "line_sign_flip": {
+            "active_clusters": 251,
+            "observed_delta": 122,
+            "assignments": 3618502788666131106986593281521497120414687020801267626233049500247285301248,
+            "assignments_at_least_observed": 37942539347761788892714810370781337083217862478566108399671578743623681,
+            "exact_one_sided_p": 1.048570128689837e-05
+          }
+        }
+      },
+      "ALL": {
+        "ADJACENT": {
+          "mode": "ADJACENT",
+          "descending": 126,
+          "ascending": 76,
+          "delta": 50,
+          "contributing_lines": 190,
+          "page_sign_flip": {
+            "active_clusters": 72,
+            "observed_delta": 50,
+            "assignments": 4722366482869645213696,
+            "assignments_at_least_observed": 611298980635599440,
+            "exact_one_sided_p": 0.00012944759430533033
+          },
+          "line_sign_flip": {
+            "active_clusters": 182,
+            "observed_delta": 50,
+            "assignments": 6129982163463555433433388108601236734474956488734408704,
+            "assignments_at_least_observed": 994810330952997030745864398649291334060767532547322,
+            "exact_one_sided_p": 0.00016228600743446706
+          }
+        },
+        "NONADJACENT": {
+          "mode": "NONADJACENT",
+          "descending": 488,
+          "ascending": 360,
+          "delta": 128,
+          "contributing_lines": 462,
+          "page_sign_flip": {
+            "active_clusters": 106,
+            "observed_delta": 128,
+            "assignments": 81129638414606681695789005144064,
+            "assignments_at_least_observed": 622354829878425416878322834761,
+            "exact_one_sided_p": 0.007671115538540055
+          },
+          "line_sign_flip": {
+            "active_clusters": 410,
+            "observed_delta": 128,
+            "assignments": 2644223875160994395807661232131084159313618731857124877138595181097623164945245383300756841758861139390364848100093433217024,
+            "assignments_at_least_observed": 935310241102854857118674058419672922105671446201920982022385430342405938645870848835056532969755560883281176925081203402,
+            "exact_one_sided_p": 0.00035371824976276195
+          }
+        },
+        "LINE_ALL": {
+          "mode": "LINE_ALL",
+          "descending": 614,
+          "ascending": 436,
+          "delta": 178,
+          "contributing_lines": 536,
+          "page_sign_flip": {
+            "active_clusters": 116,
+            "observed_delta": 178,
+            "assignments": 83076749736557242056487941267521536,
+            "assignments_at_least_observed": 61676984690076948945194100256905,
+            "exact_one_sided_p": 0.0007424096980883268
+          },
+          "line_sign_flip": {
+            "active_clusters": 461,
+            "observed_delta": 178,
+            "assignments": 5954262829429611647380060634218533145425030026750509549825967711687797048224955787888157087447151129073766576998532529631515456541611261952,
+            "assignments_at_least_observed": 30946177812328072969078322536278926151611581717168741711110189774232618456303122567043784770503589136552697394229300393200508164678682,
+            "exact_one_sided_p": 5.197314713649038e-06
+          }
+        }
+      }
+    },
+    "RF1b": {
+      "ODD": {
+        "ADJACENT": {
+          "mode": "ADJACENT",
+          "descending": 54,
+          "ascending": 34,
+          "delta": 20,
+          "contributing_lines": 80,
+          "page_sign_flip": {
+            "active_clusters": 38,
+            "observed_delta": 20,
+            "assignments": 274877906944,
+            "assignments_at_least_observed": 1357079656,
+            "exact_one_sided_p": 0.004937027028063312
+          },
+          "line_sign_flip": {
+            "active_clusters": 76,
+            "observed_delta": 20,
+            "assignments": 75557863725914323419136,
+            "assignments_at_least_observed": 1328163450181479086092,
+            "exact_one_sided_p": 0.017578096900666536
+          }
+        },
+        "NONADJACENT": {
+          "mode": "NONADJACENT",
+          "descending": 194,
+          "ascending": 170,
+          "delta": 24,
+          "contributing_lines": 197,
+          "page_sign_flip": {
+            "active_clusters": 46,
+            "observed_delta": 24,
+            "assignments": 70368744177664,
+            "assignments_at_least_observed": 18390961558810,
+            "exact_one_sided_p": 0.2613512827851139
+          },
+          "line_sign_flip": {
+            "active_clusters": 176,
+            "observed_delta": 24,
+            "assignments": 95780971304118053647396689196894323976171195136475136,
+            "assignments_at_least_observed": 16904896536707104863391478248746747571296330295689262,
+            "exact_one_sided_p": 0.17649535504324423
+          }
+        },
+        "LINE_ALL": {
+          "mode": "LINE_ALL",
+          "descending": 248,
+          "ascending": 204,
+          "delta": 44,
+          "contributing_lines": 228,
+          "page_sign_flip": {
+            "active_clusters": 58,
+            "observed_delta": 44,
+            "assignments": 288230376151711744,
+            "assignments_at_least_observed": 35918860429329941,
+            "exact_one_sided_p": 0.12461858083418605
+          },
+          "line_sign_flip": {
+            "active_clusters": 190,
+            "observed_delta": 44,
+            "assignments": 1569275433846670190958947355801916604025588861116008628224,
+            "assignments_at_least_observed": 73100519839877491582390543392755898414052477690550114032,
+            "exact_one_sided_p": 0.04658233874259447
+          }
+        }
+      },
+      "EVEN": {
+        "ADJACENT": {
+          "mode": "ADJACENT",
+          "descending": 54,
+          "ascending": 37,
+          "delta": 17,
+          "contributing_lines": 90,
+          "page_sign_flip": {
+            "active_clusters": 29,
+            "observed_delta": 17,
+            "assignments": 536870912,
+            "assignments_at_least_observed": 22809672,
+            "exact_one_sided_p": 0.04248632490634918
+          },
+          "line_sign_flip": {
+            "active_clusters": 89,
+            "observed_delta": 17,
+            "assignments": 618970019642690137449562112,
+            "assignments_at_least_observed": 27643429084501909715843608,
+            "exact_one_sided_p": 0.04466036836559467
+          }
+        },
+        "NONADJACENT": {
+          "mode": "NONADJACENT",
+          "descending": 228,
+          "ascending": 147,
+          "delta": 81,
+          "contributing_lines": 223,
+          "page_sign_flip": {
+            "active_clusters": 54,
+            "observed_delta": 81,
+            "assignments": 18014398509481984,
+            "assignments_at_least_observed": 36842724299452,
+            "exact_one_sided_p": 0.0020451820403584176
+          },
+          "line_sign_flip": {
+            "active_clusters": 206,
+            "observed_delta": 81,
+            "assignments": 102844034832575377634685573909834406561420991602098741459288064,
+            "assignments_at_least_observed": 70275160505917266242548994552102217502151307468820807162848,
+            "exact_one_sided_p": 0.0006833178085663548
+          }
+        },
+        "LINE_ALL": {
+          "mode": "LINE_ALL",
+          "descending": 282,
+          "ascending": 184,
+          "delta": 98,
+          "contributing_lines": 257,
+          "page_sign_flip": {
+            "active_clusters": 58,
+            "observed_delta": 98,
+            "assignments": 288230376151711744,
+            "assignments_at_least_observed": 300522767168953,
+            "exact_one_sided_p": 0.0010426477985469897
+          },
+          "line_sign_flip": {
+            "active_clusters": 231,
+            "observed_delta": 98,
+            "assignments": 3450873173395281893717377931138512726225554486085193277581262111899648,
+            "assignments_at_least_observed": 811001170109758852518629838347957445517936253500338963634660257982,
+            "exact_one_sided_p": 0.00023501332253014165
+          }
+        }
+      },
+      "ALL": {
+        "ADJACENT": {
+          "mode": "ADJACENT",
+          "descending": 108,
+          "ascending": 71,
+          "delta": 37,
+          "contributing_lines": 170,
+          "page_sign_flip": {
+            "active_clusters": 67,
+            "observed_delta": 37,
+            "assignments": 147573952589676412928,
+            "assignments_at_least_observed": 142659831278946048,
+            "exact_one_sided_p": 0.0009667006187440551
+          },
+          "line_sign_flip": {
+            "active_clusters": 165,
+            "observed_delta": 37,
+            "assignments": 46768052394588893382517914646921056628989841375232,
+            "assignments_at_least_observed": 133987172669705456767758806174490957264726826376,
+            "exact_one_sided_p": 0.002864929493732946
+          }
+        },
+        "NONADJACENT": {
+          "mode": "NONADJACENT",
+          "descending": 422,
+          "ascending": 317,
+          "delta": 105,
+          "contributing_lines": 420,
+          "page_sign_flip": {
+            "active_clusters": 100,
+            "observed_delta": 105,
+            "assignments": 1267650600228229401496703205376,
+            "assignments_at_least_observed": 15302965227065839774415663501,
+            "exact_one_sided_p": 0.012071911001588826
+          },
+          "line_sign_flip": {
+            "active_clusters": 382,
+            "observed_delta": 105,
+            "assignments": 9850501549098619803069760025035903451269934817616361666987073351061430442874302652853566563721228910201656997576704,
+            "assignments_at_least_observed": 15376125343146567179696827792152526509952440903503668438277886818406350034058391702569143263845545115211326824556,
+            "exact_one_sided_p": 0.0015609484721672447
+          }
+        },
+        "LINE_ALL": {
+          "mode": "LINE_ALL",
+          "descending": 530,
+          "ascending": 388,
+          "delta": 142,
+          "contributing_lines": 485,
+          "page_sign_flip": {
+            "active_clusters": 116,
+            "observed_delta": 142,
+            "assignments": 83076749736557242056487941267521536,
+            "assignments_at_least_observed": 174355564152216232268285592756307,
+            "exact_one_sided_p": 0.0020987287623205186
+          },
+          "line_sign_flip": {
+            "active_clusters": 421,
+            "observed_delta": 142,
+            "assignments": 5415370496329716522614090203404460358274291162843391748379842930887932241807862544999950011922147613471467208908991351228465152,
+            "assignments_at_least_observed": 505696863877310904349375623302041955885196745756713121751209816504295139893884212165970440611390884099819131139457319298168,
+            "exact_one_sided_p": 9.338176662521031e-05
+          }
+        }
+      }
+    }
+  },
+  "conditional_shuffles": {
+    "ZL3b": {
+      "ODD": {
+        "BASE": {
+          "ADJACENT": {
+            "observed_delta": 19,
+            "candidate_pairs_including_ties": 267,
+            "variable_groups": 73,
+            "permutations": 200000,
+            "null_mean": 3.2569,
+            "null_sd": 9.11628226800816,
+            "one_sided_p": 0.04702476487617562
+          },
+          "NONADJACENT": {
+            "observed_delta": 31,
+            "candidate_pairs_including_ties": 1282,
+            "variable_groups": 73,
+            "permutations": 200000,
+            "null_mean": 27.826605,
+            "null_sd": 27.00782755376624,
+            "one_sided_p": 0.46114269428652854
+          },
+          "LINE_ALL": {
+            "observed_delta": 50,
+            "candidate_pairs_including_ties": 1549,
+            "variable_groups": 73,
+            "permutations": 200000,
+            "null_mean": 31.083505,
+            "null_sd": 28.738395430416343,
+            "one_sided_p": 0.26083869580652097
+          }
+        },
+        "PAGE_BASE": {
+          "ADJACENT": {
+            "observed_delta": 19,
+            "candidate_pairs_including_ties": 267,
+            "variable_groups": 173,
+            "permutations": 200000,
+            "null_mean": 6.073165,
+            "null_sd": 6.537022401887192,
+            "one_sided_p": 0.028019859900700498
+          },
+          "NONADJACENT": {
+            "observed_delta": 31,
+            "candidate_pairs_including_ties": 1282,
+            "variable_groups": 173,
+            "permutations": 200000,
+            "null_mean": 35.93044,
+            "null_sd": 18.813377724544843,
+            "one_sided_p": 0.6139569302153489
+          },
+          "LINE_ALL": {
+            "observed_delta": 50,
+            "candidate_pairs_including_ties": 1549,
+            "variable_groups": 173,
+            "permutations": 200000,
+            "null_mean": 42.003605,
+            "null_sd": 19.863568460978378,
+            "one_sided_p": 0.35237823810880947
+          }
+        }
+      },
+      "EVEN": {
+        "BASE": {
+          "ADJACENT": {
+            "observed_delta": 20,
+            "candidate_pairs_including_ties": 290,
+            "variable_groups": 70,
+            "permutations": 200000,
+            "null_mean": 2.39217,
+            "null_sd": 9.196838189894395,
+            "one_sided_p": 0.03130484347578262
+          },
+          "NONADJACENT": {
+            "observed_delta": 91,
+            "candidate_pairs_including_ties": 1091,
+            "variable_groups": 70,
+            "permutations": 200000,
+            "null_mean": 35.362925,
+            "null_sd": 23.248855035127537,
+            "one_sided_p": 0.009039954800226
+          },
+          "LINE_ALL": {
+            "observed_delta": 111,
+            "candidate_pairs_including_ties": 1381,
+            "variable_groups": 70,
+            "permutations": 200000,
+            "null_mean": 37.755095,
+            "null_sd": 25.373036407591727,
+            "one_sided_p": 0.002164989175054125
+          }
+        },
+        "PAGE_BASE": {
+          "ADJACENT": {
+            "observed_delta": 20,
+            "candidate_pairs_including_ties": 290,
+            "variable_groups": 171,
+            "permutations": 200000,
+            "null_mean": 10.928325,
+            "null_sd": 6.858375003918569,
+            "one_sided_p": 0.10623946880265599
+          },
+          "NONADJACENT": {
+            "observed_delta": 91,
+            "candidate_pairs_including_ties": 1091,
+            "variable_groups": 171,
+            "permutations": 200000,
+            "null_mean": 41.162755,
+            "null_sd": 17.754473121159503,
+            "one_sided_p": 0.0026899865500672497
+          },
+          "LINE_ALL": {
+            "observed_delta": 111,
+            "candidate_pairs_including_ties": 1381,
+            "variable_groups": 171,
+            "permutations": 200000,
+            "null_mean": 52.09108,
+            "null_sd": 19.024622846027732,
+            "one_sided_p": 0.00120999395003025
+          }
+        }
+      },
+      "ALL": {
+        "BASE": {
+          "ADJACENT": {
+            "observed_delta": 39,
+            "candidate_pairs_including_ties": 557,
+            "variable_groups": 125,
+            "permutations": 200000,
+            "null_mean": 3.137005,
+            "null_sd": 13.352605162663016,
+            "one_sided_p": 0.0038649806750966245
+          },
+          "NONADJACENT": {
+            "observed_delta": 122,
+            "candidate_pairs_including_ties": 2373,
+            "variable_groups": 125,
+            "permutations": 200000,
+            "null_mean": 47.737915,
+            "null_sd": 36.402492723064654,
+            "one_sided_p": 0.02199989000055
+          },
+          "LINE_ALL": {
+            "observed_delta": 161,
+            "candidate_pairs_including_ties": 2930,
+            "variable_groups": 125,
+            "permutations": 200000,
+            "null_mean": 50.87492,
+            "null_sd": 39.28494030787879,
+            "one_sided_p": 0.0027249863750681246
+          }
+        },
+        "PAGE_BASE": {
+          "ADJACENT": {
+            "observed_delta": 39,
+            "candidate_pairs_including_ties": 557,
+            "variable_groups": 344,
+            "permutations": 200000,
+            "null_mean": 16.9652,
+            "null_sd": 9.476614319470853,
+            "one_sided_p": 0.01144994275028625
+          },
+          "NONADJACENT": {
+            "observed_delta": 122,
+            "candidate_pairs_including_ties": 2373,
+            "variable_groups": 344,
+            "permutations": 200000,
+            "null_mean": 77.097045,
+            "null_sd": 25.852981399985115,
+            "one_sided_p": 0.0430197849010755
+          },
+          "LINE_ALL": {
+            "observed_delta": 161,
+            "candidate_pairs_including_ties": 2930,
+            "variable_groups": 344,
+            "permutations": 200000,
+            "null_mean": 94.062245,
+            "null_sd": 27.455248324500264,
+            "one_sided_p": 0.008104959475202624
+          }
+        }
+      }
+    },
+    "IT2a": {
+      "ODD": {
+        "BASE": {
+          "ADJACENT": {
+            "observed_delta": 25,
+            "candidate_pairs_including_ties": 272,
+            "variable_groups": 69,
+            "permutations": 200000,
+            "null_mean": 7.24978,
+            "null_sd": 9.168244104058312,
+            "one_sided_p": 0.030219848900755495
+          },
+          "NONADJACENT": {
+            "observed_delta": 31,
+            "candidate_pairs_including_ties": 1299,
+            "variable_groups": 69,
+            "permutations": 200000,
+            "null_mean": 13.45714,
+            "null_sd": 27.455458710799206,
+            "one_sided_p": 0.2681486592567037
+          },
+          "LINE_ALL": {
+            "observed_delta": 56,
+            "candidate_pairs_including_ties": 1571,
+            "variable_groups": 69,
+            "permutations": 200000,
+            "null_mean": 20.70692,
+            "null_sd": 29.07718476939609,
+            "one_sided_p": 0.11542942285288574
+          }
+        },
+        "PAGE_BASE": {
+          "ADJACENT": {
+            "observed_delta": 25,
+            "candidate_pairs_including_ties": 272,
+            "variable_groups": 172,
+            "permutations": 200000,
+            "null_mean": 11.513195,
+            "null_sd": 6.643662084421137,
+            "one_sided_p": 0.02487487562562187
+          },
+          "NONADJACENT": {
+            "observed_delta": 31,
+            "candidate_pairs_including_ties": 1299,
+            "variable_groups": 172,
+            "permutations": 200000,
+            "null_mean": 31.067155,
+            "null_sd": 19.015945288256773,
+            "one_sided_p": 0.5117074414627927
+          },
+          "LINE_ALL": {
+            "observed_delta": 56,
+            "candidate_pairs_including_ties": 1571,
+            "variable_groups": 172,
+            "permutations": 200000,
+            "null_mean": 42.58035,
+            "null_sd": 20.19799331313633,
+            "one_sided_p": 0.26110869445652773
+          }
+        }
+      },
+      "EVEN": {
+        "BASE": {
+          "ADJACENT": {
+            "observed_delta": 25,
+            "candidate_pairs_including_ties": 295,
+            "variable_groups": 73,
+            "permutations": 200000,
+            "null_mean": 2.100745,
+            "null_sd": 9.33594427173679,
+            "one_sided_p": 0.008069959650201748
+          },
+          "NONADJACENT": {
+            "observed_delta": 97,
+            "candidate_pairs_including_ties": 1125,
+            "variable_groups": 73,
+            "permutations": 200000,
+            "null_mean": 35.525645,
+            "null_sd": 24.248325763523866,
+            "one_sided_p": 0.00598997005014975
+          },
+          "LINE_ALL": {
+            "observed_delta": 122,
+            "candidate_pairs_including_ties": 1420,
+            "variable_groups": 73,
+            "permutations": 200000,
+            "null_mean": 37.62639,
+            "null_sd": 26.351811808069293,
+            "one_sided_p": 0.0007749961250193749
+          }
+        },
+        "PAGE_BASE": {
+          "ADJACENT": {
+            "observed_delta": 25,
+            "candidate_pairs_including_ties": 295,
+            "variable_groups": 180,
+            "permutations": 200000,
+            "null_mean": 13.952115,
+            "null_sd": 6.914903616593295,
+            "one_sided_p": 0.06315468422657887
+          },
+          "NONADJACENT": {
+            "observed_delta": 97,
+            "candidate_pairs_including_ties": 1125,
+            "variable_groups": 180,
+            "permutations": 200000,
+            "null_mean": 40.48927,
+            "null_sd": 18.341202928573143,
+            "one_sided_p": 0.001064994675026625
+          },
+          "LINE_ALL": {
+            "observed_delta": 122,
+            "candidate_pairs_including_ties": 1420,
+            "variable_groups": 180,
+            "permutations": 200000,
+            "null_mean": 54.441385,
+            "null_sd": 19.640172460591458,
+            "one_sided_p": 0.00037999810000949997
+          }
+        }
+      },
+      "ALL": {
+        "BASE": {
+          "ADJACENT": {
+            "observed_delta": 50,
+            "candidate_pairs_including_ties": 567,
+            "variable_groups": 127,
+            "permutations": 200000,
+            "null_mean": 7.512415,
+            "null_sd": 13.47847750555585,
+            "one_sided_p": 0.0008899955500222498
+          },
+          "NONADJACENT": {
+            "observed_delta": 128,
+            "candidate_pairs_including_ties": 2424,
+            "variable_groups": 127,
+            "permutations": 200000,
+            "null_mean": 36.954765,
+            "null_sd": 37.03789895221886,
+            "one_sided_p": 0.006959965200173999
+          },
+          "LINE_ALL": {
+            "observed_delta": 178,
+            "candidate_pairs_including_ties": 2991,
+            "variable_groups": 127,
+            "permutations": 200000,
+            "null_mean": 44.46718,
+            "null_sd": 39.85248527818058,
+            "one_sided_p": 0.00034999825000874994
+          }
+        },
+        "PAGE_BASE": {
+          "ADJACENT": {
+            "observed_delta": 50,
+            "candidate_pairs_including_ties": 567,
+            "variable_groups": 352,
+            "permutations": 200000,
+            "null_mean": 25.42359,
+            "null_sd": 9.577571796227891,
+            "one_sided_p": 0.005654971725141374
+          },
+          "NONADJACENT": {
+            "observed_delta": 128,
+            "candidate_pairs_including_ties": 2424,
+            "variable_groups": 352,
+            "permutations": 200000,
+            "null_mean": 71.69079,
+            "null_sd": 26.447198701864426,
+            "one_sided_p": 0.017344913275433624
+          },
+          "LINE_ALL": {
+            "observed_delta": 178,
+            "candidate_pairs_including_ties": 2991,
+            "variable_groups": 352,
+            "permutations": 200000,
+            "null_mean": 97.11438,
+            "null_sd": 28.228029637500413,
+            "one_sided_p": 0.0021249893750531247
+          }
+        }
+      }
+    },
+    "RF1b": {
+      "ODD": {
+        "BASE": {
+          "ADJACENT": {
+            "observed_delta": 20,
+            "candidate_pairs_including_ties": 233,
+            "variable_groups": 65,
+            "permutations": 200000,
+            "null_mean": 8.793825,
+            "null_sd": 8.609640925693418,
+            "one_sided_p": 0.10659446702766485
+          },
+          "NONADJACENT": {
+            "observed_delta": 24,
+            "candidate_pairs_including_ties": 1097,
+            "variable_groups": 65,
+            "permutations": 200000,
+            "null_mean": 34.00356,
+            "null_sd": 24.932766339225175,
+            "one_sided_p": 0.6627666861665692
+          },
+          "LINE_ALL": {
+            "observed_delta": 44,
+            "candidate_pairs_including_ties": 1330,
+            "variable_groups": 65,
+            "permutations": 200000,
+            "null_mean": 42.797385,
+            "null_sd": 26.3913995870203,
+            "one_sided_p": 0.48842255788721056
+          }
+        },
+        "PAGE_BASE": {
+          "ADJACENT": {
+            "observed_delta": 20,
+            "candidate_pairs_including_ties": 233,
+            "variable_groups": 156,
+            "permutations": 200000,
+            "null_mean": 9.941245,
+            "null_sd": 5.955084621562903,
+            "one_sided_p": 0.053929730351348244
+          },
+          "NONADJACENT": {
+            "observed_delta": 24,
+            "candidate_pairs_including_ties": 1097,
+            "variable_groups": 156,
+            "permutations": 200000,
+            "null_mean": 32.557805,
+            "null_sd": 17.16830884455353,
+            "one_sided_p": 0.7010164949175254
+          },
+          "LINE_ALL": {
+            "observed_delta": 44,
+            "candidate_pairs_including_ties": 1330,
+            "variable_groups": 156,
+            "permutations": 200000,
+            "null_mean": 42.49905,
+            "null_sd": 18.10363331205922,
+            "one_sided_p": 0.4785426072869636
+          }
+        }
+      },
+      "EVEN": {
+        "BASE": {
+          "ADJACENT": {
+            "observed_delta": 17,
+            "candidate_pairs_including_ties": 263,
+            "variable_groups": 71,
+            "permutations": 200000,
+            "null_mean": 1.89179,
+            "null_sd": 8.696422287118997,
+            "one_sided_p": 0.04680476597617012
+          },
+          "NONADJACENT": {
+            "observed_delta": 81,
+            "candidate_pairs_including_ties": 970,
+            "variable_groups": 71,
+            "permutations": 200000,
+            "null_mean": 36.53327,
+            "null_sd": 21.97406592115123,
+            "one_sided_p": 0.022819885900570498
+          },
+          "LINE_ALL": {
+            "observed_delta": 98,
+            "candidate_pairs_including_ties": 1233,
+            "variable_groups": 71,
+            "permutations": 200000,
+            "null_mean": 38.42506,
+            "null_sd": 23.943938773652082,
+            "one_sided_p": 0.006749966250168749
+          }
+        },
+        "PAGE_BASE": {
+          "ADJACENT": {
+            "observed_delta": 17,
+            "candidate_pairs_including_ties": 263,
+            "variable_groups": 153,
+            "permutations": 200000,
+            "null_mean": 8.177965,
+            "null_sd": 6.337572363198309,
+            "one_sided_p": 0.09448952755236224
+          },
+          "NONADJACENT": {
+            "observed_delta": 81,
+            "candidate_pairs_including_ties": 970,
+            "variable_groups": 153,
+            "permutations": 200000,
+            "null_mean": 33.1615,
+            "null_sd": 16.563214897778753,
+            "one_sided_p": 0.0020199899000504997
+          },
+          "LINE_ALL": {
+            "observed_delta": 98,
+            "candidate_pairs_including_ties": 1233,
+            "variable_groups": 153,
+            "permutations": 200000,
+            "null_mean": 41.339465,
+            "null_sd": 17.94339512226645,
+            "one_sided_p": 0.0008949955250223749
+          }
+        }
+      },
+      "ALL": {
+        "BASE": {
+          "ADJACENT": {
+            "observed_delta": 37,
+            "candidate_pairs_including_ties": 496,
+            "variable_groups": 123,
+            "permutations": 200000,
+            "null_mean": 11.65599,
+            "null_sd": 12.558100060116578,
+            "one_sided_p": 0.023774881125594373
+          },
+          "NONADJACENT": {
+            "observed_delta": 105,
+            "candidate_pairs_including_ties": 2067,
+            "variable_groups": 123,
+            "permutations": 200000,
+            "null_mean": 48.688915,
+            "null_sd": 33.914512839237055,
+            "one_sided_p": 0.04986975065124674
+          },
+          "LINE_ALL": {
+            "observed_delta": 142,
+            "candidate_pairs_including_ties": 2563,
+            "variable_groups": 123,
+            "permutations": 200000,
+            "null_mean": 60.344905,
+            "null_sd": 36.43230373639547,
+            "one_sided_p": 0.012899935500322498
+          }
+        },
+        "PAGE_BASE": {
+          "ADJACENT": {
+            "observed_delta": 37,
+            "candidate_pairs_including_ties": 496,
+            "variable_groups": 309,
+            "permutations": 200000,
+            "null_mean": 18.166625,
+            "null_sd": 8.676059653401134,
+            "one_sided_p": 0.01706991465042675
+          },
+          "NONADJACENT": {
+            "observed_delta": 105,
+            "candidate_pairs_including_ties": 2067,
+            "variable_groups": 309,
+            "permutations": 200000,
+            "null_mean": 65.793015,
+            "null_sd": 23.910058599045197,
+            "one_sided_p": 0.052999735001324995
+          },
+          "LINE_ALL": {
+            "observed_delta": 142,
+            "candidate_pairs_including_ties": 2563,
+            "variable_groups": 309,
+            "permutations": 200000,
+            "null_mean": 83.95964,
+            "null_sd": 25.559640667865448,
+            "one_sided_p": 0.012209938950305248
+          }
+        }
+      }
+    }
+  },
+  "even_subpanels": {
+    "ZL3b": {
+      "FOLIO_MOD4_0": {
+        "mode": "LINE_ALL",
+        "descending": 133,
+        "ascending": 104,
+        "delta": 29,
+        "contributing_lines": 134,
+        "page_sign_flip": {
+          "active_clusters": 28,
+          "observed_delta": 29,
+          "assignments": 268435456,
+          "assignments_at_least_observed": 22804103,
+          "exact_one_sided_p": 0.08495190367102623
+        },
+        "line_sign_flip": {
+          "active_clusters": 113,
+          "observed_delta": 29,
+          "assignments": 10384593717069655257060992658440192,
+          "assignments_at_least_observed": 541096138674152697359326960676916,
+          "exact_one_sided_p": 0.05210566281324295
+        }
+      },
+      "FOLIO_MOD4_2": {
+        "mode": "LINE_ALL",
+        "descending": 182,
+        "ascending": 100,
+        "delta": 82,
+        "contributing_lines": 148,
+        "page_sign_flip": {
+          "active_clusters": 30,
+          "observed_delta": 82,
+          "assignments": 1073741824,
+          "assignments_at_least_observed": 1643302,
+          "exact_one_sided_p": 0.001530444249510765
+        },
+        "line_sign_flip": {
+          "active_clusters": 138,
+          "observed_delta": 82,
+          "assignments": 348449143727040986586495598010130648530944,
+          "assignments_at_least_observed": 71802800546594724969844743767378485537,
+          "exact_one_sided_p": 0.00020606393167905653
+        }
+      },
+      "CURRIER_A": {
+        "mode": "LINE_ALL",
+        "descending": 55,
+        "ascending": 38,
+        "delta": 17,
+        "contributing_lines": 60,
+        "page_sign_flip": {
+          "active_clusters": 28,
+          "observed_delta": 17,
+          "assignments": 268435456,
+          "assignments_at_least_observed": 26376244,
+          "exact_one_sided_p": 0.09825916588306427
+        },
+        "line_sign_flip": {
+          "active_clusters": 55,
+          "observed_delta": 17,
+          "assignments": 36028797018963968,
+          "assignments_at_least_observed": 3162369333398762,
+          "exact_one_sided_p": 0.08777338115769534
+        }
+      },
+      "CURRIER_B": {
+        "mode": "LINE_ALL",
+        "descending": 260,
+        "ascending": 166,
+        "delta": 94,
+        "contributing_lines": 222,
+        "page_sign_flip": {
+          "active_clusters": 30,
+          "observed_delta": 94,
+          "assignments": 1073741824,
+          "assignments_at_least_observed": 2503307,
+          "exact_one_sided_p": 0.0023313863202929497
+        },
+        "line_sign_flip": {
+          "active_clusters": 196,
+          "observed_delta": 94,
+          "assignments": 100433627766186892221372630771322662657637687111424552206336,
+          "assignments_at_least_observed": 19489554607799528368906009421541859303977709066670271220,
+          "exact_one_sided_p": 0.00019405407373287276
+        }
+      }
+    },
+    "IT2a": {
+      "FOLIO_MOD4_0": {
+        "mode": "LINE_ALL",
+        "descending": 143,
+        "ascending": 103,
+        "delta": 40,
+        "contributing_lines": 136,
+        "page_sign_flip": {
+          "active_clusters": 30,
+          "observed_delta": 40,
+          "assignments": 1073741824,
+          "assignments_at_least_observed": 40418122,
+          "exact_one_sided_p": 0.037642309442162514
+        },
+        "line_sign_flip": {
+          "active_clusters": 115,
+          "observed_delta": 40,
+          "assignments": 41538374868278621028243970633760768,
+          "assignments_at_least_observed": 474809302780143810732938904337886,
+          "exact_one_sided_p": 0.011430618176223808
+        }
+      },
+      "FOLIO_MOD4_2": {
+        "mode": "LINE_ALL",
+        "descending": 186,
+        "ascending": 104,
+        "delta": 82,
+        "contributing_lines": 151,
+        "page_sign_flip": {
+          "active_clusters": 28,
+          "observed_delta": 82,
+          "assignments": 268435456,
+          "assignments_at_least_observed": 658415,
+          "exact_one_sided_p": 0.002452787011861801
+        },
+        "line_sign_flip": {
+          "active_clusters": 136,
+          "observed_delta": 82,
+          "assignments": 87112285931760246646623899502532662132736,
+          "assignments_at_least_observed": 16020933927481382166954888841465567129,
+          "exact_one_sided_p": 0.00018391130201808094
+        }
+      },
+      "CURRIER_A": {
+        "mode": "LINE_ALL",
+        "descending": 52,
+        "ascending": 38,
+        "delta": 14,
+        "contributing_lines": 59,
+        "page_sign_flip": {
+          "active_clusters": 26,
+          "observed_delta": 14,
+          "assignments": 67108864,
+          "assignments_at_least_observed": 9429796,
+          "exact_one_sided_p": 0.14051491022109985
+        },
+        "line_sign_flip": {
+          "active_clusters": 52,
+          "observed_delta": 14,
+          "assignments": 4503599627370496,
+          "assignments_at_least_observed": 576249532865584,
+          "exact_one_sided_p": 0.12795309986337244
+        }
+      },
+      "CURRIER_B": {
+        "mode": "LINE_ALL",
+        "descending": 277,
+        "ascending": 169,
+        "delta": 108,
+        "contributing_lines": 228,
+        "page_sign_flip": {
+          "active_clusters": 32,
+          "observed_delta": 108,
+          "assignments": 4294967296,
+          "assignments_at_least_observed": 4147362,
+          "exact_one_sided_p": 0.0009656329639256
+        },
+        "line_sign_flip": {
+          "active_clusters": 199,
+          "observed_delta": 108,
+          "assignments": 803469022129495137770981046170581301261101496891396417650688,
+          "assignments_at_least_observed": 15942000836826129412922784965993764988116120927698478816,
+          "exact_one_sided_p": 1.9841462953448823e-05
+        }
+      }
+    },
+    "RF1b": {
+      "FOLIO_MOD4_0": {
+        "mode": "LINE_ALL",
+        "descending": 121,
+        "ascending": 87,
+        "delta": 34,
+        "contributing_lines": 123,
+        "page_sign_flip": {
+          "active_clusters": 27,
+          "observed_delta": 34,
+          "assignments": 134217728,
+          "assignments_at_least_observed": 4944978,
+          "exact_one_sided_p": 0.0368429571390152
+        },
+        "line_sign_flip": {
+          "active_clusters": 108,
+          "observed_delta": 34,
+          "assignments": 324518553658426726783156020576256,
+          "assignments_at_least_observed": 6773490845560662687132270626064,
+          "exact_one_sided_p": 0.020872430155996956
+        }
+      },
+      "FOLIO_MOD4_2": {
+        "mode": "LINE_ALL",
+        "descending": 161,
+        "ascending": 97,
+        "delta": 64,
+        "contributing_lines": 134,
+        "page_sign_flip": {
+          "active_clusters": 31,
+          "observed_delta": 64,
+          "assignments": 2147483648,
+          "assignments_at_least_observed": 18639901,
+          "exact_one_sided_p": 0.008679880294948816
+        },
+        "line_sign_flip": {
+          "active_clusters": 123,
+          "observed_delta": 64,
+          "assignments": 10633823966279326983230456482242756608,
+          "assignments_at_least_observed": 28321406500844096947751570002374265,
+          "exact_one_sided_p": 0.0026633322679267078
+        }
+      },
+      "CURRIER_A": {
+        "mode": "LINE_ALL",
+        "descending": 48,
+        "ascending": 34,
+        "delta": 14,
+        "contributing_lines": 54,
+        "page_sign_flip": {
+          "active_clusters": 26,
+          "observed_delta": 14,
+          "assignments": 67108864,
+          "assignments_at_least_observed": 8456454,
+          "exact_one_sided_p": 0.1260109841823578
+        },
+        "line_sign_flip": {
+          "active_clusters": 49,
+          "observed_delta": 14,
+          "assignments": 562949953421312,
+          "assignments_at_least_observed": 68889899982258,
+          "exact_one_sided_p": 0.12237304499908319
+        }
+      },
+      "CURRIER_B": {
+        "mode": "LINE_ALL",
+        "descending": 234,
+        "ascending": 150,
+        "delta": 84,
+        "contributing_lines": 203,
+        "page_sign_flip": {
+          "active_clusters": 32,
+          "observed_delta": 84,
+          "assignments": 4294967296,
+          "assignments_at_least_observed": 11332014,
+          "exact_one_sided_p": 0.002638440113514662
+        },
+        "line_sign_flip": {
+          "active_clusters": 182,
+          "observed_delta": 84,
+          "assignments": 6129982163463555433433388108601236734474956488734408704,
+          "assignments_at_least_observed": 3360479248166743019471961092090847676126131128902786,
+          "exact_one_sided_p": 0.0005482037563169693
+        }
+      }
+    }
+  },
+  "timm": {
+    "Timm_19": {
+      "ADJACENT": {
+        "mode": "ADJACENT",
+        "descending": 63,
+        "ascending": 76,
+        "delta": -13,
+        "contributing_lines": 131,
+        "page_sign_flip": {
+          "active_clusters": 66,
+          "observed_delta": -13,
+          "assignments": 73786976294838206464,
+          "assignments_at_least_observed": 64922110277618946120,
+          "exact_one_sided_p": 0.8798586625667245
+        },
+        "line_sign_flip": {
+          "active_clusters": 124,
+          "observed_delta": -13,
+          "assignments": 21267647932558653966460912964485513216,
+          "assignments_at_least_observed": 18991930907020326035322212402673499016,
+          "exact_one_sided_p": 0.8929962996963838
+        }
+      },
+      "NONADJACENT": {
+        "mode": "NONADJACENT",
+        "descending": 273,
+        "ascending": 244,
+        "delta": 29,
+        "contributing_lines": 324,
+        "page_sign_flip": {
+          "active_clusters": 105,
+          "observed_delta": 29,
+          "assignments": 40564819207303340847894502572032,
+          "assignments_at_least_observed": 6955472243055861727428828470753,
+          "exact_one_sided_p": 0.1714656290592709
+        },
+        "line_sign_flip": {
+          "active_clusters": 302,
+          "observed_delta": 29,
+          "assignments": 8148143905337944345073782753637512644205873574663745002544561797417525199053346824733589504,
+          "assignments_at_least_observed": 1336692488665835598719333106476505364023936063000293958050996384591148884867910547436052224,
+          "exact_one_sided_p": 0.16404870903055022
+        }
+      },
+      "LINE_ALL": {
+        "mode": "LINE_ALL",
+        "descending": 336,
+        "ascending": 320,
+        "delta": 16,
+        "contributing_lines": 388,
+        "page_sign_flip": {
+          "active_clusters": 119,
+          "observed_delta": 16,
+          "assignments": 664613997892457936451903530140172288,
+          "assignments_at_least_observed": 211871939900756367942667740953798497,
+          "exact_one_sided_p": 0.31878946361740584
+        },
+        "line_sign_flip": {
+          "active_clusters": 341,
+          "observed_delta": 16,
+          "assignments": 4479489484355608421114884561136888556243290994469299069799978201927583742360321890761754986543214231552,
+          "assignments_at_least_observed": 1418401178808561496284762298833697408959044669597918960329274154352802521444701401309074175118947710627,
+          "exact_one_sided_p": 0.31664348889806665
+        }
+      }
+    },
+    "Timm_23": {
+      "ADJACENT": {
+        "mode": "ADJACENT",
+        "descending": 46,
+        "ascending": 53,
+        "delta": -7,
+        "contributing_lines": 94,
+        "page_sign_flip": {
+          "active_clusters": 52,
+          "observed_delta": -7,
+          "assignments": 4503599627370496,
+          "assignments_at_least_observed": 3558197038542424,
+          "exact_one_sided_p": 0.7900784556685689
+        },
+        "line_sign_flip": {
+          "active_clusters": 89,
+          "observed_delta": -7,
+          "assignments": 618970019642690137449562112,
+          "assignments_at_least_observed": 496237500354172695211279006,
+          "exact_one_sided_p": 0.801714920927242
+        }
+      },
+      "NONADJACENT": {
+        "mode": "NONADJACENT",
+        "descending": 197,
+        "ascending": 198,
+        "delta": -1,
+        "contributing_lines": 258,
+        "page_sign_flip": {
+          "active_clusters": 83,
+          "observed_delta": -1,
+          "assignments": 9671406556917033397649408,
+          "assignments_at_least_observed": 5145247002085475266192484,
+          "exact_one_sided_p": 0.5320060708652116
+        },
+        "line_sign_flip": {
+          "active_clusters": 243,
+          "observed_delta": -1,
+          "assignments": 14134776518227074636666380005943348126619871175004951664972849610340958208,
+          "assignments_at_least_observed": 7528468066871428550742580755687363733683682147212405092740147224155601736,
+          "exact_one_sided_p": 0.5326202403811139
+        }
+      },
+      "LINE_ALL": {
+        "mode": "LINE_ALL",
+        "descending": 243,
+        "ascending": 251,
+        "delta": -8,
+        "contributing_lines": 301,
+        "page_sign_flip": {
+          "active_clusters": 86,
+          "observed_delta": -8,
+          "assignments": 77371252455336267181195264,
+          "assignments_at_least_observed": 48547906162354611631850410,
+          "exact_one_sided_p": 0.6274669805866155
+        },
+        "line_sign_flip": {
+          "active_clusters": 268,
+          "observed_delta": -8,
+          "assignments": 474284397516047136454946754595585670566993857190463750305618264096412179005177856,
+          "assignments_at_least_observed": 300139383683493059253150463336824285396007753725771853850478902479446654172983908,
+          "exact_one_sided_p": 0.6328257586701195
+        }
+      }
+    },
+    "Timm_41": {
+      "ADJACENT": {
+        "mode": "ADJACENT",
+        "descending": 46,
+        "ascending": 55,
+        "delta": -9,
+        "contributing_lines": 93,
+        "page_sign_flip": {
+          "active_clusters": 50,
+          "observed_delta": -9,
+          "assignments": 1125899906842624,
+          "assignments_at_least_observed": 961151026476214,
+          "exact_one_sided_p": 0.853673599788797
+        },
+        "line_sign_flip": {
+          "active_clusters": 87,
+          "observed_delta": -9,
+          "assignments": 154742504910672534362390528,
+          "assignments_at_least_observed": 131534597089559510084122204,
+          "exact_one_sided_p": 0.8500224108785744
+        }
+      },
+      "NONADJACENT": {
+        "mode": "NONADJACENT",
+        "descending": 219,
+        "ascending": 240,
+        "delta": -21,
+        "contributing_lines": 284,
+        "page_sign_flip": {
+          "active_clusters": 101,
+          "observed_delta": -21,
+          "assignments": 2535301200456458802993406410752,
+          "assignments_at_least_observed": 1861538223268596047755845987592,
+          "exact_one_sided_p": 0.7342473639555893
+        },
+        "line_sign_flip": {
+          "active_clusters": 266,
+          "observed_delta": -21,
+          "assignments": 118571099379011784113736688648896417641748464297615937576404566024103044751294464,
+          "assignments_at_least_observed": 93543835034522625948968020873907340103554639253678852789558218201062773747167624,
+          "exact_one_sided_p": 0.7889261002422718
+        }
+      },
+      "LINE_ALL": {
+        "mode": "LINE_ALL",
+        "descending": 265,
+        "ascending": 295,
+        "delta": -30,
+        "contributing_lines": 324,
+        "page_sign_flip": {
+          "active_clusters": 98,
+          "observed_delta": -30,
+          "assignments": 316912650057057350374175801344,
+          "assignments_at_least_observed": 255720211455992177742649827287,
+          "exact_one_sided_p": 0.8069107099699302
+        },
+        "line_sign_flip": {
+          "active_clusters": 295,
+          "observed_delta": -30,
+          "assignments": 63657374260452690195888927762793067532858387302060507832379389042324415617604272068231168,
+          "assignments_at_least_observed": 54170871915199494913510490300825461581013808204961960514771198963259375779536206538754384,
+          "exact_one_sided_p": 0.8509755946508352
+        }
+      }
+    },
+    "Timm_73": {
+      "ADJACENT": {
+        "mode": "ADJACENT",
+        "descending": 77,
+        "ascending": 86,
+        "delta": -9,
+        "contributing_lines": 143,
+        "page_sign_flip": {
+          "active_clusters": 58,
+          "observed_delta": -9,
+          "assignments": 288230376151711744,
+          "assignments_at_least_observed": 233710527252949226,
+          "exact_one_sided_p": 0.8108462764172167
+        },
+        "line_sign_flip": {
+          "active_clusters": 131,
+          "observed_delta": -9,
+          "assignments": 2722258935367507707706996859454145691648,
+          "assignments_at_least_observed": 2187191598827226036425088915245557288024,
+          "exact_one_sided_p": 0.8034473026835535
+        }
+      },
+      "NONADJACENT": {
+        "mode": "NONADJACENT",
+        "descending": 276,
+        "ascending": 268,
+        "delta": 8,
+        "contributing_lines": 322,
+        "page_sign_flip": {
+          "active_clusters": 94,
+          "observed_delta": 8,
+          "assignments": 19807040628566084398385987584,
+          "assignments_at_least_observed": 7926983772563306734163682410,
+          "exact_one_sided_p": 0.4002104060477799
+        },
+        "line_sign_flip": {
+          "active_clusters": 295,
+          "observed_delta": 8,
+          "assignments": 63657374260452690195888927762793067532858387302060507832379389042324415617604272068231168,
+          "assignments_at_least_observed": 25317127801659854867774123331548153381965882731660984619267102758390325248567034899298828,
+          "exact_one_sided_p": 0.39770926928395456
+        }
+      },
+      "LINE_ALL": {
+        "mode": "LINE_ALL",
+        "descending": 353,
+        "ascending": 354,
+        "delta": -1,
+        "contributing_lines": 373,
+        "page_sign_flip": {
+          "active_clusters": 96,
+          "observed_delta": -1,
+          "assignments": 79228162514264337593543950336,
+          "assignments_at_least_observed": 41913525446760028194788932132,
+          "exact_one_sided_p": 0.5290230659989604
+        },
+        "line_sign_flip": {
+          "active_clusters": 331,
+          "observed_delta": -1,
+          "assignments": 4374501449566023848745004454235242730706338861786424872851541212819905998398751846447026354046107648,
+          "assignments_at_least_observed": 2303734366509114394054796505578864324364181717097964920355247151677937204660682996166113426587205208,
+          "exact_one_sided_p": 0.5266278667567154
+        }
+      }
+    },
+    "Timm_97": {
+      "ADJACENT": {
+        "mode": "ADJACENT",
+        "descending": 52,
+        "ascending": 59,
+        "delta": -7,
+        "contributing_lines": 104,
+        "page_sign_flip": {
+          "active_clusters": 46,
+          "observed_delta": -7,
+          "assignments": 70368744177664,
+          "assignments_at_least_observed": 55517176394221,
+          "exact_one_sided_p": 0.7889465279365169
+        },
+        "line_sign_flip": {
+          "active_clusters": 97,
+          "observed_delta": -7,
+          "assignments": 158456325028528675187087900672,
+          "assignments_at_least_observed": 125436020186864822044912323148,
+          "exact_one_sided_p": 0.7916125794554504
+        }
+      },
+      "NONADJACENT": {
+        "mode": "NONADJACENT",
+        "descending": 210,
+        "ascending": 231,
+        "delta": -21,
+        "contributing_lines": 281,
+        "page_sign_flip": {
+          "active_clusters": 77,
+          "observed_delta": -21,
+          "assignments": 151115727451828646838272,
+          "assignments_at_least_observed": 120330524013496269200373,
+          "exact_one_sided_p": 0.7962806124984853
+        },
+        "line_sign_flip": {
+          "active_clusters": 260,
+          "observed_delta": -21,
+          "assignments": 1852673427797059126777135760139006525652319754650249024631321344126610074238976,
+          "assignments_at_least_observed": 1469604944542520443724740366317175948784564421113669315956322692830668177172188,
+          "exact_one_sided_p": 0.7932347506543393
+        }
+      },
+      "LINE_ALL": {
+        "mode": "LINE_ALL",
+        "descending": 262,
+        "ascending": 290,
+        "delta": -28,
+        "contributing_lines": 332,
+        "page_sign_flip": {
+          "active_clusters": 85,
+          "observed_delta": -28,
+          "assignments": 38685626227668133590597632,
+          "assignments_at_least_observed": 32668549137499243616908168,
+          "exact_one_sided_p": 0.8444622027117283
+        },
+        "line_sign_flip": {
+          "active_clusters": 289,
+          "observed_delta": -28,
+          "assignments": 994646472819573284310764496293641680200912301594695434880927953786318994025066751066112,
+          "assignments_at_least_observed": 833681739653721822542110379068600159977283814965824963395078328283570068869288301234008,
+          "exact_one_sided_p": 0.8381688996397315
+        }
+      }
+    }
+  },
+  "gates": {
+    "held_distance_pass": true,
+    "held_lexical_pass": true,
+    "control_pass": true,
+    "stability_direction_pass": true
+  },
+  "elapsed_seconds": 20.979034926043823
+}

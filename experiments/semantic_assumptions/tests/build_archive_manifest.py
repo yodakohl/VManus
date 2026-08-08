@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Hash the frozen pre-reset archive and lock the active grammar evidence."""
+"""Hash the curated pre-reset evidence subset and lock active evidence."""
 
 from __future__ import annotations
 
@@ -19,6 +19,11 @@ SUMMARY = ARCHIVE / "ARCHIVE_MANIFEST.json"
 PRIMARY = ROOT / "experiments" / "semantic_assumptions" / "grammar" / "PRIMARY_EVIDENCE.tsv"
 PRIMARY_LOCK = PRIMARY.with_name("PRIMARY_EVIDENCE_LOCK.tsv")
 EXCLUDED = {MANIFEST.resolve(), SUMMARY.resolve()}
+
+
+def is_transient(path: Path) -> bool:
+    """Ignore interpreter/build debris that is not research evidence."""
+    return "__pycache__" in path.parts or path.suffix == ".pyc" or path.name.endswith(".part")
 
 
 def digest(path: Path) -> tuple[int, str]:
@@ -55,7 +60,7 @@ def main() -> None:
         raise RuntimeError(f"archive contains symlink: {symlinks[0]}")
     paths = sorted(
         path for path in ARCHIVE.rglob("*")
-        if path.is_file() and path.resolve() not in EXCLUDED
+        if path.is_file() and path.resolve() not in EXCLUDED and not is_transient(path)
     )
     with ThreadPoolExecutor(max_workers=args.workers) as pool:
         hashes = list(pool.map(digest, paths))
@@ -86,7 +91,8 @@ def main() -> None:
     legacy_ledger = ARCHIVE / "semantic_assumptions" / "ACTIVE_EXPERIMENT_LEDGER.tsv"
     legacy_rows = sum(1 for _ in legacy_ledger.open(encoding="utf-8")) - 1
     payload = {
-        "status": "FROZEN_LOCAL_ARCHIVE_HASHED",
+        "status": "CURATED_PRIMARY_EVIDENCE_ARCHIVE_HASHED",
+        "scope": "retained primary evidence only; superseded bulk removed 2026-08-08",
         "archive": str(ARCHIVE.relative_to(ROOT)),
         "file_count_excluding_manifest_files": len(rows),
         "total_bytes_excluding_manifest_files": sum(int(row["bytes"]) for row in rows),

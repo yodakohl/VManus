@@ -14,11 +14,14 @@ Start here, in order:
 3. `experiments/semantic_assumptions/grammar/CONFIRMED_GRAMMAR.md`
 4. `experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv`
 
-The active workspace contains only the confirmed structural baseline and a
-blank, admission-controlled hypothesis area. The complete 4.63 GB pre-reset
-investigation is preserved locally under `archive_pre_reset_2026-08-06/` with
-a SHA-256 manifest. It is evidence and audit history, not active context.
+The active workspace contains the confirmed structural baseline, its compact
+experiment registry, and only the evidence needed to reproduce live claims.
+On 2026-08-08 the superseded 5.05 GB bulk tree was removed. A curated
+primary-evidence subset remains under `archive_pre_reset_2026-08-06/` with a
+SHA-256 manifest. Closed-route memory lives in the compact ledgers, not in the
+deleted caches and duplicate outputs.
 
 Canonical manual transcription and parser sources remain in `transcription/`
-and `voynich-manuscript-decoding-artifacts/`. Use `./vpy` for Python work. Do
-not publish or push anything; local Git may be used only as a local checkpoint.
+and `voynich-manuscript-decoding-artifacts/`. Use `./vpy` for Python work.
+Material findings and their reproducible experiment source are published to
+the public repository after validation and a staged-tree privacy scan.
