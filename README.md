@@ -1,5 +1,8 @@
 # VManus structural reset
 
+For a concise public summary of what is established, what failed, and what is
+still unknown, see [`HIGH_LEVEL_RESULTS.md`](HIGH_LEVEL_RESULTS.md).
+
 This workspace was reset on 2026-08-06 after every attempted transferable
 word-meaning route failed, stopped, was invalidated, or remained unscored.
 There is no plaintext translation and no confirmed English lexicon.
