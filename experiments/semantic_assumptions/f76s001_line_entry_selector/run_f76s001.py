@@ -17,8 +17,10 @@ from typing import Any
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[2]
 INPUT = ROOT / "experiments/semantic_assumptions/results/pre_grounding_interlinear.tsv"
-SOURCE_AUDIT = ROOT / "experiments/semantic_assumptions/results/existing_human_current_locus_crosswalk.tsv"
+SOURCE_ALIGNMENT_AUDIT = ROOT / "experiments/semantic_assumptions/results/f76r_keylike_sequence_source_audit.md"
+SOURCE_CROSSWALK = ROOT / "experiments/semantic_assumptions/results/existing_human_current_locus_crosswalk.tsv"
 PREREG = ROOT / "experiments/semantic_assumptions/hypotheses/F76S001_LINE_ENTRY_SELECTOR_PREREGISTRATION.md"
+AMENDMENT = ROOT / "experiments/semantic_assumptions/hypotheses/F76S001_PRESCORE_EXECUTION_AMENDMENT.md"
 VALIDATOR = HERE / "validate_f76s001.py"
 CONTROL_RESULT = HERE / "CONTROL_RESULT.json"
 TARGET_RESULT = HERE / "TARGET_RESULT.json"
@@ -28,7 +30,8 @@ TARGET_REPORT = ROOT / "experiments/semantic_assumptions/results/f76s001_line_en
 READINGS = ("ZL3b", "IT2a", "RF1b")
 CHANNELS = ("carrier", "q_state", "role_path")
 INPUT_SHA256 = "8052a51fa37ad467e754be39648336ec4014442dab5e223daab2e77efaba4a43"
-SOURCE_SHA256 = "4a128ed3d4b87a9d804a336a6c22ced65839fa39c83f3ecf45092bbc64f2eabc"
+SOURCE_ALIGNMENT_AUDIT_SHA256 = "27593399b74b00e72cbd939519d324d5ace1c4846b457435263b92a3c3104744"
+SOURCE_CROSSWALK_SHA256 = "4a128ed3d4b87a9d804a336a6c22ced65839fa39c83f3ecf45092bbc64f2eabc"
 PAIRING = (
     (1, "f76r.4", "f76r.5", "s"),
     (2, "f76r.7", "f76r.8", "d"),
@@ -44,6 +47,29 @@ TARGET = (0, 3, 8)
 COMBOS = tuple(itertools.combinations(range(9), 3))
 PRIMARY_P_LIMIT = 4 / 84
 EPS = 1e-12
+CLAIM_CEILING = (
+    "root-free repeated-s line-entry association under the fixed human-editorial "
+    "aligned-line pairing only; no authorial ownership, selector function, paragraph "
+    "segmentation, reuse outside this panel, glyph meaning, sound, lexeme, plaintext, "
+    "language, or translation"
+)
+EXPECTED_CONTROL_ASSERTIONS = {
+    "combo_count_84",
+    "planted_passes",
+    "planted_unique_tail",
+    "negative_fails",
+    "channel_only_fails_deletion",
+    "pair_leverage_fails_pair_gate",
+    "reading_disagreement_fails",
+    "conservative_four_way_top_tie",
+    "degenerate_rejected",
+    "deterministic_repeat",
+    "row_contract_accepts_exact_27",
+    "row_contract_rejects_duplicate",
+    "row_contract_rejects_missing",
+    "row_contract_rejects_scope_drift",
+    "row_contract_rejects_page_drift",
+}
 
 
 class DegenerateOrbit(RuntimeError):
@@ -62,6 +88,25 @@ def write_json(path: Path, payload: dict[str, Any]) -> None:
     temporary = path.with_suffix(path.suffix + ".part")
     temporary.write_text(json.dumps(payload, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     os.replace(temporary, path)
+
+
+def pairing_payload() -> list[dict[str, Any]]:
+    return [
+        {"position": position, "mark_locus": mark_locus, "prose_locus": prose_locus, "mark": mark}
+        for position, mark_locus, prose_locus, mark in PAIRING
+    ]
+
+
+def control_bindings() -> dict[str, str]:
+    return {
+        "input_sha256": sha256(INPUT),
+        "source_alignment_audit_sha256": sha256(SOURCE_ALIGNMENT_AUDIT),
+        "source_crosswalk_sha256": sha256(SOURCE_CROSSWALK),
+        "preregistration_sha256": sha256(PREREG),
+        "prescore_amendment_sha256": sha256(AMENDMENT),
+        "runner_sha256": sha256(Path(__file__)),
+        "validator_sha256": sha256(VALIDATOR),
+    }
 
 
 def levenshtein(left: tuple[str, ...], right: tuple[str, ...]) -> int:
@@ -127,6 +172,8 @@ def score_panel(panel: dict[str, list[dict[str, Any]]], channels: tuple[str, ...
     synchronous = [min(reading_z[reading][offset] for reading in READINGS) for offset in range(len(COMBOS))]
     target_sync = synchronous[target_offset]
     exact_tail = sum(value >= target_sync - EPS for value in synchronous)
+    strictly_greater = sum(value > target_sync + EPS for value in synchronous)
+    tied_at_target = sum(abs(value - target_sync) <= EPS for value in synchronous)
     exact_p = exact_tail / len(COMBOS)
 
     ranks: dict[str, int] = {}
@@ -163,6 +210,8 @@ def score_panel(panel: dict[str, list[dict[str, Any]]], channels: tuple[str, ...
         "target_positions_one_based": [index + 1 for index in TARGET],
         "target_synchronous_z": target_sync,
         "exact_tail_count": exact_tail,
+        "strictly_greater_count": strictly_greater,
+        "tied_at_target_count": tied_at_target,
         "exact_p": exact_p,
         "reading_ranks": ranks,
         "reading_effects": effects,
@@ -243,6 +292,12 @@ def synthetic_panel(kind: str) -> dict[str, list[dict[str, Any]]]:
         feature("G", False, ("R7",), "p7"),
         feature("H", True, ("DIFFERENT", "LONG"), "p8"),
     ]
+    tied_positions = {0, 1, 3, 8}
+    tie_top = [
+        feature("T", False, ("TIE",), f"tie-{i}") if i in tied_positions else
+        feature(f"U{i}", bool(i % 2), (f"UNIQUE_{i}",), f"tie-{i}")
+        for i in range(9)
+    ]
     if kind == "planted":
         return {reading: [dict(item) for item in planted] for reading in READINGS}
     if kind == "negative":
@@ -257,22 +312,71 @@ def synthetic_panel(kind: str) -> dict[str, list[dict[str, Any]]]:
             "IT2a": [dict(item) for item in planted],
             "RF1b": [dict(item) for item in negative],
         }
+    if kind == "tie_top":
+        return {reading: [dict(item) for item in tie_top] for reading in READINGS}
     if kind == "degenerate":
         row = [feature("A", False, ("SAME",), f"d-{i}") for i in range(9)]
         return {reading: [dict(item) for item in row] for reading in READINGS}
     raise ValueError(kind)
 
 
+def validate_target_rows(input_rows: list[dict[str, str]]) -> dict[tuple[str, str], dict[str, str]]:
+    expected = {
+        (reading, prose_locus)
+        for reading in READINGS
+        for _position, _mark_locus, prose_locus, _mark in PAIRING
+    }
+    buckets: dict[tuple[str, str], list[dict[str, str]]] = {key: [] for key in expected}
+    for row in input_rows:
+        key = (row["edition"], row["locus"])
+        if key in expected:
+            buckets[key].append(row)
+    validated: dict[tuple[str, str], dict[str, str]] = {}
+    for key, matches in buckets.items():
+        if len(matches) != 1:
+            raise RuntimeError(f"expected exactly one input row for {key}, found {len(matches)}")
+        row = matches[0]
+        if row["page"] != "f76r" or row["grammar_scope"] != "CONFIRMED_PROSE":
+            raise RuntimeError(f"target row scope drift: {key}")
+        validated[key] = row
+    return validated
+
+
+def row_contract_rejects(rows: list[dict[str, str]]) -> bool:
+    try:
+        validate_target_rows(rows)
+    except RuntimeError:
+        return True
+    return False
+
+
 def run_controls() -> dict[str, Any]:
     results: dict[str, Any] = {}
     for kind in ("planted", "negative", "channel_only", "pair_leverage", "reading_disagreement"):
         results[kind] = evaluate(synthetic_panel(kind))
+    results["tie_top"] = score_panel(synthetic_panel("tie_top"))
     degenerate_rejected = False
     try:
         evaluate(synthetic_panel("degenerate"))
     except DegenerateOrbit:
         degenerate_rejected = True
     deterministic = evaluate(synthetic_panel("planted")) == results["planted"]
+    valid_rows = [
+        {
+            "edition": reading,
+            "locus": prose_locus,
+            "page": "f76r",
+            "grammar_scope": "CONFIRMED_PROSE",
+        }
+        for reading in READINGS
+        for _position, _mark_locus, prose_locus, _mark in PAIRING
+    ]
+    duplicate_rows = valid_rows + [dict(valid_rows[0])]
+    missing_rows = valid_rows[1:]
+    scope_rows = [dict(row) for row in valid_rows]
+    scope_rows[0]["grammar_scope"] = "EXCLUDED"
+    page_rows = [dict(row) for row in valid_rows]
+    page_rows[0]["page"] = "f76v"
     assertions = {
         "combo_count_84": results["planted"]["primary"]["combo_count"] == 84,
         "planted_passes": results["planted"]["pass"],
@@ -281,8 +385,18 @@ def run_controls() -> dict[str, Any]:
         "channel_only_fails_deletion": not results["channel_only"]["gates"]["all_channel_deletions"],
         "pair_leverage_fails_pair_gate": not results["pair_leverage"]["gates"]["all_target_pairs_above_median"],
         "reading_disagreement_fails": not results["reading_disagreement"]["pass"],
+        "conservative_four_way_top_tie": (
+            results["tie_top"]["exact_tail_count"] == 4
+            and results["tie_top"]["strictly_greater_count"] == 0
+            and results["tie_top"]["tied_at_target_count"] == 4
+        ),
         "degenerate_rejected": degenerate_rejected,
         "deterministic_repeat": deterministic,
+        "row_contract_accepts_exact_27": len(validate_target_rows(valid_rows)) == 27,
+        "row_contract_rejects_duplicate": row_contract_rejects(duplicate_rows),
+        "row_contract_rejects_missing": row_contract_rejects(missing_rows),
+        "row_contract_rejects_scope_drift": row_contract_rejects(scope_rows),
+        "row_contract_rejects_page_drift": row_contract_rejects(page_rows),
     }
     payload = {
         "experiment": "F76S001",
@@ -290,15 +404,15 @@ def run_controls() -> dict[str, Any]:
         "status": "PASS_CONTROLS_TARGET_STILL_FORBIDDEN" if all(assertions.values()) else "FAIL_CONTROLS",
         "assertions": assertions,
         "results": results,
-        "bindings": {
-            "input_sha256": sha256(INPUT),
-            "source_audit_sha256": sha256(SOURCE_AUDIT),
-            "preregistration_sha256": sha256(PREREG),
-            "runner_sha256": sha256(Path(__file__)),
-            "validator_sha256": sha256(VALIDATOR),
-        },
+        "bindings": control_bindings(),
     }
-    payload["all_controls_pass"] = all(assertions.values()) and payload["bindings"]["input_sha256"] == INPUT_SHA256 and payload["bindings"]["source_audit_sha256"] == SOURCE_SHA256
+    payload["all_controls_pass"] = (
+        all(assertions.values())
+        and set(assertions) == EXPECTED_CONTROL_ASSERTIONS
+        and payload["bindings"]["input_sha256"] == INPUT_SHA256
+        and payload["bindings"]["source_alignment_audit_sha256"] == SOURCE_ALIGNMENT_AUDIT_SHA256
+        and payload["bindings"]["source_crosswalk_sha256"] == SOURCE_CROSSWALK_SHA256
+    )
     if not payload["all_controls_pass"]:
         payload["status"] = "FAIL_CONTROLS"
     write_json(CONTROL_RESULT, payload)
@@ -307,24 +421,24 @@ def run_controls() -> dict[str, Any]:
         f"Status: **{payload['status']}**\n\n"
         f"All {len(assertions)} frozen assertions pass: `{payload['all_controls_pass']}`. "
         "The target was not loaded or scored. The control artifact binds the input, "
-        "source audit, preregistration, production runner, and independent validator.\n",
+        "alignment audit, crosswalk, preregistration, prescore amendment, production "
+        "runner, and independent validator. The prospective top-tie fixture has exact "
+        "conservative tail 4, strictly-greater count 0, and tied count 4.\n",
         encoding="utf-8",
     )
     return payload
 
 
 def load_target_panel() -> dict[str, list[dict[str, Any]]]:
-    rows: dict[tuple[str, str], dict[str, str]] = {}
+    input_rows: list[dict[str, str]] = []
     with INPUT.open(encoding="utf-8", newline="") as handle:
         for row in csv.DictReader(handle, delimiter="\t"):
-            if row["edition"] in READINGS and row["page"] == "f76r":
-                rows[(row["edition"], row["locus"])] = row
+            input_rows.append(row)
+    rows = validate_target_rows(input_rows)
     panel: dict[str, list[dict[str, Any]]] = {reading: [] for reading in READINGS}
     for reading in READINGS:
         for position, _mark_locus, prose_locus, _mark in PAIRING:
-            row = rows.get((reading, prose_locus))
-            if row is None or row["grammar_scope"] != "CONFIRMED_PROSE":
-                raise RuntimeError(f"missing prose row: {reading} {prose_locus}")
+            row = rows[(reading, prose_locus)]
             words = row["surface"].split()
             role_words = row["role_sequence"].split()
             if not words or not role_words:
@@ -344,15 +458,18 @@ def verify_bindings() -> dict[str, str]:
     if not CONTROL_RESULT.is_file():
         raise RuntimeError("control result absent")
     controls = json.loads(CONTROL_RESULT.read_text(encoding="utf-8"))
-    if not controls.get("all_controls_pass"):
+    if controls.get("experiment") != "F76S001" or controls.get("mode") != "CONTROLS":
+        raise RuntimeError("control identity drift")
+    if controls.get("status") != "PASS_CONTROLS_TARGET_STILL_FORBIDDEN":
+        raise RuntimeError("control status drift")
+    assertions = controls.get("assertions", {})
+    if (
+        not controls.get("all_controls_pass")
+        or set(assertions) != EXPECTED_CONTROL_ASSERTIONS
+        or not all(assertions.values())
+    ):
         raise RuntimeError("control gate not passed")
-    current = {
-        "input_sha256": sha256(INPUT),
-        "source_audit_sha256": sha256(SOURCE_AUDIT),
-        "preregistration_sha256": sha256(PREREG),
-        "runner_sha256": sha256(Path(__file__)),
-        "validator_sha256": sha256(VALIDATOR),
-    }
+    current = control_bindings()
     if current != controls["bindings"]:
         raise RuntimeError("control binding drift")
     return current
@@ -360,19 +477,17 @@ def verify_bindings() -> dict[str, str]:
 
 def run_target() -> dict[str, Any]:
     bindings = verify_bindings()
+    bindings["control_result_sha256"] = sha256(CONTROL_RESULT)
     panel = load_target_panel()
     result = evaluate(panel)
     payload = {
         "experiment": "F76S001",
         "mode": "TARGET",
         "status": "EXPLORATORY_SELECTOR_CANDIDATE" if result["pass"] else "FINAL_NONCONFIRMATION",
-        "pairing": [
-            {"position": position, "mark_locus": mark_locus, "prose_locus": prose_locus, "mark": mark}
-            for position, mark_locus, prose_locus, mark in PAIRING
-        ],
+        "pairing": pairing_payload(),
         "result": result,
         "bindings": bindings,
-        "claim_ceiling": "root-free repeated-s line-entry association only; no ownership, glyph meaning, lexeme, plaintext, or translation",
+        "claim_ceiling": CLAIM_CEILING,
     }
     write_json(TARGET_RESULT, payload)
     primary = result["primary"]

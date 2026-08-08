@@ -2928,11 +2928,17 @@ first independent prescore audit returned **REVISE, TARGET UNRUN**: the runner
 bound the crosswalk under the wrong source-audit name, its tie fixture did not
 actually distinguish conservative from strict tails, duplicate target rows
 could silently overwrite, and the future validator checked an incomplete
-binding contract. A prospective amendment freezes exact repairs. Corrected
-anonymous controls and a new independent prescore audit are required before
-any target invocation. Even a later pass can nominate only an association
-under the fixed human-editorial pairing, not mark ownership, selector meaning,
-reuse outside this panel, glyph meaning, lexeme, plaintext, or translation.
+binding contract. A prospective amendment froze the repairs before corrected
+code. The repaired gate now passes all 15 synthetic assertions: separate
+alignment/crosswalk provenance, a mutation-sensitive four-way top tie, exact
+27-row cardinality and scope rejection, complete artifact/metadata validation,
+the original adversarial panels, exact enumeration, and determinism. A target-
+blind nonimporting re-audit independently rebuilt all six panels, 1,512 primary
+and 3,780 deletion triplet evaluations, and passed 19/19 checks. The target is
+still absent but its single preregistered invocation is now authorized. Even a
+pass can nominate only an association under the fixed human-editorial pairing,
+not mark ownership, selector meaning, reuse outside this panel, glyph meaning,
+lexeme, plaintext, or translation.
 
 ## Admission rule for new work
 
