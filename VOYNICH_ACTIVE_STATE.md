@@ -1,6 +1,6 @@
 # Voynich active state — structural reset baseline
 
-Updated: 2026-08-08. Read this file first, then
+Updated: 2026-08-09. Read this file first, then
 `experiments/semantic_assumptions/ACTIVE_EXPERIMENT_LEDGER.tsv`.
 
 ## Outcome
@@ -2917,6 +2917,19 @@ compatibility, not whole-word fusion or a detached prefix.  The literal margin
 **F76J001 REVISE, TARGET UNRUN**; no revised target is authorized without a
 boundary-aware rival, score-blind support audit, complete gate controls, and a
 new prescore audit.
+
+The active successor does not join the marks. **F76S001** freezes the narrower
+unresolved line-control alternative: whether the repeated `s` at positions 1,
+4, and 9 selects a reusable root-free first-word/line-entry state among the
+nine approximately aligned prose lines. Its representation contains only the
+known line carrier, first-word q state, and q-stripped formal role path. The
+exact null is all 84 three-line subsets, synchronized across ZL/IT/RF. All nine
+anonymous planted, negative, channel-dominance, pair-leverage, reading-
+disagreement, tie, degeneracy, enumeration, and determinism controls pass and
+bind the input, preregistration, runner, and nonimporting validator. The target
+is still unrun pending an independent prescore audit. Even a later pass can
+nominate only a repeated-`s` line-entry association, not mark ownership, a
+glyph meaning, lexeme, plaintext, or translation.
 
 ## Admission rule for new work
 

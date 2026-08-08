@@ -1,0 +1,551 @@
+{
+  "all_controls_pass": true,
+  "assertions": {
+    "channel_only_fails_deletion": true,
+    "combo_count_84": true,
+    "degenerate_rejected": true,
+    "deterministic_repeat": true,
+    "negative_fails": true,
+    "pair_leverage_fails_pair_gate": true,
+    "planted_passes": true,
+    "planted_unique_tail": true,
+    "reading_disagreement_fails": true
+  },
+  "bindings": {
+    "input_sha256": "8052a51fa37ad467e754be39648336ec4014442dab5e223daab2e77efaba4a43",
+    "preregistration_sha256": "ac22a3a4a9a6612c719cab1514518b3ff3a018240dc923f26a3950b9b06a7e4a",
+    "runner_sha256": "b041b8b5e7b6e4ca20564e825185db88a9fb2899f458bd9cbb49e5b7b0700b90",
+    "source_audit_sha256": "4a128ed3d4b87a9d804a336a6c22ced65839fa39c83f3ecf45092bbc64f2eabc",
+    "validator_sha256": "f0fab02c85924eb16d9c369ebc9980a81263cc991ab09e8cdb0885c78802f925"
+  },
+  "experiment": "F76S001",
+  "mode": "CONTROLS",
+  "results": {
+    "channel_only": {
+      "gates": {
+        "all_channel_deletions": false,
+        "all_reading_rank": true,
+        "all_target_pairs_above_median": true,
+        "complete_support": true,
+        "minimum_effect": true,
+        "primary_exact_p": true,
+        "surface_duplicate_veto": true
+      },
+      "leave_one_channel_out": {
+        "carrier": {
+          "exact_p": 1.0,
+          "exact_tail_count": 84,
+          "retained_channels": [
+            "q_state",
+            "role_path"
+          ],
+          "target_synchronous_z": -0.44721359549995765
+        },
+        "q_state": {
+          "exact_p": 0.011904761904761904,
+          "exact_tail_count": 1,
+          "retained_channels": [
+            "carrier",
+            "role_path"
+          ],
+          "target_synchronous_z": 5.404340528845692
+        },
+        "role_path": {
+          "exact_p": 0.047619047619047616,
+          "exact_tail_count": 4,
+          "retained_channels": [
+            "carrier",
+            "q_state"
+          ],
+          "target_synchronous_z": 2.7178022710347522
+        }
+      },
+      "pass": false,
+      "primary": {
+        "channels": [
+          "carrier",
+          "q_state",
+          "role_path"
+        ],
+        "combo_count": 84,
+        "exact_p": 0.047619047619047616,
+        "exact_tail_count": 4,
+        "minimum_effect": 0.3333333333333333,
+        "orbit_digest": "cd5e6bc1ba3a8266632f8e6beb8d31964b49bb61bd1389bcbbbc4ac24d360573",
+        "pair_details": {
+          "IT2a": {
+            "all_pair_median": 0.16666666666666666,
+            "target_pair_scores": [
+              0.3333333333333333,
+              0.6666666666666666,
+              0.3333333333333333
+            ]
+          },
+          "RF1b": {
+            "all_pair_median": 0.16666666666666666,
+            "target_pair_scores": [
+              0.3333333333333333,
+              0.6666666666666666,
+              0.3333333333333333
+            ]
+          },
+          "ZL3b": {
+            "all_pair_median": 0.16666666666666666,
+            "target_pair_scores": [
+              0.3333333333333333,
+              0.6666666666666666,
+              0.3333333333333333
+            ]
+          }
+        },
+        "pair_gate": {
+          "IT2a": true,
+          "RF1b": true,
+          "ZL3b": true
+        },
+        "reading_effects": {
+          "IT2a": 0.3333333333333333,
+          "RF1b": 0.3333333333333333,
+          "ZL3b": 0.3333333333333333
+        },
+        "reading_ranks": {
+          "IT2a": 1,
+          "RF1b": 1,
+          "ZL3b": 1
+        },
+        "surface_duplicate_veto": {
+          "IT2a": true,
+          "RF1b": true,
+          "ZL3b": true
+        },
+        "target_positions_one_based": [
+          1,
+          4,
+          9
+        ],
+        "target_synchronous_z": 2.717802271034752
+      }
+    },
+    "negative": {
+      "gates": {
+        "all_channel_deletions": false,
+        "all_reading_rank": false,
+        "all_target_pairs_above_median": false,
+        "complete_support": true,
+        "minimum_effect": false,
+        "primary_exact_p": false,
+        "surface_duplicate_veto": true
+      },
+      "leave_one_channel_out": {
+        "carrier": {
+          "exact_p": 1.0,
+          "exact_tail_count": 84,
+          "retained_channels": [
+            "q_state",
+            "role_path"
+          ],
+          "target_synchronous_z": -0.6502451783337643
+        },
+        "q_state": {
+          "exact_p": 1.0,
+          "exact_tail_count": 84,
+          "retained_channels": [
+            "carrier",
+            "role_path"
+          ],
+          "target_synchronous_z": -0.4913036844405175
+        },
+        "role_path": {
+          "exact_p": 1.0,
+          "exact_tail_count": 84,
+          "retained_channels": [
+            "carrier",
+            "q_state"
+          ],
+          "target_synchronous_z": -0.6502451783337643
+        }
+      },
+      "pass": false,
+      "primary": {
+        "channels": [
+          "carrier",
+          "q_state",
+          "role_path"
+        ],
+        "combo_count": 84,
+        "exact_p": 1.0,
+        "exact_tail_count": 84,
+        "minimum_effect": 0.0,
+        "orbit_digest": "122806475790b83876a26acec6550d2126c3cacf9af68e59fb62bc4ed666d4a5",
+        "pair_details": {
+          "IT2a": {
+            "all_pair_median": 0.16666666666666666,
+            "target_pair_scores": [
+              0.0,
+              0.0,
+              0.3333333333333333
+            ]
+          },
+          "RF1b": {
+            "all_pair_median": 0.16666666666666666,
+            "target_pair_scores": [
+              0.0,
+              0.0,
+              0.3333333333333333
+            ]
+          },
+          "ZL3b": {
+            "all_pair_median": 0.16666666666666666,
+            "target_pair_scores": [
+              0.0,
+              0.0,
+              0.3333333333333333
+            ]
+          }
+        },
+        "pair_gate": {
+          "IT2a": false,
+          "RF1b": false,
+          "ZL3b": false
+        },
+        "reading_effects": {
+          "IT2a": 0.0,
+          "RF1b": 0.0,
+          "ZL3b": 0.0
+        },
+        "reading_ranks": {
+          "IT2a": 31,
+          "RF1b": 31,
+          "ZL3b": 31
+        },
+        "surface_duplicate_veto": {
+          "IT2a": true,
+          "RF1b": true,
+          "ZL3b": true
+        },
+        "target_positions_one_based": [
+          1,
+          4,
+          9
+        ],
+        "target_synchronous_z": -0.6416889479197477
+      }
+    },
+    "pair_leverage": {
+      "gates": {
+        "all_channel_deletions": false,
+        "all_reading_rank": false,
+        "all_target_pairs_above_median": false,
+        "complete_support": true,
+        "minimum_effect": true,
+        "primary_exact_p": false,
+        "surface_duplicate_veto": true
+      },
+      "leave_one_channel_out": {
+        "carrier": {
+          "exact_p": 0.21428571428571427,
+          "exact_tail_count": 18,
+          "retained_channels": [
+            "q_state",
+            "role_path"
+          ],
+          "target_synchronous_z": 0.6878251582167244
+        },
+        "q_state": {
+          "exact_p": 0.08333333333333333,
+          "exact_tail_count": 7,
+          "retained_channels": [
+            "carrier",
+            "role_path"
+          ],
+          "target_synchronous_z": 3.3166247903554
+        },
+        "role_path": {
+          "exact_p": 0.21428571428571427,
+          "exact_tail_count": 18,
+          "retained_channels": [
+            "carrier",
+            "q_state"
+          ],
+          "target_synchronous_z": 0.6878251582167244
+        }
+      },
+      "pass": false,
+      "primary": {
+        "channels": [
+          "carrier",
+          "q_state",
+          "role_path"
+        ],
+        "combo_count": 84,
+        "exact_p": 0.21428571428571427,
+        "exact_tail_count": 18,
+        "minimum_effect": 0.2222222222222222,
+        "orbit_digest": "7df489ac7003362b2e6d5105f7e185ba474f35120be1e77b312cb854c7947d11",
+        "pair_details": {
+          "IT2a": {
+            "all_pair_median": 0.0,
+            "target_pair_scores": [
+              1.0,
+              0.0,
+              0.0
+            ]
+          },
+          "RF1b": {
+            "all_pair_median": 0.0,
+            "target_pair_scores": [
+              1.0,
+              0.0,
+              0.0
+            ]
+          },
+          "ZL3b": {
+            "all_pair_median": 0.0,
+            "target_pair_scores": [
+              1.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "pair_gate": {
+          "IT2a": false,
+          "RF1b": false,
+          "ZL3b": false
+        },
+        "reading_effects": {
+          "IT2a": 0.2222222222222222,
+          "RF1b": 0.2222222222222222,
+          "ZL3b": 0.2222222222222222
+        },
+        "reading_ranks": {
+          "IT2a": 4,
+          "RF1b": 4,
+          "ZL3b": 4
+        },
+        "surface_duplicate_veto": {
+          "IT2a": true,
+          "RF1b": true,
+          "ZL3b": true
+        },
+        "target_positions_one_based": [
+          1,
+          4,
+          9
+        ],
+        "target_synchronous_z": 1.4739110533215525
+      }
+    },
+    "planted": {
+      "gates": {
+        "all_channel_deletions": true,
+        "all_reading_rank": true,
+        "all_target_pairs_above_median": true,
+        "complete_support": true,
+        "minimum_effect": true,
+        "primary_exact_p": true,
+        "surface_duplicate_veto": true
+      },
+      "leave_one_channel_out": {
+        "carrier": {
+          "exact_p": 0.011904761904761904,
+          "exact_tail_count": 1,
+          "retained_channels": [
+            "q_state",
+            "role_path"
+          ],
+          "target_synchronous_z": 3.6847226772246633
+        },
+        "q_state": {
+          "exact_p": 0.011904761904761904,
+          "exact_tail_count": 1,
+          "retained_channels": [
+            "carrier",
+            "role_path"
+          ],
+          "target_synchronous_z": 5.404340528845692
+        },
+        "role_path": {
+          "exact_p": 0.011904761904761904,
+          "exact_tail_count": 1,
+          "retained_channels": [
+            "carrier",
+            "q_state"
+          ],
+          "target_synchronous_z": 3.6847226772246633
+        }
+      },
+      "pass": true,
+      "primary": {
+        "channels": [
+          "carrier",
+          "q_state",
+          "role_path"
+        ],
+        "combo_count": 84,
+        "exact_p": 0.011904761904761904,
+        "exact_tail_count": 1,
+        "minimum_effect": 0.8888888888888888,
+        "orbit_digest": "3b093c44dc5dea43edd0c9ac75c029522a34affd30d1def141d8dcc8c04b58a3",
+        "pair_details": {
+          "IT2a": {
+            "all_pair_median": 0.16666666666666666,
+            "target_pair_scores": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "RF1b": {
+            "all_pair_median": 0.16666666666666666,
+            "target_pair_scores": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "ZL3b": {
+            "all_pair_median": 0.16666666666666666,
+            "target_pair_scores": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        "pair_gate": {
+          "IT2a": true,
+          "RF1b": true,
+          "ZL3b": true
+        },
+        "reading_effects": {
+          "IT2a": 0.8888888888888888,
+          "RF1b": 0.8888888888888888,
+          "ZL3b": 0.8888888888888888
+        },
+        "reading_ranks": {
+          "IT2a": 1,
+          "RF1b": 1,
+          "ZL3b": 1
+        },
+        "surface_duplicate_veto": {
+          "IT2a": true,
+          "RF1b": true,
+          "ZL3b": true
+        },
+        "target_positions_one_based": [
+          1,
+          4,
+          9
+        ],
+        "target_synchronous_z": 4.491822635438236
+      }
+    },
+    "reading_disagreement": {
+      "gates": {
+        "all_channel_deletions": false,
+        "all_reading_rank": false,
+        "all_target_pairs_above_median": false,
+        "complete_support": true,
+        "minimum_effect": false,
+        "primary_exact_p": false,
+        "surface_duplicate_veto": true
+      },
+      "leave_one_channel_out": {
+        "carrier": {
+          "exact_p": 1.0,
+          "exact_tail_count": 84,
+          "retained_channels": [
+            "q_state",
+            "role_path"
+          ],
+          "target_synchronous_z": -0.6502451783337643
+        },
+        "q_state": {
+          "exact_p": 1.0,
+          "exact_tail_count": 84,
+          "retained_channels": [
+            "carrier",
+            "role_path"
+          ],
+          "target_synchronous_z": -0.4913036844405175
+        },
+        "role_path": {
+          "exact_p": 1.0,
+          "exact_tail_count": 84,
+          "retained_channels": [
+            "carrier",
+            "q_state"
+          ],
+          "target_synchronous_z": -0.6502451783337643
+        }
+      },
+      "pass": false,
+      "primary": {
+        "channels": [
+          "carrier",
+          "q_state",
+          "role_path"
+        ],
+        "combo_count": 84,
+        "exact_p": 1.0,
+        "exact_tail_count": 84,
+        "minimum_effect": 0.0,
+        "orbit_digest": "c3d2f7971ebb70c284c46af96b1266e41298cdcb0c306731a8601036ef2f0deb",
+        "pair_details": {
+          "IT2a": {
+            "all_pair_median": 0.16666666666666666,
+            "target_pair_scores": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "RF1b": {
+            "all_pair_median": 0.16666666666666666,
+            "target_pair_scores": [
+              0.0,
+              0.0,
+              0.3333333333333333
+            ]
+          },
+          "ZL3b": {
+            "all_pair_median": 0.16666666666666666,
+            "target_pair_scores": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        "pair_gate": {
+          "IT2a": true,
+          "RF1b": false,
+          "ZL3b": true
+        },
+        "reading_effects": {
+          "IT2a": 0.8888888888888888,
+          "RF1b": 0.0,
+          "ZL3b": 0.8888888888888888
+        },
+        "reading_ranks": {
+          "IT2a": 1,
+          "RF1b": 31,
+          "ZL3b": 1
+        },
+        "surface_duplicate_veto": {
+          "IT2a": true,
+          "RF1b": true,
+          "ZL3b": true
+        },
+        "target_positions_one_based": [
+          1,
+          4,
+          9
+        ],
+        "target_synchronous_z": -0.6416889479197477
+      }
+    }
+  },
+  "status": "PASS_CONTROLS_TARGET_STILL_FORBIDDEN"
+}
