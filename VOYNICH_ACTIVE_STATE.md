@@ -1297,6 +1297,23 @@ source-family runner (`7a40e055...`) after its public registration, but it
 predetermines no outcome and supplies no prefix,
 root, suffix, sound, word, language, meaning, plaintext, or translation.
 
+That one-time manuscript test now gives a confirmed **positional-only** result.
+Both manuscript-order and completely reversed runs independently select
+`FIXED_5`; neither selects a latent-stage model. On the 5,630 held TEST groups,
+selected-minus-K1 equal-folio gain is +.239340 nat/symbol forward and +.288974
+reversed, all 24/24 physical folios are positive in both views, and every
+leave-one-folio-out effect remains positive. Currier A/B gains are
++.214976/+.273449 forward and +.254606/+.337090 reversed. The 719 TEST groups
+whose exact Currier/family sequence never occurs in TRAIN remain positive at
++.098139/+.082603 equal-folio gain. A production-free implementation rejoins
+all 21,899 groups and reconstructs both evaluations, every stored aggregate,
+gate, decision, binding, report byte, and four join mutations in 33 checks.
+This establishes a transferable relative five-position shape inside complete
+source-separated groups. It does **not** establish five linguistic morphemes,
+movable prefix/root/suffix boundaries, a reading direction, sound, word,
+language, meaning, plaintext, or translation. The stronger flexible-stage
+route is closed at this resolution; do not relabel the five slots semantically.
+
 The first post-reset author-visible relation has now passed. `EAS001` used the
 older text-blind frozen inventory of explicit repeated sectors, bands, rows,
 and apparatus slots; it did not use pixels, OCR, automated vision, semantic
