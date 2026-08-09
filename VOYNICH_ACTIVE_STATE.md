@@ -1526,6 +1526,19 @@ row label, prefix code, full remainder signature, or target score is present.
 This authorizes target-free calibration of one leave-physical-folio-out onset-
 compatibility statistic only; it supplies no morphology or meaning.
 
+The target-free onset calibration now passes without opening any real
+operation label. The fixed predictor compares a held folio's base-only `DA`
+rate with a base-plus-onset rate trained on other folios, using exact base/
+folio label quotas. It yields 0/64 null passes, 7/8 distributed global-onset
+passes, and 0/8 for each one-folio, folio-random, and one-base adversary. The
+representative null and distributed-signal decisions remain unchanged at
+8,192 assignments. A production-free implementation reconstructs all 96
+worlds, both null orbits, every score/gate, target-size checks, report, and
+three mutations in 18 checks with zero numeric discrepancy. Real operation
+labels and target scores remain unopened. This authorizes one separately
+frozen exact-member onset target only; it establishes no morphology or
+meaning.
+
 The frozen out-of-domain prose-to-diagnostic test is now a strong but formal
 **nonconfirmation**. On 1,382 strict labels/radial/diagram groups, both favored
 and disfavored tails reach the minimum p=1/8192 under both exact-position-
