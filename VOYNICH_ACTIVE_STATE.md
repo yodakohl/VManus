@@ -2929,16 +2929,21 @@ bound the crosswalk under the wrong source-audit name, its tie fixture did not
 actually distinguish conservative from strict tails, duplicate target rows
 could silently overwrite, and the future validator checked an incomplete
 binding contract. A prospective amendment froze the repairs before corrected
-code. The repaired gate now passes all 15 synthetic assertions: separate
-alignment/crosswalk provenance, a mutation-sensitive four-way top tie, exact
-27-row cardinality and scope rejection, complete artifact/metadata validation,
-the original adversarial panels, exact enumeration, and determinism. A target-
-blind nonimporting re-audit independently rebuilt all six panels, 1,512 primary
-and 3,780 deletion triplet evaluations, and passed 19/19 checks. The target is
-still absent but its single preregistered invocation is now authorized. Even a
-pass can nominate only an association under the fixed human-editorial pairing,
-not mark ownership, selector meaning, reuse outside this panel, glyph meaning,
-lexeme, plaintext, or translation.
+code. The repaired gate passed all 15 synthetic assertions, and a target-blind
+nonimporting re-audit rebuilt all six panels, 1,512 primary and 3,780 deletion
+triplet evaluations, passing 19/19 checks.
+
+The single registered target invocation is now final and decisively
+nonconfirmatory. The repeated-`s` triplet has synchronous tail `41/84`
+(`p=.488095`), minimum reading-wise effect `0`, and ranks 18/29/29 in ZL/IT/RF.
+Deleting carrier, q-state, or role-path gives p=.75, .3333, and .5595; only
+complete support and distinct target surfaces pass. The nonimporting target
+validator passes all 27 binding, metadata, row-contract, orbit, deletion, gate,
+and decision checks. Close only this fixed root-free repeated-`s` line-entry
+selector. Approximate line alignment, other marks, vertical sequence, bullet,
+reference, and special-notation alternatives remain unresolved; none supplies
+ownership, selector meaning, reuse outside this panel, glyph meaning, lexeme,
+plaintext, or translation.
 
 ## Admission rule for new work
 
