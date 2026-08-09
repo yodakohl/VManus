@@ -3412,6 +3412,19 @@ all readings before target joining. A nonimporting implementation reconstructs
 all 510 by 84 stored values and the exclusion in 10/10 checks; no morphology
 column occurs in the anonymous binding or matrix.
 
+The scoring source is narrower than that matrix to preserve complete physical
+marker sequences. Dropping only the incomplete `f106r.27` unit would splice
+two nonadjacent morphology states, so all 14 `f106r` entries are excluded
+before any feature join. The frozen target-source binding therefore retains
+156 intact entries on 12 pages / seven folios. Seven-versus-eight rays has 149
+eligible entries and internal variation on all seven folios; one-versus-two
+tails has 155 eligible entries and internal variation on eight pages / six
+folios. Ray parity and early/late strata retain at least six informative
+folios; the corresponding tail strata retain four or five. Rare ray states
+and the sole tail-less marker remain explicit ignored third states. An
+independent source-only reconstruction passes 12/12 checks, with text feature
+values still unread and unjoined.
+
 The next mandatory action is a preregistered target-blind scoring design whose
 null preserves each page's complete morphology sequence and run structure,
 blocks parity and ordinal-gradient artifacts, equalizes physical folios,
