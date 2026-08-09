@@ -3088,7 +3088,7 @@ feature, panel, or threshold.
 
 ### Explicit side-view-flower / no-fruit-or-flower contrast
 
-`FLOWER001` is registered and target-unrun. It uses the new exact human
+`FLOWER001` is a final validated nonconfirmation. It uses the new exact human
 predicate “flower(s) seen from the side” against the same explicit “no fruits
 or flowers” negative predicate; silence remains unknown. The first anonymous
 blocked build exposed that recto and verso sides of a folio could be counted
@@ -3103,9 +3103,19 @@ within-triplet assignments; token length and linear folio number are
 controlled. Unique synthetic-plant, reading-disagreement, block-constant, three-way-tie,
 one-block-deletion, binding, and deterministic controls pass. A nonimporting
 implementation reconstructs the source panel, distinct-folio optimum, feature
-matrix, both family nulls, and every control in 22 checks. One frozen target
-invocation is authorized. Even a pass is only a side-view-flower page-field
-candidate, never FLOWER, FRUIT, NO, a plant name, plaintext, or translation.
+matrix, both family nulls, and every control in 22 checks.
+
+The single frozen target gives zero passes and **no feature with adjusted
+familywise `p <= .20`**. The best adjusted diagnostic is literal internal
+piece `oe`, at adjusted `p=.473251` and raw `p=.518976`; it is not a candidate
+and receives no gloss. A nonimporting target reconstruction matches every
+score, inclusive tail, empty candidate table, and the final decision in 13
+checks. Together with BERRY001, this supplies no whole-page recurrent
+morphology for either tested reproductive-structure contrast. It does not
+show that the author omitted flower/fruit information, and it establishes no
+FLOWER, FRUIT, NO, plant name, plaintext, or translation. Do not retune the
+blocks, add the excluded same-folio pages, lower thresholds, or mine a feature
+subset.
 
 ## Admission rule for new work
 

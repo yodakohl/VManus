@@ -59,10 +59,11 @@ system whose physical lines often act as record-like units.
 - A broad historical prior remains compatible with an astrological-medical
   compendium containing herbal, bathing, astronomical, pharmaceutical, and
   recipe-like modules. No particular source manuscript has been identified.
-- A clean human-annotated Herbal contrast found no recurrent text pattern that
-  reliably separates eight explicitly berry-bearing drawings from seven
-  explicitly fruitless/flowerless drawings. The sole near-miss, root prefix
-  `oii`, misses both frozen familywise gates and is not a berry or negation
+- Two clean human-annotated Herbal contrasts found no recurrent text pattern
+  that reliably separates explicitly berry-bearing or side-view-flower
+  drawings from explicitly fruitless/flowerless drawings. The berry near-miss
+  `oii` misses both frozen gates; the blocked flower test has no feature even
+  at adjusted familywise `p <= .20`. Neither supplies a plant-part or negation
   translation.
 
 ## Latest provisional cross-page lead
@@ -142,3 +143,5 @@ itself new evidence.
   [`f77r_same_orientation_capacity_report.md`](experiments/semantic_assumptions/results/f77r_same_orientation_capacity_report.md)
 - Explicit berry/no-fruit nonconfirmation:
   [`berry_explicit_contrast_report.md`](experiments/semantic_assumptions/results/berry_explicit_contrast_report.md)
+- Blocked flower/no-flower nonconfirmation:
+  [`flower_explicit_contrast_report.md`](experiments/semantic_assumptions/results/flower_explicit_contrast_report.md)
