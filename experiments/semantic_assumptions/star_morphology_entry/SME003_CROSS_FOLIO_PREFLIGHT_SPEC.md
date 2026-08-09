@@ -31,6 +31,14 @@ and 84 anonymous features. It may not open, parse, import, hash-join, or infer
 any ray, tail, core, color, or other morphology field. Every SME001/SME003
 target result path must be absent before and after the run.
 
+The exact page contract is frozen as `f104r:13`, `f104v:13`, `f105r:10`,
+`f105v:10`, `f107v:15`, `f112v:13`, `f113r:16`, `f113v:15`, `f114r:13`,
+`f114v:12`, `f115r:13`, and `f115v:13`. Each page must map wholly to the
+physical folio obtained by removing its terminal `r`/`v`; page ordinals must
+be exactly `1..page_size`; and page, folio, ordinal, and locus metadata must be
+identical across readings. The output binds canonical newline-delimited
+training- and held-unit digests for every fold.
+
 ## Frozen fold transform
 
 The seven physical folios define seven leave-one-folio-out transforms. For
@@ -72,6 +80,13 @@ No covariance parameter is selected by synthetic power or by a target. The
 preflight must stop if any transform is nonfinite, `C` is not positive
 definite, `W` is not symmetric positive definite, or the eligible intersection
 has fewer than 24 formal and 32 root features.
+
+The exact feature order must equal the inventory's 34 formal columns followed
+by all 32 `ROOT_ATOM_RATE__` columns and all 18 `ROOT_WORD_RATE__` columns in
+their frozen inventory order. Every `PARA_WORD_COUNT` must be finite and
+nonnegative before `log1p`; every nuisance matrix must be finite. Contract or
+numeric failure must hard-stop before eigendecomposition or inversion and may
+never emit authorizing prose.
 
 ## Later statistic already constrained
 

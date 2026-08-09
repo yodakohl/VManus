@@ -27,6 +27,20 @@ EXPECTED_HASHES = {
 META = {"unit_id", "page", "physical_folio", "star_ordinal", "locus", "edition"}
 SCALE_TOL = 1e-10
 NUM_TOL = 1e-15
+EXPECTED_PAGE_SIZES = {
+    "f104r": 13,
+    "f104v": 13,
+    "f105r": 10,
+    "f105v": 10,
+    "f107v": 15,
+    "f112v": 13,
+    "f113r": 16,
+    "f113v": 15,
+    "f114r": 13,
+    "f114v": 12,
+    "f115r": 13,
+    "f115v": 13,
+}
 TARGET_ARTIFACTS = (
     HERE / "TARGET_RESULT.json",
     HERE / "SME001_TARGET_RESULT.json",
@@ -51,6 +65,10 @@ def array_sha256(values: np.ndarray) -> str:
     return hashlib.sha256(canonical.tobytes()).hexdigest()
 
 
+def string_list_sha256(values: list[str]) -> str:
+    return hashlib.sha256(("\n".join(values) + "\n").encode("ascii")).hexdigest()
+
+
 def centered_by_page(values: np.ndarray, pages: np.ndarray) -> np.ndarray:
     answer = np.empty_like(values, dtype=np.float64)
     for page in sorted(set(pages.tolist())):
@@ -61,14 +79,26 @@ def centered_by_page(values: np.ndarray, pages: np.ndarray) -> np.ndarray:
 
 def analytic_shrinkage(train: np.ndarray) -> tuple[np.ndarray, np.ndarray, float, dict]:
     n, p = train.shape
+    if n < 2 or p < 1 or not np.isfinite(train).all():
+        raise RuntimeError("invalid covariance input")
     covariance = (train.T @ train) / n
+    if not np.isfinite(covariance).all():
+        raise RuntimeError("nonfinite population covariance")
     mu = float(np.trace(covariance) / p)
+    if not np.isfinite(mu) or mu <= NUM_TOL:
+        raise RuntimeError("nonpositive covariance trace")
     alpha = float(np.mean(covariance * covariance))
     denominator = float((n + 1) * (alpha - mu * mu / p))
     rho = 1.0 if denominator <= NUM_TOL else min(1.0, (alpha + mu * mu) / denominator)
     shrunk = (1.0 - rho) * covariance + rho * mu * np.eye(p)
+    if not np.isfinite(shrunk).all():
+        raise RuntimeError("nonfinite shrunk covariance")
     eigenvalues = np.linalg.eigvalsh(shrunk)
+    if eigenvalues[0] <= NUM_TOL:
+        raise RuntimeError("shrunk covariance is not positive definite")
     weight = np.linalg.inv(shrunk)
+    if not np.isfinite(weight).all():
+        raise RuntimeError("nonfinite covariance inverse")
     weight *= p / float(np.trace(weight))
     diagnostics = {
         "n": n,
@@ -101,6 +131,13 @@ def main() -> None:
     features = [field for field in raw_rows[0] if field not in META]
     if features != inventory["all_features"] or len(features) != 84:
         raise RuntimeError("feature inventory/order mismatch")
+    expected_features = (
+        inventory["formal_features"]
+        + [f"ROOT_ATOM_RATE__{name}" for name in inventory["root_atom_features"]]
+        + [f"ROOT_WORD_RATE__{name}" for name in inventory["root_compound_word_features"]]
+    )
+    if features != expected_features:
+        raise RuntimeError("formal/root inventory partition mismatch")
 
     units = sorted({row["unit_id"] for row in raw_rows})
     lookup = {(row["unit_id"], row["edition"]): row for row in raw_rows}
@@ -111,7 +148,12 @@ def main() -> None:
     folios = np.asarray([row["physical_folio"] for row in first_rows], dtype=object)
     ordinals = np.asarray([int(row["star_ordinal"]) for row in first_rows], dtype=np.int64)
     page_sizes = {page: int(np.sum(pages == page)) for page in sorted(set(pages.tolist()))}
+    if page_sizes != EXPECTED_PAGE_SIZES:
+        raise RuntimeError(f"exact page-size contract mismatch: {page_sizes}")
     for page, size in page_sizes.items():
+        page_folios = set(folios[pages == page].tolist())
+        if page_folios != {page[:-1]}:
+            raise RuntimeError(f"page-to-folio contract mismatch on {page}: {page_folios}")
         page_ordinals = sorted(ordinals[pages == page].tolist())
         if page_ordinals != list(range(1, size + 1)):
             raise RuntimeError(f"noncontiguous ordinal sequence on {page}")
@@ -158,6 +200,8 @@ def main() -> None:
     if root_start != 34 or len(features) - root_start != 50:
         raise RuntimeError("formal/root feature partition mismatch")
     word_index = features.index("PARA_WORD_COUNT")
+    if np.any(values[:, :, word_index] < 0):
+        raise RuntimeError("PARA_WORD_COUNT must be nonnegative")
     unique_folios = sorted(set(folios.tolist()))
     if len(unique_folios) != 7 or len(page_sizes) != 12:
         raise RuntimeError("page/folio capacity mismatch")
@@ -173,12 +217,16 @@ def main() -> None:
             "held_units": int(np.sum(held_mask)),
             "train_pages": len(set(pages[train_mask].tolist())),
             "held_pages": len(set(pages[held_mask].tolist())),
+            "training_unit_sha256": string_list_sha256(sorted(np.asarray(units, dtype=object)[train_mask].tolist())),
+            "held_unit_sha256": string_list_sha256(sorted(np.asarray(units, dtype=object)[held_mask].tolist())),
         }
         for edition_index, edition in enumerate(EDITIONS):
             centered_values = centered_by_page(values[:, edition_index, :], pages)
             log_length = np.log1p(values[:, edition_index, word_index])
             length_design = np.stack([log_length, log_length ** 2, log_length ** 3], axis=1)
             length_design = centered_by_page(length_design, pages)
+            if not np.isfinite(length_design).all() or not np.isfinite(nuisance_formal).all():
+                raise RuntimeError("nonfinite nuisance design")
             residual = np.empty_like(centered_values)
             for feature_index in range(len(features)):
                 design = nuisance_formal
@@ -196,6 +244,8 @@ def main() -> None:
     eligible = [feature for feature, keep in zip(features, eligible_mask) if keep]
     formal_eligible = [feature for feature in eligible if feature in inventory["formal_features"]]
     root_eligible = [feature for feature in eligible if feature not in inventory["formal_features"]]
+    if len(formal_eligible) < 24 or len(root_eligible) < 32:
+        raise RuntimeError("eligible feature capacity below frozen floor")
 
     transforms = {}
     all_diagnostics_ok = True
@@ -270,16 +320,26 @@ def main() -> None:
 
     rho_values = [value["rho"] for value in transforms.values()]
     conditions = [value["covariance_condition"] for value in transforms.values()]
-    REPORT.write_text("\n".join([
-        "# SME003 target-blind cross-folio preflight", "",
-        f"**{status}**", "",
+    report_lines = [
+        "# SME003 target-blind cross-folio preflight", "", f"**{status}**", "",
         f"The frozen anonymous matrix retains {len(eligible)}/84 features: {len(formal_eligible)} formal and {len(root_eligible)} root-rate features. The seven physical folios, 12 pages, 156 units, 468 alternate-reading rows, and every input hash match the freeze.", "",
-        f"Across the 21 held-folio/reading transforms, analytic shrinkage ranges from {min(rho_values):.6f} to {max(rho_values):.6f}; shrunk covariance condition numbers range from {min(conditions):.6f} to {max(conditions):.6f}. Every standardized matrix, covariance, and inverse is finite and positive definite.", "",
-        "No ray, tail, core, color, or other morphology row was opened or joined, and every target artifact remained absent. This authorizes only a separately frozen synthetic calibration of cross-folio concordance. It supplies no association, meaning, lexeme, plaintext, language, or translation.", "",
+        f"Across the 21 held-folio/reading transforms, analytic shrinkage ranges from {min(rho_values):.6f} to {max(rho_values):.6f}; shrunk covariance condition numbers range from {min(conditions):.6f} to {max(conditions):.6f}.", "",
+    ]
+    if all(gates.values()):
+        report_lines.extend([
+            "Every standardized matrix, covariance, and inverse is finite and positive definite. No ray, tail, core, color, or other morphology row was opened or joined, and every target artifact remained absent. This authorizes only a separately frozen synthetic calibration of cross-folio concordance. It supplies no association, meaning, lexeme, plaintext, language, or translation.", "",
+        ])
+    else:
+        failed = ", ".join(name for name, passed in gates.items() if not passed)
+        report_lines.extend([
+            f"STOP. Failed gates: {failed}. No later calibration or target access is authorized, and no morphology association or meaning follows.", "",
+        ])
+    report_lines.extend([
         "## Reproduction", "", "```bash",
         "./vpy experiments/semantic_assumptions/star_morphology_entry/build_sme003_cross_folio_preflight.py",
         "```",
-    ]) + "\n", encoding="utf-8")
+    ])
+    REPORT.write_text("\n".join(report_lines) + "\n", encoding="utf-8")
     if not all(gates.values()):
         raise SystemExit(status)
 

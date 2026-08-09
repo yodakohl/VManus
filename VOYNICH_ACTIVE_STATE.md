@@ -3481,9 +3481,13 @@ features or relax SME001. Absolute and relative ordinal profiles, parity,
 early/late position, and root-length curves are removed without labels inside
 each held-folio coordinate system. A fixed analytic shrinkage transform is
 trained outside the held folio, and the three readings remain separately
-gated. Static independent audit authorizes only the anonymous transform
-capacity run; ray/tail rows remain forbidden until a separate synthetic
-cross-folio calibration passes without weakening its frozen gates.
+gated. Static independent design audit authorizes only the anonymous transform
+capacity run. A later adversarial source audit caught misleading STOP-report
+prose plus missing exact page-to-folio, numeric-domain, and feature-partition
+guards after the first provisional anonymous output; those implementation
+contracts were hardened before accepting or publishing any result. Ray/tail
+rows remain forbidden until a separate synthetic cross-folio calibration
+passes without weakening its frozen gates.
 
 A new semantic route needs genuinely independent authorial evidence or a new
 invariant capable of falsifying competing meanings. A new model, crop,
