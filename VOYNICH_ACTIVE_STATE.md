@@ -1277,6 +1277,25 @@ authorizes a separately frozen monotone-stage parser and synthetic controls,
 not a held TEST fit or any prefix/root/suffix, sound, word, language, meaning,
 plaintext, or translation claim.
 
+The first target-free stage preflight stopped on one contradictory control,
+without opening a manuscript family sequence. Its frozen deterministic
+`floor(K*j/L)` fixed-position comparator is not numerically invariant to
+reversal when a group length is not divisible by K, although the scientific
+decisions are. The stopped v1 artifact is retained. A versioned amendment
+changes only this impossible whole-object equality requirement to complete
+reversal robustness of the actual decisions and the selected-minus-K1 latent
+effect; both orientations must still independently clear the unchanged
+adaptive-boundary gate. The corrected preflight passes: 0/32 nulls, 8/8
+latent-stage plants, 8/8 fixed-position plants with 0/8 false latent calls,
+and 0/8 one-register and one-folio adversaries. Every one of 64 decisions is
+unchanged by reversal, every latent plant remains `LATENT_3`, and its largest
+selected-minus-K1 reversal difference is 1.95e-16. A production-free
+implementation reconstructs all 64 original and 64 reversed worlds with zero
+numeric discrepancy in 166 checks. The target remains unopened. This now
+authorizes a separately hash-frozen one-time TRAIN/CAL-selected, held-TEST
+source-family run, but it predetermines no outcome and supplies no prefix,
+root, suffix, sound, word, language, meaning, plaintext, or translation.
+
 The first post-reset author-visible relation has now passed. `EAS001` used the
 older text-blind frozen inventory of explicit repeated sectors, bands, rows,
 and apparatus slots; it did not use pixels, OCR, automated vision, semantic
