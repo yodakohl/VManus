@@ -1027,7 +1027,12 @@ transcription-confidence coordinate rather than independent evidence. The next
 route may learn a source-boundary grammar only from all-three-versus-zero
 positions on training folios, then test whether it ranks held two-reading
 positions above one-reading positions. No old formal role or root may be used
-as a predictor.
+as a predictor. The score-blind capacity audit passes: the strict panel has
+71,356 zero-reading gaps, 19,041 all-three gaps, 814 one-reading gaps, and 668
+two-reading gaps. Both target classes occur on 95 physical folios; every
+two-reading gap and 812/814 one-reading gaps have a local family-pair training
+example outside their folio. This authorizes freezing the held test, not fitting
+after looking at its target contrast and not asserting an authorial word boundary.
 
 The first post-reset author-visible relation has now passed. `EAS001` used the
 older text-blind frozen inventory of explicit repeated sectors, bands, rows,

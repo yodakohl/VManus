@@ -1,0 +1,210 @@
+{
+  "claim_ceiling": "Capacity for a preregistered physical-folio-held source-boundary grammar test only; no authorial word boundary, corrected reading, grammar role, sound, morpheme, lexeme, plaintext, language, or translation.",
+  "counts": {
+    "family_alphabet": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "J",
+      "K",
+      "L",
+      "M",
+      "N",
+      "P",
+      "Q",
+      "T",
+      "U",
+      "V",
+      "W",
+      "X",
+      "Z"
+    ],
+    "folios_with_both_targets": 95,
+    "internal_gaps": 91879,
+    "observed_training_pairs": 192,
+    "physical_folios": 102,
+    "strict_loci": 3572,
+    "support": {
+      "0": 71356,
+      "1": 814,
+      "2": 668,
+      "3": 19041
+    },
+    "target_folios": {
+      "1": 101,
+      "2": 95
+    }
+  },
+  "decision": "GO_FREEZE_SOURCE_BOUNDARY_GRAMMAR_TEST",
+  "experiment": "SOURCE_BOUNDARY_GRAMMAR_CAPACITY",
+  "gates": {
+    "at_least_600_each_target": true,
+    "at_least_80_folios_with_both_targets": true,
+    "at_least_90_folios_each_target": true,
+    "exact_strict_loci_and_gap_counts": true,
+    "exact_support_counts": true,
+    "held_training_minima": true,
+    "loo_pair_coverage": true,
+    "score_and_lexical_fields_absent": true,
+    "target_metadata_category_sets_match": true
+  },
+  "held_training_minima": {
+    "support_0": 68896,
+    "support_3": 18368
+  },
+  "inputs": {
+    "SOURCE_BOUNDARY_GRAMMAR_CAPACITY_SPEC.md": "a9cf2a39a4220b807116580ed11a4e2195dffd24484a59e681f765f0aabc16f0",
+    "build_source_boundary_grammar_capacity.py": "5c617238bb205aba2db8c29cf9a2de3150db2e31cedbb563b4e8ae7729a1c9be",
+    "source_sta_family_consensus.json": "193ac76bd14b3967844035e8c3997f402d556c7aecf3190145c5295b4eeab3f7",
+    "source_sta_family_consensus_boundaries.tsv": "b32aa0a197f9a09eb19087ca80fcc0346601576d49429c346a5df23826ef3974",
+    "source_sta_family_consensus_loci.tsv": "84354a9e5d291ab00f45c9bfe161f62d8cbd8c39db7511ff263cd9fcfe9d9e77"
+  },
+  "loo_target_pair_coverage": {
+    "1": {
+      "covered": 812,
+      "fraction": 0.9975429975429976,
+      "total": 814
+    },
+    "2": {
+      "covered": 668,
+      "fraction": 1.0,
+      "total": 668
+    }
+  },
+  "prohibited_outputs": {
+    "english_glosses": 0,
+    "model_fitted": false,
+    "p_value_computed": false,
+    "target_contrast_computed": false
+  },
+  "status": "PASS_SCORE_BLIND_CAPACITY",
+  "target_metadata_counts": {
+    "currier": {
+      "1": {
+        "": 44,
+        "A": 297,
+        "B": 473
+      },
+      "2": {
+        "": 26,
+        "A": 231,
+        "B": 411
+      }
+    },
+    "grammar_scope": {
+      "1": {
+        "CONFIRMED_PROSE": 761,
+        "DIAGNOSTIC_NONPROSE": 53
+      },
+      "2": {
+        "CONFIRMED_PROSE": 636,
+        "DIAGNOSTIC_NONPROSE": 32
+      }
+    },
+    "kind": {
+      "1": {
+        "C": 7,
+        "L": 31,
+        "P": 768,
+        "R": 8
+      },
+      "2": {
+        "C": 3,
+        "L": 20,
+        "P": 640,
+        "R": 5
+      }
+    },
+    "section": {
+      "1": {
+        "A": 11,
+        "B": 159,
+        "C": 13,
+        "H": 277,
+        "P": 52,
+        "S": 243,
+        "T": 37,
+        "Z": 22
+      },
+      "2": {
+        "A": 7,
+        "B": 124,
+        "C": 14,
+        "H": 217,
+        "P": 38,
+        "S": 220,
+        "T": 38,
+        "Z": 10
+      }
+    }
+  },
+  "target_metadata_overlap": {
+    "currier": {
+      "exact_set_match": true,
+      "support_1": [
+        "",
+        "A",
+        "B"
+      ],
+      "support_2": [
+        "",
+        "A",
+        "B"
+      ]
+    },
+    "grammar_scope": {
+      "exact_set_match": true,
+      "support_1": [
+        "CONFIRMED_PROSE",
+        "DIAGNOSTIC_NONPROSE"
+      ],
+      "support_2": [
+        "CONFIRMED_PROSE",
+        "DIAGNOSTIC_NONPROSE"
+      ]
+    },
+    "kind": {
+      "exact_set_match": true,
+      "support_1": [
+        "C",
+        "L",
+        "P",
+        "R"
+      ],
+      "support_2": [
+        "C",
+        "L",
+        "P",
+        "R"
+      ]
+    },
+    "section": {
+      "exact_set_match": true,
+      "support_1": [
+        "A",
+        "B",
+        "C",
+        "H",
+        "P",
+        "S",
+        "T",
+        "Z"
+      ],
+      "support_2": [
+        "A",
+        "B",
+        "C",
+        "H",
+        "P",
+        "S",
+        "T",
+        "Z"
+      ]
+    }
+  }
+}
