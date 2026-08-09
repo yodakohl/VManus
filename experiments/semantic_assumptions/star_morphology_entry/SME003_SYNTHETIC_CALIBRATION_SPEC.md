@@ -136,6 +136,14 @@ coordinates; the deleted folio contributes no label-dependent vector or
 direction. This is a conditional robustness deletion, not a new independent
 score.
 
+More explicitly, when folio `d` is deleted, every surviving held contribution
+`f != d` recomputes its training direction as the mean over informative
+`g != f,d` in the unchanged held-`f` coordinate system, and the deletion
+statistic is the equal mean of those contributions over surviving `f`. The
+least-squares solver remains the preflight solver
+`numpy.linalg.lstsq(..., rcond=None)` and the relative-quarter bins remain the
+preflight half-open bins `[0,.25)`, `[.25,.50)`, `[.50,.75)`, and `[.75,1]`.
+
 No individual feature statistic, coefficient, loading, weight, favorable root,
 or post-hoc subset may be emitted for a real target.
 
@@ -166,6 +174,18 @@ key is its literal page ID. A coupled key is `FOLIO:` plus the physical folio,
 with `L` the least common multiple of its page lengths and page shift
 `floor(phase*page_length/L)`.
 
+The initial frozen construction was corrected before any calibration score
+because floor-mapped coupled phases can produce duplicate complete rows. For
+each `i>0`, construct row attempt zero with the domain above. If its complete
+12-column row duplicates any previously accepted row, increment a row-attempt
+integer from one and regenerate every key using ASCII
+`SME003_ROT_V1|ensemble|i|ROW_RETRY:{attempt}|{key}|{counter}` with the same
+per-key modulo-rejection counter beginning at zero. Accept the first complete
+row not previously present; hard-stop if no unique row is found by attempt
+65535. Emit every row-attempt count and their maximum. This is deterministic
+sampling without replacement over complete rotation rows, not silent duplicate
+retention.
+
 1. `INDEPENDENT_PAGE`: every page receives an independent cyclic shift.
 2. `COUPLED_FOLIO`: every physical folio receives one phase on the least-
    common-multiple grid of its page lengths; a page receives the explicit
@@ -177,7 +197,9 @@ little-endian unsigned 16-bit with shape `N x 12`; SHA-256 is over its raw
 bytes. The same assignment shifts both ray-like and tail-like sequences, preserving
 their within-page cross-target relation. Every shift preserves each page's
 label multiset, ignored states, and cyclic adjacency/run structure while
-relocating the linear cut. Canonical little-endian rotation matrices and
+relocating the linear cut. A positive shift is exactly
+`numpy.roll(states, shift)`: destination zero-based position `j` receives source position
+`(j-shift) mod page_length`. Canonical little-endian rotation matrices and
 digests are mandatory.
 
 ## Shared-manuscript whole-row power plant
@@ -203,6 +225,11 @@ These are projection drivers only. Whole-row reassignment can induce effects
 in correlated nondriver features, so `BALANCED_24_DRIVER` does not claim a
 signal confined to 24 features. Every power world reports full-profile
 material plus realized RMS identity effect inside and outside its driver.
+For that diagnostic, use the already defined all-folio identity vector
+`D_{t,e}`. Report separately for every reading the population RMS of its
+coordinates inside the selected driver and outside it. The outside value is
+explicitly `null` for `DENSE_83_DRIVER`, whose complement is empty; there is no
+across-reading scalar aggregation and this diagnostic is not a gate.
 
 The unit projection is the signed driver-feature sum divided by the square
 root of the driver count. Only target-informative pages are planted;
@@ -273,15 +300,27 @@ to all eight worlds under each driver.
   its held contribution; exact pre/post digests are required for every fold;
 - pure absolute-rank cubic, relative-rank cubic, parity, early/late, and
   quarter components are added separately to every eligible response except
-  `PARA_WORD_COUNT`, at `.500` target-blind page-centered RMS with sign from
-  `CONTROL_NUISANCE|basis|feature`; all residuals and scores equal the
-  unmodified fixture within `1e-10`, with identical gates;
-- centered linear and cubic `log1p(PARA_WORD_COUNT)` components are added to
-  every root feature at `.500` RMS and leave all residuals and scores unchanged
-  within `1e-10`, with identical gates;
-- bounded page-constant shifts of `.10` target-blind RMS with hash-derived
-  signs are applied to every eligible response except `PARA_WORD_COUNT`;
-  every residual and score remains unchanged within `1e-12`;
+  `PARA_WORD_COUNT`. This means seven separate controls named `ABS_CUBIC`,
+  `REL_CUBIC`, `PARITY`, `EARLY`, `QUARTER_1`, `QUARTER_2`, and `QUARTER_3`.
+  Their raw unit bases are respectively absolute rank cubed, relative rank
+  cubed, odd-ordinal indicator, the exact preflight early indicator, and the
+  three exact preflight quarter dummy columns; page-center the selected basis.
+  For each reading and feature separately, scale it to `.500` times that
+  response's baseline page-centered population RMS, using sign from
+  `CONTROL_NUISANCE|basis|feature`. A zero/nonfinite response or basis RMS
+  hard-stops. All raw residual arrays and all scores equal the unmodified
+  fixture within `1e-10`, with identical gates;
+- centered linear and cubic `log1p(PARA_WORD_COUNT)` components are two
+  separate controls `LENGTH_LINEAR` and `LENGTH_CUBIC`. Page-center the raw
+  power, then for each reading and root feature separately scale it to `.500`
+  times that response's baseline page-centered population RMS, using sign from
+  `CONTROL_LENGTH|basis|feature`. They leave every raw residual array and all
+  scores unchanged within `1e-10`, with identical gates;
+- bounded page-constant shifts form one control. For each reading and eligible
+  response except `PARA_WORD_COUNT`, its page-specific constant has magnitude
+  `.10` times that response's baseline page-centered population RMS and sign
+  from `CONTROL_PAGE_CONSTANT|page|feature`. Every raw residual array and score
+  remains unchanged within `1e-12`;
 - after ordinary label validation, a scorer-only copy exchanging low/high
   state names bypasses the directed 66/83 and 133/22 generation gate. It
   reverses every page contrast but leaves cross-folio
@@ -297,8 +336,20 @@ to all eight worlds under each driver.
   sensitivity under both drivers for worlds `0..7`. For each edition and page,
   donor rows are independently ordered by
   `CONTROL_INDEPENDENT_BASELINE|edition|page|unit` rank before applying the
-  shared plant mapping. This diagnostic may not replace the actual-reading
+  shared plant mapping. Exactly: list the page's original donors in increasing
+  destination ordinal/unit-ID order, list its destinations by the stated rank
+  with ordinal/unit-ID tie-breaks, assign donor `k` to ranked destination `k`,
+  independently in each reading, and then apply the ordinary shared
+  destination-swap plan. Metadata remains at the destination and complete
+  page inventories remain fixed. Emit each reading/page permutation and
+  planted-matrix digest. This diagnostic may not replace the actual-reading
   primary power gate.
+
+The nuisance, length, page-constant, scorer-only complement, and held-fold
+sentinel controls use paired synthetic world zero. Whole-row plant controls
+and the independent-reading sensitivity use worlds `0..7` exactly as stated.
+All signs take the low bit of the full SHA-256 digest, with zero mapped to
+`-1` and one to `+1`.
 
 All invariance controls compare every reading, target, ensemble, assignment,
 and applicable gate—not only the final decision. The scorer-only complement is
