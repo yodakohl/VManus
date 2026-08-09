@@ -1218,8 +1218,8 @@ different distances, selected readings/templates, or weaker thresholds. The
 next route must leave this exact scope family. No sound, word, language, cipher
 operation, meaning, plaintext, or translation follows.
 
-A genuinely different source-native morphology route is now open at capacity
-only. It asks whether the first STA family of a synchronized prose group helps
+A genuinely different source-native morphology route has now been tested. It
+asks whether the first STA family of a synchronized prose group helps
 predict its last family after the second and penultimate families, capped
 length, locus position, Currier register, and held physical folio are fixed.
 This is within-group edge coupling, not adjacent-group transition scoring,
@@ -1227,9 +1227,9 @@ first-versus-last classification, smooth internal position, or member-code
 allography. The target-masked panel contains 19,203 groups on 94 folios;
 14,955 retain at least 20 baseline-cell and five opening-conditioned examples
 outside their own folio. Ten opening families and 134 baseline cells survive.
-The final family is absent from the panel, and an independent 19,234-check
-implementation reconstructs every row and support. This authorizes synthetic
-calibration only. It does not yet establish edge agreement, an affix,
+The final family was absent from the calibration panel, and an independent
+19,234-check implementation reconstructs every row and support. This did not
+itself establish edge agreement, an affix,
 circumfix, word, sound, language, cipher operation, meaning, plaintext, or
 translation.
 
@@ -1245,11 +1245,19 @@ only; it does not predetermine an edge relation or establish an affix,
 circumfix, sound, word, language, cipher operation, meaning, plaintext, or
 translation.
 
-The one authorized target is now separately frozen before target access. It
-must join all 19,203 masked groups by exact consensus-group identity and prefix
-remasking, score the unchanged 14,955-row/94-folio model once, emit aggregates
-only, and close without retuning if any gate fails. No target result exists at
-this registration point.
+The one authorized target has now run and is a strong frozen nonconfirmation.
+On 14,955 eligible groups and 94 physical folios, adding the opening family to
+the immediate-core, length, locus-position, and Currier baseline makes held-
+folio prediction worse: equal-folio proper-score gain is -.058951 nat/group,
+only 13/94 folios are positive, and Currier A/B gains are -.047546/-.074348.
+The minimum deletion effect is -.062495. A production-free implementation
+reconstructs all 19,203 joins, every held score, summary, gate, and decision in
+76,859 checks. This exact test is closed without retuning. The already
+confirmed endpoint-role grammar remains real, but it is not explained by a
+simple transferable first-family-to-last-family agreement rule at this frozen
+resolution; a paired-family/circumfix reading is therefore disfavored, not
+proved impossible. No sound, word, language, cipher operation, meaning,
+plaintext, or translation follows.
 
 The first post-reset author-visible relation has now passed. `EAS001` used the
 older text-blind frozen inventory of explicit repeated sectors, bands, rows,
