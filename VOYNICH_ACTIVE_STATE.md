@@ -31,8 +31,12 @@ Updated: 2026-08-09. Read this file first, then
 
 ## Confirmed structural baseline
 
-1. Visible spaces are real hierarchical boundaries, although they need not be
-   European-style word boundaries.
+1. Source separators carry real hierarchical information, although they need
+   not be European-style word boundaries. They must be kept in their four
+   manual IVTFF states: confident apparent space, uncertain small space,
+   drawing interruption, and unaligned drawing interruption. The legacy ASCII
+   cleaner also created 2,714 additional fragment boundaries that are not
+   source separators and must never be treated as human-marked spaces.
 2. Multi-unit forms are productively compositional; the inventory is not well
    described as unrelated opaque codebook items.
 3. Physical lines behave as record/utterance-like units. A validated writing-
@@ -907,20 +911,29 @@ that the 21 components have meanings or that exact tuples are words.
 
 The label-free information-gathering phase has also been consolidated into a
 pre-grounding package built from the locked transcriptions, former confirmed
-parser, six confirmed role transitions, and active budget artifacts. It
-contains complete literal surfaces for 15,960 reading-specific rows over 5,380
-physical loci, plus a **partial retained-node formal layer** with 636 root
-types, 2,835 exact root tuples, and 13,559 descriptive prose adjacency
-relations. The former package wording incorrectly called the surface/root/role
-interlinear complete. Exact reconstruction shows that the formal columns retain
-114,173 of 118,011 space-delimited surface groups: 3,838 groups / 5,237
-characters are omitted on 2,833 rows. All 15,960 surface-to-formal alignments
-have one unique whole-group subsequence, and the selected groups equal stored
-formal node surfaces one-for-one. The new residual atlas preserves the omitted
-groups and positions literally as `UNPARSED_SURFACE`; they receive no inferred
-role or meaning. Root, role, tuple, relation, and `word_count`
-statistics are exact only inside the retained formal layer and cannot support
-exhaustive surface-absence claims.
+parser, six confirmed role transitions, and active budget artifacts. Its
+15,960 rows and 118,011 space-delimited strings are now correctly described as
+the **legacy ASCII-cleaner projection**, not a complete literal transcription.
+Direct reconstruction of the three human IVTFF sources finds 15,985 reading
+rows, 115,470 source-separated groups, and 99,485 explicit source boundaries.
+Exactly 173 source groups produce no legacy ASCII fragment, including 25 whole
+reading rows; 2,688 single source groups produce multiple fragments, creating
+2,714 nonmanual boundaries. Only 112,609 source groups map one-to-one to one
+legacy token. A source-bound atlas now preserves every group, all four
+separator states, and the exact legacy mapping without guessing extended
+`@number;` entities.
+
+Inside that legacy projection, the **partial retained-node formal layer** has
+636 root types, 2,835 exact root tuples, and 13,559 descriptive prose adjacency
+relations. It retains 114,173 of 118,011 legacy ASCII fragments: 3,838
+fragments / 5,237 characters are omitted on 2,833 rows. All 15,960
+legacy-surface-to-formal alignments have one unique whole-fragment subsequence,
+and the selected fragments equal stored formal node surfaces one-for-one. The
+residual atlas preserves the omitted legacy fragments and positions as
+`UNPARSED_SURFACE`; they receive no inferred role or meaning. Root, role,
+tuple, relation, `word_count`, and exact-space statistics are therefore exact
+only inside a partial formal analysis of the legacy cleaner projection. They
+cannot support exhaustive source-surface absence or universal boundary claims.
 
 The omission mechanism is now characterized more precisely. Exact surface type
 perfectly predicts retention in this frozen parser: 28 types account for all
@@ -945,8 +958,12 @@ classifier would rediscover transcription confidence, not an independent
 grammar. USR001 and USR002 both stopped unscored. A conservative one-event,
 one-neighbor inventory finds parser-mapping-preserving attested candidates for
 2,178 residual events, but this is descriptive compatibility inside the same
-partial parser, not a repaired parse. Future surface work must preserve the
-four manual separator states rather than collapsing all of them to spaces.
+partial parser, not a repaired parse. Future surface work must start from the
+source-group atlas, preserve the four manual separator states, and exclude
+cleaner-created fragment boundaries. The immediate next route is a mechanical
+impact audit that maps every zero/multi-fragment source group through current
+formal features and identifies which old claims remain invariant before any
+new semantic score is permitted.
 
 Confirmed prose grammar (12,092 rows) remains separated from 3,868 diagnostic
 non-prose projections. Across physical loci, 1,305 have identical surfaces in
@@ -956,9 +973,9 @@ from at least one reading. The package has zero English lexical glosses and
 imports none of v0.51's archived contextual overlays. The original formal
 parser source is missing from the current tree and reachable Git history, so
 the snapshot is byte-frozen but the formal derivation is not currently
-reproducible. Future hypotheses must use the complete literal surface plus the
-explicit residual atlas, and treat the existing formal columns as a partial
-projection rather than a complete occurrence inventory. COL001's frozen
+reproducible. Future hypotheses must use the complete source-group atlas plus
+the explicit legacy residual atlas, and treat the existing formal columns as a
+partial projection rather than a complete occurrence inventory. COL001's frozen
 formal-node `i`/`os` counts are unchanged: f2r.15 has no residual and no omitted
 group contains literal `i` or `o`. This does not constrain what a future parser
 might assign to an unparsed group. SME003 remains closed because it failed

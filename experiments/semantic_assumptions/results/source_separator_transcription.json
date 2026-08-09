@@ -1,0 +1,99 @@
+{
+  "by_edition": {
+    "IT2a": {
+      "ONE_ASCII_FRAGMENT": 37886,
+      "ZERO_ASCII_FRAGMENT": 33,
+      "clean_ascii_fragments": 37886,
+      "cleaner_created_boundaries": 0,
+      "manual_boundaries": 32704,
+      "separator:DEFINITE_SPACE": 31829,
+      "separator:DRAWING_INTERRUPTION": 875,
+      "source_groups": 37919,
+      "source_rows": 5215,
+      "zero_token_rows": 8
+    },
+    "RF1b": {
+      "MULTI_ASCII_FRAGMENT": 2664,
+      "ONE_ASCII_FRAGMENT": 35783,
+      "ZERO_ASCII_FRAGMENT": 78,
+      "clean_ascii_fragments": 41137,
+      "cleaner_created_boundaries": 2690,
+      "manual_boundaries": 33140,
+      "separator:DEFINITE_SPACE": 31702,
+      "separator:DRAWING_INTERRUPTION": 761,
+      "separator:UNCERTAIN_SMALL_SPACE": 677,
+      "source_groups": 38525,
+      "source_rows": 5385,
+      "zero_token_rows": 8
+    },
+    "ZL3b": {
+      "MULTI_ASCII_FRAGMENT": 24,
+      "ONE_ASCII_FRAGMENT": 38940,
+      "ZERO_ASCII_FRAGMENT": 62,
+      "clean_ascii_fragments": 38988,
+      "cleaner_created_boundaries": 24,
+      "manual_boundaries": 33641,
+      "separator:DEFINITE_SPACE": 30129,
+      "separator:DRAWING_INTERRUPTION": 758,
+      "separator:DRAWING_INTERRUPTION_UNALIGNED": 6,
+      "separator:UNCERTAIN_SMALL_SPACE": 2748,
+      "source_groups": 39026,
+      "source_rows": 5385,
+      "zero_token_rows": 9
+    }
+  },
+  "claim_ceiling": "This atlas establishes source-row, source-group, separator, and legacy-cleaner loss/split provenance only. It does not establish authorial word boundaries, pronunciation, language, cipher, grammatical roles, lexemes, plaintext, or translation.",
+  "counts": {
+    "clean_ascii_fragments": 118011,
+    "cleaner_created_nonmanual_boundaries": 2714,
+    "legacy_interlinear_rows": 15960,
+    "manual_boundaries": 99485,
+    "manual_separator_states": {
+      "DEFINITE_SPACE": 93660,
+      "DRAWING_INTERRUPTION": 2394,
+      "DRAWING_INTERRUPTION_UNALIGNED": 6,
+      "UNCERTAIN_SMALL_SPACE": 3425
+    },
+    "multi_ascii_fragment_groups": 2688,
+    "one_ascii_fragment_groups": 112609,
+    "source_groups": 115470,
+    "source_rows": 15985,
+    "source_rows_absent_from_legacy_interlinear": 25,
+    "zero_ascii_fragment_groups": 173
+  },
+  "gates": {
+    "all_legacy_surface_tokens_reconstructed": true,
+    "all_source_groups_emitted_once": true,
+    "all_source_rows_accounted": true,
+    "legacy_row_partition_exact": true,
+    "manual_boundary_topology_exact": true,
+    "no_extended_entity_expansion": true,
+    "no_formal_or_semantic_assignment": true,
+    "separator_vocabulary_exact": true
+  },
+  "implementation": {
+    "extended_entities_expanded": false,
+    "formal_parser_used": false,
+    "producer_sha256": "dd93f78547a4917334b3bbf3d10e6af075b2ef2d2870e25bcfcdab5cd41aee51",
+    "semantic_fields_used": false,
+    "source_separator_states": [
+      "DEFINITE_SPACE",
+      "UNCERTAIN_SMALL_SPACE",
+      "DRAWING_INTERRUPTION",
+      "DRAWING_INTERRUPTION_UNALIGNED"
+    ],
+    "spec_sha256": "fdcfb65a67438ae154979b1499ce63dc359e0e65ae5eaf93e73637e7dec3ec46"
+  },
+  "inputs": {
+    "IT2a": "7f27a8b0feed8f6de0a99900df6bf912dd1d295c38e5f830bac8b41c3f536fb5",
+    "RF1b": "e7d3238e35743e06c63367a933909ec37b1e2de7ada3a1b449447eafa1918782",
+    "ZL3b": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc",
+    "pre_grounding_interlinear": "8052a51fa37ad467e754be39648336ec4014442dab5e223daab2e77efaba4a43"
+  },
+  "output": {
+    "atlas": "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+    "atlas_rows": 115470,
+    "atlas_sha256": "4b649c8290d5afc7a5fbcc8e98db2bc123a1ceb5f3858d3befa781ce96b680f0"
+  },
+  "status": "PASS_SOURCE_SEPARATOR_TRANSCRIPTION_LOSS_ACCOUNTED"
+}
