@@ -1396,6 +1396,24 @@ transition atlas that identifies reusable family-to-family constraints without
 assigning any family a sound, word, syntax label, language, meaning, plaintext,
 cipher operation, or translation.
 
+That preregistered descriptive atlas is now complete. Across 67,313 noninitial
+family events on all 94 folios, leave-folio-out exact-position expectations,
+both physical orientations, broad folio support, and same-direction Currier
+A/B effects reduce 576 possible physical adjacencies to only six favored
+pairs: `DA`, `AQ`, `QK`, `KJ`, `LJ`, and `PK`. Fifty-two pairs are broadly
+disfavored and 518 remain unresolved. The favored graph is a compact neutral
+chain `D-A-Q-K-J`, with `P-K-J` and `L-J` branches. Official examples include
+`D1=q`, A-family `o/y/a/u`, Q-family `k/t`, K-family `ch/ee`, J-family
+`e/b/c/h`, `L1=sh`, and P-family `p/f`; these examples do not turn a family
+edge into a literal EVA bigram or a linguistic reading. A production-free
+dictionary implementation reconstructs all 576 pairs, every expected count,
+label, official example, output binding, report byte, and four mutations in
+22,511 checks with zero numeric discrepancy. The next nonduplicative step is
+to determine whether these six family edges decompose into stable exact
+all-three member-code transitions or are only coarse family effects. Do not
+assign the chain a direction, phonology, morpheme order, syntax, language,
+meaning, plaintext, cipher operation, or translation.
+
 The first post-reset author-visible relation has now passed. `EAS001` used the
 older text-blind frozen inventory of explicit repeated sectors, bands, rows,
 and apparatus slots; it did not use pixels, OCR, automated vision, semantic
