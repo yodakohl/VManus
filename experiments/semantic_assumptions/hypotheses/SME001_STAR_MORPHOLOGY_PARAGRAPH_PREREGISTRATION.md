@@ -76,8 +76,9 @@ selected after target joining.
 A target-feature pair is eligible only if, in every reading:
 
 - all values are finite;
-- the feature varies within pages on at least four physical folios in the
-  anonymous matrix;
+- the feature varies within pages on at least four physical folios among the
+  156 target-bound anonymous units (the 14 unused `f106r` rows cannot affect
+  eligibility);
 - its page-centered residual scale is positive; and
 - its registered rotation-null standard deviation is positive.
 
@@ -94,7 +95,8 @@ contrast. Average page contrasts within physical folio, then average physical
 folios equally.
 
 For each reading, center the observed effect by the mean of its registered
-random-rotation null and divide by that null standard deviation. With
+random-rotation null and divide by its population standard deviation over all
+262,143 registered random assignments. With
 reading-specific standardized effects `z_ZL`, `z_IT`, and `z_RF`, the two-sided
 same-direction statistic is
 
@@ -110,8 +112,10 @@ Index 0 is the physical alignment with zero shift on every page. Indices
 1--262143 are deterministic independent whole-page cyclic rotations sampled
 with replacement. For assignment `i`, page `p`, and page length `n`, draw an
 unbiased integer in `[0,n)` by SHA-256 rejection sampling from the domain
-`SME001_ROTATION_V1|i|p|counter`; interpret the result as a left rotation of
-the complete physical marker sequence.
+`SME001_ROTATION_V1|i|p|counter`. Read the first eight digest bytes as an
+unsigned big-endian integer, reject values outside the largest multiple of
+`n` below `2^64`, and interpret the remainder as a left rotation of the
+complete physical marker sequence.
 
 The same page-shift vector synchronously rotates ray and tail sequences and is
 shared by ZL3b, IT2a, and RF1b. Thus every assignment preserves each page's
@@ -147,8 +151,8 @@ A target-feature pair passes only if every gate below passes:
    reproduce the main direction in every reading;
 9. deleting every informative physical folio in turn preserves the main
    direction in every reading;
-10. at least five of seven ray folios, or four of six tail folios, have a
-    contrast in the main direction in every reading;
+10. the same set of at least five of seven ray folios, or four of six tail
+    folios, has a contrast in the main direction in all three readings;
 11. for a `ROOT_ATOM_RATE__*` or `ROOT_WORD_RATE__*` feature, a target-blind
     within-page linear residualization on `log1p(PARA_WORD_COUNT)` preserves
     the main direction in every reading; and
