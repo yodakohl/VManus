@@ -3261,10 +3261,15 @@ checks, negative fixtures, and claim ceiling are fixed in
 `experiments/semantic_assumptions/f69r_circular_fragment_word/METHOD_FREEZE.md`.
 A nonimporting scalar implementation independently reproduces all samples,
 720 assignments, 60 dihedral orbits, ranks, aggregates, gates, and the absence
-of a target artifact in 15 checks. Target-runner implementation is therefore
-authorized under the freeze, but no target result yet exists. Even a target
-pass would establish only unusual circular word-likeness under this model,
-never a start, handedness, sound, lexeme, language, plaintext, or translation.
+of a target artifact in 15 checks. The target input is now bound, but its scores
+remain unopened. Existing human clock annotations give the clockwise cycle
+f69r.45, .46, .47, .48, .49, .44; all readings agree except the already known
+`ed` ZL/RF versus `em` IT alternate in the fifth slot. A committed target
+implementation freeze fixes population standardization, all six deletion
+tests, and two mechanical veto fixtures before scoring. Target execution is
+therefore authorized, but no target result yet exists. Even a target pass would
+establish only unusual circular word-likeness under this model, never a start,
+handedness, sound, lexeme, language, plaintext, or translation.
 
 ## Admission rule for new work
 
