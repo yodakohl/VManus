@@ -1344,6 +1344,20 @@ dominated by endpoints and recurrent internal templates, but a generalizable
 five-slot interior grammar is not confirmed. Do not retune the unseen count,
 drop novelty, or call the bins morphemes.
 
+A distinct mechanism test is now calibrated to separate recurrent templates
+from a portable local sequence rule. Its baseline already knows Currier, exact
+complete-group length, and the confirmed five-position bins; the added model
+may use only the immediately previous source family. In both orientations the
+target-free grid gives 0/64 false passes on strong position-only strings, 8/8
+passes on manuscript-wide Markov plants, and 0/8 on Currier-one, one-folio,
+and folio-random transition maps. All 96 decisions are reversal-stable. A
+production-free implementation reconstructs all 192 records with zero numeric
+discrepancy in 210 checks. Its first invocation stopped before output because
+of a validator-only helper-name error; the correction changes no calibration
+artifact or gate. The real family sequence remains unscored by this exact
+increment. This authorizes only one separately frozen target test of a first-
+order dependency beyond position; it does not establish syntax or meaning.
+
 The first post-reset author-visible relation has now passed. `EAS001` used the
 older text-blind frozen inventory of explicit repeated sectors, bands, rows,
 and apparatus slots; it did not use pixels, OCR, automated vision, semantic
