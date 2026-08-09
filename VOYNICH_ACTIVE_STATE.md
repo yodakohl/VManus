@@ -1330,6 +1330,20 @@ confirmed complete-group positional effect extends beyond endpoints and exact
 length. The one-time runner is now frozen as `294f0bdd...` and must be public
 before execution; no morphology or meaning follows from calibration.
 
+That stricter endpoint-free target is now a frozen **nonconfirmation**. Both
+directions still select `FIXED_5`, and recurring held interiors show positive
+aggregate gains (+.112648/+.113571 nat/interior-symbol; 21/24 and 23/24
+positive folios). But only 279 TEST interiors have an exact Currier/length/
+sequence surface unseen in TRAIN, below the registered 500-group capacity
+gate, and their equal-folio effects reverse to -.098154 and -.095207. The
+required transferable unseen-interior gate therefore fails in both directions.
+A production-free implementation reconstructs both evaluations and the exact
+decision in 28 checks. The safe synthesis is narrower than the first positive
+headline: repeated source-group shapes have strong positional regularity,
+dominated by endpoints and recurrent internal templates, but a generalizable
+five-slot interior grammar is not confirmed. Do not retune the unseen count,
+drop novelty, or call the bins morphemes.
+
 The first post-reset author-visible relation has now passed. `EAS001` used the
 older text-blind frozen inventory of explicit repeated sectors, bands, rows,
 and apparatus slots; it did not use pixels, OCR, automated vision, semantic
