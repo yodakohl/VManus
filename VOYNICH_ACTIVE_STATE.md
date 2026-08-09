@@ -2297,6 +2297,17 @@ The twelve marks are graphical stripes rather than owned readable names, so
 orientation and exact slot correspondence remain unknown. This adds no root,
 direction name, plaintext, or translation.
 
+A direct human phase-quality check now sharpens that system-family match while
+confirming why it is not a key. In a schematic sixteen-point coordinate,
+f69r's four blank cardinal axes, four green diagonal spokes, and eight blue
+flanking spokes exactly match Matthew Paris's four-principal/eight-collateral/
+four-unused construction after a 45-degree phase change. But **eight of 32**
+rotations/reflections give the same class match: offsets 2, 6, 10, and 14 in
+either handedness. The colored spokes are also not author-owned to the separate
+X1 text records, and FDC001 already rejects literal four-base root compounding.
+Retain a stronger **12+16 WIND/DIRECTION SYSTEM-FAMILY MATCH**, but no start,
+orientation, direction name, root, lexeme, plaintext, or translation.
+
 The first distinct f69r outer-register test stopped before target scoring. A
 fixed-margin null for a four-anchor compositional organization is mobile, but
 one of the sixteen X1 sectors has no root shared by ZL3b, IT2a, and RF1b, so
