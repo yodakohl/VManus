@@ -1649,6 +1649,19 @@ checks, report bytes, and four mutations with zero numeric discrepancy in 17
 checks. The longer-dependency question remains unresolved for lack of power;
 the confirmed immediate literal-`qo` orthotactic compatibility is unchanged.
 
+A separate public-circle capacity audit prevents another overextension. The
+complete f67--f73 block, including f71, contains 960 strict source groups on
+26 pages. Its longest opening states are `NONE/DA/DAQ/DAQK/DAQKJ` =
+932/6/15/7/0, and all six bare-`DA` rows are all-reading `D1 A1` (`qo`). But
+only three exact-remainder/physical-folio `NONE`/`DA` cells exist, all on f68,
+with zero cells having both states mobile between locus-first and later
+positions. Therefore **DO_NOT_SCORE_UNTRANSFERABLE_CIRCLE_QO_LOCUS_START**.
+Independent code reconstructs all rows, operation/kind/position counts, the
+three-cell concentration, zero mobility, decision, and mutations in 24 checks.
+Here locus-first is only source-transcription line/locus order—not a graphical
+slot, authorial record, or circular start. This uses the public human scope,
+not a user-supplied page grouping, and supplies no circle marker or meaning.
+
 The frozen out-of-domain prose-to-diagnostic test is now a strong but formal
 **nonconfirmation**. On 1,382 strict labels/radial/diagram groups, both favored
 and disfavored tails reach the minimum p=1/8192 under both exact-position-
