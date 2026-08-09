@@ -1376,19 +1376,25 @@ dependency is equally detectable after reversal, so it does not choose a
 spoken reading direction. It establishes no syntax label, morphology, sound,
 word, language, meaning, plaintext, cipher, or translation.
 
-A final confound correction is now registered before interpretation. The
-coarse transition baseline above used five relative bins and a START context,
-so it could still recover exact endpoints or finer ordinal position. The new
-test scores only noninitial symbols and gives both models Currier, exact
-complete length, and exact ordinal position; only the full model receives the
-actual preceding family. Its target-free calibration passes in both complete
-orientations: 0/64 exact-position-only false passes, 8/8 manuscript-wide
-transition plants, and 0/8 Currier-one, one-folio, and folio-random adversaries.
-All 96 decisions are reversal-stable. A production-free implementation
-reconstructs every one of the 192 records with zero numeric discrepancy in 210
-checks. This authorizes one public, hash-frozen target run only. Until that run,
-the coarse-bin dependency remains confirmed only at its stated resolution;
-the stronger exact-position-independent dependency is unclaimed.
+The final confound correction now confirms that this is not a START/end or
+coarse-bin artifact. It scores only noninitial symbols and gives both models
+Currier, exact complete length, and exact ordinal position; only the full model
+receives the actual preceding family. Target-free calibration yielded 0/64
+exact-position-only false passes, 8/8 manuscript-wide transition plants, and
+0/8 Currier-one, one-folio, and folio-random adversaries in both orientations.
+The single frozen manuscript target then passed independently forward and
+reversed. On 17,435 held noninitial symbols the equal-folio gains are +.408388
+and +.429041 nat/symbol; all 24/24 folios and both Currier registers are
+positive. The 718 exact complete sequences absent from TRAIN retain +.088285
+and +.122908 gain, with positive deletion effects. A production-free
+implementation reconstructs the join, both scores, all gates, report bytes,
+bindings, and four mutations in 29 checks. This confirms a transferable local
+source-family dependency beyond exact ordinal position, endpoints, exact
+length, Currier, and held folio. Reversal still does not choose a spoken
+direction. The next distinct structural step is a held-supported neutral
+transition atlas that identifies reusable family-to-family constraints without
+assigning any family a sound, word, syntax label, language, meaning, plaintext,
+cipher operation, or translation.
 
 The first post-reset author-visible relation has now passed. `EAS001` used the
 older text-blind frozen inventory of explicit repeated sectors, bands, rows,
