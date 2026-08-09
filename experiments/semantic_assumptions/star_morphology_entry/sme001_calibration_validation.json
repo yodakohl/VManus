@@ -1,0 +1,104 @@
+{
+  "check_count": 17,
+  "checks": {
+    "all 160 worlds independently reconstructed": true,
+    "all null-world pass sets exact": true,
+    "all requested-material bisections reproduced": true,
+    "all stored power statistics and gates reproduced": true,
+    "coupled folio rotation shape and digest": true,
+    "every stored calibration gate exact": true,
+    "frozen source result and script hashes": true,
+    "independent page rotation shape and digest": true,
+    "null joint-world count and acceptance exact": true,
+    "opaque target file hashes": true,
+    "physical rows and coupled equal-page phases": true,
+    "power joint-pass counts exact": true,
+    "stored target non-parsing and non-join": true,
+    "stored world and family contract": true,
+    "target artifacts absent after reconstruction": true,
+    "target artifacts absent before reconstruction": true,
+    "underpowered failure and decision exact": true
+  },
+  "claim_ceiling": "independent validation of synthetic calibration failure only; no manuscript association or meaning",
+  "coverage": {
+    "null": "64 worlds x 2 ensembles x 2 targets x 84 features = 21,504 target-feature ensemble rows; all statistics and gates were recomputed, while the stored artifact exposes final page/folio pass counts and joint sets",
+    "power": "96 worlds x 2 ensembles x 2 targets x 84 features = 32,256 target-feature ensemble rows; full-family maxima were recomputed and all 5,472 stored planted-row fields/comparisons were checked"
+  },
+  "decision": "UNDERPOWERED_TARGET_FORBIDDEN",
+  "experiment": "SME001",
+  "folio_rotation_digest": "baa9452729e09f4cacd1102fac241bbc2622bd28bf6682d0b76cd9f9a332509c",
+  "joint_pass_counts": {
+    "RAY_8_MINUS_7": {
+      "0.100": 0,
+      "0.149": 0,
+      "0.151": 0,
+      "0.200": 0,
+      "0.300": 0,
+      "0.500": 5
+    },
+    "TAIL_2_MINUS_1": {
+      "0.100": 0,
+      "0.149": 0,
+      "0.151": 0,
+      "0.200": 0,
+      "0.300": 0,
+      "0.500": 0
+    }
+  },
+  "nonimporting": true,
+  "null_world_summary_sha256": "8013a776041c11c877ccc50426015b45bcc2cbd6f8ed4afd4ccdeef5ec48f796",
+  "null_worlds_reconstructed": 64,
+  "null_worlds_with_joint_pass": [],
+  "opaque_target_hashes": {
+    "anonymous_feature_inventory.json": "088232b431b4b9746bb94a08328cb969fb7c21c6a28cd112286da40d6429fea5",
+    "anonymous_matrix_capacity.json": "7043fd8d2f8b6b829a2ecd1724b701d3ab811ad4545434720222e1ad03138828",
+    "anonymous_matrix_validation.json": "c5a5bb236dd61ecdf8a76ff05e697b8b3a636aa03145fe019a6348fac74aa3d9",
+    "anonymous_paragraph_matrix.tsv": "b246456b181b07e847c6d5a49b959b0346eff6a4c6febb8a543de104c505a26a",
+    "target_source_binding.tsv": "315ea24a10995caaa86a77a5a93ecfc0e666351c1ce6a44b078b08686c1d6f3b",
+    "target_source_capacity.json": "e2322d841d4af6ca08737697e5eb32a104dd61178ff9f281e879dc0c5c364d44",
+    "target_source_validation.json": "38cc174f38607731005e9a2567eed113d02a47114e8640e2e97fc472ede0a74b"
+  },
+  "page_rotation_digest": "ff5d289a083fea9d23837255297f8017b183d8f9751cc7d09248dcdfe7e6de70",
+  "power_world_summary_sha256": "61c1b1de78e301fedf2c1adea0d111ed1c9d9433b97a8ecc3651bb92ef2df7d1",
+  "power_worlds_reconstructed": 96,
+  "reconstructed_calibration_checks": {
+    "below_boundary_zero_pass": true,
+    "frozen_target_hashes": true,
+    "full_family": true,
+    "material_bisection": true,
+    "nondecreasing_ray_power": true,
+    "nondecreasing_tail_power": true,
+    "null_world_acceptance": true,
+    "ray_high_power": false,
+    "tail_high_power": false,
+    "target_artifacts_absent": true,
+    "world_counts": true
+  },
+  "reconstructed_failures": [
+    "ray_high_power",
+    "tail_high_power"
+  ],
+  "source_result_script_hashes": {
+    "experiments/semantic_assumptions/hypotheses/SME001_STAR_MORPHOLOGY_PARAGRAPH_PREREGISTRATION.md": "6a874fe326950a6bf216ff290f99dfaba7e54065097cb4f420dc8126c89719e7",
+    "experiments/semantic_assumptions/results/sme001_calibration_report.md": "72d1165f9db40765420619296f4e8e6bd1730a0c1e5cd4e8ae90d76be6452df1",
+    "experiments/semantic_assumptions/star_morphology_entry/SME001_CONTROL_SPEC.md": "888159281207b06c7be8c1ecbec4da7a7fb3ba3df787f60f0da88eaa39264bdb",
+    "experiments/semantic_assumptions/star_morphology_entry/run_sme001_anonymous_controls.py": "3153dc7280b226f12d27e79079e2b0000d8cf92b48bc48d4d69d11a03cdaadd9",
+    "experiments/semantic_assumptions/star_morphology_entry/run_sme001_calibration.py": "6676ebbc88a384af4155c4a4f2ac476859e2d07fca0c6b3ce7e2652c35f738ea",
+    "experiments/semantic_assumptions/star_morphology_entry/sme001_anonymous_control_result.json": "1f074a0aa37f8dd02afa7b77581fdd00d1af056e44466f920c2d0e63529994df",
+    "experiments/semantic_assumptions/star_morphology_entry/sme001_calibration_result.json": "6e6a124855d2683c472cc3071414697f4bd85b79c20d8131c8f82f58ccd607ac",
+    "experiments/semantic_assumptions/star_morphology_entry/sme001_core.py": "739eeacd2f8c01a0e9a97e05d9d3b9a165042826a0ac783480c1d1e5ebc0aa44"
+  },
+  "status": "PASS_INDEPENDENT_VALIDATION_OF_UNDERPOWERED_DECISION",
+  "stored_power_field_comparisons": 5472,
+  "target_artifact_absence": {
+    "experiments/semantic_assumptions/results/sme001_star_morphology_paragraph_result.md": true,
+    "experiments/semantic_assumptions/results/sme001_star_morphology_paragraph_validation.md": true,
+    "experiments/semantic_assumptions/star_morphology_entry/SME001_TARGET_RESULT.json": true,
+    "experiments/semantic_assumptions/star_morphology_entry/TARGET_RESULT.json": true,
+    "experiments/semantic_assumptions/star_morphology_entry/sme001_target_result.tsv": true
+  },
+  "target_files_parsed": false,
+  "target_join_performed": false,
+  "validator_sha256": "3373374b4713fe4b706ed03d06abfe0315a15b37bdfe857787ed373f64b32922",
+  "workers": 16
+}

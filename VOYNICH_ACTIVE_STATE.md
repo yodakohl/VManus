@@ -3453,10 +3453,13 @@ material level, however, ray passes only 5/8 worlds and tail 0/8, below the
 frozen 7/8 and 6/8 requirements; all lower levels have zero passes. Weakest-
 reading robust z and the small parity/early-late tail strata are the main
 limits. The gates cannot be weakened after this observation. Real morphology
-and real feature values were never joined, and no target score exists. The
-next mandatory action is a nonimporting reconstruction of this calibration
-failure; if it confirms, SME001 closes as underpowered rather than scoring the
-manuscript. Even a future methodologically distinct confirmation could
+and real feature values were never joined, and no target score exists. An
+independent nonimporting implementation reconstructed all 160 calibration
+worlds, both rotation ensembles, all requested-material bisections, and 53,760
+target-feature/ensemble rows in 17/17 checks. It confirms the same 0/64 null,
+5/8 ray, and 0/8 tail outcomes. SME001 is therefore closed as underpowered;
+the manuscript target remains unopened and unscored. A future methodologically
+distinct confirmation could
 establish only an anonymous marker-morphology-conditioned construction or root
 association under the ordinal pairing, not a ray/tail meaning, recipe class,
 number, word meaning, lexeme, plaintext, language, or translation.
