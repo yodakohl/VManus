@@ -2118,6 +2118,19 @@ EARTH/FIRE/AIR/WATER at zero of four positions. Do not gloss any label, `ot`,
 terminal `y`, quality, or puff element. Seek a second independently annotated
 segmented system and freeze its topology plus test before opening its strings.
 
+The first deliberately broader transfer falsifier fails and narrows what such
+a confirmation must look like. F67v1 has 17 human-ordered radial texts forming
+the boundaries of 17 cyclic sectors, all containing stars. If the f77r rule
+were a universal graphical-output rule under the natural boundary/sector dual,
+all adjacent radial states would differ. Only 10/17, 9/17, and 8/17 differ in
+ZL/IT/RF; 7/17, 8/17, and 9/17 equal-state sectors still contain stars. A
+nonimporting validator passes 19 checks. Retain **FINAL NONCONFIRMATION OF
+UNIVERSAL DUAL-TOPOLOGY OUTPUT-IFF-STATE-CHANGE**. This does not erase the
+narrow f77r construction because f67v1 has long text on boundaries and output
+inside sectors, the reverse placement. Do not accept another generic circular
+or segmented page as replication; require short labels inside apparatus
+segments with independently visible active/inactive boundaries.
+
 A later exhaustive simple-feature diagnostic recovers an exact local two-bit
 table in every manual reading, but a correction makes it semantically
 nonidentifying. Terminal `y` selects the SE+NW diagonal in both N1 and D1; N1
