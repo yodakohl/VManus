@@ -3487,7 +3487,14 @@ prose plus missing exact page-to-folio, numeric-domain, and feature-partition
 guards after the first provisional anonymous output; those implementation
 contracts were hardened before accepting or publishing any result. Ray/tail
 rows remain forbidden until a separate synthetic cross-folio calibration
-passes without weakening its frozen gates.
+passes without weakening its frozen gates. The final hardened preflight now
+retains 83/84 features (33 formal and all 50 root-rate features), with only the
+constant `OPEN_FIRST_HAS_Q` excluded. All 21 held-folio/reading covariance
+transforms are finite and positive definite, with shrinkage .4887--.5265 and
+condition numbers 5.56--7.16. A nonimporting implementation reconstructs the
+complete result, 56 transform/fold digests, 357 numeric diagnostics, all gates,
+and four mutation guards in 472 checks. This is transform capacity only, not a
+morphology association.
 
 A new semantic route needs genuinely independent authorial evidence or a new
 invariant capable of falsifying competing meanings. A new model, crop,

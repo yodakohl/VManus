@@ -1,0 +1,78 @@
+{
+  "checks_passed": 472,
+  "claim_ceiling": "anonymous transform capacity only; no morphology association, feature interpretation, meaning, lexeme, plaintext, language, or translation",
+  "contracts": {
+    "eligible": 83,
+    "features": 84,
+    "folios": 7,
+    "formal_eligible": 33,
+    "ineligible": [
+      "OPEN_FIRST_HAS_Q"
+    ],
+    "nuisance_fits": 21,
+    "pages": 12,
+    "reading_rows": 468,
+    "readings": 3,
+    "root_eligible": 50,
+    "units": 156
+  },
+  "decision": "GO_TO_TARGET_FREE_SYNTHETIC_DESIGN_ONLY",
+  "exact_digest_matches": {
+    "combined_transform_digest_sha256": "43e501797913092a45b5679e896b393b63e5521f8c9642d4ae7de804d7e2057d",
+    "fold_unit_lists": 14,
+    "standardized_matrices": 21,
+    "weight_matrices": 21
+  },
+  "experiment": "SME003",
+  "frozen_hashes": {
+    "SME003_CROSS_FOLIO_PREFLIGHT_SPEC.md": "d10ff711ebbb6269ce3d0ed0d760fd071836e7d7c6a6dda30be267b7292723b7",
+    "anonymous_feature_inventory.json": "088232b431b4b9746bb94a08328cb969fb7c21c6a28cd112286da40d6429fea5",
+    "anonymous_paragraph_matrix.tsv": "b246456b181b07e847c6d5a49b959b0346eff6a4c6febb8a543de104c505a26a",
+    "build_sme003_cross_folio_preflight.py": "a94e75fa90e98141938742d0b7fc65e267e96c390fbf855fb6e9111dd9d44064",
+    "sme003_cross_folio_preflight.json": "86c216302f99086bb4353e23eb97a7ddeb293e115461e0d733464d3bf3cacf4c",
+    "sme003_cross_folio_preflight.md": "3ef8c2e24c9d97e0db0efca340c8a120e85f56b8c10c8f93bcb4cfc9007dc652"
+  },
+  "gates": {
+    "all_transform_diagnostics": true,
+    "exact_matrix_contract": true,
+    "exact_page_folio_contract": true,
+    "formal_capacity_at_least_24": true,
+    "input_hashes": true,
+    "root_capacity_at_least_32": true,
+    "target_artifacts_absent_after": true,
+    "target_artifacts_absent_before": true
+  },
+  "mutation_guards": {
+    "negative_word_count_rejected": true,
+    "page_split_rejected": true,
+    "reordered_root_partition_rejected": true,
+    "stop_prose_authorization_rejected": true
+  },
+  "numeric_diagnostic_matches": 357,
+  "oas_ranges": {
+    "condition_max": 7.16250166015717,
+    "condition_min": 5.560822178360851,
+    "rho_max": 0.5265303443116311,
+    "rho_min": 0.48871697111117973
+  },
+  "status": "PASS_INDEPENDENT_NONIMPORTING_PREFLIGHT_VALIDATION",
+  "target_artifact_absence_after": {
+    "experiments/semantic_assumptions/results/sme001_star_morphology_paragraph_result.md": true,
+    "experiments/semantic_assumptions/results/sme003_cross_folio_result.md": true,
+    "experiments/semantic_assumptions/star_morphology_entry/SME001_TARGET_RESULT.json": true,
+    "experiments/semantic_assumptions/star_morphology_entry/SME003_TARGET_RESULT.json": true,
+    "experiments/semantic_assumptions/star_morphology_entry/TARGET_RESULT.json": true,
+    "experiments/semantic_assumptions/star_morphology_entry/sme001_target_result.tsv": true,
+    "experiments/semantic_assumptions/star_morphology_entry/sme003_target_result.tsv": true
+  },
+  "target_artifact_absence_before": {
+    "experiments/semantic_assumptions/results/sme001_star_morphology_paragraph_result.md": true,
+    "experiments/semantic_assumptions/results/sme003_cross_folio_result.md": true,
+    "experiments/semantic_assumptions/star_morphology_entry/SME001_TARGET_RESULT.json": true,
+    "experiments/semantic_assumptions/star_morphology_entry/SME003_TARGET_RESULT.json": true,
+    "experiments/semantic_assumptions/star_morphology_entry/TARGET_RESULT.json": true,
+    "experiments/semantic_assumptions/star_morphology_entry/sme001_target_result.tsv": true,
+    "experiments/semantic_assumptions/star_morphology_entry/sme003_target_result.tsv": true
+  },
+  "validator_scope": "two frozen anonymous inputs only; target artifacts existence-checked only"
+}
