@@ -47,15 +47,19 @@ Updated: 2026-08-10. Read this file first, then
    described as unrelated opaque codebook items.
 3. Physical lines behave as record/utterance-like units. A validated writing-
    order/content coordinate rises within a line and resets at the next line.
-4. Directional formal-state grammar exists. After source-group correction,
-   4,731/4,737 registered hard-edge occurrences directly join adjacent source
-   groups and none is an artificial within-group cleaner boundary; six skip an
-   intervening source group and are excluded. The direct boundaries are 4,699
-   confident apparent spaces, 26 uncertain small spaces, and six drawing
-   interruptions. Position-controlled local transitions include several
-   D-to-q and E-to-q edges; the accurate invariant is a source separator,
-   usually confident, not a universal “mandatory space.” Detached REL_I,
-   FREE_L, and FREE_R completions also occur across source separators.
+4. The frozen retained parser records directional formal-state edge classes,
+   but their strongest surface carrier is not novel syntax. After source-group
+   correction, 4,731/4,737 registered hard edges directly join adjacent source
+   groups; 4,247/4,731 (89.77%) are literal `y|q`, 4,564/4,731 (96.47%)
+   enter `qo...`, and 4,095/4,731 (86.56%) are `dy|qo` or `ey|qo`. This
+   strongly overlaps the publicly documented `y.q`/`qo` word-boundary pattern.
+   Preserve the exact source-separator evidence and the six conditional role
+   partitions, but do not cite them as an independently established new
+   syntax: the role labels depend on the unavailable, surface-incomplete
+   parser. The direct boundaries remain 4,699 confident apparent spaces, 26
+   uncertain small spaces, and six drawing interruptions; six further edges
+   skip a source group and are excluded. Detached REL_I, FREE_L, and FREE_R
+   completions also occur across source separators, still without meaning.
 5. Bare d/s/t line-entry carriers form a qualified state system. Bare t is
    associated with ZL-editor-marked paragraph openings; bare d/s are associated
    with marked continuations. The association is real, but the boundaries are
