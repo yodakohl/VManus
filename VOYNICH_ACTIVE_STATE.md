@@ -3086,6 +3086,27 @@ FRUIT, NO, a plant term, or any translated word. Reopen only with genuinely
 new independent evidence or a differently sourced contrast, not a retuned
 feature, panel, or threshold.
 
+### Explicit side-view-flower / no-fruit-or-flower contrast
+
+`FLOWER001` is registered and target-unrun. It uses the new exact human
+predicate “flower(s) seen from the side” against the same explicit “no fruits
+or flowers” negative predicate; silence remains unknown. The first anonymous
+blocked build exposed that recto and verso sides of a folio could be counted
+as separate units. It was rejected before any target assignment was extracted
+and no target artifact was created.
+
+The corrected source-only match contains 21 distinct folios: seven explicit
+negative pages and two minimum-total-folio-distance flower pages per negative,
+all section H, Currier A, hand 1. Its 843 reading-specific confirmed-prose loci
+retain 430 score-blind current-grammar features. The exact null has 2,187
+within-triplet assignments; token length and linear folio number are
+controlled. Unique synthetic-plant, reading-disagreement, block-constant, three-way-tie,
+one-block-deletion, binding, and deterministic controls pass. A nonimporting
+implementation reconstructs the source panel, distinct-folio optimum, feature
+matrix, both family nulls, and every control in 22 checks. One frozen target
+invocation is authorized. Even a pass is only a side-view-flower page-field
+candidate, never FLOWER, FRUIT, NO, a plant name, plaintext, or translation.
+
 ## Admission rule for new work
 
 A new semantic route needs genuinely independent authorial evidence or a new
