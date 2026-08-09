@@ -3350,8 +3350,10 @@ matrix retains 15 of 19 frozen formal features, the complete 512-phase engine
 recovers a planted construction at its two-sided 2/512 floor, and parity-only,
 one-folio, reading-disagreement, degeneracy, row-mutation, and target-absence
 controls reject as required. The next mandatory action is a nonimporting
-prescore reconstruction; color binding remains forbidden until it passes. A
-later target pass can establish only a marker-color-conditioned formal
+prescore reconstruction. That audit now passes 21/21 checks, independently
+recovering the complete matrix, eligibility, orbit, controls, and target
+absence. One separately frozen target invocation is authorized but remains
+unrun. A later target pass can establish only a marker-color-conditioned formal
 construction, never a recipe class, number, word, lexeme, plaintext, language,
 or translation.
 
