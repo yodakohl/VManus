@@ -1558,6 +1558,22 @@ orthography, or another symbolic compatibility system, but chooses none and
 establishes no detachment, morphology, pronunciation, wordhood, POS, syntax,
 language, cipher operation, meaning, plaintext, or translation.
 
+The next route is now narrowed so it cannot simply repeat that result. A new
+target-label-masked capacity panel asks whether exact onset-state information
+transfers across both a different base and a different physical folio. An
+eligible row requires its base elsewhere, its onset in at least two other
+bases after excluding the target folio, and at least two eligible onsets in
+its own base/folio cell. This leaves 658 rows in 101 cells, spanning 24 bases,
+41 folios, 14 exact onset states, and all six represented onset families; the
+largest base contributes 12.16%. Every retained family has at least two bases
+and two onset states. Independent code reconstructs the complete masked panel,
+eligibility, exact output bytes, gates, report, and four mutations in 23
+checks. No row operation label or target score was read or stored. This
+authorizes only target-free calibration of a shared-member predictor. A later
+pass could distinguish a cross-base formal feature system from a base-specific
+lookup, but still could not choose allomorphy, harmony, orthography, sound,
+meaning, language, cipher operation, plaintext, or translation.
+
 The frozen out-of-domain prose-to-diagnostic test is now a strong but formal
 **nonconfirmation**. On 1,382 strict labels/radial/diagram groups, both favored
 and disfavored tails reach the minimum p=1/8192 under both exact-position-
