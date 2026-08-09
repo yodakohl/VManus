@@ -1177,6 +1177,17 @@ paragraph marks remain editorial layout judgments; no authorial paragraph,
 sound, word, language, cipher operation, meaning, plaintext, or translation
 follows.
 
+The first synthetic scope preflight stopped before target access on its own
+rotation-integrity gate. Its unsigned index subtraction wrapped at `2^64`
+before reduction modulo the stratum length, so some intended cyclic rotations
+duplicated one label and dropped another. A bound audit reproduces 2,079
+multiset violations in only the first 16 assignments. All v1 null and power
+scores are invalid; zero manuscript outcomes or target scores were opened.
+This is an implementation stop, not evidence against local scope. The only
+authorized continuation is a versioned `(j+n-shift) mod n` repair followed by
+the unchanged synthetic-only preflight. No target run is authorized unless the
+repaired preflight and an independent reconstruction pass.
+
 The first post-reset author-visible relation has now passed. `EAS001` used the
 older text-blind frozen inventory of explicit repeated sectors, bands, rows,
 and apparatus slots; it did not use pixels, OCR, automated vision, semantic
