@@ -67,6 +67,28 @@ def matrix_contract(unit_ids, pages_by_unit, folios_by_unit, ordinals, values, f
     return all(sorted(items) == list(range(1, len(items) + 1)) for items in grouped.values())
 
 
+def exact_matrix_contract(
+    unit_ids, pages_by_unit, folios_by_unit, ordinals, values, features,
+    expected_rows,
+) -> bool:
+    """Require the ordinary contract and one exact predeclared row sequence."""
+    if not matrix_contract(
+        unit_ids, pages_by_unit, folios_by_unit, ordinals, values, features
+    ):
+        return False
+    observed = [
+        (str(unit), str(page), str(folio), int(ordinal))
+        for unit, page, folio, ordinal in zip(
+            unit_ids, pages_by_unit, folios_by_unit, ordinals
+        )
+    ]
+    expected = [
+        (str(unit), str(page), str(folio), int(ordinal))
+        for unit, page, folio, ordinal in expected_rows
+    ]
+    return observed == expected and len(expected) == len(set(expected))
+
+
 def _page_layout(pages_by_unit, folios_by_unit, ordinals):
     pages = sorted(set(pages_by_unit))
     page_indices = {}
