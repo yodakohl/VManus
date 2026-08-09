@@ -1432,21 +1432,21 @@ class, but does not prove interchangeability, allography, phonology, or
 linguistic morphology. Do not retune the member thresholds or assign sound,
 word, syntax, language, meaning, plaintext, cipher operation, or translation.
 
-A new out-of-domain target is now calibrated but remains unopened. It asks
-whether the fixed six-favored/52-disfavored prose graph transfers to strict
-diagnostic labels, radial text, and diagram groups. A target-masked panel has
-1,382 groups / 4,857 noninitial positions on 26 folios and stores metadata and
-length only. Two rotation nulls independently preserve every exact-position
-family marginal within section-kind-length or within the stricter same-folio-
-kind-length strata. Synthetic calibration yields 0/64 position-only false
-passes, 8/8 global graph passes, and 0/8 for each one-section, one-folio, and
-position-chain adversary; null and graph decisions remain unchanged at the
-target-size 8,192 rotations. A clean-room implementation reconstructs all 96
-worlds, both target-size checks, every orbit digest, gate, mutation, and report
-with zero discrepancy. One hash-frozen diagnostic join is authorized after
-publication. Until it runs, shared prose/label graphotactics remain unclaimed.
-Even a pass cannot establish wordhood, object ownership, label meaning,
-picture identity, sound, language, cipher operation, plaintext, or translation.
+The frozen out-of-domain prose-to-diagnostic test is now a strong but formal
+**nonconfirmation**. On 1,382 strict labels/radial/diagram groups, both favored
+and disfavored tails reach the minimum p=1/8192 under both exact-position-
+preserving nulls. Favored excess is +.06567 per transition under section-kind-
+length and +.05706 under same-folio-kind-length, on 21/26 and 20/26 positive
+folios. Disfavored deficits are +.28968 and +.24534 on 24/26 and 21/26
+negative folios. But the largest favored folio contributes 35.56% and 36.87%
+of absolute favored residual, exceeding the frozen .25 cap; both ensemble
+passes therefore fail. A clean-room implementation reconstructs every orbit,
+score, gate, binding, report byte, and mutation in 28 checks. Do not weaken
+the cap or call the aggregate near-miss a shared manuscript-wide grammar. A
+post-result folio audit is frozen only to identify the concentration source
+and deletion behavior; it cannot change the decision, select a subset, or
+establish wordhood, object ownership, label meaning, picture identity, sound,
+language, cipher operation, plaintext, or translation.
 
 The first post-reset author-visible relation has now passed. `EAS001` used the
 older text-blind frozen inventory of explicit repeated sectors, bands, rows,
