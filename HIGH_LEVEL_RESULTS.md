@@ -76,6 +76,12 @@ at all four positions, and a second independently annotated segmented system
 must reproduce the rule before any quality, element, `ot`, or terminal-`y`
 meaning can be claimed.
 
+Removing the two features that created those states does **not** reveal a
+four-item quality vocabulary. The expected same-state spelling assignment is
+only fourth of 24 possibilities, and deleting the strongest single resemblance
+drops it to eighteenth. The bridge is therefore structural, not a translated
+HOT/MOIST/COLD/DRY lexicon.
+
 ## Latest source-calibration result
 
 We tested whether a semantic similarity representation could recover the known
@@ -119,3 +125,5 @@ itself new evidence.
   [`f67r2_ga4_001_houses_invocation_independent_validation_report.md`](experiments/semantic_assumptions/results/f67r2_ga4_001_houses_invocation_independent_validation_report.md)
 - Provisional f77r transition bridge:
   [`f77r_quality_transition_bridge_report.md`](experiments/semantic_assumptions/results/f77r_quality_transition_bridge_report.md)
+- Residual lexical-identity nonconfirmation:
+  [`f77r_residual_form_assignment_report.md`](experiments/semantic_assumptions/results/f77r_residual_form_assignment_report.md)

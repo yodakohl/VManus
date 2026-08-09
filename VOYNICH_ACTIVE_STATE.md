@@ -2131,6 +2131,22 @@ inside sectors, the reverse placement. Do not accept another generic circular
 or segmented page as replication; require short labels inside apparatus
 segments with independently visible active/inactive boundaries.
 
+A direct residual-form diagnostic now rejects the strongest lexical upgrade of
+the f77r bridge. After concatenating spaces and deleting exactly the two
+state-defining features—one leading `ot` and one terminal `y`—the observed
+same-state mapping between the four f57 exemplars and six f77r labels ranks
+only 4th of all 24 assignments in the exact equal-reading score. Three
+assignments are higher; the unique best swaps the HOT-position and
+MOIST-position exemplars and therefore supplies no alternative semantic key.
+All four state-preserving one-label deletions also fail identity as a unique
+optimum. Deleting `f77r.2` `olkchs`, the strongest COLD-position resemblance,
+drops identity to 18th of 24. An independent implementation reconstructs 480
+assignment evaluations in 21 checks. Retain **FINAL POST-HOC NONCONFIRMATION
+OF RESIDUAL LEXICAL QUALITY IDENTITY**. The author-visible transition pattern
+remains provisional structural evidence only; it has no four-label lexicon.
+The next valid target remains a second same-orientation apparatus with short
+labels inside segments and independently visible active/inactive boundaries.
+
 A later exhaustive simple-feature diagnostic recovers an exact local two-bit
 table in every manual reading, but a correction makes it semantically
 nonidentifying. Terminal `y` selects the SE+NW diagonal in both N1 and D1; N1
