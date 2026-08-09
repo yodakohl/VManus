@@ -193,7 +193,17 @@ f2r.15 may be a pre-paint green-leaf instruction at whole-record level. There
 is no second Voynich-script colour contrast. No token can be glossed GREEN,
 pigment, or action. The plain notes do not establish that the main-text scribe
 wrote them or that the main text is German. This uses only human descriptions
-and manual transcriptions.
+and manual transcriptions. A complete formal audit further narrows the record:
+the parsed `a -> o` tail behind `an on` recurs at six physical loci, including
+two all-reading prose loci, while the reverse order also occurs. The `a` and
+`o` roots occur at 408 and 874 physical loci. Only the composite `i+os` is
+locus-unique. A two-reading `e+os | oii | o` parallel in the f67r2 moon-sector
+text provides a second similar short-record frame but is not all-reading
+evidence.
+Thus only the first slot remains record-specific, and its uniqueness makes it
+untestable rather than readable. An independent 27-check implementation
+reconstructs the component counts, pair directions, shell, two-reading
+parallel, and lexical stop exactly.
 
 Two older detailed layers are useful but incomplete. Stolfi 25e1 comments give
 a nonexhaustive regex index of 1,099 object-bearing and 93 label-only loci on

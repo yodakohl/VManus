@@ -40,6 +40,30 @@ label, and radial text, while the broader three-word all-`BARE` class occurs
 at 37 physical loci. Context, not this grammar shell, is the only evidence for
 a production-instruction function.
 
+## Slot-level narrowing
+
+A deterministic audit of the complete cached interlinear separates unique
+surface spelling from reusable parsed structure. The complete `i+os` composite
+behind `ios` occurs at f2r.15 only, in the two available agreeing readings. By
+contrast, the parsed root behind `an` occurs at 408 physical loci and the root
+behind `on` at 874. Their adjacent `a -> o` order occurs at six physical loci,
+four supported by at least two readings and two supported by all three. The
+reverse `o -> a` order also occurs, so this is not a one-way semantic relation.
+
+There is one particularly close structural parallel: f67r2.40, a human-marked
+line in a moon sector, has the three-root frame `e+os | oii | o` in IT2a and
+ZL3b. RF1b does not preserve the complete parsed frame, so this is a
+two-reading diagnostic rather than an all-reading confirmation. It shows that
+the f2r tail is compatible with a reusable short-record construction outside
+the colour context.
+
+This narrows, but does not solve, the phrase. The only locus-specific parsed
+component is `i+os`; the final `a -> o` pair is reusable manuscript structure.
+If the record contains a green/pigment/action value, the grammar does not tell
+us whether it resides in `i+os`, is distributed across the record, or is absent
+entirely. Uniqueness also prevents transfer testing, so no lexical gloss is
+authorized.
+
 The strongest defensible partial reading is therefore:
 
 > `f2r.15` may be a pre-paint instruction associated with a green leaf.
@@ -78,6 +102,13 @@ colour, or the same complete phrase under another green-painted part.
   exact-local label within a leaf.
 - `results/pre_grounding_interlinear.tsv`: exact ZL3b/RF1b surface and formal
   parse; IT2a absent.
+- `audit_col001_colour_record_structure.py` and
+  `results/col001_colour_record_structure.json`: hash-guarded component,
+  adjacency, shell, and close-parallel reconstruction.
+- `validate_col001_colour_record_structure.py` and
+  `results/col001_colour_record_structure_validation.json`: independent
+  27-check reconstruction of the retained counts, reading support, and lexical
+  stop.
 - `transcription/sources/Stolfi_text25e1-52.evt`: hedged f99v.45 near-miss.
 
 No OCR, automated image recognition, pixel feature, or machine-generated
