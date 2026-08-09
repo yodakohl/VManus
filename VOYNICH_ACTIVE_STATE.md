@@ -1233,6 +1233,18 @@ calibration only. It does not yet establish edge agreement, an affix,
 circumfix, word, sound, language, cipher operation, meaning, plaintext, or
 translation.
 
+The target-free edge-coupling calibration now passes and is independently
+reconstructed. Across 64 opening-independent null worlds there are zero false
+passes; all eight modest manuscript-wide coupling plants pass; one-folio-only
+and independent folio-specific mappings each produce zero of eight passes.
+Outcome-label permutation, Currier, concentration, deletion, capacity,
+mutation, isolation, and finite-score gates pass. A separate nonimporting
+implementation reconstructs all 88 worlds and decisions in 2,399 checks
+without opening any final-family value. This authorizes one frozen target join
+only; it does not predetermine an edge relation or establish an affix,
+circumfix, sound, word, language, cipher operation, meaning, plaintext, or
+translation.
+
 The first post-reset author-visible relation has now passed. `EAS001` used the
 older text-blind frozen inventory of explicit repeated sectors, bands, rows,
 and apparatus slots; it did not use pixels, OCR, automated vision, semantic
