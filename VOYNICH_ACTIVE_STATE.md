@@ -1078,8 +1078,25 @@ closing association, with 488 first versus 860 last endpoints. Strong opening
 pair candidates include `PL/AL/QL/BL/PA/AK/PK`; strong closing pair candidates
 include `KB/AF/AG/KU/UA/BB` and terminal `CA`. These values are descriptive
 components of a jointly confirmed classifier, not separately confirmed
-operators and not words or meanings. The next independent grammar target must
-model local core transitions rather than another scalar edge gradient.
+operators and not words or meanings.
+
+A strict duplicate audit rejected two tempting next steps before scoring:
+semantic illustration matching would repeat the closed object-tag/berry/flower
+routes, and source-native local transition scoring would substantially repeat
+the confirmed IL005/IL010 adjacency family. One genuinely different question
+does have score-blind capacity: whether exact STA member-code resolution adds
+held first-versus-last information after the complete coarse family shells are
+kept seen and fixed. This is not the old f57v/minimal-pair substitution route;
+it is manuscript-wide and does not select a glyph opposition. Of 2,099 loci
+with exact ZL/IT/RF member codes at both endpoints, 426 on 94 folios retain
+both family shells outside the held folio while making at least one complete
+member surface unseen. Requiring every fine P1/P2/S1/S2 value at both endpoints
+to occur outside the folio in both roles still leaves 285 loci on 81 folios.
+There are 242 family shells with multiple exact member realizations across at
+least three folios. An independent 44,837-check reconstruction passes. This
+authorizes only a separately frozen incremental family-versus-member test; it
+does not reopen allography, establish physical glyph identity, or assign sound,
+alphabet, word, cipher, meaning, plaintext, language, or translation.
 
 The first post-reset author-visible relation has now passed. `EAS001` used the
 older text-blind frozen inventory of explicit repeated sectors, bands, rows,
