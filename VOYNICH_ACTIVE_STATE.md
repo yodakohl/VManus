@@ -1068,6 +1068,19 @@ interpretation is therefore an opening/core/closing architecture with strong
 edge morphology, not a single scalar progression through the core. Do not
 retune the internal-gradient target.
 
+A descriptive decomposition of the confirmed combined edge model now provides
+the first source-native structural feature atlas: 28 high-support
+`OPEN_EDGE_ASSOCIATED`, 31 `CLOSE_EDGE_ASSOCIATED`, and 138 unresolved feature
+values under a fixed >=20-occurrence, |log-LR|>=.5, >=95/102-fold rule. The
+clearest single initial is STA family `P` (official basic examples EVA `p/f`),
+with 265 first versus 18 last endpoints. Terminal STA family `B` is a common
+closing association, with 488 first versus 860 last endpoints. Strong opening
+pair candidates include `PL/AL/QL/BL/PA/AK/PK`; strong closing pair candidates
+include `KB/AF/AG/KU/UA/BB` and terminal `CA`. These values are descriptive
+components of a jointly confirmed classifier, not separately confirmed
+operators and not words or meanings. The next independent grammar target must
+model local core transitions rather than another scalar edge gradient.
+
 The first post-reset author-visible relation has now passed. `EAS001` used the
 older text-blind frozen inventory of explicit repeated sectors, bands, rows,
 and apparatus slots; it did not use pixels, OCR, automated vision, semantic
