@@ -3208,6 +3208,15 @@ or family correction, alter pairing, or reuse the same 57 annotations as if
 independent. The result supplies no direction word, ownership, lexeme,
 plaintext, language, or translation.
 
+The obvious independent synonym transfer is unavailable. After excluding all
+57 EAST/WEST source loci, only nine covered exact comments contain exclusive
+`left of`/`right of` object wording. Eight point from the current line to a
+different locus rather than describing the current text. The subject guard
+leaves only f84r.1, one direct LEFT label and zero direct RIGHT labels, hence
+zero matched strata. A source-only validator passes 10/10 checks. Do not use
+those cross-references or unmatched rows to rescue the nonpassing `BOUND_E`
+diagnostic; no LEFT/RIGHT transfer target is authorized.
+
 ## Admission rule for new work
 
 A new semantic route needs genuinely independent authorial evidence or a new
