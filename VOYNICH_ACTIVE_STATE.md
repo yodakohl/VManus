@@ -926,8 +926,17 @@ Exactly 173 source groups produce no legacy ASCII fragment, including 25 whole
 reading rows; 2,688 single source groups produce multiple fragments, creating
 2,714 nonmanual boundaries. Only 112,609 source groups map one-to-one to one
 legacy token. A source-bound atlas now preserves every group, all four
-separator states, and the exact legacy mapping without guessing extended
-`@number;` entities.
+separator states, and the exact legacy mapping. The official STA1 level-0
+files now remove the remaining extended-character ambiguity without guessing:
+all 15,985 native reading rows, 115,470 source groups, and 99,485 separators
+align exactly, and the official edition-specific bidirectional rules reverse
+every STA row and group back to its native transcription after removal only of
+the inline comments that the STA release deliberately omits. The retained
+primary paths contain 469,910 STA symbols; all supplied alternatives use 229
+codes in 24 families. ZL3b has 817 explicit alternative sites across 809
+groups, all preserved in raw markup. STA is a synthetic comparison alphabet,
+not proof of physical letters or sounds; the nearest-basic-EVA field is an
+explicitly lossy convenience projection.
 
 Inside that legacy projection, the **partial retained-node formal layer** has
 636 root types, 2,835 exact root tuples, and 13,559 descriptive prose adjacency
@@ -973,10 +982,11 @@ Only 576 complete source groups remain in that descriptive class; for `y`, the
 correction is 2,117 to 525. These counts remain compatibility inside the same
 partial parser, not a repaired parse. Future surface work must start from the
 source-group atlas, preserve the four manual separator states, and exclude
-cleaner-created fragment boundaries. The immediate next route is a mechanical
-impact audit that maps every zero/multi-fragment source group through current
-formal features and identifies which old claims remain invariant before any
-new semantic score is permitted.
+cleaner-created fragment boundaries. That mechanical impact audit and its
+independent reconstruction are complete. The immediate next route is a new,
+versioned source-aware grammar reconstruction over the lossless STA/source-
+group layer, using the old retained-node formal snapshot only as a comparison
+target. It must not silently recreate the missing parser or assign semantics.
 
 The source atlas contains 12,093 confirmed-prose reading rows and 3,892
 diagnostic-nonprose rows. The legacy formal projection contains 12,092 and
@@ -988,9 +998,9 @@ from at least one reading. The package has zero English lexical glosses and
 imports none of v0.51's archived contextual overlays. The original formal
 parser source is missing from the current tree and reachable Git history, so
 the snapshot is byte-frozen but the formal derivation is not currently
-reproducible. Future hypotheses must use the complete source-group atlas plus
-the explicit legacy residual atlas, and treat the existing formal columns as a
-partial projection rather than a complete occurrence inventory. COL001's frozen
+reproducible. Future hypotheses must use the lossless STA/source-group atlas
+plus the explicit legacy residual atlas, and treat the existing formal columns
+as a partial projection rather than a complete occurrence inventory. COL001's frozen
 formal-node `i`/`os` counts are unchanged: f2r.15 has no legacy residual and no
 legacy residual fragment contains literal `i` or `o`. This is not a complete
 source-surface absence claim because 173 source groups vanish before that
