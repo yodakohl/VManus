@@ -4421,6 +4421,20 @@ lead.  It is not TAURUS, a sign name, a word, or a translation.  Any successor
 must test whole circular sequences or pair-level transfer rather than selecting
 another rare fragment from the same four pages.
 
+The first such successor masks `AQJABABA` itself and tests its local position
+against every cross-position pair in the two Taurus main circular loci.  Five
+cyclic window radii and six family/member views give 90 reading-specific cells;
+direction is discarded, so the score is invariant to circular start and
+simultaneous reversal.  The candidate positions have median tie-aware rank
+percentile .4476.  Only 3/90 cells enter the top decile (ZL 0, IT 2, RF 1), and
+the immediate neighbors differ in every reading.  A nonimporting reconstruction
+verifies every context, score, rank, tie, output field, report byte, and the
+full-grid rotation/reversal invariances in 115,728 checks.  Thus the repeat does
+not occupy a consistently homologous local field under these source-native
+representations.  It may still be a freely positioned item; this test cannot
+promote or exclude that possibility.  Do not call it a diagram parameter,
+TAURUS, sign name, word, or translation.
+
 A new semantic route needs genuinely independent authorial evidence or a new
 invariant capable of falsifying competing meanings. A new model, crop,
 threshold, spelling resemblance, subset, historical analogy, or GPU search is
