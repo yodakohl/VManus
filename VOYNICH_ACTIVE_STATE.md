@@ -212,6 +212,20 @@ zero differences. The builder now uses the active public snapshot and fails
 closed if any quire is absent. This repairs provenance but contributes no new
 description or semantic anchor.
 
+A subsequent folio-boundary audit corrects the interpretation of that exact
+reproduction. The cached HTML was stable, but the old parser did not clear its
+active page at folio headers, so **84** verso/page records inherited the next
+folio's prose in `other_information`. A versioned 228-row v2 table removes only
+those suffixes; general, illustration, text, tentative-identification, source
+tag, URL, and role-evidence fields are unchanged. No semantic consumer reads
+the affected field, so prior scores do not change. The same audit exposes one
+public-source contradiction: f73v's illustration and December label identify
+Sagittarius, while its tentative-identification sentence says Scorpius.
+Tentative identifications were already non-role evidence, and the independent
+label catalogue calls f73v Sagittarius. Future public-page work must use v2
+and must not treat tentative identities as authoritative. The public f67--f73
+circle scope remains 26 page panels.
+
 One small production-layer lead is now retained without a lexical gloss.
 The human catalogue has 13 `COL`-classed records on ten pages: twelve are
 plain-alphabet records, including Latin `g` under green paint on f1v, German

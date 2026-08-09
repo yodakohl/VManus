@@ -21,3 +21,9 @@ compared exactly with `existing_human_page_annotations.tsv`.
 No manuscript image, OCR, automated vision, Voynich string, grammar feature,
 or semantic score is used. Tentative identifications remain modern public
 descriptions, not authorial meanings or lexical keys.
+
+This refresh proves byte stability and exact reproduction of the historical
+table; it does not certify the historical HTML record segmentation. The later
+`PUBLIC_PAGE_ANNOTATION_BOUNDARY_CORRECTION_METHOD.md` and v2 table supersede
+its page-field ownership after finding folio-header leakage confined to
+`other_information`.

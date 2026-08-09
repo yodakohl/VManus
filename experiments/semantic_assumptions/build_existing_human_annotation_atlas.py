@@ -54,6 +54,7 @@ STOLFI_BEST_LABEL_URL = (
 )
 
 PAGE_RE = re.compile(r"f\d+[rv]\d*", re.I)
+FOLIO_RE = re.compile(r"f\d+", re.I)
 UNIT_RE = re.compile(r"^# Unit <(f\d+[rv]\d*)\.([^>]+)>:\s*(.*)$")
 LOCUS_RE = re.compile(r"^<(f\d+[rv]\d*)\.([^;>]+);([^>]+)>\s*(.*)$")
 IVTFF_LOCUS_CODE_RE = re.compile(r"^<([^,>]+),([^>]+)>")
@@ -182,6 +183,10 @@ class FolioCatalogueParser(HTMLParser):
                     "page": candidate, "quire": self.quire,
                     **{field: [] for field in SECTION_FIELDS.values()},
                 })
+            elif FOLIO_RE.fullmatch(candidate):
+                # Folio-level prose belongs to the following physical folio,
+                # not to the last recto/verso page that happened to be parsed.
+                self.page = ""
         if lowered in {"h4", "p"}:
             self.capture = lowered
             self.parts = []
