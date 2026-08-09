@@ -131,6 +131,12 @@ def main() -> None:
     features = [field for field in raw_rows[0] if field not in META]
     if features != inventory["all_features"] or len(features) != 84:
         raise RuntimeError("feature inventory/order mismatch")
+    if (
+        len(inventory["formal_features"]) != 34
+        or len(inventory["root_atom_features"]) != 32
+        or len(inventory["root_compound_word_features"]) != 18
+    ):
+        raise RuntimeError("exact formal/atom/word feature counts mismatch")
     expected_features = (
         inventory["formal_features"]
         + [f"ROOT_ATOM_RATE__{name}" for name in inventory["root_atom_features"]]
@@ -254,6 +260,8 @@ def main() -> None:
         for edition in EDITIONS:
             scales = scale_table[(held, edition)][eligible_mask]
             standardized = fold_residuals[(held, edition)][:, eligible_mask] / scales
+            if not np.isfinite(standardized).all():
+                raise RuntimeError("nonfinite full fold standardized matrix")
             shrunk, weight, rho, diagnostics = analytic_shrinkage(standardized[train_mask])
             diagnostics.update({
                 "eligible_scale_min": float(np.min(scales)),
