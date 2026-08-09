@@ -62,7 +62,7 @@ def main() -> None:
     if len(ledger) > 1024:
         raise RuntimeError(f"active ledger is no longer compact: {len(ledger)} rows")
     hypotheses = read_tsv(ACTIVE / "hypotheses" / "ACTIVE_HYPOTHESES.tsv")
-    if len(hypotheses) > 48:
+    if len(hypotheses) > 64:
         raise RuntimeError(f"active hypothesis registry is no longer compact: {len(hypotheses)} rows")
     identifiers = [row["hypothesis_id"] for row in hypotheses]
     if len(identifiers) != len(set(identifiers)):

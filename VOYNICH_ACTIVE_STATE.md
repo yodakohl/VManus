@@ -3044,6 +3044,39 @@ reference, and special-notation alternatives remain unresolved; none supplies
 ownership, selector meaning, reuse outside this panel, glyph meaning, lexeme,
 plaintext, or translation.
 
+The proposed strong-relation morphology route stops before opening a text
+feature. Unhedged exact-local annotations contain 48 enclosure loci in ten
+units, 51 explicit-attachment loci in six units, and eight overlap/contact
+loci in six units, but **no human annotation unit contains two strong relation
+types**. The only three pages with more than one type compare different
+registers—rosette labels versus prose, star labels versus medallion text, or
+container labels versus plant/prose contact. A classifier would rediscover
+page/register rather than a relation marker. Reopen only with replicated units
+where strong relations vary within the same annotation and layout family.
+
+### Explicit berry / no-fruit Herbal contrast
+
+`BERRY001` is registered and target-unrun. It corrects the general warning
+that missing illustration tags cannot be negatives by using only two literal
+human assertions: eight Herbal pages tagged “berries that have no added
+circles” and seven tagged “no fruits or flowers.” Every page is section H,
+Currier A, hand 1, so section, Currier, and hand do not separate the source
+classes. Ambiguous “flowers or berries,” silence, AI plant identities, OCR,
+and image recognition are excluded.
+
+The frozen current-grammar panel has 663 reading-specific confirmed-prose
+loci and 359 supported boundary-aware literal/root features. Complete token
+length and linear folio order are controlled. All 6,435 synchronized 8-of-15
+assignments are enumerated with a minimum-over-readings statistic and
+familywise maximum. Anonymous controls uniquely recover a plant, collapse
+alternate-reading disagreement to zero, and remove constant and linear-order
+signals exactly. A nonimporting implementation reconstructs the panel, feature
+matrix hash, both nulls, and all controls in 20 checks. The source-positive
+target assignment has not been computed and no target artifact exists. One
+frozen invocation is authorized; even a pass can nominate only a provisional
+berry-page field pattern, never a berry word, negation, plant identity,
+language, plaintext, or translation.
+
 ## Admission rule for new work
 
 A new semantic route needs genuinely independent authorial evidence or a new
