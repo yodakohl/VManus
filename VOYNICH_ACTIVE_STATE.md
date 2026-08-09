@@ -3056,7 +3056,7 @@ where strong relations vary within the same annotation and layout family.
 
 ### Explicit berry / no-fruit Herbal contrast
 
-`BERRY001` is registered and target-unrun. It corrects the general warning
+`BERRY001` is a final validated nonconfirmation. It corrects the general warning
 that missing illustration tags cannot be negatives by using only two literal
 human assertions: eight Herbal pages tagged “berries that have no added
 circles” and seven tagged “no fruits or flowers.” Every page is section H,
@@ -3068,14 +3068,23 @@ The frozen current-grammar panel has 663 reading-specific confirmed-prose
 loci and 359 supported boundary-aware literal/root features. Complete token
 length and linear folio order are controlled. All 6,435 synchronized 8-of-15
 assignments are enumerated with a minimum-over-readings statistic and
-familywise maximum. Anonymous controls uniquely recover a plant, collapse
+familywise maximum. Anonymous controls uniquely recover a planted synthetic
+assignment, collapse
 alternate-reading disagreement to zero, and remove constant and linear-order
-signals exactly. A nonimporting implementation reconstructs the panel, feature
-matrix hash, both nulls, and all controls in 20 checks. The source-positive
-target assignment has not been computed and no target artifact exists. One
-frozen invocation is authorized; even a pass can nominate only a provisional
-berry-page field pattern, never a berry word, negation, plant identity,
-language, plaintext, or translation.
+signals exactly.
+
+The one frozen target invocation yields **zero passing features**. The sole
+feature with adjusted familywise `p <= .20`, `ROOT_PREFIX:oii`, has adjusted
+familywise `p=.080963` and raw familywise `p=.139239`; it therefore fails both
+predeclared significance gates. Its direction is consistent across readings
+and views, occurs on at least six enriched-class pages, and survives every
+page deletion, making it an honest near-miss rather than a result. A
+nonimporting implementation reconstructs all target scores, tails, candidate
+rows, and the zero-pass decision in 16 checks. No threshold was lowered.
+This closes only the fixed page-level morphology contrast: `oii` is not BERRY,
+FRUIT, NO, a plant term, or any translated word. Reopen only with genuinely
+new independent evidence or a differently sourced contrast, not a retuned
+feature, panel, or threshold.
 
 ## Admission rule for new work
 
