@@ -1516,6 +1516,25 @@ single-folio artifact. The audit cannot change the decision, select a subset,
 or establish wordhood, object ownership, label meaning, picture identity,
 sound, language, cipher operation, plaintext, or translation.
 
+Public human catalogue data now localizes most of that diagnostic capacity to
+the continuous circular-illustration block **f67--f73, including f71**. The 26
+catalogued page panels comprise astronomical/cosmological material through f70
+recto and zodiac circles from f70 verso through f73. In the unchanged target
+orbit, its 960 groups / 3,416 noninitial positions have the expected favored
+and disfavored directions on all 7/7 folios under both nulls. The result is not
+confined to literal circular writing: every represented editorial role-folio
+cell has both directions (`C` 3/3, `L` 7/7, `P` 4/4, `R` 4/4), and every role's
+diagnostic tails are p<=.01. This is a retrospective localization, not a new
+confirmation. Remaining non-block label material also has both tails at
+p<=.01, and the block's disfavored deficit per position is smaller than the
+remainder under both nulls. Therefore the relation is broad across the public
+circle block but is not established as circle-specific; f68 remains the
+largest contributor and the original concentration nonconfirmation is
+unchanged. An auditor-free 34-check reconstruction matches the exact public
+source projection, both orbits, all 18 output rows, gates, and five source
+mutations. No diagram parameter, ownership, word, meaning, or translation
+follows.
+
 The first post-reset author-visible relation has now passed. `EAS001` used the
 older text-blind frozen inventory of explicit repeated sectors, bands, rows,
 and apparatus slots; it did not use pixels, OCR, automated vision, semantic
