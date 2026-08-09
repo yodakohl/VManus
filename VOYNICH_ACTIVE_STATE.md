@@ -1111,6 +1111,23 @@ rule, or weaken the gate. The result suggests fine STA resolution tracks some
 edge structure, but not a register-stable increment beyond the family model at
 this resolution. The next route must leave this endpoint-resolution family.
 
+A source-native fine-code agreement atlas now rules out a simple explanation
+for that stop: the member layer is not broadly unstable. Across all 95,451
+strict aligned positions, ZL/IT/RF use exactly the same member code at 91,916
+(96.30%). Of only 3,535 disagreements, 2,740 (77.51%) have ZL=IT against RF.
+One exact RF policy difference, `(B1,B1,Ba)`, occurs 1,586 times and accounts
+for 44.87% of every fine-code disagreement; the next three recurring RF-only
+specializations raise the four-pattern share to 64.64%. Pairwise exact
+agreement is 99.17% ZL/IT, 96.73% ZL/RF, and 96.59% IT/RF. Currier A is actually
+more all-three-stable (97.47%) than Currier B (95.90%), so transcription noise
+does not explain the negative Currier-A proper gain. An independent 142,029-
+check reconstruction validates every position and all 146 disagreement
+triplets. Retain all-three-exact member codes as a reliable descriptive layer,
+but do not majority-correct the remaining positions or call recurrent code
+differences physical allographs. The manuscript-wide shared grammar should
+remain at family resolution unless an independently frozen register-specific
+question justifies fine codes.
+
 The first post-reset author-visible relation has now passed. `EAS001` used the
 older text-blind frozen inventory of explicit repeated sectors, bands, rows,
 and apparatus slots; it did not use pixels, OCR, automated vision, semantic
