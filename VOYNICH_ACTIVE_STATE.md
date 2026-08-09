@@ -1188,6 +1188,19 @@ authorized continuation is a versioned `(j+n-shift) mod n` repair followed by
 the unchanged synthetic-only preflight. No target run is authorized unless the
 repaired preflight and an independent reconstruction pass.
 
+That arithmetic-only v2 repair now passes. It preserves every stratum's label
+multiset through 512 checked assignments and changes no panel, world, seed,
+score, threshold, or claim ceiling. Across the frozen synthetic grid it yields
+zero local and zero boundary false passes in 64 null worlds; 8/8 local plants
+and 8/8 stronger distance-controlled boundary plants pass; one-folio and
+generic sequential controls each give 0/8 passes under both gates. A separate
+nonimporting implementation reconstructs all 96 worlds, 288 reading summaries,
+both rotation ensembles, gates, decisions, and report in 6,777 checks. The
+source outcome table was not opened and target artifacts remain absent. This
+authorizes exactly one separately frozen target run with 8,191 assignments per
+ensemble. It does not predetermine the target result or license any sound,
+word, language, cipher, meaning, plaintext, or translation claim.
+
 The first post-reset author-visible relation has now passed. `EAS001` used the
 older text-blind frozen inventory of explicit repeated sectors, bands, rows,
 and apparatus slots; it did not use pixels, OCR, automated vision, semantic

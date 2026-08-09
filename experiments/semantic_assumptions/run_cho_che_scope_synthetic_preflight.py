@@ -35,10 +35,13 @@ RESULTS = BASE / "results"
 MASKED = RESULTS / "cho_che_scope_masked_events.tsv"
 MASKED_VALIDATION = RESULTS / "cho_che_scope_masked_universe_validation.json"
 CORE = BASE / "cho_che_scope_core.py"
-SPEC = BASE / "CHO_CHE_SCOPE_SYNTHETIC_PREFLIGHT_SPEC.md"
+V1_SPEC = BASE / "CHO_CHE_SCOPE_SYNTHETIC_PREFLIGHT_SPEC.md"
+V1_RESULT = RESULTS / "cho_che_scope_synthetic_preflight.json"
+V1_AUDIT = RESULTS / "cho_che_scope_rotation_v1_audit.json"
+SPEC = BASE / "CHO_CHE_SCOPE_SYNTHETIC_PREFLIGHT_V2_AMENDMENT.md"
 RUNNER = Path(__file__).resolve()
-OUT = RESULTS / "cho_che_scope_synthetic_preflight.json"
-REPORT = RESULTS / "cho_che_scope_synthetic_preflight_report.md"
+OUT = RESULTS / "cho_che_scope_synthetic_preflight_v2.json"
+REPORT = RESULTS / "cho_che_scope_synthetic_preflight_v2_report.md"
 TARGET_SOURCE = RESULTS / "source_sta_group_alignment.tsv"
 TARGET_RUNNER = BASE / "run_cho_che_scope_target.py"
 TARGET_OUT = RESULTS / "cho_che_scope_target.json"
@@ -47,7 +50,10 @@ TARGET_REPORT = RESULTS / "cho_che_scope_target_report.md"
 FROZEN = {
     MASKED: "41f8b517419d2215a97db9ce245c5639f383b11c41d8c1377a245dea8e37abf3",
     MASKED_VALIDATION: "e7d37a23ca199e421946fab0c42f4547aade0a5fa27579b1e9e69518c0d376ec",
-    CORE: "fc57f5b96ea49fc380aabc1fbed81273111a6d3981f1fd46bbbb0aeff05891e4",
+    CORE: "b77dd67d49c4e173d16bce2409c8f691e9cf7aae30b1333ee0eeffd9a98193b8",
+    V1_SPEC: "b2b51a91b999ae926170a76ce8ffe8f5b8a7d01f3e71200e93b26cefce900c94",
+    V1_RESULT: "203ab1e60c83f43f6cb095b095c461cf7742ba30fecf6ff0cc2b79925c82331e",
+    V1_AUDIT: "0b0c2c864ff5b375c0eb2530f344dd19b63a5eab69bdcac27335c8ae19ae4255",
 }
 ASSIGNMENTS = 511
 WORKERS = 32
@@ -177,7 +183,7 @@ def invariant_controls() -> dict:
             scalar_differences.append(abs(original[target]["p_by_ensemble"][ensemble] - complement[target]["p_by_ensemble"][ensemble]))
 
     multiset_ok = True
-    assignments = np.arange(1, 17, dtype=np.uint64)
+    assignments = np.arange(1, 513, dtype=np.uint64)
     for ensemble in ("INDEPENDENT_STRATUM", "COUPLED_PAGE"):
         rotations = rotated_batch(panel, labels, assignments, ensemble, "CHO_CHE_SCOPE_MULTISET")
         for positions, page, key in panel.rotation_strata:
@@ -266,9 +272,9 @@ def main() -> None:
         "mutation_guards": all(mutations.values()),
         "target_outputs_absent_before_and_after": not TARGET_OUT.exists() and not TARGET_REPORT.exists(),
     }
-    status = "PASS_TARGET_FREE_SCOPE_PREFLIGHT" if all(gates.values()) else "STOP_SCOPE_PREFLIGHT_FAILED_TARGET_FORBIDDEN"
+    status = "PASS_TARGET_FREE_SCOPE_PREFLIGHT_V2" if all(gates.values()) else "STOP_SCOPE_PREFLIGHT_V2_FAILED_TARGET_FORBIDDEN"
     result = {
-        "experiment": "CHO_CHE_SCOPE_SYNTHETIC_PREFLIGHT",
+        "experiment": "CHO_CHE_SCOPE_SYNTHETIC_PREFLIGHT_V2",
         "status": status,
         "inputs": {path.name: sha(path) for path in (*FROZEN, SPEC, RUNNER)},
         "numeric_environment": {"OPENBLAS_NUM_THREADS": os.environ["OPENBLAS_NUM_THREADS"], "OMP_NUM_THREADS": os.environ["OMP_NUM_THREADS"], "MKL_NUM_THREADS": os.environ["MKL_NUM_THREADS"], "workers": WORKERS},
@@ -306,7 +312,7 @@ def main() -> None:
             "operation, meaning, plaintext, or translation follows."
         ),
     }
-    report = f"""# `cho/che` paragraph-scope synthetic preflight
+    report = f"""# `cho/che` paragraph-scope synthetic preflight v2
 
 Status: **{status}**
 

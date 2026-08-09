@@ -221,7 +221,11 @@ def rotated_batch(panel: EditionPanel, base_labels: np.ndarray, assignments: np.
         key = page if ensemble == "COUPLED_PAGE" else stratum_key
         phase = splitmix64(assignment_mix ^ np.uint64(stable_u64(key)))
         shifts = phase % np.uint64(len(positions))
-        source = (np.arange(len(positions), dtype=np.uint64)[None, :] - shifts[:, None]) % np.uint64(len(positions))
+        source = (
+            np.arange(len(positions), dtype=np.uint64)[None, :]
+            + np.uint64(len(positions))
+            - shifts[:, None]
+        ) % np.uint64(len(positions))
         output[:, positions] = base_labels[positions[source.astype(np.int64)]]
     return output
 
