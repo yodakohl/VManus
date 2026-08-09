@@ -1314,6 +1314,21 @@ movable prefix/root/suffix boundaries, a reading direction, sound, word,
 language, meaning, plaintext, or translation. The stronger flexible-stage
 route is closed at this resolution; do not relabel the five slots semantically.
 
+An immediate confound audit now asks whether that positive result survives
+after the already-confirmed first and last family positions are removed. Its
+score-blind panel retains 19,203 groups, 45,867 interior symbols, and all 94
+folios, with the original 47/23/24-folio TRAIN/CAL/TEST split. The model
+conditions on Currier and exact original length before testing relative
+position inside the remaining interior. Its target-free calibration passes in
+both orientations: 0/64 nulls, 8/8 global position plants, and 0/8 Currier-one,
+one-folio, and folio-random adversaries; all 96 pass decisions are reversal-
+stable. Independent implementations reconstruct the score-blind panel in 29
+checks and all 192 calibration records with zero numeric discrepancy in 209
+checks. The real interior family sequence remains unopened under this exact
+test. This authorizes only a separately frozen target run testing whether the
+confirmed complete-group positional effect extends beyond endpoints and exact
+length; no morphology or meaning follows from calibration.
+
 The first post-reset author-visible relation has now passed. `EAS001` used the
 older text-blind frozen inventory of explicit repeated sectors, bands, rows,
 and apparatus slots; it did not use pixels, OCR, automated vision, semantic
