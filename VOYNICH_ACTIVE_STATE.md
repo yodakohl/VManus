@@ -3217,6 +3217,20 @@ zero matched strata. A source-only validator passes 10/10 checks. Do not use
 those cross-references or unmatched rows to rescue the nonpassing `BOUND_E`
 diagnostic; no LEFT/RIGHT transfer target is authorized.
 
+Two further independent transfers also fail source capacity without opening a
+feature. A strict human clock-position audit retains 58 three-reading circular
+loci and 49 rows in six east-half/west-half matched units, but every matched
+unit lies on only f67 or f68. That is two physical folios, not an independent
+manuscript-wide transfer panel.
+
+Rosettes provenance is now corrected precisely: the manual line table maps
+all 158 annotation loci named `f85v2.*` uniquely and code-exactly to current
+`fRos.*` loci. All 158 have ZL/RF but no IT in the current interlinear. Under
+the final strict `east/west of object` rule, only f85v2.56 and f85v2.138
+qualify and both are WEST; the larger apparent set came from the discarded
+broad region-name classifier. Thus the alias repair adds zero strict matched
+strata and cannot rescue `BOUND_E`. Independent reconstruction passes 12/12.
+
 ## Admission rule for new work
 
 A new semantic route needs genuinely independent authorial evidence or a new
