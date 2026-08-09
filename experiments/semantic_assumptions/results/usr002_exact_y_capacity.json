@@ -1,0 +1,74 @@
+{
+  "all_candidates": {
+    "isolated_reading_count": {
+      "1": 20,
+      "2": 10
+    },
+    "outcome_vectors": {
+      "001": 1,
+      "010": 1,
+      "100": 18,
+      "101": 5,
+      "110": 5
+    },
+    "pages": 28,
+    "physical_folios": 23,
+    "physical_loci": 29,
+    "spans": 30
+  },
+  "candidate_tsv_sha256": "280bd2d89c39a0d1466b6a79ae62a9cbfe3d92f2c63cd670f9abd842496d0407",
+  "claim_ceiling": "This is capacity for a parser-free exact-y spacing-disagreement test only. Candidate readings are repeated transcriptions of one physical locus, not independent samples. No authorial space, separator, suffix, morphology, sound, word, number, plaintext, or meaning is established.",
+  "context_power_preflight_scope": {
+    "eligible_loci": 21,
+    "eligible_pages": 20,
+    "eligible_physical_folios": 17,
+    "eligible_spans": 21,
+    "isolated_reading_count": {
+      "1": 14,
+      "2": 7
+    },
+    "minority_k2_physical_folios": 6,
+    "outcome_vectors": {
+      "001": 1,
+      "010": 1,
+      "100": 12,
+      "101": 4,
+      "110": 3
+    }
+  },
+  "decision": "POWER_PREFLIGHT_REQUIRED_BEFORE_CONTEXT_TEST",
+  "english_lexical_glosses": 0,
+  "gates": {
+    "all_candidates_are_spacing_only": true,
+    "context_scope_is_confirmed_prose_and_manual_interruption_clean": true,
+    "exactly_three_readings_per_candidate": true,
+    "manual_interruption_lines_excluded_whole": true,
+    "no_formal_root_role_or_residual_field_referenced": true
+  },
+  "input_sha256": {
+    "experiments/semantic_assumptions/results/pre_grounding_interlinear.tsv": "8052a51fa37ad467e754be39648336ec4014442dab5e223daab2e77efaba4a43",
+    "transcription/sources/ZL3b-n.txt": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc"
+  },
+  "manual_interruption_exclusion": {
+    "eligible_isolated_reading_count": {
+      "1": 15,
+      "2": 7
+    },
+    "eligible_loci": 22,
+    "eligible_outcome_vectors": {
+      "001": 1,
+      "010": 1,
+      "100": 13,
+      "101": 4,
+      "110": 3
+    },
+    "eligible_pages": 21,
+    "eligible_physical_folios": 18,
+    "eligible_spans": 22,
+    "excluded_loci": 7,
+    "excluded_spans": 8,
+    "source_marker": "<->"
+  },
+  "next_test": "Freeze and run a target-blind folio-level power calibration before any context score. If the minority isolated-reading state or matched folio orbit is too small, stop USR002 unscored.",
+  "status": "PASS_USR002_PARSER_FREE_CAPACITY_INVENTORY"
+}

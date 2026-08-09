@@ -1,0 +1,151 @@
+{
+  "artifact_sha256": {
+    "experiments/semantic_assumptions/audit_unparsed_surface_segmentation.py": "fce6d791367fd088545f8888ba7cbdcac3f82aadfb1471f2ce5e172ddbb8225e",
+    "experiments/semantic_assumptions/results/pre_grounding_interlinear.tsv": "8052a51fa37ad467e754be39648336ec4014442dab5e223daab2e77efaba4a43",
+    "experiments/semantic_assumptions/results/pre_grounding_surface_residual_atlas.tsv": "43f145ae81ffbcb78fdb8217c3a45575d427d3211c2252ac94400928ef4f47f3",
+    "experiments/semantic_assumptions/results/unparsed_surface_segmentation.json": "fb003077191a98ef4a8c16b996552ed4fd635f93e1bb26109716f554cf46ea97",
+    "experiments/semantic_assumptions/results/unparsed_surface_segmentation_report.md": "59b9d28079d6ed705ac46749f57e9738dd07e4c04f4b34c7bdf46722ef64dfa5"
+  },
+  "checks": 30166,
+  "claim_ceiling": "The frozen parser's omission is exact-token deterministic, and direct alternate-reading space-only variants show that some omitted groups participate in boundary-mobile alternate segmentations. Frozen mapping preservation is a repair clue, not an independently reproducible parser result. This establishes neither authorial spacing nor a suffix, morpheme, sound, separator, word, number, or meaning.",
+  "core_directed_fusions": {
+    "by_token": {
+      "dy": {
+        "direction": {
+          "BOTH": 3,
+          "LEFT": 57,
+          "RIGHT": 8
+        },
+        "direction_loci": {
+          "IT2a->RF1b": 12,
+          "IT2a->ZL3b": 13,
+          "RF1b->IT2a": 2,
+          "RF1b->ZL3b": 5,
+          "ZL3b->IT2a": 13,
+          "ZL3b->RF1b": 18
+        },
+        "events": 68,
+        "fused_outcome_is_parsed_events": 66,
+        "neighbor_mapping_preserved_events": 0,
+        "physical_loci": 40,
+        "sole_boundary_change_events": 43,
+        "sole_boundary_eligible_neighbor_mapping_events": 40,
+        "sole_boundary_neighbor_mapping_preserved_events": 0,
+        "source_to_other_reading": {
+          "IT2a->RF1b": 13,
+          "IT2a->ZL3b": 13,
+          "RF1b->IT2a": 2,
+          "RF1b->ZL3b": 5,
+          "ZL3b->IT2a": 15,
+          "ZL3b->RF1b": 20
+        }
+      },
+      "ky": {
+        "direction": {
+          "BOTH": 1,
+          "LEFT": 19,
+          "RIGHT": 2
+        },
+        "direction_loci": {
+          "IT2a->RF1b": 2,
+          "IT2a->ZL3b": 3,
+          "RF1b->IT2a": 2,
+          "ZL3b->IT2a": 8,
+          "ZL3b->RF1b": 7
+        },
+        "events": 22,
+        "fused_outcome_is_parsed_events": 21,
+        "neighbor_mapping_preserved_events": 0,
+        "physical_loci": 14,
+        "sole_boundary_change_events": 14,
+        "sole_boundary_eligible_neighbor_mapping_events": 12,
+        "sole_boundary_neighbor_mapping_preserved_events": 0,
+        "source_to_other_reading": {
+          "IT2a->RF1b": 2,
+          "IT2a->ZL3b": 3,
+          "RF1b->IT2a": 2,
+          "ZL3b->IT2a": 8,
+          "ZL3b->RF1b": 7
+        }
+      },
+      "sy": {
+        "direction": {
+          "BOTH": 0,
+          "LEFT": 2,
+          "RIGHT": 0
+        },
+        "direction_loci": {
+          "IT2a->ZL3b": 1,
+          "RF1b->ZL3b": 1
+        },
+        "events": 2,
+        "fused_outcome_is_parsed_events": 2,
+        "neighbor_mapping_preserved_events": 0,
+        "physical_loci": 1,
+        "sole_boundary_change_events": 1,
+        "sole_boundary_eligible_neighbor_mapping_events": 1,
+        "sole_boundary_neighbor_mapping_preserved_events": 0,
+        "source_to_other_reading": {
+          "IT2a->ZL3b": 1,
+          "RF1b->ZL3b": 1
+        }
+      },
+      "y": {
+        "direction": {
+          "BOTH": 7,
+          "LEFT": 63,
+          "RIGHT": 118
+        },
+        "direction_loci": {
+          "IT2a->RF1b": 19,
+          "IT2a->ZL3b": 8,
+          "RF1b->IT2a": 15,
+          "RF1b->ZL3b": 4,
+          "ZL3b->IT2a": 87,
+          "ZL3b->RF1b": 52
+        },
+        "events": 188,
+        "fused_outcome_is_parsed_events": 178,
+        "neighbor_mapping_preserved_events": 163,
+        "physical_loci": 128,
+        "sole_boundary_change_events": 139,
+        "sole_boundary_eligible_neighbor_mapping_events": 130,
+        "sole_boundary_neighbor_mapping_preserved_events": 130,
+        "source_to_other_reading": {
+          "IT2a->RF1b": 19,
+          "IT2a->ZL3b": 8,
+          "RF1b->IT2a": 15,
+          "RF1b->ZL3b": 4,
+          "ZL3b->IT2a": 89,
+          "ZL3b->RF1b": 53
+        }
+      }
+    },
+    "events": 280,
+    "physical_loci": 177
+  },
+  "cross_reading_space_only": {
+    "multi_boundary_pairs": 252,
+    "physical_loci": 941,
+    "single_boundary_pairs": 1188,
+    "variant_pairs": 1440
+  },
+  "decision": "BOUNDARY_MOBILE_Y_AND_LEFT_FUSING_DY_KY_ARE_STRUCTURAL_LEADS_NOT_CONFIRMED",
+  "english_lexical_glosses": 0,
+  "gates": {
+    "at_least_one_space_only_single_boundary_variant": true,
+    "core_fusion_events_reconstruct_expected_280": true,
+    "exact_token_identity_determines_frozen_parser_omission": true,
+    "sole_boundary_y_preserves_neighbor_mapping_130_of_130": true,
+    "y_is_boundary_mobile_not_suffix_only": true
+  },
+  "status": "PASS_INDEPENDENT_UNPARSED_SURFACE_SEGMENTATION_RECONSTRUCTION",
+  "type_determinism": {
+    "always_omitted_occurrences": 3838,
+    "always_omitted_types": 28,
+    "never_omitted_types": 10881,
+    "partially_omitted_types": 0,
+    "surface_groups": 118011,
+    "surface_types": 10909
+  }
+}

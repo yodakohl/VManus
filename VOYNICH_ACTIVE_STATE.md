@@ -922,6 +922,32 @@ role or meaning. Root, role, tuple, relation, and `word_count`
 statistics are exact only inside the retained formal layer and cannot support
 exhaustive surface-absence claims.
 
+The omission mechanism is now characterized more precisely. Exact surface type
+perfectly predicts retention in this frozen parser: 28 types account for all
+3,838 omissions, while 10,881 types are never omitted and no type is partly
+omitted. This is a deterministic parser-coverage hole, not random data loss or
+a newly established manuscript category. Alternate readings with identical
+non-space characters confirm that several affected types participate in mobile
+space decisions: literal `y` has 188 directed fusion events on 128 loci and can
+fuse on either side; `dy` and `ky` have 68/22 events and predominantly lose
+their left boundary. A nonimporting reconstruction passes 30,166 checks. The
+partial parser preserves the adjacent mapping in 130/130 conservative
+single-boundary `y` cases, but that mapping evidence is parser-internal because
+the source is unavailable.
+
+An apparent next route was stopped after restoring separator metadata that the
+normalized `surface` had flattened. In raw manual ZL3b IVTFF, `.` is a
+confident apparent space, `,` an uncertain small space, and `<->`/`<~>` mark
+drawing interruptions. Among 30 parser-free exact-character `y` disagreement
+spans, ZL3b isolates `y` in 28; all 28 already have an explicit uncertain or
+drawing boundary and zero have two confident spaces. Thus a proposed context
+classifier would rediscover transcription confidence, not an independent
+grammar. USR001 and USR002 both stopped unscored. A conservative one-event,
+one-neighbor inventory finds parser-mapping-preserving attested candidates for
+2,178 residual events, but this is descriptive compatibility inside the same
+partial parser, not a repaired parse. Future surface work must preserve the
+four manual separator states rather than collapsing all of them to spaces.
+
 Confirmed prose grammar (12,092 rows) remains separated from 3,868 diagnostic
 non-prose projections. Across physical loci, 1,305 have identical surfaces in
 all readings, another 466 have identical retained root sequences, 389 agree

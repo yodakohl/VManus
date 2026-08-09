@@ -1,0 +1,65 @@
+{
+  "artifact_sha256": {
+    "experiments/semantic_assumptions/build_unparsed_surface_candidate_lattice.py": "3f121152343e65a5d418e5159e413d30a04b75199d77a141e8b064e1f8ad0b59",
+    "experiments/semantic_assumptions/results/pre_grounding_interlinear.tsv": "8052a51fa37ad467e754be39648336ec4014442dab5e223daab2e77efaba4a43",
+    "experiments/semantic_assumptions/results/pre_grounding_surface_residual_atlas.tsv": "43f145ae81ffbcb78fdb8217c3a45575d427d3211c2252ac94400928ef4f47f3",
+    "experiments/semantic_assumptions/results/unparsed_surface_candidate_lattice.json": "62fe18a37d058c6100dc811aef0294770c5d22d056cb4fac6d6abd47953a0ef6",
+    "experiments/semantic_assumptions/results/unparsed_surface_candidate_lattice.tsv": "2b39b60c3bc4348490bd54a2a1965201e9d9eb625c98c3b5c9736b7f96ab12f1",
+    "experiments/semantic_assumptions/results/unparsed_surface_candidate_lattice_report.md": "9c7e3b1c0893005bea48bb99e95817243461b6621ac2a82178353bae8c57c51a",
+    "experiments/semantic_assumptions/results/unparsed_surface_segmentation.json": "fb003077191a98ef4a8c16b996552ed4fd635f93e1bb26109716f554cf46ea97"
+  },
+  "checks": 22477,
+  "claim_ceiling": "Validation confirms only the arithmetic, serialization, witness provenance, and one-sided frozen-partial-parser compatibility inventory. It does not repair or validate the unavailable parser and establishes no authorial boundary, grammar, morphology, sound, word, plaintext, or meaning.",
+  "direct_witness_contract": {
+    "aggregation": "EXACT_FUSED_SURFACE_THEN_EXISTENTIAL_ANY_COUNTERPART_READING",
+    "exact_surface_keys_with_multiple_counterpart_readings": 56,
+    "exact_surface_source_event_direction_keys": 256,
+    "four_previously_overwritten_y_right_witnesses_present": true,
+    "source_event_direction_keys_before_exact_surface": 253,
+    "source_event_direction_keys_with_multiple_counterpart_readings": 59,
+    "source_events": 312
+  },
+  "english_lexical_glosses": 0,
+  "mutation_guards": {
+    "duplicate_event_rejected": "PASS:duplicate_event:duplicate residual event position",
+    "missing_event_rejected": "PASS:missing_event:residual atlas exact cardinality mismatch",
+    "wrong_position_rejected": "PASS:wrong_position:residual token does not occupy declared position"
+  },
+  "production_claim_sha256": "6543dfe9c3f1af358d1ea0955071b489038daac81a539a446c820f775c528d89",
+  "production_report_sha256": "9c7e3b1c0893005bea48bb99e95817243461b6621ac2a82178353bae8c57c51a",
+  "reconstruction": {
+    "candidate_alternatives": 3189,
+    "events": 3838,
+    "mapping_preserving_has_other_locus_witness": 2100,
+    "mapping_preserving_has_same_edition_witness": 2050,
+    "parser_mapping_changing_attested": 414,
+    "parser_mapping_preserving_attested": 2178,
+    "physical_loci": 1808,
+    "unresolved": 1246,
+    "y": {
+      "both_neutral": 572,
+      "events": 2463,
+      "left_neutral": 1865,
+      "mapping_preserving_by_edition": {
+        "IT2a": 100,
+        "RF1b": 1748,
+        "ZL3b": 269
+      },
+      "mapping_preserving_has_direct_same_locus_witness": 134,
+      "mapping_preserving_has_other_locus_witness": 2058,
+      "mapping_preserving_has_same_edition_witness": 2022,
+      "parser_mapping_changing_attested": 0,
+      "parser_mapping_preserving_attested": 2117,
+      "right_neutral": 824,
+      "unresolved": 346
+    }
+  },
+  "scope_guards": {
+    "adjacent_residual_neighbor_is_excluded": true,
+    "exclusions_are_explicit_in_claim_and_report": true,
+    "no_selected_parse_field": true,
+    "simultaneous_two_sided_fusion_is_excluded": true
+  },
+  "status": "PASS_INDEPENDENT_UNPARSED_SURFACE_CANDIDATE_RECONSTRUCTION",
+  "validator_sha256": "7084136852d851ff9e401fd944a5efa44f1520c33e86f8c72b362db52e553935"
+}
