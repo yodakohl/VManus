@@ -17,6 +17,7 @@ ZL = ROOT / "transcription/sources/ZL3b-n.txt"
 INTER = ROOT / "experiments/semantic_assumptions/results/pre_grounding_interlinear.tsv"
 MANIFEST = HERE / "SOURCE_MANIFEST.tsv"
 PANEL = HERE / "source_panel.tsv"
+BINDING = HERE / "source_unit_binding.tsv"
 CAPACITY = HERE / "source_capacity.json"
 OUT = HERE / "source_validation.json"
 REPORT = ROOT / "experiments/semantic_assumptions/results/sme001_star_morphology_source_validation.md"
@@ -95,6 +96,9 @@ def main() -> None:
     checks.append("panel_exact_rows")
     assert len({(row["page"], row["star_ordinal"]) for row in stored}) == len(stored)
     assert len({row["locus"] for row in stored}) == len(stored)
+    binding = read_tsv(BINDING)
+    assert binding == [{key: row[key] for key in ("page", "physical_folio", "star_ordinal", "locus")} for row in rebuilt]
+    assert not ({"vpos", "core", "paint", "color", "rays", "tail", "observation"} & set(binding[0]))
     checks.append("one_to_one_bindings")
 
     ray = [row for row in stored if row["rays"] in {"7", "8"}]
@@ -117,6 +121,7 @@ def main() -> None:
 
     capacity = json.loads(CAPACITY.read_text(encoding="utf-8"))
     assert capacity["panel_sha256"] == sha(PANEL.read_bytes())
+    assert capacity["source_unit_binding_sha256"] == sha(BINDING.read_bytes())
     assert capacity["ray_7_vs_8"]["decision"] == "PASS_CAPACITY"
     assert capacity["tail_1_vs_2"]["decision"] == "PASS_CAPACITY"
     assert capacity["core_no_vs_dot"]["decision"] == "STOP_ONLY_FOUR_INFORMATIVE_FOLIOS"

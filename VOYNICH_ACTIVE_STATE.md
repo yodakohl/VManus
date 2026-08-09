@@ -3401,14 +3401,24 @@ cores are unknown, never negative. Tail absence is also inadmissible: it is
 almost entirely a page/bifolio property and occurs only once in the strict
 panel.
 
-A nonimporting source reconstruction passes 14/14 checks. No Voynich text
-feature has been opened. The next mandatory action is a target-blind design
-whose null preserves each page's complete morphology sequence and run
-structure, blocks parity and ordinal-gradient artifacts, equalizes physical
-folios, synchronizes alternate readings, and fails on one-folio leverage.
-Even confirmation can establish only a marker-morphology-conditioned formal
-construction, not a ray/tail meaning, recipe class, number, word, lexeme,
-plaintext, language, or translation.
+A nonimporting source reconstruction passes 14/14 checks. A target-blind
+paragraph matrix is now built without joining any morphology value. One of 171
+units, `f106r.27`, is excluded because IT2a omits physical line `f106r.29`
+while ZL3b/RF1b retain it. The remaining 170 units have identical 2--7-line
+physical spans in every reading. Their 510 reading-specific rows contain 34
+fixed opening/paragraph formal measures plus 32 globally supported root-atom
+rates and 18 supported composite root-form rates. Root support was selected in
+all readings before target joining. A nonimporting implementation reconstructs
+all 510 by 84 stored values and the exclusion in 10/10 checks; no morphology
+column occurs in the anonymous binding or matrix.
+
+The next mandatory action is a preregistered target-blind scoring design whose
+null preserves each page's complete morphology sequence and run structure,
+blocks parity and ordinal-gradient artifacts, equalizes physical folios,
+synchronizes alternate readings, and fails on one-folio leverage. Even
+confirmation can establish only a marker-morphology-conditioned construction
+or anonymous root association, not a ray/tail meaning, recipe class, number,
+word meaning, lexeme, plaintext, language, or translation.
 
 A new semantic route needs genuinely independent authorial evidence or a new
 invariant capable of falsifying competing meanings. A new model, crop,

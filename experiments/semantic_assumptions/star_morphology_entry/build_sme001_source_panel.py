@@ -17,6 +17,7 @@ ZL = ROOT / "transcription/sources/ZL3b-n.txt"
 INTER = ROOT / "experiments/semantic_assumptions/results/pre_grounding_interlinear.tsv"
 MANIFEST = HERE / "SOURCE_MANIFEST.tsv"
 PANEL = HERE / "source_panel.tsv"
+BINDING = HERE / "source_unit_binding.tsv"
 RESULT = HERE / "source_capacity.json"
 REPORT = ROOT / "experiments/semantic_assumptions/results/sme001_star_morphology_source_capacity.md"
 
@@ -159,6 +160,12 @@ def main() -> None:
         writer.writeheader()
         writer.writerows(panel)
 
+    binding_fields = ("page", "physical_folio", "star_ordinal", "locus")
+    with BINDING.open("w", encoding="utf-8", newline="") as fh:
+        writer = csv.DictWriter(fh, fieldnames=binding_fields, delimiter="\t", lineterminator="\n")
+        writer.writeheader()
+        writer.writerows({key: row[key] for key in binding_fields} for row in panel)
+
     ray = variation(panel, "rays", {7, 8})
     tail = variation(panel, "tail", {"1", "2"})
     core = variation(panel, "core", {"no", "dot"})
@@ -189,6 +196,7 @@ def main() -> None:
         "tail_1_vs_2": {**tail, "decision": "PASS_CAPACITY"},
         "core_no_vs_dot": {**core, "decision": "STOP_ONLY_FOUR_INFORMATIVE_FOLIOS"},
         "panel_sha256": sha_path(PANEL),
+        "source_unit_binding_sha256": sha_path(BINDING),
         "target_text_features_accessed": False,
         "target_result_absent": not (HERE / "TARGET_RESULT.json").exists(),
         "claim_ceiling": "human star-morphology coordinate and exact ordinal-to-marker source capacity only",
