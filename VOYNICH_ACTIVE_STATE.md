@@ -1245,6 +1245,12 @@ only; it does not predetermine an edge relation or establish an affix,
 circumfix, sound, word, language, cipher operation, meaning, plaintext, or
 translation.
 
+The one authorized target is now separately frozen before target access. It
+must join all 19,203 masked groups by exact consensus-group identity and prefix
+remasking, score the unchanged 14,955-row/94-folio model once, emit aggregates
+only, and close without retuning if any gate fails. No target result exists at
+this registration point.
+
 The first post-reset author-visible relation has now passed. `EAS001` used the
 older text-blind frozen inventory of explicit repeated sectors, bands, rows,
 and apparatus slots; it did not use pixels, OCR, automated vision, semantic
