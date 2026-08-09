@@ -1432,6 +1432,19 @@ class, but does not prove interchangeability, allography, phonology, or
 linguistic morphology. Do not retune the member thresholds or assign sound,
 word, syntax, language, meaning, plaintext, cipher operation, or translation.
 
+A neutral finite-state composition now makes the confirmed graph more
+interpretable without adding or refitting any edge. The six favored edges form
+exactly 13 contiguous paths. They account for 17,335/67,313 prose adjacencies,
+touch 29,143/89,212 family positions, and occur in 11,344/21,899 strict prose
+groups; only 73 entire groups consist solely of one favored path. The striking
+organization is positional: `DAQKJ` occurs 99 times on 35 folios and all 99
+are group-opening substrings; `DAQK` is opening in 958/959 occurrences, and
+`DAQ` in 2,862/2,886. Thus `D-A-Q-K(-J)` is a reusable **opening
+construction**, while the six-edge graph is not a complete group grammar. A
+clean-room 30-check implementation reconstructs all 13 rows and exact output
+bytes. `OPENING` is a physical structural position, not a prefix, word,
+operator, reading direction, sound, meaning, cipher operation, or translation.
+
 The frozen out-of-domain prose-to-diagnostic test is now a strong but formal
 **nonconfirmation**. On 1,382 strict labels/radial/diagram groups, both favored
 and disfavored tails reach the minimum p=1/8192 under both exact-position-
