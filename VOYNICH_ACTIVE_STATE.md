@@ -41,9 +41,15 @@ Updated: 2026-08-09. Read this file first, then
    described as unrelated opaque codebook items.
 3. Physical lines behave as record/utterance-like units. A validated writing-
    order/content coordinate rises within a line and resets at the next line.
-4. Directional formal-state grammar exists. Position-controlled exact local
-   transitions include several D-to-q and E-to-q edges; detached REL_I,
-   FREE_L, and FREE_R completions also occur across ordinary spaces.
+4. Directional formal-state grammar exists. After source-group correction,
+   4,731/4,737 registered hard-edge occurrences directly join adjacent source
+   groups and none is an artificial within-group cleaner boundary; six skip an
+   intervening source group and are excluded. The direct boundaries are 4,699
+   confident apparent spaces, 26 uncertain small spaces, and six drawing
+   interruptions. Position-controlled local transitions include several
+   D-to-q and E-to-q edges; the accurate invariant is a source separator,
+   usually confident, not a universal “mandatory space.” Detached REL_I,
+   FREE_L, and FREE_R completions also occur across source separators.
 5. Bare d/s/t line-entry carriers form a qualified state system. Bare t is
    associated with ZL-editor-marked paragraph openings; bare d/s are associated
    with marked continuations. The association is real, but the boundaries are
@@ -935,18 +941,22 @@ tuple, relation, `word_count`, and exact-space statistics are therefore exact
 only inside a partial formal analysis of the legacy cleaner projection. They
 cannot support exhaustive source-surface absence or universal boundary claims.
 
-The omission mechanism is now characterized more precisely. Exact surface type
-perfectly predicts retention in this frozen parser: 28 types account for all
-3,838 omissions, while 10,881 types are never omitted and no type is partly
-omitted. This is a deterministic parser-coverage hole, not random data loss or
-a newly established manuscript category. Alternate readings with identical
-non-space characters confirm that several affected types participate in mobile
-space decisions: literal `y` has 188 directed fusion events on 128 loci and can
-fuse on either side; `dy` and `ky` have 68/22 events and predominantly lose
-their left boundary. A nonimporting reconstruction passes 30,166 checks. The
-partial parser preserves the adjacent mapping in 130/130 conservative
-single-boundary `y` cases, but that mapping evidence is parser-internal because
-the source is unavailable.
+The former omission mechanism is now corrected against source groups. Exact
+legacy fragment type perfectly predicts retention in the frozen parser, but
+1,801/3,838 “omitted tokens” are fragments created inside one source group by
+the ASCII cleaner. Only 2,037 are complete source groups. For `y`, 1,732/2,463
+legacy residual events are intra-group fragments; 731 are complete
+one-fragment source groups and only 625 have exact raw source spelling `y`.
+Thus the former 28-type deterministic inventory describes the combined
+cleaner/parser pipeline, not a manuscript category.
+
+The direct alternate-reading natural experiments remain largely intact:
+310/312 directed fusion events are source-safe, including 186/188 `y`, all 68
+`dy`, and all 22 `ky` events. The two excluded events are one ZL f89r2.9
+cleaner split of raw `otold[:y]` against IT and RF. The conservative
+mapping-preserving `y` subset is therefore 128/130 rather than 130/130. This
+still supports qualified boundary mobility in human alternate readings, not a
+suffix, authorial space, role, or meaning.
 
 An apparent next route was stopped after restoring separator metadata that the
 normalized `surface` had flattened. In raw manual ZL3b IVTFF, `.` is a
@@ -955,9 +965,12 @@ drawing interruptions. Among 30 parser-free exact-character `y` disagreement
 spans, ZL3b isolates `y` in 28; all 28 already have an explicit uncertain or
 drawing boundary and zero have two confident spaces. Thus a proposed context
 classifier would rediscover transcription confidence, not an independent
-grammar. USR001 and USR002 both stopped unscored. A conservative one-event,
-one-neighbor inventory finds parser-mapping-preserving attested candidates for
-2,178 residual events, but this is descriptive compatibility inside the same
+grammar. USR001 and USR002 both stopped unscored; all 90 reading-specific
+target groups behind USR002 are exact raw one-fragment groups, so that stop is
+unchanged. The former one-neighbor candidate lattice reported 2,178
+parser-mapping-preserving events, but 1,602 are intra-source cleaner fragments.
+Only 576 complete source groups remain in that descriptive class; for `y`, the
+correction is 2,117 to 525. These counts remain compatibility inside the same
 partial parser, not a repaired parse. Future surface work must start from the
 source-group atlas, preserve the four manual separator states, and exclude
 cleaner-created fragment boundaries. The immediate next route is a mechanical
@@ -965,8 +978,10 @@ impact audit that maps every zero/multi-fragment source group through current
 formal features and identifies which old claims remain invariant before any
 new semantic score is permitted.
 
-Confirmed prose grammar (12,092 rows) remains separated from 3,868 diagnostic
-non-prose projections. Across physical loci, 1,305 have identical surfaces in
+The source atlas contains 12,093 confirmed-prose reading rows and 3,892
+diagnostic-nonprose rows. The legacy formal projection contains 12,092 and
+3,868 respectively; one RF prose row and 24 diagnostic rows have no ASCII
+fragment. Across legacy physical loci, 1,305 have identical surfaces in
 all readings, another 466 have identical retained root sequences, 389 agree
 only in retained role sequence, 3,044 disagree more deeply, and 176 are absent
 from at least one reading. The package has zero English lexical glosses and
@@ -976,9 +991,11 @@ the snapshot is byte-frozen but the formal derivation is not currently
 reproducible. Future hypotheses must use the complete source-group atlas plus
 the explicit legacy residual atlas, and treat the existing formal columns as a
 partial projection rather than a complete occurrence inventory. COL001's frozen
-formal-node `i`/`os` counts are unchanged: f2r.15 has no residual and no omitted
-group contains literal `i` or `o`. This does not constrain what a future parser
-might assign to an unparsed group. SME003 remains closed because it failed
+formal-node `i`/`os` counts are unchanged: f2r.15 has no legacy residual and no
+legacy residual fragment contains literal `i` or `o`. This is not a complete
+source-surface absence claim because 173 source groups vanish before that
+legacy layer, and it does not constrain what a future parser might assign to
+an unparsed group. SME003 remains closed because it failed
 target-free calibration before morphology access.
 
 The first post-reset author-visible relation has now passed. `EAS001` used the
