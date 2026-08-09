@@ -1432,6 +1432,22 @@ class, but does not prove interchangeability, allography, phonology, or
 linguistic morphology. Do not retune the member thresholds or assign sound,
 word, syntax, language, meaning, plaintext, cipher operation, or translation.
 
+A new out-of-domain target is now calibrated but remains unopened. It asks
+whether the fixed six-favored/52-disfavored prose graph transfers to strict
+diagnostic labels, radial text, and diagram groups. A target-masked panel has
+1,382 groups / 4,857 noninitial positions on 26 folios and stores metadata and
+length only. Two rotation nulls independently preserve every exact-position
+family marginal within section-kind-length or within the stricter same-folio-
+kind-length strata. Synthetic calibration yields 0/64 position-only false
+passes, 8/8 global graph passes, and 0/8 for each one-section, one-folio, and
+position-chain adversary; null and graph decisions remain unchanged at the
+target-size 8,192 rotations. A clean-room implementation reconstructs all 96
+worlds, both target-size checks, every orbit digest, gate, mutation, and report
+with zero discrepancy. One hash-frozen diagnostic join is authorized after
+publication. Until it runs, shared prose/label graphotactics remain unclaimed.
+Even a pass cannot establish wordhood, object ownership, label meaning,
+picture identity, sound, language, cipher operation, plaintext, or translation.
+
 The first post-reset author-visible relation has now passed. `EAS001` used the
 older text-blind frozen inventory of explicit repeated sectors, bands, rows,
 and apparatus slots; it did not use pixels, OCR, automated vision, semantic
