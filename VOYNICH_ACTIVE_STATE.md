@@ -3296,6 +3296,24 @@ cannot reopen or upgrade F69C001. It authorizes only one explicitly post-hoc
 `ed`-resolved sensitivity calculation to measure whether the disputed surface
 accounts for the failed ranks; no confirmatory or semantic claim can result.
 
+That sensitivity is now exposed and reveals both a strong diagnostic and a
+control-design error. Changing only IT2a f69r.49 from `em` to `ed` moves the
+combined and every individual rank to 1/60; all deletion ranks become
+1, 1, 2, 2, 2, 2 of 12. Every primary and deletion gate passes. The sole
+remaining failed gate is the registered “misalignment” fixture, but its
+one-slot cyclic shift is one of the rotations explicitly quotiented by the
+hypothesis. It preserves every circular adjacency and is therefore not a valid
+negative control. Do not silently remove it or call the exposed sensitivity a
+confirmation.
+
+A corrected post-hoc control is now frozen before its calculation: enumerate
+all 720 IT slot relabelings, exclude the 12 dihedral symmetries, and test all
+708 genuinely adjacency-breaking mappings. Specificity requires the physical
+alignment at rank 1 and no more than 35/708 non-dihedral mappings also at rank
+1, with independent reconstruction. A pass may retain only a strong post-hoc
+structural lead needing a new independent target; no start, surface, sound,
+lexeme, language, plaintext, direction name, or translation can result.
+
 ## Admission rule for new work
 
 A new semantic route needs genuinely independent authorial evidence or a new
