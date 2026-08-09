@@ -1045,6 +1045,20 @@ The registered result is therefore **nonconfirmation**, not a weakened pass.
 Do not retune this first-order support-count test. Retain only the unanimous and
 synchronized source boundaries for the next source-native grammar build.
 
+That source-native build now supplies a confirmed productive edge grammar.
+Without using any complete family form as a feature, a leave-physical-folio-out
+model of only the first one/two families, last one/two families, and length
+distinguishes the first from last synchronized group of a multi-group locus.
+On 970 held loci where at least one complete endpoint form is unseen outside
+the folio, 810/969 non-tied pairs are correctly directed (83.59%), 97/100 folio
+contrasts are positive (exact sign p=1.32e-25), and the equal-folio contrast is
++2.76124 versus +.08623 for length alone. All-three-exact-member, confirmed-
+prose, Currier A/B, and 117 both-endpoints-unseen controls remain positive; the
+last reaches 87.07% on non-tied pairs. A nonimporting validator reconstructs
+the complete score table and result in 531,673 checks. This confirms reusable
+source-native construction-edge information on novel complete forms. `FIRST`
+and `LAST` are structural positions only, not START/STOP words or meanings.
+
 The first post-reset author-visible relation has now passed. `EAS001` used the
 older text-blind frozen inventory of explicit repeated sectors, bands, rows,
 and apparatus slots; it did not use pixels, OCR, automated vision, semantic
