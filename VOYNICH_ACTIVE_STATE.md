@@ -1098,6 +1098,19 @@ authorizes only a separately frozen incremental family-versus-member test; it
 does not reopen allography, establish physical glyph identity, or assign sound,
 alphabet, word, cipher, meaning, plaintext, language, or translation.
 
+That incremental route stopped at its frozen preflight before the 285-locus
+target was scored. On 783 reused-fine calibration loci across 97 folios, the
+conditional member residual is strong in aggregate (+2.85938), improves locus
+accuracy from 79.44% to 84.04%, and gives +.05053 proper log gain with folio
+sign p below 1e-24. However, Currier A proper gain is -.03576 even though its
+raw residual is positive; Currier B is positive. This fails the preregistered
+cross-register gate, so the exact unseen-fine-surface target remains at zero
+scored rows. An independent 15,453-check implementation reconstructs the stop.
+Do not score the target, select member codes, drop Currier A, change the gain
+rule, or weaken the gate. The result suggests fine STA resolution tracks some
+edge structure, but not a register-stable increment beyond the family model at
+this resolution. The next route must leave this endpoint-resolution family.
+
 The first post-reset author-visible relation has now passed. `EAS001` used the
 older text-blind frozen inventory of explicit repeated sectors, bands, rows,
 and apparatus slots; it did not use pixels, OCR, automated vision, semantic

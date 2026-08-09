@@ -472,8 +472,8 @@ is **{calibration_summary['combined_locus_accuracy']:.3%}** versus
 family-only score; folio sign p is
 **{calibration_summary['one_sided_folio_sign_p']:.8f}**.
 
-Decision: **{result['decision']}**. All **{len(gates)}** preflight gates
-{'pass' if passed else 'do not pass'}. The 285-locus unseen-fine-surface target
+Decision: **{result['decision']}**. The full set of **{len(gates)}** preflight gates
+{'passes' if passed else 'does not pass'}. The 285-locus unseen-fine-surface target
 has **zero scored rows** and remains sealed pending independent reconstruction.
 No glyph, allograph, sound, alphabet, word, meaning, plaintext, language,
 cipher, or translation follows.
