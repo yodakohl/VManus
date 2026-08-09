@@ -1457,6 +1457,16 @@ without opening any external context. This authorizes calibration of one
 held-folio context test; it does not yet establish that `DA` is detachable or
 that it has a prefix, word, operator, sound, language, cipher, or meaning.
 
+The separate target-masked context panel now retains the 53 replicated
+`NONE__DA` remainders as 5,826 anonymous rows on all 94 folios. It stores
+locus role and the immediately adjacent strict groups' boundary families, but
+no row operation label. A separate quota table contains 1,763 anonymous
+remainder-folio cells; 197 contain both states and provide 1,207 movable rows.
+All fixed capacity gates pass, and a clean-room 24-check implementation
+reconstructs exact panel/quota/report bytes. This authorizes target-free
+synthetic calibration only. No real operation-to-context association has been
+computed, and no detachment, prefix function, syntax, sound, or meaning follows.
+
 The frozen out-of-domain prose-to-diagnostic test is now a strong but formal
 **nonconfirmation**. On 1,382 strict labels/radial/diagram groups, both favored
 and disfavored tails reach the minimum p=1/8192 under both exact-position-
