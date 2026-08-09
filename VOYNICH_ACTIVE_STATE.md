@@ -4390,6 +4390,37 @@ absent, and target-row, morphology-field, and target-join flags are all false.
 The outcome is method calibration only and says nothing about real star
 morphology, Voynich features, meanings, lexemes, language, or translation.
 
+### Public duplicated-zodiac diagnostic
+
+The duplicated-sign panel is public catalogue evidence, not a user-supplied
+annotation.  The corrected voynich.nu illustration records identify Pisces on
+f70v2, Aries on f70v1 and f71r, Taurus on f71v and f72r1, and the remaining
+eight zodiac signs through f73v.  This is a twelve-page subset of the public
+f67--f73 circle block, which includes f71.
+
+A source-native descriptive audit compares the only three perfect matchings of
+the four 15-figure Aries/Taurus half-pages.  The public duplicate-sign matching
+ranks uniquely first in all 24 edition-by-feature-view comparisons, but these
+are correlated views and the exact layout-preserving minimum p is only 1/3.
+The frozen all-reading absence rule retains two Taurus-pair fragments and no
+Aries fragment.  One member trigram occurs on 72 manuscript pages / 131
+physical loci and is not sign-specific.  The exact whole-group STA-family
+surface `AQJABABA`, rendered `okeodaly` in nearest basic EVA, occurs only on
+f71v and f72r1, once per reading on each page, always in circular text.
+
+Post-result controls do not privilege that repeat.  The public matching yields
+only two rare candidates, versus four and six under the two wrong half-page
+matchings.  A second globally two-page-exclusive whole-group surface,
+`LJABABA` / `sheodaly`, links the public Pisces and Virgo pages, and four
+circular page pairs manuscript-wide have one analogous exclusive repeat.
+An independent implementation reconstructs the complete primary and post-hoc
+objects, exact TSV/reports, 286 two-page-exclusive family surfaces on 278 page
+pairs, all four circular repeats, and two live rejection mutations in 115,489
+checks.  Retain `AQJABABA`/`okeodaly` only as a weak Taurus-scene circular-text
+lead.  It is not TAURUS, a sign name, a word, or a translation.  Any successor
+must test whole circular sequences or pair-level transfer rather than selecting
+another rare fragment from the same four pages.
+
 A new semantic route needs genuinely independent authorial evidence or a new
 invariant capable of falsifying competing meanings. A new model, crop,
 threshold, spelling resemblance, subset, historical analogy, or GPU search is
