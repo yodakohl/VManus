@@ -1128,6 +1128,38 @@ differences physical allographs. The manuscript-wide shared grammar should
 remain at family resolution unless an independently frozen register-specific
 question justifies fine codes.
 
+An external-method audit now adds one strong source-native mechanism while
+correcting its published details. Parisel's May 2026 `cho/che` analysis defines
+a page state from the relative frequency of formal `ch/sh+o` and `ch/sh+e`
+groups. With all four manual separator states preserved, a two-state binomial
+mixture remains sharply separated in every manual reading: fitted high/low
+rates are .675/.155 in ZL, .673/.157 in IT, and .683/.160 in RF, with
+delta-AIC 2,646, 2,622, and 2,548. EM state labels agree across all readings on
+196/200 eligible page sides; the literal threshold labels agree on 197/200.
+These are alternate descriptions of the same manuscript, so this is strong
+transcription robustness rather than three replications. It confirms a formal
+page-level regime that modulates some construction templates and is independent
+of any English gloss.
+
+The exact published implementation is not retained. The paper prints a
+`rate>.5` threshold, but its linked template code uses EM posterior state and
+changes 13/200 assignments in each reading. Its published 31-template table is
+reproduced only by the original parser, which removed `<->` drawing
+interruptions before splitting and concatenated their neighboring groups. The
+repository corrected aligned `<->` breaks one day after the paper version and
+obtained 34 RF templates, but still deletes comma and `<~>` separators. The
+fully source-separated RF inventory is 35 templates, while ZL and IT retain 32
+and 31. The published table itself contains two reverse-rate rows (`shXo`, `otchXy`),
+contradicting its literal zero-reversal and `2^-31` statement. A nonimporting
+implementation reconstructs all three parsers, both state rules, all 1,800 page
+rows, and every template row in 4,735 checks. Retain the two-regime formal
+mechanism; retire the exact 197-page, threshold-equivalence, 31-template
+source-complete, and no-reversal claims. The next distinct question is the
+mechanism's actual scope—page side, paragraph, line block, or physical leaf—
+using source separators and frozen manual layout only. No sound, vowel,
+consonant, word, language, cipher operation, meaning, plaintext, or translation
+follows.
+
 The first post-reset author-visible relation has now passed. `EAS001` used the
 older text-blind frozen inventory of explicit repeated sectors, bands, rows,
 and apparatus slots; it did not use pixels, OCR, automated vision, semantic
