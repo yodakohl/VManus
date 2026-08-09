@@ -3331,6 +3331,26 @@ follows.
 
 ## Admission rule for new work
 
+### Active source-frozen route: alternating star-entry color
+
+SCP001 supplies a new provenance-clean author-visible coordinate. Human page
+descriptions plus direct inspection of both the 2004 and independently
+digitized 2014 scans identify nine final-section pages whose marginal stars
+alternate exactly red/faded-yellow and whose visible-star counts equal the
+retained manual ZL `<%>` marker counts. This gives 120 exact marker-to-line
+bindings on seven physical folios, each with one ZL3b, IT2a, and RF1b row.
+Six otherwise clean-color pages were excluded because visible-star and marker
+counts differ; no proximity repair was used.
+
+Seven pages begin red, while f113r and f114v explicitly begin yellow. Their 28
+reversed-phase rows separate color from simple odd/even ordinal parity. A
+nonimporting source reconstruction passes 13/13 checks. No text feature has
+been accessed. The next authorized action is to freeze and pass anonymous
+controls for a whole-page phase-exchange test using only pre-grounded formal
+grammar features. A pass can establish only a marker-color-conditioned formal
+construction, never a recipe class, number, word, lexeme, plaintext, language,
+or translation.
+
 A new semantic route needs genuinely independent authorial evidence or a new
 invariant capable of falsifying competing meanings. A new model, crop,
 threshold, spelling resemblance, subset, historical analogy, or GPU search is
