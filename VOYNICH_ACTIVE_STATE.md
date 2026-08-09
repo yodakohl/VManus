@@ -1414,6 +1414,24 @@ all-three member-code transitions or are only coarse family effects. Do not
 assign the chain a direction, phonology, morpheme order, syntax, language,
 meaning, plaintext, cipher operation, or translation.
 
+That exact-member refinement is now complete and independently validated. The
+six shells contain 17,335 occurrences, of which 16,876 retain the same two
+adjacent member codes in all three readings across 78--94 folios per shell.
+After conditioning inside each shell on Currier, complete length, exact
+position, held folio, and both orientations, zero of 685 official member pairs
+meets the frozen favored rule and zero meets the disfavored rule. A separate
+implementation reconstructs every event, expected count, Currier and folio
+diagnostic, output row, zero-selection decision, report byte, and four
+mutations in 26,051 checks with zero numeric discrepancy. The strongest
+post-result diagnostics are modest rather than hidden threshold misses (for
+example `Q2>K1` and `P1>K1` are only about 1.3--1.4 times their within-shell
+expectations). Thus the confirmed dependency should remain at STA-family
+resolution: it is not explained by a small set of exact member-code pairings.
+This is compatible with member variants acting within a broader structural
+class, but does not prove interchangeability, allography, phonology, or
+linguistic morphology. Do not retune the member thresholds or assign sound,
+word, syntax, language, meaning, plaintext, cipher operation, or translation.
+
 The first post-reset author-visible relation has now passed. `EAS001` used the
 older text-blind frozen inventory of explicit repeated sectors, bands, rows,
 and apparatus slots; it did not use pixels, OCR, automated vision, semantic
