@@ -3283,6 +3283,19 @@ The six pieces remain `SIX_FRAGMENT_CONSTRUCTION_UNRESOLVED`; no start,
 handedness, sound, word, root, lexeme, language, plaintext, or translation
 follows.
 
+A subsequent post-hoc human transcription QC resolves the physical ambiguity
+more sharply without changing that decision. Direct inspection of the
+separately digitized 2004 and 2014 scans favors `ed` at f69r.49: the second
+component is consistent with the known local `d` after radial rotation, and
+the older scan is compatible. This agrees with the pre-existing exact-locus
+note that René confirmed `ed` against the original manuscript. Retain `ed` as
+the best physical reading and IT2a `em` / ZL3b `eg` as source uncertainty, not
+as independent votes. The source and image provenance reconstructs in 14
+checks. Because this adjudication was prompted by the exposed target, it
+cannot reopen or upgrade F69C001. It authorizes only one explicitly post-hoc
+`ed`-resolved sensitivity calculation to measure whether the disputed surface
+accounts for the failed ranks; no confirmatory or semantic claim can result.
+
 ## Admission rule for new work
 
 A new semantic route needs genuinely independent authorial evidence or a new
