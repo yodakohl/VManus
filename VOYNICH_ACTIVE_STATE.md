@@ -1635,6 +1635,20 @@ gates, and four mutations in 18 checks. No operation row label or target score
 was read. This authorizes target-free calibration only; it does not establish
 a longer dependency or any morphology, meaning, plaintext, or translation.
 
+That second-member calibration has now stopped before the real target. Across
+64 paired null worlds, neither frozen ensemble produced a false positive; all
+32 baseline-only, one-folio, folio-random, and one-base adversarial worlds were
+also rejected. But the intended distributed second-state plant passed only
+1/8 worlds at full strength, below the frozen 6/8 requirement (a representative
+target-sized plant also failed). The status is therefore
+**STOP_UNDERPOWERED_1_OF_8_GLOBAL_SECOND_TARGET_FORBIDDEN**: no source STA prior
+target, real operation label, or target output was opened, and the gates may
+not be weakened after seeing this result. Production-free code independently
+reconstructs all 104 worlds, both null orbits, scores, gates, target-size
+checks, report bytes, and four mutations with zero numeric discrepancy in 17
+checks. The longer-dependency question remains unresolved for lack of power;
+the confirmed immediate literal-`qo` orthotactic compatibility is unchanged.
+
 The frozen out-of-domain prose-to-diagnostic test is now a strong but formal
 **nonconfirmation**. On 1,382 strict labels/radial/diagram groups, both favored
 and disfavored tails reach the minimum p=1/8192 under both exact-position-

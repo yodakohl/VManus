@@ -1,0 +1,72 @@
+{
+  "checks": 17,
+  "claim_ceiling": "Production-free target-free second-member calibration reconstruction only; no longer dependency, morphology, meaning, plaintext, or translation follows.",
+  "counts": {
+    "BASELINE_ONLY": {
+      "passes": 0,
+      "worlds": 8
+    },
+    "FOLIO_RANDOM": {
+      "passes": 0,
+      "worlds": 8
+    },
+    "GLOBAL_SECOND": {
+      "passes": 1,
+      "worlds": 8
+    },
+    "NULL": {
+      "passes": 0,
+      "worlds": 64
+    },
+    "ONE_BASE": {
+      "passes": 0,
+      "worlds": 8
+    },
+    "ONE_FOLIO": {
+      "passes": 0,
+      "worlds": 8
+    }
+  },
+  "english_glosses": 0,
+  "experiment": "SOURCE_NATIVE_OPENING_SECOND_PREFLIGHT_VALIDATION",
+  "failures": [],
+  "future_target_absent": true,
+  "gates": {
+    "at_least_7_of_8_global_second_passes": false,
+    "future_target_absent": true,
+    "mutation_guards": true,
+    "target_size_decisions_match": true,
+    "target_size_global_second_passes": false,
+    "target_size_null_rejects": true,
+    "zero_of_64_null_passes": true,
+    "zero_of_8_baseline_only_passes": true,
+    "zero_of_8_folio_random_passes": true,
+    "zero_of_8_one_base_passes": true,
+    "zero_of_8_one_folio_passes": true
+  },
+  "inputs": {
+    "SOURCE_NATIVE_OPENING_SECOND_PREFLIGHT_SPEC.md": "96a192dc4400643417e10f815dcea3a67abd6b64ab8429096205623f2885aecb",
+    "run_source_native_opening_second_preflight.py": "7e9081cb51b858f0fb11816a3420d6956d87e3957543260eef1ce6ccd06af292",
+    "source_native_opening_context_quotas.tsv": "f062d9ce2935578788f9913d848c6eae2206f685ca9fa8984d29862f01ff339b",
+    "source_native_opening_second_capacity_validation.json": "ac78bb1b6f7a232ecb3415073442188f17f8f976cc718373cc80edde9c3d54b7",
+    "source_native_opening_second_core.py": "514416f974014d6bcd86bb1103fa306dc5c7ce05468d1fdfe1f34102d9c622c9",
+    "source_native_opening_second_masked.tsv": "46f0c8ad22880b870afc54d96852781b4bea9ebdc885dc1164c1da742a7bc581",
+    "source_native_opening_second_preflight.json": "1eadd982f706144c423692e829d0086f57b76f3129b7063b5b781694761e36bb",
+    "source_native_opening_second_preflight_report.md": "ff653debc46fb02fa59470d16bea38de8982f0883806c7be6174b72af24f936c"
+  },
+  "maximum_numeric_delta": 0.0,
+  "mutations": {
+    "eligibility_drift": true,
+    "missing_row": true,
+    "nonbinary": true,
+    "quota_drift": true
+  },
+  "prior_target_artifact_opened": false,
+  "real_operation_labels_accessed": 0,
+  "real_target_scores_computed": 0,
+  "reconstructed_worlds": 104,
+  "source_sta_table_opened": false,
+  "status": "PASS_PRODUCTION_FREE_104_WORLD_SECOND_MEMBER_RECONSTRUCTION",
+  "target_size_checks": 2,
+  "validator_sha256": "5817eea8720277afbe69cd7c4730b283b352eee69944f605fe7023bc57d8c11b"
+}
