@@ -3506,6 +3506,19 @@ joint ray/tail correction, material, common-folio, and deletion gates must all
 pass. Additive impossible paragraph profiles are prohibited as power evidence.
 No morphology source may be opened or hashed during this calibration.
 
+The one-shot SME003 target-free calibration has now **failed before target
+access**. Only 2/64 paired null worlds passed, within the frozen ceiling, and
+the ray-like plants reached 7--8/8 at strength .75 and 8/8 at 1.00. The sparse
+tail-like plants remained underpowered: only 1--3/8 passed at .75 and 4--5/8
+at 1.00, below the required 6/8 for both projection drivers. Ten of 160
+adversarial whole-row cases also violated the required rejection contract,
+including one-folio, one-reading, and opposite-folio-cluster cases. Therefore
+SME003 is closed without opening, hashing, or joining any morphology row. The
+production result awaits full clean-room reconstruction; this pending
+validation does not weaken the fail-closed decision or authorize a target run.
+The outcome is method calibration only and says nothing about real star
+morphology, Voynich features, meanings, lexemes, language, or translation.
+
 A new semantic route needs genuinely independent authorial evidence or a new
 invariant capable of falsifying competing meanings. A new model, crop,
 threshold, spelling resemblance, subset, historical analogy, or GPU search is
