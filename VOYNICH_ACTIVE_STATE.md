@@ -3141,6 +3141,34 @@ raw direction is not a result. This supplies no flower line, lexeme, plant
 name, plaintext, or translation, and the failed production target must not be
 rerun.
 
+### Exact directional label-placement capacity
+
+The existing human exact-locus source admits one new target-blind route after
+an important prescore correction. An exploratory classifier had searched the
+unit description together with the local comment, so page-layout phrases such
+as “nymphs at bottom of page” could masquerade as a label-below relation; it
+also admitted object descriptions such as “roots bent Eastwards.” No Voynich
+feature had been opened. The frozen audit now searches `local_comment` only,
+requires an explicit direction-plus-object clause, rejects mixed-direction
+comments, and matches both classes within the same exact page/panel,
+normalized code, and object-tag set.
+
+Under that rule, **horizontal EAST/WEST placement passes source capacity**:
+57 fully ZL3b/IT2a/RF1b-covered loci, 8 matched exact-page strata, 6 physical
+folios, and 3 code/object contexts. Counts are 39 EAST and 18 WEST; the largest
+folio contributes 23/57 (40.35%), and every folio deletion retains five
+folios. **Vertical ABOVE/BELOW placement stops** at 18 matched loci on only
+four physical folios and two contexts. A nonimporting source reconstruction
+passes 18/18 checks.
+
+This authorizes only a separate target-blind horizontal prescore design. The
+human descriptions establish position, not ownership, and no label is assumed
+to say EAST or WEST. Any later test must permute within exact matched strata,
+cluster/equal-weight physical folios, survive every folio deletion, separate
+length/layout effects, and require replication outside pharmaceutical labels.
+Even a pass would establish at most placement-associated morphology, not a
+direction word, lexeme, plaintext, language, or translation.
+
 ## Admission rule for new work
 
 A new semantic route needs genuinely independent authorial evidence or a new

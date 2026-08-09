@@ -1,0 +1,158 @@
+{
+  "decision": {
+    "admitted_axis": "horizontal",
+    "authorization": "target-blind prescore design only",
+    "claim_ceiling": "capacity for a formal placement-association test; no ownership, direction word, lexeme, plaintext, language, or translation",
+    "stopped_axis": "vertical"
+  },
+  "horizontal": {
+    "admitted": true,
+    "class_counts": {
+      "EAST": 39,
+      "WEST": 18
+    },
+    "classified_rows_without_full_three_reading_coverage": [
+      "f101v2.18",
+      "f2r.14",
+      "f85v2.138",
+      "f85v2.56"
+    ],
+    "context_families": 3,
+    "eligible_source_rows": 398,
+    "explicit_exclusive_classified_rows": 108,
+    "folio_counts": {
+      "f100": 4,
+      "f102": 18,
+      "f68": 3,
+      "f88": 3,
+      "f89": 6,
+      "f99": 23
+    },
+    "fully_covered_classified_rows": 104,
+    "gates": {
+      "all_rows_have_exactly_three_manual_readings": true,
+      "all_strata_same_page_code_object_and_both_classes": true,
+      "at_least_six_physical_folios": true,
+      "at_least_three_code_object_contexts": true,
+      "leave_one_folio_retains_five": true,
+      "maximum_folio_share_at_most_0_45": true
+    },
+    "matched_rows": 57,
+    "matched_strata": 8,
+    "matched_stratum_counts": {
+      "f100r|@Lf|PLANT;LABEL": {
+        "EAST": 3,
+        "WEST": 1
+      },
+      "f102v1|@Lf|PLANT;LABEL": {
+        "EAST": 3,
+        "WEST": 2
+      },
+      "f102v2|@Lf|PLANT;LABEL": {
+        "EAST": 11,
+        "WEST": 2
+      },
+      "f68r1|@Ls|STAR_OR_SKY;LABEL": {
+        "EAST": 2,
+        "WEST": 1
+      },
+      "f88r|@Lc|LABEL": {
+        "EAST": 2,
+        "WEST": 1
+      },
+      "f89r2|@Lf|PLANT;LABEL": {
+        "EAST": 5,
+        "WEST": 1
+      },
+      "f99r|@Lf|PLANT;LABEL": {
+        "EAST": 7,
+        "WEST": 9
+      },
+      "f99v|@Lf|PLANT;LABEL": {
+        "EAST": 6,
+        "WEST": 1
+      }
+    },
+    "maximum_folio_share": 0.40350877192982454,
+    "physical_folios": 6
+  },
+  "inputs": {
+    "experiments/semantic_assumptions/results/existing_human_exact_locus_annotations.tsv": "79c7f06e91f90054aff4cdf27f098a5977d820acdf91f239a14c6ddf553a7f61",
+    "experiments/semantic_assumptions/results/pre_grounding_interlinear.tsv": "8052a51fa37ad467e754be39648336ec4014442dab5e223daab2e77efaba4a43"
+  },
+  "selection_contract": {
+    "certainty": "UNHEDGED",
+    "classification_field": "local_comment",
+    "coverage": [
+      "IT2a",
+      "RF1b",
+      "ZL3b"
+    ],
+    "independence_cluster": "physical folio",
+    "mixed_direction_rows_excluded": true,
+    "relation_scope": "EXACT_LOCAL_COMMENT",
+    "stratum": [
+      "exact page/panel",
+      "exact normalized_code",
+      "exact object_tags"
+    ]
+  },
+  "source_only": true,
+  "status": "PASS_HORIZONTAL_CAPACITY_STOP_VERTICAL_CAPACITY",
+  "vertical": {
+    "admitted": false,
+    "class_counts": {
+      "ABOVE": 7,
+      "BELOW": 11
+    },
+    "classified_rows_without_full_three_reading_coverage": [
+      "f101v2.16",
+      "f84v.50"
+    ],
+    "context_families": 2,
+    "eligible_source_rows": 398,
+    "explicit_exclusive_classified_rows": 60,
+    "folio_counts": {
+      "f100": 3,
+      "f84": 7,
+      "f89": 6,
+      "f99": 2
+    },
+    "fully_covered_classified_rows": 58,
+    "gates": {
+      "all_rows_have_exactly_three_manual_readings": true,
+      "all_strata_same_page_code_object_and_both_classes": true,
+      "at_least_six_physical_folios": false,
+      "at_least_three_code_object_contexts": false,
+      "leave_one_folio_retains_five": false,
+      "maximum_folio_share_at_most_0_45": true
+    },
+    "matched_rows": 18,
+    "matched_strata": 5,
+    "matched_stratum_counts": {
+      "f100r|@Lf|PLANT;LABEL": {
+        "ABOVE": 1,
+        "BELOW": 2
+      },
+      "f84v|+Pb|WATER_OR_APPARATUS;LABEL": {
+        "ABOVE": 3,
+        "BELOW": 4
+      },
+      "f89r1|@Lf|PLANT;LABEL": {
+        "ABOVE": 1,
+        "BELOW": 1
+      },
+      "f89r2|@Lf|PLANT;LABEL": {
+        "ABOVE": 1,
+        "BELOW": 3
+      },
+      "f99v|@Lf|PLANT;LABEL": {
+        "ABOVE": 1,
+        "BELOW": 1
+      }
+    },
+    "maximum_folio_share": 0.3888888888888889,
+    "physical_folios": 4
+  },
+  "voynich_string_features_opened": false
+}
