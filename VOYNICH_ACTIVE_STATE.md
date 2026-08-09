@@ -183,6 +183,18 @@ active pages. The catalogue-level `fRos` record remains a compound-foldout
 case rather than a literal one-page match. The earlier local importer had
 mistakenly omitted the catalogue's entire named `Text` field.
 
+One small production-layer lead is now retained without a lexical gloss.
+The human catalogue has 13 `COL`-classed records on ten pages: twelve are
+plain-alphabet records, including Latin `g` under green paint on f1v, German
+`rot` on f4r, and probable `rot` under paint on f7r. The sole Voynich-script
+record is the under-green-paint candidate `ios an on` at f2r.15. ZL3b and RF1b
+agree on that surface, but IT2a omits it and `ios`/`on` are locus-unique. Thus
+f2r.15 may be a pre-paint green-leaf instruction at whole-record level. There
+is no second Voynich-script colour contrast. No token can be glossed GREEN,
+pigment, or action. The plain notes do not establish that the main-text scribe
+wrote them or that the main text is German. This uses only human descriptions
+and manual transcriptions.
+
 Two older detailed layers are useful but incomplete. Stolfi 25e1 comments give
 a nonexhaustive regex index of 1,099 object-bearing and 93 label-only loci on
 78 pages; absence means unknown. Among 400 unhedged exact-local relation rows,
@@ -3514,8 +3526,15 @@ at 1.00, below the required 6/8 for both projection drivers. Ten of 160
 adversarial whole-row cases also violated the required rejection contract,
 including one-folio, one-reading, and opposite-folio-cluster cases. Therefore
 SME003 is closed without opening, hashing, or joining any morphology row. The
-production result awaits full clean-room reconstruction; this pending
-validation does not weaken the fail-closed decision or authorize a target run.
+complete nonimporting clean-room reconstruction now passes. It independently
+rebuilds all 402 cases: 64 null worlds, 128 power records, 160 whole-row
+controls, ten invariance controls, one complement control, seven leakage
+controls, and 32 reading-dependence controls. Every required stored field and
+the same `FAIL_CLOSE_SME003_BEFORE_TARGET` decision match exactly. Two
+validator-only corrections aligned formula-equivalent floating-point reduction
+order with the frozen producer; targeted baseline, planted, and adversarial
+checkpoints passed before the full rerun. Registered target artifacts remained
+absent, and target-row, morphology-field, and target-join flags are all false.
 The outcome is method calibration only and says nothing about real star
 morphology, Voynich features, meanings, lexemes, language, or translation.
 

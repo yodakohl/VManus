@@ -16,6 +16,7 @@ full-orbit scores, gates, and controls have been independently reconstructed.
 from __future__ import annotations
 
 import argparse
+from concurrent.futures import ProcessPoolExecutor
 import csv
 import hashlib
 import json
@@ -166,6 +167,13 @@ class MatrixTransforms:
     folds: dict[tuple[str, str], FoldTransform]
     all_folio_residuals: dict[str, np.ndarray]
     all_folio_standardized: dict[str, np.ndarray]
+
+
+_WORKER_UNIVERSE: Universe | None = None
+_WORKER_ROTATIONS: Mapping[str, np.ndarray] | None = None
+_WORKER_WORLDS: Mapping[int, Mapping[str, np.ndarray]] | None = None
+_WORKER_LABEL_RECORDS: Sequence[Mapping[str, Any]] | None = None
+_WORKER_BASELINE_PROJECTION: np.ndarray | None = None
 
 
 def verify_frozen_sources() -> dict[str, str]:
@@ -744,86 +752,151 @@ def realized_driver_rms(matrix: np.ndarray, labels: np.ndarray, selected: Sequen
     return result
 
 
-def contrast_coefficients(rotated: np.ndarray, pages: Sequence[str], universe: Universe) -> dict[str, np.ndarray]:
-    result: dict[str, np.ndarray] = {}
-    for page in pages:
-        idx = universe.page_indices[page]
-        labels = rotated[:, idx]
-        high = labels == "H"
-        low = labels == "L"
-        nh = np.sum(high, axis=1)
-        nl = np.sum(low, axis=1)
-        require(np.all(nh > 0) and np.all(nl > 0), f"rotation lost informative states on {page}")
-        result[page] = high / nh[:, None] - low / nl[:, None]
-    return result
-
-
 def target_pages(labels: np.ndarray, universe: Universe) -> tuple[tuple[str, ...], tuple[str, ...]]:
     pages = informative_pages(labels, universe)
     folios = tuple(sorted({page[:-1] for page in pages}))
     return pages, folios
 
 
-def score_target(
-    labels: np.ndarray,
+def score_ensemble(
+    labels_pair: Mapping[str, np.ndarray],
     rotations: np.ndarray,
     transforms: MatrixTransforms,
     universe: Universe,
-) -> tuple[
-    dict[str, np.ndarray],
-    dict[str, dict[str, float]],
-    dict[str, dict[str, float]],
-    dict[str, dict[str, np.ndarray]],
-    dict[str, dict[str, np.ndarray]],
-]:
-    rotated = rotate_labels(labels, rotations, universe)
-    info_pages, info_folios = target_pages(labels, universe)
-    coeff = contrast_coefficients(rotated, info_pages, universe)
-    t_by_edition = {edition: np.zeros(N_ASSIGN, dtype=np.float64) for edition in EDITIONS}
-    identity_contrib: dict[str, dict[str, float]] = {edition: {} for edition in EDITIONS}
-    deletion_t: dict[str, dict[str, float]] = {edition: {} for edition in EDITIONS}
-    contribution_orbits: dict[str, dict[str, np.ndarray]] = {edition: {} for edition in EDITIONS}
-    deletion_orbits: dict[str, dict[str, np.ndarray]] = {edition: {} for edition in EDITIONS}
+) -> dict[str, Any]:
+    require(tuple(labels_pair) == TARGETS, "target order mismatch")
+    n_assignments = len(rotations)
+    p = len(transforms.eligible)
+    require(p == 83, "SME003 scorer requires the exact 83-feature coordinate")
+    page_index = {page: index for index, page in enumerate(PAGE_ORDER)}
+    folio_index = {folio: index for index, folio in enumerate(FOLIOS)}
 
-    # Retain identity fold deltas so deletion can refit every label-dependent
-    # training average while keeping the already fitted coordinates fixed.
-    fold_delta: dict[tuple[str, str], dict[str, np.ndarray]] = {}
-    for held in info_folios:
-        for edition in EDITIONS:
-            transform = transforms.folds[(held, edition)]
-            page_delta = {page: coeff[page] @ transform.standardized[universe.page_indices[page]] for page in info_pages}
-            folio_delta: dict[str, np.ndarray] = {}
-            for folio in info_folios:
-                pages = [page for page in info_pages if page[:-1] == folio]
-                folio_delta[folio] = np.mean(np.stack([page_delta[page] for page in pages], axis=0), axis=0)
-            held_delta = folio_delta[held]
-            train_direction = np.mean(np.stack([folio_delta[g] for g in info_folios if g != held], axis=0), axis=0)
-            contribution = np.einsum("ni,ij,nj->n", held_delta, transform.weight, train_direction, optimize=True) / len(transforms.eligible)
-            t_by_edition[edition] += contribution / len(info_folios)
-            identity_contrib[edition][held] = float(contribution[0])
-            contribution_orbits[edition][held] = contribution
-            fold_delta[(held, edition)] = folio_delta
+    # Match the frozen producer's small possible-shift tables exactly.  A
+    # direct 8,192-row coefficient matmul is algebraically equivalent but can
+    # select a different BLAS reduction path and therefore different bytes.
+    contrast_tables: list[np.ndarray] = []
+    for page in PAGE_ORDER:
+        positions = universe.page_indices[page]
+        page_length = len(positions)
+        shifts = np.arange(page_length, dtype=np.int64)
+        source = (
+            np.arange(page_length, dtype=np.int64)[None, :]
+            - shifts[:, None]
+        ) % page_length
+        table = np.zeros((len(TARGETS), page_length, page_length), dtype=np.float64)
+        for target_index, target in enumerate(TARGETS):
+            rotated = labels_pair[target][positions][source]
+            low_count = np.sum(rotated == "L", axis=1)
+            high_count = np.sum(rotated == "H", axis=1)
+            local = np.zeros_like(rotated, dtype=np.float64)
+            informative = (low_count > 0) & (high_count > 0)
+            if np.any(informative):
+                local[informative] = (
+                    (rotated[informative] == "H") / high_count[informative, None]
+                    - (rotated[informative] == "L") / low_count[informative, None]
+                )
+            table[target_index] = local
+        contrast_tables.append(table)
 
-    for deleted in info_folios:
-        remaining = [folio for folio in info_folios if folio != deleted]
-        require(len(remaining) >= 2, "deletion leaves fewer than two folios")
+    page_delta_cache: dict[tuple[str, str], tuple[np.ndarray, ...]] = {}
+    for held_folio in FOLIOS:
         for edition in EDITIONS:
-            contrib: list[np.ndarray] = []
-            for held in remaining:
-                vectors = fold_delta[(held, edition)]
-                train = np.mean(np.stack([vectors[g] for g in remaining if g != held], axis=0), axis=0)
-                value = np.einsum(
-                    "ni,ij,nj->n",
-                    vectors[held],
-                    transforms.folds[(held, edition)].weight,
-                    train,
-                    optimize=True,
-                ) / len(transforms.eligible)
-                contrib.append(value)
-            deletion = np.mean(np.stack(contrib, axis=0), axis=0)
-            deletion_orbits[edition][deleted] = deletion
-            deletion_t[edition][deleted] = float(deletion[0])
-    return t_by_edition, identity_contrib, deletion_t, contribution_orbits, deletion_orbits
+            standardized = transforms.folds[(held_folio, edition)].standardized
+            page_delta_cache[(held_folio, edition)] = tuple(
+                contrast_tables[index] @ standardized[universe.page_indices[page]]
+                for index, page in enumerate(PAGE_ORDER)
+            )
+
+    t_array = np.empty((len(TARGETS), len(EDITIONS), n_assignments), dtype=np.float64)
+    contribution_array = np.full(
+        (len(TARGETS), len(EDITIONS), n_assignments, len(FOLIOS)),
+        np.nan,
+        dtype=np.float64,
+    )
+    deletion_array = np.full_like(contribution_array, np.nan)
+    support: dict[str, tuple[tuple[str, ...], tuple[str, ...]]] = {}
+    for target_index, target in enumerate(TARGETS):
+        info_pages, info_folios = target_pages(labels_pair[target], universe)
+        support[target] = (info_pages, info_folios)
+        k_folios = len(info_folios)
+        deletion_sums = np.zeros(
+            (len(EDITIONS), n_assignments, k_folios), dtype=np.float64
+        )
+        for held_index, held_folio in enumerate(info_folios):
+            for edition_index, edition in enumerate(EDITIONS):
+                page_delta_tables = page_delta_cache[(held_folio, edition)]
+                deltas = np.empty(
+                    (n_assignments, k_folios, p), dtype=np.float64
+                )
+                for source_index, source_folio in enumerate(info_folios):
+                    source_pages = [
+                        page for page in info_pages if page[:-1] == source_folio
+                    ]
+                    source_delta = np.zeros(
+                        (n_assignments, p), dtype=np.float64
+                    )
+                    for page in source_pages:
+                        index = page_index[page]
+                        source_delta += page_delta_tables[index][
+                            target_index,
+                            rotations[:, index].astype(np.int64),
+                            :,
+                        ]
+                    deltas[:, source_index, :] = source_delta / len(source_pages)
+                total_direction = np.sum(deltas, axis=1)
+                held_vector = deltas[:, held_index, :]
+                training_direction = (
+                    total_direction - held_vector
+                ) / (k_folios - 1)
+                held_weighted = held_vector @ transforms.folds[
+                    (held_folio, edition)
+                ].weight
+                held_contribution = np.sum(
+                    held_weighted * training_direction, axis=1
+                ) / p
+                contribution_array[
+                    target_index,
+                    edition_index,
+                    :,
+                    folio_index[held_folio],
+                ] = held_contribution
+                for deleted_index in range(k_folios):
+                    if deleted_index == held_index:
+                        continue
+                    reduced_direction = (
+                        total_direction
+                        - held_vector
+                        - deltas[:, deleted_index, :]
+                    ) / (k_folios - 2)
+                    deletion_sums[
+                        edition_index, :, deleted_index
+                    ] += np.sum(
+                        held_weighted * reduced_direction, axis=1
+                    ) / p
+        selected_folios = [folio_index[folio] for folio in info_folios]
+        for edition_index in range(len(EDITIONS)):
+            target_contributions = contribution_array[
+                target_index, edition_index
+            ][:, selected_folios]
+            t_array[target_index, edition_index] = np.mean(
+                target_contributions, axis=1
+            )
+            for deleted_index, deleted_folio in enumerate(info_folios):
+                deletion_array[
+                    target_index,
+                    edition_index,
+                    :,
+                    folio_index[deleted_folio],
+                ] = deletion_sums[
+                    edition_index, :, deleted_index
+                ] / (k_folios - 1)
+    require(np.all(np.isfinite(t_array)), "nonfinite cross-folio T")
+    return {
+        "T": t_array,
+        "contributions": contribution_array,
+        "deletions": deletion_array,
+        "support": support,
+    }
 
 
 def orientation(labels: np.ndarray, transforms: MatrixTransforms, universe: Universe) -> tuple[dict[str, np.ndarray], dict[str, float]]:
@@ -835,7 +908,16 @@ def orientation(labels: np.ndarray, transforms: MatrixTransforms, universe: Univ
         for page in pages:
             idx = universe.page_indices[page]
             page_labels = labels[idx]
-            page_vectors[page] = np.mean(z[idx][page_labels == "H"], axis=0) - np.mean(z[idx][page_labels == "L"], axis=0)
+            high = page_labels == "H"
+            low = page_labels == "L"
+            coefficient = (
+                high / np.sum(high)
+                - low / np.sum(low)
+            )
+            # Preserve the frozen producer's coefficient-vector matmul order.
+            # Directly subtracting the two means is algebraically equivalent
+            # but changes low bits and therefore the mandatory byte digest.
+            page_vectors[page] = coefficient @ z[idx]
         folio_vectors = []
         for folio in folios:
             selected = [page_vectors[page] for page in pages if page[:-1] == folio]
@@ -871,46 +953,119 @@ def evaluate_matrix(
     numeric_ensembles: dict[str, Any] = {}
     target_decision: dict[str, list[bool]] = {target: [] for target in TARGETS}
     for ensemble in ENSEMBLES:
-        raw_t: dict[str, dict[str, np.ndarray]] = {}
-        contributions: dict[str, dict[str, dict[str, float]]] = {}
-        deletions: dict[str, dict[str, dict[str, float]]] = {}
+        score = score_ensemble(
+            labels_pair, rotations[ensemble], transforms, universe
+        )
+        t_array = score["T"]
+        means = np.mean(t_array, axis=2, keepdims=True)
+        standard_deviations = np.std(
+            t_array, axis=2, ddof=0, keepdims=True
+        )
+        require(
+            np.all(np.isfinite(standard_deviations))
+            and np.all(standard_deviations > NUM_TOL),
+            "zero/nonfinite null SD",
+        )
+        z_array = (t_array - means) / standard_deviations
+        r_array = np.min(z_array, axis=1)
+        family_m = np.max(r_array, axis=0)
+        raw_t = {
+            target: {
+                edition: t_array[target_index, edition_index]
+                for edition_index, edition in enumerate(EDITIONS)
+            }
+            for target_index, target in enumerate(TARGETS)
+        }
+        z = {
+            target: {
+                edition: z_array[target_index, edition_index]
+                for edition_index, edition in enumerate(EDITIONS)
+            }
+            for target_index, target in enumerate(TARGETS)
+        }
+        r = {
+            target: r_array[target_index]
+            for target_index, target in enumerate(TARGETS)
+        }
         contribution_orbits: dict[str, dict[str, dict[str, np.ndarray]]] = {}
         deletion_orbits: dict[str, dict[str, dict[str, np.ndarray]]] = {}
-        for target in TARGETS:
-            (
-                raw_t[target],
-                contributions[target],
-                deletions[target],
-                contribution_orbits[target],
-                deletion_orbits[target],
-            ) = score_target(labels_pair[target], rotations[ensemble], transforms, universe)
+        contributions: dict[str, dict[str, dict[str, float]]] = {}
+        deletions: dict[str, dict[str, dict[str, float]]] = {}
+        folio_index = {folio: index for index, folio in enumerate(FOLIOS)}
+        for target_index, target in enumerate(TARGETS):
+            info_folios = score["support"][target][1]
+            contribution_orbits[target] = {
+                edition: {
+                    folio: score["contributions"][
+                        target_index, edition_index, :, folio_index[folio]
+                    ]
+                    for folio in info_folios
+                }
+                for edition_index, edition in enumerate(EDITIONS)
+            }
+            deletion_orbits[target] = {
+                edition: {
+                    folio: score["deletions"][
+                        target_index, edition_index, :, folio_index[folio]
+                    ]
+                    for folio in info_folios
+                }
+                for edition_index, edition in enumerate(EDITIONS)
+            }
+            contributions[target] = {
+                edition: {
+                    folio: float(values[0])
+                    for folio, values in contribution_orbits[target][edition].items()
+                }
+                for edition in EDITIONS
+            }
+            deletions[target] = {
+                edition: {
+                    folio: float(values[0])
+                    for folio, values in deletion_orbits[target][edition].items()
+                }
+                for edition in EDITIONS
+            }
 
-        z: dict[str, dict[str, np.ndarray]] = {}
-        r: dict[str, np.ndarray] = {}
-        for target in TARGETS:
-            z[target] = {}
-            for edition in EDITIONS:
-                values = raw_t[target][edition]
-                sd = float(np.std(values, ddof=0))
-                require(math.isfinite(sd) and sd > NUM_TOL, "zero/nonfinite null SD")
-                z[target][edition] = (values - float(np.mean(values))) / sd
-            r[target] = np.min(np.stack([z[target][edition] for edition in EDITIONS], axis=0), axis=0)
-        family_m = np.max(np.stack([r[target] for target in TARGETS], axis=0), axis=0)
+        raw_array = t_array[:, :, 0]
+        material_array = np.sign(raw_array) * np.sqrt(np.abs(raw_array))
         targets_record: dict[str, Any] = {}
-        for target in TARGETS:
-            pvalue = float((1 + np.count_nonzero(family_m[1:] >= r[target][0] - TAIL_TOL)) / N_ASSIGN)
-            identity_t = {edition: float(raw_t[target][edition][0]) for edition in EDITIONS}
-            identity_z = {edition: float(z[target][edition][0]) for edition in EDITIONS}
-            material = {edition: math.copysign(math.sqrt(abs(value)), value) if value != 0.0 else 0.0 for edition, value in identity_t.items()}
-            common = [folio for folio in target_pages(labels_pair[target], universe)[1] if all(contributions[target][edition][folio] > NUM_TOL for edition in EDITIONS)]
+        for target_index, target in enumerate(TARGETS):
+            pvalue = float((1 + np.count_nonzero(
+                family_m[1:] >= r_array[target_index, 0] - TAIL_TOL
+            )) / len(rotations[ensemble]))
+            identity_t = {
+                edition: float(raw_array[target_index, edition_index])
+                for edition_index, edition in enumerate(EDITIONS)
+            }
+            identity_z = {
+                edition: float(z_array[target_index, edition_index, 0])
+                for edition_index, edition in enumerate(EDITIONS)
+            }
+            material = {
+                edition: float(material_array[target_index, edition_index])
+                for edition_index, edition in enumerate(EDITIONS)
+            }
+            info_folios = score["support"][target][1]
+            common = [
+                folio for folio in info_folios
+                if np.all(score["contributions"][
+                    target_index, :, 0, folio_index[folio]
+                ] > NUM_TOL)
+            ]
             required_support = 5 if target == "RAY_LIKE" else 4
             gates = {
-                "family_p": pvalue <= 0.05 + NUM_TOL,
-                "all_t_positive": all(value > NUM_TOL for value in identity_t.values()),
-                "material": min(material.values()) >= 0.05 - NUM_TOL,
+                "family_p": pvalue <= 0.05,
+                "all_t_positive": bool(np.all(raw_array[target_index] > NUM_TOL)),
+                "material": bool(np.min(material_array[target_index]) >= 0.05 - NUM_TOL),
                 "orientation": all(value >= 0.10 - NUM_TOL for value in orientation_data[target]["cosines"].values()),
                 "common_support": len(common) >= required_support,
-                "deletion": all(value > NUM_TOL for edition in EDITIONS for value in deletions[target][edition].values()),
+                "deletion": bool(np.all(np.asarray([
+                    score["deletions"][
+                        target_index, :, 0, folio_index[folio]
+                    ]
+                    for folio in info_folios
+                ]) > NUM_TOL)),
             }
             passed = all(gates.values())
             target_decision[target].append(passed)
@@ -920,7 +1075,7 @@ def evaluate_matrix(
                 "R_sha256": f8_digest(r[target]),
                 "identity_T": identity_t,
                 "identity_z": identity_z,
-                "identity_R": float(r[target][0]),
+                "identity_R": float(r_array[target_index, 0]),
                 "p": pvalue,
                 "A": material,
                 "identity_contributions": contributions[target],
@@ -1027,6 +1182,592 @@ def invariance_comparison(
     }
 
 
+def initialize_reconstruction_worker(
+    universe: Universe,
+    rotations: Mapping[str, np.ndarray],
+    worlds: Mapping[int, Mapping[str, np.ndarray]],
+    label_records: Sequence[Mapping[str, Any]],
+) -> None:
+    """Bind target-free immutable state once per worker."""
+    global _WORKER_UNIVERSE, _WORKER_ROTATIONS, _WORKER_WORLDS
+    global _WORKER_LABEL_RECORDS, _WORKER_BASELINE_PROJECTION
+    for name in ("OPENBLAS_NUM_THREADS", "OMP_NUM_THREADS", "MKL_NUM_THREADS"):
+        require(os.environ.get(name) == "1", f"worker numeric environment is not pinned: {name}")
+    _WORKER_UNIVERSE = universe
+    _WORKER_ROTATIONS = rotations
+    _WORKER_WORLDS = worlds
+    _WORKER_LABEL_RECORDS = label_records
+    _WORKER_BASELINE_PROJECTION = None
+
+
+def worker_context() -> tuple[
+    Universe,
+    Mapping[str, np.ndarray],
+    Mapping[int, Mapping[str, np.ndarray]],
+    Sequence[Mapping[str, Any]],
+]:
+    require(_WORKER_UNIVERSE is not None, "reconstruction worker universe is unbound")
+    require(_WORKER_ROTATIONS is not None, "reconstruction worker rotations are unbound")
+    require(_WORKER_WORLDS is not None, "reconstruction worker worlds are unbound")
+    require(_WORKER_LABEL_RECORDS is not None, "reconstruction worker labels are unbound")
+    return (
+        _WORKER_UNIVERSE,
+        _WORKER_ROTATIONS,
+        _WORKER_WORLDS,
+        _WORKER_LABEL_RECORDS,
+    )
+
+
+def worker_baseline_projection(universe: Universe) -> np.ndarray:
+    global _WORKER_BASELINE_PROJECTION
+    if _WORKER_BASELINE_PROJECTION is None:
+        _WORKER_BASELINE_PROJECTION = all_folio_projection(
+            build_transforms(universe.values, universe)
+        )
+    return _WORKER_BASELINE_PROJECTION
+
+
+def reconstruct_null_record(world: int) -> dict[str, Any]:
+    universe, rotations, worlds, label_records = worker_context()
+    checkpoint = evaluate_matrix(universe.values, worlds[world], rotations, universe)
+    return {
+        "world": world,
+        "label_sha256": label_records[world]["paired_sha256"],
+        "evaluation": checkpoint,
+        "union_pass": bool(any(checkpoint["complete_dual_ensemble_pass"].values())),
+    }
+
+
+def reconstruct_power_record(
+    target: str,
+    driver: str,
+    strength: float,
+    world: int,
+) -> dict[str, Any]:
+    universe, rotations, worlds, label_records = worker_context()
+    labels = worlds[world][target]
+    planted, plant_stats = ordinary_plant(
+        universe.values, labels, world, target, driver, strength, universe
+    )
+    checkpoint = evaluate_matrix(planted, worlds[world], rotations, universe)
+    complete = bool(checkpoint["complete_dual_ensemble_pass"][target])
+    return {
+        "world": world,
+        "target": target,
+        "driver": driver,
+        "strength": strength,
+        "label_sha256": label_records[world]["paired_sha256"],
+        "plant": plant_stats,
+        "realized_D_rms": realized_driver_rms(
+            planted, labels, plant_stats["driver_features"], universe
+        ),
+        "evaluation": checkpoint,
+        "target_complete_pass": complete,
+    }
+
+
+def reconstruct_whole_row_record(
+    kind: str,
+    target: str,
+    driver: str,
+    world: int,
+) -> dict[str, Any]:
+    universe, rotations, worlds, label_records = worker_context()
+    labels = worlds[world][target]
+    info_folios = list(target_pages(labels, universe)[1])
+    if kind == "ONE_FOLIO":
+        chosen = rank_items(world, f"CONTROL_ONE_FOLIO|{target}", info_folios)[0]
+        planted, stats = ordinary_plant(
+            universe.values,
+            labels,
+            world,
+            target,
+            driver,
+            1.0,
+            universe,
+            only_folios={chosen},
+        )
+        stats["selected_folio"] = chosen
+    elif kind == "ONE_READING":
+        planted, stats = ordinary_plant(
+            universe.values,
+            labels,
+            world,
+            target,
+            driver,
+            1.0,
+            universe,
+            editions=(0,),
+        )
+    elif kind == "REVERSAL":
+        projection, selected, signs = projection_values(
+            worker_baseline_projection(universe), world, target, driver, universe
+        )
+        info_pages = set(informative_pages(labels, universe))
+        forward_maps = {
+            page: page_swap_trace(labels, projection, page, universe)
+            if page in info_pages else []
+            for page in PAGE_ORDER
+        }
+        reverse_maps = {
+            page: page_swap_trace(labels, -projection, page, universe)
+            if page in info_pages else []
+            for page in PAGE_ORDER
+        }
+        planted, stats_forward = apply_mapping(
+            universe.values, forward_maps, 1.0, editions=(0, 1)
+        )
+        planted, stats_reverse = apply_mapping(
+            planted, reverse_maps, 1.0, editions=(2,)
+        )
+        stats = {
+            "driver_features": list(selected),
+            "driver_feature_sha256": text_digest(f"{item}\n" for item in selected),
+            "driver_sign_sha256": f8_digest(signs),
+            "forward_mapping_sha256": canonical_json_digest({
+                page: [[a, b, gain] for a, b, gain in forward_maps[page]]
+                for page in PAGE_ORDER
+            }),
+            "reverse_mapping_sha256": canonical_json_digest({
+                page: [[a, b, gain] for a, b, gain in reverse_maps[page]]
+                for page in PAGE_ORDER
+            }),
+            "forward": stats_forward,
+            "reverse": stats_reverse,
+        }
+    elif kind == "FOLIO_RANDOM":
+        planted = np.array(universe.values, copy=True)
+        mapping_digest: dict[str, str] = {}
+        total_stats: dict[str, Any] = {}
+        selected = driver_features(world, target, driver, universe)
+        info_pages = set(informative_pages(labels, universe))
+        for folio in info_folios:
+            projection, _features, _signs = projection_values(
+                worker_baseline_projection(universe),
+                world,
+                target,
+                driver,
+                universe,
+                folio_random=folio,
+            )
+            maps = {
+                page: page_swap_trace(labels, projection, page, universe)
+                if page[:-1] == folio and page in info_pages else []
+                for page in PAGE_ORDER
+            }
+            planted, stat = apply_mapping(planted, maps, 1.0)
+            mapping_digest[folio] = canonical_json_digest({
+                page: [[a, b, gain] for a, b, gain in maps[page]]
+                for page in PAGE_ORDER
+            })
+            total_stats[folio] = stat
+        stats = {
+            "driver_features": list(selected),
+            "folio_mapping_sha256": mapping_digest,
+            "folio_stats": total_stats,
+        }
+    elif kind == "OPPOSITE_CLUSTER":
+        ordered = rank_items(world, f"CONTROL_CLUSTER|{target}", info_folios)
+        forward_count = 4 if target == "RAY_LIKE" else 3
+        reverse = set(ordered[forward_count:])
+        planted, stats = ordinary_plant(
+            universe.values,
+            labels,
+            world,
+            target,
+            driver,
+            1.0,
+            universe,
+            reverse_folios=reverse,
+        )
+        stats["ordered_folios"] = ordered
+        stats["reverse_folios"] = sorted(reverse)
+    else:
+        raise ValidationError(f"unknown whole-row control: {kind}")
+
+    checkpoint = evaluate_matrix(planted, worlds[world], rotations, universe)
+    rejected = not bool(checkpoint["complete_dual_ensemble_pass"][target])
+    if kind == "ONE_FOLIO":
+        required_rejection = all(
+            (not checkpoint["ensembles"][ensemble]["targets"][target]["gates"]["common_support"])
+            or (not checkpoint["ensembles"][ensemble]["targets"][target]["gates"]["deletion"])
+            for ensemble in ENSEMBLES
+        )
+    elif kind in ("ONE_READING", "REVERSAL"):
+        required_rejection = all(
+            any(
+                not checkpoint["ensembles"][ensemble]["targets"][target]["gates"][gate]
+                for gate in ("all_t_positive", "material", "orientation")
+            )
+            for ensemble in ENSEMBLES
+        )
+    else:
+        required_rejection = rejected
+    return {
+        "kind": kind,
+        "target": target,
+        "driver": driver,
+        "world": world,
+        "label_sha256": label_records[world]["paired_sha256"],
+        "plant": stats,
+        "evaluation": checkpoint,
+        "target_rejected": rejected,
+        "required_rejection_gate_failed": required_rejection,
+    }
+
+
+def reconstruct_invariance_record(kind: str) -> dict[str, Any]:
+    universe, rotations, worlds, _label_records = worker_context()
+    labels_pair = worlds[0]
+    baseline, baseline_numeric = evaluate_matrix(
+        universe.values, labels_pair, rotations, universe, return_internal=True
+    )
+    if kind in ("ABS_CUBIC", "REL_CUBIC", "PARITY", "EARLY", "QUARTER_1", "QUARTER_2", "QUARTER_3"):
+        basis = positional_basis(universe, kind)
+        features = [item for item in universe.eligible if item != "PARA_WORD_COUNT"]
+        modified = add_page_centered_component(
+            universe.values,
+            basis,
+            0.5,
+            f"CONTROL_NUISANCE|{kind}",
+            universe,
+            features,
+        )
+        tolerance = 1e-10
+    elif kind in ("LENGTH_LINEAR", "LENGTH_CUBIC"):
+        power = 1 if kind == "LENGTH_LINEAR" else 3
+        modified = np.array(universe.values, copy=True)
+        wc = universe.values[:, :, universe.feature_index["PARA_WORD_COUNT"]]
+        for eidx in range(3):
+            basis = centered_by_page(
+                (np.log1p(wc[eidx]) ** power)[:, None], universe
+            )[:, 0]
+            rms = math.sqrt(float(np.mean(basis * basis)))
+            require(rms > NUM_TOL, "zero word-count control RMS")
+            for feature in universe.root:
+                sign = 1.0 if synth_digest(
+                    0, f"CONTROL_LENGTH|{kind}", feature
+                )[-1] & 1 else -1.0
+                amplitude = 0.5 * response_page_centered_rms(
+                    universe.values, eidx, feature, universe
+                )
+                modified[eidx, :, universe.feature_index[feature]] += (
+                    sign * amplitude * basis / rms
+                )
+        tolerance = 1e-10
+    elif kind == "PAGE_CONSTANT":
+        modified = np.array(universe.values, copy=True)
+        for eidx in range(3):
+            for page in PAGE_ORDER:
+                idx = universe.page_indices[page]
+                for feature in [item for item in universe.eligible if item != "PARA_WORD_COUNT"]:
+                    sign = 1.0 if synth_digest(
+                        0, f"CONTROL_PAGE_CONSTANT|{page}", feature
+                    )[-1] & 1 else -1.0
+                    rms = response_page_centered_rms(
+                        universe.values, eidx, feature, universe
+                    )
+                    modified[eidx, idx, universe.feature_index[feature]] += (
+                        0.10 * sign * rms
+                    )
+        tolerance = 1e-12
+    else:
+        raise ValidationError(f"unknown invariance control: {kind}")
+    evaluation, numeric = evaluate_matrix(
+        modified, labels_pair, rotations, universe, return_internal=True
+    )
+    comparison = invariance_comparison(
+        baseline, baseline_numeric, evaluation, numeric, tolerance
+    )
+    return {
+        "kind": kind,
+        "world": 0,
+        "matrix_sha256": matrix_digest(modified),
+        "evaluation": evaluation,
+        "invariance": comparison,
+    }
+
+
+def reconstruct_complement_record() -> dict[str, Any]:
+    universe, rotations, worlds, _label_records = worker_context()
+    labels_pair = worlds[0]
+    baseline, baseline_numeric = evaluate_matrix(
+        universe.values, labels_pair, rotations, universe, return_internal=True
+    )
+    complemented = {
+        target: np.where(
+            labels_pair[target] == "L",
+            "H",
+            np.where(labels_pair[target] == "H", "L", "X"),
+        )
+        for target in TARGETS
+    }
+    evaluation, numeric = evaluate_matrix(
+        universe.values, complemented, rotations, universe, return_internal=True
+    )
+    comparison = invariance_comparison(
+        baseline,
+        baseline_numeric,
+        evaluation,
+        numeric,
+        1e-12,
+        compare_orientation_vectors=False,
+    )
+    reversal_max = max(
+        float(np.max(np.abs(
+            baseline_numeric["orientation_vectors"][target][edition]
+            + numeric["orientation_vectors"][target][edition]
+        )))
+        for target in TARGETS
+        for edition in EDITIONS
+    )
+    invariant = comparison["passes"] and reversal_max <= 1e-12
+    return {
+        "world": 0,
+        "baseline": baseline,
+        "complemented": evaluation,
+        "score_invariance": comparison,
+        "orientation_reversal_max_abs": reversal_max,
+        "decision_invariant": invariant,
+    }
+
+
+def reconstruct_leakage_record(folio: str) -> dict[str, Any]:
+    universe, _rotations, worlds, _label_records = worker_context()
+    labels_pair = worlds[0]
+    baseline = build_transforms(universe.values, universe)
+    mutated = np.array(universe.values, copy=True)
+    for page in [page for page in PAGE_ORDER if page[:-1] == folio]:
+        idx = universe.page_indices[page]
+        ordering = rank_items(
+            0,
+            f"CONTROL_HELD_MUTATION|{folio}",
+            (universe.unit_ids[i] for i in idx),
+        )
+        source = np.asarray(
+            [universe.unit_ids.index(item) for item in ordering], dtype=np.int64
+        )
+        mutated[:, idx, :] = mutated[:, source, :]
+    changed = build_transforms(mutated, universe)
+    pre: dict[str, Any] = {}
+    post: dict[str, Any] = {}
+    for edition in EDITIONS:
+        train = universe.folio != folio
+        before = baseline.folds[(folio, edition)]
+        after = changed.folds[(folio, edition)]
+        before_direction = {
+            target: None
+            if (value := identity_training_direction(
+                before, labels_pair[target], folio, universe
+            )) is None else f8_digest(value)
+            for target in TARGETS
+        }
+        after_direction = {
+            target: None
+            if (value := identity_training_direction(
+                after, labels_pair[target], folio, universe
+            )) is None else f8_digest(value)
+            for target in TARGETS
+        }
+        pre[edition] = {
+            "weight": f8_digest(before.weight),
+            "training_rows": f8_digest(before.standardized[train]),
+            "training_directions": before_direction,
+        }
+        post[edition] = {
+            "weight": f8_digest(after.weight),
+            "training_rows": f8_digest(after.standardized[train]),
+            "training_directions": after_direction,
+        }
+    return {
+        "held_folio": folio,
+        "pre": pre,
+        "post": post,
+        "unchanged": pre == post,
+    }
+
+
+def reconstruct_dependence_record(
+    target: str,
+    driver: str,
+    world: int,
+) -> dict[str, Any]:
+    universe, rotations, worlds, label_records = worker_context()
+    baseline = np.array(universe.values, copy=True)
+    permutation_digests: dict[str, str] = {}
+    for eidx, edition in enumerate(EDITIONS):
+        for page in PAGE_ORDER:
+            idx = universe.page_indices[page]
+            destinations = rank_items(
+                world,
+                f"CONTROL_INDEPENDENT_BASELINE|{edition}|{page}",
+                (universe.unit_ids[i] for i in idx),
+            )
+            destination_idx = np.asarray(
+                [universe.unit_ids.index(item) for item in destinations],
+                dtype=np.int64,
+            )
+            baseline[eidx, destination_idx, :] = universe.values[eidx, idx, :]
+            permutation_digests[f"{edition}__{page}"] = text_digest(
+                f"{universe.unit_ids[source]},{universe.unit_ids[destination]}\n"
+                for source, destination in zip(idx, destination_idx, strict=True)
+            )
+    planted, stats = ordinary_plant(
+        baseline, worlds[world][target], world, target, driver, 1.0, universe
+    )
+    evaluation = evaluate_matrix(planted, worlds[world], rotations, universe)
+    return {
+        "target": target,
+        "driver": driver,
+        "world": world,
+        "label_sha256": label_records[world]["paired_sha256"],
+        "baseline_matrix_sha256": matrix_digest(baseline),
+        "reading_page_permutation_sha256": permutation_digests,
+        "plant": stats,
+        "evaluation": evaluation,
+        "diagnostic_only": True,
+    }
+
+
+def reconstruction_tasks() -> list[dict[str, Any]]:
+    tasks: list[dict[str, Any]] = [
+        {"category": "null", "world": world} for world in range(64)
+    ]
+    tasks.extend(
+        {
+            "category": "power",
+            "target": target,
+            "driver": driver,
+            "strength": strength,
+            "world": world,
+        }
+        for target in TARGETS
+        for driver in DRIVERS
+        for strength in STRENGTHS
+        for world in range(8)
+    )
+    tasks.extend(
+        {
+            "category": "whole_row",
+            "kind": kind,
+            "target": target,
+            "driver": driver,
+            "world": world,
+        }
+        for kind in ("ONE_FOLIO", "ONE_READING", "REVERSAL", "FOLIO_RANDOM", "OPPOSITE_CLUSTER")
+        for target in TARGETS
+        for driver in DRIVERS
+        for world in range(8)
+    )
+    tasks.extend(
+        {"category": "invariance", "kind": kind}
+        for kind in (
+            "ABS_CUBIC",
+            "REL_CUBIC",
+            "PARITY",
+            "EARLY",
+            "QUARTER_1",
+            "QUARTER_2",
+            "QUARTER_3",
+            "LENGTH_LINEAR",
+            "LENGTH_CUBIC",
+            "PAGE_CONSTANT",
+        )
+    )
+    tasks.append({"category": "complement"})
+    tasks.extend(
+        {"category": "leakage", "held_folio": folio} for folio in FOLIOS
+    )
+    tasks.extend(
+        {
+            "category": "dependence",
+            "target": target,
+            "driver": driver,
+            "world": world,
+        }
+        for target in TARGETS
+        for driver in DRIVERS
+        for world in range(8)
+    )
+    require(len(tasks) == 402, f"parallel reconstruction task-grid mismatch: {len(tasks)}")
+    return tasks
+
+
+def reconstruct_task(task: Mapping[str, Any]) -> tuple[str, dict[str, Any]]:
+    category = str(task["category"])
+    if category == "null":
+        record = reconstruct_null_record(int(task["world"]))
+    elif category == "power":
+        record = reconstruct_power_record(
+            str(task["target"]),
+            str(task["driver"]),
+            float(task["strength"]),
+            int(task["world"]),
+        )
+    elif category == "whole_row":
+        record = reconstruct_whole_row_record(
+            str(task["kind"]),
+            str(task["target"]),
+            str(task["driver"]),
+            int(task["world"]),
+        )
+    elif category == "invariance":
+        record = reconstruct_invariance_record(str(task["kind"]))
+    elif category == "complement":
+        record = reconstruct_complement_record()
+    elif category == "leakage":
+        record = reconstruct_leakage_record(str(task["held_folio"]))
+    elif category == "dependence":
+        record = reconstruct_dependence_record(
+            str(task["target"]), str(task["driver"]), int(task["world"])
+        )
+    else:
+        raise ValidationError(f"unknown reconstruction category: {category}")
+    return category, record
+
+
+def parallel_reconstruction(
+    universe: Universe,
+    rotations: Mapping[str, np.ndarray],
+    worlds: Mapping[int, Mapping[str, np.ndarray]],
+    label_records: Sequence[Mapping[str, Any]],
+) -> dict[str, list[dict[str, Any]]]:
+    tasks = reconstruction_tasks()
+    records = {
+        category: []
+        for category in (
+            "null",
+            "power",
+            "whole_row",
+            "invariance",
+            "complement",
+            "leakage",
+            "dependence",
+        )
+    }
+    with ProcessPoolExecutor(
+        max_workers=32,
+        initializer=initialize_reconstruction_worker,
+        initargs=(universe, rotations, worlds, label_records),
+    ) as executor:
+        for category, record in executor.map(reconstruct_task, tasks, chunksize=1):
+            records[category].append(record)
+    require(
+        {key: len(value) for key, value in records.items()}
+        == {
+            "null": 64,
+            "power": 128,
+            "whole_row": 160,
+            "invariance": 10,
+            "complement": 1,
+            "leakage": 7,
+            "dependence": 32,
+        },
+        "parallel reconstruction result-grid mismatch",
+    )
+    return records
+
+
 def numeric_equal(expected: float, observed: float, tolerance: float = 5e-12) -> bool:
     if not (math.isfinite(expected) and math.isfinite(observed)):
         return expected == observed
@@ -1118,6 +1859,10 @@ def validate_result(result: Mapping[str, Any], universe: Universe, preflight: Ma
     require(len({item["paired_sha256"] for item in label_records}) == 64, "duplicate paired label world")
     compare_required(label_records, result["label_worlds"], "label_worlds")
 
+    reconstructed = parallel_reconstruction(
+        universe, rotations, worlds, label_records
+    )
+
     # Null worlds independently rebuild every transform and every one of the
     # 2*2*3*8192 score orbits, not merely the identity summaries.
     observed_null = result["null_worlds"]
@@ -1125,13 +1870,9 @@ def validate_result(result: Mapping[str, Any], universe: Universe, preflight: Ma
     null_union_count = 0
     for world in range(64):
         record = find_record(observed_null, {"world": world}, "null_worlds")
-        checkpoint = evaluate_matrix(universe.values, worlds[world], rotations, universe)
-        expected = {
-            "world": world,
-            "label_sha256": label_records[world]["paired_sha256"],
-            "evaluation": checkpoint,
-            "union_pass": bool(any(checkpoint["complete_dual_ensemble_pass"].values())),
-        }
+        expected = find_record(
+            reconstructed["null"], {"world": world}, "reconstructed.null"
+        )
         compare_required(expected, record, f"null_worlds[{world}]")
         null_union_count += int(expected["union_pass"])
 
@@ -1144,26 +1885,21 @@ def validate_result(result: Mapping[str, Any], universe: Universe, preflight: Ma
                 passed = 0
                 for world in range(8):
                     record = find_record(observed_power, {"target": target, "driver": driver, "strength": strength, "world": world}, "power_worlds")
-                    planted, plant_stats = ordinary_plant(universe.values, worlds[world][target], world, target, driver, strength, universe)
-                    checkpoint = evaluate_matrix(planted, worlds[world], rotations, universe)
-                    complete = bool(checkpoint["complete_dual_ensemble_pass"][target])
-                    driver_rms = realized_driver_rms(planted, worlds[world][target], plant_stats["driver_features"], universe)
-                    expected = {
-                        "world": world,
-                        "target": target,
-                        "driver": driver,
-                        "strength": strength,
-                        "label_sha256": label_records[world]["paired_sha256"],
-                        "plant": plant_stats,
-                        "realized_D_rms": driver_rms,
-                        "evaluation": checkpoint,
-                        "target_complete_pass": complete,
-                    }
+                    expected = find_record(
+                        reconstructed["power"],
+                        {
+                            "target": target,
+                            "driver": driver,
+                            "strength": strength,
+                            "world": world,
+                        },
+                        "reconstructed.power",
+                    )
                     compare_required(expected, record, f"power_worlds[{target},{driver},{strength},{world}]")
-                    passed += int(complete)
+                    passed += int(expected["target_complete_pass"])
                 power_passes[(target, driver, strength)] = passed
 
-    control_summary = validate_controls(result["controls"], universe, worlds, label_records, rotations)
+    control_summary = validate_controls(result["controls"], reconstructed)
 
     expected_gates: dict[str, Any] = {
         "null_union_pass_count": null_union_count,
@@ -1205,7 +1941,83 @@ def validate_result(result: Mapping[str, Any], universe: Universe, preflight: Ma
     return {"decision": expected_decision, "null_union_pass_count": null_union_count, "control_summary": control_summary}
 
 
-def validate_controls(controls: Any, universe: Universe, worlds: Mapping[int, Mapping[str, np.ndarray]], label_records: Sequence[Mapping[str, Any]], rotations: Mapping[str, np.ndarray]) -> dict[str, bool]:
+def validate_reconstructed_invariance(
+    records: Any,
+    reconstructed: Sequence[Mapping[str, Any]],
+) -> bool:
+    require(isinstance(records, list) and len(records) == 10, "invariance control grid mismatch")
+    require(len(reconstructed) == 10, "reconstructed invariance grid mismatch")
+    ok = True
+    for expected in reconstructed:
+        kind = str(expected["kind"])
+        record = find_record(
+            records, {"kind": kind, "world": 0}, "controls.invariance"
+        )
+        compare_required(expected, record, f"controls.invariance[{kind}]")
+        ok &= bool(expected["invariance"]["passes"])
+    return ok
+
+
+def validate_reconstructed_complement(
+    record: Any,
+    reconstructed: Sequence[Mapping[str, Any]],
+) -> bool:
+    require(isinstance(record, dict), "complement control absent")
+    require(len(reconstructed) == 1, "reconstructed complement grid mismatch")
+    expected = reconstructed[0]
+    compare_required(expected, record, "controls.complement")
+    return bool(expected["decision_invariant"])
+
+
+def validate_reconstructed_leakage(
+    records: Any,
+    reconstructed: Sequence[Mapping[str, Any]],
+) -> bool:
+    require(isinstance(records, list) and len(records) == len(FOLIOS), "leakage control grid mismatch")
+    require(len(reconstructed) == len(FOLIOS), "reconstructed leakage grid mismatch")
+    ok = True
+    for expected in reconstructed:
+        folio = str(expected["held_folio"])
+        record = find_record(
+            records, {"held_folio": folio}, "controls.leakage"
+        )
+        compare_required(expected, record, f"controls.leakage[{folio}]")
+        ok &= bool(expected["unchanged"])
+    return ok
+
+
+def validate_reconstructed_dependence(
+    records: Any,
+    reconstructed: Sequence[Mapping[str, Any]],
+) -> bool:
+    expected_count = len(TARGETS) * len(DRIVERS) * 8
+    require(
+        isinstance(records, list) and len(records) == expected_count,
+        "reading-dependence grid mismatch",
+    )
+    require(
+        len(reconstructed) == expected_count,
+        "reconstructed reading-dependence grid mismatch",
+    )
+    for expected in reconstructed:
+        keys = {
+            "target": expected["target"],
+            "driver": expected["driver"],
+            "world": expected["world"],
+        }
+        record = find_record(records, keys, "controls.reading_dependence")
+        compare_required(
+            expected,
+            record,
+            f"controls.reading_dependence[{expected['target']},{expected['driver']},{expected['world']}]",
+        )
+    return True
+
+
+def validate_controls(
+    controls: Any,
+    reconstructed: Mapping[str, Sequence[Mapping[str, Any]]],
+) -> dict[str, bool]:
     """Reconstruct mandatory controls.
 
     The exact record contract is deliberately descriptor-based.  A producer may
@@ -1218,104 +2030,40 @@ def validate_controls(controls: Any, universe: Universe, worlds: Mapping[int, Ma
     required_kinds = ("ONE_FOLIO", "ONE_READING", "REVERSAL", "FOLIO_RANDOM", "OPPOSITE_CLUSTER")
     require(len(whole) == len(required_kinds) * len(TARGETS) * len(DRIVERS) * 8, "whole-row control grid mismatch")
     all_rejected = True
-    baseline_projection_cache: dict[tuple[int, str, str], tuple[np.ndarray, tuple[str, ...], np.ndarray]] = {}
-    baseline_transforms = build_transforms(universe.values, universe)
-    projection_matrix = all_folio_projection(baseline_transforms)
-
     for kind in required_kinds:
         for target in TARGETS:
             for driver in DRIVERS:
                 for world in range(8):
                     record = find_record(whole, {"kind": kind, "target": target, "driver": driver, "world": world}, "controls.whole_row")
-                    labels = worlds[world][target]
-                    info_folios = list(target_pages(labels, universe)[1])
-                    if kind == "ONE_FOLIO":
-                        chosen = rank_items(world, f"CONTROL_ONE_FOLIO|{target}", info_folios)[0]
-                        planted, stats = ordinary_plant(universe.values, labels, world, target, driver, 1.0, universe, only_folios={chosen})
-                        stats["selected_folio"] = chosen
-                    elif kind == "ONE_READING":
-                        planted, stats = ordinary_plant(universe.values, labels, world, target, driver, 1.0, universe, editions=(0,))
-                    elif kind == "REVERSAL":
-                        projection, selected, signs = projection_values(projection_matrix, world, target, driver, universe)
-                        info_pages = set(informative_pages(labels, universe))
-                        forward_maps = {
-                            page: page_swap_trace(labels, projection, page, universe) if page in info_pages else []
-                            for page in PAGE_ORDER
-                        }
-                        reverse_maps = {
-                            page: page_swap_trace(labels, -projection, page, universe) if page in info_pages else []
-                            for page in PAGE_ORDER
-                        }
-                        planted, stats_forward = apply_mapping(universe.values, forward_maps, 1.0, editions=(0, 1))
-                        planted, stats_reverse = apply_mapping(planted, reverse_maps, 1.0, editions=(2,))
-                        stats = {
-                            "driver_features": list(selected),
-                            "driver_feature_sha256": text_digest(f"{item}\n" for item in selected),
-                            "driver_sign_sha256": f8_digest(signs),
-                            "forward_mapping_sha256": canonical_json_digest({page: [[a, b, gain] for a, b, gain in forward_maps[page]] for page in PAGE_ORDER}),
-                            "reverse_mapping_sha256": canonical_json_digest({page: [[a, b, gain] for a, b, gain in reverse_maps[page]] for page in PAGE_ORDER}),
-                            "forward": stats_forward,
-                            "reverse": stats_reverse,
-                        }
-                    elif kind == "FOLIO_RANDOM":
-                        planted = np.array(universe.values, copy=True)
-                        mapping_digest: dict[str, str] = {}
-                        total_stats: dict[str, Any] = {}
-                        selected = driver_features(world, target, driver, universe)
-                        for folio in info_folios:
-                            projection, _features, _signs = projection_values(projection_matrix, world, target, driver, universe, folio_random=folio)
-                            maps = {page: page_swap_trace(labels, projection, page, universe) if page[:-1] == folio and page in informative_pages(labels, universe) else [] for page in PAGE_ORDER}
-                            planted, stat = apply_mapping(planted, maps, 1.0)
-                            mapping_digest[folio] = canonical_json_digest({page: [[a, b, gain] for a, b, gain in maps[page]] for page in PAGE_ORDER})
-                            total_stats[folio] = stat
-                        stats = {"driver_features": list(selected), "folio_mapping_sha256": mapping_digest, "folio_stats": total_stats}
-                    else:
-                        ordered = rank_items(world, f"CONTROL_CLUSTER|{target}", info_folios)
-                        forward_count = 4 if target == "RAY_LIKE" else 3
-                        reverse = set(ordered[forward_count:])
-                        planted, stats = ordinary_plant(universe.values, labels, world, target, driver, 1.0, universe, reverse_folios=reverse)
-                        stats["ordered_folios"] = ordered
-                        stats["reverse_folios"] = sorted(reverse)
-                    checkpoint = evaluate_matrix(planted, worlds[world], rotations, universe)
-                    rejected = not bool(checkpoint["complete_dual_ensemble_pass"][target])
-                    if kind == "ONE_FOLIO":
-                        required_rejection = all(
-                            (not checkpoint["ensembles"][ensemble]["targets"][target]["gates"]["common_support"])
-                            or (not checkpoint["ensembles"][ensemble]["targets"][target]["gates"]["deletion"])
-                            for ensemble in ENSEMBLES
-                        )
-                    elif kind in ("ONE_READING", "REVERSAL"):
-                        required_rejection = all(
-                            any(
-                                not checkpoint["ensembles"][ensemble]["targets"][target]["gates"][gate]
-                                for gate in ("all_t_positive", "material", "orientation")
-                            )
-                            for ensemble in ENSEMBLES
-                        )
-                    else:
-                        required_rejection = rejected
-                    expected = {
-                        "kind": kind,
-                        "target": target,
-                        "driver": driver,
-                        "world": world,
-                        "label_sha256": label_records[world]["paired_sha256"],
-                        "plant": stats,
-                        "evaluation": checkpoint,
-                        "target_rejected": rejected,
-                        "required_rejection_gate_failed": required_rejection,
-                    }
+                    expected = find_record(
+                        reconstructed["whole_row"],
+                        {
+                            "kind": kind,
+                            "target": target,
+                            "driver": driver,
+                            "world": world,
+                        },
+                        "reconstructed.whole_row",
+                    )
                     compare_required(expected, record, f"controls.whole_row[{kind},{target},{driver},{world}]")
-                    all_rejected &= rejected and required_rejection
+                    all_rejected &= bool(
+                        expected["target_rejected"]
+                        and expected["required_rejection_gate_failed"]
+                    )
 
-    # Controls whose construction is not completely pinned to a world by the
-    # prose are frozen here to paired world zero.  This convention is declared
-    # in the validator and must be mirrored by the result producer.
-    invariance_ok = validate_invariance_controls(controls.get("invariance"), universe, worlds[0], rotations)
-    complement_ok = validate_complement_control(controls.get("complement"), universe, worlds[0], rotations)
-    leakage_ok = validate_leakage_controls(controls.get("leakage"), universe, worlds[0])
+    invariance_ok = validate_reconstructed_invariance(
+        controls.get("invariance"), reconstructed["invariance"]
+    )
+    complement_ok = validate_reconstructed_complement(
+        controls.get("complement"), reconstructed["complement"]
+    )
+    leakage_ok = validate_reconstructed_leakage(
+        controls.get("leakage"), reconstructed["leakage"]
+    )
     mutation_ok = validate_mutation_manifest(controls.get("mutations"))
-    dependence_ok = validate_dependence_controls(controls.get("reading_dependence"), universe, worlds, label_records, rotations)
+    dependence_ok = validate_reconstructed_dependence(
+        controls.get("reading_dependence"), reconstructed["dependence"]
+    )
     return {
         "whole_row_controls_rejected": all_rejected,
         "invariance_controls_pass": invariance_ok,
@@ -1368,92 +2116,6 @@ def add_page_centered_component(matrix: np.ndarray, basis: np.ndarray, fraction:
     return out
 
 
-def validate_invariance_controls(records: Any, universe: Universe, labels_pair: Mapping[str, np.ndarray], rotations: Mapping[str, np.ndarray]) -> bool:
-    require(isinstance(records, list) and len(records) == 10, "invariance control grid mismatch")
-    baseline, baseline_numeric = evaluate_matrix(universe.values, labels_pair, rotations, universe, return_internal=True)
-    bases = ("ABS_CUBIC", "REL_CUBIC", "PARITY", "EARLY", "QUARTER_1", "QUARTER_2", "QUARTER_3")
-    ok = True
-    for basis_name in bases:
-        basis = positional_basis(universe, basis_name)
-        features = [item for item in universe.eligible if item != "PARA_WORD_COUNT"]
-        modified = add_page_centered_component(universe.values, basis, 0.5, f"CONTROL_NUISANCE|{basis_name}", universe, features)
-        evaluation, numeric = evaluate_matrix(modified, labels_pair, rotations, universe, return_internal=True)
-        comparison = invariance_comparison(baseline, baseline_numeric, evaluation, numeric, 1e-10)
-        record = find_record(records, {"kind": basis_name, "world": 0}, "controls.invariance")
-        expected = {"kind": basis_name, "world": 0, "matrix_sha256": matrix_digest(modified), "evaluation": evaluation, "invariance": comparison}
-        compare_required(expected, record, f"controls.invariance[{basis_name}]")
-        ok &= bool(comparison["passes"])
-
-    wc = universe.values[:, :, universe.feature_index["PARA_WORD_COUNT"]]
-    for power, kind in ((1, "LENGTH_LINEAR"), (3, "LENGTH_CUBIC")):
-        modified = np.array(universe.values, copy=True)
-        for eidx in range(3):
-            basis = centered_by_page((np.log1p(wc[eidx]) ** power)[:, None], universe)[:, 0]
-            rms = math.sqrt(float(np.mean(basis * basis)))
-            require(rms > NUM_TOL, "zero word-count control RMS")
-            for feature in universe.root:
-                sign = 1.0 if synth_digest(0, f"CONTROL_LENGTH|{kind}", feature)[-1] & 1 else -1.0
-                amplitude = 0.5 * response_page_centered_rms(universe.values, eidx, feature, universe)
-                modified[eidx, :, universe.feature_index[feature]] += sign * amplitude * basis / rms
-        evaluation, numeric = evaluate_matrix(modified, labels_pair, rotations, universe, return_internal=True)
-        comparison = invariance_comparison(baseline, baseline_numeric, evaluation, numeric, 1e-10)
-        record = find_record(records, {"kind": kind, "world": 0}, "controls.invariance")
-        expected = {"kind": kind, "world": 0, "matrix_sha256": matrix_digest(modified), "evaluation": evaluation, "invariance": comparison}
-        compare_required(expected, record, f"controls.invariance[{kind}]")
-        ok &= bool(comparison["passes"])
-
-    modified = np.array(universe.values, copy=True)
-    for eidx in range(3):
-        for page in PAGE_ORDER:
-            idx = universe.page_indices[page]
-            for feature in [item for item in universe.eligible if item != "PARA_WORD_COUNT"]:
-                digest = synth_digest(0, f"CONTROL_PAGE_CONSTANT|{page}", feature)
-                sign = 1.0 if digest[-1] & 1 else -1.0
-                rms = response_page_centered_rms(universe.values, eidx, feature, universe)
-                modified[eidx, idx, universe.feature_index[feature]] += 0.10 * sign * rms
-    evaluation, numeric = evaluate_matrix(modified, labels_pair, rotations, universe, return_internal=True)
-    comparison = invariance_comparison(baseline, baseline_numeric, evaluation, numeric, 1e-12)
-    record = find_record(records, {"kind": "PAGE_CONSTANT", "world": 0}, "controls.invariance")
-    expected = {"kind": "PAGE_CONSTANT", "world": 0, "matrix_sha256": matrix_digest(modified), "evaluation": evaluation, "invariance": comparison}
-    compare_required(expected, record, "controls.invariance[PAGE_CONSTANT]")
-    ok &= bool(comparison["passes"])
-    return ok
-
-
-def validate_complement_control(record: Any, universe: Universe, labels_pair: Mapping[str, np.ndarray], rotations: Mapping[str, np.ndarray]) -> bool:
-    require(isinstance(record, dict), "complement control absent")
-    baseline, baseline_numeric = evaluate_matrix(universe.values, labels_pair, rotations, universe, return_internal=True)
-    complemented = {target: np.where(labels_pair[target] == "L", "H", np.where(labels_pair[target] == "H", "L", "X")) for target in TARGETS}
-    evaluation, numeric = evaluate_matrix(universe.values, complemented, rotations, universe, return_internal=True)
-    comparison = invariance_comparison(
-        baseline,
-        baseline_numeric,
-        evaluation,
-        numeric,
-        1e-12,
-        compare_orientation_vectors=False,
-    )
-    reversal_max = max(
-        float(np.max(np.abs(
-            baseline_numeric["orientation_vectors"][target][edition]
-            + numeric["orientation_vectors"][target][edition]
-        )))
-        for target in TARGETS
-        for edition in EDITIONS
-    )
-    invariant = comparison["passes"] and reversal_max <= 1e-12
-    expected = {
-        "world": 0,
-        "baseline": baseline,
-        "complemented": evaluation,
-        "score_invariance": comparison,
-        "orientation_reversal_max_abs": reversal_max,
-        "decision_invariant": invariant,
-    }
-    compare_required(expected, record, "controls.complement")
-    return invariant
-
-
 def identity_training_direction(transform: FoldTransform, labels: np.ndarray, held: str, universe: Universe) -> np.ndarray | None:
     pages, folios = target_pages(labels, universe)
     if held not in folios:
@@ -1474,50 +2136,6 @@ def identity_training_direction(transform: FoldTransform, labels: np.ndarray, he
     return np.mean(np.stack(vectors, axis=0), axis=0)
 
 
-def validate_leakage_controls(records: Any, universe: Universe, labels_pair: Mapping[str, np.ndarray]) -> bool:
-    require(isinstance(records, list) and len(records) == len(FOLIOS), "leakage control grid mismatch")
-    baseline = build_transforms(universe.values, universe)
-    ok = True
-    for folio in FOLIOS:
-        mutated = np.array(universe.values, copy=True)
-        for page in [page for page in PAGE_ORDER if page[:-1] == folio]:
-            idx = universe.page_indices[page]
-            ordering = rank_items(0, f"CONTROL_HELD_MUTATION|{folio}", (universe.unit_ids[i] for i in idx))
-            source = np.asarray([universe.unit_ids.index(item) for item in ordering], dtype=np.int64)
-            mutated[:, idx, :] = mutated[:, source, :]
-        changed = build_transforms(mutated, universe)
-        pre: dict[str, Any] = {}
-        post: dict[str, Any] = {}
-        for edition in EDITIONS:
-            train = universe.folio != folio
-            before = baseline.folds[(folio, edition)]
-            after = changed.folds[(folio, edition)]
-            before_direction = {
-                target: None if (value := identity_training_direction(before, labels_pair[target], folio, universe)) is None else f8_digest(value)
-                for target in TARGETS
-            }
-            after_direction = {
-                target: None if (value := identity_training_direction(after, labels_pair[target], folio, universe)) is None else f8_digest(value)
-                for target in TARGETS
-            }
-            pre[edition] = {
-                "weight": f8_digest(before.weight),
-                "training_rows": f8_digest(before.standardized[train]),
-                "training_directions": before_direction,
-            }
-            post[edition] = {
-                "weight": f8_digest(after.weight),
-                "training_rows": f8_digest(after.standardized[train]),
-                "training_directions": after_direction,
-            }
-        unchanged = pre == post
-        record = find_record(records, {"held_folio": folio}, "controls.leakage")
-        expected = {"held_folio": folio, "pre": pre, "post": post, "unchanged": unchanged}
-        compare_required(expected, record, f"controls.leakage[{folio}]")
-        ok &= unchanged
-    return ok
-
-
 def validate_mutation_manifest(records: Any) -> bool:
     names = (
         "duplicate", "missing", "extra", "page_split", "folio_drift", "ordinal_gap", "locus_drift",
@@ -1536,41 +2154,6 @@ def validate_mutation_manifest(records: Any) -> bool:
         compare_required(expected, record, f"controls.mutations[{name}]")
         ok &= record.get("rejected") is True and isinstance(record.get("error"), str) and bool(record["error"])
     return ok
-
-
-def validate_dependence_controls(records: Any, universe: Universe, worlds: Mapping[int, Mapping[str, np.ndarray]], label_records: Sequence[Mapping[str, Any]], rotations: Mapping[str, np.ndarray]) -> bool:
-    require(isinstance(records, list) and len(records) == len(TARGETS) * len(DRIVERS) * 8, "reading-dependence grid mismatch")
-    for target in TARGETS:
-        for driver in DRIVERS:
-            for world in range(8):
-                baseline = np.array(universe.values, copy=True)
-                permutation_digests: dict[str, str] = {}
-                for eidx, edition in enumerate(EDITIONS):
-                    for page in PAGE_ORDER:
-                        idx = universe.page_indices[page]
-                        destinations = rank_items(world, f"CONTROL_INDEPENDENT_BASELINE|{edition}|{page}", (universe.unit_ids[i] for i in idx))
-                        destination_idx = np.asarray([universe.unit_ids.index(item) for item in destinations], dtype=np.int64)
-                        baseline[eidx, destination_idx, :] = universe.values[eidx, idx, :]
-                        permutation_digests[f"{edition}__{page}"] = text_digest(
-                            f"{universe.unit_ids[source]},{universe.unit_ids[destination]}\n"
-                            for source, destination in zip(idx, destination_idx, strict=True)
-                        )
-                planted, stats = ordinary_plant(baseline, worlds[world][target], world, target, driver, 1.0, universe)
-                evaluation = evaluate_matrix(planted, worlds[world], rotations, universe)
-                record = find_record(records, {"target": target, "driver": driver, "world": world}, "controls.reading_dependence")
-                expected = {
-                    "target": target,
-                    "driver": driver,
-                    "world": world,
-                    "label_sha256": label_records[world]["paired_sha256"],
-                    "baseline_matrix_sha256": matrix_digest(baseline),
-                    "reading_page_permutation_sha256": permutation_digests,
-                    "plant": stats,
-                    "evaluation": evaluation,
-                    "diagnostic_only": True,
-                }
-                compare_required(expected, record, f"controls.reading_dependence[{target},{driver},{world}]")
-    return True
 
 
 def parse_args(argv: Sequence[str]) -> argparse.Namespace:
