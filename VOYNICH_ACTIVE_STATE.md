@@ -3445,11 +3445,14 @@ A lead must additionally align raw and null-centered direction, retain .15
 target-blind material after pooled absolute/relative ordinal adjustment, and,
 for root rates, after both linear and cubic log-length adjustment. Odd/even,
 early/late, every-folio deletion, and common cross-reading folio support still
-apply. The next mandatory action is expanded production controls: exact
-planted and adversarial fixtures, both phase ensembles, 64 full-family null
-worlds, and a distributed power grid around the .15 boundary, followed by a
-new nonimporting prescore audit. Real morphology and real feature values remain
-unjoined. Even confirmation can establish only an anonymous
+apply. The exact planted/adversarial production gate now passes 926/926 checks
+under both phase ensembles: both distributed plants pass, 71 null features
+have zero joint passes, and the frozen confound, invariance, preservation,
+row-integrity, hash, and target-absence controls behave correctly. The next
+mandatory action is the still-unrun 64-world full-family null calibration and
+distributed power grid around the .15 boundary, followed by a new nonimporting
+prescore audit. Real morphology and real feature values remain unjoined. Even
+confirmation can establish only an anonymous
 marker-morphology-conditioned construction or root association under the
 ordinal pairing, not a ray/tail meaning, recipe class, number, word meaning,
 lexeme, plaintext, language, or translation.

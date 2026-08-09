@@ -526,12 +526,12 @@ def evaluate(
                 )
             gates = {
                 "eligible": bool(data["eligible"][feature_index]),
-                "same_reading_direction": direction != 0,
+                "same_reading_direction": bool(direction != 0),
                 "z_matches_raw_direction": bool(z_direction_ok),
-                "robust_z": float(data["robust"][feature_index]) >= 2.5,
-                "raw_p": raw_p <= 0.01,
-                "family_p": family_p <= 0.05,
-                "material": material >= 0.15,
+                "robust_z": bool(float(data["robust"][feature_index]) >= 2.5),
+                "raw_p": bool(raw_p <= 0.01),
+                "family_p": bool(family_p <= 0.05),
+                "material": bool(material >= 0.15),
                 "parity_and_early_late": bool(strata_ok),
                 "folio_deletions": bool(deletion_ok),
                 "folio_support": bool(support_ok),
