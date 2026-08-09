@@ -1,6 +1,6 @@
 # Voynich active state — structural reset baseline
 
-Updated: 2026-08-09. Read this file first, then
+Updated: 2026-08-10. Read this file first, then
 `experiments/semantic_assumptions/ACTIVE_EXPERIMENT_LEDGER.tsv`.
 
 ## Outcome
@@ -1538,6 +1538,25 @@ three mutations in 18 checks with zero numeric discrepancy. Real operation
 labels and target scores remain unopened. This authorizes one separately
 frozen exact-member onset target only; it establishes no morphology or
 meaning.
+
+The separately frozen one-shot target now confirms that internal compatibility.
+After exact source joining, all 1,207 rows retain their 197 base/folio quotas;
+1,141 rows have a reusable exact base/onset pair and are scored by physical-
+folio holdout across 59 folios. Adding the exact first-remainder member to the
+base-only predictor gains .032473 nat per eligible row against a null mean of
+-.007165 (z=6.182056, exact upper p=1/8192). The effect is positive on 44/59
+folios, survives every one-folio deletion, has maximum absolute folio share
+.081770, and remains positive in Currier A (.037950) and B (.025983). A
+production-free implementation reconstructs the 26,184-row source join, all
+labels and quotas, the complete null orbit, every score/gate, exact report,
+and four mutations in 34 checks with zero numeric discrepancy. Thus selection
+of the dominant `D1 A1` opening is constrained by the exact member beginning
+the following remainder, beyond its coarse family identity, and the rule
+transfers across held folios. This is the first confirmed exact-member
+compatibility rule in this route. It may reflect allomorphy, harmony,
+orthography, or another symbolic compatibility system, but chooses none and
+establishes no detachment, morphology, pronunciation, wordhood, POS, syntax,
+language, cipher operation, meaning, plaintext, or translation.
 
 The frozen out-of-domain prose-to-diagnostic test is now a strong but formal
 **nonconfirmation**. On 1,382 strict labels/radial/diagram groups, both favored
