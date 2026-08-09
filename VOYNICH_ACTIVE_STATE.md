@@ -1495,6 +1495,24 @@ or selected register. Internal form-building, spelling, or other functions
 remain possible but unproved; no word, prefix meaning, syntax, or translation
 follows.
 
+A post-target exact-member safeguard now shows that the `NONE`/`DA` premise was
+not merely a coarse-family illusion. Of the original 197 mixed family-
+remainder/folio cells, 134 still contain both operations after requiring the
+same complete ordered `(ZL3b, IT2a, RF1b)` member-code triple at every
+remainder position. These exact cells retain 692 rows (479 `NONE`, 213 `DA`)
+on 53 folios and 36 family remainders; the stricter all-three-consensus form
+retains 129 cells / 680 rows on 52 folios. Among the 213 exact-triplet-matched
+`DA` rows, 211 (99.06%) add exactly `D1 A1` in all three readings; the two
+remaining rows are alternate-reading member variants, and IT2a reads `D1 A1`
+in all 213. An independent 36-check implementation reconstructs the complete
+source/panel/quota bindings, all six resolution inventories, exact output
+bytes, prefix census, and five mutations. Thus `D1 A1 + exact remainder` is a
+dominant formal opening construction candidate. This does not reopen the
+failed external-context target and does not establish detachment, allography,
+morphology, sound, wordhood, syntax, meaning, or translation. A genuinely new
+formal route may test whether its selection is conditioned by held-out
+internal exact-member structure rather than by external page/locus context.
+
 The frozen out-of-domain prose-to-diagnostic test is now a strong but formal
 **nonconfirmation**. On 1,382 strict labels/radial/diagram groups, both favored
 and disfavored tails reach the minimum p=1/8192 under both exact-position-
