@@ -3169,6 +3169,29 @@ length/layout effects, and require replication outside pharmaceutical labels.
 Even a pass would establish at most placement-associated morphology, not a
 direction word, lexeme, plaintext, language, or translation.
 
+The horizontal successor is now frozen and target-blind validated. A
+source-order rule retains every minority-class example and evenly spaced
+majority examples inside each exact stratum, yielding 16 EAST/WEST pairs / 32
+loci on the six folios. Published SHA-256 ordering masks pair sides as A/B; the
+control runner reads no direction class. A separate source reconstruction
+passes 12/12 pairing checks.
+
+The 32 loci bind exactly 96 ZL/IT/RF diagnostic-label rows. Frozen whitespace-
+aware LIT, parsed ROOT, and structural ROLE support rules retain 13 features
+(4/3/6 respectively). Complete token length is the mandatory adjustment, and
+physical folios—not pairs—receive equal weight. All 65,536 synchronized swaps
+are exact. Fifteen anonymous controls pass. The cross-context fixture was
+strengthened before target access after review found that its first form only
+checked f68/f88 membership rather than the actual structural gate.
+
+The first independent-validator call stopped without an artifact because of a
+deprecated NumPy disagreement expression and non-serializable NumPy booleans;
+no direction binding was opened. The repaired nonimporting implementation
+reconstructs the bindings, matrices, orbit, quantiles, controls, row-mutation
+guards, and target absence in 20/20 checks. **One frozen horizontal target
+invocation is authorized and remains unrun at this state.** No threshold,
+pair, feature, view, gate, or runner change is allowed after target access.
+
 ## Admission rule for new work
 
 A new semantic route needs genuinely independent authorial evidence or a new
