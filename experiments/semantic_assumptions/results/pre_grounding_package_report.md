@@ -1,5 +1,14 @@
 # Pre-grounding structural information package
 
+> **Correction, 2026-08-09:** this package is complete for manual-transcription
+> loci and literal `surface`, but the root/role/formal columns are a partial
+> formal parse. They omit 3,838 complete surface groups on 2,833
+> reading-specific rows. See
+> `pre_grounding_surface_coverage_correction_report.md` and
+> `pre_grounding_surface_residual_atlas.tsv`. The original generated text below
+> is retained for provenance; “complete interlinear” must not be read as
+> complete formal coverage.
+
 Decision: **PRE_GROUNDING_INFORMATION_PACKAGE_COMPLETE**.
 
 This clean package contains every available manual-transcription locus and no
@@ -9,7 +18,7 @@ RF1b remain alternate readings of the same physical loci.
 
 | artifact | rows | purpose |
 |---|---:|---|
-| `pre_grounding_interlinear.tsv` | 15960 | complete reading-specific surface/root/role interlinear |
+| `pre_grounding_interlinear.tsv` | 15960 | complete reading-specific surface; partial retained-node root/role interlinear |
 | `pre_grounding_locus_atlas.tsv` | 5380 | physical-locus agreement and uncertainty across readings |
 | `pre_grounding_root_atlas.tsv` | 636 | root occurrence, role, boundary, neighbor and tuple-partner profiles |
 | `pre_grounding_tuple_atlas.tsv` | 2835 | exact root-tuple inventory and hybrid-coverage state |
@@ -26,8 +35,9 @@ Pair counts and non-prose role projections are diagnostic inventories.  Only
 the six role transitions listed in the manifest inherit confirmed status, and
 the aggregate adjacency relation—not each listed lexical pair—is confirmed.
 
-The package is now the input boundary for any later manually authored
-image/grammar hypothesis: a proposed meaning must survive all occurrences,
-formal roles, readings, sections, and counterexamples shown here.  No OCR,
+The package plus its corrected literal residual atlas is the input boundary for
+any later manually authored image/grammar hypothesis: a proposed meaning must
+survive all surface occurrences, parsed formal roles, readings, sections, and
+counterexamples shown here. No OCR,
 automated image recognition, dictionary, contextual overlay, or proposed
 English gloss was loaded.

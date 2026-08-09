@@ -193,7 +193,7 @@ f2r.15 may be a pre-paint green-leaf instruction at whole-record level. There
 is no second Voynich-script colour contrast. No token can be glossed GREEN,
 pigment, or action. The plain notes do not establish that the main-text scribe
 wrote them or that the main text is German. This uses only human descriptions
-and manual transcriptions. A complete formal audit further narrows the record:
+and manual transcriptions. A retained-node formal audit further narrows the record:
 the parsed `a -> o` tail behind `an on` recurs at six physical loci, including
 two all-reading prose loci, while the reverse order also occurs. The `a` and
 `o` roots occur at 408 and 874 physical loci. Only the composite `i+os` is
@@ -201,9 +201,13 @@ locus-unique. A two-reading `e+os | oii | o` parallel in the f67r2 moon-sector
 text provides a second similar short-record frame but is not all-reading
 evidence.
 Thus only the first slot remains record-specific, and its uniqueness makes it
-untestable rather than readable. An independent 27-check implementation
-reconstructs the component counts, pair directions, shell, two-reading
-parallel, and lexical stop exactly.
+untestable rather than readable. It is also not atomic: component `i` occurs
+in 35 loci / 14 complete forms, including 13 `i+...` composites, while `os`
+occurs in 406 loci / 104 complete forms and 70 `...+os` composites span 293
+loci. The small `i` family is reading-sensitive, but `os` productivity is
+supported in all three readings at 205 composite loci. An independent
+34-check implementation reconstructs the component counts, productivity,
+pair directions, shell, two-reading parallel, and lexical stop exactly.
 
 Two older detailed layers are useful but incomplete. Stolfi 25e1 comments give
 a nonexhaustive regex index of 1,099 object-bearing and 93 label-only loci on
@@ -902,20 +906,37 @@ packet touches all 116 selected units. These are acquisition bounds, not proof
 that the 21 components have meanings or that exact tuples are words.
 
 The label-free information-gathering phase has also been consolidated into a
-clean pre-grounding package built only from the locked transcriptions,
-confirmed parser, six confirmed role transitions, and active budget artifacts.
-It contains 15,960 reading-specific interlinear rows over 5,380 physical loci,
-636 root types, 2,835 exact root tuples, and all 13,559 descriptive prose
-adjacency relations. Confirmed prose grammar (12,092 rows) is explicitly
-separated from 3,868 diagnostic non-prose projections. Across physical loci,
-1,305 have identical surfaces in all readings, another 466 have identical root
-sequences, 389 agree only in role sequence, 3,044 disagree more deeply, and 176
-are absent from at least one reading. The package has zero English lexical
-glosses and imports none of v0.51's archived contextual overlays. Its validator
-checks hashes, transcription row identity, scopes, and role-edge provenance.
-Any later manually authored image/grammar hypothesis must be evaluated against
-this complete occurrence and counterexample inventory rather than selected
-examples.
+pre-grounding package built from the locked transcriptions, former confirmed
+parser, six confirmed role transitions, and active budget artifacts. It
+contains complete literal surfaces for 15,960 reading-specific rows over 5,380
+physical loci, plus a **partial retained-node formal layer** with 636 root
+types, 2,835 exact root tuples, and 13,559 descriptive prose adjacency
+relations. The former package wording incorrectly called the surface/root/role
+interlinear complete. Exact reconstruction shows that the formal columns retain
+114,173 of 118,011 space-delimited surface groups: 3,838 groups / 5,237
+characters are omitted on 2,833 rows. All 15,960 surface-to-formal alignments
+have one unique whole-group subsequence, and the selected groups equal stored
+formal node surfaces one-for-one. The new residual atlas preserves the omitted
+groups and positions literally as `UNPARSED_SURFACE`; they receive no inferred
+role or meaning. Root, role, tuple, relation, and `word_count`
+statistics are exact only inside the retained formal layer and cannot support
+exhaustive surface-absence claims.
+
+Confirmed prose grammar (12,092 rows) remains separated from 3,868 diagnostic
+non-prose projections. Across physical loci, 1,305 have identical surfaces in
+all readings, another 466 have identical retained root sequences, 389 agree
+only in retained role sequence, 3,044 disagree more deeply, and 176 are absent
+from at least one reading. The package has zero English lexical glosses and
+imports none of v0.51's archived contextual overlays. The original formal
+parser source is missing from the current tree and reachable Git history, so
+the snapshot is byte-frozen but the formal derivation is not currently
+reproducible. Future hypotheses must use the complete literal surface plus the
+explicit residual atlas, and treat the existing formal columns as a partial
+projection rather than a complete occurrence inventory. COL001's frozen
+formal-node `i`/`os` counts are unchanged: f2r.15 has no residual and no omitted
+group contains literal `i` or `o`. This does not constrain what a future parser
+might assign to an unparsed group. SME003 remains closed because it failed
+target-free calibration before morphology access.
 
 The first post-reset author-visible relation has now passed. `EAS001` used the
 older text-blind frozen inventory of explicit repeated sectors, bands, rows,

@@ -21,6 +21,8 @@ from typing import Any, Iterable
 REPO = Path(__file__).resolve().parents[2]
 INTERLINEAR = REPO / "experiments/semantic_assumptions/results/pre_grounding_interlinear.tsv"
 ANNOTATIONS = REPO / "experiments/semantic_assumptions/results/existing_human_exact_locus_annotations.tsv"
+COVERAGE = REPO / "experiments/semantic_assumptions/results/pre_grounding_surface_coverage_audit.json"
+RESIDUAL = REPO / "experiments/semantic_assumptions/results/pre_grounding_surface_residual_atlas.tsv"
 OUTPUT = REPO / "experiments/semantic_assumptions/results/col001_colour_record_structure.json"
 
 EXPECTED_SHA256 = {
@@ -28,6 +30,10 @@ EXPECTED_SHA256 = {
         "8052a51fa37ad467e754be39648336ec4014442dab5e223daab2e77efaba4a43",
     "experiments/semantic_assumptions/results/existing_human_exact_locus_annotations.tsv":
         "79c7f06e91f90054aff4cdf27f098a5977d820acdf91f239a14c6ddf553a7f61",
+    "experiments/semantic_assumptions/results/pre_grounding_surface_coverage_audit.json":
+        "ec1d427bb04a682b5cf2c6b8d622be835e37006e303bb0ee647d44d9cc6d2eae",
+    "experiments/semantic_assumptions/results/pre_grounding_surface_residual_atlas.tsv":
+        "43f145ae81ffbcb78fdb8217c3a45575d427d3211c2252ac94400928ef4f47f3",
 }
 EDITIONS = ("IT2a", "RF1b", "ZL3b")
 
@@ -69,6 +75,26 @@ def support_summary(rows: list[dict[str, str]]) -> dict[str, Any]:
 
 def root_rows(rows: list[dict[str, str]], root: str) -> list[dict[str, str]]:
     return [row for row in rows if root in row["root_sequence"].split()]
+
+
+def atom_rows(rows: list[dict[str, str]], atom: str) -> list[dict[str, str]]:
+    return [
+        row for row in rows
+        if any(atom in word.split("+") for word in row["root_sequence"].split())
+    ]
+
+
+def composite_rows(
+    rows: list[dict[str, str]], predicate: Any
+) -> tuple[list[dict[str, str]], set[str]]:
+    selected = []
+    forms: set[str] = set()
+    for row in rows:
+        hits = [word for word in row["root_sequence"].split() if predicate(word)]
+        if hits:
+            selected.append(row)
+            forms.update(hits)
+    return selected, forms
 
 
 def adjacency_rows(
@@ -114,13 +140,21 @@ def main() -> int:
 
     observed_hashes = {
         str(path.relative_to(REPO)): sha256(path)
-        for path in (INTERLINEAR, ANNOTATIONS)
+        for path in (INTERLINEAR, ANNOTATIONS, COVERAGE, RESIDUAL)
     }
     require(observed_hashes == EXPECTED_SHA256, "frozen input hash mismatch")
 
     rows = load_tsv(INTERLINEAR)
     annotations = load_tsv(ANNOTATIONS)
+    coverage = json.loads(COVERAGE.read_text(encoding="utf-8"))
+    residuals = load_tsv(RESIDUAL)
     require(len(rows) == 15_960, f"unexpected interlinear row count: {len(rows)}")
+    require(len(residuals) == 2_833, "surface-residual row-count drift")
+    require(coverage["target_relevance"] == {
+        "f2r_15_has_surface_residual": False,
+        "omitted_token_occurrences_containing_i_or_o": 0,
+        "col001_frozen_formal_counts_changed_by_residual_inventory": False,
+    }, "COL001 surface-residual relevance drift")
 
     f2 = [row for row in rows if row["locus"] == "f2r.15"]
     require(len(f2) == 2, "f2r.15 must have exactly two available readings")
@@ -136,6 +170,14 @@ def main() -> int:
     shell = [row for row in rows if row["role_sequence"] == "BARE+BARE BARE BARE"]
     pair_ao = adjacency_rows(rows, "a", "o")
     pair_oa = adjacency_rows(rows, "o", "a")
+    atom_i = atom_rows(rows, "i")
+    atom_os = atom_rows(rows, "os")
+    initial_i_composites, initial_i_forms = composite_rows(
+        rows, lambda word: word.startswith("i+")
+    )
+    final_os_composites, final_os_forms = composite_rows(
+        rows, lambda word: word.endswith("+os")
+    )
     first_plus_os_final_o = []
     for row in rows:
         roots = row["root_sequence"].split()
@@ -164,6 +206,41 @@ def main() -> int:
             "i_plus_os": support_summary(root_rows(rows, "i+os")),
             "a": support_summary(root_rows(rows, "a")),
             "o": support_summary(root_rows(rows, "o")),
+        },
+        "component_productivity": {
+            "i_atom": {
+                **support_summary(atom_i),
+                "distinct_complete_root_forms": len({
+                    word for row in atom_i for word in row["root_sequence"].split()
+                    if "i" in word.split("+")
+                }),
+            },
+            "os_atom": {
+                **support_summary(atom_os),
+                "distinct_complete_root_forms": len({
+                    word for row in atom_os for word in row["root_sequence"].split()
+                    if "os" in word.split("+")
+                }),
+            },
+            "i_initial_composites": {
+                **support_summary(initial_i_composites),
+                "distinct_complete_root_forms": len(initial_i_forms),
+                "two_or_more_reading_loci": [
+                    record for record in supported_locus_records(initial_i_composites)
+                    if len(record["readings"]) >= 2
+                ],
+            },
+            "os_final_composites": {
+                **support_summary(final_os_composites),
+                "distinct_complete_root_forms": len(final_os_forms),
+            },
+        },
+        "surface_coverage_qualification": {
+            "formal_layer": "RETAINED_NODES_ONLY",
+            "manuscript_omitted_surface_groups": coverage["totals"]["omitted_tokens"],
+            "f2r15_has_surface_residual": False,
+            "omitted_token_occurrences_containing_i_or_o": 0,
+            "col001_component_counts_changed": False,
         },
         "adjacent_root_pairs": {
             "a_to_o": {
@@ -194,13 +271,18 @@ def main() -> int:
         "gates": {
             "f2r15_i_plus_os_is_locus_unique": support_summary(root_rows(rows, "i+os"))["physical_loci"] == 1,
             "f2r15_a_to_o_repeats_outside_f2r": support_summary(pair_ao)["physical_loci"] > 1,
+            "i_plus_os_components_are_productive_elsewhere": (
+                support_summary(initial_i_composites)["physical_loci"] > 1
+                and support_summary(final_os_composites)["physical_loci"] > 1
+            ),
             "formal_shell_is_instruction_specific": False,
             "lexical_gloss_authorized": False,
         },
         "claim_ceiling": (
-            "The final a-to-o pair belongs to a recurring manuscript construction, while i+os is the only "
-            "locus-unique component. This narrows where record-specific information could reside but does not "
-            "identify GREEN, pigment, action, language, plaintext, or translation."
+            "The final a-to-o pair belongs to a recurring manuscript construction. The complete i+os composite "
+            "is locus-unique, but i and os are separately productive atoms in other composites. This narrows "
+            "where record-specific information could reside but does not identify GREEN, pigment, action, "
+            "language, plaintext, or translation."
         ),
         "prohibited_inputs": {
             "ocr": False,

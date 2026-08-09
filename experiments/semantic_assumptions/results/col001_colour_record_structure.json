@@ -145,7 +145,111 @@
       "two_or_more_readings": 2
     }
   },
-  "claim_ceiling": "The final a-to-o pair belongs to a recurring manuscript construction, while i+os is the only locus-unique component. This narrows where record-specific information could reside but does not identify GREEN, pigment, action, language, plaintext, or translation.",
+  "claim_ceiling": "The final a-to-o pair belongs to a recurring manuscript construction. The complete i+os composite is locus-unique, but i and os are separately productive atoms in other composites. This narrows where record-specific information could reside but does not identify GREEN, pigment, action, language, plaintext, or translation.",
+  "component_productivity": {
+    "i_atom": {
+      "all_three_readings": 0,
+      "distinct_complete_root_forms": 14,
+      "edition_rows": 40,
+      "physical_loci": 35,
+      "two_or_more_readings": 5
+    },
+    "i_initial_composites": {
+      "all_three_readings": 0,
+      "distinct_complete_root_forms": 13,
+      "edition_rows": 19,
+      "physical_loci": 15,
+      "two_or_more_reading_loci": [
+        {
+          "grammar_scope": "DIAGNOSTIC_NONPROSE",
+          "kind": "L",
+          "locus": "f102v1.15",
+          "readings": [
+            {
+              "edition": "RF1b",
+              "root_sequence": "i+d",
+              "surface": "dindy"
+            },
+            {
+              "edition": "ZL3b",
+              "root_sequence": "i+d",
+              "surface": "dindy"
+            }
+          ],
+          "section": "P"
+        },
+        {
+          "grammar_scope": "DIAGNOSTIC_NONPROSE",
+          "kind": "L",
+          "locus": "f2r.15",
+          "readings": [
+            {
+              "edition": "RF1b",
+              "root_sequence": "i+os a o",
+              "surface": "ios an on"
+            },
+            {
+              "edition": "ZL3b",
+              "root_sequence": "i+os a o",
+              "surface": "ios an on"
+            }
+          ],
+          "section": "H"
+        },
+        {
+          "grammar_scope": "CONFIRMED_PROSE",
+          "kind": "P",
+          "locus": "f51r.13",
+          "readings": [
+            {
+              "edition": "RF1b",
+              "root_sequence": "o ckh i+e+ol ot+H cph+od e+ol+d",
+              "surface": "oaiin ckhol kieol otchey cpheodaiin ykeoldy"
+            },
+            {
+              "edition": "ZL3b",
+              "root_sequence": "o ckh i+e+ol ot+H cph+o aii e+ol+d",
+              "surface": "oaiin ckhol ykieol otchey cpheo daiin ykeoldy"
+            }
+          ],
+          "section": "H"
+        },
+        {
+          "grammar_scope": "DIAGNOSTIC_NONPROSE",
+          "kind": "C",
+          "locus": "f69v.2",
+          "readings": [
+            {
+              "edition": "RF1b",
+              "root_sequence": "a H l ar al a+d i+ok+or H H e H+os oar o+ckh Hch aii aii H+od H e+k H e H H ar ol e+o H al od air+H Hok H H",
+              "surface": "yka ch l ykar dal ykady iokeeor cheey choly ykeeal cheos oaram ockhy shchy aiiny daiial cheody cheal yekey chear y y ykey ch y dy chol ykar oly ykeeo y chey dal ody airchy choky ychey chey"
+            },
+            {
+              "edition": "ZL3b",
+              "root_sequence": "a H ar al a+d i+ok+or H H e H+o oar o+ckh H aii aii H+od H e+t H e H H ar ol e+od H al od air+H Hok H H",
+              "surface": "yka chol ykar dal ykady iokeeor cheey choly ykeeal cheo oaram ockhy sheey aiin y daiial cheody cheal yetey chear y dy ykey ch y dy chol ykar ol y ykeeody chey dal ody airchy choky ychey chey"
+            }
+          ],
+          "section": "C"
+        }
+      ],
+      "two_or_more_readings": 4
+    },
+    "os_atom": {
+      "all_three_readings": 273,
+      "distinct_complete_root_forms": 104,
+      "edition_rows": 1011,
+      "physical_loci": 406,
+      "two_or_more_readings": 332
+    },
+    "os_final_composites": {
+      "all_three_readings": 205,
+      "distinct_complete_root_forms": 70,
+      "edition_rows": 743,
+      "physical_loci": 293,
+      "two_or_more_readings": 245
+    }
+  },
   "component_support": {
     "a": {
       "all_three_readings": 232,
@@ -282,11 +386,14 @@
     "f2r15_a_to_o_repeats_outside_f2r": true,
     "f2r15_i_plus_os_is_locus_unique": true,
     "formal_shell_is_instruction_specific": false,
+    "i_plus_os_components_are_productive_elsewhere": true,
     "lexical_gloss_authorized": false
   },
   "input_sha256": {
     "experiments/semantic_assumptions/results/existing_human_exact_locus_annotations.tsv": "79c7f06e91f90054aff4cdf27f098a5977d820acdf91f239a14c6ddf553a7f61",
-    "experiments/semantic_assumptions/results/pre_grounding_interlinear.tsv": "8052a51fa37ad467e754be39648336ec4014442dab5e223daab2e77efaba4a43"
+    "experiments/semantic_assumptions/results/pre_grounding_interlinear.tsv": "8052a51fa37ad467e754be39648336ec4014442dab5e223daab2e77efaba4a43",
+    "experiments/semantic_assumptions/results/pre_grounding_surface_coverage_audit.json": "ec1d427bb04a682b5cf2c6b8d622be835e37006e303bb0ee647d44d9cc6d2eae",
+    "experiments/semantic_assumptions/results/pre_grounding_surface_residual_atlas.tsv": "43f145ae81ffbcb78fdb8217c3a45575d427d3211c2252ac94400928ef4f47f3"
   },
   "method_status": "DESCRIPTIVE_POST_SOURCE_AUDIT",
   "prohibited_inputs": {
@@ -296,6 +403,13 @@
     "pixel_features": false
   },
   "status": "PASS_SLOT_NARROWING_STOP_LEXICAL",
+  "surface_coverage_qualification": {
+    "col001_component_counts_changed": false,
+    "f2r15_has_surface_residual": false,
+    "formal_layer": "RETAINED_NODES_ONLY",
+    "manuscript_omitted_surface_groups": 3838,
+    "omitted_token_occurrences_containing_i_or_o": 0
+  },
   "three_root_first_plus_os_final_o": {
     "all_three_readings": 0,
     "edition_rows": 4,

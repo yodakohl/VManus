@@ -1,0 +1,331 @@
+{
+  "affected_pages_by_edition": {
+    "IT2a": 190,
+    "RF1b": 217,
+    "ZL3b": 204
+  },
+  "affected_rows_by_kind": {
+    "IT2a": {
+      "C": 23,
+      "L": 32,
+      "P": 452,
+      "R": 9
+    },
+    "RF1b": {
+      "C": 57,
+      "L": 84,
+      "P": 1481,
+      "R": 17
+    },
+    "ZL3b": {
+      "C": 35,
+      "L": 35,
+      "P": 599,
+      "R": 9
+    }
+  },
+  "affected_rows_by_scope": {
+    "IT2a": {
+      "CONFIRMED_PROSE": 437,
+      "DIAGNOSTIC_NONPROSE": 79
+    },
+    "RF1b": {
+      "CONFIRMED_PROSE": 1461,
+      "DIAGNOSTIC_NONPROSE": 178
+    },
+    "ZL3b": {
+      "CONFIRMED_PROSE": 582,
+      "DIAGNOSTIC_NONPROSE": 96
+    }
+  },
+  "alignment": {
+    "all_rows_unique": true,
+    "insertions_or_replacements": 0,
+    "method": "unique whole-surface-token subsequence preserving order",
+    "rows_checked": 15960
+  },
+  "by_edition": {
+    "IT2a": {
+      "affected_rows": 516,
+      "omitted_characters": 1072,
+      "omitted_tokens": 599,
+      "parsed_characters": 190473,
+      "parsed_nodes": 37287,
+      "rows": 5207,
+      "surface_characters": 191545,
+      "surface_tokens": 37886
+    },
+    "RF1b": {
+      "affected_rows": 1639,
+      "omitted_characters": 2857,
+      "omitted_tokens": 2422,
+      "parsed_characters": 185813,
+      "parsed_nodes": 38715,
+      "rows": 5377,
+      "surface_characters": 188670,
+      "surface_tokens": 41137
+    },
+    "ZL3b": {
+      "affected_rows": 678,
+      "omitted_characters": 1308,
+      "omitted_tokens": 817,
+      "parsed_characters": 191786,
+      "parsed_nodes": 38171,
+      "rows": 5376,
+      "surface_characters": 193094,
+      "surface_tokens": 38988
+    }
+  },
+  "claim_ceiling": "The frozen package is complete for loci and literal surface, but its formal/root/role layer covers only the retained parser nodes. Omitted groups remain literal UNPARSED_SURFACE with no assigned structural role or lexical meaning.",
+  "decision": "CORRECT_PRE_GROUNDING_COMPLETENESS_CLAIM",
+  "english_lexical_glosses": 0,
+  "examples": {
+    "IT2a/f11v.6": {
+      "omitted_positions_1based": [
+        4,
+        5
+      ],
+      "omitted_tokens": [
+        "dy",
+        "ddy"
+      ],
+      "parsed_node_surfaces": [
+        "soydy",
+        "qoteey",
+        "qotchor",
+        "cthor",
+        "shy",
+        "arg"
+      ],
+      "surface": "soydy qoteey qotchor dy ddy cthor shy arg"
+    },
+    "IT2a/f18v.8": {
+      "omitted_positions_1based": [
+        5
+      ],
+      "omitted_tokens": [
+        "ddy"
+      ],
+      "parsed_node_surfaces": [
+        "tolol",
+        "sh",
+        "cphoy",
+        "daror",
+        "ytor",
+        "ykam"
+      ],
+      "surface": "tolol sh cphoy daror ddy ytor ykam"
+    },
+    "RF1b/f11v.6": {
+      "omitted_positions_1based": [
+        5,
+        6
+      ],
+      "omitted_tokens": [
+        "y",
+        "ddy"
+      ],
+      "parsed_node_surfaces": [
+        "soydy",
+        "qoteey",
+        "qot",
+        "chor",
+        "cthor",
+        "shy",
+        "arg"
+      ],
+      "surface": "soydy qoteey qot chor y ddy cthor shy arg"
+    },
+    "RF1b/f18v.8": {
+      "omitted_positions_1based": [
+        5
+      ],
+      "omitted_tokens": [
+        "ddy"
+      ],
+      "parsed_node_surfaces": [
+        "tolol",
+        "sh",
+        "cphoy",
+        "daror",
+        "ytor",
+        "ykam"
+      ],
+      "surface": "tolol sh cphoy daror ddy ytor ykam"
+    },
+    "ZL3b/f11v.6": {
+      "omitted_positions_1based": [
+        5,
+        6
+      ],
+      "omitted_tokens": [
+        "dy",
+        "ddy"
+      ],
+      "parsed_node_surfaces": [
+        "soydy",
+        "qoteey",
+        "qot",
+        "chor",
+        "cthor",
+        "shy",
+        "arg"
+      ],
+      "surface": "soydy qoteey qot chor dy ddy cthor shy arg"
+    },
+    "ZL3b/f18v.8": {
+      "omitted_positions_1based": [
+        5
+      ],
+      "omitted_tokens": [
+        "ddy"
+      ],
+      "parsed_node_surfaces": [
+        "tolol",
+        "sh",
+        "cphoy",
+        "daror",
+        "ytor",
+        "ykam"
+      ],
+      "surface": "tolol sh cphoy daror ddy ytor ykam"
+    }
+  },
+  "inputs": {
+    "experiments/semantic_assumptions/results/pre_grounding_interlinear.tsv": "8052a51fa37ad467e754be39648336ec4014442dab5e223daab2e77efaba4a43",
+    "experiments/semantic_assumptions/results/pre_grounding_package_manifest.json": "3ca036eecf45f7440c792d907ea630290116f82130c71af56494b654bdf0e542"
+  },
+  "most_common_omitted_tokens": [
+    {
+      "count": 2463,
+      "token": "y"
+    },
+    {
+      "count": 774,
+      "token": "dy"
+    },
+    {
+      "count": 114,
+      "token": "sy"
+    },
+    {
+      "count": 83,
+      "token": "ky"
+    },
+    {
+      "count": 73,
+      "token": "yty"
+    },
+    {
+      "count": 53,
+      "token": "m"
+    },
+    {
+      "count": 51,
+      "token": "yky"
+    },
+    {
+      "count": 51,
+      "token": "ty"
+    },
+    {
+      "count": 41,
+      "token": "g"
+    },
+    {
+      "count": 31,
+      "token": "p"
+    },
+    {
+      "count": 30,
+      "token": "f"
+    },
+    {
+      "count": 25,
+      "token": "ydy"
+    },
+    {
+      "count": 8,
+      "token": "py"
+    },
+    {
+      "count": 6,
+      "token": "ddy"
+    },
+    {
+      "count": 5,
+      "token": "yy"
+    },
+    {
+      "count": 4,
+      "token": "dm"
+    },
+    {
+      "count": 3,
+      "token": "dky"
+    },
+    {
+      "count": 3,
+      "token": "fydy"
+    },
+    {
+      "count": 3,
+      "token": "dpy"
+    },
+    {
+      "count": 3,
+      "token": "dym"
+    }
+  ],
+  "omitted_token_type_counts": {
+    "ddy": 6,
+    "dg": 3,
+    "dky": 3,
+    "dm": 4,
+    "dpy": 3,
+    "dsy": 2,
+    "dy": 774,
+    "dym": 3,
+    "f": 30,
+    "fydy": 3,
+    "g": 41,
+    "gm": 2,
+    "ky": 83,
+    "m": 53,
+    "mdy": 1,
+    "p": 31,
+    "py": 8,
+    "sy": 114,
+    "ty": 51,
+    "y": 2463,
+    "ydy": 25,
+    "yf": 1,
+    "yky": 51,
+    "yp": 2,
+    "ypdy": 2,
+    "yty": 73,
+    "ytym": 1,
+    "yy": 5
+  },
+  "residual_atlas": {
+    "path": "experiments/semantic_assumptions/results/pre_grounding_surface_residual_atlas.tsv",
+    "rows": 2833,
+    "sha256": "43f145ae81ffbcb78fdb8217c3a45575d427d3211c2252ac94400928ef4f47f3"
+  },
+  "status": "PASS_COMPLETE_SURFACE_PARTIAL_FORMAL_COVERAGE",
+  "target_relevance": {
+    "col001_frozen_formal_counts_changed_by_residual_inventory": false,
+    "f2r_15_has_surface_residual": false,
+    "omitted_token_occurrences_containing_i_or_o": 0
+  },
+  "totals": {
+    "affected_rows": 2833,
+    "omitted_characters": 5237,
+    "omitted_tokens": 3838,
+    "parsed_characters": 568072,
+    "parsed_nodes": 114173,
+    "rows": 15960,
+    "surface_characters": 573309,
+    "surface_tokens": 118011
+  }
+}

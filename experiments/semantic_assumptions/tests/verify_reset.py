@@ -18,6 +18,7 @@ ARCHIVE = ROOT / "archive_pre_reset_2026-08-06"
 MANIFEST = ARCHIVE / "ARCHIVE_MANIFEST.tsv"
 SUMMARY = ARCHIVE / "ARCHIVE_MANIFEST.json"
 LOCK = ACTIVE / "grammar" / "PRIMARY_EVIDENCE_LOCK.tsv"
+PRE_GROUNDING_COVERAGE = ACTIVE / "results" / "pre_grounding_surface_coverage_audit.json"
 
 
 def is_transient(path: Path) -> bool:
@@ -51,6 +52,7 @@ def main() -> None:
         MANIFEST,
         SUMMARY,
         LOCK,
+        PRE_GROUNDING_COVERAGE,
     ]
     missing = [path for path in required if not path.is_file()]
     if missing:
@@ -104,6 +106,21 @@ def main() -> None:
     if len(read_tsv(old_ledger)) != 105:
         raise RuntimeError("legacy ledger row count drift")
 
+    pre_grounding_coverage = json.loads(PRE_GROUNDING_COVERAGE.read_text(encoding="utf-8"))
+    if pre_grounding_coverage.get("status") != "PASS_COMPLETE_SURFACE_PARTIAL_FORMAL_COVERAGE":
+        raise RuntimeError("pre-grounding coverage correction absent")
+    if pre_grounding_coverage.get("totals") != {
+        "affected_rows": 2833,
+        "omitted_characters": 5237,
+        "omitted_tokens": 3838,
+        "parsed_characters": 568072,
+        "parsed_nodes": 114173,
+        "rows": 15960,
+        "surface_characters": 573309,
+        "surface_tokens": 118011,
+    }:
+        raise RuntimeError("pre-grounding coverage correction drift")
+
     old_semantic = ARCHIVE / "semantic_assumptions"
     sys.path.insert(0, str(old_semantic))
     spec = importlib.util.spec_from_file_location("reset_archived_common", old_semantic / "common.py")
@@ -145,6 +162,7 @@ def main() -> None:
         "legacy_experiment_rows": len(read_tsv(old_ledger)),
         "canonical_loci": loci,
         "canonical_tokens": tokens,
+        "pre_grounding_unparsed_surface_tokens": pre_grounding_coverage["totals"]["omitted_tokens"],
         "full_archive_verified": args.full_archive,
         "summary_status": summary["status"],
     }

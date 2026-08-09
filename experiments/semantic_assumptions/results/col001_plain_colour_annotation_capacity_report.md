@@ -64,6 +64,22 @@ us whether it resides in `i+os`, is distributed across the record, or is absent
 entirely. Uniqueness also prevents transfer testing, so no lexical gloss is
 authorized.
 
+Within the frozen retained-node formal layer, the complete composite is not an
+indivisible atom. Component `i` occurs in 35 physical loci and 14 complete root forms; 15 loci contain 13 different
+`i+...` composites. This evidence is reading-sensitive—only four of those
+composite loci have two-reading support and none have all three—so it is a
+productive but unstable small family. Component `os` is much stronger: it
+occurs in 406 physical loci and 104 complete forms, while 70 different
+`...+os` composites span 293 loci, 205 supported by all three readings. Thus
+`i+os` is a unique combination of reusable components, not evidence for an
+atomic colour word. A package-level coverage correction found 3,838 literal
+surface groups omitted from that formal layer, but f2r.15 has no residual and
+none of the omitted groups contains literal `i` or `o`. Thus the frozen formal
+counts are unchanged and there is no literal `i`/`o`-bearing residual
+candidate. This does not constrain what a future parser might assign to an
+unparsed group. The counts remain partial formal-layer statistics, not a
+translation or exhaustive surface absence.
+
 The strongest defensible partial reading is therefore:
 
 > `f2r.15` may be a pre-paint instruction associated with a green leaf.
@@ -100,15 +116,18 @@ colour, or the same complete phrase under another green-painted part.
 - `results/existing_human_page_annotations.tsv`: f1v and f2r human page notes.
 - `results/existing_human_exact_locus_annotations.tsv`: f2r.15 is an unhedged
   exact-local label within a leaf.
-- `results/pre_grounding_interlinear.tsv`: exact ZL3b/RF1b surface and formal
-  parse; IT2a absent.
+- `results/pre_grounding_interlinear.tsv`: exact ZL3b/RF1b surface and retained
+  formal parse; IT2a absent. Manuscript-wide surfaces are complete while the
+  formal layer is partial.
+- `results/pre_grounding_surface_residual_atlas.tsv`: all 3,838 surface groups
+  omitted from that formal layer; none contains `i` or `o`.
 - `audit_col001_colour_record_structure.py` and
   `results/col001_colour_record_structure.json`: hash-guarded component,
   adjacency, shell, and close-parallel reconstruction.
 - `validate_col001_colour_record_structure.py` and
   `results/col001_colour_record_structure_validation.json`: independent
-  27-check reconstruction of the retained counts, reading support, and lexical
-  stop.
+  34-check reconstruction of the retained counts, component productivity,
+  reading support, and lexical stop.
 - `transcription/sources/Stolfi_text25e1-52.evt`: hedged f99v.45 near-miss.
 
 No OCR, automated image recognition, pixel feature, or machine-generated
