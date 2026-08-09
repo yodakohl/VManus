@@ -3352,8 +3352,10 @@ one-folio, reading-disagreement, degeneracy, row-mutation, and target-absence
 controls reject as required. The next mandatory action is a nonimporting
 prescore reconstruction. That audit now passes 21/21 checks, independently
 recovering the complete matrix, eligibility, orbit, controls, and target
-absence. One separately frozen target invocation is authorized but remains
-unrun. A later target pass can establish only a marker-color-conditioned formal
+absence. A separate target runner is now hash-bound to the phase binding,
+matrix, controls, audit, and scoring engine and will hard-fail on drift. One
+invocation is authorized but remains unrun until the freeze is public. A later
+target pass can establish only a marker-color-conditioned formal
 construction, never a recipe class, number, word, lexeme, plaintext, language,
 or translation.
 
