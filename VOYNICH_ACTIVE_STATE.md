@@ -1259,6 +1259,24 @@ resolution; a paired-family/circumfix reading is therefore disfavored, not
 proved impossible. No sound, word, language, cipher operation, meaning,
 plaintext, or translation follows.
 
+The next source-native route is deliberately not another edge, trigram, or
+parallel-passage test. A cheap exact-parallel gate finds zero complete cross-
+folio locus sequences of at least three source groups, only five recurring
+four-group family fragments and none of length five; exact all-reading STA
+member codes retain 46 three-group types and zero four-group types. That sparse
+route is not expanded. Instead, a target-masked capacity panel now freezes a
+new complete **within-source-group latent-stage parser**, distinct from the
+confirmed first/last groups of a locus and from the failed first-family-to-
+last-family coupling. It contains 21,899 strict confirmed-prose groups on 94
+folios. Hash-fixed TRAIN/CAL/TEST splits contain 10,753/5,516/5,630 groups on
+47/23/24 folios, with both Currier registers above 1,000 groups in every split.
+The public panel exposes only identity, metadata, length, and split; it stores
+zero family sequences, member codes, stages, or scores. An independent
+reconstruction passes 21 aggregate, byte, binding, and mutation checks. This
+authorizes a separately frozen monotone-stage parser and synthetic controls,
+not a held TEST fit or any prefix/root/suffix, sound, word, language, meaning,
+plaintext, or translation claim.
+
 The first post-reset author-visible relation has now passed. `EAS001` used the
 older text-blind frozen inventory of explicit repeated sectors, bands, rows,
 and apparatus slots; it did not use pixels, OCR, automated vision, semantic
