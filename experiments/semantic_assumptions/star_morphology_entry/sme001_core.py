@@ -12,6 +12,7 @@ import numpy as np
 EDITIONS = ("ZL3b", "IT2a", "RF1b")
 ROTATION_DOMAIN = "SME001_ROTATION_V1"
 TIE_TOL = 1e-12
+NUM_TOL = 1e-15
 
 
 def _unbiased_shift(index: int, page: str, length: int) -> int:
@@ -141,7 +142,7 @@ def _variable_folios(values, pages_by_unit, folios_by_unit):
             folios = set()
             for page in sorted(set(pages_by_unit)):
                 indices = [i for i, value in enumerate(pages_by_unit) if value == page]
-                if np.ptp(values[indices, edition, feature]) > 1e-15:
+                if np.ptp(values[indices, edition, feature]) > NUM_TOL:
                     folios.add(folios_by_unit[indices[0]])
             result[edition, feature] = len(folios)
     return result
@@ -185,7 +186,7 @@ def _length_residual_values(values, pages_by_unit, word_count_index):
                 xc[indices] = x[indices] - x[indices].mean()
                 yc[indices] = y[indices] - y[indices].mean()
             denominator = float(np.dot(xc, xc))
-            slope = float(np.dot(xc, yc) / denominator) if denominator > 1e-15 else 0.0
+            slope = float(np.dot(xc, yc) / denominator) if denominator > NUM_TOL else 0.0
             result[:, edition, feature] = yc - slope * xc
     return result
 
@@ -207,7 +208,10 @@ def evaluate(
 
     residual_scale = _page_centered_scale(values, pages_by_unit)
     variable_folios = _variable_folios(values, pages_by_unit, folios_by_unit)
-    base_eligible = np.all(variable_folios >= 4, axis=0) & np.all(residual_scale > 1e-15, axis=0)
+    word_count_index = features.index("PARA_WORD_COUNT") if "PARA_WORD_COUNT" in features else None
+    if word_count_index is not None:
+        assert np.all(values[:, :, word_count_index] >= 0.0)
+    base_eligible = np.all(variable_folios >= 4, axis=0) & np.all(residual_scale > NUM_TOL, axis=0)
 
     target_data = {}
     for target in sorted(target_specs):
@@ -239,11 +243,11 @@ def evaluate(
         mean = sums[target] / random_count
         variance = np.maximum(sums_sq[target] / random_count - mean * mean, 0.0)
         sd = np.sqrt(variance)
-        eligible = base_eligible & np.all(sd > 1e-15, axis=0)
+        eligible = base_eligible & np.all(sd > NUM_TOL, axis=0)
         observed = _aggregate_effects(
             data["page_contrasts"], data["informative_pages"], page_folio, pages, rotations[:1]
         )[0]
-        z = np.divide(observed - mean, sd, out=np.zeros_like(observed), where=sd > 1e-15)
+        z = np.divide(observed - mean, sd, out=np.zeros_like(observed), where=sd > NUM_TOL)
         data.update({"null_mean": mean, "null_sd": sd, "eligible": eligible, "observed": observed, "z": z, "robust": _robust(z[None, :, :])[0]})
 
     raw_counts = {target: np.zeros(values.shape[2], dtype=np.int64) for target in target_data}
@@ -260,7 +264,7 @@ def evaluate(
                 effects - data["null_mean"][None, :, :],
                 data["null_sd"][None, :, :],
                 out=np.zeros_like(effects),
-                where=data["null_sd"][None, :, :] > 1e-15,
+                where=data["null_sd"][None, :, :] > NUM_TOL,
             )
             robust = _robust(z)
             robust[:, ~data["eligible"]] = 0.0
@@ -274,7 +278,6 @@ def evaluate(
             )
     family_max_all = np.concatenate(family_max_values)
 
-    word_count_index = features.index("PARA_WORD_COUNT") if "PARA_WORD_COUNT" in features else None
     length_residual = _length_residual_values(values, pages_by_unit, word_count_index) if word_count_index is not None else None
     results = []
     for target, data in target_data.items():
@@ -302,7 +305,7 @@ def evaluate(
         folios = sorted(per_folio)
         for feature_index, feature in enumerate(features):
             effects = data["observed"][:, feature_index]
-            signs = np.sign(effects[np.abs(effects) > 1e-15])
+            signs = np.sign(effects[np.abs(effects) > NUM_TOL])
             direction = int(signs[0]) if len(signs) == len(EDITIONS) and np.all(signs == signs[0]) else 0
             material = float(np.min(np.abs(effects) / residual_scale[:, feature_index])) if base_eligible[feature_index] else 0.0
             raw_p = (1 + raw_counts[target][feature_index]) / (random_count + 1)
@@ -311,7 +314,7 @@ def evaluate(
             strata_detail = {}
             for name in ("ODD", "EVEN", "EARLY", "LATE"):
                 effect = subset_effects[name]
-                same = effect is not None and subset_folios[name] >= 4 and np.all(effect[:, feature_index] * direction > 1e-15)
+                same = effect is not None and subset_folios[name] >= 4 and np.all(effect[:, feature_index] * direction > NUM_TOL)
                 strata_ok &= bool(same)
                 strata_detail[name] = {"folios": subset_folios[name], "effects": [] if effect is None else [float(v) for v in effect[:, feature_index]], "same_direction": bool(same)}
             deletion_ok = direction != 0
@@ -319,13 +322,13 @@ def evaluate(
             for omitted in folios:
                 kept = [per_folio[folio] for folio in folios if folio != omitted]
                 effect = np.mean(kept, axis=0)[:, feature_index]
-                same = np.all(effect * direction > 1e-15)
+                same = np.all(effect * direction > NUM_TOL)
                 deletion_ok &= bool(same)
                 deletion_effects[omitted] = [float(v) for v in effect]
             required = 5 if target.startswith("RAY_") else 4
-            support_counts = [sum(per_folio[folio][edition, feature_index] * direction > 1e-15 for folio in folios) for edition in range(len(EDITIONS))] if direction else [0, 0, 0]
+            support_counts = [sum(per_folio[folio][edition, feature_index] * direction > NUM_TOL for folio in folios) for edition in range(len(EDITIONS))] if direction else [0, 0, 0]
             common_support_count = sum(
-                np.all(per_folio[folio][:, feature_index] * direction > 1e-15)
+                np.all(per_folio[folio][:, feature_index] * direction > NUM_TOL)
                 for folio in folios
             ) if direction else 0
             support_ok = direction != 0 and common_support_count >= required
@@ -334,7 +337,7 @@ def evaluate(
             length_values = []
             if root_feature:
                 length_values = [float(v) for v in length_effect[:, feature_index]]
-                length_ok = direction != 0 and np.all(length_effect[:, feature_index] * direction > 1e-15)
+                length_ok = direction != 0 and np.all(length_effect[:, feature_index] * direction > NUM_TOL)
             gates = {
                 "eligible": bool(data["eligible"][feature_index]),
                 "same_reading_direction": direction != 0,
@@ -359,7 +362,7 @@ def evaluate(
                 "folio_support_counts": dict(zip(EDITIONS, support_counts)),
                 "common_folio_support_count": int(common_support_count),
                 "length_residual_effects": dict(zip(EDITIONS, length_values)) if root_feature else {},
-                "gates": gates, "passes": all(gates.values()),
+                "statistical_gates": gates, "statistical_passes": all(gates.values()),
             })
     return {
         "rotation_digest": rotation_digest(rotations),
@@ -370,5 +373,8 @@ def evaluate(
         "base_eligible_features": [features[i] for i in range(len(features)) if base_eligible[i]],
         "target_eligible_features": {target: [features[i] for i in range(len(features)) if data["eligible"][i]] for target, data in target_data.items()},
         "results": results,
-        "passing": [{"target": row["target"], "feature": row["feature"]} for row in results if row["passes"]],
+        "statistical_passing": [
+            {"target": row["target"], "feature": row["feature"]}
+            for row in results if row["statistical_passes"]
+        ],
     }

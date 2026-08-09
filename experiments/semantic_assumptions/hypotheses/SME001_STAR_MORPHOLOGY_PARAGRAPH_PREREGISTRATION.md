@@ -86,6 +86,10 @@ The page-centered residual scale is fixed as the root-mean-square of
 `x - mean_page(x)` over the 156 target units, separately by reading and
 feature. It is target-label blind.
 
+All nonzero, variation, direction, stratum, deletion, support, residual-scale,
+and null-standard-deviation decisions use an absolute numerical tolerance of
+`1e-15`. The separate Monte Carlo tail-tie tolerance remains `1e-12`.
+
 ## Statistic
 
 For a target, page, rotation, reading, and feature, compute the mean feature
@@ -161,6 +165,14 @@ A target-feature pair passes only if every gate below passes:
 
 Constant/insufficient strata fail rather than being skipped. ZL3b, IT2a, and
 RF1b are alternate readings of one manuscript, never replications.
+
+The length residual is exact: separately for each reading and feature, center
+both the feature and `log1p(PARA_WORD_COUNT)` within every page, fit one pooled
+no-intercept OLS slope over all 156 centered units, and score
+`centered_feature - slope * centered_log_length` with the ordinary registered
+equal-folio contrast. The production core reports only `statistical_passes`;
+the final runner may report an overall pass only after input/separation,
+single-use, control, and independent-audit gates 1 and 12 are also certified.
 
 ## Required prescore controls
 
