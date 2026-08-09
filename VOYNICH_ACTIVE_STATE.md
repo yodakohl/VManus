@@ -1356,7 +1356,9 @@ discrepancy in 210 checks. Its first invocation stopped before output because
 of a validator-only helper-name error; the correction changes no calibration
 artifact or gate. The real family sequence remains unscored by this exact
 increment. This authorizes only one separately frozen target test of a first-
-order dependency beyond position; it does not establish syntax or meaning.
+order dependency beyond position. The runner is frozen as `8c1fd4e6...` and
+must be public before its one invocation; calibration does not establish
+syntax or meaning.
 
 The first post-reset author-visible relation has now passed. `EAS001` used the
 older text-blind frozen inventory of explicit repeated sectors, bands, rows,
