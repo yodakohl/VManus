@@ -1621,6 +1621,20 @@ mechanism test must ask whether information beyond this immediate surface
 onset predicts opening selection; merely renaming the member states or
 retesting `qo` would repeat the closed question.
 
+The first such incremental route now passes target-label-masked capacity. It
+fixes both the complete coarse remainder and the exact first onset, then asks
+only whether the second exact member adds information on a held folio. A row
+must have at least two second-state alternatives at its fixed baseline, its
+exact refinement must recur on another folio, and its scored folio must retain
+at least three eligible rows. This leaves 639 rows on 41 folios / 16 bases,
+with 26 varying baselines, 40 reusable refinements, and 13 exact second-member
+triplets; 626/639 second states agree across all three readings. Currier A/B
+retain 154/485 rows and no folio contributes more than 9.24%. Independent code
+reconstructs all 1,207 masked rows, eligibility, exact panel/report bytes,
+gates, and four mutations in 18 checks. No operation row label or target score
+was read. This authorizes target-free calibration only; it does not establish
+a longer dependency or any morphology, meaning, plaintext, or translation.
+
 The frozen out-of-domain prose-to-diagnostic test is now a strong but formal
 **nonconfirmation**. On 1,382 strict labels/radial/diagram groups, both favored
 and disfavored tails reach the minimum p=1/8192 under both exact-position-
