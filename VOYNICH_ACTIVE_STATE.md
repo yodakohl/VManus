@@ -3445,17 +3445,21 @@ A lead must additionally align raw and null-centered direction, retain .15
 target-blind material after pooled absolute/relative ordinal adjustment, and,
 for root rates, after both linear and cubic log-length adjustment. Odd/even,
 early/late, every-folio deletion, and common cross-reading folio support still
-apply. The exact planted/adversarial production gate now passes 926/926 checks
-under both phase ensembles: both distributed plants pass, 71 null features
-have zero joint passes, and the frozen confound, invariance, preservation,
-row-integrity, hash, and target-absence controls behave correctly. The next
-mandatory action is the still-unrun 64-world full-family null calibration and
-distributed power grid around the .15 boundary, followed by a new nonimporting
-prescore audit. Real morphology and real feature values remain unjoined. Even
-confirmation can establish only an anonymous
-marker-morphology-conditioned construction or root association under the
-ordinal pairing, not a ray/tail meaning, recipe class, number, word meaning,
-lexeme, plaintext, language, or translation.
+apply. The exact planted/adversarial production gate passes 926/926 checks
+under both phase ensembles, but the mandatory repeated calibration fails for
+power. None of 64 complete 84-feature null worlds produces a joint pass, so no
+gross false-positive inflation is seen. At the strongest registered `.500`
+material level, however, ray passes only 5/8 worlds and tail 0/8, below the
+frozen 7/8 and 6/8 requirements; all lower levels have zero passes. Weakest-
+reading robust z and the small parity/early-late tail strata are the main
+limits. The gates cannot be weakened after this observation. Real morphology
+and real feature values were never joined, and no target score exists. The
+next mandatory action is a nonimporting reconstruction of this calibration
+failure; if it confirms, SME001 closes as underpowered rather than scoring the
+manuscript. Even a future methodologically distinct confirmation could
+establish only an anonymous marker-morphology-conditioned construction or root
+association under the ordinal pairing, not a ray/tail meaning, recipe class,
+number, word meaning, lexeme, plaintext, language, or translation.
 
 A new semantic route needs genuinely independent authorial evidence or a new
 invariant capable of falsifying competing meanings. A new model, crop,

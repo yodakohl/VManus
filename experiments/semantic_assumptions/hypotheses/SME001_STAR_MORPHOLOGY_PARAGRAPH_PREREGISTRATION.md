@@ -1,6 +1,6 @@
 # SME001 — star morphology versus paragraph construction
 
-Status: **REGISTERED_UNSCORED**
+Status: **PRESCORE CALIBRATION FAILED — REAL TARGET UNSCORED**
 
 ## Question and ceiling
 
