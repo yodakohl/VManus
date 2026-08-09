@@ -1574,6 +1574,22 @@ pass could distinguish a cross-base formal feature system from a base-specific
 lookup, but still could not choose allomorphy, harmony, orthography, sound,
 meaning, language, cipher operation, plaintext, or translation.
 
+That first shared-member calibration is now stopped before target access. It
+cleanly rejects all 64 null worlds and all 32 base-random, folio-random,
+one-base, and one-family adversaries, and its representative global plant
+passes at 8,192 assignments. Across the frozen eight global-shared worlds,
+however, only 4/8 pass instead of the required 7/8. All four misses are caused
+by the frozen base or family concentration ceilings despite strong raw
+signals: z=6.24--9.96 and p=1/2048. The ceilings cannot be weakened after that
+observation. A production-free implementation reconstructs all 104 worlds,
+both null orbits, every score/gate, target-size checks, exact report, and four
+mutation outcomes in 17 checks with zero numeric discrepancy. No source STA
+row, prior target artifact, real operation label, or real target score was
+opened. Therefore this particular cross-base predictor is underpowered and no
+manuscript target is authorized. The confirmed within-base cross-folio rule
+remains unchanged; shared cross-base structure remains unresolved rather than
+failed.
+
 The frozen out-of-domain prose-to-diagnostic test is now a strong but formal
 **nonconfirmation**. On 1,382 strict labels/radial/diagram groups, both favored
 and disfavored tails reach the minimum p=1/8192 under both exact-position-
