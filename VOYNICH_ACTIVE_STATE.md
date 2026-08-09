@@ -1442,11 +1442,16 @@ negative folios. But the largest favored folio contributes 35.56% and 36.87%
 of absolute favored residual, exceeding the frozen .25 cap; both ensemble
 passes therefore fail. A clean-room implementation reconstructs every orbit,
 score, gate, binding, report byte, and mutation in 28 checks. Do not weaken
-the cap or call the aggregate near-miss a shared manuscript-wide grammar. A
-post-result folio audit is frozen only to identify the concentration source
-and deletion behavior; it cannot change the decision, select a subset, or
-establish wordhood, object ownership, label meaning, picture identity, sound,
-language, cipher operation, plaintext, or translation.
+the cap or call the aggregate near-miss a shared manuscript-wide grammar. The
+frozen post-result audit identifies f68 as the largest favored contributor in
+both nulls (35.56%/36.87%; 245 groups / 912 transitions), but deleting f68—or
+any other single folio—leaves both favored and disfavored tails at p<=.01;
+deleting f68 itself leaves all four tails at 1/8192. An independent 21-check
+reconstruction matches both complete orbits and all 52 deletion rows exactly.
+Thus the near-miss is broad but too unequal for the registered claim, not a
+single-folio artifact. The audit cannot change the decision, select a subset,
+or establish wordhood, object ownership, label meaning, picture identity,
+sound, language, cipher operation, plaintext, or translation.
 
 The first post-reset author-visible relation has now passed. `EAS001` used the
 older text-blind frozen inventory of explicit repeated sectors, bands, rows,
