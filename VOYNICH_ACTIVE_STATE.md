@@ -3496,6 +3496,16 @@ complete result, 56 transform/fold digests, 357 numeric diagnostics, all gates,
 and four mutation guards in 472 checks. This is transform capacity only, not a
 morphology association.
 
+The SME003 target-free calibration design is now frozen after independent
+novelty and adversarial audits. It uses 64 paired synthetic null worlds and
+whole three-reading row-triplet permutations within pages for power, thereby
+preserving every real feature row, algebraic relation, page inventory, and
+alternate-reading perturbation. Cross-reading cosine, folio-specific and
+opposite-cluster directions, held-fold leakage sentinels, dual phase ensembles,
+joint ray/tail correction, material, common-folio, and deletion gates must all
+pass. Additive impossible paragraph profiles are prohibited as power evidence.
+No morphology source may be opened or hashed during this calibration.
+
 A new semantic route needs genuinely independent authorial evidence or a new
 invariant capable of falsifying competing meanings. A new model, crop,
 threshold, spelling resemblance, subset, historical analogy, or GPU search is
