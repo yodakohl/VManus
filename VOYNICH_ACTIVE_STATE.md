@@ -1479,6 +1479,22 @@ GPU/CPU numeric difference 1.43e-14. The real operation labels remain unopened.
 This authorizes exactly one separately frozen `NONE` versus `DA` target, not a
 detachment, prefix function, syntax label, sound, language, or meaning claim.
 
+The one frozen real target is now an independently validated
+**nonconfirmation**. Inside 197 exact remainder-folio natural-experiment cells,
+the `DA` versus `NONE` locus-position statistic is .002664 (p=.144287,
+z=1.048; 33/59 positive folios), and the position-residualized neighbor
+statistic is .003287 (p=.284668, z=.349; 43/59 positive). The neighbor
+association reverses by register (Currier A -.019693, B +.016877), and neither
+system passes. A production-free CPU implementation reconstructs the full
+26,184-row source join, all 1,207 labels, both 8,192-assignment scores, gates,
+and report in 24 checks with maximum numeric difference 8.89e-16. Thus the
+confirmed `D-A-Q-K(-J)` opening is real, but `DA` does **not** behave as a
+broad transferable locus-position or adjacent-group context marker for the
+same exact remainders at this resolution. Do not rescue another operation pair
+or selected register. Internal form-building, spelling, or other functions
+remain possible but unproved; no word, prefix meaning, syntax, or translation
+follows.
+
 The frozen out-of-domain prose-to-diagnostic test is now a strong but formal
 **nonconfirmation**. On 1,382 strict labels/radial/diagram groups, both favored
 and disfavored tails reach the minimum p=1/8192 under both exact-position-
