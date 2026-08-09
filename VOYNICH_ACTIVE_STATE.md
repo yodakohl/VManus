@@ -2081,6 +2081,20 @@ temperature, figure, organ, tube, inlet, or outlet meaning. Reopen only with a
 third independently and explicitly owned HOT/MOIST/COLD/DRY value frozen
 before its string, or new author-visible evidence resolving f77v.3 ownership.
 
+An exhaustive post-hoc neighbour inventory now places that candidate in its
+proper reference class. Against all 868 other-page `kind=L` loci present in
+all three readings, `f77v.3` ranks first for the f57v.8 COLD-position form by
+minimum then mean corresponding-reading surface similarity. It is the only
+edition-specific exact match found for any of the four f57 quality-position
+forms (ZL only); there is no all-reading exact match. This is useful candidate
+prioritization, not a dictionary result. The first neighbours of the HOT,
+MOIST, and DRY-position forms, and the remainder of the COLD list, span plant
+fragment, star, Moon, zodiac-figure, container, and unannotated label
+contexts. The common signal is therefore label/circular-register morphology
+before English semantics. Keep `f77v.3` as the first ownership-source
+acquisition target, but do not mine further form neighbours as temperature
+evidence or transfer any object word to the f57 labels.
+
 A later exhaustive simple-feature diagnostic recovers an exact local two-bit
 table in every manual reading, but a correction makes it semantically
 nonidentifying. Terminal `y` selects the SE+NW diagonal in both N1 and D1; N1
