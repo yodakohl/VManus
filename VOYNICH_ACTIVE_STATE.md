@@ -3474,6 +3474,17 @@ new method input for a distinct future route: primary power worlds must use a
 shared manuscript component plus smaller reading-specific perturbations, while
 fully independent readings remain an adversarial sensitivity test.
 
+SME003 now freezes that distinct route at target-blind preflight only. It asks
+whether a distributed high-minus-low paragraph-profile direction learned on
+other physical folios predicts the held folio; it does not rescan individual
+features or relax SME001. Absolute and relative ordinal profiles, parity,
+early/late position, and root-length curves are removed without labels inside
+each held-folio coordinate system. A fixed analytic shrinkage transform is
+trained outside the held folio, and the three readings remain separately
+gated. Static independent audit authorizes only the anonymous transform
+capacity run; ray/tail rows remain forbidden until a separate synthetic
+cross-folio calibration passes without weakening its frozen gates.
+
 A new semantic route needs genuinely independent authorial evidence or a new
 invariant capable of falsifying competing meanings. A new model, crop,
 threshold, spelling resemblance, subset, historical analogy, or GPU search is
