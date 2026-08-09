@@ -131,7 +131,6 @@ def main() -> None:
         "inputs": {path.name: sha(path) for path in (*FROZEN, RUNNER)},
         "backend": "cupy" if cp is not None else "numpy",
         "backend_version": cp.__version__ if cp is not None else np.__version__,
-        "gpu_name": cp.cuda.runtime.getDeviceProperties(0)["name"].decode() if cp is not None else None,
         "masked_rows": len(panel.rows),
         "informative_folios": len(panel.folios),
         "represented_remainders": len(panel.base_ids),

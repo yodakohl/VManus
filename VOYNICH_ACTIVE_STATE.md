@@ -1467,6 +1467,18 @@ reconstructs exact panel/quota/report bytes. This authorizes target-free
 synthetic calibration only. No real operation-to-context association has been
 computed, and no detachment, prefix function, syntax, sound, or meaning follows.
 
+The target-free context-concordance calibration now passes. Exact
+remainder-folio quotas are preserved in every assignment. Across 64 null
+worlds neither locus-position nor position-residualized neighbor context ever
+passes; all eight position plants pass only the position system, all eight
+neighbor plants pass only the neighbor system, and all one-folio,
+folio-random, and one-base adversaries fail both. Six representative decisions
+remain unchanged at 8,192 assignments. An independent CPU implementation
+reconstructs all 104 worlds and six large orbits in 125 checks, with maximum
+GPU/CPU numeric difference 1.43e-14. The real operation labels remain unopened.
+This authorizes exactly one separately frozen `NONE` versus `DA` target, not a
+detachment, prefix function, syntax label, sound, language, or meaning claim.
+
 The frozen out-of-domain prose-to-diagnostic test is now a strong but formal
 **nonconfirmation**. On 1,382 strict labels/radial/diagram groups, both favored
 and disfavored tails reach the minimum p=1/8192 under both exact-position-
