@@ -1327,7 +1327,8 @@ checks and all 192 calibration records with zero numeric discrepancy in 209
 checks. The real interior family sequence remains unopened under this exact
 test. This authorizes only a separately frozen target run testing whether the
 confirmed complete-group positional effect extends beyond endpoints and exact
-length; no morphology or meaning follows from calibration.
+length. The one-time runner is now frozen as `294f0bdd...` and must be public
+before execution; no morphology or meaning follows from calibration.
 
 The first post-reset author-visible relation has now passed. `EAS001` used the
 older text-blind frozen inventory of explicit repeated sectors, bands, rows,
