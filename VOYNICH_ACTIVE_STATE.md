@@ -1218,6 +1218,21 @@ different distances, selected readings/templates, or weaker thresholds. The
 next route must leave this exact scope family. No sound, word, language, cipher
 operation, meaning, plaintext, or translation follows.
 
+A genuinely different source-native morphology route is now open at capacity
+only. It asks whether the first STA family of a synchronized prose group helps
+predict its last family after the second and penultimate families, capped
+length, locus position, Currier register, and held physical folio are fixed.
+This is within-group edge coupling, not adjacent-group transition scoring,
+first-versus-last classification, smooth internal position, or member-code
+allography. The target-masked panel contains 19,203 groups on 94 folios;
+14,955 retain at least 20 baseline-cell and five opening-conditioned examples
+outside their own folio. Ten opening families and 134 baseline cells survive.
+The final family is absent from the panel, and an independent 19,234-check
+implementation reconstructs every row and support. This authorizes synthetic
+calibration only. It does not yet establish edge agreement, an affix,
+circumfix, word, sound, language, cipher operation, meaning, plaintext, or
+translation.
+
 The first post-reset author-visible relation has now passed. `EAS001` used the
 older text-blind frozen inventory of explicit repeated sectors, bands, rows,
 and apparatus slots; it did not use pixels, OCR, automated vision, semantic
