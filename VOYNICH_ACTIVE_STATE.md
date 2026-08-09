@@ -1292,8 +1292,9 @@ unchanged by reversal, every latent plant remains `LATENT_3`, and its largest
 selected-minus-K1 reversal difference is 1.95e-16. A production-free
 implementation reconstructs all 64 original and 64 reversed worlds with zero
 numeric discrepancy in 166 checks. The target remains unopened. This now
-authorizes a separately hash-frozen one-time TRAIN/CAL-selected, held-TEST
-source-family run, but it predetermines no outcome and supplies no prefix,
+authorizes the separately hash-frozen one-time TRAIN/CAL-selected, held-TEST
+source-family runner (`7a40e055...`) after its public registration, but it
+predetermines no outcome and supplies no prefix,
 root, suffix, sound, word, language, meaning, plaintext, or translation.
 
 The first post-reset author-visible relation has now passed. `EAS001` used the
