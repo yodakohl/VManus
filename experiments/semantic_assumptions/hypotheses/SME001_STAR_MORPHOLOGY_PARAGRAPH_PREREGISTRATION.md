@@ -115,9 +115,12 @@ the complete physical marker sequence.
 
 The same page-shift vector synchronously rotates ray and tail sequences and is
 shared by ZL3b, IT2a, and RF1b. Thus every assignment preserves each page's
-complete category counts, rare states, adjacency/run structure, and the
-cross-target ray/tail relation. Text values, pages, folios, ordinal coordinates,
-and paragraph boundaries never move.
+complete category counts, rare states, cyclic adjacency/run structure, and the
+cross-target ray/tail relation. A rotation relocates the linear top/bottom cut;
+it does not preserve the literal linear run partition. The frozen early/late
+gates protect against a result carried only by that ordinal boundary. Text
+values, pages, folios, ordinal coordinates, and paragraph boundaries never
+move.
 
 Raw Monte Carlo p is
 `(1 + random assignments with R >= observed R) / 262144`.
@@ -169,7 +172,8 @@ real morphology-feature join. Controls must include:
 - a one-folio signal that fails deletion/support;
 - alternate-reading disagreement and reversed-direction controls;
 - a root signal carried only by paragraph length that fails the length gate;
-- explicit rare-state preservation and rotation/run-structure checks;
+- explicit rare-state preservation, cyclic-adjacency preservation, and
+  linear-cut relocation checks;
 - inclusive-tie, deterministic-hash, global-complement, row duplication,
   missing-row, page/folio/ordinal/locus drift, nonfinite, and constant-feature
   checks;

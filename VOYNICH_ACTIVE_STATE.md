@@ -3427,7 +3427,8 @@ values still unread and unjoined.
 
 The SME001 test is now preregistered but unscored. It uses 262,143
 deterministic synchronized whole-page rotations plus the physical alignment,
-preserving complete ray/tail sequences, rare states, and run structure. All 84
+preserving complete ray/tail multisets, rare states, and cyclic run structure
+while relocating the linear page cut. All 84
 features and both targets share one max-family correction. A lead must pass the
 weakest alternate-reading z, .15 target-blind material effect, odd/even,
 early/late, every-folio deletion, multi-folio direction, and root-length
