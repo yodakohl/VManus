@@ -3242,6 +3242,23 @@ qualify and both are WEST; the larger apparent set came from the discarded
 broad region-name classifier. Thus the alias repair adds zero strict matched
 strata and cannot rescue `BOUND_E`. Independent reconstruction passes 12/12.
 
+### Active next experiment: f69r circular-fragment word-likeness
+
+F69C001 is prescore-registered with its target unopened. The six manually
+transcribed center pieces on f69r define a genuinely author-visible circular
+construction, but their start and handedness are unknown. The frozen test asks
+whether their dihedral orbit is unusually ordinary-word-like under one
+manuscript-internal order-2 character model. Before any target code may exist,
+the method must recover deliberately fragmented seven-character prose words
+under page and candidate-surface exclusions in each of ZL3b, IT2a, and RF1b.
+
+The calibration gates, exact 60-orbit null, target combination, deletion
+checks, negative fixtures, and claim ceiling are fixed in
+`experiments/semantic_assumptions/f69r_circular_fragment_word/METHOD_FREEZE.md`.
+A failed calibration ends the route without scoring f69r. Even a target pass
+would establish only unusual circular word-likeness under this model, never a
+start, handedness, sound, lexeme, language, plaintext, or translation.
+
 ## Admission rule for new work
 
 A new semantic route needs genuinely independent authorial evidence or a new
