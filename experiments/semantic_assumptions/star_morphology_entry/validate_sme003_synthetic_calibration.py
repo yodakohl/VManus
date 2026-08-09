@@ -1180,7 +1180,7 @@ def validate_result(result: Mapping[str, Any], universe: Universe, preflight: Ma
         expected_gates[f"monotone_{target}"] = all(
             power_passes[(target, driver, stronger)] >= power_passes[(target, driver, weaker)] - 1
             for driver in DRIVERS
-            for weaker, stronger in zip(STRENGTHS, STRENGTHS[1:], strict=True)
+            for weaker, stronger in zip(STRENGTHS[:-1], STRENGTHS[1:], strict=True)
         )
     expected_gates.update(control_summary)
     # Successful independent reconstruction establishes both implementation-

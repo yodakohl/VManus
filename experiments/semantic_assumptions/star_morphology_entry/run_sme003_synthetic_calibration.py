@@ -1534,7 +1534,7 @@ def _summarize_gates(
             power_counts[(target, driver, stronger)]
             >= power_counts[(target, driver, weaker)] - 1
             for driver in fixture.DRIVERS
-            for weaker, stronger in zip(STRENGTHS, STRENGTHS[1:], strict=True)
+            for weaker, stronger in zip(STRENGTHS[:-1], STRENGTHS[1:], strict=True)
         )
     gates.update(
         {
