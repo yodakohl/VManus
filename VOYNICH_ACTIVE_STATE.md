@@ -1553,8 +1553,9 @@ and four mutations in 34 checks with zero numeric discrepancy. Thus selection
 of the dominant `D1 A1` opening is constrained by the exact member beginning
 the following remainder, beyond its coarse family identity, and the rule
 transfers across held folios. This is the first confirmed exact-member
-compatibility rule in this route. It may reflect allomorphy, harmony,
-orthography, or another symbolic compatibility system, but chooses none and
+compatibility rule in this route. The statistic alone could reflect
+allomorphy, harmony, orthography, or another symbolic compatibility system,
+but the source audit below materially narrows that interpretation. It
 establishes no detachment, morphology, pronunciation, wordhood, POS, syntax,
 language, cipher operation, meaning, plaintext, or translation.
 
@@ -1589,6 +1590,36 @@ opened. Therefore this particular cross-base predictor is underpowered and no
 manuscript target is authorized. The confirmed within-base cross-folio rule
 remains unchanged; shared cross-base structure remains unresolved rather than
 failed.
+
+A complete post-confirmation atlas now decomposes all 1,207 rows without
+selection into 95 exact base/onset states and 25 onset triplets. Relative to
+the fixed base/folio quotas, 36 pair states are positive, 13 zero, and 46
+negative; 31/44 coarse bases contain member states in both directions. Forty
+pair states have raw `DA` rate zero or one, although many are small and this is
+not a minimum-support claim. The largest residuals form complementary local
+contrasts: `KBA | K1/K1/K1` is -197/24 while `KBA | K2/K2/K2` is +197/24;
+`C | C1/C1/C1` is +524/105 while `C | C2/C2/C2` is -559/105; and `UJA |
+U1/U1/U1` is +52/15 while `UJA | U2/U2/U2` is -46/15. Independent code
+reconstructs all source joins, quotas, 120 table rows, exact bytes, report,
+gates, and five mutations in 21 checks. This localizes the prior confirmation
+but adds no new inferential pass.
+
+The official public STA conversion rules provide an important interpretation
+correction. `D1 A1` maps exactly to literal EVA/EvaT **`qo`** in all three
+readings. The strongest contrasts are likewise direct transcription surfaces:
+`K1=ch` versus `K2=ee`, `C1=r` versus `C2=s`, and `U1=ckh` versus `U2=cth`.
+All 12 largest residual rows have identical member codes and mapped surfaces
+in ZL3b, IT2a, and RF1b. All six represented coarse STA families deliberately
+collapse at least two distinct exact codes and transcription surfaces. A
+separate independent parser reconstructs the 25-row crosswalk, rule mappings,
+gates, report, and three mutations in 19 checks. Therefore the confirmed result
+is safest as a transferable **transcription-level orthotactic compatibility of
+the literal `qo` construction**, beyond an intentionally coarse family
+collapse—not evidence of latent semantic agreement. EVA/EvaT are
+transliterations, not proven authorial letters or sounds. The next useful
+mechanism test must ask whether information beyond this immediate surface
+onset predicts opening selection; merely renaming the member states or
+retesting `qo` would repeat the closed question.
 
 The frozen out-of-domain prose-to-diagnostic test is now a strong but formal
 **nonconfirmation**. On 1,382 strict labels/radial/diagram groups, both favored
