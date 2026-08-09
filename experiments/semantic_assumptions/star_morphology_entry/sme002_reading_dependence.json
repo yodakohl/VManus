@@ -1,0 +1,64 @@
+{
+  "claim_ceiling": "alternate-transcription feature dependence only; no morphology association or meaning",
+  "decision": "future power calibration must model shared-manuscript reading dependence; edition-independent noise remains a worst-case stress test only",
+  "editions": [
+    "ZL3b",
+    "IT2a",
+    "RF1b"
+  ],
+  "experiment": "SME002_DESIGN_INPUT",
+  "features": 84,
+  "input_hashes": {
+    "experiments/semantic_assumptions/star_morphology_entry/anonymous_feature_inventory.json": "088232b431b4b9746bb94a08328cb969fb7c21c6a28cd112286da40d6429fea5",
+    "experiments/semantic_assumptions/star_morphology_entry/anonymous_paragraph_matrix.tsv": "b246456b181b07e847c6d5a49b959b0346eff6a4c6febb8a543de104c505a26a"
+  },
+  "morphology_fields_accessed": false,
+  "pairwise": {
+    "IT2a__RF1b": {
+      "all_cell_exact_share": 0.6847527472527473,
+      "constant_in_one_or_both": [
+        "OPEN_FIRST_HAS_Q"
+      ],
+      "correlation_median": 0.9304192685102586,
+      "correlation_min": 0.6522440532855538,
+      "correlation_q10": 0.8261959831803508,
+      "correlation_share_ge_0_75": 0.963855421686747,
+      "correlation_share_ge_0_90": 0.7228915662650602,
+      "normalized_rmse_median": 0.38646742508126714,
+      "per_feature_exact_share_median": 0.7371794871794872,
+      "variable_features": 83
+    },
+    "ZL3b__IT2a": {
+      "all_cell_exact_share": 0.7649572649572649,
+      "constant_in_one_or_both": [
+        "OPEN_FIRST_HAS_Q"
+      ],
+      "correlation_median": 0.9632278165942393,
+      "correlation_min": 0.6302364624370453,
+      "correlation_q10": 0.9201670096458571,
+      "correlation_share_ge_0_75": 0.9879518072289156,
+      "correlation_share_ge_0_90": 0.927710843373494,
+      "normalized_rmse_median": 0.2815689415883555,
+      "per_feature_exact_share_median": 0.8012820512820513,
+      "variable_features": 83
+    },
+    "ZL3b__RF1b": {
+      "all_cell_exact_share": 0.6826923076923077,
+      "constant_in_one_or_both": [
+        "OPEN_FIRST_HAS_Q"
+      ],
+      "correlation_median": 0.9346485936369102,
+      "correlation_min": 0.7231952938655143,
+      "correlation_q10": 0.8477916219041235,
+      "correlation_share_ge_0_75": 0.9759036144578314,
+      "correlation_share_ge_0_90": 0.7710843373493976,
+      "normalized_rmse_median": 0.3695930820060543,
+      "per_feature_exact_share_median": 0.733974358974359,
+      "variable_features": 83
+    }
+  },
+  "status": "PASS_TARGET_BLIND_ALTERNATE_READING_DEPENDENCE",
+  "target_rows_accessed": false,
+  "target_scope_rule": "exclude complete page f106r without reading target binding",
+  "units": 156
+}

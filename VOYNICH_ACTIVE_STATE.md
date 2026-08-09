@@ -3461,6 +3461,16 @@ establish only an anonymous marker-morphology-conditioned construction or root
 association under the ordinal pairing, not a ray/tail meaning, recipe class,
 number, word meaning, lexeme, plaintext, language, or translation.
 
+A target-blind design audit identifies why SME001's registered power worlds
+were unusually harsh. Across the 156 anonymous target-scope units, median
+feature correlations are .9632 for ZL–IT, .9346 for ZL–RF, and .9304 for
+IT–RF; about .765, .683, and .685 of all feature cells are exactly equal. The
+three readings are strongly dependent views of one manuscript, not independent
+measurement noise. This does not rescue the frozen SME001 failure. It supplies
+new method input for a distinct future route: primary power worlds must use a
+shared manuscript component plus smaller reading-specific perturbations, while
+fully independent readings remain an adversarial sensitivity test.
+
 A new semantic route needs genuinely independent authorial evidence or a new
 invariant capable of falsifying competing meanings. A new model, crop,
 threshold, spelling resemblance, subset, historical analogy, or GPU search is
