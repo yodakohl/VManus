@@ -3117,6 +3117,20 @@ FLOWER, FRUIT, NO, plant name, plaintext, or translation. Do not retune the
 blocks, add the excluded same-folio pages, lower thresholds, or mine a feature
 subset.
 
+`FLOWERVOL001` is the registered target-unrun root-free follow-up. It asks the
+more basic question whether the side-view-flower pages contain a different
+amount or packing of prose than their explicitly fruit/flower-free block
+mates. Exactly three measures are frozen: confirmed physical-line count,
+stored transcription word count, and tokens per line. The first control call
+stopped before output because normalized hierarchical `surface` spacing does
+not always equal the stored original `word_count`; the design-specified stored
+count was retained and no target value was extracted. The corrected 2,187-way
+controls pass, and a nonimporting implementation reconstructs the 843-row
+three-measure matrix, full family null, and every control in 15 checks. One
+target invocation is authorized. Even a pass is only a page-volume
+association, never a flower line, lexeme, plant name, plaintext, or
+translation.
+
 ## Admission rule for new work
 
 A new semantic route needs genuinely independent authorial evidence or a new
