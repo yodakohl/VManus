@@ -1160,6 +1160,23 @@ using source separators and frozen manual layout only. No sound, vowel,
 consonant, word, language, cipher operation, meaning, plaintext, or translation
 follows.
 
+A score-blind capacity audit now confirms that the scope question is testable
+without reopening the page-state outcome. Using only source-aligned groups and
+the ZL editorial paragraph scaffold, and conditioning on collapsed page, exact
+masked `ch/sh+X` template, and ZL line-order quartile, each reading retains 501
+queries with another same-paragraph group and another different-paragraph
+group. Exactly 350 physical query keys on 34 folios occur in all three reading
+panels. The stored panel contains masked templates and support counts only:
+zero `o/e` outcomes, page states, effects, or p-values. An independent
+154,194-check reconstruction matches all 1,503 rows and exact artifact bytes.
+This is distinct from the closed paragraph-ordinal-profile route: it asks
+whether a fixed construction site's binary formal choice persists locally
+beyond page/template/position controls. It authorizes only a preregistered
+synthetic-control and power preflight before any outcome is opened. The ZL
+paragraph marks remain editorial layout judgments; no authorial paragraph,
+sound, word, language, cipher operation, meaning, plaintext, or translation
+follows.
+
 The first post-reset author-visible relation has now passed. `EAS001` used the
 older text-blind frozen inventory of explicit repeated sectors, bands, rows,
 and apparatus slots; it did not use pixels, OCR, automated vision, semantic
