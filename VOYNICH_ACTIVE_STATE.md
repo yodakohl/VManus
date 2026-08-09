@@ -1033,6 +1033,17 @@ two-reading gaps. Both target classes occur on 95 physical folios; every
 two-reading gap and 812/814 one-reading gaps have a local family-pair training
 example outside their folio. This authorizes freezing the held test, not fitting
 after looking at its target contrast and not asserting an authorial word boundary.
+The frozen first-order ordered-family-pair test has now run once. It predicts
+held unanimous boundaries very strongly (mean folio AUC .93280; all 102 folio
+contrasts positive), and the aggregate two-reading-minus-one-reading target is
++.43918, 7.71% of the unanimous contrast, on 64/95 positive folios (exact sign
+p=.000462). It nevertheless fails the prespecified reading-anchor gate: the ZL
+anchor is +.81290 and RF +.14633, but IT is -.05736 on 70 folios. Because RF is
+partly derived from ZL, the aggregate can reflect transcription-specific
+boundary conventions rather than one transferable manuscript boundary grammar.
+The registered result is therefore **nonconfirmation**, not a weakened pass.
+Do not retune this first-order support-count test. Retain only the unanimous and
+synchronized source boundaries for the next source-native grammar build.
 
 The first post-reset author-visible relation has now passed. `EAS001` used the
 older text-blind frozen inventory of explicit repeated sectors, bands, rows,
