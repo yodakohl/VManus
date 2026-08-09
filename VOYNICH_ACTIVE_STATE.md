@@ -1360,6 +1360,22 @@ order dependency beyond position. The runner is frozen as `8c1fd4e6...` and
 must be public before its one invocation; calibration does not establish
 syntax or meaning.
 
+The single target now **confirms** that portable local dependency. Against the
+already strong `(Currier, exact length, five-position bin)` baseline, adding
+only the previous source family improves held scoring by +.318008 nat/symbol
+forward and +.333406 reversed; all 24/24 TEST folios are positive and every
+deletion remains positive. Currier A/B gains are +.267298/+.389002 forward and
++.286191/+.399507 reversed. Most importantly, 719 exact complete group
+sequences absent from TRAIN retain +.086524 and +.119800 equal-folio gain.
+A production-free implementation rejoins all 21,899 groups and reconstructs
+both evaluations, every aggregate, gate, decision, report byte, binding, and
+four join mutations in 28 checks. This is stronger and more general than the
+failed endpoint-free marginal-position test: recurring templates exist, but
+they sit on top of a transferable first-order source-family grammar. The
+dependency is equally detectable after reversal, so it does not choose a
+spoken reading direction. It establishes no syntax label, morphology, sound,
+word, language, meaning, plaintext, cipher, or translation.
+
 The first post-reset author-visible relation has now passed. `EAS001` used the
 older text-blind frozen inventory of explicit repeated sectors, bands, rows,
 and apparatus slots; it did not use pixels, OCR, automated vision, semantic
