@@ -1621,6 +1621,24 @@ mechanism test must ask whether information beyond this immediate surface
 onset predicts opening selection; merely renaming the member states or
 retesting `qo` would repeat the closed question.
 
+Public word-paradigm sources now impose a stronger novelty correction. Every
+one of the six favored family edges is legal under the published ordered slot
+alphabet: primary witnesses reduce to already familiar `q|o`, `o|k/t`,
+`k/t|ch/ee`, `ch|e` or `ee|e`, `p/f|ch/ee`, and `sh|e` shapes. Published work
+also predates this project in comparing otherwise identical `qo...` and
+`o...` forms and finding a leftward line-position tendency. The public grammar
+is permissive rather than explanatory: 46/52 disfavored and 239/518 unresolved
+family pairs are also technically slot-compatible, so our held-folio atlas
+still adds a quantitative preference layer inside that broad legality.
+Moreover, STA `K2=ee` plus `J1=e` is public one-slot `eee`, proving that STA
+family boundaries are not one-to-one with public slot boundaries. Therefore
+**DEMOTE_PATH_NOVELTY_RETAIN_HELD_FREQUENCY_REFINEMENT**: the `D-A-Q-K-J`
+path is a rigorous recovery/refinement of known word-shape machinery, not a
+new grammar or decipherment. Preserve genuinely cross-space dependencies and
+graphical record-boundary findings separately. Independent code reconstructs
+284 public basic STA mappings, all 576 atlas pairs, every compatibility count,
+primary witness, decision, and mutations in 21 checks.
+
 The first such incremental route now passes target-label-masked capacity. It
 fixes both the complete coarse remainder and the exact first onset, then asks
 only whether the second exact member adds information on a held folio. A row
