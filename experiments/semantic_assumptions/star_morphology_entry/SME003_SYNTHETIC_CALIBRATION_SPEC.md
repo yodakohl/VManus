@@ -221,6 +221,12 @@ and:
 - `BALANCED_24_DRIVER` uses the 12 formal and 12 root eligible features with lowest
   world/target-specific SHA ranks.
 
+After membership selection, both drivers retain the inherited 83-feature
+order for summation, sign serialization, and driver-feature digests; SHA rank
+order selects membership but is not the numeric accumulation order. Serialized
+swap mappings use the validated anonymous matrix's global unit-ID-sorted row
+indices, while page tie-breaks continue to use destination ordinal and unit ID.
+
 These are projection drivers only. Whole-row reassignment can induce effects
 in correlated nondriver features, so `BALANCED_24_DRIVER` does not claim a
 signal confined to 24 features. Every power world reports full-profile
