@@ -3188,9 +3188,25 @@ The first independent-validator call stopped without an artifact because of a
 deprecated NumPy disagreement expression and non-serializable NumPy booleans;
 no direction binding was opened. The repaired nonimporting implementation
 reconstructs the bindings, matrices, orbit, quantiles, controls, row-mutation
-guards, and target absence in 20/20 checks. **One frozen horizontal target
-invocation is authorized and remains unrun at this state.** No threshold,
-pair, feature, view, gate, or runner change is allowed after target access.
+guards, and target absence in 20/20 checks.
+
+The single frozen horizontal target is now final and nonconfirmatory. Zero of
+13 formal features passes. The closest diagnostic is the existing structural
+category `BOUND_E` and its coextensive `BOUND_E+BARE` path: adjusted familywise
+`p=.098999` versus the frozen `.025` gate, raw familywise `p=.066406` versus
+`.05`, and deletion tails from `.121094` to `.2890625` versus `.05`. Its
+east-minus-west direction is nevertheless positive in every reading, every
+physical folio, and both non-pharmaceutical contexts, so retain it only as an
+honest nonpassing diagnostic. `BOUND_E` is a formal grammar name, not the
+letter E and not an EAST gloss.
+
+A nonimporting target reconstruction matches target orientation 60,549, all
+13 rows, the complete 65,536 family orbit, six deletion orbits, gates, empty
+candidate table, and final decision in 16/16 checks. Close only this fixed
+horizontal placement-association test. Do not lower thresholds, drop deletion
+or family correction, alter pairing, or reuse the same 57 annotations as if
+independent. The result supplies no direction word, ownership, lexeme,
+plaintext, language, or translation.
 
 ## Admission rule for new work
 
