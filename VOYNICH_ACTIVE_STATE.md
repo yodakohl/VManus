@@ -3425,13 +3425,17 @@ and the sole tail-less marker remain explicit ignored third states. An
 independent source-only reconstruction passes 12/12 checks, with text feature
 values still unread and unjoined.
 
-The next mandatory action is a preregistered target-blind scoring design whose
-null preserves each page's complete morphology sequence and run structure,
-blocks parity and ordinal-gradient artifacts, equalizes physical folios,
-synchronizes alternate readings, and fails on one-folio leverage. Even
-confirmation can establish only a marker-morphology-conditioned construction
-or anonymous root association, not a ray/tail meaning, recipe class, number,
-word meaning, lexeme, plaintext, language, or translation.
+The SME001 test is now preregistered but unscored. It uses 262,143
+deterministic synchronized whole-page rotations plus the physical alignment,
+preserving complete ray/tail sequences, rare states, and run structure. All 84
+features and both targets share one max-family correction. A lead must pass the
+weakest alternate-reading z, .15 target-blind material effect, odd/even,
+early/late, every-folio deletion, multi-folio direction, and root-length
+residual gates. The next mandatory action is production synthetic controls and
+a nonimporting prescore audit; real morphology and real feature values remain
+unjoined. Even confirmation can establish only a marker-morphology-conditioned
+construction or anonymous root association, not a ray/tail meaning, recipe
+class, number, word meaning, lexeme, plaintext, language, or translation.
 
 A new semantic route needs genuinely independent authorial evidence or a new
 invariant capable of falsifying competing meanings. A new model, crop,
