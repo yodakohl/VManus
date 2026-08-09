@@ -1058,6 +1058,15 @@ last reaches 87.07% on non-tied pairs. A nonimporting validator reconstructs
 the complete score table and result in 531,673 checks. This confirms reusable
 source-native construction-edge information on novel complete forms. `FIRST`
 and `LAST` are structural positions only, not START/STOP words or meanings.
+The frozen edge score does **not** extend as a material smooth coordinate
+through the locus interior. On 7,728 mirrored internal pairs it is only 51.53%
+correct, 62/102 folios are positive (p=.01853), and the equal-folio effect
++.07580 is only 2.74% of the endpoint reference, failing the frozen 5%
+magnitude, 55% accuracy, and p<=.01 gates. The small direction remains positive
+under several diagnostics but cannot be promoted. The independently validated
+interpretation is therefore an opening/core/closing architecture with strong
+edge morphology, not a single scalar progression through the core. Do not
+retune the internal-gradient target.
 
 The first post-reset author-visible relation has now passed. `EAS001` used the
 older text-blind frozen inventory of explicit repeated sectors, bands, rows,
