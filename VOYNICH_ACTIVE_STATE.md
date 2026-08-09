@@ -3244,20 +3244,27 @@ strata and cannot rescue `BOUND_E`. Independent reconstruction passes 12/12.
 
 ### Active next experiment: f69r circular-fragment word-likeness
 
-F69C001 is prescore-registered with its target unopened. The six manually
-transcribed center pieces on f69r define a genuinely author-visible circular
-construction, but their start and handedness are unknown. The frozen test asks
-whether their dihedral orbit is unusually ordinary-word-like under one
-manuscript-internal order-2 character model. Before any target code may exist,
-the method must recover deliberately fragmented seven-character prose words
-under page and candidate-surface exclusions in each of ZL3b, IT2a, and RF1b.
+F69C001 is prescore-registered and its blind calibration has passed with the
+target still unopened. The six manually transcribed center pieces on f69r
+define a genuinely author-visible circular construction, but their start and
+handedness are unknown. The frozen test asks whether their dihedral orbit is
+unusually ordinary-word-like under one manuscript-internal order-2 character
+model. On 128 deliberately fragmented seven-character prose words per reading,
+the true circular orbit is uniquely top in 97 ZL3b, 90 IT2a, and 97 RF1b
+controls (70.31--75.78%), against the registered 35% gate. All three medians
+are rank 1; deterministic nontrue controls are top in 0/128 in every reading.
+The samples cover 89--92 pages and exclude each source page, every candidate
+surface, and all f69 text from training.
 
 The calibration gates, exact 60-orbit null, target combination, deletion
 checks, negative fixtures, and claim ceiling are fixed in
 `experiments/semantic_assumptions/f69r_circular_fragment_word/METHOD_FREEZE.md`.
-A failed calibration ends the route without scoring f69r. Even a target pass
-would establish only unusual circular word-likeness under this model, never a
-start, handedness, sound, lexeme, language, plaintext, or translation.
+A nonimporting scalar implementation independently reproduces all samples,
+720 assignments, 60 dihedral orbits, ranks, aggregates, gates, and the absence
+of a target artifact in 15 checks. Target-runner implementation is therefore
+authorized under the freeze, but no target result yet exists. Even a target
+pass would establish only unusual circular word-likeness under this model,
+never a start, handedness, sound, lexeme, language, plaintext, or translation.
 
 ## Admission rule for new work
 
