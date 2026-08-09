@@ -3242,7 +3242,7 @@ qualify and both are WEST; the larger apparent set came from the discarded
 broad region-name classifier. Thus the alias repair adds zero strict matched
 strata and cannot rescue `BOUND_E`. Independent reconstruction passes 12/12.
 
-### Active next experiment: f69r circular-fragment word-likeness
+### f69r circular-fragment word-likeness
 
 F69C001 is prescore-registered and its blind calibration has passed with the
 target still unopened. The six manually transcribed center pieces on f69r
@@ -3261,15 +3261,27 @@ checks, negative fixtures, and claim ceiling are fixed in
 `experiments/semantic_assumptions/f69r_circular_fragment_word/METHOD_FREEZE.md`.
 A nonimporting scalar implementation independently reproduces all samples,
 720 assignments, 60 dihedral orbits, ranks, aggregates, gates, and the absence
-of a target artifact in 15 checks. The target input is now bound, but its scores
-remain unopened. Existing human clock annotations give the clockwise cycle
-f69r.45, .46, .47, .48, .49, .44; all readings agree except the already known
-`ed` ZL/RF versus `em` IT alternate in the fifth slot. A committed target
-implementation freeze fixes population standardization, all six deletion
-tests, and two mechanical veto fixtures before scoring. Target execution is
-therefore authorized, but no target result yet exists. Even a target pass would
-establish only unusual circular word-likeness under this model, never a start,
-handedness, sound, lexeme, language, plaintext, or translation.
+of a target artifact in 15 checks. Existing human clock annotations give the
+clockwise cycle f69r.45, .46, .47, .48, .49, .44; all readings agree except the
+already known `ed` ZL/RF versus `em` IT alternate in the fifth slot.
+
+The single frozen target is now final as a validated **NONCONFIRMATION**. Its
+physical orbit is nominally combined rank 1/60 and individually rank 1/60 in
+ZL3b and RF1b, but IT2a ranks it 7/60. The six leave-one-slot-out ranks are
+2, 6, 4, 1, 2, and 1 of 12: only four rather than five are at most 2, and one
+is worse than the registered maximum rank 4. Both veto fixtures reject as
+intended, so the score computation is functional, but three robustness gates
+fail. A separate nonimporting target implementation reparses the manual text
+and human clock annotations and reconstructs all bindings, exclusions, scores,
+hashes, ranks, fixtures, gates, and the decision in 15 checks.
+
+Retain the combined top rank only as a diagnostic dominated by the two
+coincident `ed` readings; ZL3b/IT2a/RF1b are alternate readings of one object,
+not votes. Close this fixed word-likeness test. Do not discard IT2a, lower the
+deletion gates, choose a preferred joined orientation, or rerun the target.
+The six pieces remain `SIX_FRAGMENT_CONSTRUCTION_UNRESOLVED`; no start,
+handedness, sound, word, root, lexeme, language, plaintext, or translation
+follows.
 
 ## Admission rule for new work
 
