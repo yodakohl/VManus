@@ -3359,6 +3359,23 @@ target pass can establish only a marker-color-conditioned formal
 construction, never a recipe class, number, word, lexeme, plaintext, language,
 or translation.
 
+The single hash-frozen target is now final and independently validated as a
+**NONCONFIRMATION**. Zero of 15 eligible formal features passes. The strongest,
+`LINE_CARRIER_ANY`, is stable across the two starting-phase strata and every
+physical-folio deletion, but its robust z is only 1.125275, raw p is .171875,
+and max-family p is .933594. A separate scalar implementation reconstructs the
+runner and input hashes, target phase/index 493, complete 512 orbit, every
+effect and tail, subgroup and deletion gates, all rows and hashes, zero-pass
+decision, and ceiling in 18/18 checks.
+
+The first validator call stopped only because one compact 12-digit TSV value
+differed from full JSON by 3.07e-12 against a 2e-12 tolerance; changing the
+compact-row tolerance to 5e-12 validates it. The target JSON, statistics,
+gates, decision, and report never changed. Close this fixed marker-color/formal
+line route. Retain the 120-row human source panel, but do not retune features,
+use excluded proximity mappings, or infer a color meaning, recipe class,
+number, word, lexeme, plaintext, language, or translation.
+
 A new semantic route needs genuinely independent authorial evidence or a new
 invariant capable of falsifying competing meanings. A new model, crop,
 threshold, spelling resemblance, subset, historical analogy, or GPU search is
