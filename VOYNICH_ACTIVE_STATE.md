@@ -1445,6 +1445,18 @@ clean-room 30-check implementation reconstructs all 13 rows and exact output
 bytes. `OPENING` is a physical structural position, not a prefix, word,
 operator, reading direction, sound, meaning, cipher operation, or translation.
 
+The score-blind exact-remainder audit shows that this opening construction has
+enough natural alternation for a genuinely different test. Longest-prefix
+assignment gives 18,384 `NONE`, 639 `DA`, 1,918 `DAQ`, 859 `DAQK`, and 99
+`DAQKJ` groups. Four of ten operation pairs pass the frozen capacity gates.
+The score-blind rule selects `NONE` versus `DA`: 122 exact family remainders
+occur under both states, 53 occur on at least two physical folios in each
+state, and their groups span all 94 folios (7,863 unprefixed / 562 `DA`). A
+clean-room 20-check implementation reconstructs all counts and the selection
+without opening any external context. This authorizes calibration of one
+held-folio context test; it does not yet establish that `DA` is detachable or
+that it has a prefix, word, operator, sound, language, cipher, or meaning.
+
 The frozen out-of-domain prose-to-diagnostic test is now a strong but formal
 **nonconfirmation**. On 1,382 strict labels/radial/diagram groups, both favored
 and disfavored tails reach the minimum p=1/8192 under both exact-position-
