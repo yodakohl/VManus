@@ -1,0 +1,184 @@
+{
+  "decision": {
+    "admitted": false,
+    "minimum_independent_folios": 5,
+    "minimum_owned_examples_per_class": 3,
+    "minimum_readable_classes": 2,
+    "reason": "zero explicit-attachment rows; apparent part mentions are sparse and require source-level ownership adjudication"
+  },
+  "editorial_label_rows": 5,
+  "explicit_attachment_rows": 0,
+  "relation_tagsets": {
+    "REL_ENCLOSURE": 1,
+    "REL_ENCLOSURE;REL_PROXIMITY": 2,
+    "REL_OVERLAP_OR_CONTACT": 3,
+    "REL_OVERLAP_OR_CONTACT;REL_PROXIMITY": 2
+  },
+  "rows": [
+    {
+      "editorial_label": true,
+      "locus": "f2r.15",
+      "normalized_code": "@Lp",
+      "page": "f2r",
+      "relation_tags": [
+        "REL_ENCLOSURE"
+      ],
+      "terms": [
+        "LEAF"
+      ]
+    },
+    {
+      "editorial_label": true,
+      "locus": "fRos.88",
+      "normalized_code": "@L0",
+      "page": "f85v2",
+      "relation_tags": [
+        "REL_ENCLOSURE",
+        "REL_PROXIMITY"
+      ],
+      "terms": [
+        "FLOWER"
+      ]
+    },
+    {
+      "editorial_label": true,
+      "locus": "fRos.90",
+      "normalized_code": "@L0",
+      "page": "f85v2",
+      "relation_tags": [
+        "REL_ENCLOSURE",
+        "REL_PROXIMITY"
+      ],
+      "terms": [
+        "FLOWER"
+      ]
+    },
+    {
+      "editorial_label": true,
+      "locus": "f89r2.33",
+      "normalized_code": "@Lf",
+      "page": "f89r2",
+      "relation_tags": [
+        "REL_OVERLAP_OR_CONTACT",
+        "REL_PROXIMITY"
+      ],
+      "terms": [
+        "LEAF"
+      ]
+    },
+    {
+      "editorial_label": true,
+      "locus": "f99v.20",
+      "normalized_code": "@Lf",
+      "page": "f99v",
+      "relation_tags": [
+        "REL_OVERLAP_OR_CONTACT",
+        "REL_PROXIMITY"
+      ],
+      "terms": [
+        "ROOT",
+        "STEM"
+      ]
+    },
+    {
+      "editorial_label": false,
+      "locus": "f99v.35",
+      "normalized_code": "+P0",
+      "page": "f99v",
+      "relation_tags": [
+        "REL_OVERLAP_OR_CONTACT"
+      ],
+      "terms": [
+        "STEM"
+      ]
+    },
+    {
+      "editorial_label": false,
+      "locus": "f102v2.17",
+      "normalized_code": "@P0",
+      "page": "f102v2",
+      "relation_tags": [
+        "REL_OVERLAP_OR_CONTACT"
+      ],
+      "terms": [
+        "LEAF",
+        "STEM"
+      ]
+    },
+    {
+      "editorial_label": false,
+      "locus": "f102v2.18",
+      "normalized_code": "+P0",
+      "page": "f102v2",
+      "relation_tags": [
+        "REL_OVERLAP_OR_CONTACT"
+      ],
+      "terms": [
+        "ROOT"
+      ]
+    }
+  ],
+  "selected_pages": 5,
+  "selected_rows": 8,
+  "selection": {
+    "certainty": "UNHEDGED",
+    "required_object_tag": "PLANT",
+    "scope": "EXACT_LOCAL_COMMENT",
+    "strong_relation_any": [
+      "REL_ENCLOSURE",
+      "REL_EXPLICIT_ATTACHMENT",
+      "REL_OVERLAP_OR_CONTACT"
+    ],
+    "term_families": [
+      "ROOT",
+      "LEAF",
+      "FLOWER",
+      "STEM",
+      "FRUIT"
+    ]
+  },
+  "source": "experiments/semantic_assumptions/results/existing_human_exact_locus_annotations.tsv",
+  "source_sha256": "79c7f06e91f90054aff4cdf27f098a5977d820acdf91f239a14c6ddf553a7f61",
+  "status": "STOP_NO_REPLICATED_OWNED_PLANT_PART_CONTRAST",
+  "terms": {
+    "FLOWER": {
+      "loci": [
+        "fRos.88",
+        "fRos.90"
+      ],
+      "pages": 1,
+      "rows": 2
+    },
+    "FRUIT": {
+      "loci": [],
+      "pages": 0,
+      "rows": 0
+    },
+    "LEAF": {
+      "loci": [
+        "f2r.15",
+        "f89r2.33",
+        "f102v2.17"
+      ],
+      "pages": 3,
+      "rows": 3
+    },
+    "ROOT": {
+      "loci": [
+        "f99v.20",
+        "f102v2.18"
+      ],
+      "pages": 2,
+      "rows": 2
+    },
+    "STEM": {
+      "loci": [
+        "f99v.20",
+        "f99v.35",
+        "f102v2.17"
+      ],
+      "pages": 2,
+      "rows": 3
+    }
+  }
+}
