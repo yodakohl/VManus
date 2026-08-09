@@ -3425,18 +3425,34 @@ and the sole tail-less marker remain explicit ignored third states. An
 independent source-only reconstruction passes 12/12 checks, with text feature
 values still unread and unjoined.
 
-The SME001 test is now preregistered but unscored. It uses 262,143
-deterministic synchronized whole-page rotations plus the physical alignment,
-preserving complete ray/tail multisets, rare states, and cyclic run structure
-while relocating the linear page cut. All 84
-features and both targets share one max-family correction. A lead must pass the
-weakest alternate-reading z, .15 target-blind material effect, odd/even,
-early/late, every-folio deletion, multi-folio direction, and root-length
-residual gates. The next mandatory action is production synthetic controls and
-a nonimporting prescore audit; real morphology and real feature values remain
-unjoined. Even confirmation can establish only a marker-morphology-conditioned
-construction or anonymous root association, not a ray/tail meaning, recipe
-class, number, word meaning, lexeme, plaintext, language, or translation.
+The SME001 test is preregistered but remains unscored after a prescore audit
+tightened the design. Every scored unit is verified to start at a manual ZL
+OPEN marker and contain only ZL CONT lines to the next marker or page end; RF
+lacks this marker metadata and IT omits it at four starts, so those columns are
+not treated as independent layout evidence. The physical line spans still
+match across readings. The star relation is nevertheless only the frozen
+equal-count/top-to-bottom ordinal pairing, not independently proven object
+ownership. Two
+262,143-draw cyclic ensembles are now mandatory: independent page phase and a
+more conservative normalized phase shared by pages of one physical folio.
+Both preserve complete ray/tail multisets, rare states, and cyclic run
+structure while relocating the linear page cut. This tests exceptional
+physical phase alignment under those two conditional models, not general
+morphology/text independence.
+
+All 84 features and both targets share max-family correction in each ensemble.
+A lead must additionally align raw and null-centered direction, retain .15
+target-blind material after pooled absolute/relative ordinal adjustment, and,
+for root rates, after both linear and cubic log-length adjustment. Odd/even,
+early/late, every-folio deletion, and common cross-reading folio support still
+apply. The next mandatory action is expanded production controls: exact
+planted and adversarial fixtures, both phase ensembles, 64 full-family null
+worlds, and a distributed power grid around the .15 boundary, followed by a
+new nonimporting prescore audit. Real morphology and real feature values remain
+unjoined. Even confirmation can establish only an anonymous
+marker-morphology-conditioned construction or root association under the
+ordinal pairing, not a ray/tail meaning, recipe class, number, word meaning,
+lexeme, plaintext, language, or translation.
 
 A new semantic route needs genuinely independent authorial evidence or a new
 invariant capable of falsifying competing meanings. A new model, crop,

@@ -104,6 +104,11 @@ def reconstruct_units(source_rows, prose):
                 )) for edition in EDITIONS
             }
             assert all(locus_sets[edition] and locus_sets[edition][0] == value["locus"] for edition in EDITIONS)
+            assert prose["ZL3b"][locus_sets["ZL3b"][0]]["paragraph_state"] == "OPEN"
+            assert all(
+                prose["ZL3b"][locus]["paragraph_state"] == "CONT"
+                for locus in locus_sets["ZL3b"][1:]
+            )
             if len(set(locus_sets.values())) != 1:
                 excluded.append((value, locus_sets))
                 continue
@@ -277,7 +282,7 @@ def main() -> None:
     OUT.write_text(json.dumps(payload, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     REPORT.write_text("\n".join([
         "# SME001 anonymous matrix validation", "", "**PASS — 10/10 nonimporting checks.**", "",
-        "Independent code reconstructs the score-blind paragraph spans, the sole all-reading coverage exclusion, anonymous bindings, global-support root inventory, all 510 × 84 stored values, within-page variation, hashes, target absence, and claim ceiling. No morphology field entered the binding or matrix.", "",
+        "Independent code reconstructs every manual ZL OPEN-then-CONT paragraph span, the sole all-reading physical-line coverage exclusion, anonymous bindings, global-support root inventory, all 510 × 84 stored values, within-page variation, hashes, target absence, and claim ceiling. RF lacks the paragraph-marker metadata and IT omits it at four starts, so neither is counted as independent layout evidence. No morphology field entered the binding or matrix.", "",
         "This validates feature extraction only. It supplies no ray/tail association, root meaning, word meaning, lexeme, plaintext, language, or translation.",
     ]) + "\n", encoding="utf-8")
 

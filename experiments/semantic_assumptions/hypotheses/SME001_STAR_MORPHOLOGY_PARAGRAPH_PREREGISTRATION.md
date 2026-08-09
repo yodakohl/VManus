@@ -6,7 +6,8 @@ Status: **REGISTERED_UNSCORED**
 
 Do the author-visible seven-versus-eight-ray and one-versus-two-tail states of
 final-section marginal stars condition the formal construction or reusable
-root morphology of the exact manually marked paragraph beside each star?
+root morphology of the exact manually marked paragraph paired by equal-count,
+top-to-bottom ordinal with each star?
 
 The strongest possible result is an anonymous marker-morphology-conditioned
 paragraph feature or root association. It cannot name either marker state,
@@ -42,6 +43,17 @@ physical folios. `f106r` is wholly excluded because retaining its 14 otherwise
 covered entries after one all-reading line-set failure would splice the marker
 sequence. The anonymous matrix may retain those unused rows, but the target
 join may not.
+
+`<%>` is the manual paragraph-opening marker in the frozen ZL source. The
+builder consumes every such marker on each admitted page, requires its ZL line
+to be `OPEN`, and requires every following ZL line up to the next marker (or
+page end) to be `CONT`. RF does not carry this marker metadata and IT omits it
+at four of the 171 starts, so neither alternate metadata column is counted as
+independent layout evidence. The physical line spans are nevertheless required
+to match across all readings. Thus the scored unit is a ZL-editorially marked
+paragraph represented in all three readings. The star-to-paragraph relation is
+still only the frozen equal-count/top-to-bottom ordinal pairing, not measured
+proximity or independently proven object ownership.
 
 ## Frozen targets
 
@@ -110,16 +122,28 @@ The material effect is the minimum across readings of the absolute raw
 equal-folio effect divided by that reading's target-blind page-centered
 residual scale.
 
-## Frozen sequence-preserving null
+The three standardized effects must also have the same sign as the three raw
+effects. A large two-sided `R` in the direction opposite to the raw contrast
+fails.
 
-Index 0 is the physical alignment with zero shift on every page. Indices
-1--262143 are deterministic independent whole-page cyclic rotations sampled
-with replacement. For assignment `i`, page `p`, and page length `n`, draw an
-unbiased integer in `[0,n)` by SHA-256 rejection sampling from the domain
-`SME001_ROTATION_V1|i|p|counter`. Read the first eight digest bytes as an
-unsigned big-endian integer, reject values outside the largest multiple of
-`n` below `2^64`, and interpret the remainder as a left rotation of the
-complete physical marker sequence.
+## Frozen phase-preserving nulls
+
+Two separately scored ensembles are mandatory. In each, index 0 is the
+physical alignment and indices 1--262143 are deterministic cyclic rotations
+sampled with replacement.
+
+1. **Independent page phase.** For assignment `i`, page `p`, and page length
+   `n`, draw an unbiased integer in `[0,n)` by SHA-256 rejection sampling from
+   `SME001_ROTATION_V1|i|p|counter`.
+2. **Coupled physical-folio phase.** For each folio, let `L` be the least
+   common multiple of its retained page lengths. Draw an unbiased integer `k`
+   in `[0,L)` from `SME001_ROTATION_V1|i|FOLIO:folio|counter`; page length `n`
+   receives shift `floor(k*n/L)`. This gives every page an exact uniform
+   marginal shift while keeping recto/verso at one normalized folio phase.
+
+For every draw, read the first eight digest bytes as an unsigned big-endian
+integer and reject values outside the largest multiple of the requested range
+below `2^64`. Every shift is a left rotation of the complete marker sequence.
 
 The same page-shift vector synchronously rotates ray and tail sequences and is
 shared by ZL3b, IT2a, and RF1b. Thus every assignment preserves each page's
@@ -130,11 +154,23 @@ gates protect against a result carried only by that ordinal boundary. Text
 values, pages, folios, ordinal coordinates, and paragraph boundaries never
 move.
 
+This is deliberately a phase-alignment test conditional on the observed
+within-page sequences, not a general test of morphology/text independence.
+Cyclic rotations create an artificial bottom-to-top edge, so even a pass can
+claim only that the physical alignment is exceptional under both registered
+page-phase models. It cannot by itself establish local causation or ownership.
+The paired-folio ensemble protects against understated variance from a shared
+recto/verso phase. A separate target-blind ordinal-residual gate protects
+against common absolute-rank, smooth relative-position, parity, half-page, and
+quarter-page profiles; it does not turn the pages into literal circles.
+
 Raw Monte Carlo p is
 `(1 + random assignments with R >= observed R) / 262144`.
 For family correction, take the maximum R over every eligible feature in both
 targets at each random assignment and use the same plus-one tail. Ties are
-inclusive with tolerance `1e-12`.
+inclusive with tolerance `1e-12`. All z, raw-p, family-p, and `R` thresholds
+must pass separately in both ensembles; the reported conservative p-values
+and robust z are the worse of the two.
 
 ## Frozen robustness and materiality gates
 
@@ -143,36 +179,52 @@ A target-feature pair passes only if every gate below passes:
 1. exact input hashes, row contracts, target/source separation, and target
    single-use protection;
 2. the three raw observed reading effects have one nonzero direction;
-3. `R >= 2.5`;
-4. raw p `<= .01`;
-5. joint two-target/84-feature max-family p `<= .05`;
-6. material effect `>= .15` page-centered standard deviations in every
+3. all three null-centered z values have that same raw direction;
+4. `R >= 2.5` in both registered phase ensembles;
+5. raw p `<= .01` in both ensembles;
+6. joint two-target/84-feature max-family p `<= .05` in both ensembles;
+7. material effect `>= .15` page-centered standard deviations in every
    reading;
-7. odd and even ordinal strata each retain at least four informative physical
+8. odd and even ordinal strata each retain at least four informative physical
    folios and reproduce the main direction in all three readings;
-8. early and late half-page strata, split by physical ordinal
+9. early and late half-page strata, split by physical ordinal
    `ordinal <= page_max/2`, each retain at least four informative folios and
    reproduce the main direction in every reading;
-9. deleting every informative physical folio in turn preserves the main
+10. deleting every informative physical folio in turn preserves the main
    direction in every reading;
-10. the same set of at least five of seven ray folios, or four of six tail
+11. the same set of at least five of seven ray folios, or four of six tail
     folios, has a contrast in the main direction in all three readings;
-11. for a `ROOT_ATOM_RATE__*` or `ROOT_WORD_RATE__*` feature, a target-blind
-    within-page linear residualization on `log1p(PARA_WORD_COUNT)` preserves
-    the main direction in every reading; and
-12. all planted and negative controls plus a nonimporting prescore audit and
+12. every feature retains the main direction and at least `.15` original
+    page-centered standard deviations after target-blind pooled page-fixed-
+    effect adjustment for absolute ordinal, cubic relative ordinal, parity,
+    half-page, and relative quarter;
+13. for a `ROOT_ATOM_RATE__*` or `ROOT_WORD_RATE__*` feature, both linear and
+    cubic target-blind pooled page-fixed-effect adjustments on
+    `log1p(PARA_WORD_COUNT)` retain the main direction and at least `.15`
+    original page-centered standard deviations in every reading; and
+14. all planted and negative controls plus a nonimporting prescore audit and
     final reconstruction pass.
 
 Constant/insufficient strata fail rather than being skipped. ZL3b, IT2a, and
 RF1b are alternate readings of one manuscript, never replications.
 
-The length residual is exact: separately for each reading and feature, center
-both the feature and `log1p(PARA_WORD_COUNT)` within every page, fit one pooled
-no-intercept OLS slope over all 156 centered units, and score
-`centered_feature - slope * centered_log_length` with the ordinary registered
-equal-folio contrast. The production core reports only `statistical_passes`;
-the final runner may report an overall pass only after input/separation,
-single-use, control, and independent-audit gates 1 and 12 are also certified.
+All fixed-effect residuals are exact: separately for each reading and feature,
+center the feature and every registered nuisance column within page, fit one
+pooled no-intercept OLS over all 156 centered units, and score the residual
+with the ordinary equal-folio contrast. The length designs contain respectively
+`log1p(word_count)` and its powers one through three. The ordinal design
+contains absolute-ordinal indicators, powers one through three of
+`(ordinal-.5)/page_max`, odd, early-half, and relative-quarter indicators.
+
+Every odd/even or early/late subset first restricts rows, then recomputes each
+page contrast, averages informative pages within physical folio, and averages
+folios equally. Deletion equally averages the remaining folio contrasts.
+Folio support uses the mean of its informative page contrasts. Explicit third
+states are ignored in every contrast, including subset and residual gates.
+
+The production core reports only `statistical_passes`; the final runner may
+report an overall pass only after input/separation, single-use, control, and
+independent-audit gates 1 and 14 are also certified.
 
 ## Required prescore controls
 
@@ -187,7 +239,12 @@ real morphology-feature join. Controls must include:
 - a page-constant/bifolio-only signal that fails within-page eligibility;
 - a one-folio signal that fails deletion/support;
 - alternate-reading disagreement and reversed-direction controls;
-- a root signal carried only by paragraph length that fails the length gate;
+- a raw/z direction contradiction that fails;
+- linear, nonlinear, and near-zero-residual root signals carried by paragraph
+  length that fail the strengthened length gate;
+- smooth ordinal, absolute-rank, quarter-wave, and page-cut signals that fail
+  the ordinal gate;
+- a same-folio coupled-phase control scored under both null ensembles;
 - explicit rare-state preservation, cyclic-adjacency preservation, and
   linear-cut relocation checks;
 - inclusive-tie, deterministic-hash, global-complement, row duplication,
@@ -195,6 +252,12 @@ real morphology-feature join. Controls must include:
   checks;
 - exact target-source and anonymous-matrix hash checks; and
 - absence of target result/claim artifacts.
+
+Before target access, the controls must also run repeated 84-feature null
+worlds under both phase ensembles and a distributed ray/tail signal grid below,
+immediately around, and above the `.15` material boundary. The frozen control
+spec defines world counts and acceptance criteria; a single planted fixture is
+not sufficient evidence of familywise calibration or useful power.
 
 The controls may use only synthetic label/value fixtures and anonymous matrix
 contracts. They may not join the real morphology binding to the real feature

@@ -15,8 +15,13 @@ TIE_TOL = 1e-12
 NUM_TOL = 1e-15
 
 
+def require(condition: bool, message: str) -> None:
+    if not condition:
+        raise ValueError(message)
+
+
 def _unbiased_shift(index: int, page: str, length: int) -> int:
-    assert index >= 1 and length >= 1
+    require(index >= 1 and length >= 1, "invalid rotation index or length")
     limit = (1 << 64) - ((1 << 64) % length)
     counter = 0
     while True:
@@ -29,12 +34,36 @@ def _unbiased_shift(index: int, page: str, length: int) -> int:
 
 def make_rotations(pages: list[str], lengths: dict[str, int], total: int) -> np.ndarray:
     """Return physical row zero plus deterministic random rotations."""
-    assert total >= 2 and pages == sorted(pages)
-    assert all(1 <= lengths[page] <= np.iinfo(np.uint16).max for page in pages)
+    require(total >= 2 and pages == sorted(pages), "invalid page rotation request")
+    require(
+        all(1 <= lengths[page] <= np.iinfo(np.uint16).max for page in pages),
+        "invalid page length",
+    )
     out = np.zeros((total, len(pages)), dtype=np.uint16)
     for index in range(1, total):
         for column, page in enumerate(pages):
             out[index, column] = _unbiased_shift(index, page, lengths[page])
+    return out
+
+
+def make_folio_phase_rotations(
+    pages: list[str], lengths: dict[str, int], page_folio: dict[str, str], total: int,
+) -> np.ndarray:
+    """Return rotations coupled to one exact normalized phase per folio."""
+    require(total >= 2 and pages == sorted(pages), "invalid folio rotation request")
+    require(set(page_folio) == set(pages), "incomplete page-folio map")
+    grouped = defaultdict(list)
+    for page in pages:
+        require(1 <= lengths[page] <= np.iinfo(np.uint16).max, "invalid page length")
+        grouped[page_folio[page]].append(page)
+    out = np.zeros((total, len(pages)), dtype=np.uint16)
+    page_column = {page: index for index, page in enumerate(pages)}
+    for index in range(1, total):
+        for folio in sorted(grouped):
+            phase_bins = math.lcm(*(lengths[page] for page in grouped[folio]))
+            phase = _unbiased_shift(index, f"FOLIO:{folio}", phase_bins)
+            for page in grouped[folio]:
+                out[index, page_column[page]] = phase * lengths[page] // phase_bins
     return out
 
 
@@ -176,6 +205,17 @@ def _robust(z):
     return np.maximum(np.maximum(positive, negative), 0.0)
 
 
+def raw_direction(effects) -> int:
+    effects = np.asarray(effects, dtype=np.float64)
+    signs = np.sign(effects[np.abs(effects) > NUM_TOL])
+    return int(signs[0]) if len(signs) == len(EDITIONS) and np.all(signs == signs[0]) else 0
+
+
+def z_matches_raw_direction(z, direction: int) -> bool:
+    z = np.asarray(z, dtype=np.float64)
+    return bool(direction != 0 and np.all(z * direction > NUM_TOL))
+
+
 def _subset_effect(labels, values, pages, page_indices, page_folio, low, high, keep):
     per_folio = defaultdict(list)
     for page in pages:
@@ -195,22 +235,63 @@ def _subset_effect(labels, values, pages, page_indices, page_folio, low, high, k
     return effects, len(per_folio)
 
 
-def _length_residual_values(values, pages_by_unit, word_count_index):
+def _fixed_effect_residual_values(values, pages_by_unit, covariates):
+    covariates = np.asarray(covariates, dtype=np.float64)
+    require(
+        covariates.ndim == 3
+        and covariates.shape[:2] == values.shape[:2]
+        and np.isfinite(covariates).all(),
+        "invalid residual covariates",
+    )
     result = np.empty_like(values, dtype=np.float64)
     for edition in range(values.shape[1]):
-        x = np.log1p(values[:, edition, word_count_index])
+        x = covariates[:, edition, :]
+        xc = np.empty_like(x)
+        for page in sorted(set(pages_by_unit)):
+            indices = np.asarray([i for i, value in enumerate(pages_by_unit) if value == page], dtype=np.int64)
+            xc[indices] = x[indices] - x[indices].mean(axis=0, keepdims=True)
         for feature in range(values.shape[2]):
             y = values[:, edition, feature]
-            xc = np.empty_like(x)
             yc = np.empty_like(y)
             for page in sorted(set(pages_by_unit)):
                 indices = np.asarray([i for i, value in enumerate(pages_by_unit) if value == page], dtype=np.int64)
-                xc[indices] = x[indices] - x[indices].mean()
                 yc[indices] = y[indices] - y[indices].mean()
-            denominator = float(np.dot(xc, xc))
-            slope = float(np.dot(xc, yc) / denominator) if denominator > NUM_TOL else 0.0
-            result[:, edition, feature] = yc - slope * xc
+            beta = np.linalg.lstsq(xc, yc, rcond=None)[0]
+            result[:, edition, feature] = yc - xc @ beta
     return result
+
+
+def _length_residual_values(values, pages_by_unit, word_count_index, degree):
+    x = np.log1p(values[:, :, word_count_index])
+    covariates = np.stack([x ** power for power in range(1, degree + 1)], axis=2)
+    return _fixed_effect_residual_values(values, pages_by_unit, covariates)
+
+
+def _ordinal_residual_values(values, pages_by_unit, ordinals):
+    ordinals = np.asarray(ordinals, dtype=np.int64)
+    page_max = {
+        page: max(int(ordinals[index]) for index, value in enumerate(pages_by_unit) if value == page)
+        for page in sorted(set(pages_by_unit))
+    }
+    maximum = int(np.max(ordinals))
+    columns = []
+    for level in range(2, maximum + 1):
+        columns.append((ordinals == level).astype(np.float64))
+    relative = np.asarray([
+        (int(ordinals[index]) - 0.5) / page_max[page]
+        for index, page in enumerate(pages_by_unit)
+    ])
+    columns.extend([relative, relative ** 2, relative ** 3])
+    columns.append((ordinals % 2 == 1).astype(np.float64))
+    columns.append(np.asarray([
+        int(ordinals[index]) <= page_max[page] / 2
+        for index, page in enumerate(pages_by_unit)
+    ], dtype=np.float64))
+    quarter = np.minimum((relative * 4).astype(np.int64), 3)
+    columns.extend([(quarter == value).astype(np.float64) for value in (1, 2, 3)])
+    base = np.stack(columns, axis=1)
+    covariates = np.repeat(base[:, None, :], len(EDITIONS), axis=1)
+    return _fixed_effect_residual_values(values, pages_by_unit, covariates)
 
 
 def evaluate(
@@ -219,20 +300,46 @@ def evaluate(
 ):
     """Score all targets/features and return compact statistics and gates."""
     values = np.asarray(values, dtype=np.float64)
-    ordinals = np.asarray(ordinals, dtype=np.int64)
-    assert matrix_contract(unit_ids, pages_by_unit, folios_by_unit, ordinals, values, features)
+    raw_ordinals = np.asarray(ordinals)
+    require(
+        matrix_contract(
+            unit_ids, pages_by_unit, folios_by_unit, raw_ordinals, values, features
+        ),
+        "matrix contract failed",
+    )
+    ordinals = raw_ordinals.astype(np.int64)
     pages, page_indices, page_folio = _page_layout(pages_by_unit, folios_by_unit, ordinals)
-    assert rotations.shape[1] == len(pages) and np.all(rotations[0] == 0)
+    require(
+        rotations.ndim == 2
+        and rotations.shape[1] == len(pages)
+        and np.all(rotations[0] == 0),
+        "rotation contract failed",
+    )
     for column, page in enumerate(pages):
-        assert np.all(rotations[:, column] < len(page_indices[page]))
-    assert set(label_sets) == set(target_specs)
-    assert all(len(label_sets[target]) == len(unit_ids) for target in label_sets)
+        require(
+            np.all(rotations[:, column] < len(page_indices[page])),
+            "rotation exceeds page length",
+        )
+    require(set(label_sets) == set(target_specs), "target set mismatch")
+    require(
+        all(len(label_sets[target]) == len(unit_ids) for target in label_sets),
+        "target row count mismatch",
+    )
 
     residual_scale = _page_centered_scale(values, pages_by_unit)
     variable_folios = _variable_folios(values, pages_by_unit, folios_by_unit)
     word_count_index = features.index("PARA_WORD_COUNT") if "PARA_WORD_COUNT" in features else None
     if word_count_index is not None:
-        assert np.all(values[:, :, word_count_index] >= 0.0)
+        require(np.all(values[:, :, word_count_index] >= 0.0), "negative paragraph word count")
+    require(
+        word_count_index is not None
+        or not any(
+            feature.startswith("ROOT_ATOM_RATE__")
+            or feature.startswith("ROOT_WORD_RATE__")
+            for feature in features
+        ),
+        "root features require PARA_WORD_COUNT",
+    )
     base_eligible = np.all(variable_folios >= 4, axis=0) & np.all(residual_scale > NUM_TOL, axis=0)
 
     target_data = {}
@@ -249,7 +356,7 @@ def evaluate(
         }
 
     random_count = rotations.shape[0] - 1
-    assert random_count >= 1
+    require(random_count >= 1, "no random rotations")
     sums = {target: np.zeros((values.shape[1], values.shape[2])) for target in target_data}
     sums_sq = {target: np.zeros((values.shape[1], values.shape[2])) for target in target_data}
     for start in range(1, rotations.shape[0], chunk_size):
@@ -271,6 +378,10 @@ def evaluate(
         )[0]
         z = np.divide(observed - mean, sd, out=np.zeros_like(observed), where=sd > NUM_TOL)
         data.update({"null_mean": mean, "null_sd": sd, "eligible": eligible, "observed": observed, "z": z, "robust": _robust(z[None, :, :])[0]})
+        require(
+            all(np.isfinite(item).all() for item in (mean, sd, observed, z, data["robust"])),
+            "nonfinite target statistic",
+        )
 
     raw_counts = {target: np.zeros(values.shape[2], dtype=np.int64) for target in target_data}
     family_max_values = []
@@ -299,8 +410,26 @@ def evaluate(
                 robust_by_target[target] >= data["robust"][None, :] - TIE_TOL, axis=0
             )
     family_max_all = np.concatenate(family_max_values)
+    require(np.isfinite(family_max_all).all(), "nonfinite family statistic")
 
-    length_residual = _length_residual_values(values, pages_by_unit, word_count_index) if word_count_index is not None else None
+    ordinal_residual = _ordinal_residual_values(values, pages_by_unit, ordinals)
+    length_residual_linear = (
+        _length_residual_values(values, pages_by_unit, word_count_index, 1)
+        if word_count_index is not None else None
+    )
+    length_residual_cubic = (
+        _length_residual_values(values, pages_by_unit, word_count_index, 3)
+        if word_count_index is not None else None
+    )
+    require(np.isfinite(ordinal_residual).all(), "nonfinite ordinal residual")
+    require(
+        length_residual_linear is None
+        or (
+            np.isfinite(length_residual_linear).all()
+            and np.isfinite(length_residual_cubic).all()
+        ),
+        "nonfinite length residual",
+    )
     results = []
     for target, data in target_data.items():
         labels = label_sets[target]
@@ -318,18 +447,33 @@ def evaluate(
             subset_effects[name], subset_folios[name] = _subset_effect(
                 labels, values, pages, page_indices, page_folio, low, high, keep
             )
-        length_effect = None
-        if length_residual is not None:
-            pc, ip = _page_contrasts(labels, length_residual, pages, page_indices, low, high)
-            length_effect = _aggregate_effects(pc, ip, page_folio, pages, rotations[:1])[0]
+        pc, ip = _page_contrasts(labels, ordinal_residual, pages, page_indices, low, high)
+        ordinal_effect = _aggregate_effects(pc, ip, page_folio, pages, rotations[:1])[0]
+        length_effect_linear = None
+        length_effect_cubic = None
+        if length_residual_linear is not None:
+            pc, ip = _page_contrasts(labels, length_residual_linear, pages, page_indices, low, high)
+            length_effect_linear = _aggregate_effects(pc, ip, page_folio, pages, rotations[:1])[0]
+            pc, ip = _page_contrasts(labels, length_residual_cubic, pages, page_indices, low, high)
+            length_effect_cubic = _aggregate_effects(pc, ip, page_folio, pages, rotations[:1])[0]
 
         per_folio = data["observed_per_folio"]
         folios = sorted(per_folio)
         for feature_index, feature in enumerate(features):
             effects = data["observed"][:, feature_index]
-            signs = np.sign(effects[np.abs(effects) > NUM_TOL])
-            direction = int(signs[0]) if len(signs) == len(EDITIONS) and np.all(signs == signs[0]) else 0
+            direction = raw_direction(effects)
+            z_direction_ok = z_matches_raw_direction(data["z"][:, feature_index], direction)
             material = float(np.min(np.abs(effects) / residual_scale[:, feature_index])) if base_eligible[feature_index] else 0.0
+            ordinal_values = ordinal_effect[:, feature_index]
+            ordinal_material = (
+                float(np.min(np.abs(ordinal_values) / residual_scale[:, feature_index]))
+                if base_eligible[feature_index] else 0.0
+            )
+            ordinal_ok = (
+                direction != 0
+                and np.all(ordinal_values * direction > NUM_TOL)
+                and ordinal_material >= 0.15
+            )
             raw_p = (1 + raw_counts[target][feature_index]) / (random_count + 1)
             family_p = (1 + np.sum(family_max_all >= data["robust"][feature_index] - TIE_TOL)) / (random_count + 1)
             strata_ok = direction != 0
@@ -356,13 +500,34 @@ def evaluate(
             support_ok = direction != 0 and common_support_count >= required
             root_feature = feature.startswith("ROOT_ATOM_RATE__") or feature.startswith("ROOT_WORD_RATE__")
             length_ok = True
-            length_values = []
+            length_values_linear = []
+            length_values_cubic = []
+            length_material_linear = None
+            length_material_cubic = None
             if root_feature:
-                length_values = [float(v) for v in length_effect[:, feature_index]]
-                length_ok = direction != 0 and np.all(length_effect[:, feature_index] * direction > NUM_TOL)
+                length_values_linear = [float(v) for v in length_effect_linear[:, feature_index]]
+                length_values_cubic = [float(v) for v in length_effect_cubic[:, feature_index]]
+                if base_eligible[feature_index]:
+                    length_material_linear = float(np.min(
+                        np.abs(length_effect_linear[:, feature_index]) / residual_scale[:, feature_index]
+                    ))
+                    length_material_cubic = float(np.min(
+                        np.abs(length_effect_cubic[:, feature_index]) / residual_scale[:, feature_index]
+                    ))
+                else:
+                    length_material_linear = 0.0
+                    length_material_cubic = 0.0
+                length_ok = (
+                    direction != 0
+                    and np.all(length_effect_linear[:, feature_index] * direction > NUM_TOL)
+                    and np.all(length_effect_cubic[:, feature_index] * direction > NUM_TOL)
+                    and length_material_linear >= 0.15
+                    and length_material_cubic >= 0.15
+                )
             gates = {
                 "eligible": bool(data["eligible"][feature_index]),
                 "same_reading_direction": direction != 0,
+                "z_matches_raw_direction": bool(z_direction_ok),
                 "robust_z": float(data["robust"][feature_index]) >= 2.5,
                 "raw_p": raw_p <= 0.01,
                 "family_p": family_p <= 0.05,
@@ -370,6 +535,7 @@ def evaluate(
                 "parity_and_early_late": bool(strata_ok),
                 "folio_deletions": bool(deletion_ok),
                 "folio_support": bool(support_ok),
+                "ordinal_residual_material": bool(ordinal_ok),
                 "root_length_residual": bool(length_ok),
             }
             results.append({
@@ -383,7 +549,12 @@ def evaluate(
                 "strata": strata_detail, "deletion_effects": deletion_effects,
                 "folio_support_counts": dict(zip(EDITIONS, support_counts)),
                 "common_folio_support_count": int(common_support_count),
-                "length_residual_effects": dict(zip(EDITIONS, length_values)) if root_feature else {},
+                "ordinal_residual_effects": dict(zip(EDITIONS, map(float, ordinal_values))),
+                "ordinal_residual_material_effect": ordinal_material,
+                "length_linear_residual_effects": dict(zip(EDITIONS, length_values_linear)) if root_feature else {},
+                "length_cubic_residual_effects": dict(zip(EDITIONS, length_values_cubic)) if root_feature else {},
+                "length_linear_residual_material_effect": length_material_linear,
+                "length_cubic_residual_material_effect": length_material_cubic,
                 "statistical_gates": gates, "statistical_passes": all(gates.values()),
             })
     return {
