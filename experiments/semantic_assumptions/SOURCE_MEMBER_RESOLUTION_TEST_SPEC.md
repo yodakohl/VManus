@@ -109,7 +109,7 @@ the calibration and all of these gates:
    coefficient, residual, and gain within `1e-12`;
 10. swapping FIRST/LAST training roles negates every member coefficient within
     `1e-12`; held-folio label mutation cannot change fitted tables;
-11. official inventory, finite-value, deterministic serialization, frozen
+11. exact 242-code/24-family official inventory, finite-value, deterministic serialization, frozen
     family-score hash, source-hash, and no-target-score guards all pass.
 
 A preflight failure ends the experiment with the target unopened.
