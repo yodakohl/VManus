@@ -82,6 +82,12 @@ only fourth of 24 possibilities, and deleting the strongest single resemblance
 drops it to eighteenth. The bridge is therefore structural, not a translated
 HOT/MOIST/COLD/DRY lexicon.
 
+An exhaustive source-only audit of the current human annotation layer found
+eleven broad apparatus/water label units, but f77r is the only one with a label
+between every successive boundary and a documented mix of active and inactive
+openings. There is therefore no second local panel capable of confirming the
+pattern without new independent human evidence.
+
 ## Latest source-calibration result
 
 We tested whether a semantic similarity representation could recover the known
@@ -127,3 +133,5 @@ itself new evidence.
   [`f77r_quality_transition_bridge_report.md`](experiments/semantic_assumptions/results/f77r_quality_transition_bridge_report.md)
 - Residual lexical-identity nonconfirmation:
   [`f77r_residual_form_assignment_report.md`](experiments/semantic_assumptions/results/f77r_residual_form_assignment_report.md)
+- Same-orientation source-capacity stop:
+  [`f77r_same_orientation_capacity_report.md`](experiments/semantic_assumptions/results/f77r_same_orientation_capacity_report.md)

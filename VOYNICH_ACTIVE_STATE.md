@@ -2147,6 +2147,21 @@ remains provisional structural evidence only; it has no four-label lexicon.
 The next valid target remains a second same-orientation apparatus with short
 labels inside segments and independently visible active/inactive boundaries.
 
+The complete current human exact-locus layer has now been audited for that
+capacity without opening Voynich strings. Eleven broad water/apparatus label
+units have at least five loci. The exposed `f77r/V1` control is the sole unit
+whose six comments all place labels between five successive side branches and
+whose independent page description reports four emitting openings. None of
+the other ten units has both a boundary-plus-one segment array and a mixed
+active/inactive output contrast. A bounded live-source review found only the
+same imported voynich.nu, Stolfi, Grove/VIB layers, a discussion questioning
+label status, and an interpretation-dependent decipherment that is ineligible
+as author-visible evidence. Independent validation passes 21 checks. Retain
+**STOP ZERO SECOND SAME-ORIENTATION HUMAN-ANNOTATED APPARATUS**. The current
+public annotation layer cannot confirm the f77r bridge; reopen only for a new
+provenance-clean human source with the missing explicit topology, not another
+generic label, pool, tube, circle, path, or proximity claim.
+
 A later exhaustive simple-feature diagnostic recovers an exact local two-bit
 table in every manual reading, but a correction makes it semantically
 nonidentifying. Terminal `y` selects the SE+NW diagonal in both N1 and D1; N1
