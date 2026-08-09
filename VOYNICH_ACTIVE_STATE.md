@@ -3117,7 +3117,7 @@ FLOWER, FRUIT, NO, plant name, plaintext, or translation. Do not retune the
 blocks, add the excluded same-folio pages, lower thresholds, or mine a feature
 subset.
 
-`FLOWERVOL001` is the registered target-unrun root-free follow-up. It asks the
+`FLOWERVOL001` is a validated recovered nonconfirmation. It asks the
 more basic question whether the side-view-flower pages contain a different
 amount or packing of prose than their explicitly fruit/flower-free block
 mates. Exactly three measures are frozen: confirmed physical-line count,
@@ -3126,10 +3126,20 @@ stopped before output because normalized hierarchical `surface` spacing does
 not always equal the stored original `word_count`; the design-specified stored
 count was retained and no target value was extracted. The corrected 2,187-way
 controls pass, and a nonimporting implementation reconstructs the 843-row
-three-measure matrix, full family null, and every control in 15 checks. One
-target invocation is authorized. Even a pass is only a page-volume
-association, never a flower line, lexeme, plant name, plaintext, or
-translation.
+three-measure matrix, full family null, and every control in 15 checks.
+
+The registered target completed its scores but wrote no production artifact
+because JSON serialization rejected a NumPy boolean. It was not rerun. The
+frozen nonimporting implementation recovers zero passes: flower pages average
+2.642857 fewer lines and 17.6--18.1 fewer stored tokens, but exact familywise
+`p=.469593` and `.325560` and only four of seven directional blocks make both
+ordinary null outcomes. Tokens per line has mixed reading signs and `p=1`.
+A separate scalar enumeration validates every recovered row and tail in 14
+checks. Retain **RECOVERED NONCONFIRMATION, PRODUCTION TARGET ARTIFACT LOST**.
+There is no evidence for a whole-page volume/packing difference; the negative
+raw direction is not a result. This supplies no flower line, lexeme, plant
+name, plaintext, or translation, and the failed production target must not be
+rerun.
 
 ## Admission rule for new work
 

@@ -63,8 +63,9 @@ system whose physical lines often act as record-like units.
   that reliably separates explicitly berry-bearing or side-view-flower
   drawings from explicitly fruitless/flowerless drawings. The berry near-miss
   `oii` misses both frozen gates; the blocked flower test has no feature even
-  at adjusted familywise `p <= .20`. Neither supplies a plant-part or negation
-  translation.
+  at adjusted familywise `p <= .20`; and a root-free follow-up finds no
+  reliable line-count, token-count, or line-density difference. None supplies
+  a plant-part or negation translation.
 
 ## Latest provisional cross-page lead
 
@@ -145,3 +146,5 @@ itself new evidence.
   [`berry_explicit_contrast_report.md`](experiments/semantic_assumptions/results/berry_explicit_contrast_report.md)
 - Blocked flower/no-flower nonconfirmation:
   [`flower_explicit_contrast_report.md`](experiments/semantic_assumptions/results/flower_explicit_contrast_report.md)
+- Recovered flower-panel text-volume nonconfirmation:
+  [`flower_text_volume_report.md`](experiments/semantic_assumptions/results/flower_text_volume_report.md)
