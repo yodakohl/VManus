@@ -1,0 +1,382 @@
+{
+  "appearance_crosscheck": {
+    "cached_human_proposal": [
+      "AIR",
+      "WATER",
+      "FIRE",
+      "EARTH"
+    ],
+    "interpretation": "zero-position agreement is counterevidence to a direct element gloss",
+    "role_evidence_flag": "0",
+    "same_position_matches": 0,
+    "transition_pair_prediction": [
+      "EARTH",
+      "FIRE",
+      "AIR",
+      "WATER"
+    ]
+  },
+  "boundary_results": [
+    {
+      "boundary_position": 1,
+      "classical_pair_element": "EARTH",
+      "emits": true,
+      "left_state": "COLD",
+      "opening": "branch_1",
+      "right_state": "DRY",
+      "state_changes": true
+    },
+    {
+      "boundary_position": 2,
+      "classical_pair_element": "FIRE",
+      "emits": true,
+      "left_state": "DRY",
+      "opening": "branch_2",
+      "right_state": "HOT",
+      "state_changes": true
+    },
+    {
+      "boundary_position": 3,
+      "classical_pair_element": null,
+      "emits": false,
+      "left_state": "HOT",
+      "opening": "branch_3",
+      "right_state": "HOT",
+      "state_changes": false
+    },
+    {
+      "boundary_position": 4,
+      "classical_pair_element": "AIR",
+      "emits": true,
+      "left_state": "HOT",
+      "opening": "branch_4",
+      "right_state": "MOIST",
+      "state_changes": true
+    },
+    {
+      "boundary_position": 5,
+      "classical_pair_element": "WATER",
+      "emits": true,
+      "left_state": "MOIST",
+      "opening": "branch_5",
+      "right_state": "COLD",
+      "state_changes": true
+    }
+  ],
+  "consecutive_window_control": {
+    "classical_pair_gate_pass_count": 1,
+    "classical_pair_gate_passes": [
+      {
+        "classical_pair_gate": true,
+        "generic_four_edge_gate": true,
+        "loci": [
+          "f77r.2",
+          "f77r.3",
+          "f77r.4",
+          "f77r.5",
+          "f77r.6",
+          "f77r.7"
+        ],
+        "page": "f77r",
+        "start_index": 2,
+        "state_sequence": [
+          "COLD",
+          "DRY",
+          "HOT",
+          "HOT",
+          "MOIST",
+          "COLD"
+        ],
+        "unit": "V1"
+      }
+    ],
+    "generic_four_edge_gate_pass_count": 2,
+    "generic_four_edge_gate_passes": [
+      {
+        "classical_pair_gate": false,
+        "generic_four_edge_gate": true,
+        "loci": [
+          "f68r1.15",
+          "f68r1.16",
+          "f68r1.17",
+          "f68r1.18",
+          "f68r1.19",
+          "f68r1.20"
+        ],
+        "page": "f68r1",
+        "start_index": 15,
+        "state_sequence": [
+          "DRY",
+          "COLD",
+          "MOIST",
+          "MOIST",
+          "HOT",
+          "COLD"
+        ],
+        "unit": "S1"
+      },
+      {
+        "classical_pair_gate": true,
+        "generic_four_edge_gate": true,
+        "loci": [
+          "f77r.2",
+          "f77r.3",
+          "f77r.4",
+          "f77r.5",
+          "f77r.6",
+          "f77r.7"
+        ],
+        "page": "f77r",
+        "start_index": 2,
+        "state_sequence": [
+          "COLD",
+          "DRY",
+          "HOT",
+          "HOT",
+          "MOIST",
+          "COLD"
+        ],
+        "unit": "V1"
+      }
+    ],
+    "stable_consecutive_six_label_windows": 184
+  },
+  "decision": {
+    "confirm_only_if": "a second independently annotated segmented system is frozen before its Voynich strings and reproduces the transition rule with owned outputs",
+    "forbid": "no quality label element label ot/y meaning lexeme plaintext or translation",
+    "retain": "a provisional cross-page four-state transition construction: f57-derived states predict f77r emission versus non-emission and cover the four classical adjacent-quality pairs"
+  },
+  "emission_mask": [
+    true,
+    true,
+    false,
+    true,
+    true
+  ],
+  "exact_descriptive_nulls": {
+    "all_four_state_generic_four_edge_passes": 72,
+    "all_four_state_passes": 8,
+    "all_four_state_sequences": 4096,
+    "fixed_observed_multiset_generic_four_edge_passes": 12,
+    "fixed_observed_multiset_passes": 4,
+    "fixed_observed_multiset_sequences": 180
+  },
+  "exposure": "POSTHOC_NO_CONFIRMATORY_P_VALUE",
+  "gates": {
+    "alternate_reading_state_identity": true,
+    "emission_iff_state_change": true,
+    "four_classical_pairs_exactly_once": true,
+    "nonemitting_boundary_identical": true
+  },
+  "inputs": {
+    "experiments/semantic_assumptions/f77r_quality_transition_bridge/DESIGN.md": "4def9e115415ba827b44f0aca2e6ec5177d0acc0bfc432f8a6e1d019faa39396",
+    "experiments/semantic_assumptions/f77r_quality_transition_bridge/F77R_BOUNDARIES.tsv": "2ba5c2174f60d098edc673cd40bfe16e1786dd55c977c3bd4b4902ebbaa81c98",
+    "experiments/semantic_assumptions/f77r_quality_transition_bridge/F77R_SEGMENTS.tsv": "4701151fa3cc97c2b65dab84e37412c0165091c5aca4be6907dd50e7d41c6503",
+    "experiments/semantic_assumptions/results/existing_human_exact_locus_annotations.tsv": "79c7f06e91f90054aff4cdf27f098a5977d820acdf91f239a14c6ddf553a7f61",
+    "experiments/semantic_assumptions/results/existing_human_page_annotations.tsv": "b358f244cbe853448dd5c32dbc04004cb8ce63d9a8c5ed5afe2a679a115d87fa",
+    "experiments/semantic_assumptions/results/pre_grounding_interlinear.tsv": "8052a51fa37ad467e754be39648336ec4014442dab5e223daab2e77efaba4a43"
+  },
+  "official_witness_qc": {
+    "f77r_canvas_id": 1006212,
+    "manifest_sha256": "317d58fd9ea90392a83d9858a91eada3d0b41416a3c835857dc0154bd123a309",
+    "manifest_url": "https://collections.library.yale.edu/manifests/2002046",
+    "scope": "author-visible emission topology only; no semantic labels"
+  },
+  "state_mapping": {
+    "00": "COLD",
+    "01": "MOIST",
+    "10": "HOT",
+    "11": "DRY"
+  },
+  "states_by_edition": {
+    "IT2a": [
+      "COLD",
+      "DRY",
+      "HOT",
+      "HOT",
+      "MOIST",
+      "COLD"
+    ],
+    "RF1b": [
+      "COLD",
+      "DRY",
+      "HOT",
+      "HOT",
+      "MOIST",
+      "COLD"
+    ],
+    "ZL3b": [
+      "COLD",
+      "DRY",
+      "HOT",
+      "HOT",
+      "MOIST",
+      "COLD"
+    ]
+  },
+  "status": "PROVISIONAL_POSTHOC_FOUR_STATE_TRANSITION_CONSTRUCTION",
+  "target_rows": [
+    {
+      "bits": "00",
+      "edition": "ZL3b",
+      "f57_page_role_state": "COLD",
+      "locus": "f77r.2",
+      "position": 1,
+      "root_sequence": "ol+k+Hs",
+      "surface": "olkchs"
+    },
+    {
+      "bits": "11",
+      "edition": "ZL3b",
+      "f57_page_role_state": "DRY",
+      "locus": "f77r.3",
+      "position": 2,
+      "root_sequence": "ot",
+      "surface": "otedy"
+    },
+    {
+      "bits": "10",
+      "edition": "ZL3b",
+      "f57_page_role_state": "HOT",
+      "locus": "f77r.4",
+      "position": 3,
+      "root_sequence": "ot+or+k",
+      "surface": "otork"
+    },
+    {
+      "bits": "10",
+      "edition": "ZL3b",
+      "f57_page_role_state": "HOT",
+      "locus": "f77r.5",
+      "position": 4,
+      "root_sequence": "ot+ol",
+      "surface": "otol"
+    },
+    {
+      "bits": "01",
+      "edition": "ZL3b",
+      "f57_page_role_state": "MOIST",
+      "locus": "f77r.6",
+      "position": 5,
+      "root_sequence": "Hd",
+      "surface": "dchdy"
+    },
+    {
+      "bits": "00",
+      "edition": "ZL3b",
+      "f57_page_role_state": "COLD",
+      "locus": "f77r.7",
+      "position": 6,
+      "root_sequence": "or",
+      "surface": "soral"
+    },
+    {
+      "bits": "00",
+      "edition": "IT2a",
+      "f57_page_role_state": "COLD",
+      "locus": "f77r.2",
+      "position": 1,
+      "root_sequence": "ol+k+Hs",
+      "surface": "olkchs"
+    },
+    {
+      "bits": "11",
+      "edition": "IT2a",
+      "f57_page_role_state": "DRY",
+      "locus": "f77r.3",
+      "position": 2,
+      "root_sequence": "ot",
+      "surface": "otedy"
+    },
+    {
+      "bits": "10",
+      "edition": "IT2a",
+      "f57_page_role_state": "HOT",
+      "locus": "f77r.4",
+      "position": 3,
+      "root_sequence": "ot+or+k",
+      "surface": "otork"
+    },
+    {
+      "bits": "10",
+      "edition": "IT2a",
+      "f57_page_role_state": "HOT",
+      "locus": "f77r.5",
+      "position": 4,
+      "root_sequence": "ot+ol",
+      "surface": "otol"
+    },
+    {
+      "bits": "01",
+      "edition": "IT2a",
+      "f57_page_role_state": "MOIST",
+      "locus": "f77r.6",
+      "position": 5,
+      "root_sequence": "Hd",
+      "surface": "dchdy"
+    },
+    {
+      "bits": "00",
+      "edition": "IT2a",
+      "f57_page_role_state": "COLD",
+      "locus": "f77r.7",
+      "position": 6,
+      "root_sequence": "or",
+      "surface": "soral"
+    },
+    {
+      "bits": "00",
+      "edition": "RF1b",
+      "f57_page_role_state": "COLD",
+      "locus": "f77r.2",
+      "position": 1,
+      "root_sequence": "ol+k+Hs",
+      "surface": "olkchs"
+    },
+    {
+      "bits": "11",
+      "edition": "RF1b",
+      "f57_page_role_state": "DRY",
+      "locus": "f77r.3",
+      "position": 2,
+      "root_sequence": "ot",
+      "surface": "otedy"
+    },
+    {
+      "bits": "10",
+      "edition": "RF1b",
+      "f57_page_role_state": "HOT",
+      "locus": "f77r.4",
+      "position": 3,
+      "root_sequence": "ot+or+k",
+      "surface": "otork"
+    },
+    {
+      "bits": "10",
+      "edition": "RF1b",
+      "f57_page_role_state": "HOT",
+      "locus": "f77r.5",
+      "position": 4,
+      "root_sequence": "ot+ol",
+      "surface": "otol"
+    },
+    {
+      "bits": "01",
+      "edition": "RF1b",
+      "f57_page_role_state": "MOIST",
+      "locus": "f77r.6",
+      "position": 5,
+      "root_sequence": "H",
+      "surface": "dch y"
+    },
+    {
+      "bits": "00",
+      "edition": "RF1b",
+      "f57_page_role_state": "COLD",
+      "locus": "f77r.7",
+      "position": 6,
+      "root_sequence": "or",
+      "surface": "soral"
+    }
+  ]
+}

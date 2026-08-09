@@ -1,6 +1,6 @@
 # Voynich investigation: high-level results
 
-Updated: 2026-08-08
+Updated: 2026-08-09
 
 ## Bottom line
 
@@ -60,6 +60,22 @@ system whose physical lines often act as record-like units.
   compendium containing herbal, bathing, astronomical, pharmaceutical, and
   recipe-like modules. No particular source manuscript has been identified.
 
+## Latest provisional cross-page lead
+
+The six labels between successive openings of the f77r top tube reproduce the
+previously fixed f57 two-bit page-role states as COLD, DRY, HOT, HOT, MOIST,
+COLD in all three manual readings. Every boundary where the state changes is
+drawn emitting material; the sole unchanged HOT-HOT boundary is the sole
+non-emitter. The four changes are exactly the four classical primary-quality
+pairs traditionally defining Earth, Fire, Air, and Water.
+
+This is the strongest current semantic-structure lead because it predicts an
+author-visible relation across pages. It remains post-hoc and is **not a word
+translation**. A later human proposal for the visual puff identities disagrees
+at all four positions, and a second independently annotated segmented system
+must reproduce the rule before any quality, element, `ot`, or terminal-`y`
+meaning can be claimed.
+
 ## Latest source-calibration result
 
 We tested whether a semantic similarity representation could recover the known
@@ -101,3 +117,5 @@ itself new evidence.
   [`CLOSED_ROUTE_FAMILIES.tsv`](experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv)
 - Independent houses validation:
   [`f67r2_ga4_001_houses_invocation_independent_validation_report.md`](experiments/semantic_assumptions/results/f67r2_ga4_001_houses_invocation_independent_validation_report.md)
+- Provisional f77r transition bridge:
+  [`f77r_quality_transition_bridge_report.md`](experiments/semantic_assumptions/results/f77r_quality_transition_bridge_report.md)

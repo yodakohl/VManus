@@ -2095,6 +2095,29 @@ before English semantics. Keep `f77v.3` as the first ownership-source
 acquisition target, but do not mine further form neighbours as temperature
 evidence or transfer any object word to the f57 labels.
 
+A substantially stronger but still post-hoc cross-page construction now links
+the fixed f57 two-bit states to author-visible f77r topology. Human annotations
+order `f77r.2` through `f77r.7` in the six segments between the seven openings
+of the top tube. In every reading their unchanged `starts-ot,terminal-y` states
+are COLD, DRY, HOT, HOT, MOIST, COLD. The five internal boundaries therefore
+give COLD+DRY, DRY+HOT, HOT+HOT, HOT+MOIST, and MOIST+COLD. Official-witness
+human topology QC finds that precisely the four changed-state boundaries emit
+and the central HOT+HOT boundary does not; the four changes instantiate the
+classical EARTH, FIRE, AIR, and WATER adjacent-quality pairs exactly once.
+Only 4/180 fixed-multiset assignments and 8/4096 unrestricted state sequences
+have the complete property. F77r is the sole complete hit among 184 stable
+consecutive annotated six-label windows; one f68r1 star window passes only a
+broader four-edge control because it contains the invalid HOT+COLD pair. A
+nonimporting validator passes 28 checks.
+
+Retain **PROVISIONAL POST-HOC f57→f77r FOUR-STATE TRANSITION CONSTRUCTION**.
+This is the best current cross-page semantic-structure lead because it explains
+emission versus non-emission, but it is not self-confirming. The cached later
+visual puff proposal AIR/WATER/FIRE/EARTH agrees with the transition prediction
+EARTH/FIRE/AIR/WATER at zero of four positions. Do not gloss any label, `ot`,
+terminal `y`, quality, or puff element. Seek a second independently annotated
+segmented system and freeze its topology plus test before opening its strings.
+
 A later exhaustive simple-feature diagnostic recovers an exact local two-bit
 table in every manual reading, but a correction makes it semantically
 nonidentifying. Terminal `y` selects the SE+NW diagonal in both N1 and D1; N1
