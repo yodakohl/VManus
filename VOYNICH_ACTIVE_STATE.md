@@ -1513,6 +1513,19 @@ morphology, sound, wordhood, syntax, meaning, or translation. A genuinely new
 formal route may test whether its selection is conditioned by held-out
 internal exact-member structure rather than by external page/locus context.
 
+That internal route now has a target-label-masked capacity panel. The existing
+197 mixed family-remainder/folio cells retain all 1,207 rows, but expose only
+opaque first-remainder `(ZL3b, IT2a, RF1b)` member-triple IDs, base IDs, folio,
+register, and a reading-consensus flag. There are 25 onset triples; 31/44
+family remainders and 113/197 quota cells vary in onset, covering 733 rows on
+41 folios. More importantly, 1,141 rows on all 59 folios have the same
+base/onset pair on another folio, across 53 reusable pairs and 28 bases. All
+capacity gates pass, and an independent 18-check reconstruction matches the
+exact masked panel, counts, gates, report, and five mutations. No operation
+row label, prefix code, full remainder signature, or target score is present.
+This authorizes target-free calibration of one leave-physical-folio-out onset-
+compatibility statistic only; it supplies no morphology or meaning.
+
 The frozen out-of-domain prose-to-diagnostic test is now a strong but formal
 **nonconfirmation**. On 1,382 strict labels/radial/diagram groups, both favored
 and disfavored tails reach the minimum p=1/8192 under both exact-position-
