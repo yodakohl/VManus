@@ -3314,6 +3314,21 @@ alignment at rank 1 and no more than 35/708 non-dihedral mappings also at rank
 structural lead needing a new independent target; no start, surface, sound,
 lexeme, language, plaintext, direction name, or translation can result.
 
+The exhaustive corrected control is now complete and independently validated
+as a **POST-HOC SPECIFICITY FAILURE**. The physical alignment remains rank
+1/60, but 66/708 adjacency-breaking IT relabelings also reach rank 1 (9.32%),
+almost twice the frozen maximum 35/708. An independent implementation
+reconstructs all three score tables, 720 assignments, 12 symmetry exclusions,
+708 ranks, histogram, digest, gates, and the algebraic-versus-explicit mapping
+in 11 checks. Thus the `ed`-resolved physical cycle is individually
+word-like and deletion-stable under this model, but the cross-reading score is
+not selective enough about its exact adjacency order. Retain only an honest
+diagnostic, not a strong structural lead. Close this order-2 Markov route and
+do not tune the threshold, smoothing, corpus, alignment control, or joined
+surface. `SIX_FRAGMENT_CONSTRUCTION_UNRESOLVED` remains; no start, handedness,
+sound, word, root, lexeme, language, plaintext, direction name, or translation
+follows.
+
 ## Admission rule for new work
 
 A new semantic route needs genuinely independent authorial evidence or a new
