@@ -3331,7 +3331,7 @@ follows.
 
 ## Admission rule for new work
 
-### Active source-frozen route: alternating star-entry color
+### Closed source-frozen route: alternating star-entry color
 
 SCP001 supplies a new provenance-clean author-visible coordinate. Human page
 descriptions plus direct inspection of both the 2004 and independently
@@ -3375,6 +3375,40 @@ gates, decision, and report never changed. Close this fixed marker-color/formal
 line route. Retain the 120-row human source panel, but do not retune features,
 use excluded proximity mappings, or infer a color meaning, recipe class,
 number, word, lexeme, plaintext, language, or translation.
+
+### Active source-frozen route: star-entry morphology
+
+A newly located public human-authored table records 323 final-section marginal
+stars on 23 pages / 12 physical folios, including top-to-bottom star number,
+visible core state, paint, ray count, and tail count. The exact source and its
+page-by-page methodology report are live-hash frozen. This is permitted manual
+annotation, not OCR or automated/neural image recognition.
+
+SME001 admits only pages whose complete human star count exactly equals the
+existing manual ZL `<%>` marker count. Thirteen pages / eight physical folios
+match, giving 171 ordinal-to-marker bindings with complete ZL3b/IT2a/RF1b
+coverage. Ten count-mismatched pages are excluded. No millimetric proximity,
+nearest-line repair, or the source author's inferred paragraph assignments are
+used.
+
+Two independent author-visible contrasts pass source capacity. After excluding
+rare six- and nine-ray cases, 164 entries remain for seven versus eight rays;
+all 13 pages and all eight folios vary internally (90 versus 74). One versus
+two drawn tails retains 170 entries, with internal variation on nine pages /
+seven folios (147 versus 23). Visible no-core versus dot stops because its 77
+eligible entries vary within pages on only four physical folios. Opaque red
+cores are unknown, never negative. Tail absence is also inadmissible: it is
+almost entirely a page/bifolio property and occurs only once in the strict
+panel.
+
+A nonimporting source reconstruction passes 14/14 checks. No Voynich text
+feature has been opened. The next mandatory action is a target-blind design
+whose null preserves each page's complete morphology sequence and run
+structure, blocks parity and ordinal-gradient artifacts, equalizes physical
+folios, synchronizes alternate readings, and fails on one-folio leverage.
+Even confirmation can establish only a marker-morphology-conditioned formal
+construction, not a ray/tail meaning, recipe class, number, word, lexeme,
+plaintext, language, or translation.
 
 A new semantic route needs genuinely independent authorial evidence or a new
 invariant capable of falsifying competing meanings. A new model, crop,
