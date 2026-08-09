@@ -1,0 +1,140 @@
+{
+  "broad_boundary_profiles": {
+    "DEFINITE_SPACE|DEFINITE_SPACE|DEFINITE_SPACE": 20022,
+    "DEFINITE_SPACE|DEFINITE_SPACE|UNCERTAIN_SMALL_SPACE": 25,
+    "DEFINITE_SPACE|DRAWING_INTERRUPTION|DEFINITE_SPACE": 21,
+    "DEFINITE_SPACE|NONE|DEFINITE_SPACE": 76,
+    "DEFINITE_SPACE|NONE|UNCERTAIN_SMALL_SPACE": 15,
+    "DRAWING_INTERRUPTION_UNALIGNED|DRAWING_INTERRUPTION|DRAWING_INTERRUPTION": 3,
+    "DRAWING_INTERRUPTION|DEFINITE_SPACE|DRAWING_INTERRUPTION": 18,
+    "DRAWING_INTERRUPTION|DRAWING_INTERRUPTION|DRAWING_INTERRUPTION": 522,
+    "DRAWING_INTERRUPTION|NONE|DRAWING_INTERRUPTION": 1,
+    "NONE|DEFINITE_SPACE|NONE": 262,
+    "NONE|DEFINITE_SPACE|UNCERTAIN_SMALL_SPACE": 128,
+    "NONE|NONE|UNCERTAIN_SMALL_SPACE": 237,
+    "UNCERTAIN_SMALL_SPACE|DEFINITE_SPACE|DEFINITE_SPACE": 883,
+    "UNCERTAIN_SMALL_SPACE|DEFINITE_SPACE|NONE": 289,
+    "UNCERTAIN_SMALL_SPACE|DRAWING_INTERRUPTION|NONE": 1,
+    "UNCERTAIN_SMALL_SPACE|NONE|DEFINITE_SPACE": 245,
+    "UNCERTAIN_SMALL_SPACE|NONE|NONE": 410,
+    "UNCERTAIN_SMALL_SPACE|NONE|UNCERTAIN_SMALL_SPACE": 1
+  },
+  "broad_type_consensus_counts": {
+    "DEFINITE_SPACE": 20360,
+    "DRAWING_INTERRUPTION": 523,
+    "MIXED_SOURCE_SEPARATOR": 1628,
+    "UNCERTAIN_SMALL_SPACE": 648
+  },
+  "claim_ceiling": "This pass establishes an exact-family three-reading transcription scaffold and source-synchronized boundary capacity only. It does not establish authorial word boundaries, physical character identity, pronunciation, morphology, parts of speech, language, cipher, lexemes, plaintext, or translation.",
+  "counts": {
+    "broad_boundary_support": {
+      "1": 909,
+      "2": 756,
+      "3": 21494
+    },
+    "broad_synchronized_fraction_of_union": 0.9607496005872447,
+    "common_three_reading_loci": 5214,
+    "exact_groups": 26184,
+    "exact_loci": 3934,
+    "exact_position_set_loci": 2707,
+    "exact_symbols": 107122,
+    "exact_synchronized_boundaries": 22250,
+    "exact_typed_map_loci": 2268,
+    "exact_union_boundaries": 23159,
+    "reading_loci_by_edition": {
+      "IT2a": 5215,
+      "RF1b": 5385,
+      "ZL3b": 5385
+    },
+    "strict_boundary_support": {
+      "1": 814,
+      "2": 668,
+      "3": 19041
+    },
+    "strict_exact_position_set_loci": 2485,
+    "strict_exact_typed_map_loci": 2089,
+    "strict_groups": 23281,
+    "strict_loci": 3572,
+    "strict_symbols": 95451,
+    "strict_synchronized_boundaries": 19709,
+    "strict_synchronized_fraction_of_union": 0.9603371826730984,
+    "strict_union_boundaries": 20523
+  },
+  "gates": {
+    "all_boundary_offsets_internal": true,
+    "all_member_families_equal": true,
+    "all_synchronized_groups_reconstruct": true,
+    "broad_and_strict_panels_separate": true,
+    "exact_family_sequence_selection": true,
+    "exact_input_hashes": true,
+    "exact_three_reading_metadata": true,
+    "no_dynamic_alignment_or_preferred_reading": true,
+    "zero_legacy_formal_or_semantic_fields": true
+  },
+  "inputs": {
+    "source_atlas": {
+      "path": "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+      "sha256": "4b649c8290d5afc7a5fbcc8e98db2bc123a1ceb5f3858d3befa781ce96b680f0"
+    },
+    "spec": {
+      "path": "experiments/semantic_assumptions/SOURCE_STA_FAMILY_CONSENSUS_SPEC.md",
+      "sha256": "c7a494fdc37c3c2c63b527513e046920aace695b16d11d88a084d4f7efd26275"
+    },
+    "sta_alignment": {
+      "path": "experiments/semantic_assumptions/results/source_sta_group_alignment.tsv",
+      "sha256": "f23654f1d4c854db6d458b418a0d3530115731604854cf0a0495565e58341840"
+    },
+    "sta_summary": {
+      "path": "experiments/semantic_assumptions/results/source_sta_group_alignment.json",
+      "sha256": "1df2786fa95c8dcca4845c86e13003e968ad36ae760a5f258a6f936eb7abcad2"
+    },
+    "sta_validation": {
+      "path": "experiments/semantic_assumptions/results/source_sta_group_alignment_validation.json",
+      "sha256": "cc53d32646b21e4135f0b23d98662e10835307ad860d021ea8c487261d7646fd"
+    }
+  },
+  "outputs": {
+    "boundaries": {
+      "path": "experiments/semantic_assumptions/results/source_sta_family_consensus_boundaries.tsv",
+      "rows": 23159,
+      "sha256": "b32aa0a197f9a09eb19087ca80fcc0346601576d49429c346a5df23826ef3974"
+    },
+    "groups": {
+      "path": "experiments/semantic_assumptions/results/source_sta_family_consensus_groups.tsv",
+      "rows": 26184,
+      "sha256": "a202d93498e8a350a5d7e0ca46e831dcc37ea5c0182dc404d63cb797a98b1225"
+    },
+    "loci": {
+      "path": "experiments/semantic_assumptions/results/source_sta_family_consensus_loci.tsv",
+      "rows": 3934,
+      "sha256": "84354a9e5d291ab00f45c9bfe161f62d8cbd8c39db7511ff263cd9fcfe9d9e77"
+    }
+  },
+  "status": "PASS_EXACT_THREE_READING_STA_FAMILY_GRAMMAR_SCAFFOLD",
+  "strict_boundary_profiles": {
+    "DEFINITE_SPACE|DEFINITE_SPACE|DEFINITE_SPACE": 17758,
+    "DEFINITE_SPACE|DEFINITE_SPACE|UNCERTAIN_SMALL_SPACE": 25,
+    "DEFINITE_SPACE|DRAWING_INTERRUPTION|DEFINITE_SPACE": 17,
+    "DEFINITE_SPACE|NONE|DEFINITE_SPACE": 65,
+    "DEFINITE_SPACE|NONE|UNCERTAIN_SMALL_SPACE": 14,
+    "DRAWING_INTERRUPTION_UNALIGNED|DRAWING_INTERRUPTION|DRAWING_INTERRUPTION": 2,
+    "DRAWING_INTERRUPTION|DEFINITE_SPACE|DRAWING_INTERRUPTION": 15,
+    "DRAWING_INTERRUPTION|DRAWING_INTERRUPTION|DRAWING_INTERRUPTION": 440,
+    "DRAWING_INTERRUPTION|NONE|DRAWING_INTERRUPTION": 1,
+    "NONE|DEFINITE_SPACE|NONE": 233,
+    "NONE|DEFINITE_SPACE|UNCERTAIN_SMALL_SPACE": 108,
+    "NONE|NONE|UNCERTAIN_SMALL_SPACE": 216,
+    "UNCERTAIN_SMALL_SPACE|DEFINITE_SPACE|DEFINITE_SPACE": 784,
+    "UNCERTAIN_SMALL_SPACE|DEFINITE_SPACE|NONE": 257,
+    "UNCERTAIN_SMALL_SPACE|DRAWING_INTERRUPTION|NONE": 1,
+    "UNCERTAIN_SMALL_SPACE|NONE|DEFINITE_SPACE": 221,
+    "UNCERTAIN_SMALL_SPACE|NONE|NONE": 365,
+    "UNCERTAIN_SMALL_SPACE|NONE|UNCERTAIN_SMALL_SPACE": 1
+  },
+  "strict_type_consensus_counts": {
+    "DEFINITE_SPACE": 18056,
+    "DRAWING_INTERRUPTION": 441,
+    "MIXED_SOURCE_SEPARATOR": 1444,
+    "UNCERTAIN_SMALL_SPACE": 582
+  }
+}

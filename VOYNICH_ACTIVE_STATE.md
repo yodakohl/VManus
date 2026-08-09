@@ -37,6 +37,12 @@ Updated: 2026-08-09. Read this file first, then
    drawing interruption, and unaligned drawing interruption. The legacy ASCII
    cleaner also created 2,714 additional fragment boundaries that are not
    source separators and must never be treated as human-marked spaces.
+   A no-alignment consensus scaffold retains 3,572 shared loci with no
+   bracketed alternatives and exactly the same complete STA-family sequence in
+   all three readings. Of 20,523 union boundary positions there, 19,709
+   (96.03%) occur in at least two readings and 19,041 occur in all three. These
+   are source-synchronized transcription boundaries, not proven authorial
+   words.
 2. Multi-unit forms are productively compositional; the inventory is not well
    described as unrelated opaque codebook items.
 3. Physical lines behave as record/utterance-like units. A validated writing-
@@ -1007,6 +1013,21 @@ source-surface absence claim because 173 source groups vanish before that
 legacy layer, and it does not constrain what a future parser might assign to
 an unparsed group. SME003 remains closed because it failed
 target-free calibration before morphology access.
+
+The first source-native grammar scaffold is now complete. Of 5,214 loci shared
+by all readings, 3,934 have exactly the same full STA-family sequence without
+edit alignment; 3,572 also contain zero bracketed alternatives. The strict
+panel contains 95,451 aligned family symbols. Its 19,709 boundary positions
+supported by at least two readings yield 23,281 synchronized construction
+groups, each retaining the separate ZL/IT/RF member codes and exact separator
+profile. A nonimporting implementation reconstructed 3,934 loci, 23,159 broad
+union-boundary rows, 26,184 broad groups, all outputs, and mutation controls in
+1,895,831 checks. RF is partly derived from ZL, so agreement is a
+transcription-confidence coordinate rather than independent evidence. The next
+route may learn a source-boundary grammar only from all-three-versus-zero
+positions on training folios, then test whether it ranks held two-reading
+positions above one-reading positions. No old formal role or root may be used
+as a predictor.
 
 The first post-reset author-visible relation has now passed. `EAS001` used the
 older text-blind frozen inventory of explicit repeated sectors, bands, rows,
