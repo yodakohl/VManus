@@ -2063,6 +2063,24 @@ lexical meanings of the Voynich strings. Do not export `f`, `p`, `ot`, `y`, or
 any N1 form to zodiac or prose. Independent reconstruction passes all 12
 registered checks.
 
+A new cross-page form lead is retained with a strict transcription and
+ownership ceiling. The fixed southwest COLD-position label `f57v.8` and the
+top-center bathing label `f77v.3` are both read `olkeedal` in ZL3b; the older
+Stolfi label inventory prints `olkchdal` at both locations under different
+transcriber codes. IT2a instead has `olkchdal` versus `olkeedal`, and RF1b has
+`olkchdal` versus `olkee al`, so complete equality does not survive all
+alternate readings. Every reading preserves an `ol`+`k` component in both,
+but that component is common at 418 all-reading loci on 95 pages and 16 `L`
+loci on 14 pages. Official Yale-witness quality control confirms similar
+overall forms but cannot resolve the faint f57 `kch`/`kee` cluster or the f77
+space. Human annotation of f77v.3 is hedged proximity and cannot choose the
+central nymph over the adjacent double-Y tube. Retain only **PROVISIONAL
+f57v.8 COLD-POSITION ↔ f77v.3 SIMILAR-FORM CANDIDATE**. Do not translate `ol`,
+`k`, `ol+k`, or the complete form as COLD, and do not assign f77v.3 a
+temperature, figure, organ, tube, inlet, or outlet meaning. Reopen only with a
+third independently and explicitly owned HOT/MOIST/COLD/DRY value frozen
+before its string, or new author-visible evidence resolving f77v.3 ownership.
+
 A later exhaustive simple-feature diagnostic recovers an exact local two-bit
 table in every manual reading, but a correction makes it semantically
 nonidentifying. Terminal `y` selects the SE+NW diagonal in both N1 and D1; N1
