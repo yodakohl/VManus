@@ -203,6 +203,15 @@ active pages. The catalogue-level `fRos` record remains a compound-foldout
 case rather than a literal one-page match. The earlier local importer had
 mistakenly omitted the catalogue's entire named `Text` field.
 
+The 18 public quire HTML sources behind that atlas are now restored after
+curation had removed them while retaining only derived artifacts. A live
+2026-08-10 refresh matches every previously registered source SHA-256 and
+independently reproduces all 228 page IDs plus every stored general,
+illustration, text, tentative-identification, and other-information field with
+zero differences. The builder now uses the active public snapshot and fails
+closed if any quire is absent. This repairs provenance but contributes no new
+description or semantic anchor.
+
 One small production-layer lead is now retained without a lexical gloss.
 The human catalogue has 13 `COL`-classed records on ten pages: twelve are
 plain-alphabet records, including Latin `g` under green paint on f1v, German
@@ -1642,6 +1651,18 @@ new grammar or decipherment. Preserve genuinely cross-space dependencies and
 graphical record-boundary findings separately. Independent code reconstructs
 284 public basic STA mappings, all 576 atlas pairs, every compatibility count,
 primary witness, decision, and mutations in 21 checks.
+
+A proposed deeper suffix-to-prefix experiment is also stopped before scoring
+because public work already tests the broader estimand. Reddy and Knight
+(2011) used the last one to three characters of one Voynich word to predict
+the first one or two of the next, including the exact broader `m=2,n=2` case;
+Smith and Ponzi quantify terminal-to-initial word-break combinations; Parisel
+(2026) explicitly models suffix-to-prefix cross-boundary information. A new
+held-folio implementation would be a cleaner replication, not a new
+constraint. Do not run another generic boundary-context model without
+external ownership, graphical slot structure, or another genuinely different
+mechanism. No manuscript target statistic was computed in this public-prior
+stop.
 
 The first such incremental route now passes target-label-masked capacity. It
 fixes both the complete coarse remainder and the exact first onset, then asks

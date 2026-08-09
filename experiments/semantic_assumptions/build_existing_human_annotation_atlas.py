@@ -26,9 +26,7 @@ from typing import Any, Iterable
 ROOT = Path(__file__).resolve().parents[2]
 HERE = Path(__file__).resolve().parent
 RESULTS = HERE / "results"
-ARCHIVE = ROOT / "archive_pre_reset_2026-08-06" / "semantic_assumptions"
-
-CATALOGUE_CACHE = ARCHIVE / "cache" / "gheuens_rapaport_traits"
+CATALOGUE_CACHE = HERE / "cache" / "public_voynich_nu_catalogue"
 EVT_SOURCE = ROOT / "transcription" / "sources" / "Stolfi_text25e1-52.evt"
 STOLFI_LINES = ROOT / "transcription" / "voynich_stolfi25e1_lines.tsv"
 STRUCTURAL_LINES = ROOT / "transcription" / "voynich_zl3b_lines.tsv"
@@ -45,9 +43,10 @@ LABEL_OUT = RESULTS / "existing_human_label_annotations.tsv"
 MANIFEST_OUT = RESULTS / "existing_human_annotation_atlas.json"
 REPORT_OUT = RESULTS / "existing_human_annotation_atlas_report.md"
 
+CATALOGUE_IDS = tuple(f"q{number:02d}" for number in (*range(1, 16), 17, 19, 20))
 CATALOGUE_URLS = {
-    path.stem: f"https://www.voynich.nu/{path.stem}/index.html"
-    for path in sorted(CATALOGUE_CACHE.glob("q*.html"))
+    source_id: f"https://www.voynich.nu/{source_id}/index.html"
+    for source_id in CATALOGUE_IDS
 }
 STOLFI_BEST_LABEL_URL = (
     "https://www.ic.unicamp.br/~stolfi/PUB/EXPORT/voynich/Notes/107/"
@@ -214,6 +213,12 @@ def folio_sort_key(page: str) -> tuple[int, str]:
 
 
 def parse_catalogue() -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
+    observed_ids = tuple(path.stem for path in sorted(CATALOGUE_CACHE.glob("q*.html")))
+    if observed_ids != CATALOGUE_IDS:
+        raise RuntimeError(
+            "public catalogue snapshot is incomplete; run "
+            "refresh_public_voynich_nu_catalogue.py"
+        )
     records: dict[str, dict[str, Any]] = {}
     sources = []
     for path in sorted(CATALOGUE_CACHE.glob("q*.html")):
