@@ -1201,6 +1201,23 @@ authorizes exactly one separately frozen target run with 8,191 assignments per
 ensemble. It does not predetermine the target result or license any sound,
 word, language, cipher, meaning, plaintext, or translation claim.
 
+The one-time `cho/che` scope target has now been executed and independently
+reconstructed. It is a frozen nonconfirmation. Local proper-score effects are
+only +.014447 ZL, +.017904 IT, and +.026723 RF; ZL's conservative two-ensemble
+p is .10437 and its leave-one-folio and concentration gates fail. RF alone is
+nominally nonexchangeable, but misses the frozen materiality, concentration,
+and alternate-reading family gates. Exact-distance boundary effects are
+negative in every reading (-.032403 ZL, -.027973 IT, -.055195 RF), with only
+3/45, 5/45, and 3/44 positive folios. The result is not explained by broad
+transcription disagreement: 7,208/7,216 common physical events have the same
+binary choice in all readings. A production-free implementation reconstructs
+all 30,160 joins, 8,191 rotations per ensemble, scores, gates, and exact report.
+Retain the strong page-side regime, but do not call it a paragraph-local state
+or a ZL-boundary process at this frozen resolution. Do not rerun with halves,
+different distances, selected readings/templates, or weaker thresholds. The
+next route must leave this exact scope family. No sound, word, language, cipher
+operation, meaning, plaintext, or translation follows.
+
 The first post-reset author-visible relation has now passed. `EAS001` used the
 older text-blind frozen inventory of explicit repeated sectors, bands, rows,
 and apparatus slots; it did not use pixels, OCR, automated vision, semantic
