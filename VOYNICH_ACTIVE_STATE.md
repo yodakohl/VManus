@@ -5876,14 +5876,18 @@ this exact representation/model/calibration design and must not be rescued by
 threshold, ridge, rank, feature, or subset tuning. The label-free geometry
 remains reusable only for a genuinely different preregistered falsifier.
 
-The selected successor is ETR001 exact-template recurrence. It does not try to
-repair LRS001-R1 or generalize with another classifier. It first masks every
-supported target family and asks only whether enough cross-folio corrected
-prose records share the same exact non-target family multiset in both identical
-and different orders. The frozen capacity pass emits counts and digests only;
-it computes no target identity or equality. A capacity pass would authorize
-synthetic controls for a direct exact-copy statistic, while a stop would close
-this strict parallel-passage resolution unopened.
+The selected successor, ETR001 exact-template recurrence, has also stopped
+unopened. It did not repair LRS001-R1 or use another classifier. After masking
+every supported target identity, the fixed exact strata contained zero
+cross-folio context bags having both an identical-order pair and a
+different-order pair: zero informative strata, zero retained pairs, and zero
+masked comparisons, despite 2,121 target-bearing records. All seven frozen
+capacity gates therefore fail. No target identity or equality was computed.
+This closes only strict exact formal-template recurrence at that resolution;
+loosening its context bag or metadata strata after seeing zero capacity would
+be a new experiment, not a rescue. A nonimporting reconstruction reproduces
+the complete stop and remains byte-identical after independently replacing and
+then scrubbing all 8,173 masked target surfaces in each source table.
 
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
