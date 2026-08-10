@@ -5491,6 +5491,23 @@ source, capacity, calibration, production, and validation files bound while all
 four target/validation outputs are absent. Exactly one aggregate target and one
 clean reconstruction are authorized; no post-target tuning is permitted.
 
+The one-shot LRG005 target is a final nonconfirmation of the D1-specific
+mechanism. D1-versus-bare is descriptively positive (`+.440342`, `p=.001587`,
+12/13 folios), but misses the frozen z (`2.8397 < 3`), section-balance
+(`.3066 < .35`), and concentration (`.3105 > .30`) gates. More decisively,
+D1-versus-other extensions is negative (`-.066050`, `p=.670939`, 7/13
+positive folios). Thus the label register may favor generally extendable
+sequence families, but it does not preferentially select bases for a D1
+extension over other onsets. Do not call D1 a label-dropped prefix, classifier,
+case marker, or operator from this route.
+
+The original clean validation attempt wrote no output because its scalar
+per-channel mean differed from production's vectorized two-channel mean by at
+most `1.11e-16` in effect and `8.88e-16` in z. Every gate and the
+nonconfirmation are invariant. Production will not be rerun. The original
+freeze and validator remain immutable; one separately committed and frozen
+validator-only arithmetic-order correction is pending.
+
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
 crop, threshold, spelling resemblance, subset, historical analogy, or GPU
