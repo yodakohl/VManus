@@ -5537,6 +5537,14 @@ effect is `.277352`. A clean reconstruction is exact. V2 may change only the
 signed effect requirement in both sections from `.04` to `.20`; all other
 statistics, gates, worlds, and target isolation remain fixed.
 
+LRG006 calibration v2 makes exactly that one pretarget change and passes: zero
+of 64 nulls, all eight worlds in each of the four distributed signal families,
+and zero of eight in every one-folio, one-section, one-parity, folio-random,
+and cell-constant adversary family. Independent code reconstructs the complete
+136-world artifact exactly. This authorizes only a separately registered and
+frozen, one-time two-sided A1-versus-other-A target. It does not authorize a
+member meaning, sound, word, function, plaintext, or translation.
+
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
 crop, threshold, spelling resemblance, subset, historical analogy, or GPU
