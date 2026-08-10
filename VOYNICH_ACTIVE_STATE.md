@@ -1287,6 +1287,16 @@ formal system/register switch at this calibrated resolution. This permits the
 separate canonicalized latent-form branch; it does not prove that only `o/e`
 changes and supplies no meaning, language, cipher, plaintext, or translation.
 
+The canonical latent-form successor now has independently validated,
+realization- and template-masked capacity. Exactly one `ch/sh+o/e` site yields
+2,223 source-native groups across all eight switch leaves and three readings;
+all 48 reading/leaf/side cells are present with minimum eight groups. The panel
+stores state and fixed geometry but neither the `o/e` value nor canonical
+template, and a realization-swap mutation leaves it unchanged. A first builder
+attempt stopped before output on a page-rank tuple-key error; the corrected
+unchanged definition passes 20 independent checks. Only a complexity-matched
+synthetic raw-versus-canonical transfer/equivalence preflight is authorized.
+
 A genuinely different source-native morphology route has now been tested. It
 asks whether the first STA family of a synchronized prose group helps
 predict its last family after the second and penultimate families, capped
