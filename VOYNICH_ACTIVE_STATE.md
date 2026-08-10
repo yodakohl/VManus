@@ -5842,6 +5842,25 @@ calibration must enforce an exact input allowlist containing this geometry and
 its calibration code/spec only; it must not read the capacity, atlas, split,
 builder/validator, parser, or transcription/content artifacts.
 
+The label-free donor orbit is also fixed. The 445 target-bearing TEST records
+sit inside cells containing 453 movable records in total; all 453 must move so
+the eight targetless donor records are not silently discarded. The complete
+8,192-by-453 orbit is unique with no retries, and its canonical map and retry
+digests are frozen in the calibration specification. This is assignment
+capacity only; no synthetic or manuscript class association has been fitted
+or scored.
+
+The LRS001-R1 target-blind calibration implementation is now registered after
+independent static review. Its six length-specific opaque classifiers compare
+ordered nonadjacent content against both the identical unordered content and
+the geometry/local-neighbour nuisance model. The frozen 208-world suite
+requires all 16 distributed plants to pass, all 64 nulls and all 128 localized
+or confounded adversaries to reject, and all assignment, deletion,
+concentration, invariance, malformed-input, and output-isolation guards to
+hold. The clean validator imports no production module. This registration
+authorizes exactly one hash-bound synthetic calibration; it still opens no
+real class identity or manuscript context-target association.
+
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
 crop, threshold, spelling resemblance, subset, historical analogy, or GPU
