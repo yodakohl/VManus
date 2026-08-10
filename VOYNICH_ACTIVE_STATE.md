@@ -2403,6 +2403,18 @@ frozen source-native within-group query; the target Herbal prose remains
 unopened, and no public plant relation or capacity fact is itself a name,
 meaning, plaintext, or translation.
 
+SNPL002 now calibrates that exact query without target access. It searches for
+the label's contiguous four- and five-member STA windows inside one complete
+source group, weights them against the appropriate non-target Herbal stratum,
+and evaluates all 24 label-to-page assignments. This is neither S99's parsed
+unordered root-set score nor S100's exact parsed-word composition. Across 104
+frozen synthetic worlds it passes 0/64 nulls, 8/8 same-family edge-mutated
+global plants, and 0/8 in every one-label, wrong-pairing, one-reading, and
+family-only adversarial family. A clean-room 32-worker reconstruction agrees
+exactly. One hash-frozen run on f48v/f18v/f23r/f19r is now authorized with the
+public relation order fixed; thresholds may not change afterward. Even a pass
+can establish only manuscript-internal same-plant reference signal.
+
 A score-blind S100 audit identifies the untested middle ground between S98 and
 S99: grammar-normalized exact multi-root word composition and within-word
 ordered root embedding. It is computationally distinct, but it reuses the same
