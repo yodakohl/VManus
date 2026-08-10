@@ -5549,8 +5549,9 @@ That LRG006 target is now registered but unscored. It will reconstruct the
 real 163 label and 514 prose roles once, preserve every exact page-by-length
 quota, and test the already hash-bound binary A1-versus-other-A vector. Positive
 and negative directions are symmetric. Only aggregate results may be emitted.
-The next action is to commit this method and code, create a hash freeze while
-all four target/result paths are absent, and then execute the target once.
+The method and code are committed and the 21-file hash freeze binds commit
+`2d70263` while all four target/result paths are absent. The next action is the
+single authorized target execution followed by its independent reconstruction.
 
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
