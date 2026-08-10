@@ -5704,6 +5704,14 @@ metadata thresholds, and no family surface or profile score may be read. A
 pass can authorize only target-blind calibration before one fixed projection;
 it cannot establish that labels are identifiers, names, nouns, or owners.
 
+That gate passes and is independently reconstructed in 6,380 checks. After
+excluding the lone two-row f57 folio by the predeclared metadata rule, the
+panel retains 286 groups in 40 exact cells on ten pages and six folios: 146
+`L`, 57 `C`, and 83 `R`, spanning sections A, C, and Z. Both control roles
+occur on three folios and both folio parities remain. No family surface or
+profile score was read. This authorizes target-blind fixed-quota calibration
+only; the actual LRG001 profile-to-role association remains unopened.
+
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
 crop, threshold, spelling resemblance, subset, historical analogy, or GPU
