@@ -5570,6 +5570,13 @@ relative to CORE, and D in the opposite direction. The association-unopened
 capacity definition is registered before feature-by-position access. Only
 aggregate A/D margins and hashes may be disclosed before synthetic calibration.
 
+LRG007 capacity passes cleanly without opening that association. Exact
+page-by-length matching retains 4,911 groups in 132 FIRST/CORE/LAST cells on
+all 16 folios. Aggregate-only totals are 1,118 initial-A and 1,235 initial-D;
+they vary in 120 and 107 cells and occur on every folio. Independent code
+reconstructs selection, margins, hashes, artifacts, and report in 9,826 checks.
+The next action is a target-blind fixed-margin four-channel calibration.
+
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
 crop, threshold, spelling resemblance, subset, historical analogy, or GPU
