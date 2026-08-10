@@ -5467,6 +5467,15 @@ gate. Clean reconstruction again passes 9,391 checks. Do not weaken the
 balance gate. One v3 calibration may change only the reduced synthetic
 amplitude to `.40`, retaining the full `.60` plant and every statistic/gate.
 
+Calibration v3 now passes with no further gate change. It yields 0/64 null,
+8/8 full `.60`, 8/8 reduced `.40`, and 0/8 for every one-folio, one-section,
+one-parity, folio-random, one-channel, opposite-channel, and cell-constant
+adversary. The independent 9,391-check reconstruction is exact. This authorizes
+only a separately committed and hash-frozen target that requires both
+D1-versus-bare and D1-versus-all-other-extension channels to pass. The real
+role association remains unopened, and no prefix/function/meaning follows
+from calibration.
+
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
 crop, threshold, spelling resemblance, subset, historical analogy, or GPU

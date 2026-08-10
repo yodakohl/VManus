@@ -1,13 +1,16 @@
 # LRG005 target-blind joint calibration
 
-Status: `FROZEN_TARGET_FREE_CALIBRATION_V2`
+Status: `FROZEN_TARGET_FREE_CALIBRATION_V3`
 
 V1 stopped with 7/8 full plants, 0/8 reduced plants, two one-section
 leaks, and one one-parity leak.  Before target access, V2 adds symmetric
 section/parity balance ratios of `.35`, moves the concentration ceiling from
 `.25` to `.30` because one distributed full plant reached `.2629`, and uses
-fixed full/reduced signal amplitudes `.60/.36`.  No target statistic or role
-association informed these changes.
+fixed full/reduced signal amplitudes `.60/.36`. V2 rejected every adversary
+and recovered 8/8 full but 7/8 reduced plants; the sole reduced failure missed
+only section balance (`.3248 < .35`). V3 preserves every gate and changes only
+the reduced amplitude to `.40`. No target statistic or role association
+informed these changes.
 
 ## Future target scores
 
@@ -44,7 +47,7 @@ row.  Synthetic labels preserve every masked cell quota.  Frozen deterministic
 standard-normal score noise is used in 64 null worlds and eight worlds each of:
 
 - `DISTRIBUTED_FULL` and `DISTRIBUTED_REDUCED`: both channels aligned
-  everywhere with fixed amplitudes `.60` and `.36`;
+  everywhere with fixed amplitudes `.60` and `.40`;
 - `ONE_FOLIO`, `ONE_SECTION`, `ONE_PARITY`: concentrated signal;
 - `FOLIO_RANDOM`: independent folio signs;
 - `ONE_CHANNEL`: only D1_BARE aligned;

@@ -14,7 +14,7 @@ KINDS=("NULL","DISTRIBUTED_FULL","DISTRIBUTED_REDUCED","ONE_FOLIO","ONE_SECTION"
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def world(g,kind,index):
     rng=np.random.default_rng(5_000_000+index+1000*KINDS.index(kind));y=random_labels(g,rng);scores=rng.standard_normal((len(y),2));signed=2*y.astype(float)-1
-    delta=.60 if kind=="DISTRIBUTED_FULL" else .36
+    delta=.60 if kind=="DISTRIBUTED_FULL" else .40
     if kind in {"DISTRIBUTED_FULL","DISTRIBUTED_REDUCED"}:scores+=delta*signed[:,None]
     elif kind=="ONE_FOLIO":scores[g.folios==g.folio_names[0]]+=.8*signed[g.folios==g.folio_names[0],None]
     elif kind=="ONE_SECTION":scores[g.sections=="B"]+=.6*signed[g.sections=="B",None]
