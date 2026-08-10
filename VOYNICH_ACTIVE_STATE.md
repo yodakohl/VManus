@@ -1235,7 +1235,24 @@ and .75 passed. An initial disclosed smoke had allowed 1/8 one-section controls
 through a sign-only non-Herbal gate; before target access that gate and the
 parallel Currier gate were fixed at a .10 material effect, eliminating the
 failure. The target is now sealed for one execution and one independent
-reconstruction. No drawing family score has yet been computed.
+reconstruction.
+
+The sealed target confirms a distributed drawing-interruption reset signature.
+Against 4,143 same-page ordinary spaces, 428 drawing gaps have raw equal-folio
+reset-likeness +.44516 (p=1/65,537) and nuisance-residual +.28045
+(p=5/65,537). The residual is positive on 44/59 physical folios; Currier A/B
+are +.28743/+.25800 and Herbal/non-Herbal pages +.27665/+.30868. Every
+leave-one-folio deletion stays positive and the largest absolute folio share is
+7.99%, so all nine frozen gates pass. The frozen clean validator reproduced all
+scientific numbers and gates within 4.67e-15 but strictly failed two byte
+digests because it spelled the position square/cube by repeated multiplication
+where the producer used exponentiation. A bound arithmetic-order reconciliation
+changed only that spelling and then matched every result field, both digests,
+the full null orbit, and the report exactly in 484 checks. Therefore treat a
+manual drawing interruption as a grammar-reset boundary in future source-native
+segmentation; do not concatenate across it. This does not show that adjacent
+text names or describes the drawing and adds no word, sound, POS, meaning,
+plaintext, language, cipher, or translation.
 
 A strict duplicate audit rejected two tempting next steps before scoring:
 semantic illustration matching would repeat the closed object-tag/berry/flower
