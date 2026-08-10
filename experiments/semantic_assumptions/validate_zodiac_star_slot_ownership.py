@@ -187,6 +187,11 @@ def main() -> None:
         label_counts[page] = labels
         extra = int("The 30th is near one of the central stars" in row["text_description"])
         near = NEAR_RE.search(row["text_description"])
+        distinct_f72 = int(
+            page == "f72r2"
+            and "in one case (outer ring, bottom right) the star is missing" in row["other_information"].lower()
+            and "in another case (outer ring, left) only the label is missing" in row["other_information"].lower()
+        )
         reconstructed.append({
             "page": page,
             "physical_folio": re.match(r"f\d+", page).group(0),
@@ -196,11 +201,12 @@ def main() -> None:
             "public_label_count": labels,
             "explicit_near_figure_label_count": int(near.group(1)) if near else "",
             "explicit_nonfigure_star_label_count": extra,
-            "star_slot_prediction": star_figures + extra,
             "figure_count_residual_labels_minus_figures": labels - figures,
-            "star_slot_residual_labels_minus_prediction": labels - star_figures - extra,
+            "aggregate_star_count_residual_labels_minus_star_holding_figures_and_nonfigure_label": labels - star_figures - extra,
             "all_reading_ivtff_L_count": labels,
-            "explicit_unlabelled_nonstar_figure": int(page == "f72r2"),
+            "f72r2_distinct_star_missing_and_label_missing_slots": distinct_f72,
+            "f72r2_implied_labelled_nonstar_figure": distinct_f72,
+            "f72r2_implied_unlabelled_star_holding_figure": distinct_f72,
         })
         for reading in READINGS:
             check(len(distinct_loci[(page, reading)]) == labels, f"label/L {page} {reading}")
@@ -212,10 +218,10 @@ def main() -> None:
         check(stored == {key: str(value) for key, value in expected.items()}, "stored row " + expected["page"])
 
     figure_matches = sum(row["figure_count_residual_labels_minus_figures"] == 0 for row in reconstructed)
-    star_matches = sum(row["star_slot_residual_labels_minus_prediction"] == 0 for row in reconstructed)
+    aggregate_star_matches = sum(row["aggregate_star_count_residual_labels_minus_star_holding_figures_and_nonfigure_label"] == 0 for row in reconstructed)
     exceptions = [row for row in reconstructed if row["figure_count_residual_labels_minus_figures"] != 0]
     check(figure_matches == 10, "figure 10/12")
-    check(star_matches == 12, "star 12/12")
+    check(aggregate_star_matches == 12, "aggregate star count 12/12")
     check([(row["page"], row["figure_count_residual_labels_minus_figures"]) for row in exceptions] == [("f70v2", 1), ("f72r2", -1)], "opposite exceptions")
     check(len({row["physical_folio"] for row in exceptions}) == 2, "different folios")
 
@@ -228,50 +234,53 @@ def main() -> None:
         "figure_count_model_has_two_opposite_exceptions": figure_matches == 10 and [
             row["figure_count_residual_labels_minus_figures"] for row in exceptions
         ] == [1, -1],
-        "star_slot_model_matches_all_pages": star_matches == 12,
+        "aggregate_star_count_identity_holds_but_is_not_an_ownership_test": aggregate_star_matches == 12,
         "f70v2_has_explicit_label_near_nonfigure_central_star": reconstructed[0]["explicit_nonfigure_star_label_count"] == 1,
-        "f72r2_has_exact_public_unlabelled_nonstar_figure": next(row for row in reconstructed if row["page"] == "f72r2")["explicit_unlabelled_nonstar_figure"] == 1,
+        "f72r2_public_source_says_star_and_label_are_missing_at_different_slots": next(row for row in reconstructed if row["page"] == "f72r2")["f72r2_distinct_star_missing_and_label_missing_slots"] == 1,
+        "f72r2_contains_a_labelled_nonstar_figure": next(row for row in reconstructed if row["page"] == "f72r2")["f72r2_implied_labelled_nonstar_figure"] == 1,
+        "f72r2_contains_an_unlabelled_star_holding_figure": next(row for row in reconstructed if row["page"] == "f72r2")["f72r2_implied_unlabelled_star_holding_figure"] == 1,
         "two_exception_pages_are_different_physical_folios": len({row["physical_folio"] for row in exceptions}) == 2,
         "zero_lexical_glosses": True,
     }
     expected_json = {
         "experiment": "ZODIAC_STAR_SLOT_OWNERSHIP_AUDIT",
-        "status": "PASS_PUBLIC_STAR_BEARING_SLOT_OWNERSHIP_LEAD",
+        "status": "CORRECTED_INVALIDATED_AGGREGATE_COUNT_OWNERSHIP_CONFOUND",
         "inputs": {path.name: sha(path) for path in (PUBLIC, ROLE_ATLAS, ROLE_ATLAS_JSON, ROLE_ATLAS_VALIDATION, STOLFI)},
-        "counts": {"pages": 12, "physical_folios": 4, "reading_specific_L_count_cells": 36, "figure_model_matching_pages": 10, "star_slot_model_matching_pages": 12, "opposite_exception_pages": 2},
+        "counts": {"pages": 12, "physical_folios": 4, "reading_specific_L_count_cells": 36, "figure_model_matching_pages": 10, "aggregate_star_count_matching_pages": 12, "opposite_exception_pages": 2, "f72r2_distinct_exception_slots": 2},
         "opposite_exceptions": exceptions,
         "gates": gates,
         "output_tsv_sha256": sha(TARGET_TSV),
-        "decision": "RETAIN_STAR_BEARING_SLOT_AS_AGGREGATE_L_RECORD_OWNER",
-        "claim_ceiling": "The public zodiac L inventory follows selected star-bearing slots rather than figures across the two separating exceptions. This does not establish whether a label names a star, day, degree, person, property, or anything else, and supplies no Voynich word, meaning, plaintext, or translation.",
+        "decision": "RETAIN_COMPOSITE_30_SLOT_INVENTORY_NO_EXCLUSIVE_STAR_OR_FIGURE_OWNER",
+        "claim_ceiling": "The public zodiac L inventory belongs to a repeated nymph-star-label slot system, but aggregate counts cannot select stars or figures as the exclusive owner. f72r2 has a labelled figure without a star and a different star-bearing figure without a label. No Voynich word, meaning, plaintext, or translation follows.",
     }
     check(all(gates.values()), "all gates")
     check(json.loads(TARGET_JSON.read_text(encoding="utf-8")) == expected_json, "target JSON")
     expected_report = (
-        "# Public zodiac star-slot ownership audit\n\n"
-        "Status: **PASS_PUBLIC_STAR_BEARING_SLOT_OWNERSHIP_LEAD**\n\n"
-        "Across all twelve public zodiac panels, the manual IVTFF `L` count equals the public catalogue's label count in all 36 page-reading cells. A simple figure-count model matches 10/12 pages. The two failures point in opposite directions: f70v2 has 29 figures but 30 labels, with the 30th explicitly beside a central star; f72r2 has 30 figures but only 29 star-holding figures and 29 labels, while the independent human label index explicitly records the non-star figure as `Not labeled`. The two exceptions lie on different physical folios.\n\n"
-        "Counting star-holding figures plus the explicitly labelled non-figure central star matches 12/12 pages. This supports `STAR-BEARING SLOT` as the aggregate owner of the zodiac `L` inventory more strongly than `FIGURE`. It does not show what any label says: STAR, DAY, DEGREE, PERSON, a property, a name, and every lexical translation remain unestablished.\n"
+        "# Public zodiac aggregate-ownership correction\n\n"
+        "Status: **CORRECTED_INVALIDATED_AGGREGATE_COUNT_OWNERSHIP_CONFOUND**\n\n"
+        "Across all twelve public zodiac panels, the manual IVTFF `L` count equals the public catalogue's label count in all 36 page-reading cells. A simple figure-count model matches 10/12 pages. f70v2 has 29 figures but 30 labels, with the 30th explicitly beside a central star; f72r2 has 30 figures, 29 stars, and 29 labels.\n\n"
+        "The stronger public f72r2 note invalidates the initial ownership inference: the star is missing at one figure, while only the label is missing at a different figure. Therefore f72r2 contains both a labelled figure without a star and a star-holding figure without a label. The numerical 29=29 identity is an aggregate coincidence, not one-to-one star ownership. Retain only a repeated composite nymph-star-label slot inventory, with one missing label among the expected 300. STAR, FIGURE, DAY, DEGREE, PERSON, and every lexical translation remain unestablished.\n"
     )
     check(TARGET_REPORT.read_text(encoding="utf-8") == expected_report, "target report")
-    # Live falsifiers: either exception must break the 12/12 star-slot identity.
-    check(star_figure_count(public_stored["f72r2"]["illustrations"].replace("with one exception", ""), 30) != 29, "f72 exception mutation")
-    check(29 + 0 != label_counts["f70v2"], "f70 central-star mutation")
+    # Live controls: omitting either clause would hide the individual-level contradiction.
+    f72_other = public_stored["f72r2"]["other_information"].lower()
+    check("star is missing" in f72_other and "only the label is missing" in f72_other, "both f72 clauses")
+    check(f72_other.index("star is missing") != f72_other.index("only the label is missing"), "distinct clause positions")
 
     validation = {
         "experiment": "ZODIAC_STAR_SLOT_OWNERSHIP_VALIDATION",
-        "status": "PASS_INDEPENDENT_PUBLIC_SOURCE_STAR_SLOT_RECONSTRUCTION",
+        "status": "PASS_INDEPENDENT_PUBLIC_SOURCE_AGGREGATE_CONFOUND_CORRECTION",
         "checks": checks,
         "bindings": {path.name: sha(path) for path in (*raw_sources, META, STOLFI, PUBLIC, ROLE_ATLAS, TARGET_TSV, TARGET_JSON, TARGET_REPORT, PRODUCER)},
-        "reconstructed": {"pages": 12, "L_cells": 36, "figure_matches": 10, "star_slot_matches": 12, "exceptions": [["f70v2", 1], ["f72r2", -1]]},
+        "reconstructed": {"pages": 12, "L_cells": 36, "figure_matches": 10, "aggregate_star_count_matches": 12, "exceptions": [["f70v2", 1], ["f72r2", -1]], "f72r2_distinct_exception_slots": 2},
         "production_module_imported": False,
         "decision": expected_json["decision"],
-        "claim_ceiling": "Validates only the aggregate public star-bearing-slot ownership lead; no label content, word, meaning, plaintext, or translation follows.",
+        "claim_ceiling": "Validates the correction that aggregate counts do not establish exclusive star or figure ownership; no label content, word, meaning, plaintext, or translation follows.",
     }
     OUT.write_text(json.dumps(validation, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     OUT_REPORT.write_text(
-        "# Public zodiac star-slot ownership validation\n\n"
-        f"Status: **{validation['status']}** ({checks} checks). Raw public catalogue HTML, the manual source-separator inventory, and the raw human label index independently reproduce all twelve rows, both opposite exceptions, exact artifacts, and the 10/12 versus 12/12 comparison.\n",
+        "# Public zodiac aggregate-ownership correction validation\n\n"
+        f"Status: **{validation['status']}** ({checks} checks). Raw public catalogue HTML, the manual source-separator inventory, and the raw human label index independently reproduce all twelve rows and the decisive f72r2 fact that the missing star and missing label occupy different slots. The former 12/12 aggregate star-count identity is therefore not an ownership result.\n",
         encoding="utf-8",
     )
     print(json.dumps({"status": validation["status"], "checks": checks}, sort_keys=True))

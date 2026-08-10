@@ -1,22 +1,25 @@
 {
-  "claim_ceiling": "The public zodiac L inventory follows selected star-bearing slots rather than figures across the two separating exceptions. This does not establish whether a label names a star, day, degree, person, property, or anything else, and supplies no Voynich word, meaning, plaintext, or translation.",
+  "claim_ceiling": "The public zodiac L inventory belongs to a repeated nymph-star-label slot system, but aggregate counts cannot select stars or figures as the exclusive owner. f72r2 has a labelled figure without a star and a different star-bearing figure without a label. No Voynich word, meaning, plaintext, or translation follows.",
   "counts": {
+    "aggregate_star_count_matching_pages": 12,
+    "f72r2_distinct_exception_slots": 2,
     "figure_model_matching_pages": 10,
     "opposite_exception_pages": 2,
     "pages": 12,
     "physical_folios": 4,
-    "reading_specific_L_count_cells": 36,
-    "star_slot_model_matching_pages": 12
+    "reading_specific_L_count_cells": 36
   },
-  "decision": "RETAIN_STAR_BEARING_SLOT_AS_AGGREGATE_L_RECORD_OWNER",
+  "decision": "RETAIN_COMPOSITE_30_SLOT_INVENTORY_NO_EXCLUSIVE_STAR_OR_FIGURE_OWNER",
   "experiment": "ZODIAC_STAR_SLOT_OWNERSHIP_AUDIT",
   "gates": {
+    "aggregate_star_count_identity_holds_but_is_not_an_ownership_test": true,
     "all_12_public_zodiac_pages_present": true,
     "all_36_ivtff_L_counts_equal_public_label_counts": true,
     "f70v2_has_explicit_label_near_nonfigure_central_star": true,
-    "f72r2_has_exact_public_unlabelled_nonstar_figure": true,
+    "f72r2_contains_a_labelled_nonstar_figure": true,
+    "f72r2_contains_an_unlabelled_star_holding_figure": true,
+    "f72r2_public_source_says_star_and_label_are_missing_at_different_slots": true,
     "figure_count_model_has_two_opposite_exceptions": true,
-    "star_slot_model_matches_all_pages": true,
     "two_exception_pages_are_different_physical_folios": true,
     "zero_lexical_glosses": true
   },
@@ -29,36 +32,38 @@
   },
   "opposite_exceptions": [
     {
+      "aggregate_star_count_residual_labels_minus_star_holding_figures_and_nonfigure_label": 0,
       "all_reading_ivtff_L_count": 30,
       "explicit_near_figure_label_count": 29,
       "explicit_nonfigure_star_label_count": 1,
-      "explicit_unlabelled_nonstar_figure": 0,
+      "f72r2_distinct_star_missing_and_label_missing_slots": 0,
+      "f72r2_implied_labelled_nonstar_figure": 0,
+      "f72r2_implied_unlabelled_star_holding_figure": 0,
       "figure_count_residual_labels_minus_figures": 1,
       "page": "f70v2",
       "physical_folio": "f70",
       "public_figure_count": 29,
       "public_label_count": 30,
       "public_sign": "PISCES",
-      "public_star_holding_figure_count": 29,
-      "star_slot_prediction": 30,
-      "star_slot_residual_labels_minus_prediction": 0
+      "public_star_holding_figure_count": 29
     },
     {
+      "aggregate_star_count_residual_labels_minus_star_holding_figures_and_nonfigure_label": 0,
       "all_reading_ivtff_L_count": 29,
       "explicit_near_figure_label_count": "",
       "explicit_nonfigure_star_label_count": 0,
-      "explicit_unlabelled_nonstar_figure": 1,
+      "f72r2_distinct_star_missing_and_label_missing_slots": 1,
+      "f72r2_implied_labelled_nonstar_figure": 1,
+      "f72r2_implied_unlabelled_star_holding_figure": 1,
       "figure_count_residual_labels_minus_figures": -1,
       "page": "f72r2",
       "physical_folio": "f72",
       "public_figure_count": 30,
       "public_label_count": 29,
       "public_sign": "GEMINI",
-      "public_star_holding_figure_count": 29,
-      "star_slot_prediction": 29,
-      "star_slot_residual_labels_minus_prediction": 0
+      "public_star_holding_figure_count": 29
     }
   ],
-  "output_tsv_sha256": "7801aab6955ca90019ad16f04a743ccfac473aa142bb61e2d8b4f451312ceb43",
-  "status": "PASS_PUBLIC_STAR_BEARING_SLOT_OWNERSHIP_LEAD"
+  "output_tsv_sha256": "e66da1024021ef63d1bbd30a1d335e642aa46bd3661aaff4c528ec3b222131b3",
+  "status": "CORRECTED_INVALIDATED_AGGREGATE_COUNT_OWNERSHIP_CONFOUND"
 }
