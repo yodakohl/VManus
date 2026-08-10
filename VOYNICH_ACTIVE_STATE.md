@@ -5529,6 +5529,14 @@ only four label rows, three mixed cells, two folios, and one exact triplet
 checks. The next action is target-blind two-sided A1 calibration; no D-member
 mining or manuscript target is yet authorized.
 
+LRG006 calibration v1 stops before target access. It recovers all 32
+distributed positive/negative full/reduced plants and rejects all 64 nulls plus
+every adversary except three one-section worlds, where favorable inactive-P
+noise reaches `.098`--`.180`. The intended distributed plants' weaker-section
+effect is `.277352`. A clean reconstruction is exact. V2 may change only the
+signed effect requirement in both sections from `.04` to `.20`; all other
+statistics, gates, worlds, and target isolation remain fixed.
+
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
 crop, threshold, spelling resemblance, subset, historical analogy, or GPU
