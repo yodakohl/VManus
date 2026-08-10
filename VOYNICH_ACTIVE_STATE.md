@@ -4452,6 +4452,22 @@ subset tracks the standard opposition relation at this resolution.  Do not
 mine individual readings, views, pairs, or spellings from this failed fixed
 test, and do not infer a sign name, word, meaning, plaintext, or translation.
 
+A proposed wider f67/f68 editorial-class test was stopped unscored at its
+source-role capacity gate.  The corrected public catalogue genuinely
+interleaves `astronomical` and `cosmological` pages on those folios, and an
+exact 24-phase statistic plus target-blind controls had been frozen.  However,
+the manual IVTFF role inventory does **not** encode all visually circular text
+as `C`: f67r2, f67v1, and f67v2 have zero `C` loci in every reading, with their
+material instead represented as `P`, `L`, and/or `R`.  Only f67r1 is C-bearing,
+so f67 supplies no within-folio same/different C-profile contrast.  The failed
+invocation opened the bound source tables but constructed no similarity
+matrix, computed no target score, and wrote no target result.  Independent
+reconstruction verifies all nine missing page-reading cells and the exact stop
+in 231,207 checks.  Do not rescue this frozen design by switching roles.
+Future circle work must inventory the actual `C/L/R/P` coverage of every page
+before registration; visual circularity and the editorial `C` code are not
+interchangeable.
+
 A new semantic route needs genuinely independent authorial evidence or a new
 invariant capable of falsifying competing meanings. A new model, crop,
 threshold, spelling resemblance, subset, historical analogy, or GPU search is
