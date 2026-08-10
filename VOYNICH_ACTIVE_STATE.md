@@ -1314,8 +1314,11 @@ single registered post-`ch/sh` `o/e` character becomes `X`. The calibrated
 scorer, collision capacity, 256 leaf-state orbit, 8,192 matched merger draws,
 and every reading, folio, domain, prefix, deletion, and concentration gate are
 unchanged. A capacity failure stops unscored; a domain/prefix-only pattern is a
-general nonconfirmation, not authorization to mine a subset. Target execution
-requires a clean public hash freeze and absent result/validation artifacts.
+general nonconfirmation, not authorization to mine a subset. Public freeze
+`0f4c545e...` now binds ten exact method, calibration, source, runner, and
+clean-validator files at code commit `76b2975`; all four target and validation
+artifacts were absent. Exactly one target invocation and one reconstruction are
+authorized.
 
 A genuinely different source-native morphology route has now been tested. It
 asks whether the first STA family of a synchronized prose group helps
