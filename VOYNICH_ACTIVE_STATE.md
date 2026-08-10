@@ -2388,6 +2388,21 @@ or every possible stem relation. This route uses manual
 descriptions and transcription only—no OCR, automated vision, AI plant
 identity, proximity-only ownership, or English-name resemblance.
 
+SNPL001 has now rebound the four drawing relations directly to current public
+`voynich.nu` catalogue pages and public manual-transcription records rather
+than trusting the archived S99 summary. All four same-plant relations and
+old-to-current label loci reproduce. The source detail sharpens the ownership
+qualification: f102r2.21, f102r2.22, and f102v1.17 name their plant positions
+directly, while f89v2.6 is explicitly next to the target fragment but partly
+under its neighbor. A score-blind audit of the later complete source-STA
+representation finds four distinct label member sequences and at least one
+non-universal four- or five-symbol motif for every alternate reading in both
+matched non-target Herbal strata (92 A/hand-1 pages and 5 B/hand-5 pages). The
+four-way orbit can attain `1/24=.041667`. This reopens exactly one separately
+frozen source-native within-group query; the target Herbal prose remains
+unopened, and no public plant relation or capacity fact is itself a name,
+meaning, plaintext, or translation.
+
 A score-blind S100 audit identifies the untested middle ground between S98 and
 S99: grammar-normalized exact multi-root word composition and within-word
 ordered root embedding. It is computationally distinct, but it reuses the same

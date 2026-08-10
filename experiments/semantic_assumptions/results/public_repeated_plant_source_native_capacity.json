@@ -1,0 +1,988 @@
+{
+  "background": {
+    "A_hand1_pages": 92,
+    "B_hand5_pages": 5,
+    "target_pages_excluded": [
+      "f18v",
+      "f19r",
+      "f23r",
+      "f48v"
+    ]
+  },
+  "capacity": {
+    "fixed_assignments": 24,
+    "minimum_attainable_one_sided_p": 0.041666666666666664,
+    "relations": 4
+  },
+  "claim_ceiling": "Four public same-plant relations with publicly mapped pharmaceutical labels have enough source-native member-sequence rarity and a 24-assignment orbit to preregister one target-blind query. f89v2.6 retains explicit neighbor-overlap ownership ambiguity. No target page score, plant name, English word, sound, language, cipher, plaintext, or translation follows.",
+  "decision": "GO_FREEZE_SOURCE_NATIVE_QUERY_BEFORE_TARGET",
+  "experiment": "SNPL001_PUBLIC_REPEATED_PLANT_SOURCE_NATIVE_CAPACITY",
+  "gates": {
+    "both_strata_have_at_least_5_background_pages": true,
+    "every_label_reading_has_nonuniversal_4_or_5_symbol_motif_in_both_strata": true,
+    "exact_assignment_can_attain_p_at_most_0_05": true,
+    "f89_neighbor_overlap_ambiguity_preserved": true,
+    "four_distinct_label_sequences_in_each_reading": true,
+    "four_public_manual_label_mappings_bound": true,
+    "four_public_same_plant_relations_bound": true,
+    "label_to_target_page_scores_computed": false,
+    "ocr_or_automated_vision_used": false,
+    "target_herbal_prose_rows_accessed": false
+  },
+  "inputs": {
+    "consensus_groups": {
+      "path": "experiments/semantic_assumptions/results/source_sta_family_consensus_groups.tsv",
+      "sha256": "a202d93498e8a350a5d7e0ca46e831dcc37ea5c0182dc404d63cb797a98b1225"
+    },
+    "old_to_current_crosswalk": {
+      "path": "transcription/sources/Stolfi_loci_evmt16e6_ivtff.tbl",
+      "sha256": "6fe7013321c43bdd0ec044dbef82b71cbd29517de58210c54270edf6d595843d"
+    }
+  },
+  "label_inventory": {
+    "f102r2.21": {
+      "family_surface": "QABBACAB",
+      "readings": {
+        "IT2a": {
+          "motifs": [
+            {
+              "motif": "A1 B2 B1 A3",
+              "page_document_frequency": {
+                "A_hand1": 15,
+                "B_hand5": 0
+              },
+              "width": 4
+            },
+            {
+              "motif": "A3 C1 A1 B1",
+              "page_document_frequency": {
+                "A_hand1": 1,
+                "B_hand5": 0
+              },
+              "width": 4
+            },
+            {
+              "motif": "B1 A3 C1 A1",
+              "page_document_frequency": {
+                "A_hand1": 2,
+                "B_hand5": 0
+              },
+              "width": 4
+            },
+            {
+              "motif": "B2 B1 A3 C1",
+              "page_document_frequency": {
+                "A_hand1": 3,
+                "B_hand5": 0
+              },
+              "width": 4
+            },
+            {
+              "motif": "Q1 A1 B2 B1",
+              "page_document_frequency": {
+                "A_hand1": 5,
+                "B_hand5": 0
+              },
+              "width": 4
+            },
+            {
+              "motif": "A1 B2 B1 A3 C1",
+              "page_document_frequency": {
+                "A_hand1": 3,
+                "B_hand5": 0
+              },
+              "width": 5
+            },
+            {
+              "motif": "B1 A3 C1 A1 B1",
+              "page_document_frequency": {
+                "A_hand1": 1,
+                "B_hand5": 0
+              },
+              "width": 5
+            },
+            {
+              "motif": "B2 B1 A3 C1 A1",
+              "page_document_frequency": {
+                "A_hand1": 0,
+                "B_hand5": 0
+              },
+              "width": 5
+            },
+            {
+              "motif": "Q1 A1 B2 B1 A3",
+              "page_document_frequency": {
+                "A_hand1": 1,
+                "B_hand5": 0
+              },
+              "width": 5
+            }
+          ],
+          "sequence": "Q1 A1 B2 B1 A3 C1 A1 B1",
+          "symbol_count": 8
+        },
+        "RF1b": {
+          "motifs": [
+            {
+              "motif": "A1 B2 B1 A3",
+              "page_document_frequency": {
+                "A_hand1": 14,
+                "B_hand5": 0
+              },
+              "width": 4
+            },
+            {
+              "motif": "A3 C1 A1 B1",
+              "page_document_frequency": {
+                "A_hand1": 1,
+                "B_hand5": 0
+              },
+              "width": 4
+            },
+            {
+              "motif": "B1 A3 C1 A1",
+              "page_document_frequency": {
+                "A_hand1": 2,
+                "B_hand5": 0
+              },
+              "width": 4
+            },
+            {
+              "motif": "B2 B1 A3 C1",
+              "page_document_frequency": {
+                "A_hand1": 3,
+                "B_hand5": 0
+              },
+              "width": 4
+            },
+            {
+              "motif": "Q1 A1 B2 B1",
+              "page_document_frequency": {
+                "A_hand1": 4,
+                "B_hand5": 0
+              },
+              "width": 4
+            },
+            {
+              "motif": "A1 B2 B1 A3 C1",
+              "page_document_frequency": {
+                "A_hand1": 3,
+                "B_hand5": 0
+              },
+              "width": 5
+            },
+            {
+              "motif": "B1 A3 C1 A1 B1",
+              "page_document_frequency": {
+                "A_hand1": 1,
+                "B_hand5": 0
+              },
+              "width": 5
+            },
+            {
+              "motif": "B2 B1 A3 C1 A1",
+              "page_document_frequency": {
+                "A_hand1": 0,
+                "B_hand5": 0
+              },
+              "width": 5
+            },
+            {
+              "motif": "Q1 A1 B2 B1 A3",
+              "page_document_frequency": {
+                "A_hand1": 1,
+                "B_hand5": 0
+              },
+              "width": 5
+            }
+          ],
+          "sequence": "Q1 A1 B2 B1 A3 C1 A1 B1",
+          "symbol_count": 8
+        },
+        "ZL3b": {
+          "motifs": [
+            {
+              "motif": "A1 B2 B1 A3",
+              "page_document_frequency": {
+                "A_hand1": 15,
+                "B_hand5": 0
+              },
+              "width": 4
+            },
+            {
+              "motif": "A3 C1 A1 B1",
+              "page_document_frequency": {
+                "A_hand1": 1,
+                "B_hand5": 0
+              },
+              "width": 4
+            },
+            {
+              "motif": "B1 A3 C1 A1",
+              "page_document_frequency": {
+                "A_hand1": 2,
+                "B_hand5": 0
+              },
+              "width": 4
+            },
+            {
+              "motif": "B2 B1 A3 C1",
+              "page_document_frequency": {
+                "A_hand1": 3,
+                "B_hand5": 0
+              },
+              "width": 4
+            },
+            {
+              "motif": "Q1 A1 B2 B1",
+              "page_document_frequency": {
+                "A_hand1": 5,
+                "B_hand5": 0
+              },
+              "width": 4
+            },
+            {
+              "motif": "A1 B2 B1 A3 C1",
+              "page_document_frequency": {
+                "A_hand1": 3,
+                "B_hand5": 0
+              },
+              "width": 5
+            },
+            {
+              "motif": "B1 A3 C1 A1 B1",
+              "page_document_frequency": {
+                "A_hand1": 1,
+                "B_hand5": 0
+              },
+              "width": 5
+            },
+            {
+              "motif": "B2 B1 A3 C1 A1",
+              "page_document_frequency": {
+                "A_hand1": 0,
+                "B_hand5": 0
+              },
+              "width": 5
+            },
+            {
+              "motif": "Q1 A1 B2 B1 A3",
+              "page_document_frequency": {
+                "A_hand1": 1,
+                "B_hand5": 0
+              },
+              "width": 5
+            }
+          ],
+          "sequence": "Q1 A1 B2 B1 A3 C1 A1 B1",
+          "symbol_count": 8
+        }
+      }
+    },
+    "f102r2.22": {
+      "family_surface": "ABABABACA",
+      "readings": {
+        "IT2a": {
+          "motifs": [
+            {
+              "motif": "A1 B1 A3 B2",
+              "page_document_frequency": {
+                "A_hand1": 20,
+                "B_hand5": 1
+              },
+              "width": 4
+            },
+            {
+              "motif": "A2 B1 A3 C1",
+              "page_document_frequency": {
+                "A_hand1": 2,
+                "B_hand5": 0
+              },
+              "width": 4
+            },
+            {
+              "motif": "A3 B2 A2 B1",
+              "page_document_frequency": {
+                "A_hand1": 0,
+                "B_hand5": 0
+              },
+              "width": 4
+            },
+            {
+              "motif": "B1 A3 B2 A2",
+              "page_document_frequency": {
+                "A_hand1": 8,
+                "B_hand5": 0
+              },
+              "width": 4
+            },
+            {
+              "motif": "B1 A3 C1 A2",
+              "page_document_frequency": {
+                "A_hand1": 6,
+                "B_hand5": 0
+              },
+              "width": 4
+            },
+            {
+              "motif": "B2 A2 B1 A3",
+              "page_document_frequency": {
+                "A_hand1": 0,
+                "B_hand5": 0
+              },
+              "width": 4
+            },
+            {
+              "motif": "A1 B1 A3 B2 A2",
+              "page_document_frequency": {
+                "A_hand1": 6,
+                "B_hand5": 0
+              },
+              "width": 5
+            },
+            {
+              "motif": "A2 B1 A3 C1 A2",
+              "page_document_frequency": {
+                "A_hand1": 0,
+                "B_hand5": 0
+              },
+              "width": 5
+            },
+            {
+              "motif": "A3 B2 A2 B1 A3",
+              "page_document_frequency": {
+                "A_hand1": 0,
+                "B_hand5": 0
+              },
+              "width": 5
+            },
+            {
+              "motif": "B1 A3 B2 A2 B1",
+              "page_document_frequency": {
+                "A_hand1": 0,
+                "B_hand5": 0
+              },
+              "width": 5
+            },
+            {
+              "motif": "B2 A2 B1 A3 C1",
+              "page_document_frequency": {
+                "A_hand1": 0,
+                "B_hand5": 0
+              },
+              "width": 5
+            }
+          ],
+          "sequence": "A1 B1 A3 B2 A2 B1 A3 C1 A2",
+          "symbol_count": 9
+        },
+        "RF1b": {
+          "motifs": [
+            {
+              "motif": "A1 B1 A3 B2",
+              "page_document_frequency": {
+                "A_hand1": 19,
+                "B_hand5": 1
+              },
+              "width": 4
+            },
+            {
+              "motif": "A2 B1 A2 C1",
+              "page_document_frequency": {
+                "A_hand1": 0,
+                "B_hand5": 0
+              },
+              "width": 4
+            },
+            {
+              "motif": "A3 B2 A2 B1",
+              "page_document_frequency": {
+                "A_hand1": 0,
+                "B_hand5": 0
+              },
+              "width": 4
+            },
+            {
+              "motif": "B1 A2 C1 A2",
+              "page_document_frequency": {
+                "A_hand1": 0,
+                "B_hand5": 0
+              },
+              "width": 4
+            },
+            {
+              "motif": "B1 A3 B2 A2",
+              "page_document_frequency": {
+                "A_hand1": 8,
+                "B_hand5": 0
+              },
+              "width": 4
+            },
+            {
+              "motif": "B2 A2 B1 A2",
+              "page_document_frequency": {
+                "A_hand1": 0,
+                "B_hand5": 0
+              },
+              "width": 4
+            },
+            {
+              "motif": "A1 B1 A3 B2 A2",
+              "page_document_frequency": {
+                "A_hand1": 6,
+                "B_hand5": 0
+              },
+              "width": 5
+            },
+            {
+              "motif": "A2 B1 A2 C1 A2",
+              "page_document_frequency": {
+                "A_hand1": 0,
+                "B_hand5": 0
+              },
+              "width": 5
+            },
+            {
+              "motif": "A3 B2 A2 B1 A2",
+              "page_document_frequency": {
+                "A_hand1": 0,
+                "B_hand5": 0
+              },
+              "width": 5
+            },
+            {
+              "motif": "B1 A3 B2 A2 B1",
+              "page_document_frequency": {
+                "A_hand1": 0,
+                "B_hand5": 0
+              },
+              "width": 5
+            },
+            {
+              "motif": "B2 A2 B1 A2 C1",
+              "page_document_frequency": {
+                "A_hand1": 0,
+                "B_hand5": 0
+              },
+              "width": 5
+            }
+          ],
+          "sequence": "A1 B1 A3 B2 A2 B1 A2 C1 A2",
+          "symbol_count": 9
+        },
+        "ZL3b": {
+          "motifs": [
+            {
+              "motif": "A1 B1 A3 B2",
+              "page_document_frequency": {
+                "A_hand1": 20,
+                "B_hand5": 1
+              },
+              "width": 4
+            },
+            {
+              "motif": "A2 B1 A3 C1",
+              "page_document_frequency": {
+                "A_hand1": 3,
+                "B_hand5": 0
+              },
+              "width": 4
+            },
+            {
+              "motif": "A3 B2 A2 B1",
+              "page_document_frequency": {
+                "A_hand1": 0,
+                "B_hand5": 0
+              },
+              "width": 4
+            },
+            {
+              "motif": "B1 A3 B2 A2",
+              "page_document_frequency": {
+                "A_hand1": 8,
+                "B_hand5": 0
+              },
+              "width": 4
+            },
+            {
+              "motif": "B1 A3 C1 A2",
+              "page_document_frequency": {
+                "A_hand1": 6,
+                "B_hand5": 0
+              },
+              "width": 4
+            },
+            {
+              "motif": "B2 A2 B1 A3",
+              "page_document_frequency": {
+                "A_hand1": 0,
+                "B_hand5": 0
+              },
+              "width": 4
+            },
+            {
+              "motif": "A1 B1 A3 B2 A2",
+              "page_document_frequency": {
+                "A_hand1": 6,
+                "B_hand5": 0
+              },
+              "width": 5
+            },
+            {
+              "motif": "A2 B1 A3 C1 A2",
+              "page_document_frequency": {
+                "A_hand1": 0,
+                "B_hand5": 0
+              },
+              "width": 5
+            },
+            {
+              "motif": "A3 B2 A2 B1 A3",
+              "page_document_frequency": {
+                "A_hand1": 0,
+                "B_hand5": 0
+              },
+              "width": 5
+            },
+            {
+              "motif": "B1 A3 B2 A2 B1",
+              "page_document_frequency": {
+                "A_hand1": 0,
+                "B_hand5": 0
+              },
+              "width": 5
+            },
+            {
+              "motif": "B2 A2 B1 A3 C1",
+              "page_document_frequency": {
+                "A_hand1": 0,
+                "B_hand5": 0
+              },
+              "width": 5
+            }
+          ],
+          "sequence": "A1 B1 A3 B2 A2 B1 A3 C1 A2",
+          "symbol_count": 9
+        }
+      }
+    },
+    "f102v1.17": {
+      "family_surface": "BACABABA",
+      "readings": {
+        "IT2a": {
+          "motifs": [
+            {
+              "motif": "A1 C1 A3 B2",
+              "page_document_frequency": {
+                "A_hand1": 3,
+                "B_hand5": 0
+              },
+              "width": 4
+            },
+            {
+              "motif": "A3 B2 A1 B1",
+              "page_document_frequency": {
+                "A_hand1": 4,
+                "B_hand5": 0
+              },
+              "width": 4
+            },
+            {
+              "motif": "B2 A1 B1 A2",
+              "page_document_frequency": {
+                "A_hand1": 7,
+                "B_hand5": 0
+              },
+              "width": 4
+            },
+            {
+              "motif": "B2 A1 C1 A3",
+              "page_document_frequency": {
+                "A_hand1": 0,
+                "B_hand5": 0
+              },
+              "width": 4
+            },
+            {
+              "motif": "C1 A3 B2 A1",
+              "page_document_frequency": {
+                "A_hand1": 0,
+                "B_hand5": 0
+              },
+              "width": 4
+            },
+            {
+              "motif": "A1 C1 A3 B2 A1",
+              "page_document_frequency": {
+                "A_hand1": 0,
+                "B_hand5": 0
+              },
+              "width": 5
+            },
+            {
+              "motif": "A3 B2 A1 B1 A2",
+              "page_document_frequency": {
+                "A_hand1": 2,
+                "B_hand5": 0
+              },
+              "width": 5
+            },
+            {
+              "motif": "B2 A1 C1 A3 B2",
+              "page_document_frequency": {
+                "A_hand1": 0,
+                "B_hand5": 0
+              },
+              "width": 5
+            },
+            {
+              "motif": "C1 A3 B2 A1 B1",
+              "page_document_frequency": {
+                "A_hand1": 0,
+                "B_hand5": 0
+              },
+              "width": 5
+            }
+          ],
+          "sequence": "B2 A1 C1 A3 B2 A1 B1 A2",
+          "symbol_count": 8
+        },
+        "RF1b": {
+          "motifs": [
+            {
+              "motif": "A1 C2 A3 B2",
+              "page_document_frequency": {
+                "A_hand1": 0,
+                "B_hand5": 0
+              },
+              "width": 4
+            },
+            {
+              "motif": "A3 B2 A1 B1",
+              "page_document_frequency": {
+                "A_hand1": 4,
+                "B_hand5": 0
+              },
+              "width": 4
+            },
+            {
+              "motif": "B2 A1 B1 A2",
+              "page_document_frequency": {
+                "A_hand1": 6,
+                "B_hand5": 0
+              },
+              "width": 4
+            },
+            {
+              "motif": "B2 A1 C2 A3",
+              "page_document_frequency": {
+                "A_hand1": 0,
+                "B_hand5": 0
+              },
+              "width": 4
+            },
+            {
+              "motif": "C2 A3 B2 A1",
+              "page_document_frequency": {
+                "A_hand1": 0,
+                "B_hand5": 0
+              },
+              "width": 4
+            },
+            {
+              "motif": "A1 C2 A3 B2 A1",
+              "page_document_frequency": {
+                "A_hand1": 0,
+                "B_hand5": 0
+              },
+              "width": 5
+            },
+            {
+              "motif": "A3 B2 A1 B1 A2",
+              "page_document_frequency": {
+                "A_hand1": 2,
+                "B_hand5": 0
+              },
+              "width": 5
+            },
+            {
+              "motif": "B2 A1 C2 A3 B2",
+              "page_document_frequency": {
+                "A_hand1": 0,
+                "B_hand5": 0
+              },
+              "width": 5
+            },
+            {
+              "motif": "C2 A3 B2 A1 B1",
+              "page_document_frequency": {
+                "A_hand1": 0,
+                "B_hand5": 0
+              },
+              "width": 5
+            }
+          ],
+          "sequence": "B2 A1 C2 A3 B2 A1 B1 A2",
+          "symbol_count": 8
+        },
+        "ZL3b": {
+          "motifs": [
+            {
+              "motif": "A1 C1 A3 B2",
+              "page_document_frequency": {
+                "A_hand1": 3,
+                "B_hand5": 0
+              },
+              "width": 4
+            },
+            {
+              "motif": "A3 B2 A1 B1",
+              "page_document_frequency": {
+                "A_hand1": 4,
+                "B_hand5": 0
+              },
+              "width": 4
+            },
+            {
+              "motif": "B2 A1 B1 A2",
+              "page_document_frequency": {
+                "A_hand1": 7,
+                "B_hand5": 0
+              },
+              "width": 4
+            },
+            {
+              "motif": "B2 A1 C1 A3",
+              "page_document_frequency": {
+                "A_hand1": 0,
+                "B_hand5": 0
+              },
+              "width": 4
+            },
+            {
+              "motif": "C1 A3 B2 A1",
+              "page_document_frequency": {
+                "A_hand1": 0,
+                "B_hand5": 0
+              },
+              "width": 4
+            },
+            {
+              "motif": "A1 C1 A3 B2 A1",
+              "page_document_frequency": {
+                "A_hand1": 0,
+                "B_hand5": 0
+              },
+              "width": 5
+            },
+            {
+              "motif": "A3 B2 A1 B1 A2",
+              "page_document_frequency": {
+                "A_hand1": 2,
+                "B_hand5": 0
+              },
+              "width": 5
+            },
+            {
+              "motif": "B2 A1 C1 A3 B2",
+              "page_document_frequency": {
+                "A_hand1": 0,
+                "B_hand5": 0
+              },
+              "width": 5
+            },
+            {
+              "motif": "C1 A3 B2 A1 B1",
+              "page_document_frequency": {
+                "A_hand1": 0,
+                "B_hand5": 0
+              },
+              "width": 5
+            }
+          ],
+          "sequence": "B2 A1 C1 A3 B2 A1 B1 A2",
+          "symbol_count": 8
+        }
+      }
+    },
+    "f89v2.6": {
+      "family_surface": "KAQAB",
+      "readings": {
+        "IT2a": {
+          "motifs": [
+            {
+              "motif": "A1 Q1 A3 B3",
+              "page_document_frequency": {
+                "A_hand1": 3,
+                "B_hand5": 1
+              },
+              "width": 4
+            },
+            {
+              "motif": "K1 A1 Q1 A3",
+              "page_document_frequency": {
+                "A_hand1": 9,
+                "B_hand5": 1
+              },
+              "width": 4
+            },
+            {
+              "motif": "K1 A1 Q1 A3 B3",
+              "page_document_frequency": {
+                "A_hand1": 1,
+                "B_hand5": 0
+              },
+              "width": 5
+            }
+          ],
+          "sequence": "K1 A1 Q1 A3 B3",
+          "symbol_count": 5
+        },
+        "RF1b": {
+          "motifs": [
+            {
+              "motif": "A1 Q1 A3 B3",
+              "page_document_frequency": {
+                "A_hand1": 1,
+                "B_hand5": 1
+              },
+              "width": 4
+            },
+            {
+              "motif": "K1 A1 Q1 A3",
+              "page_document_frequency": {
+                "A_hand1": 9,
+                "B_hand5": 1
+              },
+              "width": 4
+            },
+            {
+              "motif": "K1 A1 Q1 A3 B3",
+              "page_document_frequency": {
+                "A_hand1": 0,
+                "B_hand5": 0
+              },
+              "width": 5
+            }
+          ],
+          "sequence": "K1 A1 Q1 A3 B3",
+          "symbol_count": 5
+        },
+        "ZL3b": {
+          "motifs": [
+            {
+              "motif": "A1 Q1 A3 B3",
+              "page_document_frequency": {
+                "A_hand1": 2,
+                "B_hand5": 1
+              },
+              "width": 4
+            },
+            {
+              "motif": "K1 A1 Q1 A3",
+              "page_document_frequency": {
+                "A_hand1": 9,
+                "B_hand5": 1
+              },
+              "width": 4
+            },
+            {
+              "motif": "K1 A1 Q1 A3 B3",
+              "page_document_frequency": {
+                "A_hand1": 0,
+                "B_hand5": 0
+              },
+              "width": 5
+            }
+          ],
+          "sequence": "K1 A1 Q1 A3 B3",
+          "symbol_count": 5
+        }
+      }
+    }
+  },
+  "method": "PUBLIC_RELATIONS_PLUS_SCORE_BLIND_SOURCE_STA_MEMBER_MOTIF_CAPACITY",
+  "public_catalogues": {
+    "Q03": {
+      "sha256": "c43ff6e75e0d6db22a6c7e887101f3d1045f8a72878717e733c10ec93ce65ab3",
+      "url": "https://www.voynich.nu/q03/index.html"
+    },
+    "Q06": {
+      "sha256": "bd377ccecf0c472e4b7965f9885b130943be6c98097b33fa5486c592cf133beb",
+      "url": "https://www.voynich.nu/q06/index.html"
+    },
+    "Q15": {
+      "sha256": "25a8bb0083a2c6c09913910c52d03a699091c100294f8fe3c604e3846253f3a7",
+      "url": "https://www.voynich.nu/q15/index.html"
+    },
+    "Q19": {
+      "sha256": "119fe32a005723833ec07a313fd87e1cd044a1f685ddd4fdd199e573c1dff1fb",
+      "url": "https://www.voynich.nu/q19/index.html"
+    }
+  },
+  "public_manual_transcriptions": {
+    "f102r2": {
+      "sha256": "c3f4a9444206cd50b43bcfb94f4ed52e411212e0c62b18768dc570bf4f3ba817",
+      "url": "https://www.voynich.nu/q19/f102r2_tr.txt"
+    },
+    "f102v1": {
+      "sha256": "d2ccf801e76d1cfccecbcd85c614b99b1dfa3d14e9c862041e611cefc6058c0a",
+      "url": "https://www.voynich.nu/q19/f102v1_tr.txt"
+    },
+    "f89v2": {
+      "sha256": "b28baecf7a5a07ce150e261470aa4fd0a121603d01dd3d2834ec7f002bfbb098",
+      "url": "https://www.voynich.nu/q15/f089v2_tr.txt"
+    }
+  },
+  "relations": [
+    {
+      "catalogue_phrase": "Fragment 54 appears to be the same plant as on f48v",
+      "catalogue_url": "https://www.voynich.nu/q15/index.html",
+      "fragment": 54,
+      "label_locus": "f89v2.6",
+      "old_locus": "f89v2.L1.5",
+      "ownership": "EXPLICIT_NEXT_TO_TARGET_WITH_NEIGHBOR_OVERLAP_AMBIGUITY",
+      "ownership_phrase": "This label lies partly under plant [1,4] and next to [1,5]",
+      "pharma_page": "f89v2",
+      "target_page": "f48v",
+      "transcription_url": "https://www.voynich.nu/q15/f089v2_tr.txt"
+    },
+    {
+      "catalogue_phrase": "Fragment 212 appears to be the same plant as on f18v",
+      "catalogue_url": "https://www.voynich.nu/q19/index.html",
+      "fragment": 212,
+      "label_locus": "f102r2.21",
+      "old_locus": "f102r2.L3.1",
+      "ownership": "EXPLICIT_MANUAL_PLANT_POSITION",
+      "ownership_phrase": "above plant f102r2[3,1]",
+      "pharma_page": "f102r2",
+      "target_page": "f18v",
+      "transcription_url": "https://www.voynich.nu/q19/f102r2_tr.txt"
+    },
+    {
+      "catalogue_phrase": "Fragment 213 appears to be the same plant as on f23r",
+      "catalogue_url": "https://www.voynich.nu/q19/index.html",
+      "fragment": 213,
+      "label_locus": "f102r2.22",
+      "old_locus": "f102r2.L3.2",
+      "ownership": "EXPLICIT_MANUAL_PLANT_POSITION",
+      "ownership_phrase": "above plant f102r2[3,2]",
+      "pharma_page": "f102r2",
+      "target_page": "f23r",
+      "transcription_url": "https://www.voynich.nu/q19/f102r2_tr.txt"
+    },
+    {
+      "catalogue_phrase": "Fragment 240 appears to be the same plant as on f19r",
+      "catalogue_url": "https://www.voynich.nu/q19/index.html",
+      "fragment": 240,
+      "label_locus": "f102v1.17",
+      "old_locus": "f102v1.L2.2",
+      "ownership": "EXPLICIT_MANUAL_PLANT_POSITION",
+      "ownership_phrase": "plant [2,2] - squatting cone of mousetail roots",
+      "pharma_page": "f102v1",
+      "target_page": "f19r",
+      "transcription_url": "https://www.voynich.nu/q19/f102v1_tr.txt"
+    }
+  ],
+  "status": "GO_FREEZE_SOURCE_NATIVE_QUERY_BEFORE_TARGET"
+}
