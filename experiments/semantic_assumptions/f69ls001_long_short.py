@@ -15,8 +15,10 @@ import numpy as np
 
 ROOT = Path(__file__).resolve().parents[2]
 METHOD = ROOT / "F69LS001_LONG_SHORT_LOG_METHOD.md"
+RECOVERY = ROOT / "F69LS001_SOURCE_RECOVERY.md"
 ANNOTATIONS = ROOT / "experiments/semantic_assumptions/results/existing_human_exact_locus_annotations.tsv"
 SURFACE = ROOT / "experiments/semantic_assumptions/results/source_separator_transcription.tsv"
+ALIGNMENT = ROOT / "experiments/semantic_assumptions/results/source_sta_group_alignment.tsv"
 STA = ROOT / "experiments/semantic_assumptions/results/source_sta_family_consensus_loci.tsv"
 OUT_JSON = ROOT / "experiments/semantic_assumptions/results/f69ls001_long_short_result.json"
 OUT_MD = ROOT / "experiments/semantic_assumptions/results/f69ls001_long_short_report.md"
@@ -25,6 +27,7 @@ EDITIONS = ("ZL3b", "IT2a", "RF1b")
 EXPECTED_HASHES = {
     str(ANNOTATIONS.relative_to(ROOT)): "79c7f06e91f90054aff4cdf27f098a5977d820acdf91f239a14c6ddf553a7f61",
     str(SURFACE.relative_to(ROOT)): "4b649c8290d5afc7a5fbcc8e98db2bc123a1ceb5f3858d3befa781ce96b680f0",
+    str(ALIGNMENT.relative_to(ROOT)): "f23654f1d4c854db6d458b418a0d3530115731604854cf0a0495565e58341840",
     str(STA.relative_to(ROOT)): "84354a9e5d291ab00f45c9bfe161f62d8cbd8c39db7511ff263cd9fcfe9d9e77",
 }
 TOL = 1e-12
@@ -82,28 +85,58 @@ def read_panel() -> tuple[list[dict[str, object]], dict[str, dict[str, str]], di
     validate_panel_contract(panel)
     loci = {str(item["locus"]) for item in panel}
 
-    source_rows: dict[tuple[str, str], list[tuple[int, int, str]]] = defaultdict(list)
+    source_rows: dict[tuple[str, str], list[dict[str, str]]] = defaultdict(list)
     with SURFACE.open(encoding="utf-8", newline="") as handle:
         for row in csv.DictReader(handle, delimiter="\t"):
             if row["locus"] not in loci or row["edition"] not in EDITIONS:
                 continue
-            compact_fragment = "".join(row["clean_ascii_fragments"].split())
-            if not compact_fragment or not re.fullmatch(r"[a-z]+", compact_fragment):
-                raise RuntimeError(f"non-ASCII or empty source fragment: {row['source_group_id']}")
-            source_rows[(row["locus"], row["edition"])].append(
-                (int(row["source_group_index"]), int(row["source_group_count"]), compact_fragment)
-            )
+            source_rows[(row["locus"], row["edition"])].append(row)
+
+    source_ids = {
+        row["source_group_id"]
+        for rows in source_rows.values()
+        for row in rows
+    }
+    aligned: dict[str, dict[str, str]] = {}
+    with ALIGNMENT.open(encoding="utf-8", newline="") as handle:
+        for row in csv.DictReader(handle, delimiter="\t"):
+            identifier = row["source_group_id"]
+            if identifier not in source_ids:
+                continue
+            if identifier in aligned:
+                raise RuntimeError(f"duplicate alignment row: {identifier}")
+            if not re.fullmatch(r"[a-z]+", row["nearest_basic_eva_primary"]):
+                raise RuntimeError(f"invalid basic EVA surface: {identifier}")
+            aligned[identifier] = row
+    if set(aligned) != source_ids:
+        raise RuntimeError("source/alignment group-ID mismatch")
+
     surfaces: dict[str, dict[str, str]] = {edition: {} for edition in EDITIONS}
     group_counts: dict[str, dict[str, int]] = {edition: {} for edition in EDITIONS}
     for locus in sorted(loci):
         for edition in EDITIONS:
-            rows = sorted(source_rows[(locus, edition)])
+            rows = sorted(source_rows[(locus, edition)], key=lambda row: int(row["source_group_index"]))
             if not rows:
                 raise RuntimeError(f"missing surface rows: {edition} {locus}")
-            declared = {row[1] for row in rows}
-            if declared != {len(rows)} or [row[0] for row in rows] != list(range(1, len(rows) + 1)):
+            declared = {int(row["source_group_count"]) for row in rows}
+            if declared != {len(rows)} or [int(row["source_group_index"]) for row in rows] != list(range(1, len(rows) + 1)):
                 raise RuntimeError(f"bad source group coverage: {edition} {locus}")
-            surfaces[edition][locus] = "".join(row[2] for row in rows)
+            basic_groups: list[str] = []
+            for source in rows:
+                alignment = aligned[source["source_group_id"]]
+                for field in (
+                    "source_group_id",
+                    "edition",
+                    "locus",
+                    "source_group_index",
+                    "source_group_count",
+                    "left_separator",
+                    "right_separator",
+                ):
+                    if alignment[field] != source[field]:
+                        raise RuntimeError(f"source/alignment {field} mismatch: {source['source_group_id']}")
+                basic_groups.append(alignment["nearest_basic_eva_primary"])
+            surfaces[edition][locus] = "".join(basic_groups)
             group_counts[edition][locus] = len(rows)
 
     sta_sequences: dict[str, str] = {}
@@ -433,7 +466,13 @@ def main() -> int:
     result = {
         "experiment": "F69LS001",
         "status": decision,
-        "inputs": {**EXPECTED_HASHES, str(METHOD.relative_to(ROOT)): sha256(METHOD), str(Path(__file__).relative_to(ROOT)): sha256(Path(__file__))},
+        "inputs": {
+            **EXPECTED_HASHES,
+            str(METHOD.relative_to(ROOT)): sha256(METHOD),
+            str(RECOVERY.relative_to(ROOT)): sha256(RECOVERY),
+            str(Path(__file__).relative_to(ROOT)): sha256(Path(__file__)),
+        },
+        "recovery_qualified_after_unscored_source_representation_stop": True,
         "panel": panel,
         "editions": list(EDITIONS),
         "raw_feature_count_before_collapse": raw_feature_count,
@@ -490,6 +529,7 @@ def main() -> int:
         f"BACKWARD maxT p={scored['BACKWARD']['p_value']:.6f} "
         f"({scored['BACKWARD']['inclusive_extreme_count']}/16384).\n\n"
         "Gates: " + ", ".join(f"{key}={value}" for key, value in gates.items()) + ".\n\n"
+        "The run is recovery-qualified after an unscored legacy-surface stop; all 100 source groups use the same validated basic-EVA realization. "
         "This complete exploratory feature test cannot identify lunar mansions, days, numbers, a length word, language, plaintext, or translation. "
         "A positive result would still require an independently selected graphical replication.\n"
     )

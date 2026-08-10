@@ -5257,6 +5257,16 @@ graphical-state feature until an independently selected array replicates it;
 it cannot establish a mansion, day, number, length word, plaintext, or
 translation.
 
+Its first committed invocation stopped before feature construction or scoring
+because one RF extended-EVA source group had zero legacy ASCII fragments; no
+result was written. A complete 100-group panel audit found four further
+embedded extended-EVA omissions. The registered recovery therefore replaces
+the incomplete compatibility field uniformly with the already validated
+source-alignment table's basic-EVA realization for every group. No statistic,
+threshold, feature family, or claim changes, but any positive result remains
+explicitly recovery-qualified because target source rows were opened during
+diagnosis.
+
 LRG001 now opens one narrow, representation-new bridge from structure toward
 sentence roles. The complete three-reading source-native STA scaffold contains
 **358** manual `L` groups and **2,664** confirmed-prose controls in **109**
