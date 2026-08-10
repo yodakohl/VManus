@@ -5424,6 +5424,30 @@ score-blind capacity and matched alternative-prepend controls. Even a pass
 could establish only a marked-versus-unmarked structural state; it would not
 establish sound, wordhood, POS, language, plaintext, or meaning.
 
+The duplicate-route audit now narrows that follow-up. The earlier `NONE`/`DA`
+target already tested external prose position/neighbors and failed; the onset
+target already confirmed the local exact-member/literal-`qo` orthotactic
+relation; S97 already tested whole label-string recurrence and failed against
+matched controls. None tested a cross-register transformed counterpart. The
+only new estimand is therefore whether an A-initial manual-label sequence has
+a higher held-folio prose ratio of exact `D1+sequence` to the corresponding
+bare sequence than an exact-page, length, and first-member-conditioned prose
+control.
+
+LRG005 capacity passes without computing that association. Conditioning on
+the exact initial member triplet in ZL3b/IT2a/RF1b leaves **536** rows in
+**68** mixed cells on all **13** primary folios (**144** label and **392**
+prose rows). The label-blind held-folio D1/bare ratio has 165 values and varies
+in 59 cells containing 515 rows; 331 rows have an extended counterpart outside
+their own folio and 320 have both extended and bare support. Independent code
+reconstructs the masked panel and capacity in 47,340 checks. The positive-side
+capacity disclosure made before this freeze—61/180 primary A-initial label
+rows have a D1-prepended exact-member prose counterpart somewhere—must remain
+explicit. No label-versus-prose score contrast has been computed. The next
+action is target-free fixed-quota calibration with generic-recurrence,
+initial-member-leakage, one-folio, one-section, one-parity, and concentration
+controls; no manuscript target is authorized yet.
+
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
 crop, threshold, spelling resemblance, subset, historical analogy, or GPU
