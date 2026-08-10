@@ -5876,6 +5876,15 @@ this exact representation/model/calibration design and must not be rescued by
 threshold, ridge, rank, feature, or subset tuning. The label-free geometry
 remains reusable only for a genuinely different preregistered falsifier.
 
+The selected successor is ETR001 exact-template recurrence. It does not try to
+repair LRS001-R1 or generalize with another classifier. It first masks every
+supported target family and asks only whether enough cross-folio corrected
+prose records share the same exact non-target family multiset in both identical
+and different orders. The frozen capacity pass emits counts and digests only;
+it computes no target identity or equality. A capacity pass would authorize
+synthetic controls for a direct exact-copy statistic, while a stop would close
+this strict parallel-passage resolution unopened.
+
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
 crop, threshold, spelling resemblance, subset, historical analogy, or GPU
