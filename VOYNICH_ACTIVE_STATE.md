@@ -4583,7 +4583,10 @@ length-only worlds.  A first validator pass was preserved because it trusted
 two stored invariance flags; the corrected nonimporting implementation rebuilds
 those fixtures, all six complete 138,240-assignment records, the 5,760-row
 zodiac record, construction fixtures, digests, decisions, and full gate object.
-One separately hash-frozen target run is now eligible.
+A public freeze now binds the exact 52-file method, manual-source provenance,
+capacity, controls, production runner, and nonimporting validator at commit
+`3b8ef53`, with all target and validation outputs absent.  One target run is
+authorized, followed by one independent reconstruction.
 
 A public exception audit exposed and corrected an important aggregate-count
 trap in the zodiac `L` inventory.  Across all twelve panels and all 36
