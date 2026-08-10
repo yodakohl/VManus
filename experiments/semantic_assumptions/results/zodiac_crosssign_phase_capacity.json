@@ -1,0 +1,339 @@
+{
+  "all_layer_counts": {
+    "CENTRAL": 1,
+    "INNER": 100,
+    "MIDDLE": 11,
+    "OFF_CIRCLE": 13,
+    "OUTER": 175
+  },
+  "claim_ceiling": "The public 300-slot inventory has seven incompatible panel topologies. Every repeated topology pair shares a physical folio, so there is no disjoint-folio train/test replication of a topology. A universal 30-position degree coordinate is not identified without choosing starts, directions, and inter-band/off-circle continuation. This capacity stop does not exclude degree records or other position-free zodiac structure and supplies no number, degree, word, meaning, or translation.",
+  "counts": {
+    "disjoint_folio_repeated_topology_pairs": 0,
+    "distinct_panel_topologies": 7,
+    "expected_slots": 300,
+    "physical_folios": 4,
+    "present_labels": 299,
+    "repeated_topology_pairs": 3,
+    "signs": 10
+  },
+  "decision": "DO_NOT_FIT_CROSSSIGN_DEGREE_PHASE_WITHOUT_EXTERNAL_BAND_AND_START_KEY",
+  "experiment": "ZODIAC_CROSSSIGN_PHASE_CAPACITY",
+  "gates": {
+    "exact_10_extant_signs": true,
+    "exact_299_present_labels": true,
+    "exact_300_expected_slots": true,
+    "exact_4_physical_folios": true,
+    "no_same_topology_pair_on_disjoint_folios": true,
+    "no_universal_equal_band_partition": true,
+    "seven_distinct_panel_topologies": true,
+    "zero_Voynich_string_score": true,
+    "zero_interband_continuation_selected": true,
+    "zero_phase_selected": true
+  },
+  "input": {
+    "cache/existing_human_annotations/labtit-best.idx": "9267a2bbf2d485320ce8baaa2e3eeaccb6be7a02aa81ee9422a39ba00bef420a"
+  },
+  "public_source": "https://www.ic.unicamp.br/~stolfi/EXPORT/00-EXPORT/98-02-01-lotsa-labels/",
+  "repeated_topology_pairs": [
+    {
+      "disjoint_physical_folios": false,
+      "left": "ARIES",
+      "right": "TAURUS",
+      "shared_physical_folios": [
+        "f71"
+      ],
+      "topology": "I5+O10 / I5+O10"
+    },
+    {
+      "disjoint_physical_folios": false,
+      "left": "LEO",
+      "right": "VIRGO",
+      "shared_physical_folios": [
+        "f72"
+      ],
+      "topology": "I12+O18"
+    },
+    {
+      "disjoint_physical_folios": false,
+      "left": "SCORPIUS",
+      "right": "SAGITTARIUS",
+      "shared_physical_folios": [
+        "f73"
+      ],
+      "topology": "I10+O16+N4"
+    }
+  ],
+  "signs": [
+    {
+      "label_count": 30,
+      "panel_topology": [
+        {
+          "counts": {
+            "CENTRAL": 1,
+            "INNER": 10,
+            "MIDDLE": 0,
+            "OFF_CIRCLE": 0,
+            "OUTER": 19
+          },
+          "page": "f70v2",
+          "shape": "C1+I10+O19"
+        }
+      ],
+      "physical_folios": [
+        "f70"
+      ],
+      "sign": "PISCES",
+      "slot_count": 30,
+      "topology_signature_ignoring_page_identity": "C1+I10+O19"
+    },
+    {
+      "label_count": 30,
+      "panel_topology": [
+        {
+          "counts": {
+            "CENTRAL": 0,
+            "INNER": 5,
+            "MIDDLE": 0,
+            "OFF_CIRCLE": 0,
+            "OUTER": 10
+          },
+          "page": "f70v1",
+          "shape": "I5+O10"
+        },
+        {
+          "counts": {
+            "CENTRAL": 0,
+            "INNER": 5,
+            "MIDDLE": 0,
+            "OFF_CIRCLE": 0,
+            "OUTER": 10
+          },
+          "page": "f71r",
+          "shape": "I5+O10"
+        }
+      ],
+      "physical_folios": [
+        "f70",
+        "f71"
+      ],
+      "sign": "ARIES",
+      "slot_count": 30,
+      "topology_signature_ignoring_page_identity": "I5+O10 / I5+O10"
+    },
+    {
+      "label_count": 30,
+      "panel_topology": [
+        {
+          "counts": {
+            "CENTRAL": 0,
+            "INNER": 5,
+            "MIDDLE": 0,
+            "OFF_CIRCLE": 0,
+            "OUTER": 10
+          },
+          "page": "f71v",
+          "shape": "I5+O10"
+        },
+        {
+          "counts": {
+            "CENTRAL": 0,
+            "INNER": 5,
+            "MIDDLE": 0,
+            "OFF_CIRCLE": 0,
+            "OUTER": 10
+          },
+          "page": "f72r1",
+          "shape": "I5+O10"
+        }
+      ],
+      "physical_folios": [
+        "f71",
+        "f72"
+      ],
+      "sign": "TAURUS",
+      "slot_count": 30,
+      "topology_signature_ignoring_page_identity": "I5+O10 / I5+O10"
+    },
+    {
+      "label_count": 29,
+      "panel_topology": [
+        {
+          "counts": {
+            "CENTRAL": 0,
+            "INNER": 9,
+            "MIDDLE": 0,
+            "OFF_CIRCLE": 5,
+            "OUTER": 16
+          },
+          "page": "f72r2",
+          "shape": "I9+O16+N5"
+        }
+      ],
+      "physical_folios": [
+        "f72"
+      ],
+      "sign": "GEMINI",
+      "slot_count": 30,
+      "topology_signature_ignoring_page_identity": "I9+O16+N5"
+    },
+    {
+      "label_count": 30,
+      "panel_topology": [
+        {
+          "counts": {
+            "CENTRAL": 0,
+            "INNER": 7,
+            "MIDDLE": 11,
+            "OFF_CIRCLE": 0,
+            "OUTER": 12
+          },
+          "page": "f72r3",
+          "shape": "I7+M11+O12"
+        }
+      ],
+      "physical_folios": [
+        "f72"
+      ],
+      "sign": "CANCER",
+      "slot_count": 30,
+      "topology_signature_ignoring_page_identity": "I7+M11+O12"
+    },
+    {
+      "label_count": 30,
+      "panel_topology": [
+        {
+          "counts": {
+            "CENTRAL": 0,
+            "INNER": 12,
+            "MIDDLE": 0,
+            "OFF_CIRCLE": 0,
+            "OUTER": 18
+          },
+          "page": "f72v3",
+          "shape": "I12+O18"
+        }
+      ],
+      "physical_folios": [
+        "f72"
+      ],
+      "sign": "LEO",
+      "slot_count": 30,
+      "topology_signature_ignoring_page_identity": "I12+O18"
+    },
+    {
+      "label_count": 30,
+      "panel_topology": [
+        {
+          "counts": {
+            "CENTRAL": 0,
+            "INNER": 12,
+            "MIDDLE": 0,
+            "OFF_CIRCLE": 0,
+            "OUTER": 18
+          },
+          "page": "f72v2",
+          "shape": "I12+O18"
+        }
+      ],
+      "physical_folios": [
+        "f72"
+      ],
+      "sign": "VIRGO",
+      "slot_count": 30,
+      "topology_signature_ignoring_page_identity": "I12+O18"
+    },
+    {
+      "label_count": 30,
+      "panel_topology": [
+        {
+          "counts": {
+            "CENTRAL": 0,
+            "INNER": 10,
+            "MIDDLE": 0,
+            "OFF_CIRCLE": 0,
+            "OUTER": 20
+          },
+          "page": "f72v1",
+          "shape": "I10+O20"
+        }
+      ],
+      "physical_folios": [
+        "f72"
+      ],
+      "sign": "LIBRA",
+      "slot_count": 30,
+      "topology_signature_ignoring_page_identity": "I10+O20"
+    },
+    {
+      "label_count": 30,
+      "panel_topology": [
+        {
+          "counts": {
+            "CENTRAL": 0,
+            "INNER": 10,
+            "MIDDLE": 0,
+            "OFF_CIRCLE": 4,
+            "OUTER": 16
+          },
+          "page": "f73r",
+          "shape": "I10+O16+N4"
+        }
+      ],
+      "physical_folios": [
+        "f73"
+      ],
+      "sign": "SCORPIUS",
+      "slot_count": 30,
+      "topology_signature_ignoring_page_identity": "I10+O16+N4"
+    },
+    {
+      "label_count": 30,
+      "panel_topology": [
+        {
+          "counts": {
+            "CENTRAL": 0,
+            "INNER": 10,
+            "MIDDLE": 0,
+            "OFF_CIRCLE": 4,
+            "OUTER": 16
+          },
+          "page": "f73v",
+          "shape": "I10+O16+N4"
+        }
+      ],
+      "physical_folios": [
+        "f73"
+      ],
+      "sign": "SAGITTARIUS",
+      "slot_count": 30,
+      "topology_signature_ignoring_page_identity": "I10+O16+N4"
+    }
+  ],
+  "status": "STOP_UNSCORED_NO_IDENTIFIABLE_SHARED_30_POSITION_COORDINATE",
+  "topology_groups": {
+    "C1+I10+O19": [
+      "PISCES"
+    ],
+    "I10+O16+N4": [
+      "SCORPIUS",
+      "SAGITTARIUS"
+    ],
+    "I10+O20": [
+      "LIBRA"
+    ],
+    "I12+O18": [
+      "LEO",
+      "VIRGO"
+    ],
+    "I5+O10 / I5+O10": [
+      "ARIES",
+      "TAURUS"
+    ],
+    "I7+M11+O12": [
+      "CANCER"
+    ],
+    "I9+O16+N5": [
+      "GEMINI"
+    ]
+  }
+}

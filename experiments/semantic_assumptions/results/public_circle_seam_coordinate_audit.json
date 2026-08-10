@@ -1,0 +1,99 @@
+{
+  "Stolfi_note_flag_counts": {
+    "stolfi_explicit_no_obvious_start": 25,
+    "stolfi_mentions_drawn_marker": 22,
+    "stolfi_mentions_fold_or_crease": 5,
+    "stolfi_mentions_gap_or_word_space": 35,
+    "stolfi_mentions_orientation_or_slant_convenience": 4,
+    "stolfi_mentions_star_or_nymph_convenience": 5
+  },
+  "ZL_selected_clock_counts": {
+    "00:00": 3,
+    "08:30": 3,
+    "08:45": 1,
+    "09:00": 10,
+    "09:15": 2,
+    "09:30": 11,
+    "10:00": 12,
+    "10:30": 7,
+    "11:00": 10,
+    "11:30": 2,
+    "12:00": 1
+  },
+  "artifacts": {
+    "public_circle_seam_coordinate_audit.tsv": {
+      "rows": 62,
+      "sha256": "338de6e1fc53ca977a587e49ea2b599355b03391942aa3ab9f4f318453802eef"
+    }
+  },
+  "claim_ceiling": "The public/manual sources independently define the f67--f73 circle scope and document many real gaps or drawn-marker candidates, but the globally registered C-locus starts are editorial cuts concentrated in one clock sector, including at least twenty-five loci whose notes explicitly say that no obvious start exists. First/last C position is therefore not a globally authorial coordinate. This does not deny local seams and supplies no order, object, degree, word, meaning, plaintext, or translation.",
+  "decision": "DO_NOT_TREAT_GLOBAL_C_FIRST_OR_LAST_POSITION_AS_AUTHORIAL_PHASE",
+  "experiment": "PUBLIC_CIRCLE_SEAM_COORDINATE_AUDIT",
+  "gates": {
+    "all_C_loci_have_public_Stolfi_note_binding": true,
+    "all_ZL_selected_C_starts_are_in_0830_through_1200_sector": true,
+    "at_least_20_Stolfi_notes_explicitly_say_no_obvious_start": true,
+    "exact_23_C_pages": true,
+    "exact_62_ZL_C_loci": true,
+    "exact_7_folios": true,
+    "public_scope_is_26_panels": true,
+    "zero_English_glosses": true,
+    "zero_Voynich_string_score": true
+  },
+  "inputs": {
+    "experiments/semantic_assumptions/audit_public_circle_seam_coordinates.py": "439cc5112aedeab323f2b7c740496a335c33d859d276c5c576c8c483a13b9162",
+    "experiments/semantic_assumptions/results/public_voynich_nu_page_annotations_v2.tsv": "e6b5e12be70ab600d1c435eb1e7518e36f031a9bf5894b9b4b223b424d1cef8c",
+    "transcription/sources/Stolfi_text25e1-52.evt": "0509b276fcb7c98c574ccc92e70a1272567851816c5a8ebbfda95da084a3da4b",
+    "transcription/sources/ZL3b-n.txt": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc"
+  },
+  "scope": {
+    "C_loci": 62,
+    "C_pages": [
+      "f67r1",
+      "f68r1",
+      "f68r2",
+      "f68r3",
+      "f68v1",
+      "f68v2",
+      "f68v3",
+      "f69r",
+      "f69v",
+      "f70r1",
+      "f70r2",
+      "f70v1",
+      "f70v2",
+      "f71r",
+      "f71v",
+      "f72r1",
+      "f72r2",
+      "f72r3",
+      "f72v1",
+      "f72v2",
+      "f72v3",
+      "f73r",
+      "f73v"
+    ],
+    "folios": [
+      "f67",
+      "f68",
+      "f69",
+      "f70",
+      "f71",
+      "f72",
+      "f73"
+    ],
+    "public_panels": 26,
+    "public_panels_without_C_loci": [
+      "f67r2",
+      "f67v1",
+      "f67v2"
+    ]
+  },
+  "sources": {
+    "public_Stolfi_page_notes_example": "https://www.ic.unicamp.br/en/~stolfi/EXPORT/voynich/00-06-07-word-grammar/Notes/040/html/f72r1.htm",
+    "public_Stolfi_repository": "https://www.ic.unicamp.br/~stolfi/voynich/",
+    "public_circle_catalogue": "https://www.voynich.nu/illustr.html",
+    "public_page_records": "https://www.voynich.nu/q09/index.html"
+  },
+  "status": "PASS_GLOBAL_C_FIRST_POSITION_IS_EDITORIAL_NOT_AUTHORIAL"
+}

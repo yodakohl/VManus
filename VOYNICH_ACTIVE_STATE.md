@@ -4499,6 +4499,38 @@ to a transferable sign-level circular-to-label field.  Close this exact route
 without mining views, readings, pairs, or fragments; it supplies no sign name,
 word, meaning, plaintext, or translation.
 
+A public/manual seam audit now prevents a second circle-coordinate mistake.
+The ZL transcription supplies 62 `C` loci on 23 f67--f73 panels, and every
+chosen transcription start lies between 08:30 and 12:00.  That concentration
+is not a manuscript-wide authorial start: Stolfi's public locus notes
+explicitly say that no obvious start exists for 25/62 loci.  The same notes
+record 35 gap/word-space candidates and 22 drawn-marker candidates, but also
+use folds, creases, intruding stars, slant/orientation changes, or an arbitrary
+top-sector cut.  A nonimporting reconstruction verifies all 62 exact public
+note bindings, coordinates, flags, hashes, and the 23-page/seven-folio scope
+in 207 checks.  Therefore global `C` first/last position is an editorial
+coordinate and may not be scored as authorial phase.  Local physical seams
+remain usable only when licensed and mapped ring by ring; rotation-invariant
+circle tests are unaffected.  No direction, inter-band continuation, degree,
+word, meaning, plaintext, or translation follows.
+
+A score-blind capacity check also stops the tempting latent cross-sign
+30-position rescue before any Voynich string is scored.  The public
+Stolfi/Grove inventory has 300 expected slots, 299 present labels, ten signs,
+and only four physical folios, but seven incompatible panel topologies:
+Pisces has central+inner+outer slots; Gemini and the two f73 signs have
+off-circle slots of unequal counts; Cancer alone has a middle ring; Aries and
+Taurus are split across two panels; and the other ring counts also differ.
+Only three topology pairs repeat (Aries--Taurus, Leo--Virgo, and
+Scorpius--Sagittarius), and each pair shares a physical folio.  Therefore no
+same-topology disjoint-folio train/test panel can learn a band continuation
+and predict it elsewhere.  Fitting a universal degree phase would silently
+choose the missing starts, directions, and inter-band/off-circle continuation.
+An independent 1,336-check reconstruction verifies all public slot rows,
+topologies, overlaps, hashes, and the unscored stop.  This does not reject a
+degree-record interpretation or position-free zodiac structure; it rejects
+only an unkeyed universal 30-position alignment.
+
 A public exception audit exposed and corrected an important aggregate-count
 trap in the zodiac `L` inventory.  Across all twelve panels and all 36
 page-reading cells, manual IVTFF `L` counts equal the public label counts.  A
