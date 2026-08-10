@@ -5916,6 +5916,19 @@ storage. No currently identified text-only target statistic is authorized;
 the next substantive route needs new provenance-clean evidence or an exact
 null that preserves the confirmed local grammar.
 
+The revised public DANI deposit supplies one genuinely new but much narrower
+external mechanics target: a fixed ten-character converter and fixed lookup
+set. DANI001 is registered as a conditional post-selection diagnostic, not a
+language test. It will ask where that one released assignment ranks among all
+3,628,800 core bijections on two source-native panels in each manual reading,
+with type, folio-concentration, strict-literal, affix, source-metadata, and
+domain-deletion controls. The converter, deletion rules, affixes, lexicon, and
+domains were all selected after seeing this manuscript, so even an extreme
+rank cannot establish Syriac, sound, wordhood, pharmaceutical content, a
+Voynich lexeme, plaintext, or translation. The observed assignment remains
+unopened. Only a separately frozen, independently validated target-blind
+capacity and synthetic calibration may proceed next.
+
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
 crop, threshold, spelling resemblance, subset, historical analogy, or GPU
