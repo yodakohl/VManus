@@ -5513,6 +5513,12 @@ immutable original validator, target, report, and corrected wrapper while both
 validation outputs remain absent. It changes only the reduction order for the
 two aggregate effects and explicitly forbids a production rerun.
 
+The corrected clean reconstruction now passes 22,538 checks with zero
+discrepancies and confirms the final LRG005 nonconfirmation. This closes only
+the exact D1-specific cross-register extension mechanism. It does not retract
+LRG004's stable aggregate A-positive/D-negative initial-family register, but it
+does show that the obvious “labels drop prose q/D1” explanation is inadequate.
+
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
 crop, threshold, spelling resemblance, subset, historical analogy, or GPU
