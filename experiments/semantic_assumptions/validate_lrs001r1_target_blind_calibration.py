@@ -51,6 +51,7 @@ GEOMETRY_TSV_REL = "experiments/semantic_assumptions/results/lrs001r1_anonymous_
 GEOMETRY_JSON_REL = "experiments/semantic_assumptions/results/lrs001r1_anonymous_geometry.json"
 SPEC_REL = "experiments/semantic_assumptions/LRS001R1_TARGET_BLIND_CALIBRATION_SPEC.md"
 FREEZE_REL = "experiments/semantic_assumptions/LRS001R1_TARGET_BLIND_CALIBRATION_FREEZE.json"
+AMENDMENT_REL = "experiments/semantic_assumptions/LRS001R1_CALIBRATION_VALIDATION_AMENDMENT.json"
 RESULT_REL = "experiments/semantic_assumptions/results/lrs001r1_target_blind_calibration.json"
 REPORT_REL = "experiments/semantic_assumptions/results/lrs001r1_target_blind_calibration.md"
 VALIDATOR_REL = "experiments/semantic_assumptions/validate_lrs001r1_target_blind_calibration.py"
@@ -65,7 +66,7 @@ BOUND_RELS = (
     SYNTHETIC_REL, RUNNER_REL, VALIDATOR_REL,
 )
 READ_RELS = frozenset((
-    GEOMETRY_TSV_REL, GEOMETRY_JSON_REL, SPEC_REL, FREEZE_REL,
+    GEOMETRY_TSV_REL, GEOMETRY_JSON_REL, SPEC_REL, FREEZE_REL, AMENDMENT_REL,
     RESULT_REL, REPORT_REL, VALIDATOR_REL, CORE_REL, SYNTHETIC_REL, RUNNER_REL,
 ))
 
@@ -78,7 +79,8 @@ FREEZE_EXPERIMENT = "LRS001R1_TARGET_BLIND_CALIBRATION_FREEZE"
 RESULT_EXPERIMENT = "LRS001R1_TARGET_BLIND_CALIBRATION"
 RESULT_SCHEMA = "LRS001R1_AGGREGATE_CALIBRATION_V1"
 VALIDATION_EXPERIMENT = "LRS001R1_TARGET_BLIND_CALIBRATION_VALIDATION"
-VALIDATION_SCHEMA = "LRS001R1_AGGREGATE_CALIBRATION_VALIDATION_V1"
+VALIDATION_SCHEMA = "LRS001R1_AGGREGATE_CALIBRATION_VALIDATION_V2"
+AMENDMENT_EXPERIMENT = "LRS001R1_CALIBRATION_VALIDATION_AMENDMENT"
 
 ALPHABET = "ABCDEFGHJKLMNPQRSTUVWXYZ"
 CLASS_LAYOUT = {1: 3, 2: 8, 3: 23, 4: 19, 5: 10, 6: 3}
@@ -1845,6 +1847,7 @@ def _checked_read(relative: str) -> bytes:
 
 
 def _validate_freeze(payload: bytes, expected_hash: str
+                     , amendment: Mapping[str, object]
                      ) -> tuple[Mapping[str, object], Mapping[str, bytes]]:
     if not re.fullmatch(r"[0-9a-f]{64}", expected_hash) or _sha(payload) != expected_hash:
         raise ValueError("freeze SHA-256 mismatch")
@@ -1867,10 +1870,45 @@ def _validate_freeze(payload: bytes, expected_hash: str
     loaded = {}
     for relative in BOUND_RELS:
         value = _checked_read(relative)
-        if _sha(value) != bound[relative]:
+        expected = (amendment["corrected_validator_sha256"]
+                    if relative == VALIDATOR_REL else bound[relative])
+        if _sha(value) != expected:
             raise ValueError(f"freeze-bound source drift: {relative}")
         loaded[relative] = value
     return freeze, loaded
+
+
+def _validate_amendment(payload: bytes, expected_hash: str,
+                        freeze_hash: str) -> Mapping[str, object]:
+    if not re.fullmatch(r"[0-9a-f]{64}", expected_hash) or _sha(payload) != expected_hash:
+        raise ValueError("validation-amendment SHA-256 mismatch")
+    amendment = json.loads(payload)
+    expected_keys = {
+        "experiment", "status", "decision", "base_freeze_sha256",
+        "registration_commit", "original_validator_sha256",
+        "corrected_validator_sha256", "corrected_validator_commit",
+        "source_result_sha256", "source_report_sha256", "outputs_absent",
+        "producer_rerun_forbidden",
+    }
+    if set(amendment) != expected_keys or \
+            amendment.get("experiment") != AMENDMENT_EXPERIMENT or \
+            amendment.get("status") != "FROZEN_VALIDATOR_ONLY" or \
+            amendment.get("decision") != "AUTHORIZE_ONE_CORRECTED_CLEAN_RECONSTRUCTION_ONLY" or \
+            amendment.get("base_freeze_sha256") != freeze_hash or \
+            amendment.get("producer_rerun_forbidden") is not True:
+        raise ValueError("validation-amendment header drift")
+    for field in ("original_validator_sha256", "corrected_validator_sha256",
+                  "source_result_sha256", "source_report_sha256"):
+        if not re.fullmatch(r"[0-9a-f]{64}", str(amendment.get(field, ""))):
+            raise ValueError(f"malformed amendment hash: {field}")
+    for field in ("registration_commit", "corrected_validator_commit"):
+        if not re.fullmatch(r"[0-9a-f]{40}", str(amendment.get(field, ""))):
+            raise ValueError(f"malformed amendment commit: {field}")
+    outputs = amendment.get("outputs_absent")
+    if not isinstance(outputs, list) or len(outputs) != 2 or \
+            set(outputs) != {VALIDATION_REL, VALIDATION_REPORT_REL}:
+        raise ValueError("validation-amendment output schema drift")
+    return amendment
 
 
 def _family_summaries(worlds: Sequence[Mapping[str, object]]) -> Mapping[str, object]:
@@ -2042,7 +2080,7 @@ def _reconstruct_result(geometry: VGeometry, raw_rows: Sequence[Mapping[str, str
           "AUTHORIZE_SEPARATE_LRS001R1_TARGET_REGISTRATION") if passed else
          ("STOP_LRS001R1_TARGET_BLIND_CALIBRATION", "TARGET_FORBIDDEN"))
     )
-    return result, {"controls_ok": controls_ok, "aggregate_ok": aggregate_consistent}
+    return result, {"aggregate_and_control_state_exact": aggregate_consistent}
 
 
 def _validation_report(value: Mapping[str, object]) -> bytes:
@@ -2132,6 +2170,8 @@ def _parse_args(argv: Sequence[str] | None = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--freeze-sha256",
                         help="published SHA-256 of the frozen registration")
+    parser.add_argument("--amendment-sha256",
+                        help="published SHA-256 of the validator-only amendment")
     parser.add_argument("--workers", type=int, default=32,
                         help="independent whole-world workers, 1..32")
     parser.add_argument("--self-test", action="store_true",
@@ -2157,11 +2197,23 @@ def main(argv: Sequence[str] | None = None) -> int:
         return 2
     if not arguments.freeze_sha256:
         raise ValueError("--freeze-sha256 is required after result creation")
+    if not arguments.amendment_sha256:
+        raise ValueError("--amendment-sha256 is required after result creation")
 
+    amendment_payload = _checked_read(AMENDMENT_REL)
+    amendment = _validate_amendment(
+        amendment_payload, arguments.amendment_sha256, arguments.freeze_sha256)
     freeze_payload = _checked_read(FREEZE_REL)
-    freeze, loaded = _validate_freeze(freeze_payload, arguments.freeze_sha256)
+    freeze, loaded = _validate_freeze(
+        freeze_payload, arguments.freeze_sha256, amendment)
     result_payload = _checked_read(RESULT_REL)
     report_payload = _checked_read(REPORT_REL)
+    if amendment["registration_commit"] != freeze["registration_commit"] or \
+            amendment["original_validator_sha256"] != \
+            freeze["bound_files"][VALIDATOR_REL] or \
+            amendment["source_result_sha256"] != _sha(result_payload) or \
+            amendment["source_report_sha256"] != _sha(report_payload):
+        raise ValueError("validation amendment/base artifact binding drift")
     observed = json.loads(result_payload)
     if _json_bytes(observed) != result_payload:
         raise ValueError("calibration JSON is not canonical")
@@ -2201,8 +2253,10 @@ def main(argv: Sequence[str] | None = None) -> int:
 
     checks = {
         "freeze_sha256": _sha(freeze_payload) == arguments.freeze_sha256,
-        "seven_bound_source_hashes": all(
-            _sha(loaded[path]) == freeze["bound_files"][path] for path in BOUND_RELS),
+        "six_base_and_amended_validator_hashes": all(
+            _sha(loaded[path]) == freeze["bound_files"][path]
+            for path in BOUND_RELS if path != VALIDATOR_REL) and
+            _sha(loaded[VALIDATOR_REL]) == amendment["corrected_validator_sha256"],
         "producer_import_absent": producer_import_absent,
         "geometry_tsv_sha256": _sha(loaded[GEOMETRY_TSV_REL]) == GEOMETRY_TSV_SHA256,
         "geometry_manifest_sha256": _sha(loaded[GEOMETRY_JSON_REL]) == GEOMETRY_JSON_SHA256,
@@ -2239,6 +2293,8 @@ def main(argv: Sequence[str] | None = None) -> int:
         "source_result_sha256": _sha(result_payload),
         "source_report_sha256": _sha(report_payload),
         "freeze_sha256": arguments.freeze_sha256,
+        "validation_amendment_sha256": arguments.amendment_sha256,
+        "corrected_validator_sha256": amendment["corrected_validator_sha256"],
         "bound_files": dict(freeze["bound_files"]),
         "check_count": len(checks), "checks": checks,
         "reconstructed_counts": {
