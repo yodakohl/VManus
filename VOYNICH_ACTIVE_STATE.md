@@ -5553,6 +5553,15 @@ The method and code are committed and the 21-file hash freeze binds commit
 `2d70263` while all four target/result paths are absent. The next action is the
 single authorized target execution followed by its independent reconstruction.
 
+LRG006 is now a clean final nonconfirmation. The exact all-reading A1 state has
+label-minus-prose effect `+.016979`, two-sided `p=.752472`, `z=.3248`, and only
+6/13 folios in the observed direction. B versus P and odd versus even folios
+reverse sign; nine of ten robustness gates fail. Independent code reconstructs
+the complete result in 776 checks. Exact A1 therefore does not localize the
+confirmed A-family register effect. Retain A only as a broad structural family
+state and do not reduce it to the literal A1/o-like member, a normalized
+spelling, word, POS, function, or meaning.
+
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
 crop, threshold, spelling resemblance, subset, historical analogy, or GPU
