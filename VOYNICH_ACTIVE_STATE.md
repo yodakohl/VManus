@@ -4659,8 +4659,24 @@ accidentally passed 2/8 worlds; replacing only that negative with the already
 registered distance-two construction gives 8/8 distributed positives and
 0/8 for null, one-folio, reading-disagreement, exact-only, length-only, and
 distance-two families. A production-free implementation reconstructs all 56
-worlds and the exact orbit in 4,793 checks. The manuscript STA sequences and
-adjacency effect remain unopened pending a public hash freeze.
+worlds and the exact orbit in 4,793 checks. The one hash-frozen target and its
+production-free reconstruction are now complete. The result is a clear final
+nonconfirmation: weakest-reading composite effect `-.006584`, with ZL/IT/RF
+effects all nonpositive and joint `p=.645574`. `FAMILY_ONLY` and
+`BOUNDARY_AWARE` minimum effects are `-.006092` and `-.007075`; after removing
+complete identical record pairs, the minimum remains `-.005680` with
+`p=.582862`. Only 2/1/2 of four folios are positive in ZL/IT/RF, and the
+support, deletion, materiality, component, exact-record, and significance
+gates fail. Rotation and reflection preserve every logical result but differ
+by `5.11e-15` from floating reduction order, above the frozen `1e-15`
+tolerance; this is retained as an additional failure rather than repaired.
+The first validator stopped only because canonical JSON reordered the printed
+reading-count dictionary. A report-order-only amendment bound the unchanged
+target and a corrected validator, which then reconstructed the target in 167
+checks. Close this exact adjacency representation without mining rings,
+distances, views, readings, or families. It does not reject every possible
+ordered label system and supplies no ownership, serial code, number, degree,
+sign name, word, meaning, plaintext, or translation.
 
 A new semantic route needs genuinely independent authorial evidence or a new
 invariant capable of falsifying competing meanings. A new model, crop,
