@@ -1,6 +1,13 @@
 # LRG005 target-blind joint calibration
 
-Status: `FROZEN_TARGET_FREE_CALIBRATION_V1`
+Status: `FROZEN_TARGET_FREE_CALIBRATION_V2`
+
+V1 stopped with 7/8 full plants, 0/8 reduced plants, two one-section
+leaks, and one one-parity leak.  Before target access, V2 adds symmetric
+section/parity balance ratios of `.35`, moves the concentration ceiling from
+`.25` to `.30` because one distributed full plant reached `.2629`, and uses
+fixed full/reduced signal amplitudes `.60/.36`.  No target statistic or role
+association informed these changes.
 
 ## Future target scores
 
@@ -26,7 +33,9 @@ selecting the fixed label quota inside every cell.  The upper p-value is
 Each channel passes only with p <= .01, z >= 3, effect >= .10, at least 10/13
 positive folios, B and P equal-folio effects each >= .05, odd and even folio
 effects each >= .05, every one-folio deletion >= .05, and maximum absolute
-folio contribution <= .25.  LRG005 passes only if both channels pass.
+folio contribution <= .30.  The weaker/stronger effect ratio must be at least
+.35 across B/P and across odd/even folios. LRG005 passes only if both channels
+pass.
 
 ## Synthetic calibration
 
@@ -34,14 +43,15 @@ Use no source group, member sequence, row role, target score, or LRG004 target
 row.  Synthetic labels preserve every masked cell quota.  Frozen deterministic
 standard-normal score noise is used in 64 null worlds and eight worlds each of:
 
-- `DISTRIBUTED_FULL` and `DISTRIBUTED_HALF`: both channels aligned everywhere;
+- `DISTRIBUTED_FULL` and `DISTRIBUTED_REDUCED`: both channels aligned
+  everywhere with fixed amplitudes `.60` and `.36`;
 - `ONE_FOLIO`, `ONE_SECTION`, `ONE_PARITY`: concentrated signal;
 - `FOLIO_RANDOM`: independent folio signs;
 - `ONE_CHANNEL`: only D1_BARE aligned;
 - `OPPOSITE_CHANNEL`: D1_BARE aligned and D1_OTHER reversed;
 - `CELL_CONSTANT`: label-blind constants within cells.
 
-Full and half plants must pass 8/8. Null and every adversarial family must pass
+Full and reduced plants must pass 8/8. Null and every adversarial family must pass
 0 worlds.  Missing/duplicate rows, quota drift, mixed folio/section cells,
 nonfinite values, or changed counts hard-stop.
 

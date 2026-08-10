@@ -5459,6 +5459,14 @@ move the concentration ceiling only to the observed distributed envelope, and
 recalibrate a clearly material distributed power level. The manuscript role
 association and exact target scores remain unopened.
 
+Calibration v2 keeps those data unopened and closes the false-positive leak:
+0/64 null and 0/8 in every adversarial family pass, while full distributed
+plants pass 8/8. Reduced `.36` plants pass 7/8; the sole failure has strong
+effects and p-values but D1_BARE section balance `.324765` misses the new `.35`
+gate. Clean reconstruction again passes 9,391 checks. Do not weaken the
+balance gate. One v3 calibration may change only the reduced synthetic
+amplitude to `.40`, retaining the full `.60` plant and every statistic/gate.
+
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
 crop, threshold, spelling resemblance, subset, historical analogy, or GPU
