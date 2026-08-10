@@ -5752,6 +5752,15 @@ discrepancies. The one-parity leak is therefore genuine. V3 is limited to the
 single `.50` balance gate; it cannot alter the established signal scale or any
 other acceptance rule.
 
+The first v3 artifact is an invalid implementation stop despite satisfying
+every scientific count. Its top-level gates included the true isolation fact
+as negatively named `target_profile_or_family_surface_accessed=false` and then
+required every value to be true. The immutable result therefore says
+`TARGET_FORBIDDEN` solely because target data were correctly absent. V3-R1 is
+frozen to rename only that field to
+`target_profile_and_family_surface_absent=true` and recompute status/decision;
+every world, number, digest, pass, and other gate must remain exact.
+
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
 crop, threshold, spelling resemblance, subset, historical analogy, or GPU
