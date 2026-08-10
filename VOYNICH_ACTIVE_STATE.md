@@ -5738,6 +5738,20 @@ zero discrepancies. The underpowered stop is therefore genuine rather than a
 runner error. The single amplitude-only v2 amendment described above is now
 the permitted next action.
 
+Calibration v2 recovers 8/8 full and 8/8 reduced distributed plants, retains
+0/64 null and 0/8 for eight negative families, but one of eight strong
+`ONE_PARITY` adversaries passes. Its inactive parity is positive by noise:
+the weaker/stronger parity-effect ratio is `.381`, whereas the minimum among
+all sixteen intended distributed worlds is `.537`. Pending clean
+reconstruction, v3 may add exactly one symmetric parity-balance gate
+`min(EVEN,ODD)/max(EVEN,ODD) >= .50`; no existing threshold, amplitude, seed,
+world, or null may change. The target remains forbidden and unopened.
+
+The v2 stop is independently reconstructed in 7,217 checks with zero
+discrepancies. The one-parity leak is therefore genuine. V3 is limited to the
+single `.50` balance gate; it cannot alter the established signal scale or any
+other acceptance rule.
+
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
 crop, threshold, spelling resemblance, subset, historical analogy, or GPU
