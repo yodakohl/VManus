@@ -4586,7 +4586,19 @@ zodiac record, construction fixtures, digests, decisions, and full gate object.
 A public freeze now binds the exact 52-file method, manual-source provenance,
 capacity, controls, production runner, and nonimporting validator at commit
 `3b8ef53`, with all target and validation outputs absent.  One target run is
-authorized, followed by one independent reconstruction.
+authorized, followed by one independent reconstruction.  Both are now
+complete.  The primary same-page effect is negative in all readings
+(`M=-.014138`, exact `p=.711234`); after removing 90/113/85 complete-group
+echoes in ZL/IT/RF it becomes more negative (`M=-.035356`, `p=.984216`), and
+the zodiac-only effect is also negative (`M=-.007766`, `p=.576910`).  Both
+trigram and four-gram components are negative in every reading, with only two
+of five primary folios positive per reading.  A nonimporting 169-check
+implementation reconstructs every join, matrix, orbit, deletion, digest, and
+gate.  CRE001 is a final nonconfirmation.  At this fixed resolution the L
+labels do not behave like page-specific partial names echoed by the same-page
+C text; treating them as a more independent identifier register remains
+compatible but unproved.  Do not mine pages, n-grams, directions, or exact
+group repeats from this target.
 
 A public exception audit exposed and corrected an important aggregate-count
 trap in the zodiac `L` inventory.  Across all twelve panels and all 36
