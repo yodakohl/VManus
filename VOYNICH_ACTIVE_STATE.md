@@ -1142,6 +1142,19 @@ artifact. Hand, topic, chronology, and production ecology remain confounded,
 so this still cannot distinguish style, dialect, language, encoding regime,
 POS, sound, meaning, plaintext, cipher, or translation.
 
+The validated layers are now joined into a complete source-native structural
+interlinear. It covers 23,281 construction groups in all 3,572 strict shared
+loci on 225 pages, preserving separate ZL/IT/RF member codes, exact separator
+profiles, and explicitly lossy basic-EVA convenience renderings. Every row has
+its factual FIRST/CORE/LAST/SINGLE position; 23,003 rows also receive the exact-
+form atlas state. Opening compositional features occur on 11,368 rows, closing
+features on 14,330, and favored internal transitions/paths on 12,066. A clean
+implementation reconstructs every join and output byte in 1,101,224 checks.
+Use this v1 artifact rather than the unavailable legacy parser for current
+structural record inspection. It contains zero English glosses and does not
+assign words, POS, semantic roles, sounds, morphemes, meanings, plaintext,
+language, cipher, or translation.
+
 A strict duplicate audit rejected two tempting next steps before scoring:
 semantic illustration matching would repeat the closed object-tag/berry/flower
 routes, and source-native local transition scoring would substantially repeat
