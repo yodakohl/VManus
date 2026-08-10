@@ -1277,6 +1277,17 @@ cross-boundary compatibility plus a smaller preceding closure tendency, not a
 standalone special first form after the drawing. Do not promote post-drawing
 first forms to START words or picture labels.
 
+Recomputing exact-form position tendencies on the corrected segments leaves the
+system mostly stable but repairs a material minority of tags. Confirmed prose
+changes from 2,676 FIRST / 2,676 LAST / 16,528 CORE / 19 SINGLE groups to
+2,993 / 2,993 / 15,783 / 130. Under the unchanged held-folio rule, 13 of 2,856
+FIRST/LAST type labels change (covering 1,861 occurrences) and 15 EDGE/CORE
+labels change (1,182 occurrences). New robust FIRST-associated formal families
+include `AQAC`, `AQKAC`, and `LAC`; new LAST-associated families include
+`ABBA`, `BBA`, and `C`. Independent code reconstructs the complete atlas in
+57,124 checks. These are corrected positional form classes, not START/END words,
+POS, or meanings.
+
 A strict duplicate audit rejected two tempting next steps before scoring:
 semantic illustration matching would repeat the closed object-tag/berry/flower
 routes, and source-native local transition scoring would substantially repeat
