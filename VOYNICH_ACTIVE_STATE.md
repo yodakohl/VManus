@@ -4576,7 +4576,14 @@ mappings.  Independent raw source-group counting reconstructs this capacity in
 751 checks.  CRE001 is preregistered to test only internal STA-family trigram
 and four-gram coverage from C into L, with complete-group duplicates removed
 in a mandatory sensitivity.  No target n-gram identity or overlap has been
-opened; synthetic controls and independent reconstruction come first.
+opened.  The complete synthetic scorer now recovers distributed partial echoes
+under both primary and no-exact-group panels plus the zodiac sensitivity, while
+rejecting null, one-folio, reading-disagreement, whole-group-only, and
+length-only worlds.  A first validator pass was preserved because it trusted
+two stored invariance flags; the corrected nonimporting implementation rebuilds
+those fixtures, all six complete 138,240-assignment records, the 5,760-row
+zodiac record, construction fixtures, digests, decisions, and full gate object.
+One separately hash-frozen target run is now eligible.
 
 A public exception audit exposed and corrected an important aggregate-count
 trap in the zodiac `L` inventory.  Across all twelve panels and all 36
