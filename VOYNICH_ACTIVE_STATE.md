@@ -5309,6 +5309,18 @@ CORE group. Independent reconstruction passes 71,967 checks. The next action
 is target-blind calibration of page-length ranks and within-segment rotation
 nulls; the actual position association remains unopened.
 
+LRG002 calibration v1 stopped correctly because two of eight B-only controls
+passed through noise in P. Before opening the real association, v2 added one
+symmetric balance gate requiring the weaker section/parity projection to carry
+at least .35 of the stronger. This was below the weakest distributed v1 plant
+ratio (.5024) and above both leaks (.1289/.2814); nothing else changed.
+Corrected v2 rejects all 64 nulls and all 72 adversarial worlds while all 40
+distributed plants pass. A nonimporting implementation reconstructs all 176
+worlds, both 8,192-row rotations and coefficient matrices, every rank/vector/
+null/gate/digest, and the report in 15,879 checks. The real position
+association remains unopened. Next action: commit this calibration, freeze one
+aggregate target, then execute and validate once without form-level mining.
+
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
 crop, threshold, spelling resemblance, subset, historical analogy, or GPU
