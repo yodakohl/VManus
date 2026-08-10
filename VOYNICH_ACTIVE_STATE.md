@@ -4752,8 +4752,10 @@ caught a degenerate fixture, then a too-permissive `.15` deep-prefix gate; the
 corrected `.25` gate now recovers complete plants 8/8 and rejects exact-null,
 dominant-initial-only, four-name-block-only, and shallow-two-depth-only worlds
 0/8. A nonimporting implementation reconstructs all 40 worlds and both nulls
-in 80 checks. No f69v target prefix topology has been opened. A separately
-committed hash freeze and one target are the next authorized steps. Even a pass
+in 80 checks. No f69v target prefix topology has been opened. The exact
+18-file target package is now frozen at code commit `b16078c`, with all four
+target and validation outputs absent. One aggregate target invocation followed
+by one independent reconstruction is now authorized. Even a pass
 would support only this roster as a system-family candidate, not a mansion
 mapping, number, name, word, sound, meaning, plaintext, or translation.
 
