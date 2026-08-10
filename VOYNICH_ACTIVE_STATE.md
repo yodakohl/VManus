@@ -5392,6 +5392,13 @@ odd/even material/balance, all deletions, and concentration. Independent code
 reconstructs all 168 worlds in 146,115 checks. No real family identity has yet
 been opened; target code, commit, and freeze remain mandatory.
 
+The LRG004 manuscript target is now registered but unscored. It will extract
+only the first official family from the exact 2,767-row LRG001 order and emit
+all 24 aggregate metrics plus any codes passing every frozen simultaneous and
+cross-folio gate. Zero registered families is a valid closure. No source row,
+form, member code, learned weight, or EVA spelling may be emitted. Commit and
+hash freeze are required before one target invocation and clean reconstruction.
+
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
 crop, threshold, spelling resemblance, subset, historical analogy, or GPU
