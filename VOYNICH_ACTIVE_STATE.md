@@ -1215,12 +1215,12 @@ opened.
 
 The target-blind reference instrument now passes development gates with all 87
 drawing-target pages excluded from fitting and evaluation. On 13,182 ordinary
-spaces and 1,206 genuine continuation-line resets across 66 scored physical
+spaces and 1,206 consecutive below-locus prose transitions across 66 scored physical
 folios, a leave-folio-out six-field local family-edge model reaches equal-folio
 AUC .809413 versus .599823 for the length-only control. It is positive on
 65/66 folios, reaches .7434/.8527 in Currier A/B, and exceeds every one of 64
 within-page held-label permutations (plus-one p=1/65). This establishes only
-that known continuation resets have a transferable local reset signature. A
+that known below-locus transitions have a transferable local edge signature. A
 production-free implementation reconstructs all 14,388 events, every folio and
 register summary, all 64 null worlds, all gates, and the exact report with zero
 numeric difference in 188 checks. This licenses a separately frozen drawing
@@ -1237,7 +1237,8 @@ parallel Currier gate were fixed at a .10 material effect, eliminating the
 failure. The target is now sealed for one execution and one independent
 reconstruction.
 
-The sealed target confirms a distributed drawing-interruption reset signature.
+The sealed target confirms a distributed drawing-interruption below-locus-like
+structural reset signature.
 Against 4,143 same-page ordinary spaces, 428 drawing gaps have raw equal-folio
 reset-likeness +.44516 (p=1/65,537) and nuisance-residual +.28045
 (p=5/65,537). The residual is positive on 44/59 physical folios; Currier A/B
@@ -1248,13 +1249,16 @@ scientific numbers and gates within 4.67e-15 but strictly failed two byte
 digests because it spelled the position square/cube by repeated multiplication
 where the producer used exponentiation. A bound arithmetic-order reconciliation
 changed only that spelling and then matched every result field, both digests,
-the full null orbit, and the report exactly in 484 checks. Therefore treat a
-manual drawing interruption as a grammar-reset boundary in future source-native
-segmentation; do not concatenate across it. This does not show that adjacent
+the full null orbit, and the report exactly in 484 checks. Therefore retain a
+manual drawing interruption as a structural segmentation boundary in future
+source-native work; do not concatenate across it. Official IVTFF defines `+`
+only as “generally below the previous item”; paragraph starts are separate
+transcriber decisions. DIC001 does not establish a new sentence, paragraph,
+clause, or continuation state. This does not show that adjacent
 text names or describes the drawing and adds no word, sound, POS, meaning,
 plaintext, language, cipher, or translation.
 
-A complete source-native drawing-reset atlas now applies that correction. It
+A complete source-native drawing-segment atlas now applies that correction. It
 preserves all 23,281 groups exactly once while splitting the 440 unanimous
 drawing boundaries (428 prose, 12 diagnostic nonprose) into 4,012 segments
 across the original 3,572 physical loci. There are 375 multi-segment loci and
@@ -1268,7 +1272,7 @@ creating a second confirmation claim. After the same nuisance projection, the
 left-terminal block contributes +.09020 (descriptive p=1/65,537), the
 right-initial block +.05027 (p=.08307), and the cross-boundary pair block
 +.13998 (p=.000412). Independent code reconstructs all blocks and summaries
-exactly in 450 checks. Thus the confirmed reset signature is mainly disrupted
+exactly in 450 checks. Thus the confirmed below-locus-like signature is mainly disrupted
 cross-boundary compatibility plus a smaller preceding closure tendency, not a
 standalone special first form after the drawing. Do not promote post-drawing
 first forms to START words or picture labels.
