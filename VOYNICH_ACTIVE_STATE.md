@@ -4719,6 +4719,16 @@ universal centre-to-edge compactness rule follows. Do not align the two sixes
 or infer PLANET, APSIS, SPHERE, WIND, NUMBER, abbreviation, word meaning,
 plaintext, or translation.
 
+A source-only post-hoc check now closes the most tempting direct alignment of
+those two six-slot registers. The human clock order fixes K1.1--K1.6 against
+X1.1--X1.6, but complete f69r-group containment in the paired f70r1 group is
+only 4/6 in every reading (exact assignment p=.278/.278/.164). Optimizing a
+rotation/reflection reaches 5/6 but is also common (p=.5/.5/.333). Collapsing
+each f69r item to its leading STA family produces an apparent optimized 6/6,
+yet 144/180 family assignments do the same and the physical alignment remains
+4/6. The apparent key is therefore a common-family plus post-hoc-rotation
+artifact, not a transferable component relation.
+
 A separate public-source check closes one tempting exception using only
 public evidence. The current human Quire 9 catalogue says that the text around
 the f68r2 Sun face only *appears* to include non-Voynich cleartext and is almost
