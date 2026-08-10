@@ -25,9 +25,10 @@ Updated: 2026-08-10. Read this file first, then
   a document-practice prior, not a language, text, or lexical result.
 - The best active description is a manuscript-wide hierarchical, page-
   conditioned, line-reset construction system. “Record-like” is an
-  organizational analogy at manuscript scale, but EAS001 now confirms that
-  the explicitly repeated graphical slots in its frozen array panel behave as
-  separate grammatical records at their between-slot transitions.
+  organizational analogy at manuscript scale. The former EAS001 graphical-slot
+  bridge is no longer active confirmed evidence: its exact positive ledger
+  summary survives, but its inventory, preregistration, scorer, result, and
+  validator do not survive in the repository and cannot be reconstructed.
 
 ## Confirmed structural baseline
 
@@ -132,20 +133,17 @@ Updated: 2026-08-10. Read this file first, then
     frozen +0.005 materiality gate. Thus IL010's full directional relation
     remains real but is not explained at useful magnitude by either compact
     scalar or isolated cycle components at these frozen resolutions.
-16. A direct author-visible layout bridge is confirmed for the frozen explicit
-    graphical-array panel. Across 46 independently inventoried repeated arrays,
-    391 slots, 374 registered transitions, and 13 complete folios, between-slot
-    transitions are more physical-line-boundary-like than score-blind matched
-    internal spaces. The minimum alternate-reading effect is +0.2942 of a
-    physical-line reset, with an exact synchronous-folio p=.005859; ZL is
-    positive on 10/13 folios and four of five aggregate families, and the
-    minimum leave-one-folio-out effect is +0.2454. A nonimporting validator
-    rebuilt all 1,122 reading-specific scores and exact inference in 53,468
-    checks. This confirms record segmentation for this aggregate slot panel,
-    not individual object ownership, a universal result for every family, a
-    common slot meaning, or any lexical translation. The bath-apparatus family
-    is not independently supported (ZL negative; IT near zero), and all family
-    diagnostics remain nonconfirmatory on their own.
+
+The historical EAS001 ledger reports 46 arrays, 391 slots, 374 transitions,
+13 folios, minimum effect +.2942, and p=.005859. Those numbers are retained as
+routing history, not as reconstructed evidence. All nine named scientific
+paths are absent, as are all five hash-recorded precursor bodies; no reachable
+or dangling Git object recovers them. The exact folio list is unavailable, so
+the newer public correction that f67--f73 are seven folios on four bifolios
+cannot be applied to its synchronous null. EAS001 and all claims depending on
+its frozen inventory are therefore `PROVISIONAL_HISTORICAL_UNRECONSTRUCTED`
+until hash-matching artifacts are recovered or a new versioned experiment is
+run. This provenance hold does not show that the historical effect was false.
 
 ZL3b, IT2a, and RF1b are alternate readings of one manuscript, never three
 independent samples. Structural tags must remain distinct from translations.
@@ -1759,29 +1757,25 @@ source projection, both orbits, all 18 output rows, gates, and five source
 mutations. No diagram parameter, ownership, word, meaning, or translation
 follows.
 
-The first post-reset author-visible relation has now passed. `EAS001` used the
-older text-blind frozen inventory of explicit repeated sectors, bands, rows,
-and apparatus slots; it did not use pixels, OCR, automated vision, semantic
-labels, uncertain proximity, or target-text strings to choose the groups.
-Score-blind matching retained all 374 transitions in every reading, with
-1121/1122 reading-specific transitions controlled by internal spaces on the
-same folio, section, and editorial kind. A root-free canonical-form line-
-boundary model trained outside all 13 target folios passed planted, null,
-reverse, one-folio, largest-array, alternate-reading-disagreement, length, and
-duplication controls before the single target run.
+The first post-reset author-visible relation, `EAS001`, has now been demoted on
+provenance rather than statistical grounds. The ledger says that an older
+text-blind inventory of repeated sectors, bands, rows, and apparatus slots
+passed controls and produced minimum ZL/IT/RF effect +.294219 with exact
+48/8192 p=.005859. But its nine named scientific paths are absent from the
+current tree, every reachable Git tree, and every dangling Git tree. The reset
+manifest preserves size and SHA-256 metadata for five precursor files, but no
+remaining Git blob matches them. The exact 13-folio membership and per-folio
+effects cannot be recovered, so the public f67--f73 four-bifolio correction
+cannot be tested against its null.
 
-The validated result is `GRAPHICAL_SLOT_AS_RECORD_BOUNDARY_CONFIRMED`: minimum
-ZL/IT/RF normalized effect +.294219, exact 48/8192 p=.005859, 10/13 positive ZL
-folios, 4/5 positive ZL family diagnostics, and positive leave-one-folio-out
-effects throughout. This is the first confirmed bridge from author-visible
-graphical organization to the formal grammar. It licenses treating the 391
-frozen slots as record units in a neutral structural atlas. It does **not**
-license treating slot order as prose order, assuming every slot names its
-adjacent picture, assigning the same record template to all five families, or
-giving any root an English gloss. The next route should use this segmentation
-to freeze role positions inside records and seek a repeated contrast that is
-independent of the boundary score; do not mine the already scored family or
-group diagnostics for a post-hoc word meaning.
+Accordingly, EAS001 is `PROVISIONAL_HISTORICAL_UNRECONSTRUCTED`, not an active
+confirmation. It does not currently license treating the 391 historical slots
+as grammatical records. The EAS002--EAS010 summaries below remain historical
+routing memory under the same provenance hold because they reuse the missing
+inventory; they cannot actively confirm or close a route until the source
+panel is recovered or independently rebuilt in a new version. This correction
+does not establish that any historical score was false and supplies no object
+ownership, word meaning, plaintext, or translation.
 
 That first record-interior route has now been tested and closed at its frozen
 resolution. `EAS002` first removed every held-folio role sequence from both
@@ -1796,8 +1790,9 @@ failed; independent pre-score validation passed 7,776 checks.
 The one held result is a validated nonconfirmation: minimum alternate-reading
 effect -.092083 bit/formal-unit, exact p=.90625, ZL/IT/RF means
 -.054365/-.092083/-.044639, only 3/7 positive ZL folios and 1/5 positive ZL
-families. An independent 19,854-check reconstruction agrees. This does not
-weaken EAS001's boundary result and does not prove that records lack internal
+families. The historical ledger says an independent 19,854-check reconstruction
+agreed. This did not challenge the then-assumed EAS001 boundary summary and
+does not prove that records lack internal
 structure; it rejects one transferable manuscript-wide `FIRST/MIDDLE/LAST`
 formal-role alignment beyond ordinary word-edge grammar. Do not mine the lone
 positive zodiac diagnostic.
@@ -1816,7 +1811,7 @@ minimum alternate-reading +.030338 bit/five-channel edge, exact 13/128
 p=.1015625, and ZL/IT/RF means +.040952/+.060094/+.030338. Four of five ZL
 families, both topologies, and every leave-one-folio-out diagnostic are
 positive, but only 4/7 ZL folios are positive; the exact-p and folio gates fail.
-This neither cancels EAS001's confirmed record boundaries nor establishes
+This neither refutes the historical EAS001 boundary summary nor establishes
 record order. Do not select the favorable families, channels, readings, or
 folios; do not retune states, smoothing, split, thresholds, or gates.
 
@@ -1853,8 +1848,9 @@ gates fail. A nonimporting 26-check reconstruction reproduced all 222 held
 slot rows, 45 group effects, 21 folio effects, and the report. Do not mine the
 positive RF reading, bath/herbal diagnostics, individual shells, or records.
 
-EAS001 therefore still establishes aggregate graphical slot boundaries, but
-the reused array corpus has supplied no confirmed universal interior position
+Within the historical ledger chain, EAS001 was treated as establishing
+aggregate graphical slot boundaries, while the reused array corpus supplied no
+confirmed universal interior position
 (EAS002), between-record first-order sequence (EAS003), or order-free formal
 word-shell register (EAS004). This does not show that the records are
 meaningless or identical to prose. No further formal-role test on the same
