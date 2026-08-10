@@ -5811,6 +5811,18 @@ translation evidence. This does not disprove Elu-Sinhala or known-language
 hypotheses in the abstract, and no external gloss has been merged into the
 active grammar.
 
+A genuinely different text-only route has now passed score-blind capacity.
+LRS001 uses complete source-native groups in corrected 5--12-group prose
+records; it is not the archived arbitrary-column, local-trigram, consecutive-
+line, or exact-neighbour substitution work. A TRAIN-only support rule freezes
+66 candidate surfaces and leaves 1,903 movable held CORE targets in 489
+records across 46 pages and 23 physical folios. All nine capacity gates and a
+13-check clean-room reconstruction pass. No predictor or real context/target
+association has been opened. The only authorized next action is a separately
+preregistered, target-blind synthetic calibration in which distant ordered
+record context must beat nuisance and unordered-context controls; a capacity
+pass supplies no schema, meaning, plaintext, or translation.
+
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
 crop, threshold, spelling resemblance, subset, historical analogy, or GPU
