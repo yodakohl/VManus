@@ -5274,6 +5274,11 @@ a manuscript result. The next permitted action is one committed, separately
 hash-frozen clean recovery followed by reciprocal reconstruction with the
 frozen production core. No form-level output or tuning is permitted.
 
+That recovery is now frozen as `LRG001_RECOVERY_FREEZE.json` (SHA-256 prefix
+`79ef7366`) against commit `e64a798`, with every original production output and
+every recovery/validation output absent. Exactly one clean recovery invocation
+and one reciprocal validation are now permitted.
+
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
 crop, threshold, spelling resemblance, subset, historical analogy, or GPU
