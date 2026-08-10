@@ -1308,6 +1308,15 @@ opening a manuscript type or score. This authorizes a separately frozen,
 one-shot canonical-transfer target registration; it does not establish a
 latent form, word, sound, language, cipher, meaning, plaintext, or translation.
 
+That one-shot target is now registered but remains unopened. It is exactly the
+2,223 masked source-group IDs; the full clean group is raw form and only the
+single registered post-`ch/sh` `o/e` character becomes `X`. The calibrated
+scorer, collision capacity, 256 leaf-state orbit, 8,192 matched merger draws,
+and every reading, folio, domain, prefix, deletion, and concentration gate are
+unchanged. A capacity failure stops unscored; a domain/prefix-only pattern is a
+general nonconfirmation, not authorization to mine a subset. Target execution
+requires a clean public hash freeze and absent result/validation artifacts.
+
 A genuinely different source-native morphology route has now been tested. It
 asks whether the first STA family of a synchronized prose group helps
 predict its last family after the second and penultimate families, capped
