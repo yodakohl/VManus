@@ -5508,6 +5508,11 @@ nonconfirmation are invariant. Production will not be rerun. The original
 freeze and validator remain immutable; one separately committed and frozen
 validator-only arithmetic-order correction is pending.
 
+That correction is now separately frozen at commit `fdc7531`, binding the
+immutable original validator, target, report, and corrected wrapper while both
+validation outputs remain absent. It changes only the reduction order for the
+two aggregate effects and explicitly forbids a production rerun.
+
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
 crop, threshold, spelling resemblance, subset, historical analogy, or GPU
