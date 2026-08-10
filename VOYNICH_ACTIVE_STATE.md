@@ -5562,6 +5562,14 @@ confirmed A-family register effect. Retain A only as a broad structural family
 state and do not reduce it to the literal A1/o-like member, a normalized
 spelling, word, POS, function, or meaning.
 
+LRG007 is the next distinct structural transfer route. It does not rescore
+labels or repeat the broad edge-profile test. It asks whether the two fixed
+LRG004 families themselves transfer into the independently defined LRG002
+prose positions after exact page and group-length matching: A at FIRST/LAST
+relative to CORE, and D in the opposite direction. The association-unopened
+capacity definition is registered before feature-by-position access. Only
+aggregate A/D margins and hashes may be disclosed before synthetic calibration.
+
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
 crop, threshold, spelling resemblance, subset, historical analogy, or GPU
