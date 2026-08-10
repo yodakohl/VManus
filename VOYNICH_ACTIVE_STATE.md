@@ -1358,6 +1358,11 @@ marginal-preserving merger null differs from the stopped CCT001 freeze. One
 public hash-frozen aggregate run and one production-free reconstruction are
 required.
 
+Public freeze `203a5712...` now binds ten exact CCT002 method, calibration,
+source, runner, and clean-validator files at code commit `da1f68d`; all four
+target/validation artifacts were absent. The single aggregate target and one
+reconstruction are authorized.
+
 A genuinely different source-native morphology route has now been tested. It
 asks whether the first STA family of a synchronized prose group helps
 predict its last family after the second and penultimate families, capped
