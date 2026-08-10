@@ -5224,12 +5224,30 @@ rosters, phases, directions, depths, or thresholds. The 28-count remains
 compatible with lunar mansions and other 28-part systems, but supplies no
 mansion mapping, number, name, word, sound, meaning, plaintext, or translation.
 
-A new semantic route needs genuinely independent authorial evidence or a new
-invariant capable of falsifying competing meanings. A new model, crop,
-threshold, spelling resemblance, subset, historical analogy, or GPU search is
-not new evidence. It must also pass an input-provenance check showing no OCR or
-automated-vision dependency. Record every material pass or failure in the
-active ledger.
+LRG001 now opens one narrow, representation-new bridge from structure toward
+sentence roles. The complete three-reading source-native STA scaffold contains
+**358** manual `L` groups and **2,664** confirmed-prose controls in **109**
+mixed exact `(page, symbol_count)` cells on **26 pages, 16 physical folios, and
+four sections**. Biological and pharmaceutical labels independently span
+eight and five physical folios; the one-folio Herbal and two-folio `T` strata
+are sensitivities only. A clean implementation independently reconstructed the
+capacity in 26,311 checks. No family surface or member code has yet been opened
+for this route. This is distinct from the unavailable partial-root label
+coordinate, the sparse legacy object-tag tests, EAS004's 118 explicit-array
+slots, and diagnostic prose-edge transfer. The next authorized action is only
+target-blind calibration of a held-physical-folio, exact-page/exact-length
+label-versus-prose construction test. A future pass can name only a
+**label-associated structural profile**; it cannot assume label = identifier,
+name, noun, object owner, word, or meaning. Projection into the corrected
+drawing-reset prose edition is forbidden until such a profile independently
+passes.
+
+A new semantic route otherwise needs genuinely independent authorial evidence
+or a new invariant capable of falsifying competing meanings. A new model,
+crop, threshold, spelling resemblance, subset, historical analogy, or GPU
+search is not new evidence. It must also pass an input-provenance check showing
+no OCR or automated-vision dependency. Record every material pass or failure
+in the active ledger.
 
 ## Runtime and sources
 
