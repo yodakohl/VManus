@@ -1,0 +1,64 @@
+{
+  "claim_ceiling": "The presently documented f68r2 Sun-ring ending is not an admissible readable plaintext anchor: public human sources leave script identity unresolved, ZL3b and RF1b preserve four illegible marks, and IT2a reads an ordinary koiin ending. No SUN word, language, sound, cipher, plaintext, or translation follows.",
+  "decision": "STOP_NO_READABLE_CLEARTEXT_ANCHOR",
+  "experiment": "F68CL001_PUBLIC_SUN_RING_CLEARTEXT_AUDIT",
+  "gates": {
+    "all_readings_supply_compatible_readable_plaintext": false,
+    "machine_language_guess_used_as_evidence": false,
+    "ocr_or_automated_vision_used": false,
+    "public_source_calls_cleartext_only_possible": true,
+    "public_source_identifies_exact_sun_ring": true,
+    "public_source_says_script_identity_unresolved": true
+  },
+  "manual_readings": {
+    "IT2a": {
+      "ending": "koiin",
+      "raw_locus_text": "okeo.okoaiin.okol.oky.oeeeo.r.ekey.okchol.cheo.o.koiin",
+      "source_sha256": "7f27a8b0feed8f6de0a99900df6bf912dd1d295c38e5f830bac8b41c3f536fb5",
+      "special_illegible_entity_count": 0
+    },
+    "RF1b": {
+      "ending": "FOUR_ILLEGIBLE_MARKS",
+      "raw_locus_text": "okey.okoaiin.okol.oky.oeeeo.r.okey.okeeol.cheo.@221;.@231;@232;@233;@234;",
+      "source_sha256": "e7d3238e35743e06c63367a933909ec37b1e2de7ada3a1b449447eafa1918782",
+      "special_illegible_entity_count": 4
+    },
+    "ZL3b": {
+      "ending": "FOUR_ILLEGIBLE_MARKS",
+      "raw_locus_text": "<!09:30>okey.okoaiin.okol.o,ky.oeeeo.r.okey.okeeol.cheo.o.@231;@232;@233;@234;",
+      "source_sha256": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc",
+      "special_illegible_entity_count": 4
+    }
+  },
+  "physical_locus": "f68r2.31",
+  "public_sources": {
+    "public_q09_catalogue": {
+      "required_claims_found": true,
+      "sha256": "56b592284239fbd4d2ffabac2c534207c2e8a6da00ce4570d526544b9793f977",
+      "url": "https://www.voynich.nu/q09/index.html"
+    },
+    "public_transcription_special_topics": {
+      "required_claims_found": true,
+      "sha256": "f10df8428ba43b8c689f87ed759d188c01ae237900c7ac1701e505b46e8ea719",
+      "url": "https://www.voynich.nu/extra/sp_transcr.html"
+    }
+  },
+  "sta_readings": {
+    "IT2a": {
+      "ends_in_four_Y_family_codes": false,
+      "raw_locus_text": "A1Q1J1A1.A1Q1A1A3G1.A1Q1A1B2.A1Q1A2.A1M1A1.C1.J1Q1J1A2.A1Q1K1A1B2.K1J1A1.A1.Q1A1G1",
+      "source_sha256": "215f2d05690828c00bd4ae00d6201df31050adcd81601343b142ae91b9dfeee4"
+    },
+    "RF1b": {
+      "ends_in_four_Y_family_codes": true,
+      "raw_locus_text": "A1Q1J1A2.A1Q1A1A3G1.A1Q1A1B2.A1Q1A2.A1M1A1.C1.A1Q1J1A2.A1Q1K2A1B2.K1J1A1.Aa.YsYpYnYd",
+      "source_sha256": "81c331b7d8e76761e27d350c3b37ccfbe192848e6c8a227bcb5d40fb29259b17"
+    },
+    "ZL3b": {
+      "ends_in_four_Y_family_codes": true,
+      "raw_locus_text": "A1Q1J1A2.A1Q1A1A3G1.A1Q1A1B2.A1,Q1A2.A1M1A1.C1.A1Q1J1A2.A1Q1K2A1B2.K1J1A1.A1.YsYpYnYd",
+      "source_sha256": "8438ba1c45f47fe1d06b5262cbcdf60ce69158a0edbd4dd802612896f3217e2a"
+    }
+  },
+  "status": "STOP_NO_READABLE_CLEARTEXT_ANCHOR"
+}

@@ -4719,6 +4719,18 @@ universal centre-to-edge compactness rule follows. Do not align the two sixes
 or infer PLANET, APSIS, SPHERE, WIND, NUMBER, abbreviation, word meaning,
 plaintext, or translation.
 
+A separate public-source check closes one tempting exception using only
+public evidence. The current human Quire 9 catalogue says that the text around
+the f68r2 Sun face only *appears* to include non-Voynich cleartext and is almost
+impossible to read; the public transcription guidance explicitly says that it
+cannot decide which final marks belong to the unknown script and which, if any,
+are cleartext. ZL3b and RF1b preserve four illegible symbols there, while IT2a
+reads an ordinary final `koiin` group. Proposed readings such as `Suna` are
+therefore not admissible external anchors. Reopen only with a qualified human
+palaeographic reading of the complete sequence plus independent manuscript
+support; no SUN word, sound, language, cipher, plaintext, or translation is
+established.
+
 A second public human inventory has now been checked without OCR or image
 recognition. Robert Teague's 2007 native-digital `Zodiac Section Nymph
 Overview` tabulates 11 attributes across the twelve zodiac panels on f70--f73.
