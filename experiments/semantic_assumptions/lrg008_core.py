@@ -189,7 +189,10 @@ def evaluate(scores: np.ndarray, labels: np.ndarray, geometry: Geometry, coeffic
         physical: float(np.mean([value for key, value in folio_effects.items() if key != physical]))
         for physical in folio_effects
     }
-    concentration = max(abs(value) for value in folio_effects.values()) / sum(abs(value) for value in folio_effects.values())
+    absolute_folio_total = sum(abs(value) for value in folio_effects.values())
+    if not np.isfinite(absolute_folio_total) or absolute_folio_total <= 0:
+        raise RuntimeError("degenerate folio concentration")
+    concentration = max(abs(value) for value in folio_effects.values()) / absolute_folio_total
     gates = {
         "effect_at_least_015": effect >= 0.15,
         "p_at_most_001": p <= 0.01,
