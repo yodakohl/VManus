@@ -1085,6 +1085,13 @@ class CalibratedModels:
 
 def calibrate_and_refit(feature_data: FeatureData) -> CalibratedModels:
     """Select q/lambda on CAL, enforce CAL stop, and refit TRAIN+CAL once."""
+    train_events = [feature_data.events[int(i)]
+                    for i in feature_data.event_indices_by_split["TRAIN"]]
+    for length, class_count in sorted(CLASS_LAYOUT.items()):
+        labels = {event.target_class for event in train_events
+                  if event.target_length == length}
+        if labels != set(range(class_count)):
+            raise RuntimeError("CAL_STOP_MISSING_CLASS")
     cal_indices = feature_data.event_indices_by_split["CAL"]
     cal_events = [feature_data.events[int(i)] for i in cal_indices]
     candidates: list[CalibrationCandidate] = []

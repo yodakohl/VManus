@@ -423,6 +423,13 @@ def _candidate_grid_payload(candidates: Sequence[object]) -> list[dict[str, obje
 
 def _calibrate_with_trace(core, feature_data):
     """Core-equivalent CAL selection that retains the eight-row trace digest."""
+    train_events = [feature_data.events[int(index)]
+                    for index in feature_data.event_indices_by_split["TRAIN"]]
+    for length, class_count in sorted(core.CLASS_LAYOUT.items()):
+        labels = {event.target_class for event in train_events
+                  if event.target_length == length}
+        if labels != set(range(class_count)):
+            return None, "CAL_STOP_MISSING_CLASS", tuple(), None
     cal_indices = feature_data.event_indices_by_split["CAL"]
     cal_events = [feature_data.events[int(index)] for index in cal_indices]
     candidates = []
@@ -498,7 +505,7 @@ def _calibrate_with_trace(core, feature_data):
 
 
 def _public_world_stop(world_spec, reason: str, synthetic_digests: Mapping[str, str],
-                       candidate_grid_sha256: str) -> dict[str, object]:
+                       candidate_grid_sha256: str | None) -> dict[str, object]:
     return {
         "ordinal": int(world_spec.ordinal), "family": world_spec.family,
         "world": int(world_spec.index), "calibration_status": reason,
@@ -512,6 +519,12 @@ def _public_world_stop(world_spec, reason: str, synthetic_digests: Mapping[str, 
 
 
 def _evaluate_core_world(core, geometry, world, assignments):
+    for length, class_count in sorted(core.CLASS_LAYOUT.items()):
+        indices = [int(index) for index in geometry.target_rows["TRAIN"]
+                   if geometry.rows[int(index)].symbol_count == length]
+        labels = {int(world.target_class[index]) for index in indices}
+        if labels != set(range(class_count)):
+            return None, "CAL_STOP_MISSING_CLASS", None
     features = core.build_feature_data(geometry, world)
     models, stop, candidates, grid_digest = _calibrate_with_trace(core, features)
     if models is None:
@@ -532,7 +545,7 @@ def _evaluate_core_world(core, geometry, world, assignments):
 
 def _public_world(world_spec, internal, stop: str | None,
                   synthetic_digests: Mapping[str, str],
-                  candidate_grid_sha256: str) -> dict[str, object]:
+                  candidate_grid_sha256: str | None) -> dict[str, object]:
     if internal is None:
         return _public_world_stop(world_spec, str(stop), synthetic_digests,
                                   candidate_grid_sha256)

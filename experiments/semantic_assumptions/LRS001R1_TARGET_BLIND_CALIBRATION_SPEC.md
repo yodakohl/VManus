@@ -227,8 +227,11 @@ is
 Apply stable softmax within the target-length head, clamp probabilities below
 `1e-6`, and renormalize.  The proper score is natural log probability of the
 true synthetic class.  A true-class pre-clamp probability below `1e-6` is
-floor-dominated.  Missing classes, nonfinite values, negative variances, or a
-head with fewer than two candidates hard-stop.
+floor-dominated.  Before any candidate fit, a missing TRAIN class or a head
+with fewer than two classes stops that synthetic world as
+`CAL_STOP_MISSING_CLASS`, with a null candidate-grid digest; it does not abort
+the other registered worlds.  Nonfinite values or negative variances outside
+the registered CAL-stop paths hard-stop the invocation.
 
 ## CAL selection and refit
 

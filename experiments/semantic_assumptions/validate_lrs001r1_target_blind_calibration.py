@@ -1197,7 +1197,14 @@ def _candidate_payload(candidates: Sequence[VCandidate]) -> list[dict[str, objec
 
 
 def _calibrate(features: VFeatures
-               ) -> tuple[VModels | None, str | None, tuple[VCandidate, ...], str]:
+               ) -> tuple[VModels | None, str | None, tuple[VCandidate, ...], str | None]:
+    train_events = [features.events[int(index)]
+                    for index in features.split_events["TRAIN"]]
+    for length, class_count in sorted(CLASS_LAYOUT.items()):
+        labels = {event.target_class for event in train_events
+                  if event.target_length == length}
+        if labels != set(range(class_count)):
+            return None, "CAL_STOP_MISSING_CLASS", tuple(), None
     cal_events = [features.events[int(index)] for index in features.split_events["CAL"]]
     train_models, candidates = {}, []
     for ridge in RIDGES:
@@ -1509,6 +1516,21 @@ def _public_world(geometry: VGeometry, spec: VWorldSpec, world: VWorld,
                   assignments: VAssignments
                   ) -> tuple[dict[str, object], Mapping[str, object] | None]:
     digests = _world_digests(world)
+    for length, class_count in sorted(CLASS_LAYOUT.items()):
+        indices = [int(index) for index in geometry.targets["TRAIN"]
+                   if geometry.rows[int(index)].symbol_count == length]
+        labels = {int(world.classes[index]) for index in indices}
+        if labels != set(range(class_count)):
+            return ({
+                "ordinal": spec.ordinal, "family": spec.family, "world": spec.index,
+                "calibration_status": "CAL_STOP_MISSING_CLASS",
+                "selected": None, "channels": None,
+                "gate_pass_count": 0, "gate_count": 0, "gates": {},
+                "passes": False,
+                "digests": {**digests, "candidate_grid_sha256": None,
+                            "order_bag_effects_sha256": None,
+                            "order_nuisance_effects_sha256": None},
+            }, None)
     features = _build_features(geometry, world)
     models, stop, candidates, candidate_digest = _calibrate(features)
     if models is None:
