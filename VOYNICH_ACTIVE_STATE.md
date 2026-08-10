@@ -1320,6 +1320,17 @@ clean-validator files at code commit `76b2975`; all four target and validation
 artifacts were absent. Exactly one target invocation and one reconstruction are
 authorized.
 
+That invocation stopped before any association score and the production-free
+reconstruction passes. The 2,223 groups contain 35 exact surrounding templates
+with both `o` and `e` realizations, covering 586 events (26.36%) on all eight
+leaves and all three readings. But only two pairs fall in a shared exact
+length/prefix/site-index/**pair-frequency-bin** shell, below the frozen 16-pair
+matched-merger capacity gate. This is neither confirmation nor
+nonconfirmation of canonical transfer. Do not weaken that freeze or interpret
+the 35 pairs semantically. A possible successor must be a separately
+calibrated null that preserves the complete member-frequency marginals without
+pair-frequency binning; it cannot reuse this stopped target as evidence.
+
 A genuinely different source-native morphology route has now been tested. It
 asks whether the first STA family of a synchronized prose group helps
 predict its last family after the second and penultimate families, capped
