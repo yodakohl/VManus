@@ -1226,6 +1226,17 @@ register summary, all 64 null worlds, all gates, and the exact report with zero
 numeric difference in 188 checks. This licenses a separately frozen drawing
 target test; it is not itself a drawing-continuity result.
 
+The drawing-target decision machinery also passes a target-identity-blind
+synthetic preflight on the masked 4,571-boundary topology. Independent code
+reconstructed all 128 records and 8,192 assignments in 4,530 checks. None of
+64 nulls or any one-folio, one-section, page-only, position-only, length-only,
+or reversed-signal controls passed, while all 16 distributed effects at .50
+and .75 passed. An initial disclosed smoke had allowed 1/8 one-section controls
+through a sign-only non-Herbal gate; before target access that gate and the
+parallel Currier gate were fixed at a .10 material effect, eliminating the
+failure. The target is now sealed for one execution and one independent
+reconstruction. No drawing family score has yet been computed.
+
 A strict duplicate audit rejected two tempting next steps before scoring:
 semantic illustration matching would repeat the closed object-tag/berry/flower
 routes, and source-native local transition scoring would substantially repeat
