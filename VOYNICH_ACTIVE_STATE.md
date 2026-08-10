@@ -5779,6 +5779,19 @@ four target and validation paths absent. Exactly one aggregate target run and
 one production-free reconstruction are authorized; post-target tuning and
 row/form output remain forbidden.
 
+The one-shot target and production-free reconstruction are now complete and
+give a final nonconfirmation. The opposite-parity LRG001 profile has pooled
+`L`-minus-`C/R` effect `+.106030`, exact-randomization `p=.119492`, and
+`z=1.2112`. The `C` and `R` block effects are `+.122783` and `+.089277`;
+section C reverses to `-.031476`; even versus odd target folios are `+.281081`
+versus `+.018505`; only four of six folios are positive; concentration is
+`.4200`; and every one of the ten frozen scientific gates fails. Independent
+code reconstructs both training profiles, the 286-row target, null, all gates,
+and report in 56,736 checks. Thus LRG001 remains a confirmed **label-versus-
+prose** construction profile, but it is not confirmed to distinguish labels
+from other diagram writing. Do not call it an identifier/name/noun profile or
+mine role, section, parity, folio, feature, or form subsets.
+
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
 crop, threshold, spelling resemblance, subset, historical analogy, or GPU
