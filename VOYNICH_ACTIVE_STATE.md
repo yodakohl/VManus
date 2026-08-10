@@ -1155,6 +1155,20 @@ structural record inspection. It contains zero English glosses and does not
 assign words, POS, semantic roles, sounds, morphemes, meanings, plaintext,
 language, cipher, or translation.
 
+A new exact-whole-form continuation route has passed only its score-blind
+capacity gate. All nine forms independently labelled `FIRST_ASSOCIATED` retain
+at least 20 events and ten physical folios separately at factual line start and
+at internal core positions, even after requiring the immediate successor to be
+factual `CORE` in both states. The masked panel has 1,295 events on 92 folios;
+every form also has at least seven folios containing both states. This is not a
+rerun of the failed `NONE` versus `DA` operation test: the whole trigger form is
+held fixed and the prospective question is whether its continuation signature
+transfers between positions. No successor identity or feature has yet been
+opened. The next action is a separately frozen synthetic power and
+exchangeability calibration; capacity alone establishes no embedded onset,
+subrecord, clause, word, part of speech, function, sound, meaning, plaintext,
+language, cipher, or translation.
+
 A strict duplicate audit rejected two tempting next steps before scoring:
 semantic illustration matching would repeat the closed object-tag/berry/flower
 routes, and source-native local transition scoring would substantially repeat
