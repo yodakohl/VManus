@@ -4831,6 +4831,17 @@ agrees with three of their root-colour states but calls the root in
 remains UNKNOWN. Thus this does not reopen proximity ownership: no transferable
 clear-pairing DARK/LIGHT panel, colour stem, word, or meaning is established.
 
+The same-register ROOT-only versus PLANT-fragment contrast is also closed at
+capacity, without opening a Voynich label string. The public catalogue has 154
+unhedged records and the validated crosswalk retains 118 primary mappings (90
+plant, 28 root), but root labels occur only on f89 and f99. Only f89r1 and f99v
+mix the classes, and each is driven by one minority label. The independent
+folio sign orbit therefore has four states and minimum one-sided p=.25; holding
+out f99 leaves only one root training example. A clean reconstruction confirms
+all counts and gates. This does not show the two registers are identical; it
+shows that a general contrast cannot be separated from f89/f99 production with
+the current public annotations.
+
 A distinct radial-text invariant is now preregistered from public/manual
 metadata. IVTFF explicitly marks text running outside-to-inside as `Ri` and
 inside-to-outside as `Ro`; this is public source information, not a user-
