@@ -1351,6 +1351,13 @@ and 30,618 checks without a manuscript association score. This authorizes only
 a separately registered and hash-frozen CCT002 target; it supplies no
 canonical-form or semantic result.
 
+The CCT002 target is registered but unopened under its new null. It keeps the
+same 2,223 groups, single-site `X` representation, state orbit, estimand,
+thresholds, and robustness gates; only the already calibrated
+marginal-preserving merger null differs from the stopped CCT001 freeze. One
+public hash-frozen aggregate run and one production-free reconstruction are
+required.
+
 A genuinely different source-native morphology route has now been tested. It
 asks whether the first STA family of a synchronized prose group helps
 predict its last family after the second and penultimate families, capped
