@@ -32,6 +32,61 @@ READINGS = ("ZL3b", "IT2a", "RF1b")
 ASSIGNMENTS = 65_536
 TOL = 1e-15
 TARGET_FOLIOS = {f"f{number}" for number in range(67, 74)}
+FROZEN_FILES = (
+    "CIRCLE_MARKER_RESET_METHOD.md",
+    "SOURCE_SEPARATOR_TRANSCRIPTION_SPEC.md",
+    "SOURCE_STA_ALIGNMENT_SPEC.md",
+    "audit_public_circle_seam_coordinates.py",
+    "validate_public_circle_seam_coordinates.py",
+    "audit_circle_marker_reset_capacity.py",
+    "validate_circle_marker_reset_capacity.py",
+    "build_source_separator_transcription.py",
+    "validate_source_separator_transcription.py",
+    "build_source_sta_alignment.py",
+    "validate_source_sta_alignment.py",
+    "cmr001_core.py",
+    "run_cmr001_preflight.py",
+    "validate_cmr001_preflight.py",
+    "run_cmr001_target.py",
+    "validate_cmr001_target.py",
+    "results/public_voynich_nu_page_annotations_v2.tsv",
+    "results/public_circle_seam_coordinate_audit.tsv",
+    "results/public_circle_seam_coordinate_audit.json",
+    "results/public_circle_seam_coordinate_audit.md",
+    "results/public_circle_seam_coordinate_audit_validation.json",
+    "results/public_circle_seam_coordinate_audit_validation.md",
+    "results/source_separator_transcription.tsv",
+    "results/source_separator_transcription.json",
+    "results/source_separator_transcription_report.md",
+    "results/source_separator_transcription_validation.json",
+    "results/source_separator_transcription_validation_report.md",
+    "results/source_sta_group_alignment.tsv",
+    "results/source_sta_group_alignment.json",
+    "results/source_sta_group_alignment_report.md",
+    "results/source_sta_group_alignment_validation.json",
+    "results/source_sta_group_alignment_validation_report.md",
+    "results/circle_marker_reset_capacity.json",
+    "results/circle_marker_reset_capacity.md",
+    "results/circle_marker_reset_capacity_validation.json",
+    "results/circle_marker_reset_capacity_validation.md",
+    "results/cmr001_preflight_attempt1.json",
+    "results/cmr001_preflight_attempt1.md",
+    "results/cmr001_preflight.json",
+    "results/cmr001_preflight.md",
+    "results/cmr001_preflight_validation.json",
+    "results/cmr001_preflight_validation.md",
+    "results/pre_grounding_interlinear.tsv",
+    "../../transcription/sources/ZL3b-n.txt",
+    "../../transcription/sources/IT2a-n.txt",
+    "../../transcription/sources/RF1b-e.txt",
+    "../../transcription/sources/Stolfi_text25e1-52.evt",
+    "../../transcription/sources/sta/ZL3b.txt",
+    "../../transcription/sources/sta/IT2a.txt",
+    "../../transcription/sources/sta/RF1b.txt",
+    "../../transcription/sources/sta/STA-Eva_def.bit",
+    "../../transcription/sources/sta/STA-EvaT_def.bit",
+    "../../transcription/sources/sta/STA-Eva_Bint.bit",
+)
 
 
 def sha(path: Path) -> str:
@@ -261,6 +316,7 @@ def main() -> None:
         "results/cmr001_target_validation.json", "results/cmr001_target_validation.md",
     }
     check(set(freeze["required_absent_outputs"]) == exact_absent, "freeze output set")
+    check(set(freeze["frozen_files"]) == set(FROZEN_FILES), "freeze file allowlist")
     for relative, expected_hash in freeze["frozen_files"].items():
         check(sha(BASE / relative) == expected_hash, f"frozen hash {relative}")
     stored = json.loads(TARGET.read_text(encoding="utf-8"))
