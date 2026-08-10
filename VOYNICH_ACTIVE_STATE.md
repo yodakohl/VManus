@@ -1288,6 +1288,13 @@ include `AQAC`, `AQKAC`, and `LAC`; new LAST-associated families include
 57,124 checks. These are corrected positional form classes, not START/END words,
 POS, or meanings.
 
+The corrected human-readable structural edition v2 now renders all 23,281
+groups in all 4,012 drawing segments on 225 pages, visibly marks all 440
+drawing interruptions, preserves original physical-locus positions, and applies
+the corrected segment-form tendencies. Independent code reconstructs the exact
+2.18 MB text in 27,296 checks. This is the current reading/concordance surface
+for future work; it contains exactly zero English glosses.
+
 A strict duplicate audit rejected two tempting next steps before scoring:
 semantic illustration matching would repeat the closed object-tag/berry/flower
 routes, and source-native local transition scoring would substantially repeat
