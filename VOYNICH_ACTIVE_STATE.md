@@ -4481,7 +4481,7 @@ before registration; visual circularity and the editorial `C` code are not
 interchangeable.
 
 That inventory is now complete for the public f67--f73 block.  It covers all
-26 page panels, including every f71 panel, seven physical folios, three
+26 page panels, including every f71 panel, seven extant physical folios, three
 alternate readings, and all four IVTFF roles in 312 page-reading-role rows.
 The public classes comprise seven astronomical, seven cosmological, and twelve
 zodiac panels, and every page has the same role-presence signature in all three
@@ -4494,6 +4494,19 @@ short circular text.  Across the block, all-reading role presence is `C` 23,
 in the full manuscript with the all-reading `LC` presence signature.  This is
 a complete provenance/capacity atlas, not evidence that the roles share a
 meaning or that either role names an illustrated object.
+
+The public quire descriptions impose a stricter independence ceiling on that
+atlas. The seven extant folios occupy only four bifolio production units:
+f67+f68, f69+f70, f71+f72, and f73 plus missing f74. Their page-class counts
+are Q9 7 astronomical/3 cosmological, Q10 4 cosmological/2 zodiac, Q11 8
+zodiac, and Q12 2 surviving zodiac panels. Astronomical therefore occurs on
+only one bifolio and cannot be trained outside a held astronomical sheet. Q10
+is the sole mixed sheet whose cosmological and zodiac classes both have
+outside training support, but its 4-versus-2 label orbit has only 15
+count-preserving assignments, for a minimum one-sided p=1/15=.066667. A
+role-complete class predictor is therefore stopped before opening any Voynich
+features. Do not describe seven folios as seven independent semantic-class
+replications.
 
 The atlas enabled one genuinely distinct duplicate-sign test using all twelve
 zodiac panels.  It kept circular `C` and label `L` profiles separate and
@@ -4691,8 +4704,9 @@ ordered label system and supplies no ownership, serial code, number, degree,
 sign name, word, meaning, plaintext, or translation.
 
 The public f67--f73 grouping is independently catalogued manuscript data, not
-a user-supplied page selection; it contains 26 panels on seven physical
-folios and includes f71. A source-only follow-up asked whether existing public
+a user-supplied page selection; it contains 26 panels on seven extant physical
+folios, four bifolio units, and includes f71. A source-only follow-up asked
+whether existing public
 figure annotations can fairly test the earlier WOMAN/FEMALE-stem idea. They
 cannot. The public label catalogue has 300 zodiac slot records, but only 25
 mention male (21 hedged), one mentions female, and 274 mention neither; those

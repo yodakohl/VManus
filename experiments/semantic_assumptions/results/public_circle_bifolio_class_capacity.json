@@ -1,0 +1,119 @@
+{
+  "atlas_input": {
+    "path": "experiments/semantic_assumptions/results/public_circle_block_role_atlas.tsv",
+    "sha256": "12970003cd885dde2d9a70bdaba63f5e8f858cb06b08bef6d7bf4a8036ebb147"
+  },
+  "bifolio_class_counts": {
+    "Q09_f67_f68": {
+      "ASTRONOMICAL": 7,
+      "COSMOLOGICAL": 3
+    },
+    "Q10_f69_f70": {
+      "COSMOLOGICAL": 4,
+      "ZODIAC": 2
+    },
+    "Q11_f71_f72": {
+      "ZODIAC": 8
+    },
+    "Q12_f73_f74_missing": {
+      "ZODIAC": 2
+    }
+  },
+  "claim_ceiling": "The 26 public f67--f73 panels provide four bifolio production units, not seven independent class replications. Astronomical occurs on one bifolio and the sole trainable mixed cosmological-versus-zodiac sheet has a 15-assignment orbit with minimum p 1/15. No Voynich feature, class-specific group, word, meaning, plaintext, or translation follows.",
+  "class_bifolio_support": {
+    "ASTRONOMICAL": [
+      "Q09_f67_f68"
+    ],
+    "COSMOLOGICAL": [
+      "Q09_f67_f68",
+      "Q10_f69_f70"
+    ],
+    "ZODIAC": [
+      "Q10_f69_f70",
+      "Q11_f71_f72",
+      "Q12_f73_f74_missing"
+    ]
+  },
+  "decision": "STOP_UNSCORED_INSUFFICIENT_INDEPENDENT_BIFOLIO_CLASS_SUPPORT",
+  "experiment": "CBD001_PUBLIC_CIRCLE_BIFOLIO_CLASS_CAPACITY",
+  "gates": {
+    "all_26_public_panels_accounted_for": true,
+    "all_four_bifolio_sources_publicly_bound": true,
+    "class_score_computed": false,
+    "every_class_has_two_bifolio_support": false,
+    "held_mixed_sheet_can_attain_p_at_most_0_05": false,
+    "ocr_or_automated_vision_used": false,
+    "voynich_text_features_accessed": false
+  },
+  "held_sheet_capacity": {
+    "Q10_count_preserving_assignments": 15,
+    "Q10_minimum_attainable_one_sided_p": 0.06666666666666667,
+    "astronomical_trainable_outside_Q09": false,
+    "only_trainable_mixed_held_sheet": "Q10_f69_f70",
+    "p_at_most_0_05_attainable": false
+  },
+  "pages_by_bifolio": {
+    "Q09_f67_f68": [
+      "f67r1",
+      "f67r2",
+      "f67v1",
+      "f67v2",
+      "f68r1",
+      "f68r2",
+      "f68r3",
+      "f68v1",
+      "f68v2",
+      "f68v3"
+    ],
+    "Q10_f69_f70": [
+      "f69r",
+      "f69v",
+      "f70r1",
+      "f70r2",
+      "f70v1",
+      "f70v2"
+    ],
+    "Q11_f71_f72": [
+      "f71r",
+      "f71v",
+      "f72r1",
+      "f72r2",
+      "f72r3",
+      "f72v1",
+      "f72v2",
+      "f72v3"
+    ],
+    "Q12_f73_f74_missing": [
+      "f73r",
+      "f73v"
+    ]
+  },
+  "public_sources": {
+    "Q09": {
+      "required_bifolio_phrase_found": true,
+      "sha256": "56b592284239fbd4d2ffabac2c534207c2e8a6da00ce4570d526544b9793f977",
+      "url": "https://www.voynich.nu/q09/index.html"
+    },
+    "Q10": {
+      "required_bifolio_phrase_found": true,
+      "sha256": "2f15159cd9ea04213f2031fbbebe33e3b057795656e349bf765e4f0344ff2ec5",
+      "url": "https://www.voynich.nu/q10/index.html"
+    },
+    "Q11": {
+      "required_bifolio_phrase_found": true,
+      "sha256": "5553f82d3c7d016c3a9f7853388e844764239f929cdd24f2870a1d56b172ad64",
+      "url": "https://www.voynich.nu/q11/index.html"
+    },
+    "Q12": {
+      "required_bifolio_phrase_found": true,
+      "sha256": "3a9b4e587c9b9d0228bf87eea1b3a0e34f3fcfe4abafd71e712213e0af9132b6",
+      "url": "https://www.voynich.nu/q12/index.html"
+    }
+  },
+  "scope": {
+    "bifolio_units": 4,
+    "extant_folios": 7,
+    "panels": 26
+  },
+  "status": "STOP_UNSCORED_INSUFFICIENT_INDEPENDENT_BIFOLIO_CLASS_SUPPORT"
+}
