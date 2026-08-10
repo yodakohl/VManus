@@ -1119,6 +1119,18 @@ whole-form structural inventory needed for future record rendering; it does
 not assign function/content parts of speech, sounds, morphemes, meanings,
 plaintext, language, cipher, or translation.
 
+A post-atlas cross-Currier diagnostic now sharpens that inventory without a
+new confirmatory p-value. Twenty-five exact family surfaces have at least ten
+endpoint occurrences and five physical folios separately in A and B, covering
+654 A and 942 B endpoint events. Their first-versus-last log odds correlate
+.5101 by Pearson and .3908 by midrank Spearman; 17 forms retain the same sign,
+seven reverse, and one is exactly neutral in one register. Every one-form
+deletion remains positive (.3413--.5625). Thus the already confirmed shared
+compositional substrate extends partly, but not completely, to whole-form
+position behavior. This is compatible with register-level surface
+reorganization and does not decide among style, topic, dialect, language,
+encoding regime, POS, sound, meaning, plaintext, cipher, or translation.
+
 A strict duplicate audit rejected two tempting next steps before scoring:
 semantic illustration matching would repeat the closed object-tag/berry/flower
 routes, and source-native local transition scoring would substantially repeat
