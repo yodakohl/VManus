@@ -23,6 +23,19 @@ Updated: 2026-08-10. Read this file first, then
   is not identified as a source. Medical-alchemical preparation, illustrated
   herbal/health, and practical-entry layers remain compatible modules. This is
   a document-practice prior, not a language, text, or lexical result.
+- Three current public claims have been source-audited and supply no admissible
+  translation anchor. The Honeycutt operator-system deposit lacks the public
+  form-to-class data and numeric reconstruction claimed on its website and
+  depends on excluded AI/visual inputs. Voynichdoc explicitly publishes
+  modernized narratives rather than source-faithful translations and defers
+  its keys, alignment, and method. The latest DANI/Syriac deposit does publish
+  a coverage script and lexicon, but omits its exact corpus and the code/scores
+  for its permutation, language-comparison, and plant claims; its metadata and
+  PDF disagree on the null result, its test is not held out, and it admits no
+  connected specialist-read Syriac prose. None of their words, dates,
+  languages, system roles, or plaintext enters the active model. These audits
+  hold the public evidence out; they do not prove the underlying unpublished
+  hypotheses false.
 - The best active description is a manuscript-wide hierarchical, page-
   conditioned, line-reset construction system. “Record-like” is an
   organizational analogy at manuscript scale. The former EAS001 graphical-slot
@@ -5888,6 +5901,20 @@ loosening its context bag or metadata strata after seeing zero capacity would
 be a new experiment, not a rescue. A nonimporting reconstruction reproduces
 the complete stop and remains byte-identical after independently replacing and
 then scrubbing all 8,173 masked target surfaces in each source table.
+
+Two immediate internal successors were rejected rather than scored. Shared-
+form orientation would redetect the existing exact-form edge atlas, line
+gradient, and directional adjacency; exact conditioning reduces to the stopped
+pairwise-preserving route. A target-centered same-offset kernel has 6,655
+nominal cross-folio pairs, but a pure first-order chain necessarily produces
+its proposed signal and the available donor null breaks target-neighbour
+dependence. It is therefore a nonlinear LRS001 rescue, not a new falsifier.
+The only concrete artifact-recovery lead was also exhausted: none of the five
+lost EAS001 hashes or filenames occurs in public search, repository branches,
+tags, releases, Actions artifacts, forks, the local home tree, or temporary
+storage. No currently identified text-only target statistic is authorized;
+the next substantive route needs new provenance-clean evidence or an exact
+null that preserves the confirmed local grammar.
 
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
