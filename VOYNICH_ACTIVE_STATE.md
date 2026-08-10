@@ -4435,6 +4435,23 @@ representations.  It may still be a freely positioned item; this test cannot
 promote or exclude that possibility.  Do not call it a diagram parameter,
 TAURUS, sign name, word, or translation.
 
+A genuinely non-adjacent successor has also now closed the aggregate zodiac-
+opposition route.  The four fully visible public opposition pairs--Pisces--
+Virgo, Aries--Libra, Taurus--Scorpius, and Gemini--Sagittarius--were frozen as
+one perfect matching of eight signs before scoring complete `C`-role circular
+profiles.  Across eight source-native family/member views, the known matching
+ranks only 72 of all 105 exact matchings (weakest-reading p=.685714).  Every
+reading score is negative and only two of four pair contributions are positive
+in each alternate reading.  Removing every group whose family surface ends in
+`BABA` gives rank 73/105 (p=.695238), and none of the eight full/masked
+single-pair deletions passes the frozen robustness gates.  The diagnostic `L`
+profile is still weaker.  A nonimporting reconstruction verifies all source
+bindings, profiles, exact orbits, deletions, gates, JSON, and report in 231,721
+checks.  Thus neither the whole circular vocabulary nor the `BABA`-motivated
+subset tracks the standard opposition relation at this resolution.  Do not
+mine individual readings, views, pairs, or spellings from this failed fixed
+test, and do not infer a sign name, word, meaning, plaintext, or translation.
+
 A new semantic route needs genuinely independent authorial evidence or a new
 invariant capable of falsifying competing meanings. A new model, crop,
 threshold, spelling resemblance, subset, historical analogy, or GPU search is
