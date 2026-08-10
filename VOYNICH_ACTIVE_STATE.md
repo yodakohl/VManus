@@ -5321,6 +5321,14 @@ null/gate/digest, and the report in 15,879 checks. The real position
 association remains unopened. Next action: commit this calibration, freeze one
 aggregate target, then execute and validate once without form-level mining.
 
+The LRG002 target is now registered but unscored. Production will reconstruct
+the confirmed LRG001 profiles, score all 5,824 B/P prose groups only with the
+opposite-parity profile, and evaluate the fixed 5,769-row position panel. Clean
+validation instead composes the two prior nonimporting calibration validators.
+Both outputs are aggregate-only: no row score, family weight, favorable form,
+member code, or EVA spelling may be emitted. Commit and hash freeze are
+mandatory before one target invocation.
+
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
 crop, threshold, spelling resemblance, subset, historical analogy, or GPU
