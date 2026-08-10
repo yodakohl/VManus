@@ -4690,6 +4690,22 @@ distances, views, readings, or families. It does not reject every possible
 ordered label system and supplies no ownership, serial code, number, degree,
 sign name, word, meaning, plaintext, or translation.
 
+The public f67--f73 grouping is independently catalogued manuscript data, not
+a user-supplied page selection; it contains 26 panels on seven physical
+folios and includes f71. A source-only follow-up asked whether existing public
+figure annotations can fairly test the earlier WOMAN/FEMALE-stem idea. They
+cannot. The public label catalogue has 300 zodiac slot records, but only 25
+mention male (21 hedged), one mentions female, and 274 mention neither; those
+omissions remain UNKNOWN. The strongest exhaustive observable is a human
+`yes/no/?` table for visible female breasts on f70v1, f70v2, and f72r3. It
+covers 74 slots (48 yes, 12 no, 14 unknown), but only two physical folios, and
+the source explicitly warns that a `no` can reflect clothing or poor drawing
+rather than male sex. All slots have three manual readings, while only 72/74
+have conservative current-locus mappings. A nonimporting live-source validator
+reconstructs the stop in 53 checks. No Voynich string was scored. Reopen only
+with an exhaustive explicit FEMALE/NON_FEMALE/UNKNOWN table on all four
+surviving zodiac folios or an independent multi-folio figure-label panel.
+
 A new semantic route needs genuinely independent authorial evidence or a new
 invariant capable of falsifying competing meanings. A new model, crop,
 threshold, spelling resemblance, subset, historical analogy, or GPU search is
