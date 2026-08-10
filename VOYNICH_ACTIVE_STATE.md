@@ -5246,6 +5246,17 @@ rosters, phases, directions, depths, or thresholds. The 28-count remains
 compatible with lunar mansions and other 28-part systems, but supplies no
 mansion mapping, number, name, word, sound, meaning, plaintext, or translation.
 
+One representation-new f69v test is now registered. The manual topology gives
+14 adjacent LONG/SHORT log pairs. F69LS001 freezes the complete source-native
+surface and STA-family feature inventory, all 16,384 within-pair flips, and
+both equally defensible forward/backward local pairings. This is not a rescue
+of the failed Agrippa roster and not a rerun of the earlier terminal-`y`-only
+parity check. Because the route was selected after the labels were visible and
+has one physical folio, even a complete pass can name only a provisional local
+graphical-state feature until an independently selected array replicates it;
+it cannot establish a mansion, day, number, length word, plaintext, or
+translation.
+
 LRG001 now opens one narrow, representation-new bridge from structure toward
 sentence roles. The complete three-reading source-native STA scaffold contains
 **358** manual `L` groups and **2,664** confirmed-prose controls in **109**
