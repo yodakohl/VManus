@@ -4722,11 +4722,21 @@ An independent implementation reconstructs the capacity and 48 synthetic
 worlds; distributed center plants pass 8/8 while exact-null, one-folio,
 text-start-only, text-end-only, and one-direction-only controls pass 0/8. No
 real endpoint family has been aggregated or scored. The exact 16-file method,
-source, controls, one-shot runner, and nonimporting validator are now frozen at
-code commit `14c6503`, with all four target/validation artifacts absent. One
-aggregate target run and one independent reconstruction are authorized. Even confirmation
-would establish only an anonymous physical-endpoint construction, not a word,
-direction term, meaning, plaintext, or translation.
+source, controls, one-shot runner, and nonimporting validator were frozen at
+code commit `14c6503`, with all four target/validation artifacts absent. The
+one aggregate target and independent reconstruction are now complete and give
+a final nonconfirmation. Structural STA family `A` has the largest raw center
+effect (`.126054`), but the exact max-family p is `.875`. More importantly, its
+effect reverses with writing orientation: `Ri=-.241667` versus `Ro=+.363889`,
+with support on only 1/4 `Ri` folios versus 4/4 `Ro` folios. One leave-folio-out
+effect is negative and concentration `.5542` exceeds the `.50` ceiling. A
+production-free implementation reconstructs all 60 endpoints, 21 effects, 32
+swaps, gates, and report in 145 checks. The reversal is descriptively
+compatible with a textual-start confound, exactly the confound the physical
+gate was designed to reject; it is not a newly confirmed meaning or role.
+Close this exact physical-endpoint representation without mining families,
+pages, or directions. It establishes no word, direction term, meaning,
+plaintext, or translation.
 
 A new semantic route needs genuinely independent authorial evidence or a new
 invariant capable of falsifying competing meanings. A new model, crop,
