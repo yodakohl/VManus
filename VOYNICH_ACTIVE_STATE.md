@@ -4718,6 +4718,19 @@ independent-folio semantic contrast, so no Voynich string was scored. Reopen
 only if explicit absent/zero states or slot-level positive and negative
 attributes spanning independent folios become available.
 
+The more detailed public 1998 Stolfi/Grove label catalogue also fails that
+reopening gate. Its text-free metadata projection contains 300 unique zodiac
+records. It explicitly marks 79 barrel-present figures on f70, f71, and f72,
+but all 27 explicit `no barrel` records are on f72. Horizontal barrels occur
+only on f70; facing-right and FEMALE have one explicit record each; clothing,
+crown, star-tail, and hat are positive-only annotations. No opposing state
+therefore spans two physical folios. A 1,074-check live-source reconstruction
+confirms the capacity stop before any Voynich string score. It also exposes a
+source disagreement at f72v2: Stolfi record 0684 says `no star`, while Teague's
+complete table and the current public page catalogue give no missing star on
+that page. Retain that slot as UNKNOWN rather than adjudicating it. This
+catalogue supplies no BARREL, direction, sex, clothing, crown, or star lexeme.
+
 A distinct radial-text invariant is now preregistered from public/manual
 metadata. IVTFF explicitly marks text running outside-to-inside as `Ri` and
 inside-to-outside as `Ro`; this is public source information, not a user-
