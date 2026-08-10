@@ -4567,6 +4567,17 @@ nonconfirmation: the fixed representation detects the common editorial
 chosen cut of circular loci, not a distinctive physical-marker reset.  Do not
 retune the model, marker subset, control subset, or contrast threshold.
 
+The next f67--f73 route is distinct and score-blind at registration.  Seventeen
+public panels contain both circular (`C`) and label (`L`) roles in every
+reading.  Excluding the sole same-folio singleton f69r leaves 16 pages across
+five folios, with an exact 138,240 synchronous within-folio C-bag reassignment
+orbit; the zodiac-only sensitivity retains 12 pages/four folios and 5,760
+mappings.  Independent raw source-group counting reconstructs this capacity in
+751 checks.  CRE001 is preregistered to test only internal STA-family trigram
+and four-gram coverage from C into L, with complete-group duplicates removed
+in a mandatory sensitivity.  No target n-gram identity or overlap has been
+opened; synthetic controls and independent reconstruction come first.
+
 A public exception audit exposed and corrected an important aggregate-count
 trap in the zodiac `L` inventory.  Across all twelve panels and all 36
 page-reading cells, manual IVTFF `L` counts equal the public label counts.  A
