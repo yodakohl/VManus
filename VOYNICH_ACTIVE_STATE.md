@@ -5399,6 +5399,10 @@ cross-folio gate. Zero registered families is a valid closure. No source row,
 form, member code, learned weight, or EVA spelling may be emitted. Commit and
 hash freeze are required before one target invocation and clean reconstruction.
 
+LRG004 is now frozen at SHA-256 prefix `694a8e83` against commit `31b48fc`,
+binding 11 exact files while all four target/validation outputs are absent.
+Exactly one all-24 aggregate target and one clean reconstruction are permitted.
+
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
 crop, threshold, spelling resemblance, subset, historical analogy, or GPU
