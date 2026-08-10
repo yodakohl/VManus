@@ -1243,6 +1243,25 @@ different distances, selected readings/templates, or weaker thresholds. The
 next route must leave this exact scope family. No sound, word, language, cipher
 operation, meaning, plaintext, or translation follows.
 
+A distinct `cho/che` co-switch route is now score-blind and capacity-valid.
+This does **not** rerun paragraph scope: it asks whether formal material outside
+every group containing the defining `ch/sh+o/e` site changes with the validated
+page-side state. All-reading agreement plus exact within-leaf section, Currier,
+hand, kind, and scope overlap leaves eight opposite-state physical leaves:
+f39, f55, f68, f73, f87, f89, f90, and f96. High state is recto on five and
+verso on three; every reading/leaf/side retains at least 39 strict off-site
+groups, and the synchronous leaf-flip orbit is 256 (one-sided floor .003906).
+The 5,012-row panel stores no family sequence or feature/state score. A first
+capacity attempt stopped only on an unjustified rounded 1,600-total-row gate
+(RF has 1,597); a target-free v2 correction preserves that stop, removes the
+noninferential total-row gate, and requires synthetic null/power calibration
+on the exact eight-leaf geometry. An independent 50-check reconstruction
+passes. No target association may be opened before that preflight. Only a
+powered null result outside the defining site can motivate canonicalization;
+multiple independently controlled held-leaf effects would instead support a
+broader formal register/system state. Neither branch supplies meaning,
+language, cipher, plaintext, or translation.
+
 A genuinely different source-native morphology route has now been tested. It
 asks whether the first STA family of a synchronized prose group helps
 predict its last family after the second and penultimate families, capped
