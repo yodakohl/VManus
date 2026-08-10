@@ -2415,6 +2415,18 @@ exactly. One hash-frozen run on f48v/f18v/f23r/f19r is now authorized with the
 public relation order fixed; thresholds may not change afterward. Even a pass
 can establish only manuscript-internal same-plant reference signal.
 
+The frozen SNPL002 target is now a qualified nonconfirmation. The public true
+diagonal ranks 5th of 24 (`p=.208333`) with margin `-.681900`, and all five
+predeclared gates fail in every reconstructed result. Two true pairs contain a
+four-member diagnostic recurrence: pharmaceutical `koldarod` shares `daro`
+with f18v `daror`, and `loralody` shares `lody` with f19r `qolody`. They are not
+selective anchors: `chokam` has an even stronger wrong-page `qokam` recurrence,
+`koldarod` also scores highly on the wrong f23r page, and the f48v and f23r true
+pairs have no four-member hit. Do not lower the motif length after inspection
+or translate `daro`, `lody`, `okam`, or `kold`. Close only this complete
+source-group four/five-member reuse mechanism; softer transformations require
+genuinely new held relations, not retuning these four targets.
+
 A score-blind S100 audit identifies the untested middle ground between S98 and
 S99: grammar-normalized exact multi-root word composition and within-word
 ordered root embedding. It is computationally distinct, but it reuses the same

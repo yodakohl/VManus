@@ -145,7 +145,8 @@ def main():
     check(prod["target_rows_accessed"] is True, "target read")
     check(prod["morphology_or_plant_name_join_performed"] is False, "no morphology")
     check(prod["ocr_or_automated_vision_used"] is False, "no vision")
-    check("no plant name" in prod["claim_ceiling"].lower(), "ceiling")
+    ceiling = prod["claim_ceiling"].lower()
+    check("plant name" in ceiling and "translation" in ceiling, "ceiling")
 
     validation = {"status": "PASS_INDEPENDENT_SNPL002_TARGET_RECONSTRUCTION", "checks": checks, "failures": [], "production_sha256": sha(PROD), "production_report_sha256": sha(PROD_MD), "decision": prod["decision"], "target_rows_accessed": True, "morphology_or_plant_name_join_performed": False}
     OUT.write_text(json.dumps(validation, indent=2, sort_keys=True) + "\n")
