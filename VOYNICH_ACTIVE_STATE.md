@@ -4531,6 +4531,30 @@ topologies, overlaps, hashes, and the unscored stop.  This does not reject a
 degree-record interpretation or position-free zodiac structure; it rejects
 only an unkeyed universal 30-position alignment.
 
+The next circle route is narrower and genuinely new: test only physical drawn
+seams as local record resets, without imposing a universal zodiac phase.  The
+public notes yield 22 marker-aligned `C` loci on ten panels/six folios, with
+all 66 alternate-reading cells and 1,992 complete manual STA source groups;
+every ring has 8--54 groups.  Excluding faint, barely visible, or questioned
+radial strokes leaves 18 loci and still all six folios.  A disjoint negative
+panel has 25 loci whose notes explicitly say there is no obvious start.  An
+independent reconstruction verifies all 141 reading-locus cells and coverage
+in 299 checks.  The frozen target-blind preflight now also passes.  A fixed
+seven-field STA-family naive-Bayes model, trained only on confirmed prose
+outside f67--f73, reaches equal-folio held AUC .7870/.7873/.7928 in
+ZL/IT/RF; all 94 eligible held folios per reading exceed AUC .55.  The exact
+65,536-assignment scorer recovers the distributed plant, rejects null,
+one-folio, reading-disagreement, and no-obvious controls, and passes affine,
+cyclic, serialization, and reading-order invariance.  Its first target-blind
+attempt stopped because the cyclic fixture compared raw coordinate-dependent
+hashes; canonicalizing hashes relative to the selected seam fixes only that
+mechanical control.  A nonimporting implementation then exactly reconstructed
+all three 94-folio calibrations, all five complete synthetic orbits, canonical
+digests, invariances, hashes, and the stopped-attempt diagnosis in 20 aggregate
+checks.  The marker target remained absent.  One hash-frozen target run is now
+authorized; it must still be independently reconstructed before any reset
+claim.
+
 A public exception audit exposed and corrected an important aggregate-count
 trap in the zodiac `L` inventory.  Across all twelve panels and all 36
 page-reading cells, manual IVTFF `L` counts equal the public label counts.  A
