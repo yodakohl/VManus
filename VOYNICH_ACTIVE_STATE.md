@@ -5300,6 +5300,15 @@ aggregate profile onto the corrected prose-segment inventory. Individual
 feature weights and favorable forms remain closed until that projection and
 its controls are independently validated.
 
+LRG002 score-blind capacity now fixes that projection universe before any
+profile score is reconstructed: 5,824 B/P confirmed-prose groups in 742
+corrected segments supply page-by-symbol-count normalization, and 5,769 groups
+in 705 segments on 34 pages/16 physical folios form the primary position
+panel. Every primary segment has exactly one FIRST, one LAST, and at least one
+CORE group. Independent reconstruction passes 71,967 checks. The next action
+is target-blind calibration of page-length ranks and within-segment rotation
+nulls; the actual position association remains unopened.
+
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
 crop, threshold, spelling resemblance, subset, historical analogy, or GPU
