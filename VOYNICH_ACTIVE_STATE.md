@@ -5674,6 +5674,14 @@ future pass could establish only a within-diagram structural echo from circular
 text into labels, not ownership, a zodiac name, word, meaning, plaintext, or
 translation.
 
+That length-only gate passes and is independently reconstructed in 22,968
+checks. All 16 pages remain; every page/reading/role cell has at least two
+transition-bearing groups and ten transitions, all five folios survive, and
+the exact 138,240 primary plus 5,760 zodiac assignment orbits remain intact.
+The checked panel contains 4,537 C/L source-group rows but stores no family
+identity or echo score. This authorizes only target-blind synthetic calibration
+of a fixed conditional-transition statistic.
+
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
 crop, threshold, spelling resemblance, subset, historical analogy, or GPU
