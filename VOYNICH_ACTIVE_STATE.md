@@ -5329,6 +5329,11 @@ Both outputs are aggregate-only: no row score, family weight, favorable form,
 member code, or EVA spelling may be emitted. Commit and hash freeze are
 mandatory before one target invocation.
 
+LRG002 is now frozen at SHA-256 prefix `ad5a73b9` against commit `655ed7b`,
+binding 18 exact files while all four target/validation outputs are absent.
+Exactly one aggregate target invocation and one clean reconstruction are now
+permitted; no post-target tuning or form-level inspection is allowed.
+
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
 crop, threshold, spelling resemblance, subset, historical analogy, or GPU
