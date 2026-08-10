@@ -4517,6 +4517,18 @@ the expected 300.  Neither STAR nor FIGURE is an exclusive owner; DAY, DEGREE,
 PERSON, individual object ownership, and every Voynich word meaning remain
 unknown.
 
+The complete f67--f73 scope and its zodiac subset are independently published
+human catalogue data, not a user-supplied grouping. A public-source audit also
+sharpens the thirty-slot prior without creating a new key. Reg. lat. 1283 and
+the related *Astrolabium planum* tradition associate each zodiac degree with a
+distinct image/constellation and fate description; they do not predict a
+repeated numeral word for the same ordinal across signs. This can explain a
+flat label vocabulary in principle, but no checked public source fixes the
+Voynich degree-one slot, direction, or continuation across its unequal bands.
+Do not concatenate rings or score a universal degree-number stem. Reopen only
+with a human-transcribed degree list plus an independently justified Voynich
+coordinate, or a distinctive one-to-one labelled sequence.
+
 A new semantic route needs genuinely independent authorial evidence or a new
 invariant capable of falsifying competing meanings. A new model, crop,
 threshold, spelling resemblance, subset, historical analogy, or GPU search is
