@@ -4721,8 +4721,10 @@ contributes one center and one outer family, so all family effects sum to zero.
 An independent implementation reconstructs the capacity and 48 synthetic
 worlds; distributed center plants pass 8/8 while exact-null, one-folio,
 text-start-only, text-end-only, and one-direction-only controls pass 0/8. No
-real endpoint family has been aggregated or scored. A hash freeze and one
-validated aggregate target are the next authorized step. Even confirmation
+real endpoint family has been aggregated or scored. The exact 16-file method,
+source, controls, one-shot runner, and nonimporting validator are now frozen at
+code commit `14c6503`, with all four target/validation artifacts absent. One
+aggregate target run and one independent reconstruction are authorized. Even confirmation
 would establish only an anonymous physical-endpoint construction, not a word,
 direction term, meaning, plaintext, or translation.
 
