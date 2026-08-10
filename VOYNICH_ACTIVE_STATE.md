@@ -5240,7 +5240,19 @@ label-versus-prose construction test. A future pass can name only a
 **label-associated structural profile**; it cannot assume label = identifier,
 name, noun, object owner, word, or meaning. Projection into the corrected
 drawing-reset prose edition is forbidden until such a profile independently
-passes.
+passes. Target-blind calibration is now complete. Its first full run was
+correctly stopped because an identity negative accidentally changed the base
+family distribution and a sign-only section gate accepted 2/8 B-only worlds.
+The disclosed v2 correction uses the same base distribution and requires the
+existing `.05` material scale in each section. On the unchanged 2,767-row
+B/P geometry, v2 gives **0/64 null**, **8/8 full**, **8/8 half-strength**, and
+**8/8 distributed start-only** passes, with **0/8** across every one-folio,
+one-section, page-only, folio-random, parity-mismatch, and row-identity
+adversary. A nonimporting 4,234-check implementation reconstructs all 136
+worlds and both 8,192-assignment matrices exactly. The real STA-family surfaces
+remain unopened for LRG001. The next action is a separately committed,
+hash-frozen one-shot target plus clean reconstruction; no tuning is permitted
+after target access.
 
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
