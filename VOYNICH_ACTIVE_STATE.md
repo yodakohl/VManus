@@ -5356,6 +5356,18 @@ validated zero-gloss score-band atlas and integration with the existing
 record-oriented grammar; semantic glosses and individual feature-weight
 interpretation remain closed.
 
+The validated LRG002 zero-gloss reading layer now assigns every fixed B/P
+prose group a local `R1`--`R5` band while preserving corrected segment position
+and source-native surface. It emits no numeric score, rank, learned weight, EVA,
+or English gloss. LAST has 237/705 (`33.6%`) R5 groups versus 673/4,359
+(`15.4%`) in CORE. FIRST has nearly the same R5 rate as CORE but shifts sharply
+into R4 (232/705, `32.9%`, versus 892/4,359, `20.5%`). Thus the terminal edge
+is the strongest realization, while the initial edge is a milder/variant
+realization of the same aggregate register. Clean reconstruction passes 88,133
+checks. Next, decompose only aggregate effects across the four frozen feature
+blocks (family inventory, initial family, final family, adjacent-family pair);
+do not inspect or rank individual weights or forms.
+
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
 crop, threshold, spelling resemblance, subset, historical analogy, or GPU
