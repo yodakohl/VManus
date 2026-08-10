@@ -4738,6 +4738,25 @@ Close this exact physical-endpoint representation without mining families,
 pages, or directions. It establishes no word, direction term, meaning,
 plaintext, or translation.
 
+One narrow ordered-coordinate exception now reopens part of the otherwise
+closed 28-mansion/count route. Public human sources define exactly 28 inward
+radial labels on f69v, one for each alternating long/short object, and the
+manual Stolfi coordinate orders them as `X1.1` through `X1.28`. A fixed human-
+transcribed Latin/Agrippa roster supplies 28 lunar-mansion names in traditional
+order. F69M001 discards actual letters and compares only the three nested
+patterns of which labels share 1-, 2-, and 3-symbol prefixes, maximizing over
+all 56 rotations/reflections. Its second 8,192-permutation null preserves the
+famous dominant initial-letter pattern at every roster position, so a pass
+cannot come merely from “most labels start alike.” Target-blind calibration
+caught a degenerate fixture, then a too-permissive `.15` deep-prefix gate; the
+corrected `.25` gate now recovers complete plants 8/8 and rejects exact-null,
+dominant-initial-only, four-name-block-only, and shallow-two-depth-only worlds
+0/8. A nonimporting implementation reconstructs all 40 worlds and both nulls
+in 80 checks. No f69v target prefix topology has been opened. A separately
+committed hash freeze and one target are the next authorized steps. Even a pass
+would support only this roster as a system-family candidate, not a mansion
+mapping, number, name, word, sound, meaning, plaintext, or translation.
+
 A new semantic route needs genuinely independent authorial evidence or a new
 invariant capable of falsifying competing meanings. A new model, crop,
 threshold, spelling resemblance, subset, historical analogy, or GPU search is
