@@ -4731,6 +4731,18 @@ complete table and the current public page catalogue give no missing star on
 that page. Retain that slot as UNKNOWN rather than adjudicating it. This
 catalogue supplies no BARREL, direction, sex, clothing, crown, or star lexeme.
 
+The same public catalogue contains a superficially stronger pharmaceutical
+contrast, but it also stops before a text score. A conservative parser finds 82
+unhedged, non-mixed DARK/LIGHT root descriptions on six physical folios, with
+both states on five. Only 56 have primary current-locus mappings, however, and
+the public layout prose marks 32 of those pairings as assumed/ambiguous, 14 as
+count-only, six without a pairing statement, and only four as explicitly
+clear. All four clear cases are on f100. A later detailed public description
+agrees with three of their root-colour states but calls the root in
+`STOLFI_BEST_1395` DARK where the older catalogue called it LIGHT; that state
+remains UNKNOWN. Thus this does not reopen proximity ownership: no transferable
+clear-pairing DARK/LIGHT panel, colour stem, word, or meaning is established.
+
 A distinct radial-text invariant is now preregistered from public/manual
 metadata. IVTFF explicitly marks text running outside-to-inside as `Ri` and
 inside-to-outside as `Ro`; this is public source information, not a user-
