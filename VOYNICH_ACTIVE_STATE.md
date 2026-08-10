@@ -5662,6 +5662,18 @@ but its `z=2.8734` misses the frozen 3.0 gate. Independent reconstruction passes
 confirmed aggregate edge register, but do not claim that A/D specifically
 implements it or assign FIRST/LAST semantic names.
 
+One unfinished circle-block route is now active without repeating the completed
+EAS, marker-reset, endpoint, class, or f69v tests. The independently validated
+C-to-L capacity has 16 pages on five folios and 138,240 same-folio mappings;
+its zodiac-only sensitivity has 12 pages on four folios and 5,760 mappings.
+CCRE001 first applies a registered length-only gate using group ownership and
+STA symbol counts but no family identities. Only if every retained C/L cell has
+enough transitions, all five folios survive, and the full zodiac panel remains
+may a target-blind conditional-transition echo calibration be designed. A
+future pass could establish only a within-diagram structural echo from circular
+text into labels, not ownership, a zodiac name, word, meaning, plaintext, or
+translation.
+
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
 crop, threshold, spelling resemblance, subset, historical analogy, or GPU
