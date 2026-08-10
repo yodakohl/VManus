@@ -5334,6 +5334,28 @@ binding 18 exact files while all four target/validation outputs are absent.
 Exactly one aggregate target invocation and one clean reconstruction are now
 permitted; no post-target tuning or form-level inspection is allowed.
 
+LRG002 now confirms and independently reconstructs a distributed prose slot
+for the LRG001 label-associated profile. After opposite-parity scoring and
+exact page-by-symbol-count rank normalization, FIRST-minus-CORE is `+.062839`
+and LAST-minus-CORE is `+.099617` (vector norm `+.117781`). Both independent-
+segment and coupled-folio rotation p-values are `1/8193`; 15/16 folios project
+positively, every deletion stays positive, concentration is `.12094`, and B/P
+plus odd/even vectors strongly agree (cosines `.9618` and `.9859`). The only
+negative folio, f101, contributes one eligible segment. Clean composition of
+the prior validators reproduces the complete result in 493 checks.
+
+The new live interpretation is structural: manual labels and prose segment
+edges share a recurrent source-native construction profile, with the larger
+shift at LAST. This is stronger than an exact-form recurrence and distinct from
+the older whole-form position atlas because it transfers a distributed 648-
+feature label/prose contrast across folios before testing corrected positions.
+It supports an edge-associated register or boundary-facing construction, not
+the meanings “label,” “name,” “identifier,” “opening,” or “closing.” FIRST,
+LAST, and CORE remain physical segment coordinates. The next action is a
+validated zero-gloss score-band atlas and integration with the existing
+record-oriented grammar; semantic glosses and individual feature-weight
+interpretation remain closed.
+
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
 crop, threshold, spelling resemblance, subset, historical analogy, or GPU
