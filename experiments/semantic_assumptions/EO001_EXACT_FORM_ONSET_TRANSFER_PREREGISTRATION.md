@@ -85,19 +85,30 @@ EO001 confirms this narrow continuation-transfer relation only if all hold:
 1. exact 1,295-event / 92-folio / nine-form join and exact 38 informative
    folios;
 2. combined standardized observed statistic at least 1.5 and permutation
-   `p <= .01`;
+  `p <= .001`;
 3. every block has positive raw effect and at least two blocks have
-   blockwise `p <= .05`;
+   blockwise `p <= .01`;
 4. at least 24/38 informative folios and at least 7/9 forms have positive
    diagnostic contributions;
 5. Currier-A and Currier-B informative-folio means are both positive;
 6. every delete-one-informative-folio combined mean remains positive;
 7. the largest absolute folio contribution is at most 20% of the total
-   absolute contribution;
+   absolute contribution, and the largest absolute form contribution is at
+   most 30% of the total absolute form contribution;
 8. all registered target-free controls and independent reconstruction pass.
 
 No threshold, feature block, form, folio, nuisance term, or interpretation may
 be changed after target access.
+
+The preserved v1 target-free calibration stopped before target access because
+one `ONE_FORM` and one `POSITION_ONLY` world passed.  Its within-state
+form-centering let a signal in one form induce a common negative vector in all
+other forms.  Version 2 therefore removes only that across-form centering: the
+diagonal-versus-wrong-pair permutation itself already cancels a generic shared
+vector.  V2 also applies the familywise combined `.001`, blockwise `.01`, and
+30% form-concentration gates stated above.  These changes were frozen from the
+failed controls, not manuscript outcomes; the full null, power, and adversarial
+grid must be rerun and independently validated.
 
 ## Required target-free calibration
 

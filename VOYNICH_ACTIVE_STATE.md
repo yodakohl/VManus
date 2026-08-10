@@ -1164,8 +1164,16 @@ every form also has at least seven folios containing both states. This is not a
 rerun of the failed `NONE` versus `DA` operation test: the whole trigger form is
 held fixed and the prospective question is whether its continuation signature
 transfers between positions. No successor identity or feature has yet been
-opened. The next action is a separately frozen synthetic power and
-exchangeability calibration; capacity alone establishes no embedded onset,
+opened. The first synthetic scorer correctly stopped because one-form
+centering and one position-only control could pass. The corrected uncentered
+same-folio matcher now passes independently: zero of 64 Gaussian and zero of
+64 realistic manuscript-shaped null worlds pass; all eight distributed and
+all eight feasible whole-row portable signals pass; and zero of eight passes
+occur in each of ten generic, nuisance, position, concentration, one-block,
+state-reversal, and remapping adversarial families. A nonimporting
+implementation reconstructs all 264 worlds exactly in 52,317 checks while
+excluding all 1,295 target successors. The next action is a hash-frozen single
+target run; capacity and calibration alone establish no embedded onset,
 subrecord, clause, word, part of speech, function, sound, meaning, plaintext,
 language, cipher, or translation.
 

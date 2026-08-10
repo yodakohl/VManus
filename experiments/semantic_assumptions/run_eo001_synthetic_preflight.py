@@ -29,8 +29,8 @@ SOURCE = RESULTS / "source_native_structural_interlinear_v1.tsv"
 SPEC = BASE / "EO001_EXACT_FORM_ONSET_TRANSFER_PREREGISTRATION.md"
 CORE = BASE / "eo001_core.py"
 RUNNER = Path(__file__).resolve()
-OUT_JSON = RESULTS / "eo001_synthetic_preflight.json"
-OUT_REPORT = RESULTS / "eo001_synthetic_preflight_report.md"
+OUT_JSON = RESULTS / "eo001_synthetic_preflight_v2.json"
+OUT_REPORT = RESULTS / "eo001_synthetic_preflight_v2_report.md"
 
 FROZEN = {
     PANEL_PATH: "9bad926ec53532ca118c9bcdee82fbe5ffebe53b328b0716cc85082f72690d4c",
@@ -216,7 +216,7 @@ def main() -> None:
     }
     status = "PASS_TARGET_FREE_CALIBRATION" if all(gates.values()) else "STOP_TARGET_FREE_CALIBRATION"
     result = {
-        "experiment": "EO001_SYNTHETIC_PREFLIGHT", "status": status,
+        "experiment": "EO001_SYNTHETIC_PREFLIGHT_V2", "status": status,
         "inputs": {path.name: sha(path) for path in (*FROZEN, SPEC, CORE, RUNNER)},
         "numerics": {"assignments": core.ASSIGNMENTS, "ridge": core.RIDGE, "tie_tolerance": core.TOL, "workers": 32},
         "donor_pool": {"strict_non_target_groups": len(DONORS), "excluded_target_successors": excluded, "target_successor_surfaces_accessed": 0},
@@ -228,7 +228,7 @@ def main() -> None:
     }
     OUT_JSON.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     OUT_REPORT.write_text(
-        "# EO001 synthetic preflight\n\n"
+        "# EO001 synthetic preflight v2\n\n"
         f"Status: **{status}**.\n\n"
         f"The scorer evaluated **{len(records)}** target-free worlds with 32,768 within-folio assignments. "
         f"The smallest portable amplitude reaching 7/8 was **{selected:.2f}**. Gaussian and realistic null passes were "

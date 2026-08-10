@@ -45,8 +45,11 @@ def load_panel(path: Path) -> Panel:
         if tuple(reader.fieldnames or ()) != FIELDS:
             raise ValueError("EO001 panel schema drift")
         rows = list(reader)
-    if len(rows) != 1295 or len({row["anonymous_event_id"] for row in rows}) != 1295:
+    event_ids = [row["anonymous_event_id"] for row in rows]
+    if len(rows) != 1295 or len(set(event_ids)) != 1295:
         raise ValueError("EO001 panel identity drift")
+    if event_ids != sorted(event_ids):
+        raise ValueError("EO001 panel row-order drift")
     if tuple(sorted({row["trigger_family_surface"] for row in rows})) != FORMS:
         raise ValueError("EO001 form inventory drift")
     if Counter(row["trigger_state"] for row in rows) != {"FIRST": 316, "CORE": 979}:
@@ -65,6 +68,8 @@ def load_panel(path: Path) -> Panel:
     states = np.asarray([0 if row["trigger_state"] == "FIRST" else 1 for row in rows], dtype=np.int8)
     folios = np.asarray([row["physical_folio"] for row in rows])
     curriers = np.asarray([row["currier"] for row in rows])
+    if any(len({row["currier"] for row in rows if row["physical_folio"] == folio}) != 1 for folio in set(folios)):
+        raise ValueError("EO001 folio-to-Currier mapping drift")
     design = nuisance_design(rows)
 
     informative: dict[str, tuple[int, ...]] = {}
@@ -119,6 +124,8 @@ def permutation_matrix(folio: str, present: tuple[int, ...], assignments: int = 
             ).digest(),
         )
         result[assignment] = np.asarray(order, dtype=np.int16)
+    if not np.array_equal(np.sort(result, axis=1), np.broadcast_to(np.arange(size), result.shape)):
+        raise ValueError("EO001 invalid permutation row")
     return result
 
 
@@ -183,7 +190,6 @@ def similarities(panel: Panel, response: np.ndarray) -> dict[str, np.ndarray]:
                 mask = (panel.folios == folio) & (panel.states == state) & (panel.forms == form)
                 means.append(residual[mask].mean(axis=0))
             matrix = np.asarray(means, dtype=np.float64)
-            matrix -= matrix.mean(axis=0, keepdims=True)
             norms = np.linalg.norm(matrix, axis=1)
             matrix = np.divide(matrix, norms[:, None], out=np.zeros_like(matrix), where=norms[:, None] > 1e-15)
             vectors.append(matrix)
@@ -249,6 +255,8 @@ def evaluate(panel: Panel, blocks: dict[str, np.ndarray]) -> dict:
     values = np.asarray(list(folio_contributions.values()), dtype=np.float64)
     deletion = (values.sum() - values) / (len(values) - 1)
     total_abs = float(np.abs(values).sum())
+    form_array = np.asarray(list(form_contributions.values()), dtype=np.float64)
+    form_total_abs = float(np.abs(form_array).sum())
     currier = {}
     for value in ("A", "B"):
         selected = [effect for folio, effect in folio_contributions.items() if panel.curriers[np.flatnonzero(panel.folios == folio)[0]] == value]
@@ -265,6 +273,7 @@ def evaluate(panel: Panel, blocks: dict[str, np.ndarray]) -> dict:
         "positive_forms": sum(value > 0 for value in form_contributions.values()),
         "minimum_delete_one_folio_mean": float(deletion.min()),
         "max_abs_folio_contribution_fraction": float(np.abs(values).max() / total_abs) if total_abs else 1.0,
+        "max_abs_form_contribution_fraction": float(np.abs(form_array).max() / form_total_abs) if form_total_abs else 1.0,
         "currier": currier,
         "folio_contributions": folio_contributions,
         "form_contributions": form_contributions,
@@ -272,13 +281,14 @@ def evaluate(panel: Panel, blocks: dict[str, np.ndarray]) -> dict:
     gates = {
         "exact_geometry": len(panel.rows) == 1295 and len(set(panel.folios)) == 92 and len(panel.informative) == 38,
         "combined_material": observed >= 1.5,
-        "combined_p_at_most_001": combined_p <= .01,
+        "combined_p_at_most_0001": combined_p <= .001,
         "all_blocks_positive": all(blocks_out[name]["raw_effect"] > 0 for name in BLOCK_DIMS),
-        "two_blocks_p_at_most_005": sum(blocks_out[name]["p"] <= .05 for name in BLOCK_DIMS) >= 2,
+        "two_blocks_p_at_most_001": sum(blocks_out[name]["p"] <= .01 for name in BLOCK_DIMS) >= 2,
         "positive_folio_support": summary["positive_folios"] >= 24,
         "positive_form_support": summary["positive_forms"] >= 7,
         "both_curriers_positive": all(currier[value]["folios"] >= 10 and currier[value]["mean"] > 0 for value in ("A", "B")),
         "all_folio_deletions_positive": summary["minimum_delete_one_folio_mean"] > 0,
         "no_folio_concentration": summary["max_abs_folio_contribution_fraction"] <= .20,
+        "no_form_concentration": summary["max_abs_form_contribution_fraction"] <= .30,
     }
     return {"blocks": blocks_out, "summary": summary, "gates": gates, "passes": all(gates.values())}
