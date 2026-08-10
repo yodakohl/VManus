@@ -5682,6 +5682,28 @@ The checked panel contains 4,537 C/L source-group rows but stores no family
 identity or echo score. This authorizes only target-blind synthetic calibration
 of a fixed conditional-transition statistic.
 
+The authorization was withdrawn before calibration or family-identity access
+after a duplicate-route audit recovered the already completed CRE001 target on
+the same 16-page C-to-L panel and the same two assignment orbits. CRE001 tested
+internal STA-family trigrams/four-grams and found negative effects in every
+reading, including after exact-group deletion and in the zodiac sensitivity.
+A conditional-bigram residual would be a different statistic but not new data,
+ownership, or an independently licensed relation. CCRE001 therefore stops at
+validated length capacity rather than reopening the closed same-page C-to-L
+echo family. Its capacity remains a reusable descriptive artifact only.
+
+The active successor is LRG008, which uses the strongest independently
+confirmed structural bridge instead of another circle-string similarity. The
+LRG001 label-associated profile was learned from `L` versus exact-page,
+exact-length prose and transferred across physical-folio parity. LRG008 asks
+whether that frozen profile also distinguishes `L` from other diagram writing
+(`C` circular and `R` radial), or merely detects generic short diagram text.
+Its first gate is association-unopened: exact page-by-symbol-count cells are
+formed from roles and lengths only, low-capacity folios are excluded by fixed
+metadata thresholds, and no family surface or profile score may be read. A
+pass can authorize only target-blind calibration before one fixed projection;
+it cannot establish that labels are identifiers, names, nouns, or owners.
+
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
 crop, threshold, spelling resemblance, subset, historical analogy, or GPU
