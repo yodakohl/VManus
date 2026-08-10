@@ -16,6 +16,8 @@ BASE = Path(__file__).resolve().parent
 ROOT = BASE.parent.parent
 R = BASE / "results"
 FREEZE = ROOT / "ZLA001_TARGET_FREEZE.json"
+R1_FREEZE = ROOT / "ZLA001_TARGET_VALIDATOR_R1_FREEZE.json"
+AMENDMENT = ROOT / "ZLA001_TARGET_VALIDATOR_AMENDMENT.md"
 PANEL = R / "zodiac_label_cycle_capacity.tsv"
 STA = R / "source_sta_group_alignment.tsv"
 TARGET = R / "zla001_target.json"
@@ -93,6 +95,7 @@ def invariant(left: dict, right: dict) -> dict[str, object]:
 
 def report_text(result: dict) -> str:
     evaluation=result["evaluation"]; primary=evaluation["primary"]; noexact=evaluation["noexact"]; components=evaluation["components"]
+    positive_folio_counts = {reading: evaluation["positive_folio_counts"][reading] for reading in clean.READINGS}
     return (
         "# ZLA001 zodiac label cyclic adjacency target\n\n"
         f"Status: **{result['status']}**. Decision: **{result['decision']}**.\n\n"
@@ -100,7 +103,7 @@ def report_text(result: dict) -> str:
         f"Component minimum effects are `FAMILY_ONLY={components['FAMILY_ONLY']['minimum_effect']:.6f}` and "
         f"`BOUNDARY_AWARE={components['BOUNDARY_AWARE']['minimum_effect']:.6f}`. After removing exact complete-record pairs, "
         f"the minimum effect is `{noexact['minimum_effect']:.6f}` with `p={noexact['p_plus_one']:.6f}`.\n\n"
-        f"Positive-folio counts by alternate reading are `{evaluation['positive_folio_counts']}`. All 21 rings, all 235 physical slots, "
+        f"Positive-folio counts by alternate reading are `{positive_folio_counts}`. All 21 rings, all 235 physical slots, "
         "and the complete frozen 65,536-world distance orbit were scored once. No individual label sequence, family identity, favorable "
         "ring, object assignment, or English gloss is emitted.\n\n"
         "A confirmation would establish only a local length-adjusted construction signal among adjacent public zodiac labels. A "
@@ -111,10 +114,18 @@ def report_text(result: dict) -> str:
 
 def main() -> None:
     if OUT.exists() or OUT_MD.exists(): raise SystemExit("refusing overwrite")
-    frozen=json.loads(FREEZE.read_text()); stored=json.loads(TARGET.read_text()); checks=0
+    frozen=json.loads(FREEZE.read_text()); replacement=json.loads(R1_FREEZE.read_text()); stored=json.loads(TARGET.read_text()); checks=0
+    if replacement.get("status") != "FROZEN_REPORT_ORDER_VALIDATOR_REPLACEMENT": raise AssertionError("replacement freeze")
+    if replacement.get("original_freeze_sha256") != sha(FREEZE): raise AssertionError("original freeze binding")
+    if replacement.get("amendment_sha256") != sha(AMENDMENT): raise AssertionError("amendment binding")
+    if replacement.get("replacement_validator_sha256") != sha(Path(__file__)): raise AssertionError("replacement validator binding")
+    if replacement.get("immutable_target_sha256") != sha(TARGET) or replacement.get("immutable_report_sha256") != sha(TARGET_REPORT): raise AssertionError("immutable target binding")
+    checks += 5
     if frozen["status"]!="FROZEN_TARGET_AND_VALIDATION_ABSENT": raise AssertionError("freeze")
     for relative,digest in frozen["files"].items():
-        if sha(ROOT/relative)!=digest: raise AssertionError(f"hash {relative}")
+        if relative == "experiments/semantic_assumptions/validate_zla001_target.py":
+            if replacement.get("original_validator_sha256") != digest: raise AssertionError("original validator hash")
+        elif sha(ROOT/relative)!=digest: raise AssertionError(f"hash {relative}")
         checks+=1
     rings,pages,folios=clean.geometry(); assignments,orbit=clean.orbit(rings)
     if orbit!=frozen["orbit"] or orbit!=stored["orbit"]: raise AssertionError("orbit")
