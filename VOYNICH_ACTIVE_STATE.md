@@ -1331,6 +1331,26 @@ the 35 pairs semantically. A possible successor must be a separately
 calibrated null that preserves the complete member-frequency marginals without
 pair-frequency binning; it cannot reuse this stopped target as evidence.
 
+The score-blind CCT002 capacity audit now validates that successor null. A
+one-to-one permutation inside exact length/prefix/site-index shells preserves
+every observed `o` member, every observed `e` member, and therefore every
+individual member frequency exactly once; all additive member-specific terms
+are algebraically invariant. The same 35 collision pairs yield 29 movable
+pairs in eight nontrivial shells (14 shells total), with joint log-orbit
+23.8966 and coverage on all eight leaves/readings. Independent code reproduces
+all counts, shell/orbit capacity, and marginal invariance in 26 checks. No
+state or merger score was computed. Only a new target-blind calibration of
+this different null is authorized.
+
+That CCT002 target-blind calibration now passes unchanged inference and power
+gates: 0/64 null, 8/8 full distributed, 6/8 three-quarter-strength, and 0/8
+for all nine localized, side, reading, domain, prefix, generic-compression, and
+no-collision controls. State complement, malformed inputs, and complete member
+marginals pass. A separate clean implementation reconstructs all 176 worlds
+and 30,618 checks without a manuscript association score. This authorizes only
+a separately registered and hash-frozen CCT002 target; it supplies no
+canonical-form or semantic result.
+
 A genuinely different source-native morphology route has now been tested. It
 asks whether the first STA family of a synchronized prose group helps
 predict its last family after the second and penultimate families, capped
