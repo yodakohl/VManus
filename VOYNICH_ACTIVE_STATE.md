@@ -5768,6 +5768,12 @@ unchanged. This authorizes only a separately committed and hash-frozen
 one-time LRG008 aggregate target. No real profile, family surface, or
 label-versus-diagram association has yet been opened.
 
+The LRG008 manuscript target is now registered but unscored. It will
+reconstruct the two confirmed LRG001 profiles, apply only the opposite-parity
+profile to each of the 286 fixed LRG008 rows, and execute the validated v3-R1
+rank test once. Output is aggregate only. A separately committed hash freeze
+with all four target/validation paths absent is mandatory before execution.
+
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
 crop, threshold, spelling resemblance, subset, historical analogy, or GPU
