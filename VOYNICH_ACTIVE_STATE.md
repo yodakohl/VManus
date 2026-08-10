@@ -1294,8 +1294,19 @@ all 48 reading/leaf/side cells are present with minimum eight groups. The panel
 stores state and fixed geometry but neither the `o/e` value nor canonical
 template, and a realization-swap mutation leaves it unchanged. A first builder
 attempt stopped before output on a page-rank tuple-key error; the corrected
-unchanged definition passes 20 independent checks. Only a complexity-matched
-synthetic raw-versus-canonical transfer/equivalence preflight is authorized.
+unchanged definition passes 20 independent checks. The first target-blind
+transfer calibration preserved all null and negative rejections but stopped
+because a weakest-reading primary plus sparse-domain gates passed only one of
+eight three-quarter-strength signals. Its corrected aggregate-reading primary
+retains per-reading direction, folio, domain, prefix, deletion, concentration,
+exact 256-state-orbit, and 8,192 complexity-matched merger-null gates. It gives
+0/64 null, 8/8 full distributed, 6/8 three-quarter-strength, and 0/8 for every
+side-only, one-folio, one-reading, prose-only, diagnostic-only, one-prefix,
+one-side, generic-compression, and unique-surrounding control. Clean code
+reconstructs all 176 worlds and the final decision in 30,631 checks without
+opening a manuscript type or score. This authorizes a separately frozen,
+one-shot canonical-transfer target registration; it does not establish a
+latent form, word, sound, language, cipher, meaning, plaintext, or translation.
 
 A genuinely different source-native morphology route has now been tested. It
 asks whether the first STA family of a synchronized prose group helps
