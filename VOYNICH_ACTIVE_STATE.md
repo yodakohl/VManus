@@ -5592,8 +5592,9 @@ one-time manuscript target; no A/D prose-position association is yet open.
 The LRG007 manuscript target is now registered but unscored. It will join the
 hash-bound A/D/other vector once, preserve all 132 exact cell margins, and
 require both FIRST-minus-CORE and LAST-minus-CORE channels to pass every frozen
-gate. Only aggregate output is allowed. Commit the producer and production-free
-validator, then freeze their exact hashes while all four outputs are absent.
+gate. Only aggregate output is allowed. The 18-file freeze now binds registration
+commit `9e581f3` while all four target and validation outputs are absent. Exactly
+one target run and one production-free reconstruction are authorized.
 
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
