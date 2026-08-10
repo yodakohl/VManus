@@ -5575,7 +5575,11 @@ page-by-length matching retains 4,911 groups in 132 FIRST/CORE/LAST cells on
 all 16 folios. Aggregate-only totals are 1,118 initial-A and 1,235 initial-D;
 they vary in 120 and 107 cells and occur on every folio. Independent code
 reconstructs selection, margins, hashes, artifacts, and report in 9,826 checks.
-The next action is a target-blind fixed-margin four-channel calibration.
+The target-blind calibration is now registered. Because A and D are mutually
+exclusive, its primary channels are the three-state A-minus-D opposition at
+FIRST and LAST versus CORE; separate A enrichment and D depletion remain
+mandatory component gates. The null preserves every cell's exact A/D/other
+margin. No real family-position association has been opened.
 
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
