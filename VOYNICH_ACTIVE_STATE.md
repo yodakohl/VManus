@@ -4706,6 +4706,19 @@ reconstructs the stop in 53 checks. No Voynich string was scored. Reopen only
 with an exhaustive explicit FEMALE/NON_FEMALE/UNKNOWN table on all four
 surviving zodiac folios or an independent multi-folio figure-label panel.
 
+The same public evidence also supports one narrow local diagram-role result.
+Both f69r and f70r1 have a six-pointed central star with six text items between
+the arms. All twelve central loci are exactly one source group in every
+manual reading, while the 22 surrounding f69r radial items average
+3.000/3.091/2.955 groups and the nine surrounding f70r1 items average
+2.111/2.222/1.778. This is a compact inner register on those two adjacent
+diagrams, not a shared vocabulary: the public descriptions call the f69r
+items individual glyph labels and the f70r1 items word labels. The f70v2
+inner/outer zodiac-label comparator reverses direction across readings, so no
+universal centre-to-edge compactness rule follows. Do not align the two sixes
+or infer PLANET, APSIS, SPHERE, WIND, NUMBER, abbreviation, word meaning,
+plaintext, or translation.
+
 A second public human inventory has now been checked without OCR or image
 recognition. Robert Teague's 2007 native-digital `Zodiac Section Nymph
 Overview` tabulates 11 attributes across the twelve zodiac panels on f70--f73.
