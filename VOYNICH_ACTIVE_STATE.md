@@ -5861,6 +5861,21 @@ hold. The clean validator imports no production module. This registration
 authorizes exactly one hash-bound synthetic calibration; it still opens no
 real class identity or manuscript context-target association.
 
+That target-blind calibration has now **stopped before manuscript scoring**.
+All 208 synthetic worlds stopped during CAL: 189 for nonpositive joint gain,
+11 for floor domination, and the eight deliberately concentrated
+ordered-length-shape adversaries for missing TRAIN classes. Decisively, all
+eight full and all eight reduced distributed order plants also stopped for
+nonpositive gain. Thus the registered classifier did not demonstrate power
+even on its own intended positive signals; the fact that every null and
+adversary also rejected is uninformative. A production-free implementation
+reconstructs the canonical result, report, every world, the 8,192-by-453
+orbit, hashes, controls, family decisions, and gates exactly. No real class
+identity or context-target association was opened. LRS001-R1 is closed at
+this exact representation/model/calibration design and must not be rescued by
+threshold, ridge, rank, feature, or subset tuning. The label-free geometry
+remains reusable only for a genuinely different preregistered falsifier.
+
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
 crop, threshold, spelling resemblance, subset, historical analogy, or GPU
