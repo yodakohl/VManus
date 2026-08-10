@@ -5828,6 +5828,15 @@ both `ORDER-BAG` and `ORDER-NUIS`, with fixed-column, page/topic,
 code/drawing, first-order-chain, and concentrated negative controls. A
 capacity pass supplies no schema, meaning, plaintext, or translation.
 
+The R1 target-blind geometry is now materialized and independently rebuilt:
+18,063 group rows in 2,163 records expose only hashed IDs, split/metadata,
+geometry, symbol count, supported-target membership, and strict mobility. Its
+1,784-row TEST target panel matches the corrected capacity. It contains no
+family surface, STA member, EVA, transcription token, parser root/role, gloss,
+image, OCR, predictor, or real context/target association. Synthetic
+calibration must consume this anonymous artifact rather than reopen the real
+family/context table.
+
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
 crop, threshold, spelling resemblance, subset, historical analogy, or GPU
