@@ -1262,6 +1262,18 @@ multiple independently controlled held-leaf effects would instead support a
 broader formal register/system state. Neither branch supplies meaning,
 language, cipher, plaintext, or translation.
 
+The first target-free co-switch scorer stopped correctly: null and distributed
+power were 0/64 and 8/8+8/8, but random positive noise let 2/8 one-block worlds
+pass its weak second-block gate. A versioned, genuinely different v2 scorer
+requires two blocks each to reach alignment .10 and its own synchronous exact
+p<=.01. It exactly reconstructs all 136 v1 worlds, retains 0/64 null and 8/8
+power for both distributed plants, and gives 0/8 for every one-leaf,
+one-reading, opposite-reading, side-only, diagnostic-only, prose-only, and
+one-block control. A nonimporting implementation independently reconstructs
+all 136 v2 worlds and the 272-cell/2,730-row geometry. The single target is now
+preregistered but remains unopened pending publication of this pre-target
+freeze.
+
 A genuinely different source-native morphology route has now been tested. It
 asks whether the first STA family of a synchronized prose group helps
 predict its last family after the second and penultimate families, capped
