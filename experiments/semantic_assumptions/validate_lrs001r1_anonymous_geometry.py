@@ -25,14 +25,14 @@ REPORT = R / "lrs001r1_anonymous_geometry.md"
 OUT = R / "lrs001r1_anonymous_geometry_validation.json"
 OUT_REPORT = R / "lrs001r1_anonymous_geometry_validation.md"
 EXPECTED = {
-    SPEC: "e32f26d5f18baf6ad7313d7cc29b4a06c20de21e712fd286aea91d1cff4c5a1e",
-    PRODUCER: "63bbddd9038fbe1087fe7936bf2b73e3275ee92b71f61a85033dfa1b5ea69bf2",
+    SPEC: "cc8b4217321e6d5875f1d11a6c2d300f9b16011601603aab290c97285903fbd5",
+    PRODUCER: "645af92e055aa1babb5a1cbf2e6a5b9dd340aeb993ee0a6945a7685e847e1756",
     CAPACITY: "490a74f06760621d9abb55d8718848c4dd04fb56254755569bc96aeb68081c3b",
     ATLAS: "e303f9298e5d76473e7ddd311370e3486cb9997dfb58c05df40c3fb3b4de2486",
     SPLITS: "16d7395ae0410c8fc72b5e5462d6d425cd3a2685e7ea70eee0677bd936106ae5",
     TSV: "37f06364effab97140d50fd64984ee561ed84f9087866314db7fec4f059647df",
-    RESULT: "b2aeb1ee45ec8594668956c7558c56f6e0a725140ded29236030b0fc6b17a7ec",
-    REPORT: "4addb7a7d6c2f767f9959911e049358f6593e36fee6e61b52f507b039e578e73",
+    RESULT: "0c251db4526f54a1b3bec15528f32a95c782d3a7d8f134ab49b6afb872bd1542",
+    REPORT: "74686fdbabe412bfcb4e40bf531dc98924d7047d71d51465b6abde16d5239e40",
 }
 CELL = (
     "page", "segment_group_count", "code", "segment_count", "segment_index",
@@ -52,6 +52,7 @@ FORBIDDEN = {
     "transcription", "token", "root", "role", "english_gloss", "image", "ocr",
     "automated_vision",
 }
+CLASS_LAYOUT = {"1": 3, "2": 8, "3": 23, "4": 19, "5": 10, "6": 3}
 
 
 def sha(data: bytes) -> str:
@@ -156,7 +157,8 @@ def rebuild(atlas_rows: list[dict[str, str]], split_rows: list[dict[str, str]]) 
     movable = [row for row in targets if row["split"] == "TEST" and row["strict_test_movable"] == "1"]
     counts = Counter(row["split"] for row in targets)
     manifest = {
-        "experiment": "LRS001R1_anonymous_geometry", "status": "PASS_LABEL_FREE_GEOMETRY",
+        "experiment": "LRS001R1_label_free_pseudonymous_geometry",
+        "status": "PASS_LABEL_FREE_PSEUDONYMOUS_GEOMETRY",
         "decision": "GO_TARGET_BLIND_SYNTHETIC_CALIBRATION_ONLY",
         "inputs": {
             str(SPEC.relative_to(HERE)): EXPECTED[SPEC], str(CAPACITY.relative_to(HERE)): EXPECTED[CAPACITY],
@@ -164,16 +166,19 @@ def rebuild(atlas_rows: list[dict[str, str]], split_rows: list[dict[str, str]]) 
         },
         "implementation": {str(PRODUCER.relative_to(HERE)): EXPECTED[PRODUCER]},
         "schema": list(FIELDS),
+        "opaque_class_count_by_symbol_count": CLASS_LAYOUT,
         "counts": {"rows": len(output), "records": len(segments),
                    "supported_targets_by_split": dict(sorted(counts.items())),
                    "strict_movable_test_targets": len(movable),
                    "strict_movable_test_records": len({row["anonymous_record_id"] for row in movable}),
                    "strict_test_cells": len({row["strict_cell_id"] for row in movable})},
         "geometry_sha256": sha(canonical(output)),
-        "isolation": {"real_family_surface_field_emitted": False,
+        "isolation": {"real_class_identity_or_family_surface_emitted": False,
+                      "surface_derived_target_eligibility_emitted": True,
+                      "identifiers_claimed_information_secure_anonymous": False,
                       "real_context_target_association_scored": False, "predictor_fitted": False,
                       "ocr_or_automated_vision_used": False},
-        "claim_ceiling": "Anonymous geometry supplies no schema, field, word, meaning, plaintext, or translation.",
+        "claim_ceiling": "Label-free pseudonymous geometry supplies no schema, field, word, meaning, plaintext, or translation.",
     }
     manifest["tsv_sha256"] = sha(tsv_bytes(output))
     return output, manifest
@@ -183,9 +188,9 @@ def report(manifest: dict[str, object]) -> str:
     c = manifest["counts"]
     assert isinstance(c, dict)
     return (
-        "# LRS001-R1 anonymous calibration geometry\n\nStatus: **PASS_LABEL_FREE_GEOMETRY**.\n\n"
+        "# LRS001-R1 label-free pseudonymous calibration geometry\n\nStatus: **PASS_LABEL_FREE_PSEUDONYMOUS_GEOMETRY**.\n\n"
         f"The label-free artifact contains {c['rows']:,} groups in {c['records']:,} records. Supported target geometry is TRAIN/CAL/TEST {c['supported_targets_by_split']['TRAIN']}/{c['supported_targets_by_split']['CAL']}/{c['supported_targets_by_split']['TEST']}; the strict movable TEST panel is {c['strict_movable_test_targets']:,} targets in {c['strict_movable_test_records']} records and {c['strict_test_cells']} cells.\n\n"
-        "No family surface, member code, EVA, transcription token, parser root/role, image, OCR, gloss, predictor, or real association is present.\n\n"
+        "No family surface, class identity, member code, EVA, transcription token, parser root/role, image, OCR, gloss, predictor, or real association is present. The deterministic public-row hashes are pseudonymous, not information-secure anonymous; the target-eligibility bit is surface-derived.\n\n"
         f"Claim ceiling: {manifest['claim_ceiling']}\n"
     )
 
@@ -238,9 +243,9 @@ def main() -> None:
     }
     OUT.write_bytes(canonical(validation))
     OUT_REPORT.write_text(
-        "# LRS001-R1 anonymous geometry validation\n\nStatus: **PASS**.\n\n"
+        "# LRS001-R1 label-free pseudonymous geometry validation\n\nStatus: **PASS**.\n\n"
         f"A clean-room nonimporting reconstruction passed {len(checks)} hash, content, schema, isolation, and mutation checks and recovered all {manifest['counts']['rows']:,} rows exactly.\n\n"
-        "The synthetic-calibration geometry contains no family surface or real context/target association.\n\n"
+        "The synthetic-calibration geometry contains no class identity, family surface, or real context/target pairing. Its public-row hashes are pseudonymous and its eligibility bit is target-derived.\n\n"
         f"Claim ceiling: {manifest['claim_ceiling']}\n"
     )
     print(json.dumps({"status": "PASS", "checks": len(checks)}, sort_keys=True))

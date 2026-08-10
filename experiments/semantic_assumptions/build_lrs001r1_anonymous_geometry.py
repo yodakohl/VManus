@@ -39,6 +39,7 @@ FORBIDDEN_FIELDS = {
     "transcription", "token", "root", "role", "english_gloss", "image",
     "ocr", "automated_vision",
 }
+CLASS_COUNT_BY_SYMBOL_COUNT = {"1": 3, "2": 8, "3": 23, "4": 19, "5": 10, "6": 3}
 
 
 def sha(path: Path) -> str:
@@ -130,12 +131,13 @@ def build() -> tuple[list[dict[str, str]], dict[str, object]]:
     movable = [row for row in targets if row["split"] == "TEST" and row["strict_test_movable"] == "1"]
     counts = Counter(row["split"] for row in targets)
     manifest = {
-        "experiment": "LRS001R1_anonymous_geometry",
-        "status": "PASS_LABEL_FREE_GEOMETRY",
+        "experiment": "LRS001R1_label_free_pseudonymous_geometry",
+        "status": "PASS_LABEL_FREE_PSEUDONYMOUS_GEOMETRY",
         "decision": "GO_TARGET_BLIND_SYNTHETIC_CALIBRATION_ONLY",
         "inputs": {str(path.relative_to(HERE)): sha(path) for path in (SPEC, CAPACITY, ATLAS, SPLITS)},
         "implementation": {str(PRODUCER.relative_to(HERE)): sha(PRODUCER)},
         "schema": list(FIELDS),
+        "opaque_class_count_by_symbol_count": CLASS_COUNT_BY_SYMBOL_COUNT,
         "counts": {
             "rows": len(output), "records": len(segments),
             "supported_targets_by_split": dict(sorted(counts.items())),
@@ -145,12 +147,14 @@ def build() -> tuple[list[dict[str, str]], dict[str, object]]:
         },
         "geometry_sha256": hashlib.sha256(canonical(output)).hexdigest(),
         "isolation": {
-            "real_family_surface_field_emitted": False,
+            "real_class_identity_or_family_surface_emitted": False,
+            "surface_derived_target_eligibility_emitted": True,
+            "identifiers_claimed_information_secure_anonymous": False,
             "real_context_target_association_scored": False,
             "predictor_fitted": False,
             "ocr_or_automated_vision_used": False,
         },
-        "claim_ceiling": "Anonymous geometry supplies no schema, field, word, meaning, plaintext, or translation.",
+        "claim_ceiling": "Label-free pseudonymous geometry supplies no schema, field, word, meaning, plaintext, or translation.",
     }
     return output, manifest
 
@@ -166,13 +170,13 @@ def main() -> None:
     OUT_JSON.write_bytes(canonical(manifest))
     c = manifest["counts"]
     OUT_REPORT.write_text(
-        "# LRS001-R1 anonymous calibration geometry\n\nStatus: **PASS_LABEL_FREE_GEOMETRY**.\n\n"
+        "# LRS001-R1 label-free pseudonymous calibration geometry\n\nStatus: **PASS_LABEL_FREE_PSEUDONYMOUS_GEOMETRY**.\n\n"
         f"The label-free artifact contains {c['rows']:,} groups in {c['records']:,} records. "
         f"Supported target geometry is TRAIN/CAL/TEST {c['supported_targets_by_split']['TRAIN']}/"
         f"{c['supported_targets_by_split']['CAL']}/{c['supported_targets_by_split']['TEST']}; "
         f"the strict movable TEST panel is {c['strict_movable_test_targets']:,} targets in "
         f"{c['strict_movable_test_records']} records and {c['strict_test_cells']} cells.\n\n"
-        "No family surface, member code, EVA, transcription token, parser root/role, image, OCR, gloss, predictor, or real association is present.\n\n"
+        "No family surface, class identity, member code, EVA, transcription token, parser root/role, image, OCR, gloss, predictor, or real association is present. The deterministic public-row hashes are pseudonymous, not information-secure anonymous; the target-eligibility bit is surface-derived.\n\n"
         f"Claim ceiling: {manifest['claim_ceiling']}\n"
     )
     print(json.dumps({"status": manifest["status"], "rows": len(output)}, sort_keys=True))
