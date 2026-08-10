@@ -5721,6 +5721,23 @@ two distributed-signal strengths, and nine concentrated, one-block,
 metadata-only, random-sign, and reversed adversaries are mandatory. Only
 synthetic scores and quotas may enter this calibration.
 
+Calibration v1 stops before target access. It rejects all 64 null worlds and
+all eight worlds in every one-folio, one-role, one-section, one-parity,
+one-page, folio-random-sign, page-only, length-only, and reversed family.
+However, the intended distributed plant passes only 6/8 at amplitude `.60`
+and 4/8 at `.35`; failures concentrate in the small section strata, with no
+false-positive leak motivating a gate change. After clean reconstruction, v2
+may change only the two distributed amplitudes to `1.00` and `.75` and the
+adversarial association amplitude to `1.00`, retaining every statistic,
+threshold, seed, world count, null, and integrity control. The manuscript
+profile remains unopened.
+
+A nonimporting 7,203-check implementation reconstructs every v1 world,
+assignment coefficient, rank, statistic, gate, hash, decision, and report with
+zero discrepancies. The underpowered stop is therefore genuine rather than a
+runner error. The single amplitude-only v2 amendment described above is now
+the permitted next action.
+
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
 crop, threshold, spelling resemblance, subset, historical analogy, or GPU
