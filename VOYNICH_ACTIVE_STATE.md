@@ -5380,6 +5380,18 @@ of the group. This is compatible with a prefix-like operation, classifier, or
 register selector, but none is established. Individual family identities and
 weights remain closed pending a new held-folio stability design.
 
+LRG004 now supplies that target-blind simultaneous-family design. V1 stopped on
+an underpowered negative fixture and weak-stratum leaks; v2 fixed those but
+revealed that its opposition control reversed two different families. V3
+corrects only that fixture and passes: zero registrations in 64 null worlds,
+all 40 intended positive/negative registrations recovered, and zero across 72
+one-folio/section/parity, random-family, same-family opposition, identity, page,
+and length controls. The design uses an 8,192-row within-cell fixed-quota max-
+statistic null over all 24 families, requires 10/13 folio support, B/P and
+odd/even material/balance, all deletions, and concentration. Independent code
+reconstructs all 168 worlds in 146,115 checks. No real family identity has yet
+been opened; target code, commit, and freeze remain mandatory.
+
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
 crop, threshold, spelling resemblance, subset, historical analogy, or GPU
