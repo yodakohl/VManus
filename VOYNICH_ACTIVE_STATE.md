@@ -5368,6 +5368,18 @@ checks. Next, decompose only aggregate effects across the four frozen feature
 blocks (family inventory, initial family, final family, adjacent-family pair);
 do not inspect or rank individual weights or forms.
 
+LRG003 decomposes the confirmed edge profile additively with maximum error
+`4.44e-16`. The group-initial-family block supplies `65.62%` of the signed
+aggregate raw-score projection; family inventory supplies `11.90%`, group-final
+family `12.84%`, and adjacent-family pairs `9.65%`. Clean reconstruction passes
+611 checks. Crucially, “initial” is internal to each source group: it also
+dominates when the whole group occupies segment LAST. The safest live model is
+therefore a boundary-facing group construction whose largest signal is the
+choice of group-initial family, with smaller distributed support from the rest
+of the group. This is compatible with a prefix-like operation, classifier, or
+register selector, but none is established. Individual family identities and
+weights remain closed pending a new held-folio stability design.
+
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
 crop, threshold, spelling resemblance, subset, historical analogy, or GPU
