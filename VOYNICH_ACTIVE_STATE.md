@@ -1263,6 +1263,16 @@ field and every new segment coordinate in 1,001,086 checks. Use the new
 within-segment FIRST/CORE/LAST/SINGLE coordinates for future record-structure
 work, while retaining original physical-line coordinates separately.
 
+A post-confirmation additive decomposition localizes the DIC001 signal without
+creating a second confirmation claim. After the same nuisance projection, the
+left-terminal block contributes +.09020 (descriptive p=1/65,537), the
+right-initial block +.05027 (p=.08307), and the cross-boundary pair block
++.13998 (p=.000412). Independent code reconstructs all blocks and summaries
+exactly in 450 checks. Thus the confirmed reset signature is mainly disrupted
+cross-boundary compatibility plus a smaller preceding closure tendency, not a
+standalone special first form after the drawing. Do not promote post-drawing
+first forms to START words or picture labels.
+
 A strict duplicate audit rejected two tempting next steps before scoring:
 semantic illustration matching would repeat the closed object-tag/berry/flower
 routes, and source-native local transition scoring would substantially repeat
