@@ -4554,8 +4554,18 @@ digests, invariances, hashes, and the stopped-attempt diagnosis in 20 aggregate
 checks.  The marker target remained absent.  A public freeze now binds 53 exact
 method, source-provenance, data, preflight, runner, and clean-room-validator
 files at commit `c17cce9`, with all four target/result destinations absent.
-One target run is authorized; it must still be independently reconstructed
-before any reset claim.
+The one target run and its nonimporting reconstruction are now complete.  The
+22 drawn-marker seams do look line-initial-like in all readings (weakest
+reading `M=.149613`, synchronized-phase `p=.000412`), and the 18 conservative
+markers remain similar (`M=.145580`, `p=.001648`).  However, the disjoint 25
+no-obvious-start loci show almost the same effect (`M=.142338`, `p=.003738`),
+leaving a marker-minus-control contrast of only `.007275` versus the frozen
+`.05` gate.  RF is also positive on only four of six marker folios, below the
+five-folio gate.  A nonimporting implementation exactly reconstructed all
+three 65,536-assignment panels in 404 checks.  CMR001 is therefore a final
+nonconfirmation: the fixed representation detects the common editorial
+chosen cut of circular loci, not a distinctive physical-marker reset.  Do not
+retune the model, marker subset, control subset, or contrast threshold.
 
 A public exception audit exposed and corrected an important aggregate-count
 trap in the zodiac `L` inventory.  Across all twelve panels and all 36
