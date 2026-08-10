@@ -5774,6 +5774,11 @@ profile to each of the 286 fixed LRG008 rows, and execute the validated v3-R1
 rank test once. Output is aggregate only. A separately committed hash freeze
 with all four target/validation paths absent is mandatory before execution.
 
+The 35-file target package is now frozen against commit `902fc20` with all
+four target and validation paths absent. Exactly one aggregate target run and
+one production-free reconstruction are authorized; post-target tuning and
+row/form output remain forbidden.
+
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
 crop, threshold, spelling resemblance, subset, historical analogy, or GPU
