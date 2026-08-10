@@ -4499,6 +4499,24 @@ to a transferable sign-level circular-to-label field.  Close this exact route
 without mining views, readings, pairs, or fragments; it supplies no sign name,
 word, meaning, plaintext, or translation.
 
+One public exception audit now improves the ownership of the zodiac `L`
+inventory without using distance as a scoring variable.  On ten of the twelve
+public zodiac panels, figure count, star-holding-figure count, and `L` count
+are confounded.  The other two panels break that confound in opposite
+directions.  f70v2 has 29 figures but 30 labels, and the public catalogue says
+the 30th label is beside a central star.  f72r2 has 30 figures but one does not
+hold a star; the page has 29 labels, and the independent human label index
+explicitly records that same non-star figure as `Not labeled`.  The exceptions
+are on different physical folios.  Across all twelve panels and all 36
+page-reading cells, manual IVTFF `L` counts equal the public label counts.
+Thus a pure figure model matches 10/12 pages, while star-holding figures plus
+the explicitly labelled non-figure star match 12/12.  Raw catalogue HTML,
+manual source groups, and the raw human index reproduce the result in a
+1,190-check nonimporting validation.  Retain **STAR-BEARING SLOT** as the
+aggregate owner of this `L` inventory, not STAR as a lexical gloss: the labels
+could encode days, degrees, people, star properties, names, or something else.
+Individual object ownership and every Voynich word meaning remain unknown.
+
 A new semantic route needs genuinely independent authorial evidence or a new
 invariant capable of falsifying competing meanings. A new model, crop,
 threshold, spelling resemblance, subset, historical analogy, or GPU search is

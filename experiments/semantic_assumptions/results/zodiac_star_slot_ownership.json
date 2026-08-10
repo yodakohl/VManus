@@ -1,0 +1,64 @@
+{
+  "claim_ceiling": "The public zodiac L inventory follows selected star-bearing slots rather than figures across the two separating exceptions. This does not establish whether a label names a star, day, degree, person, property, or anything else, and supplies no Voynich word, meaning, plaintext, or translation.",
+  "counts": {
+    "figure_model_matching_pages": 10,
+    "opposite_exception_pages": 2,
+    "pages": 12,
+    "physical_folios": 4,
+    "reading_specific_L_count_cells": 36,
+    "star_slot_model_matching_pages": 12
+  },
+  "decision": "RETAIN_STAR_BEARING_SLOT_AS_AGGREGATE_L_RECORD_OWNER",
+  "experiment": "ZODIAC_STAR_SLOT_OWNERSHIP_AUDIT",
+  "gates": {
+    "all_12_public_zodiac_pages_present": true,
+    "all_36_ivtff_L_counts_equal_public_label_counts": true,
+    "f70v2_has_explicit_label_near_nonfigure_central_star": true,
+    "f72r2_has_exact_public_unlabelled_nonstar_figure": true,
+    "figure_count_model_has_two_opposite_exceptions": true,
+    "star_slot_model_matches_all_pages": true,
+    "two_exception_pages_are_different_physical_folios": true,
+    "zero_lexical_glosses": true
+  },
+  "inputs": {
+    "labtit-best.idx": "9267a2bbf2d485320ce8baaa2e3eeaccb6be7a02aa81ee9422a39ba00bef420a",
+    "public_circle_block_role_atlas.json": "77ca033ffdd809816c9d9274ca3de0f8095d3dd70b443a78ab59382c427015a2",
+    "public_circle_block_role_atlas.tsv": "12970003cd885dde2d9a70bdaba63f5e8f858cb06b08bef6d7bf4a8036ebb147",
+    "public_circle_block_role_atlas_validation.json": "0221482b2bcadecaa8ffbc23f401923ef6de7f2fe286f711a64a89b280a65655",
+    "public_voynich_nu_page_annotations_v2.tsv": "e6b5e12be70ab600d1c435eb1e7518e36f031a9bf5894b9b4b223b424d1cef8c"
+  },
+  "opposite_exceptions": [
+    {
+      "all_reading_ivtff_L_count": 30,
+      "explicit_near_figure_label_count": 29,
+      "explicit_nonfigure_star_label_count": 1,
+      "explicit_unlabelled_nonstar_figure": 0,
+      "figure_count_residual_labels_minus_figures": 1,
+      "page": "f70v2",
+      "physical_folio": "f70",
+      "public_figure_count": 29,
+      "public_label_count": 30,
+      "public_sign": "PISCES",
+      "public_star_holding_figure_count": 29,
+      "star_slot_prediction": 30,
+      "star_slot_residual_labels_minus_prediction": 0
+    },
+    {
+      "all_reading_ivtff_L_count": 29,
+      "explicit_near_figure_label_count": "",
+      "explicit_nonfigure_star_label_count": 0,
+      "explicit_unlabelled_nonstar_figure": 1,
+      "figure_count_residual_labels_minus_figures": -1,
+      "page": "f72r2",
+      "physical_folio": "f72",
+      "public_figure_count": 30,
+      "public_label_count": 29,
+      "public_sign": "GEMINI",
+      "public_star_holding_figure_count": 29,
+      "star_slot_prediction": 29,
+      "star_slot_residual_labels_minus_prediction": 0
+    }
+  ],
+  "output_tsv_sha256": "7801aab6955ca90019ad16f04a743ccfac473aa142bb61e2d8b4f451312ceb43",
+  "status": "PASS_PUBLIC_STAR_BEARING_SLOT_OWNERSHIP_LEAD"
+}
