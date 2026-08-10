@@ -1172,10 +1172,18 @@ all eight feasible whole-row portable signals pass; and zero of eight passes
 occur in each of ten generic, nuisance, position, concentration, one-block,
 state-reversal, and remapping adversarial families. A nonimporting
 implementation reconstructs all 264 worlds exactly in 52,317 checks while
-excluding all 1,295 target successors. The next action is a hash-frozen single
-target run; capacity and calibration alone establish no embedded onset,
-subrecord, clause, word, part of speech, function, sound, meaning, plaintext,
-language, cipher, or translation.
+excluding all 1,295 target successors. The single frozen target is now a
+validated nonconfirmation. Its combined standardized value is +1.50982 with
+p=.036499: it meets the +1.5 descriptive magnitude and exactly 24/38 positive-
+folio thresholds, but misses the familywise p<=.001 gate, has only 6/9 positive
+forms, and no block reaches p<=.01 (`EDGE_48` .1631, `BAG_24` .0381,
+`BIGRAM_576` .0395). Both Currier subsets are positive and no folio/form
+concentration gate fails, so this is a weak distributed near-miss rather than
+a concentrated artifact; it cannot be rescued by weakening the frozen gates.
+Production-free code reconstructs the complete result exactly in 23,391
+checks. Retain the exact-form position atlas but do not claim a portable
+continuation signature, embedded onset, subrecord, clause, word, part of
+speech, function, sound, meaning, plaintext, language, cipher, or translation.
 
 A strict duplicate audit rejected two tempting next steps before scoring:
 semantic illustration matching would repeat the closed object-tag/berry/flower
