@@ -1105,6 +1105,20 @@ include `KB/AF/AG/KU/UA/BB` and terminal `CA`. These values are descriptive
 components of a jointly confirmed classifier, not separately confirmed
 operators and not words or meanings.
 
+A complete exact-group decomposition now attaches that architecture to whole
+STA-family construction forms. Across 21,899 strict prose group occurrences,
+2,856 surfaces, and 94 physical folios, 162 forms meet a >=20-occurrence and
+>=10-folio support gate. Conservative 94-fold deletion stability identifies
+9 first-associated versus 14 last-associated forms and, independently, 18
+edge-associated versus 36 core-associated forms. Strong first tendencies
+include `QKJBA/BLJBA/AQKA/DAQKBA/DAQKA/QAC`; strong last tendencies include
+`UA/ACA/BA/ABA/AG/ACAB`. A clean implementation reconstructs all 2,856 rows
+and both log-odds systems in 671,601 checks. These are relative tendencies,
+not exclusive slots or START/STOP words. The atlas is the source-native
+whole-form structural inventory needed for future record rendering; it does
+not assign function/content parts of speech, sounds, morphemes, meanings,
+plaintext, language, cipher, or translation.
+
 A strict duplicate audit rejected two tempting next steps before scoring:
 semantic illustration matching would repeat the closed object-tag/berry/flower
 routes, and source-native local transition scoring would substantially repeat
