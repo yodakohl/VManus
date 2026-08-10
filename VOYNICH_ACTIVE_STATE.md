@@ -1185,6 +1185,18 @@ checks. Retain the exact-form position atlas but do not claim a portable
 continuation signature, embedded onset, subrecord, clause, word, part of
 speech, function, sound, meaning, plaintext, language, cipher, or translation.
 
+The validated interlinear now also has a complete human-readable source-native
+structural edition. It renders all 23,281 groups in 3,572 strict shared loci on
+225 pages, preserving 17,758 unanimous definite spaces, 440 unanimous drawing
+interruptions, and 1,511 mixed or uncertain internal boundary profiles. Each
+line shows complete family forms, factual position, exact-form tendencies,
+validated edge/path tags, and explicitly lossy nearest-EVA lookup text; exact
+member codes remain in the companion TSV. A clean implementation reconstructs
+the edition in 317,423 checks. This replaces only the practical display role of
+the archived partial-parser abstract interpreter; it does not revive its
+substitution classes or add a word, POS, meaning, plaintext, language, cipher,
+or translation.
+
 A strict duplicate audit rejected two tempting next steps before scoring:
 semantic illustration matching would repeat the closed object-tag/berry/flower
 routes, and source-native local transition scoring would substantially repeat
