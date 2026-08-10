@@ -4706,6 +4706,26 @@ reconstructs the stop in 53 checks. No Voynich string was scored. Reopen only
 with an exhaustive explicit FEMALE/NON_FEMALE/UNKNOWN table on all four
 surviving zodiac folios or an independent multi-folio figure-label panel.
 
+A distinct radial-text invariant is now preregistered from public/manual
+metadata. IVTFF explicitly marks text running outside-to-inside as `Ri` and
+inside-to-outside as `Ro`; this is public source information, not a user-
+supplied page class. Of the official 142 radial loci (75 `Ri`, 67 `Ro`), 60
+have at least two complete zero-alternative all-reading STA consensus groups.
+They span 11 pages and five physical folios; `Ri` and `Ro` each span four
+folios with a three-folio bidirectional core. RPE001 will test whether one
+anonymous family is enriched at the physical center endpoint while textual
+first/last reverses. Target-blind calibration caught and removed an impossible
+two-sided design: five folio signs force the minimum two-sided p to 2/32=.0625.
+The frozen max-positive center statistic is identifiable because every locus
+contributes one center and one outer family, so all family effects sum to zero.
+An independent implementation reconstructs the capacity and 48 synthetic
+worlds; distributed center plants pass 8/8 while exact-null, one-folio,
+text-start-only, text-end-only, and one-direction-only controls pass 0/8. No
+real endpoint family has been aggregated or scored. A hash freeze and one
+validated aggregate target are the next authorized step. Even confirmation
+would establish only an anonymous physical-endpoint construction, not a word,
+direction term, meaning, plaintext, or translation.
+
 A new semantic route needs genuinely independent authorial evidence or a new
 invariant capable of falsifying competing meanings. A new model, crop,
 threshold, spelling resemblance, subset, historical analogy, or GPU search is
