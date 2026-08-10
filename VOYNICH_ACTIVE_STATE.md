@@ -5267,6 +5267,16 @@ threshold, feature family, or claim changes, but any positive result remains
 explicitly recovery-qualified because target source rows were opened during
 diagnosis.
 
+The recovery-qualified target is now an independently reconstructed final
+nonconfirmation. The shared top is the binary STA pattern `BA` (also aliased
+by its exact duplicate trigram/presence matrices), with LONG-minus-SHORT
+`+.357143` in each reading, but exact maxT p-values are `.745850` FORWARD and
+`.716797` BACKWARD and standardized magnitude is only `1.889822`; both the
+`.01` familywise gate and `2.5` common-z gate fail. Clean code reproduced all
+100 group joins, 404 raw features, 143 matrix classes, 43 eligible features,
+both complete nulls, controls, JSON, and report in 2,415 checks. Do not mine
+another f69v feature or pairing from this result.
+
 LRG001 now opens one narrow, representation-new bridge from structure toward
 sentence roles. The complete three-reading source-native STA scaffold contains
 **358** manual `L` groups and **2,664** confirmed-prose controls in **109**
