@@ -5811,17 +5811,22 @@ translation evidence. This does not disprove Elu-Sinhala or known-language
 hypotheses in the abstract, and no external gloss has been merged into the
 active grammar.
 
-A genuinely different text-only route has now passed score-blind capacity.
-LRS001 uses complete source-native groups in corrected 5--12-group prose
-records; it is not the archived arbitrary-column, local-trigram, consecutive-
-line, or exact-neighbour substitution work. A TRAIN-only support rule freezes
-66 candidate surfaces and leaves 1,903 movable held CORE targets in 489
-records across 46 pages and 23 physical folios. All nine capacity gates and a
-13-check clean-room reconstruction pass. No predictor or real context/target
-association has been opened. The only authorized next action is a separately
-preregistered, target-blind synthetic calibration in which distant ordered
-record context must beat nuisance and unordered-context controls; a capacity
-pass supplies no schema, meaning, plaintext, or translation.
+A genuinely different text-only route has now passed corrected score-blind
+capacity. LRS001 uses complete source-native groups in corrected 5--12-group
+prose records; it is not the archived arbitrary-column, local-trigram,
+consecutive-line, or exact-neighbour substitution work. Its first capacity
+freeze retained 1,903 targets but used only page/length donor cells. Before any
+model fit, a design audit showed those cells could mix editorial code,
+drawing-interruption state, and record geometry. LRS001-R1 therefore
+supersedes that execution design with an eight-field strict donor cell. The
+same TRAIN-only support rule retains all 66 complete classes and leaves 1,784
+movable targets in 445 records, 118 cells, 40 pages, and 21 physical folios; a
+14-check clean-room reconstruction passes. No predictor or real
+context/target association has been opened. The only authorized next action
+is a separately preregistered, target-blind synthetic calibration requiring
+both `ORDER-BAG` and `ORDER-NUIS`, with fixed-column, page/topic,
+code/drawing, first-order-chain, and concentrated negative controls. A
+capacity pass supplies no schema, meaning, plaintext, or translation.
 
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
