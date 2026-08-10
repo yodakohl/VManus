@@ -5254,6 +5254,26 @@ remain unopened for LRG001. The next action is a separately committed,
 hash-frozen one-shot target plus clean reconstruction; no tuning is permitted
 after target access.
 
+The first sealed LRG001 target invocation did not score. It joined all 2,767
+rows, then stopped before constructing the matrix or writing any output because
+the new code incorrectly spelled the official 24-family alphabet as contiguous
+`A`--`X`. The actual fixed inventory is
+`ABCDEFGHJKLMNPQRSTUVWXYZ` (it excludes `I/O` and includes `Y/Z`); strict target
+data contain two `Z` symbols. This is a representation-contract error, not a
+negative or positive result. Production may not be rerun. Recovery is allowed
+only if a source-frozen reconciliation proves every synthetic feature matrix,
+score, gate, and decision invariant under the corrected name-to-index bijection,
+followed by a separately committed clean scorer with outputs absent. Any
+recovered result must disclose downgraded production provenance.
+
+The required target-blind reconciliation passed 4,377 checks: rebinding only
+the 24 category-name positions to `ABCDEFGHJKLMNPQRSTUVWXYZ` reconstructs all
+136 frozen synthetic records and both 8,192-assignment matrices exactly. This
+establishes that the calibration statistic and gates are unchanged; it is not
+a manuscript result. The next permitted action is one committed, separately
+hash-frozen clean recovery followed by reciprocal reconstruction with the
+frozen production core. No form-level output or tuning is permitted.
+
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
 crop, threshold, spelling resemblance, subset, historical analogy, or GPU
