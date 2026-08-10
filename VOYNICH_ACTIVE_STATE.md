@@ -5476,6 +5476,16 @@ D1-versus-bare and D1-versus-all-other-extension channels to pass. The real
 role association remains unopened, and no prefix/function/meaning follows
 from calibration.
 
+The post-calibration score binding also passes. The exact label-blind 536-by-2
+matrix contains 165 D1/bare and 124 D1/other values; both vary jointly in 53
+cells containing 496 rows on all 13 folios, with 275 rows having held-folio
+support for both D1 and alternative extensions. A clean implementation
+reconstructs it in 22,980 checks. LRG005 is now registered but unscored: the
+one-shot target will reconstruct 144 label and 392 prose roles, preserve all
+68 exact page/length/first-member quotas, and require both channels to pass
+every v3 gate. It may emit only aggregate metrics. Commit and hash freeze with
+all four target/validation outputs absent are mandatory before execution.
+
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
 crop, threshold, spelling resemblance, subset, historical analogy, or GPU
