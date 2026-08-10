@@ -5761,6 +5761,13 @@ frozen to rename only that field to
 `target_profile_and_family_surface_absent=true` and recompute status/decision;
 every world, number, digest, pass, and other gate must remain exact.
 
+V3-R1 now passes and is independently verified in 8,136 exact-delta checks.
+All 64 null worlds reject, all sixteen distributed worlds pass, and all 72
+adversarial worlds reject; every inherited v3 world and numeric/digest leaf is
+unchanged. This authorizes only a separately committed and hash-frozen
+one-time LRG008 aggregate target. No real profile, family surface, or
+label-versus-diagram association has yet been opened.
+
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
 crop, threshold, spelling resemblance, subset, historical analogy, or GPU
