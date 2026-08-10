@@ -1,0 +1,101 @@
+{
+  "assignment_digests": {
+    "EVEN_HELD": "4210baaa7c603cb0325b51fcd24d96cdd29e2c166921d8dceacee7d6697fd591",
+    "ODD_HELD": "5af92410e948288dd80c198b4572f22f825007500af9df1c82a3d7c74644d4b3"
+  },
+  "claim_ceiling": "This is a clean-scorer recovery after the sealed production runner failed before scoring. A pass establishes only a transferable label-associated structural profile under exact page, length, folio-parity, and B/P controls. Neither outcome supplies an identifier, name, noun, object ownership, part of speech, language, meaning, plaintext, or translation.",
+  "counts": {
+    "cells": 101,
+    "feature_columns": 648,
+    "labels": 288,
+    "physical_folios": 13,
+    "prose": 2479,
+    "rows": 2767
+  },
+  "decision": "PROFILE_PROJECTION_AUTHORIZED_AFTER_RECOVERY_VALIDATION",
+  "evaluation": {
+    "directions": {
+      "EVEN_TO_ODD": {
+        "effect": 0.48002317148559454,
+        "folio_count": 6,
+        "folio_effects": {
+          "f75": 0.10045142406671567,
+          "f77": 0.7993643963879422,
+          "f81": 0.6241938766756863,
+          "f83": 0.7603867038624115,
+          "f89": 0.3958077614684705,
+          "f99": 0.1999348664523413
+        },
+        "gates": {
+          "all_deletions_positive": true,
+          "both_sections_at_least_005": true,
+          "concentration_at_most_035": true,
+          "effect_at_least_005": true,
+          "p_at_most_001": true,
+          "positive_folio_support": true
+        },
+        "maximum_absolute_folio_concentration": 0.27754368395524115,
+        "minimum_deletion": 0.41615492650512503,
+        "null_sha256": "78262c4138e0965c44fbc8a2cd24de17d5f38d1cc4145d722d3e9c7ea1da3ef0",
+        "p": 0.00012205541315757354,
+        "passes": true,
+        "positive_folios": 6,
+        "section_effects": {
+          "B": 0.5710991002481889,
+          "P": 0.2978713139604059
+        }
+      },
+      "ODD_TO_EVEN": {
+        "effect": 0.5513044521684606,
+        "folio_count": 7,
+        "folio_effects": {
+          "f100": 0.20988648421412776,
+          "f102": 0.5255220397511289,
+          "f78": 0.9274206134382058,
+          "f80": 0.5209989188056853,
+          "f82": 0.7950661925736495,
+          "f84": 0.33523535710667735,
+          "f88": 0.5450015592897492
+        },
+        "gates": {
+          "all_deletions_positive": true,
+          "both_sections_at_least_005": true,
+          "concentration_at_most_035": true,
+          "effect_at_least_005": true,
+          "p_at_most_001": true,
+          "positive_folio_support": true
+        },
+        "maximum_absolute_folio_concentration": 0.24031850013450762,
+        "minimum_deletion": 0.48861842529016974,
+        "null_sha256": "841feea06f49e0417c3882cc04f96168c8cd70bbfba175881e1b7dd2304d1d0b",
+        "p": 0.00012205541315757354,
+        "passes": true,
+        "positive_folios": 7,
+        "section_effects": {
+          "B": 0.6446802704810546,
+          "P": 0.42680336108500194
+        }
+      }
+    },
+    "even_profile_sha256": "660a4bfc1a141d0d8a90dac7aeeaa1c2d5205db2be5f98d3eaee1ea24c551725",
+    "gates": {
+      "even_to_odd": true,
+      "odd_to_even": true,
+      "profile_cosine_at_least_010": true
+    },
+    "odd_profile_sha256": "b0b0a57b296022289825316cf6cd6e32f0f42431e1ca7a1e91b2ff43560e6d8a",
+    "passes": true,
+    "profile_cosine": 0.8537584725003146
+  },
+  "individual_feature_weights_emitted": false,
+  "label_vector_sha256": "816315cc87b2ebf825ecd8a1d014a79bca5d07dc740bc5f7bdfbbaceb83ef156",
+  "official_alphabet": "ABCDEFGHJKLMNPQRSTUVWXYZ",
+  "original_production_failure_stage": "AFTER_TARGET_JOIN_BEFORE_FEATURE_MATRIX",
+  "original_production_result_exists": false,
+  "recovery_freeze_sha256": "79ef73665f41fbf96966ba7efaaa11fe2e2ae52081ba14fa42d49a1389441a50",
+  "recovery_implementation": "FROZEN_NONIMPORTING_CALIBRATION_VALIDATOR",
+  "status": "RECOVERED_CONFIRMED_TRANSFERABLE_SOURCE_NATIVE_LABEL_PROFILE",
+  "target_matrix_sha256": "476bffe33b8465cfd66ff7145fd0453e2326018753d9fd9e3c7c07a4ff15ae9b",
+  "target_rows_accessed": true,
+  "target_sequences_emitted": false
+}

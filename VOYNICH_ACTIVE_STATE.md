@@ -5279,6 +5279,27 @@ That recovery is now frozen as `LRG001_RECOVERY_FREEZE.json` (SHA-256 prefix
 every recovery/validation output absent. Exactly one clean recovery invocation
 and one reciprocal validation are now permitted.
 
+The clean recovery and reciprocal frozen-core reconstruction now both pass.
+Across the exact 101 page-by-length B/P cells, a profile learned from manual
+labels on odd folios transfers to even folios at `+.551304` and the reverse at
+`+.480023`; both have permutation `p=1/8193`. All 13 held folios are positive,
+both B/P section effects exceed `+.05`, every folio deletion stays positive,
+concentration stays below `.35`, and the independently learned profile cosine
+is `+.853758`. The reciprocal implementation reproduces the complete
+2,767-by-648 matrix, assignment orbits, scores, gates, and decision in 417
+checks with zero discrepancies.
+
+This is the first confirmed source-native construction profile that separates
+manual label groups from exact-page/exact-length prose controls and transfers
+across physical folios in both directions. It is evidence that labels occupy a
+real, recurrent formal register rather than being arbitrary short prose. It
+does **not** establish that labels are identifiers, names, nouns, owners,
+objects, parts of speech, a language, meanings, plaintext, or translation.
+The next permitted route is a new frozen, descriptive projection of this
+aggregate profile onto the corrected prose-segment inventory. Individual
+feature weights and favorable forms remain closed until that projection and
+its controls are independently validated.
+
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
 crop, threshold, spelling resemblance, subset, historical analogy, or GPU
