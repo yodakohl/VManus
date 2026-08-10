@@ -4752,12 +4752,20 @@ caught a degenerate fixture, then a too-permissive `.15` deep-prefix gate; the
 corrected `.25` gate now recovers complete plants 8/8 and rejects exact-null,
 dominant-initial-only, four-name-block-only, and shallow-two-depth-only worlds
 0/8. A nonimporting implementation reconstructs all 40 worlds and both nulls
-in 80 checks. No f69v target prefix topology has been opened. The exact
-18-file target package is now frozen at code commit `b16078c`, with all four
-target and validation outputs absent. One aggregate target invocation followed
-by one independent reconstruction is now authorized. Even a pass
-would support only this roster as a system-family candidate, not a mansion
-mapping, number, name, word, sound, meaning, plaintext, or translation.
+in 80 checks. The exact 18-file package was then frozen at code commit
+`b16078c`, and its single target and independent reconstruction are complete.
+The result is a final nonconfirmation. Reverse rotation 7 has mean phi
+`0.269181`; depth 1 and 2 are `0.523938` and `0.275357`, but depth 3 collapses
+to `0.008247`. The dominant-initial-conditioned p-value passes at `.029537`,
+while the full-null p-value misses the frozen `.01` gate at `.018064`; the
+alignment margin also misses `.03` at `.010020`. Although every one-item
+deletion remains above `.15`, the shallow-only resemblance is insufficient.
+A clean implementation reconstructs all 28 sequences, 56 alignments, both
+8,192-assignment nulls, deletions, gates, and report in 16,502 checks. Close
+this exact Agrippa-roster representation without mining alternate spellings,
+rosters, phases, directions, depths, or thresholds. The 28-count remains
+compatible with lunar mansions and other 28-part systems, but supplies no
+mansion mapping, number, name, word, sound, meaning, plaintext, or translation.
 
 A new semantic route needs genuinely independent authorial evidence or a new
 invariant capable of falsifying competing meanings. A new model, crop,
