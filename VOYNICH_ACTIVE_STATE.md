@@ -5581,6 +5581,14 @@ FIRST and LAST versus CORE; separate A enrichment and D depletion remain
 mandatory component gates. The null preserves every cell's exact A/D/other
 margin. No real family-position association has been opened.
 
+LRG007 target-blind calibration passes after one output-free boolean
+serialization correction. Zero of 64 nulls pass; all eight full and all eight
+reduced distributed transfers pass; and zero of eight in every first-only,
+last-only, one-folio, one-section, one-parity, folio-random, opposite-edge, and
+direction-reversed family pass. Independent code reconstructs all 144 worlds
+in 19,013 checks. This authorizes only a separately registered and hash-frozen
+one-time manuscript target; no A/D prose-position association is yet open.
+
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
 crop, threshold, spelling resemblance, subset, historical analogy, or GPU
