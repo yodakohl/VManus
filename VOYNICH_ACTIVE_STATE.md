@@ -4630,6 +4630,23 @@ Do not concatenate rings or score a universal degree-number stem. Reopen only
 with a human-transcribed degree list plus an independently justified Voynich
 coordinate, or a distinctive one-to-one labelled sequence.
 
+A new position-free zodiac-label route is now open on public rather than
+user-supplied geometry. The Stolfi/Grove catalogue supplies clockwise Grove
+numbers within named INNER, MIDDLE, and OUTER rings; a validated current-locus
+crosswalk supplies the corresponding manual-transcription loci. A strict
+text-blind capacity audit keeps only complete 1..N rings whose every slot uses
+an explicit human Grove key, has a primary one-to-one locus mapping, and is
+present in ZL3b, IT2a, and RF1b. It retains **21 rings, 235 slots, 11 pages,
+and four physical folios**. Four rings were excluded before any text score:
+both f70v1 rings depend on string-cluster mapping, f72r2 OUTER contains the
+known missing label, and f72v1 OUTER has one non-`#` uncertain ordinal. A
+nonimporting implementation reconstructs all 235 rows and the exclusions in
+263 checks. This panel authorizes preregistration and target-blind controls
+for a rotation/reflection-invariant within-ring label-adjacency test. It does
+not assume that a label owns the closest figure, does not concatenate rings,
+and does not provide a serial code, number, degree, sign name, word, meaning,
+plaintext, or translation.
+
 A new semantic route needs genuinely independent authorial evidence or a new
 invariant capable of falsifying competing meanings. A new model, crop,
 threshold, spelling resemblance, subset, historical analogy, or GPU search is
