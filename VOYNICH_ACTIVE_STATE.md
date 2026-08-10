@@ -5486,6 +5486,11 @@ one-shot target will reconstruct 144 label and 392 prose roles, preserve all
 every v3 gate. It may emit only aggregate metrics. Commit and hash freeze with
 all four target/validation outputs absent are mandatory before execution.
 
+LRG005 is now frozen against registration commit `5a6dacc` with 26 exact
+source, capacity, calibration, production, and validation files bound while all
+four target/validation outputs are absent. Exactly one aggregate target and one
+clean reconstruction are authorized; no post-target tuning is permitted.
+
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
 crop, threshold, spelling resemblance, subset, historical analogy, or GPU
