@@ -1254,6 +1254,15 @@ segmentation; do not concatenate across it. This does not show that adjacent
 text names or describes the drawing and adds no word, sound, POS, meaning,
 plaintext, language, cipher, or translation.
 
+A complete source-native drawing-reset atlas now applies that correction. It
+preserves all 23,281 groups exactly once while splitting the 440 unanimous
+drawing boundaries (428 prose, 12 diagnostic nonprose) into 4,012 segments
+across the original 3,572 physical loci. There are 375 multi-segment loci and
+at most five segments in one locus. Independent code verifies every original
+field and every new segment coordinate in 1,001,086 checks. Use the new
+within-segment FIRST/CORE/LAST/SINGLE coordinates for future record-structure
+work, while retaining original physical-line coordinates separately.
+
 A strict duplicate audit rejected two tempting next steps before scoring:
 semantic illustration matching would repeat the closed object-tag/berry/flower
 routes, and source-native local transition scoring would substantially repeat
