@@ -4647,6 +4647,21 @@ not assume that a label owns the closest figure, does not concatenate rings,
 and does not provide a serial code, number, degree, sign name, word, meaning,
 plaintext, or translation.
 
+ZLA001 is now preregistered without an ordered target score. Whole-label STA
+family sequences are compared at physical ring distance one versus
+nonadjacent distances, with a second source-boundary-aware view and an exact-
+record-deleted sensitivity. The pair statistic subtracts the complete length-
+only similarity ceiling, and inference uses 65,536 synchronized nonadjacent-
+distance worlds with equal ring/page/folio aggregation and weakest-reading,
+support, deletion, concentration, and dihedral-invariance gates. The first
+control attempt correctly exposed a too-random third-reading negative that
+accidentally passed 2/8 worlds; replacing only that negative with the already
+registered distance-two construction gives 8/8 distributed positives and
+0/8 for null, one-folio, reading-disagreement, exact-only, length-only, and
+distance-two families. A production-free implementation reconstructs all 56
+worlds and the exact orbit in 4,793 checks. The manuscript STA sequences and
+adjacency effect remain unopened pending a public hash freeze.
+
 A new semantic route needs genuinely independent authorial evidence or a new
 invariant capable of falsifying competing meanings. A new model, crop,
 threshold, spelling resemblance, subset, historical analogy, or GPU search is

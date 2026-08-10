@@ -1,0 +1,37 @@
+{
+  "checks": 4793,
+  "claim_ceiling": "Synthetic calibration reconstruction only; no manuscript adjacency effect, serial code, number, degree, word, meaning, plaintext, or translation.",
+  "experiment": "ZLA001_CONTROL_VALIDATION",
+  "inputs": {
+    "validate_zla001_controls.py": "73fab1652b8dfd3cd638ea135ed263cf02335248fbc56a5af6f5495acdc572a8",
+    "zla001_controls.json": "d602d6b4c15fc7387a5a3d33267a238ae853e92a89856eb93b2e92272e5b7d0b",
+    "zla001_controls_attempt1.json": "700f7ffbdc37a58db5ea2c6b783a3ba154f0b789bdcba21a8e50f18f625b0322",
+    "zodiac_label_cycle_capacity.tsv": "6b075674c867328681e016afcb59fac57dc5d494ce4f3fdbcf9d487b7d5d1033"
+  },
+  "mutations": {
+    "adjacent_null_distance_rejected": true,
+    "deterministic_assignment_serialization": true,
+    "duplicate_assignment_rejected": true,
+    "empty_sequence_rejected": true,
+    "missing_slot_rejected": true
+  },
+  "reconstructed": {
+    "orbit": {
+      "complete_space": 1233125376000,
+      "sha256": "53087b9b2003fb9d12d84b96e660748b3dad8aba52108cdb13c9b18da7c1b7b6",
+      "start": 998706676562,
+      "step": 378007436759
+    },
+    "pass_counts": {
+      "DISTANCE_TWO": 0,
+      "DISTRIBUTED": 8,
+      "EXACT_ONLY": 0,
+      "LENGTH_ONLY": 0,
+      "NULL": 0,
+      "ONE_FOLIO": 0,
+      "READING_DISAGREEMENT": 0
+    },
+    "worlds": 56
+  },
+  "status": "PASS"
+}
