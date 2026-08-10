@@ -5600,6 +5600,15 @@ verification was corrected. V2 now freezes the 18 exact files at commit
 `1bfb594` with all outputs absent; one target execution and one production-free
 reconstruction are authorized.
 
+LRG007 is now a clean final nonconfirmation of the exact both-edge A/D
+transfer. FIRST-minus-CORE is `+.121390`, FWER `p=.016844`, `z=1.8298`, and
+11/16 positive folios. LAST-minus-CORE is descriptively stronger at `+.190619`,
+FWER `p=1/8193`, and 15/16 folios, with positive separate A and D contributions,
+but its `z=2.8734` misses the frozen 3.0 gate. Independent reconstruction passes
+159 checks. Do not rescue LAST alone or relax gates: retain the already
+confirmed aggregate edge register, but do not claim that A/D specifically
+implements it or assign FIRST/LAST semantic names.
+
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
 crop, threshold, spelling resemblance, subset, historical analogy, or GPU
