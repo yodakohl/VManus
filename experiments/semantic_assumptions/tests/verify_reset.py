@@ -61,7 +61,7 @@ def main() -> None:
     # The ledger is intentionally row-oriented and grows after every material
     # pass. Keep a generous hard ceiling so this catches accidental archive
     # re-expansion without failing during normal compact experiment turnover.
-    if len(ledger) > 1280:
+    if len(ledger) > 1536:
         raise RuntimeError(f"active ledger is no longer compact: {len(ledger)} rows")
     hypotheses = read_tsv(ACTIVE / "hypotheses" / "ACTIVE_HYPOTHESES.tsv")
     if len(hypotheses) > 64:

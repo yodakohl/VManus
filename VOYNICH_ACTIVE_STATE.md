@@ -5403,6 +5403,27 @@ LRG004 is now frozen at SHA-256 prefix `694a8e83` against commit `31b48fc`,
 binding 11 exact files while all four target/validation outputs are absent.
 Exactly one all-24 aggregate target and one clean reconstruction are permitted.
 
+That target and its independent reconstruction now confirm exactly two stable
+initial-family associations. Family `A` is label-associated at `+.428933`
+(simultaneous max-statistic `p=1/8193`, 12/13 folios positive); family `D` is
+label-avoided at `-.311309` (`p=1/8193`, 13/13 folios negative). Both remain
+material in B and P, odd and even folios, every folio deletion, and below the
+frozen concentration ceiling. The other 22 families do not register. Clean
+code reconstructs the target in 1,241 checks with zero discrepancies.
+
+The official STA mapping makes this structural result narrower and safer than
+a glyph gloss: family `A` contains the source-native `o`/`y`/`a`/`u`-type
+members and variants, while family `D` contains `q`-type members. Therefore A
+must not be renamed `o`, and D must not yet be called a prefix. Combined with
+the previously confirmed source-native `D1 A1`/literal `qo...` prose-onset
+selection, the live next hypothesis is an exact constructional alternation:
+manual labels may prefer a bare `A+remainder` onset where prose can license a
+`D+A+same-remainder` onset. Before scoring this, audit the closed and active
+routes for any prior exact D-addition/canonicalization test, then require a
+score-blind capacity and matched alternative-prepend controls. Even a pass
+could establish only a marked-versus-unmarked structural state; it would not
+establish sound, wordhood, POS, language, plaintext, or meaning.
+
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
 crop, threshold, spelling resemblance, subset, historical analogy, or GPU
