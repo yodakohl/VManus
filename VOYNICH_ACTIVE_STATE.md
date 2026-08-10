@@ -1213,6 +1213,19 @@ continuity/restart instrument calibration; no family identity, grammar score,
 ownership, word, meaning, plaintext, language, cipher, or translation has been
 opened.
 
+The target-blind reference instrument now passes development gates with all 87
+drawing-target pages excluded from fitting and evaluation. On 13,182 ordinary
+spaces and 1,206 genuine continuation-line resets across 66 scored physical
+folios, a leave-folio-out six-field local family-edge model reaches equal-folio
+AUC .809413 versus .599823 for the length-only control. It is positive on
+65/66 folios, reaches .7434/.8527 in Currier A/B, and exceeds every one of 64
+within-page held-label permutations (plus-one p=1/65). This establishes only
+that known continuation resets have a transferable local reset signature. A
+production-free implementation reconstructs all 14,388 events, every folio and
+register summary, all 64 null worlds, all gates, and the exact report with zero
+numeric difference in 188 checks. This licenses a separately frozen drawing
+target test; it is not itself a drawing-continuity result.
+
 A strict duplicate audit rejected two tempting next steps before scoring:
 semantic illustration matching would repeat the closed object-tag/berry/flower
 routes, and source-native local transition scoring would substantially repeat
