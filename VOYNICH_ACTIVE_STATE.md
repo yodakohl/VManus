@@ -5712,6 +5712,15 @@ occur on three folios and both folio parities remain. No family surface or
 profile score was read. This authorizes target-blind fixed-quota calibration
 only; the actual LRG001 profile-to-role association remains unopened.
 
+LRG008 calibration v1 is now frozen before any profile reconstruction. It
+rank-normalizes only within exact page-by-length cells and uses an 8,192-row
+fixed-quota null. Confirmation will require a material common effect plus both
+`C` and `R` blocks, all A/C/Z sections, both folio parities, five of six
+folios, every deletion, and concentration control. Sixty-four null worlds,
+two distributed-signal strengths, and nine concentrated, one-block,
+metadata-only, random-sign, and reversed adversaries are mandatory. Only
+synthetic scores and quotas may enter this calibration.
+
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
 crop, threshold, spelling resemblance, subset, historical analogy, or GPU
