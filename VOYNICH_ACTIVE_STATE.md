@@ -4468,6 +4468,37 @@ Future circle work must inventory the actual `C/L/R/P` coverage of every page
 before registration; visual circularity and the editorial `C` code are not
 interchangeable.
 
+That inventory is now complete for the public f67--f73 block.  It covers all
+26 page panels, including every f71 panel, seven physical folios, three
+alternate readings, and all four IVTFF roles in 312 page-reading-role rows.
+The public classes comprise seven astronomical, seven cosmological, and twelve
+zodiac panels, and every page has the same role-presence signature in all three
+readings.  On the 23 pages for which the public catalogue states a numeric
+circular-writing count, all 69 reading-specific counts exactly equal the IVTFF
+`C` count.  The three pages lacking a numeric count--f67r2, f67v1, and
+f67v2--have zero `C`, although the public prose for f67r2 still mentions a
+short circular text.  Across the block, all-reading role presence is `C` 23,
+`L` 20, `P` 9, and `R` 10 pages.  The twelve zodiac panels are the only pages
+in the full manuscript with the all-reading `LC` presence signature.  This is
+a complete provenance/capacity atlas, not evidence that the roles share a
+meaning or that either role names an illustrated object.
+
+The atlas enabled one genuinely distinct duplicate-sign test using all twelve
+zodiac panels.  It kept circular `C` and label `L` profiles separate and
+scored the public duplicate Aries and Taurus page pairs by symmetric
+cross-page `C`-to-`L` similarity, never by complete repeated words.  Against
+all 1,485 ways to choose two disjoint page pairs, the public matching ranks
+1,333rd (weakest-reading p=.897643); after removing every `BABA`-ending group,
+it ranks 1,346th (p=.906397).  All three reading scores are negative under both
+representations.  The Taurus pair lies near the bottom of the 66 pairwise
+comparisons, and none of sixteen predeclared single-view deletions rescues the
+result.  Target-blind controls passed, and a production-free implementation
+reconstructed all source joins and eighteen complete 1,485-matching orbits in
+258,030 checks.  Therefore the earlier rare Taurus-page repeat does not extend
+to a transferable sign-level circular-to-label field.  Close this exact route
+without mining views, readings, pairs, or fragments; it supplies no sign name,
+word, meaning, plaintext, or translation.
+
 A new semantic route needs genuinely independent authorial evidence or a new
 invariant capable of falsifying competing meanings. A new model, crop,
 threshold, spelling resemblance, subset, historical analogy, or GPU search is
