@@ -1274,6 +1274,19 @@ all 136 v2 worlds and the 272-cell/2,730-row geometry. The single target is now
 preregistered but remains unopened pending publication of this pre-target
 freeze.
 
+The single frozen co-switch target is now a production-free validated
+nonconfirmation. Across 5,012 strict off-site groups, minimum-reading combined
+alignment is -.050365 with synchronous p=.640625. Family, endpoint, and ordered
+bigram block alignments are all negative (-.097099, -.054500, -.025772) with
+p=.9375, .585938, and .453125; zero of three blocks pass, and held-leaf support
+is only 3/8, 2/8, and 0/8. Alternate-reading agreement remains high (.758479),
+showing that transcription stability is not the problem: the high-to-low
+direction simply does not repeat across physical leaves. Retain the strong
+defining page-side `cho/che` regime, but reject a broader distributed off-site
+formal system/register switch at this calibrated resolution. This permits the
+separate canonicalized latent-form branch; it does not prove that only `o/e`
+changes and supplies no meaning, language, cipher, plaintext, or translation.
+
 A genuinely different source-native morphology route has now been tested. It
 asks whether the first STA family of a synchronized prose group helps
 predict its last family after the second and penultimate families, capped
