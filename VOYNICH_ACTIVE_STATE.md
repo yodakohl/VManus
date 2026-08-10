@@ -5519,6 +5519,16 @@ the exact D1-specific cross-register extension mechanism. It does not retract
 LRG004's stable aggregate A-positive/D-negative initial-family register, but it
 does show that the obvious “labels drop prose q/D1” explanation is inadequate.
 
+LRG006 now opens only the remaining A-family localization. In the same exact
+B/P page-by-length universe, 677 A-initial rows form 69 mixed cells on all 13
+folios (163 label, 514 prose). Exact all-reading A1 versus every other A member
+varies in 51 cells containing 591 rows. Its feature vector is hash-bound, but
+no role contrast has been computed. The D-member branch is closed at capacity:
+only four label rows, three mixed cells, two folios, and one exact triplet
+(D1/D1/D1) exist. A clean implementation reconstructs the capacity in 1,555
+checks. The next action is target-blind two-sided A1 calibration; no D-member
+mining or manuscript target is yet authorized.
+
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
 crop, threshold, spelling resemblance, subset, historical analogy, or GPU
