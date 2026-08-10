@@ -3364,6 +3364,18 @@ computation, or diet sequence; the extensive figure/pool section is unlike a
 single housebook bath image; and the surviving order places it before f85r2,
 opposite the analogous Laufenberg chapter-IV to regimen/bathing order.
 
+A public-source audit now makes the seven-planet limit explicit. The official
+catalogue of Gotha Chart. A 472 dates it to about 1460 and lists a consecutive
+seven-diagram run, but its titles are zodiac circle, year circle, Saturn,
+Jupiter, Mars, Venus, and planetary apsides--not seven individual classical
+planets. The canonical *Theorica planetarum* figures likewise group the three
+superior planets and, in one canonical scheme, Venus with Mercury. Public
+Voynich descriptions also call both f68v1 and f70r2 apparent Sun-face
+diagrams, so the visible Sun motif is not a unique seven-item key. Retain
+*Theorica* only as an astronomical-instrument comparison class, not a
+one-to-one external label donor. This does not exclude planetary or
+astronomical roles and supplies no page name, word, or translation.
+
 The manuscript's 128 human-catalogued herbal and 16 pharmaceutical page
 records are not an anachronistic obstacle to the broad class. Exact
 co-transmission examples include fifteenth-century Nuremberg Hs. 18792, with a
