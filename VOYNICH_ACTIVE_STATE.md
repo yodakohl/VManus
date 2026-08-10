@@ -5589,6 +5589,12 @@ direction-reversed family pass. Independent code reconstructs all 144 worlds
 in 19,013 checks. This authorizes only a separately registered and hash-frozen
 one-time manuscript target; no A/D prose-position association is yet open.
 
+The LRG007 manuscript target is now registered but unscored. It will join the
+hash-bound A/D/other vector once, preserve all 132 exact cell margins, and
+require both FIRST-minus-CORE and LAST-minus-CORE channels to pass every frozen
+gate. Only aggregate output is allowed. Commit the producer and production-free
+validator, then freeze their exact hashes while all four outputs are absent.
+
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
 crop, threshold, spelling resemblance, subset, historical analogy, or GPU
