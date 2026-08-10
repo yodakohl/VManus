@@ -4706,6 +4706,18 @@ reconstructs the stop in 53 checks. No Voynich string was scored. Reopen only
 with an exhaustive explicit FEMALE/NON_FEMALE/UNKNOWN table on all four
 surviving zodiac folios or an independent multi-folio figure-label panel.
 
+A second public human inventory has now been checked without OCR or image
+recognition. Robert Teague's 2007 native-digital `Zodiac Section Nymph
+Overview` tabulates 11 attributes across the twelve zodiac panels on f70--f73.
+Only the `Nymphs` and `Stars` rows are complete; the source does not license
+reading blank cells in the other nine rows as zero. The complete rows total
+299 nymphs and 295 stars, but every positive nymph-minus-star difference is on
+f72 (f72r2, f72r3, and f72v3). An independent live-source reconstruction
+passes 218 checks. This improves the factual inventory but supplies no fair
+independent-folio semantic contrast, so no Voynich string was scored. Reopen
+only if explicit absent/zero states or slot-level positive and negative
+attributes spanning independent folios become available.
+
 A distinct radial-text invariant is now preregistered from public/manual
 metadata. IVTFF explicitly marks text running outside-to-inside as `Ri` and
 inside-to-outside as `Ro`; this is public source information, not a user-
