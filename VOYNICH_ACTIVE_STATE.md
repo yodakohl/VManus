@@ -1131,6 +1131,17 @@ position behavior. This is compatible with register-level surface
 reorganization and does not decide among style, topic, dialect, language,
 encoding regime, POS, sound, meaning, plaintext, cipher, or translation.
 
+The same-section confound audit narrows that statement. Under frozen support
+rules, Herbal section H is the sole section with enough A/B overlap: 14 of the
+25 forms have at least five endpoints and two folios in each register. Inside H
+the A/B log-odds correlation rises to .5926 Pearson/.6291 Spearman, 11 forms
+keep the same sign, two reverse, and one is neutral; all one-form deletions are
+.4922--.8037. Every H-specific A sign and 12/14 B signs agree with their global
+register sign. Partial exact-form sharing therefore is not only a section-mixture
+artifact. Hand, topic, chronology, and production ecology remain confounded,
+so this still cannot distinguish style, dialect, language, encoding regime,
+POS, sound, meaning, plaintext, cipher, or translation.
+
 A strict duplicate audit rejected two tempting next steps before scoring:
 semantic illustration matching would repeat the closed object-tag/berry/flower
 routes, and source-native local transition scoring would substantially repeat
