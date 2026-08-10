@@ -4015,6 +4015,28 @@ COSMOGRAPHICAL MODULE STOCK**, but do not transfer W.73's page order, reorder
 Voynich panels, or count the exposed page analogues again as sequence
 confirmation.
 
+A second source-first audit independently strengthens that module-stock prior
+without improving the label key. NYPL MA 069 (Paris, 1240--1260) combines in
+one computus/De sphaera codex a month-zodiac wheel, a circular letter-number
+cycle, a wind-element-season-quality wheel, Sun--Moon phases, an
+Earth--Moon--Sun--zodiac diagram, and a nineteen-year epact wheel. The 1443
+Wellcome MS.202 supplies a chronologically closer German-hand computus with a
+fourfold astrological and Sun--Moon diagram. Direct human quality control finds
+no one-to-one topology for any f67--f73 panel. Retain the stronger
+**COMPUTUS/COSMOGRAPHY CIRCLE-BLOCK PRIOR**, but not either manuscript as a
+source, ordered donor, Latin key, or translation. In particular, f68r1's 29
+labelled stars contain exactly one manually catalogued central star and hence
+28 noncentral labelled stars. This strengthens a provisional lunar-system
+candidate: 28 is compatible with lunar mansions and 29 with a lunar-month
+count. A source correction also finds genuine medieval count analogues:
+standard tidal rotae have 30 sectors, sometimes 29, with clockwise lunar age.
+They do **not** supply the missing key. The St John's MS 17 witness uses an
+explicit numeric wedge-and-ring topology, whereas f68r1's stars are scattered
+and its alphabetically arranged later label catalogue is not an authorial
+sequence. Retain `28 noncentral + 1 central` and the 29/30 tidal-rota count
+analogy only as system-family evidence; no day, mansion, order, number, name,
+or Voynich form is identified.
+
 The first frozen semantic test of that comparison is now a validated exact
 nonconfirmation. A source-only matrix encoded the explicit effects of the
 twelve W.73 winds while excluding names, directions, neighbours, and generic
