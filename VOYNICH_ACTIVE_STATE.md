@@ -1197,6 +1197,22 @@ the archived partial-parser abstract interpreter; it does not revive its
 substitution classes or add a word, POS, meaning, plaintext, language, cipher,
 or translation.
 
+A fast validated concordance now searches that edition without conflating
+complete groups, internal family substrings, cross-group sequences, exact
+member readings, lossy EVA lookup, structural tags, or manual boundary types.
+This is inspection infrastructure, not a new class model or semantic score.
+Its first route audit exposed one consequential source-native question that
+was hidden by the old parser: whether text continues grammatically across a
+drawing interruption or restarts on the far side. A score-blind panel contains
+428 unanimous drawing interruptions on 87 pages and 59 physical folios, plus
+4,143 unanimous ordinary-space controls on those same pages. Thirty-seven
+folios have at least five targets and the largest folio contributes only 7.24%.
+Targets span Currier A/B and four sections. Independent code reconstructs all
+4,571 masked boundaries in 27,886 checks. This authorizes only target-blind
+continuity/restart instrument calibration; no family identity, grammar score,
+ownership, word, meaning, plaintext, language, cipher, or translation has been
+opened.
+
 A strict duplicate audit rejected two tempting next steps before scoring:
 semantic illustration matching would repeat the closed object-tag/berry/flower
 routes, and source-native local transition scoring would substantially repeat
