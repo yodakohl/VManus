@@ -5448,6 +5448,17 @@ action is target-free fixed-quota calibration with generic-recurrence,
 initial-member-leakage, one-folio, one-section, one-parity, and concentration
 controls; no manuscript target is authorized yet.
 
+LRG005 calibration v1 stopped before target access. It rejected 0/64 nulls and
+all one-folio, folio-random, one-channel, opposite-channel, and cell-constant
+worlds, but recovered only 7/8 full distributed plants and 0/8 half plants;
+two one-section and one one-parity world also leaked through favorable noise in
+the nominally inactive stratum. Independent code reconstructs the complete
+136-world stop in 9,391 checks. The only permitted v2 changes are target-blind:
+add symmetric section/parity balance ratios already motivated by the leaks,
+move the concentration ceiling only to the observed distributed envelope, and
+recalibrate a clearly material distributed power level. The manuscript role
+association and exact target scores remain unopened.
+
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
 crop, threshold, spelling resemblance, subset, historical analogy, or GPU
