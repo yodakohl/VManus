@@ -4551,9 +4551,11 @@ hashes; canonicalizing hashes relative to the selected seam fixes only that
 mechanical control.  A nonimporting implementation then exactly reconstructed
 all three 94-folio calibrations, all five complete synthetic orbits, canonical
 digests, invariances, hashes, and the stopped-attempt diagnosis in 20 aggregate
-checks.  The marker target remained absent.  One hash-frozen target run is now
-authorized; it must still be independently reconstructed before any reset
-claim.
+checks.  The marker target remained absent.  A public freeze now binds 53 exact
+method, source-provenance, data, preflight, runner, and clean-room-validator
+files at commit `c17cce9`, with all four target/result destinations absent.
+One target run is authorized; it must still be independently reconstructed
+before any reset claim.
 
 A public exception audit exposed and corrected an important aggregate-count
 trap in the zodiac `L` inventory.  Across all twelve panels and all 36
