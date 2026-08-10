@@ -1,0 +1,88 @@
+{
+  "advertised_holdout": {
+    "claims_all_three_pass": true,
+    "claims_generalisation": true
+  },
+  "claim_ceiling": "This rejects the audited public decoder and English gloss layer as independent translation evidence. It does not disprove Elu-Sinhala or any other known-language hypothesis in the abstract.",
+  "committed_file_sha256": {
+    "README.md": "172a20a6b8747dedce86bcf64591fb9c2500e2c2b295f4e2f9f4147fa98a861e",
+    "output/voynich_translation.md": "75c2cec3e90b41c598a408dbd15801073e89d16cd2951c35f01c2f878dfe05ef",
+    "results/decoder_specificity.txt": "4af36c313e5796fc96b93ec7c1a077de5009d4b6a6999367e2156c3f283886b3",
+    "results/holdout_validation.txt": "0354f601054eddb336c326918d1591425ceedbf107c3be282acbb148a26c1edc",
+    "run_all.sh": "c7f36748cd7bb0688ba0ac500de5844a740f055f1444b0f04525dd937d9eac5f",
+    "scripts/decoder_specificity_test.py": "571a293a1fa2e9eaac802771d8ff3f5c543ce943a5b79913861af4a4a6f4fe97",
+    "scripts/h12_decoder.py": "96fc6bff28378a813121420bca009aff10fe71bb3a08d51549e9a0f10494c447",
+    "scripts/holdout_validation.py": "6026ff87e4f9ff25620d42eccc2e82bcd72f8696d2acd56a223cdcb118eadc5c",
+    "scripts/pipeline/translate_manuscript.py": "b837430b1138c2c128e28beb0a017682b5d3776e5ec7a222335c832def2213d7",
+    "scripts/v14_decoder.py": "f4c29df0d0462e7575ed033e810b551c5a61419045d55c68c3a9f6eab4ef5b0a",
+    "scripts/v15_decoder.py": "1c47b0ac3f4f69c7e59d7c9f538bcb4a99674f80e1efbef1c9851e527bf32468"
+  },
+  "decision_gates": {
+    "committed_specificity_above_random_mean": false,
+    "held_folio_glosses_train_only": false,
+    "published_output_at_least_half_translated": false,
+    "rerun_specificity_above_random_mean": false,
+    "specificity_in_advertised_gate": false
+  },
+  "experiment": "ESD001",
+  "external_commit": "e608818b754ac79fc86e7f3bdbe3194db2260c51",
+  "public_repository": "https://github.com/kamb-code/Voynich",
+  "published_english_output": {
+    "folios": 225,
+    "gap_slots": 22759,
+    "literal_gap_markers": 22761,
+    "translated_fraction": 0.37183627280505643,
+    "translated_gloss_slots": 13472,
+    "words": 36231
+  },
+  "specificity_committed": {
+    "delta_z": -0.82,
+    "generic_cv_not_rejected": true,
+    "h12_delta_tokens": 10201,
+    "most_specifically_boosted_language": "Hebrew",
+    "random_decoder_count": 200,
+    "random_decoders_meeting_or_beating_h12": 154,
+    "random_mean_delta_tokens": 11819.3,
+    "random_sd_delta_tokens": 1974.2
+  },
+  "specificity_current_source_rerun": {
+    "delta_z": -0.76,
+    "generic_cv_not_rejected": true,
+    "h12_delta_tokens": 10324,
+    "most_specifically_boosted_language": "Latin",
+    "random_decoder_count": 200,
+    "random_decoders_meeting_or_beating_h12": 146,
+    "random_mean_delta_tokens": 11819.3,
+    "random_sd_delta_tokens": 1974.2
+  },
+  "specificity_rerun_sha256": "7be33be250f9482647ea2e2770ccca056852c21de6b9fee4f033b12c05366f0a",
+  "specificity_result_is_stale_against_current_source": true,
+  "static_pipeline_audit": {
+    "english_renderer_uses_exact_eva_vocabulary_lookup": true,
+    "english_renderer_uses_regex_reordering": true,
+    "h12_says_mapping_derived_against_sinhala_dictionary": true,
+    "holdout_in_run_all": true,
+    "holdout_loads_global_curated_vocab_before_split": true,
+    "specificity_in_run_all": false,
+    "v14_accepts_global_meanings": true,
+    "v14_conditionally_selects_using_meanings": true,
+    "v15_selects_strict_dictionary_or_gloss_tier_improvement": true
+  },
+  "status": "REJECT_EXTERNAL_DECODER_AS_TRANSLATION_EVIDENCE",
+  "v20_database": {
+    "evidence_tiers": {
+      "A": 8707,
+      "B": 23780,
+      "C": 4146
+    },
+    "selected_nonindependent_provenance_counts": {
+      "context_gloss_no_direct_external_attestation": 10473,
+      "rule_generated_ch_compound": 4785,
+      "rule_generated_q_compound": 5313
+    },
+    "selected_nonindependent_provenance_fraction": 0.5615428711817214,
+    "selected_nonindependent_provenance_total": 20571,
+    "tokens": 36633
+  },
+  "v20_database_sha256": "df50c831999efde19be5244f015fe555e0afd895ea9a650b0ad83791098e4732"
+}

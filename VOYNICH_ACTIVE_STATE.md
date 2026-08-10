@@ -5792,6 +5792,25 @@ prose** construction profile, but it is not confirmed to distinguish labels
 from other diagram writing. Do not call it an identifier/name/noun profile or
 mine role, section, parity, folio, feature, or form subsets.
 
+One genuinely external claimed full translation has now been audited rather
+than imported. At public `kamb-code/Voynich` commit `e608818`, the project's
+own committed decoder-specificity null puts H12 below its random-decoder mean
+for Sinhala (`z=-.82`; 154/200 random decoders meet or beat it). Re-running
+the same current source changes the committed result bytes but still fails
+(`z=-.76`; 146/200), exposing a stale release result without rescuing the
+mapping. The advertised 23-script gate includes its globally curated odd/even
+holdout but omits this failed specificity test. Its file titled “Complete
+English Translation” contains only 13,472/36,231 translated gloss slots
+(37.18%) and 22,759 gaps; the renderer performs exact EVA-type lookups and
+small regex reorderings rather than deriving clauses. In the later all-filled
+V20 database, 20,571/36,633 tokens (56.15%) belong just to the explicit
+provenance classes “context/gloss assigned, no direct external attestation” or
+rule-generated q-/ch- compounds. A clean 28-check reconstruction confirms the
+audit. Therefore this decoder and gloss layer are rejected as independent
+translation evidence. This does not disprove Elu-Sinhala or known-language
+hypotheses in the abstract, and no external gloss has been merged into the
+active grammar.
+
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
 crop, threshold, spelling resemblance, subset, historical analogy, or GPU
