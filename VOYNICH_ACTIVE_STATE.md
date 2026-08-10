@@ -1363,6 +1363,21 @@ source, runner, and clean-validator files at code commit `da1f68d`; all four
 target/validation artifacts were absent. The single aggregate target and one
 reconstruction are authorized.
 
+The single CCT002 target is now a production-free validated nonconfirmation.
+Canonical opposite-state transfer is 0.05832 raw, but the state-specific
+excess is only +0.00803 versus the frozen +0.05 gate (state p=.28125). The
+true counterpart pairing beats the member-preserving merger mean by only
++0.01032 versus +0.03 (merger p=.03772 versus .01). Reading excesses are
++.00395 ZL, +.00764 IT, and +.01252 RF; folio support, deletion,
+concentration (.6564), prose, diagnostic, and prefix distribution gates also
+fail. `ch` is directionally positive while `sh` is negative in every reading,
+but that is a frozen failed subgroup gate, not authorization for a post-hoc
+`ch`-only claim. Retain the strong defining page-side ratio, but reject a
+useful distributed raw-to-single-`X` latent-form representation at this exact
+resolution. Do not rerun this route with selected prefixes, domains, leaves,
+readings, or weaker thresholds. No word, sound, language, cipher, meaning,
+plaintext, or translation follows.
+
 A genuinely different source-native morphology route has now been tested. It
 asks whether the first STA family of a synchronized prose group helps
 predict its last family after the second and penultimate families, capped
