@@ -5596,7 +5596,9 @@ gate. Only aggregate output is allowed. The first 18-file freeze is invalidated
 before execution: capacity hashes a 4,911-by-2 A/D indicator matrix, while the
 runner compared that hash to the derived 4,911-value A-minus-D vector. All four
 outputs remain absent and no target statistic was computed. Only matrix-hash
-verification is corrected before a new commit and v2 freeze.
+verification was corrected. V2 now freezes the 18 exact files at commit
+`1bfb594` with all outputs absent; one target execution and one production-free
+reconstruction are authorized.
 
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
