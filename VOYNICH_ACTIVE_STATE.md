@@ -1308,6 +1308,22 @@ the corrected segment-form tendencies. Independent code reconstructs the exact
 2.18 MB text in 27,296 checks. This is the current reading/concordance surface
 for future work; it contains exactly zero English glosses.
 
+A compact record-level consensus companion now makes that edition inspectable
+without collapsing transcription uncertainty. It condenses the same 23,281
+groups into 4,012 drawing-reset segment rows, preserving separate ZL/IT/RF STA
+and lossy-EVA expressions plus compact position, adjacency, tendency, edge,
+and path tags. Exactly 1,845 records have byte-identical member codes and
+unanimous internal boundaries; 2,167 retain explicit reading or boundary
+variation. Existing formal evidence resolves 30,079 of 118,732 registered
+transition/tendency opportunities, which is annotation coverage rather than
+translation confidence. A deterministic 26-record inspection packet is drawn
+from 641 stable 5--12-group prose candidates with at most three records per
+section/Currier cell. Independent code reconstructs the complete table,
+packet, result, and report byte-for-byte in 27,332 checks. Use the packet to
+inspect the best-covered formal records and the full table to locate unresolved
+slots; neither supplies a word, POS, sound, meaning, plaintext, language,
+cipher, or translation.
+
 A strict duplicate audit rejected two tempting next steps before scoring:
 semantic illustration matching would repeat the closed object-tag/berry/flower
 routes, and source-native local transition scoring would substantially repeat
