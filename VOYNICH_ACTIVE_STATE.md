@@ -6043,6 +6043,18 @@ the f69 values remain anonymous X1 coordinates. Independent reconstruction
 passes 66 checks. Use this packet for qualified human source acquisition, not
 as a list of word guesses; it supplies no lexical value or translation.
 
+The packet also exposed one worthwhile metadata-only f69 comparator in the
+same FDTW catalogue: *Earth and the Heavens*, Bodleian MS. Arab. c. 90,
+fols. 2b--3a. Its human-curated description contains a real 28-section
+astronomical register, but within a nested 7/28/36/12 scheme of climates,
+star/image sections, constellations, and zodiac sections. It exposes neither
+the 28 readable values nor a cross-manuscript start, direction, or slot
+ownership. Because F69M001 already nonconfirmed the fixed Latin lunar-mansion
+prefix topology, switching to an Arabic spelling roster after that target was
+seen would be a route rerun, not new evidence. A live 20-check reconstruction
+therefore stops this lead before image, paper, or roster validation. Retain it
+as a broad 28-part astronomical comparandum only.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU
