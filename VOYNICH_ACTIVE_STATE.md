@@ -6326,6 +6326,19 @@ Thus the f116v marginal writer used ordinary manuscript surfaces before the
 plain-script-looking continuation; this still creates no equality, gloss,
 reading, word meaning, language, cipher, plaintext, or translation.
 
+A source-bound native-visual check also closes the only local near-miss to the
+`COL001` colour-note stop. The official 2014 Yale image and a public tile from
+the 2004 Beinecke scan both show a tiny low-contrast dark trace within the
+reddish-painted west tuber of f99v plant `[3,4]`. The trace does not yield a
+stable character count or segmentation, cannot be classified as Voynich-style
+or plain-alphabet writing, and does not independently support either a plain
+`p`/`r` or the older `qo???` suggestion. Ordinary-light pixels also cannot
+separate deliberate ink beneath paint from pigment variation, abrasion,
+parchment texture, or another incidental mark. Therefore f99v.45 is not a
+second authenticated Voynich-script under-paint record; f2r.15 remains the
+sole candidate and no colour, character, word, sound, language, cipher,
+plaintext, meaning, or translation follows.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU

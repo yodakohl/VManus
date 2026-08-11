@@ -1,0 +1,79 @@
+{
+  "claim_ceiling": "The two provenance-traceable ordinary-light witnesses show a tiny low-contrast dark trace within the reddish-painted west tuber of f99v plant [3,4], but they do not resolve whether it is deliberate writing, how many characters it contains, or whether it belongs to Voynich script or a plain alphabet. It therefore does not supply a second authenticated Voynich-script under-paint note and establishes no colour, word, sound, language, cipher, plaintext, meaning, or translation.",
+  "decision": "STOP_F99V_MARK_SCRIPT_UNRESOLVED_NO_SECOND_VOYNICH_UNDERPAINT_NOTE",
+  "experiment": "F99V_UNDERPAINT_NATIVE_VISUAL_SCRIPT_CHECK",
+  "method_exclusions": [
+    "OCR",
+    "AUTOMATED_TRANSCRIPTION",
+    "MULTISPECTRAL_INFERENCE",
+    "CLIP_OR_EMBEDDINGS",
+    "IMAGE_SIMILARITY_SCORING",
+    "AUTOMATED_GLYPH_CLASSIFICATION",
+    "ENHANCEMENT_DERIVED_READING",
+    "EXTERNAL_DECODER_CLAIMS"
+  ],
+  "prior_human_annotation": {
+    "certainty": "HEDGED",
+    "local_comment": "Apparent letters on West tuber of plant <f99v>[3,4]. Tiny, but visible in BLI04 under the reddish paint. Is it real?",
+    "locus": "f99v.45",
+    "source_table_sha256": "79c7f06e91f90054aff4cdf27f098a5977d820acdf91f239a14c6ddf553a7f61"
+  },
+  "prior_route": {
+    "decision": "PROVISIONAL_RECORD_FUNCTION_STOP_LEXICAL_UNSCORED",
+    "report_sha256": "60af1cdc1bb97af1594a6946ae7cc158b24ff16d2bb3eb6d933b98eb9801a7"
+  },
+  "relation_gates": {
+    "character_count_stable": false,
+    "deliberate_writing_established": false,
+    "plain_alphabet_classification_established": false,
+    "script_classification_stable": false,
+    "second_voynich_underpaint_note_established": false,
+    "voynich_script_classification_established": false
+  },
+  "schema": "F99V_UNDERPAINT_NATIVE_VISUAL_SCRIPT_CHECK_V1",
+  "sources": {
+    "beinecke_2004_public_tile": {
+      "height": 256,
+      "image_sha256": "d8b0f8a88560a384f89c62d008a71cf6b79a936d1e4b30df940b5fd512f0da3c",
+      "image_url": "https://voynich.jasondavies.com/f99v/5/11/14.jpg",
+      "viewer_sha256": "86fdbb7668148109226796d671e8054f75d238ec662f18bf095d8d4deefb8923",
+      "viewer_url": "https://www.jasondavies.com/voynich/",
+      "width": 256
+    },
+    "yale_2014": {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006247",
+      "height": 3697,
+      "image_sha256": "111f6dfc34b8ecb9230cb5a0d144afef4cbd788048ddda2f440108941c91d5e5",
+      "image_url": "https://collections.library.yale.edu/iiif/2/1006247/full/full/0/default.jpg",
+      "manifest_url": "https://collections.library.yale.edu/manifests/2002046",
+      "width": 2802
+    }
+  },
+  "status": "SOURCE_BOUND_NATIVE_VISUAL_STOP_SCRIPT_UNRESOLVED",
+  "visual_observations": [
+    {
+      "confidence": "HIGH",
+      "observation": "Both ordinary-light witnesses contain a localized low-contrast dark trace within the reddish-painted west tuber of plant [3,4]."
+    },
+    {
+      "confidence": "HIGH",
+      "observation": "The trace is far weaker and less sharply bounded than the ordinary Voynich labels and paragraph writing surrounding the plant row."
+    },
+    {
+      "confidence": "UNRESOLVED",
+      "observation": "The scans do not distinguish deliberate ink beneath paint from pigment variation, abrasion, parchment texture, or another incidental mark."
+    },
+    {
+      "confidence": "HIGH",
+      "observation": "The trace does not yield a stable character count or segmentation shared across the two witnesses."
+    },
+    {
+      "confidence": "HIGH",
+      "observation": "Neither a plain p/r reading nor the older qo??? suggestion is recoverable independently from the pixels."
+    },
+    {
+      "confidence": "HIGH",
+      "observation": "The trace cannot be classified as Voynich-style or plain-alphabet writing at this resolution."
+    }
+  ]
+}
