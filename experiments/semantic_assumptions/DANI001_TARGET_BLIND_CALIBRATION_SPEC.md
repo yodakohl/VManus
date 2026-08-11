@@ -951,13 +951,14 @@ member.  Canonical key sorting, not prose member order, fixes its bytes.
 `core_build` fixes executable path
 `/usr/bin/x86_64-linux-gnu-g++-12`, executable SHA-256
 `1cfb9704049655d08accca3b1aeefd6fc749ef2cfb992ec95a81f39091d7b3ce`,
-and exact `--version` stdout bytes (including the terminal LF):
+and exact `--version` stdout bytes (including exactly two terminal LF bytes):
 
 ```
 x86_64-linux-gnu-g++-12 (Ubuntu 12.4.0-2ubuntu1~24.04.1) 12.4.0
 Copyright (C) 2022 Free Software Foundation, Inc.
 This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
 ```
 
 It also binds the runtime-image digest and exact argv array

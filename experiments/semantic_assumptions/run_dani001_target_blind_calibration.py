@@ -78,7 +78,7 @@ VALIDATION_MD_REL = (
 
 # The calibration-spec digest is filled only after the amendment is final.
 CALIBRATION_SPEC_SHA256 = (
-    "ac2dba88490313bbee7efba9532ae826ecaf45f8430a293cba725b7e3ba46716"
+    "f38de851d96e5fbb3a9a8bbb7ecd9c925ee34e4cb1c181970b6f582fbdea9c32"
 )
 SCIENCE_SPEC_SHA256 = (
     "cc73479b3c35eaa87a3f56184fc3472fe6232b67c13deb3bf30ef8555a6c8426"
@@ -174,6 +174,12 @@ RUN_READ_RELS = frozenset((
 ))
 FROZEN_CXX = "/usr/bin/x86_64-linux-gnu-g++-12"
 FROZEN_CXX_SHA256 = "1cfb9704049655d08accca3b1aeefd6fc749ef2cfb992ec95a81f39091d7b3ce"
+FROZEN_CXX_VERSION_STDOUT = (
+    "x86_64-linux-gnu-g++-12 (Ubuntu 12.4.0-2ubuntu1~24.04.1) 12.4.0\n"
+    "Copyright (C) 2022 Free Software Foundation, Inc.\n"
+    "This is free software; see the source for copying conditions.  There is NO\n"
+    "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n"
+).encode("utf-8")
 COMPILE_ARGV = (
     FROZEN_CXX, "-std=c++20", "-O3", "-DNDEBUG", "-fPIC", "-shared",
     "-fopenmp", "-fno-fast-math", "-ffp-contract=off",
@@ -4385,13 +4391,7 @@ def _create_freeze(
         runtime = _runtime_projection(core_library=library)
     finally:
         shutil.rmtree(core_directory, ignore_errors=True)
-    expected_version = (
-        "x86_64-linux-gnu-g++-12 (Ubuntu 12.4.0-2ubuntu1~24.04.1) 12.4.0\n"
-        "Copyright (C) 2022 Free Software Foundation, Inc.\n"
-        "This is free software; see the source for copying conditions.  There is NO\n"
-        "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n"
-    ).encode("utf-8")
-    if compiler_version != expected_version:
+    if compiler_version != FROZEN_CXX_VERSION_STDOUT:
         raise DANI001CalibrationError("full compiler version bytes drift")
 
     read_allowlist = [
@@ -5758,6 +5758,15 @@ def _source_free_smoke() -> dict[str, object]:
         "OUTPUT_STAGING_TWO_FILES",
     ):
         raise DANI001CalibrationError("temporary allowlist smoke failed")
+    if (
+        len(FROZEN_CXX_VERSION_STDOUT)
+        - len(FROZEN_CXX_VERSION_STDOUT.rstrip(b"\n")) != 2
+        or not FROZEN_CXX_VERSION_STDOUT.endswith(b"PURPOSE.\n\n")
+        or b"\r" in FROZEN_CXX_VERSION_STDOUT
+    ):
+        raise DANI001CalibrationError(
+            "frozen compiler-version terminal-LF smoke failed"
+        )
     return {
         "status": "PASS_SOURCE_FREE_RUNNER_SMOKE",
         "accepted_preimages": len(accepted),
@@ -5774,6 +5783,7 @@ def _source_free_smoke() -> dict[str, object]:
         "locale_timezone_live": True,
         "local_binding_checks": len(local_bindings),
         "source_present_codes": len(source_present),
+        "compiler_version_terminal_lf": 2,
     }
 
 

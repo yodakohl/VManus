@@ -5934,6 +5934,10 @@ static audit. Its canonical manifest fixes 238 synthetic worlds, 20 mutations,
 and 737 assertions, and the interval-pruned core completes no rank-zero leaf.
 The next authorized action is publication of those preregistered bytes followed
 by a hash-only freeze; neither step opens the observed assignment.
+The first freeze invocation stopped output-free because the live frozen
+compiler banner has two terminal LF bytes while the preregistration encoded
+one; that exact byte contract must be corrected, re-audited, and republished
+before another freeze attempt.
 
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,

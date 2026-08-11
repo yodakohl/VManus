@@ -59,8 +59,8 @@ VALIDATION_REPORT_REL = "experiments/semantic_assumptions/results/dani001_target
 
 SCIENCE_COMMIT = "1faa87f"
 SCIENCE_SHA = "cc73479b3c35eaa87a3f56184fc3472fe6232b67c13deb3bf30ef8555a6c8426"
-CALIBRATION_SHA = "ac2dba88490313bbee7efba9532ae826ecaf45f8430a293cba725b7e3ba46716"
-MANIFEST_SHA = "47a1cf8619e605c85af12a163e56ba3da81d3e845c6ed93ece82cf2d9db5ed69"
+CALIBRATION_SHA = "f38de851d96e5fbb3a9a8bbb7ecd9c925ee34e4cb1c181970b6f582fbdea9c32"
+MANIFEST_SHA = "0931be3e683d2badcdaa08bf125de5f4a4b6dbe292305197c663f6cdf3075f80"
 
 SCHEMA_MANIFEST = "dani001-synthetic-manifest-v1"
 SCHEMA_RESULT = "dani001-target-blind-calibration-result-v1"
@@ -2961,7 +2961,7 @@ COMPILER_VERSION = (
     "x86_64-linux-gnu-g++-12 (Ubuntu 12.4.0-2ubuntu1~24.04.1) 12.4.0\n"
     "Copyright (C) 2022 Free Software Foundation, Inc.\n"
     "This is free software; see the source for copying conditions.  There is NO\n"
-    "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n"
+    "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n"
 ).encode()
 CORE_ARGV = (
     "/usr/bin/x86_64-linux-gnu-g++-12", "-std=c++20", "-O3", "-DNDEBUG", "-fPIC",
@@ -4289,6 +4289,12 @@ def run_registered(expected_freeze_sha: str) -> None:
 
 
 def self_test() -> None:
+    if (len(COMPILER_VERSION) != 266 or
+            digest(COMPILER_VERSION) !=
+            "f5d8ad262fbd6d79034794c9156b9f005633b17b3a171eb379a1604c8ec6c7be" or
+            not COMPILER_VERSION.endswith(b"PURPOSE.\n\n") or
+            COMPILER_VERSION.endswith(b"\n\n\n")):
+        raise ValidationStop("frozen compiler banner byte guard")
     for width in (4, 6):
         for rank in (0, 1, math.factorial(width) // 2, math.factorial(width) - 1):
             if rank_perm(unrank_perm(width, rank)) != rank:
