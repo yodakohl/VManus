@@ -6209,6 +6209,21 @@ image. Strengthen only the wind/directional-cosmography source-family prior;
 transfer no wind, direction, bust, crown, person, sex, face, slot, label,
 word, sound, language, cipher, plaintext, meaning, or translation.
 
+A targeted source clarification closes the paper's `K f45v` branch before
+image review. Occitanica identifies `K` as the complete fourteenth-century
+*Breviari d'amor* manuscript British Library Harley 4940, and the British
+Library independently dates it to the mid-fourteenth century and lists French
+and Old Occitan. Haruna's `illustration n° 29` is the work's internal
+illustration inventory item after verse 6112, not a displayed figure 29 in the
+paper; the article's own figure captions stop at 22. Most importantly, Haruna
+states that inscription-explained details differ between the two authors even
+though similar pictorial ideas are used. K f45v is therefore an
+art-historical wind-rose homologue, not a shared inscription key. Do not copy
+the Sainte-Geneviève cardinal names onto K or f67v2, and do not pursue this
+paper or inaccessible imagery further without a new human-published owned
+slot map. Independent live source-text reconstruction passes 15 checks with
+zero image, OCR, automated-vision, or decoder-claim access.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU
