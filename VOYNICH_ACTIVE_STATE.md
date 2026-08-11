@@ -6127,6 +6127,21 @@ checks. This is a catalogue-description no-find, not proof that no matching
 image exists; OMCI currently supplies no new special-circle acquisition lead
 worth image or paper review.
 
+The Warburg Institute Iconographic Database has now received the same bounded
+metadata-first screen without opening assets or papers. Fourteen fixed public
+queries and 49 complete human catalogue records cover 18 `twelve winds`
+records, Durham Hunter 100 f16v, and 30 `Sun Moon stars` records. The winds
+panel divides into 12 cosmographic records and six Homeric winds-in-skins
+records, but none states a readable owned circular sequence. Hunter 100 is a
+confirmed element-quality-season diagram but states neither four people nor
+an owned two-register relation. The Sun--Moon--stars panel contains three
+ordinary sphere diagrams, 26 Creation records, and one emblem, with no record
+stating the full f68r2 topology. An independent live reconstruction passes 23
+checks. Stop this catalogue before image or paper review; continue registry-
+directed acquisition elsewhere and transfer no person, direction, season,
+element, quality, object, label, word, sound, language, cipher, plaintext,
+meaning, or translation.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU
