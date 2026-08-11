@@ -6019,6 +6019,18 @@ targeted acquisition of one of the exact requested observations in
 `translation_anchor_acquisition_registry_v1.tsv`, not another model or rerun.
 An independent nonimporting reconstruction passes 76 checks.
 
+The first registry-directed public-data screen also stops cheaply before
+images. The 2026 human-curated *From Data to Wisdom* catalogue exposes 263
+unique manifest descriptions. Twelve mention both a circular layout and
+elements or qualities, but zero also describe four human
+figures/personifications and readable markings. An independent live metadata
+reconstruction passes 20 checks and reproduces the complete 263-row projection
+byte-for-byte. Harley 3099 and the other indexed diagrams remain broad
+comparanda only; this new catalogue does not supply the missing f57v
+four-person, explicitly owned, two-register homologue. Do not escalate this
+source to image or paper validation. Continue with the other exact acquisition
+requests in the registry.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU
