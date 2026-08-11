@@ -1324,6 +1324,20 @@ inspect the best-covered formal records and the full table to locate unresolved
 slots; neither supplies a word, POS, sound, meaning, plaintext, language,
 cipher, or translation.
 
+A transparent cross-folio analogue index now turns the 26-record packet into
+an explicit comparison surface rather than an invitation to cherry-pick.
+Every target is compared with every stable confirmed-prose record having the
+same Currier state and exact group count on another physical folio: 1,078
+candidate pairs in total, with at least 10 candidates across at least eight
+other folios per target. The compact index retains the top three candidates
+under separately reported formal, family, exact-member, and favored-path
+distances. Independent code reconstructs both tables, result, and report
+byte-for-byte in 41,838 checks. There are zero exact surface-blind formal
+matches, so these are approximate inspection analogues, not parallel passages
+or repeated sentences. Use them only to compare constructional shapes; no
+referent, word, POS, sound, language, cipher, meaning, plaintext, or
+translation follows.
+
 A strict duplicate audit rejected two tempting next steps before scoring:
 semantic illustration matching would repeat the closed object-tag/berry/flower
 routes, and source-native local transition scoring would substantially repeat

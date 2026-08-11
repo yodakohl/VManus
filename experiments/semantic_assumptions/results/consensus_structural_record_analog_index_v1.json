@@ -1,0 +1,48 @@
+{
+  "claim_ceiling": "Deterministic cross-folio formal-neighbor concordance only; no repeated sentence, parallel passage, referent, word, POS, morphology, sound, language, cipher, plaintext, meaning, or translation follows.",
+  "counts": {
+    "candidate_pairs": 1078,
+    "exact_structure_matches": 0,
+    "maximum_candidate_folios": 42,
+    "maximum_candidate_pool": 114,
+    "minimum_candidate_folios": 8,
+    "minimum_candidate_pool": 10,
+    "packet_rows": 78,
+    "same_section_pairs": 344,
+    "source_records": 4012,
+    "stable_prose_candidates": 1240,
+    "targets": 26,
+    "top_candidate_sections": {
+      "B": 8,
+      "H": 10,
+      "P": 3,
+      "S": 5
+    }
+  },
+  "decision": "RETAIN_TRANSPARENT_FORMAL_NEIGHBORS_FOR_HUMAN_INSPECTION_ONLY",
+  "english_glosses": 0,
+  "experiment": "CONSENSUS_STRUCTURAL_RECORD_ANALOG_INDEX_V1",
+  "inputs": {
+    "CONSENSUS_STRUCTURAL_RECORD_ANALOG_INDEX_SPEC.md": "c159e350b855cec24c2b52c43bc59d4120030eb8ccec1cf98744fd13bb9984b2",
+    "build_consensus_structural_record_analog_index.py": "f6905e0e4bcee67869e97037fdbc77762236091ea72761fe2b016617c9beb4a0",
+    "consensus_structural_record_interlinear_v1.tsv": "7c375a9336588096e657917548eb3f2038828d9d6d42b75da2d24b57ccd3f387",
+    "consensus_structural_record_interlinear_v1_validation.json": "368d1be6a70c403f77abb5f87e3c0635bea1cf084c6b7408530cbf857c2e1533"
+  },
+  "metric": {
+    "candidate_pool": "same Currier + exact group count + different physical folio",
+    "ranking": [
+      "structure_distance",
+      "family_distance",
+      "sta_member_distance",
+      "favored_path_distance",
+      "same_section_desc",
+      "segment_id_utf8"
+    ],
+    "top_neighbors_per_target": 3
+  },
+  "outputs": {
+    "consensus_structural_record_analog_index_v1.tsv": "98bda36e420025bdcb2be72de7c800cd271537f0df187fb8e19ba0c71c7a968c",
+    "consensus_structural_record_analog_packet_v1.tsv": "f759a06297bfed0e91e7170f08387db2b74a3887dfddcb177db3a0b3c5881a2d"
+  },
+  "status": "PASS_DESCRIPTIVE_CROSS_FOLIO_ANALOG_INDEX"
+}
