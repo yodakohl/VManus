@@ -6178,26 +6178,26 @@ directed acquisition elsewhere and transfer no person, direction, season,
 element, quality, object, label, word, sound, language, cipher, plaintext,
 meaning, or translation.
 
-Biblissima's human iconographic thesaurus supplies one stronger registry-
-directed lead that clears a human-inspection gate without clearing a source-
-transfer gate. A fixed 24-record fourfold family contains 13 published
+Biblissima's human iconographic thesaurus supplied one stronger registry-
+directed lead. A fixed 24-record fourfold family contains 13 published
 inscriptions; BnF Latin 4922 f1v is a digitized late-fourteenth-century Norwich
 *Polychronicon* diagram catalogued as `Âges, humeurs, saisons, éléments`.
 Mandragore preserves `quatuor sunt etates (humores/partes anni/elementa)` and
-`frigidus et humidus...`. The current human metadata nevertheless names no
-four people or portraits, states no ownership of two four-item registers, and
-fixes no start or orientation. An independent live reconstruction passes 20
-checks. Retain Latin 4922 f1v for qualified human topology inspection through
-the official Gallica witness, but do not open it with OCR or automated vision
-and do not transfer an age, humour, season, element, person, slot, label, word,
-sound, language, cipher, plaintext, meaning, or translation to f57v.
+`frigidus et humidus...`. The metadata screen and its independent 20-check
+reconstruction remain valid.
 
-The official Gallica APIs cannot reduce that human-review task to a safe canvas
-number. The IIIF manifest contains 199 sequential canvases all labelled `NP`
-and no logical ranges; the Pagination service independently returns 199 `NP`
-entries of type `N` with no legends. A live nonimporting reconstruction passes
-20 checks. Do not infer a cover/flyleaf offset. The reviewer must navigate the
-official whole-manuscript witness to physical f1v manually.
+The later native-vision authorization now resolves the associated canvas stop.
+The Gallica manifest still has 199 `NP` canvases and no logical ranges, but
+manual repository-order inspection needs no guessed offset: f1 is blank, and
+f2 is the first content spread whose right-hand page contains the uniquely
+matching diagram. The source is a large dark-edged circular field with many
+irregular labeled compartments and a small figural scene at the upper rim. It
+has no four central people, four annular writing bands, four figure-near
+labels, four radial titles, owned pair of four-item registers, or common start
+and orientation with f57v. Stop this source at visual topology mismatch. Its
+readable ages, humours, seasons, elements, and qualities transfer no f57v
+value, slot, label, word, sound, language, cipher, plaintext, meaning, or
+translation.
 
 Biblissima's complete 18-record `Rose des vents` title family now supplies two
 additional registry-directed pages that clear the qualified-human inspection
