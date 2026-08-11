@@ -5240,7 +5240,7 @@ that page. Retain that slot as UNKNOWN rather than adjudicating it. This
 catalogue supplies no BARREL, direction, sex, clothing, crown, or star lexeme.
 
 The same public catalogue contains a superficially stronger pharmaceutical
-contrast, but it also stops before a text score. A conservative parser finds 82
+contrast. A conservative parser finds 82
 unhedged, non-mixed DARK/LIGHT root descriptions on six physical folios, with
 both states on five. Only 56 have primary current-locus mappings, however, and
 the public layout prose marks 32 of those pairings as assumed/ambiguous, 14 as
@@ -5248,8 +5248,26 @@ count-only, six without a pairing statement, and only four as explicitly
 clear. All four clear cases are on f100. A later detailed public description
 agrees with three of their root-colour states but calls the root in
 `STOLFI_BEST_1395` DARK where the older catalogue called it LIGHT; that state
-remains UNKNOWN. Thus this does not reopen proximity ownership: no transferable
-clear-pairing DARK/LIGHT panel, colour stem, word, or meaning is established.
+remains UNKNOWN.
+
+That ownership stop is now prospectively repaired by source-bound native visual
+inspection, without opening any label string. The complete 48-row held primary
+panel on f89/f99/f100/f101/f102 contains 22 visually clear one-fragment/one-label
+cells, one ambiguous nearest-neighbour case, and 25 legacy `.x.#` locations
+that remain unresolved rather than being guessed. Excluding the one frozen
+root-state conflict leaves 21 eligible clear pairings: six DARK and 15 LIGHT.
+DARK spans f89/f100/f102, LIGHT spans f89/f100, and the largest folio contributes
+11/21=.524, below the frozen .60 ceiling. A 350-check source/image validator
+refetches and hash-matches all ten official Yale canvases and reconstructs the
+masking, eligibility, and gate arithmetic; the native visual grades themselves
+remain machine-authored observations, not literal human annotation.
+
+This result authorizes only a separate preregistration while the 21 label
+surfaces remain sealed. The immediate next route is to freeze a small,
+physical-folio-aware DARK/LIGHT label test with an exact null and concentration
+controls before any label identity is opened. No DARK, LIGHT, ROOT, colour
+stem, word, sound, language, cipher, plaintext, meaning, or translation is yet
+established.
 
 The same-register ROOT-only versus PLANT-fragment contrast is also closed at
 capacity, without opening a Voynich label string. The public catalogue has 154
