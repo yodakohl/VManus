@@ -6163,6 +6163,22 @@ entries of type `N` with no legends. A live nonimporting reconstruction passes
 20 checks. Do not infer a cover/flyleaf offset. The reviewer must navigate the
 official whole-manuscript witness to physical f1v manually.
 
+Biblissima's complete 18-record `Rose des vents` title family now supplies two
+additional registry-directed pages that clear the qualified-human inspection
+gate without clearing source transfer. Bourges BM Ms. 105 f95v (1090--1110)
+is catalogued with profile and frontal heads, a circle, cardinal points, winds,
+and blowing. Bibliothèque Sainte-Geneviève Ms. 1029 f135 (1345--1355) is
+catalogued with a man, woman, heads in medallions, identification inscriptions,
+a circle, and winds. Both have Initiale provenance and page-embedded IIIF
+locators. Neither record publishes an inscription transcription, exact
+cardinality, complete owned ordered register, common slot coordinate, start,
+or orientation. The same bounded screen finds zero Sun--Moon--stars title in
+the complete three-record Sun/Moon family, so it supplies no f68 candidate. An
+independent live reconstruction passes 22 checks. Retain only the two wind
+pages for qualified human topology inspection; do not use OCR or automated
+vision and transfer no direction, wind, person, head, sex, object, label,
+word, sound, language, cipher, plaintext, meaning, or translation.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU
