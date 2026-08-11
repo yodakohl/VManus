@@ -6031,6 +6031,18 @@ four-person, explicitly owned, two-register homologue. Do not escalate this
 source to image or paper validation. Continue with the other exact acquisition
 requests in the registry.
 
+A compact source-native human-review packet now makes four of those requests
+operational. It contains exactly 38 physical loci and 113 present ZL/IT/RF
+reading rows: f2r.15, both four-item f57v registers, the complete f68r2.31
+Sun-ring sequence, and the 28 f69v radial slots in their fixed public cyclic
+order. Each row carries its official Yale witness link, any exact human
+annotation, the raw alternate readings, and the observation required to
+reopen the route. IT2a alone lacks f2r.15; no reading is imputed. The f57
+HOT/MOIST/COLD/DRY strings are explicitly `_POSITION` structural roles, and
+the f69 values remain anonymous X1 coordinates. Independent reconstruction
+passes 66 checks. Use this packet for qualified human source acquisition, not
+as a list of word guesses; it supplies no lexical value or translation.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU
