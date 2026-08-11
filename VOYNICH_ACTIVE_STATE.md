@@ -6251,6 +6251,20 @@ image. Strengthen only the wind/directional-cosmography source-family prior;
 transfer no wind, direction, bust, crown, person, sex, face, slot, label,
 word, sound, language, cipher, plaintext, meaning, or translation.
 
+Source-bound native inspection now resolves the remaining topology question.
+Sainte-Geneviève MS 1029 f135 visibly has twelve busts in one annulus: four
+large crowned busts on the principal axes with exactly two smaller busts
+between each pair. The four human-published cardinal names occupy distinct
+positions in the central disk and align radially with the four crowned busts,
+so the source itself has a positional four-by-three cardinal-wind map. f67v2
+does not share it. Its detached corner clusters contain 3, 4, 4, and 3 faces
+clockwise from northwest, fourteen total, with no crowns or continuous
+annulus. Four strings on the axes around its central rosette are the closest
+source-like register, but they do not connect to the corner clusters and no
+common orientation survives. Retain only
+`FOUR_AXIS_PRINCIPAL_WIND_OR_DIRECTION_REGISTER_CANDIDATE` as an unconfirmed
+structural role; transfer none of the source's four names or directions.
+
 A targeted source clarification closes the paper's `K f45v` branch before
 image review. Occitanica identifies `K` as the complete fourteenth-century
 *Breviari d'amor* manuscript British Library Harley 4940, and the British
