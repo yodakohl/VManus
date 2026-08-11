@@ -6055,6 +6055,18 @@ seen would be a route rerun, not new evidence. A live 20-check reconstruction
 therefore stops this lead before image, paper, or roster validation. Retain it
 as a broad 28-part astronomical comparandum only.
 
+The same catalogue supplies no exact f68r2 homologue at metadata resolution.
+An explicit all-record screen retains five broad descriptions containing a
+circle/concentric scheme, Sun, Moon, and stars/constellations: a computus
+*Horologium*, a geocentric-spheres diagram, two elemental/celestial schemes,
+and a creation miniature. None describes the distinctive complete f68r2
+relation of upper Moon and lower Sun medallions, a star circle connecting them,
+labelled interior stars, and separate circular text owned by both medallions.
+An independent 27-check reconstruction live-refetches all five retained
+manifests. This is a catalogue-metadata no-find, not proof that no matching
+image exists; stop this source before image or paper review and retain the five
+rows only as broad comparanda.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU
