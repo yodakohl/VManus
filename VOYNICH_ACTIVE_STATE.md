@@ -6500,6 +6500,20 @@ main-hand sequence plus an explicit equivalence relation; infer no character,
 number, month word, sign name, sound, language, cipher, plaintext, meaning, or
 translation.
 
+A genuinely filler-blind structural-slot selection now repairs the leakage in
+the older analogue index, whose tie-breaks included family and member distance.
+The new selector reads 641 stable confirmed-prose records and masks 2,191
+interior occupants before applying a fixed five-level neighbour-shell
+coarsening ladder. Exact shells are too sparse, but the first admissible level,
+using exact Currier/record length/ordinal plus only the two neighbours'
+first/last-tendency and edge/core tags, yields one unique passing context. It
+occurs ten times on nine physical folios across Herbal and Pharmaceutical
+sections. Independent code reconstructs the ladder and selection in eight
+checks and confirms that family, member, and lossy-EVA fields never enter the
+selector. This authorizes one exact unmask of those ten already frozen
+occupants. It does not yet supply a word, POS, morpheme, sound, language,
+cipher, plaintext, meaning, or translation.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU
