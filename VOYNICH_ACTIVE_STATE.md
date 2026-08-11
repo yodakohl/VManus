@@ -5285,6 +5285,18 @@ contract permits one transparent versioned correction, but not a silent gate
 waiver or repeated tuning. No DARK, LIGHT, ROOT, colour stem, word, sound,
 language, cipher, plaintext, meaning, or translation is established.
 
+`PRC001R2_SOURCE_CONTRACT_CORRECTED_TARGET_SPEC.md` is that one permitted
+versioned correction. It excludes only the exposed nonstrict
+`STOLFI_BEST_1163` row and missing `STOLFI_BEST_1267` locus, accepts the actual
+`DIAGNOSTIC_NONPROSE` scope, and otherwise preserves PRC001's feature universe,
+statistic, thresholds, transfer rule, and deletion tests. Before state scoring,
+source reconstruction gives exactly 17 discovery labels (f89 2/7 DARK/LIGHT;
+f100 2/6), 306 unfiltered and 48 filtered features, and a 1,008-world exact
+orbit. The feature-list hash is frozen, both f102 DARK labels remain directional
+transfer targets, and all four R2 outputs are absent. One public, hash-bound
+target execution is authorized; no further source-contract repair or feature
+retuning is permitted.
+
 The same-register ROOT-only versus PLANT-fragment contrast is also closed at
 capacity, without opening a Voynich label string. The public catalogue has 154
 unhedged records and the validated crosswalk retains 118 primary mappings (90
