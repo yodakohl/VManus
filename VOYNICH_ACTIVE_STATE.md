@@ -178,6 +178,18 @@ independent samples. Structural tags must remain distinct from translations.
   direct human inspection. Human labels must not have been generated or filled
   in by an image/OCR model.
 
+On 2026-08-11 the user authorized one narrow capability test outside that
+default exclusion: direct AI visual description of the official Yale f57v
+canvas. The exception does not authorize OCR, CLIP, embeddings, image
+similarity, object naming, glyph transcription, or semantic transfer and does
+not retroactively admit any excluded visual result. The source-bound pilot
+finds four annular writing bands and four central figures around a rosette,
+with four figure-near inscriptions and four radial inscriptions between the
+figures. No drawn leader, bracket, or separate enclosure assigns a nearby
+inscription to a specific figure, so the existing `PROXIMITY_ONLY` ownership
+state remains. This is machine-derived visual description, not human
+annotation, and supplies no lexical value or translation.
+
 ## What is deliberately inactive
 
 Botanical identification, literal bathing labels, zodiac/astronomical
