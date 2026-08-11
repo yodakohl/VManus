@@ -6156,6 +6156,13 @@ the official Gallica witness, but do not open it with OCR or automated vision
 and do not transfer an age, humour, season, element, person, slot, label, word,
 sound, language, cipher, plaintext, meaning, or translation to f57v.
 
+The official Gallica APIs cannot reduce that human-review task to a safe canvas
+number. The IIIF manifest contains 199 sequential canvases all labelled `NP`
+and no logical ranges; the Pagination service independently returns 199 `NP`
+entries of type `N` with no legends. A live nonimporting reconstruction passes
+20 checks. Do not infer a cover/flyleaf offset. The reviewer must navigate the
+official whole-manuscript witness to physical f1v manually.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU
