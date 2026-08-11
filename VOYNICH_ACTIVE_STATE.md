@@ -6317,6 +6317,15 @@ future independently convergent diplomatic reading may constrain usage, but
 the images currently supply no word, sound, language, glossary entry, cipher,
 plaintext, meaning, or translation.
 
+An exact literal-surface follow-up separates the two marginal spans. On f116v,
+`oror` recurs at nine physical loci, six in confirmed prose, and `sheey` recurs
+at 153 loci, 146 in confirmed prose. The two also share the prose row f112v.10,
+but exact adjacent `oror sheey` is unique to f116v. On f17r, exact `oteeeon`
+and `oiil` occur only at the marginal locus, and their pair does not recur.
+Thus the f116v marginal writer used ordinary manuscript surfaces before the
+plain-script-looking continuation; this still creates no equality, gloss,
+reading, word meaning, language, cipher, plaintext, or translation.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU
