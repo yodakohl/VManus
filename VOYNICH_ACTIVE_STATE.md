@@ -5274,6 +5274,21 @@ machine-authored source-bound observations, not human annotations. No clothing
 word, zodiac name, sound, language, cipher, plaintext, meaning, or translation
 is established.
 
+The prospective star-tail attribute stops at the cheaper capacity stage. The
+underlying public `f73r.S2` unit note corrects compact-catalogue inner figures
+#8 and #9 to *no tail* (the first is the figure's arm), so those two historical
+`STAR_TAIL` tags must not be reused. Complete source-bound grading of five
+rings on f72r3/f73r gives 56 positions and 39 strict current-locus labels.
+Four strict page-ring strata are mixed and would provide 4,158 cyclic worlds,
+but the mixed f73 panel contains only one strict TAIL positive against ten
+NO_TAIL labels. The sole documented f70 tailed star is not primary-eligible
+and has no strict position key. `ZST001` therefore stops before constructing
+any formal feature or scoring any association: a second-folio result would
+depend on one drawing and could not survive deletion. Reopen only with new
+source-bound strict within-ring tail positives on another physical folio. No
+star-tail word, zodiac name, sound, language, cipher, plaintext, meaning, or
+translation is established.
+
 The same public catalogue contains a superficially stronger pharmaceutical
 contrast. A conservative parser finds 82
 unhedged, non-mixed DARK/LIGHT root descriptions on six physical folios, with
