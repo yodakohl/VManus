@@ -5293,9 +5293,16 @@ statistic, thresholds, transfer rule, and deletion tests. Before state scoring,
 source reconstruction gives exactly 17 discovery labels (f89 2/7 DARK/LIGHT;
 f100 2/6), 306 unfiltered and 48 filtered features, and a 1,008-world exact
 orbit. The feature-list hash is frozen, both f102 DARK labels remain directional
-transfer targets, and all four R2 outputs are absent. One public, hash-bound
-target execution is authorized; no further source-contract repair or feature
-retuning is permitted.
+transfer targets, and all four R2 outputs were absent at the public freeze. The
+single authorized target run is now an independently reconstructed final
+nonconfirmation. The winning structural feature, `F:P:1:K`, has minimum
+cross-folio delta .333333 (f89 1.0; f100 .333333) and inclusive exact
+max-feature p=.888889 (896/1008). It occurs in neither f102 DARK transfer label
+and fails the leave-one-DARK-out gate. Every substantive gate fails. Close this
+DARK-root-marker feature family without mining another substring, reversing to
+LIGHT, changing the source contract again, or reusing f88. The result supplies
+no DARK, LIGHT, ROOT, colour, plant, word, sound, language, cipher, plaintext,
+meaning, or translation.
 
 The same-register ROOT-only versus PLANT-fragment contrast is also closed at
 capacity, without opening a Voynich label string. The public catalogue has 154
