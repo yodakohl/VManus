@@ -5942,10 +5942,10 @@ unopened.
 That invocation stopped output-free at external acquisition: Zenodo now
 resolves the frozen concept endpoint by a same-origin 302 to the already frozen
 latest record, while the gate prohibited every redirect. The exact one-hop
-transport-v2 correction now passes independent static audit and the obsolete
-freeze is retired. The next authorized action is publication of the corrected
-bytes followed by a new independently checked hash-only freeze; another
-registered run remains forbidden until then.
+transport-v2 correction is published and its replacement hash-only freeze now
+passes three independent audits of transport, bytes, runtime, and output
+absence. The next authorized action is one corrected registered target-blind
+synthetic and nonidentity-capacity run; rank zero remains unopened.
 
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
