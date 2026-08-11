@@ -1,0 +1,106 @@
+{
+  "bnf_phrase_checks": {
+    "Isidorus Hispalensis (s.), De natura rerum": true,
+    "Italie (Nord)": true,
+    "NAL 112": true,
+    "Saisons et humeurs": true,
+    "XVe siècle (2e moitié)": true,
+    "anus / oriens - meridies - occidens - septemtrio / ver - humidus - calidus / estas - calida - sicca / autumnus - siccus - frigidus / hiemns frigidus - humidus": true,
+    "f. 6r": true
+  },
+  "claim_ceiling": "BnF NAL 112 f6r strengthens only a readable fourfold year-direction-quality source-family prior; the metadata supplies no owned cross-register mapping to f57v, so no direction, season, humour, quality, element, label, word, sound, language, cipher, plaintext, meaning, or translation follows.",
+  "counts": {
+    "direction_literals": 4,
+    "f57v_central_persons": 4,
+    "f57v_circular_bands": 4,
+    "f57v_items_per_repeated_period": 17,
+    "f57v_person_near_labels": 4,
+    "f57v_radial_texts": 4,
+    "f57v_repeated_periods": 4,
+    "quality_literal_occurrences": 8,
+    "season_literals": 4
+  },
+  "decision": "STOP_BEFORE_IMAGE_MANUSCRIPT_PAPER_OR_ROSTER_REVIEW_NO_CROSS_REGISTER_OWNERSHIP",
+  "direction_sequence": [
+    "oriens",
+    "meridies",
+    "occidens",
+    "septemtrio"
+  ],
+  "experiment": "BNF_NAL112_F57V_SEASONS_HUMOURS_METADATA_WORTH_CHECK",
+  "f57v_phrase_checks": {
+    "4 items of circular writing": true,
+    "4 items of writing along radii (all outward)": true,
+    "4 x 17 characters": true,
+    "A circular drawing with four concentric circular bands with writing": true,
+    "In the centre are four 'persons'": true,
+    "four labels near the persons": true
+  },
+  "gates": {
+    "common_start_orientation_and_slot_correspondence": false,
+    "f57v_has_four_central_persons": true,
+    "f57v_has_four_radial_texts_and_four_person_near_labels": true,
+    "f57v_has_four_written_circular_bands": true,
+    "readable_four_direction_sequence": true,
+    "readable_four_season_sequence": true,
+    "readable_two_quality_literals_per_season": true,
+    "source_metadata_explicitly_pairs_each_direction_with_one_season_group": false,
+    "source_metadata_maps_season_quality_groups_to_f57v_text_owners": false
+  },
+  "inputs": {
+    "BNF_NAL112_F57V_SEASONS_HUMOURS_METADATA_WORTH_CHECK_SPEC.md": "7a8da3d0e90d52c65fde960e27bcb6ab3c356941390799f3ea2c9a244a8db15a",
+    "cache/public_voynich_nu_catalogue/q08.html": "ce3df63cb48cf440faa2d637b382b7665b992a55709b5a721fdce078e21e42d7"
+  },
+  "season_quality_sequence": [
+    {
+      "quality_literals": [
+        "humidus",
+        "calidus"
+      ],
+      "season_literal": "ver",
+      "sequence_order": 1
+    },
+    {
+      "quality_literals": [
+        "calida",
+        "sicca"
+      ],
+      "season_literal": "estas",
+      "sequence_order": 2
+    },
+    {
+      "quality_literals": [
+        "siccus",
+        "frigidus"
+      ],
+      "season_literal": "autumnus",
+      "sequence_order": 3
+    },
+    {
+      "quality_literals": [
+        "frigidus",
+        "humidus"
+      ],
+      "season_literal": "hiemns",
+      "sequence_order": 4
+    }
+  ],
+  "source": {
+    "date_place": "Italie (Nord) - XVe siècle (2e moitié)",
+    "evidence_projection_sha256": "24ff3c1653a78c0efa836fa441b01530d88feafe25f4b21c4229653c4a5d1fb3",
+    "folio": "f. 6r",
+    "literal_inscription": "anus / oriens - meridies - occidens - septemtrio / ver - humidus - calidus / estas - calida - sicca / autumnus - siccus - frigidus / hiemns frigidus - humidus",
+    "manuscript": "NAL 112",
+    "subject": "Saisons et humeurs",
+    "text": "Isidorus Hispalensis (s.), De natura rerum",
+    "url": "https://mandragore.bnf.fr/ark:/12148/cgfbt75066s"
+  },
+  "source_access": {
+    "decoder_claims_or_rosters_opened": false,
+    "manuscript_images_or_thumbnails_opened": false,
+    "manuscript_or_papers_opened": false,
+    "ocr_or_automated_visual_output_used": false,
+    "official_html_opened": true
+  },
+  "status": "PASS_NEW_READABLE_FOURFOLD_YEAR_DIRECTION_QUALITY_COMPARATOR"
+}

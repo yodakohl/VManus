@@ -6089,6 +6089,19 @@ register. A live 22-check reconstruction confirms the source and stop. Do not
 open an image or spelling roster or transfer any direction, wind, or quality
 without a common author-visible slot coordinate.
 
+A second official Mandragore record adds a readable fourfold comparator for
+f57v without resolving its ownership problem. NAL 112 f6r, a northern Italian
+late-fifteenth-century *De natura rerum* witness catalogued as *Saisons et
+humeurs*, publishes four directions and a Spring/Summer/Autumn/Winter sequence
+with two hot/cold/dry/moist qualities per season. The literal catalogue
+spellings `anus`, `septemtrio`, and `hiemns` are retained. This strengthens the
+fourfold year-direction-quality source-family prior, but Mandragore supplies no
+image and its metadata does not explicitly pair the direction list to the
+season groups or map either register to f57v's persons, radial texts, labels,
+or four repeated bands. A live 23-check reconstruction therefore stops before
+image, manuscript, paper, or roster review. Transfer no direction, season,
+humour, quality, element, or Voynich label without an owned common coordinate.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU
