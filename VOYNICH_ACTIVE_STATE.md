@@ -2849,6 +2849,16 @@ output, or run the old S100 scorer. A new attempt requires another externally
 fixed singularly owned relation yielding a complete five-relation all-reading
 panel, or a new provenance-complete parser.
 
+The recovered-table replacement search is also exhausted. Its four remaining
+good Herbal↔pharmaceutical relations supply no sixth singularly owned label:
+f102r1 row 3/item 2 has no second plant label; f102r2 row 1/items 1 and 2 are
+followed by paragraph text rather than individual labels; and the plausible
+f89v2 row 3/item 4 inscription is source-described between items 3 and 4.
+Direct inspection of the exact official f89v2 canvas confirms open-whitespace
+proximity rather than writing inside item 4. Independent reconstruction passes
+nine checks. Do not cycle through this table again or treat shared paragraph
+text, row order, or proximity as singular ownership.
+
 A post-inspection S101 observation that both root-only copied fragments in the
 four S99 pairs have `d`, while both leaf-retaining fragments do not, is not a
 reading: its exact 2-by-2 probability is `1/6`, and the sole independent strict
