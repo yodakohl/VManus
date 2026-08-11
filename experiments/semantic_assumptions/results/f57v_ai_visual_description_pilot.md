@@ -8,10 +8,10 @@ blue-green wash extends beneath and below the diagram, and a separate dark
 mark occurs near the lower-right margin.
 
 Inside the central circle, four human figures are placed radially around a
-six-lobed rosette.  Their heads lie toward the circumference, with bodies or
-arms extending inward.  Four short inscriptions sit near the figures.  Four
-additional inscriptions radiate outward through the gaps between consecutive
-figures.
+six-lobed rosette.  Their heads are oriented inward toward the rosette, with
+torsos and arms extending outward or sideways.  Four short inscriptions sit
+near the figures.  Four additional inscriptions radiate outward through the
+gaps between consecutive figures.
 
 The image does **not** show a drawn leader, bracket, or separate enclosure that
 assigns any nearby inscription to one particular figure.  The radial text lies
