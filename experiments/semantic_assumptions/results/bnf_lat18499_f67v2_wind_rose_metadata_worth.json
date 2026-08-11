@@ -1,0 +1,102 @@
+{
+  "bnf_phrase_checks": {
+    "Italie - XIIIe siècle": true,
+    "Latin 18499": true,
+    "Maurus Salernitanus, Glosulae isagoges johannitii": true,
+    "Rose des vents": true,
+    "f. 26r": true,
+    "oriens - meridies - occidens - septentrio / subsolanus calidus siccus - eurus - nothus - auster calidus humidus - affricus - zephirus // favonius frigidus humidus - cirtius - chorus - boreas frigius siccus - aquilo - vulturnus": true
+  },
+  "claim_ceiling": "BnF Latin 18499 f26r strengthens the readable 4x3 wind-directional source-family prior, but f67v2 exposes no owned twelve-slot text register or common slot coordinate; no direction, wind, quality, label, word, sound, language, cipher, plaintext, meaning, or translation follows.",
+  "counts": {
+    "direction_headings": 4,
+    "f67v2_label_loci": 6,
+    "f67v2_radial_loci": 8,
+    "f67v2_text_loci": 22,
+    "quality_pairs": 4,
+    "wind_names": 12
+  },
+  "decision": "STOP_BEFORE_IMAGE_OR_ROSTER_REVIEW_NO_F67V2_TWELVE_SLOT_TEXT_REGISTER",
+  "experiment": "BNF_LAT18499_F67V2_WIND_ROSE_METADATA_WORTH_CHECK",
+  "f67v2_phrase_checks": {
+    "4 smaller circles in the four (NE, SE, SW and NW) corners": true,
+    "6 'astronomical' labels": true,
+    "8 items of writing along radii (4 inwards, 4 outwards)": true,
+    "8 lines of text in 'floating' paragraphs": true,
+    "This page has 22 text items (loci)": true,
+    "contain between three and four human faces, joined by lines": true
+  },
+  "gates": {
+    "common_start_direction_and_slot_correspondence": false,
+    "f67v2_each_group_has_exactly_three_faces": false,
+    "f67v2_has_four_corner_face_groups": true,
+    "f67v2_has_owned_twelve_slot_text_register": false,
+    "readable_four_direction_headings": true,
+    "readable_four_quality_pairs": true,
+    "readable_twelve_wind_names": true,
+    "sequence_projects_to_four_groups_of_three": true
+  },
+  "inputs": {
+    "BNF_LAT18499_F67V2_WIND_ROSE_METADATA_WORTH_CHECK_SPEC.md": "1745b203eb706f84ae07b4702767825c014ea930dcac445b30dc6e3728bbfb84",
+    "cache/public_voynich_nu_catalogue/q09.html": "56b592284239fbd4d2ffabac2c534207c2e8a6da00ce4570d526544b9793f977"
+  },
+  "projected_groups": [
+    {
+      "catalogue_quality_spelling": "calidus siccus",
+      "direction": "oriens",
+      "group_order": 1,
+      "wind_names": [
+        "subsolanus",
+        "eurus",
+        "nothus"
+      ]
+    },
+    {
+      "catalogue_quality_spelling": "calidus humidus",
+      "direction": "meridies",
+      "group_order": 2,
+      "wind_names": [
+        "auster",
+        "affricus",
+        "zephirus"
+      ]
+    },
+    {
+      "catalogue_quality_spelling": "frigidus humidus",
+      "direction": "occidens",
+      "group_order": 3,
+      "wind_names": [
+        "favonius",
+        "cirtius",
+        "chorus"
+      ]
+    },
+    {
+      "catalogue_quality_spelling": "frigius siccus",
+      "direction": "septentrio",
+      "group_order": 4,
+      "wind_names": [
+        "boreas",
+        "aquilo",
+        "vulturnus"
+      ]
+    }
+  ],
+  "source": {
+    "date_place": "Italie - XIIIe siècle",
+    "evidence_projection_sha256": "e9a21ad0beb5c74fb4c97d3668161c4c1d47498eec11ab59ec67fd93b8bfb8a3",
+    "folio": "f. 26r",
+    "manuscript": "Latin 18499",
+    "subject": "Rose des vents",
+    "text": "Maurus Salernitanus, Glosulae isagoges johannitii",
+    "url": "https://mandragore.bnf.fr/ark:/12148/cgfbt74042j"
+  },
+  "source_access": {
+    "decoder_claims_opened": false,
+    "manuscript_images_or_thumbnails_opened": false,
+    "ocr_or_automated_visual_output_used": false,
+    "official_html_opened": true,
+    "papers_pdfs_or_rosters_opened": false
+  },
+  "status": "PASS_NEW_COMPLETE_READABLE_4X3_WIND_ROSE_COMPARATOR"
+}

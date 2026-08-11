@@ -6077,6 +6077,18 @@ topology. A live independent reconstruction passes 18 checks. Retain M.721 as
 a strong same-page four-wind comparandum; do not transfer its directions or
 wind names to f57v or open a roster to repair the absent relation.
 
+BnF Latin 18499 f26r adds a stronger readable source-family comparator for
+f67v2. Its official Mandragore inscription gives four cardinal headings,
+twelve distinct wind names in a repeating four-by-three sequence, and four
+hot/cold/dry/moist pairs (with the literal catalogue spelling `frigius
+siccus`). This materially strengthens the provisional wind/directional-
+cosmography page prior. It still supplies no label key: f67v2's human catalogue
+has four corner circles containing three or four connected faces and 22 text
+loci—eight floating, eight radial, and six labels—not an owned twelve-slot
+register. A live 22-check reconstruction confirms the source and stop. Do not
+open an image or spelling roster or transfer any direction, wind, or quality
+without a common author-visible slot coordinate.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU
