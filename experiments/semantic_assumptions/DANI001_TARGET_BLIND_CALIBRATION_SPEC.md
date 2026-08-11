@@ -142,11 +142,43 @@ Any byte or count discrepancy is an output-free input-contract stop.
 
 ## Exact external JSON projections
 
-All three downloaded responses use strict UTF-8.  JSON is parsed with CPython
-3.12.3 `json.loads` and an `object_pairs_hook` applied recursively to every
-object; any duplicate member name at any depth, malformed JSON, invalid UTF-8,
-or wrong required container type hard-stops.  No raw response body, forbidden
-lexicon value, or diagnostic excerpt is persisted.
+All three logical response bodies use strict UTF-8.  The resolved concept body
+and lexicon body are parsed with CPython 3.12.3 `json.loads` and an
+`object_pairs_hook` applied recursively to every object; any duplicate member
+name at any depth, malformed JSON, invalid UTF-8, or wrong required container
+type hard-stops.  The pipeline remains inert UTF-8 Python text and is not
+JSON-parsed, imported, or executed.  No raw response body, forbidden lexicon
+value, or diagnostic excerpt is persisted.
+
+This calibration contract supersedes only the endpoint-count interpretation of
+the science-specification sentence beginning `The only permitted acquisition
+endpoints are`; that sentence now means three logical inputs acquired through
+the exact four-request trace below.  Every other registered science-specification
+sentence remains controlling.  This does not add a fourth logical evidence
+input.  Automatic redirect following and retries are disabled.  Make exactly
+one GET request to each entry in this complete ordered sequence:
+
+```
+https://zenodo.org/api/records/19583305
+https://zenodo.org/api/records/19609475
+https://zenodo.org/api/records/19609475/files/pipeline_v31_1.py/content
+https://zenodo.org/api/records/19609475/files/lexicon_v31_session31_final.json/content
+```
+
+The first request must return integer status 302, retain the exact initial URL
+as `geturl()`, and have exactly one raw `Location` value equal byte-for-byte to
+the relative string `/api/records/19609475`.  Its body is closed without being
+read, parsed, hashed, or stored.  Resolve that relative value only against the
+same `https://zenodo.org` origin and make exactly one explicit second request to
+`https://zenodo.org/api/records/19609475`.  That response must return integer
+status 200, exact final `geturl()`, and no `Location` value; its body is the one
+concept JSON body projected below.  Status 301/303/307/308, direct concept 200,
+missing/duplicate/absolute/scheme-relative/cross-origin/wrong/query/fragment
+locations, a trailing slash, another hop, or any equivalent-looking URL
+hard-stops output-free.  The pipeline and lexicon requests must each return
+integer status 200, exact requested `geturl()`, and no `Location`; they may not
+redirect to any allowlisted URL.  The three responses below remain the three
+logical evidence inputs; the first is acquired by two exact transport requests.
 
 The concept endpoint must be one top-level JSON object.  Its stable projection
 is exactly the object below; bracketed expressions name direct lookups in the
@@ -903,36 +935,47 @@ producer_write_allowlist, validator_write_allowlist,
 static_audit
 ```
 
-`schema` is exactly `dani001-target-blind-calibration-freeze-v1`.
+`schema` is exactly `dani001-target-blind-calibration-freeze-v2`.
 
 Every path-bearing member is repository-relative and has `path,sha256,size`.
 `code` is an array in exact order: panel, calibration generator, core Python,
 core header, core C++, producer, validator, using the seven exact paths named
 above.  The read and write allowlists are canonical arrays of exact path
-strings; the network allowlist is the three exact science-specification URLs.
+strings; the network allowlist is the four exact transport-request URLs frozen
+below.
 `science_spec`, `calibration_spec`, and `synthetic_manifest` are single exact
 `path,sha256,size` objects.  `local_inputs` is an array of five such objects in
 exact order ZL3b, IT2a, RF1b, source-separator TSV, source-separator validation
 JSON.  Their paths and hashes are the exact science-specification values and
 their sizes are recomputed from the bound bytes when the freeze is created.
 
-`external_inputs` is an array of exactly these three objects in this order and
-with no extra members:
+`external_inputs` is an array of exactly these three logical-input objects in
+this order and with no extra members:
 
 ```
 {"name":"stable_metadata_projection",
  "url":"https://zenodo.org/api/records/19583305",
  "sha256":"780301fd3c4b2c3c328c1f69a1eab65d0b0600f2d491ea9578f81699d36ddfa7",
- "storage":"MEMORY_ONLY_CANONICAL_PROJECTION"}
+ "storage":"MEMORY_ONLY_CANONICAL_PROJECTION",
+ "transport":{"method":"GET",
+  "mode":"EXACT_ONE_MANUAL_RELATIVE_SAME_ORIGIN_302",
+  "initial_status":302,"location":"/api/records/19609475",
+  "resolved_url":"https://zenodo.org/api/records/19609475",
+  "final_status":200}}
 {"name":"pipeline_body",
  "url":"https://zenodo.org/api/records/19609475/files/pipeline_v31_1.py/content",
  "sha256":"079b6de7b8d2082303a0789fb3904105aecaa491e35600a557090e7981255d6f",
- "storage":"EXTERNAL_TEMPORARY_ONLY_INERT"}
+ "storage":"EXTERNAL_TEMPORARY_ONLY_INERT",
+ "transport":{"method":"GET","mode":"NO_REDIRECT","final_status":200}}
 {"name":"lexicon_body",
  "url":"https://zenodo.org/api/records/19609475/files/lexicon_v31_session31_final.json/content",
  "sha256":"348992fa2bf555f1454a5a5485dd1ca9842acc143059f257f2fcdcf237821589",
- "storage":"EXTERNAL_TEMPORARY_ONLY_PROJECT_AFTER_SYNTHETICS"}
+ "storage":"EXTERNAL_TEMPORARY_ONLY_PROJECT_AFTER_SYNTHETICS",
+ "transport":{"method":"GET","mode":"NO_REDIRECT","final_status":200}}
 ```
+
+Every nested `transport` object has exactly the members displayed above and no
+extras.  Both status members are exact JSON integers, never booleans or floats.
 
 `registered_commit` is `1faa87f`.  `runtime` fixes CPython 3.12.3,
 little-endian IEEE-754 x86-64, compiler identity/flags, OpenMP runtime, one and
@@ -983,15 +1026,16 @@ may compile a separately written implementation embedded literally in its own
 source; `core_build` separately binds its exact argv and expected binary hash,
 and its symbols/data layout may not be copied from or linked to producer core.
 `static_audit` has exactly `status,review_id,auditor_source_sha256`; status must
-be `GO`, review ID must be `DANI001_CALIBRATION_FREEZE_STATIC_AUDIT_V1`, and the
+be `GO`, review ID must be `DANI001_CALIBRATION_FREEZE_STATIC_AUDIT_V2`, and the
 hash must be 64 lowercase hexadecimal characters before execution.
 
 The freeze arrays are exact and ordered.  `read_allowlist` is science spec,
 calibration spec, calibration freeze, synthetic manifest, panel, generator,
 core Python, core header, core C++, producer, followed by the five
 `local_inputs` paths in their order above.  It deliberately omits the clean
-validator.  `network_allowlist` is the three `external_inputs` URLs in their
-array order.  `temporary_allowlist` is exactly
+validator.  `network_allowlist` is not derived from `external_inputs`; it is
+exactly the ordered four-URL request sequence frozen above.
+`temporary_allowlist` is exactly
 `EXTERNAL_ACQUISITION_EXACT_THREE_FILES,CORE_BUILD_CPP_HEADER_LIBRARY,
 OUTPUT_STAGING_TWO_FILES`.  `producer_outputs_absent` and
 `producer_write_allowlist` are result JSON then result Markdown;
@@ -1002,12 +1046,14 @@ freeze creation; these are path strings, not path/hash objects.
 
 Producer application-level reads before the synthetic gate are limited to the
 two specs, calibration freeze, synthetic manifest, panel builder, generator,
-three integer-core sources, and producer.  It may acquire only the three HTTPS
-endpoints in the science spec.  `dani001_panel.py` must expose and the producer
+three integer-core sources, and producer.  It may make only the four ordered
+HTTPS requests frozen above.  `dani001_panel.py` must expose and the producer
 must use the exact acquisition-only context-manager API
-`acquire_registered_external_files()`.  Entry
-downloads and hash-checks all three responses.  It may JSON-parse the concept
-response only to apply the already registered `stable_metadata_projection`
+`acquire_registered_external_files()`.  Context-manager entry performs the
+exact one-hop concept trace, hash-checks the two direct file bodies, and
+canonicalizes and hash-checks the concept projection.  It may JSON-parse the
+resolved concept response only to apply the already registered
+`stable_metadata_projection`
 field projection, canonicalize that projection, and verify its bound digest;
 it does not parse the lexicon and does not import, compile, or execute the
 pipeline.  The raw concept response exists only as an in-memory `bytes` object,
@@ -1061,9 +1107,9 @@ output-free and likewise grants no actual access.
 
 Only when both producer bytes and the independent reconstruction establish a
 complete synthetic pass may the validator independently reacquire the three
-allowlisted HTTPS endpoints under the same memory-only-concept/exact-three-file
-inventory rule and open the five local inputs.  It then independently parses
-and reconstructs actual capacity.
+logical inputs through the exact four-request sequence under the same
+memory-only-concept/exact-three-file inventory rule and open the five local
+inputs.  It then independently parses and reconstructs actual capacity.
 Its only writes are its two no-clobber outputs and its temporary acquisition
 files.  Application-level filesystem and network calls outside these lists
 hard-stop and are counted by syscall-audit hooks.  Dynamic-loader and standard-
@@ -1119,6 +1165,9 @@ and actual local inputs remain unopened, and `true` otherwise.  A false value
 is an output-free input-contract stop.  Neither object may contain a path,
 source value, source group, normalized type, lexicon key, template, or digest
 of any such identity.
+`stable_projection_pass` is true only when both the complete four-request
+transport trace and the canonical stable-projection digest pass exactly; the
+transport trace is not serialized as a new result field.
 
 `synthetic_controls` has exactly `toys,plants,nulls,adversaries,parser,
 mutations,conjugacy,workers,affix_equivalence,unreachable_invariance`.  Every

@@ -8,19 +8,44 @@ transcription, atlas, deposited body, or real panel.
 from __future__ import annotations
 
 import hashlib
+import io
 import tempfile
 import unittest
+import urllib.error
 from pathlib import Path
 from unittest import mock
 
 import dani001_panel as panel
 
 
+class _FakeHeaders:
+    def __init__(self, locations: tuple[str, ...] = ()) -> None:
+        self._locations = locations
+
+    def get_all(self, name: str) -> list[str] | None:
+        if name.lower() != "location" or not self._locations:
+            return None
+        return list(self._locations)
+
+    def get(self, name: str) -> str | None:
+        values = self.get_all(name)
+        return None if values is None else values[0]
+
+
 class _FakeResponse:
-    def __init__(self, url: str, body: bytes) -> None:
+    def __init__(
+        self,
+        url: str,
+        body: bytes,
+        *,
+        status: int = 200,
+        locations: tuple[str, ...] = (),
+    ) -> None:
         self._url = url
         self._body = body
         self._offset = 0
+        self.status = status
+        self.headers = _FakeHeaders(locations)
 
     def __enter__(self) -> "_FakeResponse":
         return self
@@ -38,13 +63,43 @@ class _FakeResponse:
 
 
 class _FakeOpener:
-    def __init__(self, bodies: dict[str, bytes]) -> None:
+    def __init__(
+        self,
+        bodies: dict[str, bytes],
+        routes: dict[str, tuple[int, tuple[str, ...], str | None]] | None = None,
+    ) -> None:
         self._bodies = bodies
+        self._routes = routes or {}
+        self.calls: list[str] = []
 
     def open(self, request: object, *, timeout: float) -> _FakeResponse:
         del timeout
         url = request.full_url  # type: ignore[attr-defined]
-        return _FakeResponse(url, self._bodies[url])
+        self.calls.append(url)
+        if url in self._routes:
+            status, locations, final_url = self._routes[url]
+        elif url == panel.CONCEPT_URL:
+            status = 302
+            locations = (panel.CONCEPT_REDIRECT_LOCATION,)
+            final_url = url
+        else:
+            status, locations, final_url = 200, (), url
+        body = self._bodies.get(url, b"")
+        resolved = url if final_url is None else final_url
+        if status != 200:
+            raise urllib.error.HTTPError(
+                resolved,
+                status,
+                "synthetic status",
+                _FakeHeaders(locations),
+                io.BytesIO(body),
+            )
+        return _FakeResponse(
+            resolved,
+            body,
+            status=status,
+            locations=locations,
+        )
 
 
 def _external_fixture() -> tuple[dict[str, bytes], bytes, bytes, bytes, bytes]:
@@ -74,6 +129,7 @@ def _external_fixture() -> tuple[dict[str, bytes], bytes, bytes, bytes, bytes]:
     return (
         {
             panel.CONCEPT_URL: concept_body,
+            panel.CONCEPT_RESOLVED_URL: concept_body,
             panel.PIPELINE_URL: pipeline_body,
             panel.LEXICON_URL: lexicon_body,
         },
@@ -174,6 +230,7 @@ class DANI001PanelSourceFreeTests(unittest.TestCase):
         bodies, concept_body, projection, pipeline_body, lexicon_body = (
             _external_fixture()
         )
+        fake_opener = _FakeOpener(bodies)
         fake_lexicon = object()
         lease: panel.RegisteredExternalAcquisition | None = None
         with tempfile.TemporaryDirectory(prefix="dani001-panel-test-") as outer:
@@ -181,7 +238,7 @@ class DANI001PanelSourceFreeTests(unittest.TestCase):
                 mock.patch.object(
                     panel.urllib.request,
                     "build_opener",
-                    return_value=_FakeOpener(bodies),
+                    return_value=fake_opener,
                 ),
                 mock.patch.object(
                     panel,
@@ -253,6 +310,11 @@ class DANI001PanelSourceFreeTests(unittest.TestCase):
                         synthetic_gate_passed=True,
                     )
                 project_mock.assert_called_once()
+                self.assertEqual(
+                    fake_opener.calls,
+                    list(panel.ACQUISITION_URLS),
+                )
+                self.assertEqual(lease.acquisition_urls, panel.ACQUISITION_URLS)
 
     def test_split_acquisition_cleans_up_after_caller_exception(self) -> None:
         bodies, _concept, projection, pipeline_body, lexicon_body = (
@@ -291,6 +353,118 @@ class DANI001PanelSourceFreeTests(unittest.TestCase):
                         raise RuntimeError("synthetic caller stop")
                 assert lease_root is not None
                 self.assertFalse(lease_root.exists())
+
+    def test_exact_concept_redirect_policy_rejects_every_drift(self) -> None:
+        bodies, concept_body, _projection, pipeline_body, _lexicon_body = (
+            _external_fixture()
+        )
+        exact = _FakeOpener(bodies)
+        self.assertEqual(
+            panel._download_exact_bytes(
+                exact,
+                panel.CONCEPT_URL,
+                timeout=1.0,
+                byte_limit=len(concept_body) + 1,
+            ),
+            concept_body,
+        )
+        self.assertEqual(
+            exact.calls,
+            [panel.CONCEPT_URL, panel.CONCEPT_RESOLVED_URL],
+        )
+
+        drift_routes = (
+            # A direct 200, a different 3xx, or an auto-followed first response
+            # must not silently change the registered two-request protocol.
+            {panel.CONCEPT_URL: (200, (), panel.CONCEPT_URL)},
+            {panel.CONCEPT_URL: (
+                301, (panel.CONCEPT_REDIRECT_LOCATION,), panel.CONCEPT_URL
+            )},
+            {panel.CONCEPT_URL: (
+                302, (panel.CONCEPT_REDIRECT_LOCATION,),
+                panel.CONCEPT_RESOLVED_URL,
+            )},
+            # Location is byte-exact and relative.  Absolute, scheme-relative,
+            # cross-host, wrong-path, query, absent, and duplicate values fail.
+            {panel.CONCEPT_URL: (302, (), panel.CONCEPT_URL)},
+            {panel.CONCEPT_URL: (
+                302, (panel.CONCEPT_RESOLVED_URL,), panel.CONCEPT_URL
+            )},
+            {panel.CONCEPT_URL: (
+                302, ("//zenodo.org/api/records/19609475",), panel.CONCEPT_URL
+            )},
+            {panel.CONCEPT_URL: (
+                302, ("https://evil.example/api/records/19609475",),
+                panel.CONCEPT_URL,
+            )},
+            {panel.CONCEPT_URL: (
+                302, ("/api/records/19609476",), panel.CONCEPT_URL
+            )},
+            {panel.CONCEPT_URL: (
+                302, ("/api/records/19609475?x=1",), panel.CONCEPT_URL
+            )},
+            {panel.CONCEPT_URL: (
+                302,
+                (
+                    panel.CONCEPT_REDIRECT_LOCATION,
+                    panel.CONCEPT_REDIRECT_LOCATION,
+                ),
+                panel.CONCEPT_URL,
+            )},
+            # The resolved request must be the terminal, Location-free 200.
+            {panel.CONCEPT_RESOLVED_URL: (
+                302, ("/api/records/19609475",),
+                panel.CONCEPT_RESOLVED_URL,
+            )},
+            {panel.CONCEPT_RESOLVED_URL: (
+                200, ("/api/records/19609475",),
+                panel.CONCEPT_RESOLVED_URL,
+            )},
+            {panel.CONCEPT_RESOLVED_URL: (
+                200, (), panel.CONCEPT_URL,
+            )},
+        )
+        for routes in drift_routes:
+            with self.subTest(routes=routes):
+                with self.assertRaises(panel.DANI001InputError):
+                    panel._download_exact_bytes(
+                        _FakeOpener(bodies, routes),
+                        panel.CONCEPT_URL,
+                        timeout=1.0,
+                        byte_limit=len(concept_body) + 1,
+                    )
+
+        with tempfile.TemporaryDirectory(prefix="dani001-redirect-test-") as outer:
+            with self.assertRaises(panel.DANI001InputError):
+                panel._download_exact(
+                    _FakeOpener(bodies),
+                    panel.CONCEPT_URL,
+                    Path(outer) / "forbidden-concept-body",
+                    timeout=1.0,
+                    byte_limit=len(concept_body) + 1,
+                )
+            for routes in (
+                {panel.PIPELINE_URL: (
+                    302, (panel.CONCEPT_REDIRECT_LOCATION,), panel.PIPELINE_URL
+                )},
+                {panel.PIPELINE_URL: (201, (), panel.PIPELINE_URL)},
+                {panel.PIPELINE_URL: (
+                    200, (panel.CONCEPT_REDIRECT_LOCATION,), panel.PIPELINE_URL
+                )},
+            ):
+                with self.subTest(direct_routes=routes):
+                    destination = Path(outer) / (
+                        "pipeline-" + hashlib.sha256(repr(routes).encode()).hexdigest()
+                    )
+                    with self.assertRaises(panel.DANI001InputError):
+                        panel._download_exact(
+                            _FakeOpener(bodies, routes),
+                            panel.PIPELINE_URL,
+                            destination,
+                            timeout=1.0,
+                            byte_limit=len(pipeline_body) + 1,
+                        )
+                    self.assertFalse(destination.exists())
 
 
 if __name__ == "__main__":

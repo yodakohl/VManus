@@ -58,12 +58,20 @@ SOURCE_SHA256 = MappingProxyType({
 })
 
 CONCEPT_URL = "https://zenodo.org/api/records/19583305"
+CONCEPT_REDIRECT_LOCATION = "/api/records/19609475"
+CONCEPT_RESOLVED_URL = "https://zenodo.org/api/records/19609475"
 PIPELINE_URL = "https://zenodo.org/api/records/19609475/files/pipeline_v31_1.py/content"
 LEXICON_URL = (
     "https://zenodo.org/api/records/19609475/files/"
     "lexicon_v31_session31_final.json/content"
 )
 EXTERNAL_URLS = (CONCEPT_URL, PIPELINE_URL, LEXICON_URL)
+ACQUISITION_URLS = (
+    CONCEPT_URL,
+    CONCEPT_RESOLVED_URL,
+    PIPELINE_URL,
+    LEXICON_URL,
+)
 STABLE_PROJECTION_SHA256 = "780301fd3c4b2c3c328c1f69a1eab65d0b0600f2d491ea9578f81699d36ddfa7"
 PIPELINE_SHA256 = "079b6de7b8d2082303a0789fb3904105aecaa491e35600a557090e7981255d6f"
 LEXICON_SHA256 = "348992fa2bf555f1454a5a5485dd1ca9842acc143059f257f2fcdcf237821589"
@@ -1163,6 +1171,71 @@ class _NoRedirectHandler(urllib.request.HTTPRedirectHandler):
         return None
 
 
+def _response_status(response: Any) -> int:
+    value = getattr(response, "status", None)
+    if value is None:
+        value = getattr(response, "code", None)
+    if type(value) is not int:
+        raise DANI001InputError("external acquisition status is unavailable")
+    return value
+
+
+def _response_locations(response: Any) -> tuple[str, ...]:
+    headers = getattr(response, "headers", None)
+    if headers is None:
+        return ()
+    get_all = getattr(headers, "get_all", None)
+    if callable(get_all):
+        values = get_all("Location")
+        if values is None:
+            return ()
+        if not isinstance(values, list) or any(type(value) is not str for value in values):
+            raise DANI001InputError("external acquisition Location header malformed")
+        return tuple(values)
+    get = getattr(headers, "get", None)
+    if not callable(get):
+        raise DANI001InputError("external acquisition headers malformed")
+    value = get("Location")
+    if value is None:
+        return ()
+    if type(value) is not str:
+        raise DANI001InputError("external acquisition Location header malformed")
+    return (value,)
+
+
+def _open_no_redirect(
+    opener: urllib.request.OpenerDirector,
+    url: str,
+    *,
+    timeout: float,
+) -> Any:
+    request = urllib.request.Request(url, headers={"User-Agent": "VManus-DANI001/1"})
+    try:
+        return opener.open(request, timeout=timeout)
+    except urllib.error.HTTPError as error:
+        # With _NoRedirectHandler, urllib represents every HTTP redirect as an
+        # HTTPError.  Return it as the inert response so the exact status and
+        # Location can be checked manually; no automatic follow is possible.
+        return error
+    except (OSError, urllib.error.URLError) as error:
+        raise DANI001InputError("external acquisition failed") from error
+
+
+def _require_exact_response(
+    response: Any,
+    *,
+    url: str,
+    status: int,
+    locations: tuple[str, ...],
+) -> None:
+    if (
+        _response_status(response) != status
+        or response.geturl() != url
+        or _response_locations(response) != locations
+    ):
+        raise DANI001InputError("external acquisition response contract drift")
+
+
 def _download_exact(
     opener: urllib.request.OpenerDirector,
     url: str,
@@ -1171,14 +1244,12 @@ def _download_exact(
     timeout: float,
     byte_limit: int,
 ) -> None:
-    if url not in EXTERNAL_URLS:
+    if url not in (PIPELINE_URL, LEXICON_URL):
         raise DANI001InputError("unregistered acquisition endpoint")
-    request = urllib.request.Request(url, headers={"User-Agent": "VManus-DANI001/1"})
     total = 0
     try:
-        with opener.open(request, timeout=timeout) as response:
-            if response.geturl() != url:
-                raise DANI001InputError("external acquisition redirected")
+        with _open_no_redirect(opener, url, timeout=timeout) as response:
+            _require_exact_response(response, url=url, status=200, locations=())
             with destination.open("xb") as output:
                 while True:
                     block = response.read(64 * 1024)
@@ -1203,14 +1274,26 @@ def _download_exact_bytes(
 ) -> bytes:
     """Fetch one registered body without ever materializing it on disk."""
 
-    if url not in EXTERNAL_URLS:
+    if url != CONCEPT_URL:
         raise DANI001InputError("unregistered acquisition endpoint")
-    request = urllib.request.Request(url, headers={"User-Agent": "VManus-DANI001/1"})
     output = bytearray()
     try:
-        with opener.open(request, timeout=timeout) as response:
-            if response.geturl() != url:
-                raise DANI001InputError("external acquisition redirected")
+        with _open_no_redirect(opener, url, timeout=timeout) as response:
+            _require_exact_response(
+                response,
+                url=CONCEPT_URL,
+                status=302,
+                locations=(CONCEPT_REDIRECT_LOCATION,),
+            )
+        with _open_no_redirect(
+            opener, CONCEPT_RESOLVED_URL, timeout=timeout
+        ) as response:
+            _require_exact_response(
+                response,
+                url=CONCEPT_RESOLVED_URL,
+                status=200,
+                locations=(),
+            )
             while True:
                 block = response.read(64 * 1024)
                 if not block:
@@ -1261,7 +1344,7 @@ def _validate_acquisition_lease(acquisition: RegisteredExternalAcquisition) -> N
         acquisition.stable_projection_sha256 != STABLE_PROJECTION_SHA256
         or acquisition.pipeline_sha256 != PIPELINE_SHA256
         or acquisition.lexicon_sha256 != LEXICON_SHA256
-        or acquisition.acquisition_urls != EXTERNAL_URLS
+        or acquisition.acquisition_urls != ACQUISITION_URLS
     ):
         raise DANI001InputError("external acquisition binding drift")
     if sha256_path(acquisition.pipeline_path) != PIPELINE_SHA256:
@@ -1347,7 +1430,7 @@ def acquire_registered_external_files(
             stable_projection_sha256=STABLE_PROJECTION_SHA256,
             pipeline_sha256=PIPELINE_SHA256,
             lexicon_sha256=LEXICON_SHA256,
-            acquisition_urls=EXTERNAL_URLS,
+            acquisition_urls=ACQUISITION_URLS,
             temporary_root=temporary,
             pipeline_path=paths[PIPELINE_URL],
             lexicon_path=paths[LEXICON_URL],
@@ -1398,7 +1481,7 @@ def acquire_registered_external_inputs(
         pipeline_sha256=PIPELINE_SHA256,
         lexicon_sha256=LEXICON_SHA256,
         lexicon=lexicon,
-        acquisition_urls=EXTERNAL_URLS,
+        acquisition_urls=ACQUISITION_URLS,
     )
 
 

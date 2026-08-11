@@ -35,6 +35,7 @@ import sys
 import tempfile
 import time
 import urllib.error
+import urllib.parse
 import urllib.request
 from array import array
 from concurrent.futures import ProcessPoolExecutor, ThreadPoolExecutor
@@ -59,8 +60,8 @@ VALIDATION_REPORT_REL = "experiments/semantic_assumptions/results/dani001_target
 
 SCIENCE_COMMIT = "1faa87f"
 SCIENCE_SHA = "cc73479b3c35eaa87a3f56184fc3472fe6232b67c13deb3bf30ef8555a6c8426"
-CALIBRATION_SHA = "f38de851d96e5fbb3a9a8bbb7ecd9c925ee34e4cb1c181970b6f582fbdea9c32"
-MANIFEST_SHA = "0931be3e683d2badcdaa08bf125de5f4a4b6dbe292305197c663f6cdf3075f80"
+CALIBRATION_SHA = "bccbdf8427a1ac89b82df557c86e659e52cd027d04c832b0053774873046c32d"
+MANIFEST_SHA = "1bbf5078f292ee54a2962832cd57bd2b3905802267cee2ea0bdd40e83ef9aa37"
 
 SCHEMA_MANIFEST = "dani001-synthetic-manifest-v1"
 SCHEMA_RESULT = "dani001-target-blind-calibration-result-v1"
@@ -133,11 +134,18 @@ ATOM: dict[str, tuple[int, ...]] = {
     "a": (), "o": (), "e": (), "i": (), "x": (), "h": (),
 }
 
-EXTERNAL_URLS = (
-    "https://zenodo.org/api/records/19583305",
-    "https://zenodo.org/api/records/19609475/files/pipeline_v31_1.py/content",
-    "https://zenodo.org/api/records/19609475/files/lexicon_v31_session31_final.json/content",
+CONCEPT_URL = "https://zenodo.org/api/records/19583305"
+CONCEPT_LOCATION = "/api/records/19609475"
+CONCEPT_RESOLVED_URL = "https://zenodo.org/api/records/19609475"
+PIPELINE_URL = "https://zenodo.org/api/records/19609475/files/pipeline_v31_1.py/content"
+LEXICON_URL = (
+    "https://zenodo.org/api/records/19609475/files/"
+    "lexicon_v31_session31_final.json/content"
 )
+NETWORK_REQUEST_URLS = (
+    CONCEPT_URL, CONCEPT_RESOLVED_URL, PIPELINE_URL, LEXICON_URL,
+)
+STATIC_AUDIT_REVIEW_ID = "DANI001_CALIBRATION_FREEZE_STATIC_AUDIT_V2"
 ATLAS_COLUMNS = (
     "source_group_id", "edition", "locus", "page", "section", "currier", "hand",
     "code", "kind", "grammar_scope", "source_row_index", "source_group_index",
@@ -3058,6 +3066,38 @@ def verify_bound_path(value: object, expected_rel: str | None, label: str) -> di
     return record
 
 
+def expected_external_inputs() -> list[dict[str, object]]:
+    return [
+        {"name": "stable_metadata_projection", "url": CONCEPT_URL,
+         "sha256": "780301fd3c4b2c3c328c1f69a1eab65d0b0600f2d491ea9578f81699d36ddfa7",
+         "storage": "MEMORY_ONLY_CANONICAL_PROJECTION",
+         "transport": {
+             "method": "GET",
+             "mode": "EXACT_ONE_MANUAL_RELATIVE_SAME_ORIGIN_302",
+             "initial_status": 302,
+             "location": CONCEPT_LOCATION,
+             "resolved_url": CONCEPT_RESOLVED_URL,
+             "final_status": 200,
+         }},
+        {"name": "pipeline_body", "url": PIPELINE_URL,
+         "sha256": "079b6de7b8d2082303a0789fb3904105aecaa491e35600a557090e7981255d6f",
+         "storage": "EXTERNAL_TEMPORARY_ONLY_INERT",
+         "transport": {"method": "GET", "mode": "NO_REDIRECT", "final_status": 200}},
+        {"name": "lexicon_body", "url": LEXICON_URL,
+         "sha256": "348992fa2bf555f1454a5a5485dd1ca9842acc143059f257f2fcdcf237821589",
+         "storage": "EXTERNAL_TEMPORARY_ONLY_PROJECT_AFTER_SYNTHETICS",
+         "transport": {"method": "GET", "mode": "NO_REDIRECT", "final_status": 200}},
+    ]
+
+
+def validate_external_freeze_contract(external_inputs: object,
+                                      network_allowlist: object) -> None:
+    exact_json_equal(external_inputs, expected_external_inputs(),
+                     "external input freeze projection")
+    exact_json_equal(network_allowlist, list(NETWORK_REQUEST_URLS),
+                     "network allowlist")
+
+
 def load_contract(expected_freeze_sha: str, policy: AuditPolicy) -> tuple[dict[str, object], bytes, bytes, bytes]:
     if not HEX64.fullmatch(expected_freeze_sha):
         raise ValidationStop("invalid expected freeze SHA-256")
@@ -3096,7 +3136,7 @@ def load_contract(expected_freeze_sha: str, policy: AuditPolicy) -> tuple[dict[s
     if canonical(freeze) != freeze_bytes:
         raise ValidationStop("calibration freeze is not canonical JSON")
     exact_keys(freeze, FREEZE_KEYS, "calibration freeze")
-    if freeze["schema"] != "dani001-target-blind-calibration-freeze-v1" or freeze["registered_commit"] != SCIENCE_COMMIT:
+    if freeze["schema"] != "dani001-target-blind-calibration-freeze-v2" or freeze["registered_commit"] != SCIENCE_COMMIT:
         raise ValidationStop("registered commit drift")
     verify_bound_path(freeze["science_spec"], SCIENCE_REL, "freeze science spec")
     verify_bound_path(freeze["calibration_spec"], CALIBRATION_REL, "freeze calibration spec")
@@ -3122,7 +3162,7 @@ def load_contract(expected_freeze_sha: str, policy: AuditPolicy) -> tuple[dict[s
         raise ValidationStop("freeze static audit")
     exact_keys(static, ("status", "review_id", "auditor_source_sha256"), "freeze static audit")
     if (static["status"], static["review_id"]) != (
-            "GO", "DANI001_CALIBRATION_FREEZE_STATIC_AUDIT_V1") or not isinstance(
+            "GO", STATIC_AUDIT_REVIEW_ID) or not isinstance(
                 static["auditor_source_sha256"], str) or not HEX64.fullmatch(static["auditor_source_sha256"]):
         raise ValidationStop("freeze static audit not GO")
     expected_read_allowlist = [SCIENCE_REL, CALIBRATION_REL, FREEZE_REL, MANIFEST_REL,
@@ -3130,21 +3170,8 @@ def load_contract(expected_freeze_sha: str, policy: AuditPolicy) -> tuple[dict[s
                                *SOURCE_REL.values(), ATLAS_REL, ATLAS_VALIDATION_REL]
     if freeze["read_allowlist"] != expected_read_allowlist:
         raise ValidationStop("validator read allowlist cannot be derived from freeze")
-    external_expected = [
-        {"name": "stable_metadata_projection", "url": EXTERNAL_URLS[0],
-         "sha256": "780301fd3c4b2c3c328c1f69a1eab65d0b0600f2d491ea9578f81699d36ddfa7",
-         "storage": "MEMORY_ONLY_CANONICAL_PROJECTION"},
-        {"name": "pipeline_body", "url": EXTERNAL_URLS[1],
-         "sha256": "079b6de7b8d2082303a0789fb3904105aecaa491e35600a557090e7981255d6f",
-         "storage": "EXTERNAL_TEMPORARY_ONLY_INERT"},
-        {"name": "lexicon_body", "url": EXTERNAL_URLS[2],
-         "sha256": "348992fa2bf555f1454a5a5485dd1ca9842acc143059f257f2fcdcf237821589",
-         "storage": "EXTERNAL_TEMPORARY_ONLY_PROJECT_AFTER_SYNTHETICS"},
-    ]
-    if freeze["external_inputs"] != external_expected:
-        raise ValidationStop("external input freeze projection drift")
-    if freeze["network_allowlist"] != [value["url"] for value in external_expected]:
-        raise ValidationStop("network allowlist drift")
+    validate_external_freeze_contract(
+        freeze["external_inputs"], freeze["network_allowlist"])
     if freeze["temporary_allowlist"] != [
             "EXTERNAL_ACQUISITION_EXACT_THREE_FILES", "CORE_BUILD_CPP_HEADER_LIBRARY",
             "OUTPUT_STAGING_TWO_FILES"]:
@@ -4019,26 +4046,99 @@ def actual_capacity(tokens: Mapping[SurfaceName, Sequence[tuple[Token, bool]]],
     return output, decision, rank_audit
 
 
-class ExactRedirect(urllib.request.HTTPRedirectHandler):
+class RedirectObserved(Exception):
+    """One HTTP redirect observed and closed before its body was read."""
+
+    def __init__(self, status: object, geturl: object, locations: tuple[object, ...],
+                 resolved_url: object) -> None:
+        super().__init__("redirect observed")
+        self.status = status
+        self.geturl = geturl
+        self.locations = locations
+        self.resolved_url = resolved_url
+
+
+class NoAutoRedirect(urllib.request.HTTPRedirectHandler):
     def redirect_request(self, request: urllib.request.Request, fp: object, code: int,
                          msg: str, headers: object, newurl: str) -> urllib.request.Request | None:
-        if newurl not in EXTERNAL_URLS:
-            raise ValidationStop("external redirect outside registered endpoint set")
-        return super().redirect_request(request, fp, code, msg, headers, newurl)
+        del request, msg
+        get_all = getattr(headers, "get_all", None)
+        raw_locations = get_all("Location") if callable(get_all) else None
+        locations = tuple(raw_locations) if raw_locations is not None else ()
+        geturl = getattr(fp, "geturl", None)
+        observed_url = geturl() if callable(geturl) else None
+        close = getattr(fp, "close", None)
+        if callable(close):
+            close()
+        raise RedirectObserved(code, observed_url, locations, newurl)
 
 
-def fetch_external(url: str) -> bytes:
-    if url not in EXTERNAL_URLS:
-        raise ValidationStop("unregistered external URL")
-    opener = urllib.request.build_opener(ExactRedirect(), urllib.request.HTTPSHandler(context=SSL_CONTEXT))
+def validate_concept_redirect(status: object, geturl: object,
+                              locations: tuple[object, ...],
+                              resolved_url: object) -> None:
+    if type(status) is not int or status != 302:
+        raise ValidationStop("concept redirect status drift")
+    if type(geturl) is not str or geturl != CONCEPT_URL:
+        raise ValidationStop("concept redirect initial URL drift")
+    if (type(locations) is not tuple or len(locations) != 1 or
+            type(locations[0]) is not str or locations[0] != CONCEPT_LOCATION):
+        raise ValidationStop("concept redirect Location drift")
+    if (urllib.parse.urljoin(CONCEPT_URL, locations[0]) != CONCEPT_RESOLVED_URL or
+            type(resolved_url) is not str or resolved_url != CONCEPT_RESOLVED_URL):
+        raise ValidationStop("concept redirect resolution drift")
+
+
+def validate_exact_200(expected_url: str, status: object, geturl: object,
+                       locations: tuple[object, ...]) -> None:
+    if type(status) is not int or status != 200:
+        raise ValidationStop("external direct status drift")
+    if type(geturl) is not str or geturl != expected_url:
+        raise ValidationStop("external direct final URL drift")
+    if type(locations) is not tuple or locations:
+        raise ValidationStop("external direct Location drift")
+
+
+def register_network_request(trace: list[str], url: str) -> None:
+    index = len(trace)
+    if index >= len(NETWORK_REQUEST_URLS) or url != NETWORK_REQUEST_URLS[index]:
+        raise ValidationStop("external request sequence drift")
+    trace.append(url)
+
+
+def no_redirect_opener() -> urllib.request.OpenerDirector:
+    return urllib.request.build_opener(
+        NoAutoRedirect(), urllib.request.HTTPSHandler(context=SSL_CONTEXT))
+
+
+def fetch_exact_200(url: str, trace: list[str]) -> bytes:
+    register_network_request(trace, url)
     request = urllib.request.Request(url, headers={"User-Agent": "DANI001-clean-validator/1"})
     try:
-        with opener.open(request, timeout=120) as response:
-            if response.status != 200 or response.geturl() not in EXTERNAL_URLS:
-                raise ValidationStop("external HTTP status/final URL")
+        with no_redirect_opener().open(request, timeout=120) as response:
+            get_all = getattr(response.headers, "get_all", None)
+            raw_locations = get_all("Location") if callable(get_all) else None
+            locations = tuple(raw_locations) if raw_locations is not None else ()
+            validate_exact_200(url, response.status, response.geturl(), locations)
             return response.read()
+    except RedirectObserved as error:
+        raise ValidationStop("external direct endpoint redirected") from error
     except (urllib.error.URLError, TimeoutError, OSError) as error:
-        raise ValidationStop("external acquisition failed") from error
+        raise ValidationStop("external direct acquisition failed") from error
+
+
+def fetch_concept(trace: list[str]) -> bytes:
+    register_network_request(trace, CONCEPT_URL)
+    request = urllib.request.Request(
+        CONCEPT_URL, headers={"User-Agent": "DANI001-clean-validator/1"})
+    try:
+        with no_redirect_opener().open(request, timeout=120):
+            raise ValidationStop("concept endpoint did not redirect")
+    except RedirectObserved as observed:
+        validate_concept_redirect(observed.status, observed.geturl,
+                                  observed.locations, observed.resolved_url)
+    except (urllib.error.URLError, TimeoutError, OSError) as error:
+        raise ValidationStop("concept redirect acquisition failed") from error
+    return fetch_exact_200(CONCEPT_RESOLVED_URL, trace)
 
 
 def write_fsynced(path: Path, body: bytes) -> None:
@@ -4059,13 +4159,16 @@ def write_fsynced(path: Path, body: bytes) -> None:
 def actual_capacity_from_registered_sources(freeze: Mapping[str, object],
                                             producer: Mapping[str, object],
                                             policy: AuditPolicy) -> tuple[dict[str, object], str, ActualRankAudit]:
+    request_trace: list[str] = []
     policy.network_enabled = True
     try:
-        concept = fetch_external(EXTERNAL_URLS[0])
-        pipeline = fetch_external(EXTERNAL_URLS[1])
-        lexicon_body = fetch_external(EXTERNAL_URLS[2])
+        concept = fetch_concept(request_trace)
+        pipeline = fetch_exact_200(PIPELINE_URL, request_trace)
+        lexicon_body = fetch_exact_200(LEXICON_URL, request_trace)
     finally:
         policy.network_enabled = False
+    if tuple(request_trace) != NETWORK_REQUEST_URLS:
+        raise ValidationStop("external request trace drift")
     if digest(pipeline) != "079b6de7b8d2082303a0789fb3904105aecaa491e35600a557090e7981255d6f":
         raise ValidationStop("external pipeline body hash drift")
     if digest(lexicon_body) != "348992fa2bf555f1454a5a5485dd1ca9842acc143059f257f2fcdcf237821589":
@@ -4301,6 +4404,123 @@ def self_test() -> None:
                 raise ValidationStop("fabricated Lehmer self-test")
     if counter_hash("toy-map-rank", 4, 7) != counter_hash("toy-map-rank", 4, 7):
         raise ValidationStop("counter determinism self-test")
+
+    def must_transport_stop(call: Any, label: str) -> None:
+        try:
+            call()
+        except ValidationStop:
+            return
+        raise ValidationStop(f"fabricated transport mutation did not stop: {label}")
+
+    frozen_external = expected_external_inputs()
+    validate_external_freeze_contract(frozen_external, list(NETWORK_REQUEST_URLS))
+    if STATIC_AUDIT_REVIEW_ID != "DANI001_CALIBRATION_FREEZE_STATIC_AUDIT_V2":
+        raise ValidationStop("fabricated v2 static-audit review guard")
+    wrong_method = strict_json(canonical(frozen_external))
+    wrong_method[2]["transport"]["method"] = "HEAD"
+    must_transport_stop(
+        lambda: validate_external_freeze_contract(
+            wrong_method, list(NETWORK_REQUEST_URLS)),
+        "freeze-wrong-method")
+    bool_status = strict_json(canonical(frozen_external))
+    bool_status[0]["transport"]["initial_status"] = True
+    must_transport_stop(
+        lambda: validate_external_freeze_contract(bool_status, list(NETWORK_REQUEST_URLS)),
+        "freeze-bool-status")
+    extra_transport_member = strict_json(canonical(frozen_external))
+    extra_transport_member[1]["transport"]["location"] = CONCEPT_LOCATION
+    must_transport_stop(
+        lambda: validate_external_freeze_contract(
+            extra_transport_member, list(NETWORK_REQUEST_URLS)),
+        "freeze-extra-transport-member")
+    must_transport_stop(
+        lambda: validate_external_freeze_contract(
+            frozen_external, list(NETWORK_REQUEST_URLS[:-1])),
+        "freeze-three-url-allowlist")
+    reordered_urls = list(NETWORK_REQUEST_URLS)
+    reordered_urls[1], reordered_urls[2] = reordered_urls[2], reordered_urls[1]
+    must_transport_stop(
+        lambda: validate_external_freeze_contract(frozen_external, reordered_urls),
+        "freeze-request-order")
+
+    validate_concept_redirect(
+        302, CONCEPT_URL, (CONCEPT_LOCATION,), CONCEPT_RESOLVED_URL)
+    concept_mutations = (
+        (301, CONCEPT_URL, (CONCEPT_LOCATION,), CONCEPT_RESOLVED_URL, "status-301"),
+        (303, CONCEPT_URL, (CONCEPT_LOCATION,), CONCEPT_RESOLVED_URL, "status-303"),
+        (307, CONCEPT_URL, (CONCEPT_LOCATION,), CONCEPT_RESOLVED_URL, "status-307"),
+        (308, CONCEPT_URL, (CONCEPT_LOCATION,), CONCEPT_RESOLVED_URL, "status-308"),
+        (200, CONCEPT_URL, (), CONCEPT_RESOLVED_URL, "direct-200"),
+        (302, CONCEPT_RESOLVED_URL, (CONCEPT_LOCATION,), CONCEPT_RESOLVED_URL,
+         "initial-geturl"),
+        (302, CONCEPT_URL, (), CONCEPT_RESOLVED_URL, "missing-location"),
+        (302, CONCEPT_URL, (CONCEPT_LOCATION, CONCEPT_LOCATION), CONCEPT_RESOLVED_URL,
+         "duplicate-location"),
+        (302, CONCEPT_URL, (CONCEPT_RESOLVED_URL,), CONCEPT_RESOLVED_URL,
+         "absolute-location"),
+        (302, CONCEPT_URL, ("//zenodo.org/api/records/19609475",),
+         CONCEPT_RESOLVED_URL, "scheme-relative-location"),
+        (302, CONCEPT_URL, ("https://example.invalid/api/records/19609475",),
+         CONCEPT_RESOLVED_URL, "cross-origin-location"),
+        (302, CONCEPT_URL, ("/api/records/19609476",), CONCEPT_RESOLVED_URL,
+         "wrong-location"),
+        (302, CONCEPT_URL, (CONCEPT_LOCATION + "?x=1",), CONCEPT_RESOLVED_URL,
+         "query-location"),
+        (302, CONCEPT_URL, (CONCEPT_LOCATION + "#x",), CONCEPT_RESOLVED_URL,
+         "fragment-location"),
+        (302, CONCEPT_URL, (CONCEPT_LOCATION + "/",), CONCEPT_RESOLVED_URL,
+         "trailing-slash-location"),
+        (302, CONCEPT_URL, (CONCEPT_LOCATION,), CONCEPT_RESOLVED_URL + "/",
+         "resolved-url"),
+    )
+    for status, geturl, locations, resolved, label in concept_mutations:
+        must_transport_stop(
+            lambda status=status, geturl=geturl, locations=locations, resolved=resolved:
+            validate_concept_redirect(status, geturl, locations, resolved), label)
+    validate_exact_200(CONCEPT_RESOLVED_URL, 200, CONCEPT_RESOLVED_URL, ())
+    for status, geturl, locations, label in (
+            (302, CONCEPT_RESOLVED_URL, (), "final-redirect"),
+            (200, CONCEPT_URL, (), "final-geturl"),
+            (200, CONCEPT_RESOLVED_URL, (CONCEPT_LOCATION,), "final-location")):
+        must_transport_stop(
+            lambda status=status, geturl=geturl, locations=locations:
+            validate_exact_200(CONCEPT_RESOLVED_URL, status, geturl, locations), label)
+    trace: list[str] = []
+    for url in NETWORK_REQUEST_URLS:
+        register_network_request(trace, url)
+    if tuple(trace) != NETWORK_REQUEST_URLS:
+        raise ValidationStop("fabricated exact request sequence self-test")
+    must_transport_stop(lambda: register_network_request([], PIPELINE_URL),
+                        "request-order")
+    must_transport_stop(lambda: register_network_request(trace, CONCEPT_URL),
+                        "extra-request")
+
+    class FakeHeaders:
+        def get_all(self, name: str) -> list[str] | None:
+            return [CONCEPT_LOCATION] if name == "Location" else None
+
+    class FakeResponse:
+        def __init__(self) -> None:
+            self.closed = False
+
+        def geturl(self) -> str:
+            return CONCEPT_URL
+
+        def close(self) -> None:
+            self.closed = True
+
+    fake_response = FakeResponse()
+    try:
+        NoAutoRedirect().redirect_request(
+            urllib.request.Request(CONCEPT_URL), fake_response, 302, "Found",
+            FakeHeaders(), CONCEPT_RESOLVED_URL)
+        raise ValidationStop("fabricated redirect handler followed redirect")
+    except RedirectObserved as observed:
+        validate_concept_redirect(observed.status, observed.geturl,
+                                  observed.locations, observed.resolved_url)
+    if not fake_response.closed:
+        raise ValidationStop("fabricated redirect body was not closed")
+
     try:
         strict_json(b'{"a":1,"a":2}\n')
         raise ValidationStop("duplicate-key self-test did not stop")

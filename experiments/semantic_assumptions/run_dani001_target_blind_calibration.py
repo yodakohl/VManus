@@ -78,12 +78,13 @@ VALIDATION_MD_REL = (
 
 # The calibration-spec digest is filled only after the amendment is final.
 CALIBRATION_SPEC_SHA256 = (
-    "f38de851d96e5fbb3a9a8bbb7ecd9c925ee34e4cb1c181970b6f582fbdea9c32"
+    "bccbdf8427a1ac89b82df557c86e659e52cd027d04c832b0053774873046c32d"
 )
 SCIENCE_SPEC_SHA256 = (
     "cc73479b3c35eaa87a3f56184fc3472fe6232b67c13deb3bf30ef8555a6c8426"
 )
 REGISTERED_COMMIT = "1faa87f"
+STATIC_AUDIT_REVIEW_ID = "DANI001_CALIBRATION_FREEZE_STATIC_AUDIT_V2"
 ORBIT10 = 3_628_800
 ACTUAL_BEGIN = 1
 ACTUAL_END = ORBIT10
@@ -193,29 +194,64 @@ COMPILE_ENV = {
     "SOURCE_DATE_EPOCH": "0",
     "TZ": "UTC",
 }
+NETWORK_REQUEST_URLS = (
+    "https://zenodo.org/api/records/19583305",
+    "https://zenodo.org/api/records/19609475",
+    "https://zenodo.org/api/records/19609475/files/pipeline_v31_1.py/content",
+    (
+        "https://zenodo.org/api/records/19609475/files/"
+        "lexicon_v31_session31_final.json/content"
+    ),
+)
 EXTERNAL_BINDINGS = (
     {
         "name": "stable_metadata_projection",
-        "url": "https://zenodo.org/api/records/19583305",
+        "url": NETWORK_REQUEST_URLS[0],
         "sha256": "780301fd3c4b2c3c328c1f69a1eab65d0b0600f2d491ea9578f81699d36ddfa7",
         "storage": "MEMORY_ONLY_CANONICAL_PROJECTION",
+        "transport": {
+            "method": "GET",
+            "mode": "EXACT_ONE_MANUAL_RELATIVE_SAME_ORIGIN_302",
+            "initial_status": 302,
+            "location": "/api/records/19609475",
+            "resolved_url": NETWORK_REQUEST_URLS[1],
+            "final_status": 200,
+        },
     },
     {
         "name": "pipeline_body",
-        "url": "https://zenodo.org/api/records/19609475/files/pipeline_v31_1.py/content",
+        "url": NETWORK_REQUEST_URLS[2],
         "sha256": "079b6de7b8d2082303a0789fb3904105aecaa491e35600a557090e7981255d6f",
         "storage": "EXTERNAL_TEMPORARY_ONLY_INERT",
+        "transport": {
+            "method": "GET", "mode": "NO_REDIRECT", "final_status": 200,
+        },
     },
     {
         "name": "lexicon_body",
-        "url": (
-            "https://zenodo.org/api/records/19609475/files/"
-            "lexicon_v31_session31_final.json/content"
-        ),
+        "url": NETWORK_REQUEST_URLS[3],
         "sha256": "348992fa2bf555f1454a5a5485dd1ca9842acc143059f257f2fcdcf237821589",
         "storage": "EXTERNAL_TEMPORARY_ONLY_PROJECT_AFTER_SYNTHETICS",
+        "transport": {
+            "method": "GET", "mode": "NO_REDIRECT", "final_status": 200,
+        },
     },
 )
+
+
+def _external_binding_objects() -> list[dict[str, object]]:
+    """Return fresh JSON-native copies of the three logical input bindings."""
+
+    return [
+        {
+            "name": value["name"],
+            "url": value["url"],
+            "sha256": value["sha256"],
+            "storage": value["storage"],
+            "transport": dict(value["transport"]),
+        }
+        for value in EXTERNAL_BINDINGS
+    ]
 
 
 class DANI001CalibrationError(RuntimeError):
@@ -237,6 +273,7 @@ _OUTPUT_COLLISIONS = 0
 _PRE_SYNTHETIC_LOCAL_READS = 0
 _PROJECTION_CALLS = 0
 _SYNTHETIC_COMPLETE = False
+_STABLE_PROJECTION_TRACE_PASS = False
 
 
 def _repository_relative(value: object) -> str | None:
@@ -627,7 +664,7 @@ def _validate_freeze_schema(freeze: object) -> dict[str, object]:
     if type(freeze) is not dict or set(freeze) != exact_top:
         raise DANI001CalibrationError("calibration freeze schema drift")
     if _freeze_string(freeze["schema"], "schema") != (
-        "dani001-target-blind-calibration-freeze-v1"
+        "dani001-target-blind-calibration-freeze-v2"
     ):
         raise DANI001CalibrationError("calibration freeze version drift")
     if _freeze_string(freeze["registered_commit"], "registered_commit") != (
@@ -662,7 +699,7 @@ def _validate_freeze_schema(freeze: object) -> dict[str, object]:
         zip(external, EXTERNAL_BINDINGS, strict=True)
     ):
         if type(binding) is not dict or set(binding) != {
-            "name", "url", "sha256", "storage",
+            "name", "url", "sha256", "storage", "transport",
         }:
             raise DANI001CalibrationError(
                 f"freeze external_inputs[{index}] schema drift"
@@ -680,6 +717,36 @@ def _validate_freeze_schema(freeze: object) -> dict[str, object]:
             raise DANI001CalibrationError(
                 f"freeze external_inputs[{index}].sha256 drift"
             )
+        transport = binding["transport"]
+        expected_transport = expected["transport"]
+        if (
+            type(transport) is not dict
+            or type(expected_transport) is not dict
+            or set(transport) != set(expected_transport)
+        ):
+            raise DANI001CalibrationError(
+                f"freeze external_inputs[{index}].transport schema drift"
+            )
+        for key, expected_value in expected_transport.items():
+            actual_value = transport[key]
+            if type(actual_value) is not type(expected_value):
+                raise DANI001CalibrationError(
+                    f"freeze external_inputs[{index}].transport.{key} "
+                    "type drift"
+                )
+            if type(expected_value) is str:
+                _freeze_string(
+                    actual_value,
+                    f"external_inputs[{index}].transport.{key}",
+                )
+            elif type(expected_value) is not int:
+                raise DANI001CalibrationError(
+                    "internal external transport binding type drift"
+                )
+            if actual_value != expected_value:
+                raise DANI001CalibrationError(
+                    f"freeze external_inputs[{index}].transport.{key} drift"
+                )
 
     runtime = freeze["runtime"]
     runtime_keys = {
@@ -764,7 +831,7 @@ def _validate_freeze_schema(freeze: object) -> dict[str, object]:
             PANEL_REL, GENERATOR_REL, CORE_PY_REL, CORE_H_REL, CORE_CPP_REL,
             RUNNER_REL, *LOCAL_INPUT_RELS,
         ),
-        "network_allowlist": tuple(value["url"] for value in EXTERNAL_BINDINGS),
+        "network_allowlist": NETWORK_REQUEST_URLS,
         "temporary_allowlist": TEMPORARY_ALLOWLIST,
         "producer_outputs_absent": OUTPUT_RELS,
         "validator_outputs_absent": (VALIDATION_JSON_REL, VALIDATION_MD_REL),
@@ -784,7 +851,7 @@ def _validate_freeze_schema(freeze: object) -> dict[str, object]:
         raise DANI001CalibrationError("static calibration audit is not GO")
     if _freeze_string(
         static_audit["review_id"], "static_audit.review_id"
-    ) != "DANI001_CALIBRATION_FREEZE_STATIC_AUDIT_V1":
+    ) != STATIC_AUDIT_REVIEW_ID:
         raise DANI001CalibrationError("freeze static audit review drift")
     _freeze_sha256(
         static_audit["auditor_source_sha256"],
@@ -4400,12 +4467,12 @@ def _create_freeze(
         RUNNER_REL, *LOCAL_INPUT_RELS,
     ]
     freeze = {
-        "schema": "dani001-target-blind-calibration-freeze-v1",
+        "schema": "dani001-target-blind-calibration-freeze-v2",
         "registered_commit": REGISTERED_COMMIT,
         "science_spec": science,
         "calibration_spec": calibration,
         "local_inputs": local,
-        "external_inputs": [dict(value) for value in EXTERNAL_BINDINGS],
+        "external_inputs": _external_binding_objects(),
         "code": code,
         "synthetic_manifest": manifest,
         "runtime": runtime,
@@ -4419,7 +4486,7 @@ def _create_freeze(
             "runtime_image_sha256": runtime["runtime_image_sha256"],
         },
         "read_allowlist": read_allowlist,
-        "network_allowlist": [value["url"] for value in EXTERNAL_BINDINGS],
+        "network_allowlist": list(NETWORK_REQUEST_URLS),
         "temporary_allowlist": list(TEMPORARY_ALLOWLIST),
         "producer_outputs_absent": list(OUTPUT_RELS),
         "validator_outputs_absent": [VALIDATION_JSON_REL, VALIDATION_MD_REL],
@@ -4427,7 +4494,7 @@ def _create_freeze(
         "validator_write_allowlist": [VALIDATION_JSON_REL, VALIDATION_MD_REL],
         "static_audit": {
             "status": "GO",
-            "review_id": "DANI001_CALIBRATION_FREEZE_STATIC_AUDIT_V1",
+            "review_id": STATIC_AUDIT_REVIEW_ID,
             "auditor_source_sha256": static_auditor_sha256,
         },
     }
@@ -4604,7 +4671,7 @@ def _validate_freeze_and_load(
     }
     if not isinstance(freeze, dict) or set(freeze) != exact_top:
         raise DANI001CalibrationError("calibration freeze schema drift")
-    if freeze["schema"] != "dani001-target-blind-calibration-freeze-v1":
+    if freeze["schema"] != "dani001-target-blind-calibration-freeze-v2":
         raise DANI001CalibrationError("calibration freeze version drift")
     if freeze["registered_commit"] != REGISTERED_COMMIT:
         raise DANI001CalibrationError("registered commit drift")
@@ -4613,7 +4680,7 @@ def _validate_freeze_and_load(
         not isinstance(static, dict)
         or set(static) != {"status", "review_id", "auditor_source_sha256"}
         or static["status"] != "GO"
-        or static["review_id"] != "DANI001_CALIBRATION_FREEZE_STATIC_AUDIT_V1"
+        or static["review_id"] != STATIC_AUDIT_REVIEW_ID
         or not HEX64.fullmatch(str(static["auditor_source_sha256"]))
     ):
         raise DANI001CalibrationError("static calibration audit is not GO")
@@ -4636,16 +4703,14 @@ def _validate_freeze_and_load(
     )
     if tuple(freeze["read_allowlist"]) != expected_read:
         raise DANI001CalibrationError("producer read allowlist drift")
-    if tuple(freeze["network_allowlist"]) != tuple(
-        value["url"] for value in EXTERNAL_BINDINGS
-    ):
+    if tuple(freeze["network_allowlist"]) != NETWORK_REQUEST_URLS:
         raise DANI001CalibrationError("network allowlist drift")
     if (
         not isinstance(freeze["temporary_allowlist"], list)
         or tuple(freeze["temporary_allowlist"]) != TEMPORARY_ALLOWLIST
     ):
         raise DANI001CalibrationError("temporary allowlist drift")
-    if freeze["external_inputs"] != [dict(value) for value in EXTERNAL_BINDINGS]:
+    if freeze["external_inputs"] != _external_binding_objects():
         raise DANI001CalibrationError("external input binding drift")
     if not _all_outputs_absent():
         raise DANI001CalibrationError("frozen output absence drift")
@@ -4767,6 +4832,10 @@ def _isolation_object(*, actual_opened: bool) -> dict[str, object]:
 
 
 def _input_checks(*, local_opened: bool) -> dict[str, object]:
+    if _STABLE_PROJECTION_TRACE_PASS is not True:
+        raise DANI001CalibrationError(
+            "stable projection transport/projection trace was not verified"
+        )
     return {
         "registered_commit_pass": True,
         "science_spec_pass": True,
@@ -4779,9 +4848,47 @@ def _input_checks(*, local_opened: bool) -> dict[str, object]:
         "core_build_pass": True,
         "external_pipeline_body_pass": True,
         "external_lexicon_body_pass": True,
-        "stable_projection_pass": True,
+        "stable_projection_pass": _STABLE_PROJECTION_TRACE_PASS,
         "local_inputs_pass": True if local_opened else None,
     }
+
+
+def _verify_external_acquisition_trace(
+    panel: types.ModuleType,
+    acquisition: object,
+) -> None:
+    """Bind the panel's four requests and three logical response digests."""
+
+    acquisition_urls = getattr(acquisition, "acquisition_urls", None)
+    if (
+        type(acquisition_urls) is not tuple
+        or any(type(value) is not str for value in acquisition_urls)
+        or acquisition_urls != NETWORK_REQUEST_URLS
+        or getattr(panel, "ACQUISITION_URLS", None) != NETWORK_REQUEST_URLS
+    ):
+        raise DANI001CalibrationError("external acquisition transport trace drift")
+    logical_urls = tuple(value["url"] for value in EXTERNAL_BINDINGS)
+    if (
+        getattr(panel, "EXTERNAL_URLS", None) != logical_urls
+        or len(logical_urls) != 3
+        or len(acquisition_urls) != 4
+    ):
+        raise DANI001CalibrationError("external logical/request input split drift")
+    exact_attributes = (
+        ("stable_projection_sha256", EXTERNAL_BINDINGS[0]["sha256"]),
+        ("pipeline_sha256", EXTERNAL_BINDINGS[1]["sha256"]),
+        ("lexicon_sha256", EXTERNAL_BINDINGS[2]["sha256"]),
+    )
+    for name, expected in exact_attributes:
+        actual = getattr(acquisition, name, None)
+        if type(actual) is not str or actual != expected:
+            raise DANI001CalibrationError(f"external acquisition {name} drift")
+    projection_bytes = getattr(acquisition, "stable_projection_bytes", None)
+    if (
+        type(projection_bytes) is not bytes
+        or _sha256(projection_bytes) != EXTERNAL_BINDINGS[0]["sha256"]
+    ):
+        raise DANI001CalibrationError("stable projection digest drift")
 
 
 def _result_object(
@@ -5270,7 +5377,7 @@ def _validate_core_build(
 
 def _run_registered(freeze_sha256: str) -> tuple[str, str]:
     global np, _ACTUAL_ACCESS_GRANTED, _PROJECTION_CALLS
-    global _SYNTHETIC_COMPLETE
+    global _SYNTHETIC_COMPLETE, _STABLE_PROJECTION_TRACE_PASS
 
     _enforce_locale_timezone()
     os.environ["OMP_NUM_THREADS"] = "32"
@@ -5310,6 +5417,8 @@ def _run_registered(freeze_sha256: str) -> tuple[str, str]:
         with panel.acquire_registered_external_files() as acquisition:
             acquisition_root = acquisition.temporary_root.resolve()
             panel._validate_acquisition_lease(acquisition)
+            _verify_external_acquisition_trace(panel, acquisition)
+            _STABLE_PROJECTION_TRACE_PASS = True
             _REGISTERED_EXTERNAL_ROOTS.add(acquisition.temporary_root.resolve())
             _REGISTERED_TEMP_ROOTS.add(core_directory.resolve())
             _install_audit_hook()
@@ -5325,6 +5434,7 @@ def _run_registered(freeze_sha256: str) -> tuple[str, str]:
             )
             _SYNTHETIC_COMPLETE = True
             panel._validate_acquisition_lease(acquisition)
+            _verify_external_acquisition_trace(panel, acquisition)
 
             if synthetics_pass:
                 if _PROJECTION_CALLS != 0:
@@ -5417,6 +5527,22 @@ def _run_registered(freeze_sha256: str) -> tuple[str, str]:
 
 def _source_free_smoke() -> dict[str, object]:
     _enforce_locale_timezone()
+    if (
+        len(EXTERNAL_BINDINGS) != 3
+        or len(NETWORK_REQUEST_URLS) != 4
+        or tuple(value["url"] for value in EXTERNAL_BINDINGS) != (
+            NETWORK_REQUEST_URLS[0],
+            NETWORK_REQUEST_URLS[2],
+            NETWORK_REQUEST_URLS[3],
+        )
+        or EXTERNAL_BINDINGS[0]["transport"]["resolved_url"]
+        != NETWORK_REQUEST_URLS[1]
+    ):
+        raise DANI001CalibrationError("external transport/logical split smoke failed")
+    copied_bindings = _external_binding_objects()
+    copied_bindings[0]["transport"]["initial_status"] = False
+    if EXTERNAL_BINDINGS[0]["transport"]["initial_status"] != 302:
+        raise DANI001CalibrationError("external binding deep-copy smoke failed")
     exact_type_rejections = 0
     for operation in (
         lambda: _result_uint(True, "fabricated integer"),
@@ -5447,12 +5573,12 @@ def _source_free_smoke() -> dict[str, object]:
         "path": relative, "sha256": "0" * 64, "size": 0,
     }
     fake_freeze: dict[str, object] = {
-        "schema": "dani001-target-blind-calibration-freeze-v1",
+        "schema": "dani001-target-blind-calibration-freeze-v2",
         "registered_commit": REGISTERED_COMMIT,
         "science_spec": fake_path_for(SCIENCE_SPEC_REL),
         "calibration_spec": fake_path_for(CALIBRATION_SPEC_REL),
         "local_inputs": [fake_path_for(value) for value in LOCAL_INPUT_RELS],
-        "external_inputs": [dict(value) for value in EXTERNAL_BINDINGS],
+        "external_inputs": _external_binding_objects(),
         "code": [fake_path_for(value) for value in CODE_RELS],
         "synthetic_manifest": fake_path_for(MANIFEST_REL),
         "runtime": fake_freeze_runtime,
@@ -5472,7 +5598,7 @@ def _source_free_smoke() -> dict[str, object]:
             PANEL_REL, GENERATOR_REL, CORE_PY_REL, CORE_H_REL, CORE_CPP_REL,
             RUNNER_REL, *LOCAL_INPUT_RELS,
         ],
-        "network_allowlist": [value["url"] for value in EXTERNAL_BINDINGS],
+        "network_allowlist": list(NETWORK_REQUEST_URLS),
         "temporary_allowlist": list(TEMPORARY_ALLOWLIST),
         "producer_outputs_absent": list(OUTPUT_RELS),
         "validator_outputs_absent": [VALIDATION_JSON_REL, VALIDATION_MD_REL],
@@ -5480,7 +5606,7 @@ def _source_free_smoke() -> dict[str, object]:
         "validator_write_allowlist": [VALIDATION_JSON_REL, VALIDATION_MD_REL],
         "static_audit": {
             "status": "GO",
-            "review_id": "DANI001_CALIBRATION_FREEZE_STATIC_AUDIT_V1",
+            "review_id": STATIC_AUDIT_REVIEW_ID,
             "auditor_source_sha256": "0" * 64,
         },
     }
@@ -5492,6 +5618,7 @@ def _source_free_smoke() -> dict[str, object]:
         (("runtime", "workers", 0), True),
         (("core_build", "abi_version"), True),
         (("local_inputs", 0, "size"), False),
+        (("external_inputs", 0, "transport", "initial_status"), True),
     ):
         malformed = _json_no_duplicates(fake_freeze_bytes)
         cursor = malformed
@@ -5506,7 +5633,7 @@ def _source_free_smoke() -> dict[str, object]:
         _decode_canonical_freeze(fake_freeze_bytes[:-1])
     except DANI001CalibrationError:
         freeze_type_rejections += 1
-    if freeze_type_rejections != 4:
+    if freeze_type_rejections != 5:
         raise DANI001CalibrationError("exact freeze-type/canonical smoke failed")
 
     with tempfile.TemporaryDirectory(prefix="dani001-install-smoke-") as temp_name:
