@@ -388,6 +388,17 @@ genuinely different relation invariant or new data; the underpowered direct
 relation-family branch cannot be scored. A public source layer is not a held
 lexical annotation, and no lexical meaning follows from these results.
 
+A source-bound native-visual worth screen now also stops the most plausible
+new repeated-caption exception before text access. The human exact-locus layer
+contains 14 unhedged apparatus-label rows with an explicit-attachment tag on
+seven pages. Fixed comment families give five tube/pipe/channel rows, three
+tub/container rows, three pool/pond rows, and four stream/outflow rows, but
+most are between or near multiple objects or mix component kinds. Even under
+a deliberately generous singular grade, the largest repeated component class
+reaches only two physical folios. This misses the fixed three-folio worth gate;
+no label string or formal feature association was opened. Do not replace
+singular ownership with proximity or run an apparatus component-name decoder.
+
 The user has now corrected the search unit from complete space-delimited texts
 to recurring patterns at several levels. An archive audit found that the failed
 449-row/32-page manual-label decoder already used whitespace-stripped
