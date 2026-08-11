@@ -5289,6 +5289,18 @@ source-bound strict within-ring tail positives on another physical folio. No
 star-tail word, zodiac name, sound, language, cipher, plaintext, meaning, or
 translation is established.
 
+A direct attached-star/ray-count route also stops at ownership before text
+access. The human exact-locus atlas has 63 ray-counted label records: 29 on
+f68r1, 24 on f68r2, and ten on f70v1. Forty-seven f68 records are unhedged
+exact-local explicit attachments, but all belong to physical folio f68. Every
+f70 row is a hedged `OBJECT_CONTEXT_ONLY` relation, and the official f70v1
+image shows stars, figures, and labels sharing annuli without leaders,
+enclosures, reserved cells, or sector boundaries fixing each label to one
+counted star. Thus no second independent folio has singular ownership. Stop
+before opening label surfaces or constructing features; no number, ray-count
+word, star name, sound, language, cipher, plaintext, meaning, or translation
+is established.
+
 The same public catalogue contains a superficially stronger pharmaceutical
 contrast. A conservative parser finds 82
 unhedged, non-mixed DARK/LIGHT root descriptions on six physical folios, with
