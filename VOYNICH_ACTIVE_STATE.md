@@ -6000,6 +6000,25 @@ search is not new evidence. It must also pass an input-provenance check showing
 no OCR or automated-vision dependency. Record every material pass or failure
 in the active ledger.
 
+The translation-anchor acquisition registry now makes that evidence gap
+explicit. Eleven surviving human-evidence families were tested against six
+mandatory gates: traceable human provenance, author-visible one-to-one
+ownership, readable contrasting values, at least five independent physical
+folios, unique current-locus mapping, and an untouched confirmation set.
+None passes; the maximum is four of six. The high-coverage S104 Herbal
+component and SCP001 red/yellow star panels lack, respectively, author-visible
+component ownership and evidence that marker colour is a value spelled by the
+attached text, and both lexical confirmation routes are consumed. The closest
+unscored record remains f2r.15, a possible under-green-paint production note
+with no second Voynich-script colour contrast. The strongest special-circle
+lead remains f57v's historically replicated Hot-Moist-Cold-Dry page-role
+phase, but its four labels at 01:30, 04:30, 07:30, and 10:00 are proximity
+assignments without an author-drawn value relation and all local bit patterns
+are geometry-confounded. Do not gloss those strings. The active action is now
+targeted acquisition of one of the exact requested observations in
+`translation_anchor_acquisition_registry_v1.tsv`, not another model or rerun.
+An independent nonimporting reconstruction passes 76 checks.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU
