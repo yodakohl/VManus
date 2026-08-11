@@ -6305,6 +6305,18 @@ the little illustration without translating the Voynich line. Retain no
 bilingual or correction relation and infer no marginal reading, object,
 animal, word, sound, language, cipher, plaintext, meaning, or translation.
 
+The official f17r and f116v images retain a stronger but still nonlexical
+marginal relation. On f17r, plain-script-looking and Voynich-style groups share
+one faint top line; on f116v, the bottom marginal line begins with two
+Voynich-style groups and continues in plain-script-looking writing on the same
+approximate baseline. Thus mixed-script same-line context recurs on two
+folios. Neither line shows an equality/gloss marker, pointer, correction,
+overwrite, interlinear alignment, or repeated paired value. Retain
+`MIXED_SCRIPT_SAME_LINE_CONTEXT_CANDIDATE` as a physical relation only. A
+future independently convergent diplomatic reading may constrain usage, but
+the images currently supply no word, sound, language, glossary entry, cipher,
+plaintext, meaning, or translation.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU
