@@ -2833,9 +2833,21 @@ plant-fragment inscription inside that fragment's pale neck with no competing
 fragment in the local writing region. Current metadata maps the unique `@Lf`
 record to `f102r1.2`. An independent source/image validator passes ten checks.
 This is a machine-authored ownership judgment rather than human annotation,
-and the label surface remains sealed. It reopens only a new score-blind
-five-relation capacity/design audit; do not run the old four-pair S100 scorer
-or inspect the fifth label before a new public freeze.
+and the label surface remained sealed through publication of the ownership
+result. During the later capacity check, an interactive diagnostic accidentally
+displayed the fifth label surface and root sequence to the analyst. No f37v
+prose, association score, ranking, or best match was opened; later work must not
+be described as fully analyst-blind.
+
+The score-blind five-relation capacity audit stops before scorer calibration.
+The added relation fixes the exact-assignment floor at `1/120=.008333` and the
+five labels have stable formal-root counts 1, 3, 2, 3, and 5, so four are
+multi-root. But only 14/15 label-reading cells are covered by the frozen formal
+parser: RF1b f102r2.22 is uncovered. Independent reconstruction passes nine
+checks with zero target scores. Do not drop RF1b, use the unresolved parser
+output, or run the old S100 scorer. A new attempt requires another externally
+fixed singularly owned relation yielding a complete five-relation all-reading
+panel, or a new provenance-complete parser.
 
 A post-inspection S101 observation that both root-only copied fragments in the
 four S99 pairs have `d`, while both leaf-retaining fragments do not, is not a
