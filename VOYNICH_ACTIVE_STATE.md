@@ -6510,9 +6510,14 @@ first/last-tendency and edge/core tags, yields one unique passing context. It
 occurs ten times on nine physical folios across Herbal and Pharmaceutical
 sections. Independent code reconstructs the ladder and selection in eight
 checks and confirms that family, member, and lossy-EVA fields never enter the
-selector. This authorizes one exact unmask of those ten already frozen
-occupants. It does not yet supply a word, POS, morpheme, sound, language,
-cipher, plaintext, meaning, or translation.
+selector. The public one-time unmask then finds nine family surfaces, ten
+different exact member groups, and nine current formal shells among the ten
+occupants. Only `QKAB` repeats, twice, and its exact member differs across the
+two occurrences. All three preregistered recurrence flags fail, and independent
+code reconstructs the stop in seven checks. This closes recurrent prose-slot
+filler inspection without alternative-context or threshold mining. It supplies
+no word, POS, morpheme, sound, language, cipher, plaintext, meaning, or
+translation.
 
 ## Runtime and sources
 
