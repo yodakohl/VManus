@@ -1,0 +1,84 @@
+{
+  "claim_ceiling": "The official ordinary-light f2r image shows that the manually transcribed f2r.15 record straddles the tip boundary of one green-painted leaf: part overlaps the pale green leaf-tip area and the record continues onto bare parchment. The image does not establish ink-before-paint layer order. This supports only a local leaf-boundary association, not a wholly enclosed under-paint instruction, colour value, word, sound, language, cipher, plaintext, meaning, or translation.",
+  "decision": "CORRECT_F2R15_TO_BOUNDARY_OVERLAP_LAYER_ORDER_UNRESOLVED",
+  "experiment": "F2R15_NATIVE_VISUAL_OWNERSHIP_CORRECTION",
+  "method_exclusions": [
+    "OCR",
+    "AUTOMATED_TRANSCRIPTION",
+    "ENHANCEMENT_DERIVED_READING",
+    "CLIP_OR_EMBEDDINGS",
+    "IMAGE_SIMILARITY_SCORING",
+    "AUTOMATED_SEGMENTATION",
+    "AUTOMATED_GLYPH_CLASSIFICATION",
+    "PLANT_IDENTIFICATION",
+    "EXTERNAL_DECODER_CLAIMS"
+  ],
+  "prior_bindings": {
+    "existing_human_annotation": {
+      "annotation_scope": "EXACT_LOCAL_COMMENT",
+      "certainty": "UNHEDGED",
+      "local_comment": "Within leaf.",
+      "locus": "f2r.15",
+      "relation_tag": "REL_ENCLOSURE",
+      "source_table_sha256": "79c7f06e91f90054aff4cdf27f098a5977d820acdf91f239a14c6ddf553a7f61"
+    },
+    "translation_anchor_packet": {
+      "prior_relation_grade": "DIRECT_ENCLOSURE_UNDER_PAINT",
+      "source_table_sha256": "20134182f439a742a3de825858aae4f879faab8f5f17f28a676f48b318a7d563",
+      "transcribed_surface": {
+        "IT2a": "ABSENT",
+        "RF1b": "ios.an.on",
+        "ZL3b": "ios.an.on"
+      }
+    }
+  },
+  "relation_gates": {
+    "complete_record_wholly_inside_leaf": false,
+    "ink_before_paint_established": false,
+    "local_leaf_boundary_association_supported": true,
+    "ordinary_light_layer_order_resolved": false,
+    "record_continues_onto_bare_parchment": true,
+    "record_partly_overlaps_pale_green_leaf_tip": true,
+    "second_readable_colour_value_supplied": false,
+    "second_voynich_colour_record_supplied": false
+  },
+  "revised_relation_grade": "BOUNDARY_OVERLAP_LAYER_ORDER_UNRESOLVED",
+  "schema": "F2R15_NATIVE_VISUAL_OWNERSHIP_CORRECTION_V1",
+  "sources": {
+    "yale_2014": {
+      "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006078",
+      "detail_height": 1800,
+      "detail_image_sha256": "636335ce1c65c614a78578bbbcf571fcd78f2403d9624dacdd86d6b4c342914c",
+      "detail_image_url": "https://collections.library.yale.edu/iiif/2/1006078/1750,900,900,900/1800,/0/default.jpg",
+      "detail_width": 1800,
+      "height": 3770,
+      "image_sha256": "826533a0760798acf5a4caa01ac29fe95eb1ed13a9fb26ac82900a8aea11d53f",
+      "image_url": "https://collections.library.yale.edu/iiif/2/1006078/full/full/0/default.jpg",
+      "manifest_url": "https://collections.library.yale.edu/manifests/2002046",
+      "width": 2691
+    }
+  },
+  "status": "SOURCE_BOUND_NATIVE_VISUAL_RELATION_CORRECTION",
+  "visual_observations": [
+    {
+      "confidence": "HIGH",
+      "observation": "The physical record identified by the manual transcription is not wholly enclosed within the painted leaf."
+    },
+    {
+      "confidence": "HIGH",
+      "observation": "Part of the record overlaps the pale green area at the narrow outer leaf tip, while the remaining material continues to the right on bare parchment."
+    },
+    {
+      "confidence": "HIGH",
+      "observation": "No enclosing outline, leader, or other drawn device converts the complete record into a contained leaf label."
+    },
+    {
+      "confidence": "UNRESOLVED",
+      "observation": "The ordinary-light scan does not establish whether the ink preceded the green wash, followed it, or remains visible through a transparent overlap."
+    },
+    {
+      "confidence": "HIGH",
+      "observation": "The image therefore supports a local leaf-boundary association but not the stronger DIRECT_ENCLOSURE_UNDER_PAINT relation grade."
+    }
+  ]
+}

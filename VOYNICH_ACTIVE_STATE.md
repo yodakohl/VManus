@@ -265,13 +265,17 @@ One small production-layer lead is now retained without a lexical gloss.
 The human catalogue has 13 `COL`-classed records on ten pages: twelve are
 plain-alphabet records, including Latin `g` under green paint on f1v, German
 `rot` on f4r, and probable `rot` under paint on f7r. The sole Voynich-script
-record is the under-green-paint candidate `ios an on` at f2r.15. ZL3b and RF1b
-agree on that surface, but IT2a omits it and `ios`/`on` are locus-unique. Thus
-f2r.15 may be a pre-paint green-leaf instruction at whole-record level. There
-is no second Voynich-script colour contrast. No token can be glossed GREEN,
-pigment, or action. The plain notes do not establish that the main-text scribe
-wrote them or that the main text is German. This uses only human descriptions
-and manual transcriptions. A retained-node formal audit further narrows the record:
+record is the green-leaf-boundary candidate `ios an on` at f2r.15. ZL3b and
+RF1b agree on that surface, but IT2a omits it and `ios`/`on` are locus-unique.
+A source-bound native-visual reinspection corrects the older
+`DIRECT_ENCLOSURE_UNDER_PAINT` classification: the record straddles a narrow
+leaf tip, with part overlapping pale green and the remainder continuing onto
+bare parchment. Ordinary-light pixels do not establish whether ink preceded
+or followed the wash. Retain only `BOUNDARY_OVERLAP_LAYER_ORDER_UNRESOLVED`
+and a local leaf association. There is no second Voynich-script colour
+contrast. No token can be glossed GREEN, pigment, or action. The plain notes
+do not establish that the main-text scribe wrote them or that the main text is
+German. A retained-node formal audit further narrows the record:
 the parsed `a -> o` tail behind `an on` recurs at six physical loci, including
 two all-reading prose loci, while the reverse order also occurs. The `a` and
 `o` roots occur at 408 and 874 physical loci. Only the composite `i+os` is
@@ -6039,8 +6043,11 @@ None passes; the maximum is four of six. The high-coverage S104 Herbal
 component and SCP001 red/yellow star panels lack, respectively, author-visible
 component ownership and evidence that marker colour is a value spelled by the
 attached text, and both lexical confirmation routes are consumed. The closest
-unscored record remains f2r.15, a possible under-green-paint production note
-with no second Voynich-script colour contrast. The strongest special-circle
+unscored record remains f2r.15, now corrected to a green-leaf-boundary overlap
+whose ink/paint order is unresolved, with no second Voynich-script colour
+contrast. The v1 registry's stronger direct-enclosure grade is superseded by
+the native-visual correction; its request for a genuinely replicated readable
+contrast remains valid. The strongest special-circle
 lead remains f57v's historically replicated Hot-Moist-Cold-Dry page-role
 phase, but its four labels at 01:30, 04:30, 07:30, and 10:00 are proximity
 assignments without an author-drawn value relation and all local bit patterns
@@ -6357,9 +6364,11 @@ or plain-alphabet writing, and does not independently support either a plain
 `p`/`r` or the older `qo???` suggestion. Ordinary-light pixels also cannot
 separate deliberate ink beneath paint from pigment variation, abrasion,
 parchment texture, or another incidental mark. Therefore f99v.45 is not a
-second authenticated Voynich-script under-paint record; f2r.15 remains the
-sole candidate and no colour, character, word, sound, language, cipher,
-plaintext, meaning, or translation follows.
+second authenticated Voynich-script under-paint record. A subsequent direct
+inspection also shows that f2r.15 itself is not wholly enclosed: it crosses a
+green leaf-tip boundary and its layer order is unresolved. No authenticated
+Voynich-script under-paint instruction now remains, and no colour, character,
+word, sound, language, cipher, plaintext, meaning, or translation follows.
 
 ## Runtime and sources
 
