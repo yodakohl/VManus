@@ -1,6 +1,6 @@
 # Voynich active state — structural reset baseline
 
-Updated: 2026-08-10. Read this file first, then
+Updated: 2026-08-11. Read this file first, then
 `experiments/semantic_assumptions/ACTIVE_EXPERIMENT_LEDGER.tsv`.
 
 ## Outcome
@@ -5952,6 +5952,16 @@ the separately frozen semantic control order. The corrected registry check is
 published, and its replacement hash-only freeze passes three independent
 audits. The next authorized action is one corrected registered target-blind
 synthetic and nonidentity-capacity run; rank zero remains unopened.
+
+By user direction on 2026-08-11, DANI001 and further validation of external
+translation claims are no longer active routes. The corrected frozen
+calibration was terminated after 7 hours 23 minutes while still CPU-active;
+all four production and validation outputs were absent, so it produced no
+scientific decision and never opened rank zero. Preserve the published DANI
+specifications, audits, and stops as routing history, but do not resume,
+repair, or reinterpret them. New work must arise from the manuscript and
+provenance-clean primary evidence rather than adjudicating third-party decoder
+claims.
 
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
