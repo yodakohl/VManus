@@ -5199,10 +5199,16 @@ impossible to read; the public transcription guidance explicitly says that it
 cannot decide which final marks belong to the unknown script and which, if any,
 are cleartext. ZL3b and RF1b preserve four illegible symbols there, while IT2a
 reads an ordinary final `koiin` group. Proposed readings such as `Suna` are
-therefore not admissible external anchors. Reopen only with a qualified human
-palaeographic reading of the complete sequence plus independent manuscript
-support; no SUN word, sound, language, cipher, plaintext, or translation is
-established.
+therefore not admissible external anchors. A later source-bound native visual
+inspection of Yale's official 7993 x 3828 image examines the complete ring and
+the ending in four display orientations. Most of the register is ordinary
+Voynich-style writing, while the final marks occupy the same band but remain
+faint and irregular. No orientation yields a stable four-letter plain-script
+segmentation, independently supports `SUN`/`Suna`, or decides between the
+ZL3b/RF1b illegible marks and IT2a's `koiin`. Reopen only with a documented
+multispectral or specialist palaeographic reading of the complete sequence
+plus independent manuscript support; no SUN word, sound, language, cipher,
+plaintext, or translation is established.
 
 A second public human inventory has now been checked without OCR or image
 recognition. Robert Teague's 2007 native-digital `Zodiac Section Nymph
