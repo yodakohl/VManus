@@ -19,8 +19,25 @@ between figures and is itself writing, not a set of connector lines.  Visual
 inspection therefore preserves the existing `PROXIMITY_ONLY` ownership state;
 it does not create the missing one-to-one figure-to-label relation.
 
-This was a user-authorized AI visual-description pilot, not human annotation.
-No OCR, CLIP, embedding, image-similarity model, object naming, or new glyph
-transcription was used.  The observations establish no direction, season,
+## Pale green wash
+
+The opposite side of the same physical leaf is f57r, whose official Yale scan
+shows a large plant with extensive green-painted leaf masses. After accounting
+for the horizontal mirror between recto and verso, those painted masses occupy
+the positions of the diffuse pale green forms visible through f57v. The wash
+therefore comes from reverse-side show-through or pigment penetration from the
+f57r plant; it is not a separate green layer belonging to the f57v wheel.
+
+The ordinary-light images cannot determine whether this is primarily optical
+translucency through the parchment or actual migration of pigment through the
+support. An initial statement naming f58r was a foliation error: f57r, not
+f58r, is the opposite side of f57v. The source comparison was corrected before
+this result was published.
+
+This began as a user-authorized AI visual-description pilot; the user then
+authorized source-bound native visual inspection generally. The observations
+remain machine-authored rather than literal human annotation. No OCR, CLIP,
+embedding, image-similarity model, unconstrained object naming, or new glyph
+transcription was used. The observations establish no direction, season,
 humour, element, quality, person, label value, word, language, cipher,
 plaintext, meaning, or translation.

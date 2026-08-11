@@ -165,10 +165,11 @@ independent samples. Structural tags must remain distinct from translations.
 
 - Do not run or use OCR on Voynich text, historical sources, labels, marginalia,
   or diagrams. Existing manual ZL/IT/RF transcriptions are permitted.
-- Do not run or use neural or other automated image recognition, detection,
-  segmentation, captioning, feature embeddings, similarity search, CLIP/prompt
-  scoring, or model-generated visual labels. The AI-generated plant candidate
-  list is excluded as evidence.
+- Do not run or use batch automated image recognition, detection, segmentation,
+  captioning, feature embeddings, similarity search, CLIP/prompt scoring, or
+  model-generated object/plant labels. The AI-generated plant candidate list
+  remains excluded as evidence. Source-bound direct native visual inspection
+  is permitted under the provenance and uncertainty rules below.
 - Any earlier experiment that consumed an excluded output is methodologically
   flawed. Its dependent positive and negative results cannot support, close, or
   reopen a route. A mixed report is unusable until a provenance audit isolates
@@ -178,17 +179,25 @@ independent samples. Structural tags must remain distinct from translations.
   direct human inspection. Human labels must not have been generated or filled
   in by an image/OCR model.
 
-On 2026-08-11 the user authorized one narrow capability test outside that
-default exclusion: direct AI visual description of the official Yale f57v
-canvas. The exception does not authorize OCR, CLIP, embeddings, image
-similarity, object naming, glyph transcription, or semantic transfer and does
-not retroactively admit any excluded visual result. The source-bound pilot
-finds four annular writing bands and four inward-facing central figures around a rosette,
-with four figure-near inscriptions and four radial inscriptions between the
-figures. No drawn leader, bracket, or separate enclosure assigns a nearby
-inscription to a specific figure, so the existing `PROXIMITY_ONLY` ownership
-state remains. This is machine-derived visual description, not human
-annotation, and supplies no lexical value or translation.
+On 2026-08-11 the user first authorized a narrow f57v capability test and then
+authorized direct native AI visual inspection generally. Every inspected
+image must be an exact source-bound official or provenance-traceable witness;
+observations must distinguish visible geometry from interpretation, record
+uncertainty and corrections, and never be represented as literal human
+annotation. OCR, CLIP, embeddings, similarity scoring, unconstrained object or
+plant naming, and automatic semantic transfer remain excluded, and the policy
+change does not retroactively admit any earlier excluded output.
+
+The first source-bound pilot finds four annular writing bands and four
+inward-facing central figures around a rosette, with four figure-near
+inscriptions and four radial inscriptions between the figures. No drawn
+leader, bracket, or separate enclosure assigns a nearby inscription to a
+specific figure, so the existing `PROXIMITY_ONLY` ownership state remains.
+Comparison with the opposite side of the same leaf, f57r, shows that f57v's
+pale green wash corresponds to mirrored green-painted plant masses on f57r.
+Classify this as reverse-side show-through or pigment penetration; the scans
+alone do not distinguish optical translucency from physical pigment migration.
+Neither observation supplies a lexical value or translation.
 
 ## What is deliberately inactive
 
@@ -197,17 +206,20 @@ dictionaries, number systems, image proximity, direct historical source-text
 matching, known-language alignment, cipher/codebook work, and all named word
 guesses are archive-only. Comparative historical manuscript practice is
 permitted only to constrain document assumptions; it is not a lexical anchor.
-OCR and automated-vision routes are prohibited methods rather than dormant
-hypotheses. Consult `CLOSED_ROUTE_FAMILIES.tsv` before proposing a related test.
+OCR, CLIP, embedding, batch recognition, and prompt-scored vision routes remain
+prohibited methods rather than dormant hypotheses. Source-bound native visual
+inspection is permitted prospectively. Consult `CLOSED_ROUTE_FAMILIES.tsv`
+before proposing a related test.
 
 ## Fresh research question
 
 Before another meaning or source passage is tested, determine the actual
 document roles of Voynich text units without using string similarity: heading,
 entry, prose block, list item, caption, diagram parameter, or uncertain. A
-direct human codicological/layout inventory must keep proximity separate from
-ownership and record explicit connectors, enclosures, reserved writing space,
-text/image ordering, repeated templates, and uncertainty. The historical
+direct human or source-bound native-visual codicological/layout inventory must
+keep proximity separate from ownership and record explicit connectors,
+enclosures, reserved writing space, text/image ordering, repeated templates,
+and uncertainty. The historical
 assumption gate is in
 `results/historical_alignment_assumption_audit.md`. No image-to-grammar score
 is authorized until this role inventory exists.
@@ -6057,15 +6069,15 @@ as a list of word guesses; it supplies no lexical value or translation.
 
 On 2026-08-11 the user confirmed that no qualified human reviewers are
 available. The review packet remains a reproducible record of the missing
-observations, but it is no longer an actionable next route. Mark every branch
-whose reopen condition requires new paleographic, codicological, or direct
-image inspection `BLOCKED_NO_HUMAN_REVIEWER`; do not cycle back to it or keep
-searching catalogues that terminate at the same unavailable inspection. Work
-may continue only with the validated manual ZL/IT/RF sources, existing
-human-authored public text and metadata, or a genuinely new public readable
-relation. Manuscript-native computation can refine transcription and formal
-structure, but without an external readable anchor it cannot assign English
-lexemes or yield a defensible translation.
+observations. Branches requiring specialist human palaeography or
+codicological judgment remain `BLOCKED_NO_HUMAN_REVIEWER`; do not cycle through
+catalogues that terminate at that unavailable inspection. The later native
+vision authorization reopens only visually decidable geometry, ownership,
+layout, color, and image-order questions under the source-bound rules above.
+It does not turn native vision into human annotation or an independently
+readable semantic anchor. Manuscript-native computation and visual inspection
+can refine structure, but without a readable anchor they cannot by themselves
+assign English lexemes or yield a defensible translation.
 
 The packet also exposed one worthwhile metadata-only f69 comparator in the
 same FDTW catalogue: *Earth and the Heavens*, Bodleian MS. Arab. c. 90,

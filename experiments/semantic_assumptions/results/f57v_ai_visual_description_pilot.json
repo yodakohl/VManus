@@ -1,6 +1,6 @@
 {
-  "claim_ceiling": "Machine visual description of the official f57v canvas only; no label ownership, word, role value, language, cipher, plaintext, meaning, or translation is established.",
-  "decision": "RETAIN_PROXIMITY_ONLY_NO_EXPLICIT_FIGURE_TO_LABEL_CONNECTORS",
+  "claim_ceiling": "Machine visual description of the official f57v and opposite-side f57r canvases only; no label ownership, word, role value, language, cipher, plaintext, meaning, or translation is established.",
+  "decision": "RETAIN_PROXIMITY_ONLY_AND_IDENTIFY_GREEN_WASH_AS_F57R_REVERSE_SIDE_SHOWTHROUGH_OR_PENETRATION",
   "method_exclusions": [
     "OCR",
     "CLIP_OR_EMBEDDINGS",
@@ -41,9 +41,29 @@
     {
       "confidence": "HIGH",
       "observation": "A pale blue-green wash is visible beneath and below the diagram, and a separate dark mark appears near the lower-right page margin."
+    },
+    {
+      "confidence": "HIGH",
+      "observation": "The opposite side of the same leaf, f57r, carries a large plant with extensive green-painted leaf masses whose mirrored positions correspond to the diffuse pale green forms visible on f57v."
+    },
+    {
+      "confidence": "HIGH",
+      "observation": "The f57v green wash is reverse-side show-through or pigment penetration from f57r rather than a separate wash applied as part of the f57v circular diagram."
+    },
+    {
+      "confidence": "UNRESOLVED",
+      "observation": "The ordinary-light scans alone do not distinguish optical translucency through the parchment from physical migration of green pigment through it."
     }
   ],
-  "schema": "F57V_AI_VISUAL_DESCRIPTION_PILOT_V1",
+  "opposite_side_source": {
+    "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006186",
+    "height": 3733,
+    "image_sha256": "473727b2ea1dd000a4a15eaa57302a48c410d4f6e670abdd607cd7c7461ff98c",
+    "image_url": "https://collections.library.yale.edu/iiif/2/1006186/full/full/0/default.jpg",
+    "page": "f57r",
+    "width": 2823
+  },
+  "schema": "F57V_AI_VISUAL_DESCRIPTION_PILOT_V2",
   "source": {
     "canvas_id": "https://collections.library.yale.edu/manifests/oid/2002046/canvas/1006187",
     "height": 3769,
@@ -52,5 +72,5 @@
     "manifest_url": "https://collections.library.yale.edu/manifests/2002046",
     "width": 3028
   },
-  "status": "DESCRIPTIVE_AI_VISUAL_PILOT_SOURCE_BOUND"
+  "status": "DESCRIPTIVE_AI_VISUAL_PILOT_SOURCE_BOUND_WITH_REVERSE_SIDE_CHECK"
 }
