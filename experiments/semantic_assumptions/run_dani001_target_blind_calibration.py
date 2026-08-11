@@ -4505,17 +4505,30 @@ def _create_freeze(
     return _sha256(payload)
 
 
+def _synthetic_assertion_ids(
+    aggregate: object,
+) -> dict[str, object]:
+    if not isinstance(aggregate, dict):
+        raise DANI001CalibrationError("synthetic aggregate manifest missing")
+    control_order = aggregate.get("control_order")
+    assertion_ids = aggregate.get("assertion_ids")
+    if (
+        type(control_order) is not list
+        or tuple(control_order) != CONTROL_ORDER
+        or not isinstance(assertion_ids, dict)
+        or set(assertion_ids) != set(CONTROL_ORDER)
+    ):
+        raise DANI001CalibrationError("synthetic assertion order drift")
+    return assertion_ids
+
+
 def _synthetic_suite(
     core: object,
     generator: object,
     manifest: Mapping[str, object],
 ) -> tuple[dict[str, object], bool]:
     aggregate = manifest.get("aggregate_expectations")
-    if not isinstance(aggregate, dict):
-        raise DANI001CalibrationError("synthetic aggregate manifest missing")
-    assertion_ids = aggregate.get("assertion_ids")
-    if not isinstance(assertion_ids, dict) or tuple(assertion_ids) != CONTROL_ORDER:
-        raise DANI001CalibrationError("synthetic assertion order drift")
+    assertion_ids = _synthetic_assertion_ids(aggregate)
     values: dict[str, dict[str, bool]] = {
         name: {} for name in CONTROL_ORDER
     }
@@ -5894,6 +5907,37 @@ def _source_free_smoke() -> dict[str, object]:
         raise DANI001CalibrationError(
             "frozen compiler-version terminal-LF smoke failed"
         )
+    registry_fixture = _json_no_duplicates(_canonical_json({
+        "control_order": list(CONTROL_ORDER),
+        "assertion_ids": {name: [] for name in CONTROL_ORDER},
+    }))
+    registry_ids = _synthetic_assertion_ids(registry_fixture)
+    if (
+        set(registry_ids) != set(CONTROL_ORDER)
+        or tuple(registry_ids) == CONTROL_ORDER
+    ):
+        raise DANI001CalibrationError(
+            "canonical assertion-registry ordering smoke failed"
+        )
+    registry_order_rejections = 0
+    for mutation in (
+        {
+            "control_order": list(reversed(CONTROL_ORDER)),
+            "assertion_ids": {name: [] for name in CONTROL_ORDER},
+        },
+        {
+            "control_order": list(CONTROL_ORDER),
+            "assertion_ids": {name: [] for name in CONTROL_ORDER[:-1]},
+        },
+    ):
+        try:
+            _synthetic_assertion_ids(mutation)
+        except DANI001CalibrationError:
+            registry_order_rejections += 1
+    if registry_order_rejections != 2:
+        raise DANI001CalibrationError(
+            "assertion-registry mutation smoke failed"
+        )
     return {
         "status": "PASS_SOURCE_FREE_RUNNER_SMOKE",
         "accepted_preimages": len(accepted),
@@ -5911,6 +5955,7 @@ def _source_free_smoke() -> dict[str, object]:
         "local_binding_checks": len(local_bindings),
         "source_present_codes": len(source_present),
         "compiler_version_terminal_lf": 2,
+        "registry_order_rejections": registry_order_rejections,
     }
 
 

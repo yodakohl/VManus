@@ -5946,6 +5946,13 @@ transport-v2 correction is published and its replacement hash-only freeze now
 passes three independent audits of transport, bytes, runtime, and output
 absence. The next authorized action is one corrected registered target-blind
 synthetic and nonidentity-capacity run; rank zero remains unopened.
+That run passed external acquisition but stopped output-free before synthetic
+evaluation because the runner compared canonical JSON object-member order to
+the separately frozen semantic control order. The corrected registry check now
+passes independent static audit and the stale freeze is retired. The next
+authorized action is publication of that runner-only correction followed by a
+replacement hash-only freeze; another registered run remains forbidden until
+then.
 
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
