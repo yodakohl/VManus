@@ -5263,10 +5263,15 @@ masking, eligibility, and gate arithmetic; the native visual grades themselves
 remain machine-authored observations, not literal human annotation.
 
 This result authorizes only a separate preregistration while the 21 label
-surfaces remain sealed. The immediate next route is to freeze a small,
-physical-folio-aware DARK/LIGHT label test with an exact null and concentration
-controls before any label identity is opened. No DARK, LIGHT, ROOT, colour
-stem, word, sound, language, cipher, plaintext, meaning, or translation is yet
+surfaces remain sealed. `PRC001_DARK_ROOT_MARKER_TARGET_SPEC.md` is now that
+frozen test. It searches a predeclared all-reading-consensus formal feature
+universe on mixed f89/f100, controls the complete feature search with all 1,540
+within-folio state assignments, and keeps the two f102 DARK labels sealed until
+one discovery winner is fixed. A pass also requires the winner in both f102
+labels and four leave-one-DARK-out checks. No LIGHT-associated rescue is
+allowed. The runner, nonimporting validator, exact input hashes, and four absent
+output paths are frozen before target access. No DARK, LIGHT, ROOT, colour stem,
+word, sound, language, cipher, plaintext, meaning, or translation is yet
 established.
 
 The same-register ROOT-only versus PLANT-fragment contrast is also closed at
