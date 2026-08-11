@@ -5253,6 +5253,23 @@ not score this contrast without new within-page, within-ring state mobility.
 No BARREL, INNER, OUTER, word, sound, language, cipher, plaintext, meaning, or
 translation is established.
 
+The clothing attribute is different because the underlying public Stolfi/Grove
+unit notes contain explicit opposing human states that the earlier compact
+catalogue projection omitted: they call figures *dressed*, *naked*, and
+*partly dressed* and give clock/Grove positions. Conservatively supplementing
+those comments with source-bound native visual grades on Yale canvas 1006203
+yields 35 projected records and 33 strict current-locus labels: 14 DRESSED, 15
+UNDRESSED, and four UNCERTAIN. All four retained page-by-ring strata are mixed,
+both states occur on physical folios f71 and f72, and a state-blind formal
+filter retains 37 features. The exact cyclic-rotation capacity is 3,250 worlds;
+an independent reconstruction passes 26 checks. `ZCV001` therefore passes
+capacity only. No association has been scored. The next authorized step is a
+separately published cyclic max-feature preregistration that preserves complete
+DRESSED/UNDRESSED/UNCERTAIN cluster geometry and requires both physical folios
+to contribute. The visual grades are machine-authored source-bound
+observations, not human annotations. No clothing word, zodiac name, sound,
+language, cipher, plaintext, meaning, or translation is established.
+
 The same public catalogue contains a superficially stronger pharmaceutical
 contrast. A conservative parser finds 82
 unhedged, non-mixed DARK/LIGHT root descriptions on six physical folios, with
