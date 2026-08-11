@@ -6194,6 +6194,21 @@ as a stronger qualified-human comparator, but transfer no direction, wind
 name, crown, sex, person, face, slot, label, word, sound, language, cipher,
 plaintext, meaning, or translation to f67v2.
 
+A paper was opened only after its public index cleared the exact-page worth
+gate. Haruna-Czaplicki (2011) locates Sainte-Geneviève ms. 1029 f135ra and
+states in the embedded human text layer that it shows `les douze vents
+personnifiés en buste et rangés en cercle`; the related *Breviari d'amor*
+diagram is K f45v, illustration 29. Combined with Initiale, the retained source
+now has a strong human-described **twelve personified wind busts in a circle +
+four crowned cardinal names in the central circle** organization. Neither
+source states four sectors of three busts, individual bust/name ownership, a
+visual start, or orientation. This remains nonisomorphic to f67v2's
+three-/four-face corner groups and 22 competing text loci. Independent
+text-layer reconstruction passes 21 checks without rendering a figure or page
+image. Strengthen only the wind/directional-cosmography source-family prior;
+transfer no wind, direction, bust, crown, person, sex, face, slot, label,
+word, sound, language, cipher, plaintext, meaning, or translation.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU
