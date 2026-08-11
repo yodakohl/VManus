@@ -35,7 +35,7 @@ REPORT = RESULTS / "zbv001_zodiac_barrel_native_visual_capacity_validation.md"
 
 HASHES = {
     METHOD: "62a3d35fead90611d2ab4bd5b29a02278b99c1d766257ab51e1ab1dbda8b0d57",
-    AUDIT: "d681713a4cd3aefe6deb1f6366d7d75e60b9e008c4e241afde953ff55f7b7a47",
+    AUDIT: "0bffd422590834b7b53c6717d57592fabdf41ab38a66531f24858263c5aa631d",
     ANNOTATIONS: "93b14fb00801ee401df018447730c2e2a1036a9aa36135aca44125c177524ed6",
     ANNOTATION_VALIDATION: "25c0642753974fec0b0646a22dc379e439242954f048ab778cc8df7c85442673",
     CROSSWALK: "4a128ed3d4b87a9d804a336a6c22ced65839fa39c83f3ecf45092bbc64f2eabc",
@@ -243,7 +243,7 @@ def main() -> None:
             "canvas_id": canvas_id,
             "current_locus": locus,
             "strict_eligible": strict,
-            "exclusion_reason": reason,
+            "exclusion_reason": reason or "NONE",
         })
     panel.sort(key=lambda row: row["source_record_id"].encode())
     rebuilt_panel = panel_bytes(panel)

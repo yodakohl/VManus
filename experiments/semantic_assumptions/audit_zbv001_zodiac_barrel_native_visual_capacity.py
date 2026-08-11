@@ -233,7 +233,7 @@ def main() -> None:
             "canvas_id": canvas_id,
             "current_locus": locus,
             "strict_eligible": "1" if strict else "0",
-            "exclusion_reason": reason,
+            "exclusion_reason": reason or "NONE",
         })
     panel.sort(key=lambda row: row["source_record_id"].encode())
     if len(panel) != 166:
