@@ -6102,6 +6102,16 @@ or four repeated bands. A live 23-check reconstruction therefore stops before
 image, manuscript, paper, or roster review. Transfer no direction, season,
 humour, quality, element, or Voynich label without an owned common coordinate.
 
+The complete OMCI-INHA human metadata catalogue has also been screened before
+opening any media or bibliography. Of 917 public items, 243 are illustration
+records. A literal title/description-only projection gives one broad f57
+fourfold-circle hit: Harley MS 3099 f157, already consumed by the active
+humoral-phase analysis. It gives zero f68 Sun--Moon--star-ring hits and zero
+f67 wind-face-circle hits. An independent live reconstruction passes 17
+checks. This is a catalogue-description no-find, not proof that no matching
+image exists; OMCI currently supplies no new special-circle acquisition lead
+worth image or paper review.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU

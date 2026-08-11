@@ -1,0 +1,66 @@
+{
+  "claim_ceiling": "At human catalogue-description resolution, OMCI adds no unused owned homologue for f57v, f68r2, or f67v2; the sole f57 filter hit is the already consumed Harley MS 3099 record, and no object, direction, season, humour, quality, element, wind, label, word, sound, language, cipher, plaintext, meaning, or translation follows.",
+  "decision": "STOP_BEFORE_MEDIA_OR_BIBLIOGRAPHY_REVIEW_ONLY_F57_HIT_IS_ALREADY_CONSUMED_HARLEY_3099",
+  "experiment": "OMCI_SPECIAL_CIRCLE_METADATA_PRESCREEN",
+  "filters": {
+    "F57_FOURFOLD_CIRCLE": [
+      "quatre|four",
+      "élément|element|saison|season|humeur|humor|qualit|quality",
+      "cercle|circle|roue|wheel|rosace|diagram"
+    ],
+    "F67_WIND_FACE_CIRCLE": [
+      "vent|wind",
+      "visage|face|tête|head|personn",
+      "cercle|circle|roue|wheel|rose|diagram"
+    ],
+    "F68_SUN_MOON_STAR_RING": [
+      "soleil|sun",
+      "lune|moon",
+      "étoil|star|astre",
+      "cercle|circle|anneau|ring|médaillon|medallion"
+    ]
+  },
+  "gates": {
+    "complete_public_item_page_loaded": true,
+    "escalate_to_media_or_bibliography": false,
+    "f67_wind_face_circle_metadata_candidate_found": false,
+    "f68_sun_moon_star_ring_metadata_candidate_found": false,
+    "human_literal_text_projection_only": true,
+    "new_f57_owned_homologue_found": false
+  },
+  "hit_counts": {
+    "F57_FOURFOLD_CIRCLE": 1,
+    "F67_WIND_FACE_CIRCLE": 0,
+    "F68_SUN_MOON_STAR_RING": 0
+  },
+  "hits": {
+    "F57_FOURFOLD_CIRCLE": [
+      {
+        "item_id": 935,
+        "public_item_url": "https://omci.inha.fr/s/ocmi/item/935",
+        "title": "Diagramme des mutations du monde sublunaire"
+      }
+    ],
+    "F67_WIND_FACE_CIRCLE": [],
+    "F68_SUN_MOON_STAR_RING": []
+  },
+  "inputs": {
+    "OMCI_SPECIAL_CIRCLE_METADATA_PRESCREEN_SPEC.md": "e46474703ed0c225d93cebf8aa46bd012396b6e783da7a7b1ba769b3e2311ccc"
+  },
+  "source": {
+    "all_item_count": 917,
+    "canonical_text_projection_sha256": "0c5ed48e74d49cea347e2fd70a12ab98e4c1ec59922218ce34ffa84b23870ac3",
+    "illustration_count": 243,
+    "illustration_resource_class_id": 365,
+    "publisher": "OMCI - INHA",
+    "url": "https://omci.inha.fr/api/items?per_page=1000&sort_by=id&sort_order=asc&page=1"
+  },
+  "source_access": {
+    "decoder_claims_opened": false,
+    "manuscripts_papers_or_pdfs_opened": false,
+    "media_thumbnail_canvas_or_image_opened": false,
+    "metadata_api_opened": true,
+    "ocr_or_automated_visual_output_used": false
+  },
+  "status": "PASS_COMPLETE_243_ILLUSTRATION_TEXT_SCREEN"
+}
