@@ -1,0 +1,71 @@
+{
+  "capacity": {
+    "cyclic_worlds": 3250,
+    "excluded_records": {
+      "STOLFI_BEST_0599": "NO_CONSENSUS",
+      "STOLFI_BEST_0601": "NO_CONSENSUS"
+    },
+    "filtered_feature_sha256": "e395dd0228fb8ad018dce53a5089892cec02af0267ce5751be556e03c269f05e",
+    "filtered_features": 37,
+    "stratum_sizes": {
+      "f71r|INNER": 5,
+      "f71v|OUTER": 10,
+      "f72r1|INNER": 5,
+      "f72r2|OUTER": 13
+    },
+    "strict_labels": 33,
+    "strict_state_counts": {
+      "DRESSED": 14,
+      "UNCERTAIN": 4,
+      "UNDRESSED": 15
+    }
+  },
+  "claim_ceiling": "At most, one frozen formal feature is associated with this source-bound clothing-state panel. No clothing gloss, zodiac name, sound, language, cipher, plaintext, meaning, or translation follows.",
+  "decision": "FINAL_NONCONFIRMATION_NO_RECURRENT_CLOTHING_ASSOCIATED_FORMAL_MARKER",
+  "experiment": "ZCV001_ZODIAC_CLOTHING_FORMAL_MARKER_TARGET",
+  "gates": {
+    "all_stratum_deltas_at_least_0_25": false,
+    "both_folio_effects_at_least_0_50": false,
+    "capacity": true,
+    "dressed_support_not_concentrated": false,
+    "exact_max_feature_p_at_most_0_01": false,
+    "medium_grade_deleted_f72_effect_at_least_0_40": true,
+    "winning_score_at_least_0_50": false
+  },
+  "inputs": {
+    "ZCV001_ZODIAC_CLOTHING_FORMAL_MARKER_TARGET_SPEC.md": "89046a228a15a6aa4e9c8050c9915f42395a014d2aa004df6d0d0e041deb7079",
+    "results/existing_human_current_locus_crosswalk.tsv": "4a128ed3d4b87a9d804a336a6c22ced65839fa39c83f3ecf45092bbc64f2eabc",
+    "results/source_sta_family_consensus_groups.tsv": "a202d93498e8a350a5d7e0ca46e831dcc37ea5c0182dc404d63cb797a98b1225",
+    "results/source_sta_family_consensus_validation.json": "fcb6a53461b4f9df36f34161ed1d42087f4395988bea0d71f74a7dd635b68b76",
+    "results/zcv001_zodiac_clothing_native_visual_capacity.json": "a55b532b57e3c582a5da55ec782bb7f5f6df1eaa7e6b5204b67111dc6c887455",
+    "results/zcv001_zodiac_clothing_native_visual_capacity_validation.json": "b2ce7bc0e1391142fb92954d58423bb573083660322ccc5d04b9c9395b2cbd76",
+    "results/zcv001_zodiac_clothing_state_projection.tsv": "d1f74428e16e0674aad9e997df884067f8b778f31927d061b1def0a715c9ad68"
+  },
+  "status": "FINAL_NONCONFIRMATION_NO_RECURRENT_CLOTHING_ASSOCIATED_FORMAL_MARKER",
+  "target": {
+    "dressed_feature_support": {
+      "f71": 2,
+      "f72": 1
+    },
+    "exact_p": 0.9055384615384615,
+    "folio_effects": {
+      "f71": 0.19642857142857142,
+      "f72": 0.4444444444444444
+    },
+    "inclusive_tail_count": 2943,
+    "medium_confidence_deleted_f72_effect": 0.4375,
+    "medium_confidence_deleted_f72_stratum_effects": {
+      "f72r1|INNER": 1.0,
+      "f72r2|OUTER": -0.125
+    },
+    "stratum_effects": {
+      "f71r|INNER": 0.25,
+      "f71v|OUTER": 0.14285714285714285,
+      "f72r1|INNER": 1.0,
+      "f72r2|OUTER": -0.1111111111111111
+    },
+    "winning_feature": "F:N:3:CAB",
+    "winning_mean_folio_effect": 0.3204365079365079,
+    "winning_score": 0.19642857142857142
+  }
+}

@@ -5263,12 +5263,13 @@ UNDRESSED, and four UNCERTAIN. All four retained page-by-ring strata are mixed,
 both states occur on physical folios f71 and f72, and a state-blind formal
 filter retains 37 features. The exact cyclic-rotation capacity is 3,250 worlds;
 an independent reconstruction passes 26 checks. `ZCV001` therefore passes
-capacity only. No association has been scored. `ZCV001` is now registered and
-target-unscored with a 3,250-world cyclic max-feature null that preserves the
-complete DRESSED/UNDRESSED/UNCERTAIN cluster geometry. It requires an exact
-max-feature p at most .01, minimum effect .50 independently on f71 and f72,
-positive material support in every page-ring stratum, nonconcentrated DRESSED
-support, and medium-grade deletion robustness. The visual grades are
+capacity only. The separately frozen `ZCV001` target has now returned a clear
+validated nonconfirmation. Its max-feature winner, `F:N:3:CAB`, scores only
++.196429 on f71 and +.444444 on f72, occurs in only two f71 and one f72 DRESSED
+labels, and reverses to -.111111 on the f72r2 outer ring. Its exact cyclic
+max-feature p-value is .905538 (2943/3250); four substantive gates fail. Do not
+inspect or retune that winner, score an UNDRESSED reverse marker, regrade
+states, alter rings, or widen the formal feature family. The visual grades are
 machine-authored source-bound observations, not human annotations. No clothing
 word, zodiac name, sound, language, cipher, plaintext, meaning, or translation
 is established.
