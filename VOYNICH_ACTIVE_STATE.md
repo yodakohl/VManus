@@ -3454,6 +3454,15 @@ inside sectors, the reverse placement. Do not accept another generic circular
 or segmented page as replication; require short labels inside apparatus
 segments with independently visible active/inactive boundaries.
 
+A topology-only replication-capacity audit now finds no such second system in
+the strongest six-label candidates. f69r `K1` and f70r1 `X1` each place six
+labels between six star arms, but every boundary has an arm, so neither tests
+the inactive half of the f77r rule. f78r `X1` has six illustration labels, but
+they are distributed among separate pipe, junction, vat, and pond objects
+rather than consecutive segments of one apparatus. Independent source/image
+reconstruction passes seven checks. Keep f77r post-hoc and unconfirmed; an
+all-active wheel or scattered labels are not replications.
+
 A direct residual-form diagnostic now rejects the strongest lexical upgrade of
 the f77r bridge. After concatenating spaces and deleting exactly the two
 state-defining features—one leading `ot` and one terminal `y`—the observed
