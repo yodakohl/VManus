@@ -6485,6 +6485,21 @@ green leaf-tip boundary and its layer order is unresolved. No authenticated
 Voynich-script under-paint instruction now remains, and no colour, character,
 word, sound, language, cipher, plaintext, meaning, or translation follows.
 
+A complete source-bound native-visual screen now closes the remaining obvious
+plain-legend shortcut in the special-circle block. Fourteen official Yale
+canvases cover all 26 panels from f67 through f73. The only clearly readable
+multi-character non-Voynich strings are the twelve zodiac month names already
+identified by the public human catalogue as extraneous writing in a different
+hand. They identify whole zodiac pages and do not equate any Voynich group
+with March through December. The f68r2 lower-face ending remains the previously
+audited unresolved near-miss; folio/quire numbers and isolated Latin-shaped
+marks are not paired legends. No new readable main-hand alphabetic or numeric
+register and no author-visible plain/Voynich equivalence was found. Reopen only
+with multispectral or specialist diplomatic evidence exposing a readable
+main-hand sequence plus an explicit equivalence relation; infer no character,
+number, month word, sign name, sound, language, cipher, plaintext, meaning, or
+translation.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU
