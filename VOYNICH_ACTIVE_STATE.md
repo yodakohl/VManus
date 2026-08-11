@@ -6142,6 +6142,20 @@ directed acquisition elsewhere and transfer no person, direction, season,
 element, quality, object, label, word, sound, language, cipher, plaintext,
 meaning, or translation.
 
+Biblissima's human iconographic thesaurus supplies one stronger registry-
+directed lead that clears a human-inspection gate without clearing a source-
+transfer gate. A fixed 24-record fourfold family contains 13 published
+inscriptions; BnF Latin 4922 f1v is a digitized late-fourteenth-century Norwich
+*Polychronicon* diagram catalogued as `Âges, humeurs, saisons, éléments`.
+Mandragore preserves `quatuor sunt etates (humores/partes anni/elementa)` and
+`frigidus et humidus...`. The current human metadata nevertheless names no
+four people or portraits, states no ownership of two four-item registers, and
+fixes no start or orientation. An independent live reconstruction passes 20
+checks. Retain Latin 4922 f1v for qualified human topology inspection through
+the official Gallica witness, but do not open it with OCR or automated vision
+and do not transfer an age, humour, season, element, person, slot, label, word,
+sound, language, cipher, plaintext, meaning, or translation to f57v.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU
