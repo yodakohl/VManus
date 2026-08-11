@@ -6102,6 +6102,21 @@ or four repeated bands. A live 23-check reconstruction therefore stops before
 image, manuscript, paper, or roster review. Transfer no direction, season,
 humour, quality, element, or Voynich label without an owned common coordinate.
 
+An official Oxford Scholarship Online extract now supplies the closest
+text-described four-person comparator found in this acquisition pass. Gad
+Freudenthal states that four Roman-philosopher portraits represent the four
+seasons, that the central caption `stihia id est tempora vel elementa`
+identifies the seasons with the elements, and that combinations of elementary
+qualities are listed around the periphery. The diagram is located only in an
+eleventh-century southern Italian manuscript of Bede's *De ratione temporum*.
+The extract gives no shelfmark or folio, names no portrait, assigns no portrait
+to a particular season or element, assigns no peripheral quality combination
+to a portrait, and fixes no start or orientation. Related human bibliographic
+searching did not resolve those fields. A live 23-check reconstruction
+therefore stops before image or source transfer. This strengthens the
+four-person season-element-quality diagram-family prior, but supplies no f57v
+slot mapping or translation.
+
 The complete OMCI-INHA human metadata catalogue has also been screened before
 opening any media or bibliography. Of 917 public items, 243 are illustration
 records. A literal title/description-only projection gives one broad f57
