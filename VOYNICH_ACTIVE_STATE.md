@@ -6275,6 +6275,18 @@ Retain only the broad wind-directional diagram-family prior. Bourges is not an
 exact f67v2 homologue and transfers no direction, wind name, word, sound,
 language, cipher, plaintext, meaning, or translation.
 
+A separate manuscript-internal native-visual comparison retains one new coarse
+relation between f67v2 and the Rosettes foldout. Both drawings occupy a
+nine-position scaffold: one center, four principal-axis positions, and four
+corner positions. Their detailed graphs and node classes are not isomorphic.
+Rosettes has nine full circular compartments joined by roads; f67v2 has one
+center, four attached axial structures, and four detached corner face groups.
+Repeated Sun-like, T-in-O-like, dot, scallop, and fan motifs do not fix a
+unique rotation, and the pages have no one-to-one text-slot map. Retain only a
+`CENTER / AXIS / CORNER` visual-scaffold candidate; do not align individual
+strings or infer copying, shared content, a map, object identity, word,
+plaintext, meaning, or translation.
+
 A targeted source clarification closes the paper's `K f45v` branch before
 image review. Occitanica identifies `K` as the complete fourteenth-century
 *Breviari d'amor* manuscript British Library Harley 4940, and the British
