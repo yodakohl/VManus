@@ -6179,6 +6179,21 @@ pages for qualified human topology inspection; do not use OCR or automated
 vision and transfer no direction, wind, person, head, sex, object, label,
 word, sound, language, cipher, plaintext, meaning, or translation.
 
+The named Initiale source materially strengthens the Sainte-Geneviève lead
+without supplying the missing cross-manuscript coordinate. Its revised
+2024/2022 human notice states that four crowned cardinal winds are named in
+the central circle and publishes the exact catalogue-order strings `oriente`,
+`occidente`, `miechiorn`, and `aquilo`. This is a source-internal collective
+four-name cardinal-wind register. It does not state which individual figure
+position owns each name, and catalogue order is not a visual start or
+orientation. f67v2 still has nonmatching three-/four-face corner groups and 22
+competing text loci with no one-label-per-group ownership or common slot map.
+Bourges Ms. 105 f95v publishes no comparable note or inscription. Independent
+live reconstruction passes 20 checks. Retain Sainte-Geneviève Ms. 1029 f135
+as a stronger qualified-human comparator, but transfer no direction, wind
+name, crown, sex, person, face, slot, label, word, sound, language, cipher,
+plaintext, meaning, or translation to f67v2.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU
