@@ -6265,6 +6265,16 @@ common orientation survives. Retain only
 `FOUR_AXIS_PRINCIPAL_WIND_OR_DIRECTION_REGISTER_CANDIDATE` as an unconfirmed
 structural role; transfer none of the source's four names or directions.
 
+Native inspection also resolves the second preselected Biblissima wind-rose
+candidate. Bourges BM MS 105 f95v has twelve head positions in one continuous
+outer annulus, each with an explicit inward breath cone, around four inner
+circular stations on the principal axes. This is another clear twelve-wind
+wheel, but it does not reproduce f67v2's fourteen detached corner faces in a
+3/4/4/3 pattern or provide a common slot coordinate, start, or orientation.
+Retain only the broad wind-directional diagram-family prior. Bourges is not an
+exact f67v2 homologue and transfers no direction, wind name, word, sound,
+language, cipher, plaintext, meaning, or translation.
+
 A targeted source clarification closes the paper's `K f45v` branch before
 image review. Occitanica identifies `K` as the complete fourteenth-century
 *Breviari d'amor* manuscript British Library Harley 4940, and the British
