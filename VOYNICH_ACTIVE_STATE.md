@@ -5929,6 +5929,12 @@ Voynich lexeme, plaintext, or translation. The observed assignment remains
 unopened. Only a separately frozen, independently validated target-blind
 capacity and synthetic calibration may proceed next.
 
+The source-free DANI001 calibration implementation has now passed independent
+static audit. Its canonical manifest fixes 238 synthetic worlds, 20 mutations,
+and 737 assertions, and the interval-pruned core completes no rank-zero leaf.
+The next authorized action is publication of those preregistered bytes followed
+by a hash-only freeze; neither step opens the observed assignment.
+
 A new semantic route otherwise needs genuinely independent authorial evidence
 or a new invariant capable of falsifying competing meanings. A new model,
 crop, threshold, spelling resemblance, subset, historical analogy, or GPU
