@@ -5263,12 +5263,15 @@ UNDRESSED, and four UNCERTAIN. All four retained page-by-ring strata are mixed,
 both states occur on physical folios f71 and f72, and a state-blind formal
 filter retains 37 features. The exact cyclic-rotation capacity is 3,250 worlds;
 an independent reconstruction passes 26 checks. `ZCV001` therefore passes
-capacity only. No association has been scored. The next authorized step is a
-separately published cyclic max-feature preregistration that preserves complete
-DRESSED/UNDRESSED/UNCERTAIN cluster geometry and requires both physical folios
-to contribute. The visual grades are machine-authored source-bound
-observations, not human annotations. No clothing word, zodiac name, sound,
-language, cipher, plaintext, meaning, or translation is established.
+capacity only. No association has been scored. `ZCV001` is now registered and
+target-unscored with a 3,250-world cyclic max-feature null that preserves the
+complete DRESSED/UNDRESSED/UNCERTAIN cluster geometry. It requires an exact
+max-feature p at most .01, minimum effect .50 independently on f71 and f72,
+positive material support in every page-ring stratum, nonconcentrated DRESSED
+support, and medium-grade deletion robustness. The visual grades are
+machine-authored source-bound observations, not human annotations. No clothing
+word, zodiac name, sound, language, cipher, plaintext, meaning, or translation
+is established.
 
 The same public catalogue contains a superficially stronger pharmaceutical
 contrast. A conservative parser finds 82
