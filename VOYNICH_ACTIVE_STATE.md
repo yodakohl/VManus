@@ -6295,6 +6295,16 @@ offset. Retain the stronger source-family prior only. No rotation, direction,
 season, quality, element, label, word, sound, language, cipher, plaintext,
 meaning, or translation transfers to f57v.
 
+Native inspection also closes the f66r plain-script marginal route at the
+physical-relation gate. The bottom Voynich-script line sits above a small
+illustration; a separate plain-script-looking cluster sits lower and left in
+the same broad margin area. The strings have different baselines and no equals
+mark, leader, bracket, correction, overwrite, interlinear alignment, or
+repeated pairing. A future secure reading of the plain cluster could describe
+the little illustration without translating the Voynich line. Retain no
+bilingual or correction relation and infer no marginal reading, object,
+animal, word, sound, language, cipher, plaintext, meaning, or translation.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU
