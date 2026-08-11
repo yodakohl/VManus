@@ -6043,6 +6043,18 @@ the f69 values remain anonymous X1 coordinates. Independent reconstruction
 passes 66 checks. Use this packet for qualified human source acquisition, not
 as a list of word guesses; it supplies no lexical value or translation.
 
+On 2026-08-11 the user confirmed that no qualified human reviewers are
+available. The review packet remains a reproducible record of the missing
+observations, but it is no longer an actionable next route. Mark every branch
+whose reopen condition requires new paleographic, codicological, or direct
+image inspection `BLOCKED_NO_HUMAN_REVIEWER`; do not cycle back to it or keep
+searching catalogues that terminate at the same unavailable inspection. Work
+may continue only with the validated manual ZL/IT/RF sources, existing
+human-authored public text and metadata, or a genuinely new public readable
+relation. Manuscript-native computation can refine transcription and formal
+structure, but without an external readable anchor it cannot assign English
+lexemes or yield a defensible translation.
+
 The packet also exposed one worthwhile metadata-only f69 comparator in the
 same FDTW catalogue: *Earth and the Heavens*, Bodleian MS. Arab. c. 90,
 fols. 2b--3a. Its human-curated description contains a real 28-section
