@@ -6280,6 +6280,21 @@ paper or inaccessible imagery further without a new human-published owned
 slot map. Independent live source-text reconstruction passes 15 checks with
 zero image, OCR, automated-vision, or decoder-claim access.
 
+A source-bound follow-up to the NAL 112 metadata route now resolves its
+source-side ownership question without resolving f57v. NAL 112's public IIIF
+manifest is partial, but Biblissima catalogues the complete Gallica witness
+BnF Latin 15171 f203 under the same human title, *Saisons et humeurs*. Its
+readable circle visibly co-locates one direction, one season, and two qualities
+inside each of four sectors; the directions proceed clockwise from the top as
+East, South, West, and North. This proves a readable fourfold
+year-direction-quality ownership coordinate in the comparison family. f57v
+does not reproduce the owner class or register geometry: its four figures,
+four figure-near inscriptions, and four inter-figure radial inscriptions have
+no drawn cross-register connectors, and the two text registers are angularly
+offset. Retain the stronger source-family prior only. No rotation, direction,
+season, quality, element, label, word, sound, language, cipher, plaintext,
+meaning, or translation transfers to f57v.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU
