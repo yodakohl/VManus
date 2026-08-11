@@ -269,12 +269,17 @@ def main() -> None:
         "claim_ceiling": production["claim_ceiling"],
     }
     OUT.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    detail = (
+        "The independent implementation reconstructed the exact capacity stop before any "
+        "feature or conditional world was scored."
+        if production["decision"] == "STOP_UNPOWERED_BEFORE_STATE_SCORE" else
+        "The independent implementation reconstructed the frozen feature universe, all 1,540 "
+        "conditional worlds, transfer panel, robustness gates, and decision."
+    )
     REPORT.write_text(
         "# PRC001 target validation\n\n"
         f"Status: **{result['status']}**\n\n"
-        f"The independent implementation reconstructed the frozen feature universe, all 1,540 "
-        f"conditional worlds, transfer panel, robustness gates, and decision: "
-        f"**{production['decision']}**.\n",
+        f"{detail} Validated decision: **{production['decision']}**.\n",
         encoding="utf-8",
     )
 

@@ -5270,9 +5270,20 @@ within-folio state assignments, and keeps the two f102 DARK labels sealed until
 one discovery winner is fixed. A pass also requires the winner in both f102
 labels and four leave-one-DARK-out checks. No LIGHT-associated rescue is
 allowed. The runner, nonimporting validator, exact input hashes, and four absent
-output paths are frozen before target access. No DARK, LIGHT, ROOT, colour stem,
-word, sound, language, cipher, plaintext, meaning, or translation is yet
-established.
+output paths were frozen before target access.
+
+The first PRC001 execution stopped before state scoring because its source
+contract incorrectly required `grammar_scope=LABEL`; the validated consensus
+table uses `DIAGNOSTIC_NONPROSE` for these `kind=L` rows. One visually eligible
+row also has a nonzero-alternative group and one mapped locus is absent. The
+runner therefore constructed zero features and evaluated zero DARK/LIGHT
+associations or null worlds. An independent implementation reconstructs that
+exact capacity stop. A state-blind source-contract check after the stop finds
+19 complete labels: 17 mixed discovery labels and both f102 transfer labels,
+with ample unsupervised formal-feature capacity. This newly exposed source
+contract permits one transparent versioned correction, but not a silent gate
+waiver or repeated tuning. No DARK, LIGHT, ROOT, colour stem, word, sound,
+language, cipher, plaintext, meaning, or translation is established.
 
 The same-register ROOT-only versus PLANT-fragment contrast is also closed at
 capacity, without opening a Voynich label string. The public catalogue has 154
