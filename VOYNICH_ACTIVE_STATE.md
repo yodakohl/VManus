@@ -1,6 +1,6 @@
 # Voynich active state — structural reset baseline
 
-Updated: 2026-08-11. Read this file first, then
+Updated: 2026-08-12. Read this file first, then
 `experiments/semantic_assumptions/ACTIVE_EXPERIMENT_LEDGER.tsv`.
 
 ## Outcome
@@ -2826,10 +2826,16 @@ four relations, one label is only a singleton root, and four pairs give only
 `1/24` minimum exact p. Its self-tested scorer remains **unrun**. A recovered
 November-2025 human comparison table now supplies exact drawing coordinates for
 nine good Herbal-pharmaceutical copies, one good Herbal-Herbal copy, and two
-explicitly unconvincing controls. It strengthens the drawing relations but does
-not add the direct plant-label ownership required for a fifth S100 pair. Do not
-substitute row order, visual proximity, or a similarity rating for that missing
-ownership.
+explicitly unconvincing controls. Source-bound native inspection now adds a
+provisional fifth strongly owned relation: the table's `JSP2025_05` pairs f37v
+with f102r1 row 3/item 1, and the official Yale image places f102r1's sole
+plant-fragment inscription inside that fragment's pale neck with no competing
+fragment in the local writing region. Current metadata maps the unique `@Lf`
+record to `f102r1.2`. An independent source/image validator passes ten checks.
+This is a machine-authored ownership judgment rather than human annotation,
+and the label surface remains sealed. It reopens only a new score-blind
+five-relation capacity/design audit; do not run the old four-pair S100 scorer
+or inspect the fifth label before a new public freeze.
 
 A post-inspection S101 observation that both root-only copied fragments in the
 four S99 pairs have `d`, while both leaf-retaining fragments do not, is not a
