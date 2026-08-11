@@ -6067,6 +6067,16 @@ manifests. This is a catalogue-metadata no-find, not proof that no matching
 image exists; stop this source before image or paper review and retain the five
 rows only as broad comparanda.
 
+An official Morgan catalogue entry supplies a closer f57v near-match but still
+stops before image review. *La sfera*, MS M.721 f13r, has four winds
+personified as faces with four readable `PLAGA ...` direction labels and a
+wind-name wheel lower on the same page. The catalogue explicitly describes
+the faces and wheel as separate diagrams and gives no connector, one-to-one
+face-to-wheel mapping, shared start/orientation, or integrated two-register
+topology. A live independent reconstruction passes 18 checks. Retain M.721 as
+a strong same-page four-wind comparandum; do not transfer its directions or
+wind names to f57v or open a roster to repair the absent relation.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU
