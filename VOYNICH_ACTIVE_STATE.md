@@ -5239,6 +5239,20 @@ complete table and the current public page catalogue give no missing star on
 that page. Retain that slot as UNKNOWN rather than adjudicating it. This
 catalogue supplies no BARREL, direction, sex, clothing, crown, or star lexeme.
 
+Source-bound native vision repairs the barrel-state folio count but not the
+causal contrast. Complete official f73r/f73v inspection finds all 60 catalogue
+figures drawn without barrel/tub outlines. The combined sealed panel therefore
+has 79 BARREL_PRESENT and 87 BARREL_ABSENT records; strict current-locus
+reconstruction retains 70 and 68 respectively, with each state now spanning at
+least two physical folios. Yet the sole strict page containing both states is
+f72r1, where all five present records are INNER and all six retained absent
+records are OUTER. No page-by-ring stratum mixes the states. A formal feature
+could therefore mark the already-visible ring/register difference rather than
+a barrel. `ZBV001` stops before any family or member identity is accessed. Do
+not score this contrast without new within-page, within-ring state mobility.
+No BARREL, INNER, OUTER, word, sound, language, cipher, plaintext, meaning, or
+translation is established.
+
 The same public catalogue contains a superficially stronger pharmaceutical
 contrast. A conservative parser finds 82
 unhedged, non-mixed DARK/LIGHT root descriptions on six physical folios, with

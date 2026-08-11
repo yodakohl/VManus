@@ -1,0 +1,113 @@
+{
+  "claim_ceiling": "The native visual audit repairs the missing BARREL-ABSENT folio count, but the only mixed strict page perfectly confounds barrel state with inner/outer ring. No Voynich feature was accessed. No BARREL, ring role, word, stem, meaning, plaintext, or translation follows.",
+  "counts": {
+    "all_states": {
+      "ABSENT": 87,
+      "PRESENT": 79
+    },
+    "catalogue_records": 300,
+    "excluded": {
+      "NONSTRICT_STRUCTURE": 4,
+      "NOT_PRIMARY": 2,
+      "NO_CONSENSUS": 22
+    },
+    "f72r1_state_by_ring": {
+      "INNER_ABSENT": 0,
+      "INNER_PRESENT": 5,
+      "OUTER_ABSENT": 6,
+      "OUTER_PRESENT": 0
+    },
+    "mixed_strict_page_ring_strata": [],
+    "mixed_strict_pages": [
+      "f72r1"
+    ],
+    "state_panel_total": 166,
+    "strict_by_folio_state": {
+      "f70|PRESENT": 38,
+      "f71|PRESENT": 27,
+      "f72|ABSENT": 23,
+      "f72|PRESENT": 5,
+      "f73|ABSENT": 45
+    },
+    "strict_by_page_state": {
+      "f70v1|PRESENT": 13,
+      "f70v2|PRESENT": 25,
+      "f71r|PRESENT": 14,
+      "f71v|PRESENT": 13,
+      "f72r1|ABSENT": 6,
+      "f72r1|PRESENT": 5,
+      "f72r2|ABSENT": 17,
+      "f73r|ABSENT": 21,
+      "f73v|ABSENT": 24
+    },
+    "strict_states": {
+      "ABSENT": 68,
+      "PRESENT": 70
+    },
+    "strict_total": 138
+  },
+  "decision": "STOP_NO_UNCONFOUNDED_WITHIN_PAGE_RING_BARREL_CONTRAST",
+  "experiment": "ZBV001_ZODIAC_BARREL_NATIVE_VISUAL_CAPACITY",
+  "gates": {
+    "at_least_one_mixed_strict_page": true,
+    "at_least_one_mixed_strict_page_ring_stratum": false,
+    "both_states_span_at_least_two_physical_folios": true,
+    "exact_300_catalogue_records": true,
+    "exact_60_f73_page_uniform_absent_records": true,
+    "f72r1_state_is_perfectly_ring_determined": true,
+    "strict_panel_has_at_least_100_labels": true,
+    "zero_family_or_member_identity_access": true,
+    "zero_ocr_clip_embedding_or_batch_recognition": true
+  },
+  "inputs": {
+    "ZBV001_ZODIAC_BARREL_NATIVE_VISUAL_CAPACITY_METHOD.md": "62a3d35fead90611d2ab4bd5b29a02278b99c1d766257ab51e1ab1dbda8b0d57",
+    "results/existing_human_annotation_atlas_validation.json": "25c0642753974fec0b0646a22dc379e439242954f048ab778cc8df7c85442673",
+    "results/existing_human_current_locus_crosswalk.tsv": "4a128ed3d4b87a9d804a336a6c22ced65839fa39c83f3ecf45092bbc64f2eabc",
+    "results/existing_human_current_locus_crosswalk_validation.json": "d00c9fecd5f9a2bb282d47053cf88404b78dd591131a7c207a65e7267c9f95eb",
+    "results/existing_human_label_annotations.tsv": "93b14fb00801ee401df018447730c2e2a1036a9aa36135aca44125c177524ed6",
+    "results/public_zodiac_label_attribute_capacity.json": "e4bc06e268d2ead7b5b0f3263778f2cee23fb7e93e1209519d9fb34eca201de1",
+    "results/public_zodiac_label_attribute_capacity_validation.json": "d4dade22a9799c0e3336217950a9ea4fe42ca85fb8ecba379623194b684ae0c1",
+    "results/source_sta_family_consensus_groups.tsv": "a202d93498e8a350a5d7e0ca46e831dcc37ea5c0182dc404d63cb797a98b1225",
+    "results/source_sta_family_consensus_validation.json": "fcb6a53461b4f9df36f34161ed1d42087f4395988bea0d71f74a7dd635b68b76"
+  },
+  "official_source": {
+    "manifest": {
+      "sha256": "317d58fd9ea90392a83d9858a91eada3d0b41416a3c835857dc0154bd123a309",
+      "url": "https://collections.library.yale.edu/manifests/2002046"
+    },
+    "observation_author": "NATIVE_AI_DIRECT_VISUAL_INSPECTION",
+    "observation_is_literal_human_annotation": false,
+    "pages": {
+      "f73r": {
+        "barrel_state": "ABSENT",
+        "canvas_id": "1006206",
+        "canvas_label": "73r",
+        "catalogue_figures": 30,
+        "grade": "CLEAR_PAGE_UNIFORM_NO_BARREL_OUTLINES",
+        "height": 3761,
+        "image_sha256": "5bc8e07dbd61cc1f218cfc4449cd527be118aa7884878ec4c8e568e9c2d89bad",
+        "image_url": "https://collections.library.yale.edu/iiif/2/1006206/full/full/0/default.jpg",
+        "inner": 10,
+        "outer": 16,
+        "outside_circle": 4,
+        "width": 2834
+      },
+      "f73v": {
+        "barrel_state": "ABSENT",
+        "canvas_id": "1006207",
+        "canvas_label": "73v",
+        "catalogue_figures": 30,
+        "grade": "CLEAR_PAGE_UNIFORM_NO_BARREL_OUTLINES",
+        "height": 3724,
+        "image_sha256": "4227e5261bb5986e605ddb4f58fa1526640955d778c06916a1c34734bb431141",
+        "image_url": "https://collections.library.yale.edu/iiif/2/1006207/full/full/0/default.jpg",
+        "inner": 10,
+        "outer": 16,
+        "outside_circle": 4,
+        "width": 2979
+      }
+    }
+  },
+  "panel_sha256": "70c3f386e112a43a1664456642c852d0aa90a154c9a987ccc636ab5e83b0526a",
+  "status": "STOP_BEFORE_VOYNICH_FEATURE_ACCESS_RING_PAGE_CONFOUNDED"
+}
