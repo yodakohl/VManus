@@ -4130,6 +4130,16 @@ label replications, and the 391-slot explicit-array atlas contains only one
 external multi-line slot. Retain the local function only; infer no reading
 direction, suffix meaning, planet, phase, lexeme, plaintext, or translation.
 
+A later worth screen asks whether that f67r2 mechanism is merely a generic
+two-line-label convention. The only repeated comparison family is f75v's ten
+human-defined top/bottom columns. The strings were already visible before this
+screen, so it is explicitly exploratory. Applying the unchanged capped-four
+exact suffix-overlap statistic gives the physical pairing score 4 in all three
+readings, while alternative assignments reach 15 in ZL/IT and 14 in RF;
+tie-inclusive exhaustive upper tails are .736270/.736270/.712593. Do not
+register a f75v replication or generalize the f67r2 echo to two-line labels.
+The f67r2 local concordance itself remains intact and unglossed.
+
 A separate outer-title/body route is now source-admissible, with an important
 provenance correction. The human diplomatic f67r2 source independently gives
 the twelve red T1 groups and the twelve Q1 bodies the same clock positions, so
