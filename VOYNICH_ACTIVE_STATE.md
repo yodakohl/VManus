@@ -7238,6 +7238,26 @@ the direct star-label ray-count route closed; no ray-count encoding, number,
 star name, word, sound, language, cipher, plaintext, meaning, or translation
 follows.
 
+NVA001 now prevents another cycle through the most tempting native-visual
+successors. A source-only audit opened no new image body, transcription filler,
+or formal feature. Held-star point count, leaf-margin state, and the f66r
+marginal columns duplicate completed routes. The strong exact-local human
+atlas contains 51 attachment loci in six annotation units, 48 enclosure loci
+in ten units, and eight overlap/contact loci in six units, but no annotation
+unit contains two strong relation types. Nine retracing comments contain only
+one strict original-feature/retracer-omission statement, the already inspected
+f73v.15 hook. The compact text-only section-T `P` cell has four folios, but
+f85r1, f86v5, and human-described f1r are prose-dominant, leaving only f86v6
+able to differ; a second role cannot reach two folios. Finally, zero of the
+eleven translation-anchor acquisition families is currently admissible. A
+compact independent implementation reconstructs all counts and the stop in
+twelve checks. Do not launch another ordinary-image reclassification or filler
+association from these panels. The next translation-relevant move requires a
+new readable one-to-one authorial contrast, a new independent folio satisfying
+a named reopen condition, or new physical-layer/multispectral evidence. The
+validated structural edition may prepare matching against such future
+evidence, but it cannot create an English gloss by itself.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU
