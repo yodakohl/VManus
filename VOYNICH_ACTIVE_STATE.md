@@ -7188,6 +7188,18 @@ independent text-to-meaning bridge. Retain the panel as author-visible source
 data; do not score a section/kind-to-role association as a semantic discovery
 or treat the fifteen cells as independent.
 
+DRI002 is the active capacity extension of that retained role panel. It uses
+only DRI001's two discordant cells and selects every page in those exact cells
+that was absent from the original thirty-page panel: three pages in section-B
+`LPL` and six in section-B `P`, nine logical pages on seven physical folios.
+No page is ranked or sampled, and all nine exact Yale canvases are bound before
+new inspection. Continue to a later formal role association only if both cells
+independently contain at least two non-unresolved roles, each supported on at
+least two physical folios after combining DRI001 and DRI002. Otherwise stop
+before any text feature is scored. This is a role-mobility capacity census,
+not a heading, caption, field, class name, word, POS, sound, language, cipher,
+plaintext, meaning, or translation result.
+
 SRE001 completed the prospective special-circle star-ray capacity census. It
 did not rerun the failed exact-label recurrence or the old f68/f70 ray-count
 score. A complete filler-blind scan selected 24 inscriptions outside f68/f70:
