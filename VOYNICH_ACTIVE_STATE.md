@@ -6583,6 +6583,19 @@ morphology, word, language, cipher, plaintext, meaning, or translation. The
 next admissible use is a cheap complete-census screen for additional explicitly
 human-annotated retracing differences, not general visual mining.
 
+RBR001 is the live prospective physical-state panel. A cheap screen of every
+remaining human retracing comment found a stronger, colour-discriminated
+cluster in the f67r2 outer red ring. Literal recoverable-state rules select
+exactly `f67r2.3`, `.7`, and `.10`, whose comments describe red forms diverging
+from visible brown under-writing; `.6` and `.11` are excluded because they say
+only unrecognizable or unreadable. Before target-region access, the selection,
+official Yale canvas 1006194 and full-image hash, per-locus five-gate rubric,
+and a two-of-three panel threshold were frozen and independently validated.
+Inspect only these three T1 sectors. A pass can establish multiple physically
+recoverable brown-under/red-retraced shape states, but no correction intent,
+correct transcription, character identity or equivalence, sound, word,
+language, cipher, plaintext, meaning, or translation.
+
 A separate manuscript-internal native-visual comparison retains one new coarse
 relation between f67v2 and the Rosettes foldout. Both drawings occupy a
 nine-position scaffold: one center, four principal-axis positions, and four
