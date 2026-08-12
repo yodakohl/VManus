@@ -7213,7 +7213,16 @@ and all twenty-nine slots—not a favorable subset—are authorized for one
 text-blind native-visual TAIL/NO_TAIL/UNCERTAIN census. Reopen formal work only
 if at least one f70 ring is mixed and the mixed strict f70 panel contains at
 least two examples of each state. No label surface or formal association has
-yet been opened or scored.
+yet been opened or scored. The completed native-visual census then found all
+twenty-nine f70v2 slots `NO_TAIL`, with zero `TAIL` and zero `UNCERTAIN`;
+the strict subset is sixteen OUTER plus nine INNER `NO_TAIL`. The stars have
+ordinary held contours but no distinct continuation away beyond the star.
+Neither ring is mixed, so f70 supplies no new positive and both acquisition
+gates fail. Keep the zodiac star-tail formal-marker route closed before any
+formal feature or association. A preflight console diagnostic had incidentally
+displayed the machine-readable source transcriptions before the selection was
+published; they did not encode the visual state or enter its grading, but the
+exposure is recorded in the result.
 
 SRE001 completed the prospective special-circle star-ray capacity census. It
 did not rerun the failed exact-label recurrence or the old f68/f70 ray-count
