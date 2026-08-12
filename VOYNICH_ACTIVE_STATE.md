@@ -6774,6 +6774,20 @@ nulls. The tempting root/leaf contrast is inseparable from label geometry and
 folio ecology at this resolution; no ROOT, LEAF, plant-part word, plaintext,
 meaning, or translation follows.
 
+A complete follow-up screen of explicit human singular `flower` versus plural
+`flowers` descriptions also stops without a filler association. The catalogue
+contains 25 strict descriptions and 18 unique primary current-locus mappings.
+Reusing the frozen ownership panel plus five prospectively selected official-
+image checks yields nine clear owned cases: seven singular on f88/f89/f100/f102
+and two plural on f89/f100. Only f89 and f100 mix states. Across the broader 24
+clear owned pharmaceutical cells, 17 labels have an identical complete compact
+literal surface in all three alternate readings, but none of those 17 surfaces
+repeats at all. A development diagnostic exposed the literal surfaces after
+ownership selection, so this is an exploratory zero-recurrence result rather
+than an analyst-blind target. It closes pharmaceutical flower-count and exact-
+label recurrence without a FLOWER/count word, plant name, plaintext, meaning,
+or translation.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU
