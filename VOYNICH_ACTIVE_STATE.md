@@ -6760,6 +6760,20 @@ null. Do not treat the 218 dependent edges as independent evidence or rebuild
 a genuinely different externally owned relation; no graphical boundary, slot
 function, word, plaintext, meaning, or translation follows.
 
+A prospective pharmaceutical drawing-state route also stops before filler
+access. A conservative parser of existing unhedged exact-local `@Lf` comments
+requires one explicitly referenced fragment and classifies only descriptions
+that state either root/tuber/bulb with no above-ground part or explicit
+leaf/leaves. It finds 30 owned candidates; strict zero-alternative,
+all-reading-stable source mapping retains 24: six ROOT_ONLY on f89/f99/f102
+and eighteen LEAF_BEARING on f88/f89/f100/f102. Only f89 and f102 contain
+both states, only f89r1 is a mixed page, and there are zero within-folio
+opposite-state pairs with the same ordered source-group length vector. Stop
+before all label identities, formal roots/roles, association scores, and
+nulls. The tempting root/leaf contrast is inseparable from label geometry and
+folio ecology at this resolution; no ROOT, LEAF, plant-part word, plaintext,
+meaning, or translation follows.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU
