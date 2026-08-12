@@ -6569,18 +6569,19 @@ chronology evidence, not another zoom or alternate transcription of the same
 current glyph. No correction, equivalence, sound, word, language, cipher,
 plaintext, meaning, or translation follows.
 
-RFH001 is the live prospective physical-state route. A cheap complete-annotation
-census finds exactly one comment claiming that a visible original feature was
-omitted by a retracer: at `f73v.15`, an original hook may remain beneath or
-beside a hookless retracing of the f-like second glyph. This is distinct from
-the earlier correction-pair and RYO001 identity-change screens. Before target
-access, the unique source rule, alternate-reading witnesses (`yfaiin y` in
-ZL/IT and fused `yfaiiny` in RF), official canvas 1006207 and image hash,
-three outcomes, and five physical-state gates were frozen and validated.
-Inspect only the Grove-8 outer-band label on source-native official pixels.
-Even a positive establishes only one hook-bearing under-stroke and hookless
-retracing, not correction intent, character equivalence, sound, morphology,
-word, language, cipher, plaintext, meaning, or translation.
+RFH001 is complete and positive at its narrow registered ceiling. The Grove-8
+outer-band `yfaiin` label and its f-like second glyph at `f73v.15` are securely
+localized on official Yale canvas 1006207. In a source-native 225-degree
+rotation, a pale bounded hook is continuous with the lighter target stem,
+while a materially darker retracing follows the main vertical stem and stops
+without following the hook. The attached geometry, shared stem, and sharp ink-
+density boundary satisfy all five frozen gates. Retain one source-bound
+`HOOK-BEARING UNDER-STROKE / HOOKLESS RETRACING` pair. This is evidence that a
+retracing layer can omit an original glyph feature; it establishes zero
+character-identity changes and no correction intent, equivalence, sound,
+morphology, word, language, cipher, plaintext, meaning, or translation. The
+next admissible use is a cheap complete-census screen for additional explicitly
+human-annotated retracing differences, not general visual mining.
 
 A separate manuscript-internal native-visual comparison retains one new coarse
 relation between f67v2 and the Rosettes foldout. Both drawings occupy a
