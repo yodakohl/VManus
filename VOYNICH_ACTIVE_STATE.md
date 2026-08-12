@@ -6610,6 +6610,16 @@ show-through, texture, and transformation artefact. Do not add a fourth corner
 surface, reconstruct a hidden ring, or infer any direction, corner name,
 object, word, language, plaintext, meaning, or translation.
 
+The processed set also fails at the strongest unresolved plain-script near-
+miss in the circle block. On f68r2, the paint-removal rendering suppresses the
+blue medallion paint and increases the contrast of the existing brown circular
+writing, but the disputed ending of f68r2.31 remains in the same narrow text
+register. Four inspected orientations yield neither a stable plain-alphabet
+sequence nor a separately bounded inscription, gloss, pointer, or equivalence.
+This closes only the new processed-image witness; it does not prefer `koiin`
+or support `SUN`/`Suna`, a letter value, language, plaintext, meaning, or
+translation.
+
 A separate targeted correction screen inspects the strongest human manual
 comments that explicitly propose both sides of a main-text edit: f16r.2
 `e→l`, f24v.6 `a→s`, and two f26r.1 `ch→sh` instances. The official and
