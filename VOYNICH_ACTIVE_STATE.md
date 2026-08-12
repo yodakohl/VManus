@@ -6563,6 +6563,16 @@ or an independently readable authorial relation; do not repeat the existing
 ordinary-light or 2014-MSI screens. No glyph, word, language, plaintext,
 meaning, or translation follows.
 
+The same source-data screen now covers the release's two remaining unaudited
+plant folios. Three f26r renderings and one f93r rendering plus its true-colour
+comparator improve separation of existing ink, pigment, stains, and
+reverse-side visibility, but reveal no erased caption, distinct writing layer,
+equivalence, or correction pair. f1r remains governed by its separate
+later-alphabet-table audit. Thus every public 2014-MSI folio is now either
+covered by these bounded native-visual screens or by that prior f1r audit;
+none supplies an authorial translation relation. This is not a claim about
+unreleased data or future imaging.
+
 A genuinely filler-blind structural-slot selection now repairs the leakage in
 the older analogue index, whose tie-breaks included family and member distance.
 The new selector reads 641 stable confirmed-prose records and masks 2,191
