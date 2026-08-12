@@ -46,8 +46,8 @@ def main() -> None:
         "official_witness_hashes": len({row["canvas_id"] for row in observations}) == 14 and all(len(row["review_image_sha256"]) == 64 and row["review_image_url"].startswith(f"https://collections.library.yale.edu/iiif/2/{row['canvas_id']}/") for row in observations),
         "count_reconstruction": result["counts"] == {"pages": 15, "physical_folios": 14, "unique_canvases": 14, "unresolved": 0, "distinct_nonunresolved_roles": 4, "role_counts": {role: role_counts.get(role, 0) for role in selection["rubric_roles"]}},
         "calibration_gate": result["calibration_gate"] == {"maximum_unresolved": 3, "observed_unresolved": 0, "rubric_amendment_required": False, "passes": True},
-        "decision": result["status"] == "PASS_CALIBRATION_ZERO_UNRESOLVED_NO_RUBRIC_AMENDMENT" and result["decision"] == "AUTHORIZE_SEALED_DIAGNOSTIC_IMAGE_ACCESS",
-        "provenance_and_ceiling": result["access"]["machine_authored_native_visual_judgments"] is True and result["access"]["ocr_clip_embedding_or_automated_vision_used"] is False and result["access"]["transcription_identity_or_formal_fillers_used"] is False and all(term in result["claim_ceiling"] for term in ("machine-authored", "not literal human annotation", "translation")),
+        "decision": result["status"] == "PASS_CALIBRATION_ZERO_UNRESOLVED_POSTREVIEW_IDENTITY_EXPOSURE_DISCLOSED" and result["decision"] == "AUTHORIZE_SEALED_DIAGNOSTIC_IMAGE_ACCESS",
+        "provenance_and_ceiling": result["access"]["machine_authored_native_visual_judgments"] is True and result["access"]["ocr_clip_embedding_or_automated_vision_used"] is False and result["access"]["calibration_transcription_strings_viewed_after_all_image_reviews_but_before_serialization"] is True and result["access"]["transcription_identity_or_formal_fillers_used_to_assign_roles"] is False and all(term in result["claim_ceiling"] for term in ("not the strongest auditable identity-blind calibration", "not literal human annotation", "translation")),
     }
     if not all(checks.values()):
         raise SystemExit([name for name, passed in checks.items() if not passed])
@@ -64,7 +64,7 @@ def main() -> None:
     REPORT.write_text(
         "# DRI001 calibration validation\n\n"
         "Status: **PASS_11_CHECK_CALIBRATION_GATE_AND_PROVENANCE_RECONSTRUCTION**.\n\n"
-        "Compact independent code binds the frozen selection, reconstructs all fifteen calibration rows, exact role sequence and 3/8/1/3/0 partition, fourteen official witness hashes, evidence-vector schema, zero-unresolved gate, sealed diagnostic phase, canonical bytes, native-visual machine authorship, excluded methods, and claim ceiling. It validates the recorded judgments and arithmetic rather than claiming a second visual inspection.\n"
+        "Compact independent code binds the frozen selection, reconstructs all fifteen calibration rows, exact role sequence and 3/8/1/3/0 partition, fourteen official witness hashes, evidence-vector schema, zero-unresolved gate, sealed diagnostic phase, canonical bytes, native-visual machine authorship, the disclosed postreview/pre-serialization calibration-string exposure, excluded methods, and claim ceiling. It validates the recorded judgments and arithmetic rather than claiming a second visual inspection.\n"
     )
 
 

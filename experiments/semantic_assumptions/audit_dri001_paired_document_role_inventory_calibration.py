@@ -141,7 +141,7 @@ def main() -> None:
     result = {
         "experiment": "DRI001_PAIRED_DOCUMENT_ROLE_INVENTORY_CALIBRATION",
         "schema": "DRI001_CALIBRATION_V1",
-        "status": "PASS_CALIBRATION_ZERO_UNRESOLVED_NO_RUBRIC_AMENDMENT",
+        "status": "PASS_CALIBRATION_ZERO_UNRESOLVED_POSTREVIEW_IDENTITY_EXPOSURE_DISCLOSED",
         "decision": "AUTHORIZE_SEALED_DIAGNOSTIC_IMAGE_ACCESS",
         "observations": observations,
         "counts": {
@@ -165,19 +165,20 @@ def main() -> None:
             "official_source_native_pixels_used": True,
             "machine_authored_native_visual_judgments": True,
             "ocr_clip_embedding_or_automated_vision_used": False,
-            "transcription_identity_or_formal_fillers_used": False,
+            "calibration_transcription_strings_viewed_after_all_image_reviews_but_before_serialization": True,
+            "transcription_identity_or_formal_fillers_used_to_assign_roles": False,
             "rubric_amended_after_image_access": False,
         },
-        "claim_ceiling": "The unchanged five-role rubric resolves all fifteen calibration pages and authorizes the sealed diagnostic half. This is a machine-authored native-visual calibration, not literal human annotation. It establishes no manuscript-wide document class heading caption field name word POS sound language cipher plaintext meaning or translation.",
+        "claim_ceiling": "The unchanged five-role rubric resolves all fifteen calibration pages and authorizes the sealed diagnostic half. Calibration transcription strings were accidentally displayed only after all fifteen image reviews but before artifact serialization, so this is not the strongest auditable identity-blind calibration. No transcription identity or formal filler supplied a role judgment, and diagnostic identities remained sealed. This is machine-authored native visual inspection, not literal human annotation, and establishes no manuscript-wide document class heading caption field name word POS sound language cipher plaintext meaning or translation.",
     }
     if not gate:
         raise SystemExit("calibration gate failed")
     OUT.write_text(json.dumps(result, sort_keys=True, separators=(",", ":")) + "\n")
     REPORT.write_text(
         "# DRI001 paired document-role calibration\n\n"
-        "Status: **PASS_CALIBRATION_ZERO_UNRESOLVED_NO_RUBRIC_AMENDMENT**.\n\n"
+        "Status: **PASS_CALIBRATION_ZERO_UNRESOLVED_POSTREVIEW_IDENTITY_EXPOSURE_DISCLOSED**.\n\n"
         "All fifteen calibration pages were inspected once on their frozen official Yale witnesses. The unchanged rubric yields three `PROSE_DOMINANT`, eight `OBJECT_WITH_PROSE`, one `REPEATED_OWNED_RECORDS`, three `DIAGRAM_PARAMETER_ARRAY`, and zero `MIXED_OR_UNRESOLVED` judgments. Four non-unresolved roles are represented, and the frozen maximum of three unresolved pages is met with zero. The sealed diagnostic half is therefore authorized.\n\n"
-        "The judgments are machine-authored direct native visual observations under the user's prospective authorization, not literal human annotation. No OCR, CLIP, embeddings, batch recognition, transcription identity, or formal filler entered. This calibration supplies no document-wide class, heading, caption, field name, word, POS, sound, language, cipher, plaintext, meaning, or translation.\n"
+        "The judgments are machine-authored direct native visual observations under the user's prospective authorization, not literal human annotation. No OCR, CLIP, embeddings, or batch recognition entered. After all fifteen images had been reviewed, but before the judgments were serialized, calibration transcription strings were accidentally displayed while resolving logical foldout regions. They supplied no visual role and the diagnostic identities remained sealed, but this means the calibration is not identity-blind in the strongest auditable sense. This calibration supplies no document-wide class, heading, caption, field name, word, POS, sound, language, cipher, plaintext, meaning, or translation.\n"
     )
 
 

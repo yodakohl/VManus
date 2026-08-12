@@ -7146,6 +7146,12 @@ frozen maximum of three, and compact validation passes eleven checks. These are
 machine-authored native-visual judgments under the prospective authorization,
 not literal human annotations. The fifteen diagnostic pages are now authorized
 for one sealed pass; no diagnostic image was opened during calibration.
+After all fifteen calibration images had been reviewed, but before their
+judgments were serialized, calibration transcription strings were accidentally
+displayed while resolving logical foldout parts. They did not supply or alter a
+role judgment, and diagnostic identities remained sealed, but the calibration
+is therefore not identity-blind in the strongest auditable sense. This
+provenance correction changes neither the role partition nor the gate.
 
 ## Runtime and sources
 
