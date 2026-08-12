@@ -72,7 +72,7 @@ nonimporting calibration must reconstruct the geometry and show:
 - eight of eight passes for a distributed exact-state plant and eight of eight
   for a reduced plant frozen before calibration;
 - zero passes for one-cell, one-Currier, one-phase, page-side-only,
-  quire-only, text-volume-only, reading-disagreement, and reversed-label
+  quire-only, text-volume-only, reading-disagreement, and one-phase-reversed
   adversaries;
 - scalar/optimized, row-order, reading-order, state-complement, and exact-orbit
   invariance.
