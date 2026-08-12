@@ -6542,6 +6542,19 @@ can establish only one visible dot addition at the source-transcription glyph
 level, not correction intent, character equivalence, sound, word, language,
 cipher, plaintext, meaning, or translation.
 
+RCD001 is now complete and negative at the registered resolution. The exact
+word and glyph after the tall f-like sign were localized on official Yale
+canvas 1006231 using the four neighboring manual transcriptions only for
+localization. The source-native pixels show a compact bounded dot and a
+plausible faint lower e-like curve. They do **not** show a separable overlap or
+ink boundary proving that the dot was added later. The frozen outcome is
+`UNRESOLVED_SOURCE_IMAGE`: one current complex glyph and a later dot addition
+remain observationally indistinguishable. Retain the human old-e/new-dot note
+only as an unresolved paleographic proposal. This does not reopen the closed
+self-correction route. Reopen only with new physical or spectral data exposing
+the intervention chronology, not another zoom or contrast view of the same
+canvas.
+
 A separate manuscript-internal native-visual comparison retains one new coarse
 relation between f67v2 and the Rosettes foldout. Both drawings occupy a
 nine-position scaffold: one center, four principal-axis positions, and four
