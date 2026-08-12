@@ -2892,6 +2892,19 @@ authorizes only compact target-blind calibration of one fixed within-word
 ordered-root statistic before any f37v score. No plant, component, word,
 sound, language, cipher, plaintext, meaning, or translation follows.
 
+That compact target-blind calibration now passes. It recomputes all synthetic
+page scores from literal root-word fixtures rather than assigned scores: 0/64
+nulls pass, both the full five-root query and reduced three-root ordered signal
+pass 8/8, and same-bag/different-order, single-edge, cross-word-split,
+one-reading, and two-reading-disagreement controls pass 0/8. Reversing the
+background page order and injectively renaming every root leave the decisions
+unchanged. Independent code reconstructs the background, all 120 worlds,
+fixtures, invariances, digests, gates, isolation, bindings, and report in eight
+checks. All 69 f37v rows were still skipped before formal-field access. This
+authorizes only a separately frozen one-shot f37v target at the prospectively
+declared inclusive-rank ceiling `.02`; it does not authorize retuning, a plant
+name, word, sound, language, cipher, plaintext, meaning, or translation.
+
 The recovered-table replacement search is also exhausted. Its four remaining
 good Herbal↔pharmaceutical relations supply no sixth singularly owned label:
 f102r1 row 3/item 2 has no second plant label; f102r2 row 1/items 1 and 2 are
