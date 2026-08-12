@@ -6620,6 +6620,19 @@ This closes only the new processed-image witness; it does not prefer `koiin`
 or support `SUN`/`Suna`, a letter value, language, plaintext, meaning, or
 translation.
 
+The existing human annotation layer also contains two exact aggregate
+word/figure count correspondences that initially looked like a possible
+authorial label bridge. At f81r.1, seven groups lie below seven figures; at
+f84r.27, ten wider-spaced groups lie below ten figures. A mechanical text-only
+selection and source-bound inspection of the exact official canvases confirm
+the two count equalities but not individual ownership. Both candidate lines
+continue into multiline prose, and neither has cells, leaders, dividers, or
+non-overlapping one-group/one-figure compartments. The route therefore stops
+before any filler association. Reopen only with an author-visible singular
+assignment device, not aggregate cardinality or proximity; no group is
+established as a figure label, name, ordinal, role, word, sound, language,
+cipher, plaintext, meaning, or translation.
+
 A separate targeted correction screen inspects the strongest human manual
 comments that explicitly propose both sides of a main-text edit: f16r.2
 `e→l`, f24v.6 `a→s`, and two f26r.1 `ch→sh` instances. The official and
