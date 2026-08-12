@@ -6585,6 +6585,16 @@ physical layer imaging, so it cannot prove under-paint order by itself. This
 closes only these two processed witnesses and supplies no character value,
 colour gloss, word, language, plaintext, meaning, or translation.
 
+The same processed set does not recover the human-annotated missing
+southwest-corner label on special-circle panel f67v2. The official image
+retains faint brownish traces along the damaged west side of the coloured
+corner circle, but after paint suppression there is still no stable character
+count or segmentation. The page's faint ghost annulus likewise yields no
+recoverable text sequence and remains unresolved between reverse-side
+show-through, texture, and transformation artefact. Do not add a fourth corner
+surface, reconstruct a hidden ring, or infer any direction, corner name,
+object, word, language, plaintext, meaning, or translation.
+
 A genuinely filler-blind structural-slot selection now repairs the leakage in
 the older analogue index, whose tie-breaks included family and member distance.
 The new selector reads 641 stable confirmed-prose records and masks 2,191
