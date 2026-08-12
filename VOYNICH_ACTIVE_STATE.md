@@ -158,6 +158,17 @@ its frozen inventory are therefore `PROVISIONAL_HISTORICAL_UNRECONSTRUCTED`
 until hash-matching artifacts are recovered or a new versioned experiment is
 run. This provenance hold does not show that the historical effect was false.
 
+A new versioned inventory now satisfies only the second half of that reopen
+condition, without reconstructing the old panel or inheriting its score. A
+filler-blind mechanical scan of the current human exact-locus annotation table
+selects 45 arrays and 504 slots, including 502 occupied label/radial positions
+and two source-explicit missing positions, across 23 panels on all seven
+physical folios f67--f73. Selection uses only page, unit, and human layout
+code; no surface, family, member, root, parser role, or image feature enters.
+Its 45/504/7 scope is explicitly different from historical EAS001's 46/391/13
+scope. The new data layer authorizes only a separate score-blind design and
+does not establish record boundaries or cross-diagram slot equivalence.
+
 ZL3b, IT2a, and RF1b are alternate readings of one manuscript, never three
 independent samples. Structural tags must remain distinct from translations.
 
