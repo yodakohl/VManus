@@ -7202,6 +7202,19 @@ feature or formal role score. This is a role-mobility capacity stop, not a
 heading, caption, field, class name, word, POS, sound, language, cipher,
 plaintext, meaning, or translation result.
 
+ZST002 now freezes the exact new-data condition for the stopped star-tail
+route. The complete f70v2 panel contains all nineteen OUTER and ten INNER
+figure/star records; catalogue order is cyclically rotated relative to the
+existing human `RING:GROVE_N` keys, so both coordinates are preserved rather
+than conflated. Twenty-five of the twenty-nine records are strict-capacity
+eligible before image grading (sixteen OUTER, nine INNER); four fail only the
+preexisting consensus gate. The full official Yale canvas 1006200 is bound,
+and all twenty-nine slots—not a favorable subset—are authorized for one
+text-blind native-visual TAIL/NO_TAIL/UNCERTAIN census. Reopen formal work only
+if at least one f70 ring is mixed and the mixed strict f70 panel contains at
+least two examples of each state. No label surface or formal association has
+yet been opened or scored.
+
 SRE001 completed the prospective special-circle star-ray capacity census. It
 did not rerun the failed exact-label recurrence or the old f68/f70 ray-count
 score. A complete filler-blind scan selected 24 inscriptions outside f68/f70:
