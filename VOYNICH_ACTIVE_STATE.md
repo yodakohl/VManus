@@ -6633,6 +6633,19 @@ assignment device, not aggregate cardinality or proximity; no group is
 established as a figure label, name, ordinal, role, word, sound, language,
 cipher, plaintext, meaning, or translation.
 
+A separate filler-blind capacity audit tests the more defensible human layout
+contrast inside pharmaceutical pages: container-associated `Lc` labels versus
+plant-fragment-associated `Lf` labels. After requiring zero-alternative
+consensus loci and exact page plus ordered group-length matching, 15 mixed
+cells retain 53 loci and 19 balanced pair opportunities on only four physical
+folios. f89 contributes 27/53 retained loci and 10/19 pairs; maximum folio
+shares are .5094 and .5263. All five frozen transfer gates fail, and a
+one-sided four-folio sign orbit cannot attain p<=.05 (floor 1/16). Stop before
+family, member, literal, root, role, or formal-feature access. Reopen only with
+new independent-folio owner-class data, not a lower threshold or within-folio
+assignment count. No container word, plant word, owner, identifier, sound,
+language, cipher, plaintext, meaning, or translation follows.
+
 A separate targeted correction screen inspects the strongest human manual
 comments that explicitly propose both sides of a main-text edit: f16r.2
 `e→l`, f24v.6 `a→s`, and two f26r.1 `ch→sh` instances. The official and
