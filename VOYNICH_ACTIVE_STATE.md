@@ -6839,8 +6839,8 @@ only a separately frozen text-blind formal design; it is not evidence that the
 text describes leaf margins and supplies no plant identity, leaf word,
 plaintext, meaning, or translation.
 
-LM002 is the active formal successor and deliberately avoids another generic
-image-to-word classifier. Its sole target is the already confirmed binary
+LM002 deliberately avoided another generic image-to-word classifier. Its sole
+target was the already confirmed binary
 `cho/che` page-side regime; no literal, root, role, family, member, or best
 feature can be searched. The target-blind 42-folio admitted panel has two exact
 nuisance views with finite inference: acquisition phase × Currier × hand ×
@@ -6848,11 +6848,15 @@ quartile × page side retains five mobile cells, 13 folios, and 108 assignments;
 phase × Currier × hand × quire retains five cells, 16 folios, and 324
 assignments. The stricter joint partition has only 36 assignments and is
 explicitly unscored. The published formal-state table was not opened or
-parsed. Run target-free null/power/adversarial calibration next; target access
-is forbidden unless the stringent unique-tail instrument is demonstrably
-powered. Even a future pass could establish only cross-modal covariance of an
-anonymous formal regime, not a leaf word, plant identity, plaintext, meaning,
-or translation.
+parsed. Its 144-world target-free calibration rejects all 64 nulls and every
+one-cell, one-Currier, one-phase, page-side, quire, text-volume,
+reading-disagreement, and one-phase-reversed adversary, and passes all eight
+full distributed plants. But only seven of eight one-error reduced distributed
+plants pass, below the frozen eight-of-eight requirement. LM002 therefore stops
+as an underpowered/brittle instrument. The published formal-state table remains
+unopened and no real association was computed. Do not weaken the unique-tail
+gate, alter the reduced errors or nuisance cells, or mine `cho/che` diagnostics.
+No leaf word, plant identity, plaintext, meaning, or translation follows.
 
 ## Runtime and sources
 
