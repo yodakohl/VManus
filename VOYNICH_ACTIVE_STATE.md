@@ -6529,6 +6529,19 @@ position claim follows. Reopen content inference only with a prospectively
 frozen independent author-visible 5×3 panel on new physical folios, not by
 rescoring these exposed rows.
 
+RCD001 is the live prospective native-visual acquisition route. A cheap census
+of the complete human exact-locus annotations found many hedged retracing notes
+but exactly one unhedged comment that alleges two chronological glyph states:
+`fRos.116` is described as an old e-like form with a new dot. This Rosettes
+locus was not among the four instances in the completed correction-pair
+screen. Before its target region was opened, the unique source rule, Yale
+canvas 1006231 and full-image hash, three outcomes, and five positive physical-
+state gates were frozen and independently reconstructed. Inspect only the
+registered locus using official source-native pixels. Even a positive result
+can establish only one visible dot addition at the source-transcription glyph
+level, not correction intent, character equivalence, sound, word, language,
+cipher, plaintext, meaning, or translation.
+
 A separate manuscript-internal native-visual comparison retains one new coarse
 relation between f67v2 and the Rosettes foldout. Both drawings occupy a
 nine-position scaffold: one center, four principal-axis positions, and four
