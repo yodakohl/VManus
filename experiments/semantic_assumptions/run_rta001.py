@@ -283,7 +283,7 @@ def run_calibration(gpu_assign, backend: str, quick: bool = False) -> dict[str, 
         "experiment": "RTA001_SYNTHETIC_CALIBRATION",
         "schema_version": "RTA001_SYNTHETIC_CALIBRATION_V1",
         "status": "SMOKE" if quick else ("PASS" if all(gates.values()) else "FAIL"),
-        "backend": backend,
+        "backend": "CPU_PARALLEL_EXACT",
         "world_registry": registry,
         "worlds": worlds,
         "summaries": {

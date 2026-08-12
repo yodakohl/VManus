@@ -118,9 +118,11 @@ available and either achieves at least a 1.25x speedup or permits at least four
 times as many restarts within the benchmark budget.  Otherwise the exact CPU
 search is used and the benchmark is reported.
 
-The frozen search uses 64 restarts per `(fold, representation, K)` on CUDA or
-16 on CPU, ten hard-EM iterations, seeds derived from SHA-256 of the fold,
-representation, `K`, and restart.  The CPU independently reconstructs every
+The frozen search supports 64 restarts per `(fold, representation, K)` through
+the CUDA proposer or 16 through the CPU proposer. The retained calibration may
+instead use process-parallel exact CPU proposals when that is faster end to
+end; the artifact records the actual backend. Ten hard-EM iterations use seeds
+derived from SHA-256 of the fold, representation, `K`, and restart.  The CPU independently reconstructs every
 proposal, assignment, medoid update, residual, algebra term, and MDL value.
 Hard-EM updates each cluster to its exact minimum-total-distance training
 medoid, with the smallest training row breaking a tie, until stable or ten

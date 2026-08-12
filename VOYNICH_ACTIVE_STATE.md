@@ -7281,9 +7281,10 @@ separately at manual-surface, STA-family, exact-member, literal-root, and
 construction/boundary levels; all minimum costs and optimal-alignment tie
 counts are retained across the three alternate readings. The target-free
 112-world instrument calibration passed. CUDA and CPU assignment proposals
-were byte-identical; the registered 1,024-restart benchmark cleared the frozen
-1.25 speed threshold, so CUDA proposed batched assignments while exact CPU
-reconstruction remained authoritative.
+were byte-identical and the registered 1,024-restart kernel benchmark cleared
+the frozen 1.25 speed threshold. The retained calibration checkpoints and final
+scientific result nevertheless use the process-parallel/exact CPU path; CUDA
+is a validated proposal implementation but no retained inference depends on it.
 
 The real whole-physical-folio result is negative. Training selected the
 construction representation in all nine folds. The anonymous libraries beat
