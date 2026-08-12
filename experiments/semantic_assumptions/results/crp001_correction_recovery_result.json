@@ -1,0 +1,90 @@
+{
+  "access": {
+    "alternate_readings_treated_as_independent_replicates": false,
+    "direct_native_visual_inspection_used": true,
+    "enhancement_or_contrast_transformation_used": false,
+    "ocr_clip_embeddings_automated_segmentation_or_recognition_used": false,
+    "official_source_native_iiif_pixels_used": true,
+    "one_classification_per_registered_target": true,
+    "target_images_first_opened_after_selection_publication": true
+  },
+  "claim_ceiling": "All three human-flagged loci contain localized irregular or darker current ink, but none preserves an independently traceable earlier contour plus later intervention with a physical chronology boundary. This closes correction-state recovery at these three residual loci only and establishes no corrected character identity, correction intent, sound, word, language, cipher, plaintext, meaning, or translation.",
+  "counts": {
+    "formal_associations_scored": 0,
+    "physical_folios": 3,
+    "recoverable_two_state_corrections": 0,
+    "registered_targets": 3,
+    "targets_with_visible_intervention_candidate": 3
+  },
+  "decision": "RETAIN_CURRENT_PHYSICAL_IRREGULARITIES_ONLY",
+  "experiment": "CRP001_CORRECTION_RECOVERY_RESULT",
+  "inputs": {
+    "method_sha256": "2f76fa7c4ef4819f3fb7ed64e2175bb1892ef0d1e25524713e84646e25fe44e6",
+    "selection_sha256": "3e717b297b957ed4e22387efc4c10198ece7d8d76e9ad29a39a27be683ef18a9",
+    "selection_validation_sha256": "bd65029345d321c9f54ad58b1fee42aaf31b84152a95774131db7482b755ff46"
+  },
+  "panel_passed": false,
+  "schema": "CRP001_RESULT_V1",
+  "status": "STOP_ZERO_OF_THREE_RECOVERABLE_TWO_STATE_CORRECTIONS",
+  "targets": [
+    {
+      "all_five_gates_passed": false,
+      "basis": "The darker cramped complex in f18r.3 is securely localized and materially denser than nearby writing. Multiple dark strokes pool at the same position, but the official source does not preserve one independently traceable earlier contour beneath a separately bounded later intervention, so physical chronology is unresolved.",
+      "gates": {
+        "chronology_boundary_supported": false,
+        "earlier_or_lower_contour_independently_traceable": false,
+        "materially_different_ink_or_edge_state": true,
+        "source_commented_target_securely_localized": true,
+        "upper_or_later_intervention_independently_traceable": true
+      },
+      "locus": "f18r.3",
+      "official_full_image_sha256": "01659aa94a6176b56c621f50c9cbe8c467836d6265a03d8edb1e97e236126e78",
+      "outcome": "INTERVENTION_VISIBLE_BEFORE_STATE_NOT_RECOVERABLE",
+      "page": "f18r",
+      "target_region_sha256": "ea31b9bc7b6a2471a5cf695e7355afdab71adcdfe9cd94acee2b23150972cc08",
+      "target_region_url": "https://collections.library.yale.edu/iiif/2/1006108/520,540,520,190/full/0/default.jpg"
+    },
+    {
+      "all_five_gates_passed": false,
+      "basis": "The compact dark irregular mark in f19r.2 is securely localized and visibly denser than its neighbors. It contains internal light gaps but no defensible separately traceable under-contour or overlap boundary that orders two writing states.",
+      "gates": {
+        "chronology_boundary_supported": false,
+        "earlier_or_lower_contour_independently_traceable": false,
+        "materially_different_ink_or_edge_state": true,
+        "source_commented_target_securely_localized": true,
+        "upper_or_later_intervention_independently_traceable": true
+      },
+      "locus": "f19r.2",
+      "official_full_image_sha256": "c05e13bd154a93d77e2f601f11d9bd886fdf4524a49dbae0339b0bd864f7283c",
+      "outcome": "INTERVENTION_VISIBLE_BEFORE_STATE_NOT_RECOVERABLE",
+      "page": "f19r",
+      "target_region_sha256": "09b2caec423378be026b8d5b369555702e1fd4191fe2b4d8a74ee019b9f60e02",
+      "target_region_url": "https://collections.library.yale.edu/iiif/2/1006110/1680,445,700,180/full/0/default.jpg"
+    },
+    {
+      "all_five_gates_passed": false,
+      "basis": "The annotated op opening in the seventh word of f26v.5 is securely localized and visibly darker and heavier than adjacent strokes. Its present loop-and-stem complex is readable as one current form, but no earlier erased contour remains independently traceable and no overlap boundary establishes two ordered states.",
+      "gates": {
+        "chronology_boundary_supported": false,
+        "earlier_or_lower_contour_independently_traceable": false,
+        "materially_different_ink_or_edge_state": true,
+        "source_commented_target_securely_localized": true,
+        "upper_or_later_intervention_independently_traceable": true
+      },
+      "locus": "f26v.5",
+      "official_full_image_sha256": "3378e154f7ef8a45405cb008277aa1dc2229388c456cd3c66438bcca54d02c6b",
+      "outcome": "INTERVENTION_VISIBLE_BEFORE_STATE_NOT_RECOVERABLE",
+      "page": "f26v",
+      "target_region_sha256": "4321f62f4904b46748f0ba4a6a0cecb045ad07e5e22cc18793e7a003e5261ef8",
+      "target_region_url": "https://collections.library.yale.edu/iiif/2/1006125/1350,790,700,180/full/0/default.jpg"
+    }
+  ],
+  "threshold_passes": {
+    "minimum_positive_folios": false,
+    "minimum_recoverable_targets": false
+  },
+  "thresholds": {
+    "minimum_positive_folios": 2,
+    "minimum_recoverable_targets": 2
+  }
+}

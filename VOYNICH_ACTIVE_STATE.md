@@ -7057,18 +7057,20 @@ separable supralinear strokes; it would not establish a character substitution,
 corrected transcription, sound, word, language, cipher, plaintext, meaning, or
 translation.
 
-CRP001 is the next complete source-bound correction-recovery capacity panel.
+CRP001 completed the next complete source-bound correction-recovery capacity panel.
 A literal scan of the human transcription comments finds exactly four loci
 that combine a correction claim with darker ink or erasure. The only already
 target-inspected member, f81v.19 from PIP001, is excluded by name; the complete
 uninspected residual is f18r.3, f19r.2, and f26v.5 on three physical folios.
 The official Yale canvases, four allowed outcomes, and five physical chronology
-gates are frozen and independently validated before any target image body is
-opened. The panel will pass only if at least two targets on at least two folios
-expose independently traceable earlier and later states with a physical
-chronology boundary. A pass would authorize only a separately frozen identity
-comparison; it would not itself establish correction intent, character value,
-sound, word, language, cipher, plaintext, meaning, or translation.
+gates were frozen and independently validated before any target image body was
+opened. Direct inspection finds a real localized darker or irregular current
+mark at all three loci, but none preserves an independently traceable earlier
+contour or a physical overlap/edge boundary that orders two states. The panel
+therefore records zero recoverable corrections against a threshold of two on
+two folios and stops. Retain these as current physical irregularities only; do
+not alter a transcription or infer correction intent, character value, sound,
+word, language, cipher, plaintext, meaning, or translation.
 
 ## Runtime and sources
 
