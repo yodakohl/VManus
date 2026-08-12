@@ -6891,6 +6891,18 @@ coordinate without an author-visible origin or traversal direction. Do not
 mine paint, gaps, motifs, words, or another 28-item roster. No slot value,
 word, sound, language, cipher, plaintext, meaning, or translation follows.
 
+RD5X3-001 is the next source-bound native-visual topology question. The public
+human annotation explicitly describes `fRos.146--160` as a 3×5 matrix but
+leaves two alternatives: one three-line paragraph or five labels of three rows
+each associated with five visible doorways. Before image access, all fifteen
+loci, official Yale canvas 1006231, its full-image hash, and a baseline/gap/
+compartment rubric were frozen using geometry fields only. A development
+overlap diagnostic accidentally displayed some fillers; that exposure is
+recorded and the identities are sealed from this geometric audit and every
+later claim. One image inspection is authorized. Either outcome establishes
+only a local layout schema on one foldout, never a field, list identity, word,
+sound, language, cipher, plaintext, meaning, or translation.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU
