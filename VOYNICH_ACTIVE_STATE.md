@@ -6826,6 +6826,19 @@ toothed pages while preserving every original gate. Do not lower the gate or
 select images adaptively. No plant identity, leaf word, plaintext, meaning, or
 translation follows.
 
+LM001Y has now completed that final nonadaptive residual census and reopens the
+route at the capacity level. The nine previously unseen non-q05 Currier-A
+folios yielded five SMOOTH, three TOOTHED, and one UNCERTAIN judgment. Combined
+unchanged with LM001 and LM001X, the panel contains 29 smooth, 13 toothed, and
+two uncertain pages on 44 physical folios. Toothed support is now A9/B4; both
+admitted states span at least three folio-rank quartiles; and q02, q05, and q06
+tie for the largest toothed contribution at 3/13 (23.1%), below the unchanged
+25% ceiling. Every original visual-capacity gate passes. No Voynich string or
+formal text feature was opened during selection or judgment. This authorizes
+only a separately frozen text-blind formal design; it is not evidence that the
+text describes leaf margins and supplies no plant identity, leaf word,
+plaintext, meaning, or translation.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU
