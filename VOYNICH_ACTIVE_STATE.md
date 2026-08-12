@@ -7101,17 +7101,22 @@ recurrence. The same surface also occurs in prose and is productively composed,
 so no FIGURE, WOMAN, NYMPH, name, POS, sound, language, cipher, plaintext,
 meaning, or translation follows.
 
-RRA001 freezes the complete broader acquisition census before sixteen new
-target-specific ownership judgments. A source-only mechanical rule retains
-nine exact label surfaces, 21 loci, and nine physical folios whose existing
-human annotations share at least one coarse class at every occurrence. Five
-published outcomes are fixed (`darol` at two group/proximity loci and the three
-RFO001 `otoly` outcomes); the other sixteen judgments remain sealed. A type
-qualifies only if every occurrence is visibly singularly owned by its frozen
-shared class. This atlas can acquire repeated owned-label relations for later
-falsifiers, but the human tags define its candidate classes, so it is not a
-confirmatory semantic test and cannot name a class, word, POS, sound, language,
-cipher, plaintext, meaning, or translation.
+RRA001 completed the broader recurrent-label ownership census. A source-only
+mechanical rule retained nine exact label surfaces, 21 loci, and nine physical
+folios whose existing human annotations share at least one coarse class at
+every occurrence. Five published outcomes were fixed and the other sixteen
+target-specific ownership judgments were then inspected once on official Yale
+images. Six occurrences have singular visible ownership, eight occupy a local
+slot without singular ownership by the shared class, and seven show only
+proximity or group association. Every one of the nine exact surface types has
+at least one nonsingular occurrence, so the frozen all-occurrences rule yields
+0/9 passing types. Close the exact whole-surface recurrent singular-object-name
+bridge at current annotation coverage. This does not show that labels are
+meaningless or never names: several biological labels do occupy clear
+one-to-one figure columns, but their exact strings recur elsewhere in annuli or
+between/group positions. Do not rerun with a lower recurrence threshold or
+selected favorable occurrences. No class name, word, POS, sound, language,
+cipher, plaintext, meaning, or translation follows.
 
 ## Runtime and sources
 
