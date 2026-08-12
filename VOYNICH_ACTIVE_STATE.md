@@ -6874,6 +6874,17 @@ mapping, transcription, or label/formal access. Retain the lone device only as
 a noninferential source observation; it supplies no label meaning, ROOT or
 LEAF word, plant identity, plaintext, meaning, or translation.
 
+F69VSD001 is the next bounded source-acquisition question. The existing f69v
+`X1.1--X1.28` cycle is editorially ordered and the fixed mansion and long/short
+text hypotheses are already closed; this audit cannot reopen them. Before
+reopening any image, it froze official Yale canvas 1006199 and a five-device
+rubric asking only whether manuscript ink visibly selects a unique start slot,
+a traversal direction, or both. Grove numbering, clock position, long/short
+logs, ordinary spacing, damage, paint, decorative variation, and text identity
+cannot qualify. One inspection is authorized. Even a positive could establish
+only a physical coordinate, never a slot value, roster, word, sound, language,
+cipher, plaintext, meaning, or translation.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU
