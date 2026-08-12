@@ -6812,7 +6812,12 @@ leaflets, root/fruit teeth, hairs, paint bleed, and damage are excluded. The
 held capacity gate requires at least six TOOTHED and six SMOOTH pages, both
 states in each Currier and at least three quartiles, no more than four
 uncertain pages, and no quire concentration above 25%. No Voynich text feature
-may be accessed unless those source-only gates pass. Even a pass authorizes
+may be accessed unless those source-only gates pass. The one-pass calibration
+is complete: the 16 opaque canvases yielded six TOOTHED, six SMOOTH, and four
+UNCERTAIN judgments, all official review-image hashes were independently
+reconstructed, and the rubric required no amendment. The unchanged rubric is
+therefore authorized for exactly one held-panel visual pass; held text remains
+sealed. Even a held-capacity pass authorizes
 only a separately preregistered Currier/quire/length/flower-controlled formal
 association test; it supplies no leaf word, plant name, plaintext, meaning, or
 translation.
