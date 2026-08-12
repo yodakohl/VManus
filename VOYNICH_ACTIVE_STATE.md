@@ -7118,6 +7118,24 @@ between/group positions. Do not rerun with a lower recurrence threshold or
 selected favorable occurrences. No class name, word, POS, sound, language,
 cipher, plaintext, meaning, or translation follows.
 
+DRI001 is the new active source-acquisition route. The earlier
+`DOCUMENT_ROLE_ANNOTATION_V2` viewer is provenance-lost, so it is not silently
+resumed. A versioned source-only replacement constructs every section × exact
+editorial-kind-run cell represented on at least two physical folios, selects
+two different-folio pages per cell by fixed hash order, and assigns phases by
+deterministic graph colouring. Cell partners must be in opposite phases while
+logical pages sharing one official foldout canvas must remain in the same
+phase; the latter correction was caught before any selected image access. The
+frozen panel contains 15 cells, 30 logical pages, and 24 physical folios, with
+cross-cell folio reuse explicit and all prior full-canvas exposure
+conservatively disclosed. Inspect only the 15 calibration pages under the
+frozen five-role native-visual rubric. Continue to the 15 diagnostic pages only
+if no rubric amendment is needed and at most three calibration pages are
+unresolved. Even a diagnostic pass can establish only repeatable visible
+document roles inside exact editorial layout cells; it cannot confirm a
+manuscript-wide class or establish a heading, caption, field name, word, POS,
+sound, language, cipher, plaintext, meaning, or translation.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU
