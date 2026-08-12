@@ -3590,6 +3590,19 @@ independent 25-check reconstruction stand, but no PASSIVE, POSITIVE, NEGATIVE,
 HOT, MOIST, COLD, or DRY gloss may be assigned or exported to `y`, `ot`, or
 `ok`.
 
+A post-hoc cross-register identity screen now closes a tempting lexical
+upgrade of that local table. Under the already published corresponding-
+reading normalized edit-similarity metric, the physical
+Hot--Moist--Cold--Dry N1-to-D1 assignment is uniquely best among all 24
+assignments and remains uniquely best after any one paired position is
+deleted. This is not independent evidence: deleting one terminal `y` where
+present drops the physical assignment to tie-inclusive rank 9/24, and also
+deleting one leading `ot` or `ok` leaves it at rank 3/24. The raw optimum
+therefore largely re-detects the already known coordinate bits rather than
+showing that N1 and D1 spell the same four qualities. Retain the descriptive
+local alignment only; do not promote either register to a quality lexicon,
+word, sound, plaintext, meaning, or translation.
+
 A complete human-topology census supplies no new replication of that strict
 alternation. Its strongest independent control is f69v, whose 28 manually
 clocked slots alternate long/short exactly but whose terminal-`y` states do
