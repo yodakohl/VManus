@@ -8,17 +8,18 @@
     "f72": 14,
     "f73": 6
   },
-  "claim_ceiling": "This is a new filler-blind source inventory of 45 human-defined special-circle arrays and 504 slots. It does not reconstruct or validate historical EAS001, establish record boundaries, equate slots across diagrams, or supply any direction, month, star, nymph, object, field, word, sound, language, cipher, plaintext, meaning, or translation.",
+  "claim_ceiling": "This is a new filler-blind source inventory of 45 human-defined special-circle arrays and 504 slots, including one unreadable trace slot and one explicitly absent slot. One true absence on one folio cannot support an omission-pattern test. The inventory does not reconstruct or validate historical EAS001, establish record boundaries, equate slots across diagrams, or supply any direction, month, star, nymph, object, field, word, sound, language, cipher, plaintext, meaning, or translation.",
   "counts": {
     "arrays": 45,
-    "occupied_slots": 502,
     "page_panels": 23,
     "physical_folios": 7,
     "slots": 504,
-    "source_explicit_missing_slots": 2,
+    "source_explicit_absent_slots": 1,
+    "transcribed_slots": 502,
+    "unreadable_trace_slots": 1,
     "within_array_linear_adjacencies": 459
   },
-  "decision": "AUTHORIZE_SEPARATE_SCORE_BLIND_DESIGN_ONLY",
+  "decision": "STOP_OMISSION_PATTERN_ONE_EXPLICIT_ABSENCE",
   "experiment": "SPECIAL_CIRCLE_TEXT_BLIND_ARRAY_INVENTORY",
   "historical_eas001_relation": {
     "current_counts": {
@@ -35,14 +36,15 @@
     "same_inventory": false
   },
   "inputs": {
-    "experiments/semantic_assumptions/SPECIAL_CIRCLE_TEXT_BLIND_ARRAY_INVENTORY_METHOD.md": "f18f28daa69cc173123f9dffc143a67688c49d3d09bdda56452fc8f24626a2a2",
+    "experiments/semantic_assumptions/SPECIAL_CIRCLE_TEXT_BLIND_ARRAY_INVENTORY_METHOD.md": "a412f20cd386578719696cad66e675a01b0692a1615478c346495e6069b84431",
     "experiments/semantic_assumptions/results/existing_human_exact_locus_annotations.tsv": "79c7f06e91f90054aff4cdf27f098a5977d820acdf91f239a14c6ddf553a7f61"
   },
-  "inventory_tsv_sha256": "1c83775ce08f2498dc1df7e5e748adbfe78873da9723cdf09535cbf64b851ba0",
-  "missing_slots": [
+  "inventory_tsv_sha256": "0800312871234a068668cb8120b8a07026b50c6f6a955a22ca8a237bf606019a",
+  "nontranscribed_slots": [
     {
       "array_id": "SCARR005|f67v2|M1",
       "locus": "f67v2.21",
+      "occupancy_state": "UNREADABLE_TRACE",
       "page": "f67v2",
       "slot_index": 3,
       "unit": "M1"
@@ -50,12 +52,13 @@
     {
       "array_id": "SCARR029|f72r2|S1",
       "locus": "f72r2.33",
+      "occupancy_state": "ABSENT",
       "page": "f72r2",
       "slot_index": 14,
       "unit": "S1"
     }
   ],
-  "schema": "SPECIAL_CIRCLE_TEXT_BLIND_ARRAY_INVENTORY_V1",
+  "schema": "SPECIAL_CIRCLE_TEXT_BLIND_ARRAY_INVENTORY_V2",
   "slots_by_physical_folio": {
     "f67": 58,
     "f68": 76,
@@ -65,5 +68,5 @@
     "f72": 165,
     "f73": 60
   },
-  "status": "PASS_NEW_VERSIONED_TEXT_BLIND_SPECIAL_CIRCLE_INVENTORY"
+  "status": "PASS_CORRECTED_VERSIONED_TEXT_BLIND_SPECIAL_CIRCLE_INVENTORY"
 }

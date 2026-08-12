@@ -22,8 +22,10 @@ Read
    `normalized_code` whose final two characters are one of
    `L0, Ls, Lz, La, Ri, Ro` (individual label, star/zodiac label, or radial
    writing layouts in the human source).
-4. Once a group qualifies, retain every row in it in original source order,
-   including a source-explicit missing label row with an empty code.
+4. Once a group qualifies, retain every row in it in original source order.
+   Classify an empty-code row as `ABSENT` only when the human local comment
+   explicitly says the position is missing or not labelled; classify a row
+   with reported ink traces or an unreadable label as `UNREADABLE_TRACE`.
 5. Assign arrays and slots by first source occurrence. Derive physical folio
    only as the leading `f` plus digits from the page ID.
 
