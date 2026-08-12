@@ -6891,17 +6891,23 @@ coordinate without an author-visible origin or traversal direction. Do not
 mine paint, gaps, motifs, words, or another 28-item roster. No slot value,
 word, sound, language, cipher, plaintext, meaning, or translation follows.
 
-RD5X3-001 is the next source-bound native-visual topology question. The public
+RD5X3-001 completed the next source-bound native-visual topology question. The public
 human annotation explicitly describes `fRos.146--160` as a 3×5 matrix but
 leaves two alternatives: one three-line paragraph or five labels of three rows
 each associated with five visible doorways. Before image access, all fifteen
 loci, official Yale canvas 1006231, its full-image hash, and a baseline/gap/
 compartment rubric were frozen using geometry fields only. A development
 overlap diagnostic accidentally displayed some fillers; that exposure is
-recorded and the identities are sealed from this geometric audit and every
-later claim. One image inspection is authorized. Either outcome establishes
-only a local layout schema on one foldout, never a field, list identity, word,
-sound, language, cipher, plaintext, meaning, or translation.
+recorded and the identities were sealed from the geometric audit. Direct
+inspection of the hash-matched official canvas resolves the ambiguity in favor
+of **five doorway-owned three-row records**: five author-drawn inter-column
+openings are visible beneath the striped canopy; short baselines form local
+three-row stacks and restart after each support; at least four openings are
+clear and no baseline crosses multiple openings. Retain this as one local 5×3
+author-visible schema. A content test is allowed only under a new freeze that
+discloses the exposure and compares the fixed positions without selecting
+fillers or features. The result names no door, field, list, word, sound,
+language, cipher, plaintext, meaning, or translation.
 
 ## Runtime and sources
 
