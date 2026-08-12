@@ -6858,6 +6858,17 @@ unopened and no real association was computed. Do not weaken the unique-tail
 gate, alter the reduced errors or nuisance cells, or mine `cho/che` diagnostics.
 No leaf word, plant identity, plaintext, meaning, or translation follows.
 
+PVO001 is the next source-acquisition route. It freezes the complete 12-canvas
+official Yale pharmaceutical block covering all 16 public logical source page
+parts, with no sampling or visual selection. The visual unit follows Yale's
+actual combined/split canvases rather than inventing simple page boundaries.
+Inspect once in opaque order for only explicit author-visible singular
+ownership: a connector, bracket/cell, or writing inside exactly one fragment.
+Whitespace proximity and row alignment do not qualify. At least four canvases,
+both q15/q19, one canvas outside f89/f102, six devices total, and no more than
+two uncertainties are required before any second object-state mapping pass.
+No selected image body or Voynich transcription has yet been opened.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU
