@@ -7022,6 +7022,20 @@ discloses the exposure and compares the fixed positions without selecting
 fillers or features. The result names no door, field, list, word, sound,
 language, cipher, plaintext, meaning, or translation.
 
+SIA001 establishes a narrow recurrent writing-process feature from the complete
+human-comment panel of explicit above-baseline addition claims. The two selected
+physical loci, f31r.7 and f50v.8, were frozen before target-region access on
+their official Yale canvases. Direct source-native inspection finds in each case
+a bounded raised mark with one unique baseline host or gap, a separable ink or
+nonbaseline-placement boundary, and baseline writing that remains physically
+coherent without the mark. Both targets therefore pass all five preregistered
+gates. Retain this only as evidence that supralinear insertion occurred at more
+than one manuscript locus. It does not establish the inserted marks' correct
+glyph identities, correction intent, sound, morpheme, word, language, cipher,
+plaintext, meaning, or translation. Two exposed examples are not a general
+correction grammar; any wider use requires a new complete, prospectively frozen
+panel rather than adaptive mining around these forms.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU
