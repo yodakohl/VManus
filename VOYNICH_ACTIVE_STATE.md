@@ -6517,6 +6517,18 @@ Retain only the broad wind-directional diagram-family prior. Bourges is not an
 exact f67v2 homologue and transfers no direction, wind name, word, sound,
 language, cipher, plaintext, meaning, or translation.
 
+The formal-content follow-up to RD5X3-001 is **stopped unscored**. A metadata
+capacity lookup showed 16 source groups in ZL and 16 in RF across all fifteen
+loci, with `fRos.151` doubled in each reading; IT contains no Rosettes rows.
+That lookup also displayed the target family sequences before any formal-
+content preregistration. No statistic, null, association, or p-value was
+computed. Do not retrofit a significance test: the target is exposed, the
+panel is one physical folio, and ZL/RF are alternate readings rather than
+replications. The visual 5×3 schema remains retained, but no filler or row-
+position claim follows. Reopen content inference only with a prospectively
+frozen independent author-visible 5×3 panel on new physical folios, not by
+rescoring these exposed rows.
+
 A separate manuscript-internal native-visual comparison retains one new coarse
 relation between f67v2 and the Rosettes foldout. Both drawings occupy a
 nine-position scaffold: one center, four principal-axis positions, and four
