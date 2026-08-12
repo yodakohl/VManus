@@ -6573,6 +6573,18 @@ covered by these bounded native-visual screens or by that prior f1r audit;
 none supplies an authorial translation relation. This is not a claim about
 unreleased data or future imaging.
 
+A targeted follow-up also checks the public December-2024 full-manuscript
+`oshfdk` paint-removal renderings at the two strongest surviving
+Voynich-script/paint near-misses. On f2r, suppressing the leaf wash makes the
+already transcribed f2r.15 note easier to see, but exposes no additional group
+or second state and cannot establish whether the ink preceded the paint. On
+f99v, the alleged west-tuber trace at f99v.45 remains diffuse tonal variation
+without stable character segmentation and is not authenticated as writing.
+The transform is algorithmic display processing, not multispectral or
+physical layer imaging, so it cannot prove under-paint order by itself. This
+closes only these two processed witnesses and supplies no character value,
+colour gloss, word, language, plaintext, meaning, or translation.
+
 A genuinely filler-blind structural-slot selection now repairs the leakage in
 the older analogue index, whose tie-breaks included family and member distance.
 The new selector reads 641 stable confirmed-prose records and masks 2,191
