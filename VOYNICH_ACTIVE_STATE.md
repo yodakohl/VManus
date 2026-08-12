@@ -7188,16 +7188,18 @@ independent text-to-meaning bridge. Retain the panel as author-visible source
 data; do not score a section/kind-to-role association as a semantic discovery
 or treat the fifteen cells as independent.
 
-DRI002 is the active capacity extension of that retained role panel. It uses
+DRI002 completed the capacity extension of that retained role panel. It uses
 only DRI001's two discordant cells and selects every page in those exact cells
 that was absent from the original thirty-page panel: three pages in section-B
 `LPL` and six in section-B `P`, nine logical pages on seven physical folios.
 No page is ranked or sampled, and all nine exact Yale canvases are bound before
-new inspection. Continue to a later formal role association only if both cells
-independently contain at least two non-unresolved roles, each supported on at
-least two physical folios after combining DRI001 and DRI002. Otherwise stop
-before any text feature is scored. This is a role-mobility capacity census,
-not a heading, caption, field, class name, word, POS, sound, language, cipher,
+new inspection. The complete census yielded one `PROSE_DOMINANT` page and eight
+`OBJECT_WITH_PROSE` pages, all low uncertainty. DRC03 has replicated mobility:
+prose-dominant on f76/f80 and object-with-prose on f75/f78/f79/f81/f84. DRC02
+does not: object-with-prose spans f77/f78/f82 but repeated-owned-records occurs
+only on f84. The frozen rule required both cells, so stop before every text
+feature or formal role score. This is a role-mobility capacity stop, not a
+heading, caption, field, class name, word, POS, sound, language, cipher,
 plaintext, meaning, or translation result.
 
 SRE001 completed the prospective special-circle star-ray capacity census. It
