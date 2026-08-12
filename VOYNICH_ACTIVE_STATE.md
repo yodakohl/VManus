@@ -7165,17 +7165,19 @@ independent text-to-meaning bridge. Retain the panel as author-visible source
 data; do not score a section/kind-to-role association as a semantic discovery
 or treat the fifteen cells as independent.
 
-The clearest genuinely new visual acquisition opportunity is now frozen as
-SRE001. It does not rerun the failed exact-label recurrence or the old f68/f70
-ray-count preflight. A complete filler-blind scan of the human exact-locus
-layer selects all 24 special-circle inscriptions outside f68/f70 that carry
-both STAR_OR_SKY and LABEL tags plus an explicit-attachment relation: six on
-f69, ten on f72, and eight on f73, bound to four official Yale canvases. No
-label surface or formal feature entered selection. Inspect the targets once in
-opaque order and reopen a ray-count association only if one new folio supplies
-at least eight singular star-owned countable labels, two ray counts with at
-least three examples each, and no page above 75% of that folio's positives.
-Passing would establish visual capacity only, not a number or translation.
+SRE001 completed the prospective special-circle star-ray capacity census. It
+did not rerun the failed exact-label recurrence or the old f68/f70 ray-count
+score. A complete filler-blind scan selected 24 inscriptions outside f68/f70:
+six on f69, ten on f72, and eight on f73. Direct source-bound inspection then
+found zero singular star-owned countable labels. The six f69 inscriptions sit
+in central disk sectors between painted star arms, so their visible owner is
+the sector rather than one star. The eighteen f72/f73 inscriptions occupy
+combined human-figure-plus-star slots with no leader, enclosure, divider, or
+separate writing cell assigning the inscription uniquely to the star. All four
+capacity gates fail before any label surface or formal feature is opened. Keep
+the direct star-label ray-count route closed; no ray-count encoding, number,
+star name, word, sound, language, cipher, plaintext, meaning, or translation
+follows.
 
 ## Runtime and sources
 
