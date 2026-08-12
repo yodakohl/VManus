@@ -1,0 +1,85 @@
+{
+  "access": {
+    "alternate_readings_used_for_localization_only": true,
+    "enhancement_or_contrast_transformation_used": false,
+    "manual_native_visual_inspection": true,
+    "ocr_clip_embedding_or_automated_image_recognition_used": false,
+    "official_image_pixels_opened": true,
+    "source_native_iiif_regions_and_rotation_used": true
+  },
+  "claim_ceiling": "Two registered f67r2 outer-ring loci preserve visually separable brown under-stroke geometry and divergent red retracing, while a third shows layering without a recoverable shape pair. This establishes multiple physical red-over-brown shape states, not correction intent, correct transcription, character identity or equivalence, sound, morphology, word, language, cipher, plaintext, meaning, or translation.",
+  "counts": {
+    "correct_character_identities_established": 0,
+    "formal_associations_scored": 0,
+    "layering_only_loci": 1,
+    "physical_folios": 1,
+    "positive_recoverable_shape_pairs": 2,
+    "registered_loci": 3,
+    "unresolved_loci": 0
+  },
+  "decision": "RETAIN_TWO_SOURCE_BOUND_RED_OVER_BROWN_SHAPE_PAIRS_AND_ONE_LAYERING_ONLY_LOCUS",
+  "experiment": "RBR001_F67R2_RED_BROWN_RETRACING",
+  "inputs": {
+    "method_sha256": "426a34d4b9e664954a15b0f73bebb96b161787a75301ba6eaef66a9588a1cd75",
+    "official_full_image_sha256": "0518312a566ee713a46c9887d8b8b9d7141d14095e360661789c1dad9b5c0d1c",
+    "selection_sha256": "7da645a0b489ec5f0c81ed309526f314614ed462c9b598a62694db0dea6b3ede",
+    "selection_validation_sha256": "44b1642affc105cc43eaa88013db0547a7e25e24c54ef6966ea62c058a60960f"
+  },
+  "loci": [
+    {
+      "basis": "The registered three-word 11:30 label is localized. Dense red replacements sit inside and across paler circular and curved brown strokes. At the first-word round members, the pale circumferences and projecting curve remain traceable beyond the compact red fills, while shared centres and overlap bind both states to the same glyph positions.",
+      "clock_position": "11:30",
+      "gates": {
+        "bounded_brown_understroke_geometry_independently_traceable": true,
+        "bounded_red_geometry_visibly_diverges_from_brown_geometry": true,
+        "overlap_continuity_or_boundary_supports_red_after_brown": true,
+        "red_and_brown_ink_visually_separable": true,
+        "registered_sector_locus_and_target_localized": true
+      },
+      "locus": "f67r2.3",
+      "outcome": "RECOVERABLE_RED_OVER_BROWN_SHAPE_CHANGE",
+      "target_region_sha256": "444be4f33c60fb92fca8620235eb2b4dc1adbacb9d48c04a9586c69061ea4c5c",
+      "target_region_url": "https://collections.library.yale.edu/iiif/2/1006194/3300,300,520,300/2600,/0/default.jpg"
+    },
+    {
+      "basis": "The right-edge 03:30 label and red-over-brown layering are locatable, but the earlier left side and final-glyph shapes named in the human note cannot be traced independently through the weak brown residues. Layering is visible without a defensible before/after shape pair.",
+      "clock_position": "03:30",
+      "gates": {
+        "bounded_brown_understroke_geometry_independently_traceable": false,
+        "bounded_red_geometry_visibly_diverges_from_brown_geometry": false,
+        "overlap_continuity_or_boundary_supports_red_after_brown": true,
+        "red_and_brown_ink_visually_separable": true,
+        "registered_sector_locus_and_target_localized": true
+      },
+      "locus": "f67r2.7",
+      "outcome": "VISIBLE_LAYERING_NO_RECOVERABLE_SHAPE_PAIR",
+      "target_region_sha256": "16e167b489b8f05a663db3ce8a0d610d9eb1f5fd2ae6d76c395562bb2091b131",
+      "target_region_url": "https://collections.library.yale.edu/iiif/2/1006194/4600,1480,372,650/2604,/90/default.jpg"
+    },
+    {
+      "basis": "The registered three-word 06:30 label is localized. At the end of the first word, a thin brown descending plume remains visible beyond the compact red a-like terminal. Brown and red share the terminal body, while the red stops before the continuing brown curve, exposing both geometry and chronology.",
+      "clock_position": "06:30",
+      "gates": {
+        "bounded_brown_understroke_geometry_independently_traceable": true,
+        "bounded_red_geometry_visibly_diverges_from_brown_geometry": true,
+        "overlap_continuity_or_boundary_supports_red_after_brown": true,
+        "red_and_brown_ink_visually_separable": true,
+        "registered_sector_locus_and_target_localized": true
+      },
+      "locus": "f67r2.10",
+      "outcome": "RECOVERABLE_RED_OVER_BROWN_SHAPE_CHANGE",
+      "target_region_sha256": "22b68b44229729b847de57af019bee9a592f1ca395dcf9938ac4849d9a03003c",
+      "target_region_url": "https://collections.library.yale.edu/iiif/2/1006194/3350,2680,520,400/2600,/0/default.jpg"
+    }
+  ],
+  "panel_gate": {
+    "minimum_positive_loci": 2,
+    "observed_positive_loci": 2,
+    "passed": true
+  },
+  "source": {
+    "canvas_id": "1006194",
+    "official_full_image_hash_verified_during_inspection": true
+  },
+  "status": "PASS_MULTIPLE_RECOVERABLE_RED_OVER_BROWN_SHAPE_STATES"
+}

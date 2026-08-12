@@ -6583,18 +6583,21 @@ morphology, word, language, cipher, plaintext, meaning, or translation. The
 next admissible use is a cheap complete-census screen for additional explicitly
 human-annotated retracing differences, not general visual mining.
 
-RBR001 is the live prospective physical-state panel. A cheap screen of every
-remaining human retracing comment found a stronger, colour-discriminated
-cluster in the f67r2 outer red ring. Literal recoverable-state rules select
-exactly `f67r2.3`, `.7`, and `.10`, whose comments describe red forms diverging
-from visible brown under-writing; `.6` and `.11` are excluded because they say
-only unrecognizable or unreadable. Before target-region access, the selection,
-official Yale canvas 1006194 and full-image hash, per-locus five-gate rubric,
-and a two-of-three panel threshold were frozen and independently validated.
-Inspect only these three T1 sectors. A pass can establish multiple physically
-recoverable brown-under/red-retraced shape states, but no correction intent,
-correct transcription, character identity or equivalence, sound, word,
-language, cipher, plaintext, meaning, or translation.
+RBR001 is complete and passes its two-of-three physical-state threshold. At
+`f67r2.3`, pale circular and curved under-strokes remain visible around and
+beyond compact red replacements at shared glyph positions. At `f67r2.10`, a
+thin brown terminal plume continues beyond a red a-like ending at the same
+word endpoint. `f67r2.7` shows red/brown layering but not an independently
+traceable earlier shape and is not counted positive. Retain two source-bound
+`BROWN UNDER-STROKE / DIVERGENT RED RETRACING` pairs and one layering-only
+locus. This establishes multiple physical shape states in the outer red ring,
+but zero correct character identities. It does not license choosing among ZL,
+IT, or RF readings or infer correction intent, sound, morphology, word,
+language, cipher, plaintext, meaning, or translation. The next route is a
+complete nonselective twelve-sector underlayer-recovery capacity census,
+explicitly disclosing that the full canvas and three target sectors are already
+exposed; it must stop before proposing a corrected transcription unless a new
+prospective method proves adequate recovery across the whole ring.
 
 A separate manuscript-internal native-visual comparison retains one new coarse
 relation between f67v2 and the Rosettes foldout. Both drawings occupy a
