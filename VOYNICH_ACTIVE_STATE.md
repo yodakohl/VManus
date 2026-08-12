@@ -6548,6 +6548,21 @@ main-hand sequence plus an explicit equivalence relation; infer no character,
 number, month word, sign name, sound, language, cipher, plaintext, meaning, or
 translation.
 
+A bounded follow-up inspected the public 2014 Lazarus Project multispectral
+release on seven high-value folios: f8r, f17r, f47r, f70v1, f71r, f102v1,
+and f116v. Ten processed images and five ordinary-light or pseudocolour
+comparators improve the visibility of existing ink, pigment, zodiac rings,
+and mixed-script marginal writing, but expose zero new distinct text layers,
+explicit equivalences, singularly owned readable plain legends, or
+recoverable before/after correction pairs. In particular, f17r/f116v remain
+same-line mixed-script contexts without a gloss device, while f70v1/f71r do
+not reopen the special-circle plain-legend route. This is a source-bound
+machine-authored visual assessment, not human annotation. It closes only the
+inspected public subset. Reopen with new spectral data on an unresolved folio
+or an independently readable authorial relation; do not repeat the existing
+ordinary-light or 2014-MSI screens. No glyph, word, language, plaintext,
+meaning, or translation follows.
+
 A genuinely filler-blind structural-slot selection now repairs the leakage in
 the older analogue index, whose tie-breaks included family and member distance.
 The new selector reads 641 stable confirmed-prose records and masks 2,191
