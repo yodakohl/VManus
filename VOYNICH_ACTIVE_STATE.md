@@ -7153,6 +7153,18 @@ role judgment, and diagnostic identities remained sealed, but the calibration
 is therefore not identity-blind in the strongest auditable sense. This
 provenance correction changes neither the role partition nor the gate.
 
+The sealed DRI001 diagnostic phase now passes its frozen instrument gates. All
+fifteen diagnostic pages resolve; 13/15 different-folio pairs sharing the same
+section and exact editorial-kind run receive the same visible role, above the
+required eleven. All fifteen cells are resolved, and four roles occur over the
+thirty pages. DRC02 and DRC03 are the two disagreements. This supports the
+rubric as a repeatable machine-authored page-role inventory within those exact
+editorial cells, but it also shows that the selection metadata already captures
+most of that broad visible distinction. It does not itself provide an
+independent text-to-meaning bridge. Retain the panel as author-visible source
+data; do not score a section/kind-to-role association as a semantic discovery
+or treat the fifteen cells as independent.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU
