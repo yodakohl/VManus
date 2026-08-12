@@ -1,0 +1,23 @@
+#!/usr/bin/env python3
+"""Independent compact validation of the 10-to-5 worth stop."""
+import csv,hashlib,json
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[2];B=ROOT/'experiments/semantic_assumptions';I=B/'results/special_circle_text_blind_array_inventory.tsv';O=B/'special_circle_10_to_5_pairing_observations.tsv';R=B/'results/special_circle_10_to_5_pairing_worth.json';M=B/'results/special_circle_10_to_5_pairing_worth_report.md';OUT=B/'results/special_circle_10_to_5_pairing_worth_validation.json';OM=B/'results/special_circle_10_to_5_pairing_worth_validation_report.md'
+def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+def canon(x):return (json.dumps(x,ensure_ascii=False,indent=2,sort_keys=True)+'\n').encode()
+def main():
+ checks=[];rows=list(csv.DictReader(I.open(encoding='utf-8'),delimiter='\t'));first={}
+ for r in rows:first.setdefault(r['array_id'],r)
+ pairs={}
+ for page in sorted({r['page'] for r in first.values()}):
+  rs=[r for r in first.values() if r['page']==page];a=[r for r in rs if r['normalized_code']=='@Lz' and r['slot_count']=='10' and ('outer' in r['unit_description'].lower() or 'band 1' in r['unit_description'].lower())];b=[r for r in rs if r['normalized_code']=='@Lz' and r['slot_count']=='5' and 'inner' in r['unit_description'].lower()]
+  if len(a)==len(b)==1:pairs[page]=(a[0]['array_id'],b[0]['array_id'])
+ assert pairs=={'f70v1':('SCARR020|f70v1|S2','SCARR021|f70v1|S1'),'f71r':('SCARR022|f71r|S1','SCARR023|f71r|S2'),'f71v':('SCARR024|f71v|S1','SCARR025|f71v|S2'),'f72r1':('SCARR026|f72r1|S1','SCARR027|f72r1|S2')};checks.append('candidate_panel')
+ obs=list(csv.DictReader(O.open(encoding='utf-8'),delimiter='\t'));assert [r['page'] for r in obs]==list(pairs);checks.append('observation_join')
+ dev=('shared_spokes','exact_two_to_one_cells','paired_brackets_or_leaders','exact_nonoverlapping_sectors');assert all(all(r[k]=='NO' for k in dev) for r in obs);checks.append('zero_visible_pairing_devices')
+ stored=json.loads(R.read_text());assert stored['counts']=={'candidate_pages':4,'physical_folios':3,'outer_slots':40,'inner_slots':20,'pages_with_pairing_device':0,'folios_with_pairing_device':0,'filler_fields_accessed':0};assert stored['gates']=={'exact_four_page_three_folio_candidate_panel':True,'every_candidate_page_has_author_visible_pairing_device':False,'pairing_device_on_at_least_three_physical_folios':False,'zero_filler_transcription_or_formal_access':True};checks.append('counts_and_gates')
+ assert stored['access']=={'voynich_fillers_opened':False,'surface_family_member_root_role_accessed':False,'machine_visual_observations_represented_as_human_annotations':False};checks.append('access_contract')
+ assert stored['external_source_bindings']=={'yale_manifest_2002046_sha256':'317d58fd9ea90392a83d9858a91eada3d0b41416a3c835857dc0154bd123a309','canvas_image_sha256s':{'1006201':'c8f24b6be5451aba49eb793784c43cb7fc8341dca8a58ff43fc1eebf4877b60c','1006202':'6405841a75a8fa24dd9e5c93ad090ee56bf26c77757f3b1634487e27b509e61b','1006203':'45f7caf4b58744fdcd4928887661b56a135538a5a40a24fea6ca6c5239898269'}};checks.append('official_source_bindings')
+ expected='# Special-circle 10-to-5 annular pairing worth screen\n\nStatus: **STOP — NO AUTHOR-VISIBLE TWO-TO-ONE PAIRING DEVICE**.\n\nThe corrected filler-blind inventory mechanically yields f70v1, f71r, f71v, and f72r1: four pages on three physical folios with one 10-slot outer and one 5-slot inner `@Lz` band. Direct inspection of exact official Yale canvases finds open concentric annuli but zero shared spokes, two-to-one cells, paired brackets/leaders, or non-overlapping sectors that assign two outer figures to one inner figure. All correspondence gates fail; zero Voynich filler or formal fields were opened.\n\nDo not invent proportional pairing or score the rings. This establishes no coordinate, number, object, word, plaintext, meaning, or translation.\n';assert M.read_text()==expected;checks.append('report_bytes')
+ assert len(checks)==7;v={'experiment':'SPECIAL_CIRCLE_10_TO_5_PAIRING_WORTH_VALIDATION','schema':'SPECIAL_CIRCLE_10_TO_5_PAIRING_WORTH_VALIDATION_V1','status':'PASS_7_CHECK_COMPACT_RECONSTRUCTION','check_count':7,'checks':checks,'validated_result_sha256':sha(R),'validated_report_sha256':sha(M),'claim_ceiling':'Validation confirms only the no-pairing worth stop and supplies no translation.'};OUT.write_bytes(canon(v));OM.write_text('# Special-circle 10-to-5 worth validation\n\nStatus: **PASS — 7 compact checks**.\n\nIndependent code reconstructs the candidate panel, observations, zero-device counts, gates, access contract, source bindings, and exact report. It supplies no translation.\n')
+if __name__=='__main__':main()

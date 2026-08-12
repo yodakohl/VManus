@@ -173,6 +173,16 @@ The two nontranscribed rows are not homologous omissions: f67v2.21 retains
 unreadable ink traces, whereas f72r2.33 is explicitly unlabelled. With only
 one secure absent slot on one folio, no omission-pattern test is authorized.
 
+The only repeated exact-count candidate for cross-band correspondence in this
+new inventory is the 10-outer/5-inner `@Lz` layout on f70v1, f71r, f71v, and
+f72r1 (four pages on f70--f72). Direct source-bound inspection of exact Yale
+canvases finds open concentric annuli but no shared spokes, two-to-one cells,
+paired brackets/leaders, or non-overlapping sectors assigning two outer figures
+to one inner figure. The route stops before fillers and formal fields. Do not
+invent proportional pairing or rerun the already stopped unequal parallel-band
+route; no coordinate, number, slot value, word, plaintext, meaning, or
+translation follows.
+
 ZL3b, IT2a, and RF1b are alternate readings of one manuscript, never three
 independent samples. Structural tags must remain distinct from translations.
 
