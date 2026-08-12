@@ -6839,6 +6839,21 @@ only a separately frozen text-blind formal design; it is not evidence that the
 text describes leaf margins and supplies no plant identity, leaf word,
 plaintext, meaning, or translation.
 
+LM002 is the active formal successor and deliberately avoids another generic
+image-to-word classifier. Its sole target is the already confirmed binary
+`cho/che` page-side regime; no literal, root, role, family, member, or best
+feature can be searched. The target-blind 42-folio admitted panel has two exact
+nuisance views with finite inference: acquisition phase × Currier × hand ×
+quartile × page side retains five mobile cells, 13 folios, and 108 assignments;
+phase × Currier × hand × quire retains five cells, 16 folios, and 324
+assignments. The stricter joint partition has only 36 assignments and is
+explicitly unscored. The published formal-state table was not opened or
+parsed. Run target-free null/power/adversarial calibration next; target access
+is forbidden unless the stringent unique-tail instrument is demonstrably
+powered. Even a future pass could establish only cross-modal covariance of an
+anonymous formal regime, not a leaf word, plant identity, plaintext, meaning,
+or translation.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU
