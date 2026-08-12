@@ -7036,6 +7036,20 @@ plaintext, meaning, or translation. Two exposed examples are not a general
 correction grammar; any wider use requires a new complete, prospectively frozen
 panel rather than adaptive mining around these forms.
 
+PIP001 is the frozen exposure-aware follow-up to SIA001. A complete literal
+source-comment rule selects five plume-intervention claims on four physical
+folios. The two exposed outcomes are fixed: f26r.1 remains chronology-unresolved
+from the processed-correction screen and f31r.7 remains secure from SIA001. The
+three new target regions at f37v.22, f81v.13, and f81v.19 are sealed. Before
+opening them, official Yale canvases, the same five physical gates, and panel
+requirements of at least 3/5 total positives, 2/3 new-target positives, and
+three positive physical folios were frozen and independently reconstructed.
+Inspect each new target once with source-native pixels only. Even a pass would
+establish only that human plume-intervention comments often correspond to
+separable supralinear strokes; it would not establish a character substitution,
+corrected transcription, sound, word, language, cipher, plaintext, meaning, or
+translation.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU
