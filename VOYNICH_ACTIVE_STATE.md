@@ -6599,6 +6599,18 @@ explicitly disclosing that the full canvas and three target sectors are already
 exposed; it must stop before proposing a corrected transcription unless a new
 prospective method proves adequate recovery across the whole ring.
 
+RBR002 is the live exposure-aware capacity audit. All twelve f67r2 outer-ring
+records are fixed in clock order. The full canvas and RBR001 sectors at 11:30,
+03:30, and 06:30 are disclosed as exposed; nine other sector regions remain
+unopened for this question. Before opening them, four source-only record states
+and GO thresholds were frozen: at least 8/12 records with one recoverable
+position, at least 4/9 previously unexamined records with recovery, and at
+least three records with multiple recoverable positions. Alternate readings
+may localize whole records but cannot name under-strokes. This capacity audit
+may authorize a later prospectively defined corrected-ring transcription
+method; it cannot itself assign character identities or produce corrected
+text, sound, language, plaintext, meaning, or translation.
+
 A separate manuscript-internal native-visual comparison retains one new coarse
 relation between f67v2 and the Rosettes foldout. Both drawings occupy a
 nine-position scaffold: one center, four principal-axis positions, and four
