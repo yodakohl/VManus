@@ -7072,6 +7072,18 @@ two folios and stops. Retain these as current physical irregularities only; do
 not alter a transcription or infer correction intent, character value, sound,
 word, language, cipher, plaintext, meaning, or translation.
 
+RLO001 tested the strictest available exact repeated-label ownership bridge
+before opening any new image. The complete source-only census required an
+unhedged object-bearing human annotation, explicit attachment, direct
+enclosure, or explicit identity, one source group, and the same literal
+surface in all three alternate readings. It retains 57 eligible labels and 57
+different exact surfaces: no surface repeats across pages. Relaxing ownership
+to the nonsingular `REL_ARRAY_OR_GROUP` relation produces three two-locus
+diagnostics (`darol`, `otedy`, and `otoly`), but that relation does not assign
+either inscription to one visible object and cannot support a lexical bridge.
+Stop the strict route without image inspection. This establishes no object
+identity, word, language, cipher, plaintext, meaning, or translation.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU
