@@ -7258,6 +7258,19 @@ a named reopen condition, or new physical-layer/multispectral evidence. The
 validated structural edition may prepare matching against such future
 evidence, but it cannot create an English gloss by itself.
 
+NVA002 checks the live public physical-layer inventory before any costly raw-
+band work. The official Yale manifest is still the previously bound
+`317d58fd...` object: 213 canvases, exactly one JPEG body per canvas, and no
+top-level alternate image annotations. The public Lazarus Project Drive still
+contains exactly the same ten folio folders in both its processed and raw-TIFF
+trees: f1r, f8r, f17r, f26r, f47r, f70v1, f71r, f93r, f102v1, and f116v. Every
+folio is already routed through the completed public-MSI screens or the
+separate later-alphabet-table audit for f1r. Independent live metadata code
+reconstructs the stop in fifteen checks without opening any manuscript image
+body. Do not download or reprocess the multi-gigabyte raw bands as though they
+were new evidence. Reopen only when a public source exposes a new folio or
+image layer, or when provenance-clean new physical imaging is acquired.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU
