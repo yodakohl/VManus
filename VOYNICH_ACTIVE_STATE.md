@@ -6746,6 +6746,20 @@ filler inspection without alternative-context or threshold mining. It supplies
 no word, POS, morpheme, sound, language, cipher, plaintext, meaning, or
 translation.
 
+A score-blind capacity audit also prevents the new special-circle inventory
+from silently inheriting the lost historical `EAS001` boundary claim. Of 459
+linear slot adjacencies, 299 have two mapped transcribed endpoints and 218
+retain exact source-native family agreement across ZL3b, IT2a, and RF1b. The
+218 edges span 43 arrays, 23 pages, and all seven extant f67--f73 folios, but
+those folios occupy only four physical bifolio production units. A complete
+one-sided four-unit sign orbit has size 16 and minimum p=.0625, above the
+frozen .01 requirement. The audit therefore stopped without applying the
+confirmed reset-likeness model, computing a boundary effect, or running a
+null. Do not treat the 218 dependent edges as independent evidence or rebuild
+`EAS001` from them. Reopen only with additional independent physical units or
+a genuinely different externally owned relation; no graphical boundary, slot
+function, word, plaintext, meaning, or translation follows.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU
