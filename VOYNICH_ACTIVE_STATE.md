@@ -7101,6 +7101,18 @@ recurrence. The same surface also occurs in prose and is productively composed,
 so no FIGURE, WOMAN, NYMPH, name, POS, sound, language, cipher, plaintext,
 meaning, or translation follows.
 
+RRA001 freezes the complete broader acquisition census before sixteen new
+target-specific ownership judgments. A source-only mechanical rule retains
+nine exact label surfaces, 21 loci, and nine physical folios whose existing
+human annotations share at least one coarse class at every occurrence. Five
+published outcomes are fixed (`darol` at two group/proximity loci and the three
+RFO001 `otoly` outcomes); the other sixteen judgments remain sealed. A type
+qualifies only if every occurrence is visibly singularly owned by its frozen
+shared class. This atlas can acquire repeated owned-label relations for later
+falsifiers, but the human tags define its candidate classes, so it is not a
+confirmatory semantic test and cannot name a class, word, POS, sound, language,
+cipher, plaintext, meaning, or translation.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU
