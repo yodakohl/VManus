@@ -7136,6 +7136,17 @@ document roles inside exact editorial layout cells; it cannot confirm a
 manuscript-wide class or establish a heading, caption, field name, word, POS,
 sound, language, cipher, plaintext, meaning, or translation.
 
+The calibration phase now passes without changing that rubric. One-time direct
+inspection of the fifteen frozen calibration logical pages on fourteen exact
+official Yale witnesses yields three `PROSE_DOMINANT`, eight
+`OBJECT_WITH_PROSE`, one `REPEATED_OWNED_RECORDS`, three
+`DIAGRAM_PARAMETER_ARRAY`, and zero `MIXED_OR_UNRESOLVED` judgments. Four
+non-unresolved roles are represented, the zero-unresolved count is below the
+frozen maximum of three, and compact validation passes eleven checks. These are
+machine-authored native-visual judgments under the prospective authorization,
+not literal human annotations. The fifteen diagnostic pages are now authorized
+for one sealed pass; no diagnostic image was opened during calibration.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU
