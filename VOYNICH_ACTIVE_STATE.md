@@ -6555,6 +6555,19 @@ self-correction route. Reopen only with new physical or spectral data exposing
 the intervention chronology, not another zoom or contrast view of the same
 canvas.
 
+RYO001 is the live prospective physical-state route. The complete human
+annotation census contains exactly one comment that says a retraced glyph may
+have been a different named glyph: `f73v.32`, where a current y-like initial
+may have been o-like. This locus is outside the prior four correction
+instances. Before target-glyph access, the unique source rule, alternate manual
+reading witnesses (`ypal`/`ypal`/`apal`), official canvas 1006207 and image
+hash, three outcomes, and five physical-state gates were frozen and validated.
+Inspect only the Grove-9 inner-band label on source-native official pixels.
+ZL/IT/RF are alternate readings, not replications. Even a positive result can
+establish only one visible o-like-to-y-like physical modification in source
+transcription terms, not correction intent, character equivalence, sound,
+word, language, cipher, plaintext, meaning, or translation.
+
 A separate manuscript-internal native-visual comparison retains one new coarse
 relation between f67v2 and the Rosettes foldout. Both drawings occupy a
 nine-position scaffold: one center, four principal-axis positions, and four
