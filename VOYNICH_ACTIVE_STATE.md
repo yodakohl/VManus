@@ -6813,6 +6813,18 @@ new independently frozen source-native pages that balance toothed morphology
 across both Curriers and additional quires. No leaf word, plant name,
 plaintext, meaning, or translation follows.
 
+The live prospective route is LM001X, which uses LM001's explicit new-data
+reopen condition rather than rerunning its panel. A deterministic metadata-only
+selector has frozen 19 previously unused Currier-A herbal folios across eight
+non-q05 quires, with no quire contributing more than three pages. The official
+Yale canvases are bound but their image bodies were not opened by selection or
+validation. The unchanged LM001 visual rubric will be applied once in opaque-
+ID order. No gate is lowered: only an old-plus-new panel satisfying every
+original LM001 minimum-state, Currier, quartile, uncertainty, and 25% quire-
+contribution condition can license a separately frozen text design. Text
+features remain sealed; no plant identity, leaf word, plaintext, meaning, or
+translation follows from the selection.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU
