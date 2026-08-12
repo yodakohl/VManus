@@ -7084,6 +7084,17 @@ either inscription to one visible object and cannot support a lexical bridge.
 Stop the strict route without image inspection. This establishes no object
 identity, word, language, cipher, plaintext, meaning, or translation.
 
+The prospectively looser RFO001 screen retains exactly one candidate after a
+complete label-only recurrence census: literal `otoly` at f72v3.10, f75v.37,
+and f84r.11 on three physical folios. Every occurrence has an existing human
+`FIGURE` context tag, but only source-bound native inspection can determine
+whether a unique figure actually owns the inscription. The three official
+Yale canvases, five ownership gates, all-three panel rule, and prior
+full-canvas exposure are frozen before target image access. Even a pass would
+establish only recurrence in singular figure-owned positions; the surface also
+occurs in prose and is productively composed, so no FIGURE, WOMAN, NYMPH, name,
+POS, sound, language, cipher, plaintext, meaning, or translation would follow.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU
