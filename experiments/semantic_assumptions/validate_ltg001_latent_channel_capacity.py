@@ -17,6 +17,7 @@ GROUPS = RESULTS / "source_sta_family_consensus_groups.tsv"
 RESULT = RESULTS / "ltg001_latent_channel_capacity.json"
 TABLE = RESULTS / "ltg001_latent_channel_capacity.tsv"
 REPORT = RESULTS / "ltg001_latent_channel_capacity_report.md"
+VALIDATION = RESULTS / "ltg001_latent_channel_capacity_validation.json"
 
 
 def folio(page: str) -> str:
@@ -117,7 +118,9 @@ def main() -> None:
     assert result["status"] == "PASS_IDENTIFIABLE_CROSS_FOLIO_CHANNEL"; checks += 1
     assert result["outputs"][TABLE.name] == sha(TABLE); checks += 1
     assert REPORT.read_text(encoding="utf-8").startswith("# LTG001 latent transcription-channel capacity\n"); checks += 1
-    print(json.dumps({"status": "PASS_INDEPENDENT_LTG001_CAPACITY_RECONSTRUCTION", "checks": checks}, sort_keys=True))
+    validation = {"status": "PASS_INDEPENDENT_LTG001_CAPACITY_RECONSTRUCTION", "checks": checks}
+    VALIDATION.write_text(json.dumps(validation, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    print(json.dumps(validation, sort_keys=True))
 
 
 if __name__ == "__main__":

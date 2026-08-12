@@ -1,0 +1,2272 @@
+{
+  "by_family": {
+    "DOMINANT_POLICY_ONLY": {
+      "pass_count": 7,
+      "worlds": 8
+    },
+    "FAMILY_PRIVATE_CHANNEL": {
+      "pass_count": 0,
+      "worlds": 8
+    },
+    "NULL_DIRECT": {
+      "pass_count": 0,
+      "worlds": 16
+    },
+    "ONE_FOLIO_CHANNEL": {
+      "pass_count": 0,
+      "worlds": 8
+    },
+    "SHARED_CHANNEL": {
+      "k_within_one": 16,
+      "pass_count": 16,
+      "worlds": 16
+    }
+  },
+  "claim_ceiling": "Target-free instrument behavior only; no preferred reading, glyph, allograph, sound, word, language, cipher, plaintext, meaning, or translation.",
+  "experiment": "LTG001_LATENT_TRANSCRIPTION_CHANNEL_CALIBRATION",
+  "gates": {
+    "dominant_policy_at_most_one": false,
+    "family_private_at_most_one": true,
+    "null_direct_at_most_one": true,
+    "one_folio_at_most_one": true,
+    "shared_channel_at_least_14": true,
+    "shared_k_within_one_at_least_12": true
+  },
+  "inputs": {
+    "LTG001_LATENT_TRANSCRIPTION_CHANNEL_METHOD.md": {
+      "bytes": 5829,
+      "sha256": "1102a2e15786c099fab784468292fae4261a51eff194614305f1acdc5f677331"
+    },
+    "ltg001_latent_channel_calibration_v1.json": {
+      "bytes": 68745,
+      "sha256": "d3450f366da256a97d163c3ba31e6a21ded62b88f42fe47eb90d6856f1279ac9"
+    },
+    "ltg001_latent_channel_capacity.json": {
+      "bytes": 2242,
+      "sha256": "1dc6c3c1f4cb0734c3b6b5f1d4e79b864a89fa241e01fb3e572469a33fa0f7db"
+    },
+    "ltg001_latent_channel_core.py": {
+      "bytes": 14255,
+      "sha256": "a149313bdfd5a7a9cb84030a27f149a16b3dac24c391cdee77c585995d8fd246"
+    },
+    "run_ltg001_latent_channel_calibration.py": {
+      "bytes": 11274,
+      "sha256": "9f6094ed2b77f58af52d4c61220cfb71926033d9936691af976919815595ae18"
+    },
+    "source_sta_family_consensus_groups.tsv": {
+      "bytes": 5667946,
+      "sha256": "a202d93498e8a350a5d7e0ca46e831dcc37ea5c0182dc404d63cb797a98b1225"
+    }
+  },
+  "real_panel_scored": false,
+  "status": "STOP_CALIBRATION_FAILURE",
+  "world_count": 56,
+  "world_registry": [
+    {
+      "count": 16,
+      "family": "NULL_DIRECT"
+    },
+    {
+      "count": 16,
+      "family": "SHARED_CHANNEL"
+    },
+    {
+      "count": 8,
+      "family": "ONE_FOLIO_CHANNEL"
+    },
+    {
+      "count": 8,
+      "family": "FAMILY_PRIVATE_CHANNEL"
+    },
+    {
+      "count": 8,
+      "family": "DOMINANT_POLICY_ONLY"
+    }
+  ],
+  "worlds": [
+    {
+      "family": "NULL_DIRECT",
+      "index": 0,
+      "planted_k": null,
+      "selected_k_by_fold": [
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "selected_k_median": 8,
+      "summary": {
+        "currier_gain_bits": {
+          "A": -2.260266829760391,
+          "B": -2.2621671328448762,
+          "BLANK": -2.187722817672742
+        },
+        "decision": "FINAL_NONCONFIRMATION",
+        "dominant_policy_deleted_gain_bits": -2.2581343733015204,
+        "equal_folio_gain_bits": -2.256779546595995,
+        "event_count": 260146,
+        "folio_count": 102,
+        "folio_sign_p": 1.0,
+        "gates": {
+          "currier_A_B_at_least_0_010": false,
+          "dominant_policy_deleted_positive": false,
+          "every_leave_one_folio_positive": false,
+          "gain_at_least_0_020": false,
+          "sign_p_at_most_0_01": false,
+          "unseen_context_positive": false
+        },
+        "minimum_leave_one_folio_gain_bits": -2.2592421815989154,
+        "positive_folios": 0,
+        "unseen_context_events": 2467,
+        "unseen_context_gain_bits": -0.642484741103326
+      },
+      "world_id": "NULL_DIRECT_00"
+    },
+    {
+      "family": "NULL_DIRECT",
+      "index": 1,
+      "planted_k": null,
+      "selected_k_by_fold": [
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "selected_k_median": 8,
+      "summary": {
+        "currier_gain_bits": {
+          "A": -2.193413348758221,
+          "B": -2.233133923939018,
+          "BLANK": -2.0995622359204775
+        },
+        "decision": "FINAL_NONCONFIRMATION",
+        "dominant_policy_deleted_gain_bits": -2.2155402464600478,
+        "equal_folio_gain_bits": -2.205803148710545,
+        "event_count": 274469,
+        "folio_count": 102,
+        "folio_sign_p": 1.0,
+        "gates": {
+          "currier_A_B_at_least_0_010": false,
+          "dominant_policy_deleted_positive": false,
+          "every_leave_one_folio_positive": false,
+          "gain_at_least_0_020": false,
+          "sign_p_at_most_0_01": false,
+          "unseen_context_positive": false
+        },
+        "minimum_leave_one_folio_gain_bits": -2.2085005546255205,
+        "positive_folios": 0,
+        "unseen_context_events": 2713,
+        "unseen_context_gain_bits": -0.7420482114981851
+      },
+      "world_id": "NULL_DIRECT_01"
+    },
+    {
+      "family": "NULL_DIRECT",
+      "index": 2,
+      "planted_k": null,
+      "selected_k_by_fold": [
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "selected_k_median": 8,
+      "summary": {
+        "currier_gain_bits": {
+          "A": -2.0843971679156104,
+          "B": -2.1299176997189595,
+          "BLANK": -2.0343308470754
+        },
+        "decision": "FINAL_NONCONFIRMATION",
+        "dominant_policy_deleted_gain_bits": -2.1125300671208476,
+        "equal_folio_gain_bits": -2.095149665130437,
+        "event_count": 267696,
+        "folio_count": 102,
+        "folio_sign_p": 1.0,
+        "gates": {
+          "currier_A_B_at_least_0_010": false,
+          "dominant_policy_deleted_positive": false,
+          "every_leave_one_folio_positive": false,
+          "gain_at_least_0_020": false,
+          "sign_p_at_most_0_01": false,
+          "unseen_context_positive": false
+        },
+        "minimum_leave_one_folio_gain_bits": -2.098269564924062,
+        "positive_folios": 0,
+        "unseen_context_events": 2596,
+        "unseen_context_gain_bits": -0.5703106960573044
+      },
+      "world_id": "NULL_DIRECT_02"
+    },
+    {
+      "family": "NULL_DIRECT",
+      "index": 3,
+      "planted_k": null,
+      "selected_k_by_fold": [
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "selected_k_median": 8,
+      "summary": {
+        "currier_gain_bits": {
+          "A": -1.9672298814497429,
+          "B": -1.9949292582081835,
+          "BLANK": -1.8671378096397309
+        },
+        "decision": "FINAL_NONCONFIRMATION",
+        "dominant_policy_deleted_gain_bits": -1.9810698623072442,
+        "equal_folio_gain_bits": -1.9686198326993243,
+        "event_count": 273154,
+        "folio_count": 102,
+        "folio_sign_p": 1.0,
+        "gates": {
+          "currier_A_B_at_least_0_010": false,
+          "dominant_policy_deleted_positive": false,
+          "every_leave_one_folio_positive": false,
+          "gain_at_least_0_020": false,
+          "sign_p_at_most_0_01": false,
+          "unseen_context_positive": false
+        },
+        "minimum_leave_one_folio_gain_bits": -1.9711090701605238,
+        "positive_folios": 0,
+        "unseen_context_events": 2641,
+        "unseen_context_gain_bits": -0.5542509280223431
+      },
+      "world_id": "NULL_DIRECT_03"
+    },
+    {
+      "family": "NULL_DIRECT",
+      "index": 4,
+      "planted_k": null,
+      "selected_k_by_fold": [
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "selected_k_median": 8,
+      "summary": {
+        "currier_gain_bits": {
+          "A": -1.971005291054963,
+          "B": -2.0174246021660345,
+          "BLANK": -1.8603334450460791
+        },
+        "decision": "FINAL_NONCONFIRMATION",
+        "dominant_policy_deleted_gain_bits": -1.9969098296367171,
+        "equal_folio_gain_bits": -1.9812442788979017,
+        "event_count": 276072,
+        "folio_count": 102,
+        "folio_sign_p": 1.0,
+        "gates": {
+          "currier_A_B_at_least_0_010": false,
+          "dominant_policy_deleted_positive": false,
+          "every_leave_one_folio_positive": false,
+          "gain_at_least_0_020": false,
+          "sign_p_at_most_0_01": false,
+          "unseen_context_positive": false
+        },
+        "minimum_leave_one_folio_gain_bits": -1.9839594459158414,
+        "positive_folios": 0,
+        "unseen_context_events": 2648,
+        "unseen_context_gain_bits": -0.5839357191417187
+      },
+      "world_id": "NULL_DIRECT_04"
+    },
+    {
+      "family": "NULL_DIRECT",
+      "index": 5,
+      "planted_k": null,
+      "selected_k_by_fold": [
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "selected_k_median": 8,
+      "summary": {
+        "currier_gain_bits": {
+          "A": -2.282006057196216,
+          "B": -2.301508654168186,
+          "BLANK": -2.1296022243001236
+        },
+        "decision": "FINAL_NONCONFIRMATION",
+        "dominant_policy_deleted_gain_bits": -2.287901892775162,
+        "equal_folio_gain_bits": -2.278314730363691,
+        "event_count": 261935,
+        "folio_count": 102,
+        "folio_sign_p": 1.0,
+        "gates": {
+          "currier_A_B_at_least_0_010": false,
+          "dominant_policy_deleted_positive": false,
+          "every_leave_one_folio_positive": false,
+          "gain_at_least_0_020": false,
+          "sign_p_at_most_0_01": false,
+          "unseen_context_positive": false
+        },
+        "minimum_leave_one_folio_gain_bits": -2.2806515467045205,
+        "positive_folios": 0,
+        "unseen_context_events": 2618,
+        "unseen_context_gain_bits": -0.5917833861650444
+      },
+      "world_id": "NULL_DIRECT_05"
+    },
+    {
+      "family": "NULL_DIRECT",
+      "index": 6,
+      "planted_k": null,
+      "selected_k_by_fold": [
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "selected_k_median": 8,
+      "summary": {
+        "currier_gain_bits": {
+          "A": -2.2154820192440385,
+          "B": -2.2061859865586158,
+          "BLANK": -2.105110299365608
+        },
+        "decision": "FINAL_NONCONFIRMATION",
+        "dominant_policy_deleted_gain_bits": -2.2040565046499827,
+        "equal_folio_gain_bits": -2.202125353058592,
+        "event_count": 263569,
+        "folio_count": 102,
+        "folio_sign_p": 1.0,
+        "gates": {
+          "currier_A_B_at_least_0_010": false,
+          "dominant_policy_deleted_positive": false,
+          "every_leave_one_folio_positive": false,
+          "gain_at_least_0_020": false,
+          "sign_p_at_most_0_01": false,
+          "unseen_context_positive": false
+        },
+        "minimum_leave_one_folio_gain_bits": -2.2041720739198496,
+        "positive_folios": 0,
+        "unseen_context_events": 2597,
+        "unseen_context_gain_bits": -0.5476646337628291
+      },
+      "world_id": "NULL_DIRECT_06"
+    },
+    {
+      "family": "NULL_DIRECT",
+      "index": 7,
+      "planted_k": null,
+      "selected_k_by_fold": [
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "selected_k_median": 8,
+      "summary": {
+        "currier_gain_bits": {
+          "A": -2.1250043720459435,
+          "B": -2.1682681720136103,
+          "BLANK": -2.024595820389919
+        },
+        "decision": "FINAL_NONCONFIRMATION",
+        "dominant_policy_deleted_gain_bits": -2.1492347295814267,
+        "equal_folio_gain_bits": -2.1321943682213553,
+        "event_count": 282057,
+        "folio_count": 102,
+        "folio_sign_p": 1.0,
+        "gates": {
+          "currier_A_B_at_least_0_010": false,
+          "dominant_policy_deleted_positive": false,
+          "every_leave_one_folio_positive": false,
+          "gain_at_least_0_020": false,
+          "sign_p_at_most_0_01": false,
+          "unseen_context_positive": false
+        },
+        "minimum_leave_one_folio_gain_bits": -2.134129088119129,
+        "positive_folios": 0,
+        "unseen_context_events": 2728,
+        "unseen_context_gain_bits": -0.6856836504686276
+      },
+      "world_id": "NULL_DIRECT_07"
+    },
+    {
+      "family": "NULL_DIRECT",
+      "index": 8,
+      "planted_k": null,
+      "selected_k_by_fold": [
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "selected_k_median": 8,
+      "summary": {
+        "currier_gain_bits": {
+          "A": -2.197233238891109,
+          "B": -2.2481095878316273,
+          "BLANK": -2.1523722685142745
+        },
+        "decision": "FINAL_NONCONFIRMATION",
+        "dominant_policy_deleted_gain_bits": -2.229216147100157,
+        "equal_folio_gain_bits": -2.2153586895262163,
+        "event_count": 280079,
+        "folio_count": 102,
+        "folio_sign_p": 1.0,
+        "gates": {
+          "currier_A_B_at_least_0_010": false,
+          "dominant_policy_deleted_positive": false,
+          "every_leave_one_folio_positive": false,
+          "gain_at_least_0_020": false,
+          "sign_p_at_most_0_01": false,
+          "unseen_context_positive": false
+        },
+        "minimum_leave_one_folio_gain_bits": -2.2174336454140775,
+        "positive_folios": 0,
+        "unseen_context_events": 2702,
+        "unseen_context_gain_bits": -0.5026333714251511
+      },
+      "world_id": "NULL_DIRECT_08"
+    },
+    {
+      "family": "NULL_DIRECT",
+      "index": 9,
+      "planted_k": null,
+      "selected_k_by_fold": [
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "selected_k_median": 8,
+      "summary": {
+        "currier_gain_bits": {
+          "A": -2.1652348603979124,
+          "B": -2.1978425941238746,
+          "BLANK": -2.057529684331494
+        },
+        "decision": "FINAL_NONCONFIRMATION",
+        "dominant_policy_deleted_gain_bits": -2.1820147790144624,
+        "equal_folio_gain_bits": -2.173314338952429,
+        "event_count": 273253,
+        "folio_count": 102,
+        "folio_sign_p": 1.0,
+        "gates": {
+          "currier_A_B_at_least_0_010": false,
+          "dominant_policy_deleted_positive": false,
+          "every_leave_one_folio_positive": false,
+          "gain_at_least_0_020": false,
+          "sign_p_at_most_0_01": false,
+          "unseen_context_positive": false
+        },
+        "minimum_leave_one_folio_gain_bits": -2.1757225844691477,
+        "positive_folios": 0,
+        "unseen_context_events": 2691,
+        "unseen_context_gain_bits": -0.5068366968034457
+      },
+      "world_id": "NULL_DIRECT_09"
+    },
+    {
+      "family": "NULL_DIRECT",
+      "index": 10,
+      "planted_k": null,
+      "selected_k_by_fold": [
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "selected_k_median": 8,
+      "summary": {
+        "currier_gain_bits": {
+          "A": -2.2897893502194187,
+          "B": -2.3020077207774685,
+          "BLANK": -2.2101710325594626
+        },
+        "decision": "FINAL_NONCONFIRMATION",
+        "dominant_policy_deleted_gain_bits": -2.2941943854766884,
+        "equal_folio_gain_bits": -2.2919915045727812,
+        "event_count": 273751,
+        "folio_count": 102,
+        "folio_sign_p": 1.0,
+        "gates": {
+          "currier_A_B_at_least_0_010": false,
+          "dominant_policy_deleted_positive": false,
+          "every_leave_one_folio_positive": false,
+          "gain_at_least_0_020": false,
+          "sign_p_at_most_0_01": false,
+          "unseen_context_positive": false
+        },
+        "minimum_leave_one_folio_gain_bits": -2.29393611310869,
+        "positive_folios": 0,
+        "unseen_context_events": 2807,
+        "unseen_context_gain_bits": -0.5795980343943427
+      },
+      "world_id": "NULL_DIRECT_10"
+    },
+    {
+      "family": "NULL_DIRECT",
+      "index": 11,
+      "planted_k": null,
+      "selected_k_by_fold": [
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "selected_k_median": 8,
+      "summary": {
+        "currier_gain_bits": {
+          "A": -2.1361723120807996,
+          "B": -2.1437306399381004,
+          "BLANK": -2.028237643781868
+        },
+        "decision": "FINAL_NONCONFIRMATION",
+        "dominant_policy_deleted_gain_bits": -2.1361673111592325,
+        "equal_folio_gain_bits": -2.1353706207177554,
+        "event_count": 267988,
+        "folio_count": 102,
+        "folio_sign_p": 1.0,
+        "gates": {
+          "currier_A_B_at_least_0_010": false,
+          "dominant_policy_deleted_positive": false,
+          "every_leave_one_folio_positive": false,
+          "gain_at_least_0_020": false,
+          "sign_p_at_most_0_01": false,
+          "unseen_context_positive": false
+        },
+        "minimum_leave_one_folio_gain_bits": -2.137170636027838,
+        "positive_folios": 0,
+        "unseen_context_events": 2649,
+        "unseen_context_gain_bits": -0.6338573162271717
+      },
+      "world_id": "NULL_DIRECT_11"
+    },
+    {
+      "family": "NULL_DIRECT",
+      "index": 12,
+      "planted_k": null,
+      "selected_k_by_fold": [
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "selected_k_median": 8,
+      "summary": {
+        "currier_gain_bits": {
+          "A": -2.111608019918152,
+          "B": -2.166354633998641,
+          "BLANK": -2.011043113260446
+        },
+        "decision": "FINAL_NONCONFIRMATION",
+        "dominant_policy_deleted_gain_bits": -2.1435977404697053,
+        "equal_folio_gain_bits": -2.125762869872211,
+        "event_count": 268136,
+        "folio_count": 102,
+        "folio_sign_p": 1.0,
+        "gates": {
+          "currier_A_B_at_least_0_010": false,
+          "dominant_policy_deleted_positive": false,
+          "every_leave_one_folio_positive": false,
+          "gain_at_least_0_020": false,
+          "sign_p_at_most_0_01": false,
+          "unseen_context_positive": false
+        },
+        "minimum_leave_one_folio_gain_bits": -2.127561549324743,
+        "positive_folios": 0,
+        "unseen_context_events": 2718,
+        "unseen_context_gain_bits": -0.6168021231246648
+      },
+      "world_id": "NULL_DIRECT_12"
+    },
+    {
+      "family": "NULL_DIRECT",
+      "index": 13,
+      "planted_k": null,
+      "selected_k_by_fold": [
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "selected_k_median": 8,
+      "summary": {
+        "currier_gain_bits": {
+          "A": -2.01175105379021,
+          "B": -2.0427953318089433,
+          "BLANK": -1.860707167026278
+        },
+        "decision": "FINAL_NONCONFIRMATION",
+        "dominant_policy_deleted_gain_bits": -2.0253678852343056,
+        "equal_folio_gain_bits": -2.0130013441844463,
+        "event_count": 268687,
+        "folio_count": 102,
+        "folio_sign_p": 1.0,
+        "gates": {
+          "currier_A_B_at_least_0_010": false,
+          "dominant_policy_deleted_positive": false,
+          "every_leave_one_folio_positive": false,
+          "gain_at_least_0_020": false,
+          "sign_p_at_most_0_01": false,
+          "unseen_context_positive": false
+        },
+        "minimum_leave_one_folio_gain_bits": -2.015913579987655,
+        "positive_folios": 0,
+        "unseen_context_events": 2684,
+        "unseen_context_gain_bits": -0.6545966932633611
+      },
+      "world_id": "NULL_DIRECT_13"
+    },
+    {
+      "family": "NULL_DIRECT",
+      "index": 14,
+      "planted_k": null,
+      "selected_k_by_fold": [
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "selected_k_median": 8,
+      "summary": {
+        "currier_gain_bits": {
+          "A": -2.1355469762582184,
+          "B": -2.1572534055666344,
+          "BLANK": -2.031669820750236
+        },
+        "decision": "FINAL_NONCONFIRMATION",
+        "dominant_policy_deleted_gain_bits": -2.145124988236403,
+        "equal_folio_gain_bits": -2.134874405486792,
+        "event_count": 266253,
+        "folio_count": 102,
+        "folio_sign_p": 1.0,
+        "gates": {
+          "currier_A_B_at_least_0_010": false,
+          "dominant_policy_deleted_positive": false,
+          "every_leave_one_folio_positive": false,
+          "gain_at_least_0_020": false,
+          "sign_p_at_most_0_01": false,
+          "unseen_context_positive": false
+        },
+        "minimum_leave_one_folio_gain_bits": -2.137111343016863,
+        "positive_folios": 0,
+        "unseen_context_events": 2666,
+        "unseen_context_gain_bits": -0.5529540784025616
+      },
+      "world_id": "NULL_DIRECT_14"
+    },
+    {
+      "family": "NULL_DIRECT",
+      "index": 15,
+      "planted_k": null,
+      "selected_k_by_fold": [
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "selected_k_median": 8,
+      "summary": {
+        "currier_gain_bits": {
+          "A": -2.184638542472098,
+          "B": -2.224656719978402,
+          "BLANK": -2.0581847595280642
+        },
+        "decision": "FINAL_NONCONFIRMATION",
+        "dominant_policy_deleted_gain_bits": -2.2054766432701403,
+        "equal_folio_gain_bits": -2.192136710993889,
+        "event_count": 269034,
+        "folio_count": 102,
+        "folio_sign_p": 1.0,
+        "gates": {
+          "currier_A_B_at_least_0_010": false,
+          "dominant_policy_deleted_positive": false,
+          "every_leave_one_folio_positive": false,
+          "gain_at_least_0_020": false,
+          "sign_p_at_most_0_01": false,
+          "unseen_context_positive": false
+        },
+        "minimum_leave_one_folio_gain_bits": -2.1952458362601632,
+        "positive_folios": 0,
+        "unseen_context_events": 2662,
+        "unseen_context_gain_bits": -0.7062332412989649
+      },
+      "world_id": "NULL_DIRECT_15"
+    },
+    {
+      "family": "SHARED_CHANNEL",
+      "index": 0,
+      "planted_k": 2,
+      "selected_k_by_fold": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "selected_k_median": 2,
+      "summary": {
+        "currier_gain_bits": {
+          "A": 0.1209717974319225,
+          "B": 0.11715220206802515,
+          "BLANK": 0.1094823968352288
+        },
+        "decision": "PASS_REUSABLE_LATENT_CHANNEL",
+        "dominant_policy_deleted_gain_bits": 0.11786837635622716,
+        "equal_folio_gain_bits": 0.1205934875877618,
+        "event_count": 245956,
+        "folio_count": 102,
+        "folio_sign_p": 1.9721522630525295e-31,
+        "gates": {
+          "currier_A_B_at_least_0_010": true,
+          "dominant_policy_deleted_positive": true,
+          "every_leave_one_folio_positive": true,
+          "gain_at_least_0_020": true,
+          "sign_p_at_most_0_01": true,
+          "unseen_context_positive": true
+        },
+        "minimum_leave_one_folio_gain_bits": 0.1193017454988373,
+        "positive_folios": 102,
+        "unseen_context_events": 3311,
+        "unseen_context_gain_bits": 0.4869753856507532
+      },
+      "world_id": "SHARED_CHANNEL_00"
+    },
+    {
+      "family": "SHARED_CHANNEL",
+      "index": 1,
+      "planted_k": 3,
+      "selected_k_by_fold": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "selected_k_median": 3,
+      "summary": {
+        "currier_gain_bits": {
+          "A": 0.12587095373112214,
+          "B": 0.13117295681423555,
+          "BLANK": 0.12480618132007144
+        },
+        "decision": "PASS_REUSABLE_LATENT_CHANNEL",
+        "dominant_policy_deleted_gain_bits": 0.12937492717699536,
+        "equal_folio_gain_bits": 0.1288150872516803,
+        "event_count": 279101,
+        "folio_count": 102,
+        "folio_sign_p": 1.9721522630525295e-31,
+        "gates": {
+          "currier_A_B_at_least_0_010": true,
+          "dominant_policy_deleted_positive": true,
+          "every_leave_one_folio_positive": true,
+          "gain_at_least_0_020": true,
+          "sign_p_at_most_0_01": true,
+          "unseen_context_positive": true
+        },
+        "minimum_leave_one_folio_gain_bits": 0.12822940305677133,
+        "positive_folios": 102,
+        "unseen_context_events": 3783,
+        "unseen_context_gain_bits": 0.5752343773430184
+      },
+      "world_id": "SHARED_CHANNEL_01"
+    },
+    {
+      "family": "SHARED_CHANNEL",
+      "index": 2,
+      "planted_k": 4,
+      "selected_k_by_fold": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "selected_k_median": 4,
+      "summary": {
+        "currier_gain_bits": {
+          "A": 0.13939010915893502,
+          "B": 0.14180944026732936,
+          "BLANK": 0.13175204625106327
+        },
+        "decision": "PASS_REUSABLE_LATENT_CHANNEL",
+        "dominant_policy_deleted_gain_bits": 0.14065054027394627,
+        "equal_folio_gain_bits": 0.13856484582756654,
+        "event_count": 277740,
+        "folio_count": 102,
+        "folio_sign_p": 1.9721522630525295e-31,
+        "gates": {
+          "currier_A_B_at_least_0_010": true,
+          "dominant_policy_deleted_positive": true,
+          "every_leave_one_folio_positive": true,
+          "gain_at_least_0_020": true,
+          "sign_p_at_most_0_01": true,
+          "unseen_context_positive": true
+        },
+        "minimum_leave_one_folio_gain_bits": 0.13775501816329533,
+        "positive_folios": 102,
+        "unseen_context_events": 3699,
+        "unseen_context_gain_bits": 0.7298175520402567
+      },
+      "world_id": "SHARED_CHANNEL_02"
+    },
+    {
+      "family": "SHARED_CHANNEL",
+      "index": 3,
+      "planted_k": 5,
+      "selected_k_by_fold": [
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "selected_k_median": 6,
+      "summary": {
+        "currier_gain_bits": {
+          "A": 0.14011910631881533,
+          "B": 0.14957436400466603,
+          "BLANK": 0.15334372502966093
+        },
+        "decision": "PASS_REUSABLE_LATENT_CHANNEL",
+        "dominant_policy_deleted_gain_bits": 0.1470808321124808,
+        "equal_folio_gain_bits": 0.14593848865699416,
+        "event_count": 276087,
+        "folio_count": 102,
+        "folio_sign_p": 1.9721522630525295e-31,
+        "gates": {
+          "currier_A_B_at_least_0_010": true,
+          "dominant_policy_deleted_positive": true,
+          "every_leave_one_folio_positive": true,
+          "gain_at_least_0_020": true,
+          "sign_p_at_most_0_01": true,
+          "unseen_context_positive": true
+        },
+        "minimum_leave_one_folio_gain_bits": 0.1447894366100423,
+        "positive_folios": 102,
+        "unseen_context_events": 3775,
+        "unseen_context_gain_bits": 0.8698953868831822
+      },
+      "world_id": "SHARED_CHANNEL_03"
+    },
+    {
+      "family": "SHARED_CHANNEL",
+      "index": 4,
+      "planted_k": 6,
+      "selected_k_by_fold": [
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "selected_k_median": 6,
+      "summary": {
+        "currier_gain_bits": {
+          "A": 0.15641055486993183,
+          "B": 0.15146958805406105,
+          "BLANK": 0.14170592322801626
+        },
+        "decision": "PASS_REUSABLE_LATENT_CHANNEL",
+        "dominant_policy_deleted_gain_bits": 0.15240325972249835,
+        "equal_folio_gain_bits": 0.15320871709288464,
+        "event_count": 277761,
+        "folio_count": 102,
+        "folio_sign_p": 1.9721522630525295e-31,
+        "gates": {
+          "currier_A_B_at_least_0_010": true,
+          "dominant_policy_deleted_positive": true,
+          "every_leave_one_folio_positive": true,
+          "gain_at_least_0_020": true,
+          "sign_p_at_most_0_01": true,
+          "unseen_context_positive": true
+        },
+        "minimum_leave_one_folio_gain_bits": 0.15222129930923747,
+        "positive_folios": 102,
+        "unseen_context_events": 3888,
+        "unseen_context_gain_bits": 0.9486102603041747
+      },
+      "world_id": "SHARED_CHANNEL_04"
+    },
+    {
+      "family": "SHARED_CHANNEL",
+      "index": 5,
+      "planted_k": 2,
+      "selected_k_by_fold": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "selected_k_median": 2,
+      "summary": {
+        "currier_gain_bits": {
+          "A": 0.10889529183112646,
+          "B": 0.1108853677490675,
+          "BLANK": 0.10440852977660132
+        },
+        "decision": "PASS_REUSABLE_LATENT_CHANNEL",
+        "dominant_policy_deleted_gain_bits": 0.11001714454182493,
+        "equal_folio_gain_bits": 0.111542542336928,
+        "event_count": 280688,
+        "folio_count": 102,
+        "folio_sign_p": 1.9721522630525295e-31,
+        "gates": {
+          "currier_A_B_at_least_0_010": true,
+          "dominant_policy_deleted_positive": true,
+          "every_leave_one_folio_positive": true,
+          "gain_at_least_0_020": true,
+          "sign_p_at_most_0_01": true,
+          "unseen_context_positive": true
+        },
+        "minimum_leave_one_folio_gain_bits": 0.11057391709254158,
+        "positive_folios": 102,
+        "unseen_context_events": 3463,
+        "unseen_context_gain_bits": 0.4925210644828482
+      },
+      "world_id": "SHARED_CHANNEL_05"
+    },
+    {
+      "family": "SHARED_CHANNEL",
+      "index": 6,
+      "planted_k": 3,
+      "selected_k_by_fold": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "selected_k_median": 3,
+      "summary": {
+        "currier_gain_bits": {
+          "A": 0.12431514670232816,
+          "B": 0.12467061402735846,
+          "BLANK": 0.11755222444256787
+        },
+        "decision": "PASS_REUSABLE_LATENT_CHANNEL",
+        "dominant_policy_deleted_gain_bits": 0.12423405178675712,
+        "equal_folio_gain_bits": 0.12456843685223794,
+        "event_count": 280601,
+        "folio_count": 102,
+        "folio_sign_p": 1.9721522630525295e-31,
+        "gates": {
+          "currier_A_B_at_least_0_010": true,
+          "dominant_policy_deleted_positive": true,
+          "every_leave_one_folio_positive": true,
+          "gain_at_least_0_020": true,
+          "sign_p_at_most_0_01": true,
+          "unseen_context_positive": true
+        },
+        "minimum_leave_one_folio_gain_bits": 0.12365454256914479,
+        "positive_folios": 102,
+        "unseen_context_events": 3725,
+        "unseen_context_gain_bits": 0.6785604330907796
+      },
+      "world_id": "SHARED_CHANNEL_06"
+    },
+    {
+      "family": "SHARED_CHANNEL",
+      "index": 7,
+      "planted_k": 4,
+      "selected_k_by_fold": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "selected_k_median": 4,
+      "summary": {
+        "currier_gain_bits": {
+          "A": 0.1362690769660153,
+          "B": 0.13984217529342344,
+          "BLANK": 0.13209735538903883
+        },
+        "decision": "PASS_REUSABLE_LATENT_CHANNEL",
+        "dominant_policy_deleted_gain_bits": 0.13846740054573334,
+        "equal_folio_gain_bits": 0.1371179143148539,
+        "event_count": 280789,
+        "folio_count": 102,
+        "folio_sign_p": 1.9721522630525295e-31,
+        "gates": {
+          "currier_A_B_at_least_0_010": true,
+          "dominant_policy_deleted_positive": true,
+          "every_leave_one_folio_positive": true,
+          "gain_at_least_0_020": true,
+          "sign_p_at_most_0_01": true,
+          "unseen_context_positive": true
+        },
+        "minimum_leave_one_folio_gain_bits": 0.13646265206492048,
+        "positive_folios": 102,
+        "unseen_context_events": 3808,
+        "unseen_context_gain_bits": 0.7743272361850283
+      },
+      "world_id": "SHARED_CHANNEL_07"
+    },
+    {
+      "family": "SHARED_CHANNEL",
+      "index": 8,
+      "planted_k": 5,
+      "selected_k_by_fold": [
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "selected_k_median": 6,
+      "summary": {
+        "currier_gain_bits": {
+          "A": 0.16881975494029025,
+          "B": 0.1671517932114878,
+          "BLANK": 0.13730022015422713
+        },
+        "decision": "PASS_REUSABLE_LATENT_CHANNEL",
+        "dominant_policy_deleted_gain_bits": 0.1662104844846509,
+        "equal_folio_gain_bits": 0.16647414014037723,
+        "event_count": 257580,
+        "folio_count": 102,
+        "folio_sign_p": 1.9721522630525295e-31,
+        "gates": {
+          "currier_A_B_at_least_0_010": true,
+          "dominant_policy_deleted_positive": true,
+          "every_leave_one_folio_positive": true,
+          "gain_at_least_0_020": true,
+          "sign_p_at_most_0_01": true,
+          "unseen_context_positive": true
+        },
+        "minimum_leave_one_folio_gain_bits": 0.16554584305868203,
+        "positive_folios": 102,
+        "unseen_context_events": 3813,
+        "unseen_context_gain_bits": 0.7853344267389362
+      },
+      "world_id": "SHARED_CHANNEL_08"
+    },
+    {
+      "family": "SHARED_CHANNEL",
+      "index": 9,
+      "planted_k": 6,
+      "selected_k_by_fold": [
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "selected_k_median": 6,
+      "summary": {
+        "currier_gain_bits": {
+          "A": 0.16727726929008105,
+          "B": 0.16946129280271785,
+          "BLANK": 0.13747334168080397
+        },
+        "decision": "PASS_REUSABLE_LATENT_CHANNEL",
+        "dominant_policy_deleted_gain_bits": 0.16734246243315348,
+        "equal_folio_gain_bits": 0.1678925170588669,
+        "event_count": 264025,
+        "folio_count": 102,
+        "folio_sign_p": 1.9721522630525295e-31,
+        "gates": {
+          "currier_A_B_at_least_0_010": true,
+          "dominant_policy_deleted_positive": true,
+          "every_leave_one_folio_positive": true,
+          "gain_at_least_0_020": true,
+          "sign_p_at_most_0_01": true,
+          "unseen_context_positive": true
+        },
+        "minimum_leave_one_folio_gain_bits": 0.16638188405870213,
+        "positive_folios": 102,
+        "unseen_context_events": 4013,
+        "unseen_context_gain_bits": 1.0176363346647859
+      },
+      "world_id": "SHARED_CHANNEL_09"
+    },
+    {
+      "family": "SHARED_CHANNEL",
+      "index": 10,
+      "planted_k": 2,
+      "selected_k_by_fold": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "selected_k_median": 2,
+      "summary": {
+        "currier_gain_bits": {
+          "A": 0.11051215740360623,
+          "B": 0.1093218359928488,
+          "BLANK": 0.0961525495399446
+        },
+        "decision": "PASS_REUSABLE_LATENT_CHANNEL",
+        "dominant_policy_deleted_gain_bits": 0.1090347656640795,
+        "equal_folio_gain_bits": 0.1097130810464086,
+        "event_count": 277777,
+        "folio_count": 102,
+        "folio_sign_p": 1.9721522630525295e-31,
+        "gates": {
+          "currier_A_B_at_least_0_010": true,
+          "dominant_policy_deleted_positive": true,
+          "every_leave_one_folio_positive": true,
+          "gain_at_least_0_020": true,
+          "sign_p_at_most_0_01": true,
+          "unseen_context_positive": true
+        },
+        "minimum_leave_one_folio_gain_bits": 0.10903074833016423,
+        "positive_folios": 102,
+        "unseen_context_events": 3422,
+        "unseen_context_gain_bits": 0.41481364460629677
+      },
+      "world_id": "SHARED_CHANNEL_10"
+    },
+    {
+      "family": "SHARED_CHANNEL",
+      "index": 11,
+      "planted_k": 3,
+      "selected_k_by_fold": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "selected_k_median": 3,
+      "summary": {
+        "currier_gain_bits": {
+          "A": 0.1304188849534466,
+          "B": 0.1315869313585865,
+          "BLANK": 0.1245330814716426
+        },
+        "decision": "PASS_REUSABLE_LATENT_CHANNEL",
+        "dominant_policy_deleted_gain_bits": 0.1309234927910564,
+        "equal_folio_gain_bits": 0.13099593884617655,
+        "event_count": 276891,
+        "folio_count": 102,
+        "folio_sign_p": 1.9721522630525295e-31,
+        "gates": {
+          "currier_A_B_at_least_0_010": true,
+          "dominant_policy_deleted_positive": true,
+          "every_leave_one_folio_positive": true,
+          "gain_at_least_0_020": true,
+          "sign_p_at_most_0_01": true,
+          "unseen_context_positive": true
+        },
+        "minimum_leave_one_folio_gain_bits": 0.13002536896138844,
+        "positive_folios": 102,
+        "unseen_context_events": 3728,
+        "unseen_context_gain_bits": 0.5925596220311053
+      },
+      "world_id": "SHARED_CHANNEL_11"
+    },
+    {
+      "family": "SHARED_CHANNEL",
+      "index": 12,
+      "planted_k": 4,
+      "selected_k_by_fold": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "selected_k_median": 4,
+      "summary": {
+        "currier_gain_bits": {
+          "A": 0.14417090242643285,
+          "B": 0.14053601888753003,
+          "BLANK": 0.12799286442278376
+        },
+        "decision": "PASS_REUSABLE_LATENT_CHANNEL",
+        "dominant_policy_deleted_gain_bits": 0.14096927652021768,
+        "equal_folio_gain_bits": 0.14069524932671976,
+        "event_count": 279277,
+        "folio_count": 102,
+        "folio_sign_p": 1.9721522630525295e-31,
+        "gates": {
+          "currier_A_B_at_least_0_010": true,
+          "dominant_policy_deleted_positive": true,
+          "every_leave_one_folio_positive": true,
+          "gain_at_least_0_020": true,
+          "sign_p_at_most_0_01": true,
+          "unseen_context_positive": true
+        },
+        "minimum_leave_one_folio_gain_bits": 0.13999840960472248,
+        "positive_folios": 102,
+        "unseen_context_events": 3575,
+        "unseen_context_gain_bits": 0.6715322157602802
+      },
+      "world_id": "SHARED_CHANNEL_12"
+    },
+    {
+      "family": "SHARED_CHANNEL",
+      "index": 13,
+      "planted_k": 5,
+      "selected_k_by_fold": [
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "selected_k_median": 6,
+      "summary": {
+        "currier_gain_bits": {
+          "A": 0.14667610289014113,
+          "B": 0.1558850543698173,
+          "BLANK": 0.14022676832761022
+        },
+        "decision": "PASS_REUSABLE_LATENT_CHANNEL",
+        "dominant_policy_deleted_gain_bits": 0.15254143055570132,
+        "equal_folio_gain_bits": 0.15122875182075227,
+        "event_count": 264516,
+        "folio_count": 102,
+        "folio_sign_p": 1.9721522630525295e-31,
+        "gates": {
+          "currier_A_B_at_least_0_010": true,
+          "dominant_policy_deleted_positive": true,
+          "every_leave_one_folio_positive": true,
+          "gain_at_least_0_020": true,
+          "sign_p_at_most_0_01": true,
+          "unseen_context_positive": true
+        },
+        "minimum_leave_one_folio_gain_bits": 0.15008768535380487,
+        "positive_folios": 102,
+        "unseen_context_events": 3836,
+        "unseen_context_gain_bits": 0.7901956086051974
+      },
+      "world_id": "SHARED_CHANNEL_13"
+    },
+    {
+      "family": "SHARED_CHANNEL",
+      "index": 14,
+      "planted_k": 6,
+      "selected_k_by_fold": [
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "selected_k_median": 6,
+      "summary": {
+        "currier_gain_bits": {
+          "A": 0.16322911492477504,
+          "B": 0.1589093137535928,
+          "BLANK": 0.13796713371474856
+        },
+        "decision": "PASS_REUSABLE_LATENT_CHANNEL",
+        "dominant_policy_deleted_gain_bits": 0.15913435652843486,
+        "equal_folio_gain_bits": 0.1628505999770494,
+        "event_count": 274170,
+        "folio_count": 102,
+        "folio_sign_p": 1.9721522630525295e-31,
+        "gates": {
+          "currier_A_B_at_least_0_010": true,
+          "dominant_policy_deleted_positive": true,
+          "every_leave_one_folio_positive": true,
+          "gain_at_least_0_020": true,
+          "sign_p_at_most_0_01": true,
+          "unseen_context_positive": true
+        },
+        "minimum_leave_one_folio_gain_bits": 0.16173333874758902,
+        "positive_folios": 102,
+        "unseen_context_events": 3936,
+        "unseen_context_gain_bits": 0.9633596594453282
+      },
+      "world_id": "SHARED_CHANNEL_14"
+    },
+    {
+      "family": "SHARED_CHANNEL",
+      "index": 15,
+      "planted_k": 2,
+      "selected_k_by_fold": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "selected_k_median": 2,
+      "summary": {
+        "currier_gain_bits": {
+          "A": 0.1249600967060292,
+          "B": 0.12297999785982708,
+          "BLANK": 0.11594671014910742
+        },
+        "decision": "PASS_REUSABLE_LATENT_CHANNEL",
+        "dominant_policy_deleted_gain_bits": 0.12320588750327417,
+        "equal_folio_gain_bits": 0.1242687388724522,
+        "event_count": 251666,
+        "folio_count": 102,
+        "folio_sign_p": 1.9721522630525295e-31,
+        "gates": {
+          "currier_A_B_at_least_0_010": true,
+          "dominant_policy_deleted_positive": true,
+          "every_leave_one_folio_positive": true,
+          "gain_at_least_0_020": true,
+          "sign_p_at_most_0_01": true,
+          "unseen_context_positive": true
+        },
+        "minimum_leave_one_folio_gain_bits": 0.12271941088172084,
+        "positive_folios": 102,
+        "unseen_context_events": 3180,
+        "unseen_context_gain_bits": 0.47377854253204166
+      },
+      "world_id": "SHARED_CHANNEL_15"
+    },
+    {
+      "family": "ONE_FOLIO_CHANNEL",
+      "index": 0,
+      "planted_k": null,
+      "selected_k_by_fold": [
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "selected_k_median": 8,
+      "summary": {
+        "currier_gain_bits": {
+          "A": -2.162257802689681,
+          "B": -2.240431002272046,
+          "BLANK": -2.1214847887089086
+        },
+        "decision": "FINAL_NONCONFIRMATION",
+        "dominant_policy_deleted_gain_bits": -2.2127375610974775,
+        "equal_folio_gain_bits": -2.1957225023601263,
+        "event_count": 269665,
+        "folio_count": 102,
+        "folio_sign_p": 1.0,
+        "gates": {
+          "currier_A_B_at_least_0_010": false,
+          "dominant_policy_deleted_positive": false,
+          "every_leave_one_folio_positive": false,
+          "gain_at_least_0_020": false,
+          "sign_p_at_most_0_01": false,
+          "unseen_context_positive": false
+        },
+        "minimum_leave_one_folio_gain_bits": -2.216140908594325,
+        "positive_folios": 0,
+        "unseen_context_events": 3251,
+        "unseen_context_gain_bits": -0.35124392280819633
+      },
+      "world_id": "ONE_FOLIO_CHANNEL_00"
+    },
+    {
+      "family": "ONE_FOLIO_CHANNEL",
+      "index": 1,
+      "planted_k": null,
+      "selected_k_by_fold": [
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "selected_k_median": 8,
+      "summary": {
+        "currier_gain_bits": {
+          "A": -2.2427302281056627,
+          "B": -2.28721449068682,
+          "BLANK": -2.179329998144355
+        },
+        "decision": "FINAL_NONCONFIRMATION",
+        "dominant_policy_deleted_gain_bits": -2.2695031860034574,
+        "equal_folio_gain_bits": -2.254902940851926,
+        "event_count": 275927,
+        "folio_count": 102,
+        "folio_sign_p": 1.0,
+        "gates": {
+          "currier_A_B_at_least_0_010": false,
+          "dominant_policy_deleted_positive": false,
+          "every_leave_one_folio_positive": false,
+          "gain_at_least_0_020": false,
+          "sign_p_at_most_0_01": false,
+          "unseen_context_positive": false
+        },
+        "minimum_leave_one_folio_gain_bits": -2.279410663087656,
+        "positive_folios": 1,
+        "unseen_context_events": 3365,
+        "unseen_context_gain_bits": -0.10679657289010924
+      },
+      "world_id": "ONE_FOLIO_CHANNEL_01"
+    },
+    {
+      "family": "ONE_FOLIO_CHANNEL",
+      "index": 2,
+      "planted_k": null,
+      "selected_k_by_fold": [
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "selected_k_median": 8,
+      "summary": {
+        "currier_gain_bits": {
+          "A": -2.115002465319587,
+          "B": -2.1965567180162244,
+          "BLANK": -2.050144308424524
+        },
+        "decision": "FINAL_NONCONFIRMATION",
+        "dominant_policy_deleted_gain_bits": -2.1665729132983715,
+        "equal_folio_gain_bits": -2.1428381868575266,
+        "event_count": 277883,
+        "folio_count": 102,
+        "folio_sign_p": 1.0,
+        "gates": {
+          "currier_A_B_at_least_0_010": false,
+          "dominant_policy_deleted_positive": false,
+          "every_leave_one_folio_positive": false,
+          "gain_at_least_0_020": false,
+          "sign_p_at_most_0_01": false,
+          "unseen_context_positive": false
+        },
+        "minimum_leave_one_folio_gain_bits": -2.16121811997571,
+        "positive_folios": 0,
+        "unseen_context_events": 3348,
+        "unseen_context_gain_bits": -0.427657780533568
+      },
+      "world_id": "ONE_FOLIO_CHANNEL_02"
+    },
+    {
+      "family": "ONE_FOLIO_CHANNEL",
+      "index": 3,
+      "planted_k": null,
+      "selected_k_by_fold": [
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "selected_k_median": 8,
+      "summary": {
+        "currier_gain_bits": {
+          "A": -2.1096699746518275,
+          "B": -2.1694122153783435,
+          "BLANK": -2.0699421588003837
+        },
+        "decision": "FINAL_NONCONFIRMATION",
+        "dominant_policy_deleted_gain_bits": -2.1478689975392,
+        "equal_folio_gain_bits": -2.12643948756299,
+        "event_count": 280110,
+        "folio_count": 102,
+        "folio_sign_p": 1.0,
+        "gates": {
+          "currier_A_B_at_least_0_010": false,
+          "dominant_policy_deleted_positive": false,
+          "every_leave_one_folio_positive": false,
+          "gain_at_least_0_020": false,
+          "sign_p_at_most_0_01": false,
+          "unseen_context_positive": false
+        },
+        "minimum_leave_one_folio_gain_bits": -2.14300370068698,
+        "positive_folios": 0,
+        "unseen_context_events": 2704,
+        "unseen_context_gain_bits": -0.5045664849147443
+      },
+      "world_id": "ONE_FOLIO_CHANNEL_03"
+    },
+    {
+      "family": "ONE_FOLIO_CHANNEL",
+      "index": 4,
+      "planted_k": null,
+      "selected_k_by_fold": [
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "selected_k_median": 8,
+      "summary": {
+        "currier_gain_bits": {
+          "A": -1.9972368970652623,
+          "B": -2.1160497510922207,
+          "BLANK": -1.9532662804953798
+        },
+        "decision": "FINAL_NONCONFIRMATION",
+        "dominant_policy_deleted_gain_bits": -2.0747982389220967,
+        "equal_folio_gain_bits": -2.061581798060019,
+        "event_count": 259702,
+        "folio_count": 102,
+        "folio_sign_p": 1.0,
+        "gates": {
+          "currier_A_B_at_least_0_010": false,
+          "dominant_policy_deleted_positive": false,
+          "every_leave_one_folio_positive": false,
+          "gain_at_least_0_020": false,
+          "sign_p_at_most_0_01": false,
+          "unseen_context_positive": false
+        },
+        "minimum_leave_one_folio_gain_bits": -2.0763875155760556,
+        "positive_folios": 0,
+        "unseen_context_events": 4540,
+        "unseen_context_gain_bits": -0.334695391222222
+      },
+      "world_id": "ONE_FOLIO_CHANNEL_04"
+    },
+    {
+      "family": "ONE_FOLIO_CHANNEL",
+      "index": 5,
+      "planted_k": null,
+      "selected_k_by_fold": [
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "selected_k_median": 8,
+      "summary": {
+        "currier_gain_bits": {
+          "A": -2.0978681566789357,
+          "B": -2.0257112053239545,
+          "BLANK": -1.9852040867563292
+        },
+        "decision": "FINAL_NONCONFIRMATION",
+        "dominant_policy_deleted_gain_bits": -2.0442184199514184,
+        "equal_folio_gain_bits": -2.070178560180159,
+        "event_count": 268438,
+        "folio_count": 102,
+        "folio_sign_p": 1.0,
+        "gates": {
+          "currier_A_B_at_least_0_010": false,
+          "dominant_policy_deleted_positive": false,
+          "every_leave_one_folio_positive": false,
+          "gain_at_least_0_020": false,
+          "sign_p_at_most_0_01": false,
+          "unseen_context_positive": true
+        },
+        "minimum_leave_one_folio_gain_bits": -2.099050257792566,
+        "positive_folios": 1,
+        "unseen_context_events": 6892,
+        "unseen_context_gain_bits": 0.818501008987609
+      },
+      "world_id": "ONE_FOLIO_CHANNEL_05"
+    },
+    {
+      "family": "ONE_FOLIO_CHANNEL",
+      "index": 6,
+      "planted_k": null,
+      "selected_k_by_fold": [
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "selected_k_median": 8,
+      "summary": {
+        "currier_gain_bits": {
+          "A": -2.3083858372628336,
+          "B": -2.2256055467161673,
+          "BLANK": -2.20321413206711
+        },
+        "decision": "FINAL_NONCONFIRMATION",
+        "dominant_policy_deleted_gain_bits": -2.2478906472275475,
+        "equal_folio_gain_bits": -2.2799175516169794,
+        "event_count": 270502,
+        "folio_count": 102,
+        "folio_sign_p": 1.0,
+        "gates": {
+          "currier_A_B_at_least_0_010": false,
+          "dominant_policy_deleted_positive": false,
+          "every_leave_one_folio_positive": false,
+          "gain_at_least_0_020": false,
+          "sign_p_at_most_0_01": false,
+          "unseen_context_positive": true
+        },
+        "minimum_leave_one_folio_gain_bits": -2.299192076882835,
+        "positive_folios": 0,
+        "unseen_context_events": 6585,
+        "unseen_context_gain_bits": 0.09759869231840546
+      },
+      "world_id": "ONE_FOLIO_CHANNEL_06"
+    },
+    {
+      "family": "ONE_FOLIO_CHANNEL",
+      "index": 7,
+      "planted_k": null,
+      "selected_k_by_fold": [
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "selected_k_median": 8,
+      "summary": {
+        "currier_gain_bits": {
+          "A": -2.2654801597740364,
+          "B": -2.161638200553122,
+          "BLANK": -2.223688476089393
+        },
+        "decision": "FINAL_NONCONFIRMATION",
+        "dominant_policy_deleted_gain_bits": -2.1938393602281043,
+        "equal_folio_gain_bits": -2.234553196151336,
+        "event_count": 268087,
+        "folio_count": 102,
+        "folio_sign_p": 1.0,
+        "gates": {
+          "currier_A_B_at_least_0_010": false,
+          "dominant_policy_deleted_positive": false,
+          "every_leave_one_folio_positive": false,
+          "gain_at_least_0_020": false,
+          "sign_p_at_most_0_01": false,
+          "unseen_context_positive": true
+        },
+        "minimum_leave_one_folio_gain_bits": -2.2607694949763153,
+        "positive_folios": 1,
+        "unseen_context_events": 5514,
+        "unseen_context_gain_bits": 0.022886514821719717
+      },
+      "world_id": "ONE_FOLIO_CHANNEL_07"
+    },
+    {
+      "family": "FAMILY_PRIVATE_CHANNEL",
+      "index": 0,
+      "planted_k": null,
+      "selected_k_by_fold": [
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "selected_k_median": 8,
+      "summary": {
+        "currier_gain_bits": {
+          "A": -1.0270035361131062,
+          "B": -1.0534946778428067,
+          "BLANK": -0.9229208438859086
+        },
+        "decision": "FINAL_NONCONFIRMATION",
+        "dominant_policy_deleted_gain_bits": -1.0398270755662502,
+        "equal_folio_gain_bits": -1.0339063173961813,
+        "event_count": 277584,
+        "folio_count": 102,
+        "folio_sign_p": 1.0,
+        "gates": {
+          "currier_A_B_at_least_0_010": false,
+          "dominant_policy_deleted_positive": false,
+          "every_leave_one_folio_positive": false,
+          "gain_at_least_0_020": false,
+          "sign_p_at_most_0_01": false,
+          "unseen_context_positive": false
+        },
+        "minimum_leave_one_folio_gain_bits": -1.0368235976621862,
+        "positive_folios": 0,
+        "unseen_context_events": 1780,
+        "unseen_context_gain_bits": -1.2098373139710419
+      },
+      "world_id": "FAMILY_PRIVATE_CHANNEL_00"
+    },
+    {
+      "family": "FAMILY_PRIVATE_CHANNEL",
+      "index": 1,
+      "planted_k": null,
+      "selected_k_by_fold": [
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "selected_k_median": 8,
+      "summary": {
+        "currier_gain_bits": {
+          "A": -1.0248658949720706,
+          "B": -1.078763393140201,
+          "BLANK": -0.938161501355888
+        },
+        "decision": "FINAL_NONCONFIRMATION",
+        "dominant_policy_deleted_gain_bits": -1.056907314039348,
+        "equal_folio_gain_bits": -1.038432075645917,
+        "event_count": 278851,
+        "folio_count": 102,
+        "folio_sign_p": 1.0,
+        "gates": {
+          "currier_A_B_at_least_0_010": false,
+          "dominant_policy_deleted_positive": false,
+          "every_leave_one_folio_positive": false,
+          "gain_at_least_0_020": false,
+          "sign_p_at_most_0_01": false,
+          "unseen_context_positive": false
+        },
+        "minimum_leave_one_folio_gain_bits": -1.0414421110104843,
+        "positive_folios": 0,
+        "unseen_context_events": 1621,
+        "unseen_context_gain_bits": -1.2670178533383318
+      },
+      "world_id": "FAMILY_PRIVATE_CHANNEL_01"
+    },
+    {
+      "family": "FAMILY_PRIVATE_CHANNEL",
+      "index": 2,
+      "planted_k": null,
+      "selected_k_by_fold": [
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "selected_k_median": 8,
+      "summary": {
+        "currier_gain_bits": {
+          "A": -1.0851520830791654,
+          "B": -1.1168397925432607,
+          "BLANK": -1.0008724609583715
+        },
+        "decision": "FINAL_NONCONFIRMATION",
+        "dominant_policy_deleted_gain_bits": -1.102355777614575,
+        "equal_folio_gain_bits": -1.0890640765482646,
+        "event_count": 281016,
+        "folio_count": 102,
+        "folio_sign_p": 1.0,
+        "gates": {
+          "currier_A_B_at_least_0_010": false,
+          "dominant_policy_deleted_positive": false,
+          "every_leave_one_folio_positive": false,
+          "gain_at_least_0_020": false,
+          "sign_p_at_most_0_01": false,
+          "unseen_context_positive": false
+        },
+        "minimum_leave_one_folio_gain_bits": -1.0911074185219258,
+        "positive_folios": 0,
+        "unseen_context_events": 1625,
+        "unseen_context_gain_bits": -1.1700062089371632
+      },
+      "world_id": "FAMILY_PRIVATE_CHANNEL_02"
+    },
+    {
+      "family": "FAMILY_PRIVATE_CHANNEL",
+      "index": 3,
+      "planted_k": null,
+      "selected_k_by_fold": [
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "selected_k_median": 8,
+      "summary": {
+        "currier_gain_bits": {
+          "A": -0.9124555135515964,
+          "B": -0.9170383709829176,
+          "BLANK": -0.7892813389803465
+        },
+        "decision": "FINAL_NONCONFIRMATION",
+        "dominant_policy_deleted_gain_bits": -0.909677166025345,
+        "equal_folio_gain_bits": -0.9079729114021764,
+        "event_count": 269519,
+        "folio_count": 102,
+        "folio_sign_p": 1.0,
+        "gates": {
+          "currier_A_B_at_least_0_010": false,
+          "dominant_policy_deleted_positive": false,
+          "every_leave_one_folio_positive": false,
+          "gain_at_least_0_020": false,
+          "sign_p_at_most_0_01": false,
+          "unseen_context_positive": false
+        },
+        "minimum_leave_one_folio_gain_bits": -0.910260684037168,
+        "positive_folios": 0,
+        "unseen_context_events": 1798,
+        "unseen_context_gain_bits": -0.9711586398512869
+      },
+      "world_id": "FAMILY_PRIVATE_CHANNEL_03"
+    },
+    {
+      "family": "FAMILY_PRIVATE_CHANNEL",
+      "index": 4,
+      "planted_k": null,
+      "selected_k_by_fold": [
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "selected_k_median": 8,
+      "summary": {
+        "currier_gain_bits": {
+          "A": -0.909667619629872,
+          "B": -0.9518027226739177,
+          "BLANK": -0.8033642822461371
+        },
+        "decision": "FINAL_NONCONFIRMATION",
+        "dominant_policy_deleted_gain_bits": -0.9329782083593582,
+        "equal_folio_gain_bits": -0.9197299512548819,
+        "event_count": 274938,
+        "folio_count": 102,
+        "folio_sign_p": 1.0,
+        "gates": {
+          "currier_A_B_at_least_0_010": false,
+          "dominant_policy_deleted_positive": false,
+          "every_leave_one_folio_positive": false,
+          "gain_at_least_0_020": false,
+          "sign_p_at_most_0_01": false,
+          "unseen_context_positive": false
+        },
+        "minimum_leave_one_folio_gain_bits": -0.9220030620310652,
+        "positive_folios": 0,
+        "unseen_context_events": 1766,
+        "unseen_context_gain_bits": -1.1544034035816035
+      },
+      "world_id": "FAMILY_PRIVATE_CHANNEL_04"
+    },
+    {
+      "family": "FAMILY_PRIVATE_CHANNEL",
+      "index": 5,
+      "planted_k": null,
+      "selected_k_by_fold": [
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "selected_k_median": 8,
+      "summary": {
+        "currier_gain_bits": {
+          "A": -1.0082076439198469,
+          "B": -1.041163018954448,
+          "BLANK": -0.9583408367894956
+        },
+        "decision": "FINAL_NONCONFIRMATION",
+        "dominant_policy_deleted_gain_bits": -1.0279756574625292,
+        "equal_folio_gain_bits": -1.0172430972592315,
+        "event_count": 262084,
+        "folio_count": 102,
+        "folio_sign_p": 1.0,
+        "gates": {
+          "currier_A_B_at_least_0_010": false,
+          "dominant_policy_deleted_positive": false,
+          "every_leave_one_folio_positive": false,
+          "gain_at_least_0_020": false,
+          "sign_p_at_most_0_01": false,
+          "unseen_context_positive": false
+        },
+        "minimum_leave_one_folio_gain_bits": -1.0192394355639955,
+        "positive_folios": 0,
+        "unseen_context_events": 1566,
+        "unseen_context_gain_bits": -1.1912425102795716
+      },
+      "world_id": "FAMILY_PRIVATE_CHANNEL_05"
+    },
+    {
+      "family": "FAMILY_PRIVATE_CHANNEL",
+      "index": 6,
+      "planted_k": null,
+      "selected_k_by_fold": [
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "selected_k_median": 8,
+      "summary": {
+        "currier_gain_bits": {
+          "A": -1.0248666379435125,
+          "B": -1.0431953306902175,
+          "BLANK": -0.9332216690527394
+        },
+        "decision": "FINAL_NONCONFIRMATION",
+        "dominant_policy_deleted_gain_bits": -1.03276588980762,
+        "equal_folio_gain_bits": -1.0284503835331493,
+        "event_count": 280337,
+        "folio_count": 102,
+        "folio_sign_p": 1.0,
+        "gates": {
+          "currier_A_B_at_least_0_010": false,
+          "dominant_policy_deleted_positive": false,
+          "every_leave_one_folio_positive": false,
+          "gain_at_least_0_020": false,
+          "sign_p_at_most_0_01": false,
+          "unseen_context_positive": false
+        },
+        "minimum_leave_one_folio_gain_bits": -1.0305565067300748,
+        "positive_folios": 0,
+        "unseen_context_events": 1811,
+        "unseen_context_gain_bits": -1.077026715712607
+      },
+      "world_id": "FAMILY_PRIVATE_CHANNEL_06"
+    },
+    {
+      "family": "FAMILY_PRIVATE_CHANNEL",
+      "index": 7,
+      "planted_k": null,
+      "selected_k_by_fold": [
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "selected_k_median": 8,
+      "summary": {
+        "currier_gain_bits": {
+          "A": -1.1211629709023416,
+          "B": -1.1058699362064686,
+          "BLANK": -1.0358408225377165
+        },
+        "decision": "FINAL_NONCONFIRMATION",
+        "dominant_policy_deleted_gain_bits": -1.1068743217871708,
+        "equal_folio_gain_bits": -1.1151854220485888,
+        "event_count": 273188,
+        "folio_count": 102,
+        "folio_sign_p": 1.0,
+        "gates": {
+          "currier_A_B_at_least_0_010": false,
+          "dominant_policy_deleted_positive": false,
+          "every_leave_one_folio_positive": false,
+          "gain_at_least_0_020": false,
+          "sign_p_at_most_0_01": false,
+          "unseen_context_positive": false
+        },
+        "minimum_leave_one_folio_gain_bits": -1.1180880678757776,
+        "positive_folios": 0,
+        "unseen_context_events": 1586,
+        "unseen_context_gain_bits": -1.236366869419698
+      },
+      "world_id": "FAMILY_PRIVATE_CHANNEL_07"
+    },
+    {
+      "family": "DOMINANT_POLICY_ONLY",
+      "index": 0,
+      "planted_k": null,
+      "selected_k_by_fold": [
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "selected_k_median": 8,
+      "summary": {
+        "currier_gain_bits": {
+          "A": 1.1387835352675024,
+          "B": 1.546347254471108,
+          "BLANK": 1.539247858253848
+        },
+        "decision": "PASS_REUSABLE_LATENT_CHANNEL",
+        "dominant_policy_deleted_gain_bits": 2.034759833301824,
+        "equal_folio_gain_bits": 1.2839524891392582,
+        "event_count": 7767,
+        "folio_count": 102,
+        "folio_sign_p": 2.0313168309441054e-29,
+        "gates": {
+          "currier_A_B_at_least_0_010": true,
+          "dominant_policy_deleted_positive": true,
+          "every_leave_one_folio_positive": true,
+          "gain_at_least_0_020": true,
+          "sign_p_at_most_0_01": true,
+          "unseen_context_positive": true
+        },
+        "minimum_leave_one_folio_gain_bits": 1.2670489869293518,
+        "positive_folios": 101,
+        "unseen_context_events": 2307,
+        "unseen_context_gain_bits": 2.4843284639985814
+      },
+      "world_id": "DOMINANT_POLICY_ONLY_00"
+    },
+    {
+      "family": "DOMINANT_POLICY_ONLY",
+      "index": 1,
+      "planted_k": null,
+      "selected_k_by_fold": [
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "selected_k_median": 8,
+      "summary": {
+        "currier_gain_bits": {
+          "A": 1.5406344121932274,
+          "B": 1.528982679796883,
+          "BLANK": 1.4839079866280762
+        },
+        "decision": "PASS_REUSABLE_LATENT_CHANNEL",
+        "dominant_policy_deleted_gain_bits": 2.1656164998671383,
+        "equal_folio_gain_bits": 1.5396214811724662,
+        "event_count": 7348,
+        "folio_count": 102,
+        "folio_sign_p": 1.9721522630525295e-31,
+        "gates": {
+          "currier_A_B_at_least_0_010": true,
+          "dominant_policy_deleted_positive": true,
+          "every_leave_one_folio_positive": true,
+          "gain_at_least_0_020": true,
+          "sign_p_at_most_0_01": true,
+          "unseen_context_positive": true
+        },
+        "minimum_leave_one_folio_gain_bits": 1.5286229123405064,
+        "positive_folios": 102,
+        "unseen_context_events": 2348,
+        "unseen_context_gain_bits": 2.554485264333684
+      },
+      "world_id": "DOMINANT_POLICY_ONLY_01"
+    },
+    {
+      "family": "DOMINANT_POLICY_ONLY",
+      "index": 2,
+      "planted_k": null,
+      "selected_k_by_fold": [
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "selected_k_median": 8,
+      "summary": {
+        "currier_gain_bits": {
+          "A": 2.1479583467165337,
+          "B": 2.1595866906808086,
+          "BLANK": 1.8341963181437126
+        },
+        "decision": "PASS_REUSABLE_LATENT_CHANNEL",
+        "dominant_policy_deleted_gain_bits": 2.1385220009522317,
+        "equal_folio_gain_bits": 2.1139990007758827,
+        "event_count": 5378,
+        "folio_count": 102,
+        "folio_sign_p": 1.9721522630525295e-31,
+        "gates": {
+          "currier_A_B_at_least_0_010": true,
+          "dominant_policy_deleted_positive": true,
+          "every_leave_one_folio_positive": true,
+          "gain_at_least_0_020": true,
+          "sign_p_at_most_0_01": true,
+          "unseen_context_positive": true
+        },
+        "minimum_leave_one_folio_gain_bits": 2.107397383446241,
+        "positive_folios": 102,
+        "unseen_context_events": 2342,
+        "unseen_context_gain_bits": 2.6226713341461374
+      },
+      "world_id": "DOMINANT_POLICY_ONLY_02"
+    },
+    {
+      "family": "DOMINANT_POLICY_ONLY",
+      "index": 3,
+      "planted_k": null,
+      "selected_k_by_fold": [
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "selected_k_median": 8,
+      "summary": {
+        "currier_gain_bits": {
+          "A": 0.2640474698856296,
+          "B": 0.4845290152522405,
+          "BLANK": 0.44202530651169164
+        },
+        "decision": "PASS_REUSABLE_LATENT_CHANNEL",
+        "dominant_policy_deleted_gain_bits": 1.9226427142719995,
+        "equal_folio_gain_bits": 0.38042876365871314,
+        "event_count": 16522,
+        "folio_count": 102,
+        "folio_sign_p": 1.3876938412612522e-14,
+        "gates": {
+          "currier_A_B_at_least_0_010": true,
+          "dominant_policy_deleted_positive": true,
+          "every_leave_one_folio_positive": true,
+          "gain_at_least_0_020": true,
+          "sign_p_at_most_0_01": true,
+          "unseen_context_positive": true
+        },
+        "minimum_leave_one_folio_gain_bits": 0.35935815220948186,
+        "positive_folios": 88,
+        "unseen_context_events": 2370,
+        "unseen_context_gain_bits": 2.258515160469655
+      },
+      "world_id": "DOMINANT_POLICY_ONLY_03"
+    },
+    {
+      "family": "DOMINANT_POLICY_ONLY",
+      "index": 4,
+      "planted_k": null,
+      "selected_k_by_fold": [
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "selected_k_median": 8,
+      "summary": {
+        "currier_gain_bits": {
+          "A": 0.8929437149161407,
+          "B": 0.6471019010671627,
+          "BLANK": 1.640633628604157
+        },
+        "decision": "PASS_REUSABLE_LATENT_CHANNEL",
+        "dominant_policy_deleted_gain_bits": 1.9680700965894666,
+        "equal_folio_gain_bits": 0.934808470887808,
+        "event_count": 12577,
+        "folio_count": 102,
+        "folio_sign_p": 1.036168799007799e-27,
+        "gates": {
+          "currier_A_B_at_least_0_010": true,
+          "dominant_policy_deleted_positive": true,
+          "every_leave_one_folio_positive": true,
+          "gain_at_least_0_020": true,
+          "sign_p_at_most_0_01": true,
+          "unseen_context_positive": true
+        },
+        "minimum_leave_one_folio_gain_bits": 0.9187224383568202,
+        "positive_folios": 100,
+        "unseen_context_events": 2252,
+        "unseen_context_gain_bits": 2.3323469113566695
+      },
+      "world_id": "DOMINANT_POLICY_ONLY_04"
+    },
+    {
+      "family": "DOMINANT_POLICY_ONLY",
+      "index": 5,
+      "planted_k": null,
+      "selected_k_by_fold": [
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "selected_k_median": 8,
+      "summary": {
+        "currier_gain_bits": {
+          "A": 2.0849909937799933,
+          "B": 2.179181388391057,
+          "BLANK": 2.0641188838761115
+        },
+        "decision": "PASS_REUSABLE_LATENT_CHANNEL",
+        "dominant_policy_deleted_gain_bits": 2.147824736194411,
+        "equal_folio_gain_bits": 2.1471617385390975,
+        "event_count": 5438,
+        "folio_count": 102,
+        "folio_sign_p": 1.9721522630525295e-31,
+        "gates": {
+          "currier_A_B_at_least_0_010": true,
+          "dominant_policy_deleted_positive": true,
+          "every_leave_one_folio_positive": true,
+          "gain_at_least_0_020": true,
+          "sign_p_at_most_0_01": true,
+          "unseen_context_positive": true
+        },
+        "minimum_leave_one_folio_gain_bits": 2.134285771067723,
+        "positive_folios": 102,
+        "unseen_context_events": 2342,
+        "unseen_context_gain_bits": 2.6092944674880196
+      },
+      "world_id": "DOMINANT_POLICY_ONLY_05"
+    },
+    {
+      "family": "DOMINANT_POLICY_ONLY",
+      "index": 6,
+      "planted_k": null,
+      "selected_k_by_fold": [
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "selected_k_median": 8,
+      "summary": {
+        "currier_gain_bits": {
+          "A": 0.23905180564462425,
+          "B": 0.0953316353784979,
+          "BLANK": -0.10423955784979758
+        },
+        "decision": "PASS_REUSABLE_LATENT_CHANNEL",
+        "dominant_policy_deleted_gain_bits": 1.8550806226777814,
+        "equal_folio_gain_bits": 0.15540656823845553,
+        "event_count": 24907,
+        "folio_count": 102,
+        "folio_sign_p": 0.0001066956267059324,
+        "gates": {
+          "currier_A_B_at_least_0_010": true,
+          "dominant_policy_deleted_positive": true,
+          "every_leave_one_folio_positive": true,
+          "gain_at_least_0_020": true,
+          "sign_p_at_most_0_01": true,
+          "unseen_context_positive": true
+        },
+        "minimum_leave_one_folio_gain_bits": 0.1481871198286618,
+        "positive_folios": 70,
+        "unseen_context_events": 2358,
+        "unseen_context_gain_bits": 2.1773404188756498
+      },
+      "world_id": "DOMINANT_POLICY_ONLY_06"
+    },
+    {
+      "family": "DOMINANT_POLICY_ONLY",
+      "index": 7,
+      "planted_k": null,
+      "selected_k_by_fold": [
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "selected_k_median": 8,
+      "summary": {
+        "currier_gain_bits": {
+          "A": -0.0825738642123859,
+          "B": -0.09442023320121687,
+          "BLANK": -0.15206699889907319
+        },
+        "decision": "FINAL_NONCONFIRMATION",
+        "dominant_policy_deleted_gain_bits": 1.7977273419299975,
+        "equal_folio_gain_bits": -0.08828417637092315,
+        "event_count": 74595,
+        "folio_count": 102,
+        "folio_sign_p": 0.9999996280475852,
+        "gates": {
+          "currier_A_B_at_least_0_010": false,
+          "dominant_policy_deleted_positive": true,
+          "every_leave_one_folio_positive": false,
+          "gain_at_least_0_020": false,
+          "sign_p_at_most_0_01": false,
+          "unseen_context_positive": true
+        },
+        "minimum_leave_one_folio_gain_bits": -0.0919980292610915,
+        "positive_folios": 27,
+        "unseen_context_events": 2347,
+        "unseen_context_gain_bits": 1.9438183383054353
+      },
+      "world_id": "DOMINANT_POLICY_ONLY_07"
+    }
+  ]
+}

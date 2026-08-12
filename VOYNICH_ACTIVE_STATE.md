@@ -7298,6 +7298,32 @@ next experiment must reconstruct a latent grapheme/transcription channel; do
 not return to visual binary attributes or exact-label mining. No operator was
 given a meaning, sound, POS, language, cipher value, plaintext, or translation.
 
+LTG001 then tested that preregistered latent transcription-channel successor
+without repeating the stopped endpoint-member route. Its capacity panel has
+95,451 all-reading-aligned fine-code positions on 102 physical folios, 3,535
+disagreements on 101 folios, and 7,176 events where the two predictor readings
+disagree. Deleting the dominant `(B1,B1,Ba)` RF convention still leaves 1,949
+disagreements on 101 folios. Two disclosed synthetic-only attempts stopped on
+fixture defects—the policy deletion tag was absent, then the negative fixture
+contained a shared latent background—while zero manuscript outcome was
+scored. The corrected 56-world instrument rejects every direct-null,
+one-folio, family-private, and dominant-policy-only world and recovers all
+16/16 shared-channel worlds with planted K within one.
+
+The one held-folio manuscript result is a clear nonconfirmation. A train-only
+BIC-selected anonymous latent channel loses **0.158292 bit per ambiguous
+event** to the stronger exact direct-triplet baseline, with only 31/101
+positive folios (`p=.999972`). Currier A/B gains are -.252483/-.061559, and
+the dominant-policy-deleted gain remains -.113568. Only 91 exact contexts
+unseen in training have a positive descriptive gain; that small backoff subset
+does not rescue the failed primary result. Independent nonimporting code
+reconstructs the five folds and full fit exactly. Close reusable three-reading
+latent suffix channels at the current STA resolution. The next transcription
+route must be direct image-grounded grapheme reconstruction rather than another
+relabeling of the manual codes. No preferred reading, physical glyph identity,
+allography, sound, alphabet, word, language, cipher, plaintext, meaning, or
+translation follows.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU
