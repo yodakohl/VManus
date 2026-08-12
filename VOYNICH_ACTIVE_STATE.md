@@ -6813,17 +6813,18 @@ new independently frozen source-native pages that balance toothed morphology
 across both Curriers and additional quires. No leaf word, plant name,
 plaintext, meaning, or translation follows.
 
-The live prospective route is LM001X, which uses LM001's explicit new-data
-reopen condition rather than rerunning its panel. A deterministic metadata-only
-selector has frozen 19 previously unused Currier-A herbal folios across eight
-non-q05 quires, with no quire contributing more than three pages. The official
-Yale canvases are bound but their image bodies were not opened by selection or
-validation. The unchanged LM001 visual rubric will be applied once in opaque-
-ID order. No gate is lowered: only an old-plus-new panel satisfying every
-original LM001 minimum-state, Currier, quartile, uncertainty, and 25% quire-
-contribution condition can license a separately frozen text design. Text
-features remain sealed; no plant identity, leaf word, plaintext, meaning, or
-translation follows from the selection.
+LM001X's first new-data extension is complete and stopped before text. Its 19
+previously unused Currier-A folios yielded fourteen SMOOTH and five TOOTHED
+judgments. Combined unchanged with LM001, the 35-folio panel contains 24
+smooth, 10 toothed, and one uncertain page, with both admitted states spanning
+both Curriers and at least three quartiles. The sole failure is the unchanged
+25% maximum-quire gate: q05 still contributes three of ten toothed pages, or
+30%. No Voynich string or formal feature was opened. A final complete census
+of the nine remaining unseen, non-q05 Currier-A herbal folios is the only live
+extension: it can reopen the route only by adding at least two distributed
+toothed pages while preserving every original gate. Do not lower the gate or
+select images adaptively. No plant identity, leaf word, plaintext, meaning, or
+translation follows.
 
 ## Runtime and sources
 
