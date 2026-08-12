@@ -1,0 +1,1626 @@
+{
+  "claim_ceiling": "At most, anonymous formal transformations correspond to author-visible relations and predict held-out panels; no meaning, language, cipher, plaintext, or translation is assigned.",
+  "experiment": "RTA001_OPERATOR_CODEBOOK",
+  "fold_codebooks": [
+    {
+      "holdout_folio": "f67",
+      "k": 8,
+      "operators": [
+        {
+          "composition_residual_bits": 5.0,
+          "counterexamples": [
+            "SCARR013|f69r|E1:E021",
+            "SCARR024|f71v|S1:E008",
+            "SCARR012|f68v2|S1:E001"
+          ],
+          "cycle_residual_bits": 0.0,
+          "dsl_program": "KEEP_CORE(src=LB:LINE_START,FREE_L;dst=LB:LINE_START,FREE_L) -> INSERT(dst=BARE) -> SPLIT_BOUNDARY(dst=WB) -> INSERT(dst=BARE) -> KEEP_CORE(src=WB;dst=WB) -> SUBSTITUTE(src=FREE_L;dst=BARE) -> KEEP_CORE(src=RB:LINE_END;dst=RB:LINE_END)",
+          "heldout_support": 12,
+          "operator_id": "OP01",
+          "representative_examples": [
+            "SCARR013|f69r|E1:E021",
+            "SCARR024|f71v|S1:E008",
+            "SCARR012|f68v2|S1:E001"
+          ],
+          "residual_bits": 541.3333333333334,
+          "supporting_relation_types": [
+            "CYCLIC_SUCCESSOR"
+          ],
+          "survives_literal_surface_removal": true,
+          "training_folios": [
+            "f68",
+            "f69",
+            "f70",
+            "f71",
+            "f72"
+          ],
+          "training_support": 20
+        },
+        {
+          "composition_residual_bits": 5.0,
+          "counterexamples": [
+            "SCARR030|f72r2|S2:E006",
+            "SCARR038|f72v1|S1:E010",
+            "SCARR042|f73r|S2:E001"
+          ],
+          "cycle_residual_bits": 0.0,
+          "dsl_program": "KEEP_CORE(src=LB:LINE_START;dst=LB:LINE_START) -> DELETE(src=BARE) -> KEEP_CORE(src=FREE_R,RB:LINE_END;dst=FREE_R,RB:LINE_END)",
+          "heldout_support": 6,
+          "operator_id": "OP02",
+          "representative_examples": [
+            "SCARR030|f72r2|S2:E006",
+            "SCARR038|f72v1|S1:E010",
+            "SCARR042|f73r|S2:E001"
+          ],
+          "residual_bits": 1439.3333333333333,
+          "supporting_relation_types": [
+            "CYCLIC_SUCCESSOR",
+            "ROW_SKIP_ONE",
+            "ROW_SUCCESSOR"
+          ],
+          "survives_literal_surface_removal": true,
+          "training_folios": [
+            "f68",
+            "f69",
+            "f70",
+            "f71",
+            "f72",
+            "f73",
+            "f75",
+            "fRos"
+          ],
+          "training_support": 107
+        },
+        {
+          "composition_residual_bits": 5.0,
+          "counterexamples": [
+            "SCARR045|f73v|S2:E003",
+            "fRos:RECORD3:R2_TO_R3",
+            "SCARR018|f70v2|S2:E017"
+          ],
+          "cycle_residual_bits": 0.0,
+          "dsl_program": "KEEP_CORE(src=LB:LINE_START;dst=LB:LINE_START) -> INSERT(dst=BARE) -> KEEP_CORE(src=BARE,RB:LINE_END;dst=BARE,RB:LINE_END)",
+          "heldout_support": 7,
+          "operator_id": "OP03",
+          "representative_examples": [
+            "SCARR045|f73v|S2:E003",
+            "fRos:RECORD3:R2_TO_R3",
+            "SCARR018|f70v2|S2:E017"
+          ],
+          "residual_bits": 464.6666666666667,
+          "supporting_relation_types": [
+            "CYCLIC_SUCCESSOR",
+            "ROW_SKIP_ONE",
+            "ROW_SUCCESSOR"
+          ],
+          "survives_literal_surface_removal": true,
+          "training_folios": [
+            "f68",
+            "f70",
+            "f71",
+            "f72",
+            "f73",
+            "fRos"
+          ],
+          "training_support": 33
+        },
+        {
+          "composition_residual_bits": 5.0,
+          "counterexamples": [
+            "SCARR036|f72v2|S1:E009",
+            "SCARR031|f72r3|S1:E008",
+            "SCARR010|f68r3|S1:E002"
+          ],
+          "cycle_residual_bits": 0.0,
+          "dsl_program": "KEEP_CORE(src=LB:LINE_START;dst=LB:LINE_START) -> DELETE(src=BARE) -> KEEP_CORE(src=BARE,BARE,RB:LINE_END;dst=BARE,BARE,RB:LINE_END)",
+          "heldout_support": 15,
+          "operator_id": "OP04",
+          "representative_examples": [
+            "SCARR036|f72v2|S1:E009",
+            "SCARR031|f72r3|S1:E008",
+            "SCARR010|f68r3|S1:E002"
+          ],
+          "residual_bits": 1064.0,
+          "supporting_relation_types": [
+            "CYCLIC_SUCCESSOR",
+            "ROW_SUCCESSOR"
+          ],
+          "survives_literal_surface_removal": true,
+          "training_folios": [
+            "f68",
+            "f69",
+            "f70",
+            "f71",
+            "f72",
+            "f75"
+          ],
+          "training_support": 62
+        },
+        {
+          "composition_residual_bits": 5.0,
+          "counterexamples": [
+            "SCARR045|f73v|S2:E004",
+            "SCARR009|f68r2|S1:E024",
+            "SCARR045|f73v|S2:E006"
+          ],
+          "cycle_residual_bits": 0.0,
+          "dsl_program": "KEEP_CORE(src=LB:LINE_START;dst=LB:LINE_START) -> INSERT(dst=BARE) -> KEEP_CORE(src=BARE,BARE,RB:LINE_END;dst=BARE,BARE,RB:LINE_END)",
+          "heldout_support": 19,
+          "operator_id": "OP05",
+          "representative_examples": [
+            "SCARR045|f73v|S2:E004",
+            "SCARR009|f68r2|S1:E024",
+            "SCARR045|f73v|S2:E006"
+          ],
+          "residual_bits": 1734.1666666666667,
+          "supporting_relation_types": [
+            "CYCLIC_SUCCESSOR",
+            "ROW_SKIP_ONE",
+            "ROW_SUCCESSOR"
+          ],
+          "survives_literal_surface_removal": true,
+          "training_folios": [
+            "f68",
+            "f69",
+            "f70",
+            "f71",
+            "f72",
+            "f73",
+            "f75",
+            "fRos"
+          ],
+          "training_support": 111
+        },
+        {
+          "composition_residual_bits": 5.0,
+          "counterexamples": [
+            "SCARR012|f68v2|S1:E002",
+            "SCARR013|f69r|E1:E019",
+            "SCARR013|f69r|E1:E002"
+          ],
+          "cycle_residual_bits": 0.0,
+          "dsl_program": "KEEP_CORE(src=LB:LINE_START;dst=LB:LINE_START) -> DELETE(src=FREE_L) -> KEEP_CORE(src=BARE;dst=BARE) -> MERGE_BOUNDARY(src=WB) -> SUBSTITUTE(src=BARE;dst=BOUND_E) -> KEEP_CORE(src=WB,BARE,RB:LINE_END;dst=WB,BARE,RB:LINE_END)",
+          "heldout_support": 19,
+          "operator_id": "OP06",
+          "representative_examples": [
+            "SCARR012|f68v2|S1:E002",
+            "SCARR013|f69r|E1:E019",
+            "SCARR013|f69r|E1:E002"
+          ],
+          "residual_bits": 615.0,
+          "supporting_relation_types": [
+            "CYCLIC_SUCCESSOR"
+          ],
+          "survives_literal_surface_removal": true,
+          "training_folios": [
+            "f68",
+            "f69",
+            "f70",
+            "f71",
+            "f72"
+          ],
+          "training_support": 21
+        },
+        {
+          "composition_residual_bits": 5.0,
+          "counterexamples": [
+            "SCARR038|f72v1|S1:E013",
+            "SCARR015|f69v|X1:E014",
+            "SCARR041|f73r|S1:E015"
+          ],
+          "cycle_residual_bits": 0.0,
+          "dsl_program": "KEEP_CORE(src=LB:LINE_START,BARE;dst=LB:LINE_START,BARE) -> INSERT(dst=BOUND_E) -> KEEP_CORE(src=RB:LINE_END;dst=RB:LINE_END)",
+          "heldout_support": 2,
+          "operator_id": "OP07",
+          "representative_examples": [
+            "SCARR038|f72v1|S1:E013",
+            "SCARR015|f69v|X1:E014",
+            "SCARR041|f73r|S1:E015"
+          ],
+          "residual_bits": 479.3333333333333,
+          "supporting_relation_types": [
+            "CYCLIC_SUCCESSOR"
+          ],
+          "survives_literal_surface_removal": true,
+          "training_folios": [
+            "f68",
+            "f69",
+            "f70",
+            "f71",
+            "f72",
+            "f73"
+          ],
+          "training_support": 45
+        },
+        {
+          "composition_residual_bits": 5.0,
+          "counterexamples": [
+            "SCARR038|f72v1|S1:E006",
+            "SCARR039|f72v1|S2:E005",
+            "SCARR015|f69v|X1:E003"
+          ],
+          "cycle_residual_bits": 0.0,
+          "dsl_program": "KEEP_CORE(src=LB:LINE_START,FREE_L,RB:LINE_END;dst=LB:LINE_START,FREE_L,RB:LINE_END)",
+          "heldout_support": 2,
+          "operator_id": "OP08",
+          "representative_examples": [
+            "SCARR038|f72v1|S1:E006",
+            "SCARR039|f72v1|S2:E005",
+            "SCARR015|f69v|X1:E003"
+          ],
+          "residual_bits": 243.33333333333334,
+          "supporting_relation_types": [
+            "CYCLIC_SUCCESSOR",
+            "ROW_SKIP_ONE",
+            "ROW_SUCCESSOR"
+          ],
+          "survives_literal_surface_removal": true,
+          "training_folios": [
+            "f68",
+            "f69",
+            "f70",
+            "f71",
+            "f72",
+            "f73",
+            "f75",
+            "fRos"
+          ],
+          "training_support": 56
+        }
+      ],
+      "representation": "construction"
+    },
+    {
+      "holdout_folio": "f68",
+      "k": 4,
+      "operators": [
+        {
+          "composition_residual_bits": 80.0,
+          "counterexamples": [
+            "SCARR036|f72v2|S1:E009",
+            "SCARR045|f73v|S2:E003",
+            "SCARR030|f72r2|S2:E006"
+          ],
+          "cycle_residual_bits": 0.0,
+          "dsl_program": "KEEP_CORE(src=LB:LINE_START,BOUND_E;dst=LB:LINE_START,BOUND_E) -> DELETE(src=BARE) -> KEEP_CORE(src=RB:LINE_END;dst=RB:LINE_END)",
+          "heldout_support": 37,
+          "operator_id": "OP01",
+          "representative_examples": [
+            "SCARR036|f72v2|S1:E009",
+            "SCARR045|f73v|S2:E003",
+            "SCARR030|f72r2|S2:E006"
+          ],
+          "residual_bits": 3198.8333333333335,
+          "supporting_relation_types": [
+            "CYCLIC_SUCCESSOR",
+            "ROW_SKIP_ONE",
+            "ROW_SUCCESSOR"
+          ],
+          "survives_literal_surface_removal": true,
+          "training_folios": [
+            "f67",
+            "f69",
+            "f70",
+            "f71",
+            "f72",
+            "f73",
+            "f75",
+            "fRos"
+          ],
+          "training_support": 200
+        },
+        {
+          "composition_residual_bits": 80.0,
+          "counterexamples": [
+            "SCARR031|f72r3|S1:E008",
+            "f67r2:Q1:0830:R2_TO_R3",
+            "SCARR024|f71v|S1:E009"
+          ],
+          "cycle_residual_bits": 0.0,
+          "dsl_program": "KEEP_CORE(src=LB:LINE_START,BOUND_E;dst=LB:LINE_START,BOUND_E) -> MERGE_BOUNDARY(src=WB) -> KEEP_CORE(src=BARE,RB:LINE_END;dst=BARE,RB:LINE_END)",
+          "heldout_support": 8,
+          "operator_id": "OP02",
+          "representative_examples": [
+            "SCARR031|f72r3|S1:E008",
+            "f67r2:Q1:0830:R2_TO_R3",
+            "SCARR024|f71v|S1:E009"
+          ],
+          "residual_bits": 1840.3333333333333,
+          "supporting_relation_types": [
+            "CYCLIC_SUCCESSOR",
+            "ROW_SKIP_ONE",
+            "ROW_SUCCESSOR"
+          ],
+          "survives_literal_surface_removal": true,
+          "training_folios": [
+            "f67",
+            "f69",
+            "f70",
+            "f71",
+            "f72"
+          ],
+          "training_support": 69
+        },
+        {
+          "composition_residual_bits": 80.0,
+          "counterexamples": [
+            "SCARR045|f73v|S2:E004",
+            "SCARR003|f67r2|M2:E003",
+            "SCARR018|f70v2|S2:E017"
+          ],
+          "cycle_residual_bits": 0.0,
+          "dsl_program": "KEEP_CORE(src=LB:LINE_START;dst=LB:LINE_START) -> INSERT(dst=BARE) -> KEEP_CORE(src=BARE,RB:LINE_END;dst=BARE,RB:LINE_END)",
+          "heldout_support": 27,
+          "operator_id": "OP03",
+          "representative_examples": [
+            "SCARR045|f73v|S2:E004",
+            "SCARR003|f67r2|M2:E003",
+            "SCARR018|f70v2|S2:E017"
+          ],
+          "residual_bits": 2175.0,
+          "supporting_relation_types": [
+            "CYCLIC_SUCCESSOR",
+            "ROW_SKIP_ONE",
+            "ROW_SUCCESSOR"
+          ],
+          "survives_literal_surface_removal": true,
+          "training_folios": [
+            "f67",
+            "f69",
+            "f70",
+            "f71",
+            "f72",
+            "f73",
+            "f75",
+            "fRos"
+          ],
+          "training_support": 142
+        },
+        {
+          "composition_residual_bits": 80.0,
+          "counterexamples": [
+            "f67r2:Q1:0630:R1_TO_R2",
+            "SCARR033|f72r3|S3:E004",
+            "SCARR013|f69r|E1:E021"
+          ],
+          "cycle_residual_bits": 0.0,
+          "dsl_program": "KEEP_CORE(src=LB:LINE_START,BOUND_E;dst=LB:LINE_START,BOUND_E) -> INSERT(dst=BARE) -> SPLIT_BOUNDARY(dst=WB) -> KEEP_CORE(src=BARE,RB:LINE_END;dst=BARE,RB:LINE_END)",
+          "heldout_support": 4,
+          "operator_id": "OP04",
+          "representative_examples": [
+            "f67r2:Q1:0630:R1_TO_R2",
+            "SCARR033|f72r3|S3:E004",
+            "SCARR013|f69r|E1:E021"
+          ],
+          "residual_bits": 1200.8333333333333,
+          "supporting_relation_types": [
+            "CYCLIC_SUCCESSOR",
+            "ROW_SKIP_ONE",
+            "ROW_SUCCESSOR"
+          ],
+          "survives_literal_surface_removal": true,
+          "training_folios": [
+            "f67",
+            "f69",
+            "f70",
+            "f71",
+            "f72",
+            "f75",
+            "fRos"
+          ],
+          "training_support": 50
+        }
+      ],
+      "representation": "construction"
+    },
+    {
+      "holdout_folio": "f69",
+      "k": 4,
+      "operators": [
+        {
+          "composition_residual_bits": 60.0,
+          "counterexamples": [
+            "SCARR045|f73v|S2:E004",
+            "SCARR045|f73v|S2:E003",
+            "SCARR003|f67r2|M2:E003"
+          ],
+          "cycle_residual_bits": 0.0,
+          "dsl_program": "KEEP_CORE(src=LB:LINE_START;dst=LB:LINE_START) -> INSERT(dst=BARE) -> KEEP_CORE(src=BARE,RB:LINE_END;dst=BARE,RB:LINE_END)",
+          "heldout_support": 14,
+          "operator_id": "OP01",
+          "representative_examples": [
+            "SCARR045|f73v|S2:E004",
+            "SCARR045|f73v|S2:E003",
+            "SCARR003|f67r2|M2:E003"
+          ],
+          "residual_bits": 2502.3333333333335,
+          "supporting_relation_types": [
+            "CYCLIC_SUCCESSOR",
+            "ROW_SKIP_ONE",
+            "ROW_SUCCESSOR"
+          ],
+          "survives_literal_surface_removal": true,
+          "training_folios": [
+            "f67",
+            "f68",
+            "f70",
+            "f71",
+            "f72",
+            "f73",
+            "f75",
+            "fRos"
+          ],
+          "training_support": 157
+        },
+        {
+          "composition_residual_bits": 60.0,
+          "counterexamples": [
+            "SCARR038|f72v1|S1:E006",
+            "SCARR038|f72v1|S1:E013",
+            "fRos:RECORD3:R2_TO_R3"
+          ],
+          "cycle_residual_bits": 0.0,
+          "dsl_program": "KEEP_CORE(src=LB:LINE_START,FREE_L,BARE,RB:LINE_END;dst=LB:LINE_START,FREE_L,BARE,RB:LINE_END)",
+          "heldout_support": 12,
+          "operator_id": "OP02",
+          "representative_examples": [
+            "SCARR038|f72v1|S1:E006",
+            "SCARR038|f72v1|S1:E013",
+            "fRos:RECORD3:R2_TO_R3"
+          ],
+          "residual_bits": 542.0,
+          "supporting_relation_types": [
+            "CYCLIC_SUCCESSOR",
+            "ROW_SKIP_ONE",
+            "ROW_SUCCESSOR"
+          ],
+          "survives_literal_surface_removal": true,
+          "training_folios": [
+            "f67",
+            "f68",
+            "f70",
+            "f71",
+            "f72",
+            "f73",
+            "f75",
+            "fRos"
+          ],
+          "training_support": 67
+        },
+        {
+          "composition_residual_bits": 60.0,
+          "counterexamples": [
+            "SCARR036|f72v2|S1:E009",
+            "SCARR030|f72r2|S2:E006",
+            "SCARR038|f72v1|S1:E010"
+          ],
+          "cycle_residual_bits": 0.0,
+          "dsl_program": "KEEP_CORE(src=LB:LINE_START;dst=LB:LINE_START) -> DELETE(src=BARE) -> KEEP_CORE(src=BARE,BARE,RB:LINE_END;dst=BARE,BARE,RB:LINE_END)",
+          "heldout_support": 19,
+          "operator_id": "OP03",
+          "representative_examples": [
+            "SCARR036|f72v2|S1:E009",
+            "SCARR030|f72r2|S2:E006",
+            "SCARR038|f72v1|S1:E010"
+          ],
+          "residual_bits": 4242.833333333333,
+          "supporting_relation_types": [
+            "CYCLIC_SUCCESSOR",
+            "ROW_SKIP_ONE",
+            "ROW_SUCCESSOR"
+          ],
+          "survives_literal_surface_removal": true,
+          "training_folios": [
+            "f67",
+            "f68",
+            "f70",
+            "f71",
+            "f72",
+            "f73",
+            "f75",
+            "fRos"
+          ],
+          "training_support": 213
+        },
+        {
+          "composition_residual_bits": 60.0,
+          "counterexamples": [
+            "f67r2:Q1:0630:R1_TO_R2",
+            "SCARR009|f68r2|S1:E024",
+            "SCARR033|f72r3|S3:E004"
+          ],
+          "cycle_residual_bits": 0.0,
+          "dsl_program": "KEEP_CORE(src=LB:LINE_START,BOUND_E;dst=LB:LINE_START,BOUND_E) -> INSERT(dst=BARE) -> SPLIT_BOUNDARY(dst=WB) -> KEEP_CORE(src=BARE,RB:LINE_END;dst=BARE,RB:LINE_END)",
+          "heldout_support": 11,
+          "operator_id": "OP04",
+          "representative_examples": [
+            "f67r2:Q1:0630:R1_TO_R2",
+            "SCARR009|f68r2|S1:E024",
+            "SCARR033|f72r3|S3:E004"
+          ],
+          "residual_bits": 960.8333333333334,
+          "supporting_relation_types": [
+            "CYCLIC_SUCCESSOR",
+            "ROW_SKIP_ONE",
+            "ROW_SUCCESSOR"
+          ],
+          "survives_literal_surface_removal": true,
+          "training_folios": [
+            "f67",
+            "f68",
+            "f70",
+            "f71",
+            "f72",
+            "f75",
+            "fRos"
+          ],
+          "training_support": 44
+        }
+      ],
+      "representation": "construction"
+    },
+    {
+      "holdout_folio": "f70",
+      "k": 8,
+      "operators": [
+        {
+          "composition_residual_bits": 103.33333333333333,
+          "counterexamples": [
+            "SCARR038|f72v1|S1:E006",
+            "SCARR038|f72v1|S1:E013",
+            "fRos:RECORD3:R2_TO_R3"
+          ],
+          "cycle_residual_bits": 0.0,
+          "dsl_program": "KEEP_CORE(src=LB:LINE_START,BARE,BARE,RB:LINE_END;dst=LB:LINE_START,BARE,BARE,RB:LINE_END)",
+          "heldout_support": 6,
+          "operator_id": "OP01",
+          "representative_examples": [
+            "SCARR038|f72v1|S1:E006",
+            "SCARR038|f72v1|S1:E013",
+            "fRos:RECORD3:R2_TO_R3"
+          ],
+          "residual_bits": 480.3333333333333,
+          "supporting_relation_types": [
+            "CYCLIC_SUCCESSOR",
+            "ROW_SKIP_ONE",
+            "ROW_SUCCESSOR"
+          ],
+          "survives_literal_surface_removal": true,
+          "training_folios": [
+            "f67",
+            "f68",
+            "f69",
+            "f71",
+            "f72",
+            "f73",
+            "f75",
+            "fRos"
+          ],
+          "training_support": 66
+        },
+        {
+          "composition_residual_bits": 103.33333333333333,
+          "counterexamples": [
+            "SCARR045|f73v|S2:E004",
+            "SCARR003|f67r2|M2:E003",
+            "SCARR015|f69v|X1:E014"
+          ],
+          "cycle_residual_bits": 0.0,
+          "dsl_program": "KEEP_CORE(src=LB:LINE_START;dst=LB:LINE_START) -> INSERT(dst=BARE) -> KEEP_CORE(src=BARE,RB:LINE_END;dst=BARE,RB:LINE_END)",
+          "heldout_support": 14,
+          "operator_id": "OP02",
+          "representative_examples": [
+            "SCARR045|f73v|S2:E004",
+            "SCARR003|f67r2|M2:E003",
+            "SCARR015|f69v|X1:E014"
+          ],
+          "residual_bits": 1774.3333333333333,
+          "supporting_relation_types": [
+            "CYCLIC_SUCCESSOR",
+            "ROW_SKIP_ONE",
+            "ROW_SUCCESSOR"
+          ],
+          "survives_literal_surface_removal": true,
+          "training_folios": [
+            "f67",
+            "f68",
+            "f69",
+            "f71",
+            "f72",
+            "f73",
+            "f75",
+            "fRos"
+          ],
+          "training_support": 132
+        },
+        {
+          "composition_residual_bits": 103.33333333333333,
+          "counterexamples": [
+            "SCARR022|f71r|S1:E001",
+            "SCARR032|f72r3|S2:E008",
+            "f67r2:Q1:0030:R2_TO_R3"
+          ],
+          "cycle_residual_bits": 0.0,
+          "dsl_program": "KEEP_CORE(src=LB:LINE_START;dst=LB:LINE_START) -> DELETE(src=FREE_L) -> MERGE_BOUNDARY(src=WB) -> SUBSTITUTE(src=BARE;dst=FREE_R) -> KEEP_CORE(src=RB:LINE_END;dst=RB:LINE_END)",
+          "heldout_support": 13,
+          "operator_id": "OP03",
+          "representative_examples": [
+            "SCARR010|f68r3|S1:E002",
+            "SCARR022|f71r|S1:E001",
+            "SCARR032|f72r3|S2:E008"
+          ],
+          "residual_bits": 433.0,
+          "supporting_relation_types": [
+            "CYCLIC_SUCCESSOR",
+            "ROW_SUCCESSOR"
+          ],
+          "survives_literal_surface_removal": true,
+          "training_folios": [
+            "f67",
+            "f68",
+            "f71",
+            "f72"
+          ],
+          "training_support": 21
+        },
+        {
+          "composition_residual_bits": 103.33333333333333,
+          "counterexamples": [
+            "f67r2:Q1:0630:R1_TO_R2",
+            "SCARR024|f71v|S1:E009",
+            "SCARR024|f71v|S1:E008"
+          ],
+          "cycle_residual_bits": 0.0,
+          "dsl_program": "KEEP_CORE(src=LB:LINE_START;dst=LB:LINE_START) -> SUBSTITUTE(src=FREE_L;dst=BARE) -> KEEP_CORE(src=WB,BARE,WB;dst=WB,BARE,WB) -> DELETE(src=BARE) -> KEEP_CORE(src=BARE,RB:LINE_END;dst=BARE,RB:LINE_END)",
+          "heldout_support": 3,
+          "operator_id": "OP04",
+          "representative_examples": [
+            "f67r2:Q1:0630:R1_TO_R2",
+            "SCARR024|f71v|S1:E009",
+            "SCARR024|f71v|S1:E008"
+          ],
+          "residual_bits": 768.6666666666666,
+          "supporting_relation_types": [
+            "CYCLIC_SUCCESSOR",
+            "ROW_SKIP_ONE",
+            "ROW_SUCCESSOR"
+          ],
+          "survives_literal_surface_removal": true,
+          "training_folios": [
+            "f67",
+            "f68",
+            "f69",
+            "f71"
+          ],
+          "training_support": 29
+        },
+        {
+          "composition_residual_bits": 103.33333333333333,
+          "counterexamples": [
+            "SCARR009|f68r2|S1:E024",
+            "SCARR033|f72r3|S3:E004",
+            "SCARR013|f69r|E1:E021"
+          ],
+          "cycle_residual_bits": 0.0,
+          "dsl_program": "KEEP_CORE(src=LB:LINE_START,BOUND_E;dst=LB:LINE_START,BOUND_E) -> INSERT(dst=BARE) -> SPLIT_BOUNDARY(dst=WB) -> KEEP_CORE(src=BARE,RB:LINE_END;dst=BARE,RB:LINE_END)",
+          "heldout_support": 7,
+          "operator_id": "OP05",
+          "representative_examples": [
+            "SCARR009|f68r2|S1:E024",
+            "SCARR033|f72r3|S3:E004",
+            "SCARR013|f69r|E1:E021"
+          ],
+          "residual_bits": 861.8333333333334,
+          "supporting_relation_types": [
+            "CYCLIC_SUCCESSOR",
+            "ROW_SKIP_ONE",
+            "ROW_SUCCESSOR"
+          ],
+          "survives_literal_surface_removal": true,
+          "training_folios": [
+            "f67",
+            "f68",
+            "f69",
+            "f71",
+            "f72",
+            "f75",
+            "fRos"
+          ],
+          "training_support": 38
+        },
+        {
+          "composition_residual_bits": 103.33333333333333,
+          "counterexamples": [
+            "SCARR031|f72r3|S1:E008",
+            "f67r2:Q1:0830:R2_TO_R3",
+            "SCARR012|f68v2|S1:E002"
+          ],
+          "cycle_residual_bits": 0.0,
+          "dsl_program": "KEEP_CORE(src=LB:LINE_START;dst=LB:LINE_START) -> SUBSTITUTE(src=BARE;dst=BOUND_E) -> KEEP_CORE(src=BARE,RB:LINE_END;dst=BARE,RB:LINE_END)",
+          "heldout_support": 1,
+          "operator_id": "OP06",
+          "representative_examples": [
+            "SCARR031|f72r3|S1:E008",
+            "f67r2:Q1:0830:R2_TO_R3",
+            "SCARR012|f68v2|S1:E002"
+          ],
+          "residual_bits": 707.3333333333334,
+          "supporting_relation_types": [
+            "CYCLIC_SUCCESSOR",
+            "ROW_SKIP_ONE",
+            "ROW_SUCCESSOR"
+          ],
+          "survives_literal_surface_removal": true,
+          "training_folios": [
+            "f67",
+            "f68",
+            "f69",
+            "f71",
+            "f72",
+            "f73",
+            "fRos"
+          ],
+          "training_support": 60
+        },
+        {
+          "composition_residual_bits": 103.33333333333333,
+          "counterexamples": [
+            "SCARR036|f72v2|S1:E009",
+            "SCARR045|f73v|S2:E003",
+            "SCARR030|f72r2|S2:E006"
+          ],
+          "cycle_residual_bits": 0.0,
+          "dsl_program": "KEEP_CORE(src=LB:LINE_START;dst=LB:LINE_START) -> DELETE(src=BARE) -> KEEP_CORE(src=FREE_R,RB:LINE_END;dst=FREE_R,RB:LINE_END)",
+          "heldout_support": 15,
+          "operator_id": "OP07",
+          "representative_examples": [
+            "SCARR036|f72v2|S1:E009",
+            "SCARR045|f73v|S2:E003",
+            "SCARR030|f72r2|S2:E006"
+          ],
+          "residual_bits": 1502.8333333333333,
+          "supporting_relation_types": [
+            "CYCLIC_SUCCESSOR",
+            "ROW_SKIP_ONE",
+            "ROW_SUCCESSOR"
+          ],
+          "survives_literal_surface_removal": true,
+          "training_folios": [
+            "f67",
+            "f68",
+            "f69",
+            "f71",
+            "f72",
+            "f73",
+            "f75",
+            "fRos"
+          ],
+          "training_support": 107
+        },
+        {
+          "composition_residual_bits": 103.33333333333333,
+          "counterexamples": [
+            "SCARR013|f69r|E1:E019",
+            "f67r2:Q1:1130:R1_TO_R3",
+            "SCARR013|f69r|E1:E002"
+          ],
+          "cycle_residual_bits": 0.0,
+          "dsl_program": "KEEP_CORE(src=LB:LINE_START,BOUND_E;dst=LB:LINE_START,BOUND_E) -> DELETE(src=BARE) -> KEEP_CORE(src=WB;dst=WB) -> DELETE(src=BARE) -> KEEP_CORE(src=BARE,WB,BARE,RB:LINE_END;dst=BARE,WB,BARE,RB:LINE_END)",
+          "heldout_support": 0,
+          "operator_id": "OP08",
+          "representative_examples": [
+            "SCARR013|f69r|E1:E019",
+            "f67r2:Q1:1130:R1_TO_R3",
+            "SCARR013|f69r|E1:E002"
+          ],
+          "residual_bits": 658.3333333333334,
+          "supporting_relation_types": [
+            "CYCLIC_SUCCESSOR",
+            "ROW_SKIP_ONE",
+            "ROW_SUCCESSOR"
+          ],
+          "survives_literal_surface_removal": true,
+          "training_folios": [
+            "f67",
+            "f68",
+            "f69",
+            "f71",
+            "f72"
+          ],
+          "training_support": 25
+        }
+      ],
+      "representation": "construction"
+    },
+    {
+      "holdout_folio": "f71",
+      "k": 4,
+      "operators": [
+        {
+          "composition_residual_bits": 51.666666666666664,
+          "counterexamples": [
+            "SCARR031|f72r3|S1:E008",
+            "SCARR010|f68r3|S1:E002",
+            "SCARR013|f69r|E1:E019"
+          ],
+          "cycle_residual_bits": 0.0,
+          "dsl_program": "KEEP_CORE(src=LB:LINE_START,BOUND_E;dst=LB:LINE_START,BOUND_E) -> MERGE_BOUNDARY(src=WB) -> KEEP_CORE(src=BARE,RB:LINE_END;dst=BARE,RB:LINE_END)",
+          "heldout_support": 4,
+          "operator_id": "OP01",
+          "representative_examples": [
+            "SCARR031|f72r3|S1:E008",
+            "SCARR010|f68r3|S1:E002",
+            "SCARR015|f69v|X1:E026"
+          ],
+          "residual_bits": 1539.3333333333333,
+          "supporting_relation_types": [
+            "CYCLIC_SUCCESSOR",
+            "ROW_SKIP_ONE",
+            "ROW_SUCCESSOR"
+          ],
+          "survives_literal_surface_removal": true,
+          "training_folios": [
+            "f67",
+            "f68",
+            "f69",
+            "f70",
+            "f72"
+          ],
+          "training_support": 60
+        },
+        {
+          "composition_residual_bits": 51.666666666666664,
+          "counterexamples": [
+            "SCARR036|f72v2|S1:E009",
+            "SCARR042|f73r|S2:E001",
+            "f67r2:Q1:0830:R2_TO_R3"
+          ],
+          "cycle_residual_bits": 0.0,
+          "dsl_program": "KEEP_CORE(src=LB:LINE_START;dst=LB:LINE_START) -> DELETE(src=BARE) -> KEEP_CORE(src=BARE,BARE,RB:LINE_END;dst=BARE,BARE,RB:LINE_END)",
+          "heldout_support": 12,
+          "operator_id": "OP02",
+          "representative_examples": [
+            "SCARR036|f72v2|S1:E009",
+            "SCARR042|f73r|S2:E001",
+            "f67r2:Q1:0830:R2_TO_R3"
+          ],
+          "residual_bits": 2370.5,
+          "supporting_relation_types": [
+            "CYCLIC_SUCCESSOR",
+            "ROW_SKIP_ONE",
+            "ROW_SUCCESSOR"
+          ],
+          "survives_literal_surface_removal": true,
+          "training_folios": [
+            "f67",
+            "f68",
+            "f69",
+            "f70",
+            "f72",
+            "f73",
+            "f75",
+            "fRos"
+          ],
+          "training_support": 138
+        },
+        {
+          "composition_residual_bits": 51.666666666666664,
+          "counterexamples": [
+            "SCARR045|f73v|S2:E003",
+            "SCARR030|f72r2|S2:E006",
+            "SCARR038|f72v1|S1:E010"
+          ],
+          "cycle_residual_bits": 0.0,
+          "dsl_program": "KEEP_CORE(src=LB:LINE_START,BARE,RB:LINE_END;dst=LB:LINE_START,BARE,RB:LINE_END)",
+          "heldout_support": 3,
+          "operator_id": "OP03",
+          "representative_examples": [
+            "SCARR045|f73v|S2:E003",
+            "SCARR030|f72r2|S2:E006",
+            "SCARR038|f72v1|S1:E010"
+          ],
+          "residual_bits": 1209.6666666666667,
+          "supporting_relation_types": [
+            "CYCLIC_SUCCESSOR",
+            "ROW_SKIP_ONE",
+            "ROW_SUCCESSOR"
+          ],
+          "survives_literal_surface_removal": true,
+          "training_folios": [
+            "f67",
+            "f68",
+            "f69",
+            "f70",
+            "f72",
+            "f73",
+            "f75",
+            "fRos"
+          ],
+          "training_support": 112
+        },
+        {
+          "composition_residual_bits": 51.666666666666664,
+          "counterexamples": [
+            "SCARR045|f73v|S2:E004",
+            "f67r2:Q1:0630:R1_TO_R2",
+            "SCARR009|f68r2|S1:E024"
+          ],
+          "cycle_residual_bits": 0.0,
+          "dsl_program": "KEEP_CORE(src=LB:LINE_START;dst=LB:LINE_START) -> INSERT(dst=BARE) -> KEEP_CORE(src=BARE,BARE,RB:LINE_END;dst=BARE,BARE,RB:LINE_END)",
+          "heldout_support": 11,
+          "operator_id": "OP04",
+          "representative_examples": [
+            "SCARR045|f73v|S2:E004",
+            "f67r2:Q1:0630:R1_TO_R2",
+            "SCARR009|f68r2|S1:E024"
+          ],
+          "residual_bits": 3856.1666666666665,
+          "supporting_relation_types": [
+            "CYCLIC_SUCCESSOR",
+            "ROW_SKIP_ONE",
+            "ROW_SUCCESSOR"
+          ],
+          "survives_literal_surface_removal": true,
+          "training_folios": [
+            "f67",
+            "f68",
+            "f69",
+            "f70",
+            "f72",
+            "f73",
+            "f75",
+            "fRos"
+          ],
+          "training_support": 197
+        }
+      ],
+      "representation": "construction"
+    },
+    {
+      "holdout_folio": "f72",
+      "k": 4,
+      "operators": [
+        {
+          "composition_residual_bits": 35.0,
+          "counterexamples": [
+            "fRos:RECORD3:R2_TO_R3",
+            "SCARR007|f67v1|X1:E005",
+            "SCARR015|f69v|X1:E003"
+          ],
+          "cycle_residual_bits": 0.0,
+          "dsl_program": "KEEP_CORE(src=LB:LINE_START,BARE,BARE,RB:LINE_END;dst=LB:LINE_START,BARE,BARE,RB:LINE_END)",
+          "heldout_support": 29,
+          "operator_id": "OP01",
+          "representative_examples": [
+            "fRos:RECORD3:R2_TO_R3",
+            "SCARR007|f67v1|X1:E005",
+            "SCARR015|f69v|X1:E003"
+          ],
+          "residual_bits": 459.3333333333333,
+          "supporting_relation_types": [
+            "CYCLIC_SUCCESSOR",
+            "ROW_SKIP_ONE",
+            "ROW_SUCCESSOR"
+          ],
+          "survives_literal_surface_removal": true,
+          "training_folios": [
+            "f67",
+            "f68",
+            "f69",
+            "f70",
+            "f71",
+            "f73",
+            "f75",
+            "fRos"
+          ],
+          "training_support": 58
+        },
+        {
+          "composition_residual_bits": 35.0,
+          "counterexamples": [
+            "f67r2:Q1:0630:R1_TO_R2",
+            "SCARR013|f69r|E1:E021",
+            "SCARR013|f69r|E1:E019"
+          ],
+          "cycle_residual_bits": 0.0,
+          "dsl_program": "KEEP_CORE(src=LB:LINE_START;dst=LB:LINE_START) -> INSERT(dst=BARE) -> KEEP_CORE(src=BOUND_E,BARE,WB,BARE,WB,BARE,RB:LINE_END;dst=BOUND_E,BARE,WB,BARE,WB,BARE,RB:LINE_END)",
+          "heldout_support": 11,
+          "operator_id": "OP02",
+          "representative_examples": [
+            "f67r2:Q1:0630:R1_TO_R2",
+            "SCARR013|f69r|E1:E021",
+            "SCARR013|f69r|E1:E019"
+          ],
+          "residual_bits": 1483.6666666666667,
+          "supporting_relation_types": [
+            "CYCLIC_SUCCESSOR",
+            "ROW_SKIP_ONE",
+            "ROW_SUCCESSOR"
+          ],
+          "survives_literal_surface_removal": true,
+          "training_folios": [
+            "f67",
+            "f68",
+            "f69",
+            "f70",
+            "f71"
+          ],
+          "training_support": 45
+        },
+        {
+          "composition_residual_bits": 35.0,
+          "counterexamples": [
+            "SCARR042|f73r|S2:E001",
+            "SCARR010|f68r3|S1:E002",
+            "f67r2:Q1:0830:R2_TO_R3"
+          ],
+          "cycle_residual_bits": 0.0,
+          "dsl_program": "KEEP_CORE(src=LB:LINE_START;dst=LB:LINE_START) -> DELETE(src=BARE) -> KEEP_CORE(src=BARE,BARE,RB:LINE_END;dst=BARE,BARE,RB:LINE_END)",
+          "heldout_support": 56,
+          "operator_id": "OP03",
+          "representative_examples": [
+            "SCARR042|f73r|S2:E001",
+            "SCARR010|f68r3|S1:E002",
+            "f67r2:Q1:0830:R2_TO_R3"
+          ],
+          "residual_bits": 2961.8333333333335,
+          "supporting_relation_types": [
+            "CYCLIC_SUCCESSOR",
+            "ROW_SKIP_ONE",
+            "ROW_SUCCESSOR"
+          ],
+          "survives_literal_surface_removal": true,
+          "training_folios": [
+            "f67",
+            "f68",
+            "f69",
+            "f70",
+            "f71",
+            "f73",
+            "f75",
+            "fRos"
+          ],
+          "training_support": 156
+        },
+        {
+          "composition_residual_bits": 35.0,
+          "counterexamples": [
+            "SCARR045|f73v|S2:E004",
+            "SCARR045|f73v|S2:E003",
+            "SCARR009|f68r2|S1:E024"
+          ],
+          "cycle_residual_bits": 0.0,
+          "dsl_program": "KEEP_CORE(src=LB:LINE_START;dst=LB:LINE_START) -> INSERT(dst=BARE) -> KEEP_CORE(src=BARE,RB:LINE_END;dst=BARE,RB:LINE_END)",
+          "heldout_support": 53,
+          "operator_id": "OP04",
+          "representative_examples": [
+            "SCARR045|f73v|S2:E004",
+            "SCARR045|f73v|S2:E003",
+            "SCARR009|f68r2|S1:E024"
+          ],
+          "residual_bits": 2014.8333333333333,
+          "supporting_relation_types": [
+            "CYCLIC_SUCCESSOR",
+            "ROW_SKIP_ONE",
+            "ROW_SUCCESSOR"
+          ],
+          "survives_literal_surface_removal": true,
+          "training_folios": [
+            "f67",
+            "f68",
+            "f69",
+            "f70",
+            "f71",
+            "f73",
+            "f75",
+            "fRos"
+          ],
+          "training_support": 129
+        }
+      ],
+      "representation": "construction"
+    },
+    {
+      "holdout_folio": "f73",
+      "k": 4,
+      "operators": [
+        {
+          "composition_residual_bits": 85.0,
+          "counterexamples": [
+            "SCARR009|f68r2|S1:E024",
+            "SCARR003|f67r2|M2:E003",
+            "SCARR018|f70v2|S2:E017"
+          ],
+          "cycle_residual_bits": 0.0,
+          "dsl_program": "KEEP_CORE(src=LB:LINE_START;dst=LB:LINE_START) -> INSERT(dst=BARE) -> KEEP_CORE(src=BARE,RB:LINE_END;dst=BARE,RB:LINE_END)",
+          "heldout_support": 32,
+          "operator_id": "OP01",
+          "representative_examples": [
+            "SCARR009|f68r2|S1:E024",
+            "SCARR003|f67r2|M2:E003",
+            "SCARR018|f70v2|S2:E017"
+          ],
+          "residual_bits": 3303.0,
+          "supporting_relation_types": [
+            "CYCLIC_SUCCESSOR",
+            "ROW_SKIP_ONE",
+            "ROW_SUCCESSOR"
+          ],
+          "survives_literal_surface_removal": true,
+          "training_folios": [
+            "f67",
+            "f68",
+            "f69",
+            "f70",
+            "f71",
+            "f72",
+            "f75",
+            "fRos"
+          ],
+          "training_support": 202
+        },
+        {
+          "composition_residual_bits": 85.0,
+          "counterexamples": [
+            "SCARR031|f72r3|S1:E008",
+            "SCARR010|f68r3|S1:E002",
+            "f67r2:Q1:0830:R2_TO_R3"
+          ],
+          "cycle_residual_bits": 0.0,
+          "dsl_program": "KEEP_CORE(src=LB:LINE_START,BOUND_E;dst=LB:LINE_START,BOUND_E) -> MERGE_BOUNDARY(src=WB) -> KEEP_CORE(src=BARE,RB:LINE_END;dst=BARE,RB:LINE_END)",
+          "heldout_support": 1,
+          "operator_id": "OP02",
+          "representative_examples": [
+            "SCARR031|f72r3|S1:E008",
+            "SCARR010|f68r3|S1:E002",
+            "f67r2:Q1:0830:R2_TO_R3"
+          ],
+          "residual_bits": 1913.3333333333333,
+          "supporting_relation_types": [
+            "CYCLIC_SUCCESSOR",
+            "ROW_SKIP_ONE",
+            "ROW_SUCCESSOR"
+          ],
+          "survives_literal_surface_removal": true,
+          "training_folios": [
+            "f67",
+            "f68",
+            "f69",
+            "f70",
+            "f71",
+            "f72"
+          ],
+          "training_support": 75
+        },
+        {
+          "composition_residual_bits": 85.0,
+          "counterexamples": [
+            "SCARR036|f72v2|S1:E009",
+            "SCARR030|f72r2|S2:E006",
+            "SCARR038|f72v1|S1:E010"
+          ],
+          "cycle_residual_bits": 0.0,
+          "dsl_program": "KEEP_CORE(src=LB:LINE_START;dst=LB:LINE_START) -> DELETE(src=BARE) -> KEEP_CORE(src=FREE_R,RB:LINE_END;dst=FREE_R,RB:LINE_END)",
+          "heldout_support": 27,
+          "operator_id": "OP03",
+          "representative_examples": [
+            "SCARR036|f72v2|S1:E009",
+            "SCARR030|f72r2|S2:E006",
+            "SCARR038|f72v1|S1:E010"
+          ],
+          "residual_bits": 2432.8333333333335,
+          "supporting_relation_types": [
+            "CYCLIC_SUCCESSOR",
+            "ROW_SKIP_ONE",
+            "ROW_SUCCESSOR"
+          ],
+          "survives_literal_surface_removal": true,
+          "training_folios": [
+            "f67",
+            "f68",
+            "f69",
+            "f70",
+            "f71",
+            "f72",
+            "f75",
+            "fRos"
+          ],
+          "training_support": 154
+        },
+        {
+          "composition_residual_bits": 85.0,
+          "counterexamples": [
+            "f67r2:Q1:0630:R1_TO_R2",
+            "SCARR033|f72r3|S3:E004",
+            "SCARR013|f69r|E1:E021"
+          ],
+          "cycle_residual_bits": 0.0,
+          "dsl_program": "KEEP_CORE(src=LB:LINE_START;dst=LB:LINE_START) -> INSERT(dst=BARE) -> SPLIT_BOUNDARY(dst=WB) -> KEEP_CORE(src=BARE;dst=BARE) -> SPLIT_BOUNDARY(dst=WB) -> KEEP_CORE(src=BARE,RB:LINE_END;dst=BARE,RB:LINE_END)",
+          "heldout_support": 0,
+          "operator_id": "OP04",
+          "representative_examples": [
+            "f67r2:Q1:0630:R1_TO_R2",
+            "SCARR033|f72r3|S3:E004",
+            "SCARR013|f69r|E1:E021"
+          ],
+          "residual_bits": 1366.8333333333333,
+          "supporting_relation_types": [
+            "CYCLIC_SUCCESSOR",
+            "ROW_SKIP_ONE",
+            "ROW_SUCCESSOR"
+          ],
+          "survives_literal_surface_removal": true,
+          "training_folios": [
+            "f67",
+            "f68",
+            "f69",
+            "f70",
+            "f71",
+            "f72",
+            "fRos"
+          ],
+          "training_support": 46
+        }
+      ],
+      "representation": "construction"
+    },
+    {
+      "holdout_folio": "f75",
+      "k": 6,
+      "operators": [
+        {
+          "composition_residual_bits": 88.33333333333333,
+          "counterexamples": [
+            "SCARR038|f72v1|S1:E006",
+            "SCARR038|f72v1|S1:E013",
+            "fRos:RECORD3:R2_TO_R3"
+          ],
+          "cycle_residual_bits": 0.0,
+          "dsl_program": "KEEP_CORE(src=LB:LINE_START,BARE,BARE,RB:LINE_END;dst=LB:LINE_START,BARE,BARE,RB:LINE_END)",
+          "heldout_support": 4,
+          "operator_id": "OP01",
+          "representative_examples": [
+            "SCARR038|f72v1|S1:E006",
+            "SCARR038|f72v1|S1:E013",
+            "fRos:RECORD3:R2_TO_R3"
+          ],
+          "residual_bits": 594.0,
+          "supporting_relation_types": [
+            "CYCLIC_SUCCESSOR",
+            "ROW_SKIP_ONE",
+            "ROW_SUCCESSOR"
+          ],
+          "survives_literal_surface_removal": true,
+          "training_folios": [
+            "f67",
+            "f68",
+            "f69",
+            "f70",
+            "f71",
+            "f72",
+            "f73",
+            "fRos"
+          ],
+          "training_support": 75
+        },
+        {
+          "composition_residual_bits": 88.33333333333333,
+          "counterexamples": [
+            "SCARR045|f73v|S2:E004",
+            "SCARR003|f67r2|M2:E003",
+            "SCARR018|f70v2|S2:E017"
+          ],
+          "cycle_residual_bits": 0.0,
+          "dsl_program": "KEEP_CORE(src=LB:LINE_START;dst=LB:LINE_START) -> INSERT(dst=BARE) -> KEEP_CORE(src=BARE,RB:LINE_END;dst=BARE,RB:LINE_END)",
+          "heldout_support": 2,
+          "operator_id": "OP02",
+          "representative_examples": [
+            "SCARR045|f73v|S2:E004",
+            "SCARR003|f67r2|M2:E003",
+            "SCARR018|f70v2|S2:E017"
+          ],
+          "residual_bits": 1638.0,
+          "supporting_relation_types": [
+            "CYCLIC_SUCCESSOR",
+            "ROW_SKIP_ONE",
+            "ROW_SUCCESSOR"
+          ],
+          "survives_literal_surface_removal": true,
+          "training_folios": [
+            "f67",
+            "f68",
+            "f69",
+            "f70",
+            "f71",
+            "f72",
+            "f73",
+            "fRos"
+          ],
+          "training_support": 122
+        },
+        {
+          "composition_residual_bits": 88.33333333333333,
+          "counterexamples": [
+            "SCARR033|f72r3|S3:E004",
+            "SCARR013|f69r|E1:E021",
+            "SCARR004|f67r2|M3:E007"
+          ],
+          "cycle_residual_bits": 0.0,
+          "dsl_program": "KEEP_CORE(src=LB:LINE_START,BOUND_E;dst=LB:LINE_START,BOUND_E) -> INSERT(dst=BARE) -> SPLIT_BOUNDARY(dst=WB) -> KEEP_CORE(src=BARE,RB:LINE_END;dst=BARE,RB:LINE_END)",
+          "heldout_support": 0,
+          "operator_id": "OP03",
+          "representative_examples": [
+            "SCARR033|f72r3|S3:E004",
+            "SCARR013|f69r|E1:E021",
+            "SCARR004|f67r2|M3:E007"
+          ],
+          "residual_bits": 851.1666666666666,
+          "supporting_relation_types": [
+            "CYCLIC_SUCCESSOR",
+            "ROW_SKIP_ONE",
+            "ROW_SUCCESSOR"
+          ],
+          "survives_literal_surface_removal": true,
+          "training_folios": [
+            "f67",
+            "f68",
+            "f69",
+            "f70",
+            "f71",
+            "f72",
+            "fRos"
+          ],
+          "training_support": 40
+        },
+        {
+          "composition_residual_bits": 88.33333333333333,
+          "counterexamples": [
+            "f67r2:Q1:0630:R1_TO_R2",
+            "SCARR009|f68r2|S1:E024",
+            "SCARR008|f68r1|S1:E013"
+          ],
+          "cycle_residual_bits": 0.0,
+          "dsl_program": "KEEP_CORE(src=LB:LINE_START;dst=LB:LINE_START) -> INSERT(dst=BARE) -> SUBSTITUTE(src=BOUND_E;dst=BARE) -> KEEP_CORE(src=BARE,RB:LINE_END;dst=BARE,RB:LINE_END)",
+          "heldout_support": 0,
+          "operator_id": "OP04",
+          "representative_examples": [
+            "f67r2:Q1:0630:R1_TO_R2",
+            "SCARR009|f68r2|S1:E024",
+            "SCARR008|f68r1|S1:E013"
+          ],
+          "residual_bits": 850.6666666666666,
+          "supporting_relation_types": [
+            "CYCLIC_SUCCESSOR",
+            "ROW_SUCCESSOR"
+          ],
+          "survives_literal_surface_removal": true,
+          "training_folios": [
+            "f67",
+            "f68",
+            "f69",
+            "f70",
+            "f71",
+            "f72",
+            "f73",
+            "fRos"
+          ],
+          "training_support": 50
+        },
+        {
+          "composition_residual_bits": 88.33333333333333,
+          "counterexamples": [
+            "SCARR036|f72v2|S1:E009",
+            "SCARR024|f71v|S1:E009",
+            "SCARR012|f68v2|S1:E002"
+          ],
+          "cycle_residual_bits": 0.0,
+          "dsl_program": "KEEP_CORE(src=LB:LINE_START;dst=LB:LINE_START) -> DELETE(src=BARE) -> DELETE(src=BOUND_E) -> KEEP_CORE(src=BARE,WB,BARE;dst=BARE,WB,BARE) -> DELETE(src=BOUND_E) -> KEEP_CORE(src=RB:LINE_END;dst=RB:LINE_END)",
+          "heldout_support": 0,
+          "operator_id": "OP05",
+          "representative_examples": [
+            "SCARR036|f72v2|S1:E009",
+            "SCARR024|f71v|S1:E009",
+            "SCARR012|f68v2|S1:E002"
+          ],
+          "residual_bits": 1950.0,
+          "supporting_relation_types": [
+            "CYCLIC_SUCCESSOR",
+            "ROW_SKIP_ONE",
+            "ROW_SUCCESSOR"
+          ],
+          "survives_literal_surface_removal": true,
+          "training_folios": [
+            "f67",
+            "f68",
+            "f69",
+            "f70",
+            "f71",
+            "f72"
+          ],
+          "training_support": 62
+        },
+        {
+          "composition_residual_bits": 88.33333333333333,
+          "counterexamples": [
+            "SCARR045|f73v|S2:E003",
+            "SCARR030|f72r2|S2:E006",
+            "SCARR038|f72v1|S1:E010"
+          ],
+          "cycle_residual_bits": 0.0,
+          "dsl_program": "KEEP_CORE(src=LB:LINE_START;dst=LB:LINE_START) -> DELETE(src=BARE) -> KEEP_CORE(src=FREE_R,RB:LINE_END;dst=FREE_R,RB:LINE_END)",
+          "heldout_support": 4,
+          "operator_id": "OP06",
+          "representative_examples": [
+            "SCARR045|f73v|S2:E003",
+            "SCARR030|f72r2|S2:E006",
+            "SCARR038|f72v1|S1:E010"
+          ],
+          "residual_bits": 2780.5,
+          "supporting_relation_types": [
+            "CYCLIC_SUCCESSOR",
+            "ROW_SKIP_ONE",
+            "ROW_SUCCESSOR"
+          ],
+          "survives_literal_surface_removal": true,
+          "training_folios": [
+            "f67",
+            "f68",
+            "f69",
+            "f70",
+            "f71",
+            "f72",
+            "f73",
+            "fRos"
+          ],
+          "training_support": 178
+        }
+      ],
+      "representation": "construction"
+    },
+    {
+      "holdout_folio": "fRos",
+      "k": 4,
+      "operators": [
+        {
+          "composition_residual_bits": 35.0,
+          "counterexamples": [
+            "SCARR045|f73v|S2:E003",
+            "SCARR038|f72v1|S1:E006",
+            "SCARR007|f67v1|X1:E005"
+          ],
+          "cycle_residual_bits": 0.0,
+          "dsl_program": "KEEP_CORE(src=LB:LINE_START,FREE_L,RB:LINE_END;dst=LB:LINE_START,FREE_L,RB:LINE_END)",
+          "heldout_support": 9,
+          "operator_id": "OP01",
+          "representative_examples": [
+            "SCARR045|f73v|S2:E003",
+            "SCARR038|f72v1|S1:E006",
+            "SCARR007|f67v1|X1:E005"
+          ],
+          "residual_bits": 522.3333333333334,
+          "supporting_relation_types": [
+            "CYCLIC_SUCCESSOR",
+            "ROW_SUCCESSOR"
+          ],
+          "survives_literal_surface_removal": true,
+          "training_folios": [
+            "f67",
+            "f68",
+            "f69",
+            "f70",
+            "f71",
+            "f72",
+            "f73",
+            "f75"
+          ],
+          "training_support": 71
+        },
+        {
+          "composition_residual_bits": 35.0,
+          "counterexamples": [
+            "SCARR036|f72v2|S1:E009",
+            "SCARR030|f72r2|S2:E006",
+            "SCARR038|f72v1|S1:E010"
+          ],
+          "cycle_residual_bits": 0.0,
+          "dsl_program": "KEEP_CORE(src=LB:LINE_START;dst=LB:LINE_START) -> DELETE(src=BARE) -> KEEP_CORE(src=BARE,BARE,RB:LINE_END;dst=BARE,BARE,RB:LINE_END)",
+          "heldout_support": 3,
+          "operator_id": "OP02",
+          "representative_examples": [
+            "SCARR036|f72v2|S1:E009",
+            "SCARR030|f72r2|S2:E006",
+            "SCARR038|f72v1|S1:E010"
+          ],
+          "residual_bits": 3553.3333333333335,
+          "supporting_relation_types": [
+            "CYCLIC_SUCCESSOR",
+            "ROW_SKIP_ONE",
+            "ROW_SUCCESSOR"
+          ],
+          "survives_literal_surface_removal": true,
+          "training_folios": [
+            "f67",
+            "f68",
+            "f69",
+            "f70",
+            "f71",
+            "f72",
+            "f73",
+            "f75"
+          ],
+          "training_support": 206
+        },
+        {
+          "composition_residual_bits": 35.0,
+          "counterexamples": [
+            "SCARR012|f68v2|S1:E002",
+            "SCARR013|f69r|E1:E019",
+            "f67r2:Q1:1130:R1_TO_R3"
+          ],
+          "cycle_residual_bits": 0.0,
+          "dsl_program": "KEEP_CORE(src=LB:LINE_START,BOUND_E;dst=LB:LINE_START,BOUND_E) -> DELETE(src=BARE) -> KEEP_CORE(src=WB;dst=WB) -> DELETE(src=BARE) -> KEEP_CORE(src=BARE,WB,BARE,RB:LINE_END;dst=BARE,WB,BARE,RB:LINE_END)",
+          "heldout_support": 1,
+          "operator_id": "OP03",
+          "representative_examples": [
+            "SCARR012|f68v2|S1:E002",
+            "SCARR013|f69r|E1:E019",
+            "f67r2:Q1:1130:R1_TO_R3"
+          ],
+          "residual_bits": 1129.0,
+          "supporting_relation_types": [
+            "CYCLIC_SUCCESSOR",
+            "ROW_SKIP_ONE",
+            "ROW_SUCCESSOR"
+          ],
+          "survives_literal_surface_removal": true,
+          "training_folios": [
+            "f67",
+            "f68",
+            "f69",
+            "f70",
+            "f71",
+            "f72"
+          ],
+          "training_support": 36
+        },
+        {
+          "composition_residual_bits": 35.0,
+          "counterexamples": [
+            "SCARR045|f73v|S2:E004",
+            "f67r2:Q1:0630:R1_TO_R2",
+            "SCARR009|f68r2|S1:E024"
+          ],
+          "cycle_residual_bits": 0.0,
+          "dsl_program": "KEEP_CORE(src=LB:LINE_START;dst=LB:LINE_START) -> INSERT(dst=BARE) -> KEEP_CORE(src=BARE,BARE,RB:LINE_END;dst=BARE,BARE,RB:LINE_END)",
+          "heldout_support": 2,
+          "operator_id": "OP04",
+          "representative_examples": [
+            "SCARR045|f73v|S2:E004",
+            "f67r2:Q1:0630:R1_TO_R2",
+            "SCARR009|f68r2|S1:E024"
+          ],
+          "residual_bits": 4040.6666666666665,
+          "supporting_relation_types": [
+            "CYCLIC_SUCCESSOR",
+            "ROW_SUCCESSOR"
+          ],
+          "survives_literal_surface_removal": true,
+          "training_folios": [
+            "f67",
+            "f68",
+            "f69",
+            "f70",
+            "f71",
+            "f72",
+            "f73",
+            "f75"
+          ],
+          "training_support": 209
+        }
+      ],
+      "representation": "construction"
+    }
+  ],
+  "schema_version": "RTA001_OPERATOR_CODEBOOK_V1",
+  "status": "FAIL"
+}

@@ -7271,6 +7271,32 @@ body. Do not download or reprocess the multi-gigabyte raw bands as though they
 were new evidence. Reopen only when a public source exposes a new folio or
 image layer, or when provenance-clean new physical imaging is acquired.
 
+RTA001 is the first completed relation-algebra test. A text-blind graph retained
+537 directed author-visible edges in 46 panels on nine physical folios: 484
+complete special-circle cycle successors, 40 explicitly numbered row
+successors, and 13 registered two-step row edges. f57v, f84r, and cross-band
+circle correspondences were excluded because the existing annotations support
+only proximity or ambiguous ownership. Exact CPU dynamic programs were built
+separately at manual-surface, STA-family, exact-member, literal-root, and
+construction/boundary levels; all minimum costs and optimal-alignment tie
+counts are retained across the three alternate readings. The target-free
+112-world instrument calibration passed. CUDA and CPU assignment proposals
+were byte-identical; the registered 1,024-restart benchmark cleared the frozen
+1.25 speed threshold, so CUDA proposed batched assignments while exact CPU
+reconstruction remained authoritative.
+
+The real whole-physical-folio result is negative. Training selected the
+construction representation in all nine folds. The anonymous libraries beat
+the strongest admissible baseline by 4.840917 bits per edge and had positive
+raw gain on all nine held folios, but topology-preserving wrong target pairings
+produced equal or greater gain in 3639/4096 worlds (`p=0.888428`). Thus the
+compression is generic formal edit regularity, not evidence that the registered
+author-visible relations select a reusable transformation algebra. Keep RTA001
+closed at all five tested representations. Per the preregistered route, the
+next experiment must reconstruct a latent grapheme/transcription channel; do
+not return to visual binary attributes or exact-label mining. No operator was
+given a meaning, sound, POS, language, cipher value, plaintext, or translation.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU
