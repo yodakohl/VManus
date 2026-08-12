@@ -2905,6 +2905,23 @@ authorizes only a separately frozen one-shot f37v target at the prospectively
 declared inclusive-rank ceiling `.02`; it does not authorize retuning, a plant
 name, word, sound, language, cipher, plaintext, meaning, or translation.
 
+The separately frozen f37v one-shot target is now a final nonconfirmation.
+The first invocation stopped output-free on non-target f10r.3 because manual
+surface groups do not align one-for-one with parsed words; a public replacement
+freeze corrected only the report-only surface witness to use the already
+aligned formal entry, preserving the query, statistic, thresholds, gates, and
+decisions. In the registered retry, f37v's maximum within-word LCS is 2 in all
+three readings, not the frozen threshold 3. Inclusive ranks are 56/95 ZL,
+57/95 IT, and 54/95 RF; the pooled rank is 53/95. All five gates fail. The
+maximum words are ordinary two-root `ot+or` (`qotor`) instances in all
+readings and one IT `ot+od` (`dotody`) instance, not a selective continuation
+of the five-root label. Independent code reconstructs the exact result and
+report in five checks. Do not lower the LCS threshold, move across words,
+select a reading, or mine another f37v form to rescue this route. This closes
+only the new fifth same-plant relation's frozen within-word ordered-root
+mechanism and supplies no plant name, word, sound, language, cipher,
+plaintext, meaning, or translation.
+
 The recovered-table replacement search is also exhausted. Its four remaining
 good Herbal↔pharmaceutical relations supply no sixth singularly owned label:
 f102r1 row 3/item 2 has no second plant label; f102r2 row 1/items 1 and 2 are
