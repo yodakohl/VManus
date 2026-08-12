@@ -6599,17 +6599,22 @@ explicitly disclosing that the full canvas and three target sectors are already
 exposed; it must stop before proposing a corrected transcription unless a new
 prospective method proves adequate recovery across the whole ring.
 
-RBR002 is the live exposure-aware capacity audit. All twelve f67r2 outer-ring
-records are fixed in clock order. The full canvas and RBR001 sectors at 11:30,
-03:30, and 06:30 are disclosed as exposed; nine other sector regions remain
-unopened for this question. Before opening them, four source-only record states
-and GO thresholds were frozen: at least 8/12 records with one recoverable
-position, at least 4/9 previously unexamined records with recovery, and at
-least three records with multiple recoverable positions. Alternate readings
-may localize whole records but cannot name under-strokes. This capacity audit
-may authorize a later prospectively defined corrected-ring transcription
-method; it cannot itself assign character identities or produce corrected
-text, sound, language, plaintext, meaning, or translation.
+RBR002 is complete and stops the corrected-ring route at visible-light
+capacity. All twelve f67r2 outer-ring records were inspected in the frozen
+clock order. Only `f67r2.3` (multiple positions) and `f67r2.10` (one position)
+retain independently traceable brown geometry diverging from red retracing;
+both were already exposed and retained by RBR001. None of the nine newly
+inspected records meets the same-position bounded-geometry rule. Four records
+show damage or layering without a defensible earlier contour, and six show no
+recoverable underlayer or remain unresolved. All three frozen gates fail:
+2/12 versus 8 required, 0/9 new versus 4 required, and one multiple-position
+record versus 3 required. Do not build a corrected-ring transcription method
+from the current visible-light canvas and do not relax the thresholds or count
+decorative ring hatching as glyph under-strokes. The two RBR001 physical-state
+observations remain valid, but they establish no character identity, corrected
+text, correction intent, sound, word, language, cipher, plaintext, meaning, or
+translation. Reopen only with new physical-layer or multispectral evidence
+that exposes bounded under-strokes across the complete ring.
 
 A separate manuscript-internal native-visual comparison retains one new coarse
 relation between f67v2 and the Rosettes foldout. Both drawings occupy a
