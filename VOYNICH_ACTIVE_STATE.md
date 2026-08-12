@@ -6801,6 +6801,22 @@ singularly owned figure labels that create mixed-state support on additional
 physical folios; no figure owner, bath, procedure, word, plaintext, meaning,
 or translation follows.
 
+The current prospective route is LM001, a text-blind whole-herbal-page visual
+capacity experiment for leaf-margin morphology. Before any selected canvas was
+opened, a deterministic metadata-only selector froze 32 pages on 32 physical
+folios: 16 Currier A and 16 Currier B, split into 16 calibration and 16 held
+pages with two of each in every Currier-by-numeric-folio-rank-quartile cell.
+The frozen native-inspection rubric distinguishes only visibly repeated leaf-
+margin teeth, clearly uninterrupted margins, and uncertainty; lobes, separate
+leaflets, root/fruit teeth, hairs, paint bleed, and damage are excluded. The
+held capacity gate requires at least six TOOTHED and six SMOOTH pages, both
+states in each Currier and at least three quartiles, no more than four
+uncertain pages, and no quire concentration above 25%. No Voynich text feature
+may be accessed unless those source-only gates pass. Even a pass authorizes
+only a separately preregistered Currier/quire/length/flower-controlled formal
+association test; it supplies no leaf word, plant name, plaintext, meaning, or
+translation.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU
