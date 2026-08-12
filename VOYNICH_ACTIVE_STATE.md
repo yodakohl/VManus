@@ -7091,7 +7091,8 @@ and f84r.11 on three physical folios. Every occurrence has an existing human
 all-three panel rule, and prior full-canvas exposure were frozen before target
 image access. Direct inspection finds singular visible ownership at the two
 biological loci: f75v.37 is the lower line in a reserved two-line column above
-one figure, and f84r.11 is the rightmost local stack above one end figure. The
+one figure, and f84r.11 is a distinct stack above figure 11, separated from
+the f84r.12 stack above figure 12 to its right. The
 zodiac occurrence f72v3.10 is securely localized in the outer figure/star
 annulus, but the open ring has no unique leader, enclosure, divider, or
 reserved one-figure column, so it remains `SLOT_OR_GROUP_ASSOCIATED`. The
