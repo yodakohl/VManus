@@ -27,6 +27,7 @@ OUT = BASE / "results/fpr001_f37v_one_shot_target_validation.json"
 OUT_MD = BASE / "results/fpr001_f37v_one_shot_target_validation_report.md"
 Q = ("ot", "od", "e", "od", "or")
 E = ("ZL3b", "IT2a", "RF1b")
+ABORTED_FREEZE_SHA256 = "26624d45bf2ceee5deac07b45c88cb5bc84640fd337a92fa8427e9e109263541"
 
 
 def sha(path: Path) -> str: return hashlib.sha256(path.read_bytes()).hexdigest()
@@ -71,6 +72,10 @@ def reconstruct() -> tuple[dict[str, object], str, list[str]]:
     freeze = strict(FREEZE)
     inputs = {str(p.relative_to(ROOT)): sha(p) for p in (SPEC, CAL, CALV, SOURCE, RUNNER, Path(__file__).resolve())}
     assert freeze["inputs"] == inputs and freeze["query"] == list(Q) and freeze["target_page"] == "f37v"
+    assert freeze["schema"] == "FPR001_F37V_ONE_SHOT_TARGET_FREEZE_V2"
+    assert freeze["supersedes_aborted_freeze_sha256"] == ABORTED_FREEZE_SHA256
+    assert freeze["aborted_attempt"] == {"status":"STOP_OUTPUT_FREE_BEFORE_TARGET","first_failing_locus":"f10r.3",
+        "reason":"MANUAL_SURFACE_GROUP_COUNT_NOT_EQUAL_PARSED_ROOT_WORD_COUNT","target_formal_content_accessed":False}
     checks.append("freeze_and_inputs")
     bg = {e: defaultdict(int) for e in E}; tw = {e: [] for e in E}; rows = 0
     with SOURCE.open(newline="", encoding="utf-8") as h:
@@ -78,7 +83,9 @@ def reconstruct() -> tuple[dict[str, object], str, list[str]]:
             target = r["page"] == "f37v"
             if target: rows += 1
             if (r["section"], r["currier"], r["hand"], r["grammar_scope"]) != ("H", "A", "1", "CONFIRMED_PROSE"): continue
-            roots, surfaces = r["root_sequence"].split(), r["surface"].split(); assert len(roots) == len(surfaces)
+            roots = r["root_sequence"].split()
+            surfaces = [entry.split("=", 1)[0] for entry in r["formal_interlinear"].split(" | ")]
+            assert len(roots) == len(surfaces)
             for i, (rw, sw) in enumerate(zip(roots, surfaces)):
                 atoms = tuple(rw.split("+")); score = lcs(Q, atoms)
                 if target: tw[r["edition"]].append({"locus": r["locus"], "word_index": i, "surface_word": sw, "root_word": rw, "score": score, "witness": wit(atoms)})

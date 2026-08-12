@@ -28,6 +28,7 @@ VAL_OUT = BASE / "results/fpr001_f37v_one_shot_target_validation.json"
 VAL_REPORT = BASE / "results/fpr001_f37v_one_shot_target_validation_report.md"
 QUERY = ("ot", "od", "e", "od", "or")
 EDITIONS = ("ZL3b", "IT2a", "RF1b")
+ABORTED_FREEZE_SHA256 = "26624d45bf2ceee5deac07b45c88cb5bc84640fd337a92fa8427e9e109263541"
 
 
 def sha(path: Path) -> str:
@@ -87,7 +88,7 @@ def load_freeze() -> dict[str, object]:
     expected_outputs = [str(path.relative_to(ROOT)) for path in (OUT, REPORT, VAL_OUT, VAL_REPORT)]
     if freeze != {
         "experiment": "FPR001_F37V_ONE_SHOT_TARGET",
-        "schema": "FPR001_F37V_ONE_SHOT_TARGET_FREEZE_V1",
+        "schema": "FPR001_F37V_ONE_SHOT_TARGET_FREEZE_V2",
         "status": "FROZEN_UNSCORED",
         "decision": "AUTHORIZE_EXACTLY_ONE_F37V_TARGET_RUN",
         "registration_commit": freeze.get("registration_commit"),
@@ -100,6 +101,13 @@ def load_freeze() -> dict[str, object]:
         "rank_denominator": 95,
         "rank_ceiling": 0.02,
         "claim_ceiling": "Anonymous manuscript-internal ordered-root recurrence only; no translation.",
+        "supersedes_aborted_freeze_sha256": ABORTED_FREEZE_SHA256,
+        "aborted_attempt": {
+            "status": "STOP_OUTPUT_FREE_BEFORE_TARGET",
+            "first_failing_locus": "f10r.3",
+            "reason": "MANUAL_SURFACE_GROUP_COUNT_NOT_EQUAL_PARSED_ROOT_WORD_COUNT",
+            "target_formal_content_accessed": False,
+        },
     }:
         raise RuntimeError("freeze schema or binding")
     if type(freeze["registration_commit"]) is not str or len(freeze["registration_commit"]) != 40:
@@ -131,7 +139,7 @@ def build() -> tuple[dict[str, object], str]:
                 continue
             edition = row["edition"]
             roots = row["root_sequence"].split()
-            surfaces = row["surface"].split()
+            surfaces = [entry.split("=", 1)[0] for entry in row["formal_interlinear"].split(" | ")]
             if len(roots) != len(surfaces):
                 raise RuntimeError(("surface/root word count", row["locus"]))
             for index, (root_word, surface_word) in enumerate(zip(roots, surfaces)):

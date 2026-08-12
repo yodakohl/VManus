@@ -30,8 +30,11 @@ The target passes only if all frozen gates pass:
 5. all rank fractions are at most the prospectively frozen `.02` ceiling.
 
 The scorer must report every f37v word attaining that reading's maximum, with
-edition, locus, zero-based word index, literal surface word, complete root
-word, and a deterministic LCS witness. The witness maximizes length, then
+edition, locus, zero-based word index, aligned literal surface word, complete
+root word, and a deterministic LCS witness. The aligned surface word is the
+text before the first `=` in the corresponding ` | `-separated
+`formal_interlinear` entry; manual `surface` groups are not assumed to align
+one-for-one with parsed root words. The witness maximizes length, then
 chooses the lexicographically smallest query-index tuple and earliest target-
 index tuple. These fields may be opened only during this registered one-shot
 run. They may describe an anonymous manuscript-internal recurrence; they are
@@ -45,6 +48,12 @@ accessed. The freeze binds this specification, the already published
 calibration and validation, the scorer, an independent validator, the source
 table, the registration commit, and the absence of all four target/validation
 outputs. Outputs are no-clobber.
+
+The first frozen invocation stopped output-free at non-target row f10r.3
+before any f37v row because it incorrectly required manual surface-group count
+to equal parsed-root word count. The replacement freeze may correct only the
+surface-witness alignment above. It must bind the aborted freeze SHA and must
+not alter the query, statistic, background, gates, thresholds, or decisions.
 
 If any gate fails, the decision is
 `FINAL_NONCONFIRMATION_FIFTH_RELATION_ORDERED_ROOT`; do not lower the LCS
