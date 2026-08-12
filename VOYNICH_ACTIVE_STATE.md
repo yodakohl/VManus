@@ -7040,12 +7040,19 @@ PIP001 is the frozen exposure-aware follow-up to SIA001. A complete literal
 source-comment rule selects five plume-intervention claims on four physical
 folios. The two exposed outcomes are fixed: f26r.1 remains chronology-unresolved
 from the processed-correction screen and f31r.7 remains secure from SIA001. The
-three new target regions at f37v.22, f81v.13, and f81v.19 are sealed. Before
-opening them, official Yale canvases, the same five physical gates, and panel
-requirements of at least 3/5 total positives, 2/3 new-target positives, and
-three positive physical folios were frozen and independently reconstructed.
-Inspect each new target once with source-native pixels only. Even a pass would
-establish only that human plume-intervention comments often correspond to
+three new target regions at f37v.22, f81v.13, and f81v.19 were then inspected
+once on their official Yale canvases under the same five frozen physical gates.
+Only f81v.19 exposes a materially darker, bounded plume with a separable density
+boundary above a coherent lower host. The plume-bearing forms at f37v.22 and
+f81v.13 are visible and localized, but their high strokes remain continuous
+with the current forms and expose no defensible later-state boundary. Together
+with the fixed prior outcomes, the panel reaches 2/5 positives, 1/3 among new
+targets, and two positive physical folios. All frozen requirements of at least
+3/5 total, 2/3 new, and three positive folios fail. Retain f31r.7 and f81v.19
+only as physical plume-intervention examples; the other three comments remain
+chronology-unresolved rather than disproved. No transcription is automatically
+corrected. The result establishes only that some human plume-intervention
+comments correspond to
 separable supralinear strokes; it would not establish a character substitution,
 corrected transcription, sound, word, language, cipher, plaintext, meaning, or
 translation.
