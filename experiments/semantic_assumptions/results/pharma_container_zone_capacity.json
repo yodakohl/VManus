@@ -1,0 +1,68 @@
+{
+  "claim_ceiling": "The current human annotation layer has too little independent upper-part support for a transferable container-zone marker test. No top, bottom, lid, container, part, word, sound, language, cipher, plaintext, meaning, or translation follows.",
+  "counts": {
+    "balanced_page_opportunities": 2,
+    "bottom_physical_folios": 2,
+    "bottom_source_rows": 13,
+    "bottom_unit_state_observations": 11,
+    "minimum_one_sided_mixed_folio_sign_p": 0.25,
+    "mixed_individual_container_units": 1,
+    "mixed_pages": 2,
+    "mixed_physical_folios": 2,
+    "physical_unit_state_observations": 13,
+    "selected_source_rows": 15,
+    "top_physical_folios": 2,
+    "top_source_rows": 2,
+    "top_unit_state_observations": 2
+  },
+  "decision": "DO_NOT_OPEN_TOP_VERSUS_BOTTOM_CONTAINER_LABEL_IDENTITIES",
+  "experiment": "PHARMA_CONTAINER_ZONE_CAPACITY",
+  "folios_by_class": {
+    "BOTTOM_PHYSICAL_PART": [
+      "f102",
+      "f99"
+    ],
+    "TOP_PHYSICAL_PART": [
+      "f102",
+      "f99"
+    ]
+  },
+  "gates": {
+    "at_least_20_balanced_page_opportunities": false,
+    "at_least_3_mixed_individual_container_units": false,
+    "at_least_5_mixed_pages": false,
+    "both_states_on_at_least_5_physical_folios": false
+  },
+  "inputs": {
+    "experiments/semantic_assumptions/PHARMA_CONTAINER_ZONE_CAPACITY_METHOD.md": "9e31df73a92525213816f1a0a80766f2c4ab0592f1f7b65e9cb1d6722b9d74ff",
+    "experiments/semantic_assumptions/results/existing_human_exact_locus_annotations.tsv": "79c7f06e91f90054aff4cdf27f098a5977d820acdf91f239a14c6ddf553a7f61"
+  },
+  "mixed_folios": [
+    "f102",
+    "f99"
+  ],
+  "mixed_individual_container_units": [
+    "f102v2|C1"
+  ],
+  "mixed_pages": [
+    "f102v2",
+    "f99r"
+  ],
+  "schema": "PHARMA_CONTAINER_ZONE_CAPACITY_V1",
+  "source_access": {
+    "allowed_fields": [
+      "certainty",
+      "local_comment",
+      "locus",
+      "normalized_code",
+      "page",
+      "unit"
+    ],
+    "alternate_readings_treated_as_replicates": false,
+    "family_surface_accessed": false,
+    "member_code_accessed": false,
+    "root_or_role_accessed": false,
+    "voynich_transcription_accessed": false
+  },
+  "status": "STOP_TWO_FOLIOS_TWO_MIXED_PAGES_ONE_MIXED_CONTAINER"
+}

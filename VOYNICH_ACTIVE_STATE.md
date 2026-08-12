@@ -6646,6 +6646,20 @@ new independent-folio owner-class data, not a lower threshold or within-folio
 assignment count. No container word, plant word, owner, identifier, sound,
 language, cipher, plaintext, meaning, or translation follows.
 
+The narrower physical container-part contrast also stops before text access.
+A conservative source-only rule admits only explicit `top lid` or `top
+(bigger) part` comments for TOP and explicit bottom half/bulge or
+wider/widest/smaller lower-part comments for BOTTOM. After collapsing the
+three numbered lines on one lower part, the panel has two TOP and eleven
+BOTTOM unit-state observations. TOP occurs only on f99 and f102; only f99r and
+f102v2 mix the states, and only f102v2.C1 contains separate TOP and BOTTOM
+inscriptions on one individual container. The best two-folio sign orbit has
+minimum one-sided p=.25. All four worth gates fail, so no Voynich
+transcription, family, member, root, role, or formal feature was opened. Reopen
+only with new directly annotated upper-part labels on independent folios; no
+lid, top, bottom, container, part, word, language, plaintext, meaning, or
+translation follows.
+
 A separate targeted correction screen inspects the strongest human manual
 comments that explicitly propose both sides of a main-text edit: f16r.2
 `e→l`, f24v.6 `a→s`, and two f26r.1 `ch→sh` instances. The official and
