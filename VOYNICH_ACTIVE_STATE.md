@@ -6616,6 +6616,20 @@ text, correction intent, sound, word, language, cipher, plaintext, meaning, or
 translation. Reopen only with new physical-layer or multispectral evidence
 that exposes bounded under-strokes across the complete ring.
 
+SIA001 is the next frozen native-visual writing-process route. A cheap complete
+literal screen of the human-authored transcription comments finds exactly two
+explicit claims that a mark was added above baseline writing: an unhedged
+darker-ink, out-of-place plume at `f31r.7`, and a hedged omitted-then-added mark
+above a gap at `f50v.8`. Neither locus was part of the earlier four-instance
+processed correction-pair screen. Before either target image region was
+opened, official Yale canvases 1006134 and 1006173, three outcomes, five
+physical-state gates, and a strict two-of-two recurrent-practice threshold
+were frozen and independently reconstructed. Inspect each locus once with
+source-native pixels only. Even a panel pass can establish only recurrent
+visible supralinear insertion practice, not correct character identity,
+correction intent, sound, word, language, cipher, plaintext, meaning, or
+translation.
+
 A separate manuscript-internal native-visual comparison retains one new coarse
 relation between f67v2 and the Rosettes foldout. Both drawings occupy a
 nine-position scaffold: one center, four principal-axis positions, and four
