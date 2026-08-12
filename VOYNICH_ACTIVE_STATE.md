@@ -6555,18 +6555,19 @@ self-correction route. Reopen only with new physical or spectral data exposing
 the intervention chronology, not another zoom or contrast view of the same
 canvas.
 
-RYO001 is the live prospective physical-state route. The complete human
-annotation census contains exactly one comment that says a retraced glyph may
-have been a different named glyph: `f73v.32`, where a current y-like initial
-may have been o-like. This locus is outside the prior four correction
-instances. Before target-glyph access, the unique source rule, alternate manual
-reading witnesses (`ypal`/`ypal`/`apal`), official canvas 1006207 and image
-hash, three outcomes, and five physical-state gates were frozen and validated.
-Inspect only the Grove-9 inner-band label on source-native official pixels.
-ZL/IT/RF are alternate readings, not replications. Even a positive result can
-establish only one visible o-like-to-y-like physical modification in source
-transcription terms, not correction intent, character equivalence, sound,
-word, language, cipher, plaintext, meaning, or translation.
+RYO001 is complete and unresolved at the registered source-image resolution.
+The Grove-9 inner-band label and initial glyph at `f73v.32` are securely
+localized on official Yale canvas 1006207. The initial has a bounded long
+y-like stroke and a darker compact lower junction. A loop-like lower mass is
+perceptible, but it cannot be traced independently as a complete closed o-like
+base; no overlap boundary, interruption, or separable ink edge proves that the
+long stroke was applied later. The frozen result is therefore
+`UNRESOLVED_SOURCE_IMAGE`, with zero recoverable before/after pairs and no
+formal association scored. Retain the human retraced-y/possible-o note only as
+an unresolved paleographic proposal. Reopen only with new physical or spectral
+chronology evidence, not another zoom or alternate transcription of the same
+current glyph. No correction, equivalence, sound, word, language, cipher,
+plaintext, meaning, or translation follows.
 
 A separate manuscript-internal native-visual comparison retains one new coarse
 relation between f67v2 and the Rosettes foldout. Both drawings occupy a
