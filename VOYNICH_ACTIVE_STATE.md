@@ -2875,6 +2875,23 @@ output, or run the old S100 scorer. A new attempt requires another externally
 fixed singularly owned relation yielding a complete five-relation all-reading
 panel, or a new provenance-complete parser.
 
+A genuinely different one-relation successor is now capacity-validated from
+the new fifth relation. It uses only the already exposed five-root f102r1.2
+query and keeps its newly owned Herbal partner f37v sealed. All 69 f37v
+reading-specific rows are skipped before any surface, root, formal-interlinear,
+match, score, or rank field is indexed. Outside f37v, every reading has 94
+exact H/Currier-A/hand-1 background pages. The four adjacent query edges occur
+on `16/15/16`, `3/2/3`, `18/17/15`, and `6/6/4` pages in ZL/IT/RF; 30/30/29
+pages contain at least one query edge. Background maximum within-word ordered
+embedding varies between LCS 1 and 2, with no background word reaching 3.
+Thus the target-plus-background inclusive rank floor is exactly
+`1/95=.010526`, and the prospectively declared ceiling is `.02`, not `.01`.
+Independent code reconstructs the masked capacity in eight checks. This is
+not S99's unordered page-root set or SNPL002's source-STA substring scorer; it
+authorizes only compact target-blind calibration of one fixed within-word
+ordered-root statistic before any f37v score. No plant, component, word,
+sound, language, cipher, plaintext, meaning, or translation follows.
+
 The recovered-table replacement search is also exhausted. Its four remaining
 good Herbal↔pharmaceutical relations supply no sixth singularly owned label:
 f102r1 row 3/item 2 has no second plant label; f102r2 row 1/items 1 and 2 are
