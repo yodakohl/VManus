@@ -6858,16 +6858,21 @@ unopened and no real association was computed. Do not weaken the unique-tail
 gate, alter the reduced errors or nuisance cells, or mine `cho/che` diagnostics.
 No leaf word, plant identity, plaintext, meaning, or translation follows.
 
-PVO001 is the next source-acquisition route. It freezes the complete 12-canvas
+PVO001 completed the next source-acquisition route. It froze the complete 12-canvas
 official Yale pharmaceutical block covering all 16 public logical source page
 parts, with no sampling or visual selection. The visual unit follows Yale's
 actual combined/split canvases rather than inventing simple page boundaries.
 Inspect once in opaque order for only explicit author-visible singular
 ownership: a connector, bracket/cell, or writing inside exactly one fragment.
-Whitespace proximity and row alignment do not qualify. At least four canvases,
-both q15/q19, one canvas outside f89/f102, six devices total, and no more than
-two uncertainties are required before any second object-state mapping pass.
-No selected image body or Voynich transcription has yet been opened.
+Whitespace proximity and row alignment did not qualify. The complete one-pass
+census yields one `OWNER_PRESENT`, eleven `OWNER_ABSENT`, zero `UNCERTAIN`, and
+one device total. The sole positive is q19 canvas `PVBF6CD577`, where a
+multi-line inscription lies inside one large green folded plant body. It is
+outside the previously mixed PLC001 folios, but q15 has no positive and the
+frozen four-canvas/six-device gates fail decisively. Stop before object-state
+mapping, transcription, or label/formal access. Retain the lone device only as
+a noninferential source observation; it supplies no label meaning, ROOT or
+LEAF word, plant identity, plaintext, meaning, or translation.
 
 ## Runtime and sources
 
