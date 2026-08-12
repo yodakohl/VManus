@@ -6801,26 +6801,17 @@ singularly owned figure labels that create mixed-state support on additional
 physical folios; no figure owner, bath, procedure, word, plaintext, meaning,
 or translation follows.
 
-The current prospective route is LM001, a text-blind whole-herbal-page visual
-capacity experiment for leaf-margin morphology. Before any selected canvas was
-opened, a deterministic metadata-only selector froze 32 pages on 32 physical
-folios: 16 Currier A and 16 Currier B, split into 16 calibration and 16 held
-pages with two of each in every Currier-by-numeric-folio-rank-quartile cell.
-The frozen native-inspection rubric distinguishes only visibly repeated leaf-
-margin teeth, clearly uninterrupted margins, and uncertainty; lobes, separate
-leaflets, root/fruit teeth, hairs, paint bleed, and damage are excluded. The
-held capacity gate requires at least six TOOTHED and six SMOOTH pages, both
-states in each Currier and at least three quartiles, no more than four
-uncertain pages, and no quire concentration above 25%. No Voynich text feature
-may be accessed unless those source-only gates pass. The one-pass calibration
-is complete: the 16 opaque canvases yielded six TOOTHED, six SMOOTH, and four
-UNCERTAIN judgments, all official review-image hashes were independently
-reconstructed, and the rubric required no amendment. The unchanged rubric is
-therefore authorized for exactly one held-panel visual pass; held text remains
-sealed. Even a held-capacity pass authorizes
-only a separately preregistered Currier/quire/length/flower-controlled formal
-association test; it supplies no leaf word, plant name, plaintext, meaning, or
-translation.
+LM001 is now closed before text access. Its frozen calibration succeeded with
+six TOOTHED, six SMOOTH, and four UNCERTAIN pages, but the unchanged one-pass
+held panel yielded ten SMOOTH, five TOOTHED, and one UNCERTAIN. The toothed
+state reaches only one Currier-A page versus four Currier-B pages, and q05
+contributes three of the five toothed pages. It therefore fails the
+preregistered minimum-state, Currier-balance, and maximum-quire-contribution
+gates. No Voynich string or formal text feature was opened. Do not regrade
+large lobes as teeth, lower the gates, or mine the same panel; reopen only with
+new independently frozen source-native pages that balance toothed morphology
+across both Curriers and additional quires. No leaf word, plant name,
+plaintext, meaning, or translation follows.
 
 ## Runtime and sources
 
