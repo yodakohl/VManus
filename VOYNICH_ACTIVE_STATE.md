@@ -6788,6 +6788,19 @@ than an analyst-blind target. It closes pharmaceutical flower-count and exact-
 label recurrence without a FLOWER/count word, plant name, plaintext, meaning,
 or translation.
 
+A filler-blind source-bound screen also closes the tempting biological-figure
+enclosure contrast before any label identity or formal feature access. Forty
+primary human `bio` figure-associated physical locations span eight pages and
+five folios. Direct inspection of the exact Yale canvases places 16 candidate
+areas in individualized bounded apparatus zones and 24 in open or communal
+zones; each state reaches three folios. However, only f82 contains both states
+and only f82v mixes them on one page. The paired physical-folio orbit therefore
+has only two assignments and a one-sided floor of .5. Any association could be
+a page, folio, layout, or apparatus-register marker. Reopen only with new
+singularly owned figure labels that create mixed-state support on additional
+physical folios; no figure owner, bath, procedure, word, plaintext, meaning,
+or translation follows.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU
