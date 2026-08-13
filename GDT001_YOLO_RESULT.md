@@ -114,3 +114,7 @@ The character winner captures line resets and local construction regularity but 
 ## Decision
 
 `NO_DECIPHERMENT_CANDIDATE_FREEZE`. Do not create a confirmation branch. The exploratory result is that, among the implemented complete explicit systems, a compact nonsemantic local generator decisively wins. This is a tournament result, not a proof that no language, cipher, or technical notation exists.
+
+## Fast decoder-assumption follow-ups
+
+Two additional explicit Middle High German screens relaxed assumptions that could have hidden a decoder. Allowing source separators to map freely, allowing separate initial/medial/final glyph values, using separate Currier A/B keys, and applying fixed within-group reversal/rotation/odd-even transpositions all lost decisively to the same 2-gram null. The strongest was positional allography at 5.070408 bits/source symbol, still 391,919 bits worse overall; the strongest transposition was reversal at 5.428625 bits/symbol, 461,529 bits worse. All three-restart keys were byte-distinct. See `gdt001_contextual_language_results.json` and `gdt001_key_variant_results.json`. These results close only the tested compact transformations; they are not a general anti-language result.
