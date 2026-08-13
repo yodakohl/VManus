@@ -1,0 +1,48 @@
+{
+  "access": {
+    "f100_formal_payload_used_to_tune_visual_calls": false,
+    "formal_data_supplied_to_crop_reviewer": false,
+    "formal_visual_join_or_role_solver_run": false,
+    "ocr_or_automated_vision_used": false,
+    "official_images_opened_after_registration": true,
+    "source_aware_localizer_saw_transcription_and_formal_tables_after_registration": true
+  },
+  "capacity_gate_by_physical_folio": {
+    "f100": true,
+    "f89": false,
+    "f99": true
+  },
+  "capacity_gate_passed": false,
+  "claim_ceiling": "The registered three-folio panel contains recorded visible CONTACT and CLEAR_GAP calls, but it fails the frozen per-folio capacity gate. No formal family association, semantic role, word, POS, sound, language, plaintext, meaning, or translation is tested or inferred.",
+  "counts_by_physical_folio": {
+    "f100": {
+      "CLEAR_GAP": 4,
+      "CONTACT": 1,
+      "UNCERTAIN": 0
+    },
+    "f89": {
+      "CLEAR_GAP": 0,
+      "CONTACT": 2,
+      "UNCERTAIN": 1
+    },
+    "f99": {
+      "CLEAR_GAP": 3,
+      "CONTACT": 1,
+      "UNCERTAIN": 0
+    }
+  },
+  "decisive_failure": "f89 has zero CLEAR_GAP and one UNCERTAIN; preregistration required every folio to have >=1 CONTACT, >=2 CLEAR_GAP, and zero UNCERTAIN.",
+  "experiment": "GDT002_CONTACT_GAP_VISUAL_ACQUISITION",
+  "inputs": {
+    "GDT002_CONTACT_GAP_ACQUISITION_METHOD.md": "8dee2c4d1b67821eddebc85a7ccf23581db1fbe3a0b44522443923bce2043574",
+    "build_gdt002_contact_gap_result.py": "f29a92ace6b29a433e83ba39ca0de480edf1c76607f56cf2cf5ba7b776fef647",
+    "gdt002_contact_gap_selection.tsv": "6a64eba4c1ff27d0c4967a8f2fb23752a20b3a80642e5412a7279aa557eac891",
+    "gdt002_contact_gap_selection_validation.json": "78c0ab9d643fa027f2616973b056eff81872c0744f888c6d98b8ca5254964cc0"
+  },
+  "outputs": {
+    "gdt002_contact_gap_localizations.tsv": "09462a94bcaa6dd2712048feb5b2ce589166173396ae610b96292566d85b7a74",
+    "gdt002_contact_gap_observations.tsv": "601fa7e500922ea55cc1ad1bf555789e5b38076918466f22e00450be8657bdf9"
+  },
+  "provenance": "EXPLORATORY_AI_DIRECT_VISUAL_OBSERVATION",
+  "status": "STOP_CAPACITY_GATE_FAILED_NO_FORMAL_COMPARISON"
+}
