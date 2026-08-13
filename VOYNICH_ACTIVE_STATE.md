@@ -7324,6 +7324,21 @@ relabeling of the manual codes. No preferred reading, physical glyph identity,
 allography, sound, alphabet, word, language, cipher, plaintext, meaning, or
 translation follows.
 
+IGR001 opened the next direct image-grounded prerequisite only after freezing
+eight recurrent exact reading-disagreement triplets and three different-folio
+targets per triplet. Native visual inspection of the 24 positions used 20
+official full-resolution Yale canvases and a neutral six-field shape rubric;
+it used no OCR, CLIP, embedding, classifier, or semantic label. Seven of eight
+types localized all three targets, seven had at least two identical complete
+shape signatures, and six non-dominant types met both conditions, exceeding
+the frozen thresholds of 6/5/4. Two type-6 targets were conservatively left
+unresolved instead of being selected by appearance. This is a capacity pass
+for a later preregistered image-grounded grapheme atlas, not a reading result.
+The observations are machine-authored native-vision judgments rather than
+independent human annotations. No preferred transcription, authorial grapheme,
+allography, sound, alphabet, word, language, cipher, plaintext, meaning, or
+translation follows.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU
