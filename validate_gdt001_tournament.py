@@ -47,6 +47,8 @@ def main():
     need(line_initial["status"] == "PASS_INDEPENDENT_CPU_EXACT_STOP", "line_initial_stop")
     frozen_keys = json.load(open(ROOT / "gdt001_frozen_line_state_keys_validation.json"))
     need(frozen_keys["status"] == "PASS_INDEPENDENT_CPU_EXACT_STOP", "frozen_line_keys_stop")
+    mtf = json.load(open(ROOT / "gdt001_mtf_dynamic_rank_validation.json"))
+    need(mtf["status"] == "PASS_INDEPENDENT_PYTHON_EXACT_STOP", "mtf_dynamic_rank_stop")
     symbol = json.load(open(ROOT / "gdt001_symbol_state_markov_validation.json"))
     need(symbol["status"] == "PASS_EXACT_ARTIFACT_ARITHMETIC_STOP", "symbol_state_stop")
     report = (ROOT / "GDT001_YOLO_RESULT.md").read_text()

@@ -1,6 +1,6 @@
 # GDT001 current exploratory summary
 
-Runs retained: **4,185**; converged: **4,181**.
+Runs retained: **4,224**; converged: **4,220**.
 
 ## Current leaders
 
@@ -48,3 +48,5 @@ No candidate met the freeze requirements. **No translation has been obtained.** 
 All results are exploratory and branch-local.
 
 A frozen-state switching-key screen then conditioned one or two Middle High German homophonic keys on the already-published `latentline_k2_s28104` line partition. Two keys improved on one by **9,287.69 bits**, but the best remained **484,254.21 bits worse** than the matched frozen-state anonymous source model and **499,729.02 bits worse** than the selector-adjusted global leader; the retained two-key mappings were unstable. This closes only the fixed two-state/order-2 screen; the anonymous states acquire no language or meaning.
+
+A final genuinely different reversible mechanism used a physical-line-reset move-to-front alphabet: each source sign selects a rank, the current target letter at that rank is emitted, and that letter moves to the front. The best Middle High German order-2 retained key scored **1,452,550.94 bits**, losing **486,563.83 bits** to its matched anonymous dynamic-rank KT code, **366,130.62 bits** to a static injective language key, and **877,260.49 bits** to the selector-adjusted global leader. All lines round-trip, but keys are unstable and controls are not real-specific. This closes only the exact bounded MTF screen and establishes no letter, language, plaintext, meaning, or translation.

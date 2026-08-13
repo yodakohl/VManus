@@ -4,7 +4,7 @@
 
 ## Outcome
 
-The current branch-local winner after **4,185 retained configurations** is
+The current branch-local winner after **4,224 retained configurations** is
 `contextmixer_s0_015625` at **2.960465 bits per source symbol**
 (575,289.45 total bits). It is an explicit canonical-locus-order prequential
 source code, not plaintext: for each order-2 history it causally mixes shared,
@@ -45,7 +45,7 @@ bound by `candidates/index.json`; the table below is the current ranking.
 
 ## Complete current leaderboard and earlier top-50 snapshot
 
-All **4,181 converged configurations** are retained in `GDT001_YOLO_LEDGER.tsv`;
+All **4,220 converged configurations** are retained in `GDT001_YOLO_LEDGER.tsv`;
 the complete current ordered leaderboard, including the 18 terminal
 line-initial runs, is `gdt001_tournament_runs.json`. The compact current top 20
 is in `GDT001_CURRENT_SUMMARY.md`. The table below is retained as the earlier
@@ -153,6 +153,15 @@ systems pay materially more. See `gdt001_structural_coverage.json`.
 ## Decision
 
 `NO_DECIPHERMENT_CANDIDATE_FREEZE`. Do not create a confirmation branch. The exploratory result is that, among the implemented complete explicit systems, a compact nonsemantic local generator decisively wins. This is a tournament result, not a proof that no language, cipher, or technical notation exists.
+
+The final dynamic-key screen used a genuinely different line-reset
+move-to-front rank cipher. Its best Middle High German order-2 key cost
+1,452,550.94 bits: 486,563.83 bits worse than a matched anonymous MTF/KT
+model, 366,130.62 bits worse than a static injective language key, and
+877,260.49 bits worse than the selector-adjusted global leader. It round-trips
+all lines and the producer records pair-swap local optima, but the keys are unstable and its
+negative controls do not show real-specific language behavior. This stops only
+that exact bounded dynamic-rank screen and supplies no reading.
 
 ## Fast decoder-assumption follow-ups
 
