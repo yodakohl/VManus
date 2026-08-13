@@ -69,9 +69,9 @@ def scores_cpu(lm,sequences,maps,counts,categories,fixed_space):
     return np.asarray(out)
 
 
-def search_encoded(sequences,counts,categories,labels,fixed_space,lm,seed):
-    rng=np.random.default_rng(seed);pop=rng.integers(0,27,size=(32768,len(labels)),dtype=np.int64)
-    for _ in range(30):
+def search_encoded(sequences,counts,categories,labels,fixed_space,lm,seed,population=32768,generations=30):
+    rng=np.random.default_rng(seed);pop=rng.integers(0,27,size=(population,len(labels)),dtype=np.int64)
+    for _ in range(generations):
         s=scores_gpu(lm,sequences,pop,counts,categories,fixed_space);elite=pop[np.argsort(s)[:128]].copy();children=elite[rng.integers(0,128,len(pop)-128)].copy();rows=np.arange(len(children));pos=rng.integers(0,len(labels),len(children));children[rows,pos]=rng.integers(0,27,len(children));pop=np.vstack([elite,children])
     s=scores_gpu(lm,sequences,pop,counts,categories,fixed_space);i=int(np.argmin(s));cpu=float(scores_cpu(lm,sequences,pop[i:i+1],counts,categories,fixed_space)[0]);assert abs(cpu-s[i])<2e-6
     mapping=[{"source_state":label,"target":" " if value==26 else chr(97+int(value)),"occurrences":int(counts[j])} for j,(label,value) in enumerate(zip(labels,pop[i]))]
