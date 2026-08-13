@@ -7,7 +7,7 @@ from pathlib import Path
 from gdt001_core import canonical
 
 ROOT = Path(__file__).resolve().parent
-PREFIXES = ("boundaryrule_", "rolesource_", "metasource_", "sparsemeta_", "contextaxis_")
+PREFIXES = ("boundaryrule_", "rolesource_", "metasource_", "sparsemeta_", "contextaxis_", "currierallograph_", "entrysource_", "latentline_")
 
 
 def row(run_id, model_class, system, seed, config, total, bps, key, latent, reconstruction, decoder, notes):
@@ -57,6 +57,24 @@ def main():
         ledger.append(row(rid, "NONSEMANTIC_GENERATOR", "SPARSE_CONTEXT_AXIS_SOURCE", 0, {"order": r["order"]},
                           r["total_bits"], r["bits_per_symbol"], r["key_bits"], r["payload_bits"] + r["side_channel_bits"],
                           r["fixed_bits"], r["decoder_hash"], "EXPLORATORY; SPARSE_PER_CONTEXT_METADATA_AXIS"))
+    adata = json.loads((ROOT / "gdt001_currier_allography_results.json").read_text())
+    for r in adata["rows"]:
+        ledger.append(row(f"currierallograph_s{r['seed']}", "NONSEMANTIC_GENERATOR", "CURRIER_SOURCE_PERMUTATION", r["seed"],
+                          {"model": "CURRIER_ALLOGRAPHY", "seed": r["seed"]}, r["total_bits"], r["bits_per_symbol"],
+                          r["key_bits"], r["payload_bits"] + r["side_channel_bits"], r["fixed_bits"], r["decoder_hash"],
+                          "EXPLORATORY; REVERSIBLE_CURRIER_ALPHABET_PERMUTATION; UNSTABLE"))
+    edata = json.loads((ROOT / "gdt001_entry_conditioned_source_results.json").read_text())
+    for r in edata["rows"]:
+        ledger.append(row(f"entrysource_{r['scheme'].lower()}_o{r['order']}", "RECORD_NOTATION", f"ENTRY_{r['scheme']}_SOURCE", 0,
+                          {"scheme": r["scheme"], "order": r["order"]}, r["total_bits"], r["bits_per_symbol"], r["key_bits"],
+                          r["payload_bits"] + r["side_channel_bits"], r["fixed_bits"], r["decoder_hash"],
+                          "EXPLORATORY; ENTRY_CONDITIONED_RECORD_GENERATOR"))
+    ldata = json.loads((ROOT / "gdt001_latent_line_state_results.json").read_text())
+    for r in ldata["rows"]:
+        ledger.append(row(f"latentline_k{r['requested_k']}_s{r['seed']}", "RECORD_NOTATION", f"LATENT_LINE_STATES_K{r['requested_k']}", r["seed"],
+                          {"requested_k": r["requested_k"], "seed": r["seed"]}, r["total_bits"], r["bits_per_symbol"], r["key_bits"],
+                          r["state_assignment_bits"] + r["emission_bits"] + r["side_channel_bits"], r["fixed_bits"], r["decoder_hash"],
+                          "EXPLORATORY; GPU_PROPOSAL_CPU_EXACT; LATENT_LINE_STATES"))
     fields = list(ledger[0])
     with (ROOT / "GDT001_YOLO_LEDGER.tsv").open("w", newline="", encoding="utf-8") as handle:
         writer = csv.DictWriter(handle, fields, delimiter="\t", lineterminator="\n"); writer.writeheader(); writer.writerows(sorted(ledger, key=lambda r: r["run_id"]))
