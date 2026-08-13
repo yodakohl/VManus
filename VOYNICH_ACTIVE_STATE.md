@@ -7271,6 +7271,22 @@ body. Do not download or reprocess the multi-gigabyte raw bands as though they
 were new evidence. Reopen only when a public source exposes a new folio or
 image layer, or when provenance-clean new physical imaging is acquired.
 
+EBA001 deliberately supersedes only NVA002's recommendation not to open the
+known TIFF products: the new task requires changing the information available,
+and NVA002 had opened no TIFF body. Six exact public Lazarus/RIT 16-bit TIFF
+capture products labelled MB365UV were acquired, three separately timed
+captures each for f17r and f116v. In both folios the registered marginal target
+persists as a dark trace at corresponding apparent manuscript coordinates,
+while gross mounting/edge shadows show capture-specific patterns. This is a new
+physical constraint against a single-capture transient or processed-composite-
+only artifact. The response mechanism remains unresolved: no absorptance,
+ink/stain, fluorescence, static-relief exclusion, fixed-shadow exclusion, lamp
+direction, layer order, hand, date, gloss, character, word, sound, language,
+cipher, plaintext, meaning, or translation claim is made. The f116v target is
+the initial mixed-script span of the lowest principal marginal line, not the
+complete top block. Authenticated chemistry, chronology, or illumination
+geometry is the next acquisition target.
+
 RTA001 is the first completed relation-algebra test. A text-blind graph retained
 537 directed author-visible edges in 46 panels on nine physical folios: 484
 complete special-circle cycle successors, 40 explicitly numbered row
