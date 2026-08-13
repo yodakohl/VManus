@@ -7,7 +7,7 @@ from pathlib import Path
 from gdt001_core import canonical
 
 ROOT = Path(__file__).resolve().parent
-PREFIXES = ("boundaryrule_", "rolesource_", "metasource_", "sparsemeta_", "contextaxis_", "currierallograph_", "entrysource_", "latentline_", "exactcopy_", "wordtranspose_", "variablecontext_", "contextmixer_", "scaffoldlang_", "groupexpand_", "contexttree_", "latinscholastic_", "residualpayload_", "ranknomen_", "groupcodeho_", "groupcodeo4ref_", "groupcodescale_", "groupcodeanon_", "rootcode_")
+PREFIXES = ("boundaryrule_", "rolesource_", "metasource_", "sparsemeta_", "contextaxis_", "currierallograph_", "entrysource_", "latentline_", "symbolstate_", "exactcopy_", "wordtranspose_", "variablecontext_", "contextmixer_", "scaffoldlang_", "groupexpand_", "contexttree_", "latinscholastic_", "residualpayload_", "ranknomen_", "groupcodeho_", "groupcodeo4ref_", "groupcodescale_", "groupcodeanon_", "rootcode_")
 
 
 def row(run_id, model_class, system, seed, config, total, bps, key, latent, reconstruction, decoder, notes):
@@ -75,6 +75,12 @@ def main():
                           {"requested_k": r["requested_k"], "seed": r["seed"]}, r["total_bits"], r["bits_per_symbol"], r["key_bits"],
                           r["state_assignment_bits"] + r["emission_bits"] + r["side_channel_bits"], r["fixed_bits"], r["decoder_hash"],
                           "EXPLORATORY; GPU_PROPOSAL_CPU_EXACT; LATENT_LINE_STATES"))
+    ssdata = json.loads((ROOT / "gdt001_symbol_state_markov_results.json").read_text())
+    for r in ssdata["rows"]:
+        ledger.append(row(f"symbolstate_k{r['requested_k']}_s{r['seed']}", "NONSEMANTIC_GENERATOR", f"WITHIN_LINE_SYMBOL_STATES_K{r['requested_k']}", r["seed"],
+                          {"k": r["requested_k"], "state_transition_order": 1, "emission_history": 2}, r["total_bits"], r["bits_per_symbol"],
+                          r["key_bits"], r["state_transition_bits"] + r["emission_bits"] + r["side_channel_bits"], r["fixed_bits"],
+                          r["state_path_hash"], "EXPLORATORY; EXPLICIT_STATE_PATH; UNSTABLE"))
     xdata = json.loads((ROOT / "gdt001_exact_copy_cache_results.json").read_text())
     for r in xdata["rows"]:
         ledger.append(row(f"exactcopy_w{r['window']}_m{r['minimum_copy_length']}_o{r['literal_order']}", "NONSEMANTIC_GENERATOR", "EXACT_PAGE_COPY_CACHE", 0,

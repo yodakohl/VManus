@@ -45,7 +45,19 @@ edition-constrained path selections under the frozen winning predictor.
   records, plus a separate whole-group anonymous dictionary theory.
 - `NONSEMANTIC_GENERATOR`: integrated character n-grams, page unigram,
   explicit copy-modify programs, and an int8 quantized GRU whose retained
-  probability calculation is reconstructed by NumPy on CPU.
+  probability calculation is reconstructed by NumPy on CPU. Follow-up source
+  baselines include a canonical-locus-order prequential mixture of seven
+  causal KT experts. Each order-2 context maintains its own Bayesian weights
+  over shared, longer-history, Currier, section, hand, layout-kind, and
+  grammar-scope experts; weights update only after the encoded source event
+  and then undergo a paid fixed-share step. The model is conditional on the
+  metadata already carried by the lattice. Its serialization is not asserted
+  to be physical writing chronology.
+  A separate within-line latent-state test assigns one explicit hidden state to
+  every modeled source event, pays an integrated first-order state-path code,
+  and emits symbols from state-by-observed-history KT tables. It is distinct
+  from the earlier one-state-per-line model; its complete state paths and
+  restart hashes are retained.
 - `HYBRID`: a Codex-originated explicit mechanism in which the first group
   supplies a page-sequential entry state and subsequent groups are reusable
   stem/modifier programs.
@@ -63,8 +75,11 @@ homophonic assignments, and three neural-null restarts. Population sizes,
 seeds, generations, configs, exact keys, and failures are retained. The
 published crossover benchmark shows when CUDA becomes material. GPU scores
 must agree with CPU scores within `2e-6` bits before a key can be retained.
-The final winning n-gram is reconstructed independently from line paths and
-context counts by `validate_gdt001_tournament.py`.
+The original winning n-gram is reconstructed independently from line paths and
+context counts by `validate_gdt001_tournament.py`. Later branch-local leaders
+have their own independent validators; in particular,
+`validate_gdt001_online_context_mixer.py` reconstructs every pre-event
+probability for all six frozen share rates without importing the producer.
 
 ## Controls
 
@@ -74,6 +89,11 @@ global frequency-preserving, boundary-preserving identity, and page-local
 Timm/copy-modify controls. Representative nonsemantic, record, language, and
 cipher systems are refit to each. Controls are interpretive diagnostics, not a
 folio-held confirmation test.
+
+The later context-mixer control uses exactly the same frozen causal algorithm
+and winning share on all five counterfactuals. Its larger gain on the Timm
+copy/modify manuscript makes it a stronger generic source null, not evidence
+for decipherment.
 
 ## Candidate export and fixed packet
 

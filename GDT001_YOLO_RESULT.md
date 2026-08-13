@@ -4,9 +4,33 @@
 
 ## Outcome
 
-The strongest complete generative account in this tournament is `nonsemantic_ngram_o2` at **3.053577 bits per source symbol**. It is a line-reset, second-order character generator and emits no plaintext. The strongest language-like candidate is `abbr_lang_multigraph_middle_high_german_nonull_s0101` at **5.117051 bits/symbol**. The strongest homophonic cipher is **5.401351**, the strongest anonymous record model is **5.182018**, and my line-entry/body-channel hybrid is **4.546773**.
+The current branch-local winner after **4,131 retained runs** is
+`contextmixer_s0_015625` at **2.960465 bits per source symbol**
+(575,289.45 total bits). It is an explicit canonical-locus-order prequential
+source code, not plaintext: for each order-2 history it causally mixes shared,
+longer-history, Currier, section, hand, layout-kind, and grammar-scope KT
+experts with a paid 1/64 fixed-share rate. Independent CPU code reconstructed
+all six share-grid totals exactly. A global source-symbol permutation preserves
+the gain, while the Timm synthetic gains much more, so this is a stronger
+generic nonsemantic null rather than manuscript-specific decipherment evidence.
 
-No candidate qualifies for freezing as a decipherment. The nonsemantic winner is both much shorter and fully explicit; the language/cipher mappings are restart-unstable and their fixed-packet outputs are orthographic-looking noise rather than defensible readings.
+The strongest language-side effect is an unstable 512-form whole-group code
+under a fourth-order medieval-Czech corpus model. Correcting for scale
+selection, it gains 5,880.96 bits over its group-code null, but only 576.05
+bits over an optimized anonymous 27-state bottleneck and remains about 67,402
+bits behind the global source winner. Three same-scale mappings have pairwise
+adjusted-Rand agreement only 0.136–0.182; no plaintext mapping is retained.
+
+The last distinct cheap source family was also tested: an explicit within-line
+K=2–4 latent-state path with first-order state coding and state-conditioned
+observed-history emissions. Its best paid score is 3.397039 bits/source symbol,
+84,836.8 bits behind the context mixer; all three state paths differ at every
+K. The nine failed state systems remain in the ledger and artifact set.
+
+No candidate qualifies for freezing as a decipherment. The complete updated
+branch leaderboard and exact continuation diagnostics are in
+`GDT001_CURRENT_SUMMARY.md` and `gdt001_current_summary.json`; the table below
+records the original tournament stage and is retained rather than rewritten.
 
 ## Complete leaderboard
 
