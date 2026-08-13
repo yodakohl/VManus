@@ -7339,6 +7339,28 @@ independent human annotations. No preferred transcription, authorial grapheme,
 allography, sound, alphabet, word, language, cipher, plaintext, meaning, or
 translation follows.
 
+IGR002 then tested the necessary held-folio transfer rather than treating that
+three-example capacity pass as a grapheme atlas. The disclosed crop reviews
+contain 14 match-eligible signatures and 12 unresolved, damaged, retraced, or
+ambiguous cases. Only one eligible signature anywhere in that unordered
+multiset equals any frozen primary prototype. Thus under every possible target
+reassignment there can be at most 1/28 exact primary matches (gate 20), and
+zero of seven primary types can reach three of four (gate 6). Those two
+mapping-invariant failures are sufficient to fail the conjunctive rule.
+
+The target-to-crop and reviewer-delivery mappings were not preserved in
+contemporaneous sealed artifacts. The primary-localization gate is therefore
+unverified: canvas-compatible mappings give 23--24/28, straddling its threshold.
+Do not cite the disclosed join as an exact target-level result, a named-locus
+match, assigned type counts, or proof that all three gates failed. Reviewer
+history, delivered inputs, and release chronology also remain workflow
+assertions. Close only the frozen six-field transfer test on the two invariant
+gates; do not rescue it by rematching positions, widening tolerances, selecting
+types, or choosing a reading. The failure does not show that the ink lacks a
+finer stroke-level or continuous transcription system. It establishes no
+allography, sound, alphabet, word, language, cipher, plaintext, meaning, or
+translation.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU
