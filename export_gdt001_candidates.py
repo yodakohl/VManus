@@ -87,11 +87,18 @@ def selected_candidates(results: list[dict[str, Any]], lines) -> list[dict[str, 
     word_map = next(item for item in json.loads((ROOT / "gdt001_word_nomenclator_decoders.json").read_text())["decoders"] if item["seed"] == word_best["seed"] and item["k"] == word_best["k"] and item["language"] == word_best["language"])
     word_decoder = {"schema": "GDT001_WORD_NOMENCLATOR_DECODER_V1", "language_pack": word_best["language"], "mapping": word_map["mapping"], "residual_rule": "unmapped complete groups retained literally"}
     selected.append(make("wordnom_word_nomenclator_k032_o1_middle_high_german_s13101", word_decoder, {"k": 32, "order": 1, "language": "middle_high_german"}))
+    # The later literal prose-line-initial screen is now the strongest paid
+    # HYBRID candidate. Replace the older hybrid while retaining a diverse ten.
+    initial = json.loads((ROOT / "gdt001_line_initial_channel_results.json").read_text())["best"]
+    selected = [item for item in selected if item["candidate_id"] != "hybrid_dual_channel_entry_body"]
+    selected.append(make(f"lineinitial_{initial['language']}_o{initial['order']}_s{initial['seed']}",
+                         initial["decoder"], {"order": initial["order"], "language": initial["language"],
+                                              "scope": "CONFIRMED_PROSE_LINE_INITIAL"}))
     assert len(selected) == 10 and len({item["candidate_id"] for item in selected}) == 10
     return selected
 
 
-def decode(item: dict[str, Any], path, locus="") -> tuple[str, str]:
+def decode(item: dict[str, Any], path, locus="", grammar_scope="") -> tuple[str, str]:
     decoder = item["decoder"]
     schema = decoder.get("schema", "")
     if schema == "GDT001_EXPLICIT_MONOTONIC_MAPPING_V1":
@@ -133,6 +140,13 @@ def decode(item: dict[str, Any], path, locus="") -> tuple[str, str]:
     if schema == "GDT001_LATENT_LINE_STATE_DECODER_V1":
         state = item["_line_state_by_locus"][locus]
         return " | ".join(path.words), f"STATE_{state} :: {path.source_line}"
+    if schema == "GDT001_LINE_INITIAL_LANGUAGE_DECODER_V1":
+        if grammar_scope != "CONFIRMED_PROSE":
+            return " | ".join(path.words), f"OUT_OF_SCOPE_NONPROSE :: {path.source_line}"
+        mapping = {row["source"]: row["target"] for row in decoder["mapping"]}
+        first = path.source_line[:1]
+        value = mapping.get(first, "<EMPTY>")
+        return " | ".join(path.words), f"LINE_INITIAL={value} :: BODY={path.source_line[1:]}"
     if schema == "GDT001_ANONYMOUS_RECORD_DICTIONARY_V1":
         values = {row["source_group"]: row["latent_value"] for row in decoder["dictionary"]}
         return " | ".join(path.words), " ".join(values[word] for word in path.words)
@@ -157,6 +171,13 @@ def mapping_rows(item: dict[str, Any]) -> list[dict[str, Any]]:
     elif schema == "GDT001_SPARSE_PAYLOAD_LANGUAGE_DECODER_V1":
         for row in decoder["mapping"]:
             rows.append({"source_unit": row["source_unit"], "latent_or_plaintext_unit": row["latent_unit"], "mapping_probability": "EXPLORATORY_DETERMINISTIC_KEY_NOT_POSTERIOR", "context_restriction": "CORE_OF_CHE_PREFIX_GROUP_ONLY", "occurrences": row["occurrences"], "counterexamples": "all nonselected groups stay in a literal source channel; restart mapping is unstable"})
+    elif schema == "GDT001_LINE_INITIAL_LANGUAGE_DECODER_V1":
+        for row in decoder["mapping"]:
+            rows.append({"source_unit": row["source"], "latent_or_plaintext_unit": row["target"],
+                         "mapping_probability": "EXPLORATORY_DETERMINISTIC_KEY_NOT_POSTERIOR",
+                         "context_restriction": "FIRST_MODELED_SIGN_OF_CONFIRMED_PROSE_PHYSICAL_LINE_ONLY",
+                         "occurrences": row["occurrences"],
+                         "counterexamples": "matched anonymous channel is shorter; supported mapping is restart-unstable"})
     elif "mapping" in decoder:
         for row in decoder["mapping"]:
             rows.append({
@@ -232,6 +253,8 @@ def reverse_scorer(item, selected):
         # This scorer is stateful in the canonical serialization. A separate
         # packet pass below records actual and wrong-form prequential costs.
         return "CAUSAL_CONTEXT_MIXER_CANONICAL_PREFIX", None
+    if schema == "GDT001_LINE_INITIAL_LANGUAGE_DECODER_V1":
+        return "REVERSE_GENERATION_NOT_IMPLEMENTED_CANDIDATE_FAILS_REQUIREMENT", None
     return "REVERSE_GENERATION_NOT_IMPLEMENTED_CANDIDATE_FAILS_REQUIREMENT", None
 
 
@@ -293,7 +316,7 @@ def main() -> None:
         all_rows = []; segmentation = []; lexical = Counter()
         for line in lines:
             path = next(path for path in line.paths if path.path_id == chosen[line.locus])
-            segmented, decoded = decode(item, path, line.locus); lexical.update(decoded.split())
+            segmented, decoded = decode(item, path, line.locus, line.grammar_scope); lexical.update(decoded.split())
             all_rows.append({"locus": line.locus, "page": line.page, "section": line.section, "currier": line.currier, "source_lattice_paths": "|".join(p.path_id for p in line.paths), "selected_source": path.source_line, "literal_decoded": decoded, "normalized_plaintext_or_record": decoded, "confidence": "EXPLORATORY", "alternative_analysis": "other lattice path or mapping restart", "uncertainty_reason": "whole-manuscript postselected candidate"})
             segmentation.append({"locus": line.locus, "selected_path_id": path.path_id, "source": path.source_line, "segmentation": segmented, "rule": item["decoder"].get("segmentation_rule", item["decoder"].get("word_rule", "source-symbol stream"))})
         selected_paths = [next(path for path in line.paths if path.path_id == chosen[line.locus]) for line in lines]
@@ -311,7 +334,7 @@ def main() -> None:
         for label, page, positions in PACKETS:
             packet_lines = [line for line in lines if line.page == page and (not positions or int(line.locus.rsplit(".", 1)[-1]) in positions)]
             for line in packet_lines:
-                path = next(path for path in line.paths if path.path_id == chosen[line.locus]); segmented, decoded = decode(item, path, line.locus)
+                path = next(path for path in line.paths if path.path_id == chosen[line.locus]); segmented, decoded = decode(item, path, line.locus, line.grammar_scope)
                 wrong = wrong_path(path)
                 if reverse_mode == "CAUSAL_CONTEXT_MIXER_CANONICAL_PREFIX":
                     actual_bits, wrong_bits = mixer_actual[line.locus], mixer_wrong[line.locus]

@@ -4,7 +4,7 @@
 
 ## Outcome
 
-The current branch-local winner after **4,161 retained configurations** is
+The current branch-local winner after **4,179 retained configurations** is
 `contextmixer_s0_015625` at **2.960465 bits per source symbol**
 (575,289.45 total bits). It is an explicit canonical-locus-order prequential
 source code, not plaintext: for each order-2 history it causally mixes shared,
@@ -43,9 +43,13 @@ branch leaderboard and exact continuation diagnostics are in
 ten-decoder packet has been regenerated from the current branch state and is
 bound by `candidates/index.json`; the table below is the current ranking.
 
-## Complete current leaderboard
+## Complete current leaderboard and earlier top-50 snapshot
 
-All **4,157 converged configurations** are retained in `GDT001_YOLO_LEDGER.tsv`; the full ordered machine-readable leaderboard is `gdt001_tournament_runs.json`. The table below gives the current top 50.
+All **4,175 converged configurations** are retained in `GDT001_YOLO_LEDGER.tsv`;
+the complete current ordered leaderboard, including the 18 terminal
+line-initial runs, is `gdt001_tournament_runs.json`. The compact current top 20
+is in `GDT001_CURRENT_SUMMARY.md`. The table below is retained as the earlier
+4,161-configuration top-50 snapshot and is not the current ranking.
 
 | rank | run | class | system | bits | bits/source symbol | key | latent | reconstruction | exceptions |
 |---:|---|---|---|---:|---:|---:|---:|---:|---:|
@@ -168,3 +172,17 @@ case, medieval Czech, scored 1,230,922.91 bits (6.334 bits/source symbol),
 performed. Because these were only mechanically projected inherited keys,
 this result makes no claim about the unsearched 21^25 consonantal key space and
 supplies no consonant, vowel, word, or reading.
+
+A final narrow screen tested a literal acrostic-like observable that earlier
+entry models did not: the exact first modeled sign of each of the **4,035
+confirmed-prose physical lines**, serialized in numeric top-to-bottom order
+within each of 197 pages. A complete conditional corpus code compared six
+order-2 historical-language channels with the same-body anonymous order-2
+initial-stream code. The best retained mapping was Old Italian/Tuscan at
+582,644.76 bits, but it lost **5,813.56 bits** to its matched anonymous control
+and **7,354.31 bits** to the global source leader after adding the one-bit outer
+family selector (7,355.31 bits versus the raw published leader). Its three restart mappings
+agreed at only 0.0%, 0.0%, and 6.7% of the 15 supported source signs. The
+retained-map scores are exact but the coordinate search is heuristic. This
+stops only the tested literal confirmed-prose line-initial channel; it supplies
+no acrostic, letter, word, language, plaintext, meaning, or translation.

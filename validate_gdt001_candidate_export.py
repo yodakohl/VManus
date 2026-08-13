@@ -12,7 +12,7 @@ FILES = ("model_spec.json", "mapping.tsv", "segmentation.tsv",
 EXPECTED = {
     "contextmixer_s0_015625", "nonsemantic_ngram_o2",
     "nonsemantic_neural_gru_h48_s0072", "record_notation_fields",
-    "hybrid_dual_channel_entry_body", "latentline_k2_s28104",
+    "lineinitial_old_italian_tuscan_o2_s64101", "latentline_k2_s28104",
     "sparse_payload_che_prefix_mhg_s2301",
     "groupcodescale_k512_medieval_czech_s36105",
     "groupchar_group_character_language_k128_medieval_czech_s19103",
@@ -54,6 +54,12 @@ def main():
         if item["candidate_id"].startswith("latentline_"):
             state_by_locus = {row["locus"]: row["state"] for row in spec["decoder"]["line_states"]}
             need(len(state_by_locus) == len(loci) and all(row["normalized_plaintext_or_record"].startswith(f"STATE_{state_by_locus[row['locus']]} :: ") for row in plaintext), "latentline_assignments_visible")
+        if item["candidate_id"].startswith("lineinitial_"):
+            scope = {line.locus: line.grammar_scope for line in lines}
+            need(all((row["normalized_plaintext_or_record"].startswith("LINE_INITIAL=")
+                      if scope[row["locus"]] == "CONFIRMED_PROSE"
+                      else row["normalized_plaintext_or_record"].startswith("OUT_OF_SCOPE_NONPROSE ::"))
+                     for row in plaintext), "lineinitial_scope_visible")
         with (directory / "reverse_generation.tsv").open() as handle:
             reverse = list(csv.DictReader(handle, delimiter="\t"))
         current_packet = [row["locus"] for row in reverse]

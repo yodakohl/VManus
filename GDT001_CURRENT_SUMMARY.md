@@ -1,6 +1,6 @@
 # GDT001 current exploratory summary
 
-Runs retained: **4,161**; converged: **4,157**.
+Runs retained: **4,179**; converged: **4,175**.
 
 ## Current leaders
 
@@ -15,17 +15,17 @@ Runs retained: **4,161**; converged: **4,157**.
 | 7 | `contextaxis_o2` | NONSEMANTIC_GENERATOR | SPARSE_CONTEXT_AXIS_SOURCE | 2.990100 | 581,048.2 |
 | 8 | `contextmixer_s0_0` | NONSEMANTIC_GENERATOR | ONLINE_CONTEXT_EXPERT_MIXTURE | 2.990822 | 581,188.5 |
 | 9 | `sparsemeta_currier_o2` | NONSEMANTIC_GENERATOR | SPARSE_CURRIER_SOURCE | 2.997480 | 582,482.3 |
-| 10 | `sparsemeta_hand_o2` | NONSEMANTIC_GENERATOR | SPARSE_HAND_SOURCE | 3.001409 | 583,245.7 |
-| 11 | `sparsemeta_section_o2` | NONSEMANTIC_GENERATOR | SPARSE_SECTION_SOURCE | 3.012098 | 585,322.9 |
-| 12 | `metasource_rare_channel_currier_o2` | NONSEMANTIC_GENERATOR | METADATA_RARE_CHANNEL_CURRIER | 3.025287 | 587,885.9 |
-| 13 | `contexttree_rare_channel_d3` | NONSEMANTIC_GENERATOR | VARIABLE_ORDER_TREE_RARE_CHANNEL | 3.035728 | 589,914.8 |
-| 14 | `contexttree_rare_channel_d4` | NONSEMANTIC_GENERATOR | VARIABLE_ORDER_TREE_RARE_CHANNEL | 3.036275 | 590,021.0 |
-| 15 | `contexttree_rare_channel_d5` | NONSEMANTIC_GENERATOR | VARIABLE_ORDER_TREE_RARE_CHANNEL | 3.036288 | 590,023.7 |
-| 16 | `contexttree_rare_channel_d6` | NONSEMANTIC_GENERATOR | VARIABLE_ORDER_TREE_RARE_CHANNEL | 3.036288 | 590,023.7 |
-| 17 | `sparsemeta_grammar_scope_o2` | NONSEMANTIC_GENERATOR | SPARSE_GRAMMAR_SCOPE_SOURCE | 3.036415 | 590,048.4 |
-| 18 | `sparsemeta_kind_o2` | NONSEMANTIC_GENERATOR | SPARSE_KIND_SOURCE | 3.037710 | 590,299.9 |
-| 19 | `metasource_raw_currier_o2` | NONSEMANTIC_GENERATOR | METADATA_RAW_CURRIER | 3.038853 | 590,522.1 |
-| 20 | `latentline_k2_s28104` | RECORD_NOTATION | LATENT_LINE_STATES_K2 | 3.040089 | 590,762.3 |
+| 10 | `lineinitial_old_italian_tuscan_o2_s64101` | HYBRID | LITERAL_PROSE_LINE_INITIAL_OLD_ITALIAN_TUSCAN | 2.998316 | 582,644.8 |
+| 11 | `lineinitial_medieval_czech_o2_s64102` | HYBRID | LITERAL_PROSE_LINE_INITIAL_MEDIEVAL_CZECH | 2.998598 | 582,699.5 |
+| 12 | `lineinitial_latin_o2_s64103` | HYBRID | LITERAL_PROSE_LINE_INITIAL_LATIN | 2.999552 | 582,884.9 |
+| 13 | `lineinitial_old_hungarian_o2_s64103` | HYBRID | LITERAL_PROSE_LINE_INITIAL_OLD_HUNGARIAN | 2.999567 | 582,887.8 |
+| 14 | `lineinitial_latin_o2_s64101` | HYBRID | LITERAL_PROSE_LINE_INITIAL_LATIN | 2.999653 | 582,904.5 |
+| 15 | `lineinitial_middle_french_o2_s64102` | HYBRID | LITERAL_PROSE_LINE_INITIAL_MIDDLE_FRENCH | 2.999952 | 582,962.7 |
+| 16 | `lineinitial_latin_o2_s64102` | HYBRID | LITERAL_PROSE_LINE_INITIAL_LATIN | 3.000120 | 582,995.4 |
+| 17 | `lineinitial_middle_french_o2_s64103` | HYBRID | LITERAL_PROSE_LINE_INITIAL_MIDDLE_FRENCH | 3.000298 | 583,029.9 |
+| 18 | `lineinitial_middle_french_o2_s64101` | HYBRID | LITERAL_PROSE_LINE_INITIAL_MIDDLE_FRENCH | 3.000327 | 583,035.5 |
+| 19 | `lineinitial_middle_high_german_o2_s64101` | HYBRID | LITERAL_PROSE_LINE_INITIAL_MIDDLE_HIGH_GERMAN | 3.001364 | 583,237.1 |
+| 20 | `sparsemeta_hand_o2` | NONSEMANTIC_GENERATOR | SPARSE_HAND_SOURCE | 3.001409 | 583,245.7 |
 
 ## Result
 
@@ -39,7 +39,9 @@ The final cheap orthogonal source family assigned an explicit K=2–4 hidden sta
 
 A bounded omitted-vowel diagnostic let an order-2 historical LM insert unbounded `a/e/i/o/u` vowels and spaces around a deterministic inherited 21-consonant projection. Medieval Czech was best at **1,230,922.91 bits**, still **655,633.45 bits worse** than the mixer. No wider key search was performed, and this projected-key result makes no inference about unsearched consonantal keys.
 
-Direct character, positional, context-conditioned, Currier-specific, boundary-rule, periodic, fixed-block, learned-multigraph, whole-group character/expansion, whole-word nomenclator, null-symbol, latent-plaintext-space, consonantal-skeleton, STA-family/member, morphology, slot, differential-record, carrier/payload, scaffold-core language, and reading-order systems were tested. A new construction-root character model also crossed its own weak matched null but lost badly to the whole-group code and global source baseline. No mapping is retained as a reading.
+The literal first modeled sign of each of 4,035 confirmed-prose physical lines was also scored in numeric top-to-bottom page order as a possible historical-language/acrostic channel. Old Italian/Tuscan was the least costly retained map, but it lost **5,813.56 bits** to the matched anonymous line-initial code and **7,354.31 bits** to the selector-adjusted global source leader (**7,355.31 bits** versus the raw leader); the three supported-sign maps agreed on only 0.0–6.7% of coordinates. This bounded line-initial channel is stopped.
+
+Direct character, positional, context-conditioned, Currier-specific, boundary-rule, periodic, fixed-block, learned-multigraph, whole-group character/expansion, whole-word nomenclator, null-symbol, latent-plaintext-space, consonantal-skeleton, literal prose line-initial, STA-family/member, morphology, slot, differential-record, carrier/payload, scaffold-core language, and reading-order systems were tested. A new construction-root character model also crossed its own weak matched null but lost badly to the whole-group code and global source baseline. No mapping is retained as a reading.
 
 No candidate met the freeze requirements. **No translation has been obtained.** No confirmation branch is recommended.
 
