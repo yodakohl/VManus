@@ -20,6 +20,7 @@ def main():
     lines=[line.replace('**7,354.31 bits** to the global source leader',
                         '**7,354.31 bits** to the selector-adjusted global source leader (**7,355.31 bits** versus the raw leader)')
            for line in lines]
+    lines+=['', 'A frozen-state switching-key screen then conditioned one or two Middle High German homophonic keys on the already-published `latentline_k2_s28104` line partition. Two keys improved on one by **9,287.69 bits**, but the best remained **484,254.21 bits worse** than the matched frozen-state anonymous source model and **499,729.02 bits worse** than the selector-adjusted global leader; the retained two-key mappings were unstable. This closes only the fixed two-state/order-2 screen; the anonymous states acquire no language or meaning.']
     (ROOT/'GDT001_CURRENT_SUMMARY.md').write_text('\n'.join(lines)+'\n')
     print(json.dumps({'runs':len(rows),'leader':valid[0]['run_id'],'bits_per_symbol':float(valid[0]['bits_per_symbol']),'decision':payload['decision']}))
 

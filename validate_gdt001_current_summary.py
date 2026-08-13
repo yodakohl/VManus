@@ -35,6 +35,7 @@ def main():
     lsv=json.load(open(ROOT/'gdt001_latent_space_homophonic_validation.json'));ok(lsv['status']=='PASS_EXACT_ARTIFACT_ARITHMETIC_DECISIVE_SCREEN_STOP','latent_space_stop');ok(lsv['best_total_bits']>900000,'latent_space_loses')
     sk=json.load(open(ROOT/'gdt001_consonantal_skeleton_validation.json'));ok(sk['status']=='PASS_INDEPENDENT_PYTHON_PROJECTED_KEY_DIAGNOSTIC','skeleton_projected_key');ok(sk['best_total_bits']>1200000,'skeleton_projected_key_loses')
     li=json.load(open(ROOT/'gdt001_line_initial_channel_validation.json'));ok(li['status']=='PASS_INDEPENDENT_CPU_EXACT_STOP','line_initial_stop');ok(li['best_total_bits']>580000,'line_initial_loses')
+    fk=json.load(open(ROOT/'gdt001_frozen_line_state_keys_validation.json'));ok(fk['status']=='PASS_INDEPENDENT_CPU_EXACT_STOP','frozen_line_keys_stop');ok(fk['best_total_bits']>1000000,'frozen_line_keys_lose')
     partitions=json.load(open(ROOT/'gdt001_partition_stability.json'));ok(partitions['decision']=='STOP_LANGUAGE_PARTITIONS_UNSTABLE_AFTER_TARGET_LABEL_INVARIANCE','partition_instability')
     for name in ('gdt001_group_character_code_results.json','gdt001_prose_language_hybrid_results.json','gdt001_edge_carrier_language_results.json','gdt001_word_exact_audit_results.json','gdt001_differentiable_key_results.json'):
         d=json.load(open(ROOT/name));ok(d['status']=='EXPLORATORY_NOT_CONFIRMED_TRANSLATION',f'exploratory:{name}');ok(d['decision'].startswith('STOP'),f'stop:{name}')

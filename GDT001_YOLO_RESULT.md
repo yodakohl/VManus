@@ -4,7 +4,7 @@
 
 ## Outcome
 
-The current branch-local winner after **4,179 retained configurations** is
+The current branch-local winner after **4,185 retained configurations** is
 `contextmixer_s0_015625` at **2.960465 bits per source symbol**
 (575,289.45 total bits). It is an explicit canonical-locus-order prequential
 source code, not plaintext: for each order-2 history it causally mixes shared,
@@ -45,7 +45,7 @@ bound by `candidates/index.json`; the table below is the current ranking.
 
 ## Complete current leaderboard and earlier top-50 snapshot
 
-All **4,175 converged configurations** are retained in `GDT001_YOLO_LEDGER.tsv`;
+All **4,181 converged configurations** are retained in `GDT001_YOLO_LEDGER.tsv`;
 the complete current ordered leaderboard, including the 18 terminal
 line-initial runs, is `gdt001_tournament_runs.json`. The compact current top 20
 is in `GDT001_CURRENT_SUMMARY.md`. The table below is retained as the earlier
@@ -186,3 +186,15 @@ agreed at only 0.0%, 0.0%, and 6.7% of the 15 supported source signs. The
 retained-map scores are exact but the coordinate search is heuristic. This
 stops only the tested literal confirmed-prose line-initial channel; it supplies
 no acrostic, letter, word, language, plaintext, meaning, or translation.
+
+A separate terminal screen froze the already-published anonymous
+`latentline_k2_s28104` partition (2,482/2,904 physical lines) and asked whether
+one or two explicit Middle High German homophonic keys could replace its
+state-specific source emissions. The best shared-key run scored 1,084,307.17
+bits, **493,541.90 bits worse** than the matched frozen-state anonymous source
+model. Allowing a separate key per frozen state improved the best score by
+**9,287.69 bits**, but it still remained **484,254.21 bits worse** than the
+matched anonymous model and **499,729.02 bits worse** than the selector-adjusted
+global leader; restart keys were unstable. This closes only that frozen
+two-state/order-2 switching-key screen; it gives the anonymous states no role,
+letter value, word, language, plaintext, meaning, or translation.

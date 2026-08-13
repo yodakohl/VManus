@@ -45,6 +45,8 @@ def main():
     need(skeleton["status"] == "PASS_INDEPENDENT_PYTHON_PROJECTED_KEY_DIAGNOSTIC", "consonantal_skeleton_projected_key")
     line_initial = json.load(open(ROOT / "gdt001_line_initial_channel_validation.json"))
     need(line_initial["status"] == "PASS_INDEPENDENT_CPU_EXACT_STOP", "line_initial_stop")
+    frozen_keys = json.load(open(ROOT / "gdt001_frozen_line_state_keys_validation.json"))
+    need(frozen_keys["status"] == "PASS_INDEPENDENT_CPU_EXACT_STOP", "frozen_line_keys_stop")
     symbol = json.load(open(ROOT / "gdt001_symbol_state_markov_validation.json"))
     need(symbol["status"] == "PASS_EXACT_ARTIFACT_ARITHMETIC_STOP", "symbol_state_stop")
     report = (ROOT / "GDT001_YOLO_RESULT.md").read_text()

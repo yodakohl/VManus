@@ -1,6 +1,6 @@
 # GDT001 current exploratory summary
 
-Runs retained: **4,179**; converged: **4,175**.
+Runs retained: **4,185**; converged: **4,181**.
 
 ## Current leaders
 
@@ -46,3 +46,5 @@ Direct character, positional, context-conditioned, Currier-specific, boundary-ru
 No candidate met the freeze requirements. **No translation has been obtained.** No confirmation branch is recommended.
 
 All results are exploratory and branch-local.
+
+A frozen-state switching-key screen then conditioned one or two Middle High German homophonic keys on the already-published `latentline_k2_s28104` line partition. Two keys improved on one by **9,287.69 bits**, but the best remained **484,254.21 bits worse** than the matched frozen-state anonymous source model and **499,729.02 bits worse** than the selector-adjusted global leader; the retained two-key mappings were unstable. This closes only the fixed two-state/order-2 screen; the anonymous states acquire no language or meaning.
