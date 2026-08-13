@@ -7,7 +7,7 @@ from pathlib import Path
 from gdt001_core import canonical
 
 ROOT = Path(__file__).resolve().parent
-PREFIXES = ("boundaryrule_", "rolesource_", "metasource_", "sparsemeta_", "contextaxis_", "currierallograph_", "entrysource_", "latentline_", "exactcopy_", "wordtranspose_", "variablecontext_", "scaffoldlang_", "groupexpand_", "contexttree_", "latinscholastic_")
+PREFIXES = ("boundaryrule_", "rolesource_", "metasource_", "sparsemeta_", "contextaxis_", "currierallograph_", "entrysource_", "latentline_", "exactcopy_", "wordtranspose_", "variablecontext_", "scaffoldlang_", "groupexpand_", "contexttree_", "latinscholastic_", "residualpayload_", "ranknomen_", "groupcodeho_", "groupcodeo4ref_")
 
 
 def row(run_id, model_class, system, seed, config, total, bps, key, latent, reconstruction, decoder, notes):
@@ -122,6 +122,34 @@ def main():
                           {"model": r["model"], "pack": lsdata["pack_sha256"]}, r["total_bits"], r["bits_per_symbol"],
                           r["key_bits"], r["payload_bits"], r["fixed_bits"], r["decoder_hash"],
                           "EXPLORATORY; PINNED_MEDIEVAL_SCHOLASTIC_LATIN"))
+    rpdata = json.loads((ROOT / "gdt001_residual_payload_language_results.json").read_text())
+    for r in rpdata["rows"]:
+        ledger.append(row(f"residualpayload_{r['language']}_s{r['seed']}", "HYBRID", f"EXCEPTIONAL_CONTEXT_PAYLOAD_{r['language']}", r["seed"],
+                          {"language": r["language"], "selector": "VARIABLE_CONTEXT_EXCEPTIONS"}, r["total_bits"], r["bits_per_symbol"],
+                          r["base_key_bits"] + r["payload_key_bits"], r["other_source_bits"] + r["language_and_reverse_bits"] + r["rare_side_bits"],
+                          r["fixed_bits"], r["decoder_hash"], "EXPLORATORY; LANGUAGE_ONLY_AT_EXCEPTIONAL_SOURCE_CONTEXTS"))
+    rndata = json.loads((ROOT / "gdt001_rank_nomenclator_results.json").read_text())
+    for r in rndata["rows"]:
+        candidate = "null" if r["model"] == "MATCHED_RANK_NULL" else r["language"]
+        ledger.append(row(f"ranknomen_k{r['k']}_{candidate}", "NONSEMANTIC_GENERATOR" if candidate == "null" else "HOMOPHONIC_CIPHER",
+                          f"RANK_NOMENCLATOR_K{r['k']}_{candidate}", 0, {"k": r["k"], "candidate": candidate},
+                          r["total_bits"], r["bits_per_symbol"], r["key_bits"], r["payload_bits"], r["fixed_bits"], r["decoder_hash"],
+                          "EXPLORATORY; ZERO_PERMUTATION_FREQUENCY_RANK_CODE"))
+    ghdata = json.loads((ROOT / "gdt001_group_code_high_order_results.json").read_text())
+    for r in ghdata["rows"]:
+        candidate = "null" if r["model"] == "MATCHED_GROUP_NULL" else r["language"]
+        ledger.append(row(f"groupcodeho_o{r['order']}_{candidate}_s{r['seed']}",
+                          "NONSEMANTIC_GENERATOR" if candidate == "null" else "ABBR_LANG",
+                          f"GROUP_CHARACTER_ORDER{r['order']}_{candidate}", r["seed"],
+                          {"k": r["k"], "order": r["order"], "candidate": candidate}, r["total_bits"], r["bits_per_symbol"],
+                          r["key_bits"], r["payload_bits"], r["fixed_bits"], r["decoder_hash"],
+                          "EXPLORATORY; COMPLETE_GROUP_CHARACTER_HIGH_ORDER"))
+    grdata = json.loads((ROOT / "gdt001_group_code_order4_refine_results.json").read_text())
+    for r in grdata["rows"]:
+        ledger.append(row(f"groupcodeo4ref_{r['language']}_s{r['seed']}", "ABBR_LANG", "GROUP_CHARACTER_ORDER4_REFINED", r["seed"],
+                          {"k": r["k"], "order": r["order"], "language": r["language"], "refiner": "GPU_EXACT_COORDINATE"},
+                          r["total_bits"], r["bits_per_symbol"], r["key_bits"], r["payload_bits"], r["fixed_bits"],
+                          r["decoder_hash"], "EXPLORATORY; MATCHED_NULL_CROSSOVER; UNSTABLE; CONTROL_SCREENED"))
     fields = list(ledger[0])
     with (ROOT / "GDT001_YOLO_LEDGER.tsv").open("w", newline="", encoding="utf-8") as handle:
         writer = csv.DictWriter(handle, fields, delimiter="\t", lineterminator="\n"); writer.writeheader(); writer.writerows(sorted(ledger, key=lambda r: r["run_id"]))
