@@ -7,7 +7,7 @@ from pathlib import Path
 from gdt001_core import canonical
 
 ROOT = Path(__file__).resolve().parent
-PREFIXES = ("boundaryrule_", "rolesource_", "metasource_", "sparsemeta_", "contextaxis_", "currierallograph_", "entrysource_", "latentline_", "exactcopy_", "wordtranspose_", "variablecontext_", "scaffoldlang_", "groupexpand_")
+PREFIXES = ("boundaryrule_", "rolesource_", "metasource_", "sparsemeta_", "contextaxis_", "currierallograph_", "entrysource_", "latentline_", "exactcopy_", "wordtranspose_", "variablecontext_", "scaffoldlang_", "groupexpand_", "contexttree_", "latinscholastic_")
 
 
 def row(run_id, model_class, system, seed, config, total, bps, key, latent, reconstruction, decoder, notes):
@@ -110,6 +110,18 @@ def main():
                           f"GROUP_EXPANSION_K{r['k']}_{candidate}", r["seed"], {"k": r["k"], "candidate": candidate},
                           r["total_bits"], r["bits_per_symbol"], r["key_bits"], r["payload_bits"], r["fixed_bits"],
                           r["decoder_hash"], "EXPLORATORY; COMPLETE_GROUP_ONE_OR_TWO_LETTER_EXPANSION"))
+    ctdata = json.loads((ROOT / "gdt001_context_tree_source_results.json").read_text())
+    for r in ctdata["rows"]:
+        ledger.append(row(f"contexttree_{r['variant'].lower()}_d{r['maximum_depth']}", "NONSEMANTIC_GENERATOR",
+                          f"VARIABLE_ORDER_TREE_{r['variant']}", 0, {"variant": r["variant"], "maximum_depth": r["maximum_depth"]},
+                          r["total_bits"], r["bits_per_symbol"], r["key_bits"], r["payload_bits"] + r["side_channel_bits"],
+                          r["fixed_bits"], r["decoder_hash"], "EXPLORATORY; EXACT_CONTEXT_TREE_SOURCE"))
+    lsdata = json.loads((ROOT / "gdt001_latin_scholastic_results.json").read_text())
+    for r in lsdata["rows"]:
+        ledger.append(row(f"latinscholastic_{r['model'].lower()}_s{r['seed']}", "ABBR_LANG", f"LATIN_SCHOLASTIC_{r['model']}", r["seed"],
+                          {"model": r["model"], "pack": lsdata["pack_sha256"]}, r["total_bits"], r["bits_per_symbol"],
+                          r["key_bits"], r["payload_bits"], r["fixed_bits"], r["decoder_hash"],
+                          "EXPLORATORY; PINNED_MEDIEVAL_SCHOLASTIC_LATIN"))
     fields = list(ledger[0])
     with (ROOT / "GDT001_YOLO_LEDGER.tsv").open("w", newline="", encoding="utf-8") as handle:
         writer = csv.DictWriter(handle, fields, delimiter="\t", lineterminator="\n"); writer.writeheader(); writer.writerows(sorted(ledger, key=lambda r: r["run_id"]))

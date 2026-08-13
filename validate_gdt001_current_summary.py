@@ -21,7 +21,7 @@ def main():
     controls=json.load(open(ROOT/'gdt001_context_axis_control_results.json'));ok(controls['decision']=='STOP_CONTROL_MATCHES_REAL','control_decision');ok(max(x['gain_vs_matched_global_bits'] for x in controls['controls'])>controls['real']['gain_vs_matched_global_bits'],'control_exceeds_real')
     variable=json.load(open(ROOT/'gdt001_variable_context_source_results.json'));ok(abs(variable['best']['total_bits']-float(valid[0]['total_bits']))<1e-5,'variable_total');ok(variable['best']['selected_contexts']==41,'variable_contexts');ok(variable['best']['predictor_counts']=='{"CURRIER":20,"GRAMMAR_SCOPE":5,"HAND":4,"HISTORY3":3,"KIND":5,"SECTION":4}','variable_predictors')
     variable_controls=json.load(open(ROOT/'gdt001_variable_context_control_results.json'));ok(variable_controls['decision']=='STOP_CONTROL_MATCHES_VARIABLE_CONTEXT','variable_control_stop')
-    for name in ('gdt001_scaffold_language_results.json','gdt001_group_expansion_results.json'):
+    for name in ('gdt001_scaffold_language_results.json','gdt001_group_expansion_results.json','gdt001_context_tree_source_results.json','gdt001_latin_scholastic_results.json'):
         d=json.load(open(ROOT/name));ok(d['decision'].startswith('STOP'),f'stop:{name}')
     partitions=json.load(open(ROOT/'gdt001_partition_stability.json'));ok(partitions['decision']=='STOP_LANGUAGE_PARTITIONS_UNSTABLE_AFTER_TARGET_LABEL_INVARIANCE','partition_instability')
     for name in ('gdt001_group_character_code_results.json','gdt001_prose_language_hybrid_results.json','gdt001_edge_carrier_language_results.json','gdt001_word_exact_audit_results.json','gdt001_differentiable_key_results.json'):
