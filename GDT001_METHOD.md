@@ -31,7 +31,8 @@ All components are in bits. `gdt001_score_breakdown.tsv` allocates global
 variable costs over Currier and section in proportion to source-symbol count
 and retains class/key bits as a separate global row; the allocation is a
 diagnostic, not a refit. `gdt001_edition_sensitivity.json` scores the three
-edition-constrained path selections under the frozen winning predictor.
+edition-constrained path selections under the frozen winning algorithm/share,
+with causal state reinitialized for each diagnostic.
 
 ## Systems
 
@@ -41,6 +42,11 @@ edition-constrained path selections under the frozen winning predictor.
   Allography/homophony pays an exact reverse Dirichlet code.
 - `HOMOPHONIC_CIPHER`: every source unit has an explicit target letter; many
   source units may share a target, with exact reverse ambiguity cost.
+  A final boundary-independent variant erases manual source spaces, inserts
+  latent plaintext spaces by exact line-reset Viterbi under each historical
+  character model, and pays the same complete reverse-homophone and lattice
+  channel. Its decisive 12-configuration loss permits only three paid
+  one-coordinate restart probes, all of which retain the same mapping.
 - `RECORD_NOTATION`: anonymous prefix/operator, core/value, suffix/state
   records, plus a separate whole-group anonymous dictionary theory.
 - `NONSEMANTIC_GENERATOR`: integrated character n-grams, page unigram,
@@ -97,19 +103,22 @@ for decipherment.
 
 ## Candidate export and fixed packet
 
-The export comprises the five global MDL leaders plus the strongest missing
-required system classes, for ten total candidates. Each has an explicit
+The export comprises ten current, family-diverse candidates: the global source
+leader plus strong nonsemantic, record, hybrid, language, and cipher/word-code
+representatives. Each has an explicit
 mapping, complete-manuscript segmentation and output, lexicon, model spec,
-reverse-generation comparison, failure analysis, structural explanation, and
-ten frozen risky predictions. The fixed packet contains Herbal Currier A,
-Currier B, label-rich f75v, f57v, f67r2, f75v, circular f69v, and f116v. No
+reverse-generation status, failure analysis, structural explanation, and ten
+frozen risky predictions. The fixed packet contains Herbal Currier A,
+Currier B, the label-rich f75v stress page, f57v, f67r2, circular f69v, and
+f116v. The physical f75v page is included once with both applicable stress roles. No
 output is paraphrased or repaired.
 
-For stochastic source models, reverse generation compares the actual selected
-form to a frozen wrong form made by rotating each multi-symbol manual group by
-one source symbol. Record systems deterministically reconstruct the source
-from the exported anonymous record and dictionary; wrong forms have zero
-conditional probability.
+The context mixer, order-2 n-gram, and quantized GRU have finite conditional
+packet scorers comparing the actual selected form with a frozen wrong form made
+by rotating every multi-symbol manual group. The other seven exported
+hypotheses lack a correct independent conditional scorer; their packet fields
+are explicitly `NOT_COMPUTED` and the candidate fails the reverse-generation
+requirement. No deterministic or infinite credit is assigned.
 
 ## Decision
 

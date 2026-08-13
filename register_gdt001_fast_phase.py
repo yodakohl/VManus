@@ -7,7 +7,7 @@ from pathlib import Path
 from gdt001_core import canonical
 
 ROOT = Path(__file__).resolve().parent
-PREFIXES = ("boundaryrule_", "rolesource_", "metasource_", "sparsemeta_", "contextaxis_", "currierallograph_", "entrysource_", "latentline_", "symbolstate_", "exactcopy_", "wordtranspose_", "variablecontext_", "contextmixer_", "scaffoldlang_", "groupexpand_", "contexttree_", "latinscholastic_", "residualpayload_", "ranknomen_", "groupcodeho_", "groupcodeo4ref_", "groupcodescale_", "groupcodeanon_", "rootcode_")
+PREFIXES = ("boundaryrule_", "rolesource_", "metasource_", "sparsemeta_", "contextaxis_", "currierallograph_", "entrysource_", "latentline_", "symbolstate_", "latentspace_", "exactcopy_", "wordtranspose_", "variablecontext_", "contextmixer_", "scaffoldlang_", "groupexpand_", "contexttree_", "latinscholastic_", "residualpayload_", "ranknomen_", "groupcodeho_", "groupcodeo4ref_", "groupcodescale_", "groupcodeanon_", "rootcode_")
 
 
 def row(run_id, model_class, system, seed, config, total, bps, key, latent, reconstruction, decoder, notes):
@@ -81,6 +81,29 @@ def main():
                           {"k": r["requested_k"], "state_transition_order": 1, "emission_history": 2}, r["total_bits"], r["bits_per_symbol"],
                           r["key_bits"], r["state_transition_bits"] + r["emission_bits"] + r["side_channel_bits"], r["fixed_bits"],
                           r["state_path_hash"], "EXPLORATORY; EXPLICIT_STATE_PATH; UNSTABLE"))
+    lsdata = json.loads((ROOT / "gdt001_latent_space_homophonic_results.json").read_text())
+    decoder_by = {(r["language"], r["order"], r["seed"]): r for r in json.loads((ROOT / "gdt001_latent_space_homophonic_decoders.json").read_text())["decoders"]}
+    # The twelve pack/order screen rows and the three paid one-coordinate
+    # winning-configuration restarts are separate retained configurations.
+    for r in lsdata["screen"]:
+        screen_id = f"latentspace_screen_{r['language']}_o{r['order']}"
+        ledger.append(row(screen_id, "HOMOPHONIC_CIPHER", f"LATENT_PLAINTEXT_SPACE_{r['language'].upper()}", 0,
+                          {"language": r["language"], "order": r["order"], "latent_spaces": True, "stage": "SCREEN"},
+                          r["total_bits"], r["total_bits"] / 194324, r["key_bits"], r["payload_bits"], r["fixed_bits"],
+                          r["decoder_hash"], "EXPLORATORY; EXACT_LATENT_SPACE_SCREEN; DECISIVE_STOP"))
+    for r in lsdata["rows"]:
+        d = decoder_by[(r["language"], r["order"], r["seed"])]
+        ledger.append(row(f"latentspace_restart_{r['language']}_o{r['order']}_s{r['seed']}", "HOMOPHONIC_CIPHER", f"LATENT_PLAINTEXT_SPACE_{r['language'].upper()}", r["seed"],
+                          {"language": r["language"], "order": r["order"], "latent_spaces": True}, r["total_bits"], r["bits_per_symbol"], r["key_bits"],
+                          r["language_bits"] + r["reverse_bits"], r["fixed_bits"], d["decoder_hash"],
+                          "EXPLORATORY; EXACT_LATENT_SPACE_RESTART; DECISIVE_SCREEN_STOP"))
+    # Repair legacy interleaved-channel ID collisions without changing scores.
+    channel_configs = {hashlib.sha256(canonical({"scheme": record["scheme"], "order": record["order"]})).hexdigest(): record
+                       for record in json.loads((ROOT / "gdt001_interleaved_channel_results.json").read_text())["rows"]}
+    for entry in ledger:
+        if entry["run_id"].startswith("channels_") and entry["run_id"].endswith("_s0000"):
+            base = entry["run_id"][:-6]
+            entry["run_id"] = f"{base}_o{channel_configs[entry['config_hash']]['order']}"
     xdata = json.loads((ROOT / "gdt001_exact_copy_cache_results.json").read_text())
     for r in xdata["rows"]:
         ledger.append(row(f"exactcopy_w{r['window']}_m{r['minimum_copy_length']}_o{r['literal_order']}", "NONSEMANTIC_GENERATOR", "EXACT_PAGE_COPY_CACHE", 0,
@@ -177,6 +200,8 @@ def main():
     ledger.append(row(f"rootcode_k{rtdata['k']}_{rtdata['language']}_s{rtdata['seed']}", "ABBR_LANG", "CONSTRUCTION_ROOT_CHARACTER_CODE", rtdata["seed"],
                       {"k": rtdata["k"], "order": rtdata["order"], "language": rtdata["language"]}, rtdata["total_bits"], rtdata["bits_per_symbol"],
                       rtdata["key_bits"], rtdata["payload_bits"], rtdata["fixed_bits"], rtdata["decoder_hash"], "EXPLORATORY; ROOT_LEVEL_CODE; SINGLE_RESTART"))
+    if len({entry["run_id"] for entry in ledger}) != len(ledger):
+        raise AssertionError("duplicate run_id after registration")
     fields = list(ledger[0])
     with (ROOT / "GDT001_YOLO_LEDGER.tsv").open("w", newline="", encoding="utf-8") as handle:
         writer = csv.DictWriter(handle, fields, delimiter="\t", lineterminator="\n"); writer.writeheader(); writer.writerows(sorted(ledger, key=lambda r: r["run_id"]))

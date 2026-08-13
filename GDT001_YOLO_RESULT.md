@@ -4,7 +4,7 @@
 
 ## Outcome
 
-The current branch-local winner after **4,131 retained runs** is
+The current branch-local winner after **4,155 retained configurations** is
 `contextmixer_s0_015625` at **2.960465 bits per source symbol**
 (575,289.45 total bits). It is an explicit canonical-locus-order prequential
 source code, not plaintext: for each order-2 history it causally mixes shared,
@@ -25,90 +25,91 @@ The last distinct cheap source family was also tested: an explicit within-line
 K=2–4 latent-state path with first-order state coding and state-conditioned
 observed-history emissions. Its best paid score is 3.397039 bits/source symbol,
 84,836.8 bits behind the context mixer; all three state paths differ at every
-K. The nine failed state systems remain in the ledger and artifact set.
+K. The nine losing state systems remain in the ledger and artifact set.
 
-No candidate qualifies for freezing as a decipherment. The complete updated
+The last distinct cheap semantic mechanism was also screened: source
+boundaries are erased, a paid homophonic key emits letters, and exact
+line-reset Viterbi inserts latent plaintext spaces under each of the six
+historical-language packs at orders 2 and 4. Three paid one-coordinate restart
+probes were retained for the winning screen; all three proposals were rejected
+and retained the same mapping. The best is Middle High German at
+4.898428 bits/source symbol, 376,592.7 bits behind the current source leader.
+The model-generated string is retained for inspection but is not accepted as plaintext.
+
+No candidate qualifies for freezing as a decipherment. **No translation has
+been obtained.** The complete updated
 branch leaderboard and exact continuation diagnostics are in
-`GDT001_CURRENT_SUMMARY.md` and `gdt001_current_summary.json`; the table below
-records the original tournament stage and is retained rather than rewritten.
+`GDT001_CURRENT_SUMMARY.md` and `gdt001_current_summary.json`. The mandatory
+ten-decoder packet has been regenerated from the current branch state and is
+bound by `candidates/index.json`; the table below is the current ranking.
 
-## Complete leaderboard
+## Complete current leaderboard
 
-| rank | candidate | class | system | bits | bits/source symbol | key | latent | reconstruction | exceptions |
+All **4,151 converged configurations** are retained in `GDT001_YOLO_LEDGER.tsv`; the full ordered machine-readable leaderboard is `gdt001_tournament_runs.json`. The table below gives the current top 50.
+
+| rank | run | class | system | bits | bits/source symbol | key | latent | reconstruction | exceptions |
 |---:|---|---|---|---:|---:|---:|---:|---:|---:|
-| 1 | `nonsemantic_ngram_o2` | NONSEMANTIC_GENERATOR | CHAR_2GRAM_KT | 593383.29 | 3.053577 | 3.00 | 0.00 | 593377.29 | 0.00 |
-| 2 | `nonsemantic_ngram_o3` | NONSEMANTIC_GENERATOR | CHAR_3GRAM_KT | 610290.27 | 3.140468 | 5.00 | 0.00 | 610282.27 | 0.00 |
-| 3 | `nonsemantic_ngram_o1` | NONSEMANTIC_GENERATOR | CHAR_1GRAM_KT | 643430.25 | 3.311803 | 3.00 | 0.00 | 643424.25 | 0.00 |
-| 4 | `nonsemantic_ngram_o4` | NONSEMANTIC_GENERATOR | CHAR_4GRAM_KT | 654662.28 | 3.368887 | 5.00 | 0.00 | 654654.28 | 0.00 |
-| 5 | `nonsemantic_ngram_o5` | NONSEMANTIC_GENERATOR | CHAR_5GRAM_KT | 723158.04 | 3.721116 | 5.00 | 0.00 | 723150.04 | 0.00 |
-| 6 | `nonsemantic_neural_gru_h48_s0072` | NONSEMANTIC_GENERATOR | QUANTIZED_GRU_H48 | 796655.14 | 4.125673 | 133832.00 | 0.00 | 662820.14 | 0.00 |
-| 7 | `nonsemantic_neural_gru_h48_s0071` | NONSEMANTIC_GENERATOR | QUANTIZED_GRU_H48 | 798513.43 | 4.135297 | 133832.00 | 0.00 | 664678.43 | 0.00 |
-| 8 | `nonsemantic_neural_gru_h48_s0073` | NONSEMANTIC_GENERATOR | QUANTIZED_GRU_H48 | 799209.39 | 4.138901 | 133832.00 | 0.00 | 665374.39 | 0.00 |
-| 9 | `hybrid_dual_channel_entry_body` | HYBRID | ENTRY_STATE_PLUS_STEM_MODIFIER | 877968.25 | 4.546773 | 143600.05 | 466010.77 | 268354.44 | 0.00 |
-| 10 | `abbr_lang_multigraph_middle_high_german_nonull_s0101` | ABBR_LANG | middle_high_german_MULTIGRAPH | 988087.21 | 5.117051 | 571.56 | 645205.54 | 342307.12 | 0.00 |
-| 11 | `abbr_lang_multigraph_middle_high_german_nonull_s0303` | ABBR_LANG | middle_high_german_MULTIGRAPH | 990791.06 | 5.131054 | 571.56 | 672589.25 | 317627.25 | 0.00 |
-| 12 | `abbr_lang_multigraph_middle_high_german_nonull_s0202` | ABBR_LANG | middle_high_german_MULTIGRAPH | 991072.42 | 5.132511 | 571.56 | 676159.77 | 314338.10 | 0.00 |
-| 13 | `record_notation_fields` | RECORD_NOTATION | ENTRY_PREFIX_CORE_SUFFIX | 1007042.23 | 5.182018 | 156543.67 | 701043.07 | 149452.49 | 0.00 |
-| 14 | `abbr_lang_multigraph_middle_high_german_nullq_s0202` | ABBR_LANG | middle_high_german_MULTIGRAPH | 1013459.07 | 5.248445 | 566.86 | 679644.24 | 333244.97 | 0.00 |
-| 15 | `abbr_lang_multigraph_middle_high_german_nullq_s0101` | ABBR_LANG | middle_high_german_MULTIGRAPH | 1016514.20 | 5.264267 | 566.86 | 667734.65 | 348209.70 | 0.00 |
-| 16 | `nonsemantic_page_unigram` | NONSEMANTIC_GENERATOR | PAGE_CONDITIONED_UNIGRAM | 1034025.80 | 5.323663 | 15.00 | 0.00 | 1034007.80 | 0.00 |
-| 17 | `nonsemantic_ngram_o0` | NONSEMANTIC_GENERATOR | CHAR_0GRAM_KT | 1034034.34 | 5.323625 | 1.00 | 0.00 | 1034030.34 | 0.00 |
-| 18 | `abbr_lang_multigraph_middle_high_german_nullq_s0303` | ABBR_LANG | middle_high_german_MULTIGRAPH | 1035860.64 | 5.364457 | 566.86 | 703784.81 | 331505.97 | 0.00 |
-| 19 | `homophonic_cipher_middle_high_german_s0101` | HOMOPHONIC_CIPHER | middle_high_german | 1049190.86 | 5.401351 | 123.10 | 856145.93 | 192918.83 | 0.00 |
-| 20 | `abbr_lang_middle_high_german_s0202` | ABBR_LANG | middle_high_german | 1052666.91 | 5.419944 | 93.97 | 902117.83 | 150452.11 | 0.00 |
-| 21 | `abbr_lang_middle_high_german_s0303` | ABBR_LANG | middle_high_german | 1052667.51 | 5.419975 | 93.97 | 902118.43 | 150452.11 | 0.00 |
-| 22 | `abbr_lang_old_hungarian_s0202` | ABBR_LANG | old_hungarian | 1058823.78 | 5.451195 | 93.97 | 908745.86 | 149980.96 | 0.00 |
-| 23 | `abbr_lang_old_hungarian_s0101` | ABBR_LANG | old_hungarian | 1058830.52 | 5.451230 | 93.97 | 908752.60 | 149980.96 | 0.00 |
-| 24 | `homophonic_cipher_middle_high_german_s0303` | HOMOPHONIC_CIPHER | middle_high_german | 1062136.62 | 5.466056 | 123.10 | 841817.08 | 220193.45 | 0.00 |
-| 25 | `homophonic_cipher_old_hungarian_s0202` | HOMOPHONIC_CIPHER | old_hungarian | 1062699.71 | 5.471291 | 123.10 | 874335.50 | 188238.11 | 0.00 |
-| 26 | `homophonic_cipher_old_italian_tuscan_s0202` | HOMOPHONIC_CIPHER | old_italian_tuscan | 1063749.37 | 5.476244 | 123.10 | 873047.43 | 190575.84 | 0.00 |
-| 27 | `abbr_lang_old_hungarian_s0303` | ABBR_LANG | old_hungarian | 1064615.10 | 5.480757 | 93.97 | 914414.20 | 150103.94 | 0.00 |
-| 28 | `homophonic_cipher_old_hungarian_s0303` | HOMOPHONIC_CIPHER | old_hungarian | 1065113.84 | 5.483522 | 123.10 | 876911.52 | 188076.22 | 0.00 |
-| 29 | `abbr_lang_old_italian_tuscan_s0101` | ABBR_LANG | old_italian_tuscan | 1073070.58 | 5.522780 | 93.97 | 922590.50 | 150383.11 | 0.00 |
-| 30 | `abbr_lang_old_italian_tuscan_s0202` | ABBR_LANG | old_italian_tuscan | 1073070.58 | 5.522780 | 93.97 | 922590.50 | 150383.11 | 0.00 |
-| 31 | `homophonic_cipher_old_hungarian_s0101` | HOMOPHONIC_CIPHER | old_hungarian | 1077579.95 | 5.547501 | 123.10 | 890902.10 | 186551.76 | 0.00 |
-| 32 | `homophonic_cipher_old_italian_tuscan_s0101` | HOMOPHONIC_CIPHER | old_italian_tuscan | 1081753.66 | 5.567555 | 123.10 | 887307.17 | 194320.40 | 0.00 |
-| 33 | `record_notation_dictionary_o0` | RECORD_NOTATION | ANONYMOUS_VALUE_DICTIONARY_0GRAM | 1082141.06 | 5.604132 | 389357.01 | 424426.61 | 268354.44 | 0.00 |
-| 34 | `abbr_lang_middle_high_german_s0101` | ABBR_LANG | middle_high_german | 1084349.56 | 5.582841 | 93.97 | 933809.97 | 150442.62 | 0.00 |
-| 35 | `abbr_lang_old_italian_tuscan_s0303` | ABBR_LANG | old_italian_tuscan | 1087127.68 | 5.595300 | 93.97 | 936695.75 | 150334.96 | 0.00 |
-| 36 | `homophonic_cipher_middle_french_s0303` | HOMOPHONIC_CIPHER | middle_french | 1100703.82 | 5.664475 | 123.10 | 863116.26 | 237461.46 | 0.00 |
-| 37 | `homophonic_cipher_old_italian_tuscan_s0303` | HOMOPHONIC_CIPHER | old_italian_tuscan | 1101199.25 | 5.667579 | 123.10 | 896863.13 | 204210.03 | 0.00 |
-| 38 | `homophonic_cipher_middle_high_german_s0202` | HOMOPHONIC_CIPHER | middle_high_german | 1106893.75 | 5.698911 | 123.10 | 898275.64 | 208492.01 | 0.00 |
-| 39 | `abbr_lang_medieval_czech_s0101` | ABBR_LANG | medieval_czech | 1111926.75 | 5.724912 | 93.97 | 961468.37 | 150361.41 | 0.00 |
-| 40 | `abbr_lang_medieval_czech_s0303` | ABBR_LANG | medieval_czech | 1115165.83 | 5.741589 | 93.97 | 965057.70 | 150011.16 | 0.00 |
-| 41 | `homophonic_cipher_medieval_czech_s0101` | HOMOPHONIC_CIPHER | medieval_czech | 1115446.26 | 5.742737 | 123.10 | 964850.97 | 150469.20 | 0.00 |
-| 42 | `homophonic_cipher_middle_french_s0101` | HOMOPHONIC_CIPHER | middle_french | 1118801.25 | 5.757668 | 123.10 | 933528.48 | 185146.67 | 0.00 |
-| 43 | `homophonic_cipher_latin_s0101` | HOMOPHONIC_CIPHER | latin | 1123201.97 | 5.782220 | 123.10 | 931225.90 | 191849.98 | 0.00 |
-| 44 | `homophonic_cipher_middle_french_s0202` | HOMOPHONIC_CIPHER | middle_french | 1123417.68 | 5.781544 | 123.10 | 936053.43 | 187238.15 | 0.00 |
-| 45 | `homophonic_cipher_latin_s0202` | HOMOPHONIC_CIPHER | latin | 1125255.88 | 5.791809 | 123.10 | 893950.38 | 231179.40 | 0.00 |
-| 46 | `abbr_lang_latin_s0202` | ABBR_LANG | latin | 1131976.95 | 5.827723 | 93.97 | 981504.76 | 150375.22 | 0.00 |
-| 47 | `abbr_lang_latin_s0303` | ABBR_LANG | latin | 1131983.43 | 5.827757 | 93.97 | 981507.65 | 150378.81 | 0.00 |
-| 48 | `homophonic_cipher_latin_s0303` | HOMOPHONIC_CIPHER | latin | 1137618.06 | 5.857157 | 123.10 | 884563.99 | 252927.97 | 0.00 |
-| 49 | `abbr_lang_middle_french_s0101` | ABBR_LANG | middle_french | 1139108.63 | 5.862417 | 93.97 | 989057.21 | 149954.45 | 0.00 |
-| 50 | `abbr_lang_middle_french_s0303` | ABBR_LANG | middle_french | 1139110.20 | 5.865202 | 93.97 | 988437.82 | 150575.42 | 0.00 |
-| 51 | `abbr_lang_middle_french_s0202` | ABBR_LANG | middle_french | 1139707.85 | 5.866467 | 93.97 | 989443.98 | 150166.90 | 0.00 |
-| 52 | `abbr_lang_medieval_czech_s0202` | ABBR_LANG | medieval_czech | 1139967.03 | 5.869312 | 93.97 | 989626.60 | 150243.47 | 0.00 |
-| 53 | `homophonic_cipher_medieval_czech_s0303` | HOMOPHONIC_CIPHER | medieval_czech | 1140735.36 | 5.873419 | 123.10 | 990426.91 | 150182.35 | 0.00 |
-| 54 | `record_notation_entry_fields` | RECORD_NOTATION | ENTRY_PREFIX_CORE_SUFFIX | 1153695.53 | 5.936663 | 156724.27 | 847506.86 | 149461.40 | 0.00 |
-| 55 | `record_notation_dictionary_o1` | RECORD_NOTATION | ANONYMOUS_VALUE_DICTIONARY_1GRAM | 1160341.66 | 6.009113 | 389359.01 | 502625.20 | 268354.44 | 0.00 |
-| 56 | `record_notation_dictionary_o2` | RECORD_NOTATION | ANONYMOUS_VALUE_DICTIONARY_2GRAM | 1172773.66 | 6.073495 | 389359.01 | 515057.21 | 268354.44 | 0.00 |
-| 57 | `homophonic_cipher_medieval_czech_s0202` | HOMOPHONIC_CIPHER | medieval_czech | 1176771.92 | 6.056438 | 123.10 | 981410.85 | 195234.98 | 0.00 |
-| 58 | `nonsemantic_copy_w32` | NONSEMANTIC_GENERATOR | PAGE_COPY_MODIFY_W32 | 1184103.92 | 6.096087 | 11.00 | 0.00 | 1184089.92 | 0.00 |
-| 59 | `nonsemantic_copy_w128` | NONSEMANTIC_GENERATOR | PAGE_COPY_MODIFY_W128 | 1185016.71 | 6.100880 | 15.00 | 0.00 | 1184998.71 | 0.00 |
-| 60 | `nonsemantic_copy_w8` | NONSEMANTIC_GENERATOR | PAGE_COPY_MODIFY_W8 | 1208312.30 | 6.220942 | 7.00 | 0.00 | 1208302.30 | 0.00 |
-| 61 | `abbr_lang_latin_s0101` | ABBR_LANG | latin | 1244312.48 | 6.405991 | 93.97 | 1094183.01 | 150032.50 | 0.00 |
-
+| 1 | `contextmixer_s0_015625` | NONSEMANTIC_GENERATOR | ONLINE_CONTEXT_EXPERT_MIXTURE | 575289.45 | 2.960465 | 22.75 | 425472.09 | 149794.61 | 0.00 |
+| 2 | `contextmixer_s0_00390625` | NONSEMANTIC_GENERATOR | ONLINE_CONTEXT_EXPERT_MIXTURE | 575376.63 | 2.960914 | 22.75 | 425559.26 | 149794.61 | 0.00 |
+| 3 | `contextmixer_s0_0009765625` | NONSEMANTIC_GENERATOR | ONLINE_CONTEXT_EXPERT_MIXTURE | 575967.86 | 2.963956 | 22.75 | 426150.49 | 149794.61 | 0.00 |
+| 4 | `contextmixer_s0_000244140625` | NONSEMANTIC_GENERATOR | ONLINE_CONTEXT_EXPERT_MIXTURE | 576580.25 | 2.967108 | 22.75 | 426762.89 | 149794.61 | 0.00 |
+| 5 | `contextmixer_s0_0625` | NONSEMANTIC_GENERATOR | ONLINE_CONTEXT_EXPERT_MIXTURE | 576768.12 | 2.968075 | 22.75 | 426950.76 | 149794.61 | 0.00 |
+| 6 | `variablecontext_o2` | NONSEMANTIC_GENERATOR | VARIABLE_HISTORY_OR_METADATA_SOURCE | 580910.36 | 2.989391 | 309.17 | 430806.58 | 149794.61 | 0.00 |
+| 7 | `contextaxis_o2` | NONSEMANTIC_GENERATOR | SPARSE_CONTEXT_AXIS_SOURCE | 581048.17 | 2.990100 | 294.87 | 430958.69 | 149794.61 | 0.00 |
+| 8 | `contextmixer_s0_0` | NONSEMANTIC_GENERATOR | ONLINE_CONTEXT_EXPERT_MIXTURE | 581188.51 | 2.990822 | 22.75 | 431371.14 | 149794.61 | 0.00 |
+| 9 | `sparsemeta_currier_o2` | NONSEMANTIC_GENERATOR | SPARSE_CURRIER_SOURCE | 582482.27 | 2.997480 | 187.25 | 432500.41 | 149794.61 | 0.00 |
+| 10 | `sparsemeta_hand_o2` | NONSEMANTIC_GENERATOR | SPARSE_HAND_SOURCE | 583245.71 | 3.001409 | 137.14 | 433313.95 | 149794.61 | 0.00 |
+| 11 | `sparsemeta_section_o2` | NONSEMANTIC_GENERATOR | SPARSE_SECTION_SOURCE | 585322.89 | 3.012098 | 137.14 | 435391.14 | 149794.61 | 0.00 |
+| 12 | `metasource_rare_channel_currier_o2` | NONSEMANTIC_GENERATOR | METADATA_RARE_CHANNEL_CURRIER | 587885.90 | 3.025287 | 26.63 | 438064.66 | 149794.61 | 0.00 |
+| 13 | `contexttree_rare_channel_d3` | NONSEMANTIC_GENERATOR | VARIABLE_ORDER_TREE_RARE_CHANNEL | 589914.78 | 3.035728 | 27.97 | 440092.19 | 149794.61 | 0.00 |
+| 14 | `contexttree_rare_channel_d4` | NONSEMANTIC_GENERATOR | VARIABLE_ORDER_TREE_RARE_CHANNEL | 590021.02 | 3.036275 | 27.97 | 440198.43 | 149794.61 | 0.00 |
+| 15 | `contexttree_rare_channel_d5` | NONSEMANTIC_GENERATOR | VARIABLE_ORDER_TREE_RARE_CHANNEL | 590023.71 | 3.036288 | 27.97 | 440201.12 | 149794.61 | 0.00 |
+| 16 | `contexttree_rare_channel_d6` | NONSEMANTIC_GENERATOR | VARIABLE_ORDER_TREE_RARE_CHANNEL | 590023.71 | 3.036288 | 27.97 | 440201.13 | 149794.61 | 0.00 |
+| 17 | `sparsemeta_grammar_scope_o2` | NONSEMANTIC_GENERATOR | SPARSE_GRAMMAR_SCOPE_SOURCE | 590048.37 | 3.036415 | 166.01 | 440087.75 | 149794.61 | 0.00 |
+| 18 | `sparsemeta_kind_o2` | NONSEMANTIC_GENERATOR | SPARSE_KIND_SOURCE | 590299.88 | 3.037710 | 133.22 | 440372.05 | 149794.61 | 0.00 |
+| 19 | `metasource_raw_currier_o2` | NONSEMANTIC_GENERATOR | METADATA_RAW_CURRIER | 590522.13 | 3.038853 | 10.46 | 440717.05 | 149794.61 | 0.00 |
+| 20 | `latentline_k2_s28104` | RECORD_NOTATION | LATENT_LINE_STATES_K2 | 590762.26 | 3.040089 | 28.34 | 440939.31 | 149794.61 | 0.00 |
+| 21 | `latentline_k2_s28106` | RECORD_NOTATION | LATENT_LINE_STATES_K2 | 590813.93 | 3.040355 | 28.34 | 440990.98 | 149794.61 | 0.00 |
+| 22 | `latentline_k2_s28102` | RECORD_NOTATION | LATENT_LINE_STATES_K2 | 590827.09 | 3.040423 | 28.34 | 441004.14 | 149794.61 | 0.00 |
+| 23 | `latentline_k2_s28103` | RECORD_NOTATION | LATENT_LINE_STATES_K2 | 590858.27 | 3.040583 | 28.34 | 441035.32 | 149794.61 | 0.00 |
+| 24 | `latentline_k2_s28101` | RECORD_NOTATION | LATENT_LINE_STATES_K2 | 590891.46 | 3.040754 | 28.34 | 441068.51 | 149794.61 | 0.00 |
+| 25 | `latentline_k2_s28107` | RECORD_NOTATION | LATENT_LINE_STATES_K2 | 590946.23 | 3.041036 | 28.34 | 441123.28 | 149794.61 | 0.00 |
+| 26 | `latentline_k2_s28108` | RECORD_NOTATION | LATENT_LINE_STATES_K2 | 590968.26 | 3.041149 | 28.34 | 441145.31 | 149794.61 | 0.00 |
+| 27 | `sparsemeta_code_o2` | NONSEMANTIC_GENERATOR | SPARSE_CODE_SOURCE | 591099.63 | 3.041825 | 42.21 | 441262.81 | 149794.61 | 0.00 |
+| 28 | `latentline_k2_s28105` | RECORD_NOTATION | LATENT_LINE_STATES_K2 | 591141.25 | 3.042039 | 28.34 | 441318.30 | 149794.61 | 0.00 |
+| 29 | `contexttree_raw_d3` | NONSEMANTIC_GENERATOR | VARIABLE_ORDER_TREE_RAW | 591455.54 | 3.043657 | 11.81 | 441649.12 | 149794.61 | 0.00 |
+| 30 | `contexttree_rare_channel_d2` | NONSEMANTIC_GENERATOR | VARIABLE_ORDER_TREE_RARE_CHANNEL | 591493.13 | 3.043850 | 25.97 | 441672.55 | 149794.61 | 0.00 |
+| 31 | `contexttree_raw_d4` | NONSEMANTIC_GENERATOR | VARIABLE_ORDER_TREE_RAW | 591535.06 | 3.044066 | 11.81 | 441728.64 | 149794.61 | 0.00 |
+| 32 | `contexttree_raw_d5` | NONSEMANTIC_GENERATOR | VARIABLE_ORDER_TREE_RAW | 591535.78 | 3.044070 | 11.81 | 441729.36 | 149794.61 | 0.00 |
+| 33 | `contexttree_raw_d6` | NONSEMANTIC_GENERATOR | VARIABLE_ORDER_TREE_RAW | 591535.78 | 3.044070 | 11.81 | 441729.36 | 149794.61 | 0.00 |
+| 34 | `sourcenull_juz` | NONSEMANTIC_GENERATOR | SOURCE_SELECTED_DELETION | 592040.27 | 3.046666 | 158.58 | 442087.07 | 149794.61 | 0.00 |
+| 35 | `sparsemeta_page_o2` | NONSEMANTIC_GENERATOR | SPARSE_PAGE_SOURCE | 592042.66 | 3.046678 | 24.56 | 442223.49 | 149794.61 | 0.00 |
+| 36 | `metasource_rare_channel_global_o2` | NONSEMANTIC_GENERATOR | METADATA_RARE_CHANNEL_GLOBAL | 592044.73 | 3.046689 | 26.63 | 442223.49 | 149794.61 | 0.00 |
+| 37 | `latentline_k1_s0` | RECORD_NOTATION | LATENT_LINE_STATES_K1 | 592046.44 | 3.046697 | 28.34 | 442223.49 | 149794.61 | 0.00 |
+| 38 | `sourceclass_k20` | NONSEMANTIC_GENERATOR | CONTEXTUAL_SOURCE_CLASSES | 592063.89 | 3.046787 | 123.05 | 442146.23 | 149794.61 | 0.00 |
+| 39 | `sourcenull_bjz` | NONSEMANTIC_GENERATOR | SOURCE_SELECTED_DELETION | 592093.32 | 3.046939 | 266.06 | 442032.64 | 149794.61 | 0.00 |
+| 40 | `sourcenull_bju` | NONSEMANTIC_GENERATOR | SOURCE_SELECTED_DELETION | 592094.43 | 3.046944 | 249.71 | 442050.11 | 149794.61 | 0.00 |
+| 41 | `sourcenull_buz` | NONSEMANTIC_GENERATOR | SOURCE_SELECTED_DELETION | 592098.24 | 3.046964 | 266.06 | 442037.57 | 149794.61 | 0.00 |
+| 42 | `sourcenull_juv` | NONSEMANTIC_GENERATOR | SOURCE_SELECTED_DELETION | 592105.94 | 3.047004 | 264.13 | 442047.20 | 149794.61 | 0.00 |
+| 43 | `sourcenull_jvz` | NONSEMANTIC_GENERATOR | SOURCE_SELECTED_DELETION | 592107.47 | 3.047012 | 280.47 | 442032.38 | 149794.61 | 0.00 |
+| 44 | `sourcenull_uvz` | NONSEMANTIC_GENERATOR | SOURCE_SELECTED_DELETION | 592109.75 | 3.047023 | 280.47 | 442034.66 | 149794.61 | 0.00 |
+| 45 | `sourcenull_bjv` | NONSEMANTIC_GENERATOR | SOURCE_SELECTED_DELETION | 592161.26 | 3.047288 | 371.22 | 441995.42 | 149794.61 | 0.00 |
+| 46 | `sourcenull_buv` | NONSEMANTIC_GENERATOR | SOURCE_SELECTED_DELETION | 592163.53 | 3.047300 | 371.22 | 441997.70 | 149794.61 | 0.00 |
+| 47 | `sourcenull_bvz` | NONSEMANTIC_GENERATOR | SOURCE_SELECTED_DELETION | 592165.03 | 3.047308 | 387.53 | 441982.88 | 149794.61 | 0.00 |
+| 48 | `sourcenull_jxz` | NONSEMANTIC_GENERATOR | SOURCE_SELECTED_DELETION | 592165.69 | 3.047311 | 721.51 | 441649.57 | 149794.61 | 0.00 |
+| 49 | `sourcenull_jux` | NONSEMANTIC_GENERATOR | SOURCE_SELECTED_DELETION | 592167.56 | 3.047321 | 705.23 | 441667.71 | 149794.61 | 0.00 |
+| 50 | `sourcenull_uxz` | NONSEMANTIC_GENERATOR | SOURCE_SELECTED_DELETION | 592171.29 | 3.047340 | 721.51 | 441655.17 | 149794.61 | 0.00 |
 ## Failed runs retained
 
 4 failed exact-audit/search runs remain in `GDT001_YOLO_LEDGER.tsv`; none was deleted from the run history.
 
 ## GPU and exact CPU accounting
 
-The RTX 3090 proposed language, cipher, abbreviation, and neural-null parameters. Large population search showed a material CUDA crossover. Every retained discrete key was rescored by deterministic CPU code; the final nonsemantic leader is independently reconstructed context-by-context by `validate_gdt001_tournament.py`.
+The RTX 3090 proposed language, cipher, abbreviation, and neural-null parameters. Large population search showed a material CUDA crossover. Every retained discrete key was rescored by deterministic CPU code; the final nonsemantic leader is independently reconstructed context-by-context by `validate_gdt001_online_context_mixer.py`, while `validate_gdt001_tournament.py` binds that reconstruction to the current ledger and packet.
 
 ## Restart stability
 
-No three-restart language/cipher/abbreviation configuration converged to one byte-identical decoder. See `gdt001_restart_stability.json`. The best-score spread can be small while the explicit key remains different; that is evidence for a broad accidental optimum rather than a recovered unique key.
+No full three-restart language/cipher/abbreviation search converged to one byte-identical decoder. The terminal latent-space probes were deliberately only one-coordinate rejection tests and therefore do not count as full restart searches. See `gdt001_restart_stability.json`. The best-score spread can be small while the explicit key remains different; that is evidence for a broad accidental optimum rather than a recovered unique key.
 
 ## Counterfactual manuscripts
 
@@ -118,13 +119,23 @@ Within-line, page-conditioned, global frequency-preserving, boundary-preserving 
 
 Every exported candidate includes the same Herbal-A, Currier-B, biological f75v, f57v, f67r2, circular f69v, and f116v stress packet in `reverse_generation.tsv`, including alternate lattice readings and failures. The historical-language strings were not repaired or paraphrased.
 
+The three source models with implemented finite packet scorers already lose to
+the frozen wrong form at 11/199 (context mixer), 10/199 (order-2 n-gram), and
+14/199 (quantized GRU) loci. The remaining seven exported hypotheses are
+explicitly marked `REVERSE_GENERATION_NOT_IMPLEMENTED_CANDIDATE_FAILS_REQUIREMENT`
+with `NOT_COMPUTED` costs; they receive no deterministic or infinite credit.
+Thus the packet documents failure as well as output coverage.
+
 ## Structural coverage
 
-The character winner captures line resets and local construction regularity but does not independently explain diagram registers or semantics. The hybrid explicitly models entry-state differences and reusable body stems, but its extra inventory cost leaves it 1.493 bits/symbol behind. See `gdt001_structural_coverage.json`.
+The current context-mixer winner captures line resets, local construction
+regularity, and overlapping metadata regimes but does not independently
+explain diagram registers or semantics. The branch-local hybrid and record
+systems pay materially more. See `gdt001_structural_coverage.json`.
 
 ## Score strata and transcription sensitivity
 
-`gdt001_score_breakdown.tsv` reports common-code allocation by Currier and section and keeps model/key costs global. `gdt001_edition_sensitivity.json` evaluates ZL3b-, IT2a-, and RF1b-constrained paths under the frozen winning predictor. Neither diagnostic selects an edition as truth.
+`gdt001_score_breakdown.tsv` reports common-code allocation by Currier and section and keeps model/key costs global. `gdt001_edition_sensitivity.json` evaluates ZL3b-, IT2a-, and RF1b-constrained paths under the frozen winning algorithm and share, with causal state reinitialized for each edition diagnostic. Neither diagnostic selects an edition as truth.
 
 ## Why every candidate may still be false
 
