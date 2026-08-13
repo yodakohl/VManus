@@ -24,7 +24,7 @@ def main():
     need(result["converged_count"] == len(converged), "converged_count")
     need(result["failed_count"] == 4, "failed_count")
     need(result["leader"] == converged[0] and converged[0]["run_id"] == "contextmixer_s0_015625", "leader")
-    for model_class in {row["model_class"] for row in converged}:
+    for model_class in sorted({row["model_class"] for row in converged}):
         expected = next(row for row in converged if row["model_class"] == model_class)
         need(result["strongest_by_class"][model_class] == expected, f"class:{model_class}")
     need(result["candidate_export_count"] == 10 and result["fixed_packet_unique_loci"] == 199, "candidate_scope")
