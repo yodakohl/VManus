@@ -1,0 +1,31 @@
+{
+  "artifact": "GDT002_CONTACT_GAP_REPLICATION_RESULT_VALIDATION_V1",
+  "checks": {
+    "access_exact": true,
+    "all_censuses_exact": true,
+    "all_localizations_in_bounds": true,
+    "cardinality_24_24": true,
+    "claim_ceiling": true,
+    "consensus_independent": true,
+    "counts_exact": true,
+    "gates_exact": true,
+    "input_hashes": true,
+    "localization_hashes_well_formed": true,
+    "localizer_never_judged_state": true,
+    "new_reviewers_15_each": true,
+    "no_formal_payload_columns": true,
+    "output_hashes": true,
+    "review_vocab": true,
+    "reviewer_provenance_exact": true,
+    "reviewer_scopes_exact": true,
+    "selection_localization_exact_join": true,
+    "stop_exact": true,
+    "two_valid_reviewers_agree_all": true
+  },
+  "failed": [],
+  "passed": 20,
+  "result_sha256": "3d71e9df2b80f2d1ba1421066bc4c27b8890d3498e8e20b9452ef1207734e39a",
+  "scope": "Independent table joins, census/localization bounds, two-reviewer consensus, inherited-call binding, counts, gates, access assertions, and hashes. Pixel judgments are recorded and not independently re-inspected by this validator.",
+  "status": "PASS",
+  "total": 20
+}

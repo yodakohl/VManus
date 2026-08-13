@@ -1,0 +1,65 @@
+{
+  "access": {
+    "all_four_array_censuses_exact": true,
+    "formal_payload_joined_or_opened_for_replication": false,
+    "inherited_calls_changed_or_rereviewed": false,
+    "joint_solver_run": false,
+    "new_target_states_reviewed_after_registration": true,
+    "ocr_or_automated_vision_used": false,
+    "source_aware_reviewer_a_calls_excluded_due_role_contamination": true,
+    "valid_source_free_reviewer_tasks": [
+      "/root/gdt002_blind_review_b",
+      "/root/gdt002_blind_review_c"
+    ],
+    "valid_source_free_reviewers": 2
+  },
+  "claim_ceiling": "Three arrays in the frozen two-folio panel contain recorded CONTACT/CLEAR_GAP mobility, but F100V_L1 has no CONTACT and the frozen four-array visual gate fails. No formal construction association, semantic role, word, POS, sound, language, plaintext, meaning, or translation was tested or inferred.",
+  "counts_by_array": {
+    "F100R_L2": {
+      "CLEAR_GAP": 5,
+      "CONTACT": 1,
+      "UNCERTAIN": 0
+    },
+    "F100V_L1": {
+      "CLEAR_GAP": 4,
+      "CONTACT": 0,
+      "UNCERTAIN": 0
+    },
+    "F99V_L1": {
+      "CLEAR_GAP": 4,
+      "CONTACT": 4,
+      "UNCERTAIN": 0
+    },
+    "F99V_L2": {
+      "CLEAR_GAP": 5,
+      "CONTACT": 1,
+      "UNCERTAIN": 0
+    }
+  },
+  "decisive_failure": "F100V_L1 has zero CONTACT and four CLEAR_GAP calls; every candidate array required >=1 CONTACT, >=2 CLEAR_GAP, and zero UNCERTAIN.",
+  "experiment": "GDT002_CONTACT_GAP_COMPLETE_ARRAY_REPLICATION",
+  "inputs": {
+    "GDT002_CONTACT_GAP_REPLICATION_METHOD.md": "62aa416ea0b6553eba3a72ec8521fa976301f5bfd0af5f11afb4af726019d3f1",
+    "build_gdt002_contact_gap_replication_localizations.py": "b89cf19f743494520ba9d51b644570ffa77f3c6349671569c3d54159b93c4ee0",
+    "build_gdt002_contact_gap_replication_result.py": "868a31edc723b08de65675e2a36786746a84adbe7da23301d1ed943d4278db3f",
+    "gdt002_contact_gap_observations.tsv": "601fa7e500922ea55cc1ad1bf555789e5b38076918466f22e00450be8657bdf9",
+    "gdt002_contact_gap_replication_localizations.tsv": "2697cf07c1c9bdf484754acffcebfc2f1d895c9da97c341f7ce8734202f5301a",
+    "gdt002_contact_gap_replication_reviewer_b.tsv": "1de610129f8993a3b54ea962b72596431a7a0d7671957493052c6a67cb68a289",
+    "gdt002_contact_gap_replication_reviewer_c.tsv": "18c4c43f14138786f53f458146a0b6a6a4a97063c512d604f66a4c5fb7d8d5db",
+    "gdt002_contact_gap_replication_reviewer_provenance.tsv": "6b849bad7610f670a93f4984ccdb2d2199375c62b4ef85b771d3344a98a2b442",
+    "gdt002_contact_gap_replication_selection.tsv": "e77620f024a2b6a2ab9d39672c46b1c436a18f2c90b59b1b50ff784fb9eecb02",
+    "gdt002_contact_gap_replication_selection_validation.json": "b50a0f100b23e2271949cbf9eb22d6cccbcc721ee74aa7b607300c8fba8b7251",
+    "gdt002_contact_gap_selection.tsv": "6a64eba4c1ff27d0c4967a8f2fb23752a20b3a80642e5412a7279aa557eac891"
+  },
+  "outputs": {
+    "gdt002_contact_gap_replication_observations.tsv": "b640853c191f99140daa80b639916928360390f8afd2ba13265ba0e0a76a50da"
+  },
+  "status": "STOP_VISUAL_GATE_FAILED_NO_FORMAL_COMPARISON",
+  "visual_gate_by_array": {
+    "F100R_L2": true,
+    "F100V_L1": false,
+    "F99V_L1": true,
+    "F99V_L2": true
+  },
+  "visual_gate_passed": false
+}
