@@ -7,7 +7,7 @@ from pathlib import Path
 from gdt001_core import canonical
 
 ROOT = Path(__file__).resolve().parent
-PREFIXES = ("boundaryrule_", "rolesource_", "metasource_", "sparsemeta_", "contextaxis_", "currierallograph_", "entrysource_", "latentline_", "exactcopy_", "wordtranspose_", "variablecontext_", "scaffoldlang_", "groupexpand_", "contexttree_", "latinscholastic_", "residualpayload_", "ranknomen_", "groupcodeho_", "groupcodeo4ref_", "groupcodescale_", "groupcodeanon_", "rootcode_")
+PREFIXES = ("boundaryrule_", "rolesource_", "metasource_", "sparsemeta_", "contextaxis_", "currierallograph_", "entrysource_", "latentline_", "exactcopy_", "wordtranspose_", "variablecontext_", "contextmixer_", "scaffoldlang_", "groupexpand_", "contexttree_", "latinscholastic_", "residualpayload_", "ranknomen_", "groupcodeho_", "groupcodeo4ref_", "groupcodescale_", "groupcodeanon_", "rootcode_")
 
 
 def row(run_id, model_class, system, seed, config, total, bps, key, latent, reconstruction, decoder, notes):
@@ -96,6 +96,12 @@ def main():
                       {"predictors": "HISTORY3_OR_METADATA", "base_order": 2}, r["total_bits"], r["bits_per_symbol"],
                       r["key_bits"], r["payload_bits"] + r["side_channel_bits"], r["fixed_bits"], r["decoder_hash"],
                       "EXPLORATORY; VARIABLE_CONTEXT_SOURCE; CONTROL_NOT_SPECIFIC"))
+    mxdata = json.loads((ROOT / "gdt001_online_context_mixer_results.json").read_text())
+    for r in mxdata["rows"]:
+        ledger.append(row(f"contextmixer_s{str(r['share']).replace('.', '_')}", "NONSEMANTIC_GENERATOR", "ONLINE_CONTEXT_EXPERT_MIXTURE", 0,
+                          {"share": r["share"], "experts": "HISTORY_AND_METADATA", "causal": True}, r["total_bits"], r["bits_per_symbol"],
+                          r["key_bits"], r["payload_bits"] + r["side_channel_bits"], r["fixed_bits"], r["decoder_hash"],
+                          "EXPLORATORY; CAUSAL_FIXED_SHARE; CONTROL_NOT_SPECIFIC"))
     scdata = json.loads((ROOT / "gdt001_scaffold_language_results.json").read_text())
     for r in scdata["rows"]:
         ledger.append(row(f"scaffoldlang_{r['language']}_s{r['seed']}", "ABBR_LANG", f"SCAFFOLD_CORE_{r['language']}", r["seed"],
