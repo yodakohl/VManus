@@ -1,6 +1,6 @@
 # GDT001 current exploratory summary
 
-Runs retained: **3,694**; converged: **3,690**.
+Runs retained: **3,927**; converged: **3,923**.
 
 ## Current leaders
 

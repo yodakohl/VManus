@@ -7,7 +7,7 @@ from pathlib import Path
 from gdt001_core import canonical
 
 ROOT = Path(__file__).resolve().parent
-PREFIXES = ("boundaryrule_", "rolesource_", "metasource_", "sparsemeta_", "contextaxis_", "currierallograph_", "entrysource_", "latentline_")
+PREFIXES = ("boundaryrule_", "rolesource_", "metasource_", "sparsemeta_", "contextaxis_", "currierallograph_", "entrysource_", "latentline_", "exactcopy_", "wordtranspose_")
 
 
 def row(run_id, model_class, system, seed, config, total, bps, key, latent, reconstruction, decoder, notes):
@@ -75,6 +75,21 @@ def main():
                           {"requested_k": r["requested_k"], "seed": r["seed"]}, r["total_bits"], r["bits_per_symbol"], r["key_bits"],
                           r["state_assignment_bits"] + r["emission_bits"] + r["side_channel_bits"], r["fixed_bits"], r["decoder_hash"],
                           "EXPLORATORY; GPU_PROPOSAL_CPU_EXACT; LATENT_LINE_STATES"))
+    xdata = json.loads((ROOT / "gdt001_exact_copy_cache_results.json").read_text())
+    for r in xdata["rows"]:
+        ledger.append(row(f"exactcopy_w{r['window']}_m{r['minimum_copy_length']}_o{r['literal_order']}", "NONSEMANTIC_GENERATOR", "EXACT_PAGE_COPY_CACHE", 0,
+                          {"window": r["window"], "minimum": r["minimum_copy_length"], "order": r["literal_order"]},
+                          r["total_bits"], r["bits_per_symbol"], r["key_bits"], r["structure_and_index_bits"] + r["literal_bits"],
+                          r["fixed_bits"], r["decoder_hash"], "EXPLORATORY; REVERSIBLE_EXACT_COPY_CACHE"))
+    tdata = json.loads((ROOT / "gdt001_within_word_transposition_results.json").read_text())
+    for r in tdata["rows"]:
+        candidate = "null" if r["model"] == "MATCHED_TRANSPOSITION_NULL" else r["language"]
+        ledger.append(row(f"wordtranspose_{r['scheme'].lower()}_{candidate}_s{r['seed']}",
+                          "NONSEMANTIC_GENERATOR" if candidate == "null" else "HOMOPHONIC_CIPHER",
+                          f"WORD_TRANSPOSITION_{r['scheme']}_{candidate}", r["seed"],
+                          {"scheme": r["scheme"], "candidate": candidate}, r["total_bits"], r["bits_per_symbol"],
+                          r["key_bits"], r["payload_bits"], r["fixed_bits"], r["decoder_hash"],
+                          "EXPLORATORY; REVERSIBLE_WITHIN_WORD_TRANSPOSITION"))
     fields = list(ledger[0])
     with (ROOT / "GDT001_YOLO_LEDGER.tsv").open("w", newline="", encoding="utf-8") as handle:
         writer = csv.DictWriter(handle, fields, delimiter="\t", lineterminator="\n"); writer.writeheader(); writer.writerows(sorted(ledger, key=lambda r: r["run_id"]))
