@@ -7380,6 +7380,26 @@ layer, not by reusing the published rows or relaxing cell/folio controls. No
 preferred reading, glyph identity, sound, language, plaintext, meaning, or
 translation follows.
 
+CDA001 then performed the required bounded successor audit instead of choosing
+another model. The current cache still contains 18,844 strict all-reading-
+stable short prose groups on 94 folios; 18,271 groups remain outside the
+IGR001, IGR002, and TGC001 selected loci, and 4,878 groups on 46 physical
+folios remain outside those three panels. This does not mean those folios were
+unexposed in every earlier experiment. Those counts are not an admissible experiment.
+Using their manual identities as image targets is the excluded exact-label
+decoder, while using only their symbol counts or editorial boundaries is a
+broad visual segmentation classifier without independent physical-boundary
+truth. The translation-anchor registry remains at zero admissible families out
+of eleven, NVA001 has zero new ordinary-image routes, NVA002 has no new public
+image layer, and RTA001/LTG001/IGR002/TGC001 retain their registered negative
+or stop decisions. No cached-data route remains under the active rules.
+Further translation-relevant work requires new evidence: a provenance-clean
+human diplomatic family with singular text-to-readable-value ownership,
+contrasting values on at least five physical folios, unique mappings and
+uncertainty records, and an untouched whole-folio confirmation set. This is
+not proof that the manuscript is untranslatable; it is a stop against
+manufacturing a gloss from nonidentifying data.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU
