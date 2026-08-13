@@ -7,7 +7,7 @@ from pathlib import Path
 from gdt001_core import canonical
 
 ROOT = Path(__file__).resolve().parent
-PREFIXES = ("boundaryrule_", "rolesource_", "metasource_", "sparsemeta_", "contextaxis_", "currierallograph_", "entrysource_", "latentline_", "exactcopy_", "wordtranspose_", "variablecontext_", "scaffoldlang_", "groupexpand_", "contexttree_", "latinscholastic_", "residualpayload_", "ranknomen_", "groupcodeho_", "groupcodeo4ref_")
+PREFIXES = ("boundaryrule_", "rolesource_", "metasource_", "sparsemeta_", "contextaxis_", "currierallograph_", "entrysource_", "latentline_", "exactcopy_", "wordtranspose_", "variablecontext_", "scaffoldlang_", "groupexpand_", "contexttree_", "latinscholastic_", "residualpayload_", "ranknomen_", "groupcodeho_", "groupcodeo4ref_", "groupcodescale_", "groupcodeanon_", "rootcode_")
 
 
 def row(run_id, model_class, system, seed, config, total, bps, key, latent, reconstruction, decoder, notes):
@@ -150,6 +150,21 @@ def main():
                           {"k": r["k"], "order": r["order"], "language": r["language"], "refiner": "GPU_EXACT_COORDINATE"},
                           r["total_bits"], r["bits_per_symbol"], r["key_bits"], r["payload_bits"], r["fixed_bits"],
                           r["decoder_hash"], "EXPLORATORY; MATCHED_NULL_CROSSOVER; UNSTABLE; CONTROL_SCREENED"))
+    gsdata = json.loads((ROOT / "gdt001_group_code_scale_stability.json").read_text())
+    for r in gsdata["rows"]:
+        ledger.append(row(f"groupcodescale_k{r['k']}_{r['language']}_s{r['seed']}", "ABBR_LANG", "GROUP_CHARACTER_ORDER4_SCALE", r["seed"],
+                          {"k": r["k"], "order": r["order"], "language": r["language"]}, r["total_bits"], r["bits_per_symbol"],
+                          r["key_bits"], r["payload_bits"], r["fixed_bits"], r["decoder_hash"],
+                          "EXPLORATORY; SELECTION_CORRECT_GAIN_5880_BITS; PARTITION_UNSTABLE"))
+    gadata = json.loads((ROOT / "gdt001_group_code_anonymous_null_results.json").read_text())
+    for r in gadata["rows"]:
+        ledger.append(row(f"groupcodeanon_k512_s{r['seed']}", "NONSEMANTIC_GENERATOR", "ANONYMOUS_27_STATE_GROUP_CODE", r["seed"],
+                          {"k": 512, "states": 27, "model": "INTEGRATED_UNIGRAM"}, r["total_bits"], r["bits_per_symbol"],
+                          r["key_bits"], r["payload_bits"], r["fixed_bits"], r["decoder_hash"], "EXPLORATORY; MATCHED_ANONYMOUS_BOTTLENECK"))
+    rtdata = json.loads((ROOT / "gdt001_root_character_code_results.json").read_text())["result"]
+    ledger.append(row(f"rootcode_k{rtdata['k']}_{rtdata['language']}_s{rtdata['seed']}", "ABBR_LANG", "CONSTRUCTION_ROOT_CHARACTER_CODE", rtdata["seed"],
+                      {"k": rtdata["k"], "order": rtdata["order"], "language": rtdata["language"]}, rtdata["total_bits"], rtdata["bits_per_symbol"],
+                      rtdata["key_bits"], rtdata["payload_bits"], rtdata["fixed_bits"], rtdata["decoder_hash"], "EXPLORATORY; ROOT_LEVEL_CODE; SINGLE_RESTART"))
     fields = list(ledger[0])
     with (ROOT / "GDT001_YOLO_LEDGER.tsv").open("w", newline="", encoding="utf-8") as handle:
         writer = csv.DictWriter(handle, fields, delimiter="\t", lineterminator="\n"); writer.writeheader(); writer.writerows(sorted(ledger, key=lambda r: r["run_id"]))

@@ -1,6 +1,6 @@
 # GDT001 current exploratory summary
 
-Runs retained: **4,118**; converged: **4,114**.
+Runs retained: **4,125**; converged: **4,121**.
 
 ## Current leaders
 
@@ -33,9 +33,9 @@ The current winner is an explicit nonsemantic source model. It uses a separately
 
 This is a stronger null, not a decipherment. A frozen counterfactual refit found the gain unchanged under a global identity permutation and substantially larger in the Timm copy/modify synthetic manuscript. The mechanism therefore describes formal source heterogeneity and local construction history; it is not specific evidence for language, cipher, or meaning.
 
-One language-side lead crossed its own matched family null after exact GPU coordinate refinement: a 128-form whole-group-to-character code under a fourth-order medieval-Czech model gained 444.5 bits over the matched fourth-order group-code null. The crossover was preserved exactly by a global source-symbol renaming and disappeared under four destructive shuffles and a Timm synthetic control. However, the three refined keys remain different, and the best is still 69,163 bits worse than the global source winner. It is therefore an exploratory model-family effect, not a retained reading.
+The strongest language-side effect maps the 512 most frequent complete groups to 27 latent characters under a fourth-order medieval-Czech corpus model. After allowing both language and null families to select their paid scale, it gains **5,881.0 bits** over the best group-code null and only **576.1 bits** over an optimized anonymous 27-state bottleneck. All destructive controls lose while a global symbol renaming is invariant. But the three K=512 restart partitions disagree severely (pairwise adjusted Rand 0.136–0.182), and the best total remains 61,749 bits above the global source winner. This is a real-specific group-compression effect, not a stable Czech decoder.
 
-Direct character, positional, context-conditioned, Currier-specific, boundary-rule, periodic, fixed-block, learned-multigraph, whole-group character/expansion, whole-word nomenclator, null-symbol, STA-family/member, morphology, slot, differential-record, carrier/payload, scaffold-core language, and reading-order systems were tested. After removing target-letter label symmetry, serious language restarts still have near-zero adjusted-Rand partition agreement. No mapping is retained as a reading.
+Direct character, positional, context-conditioned, Currier-specific, boundary-rule, periodic, fixed-block, learned-multigraph, whole-group character/expansion, whole-word nomenclator, null-symbol, STA-family/member, morphology, slot, differential-record, carrier/payload, scaffold-core language, and reading-order systems were tested. A new construction-root character model also crossed its own weak matched null but lost badly to the whole-group code and global source baseline. No mapping is retained as a reading.
 
 No candidate met the freeze requirements. **No translation has been obtained.** No confirmation branch is recommended.
 
