@@ -1,6 +1,6 @@
 # GDT001 current exploratory summary
 
-Runs retained: **4,155**; converged: **4,151**.
+Runs retained: **4,161**; converged: **4,157**.
 
 ## Current leaders
 
@@ -37,7 +37,9 @@ The strongest language-side effect maps the 512 most frequent complete groups to
 
 The final cheap orthogonal source family assigned an explicit K=2–4 hidden state to every modeled within-line event, paid the complete first-order state-path code, and emitted symbols from state-by-observed-history tables. Its best run scores **3.397039 bits/source symbol**, 84,836.8 bits behind the mixer, and all three restart paths disagree at every K. It is stopped, with all nine paths retained. The remaining distinct semantic mechanism—homophonic letters with source boundaries erased and plaintext spaces inserted by exact historical-LM Viterbi—also loses decisively: after a 12-configuration screen and three retained restarts, its best score is **4.898428 bits/source symbol**, 376,592.7 bits behind the mixer.
 
-Direct character, positional, context-conditioned, Currier-specific, boundary-rule, periodic, fixed-block, learned-multigraph, whole-group character/expansion, whole-word nomenclator, null-symbol, latent-plaintext-space, STA-family/member, morphology, slot, differential-record, carrier/payload, scaffold-core language, and reading-order systems were tested. A new construction-root character model also crossed its own weak matched null but lost badly to the whole-group code and global source baseline. No mapping is retained as a reading.
+A bounded omitted-vowel diagnostic let an order-2 historical LM insert unbounded `a/e/i/o/u` vowels and spaces around a deterministic inherited 21-consonant projection. Medieval Czech was best at **1,230,922.91 bits**, still **655,633.45 bits worse** than the mixer. No wider key search was performed, and this projected-key result makes no inference about unsearched consonantal keys.
+
+Direct character, positional, context-conditioned, Currier-specific, boundary-rule, periodic, fixed-block, learned-multigraph, whole-group character/expansion, whole-word nomenclator, null-symbol, latent-plaintext-space, consonantal-skeleton, STA-family/member, morphology, slot, differential-record, carrier/payload, scaffold-core language, and reading-order systems were tested. A new construction-root character model also crossed its own weak matched null but lost badly to the whole-group code and global source baseline. No mapping is retained as a reading.
 
 No candidate met the freeze requirements. **No translation has been obtained.** No confirmation branch is recommended.
 

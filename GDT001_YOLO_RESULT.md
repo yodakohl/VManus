@@ -4,7 +4,7 @@
 
 ## Outcome
 
-The current branch-local winner after **4,155 retained configurations** is
+The current branch-local winner after **4,161 retained configurations** is
 `contextmixer_s0_015625` at **2.960465 bits per source symbol**
 (575,289.45 total bits). It is an explicit canonical-locus-order prequential
 source code, not plaintext: for each order-2 history it causally mixes shared,
@@ -45,7 +45,7 @@ bound by `candidates/index.json`; the table below is the current ranking.
 
 ## Complete current leaderboard
 
-All **4,151 converged configurations** are retained in `GDT001_YOLO_LEDGER.tsv`; the full ordered machine-readable leaderboard is `gdt001_tournament_runs.json`. The table below gives the current top 50.
+All **4,157 converged configurations** are retained in `GDT001_YOLO_LEDGER.tsv`; the full ordered machine-readable leaderboard is `gdt001_tournament_runs.json`. The table below gives the current top 50.
 
 | rank | run | class | system | bits | bits/source symbol | key | latent | reconstruction | exceptions |
 |---:|---|---|---|---:|---:|---:|---:|---:|---:|
@@ -157,3 +157,14 @@ Two additional explicit Middle High German screens relaxed assumptions that coul
 A reversible anonymous-unit grammar selected zero BPE-style merges after paying for every merge rule; learned multi-character units therefore did not improve the common MDL. A separate abbreviation transducer allowed every source symbol to emit either one or two plaintext letters, but its best run scored 5.751066 bits/symbol—524,187 bits behind the null—and all restart keys differed. See `gdt001_bpe_notation_results.json` and `gdt001_expanding_abbreviation_results.json`.
 
 Further exact screens found no rescue from limited opaque nomenclators, alternative reading orders, reversible carrier/payload interleaving, word-slot grammars, preceding-source-conditioned allography, adjacent-group edit records, fixed null signs, periodic keys, or direct STA-family/member language mapping. A whole-group historical-word nomenclator was initially close, so all mappings for codebooks of size 1–8 were enumerated exactly across six language packs and word orders 0–3. Its best language model remained 26.98 bits worse than the matched source-only code; the dense source-only sweep remained 67,824 bits worse than the character null. No word assignment is retained as a candidate reading.
+
+One bounded diagnostic enlarged the latent-space homophonic channel so that the
+historical language model could insert any number of omitted `a/e/i/o/u`
+vowels and spaces while each source sign required only one of 21 consonants.
+The exact positive-cost epsilon closure and line-reset Viterbi were screened
+for all six order-2 language packs with deterministic projected keys. The best
+case, medieval Czech, scored 1,230,922.91 bits (6.334 bits/source symbol),
+**655,633.45 bits worse** than the nonsemantic leader. No wider key search was
+performed. Because these were only mechanically projected inherited keys,
+this result makes no claim about the unsearched 21^25 consonantal key space and
+supplies no consonant, vowel, word, or reading.

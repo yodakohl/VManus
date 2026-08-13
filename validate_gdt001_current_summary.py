@@ -33,6 +33,7 @@ def main():
     anon=json.load(open(ROOT/'gdt001_group_code_anonymous_null_results.json'));ok(anon['decision']=='CONTINUE_CZECH_BEATS_ANONYMOUS_NULL','czech_small_margin');ok(anon['best']['gap_vs_best_czech_bits']<1000,'czech_margin_under_1k')
     ssv=json.load(open(ROOT/'gdt001_symbol_state_markov_validation.json'));ok(ssv['status']=='PASS_EXACT_ARTIFACT_ARITHMETIC_STOP','symbol_state_stop');ok(ssv['best_total_bits']>float(valid[0]['total_bits']),'symbol_state_loses')
     lsv=json.load(open(ROOT/'gdt001_latent_space_homophonic_validation.json'));ok(lsv['status']=='PASS_EXACT_ARTIFACT_ARITHMETIC_DECISIVE_SCREEN_STOP','latent_space_stop');ok(lsv['best_total_bits']>900000,'latent_space_loses')
+    sk=json.load(open(ROOT/'gdt001_consonantal_skeleton_validation.json'));ok(sk['status']=='PASS_INDEPENDENT_PYTHON_PROJECTED_KEY_DIAGNOSTIC','skeleton_projected_key');ok(sk['best_total_bits']>1200000,'skeleton_projected_key_loses')
     partitions=json.load(open(ROOT/'gdt001_partition_stability.json'));ok(partitions['decision']=='STOP_LANGUAGE_PARTITIONS_UNSTABLE_AFTER_TARGET_LABEL_INVARIANCE','partition_instability')
     for name in ('gdt001_group_character_code_results.json','gdt001_prose_language_hybrid_results.json','gdt001_edge_carrier_language_results.json','gdt001_word_exact_audit_results.json','gdt001_differentiable_key_results.json'):
         d=json.load(open(ROOT/name));ok(d['status']=='EXPLORATORY_NOT_CONFIRMED_TRANSLATION',f'exploratory:{name}');ok(d['decision'].startswith('STOP'),f'stop:{name}')

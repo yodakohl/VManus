@@ -62,7 +62,7 @@ def main():
     best_by_class = {}
     for row in converged:
         best_by_class.setdefault(row["model_class"], row)
-    inputs = {name: sha256_file(ROOT / name) for name in ("gdt001_corpus_lattice.json", "GDT001_YOLO_LEDGER.tsv", "gdt001_tournament_runs.json", "candidates/index.json", "gdt001_candidate_export_validation.json", "gdt001_current_summary.json", "gdt001_online_context_mixer_validation.json", "gdt001_symbol_state_markov_validation.json", "gdt001_latent_space_homophonic_results.json", "gdt001_latent_space_homophonic_validation.json", "gdt001_score_breakdown.tsv", "gdt001_edition_sensitivity.json", "gdt001_structural_coverage.json")}
+    inputs = {name: sha256_file(ROOT / name) for name in ("gdt001_corpus_lattice.json", "GDT001_YOLO_LEDGER.tsv", "gdt001_tournament_runs.json", "candidates/index.json", "gdt001_candidate_export_validation.json", "gdt001_current_summary.json", "gdt001_online_context_mixer_validation.json", "gdt001_symbol_state_markov_validation.json", "gdt001_latent_space_homophonic_results.json", "gdt001_latent_space_homophonic_validation.json", "gdt001_consonantal_skeleton_results.json", "gdt001_consonantal_skeleton_validation.json", "gdt001_score_breakdown.tsv", "gdt001_edition_sensitivity.json", "gdt001_structural_coverage.json")}
     result = {"schema": "GDT001_YOLO_RESULT_V2", "status": "EXPLORATORY_NO_CONFIRMED_TRANSLATION", "decision": "NO_DECIPHERMENT_CANDIDATE_FREEZE",
               "run_count": len(ledger), "converged_count": len(converged), "failed_count": len(ledger) - len(converged),
               "leader": converged[0], "strongest_by_class": best_by_class, "candidate_export_count": 10,

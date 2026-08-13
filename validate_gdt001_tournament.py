@@ -41,6 +41,8 @@ def main():
     need(export["packet_unique_loci"] == 199, "fixed_packet_unique")
     latent = json.load(open(ROOT / "gdt001_latent_space_homophonic_validation.json"))
     need(latent["status"] == "PASS_EXACT_ARTIFACT_ARITHMETIC_DECISIVE_SCREEN_STOP", "latent_space_stop")
+    skeleton = json.load(open(ROOT / "gdt001_consonantal_skeleton_validation.json"))
+    need(skeleton["status"] == "PASS_INDEPENDENT_PYTHON_PROJECTED_KEY_DIAGNOSTIC", "consonantal_skeleton_projected_key")
     symbol = json.load(open(ROOT / "gdt001_symbol_state_markov_validation.json"))
     need(symbol["status"] == "PASS_EXACT_ARTIFACT_ARITHMETIC_STOP", "symbol_state_stop")
     report = (ROOT / "GDT001_YOLO_RESULT.md").read_text()
