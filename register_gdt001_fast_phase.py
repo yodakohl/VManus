@@ -7,7 +7,7 @@ from pathlib import Path
 from gdt001_core import canonical
 
 ROOT = Path(__file__).resolve().parent
-PREFIXES = ("boundaryrule_", "rolesource_", "metasource_", "sparsemeta_", "contextaxis_", "currierallograph_", "entrysource_", "latentline_", "exactcopy_", "wordtranspose_")
+PREFIXES = ("boundaryrule_", "rolesource_", "metasource_", "sparsemeta_", "contextaxis_", "currierallograph_", "entrysource_", "latentline_", "exactcopy_", "wordtranspose_", "variablecontext_", "scaffoldlang_", "groupexpand_")
 
 
 def row(run_id, model_class, system, seed, config, total, bps, key, latent, reconstruction, decoder, notes):
@@ -90,6 +90,26 @@ def main():
                           {"scheme": r["scheme"], "candidate": candidate}, r["total_bits"], r["bits_per_symbol"],
                           r["key_bits"], r["payload_bits"], r["fixed_bits"], r["decoder_hash"],
                           "EXPLORATORY; REVERSIBLE_WITHIN_WORD_TRANSPOSITION"))
+    vdata = json.loads((ROOT / "gdt001_variable_context_source_results.json").read_text())
+    r = vdata["best"]
+    ledger.append(row("variablecontext_o2", "NONSEMANTIC_GENERATOR", "VARIABLE_HISTORY_OR_METADATA_SOURCE", 0,
+                      {"predictors": "HISTORY3_OR_METADATA", "base_order": 2}, r["total_bits"], r["bits_per_symbol"],
+                      r["key_bits"], r["payload_bits"] + r["side_channel_bits"], r["fixed_bits"], r["decoder_hash"],
+                      "EXPLORATORY; VARIABLE_CONTEXT_SOURCE; CONTROL_NOT_SPECIFIC"))
+    scdata = json.loads((ROOT / "gdt001_scaffold_language_results.json").read_text())
+    for r in scdata["rows"]:
+        ledger.append(row(f"scaffoldlang_{r['language']}_s{r['seed']}", "ABBR_LANG", f"SCAFFOLD_CORE_{r['language']}", r["seed"],
+                          {"language": r["language"], "scaffold": "PREFIX_CORE_SUFFIX"}, r["total_bits"], r["bits_per_symbol"],
+                          r["key_bits"], r["scaffold_bits"] + r["language_bits"] + r["reverse_bits"], r["fixed_bits"], r["decoder_hash"],
+                          "EXPLORATORY; SHARED_SCAFFOLD_MULTILINGUAL"))
+    gedata = json.loads((ROOT / "gdt001_group_expansion_results.json").read_text())
+    for r in gedata["rows"]:
+        candidate = "null" if r["model"] == "MATCHED_GROUP_NULL" else r["language"]
+        ledger.append(row(f"groupexpand_k{r['k']}_{candidate}_s{r['seed']}",
+                          "NONSEMANTIC_GENERATOR" if candidate == "null" else "ABBR_LANG",
+                          f"GROUP_EXPANSION_K{r['k']}_{candidate}", r["seed"], {"k": r["k"], "candidate": candidate},
+                          r["total_bits"], r["bits_per_symbol"], r["key_bits"], r["payload_bits"], r["fixed_bits"],
+                          r["decoder_hash"], "EXPLORATORY; COMPLETE_GROUP_ONE_OR_TWO_LETTER_EXPANSION"))
     fields = list(ledger[0])
     with (ROOT / "GDT001_YOLO_LEDGER.tsv").open("w", newline="", encoding="utf-8") as handle:
         writer = csv.DictWriter(handle, fields, delimiter="\t", lineterminator="\n"); writer.writeheader(); writer.writerows(sorted(ledger, key=lambda r: r["run_id"]))
