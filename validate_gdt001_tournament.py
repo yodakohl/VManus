@@ -54,8 +54,8 @@ def main() -> None:
     require(leader["decoder_hash"] == decoder_hash, "leader_decoder_hash", checks)
     with (ROOT / "GDT001_YOLO_LEDGER.tsv").open() as handle:
         ledger = list(csv.DictReader(handle, delimiter="\t"))
-    require(len(ledger) == len(runs), "ledger_rows", checks)
-    require({r["candidate_id"] for r in runs} == {r["run_id"] for r in ledger}, "ledger_run_ids", checks)
+    require(len(ledger) >= len(runs), "ledger_rows_include_original_tournament", checks)
+    require({r["candidate_id"] for r in runs} <= {r["run_id"] for r in ledger}, "ledger_includes_original_run_ids", checks)
     controls = json.loads((ROOT / "gdt001_counterfactual_results.json").read_text())
     require(len(controls["results"]) == 20 and len({r["control"] for r in controls["results"]}) == 5, "counterfactual_matrix", checks)
     index = json.loads((ROOT / "candidates/index.json").read_text())
