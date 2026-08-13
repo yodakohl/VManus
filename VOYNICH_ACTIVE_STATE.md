@@ -7361,20 +7361,24 @@ finer stroke-level or continuous transcription system. It establishes no
 allography, sound, alphabet, word, language, cipher, plaintext, meaning, or
 translation.
 
-TGC001 is evaluating the only cached-data successor that avoids IGR002's
-internal symbol boxes: complete source-separated groups represented as
-unsegmented physical trace graphs. A raw source-only count gives 2,997 short
+TGC001 tested whether the only cached-data successor that avoided IGR002's
+internal symbol boxes could use complete source-separated groups represented
+as unsegmented physical trace graphs. The source audit found 2,997 short
 confirmed-prose disagreement groups and 3,184 disagreeing positions on 93
-folios. To avoid rematching the closed route, every group containing any of the
-eight IGR001-selected types carried into IGR002 is excluded. This leaves 676
-groups on 91 folios, but only five exact family/Currier/hand cells reach six
-folios, yielding a 30-row geometry on 28 folios. That is small but not
-mathematically impossible. The next gate is target-free synthetic calibration
-of this exact five-cell/six-folio geometry. No image, crop, trace graph, or
-manuscript score may open unless it recovers distributed channels and rejects
-null, folio-only, cell-only, closed-type, and complexity-confounded worlds.
-Independent code reconstructs the geometry. No preferred reading, glyph
-identity, sound, language, plaintext, meaning, or translation follows.
+folios. Excluding every group containing any of the eight IGR001-selected
+types left 676 groups on 91 folios, but only five exact
+family/Currier/hand cells reached six folios: 32 eligible groups total. The
+published score-blind geometry used 30 of them and permanently made those rows
+image-ineligible to preserve prospective blinding. Only two unused exact rows
+then remained, one in each of two cells; both lie on folios already represented
+in the published panel. A promised fresh five-cell by six-folio image panel is
+therefore impossible, and whole-folio-fresh capacity is zero. TGC001 stops
+before synthetic calibration, image access, trace annotation, or manuscript
+scoring. The prior calibration authorization is superseded. Reopen only for
+genuinely new eligible source rows or a new provenance-clean physical evidence
+layer, not by reusing the published rows or relaxing cell/folio controls. No
+preferred reading, glyph identity, sound, language, plaintext, meaning, or
+translation follows.
 
 ## Runtime and sources
 
