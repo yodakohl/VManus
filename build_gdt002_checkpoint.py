@@ -45,7 +45,10 @@ INPUTS = {
 
 DOCUMENTS = (
     "YOLO_MODE.md", "GDT002_METHOD.md", "GDT002_EXISTING_VISUAL_EVIDENCE_AUDIT.md",
-    "GDT002_DISCOVERY_REPORT.md", "GDT002_YOLO_LEDGER.tsv",
+    # The branch ledger is append-only across later checkpoints, so checkpoint
+    # integrity binds its immutable first row in the validator rather than the
+    # mutable whole-file hash here.
+    "GDT002_DISCOVERY_REPORT.md",
     "build_gdt002_checkpoint.py", "validate_gdt002_checkpoint.py",
 )
 

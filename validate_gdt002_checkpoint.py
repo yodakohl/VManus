@@ -261,7 +261,22 @@ with tempfile.TemporaryDirectory(prefix="gdt002-validate-") as temp:
     ]
     checks["deterministic_rebuild_byte_exact"] = all((target / name).read_bytes() == (ROOT / name).read_bytes() for name in generated)
 
-checks["ledger_one_checkpoint"] = len(rows(ROOT / "GDT002_YOLO_LEDGER.tsv")) == 1
+ledger_rows = rows(ROOT / "GDT002_YOLO_LEDGER.tsv")
+checks["ledger_first_checkpoint_immutable_and_append_only"] = (
+    bool(ledger_rows)
+    and ledger_rows[0] == {
+        "checkpoint_id": "GDT002_CKPT001",
+        "phase": "SOURCE_ONLY_INVENTORY_AND_PROJECTION",
+        "status": "PASS_INVENTORY_NO_IDENTIFIABLE_SOLVER_CURRENT_PANEL",
+        "discovery_pages": "f80r;f82r",
+        "holdout_page": "f84r",
+        "images_opened": "0",
+        "new_ai_visual_rows": "0",
+        "joint_solver_run": "0",
+        "result_artifact": "gdt002_checkpoint_result.json",
+        "notes": "EXPLORATORY; human descriptions reused; f84r projection transiently generated for commitment, not persisted, inspected, or used; no role or translation",
+    }
+)
 
 failed = [name for name, passed in checks.items() if not passed]
 validation = {
