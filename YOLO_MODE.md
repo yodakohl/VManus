@@ -60,6 +60,17 @@ meanings or historical-language identities on the strength of visual
 proximity. Weak observations may combine, but direct contradictions and every
 page-specific exception must be explicit and costly.
 
+## Physical-module discovery
+
+Exploratory module-shape work may source-aware inspect exact non-holdout
+groups selected by a formal experiment, including successful, partial, weak,
+and multiply factorable cases. It may rank whether proposed edge sequences are
+physically recurrent, fused, separated, or visually unresolved. Absence of an
+author-marked separator is an observation, not an automatic discovery stop.
+Every such inspection remains postselection-sensitive and must be labelled
+`AI_DIRECT_VISUAL_OBSERVATION`; it cannot establish a linguistic morpheme or
+author-intended boundary without a separately frozen matched test.
+
 ## Claim ceiling
 
 A positive discovery result could at most nominate anonymous roles such as
