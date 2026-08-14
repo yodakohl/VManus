@@ -216,3 +216,20 @@ human tags. Visible local geometry may correct a tag's scope, but proximity
 does not become ownership. Formal values are explicitly already exposed, so
 the ensuing fixed four-row comparison is post-exposure exploration, not
 validation. f84r remains excluded.
+
+## CKPT013 falsification-first morphology
+
+The fixed candidates are `AR`, `OL`, `DAL`, `DAR`, `SY`, `TE`, `TEE`, `DY`,
+and the left contrasts `d-/s-/q-/o-/ot-`. Occurrences are scanned only within
+manual source groups. The nearest-basic-EVA column is a lossy display of the
+source-native STA alignment; cleaner-created fragment boundaries are never
+used as spaces. ZL3b, IT2a, and RF1b are alternate readings and are consolidated
+as one physical inventory with explicit disagreement states.
+
+Falsifiers are free/bound support, position concentration, unique host types,
+exact insertion/replacement partners, manual split/join analogues, label/prose
+density per source symbol, and page-conditioned contrasts among explicit human
+visual descriptions. Unmentioned description terms are UNKNOWN, not negative.
+Ranks describe formal reusability only. A semantic operator or slot requires a
+stable independently annotated role and is not inferred from productivity.
+The f84r formal payload is skipped before formal fields are retained or scored.

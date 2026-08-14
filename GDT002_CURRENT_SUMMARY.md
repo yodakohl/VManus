@@ -48,3 +48,15 @@ confound: f83r.50/.51 are locally beside lower structure outlets, not human
 figures, while .45/.46 remain ambiguous between figures and tube ends. ACA is
 2/2 in the lower pair versus 1/2 in the arch-end pair (exact p=.5), so f83r
 adds no independent contrast. f84r remains sealed.
+
+CKPT013 runs a fixed, falsification-first morphology inventory over all
+non-f84r source groups. It distinguishes reusable formal pieces from semantic
+morphemes, tests free/bound density, exact transformation pairs, manual
+split/join analogues and page-controlled annotation contrasts, and retains all
+three-reading disagreements. Labels have 13.519 candidate hits per 100 symbols
+versus 10.586 in prose, and a 15.87% versus 7.26% multi-candidate-group rate.
+The requested `q-` pairs and `ar | ol` / `dar | ol` split/join analogues recur,
+but no visual association has page-conditioned p below .151 and the complete
+morphology generator remains 100,562.898 bits behind the global source winner.
+The result supports formal reuse but not the proposed semantic four-slot
+template or a translation.
