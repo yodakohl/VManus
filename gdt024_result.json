@@ -1,0 +1,76 @@
+{
+  "claim_ceiling": "Anonymous formal subtype productivity and whole-form dominance only; no diagram role, referent, morpheme, word, syntax, sound, language, plaintext, meaning, or translation.",
+  "diagnostics": 21,
+  "f84r": {
+    "input_contains_rows": false,
+    "joined": false,
+    "opened": false,
+    "retained": false,
+    "scored": false
+  },
+  "implementation": {
+    "run_gdt022_full_census_visual_phase.py": "801982c144bcd73e8d6b85744e9397a2265ebbb2f904fb23143e31c2c5bf7ab8",
+    "run_gdt024_post_dy_form_generalization.py": "6e697dc990c5d3bd67522e0d9a7a2e04bdae196e69f6cb7ba269a88e41ea1413"
+  },
+  "inputs": {
+    "GDT024_POST_DY_FORM_GENERALIZATION_METHOD.md": "ccd09c088cd4a44b81d85695a8b86a1824781f85e17aae569fe0a1bff8d508f4",
+    "gdt016_group_state_inventory.tsv": "e109ce15864ed6b6f76d446b3c96d6190a0dc53d20d8ab0944554124e687234c",
+    "gdt016_result.json": "aaa96a3be942bc1eab6587d5362922f3f16ec2beea7f520d47e190c32df80c2c",
+    "gdt023_result.json": "e6d9e58194faf26cd46241b6d5bee106bfbdbc461d7b7441313c4b629d387245"
+  },
+  "interpretation": {
+    "KAL_OKAL": "WHOLE_FORM_DOMINATED_LOCAL_SEQUENCE",
+    "QJB": "PRODUCTIVE_FORMAL_SUBTYPE_WITHIN_CURRIER_B"
+  },
+  "inventory_groups": 15592,
+  "kal_drop_qokal": {
+    "claim_state": "POSTHOC_DOMINANT_FORM_ROBUSTNESS_NOT_MEANING",
+    "conditional_effect": "0.093246076072",
+    "diagnostic": "DROP_TOP_1_POSTDY_TOKENS",
+    "exact_p": "0.220005181314",
+    "expected_postdy": "17.994701213819",
+    "feature": "KAL",
+    "informative_strata": 49,
+    "observed_postdy": 22,
+    "remaining_occurrences": 155,
+    "remaining_token_types": 56,
+    "removed_tokens": "qokal"
+  },
+  "outputs": {
+    "GDT024_POST_DY_FORM_GENERALIZATION_REPORT.md": "ff6fe6a6ea72ffca4f29c825f58e5abcc31af123b1c7809ec00515c1abc12839",
+    "gdt024_dominant_form_deletions.tsv": "663d4f969546a3305ba540b682f24c643e9df71f92092dc7ce6ce93dbd60e0aa",
+    "gdt024_register_transfer.tsv": "fb77ea04aa2a7d98b7f1545ae7a20013fc8dcba1d9cc82e69c61c31f318d5a7f",
+    "gdt024_state_restricted_tests.tsv": "00470d5c12eb4394cc04f6af8ff246059a529a79720ed10888f34b01acd430ba"
+  },
+  "qjb_drop16": {
+    "claim_state": "POSTHOC_DOMINANT_FORM_ROBUSTNESS_NOT_MEANING",
+    "conditional_effect": "0.110275456633",
+    "diagnostic": "DROP_TOP_16_POSTDY_TOKENS",
+    "exact_p": "0.123356622794",
+    "expected_postdy": "21.355507667950",
+    "feature": "QJB",
+    "informative_strata": 59,
+    "observed_postdy": 27,
+    "remaining_occurrences": 97,
+    "remaining_token_types": 67,
+    "removed_tokens": "chekedy|kedy|lkedy|okedy|olkedy|otedam|otedy|qokedaiin|qokedain|qokedal|qokedar|qokedy|qotedar|qotedy|tedy|ykedy"
+  },
+  "qjb_rare_tail": {
+    "claim_state": "POSTHOC_RARE_FORM_TAIL_ROBUSTNESS_NOT_MEANING",
+    "conditional_effect": "0.274685910688",
+    "diagnostic": "RARE_TOKEN_TYPES_TOTAL_LE_5",
+    "exact_p": "0.000242841652",
+    "expected_postdy": "22.751774636276",
+    "feature": "QJB",
+    "informative_strata": 59,
+    "observed_postdy": 36,
+    "remaining_occurrences": 103,
+    "remaining_token_types": 73,
+    "removed_tokens": ""
+  },
+  "register_tests": 39,
+  "result_content_sha256": "d9a1f957a8b7122807cb02511ae7e04ed40e66a2fdba4c3b52ad6902e1632ad1",
+  "schema": "GDT024_POST_DY_FORM_GENERALIZATION_RESULT_V1",
+  "state_controls": 3,
+  "status": "QJB_FORM_GENERALIZATION_WITHIN_CURRIER_B_KAL_WHOLE_FORM_DOMINATED"
+}
