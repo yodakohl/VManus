@@ -60,3 +60,12 @@ but no visual association has page-conditioned p below .151 and the complete
 morphology generator remains 100,562.898 bits behind the global source winner.
 The result supports formal reuse but not the proposed semantic four-slot
 template or a translation.
+
+GDT003 tests the narrower predictive algebra. It finds 44 complete formal
+rectangles and nine exact target-type-novel whole-folio completions, but makes
+3,527 folio predictions for 0.255% precision and only 0.306% coverage of novel
+held types. Paradigm average precision (0.1138) is below both the character KT
+baseline (0.1148) and visible whole-group frequency (0.1191). Two edge-operation
+pairs remain formally independent/compatible, but the overall result is `NOT
+DISTINGUISHABLE FROM STRING STATISTICS`. No linguistic morphology or meaning
+is inferred; f84r remains sealed.
