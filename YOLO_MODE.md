@@ -77,3 +77,12 @@ A positive discovery result could at most nominate anonymous roles such as
 `PROCESS_STAGE`, `STATE_PROPERTY`, or `RELATION` for held visual transfer. It
 does not establish a word, part of speech, sound, historical language,
 plaintext, meaning, or translation.
+
+## External system comparators
+
+YOLO mode may compare already frozen Voynich structural inventories with an
+externally frozen historical system profile. External claims and generic
+medieval controls must be sourced and committed before target scoring. A
+system-level match is never a language, origin, authorship, direct-copy,
+plaintext, or translation result; compatibility and cultural specificity must
+be reported separately.

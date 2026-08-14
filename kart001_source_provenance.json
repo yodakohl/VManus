@@ -1,0 +1,108 @@
+{
+  "experiment": "KART001_A65_SYSTEM_COMPARATOR",
+  "stage": "STAGE_A_EXTERNAL_COMPARATOR_FREEZE",
+  "frozen_utc_date": "2026-08-14",
+  "voynich_target_scores_computed_before_freeze": false,
+  "sources": [
+    {
+      "source_id": "TITUS_A65_TEXT",
+      "bibliography": "Akaki Shanidze (ed.), Etlta da shwdta mnatobtatws: Astrologiuri txzuleba XII saukunisa, Tbilisi, 1975; electronic text prepared by Ketevan Gochitashvili, TITUS version by Jost Gippert",
+      "url": "https://titus.uni-frankfurt.de/texte/etcs/cauc/ageo/etlta/etltat.htm",
+      "source_type": "SCHOLARLY_ELECTRONIC_EDITION",
+      "retrieved_2026_08_14_sha256": "c6658401b3c8c9b47c6f15228c2bf3ed3bffa380b05a12bd901cfbdda9bac0bc",
+      "supports": ["A65_F01", "A65_F02", "A65_F03", "A65_F04", "A65_F05", "A65_F06", "A65_F07", "A65_F08"]
+    },
+    {
+      "source_id": "NPLG_SHANIDZE_1975",
+      "bibliography": "National Parliamentary Library of Georgia catalogue record for Shanidze's 1975 edition",
+      "url": "https://dspace.nplg.gov.ge/handle/1234/334991",
+      "source_type": "NATIONAL_LIBRARY_CATALOGUE",
+      "supports": ["EDITION_IDENTITY", "OLD_GEORGIAN_TRACT_TITLE", "DATE_OF_EDITION"]
+    },
+    {
+      "source_id": "COMST_2015",
+      "bibliography": "Jost Gippert et al. (eds.), Comparative Oriental Manuscript Studies: An Introduction, 2015, Georgian codicology section, p.177",
+      "url": "https://art.torvergata.it/retrieve/0761645f-8f2c-46d7-8ae2-6ba1e81cdd28/COMSt%20%28Codicology%29.pdf",
+      "source_type": "SCHOLARLY_HANDBOOK",
+      "supports": ["MS_A65_IDENTITY", "ARABIC_TRANSLATION", "ILLUSTRATED", "DATE_1188_1210"]
+    },
+    {
+      "source_id": "ABULADZE_GIUNASHVILI_2021",
+      "bibliography": "Tamar Abuladze and Helen Giunashvili, Georgia and Iran: Historical-Cultural Context and Tendencies of Georgian Renaissance, Pro Georgia 31 (2021), pp.185-187",
+      "url": "https://dspace.nplg.gov.ge/bitstream/1234/529060/1/Pro_Georgia_2021_N31.pdf",
+      "source_type": "SCHOLARLY_ARTICLE",
+      "supports": ["A65_TWELFTH_CENTURY", "ARABIC_ADAPTATION", "LUNAR_MOVEMENT", "SEVEN_HEAVENLY_BODIES", "ILLUMINATION"]
+    },
+    {
+      "source_id": "SIMONIA_2015",
+      "bibliography": "Irakli Simonia et al., Astronomical Manuscripts in Georgia, Ilia State University Press, 2015, ISBN 978-9941-18-225-9",
+      "url": "https://eprints.iliauni.edu.ge/4669/",
+      "source_type": "SCHOLARLY_BOOK_DATABASE",
+      "supports": ["GEORGIAN_ASTRONOMICAL_MANUSCRIPT_CONTEXT", "ARABIC_BYZANTINE_TRANSMISSION_CONTEXT"]
+    },
+    {
+      "source_id": "RUTKIN_2019",
+      "bibliography": "H. Darrel Rutkin, Sapientia Astrologica, Volume I: Overall Introduction, 2019",
+      "url": "https://iris.unive.it/retrieve/handle/10278/3714815/202539/RutkinSapientiaMonograph%5BAll%5D.pdf",
+      "source_type": "SCHOLARLY_MONOGRAPH",
+      "supports": ["SEVEN_PREMODERN_PLANETS", "GENERIC_ZODIAC_ASTROLOGY"]
+    },
+    {
+      "source_id": "AINSWORTH_2018",
+      "bibliography": "Theresa Ainsworth, A Timeline of the Decans, MA thesis, Queen's University, 2018",
+      "url": "https://qspace.library.queensu.ca/bitstream/handle/1974/24821/Ainsworth_Theresa_201809_MA.pdf",
+      "source_type": "SCHOLARLY_THESIS",
+      "supports": ["THREE_DECANS_PER_SIGN", "THIRTY_DEGREE_SIGNS", "THIRTY_SIX_DECANS"]
+    },
+    {
+      "source_id": "VARISCO_CSIC_2022",
+      "bibliography": "Study of the anwa tradition and 28 lunar mansions in Al-Qantara, CSIC, 2022",
+      "url": "https://al-qantara.revistas.csic.es/index.php/al-qantara/article/download/698/785?inline=1",
+      "source_type": "PEER_REVIEWED_ARTICLE",
+      "supports": ["TWENTY_EIGHT_ARABIC_LUNAR_MANSIONS", "INDIAN_TRANSMISSION_CONTEXT"]
+    },
+    {
+      "source_id": "TIME_ASTRONOMY_2024",
+      "bibliography": "Time and Astronomy in Past Cultures, Gorgias Press, 2024",
+      "url": "https://www.sbl-site.org/wp-content/uploads/2024/12/TimeandAstronomy_Gorgias.pdf",
+      "source_type": "SCHOLARLY_EDITED_VOLUME",
+      "supports": ["TWENTY_EIGHT_ISLAMIC_LUNAR_MANSIONS", "CROSS_CULTURAL_LUNAR_STATIONS"]
+    },
+    {
+      "source_id": "FU_PLANETARY_WEEK",
+      "bibliography": "Theon hemerai: astrology, the planetary week, and the cult of the seven planets in the Graeco-Roman world",
+      "url": "https://refubium.fu-berlin.de/handle/fub188/37018",
+      "source_type": "SCHOLARLY_ARTICLE",
+      "supports": ["SEVEN_PLANETS_WIDESPREAD_GRAECO_ROMAN"]
+    },
+    {
+      "source_id": "NYPL_MA069_AUDIT",
+      "bibliography": "Repository source audit of NYPL MA 069, Wellcome MS.202, Oxford St John's MS 17, and Teresi 2020",
+      "path": "experiments/semantic_assumptions/results/computus_circle_module_source_audit.md",
+      "source_type": "VERSIONED_REPOSITORY_SOURCE_AUDIT",
+      "supports": ["GENERIC_COMPUTUS_MODULE_STOCK", "4", "7", "8", "12", "19", "29", "30"]
+    },
+    {
+      "source_id": "ACTIVE_STATE_CIRCLE_AUDITS",
+      "bibliography": "Canonical active-state and active-ledger summaries of source-audited Cod. Sang. 760, Walters W.73, and the Catalan Atlas tide calculator",
+      "paths": ["VOYNICH_ACTIVE_STATE.md", "experiments/semantic_assumptions/ACTIVE_EXPERIMENT_LEDGER.tsv"],
+      "source_type": "CANONICAL_REPOSITORY_CLAIM_REGISTRY",
+      "supports": ["4", "7", "12", "16", "19", "28", "CIRCULAR_COMPUTUS_PRECEDENT", "GENERIC_COSMOGRAPHIC_MODULE_STOCK"]
+    },
+    {
+      "source_id": "OXFORD_TIDAL_AUDIT",
+      "bibliography": "Teresi 2020 plus repository direct-manuscript audit of Oxford St John's MS 17 tidal rota",
+      "path": "experiments/semantic_assumptions/results/computus_circle_module_source_audit.md",
+      "source_type": "VERSIONED_REPOSITORY_SOURCE_AUDIT",
+      "supports": ["29", "30", "ORDERED_LUNAR_AGE_ROTA"]
+    }
+  ],
+  "external_claim_policy": {
+    "unsupported_features_excluded": ["A65_F09", "A65_F10"],
+    "partially_supported_feature_restriction": "A65_F07 scores only the ten explicit clear degree sets; Cancer and Capricorn excluded",
+    "exact_color_prevalence": "UNKNOWN",
+    "absence_from_small_audit_is_rarity_evidence": false,
+    "modern_unsourced_summaries_used_for_scoring": false
+  },
+  "claim_ceiling": "External system architecture only; no Georgian or Mingrelian language, authorship, origin, copying, sound, number-word, plaintext, meaning, or translation claim."
+}
