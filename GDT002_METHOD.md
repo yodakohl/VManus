@@ -206,3 +206,13 @@ unhedged exclusive observations of each state on a physical folio other than
 f77 and f82. This rule diagnoses the capacity of the cached annotation layer;
 failure does not close permissive exploration or reassign mixed observations.
 The f84r formal payload remains excluded before row classification.
+
+## CKPT012 f83r post-exposure direct visual reinspection
+
+The source-only CKPT011 fallback fixes f83r.45/.46/.50/.51 before native image
+review. Direct observations use the exact official canvas and fixed IIIF crops,
+are labeled `AI_DIRECT_VISUAL_OBSERVATION`, and remain separate from inherited
+human tags. Visible local geometry may correct a tag's scope, but proximity
+does not become ownership. Formal values are explicitly already exposed, so
+the ensuing fixed four-row comparison is post-exposure exploration, not
+validation. f84r remains excluded.

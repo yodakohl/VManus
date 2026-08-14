@@ -42,3 +42,9 @@ Only the already used f77r and f82r have at least two unhedged exclusive
 apparatus and figure rows. f83r is the best new-folio fallback, but its two
 potential apparatus rows are hedged mixed-ownership observations and its
 formal values are already exposed; it can support exploration, not validation.
+
+CKPT012 directly reinspects the preselected f83r rows. It corrects a tag-scope
+confound: f83r.50/.51 are locally beside lower structure outlets, not human
+figures, while .45/.46 remain ambiguous between figures and tube ends. ACA is
+2/2 in the lower pair versus 1/2 in the arch-end pair (exact p=.5), so f83r
+adds no independent contrast. f84r remains sealed.
