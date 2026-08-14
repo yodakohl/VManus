@@ -30,6 +30,13 @@ the higher-confidence localization; equal-confidence disagreement retains both
 as a localization-sensitivity pair. Every localization is
 `AI_DIRECT_VISUAL_OBSERVATION`, never human annotation or OCR.
 
+Before crop review, the agreement tolerance is fixed at 50 native horizontal
+pixels with overlapping vertical marker ranges. The two completed passes agree
+within that tolerance on 23/34 probes. Both equal-confidence variants are
+retained for the other 11 probes, producing 45 opaque review crops. This
+50-pixel convention is a post-localization YOLO reconciliation choice, not a
+confirmation-grade preregistered measurement.
+
 ## Opaque review
 
 After reconciliation, randomly named crops contain only a marker and local
