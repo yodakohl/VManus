@@ -1,6 +1,6 @@
 # GDT002 visual-grammar constraints method
 
-Status: **FIRST CHECKPOINT; JOINT SOLVER NOT RUN**.
+Status: **EXPLORATORY HYPOTHESIS GENERATION ACTIVE; NO VALIDATION HYPOTHESIS FROZEN**.
 
 ## Question and claim ceiling
 
@@ -145,3 +145,34 @@ RTA001 or prior transfer screens, is preregistered.
 This checkpoint can establish only a provenance-bound atlas and risky joint
 constraints. It establishes no object name, process, material, word, POS,
 sound, language, cipher, plaintext, meaning, or translation.
+
+## Exploratory discovery supersession
+
+The capacity-blocked language above records the first validation-first
+checkpoint. It remains historical, but it no longer governs YOLO discovery.
+The current exploratory stage uses every acquired CONTACT, CLEAR_GAP, and
+UNCERTAIN observation, including one-sided arrays. The old f89, f88/f102, and
+complete-array gate outcomes stay recorded as failures of their preregistered
+procedures; they are not retroactively called successful.
+
+Discovery canonicalizes inherited observations by physical locus, retains
+UNCERTAIN as missing plus both deterministic sensitivity assignments, and
+joins only source-native family, component, group, boundary, and primary
+member-code fields. It may search primitive predicates and compact depth-two
+AND/OR combinations. It reports conditional mutual information, two-part code
+improvement, exact within-array permutations, cyclic rotations,
+length/group-count sensitivity, leave-one-array/folio behavior, and separate
+ZL3b/IT2a/RF1b masks. These are ranking diagnostics, not confirmation gates.
+
+Folio, page, array, ordinal, reviewer provenance, section, Currier, hand,
+layout code, kind, and grammar scope are audit/confound fields, never candidate
+meanings. CONTACT/GAP, existing human layout, and BFE enclosure observations
+are analyzed as separate channels because pooling them would manufacture
+section/Currier/hand effects. Exact ordered surfaces, legacy parser roles,
+historical-language models, and lexical glosses remain outside GDT002.
+
+The formal f84r payload remains sealed. A candidate may be frozen for f84r
+validation only in a later checkpoint with its feature, direction, penalty,
+uncertainty rule, and score fixed in advance. Until then every ranked candidate
+is postselected exploratory evidence and may be dirty, unstable, sparse, or
+page-confounded.

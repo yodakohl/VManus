@@ -1,0 +1,62 @@
+{
+  "artifact": "GDT002_EXPLORATORY_JOINT_HYPOTHESES_V1",
+  "status": "POSTSELECTED_EXPLORATORY_HYPOTHESES_NOT_FROZEN_FOR_VALIDATION",
+  "evidence_class": "FORMAL_ASSOCIATION_HYPOTHESIS",
+  "hypotheses": [
+    {
+      "id": "EH01_CONTACT_MEMBER_A1_DEPLETION",
+      "visual_state": "CONTACT_VS_CLEAR_GAP",
+      "formal_rule": "MEMBER_TOKEN_ZL3b:A1",
+      "candidate_id": "415d37410c79",
+      "direction": "DEPLETED_IN_CONTACT",
+      "semantic_role": "UNASSIGNED",
+      "label": "WEAK",
+      "validation_state": "NOT_FROZEN"
+    },
+    {
+      "id": "EH02_CONTACT_K_COMPONENT",
+      "visual_state": "CONTACT_VS_CLEAR_GAP",
+      "formal_rule": "FAMILY_1GRAM:K",
+      "candidate_id": "51853f4717d2",
+      "direction": "WEAKLY_ENRICHED_IN_CONTACT_WITHIN_INFORMATIVE_ARRAYS",
+      "semantic_role": "UNASSIGNED",
+      "label": "WEAK",
+      "validation_state": "NOT_FROZEN"
+    },
+    {
+      "id": "EH03_F82_ROW_AQA_PREFIX",
+      "visual_state": "F82_TOP_VS_BOTTOM_ROW",
+      "formal_rule": "FAMILY_PREFIX_3:AQA",
+      "candidate_id": "a32e8d85e647",
+      "direction": "TOP_ROW_ONLY_IN_CURRENT_PAGE",
+      "semantic_role": "UNASSIGNED",
+      "label": "LIKELY_PAGE_CONFOUND",
+      "validation_state": "NOT_FROZEN"
+    },
+    {
+      "id": "EH04_F82_APPARATUS_ACA",
+      "visual_state": "APPARATUS_POSITION_VS_FIGURE_POSITION",
+      "formal_rule": "FAMILY_3GRAM:ACA",
+      "candidate_id": "65289bb29690",
+      "direction": "APPARATUS_POSITION_ENRICHED_ON_F82R",
+      "semantic_role": "UNASSIGNED",
+      "label": "LIKELY_PAGE_CONFOUND",
+      "validation_state": "NOT_FROZEN"
+    }
+  ],
+  "joint_worlds": [
+    {
+      "id": "JW01_UNASSIGNED_FORMAL_BUNDLE",
+      "assignments": [
+        "EH01_CONTACT_MEMBER_A1_DEPLETION",
+        "EH02_CONTACT_K_COMPONENT",
+        "EH03_F82_ROW_AQA_PREFIX",
+        "EH04_F82_APPARATUS_ACA"
+      ],
+      "semantic_roles": "UNASSIGNED",
+      "status": "EXPLORATORY_FORMAL_BUNDLE_ONLY",
+      "complexity_note": "Four postselected formal associations; no selector-paid CONTACT/GAP advantage and no held prediction."
+    }
+  ],
+  "claim_ceiling": "Formal association hypotheses only. Semantic roles remain UNASSIGNED; no word, POS, sound, language, plaintext, meaning, or translation is inferred."
+}

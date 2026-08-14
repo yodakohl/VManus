@@ -8,6 +8,22 @@ This branch is an exploratory visual-grammar role-constraint sandbox. Every
 result is exploratory. Nothing here is a confirmed semantic role or
 translation, and this branch must not be merged automatically.
 
+## Discovery versus validation
+
+YOLO discovery may inspect and combine weak, incomplete, asymmetric,
+one-sided, and uncertain observations. Zero-positive or zero-negative arrays
+are observations, not automatic failures. Discovery gates rank evidence and
+quantify confounding; they do not veto formal comparison or terminate the
+search. Uncertain calls remain missing/soft evidence with explicit sensitivity
+analyses. Exact within-array controls, leave-one-folio diagnostics, edition
+stability, and complexity costs describe how suspicious a candidate is.
+
+Strict preregistration, mandatory capacity, kill criteria, immutable mappings,
+and held evaluation apply only after one concrete hypothesis is separately
+frozen for validation. Historical preregistered GDT002 gate failures remain
+valid procedural outcomes and are never rewritten as passes. They do not bar
+postselected exploratory use of the observations on this YOLO branch.
+
 ## Isolation
 
 - Never modify or merge canonical `VOYNICH_ACTIVE_STATE.md`,
@@ -26,6 +42,9 @@ translation, and this branch must not be merged automatically.
   `LATENT_ROLE_HYPOTHESIS`, and `INTERPRETATION` distinct.
 - A future solver must score whole joint role worlds, pay for mappings and
   page exceptions, and compare with structure-matched permutations.
+- Current discovery may rank source-native visual/formal associations without
+  assigning roles. Contact/gap, human layout, and enclosure channels remain
+  separate when pooling would confound section, Currier, hand, or provenance.
 
 ## First-checkpoint access rule
 
