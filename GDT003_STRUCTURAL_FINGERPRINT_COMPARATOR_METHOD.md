@@ -74,7 +74,10 @@ Every candidate is ranked by the paradigm score, character KT order 2,
 character KT order 4, visible-cell whole-group frequency, and nearest edit
 distance. The character alphabet is learned inside each training fold, with a
 single unknown-character cell. Report exact hits, precision, average precision,
-AUC, and paradigm AP minus the strongest baseline AP.
+AUC, and paradigm AP minus the strongest baseline AP. For an empty/no-positive
+candidate set, AP is reported as 0.0. AUC is reported as the neutral 0.5 when
+either class is absent; prediction and hit counts distinguish this reporting
+convention from an evaluated mixed-class ranking.
 
 ## Fingerprint and distance
 
