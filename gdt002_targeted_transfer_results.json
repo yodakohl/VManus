@@ -1,0 +1,119 @@
+{
+  "ACA": {
+    "decision": "INTERESTING_EXPLORATORY_DIRECTION_ONLY_NOT_VALIDATED",
+    "interpretive_ceiling": "The independent f77r page has the same direction but p=.6 and negative page-only MDL; the pooled signal is driven by the f82r discovery page.",
+    "pages": {
+      "f77r": {
+        "ACA_apparatus": 1,
+        "ACA_figure": 0,
+        "apparatus_n": 6,
+        "effect": 0.16666666666666666,
+        "exact_worlds": 210,
+        "figure_n": 4,
+        "one_sided_exact_p": 0.6,
+        "raw_mdl_gain_bits": -0.13750352374992936
+      },
+      "f82r": {
+        "ACA_apparatus": 3,
+        "ACA_figure": 1,
+        "apparatus_n": 3,
+        "effect": 0.875,
+        "exact_worlds": 165,
+        "figure_n": 8,
+        "one_sided_exact_p": 0.024242424242424242,
+        "raw_mdl_gain_bits": 4.459431618637296
+      }
+    },
+    "pooled_f77r_f82r": {
+      "effect": 0.5208333333333334,
+      "one_sided_exact_p": 0.014545454545454545,
+      "per_page_effects": {
+        "f77r": 0.16666666666666666,
+        "f82r": 0.875
+      },
+      "raw_mdl_gain_bits": 4.321928094887369,
+      "tail": 504,
+      "two_candidate_selector_paid_mdl_gain_bits": 3.321928094887369,
+      "worlds": 34650
+    }
+  },
+  "AQA": {
+    "decision": "NO_TRANSFER_ON_EXPOSED_F75V_OR_F67R2_LAYOUTS",
+    "pages": {
+      "f67r2": {
+        "AQA_other": 5,
+        "AQA_positive": 3,
+        "effect": 0.0,
+        "n_other": 10,
+        "n_positive": 6,
+        "one_sided_exact_p": 0.6958041958041958,
+        "positive_state": "UPPER_ISOLATED",
+        "tail": 5572,
+        "worlds": 8008
+      },
+      "f75v": {
+        "AQA_other": 1,
+        "AQA_positive": 1,
+        "effect": 0.0,
+        "n_other": 10,
+        "n_positive": 10,
+        "one_sided_exact_p": 0.75,
+        "positive_state": "TOP",
+        "tail": 768,
+        "worlds": 1024
+      }
+    }
+  },
+  "artifact": "GDT002_TARGETED_EXPOSED_TRANSFER_V1",
+  "claim_ceiling": "Formal association transfer diagnostics only. Semantic roles remain UNASSIGNED; no word, POS, sound, language, plaintext, meaning, or translation is established.",
+  "counts": {
+    "ACA_informative_rows": 21,
+    "ACA_rows": 49,
+    "AQA_formal_rows": 36,
+    "AQA_rows": 39,
+    "join_rows": 88
+  },
+  "documents": {
+    "GDT002_CURRENT_SUMMARY.md": "e5e38128a23a0f02183c7101399486bd271281eda1fce96793d6bfbfa701e0d3",
+    "GDT002_METHOD.md": "6b7ef767b474db2f526dce5e2540a8f6605fd512f516cd19a3adfd023505736f",
+    "GDT002_TARGETED_TRANSFER_REPORT.md": "c7eb3224e14bf7f8a9df97d69ea7dfce1a45bb2cd5b5d3b31348b5a5b927ee7b"
+  },
+  "exposure": "f75v/f67r2 and f77/f82 have prior route exposure; this is targeted reuse, not fresh confirmation.",
+  "fixed_candidates": {
+    "ACA": {
+      "rule": "FAMILY_3GRAM:ACA",
+      "source_candidate_id": "65289bb29690",
+      "source_channel": "F82_APPARATUS_VS_FIGURE"
+    },
+    "AQA": {
+      "rule": "FAMILY_PREFIX_3:AQA",
+      "source_candidate_id": "a32e8d85e647",
+      "source_channel": "F82_TOP_VS_BOTTOM_ROW"
+    }
+  },
+  "holdout": {
+    "commitment_sha256": "5b438b2ee481260ea86fb44fa0172ce432dfcc058791c0ce3232316eb36bd455",
+    "formal_payload_joined": false,
+    "formal_payload_opened": false,
+    "page": "f84r",
+    "used_in_search": false
+  },
+  "inputs": {
+    "GDT002_YOLO_LEDGER.tsv": "602bf5b83db1d6539c6284828d11c47920e8d934d3b253259c28ead9fc680868",
+    "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv": "04bdef4c434a96324df0b2ef9c508a65ec9533b467fc9ad4a6910b33a1d36d99",
+    "experiments/semantic_assumptions/results/existing_human_current_locus_crosswalk.tsv": "4a128ed3d4b87a9d804a336a6c22ced65839fa39c83f3ecf45092bbc64f2eabc",
+    "experiments/semantic_assumptions/results/existing_human_exact_locus_annotations.tsv": "79c7f06e91f90054aff4cdf27f098a5977d820acdf91f239a14c6ddf553a7f61",
+    "experiments/semantic_assumptions/results/source_sta_family_consensus_groups.tsv": "a202d93498e8a350a5d7e0ca46e831dcc37ea5c0182dc404d63cb797a98b1225",
+    "experiments/semantic_assumptions/results/source_sta_family_consensus_loci.tsv": "84354a9e5d291ab00f45c9bfe161f62d8cbd8c39db7511ff263cd9fcfe9d9e77",
+    "experiments/semantic_assumptions/results/source_sta_group_alignment.tsv": "f23654f1d4c854db6d458b418a0d3530115731604854cf0a0495565e58341840",
+    "gdt002_exploratory_candidate_atlas.tsv": "5262bbf53d5f550b74b8e0ee4dd942918f7bd5203d917db40b32c4d808f6f819",
+    "gdt002_exploratory_discovery_results.json": "1a1fb3a5197f0e6038b8c1cd68882bed28416b38b84039a721cfdc5528901d19",
+    "gdt002_f84r_holdout_projection_commitment.json": "5b438b2ee481260ea86fb44fa0172ce432dfcc058791c0ce3232316eb36bd455",
+    "run_gdt002_targeted_transfer.py": "bad76b62b0354104b3dc2718ee50b8ab3394ac01221421e05e48a2e4b528f6c2"
+  },
+  "mode": "TARGETED_EXPLORATORY_NOT_VALIDATION",
+  "outputs": {
+    "gdt002_targeted_transfer_join.tsv": "2d883a0b92d631e6956064a0184749e130cc4e4138ac1ba5300e8e63c31991b1"
+  },
+  "status": "AQA_NO_TRANSFER_ACA_DIRECTION_REPEATS_BUT_TRANSFER_ONLY_WEAK"
+}

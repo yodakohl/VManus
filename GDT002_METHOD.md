@@ -176,3 +176,21 @@ validation only in a later checkpoint with its feature, direction, penalty,
 uncertainty rule, and score fixed in advance. Until then every ranked candidate
 is postselected exploratory evidence and may be dirty, unstable, sparse, or
 page-confounded.
+
+## CKPT010 targeted exposed-data transfer
+
+CKPT010 performs no new feature search. It takes exactly the two page-local
+CKPT009 predicates `FAMILY_PREFIX_3:AQA` and `FAMILY_3GRAM:ACA`, preserving
+their direction and source-native definition. Existing human annotations
+define all visual states before the selected records are joined to formal
+data. f75v/f67r2 test the row/register predicate; the complete non-f84r set of
+unhedged, exclusive apparatus-versus-figure annotations with consensus
+`kind=L` records tests the apparatus predicate. One-sided pages remain
+descriptive observations; exact permutations use only pages containing both
+states.
+
+These pages are explicitly exposed discovery data. f75v/f67r2 cannot confirm
+their prior consumed layout mechanisms, and f77/f82 also have extensive prior
+route exposure. A same-direction result may rank a candidate but cannot turn
+this checkpoint into validation. The sealed f84r formal projection remains
+unread, unjoined, and unscored.

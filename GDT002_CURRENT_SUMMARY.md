@@ -27,3 +27,11 @@ the old scientific outputs and STOP decisions are not rewritten.
 The exact f84r formal projection remains sealed and unused. Nothing on this
 branch establishes a semantic role, lexeme, POS, sound, language, plaintext,
 meaning, or translation.
+
+CKPT010 then tested the two fixed page-local leads on already exposed
+nonholdout layouts. `AQA` did not transfer: f75v and f67r2 both produced zero
+upper/lower effect. `ACA` retained the apparatus-enrichment direction on f77r,
+but that page alone has p=.6 and negative MDL; the attractive pooled f77r+f82r
+score is driven by the original f82r discovery page. It remains an interesting
+exploratory direction only. A genuinely independent apparatus/figure page is
+required before spending f84r.
