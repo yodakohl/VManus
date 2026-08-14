@@ -1,0 +1,119 @@
+{
+  "any_bic_positive": false,
+  "best_raw_models": {
+    "NEXT_CARRIER": {
+      "bic_extra_parameters": 4,
+      "bic_net_gain_bits": "-15.129166566216",
+      "bic_penalty_bits": "22.389513708844",
+      "claim_state": "EXPLORATORY_PAYLOAD_DEPENDENCY_SCREEN",
+      "feature": "LONG_HOST",
+      "feature_levels": 2,
+      "held_bits": "1202.862521081218",
+      "position_baseline_bits": "1210.122868223846",
+      "raw_gain_bits": "7.260347142629",
+      "selector_paid_gain_bits": "3.938419047741",
+      "target": "NEXT_CARRIER",
+      "target_classes": 2
+    },
+    "NEXT_DY": {
+      "bic_extra_parameters": 4,
+      "bic_net_gain_bits": "-21.255864645265",
+      "bic_penalty_bits": "22.389513708844",
+      "claim_state": "EXPLORATORY_PAYLOAD_DEPENDENCY_SCREEN",
+      "feature": "Q_FLAG",
+      "feature_levels": 2,
+      "held_bits": "2105.334450038599",
+      "position_baseline_bits": "2106.468099102178",
+      "raw_gain_bits": "1.133649063579",
+      "selector_paid_gain_bits": "-2.188279031308",
+      "target": "NEXT_DY",
+      "target_classes": 2
+    },
+    "NEXT_OT_LOCAL": {
+      "bic_extra_parameters": 4,
+      "bic_net_gain_bits": "-25.705857149782",
+      "bic_penalty_bits": "22.389513708844",
+      "claim_state": "EXPLORATORY_PAYLOAD_DEPENDENCY_SCREEN",
+      "feature": "Q_FLAG",
+      "feature_levels": 2,
+      "held_bits": "453.034638233621",
+      "position_baseline_bits": "449.718294792683",
+      "raw_gain_bits": "-3.316343440938",
+      "selector_paid_gain_bits": "-6.638271535825",
+      "target": "NEXT_OT_LOCAL",
+      "target_classes": 2
+    },
+    "NEXT_Q": {
+      "bic_extra_parameters": 4,
+      "bic_net_gain_bits": "-15.328656405079",
+      "bic_penalty_bits": "22.389513708844",
+      "claim_state": "EXPLORATORY_PAYLOAD_DEPENDENCY_SCREEN",
+      "feature": "HAS_CANDIDATE_CORE",
+      "feature_levels": 2,
+      "held_bits": "1427.622112533769",
+      "position_baseline_bits": "1434.682969837535",
+      "raw_gain_bits": "7.060857303766",
+      "selector_paid_gain_bits": "3.738929208878",
+      "target": "NEXT_Q",
+      "target_classes": 2
+    },
+    "NEXT_STATE": {
+      "bic_extra_parameters": 52,
+      "bic_net_gain_bits": "-313.179660640108",
+      "bic_penalty_bits": "291.063678214978",
+      "claim_state": "EXPLORATORY_PAYLOAD_DEPENDENCY_SCREEN",
+      "feature": "LONG_HOST",
+      "feature_levels": 2,
+      "held_bits": "7017.386438620167",
+      "position_baseline_bits": "6995.270456195037",
+      "raw_gain_bits": "-22.115982425130",
+      "selector_paid_gain_bits": "-25.437910520017",
+      "target": "NEXT_STATE",
+      "target_classes": 14
+    }
+  },
+  "claim_ceiling": "Low-capacity checkpoint-payload/next-state decoupling only; no morpheme, word, syntax, sound, language, plaintext, meaning, or translation.",
+  "events": 2344,
+  "f84r": {
+    "input_contains_rows": false,
+    "joined": false,
+    "opened": false,
+    "retained": false,
+    "scored": false
+  },
+  "features": [
+    "POSITION_ONLY",
+    "Q_FLAG",
+    "PREFIX_CLASS",
+    "HAS_CANDIDATE_CORE",
+    "CORE_CLASS",
+    "LONG_HOST",
+    "HOST_LENGTH_BIN",
+    "FAMILY_INITIAL",
+    "EXACT_FAMILY",
+    "EXACT_HOST"
+  ],
+  "implementation": {
+    "run_gdt019_dy_payload_decoupling.py": "c4ed0ef9c960121101034bc350572b8e146c69685e1b216421b332c582808fbd"
+  },
+  "inputs": {
+    "GDT019_DY_PAYLOAD_DECOUPLING_METHOD.md": "4ca262075ec6ef4ac377b972ef9a2aaacc00c1d2b7225917dbc55efaf26b072d",
+    "gdt016_group_state_inventory.tsv": "e109ce15864ed6b6f76d446b3c96d6190a0dc53d20d8ab0944554124e687234c",
+    "gdt018_result.json": "cb341b398262263c86e787cbb51ba8842c58b31a76ae52f9ccd17c8e3a18561b"
+  },
+  "outputs": {
+    "GDT019_DY_PAYLOAD_DECOUPLING_REPORT.md": "86e8d48085cf551904b0df6a7b4d0ecbef534d24bf1f60a36271e4de24185672",
+    "gdt019_payload_dependency_models.tsv": "638704d606d6010ad426e993ff0df74b7c4c9d7b5047f8f47c6190c969318b96"
+  },
+  "physical_folios": 84,
+  "result_content_sha256": "859ac6d0aa2da5d663ed31b1b0ec406d4dca24324464a693227fccb9c5d11161",
+  "schema": "GDT019_DY_PAYLOAD_DECOUPLING_RESULT_V1",
+  "status": "DY_PAYLOAD_NEXT_STATE_DECOUPLED_AT_TESTED_RESOLUTION",
+  "targets": [
+    "NEXT_STATE",
+    "NEXT_Q",
+    "NEXT_OT_LOCAL",
+    "NEXT_DY",
+    "NEXT_CARRIER"
+  ]
+}
