@@ -1,0 +1,41 @@
+{
+  "artifact": "GDT002_ACA_REPLICATION_CAPACITY_V1",
+  "best_exploratory_fallback": {
+    "apparatus_unhedged": 0,
+    "figure_unhedged": 2,
+    "mixed_hedged": 2,
+    "page": "f83r",
+    "physical_folio": "f83",
+    "state": "REQUIRES_NEW_VISUAL_ADJUDICATION; FORMAL_VALUES_ALREADY_EXPOSED; EXPLORATORY_ONLY"
+  },
+  "claim_ceiling": "Capacity audit only. This does not close permissive exploration, assign any mixed row, establish ACA as a role, or infer a word, meaning, or translation.",
+  "counts": {
+    "clean_independent_pages": 0,
+    "pages": 26,
+    "used_clean_pages": [
+      "f77r",
+      "f82r"
+    ]
+  },
+  "documents": {
+    "GDT002_ACA_REPLICATION_CAPACITY_REPORT.md": "57e589a7599b6668eb3d28be9370173953fe9c1d004fed380f903e362badb45a",
+    "GDT002_CURRENT_SUMMARY.md": "b12a3fb541541ab84d66f9974a312b9b108784b1fcb8afa5c3a40bbba8215650",
+    "GDT002_METHOD.md": "0d76354afbc9162db8d28c7cd34602440c1fae30267a0b736762736a648c9286"
+  },
+  "holdout": {
+    "excluded_before_row_classification": true,
+    "formal_payload_opened": false,
+    "page": "f84r"
+  },
+  "inputs": {
+    "GDT002_YOLO_LEDGER.tsv": "22136c54bcf8691ec282488f8a4e8b001d394e9c03e2475be31ec17f3efba695",
+    "experiments/semantic_assumptions/results/existing_human_exact_locus_annotations.tsv": "79c7f06e91f90054aff4cdf27f098a5977d820acdf91f239a14c6ddf553a7f61",
+    "gdt002_targeted_transfer_results.json": "8e8e47c8c2100c5c245df884a9583d6f8ca3608293bf9686e66fd61861504983",
+    "run_gdt002_aca_replication_capacity.py": "f9c9adffb6f0ab05fbcf7d2544a89cab5ccb7e20d57377cf90bb005c2338f1cd"
+  },
+  "outputs": {
+    "gdt002_aca_replication_capacity.tsv": "4103bdf94eaa441cacb47ca0c7113dc8c9d33956c3ceb07347900a2eda67ac4f"
+  },
+  "selection": "All non-f84r existing exact-locus rows with label layout code, classified only by unhedged/hedged and exclusive/mixed FIGURE/WATER_OR_APPARATUS human tags. No Voynich form selects a page.",
+  "status": "NO_CLEAN_INDEPENDENT_PAGE_IN_CURRENT_HUMAN_ANNOTATIONS"
+}

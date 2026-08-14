@@ -194,3 +194,15 @@ their prior consumed layout mechanisms, and f77/f82 also have extensive prior
 route exposure. A same-direction result may rank a candidate but cannot turn
 this checkpoint into validation. The sealed f84r formal projection remains
 unread, unjoined, and unscored.
+
+## CKPT011 source-only replication-capacity audit
+
+After CKPT010, the current exact human annotation layer is exhaustively
+screened for a genuinely independent apparatus/figure page without consulting
+Voynich forms. Every non-f84r label-layout row is classified from its existing
+human tags as apparatus-exclusive, figure-exclusive, mixed, or outside scope;
+hedged and unhedged counts remain separate. A clean page requires at least two
+unhedged exclusive observations of each state on a physical folio other than
+f77 and f82. This rule diagnoses the capacity of the cached annotation layer;
+failure does not close permissive exploration or reassign mixed observations.
+The f84r formal payload remains excluded before row classification.

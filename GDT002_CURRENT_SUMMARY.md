@@ -35,3 +35,10 @@ but that page alone has p=.6 and negative MDL; the attractive pooled f77r+f82r
 score is driven by the original f82r discovery page. It remains an interesting
 exploratory direction only. A genuinely independent apparatus/figure page is
 required before spending f84r.
+
+CKPT011 audits all 26 nonholdout pages represented by the current exact human
+apparatus/figure label annotations and finds no such clean independent page.
+Only the already used f77r and f82r have at least two unhedged exclusive
+apparatus and figure rows. f83r is the best new-folio fallback, but its two
+potential apparatus rows are hedged mixed-ownership observations and its
+formal values are already exposed; it can support exploration, not validation.
