@@ -1,0 +1,400 @@
+{
+  "capacity": {
+    "alternate_reading_rows": 510,
+    "body_members_by_reading": {
+      "IT2a": 15762,
+      "RF1b": 15751,
+      "ZL3b": 15760
+    },
+    "f84r_rows_retained_joined_or_scored": 0,
+    "folds": 8,
+    "physical_folios": [
+      "f104",
+      "f105",
+      "f106",
+      "f107",
+      "f112",
+      "f113",
+      "f114",
+      "f115"
+    ],
+    "swappable_records_by_reading": {
+      "IT2a": 126,
+      "RF1b": 122,
+      "ZL3b": 124
+    },
+    "units": 170
+  },
+  "claim_ceiling": "Transferable source-internal first-line to later-line dependence only; no recipe, heading, semantic field, language, word class, plaintext, meaning, or translation.",
+  "decision_gates": {
+    "capacity": true,
+    "it_rf_member_positive_gain": false,
+    "zl_member_beats_previous_compatible_open": false,
+    "zl_member_maxT_p_le_0_05": false,
+    "zl_member_nonzero_open_weight_6_of_8": false,
+    "zl_member_positive_gain": false,
+    "zl_member_positive_on_6_of_8_folios": false
+  },
+  "exploratory": true,
+  "freeze_commit": "6c1b319",
+  "implementation": {
+    "run_q20ob001_open_body.py": "ca9c34e1a20b7e481a061e3899c76054ae3822615b87ee4521e0d201b63f0e14"
+  },
+  "inputs": {
+    "Q20OB001_OPEN_BODY_METHOD.md": "03d6a75a13a838860f127c712e5389a59f0fee8038e831f21d9c73c15d02d2a9",
+    "q20ob001_source_panel.tsv": "35636753732e24e9af6cb2e5798df8b7453baac11db9088f7ba131fa8c186d88",
+    "q20ob001_source_panel_audit.json": "8385850dc0db2c29ae612549862441fb21822972ecaa6cbff52598d24545f145"
+  },
+  "model": {
+    "alpha": 0.5,
+    "local_baseline": "training_string_plus_all_other_BODY_records_on_held_folio",
+    "null": "within_physical_folio_exact_open_member_count_complete_OPEN_permutation",
+    "numerical_zero_tolerance_bits": 1e-09,
+    "permutation_worlds": 4096,
+    "primary": "MEMBER",
+    "representations": [
+      "MEMBER",
+      "FAMILY",
+      "GROUP"
+    ],
+    "semantic_features": false,
+    "weights": [
+      0.0,
+      0.0078125,
+      0.015625,
+      0.03125,
+      0.0625,
+      0.125,
+      0.25,
+      0.5
+    ]
+  },
+  "negative_scope": "The nonconfirmation closes only the registered one-weight direct MEMBER/FAMILY/GROUP OPEN-cache family; it does not exclude every possible nonlinear OPEN-to-BODY relation.",
+  "null_digests": {
+    "IT2a:FAMILY": "c35020473aed1b4642cd726cad727b63fff2824ad68cedd7ffb73c7cbd890479",
+    "IT2a:GROUP": "c35020473aed1b4642cd726cad727b63fff2824ad68cedd7ffb73c7cbd890479",
+    "IT2a:MEMBER": "c35020473aed1b4642cd726cad727b63fff2824ad68cedd7ffb73c7cbd890479",
+    "RF1b:FAMILY": "c35020473aed1b4642cd726cad727b63fff2824ad68cedd7ffb73c7cbd890479",
+    "RF1b:GROUP": "c35020473aed1b4642cd726cad727b63fff2824ad68cedd7ffb73c7cbd890479",
+    "RF1b:MEMBER": "c35020473aed1b4642cd726cad727b63fff2824ad68cedd7ffb73c7cbd890479",
+    "ZL3b:FAMILY": "c35020473aed1b4642cd726cad727b63fff2824ad68cedd7ffb73c7cbd890479",
+    "ZL3b:GROUP": "c35020473aed1b4642cd726cad727b63fff2824ad68cedd7ffb73c7cbd890479",
+    "ZL3b:MEMBER": "c35020473aed1b4642cd726cad727b63fff2824ad68cedd7ffb73c7cbd890479"
+  },
+  "outputs": {
+    "q20ob001_baseline_comparison.tsv": "2cc96e4d7137318aca5b5ddc4db3c4a2dafee08c9f6025015b78678be0860280",
+    "q20ob001_fold_results.tsv": "28977d5f396f9c5d85e22e58684c26802750f44a86f7c3e077e1d1748be9fb11",
+    "q20ob001_null_results.tsv": "a44c519fef7dd0ffbbe83f595c4b464eab1ef8da5837fad244dd47da856c0b74",
+    "q20ob001_record_predictions.tsv": "a71b179f663e2f14d89c00c1d62baadb1b7d08380ab0dfd3f3cbdf12f0668061"
+  },
+  "schema": "Q20OB001_OPEN_BODY_RESULT_V1",
+  "status": "OPEN_BODY_DEPENDENCE_NOT_ABOVE_MATCHED_CONTROLS",
+  "summaries": {
+    "IT2a:FAMILY": {
+      "local_body_baseline_bits": 36717.92943513302,
+      "local_permutation_p": 1.0,
+      "maxT_three_representation_p": 1.0,
+      "nonzero_open_weight_folds": 0,
+      "null_median_gain_bits_per_body_member": 0.0,
+      "positive_held_folios": 0,
+      "previous_compatible_open_gain_bits": 0.0,
+      "selected_local_weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "selected_open_weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "string_baseline_bits": 36717.92943513302,
+      "true_conditional_bits": 36717.92943513302,
+      "true_gain_bits": 0.0,
+      "true_gain_bits_per_body_member": 0.0,
+      "true_minus_null_median_bits_per_body_member": 0.0
+    },
+    "IT2a:GROUP": {
+      "local_body_baseline_bits": 58146.276688413695,
+      "local_permutation_p": 1.0,
+      "maxT_three_representation_p": 1.0,
+      "nonzero_open_weight_folds": 0,
+      "null_median_gain_bits_per_body_member": 0.0,
+      "positive_held_folios": 0,
+      "previous_compatible_open_gain_bits": 0.0,
+      "selected_local_weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "selected_open_weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "string_baseline_bits": 58146.276688413695,
+      "true_conditional_bits": 58146.276688413695,
+      "true_gain_bits": 0.0,
+      "true_gain_bits_per_body_member": 0.0,
+      "true_minus_null_median_bits_per_body_member": 0.0
+    },
+    "IT2a:MEMBER": {
+      "local_body_baseline_bits": 44953.54381926315,
+      "local_permutation_p": 1.0,
+      "maxT_three_representation_p": 1.0,
+      "nonzero_open_weight_folds": 0,
+      "null_median_gain_bits_per_body_member": 0.0,
+      "positive_held_folios": 0,
+      "previous_compatible_open_gain_bits": 0.0,
+      "selected_local_weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "selected_open_weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "string_baseline_bits": 44953.54381926315,
+      "true_conditional_bits": 44953.54381926315,
+      "true_gain_bits": 0.0,
+      "true_gain_bits_per_body_member": 0.0,
+      "true_minus_null_median_bits_per_body_member": 0.0
+    },
+    "RF1b:FAMILY": {
+      "local_body_baseline_bits": 37107.05443032917,
+      "local_permutation_p": 1.0,
+      "maxT_three_representation_p": 1.0,
+      "nonzero_open_weight_folds": 0,
+      "null_median_gain_bits_per_body_member": 0.0,
+      "positive_held_folios": 0,
+      "previous_compatible_open_gain_bits": 0.0,
+      "selected_local_weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "selected_open_weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "string_baseline_bits": 37107.05443032917,
+      "true_conditional_bits": 37107.05443032917,
+      "true_gain_bits": 0.0,
+      "true_gain_bits_per_body_member": 0.0,
+      "true_minus_null_median_bits_per_body_member": 0.0
+    },
+    "RF1b:GROUP": {
+      "local_body_baseline_bits": 64497.534003017754,
+      "local_permutation_p": 1.0,
+      "maxT_three_representation_p": 1.0,
+      "nonzero_open_weight_folds": 0,
+      "null_median_gain_bits_per_body_member": 0.0,
+      "positive_held_folios": 0,
+      "previous_compatible_open_gain_bits": 0.0,
+      "selected_local_weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "selected_open_weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "string_baseline_bits": 64497.534003017754,
+      "true_conditional_bits": 64497.53400301775,
+      "true_gain_bits": 0.0,
+      "true_gain_bits_per_body_member": 0.0,
+      "true_minus_null_median_bits_per_body_member": 0.0
+    },
+    "RF1b:MEMBER": {
+      "local_body_baseline_bits": 50280.68635193224,
+      "local_permutation_p": 1.0,
+      "maxT_three_representation_p": 1.0,
+      "nonzero_open_weight_folds": 0,
+      "null_median_gain_bits_per_body_member": 0.0,
+      "positive_held_folios": 0,
+      "previous_compatible_open_gain_bits": 0.0,
+      "selected_local_weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "selected_open_weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "string_baseline_bits": 50280.68635193224,
+      "true_conditional_bits": 50280.68635193224,
+      "true_gain_bits": 0.0,
+      "true_gain_bits_per_body_member": 0.0,
+      "true_minus_null_median_bits_per_body_member": 0.0
+    },
+    "ZL3b:FAMILY": {
+      "local_body_baseline_bits": 37345.342893274435,
+      "local_permutation_p": 1.0,
+      "maxT_three_representation_p": 1.0,
+      "nonzero_open_weight_folds": 0,
+      "null_median_gain_bits_per_body_member": 0.0,
+      "positive_held_folios": 0,
+      "previous_compatible_open_gain_bits": 0.0,
+      "selected_local_weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "selected_open_weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "string_baseline_bits": 37345.342893274435,
+      "true_conditional_bits": 37345.342893274435,
+      "true_gain_bits": 0.0,
+      "true_gain_bits_per_body_member": 0.0,
+      "true_minus_null_median_bits_per_body_member": 0.0
+    },
+    "ZL3b:GROUP": {
+      "local_body_baseline_bits": 59748.289000053555,
+      "local_permutation_p": 1.0,
+      "maxT_three_representation_p": 1.0,
+      "nonzero_open_weight_folds": 0,
+      "null_median_gain_bits_per_body_member": 0.0,
+      "positive_held_folios": 0,
+      "previous_compatible_open_gain_bits": 0.0,
+      "selected_local_weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "selected_open_weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "string_baseline_bits": 59748.289000053555,
+      "true_conditional_bits": 59748.289000053555,
+      "true_gain_bits": 0.0,
+      "true_gain_bits_per_body_member": 0.0,
+      "true_minus_null_median_bits_per_body_member": 0.0
+    },
+    "ZL3b:MEMBER": {
+      "local_body_baseline_bits": 47797.25148256235,
+      "local_permutation_p": 1.0,
+      "maxT_three_representation_p": 1.0,
+      "nonzero_open_weight_folds": 0,
+      "null_median_gain_bits_per_body_member": 0.0,
+      "positive_held_folios": 0,
+      "previous_compatible_open_gain_bits": 0.0,
+      "selected_local_weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "selected_open_weights": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "string_baseline_bits": 47797.25148256235,
+      "true_conditional_bits": 47797.25148256235,
+      "true_gain_bits": 0.0,
+      "true_gain_bits_per_body_member": 0.0,
+      "true_minus_null_median_bits_per_body_member": 0.0
+    }
+  }
+}
