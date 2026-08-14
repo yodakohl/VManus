@@ -32,3 +32,16 @@ only whether coarse visible separators discriminate proposed cuts from matched
 pseudo-cuts. It cannot establish microspacing, pen trajectory, grapheme
 boundaries, morphemes, linguistic slots, language, meaning, or translation.
 The f84r holdout remains sealed.
+
+## 2026-08-14 source-aware localization correction
+
+GDT006 re-localized every registered cut from the physical line and source
+group order before a fresh blinded review. Only three of the 17 target cuts
+could be secured, and none of the 17 control pseudo-cuts could be secured.
+Two legacy target boxes were demonstrably wrong and five displayed control
+cuts fall inside a single STA sign rather than at a source-sign boundary.
+
+The earlier `0/17` versus `0/17` comparison is therefore withdrawn: it did
+not have a verified matched localization basis. GDT005 now records only a
+localization-capacity invalidation. It supplies no target/control spacing
+comparison, including no evidence for or against a fine physical cut.

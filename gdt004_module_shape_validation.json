@@ -1,5 +1,5 @@
 {
-  "branch_ledger_sha256": "1693e69f46075212f6e984766e02d76651f08353a8d555845bca821370a57862",
+  "branch_ledger_sha256": "f2b8986e54b967613937975eb14f1ca53760f91ff1f10405141c44423d2aa7f6",
   "checks": [
     {
       "name": "nine_unique_targets",
@@ -18,7 +18,15 @@
       "pass": true
     },
     {
-      "name": "single_source_groups",
+      "name": "secure_visual_targets",
+      "pass": true
+    },
+    {
+      "name": "wrong_boxes",
+      "pass": true
+    },
+    {
+      "name": "unresolved_boxes",
       "pass": true
     },
     {
@@ -26,11 +34,7 @@
       "pass": true
     },
     {
-      "name": "eight_q_targets",
-      "pass": true
-    },
-    {
-      "name": "eight_dy_targets",
+      "name": "formal_target_inventory",
       "pass": true
     },
     {
@@ -166,10 +170,10 @@
       "pass": true
     }
   ],
-  "checks_passed": 41,
-  "report_sha256": "b8a8ca5d1b8665a430e8dee32fd999bbecdbbebd6b5219bb57518e8b558fe949",
-  "result_sha256": "9ed14d4712ccf05ef6089fd884f2d1a01094d9354b5c98477f4a87f782d41d45",
+  "checks_passed": 42,
+  "report_sha256": "66e10154e204a4f7dc13fd19d1cac605fdce62908d23d449e282e6041752e3c5",
+  "result_sha256": "451203648d1db64f8d4455f2a739378b5385b1ff95971e0895e37dcf6f9b9be7",
   "status": "PASS_RECORD_AND_CLAIM_INTEGRITY",
   "validator_scope": "Reconstructs source joins, bounds, counts, hashes, holdout exclusion, and claim literals; does not independently repeat human visual inspection or download images.",
-  "validator_sha256": "daa4e0535a13483045bba072ec1cfd4c3edb1d2220b182a0d1069e7faec7d896"
+  "validator_sha256": "13272aa2f4cd0d15272ca634aba73f34a928995f73295256fc6eaf814b622143"
 }

@@ -12,7 +12,8 @@ joined=[]
 for r in resolved:
     key='|'.join(r[k] for k in ('pair_id','arm','cut_ordinal','locus','group_index','display_cut_offset'))
     blind='BC'+hashlib.sha256((nonce+'|'+key).encode()).hexdigest()[:14].upper()
-    image=Path(r['marked_crop_path']); assert image.is_file()
+    default_name=f"{r['pair_id']}_{r['arm']}_cut{r['cut_ordinal']}_{r['locus'].split('.')[0]}_{r['group_index']}.png"
+    image=Path(r.get('marked_crop_path') or src.parent/'marked_source_named'/default_name); assert image.is_file()
     dst=out/'images'/f'{blind}.png'; shutil.copyfile(image,dst)
     joined.append({**r,'blind_id':blind,'delivered_image_sha256':hashlib.sha256(dst.read_bytes()).hexdigest()})
 joined.sort(key=lambda r:r['blind_id'])

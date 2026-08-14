@@ -1,5 +1,5 @@
 {
-  "branch_ledger_sha256": "c5a93e1f72bd4f76acb06e3dbdb11c0d37533f60f1b0836372e6f8b6c841d588",
+  "branch_ledger_sha256": "f2b8986e54b967613937975eb14f1ca53760f91ff1f10405141c44423d2aa7f6",
   "checks": [
     {
       "name": "nine_pairs",
@@ -18,19 +18,23 @@
       "pass": true
     },
     {
-      "name": "single_groups",
+      "name": "registered_cut_counts",
       "pass": true
     },
     {
-      "name": "cut_counts",
+      "name": "secure_cut_counts",
       "pass": true
     },
     {
-      "name": "zero_separators",
+      "name": "wrong_target_boxes",
       "pass": true
     },
     {
       "name": "result_arithmetic",
+      "pass": true
+    },
+    {
+      "name": "status",
       "pass": true
     },
     {
@@ -66,14 +70,18 @@
       "pass": true
     },
     {
+      "name": "hash_gdt006_cut_localizations.tsv",
+      "pass": true
+    },
+    {
       "name": "claim_ceiling",
       "pass": true
     }
   ],
-  "checks_passed": 17,
-  "report_sha256": "a9579da1d209d111cbea094c4ebfbcda1e66c9397f0ea2a09333c07a7e0fefc5",
-  "result_sha256": "6b6e5e755c36b624ad9033d4251806a1645577197719859928c03bbb90af197f",
-  "scope": "Checks registered pairs, counts, hashes, holdout exclusion, and ceiling; does not repeat direct visual review.",
+  "checks_passed": 19,
+  "report_sha256": "3006744d3344efd40865fbdec68323e69bd7ac4652e8f99d3bc3e671bfcfff8b",
+  "result_sha256": "be26e767c96788775b1bbda012934163a958dfff77bf6c60d536f76d1eb88f3c",
+  "scope": "Checks registered pairs, corrected localization capacity, hashes, holdout exclusion, and ceiling; does not repeat direct visual localization.",
   "status": "PASS_RECORD_AND_CLAIM_INTEGRITY",
-  "validator_sha256": "d0300a2c31be92ed98c74ef8589e5610a5bb26a3c7710dd9bfa081494f6fdcb8"
+  "validator_sha256": "08f9c1a67c0c1be3f6765cb3a860eece60e4caab55ddca742a73243c92a25407"
 }

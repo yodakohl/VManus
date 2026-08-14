@@ -10,27 +10,28 @@ same-line ordinary groups as matched physical-cut controls.
 
 ## Result
 
-**NO_COARSE_PHYSICAL_BOUNDARY_SPECIFICITY.**
+**INVALIDATED_NO_MATCHED_LOCALIZATION_CAPACITY.**
 
-Nine GDT004 targets were paired with nine ordinary source groups on the same
-physical lines. Controls were selected without image appearance by minimum
-display-length difference, then minimum group-index distance, then group
-index. Seven controls have exactly the target display length and two differ by
-one character.
+The mechanical nine-pair selection remains reproducible, but its physical
+localization did not survive a later source-aware audit. Only three target
+cuts were securely localized, and zero matched control cuts were securely
+localized. The registered f34v.4 crop was on the following physical line; the
+f37v.1 crop contained group 1 rather than the registered group 3. Five control
+pseudo-cuts are also intrinsically unsuitable for this physical comparison
+because their display offsets fall inside one STA sign.
 
-| Probe class | Groups | Applicable cuts | Distinct physical separators |
+| Probe class | Registered cuts | Securely localized cuts | Adjudicated distinct separators |
 |---|---:|---:|---:|
-| proposed target cuts | 9 | 17 | 0 |
-| matched ordinary pseudo-cuts | 9 | 17 | 0 |
+| proposed target cuts | 17 | 3 | 0 |
+| matched ordinary pseudo-cuts | 17 | 0 | not computed |
 
-The observed difference is exactly zero. Under the preregistered coarse
-rubric, proposed `q|host` and `host|dy/dar` positions are visually
-indistinguishable from equally positioned cuts inside ordinary same-line
-groups: all are fused within-group positions.
+The former `0/17` versus `0/17` headline is withdrawn. With no securely
+localized control cut, there is no matched difference to calculate. The three
+secure target cuts happen to lack a distinct separator, but they cannot answer
+the specificity question.
 
-This does not show that the edge strings are unreal. GDT004 established that
-the recurrent `q` and `dy` sequences are physically present. GDT005 shows only
-that a **coarse visible separator is not specific to the proposed analysis**.
+This does not show that the formal edge strings are unreal. It shows that this
+physical packet cannot support the claimed matched visual inference.
 
 ## Why no stroke-spacing score is reported
 
@@ -38,8 +39,8 @@ The current observer already knew the source strings and proposed cuts.
 Nearest-basic display characters also do not map uniformly one-to-one onto
 physical graphemes. A numeric microgap or pen-trajectory score from these
 source-aware views would therefore manufacture precision. GDT005 freezes that
-question as `NOT_SCORED_COARSE_SEPARATOR_RUBRIC_ONLY` rather than silently
-turning subjective spacing into measurements.
+question as `NOT_SCORED_NO_MATCHED_LOCALIZATION` rather than silently turning
+guessed cut positions into measurements.
 
 ## Failed fourth cells
 
@@ -50,10 +51,9 @@ same-line groups.
 
 ## Conclusion
 
-The new matched result weakens any claim that the proposed formal slots have
-independently visible boundaries. It remains compatible with fused modules,
-memorized wholes, or generic local construction. GDT003's
-`NOT DISTINGUISHABLE FROM STRING STATISTICS` conclusion remains controlling.
+GDT005 is invalidated for localization capacity. It neither supports nor
+rejects independently visible boundaries. GDT003's `NOT DISTINGUISHABLE FROM
+STRING STATISTICS` conclusion remains controlling.
 
 No f84r image or formal payload was opened. No grapheme boundary, morpheme,
 slot, language, semantic role, meaning, plaintext, or translation is claimed.

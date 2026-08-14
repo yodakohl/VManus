@@ -106,34 +106,39 @@ def main() -> None:
     ] + [k for k in next(iter(observations.values())) if k != "target_id"]
     write_tsv(ATLAS, output, fields)
 
-    q = sum(r["operation_A"] == "PREPEND_Q" for r in output)
-    dy = sum(r["target_surface"].endswith("dy") for r in output)
-    left_sep = sum(r["left_cut_state"] == "DISTINCT_PHYSICAL_SEPARATOR" for r in output)
-    right_sep = sum(r["right_cut_state"] == "DISTINCT_PHYSICAL_SEPARATOR" for r in output)
+    secure = [r for r in output if r["physical_group_state"] == "VISIBLE_SINGLE_SOURCE_GROUP"]
+    q = sum(r["operation_A"] == "PREPEND_Q" for r in secure)
+    dy = sum(r["target_surface"].endswith("dy") for r in secure)
+    left_sep = sum(r["left_cut_state"] == "DISTINCT_PHYSICAL_SEPARATOR" for r in secure)
+    right_sep = sum(r["right_cut_state"] == "DISTINCT_PHYSICAL_SEPARATOR" for r in secure)
+    secure_cuts = sum(1 if r["left_cut_state"] == "NOT_APPLICABLE_SUBSTITUTION" else 2 for r in secure)
     hypotheses = [
-        {"rank":"1", "candidate_id":"G4_EDGE_Q", "formal_candidate":"REUSABLE_LEADING_Q_EDGE_SEQUENCE", "support":"8/9 targets; 8/8 applicable PREPEND_Q targets", "physical_separator_support":f"{left_sep}/8", "rating":"PROVISIONAL", "reason":"Cross-folio physical recurrence is real, but the analytic q|host cut is fused and the sample is postselected."},
-        {"rank":"2", "candidate_id":"G4_EDGE_DY", "formal_candidate":"REUSABLE_RIGHT_EDGE_DY_SEQUENCE", "support":f"{dy}/9 targets", "physical_separator_support":f"{right_sep}/{dy}", "rating":"PROVISIONAL", "reason":"The final sequence recurs on eight folios, but no target contains a delimiter-like mark before it and GDT003 did not beat string baselines."},
-        {"rank":"3", "candidate_id":"G4_EDGE_DAR", "formal_candidate":"REUSABLE_RIGHT_EDGE_DAR_SEQUENCE", "support":"1/9 targets", "physical_separator_support":"0/1", "rating":"WEAK", "reason":"One inspected completion is insufficient; qoldar was also a low-ranked folio-held paradigm prediction."},
-        {"rank":"4", "candidate_id":"G4_PHYSICAL_SLOTS", "formal_candidate":"AUTHOR_MARKED_INTERNAL_SLOT_BOUNDARIES", "support":"0/9 targets", "physical_separator_support":f"{left_sep + right_sep}/17 applicable cuts", "rating":"FAILED", "reason":"No inspected analytic cut has a distinct physical separator. This does not falsify fused orthographic modules."},
+        {"rank":"1", "candidate_id":"G4_EDGE_Q", "formal_candidate":"REUSABLE_LEADING_Q_EDGE_SEQUENCE", "support":"1 secure visual target of 8 formal q targets", "physical_separator_support":f"{left_sep}/1", "rating":"WEAK", "reason":"Only f114r.18 is source-aware localized; the former cross-folio visual claim is invalidated."},
+        {"rank":"2", "candidate_id":"G4_EDGE_DY", "formal_candidate":"REUSABLE_RIGHT_EDGE_DY_SEQUENCE", "support":f"{dy} secure visual targets of 8 formal dy targets", "physical_separator_support":f"{right_sep}/{dy}", "rating":"WEAK", "reason":"Only f114r.18 and f58v.38 remain source-aware localized; GDT003 did not beat string baselines."},
+        {"rank":"3", "candidate_id":"G4_EDGE_DAR", "formal_candidate":"REUSABLE_RIGHT_EDGE_DAR_SEQUENCE", "support":"0 secure visual targets", "physical_separator_support":"NOT_ADJUDICATED", "rating":"FAILED", "reason":"The sole registered qoldar box was on the wrong physical line."},
+        {"rank":"4", "candidate_id":"G4_PHYSICAL_SLOTS", "formal_candidate":"AUTHOR_MARKED_INTERNAL_SLOT_BOUNDARIES", "support":"INSUFFICIENT_LOCALIZATION_CAPACITY", "physical_separator_support":f"{left_sep + right_sep}/{secure_cuts} secure cuts", "rating":"WEAK", "reason":"Only three cuts are securely localized; no nine-target physical inference is available."},
         {"rank":"5", "candidate_id":"G4_UNIQUE_PARSE", "formal_candidate":"UNIQUE_COMPOSITIONAL_FACTORISATION", "support":"0 independently established", "physical_separator_support":"NOT_APPLICABLE", "rating":"WEAK", "reason":"qoldy has multiple GDT003 derivations and the images do not select one formal parse."},
     ]
     write_tsv(HYP, hypotheses, list(hypotheses[0]))
 
     result = {
         "experiment": "GDT004_EXPLORATORY_MODULE_SHAPE_ATLAS",
-        "status": "PASS_POSTSELECTED_PHYSICAL_ATLAS_NO_INDEPENDENT_SLOT_BOUNDARY",
+        "status": "PROVENANCE_CORRECTED_TWO_OF_NINE_VISUAL_TARGETS_SECURE",
         "exploratory": True,
         "sample": {
             "targets": len(output),
             "physical_folios": len({r["physical_folio"] for r in output}),
             "sections": dict(sorted(Counter(r["section"] for r in output).items())),
-            "prepend_q_targets": q,
-            "dy_final_targets": dy,
+            "secure_visual_targets": len(secure),
+            "wrong_legacy_target_boxes": 2,
+            "unresolved_legacy_target_boxes": 5,
+            "secure_prepend_q_targets": q,
+            "secure_dy_final_targets": dy,
             "distinct_physical_separators_at_applicable_cuts": left_sep + right_sep,
-            "applicable_analytic_cuts": 17,
+            "applicable_analytic_cuts": secure_cuts,
             "alternate_basic_surface_agreement": "9/9 loci; editions are alternate readings, not samples",
         },
-        "headline": "The postselected GDT003 completions are real fused physical groups with recurring edge sequences; no inspected analytic cut is independently author-marked.",
+        "headline": "Later source-aware localization invalidated two target boxes and left five unresolved; only two visual targets and three cut calls remain secure.",
         "gdt003_constraint": "NOT DISTINGUISHABLE FROM STRING STATISTICS remains unchanged",
         "holdout": {"f84r_formal_payload_opened": False, "f84r_rows_retained_joined_or_scored": 0},
         "claim_ceiling": "Formal edge-sequence recurrence in a postselected physical sample only; no morpheme, slot, language, meaning, semantic role, plaintext, or translation.",

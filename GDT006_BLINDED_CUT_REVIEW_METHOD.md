@@ -1,7 +1,6 @@
 # GDT006 blinded within-group cut review
 
-Status before review: **FROZEN REVIEW RUBRIC; SOURCE-AWARE LOCALIZATION IN
-PROGRESS; REVIEWER UNASSIGNED**.
+Final status: **STOP_LOCALIZATION_CAPACITY_3_OF_34_NO_BLIND_REVIEW**.
 
 GDT006 refines GDT005's coarse matched control without changing its 17 target
 and 17 control cuts. It asks whether the proposed target cuts differ from
@@ -50,7 +49,26 @@ differences where both arms of a pair/cut role resolve. An exact within-pair
 swap distribution is diagnostic, not confirmatory. `UNRESOLVED` remains
 missing and all localization/review attrition is reported.
 
-GDT006 is exploratory and postselected. It does not modify GDT003, GDT004, or
-GDT005. A target-control difference may nominate a frozen human-replication
-test; it cannot establish grapheme boundaries, morphemes, linguistic slots,
-language, meaning, or translation. f84r remains sealed.
+GDT006 is exploratory and postselected. A target-control difference could
+have nominated a frozen human-replication test; it could not establish
+grapheme boundaries, morphemes, linguistic slots, language, meaning, or
+translation. f84r remains sealed.
+
+## Capacity outcome
+
+The source-aware localizer audited all 34 registered probes. Three target cuts
+were securely localized, 31 probes were unresolved, and no control cut was
+securely localized. Five control display offsets fall inside a single STA sign
+and therefore do not define the source-sign boundary that the physical test
+requires. The audit also proved that two earlier GDT004 target boxes were on
+the wrong physical content.
+
+Every row in `gdt006_cut_localizations.tsv` is an
+`AI_DIRECT_VISUAL_OBSERVATION`; localization is visible geometry, not a
+transcription, spacing class, or interpretation.
+
+A fresh `fork_turns=none` reviewer had been instantiated, but the provisional
+packet was withdrawn as soon as the localization defects were found. The
+reviewer produced zero calls and never received a valid final matched packet.
+No score was computed. This capacity stop corrects GDT004/GDT005 provenance;
+it is not evidence for or against fine spacing at the proposed cuts.

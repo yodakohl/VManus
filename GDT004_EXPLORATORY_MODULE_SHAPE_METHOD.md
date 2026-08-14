@@ -47,7 +47,17 @@ unchanged and is an explicit counterweight to every visual lead.
 
 ## Claim ceiling
 
-GDT004 may establish that the postselected strings are real, legible physical
-groups and that proposed edge sequences recur in fused execution. It cannot
-establish linguistic morphemes, independent slots, author-intended
+After correction, GDT004 establishes only that two postselected target strings
+were securely bound to the inspected physical groups and that three proposed
+cuts in those groups lack a coarse separator. It cannot establish cross-folio
+physical recurrence, linguistic morphemes, independent slots, author-intended
 segmentation, plaintext, language, semantic role, meaning, or translation.
+
+## 2026-08-14 localization correction
+
+A later source-aware GDT006 audit found that two registered tight target boxes
+were wrong (f34v.4 and f37v.1), five could not be secured, and only f114r.18
+and f58v.38 were confirmed to contain the registered target. The corrected
+GDT004 result therefore retains only two secure visual targets and three
+adjudicated cuts. The original nine-target visual claim is invalidated; the
+nine source-formal rows remain an audit inventory only.

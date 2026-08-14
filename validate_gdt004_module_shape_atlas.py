@@ -49,10 +49,11 @@ def main():
     check("nine_physical_folios", len({r["physical_folio"] for r in atlas}) == 9)
     check("no_f84_in_outputs", all("f84" not in json.dumps(x) for x in [sel, obs, atlas, hyp]))
     check("direct_visual_provenance", all(r["provenance"] == "AI_DIRECT_VISUAL_OBSERVATION" for r in atlas))
-    check("single_source_groups", all(r["physical_group_state"] == "VISIBLE_SINGLE_SOURCE_GROUP" for r in atlas))
+    check("secure_visual_targets", sum(r["physical_group_state"] == "VISIBLE_SINGLE_SOURCE_GROUP" for r in atlas) == 2)
+    check("wrong_boxes", sum(r["physical_group_state"] == "LOCALIZATION_INVALIDATED_WRONG_BOX" for r in atlas) == 2)
+    check("unresolved_boxes", sum(r["physical_group_state"] == "LOCALIZATION_UNRESOLVED" for r in atlas) == 5)
     check("no_distinct_internal_separator", not any(r["left_cut_state"] == "DISTINCT_PHYSICAL_SEPARATOR" or r["right_cut_state"] == "DISTINCT_PHYSICAL_SEPARATOR" for r in atlas))
-    check("eight_q_targets", sum(r["operation_A"] == "PREPEND_Q" for r in atlas) == 8)
-    check("eight_dy_targets", sum(r["target_surface"].endswith("dy") for r in atlas) == 8)
+    check("formal_target_inventory", sum(r["operation_A"] == "PREPEND_Q" for r in atlas) == 8 and sum(r["target_surface"].endswith("dy") for r in atlas) == 8)
     check("edition_basic_agreement", all(r["alternate_basic_surface_agreement"] == "3_OF_3" for r in atlas))
     check("prediction_correct", all(r["folio_holdout_exact_correct"] == "1" for r in atlas))
 
@@ -65,7 +66,7 @@ def main():
         check(f"source_join_{s['target_id']}", {r["edition"] for r in rr} == {"ZL3b", "IT2a", "RF1b"} and {r["nearest_basic_eva_primary"] for r in ss} == {s["target_surface"]})
         x,y,w,h = map(int, s["target_xywh"].split(",")); cw=int(s["canvas_width"]); ch=int(s["canvas_height"])
         check(f"target_bounds_{s['target_id']}", x >= 0 and y >= 0 and w > 0 and h > 0 and x+w <= cw and y+h <= ch)
-    check("hypothesis_ratings", [r["rating"] for r in hyp] == ["PROVISIONAL","PROVISIONAL","WEAK","FAILED","WEAK"])
+    check("hypothesis_ratings", [r["rating"] for r in hyp] == ["WEAK","WEAK","FAILED","WEAK","WEAK"])
     check("historical_result_preserved", result["gdt003_constraint"] == "NOT DISTINGUISHABLE FROM STRING STATISTICS remains unchanged")
     check("holdout_sealed", result["holdout"] == {"f84r_formal_payload_opened": False, "f84r_rows_retained_joined_or_scored": 0})
     for name, digest in result["inputs"].items():

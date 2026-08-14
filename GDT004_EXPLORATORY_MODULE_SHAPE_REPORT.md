@@ -2,31 +2,31 @@
 
 ## Result
 
-**PASS_POSTSELECTED_PHYSICAL_ATLAS_NO_INDEPENDENT_SLOT_BOUNDARY.**
+**PROVENANCE_CORRECTED_TWO_OF_NINE_VISUAL_TARGETS_SECURE.**
 
-The nine exact GDT003 folio-held completions are all real, legible physical
-source groups. Eight contain the proposed leading `q` edge and eight end in
-the proposed `dy` sequence, across nine physical folios and sections B, H, and
-S. This is useful physical grounding for the formal strings.
+A later source-aware localization audit invalidated the former nine-target
+visual result. The f34v.4 box was on the following physical line; the f37v.1
+box contained group 1 rather than registered group 3. Five more target boxes
+could not be secured. Only f114r.18 and f58v.38 are confirmed to contain the
+registered target, leaving three adjudicated cuts.
 
-It does not reveal independently marked slots. Across 17 applicable analytic
-cuts, zero has a distinct word-sized gap or delimiter-like mark. The safest
-description is therefore **recurrent edge sequences in fused execution**, not
-visibly separated morphemes.
+Those three secure cuts have no distinct separator, but this is insufficient
+for the former cross-folio physical claim. The nine formal rows remain valid
+GDT003 source records; seven visual rows are withdrawn or unresolved.
 
 ## Inspected completion packet
 
 | Locus | GDT003 completion | Formal cut | Folio-held rank | Physical result |
 |---|---|---|---:|---|
 | f114r.18 | `qoeeody` | `q|oeeo|dy` | 4 | one fused source group; no marked cut |
-| f34v.4 | `qoldar` | `q|ol|dar` | 26 | one fused source group; no marked cut |
-| f37v.1 | `qotoldy` | `q|otol|dy` | 15 | one fused source group; no marked cut |
-| f43r.3 | `qotydy` | `q|oty|dy` | 16 | one fused source group; no marked cut |
+| f34v.4 | `qoldar` | `q|ol|dar` | 26 | **invalidated: wrong physical line** |
+| f37v.1 | `qotoldy` | `q|otol|dy` | 15 | **invalidated: box contains G1, not G3** |
+| f43r.3 | `qotydy` | `q|oty|dy` | 16 | localization unresolved |
 | f58v.38 | `sydy` | `s|y|dy` | 28 | one fused source group; no mark before `dy` |
-| f81v.20 | `qoldy` | `q|ol|dy` | 1 | fused; multiple formal derivations remain possible |
-| f82v.13 | `qokoldy` | `q|okol|dy` | 7 | one fused source group; no marked cut |
-| f83v.3 | `qotaldy` | `q|otal|dy` | 10 | one fused source group; no marked cut |
-| f93v.4 | `qokchody` | `q|okcho|dy` | 6 | one fused source group; no marked cut |
+| f81v.20 | `qoldy` | `q|ol|dy` | 1 | localization unresolved; multiple formal derivations |
+| f82v.13 | `qokoldy` | `q|okol|dy` | 7 | localization unresolved |
+| f83v.3 | `qotaldy` | `q|otal|dy` | 10 | localization unresolved |
+| f93v.4 | `qokchody` | `q|okcho|dy` | 6 | localization unresolved |
 
 The folio-held ranks show why this is not a success-only showcase: the packet
 includes a rank-26 `q|ol|dar` completion, a rank-28 `s|y|dy` completion, and a
@@ -34,15 +34,12 @@ surface (`qoldy`) with more than one GDT003 derivation.
 
 ## Ranked physical hypotheses
 
-1. `REUSABLE_LEADING_Q_EDGE_SEQUENCE` — **PROVISIONAL**. It is physically
-   present in 8/8 applicable targets, but the `q|host` cut is fused and the
-   sample was selected from successful formal completions.
-2. `REUSABLE_RIGHT_EDGE_DY_SEQUENCE` — **PROVISIONAL**. It is physically
-   present on eight folios, but none has an author-marked cut before it.
-3. `REUSABLE_RIGHT_EDGE_DAR_SEQUENCE` — **WEAK**. Only one inspected target.
-4. `AUTHOR_MARKED_INTERNAL_SLOT_BOUNDARIES` — **FAILED IN THIS PACKET**. Zero
-   of 17 applicable cuts is distinctly marked. This does not falsify fused
-   modules.
+1. `REUSABLE_LEADING_Q_EDGE_SEQUENCE` — **WEAK**. One secure visual target.
+2. `REUSABLE_RIGHT_EDGE_DY_SEQUENCE` — **WEAK**. Two secure visual targets.
+3. `REUSABLE_RIGHT_EDGE_DAR_SEQUENCE` — **FAILED VISUAL BINDING**. Its sole
+   target box was on the wrong line.
+4. `AUTHOR_MARKED_INTERNAL_SLOT_BOUNDARIES` — **INSUFFICIENT CAPACITY**. Only
+   three cuts are securely localized.
 5. `UNIQUE_COMPOSITIONAL_FACTORISATION` — **WEAK**. The image does not choose
    between competing formal derivations of `qoldy`.
 
@@ -61,17 +58,15 @@ surface (`qoldy`) with more than one GDT003 derivation.
 
 ## Exploratory conclusion
 
-The physical pages support the modest statement that `q`-initial and
-`dy`-final patterns are real recurrent edge sequences, not transcription-only
-phantoms. They do **not** support visibly separated slots or a uniquely
-recoverable morphological parse. Whole-word/local-string construction remains
-an equally viable explanation.
+The source transcriptions retain recurrent `q`-initial and `dy`-final formal
+patterns, but this visual packet no longer establishes cross-folio physical
+edge reuse. It supplies only two secure visual groups. Whole-word/local-string
+construction remains an equally viable explanation.
 
-The next useful exploratory contrast is a matched, state-blind sample of
-ordinary groups with identical lengths and edge sequences, including complete
-rectangle cells and failed/absent fourth cells. That comparison can ask whether
-the proposed cuts have unusual micro-spacing or stroke-transition consistency;
-it must not use those visual properties to reselect the sample.
+GDT005/GDT006 attempted the matched, state-blind cut contrast. The source-aware
+audit secured zero matched control cuts, so the comparison stopped before a
+fresh reviewer scored any crop. Reopening requires newly source-bound markers,
+not reuse of the invalidated boxes.
 
 No f84r image or formal payload was opened. No morpheme, language, part of
 speech, semantic role, meaning, plaintext, or translation is claimed.
