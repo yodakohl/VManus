@@ -1,0 +1,111 @@
+{
+  "candidate_observations": 1703,
+  "claim_ceiling": "Prefix-conditioned formal sequence relation only; no morpheme, word, syntax, sound, language, plaintext, meaning, or translation.",
+  "dy_to_ot_examples": 62,
+  "f84r": {
+    "joined": false,
+    "retained": false,
+    "scored": false
+  },
+  "implementation": {
+    "run_gdt017_prefix_conditioned_ot.py": "4e17de07bda6aa9ff0d5f4318f76118e76645e02a7576ad6745ae785388a6ef0"
+  },
+  "inputs": {
+    "GDT017_PREFIX_CONDITIONED_OT_METHOD.md": "f50c1db8753b3c2c9e3f1fe224be208db9f487e5b47e80d22265a194a26173f4",
+    "experiments/semantic_assumptions/results/source_sta_family_consensus_groups.tsv": "a202d93498e8a350a5d7e0ca46e831dcc37ea5c0182dc404d63cb797a98b1225",
+    "experiments/semantic_assumptions/results/source_sta_group_alignment.tsv": "f23654f1d4c854db6d458b418a0d3530115731604854cf0a0495565e58341840",
+    "gdt015_result.json": "a1cd597cdec3d6f86eac7cc10be9d0e80de0cfe3028c4e8330a3db5d87112446",
+    "gdt016_result.json": "aaa96a3be942bc1eab6587d5362922f3f16ec2beea7f520d47e190c32df80c2c"
+  },
+  "outputs": {
+    "GDT017_PREFIX_CONDITIONED_OT_REPORT.md": "1243b1b47f5acb7cbb6b0627917af86254611008ebb8957b957a668d497fc62f",
+    "gdt017_prefix_conditioned_tests.tsv": "c348242d70bf24593fe62e32c0e998d7ab2431dfb43350909114c38e78796693",
+    "gdt017_transition_examples.tsv": "779ce597d115b5a863ca6f0ad4be4f249925e246accceaea494a702a316ac95f"
+  },
+  "result_content_sha256": "3a6a907e1b7ddf86a9b0e8c001a8ed4ce4249360d9a35bfd6c060239cab539a6",
+  "schema": "GDT017_PREFIX_CONDITIONED_OT_RESULT_V1",
+  "status": "POST_RESOLUTION_OT_NOT_REDUCIBLE_TO_Q_PREFIX",
+  "strict_prose_groups": 15592,
+  "target_prefix_counts": {
+    "NONE": 28,
+    "ch": 2,
+    "q": 32
+  },
+  "tests": [
+    {
+      "claim_state": "PREFIX_CONDITIONED_FORMAL_SEQUENCE_LEAD",
+      "conditional_effect": 0.5995623632385121,
+      "conditioning": "CORE+PAGE+POSITION_QUARTILE+PREFIX",
+      "exact_distribution_support": 13,
+      "exact_p": 0.006867283950617284,
+      "expected_ot_previous_dy": 6.433333333333334,
+      "informative_bare_groups": 17,
+      "informative_ot_groups": 16,
+      "informative_strata": 12,
+      "observed_ot_previous_dy": 11,
+      "search_adjusted_p": 0.03433641975308642,
+      "stratum_previous_dy": 14,
+      "test": "POOLED_PREFIX_MATCHED"
+    },
+    {
+      "claim_state": "PREFIX_CONDITIONED_FORMAL_SEQUENCE_LEAD",
+      "conditional_effect": 0.6021505376344087,
+      "conditioning": "CORE+PAGE+POSITION_QUARTILE; PREFIX=NONE",
+      "exact_distribution_support": 11,
+      "exact_p": 0.020833333333333332,
+      "expected_ot_previous_dy": 5.266666666666667,
+      "informative_bare_groups": 12,
+      "informative_ot_groups": 14,
+      "informative_strata": 10,
+      "observed_ot_previous_dy": 9,
+      "search_adjusted_p": 0.10416666666666666,
+      "stratum_previous_dy": 10,
+      "test": "POOLED_NO_PREFIX"
+    },
+    {
+      "claim_state": "PREFIX_CONDITIONED_FORMAL_SEQUENCE_LEAD",
+      "conditional_effect": 0.23943661971830985,
+      "conditioning": "CORE+PAGE+POSITION_QUARTILE; PREFIX=NONE",
+      "exact_distribution_support": 4,
+      "exact_p": 0.6,
+      "expected_ot_previous_dy": 1.4333333333333333,
+      "informative_bare_groups": 5,
+      "informative_ot_groups": 5,
+      "informative_strata": 3,
+      "observed_ot_previous_dy": 2,
+      "search_adjusted_p": 1.0,
+      "stratum_previous_dy": 3,
+      "test": "AR_OTAR_NO_PREFIX"
+    },
+    {
+      "claim_state": "PREFIX_CONDITIONED_FORMAL_SEQUENCE_LEAD",
+      "conditional_effect": 0.8,
+      "conditioning": "CORE+PAGE+POSITION_QUARTILE; PREFIX=NONE",
+      "exact_distribution_support": 7,
+      "exact_p": 0.034722222222222224,
+      "expected_ot_previous_dy": 3.3333333333333335,
+      "informative_bare_groups": 6,
+      "informative_ot_groups": 8,
+      "informative_strata": 6,
+      "observed_ot_previous_dy": 6,
+      "search_adjusted_p": 0.1736111111111111,
+      "stratum_previous_dy": 6,
+      "test": "AL_OTAL_NO_PREFIX"
+    },
+    {
+      "claim_state": "PREFIX_CONDITIONED_FORMAL_SEQUENCE_LEAD",
+      "conditional_effect": 1.0,
+      "conditioning": "CORE+PAGE+POSITION_QUARTILE; PREFIX=NONE",
+      "exact_distribution_support": 2,
+      "exact_p": 1.0,
+      "expected_ot_previous_dy": 0.5,
+      "informative_bare_groups": 1,
+      "informative_ot_groups": 1,
+      "informative_strata": 1,
+      "observed_ot_previous_dy": 1,
+      "search_adjusted_p": 1.0,
+      "stratum_previous_dy": 1,
+      "test": "OL_OTOL_NO_PREFIX"
+    }
+  ]
+}
