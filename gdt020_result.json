@@ -1,0 +1,221 @@
+{
+  "claim_ceiling": "Provisional nested record-phase architecture only; no morpheme, sentence syntax, word, sound, language, plaintext, meaning, or translation.",
+  "compiled_phases": 4815,
+  "compiler": "LINE := CLOSED_FIELD* OPEN_TAIL?; CLOSED_FIELD := PAYLOAD_WITH_DY; PHASE := INITIAL_FIELD | POST_DY_FIELD",
+  "dy_checkpoints": 2667,
+  "f84r": {
+    "input_contains_rows": false,
+    "joined": false,
+    "opened": false,
+    "retained": false,
+    "scored": false
+  },
+  "groups": 15592,
+  "implementation": {
+    "run_gdt020_dy_phase_compiler.py": "c023ce36d3e1a443f7b806b3fffa134d5f27029b0913812b9dbbde01861b4466"
+  },
+  "inputs": {
+    "GDT020_DY_PHASE_COMPILER_METHOD.md": "ba4aa5c22d7b56b7f8005dffc229cbd4add5ca4b8857d5e8fb53fc4e500cf3c3",
+    "gdt016_group_state_inventory.tsv": "e109ce15864ed6b6f76d446b3c96d6190a0dc53d20d8ab0944554124e687234c",
+    "gdt018_result.json": "cb341b398262263c86e787cbb51ba8842c58b31a76ae52f9ccd17c8e3a18561b",
+    "gdt019_result.json": "de315592ba894591e949e2db3a4605cbb71a7ee2f59270c297458b5be820d4cb"
+  },
+  "internal_dy_checkpoints": 2344,
+  "lines": 2471,
+  "lines_with_dy": 1256,
+  "models": [
+    {
+      "bic_extra_parameters": 56,
+      "bic_net_gain_bits": "166.649627474005",
+      "bic_penalty_bits": "389.998514507221",
+      "claim_state": "HELD_PHASE_PREDICTION",
+      "events": 15592,
+      "model": "POSITION_4_BINS_PLUS_SEEN_DY",
+      "position_bins": 4,
+      "position_bits": "47566.505584959530",
+      "position_plus_phase_bits": "47009.857442978304",
+      "positive_held_folios": 77,
+      "raw_gain_bits": "556.648141981226",
+      "selector_paid_gain_bits": "554.326213886339"
+    },
+    {
+      "bic_extra_parameters": 112,
+      "bic_net_gain_bits": "-262.910284284547",
+      "bic_penalty_bits": "779.997029014442",
+      "claim_state": "HELD_PHASE_PREDICTION",
+      "events": 15592,
+      "model": "POSITION_8_BINS_PLUS_SEEN_DY",
+      "position_bins": 8,
+      "position_bits": "47362.104379894001",
+      "position_plus_phase_bits": "46845.017635164106",
+      "positive_held_folios": 72,
+      "raw_gain_bits": "517.086744729895",
+      "selector_paid_gain_bits": "514.764816635008"
+    },
+    {
+      "bic_extra_parameters": 140,
+      "bic_net_gain_bits": "-495.212006792322",
+      "bic_penalty_bits": "974.996286268052",
+      "claim_state": "HELD_PHASE_PREDICTION",
+      "events": 15592,
+      "model": "POSITION_10_BINS_PLUS_SEEN_DY",
+      "position_bins": 10,
+      "position_bits": "47248.903244298504",
+      "position_plus_phase_bits": "46769.118964822774",
+      "positive_held_folios": 71,
+      "raw_gain_bits": "479.784279475731",
+      "selector_paid_gain_bits": "477.462351380843"
+    },
+    {
+      "bic_extra_parameters": 224,
+      "bic_net_gain_bits": "-1124.276575195423",
+      "bic_penalty_bits": "1559.994058028884",
+      "claim_state": "HELD_PHASE_PREDICTION",
+      "events": 15592,
+      "model": "POSITION_16_BINS_PLUS_SEEN_DY",
+      "position_bins": 16,
+      "position_bits": "47200.680262549802",
+      "position_plus_phase_bits": "46764.962779716341",
+      "positive_held_folios": 73,
+      "raw_gain_bits": "435.717482833461",
+      "selector_paid_gain_bits": "433.395554738574"
+    },
+    {
+      "bic_extra_parameters": 56,
+      "bic_net_gain_bits": "-203.433082554913",
+      "bic_penalty_bits": "383.417634809981",
+      "claim_state": "PERSISTENCE_SENSITIVITY",
+      "events": 13248,
+      "model": "POSITION_4_PLUS_SEEN_DY_EXCLUDING_IMMEDIATE",
+      "position_bins": 4,
+      "position_bits": "40096.061443486687",
+      "position_plus_phase_bits": "39916.076891231620",
+      "positive_held_folios": 66,
+      "raw_gain_bits": "179.984552255068",
+      "selector_paid_gain_bits": "177.662624160180"
+    }
+  ],
+  "outputs": {
+    "GDT020_DY_PHASE_COMPILER_REPORT.md": "8dcad259540380513e5ee12efe39c613749c54eba99311e3f685feed7a386630",
+    "gdt020_line_phase_parses.tsv": "3889a765f7394709b7fb9c21d8d43a70bbd865ac2c79580338d8a0dd31f3e3cf",
+    "gdt020_phase_models.tsv": "44d7183b828496755a23116577994737202292b12544a2c2ff46df632b5de04c",
+    "gdt020_segment_templates.tsv": "dd5e4767cb6bf544706a8dfb4c2ffb58cc4d5e65a73f7e8034e3b705f4894320"
+  },
+  "physical_folios": 94,
+  "recurrent_segment_templates": 190,
+  "result_content_sha256": "dc997334864f5d377c6646b583c157a0b10a28196dbbf813556422bd05d8f13c",
+  "schema": "GDT020_DY_PHASE_COMPILER_RESULT_V1",
+  "status": "DY_WITHIN_LINE_PHASE_PROVISIONAL",
+  "top_segment_templates": [
+    {
+      "claim_state": "RECURRENT_HIERARCHICAL_FORMAL_TEMPLATE",
+      "closure": "CLOSED_WITH_DY",
+      "collapsed_state_template": "DY_RESOLUTION",
+      "example_locus": "f102r2.6",
+      "example_tokens": "qokeody",
+      "occurrences": 737,
+      "physical_folios": 51,
+      "sections": "B:321;C:9;H:100;P:8;S:237;T:62",
+      "segment_origin": "POST_DY"
+    },
+    {
+      "claim_state": "RECURRENT_HIERARCHICAL_FORMAL_TEMPLATE",
+      "closure": "CLOSED_WITH_DY",
+      "collapsed_state_template": "DY_RESOLUTION",
+      "example_locus": "f102v1.23",
+      "example_tokens": "ksheody",
+      "occurrences": 357,
+      "physical_folios": 63,
+      "sections": "B:149;C:7;H:70;P:6;S:98;T:27",
+      "segment_origin": "LINE_INITIAL"
+    },
+    {
+      "claim_state": "RECURRENT_HIERARCHICAL_FORMAL_TEMPLATE",
+      "closure": "OPEN_TAIL",
+      "collapsed_state_template": "OTHER",
+      "example_locus": "f100r.24",
+      "example_tokens": "odeor",
+      "occurrences": 89,
+      "physical_folios": 42,
+      "sections": "B:28;C:1;H:15;P:4;S:35;T:6",
+      "segment_origin": "POST_DY"
+    },
+    {
+      "claim_state": "RECURRENT_HIERARCHICAL_FORMAL_TEMPLATE",
+      "closure": "CLOSED_WITH_DY",
+      "collapsed_state_template": "Q_OUTER_STATE > DY_RESOLUTION",
+      "example_locus": "f103r.21",
+      "example_tokens": "qoky | pchedy",
+      "occurrences": 81,
+      "physical_folios": 28,
+      "sections": "B:32;H:4;P:1;S:37;T:7",
+      "segment_origin": "POST_DY"
+    },
+    {
+      "claim_state": "RECURRENT_HIERARCHICAL_FORMAL_TEMPLATE",
+      "closure": "CLOSED_WITH_DY",
+      "collapsed_state_template": "OTHER > DY_RESOLUTION",
+      "example_locus": "f103r.21",
+      "example_tokens": "pcheam | sokedy",
+      "occurrences": 78,
+      "physical_folios": 39,
+      "sections": "B:17;C:2;H:21;P:1;S:32;T:5",
+      "segment_origin": "LINE_INITIAL"
+    },
+    {
+      "claim_state": "RECURRENT_HIERARCHICAL_FORMAL_TEMPLATE",
+      "closure": "OPEN_TAIL",
+      "collapsed_state_template": "OTHER",
+      "example_locus": "f102r2.3",
+      "example_tokens": "ycheor",
+      "occurrences": 64,
+      "physical_folios": 47,
+      "sections": "B:6;C:1;H:32;P:3;S:21;T:1",
+      "segment_origin": "LINE_INITIAL"
+    },
+    {
+      "claim_state": "RECURRENT_HIERARCHICAL_FORMAL_TEMPLATE",
+      "closure": "CLOSED_WITH_DY",
+      "collapsed_state_template": "CARRIER_STATE > DY_RESOLUTION",
+      "example_locus": "f103r.30",
+      "example_tokens": "chpchy | opchedy",
+      "occurrences": 64,
+      "physical_folios": 30,
+      "sections": "B:15;C:1;H:16;P:2;S:24;T:6",
+      "segment_origin": "POST_DY"
+    },
+    {
+      "claim_state": "RECURRENT_HIERARCHICAL_FORMAL_TEMPLATE",
+      "closure": "CLOSED_WITH_DY",
+      "collapsed_state_template": "OL_STATE > DY_RESOLUTION",
+      "example_locus": "f102r1.10",
+      "example_tokens": "ycheol | sholdy",
+      "occurrences": 56,
+      "physical_folios": 29,
+      "sections": "B:28;H:10;P:4;S:13;T:1",
+      "segment_origin": "LINE_INITIAL"
+    },
+    {
+      "claim_state": "RECURRENT_HIERARCHICAL_FORMAL_TEMPLATE",
+      "closure": "CLOSED_WITH_DY",
+      "collapsed_state_template": "OL_STATE > DY_RESOLUTION",
+      "example_locus": "f102r1.10",
+      "example_tokens": "chol | chol | ykeeol | dol | cthedy",
+      "occurrences": 56,
+      "physical_folios": 25,
+      "sections": "B:28;C:2;H:2;P:5;S:16;T:3",
+      "segment_origin": "POST_DY"
+    },
+    {
+      "claim_state": "RECURRENT_HIERARCHICAL_FORMAL_TEMPLATE",
+      "closure": "OPEN_TAIL",
+      "collapsed_state_template": "Q_OUTER_STATE",
+      "example_locus": "f102v1.23",
+      "example_tokens": "qockhey",
+      "occurrences": 53,
+      "physical_folios": 25,
+      "sections": "B:17;H:4;P:1;S:28;T:3",
+      "segment_origin": "POST_DY"
+    }
+  ]
+}
