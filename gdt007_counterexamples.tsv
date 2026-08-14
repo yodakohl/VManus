@@ -1,0 +1,7 @@
+counterexample_id	scope	observation	why_it_matters	classification
+G7C001	LOCALIZER_B_REVIEWER_A	Target minus control is -0.117647059 on all 34 probes.	The target-gap direction reverses under one legitimate localizer/reviewer surface.	UNSTABLE
+G7C002	F81V_G5P006_CUT2	Reviewer-mean target minus control is -1.0 on an agreement-localized pair.	A proposed target cut is visibly less open than its matched control under both reviews.	COUNTEREXAMPLE
+G7C003	F93V_G5P009_CUT1	Reviewer-mean target minus control is -0.5 on an agreement-localized pair.	The direction is not universal across folios or cut positions.	COUNTEREXAMPLE
+G7C004	REVIEWER_CONCORDANCE	Only 25 of 45 opaque crops receive the same exact ordinal state from both reviewers.	The visual rubric is observer-sensitive even after blinding.	UNSTABLE
+G7C005	LOCALIZATION_VARIANTS	For the 11 disputed probes reviewers A and B preserve the same call across marker variants only 4 and 3 times respectively.	Marker placement materially changes the outcome.	LIKELY_LOCALIZATION_CONFOUND
+G7C006	EFFECT_CONCENTRATION	The f37v second cut contributes +3.0 and the f114r second cut +1.5 of the +6.0 paired reviewer-mean sum on the agreement-only surface.	Two pairs contribute 75 percent of the nominal lead.	LIKELY_FOLIO_OR_PAIR_CONFOUND
