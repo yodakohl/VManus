@@ -1,0 +1,87 @@
+{
+  "ablations": 4,
+  "claim_ceiling": "One-bit local formal-history dependence only; no role, referent, morpheme, word, syntax, sound, language, plaintext, meaning, or translation.",
+  "direction_tests": 5,
+  "f84r": {
+    "input_contains_rows": false,
+    "joined": false,
+    "opened": false,
+    "retained": false,
+    "scored": false
+  },
+  "implementation": {
+    "run_gdt022_full_census_visual_phase.py": "801982c144bcd73e8d6b85744e9397a2265ebbb2f904fb23143e31c2c5bf7ab8",
+    "run_gdt026_q_l_backward_link.py": "fff2f08448f444fdd91e9dc004b602899c398ed030cc0147d1f96d8bd0cdf28f"
+  },
+  "inputs": {
+    "GDT026_Q_L_BACKWARD_LINK_METHOD.md": "05f31b408c9f570a545bc328f057cfecaa65c943972cb2c10bfa7b93d0d3a3e3",
+    "gdt016_group_state_inventory.tsv": "e109ce15864ed6b6f76d446b3c96d6190a0dc53d20d8ab0944554124e687234c",
+    "gdt016_result.json": "aaa96a3be942bc1eab6587d5362922f3f16ec2beea7f520d47e190c32df80c2c",
+    "gdt025_result.json": "543f393bdb28ce285b62d64e1a70d287269cea5cd0fe495e928e27e1c15ee0a7"
+  },
+  "inventory_groups": 15592,
+  "next_control": {
+    "claim_state": "DIRECTIONAL_FORMAL_STATE_TEST_NOT_MEANING",
+    "conditional_effect": "0.054075313589",
+    "exact_p": "0.132877657548",
+    "expected_q_outcomes": "250.092697202178",
+    "informative_strata": 126,
+    "lofo_folios": 40,
+    "lofo_max_effect": "0.071582159275",
+    "lofo_min_effect": "0.028929245707",
+    "lofo_positive_effects": 40,
+    "observed_q_outcomes": 261,
+    "q_family": 1000,
+    "search_adjusted_p_5": "0.66438828774",
+    "test_id": "NEXT_DY",
+    "universe": 1421
+  },
+  "outputs": {
+    "GDT026_Q_L_BACKWARD_LINK_REPORT.md": "b0d7ae1dabb5198bded6b0363e75e21697568575f5c4de4cec1f27902a977765",
+    "gdt026_backward_link_ablations.tsv": "a08bb1305bf0bc3f0f4464171f5c674300a351f07cd5812264feab51793f63ae",
+    "gdt026_chain_phase_inventory.tsv": "5d6aeb4f6376a7eb95ef7475aa1d61837c0f44b9ab4be9741ceaf94411b5db6e",
+    "gdt026_direction_tests.tsv": "bf557ac89ff0a53f5e6ac8e03b34d537f9d5f4a967d1ce3de660ffd6134e980f"
+  },
+  "phase_inventory": [
+    {
+      "branch": "Q_FAMILY",
+      "chain_end": 247,
+      "chain_internal": 133,
+      "chain_start": 194,
+      "claim_state": "ANONYMOUS_DY_CHAIN_POSITION_NOT_MEANING",
+      "isolated": 426,
+      "total": 1000
+    },
+    {
+      "branch": "L_FAMILY",
+      "chain_end": 45,
+      "chain_internal": 26,
+      "chain_start": 102,
+      "claim_state": "ANONYMOUS_DY_CHAIN_POSITION_NOT_MEANING",
+      "isolated": 248,
+      "total": 421
+    }
+  ],
+  "primary": {
+    "claim_state": "DIRECTIONAL_FORMAL_STATE_TEST_NOT_MEANING",
+    "conditional_effect": "0.244514036368",
+    "exact_p": "8.82677146987e-13",
+    "expected_q_outcomes": "245.700662886305",
+    "informative_strata": 124,
+    "lofo_folios": 40,
+    "lofo_max_effect": "0.260695018260",
+    "lofo_min_effect": "0.230243595826",
+    "lofo_positive_effects": 40,
+    "observed_q_outcomes": 294,
+    "q_family": 1000,
+    "search_adjusted_p_5": "4.41338573493e-12",
+    "test_id": "PREVIOUS_DY",
+    "universe": 1421
+  },
+  "q_family_groups": 1000,
+  "ql_universe": 1421,
+  "result_content_sha256": "b7345ae94f87a8ffcb3bf966b1266830c4c758802d31b6f17cbeb7302ec8b5ef",
+  "rule": "Previous DY preferentially selects a QJB/QKB realization among the next Currier-B DY group; it does not materially predict another following DY.",
+  "schema": "GDT026_Q_L_BACKWARD_LINK_RESULT_V1",
+  "status": "CURRIER_B_Q_FAMILY_BACKWARD_LINK_STATE_PROVISIONAL"
+}
