@@ -60,6 +60,19 @@ meanings or historical-language identities on the strength of visual
 proximity. Weak observations may combine, but direct contradictions and every
 page-specific exception must be explicit and costly.
 
+## Abductive semantic bootstrapping
+
+After a generative architecture is selected, YOLO mode may assign explicit
+provisional functions and mnemonic English glosses to recurrent fields in
+order to make the theory concrete and predictive. Such a gloss may combine
+formal position, free/bound reuse, record structure, labels, diagrams, and
+historical document practice. It must remain tagged `PROVISIONAL_FUNCTION` or
+`SPECULATIVE_GLOSS`, retain competing parses and counterexamples, and must not
+be reported as a dictionary translation, sound, POS, or identified language.
+The objective is to choose the most explanatory world model and freeze risky
+predictions, not to withhold every meaning until confirmation-grade evidence
+already exists.
+
 ## Physical-module discovery
 
 Exploratory module-shape work may source-aware inspect exact non-holdout
