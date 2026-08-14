@@ -1,0 +1,130 @@
+{
+  "ablation_tests": 9,
+  "all_three_removed": {
+    "conditional_effect": "-0.001366681261",
+    "exact_p": "1.000000000000",
+    "expected_postdy": "92.393548732754",
+    "feature_count": 7,
+    "features": "RESIDUAL_HOST:H2:lk|RESIDUAL_HOST:H2:rc|RESIDUAL_HOST:H3:olk|SOURCE_FAMILY:F2:BQ|SOURCE_FAMILY:F2:CK|SOURCE_FAMILY:F3:ABQ|SOURCE_FAMILY:F3:ACK",
+    "full_occurrences": 617,
+    "informative_strata": 234,
+    "interpretive_scope": "ANNOTATION_CHANNEL_SPECIFICITY_AUDIT_NOT_SEMANTICS",
+    "lofo_folios": 94,
+    "lofo_max_effect": "0.009136289780",
+    "lofo_min_effect": "-0.010767045995",
+    "lofo_positive_effects": 10,
+    "observed_postdy": 92,
+    "search_adjusted_p_9": "1.000000000000",
+    "test_id": "FIGURE_WITHOUT_QJB_KAL_OKAL"
+  },
+  "branches": [
+    {
+      "al_state_occurrences": 12,
+      "ar_state_occurrences": 15,
+      "branch": "QJB",
+      "claim_state": "ANONYMOUS_POST_CHECKPOINT_STATE_BRANCH_NOT_MEANING",
+      "dy_resolution_occurrences": 449,
+      "ed_state_occurrences": 42,
+      "formal_feature": "SOURCE_FAMILY:F3:QJB",
+      "no_prefix_occurrences": 237,
+      "occurrences": 522,
+      "physical_folios": 40,
+      "postdy_occurrences": 219,
+      "q_prefix_occurrences": 236
+    },
+    {
+      "al_state_occurrences": 236,
+      "ar_state_occurrences": 1,
+      "branch": "KAL",
+      "claim_state": "ANONYMOUS_POST_CHECKPOINT_STATE_BRANCH_NOT_MEANING",
+      "dy_resolution_occurrences": 13,
+      "ed_state_occurrences": 0,
+      "formal_feature": "RESIDUAL_HOST:H3:kal",
+      "no_prefix_occurrences": 100,
+      "occurrences": 250,
+      "physical_folios": 48,
+      "postdy_occurrences": 67,
+      "q_prefix_occurrences": 121
+    },
+    {
+      "al_state_occurrences": 148,
+      "ar_state_occurrences": 0,
+      "branch": "OKAL",
+      "claim_state": "ANONYMOUS_POST_CHECKPOINT_STATE_BRANCH_NOT_MEANING",
+      "dy_resolution_occurrences": 7,
+      "ed_state_occurrences": 0,
+      "formal_feature": "RESIDUAL_HOST:HOST_EXACT:okal",
+      "no_prefix_occurrences": 49,
+      "occurrences": 155,
+      "physical_folios": 43,
+      "postdy_occurrences": 46,
+      "q_prefix_occurrences": 100
+    },
+    {
+      "al_state_occurrences": 88,
+      "ar_state_occurrences": 1,
+      "branch": "KAL_NON_OKAL",
+      "claim_state": "ANONYMOUS_POST_CHECKPOINT_STATE_BRANCH_NOT_MEANING",
+      "dy_resolution_occurrences": 6,
+      "ed_state_occurrences": 0,
+      "formal_feature": "RESIDUAL_HOST:H3:kal",
+      "no_prefix_occurrences": 51,
+      "occurrences": 95,
+      "physical_folios": 33,
+      "postdy_occurrences": 21,
+      "q_prefix_occurrences": 21
+    }
+  ],
+  "claim_ceiling": "Annotation-channel-shared formal motifs and anonymous post-checkpoint branches only; no semantic role, referent, morpheme, word, syntax, sound, language, plaintext, meaning, or translation.",
+  "f84r": {
+    "input_contains_rows": false,
+    "joined": false,
+    "opened": false,
+    "retained": false,
+    "scored": false
+  },
+  "figure_anchor_features": 10,
+  "figure_unique_features": 1,
+  "implementation": {
+    "run_gdt022_full_census_visual_phase.py": "801982c144bcd73e8d6b85744e9397a2265ebbb2f904fb23143e31c2c5bf7ab8",
+    "run_gdt023_anchor_specificity_phase.py": "8cdf861e96566b7e95d81d4781b520651e47b81f5397fdaa2119889f4c4ab729"
+  },
+  "inputs": {
+    "GDT023_ANCHOR_SPECIFICITY_PHASE_METHOD.md": "da6033d1932fa433f2899aab002f366fe0c72d0669c37ccecf31983491750962",
+    "gdt013_result.json": "615c86e3ce0fbb9d9a12292d16cebde18e7bde61a337f2a72d86b05cb4ccb828",
+    "gdt013_role_anchors.tsv": "41ebe8b32a92405fe8e7ddaee65fd4b1bc0ef7ff488898c6f9a14a1ead396313",
+    "gdt016_group_state_inventory.tsv": "e109ce15864ed6b6f76d446b3c96d6190a0dc53d20d8ab0944554124e687234c",
+    "gdt016_result.json": "aaa96a3be942bc1eab6587d5362922f3f16ec2beea7f520d47e190c32df80c2c",
+    "gdt022_result.json": "cdbda7eb281217caacf5bb6cd5cb689dd2eb5427a8b01419fe5e4413ad22ed09"
+  },
+  "inventory_groups": 15592,
+  "leading_hypothesis": "Shared diagram-associated formal motifs occupy two post-DY branches: QJB-heavy repeated resolution and KAL/OKAL-heavy AL state; generic reference/index function is speculative.",
+  "outputs": {
+    "GDT023_ANCHOR_SPECIFICITY_PHASE_REPORT.md": "4b9533db0f2c4a5a53dfe5659420265a63f7a5d2da170fecadb6a89b07a84fb6",
+    "gdt023_anchor_ablation_tests.tsv": "8df6d25ddc70d12c94492ecb3b4b91d915a1ab8429c66ed2a20f4cfcb2d1194a",
+    "gdt023_figure_anchor_role_overlap.tsv": "2b2c96c1319bcf45e8211ce8f0b151a4b95dd10b8b7600ff4d03011c51e624ca",
+    "gdt023_postdy_branch_examples.tsv": "af390c82ebf02246154263d9eb749eb4b9127343e7222049b557953a260e3a5f",
+    "gdt023_postdy_branch_summary.tsv": "9877a068e6305b6e487b0836cc3b33b454bbcb5847693b776d6dade7d5b2ca4e"
+  },
+  "primary_ablation": {
+    "conditional_effect": "0.091861015284",
+    "exact_p": "0.000002619234",
+    "expected_postdy": "271.363864170259",
+    "feature_count": 10,
+    "features": "RESIDUAL_HOST:H2:lk|RESIDUAL_HOST:H2:rc|RESIDUAL_HOST:H3:kal|RESIDUAL_HOST:H3:olk|RESIDUAL_HOST:HOST_EXACT:okal|SOURCE_FAMILY:F2:BQ|SOURCE_FAMILY:F2:CK|SOURCE_FAMILY:F3:ABQ|SOURCE_FAMILY:F3:ACK|SOURCE_FAMILY:F3:QJB",
+    "full_occurrences": 1324,
+    "informative_strata": 379,
+    "interpretive_scope": "ANNOTATION_CHANNEL_SPECIFICITY_AUDIT_NOT_SEMANTICS",
+    "lofo_folios": 94,
+    "lofo_max_effect": "0.100454322359",
+    "lofo_min_effect": "0.084242560970",
+    "lofo_positive_effects": 94,
+    "observed_postdy": 324,
+    "search_adjusted_p_9": "0.000023573104",
+    "test_id": "FIGURE_ALL_10"
+  },
+  "qjb_kal_overlap": 0,
+  "result_content_sha256": "3b4f047547c01fd333de35c42c2b812fb782e9ee16d3f0c605bcea486b82bcb8",
+  "schema": "GDT023_ANCHOR_SPECIFICITY_PHASE_RESULT_V1",
+  "status": "SHARED_DIAGRAM_ANCHOR_POST_DY_BRANCHES_PROVISIONAL_FIGURE_SPECIFICITY_FAILED"
+}
