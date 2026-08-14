@@ -1,0 +1,80 @@
+{
+  "aggregate_tests": [
+    {
+      "a": 5,
+      "b": 64,
+      "c": 1844,
+      "claim_state": "FORMAL_REALIZATION_ASSOCIATION_NOT_LANGUAGE",
+      "d": 127,
+      "fisher_two_sided_p": "2.06044857773e-64",
+      "odds_ratio": "0.005380626356",
+      "test": "TERMINAL_E_VS_EO_BY_CURRIER"
+    },
+    {
+      "a": 21,
+      "b": 166,
+      "c": 716,
+      "claim_state": "FORMAL_TRANSITION_ASSOCIATION_NOT_LANGUAGE",
+      "d": 1441,
+      "fisher_two_sided_p": "2.31602832297e-11",
+      "odds_ratio": "0.254602207714",
+      "test": "DY_TO_DY_RATE_BY_CURRIER"
+    }
+  ],
+  "branch_tests": 8,
+  "claim_ceiling": "Currier-conditioned formal realization and anonymous transition grammar only; no linguistic allomorph, role, referent, morpheme, word, sound, language, plaintext, meaning, or translation.",
+  "closure_inventory": [
+    {
+      "claim_state": "FORMAL_REGISTER_PROFILE_NOT_PHONOLOGY",
+      "currier": "A",
+      "dy_followed_internal_boundaries": 187,
+      "dy_groups": 255,
+      "dy_to_dy": 21,
+      "dy_to_dy_rate": "0.112299465241",
+      "other_terminal": 186,
+      "terminal_e": 5,
+      "terminal_eo": 64
+    },
+    {
+      "claim_state": "FORMAL_REGISTER_PROFILE_NOT_PHONOLOGY",
+      "currier": "B",
+      "dy_followed_internal_boundaries": 2157,
+      "dy_groups": 2412,
+      "dy_to_dy": 716,
+      "dy_to_dy_rate": "0.331942512749",
+      "other_terminal": 441,
+      "terminal_e": 1844,
+      "terminal_eo": 127
+    }
+  ],
+  "f84r": {
+    "input_contains_rows": false,
+    "joined": false,
+    "opened": false,
+    "retained": false,
+    "scored": false
+  },
+  "implementation": {
+    "run_gdt022_full_census_visual_phase.py": "801982c144bcd73e8d6b85744e9397a2265ebbb2f904fb23143e31c2c5bf7ab8",
+    "run_gdt025_currier_closure_allomorph.py": "fec901e582a5a6532ef055b7849b5b52bc3821d3f668deba021d64070f0409c4"
+  },
+  "inputs": {
+    "GDT025_CURRIER_CLOSURE_ALLOMORPH_METHOD.md": "af4ffa0ab432de1374179f4b721800c3ba6a64d27b0323797e71808d8b011b02",
+    "gdt016_group_state_inventory.tsv": "e109ce15864ed6b6f76d446b3c96d6190a0dc53d20d8ab0944554124e687234c",
+    "gdt016_result.json": "aaa96a3be942bc1eab6587d5362922f3f16ec2beea7f520d47e190c32df80c2c",
+    "gdt024_result.json": "18cb81c926adc35b0e56a4eea6954b4d74c4a1253de8f6ec41b5441f555ccac9"
+  },
+  "interpretation": "QJB capacity is Currier-B-specific because B selects terminal-E closure realizations and chains DY checkpoints; Q/L subtypes further organize those chains.",
+  "inventory_groups": 15592,
+  "outputs": {
+    "GDT025_CURRIER_CLOSURE_ALLOMORPH_REPORT.md": "6735de3b4360699471741f873fbeb11ef664dbbe82108a19dbf7df51c7625b3c",
+    "gdt025_currier_aggregate_tests.tsv": "5d1b606c560f430beb25b4321a33817c4525f8f3e045bff9d7a18a043aec162b",
+    "gdt025_currier_closure_inventory.tsv": "70229bb18cb14d8164b79f7862b817118c2ca1682c5e592d1be2d52e91a350be",
+    "gdt025_family_branch_tests.tsv": "20a6b69eeeeafe98184067df94c86a44425a8fa6e26566ad5384d9f73d6ee306",
+    "gdt025_repeat_ablation.tsv": "dd2f3bb1785c3f0d396b4def6b0d2606ad797028107b2cf2bd84c6b76ab3e07c"
+  },
+  "repeat_ablations": 12,
+  "result_content_sha256": "8c51e0fc1fd3190b27528b9217b852684411b4c1e9fc3a2ba137a1d7460934b6",
+  "schema": "GDT025_CURRIER_CLOSURE_ALLOMORPH_RESULT_V1",
+  "status": "CURRIER_B_Q_BRANCH_CHAINING_WITH_CURRIER_A_EO_REALIZATION"
+}
