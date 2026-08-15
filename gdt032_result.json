@@ -1,0 +1,113 @@
+{
+  "all_herbal_aggregate": {
+    "A": {
+      "dy_per_100_groups": 4.167732037841984,
+      "groups": 3911,
+      "internal_boundaries_per_100_possible": 3.58974358974359,
+      "lines": 791,
+      "mean_groups_per_line": 4.944374209860936
+    },
+    "B": {
+      "dy_per_100_groups": 22.297808012093725,
+      "groups": 1323,
+      "internal_boundaries_per_100_possible": 23.876651982378856,
+      "lines": 188,
+      "mean_groups_per_line": 7.037234042553192
+    }
+  },
+  "claim_ceiling": "Length-normalized within-Herbal formal segmentation only; Currier remains confounded with hand and no role, record meaning, word, sound, language, plaintext, meaning, or translation follows.",
+  "exact_length_eligible_pairs": 6,
+  "exact_length_strata": 15,
+  "f84r": {
+    "input_contains_rows": false,
+    "joined": false,
+    "opened": false,
+    "retained": false,
+    "scored": false
+  },
+  "fixed_gdt031_pairs": 8,
+  "herbal_pages": {
+    "A": 95,
+    "B": 32
+  },
+  "implementation": {
+    "run_gdt032_herbal_length_normalized_segmentation.py": "ce071a63a4956a6c00db820ccb9b3e42fd3954eb5fa9cb01ceac5be5c974bb1f"
+  },
+  "inputs": {
+    "GDT032_HERBAL_LENGTH_NORMALIZED_SEGMENTATION_METHOD.md": "666c6d1d17271656aef68a5ba6649009866ff0e6bf3008f891d45249514ec7a1",
+    "gdt016_group_state_inventory.tsv": "e109ce15864ed6b6f76d446b3c96d6190a0dc53d20d8ab0944554124e687234c",
+    "gdt016_result.json": "aaa96a3be942bc1eab6587d5362922f3f16ec2beea7f520d47e190c32df80c2c",
+    "gdt031_herbal_page_architecture.tsv": "1a1473e0f09f8cf16cf5f4f780599a02918715237cd456355c7092b38dc6f17e",
+    "gdt031_matched_herbal_pages.tsv": "57d1bdd31554d3e7e4611e0dacad040cf6b4b8a736bd0487f070521c4856a83f",
+    "gdt031_result.json": "bb774d22c4f429bffa046bd66ac119e7a2878b2a2b621202f8cd39202b3ca375"
+  },
+  "interpretation": "Herbal B segmentation density survives group and opportunity normalization; this is a Currier/hand-conditioned formal regime, not proof of semantic record type.",
+  "matched_equivalent_line_weight": 16,
+  "no_exact_length_overlap_pairs": [
+    "HP05",
+    "HP07"
+  ],
+  "outputs": {
+    "GDT032_HERBAL_LENGTH_NORMALIZED_SEGMENTATION_REPORT.md": "faf92517c15d5a6f9d462003bb4550ee3caaf700c7158f3268df72875f0a8733",
+    "gdt032_exact_length_pair_results.tsv": "7a5fe4efcdf703329bcb54a135ba04f1b1256159fc24b7dbf9086c9682be3026",
+    "gdt032_herbal_length_normalized_metrics.tsv": "e2a78fff7fd97a16abd48875c4b921b5dff9b2369ee9cbca05d0b3f89e275a67",
+    "gdt032_length_normalized_tests.tsv": "5aabe23cd0d46a3fd2d61f5c23699a2145ef29172dc2b5aba544ad88ea4518c6",
+    "gdt032_matched_group_length_strata.tsv": "55954673cef8733e21181771a4a952106ad3ee6bea97780aa588a705b05fcedb"
+  },
+  "primary_tests": {
+    "DY_PER_100_GROUPS": {
+      "b_minus_a_mean": "14.478627649223",
+      "claim_state": "LENGTH_NORMALIZED_SEGMENTATION_NOT_RECORD_MEANING",
+      "classified_only_b_minus_a": "11.185336047868",
+      "classified_only_exact_p": "0.062500000000",
+      "classified_only_pairs": 4,
+      "classified_only_positive_pairs": 4,
+      "classified_only_three_test_adjusted_p": "0.187500000000",
+      "classified_only_zero_pairs": 0,
+      "eligible_page_pairs": 8,
+      "feature": "DY_PER_100_GROUPS",
+      "one_sided_exact_p": "0.003906250000",
+      "positive_pairs": 8,
+      "test_scope": "PRIMARY_THREE",
+      "three_test_adjusted_p": "0.011718750000",
+      "zero_pairs": 0
+    },
+    "EXACT_LENGTH_STANDARDIZED_FIELDS_PER_LINE": {
+      "b_minus_a_mean": "0.784722222222",
+      "claim_state": "LENGTH_NORMALIZED_SEGMENTATION_NOT_RECORD_MEANING",
+      "classified_only_b_minus_a": "0.614583333333",
+      "classified_only_exact_p": "0.062500000000",
+      "classified_only_pairs": 4,
+      "classified_only_positive_pairs": 4,
+      "classified_only_three_test_adjusted_p": "0.187500000000",
+      "classified_only_zero_pairs": 0,
+      "eligible_page_pairs": 6,
+      "feature": "EXACT_LENGTH_STANDARDIZED_FIELDS_PER_LINE",
+      "one_sided_exact_p": "0.015625000000",
+      "positive_pairs": 6,
+      "test_scope": "PRIMARY_THREE",
+      "three_test_adjusted_p": "0.046875000000",
+      "zero_pairs": 0
+    },
+    "INTERNAL_BOUNDARIES_PER_100_POSSIBLE": {
+      "b_minus_a_mean": "15.857782335250",
+      "claim_state": "LENGTH_NORMALIZED_SEGMENTATION_NOT_RECORD_MEANING",
+      "classified_only_b_minus_a": "13.394442804120",
+      "classified_only_exact_p": "0.062500000000",
+      "classified_only_pairs": 4,
+      "classified_only_positive_pairs": 4,
+      "classified_only_three_test_adjusted_p": "0.187500000000",
+      "classified_only_zero_pairs": 0,
+      "eligible_page_pairs": 8,
+      "feature": "INTERNAL_BOUNDARIES_PER_100_POSSIBLE",
+      "one_sided_exact_p": "0.007812500000",
+      "positive_pairs": 7,
+      "test_scope": "PRIMARY_THREE",
+      "three_test_adjusted_p": "0.023437500000",
+      "zero_pairs": 1
+    }
+  },
+  "result_content_sha256": "d7bd68a3dc4d2eceb0325b4d7cdd767e4bad81126229dd1b1de8b3fd1e819aa5",
+  "schema": "GDT032_HERBAL_LENGTH_NORMALIZED_SEGMENTATION_RESULT_V1",
+  "status": "HERBAL_B_SEGMENTATION_DENSITY_SURVIVES_LENGTH_NORMALIZATION"
+}
