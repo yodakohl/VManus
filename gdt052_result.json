@@ -1,0 +1,84 @@
+{
+  "b3_closers": 145,
+  "claim_ceiling": "B3 endpoint status remains; no association with tested internal DY field count and no word, morpheme, POS, sound, language, plaintext, meaning, or translation.",
+  "documents": {
+    "GDT052_B3_INTERNAL_FIELD_PROFILE_METHOD.md": "54b7752ef842ac5ca559ea02e7341e20ba98b0ced9b30fbf2275c1a9b189a86f",
+    "GDT052_B3_INTERNAL_FIELD_PROFILE_REPORT.md": "364d5c640dbb445edf51f373253977a6aa8e1ded0b1bf4461d23e1b9afa902b1"
+  },
+  "f84r": {
+    "joined": false,
+    "opened": false,
+    "queried": false,
+    "retained": false,
+    "scored": false
+  },
+  "hpr2_prediction": "HPR2_P02",
+  "implementation": {
+    "run_gdt052_b3_internal_field_profile.py": "e561a822a00d3773d5e126a4ffc055ecbf5f4a36ce4925f85777c8a5eb892311"
+  },
+  "inputs": {
+    "gdt016_group_state_inventory.tsv": "e109ce15864ed6b6f76d446b3c96d6190a0dc53d20d8ab0944554124e687234c",
+    "gdt045_result.json": "8d6a55b8e722af5deabdbd943785ec453a08b92f491a9804f46c901050ab248e",
+    "gdt046_line_frames.tsv": "4c8a8486ec39c2d138b865c950ebaff038f1db1e3668219105893d6b04f92511",
+    "gdt051_result.json": "2b3ddb04d3a176fb88fcdacc0998b33b968b42493242c19c756451cd5ca853e9"
+  },
+  "lines": 1164,
+  "outputs": {
+    "gdt052_b3_line_profiles.tsv": "37a3e7fe80ba5d5a0ecce0a03639fbad3f702eab6f37696d5ec253c14a176fd5",
+    "gdt052_b3_profile_tests.tsv": "3703806fc3c22fe68e6886de9152fd5b638d6499c1ddb19741852404fe71b72e"
+  },
+  "prediction_outcome": "FALSIFIED",
+  "result_content_sha256": "7233f7ebc4c2912b9e92fc9c2c054ab307bf230c39f588b1c48f91e9158ae2be",
+  "schema": "GDT052_B3_INTERNAL_FIELD_PROFILE_RESULT_V1",
+  "status": "B3_CLOSE_DOES_NOT_PREDICT_INTERNAL_DY_FIELD_COUNT",
+  "tests": [
+    {
+      "b3_closers": 145,
+      "bonferroni_4_p": 1.0,
+      "effect_per_b3_line": -0.0786433872640769,
+      "exact_two_sided_p": 0.3039878114675037,
+      "expected_sum": 208.40329115329115,
+      "feature": "internal_dy_count",
+      "informative_strata": 56,
+      "null_max": 332,
+      "null_min": 97,
+      "observed_sum": 197
+    },
+    {
+      "b3_closers": 145,
+      "bonferroni_4_p": 1.0,
+      "effect_per_b3_line": -0.010240544895717303,
+      "exact_two_sided_p": 0.6386739607079278,
+      "expected_sum": 91.48487900987901,
+      "feature": "any_internal_dy",
+      "informative_strata": 33,
+      "null_max": 112,
+      "null_min": 60,
+      "observed_sum": 90
+    },
+    {
+      "b3_closers": 145,
+      "bonferroni_4_p": 0.35027991484230864,
+      "effect_per_b3_line": -0.042334657679485195,
+      "exact_two_sided_p": 0.08756997871057716,
+      "expected_sum": 57.13852536352535,
+      "feature": "two_plus_internal_dy",
+      "informative_strata": 40,
+      "null_max": 89,
+      "null_min": 24,
+      "observed_sum": 51
+    },
+    {
+      "b3_closers": 145,
+      "bonferroni_4_p": 0.12700895170104215,
+      "effect_per_b3_line": -0.05045341631548532,
+      "exact_two_sided_p": 0.03175223792526054,
+      "expected_sum": 33.31574536574537,
+      "feature": "three_plus_internal_dy",
+      "informative_strata": 35,
+      "null_max": 64,
+      "null_min": 9,
+      "observed_sum": 26
+    }
+  ]
+}
