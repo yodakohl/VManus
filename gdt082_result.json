@@ -1,0 +1,58 @@
+{
+  "claim_ceiling": "No semantic class, role, gloss, word, morpheme, POS, sound, language, plaintext, meaning, or translation.",
+  "documents": {
+    "GDT082_PAGE_HOST_ONLINE_PAGE_SIGNAL_METHOD.md": "92f64cff004253fb9700fbda84a106c0803458014774dfb02c51617ed1132428",
+    "GDT082_PAGE_HOST_ONLINE_PAGE_SIGNAL_REPORT.md": "37c21b048c9bb47ac838d85444b6897dd27be40ff01824d50a35534710bcefd9"
+  },
+  "f84r": {
+    "joined": false,
+    "opened": false,
+    "queried": false,
+    "retained": false,
+    "scored": false,
+    "targeted": false
+  },
+  "groups": 958,
+  "host_counts": {
+    "ok": 847,
+    "yk": 56,
+    "yt": 55
+  },
+  "implementation": {
+    "run_gdt082_page_host_online_page_signal.py": "971aebeb7bba454731c15ca63651e9e9654f26ac45e4d6f3c17d0c8c7a0d6244"
+  },
+  "inputs": {
+    "gdt062_right_family_inventory.tsv": "b0292332157524a7f5e0745bde74c38432c52e3f2dd7ae816677f0ea743ca1cc",
+    "gdt081_result.json": "1e4dbb918ceb2d436c10688b50a7a8d23ded5fe52df33490b01b74e248aa2e24",
+    "gdt081_validation.json": "e00645af7fb002d87468b26997dfbe7ace9fc7a14a6ac1471b4e8a5c84df4ff2"
+  },
+  "interpretation": "Exact PAGE_HOST identity has sequential page-local information after wrapper, but f86v5 and OTHER_B dominate; this localizes a page vocabulary layer without identifying content.",
+  "null_inclusive_p": 0.0011997600479904018,
+  "outputs": {
+    "gdt082_null_results.tsv": "b81914697d1f2ad8ba997e1b4b8f447f5936b625f52f32b9b1da56efde6b5297",
+    "gdt082_page_contributions.tsv": "624a10950c0cb3eb6d6f3ef644e44f570d70c0231a421c1aecc0e6e932c16b42",
+    "gdt082_page_shrinkage_scores.tsv": "497ade3137bef5078b796121287fe1f742d412a2dc515597b06cf94f46b5e49a",
+    "gdt082_register_scores.tsv": "e2e258128bc934878d86e546319138e97bac2cd99ea9da53e15a3912128e4b98"
+  },
+  "page_gain_vs_wrapper_bits": 11.610337556130101,
+  "page_selector_paid_gain_bits": 8.802982634072498,
+  "pages": 127,
+  "physical_folios": 76,
+  "positive_registers": 3,
+  "result_content_sha256": "c157cc56c29991c570f8e40f7b1b19f8c2611d86bd26884d80d5fd8b9772caa0",
+  "schema": "GDT082_PAGE_HOST_ONLINE_PAGE_SIGNAL_RESULT_V1",
+  "selected_page_alpha": 32,
+  "status": "PAGE_HOST_IDENTITY_HAS_PAGE_LOCAL_SIGNAL_BEYOND_WRAPPER_BUT_F86V5_DOMINATES",
+  "top_page": {
+    "occurrences": 20,
+    "ok": 6,
+    "page": "f86v5",
+    "page_gain_vs_wrapper": 10.384376513016909,
+    "physical_folio": "f86",
+    "rank_by_gain": 1,
+    "register": "OTHER_B",
+    "yk": 6,
+    "yt": 8
+  },
+  "wrapper_gain_vs_register_bits": 96.09033567754955
+}
