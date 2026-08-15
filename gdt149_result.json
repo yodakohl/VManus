@@ -1,0 +1,74 @@
+{
+  "candidate_hosts": [
+    "pch",
+    "olo",
+    "kor",
+    "oko"
+  ],
+  "cells": 48,
+  "claim_ceiling": "Prospective visual-feature seed only; no host meaning, role, word, morpheme, POS, sound, language, plaintext, or translation.",
+  "documents": {
+    "GDT149_CANDIDATE_HOST_VISUAL_ATLAS_METHOD.md": "8622b6d5cf0aa2b415be23fa709b37baf151d1a33e6cc1bccd6725698e286e6d",
+    "GDT149_CANDIDATE_HOST_VISUAL_ATLAS_REPORT.md": "fc3510479a70c20a2982a8d4eb0eb899bc2064ea6b40e2716ba4d4f3cde0fed3"
+  },
+  "f84": {
+    "actual_source_f84r_rows": 0,
+    "new_f84r_access": false,
+    "rejected_other_f84_rows": 228,
+    "retained_or_scored_f84_rows": 0
+  },
+  "herbal_pages": 127,
+  "implementation": {
+    "run_gdt149_candidate_host_visual_atlas.py": "95c1abe312a7cd3638f297ccb297d8cb56391614bd61edccd64fc7e60f8e8505"
+  },
+  "inputs": {
+    "gdt062_right_family_inventory.tsv": "b0292332157524a7f5e0745bde74c38432c52e3f2dd7ae816677f0ea743ca1cc",
+    "gdt137_herbal_visual_feature_inventory.tsv": "1518a6ae3b0f7ef54379f305f5aa16d9afa0ebeaf9592a2264c5344335917138",
+    "gdt148_result.json": "fa6cc56ea118275699a151061b0907863c81ca65fd36bad9fabb7f61036d12f3",
+    "gdt148_shared_host_candidates.tsv": "6faf924449fb4b1cb1975103f116f3e1e1bf64d699cf8954252737c6ce67a755"
+  },
+  "interpretation": "Post-hoc candidate semantic atlas nominates a weak exact-KOR/bulb-or-tuber-root page association.",
+  "lead": {
+    "endpoint_excluded_effect": 1.451219512195122,
+    "endpoint_excluded_host_feature_positive_pages": 2,
+    "endpoint_excluded_host_pages": 6,
+    "endpoint_excluded_local_p": 0.08962,
+    "feature_positive_pages": 14,
+    "host_feature_positive_pages": 3,
+    "host_pages": 8,
+    "label": "PROVISIONAL_POSTSELECTED",
+    "local_enrichment_p": 0.03448,
+    "max_48_p": 0.43305,
+    "origin_relation": "MHI007",
+    "page_host": "kor",
+    "semantic_role": "UNASSIGNED",
+    "standardized_effect_z": 2.6149428899590403,
+    "visual_feature": "BULB_OR_TUBER_ROOT",
+    "within_stratum_effect": 2.166666666666667
+  },
+  "outputs": {
+    "gdt149_candidate_host_occurrences.tsv": "b2360d0dc727f0cfb4e2a115195f33b3b23cc4234666753d9d04783f990fad51",
+    "gdt149_candidate_host_visual_atlas.tsv": "9d05ba35d00d9db74d2684439f2fe5888a07e43f09f047460c83be423a32aa5f",
+    "gdt149_counterexamples.tsv": "a0488d604562ad2614784b9e938e252a996f7021fd1c19b390e80501ff878573"
+  },
+  "result_content_sha256": "f9d89da39f85074c8933a8b5bf3db68015ca42260a38e72c1fe1e2689c1c0618",
+  "schema": "GDT149_CANDIDATE_HOST_VISUAL_ATLAS_RESULT_V1",
+  "seed": 149148,
+  "sensitivity_worlds": 50000,
+  "status": "KOR_BULB_OR_TUBER_ROOT_PROVISIONAL_POSTSELECTED_SEED",
+  "visual_features": [
+    "DAISY_CUP",
+    "BROAD_CALYX",
+    "GRASS",
+    "ROOT_PLATFORM",
+    "LEAVES_ONE_SIDE",
+    "FUSED_PARALLEL_LEAVES",
+    "BULB_OR_TUBER_ROOT",
+    "LARGE_OR_EXTENSIVE_ROOT",
+    "MULTIPLE_PLANTS",
+    "BLUE_FLOWERS_OR_BUDS",
+    "FINGERED_OR_FRILLED_LEAVES",
+    "MULTIPLE_STEMS_OR_STALKS"
+  ],
+  "worlds": 100000
+}
