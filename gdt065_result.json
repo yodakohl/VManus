@@ -1,0 +1,65 @@
+{
+  "cells": 53,
+  "claim_ceiling": "No role, gloss, word, morpheme, POS, sound, language, plaintext, meaning, or translation.",
+  "documents": {
+    "GDT065_O_OT_PAGE_CONTEXT_PRESERVATION_METHOD.md": "e2160b4b194f8e7fdeb6283c887a295715fa18a9b1c9f85cf3222b38b0094fe4",
+    "GDT065_O_OT_PAGE_CONTEXT_PRESERVATION_REPORT.md": "eae5073ab4d96bacf0d4f9f72c4bc6993907227d246ab3c1b79dcaf0a999513a"
+  },
+  "f84r": {
+    "joined": false,
+    "opened": false,
+    "queried": false,
+    "retained": false,
+    "scored": false
+  },
+  "gain_vs_control": 0.007490262574667839,
+  "groups": 15592,
+  "implementation": {
+    "run_gdt065_o_ot_page_context_preservation.py": "6dc24bdcabc38e15498b4fe03a7852c97156073be3035e03ae39659d8fb5fae5"
+  },
+  "inherited_position_result": "O_EARLY_OT_LATE_POSITIONAL_RENDERER_TRANSFERS_TO_UNSEEN_HOSTS",
+  "inputs": {
+    "gdt054_result.json": "37700160a16a4f9ee58797969afa3e34ffda6c78e80fa0ddd97fb23b71d1edf1",
+    "gdt055_result.json": "9c40c9bf757691502762c5bccbc686cad89e4405c5542989d36a56ead554de99",
+    "gdt059_result.json": "2908b4e9415131d59eeb20618b3330455362fdfb9aada53e68e8e48707cb6efd",
+    "gdt062_result.json": "52828ee0e450cbfb72b7037164610da0c882469ff2ba42b118991f3967dd436a",
+    "gdt062_right_family_inventory.tsv": "b0292332157524a7f5e0745bde74c38432c52e3f2dd7ae816677f0ea743ca1cc"
+  },
+  "interpretation": "O/OT has a small positive internal page-context lead around exact PAGE_HOST while changing record placement; external content preservation remains unscored and the lead misses the predeclared sign threshold.",
+  "mean_matched_control_similarity": 0.21943025408324143,
+  "mean_same_host_o_ot_similarity": 0.22692051665790927,
+  "outputs": {
+    "gdt065_o_ot_context_cells.tsv": "db805654d1b6d2e5068e0b43181cd5b8c501e96f4c08155c6c398acac670a9c1",
+    "gdt065_o_ot_context_pairs.tsv": "efa61bb425f5e92ae017df802d362de00807917168bb62f0202a45ad7b5e60b6",
+    "gdt065_variant_log.tsv": "8eec693f714387eeeb5af584833e0688dae0286e7cbefd60afaa73b95f683445"
+  },
+  "pairs": 485,
+  "positive_cells": 34,
+  "register_diagnostics": {
+    "HERBAL_A": {
+      "cells": 15,
+      "mean_gain": 0.006700533043005815,
+      "positive": 7
+    },
+    "HERBAL_B": {
+      "cells": 1,
+      "mean_gain": 0.008193031135115408,
+      "positive": 1
+    },
+    "OTHER_B": {
+      "cells": 9,
+      "mean_gain": 0.01146347760992885,
+      "positive": 5
+    },
+    "STARS_RECIPE_B": {
+      "cells": 28,
+      "mean_gain": 0.006611128256708375,
+      "positive": 21
+    }
+  },
+  "result_content_sha256": "f46794173a07ff5312cd46b7c3d01b17c366c08b90e8b7f665fcce33041d1427",
+  "schema": "GDT065_O_OT_PAGE_CONTEXT_PRESERVATION_RESULT_V1",
+  "sign_test_p": 0.053438810537711046,
+  "status": "O_OT_PAGE_CONTEXT_PRESERVATION_WEAK_OR_UNSTABLE",
+  "units": 1446
+}
