@@ -1,0 +1,120 @@
+{
+  "checks": [
+    {
+      "check": "schema",
+      "detail": "GDT155_UNBLIND_EXPORT_V1",
+      "pass": true
+    },
+    {
+      "check": "status",
+      "detail": "COMMITTED_EXPANSION_TRUTH_EXPORTED_AFTER_BLIND_FREEZE",
+      "pass": true
+    },
+    {
+      "check": "commitment_match",
+      "detail": "a7541792c4a7f5b1e38a039ec0ae6c0650bfbfeaf97d1b24953aa85558fa3598",
+      "pass": true
+    },
+    {
+      "check": "chronology",
+      "detail": {
+        "blind_analysis_commit": "99bab66",
+        "source_freeze_commit": "d62de97",
+        "unblind_after_both": true
+      },
+      "pass": true
+    },
+    {
+      "check": "line_count",
+      "detail": 48347,
+      "pass": true
+    },
+    {
+      "check": "site_count",
+      "detail": 119064,
+      "pass": true
+    },
+    {
+      "check": "record_count",
+      "detail": 3178,
+      "pass": true
+    },
+    {
+      "check": "line_join",
+      "detail": 48347,
+      "pass": true
+    },
+    {
+      "check": "site_join",
+      "detail": 119064,
+      "pass": true
+    },
+    {
+      "check": "surface_preserved",
+      "detail": 119064,
+      "pass": true
+    },
+    {
+      "check": "site_line_join",
+      "detail": 119064,
+      "pass": true
+    },
+    {
+      "check": "expanded_present",
+      "detail": 119064,
+      "pass": true
+    },
+    {
+      "check": "external_only",
+      "detail": [
+        "NUREMBERG",
+        "STE1"
+      ],
+      "pass": true
+    },
+    {
+      "check": "no_voynich_locator",
+      "detail": [
+        "corpus",
+        "book_or_ms",
+        "record_id",
+        "line_id",
+        "expanded_diplomatic"
+      ],
+      "pass": true
+    },
+    {
+      "check": "f84_flags",
+      "detail": {
+        "accessed": false,
+        "voynich_inputs": 0
+      },
+      "pass": true
+    },
+    {
+      "check": "hash_gdt155_unblinded_lines.tsv",
+      "detail": "57cbf58af98a14e220852054ce2b6aff90702f332757d0229cc9b6d6f6968ab7",
+      "pass": true
+    },
+    {
+      "check": "hash_gdt155_unblinded_abbreviation_sites.tsv",
+      "detail": "99397730f0dc3cc4920b44c6da7a1ceadfd27937d57e4a5ab2168e366bce39c6",
+      "pass": true
+    },
+    {
+      "check": "hash_gdt155_unblinded_record_truth.tsv",
+      "detail": "38cb3f5e3b08a1d4bb32950f70465e64dd2c24472e7759009377cf2878be0e7b",
+      "pass": true
+    },
+    {
+      "check": "content_hash",
+      "detail": "865a80a10e5004e8d8e0dad88d87d4fbdced8c7e8999e2e9a4e0d4cb4d832aa0",
+      "pass": true
+    }
+  ],
+  "result_sha256": "81867d5da5b1190709f712e698858208ccb995a98ca7f74789a58cc4f8927044",
+  "schema": "GDT155_UNBLIND_EXPORT_VALIDATION_V1",
+  "scope": "Published join/hash/chronology validation; source-level truth commitment was checked by the exporter and will be independently rebuilt in the final validator.",
+  "status": "PASS_19_CHECK_UNBLIND_EXPORT_INTEGRITY",
+  "validator_sha256": "243bf6c00efa52979c6bde8aebc1d0aa63b3d11bdb12dac8f628058a0861720a"
+}
