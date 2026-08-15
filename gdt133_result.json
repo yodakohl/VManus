@@ -1,0 +1,162 @@
+{
+  "best_model": "RAW_CHAR3",
+  "claim_ceiling": "Formal transfer texture only; no heading, recipe, transferable record semantics, content-bearing layer, semantic role, word, morpheme, POS, sound, language, plaintext, meaning, or translation.",
+  "compiler_blocks": [
+    {
+      "block": "WRAPPER7",
+      "full_minus_block_zeroed_bits": 1.067026112799388,
+      "interpretation": "DESCRIPTIVE_Q20_MEAN_ZEROING_NOT_SEPARATE_TEST"
+    },
+    {
+      "block": "FRAME2",
+      "full_minus_block_zeroed_bits": 0.03725280470316468,
+      "interpretation": "DESCRIPTIVE_Q20_MEAN_ZEROING_NOT_SEPARATE_TEST"
+    },
+    {
+      "block": "RENDERER3",
+      "full_minus_block_zeroed_bits": 0.11187632755714556,
+      "interpretation": "DESCRIPTIVE_Q20_MEAN_ZEROING_NOT_SEPARATE_TEST"
+    }
+  ],
+  "documents": {
+    "GDT133_RAW_SURFACE_TRANSFER_DECOMPOSITION_METHOD.md": "ee1803879895f4bd476c8309e583f1cb01e75278c3fde0b19f9ef7df4f04c85c",
+    "GDT133_RAW_SURFACE_TRANSFER_DECOMPOSITION_REPORT.md": "5cdc5aefbdb8ae03e4ba33cd5fba8f3dfcac4b4ef8e676fca893f7579b04b238"
+  },
+  "f84r": {
+    "actual_inputs_contain_rows": false,
+    "new_access": false,
+    "prior_limited_audit_exposure_inherited": true
+  },
+  "implementation": {
+    "run_gdt114_q20_record_template_linkage.py": "9c18f45ff6588392549ad45bea526f042058c933a747b7bcd4aadabb0ed8a307",
+    "run_gdt131_q20_cross_line_field_onset.py": "a8d162c9d18133d77e1f5562bf21ddb6d8dccb557035c3b60f0712fcb511db9f",
+    "run_gdt132_cross_register_continuation_arity.py": "3b3998c5d63ad5ef0a93e68b0e2c7383f662c0ed44c7161129aba6aeedaed11d",
+    "run_gdt133_raw_surface_transfer_decomposition.py": "61d194ad00ecf5f7adb23d819c67504f79a0226428c6b883a8c4bdf8a09202b3"
+  },
+  "inputs": {
+    "gdt016_group_state_inventory.tsv": "e109ce15864ed6b6f76d446b3c96d6190a0dc53d20d8ab0944554124e687234c",
+    "gdt046_line_frames.tsv": "4c8a8486ec39c2d138b865c950ebaff038f1db1e3668219105893d6b04f92511",
+    "gdt127_q20_field_inventory.tsv": "e1ad1e114214fdcb34945dacbfd5e0c783fd85ecb2730d328b0204eb279e2227",
+    "gdt132_continuation_arity_inventory.tsv": "ec9c076c78289cd4abb5046c54d137d19f105e60112c811f63aff5f03eb377b6",
+    "gdt132_result.json": "643f9846f426cd5e3a4775e9a96a363248b7f111c7a1950a040eafdef68100d4",
+    "gdt132_source_seal_correction.json": "a816510f0b0215bb7af060bd3e16164791b45c3e5373b6b7086bd950bbeb846c",
+    "q20ob001_source_panel.tsv": "35636753732e24e9af6cb2e5798df8b7453baac11db9088f7ba131fa8c186d88"
+  },
+  "interpretation": "Post-hoc decomposition leaves only a small uninterpreted residual raw-string lead; HPR2 compiler and PAGE_HOST-edge blocks do not explain it transferably.",
+  "nested_contrasts": [
+    {
+      "contrast": "COMPILER12_MINUS_REFERENCE",
+      "gain_bits": 0.7515676248491634
+    },
+    {
+      "contrast": "EDGE29_MINUS_REFERENCE",
+      "gain_bits": -0.4649441009475109
+    },
+    {
+      "contrast": "FACTORED_MINUS_HOST_CHAR3",
+      "gain_bits": -0.09202550457291804
+    },
+    {
+      "contrast": "FACTORED_PLUS_RAW_MINUS_FACTORED",
+      "gain_bits": 1.3844787508031984
+    },
+    {
+      "contrast": "RAW_CHAR3_MINUS_REFERENCE",
+      "gain_bits": 1.2928072888384625
+    }
+  ],
+  "outputs": {
+    "gdt133_transfer_decomposition_blocks.tsv": "dfb3e1f452ba01391ab7aa9269b6d4949f3fcdd2653af7754746c79e104f94ab",
+    "gdt133_transfer_decomposition_counterexamples.tsv": "5903a0c7df47fc25a58c48c94fd58ad4b2a903e9f5eb28b65d4bc6ed17eba931",
+    "gdt133_transfer_decomposition_folds.tsv": "e381e778c77ea8265e240b9c663df479a0ab199eab0090fbf4c176bd502ee467",
+    "gdt133_transfer_decomposition_nested.tsv": "9ad429b0c8d90435da2dc04e2d299b2428667b2d3867b363b7deb696e8a4a2b8",
+    "gdt133_transfer_decomposition_null.tsv": "384cad06f64b942abcf00312520efe10b31eb19d8b416008a5d0ef6e2ba24d36",
+    "gdt133_transfer_decomposition_scores.tsv": "384d9ee55f04021e7350d2b7ab4cc069a382cd9779caa211fd54ecd8642d7ecc",
+    "gdt133_transfer_decomposition_sections.tsv": "6bdcdb93e34e5a38a17e13fc977f20ac720432a10f56a58bbfef3fc07fec90a5",
+    "gdt133_variant_log.tsv": "d0689b5d247f6824cc0e85b3389dc886e820a6769e18432f4e0ada66ea3d4c9b"
+  },
+  "panel": "PUBLIC_CORRECTED_GDT132_31_PAIRS",
+  "result_content_sha256": "786dab8f05e61a3f5a6afa817240e41b02705312e8e3e9e1f14854656ff163ef",
+  "schema": "GDT133_RAW_SURFACE_TRANSFER_DECOMPOSITION_RESULT_V1",
+  "scores": [
+    {
+      "gain_bits": -4.153103496115818,
+      "local_p": 0.47717842323651455,
+      "max_six_p": 1.0,
+      "model": "HOST_CHAR3",
+      "model_top1": 23,
+      "model_top3": 27,
+      "null_mean_bits": -4.096033434760094,
+      "physical_folios": 24,
+      "positive_folios": 11,
+      "reference_top1": 24,
+      "reference_top3": 27
+    },
+    {
+      "gain_bits": 1.2928072888384625,
+      "local_p": 0.027337075909201855,
+      "max_six_p": 0.027337075909201855,
+      "model": "RAW_CHAR3",
+      "model_top1": 24,
+      "model_top3": 28,
+      "null_mean_bits": -0.5628615429736885,
+      "physical_folios": 24,
+      "positive_folios": 12,
+      "reference_top1": 24,
+      "reference_top3": 27
+    },
+    {
+      "gain_bits": 0.7515676248491634,
+      "local_p": 0.18550158652672688,
+      "max_six_p": 0.18672199170124482,
+      "model": "COMPILER12",
+      "model_top1": 24,
+      "model_top3": 28,
+      "null_mean_bits": 0.42413771919661847,
+      "physical_folios": 24,
+      "positive_folios": 10,
+      "reference_top1": 24,
+      "reference_top3": 27
+    },
+    {
+      "gain_bits": -0.4649441009475109,
+      "local_p": 0.36734195752989995,
+      "max_six_p": 1.0,
+      "model": "EDGE29",
+      "model_top1": 24,
+      "model_top3": 27,
+      "null_mean_bits": -0.5721167221190535,
+      "physical_folios": 24,
+      "positive_folios": 9,
+      "reference_top1": 24,
+      "reference_top3": 27
+    },
+    {
+      "gain_bits": -4.2451290006887366,
+      "local_p": 0.3490358799121308,
+      "max_six_p": 1.0,
+      "model": "FACTORED",
+      "model_top1": 23,
+      "model_top3": 27,
+      "null_mean_bits": -4.601956724442575,
+      "physical_folios": 24,
+      "positive_folios": 8,
+      "reference_top1": 24,
+      "reference_top3": 27
+    },
+    {
+      "gain_bits": -2.860650249885538,
+      "local_p": 0.05638271906272883,
+      "max_six_p": 1.0,
+      "model": "FACTORED_PLUS_RAW",
+      "model_top1": 23,
+      "model_top3": 27,
+      "null_mean_bits": -4.882093267444133,
+      "physical_folios": 24,
+      "positive_folios": 10,
+      "reference_top1": 24,
+      "reference_top3": 27
+    }
+  ],
+  "status": "RAW_CONTROL_POSTHOC_RESIDUAL_SURFACE_LEAD_ONLY"
+}
