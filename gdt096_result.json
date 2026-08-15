@@ -1,0 +1,65 @@
+{
+  "best_sensitivity": {
+    "baseline_bits": 26.08270601961322,
+    "exact_local_p": 0.0005341880341880342,
+    "exact_max_representation_p": 0.01014957264957265,
+    "folio_gains": "f100:0.474179;f102:0.779208;f88:0.347956;f89:2.795979;f99:0.121625",
+    "gain_bits": 4.5189465962669075,
+    "held_bits": 21.563759423346312,
+    "positive_gain_folios": 5,
+    "positive_test_loci": 4,
+    "representation": "RAW_CHAR3",
+    "selector_paid_gain_bits": 1.1970185013795454,
+    "test_hedged_loci": 35,
+    "train_unhedged_loci": 83
+  },
+  "claim_ceiling": "Archived annotation-stratum transfer only; no semantic role, gloss, word, morpheme, POS, sound, language, plaintext, meaning, or translation.",
+  "documents": {
+    "GDT096_LAYOUT_CHANNEL_TRANSFER_METHOD.md": "5121731e28288dc3c0c1a096f54e10b88d25e4a6bc49839beaa9890261907a1b",
+    "GDT096_LAYOUT_CHANNEL_TRANSFER_REPORT.md": "811e09774aa9a75a512f42433f0483005f08d8379775f529f82f69e6462d0b3c"
+  },
+  "exact_worlds": 1872,
+  "f84r": {
+    "joined": false,
+    "opened": false,
+    "queried": false,
+    "retained": false,
+    "scored": false,
+    "targeted": false
+  },
+  "frozen_host_wrapper_result": {
+    "baseline_bits": 26.08270601961322,
+    "exact_local_p": 0.7051282051282052,
+    "exact_max_representation_p": 0.01014957264957265,
+    "folio_gains": "f100:-2.041191;f102:-0.207145;f88:-0.998725;f89:-1.831313;f99:-3.284817",
+    "gain_bits": -8.36319123005763,
+    "held_bits": 34.44589724967085,
+    "positive_gain_folios": 0,
+    "positive_test_loci": 4,
+    "representation": "HOST_WRAPPER_JOINT",
+    "selector_paid_gain_bits": -11.685119324944992,
+    "test_hedged_loci": 35,
+    "train_unhedged_loci": 83
+  },
+  "implementation": {
+    "run_gdt096_layout_channel_transfer.py": "610864e2f5b04afe513c46fe33ed1ba35dce70ac7423e30bc277ceda24ee8607"
+  },
+  "inputs": {
+    "gdt012_annotated_core_inventory.tsv": "137efc96893220f8d55857b5ffc60f54a4eeb87450b42151b8bdc557e7281525",
+    "gdt059_hpr2_external_inventory.tsv": "3a683e6bf169fb79220693c3b75256588f37ec8e52f788af68ad3de3bb2f83ef",
+    "gdt095_descriptor_token_manifest.tsv": "427ac316be00ad5c570ed160413561a7bba76b71b2f385de81ddc420fdcbfdf8",
+    "gdt095_result.json": "be36d517df9e90800849df8cad98c289ed511e3f0ee0cb4f0d2a365877faebb3"
+  },
+  "interpretation": "The GDT095 host-wrapper layout association does not transfer to HEDGED annotations; retain it as archive-local hypothesis generation only.",
+  "outputs": {
+    "gdt096_exact_null.tsv": "b6e9800a544af04e3b653e043e5111eb3fe585eef1c2abab4ca2238549c20019",
+    "gdt096_predictions.tsv": "aab830cc25b9027d996913af67f072a019ccd61853a0b2365e6c2a6c82297fc5",
+    "gdt096_representation_scores.tsv": "d9656d98fd6457102c8e3eac97dfaad8e0c3ae3af574b85eace0dd0d946f4e6a"
+  },
+  "positive_test_loci": 4,
+  "result_content_sha256": "4ff81e0daa9c60944f6a8a95e89c51b5c793e3eb78829652a2b9ca2d66fb8ba3",
+  "schema": "GDT096_LAYOUT_CHANNEL_TRANSFER_RESULT_V1",
+  "status": "GDT095_HOST_WRAPPER_LAYOUT_LEAD_FAILS_HEDGED_STRATUM_TRANSFER",
+  "test_hedged_loci": 35,
+  "train_unhedged_loci": 83
+}
