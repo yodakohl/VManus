@@ -1,0 +1,92 @@
+{
+  "claim_ceiling": "Formal contrastive slots and postselected visual lead only; no star, ray, tail, role, word, morpheme, POS, sound, language, plaintext, meaning, or translation.",
+  "documents": {
+    "GDT127_Q20_CONTRASTIVE_FIELD_ATLAS_METHOD.md": "233e602956591c50f603fc8edbbc60e02a8b6447b6e3a73fa56a2c179396a2f2",
+    "GDT127_Q20_CONTRASTIVE_FIELD_ATLAS_REPORT.md": "bd543020ab0df9122f91dd21d5a3bb30d2ddb68f0cfc9c2b654fd4a1ef377fb6"
+  },
+  "eligible_templates": 26,
+  "f84r": {
+    "joined": false,
+    "opened": false,
+    "predicted": false,
+    "queried": false,
+    "retained": false,
+    "scored": false,
+    "targeted": false
+  },
+  "implementation": {
+    "run_gdt114_q20_record_template_linkage.py": "9c18f45ff6588392549ad45bea526f042058c933a747b7bcd4aadabb0ed8a307",
+    "run_gdt127_q20_contrastive_field_atlas.py": "fe71b325675430efbcdb593b825d69a47c356daac62b3399be750177989bee7e"
+  },
+  "inputs": {
+    "experiments/semantic_assumptions/star_morphology_entry/source_panel.tsv": "a25fb76c84e222952730ba1ae7a761542cbba9752f2c7c84a7c26f3bedd5caef",
+    "gdt126_result.json": "a3c3f8d6d0eeef6aed2b98c4d41854ffd41c00cdd8490afe384031261f98fd19",
+    "q20ob001_source_panel.tsv": "35636753732e24e9af6cb2e5798df8b7453baac11db9088f7ba131fa8c186d88"
+  },
+  "interpretation": "Exact compiler-field skeletons provide aligned host substitutions, but their count is not above matched page-local nulls.",
+  "nulls": [
+    {
+      "exact_inclusive_p": 0.1772028313400049,
+      "movable_groups": 4843,
+      "multi_group_cross_folio_template_pairs": 410,
+      "null_exact_mean": 0.193603515625,
+      "null_model": "PAGE_CELL_LENGTH",
+      "null_one_mean": 22.774658203125,
+      "null_one_q95": 29.0,
+      "observed_exact_fill_pairs": 1,
+      "observed_one_slot_pairs": 22,
+      "one_slot_inclusive_p": 0.6133756407127167,
+      "worlds": 4096
+    },
+    {
+      "exact_inclusive_p": 0.26116670734683917,
+      "movable_groups": 3922,
+      "multi_group_cross_folio_template_pairs": 410,
+      "null_exact_mean": 0.264892578125,
+      "null_model": "PAGE_CELL_LENGTH_EDGE",
+      "null_one_mean": 20.9326171875,
+      "null_one_q95": 25.0,
+      "observed_exact_fill_pairs": 1,
+      "observed_one_slot_pairs": 22,
+      "one_slot_inclusive_p": 0.3844276299731511,
+      "worlds": 4096
+    }
+  ],
+  "observed_exact_fill_pairs": 1,
+  "observed_one_slot_pairs": 22,
+  "one_slot_substitution_types": 21,
+  "outputs": {
+    "gdt127_q20_field_counterexamples.tsv": "e6afbdb6cdb966ebd2c09fb56d07ce3f5ef8ed352572855a59a021b07181ba8e",
+    "gdt127_q20_field_inventory.tsv": "e1ad1e114214fdcb34945dacbfd5e0c783fd85ecb2730d328b0204eb279e2227",
+    "gdt127_q20_field_null.tsv": "d459de081aa5992594b8f57a5c80d62ae2670804f4f40a60f334c7e9ed27d6f3",
+    "gdt127_q20_field_substitutions.tsv": "d78ee1cef963a23b69dfaf070ede8aad94ae83b51d057b420275d786aa48370c",
+    "gdt127_q20_field_templates.tsv": "357da27fb0578b01e9b27c36f9bdb2768c92ad5eb23540ecc480fdd13df8c05c",
+    "gdt127_q20_field_visual_leads.tsv": "6f99f2af1a915ae6c89c6c9eb189cb0a9ec3007de7422e7cf002ee143d99f98e"
+  },
+  "primary_fields": 1483,
+  "result_content_sha256": "853a95c7f184a01cc418b4d733d3c44a34415f374e7f776d230a59c38f09348a",
+  "schema": "GDT127_Q20_CONTRASTIVE_FIELD_ATLAS_RESULT_V1",
+  "status": "Q20_CONTRASTIVE_FIELD_SLOTS_PRESENT_NOT_ENRICHED",
+  "strongest_formula": {
+    "changed_position_1based": 1,
+    "claim_state": "CONTRASTIVE_FORMAL_SLOT_NO_MEANING",
+    "compiler_skeleton": "[[\"NONE\",\"NONE\",\"NONE\",0,0,0],[\"sh\",\"NONE\",\"NONE\",0,1,0]]",
+    "cross_folio_pair_support": 2,
+    "field_group_count": 2,
+    "host_a": "polor",
+    "host_b": "yshor",
+    "left_field_index": 1,
+    "left_host_sequence": "yshor|ee",
+    "left_locus": "f104v.21",
+    "left_page": "f104v",
+    "left_star_ordinal": 6,
+    "right_field_index": 1,
+    "right_host_sequence": "polor|ee",
+    "right_locus": "f112v.30",
+    "right_page": "f112v",
+    "right_star_ordinal": 8,
+    "skeleton_stable_all_readings": 1,
+    "substitution_id": "8d8730ce50011e97",
+    "template_id": "5d4ffcae6297a567"
+  }
+}
