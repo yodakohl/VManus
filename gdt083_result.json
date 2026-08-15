@@ -1,0 +1,105 @@
+{
+  "claim_ceiling": "No semantic class, role, gloss, word, morpheme, POS, sound, language, plaintext, meaning, or translation.",
+  "documents": {
+    "GDT083_HPR_LAYER_LOCALIZATION_SYNTHESIS_METHOD.md": "b49ef47cfcd296a2b4b72c30dc2ab4300d8577042809ed1e70cf2b0f1bf53a02",
+    "GDT083_HPR_LAYER_LOCALIZATION_SYNTHESIS_REPORT.md": "3f20352c55ef850509154569f3dda78f8efba5ae65ecf5f32d84c3deec8899e3"
+  },
+  "external_archived": {
+    "compiler_gain_bits": -121.298195359,
+    "cross_section_behavior_gain_bits": -61.992,
+    "page_host_gain_bits": 27.4619731718,
+    "raw_gain_bits": 0.719233036608
+  },
+  "f84r": {
+    "joined": false,
+    "opened": false,
+    "queried": false,
+    "retained": false,
+    "scored": false,
+    "targeted": false
+  },
+  "groups": 15592,
+  "implementation": {
+    "run_gdt083_hpr_layer_localization_synthesis.py": "7e8e435947e1b8ce4cd592ab0498c6ad28f97b4bbdcebb120898257be96109fe"
+  },
+  "inputs": {
+    "gdt016_group_state_inventory.tsv": "e109ce15864ed6b6f76d446b3c96d6190a0dc53d20d8ab0944554124e687234c",
+    "gdt062_right_family_inventory.tsv": "b0292332157524a7f5e0745bde74c38432c52e3f2dd7ae816677f0ea743ca1cc",
+    "gdt068_behavior_representation_summary.tsv": "5d796b67ae4fb5c910b3348df6237421de272e9057cfe5bac80b3188c80c067e",
+    "gdt068_result.json": "ec418e059b3a13fe35b674ab9b82521be4b643c510ee658e4cb6f071b3d7fcbd",
+    "gdt073_result.json": "6469079c4f2d9ee8659c47d2943c245942528cc5aad527a5bd9277c8dadd99b7",
+    "gdt082_result.json": "7f21cb487fb046312810a1a5bdc9938c969484bf7731ea6c7d852d115ff42600"
+  },
+  "interpretation": "PAGE_HOST is the best tested lexical-like page-vocabulary abstraction relative to raw/residual strings, but compiler page clustering and failed cross-section transfer prohibit semantic promotion.",
+  "outputs": {
+    "gdt083_evidence_synthesis.tsv": "d223277dd18fb236118b01a0cc2151f3beccb3e988b338e2e8447ba01846653b",
+    "gdt083_layer_page_contributions.tsv": "1c707906584f7cf3ae12033b2fe9a9832d23ea4a313b4e2406444c9eb55ab072",
+    "gdt083_layer_scores.tsv": "c81be920dab01051c39d50e383952a5fb77817d88647af8f0b184924771905e1"
+  },
+  "physical_folios": 94,
+  "representations": [
+    {
+      "groups": 15592,
+      "page_alpha": "NO_PAGE",
+      "page_gain_fraction_of_wrapper_bits": 0.0,
+      "page_gain_per_group": 0.0,
+      "page_gain_vs_wrapper": 0.0,
+      "page_selected": 0,
+      "register_bits": 153746.4152544931,
+      "representation": "RAW_TOKEN",
+      "total_gain_vs_register": 21081.974538841692,
+      "vocabulary": 3605,
+      "wrapper_alpha": 256,
+      "wrapper_bits": 132664.4407156514,
+      "wrapper_gain_vs_register": 21081.974538841692
+    },
+    {
+      "groups": 15592,
+      "page_alpha": 1024,
+      "page_gain_fraction_of_wrapper_bits": 0.0010020387645600507,
+      "page_gain_per_group": 0.008034434021590093,
+      "page_gain_vs_wrapper": 125.27289526463272,
+      "page_selected": 1,
+      "register_bits": 132703.39577413103,
+      "representation": "RESIDUAL_HOST",
+      "total_gain_vs_register": 7810.655698974985,
+      "vocabulary": 2430,
+      "wrapper_alpha": 256,
+      "wrapper_bits": 125018.01297042068,
+      "wrapper_gain_vs_register": 7685.382803710352
+    },
+    {
+      "groups": 15592,
+      "page_alpha": 1024,
+      "page_gain_fraction_of_wrapper_bits": 0.0013729176067761345,
+      "page_gain_per_group": 0.009899645112512902,
+      "page_gain_vs_wrapper": 154.35526659430116,
+      "page_selected": 1,
+      "register_bits": 119489.81587120246,
+      "representation": "PAGE_HOST",
+      "total_gain_vs_register": 7215.525869887368,
+      "vocabulary": 1883,
+      "wrapper_alpha": 256,
+      "wrapper_bits": 112428.64526790939,
+      "wrapper_gain_vs_register": 7061.170603293067
+    },
+    {
+      "groups": 15592,
+      "page_alpha": 512,
+      "page_gain_fraction_of_wrapper_bits": 0.004795529360394272,
+      "page_gain_per_group": 0.011728316871633521,
+      "page_gain_vs_wrapper": 182.86791666250986,
+      "page_selected": 1,
+      "register_bits": 40504.16390504435,
+      "representation": "COMPILER_ONLY",
+      "total_gain_vs_register": 2554.032747028048,
+      "vocabulary": 34,
+      "wrapper_alpha": 32,
+      "wrapper_bits": 38132.99907467881,
+      "wrapper_gain_vs_register": 2371.1648303655384
+    }
+  ],
+  "result_content_sha256": "723a925f9314e3c023058aa08d80434adcde8b8ddad7bf2e47eae5210ac0c055",
+  "schema": "GDT083_HPR_LAYER_LOCALIZATION_SYNTHESIS_RESULT_V1",
+  "status": "PAGE_HOST_PAGE_SIGNAL_EXCEEDS_RAW_AND_RESIDUAL_BUT_INTERNAL_COMPILER_SIGNAL_PREVENTS_SEMANTIC_LOCALIZATION"
+}
