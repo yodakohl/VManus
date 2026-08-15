@@ -1,0 +1,127 @@
+{
+  "claim_ceiling": "Archived visual-description association only; no semantic class, role, gloss, word, morpheme, POS, sound, language, plaintext, meaning, or translation.",
+  "dark_leaf_scores": {
+    "COMPILER_ONLY": {
+      "baseline_bits": 92.74579128980491,
+      "descriptor": "DARK_LEAF",
+      "gain_bits": -9.103879523023238,
+      "held_bits": 101.84967081282815,
+      "local_permutation_p": 0.03799240151969606,
+      "loci": 85,
+      "max_folio_gain": 3.105530087717405,
+      "max_search_p": 1.0,
+      "min_folio_gain": -8.922292421280686,
+      "physical_folios": 6,
+      "positive_gain_folios": 2,
+      "positive_loci": 25,
+      "representation": "COMPILER_ONLY"
+    },
+    "PAGE_HOST_CHAR3": {
+      "baseline_bits": 92.74579128980491,
+      "descriptor": "DARK_LEAF",
+      "gain_bits": 4.3416487345010495,
+      "held_bits": 88.40414255530386,
+      "local_permutation_p": 0.023595280943811237,
+      "loci": 85,
+      "max_folio_gain": 2.837724170946787,
+      "max_search_p": 0.32473505298940214,
+      "min_folio_gain": -3.579523130342053,
+      "physical_folios": 6,
+      "positive_gain_folios": 5,
+      "positive_loci": 25,
+      "representation": "PAGE_HOST_CHAR3"
+    },
+    "RAW_CHAR3": {
+      "baseline_bits": 92.74579128980491,
+      "descriptor": "DARK_LEAF",
+      "gain_bits": -5.397039045680131,
+      "held_bits": 98.14283033548504,
+      "local_permutation_p": 0.2927414517096581,
+      "loci": 85,
+      "max_folio_gain": 2.4922146375381216,
+      "max_search_p": 0.9996000799840032,
+      "min_folio_gain": -3.72778171141201,
+      "physical_folios": 6,
+      "positive_gain_folios": 3,
+      "positive_loci": 25,
+      "representation": "RAW_CHAR3"
+    }
+  },
+  "descriptor_patterns": 11,
+  "documents": {
+    "GDT089_PLANT_DESCRIPTOR_LOCALIZATION_METHOD.md": "57174debab1851805cf2fc2ee6bfe4ea41088c73db4fd23eb7b8f2e458ce066e",
+    "GDT089_PLANT_DESCRIPTOR_LOCALIZATION_REPORT.md": "d540db9c30a8a1c0e34eb3a1ac7bf9c4fec7a423144aaaa861841b6ed1d9fa53"
+  },
+  "eligible_descriptors": [
+    "DARK",
+    "LIGHT",
+    "DARK_LEAF",
+    "LIGHT_ROOT",
+    "LARGE_LEAF",
+    "ROOT_MENTION",
+    "LEAF_MENTION",
+    "FLOWER_MENTION"
+  ],
+  "f84r": {
+    "joined": false,
+    "opened": false,
+    "queried": false,
+    "retained": false,
+    "scored": false,
+    "targeted": false
+  },
+  "implementation": {
+    "run_gdt089_plant_descriptor_localization.py": "4c0e6527415cc65b951b61189d239b5b6011d295f40e79a712d4df04e7c4dc6a"
+  },
+  "inputs": {
+    "gdt012_annotated_core_inventory.tsv": "137efc96893220f8d55857b5ffc60f54a4eeb87450b42151b8bdc557e7281525",
+    "gdt059_hpr2_external_inventory.tsv": "3a683e6bf169fb79220693c3b75256588f37ec8e52f788af68ad3de3bb2f83ef",
+    "gdt068_result.json": "ec418e059b3a13fe35b674ab9b82521be4b643c510ee658e4cb6f071b3d7fcbd",
+    "gdt088_result.json": "ed06f1b0d020c80742d1344fdcea53e08c2657adf4280a5fa076564045616fe0"
+  },
+  "loci": 85,
+  "os_visual_association": {
+    "dark_leaf_positive": "2/2",
+    "light_root_positive": "2/2",
+    "page_host": "os",
+    "physical_folios": [
+      "f88",
+      "f100"
+    ],
+    "semantic_role": "UNASSIGNED",
+    "status": "WEAK_POSTSELECTED_TWO_LOCUS_SEED"
+  },
+  "outputs": {
+    "gdt089_descriptor_manifest.tsv": "e15d20ca266a1d932653a63598dd46cf23ee533a8b644c68e49a49619a330d4f",
+    "gdt089_exact_host_descriptor_leads.tsv": "a606d620d749475f77de0d3324a3c7d8c16c1c2cf0031411c1fa9d496266c9a8",
+    "gdt089_null_results.tsv": "7cc000b5d6070a1f18b523abda931cb42067b622d996f6a4de0e311a91aa7314",
+    "gdt089_os_cases.tsv": "f5793cecbba098ce064000a7af45c2703e381f06e2d038e9594917d81a55194a",
+    "gdt089_representation_scores.tsv": "7c4fb8f63011c3be46fb86cdec4b042fc3027b8055b5c23825ca252f8aa757fe"
+  },
+  "permutations": 5000,
+  "physical_folios": 6,
+  "representations": [
+    "RAW_CHAR3",
+    "PAGE_HOST_CHAR3",
+    "COMPILER_ONLY"
+  ],
+  "result_content_sha256": "ea6fab6ad7f1c7c8f6f8cc7be94e3e290416b6170214352dce71a07ff90115b6",
+  "schema": "GDT089_PLANT_DESCRIPTOR_LOCALIZATION_RESULT_V1",
+  "selection_disclosure": "Descriptor regexes and exact-host seed were assembled after GDT088; all eleven tried patterns and null outcomes are exported. GDT068 K=5/shrink=4 was reused without tuning.",
+  "status": "PAGE_HOST_DARK_LEAF_DESCRIPTOR_LEAD_WEAK_POSTSELECTED",
+  "top_score": {
+    "baseline_bits": 113.65823989173441,
+    "descriptor": "LEAF_MENTION",
+    "gain_bits": 4.526010186371224,
+    "held_bits": 109.13222970536319,
+    "local_permutation_p": 0.09178164367126575,
+    "loci": 85,
+    "max_folio_gain": 2.810757891265636,
+    "max_search_p": 0.3065386922615477,
+    "min_folio_gain": -2.048661299771432,
+    "physical_folios": 6,
+    "positive_gain_folios": 4,
+    "positive_loci": 42,
+    "representation": "PAGE_HOST_CHAR3"
+  }
+}
