@@ -1,0 +1,915 @@
+{
+  "checks": [
+    {
+      "check": "result_content_hash",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "schema",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "source_freeze_commit",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "input_hash:GDT159_DIPLOMATIC_SOURCE_AUDIT.md",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "input_hash:GDT159_DIPLOMATIC_SURFACE_ALGEBRA_METHOD.md",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "input_hash:gdt003_structural_fingerprints.tsv",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "input_hash:gdt045_b3_occurrences.tsv",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "input_hash:gdt045_result.json",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "input_hash:gdt158_closure_folds.tsv",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "input_hash:gdt158_result.json",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "input_hash:gdt158_structural_fingerprints.tsv",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "input_hash:gdt159_diplomatic_corpora.json.gz",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "input_hash:gdt159_diplomatic_corpus_manifest.tsv",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "input_hash:gdt159_diplomatic_source_provenance.json",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "input_hash:gdt159_diplomatic_source_validation.json",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "output_hash:GDT159_DIPLOMATIC_SURFACE_ALGEBRA_REPORT.md",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "output_hash:gdt159_b3_stability.tsv",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "output_hash:gdt159_counterexamples.tsv",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "output_hash:gdt159_fingerprint_baselines.tsv",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "output_hash:gdt159_structural_fingerprints.tsv",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "output_hash:gdt159_surface_algebra_comparison.tsv",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "output_hash:gdt159_transformations.tsv",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "implementation_hash:run_gdt003_nested_heldout.py",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "implementation_hash:run_gdt003_structural_fingerprint_comparator.py",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "implementation_hash:run_gdt159_diplomatic_surface_algebra.py",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "frozen_gdt003_runner_unchanged",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "frozen_gdt003_core_unchanged",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "source_records",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "source_has_no_voynich_or_f84r",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "five_fingerprints",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "baseline_rows",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "IFORAL_1395_1411_GRAPHEMATIC:operation_count",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "IFORAL_1395_1411_GRAPHEMATIC:left_support",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "IFORAL_1395_1411_GRAPHEMATIC:right_support",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "IFORAL_1395_1411_GRAPHEMATIC:edge_ratio",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "IFORAL_1395_1411_GRAPHEMATIC:compatible_density",
+      "detail": [
+        0.0013634652367240205,
+        "0.0013634652367240205"
+      ],
+      "passed": true
+    },
+    {
+      "check": "LATIN_15C_GRAPHEMATIC:operation_count",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "LATIN_15C_GRAPHEMATIC:left_support",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "LATIN_15C_GRAPHEMATIC:right_support",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "LATIN_15C_GRAPHEMATIC:edge_ratio",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "LATIN_15C_GRAPHEMATIC:compatible_density",
+      "detail": [
+        0.0014096972755197256,
+        "0.0014096972755197256"
+      ],
+      "passed": true
+    },
+    {
+      "check": "LATIN_GERMAN_APOTHECARY_LATE15:operation_count",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "LATIN_GERMAN_APOTHECARY_LATE15:left_support",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "LATIN_GERMAN_APOTHECARY_LATE15:right_support",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "LATIN_GERMAN_APOTHECARY_LATE15:edge_ratio",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "LATIN_GERMAN_APOTHECARY_LATE15:compatible_density",
+      "detail": [
+        0.0,
+        "0.0"
+      ],
+      "passed": true
+    },
+    {
+      "check": "LATIN_MEDICAL_GRAPHEMATIC:operation_count",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "LATIN_MEDICAL_GRAPHEMATIC:left_support",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "LATIN_MEDICAL_GRAPHEMATIC:right_support",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "LATIN_MEDICAL_GRAPHEMATIC:edge_ratio",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "LATIN_MEDICAL_GRAPHEMATIC:compatible_density",
+      "detail": [
+        0.0008981053741119781,
+        "0.0008981053741119781"
+      ],
+      "passed": true
+    },
+    {
+      "check": "LATIN_SCHOLASTIC_GRAPHEMATIC:operation_count",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "LATIN_SCHOLASTIC_GRAPHEMATIC:left_support",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "LATIN_SCHOLASTIC_GRAPHEMATIC:right_support",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "LATIN_SCHOLASTIC_GRAPHEMATIC:edge_ratio",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "LATIN_SCHOLASTIC_GRAPHEMATIC:compatible_density",
+      "detail": [
+        0.0005934945341067908,
+        "0.0005934945341067908"
+      ],
+      "passed": true
+    },
+    {
+      "check": "comparison_rows",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "comparison:VOYNICH_MATCHED:op_ratio",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "comparison:VOYNICH_MATCHED:pair_ratio",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "comparison:VOYNICH_MATCHED:distance",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "comparison:VOYNICH_MATCHED:regime",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "comparison:AUGSBURG_ACCOUNTS_ORIGINAL:op_ratio",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "comparison:AUGSBURG_ACCOUNTS_ORIGINAL:pair_ratio",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "comparison:AUGSBURG_ACCOUNTS_ORIGINAL:distance",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "comparison:AUGSBURG_ACCOUNTS_ORIGINAL:regime",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "comparison:LATIN_15C_GRAPHEMATIC:op_ratio",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "comparison:LATIN_15C_GRAPHEMATIC:pair_ratio",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "comparison:LATIN_15C_GRAPHEMATIC:distance",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "comparison:LATIN_15C_GRAPHEMATIC:regime",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "comparison:IFORAL_1395_1411_GRAPHEMATIC:op_ratio",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "comparison:IFORAL_1395_1411_GRAPHEMATIC:pair_ratio",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "comparison:IFORAL_1395_1411_GRAPHEMATIC:distance",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "comparison:IFORAL_1395_1411_GRAPHEMATIC:regime",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "comparison:NUREMBERG_REAL_DIPLOMATIC:op_ratio",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "comparison:NUREMBERG_REAL_DIPLOMATIC:pair_ratio",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "comparison:NUREMBERG_REAL_DIPLOMATIC:distance",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "comparison:NUREMBERG_REAL_DIPLOMATIC:regime",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "comparison:LATIN_MEDICAL_GRAPHEMATIC:op_ratio",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "comparison:LATIN_MEDICAL_GRAPHEMATIC:pair_ratio",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "comparison:LATIN_MEDICAL_GRAPHEMATIC:distance",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "comparison:LATIN_MEDICAL_GRAPHEMATIC:regime",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "comparison:LATIN_SCHOLASTIC_GRAPHEMATIC:op_ratio",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "comparison:LATIN_SCHOLASTIC_GRAPHEMATIC:pair_ratio",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "comparison:LATIN_SCHOLASTIC_GRAPHEMATIC:distance",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "comparison:LATIN_SCHOLASTIC_GRAPHEMATIC:regime",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "comparison:LATIN_GERMAN_APOTHECARY_LATE15:op_ratio",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "comparison:LATIN_GERMAN_APOTHECARY_LATE15:pair_ratio",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "comparison:LATIN_GERMAN_APOTHECARY_LATE15:distance",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "comparison:LATIN_GERMAN_APOTHECARY_LATE15:regime",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "two_matched_new",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "no_matched_new_regime",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "closest_new",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "surface_status",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3_occurrences_no_f84r",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:REGISTER:HA:support",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:REGISTER:HA:observed",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:REGISTER:HA:expected",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:REGISTER:HA:effect",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:REGISTER:HA:p",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:REGISTER:HA:lofo",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:REGISTER:HA:powered",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:REGISTER:HB:support",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:REGISTER:HB:observed",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:REGISTER:HB:expected",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:REGISTER:HB:effect",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:REGISTER:HB:p",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:REGISTER:HB:lofo",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:REGISTER:HB:powered",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:REGISTER:OA:support",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:REGISTER:OA:observed",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:REGISTER:OA:expected",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:REGISTER:OA:effect",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:REGISTER:OA:p",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:REGISTER:OA:lofo",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:REGISTER:OA:powered",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:REGISTER:OB:support",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:REGISTER:OB:observed",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:REGISTER:OB:expected",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:REGISTER:OB:effect",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:REGISTER:OB:p",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:REGISTER:OB:lofo",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:REGISTER:OB:powered",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:REGISTER:SB:support",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:REGISTER:SB:observed",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:REGISTER:SB:expected",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:REGISTER:SB:effect",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:REGISTER:SB:p",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:REGISTER:SB:lofo",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:REGISTER:SB:powered",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:HAND:1:support",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:HAND:1:observed",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:HAND:1:expected",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:HAND:1:effect",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:HAND:1:p",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:HAND:1:lofo",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:HAND:1:powered",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:HAND:2:support",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:HAND:2:observed",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:HAND:2:expected",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:HAND:2:effect",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:HAND:2:p",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:HAND:2:lofo",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:HAND:2:powered",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:HAND:3:support",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:HAND:3:observed",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:HAND:3:expected",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:HAND:3:effect",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:HAND:3:p",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:HAND:3:lofo",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:HAND:3:powered",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:HAND:5:support",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:HAND:5:observed",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:HAND:5:expected",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:HAND:5:effect",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:HAND:5:p",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:HAND:5:lofo",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:HAND:5:powered",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:HAND:@:support",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:HAND:@:observed",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:HAND:@:expected",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:HAND:@:effect",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:HAND:@:p",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3:HAND:@:powered",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "eight_powered_b3_strata",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "powered_b3_all_positive",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "b3_status",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "selector:AUGSBURG_ACCOUNTS:ORIGINAL_ENTRY",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "selector_export:AUGSBURG_ACCOUNTS:ORIGINAL_ENTRY",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "selector:NUREMBERG_LETTERBOOKS:EXPANDED",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "selector_export:NUREMBERG_LETTERBOOKS:EXPANDED",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "selector:NUREMBERG_LETTERBOOKS:REAL_DIPLOMATIC",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "selector_export:NUREMBERG_LETTERBOOKS:REAL_DIPLOMATIC",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "counterexamples",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "report_status",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "f84r_flags",
+      "detail": "",
+      "passed": true
+    }
+  ],
+  "checks_passed": 175,
+  "checks_total": 175,
+  "inputs": {
+    "GDT159_DIPLOMATIC_SURFACE_ALGEBRA_REPORT.md": "8d354169fee987d14296d00ea06b6e702c411b66f7d9dd84e3536640e49e8038",
+    "gdt003_structural_fingerprint_result.json": "c4f04b6aff77e0a0adaab8a563ea71983d9883b6d0f79bb508e4b66c444312cb",
+    "gdt003_structural_fingerprints.tsv": "fdcfbae090fe79211e7c90c9a0395905dc90d24f038cc2ef314387dc8e02fae0",
+    "gdt045_b3_occurrences.tsv": "57c6664dbadcaa99b2ecc48fe8d6e76b3818610f625aa0fe29ab0ae930a04ba9",
+    "gdt158_closure_folds.tsv": "45e34af944956d5102002e852fada67e76e8be978799a5ee2ae41531a6610c0b",
+    "gdt159_b3_stability.tsv": "a9306f962e0f57dd3da94ead1448e0d82c76fa12bb539528a8bf1b67eabdfdaa",
+    "gdt159_counterexamples.tsv": "676de415e670e0869424b55b783a65c708c945a3643a1343eca857d840064a97",
+    "gdt159_diplomatic_corpora.json.gz": "b1a06f205c309848f2d2c43212a4f24419f060f73eab7f9d1d18dc25e459303e",
+    "gdt159_diplomatic_corpus_manifest.tsv": "f86b3a001233413a45fc262f10dcaf01c2e5510e48955d3c3bf879e21d9ae5c5",
+    "gdt159_fingerprint_baselines.tsv": "c7be8cc39b1d6e0d4588cfe790ce372e9a727aa214765532c06bcb176a1e22c4",
+    "gdt159_structural_fingerprints.tsv": "9a62a3b5886d2204d9f9bc6bd96400dc6c5b498df4e1af5e506ceed29e8e3ea5",
+    "gdt159_surface_algebra_comparison.tsv": "25c43dca0c0db0db1907ad27c1045e28af8ec1c8e8a1b93c4fb1df463cfb464a",
+    "gdt159_transformations.tsv": "6f4272f7690e66f21103aa76e1d6998fe00dba11d292c0b22354d9e026f96c1a"
+  },
+  "result_sha256": "befb4521dfcd3f7eac6e2f3703ba4c933b4fac7827a32577ff1aa45a41320ea0",
+  "schema": "GDT159_DIPLOMATIC_SURFACE_ALGEBRA_VALIDATION_V1",
+  "status": "PASS_INDEPENDENT_TRANSFORMATION_AGGREGATE_AND_B3_RECONSTRUCTION",
+  "validation_content_sha256": "31ee234390f88028612762b6133ac7306a155147507b51675ab4503de355fd62"
+}
