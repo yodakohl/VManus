@@ -1,0 +1,254 @@
+{
+  "alternate_reading_sensitivity": "NOT_AVAILABLE_FOR_DERIVED_GDT062_HPR2_PAGE_BAGS;NO_REPLICATION_CLAIM",
+  "best_page_host_representation": "PAGE_HOST_CHAR3",
+  "claim_ceiling": "No semantic role, gloss, word, morpheme, POS, sound, language, plaintext, meaning, plant identity, or translation.",
+  "cross_currier": {
+    "COMPILER_SIGNATURE": {
+      "baseline_bits": 458.33553790326476,
+      "currier_A_gain": 8.664845048236867,
+      "currier_B_gain": -2.3553053694577066,
+      "features": 6,
+      "gain_bits": 6.30953967877916,
+      "held_bits": 452.0259982244856,
+      "pages": 127,
+      "representation": "COMPILER_SIGNATURE"
+    },
+    "PAGE_HOST_CHAR3": {
+      "baseline_bits": 458.33553790326476,
+      "currier_A_gain": 22.912275459645347,
+      "currier_B_gain": 0.18854885501878416,
+      "features": 6,
+      "gain_bits": 23.10082431466413,
+      "held_bits": 435.2347135886006,
+      "pages": 127,
+      "representation": "PAGE_HOST_CHAR3"
+    },
+    "PAGE_HOST_IDENTITY": {
+      "baseline_bits": 458.33553790326476,
+      "currier_A_gain": 21.87707940592712,
+      "currier_B_gain": 5.624337368677617,
+      "features": 6,
+      "gain_bits": 27.50141677460474,
+      "held_bits": 430.83412112866,
+      "pages": 127,
+      "representation": "PAGE_HOST_IDENTITY"
+    },
+    "RAW_CHAR3": {
+      "baseline_bits": 458.33553790326476,
+      "currier_A_gain": 17.599288698892323,
+      "currier_B_gain": -0.6993439768259568,
+      "features": 6,
+      "gain_bits": 16.89994472206637,
+      "held_bits": 441.4355931811983,
+      "pages": 127,
+      "representation": "RAW_CHAR3"
+    }
+  },
+  "cross_currier_features": [
+    "BROAD_CALYX",
+    "BULB_OR_TUBER_ROOT",
+    "LARGE_OR_EXTENSIVE_ROOT",
+    "MULTIPLE_PLANTS",
+    "BLUE_FLOWERS_OR_BUDS",
+    "MULTIPLE_STEMS_OR_STALKS"
+  ],
+  "documents": {
+    "GDT137_HERBAL_PAGE_VISUAL_FEATURE_TRANSFER_METHOD.md": "e2d7ea239fca2388d76096aaf38f45885d8f8dfc2541a9a29a49094ed97ba32d",
+    "GDT137_HERBAL_PAGE_VISUAL_FEATURE_TRANSFER_REPORT.md": "a830b41d4bf7e09632c00250b34d1cad696da66448905a03d4beb4c82e3dc8a3"
+  },
+  "f84": {
+    "all_rows_rejected_before_retention": true,
+    "new_f84r_access": false
+  },
+  "features": [
+    "DAISY_CUP",
+    "BROAD_CALYX",
+    "GRASS",
+    "ROOT_PLATFORM",
+    "LEAVES_ONE_SIDE",
+    "FUSED_PARALLEL_LEAVES",
+    "BULB_OR_TUBER_ROOT",
+    "LARGE_OR_EXTENSIVE_ROOT",
+    "MULTIPLE_PLANTS",
+    "BLUE_FLOWERS_OR_BUDS",
+    "FINGERED_OR_FRILLED_LEAVES",
+    "MULTIPLE_STEMS_OR_STALKS"
+  ],
+  "gates": {
+    "beats_raw_and_compiler": true,
+    "cross_currier_panel_positive": true,
+    "max_four_p_le_005": false,
+    "positive_at_least_35_of_63_folios": true,
+    "positive_at_least_6_of_8_features": true,
+    "selector_paid_positive": true
+  },
+  "implementation": {
+    "run_gdt137_herbal_page_visual_feature_transfer.py": "7107a5689c437f542e4e812a8dd572bff9849d315d6b2ae1c45bc391721d8228"
+  },
+  "inputs": {
+    "gdt031_result.json": "bb774d22c4f429bffa046bd66ac119e7a2878b2a2b621202f8cd39202b3ca375",
+    "gdt033_result.json": "97ac2b3de5d0f46166b86ebbeeef67cbad145edf1629df975a349811c433eac7",
+    "gdt062_right_family_inventory.tsv": "b0292332157524a7f5e0745bde74c38432c52e3f2dd7ae816677f0ea743ca1cc",
+    "gdt137_herbal_visual_feature_inventory.tsv": "1518a6ae3b0f7ef54379f305f5aa16d9afa0ebeaf9592a2264c5344335917138",
+    "gdt137_prediction.json": "6b97a3204ae9e059a1fcd2c49b48fc6f9bc7fc5dccd1d36f0365809936926de3"
+  },
+  "interpretation": "Whole-page formal inventory versus archived human-visible plant features after metadata/layout nuisance control.",
+  "outputs": {
+    "gdt137_counterexamples.tsv": "b62c201968fc5ef00ca1182d65221ff422f81e0adf5b201718926abbe39aab22",
+    "gdt137_cross_currier_scores.tsv": "79f91aab3cf103129c047f9b45107f3a67e22a38a0cbf49dbcec4d745f625b6b",
+    "gdt137_feature_scores.tsv": "d58569a0d0fb97cbdbe8bba3649da416378aa47a8e54abd3d2ae4d1fb879950e",
+    "gdt137_folio_scores.tsv": "58ebf8eb9df54d3bf6f0c92f0a250802443270918b19ac0112d15d91b31e237e",
+    "gdt137_null_results.tsv": "0fc1a40d28d1eb1551835b81f71a20e4c5a29f2802af5bfad9308f58da7262f0",
+    "gdt137_page_predictions.tsv": "0855db0c0ab5b96f3caebd9d9ffe8ab5a1fd4b6e991a06a04d357910de1d8c46",
+    "gdt137_panel_scores.tsv": "7a0bd4f8cde3e7918cb6cdeb4b7dcabfb08a4399fd7e4ddb613301a8922f7f14",
+    "gdt137_variant_log.tsv": "e10cc583ab15ec7c640bbef6ffc729f539cd8e23f39dddebf1b8472b521487a2"
+  },
+  "pages": 127,
+  "physical_folios": 63,
+  "primary": {
+    "COMPILER_SIGNATURE": {
+      "baseline_bits": 443.28629561651695,
+      "features": 8,
+      "gain_bits": 1.9775735118784756,
+      "held_bits": 441.3087221046385,
+      "local_permutation_p": 0.6679332066793321,
+      "max_feature_model_p": 0.41415858414158585,
+      "max_four_p": 0.7242275772422758,
+      "pages": 127,
+      "panel": "PRIMARY_CAPACITY_8",
+      "physical_folios": 63,
+      "positive_cells": 114,
+      "positive_gain_features": 2,
+      "positive_gain_folios": 35,
+      "representation": "COMPILER_SIGNATURE",
+      "selector_paid_gain_bits": -0.02242648812152437
+    },
+    "PAGE_HOST_CHAR3": {
+      "baseline_bits": 443.28629561651695,
+      "features": 8,
+      "gain_bits": 8.736997562263632,
+      "held_bits": 434.5492980542533,
+      "local_permutation_p": 0.41385861413858616,
+      "max_feature_model_p": 0.41415858414158585,
+      "max_four_p": 0.7242275772422758,
+      "pages": 127,
+      "panel": "PRIMARY_CAPACITY_8",
+      "physical_folios": 63,
+      "positive_cells": 114,
+      "positive_gain_features": 6,
+      "positive_gain_folios": 38,
+      "representation": "PAGE_HOST_CHAR3",
+      "selector_paid_gain_bits": 6.736997562263632
+    },
+    "PAGE_HOST_IDENTITY": {
+      "baseline_bits": 443.28629561651695,
+      "features": 8,
+      "gain_bits": 0.04941185773523493,
+      "held_bits": 443.2368837587817,
+      "local_permutation_p": 0.8267173282671733,
+      "max_feature_model_p": 0.41415858414158585,
+      "max_four_p": 0.7242275772422758,
+      "pages": 127,
+      "panel": "PRIMARY_CAPACITY_8",
+      "physical_folios": 63,
+      "positive_cells": 114,
+      "positive_gain_features": 4,
+      "positive_gain_folios": 37,
+      "representation": "PAGE_HOST_IDENTITY",
+      "selector_paid_gain_bits": -1.950588142264765
+    },
+    "RAW_CHAR3": {
+      "baseline_bits": 443.28629561651695,
+      "features": 8,
+      "gain_bits": 5.406282282997293,
+      "held_bits": 437.8800133335196,
+      "local_permutation_p": 0.48835116488351166,
+      "max_feature_model_p": 0.41415858414158585,
+      "max_four_p": 0.7242275772422758,
+      "pages": 127,
+      "panel": "PRIMARY_CAPACITY_8",
+      "physical_folios": 63,
+      "positive_cells": 114,
+      "positive_gain_features": 5,
+      "positive_gain_folios": 40,
+      "representation": "RAW_CHAR3",
+      "selector_paid_gain_bits": 3.406282282997293
+    }
+  },
+  "primary_features": [
+    "DAISY_CUP",
+    "BROAD_CALYX",
+    "GRASS",
+    "FUSED_PARALLEL_LEAVES",
+    "BULB_OR_TUBER_ROOT",
+    "MULTIPLE_PLANTS",
+    "BLUE_FLOWERS_OR_BUDS",
+    "MULTIPLE_STEMS_OR_STALKS"
+  ],
+  "representations": [
+    "PAGE_HOST_IDENTITY",
+    "PAGE_HOST_CHAR3",
+    "RAW_CHAR3",
+    "COMPILER_SIGNATURE"
+  ],
+  "result_content_sha256": "e998e33e6cad9a1afa962e5031c5c9e32d0db50cadb815ecfb42cc800d9d3eb0",
+  "schema": "GDT137_HERBAL_PAGE_VISUAL_FEATURE_TRANSFER_RESULT_V1",
+  "source_groups": 5234,
+  "status": "HERBAL_PAGE_VISUAL_CONTENT_TRANSFER_NOT_SUPPORTED",
+  "strongest_page_host_features": [
+    {
+      "feature": "BLUE_FLOWERS_OR_BUDS",
+      "gain_bits": 8.163042241137411,
+      "local_permutation_p": 0.40335966403359663,
+      "max_feature_model_p": 0.41415858414158585,
+      "positive_gain_folios": 37,
+      "positive_pages": 37,
+      "representation": "PAGE_HOST_CHAR3"
+    },
+    {
+      "feature": "MULTIPLE_PLANTS",
+      "gain_bits": 2.0373646089310467,
+      "local_permutation_p": 0.15258474152584742,
+      "max_feature_model_p": 0.41415858414158585,
+      "positive_gain_folios": 49,
+      "positive_pages": 8,
+      "representation": "PAGE_HOST_CHAR3"
+    },
+    {
+      "feature": "LEAVES_ONE_SIDE",
+      "gain_bits": 1.6372433922214082,
+      "local_permutation_p": 0.11238876112388761,
+      "max_feature_model_p": 0.41415858414158585,
+      "positive_gain_folios": 59,
+      "positive_pages": 5,
+      "representation": "PAGE_HOST_CHAR3"
+    },
+    {
+      "feature": "ROOT_PLATFORM",
+      "gain_bits": 1.5951809556417946,
+      "local_permutation_p": 0.3675632436756324,
+      "max_feature_model_p": 0.41415858414158585,
+      "positive_gain_folios": 58,
+      "positive_pages": 5,
+      "representation": "PAGE_HOST_CHAR3"
+    },
+    {
+      "feature": "BROAD_CALYX",
+      "gain_bits": 1.0895349308263491,
+      "local_permutation_p": 0.12458754124587541,
+      "max_feature_model_p": 0.41415858414158585,
+      "positive_gain_folios": 54,
+      "positive_pages": 10,
+      "representation": "PAGE_HOST_CHAR3"
+    },
+    {
+      "feature": "BULB_OR_TUBER_ROOT",
+      "gain_bits": 0.8677705353110114,
+      "local_permutation_p": 0.48555144485551444,
+      "max_feature_model_p": 0.41415858414158585,
+      "positive_gain_folios": 45,
+      "positive_pages": 14,
+      "representation": "PAGE_HOST_CHAR3"
+    }
+  ]
+}
