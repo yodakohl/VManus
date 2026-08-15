@@ -1,0 +1,1456 @@
+{
+  "checks": [
+    {
+      "check": "schema",
+      "detail": "GDT156_VMS_HPR2_SYNTHETIC_ABBREVIATION_RESULT_V1",
+      "ok": true
+    },
+    {
+      "check": "status",
+      "detail": "SYNTHETIC_HPR2_CONTROL_COMPLETE",
+      "ok": true
+    },
+    {
+      "check": "encoder",
+      "detail": "VMS_HPR2_ABBR_V1",
+      "ok": true
+    },
+    {
+      "check": "freeze",
+      "detail": {
+        "method_before_gdt155_unblind_scoring": true,
+        "published_in_commit": "d62de97"
+      },
+      "ok": true
+    },
+    {
+      "check": "input_gdt155_blinded_diplomatic.tsv",
+      "detail": "8e907ee5a29def9098e84239617c8deab4d3420c8df50860107d8637489ec03b",
+      "ok": true
+    },
+    {
+      "check": "input_gdt155_unblind_calibration_result.json",
+      "detail": "0827a4f9cf5ea6a2c3c57963b5d1afd0b03677993f96342e99bb7ccae2051e56",
+      "ok": true
+    },
+    {
+      "check": "input_gdt155_unblind_retrieval_summary.tsv",
+      "detail": "18416ad09cfea830370821b72404623279f983d44c765e685a3a0cb240c36ec6",
+      "ok": true
+    },
+    {
+      "check": "input_gdt155_unblinded_lines.tsv",
+      "detail": "57cbf58af98a14e220852054ce2b6aff90702f332757d0229cc9b6d6f6968ab7",
+      "ok": true
+    },
+    {
+      "check": "input_gdt155_unblinded_record_truth.tsv",
+      "detail": "38cb3f5e3b08a1d4bb32950f70465e64dd2c24472e7759009377cf2878be0e7b",
+      "ok": true
+    },
+    {
+      "check": "output_gdt156_comparison.tsv",
+      "detail": "3dc51f9512dc88188211e85ec06c780218c12a6ba1af7f7e768dc5b953dfebfb",
+      "ok": true
+    },
+    {
+      "check": "output_gdt156_encoded_architecture.tsv",
+      "detail": "fbd7e3ddc2cecd6d3e2fc9f9e7eb4636ea53dafadc4cf0d01072252f591a7909",
+      "ok": true
+    },
+    {
+      "check": "output_gdt156_encoded_groups.tsv",
+      "detail": "2b039c85187069eb7cd874aab31783aa27459c64f7bde5a7b5f865c66c9e3808",
+      "ok": true
+    },
+    {
+      "check": "output_gdt156_property_attribution.tsv",
+      "detail": "64fc36493c2137289c4d926f17742ad8af5a5931474ac06acdf00368e815e1d8",
+      "ok": true
+    },
+    {
+      "check": "output_gdt156_retrieval.tsv",
+      "detail": "54281c04f5c0417629ef71a27b67dd65299cecba6f7353701ead2a88e0b385be",
+      "ok": true
+    },
+    {
+      "check": "output_gdt156_retrieval_summary.tsv",
+      "detail": "70db7392cbeaeefe1f238aad0cec36543e8c4eafc64dd894d6885de2bd13a05d",
+      "ok": true
+    },
+    {
+      "check": "output_gdt156_synthetic_rectangles.tsv",
+      "detail": "e6323084629ade152c53e301abe42170ed1d66c98e990c3281a1dd1b12ea1f15",
+      "ok": true
+    },
+    {
+      "check": "output_gdt156_word_recovery.tsv",
+      "detail": "0ec90029093d3fee290c7774d67a96acd77fc6cbdca440292e53c122cf92ff3e",
+      "ok": true
+    },
+    {
+      "check": "document_GDT156_VMS_HPR2_SYNTHETIC_ABBREVIATION_METHOD.md",
+      "detail": "b9090ec735b476d16fc3833be31aafefb4615198539447cdd3a3ae8bd9bbbf3b",
+      "ok": true
+    },
+    {
+      "check": "implementation_run_gdt156_vms_hpr2_synthetic_abbreviation.py",
+      "detail": "89e159a12b2fd171b0ddc38287bc70473caecb3d601e8e26afcef4d29b9f79e8",
+      "ok": true
+    },
+    {
+      "check": "content_hash",
+      "detail": "79f82617a76ebc4a4263563a273427c721a19040f22118b3abc8b98fa5a6a1a6",
+      "ok": true
+    },
+    {
+      "check": "group_count",
+      "detail": 438091,
+      "ok": true
+    },
+    {
+      "check": "record_count",
+      "detail": 3178,
+      "ok": true
+    },
+    {
+      "check": "corpus_partition",
+      "detail": {
+        "groups": 438091,
+        "nuremberg_groups": 437980,
+        "records": 3178,
+        "retrieval_rows": 47632,
+        "ste1_groups": 111
+      },
+      "ok": true
+    },
+    {
+      "check": "host_exact",
+      "detail": 438091,
+      "ok": true
+    },
+    {
+      "check": "right_exact",
+      "detail": 438091,
+      "ok": true
+    },
+    {
+      "check": "compiler_recompose",
+      "detail": 438091,
+      "ok": true
+    },
+    {
+      "check": "record_first_q",
+      "detail": 3178,
+      "ok": true
+    },
+    {
+      "check": "one_m_per_record",
+      "detail": 3178,
+      "ok": true
+    },
+    {
+      "check": "arch_Ste1",
+      "detail": {
+        "book_or_ms": "Ste1",
+        "d_groups": "0",
+        "distinct_page_hosts": "66",
+        "distinct_source_groups": "68",
+        "distinct_synthetic_tokens": "86",
+        "dy_groups": "0",
+        "groups": "111",
+        "m_groups": "2",
+        "page_host_characters": "399",
+        "page_host_per_source_character": "0.882743362832",
+        "q_groups": "2",
+        "records": "2",
+        "s_groups": "8",
+        "source_characters": "452",
+        "synthetic_abstract_atoms": "601",
+        "synthetic_atoms_per_source_character": "1.3296460177",
+        "synthetic_codepoints": "769",
+        "synthetic_codepoints_per_source_character": "1.70132743363"
+      },
+      "ok": true
+    },
+    {
+      "check": "arch_Band2",
+      "detail": {
+        "book_or_ms": "Band2",
+        "d_groups": "6232",
+        "distinct_page_hosts": "3561",
+        "distinct_source_groups": "5985",
+        "distinct_synthetic_tokens": "11082",
+        "dy_groups": "6712",
+        "groups": "64630",
+        "m_groups": "465",
+        "page_host_characters": "234558",
+        "page_host_per_source_character": "0.733319160377",
+        "q_groups": "465",
+        "records": "465",
+        "s_groups": "7535",
+        "source_characters": "319858",
+        "synthetic_abstract_atoms": "360742",
+        "synthetic_atoms_per_source_character": "1.12781921978",
+        "synthetic_codepoints": "482006",
+        "synthetic_codepoints_per_source_character": "1.50693745349"
+      },
+      "ok": true
+    },
+    {
+      "check": "arch_Band3",
+      "detail": {
+        "book_or_ms": "Band3",
+        "d_groups": "12882",
+        "distinct_page_hosts": "4823",
+        "distinct_source_groups": "9108",
+        "distinct_synthetic_tokens": "16415",
+        "dy_groups": "13950",
+        "groups": "140162",
+        "m_groups": "1064",
+        "page_host_characters": "507773",
+        "page_host_per_source_character": "0.741479035822",
+        "q_groups": "1064",
+        "records": "1064",
+        "s_groups": "14404",
+        "source_characters": "684811",
+        "synthetic_abstract_atoms": "780943",
+        "synthetic_atoms_per_source_character": "1.140377418",
+        "synthetic_codepoints": "1042330",
+        "synthetic_codepoints_per_source_character": "1.52206959292"
+      },
+      "ok": true
+    },
+    {
+      "check": "arch_Band4",
+      "detail": {
+        "book_or_ms": "Band4",
+        "d_groups": "5728",
+        "distinct_page_hosts": "3477",
+        "distinct_source_groups": "5856",
+        "distinct_synthetic_tokens": "10754",
+        "dy_groups": "5901",
+        "groups": "76547",
+        "m_groups": "556",
+        "page_host_characters": "276041",
+        "page_host_per_source_character": "0.735518956784",
+        "q_groups": "556",
+        "records": "556",
+        "s_groups": "7580",
+        "source_characters": "375301",
+        "synthetic_abstract_atoms": "420863",
+        "synthetic_atoms_per_source_character": "1.12140122195",
+        "synthetic_codepoints": "561667",
+        "synthetic_codepoints_per_source_character": "1.49657741386"
+      },
+      "ok": true
+    },
+    {
+      "check": "arch_Band5",
+      "detail": {
+        "book_or_ms": "Band5",
+        "d_groups": "11138",
+        "distinct_page_hosts": "4942",
+        "distinct_source_groups": "8960",
+        "distinct_synthetic_tokens": "16522",
+        "dy_groups": "11235",
+        "groups": "156641",
+        "m_groups": "1091",
+        "page_host_characters": "565517",
+        "page_host_per_source_character": "0.725916160808",
+        "q_groups": "1091",
+        "records": "1091",
+        "s_groups": "15629",
+        "source_characters": "779039",
+        "synthetic_abstract_atoms": "861070",
+        "synthetic_atoms_per_source_character": "1.10529768086",
+        "synthetic_codepoints": "1151210",
+        "synthetic_codepoints_per_source_character": "1.47773089666"
+      },
+      "ok": true
+    },
+    {
+      "check": "compression",
+      "detail": {
+        "abstract_atom_ratio": "1.12256039692",
+        "literal_codepoint_ratio": "1.49939764031",
+        "nuremberg_source_characters": 2159009,
+        "page_host_ratio": "0.733618525907",
+        "verdict": "PAGE_HOST_COMPRESSES_BUT_FULL_V1_EXPANDS"
+      },
+      "ok": true
+    },
+    {
+      "check": "recovery_rows",
+      "detail": 30,
+      "ok": true
+    },
+    {
+      "check": "recovery_arithmetic",
+      "detail": 30,
+      "ok": true
+    },
+    {
+      "check": "recovery_books",
+      "detail": [
+        "Band2",
+        "Band3",
+        "Band4",
+        "Band5",
+        "Ste1"
+      ],
+      "ok": true
+    },
+    {
+      "check": "rectangle_family",
+      "detail": 15,
+      "ok": true
+    },
+    {
+      "check": "rectangle_attribution",
+      "detail": 15,
+      "ok": true
+    },
+    {
+      "check": "property_attribution",
+      "detail": [
+        "EMERGENT_AFTER_ENCODING",
+        "EMERGENT_FAILURE_OF_ENCODER_DESIGN",
+        "IMPOSED_BY_ENCODER",
+        "MIXED_IMPOSED_OPERATOR_PLUS_EMERGENT_HOST_REUSE"
+      ],
+      "ok": true
+    },
+    {
+      "check": "retrieval_count",
+      "detail": 47632,
+      "ok": true
+    },
+    {
+      "check": "retrieval_reps",
+      "detail": [
+        "COMPILER_SIGNATURE",
+        "HOST_PLUS_COMPILER",
+        "MARKER_AND_POSITION",
+        "PAGE_HOST_CHAR3",
+        "PAGE_HOST_IDENTITY",
+        "SYNTHETIC_CHAR3",
+        "SYNTHETIC_TOKEN_IDENTITY",
+        "UNBLINDED_EXPANDED_CHAR3_REFERENCE"
+      ],
+      "ok": true
+    },
+    {
+      "check": "retrieval_dims",
+      "detail": [
+        "ADDRESSEE",
+        "CONTENT"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_ALL_ADDRESSEE_COMPILER_SIGNATURE",
+      "detail": [
+        2782,
+        "0.0234239095443",
+        18,
+        118,
+        601,
+        "0.314967860422"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_ALL_ADDRESSEE_HOST_PLUS_COMPILER",
+      "detail": [
+        2782,
+        "0.156233718322",
+        278,
+        732,
+        1531,
+        "0.0774514540809"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_ALL_ADDRESSEE_MARKER_AND_POSITION",
+      "detail": [
+        2782,
+        "0.0134738227442",
+        10,
+        48,
+        379,
+        "0.420666167155"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_ALL_ADDRESSEE_PAGE_HOST_CHAR3",
+      "detail": [
+        2782,
+        "0.180375183911",
+        319,
+        826,
+        1583,
+        "0.0661460865338"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_ALL_ADDRESSEE_PAGE_HOST_IDENTITY",
+      "detail": [
+        2782,
+        "0.172315352549",
+        298,
+        790,
+        1619,
+        "0.0636955066847"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_ALL_ADDRESSEE_SYNTHETIC_CHAR3",
+      "detail": [
+        2782,
+        "0.175849952529",
+        315,
+        797,
+        1560,
+        "0.0679056580259"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_ALL_ADDRESSEE_SYNTHETIC_TOKEN_IDENTITY",
+      "detail": [
+        2782,
+        "0.156211440808",
+        278,
+        732,
+        1530,
+        "0.0772855796418"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_ALL_ADDRESSEE_UNBLINDED_EXPANDED_CHAR3_REFERENCE",
+      "detail": [
+        2782,
+        "0.191296199717",
+        346,
+        871,
+        1674,
+        "0.0546396729802"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_ALL_CONTENT_COMPILER_SIGNATURE",
+      "detail": [
+        3172,
+        "0.0399379811277",
+        44,
+        245,
+        996,
+        "0.240698259331"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_ALL_CONTENT_HOST_PLUS_COMPILER",
+      "detail": [
+        3172,
+        "0.484360646772",
+        1158,
+        2279,
+        2974,
+        "0.00361337241564"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_ALL_CONTENT_MARKER_AND_POSITION",
+      "detail": [
+        3172,
+        "0.0244428052999",
+        24,
+        141,
+        690,
+        "0.337729480947"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_ALL_CONTENT_PAGE_HOST_CHAR3",
+      "detail": [
+        3172,
+        "0.62008555339",
+        1555,
+        2741,
+        3113,
+        "0.00188501413761"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_ALL_CONTENT_PAGE_HOST_IDENTITY",
+      "detail": [
+        3172,
+        "0.725242033056",
+        1908,
+        2999,
+        3164,
+        "0.0018115942029"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_ALL_CONTENT_SYNTHETIC_CHAR3",
+      "detail": [
+        3172,
+        "0.600434700682",
+        1500,
+        2680,
+        3099,
+        "0.00215517241379"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_ALL_CONTENT_SYNTHETIC_TOKEN_IDENTITY",
+      "detail": [
+        3172,
+        "0.484818310391",
+        1161,
+        2279,
+        2974,
+        "0.00361010830325"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_ALL_CONTENT_UNBLINDED_EXPANDED_CHAR3_REFERENCE",
+      "detail": [
+        3172,
+        "0.601990501213",
+        1508,
+        2680,
+        3098,
+        "0.00215517241379"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band2_ADDRESSEE_COMPILER_SIGNATURE",
+      "detail": [
+        394,
+        "0.029528739205",
+        1,
+        24,
+        83,
+        "0.377709739837"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band2_ADDRESSEE_HOST_PLUS_COMPILER",
+      "detail": [
+        394,
+        "0.193121501846",
+        52,
+        120,
+        204,
+        "0.0917926565875"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band2_ADDRESSEE_MARKER_AND_POSITION",
+      "detail": [
+        394,
+        "0.0205206419695",
+        2,
+        9,
+        51,
+        "0.456803455724"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band2_ADDRESSEE_PAGE_HOST_CHAR3",
+      "detail": [
+        394,
+        "0.220244359008",
+        63,
+        129,
+        202,
+        "0.0874730021598"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band2_ADDRESSEE_PAGE_HOST_IDENTITY",
+      "detail": [
+        394,
+        "0.21602862366",
+        59,
+        133,
+        215,
+        "0.0820734341253"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band2_ADDRESSEE_SYNTHETIC_CHAR3",
+      "detail": [
+        394,
+        "0.210045098413",
+        60,
+        123,
+        200,
+        "0.0981650778283"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band2_ADDRESSEE_SYNTHETIC_TOKEN_IDENTITY",
+      "detail": [
+        394,
+        "0.193070987344",
+        52,
+        120,
+        204,
+        "0.0917926565875"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band2_ADDRESSEE_UNBLINDED_EXPANDED_CHAR3_REFERENCE",
+      "detail": [
+        394,
+        "0.225981154258",
+        62,
+        144,
+        215,
+        "0.0799136069114"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band2_CONTENT_COMPILER_SIGNATURE",
+      "detail": [
+        464,
+        "0.0481427603945",
+        4,
+        50,
+        132,
+        "0.266163793103"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band2_CONTENT_HOST_PLUS_COMPILER",
+      "detail": [
+        464,
+        "0.494345685618",
+        176,
+        334,
+        422,
+        "0.00647948164147"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band2_CONTENT_MARKER_AND_POSITION",
+      "detail": [
+        464,
+        "0.0284671015605",
+        4,
+        24,
+        84,
+        "0.373650107991"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band2_CONTENT_PAGE_HOST_CHAR3",
+      "detail": [
+        464,
+        "0.630336527242",
+        232,
+        407,
+        446,
+        "0.00324212893553"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band2_CONTENT_PAGE_HOST_IDENTITY",
+      "detail": [
+        464,
+        "0.720450976615",
+        277,
+        436,
+        461,
+        "0.0021645021645"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band2_CONTENT_SYNTHETIC_CHAR3",
+      "detail": [
+        464,
+        "0.612136193255",
+        226,
+        396,
+        444,
+        "0.00431034482759"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band2_CONTENT_SYNTHETIC_TOKEN_IDENTITY",
+      "detail": [
+        464,
+        "0.494379812431",
+        176,
+        334,
+        422,
+        "0.00647948164147"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band2_CONTENT_UNBLINDED_EXPANDED_CHAR3_REFERENCE",
+      "detail": [
+        464,
+        "0.594915817547",
+        215,
+        393,
+        440,
+        "0.00431965442765"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band3_ADDRESSEE_COMPILER_SIGNATURE",
+      "detail": [
+        945,
+        "0.0204210569546",
+        8,
+        30,
+        203,
+        "0.315145813735"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band3_ADDRESSEE_HOST_PLUS_COMPILER",
+      "detail": [
+        945,
+        "0.114244348246",
+        71,
+        179,
+        430,
+        "0.129001883239"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band3_ADDRESSEE_MARKER_AND_POSITION",
+      "detail": [
+        945,
+        "0.00942464302897",
+        2,
+        11,
+        130,
+        "0.443085606773"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band3_ADDRESSEE_PAGE_HOST_CHAR3",
+      "detail": [
+        945,
+        "0.130825863778",
+        74,
+        202,
+        456,
+        "0.112052730697"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band3_ADDRESSEE_PAGE_HOST_IDENTITY",
+      "detail": [
+        945,
+        "0.125101856373",
+        72,
+        193,
+        482,
+        "0.0969868173258"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band3_ADDRESSEE_SYNTHETIC_CHAR3",
+      "detail": [
+        945,
+        "0.129907561377",
+        77,
+        197,
+        452,
+        "0.116760828625"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band3_ADDRESSEE_SYNTHETIC_TOKEN_IDENTITY",
+      "detail": [
+        945,
+        "0.114175831456",
+        71,
+        179,
+        430,
+        "0.129245283019"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band3_ADDRESSEE_UNBLINDED_EXPANDED_CHAR3_REFERENCE",
+      "detail": [
+        945,
+        "0.141767147277",
+        81,
+        227,
+        496,
+        "0.0875706214689"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band3_CONTENT_COMPILER_SIGNATURE",
+      "detail": [
+        1062,
+        "0.0364741940501",
+        18,
+        67,
+        313,
+        "0.267419962335"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band3_CONTENT_HOST_PLUS_COMPILER",
+      "detail": [
+        1062,
+        "0.44398678815",
+        358,
+        702,
+        964,
+        "0.00376647834275"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band3_CONTENT_MARKER_AND_POSITION",
+      "detail": [
+        1062,
+        "0.0190356271876",
+        5,
+        40,
+        231,
+        "0.340866290019"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band3_CONTENT_PAGE_HOST_CHAR3",
+      "detail": [
+        1062,
+        "0.572746359434",
+        473,
+        874,
+        1036,
+        "0.00188323917137"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band3_CONTENT_PAGE_HOST_IDENTITY",
+      "detail": [
+        1062,
+        "0.667648942716",
+        564,
+        977,
+        1057,
+        "0.000942507068803"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band3_CONTENT_SYNTHETIC_CHAR3",
+      "detail": [
+        1062,
+        "0.55413135155",
+        458,
+        851,
+        1028,
+        "0.00188501413761"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band3_CONTENT_SYNTHETIC_TOKEN_IDENTITY",
+      "detail": [
+        1062,
+        "0.444403119666",
+        359,
+        702,
+        964,
+        "0.00376647834275"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band3_CONTENT_UNBLINDED_EXPANDED_CHAR3_REFERENCE",
+      "detail": [
+        1062,
+        "0.554174013289",
+        454,
+        863,
+        1032,
+        "0.00188323917137"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band4_ADDRESSEE_COMPILER_SIGNATURE",
+      "detail": [
+        466,
+        "0.0448487658756",
+        7,
+        37,
+        129,
+        "0.246605248795"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band4_ADDRESSEE_HOST_PLUS_COMPILER",
+      "detail": [
+        466,
+        "0.22183667286",
+        64,
+        180,
+        299,
+        "0.0415537827798"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band4_ADDRESSEE_MARKER_AND_POSITION",
+      "detail": [
+        466,
+        "0.0276792442298",
+        4,
+        22,
+        84,
+        "0.353525741642"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band4_ADDRESSEE_PAGE_HOST_CHAR3",
+      "detail": [
+        466,
+        "0.242354601633",
+        69,
+        198,
+        303,
+        "0.0379404103642"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band4_ADDRESSEE_PAGE_HOST_IDENTITY",
+      "detail": [
+        466,
+        "0.229804292008",
+        64,
+        187,
+        300,
+        "0.0406137184116"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band4_ADDRESSEE_SYNTHETIC_CHAR3",
+      "detail": [
+        466,
+        "0.241357541299",
+        68,
+        192,
+        300,
+        "0.0361663652803"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band4_ADDRESSEE_SYNTHETIC_TOKEN_IDENTITY",
+      "detail": [
+        466,
+        "0.221823373415",
+        64,
+        180,
+        298,
+        "0.0415537827798"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band4_ADDRESSEE_UNBLINDED_EXPANDED_CHAR3_REFERENCE",
+      "detail": [
+        466,
+        "0.249888877824",
+        74,
+        193,
+        304,
+        "0.0351985559567"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band4_CONTENT_COMPILER_SIGNATURE",
+      "detail": [
+        555,
+        "0.0600800445152",
+        13,
+        63,
+        192,
+        "0.20652173913"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band4_CONTENT_HOST_PLUS_COMPILER",
+      "detail": [
+        555,
+        "0.554802474292",
+        239,
+        443,
+        536,
+        "0.00361010830325"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band4_CONTENT_MARKER_AND_POSITION",
+      "detail": [
+        555,
+        "0.0384462970062",
+        7,
+        38,
+        151,
+        "0.29963898917"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band4_CONTENT_PAGE_HOST_CHAR3",
+      "detail": [
+        555,
+        "0.700424193988",
+        319,
+        503,
+        548,
+        "0.00180831826401"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band4_CONTENT_PAGE_HOST_IDENTITY",
+      "detail": [
+        555,
+        "0.804861811492",
+        387,
+        542,
+        555,
+        "0.00180831826401"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band4_CONTENT_SYNTHETIC_CHAR3",
+      "detail": [
+        555,
+        "0.675386909692",
+        304,
+        502,
+        547,
+        "0.0018115942029"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band4_CONTENT_SYNTHETIC_TOKEN_IDENTITY",
+      "detail": [
+        555,
+        "0.555688166291",
+        240,
+        443,
+        536,
+        "0.00361010830325"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band4_CONTENT_UNBLINDED_EXPANDED_CHAR3_REFERENCE",
+      "detail": [
+        555,
+        "0.681455374636",
+        313,
+        493,
+        546,
+        "0.0018115942029"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band5_ADDRESSEE_COMPILER_SIGNATURE",
+      "detail": [
+        977,
+        "0.0136474609881",
+        2,
+        27,
+        186,
+        "0.327205882353"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band5_ADDRESSEE_HOST_PLUS_COMPILER",
+      "detail": [
+        977,
+        "0.150681201637",
+        91,
+        253,
+        598,
+        "0.054128440367"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band5_ADDRESSEE_MARKER_AND_POSITION",
+      "detail": [
+        977,
+        "0.0077730055936",
+        2,
+        6,
+        114,
+        "0.406795224977"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band5_ADDRESSEE_PAGE_HOST_CHAR3",
+      "detail": [
+        977,
+        "0.182661001598",
+        113,
+        297,
+        622,
+        "0.0468319559229"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band5_ADDRESSEE_PAGE_HOST_IDENTITY",
+      "detail": [
+        977,
+        "0.172933448025",
+        103,
+        277,
+        622,
+        "0.0477941176471"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band5_ADDRESSEE_SYNTHETIC_CHAR3",
+      "detail": [
+        977,
+        "0.175252343311",
+        110,
+        285,
+        608,
+        "0.0514233241506"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band5_ADDRESSEE_SYNTHETIC_TOKEN_IDENTITY",
+      "detail": [
+        977,
+        "0.150710753916",
+        91,
+        253,
+        598,
+        "0.054128440367"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band5_ADDRESSEE_UNBLINDED_EXPANDED_CHAR3_REFERENCE",
+      "detail": [
+        977,
+        "0.197268456082",
+        129,
+        307,
+        659,
+        "0.0376838235294"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band5_CONTENT_COMPILER_SIGNATURE",
+      "detail": [
+        1091,
+        "0.0295738006662",
+        9,
+        65,
+        359,
+        "0.214154411765"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band5_CONTENT_HOST_PLUS_COMPILER",
+      "detail": [
+        1091,
+        "0.483580413553",
+        385,
+        800,
+        1052,
+        "0.00275482093664"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band5_CONTENT_MARKER_AND_POSITION",
+      "detail": [
+        1091,
+        "0.0208710470905",
+        8,
+        39,
+        224,
+        "0.337006427916"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band5_CONTENT_PAGE_HOST_CHAR3",
+      "detail": [
+        1091,
+        "0.620937823402",
+        531,
+        957,
+        1083,
+        "0.00183654729109"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band5_CONTENT_PAGE_HOST_IDENTITY",
+      "detail": [
+        1091,
+        "0.742838673841",
+        680,
+        1044,
+        1091,
+        "0.000919117647059"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band5_CONTENT_SYNTHETIC_CHAR3",
+      "detail": [
+        1091,
+        "0.602401875955",
+        512,
+        931,
+        1080,
+        "0.00183654729109"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band5_CONTENT_SYNTHETIC_TOKEN_IDENTITY",
+      "detail": [
+        1091,
+        "0.48404069864",
+        386,
+        800,
+        1052,
+        "0.00275482093664"
+      ],
+      "ok": true
+    },
+    {
+      "check": "summary_Band5_CONTENT_UNBLINDED_EXPANDED_CHAR3_REFERENCE",
+      "detail": [
+        1091,
+        "0.611120435813",
+        526,
+        931,
+        1080,
+        "0.00183654729109"
+      ],
+      "ok": true
+    },
+    {
+      "check": "result_synthetic_char3",
+      "detail": {
+        "book": "ALL",
+        "mean_reciprocal_rank": "0.600434700682",
+        "median_normalized_rank": "0.00215517241379",
+        "queries": 3172,
+        "representation": "SYNTHETIC_CHAR3",
+        "top1": 1500,
+        "top10": 2680,
+        "top10_rate": "0.844892812106",
+        "top1_rate": "0.47288776797",
+        "top_decile": 3099,
+        "top_decile_rate": "0.976986128625",
+        "truth_dimension": "CONTENT"
+      },
+      "ok": true
+    },
+    {
+      "check": "result_page_host_char3",
+      "detail": {
+        "book": "ALL",
+        "mean_reciprocal_rank": "0.62008555339",
+        "median_normalized_rank": "0.00188501413761",
+        "queries": 3172,
+        "representation": "PAGE_HOST_CHAR3",
+        "top1": 1555,
+        "top10": 2741,
+        "top10_rate": "0.864123581337",
+        "top1_rate": "0.490226986129",
+        "top_decile": 3113,
+        "top_decile_rate": "0.981399747793",
+        "truth_dimension": "CONTENT"
+      },
+      "ok": true
+    },
+    {
+      "check": "result_compiler",
+      "detail": {
+        "book": "ALL",
+        "mean_reciprocal_rank": "0.0399379811277",
+        "median_normalized_rank": "0.240698259331",
+        "queries": 3172,
+        "representation": "COMPILER_SIGNATURE",
+        "top1": 44,
+        "top10": 245,
+        "top10_rate": "0.0772383354351",
+        "top1_rate": "0.0138713745271",
+        "top_decile": 996,
+        "top_decile_rate": "0.313997477932",
+        "truth_dimension": "CONTENT"
+      },
+      "ok": true
+    },
+    {
+      "check": "result_expanded_reference",
+      "detail": {
+        "book": "ALL",
+        "mean_reciprocal_rank": "0.601990501213",
+        "median_normalized_rank": "0.00215517241379",
+        "queries": 3172,
+        "representation": "UNBLINDED_EXPANDED_CHAR3_REFERENCE",
+        "top1": 1508,
+        "top10": 2680,
+        "top10_rate": "0.844892812106",
+        "top1_rate": "0.475409836066",
+        "top_decile": 3098,
+        "top_decile_rate": "0.976670870113",
+        "truth_dimension": "CONTENT"
+      },
+      "ok": true
+    },
+    {
+      "check": "comparison_RAW_OR_COMPLETE_TOKEN",
+      "detail": {
+        "comparison_scope": "SAME_3172_MECHANICAL_TRUTH_QUERIES",
+        "diplomatic_control": "0.592183985109",
+        "endpoint": "KNOWN_CONTENT_RETRIEVAL_MRR",
+        "layer": "RAW_OR_COMPLETE_TOKEN",
+        "synthetic_encoder": "0.600434700682",
+        "synthetic_minus_diplomatic": "0.008250715573"
+      },
+      "ok": true
+    },
+    {
+      "check": "comparison_PAGE_HOST",
+      "detail": {
+        "comparison_scope": "SAME_3172_MECHANICAL_TRUTH_QUERIES",
+        "diplomatic_control": "0.570389042522",
+        "endpoint": "KNOWN_CONTENT_RETRIEVAL_MRR",
+        "layer": "PAGE_HOST",
+        "synthetic_encoder": "0.62008555339",
+        "synthetic_minus_diplomatic": "0.049696510868"
+      },
+      "ok": true
+    },
+    {
+      "check": "comparison_COMPILER",
+      "detail": {
+        "comparison_scope": "SAME_3172_MECHANICAL_TRUTH_QUERIES",
+        "diplomatic_control": "0.194183567358",
+        "endpoint": "KNOWN_CONTENT_RETRIEVAL_MRR",
+        "layer": "COMPILER",
+        "synthetic_encoder": "0.0399379811277",
+        "synthetic_minus_diplomatic": "-0.15424558623"
+      },
+      "ok": true
+    },
+    {
+      "check": "external_only",
+      "detail": [
+        "NUREMBERG",
+        "STE1"
+      ],
+      "ok": true
+    },
+    {
+      "check": "no_f84_data",
+      "detail": 485723,
+      "ok": true
+    },
+    {
+      "check": "f84_flags",
+      "detail": {
+        "accessed": false,
+        "voynich_inputs": 0
+      },
+      "ok": true
+    },
+    {
+      "check": "claim",
+      "detail": "Constructive external positive control only; no Voynich word, morpheme, sound, part of speech, language, plaintext, meaning, or translation.",
+      "ok": true
+    }
+  ],
+  "f84": {
+    "accessed": false,
+    "voynich_inputs": 0
+  },
+  "result_content_sha256": "79f82617a76ebc4a4263563a273427c721a19040f22118b3abc8b98fa5a6a1a6",
+  "result_sha256": "f50c17994422945c362bc3a253c03999e0fb54ca8258613dc70137ba3fd940ce",
+  "schema": "GDT156_VALIDATION_V1",
+  "status": "PASS_134_CHECK_INDEPENDENT_ARITHMETIC_AND_INTEGRITY",
+  "validation_content_sha256": "de06e23c8868dc8525481aeadd1ef11e1ea7a33abe0c239fb3729a74eb5731b4",
+  "validator_sha256": "c705b7149ccfc2e79f9efd769fb3c13ab19de4dc22d6000735fae24913472169"
+}
