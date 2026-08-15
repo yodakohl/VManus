@@ -1,0 +1,87 @@
+{
+  "claim_ceiling": "Mechanism audit only; no PAGE_HOST meaning, plant part, identity, semantic role, gloss, word, morpheme, POS, sound, language, plaintext, meaning, or translation.",
+  "documents": {
+    "GDT145_MHI004_RETRIEVAL_MECHANISM_METHOD.md": "41a1d0d6d4392a1f455538605caa7c87c822e69b9ea5609410c205c989fc4081",
+    "GDT145_MHI004_RETRIEVAL_MECHANISM_REPORT.md": "2b991e4e7ecb176a7d29452cc3614b6d426bbd79f7fa674f01ff8935de32cb33"
+  },
+  "eligible_pages": 93,
+  "f84": {
+    "all_actual_inputs_have_zero_f84r_rows": true,
+    "new_f84r_access": false,
+    "source_or_image_opened": false
+  },
+  "gates": {
+    "idf_rank_outside_top_decile": true,
+    "length_two_pair_capacity_absent": true,
+    "shared_host_page_prevalence_gt_0_8": true
+  },
+  "host_document_frequencies": {
+    "d": 48,
+    "l": 84
+  },
+  "implementation": {
+    "run_gdt145_mhi004_retrieval_mechanism.py": "ba2bd84f14e7c9ab0e9c010825dd33a4aa414a5d05c8b60b5a96add0bf84218f"
+  },
+  "inputs": {
+    "gdt112_o_ot_units.tsv": "c10c4608222dfd52b27c6eb07d07e9e70739c70b81119a9537ddba1cac150b60",
+    "gdt137_herbal_visual_feature_inventory.tsv": "1518a6ae3b0f7ef54379f305f5aa16d9afa0ebeaf9592a2264c5344335917138",
+    "gdt140_herbal_relation_inventory.tsv": "38584b43f02fb4affcbc6679acb4225be22637f83c641cc981967ec20abcb2a0",
+    "gdt144_result.json": "833aaa44b1b2d78201b4e5e94f6f077662fa301619d1e171d2f28785d7a7103c"
+  },
+  "interpretation": "The partial O/OT MHI004 rank is explained by one ubiquitous singleton PAGE_HOST and tiny target set size.",
+  "outputs": {
+    "gdt145_counterexamples.tsv": "900a44bd08ae7e67aec5d7a00b2743f98e4c3e5c67512f7412baccc831a60b72",
+    "gdt145_sensitivities.tsv": "62bfed7a6196b167d24245e4dd29d0ef5ae91de542df3d1e5838e02e41fc6958"
+  },
+  "relation_id": "MHI004",
+  "result_content_sha256": "295a1a5ee9ea8744ff08afe7b7b27c88f97ba255c0c2dd00b5592ce5dbcf78df",
+  "schema": "GDT145_MHI004_RETRIEVAL_MECHANISM_RESULT_V1",
+  "sensitivities": [
+    {
+      "candidate_pages": 91,
+      "capacity": "PASS",
+      "inclusive_tail": 0.25274725274725274,
+      "rank": 13,
+      "score": 0.5,
+      "source_hosts": "d|l",
+      "target_hosts": "l",
+      "variant": "UNWEIGHTED_EXACT_HOST_SET"
+    },
+    {
+      "candidate_pages": 91,
+      "capacity": "PASS",
+      "inclusive_tail": 0.32967032967032966,
+      "rank": 29,
+      "score": 0.13359146596368968,
+      "source_hosts": "d|l",
+      "target_hosts": "l",
+      "variant": "IDF_WEIGHTED_EXACT_HOST_SET"
+    },
+    {
+      "candidate_pages": 5,
+      "capacity": "PASS",
+      "inclusive_tail": 0.4,
+      "rank": 1,
+      "score": 0.13359146596368968,
+      "source_hosts": "d|l",
+      "target_hosts": "l",
+      "variant": "IDF_WEIGHTED_TARGET_SET_SIZE_MATCHED"
+    },
+    {
+      "candidate_pages": 91,
+      "capacity": "NO_PAIR_FEATURE_CAPACITY",
+      "inclusive_tail": "NA",
+      "rank": "NA",
+      "score": "NA",
+      "source_hosts": "",
+      "target_hosts": "",
+      "variant": "MIN_HOST_LENGTH_2"
+    }
+  ],
+  "shared_hosts": [
+    "l"
+  ],
+  "source_page": "f6r",
+  "status": "MHI004_O_OT_LEAD_EXPLAINED_BY_UBIQUITOUS_SINGLETON_HOST",
+  "target_page": "f51r"
+}
