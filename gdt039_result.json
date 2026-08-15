@@ -1,0 +1,106 @@
+{
+  "claim_ceiling": "Formal terminal-M positional attribution only; no concrete function, word, morpheme, POS, referent, sound, language, plaintext, meaning, or translation.",
+  "discovery_folios": [
+    "f106",
+    "f112",
+    "f39",
+    "f46",
+    "f95"
+  ],
+  "documents": {
+    "GDT039_TERMINAL_M_POSITIONAL_CONTROL_METHOD.md": "1add2da58e845361756d8db45bf336c63e0005134ad54daf49b08decbc6ce4a6",
+    "GDT039_TERMINAL_M_POSITIONAL_CONTROL_REPORT.md": "09c96c35ea93fd55a17ea74489905bfa150ff9a3674394f708397cdaa79b5d8b"
+  },
+  "f84r": {
+    "joined": false,
+    "opened": false,
+    "queried": false,
+    "retained": false,
+    "scored": false
+  },
+  "held_complete_lines": 284,
+  "held_groups": 2561,
+  "held_physical_folios": 22,
+  "implementation": {
+    "run_gdt039_terminal_m_positional_control.py": "7b853bdc330bea39ebca3d0e06aa9d42255e0afa701651cda7e3119933d2a044"
+  },
+  "inputs": {
+    "gdt016_group_state_inventory.tsv": "e109ce15864ed6b6f76d446b3c96d6190a0dc53d20d8ab0944554124e687234c",
+    "gdt016_result.json": "aaa96a3be942bc1eab6587d5362922f3f16ec2beea7f520d47e190c32df80c2c",
+    "gdt038_result.json": "168671a9a419d7e6c12c1d75ad32e08ed57d6ec09453f81f029bf05c3895939f"
+  },
+  "outputs": {
+    "gdt039_family_tests.tsv": "95fc57e829b34b52967ff2695f8b7bcadcb53c98bb0c20d26bfab40cd2442b41",
+    "gdt039_specificity_tests.tsv": "60063d0974927c8fafe47a0b82b658d197128ea7a2fa9eee8d1bc8428e1d2a77",
+    "gdt039_terminal_m_occurrences.tsv": "0c2c8d60dc8bb583ed970e47510316abab38e2a1dd9c4c0ece9b98c368ba3107"
+  },
+  "result_content_sha256": "ace79e3fb9e876f7677cd53458913724a9dcdee80dee7ea46ec5cdce8e38db2e",
+  "schema": "GDT039_TERMINAL_M_POSITIONAL_CONTROL_RESULT_V1",
+  "status": "DAM_FIELD_ROLE_ATTRIBUTED_TO_TERMINAL_M_POSITIONAL_SYSTEM",
+  "terminal_am_within_m_physical_end": {
+    "bonferroni_9_p": 1.0,
+    "contrast": "TERMINAL_AM_WITHIN_TERMINAL_M",
+    "family_n": 70,
+    "hb_hits": 14,
+    "hb_n": 23,
+    "informative_lines": 5,
+    "local_p": 1.0,
+    "lofo_min_effect": -0.008928571428571428,
+    "lofo_min_rate": 0.6785714285714286,
+    "null_expected_hits": 49.5,
+    "null_expected_rate": 0.7071428571428572,
+    "null_support_max": 50,
+    "null_support_min": 49,
+    "observed": 49,
+    "observed_rate": 0.7,
+    "outcome": "physical_line_end",
+    "rate_effect": -0.007142857142857143,
+    "sb_hits": 35,
+    "sb_n": 47,
+    "target_folios": 20
+  },
+  "terminal_dam_within_am_physical_end": {
+    "bonferroni_9_p": 1.0,
+    "contrast": "TERMINAL_DAM_WITHIN_TERMINAL_AM",
+    "family_n": 9,
+    "hb_hits": 3,
+    "hb_n": 4,
+    "informative_lines": 1,
+    "local_p": 1.0,
+    "lofo_min_effect": -0.08333333333333333,
+    "lofo_min_rate": 0.6666666666666666,
+    "null_expected_hits": 7.5,
+    "null_expected_rate": 0.8333333333333334,
+    "null_support_max": 8,
+    "null_support_min": 7,
+    "observed": 7,
+    "observed_rate": 0.7777777777777778,
+    "outcome": "physical_line_end",
+    "rate_effect": -0.05555555555555555,
+    "sb_hits": 4,
+    "sb_n": 5,
+    "target_folios": 6
+  },
+  "terminal_m_physical_end": {
+    "bonferroni_18_p": 6.849348749790156e-43,
+    "family": "TERMINAL_M",
+    "family_n": 81,
+    "hb_hits": 14,
+    "hb_n": 23,
+    "informative_lines": 72,
+    "local_p": 3.80519374988342e-44,
+    "lofo_min_effect": 0.6015821955821956,
+    "lofo_min_rate": 0.7066666666666667,
+    "null_expected_hits": 8.4560828060828,
+    "null_expected_rate": 0.10439608402571358,
+    "null_support_max": 72,
+    "null_support_min": 0,
+    "observed": 59,
+    "observed_rate": 0.7283950617283951,
+    "outcome": "physical_line_end",
+    "rate_effect": 0.6239989777026814,
+    "sb_hits": 45,
+    "sb_n": 58,
+    "target_folios": 20
+  }
+}
