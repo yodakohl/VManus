@@ -1,0 +1,86 @@
+{
+  "baseline_bits": 2496.4625814618475,
+  "best_model": {
+    "backoff": 64,
+    "baseline_bits": 2496.4625814618475,
+    "context": "POSITION",
+    "groups": 1212,
+    "held_bits": 2489.7488388367033,
+    "raw_gain_bits": 6.7137426251442776,
+    "selector_bits": 4.643856189774724,
+    "selector_configurations": 25,
+    "selector_paid_gain_bits": 2.069886435369553
+  },
+  "claim_ceiling": "No semantic class, role, gloss, word, morpheme, POS, sound, language, plaintext, meaning, or translation.",
+  "contexts": [
+    "POSITION",
+    "POSITION_ONLY",
+    "WRAPPER",
+    "LEFT",
+    "FULL"
+  ],
+  "documents": {
+    "GDT079_RIGHT_FAMILY_HELD_HOST_FUNCTION_METHOD.md": "9986d583ba68d0a5d74fba5d921c913124d4b82aa4e88b58939e8e36df9ced0d",
+    "GDT079_RIGHT_FAMILY_HELD_HOST_FUNCTION_REPORT.md": "3bbd96b08113283b5335d4264a68eaca4162de414b833dd40b13d2de8177b0f4"
+  },
+  "f84r": {
+    "joined": false,
+    "opened": false,
+    "queried": false,
+    "retained": false,
+    "scored": false,
+    "targeted": false
+  },
+  "grid": [
+    1,
+    4,
+    16,
+    64,
+    256
+  ],
+  "groups": 1212,
+  "hosts": [
+    "d",
+    "ok",
+    "yk",
+    "yt"
+  ],
+  "implementation": {
+    "run_gdt079_right_family_held_host_function.py": "68097cdba72875f120442437665e0bab991ec11cced8db38a83457b6be81dabc"
+  },
+  "inputs": {
+    "gdt062_right_family_inventory.tsv": "b0292332157524a7f5e0745bde74c38432c52e3f2dd7ae816677f0ea743ca1cc",
+    "gdt076_result.json": "b6b530a084aa338532319e7e927a95e0fed2efd7cec54c80b2c9039d9ecd0974",
+    "gdt077_result.json": "930cc4f8216f5c679e9f8176a38d4581c4628cf2d1276c1d5d2b9a2afd07b2f1",
+    "gdt078_result.json": "8ddc43f385d847aa0bcd69b04f15e36b40216d72aff946b52ddac4dfc34e0acc"
+  },
+  "interpretation": "Weak PAGE_HOST-transferable line-position bias in RIGHT_FAMILY choice; DY/B3 add little and most choice remains host/register-specific.",
+  "outputs": {
+    "gdt079_context_model_scores.tsv": "1275cb69120a9512505b27c83c040e7fc3e5c3acddd0d2407ac2ae40bfd7975d",
+    "gdt079_held_host_folds.tsv": "7a0d0553e03ff50d196c12eea8f691222034337e867099b63a5c597a4841d194",
+    "gdt079_right_family_profiles.tsv": "88bb8f25d722902c21ed96695abcef52fbd1c1957d622a9c1fb63a86d1e029fc",
+    "gdt079_variant_log.tsv": "eb791b5acf06465f4c424438618add81d4a35bece6216d2af2e6ba119b8b2213"
+  },
+  "position_only_best": {
+    "backoff": 64,
+    "baseline_bits": 2496.4625814618475,
+    "context": "POSITION_ONLY",
+    "groups": 1212,
+    "held_bits": 2490.3537458287105,
+    "raw_gain_bits": 6.108835633137005,
+    "selector_bits": 4.643856189774724,
+    "selector_configurations": 25,
+    "selector_paid_gain_bits": 1.4649794433622807
+  },
+  "positive_held_hosts": 3,
+  "result_content_sha256": "f18b6bfcc7064dc9b1971aa8bf4c82317e57809ff50d97b173cc681c69570421",
+  "right_families": [
+    "aiin",
+    "air",
+    "ain",
+    "ar",
+    "al"
+  ],
+  "schema": "GDT079_RIGHT_FAMILY_HELD_HOST_FUNCTION_RESULT_V1",
+  "status": "RIGHT_FAMILY_POSITION_PROFILE_WEAKLY_TRANSFERS_ACROSS_HELD_HOSTS"
+}
