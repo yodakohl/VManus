@@ -1,0 +1,93 @@
+{
+  "claim_ceiling": "No semantic class, role, gloss, word, morpheme, POS, sound, language, plaintext, meaning, or translation.",
+  "combined": {
+    "HCLASS_FO_ACTIVE": {
+      "axis_positive": 32,
+      "conditional_effect": 0.26324786324786326,
+      "conditional_z": 2.4750581312792233,
+      "eligible_feature_loci": 13,
+      "feature_loci": 17,
+      "feature_negative": 10,
+      "feature_positive": 7,
+      "informative_strata": 3,
+      "local_two_sided_p": 0.013321449100416407,
+      "loci": 158,
+      "nonfeature_positive": 25,
+      "pooled_risk_difference": 0.23445974134334582,
+      "predicate_id": "HCLASS_FO_ACTIVE"
+    },
+    "HCLASS_RAIIN_HIGH": {
+      "axis_positive": 32,
+      "conditional_effect": 0.37306397306397304,
+      "conditional_z": 2.8224108402008325,
+      "eligible_feature_loci": 11,
+      "feature_loci": 21,
+      "feature_negative": 12,
+      "feature_positive": 9,
+      "informative_strata": 3,
+      "local_two_sided_p": 0.004766407332136205,
+      "loci": 158,
+      "nonfeature_positive": 23,
+      "pooled_risk_difference": 0.26068821689259647,
+      "predicate_id": "HCLASS_RAIIN_HIGH"
+    }
+  },
+  "direction_positive_sections": {
+    "HCLASS_FO_ACTIVE": 1,
+    "HCLASS_RAIIN_HIGH": 2
+  },
+  "documents": {
+    "GDT074_SECTION_EXCLUDED_ENCLOSURE_CLASSES_METHOD.md": "1752022ef311b9ca881829cc1326480a86d2284b53567894bdfe2dbae499dfeb",
+    "GDT074_SECTION_EXCLUDED_ENCLOSURE_CLASSES_REPORT.md": "90f0d3cb70ad7eff50bd160f1d02fe1171604c73348a6c7d4b14108b368e71be"
+  },
+  "downgraded_candidate": "HCLASS_FO_ACTIVE",
+  "f84r": {
+    "joined": false,
+    "opened": false,
+    "queried": false,
+    "retained": false,
+    "scored": false,
+    "targeted": false
+  },
+  "gdt069_overlap_disclosure": "The combined conditional statistic reproduces GDT069 because its informative strata were A/Z; GDT074 newly tests section-excluded formal-rate construction, not fresh outcome labels.",
+  "groups": 15592,
+  "implementation": {
+    "run_gdt074_section_excluded_enclosure_classes.py": "0942deb558bb2d4d5505f25f64324a57846835e0c505bad65c7e15b627c9339e"
+  },
+  "inputs": {
+    "gdt012_annotated_core_inventory.tsv": "137efc96893220f8d55857b5ffc60f54a4eeb87450b42151b8bdc557e7281525",
+    "gdt059_hpr2_external_inventory.tsv": "3a683e6bf169fb79220693c3b75256588f37ec8e52f788af68ad3de3bb2f83ef",
+    "gdt062_right_family_inventory.tsv": "b0292332157524a7f5e0745bde74c38432c52e3f2dd7ae816677f0ea743ca1cc",
+    "gdt069_result.json": "9ba3a0ee3dd4b6df4c7253398d2fce2760d212b3c5e69f9db3600774fa823052",
+    "gdt071_result.json": "3f5dba788fa4a5d87cd8ed3676b4d8db7478934368638816b7357eed9dbcca71",
+    "gdt072_result.json": "799bb83f7ef0440d8449b94cec40d5fa37db7476abf5e6dd98455d220f36afad",
+    "gdt073_result.json": "6469079c4f2d9ee8659c47d2943c245942528cc5aad527a5bd9277c8dadd99b7"
+  },
+  "interpretation": "Section-excluded rate transport of fixed formal predicates only; the prospective GDT072 tests remain unrun.",
+  "leading_candidate": "HCLASS_RAIIN_HIGH",
+  "outputs": {
+    "gdt074_enclosure_class_examples.tsv": "31d8b4325987f939e954f67e6f634da727372dccf88fca111dee894db71222e0",
+    "gdt074_section_excluded_enclosure_tests.tsv": "1419107361295e3763d24c3e27fa48e872459ebc6adb8f7e8e69936fea1cc106",
+    "gdt074_section_excluded_host_rates.tsv": "f246e0ada2c6ad458aa05dd988d39d17be670815d8aece5af4903f4805c96217",
+    "gdt074_variant_log.tsv": "a440e91f648cf6f3d3495b2a77ff8f17b875bd3315421e06e12ccc1a520c77ba"
+  },
+  "predicates": {
+    "HCLASS_FO_ACTIVE": [
+      "F=O",
+      0.1
+    ],
+    "HCLASS_RAIIN_HIGH": [
+      "R=aiin",
+      0.25
+    ]
+  },
+  "result_content_sha256": "e92cf708b3a55ff39c57e76ec6df3e727368671f9355601db58e012e84fd7ae1",
+  "schema": "GDT074_SECTION_EXCLUDED_ENCLOSURE_CLASSES_RESULT_V1",
+  "selection_disclosure": "Both predicates and REL_ENCLOSURE are inherited from postselected GDT069; section exclusion applies to formal-rate construction, not original outcome selection.",
+  "status": "RAIIN_HIGH_ENCLOSURE_LEAD_SURVIVES_SECTION_EXCLUDED_RATE_TRANSPORT",
+  "target_sections": [
+    "A",
+    "Z"
+  ],
+  "test_rows": 4
+}
