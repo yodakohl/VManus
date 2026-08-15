@@ -1,0 +1,60 @@
+{
+  "claim_ceiling": "Directional source-native sensitivity for later-field A1Q2 insertion; no Q2 meaning, word, morpheme, POS, sound, language, plaintext, meaning, or translation.",
+  "documents": {
+    "GDT056_SOURCE_NATIVE_A1Q2_TRANSFER_METHOD.md": "20aaa9053fe0bd7733c34ccade1209c4dc96c622b4462a16f8b0df9c333bd365",
+    "GDT056_SOURCE_NATIVE_A1Q2_TRANSFER_REPORT.md": "ae95854485b9557b81ca34c4b65f8d37560c99ed3a3278ad9acffed3bde04ff5"
+  },
+  "f84r": {
+    "joined": false,
+    "opened": false,
+    "queried": false,
+    "retained": false,
+    "scored": false
+  },
+  "implementation": {
+    "run_gdt056_source_native_a1q2_transfer.py": "db46620091e8de5d77f0ae6611ed66e63af62842aa355ccfe2abbdc94901b3d2"
+  },
+  "inputs": {
+    "experiments/semantic_assumptions/results/source_sta_family_consensus_groups.tsv": "a202d93498e8a350a5d7e0ca46e831dcc37ea5c0182dc404d63cb797a98b1225",
+    "gdt016_group_state_inventory.tsv": "e109ce15864ed6b6f76d446b3c96d6190a0dc53d20d8ab0944554124e687234c",
+    "gdt055_result.json": "9c40c9bf757691502762c5bccbc686cad89e4405c5542989d36a56ead554de99"
+  },
+  "outputs": {
+    "gdt056_source_native_a1q2_pairs.tsv": "352701b74b38d3cb10ac6637711e8468b6e5738b4763205b8b1453b0f2da0674",
+    "gdt056_source_native_a1q2_tests.tsv": "18419bdc78debf18def20f0e55b287279235b3e0002107e5dfdad0487b2067e9"
+  },
+  "paired_rows": 41,
+  "result_content_sha256": "cd8fb2bacabad77e6af58dbe3ccc58cbb21b57ca66b589f096d9e3716d077330",
+  "schema": "GDT056_SOURCE_NATIVE_A1Q2_TRANSFER_RESULT_V1",
+  "stable_source_groups": 7973,
+  "status": "SOURCE_NATIVE_A1Q2_LATER_FIELD_TRANSFER_DIRECTIONAL_LOW_CAPACITY",
+  "tests": [
+    {
+      "a1q2_occurrences": 24,
+      "base_occurrences": 17,
+      "bonferroni_3_p": 0.10499475026248686,
+      "effect_q2_minus_base": 0.21225577264653642,
+      "exact_page_skeleton_strata": 16,
+      "feature": "normalized_field_index",
+      "permutation_p": 0.03499825008749562
+    },
+    {
+      "a1q2_occurrences": 24,
+      "base_occurrences": 17,
+      "bonferroni_3_p": 0.8056097195140244,
+      "effect_q2_minus_base": 0.12265422558495384,
+      "exact_page_skeleton_strata": 16,
+      "feature": "normalized_within_field_position",
+      "permutation_p": 0.26853657317134144
+    },
+    {
+      "a1q2_occurrences": 24,
+      "base_occurrences": 17,
+      "bonferroni_3_p": 0.19469026548672566,
+      "effect_q2_minus_base": 0.2664298401420959,
+      "exact_page_skeleton_strata": 16,
+      "feature": "after_dy",
+      "permutation_p": 0.06489675516224189
+    }
+  ]
+}
