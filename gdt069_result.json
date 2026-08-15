@@ -1,0 +1,98 @@
+{
+  "candidate_predicates": 140,
+  "claim_ceiling": "No semantic class, role, gloss, word, morpheme, POS, sound, language, plaintext, meaning, or translation.",
+  "documents": {
+    "GDT069_PAGE_HOST_BEHAVIOR_CLASS_ATLAS_METHOD.md": "4491d9afd4bb2ff68096a867dd014825304c91d7b0303b773783ab5dc02c3778",
+    "GDT069_PAGE_HOST_BEHAVIOR_CLASS_ATLAS_REPORT.md": "6607b2be7f98bb238a26cdf019df0550e276502c2e7c5f33b094483f143eae14"
+  },
+  "eligible_loci": 332,
+  "eligible_raw_predicates": 154,
+  "f84r": {
+    "joined": false,
+    "opened": false,
+    "queried": false,
+    "retained": false,
+    "scored": false
+  },
+  "groups": 15592,
+  "implementation": {
+    "run_gdt069_page_host_behavior_class_atlas.py": "f9c1e6bb76a9d11efcf252705c103982f0f92979fee86db7752bae2b4915e2c8"
+  },
+  "inputs": {
+    "gdt012_annotated_core_inventory.tsv": "137efc96893220f8d55857b5ffc60f54a4eeb87450b42151b8bdc557e7281525",
+    "gdt059_hpr2_external_inventory.tsv": "3a683e6bf169fb79220693c3b75256588f37ec8e52f788af68ad3de3bb2f83ef",
+    "gdt062_right_family_inventory.tsv": "b0292332157524a7f5e0745bde74c38432c52e3f2dd7ae816677f0ea743ca1cc",
+    "gdt068_result.json": "ec418e059b3a13fe35b674ab9b82521be4b643c510ee658e4cb6f071b3d7fcbd"
+  },
+  "interesting_by_block": {
+    "DY": 4,
+    "F": 1,
+    "R": 2,
+    "W": 2
+  },
+  "interesting_exploratory": 9,
+  "interpretation": "Postselected decomposition of GDT068's fold-safe behavior-profile lead; archived axes remain hypothesis-generation outcomes.",
+  "outputs": {
+    "gdt069_behavior_class_atlas.tsv": "3ae3aa98fa9f80183b28e23559eff67e11014dda6ef0a5e985b29ecbf4ef8fe2",
+    "gdt069_behavior_class_examples.tsv": "8ee0b2e207a925b477178619837e66ac25d841f37381616ea2f38b018fb4a2e1",
+    "gdt069_variant_log.tsv": "d468b82db0ec4edece3090ebc4918468f3e59b893d0360c344ff5d01636df38c"
+  },
+  "physical_folios": 19,
+  "result_content_sha256": "76245bf5e69a0b67471f294462d5d0bf61f6ec8735ae1dfb194045b654dc1206",
+  "schema": "GDT069_PAGE_HOST_BEHAVIOR_CLASS_ATLAS_RESULT_V1",
+  "selection_disclosure": "Identical locus masks collapsed; remaining complete atlas is still postselected and all adjusted p-values include every unique-mask test.",
+  "status": "BEHAVIOR_CLASS_EXTERNAL_ASSOCIATION_LEADS_POSTSELECTED",
+  "tests": 1120,
+  "top_candidate": {
+    "axis_positive_without_feature": 8,
+    "behavior_block": "NDY",
+    "bonferroni_all_p": 1.0,
+    "candidate": "RATE:NDY=0>=0.25",
+    "candidate_aliases": "RATE:NDY=0>=0.25",
+    "conditional_effect": 0.08333333333333327,
+    "conditional_z": 3.316624790355397,
+    "eligible_feature_loci": 11,
+    "external_axis": "REL_PROXIMITY",
+    "feature_loci": 322,
+    "feature_negative": 166,
+    "feature_positive": 156,
+    "informative_strata": 1,
+    "label": "LIKELY_PAGE_CONFOUND",
+    "local_two_sided_p": 0.0009111188771537227,
+    "loci": 332,
+    "lofo_max_effect": 0.08333333333333327,
+    "lofo_min_effect": 0.0,
+    "lofo_sign_stable": 1,
+    "physical_folios": 19,
+    "pooled_risk_difference": -0.315527950310559,
+    "unhedged_conditional_effect": 0.09090909090909083,
+    "unhedged_local_p": 0.0015654022580025694,
+    "unhedged_loci": 190
+  },
+  "top_interesting": {
+    "axis_positive_without_feature": 27,
+    "behavior_block": "R",
+    "bonferroni_all_p": 1.0,
+    "candidate": "RATE:R=aiin>=0.25",
+    "candidate_aliases": "RATE:R=aiin>=0.25",
+    "conditional_effect": 0.37306397306397304,
+    "conditional_z": 2.8224108402008325,
+    "eligible_feature_loci": 11,
+    "external_axis": "REL_ENCLOSURE",
+    "feature_loci": 41,
+    "feature_negative": 31,
+    "feature_positive": 10,
+    "informative_strata": 3,
+    "label": "INTERESTING_EXPLORATORY",
+    "local_two_sided_p": 0.004766407332136205,
+    "loci": 332,
+    "lofo_max_effect": 0.5666666666666667,
+    "lofo_min_effect": 0.2433862433862434,
+    "lofo_sign_stable": 1,
+    "physical_folios": 15,
+    "pooled_risk_difference": 0.15111893386975106,
+    "unhedged_conditional_effect": 0.6666666666666667,
+    "unhedged_local_p": 0.04017387028851207,
+    "unhedged_loci": 190
+  }
+}
