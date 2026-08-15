@@ -1,0 +1,79 @@
+{
+  "cells": 291,
+  "claim_ceiling": "No role, gloss, word, morpheme, POS, sound, language, plaintext, meaning, or translation.",
+  "different_minus_control": 0.005498614040346961,
+  "different_minus_same": -0.006747223463248159,
+  "documents": {
+    "GDT066_RIGHT_FAMILY_CONTEXT_INVARIANCE_METHOD.md": "8eb6e0f59692abcd78c39075e73efbab3eb91229efeb8048df0fac294687651c",
+    "GDT066_RIGHT_FAMILY_CONTEXT_INVARIANCE_REPORT.md": "5389fe51fc33f926894fa2652543180652de74f4d45ce526b660fdd4af6756e4"
+  },
+  "f84r": {
+    "joined": false,
+    "opened": false,
+    "queried": false,
+    "retained": false,
+    "scored": false
+  },
+  "groups": 15592,
+  "implementation": {
+    "run_gdt066_right_family_context_invariance.py": "ce92db1162ab5fbf83409499244824a38b1900ed88062aad24208a38ae49041a"
+  },
+  "inputs": {
+    "gdt059_result.json": "2908b4e9415131d59eeb20618b3330455362fdfb9aada53e68e8e48707cb6efd",
+    "gdt062_result.json": "52828ee0e450cbfb72b7037164610da0c882469ff2ba42b118991f3967dd436a",
+    "gdt062_right_family_inventory.tsv": "b0292332157524a7f5e0745bde74c38432c52e3f2dd7ae816677f0ea743ca1cc",
+    "gdt063_result.json": "ceddb54200a90bd99348a182e54b358b886f24302fb7cb8c65f1fe9e0fb2291a"
+  },
+  "interpretation": "Tests internal exact-host context stability across RIGHT_FAMILY renderings; external content neutrality remains unconfirmed.",
+  "mean_different_right_similarity": 0.22380524985083194,
+  "mean_matched_control_similarity": 0.21830663581048498,
+  "mean_same_right_similarity": 0.2305524733140801,
+  "outputs": {
+    "gdt066_right_family_context_cells.tsv": "0a1a8e75c922321f4e2da20b3200a39ced5b20ff8a44c4c5a9a68aa51d270341",
+    "gdt066_right_family_context_pairs.tsv": "d9677e8ae16707184ebc1ae2ebd9427242de7b65a9cfc2b1cc939281dd64660f",
+    "gdt066_variant_log.tsv": "d8923f63b1dcbc990cfd9ec172d21537205758ff7036aaf58d242b43ace0a5b3"
+  },
+  "positive_cells": 181,
+  "postselected_lead_cells": {
+    "d": 20,
+    "ok": 14
+  },
+  "postselected_lead_positive": {
+    "d": 14,
+    "ok": 13
+  },
+  "register_diagnostics": {
+    "HERBAL_A": {
+      "cells": 57,
+      "mean_gain": -0.00035771587051239517,
+      "positive": 34
+    },
+    "HERBAL_B": {
+      "cells": 32,
+      "mean_gain": 0.005316780321167853,
+      "positive": 20
+    },
+    "OTHER_A": {
+      "cells": 22,
+      "mean_gain": 0.009407451502359717,
+      "positive": 18
+    },
+    "OTHER_B": {
+      "cells": 56,
+      "mean_gain": 0.012981232302717544,
+      "positive": 35
+    },
+    "STARS_RECIPE_B": {
+      "cells": 124,
+      "mean_gain": 0.004164811113537947,
+      "positive": 74
+    }
+  },
+  "result_content_sha256": "0b14b552a356108e9d4c9abd5f5759ffaa0b44aeea711420c6846150fe86e9ac",
+  "same_right_cells": 216,
+  "schema": "GDT066_RIGHT_FAMILY_CONTEXT_INVARIANCE_RESULT_V1",
+  "sign_test_p": 3.748068918910724e-05,
+  "status": "RIGHT_FAMILY_INTERNAL_CONTEXT_INVARIANCE_SUPPORTED",
+  "supported_pairs": 30627,
+  "units": 11470
+}
