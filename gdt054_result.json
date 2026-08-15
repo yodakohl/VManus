@@ -1,0 +1,97 @@
+{
+  "claim_ceiling": "O-early/OT-late positional renderer transfer only; no bounded/interior, reference, word, morpheme, POS, sound, language, plaintext, meaning, or translation.",
+  "discovery_hosts_excluded": [
+    "al",
+    "ar",
+    "ol"
+  ],
+  "documents": {
+    "GDT054_O_OT_UNSEEN_HOST_POSITION_METHOD.md": "ec69861e8e94c289c072ff3985e7df8d9b807744c9f0b2183248774dd2a8a6ac",
+    "GDT054_O_OT_UNSEEN_HOST_POSITION_REPORT.md": "ee4a7b378cf4bb7987e60932e465a945667e3f63e7e2fd9bf94f5cfd7231d050"
+  },
+  "eligible_ladders": 49,
+  "f84r": {
+    "joined": false,
+    "opened": false,
+    "queried": false,
+    "retained": false,
+    "scored": false
+  },
+  "hpr2_prediction": "HPR2_P03",
+  "implementation": {
+    "run_gdt054_o_ot_unseen_host_position.py": "2c8758a2aff90e0e44d4fedbd3850d1c86198aa2199948936808b0b6df6b86ea"
+  },
+  "inputs": {
+    "gdt014_result.json": "d1dbfc63de9b521a410881593a5d225d4be2d2a8be45f6dde5d7bc7326c978f7",
+    "gdt016_group_state_inventory.tsv": "e109ce15864ed6b6f76d446b3c96d6190a0dc53d20d8ab0944554124e687234c",
+    "gdt051_result.json": "2b3ddb04d3a176fb88fcdacc0998b33b968b42493242c19c756451cd5ca853e9"
+  },
+  "outputs": {
+    "gdt054_position_tests.tsv": "b26f13031e5355087c3bd6c1a5ca0cbef4036b8ec523824f5aa4af3130c4ac6a",
+    "gdt054_unseen_host_profiles.tsv": "3fb00405eff988da657e5712ca2928e85eadeaa935045d8d8fcc9aed7c356299"
+  },
+  "prediction_outcome": "SUPPORTED_FORMAL_POSITIONAL_TRANSFER",
+  "result_content_sha256": "2baf45f7ad20ec3edf72033a74891fc3901cdc564dd93b57305296a0d09b10e9",
+  "schema": "GDT054_O_OT_UNSEEN_HOST_POSITION_RESULT_V1",
+  "status": "O_EARLY_OT_LATE_POSITIONAL_RENDERER_TRANSFERS_TO_UNSEEN_HOSTS",
+  "strict_groups": 15592,
+  "tests": [
+    {
+      "a_groups": 1160,
+      "b_groups": 641,
+      "bonferroni_3_p": 0.00014999250037498125,
+      "contrast": "BASE_TO_OT",
+      "form_a": "H",
+      "form_b": "otH",
+      "ha_effect": -0.03969457185206671,
+      "hb_effect": 0.17099937331476758,
+      "held_hosts": 27,
+      "loho_max_effect": 0.12298182546820113,
+      "loho_min_effect": 0.08807376722191003,
+      "oa_effect": 0.011812348408093061,
+      "ob_effect": 0.08847922909098235,
+      "permutation_p": 4.999750012499375e-05,
+      "position_effect_b_minus_a": 0.10916464598275943,
+      "sb_effect": 0.19104916124130367,
+      "shared_page_host_strata": 329
+    },
+    {
+      "a_groups": 297,
+      "b_groups": 375,
+      "bonferroni_3_p": 0.00014999250037498125,
+      "contrast": "BASE_TO_O",
+      "form_a": "H",
+      "form_b": "oH",
+      "ha_effect": -0.17973078712515336,
+      "hb_effect": -0.4389682539682539,
+      "held_hosts": 24,
+      "loho_max_effect": -0.14028033020110847,
+      "loho_min_effect": -0.17619643935146007,
+      "oa_effect": -0.034524614171454346,
+      "ob_effect": -0.20451576948763678,
+      "permutation_p": 4.999750012499375e-05,
+      "position_effect_b_minus_a": -0.16550865177999777,
+      "sb_effect": -0.12981445512272216,
+      "shared_page_host_strata": 106
+    },
+    {
+      "a_groups": 69,
+      "b_groups": 141,
+      "bonferroni_3_p": 0.00014999250037498125,
+      "contrast": "O_TO_OT",
+      "form_a": "oH",
+      "form_b": "otH",
+      "ha_effect": 0.1265063168124393,
+      "hb_effect": 0.0,
+      "held_hosts": 16,
+      "loho_max_effect": 0.25596844010334424,
+      "loho_min_effect": 0.1641604756482162,
+      "oa_effect": -0.18888888888888888,
+      "ob_effect": 0.05699289413167398,
+      "permutation_p": 4.999750012499375e-05,
+      "position_effect_b_minus_a": 0.22319627835788347,
+      "sb_effect": 0.3274874769054195,
+      "shared_page_host_strata": 54
+    }
+  ]
+}
