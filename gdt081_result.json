@@ -1,0 +1,57 @@
+{
+  "claim_ceiling": "No content, semantic class, role, gloss, word, morpheme, POS, sound, language, plaintext, meaning, or translation.",
+  "documents": {
+    "GDT081_HPR4_CONTEXT_CLASS_DECOMPOSITION_METHOD.md": "79ac26fbd851c9abe47f038b6a742654a6f99a7736ee4a0a286bf29f61e98d35",
+    "GDT081_HPR4_CONTEXT_CLASS_DECOMPOSITION_REPORT.md": "0795d8f95b009dc28c7f67733e4a1d8f6af9a9773da09ac90fc4ff639dc19600"
+  },
+  "eligible_hosts": 32,
+  "f84r": {
+    "joined": false,
+    "opened": false,
+    "queried": false,
+    "retained": false,
+    "scored": false,
+    "targeted": false
+  },
+  "groups": 15592,
+  "hpr4_hosts": [
+    "d",
+    "ok",
+    "yk",
+    "yt"
+  ],
+  "hpr5_formal_hypothesis": "ok/yk/yt are an unframed PAGE_HOST substitution class; d is a distinct O-framed wrapper-rich class.",
+  "implementation": {
+    "run_gdt081_hpr4_context_class_decomposition.py": "8f2618a80cf9b6c0da9709ed0d5593e0e20478d58f45e32cd63167609cfe2d4f"
+  },
+  "inputs": {
+    "gdt062_right_family_inventory.tsv": "b0292332157524a7f5e0745bde74c38432c52e3f2dd7ae816677f0ea743ca1cc",
+    "gdt078_hpr4_model.json": "40c2dc2bdf907d7e65a848beb848b98cc87da89b104e41278836bf1d18a6038b",
+    "gdt078_result.json": "8ddc43f385d847aa0bcd69b04f15e36b40216d72aff946b52ddac4dfc34e0acc",
+    "gdt080_result.json": "f4ea05a18f01a2460448dfbe7b7dfded9d7f6cf38ad1c92fcb8906aa67854e2c"
+  },
+  "limitations": [
+    "postselected among HPR4 leave-one-out trios",
+    "frequency null does not reproduce high-aiin selection path",
+    "shared absences inflate context similarity",
+    "source-only formal class; no external content"
+  ],
+  "outputs": {
+    "gdt081_context_class_scores.tsv": "e97293cb90ef5f79fd9b4c692d8998c6d96a73d8d8c6d56c4413ba7b318ad047",
+    "gdt081_pair_similarity.tsv": "3f9ae84bd97eaeb6b6beb5e52944e1437a0005ce9c7e4f4845ab6b6a791f9442",
+    "gdt081_shared_context_cells.tsv": "5d48e98a88a60da309979273e14ffe49cc531f0d6f3d4270e89c7f5c332912ae"
+  },
+  "primary_best_trio": [
+    "ok",
+    "yk",
+    "yt"
+  ],
+  "primary_dropped_host": "d",
+  "primary_frequency_matched_maxT_p": 0.024259514809703807,
+  "primary_similarity": 0.5919963887596945,
+  "result_content_sha256": "dd4c5ecf24e2bd99177111c972b93ed6d4d8181434d23ad2b5c80cc0089521c5",
+  "schema": "GDT081_HPR4_CONTEXT_CLASS_DECOMPOSITION_RESULT_V1",
+  "shared_all_three_cells": 17,
+  "shared_two_host_cells": 10,
+  "status": "HPR4_DECOMPOSES_INTO_OK_YK_YT_UNFRAMED_CONTEXT_CLASS_D_IS_OUTLIER"
+}
