@@ -1,0 +1,45 @@
+{
+  "claim_ceiling": "Prospective-but-hypothesis-aware page-level exact-gloss instability only; no word, morpheme, POS, sound, language, plaintext, plant identity, meaning, or translation.",
+  "component_counts": {
+    "dark_leaf": {
+      "NEGATIVE": 0,
+      "POSITIVE": 1,
+      "UNCERTAIN": 1
+    },
+    "light_root": {
+      "NEGATIVE": 1,
+      "POSITIVE": 1,
+      "UNCERTAIN": 0
+    }
+  },
+  "content_sha256": "78baeb9a70d7b67c8fcfa8c3f7972a69790ca20c079fad09fe6c3f5b65688a93",
+  "documents": {
+    "GDT154_OS_VISUAL_TRANSFER_METHOD.md": "96272ae240caec497d193f261b8348c21f3e9ca0dccca5e9647e6dc5bbb682b7",
+    "GDT154_OS_VISUAL_TRANSFER_REPORT.md": "71afdc1e698b84b001f9d1fe0ec7c0ea5046b935bab2227b07b7ce9ab882e866"
+  },
+  "f84r": {
+    "joined": false,
+    "opened": false,
+    "retained": false,
+    "scored": false,
+    "targeted": false
+  },
+  "implementation": {
+    "run_gdt154_os_visual_transfer.py": "6d2a22aeb5a05a6b5e98cd35bf942ac5937dd9bdbd42bbf50d6468a66d0c40ea"
+  },
+  "inputs": {
+    "gdt154_os_visual_predictions.tsv": "74c38bc79ea427c0dd5e94bb739a4155715287a108fb23dd6e7a3c78601b2d9a",
+    "gdt154_prediction.json": "eb51f8bb75a36683d17e0e96b5fb884466cddfd268f3cc25871be86f38f6c742",
+    "gdt154_visual_observations.tsv": "34f89595b5775f9509fb09a60ea1326867a69f1f3de073f4a96f6ad5ba30c0f3"
+  },
+  "interpretation": "One of two new page-level exact-chos targets matches the frozen dark-leaf/light-root conjunction; the other directly contradicts the root component, so the gloss is unstable/local only.",
+  "joint_failures": 1,
+  "joint_hits": 1,
+  "outputs": {
+    "gdt154_counterexamples.tsv": "329929496720b27cfe7d39d3488842fde3f3030d55420e1d96684f42af4bceaa",
+    "gdt154_scored_predictions.tsv": "925969e92521527ab8ac4c28ed5232e5e0535d5e540c44305a7e1fc42a0f23f7"
+  },
+  "schema": "GDT154_OS_VISUAL_TRANSFER_RESULT_V1",
+  "status": "OS_DARK_LEAF_LIGHT_ROOT_GLOSS_UNSTABLE_LOCAL_ONLY",
+  "targets": 2
+}
