@@ -1,0 +1,57 @@
+{
+  "claim_ceiling": "Matched formal decomposition of KAIIN only; no function, morpheme, word, POS, sound, language, plaintext, meaning, or translation.",
+  "documents": {
+    "GDT050_KAIIN_CONSTRUCTION_DECOMPOSITION_METHOD.md": "d80d23a8b55396eda2296564eece023c9e63775aa50f8743aa97bb4a157f450d",
+    "GDT050_KAIIN_CONSTRUCTION_DECOMPOSITION_REPORT.md": "ff06b8f697e42bfa8b7d676ce216ce570a398f05a55fb55b0d7aa2e1b003a5ea"
+  },
+  "eligible_groups": 2813,
+  "f84r": {
+    "joined": false,
+    "opened": false,
+    "queried": false,
+    "retained": false,
+    "scored": false
+  },
+  "implementation": {
+    "run_gdt050_kaiin_construction_decomposition.py": "929b4102a3f9007d5d54261fdfbf48e511ec3c5658a5618faa7e03a23c2c759c"
+  },
+  "inputs": {
+    "gdt016_group_state_inventory.tsv": "e109ce15864ed6b6f76d446b3c96d6190a0dc53d20d8ab0944554124e687234c",
+    "gdt047_result.json": "513181d1380ea72f58ddba82fda0611b031b06d3a9cc4424ed079d148a415142",
+    "gdt048_result.json": "b9e798b9cb502ed84c43abccc5f5278e38ebdd8a75a133b53d7aad3838f00662"
+  },
+  "kaiin_occurrences": 48,
+  "outputs": {
+    "gdt050_kaiin_construction_table.tsv": "d0603c68f55a8cef35715e898c026e2471fff680a98853a64889fe677e91d11a",
+    "gdt050_kaiin_occurrences.tsv": "8de19957465f4353cfdfd3a460d9410931a1960c8d09d2872a8659c9aea039dd"
+  },
+  "result_content_sha256": "103c40df25c6cafafb8730c303c2227344877ace7d537c765a463e1f40220373",
+  "schema": "GDT050_KAIIN_CONSTRUCTION_DECOMPOSITION_RESULT_V1",
+  "status": "KAIIN_RESIDUAL_ATTRIBUTED_TO_COMMON_K_AND_AIIN_FAMILY",
+  "tests": {
+    "AIIN_WITHIN_K": {
+      "control_negative": 37,
+      "control_positive": 21,
+      "odds_ratio": 0.8649350649350649,
+      "target_negative": 55,
+      "target_positive": 27,
+      "two_sided_fisher_p": 0.7202409160409788
+    },
+    "EXACT_KAIIN": {
+      "control_negative": 1273,
+      "control_positive": 21,
+      "odds_ratio": 1.096993489084642,
+      "target_negative": 1492,
+      "target_positive": 27,
+      "two_sided_fisher_p": 0.772508452966639
+    },
+    "K_BASE": {
+      "control_negative": 1236,
+      "control_positive": 58,
+      "odds_ratio": 1.2160391620473687,
+      "target_negative": 1437,
+      "target_positive": 82,
+      "two_sided_fisher_p": 0.29668197149519326
+    }
+  }
+}
