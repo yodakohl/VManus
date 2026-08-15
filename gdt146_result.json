@@ -1,0 +1,72 @@
+{
+  "assignment_worlds": 120,
+  "claim_ceiling": "Coarse-confound audit only; no independent relation validation, botanical truth, identity, semantic role, gloss, word, morpheme, POS, sound, language, plaintext, meaning, or translation.",
+  "documents": {
+    "GDT146_RELATION_COARSE_VISUAL_CONFOUND_METHOD.md": "6bcf0d9cecd74ccc3645a75bd94d44fca13d3e10efcccc6ab4ceddb91c449f01",
+    "GDT146_RELATION_COARSE_VISUAL_CONFOUND_REPORT.md": "4a4bc7b33f5ade76b723397bc81e216ecf17d5cab63f7d67e7770d3eb34920a0"
+  },
+  "f84": {
+    "all_actual_inputs_are_f84_free": true,
+    "new_f84r_access": false,
+    "source_or_image_opened": false
+  },
+  "features": [
+    "DAISY_CUP",
+    "BROAD_CALYX",
+    "GRASS",
+    "ROOT_PLATFORM",
+    "LEAVES_ONE_SIDE",
+    "FUSED_PARALLEL_LEAVES",
+    "BULB_OR_TUBER_ROOT",
+    "LARGE_OR_EXTENSIVE_ROOT",
+    "MULTIPLE_PLANTS",
+    "BLUE_FLOWERS_OR_BUDS",
+    "FINGERED_OR_FRILLED_LEAVES",
+    "MULTIPLE_STEMS_OR_STALKS"
+  ],
+  "implementation": {
+    "run_gdt146_relation_coarse_visual_confound.py": "3dce73d5581b8d4eed6f19ff5c7e94ec4a7e79093de114fb07e3dc4d5ca36aad"
+  },
+  "inputs": {
+    "gdt137_herbal_visual_feature_inventory.tsv": "1518a6ae3b0f7ef54379f305f5aa16d9afa0ebeaf9592a2264c5344335917138",
+    "gdt140_assignment_orbit.tsv": "e8e2a8cc74dc386d206ace0c371633e0f7bda0ee69f50a49747d0d7c9eebe6ac",
+    "gdt140_herbal_relation_inventory.tsv": "38584b43f02fb4affcbc6679acb4225be22637f83c641cc981967ec20abcb2a0",
+    "gdt140_result.json": "41ab7e6e0a4bf8269de350dcbda06849240b1697ee4d50b6ed6839df8d1a1954"
+  },
+  "interpretation": "The frozen relation assignment is not recoverable from twelve coarse recorded visual flags.",
+  "outputs": {
+    "gdt146_assignment_scores.tsv": "eeca5ae29dab8cb1d383c127119b009aadbdd5aeb14cc7cf0faaf3a63981d670",
+    "gdt146_visual_pair_matrix.tsv": "68a9bce2db429453bd30ff24aadb63c0328f11868125d5781dbcebd54baf455c",
+    "gdt146_visual_scores.tsv": "6ee4f348b1a7b4c6e49700f8de5960f2d925b7f06f5dc21bb17db3ba42966183"
+  },
+  "relations": 5,
+  "result_content_sha256": "ff8bb206abfc8754d1bcb438d02f4df4a6be73b52e8aa98e7c4324a12102025a",
+  "schema": "GDT146_RELATION_COARSE_VISUAL_CONFOUND_RESULT_V1",
+  "scores": [
+    {
+      "inclusive_p": 0.4,
+      "inclusive_rank_of_120": 13,
+      "mode": "POSITIVE_JACCARD",
+      "null_mean": 0.12000000000000004,
+      "null_sd": 0.09797958971132711,
+      "true_score": 0.2
+    },
+    {
+      "inclusive_p": 0.7,
+      "inclusive_rank_of_120": 13,
+      "mode": "BIT_AGREEMENT",
+      "null_mean": 0.9266666666666669,
+      "null_sd": 0.019999999999999962,
+      "true_score": 0.9333333333333332
+    },
+    {
+      "inclusive_p": 1.0,
+      "inclusive_rank_of_120": 1,
+      "mode": "EXACT_ILLUSTRATION_PROFILE",
+      "null_mean": 0.5999999999999999,
+      "null_sd": 1.1102230246251565e-16,
+      "true_score": 0.6
+    }
+  ],
+  "status": "COARSE_VISUAL_PROFILE_DOES_NOT_EXPLAIN_RELATION_ASSIGNMENT"
+}
