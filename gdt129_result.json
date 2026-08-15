@@ -1,0 +1,87 @@
+{
+  "chronology": "GDT128 was prospectively frozen; the GDT129 archive-wide census and combined summary are post-reveal synthesis.",
+  "claim_ceiling": "Postselected formal/visual codeword lead only; no number, star meaning, role, word, morpheme, POS, sound, language, plaintext, meaning, or translation.",
+  "counts": {
+    "all_readings_exact_q_sheedy_ray8": 2,
+    "all_readings_exact_q_sheedy_records": 2,
+    "archived_q_sheedy_ray8": 3,
+    "archived_q_sheedy_records": 3,
+    "archived_sheedy_records": 15,
+    "combined_q_sheedy_ray8": 4,
+    "combined_q_sheedy_records": 4,
+    "informative_within_page_contrasts": 0,
+    "physical_folios_combined": 3,
+    "prospective_all_readings_exact": 0
+  },
+  "documents": {
+    "GDT129_Q_SHEEDY_RAY_CLASS_METHOD.md": "04d62d1d5bc53242a28b95e89f8efa88bfb1198b6843833e03fb90a7f4bc1315",
+    "GDT129_Q_SHEEDY_RAY_CLASS_REPORT.md": "0945e92beceba2a99f1f0392761978e4c38325ebd56cd6a5b213232468a30f19"
+  },
+  "f84r": {
+    "assigned": false,
+    "joined": false,
+    "opened": false,
+    "predicted": false,
+    "queried": false,
+    "retained": false,
+    "scored": false,
+    "targeted": false
+  },
+  "implementation": {
+    "run_gdt129_q_sheedy_ray_class.py": "41c3ce57058f3b384d1970c2fb7fc453818cd7cd4ea732a2ac652aafc9958e43"
+  },
+  "inputs": {
+    "experiments/semantic_assumptions/results/source_separator_transcription.tsv": "4b649c8290d5afc7a5fbcc8e98db2bc123a1ceb5f3858d3befa781ce96b680f0",
+    "experiments/semantic_assumptions/star_morphology_entry/source_panel.tsv": "a25fb76c84e222952730ba1ae7a761542cbba9752f2c7c84a7c26f3bedd5caef",
+    "gdt127_q20_field_inventory.tsv": "e1ad1e114214fdcb34945dacbfd5e0c783fd85ecb2730d328b0204eb279e2227",
+    "gdt128_result.json": "a972f168b90b92bffc38798f8264c3c2cf458fecdf2632e5a51ae90c29abc39a",
+    "gdt128_validation.json": "ef78b37189c7662057f0dc08a2e9cd5b82f93f23b2290c81b57c67e38c21aff0"
+  },
+  "interpretation": "Primary-reading exact q-adjacent-sheedy is a provisional coarse 8-ray codeword lead; the prospective form is reading-unstable and the exact tail state failed.",
+  "outputs": {
+    "gdt129_q_sheedy_counterexamples.tsv": "ad125240c77ecf23e245b176eec1af52e4216eb22dbd8bf138a55bf7bdd1d1ee",
+    "gdt129_q_sheedy_inventory.tsv": "542fb81f2e4c461a8ca478e606793390c825d503d5762fad27f562b339e867ae",
+    "gdt129_q_sheedy_tests.tsv": "fdf01414943a94cea8e7bec40022a731dd2b795a1f2c7fb55328765d8ef58d85"
+  },
+  "result_content_sha256": "b6f14da7b3b300a6dcf08e003888e7d7d4fa4b61ccc3e3fe7d9e24e8c199d429",
+  "schema": "GDT129_Q_SHEEDY_RAY_CLASS_RESULT_V1",
+  "status": "Q_SHEEDY_EIGHT_RAY_LEAD_PROVISIONAL_TAIL_STATE_FAILED",
+  "tests": [
+    {
+      "inference": "LOCAL_POSTSELECTED_DIAGNOSTIC",
+      "one_sided_exact_p": "0.076923076923",
+      "population": 15,
+      "q_sheedy_ray8": 3,
+      "q_sheedy_records": 3,
+      "ray8_population": 7,
+      "test": "DISCOVERY_CONDITIONAL_ON_EXACT_SHEEDY"
+    },
+    {
+      "inference": "SHAPE_MATCHED_LOCAL_DIAGNOSTIC",
+      "one_sided_exact_p": "0.285714285714",
+      "population": 7,
+      "q_sheedy_ray8": 3,
+      "q_sheedy_records": 3,
+      "ray8_population": 5,
+      "test": "DISCOVERY_EXACT_TWO_GROUP_SHEEDY_ONLY"
+    },
+    {
+      "inference": "DESCRIPTIVE_NOT_CONFIRMATORY",
+      "one_sided_exact_p": "0.038461538462",
+      "population": 16,
+      "q_sheedy_ray8": 4,
+      "q_sheedy_records": 4,
+      "ray8_population": 8,
+      "test": "COMBINED_WITH_ONE_FROZEN_PROSPECTIVE_TARGET"
+    },
+    {
+      "inference": "NO_IDENTIFIABLE_WITHIN_PAGE_CONTRAST_0_INFORMATIVE_PAGES",
+      "one_sided_exact_p": "",
+      "population": 15,
+      "q_sheedy_ray8": 3,
+      "q_sheedy_records": 3,
+      "ray8_population": 7,
+      "test": "WITHIN_PAGE_CONTRAST_CAPACITY"
+    }
+  ]
+}
