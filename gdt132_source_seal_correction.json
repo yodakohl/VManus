@@ -1,0 +1,67 @@
+{
+  "chronology": "The original prediction was public before target enumeration. The unsafe whole-manuscript separator input was detected only after the first 32-pair local score; the final scorer replaces it with the pre-existing f84-free GDT046 line-frame table. This correction is post-exposure and cannot be called a pristine new freeze.",
+  "corrected_selection": "GDT046_COMPLETE_LINE_FRAME_PARAGRAPH_START_TO_IMMEDIATE_NEXT_NONSTART_LINE_INTERSECT_GDT016_SECTIONS_H_B_P_T_C_EXCLUDE_Q20_FOLIOS",
+  "correction_content_sha256": "669a496e899c885b0db047ada9e8c4445138bbe4f9e1a5941df77e2c4e052e6d",
+  "f84r_analyst_exposure": "LIMITED_AUDIT_DIAGNOSTIC_ONLY; a read-only audit subagent saw limited source rows while diagnosing the breach. No f84 row entered target selection, features, fitting, permutation, or score; no further f84 access is authorized.",
+  "original_prediction_sha256": "b1911ca9408eddb796474e9efdfe4e10c6bb020cf6375f9f4f42bb8a6f1c5b0b",
+  "replacement_f84r_rows": {
+    "gdt016_group_state_inventory.tsv": 0,
+    "gdt046_line_frames.tsv": 0
+  },
+  "replacement_inputs": {
+    "gdt016_group_state_inventory.tsv": "e109ce15864ed6b6f76d446b3c96d6190a0dc53d20d8ab0944554124e687234c",
+    "gdt046_line_frames.tsv": "4c8a8486ec39c2d138b865c950ebaff038f1db1e3668219105893d6b04f92511"
+  },
+  "schema": "GDT132_SOURCE_SEAL_CORRECTION_V1",
+  "status": "POST_EXPOSURE_INPUT_SEAL_CORRECTION_BEFORE_FINAL_RESCORING",
+  "superseded_prepublication_run": {
+    "inventory_sha256": "0b774125640110c0b275f089bd0771f4a1430fecdb21436c992ebb1887571ebb",
+    "physical_folios": 25,
+    "result_content_sha256": "8f08d65018a313c8e35e7d71396335f96ee1d5e616118690c090b8f206f77929",
+    "result_sha256": "3c9170a8d2025b4955c7c62cd674dd3f11785f2224946bccdead67a969142d2b",
+    "scores": [
+      {
+        "gain_bits": -4.563455120000547,
+        "local_p": 0.5228215767634855,
+        "max_two_p": 1.0,
+        "model": "LAST_HOST_CHAR3_HASH32",
+        "model_top1": 23,
+        "model_top3": 28,
+        "null_mean_bits": -4.490020750174699,
+        "physical_folios": 25,
+        "positive_folios": 11,
+        "reference_top1": 24,
+        "reference_top3": 28,
+        "swappable_pairs": 22,
+        "target_pairs": 32
+      },
+      {
+        "gain_bits": 0.995985416304796,
+        "local_p": 0.01195997071027581,
+        "max_two_p": 0.01195997071027581,
+        "model": "LAST_RAW_CHAR3_HASH32",
+        "model_top1": 24,
+        "model_top3": 28,
+        "null_mean_bits": -1.2446939733290572,
+        "physical_folios": 25,
+        "positive_folios": 12,
+        "reference_top1": 24,
+        "reference_top3": 28,
+        "swappable_pairs": 22,
+        "target_pairs": 32
+      }
+    ],
+    "status": "Q20_CONTINUATION_ARITY_DOES_NOT_TRANSFER_OUTSIDE_SECTION_S",
+    "target_pairs": 32
+  },
+  "unsafe_input": {
+    "display_scope": "Limited f84 source rows were displayed only to a read-only audit subagent while diagnosing the input breach; the scorer displayed none and no row entered target selection, features, fit, null, or score.",
+    "displayed_to_audit_subagent": true,
+    "f84r_rows_found_by_read_only_audit": 1101,
+    "joined": false,
+    "path": "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+    "retained_in_target": false,
+    "scored": false,
+    "sha256_from_original_freeze": "4b649c8290d5afc7a5fbcc8e98db2bc123a1ceb5f3858d3befa781ce96b680f0"
+  }
+}

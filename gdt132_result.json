@@ -1,0 +1,104 @@
+{
+  "claim_ceiling": "Formal cross-register next-field extent only; no heading, recipe, semantic role, object, gloss, word, morpheme, POS, sound, language, plaintext, meaning, or translation.",
+  "documents": {
+    "GDT132_CROSS_REGISTER_CONTINUATION_ARITY_METHOD.md": "c58a498e2b47db1e2d812cd18580e7e3c8568b29056e76ddae5ae91c5d5d1944",
+    "GDT132_CROSS_REGISTER_CONTINUATION_ARITY_REPORT.md": "768e537f0205ae679dd5d6082ac15ab495e2f487db88d0d718e867b6990a538f"
+  },
+  "f84r": {
+    "actual_final_tabular_inputs_contain_rows": false,
+    "audit_subagent_limited_payload_exposure": true,
+    "exposure_used_for_selection_or_model": false,
+    "further_access_authorized": false,
+    "joined": false,
+    "retained": false,
+    "scored": false,
+    "targeted": false
+  },
+  "gates": {
+    "host_beats_raw": false,
+    "host_gain_positive": false,
+    "majority_folios_positive": false,
+    "max_two_p_le_005": false
+  },
+  "implementation": {
+    "freeze_gdt132_source_seal_correction.py": "7556b9f4a664c667c7908a3b71340324792e4bc80c5ca8b106870baa256b5b30",
+    "run_gdt012_core_semantic_atlas.py": "7db6d7eff0937e9fa67a77356a61e00a0e28a6cd73b2c62146844adea8b8fc1c",
+    "run_gdt062_right_family_register_renderer.py": "9c9e7a35278d59ace7dd88f3c1e0ca6112ec48cef29fdd86c4e5546c6ec9a665",
+    "run_gdt131_q20_cross_line_field_onset.py": "a8d162c9d18133d77e1f5562bf21ddb6d8dccb557035c3b60f0712fcb511db9f",
+    "run_gdt132_cross_register_continuation_arity.py": "3b3998c5d63ad5ef0a93e68b0e2c7383f662c0ed44c7161129aba6aeedaed11d"
+  },
+  "inputs": {
+    "gdt016_group_state_inventory.tsv": "e109ce15864ed6b6f76d446b3c96d6190a0dc53d20d8ab0944554124e687234c",
+    "gdt046_line_frames.tsv": "4c8a8486ec39c2d138b865c950ebaff038f1db1e3668219105893d6b04f92511",
+    "gdt127_q20_field_inventory.tsv": "e1ad1e114214fdcb34945dacbfd5e0c783fd85ecb2730d328b0204eb279e2227",
+    "gdt131_result.json": "620a0b31dd3cf21304c78db42bc7972e62984c87dead80d2e88668c320ca61fc",
+    "gdt132_prediction.json": "b1911ca9408eddb796474e9efdfe4e10c6bb020cf6375f9f4f42bb8a6f1c5b0b",
+    "gdt132_source_seal_correction.json": "a816510f0b0215bb7af060bd3e16164791b45c3e5373b6b7086bd950bbeb846c",
+    "q20ob001_source_panel.tsv": "35636753732e24e9af6cb2e5798df8b7453baac11db9088f7ba131fa8c186d88"
+  },
+  "interpretation": "Prospective Q20-trained final-field PAGE_HOST prediction of next-line first-field extent outside section S. The PAGE_HOST transfer failed; raw-string behavior remains an exploratory locality diagnostic only.",
+  "null_opportunity_capacity": {
+    "coarse_frozen_strata": 20,
+    "plus_final_field_group_count": 15,
+    "plus_page_host_length": 4,
+    "plus_raw_length": 0
+  },
+  "outputs": {
+    "gdt132_continuation_arity_counterexamples.tsv": "4da037a6e984c627e9a0a9b9ea1be132406be07bee257b65fe86425ff6ccaf72",
+    "gdt132_continuation_arity_folds.tsv": "5186bd06b03fcd214caca171fb441c387e5db865cfb1e3f598df904177ca05fa",
+    "gdt132_continuation_arity_inventory.tsv": "ec9c076c78289cd4abb5046c54d137d19f105e60112c811f63aff5f03eb377b6",
+    "gdt132_continuation_arity_null.tsv": "112685929837387434456736403c1f205b23d2c4c7d2d598fa4343dccb138397",
+    "gdt132_continuation_arity_predictions.tsv": "aafd7d3b8d1eaf9fb57b351f97d87827a37deb49496d5a2b40682e3a3185e606",
+    "gdt132_continuation_arity_scores.tsv": "b2183f4ed57145c4e32c5a9c163d004f53a2a58ba3080d34e8eeb274a29aefca"
+  },
+  "physical_folios": 24,
+  "result_content_sha256": "b4e16770d79e76dd035e06eadbb09f92e13a6c9f5234cb86f1b5110072111fe9",
+  "schema": "GDT132_CROSS_REGISTER_CONTINUATION_ARITY_RESULT_V1",
+  "scores": [
+    {
+      "gain_bits": -4.153103496115818,
+      "local_p": 0.4593605076885526,
+      "max_two_p": 1.0,
+      "model": "LAST_HOST_CHAR3_HASH32",
+      "model_top1": 23,
+      "model_top3": 27,
+      "null_mean_bits": -4.1157018628091535,
+      "physical_folios": 24,
+      "positive_folios": 11,
+      "reference_top1": 24,
+      "reference_top3": 27,
+      "swappable_pairs": 20,
+      "target_pairs": 31
+    },
+    {
+      "gain_bits": 1.2928072888384625,
+      "local_p": 0.021235050036612156,
+      "max_two_p": 0.021235050036612156,
+      "model": "LAST_RAW_CHAR3_HASH32",
+      "model_top1": 24,
+      "model_top3": 28,
+      "null_mean_bits": -0.5790295095197739,
+      "physical_folios": 24,
+      "positive_folios": 12,
+      "reference_top1": 24,
+      "reference_top3": 27,
+      "swappable_pairs": 20,
+      "target_pairs": 31
+    }
+  ],
+  "sections": [
+    "B",
+    "C",
+    "H",
+    "P"
+  ],
+  "source_seal_correction": {
+    "excluded_pair_after_replacement": "f78v.1->f78v.2",
+    "post_exposure": true,
+    "sha256": "a816510f0b0215bb7af060bd3e16164791b45c3e5373b6b7086bd950bbeb846c",
+    "status": "POST_EXPOSURE_INPUT_SEAL_CORRECTION_BEFORE_FINAL_RESCORING",
+    "superseded_target_pairs": 32
+  },
+  "status": "Q20_CONTINUATION_ARITY_DOES_NOT_TRANSFER_OUTSIDE_SECTION_S",
+  "target_pairs": 31
+}
