@@ -71,7 +71,7 @@ def main():
  for i,target in enumerate(units):
   train=[j for j,u in enumerate(units) if u["folio"]!=target["folio"]];B[i,train]=1/(len(train)+1);bc[i]=.5/(len(train)+1)
   for rep in REPS:
-   near=sorted(train,key=lambda j:(dist(target["features"][rep],units[j]["features"][rep]),units[j]["locus"]))[:K]
+   near=sorted((j for j in train if dist(target["features"][rep],units[j]["features"][rep])<1-1e-12),key=lambda j:(dist(target["features"][rep],units[j]["features"][rep]),units[j]["locus"]))[:K]
    weights=np.array([1/(.1+dist(target["features"][rep],units[j]["features"][rep])) for j in near]);den=weights.sum()+SHRINK
    W[rep][i]=SHRINK*B[i]/den;W[rep][i,near]+=weights/den;wc[rep][i]=SHRINK*bc[i]/den
  def score(y):
@@ -117,7 +117,7 @@ def main():
   atlas.append({"host_wrapper_class":key,"loci":len(z),"physical_folios":len(fs),"common_descriptor_tokens":";".join(sorted(common)) or "NONE","union_descriptor_tokens":";".join(sorted(union)) or "NONE","locus_ids":";".join(sorted(loci)),"semantic_role":"UNASSIGNED","status":"EXPLORATORY_RECURRENT_CONSTRUCTION"})
  atlas.sort(key=lambda r:(-len(r["common_descriptor_tokens"].split(";")),-r["physical_folios"],-r["loci"],r["host_wrapper_class"]));write(CLASSES,atlas,list(atlas[0]))
  nullrows=[{"null_id":"WITHIN_FOLIO_COMPLETE_DESCRIPTOR_VECTOR_PERMUTATION","worlds":WORLDS,"seed":SEED,"representations":len(REPS),"descriptor_tokens":len(vocab),"observed_best_representation":score_rows[0]["representation"],"observed_best_gain_bits":score_rows[0]["gain_bits"],"best_representation_max_p":score_rows[0]["max_representation_p"],"preserves":"folio;complete descriptor-token co-occurrence;all formal distances"}];write(NULL,[{k:f"{v:.12g}" if isinstance(v,float) else v for k,v in r.items()} for r in nullrows],list(nullrows[0]))
- best=score_rows[0];host=next(r for r in score_rows if r["representation"]=="PAGE_HOST_CHAR3");wrapper=next(r for r in score_rows if r["representation"]=="WRAPPER_ONLY");appearance=next(r for r in ablation if r["panel"]=="APPEARANCE_REMAINDER" and r["representation"]=="HOST_WRAPPER_JOINT");layout=next(r for r in ablation if r["panel"]=="LAYOUT_POSITION" and r["representation"]=="HOST_WRAPPER_JOINT");status="HOST_WRAPPER_DESCRIPTOR_SIGNAL_LOCALIZES_TO_LAYOUT_POSITION_NOT_APPEARANCE"
+ best=score_rows[0];host=next(r for r in score_rows if r["representation"]=="PAGE_HOST_CHAR3");wrapper=next(r for r in score_rows if r["representation"]=="WRAPPER_ONLY");appearance=next(r for r in ablation if r["panel"]=="APPEARANCE_REMAINDER" and r["representation"]=="HOST_WRAPPER_JOINT");layout=next(r for r in ablation if r["panel"]=="LAYOUT_POSITION" and r["representation"]=="HOST_WRAPPER_JOINT");status="EXHAUSTIVE_DESCRIPTOR_CHANNEL_NO_SELECTOR_PAID_HPR2_REPRESENTATION_AFTER_ZERO_OVERLAP_CORRECTION"
  REPORT.write_text(f"""# GDT095 — exhaustive plant-description channel
 
 ## Outcome
@@ -127,30 +127,29 @@ def main():
 This exploratory pass takes every one of the {len(vocab)} frequency-eligible
 normalized human-description tokens on the complete {n}-locus strict
 pharmaceutical plant-label panel.  It does not select `DARK_LEAF` or any other
-attractive phrase.  On entirely held physical folios, the exact
-PAGE_HOST×WRAPPER conjunction gains {best['gain_bits']:+.3f} aggregate bits
-over the folio-held prevalence code and is positive on
-{best['positive_gain_folios']}/5 folios.  Its ten-representation max diagnostic
-is p={best['max_representation_p']:.4f}; after paying the representation
-selector it retains {best['selector_paid_gain_bits']:+.3f} bits.
+attractive phrase. Exact-feature representations now use only neighbors with
+positive overlap and otherwise back off to the held-folio prevalence code.
+This correction removes a prior lexicographic zero-overlap tie artifact.
+
+The best representation is {best['representation']} at only
+{best['gain_bits']:+.3f} aggregate bits and on 2/5 folios; its selector-paid
+gain is {best['selector_paid_gain_bits']:+.3f}. No representation pays the
+ten-way selection cost.
 
 PAGE_HOST character trigrams alone score {host['gain_bits']:+.3f} bits and
-WRAPPER alone scores {wrapper['gain_bits']:+.3f}.  Thus the external signal is
-not localized to either marginal layer.  It is concentrated in their exact
-conjunction.  HOST+RIGHT is weakly positive; compiler-only, wrapper-only,
-right-only, B3-only, raw, and host-only representations are negative.
+WRAPPER alone scores {wrapper['gain_bits']:+.3f}. The exhaustive external
+channel therefore does not localize positive information to PAGE_HOST, its
+compiler marginals, or their exact conjunctions.
 
-A disclosed post-hoc decomposition shows why: four location terms (`base`,
-`edge`, `ground`, `level`) contribute {layout['gain_bits']:+.3f} bits, whereas
-the other fifteen appearance tokens contribute {appearance['gain_bits']:+.3f}.
-The positive aggregate is therefore a label-placement/construction signal,
-not plant-content localization.  This revises the simplest HPR2 story:
-PAGE_HOST remains useful for the narrow GDT089 lead, but the exhaustive channel
-does not support PAGE_HOST as a general appearance-bearing layer.  It suggests
-that host-wrapper conjunctions track local record/layout contexts.  The split
-was inspected after the vocabulary was exposed and is not confirmatory.
+A disclosed post-hoc decomposition gives PAGE_HOST×WRAPPER
+{layout['gain_bits']:+.3f} bits on four location terms (`base`, `edge`,
+`ground`, `level`) and {appearance['gain_bits']:+.3f} on the other fifteen
+tokens. Neither rescues the aggregate channel. PAGE_HOST remains useful for
+the narrow GDT089 lead, but the exhaustive vocabulary does not support it as a
+general appearance-bearing layer. The split was inspected after vocabulary
+exposure and is not confirmatory.
 f84r was absent before the model and was not opened, retained, queried, joined,
 scored, or targeted.
 """,encoding="utf-8")
- result={"schema":"GDT095_EXHAUSTIVE_DESCRIPTOR_CHANNEL_RESULT_V1","status":status,"loci":n,"physical_folios":len(folios),"descriptor_tokens":len(vocab),"representations":list(REPS),"permutation_worlds":WORLDS,"best_representation":best,"page_host_marginal":host,"wrapper_marginal":wrapper,"posthoc_channel_ablation":{"layout_position":layout,"appearance_remainder":appearance},"interpretation":"The positive archived description signal concentrates in exact PAGE_HOST-by-WRAPPER constructions but is explained by label-position vocabulary, not the appearance-token remainder.","selection_disclosure":"All normalized frequency-eligible local-clause tokens and all ten predeclared representations are exported; K=5/shrink=4 is inherited from GDT068/GDT089. Layout/appearance decomposition was added after seeing the exhaustive token manifest and is explicitly post-hoc.","claim_ceiling":"Archived description-channel construction association only; no semantic class, role, gloss, word, morpheme, POS, sound, language, plaintext, meaning, or translation.","f84r":{"opened":False,"retained":False,"queried":False,"joined":False,"scored":False,"targeted":False},"inputs":{ANN.name:sha(ANN),PARSED.name:sha(PARSED),"gdt089_result.json":sha(ROOT/"gdt089_result.json"),"gdt093_result.json":sha(ROOT/"gdt093_result.json"),"gdt092_result.json":sha(ROOT/"gdt092_result.json")},"implementation":{Path(__file__).name:sha(Path(__file__))},"outputs":{MANIFEST.name:sha(MANIFEST),SCORES.name:sha(SCORES),TOKENS.name:sha(TOKENS),CLASSES.name:sha(CLASSES),ABLATION.name:sha(ABLATION),NULL.name:sha(NULL)},"documents":{METHOD.name:sha(METHOD),REPORT.name:sha(REPORT)}};result["result_content_sha256"]=csha(result);RESULT.write_text(json.dumps(result,indent=2,sort_keys=True)+"\n");print(json.dumps({"status":status,"best":best,"layout_gain":layout["gain_bits"],"appearance_gain":appearance["gain_bits"],"host_gain":host["gain_bits"],"wrapper_gain":wrapper["gain_bits"]},sort_keys=True))
+ result={"schema":"GDT095_EXHAUSTIVE_DESCRIPTOR_CHANNEL_RESULT_V1","status":status,"loci":n,"physical_folios":len(folios),"descriptor_tokens":len(vocab),"representations":list(REPS),"permutation_worlds":WORLDS,"best_representation":best,"page_host_marginal":host,"wrapper_marginal":wrapper,"posthoc_channel_ablation":{"layout_position":layout,"appearance_remainder":appearance},"zero_overlap_policy":"BACKOFF_TO_HELD_FOLIO_PREVALENCE_NO_ARBITRARY_TIE_NEIGHBORS","superseded_result":"The first published GDT095 used lexicographic top-K neighbors even when exact-feature distance equalled one; its +11.252-bit host-wrapper claim is invalid and replaced by this correction.","interpretation":"No tested HPR2 representation pays its selector for the exhaustive archived descriptor vocabulary after zero-overlap correction.","selection_disclosure":"All normalized frequency-eligible local-clause tokens and all ten predeclared representations are exported; K=5/shrink=4 is inherited from GDT068/GDT089. Layout/appearance decomposition was added after seeing the exhaustive token manifest and is explicitly post-hoc.","claim_ceiling":"Archived description-channel construction association only; no semantic class, role, gloss, word, morpheme, POS, sound, language, plaintext, meaning, or translation.","f84r":{"opened":False,"retained":False,"queried":False,"joined":False,"scored":False,"targeted":False},"inputs":{ANN.name:sha(ANN),PARSED.name:sha(PARSED),"gdt089_result.json":sha(ROOT/"gdt089_result.json"),"gdt093_result.json":sha(ROOT/"gdt093_result.json"),"gdt092_result.json":sha(ROOT/"gdt092_result.json")},"implementation":{Path(__file__).name:sha(Path(__file__))},"outputs":{MANIFEST.name:sha(MANIFEST),SCORES.name:sha(SCORES),TOKENS.name:sha(TOKENS),CLASSES.name:sha(CLASSES),ABLATION.name:sha(ABLATION),NULL.name:sha(NULL)},"documents":{METHOD.name:sha(METHOD),REPORT.name:sha(REPORT)}};result["result_content_sha256"]=csha(result);RESULT.write_text(json.dumps(result,indent=2,sort_keys=True)+"\n");print(json.dumps({"status":status,"best":best,"layout_gain":layout["gain_bits"],"appearance_gain":appearance["gain_bits"],"host_gain":host["gain_bits"],"wrapper_gain":wrapper["gain_bits"]},sort_keys=True))
 if __name__=="__main__":main()

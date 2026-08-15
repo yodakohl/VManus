@@ -34,7 +34,7 @@ def main():
  for t in test:
   tr=[x for x in train if x["folio"]!=t["folio"]];bp=(sum(x["y"] for x in tr)+.5)/(len(tr)+1);base.append(bp)
   for rep in REPS:
-   near=sorted(tr,key=lambda x:(distance(t["features"][rep],x["features"][rep]),x["locus"]))[:K];weights=np.array([1/(.1+distance(t["features"][rep],x["features"][rep])) for x in near]);probs[rep].append((sum(w*x["y"] for w,x in zip(weights,near))+SHRINK*bp)/(weights.sum()+SHRINK))
+   near=sorted((x for x in tr if distance(t["features"][rep],x["features"][rep])<1-1e-12),key=lambda x:(distance(t["features"][rep],x["features"][rep]),x["locus"]))[:K];weights=np.array([1/(.1+distance(t["features"][rep],x["features"][rep])) for x in near]);probs[rep].append((sum(w*x["y"] for w,x in zip(weights,near))+SHRINK*bp)/(weights.sum()+SHRINK))
  y=np.array([x["y"] for x in test]);base=np.array(base);bits=lambda yy,pp:float((-np.log2(np.where(yy>0,pp,1-pp))).sum());bb=bits(y,base);gains={r:bb-bits(y,np.array(probs[r])) for r in REPS}
  # Exact within-folio orbit retains every target-folio positive count.
  fis={f:[i for i,x in enumerate(test) if x["folio"]==f] for f in sorted({x["folio"] for x in test})};choices=[]
@@ -56,7 +56,7 @@ def main():
  for i,t in enumerate(test):
   pr.append({"locus":t["locus"],"physical_folio":t["folio"],"layout_position_observed":t["y"],"baseline_probability":base[i],**{r.lower()+"_probability":probs[r][i] for r in REPS},"annotation_certainty":"HEDGED","semantic_role":"UNASSIGNED"})
  write(PRED,[{k:f"{v:.12g}" if isinstance(v,float) else v for k,v in x.items()} for x in pr],list(pr[0]));null=[{"null_id":"EXACT_WITHIN_TARGET_FOLIO_POSITIVE_COUNT","worlds":len(worlds),"target_positive_counts":";".join(f"{f}:{int(y[idx].sum())}/{len(idx)}" for f,idx in fis.items()),"representations":len(REPS),"observed_best_representation":rows[0]["representation"],"observed_best_gain_bits":rows[0]["gain_bits"],"max_representation_p":rows[0]["exact_max_representation_p"]}];write(NULL,[{k:f"{v:.12g}" if isinstance(v,float) else v for k,v in x.items()} for x in null],list(null[0]))
- frozen=next(x for x in rows if x["representation"]=="HOST_WRAPPER_JOINT");status="GDT095_HOST_WRAPPER_LAYOUT_LEAD_FAILS_HEDGED_STRATUM_TRANSFER"
+ frozen=next(x for x in rows if x["representation"]=="HOST_WRAPPER_JOINT");host=next(x for x in rows if x["representation"]=="PAGE_HOST_CHAR3");raw=next(x for x in rows if x["representation"]=="RAW_CHAR3");status="GDT095_HOST_WRAPPER_LAYOUT_LEAD_FAILS_BUT_PAGE_HOST_MARGIN_HAS_LOW_CAPACITY_TRANSFER"
  REPORT.write_text(f"""# GDT096 — layout-channel transfer
 
 ## Outcome
@@ -70,19 +70,19 @@ targets contain the frozen position vocabulary.
 
 The GDT095 PAGE_HOST×WRAPPER lead loses {abs(frozen['gain_bits']):.3f} bits and
 is negative on all five target folios. Its exact within-folio rank is
-p={frozen['exact_local_p']:.4f}. Raw and PAGE_HOST marginal trigrams are the
-best sensitivities at {rows[0]['gain_bits']:+.3f} and {rows[1]['gain_bits']:+.3f}
-bits; both narrowly retain about one bit after the ten-way selector, and the
-max-representation exact p is {rows[0]['exact_max_representation_p']:.4f}.
-This four-positive HEDGED endpoint is too small for semantic localization, and
-raw slightly beats PAGE_HOST. The frozen construction interaction therefore
-does not transfer to this certainty stratum; the surviving weak association
-is ordinary string-level rather than HPR2-specific.
+p={frozen['exact_local_p']:.4f}. PAGE_HOST trigrams instead gain
+{host['gain_bits']:+.3f} bits on all five folios, versus raw trigrams at
+{raw['gain_bits']:+.3f}; PAGE_HOST retains {host['selector_paid_gain_bits']:+.3f}
+bits after the ten-way selector and has exact max p
+{host['exact_max_representation_p']:.4f}. The advantage over raw is only
+{host['gain_bits']-raw['gain_bits']:+.3f} bits and the HEDGED endpoint contains
+four positives, so this is a low-capacity HPR2 marginal lead, not semantic
+localization. The frozen construction interaction does not transfer.
 
 This is archived-data stress testing, not a pristine validation. HEDGED rows
 are a different annotation-quality stratum and the source corpus was already
 available. The miss nevertheless prevents promotion of the GDT095 association.
 No role or gloss is assigned. f84r was absent and untouched.
 """,encoding="utf-8")
- result={"schema":"GDT096_LAYOUT_CHANNEL_TRANSFER_RESULT_V1","status":status,"train_unhedged_loci":len(train),"test_hedged_loci":len(test),"positive_test_loci":int(y.sum()),"exact_worlds":len(worlds),"frozen_host_wrapper_result":frozen,"best_sensitivity":rows[0],"interpretation":"The GDT095 host-wrapper layout association does not transfer to HEDGED annotations; retain it as archive-local hypothesis generation only.","claim_ceiling":"Archived annotation-stratum transfer only; no semantic role, gloss, word, morpheme, POS, sound, language, plaintext, meaning, or translation.","f84r":{"opened":False,"retained":False,"queried":False,"joined":False,"scored":False,"targeted":False},"inputs":{ANN.name:sha(ANN),PARSED.name:sha(PARSED),"gdt095_result.json":sha(ROOT/"gdt095_result.json"),"gdt095_descriptor_token_manifest.tsv":sha(ROOT/"gdt095_descriptor_token_manifest.tsv")},"implementation":{Path(__file__).name:sha(Path(__file__))},"outputs":{PRED.name:sha(PRED),SCORES.name:sha(SCORES),NULL.name:sha(NULL)},"documents":{METHOD.name:sha(METHOD),REPORT.name:sha(REPORT)}};result["result_content_sha256"]=csha(result);RESULT.write_text(json.dumps(result,indent=2,sort_keys=True)+"\n");print(json.dumps({"status":status,"frozen_gain":frozen["gain_bits"],"best":rows[0]["representation"],"best_gain":rows[0]["gain_bits"],"worlds":len(worlds)},sort_keys=True))
+ result={"schema":"GDT096_LAYOUT_CHANNEL_TRANSFER_RESULT_V1","status":status,"train_unhedged_loci":len(train),"test_hedged_loci":len(test),"positive_test_loci":int(y.sum()),"exact_worlds":len(worlds),"frozen_host_wrapper_result":frozen,"page_host_result":host,"raw_result":raw,"best_sensitivity":rows[0],"interpretation":"The GDT095 host-wrapper interaction does not transfer, while PAGE_HOST marginal trigrams show a low-capacity four-positive association slightly above raw strings.","claim_ceiling":"Archived annotation-stratum transfer only; no semantic role, gloss, word, morpheme, POS, sound, language, plaintext, meaning, or translation.","f84r":{"opened":False,"retained":False,"queried":False,"joined":False,"scored":False,"targeted":False},"inputs":{ANN.name:sha(ANN),PARSED.name:sha(PARSED),"gdt095_result.json":sha(ROOT/"gdt095_result.json"),"gdt095_descriptor_token_manifest.tsv":sha(ROOT/"gdt095_descriptor_token_manifest.tsv")},"implementation":{Path(__file__).name:sha(Path(__file__))},"outputs":{PRED.name:sha(PRED),SCORES.name:sha(SCORES),NULL.name:sha(NULL)},"documents":{METHOD.name:sha(METHOD),REPORT.name:sha(REPORT)}};result["result_content_sha256"]=csha(result);RESULT.write_text(json.dumps(result,indent=2,sort_keys=True)+"\n");print(json.dumps({"status":status,"frozen_gain":frozen["gain_bits"],"best":rows[0]["representation"],"best_gain":rows[0]["gain_bits"],"worlds":len(worlds)},sort_keys=True))
 if __name__=="__main__":main()

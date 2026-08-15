@@ -2,32 +2,31 @@
 
 ## Outcome
 
-**HOST_WRAPPER_DESCRIPTOR_SIGNAL_LOCALIZES_TO_LAYOUT_POSITION_NOT_APPEARANCE**
+**EXHAUSTIVE_DESCRIPTOR_CHANNEL_NO_SELECTOR_PAID_HPR2_REPRESENTATION_AFTER_ZERO_OVERLAP_CORRECTION**
 
 This exploratory pass takes every one of the 19 frequency-eligible
 normalized human-description tokens on the complete 83-locus strict
 pharmaceutical plant-label panel.  It does not select `DARK_LEAF` or any other
-attractive phrase.  On entirely held physical folios, the exact
-PAGE_HOST×WRAPPER conjunction gains +11.252 aggregate bits
-over the folio-held prevalence code and is positive on
-3/5 folios.  Its ten-representation max diagnostic
-is p=0.0012; after paying the representation
-selector it retains +7.930 bits.
+attractive phrase. Exact-feature representations now use only neighbors with
+positive overlap and otherwise back off to the held-folio prevalence code.
+This correction removes a prior lexicographic zero-overlap tie artifact.
 
-PAGE_HOST character trigrams alone score -34.883 bits and
-WRAPPER alone scores -229.441.  Thus the external signal is
-not localized to either marginal layer.  It is concentrated in their exact
-conjunction.  HOST+RIGHT is weakly positive; compiler-only, wrapper-only,
-right-only, B3-only, raw, and host-only representations are negative.
+The best representation is HOST_WRAPPER_JOINT at only
++1.605 aggregate bits and on 2/5 folios; its selector-paid
+gain is -1.717. No representation pays the
+ten-way selection cost.
 
-A disclosed post-hoc decomposition shows why: four location terms (`base`,
-`edge`, `ground`, `level`) contribute +18.980 bits, whereas
-the other fifteen appearance tokens contribute -7.728.
-The positive aggregate is therefore a label-placement/construction signal,
-not plant-content localization.  This revises the simplest HPR2 story:
-PAGE_HOST remains useful for the narrow GDT089 lead, but the exhaustive channel
-does not support PAGE_HOST as a general appearance-bearing layer.  It suggests
-that host-wrapper conjunctions track local record/layout contexts.  The split
-was inspected after the vocabulary was exposed and is not confirmatory.
+PAGE_HOST character trigrams alone score -47.257 bits and
+WRAPPER alone scores -245.395. The exhaustive external
+channel therefore does not localize positive information to PAGE_HOST, its
+compiler marginals, or their exact conjunctions.
+
+A disclosed post-hoc decomposition gives PAGE_HOST×WRAPPER
++3.230 bits on four location terms (`base`, `edge`,
+`ground`, `level`) and -1.625 on the other fifteen
+tokens. Neither rescues the aggregate channel. PAGE_HOST remains useful for
+the narrow GDT089 lead, but the exhaustive vocabulary does not support it as a
+general appearance-bearing layer. The split was inspected after vocabulary
+exposure and is not confirmatory.
 f84r was absent before the model and was not opened, retained, queried, joined,
 scored, or targeted.

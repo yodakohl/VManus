@@ -18,7 +18,10 @@ Compare ten representations: raw character trigrams, PAGE_HOST character
 trigrams, compiler signature, WRAPPER/RIGHT/B3 marginals, and exact
 PAGE_HOST×WRAPPER, PAGE_HOST×RIGHT, PAGE_HOST×B3, and
 PAGE_HOST×WRAPPER×RIGHT conjunctions. K=5 and shrinkage 4 are inherited from
-GDT068/GDT089. Every prediction excludes the target physical folio.
+GDT068/GDT089. Every prediction excludes the target physical folio. Candidate
+neighbors must share at least one representation feature; a zero-overlap exact
+feature set backs off to held-folio prevalence instead of using an arbitrary
+lexicographic tie.
 
 The primary statistic is total binary codelength gain over held-folio token
 prevalence. A 5,000-world null permutes each locus's complete descriptor-token

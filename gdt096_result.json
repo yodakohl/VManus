@@ -1,22 +1,22 @@
 {
   "best_sensitivity": {
     "baseline_bits": 26.08270601961322,
-    "exact_local_p": 0.0005341880341880342,
-    "exact_max_representation_p": 0.01014957264957265,
-    "folio_gains": "f100:0.474179;f102:0.779208;f88:0.347956;f89:2.795979;f99:0.121625",
-    "gain_bits": 4.5189465962669075,
-    "held_bits": 21.563759423346312,
+    "exact_local_p": 0.0010683760683760685,
+    "exact_max_representation_p": 0.0010683760683760685,
+    "folio_gains": "f100:0.547275;f102:1.157651;f88:0.447575;f89:3.573472;f99:0.457184",
+    "gain_bits": 6.183156878779673,
+    "held_bits": 19.899549140833546,
     "positive_gain_folios": 5,
     "positive_test_loci": 4,
-    "representation": "RAW_CHAR3",
-    "selector_paid_gain_bits": 1.1970185013795454,
+    "representation": "PAGE_HOST_CHAR3",
+    "selector_paid_gain_bits": 2.861228783892311,
     "test_hedged_loci": 35,
     "train_unhedged_loci": 83
   },
   "claim_ceiling": "Archived annotation-stratum transfer only; no semantic role, gloss, word, morpheme, POS, sound, language, plaintext, meaning, or translation.",
   "documents": {
     "GDT096_LAYOUT_CHANNEL_TRANSFER_METHOD.md": "5121731e28288dc3c0c1a096f54e10b88d25e4a6bc49839beaa9890261907a1b",
-    "GDT096_LAYOUT_CHANNEL_TRANSFER_REPORT.md": "811e09774aa9a75a512f42433f0483005f08d8379775f529f82f69e6462d0b3c"
+    "GDT096_LAYOUT_CHANNEL_TRANSFER_REPORT.md": "b9f56b5d4c1ca9d424fada403ad328750277ecf11bc42540c6320f9ed16886c6"
   },
   "exact_worlds": 1872,
   "f84r": {
@@ -30,36 +30,64 @@
   "frozen_host_wrapper_result": {
     "baseline_bits": 26.08270601961322,
     "exact_local_p": 0.7051282051282052,
-    "exact_max_representation_p": 0.01014957264957265,
-    "folio_gains": "f100:-2.041191;f102:-0.207145;f88:-0.998725;f89:-1.831313;f99:-3.284817",
-    "gain_bits": -8.36319123005763,
-    "held_bits": 34.44589724967085,
-    "positive_gain_folios": 0,
+    "exact_max_representation_p": 0.0010683760683760685,
+    "folio_gains": "f100:0.000000;f102:0.000000;f88:0.000000;f89:0.481869;f99:-1.807355",
+    "gain_bits": -1.3254854241244445,
+    "held_bits": 27.408191443737664,
+    "positive_gain_folios": 1,
     "positive_test_loci": 4,
     "representation": "HOST_WRAPPER_JOINT",
-    "selector_paid_gain_bits": -11.685119324944992,
+    "selector_paid_gain_bits": -4.647413519011806,
     "test_hedged_loci": 35,
     "train_unhedged_loci": 83
   },
   "implementation": {
-    "run_gdt096_layout_channel_transfer.py": "610864e2f5b04afe513c46fe33ed1ba35dce70ac7423e30bc277ceda24ee8607"
+    "run_gdt096_layout_channel_transfer.py": "bf3ebc3ab2ef993d95bfd48a40caaf60ab73f54d126f97d27472d4755def3988"
   },
   "inputs": {
     "gdt012_annotated_core_inventory.tsv": "137efc96893220f8d55857b5ffc60f54a4eeb87450b42151b8bdc557e7281525",
     "gdt059_hpr2_external_inventory.tsv": "3a683e6bf169fb79220693c3b75256588f37ec8e52f788af68ad3de3bb2f83ef",
     "gdt095_descriptor_token_manifest.tsv": "427ac316be00ad5c570ed160413561a7bba76b71b2f385de81ddc420fdcbfdf8",
-    "gdt095_result.json": "be36d517df9e90800849df8cad98c289ed511e3f0ee0cb4f0d2a365877faebb3"
+    "gdt095_result.json": "905330c868d2510c27163de9c7704f56b3a2e52d20495cfd4c22416c6dbbd981"
   },
-  "interpretation": "The GDT095 host-wrapper layout association does not transfer to HEDGED annotations; retain it as archive-local hypothesis generation only.",
+  "interpretation": "The GDT095 host-wrapper interaction does not transfer, while PAGE_HOST marginal trigrams show a low-capacity four-positive association slightly above raw strings.",
   "outputs": {
-    "gdt096_exact_null.tsv": "b6e9800a544af04e3b653e043e5111eb3fe585eef1c2abab4ca2238549c20019",
-    "gdt096_predictions.tsv": "aab830cc25b9027d996913af67f072a019ccd61853a0b2365e6c2a6c82297fc5",
-    "gdt096_representation_scores.tsv": "d9656d98fd6457102c8e3eac97dfaad8e0c3ae3af574b85eace0dd0d946f4e6a"
+    "gdt096_exact_null.tsv": "ddfe03a7b053aeec4fa3ff4ff8b90f4ff57bcc3aaf13c1ea88765c9068851b7e",
+    "gdt096_predictions.tsv": "8d79a18e41c9b02711733fd73296ad3bb380ea138b7432a1841fac174d069612",
+    "gdt096_representation_scores.tsv": "e4135fac3c726e2e6cca576ffdbaa8c1d0b02a50cfa8ba93d497bd18789fb323"
+  },
+  "page_host_result": {
+    "baseline_bits": 26.08270601961322,
+    "exact_local_p": 0.0010683760683760685,
+    "exact_max_representation_p": 0.0010683760683760685,
+    "folio_gains": "f100:0.547275;f102:1.157651;f88:0.447575;f89:3.573472;f99:0.457184",
+    "gain_bits": 6.183156878779673,
+    "held_bits": 19.899549140833546,
+    "positive_gain_folios": 5,
+    "positive_test_loci": 4,
+    "representation": "PAGE_HOST_CHAR3",
+    "selector_paid_gain_bits": 2.861228783892311,
+    "test_hedged_loci": 35,
+    "train_unhedged_loci": 83
   },
   "positive_test_loci": 4,
-  "result_content_sha256": "4ff81e0daa9c60944f6a8a95e89c51b5c793e3eb78829652a2b9ca2d66fb8ba3",
+  "raw_result": {
+    "baseline_bits": 26.08270601961322,
+    "exact_local_p": 0.0005341880341880342,
+    "exact_max_representation_p": 0.0010683760683760685,
+    "folio_gains": "f100:0.657391;f102:0.779208;f88:0.347956;f89:2.658474;f99:0.090746",
+    "gain_bits": 4.533774784119803,
+    "held_bits": 21.548931235493416,
+    "positive_gain_folios": 5,
+    "positive_test_loci": 4,
+    "representation": "RAW_CHAR3",
+    "selector_paid_gain_bits": 1.2118466892324409,
+    "test_hedged_loci": 35,
+    "train_unhedged_loci": 83
+  },
+  "result_content_sha256": "12ee0bd6fe6335f6df55cdb28f3e3cd9dd3662e7b9b0c8fdb72f37e96687f41d",
   "schema": "GDT096_LAYOUT_CHANNEL_TRANSFER_RESULT_V1",
-  "status": "GDT095_HOST_WRAPPER_LAYOUT_LEAD_FAILS_HEDGED_STRATUM_TRANSFER",
+  "status": "GDT095_HOST_WRAPPER_LAYOUT_LEAD_FAILS_BUT_PAGE_HOST_MARGIN_HAS_LOW_CAPACITY_TRANSFER",
   "test_hedged_loci": 35,
   "train_unhedged_loci": 83
 }
