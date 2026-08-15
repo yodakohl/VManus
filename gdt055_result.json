@@ -1,0 +1,188 @@
+{
+  "claim_ceiling": "Transferable formal placement: O early/intrafield and OT later-field/post-DY; no lexical later/after/inside/bounded meaning, word, morpheme, POS, sound, language, plaintext, or translation.",
+  "complete_groups": 8774,
+  "documents": {
+    "GDT055_O_OT_FIELD_DECOMPOSITION_METHOD.md": "047913fba51736086cf2632e2bdd476771d3f430d834accc3ba6a432cabe9eef",
+    "GDT055_O_OT_FIELD_DECOMPOSITION_REPORT.md": "83c83f900bc2b13e814477b06848ca163bf3781ee08f302b80602492315cc0dd"
+  },
+  "eligible_ladders": 49,
+  "f84r": {
+    "joined": false,
+    "opened": false,
+    "queried": false,
+    "retained": false,
+    "scored": false
+  },
+  "implementation": {
+    "run_gdt055_o_ot_field_decomposition.py": "2d5af72796c137766eaf3ee7973c3bc781f50a34b09105f63de1310e310fba3d"
+  },
+  "inputs": {
+    "gdt016_group_state_inventory.tsv": "e109ce15864ed6b6f76d446b3c96d6190a0dc53d20d8ab0944554124e687234c",
+    "gdt054_result.json": "37700160a16a4f9ee58797969afa3e34ffda6c78e80fa0ddd97fb23b71d1edf1"
+  },
+  "outputs": {
+    "gdt055_complete_line_o_ot_contexts.tsv": "f7439fdb4bd7f445ae042434e255fe9aef031d291ba4e1272b89a1c43afa3948",
+    "gdt055_field_decomposition_tests.tsv": "51831a80930fe53821be8bb3199b7b81c7b1aa89a8317e81f22211f42c742812"
+  },
+  "result_content_sha256": "b0879fa332eb8f144e5de915246680d1b16b61e09e364c87b14718b0d924f65e",
+  "schema": "GDT055_O_OT_FIELD_DECOMPOSITION_RESULT_V1",
+  "status": "OT_IS_LATER_FIELD_POST_DY_RENDERER_O_IS_EARLY_INTRAFIELD_RENDERER",
+  "tests": [
+    {
+      "a_groups": 557,
+      "b_groups": 332,
+      "bonferroni_12_p": 0.0011998800119988001,
+      "contrast": "BASE_TO_OT",
+      "effect_b_minus_a": 0.13498379486480308,
+      "feature": "normalized_field_index",
+      "held_hosts": 19,
+      "loho_max_effect": 0.1437271814164689,
+      "loho_min_effect": 0.12290611810393885,
+      "permutation_p": 9.999000099990002e-05,
+      "shared_page_host_strata": 204
+    },
+    {
+      "a_groups": 557,
+      "b_groups": 332,
+      "bonferroni_12_p": 1.0,
+      "contrast": "BASE_TO_OT",
+      "effect_b_minus_a": -0.017545780674282148,
+      "feature": "normalized_within_field_position",
+      "held_hosts": 19,
+      "loho_max_effect": 0.003829982342741075,
+      "loho_min_effect": -0.0385474816747856,
+      "permutation_p": 0.4597540245975402,
+      "shared_page_host_strata": 204
+    },
+    {
+      "a_groups": 557,
+      "b_groups": 332,
+      "bonferroni_12_p": 0.15478452154784522,
+      "contrast": "BASE_TO_OT",
+      "effect_b_minus_a": 0.0837440777826031,
+      "feature": "field_start",
+      "held_hosts": 19,
+      "loho_max_effect": 0.11842114660036497,
+      "loho_min_effect": 0.052388798573216225,
+      "permutation_p": 0.012898710128987101,
+      "shared_page_host_strata": 204
+    },
+    {
+      "a_groups": 557,
+      "b_groups": 332,
+      "bonferroni_12_p": 0.0011998800119988001,
+      "contrast": "BASE_TO_OT",
+      "effect_b_minus_a": 0.1714950558306696,
+      "feature": "after_dy",
+      "held_hosts": 19,
+      "loho_max_effect": 0.19414838038268648,
+      "loho_min_effect": 0.15977495752607504,
+      "permutation_p": 9.999000099990002e-05,
+      "shared_page_host_strata": 204
+    },
+    {
+      "a_groups": 123,
+      "b_groups": 131,
+      "bonferroni_12_p": 0.7175282471752825,
+      "contrast": "BASE_TO_O",
+      "effect_b_minus_a": -0.0899853785265728,
+      "feature": "normalized_field_index",
+      "held_hosts": 19,
+      "loho_max_effect": -0.0643413487350639,
+      "loho_min_effect": -0.13221784776902884,
+      "permutation_p": 0.05979402059794021,
+      "shared_page_host_strata": 61
+    },
+    {
+      "a_groups": 123,
+      "b_groups": 131,
+      "bonferroni_12_p": 0.010798920107989201,
+      "contrast": "BASE_TO_O",
+      "effect_b_minus_a": -0.15722858838481596,
+      "feature": "normalized_within_field_position",
+      "held_hosts": 19,
+      "loho_max_effect": -0.1420046351288301,
+      "loho_min_effect": -0.18250145192448766,
+      "permutation_p": 0.0008999100089991,
+      "shared_page_host_strata": 61
+    },
+    {
+      "a_groups": 123,
+      "b_groups": 131,
+      "bonferroni_12_p": 0.27357264273572646,
+      "contrast": "BASE_TO_O",
+      "effect_b_minus_a": 0.14465970347584953,
+      "feature": "field_start",
+      "held_hosts": 19,
+      "loho_max_effect": 0.2339481342006162,
+      "loho_min_effect": 0.11474568835177669,
+      "permutation_p": 0.022797720227977204,
+      "shared_page_host_strata": 61
+    },
+    {
+      "a_groups": 123,
+      "b_groups": 131,
+      "bonferroni_12_p": 1.0,
+      "contrast": "BASE_TO_O",
+      "effect_b_minus_a": 0.007281728067371465,
+      "feature": "after_dy",
+      "held_hosts": 19,
+      "loho_max_effect": 0.029356384799726114,
+      "loho_min_effect": -0.0043667974391840125,
+      "permutation_p": 1.0,
+      "shared_page_host_strata": 61
+    },
+    {
+      "a_groups": 31,
+      "b_groups": 49,
+      "bonferroni_12_p": 0.05279472052794721,
+      "contrast": "O_TO_OT",
+      "effect_b_minus_a": 0.24512322110378343,
+      "feature": "normalized_field_index",
+      "held_hosts": 12,
+      "loho_max_effect": 0.36755162241887906,
+      "loho_min_effect": 0.15202132385606398,
+      "permutation_p": 0.004399560043995601,
+      "shared_page_host_strata": 30
+    },
+    {
+      "a_groups": 31,
+      "b_groups": 49,
+      "bonferroni_12_p": 1.0,
+      "contrast": "O_TO_OT",
+      "effect_b_minus_a": 0.11593459762498287,
+      "feature": "normalized_within_field_position",
+      "held_hosts": 12,
+      "loho_max_effect": 0.15837789661319068,
+      "loho_min_effect": 0.0893841886870131,
+      "permutation_p": 0.1151884811518848,
+      "shared_page_host_strata": 30
+    },
+    {
+      "a_groups": 31,
+      "b_groups": 49,
+      "bonferroni_12_p": 0.4595540445955404,
+      "contrast": "O_TO_OT",
+      "effect_b_minus_a": -0.23533495314127031,
+      "feature": "field_start",
+      "held_hosts": 12,
+      "loho_max_effect": -0.1939901103081019,
+      "loho_min_effect": -0.28219915417147245,
+      "permutation_p": 0.0382961703829617,
+      "shared_page_host_strata": 30
+    },
+    {
+      "a_groups": 31,
+      "b_groups": 49,
+      "bonferroni_12_p": 1.0,
+      "contrast": "O_TO_OT",
+      "effect_b_minus_a": 0.07254425546685178,
+      "feature": "after_dy",
+      "held_hosts": 12,
+      "loho_max_effect": 0.1504424778761062,
+      "loho_min_effect": 0.03924528301886792,
+      "permutation_p": 0.49725027497250274,
+      "shared_page_host_strata": 30
+    }
+  ]
+}
