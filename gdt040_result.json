@@ -1,0 +1,178 @@
+{
+  "claim_ceiling": "Ordered reusable formal wrapper stack only; no morpheme, word, POS, sound, language, plaintext, meaning, or translation.",
+  "complete_line_field_position_overlap": {
+    "C0D0": {
+      "hb_n": 14,
+      "sb_n": 72,
+      "weighted_jaccard": 0.7142857142857142
+    },
+    "C0D1": {
+      "hb_n": 18,
+      "sb_n": 32,
+      "weighted_jaccard": 0.7297297297297297
+    },
+    "C1D0": {
+      "hb_n": 2,
+      "sb_n": 6,
+      "weighted_jaccard": 0.3333333333333333
+    },
+    "C1D1": {
+      "hb_n": 5,
+      "sb_n": 13,
+      "weighted_jaccard": 0.4942528735632185
+    }
+  },
+  "cross_register_predictions": [
+    {
+      "additional_parameter_bic_bits": 3.0437314206251695,
+      "conditional_test_bits": 227.1040264132822,
+      "global_test_bits": 233.1505846293565,
+      "paid_gain_bits": 3.002826795449119,
+      "raw_gain_bits": 6.046558216074288,
+      "test_events": 223,
+      "test_register": "SB",
+      "train_carrier_inner_d_probability": 0.7222222222222222,
+      "train_events": 68,
+      "train_global_inner_d_probability": 0.5434782608695652,
+      "train_no_carrier_inner_d_probability": 0.5163934426229508,
+      "train_register": "HB"
+    },
+    {
+      "additional_parameter_bic_bits": 3.9004499499601524,
+      "conditional_test_bits": 75.49430884492726,
+      "global_test_bits": 76.0350790485636,
+      "paid_gain_bits": -3.3596797463238106,
+      "raw_gain_bits": 0.5407702036363418,
+      "test_events": 68,
+      "test_register": "HB",
+      "train_carrier_inner_d_probability": 0.603448275862069,
+      "train_events": 223,
+      "train_global_inner_d_probability": 0.34151785714285715,
+      "train_no_carrier_inner_d_probability": 0.30357142857142855,
+      "train_register": "SB"
+    }
+  ],
+  "documents": {
+    "GDT040_AIIN_NESTED_WRAPPER_METHOD.md": "4d4245e21063b6a199a18b321ea5b74c27f95011a4341baf8732a041b7971852",
+    "GDT040_AIIN_NESTED_WRAPPER_REPORT.md": "f000519fead009a938b065098242d06954a34558e9d43ac37877c6e4a96cd303"
+  },
+  "f84r": {
+    "joined": false,
+    "opened": false,
+    "queried": false,
+    "retained": false,
+    "scored": false
+  },
+  "folio_tests": {
+    "HA": {
+      "double_expected": 17.702633477633476,
+      "double_observed": 0,
+      "excess": -17.702633477633476,
+      "folios": 45,
+      "null_max": 29,
+      "null_min": 0,
+      "occurrences": 303,
+      "one_sided_depletion_p": 4.681459278738792e-16,
+      "one_sided_enrichment_p": 0.9999999999999998,
+      "positive_folios": 0,
+      "registers": "HA"
+    },
+    "HB": {
+      "double_expected": 4.854978354978355,
+      "double_observed": 6,
+      "excess": 1.1450216450216448,
+      "folios": 13,
+      "null_max": 8,
+      "null_min": 0,
+      "occurrences": 68,
+      "one_sided_depletion_p": 0.9080086580086578,
+      "one_sided_enrichment_p": 0.3109539270253555,
+      "positive_folios": 4,
+      "registers": "HB"
+    },
+    "HB+SB": {
+      "double_expected": 16.14203944203944,
+      "double_observed": 23,
+      "excess": 6.85796055796056,
+      "folios": 25,
+      "null_max": 36,
+      "null_min": 0,
+      "occurrences": 291,
+      "one_sided_depletion_p": 0.9980196342778013,
+      "one_sided_enrichment_p": 0.006394826157178189,
+      "positive_folios": 9,
+      "registers": "HB+SB"
+    },
+    "OB": {
+      "double_expected": 3.0654411764705882,
+      "double_observed": 4,
+      "excess": 0.9345588235294118,
+      "folios": 20,
+      "null_max": 5,
+      "null_min": 0,
+      "occurrences": 180,
+      "one_sided_depletion_p": 0.9466709760827409,
+      "one_sided_enrichment_p": 0.31641887524240464,
+      "positive_folios": 2,
+      "registers": "OB"
+    },
+    "SB": {
+      "double_expected": 11.287061087061087,
+      "double_observed": 17,
+      "excess": 5.712938912938913,
+      "folios": 12,
+      "null_max": 28,
+      "null_min": 0,
+      "occurrences": 223,
+      "one_sided_depletion_p": 0.9972045360547408,
+      "one_sided_enrichment_p": 0.00986983508384934,
+      "positive_folios": 5,
+      "registers": "SB"
+    }
+  },
+  "implementation": {
+    "run_gdt040_aiin_nested_wrapper.py": "7b5cfc483bf142268414c85cfc6909a9f5f121231f036d55e6250c726f849b72"
+  },
+  "inputs": {
+    "gdt016_group_state_inventory.tsv": "e109ce15864ed6b6f76d446b3c96d6190a0dc53d20d8ab0944554124e687234c",
+    "gdt016_result.json": "aaa96a3be942bc1eab6587d5362922f3f16ec2beea7f520d47e190c32df80c2c",
+    "gdt037_result.json": "243c03f924f563f855b013d098215400b6227e26ed0f57d6017a859864c26876",
+    "gdt038_result.json": "168671a9a419d7e6c12c1d75ad32e08ed57d6ec09453f81f029bf05c3895939f"
+  },
+  "occurrences": 774,
+  "outputs": {
+    "gdt040_aiin_occurrences.tsv": "62de0c4c211fe5cf20896a66fb819c22cea90bc937cdaa77decfd162217ec9a5",
+    "gdt040_cross_register_predictions.tsv": "3c43247b68d47349f1308045fae45cc01955dad9bee8305fd740b50e3911ac06",
+    "gdt040_folio_compatibility_tests.tsv": "d5c4b57b47179b893ab8b89ee25215c598f1eab44dc6a3f6e3900e99d5c82363",
+    "gdt040_register_tables.tsv": "9552867c4a279144c3a3b5e6b3ce76e9a7c0da05432649c43ad287a87ec07ebb"
+  },
+  "register_tables": {
+    "HA": {
+      "C0D0": 39,
+      "C0D1": 235,
+      "C1D0": 29,
+      "C1D1": 0
+    },
+    "HB": {
+      "C0D0": 29,
+      "C0D1": 31,
+      "C1D0": 2,
+      "C1D1": 6
+    },
+    "OB": {
+      "C0D0": 84,
+      "C0D1": 91,
+      "C1D0": 1,
+      "C1D1": 4
+    },
+    "SB": {
+      "C0D0": 136,
+      "C0D1": 59,
+      "C1D0": 11,
+      "C1D1": 17
+    }
+  },
+  "result_content_sha256": "528735111c5d80251f818d58dc556da8f02bdf0e4ab0b6f0922e3214cd609778",
+  "schema": "GDT040_AIIN_NESTED_WRAPPER_RESULT_V1",
+  "status": "DAIIN_DECOMPOSES_AS_CURRIER_B_CARRIER_D_AIIN_STACK"
+}
