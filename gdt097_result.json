@@ -1,0 +1,65 @@
+{
+  "claim_ceiling": "Archived mixed-context formal motif only; no semantic role, gloss, word, morpheme, POS, sound, language, plaintext, meaning, or translation.",
+  "documents": {
+    "GDT097_PCH_SPATIAL_CONTEXT_MOTIF_METHOD.md": "cb3278307e7dd10800ecf1039822e3f4b1938c676a79818ba597bb1ebaa767ab",
+    "GDT097_PCH_SPATIAL_CONTEXT_MOTIF_REPORT.md": "1f4f1e97ece7822ea43a514c945e06f78ff61496103650e941b1fd00586ff8d4"
+  },
+  "eligible_features": 108,
+  "f84r": {
+    "joined": false,
+    "opened": false,
+    "queried": false,
+    "retained": false,
+    "scored": false,
+    "targeted": false
+  },
+  "implementation": {
+    "run_gdt097_pch_spatial_context_motif.py": "b2f6f6d82018b5a9cf3806b4c70b5ec77d9bd93a5137ef6bfef7ec6fcc35d8c0"
+  },
+  "inputs": {
+    "gdt012_annotated_core_inventory.tsv": "137efc96893220f8d55857b5ffc60f54a4eeb87450b42151b8bdc557e7281525",
+    "gdt059_hpr2_external_inventory.tsv": "3a683e6bf169fb79220693c3b75256588f37ec8e52f788af68ad3de3bb2f83ef",
+    "gdt095_result.json": "32166615fd577edbb43e59f70d5e795cfcc15234b1970be255a502b9bc08fc86",
+    "gdt096_result.json": "0f5bcab61ba06901551707071a3dfba642657e833822eeb194ad6b1570a01499"
+  },
+  "interpretation": "PCH is a weak, postselected PAGE_HOST/raw-string motif associated with mixed base/ground/edge description contexts; no role or gloss is assigned.",
+  "loci": 118,
+  "outputs": {
+    "gdt097_motif_atlas.tsv": "f4135fe7de2a0c921d8fc68b71a598a048a20a52636265987bfa4a33c02683d5",
+    "gdt097_null_results.tsv": "aa8ad4cbae6fdde73a9b99df0c03199a629e09ef3b0a782f9af7a2adfbdc548d",
+    "gdt097_pch_cases.tsv": "865cd35f7df3c3f6bc46c6e9150dbae623d3d51830df3890015e572fd18bbbe9"
+  },
+  "pch_cases": 6,
+  "pch_certainty_counts": {
+    "HEDGED": 2,
+    "UNHEDGED": 4
+  },
+  "pch_folios": [
+    "f100",
+    "f102",
+    "f89"
+  ],
+  "pch_positive_cases": 6,
+  "permutation_worlds": 20000,
+  "physical_folios": 5,
+  "positive_loci": 34,
+  "result_content_sha256": "53532088fd8ffdf1f5e7e25fd62f61a40560347d00dd84c6318c3c22ce991c74",
+  "schema": "GDT097_PCH_SPATIAL_CONTEXT_MOTIF_RESULT_V1",
+  "status": "PCH_MIXED_SPATIAL_CONTEXT_MOTIF_WEAK_MAXT_NONCONFIRMING",
+  "top_candidate": {
+    "folio_contributions": "f100:0.454545;f102:2.588235;f88:0.000000;f89:0.800000;f99:0.000000",
+    "formal_feature": "pch",
+    "informative_folios": 3,
+    "leave_one_folio_effects": "f100:3.388235;f102:1.254545;f88:3.842781;f89:3.042781;f99:3.842781",
+    "local_permutation_p": 0.000599970001499925,
+    "max_search_p": 0.14689265536723164,
+    "negative_with_feature": 0,
+    "positive_effect_folios": 3,
+    "positive_with_feature": 6,
+    "positive_without_feature": 28,
+    "representation": "PAGE_HOST_CHAR3",
+    "semantic_role": "UNASSIGNED",
+    "support_loci": 6,
+    "within_folio_effect": 3.842780748663101
+  }
+}
