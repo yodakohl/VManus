@@ -1,0 +1,68 @@
+{
+  "claim_ceiling": "One prospective visible-root-geometry gloss test only; no plant identity, semantic role, word, morpheme, POS, sound, language, plaintext, meaning, or translation.",
+  "decision": {
+    "any_negative": "KOR_ROOT_GEOMETRY_GLOSS_REJECTED",
+    "both_positive": "KOR_ROOT_GEOMETRY_GLOSS_TRANSFERS",
+    "otherwise": "KOR_ROOT_GEOMETRY_GLOSS_UNRESOLVED"
+  },
+  "documents": {
+    "GDT150_KOR_ROOT_VISUAL_TRANSFER_METHOD.md": "be80d158a4c2b4fc516c5be286feae9e39eeff1b1c8562aedb549606b61b78ca"
+  },
+  "f84": {
+    "joined": false,
+    "opened": false,
+    "queried": false,
+    "retained": false,
+    "scored": false,
+    "targeted": false
+  },
+  "hypothesis": "Exact PAGE_HOST KOR predicts conspicuous thickened, segmented, or bulb-like root architecture.",
+  "implementation": {
+    "freeze_gdt150_kor_root_visual_transfer.py": "4a6721c8318e32c38fc2cbafd3225cd7622b104ca0a276629d63e36c6ee6878c"
+  },
+  "inputs": {
+    "gdt137_herbal_visual_feature_inventory.tsv": "1518a6ae3b0f7ef54379f305f5aa16d9afa0ebeaf9592a2264c5344335917138",
+    "gdt149_candidate_host_occurrences.tsv": "b2360d0dc727f0cfb4e2a115195f33b3b23cc4234666753d9d04783f990fad51",
+    "gdt149_result.json": "611f5315d6c11b8de2c11ace220fea16d5d5d1a74c08e15aea3ba0afffe04aa5"
+  },
+  "negative_rule": "Visible and judgeable root system contains only ordinary thin/tapering or unsegmented root strokes.",
+  "outputs": {
+    "gdt150_kor_root_targets.tsv": "a7e7e20b4bc22f856e0692dd1841cd58e19b956800535175173d7b451fdf1617"
+  },
+  "positive_rule": "At least one repeated rounded/thickened/tuber-like chamber or serial telescoping root segment clearly distinct from thin tapering roots and central stem.",
+  "prediction_content_sha256": "eeb361b6c7171aaeb1303119f3efc7a29a8f2c0b9a61c8b1824b650ab759194e",
+  "reviewer_provenance": "AI_DIRECT_VISUAL_OBSERVATION;HYPOTHESIS_AWARE;NO_HUMAN_CONFIRMATION",
+  "schema": "GDT150_KOR_ROOT_VISUAL_TRANSFER_PREDICTION_V1",
+  "status": "FROZEN_BEFORE_TARGET_IMAGE_ACCESS",
+  "targets": [
+    {
+      "frozen_prediction": "POSITIVE",
+      "image_access_before_freeze": "NO",
+      "kor_locus": "f22r.2",
+      "kor_surface": "kor",
+      "page": "f22r",
+      "physical_folio": "f22",
+      "provenance": "SOURCE_SELECTED_PROSPECTIVE_AI_VISUAL_TEST",
+      "selection_rule": "EXACT_KOR_NON_MHI007_ZERO_OF_12_GDT137_FEATURES",
+      "semantic_role": "UNASSIGNED",
+      "target_id": "GDT150_F22R",
+      "visual_call": "SEALED_NOT_REVIEWED",
+      "visual_endpoint": "CONSPICUOUS_THICKENED_SEGMENTED_OR_BULB_LIKE_ROOT_ARCHITECTURE"
+    },
+    {
+      "frozen_prediction": "POSITIVE",
+      "image_access_before_freeze": "NO",
+      "kor_locus": "f37r.7",
+      "kor_surface": "kor",
+      "page": "f37r",
+      "physical_folio": "f37",
+      "provenance": "SOURCE_SELECTED_PROSPECTIVE_AI_VISUAL_TEST",
+      "selection_rule": "EXACT_KOR_NON_MHI007_ZERO_OF_12_GDT137_FEATURES",
+      "semantic_role": "UNASSIGNED",
+      "target_id": "GDT150_F37R",
+      "visual_call": "SEALED_NOT_REVIEWED",
+      "visual_endpoint": "CONSPICUOUS_THICKENED_SEGMENTED_OR_BULB_LIKE_ROOT_ARCHITECTURE"
+    }
+  ],
+  "uncertain_rule": "Damage, crop, paint, or geometry prevents the distinction."
+}
