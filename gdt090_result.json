@@ -1,0 +1,70 @@
+{
+  "ch_pair": {
+    "descriptor_jaccard": 0.6666666666666666,
+    "folio_a": "f100",
+    "folio_b": "f89",
+    "inclusive_local_p": 0.7692307692307693,
+    "locus_a": "f100v.8",
+    "locus_b": "f89v1.3",
+    "matched_controls": 12,
+    "matched_mean_jaccard": 0.6702380952380952,
+    "page_host": "ch",
+    "positive_descriptors_a": 4,
+    "positive_descriptors_b": 6,
+    "shared_descriptor_names": "DARK;DARK_LEAF;LEAF_MENTION;ROOT_MENTION",
+    "shared_positive_descriptors": 4,
+    "union_positive_descriptors": 6
+  },
+  "claim_ceiling": "Archived description-vector comparison only; no semantic class, role, gloss, word, morpheme, POS, sound, language, plaintext, meaning, or translation.",
+  "descriptor_patterns": 11,
+  "documents": {
+    "GDT090_EXACT_HOST_VISUAL_STABILITY_METHOD.md": "a5626e1a659f972c174eddc8a219d1a249fbfee0ff4b9a1b8f5e65100b20b8d0",
+    "GDT090_EXACT_HOST_VISUAL_STABILITY_REPORT.md": "bce5115a1b94e71f4aadfe04e6da11ab1676ce2fee0836755b97be735efdf818"
+  },
+  "exact_host_pairs": 8,
+  "f84r": {
+    "joined": false,
+    "opened": false,
+    "queried": false,
+    "retained": false,
+    "scored": false,
+    "targeted": false
+  },
+  "implementation": {
+    "run_gdt090_exact_host_visual_stability.py": "338085cfd773514f66583b625915a3e39c42ad85adc701a6348fb44d08441ec5"
+  },
+  "inputs": {
+    "gdt012_annotated_core_inventory.tsv": "137efc96893220f8d55857b5ffc60f54a4eeb87450b42151b8bdc557e7281525",
+    "gdt059_hpr2_external_inventory.tsv": "3a683e6bf169fb79220693c3b75256588f37ec8e52f788af68ad3de3bb2f83ef",
+    "gdt089_descriptor_manifest.tsv": "e15d20ca266a1d932653a63598dd46cf23ee533a8b644c68e49a49619a330d4f",
+    "gdt089_result.json": "45aeacce6815ab0f2e1b7ea101d6dd629a793da25c7afd46687b04949b284793"
+  },
+  "interpretation": "Broad exact-host visual bundle stability is not supported; descriptor-specific GDT089 seeds remain exploratory.",
+  "loci": 85,
+  "null_mean_jaccard": 0.3863448720238095,
+  "observed_mean_jaccard": 0.28467261904761904,
+  "one_sided_better_p": 0.9712805743885122,
+  "os_pair": {
+    "descriptor_jaccard": 0.75,
+    "folio_a": "f100",
+    "folio_b": "f88",
+    "inclusive_local_p": 1.0,
+    "locus_a": "f100v.13",
+    "locus_b": "f88v.13",
+    "matched_controls": 8,
+    "matched_mean_jaccard": 0.8616071428571428,
+    "page_host": "os",
+    "positive_descriptors_a": 7,
+    "positive_descriptors_b": 7,
+    "shared_descriptor_names": "DARK;DARK_LEAF;LEAF_MENTION;LIGHT;LIGHT_ROOT;ROOT_MENTION",
+    "shared_positive_descriptors": 6,
+    "union_positive_descriptors": 8
+  },
+  "outputs": {
+    "gdt090_exact_host_pairs.tsv": "160c5dd7cefc7d50bdb80ed11fd9e81ee6c3bad21e7a9f15e7cf7a3bb6811045",
+    "gdt090_matched_null.tsv": "50a60736bc059c08ee25d91d60b58bc946972e9b76d3c9b61981807af662f002"
+  },
+  "result_content_sha256": "3be4a06cf2e1166838d362d8ee9f7b2ae506e596995ad846e2c238a768ccd855",
+  "schema": "GDT090_EXACT_HOST_VISUAL_STABILITY_RESULT_V1",
+  "status": "EXACT_HOST_WIDE_VISUAL_DESCRIPTOR_STABILITY_NOT_SUPPORTED"
+}
