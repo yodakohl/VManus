@@ -1,0 +1,171 @@
+{
+  "all_readings_profileable_loci": 15,
+  "all_readings_raw": {
+    "baseline_bits": 127.27784151681887,
+    "descriptor_tokens": 19,
+    "eligible_loci": 15,
+    "endpoint_panel": "ALL_19",
+    "gain_bits": -6.306127597677598,
+    "held_bits": 133.58396911449648,
+    "local_permutation_p": 0.026497350264973504,
+    "max_folio_gain": -0.29445728761086537,
+    "max_three_p": 0.0336966303369663,
+    "mean_available_neighbors": 4.933333333333334,
+    "min_folio_gain": -2.8759155372570784,
+    "physical_folios": 5,
+    "positive_cells": 55,
+    "positive_gain_folios": 0,
+    "representation": "RAW_CHAR3",
+    "scope": "AVERAGE_ALL3_GE1",
+    "selector_paid_gain_bits": "SENSITIVITY"
+  },
+  "claim_ceiling": "No semantic class, role, gloss, word, morpheme, POS, sound, language, plaintext, meaning, or translation.",
+  "descriptor_tokens": 19,
+  "documents": {
+    "GDT136_BEHAVIOR_PROFILE_LEGACY_TRANSFER_METHOD.md": "ad9ded02f6c58de89bcc18e8bb37042e58d7bfe4f676396f8c62b7c8f332cc56",
+    "GDT136_BEHAVIOR_PROFILE_LEGACY_TRANSFER_REPORT.md": "095558262b5de23c027428a9f8e79d9ecda302a33935b392341bf6790dacb4d2"
+  },
+  "f84": {
+    "all_rows_rejected_before_retention": true,
+    "new_f84r_access": false
+  },
+  "gates": {
+    "beats_page_host": false,
+    "beats_raw": false,
+    "max_three_p_le_005": true,
+    "positive_at_least_4_of_6_folios": false,
+    "selector_paid_positive": false,
+    "two_outside_folio_sensitivity_positive": false
+  },
+  "implementation": {
+    "run_gdt136_behavior_profile_legacy_transfer.py": "3ed7c4137445c7a8607e313ebc9de32bff22cb39a8421538fb6ec424f590f42b"
+  },
+  "inputs": {
+    "gdt012_annotated_core_inventory.tsv": "137efc96893220f8d55857b5ffc60f54a4eeb87450b42151b8bdc557e7281525",
+    "gdt016_group_state_inventory.tsv": "e109ce15864ed6b6f76d446b3c96d6190a0dc53d20d8ab0944554124e687234c",
+    "gdt059_hpr2_external_inventory.tsv": "3a683e6bf169fb79220693c3b75256588f37ec8e52f788af68ad3de3bb2f83ef",
+    "gdt062_right_family_inventory.tsv": "b0292332157524a7f5e0745bde74c38432c52e3f2dd7ae816677f0ea743ca1cc",
+    "gdt068_result.json": "ec418e059b3a13fe35b674ab9b82521be4b643c510ee658e4cb6f071b3d7fcbd",
+    "gdt095_descriptor_token_manifest.tsv": "427ac316be00ad5c570ed160413561a7bba76b71b2f385de81ddc420fdcbfdf8",
+    "gdt109_result.json": "68088aa78246161104664f29ad2aa7a12ec811dd628926534318bc8b177f74fb",
+    "gdt109_target_inventory.tsv": "803ab31409ebe6643c8752c47c09def6c0a7133457c89fcb6db30b857d8863c9",
+    "gdt136_capacity.tsv": "5430c852980908f61eb19b663b98d19079b59da899c449d4d4fd46cacff0b4f4",
+    "gdt136_prediction.json": "6e6a37809b8808df2aa02e982d703549ca05ccc17e31c9072a62683d496f4860"
+  },
+  "interpretation": "Post-hoc cross-panel test of a frozen source-only PAGE_HOST behavior representation; no semantic assignment.",
+  "outputs": {
+    "gdt136_counterexamples.tsv": "b8d629a12fa579abcddb78a89b6c65c3396556a2d7e9434827a059f64cc22041",
+    "gdt136_folio_scores.tsv": "b6f688ca1ab874219ddc63123044b35c0707bc3b45cc22f4d94e3c512022c71a",
+    "gdt136_null_results.tsv": "eb1f84c2f2239e441c7ce9dba079023eca11e5d15c0aae6bac0573f4a4692e8c",
+    "gdt136_representation_scores.tsv": "e15ef940d2630c1467d14572ff08c2a4a6091014ae5ba5a7f63babedbf02a644",
+    "gdt136_token_scores.tsv": "df9da0837b184babc0e4881f9ee78e93ab1e739a200c86172540086ce1a5d74a",
+    "gdt136_variant_log.tsv": "b382c4d69723c51098255d488c1ccfe2bdceedd63807fe336f076d8a24a52c43"
+  },
+  "primary": {
+    "BEHAVIOR_SELF_NEIGHBOR_NOPOS": {
+      "baseline_bits": 273.3169744013396,
+      "descriptor_tokens": 19,
+      "eligible_loci": 31,
+      "endpoint_panel": "ALL_19",
+      "gain_bits": -33.32147102779514,
+      "held_bits": 306.6384454291348,
+      "local_permutation_p": 0.22657734226577342,
+      "max_folio_gain": 4.233146476169992,
+      "max_three_p": 0.0011998800119988001,
+      "mean_available_neighbors": 5.0,
+      "min_folio_gain": -18.636741958462093,
+      "physical_folios": 6,
+      "positive_cells": 106,
+      "positive_gain_folios": 2,
+      "representation": "BEHAVIOR_SELF_NEIGHBOR_NOPOS",
+      "scope": "AVERAGE_PROFILEABLE_GE1",
+      "selector_paid_gain_bits": -34.906433528516295
+    },
+    "PAGE_HOST_CHAR3": {
+      "baseline_bits": 273.3169744013396,
+      "descriptor_tokens": 19,
+      "eligible_loci": 31,
+      "endpoint_panel": "ALL_19",
+      "gain_bits": -24.59029558014167,
+      "held_bits": 297.9072699814813,
+      "local_permutation_p": 0.14478552144785523,
+      "max_folio_gain": 4.966040412218001,
+      "max_three_p": 0.0011998800119988001,
+      "mean_available_neighbors": 4.516129032258065,
+      "min_folio_gain": -21.993707981303594,
+      "physical_folios": 6,
+      "positive_cells": 106,
+      "positive_gain_folios": 3,
+      "representation": "PAGE_HOST_CHAR3",
+      "scope": "AVERAGE_PROFILEABLE_GE1",
+      "selector_paid_gain_bits": -26.175258080862825
+    },
+    "RAW_CHAR3": {
+      "baseline_bits": 273.3169744013396,
+      "descriptor_tokens": 19,
+      "eligible_loci": 31,
+      "endpoint_panel": "ALL_19",
+      "gain_bits": 3.4167290842023403,
+      "held_bits": 269.90024531713726,
+      "local_permutation_p": 0.0011998800119988001,
+      "max_folio_gain": 5.291997496869917,
+      "max_three_p": 0.0011998800119988001,
+      "mean_available_neighbors": 4.774193548387097,
+      "min_folio_gain": -4.41335847839804,
+      "physical_folios": 6,
+      "positive_cells": 106,
+      "positive_gain_folios": 3,
+      "representation": "RAW_CHAR3",
+      "scope": "AVERAGE_PROFILEABLE_GE1",
+      "selector_paid_gain_bits": 1.8317665834811843
+    }
+  },
+  "primary_folios": 6,
+  "primary_loci": 31,
+  "representations": [
+    "BEHAVIOR_SELF_NEIGHBOR_NOPOS",
+    "PAGE_HOST_CHAR3",
+    "RAW_CHAR3"
+  ],
+  "result_content_sha256": "2d63450f816e72f8d3df482cff3e74c5e65a801b26d6a72c97e17736cf2e7b99",
+  "schema": "GDT136_BEHAVIOR_PROFILE_LEGACY_TRANSFER_RESULT_V1",
+  "scopes": [
+    "AVERAGE_PROFILEABLE_GE1",
+    "AVERAGE_PROFILEABLE_GE2",
+    "AVERAGE_ALL3_GE1",
+    "ZL3b_GE1",
+    "IT2a_GE1",
+    "RF1b_GE1"
+  ],
+  "status": "BEHAVIOR_PROFILE_LEGACY_TRANSFER_NOT_SUPPORTED",
+  "target_capacity_tokens": 8,
+  "target_loci_total": 44,
+  "training_loci_by_target_fold": {
+    "f100": 56,
+    "f101": 56,
+    "f102": 56,
+    "f88": 55,
+    "f89": 56,
+    "f99": 56
+  },
+  "two_outside_folio_behavior": {
+    "baseline_bits": 243.43314969488858,
+    "descriptor_tokens": 19,
+    "eligible_loci": 27,
+    "endpoint_panel": "ALL_19",
+    "gain_bits": -32.47250248400611,
+    "held_bits": 275.9056521788947,
+    "local_permutation_p": 0.39446055394460555,
+    "max_folio_gain": 4.233146476169992,
+    "max_three_p": 0.020597940205979402,
+    "mean_available_neighbors": 5.0,
+    "min_folio_gain": -19.790609965021417,
+    "physical_folios": 6,
+    "positive_cells": 96,
+    "positive_gain_folios": 2,
+    "representation": "BEHAVIOR_SELF_NEIGHBOR_NOPOS",
+    "scope": "AVERAGE_PROFILEABLE_GE2",
+    "selector_paid_gain_bits": "SENSITIVITY"
+  },
+  "two_outside_folio_loci": 27
+}
