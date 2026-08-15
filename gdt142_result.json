@@ -1,0 +1,328 @@
+{
+  "assignment_worlds": 120,
+  "claim_ceiling": "Assignment-geometry robustness only; no independent panel, botanical truth, identity, semantic role, gloss, word, morpheme, POS, sound, language, plaintext, meaning, or translation.",
+  "documents": {
+    "GDT142_RELATION_ASSIGNMENT_GEOMETRY_METHOD.md": "b3691a7eac7115381f65cfcb7c8b8bd1ec6667a451ce2897dea0a4ae3402d49a",
+    "GDT142_RELATION_ASSIGNMENT_GEOMETRY_REPORT.md": "afabddb16ce7a147d254b2864c09834660ac5a2ecaa210ca0b74e42fb9dcc88a"
+  },
+  "f84": {
+    "all_inputs_are_derived_gdt140_panel_artifacts_with_zero_f84_pages": true,
+    "new_f84r_access": false,
+    "source_or_image_opened": false
+  },
+  "gates": {
+    "all_six_page_host_char3_ranks_le_6": true,
+    "max_24_inclusive_p_le_0_05": true
+  },
+  "implementation": {
+    "run_gdt142_relation_assignment_geometry.py": "7f0866e2c929fabac33c3c592967606d771958c20cdeb7f43d5e1aac5eb83936"
+  },
+  "inputs": {
+    "gdt140_assignment_orbit.tsv": "e8e2a8cc74dc386d206ace0c371633e0f7bda0ee69f50a49747d0d7c9eebe6ac",
+    "gdt140_herbal_relation_inventory.tsv": "38584b43f02fb4affcbc6679acb4225be22637f83c641cc981967ec20abcb2a0",
+    "gdt140_pair_similarities.tsv": "86a4801f2bb2d22c0fca4feca316f6b7745a7d0b6dba947be34d6696e9cbc42b",
+    "gdt140_result.json": "41ab7e6e0a4bf8269de350dcbda06849240b1697ee4d50b6ed6839df8d1a1954",
+    "gdt141_result.json": "f33deade5e7bb63a7d4884fcbe1c5188d1f6102f9e4fa3c3857e0e95df3235b6"
+  },
+  "interpretation": "Post-hoc scale and reciprocity robustness inside the exposed GDT140 five-by-five assignment.",
+  "key_variant": {
+    "descriptive_assignment_entropy_bits": 5.799676695136396,
+    "descriptive_effective_assignments": 55.70275178498145,
+    "normalization": "RECIPROCAL_RANK_MEAN",
+    "representation": "PAGE_HOST_CHAR3",
+    "true_descriptive_softmax_mass": 0.09932214105045092
+  },
+  "max_24_inclusive_p": 0.025,
+  "normalizations": [
+    "RAW_SIMILARITY",
+    "SOURCE_RANK",
+    "TARGET_RANK",
+    "MUTUAL_RANK_MEAN",
+    "RECIPROCAL_RANK_MEAN",
+    "MUTUAL_TOP2"
+  ],
+  "outputs": {
+    "gdt142_assignment_scores.tsv": "9537b6f45f9536105ecaccd279cf4f1e470a3bc7ae2b096c615b5cc0e8d3a9c6",
+    "gdt142_counterexamples.tsv": "dd89be7be464c65787520eb1c1e6a9fe3d54abe269652bc63434d03eea0cdecc",
+    "gdt142_near_optimal_assignments.tsv": "fa091f7c41e788d56c4838cdb88c8ce427e4daece86aa42a9823242d91d81911",
+    "gdt142_normalization_scores.tsv": "887d16f027056091513edeaf4da5ee68cf99306c86d8e3e62939fd0f90fa6d05",
+    "gdt142_relation_reciprocity.tsv": "ba556aa1bfd88de4c5cea92fd08eaf76777cac076ca9e48dcb35b47a6a6db997"
+  },
+  "relations": 5,
+  "representations": [
+    "PAGE_HOST_IDENTITY",
+    "PAGE_HOST_CHAR3",
+    "RAW_CHAR3",
+    "COMPILER_SIGNATURE"
+  ],
+  "result_content_sha256": "85b58e4c83037c287622da4abf4bf856d68c100997084d346645128c4677ca98",
+  "schema": "GDT142_RELATION_ASSIGNMENT_GEOMETRY_RESULT_V1",
+  "scores": [
+    {
+      "inclusive_rank_of_120": 3,
+      "local_inclusive_p": 0.025,
+      "max_24_inclusive_p": 0.025,
+      "normalization": "RAW_SIMILARITY",
+      "null_mean": 0.11455512356000801,
+      "null_sd": 0.013570949635994702,
+      "representation": "PAGE_HOST_IDENTITY",
+      "true_score": 0.14169244467684,
+      "true_z": 1.999662650346497
+    },
+    {
+      "inclusive_rank_of_120": 2,
+      "local_inclusive_p": 0.05,
+      "max_24_inclusive_p": 0.025,
+      "normalization": "SOURCE_RANK",
+      "null_mean": 0.6,
+      "null_sd": 0.06324555320336758,
+      "representation": "PAGE_HOST_IDENTITY",
+      "true_score": 0.72,
+      "true_z": 1.8973665961010278
+    },
+    {
+      "inclusive_rank_of_120": 5,
+      "local_inclusive_p": 0.16666666666666666,
+      "max_24_inclusive_p": 0.025,
+      "normalization": "TARGET_RANK",
+      "null_mean": 0.5999999999999998,
+      "null_sd": 0.06196773353931864,
+      "representation": "PAGE_HOST_IDENTITY",
+      "true_score": 0.6799999999999999,
+      "true_z": 1.2909944487358092
+    },
+    {
+      "inclusive_rank_of_120": 2,
+      "local_inclusive_p": 0.03333333333333333,
+      "max_24_inclusive_p": 0.025,
+      "normalization": "MUTUAL_RANK_MEAN",
+      "null_mean": 0.5999999999999999,
+      "null_sd": 0.050596442562694056,
+      "representation": "PAGE_HOST_IDENTITY",
+      "true_score": 0.7,
+      "true_z": 1.9764235376052393
+    },
+    {
+      "inclusive_rank_of_120": 2,
+      "local_inclusive_p": 0.025,
+      "max_24_inclusive_p": 0.025,
+      "normalization": "RECIPROCAL_RANK_MEAN",
+      "null_mean": 0.4566666666666667,
+      "null_sd": 0.04667261866805132,
+      "representation": "PAGE_HOST_IDENTITY",
+      "true_score": 0.5533333333333333,
+      "true_z": 2.071164409140762
+    },
+    {
+      "inclusive_rank_of_120": 33,
+      "local_inclusive_p": 0.7166666666666667,
+      "max_24_inclusive_p": 0.025,
+      "normalization": "MUTUAL_TOP2",
+      "null_mean": 0.2,
+      "null_sd": 0.1549193338482967,
+      "representation": "PAGE_HOST_IDENTITY",
+      "true_score": 0.2,
+      "true_z": 0.0
+    },
+    {
+      "inclusive_rank_of_120": 4,
+      "local_inclusive_p": 0.03333333333333333,
+      "max_24_inclusive_p": 0.025,
+      "normalization": "RAW_SIMILARITY",
+      "null_mean": 0.18683575851312,
+      "null_sd": 0.013914279607706024,
+      "representation": "PAGE_HOST_CHAR3",
+      "true_score": 0.2235249920542,
+      "true_z": 2.63680438912272
+    },
+    {
+      "inclusive_rank_of_120": 1,
+      "local_inclusive_p": 0.016666666666666666,
+      "max_24_inclusive_p": 0.025,
+      "normalization": "SOURCE_RANK",
+      "null_mean": 0.6,
+      "null_sd": 0.10276186062932102,
+      "representation": "PAGE_HOST_CHAR3",
+      "true_score": 0.8800000000000001,
+      "true_z": 2.724746304565332
+    },
+    {
+      "inclusive_rank_of_120": 2,
+      "local_inclusive_p": 0.03333333333333333,
+      "max_24_inclusive_p": 0.025,
+      "normalization": "TARGET_RANK",
+      "null_mean": 0.6,
+      "null_sd": 0.11999999999999998,
+      "representation": "PAGE_HOST_CHAR3",
+      "true_score": 0.8800000000000001,
+      "true_z": 2.333333333333335
+    },
+    {
+      "inclusive_rank_of_120": 2,
+      "local_inclusive_p": 0.016666666666666666,
+      "max_24_inclusive_p": 0.025,
+      "normalization": "MUTUAL_RANK_MEAN",
+      "null_mean": 0.6,
+      "null_sd": 0.10507140429250958,
+      "representation": "PAGE_HOST_CHAR3",
+      "true_score": 0.8800000000000001,
+      "true_z": 2.664854456694085
+    },
+    {
+      "inclusive_rank_of_120": 2,
+      "local_inclusive_p": 0.016666666666666666,
+      "max_24_inclusive_p": 0.025,
+      "normalization": "RECIPROCAL_RANK_MEAN",
+      "null_mean": 0.45666666666666667,
+      "null_sd": 0.11235608078287924,
+      "representation": "PAGE_HOST_CHAR3",
+      "true_score": 0.8083333333333332,
+      "true_z": 3.1299299888026475
+    },
+    {
+      "inclusive_rank_of_120": 3,
+      "local_inclusive_p": 0.08333333333333333,
+      "max_24_inclusive_p": 0.025,
+      "normalization": "MUTUAL_TOP2",
+      "null_mean": 0.24000000000000005,
+      "null_sd": 0.1854723699099141,
+      "representation": "PAGE_HOST_CHAR3",
+      "true_score": 0.6,
+      "true_z": 1.940989917661891
+    },
+    {
+      "inclusive_rank_of_120": 47,
+      "local_inclusive_p": 0.39166666666666666,
+      "max_24_inclusive_p": 0.025,
+      "normalization": "RAW_SIMILARITY",
+      "null_mean": 0.21346205946615998,
+      "null_sd": 0.015364816449750851,
+      "representation": "RAW_CHAR3",
+      "true_score": 0.2181477479594,
+      "true_z": 0.30496221732059847
+    },
+    {
+      "inclusive_rank_of_120": 43,
+      "local_inclusive_p": 0.6833333333333333,
+      "max_24_inclusive_p": 0.025,
+      "normalization": "SOURCE_RANK",
+      "null_mean": 0.5999999999999999,
+      "null_sd": 0.0593295878967653,
+      "representation": "RAW_CHAR3",
+      "true_score": 0.6000000000000001,
+      "true_z": 3.742561052529026e-15
+    },
+    {
+      "inclusive_rank_of_120": 4,
+      "local_inclusive_p": 0.08333333333333333,
+      "max_24_inclusive_p": 0.025,
+      "normalization": "TARGET_RANK",
+      "null_mean": 0.6,
+      "null_sd": 0.13084341787036902,
+      "representation": "RAW_CHAR3",
+      "true_score": 0.8,
+      "true_z": 1.528544601289358
+    },
+    {
+      "inclusive_rank_of_120": 14,
+      "local_inclusive_p": 0.175,
+      "max_24_inclusive_p": 0.025,
+      "normalization": "MUTUAL_RANK_MEAN",
+      "null_mean": 0.6,
+      "null_sd": 0.08809086218218096,
+      "representation": "RAW_CHAR3",
+      "true_score": 0.7,
+      "true_z": 1.1351915229662493
+    },
+    {
+      "inclusive_rank_of_120": 19,
+      "local_inclusive_p": 0.16666666666666666,
+      "max_24_inclusive_p": 0.025,
+      "normalization": "RECIPROCAL_RANK_MEAN",
+      "null_mean": 0.45666666666666667,
+      "null_sd": 0.09093343108499145,
+      "representation": "RAW_CHAR3",
+      "true_score": 0.5533333333333333,
+      "true_z": 1.0630487106146542
+    },
+    {
+      "inclusive_rank_of_120": 13,
+      "local_inclusive_p": 0.35,
+      "max_24_inclusive_p": 0.025,
+      "normalization": "MUTUAL_TOP2",
+      "null_mean": 0.24000000000000002,
+      "null_sd": 0.1854723699099141,
+      "representation": "RAW_CHAR3",
+      "true_score": 0.4,
+      "true_z": 0.8626621856275073
+    },
+    {
+      "inclusive_rank_of_120": 110,
+      "local_inclusive_p": 0.9166666666666666,
+      "max_24_inclusive_p": 0.025,
+      "normalization": "RAW_SIMILARITY",
+      "null_mean": 0.26057729910152,
+      "null_sd": 0.019137573327291095,
+      "representation": "COMPILER_SIGNATURE",
+      "true_score": 0.23427656546479997,
+      "true_z": -1.374298255422694
+    },
+    {
+      "inclusive_rank_of_120": 71,
+      "local_inclusive_p": 0.7833333333333333,
+      "max_24_inclusive_p": 0.025,
+      "normalization": "SOURCE_RANK",
+      "null_mean": 0.6,
+      "null_sd": 0.08294576541331088,
+      "representation": "COMPILER_SIGNATURE",
+      "true_score": 0.5599999999999999,
+      "true_z": -0.4822428221704126
+    },
+    {
+      "inclusive_rank_of_120": 95,
+      "local_inclusive_p": 0.8833333333333333,
+      "max_24_inclusive_p": 0.025,
+      "normalization": "TARGET_RANK",
+      "null_mean": 0.6,
+      "null_sd": 0.1258570617804182,
+      "representation": "COMPILER_SIGNATURE",
+      "true_score": 0.4800000000000001,
+      "true_z": -0.9534625892455914
+    },
+    {
+      "inclusive_rank_of_120": 94,
+      "local_inclusive_p": 0.825,
+      "max_24_inclusive_p": 0.025,
+      "normalization": "MUTUAL_RANK_MEAN",
+      "null_mean": 0.6,
+      "null_sd": 0.09838699100999074,
+      "representation": "COMPILER_SIGNATURE",
+      "true_score": 0.52,
+      "true_z": -0.8131156281817413
+    },
+    {
+      "inclusive_rank_of_120": 91,
+      "local_inclusive_p": 0.7666666666666667,
+      "max_24_inclusive_p": 0.025,
+      "normalization": "RECIPROCAL_RANK_MEAN",
+      "null_mean": 0.45666666666666667,
+      "null_sd": 0.09116377204423548,
+      "representation": "COMPILER_SIGNATURE",
+      "true_score": 0.3883333333333333,
+      "true_z": -0.7495667610174787
+    },
+    {
+      "inclusive_rank_of_120": 45,
+      "local_inclusive_p": 0.7666666666666667,
+      "max_24_inclusive_p": 0.025,
+      "normalization": "MUTUAL_TOP2",
+      "null_mean": 0.24000000000000002,
+      "null_sd": 0.17435595774162696,
+      "representation": "COMPILER_SIGNATURE",
+      "true_score": 0.2,
+      "true_z": -0.2294157338705618
+    }
+  ],
+  "status": "RELATION_ASSIGNMENT_GEOMETRY_ROBUST_WITHIN_EXPOSED_5X5",
+  "variant_count": 24
+}
