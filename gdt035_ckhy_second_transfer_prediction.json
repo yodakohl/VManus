@@ -1,0 +1,57 @@
+{
+  "schema": "GDT035_CKHY_SECOND_TRANSFER_PREDICTION_V1",
+  "status": "FROZEN_BEFORE_TARGET_CKHY_QUERY",
+  "parents": {
+    "gdt033_result_sha256": "97ac2b3de5d0f46166b86ebbeeef67cbad145edf1629df975a349811c433eac7",
+    "gdt034_result_sha256": "ed80c8cc7b3c81d778a062a6180856098fa2d323eb3cbefda334ef9fe0f17813"
+  },
+  "hypothesis": {
+    "formal_host": "ckhy",
+    "gloss": "PARALLEL_OR_FUSED_LEAF_OR_STALK_CONFIGURATION_DESCRIPTOR",
+    "parser_integration": false,
+    "alternative_meaning_search": "PROHIBITED"
+  },
+  "target": {
+    "page": "f101v",
+    "physical_folio": "f101",
+    "section_description": "PHARMACEUTICAL_BOTANICAL_FRAGMENT_MATERIAL",
+    "selection_basis": "VISIBLE_GEOMETRY_ONLY_BEFORE_GDT035_CKHY_QUERY",
+    "visual_class": "COMPARABLE_PARALLEL_OR_FUSED_LEAF_STALK_GEOMETRY",
+    "provenance": "AI_DIRECT_VISUAL_OBSERVATION",
+    "neutral_observation": "A lower-left botanical fragment has an upright green central axis carrying repeated narrow leaf-shaped strokes in two near-parallel lateral rows; their bases visibly join the axis.",
+    "source_canvas": "1006250",
+    "source_canvas_label": "101v (part)",
+    "source_url": "https://collections.library.yale.edu/iiif/2/1006250/full/1600,/0/default.jpg",
+    "source_sha256": "755dd2adce5242788b6112db6deb97f0a6f0778878a4bda78130c09e4499734b",
+    "source_dimensions": "1600x2241",
+    "prior_generic_image_exposure": "PVO001 complete pharmaceutical ownership census",
+    "prior_ckhy_semantic_query": false
+  },
+  "prediction": {
+    "query": "count GDT016 rows on f101v with residual_host exactly ckhy",
+    "allowed_surface_forms": [
+      "ckhy",
+      "chckhy",
+      "checkhy",
+      "shckhy"
+    ],
+    "positive_condition": "exact_host_occurrences_greater_than_or_equal_to_1",
+    "pass_status": "PASS_SECOND_SEMANTIC_GLOSS_PROVISIONAL_TRANSFER",
+    "fail_status": "FAIL_SECOND_SEMANTIC_GLOSS_REJECTED"
+  },
+  "failure_scope": "A miss rejects only the parallel/fused leaf-or-stalk semantic gloss; CKHY remains a formal core and the parser is unchanged.",
+  "access": {
+    "target_image_opened_before_freeze": true,
+    "target_ckhy_presence_queried_before_freeze": false,
+    "image_pristine": false,
+    "ckhy_query_prospective": true
+  },
+  "f84r": {
+    "opened": false,
+    "retained": false,
+    "queried": false,
+    "joined": false,
+    "scored": false
+  },
+  "claim_ceiling": "One second page-level CKHY semantic-gloss prediction in botanical fragment material; no component ownership, word, morpheme, POS, sound, language, plaintext, translation, authorship, or origin."
+}
