@@ -1,0 +1,33 @@
+{
+  "schema": "GDT157_LEARNED_ABBREVIATION_CAUSAL_SOURCE_FREEZE_V1",
+  "status": "FROZEN_BEFORE_GENERATED_DIPLOMATIC_SCORING",
+  "date": "2026-08-15",
+  "channel": {
+    "outer_folds": ["Band2", "Band3", "Band4", "Band5"],
+    "training_scope": "OTHER_THREE_BOOKS_ONLY",
+    "views": ["EXPANDED_PLAINTEXT", "GENERATED_DIPLOMATIC_MAP", "GENERATED_DIPLOMATIC_SAMPLED", "REAL_DIPLOMATIC"],
+    "voynich_specific_rules": 0,
+    "models": ["EXACT_EXPANSION_EMPIRICAL", "CONTEXTUAL_CHARACTER_EMISSION_BACKOFF"],
+    "sampling_seed": "GDT157_LEARNED_CHANNEL_V1"
+  },
+  "inputs": {
+    "gdt155_blinded_diplomatic.tsv": "8e907ee5a29def9098e84239617c8deab4d3420c8df50860107d8637489ec03b",
+    "gdt155_unblinded_lines.tsv": "57cbf58af98a14e220852054ce2b6aff90702f332757d0229cc9b6d6f6968ab7",
+    "gdt155_unblinded_record_truth.tsv": "38cb3f5e3b08a1d4bb32950f70465e64dd2c24472e7759009377cf2878be0e7b",
+    "gdt155_unblind_export.json": "81867d5da5b1190709f712e698858208ccb995a98ca7f74789a58cc4f8927044"
+  },
+  "contracts": {
+    "method": "GDT157_LEARNED_ABBREVIATION_CAUSAL_METHOD.md",
+    "feature_contract": "gdt157_feature_contract.tsv",
+    "voynich_reference_manifest": "gdt157_voynich_reference_manifest.tsv"
+  },
+  "f84r": {
+    "voynich_source_inputs": 0,
+    "opened": false,
+    "queried": false,
+    "retained": false,
+    "joined": false,
+    "scored": false
+  },
+  "claim_ceiling": "Causal learned-abbreviation structural calibration only; no Voynich word, morpheme, sound, language, plaintext, semantic role, meaning, origin, or translation."
+}

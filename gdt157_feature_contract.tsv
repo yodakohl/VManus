@@ -1,0 +1,19 @@
+feature_id	block	definition	primary_comparison	voynich_reference	selection
+SF01	GDT003	mean_discovered_operations on common 12x1000 sample	generated-expansion and generated-real	VOYNICH_MATCHED identically defined	FROZEN
+SF02	GDT003	left_right_log2_support_ratio	generated-expansion and generated-real	VOYNICH_MATCHED identically defined	FROZEN
+SF03	GDT003	replace_fraction	generated-expansion and generated-real	VOYNICH_MATCHED identically defined	FROZEN
+SF04	GDT003	rectangle_completion_rate	generated-expansion and generated-real	VOYNICH_MATCHED identically defined	FROZEN
+SF05	GDT003	compatible_pair_density	generated-expansion and generated-real	VOYNICH_MATCHED identically defined	FROZEN
+SF06	GDT003	heldout_precision and paradigm AP gain over best string baseline	generated-expansion and generated-real	VOYNICH_MATCHED identically defined	FROZEN
+HP01	HPR2_CONTROL	held-book learned left and right deletion families	generated-expansion and generated-real	GDT051 qualitative layer reference only	FROZEN
+HP02	HPR2_CONTROL	complete left x right host rectangle instances	generated-expansion and generated-real	GDT003 rectangle reference not same metric	FROZEN
+HP03	HPR2_CONTROL	PAGE_HOST recurrence fraction and cross-record recurrence	generated-expansion and generated-real	GDT051/GDT059 qualitative reference only	FROZEN
+LR01	LINE_RECORD	first-vs-interior and last-vs-interior token-distribution Jensen-Shannon divergence	generated-expansion and generated-real	published line-reset contrast contextual only	FROZEN
+LR02	LINE_RECORD	first-line-vs-continuation and record-final-vs-interior profile contrast	generated-expansion and generated-real	GDT045/GDT046 contextual aggregate	FROZEN
+CS01	CROSS_SPACE	mutual information of previous last-2 and next first-2 characters minus mean cyclic-within-line rotations	generated-expansion and generated-real	no direct common-scale Voynich value	FROZEN
+EN01	ENTROPY	group type entropy bits per group	generated-expansion and generated-real	no direct common-scale Voynich value	FROZEN
+EN02	ENTROPY	character unigram and conditional bigram entropy bits per character	generated-expansion and generated-real	no direct common-scale Voynich value	FROZEN
+EN03	ENTROPY	mean characters per group and character-retention ratio	generated-expansion and generated-real	no direct common-scale Voynich value	FROZEN
+CR01	CONTENT_RETRIEVAL	held-book same-book non-self known-content retrieval MRR with raw char3	generated-expansion and generated-real	GDT059 contextual negative; no known Voynich plaintext	FROZEN
+CR02	CONTENT_RETRIEVAL	held-book same-book non-self known-content retrieval MRR with PAGE_HOST char3	generated-expansion and generated-real	GDT059 contextual negative; no known Voynich plaintext	FROZEN
+CR03	CONTENT_RETRIEVAL	held-book same-book non-self known-content retrieval MRR with compiler signature	generated-expansion and generated-real	GDT059 contextual negative; no known Voynich plaintext	FROZEN
