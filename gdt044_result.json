@@ -1,0 +1,100 @@
+{
+  "claim_ceiling": "Exact OKAM placement attributed to terminal-M positional system only; no function, word, morpheme, POS, sound, language, plaintext, meaning, or translation.",
+  "complete_hb_sb_groups": 3214,
+  "complete_hb_sb_lines": 362,
+  "complete_okam_occurrences": 6,
+  "documents": {
+    "GDT044_OKAM_TERMINAL_M_METHOD.md": "ef34ddec6013450b41230b3664dd902dea7140fa7c190c258563b15712e7d627",
+    "GDT044_OKAM_TERMINAL_M_REPORT.md": "f429d104feb5453262bfb4d3c6044d18d552c1ba88d01370780cefacf0b86b35"
+  },
+  "f84r": {
+    "joined": false,
+    "opened": false,
+    "queried": false,
+    "retained": false,
+    "scored": false
+  },
+  "implementation": {
+    "run_gdt039_terminal_m_positional_control.py": "7b853bdc330bea39ebca3d0e06aa9d42255e0afa701651cda7e3119933d2a044",
+    "run_gdt044_okam_terminal_m.py": "ed72935e5ede6b127cdf089425ceff9fe63d4222050f69993d7828a1060c6bb0"
+  },
+  "inputs": {
+    "gdt016_group_state_inventory.tsv": "e109ce15864ed6b6f76d446b3c96d6190a0dc53d20d8ab0944554124e687234c",
+    "gdt016_result.json": "aaa96a3be942bc1eab6587d5362922f3f16ec2beea7f520d47e190c32df80c2c",
+    "gdt038_result.json": "168671a9a419d7e6c12c1d75ad32e08ed57d6ec09453f81f029bf05c3895939f",
+    "gdt039_result.json": "83c5ac88804231a9bc86594b2d1546aca2e3fb9cbd2163c8debb2c9a663eb542"
+  },
+  "outputs": {
+    "gdt044_okam_complete_occurrences.tsv": "a34c0412c1fc57ccd1a62c15c3448cf5dfbb3d615dbb451d70fd3f376aba0e52",
+    "gdt044_okam_tests.tsv": "c9fe3c64b2dc2d741011115217a0197fa5cb658031a9e1c8a277b0c97c732936"
+  },
+  "raw_physical_line_end": {
+    "bonferroni_8_p": 0.0005509641873278238,
+    "contrast": "ALL_GROUPS",
+    "family_n": 6,
+    "hb_hits": 4,
+    "hb_n": 4,
+    "informative_lines": 6,
+    "local_p": 6.887052341597797e-05,
+    "lofo_min_effect": 0.6854545454545454,
+    "lofo_min_rate": 0.8,
+    "null_expected_hits": 0.6560606060606061,
+    "null_expected_rate": 0.10934343434343435,
+    "null_support_max": 6,
+    "null_support_min": 0,
+    "observed": 5,
+    "observed_rate": 0.8333333333333334,
+    "outcome": "physical_line_end",
+    "rate_effect": 0.723989898989899,
+    "sb_hits": 1,
+    "sb_n": 2,
+    "target_folios": 6
+  },
+  "result_content_sha256": "97b9c66b4fb30ab6b528e3c21f7aa3ee628ebbb9bcd379302e32a7e3aa66d5c6",
+  "schema": "GDT044_OKAM_TERMINAL_M_RESULT_V1",
+  "status": "OKAM_PLACEMENT_ATTRIBUTED_TO_TERMINAL_M_SYSTEM",
+  "within_terminal_m_final_open_field": {
+    "bonferroni_8_p": 1,
+    "contrast": "WITHIN_TERMINAL_M",
+    "family_n": 6,
+    "hb_hits": 4,
+    "hb_n": 4,
+    "informative_lines": 0,
+    "local_p": 1.0,
+    "lofo_min_effect": 0.0,
+    "lofo_min_rate": 0.8,
+    "null_expected_hits": 5.0,
+    "null_expected_rate": 0.8333333333333334,
+    "null_support_max": 5,
+    "null_support_min": 5,
+    "observed": 5,
+    "observed_rate": 0.8333333333333334,
+    "outcome": "final_open_field",
+    "rate_effect": 0.0,
+    "sb_hits": 1,
+    "sb_n": 2,
+    "target_folios": 6
+  },
+  "within_terminal_m_physical_line_end": {
+    "bonferroni_8_p": 1,
+    "contrast": "WITHIN_TERMINAL_M",
+    "family_n": 6,
+    "hb_hits": 4,
+    "hb_n": 4,
+    "informative_lines": 1,
+    "local_p": 0.5,
+    "lofo_min_effect": 0.0,
+    "lofo_min_rate": 0.8,
+    "null_expected_hits": 4.5,
+    "null_expected_rate": 0.75,
+    "null_support_max": 5,
+    "null_support_min": 4,
+    "observed": 5,
+    "observed_rate": 0.8333333333333334,
+    "outcome": "physical_line_end",
+    "rate_effect": 0.08333333333333333,
+    "sb_hits": 1,
+    "sb_n": 2,
+    "target_folios": 6
+  }
+}
