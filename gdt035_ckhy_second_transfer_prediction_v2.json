@@ -1,0 +1,37 @@
+{
+  "schema": "GDT035_CKHY_SECOND_TRANSFER_PREDICTION_V2",
+  "status": "FROZEN_AFTER_CAPACITY_CORRECTION_BEFORE_SOURCE_GROUP_QUERY",
+  "supersedes_query_only": "gdt035_ckhy_second_transfer_prediction.json",
+  "unchanged": {
+    "target_page": "f101v",
+    "gloss": "PARALLEL_OR_FUSED_LEAF_OR_STALK_CONFIGURATION_DESCRIPTOR",
+    "allowed_surface_forms": [
+      "ckhy",
+      "chckhy",
+      "checkhy",
+      "shckhy"
+    ],
+    "positive_condition": "at_least_one_exact_physical_group",
+    "pass_status": "PASS_SECOND_SEMANTIC_GLOSS_PROVISIONAL_TRANSFER",
+    "fail_status": "FAIL_SECOND_SEMANTIC_GLOSS_REJECTED"
+  },
+  "capacity_correction": {
+    "v1_inventory": "gdt016_group_state_inventory.tsv",
+    "v1_target_rows_of_any_host": 0,
+    "v1_outcome": "UNSCORABLE_TARGET_OUTSIDE_INVENTORY",
+    "target_group_content_inspected_during_capacity_check": false,
+    "v2_inventory": "experiments/semantic_assumptions/results/source_sta_group_alignment.tsv",
+    "v2_query": "group f101v rows by locus and source_group_index; count a physical group only if ZL3b IT2a and RF1b all have the identical nearest_basic_eva_primary in the fixed four-form set",
+    "fuzzy_matching": false,
+    "family_neighbor_matching": false,
+    "alternative_page_or_gloss": false
+  },
+  "failure_scope": "A scored v2 miss rejects only the parallel/fused leaf-or-stalk semantic gloss; CKHY remains a formal core and the parser is unchanged.",
+  "f84r": {
+    "opened": false,
+    "retained": false,
+    "queried": false,
+    "joined": false,
+    "scored": false
+  }
+}
