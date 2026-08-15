@@ -1,0 +1,140 @@
+{
+  "claim_ceiling": "Explicit formal encoding theory only; no semantic role, gloss, word, morpheme, POS, sound, language, plaintext, meaning, or translation.",
+  "f84r": {
+    "joined": false,
+    "opened": false,
+    "prediction_frozen": false,
+    "queried": false,
+    "retained": false,
+    "scored": false,
+    "targeted": false
+  },
+  "formal_components": [
+    {
+      "component": "PAGE_PROFILE",
+      "confidence": "STRONG_FORMAL",
+      "provisional_function": "select register and local codebook distribution"
+    },
+    {
+      "component": "CODEWORD_BODY",
+      "confidence": "STRONG_FORMAL_WEAK_EXTERNAL",
+      "provisional_function": "page-local reusable formal identity; semantic level unresolved"
+    },
+    {
+      "component": "EDGE_STATE",
+      "confidence": "VERY_STRONG_FORMAL",
+      "provisional_function": "coupled state licensing DY/right/bare rendering"
+    },
+    {
+      "component": "q",
+      "confidence": "VERY_STRONG_FORMAL_STRING_EQUIVALENT",
+      "provisional_function": "early O-branch router"
+    },
+    {
+      "component": "d",
+      "confidence": "STRONG_FORMAL_STRING_EQUIVALENT",
+      "provisional_function": "late Y-branch router"
+    },
+    {
+      "component": "O_OT",
+      "confidence": "STRONG_PLACEMENT",
+      "provisional_function": "position/frame coordinate without demonstrated content preservation"
+    },
+    {
+      "component": "DY",
+      "confidence": "VERY_STRONG_FORMAL",
+      "provisional_function": "edge-licensed renderer/closure, not supported as pre-post transition"
+    },
+    {
+      "component": "RIGHT_FAMILY",
+      "confidence": "STRONG_FORMAL",
+      "provisional_function": "host/register-conditioned rendering"
+    },
+    {
+      "component": "B3",
+      "confidence": "PROVISIONAL_FORMAL",
+      "provisional_function": "optional close-state negative control"
+    }
+  ],
+  "frozen_non_f84_predictions": [
+    "previous CODEWORD edge will predict DY/right/bare more strongly than the following host",
+    "q-O and d-Y branch licensing will transfer to new source registers but remain matched by local string features",
+    "exact PAGE_HOST visual glosses will usually fail cross-folio transfer unless conditioned on a repeated record template",
+    "record-template alignment will outperform isolated-host alignment on new external structure",
+    "B3 will remain near-neutral for external content after active-only encoding"
+  ],
+  "generative_grammar": [
+    "PAGE := PAGE_PROFILE CODEBOOK RECORD+",
+    "CODEBOOK := register_conditioned_set(CODEWORD_BODY)",
+    "RECORD := ENTRY_ROUTER? FIELD (FIELD_LINK FIELD)* B3_CLOSE?",
+    "FIELD := OUTER_ROUTER? POSITION_FRAME? COUPLED_CODEWORD RENDERER?",
+    "OUTER_ROUTER := q_on_O_branch | d_on_Y_branch | conditional_other_wrapper",
+    "POSITION_FRAME := O | OT | NONE",
+    "COUPLED_CODEWORD := BODY_WITH_EDGE_STATE",
+    "RENDERER := DY_if_licensed_by_edge | RIGHT_FAMILY_if_licensed_by_host_register | BARE",
+    "B3_CLOSE := optional_terminal_M_state"
+  ],
+  "leading_theory": "PAGE_CONDITIONED_RECORD_CODE",
+  "representative_parses": [
+    {
+      "formal_parse": "q + O(pch+e) + DY",
+      "interpretation": "O-branch routed codeword with e edge licensing DY",
+      "surface": "qopchedy"
+    },
+    {
+      "formal_parse": "pch+d + RIGHT(ar)",
+      "interpretation": "d-edge codeword selecting right renderer",
+      "surface": "pchedar"
+    },
+    {
+      "formal_parse": "pch+ey + BARE",
+      "interpretation": "bare edge state",
+      "surface": "pchey"
+    },
+    {
+      "formal_parse": "y+pch+ed + DY",
+      "interpretation": "alternate body/edge realization selecting DY",
+      "surface": "ypcheddy"
+    },
+    {
+      "formal_parse": "q + OT(e) + DY",
+      "interpretation": "router/frame/edge composition; not linguistic morphology",
+      "surface": "qotedy"
+    }
+  ],
+  "schema": "GDT113_PAGE_CONDITIONED_RECORD_CODE_MODEL_V1",
+  "semantic_assignments": [],
+  "theory_comparison": [
+    {
+      "abductive_score_10": 4,
+      "failure": "nested paradigms do not beat string baselines; stable token semantics do not transfer",
+      "strength": "free/bound reuse and recurrent formal operations",
+      "theory": "COMPRESSED_ABBREVIATED_NATURAL_LANGUAGE"
+    },
+    {
+      "abductive_score_10": 5,
+      "failure": "exact host and behavior-class external associations fail transfer",
+      "strength": "record fields, line reset, page codebooks, repeated labels",
+      "theory": "STABLE_TOKEN_TECHNICAL_NOTATION"
+    },
+    {
+      "abductive_score_10": 5,
+      "failure": "GDT109/GDT112 external transfer failures and GDT106 inseparable edge",
+      "strength": "PAGE_HOST internal page vocabulary and compiler decomposition",
+      "theory": "HYBRID_TOKEN_CONTENT_ADDRESS_PLUS_RENDERER"
+    },
+    {
+      "abductive_score_10": 9,
+      "failure": "does not yet identify what record-level states refer to or prove meaningful content",
+      "strength": "jointly explains page vocabulary, register effects, edge licensing, routers, record structure, GDT003/string ceiling and semantic instability",
+      "theory": "PAGE_CONDITIONED_RECORD_CODE"
+    }
+  ],
+  "translation_strategy": [
+    "stop assigning stable meanings to exact PAGE_HOSTs from archive annotations",
+    "identify repeated whole-record templates with externally distinct page/diagram states",
+    "treat codeword inventories as page-conditioned and compare record-level substitutions",
+    "infer latent record fields before lexical units",
+    "only propose glosses after record-level transfer across independent physical folios"
+  ]
+}
