@@ -526,7 +526,11 @@ def corpus_worker(payload: tuple[str, list[dict[str, Any]], dict[str, Any]]) -> 
         graph = graph_for(records, held)
         if len(graph["left_ops"]) < 4 or len(graph["right_ops"]) < 4:
             graph_rows.append({"corpus_id": corpus, "held_fold": held, "status": "INSUFFICIENT_CLASS_CAPACITY",
-                               "left_operations": len(graph["left_ops"]), "right_operations": len(graph["right_ops"])})
+                               "left_operations": len(graph["left_ops"]), "right_operations": len(graph["right_ops"]),
+                               "pair_cells": "NA", "compatible_cells": "NA", "compatible_density": "NA",
+                               "selected_k_left_full_descriptive": "NA", "selected_k_right_full_descriptive": "NA",
+                               "left_min_class_size": "NA", "right_min_class_size": "NA", "block_mdl_bits": "NA",
+                               "in_sample_block_gain_bits": "NA", "occupied_positive_blocks": "NA", "blocks": "NA"})
             continue
         value = evaluate_graph(corpus, graph, design)
         graph_rows.append({"status": "SCORED", **value["graph"]})
@@ -750,6 +754,7 @@ def main() -> None:
         {"claim": "HOST_BLOCK_BEATS_STRING_BASELINES", "evidence": "No characters enter this test; HOST_PROFILE_LOGIT is the matched support-profile baseline.", "impact": "The result concerns compatibility graph compression, not text likelihood."},
         {"claim": "LATIN_DIFFERENCE_IDENTIFIES_LANGUAGE", "evidence": "Comparator corpora differ in genre, capacity, and diplomatic practice.", "impact": "Cross-corpus values calibrate architecture only."},
         {"claim": "TOP20_NULL_IS_UNSELECTED", "evidence": "The atlas-scope null conditions on GDT160's observed-selected 4,309-row library; full-universe output is the selection-free sensitivity.", "impact": "Both scopes must be reported."},
+        {"claim": "MAXIMUM_K_IS_A_COMPACT_CLASS_INVENTORY", "evidence": "Voynich's selected both-unseen median is 32 LEFT by 1 RIGHT and the LEFT count is the predeclared grid ceiling.", "impact": "This is one-sided high-resolution approximation, not a small reusable factorial system."},
         {"claim": "F84R_USED", "evidence": "Only frozen corpus bundles and GDT160 artifacts are inputs; frozen GDT003 provenance excludes f84r.", "impact": "f84r remains sealed."},
     ]
 
@@ -770,6 +775,11 @@ def main() -> None:
     external_multiclass_graphs = sum(
         int(row["selected_k_left_full_descriptive"]) * int(row["selected_k_right_full_descriptive"]) > 1
         for row in external_full_graphs
+    )
+    target_grid_ceiling_graphs = sum(
+        max(int(row["selected_k_left_full_descriptive"]), int(row["selected_k_right_full_descriptive"]))
+        == max(design["k_grid"])
+        for row in target_full_graphs
     )
 
     write_tsv(OUT_GRAPHS, graph_rows)
@@ -817,6 +827,14 @@ masked-cell compatibility-profile upper bound gains {pair_gain:+.6f}
 bits/cell; the both-unseen fraction of that gain is
 {survival_text}.
 
+| Voynich model | masked-cell AP | masked-cell loss | both-unseen AP | both-unseen loss |
+| --- | ---: | ---: | ---: | ---: |
+| global | {float(lookup[(design['target'], 'MASKED_PAIR_CELL', 'GLOBAL')]['mean_average_precision']):.6f} | {float(lookup[(design['target'], 'MASKED_PAIR_CELL', 'GLOBAL')]['weighted_log_loss_bits_per_cell']):.6f} | {float(lookup[(design['target'], 'BOTH_OPERATIONS_UNSEEN', 'GLOBAL')]['mean_average_precision']):.6f} | {float(lookup[(design['target'], 'BOTH_OPERATIONS_UNSEEN', 'GLOBAL')]['weighted_log_loss_bits_per_cell']):.6f} |
+| host-profile logistic | {float(target_pair_base['mean_average_precision']):.6f} | {float(target_pair_base['weighted_log_loss_bits_per_cell']):.6f} | {float(target_node_base['mean_average_precision']):.6f} | {float(target_node_base['weighted_log_loss_bits_per_cell']):.6f} |
+| degree logistic | {float(lookup[(design['target'], 'MASKED_PAIR_CELL', 'DEGREE_LOGIT')]['mean_average_precision']):.6f} | {float(lookup[(design['target'], 'MASKED_PAIR_CELL', 'DEGREE_LOGIT')]['weighted_log_loss_bits_per_cell']):.6f} | ineligible | ineligible |
+| host block | {float(lookup[(design['target'], 'MASKED_PAIR_CELL', 'HOST_BLOCK')]['mean_average_precision']):.6f} | {float(lookup[(design['target'], 'MASKED_PAIR_CELL', 'HOST_BLOCK')]['weighted_log_loss_bits_per_cell']):.6f} | {float(target_node['mean_average_precision']):.6f} | {float(target_node['weighted_log_loss_bits_per_cell']):.6f} |
+| compatibility block | {float(target_pair['mean_average_precision']):.6f} | {float(target_pair['weighted_log_loss_bits_per_cell']):.6f} | ineligible | ineligible |
+
 The full-graph descriptive MDL fits choose more than one class on
 {target_multiclass_graphs}/12 Voynich folds and
 {external_multiclass_graphs}/{len(external_full_graphs)} powered comparator
@@ -826,7 +844,12 @@ median Jaccard is {target_stability['LEFT']['median_coassignment_jaccard']:.3f}
 for LEFT and {target_stability['RIGHT']['median_coassignment_jaccard']:.3f} for
 RIGHT.  Thus the large excess is well ranked by continuous anonymous host
 overlap, but it does not collapse into a stable small categorical inventory
-under this fixed class family.
+under this fixed class family.  On {target_grid_ceiling_graphs}/12 full-graph
+fits one side reaches K=32, the predeclared ceiling; this is evidence against a
+small inventory, not evidence for 32 privileged formal categories.  The Latin
+both-unseen fits select 1×1: their nominal log-loss gains over an unstable
+sparse HOST_PROFILE_LOGIT are accompanied by negative AP gains and do not
+constitute latent classes.
 
 The masked-cell result answers whether the already-observed compatibility
 matrix is block-compressible.  The both-unseen result is the decisive test of
@@ -885,11 +908,13 @@ not opened, queried, retained, joined, or scored.
                            "positive_graph_folds": positive,
                            "median_k_left": median_k_left, "median_k_right": median_k_right},
         "top20_concentration": top20_summary, "target_class_stability": target_stability,
+        "target_full_graphs_at_any_k_grid_ceiling": target_grid_ceiling_graphs,
         "comparators": [row for row in summary_rows if row["corpus_id"] != design["target"]],
         "inputs": {path.name: sha(path) for path in inputs},
         "outputs": {path.name: sha(path) for path in outputs},
         "implementation": {"runner": sha(Path(__file__)), "gdt003_core": sha(CORE), "gdt160_runner": sha(GDT160_RUNNER)},
         "source_freeze_commit": "c5bddab",
+        "source_freeze_correction_commit": "619f800",
         "f84r": {"opened": False, "queried": False, "retained": False, "joined": False, "scored": False},
         "claim_ceiling": "Anonymous surface-operation incidence and predictive graph compression only; no morphology, word boundary, language, sound, plaintext, meaning, semantic role, or translation.",
     }

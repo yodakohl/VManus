@@ -179,8 +179,9 @@ def main() -> None:
     check("node_ap_gain", close(effects["both_unseen_ap_gain"], float(node["mean_average_precision"]) - float(node_base["mean_average_precision"])))
     check("cell_gain", close(effects["masked_cell_gain_bits_per_cell"], float(cell_base["weighted_log_loss_bits_per_cell"]) - float(cell["weighted_log_loss_bits_per_cell"])))
     check("zero_positive_folds", int(effects["positive_graph_folds"]) == 0)
-    check("median_k_left_one", close(float(effects["median_k_left"]), 1.0))
+    check("median_k_left_grid_ceiling", close(float(effects["median_k_left"]), 32.0))
     check("median_k_right_one", close(float(effects["median_k_right"]), 1.0))
+    check("full_graph_grid_ceiling", int(result["target_full_graphs_at_any_k_grid_ceiling"]) == 12)
     check("status", result["status"] == "LATENT_CLASSES_NOT_ABOVE_HOST_DEGREE_BASELINES")
 
     by_scope: dict[str, list[dict[str, str]]] = defaultdict(list)
@@ -212,8 +213,9 @@ def main() -> None:
     check("report_status", result["status"] in report)
     check("report_no_semantic_gloss", "semantic gloss" not in report.lower())
     check("report_f84_seal", "f84r was\nnot opened" in report)
-    check("counterexamples_six", len(counters) == 6)
+    check("counterexamples_seven", len(counters) == 7)
     check("source_freeze", result["source_freeze_commit"] == "c5bddab")
+    check("source_freeze_correction", result["source_freeze_correction_commit"] == "619f800")
 
     failed = [name for name, ok in checks if not ok]
     validation = {
