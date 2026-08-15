@@ -1,0 +1,209 @@
+{
+  "claim_ceiling": "Context-conditioned source-native record coordinate only; no operator meaning, word, morpheme, POS, sound, language, plaintext, meaning, or translation.",
+  "documents": {
+    "GDT058_Q2_CONTEXT_BIFURCATION_METHOD.md": "cad21274dcb90fb422604b9de877fb4df70da03301dc71b085ce8a4e38e3aee2",
+    "GDT058_Q2_CONTEXT_BIFURCATION_REPORT.md": "2fab03ff2211efd13dc2b3a2d3c6de21679666c247767520f069c64109c54007"
+  },
+  "f84r": {
+    "joined": false,
+    "opened": false,
+    "parsed": false,
+    "queried": false,
+    "retained": false,
+    "scored": false
+  },
+  "generative_update": "Q2 is context-licensed: group-initial Q2/display-t entry is early/line-entry; A1-preceded Q2 behind internal display-ot is later-field. Q2 is distinct from the display-q/Q1 relation; do not collapse these into one invariant display-t function.",
+  "headline": {
+    "group_initial_field_index": {
+      "bonferroni_8_p": 0.0007999600019999,
+      "context": "GROUP_INITIAL_Q2",
+      "control_groups": 684,
+      "effect_target_minus_control": -0.13898611792286206,
+      "feature": "normalized_field_index",
+      "lofo_max_effect": -0.12375764986753118,
+      "lofo_min_effect": -0.15198166211900738,
+      "matched_strata": 153,
+      "permutation_p": 9.99950002499875e-05,
+      "physical_folios": 65,
+      "target_groups": 172
+    },
+    "group_initial_line_position": {
+      "bonferroni_8_p": 0.0007999600019999,
+      "context": "GROUP_INITIAL_Q2",
+      "control_groups": 684,
+      "effect_target_minus_control": -0.13399583658116712,
+      "feature": "normalized_line_position",
+      "lofo_max_effect": -0.1194050652609125,
+      "lofo_min_effect": -0.14540406907029127,
+      "matched_strata": 153,
+      "permutation_p": 9.99950002499875e-05,
+      "physical_folios": 65,
+      "target_groups": 172
+    },
+    "internal_a1q2_field_index": {
+      "bonferroni_8_p": 0.0087995600219989,
+      "context": "INTERNAL_A1Q2",
+      "control_groups": 1049,
+      "effect_target_minus_control": 0.05980284753853778,
+      "feature": "normalized_field_index",
+      "lofo_max_effect": 0.06538694592027212,
+      "lofo_min_effect": 0.05149049482363764,
+      "matched_strata": 362,
+      "permutation_p": 0.0010999450027498626,
+      "physical_folios": 73,
+      "target_groups": 575
+    },
+    "internal_a1q2_line_position": {
+      "bonferroni_8_p": 0.007999600019999,
+      "context": "INTERNAL_A1Q2",
+      "control_groups": 1049,
+      "effect_target_minus_control": 0.054626447262097984,
+      "feature": "normalized_line_position",
+      "lofo_max_effect": 0.05952647935723446,
+      "lofo_min_effect": 0.04764722747609668,
+      "matched_strata": 362,
+      "permutation_p": 0.000999950002499875,
+      "physical_folios": 73,
+      "target_groups": 575
+    }
+  },
+  "implementation": {
+    "run_gdt058_q2_context_bifurcation.py": "582699871586ce418ef10ae9b168d4698031e1753887fd213db12515fb8bf777"
+  },
+  "inputs": {
+    "experiments/semantic_assumptions/results/source_sta_family_consensus_groups.tsv": "a202d93498e8a350a5d7e0ca46e831dcc37ea5c0182dc404d63cb797a98b1225",
+    "gdt016_group_state_inventory.tsv": "e109ce15864ed6b6f76d446b3c96d6190a0dc53d20d8ab0944554124e687234c",
+    "gdt055_result.json": "9c40c9bf757691502762c5bccbc686cad89e4405c5542989d36a56ead554de99",
+    "gdt056_result.json": "a51c5db0068d936e0c758e9e5b19a72692b17bb0dd63c43a35b5b7ce609ec96a",
+    "gdt057_result.json": "90903a94960b248a7943d06dfabc99a29527cfd33dd1c5af1f087d8f6d0aeb1f"
+  },
+  "outputs": {
+    "gdt058_q2_context_inventory.tsv": "41d090a14e8c6419ad92d342d8f32a78fac0656eff4e47c366ba4db22ef27c25",
+    "gdt058_q2_context_tests.tsv": "d6a74ef3cacfef2fee7f5f806dfca1c88f0221128205ad81893e6f44f5d0de0b"
+  },
+  "q2_groups": 1307,
+  "q2_member_occurrences": 1315,
+  "q2_predecessor_counts": {
+    "A1": 874,
+    "A2": 125,
+    "A3": 1,
+    "B1": 1,
+    "B2": 24,
+    "C2": 1,
+    "J1": 29,
+    "K1": 16,
+    "K2": 7,
+    "L1": 2,
+    "M1": 1
+  },
+  "result_content_sha256": "a978ff0507145cf2e3d98db85128133e54461df8352a7a7e2a85c836ce802597",
+  "schema": "GDT058_Q2_CONTEXT_BIFURCATION_RESULT_V1",
+  "stable_complete_line_groups": 7974,
+  "status": "Q2_HAS_CONTEXT_CONDITIONED_EARLY_INITIAL_VS_LATER_INTERNAL_PLACEMENT",
+  "tests": [
+    {
+      "bonferroni_8_p": 0.0007999600019999,
+      "context": "GROUP_INITIAL_Q2",
+      "control_groups": 684,
+      "effect_target_minus_control": -0.13399583658116712,
+      "feature": "normalized_line_position",
+      "lofo_max_effect": -0.1194050652609125,
+      "lofo_min_effect": -0.14540406907029127,
+      "matched_strata": 153,
+      "permutation_p": 9.99950002499875e-05,
+      "physical_folios": 65,
+      "target_groups": 172
+    },
+    {
+      "bonferroni_8_p": 0.0007999600019999,
+      "context": "GROUP_INITIAL_Q2",
+      "control_groups": 684,
+      "effect_target_minus_control": -0.13898611792286206,
+      "feature": "normalized_field_index",
+      "lofo_max_effect": -0.12375764986753118,
+      "lofo_min_effect": -0.15198166211900738,
+      "matched_strata": 153,
+      "permutation_p": 9.99950002499875e-05,
+      "physical_folios": 65,
+      "target_groups": 172
+    },
+    {
+      "bonferroni_8_p": 1.0,
+      "context": "GROUP_INITIAL_Q2",
+      "control_groups": 684,
+      "effect_target_minus_control": -0.03490631701383126,
+      "feature": "normalized_within_field_position",
+      "lofo_max_effect": -0.022911615895263096,
+      "lofo_min_effect": -0.04599748056206253,
+      "matched_strata": 153,
+      "permutation_p": 0.24513774311284436,
+      "physical_folios": 65,
+      "target_groups": 172
+    },
+    {
+      "bonferroni_8_p": 0.06999650017499125,
+      "context": "GROUP_INITIAL_Q2",
+      "control_groups": 684,
+      "effect_target_minus_control": -0.08376526463612406,
+      "feature": "after_dy",
+      "lofo_max_effect": -0.06929824175909018,
+      "lofo_min_effect": -0.09603268665628623,
+      "matched_strata": 153,
+      "permutation_p": 0.008749562521873906,
+      "physical_folios": 65,
+      "target_groups": 172
+    },
+    {
+      "bonferroni_8_p": 0.007999600019999,
+      "context": "INTERNAL_A1Q2",
+      "control_groups": 1049,
+      "effect_target_minus_control": 0.054626447262097984,
+      "feature": "normalized_line_position",
+      "lofo_max_effect": 0.05952647935723446,
+      "lofo_min_effect": 0.04764722747609668,
+      "matched_strata": 362,
+      "permutation_p": 0.000999950002499875,
+      "physical_folios": 73,
+      "target_groups": 575
+    },
+    {
+      "bonferroni_8_p": 0.0087995600219989,
+      "context": "INTERNAL_A1Q2",
+      "control_groups": 1049,
+      "effect_target_minus_control": 0.05980284753853778,
+      "feature": "normalized_field_index",
+      "lofo_max_effect": 0.06538694592027212,
+      "lofo_min_effect": 0.05149049482363764,
+      "matched_strata": 362,
+      "permutation_p": 0.0010999450027498626,
+      "physical_folios": 73,
+      "target_groups": 575
+    },
+    {
+      "bonferroni_8_p": 1.0,
+      "context": "INTERNAL_A1Q2",
+      "control_groups": 1049,
+      "effect_target_minus_control": 0.009705541695315262,
+      "feature": "normalized_within_field_position",
+      "lofo_max_effect": 0.015133326809293534,
+      "lofo_min_effect": -0.0006082299206313533,
+      "matched_strata": 362,
+      "permutation_p": 0.6083695815209239,
+      "physical_folios": 73,
+      "target_groups": 575
+    },
+    {
+      "bonferroni_8_p": 0.8679566021698915,
+      "context": "INTERNAL_A1Q2",
+      "control_groups": 1049,
+      "effect_target_minus_control": 0.03565805639345397,
+      "feature": "after_dy",
+      "lofo_max_effect": 0.04269459914652285,
+      "lofo_min_effect": 0.02415704411484372,
+      "matched_strata": 362,
+      "permutation_p": 0.10849457527123643,
+      "physical_folios": 73,
+      "target_groups": 575
+    }
+  ]
+}
