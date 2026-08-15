@@ -1,0 +1,79 @@
+{
+  "claim_ceiling": "Sparse exact-host hypothesis generation only; no star/PAGE_HOST meaning, role, word, morpheme, POS, sound, language, plaintext or translation.",
+  "documents": {
+    "GDT123_Q20_PAGE_HOST_CODEWORD_ATLAS_METHOD.md": "96e87372cc4695aee0191d065e1687830a039b9035c3fe2fe231b36628128528",
+    "GDT123_Q20_PAGE_HOST_CODEWORD_ATLAS_REPORT.md": "ce14c05d3f5c2f4494c44b046172dbd1bd99057a7032f12b7e41a57da4140f71"
+  },
+  "f84r": {
+    "assigned": false,
+    "joined": false,
+    "opened": false,
+    "predicted": false,
+    "queried": false,
+    "retained": false,
+    "scored": false,
+    "targeted": false
+  },
+  "features": 281,
+  "historical_controls": [
+    "GDT088_NO_GLOBAL_EXACT_HOST_SURVIVOR",
+    "SME_TARGET_FREE_CALIBRATION_FAILED",
+    "GDT119_GLOBAL_COMPILER_VISUAL_NEGATIVE",
+    "GDT122_GLOBAL_PAGE_HOST_VISUAL_NEGATIVE"
+  ],
+  "implementation": {
+    "run_gdt114_q20_record_template_linkage.py": "9c18f45ff6588392549ad45bea526f042058c933a747b7bcd4aadabb0ed8a307",
+    "run_gdt123_q20_page_host_codeword_atlas.py": "fa366df45d1b857b5489f902f5041548d589f1d0177f569492af23e93a239781"
+  },
+  "inputs": {
+    "experiments/semantic_assumptions/star_morphology_entry/source_panel.tsv": "a25fb76c84e222952730ba1ae7a761542cbba9752f2c7c84a7c26f3bedd5caef",
+    "experiments/semantic_assumptions/star_morphology_entry/target_source_binding.tsv": "315ea24a10995caaa86a77a5a93ecfc0e666351c1ce6a44b078b08686c1d6f3b",
+    "gdt088_result.json": "ed06f1b0d020c80742d1344fdcea53e08c2657adf4280a5fa076564045616fe0",
+    "gdt122_result.json": "2da44ba7bc5f851267cc02ffd4fcb44d88676dcf733caeb3383d05cac725868c"
+  },
+  "interesting_candidates": [],
+  "interpretation": "Postselection-controlled exact PAGE_HOST presence atlas over archived Q20 star morphology.",
+  "joined_units": 156,
+  "label_counts": {
+    "LIKELY_PAGE_CONFOUND": 20,
+    "NO_SIGNAL": 621,
+    "UNSTABLE": 133,
+    "WEAK": 69
+  },
+  "outputs": {
+    "gdt123_q20_page_host_codeword_atlas.tsv": "512b25701e7546134ceddbe173f9e26966be1543a4c2b7cf37f2b278e51ea886",
+    "gdt123_q20_page_host_codeword_counterexamples.tsv": "9f220e32c51916040f7ccecb90e610a7f1565acaa53f7de15c4c30b85219019f",
+    "gdt123_q20_page_host_codeword_inventory.tsv": "2047e5f9649c484b5a0dddcf6387b4109042c2d75b0c5609c7977101903f28cc",
+    "gdt123_q20_page_host_codeword_null.tsv": "f7d6a92cf2fa12d2bf37c5001a70296001f4ec7503604f68231cf14fd7492d8b"
+  },
+  "physical_folios": 7,
+  "result_content_sha256": "fe00e7c1eb75bc1055b32aca010e1cbf7e0073b395481bd1b96ee5a69598b17f",
+  "schema": "GDT123_Q20_PAGE_HOST_CODEWORD_ATLAS_RESULT_V1",
+  "status": "Q20_EXACT_PAGE_HOST_VISUAL_ATLAS_NO_GLOBAL_SURVIVOR",
+  "swappable_records": 90,
+  "tests": 843,
+  "top_candidate": {
+    "all_readings_same_direction": 1,
+    "axis": "COLOR_RED_VS_YEL",
+    "candidate_id": "31c4362e1ca8888f",
+    "claim_state": "EXPLORATORY_EXACT_HOST_ASSOCIATION_NO_MEANING",
+    "effect_abs": 0.26345962340612433,
+    "effect_signed": -0.26345962340612433,
+    "folios_with_host": 4,
+    "gaussian_gain_bits": 7.783793956795303,
+    "it_effect": -0.2613056165685323,
+    "label": "NO_SIGNAL",
+    "leave_one_folio_effects": "-0.295717|-0.201257|-0.262786|-0.249045|-0.244035|-0.297701|-0.263022",
+    "local_p": 0.12155235538198682,
+    "max_library_p": 0.4605809128630705,
+    "page_host": "lke",
+    "reading_mask_jaccard": 1.0,
+    "records_with_host": 5,
+    "rf_effect": -0.2644362880628931,
+    "same_direction_leave_one_folio": 7,
+    "scope": "OPEN_BODY",
+    "selector_cost_bits": 10.719388820942083,
+    "selector_paid_gain_bits": -2.93559486414678
+  },
+  "worlds": 4096
+}
