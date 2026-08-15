@@ -1,0 +1,114 @@
+{
+  "claim_ceiling": "No semantic class, role, gloss, word, morpheme, POS, sound, language, plaintext, meaning, or translation.",
+  "documents": {
+    "GDT070_SECTION_STRATIFIED_BEHAVIOR_TRANSFER_METHOD.md": "791296c390c93141b5cdd9aafd9d62b0d09b98b7eb51fade6649d0dfb128afae",
+    "GDT070_SECTION_STRATIFIED_BEHAVIOR_TRANSFER_REPORT.md": "3163c1256bca2eda23c20330c9348af1de3784f6002cea55467c1e34944569a6"
+  },
+  "eligible_loci": 332,
+  "f84r": {
+    "joined": false,
+    "opened": false,
+    "queried": false,
+    "retained": false,
+    "scored": false
+  },
+  "groups": 15592,
+  "implementation": {
+    "run_gdt070_section_stratified_behavior_transfer.py": "b82bb6aadc4dc4ed3c7051aa0662702043e1cc0123c8dd7ec0f9c6394cfbf840"
+  },
+  "inputs": {
+    "gdt012_annotated_core_inventory.tsv": "137efc96893220f8d55857b5ffc60f54a4eeb87450b42151b8bdc557e7281525",
+    "gdt059_hpr2_external_inventory.tsv": "3a683e6bf169fb79220693c3b75256588f37ec8e52f788af68ad3de3bb2f83ef",
+    "gdt062_right_family_inventory.tsv": "b0292332157524a7f5e0745bde74c38432c52e3f2dd7ae816677f0ea743ca1cc",
+    "gdt068_result.json": "ec418e059b3a13fe35b674ab9b82521be4b643c510ee658e4cb6f071b3d7fcbd",
+    "gdt069_result.json": "9ba3a0ee3dd4b6df4c7253398d2fce2760d212b3c5e69f9db3600774fa823052"
+  },
+  "interpretation": "Postselected section-stratified audit of GDT068; cell and folio failures retained, no independent validation.",
+  "mixed_cells": 12,
+  "multi_section_axes": {
+    "REL_ARRAY_OR_GROUP": {
+      "cells": 2,
+      "mean_gain_per_prediction": 0.10738591285703958,
+      "positive_cells": 2,
+      "sections": "B;P"
+    },
+    "REL_ENCLOSURE": {
+      "cells": 2,
+      "mean_gain_per_prediction": 0.2664816007394165,
+      "positive_cells": 2,
+      "sections": "A;Z"
+    },
+    "REL_EXPLICIT_ATTACHMENT": {
+      "cells": 3,
+      "mean_gain_per_prediction": -0.0721150995141568,
+      "positive_cells": 0,
+      "sections": "B;P;Z"
+    }
+  },
+  "outputs": {
+    "gdt070_section_stratified_folds.tsv": "0705c9fbffe92318203bea2ab8849bcf171ce1784f83a19b3a49c4d72de63b89",
+    "gdt070_section_stratified_scores.tsv": "0c56f4518a482f6fcb320e0df57fc7e4cd15d641e537f336e224dd9d93ea644c",
+    "gdt070_variant_log.tsv": "438c20dd39fb439c1801f8d417e7e9bf9630e820f342856c8a46a9a91e62bf06"
+  },
+  "result_content_sha256": "c02043fe10242c26f54cfeffc5c6c8458b89e83b6bd5e3b9e1c8a475b7328e7c",
+  "schema": "GDT070_SECTION_STRATIFIED_BEHAVIOR_TRANSFER_RESULT_V1",
+  "selection_disclosure": "The behavior representation was selected in GDT068; this is a confound audit, not independent validation.",
+  "status": "BEHAVIOR_PROFILE_LEAD_PARTLY_SURVIVES_SECTION_STRATIFICATION",
+  "strongest_behavior_cell": {
+    "currier": "B",
+    "eligible_loci": 50,
+    "external_axis": "WATER_OR_APPARATUS",
+    "gain_bits": 35.32678242994734,
+    "gain_per_prediction": 0.7065356485989469,
+    "held_bits": 85.70602022294197,
+    "max_folio_gain": 19.091440663259522,
+    "min_folio_gain": -5.81037551303141,
+    "nuisance_bits": 121.03280265288932,
+    "physical_folios": 6,
+    "positive_gain_folios": 4,
+    "positive_loci": 38,
+    "predictions": 50,
+    "representation": "BEHAVIOR_SELF_NEIGHBOR_NOPOS",
+    "section": "B"
+  },
+  "summary": {
+    "BEHAVIOR_SELF_NEIGHBOR_NOPOS": {
+      "cell_mean_gain_per_prediction": 0.14384341961631322,
+      "cells": 12,
+      "cells_beating_raw": 8,
+      "positive_cells": 9,
+      "total_gain_bits": 103.1240225113811
+    },
+    "PAGE_HOST_CHAR3": {
+      "cell_mean_gain_per_prediction": 0.1024557394361782,
+      "cells": 12,
+      "cells_beating_raw": 4,
+      "positive_cells": 5,
+      "total_gain_bits": 62.72697684276174
+    },
+    "RAW_CHAR3": {
+      "cell_mean_gain_per_prediction": 0.10710512234497017,
+      "cells": 12,
+      "cells_beating_raw": 0,
+      "positive_cells": 7,
+      "total_gain_bits": 71.17207247564163
+    }
+  },
+  "weakest_behavior_cell": {
+    "currier": "B",
+    "eligible_loci": 50,
+    "external_axis": "REL_EXPLICIT_ATTACHMENT",
+    "gain_bits": -8.419105120155763,
+    "gain_per_prediction": -0.16838210240311524,
+    "held_bits": 92.51628519727107,
+    "max_folio_gain": 3.2590970377034267,
+    "min_folio_gain": -7.813777536304492,
+    "nuisance_bits": 84.09718007711531,
+    "physical_folios": 6,
+    "positive_gain_folios": 2,
+    "positive_loci": 12,
+    "predictions": 50,
+    "representation": "BEHAVIOR_SELF_NEIGHBOR_NOPOS",
+    "section": "B"
+  }
+}
