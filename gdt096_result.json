@@ -15,9 +15,10 @@
   },
   "claim_ceiling": "Archived annotation-stratum transfer only; no semantic role, gloss, word, morpheme, POS, sound, language, plaintext, meaning, or translation.",
   "documents": {
-    "GDT096_LAYOUT_CHANNEL_TRANSFER_METHOD.md": "5121731e28288dc3c0c1a096f54e10b88d25e4a6bc49839beaa9890261907a1b",
-    "GDT096_LAYOUT_CHANNEL_TRANSFER_REPORT.md": "b9f56b5d4c1ca9d424fada403ad328750277ecf11bc42540c6320f9ed16886c6"
+    "GDT096_LAYOUT_CHANNEL_TRANSFER_METHOD.md": "ea286619b3280b627173240e2648780740bcbcb6a918a73748646d8e9476277f",
+    "GDT096_LAYOUT_CHANNEL_TRANSFER_REPORT.md": "6e6e29c6ce9eba949b03b1847c97eacb6796f5f22627d8fcddaf0f2f9fec4f14"
   },
+  "endpoint": "MIXED_SPATIAL_CONTEXT_WORDS_BASE_EDGE_GROUND_LEVEL_NOT_PURE_LABEL_PLACEMENT",
   "exact_worlds": 1872,
   "f84r": {
     "joined": false,
@@ -42,15 +43,15 @@
     "train_unhedged_loci": 83
   },
   "implementation": {
-    "run_gdt096_layout_channel_transfer.py": "bf3ebc3ab2ef993d95bfd48a40caaf60ab73f54d126f97d27472d4755def3988"
+    "run_gdt096_layout_channel_transfer.py": "4f15443c246a47d8cc0ae8658cc572da2597d2bd8984b0b032c105c0958c4d84"
   },
   "inputs": {
     "gdt012_annotated_core_inventory.tsv": "137efc96893220f8d55857b5ffc60f54a4eeb87450b42151b8bdc557e7281525",
     "gdt059_hpr2_external_inventory.tsv": "3a683e6bf169fb79220693c3b75256588f37ec8e52f788af68ad3de3bb2f83ef",
     "gdt095_descriptor_token_manifest.tsv": "427ac316be00ad5c570ed160413561a7bba76b71b2f385de81ddc420fdcbfdf8",
-    "gdt095_result.json": "905330c868d2510c27163de9c7704f56b3a2e52d20495cfd4c22416c6dbbd981"
+    "gdt095_result.json": "32166615fd577edbb43e59f70d5e795cfcc15234b1970be255a502b9bc08fc86"
   },
-  "interpretation": "The GDT095 host-wrapper interaction does not transfer, while PAGE_HOST marginal trigrams show a low-capacity four-positive association slightly above raw strings.",
+  "interpretation": "The GDT095 host-wrapper interaction does not transfer, while PAGE_HOST marginal trigrams show a low-capacity four-positive mixed spatial-context association slightly above raw strings.",
   "outputs": {
     "gdt096_exact_null.tsv": "ddfe03a7b053aeec4fa3ff4ff8b90f4ff57bcc3aaf13c1ea88765c9068851b7e",
     "gdt096_predictions.tsv": "8d79a18e41c9b02711733fd73296ad3bb380ea138b7432a1841fac174d069612",
@@ -85,9 +86,9 @@
     "test_hedged_loci": 35,
     "train_unhedged_loci": 83
   },
-  "result_content_sha256": "12ee0bd6fe6335f6df55cdb28f3e3cd9dd3662e7b9b0c8fdb72f37e96687f41d",
+  "result_content_sha256": "3b1f72f785d510d526b15566ecb9ddfea0b3ded3a586740fc14ba66ebacad2be",
   "schema": "GDT096_LAYOUT_CHANNEL_TRANSFER_RESULT_V1",
-  "status": "GDT095_HOST_WRAPPER_LAYOUT_LEAD_FAILS_BUT_PAGE_HOST_MARGIN_HAS_LOW_CAPACITY_TRANSFER",
+  "status": "GDT095_HOST_WRAPPER_SPATIAL_TOKEN_LEAD_FAILS_BUT_PAGE_HOST_MARGIN_HAS_LOW_CAPACITY_TRANSFER",
   "test_hedged_loci": 35,
   "train_unhedged_loci": 83
 }

@@ -28,9 +28,10 @@ prevalence. A 5,000-world null permutes each locus's complete descriptor-token
 vector within folio and reports a maximum across all ten representations.
 
 After the full token manifest was exposed, a post-hoc interpretive ablation
-separates obvious position vocabulary (`base`, `edge`, `ground`, `level`) from
-the remaining appearance vocabulary. This split is logged and may explain a
-lead, but it is not a second confirmatory endpoint.
+separates mixed spatial/context vocabulary (`base`, `edge`, `ground`, `level`)
+from the remaining vocabulary. These words can refer to plant geometry,
+inscription placement, or panel relations; they are not a pure layout class.
+The split is logged but is not a second confirmatory endpoint.
 
 ## Ceiling
 

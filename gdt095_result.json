@@ -16,8 +16,8 @@
   "claim_ceiling": "Archived description-channel construction association only; no semantic class, role, gloss, word, morpheme, POS, sound, language, plaintext, meaning, or translation.",
   "descriptor_tokens": 19,
   "documents": {
-    "GDT095_EXHAUSTIVE_DESCRIPTOR_CHANNEL_METHOD.md": "e5ffc73720e39a7baf2a71ffbbfb4c47cf71591629135e575f59adb855960b9b",
-    "GDT095_EXHAUSTIVE_DESCRIPTOR_CHANNEL_REPORT.md": "2cb24ddd6a0a32f794463ccc14cc699977050093e71933d1f3e5ccaf57f0b5c5"
+    "GDT095_EXHAUSTIVE_DESCRIPTOR_CHANNEL_METHOD.md": "3455662368deccb55de352939b9bb72ffb8cbcf1a001c52ff4a88dda313673aa",
+    "GDT095_EXHAUSTIVE_DESCRIPTOR_CHANNEL_REPORT.md": "5b85e8fdf022c7ca61e08c7a1a37090d490951f44050c6c4a598f7db2e374542"
   },
   "f84r": {
     "joined": false,
@@ -28,7 +28,7 @@
     "targeted": false
   },
   "implementation": {
-    "run_gdt095_exhaustive_descriptor_channel.py": "cd869880907864eda9e850971fb514016021b65824d873e9a034f9c8e20a3bb4"
+    "run_gdt095_exhaustive_descriptor_channel.py": "58e722842811cc190a9daa0f5c3dffd3eac7b60431a995fba21ea0ea8be0cb70"
   },
   "inputs": {
     "gdt012_annotated_core_inventory.tsv": "137efc96893220f8d55857b5ffc60f54a4eeb87450b42151b8bdc557e7281525",
@@ -40,7 +40,7 @@
   "interpretation": "No tested HPR2 representation pays its selector for the exhaustive archived descriptor vocabulary after zero-overlap correction.",
   "loci": 83,
   "outputs": {
-    "gdt095_channel_ablation.tsv": "d17e44dff0b1b8298da6636557a3eed31594b9327d335a99d0021a0b3ad48927",
+    "gdt095_channel_ablation.tsv": "c9c6ece0b1d03e2895f63a6523d4802c650fd40f03fb11038fcc41f5d09b0646",
     "gdt095_construction_descriptor_atlas.tsv": "f13f3eb1702691158a9c05cf875a6176306f684e7cd8fce269e78547faf35b6e",
     "gdt095_descriptor_token_manifest.tsv": "427ac316be00ad5c570ed160413561a7bba76b71b2f385de81ddc420fdcbfdf8",
     "gdt095_null_results.tsv": "1efdf71e5f00c5fa705e5f283fa09e9eb5acd7d4b8af6722e6df25c2881b87e8",
@@ -64,20 +64,20 @@
   "permutation_worlds": 5000,
   "physical_folios": 5,
   "posthoc_channel_ablation": {
-    "appearance_remainder": {
+    "nonspatial_remainder": {
       "descriptor_tokens": 15,
       "gain_bits": -1.6245963878268528,
       "local_permutation_p": 0.036392721455708855,
-      "panel": "APPEARANCE_REMAINDER",
+      "panel": "NONSPATIAL_REMAINDER",
       "panel_max_representation_p": 0.03939212157568486,
       "representation": "HOST_WRAPPER_JOINT",
       "status": "POSTHOC_INTERPRETIVE_ABLATION"
     },
-    "layout_position": {
+    "spatial_context_words": {
       "descriptor_tokens": 4,
       "gain_bits": 3.2299374193302812,
       "local_permutation_p": 0.28674265146970607,
-      "panel": "LAYOUT_POSITION",
+      "panel": "SPATIAL_CONTEXT_WORDS",
       "panel_max_representation_p": 0.0021995600879824036,
       "representation": "HOST_WRAPPER_JOINT",
       "status": "POSTHOC_INTERPRETIVE_ABLATION"
@@ -95,9 +95,9 @@
     "HOST_B3_JOINT",
     "HOST_WRAPPER_RIGHT_JOINT"
   ],
-  "result_content_sha256": "d6549979d5c4fb2fbc1711eb7d8eeef67eb69455dc8334bca044bbc19bf65608",
+  "result_content_sha256": "b57946d91c7bd2117c3c686d83bc66997683f05f51b6511c5a6bafca5cf9b439",
   "schema": "GDT095_EXHAUSTIVE_DESCRIPTOR_CHANNEL_RESULT_V1",
-  "selection_disclosure": "All normalized frequency-eligible local-clause tokens and all ten predeclared representations are exported; K=5/shrink=4 is inherited from GDT068/GDT089. Layout/appearance decomposition was added after seeing the exhaustive token manifest and is explicitly post-hoc.",
+  "selection_disclosure": "All normalized frequency-eligible local-clause tokens and all ten predeclared representations are exported; K=5/shrink=4 is inherited from GDT068/GDT089. Spatial/nonspatial decomposition was added after seeing the exhaustive token manifest and is explicitly post-hoc.",
   "status": "EXHAUSTIVE_DESCRIPTOR_CHANNEL_NO_SELECTOR_PAID_HPR2_REPRESENTATION_AFTER_ZERO_OVERLAP_CORRECTION",
   "superseded_result": "The first published GDT095 used lexicographic top-K neighbors even when exact-feature distance equalled one; its +11.252-bit host-wrapper claim is invalid and replaced by this correction.",
   "wrapper_marginal": {

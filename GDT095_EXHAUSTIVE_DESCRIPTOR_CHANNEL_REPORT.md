@@ -22,9 +22,11 @@ channel therefore does not localize positive information to PAGE_HOST, its
 compiler marginals, or their exact conjunctions.
 
 A disclosed post-hoc decomposition gives PAGE_HOST×WRAPPER
-+3.230 bits on four location terms (`base`, `edge`,
-`ground`, `level`) and -1.625 on the other fifteen
-tokens. Neither rescues the aggregate channel. PAGE_HOST remains useful for
++3.230 bits on four mixed spatial/context words (`base`,
+`edge`, `ground`, `level`) and -1.625 on the other
+fifteen tokens. These words can describe plant geometry, inscription position,
+or panel relations and are not a pure layout class. Neither subset rescues the
+aggregate channel. PAGE_HOST remains useful for
 the narrow GDT089 lead, but the exhaustive vocabulary does not support it as a
 general appearance-bearing layer. The split was inspected after vocabulary
 exposure and is not confirmatory.
