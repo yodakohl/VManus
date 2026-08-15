@@ -1,0 +1,75 @@
+{
+  "claim_ceiling": "No semantic class, role, gloss, word, morpheme, POS, sound, language, plaintext, meaning, or translation.",
+  "documents": {
+    "GDT075_NESTED_SECTION_PREDICATE_TRANSFER_METHOD.md": "57865e8988f95d8e3e04a634039abe0de6960b4225326449767ce9a65b0d86e7",
+    "GDT075_NESTED_SECTION_PREDICATE_TRANSFER_REPORT.md": "dc7b724f03f65b7600699f552e3a81434c7c8e84313c445db6121058cd7d0f6c"
+  },
+  "f84r": {
+    "joined": false,
+    "opened": false,
+    "queried": false,
+    "retained": false,
+    "scored": false,
+    "targeted": false
+  },
+  "folds": [
+    {
+      "eligible_candidates": 79,
+      "held_loci": 103,
+      "held_section": "Z",
+      "raiin_held_effect": 0.2433862433862434,
+      "raiin_training_effect": 0.6,
+      "raiin_training_rank": 3,
+      "raiin_transfers_positive": 1,
+      "selected_candidate": "RATE:F=O>=0.10",
+      "selected_held_effect": -0.25925925925925924,
+      "selected_held_z": -1.0665364503850772,
+      "selected_training_effect": 0.42000000000000004,
+      "selected_training_z": 3.575277429186744,
+      "selected_transfers_positive": 0,
+      "training_loci": 55,
+      "training_section": "A"
+    },
+    {
+      "eligible_candidates": 85,
+      "held_loci": 55,
+      "held_section": "A",
+      "raiin_held_effect": 0.6,
+      "raiin_training_effect": 0.2433862433862434,
+      "raiin_training_rank": 12,
+      "raiin_transfers_positive": 1,
+      "selected_candidate": "RATE:W=q>=0.25",
+      "selected_held_effect": -0.2333333333333333,
+      "selected_held_z": -1.3112201362143714,
+      "selected_training_effect": 0.13526570048309178,
+      "selected_training_z": 2.072871426978157,
+      "selected_transfers_positive": 0,
+      "training_loci": 103,
+      "training_section": "Z"
+    }
+  ],
+  "implementation": {
+    "run_gdt075_nested_section_predicate_transfer.py": "560ebe1d8dd343b437e427c32f1a2d49d3213eb9b402e026c80dcdebc478b71c"
+  },
+  "inputs": {
+    "gdt012_annotated_core_inventory.tsv": "137efc96893220f8d55857b5ffc60f54a4eeb87450b42151b8bdc557e7281525",
+    "gdt059_hpr2_external_inventory.tsv": "3a683e6bf169fb79220693c3b75256588f37ec8e52f788af68ad3de3bb2f83ef",
+    "gdt062_right_family_inventory.tsv": "b0292332157524a7f5e0745bde74c38432c52e3f2dd7ae816677f0ea743ca1cc",
+    "gdt069_result.json": "9ba3a0ee3dd4b6df4c7253398d2fce2760d212b3c5e69f9db3600774fa823052",
+    "gdt072_result.json": "799bb83f7ef0440d8449b94cec40d5fa37db7476abf5e6dd98455d220f36afad",
+    "gdt074_result.json": "9f366f11621b60f01fa86c5a3a93c5f11809c71f21b88b7cd1b0014aaeb33629"
+  },
+  "interpretation": "Single-section discovery selects nontransferring top predicates; the fixed R=aiin sublead remains positive but is not independently top-ranked.",
+  "outputs": {
+    "gdt075_candidate_rankings.tsv": "c7d274e91b800823a4c017b967380eda24e9f79f22feac455797dd240797ef13",
+    "gdt075_nested_section_folds.tsv": "0aef3ff0d4abfb714529cf0c694b28dfa81af5dfdaccdc8fb94352f4b70cc061",
+    "gdt075_variant_log.tsv": "d27e02ef78ffecc28e0bf7365d6012b9a425f38a68174b58806748fcbaa7ed11"
+  },
+  "raiin_cross_section_stability_rank": 3,
+  "raiin_positive_transfers": 2,
+  "result_content_sha256": "92c37738f0679f5ae970ae1b4793cc73e081e7848f86dce190008b17274fb917",
+  "schema": "GDT075_NESTED_SECTION_PREDICATE_TRANSFER_RESULT_V1",
+  "selected_positive_transfers": 0,
+  "shared_capacity_candidates": 76,
+  "status": "TOP_DISCOVERED_BEHAVIOR_PREDICATES_FAIL_CROSS_SECTION_TRANSFER_RAIIN_SUBLEAD_STABLE"
+}
