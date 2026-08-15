@@ -59,12 +59,11 @@ assignments using only the unmasked compatibility profile.  It is evaluated
 only for masked cells, never as evidence for unseen-operation transfer.
 
 The predeclared class grid is `K = {1,2,4,8,16,32}` independently on each side,
-subject to nonempty-class capacity.  For tractability the fitted grid uses
-equal `K` on the two sides; the report gives LEFT and RIGHT class sizes
-separately.  Training-only two-part MDL chooses K:
+subject to nonempty-class capacity.  All admissible LEFT-K × RIGHT-K
+combinations are evaluated.  Training-only two-part MDL chooses the pair:
 
-`Bernoulli block codelength + 0.5*K^2*log2(training cells) +
-(nLEFT+nRIGHT)*log2(K)`.
+`Bernoulli block codelength + 0.5*K_LEFT*K_RIGHT*log2(training cells) +
+nLEFT*log2(K_LEFT) + nRIGHT*log2(K_RIGHT)`.
 
 K=1 is the no-class model.  No result-dependent K, feature, threshold, or
 operation name is added.
