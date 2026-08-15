@@ -1,0 +1,36 @@
+{
+  "f84r": "SEALED_NO_PREDICTION",
+  "grammar": {
+    "B3": "PROVISIONAL_RECORD_CLOSE",
+    "CONTENT_ADDRESS": "OPAQUE_PAGE_HOST | O_Y_BASE+TAIL | REUSABLE_SUBHOST_MOTIF+RESIDUAL",
+    "DY": "PROVISIONAL_INTERNAL_CHECKPOINT",
+    "FIELD": "OUTER_WRAPPER? LOCAL_O_OT_FRAME? CONTENT_ADDRESS RIGHT_FAMILY?",
+    "LINE": "ENTRY_STATE? FIELD (DY_CHECKPOINT FIELD)* B3_CLOSE?",
+    "MANUSCRIPT": "REGISTER_BLOCK+",
+    "OUTER_WRAPPER": {
+      "CH_CHE_SH_S": "HOST_REGISTER_CONDITIONAL",
+      "D": "Y_BASE_LATE",
+      "Q": "O_BASE_EARLY"
+    },
+    "PAGE": "PAGE_PROFILE CONTENT_ADDRESS_INVENTORY LINE+",
+    "RIGHT_FAMILY": "render(CONTENT_ADDRESS,REGISTER,WRAPPER)"
+  },
+  "leading_theory": "HYBRID_CONTENT_ADDRESS_PLUS_ABBREVIATION_AND_RECORD_COMPILER",
+  "name": "HYBRID_CONTENT_ADDRESS_PLUS_RECORD_COMPILER",
+  "provisional_content_candidates": [
+    {
+      "form": "PCH",
+      "role": "UNASSIGNED",
+      "status": "WEAK_DOMAIN_CONFINED_HOST_FAMILY"
+    },
+    {
+      "form": "OS",
+      "role": "UNASSIGNED",
+      "status": "WEAK_TWO_LOCUS_DARK_LEAF_SEED"
+    }
+  ],
+  "schema": "GDT100_HPR2_REVISED_GENERATIVE_MODEL_V1",
+  "semantic_assignments": [],
+  "superseded": "GDT092 wording that PAGE_HOST directly supplies a content lexicon; revised to ungrounded content-address layer",
+  "translation_readiness": "NOT_READY_REQUIRES_FRESH_TRANSFERABLE_EXTERNAL_CONTENT_AXIS"
+}
