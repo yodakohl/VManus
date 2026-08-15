@@ -1,0 +1,86 @@
+{
+  "claim_ceiling": "Tests preservation of anonymous state/field roles only. No concrete function, word, morpheme, POS, referent, sound, language, plaintext, meaning, or translation.",
+  "controls": {
+    "folio_unit": "Exact section-label permutation across target-positive physical folios; all occurrences on a folio move together.",
+    "hand": "Hand-3-only overlap reported separately; capacity remains only two Herbal-B hand-3 folios.",
+    "lofo": "Worst overlap and divergence after deleting each target-positive physical folio.",
+    "maxT": "Per-core maximum standardized JS divergence across eleven declared context families."
+  },
+  "cores": {
+    "daiin": {
+      "cross_section_recurring_clusters": 20,
+      "decision": "STATE_PRESERVED_CONTEXT_VARIABLE",
+      "hb_folios": 4,
+      "hb_occurrences": 6,
+      "sb_folios": 5,
+      "sb_occurrences": 17
+    },
+    "dam": {
+      "cross_section_recurring_clusters": 14,
+      "decision": "ABSTRACT_ROLE_PRESERVED_LOW_CAPACITY",
+      "hb_folios": 3,
+      "hb_occurrences": 4,
+      "sb_folios": 2,
+      "sb_occurrences": 4
+    },
+    "odain": {
+      "cross_section_recurring_clusters": 16,
+      "decision": "CONDITIONALLY_COMPATIBLE_SECTION_SHIFT",
+      "hb_folios": 2,
+      "hb_occurrences": 3,
+      "sb_folios": 7,
+      "sb_occurrences": 15
+    },
+    "okam": {
+      "cross_section_recurring_clusters": 20,
+      "decision": "CONDITIONALLY_COMPATIBLE_SECTION_SHIFT",
+      "hb_folios": 6,
+      "hb_occurrences": 6,
+      "sb_folios": 8,
+      "sb_occurrences": 10
+    }
+  },
+  "documents": {
+    "GDT038_CORE_CONTEXT_TRANSFER_METHOD.md": "24efa8eb94d47f75c8cd31f80a7e26b1181b021569e1d7a2952b3bd8a34a6523",
+    "GDT038_CORE_CONTEXT_TRANSFER_REPORT.md": "4f2e94142ef9c78d0b12cb62a3705235cd27c4e26304ea0922781a84d31b5d62"
+  },
+  "f84r": {
+    "joined": false,
+    "opened": false,
+    "queried": false,
+    "retained": false,
+    "scored": false
+  },
+  "features": [
+    "target_state",
+    "wrapper",
+    "field_position",
+    "field_role",
+    "previous_state",
+    "next_state",
+    "previous_field_shape",
+    "next_field_shape",
+    "micro_context",
+    "masked_field_template",
+    "neighbor_field_context"
+  ],
+  "implementation": {
+    "run_gdt038_core_context_transfer.py": "e7b65835379e980ce0c6e8e17bd29acdb4889dfe9a8152ea0d5d87a2c58fdf36"
+  },
+  "important_dependency": "GDT016 CARRIER_STATE is induced from the ch/che/sh renderer family. DAIIN/DAM state invariance is therefore not independent evidence beyond wrapper stability; field position and neighbors are tested separately.",
+  "inputs": {
+    "gdt016_group_state_inventory.tsv": "e109ce15864ed6b6f76d446b3c96d6190a0dc53d20d8ab0944554124e687234c",
+    "gdt016_result.json": "aaa96a3be942bc1eab6587d5362922f3f16ec2beea7f520d47e190c32df80c2c",
+    "gdt037_result.json": "243c03f924f563f855b013d098215400b6227e26ed0f57d6017a859864c26876"
+  },
+  "occurrences": 65,
+  "outputs": {
+    "gdt038_context_clusters.tsv": "3c7156672a609a40eef992bcfca822225882b257179c94e6b18b4380133295d9",
+    "gdt038_occurrence_contexts.tsv": "23891260182ea14f0eb6b2a9de9dfaa4ac35cc87451f198661dfa4ddb3690dd6",
+    "gdt038_role_comparison.tsv": "8e83d68f37419e98bba457d432bb84f935843df74ee588d1be5719d3d36b7897"
+  },
+  "result_content_sha256": "c1959f401a5dab17a184e9e3008ca976766787d5d9745ebb4592b083b2d397b2",
+  "schema": "GDT038_CORE_CONTEXT_TRANSFER_RESULT_V1",
+  "scope": "Full available formal local contexts for exact residual cores DAIIN, DAM, OKAM, ODAIN in Herbal-B versus Currier-B Stars/Recipe S.",
+  "status": "DAM_FIELD_ROLE_PROVISIONAL_LOW_CAPACITY_DAIIN_STATE_ONLY_OKAM_ODAIN_SECTION_CONDITIONED"
+}
