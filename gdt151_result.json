@@ -1,0 +1,110 @@
+{
+  "claim_ceiling": "Exploratory anonymous whole-page retrieval failure only; no plant or component identity, semantic role, gloss, word, morpheme, POS, sound, language, plaintext, meaning, or translation.",
+  "documents": {
+    "GDT151_HERBAL_PHARMA_PAGE_RETRIEVAL_METHOD.md": "5c1aa8d6f718e81d09941d93bf9944e1ea096b66693b0762bdbf75a3c103bc2d",
+    "GDT151_HERBAL_PHARMA_PAGE_RETRIEVAL_REPORT.md": "fe3ddcbe596b78ec56e687ca38fd546218dcf075265f25b591e84b6ad6b22aa1"
+  },
+  "f84r": {
+    "assigned": false,
+    "joined": false,
+    "predicted": false,
+    "retained": false,
+    "scored": false,
+    "targeted": false
+  },
+  "implementation": {
+    "run_gdt151_herbal_pharma_page_retrieval.py": "e66606a656404b7c286508c54be048bba9d5c5d543669992bbd74ea3eb5c912e"
+  },
+  "inputs": {
+    "experiments/semantic_assumptions/results/existing_human_page_annotations.tsv": "b358f244cbe853448dd5c32dbc04004cb8ce63d9a8c5ed5afe2a679a115d87fa",
+    "gdt062_right_family_inventory.tsv": "b0292332157524a7f5e0745bde74c38432c52e3f2dd7ae816677f0ea743ca1cc",
+    "gdt137_herbal_visual_feature_inventory.tsv": "1518a6ae3b0f7ef54379f305f5aa16d9afa0ebeaf9592a2264c5344335917138",
+    "gdt148_result.json": "fa6cc56ea118275699a151061b0907863c81ca65fd36bad9fabb7f61036d12f3",
+    "gdt150_result.json": "6841813dbd47f473c77f61b0c5b6298e5dc2067a248b89030d37760739a2ec9d"
+  },
+  "interpretation": "The complete catalogue-derived Herbal-to-pharmaceutical graph does not reproduce the selected GDT148 PAGE_HOST retrieval lead at whole-page resolution.",
+  "inventory": {
+    "pharma_candidate_pages": 15,
+    "references": 32,
+    "scored_relations": 31,
+    "scored_source_pages": 30,
+    "unscored_relations": 1
+  },
+  "length_control_summary": {
+    "candidate_pages": 15,
+    "local_mrr_p": 0.61597,
+    "local_top_three_p": 0.55561,
+    "max_six_mrr_p": 1.0,
+    "max_six_top_three_p": 0.90906,
+    "null_mrr_mean": 0.23866004344401076,
+    "null_mrr_sd": 0.04106554639480654,
+    "null_top_three_mean": 6.86808,
+    "null_top_three_sd": 2.120824630562946,
+    "relations": 31,
+    "representation": "GROUP_COUNT_PROXIMITY",
+    "seed": 151148,
+    "true_mean_rank": 8.290322580645162,
+    "true_mrr": 0.22436148081309365,
+    "true_top_three": 7,
+    "worlds": 100000
+  },
+  "outputs": {
+    "gdt151_counterexamples.tsv": "c62c09b45fd26437e914d43939f3c3a4c3158d26643da60e1f6542e5ffda1152",
+    "gdt151_null_results.tsv": "c4d8e40ebfd2e8a603566475755ed78bf876f966c80736c0d89952a8b7144189",
+    "gdt151_relation_inventory.tsv": "8736d15cb3fab1b7f0e26862e0ed266efa01181508db1ccb241b197bf58814c4",
+    "gdt151_target_ranks.tsv": "307c41d7940174aa2df7ae0ac365249b5ff9f076c3682cdadd8a76f0b75124f9"
+  },
+  "page_host_summary": {
+    "candidate_pages": 15,
+    "local_mrr_p": 0.92257,
+    "local_top_three_p": 0.74905,
+    "max_six_mrr_p": 1.0,
+    "max_six_top_three_p": 1.0,
+    "null_mrr_mean": 0.22398602643235085,
+    "null_mrr_sd": 0.03411163967509657,
+    "null_top_three_mean": 6.85273,
+    "null_top_three_sd": 1.9748674758323757,
+    "relations": 31,
+    "representation": "PAGE_HOST_IDENTITY",
+    "seed": 151148,
+    "true_mean_rank": 8.516129032258064,
+    "true_mrr": 0.1770092810415391,
+    "true_top_three": 6,
+    "worlds": 100000
+  },
+  "representations": [
+    "PAGE_HOST_IDENTITY",
+    "PAGE_HOST_CHAR3",
+    "RAW_CHAR3",
+    "COMPILER_SIGNATURE",
+    "GROUP_COUNT_PROXIMITY",
+    "TARGET_DEGREE_PRIOR"
+  ],
+  "result_content_sha256": "7747520008a39d221d6f9aaf1b5a3247d671082b0f2e21288d013b674f9206ee",
+  "schema": "GDT151_HERBAL_PHARMA_PAGE_RETRIEVAL_RESULT_V1",
+  "seed": 151148,
+  "source_filter": {
+    "rejected_f84_prefixed_gdt062_rows": 228,
+    "retained_f84_rows": 0
+  },
+  "status": "HERBAL_PHARMA_PAGE_HOST_RETRIEVAL_NOT_SUPPORTED",
+  "target_degree_prior_summary": {
+    "candidate_pages": 15,
+    "local_mrr_p": 1.0,
+    "local_top_three_p": 1.0,
+    "max_six_mrr_p": 1.0,
+    "max_six_top_three_p": 1.0,
+    "null_mrr_mean": 0.3245522747849386,
+    "null_mrr_sd": 0.0020731501611010025,
+    "null_top_three_mean": 13.0,
+    "null_top_three_sd": 1.0,
+    "relations": 31,
+    "representation": "TARGET_DEGREE_PRIOR",
+    "seed": 151148,
+    "true_mean_rank": 6.161290322580645,
+    "true_mrr": 0.32403993855606755,
+    "true_top_three": 13,
+    "worlds": 100000
+  },
+  "worlds": 100000
+}
