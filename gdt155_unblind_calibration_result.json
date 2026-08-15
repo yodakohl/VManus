@@ -1,0 +1,120 @@
+{
+  "calibration_findings": [
+    "Form-only rectangles and productive edge operations are abundant in genuine abbreviated medieval German.",
+    "Expanded-word identity is principally retained by diplomatic surface identity; PAGE_HOST stripping and compiler-only features are lower-information controls.",
+    "Record-level PAGE_HOST similarity can be evaluated against known content and addressee structure, but any gain shared with raw character features is not Voynich-specific."
+  ],
+  "chronology": {
+    "blind_analysis_commit": "99bab66",
+    "source_freeze_commit": "d62de97",
+    "truth_export_commit": "3374596",
+    "unblind_scoring_after_all": true
+  },
+  "claim_ceiling": "Positive-control calibration only; no Voynich word, morpheme, sound, part of speech, language, plaintext, meaning, or translation.",
+  "content_retrieval": {
+    "compiler": {
+      "book": "ALL",
+      "mean_reciprocal_rank": "0.194183567358",
+      "median_normalized_rank": "0.0440973910225",
+      "queries_with_nonzero_truth_neighbor": 3172,
+      "representation": "COMPILER_SIGNATURE",
+      "top1": 384,
+      "top10": 1057,
+      "top10_rate": "0.333228247163",
+      "top1_rate": "0.1210592686",
+      "top_decile": 2029,
+      "top_decile_rate": "0.639659520807",
+      "truth_dimension": "CONTENT"
+    },
+    "page_host_char3": {
+      "book": "ALL",
+      "mean_reciprocal_rank": "0.570389042522",
+      "median_normalized_rank": "0.00215982721382",
+      "queries_with_nonzero_truth_neighbor": 3172,
+      "representation": "PAGE_HOST_CHAR3",
+      "top1": 1414,
+      "top10": 2566,
+      "top10_rate": "0.80895334174",
+      "top1_rate": "0.445775535939",
+      "top_decile": 3061,
+      "top_decile_rate": "0.96500630517",
+      "truth_dimension": "CONTENT"
+    },
+    "raw_char3": {
+      "book": "ALL",
+      "mean_reciprocal_rank": "0.592183985109",
+      "median_normalized_rank": "0.00215982721382",
+      "queries_with_nonzero_truth_neighbor": 3172,
+      "representation": "RAW_CHAR3",
+      "top1": 1484,
+      "top10": 2627,
+      "top10_rate": "0.828184110971",
+      "top1_rate": "0.467843631778",
+      "top_decile": 3075,
+      "top_decile_rate": "0.969419924338",
+      "truth_dimension": "CONTENT"
+    }
+  },
+  "counts": {
+    "aligned_group_lines": 48302,
+    "lines": 48347,
+    "records": 3178,
+    "retrieval_rows": 41678,
+    "sites": 119064,
+    "unaligned_group_lines": 45
+  },
+  "documents": {
+    "GDT155_MEDIEVAL_ABBREVIATION_POSITIVE_CONTROL_METHOD.md": "256c3ec6891c7e71f65c7e72706288ef0877c5a330caec5a617b595ecf5ca081"
+  },
+  "f84": {
+    "accessed": false,
+    "voynich_inputs": 0
+  },
+  "implementation": {
+    "run_gdt155_unblind_calibration.py": "534f4fe0c18e1767a566099a3f0e9e760725972e64492ede48e3f8f6759f5fb5"
+  },
+  "inputs": {
+    "gdt155_blind_group_parses.tsv": "97ad478123171493dabc91f0d860bc7e6654d369be06b143a8293deb6cdb6018",
+    "gdt155_blind_result.json": "9b2a22182a672a5c72b25ffef0aa2af15cada360aedc1e32773209e82cf447e5",
+    "gdt155_blind_transformations.tsv": "41cd346095a7840c9cdbb000bb16819ca24c5e19be8ef163b12dde5ecd6cfd5f",
+    "gdt155_blinded_abbreviation_sites.tsv": "859e4d40331493bf830b8eca0bf435301e51ec623712a2822ff3fab6f630a01f",
+    "gdt155_blinded_diplomatic.tsv": "8e907ee5a29def9098e84239617c8deab4d3420c8df50860107d8637489ec03b",
+    "gdt155_unblind_export.json": "81867d5da5b1190709f712e698858208ccb995a98ca7f74789a58cc4f8927044",
+    "gdt155_unblinded_abbreviation_sites.tsv": "99397730f0dc3cc4920b44c6da7a1ceadfd27937d57e4a5ab2168e366bce39c6",
+    "gdt155_unblinded_lines.tsv": "57cbf58af98a14e220852054ce2b6aff90702f332757d0229cc9b6d6f6968ab7",
+    "gdt155_unblinded_record_truth.tsv": "38cb3f5e3b08a1d4bb32950f70465e64dd2c24472e7759009377cf2878be0e7b"
+  },
+  "outputs": {
+    "gdt155_abbreviation_counterexamples.tsv": "89b3fe6018989033f9ca473a9fc88ac019cc785c1589fc2808cc7b2a604c15f5",
+    "gdt155_abbreviation_recovery.tsv": "dfc1eb1115629d820d8f84f0ffe4402eec43fc1541c0c695b0832e8f1b9a60e4",
+    "gdt155_operation_correspondence.tsv": "3d94496b9d842d1bda57a444126371b5cd3a7decf7cee924c663aa3ab7feea8c",
+    "gdt155_semantic_effect_sizes.tsv": "fe23693642965d1d829c77d9895d3d6f8c121fead5b70a2ed4d93b484cf94499",
+    "gdt155_unblind_retrieval.tsv": "236adf0d78ad699d1e4a1b53076a05ebd772fa08524ffcbfb3c5a157616f639a",
+    "gdt155_unblind_retrieval_summary.tsv": "18416ad09cfea830370821b72404623279f983d44c765e685a3a0cb240c36ec6"
+  },
+  "result_content_sha256": "2512d1554e7ad923e2fa0802d5b32f9e13d790a4b13e27111054a7682c3aed8a",
+  "schema": "GDT155_UNBLIND_CALIBRATION_RESULT_V1",
+  "site_expansion_recovery": {
+    "compiler": {
+      "accuracy": "0.132088397229",
+      "correct": "15618",
+      "n": "118239"
+    },
+    "page_host": {
+      "accuracy": "0.754064246445",
+      "correct": "82981",
+      "n": "110045"
+    },
+    "raw_char3_backoff": {
+      "accuracy": "0.881753492788",
+      "correct": "104956",
+      "n": "119031"
+    },
+    "raw_identity": {
+      "accuracy": "0.936927983521",
+      "correct": "103702",
+      "n": "110683"
+    }
+  },
+  "status": "REAL_MEDIEVAL_ABBREVIATION_POSITIVE_CONTROL_CALIBRATED"
+}
