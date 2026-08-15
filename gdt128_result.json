@@ -1,0 +1,79 @@
+{
+  "claim_ceiling": "One provenance-qualified postselected visual lead only; no star meaning, number, role, word, morpheme, POS, sound, language, plaintext, meaning, or translation.",
+  "documents": {
+    "GDT128_Q20_QOKAL_SHEEDY_TRANSFER_REPORT.md": "0783c286dd97d1d904cc9fbdc4c195553104f322bba35c9ec325980af5d37dc0"
+  },
+  "f84r": {
+    "assigned": false,
+    "joined": false,
+    "opened": false,
+    "predicted": false,
+    "queried": false,
+    "retained": false,
+    "scored": false,
+    "targeted": false
+  },
+  "implementation": {
+    "run_gdt128_q20_qokal_sheedy_transfer.py": "8c376672ced3e4645026d5ec26511ae4d87df5fc03941660b4a1fadc60c1f1bf"
+  },
+  "inputs": {
+    "gdt127_result.json": "3cf7c9a0376690ec1ad178ed813b1edad1e09c5668f0cd41bc1bcbc012ac09f4",
+    "gdt128_blind_visual_reviews.tsv": "3dfda514df88b35b9b8b00fb35769cbe7458f2060637a9982b5daa887710538e",
+    "gdt128_prediction.json": "c9cdc96c478a586fdf472fc57575cd8e05d84ad11209f677ca6c0485035b0562",
+    "gdt128_prediction_validation.json": "c6a2d4ee4b4c881789b2ff6679d1c5d4e83455a15db5d1bf722a96a0eea0de53"
+  },
+  "interpretation": "One risky coarse ray-class hit accompanied by a unanimous tail failure and a failed exact joint state.",
+  "outputs": {
+    "gdt128_scored_prediction.tsv": "9bd39c8c3f78131675df384c270dd225c0e471a525d8790c514a07cf675092df"
+  },
+  "result_content_sha256": "0b1c075791ff280eff7d4e96f6e42458774e3d3011866559358b2ce71b282c5f",
+  "review": {
+    "protocol": "TWO_FRESH_BLIND_REVIEWS_PLUS_THIRD_AFTER_RAY_DISAGREEMENT",
+    "provenance": "AI_DIRECT_VISUAL_OBSERVATION",
+    "ray_consensus": 8,
+    "ray_consensus_support": 2,
+    "ray_counts": {
+      "7": 1,
+      "8": 2
+    },
+    "reviewers": 3,
+    "same_image_hash": true,
+    "tail_consensus": 0,
+    "tail_consensus_support": 3,
+    "tail_counts": {
+      "0": 3
+    },
+    "third_reviewer_trigger": "FIRST_TWO_DISAGREED_ON_RAYS"
+  },
+  "schema": "GDT128_Q20_QOKAL_SHEEDY_TRANSFER_RESULT_V1",
+  "score": {
+    "exact_joint_prediction_hit": false,
+    "ray_prediction_hit": true,
+    "statistical_inference": "NONE_SINGLE_POSTSELECTED_TARGET",
+    "tail_prediction_hit": false
+  },
+  "status": "Q20_QOKAL_SHEEDY_RAY_TRANSFER_HIT_TAIL_TRANSFER_FAILED",
+  "target": {
+    "canvas_id": "1006254",
+    "formal_field_locus": "f103r.43",
+    "formal_group_indices": [
+      7,
+      8
+    ],
+    "formal_tokens": [
+      "qokal",
+      "sheedy"
+    ],
+    "image_url": "https://collections.library.yale.edu/iiif/2/1006254/full/full/0/default.jpg",
+    "open_locus": "f103r.43",
+    "page": "f103r",
+    "physical_folio": "f103",
+    "prediction": {
+      "color": "UNPREDICTED",
+      "rays": 8,
+      "tail": 1
+    },
+    "star_ordinal": 15,
+    "target_id": "GDT128_F103R_STAR15"
+  }
+}
