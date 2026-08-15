@@ -1,0 +1,86 @@
+{
+  "aiin_class_metrics": {
+    "accuracy": 0.925764192139738,
+    "balanced_accuracy": 0.8616611661166116,
+    "f1": 0.711864406779661,
+    "fn": 6,
+    "fp": 11,
+    "precision": 0.65625,
+    "recall": 0.7777777777777778,
+    "specificity": 0.9455445544554455,
+    "tn": 191,
+    "tp": 21
+  },
+  "aiin_family": {
+    "distinct_hosts": 69,
+    "mean_absolute_error": 0.04168720296729692,
+    "nonzero_either_pairs": 102,
+    "register_host_pairs": 229,
+    "right_family": "aiin",
+    "training_held_correlation": 0.8096389619417319
+  },
+  "claim_ceiling": "No semantic class, role, gloss, word, morpheme, POS, sound, language, plaintext, meaning, or translation.",
+  "distinct_hosts": 69,
+  "documents": {
+    "GDT076_RIGHT_FAMILY_HOST_PROPENSITY_METHOD.md": "34e8999cb141624e78ad5cd0efd1da1775e093d6cb0eac2c0e578e3e003f9c61",
+    "GDT076_RIGHT_FAMILY_HOST_PROPENSITY_REPORT.md": "91f3d69b10bfacc9a9500462491b085ffbe45d6dc90f02bab124f09bef73011d"
+  },
+  "f84r": {
+    "joined": false,
+    "opened": false,
+    "queried": false,
+    "retained": false,
+    "scored": false,
+    "targeted": false
+  },
+  "frequency_control_metrics": {
+    "accuracy": 0.7860262008733624,
+    "balanced_accuracy": 0.5257609094242758,
+    "f1": 0.1694915254237288,
+    "fn": 22,
+    "fp": 27,
+    "precision": 0.15625,
+    "recall": 0.18518518518518517,
+    "specificity": 0.8663366336633663,
+    "tn": 175,
+    "tp": 5
+  },
+  "groups": 15592,
+  "implementation": {
+    "run_gdt076_right_family_host_propensity.py": "6842880957eb605e2f67207fac5dafe19727e8f9a1c576fb26143339b3bcbffc"
+  },
+  "inputs": {
+    "gdt062_result.json": "52828ee0e450cbfb72b7037164610da0c882469ff2ba42b118991f3967dd436a",
+    "gdt062_right_family_inventory.tsv": "b0292332157524a7f5e0745bde74c38432c52e3f2dd7ae816677f0ea743ca1cc",
+    "gdt072_result.json": "799bb83f7ef0440d8449b94cec40d5fa37db7476abf5e6dd98455d220f36afad",
+    "gdt075_result.json": "7a0bbc2a1fe4fc16fb1032ba853549fbcf8c5245ac8161b51b1ec60dd1b9539e"
+  },
+  "interpretation": "A PAGE_HOST's aiin right-renderer propensity is a transferable formal class property across registers and is not explained by frequency alone.",
+  "matched_null": {
+    "draws": 20000,
+    "inclusive_p": 4.999750012499375e-05,
+    "null_id": "FREQUENCY_QUARTILE_MATCHED_TRAINING_CLASS_PERMUTATION",
+    "null_max_balanced_accuracy": 0.7147048038137147,
+    "null_mean_balanced_accuracy": 0.5395832049871654,
+    "observed_balanced_accuracy": 0.8616611661166116,
+    "seed": 76001
+  },
+  "outputs": {
+    "gdt076_null_results.tsv": "2373ab6f44e2a2fb8882d5a5ab3e3b0b35f9c27b582af2fd898d1e8d48c706eb",
+    "gdt076_register_host_rates.tsv": "12dc15f95d9fddd8b885168a97b1e101d2231ec9bf6826dbf8acefd0f3557bb5",
+    "gdt076_register_summary.tsv": "a500474f8dc176a1f2cdc2bdbd7ea1b08d1b65f45cc940c20431fb2dde9805e0",
+    "gdt076_right_family_stability.tsv": "a2e30cae406cac275bcbe196bb508ace96afed355c6985b89105490d0e3ec0cf",
+    "gdt076_variant_log.tsv": "43cd3143eaac8c310c918d566c869a792051b697a8c349bf177eb7a65eb4344b"
+  },
+  "register_host_pairs": 229,
+  "registers": [
+    "HERBAL_A",
+    "HERBAL_B",
+    "OTHER_A",
+    "OTHER_B",
+    "STARS_RECIPE_B"
+  ],
+  "result_content_sha256": "749d815d1a7247099fe4e3e81df5a9ae8973dd5584f4aef65feea34ae149f86b",
+  "schema": "GDT076_RIGHT_FAMILY_HOST_PROPENSITY_RESULT_V1",
+  "status": "AIIN_PROPENSITY_IS_TRANSFERABLE_PAGE_HOST_FORMAL_CLASS"
+}
