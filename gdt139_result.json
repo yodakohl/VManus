@@ -1,0 +1,320 @@
+{
+  "alternate_reading_sensitivity": "NOT_AVAILABLE_FOR_DERIVED_GDT062_HPR2_PAGE_BAGS;NO_REPLICATION_CLAIM",
+  "best_page_host_by_panel": {
+    "ELV": {
+      "baseline_bits": 116.86627966448953,
+      "gain_bits": 4.3903349653253745,
+      "held_bits": 112.47594469916416,
+      "local_permutation_p": 0.013498650134986502,
+      "max_eight_global_p": 0.052594740525947405,
+      "max_four_panel_p": 0.0374962503749625,
+      "max_token_model_p": 0.25977402259774024,
+      "pages": 81,
+      "panel": "ELV",
+      "physical_folios": 54,
+      "positive_cells": 15,
+      "positive_gain_folios": 41,
+      "positive_gain_tokens": 3,
+      "representation": "PAGE_HOST_CHAR3",
+      "selector_paid_gain_bits": 1.3903349653253745,
+      "tokens": 6
+    },
+    "THP": {
+      "baseline_bits": 253.16067177685113,
+      "gain_bits": -9.543512335555754,
+      "held_bits": 262.7041841124069,
+      "local_permutation_p": 0.49805019498050196,
+      "max_eight_global_p": 0.052594740525947405,
+      "max_four_panel_p": 0.6259374062593741,
+      "max_token_model_p": 0.25977402259774024,
+      "pages": 92,
+      "panel": "THP",
+      "physical_folios": 55,
+      "positive_cells": 31,
+      "positive_gain_folios": 26,
+      "positive_gain_tokens": 4,
+      "representation": "PAGE_HOST_CHAR3",
+      "selector_paid_gain_bits": -12.543512335555754,
+      "tokens": 13
+    }
+  },
+  "claim_ceiling": "Noisy external identification-token association only; no plant identification, semantic role, gloss, word, morpheme, POS, sound, language, plaintext, meaning, or translation.",
+  "cross_source_scores": [
+    {
+      "baseline_bits": 52.42475868739836,
+      "gain_bits": 0.15285744960681147,
+      "held_bits": 52.27190123779155,
+      "pages": 81,
+      "representation": "PAGE_HOST_IDENTITY",
+      "target_panel": "ELV",
+      "tokens": "polygonum|primula|scabiosa",
+      "training_panel": "THP"
+    },
+    {
+      "baseline_bits": 52.42475868739836,
+      "gain_bits": -1.4769470124664974,
+      "held_bits": 53.90170569986486,
+      "pages": 81,
+      "representation": "PAGE_HOST_CHAR3",
+      "target_panel": "ELV",
+      "tokens": "polygonum|primula|scabiosa",
+      "training_panel": "THP"
+    },
+    {
+      "baseline_bits": 52.42475868739836,
+      "gain_bits": -2.805933418554884,
+      "held_bits": 55.230692105953246,
+      "pages": 81,
+      "representation": "RAW_CHAR3",
+      "target_panel": "ELV",
+      "tokens": "polygonum|primula|scabiosa",
+      "training_panel": "THP"
+    },
+    {
+      "baseline_bits": 52.42475868739836,
+      "gain_bits": -2.844914059350518,
+      "held_bits": 55.26967274674888,
+      "pages": 81,
+      "representation": "COMPILER_SIGNATURE",
+      "target_panel": "ELV",
+      "tokens": "polygonum|primula|scabiosa",
+      "training_panel": "THP"
+    },
+    {
+      "baseline_bits": 63.84560518732095,
+      "gain_bits": -0.5383674543226846,
+      "held_bits": 64.38397264164362,
+      "pages": 92,
+      "representation": "PAGE_HOST_IDENTITY",
+      "target_panel": "THP",
+      "tokens": "polygonum|primula|scabiosa",
+      "training_panel": "ELV"
+    },
+    {
+      "baseline_bits": 63.84560518732095,
+      "gain_bits": -0.9330313739694651,
+      "held_bits": 64.77863656129041,
+      "pages": 92,
+      "representation": "PAGE_HOST_CHAR3",
+      "target_panel": "THP",
+      "tokens": "polygonum|primula|scabiosa",
+      "training_panel": "ELV"
+    },
+    {
+      "baseline_bits": 63.84560518732095,
+      "gain_bits": -2.8532266550818886,
+      "held_bits": 66.69883184240283,
+      "pages": 92,
+      "representation": "RAW_CHAR3",
+      "target_panel": "THP",
+      "tokens": "polygonum|primula|scabiosa",
+      "training_panel": "ELV"
+    },
+    {
+      "baseline_bits": 63.84560518732095,
+      "gain_bits": -4.025953634263512,
+      "held_bits": 67.87155882158446,
+      "pages": 92,
+      "representation": "COMPILER_SIGNATURE",
+      "target_panel": "THP",
+      "tokens": "polygonum|primula|scabiosa",
+      "training_panel": "ELV"
+    }
+  ],
+  "documents": {
+    "GDT139_HERBAL_IDENTIFICATION_TOKEN_TRANSFER_METHOD.md": "82b7ec250725b9504976cfb8825dacffb566df2ed5a7c746c92d872cdfc1513f",
+    "GDT139_HERBAL_IDENTIFICATION_TOKEN_TRANSFER_REPORT.md": "52452a656efe8df7177e8160a2c05c1e6f06078fe62f38f6f4d9c584e4eb6921"
+  },
+  "eligible_tokens": {
+    "ELV": [
+      "aristolochia",
+      "eryngium",
+      "geranium",
+      "polygonum",
+      "primula",
+      "scabiosa"
+    ],
+    "THP": [
+      "absinthium",
+      "artemisium",
+      "arum",
+      "boragine",
+      "cucumber",
+      "mentastrum",
+      "polygonum",
+      "primula",
+      "scabiosa",
+      "silene",
+      "tamus",
+      "thistle",
+      "veronica"
+    ]
+  },
+  "f84": {
+    "all_rows_rejected_before_retention": true,
+    "new_f84r_access": false
+  },
+  "family_best": {
+    "baseline_bits": 116.86627966448953,
+    "gain_bits": 4.3903349653253745,
+    "held_bits": 112.47594469916416,
+    "local_permutation_p": 0.013498650134986502,
+    "max_eight_global_p": 0.052594740525947405,
+    "max_four_panel_p": 0.0374962503749625,
+    "max_token_model_p": 0.25977402259774024,
+    "pages": 81,
+    "panel": "ELV",
+    "physical_folios": 54,
+    "positive_cells": 15,
+    "positive_gain_folios": 41,
+    "positive_gain_tokens": 3,
+    "representation": "PAGE_HOST_CHAR3",
+    "selector_paid_gain_bits": 1.3903349653253745,
+    "tokens": 6
+  },
+  "implementation": {
+    "run_gdt139_herbal_identification_token_transfer.py": "17a78675417fa67279e4ebdc4cac1d0a9bc880643fcf35cefc65508368475a58"
+  },
+  "inputs": {
+    "gdt062_right_family_inventory.tsv": "b0292332157524a7f5e0745bde74c38432c52e3f2dd7ae816677f0ea743ca1cc",
+    "gdt137_result.json": "8eb3b16fc61f8a57f7a2fdd695b9391b9579c9c1ed5353b598ca75b8fa4da4e0",
+    "gdt139_identification_token_inventory.tsv": "626df2067e588275fc300172632de417dff52bf002067f028f3606c6173d2856",
+    "gdt139_prediction.json": "c6c8a074618a511931dff7686a4f0e217c91cab252ad6e71bfc223eb3f9c2f6c"
+  },
+  "interpretation": "Noisy published identification-head tokens versus whole-page formal inventories after visible-feature and metadata nuisance control.",
+  "outcome_caveat": "Tentative identifications are noisy human hypotheses and absence of a token is not botanical exclusion. ELV and ThP are separate source panels, not replications.",
+  "outputs": {
+    "gdt139_counterexamples.tsv": "853b0e9a3709ef77a6cb79f6d0021a90f14696854dd8b2cce9e1063500abd3e8",
+    "gdt139_cross_source_scores.tsv": "0d92f350e44c4f32b5fa958b4f61578fef2dc618f6d3cfb8bf1b9acdaf38d7dc",
+    "gdt139_folio_scores.tsv": "c2500700ef5d449e375a21dea3544c8d85265787b9c853eb1f2e5f66f2e1cee0",
+    "gdt139_null_results.tsv": "e93196286999797fd4f5fff964a11d23a80f6ae7997bfde04860c99544956724",
+    "gdt139_page_predictions.tsv": "9cc1180f7d464e15ba39ec35848d3b03f64e0508fd64bb542790f622efbf1c66",
+    "gdt139_panel_scores.tsv": "ad3d02ad26c6fbbeca5c4d5791d191e87b37c778b569dd416e997e00f4176c37",
+    "gdt139_token_scores.tsv": "e8df9f816b86a6cde26526e60aba3fac2b93fdd8f15b2df0ec76a0a395b1c2e6",
+    "gdt139_variant_log.tsv": "754411c27e5f030341aeeb1954e2a302b1458e0362a1d7f6f859f7da8f5fb48c"
+  },
+  "panels": {
+    "ELV": 81,
+    "THP": 92
+  },
+  "result_content_sha256": "60e273dad4a1bcbc6febf599e6d3d19bcfd33218a8d1e7932be448a1553a4822",
+  "schema": "GDT139_HERBAL_IDENTIFICATION_TOKEN_TRANSFER_RESULT_V1",
+  "shared_cross_source_tokens": [
+    "polygonum",
+    "primula",
+    "scabiosa"
+  ],
+  "status": "IDENTIFICATION_TOKEN_PAGE_HOST_ASSOCIATION_INTERESTING_EXPLORATORY",
+  "strongest_token_diagnostics": [
+    {
+      "gain_bits": 5.038743215198275,
+      "local_permutation_p": 0.007099290070992901,
+      "max_token_model_p": 0.25977402259774024,
+      "panel": "THP",
+      "physical_folios": 2,
+      "positive_gain_folios": 55,
+      "positive_pages": 2,
+      "representation": "RAW_CHAR3",
+      "token": "veronica"
+    },
+    {
+      "gain_bits": 2.4925096450371207,
+      "local_permutation_p": 0.0456954304569543,
+      "max_token_model_p": 0.25977402259774024,
+      "panel": "THP",
+      "physical_folios": 2,
+      "positive_gain_folios": 47,
+      "positive_pages": 2,
+      "representation": "PAGE_HOST_CHAR3",
+      "token": "cucumber"
+    },
+    {
+      "gain_bits": 2.4430669376682226,
+      "local_permutation_p": 0.0736926307369263,
+      "max_token_model_p": 0.25977402259774024,
+      "panel": "ELV",
+      "physical_folios": 2,
+      "positive_gain_folios": 49,
+      "positive_pages": 2,
+      "representation": "PAGE_HOST_CHAR3",
+      "token": "scabiosa"
+    },
+    {
+      "gain_bits": 2.275760825847668,
+      "local_permutation_p": 0.0736926307369263,
+      "max_token_model_p": 0.25977402259774024,
+      "panel": "ELV",
+      "physical_folios": 2,
+      "positive_gain_folios": 49,
+      "positive_pages": 2,
+      "representation": "PAGE_HOST_IDENTITY",
+      "token": "scabiosa"
+    },
+    {
+      "gain_bits": 2.139905998117137,
+      "local_permutation_p": 0.0476952304769523,
+      "max_token_model_p": 0.25977402259774024,
+      "panel": "ELV",
+      "physical_folios": 3,
+      "positive_gain_folios": 44,
+      "positive_pages": 3,
+      "representation": "PAGE_HOST_CHAR3",
+      "token": "geranium"
+    },
+    {
+      "gain_bits": 1.9551371830946278,
+      "local_permutation_p": 0.055694430556944306,
+      "max_token_model_p": 0.25977402259774024,
+      "panel": "THP",
+      "physical_folios": 2,
+      "positive_gain_folios": 53,
+      "positive_pages": 2,
+      "representation": "PAGE_HOST_CHAR3",
+      "token": "veronica"
+    },
+    {
+      "gain_bits": 1.7451909054637147,
+      "local_permutation_p": 0.0731926807319268,
+      "max_token_model_p": 0.25977402259774024,
+      "panel": "THP",
+      "physical_folios": 2,
+      "positive_gain_folios": 51,
+      "positive_pages": 2,
+      "representation": "COMPILER_SIGNATURE",
+      "token": "veronica"
+    },
+    {
+      "gain_bits": 1.659154747588553,
+      "local_permutation_p": 0.06429357064293571,
+      "max_token_model_p": 0.25977402259774024,
+      "panel": "ELV",
+      "physical_folios": 4,
+      "positive_gain_folios": 45,
+      "positive_pages": 4,
+      "representation": "COMPILER_SIGNATURE",
+      "token": "aristolochia"
+    },
+    {
+      "gain_bits": 1.433037395935683,
+      "local_permutation_p": 0.06419358064193581,
+      "max_token_model_p": 0.25977402259774024,
+      "panel": "ELV",
+      "physical_folios": 3,
+      "positive_gain_folios": 41,
+      "positive_pages": 3,
+      "representation": "PAGE_HOST_IDENTITY",
+      "token": "geranium"
+    },
+    {
+      "gain_bits": 1.254066469580322,
+      "local_permutation_p": 0.0817918208179182,
+      "max_token_model_p": 0.25977402259774024,
+      "panel": "THP",
+      "physical_folios": 2,
+      "positive_gain_folios": 47,
+      "positive_pages": 2,
+      "representation": "RAW_CHAR3",
+      "token": "arum"
+    }
+  ]
+}
