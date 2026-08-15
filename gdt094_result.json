@@ -1,0 +1,64 @@
+{
+  "claim_ceiling": "Transferable formal first-character construction constraint only; no semantic class, role, gloss, word, morpheme, POS, sound, language, plaintext, meaning, or translation.",
+  "documents": {
+    "GDT094_NESTED_OPERATOR_TAIL_TRANSFER_METHOD.md": "640d7fefc77915719472cede5946ee8e07e422fc76fd5ab1c99443a801695808",
+    "GDT094_NESTED_OPERATOR_TAIL_TRANSFER_REPORT.md": "3b8b17971030bba36078aa0ada1e2956f1b198ddd8d9de9ea48a7b77c140d520"
+  },
+  "f84r": {
+    "joined": false,
+    "opened": false,
+    "queried": false,
+    "retained": false,
+    "scored": false,
+    "targeted": false
+  },
+  "groups": 4641,
+  "implementation": {
+    "run_gdt094_nested_operator_tail_transfer.py": "a40447e6ac81ce1d5e3ae1a7c26c558259afb4f42ab8b3e8d36dee2ac86582bb"
+  },
+  "inputs": {
+    "gdt003_nested_result.json": "e2247485111cca89d2431a0d8fe3ea09e94a5e795c0a305a37e0f0d6100b3174",
+    "gdt062_right_family_inventory.tsv": "b0292332157524a7f5e0745bde74c38432c52e3f2dd7ae816677f0ea743ca1cc",
+    "gdt087_result.json": "370915c175dd8d9683b475f181263906c697bddfb902c2213c6f8241890d6a02",
+    "gdt092_result.json": "a26dc19a4e7243486b354aa468848540985e6b70385b20d4676c246d230653ef"
+  },
+  "matched_tails": 42,
+  "nested_exclusion": "EXACT_TAIL_AND_PHYSICAL_FOLIO",
+  "outputs": {
+    "gdt094_baseline_comparison.tsv": "4abb0bc41dac83e3c64b891be6455eab549e86820ba374699090fe55fca14a1f",
+    "gdt094_nested_model_scores.tsv": "cf63b883d77d87d91243118b9ceae9fba40c191667461c1c41e58877e868f04f",
+    "gdt094_tail_directions.tsv": "6f2ded007b37bbb0e56800fa3ec1ee678ace970a7d9ab0bc89dce89bee3a792f"
+  },
+  "result_content_sha256": "ff3da7e8d1154a87504249ecf606e2d31af8ce97889c37e90708bbf0f128f908",
+  "schema": "GDT094_NESTED_OPERATOR_TAIL_TRANSFER_RESULT_V1",
+  "selected_base_models": {
+    "D": {
+      "baseline_bits": 886.4111072850101,
+      "feature_model": "BASE_OY",
+      "gain_bits": 256.52018017842965,
+      "groups": 4641,
+      "lambda": 1,
+      "model_bits": 629.8909271065804,
+      "selected": 1,
+      "selector_paid_gain_bits": 254.1982520835423,
+      "wrapper_outcome": "D"
+    },
+    "Q": {
+      "baseline_bits": 4606.760454346742,
+      "feature_model": "BASE_OY",
+      "gain_bits": 1058.2155878645617,
+      "groups": 4641,
+      "lambda": 1,
+      "model_bits": 3548.5448664821806,
+      "selected": 1,
+      "selector_paid_gain_bits": 1055.8936597696743,
+      "wrapper_outcome": "Q"
+    }
+  },
+  "status": "OPERATOR_BASE_RULE_TRANSFERS_TO_UNSEEN_TAILS_AND_FOLIOS_BUT_EQUALS_STRING_BASELINE",
+  "string_baseline_relationship": "BASE_OY is PAGE_HOST first character; factor and first-character baseline are numerically identical.",
+  "tail_direction_accuracy": {
+    "D": "10/11",
+    "Q": "41/41"
+  }
+}
