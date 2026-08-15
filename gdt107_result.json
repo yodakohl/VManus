@@ -1,0 +1,80 @@
+{
+  "claim_ceiling": "Archived cross-edge tag preservation only; no word, morpheme, POS, sound, language, plaintext, role, gloss, meaning, or translation.",
+  "cores": 28,
+  "documents": {
+    "GDT107_EDGE_VARIANT_EXTERNAL_PRESERVATION_METHOD.md": "b78c5bcd4d7f7fb4e0b8fc0ad06e55a1852aab3037259dc853e40361625db87d",
+    "GDT107_EDGE_VARIANT_EXTERNAL_PRESERVATION_REPORT.md": "407067b765fb6f4b42a6fc411da306829adf30888c7d0b652d6598b9d281abc2"
+  },
+  "f84r": {
+    "joined": false,
+    "opened": false,
+    "queried": false,
+    "retained": false,
+    "scored": false,
+    "targeted": false
+  },
+  "implementation": {
+    "run_gdt107_edge_variant_external_preservation.py": "1788df22fd010f022663ef9874a5f58adf73ea709389e9a4332a6c57d9cca2b7"
+  },
+  "inputs": {
+    "gdt059_hpr2_external_inventory.tsv": "3a683e6bf169fb79220693c3b75256588f37ec8e52f788af68ad3de3bb2f83ef",
+    "gdt104_result.json": "798829bd3b068647691e189a65dec0788dea44c4892afbd1a92875366c61697c",
+    "gdt106_result.json": "e0d01afe64e81cfb37c3e886d7f1a58006ca18b488060aba2c65d4d1c7f4b5ce"
+  },
+  "interpretation": "Edge-stripped cores do not preserve object-axis annotations across edge variants; relation-axis preservation is weak and postselected.",
+  "match_states": {
+    "EDGE_RELAXED": 17,
+    "EXACT_EDGE": 107
+  },
+  "outputs": {
+    "gdt107_edge_variant_pairs.tsv": "b2c9ba05abf2fdd4550ef0b268b584c1c35055fb213ec83455c51ca692a6b6b7",
+    "gdt107_edge_variant_scores.tsv": "e46707620c65e2d34634859011840a536689ef85f87260bc2af4be0a6c002a39",
+    "gdt107_null_summary.tsv": "7ad980b98de8a579cb76905a36e6e9cea866a488ef76fd4eea3ed8c1a7a34de0"
+  },
+  "pairs": 124,
+  "permutations": 20000,
+  "result_content_sha256": "5cbd1f1895faa9bf023e49bec5b4434d02256d82e8eccaa143c5ae0e98b55987",
+  "schema": "GDT107_EDGE_VARIANT_EXTERNAL_PRESERVATION_RESULT_V1",
+  "scores": {
+    "ALL_AXES": {
+      "axis_scope": "ALL_AXES",
+      "edge_stripped_cores": 28,
+      "edge_variant_pairs": 124,
+      "effect": 0.009034088099799276,
+      "inclusive_p": 0.2601369931503425,
+      "matched_null_mean": 0.3289773377349024,
+      "observed_equal_core_jaccard": 0.3380114258347017,
+      "permutations": 20000,
+      "semantic_role": "UNASSIGNED",
+      "units": 319
+    },
+    "OBJECT_AXIS": {
+      "axis_scope": "OBJECT_AXIS",
+      "edge_stripped_cores": 28,
+      "edge_variant_pairs": 124,
+      "effect": 0.00337316468253962,
+      "inclusive_p": 0.535523223838808,
+      "matched_null_mean": 0.3364291068007663,
+      "observed_equal_core_jaccard": 0.33980227148330594,
+      "permutations": 20000,
+      "semantic_role": "UNASSIGNED",
+      "units": 319
+    },
+    "RELATION_AXIS": {
+      "axis_scope": "RELATION_AXIS",
+      "edge_stripped_cores": 28,
+      "edge_variant_pairs": 124,
+      "effect": 0.042234612753147216,
+      "inclusive_p": 0.10589470526473677,
+      "matched_null_mean": 0.36049869321291733,
+      "observed_equal_core_jaccard": 0.40273330596606455,
+      "permutations": 20000,
+      "semantic_role": "UNASSIGNED",
+      "units": 319
+    }
+  },
+  "seed": 107001,
+  "semantic_role": "UNASSIGNED",
+  "status": "EDGE_VARIANTS_DO_NOT_PRESERVE_OBJECT_AXES_RELATION_PRESERVATION_WEAK",
+  "units": 319
+}
