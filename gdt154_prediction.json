@@ -1,0 +1,48 @@
+{
+  "claim_ceiling": "Frozen page-level exact-gloss test only; no word, morpheme, POS, sound, language, plaintext, plant identity, meaning, or translation.",
+  "content_sha256": "638275669f3626b1c4c9b619aaae41acdc937ad22e196ce3f9896a979c189d98",
+  "decision_rule": {
+    "one_of_two": "UNSTABLE_LOCAL_ONLY",
+    "two_of_two": "PROVISIONAL_SEMANTIC_LEAD",
+    "zero_of_two_or_component_contradiction": "REJECT_EXACT_GLOSS"
+  },
+  "documents": {
+    "GDT154_OS_VISUAL_TRANSFER_METHOD.md": "96272ae240caec497d193f261b8348c21f3e9ca0dccca5e9647e6dc5bbb682b7"
+  },
+  "eligible_candidates": 5,
+  "f84r": {
+    "joined": false,
+    "opened": false,
+    "retained": false,
+    "scored": false,
+    "targeted": false
+  },
+  "implementation": {
+    "freeze_gdt154_os_visual_transfer.py": "ff0e21b5944ea1de3811a44149e118f38c35359e63ef9eb471fc595a950242ac"
+  },
+  "inputs": {
+    "gdt062_right_family_inventory.tsv": "b0292332157524a7f5e0745bde74c38432c52e3f2dd7ae816677f0ea743ca1cc",
+    "gdt089_os_cases.tsv": "f5793cecbba098ce064000a7af45c2703e381f06e2d038e9594917d81a55194a",
+    "gdt089_result.json": "45aeacce6815ab0f2e1b7ea101d6dd629a793da25c7afd46687b04949b284793"
+  },
+  "outputs": {
+    "gdt154_os_visual_predictions.tsv": "74c38bc79ea427c0dd5e94bb739a4155715287a108fb23dd6e7a3c78601b2d9a"
+  },
+  "ownership_caveat": "Targets are running-text occurrences with page-level plant association only; no singular label ownership is asserted.",
+  "prediction": "Each target page plant set contains a conspicuously dark leaf surface and depicted root interiors visibly lighter than that leaf.",
+  "schema": "GDT154_OS_VISUAL_TRANSFER_PREDICTION_V1",
+  "seed_loci": [
+    "f100v.13",
+    "f88v.13"
+  ],
+  "selection_rule": "HERBAL exact PAGE_HOST=os and token=chos and wrapper=ch with no right/DY/B3, excluding GDT089 seed pages and all f84 pages; retain first two by numeric physical folio",
+  "status": "FROZEN_BEFORE_TARGET_IMAGE_ACCESS",
+  "target_loci": [
+    "f15r.9",
+    "f27r.4"
+  ],
+  "target_pages": [
+    "f15r",
+    "f27r"
+  ]
+}
