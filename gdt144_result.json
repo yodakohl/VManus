@@ -1,0 +1,101 @@
+{
+  "best_top_decile_relation_count": 1,
+  "capacity_exclusions": [
+    "MHI002"
+  ],
+  "claim_ceiling": "Partial-representation corpus retrieval only; no full PAGE_HOST refutation, botanical truth, identity, semantic role, gloss, word, morpheme, POS, sound, language, plaintext, meaning, or translation.",
+  "covered_relations": [
+    "MHI003",
+    "MHI004",
+    "MHI006",
+    "MHI007"
+  ],
+  "documents": {
+    "GDT144_CORPUS_WIDE_RELATION_RETRIEVAL_METHOD.md": "6e65e19da3f498036dfb4324906fe921be34f8f8026dae15b9b8f5b52f871bdd",
+    "GDT144_CORPUS_WIDE_RELATION_RETRIEVAL_REPORT.md": "07e41328eec89d0e0a2e0d915b7c52e5a27316b2e1a46cbc3dc317d476165180"
+  },
+  "eligible_pages": 93,
+  "f84": {
+    "all_actual_inputs_have_zero_f84r_rows": true,
+    "global_source_or_image_opened": false,
+    "new_f84r_access": false
+  },
+  "gates": {
+    "at_least_three_of_four_top_decile_in_one_fixed_representation": false,
+    "max_four_p_le_0_05": false
+  },
+  "implementation": {
+    "run_gdt144_corpus_wide_relation_retrieval.py": "b737afd2dc0aeb0ba0580f818acbddadaf9a8bc6ef9d4112f0cd70d4d5b9be6f"
+  },
+  "inputs": {
+    "gdt112_o_ot_units.tsv": "c10c4608222dfd52b27c6eb07d07e9e70739c70b81119a9537ddba1cac150b60",
+    "gdt137_herbal_visual_feature_inventory.tsv": "1518a6ae3b0f7ef54379f305f5aa16d9afa0ebeaf9592a2264c5344335917138",
+    "gdt140_herbal_relation_inventory.tsv": "38584b43f02fb4affcbc6679acb4225be22637f83c641cc981967ec20abcb2a0",
+    "gdt140_result.json": "41ab7e6e0a4bf8269de350dcbda06849240b1697ee4d50b6ed6839df8d1a1954",
+    "gdt143_result.json": "c08c9c95bb3960a325812157b15107396e9b4cfc929aff2a728412fcdf2fe160"
+  },
+  "interpretation": "Partial O/OT PAGE_HOST sets do not retrieve most GDT140 targets corpus-wide.",
+  "null_results": [
+    {
+      "local_monte_carlo_p": 0.32272,
+      "max_four_monte_carlo_p": 0.36544,
+      "null_mean": -0.0009988704096616143,
+      "null_sd": 0.49958753389715227,
+      "representation": "HOST_SET",
+      "seed": 144140,
+      "true_mean_source_z": 0.20110629882467457,
+      "true_null_standardized_z": 0.40454405989230036,
+      "worlds": 100000
+    },
+    {
+      "local_monte_carlo_p": 0.38086,
+      "max_four_monte_carlo_p": 0.36544,
+      "null_mean": -0.0010410017439019612,
+      "null_sd": 0.4995907298273609,
+      "representation": "HOST_CHAR3_SET",
+      "seed": 144140,
+      "true_mean_source_z": 0.121541608556688,
+      "true_null_standardized_z": 0.24536606262279875,
+      "worlds": 100000
+    },
+    {
+      "local_monte_carlo_p": 0.239,
+      "max_four_monte_carlo_p": 0.36544,
+      "null_mean": -0.0010824404605618361,
+      "null_sd": 0.4978098623679093,
+      "representation": "FRAME_HOST_SET",
+      "seed": 144140,
+      "true_mean_source_z": 0.32915347634356024,
+      "true_null_standardized_z": 0.663377610144773,
+      "worlds": 100000
+    },
+    {
+      "local_monte_carlo_p": 0.35865,
+      "max_four_monte_carlo_p": 0.36544,
+      "null_mean": -0.0011821516450928082,
+      "null_sd": 0.4996519754354452,
+      "representation": "FRAME_HOST_CHAR3_SET",
+      "seed": 144140,
+      "true_mean_source_z": 0.14381849477888867,
+      "true_null_standardized_z": 0.2902032885942537,
+      "worlds": 100000
+    }
+  ],
+  "outputs": {
+    "gdt144_capacity.tsv": "2fcc679e86e33c4a6544c471d65772f690dbbcbf52182af82c25f3ff9ef067f7",
+    "gdt144_counterexamples.tsv": "bdd2d617ccedd794e679ce84e9a8e6a1f9fe5a5ceb3a32d9f69ab58251683e9e",
+    "gdt144_null_results.tsv": "a1f718b4bbd74ec79b784ba473e4c9263193d7ee3f56fbc9279849db157e0de7",
+    "gdt144_pair_ranks.tsv": "ca93ceb448da3fdb5f4b6cc03c47d2ace7e90a9569183d1fb7625ab936c5301c"
+  },
+  "representations": [
+    "HOST_SET",
+    "HOST_CHAR3_SET",
+    "FRAME_HOST_SET",
+    "FRAME_HOST_CHAR3_SET"
+  ],
+  "result_content_sha256": "e891a8c4955cef6267ce6368b70f57bab71745bfe340456f0de58f20300ec874",
+  "schema": "GDT144_CORPUS_WIDE_RELATION_RETRIEVAL_RESULT_V1",
+  "seed": 144140,
+  "status": "O_OT_PAGE_HOST_CORPUS_WIDE_RELATION_RETRIEVAL_NOT_SUPPORTED",
+  "worlds": 100000
+}
