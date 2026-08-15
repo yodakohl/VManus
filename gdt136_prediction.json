@@ -1,0 +1,57 @@
+{
+  "alternate_readings": "AVERAGE_PROFILEABLE_EDITIONS;NOT_REPLICATIONS",
+  "capacity": {
+    "all_readings_profileable_loci": 15,
+    "all_readings_profileable_physical_folios": 5,
+    "primary_loci_any_profileable_reading": 31,
+    "primary_physical_folios": 6,
+    "source_rows_after_all_f84_exclusion": 15364,
+    "target_loci": 44,
+    "target_physical_folios": 6,
+    "two_outside_folio_loci": 27,
+    "two_outside_folio_physical_folios": 6
+  },
+  "chronology": "Public GDT068 behavior model crossed with public GDT109 target; capacity fixed before new behavior-to-descriptor predictions were computed.",
+  "claim_ceiling": "Reusable source-formal behavior class only; no semantic class, role, gloss, word, morpheme, POS, sound, language, plaintext, meaning, or translation.",
+  "comparators": [
+    "PAGE_HOST_CHAR3",
+    "RAW_CHAR3"
+  ],
+  "eligibility": "AT_LEAST_ONE_COMPLETE_EDITION_RENDERING_WITH_EVERY_HOST_ON_AT_LEAST_ONE_NON_TARGET_FOLIO",
+  "f84": {
+    "all_f84_rows_rejected_before_retention": true,
+    "new_f84r_access": false
+  },
+  "gates": {
+    "behavior_beats_both_string_baselines": true,
+    "behavior_positive_at_least_4_of_6_folios": true,
+    "behavior_selector_paid_gain_positive": true,
+    "max_three_p_le_005": true,
+    "two_outside_folio_sensitivity_positive": true
+  },
+  "implementation": {
+    "freeze_gdt136_behavior_profile_legacy_transfer.py": "771eca15a5939930fca1892b882fd9b536db23008b0c8f10ccb643c8cc545d16"
+  },
+  "inputs": {
+    "GDT136_BEHAVIOR_PROFILE_LEGACY_TRANSFER_METHOD.md": "ad9ded02f6c58de89bcc18e8bb37042e58d7bfe4f676396f8c62b7c8f332cc56",
+    "gdt016_group_state_inventory.tsv": "e109ce15864ed6b6f76d446b3c96d6190a0dc53d20d8ab0944554124e687234c",
+    "gdt062_right_family_inventory.tsv": "b0292332157524a7f5e0745bde74c38432c52e3f2dd7ae816677f0ea743ca1cc",
+    "gdt068_result.json": "ec418e059b3a13fe35b674ab9b82521be4b643c510ee658e4cb6f071b3d7fcbd",
+    "gdt095_descriptor_token_manifest.tsv": "427ac316be00ad5c570ed160413561a7bba76b71b2f385de81ddc420fdcbfdf8",
+    "gdt109_result.json": "68088aa78246161104664f29ad2aa7a12ec811dd628926534318bc8b177f74fb",
+    "gdt109_target_inventory.tsv": "803ab31409ebe6643c8752c47c09def6c0a7133457c89fcb6db30b857d8863c9"
+  },
+  "k": 5,
+  "outcome_access": "ARCHIVE_ALREADY_PUBLIC_AND_EXPOSED;CAPACITY_AUDIT_DID_NOT_RETAIN_JOIN_OR_SCORE_DESCRIPTOR_TOKENS",
+  "outputs": {
+    "gdt136_capacity.tsv": "5430c852980908f61eb19b663b98d19079b59da899c449d4d4fd46cacff0b4f4"
+  },
+  "prediction_content_sha256": "cde177434016c3f468ac9d653dcbfcef9212a9117d227426065ce89eb792d6c8",
+  "primary_representation": "BEHAVIOR_SELF_NEIGHBOR_NOPOS",
+  "schema": "GDT136_BEHAVIOR_PROFILE_LEGACY_TRANSFER_PREDICTION_V1",
+  "selector_models": 3,
+  "shrink": 4.0,
+  "status": "FROZEN_POSTHOC_CROSS_PANEL_BEFORE_DESCRIPTOR_SCORING",
+  "target": "FIXED_GDT109_44_LOCUS_19_DESCRIPTOR_TOKEN_PANEL",
+  "worlds": 10000
+}
