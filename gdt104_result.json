@@ -1,0 +1,102 @@
+{
+  "axes": 8,
+  "channel_decomposition": {
+    "HOST_PLUS_B3": {
+      "interpretation": "CONTROL_OR_DILUTION",
+      "layer": "HOST_PLUS_B3",
+      "object_axis_bits": 0.06303800712613702,
+      "relation_axis_bits": -0.40103246643587,
+      "relation_minus_object_bits": -0.46407047356200704,
+      "semantic_role": "UNASSIGNED"
+    },
+    "HOST_PLUS_DY": {
+      "interpretation": "RELATION_LAYOUT_INCREMENT",
+      "layer": "HOST_PLUS_DY",
+      "object_axis_bits": -0.3077464650450001,
+      "relation_axis_bits": 10.31866927736,
+      "relation_minus_object_bits": 10.626415742405,
+      "semantic_role": "UNASSIGNED"
+    },
+    "HOST_PLUS_FRAME": {
+      "interpretation": "CONTROL_OR_DILUTION",
+      "layer": "HOST_PLUS_FRAME",
+      "object_axis_bits": -8.836703265454,
+      "relation_axis_bits": -1.8878787922520002,
+      "relation_minus_object_bits": 6.948824473202,
+      "semantic_role": "UNASSIGNED"
+    },
+    "HOST_PLUS_RIGHT": {
+      "interpretation": "RELATION_LAYOUT_INCREMENT",
+      "layer": "HOST_PLUS_RIGHT",
+      "object_axis_bits": -4.715154619545,
+      "relation_axis_bits": 7.907092609517799,
+      "relation_minus_object_bits": 12.6222472290628,
+      "semantic_role": "UNASSIGNED"
+    },
+    "HOST_PLUS_WRAPPER": {
+      "interpretation": "CONTROL_OR_DILUTION",
+      "layer": "HOST_PLUS_WRAPPER",
+      "object_axis_bits": -15.465328827121,
+      "relation_axis_bits": 4.903867447320001,
+      "relation_minus_object_bits": 20.369196274441002,
+      "semantic_role": "UNASSIGNED"
+    },
+    "PAGE_HOST_CHAR3": {
+      "interpretation": "HOST_PRIMARY",
+      "layer": "PAGE_HOST_CHAR3",
+      "object_axis_bits": 61.848838556834,
+      "relation_axis_bits": -34.38686538494,
+      "relation_minus_object_bits": -96.235703941774,
+      "semantic_role": "UNASSIGNED"
+    }
+  },
+  "claim_ceiling": "Layer-level archived association and frozen future predictions only; no word, morpheme, POS, sound, language, plaintext, role, gloss, meaning, or translation.",
+  "documents": {
+    "GDT104_HPR2_TWO_CHANNEL_DECOMPOSITION_METHOD.md": "0fa0072b6832b41e43aa9e83fd814c7d829bdd87edc18ae7785718efdbfdd734",
+    "GDT104_HPR2_TWO_CHANNEL_DECOMPOSITION_REPORT.md": "900150ebb6c1b1b3ab3b59ab82bbdb903723025d3b9dd4ba0f81a4fbccdc1b56"
+  },
+  "f84r": {
+    "joined": false,
+    "opened": false,
+    "prediction_made": false,
+    "queried": false,
+    "retained": false,
+    "scored": false,
+    "targeted": false
+  },
+  "frozen_predictions": 4,
+  "implementation": {
+    "run_gdt104_hpr2_two_channel_decomposition.py": "fcecb25fb90036568eee161c397fcbed98ac76d69a71e90ff699f2e3ede15365"
+  },
+  "inputs": {
+    "gdt068_result.json": "ec418e059b3a13fe35b674ab9b82521be4b643c510ee658e4cb6f071b3d7fcbd",
+    "gdt103_external_layer_scores.tsv": "9cab64d30f9edee9d4c08a3dc5ab48c4267c207def23eb6bbc957782de21c13d",
+    "gdt103_result.json": "ea5fe99026da65f86ee36643982a42a2a7683749d9c2e6132b0431a90e4c9920"
+  },
+  "interpretation": "Exploratory two-channel HPR2 lead: PAGE_HOST aligns with object/content axes, DY/RIGHT with relation/layout increments, B3 with neither.",
+  "object_axes": [
+    "STAR_OR_SKY",
+    "FIGURE",
+    "PLANT",
+    "WATER_OR_APPARATUS"
+  ],
+  "object_partition_rank": 3,
+  "outputs": {
+    "gdt104_axis_contributions.tsv": "f40c22d9b94b02639e52679c321d50b808e2ce91936480b9c4368f62f0d66d85",
+    "gdt104_channel_decomposition.tsv": "ae8abe78c5eac7ea465609746099b187bd6061d8dc0851ecd6a027c241cc26e7",
+    "gdt104_frozen_predictions.tsv": "77922055854dce9017d9368f1b4697998bc6c2fc2df21b44942c764948539cc0",
+    "gdt104_partition_null.tsv": "b41f1b93c5e437f44a3026e3df2728eb63ae0f67f4b3ff5ea9d984371bee3573"
+  },
+  "partition_diagnostic_p": 0.04285714285714286,
+  "partition_worlds": 70,
+  "relation_axes": [
+    "REL_PROXIMITY",
+    "REL_EXPLICIT_ATTACHMENT",
+    "REL_ENCLOSURE",
+    "REL_ARRAY_OR_GROUP"
+  ],
+  "result_content_sha256": "19e2303e18ce4574632a24af69aaa530b83835eca0c060f70f386ddd48d7f456",
+  "schema": "GDT104_HPR2_TWO_CHANNEL_DECOMPOSITION_RESULT_V1",
+  "semantic_role": "UNASSIGNED",
+  "status": "PAGE_HOST_OBJECT_AXIS_DY_RIGHT_RELATION_AXIS_DECOMPOSITION_EXPLORATORY"
+}
