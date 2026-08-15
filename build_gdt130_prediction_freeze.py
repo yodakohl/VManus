@@ -42,12 +42,14 @@ def main():
     assert 'ID="f116r"' in catalogue and "child_oid=1006276" in catalogue
     frozen = list(csv.DictReader(PREDICTION_TSV.open(encoding="utf-8"), delimiter="\t"))
     assert len(frozen) == 1 and frozen[0]["predicted_rays"] == "7"
+    assert frozen[0]["star_ordinal"] == "UNRESOLVED_BEFORE_LOCALIZATION"
     result = {
         "schema": "GDT130_QOKAL_SHEDY_RAY_TRANSFER_PREDICTION_V1",
-        "status": "FROZEN_BEFORE_F116R_STAR06_VISUAL_REVIEW",
+        "status": "CORRECTED_FROZEN_BEFORE_F116R_LINE_TO_STAR_LOCALIZATION",
         "target": {
-            "target_id": "GDT130_F116R_STAR06", "page": "f116r", "physical_folio": "f116",
-            "star_ordinal": 6, "formal_locus": "f116r.23", "formal_group_indices": [5, 6],
+            "target_id": "GDT130_F116R_LINE23_NEAREST_STAR", "page": "f116r", "physical_folio": "f116",
+            "star_ordinal": "UNRESOLVED_BEFORE_LOCALIZATION", "formal_locus": "f116r.23", "formal_group_indices": [5, 6],
+            "visual_binding": "MARGINAL_STAR_VERTICAL_CENTER_NEAREST_SIXTH_LINE_OF_LONG_SIXTH_PARAGRAPH",
             "readings": {"ZL3b": ["qokal", "shedy"], "IT2a": ["qokal", "shedy"], "RF1b": ["qokal", "she@152;y"]},
             "reading_state": "ZL_IT_EXACT_RF_UNCERTAIN",
             "prediction": {"rays": 7, "tail": "UNPREDICTED", "color": "UNPREDICTED"},
@@ -60,7 +62,18 @@ def main():
             "formal_difference": "SECOND_GROUP_PAGE_HOST_EE_TO_E_IN_PRIMARY_READINGS",
         },
         "postselection": {"gdt128_target_used": True, "gdt129_local_rule_used": True, "pristine_blind": False},
-        "target_access": {"f116r_image_opened_by_gdt130_at_freeze": False, "star06_visual_state_joined_at_freeze": False},
+        "correction": {
+            "invalidated_binding": "PARAGRAPH_ORDINAL_6_EQUALS_STAR_ORDINAL_6",
+            "reason": "TEN_STARS_BUT_EIGHT_PARAGRAPHS_AND_MULTIPLE_STARS_ALONG_LONG_PARAGRAPH",
+            "invalid_ordinal6_prediction_scored": False,
+        },
+        "target_access": {
+            "canvas_opened_by_two_reviewers_under_invalid_instruction": True,
+            "invalid_reviewer_a_completed_count": False,
+            "invalid_reviewer_b_tentative_unfinalized_count": 8,
+            "correct_line23_owned_star_localized_at_freeze": False,
+            "correct_target_ray_state_reviewed_at_freeze": False,
+        },
         "claim_ceiling": "One postselected near-minimal visual transfer only; no number, star meaning, role, word, morpheme, POS, sound, language, plaintext, meaning, or translation.",
         "f84r": {key: False for key in ("opened", "retained", "queried", "joined", "scored", "targeted", "predicted")},
         "inputs": {str(SOURCE.relative_to(ROOT)): sha(SOURCE), str(CATALOGUE.relative_to(ROOT)): sha(CATALOGUE), "gdt128_result.json": sha(ROOT / "gdt128_result.json"), "gdt129_result.json": sha(ROOT / "gdt129_result.json")},

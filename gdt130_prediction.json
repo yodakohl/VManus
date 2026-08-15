@@ -1,7 +1,12 @@
 {
   "claim_ceiling": "One postselected near-minimal visual transfer only; no number, star meaning, role, word, morpheme, POS, sound, language, plaintext, meaning, or translation.",
+  "correction": {
+    "invalid_ordinal6_prediction_scored": false,
+    "invalidated_binding": "PARAGRAPH_ORDINAL_6_EQUALS_STAR_ORDINAL_6",
+    "reason": "TEN_STARS_BUT_EIGHT_PARAGRAPHS_AND_MULTIPLE_STARS_ALONG_LONG_PARAGRAPH"
+  },
   "documents": {
-    "GDT130_QOKAL_SHEDY_RAY_TRANSFER_METHOD.md": "a5eb035c7355a53893a827f46468dd6e731580b2d4d1dcc216927c9f81fc4e58"
+    "GDT130_QOKAL_SHEDY_RAY_TRANSFER_METHOD.md": "b45fd7474625d9ffe00d31a42001e504801c1531634162e9ed79676d219f84e6"
   },
   "f84r": {
     "joined": false,
@@ -13,7 +18,7 @@
     "targeted": false
   },
   "implementation": {
-    "build_gdt130_prediction_freeze.py": "68f39058987a24611dec5f0507ab761ca72b4862ac57b74912ddeefb575a9f95"
+    "build_gdt130_prediction_freeze.py": "0cf9da30bd9f105c63c13a5583c42d3b4fe6747d52fd58f1d04c53626e879b38"
   },
   "inputs": {
     "experiments/semantic_assumptions/cache/public_voynich_nu_catalogue/q20.html": "322002b8c8da66a5f1d2d4c05ab4e4bfca8233bb05751fbac5a7be88cea33201",
@@ -29,16 +34,16 @@
     "target_form_primary": "qokal|shedy"
   },
   "outputs": {
-    "gdt130_frozen_prediction.tsv": "d2fd0641ce1244cfb22ff502475b2edc42ee7ff1971884375398b5ceb40d0bc3"
+    "gdt130_frozen_prediction.tsv": "8e6d48a0a0f2de6aff31b2c0301ebc0754895c37ea4dd18a330f14eb2049153f"
   },
   "postselection": {
     "gdt128_target_used": true,
     "gdt129_local_rule_used": true,
     "pristine_blind": false
   },
-  "prediction_content_sha256": "e5b60f049c9245bf0baa5a3139f177638924865af267c62b7b42e703c57c9d40",
+  "prediction_content_sha256": "7f06d49b6cd9ad42b53da8eff950e0306a1c8621d46006e1c43596d88afecad8",
   "schema": "GDT130_QOKAL_SHEDY_RAY_TRANSFER_PREDICTION_V1",
-  "status": "FROZEN_BEFORE_F116R_STAR06_VISUAL_REVIEW",
+  "status": "CORRECTED_FROZEN_BEFORE_F116R_LINE_TO_STAR_LOCALIZATION",
   "target": {
     "canvas_id": "1006276",
     "formal_group_indices": [
@@ -69,11 +74,15 @@
         "shedy"
       ]
     },
-    "star_ordinal": 6,
-    "target_id": "GDT130_F116R_STAR06"
+    "star_ordinal": "UNRESOLVED_BEFORE_LOCALIZATION",
+    "target_id": "GDT130_F116R_LINE23_NEAREST_STAR",
+    "visual_binding": "MARGINAL_STAR_VERTICAL_CENTER_NEAREST_SIXTH_LINE_OF_LONG_SIXTH_PARAGRAPH"
   },
   "target_access": {
-    "f116r_image_opened_by_gdt130_at_freeze": false,
-    "star06_visual_state_joined_at_freeze": false
+    "canvas_opened_by_two_reviewers_under_invalid_instruction": true,
+    "correct_line23_owned_star_localized_at_freeze": false,
+    "correct_target_ray_state_reviewed_at_freeze": false,
+    "invalid_reviewer_a_completed_count": false,
+    "invalid_reviewer_b_tentative_unfinalized_count": 8
   }
 }
