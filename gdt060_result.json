@@ -1,0 +1,111 @@
+{
+  "boundaries": 7409,
+  "claim_ceiling": "Formal DY-conditioned PAGE_HOST transition structure only; no semantic field, gloss, word, morpheme, POS, sound, language, plaintext, meaning, or translation.",
+  "complete_lines": 1164,
+  "documents": {
+    "GDT060_DY_PAGE_HOST_TRANSITION_METHOD.md": "f6f806959db927963f17c557383200edcc691973e5bba22760ad1b5623752839",
+    "GDT060_DY_PAGE_HOST_TRANSITION_REPORT.md": "814d789bc517e6a8ff8d56a4d06d1d01fc599504ecf6e1f6935d673883b8bb0d"
+  },
+  "dy_boundaries": 1298,
+  "f84r": {
+    "joined": false,
+    "opened": false,
+    "queried": false,
+    "retained": false,
+    "scored": false
+  },
+  "generative_update": "DY predicts the post-boundary PAGE_HOST distribution but the tested previous-host suffix does not improve and materially degrades that prediction; provisional reset/checkpoint architecture, not compositional pre-host to post-host mapping.",
+  "implementation": {
+    "run_gdt060_dy_page_host_transition.py": "0cacfeacb63522274c9158f652a051f0aa5b8876efa6ad9776b5550fef6ee6e3"
+  },
+  "inputs": {
+    "gdt016_group_state_inventory.tsv": "e109ce15864ed6b6f76d446b3c96d6190a0dc53d20d8ab0944554124e687234c",
+    "gdt016_result.json": "aaa96a3be942bc1eab6587d5362922f3f16ec2beea7f520d47e190c32df80c2c",
+    "gdt046_line_frames.tsv": "4c8a8486ec39c2d138b865c950ebaff038f1db1e3668219105893d6b04f92511",
+    "gdt051_result.json": "2b3ddb04d3a176fb88fcdacc0998b33b968b42493242c19c756451cd5ca853e9",
+    "gdt055_result.json": "9c40c9bf757691502762c5bccbc686cad89e4405c5542989d36a56ead554de99",
+    "gdt059_result.json": "2908b4e9415131d59eeb20618b3330455362fdfb9aada53e68e8e48707cb6efd"
+  },
+  "licensed_o_ot_hosts": 50,
+  "matched_cells": 540,
+  "outputs": {
+    "gdt060_dy_transition_inventory.tsv": "5b7cd2dc877c978f9f984891d892017baea172826a7ecb05e9065378eb333db7",
+    "gdt060_dy_transition_permutation.tsv": "81f883d3cd08758cfcc06da02366b5e3c3b54dcb99a42209279aa7c4c7083681",
+    "gdt060_dy_transition_scores.tsv": "0e9b2db9aab6a72c32751a74af6c666dc1373fae1e135ecf43bc4677d94ca532",
+    "gdt060_variant_log.tsv": "98c98afe8c578f3fff871ea10ea92932810cc2d77fbb0cfbe9be592a49c205bd"
+  },
+  "physical_folios": 92,
+  "primary_cross_register": {
+    "base_bits": 63912.81205841014,
+    "boundaries": 7409,
+    "boundary_bits": 63358.09007437047,
+    "boundary_gain_vs_base": 554.721984039672,
+    "dy_boundaries": 1298,
+    "evaluation": "LEAVE_REGISTER_OUT",
+    "joint_gain_per_event_vs_pre": -0.03731219409801383,
+    "joint_gain_vs_boundary": -3369.4596209146257,
+    "joint_gain_vs_pre": -1089.739940826592,
+    "pre_bits": 65637.8097544585,
+    "pre_boundary_bits": 66727.5496952851,
+    "pre_context": "SUFFIX_2",
+    "pre_gain_vs_base": -1724.9976960483618,
+    "representation": "PAGE_HOST",
+    "right_events": 29206,
+    "scope": "ALL"
+  },
+  "primary_lofo": {
+    "base_bits": 60734.46232167121,
+    "boundaries": 7409,
+    "boundary_bits": 60066.15059398767,
+    "boundary_gain_vs_base": 668.3117276835401,
+    "dy_boundaries": 1298,
+    "evaluation": "LEAVE_FOLIO_OUT",
+    "joint_gain_per_event_vs_pre": -0.029556640304221227,
+    "joint_gain_vs_boundary": -2561.1576999055615,
+    "joint_gain_vs_pre": -863.2312367250852,
+    "pre_bits": 61764.07705716815,
+    "pre_boundary_bits": 62627.308293893235,
+    "pre_context": "SUFFIX_2",
+    "pre_gain_vs_base": -1029.6147354969362,
+    "representation": "PAGE_HOST",
+    "right_events": 29206,
+    "scope": "ALL"
+  },
+  "primary_matched_interaction": {
+    "effect_per_dy": -0.12992845156194383,
+    "eligible_dy": 1197,
+    "expected_sum": 236.76853094194314,
+    "local_two_sided_p": 0.0004999500049995,
+    "maxT_9_p": 0.004399560043995601,
+    "observed_sum": 81.2441744222964,
+    "permutation_worlds": 10000,
+    "representation": "PAGE_HOST",
+    "statistic": "interaction_logodds"
+  },
+  "representations": [
+    "RAW_SURFACE",
+    "RESIDUAL_ROOT",
+    "PAGE_HOST"
+  ],
+  "result_content_sha256": "38ae93a31d7bdb6dbf6105502bb4e98ae045cdf68d7fb3743340c418b2b76156",
+  "schema": "GDT060_DY_PAGE_HOST_TRANSITION_RESULT_V1",
+  "status": "DY_MARKS_POST_BOUNDARY_DISTRIBUTION_TESTED_PREHOST_SUFFIX_INTERACTION_NEGATIVE",
+  "suffix1_sensitivity": {
+    "base_bits": 60734.46232167121,
+    "boundaries": 7409,
+    "boundary_bits": 60066.15059398767,
+    "boundary_gain_vs_base": 668.3117276835401,
+    "dy_boundaries": 1298,
+    "evaluation": "LEAVE_FOLIO_OUT",
+    "joint_gain_per_event_vs_pre": -0.02926613419988449,
+    "joint_gain_vs_boundary": -1761.2166318492018,
+    "joint_gain_vs_pre": -854.7467154418264,
+    "pre_bits": 60972.62051039505,
+    "pre_boundary_bits": 61827.367225836875,
+    "pre_context": "SUFFIX_1",
+    "pre_gain_vs_base": -238.15818872383534,
+    "representation": "PAGE_HOST",
+    "right_events": 29206,
+    "scope": "ALL"
+  }
+}
