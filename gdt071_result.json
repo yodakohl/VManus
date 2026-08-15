@@ -1,0 +1,86 @@
+{
+  "aiin_enclosure": {
+    "candidate": "RATE:R=aiin>=0.25",
+    "distinct_exact_hosts": 13,
+    "external_axis": "REL_ENCLOSURE",
+    "feature_loci": 41,
+    "gdt069_adjusted_p": "1",
+    "gdt069_local_p": "0.00476640733214",
+    "leave_d_out_effect": 0.3767660910518053,
+    "leave_ok_out_effect": 0.3729166666666667,
+    "leave_repeat_host_max_effect": 0.4323076923076923,
+    "leave_repeat_host_min_effect": 0.3642165242165242,
+    "leave_repeat_host_sign_stable": 1,
+    "original_conditional_effect": 0.37306397306397304,
+    "repeat_exact_hosts": 5,
+    "robustness_label": "CLASS_LEVEL_DIRECTION_SURVIVES_EXACT_HOST_ABLATION"
+  },
+  "claim_ceiling": "No semantic class, role, gloss, word, morpheme, POS, sound, language, plaintext, meaning, or translation.",
+  "documents": {
+    "GDT071_BEHAVIOR_CLASS_EXACT_HOST_ABLATION_METHOD.md": "54950fb2f57b24154492e71df9a5f81e5abace5463b2a6ac77ded2a4d998638a",
+    "GDT071_BEHAVIOR_CLASS_EXACT_HOST_ABLATION_REPORT.md": "890c7ef98cb92a4f84193bd90f2e32ea8ddfba35e6e59d13ecfacbeb8cc90850"
+  },
+  "eligible_loci": 332,
+  "f84r": {
+    "joined": false,
+    "opened": false,
+    "queried": false,
+    "retained": false,
+    "scored": false
+  },
+  "groups": 15592,
+  "implementation": {
+    "run_gdt071_behavior_class_exact_host_ablation.py": "04e7e30dc2536d2c618fb43d6914bbee0bf2ac114990b1249290eb72bd87ba28"
+  },
+  "inputs": {
+    "gdt012_annotated_core_inventory.tsv": "137efc96893220f8d55857b5ffc60f54a4eeb87450b42151b8bdc557e7281525",
+    "gdt059_hpr2_external_inventory.tsv": "3a683e6bf169fb79220693c3b75256588f37ec8e52f788af68ad3de3bb2f83ef",
+    "gdt062_right_family_inventory.tsv": "b0292332157524a7f5e0745bde74c38432c52e3f2dd7ae816677f0ea743ca1cc",
+    "gdt069_behavior_class_atlas.tsv": "3ae3aa98fa9f80183b28e23559eff67e11014dda6ef0a5e985b29ecbf4ef8fe2",
+    "gdt069_result.json": "9ba3a0ee3dd4b6df4c7253398d2fce2760d212b3c5e69f9db3600774fa823052",
+    "gdt070_result.json": "7da4fa03d64b7a01af195dd2a28e8cbf833d01302a8869e1af14423338645883"
+  },
+  "interpretation": "Exact-host ablation of postselected GDT069 class leads; direction stability supports prospective class hypotheses but not confirmation.",
+  "o_frame_enclosure": {
+    "candidate": "RATE:F=O>=0.10",
+    "distinct_exact_hosts": 18,
+    "external_axis": "REL_ENCLOSURE",
+    "feature_loci": 30,
+    "gdt069_adjusted_p": "1",
+    "gdt069_local_p": "0.0076391885552",
+    "leave_d_out_effect": 0.19858712715855573,
+    "leave_ok_out_effect": 0.24843750000000003,
+    "leave_repeat_host_max_effect": 0.302020202020202,
+    "leave_repeat_host_min_effect": 0.19858712715855573,
+    "leave_repeat_host_sign_stable": 1,
+    "original_conditional_effect": 0.2451388888888889,
+    "repeat_exact_hosts": 3,
+    "robustness_label": "CLASS_LEVEL_DIRECTION_SURVIVES_EXACT_HOST_ABLATION"
+  },
+  "outputs": {
+    "gdt071_behavior_class_host_ablation.tsv": "7205f8ebf6fac67cab4359c33ecfa75e4918c925cddf3d9031dd0c591b69c912",
+    "gdt071_behavior_class_host_members.tsv": "237a3d9eb7cf0778912dbb40caf279affe0031e66cdfedb0d569a47f678023ac",
+    "gdt071_variant_log.tsv": "0229af15c794e89831e990b5c5d07fa02e4085971d47fb8e0b0e452f54ac455d"
+  },
+  "result_content_sha256": "ecb9de4369904db9ffe130accaf72d5b1622abff2ecfe64b5197e316ef317f4c",
+  "schema": "GDT071_BEHAVIOR_CLASS_EXACT_HOST_ABLATION_RESULT_V1",
+  "sh_attachment": {
+    "candidate": "RATE:W=sh>=0.25",
+    "distinct_exact_hosts": 12,
+    "external_axis": "REL_EXPLICIT_ATTACHMENT",
+    "feature_loci": 31,
+    "gdt069_adjusted_p": "1",
+    "gdt069_local_p": "0.00757711301824",
+    "leave_d_out_effect": 0.36450216450216455,
+    "leave_ok_out_effect": 0.34421768707482997,
+    "leave_repeat_host_max_effect": 0.43968253968253973,
+    "leave_repeat_host_min_effect": 0.2919191919191919,
+    "leave_repeat_host_sign_stable": 1,
+    "original_conditional_effect": 0.36450216450216455,
+    "repeat_exact_hosts": 9,
+    "robustness_label": "CLASS_LEVEL_DIRECTION_SURVIVES_EXACT_HOST_ABLATION"
+  },
+  "sign_stable_class_leads": 9,
+  "status": "BEHAVIOR_CLASS_LEADS_SURVIVE_EXACT_HOST_ABLATION_POSTSELECTED",
+  "tested_class_leads": 9
+}

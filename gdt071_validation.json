@@ -1,0 +1,33 @@
+{
+  "checks": {
+    "aiin_headline": true,
+    "all_sign_stable": true,
+    "bound_hashes": true,
+    "content_hash": true,
+    "lead_set": true,
+    "ledger": true,
+    "member_counts": true,
+    "member_outcomes": true,
+    "original_effects": true,
+    "range:RATE:DY=0>=0.75:REL_ENCLOSURE": true,
+    "range:RATE:DY=1>=0.10:REL_ENCLOSURE": true,
+    "range:RATE:DY=1>=0.10:REL_PROXIMITY": true,
+    "range:RATE:DY=1>=0.25:REL_ENCLOSURE": true,
+    "range:RATE:F=O>=0.10:REL_ENCLOSURE": true,
+    "range:RATE:R=NONE>=0.75:REL_ENCLOSURE": true,
+    "range:RATE:R=aiin>=0.25:REL_ENCLOSURE": true,
+    "range:RATE:W=NONE>=0.75:REL_PROXIMITY": true,
+    "range:RATE:W=sh>=0.25:REL_EXPLICIT_ATTACHMENT": true,
+    "sh_headline": true,
+    "source_panel_seal": true,
+    "status_ceiling": true,
+    "variants": true
+  },
+  "checks_passed": 22,
+  "checks_total": 22,
+  "result_sha256": "3f5dba788fa4a5d87cd8ed3676b4d8db7478934368638816b7357eed9dbcca71",
+  "schema": "GDT071_BEHAVIOR_CLASS_EXACT_HOST_ABLATION_VALIDATION_V1",
+  "scope": "Checks source/panel/seal, exact GDT069 lead set/effects, member counts/outcomes, every repeated-host range and direction, headline classes, variants, hashes, ledger and ceiling; it does not rerun fold-profile construction.",
+  "status": "PASS_INTEGRITY_AND_INDEPENDENT_HEADLINE_CHECKS",
+  "validator_sha256": "b92d04dd9cc030dce1e20f0cb7c286a0c282eb4b804c1eedf7354514346c15ad"
+}
