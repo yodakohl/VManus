@@ -1,0 +1,89 @@
+{
+  "assignment_worlds": 120,
+  "candidate_targets": 5,
+  "claim_ceiling": "Internal pair-structure transfer only; no corpus-wide retrieval, independent visual panel, botanical truth, identity, semantic role, gloss, word, morpheme, POS, sound, language, plaintext, meaning, or translation.",
+  "documents": {
+    "GDT143_NESTED_RELATION_PAIR_PREDICTION_METHOD.md": "fe5130f6ba3313b5201155532a8ca1b9b66998443b85b3e91ade75446a865012",
+    "GDT143_NESTED_RELATION_PAIR_PREDICTION_REPORT.md": "334b96e8fb0f36dfbd010c7db39ebaa758cbfb80a45c8fbce55fb3be848bf749"
+  },
+  "f84": {
+    "all_inputs_are_f84_free_published_gdt140_artifacts": true,
+    "new_f84r_access": false,
+    "source_or_image_opened": false
+  },
+  "gates": {
+    "all_four_mrr_local_p_le_0_05": true,
+    "all_four_top1_at_least_3": true,
+    "host_char3_mrr_local_p_le_0_05": true,
+    "host_char3_top1_at_least_3": true,
+    "max_18_inclusive_p_le_0_05": true
+  },
+  "implementation": {
+    "run_gdt143_nested_relation_pair_prediction.py": "5e924268e1575caead522fa7db20a751a5cef4af4060ae4b4181dfb74edd52b3"
+  },
+  "inputs": {
+    "gdt140_assignment_orbit.tsv": "e8e2a8cc74dc386d206ace0c371633e0f7bda0ee69f50a49747d0d7c9eebe6ac",
+    "gdt140_herbal_relation_inventory.tsv": "38584b43f02fb4affcbc6679acb4225be22637f83c641cc981967ec20abcb2a0",
+    "gdt140_pair_similarities.tsv": "86a4801f2bb2d22c0fca4feca316f6b7745a7d0b6dba947be34d6696e9cbc42b",
+    "gdt140_result.json": "41ab7e6e0a4bf8269de350dcbda06849240b1697ee4d50b6ed6839df8d1a1954",
+    "gdt142_result.json": "23678da7a587294e4d008d43de73c0a1ea75972dea1aa2de6112cb9f8812b5dd"
+  },
+  "interpretation": "Nested leave-one-relation target ranking inside the exposed GDT140 candidate pool.",
+  "max_18_inclusive_p": 0.025,
+  "metrics": [
+    "MEAN_RECIPROCAL_RANK",
+    "MEAN_LOG2_PROBABILITY",
+    "TOP1_COUNT"
+  ],
+  "models": [
+    "HOST_IDENTITY",
+    "HOST_CHAR3",
+    "HOST_BOTH",
+    "RAW_CHAR3",
+    "COMPILER",
+    "ALL_FOUR"
+  ],
+  "outputs": {
+    "gdt143_assignment_scores.tsv": "70d8a27cceaf52d34160a5e173d4d045723e740c0c9460502d2d685653ff5665",
+    "gdt143_counterexamples.tsv": "f60cb8a61338173c72d6e3b8c307249af9a20acaeb0eece0c350ee6608ddce89",
+    "gdt143_fold_predictions.tsv": "46665428bcf735f0e8e95206efa632cf4b0b65a69aa40654fe5f83bd2cbb27e5",
+    "gdt143_fold_weights.tsv": "c7028b4207630bb7b7c3145bdf21f35f21306b83e06865ee498598d86dc5de82",
+    "gdt143_model_scores.tsv": "f21c871737b4e6563dbd6dad4d864c28b9fe92ce88acca18bf259c6db00a9c53"
+  },
+  "relations": 5,
+  "result_content_sha256": "c99ce78c9766e76e862a3e08091ea4adc69402564e8bd618208019521875fc0f",
+  "schema": "GDT143_NESTED_RELATION_PAIR_PREDICTION_RESULT_V1",
+  "status": "NESTED_RELATION_PAIR_STRUCTURE_TRANSFERS_WITHIN_EXPOSED_POOL",
+  "true_model_scores": {
+    "ALL_FOUR": {
+      "mean_log2_probability": -2.1088803672968828,
+      "mean_reciprocal_rank": 0.7666666666666666,
+      "top1_count": 3
+    },
+    "COMPILER": {
+      "mean_log2_probability": -2.339172617373521,
+      "mean_reciprocal_rank": 0.30666666666666664,
+      "top1_count": 0
+    },
+    "HOST_BOTH": {
+      "mean_log2_probability": -2.271553000301126,
+      "mean_reciprocal_rank": 0.4,
+      "top1_count": 0
+    },
+    "HOST_CHAR3": {
+      "mean_log2_probability": -2.21040794781223,
+      "mean_reciprocal_rank": 0.7666666666666666,
+      "top1_count": 3
+    },
+    "HOST_IDENTITY": {
+      "mean_log2_probability": -2.349118593997062,
+      "mean_reciprocal_rank": 0.6,
+      "top1_count": 2
+    },
+    "RAW_CHAR3": {
+      "mean_log2_probability": -2.3705312412334623,
+      "mean_reciprocal_rank": 0.31666666666666665,
+      "top1_count": 0
+    }
+  }
+}
