@@ -1,0 +1,75 @@
+{
+  "cells": 49,
+  "claim_ceiling": "Anonymous wrapper-channel mapping only; no wrapper function, recipe, heading, semantic role, word, morpheme, POS, sound, language, plaintext, meaning, or translation.",
+  "documents": {
+    "GDT116_Q20_WRAPPER_CHANNEL_MAP_METHOD.md": "e58dca3f90a274d3ff67d9f093ad990c205ce7b14141cf9213d472c70afe3918",
+    "GDT116_Q20_WRAPPER_CHANNEL_MAP_REPORT.md": "fc71af294f4bd61a9c4f06a1363757e631f3365f66ac1f3d383dd4d42926c4cf"
+  },
+  "f84r": {
+    "joined": false,
+    "opened": false,
+    "prediction_frozen": false,
+    "queried": false,
+    "retained": false,
+    "scored": false,
+    "targeted": false
+  },
+  "implementation": {
+    "run_gdt114_q20_record_template_linkage.py": "9c18f45ff6588392549ad45bea526f042058c933a747b7bcd4aadabb0ed8a307",
+    "run_gdt116_q20_wrapper_channel_map.py": "b2ac6680a6d01d79fac3a9d0101792ca31147aebff970b975a68b493c33e1b5b"
+  },
+  "inputs": {
+    "gdt114_result.json": "dba0ad2e469dbeb75219528efbb527dbfa769b754a45fea6f7b499170e9dc8ef",
+    "gdt115_result.json": "663a6ddbe486cf00c18d3cf43a76db1275243969d45ac1d197a3ca3561f8038b",
+    "q20ob001_source_panel.tsv": "35636753732e24e9af6cb2e5798df8b7453baac11db9088f7ba131fa8c186d88"
+  },
+  "interpretation": "OPEN wrapper proportions select a coupled BODY wrapper regime; the best mapping need not be identity.",
+  "mapping_summary": {
+    "IT2a": {
+      "best_gain": 9.454989932008417,
+      "best_mapping": "q->q|d->d|s->sh|ch->ch|che->che|sh->t|t->s",
+      "identity_gain": 8.709063923124832,
+      "identity_p": 0.017329753478154748,
+      "identity_rank": 6
+    },
+    "RF1b": {
+      "best_gain": 9.681644389527376,
+      "best_mapping": "q->q|d->d|s->s|ch->ch|che->che|sh->t|t->sh",
+      "identity_gain": 8.89938796064665,
+      "identity_p": 0.033439101781791554,
+      "identity_rank": 5
+    },
+    "ZL3b": {
+      "best_gain": 9.379270428214715,
+      "best_mapping": "q->q|d->d|s->s|ch->sh|che->che|sh->t|t->ch",
+      "identity_gain": 8.553187257278514,
+      "identity_p": 0.04491091042226019,
+      "identity_rank": 10
+    }
+  },
+  "outputs": {
+    "gdt116_wrapper_bijections.tsv": "1a28027ca524ac634502a7247d52b45ff000b1f6f4869ff6c5123aba4b521048",
+    "gdt116_wrapper_channel_cells.tsv": "0434b38c353cc61568a1ee5bb04633163d6a7e32254877134e218b36154d4b8a",
+    "gdt116_wrapper_channel_folds.tsv": "a0e2b81ed89ddc0b4ce7393c904e35d30d81cd18df7b6189685156bc9b041a61",
+    "gdt116_wrapper_counterexamples.tsv": "12fb4c819af3cc6ffd71aea02da41b8bd6a30ff8dd698c169be6050137657bdc"
+  },
+  "physical_folios": 8,
+  "records": 170,
+  "result_content_sha256": "461755da359d8a42f867c917d9be92043c57f1ded297d2d72b54fc29c0d54a60",
+  "schema": "GDT116_Q20_WRAPPER_CHANNEL_MAP_RESULT_V1",
+  "stable_positive_cells": 23,
+  "status": "Q20_WRAPPER_CHANNEL_MAP_TRANSFERABLE_BUT_NONIDENTITY",
+  "top_zl_cell": {
+    "body_wrapper": "che",
+    "diagonal_cell": 1,
+    "edition": "ZL3b",
+    "local_p": 0.02806931901391262,
+    "max_49_p": 0.02806931901391262,
+    "null_median_bits": 2.461090276324313,
+    "open_wrapper": "che",
+    "positive_folios": 8,
+    "same_page_swappable_records": 99,
+    "true_gain_bits": 3.1379988633366716
+  },
+  "worlds": 4096
+}
