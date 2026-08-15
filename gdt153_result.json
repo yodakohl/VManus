@@ -1,0 +1,157 @@
+{
+  "assignments": [
+    {
+      "assignments": 120,
+      "edition": "ZL3b",
+      "inclusive_assignment_tail": "0.2",
+      "measure": "RAW_EDIT",
+      "relations": 5,
+      "true_assignment_rank": 9,
+      "true_assignment_score": "-22",
+      "true_row_ranks": "1,1,1,1,3",
+      "true_target_exact_paths": "NA"
+    },
+    {
+      "assignments": 120,
+      "edition": "ZL3b",
+      "inclusive_assignment_tail": "0.216666666667",
+      "measure": "GDT003_MACRO_EDIT",
+      "relations": 5,
+      "true_assignment_rank": 9,
+      "true_assignment_score": "-22",
+      "true_row_ranks": "1,1,1,1,3",
+      "true_target_exact_paths": "NA"
+    },
+    {
+      "assignments": 120,
+      "edition": "ZL3b",
+      "inclusive_assignment_tail": "1",
+      "measure": "GDT003_EXACT_DEPTH2",
+      "relations": 5,
+      "true_assignment_rank": 1,
+      "true_assignment_score": "0",
+      "true_row_ranks": "1,1,1,1,1",
+      "true_target_exact_paths": 0
+    },
+    {
+      "assignments": 120,
+      "edition": "IT2a",
+      "inclusive_assignment_tail": "0.2",
+      "measure": "RAW_EDIT",
+      "relations": 5,
+      "true_assignment_rank": 9,
+      "true_assignment_score": "-22",
+      "true_row_ranks": "1,1,1,1,3",
+      "true_target_exact_paths": "NA"
+    },
+    {
+      "assignments": 120,
+      "edition": "IT2a",
+      "inclusive_assignment_tail": "0.216666666667",
+      "measure": "GDT003_MACRO_EDIT",
+      "relations": 5,
+      "true_assignment_rank": 9,
+      "true_assignment_score": "-22",
+      "true_row_ranks": "1,1,1,1,3",
+      "true_target_exact_paths": "NA"
+    },
+    {
+      "assignments": 120,
+      "edition": "IT2a",
+      "inclusive_assignment_tail": "1",
+      "measure": "GDT003_EXACT_DEPTH2",
+      "relations": 5,
+      "true_assignment_rank": 1,
+      "true_assignment_score": "0",
+      "true_row_ranks": "1,1,1,1,1",
+      "true_target_exact_paths": 0
+    },
+    {
+      "assignments": 120,
+      "edition": "RF1b",
+      "inclusive_assignment_tail": "0.425",
+      "measure": "RAW_EDIT",
+      "relations": 5,
+      "true_assignment_rank": 22,
+      "true_assignment_score": "-23",
+      "true_row_ranks": "1,1,4,1,3",
+      "true_target_exact_paths": "NA"
+    },
+    {
+      "assignments": 120,
+      "edition": "RF1b",
+      "inclusive_assignment_tail": "0.45",
+      "measure": "GDT003_MACRO_EDIT",
+      "relations": 5,
+      "true_assignment_rank": 23,
+      "true_assignment_score": "-23",
+      "true_row_ranks": "1,1,4,1,3",
+      "true_target_exact_paths": "NA"
+    },
+    {
+      "assignments": 120,
+      "edition": "RF1b",
+      "inclusive_assignment_tail": "1",
+      "measure": "GDT003_EXACT_DEPTH2",
+      "relations": 5,
+      "true_assignment_rank": 1,
+      "true_assignment_score": "0",
+      "true_row_ranks": "1,1,1,1,1",
+      "true_target_exact_paths": 0
+    }
+  ],
+  "atlas_cells": 75,
+  "candidate_pages": 5,
+  "claim_ceiling": "Post-hoc formal mechanism audit only; no plant/component identity, address, semantic role, gloss, word, morpheme, POS, sound, language, plaintext, meaning, or translation.",
+  "documents": {
+    "GDT153_OWNED_LABEL_TRANSFORMATION_WITNESS_METHOD.md": "e1a552a96f645b447155530c31848da241a8fe96ccb3d3156008b51906e487b0",
+    "GDT153_OWNED_LABEL_TRANSFORMATION_WITNESS_REPORT.md": "aab297d61185f8591ad3be8a86f6879e8d729000b67498fe718c3f73261eb2f3"
+  },
+  "editions": [
+    "ZL3b",
+    "IT2a",
+    "RF1b"
+  ],
+  "exact_depth2_cells": 0,
+  "f84r": {
+    "inspected": false,
+    "joined": false,
+    "retained": false,
+    "scored": false,
+    "targeted": false
+  },
+  "fixed_operations": [
+    "PREPEND_Q",
+    "INITIAL_D_TO_S",
+    "INITIAL_O_TO_OT",
+    "APPEND_DY",
+    "APPEND_DAL",
+    "APPEND_DAR",
+    "FINAL_DAL_TO_DAR",
+    "FINAL_DAL_TO_DY",
+    "FINAL_DAR_TO_DY"
+  ],
+  "implementation": {
+    "run_gdt153_owned_label_transformation_witness.py": "c76612562fabf1a66fb74705d190a6db2251b5edb53d44e068448ff6a0beaf31"
+  },
+  "inputs": {
+    "gdt003_transformations.tsv": "b8811d4e31e6868bc0f901ff88cad6c142bf2b9a95be5ad6c189998940454a9f",
+    "gdt062_right_family_inventory.tsv": "b0292332157524a7f5e0745bde74c38432c52e3f2dd7ae816677f0ea743ca1cc",
+    "gdt152_relation_queries.tsv": "ce16c7207b7838efd4abe589e644b40d6966cb1751e8ea151d4b2dfeb4326a93",
+    "gdt152_result.json": "896448a269fb438bdc29198c0b89f1174ef1f8c535602e40c96f59b297ebd020"
+  },
+  "interpretation": "The GDT152 raw-string near miss is ordinary edit similarity; none of the frozen GDT003 operations supplies an exact or cost-improving witness.",
+  "macro_improvement_cells": 3,
+  "maximum_operation_depth": 2,
+  "outputs": {
+    "gdt153_assignment_results.tsv": "45cbf7e27e8601142ad8f2976d361f5fcd00390bab5502c3bf343a45193d7c48",
+    "gdt153_counterexamples.tsv": "602b72ba2db67ca75b96e8a42a855adb5d61b8700bb47e5392f8adfff5a93885",
+    "gdt153_transformation_witness_atlas.tsv": "1aaad7c5369952ce437603e66bd87994dbd8f68f00ba74b26b69de35738909af"
+  },
+  "relations": 5,
+  "result_content_sha256": "582f2509fa3ae6ca10092f9c690f5f0dfba2170e877bb91444304aee1aa1a89a",
+  "schema": "GDT153_OWNED_LABEL_TRANSFORMATION_WITNESS_RESULT_V1",
+  "status": "GDT003_TRANSFORMATIONS_DO_NOT_EXPLAIN_GDT152_RAW_NEAR_MISS",
+  "true_exact_depth2_cells": 0,
+  "true_macro_improvement_cells": 0
+}
