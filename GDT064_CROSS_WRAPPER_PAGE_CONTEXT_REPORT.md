@@ -5,14 +5,16 @@
 **CROSS_WRAPPER_PAGE_CONTEXT_PRESERVATION_SUPPORTED**
 
 The inventory yields 10,705 page×host×wrapper units and
-46,082 cross-folio exact-host pairs.  Across 619 host×register cells,
-different-wrapper exact-host context similarity averages 0.21246
-versus 0.20794 for matched different-host controls; 374/619 cells
-are positive (descriptive exact sign p=2.43448e-07).  The absolute gain is
-+0.00452, or +2.17% of the matched-control similarity.  In the
-461 cells with both pair types, same-wrapper exact-host similarity
-averages 0.21293; different-wrapper minus same-wrapper is
--0.00047.
+45,942 cross-folio exact-host pairs with a real matched control.
+The corrected implementation excludes 140 formerly retained zero-control
+pairs.  Across 619 host×register cells,
+different-wrapper exact-host context similarity averages 0.21247
+versus 0.20821 for matched different-host controls; 373/619 cells
+are positive (descriptive exact sign p=3.74605e-07).  The absolute gain is
++0.00426, or +2.04% of the matched-control similarity.  In the
+460 cells with both pair types, same-wrapper exact-host similarity
+averages 0.21345; different-wrapper minus same-wrapper is
+-0.00098.
 
 GDT063's `d` and `ok` cells are retained explicitly but are not allowed to set
 the manuscript-wide statistic.  `ok` is positive against its matched control

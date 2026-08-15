@@ -16,6 +16,9 @@ similarity for cross-folio pairs in the same register:
 - different-host controls matched on register, host-length bucket,
   page-size bucket, and wrapper contrast.
 
+Pairs without an eligible matched control are excluded rather than assigned a
+zero score.  This corrects 140 unsupported pairs found in a later GDT065 audit.
+
 Summaries are balanced over host×register cells rather than dominated by common
 forms.  Within each cell and pair type, retain the 200 SHA256-smallest pair IDs;
 this deterministic, outcome-blind cap prevents common hosts from dominating
