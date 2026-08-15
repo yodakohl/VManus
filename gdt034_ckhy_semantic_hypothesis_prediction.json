@@ -1,0 +1,55 @@
+{
+  "schema": "GDT034_CKHY_SEMANTIC_HYPOTHESIS_PREDICTION_V1",
+  "status": "FROZEN_BEFORE_CKHY_QUERY",
+  "parent": {
+    "experiment": "GDT033",
+    "result_sha256": "97ac2b3de5d0f46166b86ebbeeef67cbad145edf1629df975a349811c433eac7"
+  },
+  "hypothesis": {
+    "formal_host": "ckhy",
+    "provisional_gloss": "PARALLEL_OR_FUSED_LEAF_OR_STALK_CONFIGURATION_DESCRIPTOR",
+    "parser_integration": false,
+    "alternative_meaning_search_after_reveal": "PROHIBITED"
+  },
+  "target": {
+    "page": "f14r",
+    "physical_folio": "f14",
+    "section": "H",
+    "currier": "A",
+    "selection_basis": "VISIBLE_GEOMETRY_ONLY_BEFORE_TARGET_CKHY_QUERY",
+    "visual_class": "COMPARABLE_PARALLEL_OR_FUSED_LEAF_STALK_GEOMETRY",
+    "provenance": "AI_DIRECT_VISUAL_OBSERVATION",
+    "neutral_observation": "Two vertically separated clusters contain multiple long narrow leaf-shaped forms; their bases converge through multiple red branch/stem lines toward one central upright axis.",
+    "existing_human_annotation": "Leaves like arrows pointing up; all leaves connect to one point.",
+    "source_url": "https://collections.library.yale.edu/iiif/2/1006100/full/1600,/0/default.jpg",
+    "source_sha256": "8037a9f96a45d0650cd0c1c0b460249127a00b4d4c00a5d6aad445696039fc82",
+    "source_dimensions": "1600x2247"
+  },
+  "prediction": {
+    "query": "count rows on f14r with residual_host exactly ckhy",
+    "allowed_surface_constructions": [
+      "ckhy",
+      "chckhy",
+      "checkhy",
+      "shckhy"
+    ],
+    "positive_condition": "exact_host_occurrences_greater_than_or_equal_to_1",
+    "pass_status": "PASS_SEMANTIC_GLOSS_PROVISIONAL_TRANSFER",
+    "fail_status": "FAIL_SEMANTIC_GLOSS_REJECTED"
+  },
+  "failure_scope": "Failure rejects only the parallel/fused leaf-or-stalk semantic gloss; CKHY remains a formal residual host.",
+  "access": {
+    "official_target_image_opened_before_freeze": true,
+    "target_ckhy_presence_queried_before_freeze": false,
+    "pristine_observer_blind": false,
+    "broad_prior_transcription_exposure_disclosed": true
+  },
+  "f84r": {
+    "opened": false,
+    "retained": false,
+    "queried": false,
+    "joined": false,
+    "scored": false
+  },
+  "claim_ceiling": "One page-level prospective semantic-gloss transfer; no component ownership, word, morpheme, POS, sound, language, plaintext, translation, authorship, or origin."
+}
