@@ -1,0 +1,52 @@
+{
+  "f84r": "SEALED_NO_PREDICTION",
+  "grammar": {
+    "B3": "PROVISIONAL_CONTENT_NEUTRAL_CLOSE",
+    "CONTENT_ADDRESS": "coupled(BRANCH?, ADDRESS_FAMILY, EDGE_STATE)",
+    "EDGE_STATE": "final PAGE_HOST character; licenses BARE | DY | RIGHT | DY_RIGHT | B3",
+    "FIELD": "OUTER_ROUTER? POSITION_FRAME? CONTENT_ADDRESS RENDERER?",
+    "MANUSCRIPT": "REGISTER_BLOCK+",
+    "OUTER_ROUTER": {
+      "ch_che_sh_s": "HOST_REGISTER_CONDITIONAL",
+      "d": "Y_BRANCH_LATE",
+      "q": "O_BRANCH_EARLY"
+    },
+    "PAGE": "PAGE_PROFILE ADDRESS_INVENTORY RECORD+",
+    "POSITION_FRAME": "O | OT | NONE",
+    "RECORD": "ENTRY_ROUTER? FIELD (RELATION_LINK FIELD)* B3_CLOSE?",
+    "RELATION_LINK": "DY",
+    "RENDERER": "RIGHT_FAMILY(register,address,edge)"
+  },
+  "leading_theory": "HYBRID_COUPLED_CONTENT_ADDRESS_PLUS_RELATION_RENDERER",
+  "name": "HYBRID_COUPLED_CONTENT_ADDRESS_PLUS_RELATION_RENDERER",
+  "representative_formal_parses": [
+    {
+      "locus": "f104r.1",
+      "parse": "q[OUTER_ROUTER] + opch[ADDRESS_FAMILY] + e[EDGE_STATE] + DY[RELATION_LINK]",
+      "token": "qopchedy"
+    },
+    {
+      "locus": "f104r.27",
+      "parse": "pch[ADDRESS_FAMILY] + d[EDGE_STATE] + ar[RIGHT_FAMILY]",
+      "token": "pchedar"
+    },
+    {
+      "locus": "f40r.1",
+      "parse": "pch[ADDRESS_FAMILY] + ey[COUPLED_EDGE_VARIANT] + BARE",
+      "token": "pchey"
+    },
+    {
+      "locus": "f105v.1",
+      "parse": "y+pch[COUPLED_ADDRESS] + ed[EDGE_VARIANT] + DY[RELATION_LINK]",
+      "token": "ypcheddy"
+    },
+    {
+      "locus": "f105r.13",
+      "parse": "d[OUTER_ROUTER] + yteey[COUPLED_ADDRESS] + BARE",
+      "token": "dyteey"
+    }
+  ],
+  "schema": "GDT108_HPR2_COUPLED_ADDRESS_MODEL_V1",
+  "semantic_assignments": [],
+  "translation_readiness": "NOT_READY_REQUIRES_FRESH_TWO_CHANNEL_EXTERNAL_TRANSFER"
+}
