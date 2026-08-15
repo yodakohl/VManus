@@ -1,0 +1,223 @@
+{
+  "arol_counterexample": "Four archived AROL-host loci split two WATER_OR_APPARATUS and two PLANT; no stable flow key.",
+  "axes": [
+    "STAR_OR_SKY",
+    "FIGURE",
+    "PLANT",
+    "WATER_OR_APPARATUS",
+    "REL_PROXIMITY",
+    "REL_EXPLICIT_ATTACHMENT",
+    "REL_ENCLOSURE",
+    "REL_ARRAY_OR_GROUP"
+  ],
+  "claim_ceiling": "Archived hypothesis-generation associations only; no semantic class, role, gloss, word, morpheme, POS, sound, language, plaintext, meaning, or translation.",
+  "documents": {
+    "GDT088_PAGE_HOST_EXTERNAL_ASSOCIATION_METHOD.md": "f807915463ab3c146b0301d23a35f07d31ba0e0fd6e77cfe6adfb6b8022f00a6",
+    "GDT088_PAGE_HOST_EXTERNAL_ASSOCIATION_REPORT.md": "cc800e915edf337c4fc2a7a5245a7c011faaf3cddbd174597708a7e92346bca8"
+  },
+  "f84r": {
+    "joined": false,
+    "opened": false,
+    "queried": false,
+    "retained": false,
+    "scored": false,
+    "targeted": false
+  },
+  "frozen_followup_candidates": [
+    {
+      "external_axis": "PLANT",
+      "page_host": "os",
+      "semantic_role": "UNASSIGNED"
+    },
+    {
+      "external_axis": "REL_ENCLOSURE",
+      "page_host": "d",
+      "semantic_role": "UNASSIGNED"
+    },
+    {
+      "external_axis": "REL_EXPLICIT_ATTACHMENT",
+      "page_host": "d",
+      "semantic_role": "UNASSIGNED"
+    },
+    {
+      "external_axis": "WATER_OR_APPARATUS",
+      "page_host": "ok",
+      "semantic_role": "UNASSIGNED"
+    }
+  ],
+  "hosts": 43,
+  "implementation": {
+    "run_gdt088_page_host_external_association.py": "a13ccdb298016d72358be3c26ce039bebb1b35ad10b12224bb7d488a416d943d"
+  },
+  "inputs": {
+    "gdt012_annotated_core_inventory.tsv": "137efc96893220f8d55857b5ffc60f54a4eeb87450b42151b8bdc557e7281525",
+    "gdt059_hpr2_external_inventory.tsv": "3a683e6bf169fb79220693c3b75256588f37ec8e52f788af68ad3de3bb2f83ef",
+    "gdt068_result.json": "ec418e059b3a13fe35b674ab9b82521be4b643c510ee658e4cb6f071b3d7fcbd",
+    "gdt073_result.json": "6469079c4f2d9ee8659c47d2943c245942528cc5aad527a5bd9277c8dadd99b7"
+  },
+  "interesting_exploratory": 6,
+  "outputs": {
+    "gdt088_counterexamples.tsv": "ffdbcb6afa2c53ef103e7ccd2841e477fbf7a0fcd22aa5cc5318a45909a88199",
+    "gdt088_null_results.tsv": "2f2d18199ab0a104adc53faab4a9df642e44ca513c9576eea029aa5c0af08567",
+    "gdt088_page_host_external_atlas.tsv": "823921b9272d1714a8bfbff21a23b2a9d02e9f9f6cc1f3dfff4760cc990fe58a"
+  },
+  "permutations": 5000,
+  "physical_folios": 21,
+  "result_content_sha256": "aa74afb76a8eba258a4eec53a669eee2c52eab900f417455832bb1463c3fcc9b",
+  "scanned_pairs": 284,
+  "schema": "GDT088_PAGE_HOST_EXTERNAL_ASSOCIATION_RESULT_V1",
+  "status": "EXACT_PAGE_HOST_ARCHIVE_ASSOCIATIONS_FOUND_NONE_SURVIVE_GLOBAL_SEARCH",
+  "top_candidates": [
+    {
+      "classification": "INTERESTING_EXPLORATORY",
+      "cmh_z": 3.655508930735619,
+      "direction": "ENRICHED",
+      "external_axis": "PLANT",
+      "local_permutation_p": 0.001799640071985603,
+      "max_search_p": 0.47050589882023597,
+      "page_host": "os",
+      "rank_by_abs_cmh_z": 1
+    },
+    {
+      "classification": "INTERESTING_EXPLORATORY",
+      "cmh_z": -3.130920247195961,
+      "direction": "DEPLETED",
+      "external_axis": "STAR_OR_SKY",
+      "local_permutation_p": 0.014797040591881624,
+      "max_search_p": 0.7980403919216157,
+      "page_host": "okeey",
+      "rank_by_abs_cmh_z": 2
+    },
+    {
+      "classification": "LIKELY_PAGE_CONFOUND",
+      "cmh_z": 3.0057995841808114,
+      "direction": "ENRICHED",
+      "external_axis": "PLANT",
+      "local_permutation_p": 0.09658068386322735,
+      "max_search_p": 0.8730253949210158,
+      "page_host": "okeey",
+      "rank_by_abs_cmh_z": 3
+    },
+    {
+      "classification": "INTERESTING_EXPLORATORY",
+      "cmh_z": 2.9320601323830147,
+      "direction": "ENRICHED",
+      "external_axis": "REL_ENCLOSURE",
+      "local_permutation_p": 0.009198160367926415,
+      "max_search_p": 0.9114177164567087,
+      "page_host": "d",
+      "rank_by_abs_cmh_z": 4
+    },
+    {
+      "classification": "LIKELY_PAGE_CONFOUND",
+      "cmh_z": 2.7886317283489688,
+      "direction": "ENRICHED",
+      "external_axis": "REL_ENCLOSURE",
+      "local_permutation_p": 0.046590681863627276,
+      "max_search_p": 0.9502099580083984,
+      "page_host": "okaly",
+      "rank_by_abs_cmh_z": 5
+    },
+    {
+      "classification": "LIKELY_PAGE_CONFOUND",
+      "cmh_z": -2.6832815729997472,
+      "direction": "DEPLETED",
+      "external_axis": "STAR_OR_SKY",
+      "local_permutation_p": 0.118376324735053,
+      "max_search_p": 0.9802039592081584,
+      "page_host": "op",
+      "rank_by_abs_cmh_z": 6
+    },
+    {
+      "classification": "INTERESTING_EXPLORATORY",
+      "cmh_z": 2.478883729850408,
+      "direction": "ENRICHED",
+      "external_axis": "REL_EXPLICIT_ATTACHMENT",
+      "local_permutation_p": 0.01919616076784643,
+      "max_search_p": 0.9928014397120576,
+      "page_host": "d",
+      "rank_by_abs_cmh_z": 7
+    },
+    {
+      "classification": "WEAK",
+      "cmh_z": -2.323198440357502,
+      "direction": "DEPLETED",
+      "external_axis": "STAR_OR_SKY",
+      "local_permutation_p": 0.07178564287142572,
+      "max_search_p": 0.9976004799040192,
+      "page_host": "yky",
+      "rank_by_abs_cmh_z": 8
+    },
+    {
+      "classification": "INTERESTING_EXPLORATORY",
+      "cmh_z": 2.3219832198578643,
+      "direction": "ENRICHED",
+      "external_axis": "REL_EXPLICIT_ATTACHMENT",
+      "local_permutation_p": 0.04259148170365927,
+      "max_search_p": 0.9976004799040192,
+      "page_host": "o",
+      "rank_by_abs_cmh_z": 9
+    },
+    {
+      "classification": "LIKELY_PAGE_CONFOUND",
+      "cmh_z": -2.2574715441314357,
+      "direction": "DEPLETED",
+      "external_axis": "STAR_OR_SKY",
+      "local_permutation_p": 0.14537092581483704,
+      "max_search_p": 0.9992001599680064,
+      "page_host": "yteo",
+      "rank_by_abs_cmh_z": 10
+    },
+    {
+      "classification": "WEAK",
+      "cmh_z": 2.222913701996668,
+      "direction": "ENRICHED",
+      "external_axis": "REL_PROXIMITY",
+      "local_permutation_p": 0.05838832233553289,
+      "max_search_p": 0.9996000799840032,
+      "page_host": "yky",
+      "rank_by_abs_cmh_z": 11
+    },
+    {
+      "classification": "WEAK",
+      "cmh_z": 2.155938002245866,
+      "direction": "ENRICHED",
+      "external_axis": "WATER_OR_APPARATUS",
+      "local_permutation_p": 0.052389522095580884,
+      "max_search_p": 0.9998000399920016,
+      "page_host": "ok",
+      "rank_by_abs_cmh_z": 12
+    },
+    {
+      "classification": "WEAK",
+      "cmh_z": -2.146287241792319,
+      "direction": "DEPLETED",
+      "external_axis": "STAR_OR_SKY",
+      "local_permutation_p": 0.06798640271945611,
+      "max_search_p": 0.9998000399920016,
+      "page_host": "ok",
+      "rank_by_abs_cmh_z": 13
+    },
+    {
+      "classification": "INTERESTING_EXPLORATORY",
+      "cmh_z": -2.136211934512696,
+      "direction": "DEPLETED",
+      "external_axis": "STAR_OR_SKY",
+      "local_permutation_p": 0.04299140171965607,
+      "max_search_p": 1.0,
+      "page_host": "ar",
+      "rank_by_abs_cmh_z": 14
+    },
+    {
+      "classification": "LIKELY_PAGE_CONFOUND",
+      "cmh_z": -2.0,
+      "direction": "DEPLETED",
+      "external_axis": "REL_ARRAY_OR_GROUP",
+      "local_permutation_p": 0.1941611677664467,
+      "max_search_p": 1.0,
+      "page_host": "eey",
+      "rank_by_abs_cmh_z": 15
+    }
+  ],
+  "units": 560
+}
