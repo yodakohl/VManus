@@ -1,0 +1,283 @@
+{
+  "capacity": {
+    "bs_register_candidates": 24,
+    "eligible_features": 346,
+    "feature_family_eligible_counts": {
+      "CLOSED_FIELD_CLOSER": 16,
+      "CORE": 74,
+      "FIELD_SHAPE": 35,
+      "FIELD_TEMPLATE": 18,
+      "RECORD_STATE": 12,
+      "STATE_TRANSITION": 64,
+      "WRAPPER_CORE": 82,
+      "WRAPPER_TRANSITION": 45
+    },
+    "minimum_count_each_target": 3,
+    "minimum_folios_each_target": 2
+  },
+  "claim_ceiling": "Identifies candidate shared formal register features and formal content/closure tendencies only. No word, morpheme, POS, function name, referent, sound, language, plaintext, meaning, or translation.",
+  "controls": {
+    "cross_currier": "One S-A folio is sensitivity only, never replication.",
+    "currier": "Primary H-B and S comparison fixes Currier B; other Currier-B sections test generic B prevalence.",
+    "hand": "Hand 3 overlap is recorded per feature; H-B hands 2/3/5 and S-B hand 3/@ prevent complete hand balance.",
+    "robustness": "Minimum enrichment is recomputed after deleting every target folio in turn."
+  },
+  "denominators": {
+    "FIELD_HA": 903,
+    "FIELD_HB": 459,
+    "FIELD_OB": 1705,
+    "FIELD_OTHER": 177,
+    "FIELD_SA": 57,
+    "FIELD_SB": 1514,
+    "GROUP_HA": 3911,
+    "GROUP_HB": 1323,
+    "GROUP_OB": 4519,
+    "GROUP_OTHER": 683,
+    "GROUP_SA": 301,
+    "GROUP_SB": 4855,
+    "TRANSITION_HA": 3120,
+    "TRANSITION_HB": 1135,
+    "TRANSITION_OB": 3848,
+    "TRANSITION_OTHER": 567,
+    "TRANSITION_SA": 258,
+    "TRANSITION_SB": 4193
+  },
+  "documents": {
+    "GDT037_HERBAL_B_RECIPE_SHARED_REGISTER_METHOD.md": "acff4465e91128d45855be2d186af4b15996c274393070bbd27c750b1852239b",
+    "GDT037_HERBAL_B_RECIPE_SHARED_REGISTER_REPORT.md": "bbd789f98dbb53f47a273c45ce103607eea75b3edbbd59cf1de67461fb0f536e"
+  },
+  "f84r": {
+    "joined": false,
+    "opened": false,
+    "queried": false,
+    "retained": false,
+    "scored": false
+  },
+  "implementation": {
+    "run_gdt037_herbal_b_recipe_shared_register.py": "146d733440b591ee699f761cf9260ac606ccc9a81a4bfc922b872a70c669f297"
+  },
+  "inputs": {
+    "gdt016_group_state_inventory.tsv": "e109ce15864ed6b6f76d446b3c96d6190a0dc53d20d8ab0944554124e687234c",
+    "gdt016_result.json": "aaa96a3be942bc1eab6587d5362922f3f16ec2beea7f520d47e190c32df80c2c",
+    "gdt025_result.json": "543f393bdb28ce285b62d64e1a70d287269cea5cd0fe495e928e27e1c15ee0a7",
+    "gdt033_result.json": "97ac2b3de5d0f46166b86ebbeeef67cbad145edf1629df975a349811c433eac7",
+    "gdt036_result.json": "2451a918f62fe924077800728b450e0ff5c775d4c9bca88c7a2e8b5cb5e9cd35"
+  },
+  "outputs": {
+    "gdt037_bs_register_candidates.tsv": "face4435c92085ba0d88e52ba968a23fc8e1ec8a4ef3af985f747b9f01cd41a3",
+    "gdt037_core_wrapper_atlas.tsv": "27b84cf5686d6182ecea374f142eb243c0c0660183fc1136f2488c7592824075",
+    "gdt037_counterexamples.tsv": "8e8c2ebb5e4ea9a4991ae50f09dca6fe0daa8d8c6bd17257f0717a7f6f49f1a2",
+    "gdt037_field_transition_atlas.tsv": "d172ed10831b123414d53cda8745963c7777280b6bf260824b2ba61d9745408a"
+  },
+  "result_content_sha256": "5032f9f45e6c2d6275d17f90b31c7a477e64b0bf00d927752ee15675152187ac",
+  "schema": "GDT037_HERBAL_B_RECIPE_SHARED_REGISTER_RESULT_V1",
+  "scope": "Exploratory formal inventory of constructions shared by Herbal Currier B and Currier-B Stars/Recipe S but rare in Herbal A; no semantics.",
+  "status": "B_S_SHARED_REGISTER_CANDIDATES_ISOLATED_CURRIER_HAND_CONFOUNDED",
+  "strata": {
+    "HA": "section H Currier A",
+    "HB": "section H Currier B",
+    "OB": "other Currier B sections B/C/T",
+    "SA": "section S Currier A one-folio sensitivity",
+    "SB": "section S Currier B primary target"
+  },
+  "top_by_family": {
+    "CLOSED_FIELD_CLOSER": [
+      "opch",
+      "otch",
+      "ote",
+      "che",
+      "oke"
+    ],
+    "CORE": [
+      "daiin",
+      "opch",
+      "dy",
+      "otch",
+      "okair"
+    ],
+    "FIELD_SHAPE": [
+      "CLOSED|LEN_3|AR_REFERENCE>DY_RESOLUTION",
+      "OPEN|LEN_1|ED_MEDIUM>ED_MEDIUM",
+      "CLOSED|LEN_4PLUS|AR_REFERENCE>DY_RESOLUTION",
+      "CLOSED|LEN_1|DY_RESOLUTION>DY_RESOLUTION",
+      "OPEN|LEN_4PLUS|AR_REFERENCE>OTHER"
+    ],
+    "FIELD_TEMPLATE": [
+      "ED_MEDIUM>OPEN",
+      "DY_RESOLUTION",
+      "OTHER>DY_RESOLUTION",
+      "CARRIER_STATE>DY_RESOLUTION",
+      "AR_REFERENCE>DY_RESOLUTION"
+    ],
+    "RECORD_STATE": [
+      "ED_MEDIUM",
+      "OT_AR_LOCAL",
+      "DY_RESOLUTION",
+      "AR_REFERENCE",
+      "OT_AL_LOCAL"
+    ],
+    "STATE_TRANSITION": [
+      "ED_MEDIUM>CARRIER_STATE",
+      "DY_RESOLUTION>AR_REFERENCE",
+      "AR_REFERENCE>DY_RESOLUTION",
+      "DY_RESOLUTION>DY_RESOLUTION",
+      "DY_RESOLUTION>OT_AR_LOCAL"
+    ],
+    "WRAPPER_CORE": [
+      "NONE|ain",
+      "ch|daiin",
+      "NONE|ar",
+      "che|dy",
+      "NONE|olaiin"
+    ],
+    "WRAPPER_TRANSITION": [
+      "che>che",
+      "NONE>che",
+      "che>ch",
+      "NONE>NONE",
+      "che>NONE"
+    ]
+  },
+  "top_register_candidates": [
+    {
+      "family": "WRAPPER_CORE",
+      "formal_hint": "FORMAL_PATTERN",
+      "rank": 2,
+      "score": 7.6110411923850965,
+      "value": "ch|daiin"
+    },
+    {
+      "family": "WRAPPER_CORE",
+      "formal_hint": "FORMAL_PATTERN",
+      "rank": 3,
+      "score": 7.458897410618763,
+      "value": "NONE|ar"
+    },
+    {
+      "family": "WRAPPER_TRANSITION",
+      "formal_hint": "FORMAL_PATTERN",
+      "rank": 4,
+      "score": 7.366226705909474,
+      "value": "che>che"
+    },
+    {
+      "family": "CORE",
+      "formal_hint": "PREDOMINANT_CARRIER_STATE",
+      "rank": 6,
+      "score": 7.187287926034951,
+      "value": "daiin"
+    },
+    {
+      "family": "STATE_TRANSITION",
+      "formal_hint": "FORMAL_PATTERN",
+      "rank": 7,
+      "score": 7.161946062142535,
+      "value": "ED_MEDIUM>CARRIER_STATE"
+    },
+    {
+      "family": "CORE",
+      "formal_hint": "PREDOMINANT_CLOSURE_HOST",
+      "rank": 9,
+      "score": 7.056046050541745,
+      "value": "opch"
+    },
+    {
+      "family": "CLOSED_FIELD_CLOSER",
+      "formal_hint": "FORMAL_PATTERN",
+      "rank": 10,
+      "score": 6.9753571238274406,
+      "value": "opch"
+    },
+    {
+      "family": "WRAPPER_CORE",
+      "formal_hint": "FORMAL_PATTERN",
+      "rank": 11,
+      "score": 6.952400123588346,
+      "value": "NONE|olaiin"
+    },
+    {
+      "family": "CORE",
+      "formal_hint": "PREDOMINANT_CLOSURE_HOST",
+      "rank": 17,
+      "score": 6.70106774160303,
+      "value": "otch"
+    },
+    {
+      "family": "CLOSED_FIELD_CLOSER",
+      "formal_hint": "FORMAL_PATTERN",
+      "rank": 18,
+      "score": 6.700834186364037,
+      "value": "otch"
+    },
+    {
+      "family": "WRAPPER_CORE",
+      "formal_hint": "FORMAL_PATTERN",
+      "rank": 24,
+      "score": 6.383123493632623,
+      "value": "NONE|aiin"
+    },
+    {
+      "family": "STATE_TRANSITION",
+      "formal_hint": "FORMAL_PATTERN",
+      "rank": 32,
+      "score": 5.9655067124292165,
+      "value": "AR_REFERENCE>OTHER"
+    },
+    {
+      "family": "STATE_TRANSITION",
+      "formal_hint": "FORMAL_PATTERN",
+      "rank": 33,
+      "score": 5.880947879544326,
+      "value": "OTHER>DY_RESOLUTION"
+    },
+    {
+      "family": "WRAPPER_TRANSITION",
+      "formal_hint": "FORMAL_PATTERN",
+      "rank": 41,
+      "score": 5.669400066938633,
+      "value": "NONE>che"
+    },
+    {
+      "family": "WRAPPER_CORE",
+      "formal_hint": "FORMAL_PATTERN",
+      "rank": 42,
+      "score": 5.665646955163197,
+      "value": "ch|dam"
+    },
+    {
+      "family": "CORE",
+      "formal_hint": "MIXED_NONCLOSURE_HOST_CANDIDATE",
+      "rank": 52,
+      "score": 5.299786051090898,
+      "value": "okam"
+    },
+    {
+      "family": "WRAPPER_CORE",
+      "formal_hint": "FORMAL_PATTERN",
+      "rank": 65,
+      "score": 5.093930685907512,
+      "value": "NONE|okal"
+    },
+    {
+      "family": "WRAPPER_CORE",
+      "formal_hint": "FORMAL_PATTERN",
+      "rank": 66,
+      "score": 5.084806313526024,
+      "value": "NONE|otch"
+    },
+    {
+      "family": "CORE",
+      "formal_hint": "PREDOMINANT_CARRIER_STATE",
+      "rank": 68,
+      "score": 4.987109652903812,
+      "value": "dam"
+    },
+    {
+      "family": "CORE",
+      "formal_hint": "MIXED_NONCLOSURE_HOST_CANDIDATE",
+      "rank": 70,
+      "score": 4.906254102706634,
+      "value": "odain"
+    }
+  ]
+}
