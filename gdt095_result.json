@@ -1,0 +1,116 @@
+{
+  "best_representation": {
+    "baseline_bits": 998.0562519497932,
+    "descriptor_tokens": 19,
+    "gain_bits": 11.252103541840796,
+    "held_bits": 986.8041484079524,
+    "local_permutation_p": 0.0007998400319936012,
+    "loci": 83,
+    "max_folio_gain": 15.409584954217628,
+    "max_representation_p": 0.0011997600479904018,
+    "min_folio_gain": -6.355059951857056,
+    "positive_gain_folios": 3,
+    "representation": "HOST_WRAPPER_JOINT",
+    "selector_paid_gain_bits": 7.9301754469534345
+  },
+  "claim_ceiling": "Archived description-channel construction association only; no semantic class, role, gloss, word, morpheme, POS, sound, language, plaintext, meaning, or translation.",
+  "descriptor_tokens": 19,
+  "documents": {
+    "GDT095_EXHAUSTIVE_DESCRIPTOR_CHANNEL_METHOD.md": "6da941ce1b3262451e9ce1d896c37fa920f9031d8c4160d55b0f34a65eb1738b",
+    "GDT095_EXHAUSTIVE_DESCRIPTOR_CHANNEL_REPORT.md": "42c760e107a04b340e1cd8d92069ca33dd773383860e80595c886cba53c1780b"
+  },
+  "f84r": {
+    "joined": false,
+    "opened": false,
+    "queried": false,
+    "retained": false,
+    "scored": false,
+    "targeted": false
+  },
+  "implementation": {
+    "run_gdt095_exhaustive_descriptor_channel.py": "8665f6d68be39f18169a60ebc52ecd4a54687f029df393a36cb1b904e4f32421"
+  },
+  "inputs": {
+    "gdt012_annotated_core_inventory.tsv": "137efc96893220f8d55857b5ffc60f54a4eeb87450b42151b8bdc557e7281525",
+    "gdt059_hpr2_external_inventory.tsv": "3a683e6bf169fb79220693c3b75256588f37ec8e52f788af68ad3de3bb2f83ef",
+    "gdt089_result.json": "45aeacce6815ab0f2e1b7ea101d6dd629a793da25c7afd46687b04949b284793",
+    "gdt092_result.json": "a26dc19a4e7243486b354aa468848540985e6b70385b20d4676c246d230653ef",
+    "gdt093_result.json": "04a1b335537149b231156fb9f8d04655eb0544de57c80437c36f41c2bd412502"
+  },
+  "interpretation": "The positive archived description signal concentrates in exact PAGE_HOST-by-WRAPPER constructions but is explained by label-position vocabulary, not the appearance-token remainder.",
+  "loci": 83,
+  "outputs": {
+    "gdt095_channel_ablation.tsv": "cdce6d5e48688831f7ec2303e387280737d8e0c89157850a27575a4dbf1be51a",
+    "gdt095_construction_descriptor_atlas.tsv": "f13f3eb1702691158a9c05cf875a6176306f684e7cd8fce269e78547faf35b6e",
+    "gdt095_descriptor_token_manifest.tsv": "427ac316be00ad5c570ed160413561a7bba76b71b2f385de81ddc420fdcbfdf8",
+    "gdt095_null_results.tsv": "7c86d3b5019110e5b9298061fbf2bf92fb79db322672ae0e62210a3cdce69cd1",
+    "gdt095_representation_scores.tsv": "e2ac643ffdf9ec0f85da2718dd13c745466f517799051fae65ed2fbf0df1a610",
+    "gdt095_token_scores.tsv": "4894728adc0ab0847e5b2fbe8c7027cb90c9742997f97f15de88a67859f90b28"
+  },
+  "page_host_marginal": {
+    "baseline_bits": 998.0562519497932,
+    "descriptor_tokens": 19,
+    "gain_bits": -34.882913135391085,
+    "held_bits": 1032.9391650851844,
+    "local_permutation_p": 0.0009998000399920016,
+    "loci": 83,
+    "max_folio_gain": 1.196720315674442,
+    "max_representation_p": 0.0011997600479904018,
+    "min_folio_gain": -26.018780922667762,
+    "positive_gain_folios": 2,
+    "representation": "PAGE_HOST_CHAR3",
+    "selector_paid_gain_bits": -38.20484123027845
+  },
+  "permutation_worlds": 5000,
+  "physical_folios": 5,
+  "posthoc_channel_ablation": {
+    "appearance_remainder": {
+      "descriptor_tokens": 15,
+      "gain_bits": -7.727558762944087,
+      "local_permutation_p": 0.006998600279944011,
+      "panel": "APPEARANCE_REMAINDER",
+      "panel_max_representation_p": 0.007398520295940812,
+      "representation": "HOST_WRAPPER_JOINT",
+      "status": "POSTHOC_INTERPRETIVE_ABLATION"
+    },
+    "layout_position": {
+      "descriptor_tokens": 4,
+      "gain_bits": 18.979662304784885,
+      "local_permutation_p": 0.015796840631873626,
+      "panel": "LAYOUT_POSITION",
+      "panel_max_representation_p": 0.00599880023995201,
+      "representation": "HOST_WRAPPER_JOINT",
+      "status": "POSTHOC_INTERPRETIVE_ABLATION"
+    }
+  },
+  "representations": [
+    "RAW_CHAR3",
+    "PAGE_HOST_CHAR3",
+    "COMPILER_SIGNATURE",
+    "WRAPPER_ONLY",
+    "RIGHT_ONLY",
+    "B3_ONLY",
+    "HOST_WRAPPER_JOINT",
+    "HOST_RIGHT_JOINT",
+    "HOST_B3_JOINT",
+    "HOST_WRAPPER_RIGHT_JOINT"
+  ],
+  "result_content_sha256": "acfe55e691123c7d2ae4348cd1a05ac96d9774ac87492b8cb890b1469fe9f0fe",
+  "schema": "GDT095_EXHAUSTIVE_DESCRIPTOR_CHANNEL_RESULT_V1",
+  "selection_disclosure": "All normalized frequency-eligible local-clause tokens and all ten predeclared representations are exported; K=5/shrink=4 is inherited from GDT068/GDT089. Layout/appearance decomposition was added after seeing the exhaustive token manifest and is explicitly post-hoc.",
+  "status": "HOST_WRAPPER_DESCRIPTOR_SIGNAL_LOCALIZES_TO_LAYOUT_POSITION_NOT_APPEARANCE",
+  "wrapper_marginal": {
+    "baseline_bits": 998.0562519497932,
+    "descriptor_tokens": 19,
+    "gain_bits": -229.4413105879401,
+    "held_bits": 1227.4975625377333,
+    "local_permutation_p": 0.027794441111777646,
+    "loci": 83,
+    "max_folio_gain": -13.134023121938066,
+    "max_representation_p": 0.0011997600479904018,
+    "min_folio_gain": -67.99877288863858,
+    "positive_gain_folios": 0,
+    "representation": "WRAPPER_ONLY",
+    "selector_paid_gain_bits": -232.76323868282748
+  }
+}
