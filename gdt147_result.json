@@ -1,0 +1,122 @@
+{
+  "assignment_worlds": 120,
+  "claim_ceiling": "Exposed five-target edge stability only; no botanical truth, identity, semantic role, gloss, word, morpheme, POS, sound, language, plaintext, meaning, or translation.",
+  "documents": {
+    "GDT147_RELATION_BACKBONE_STABILITY_METHOD.md": "fcc6ae5f38def0a335d06ceea1d0eee9733f26da4faa8ea1b1d4c1360ec3c061",
+    "GDT147_RELATION_BACKBONE_STABILITY_REPORT.md": "f11d518f193fe80b6daa018ed597dc0c2cb359c33493e893977b6c2a416e6f65"
+  },
+  "edge_stability": [
+    {
+      "best_assignment_inclusion_mass": 0.9999999999999999,
+      "component": "WHOLE_PLANT",
+      "descriptive_class": "STABLE_BACKBONE_EDGE",
+      "normalizations_with_all_best_inclusion": 6,
+      "normalizations_with_any_best_inclusion": 6,
+      "relation_class": "WHOLE_PLANT_SIMILARITY",
+      "relation_id": "MHI002",
+      "source_page": "f17v",
+      "target_page": "f96v",
+      "top5_inclusion_mass": 0.9999999999999999
+    },
+    {
+      "best_assignment_inclusion_mass": 0.9999999999999999,
+      "component": "WHOLE_PLANT",
+      "descriptive_class": "STABLE_BACKBONE_EDGE",
+      "normalizations_with_all_best_inclusion": 6,
+      "normalizations_with_any_best_inclusion": 6,
+      "relation_class": "WHOLE_PLANT_SIMILARITY",
+      "relation_id": "MHI003",
+      "source_page": "f44r",
+      "target_page": "f1v",
+      "top5_inclusion_mass": 0.7666666666666666
+    },
+    {
+      "best_assignment_inclusion_mass": 0.08333333333333333,
+      "component": "LEAVES",
+      "descriptive_class": "EXCHANGEABLE_OR_UNSTABLE_EDGE",
+      "normalizations_with_all_best_inclusion": 0,
+      "normalizations_with_any_best_inclusion": 1,
+      "relation_class": "COMPONENT_SIMILARITY",
+      "relation_id": "MHI004",
+      "source_page": "f6r",
+      "target_page": "f51r",
+      "top5_inclusion_mass": 0.4666666666666666
+    },
+    {
+      "best_assignment_inclusion_mass": 0.9166666666666666,
+      "component": "FLOWER",
+      "descriptive_class": "STABLE_BACKBONE_EDGE",
+      "normalizations_with_all_best_inclusion": 5,
+      "normalizations_with_any_best_inclusion": 6,
+      "relation_class": "COMPONENT_SIMILARITY",
+      "relation_id": "MHI006",
+      "source_page": "f19r",
+      "target_page": "f2v",
+      "top5_inclusion_mass": 0.6333333333333333
+    },
+    {
+      "best_assignment_inclusion_mass": 0.08333333333333333,
+      "component": "BULBS",
+      "descriptive_class": "EXCHANGEABLE_OR_UNSTABLE_EDGE",
+      "normalizations_with_all_best_inclusion": 0,
+      "normalizations_with_any_best_inclusion": 1,
+      "relation_class": "COMPONENT_SIMILARITY",
+      "relation_id": "MHI007",
+      "source_page": "f90r1",
+      "target_page": "f3v",
+      "top5_inclusion_mass": 0.26666666666666666
+    }
+  ],
+  "exchangeable_or_unstable_edges": [
+    "MHI004",
+    "MHI007"
+  ],
+  "f84": {
+    "new_f84r_access": false,
+    "published_derived_inputs_have_zero_f84_pages": true,
+    "source_or_image_opened": false
+  },
+  "implementation": {
+    "run_gdt147_relation_backbone_stability.py": "df80d4d5aa6c2badf5dd5747c1bc2e4241846cd7baa3f3121023509170120144"
+  },
+  "inputs": {
+    "gdt140_assignment_orbit.tsv": "e8e2a8cc74dc386d206ace0c371633e0f7bda0ee69f50a49747d0d7c9eebe6ac",
+    "gdt140_herbal_relation_inventory.tsv": "38584b43f02fb4affcbc6679acb4225be22637f83c641cc981967ec20abcb2a0",
+    "gdt140_pair_similarities.tsv": "86a4801f2bb2d22c0fca4feca316f6b7745a7d0b6dba947be34d6696e9cbc42b",
+    "gdt140_result.json": "41ab7e6e0a4bf8269de350dcbda06849240b1697ee4d50b6ed6839df8d1a1954",
+    "gdt142_result.json": "23678da7a587294e4d008d43de73c0a1ea75972dea1aa2de6112cb9f8812b5dd",
+    "gdt144_result.json": "833aaa44b1b2d78201b4e5e94f6f077662fa301619d1e171d2f28785d7a7103c",
+    "gdt145_result.json": "ba38238820992f677222f8a3ef7e8823f9d011a55bc2cdf65d00575857abf2d7"
+  },
+  "interpretation": "Post-hoc localization of the exposed PAGE_HOST-character-trigram assignment into a three-edge backbone and two exchangeable targets.",
+  "normalizations": [
+    "RAW_SIMILARITY",
+    "SOURCE_RANK",
+    "TARGET_RANK",
+    "MUTUAL_RANK_MEAN",
+    "RECIPROCAL_RANK_MEAN",
+    "MUTUAL_TOP2"
+  ],
+  "outputs": {
+    "gdt147_best_assignments.tsv": "879f36ddca280bf53887e7634316ec5a189419716cdcaaf34fecf00fb98d1b63",
+    "gdt147_counterexamples.tsv": "5fc5771b4848a5e96cc41b9307e914061d41f0b82e1b1e704862f0e98b386271",
+    "gdt147_edge_stability.tsv": "db105a2f9f13510fc0ff0cd8a6af887628555f440b6c1ba1e22eafded518e9d6",
+    "gdt147_swap_diagnostics.tsv": "5c9e6a889bc5185c3788793d17bedb409e04bc62ac90e24c96d8b8423c81048b"
+  },
+  "relations": 5,
+  "result_content_sha256": "38cfcfe9d5cf01754e460f64d42dafc7b45cbcaa491888bbf8ee3b95f40a5395",
+  "schema": "GDT147_RELATION_BACKBONE_STABILITY_RESULT_V1",
+  "stable_backbone_edges": [
+    "MHI002",
+    "MHI003",
+    "MHI006"
+  ],
+  "status": "PAGE_HOST_CHAR3_THREE_EDGE_BACKBONE_TWO_TARGETS_EXCHANGEABLE",
+  "true_vs_swap": {
+    "swapped_assignment_id": "A005",
+    "swapped_wins": 5,
+    "ties": 1,
+    "true_assignment_id": "A000",
+    "true_wins": 0
+  }
+}
