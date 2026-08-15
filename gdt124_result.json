@@ -1,0 +1,86 @@
+{
+  "claim_ceiling": "Visual/formal lead only; no star, ray, number, role, word, morpheme, POS, sound, language, plaintext, meaning or translation.",
+  "documents": {
+    "GDT124_Q20_AR_RAY_TRANSFER_METHOD.md": "c53dc38c4a23c027deede3f6441c61fc05193c3f7adc08c011b4b9bc40b46375",
+    "GDT124_Q20_AR_RAY_TRANSFER_REPORT.md": "1bb8922b5fe14fb761a2eece4491656ef9c0d76ecbe8995df63758cfcb4d2b17"
+  },
+  "f84r": {
+    "assigned": false,
+    "joined": false,
+    "opened": false,
+    "predicted": false,
+    "queried": false,
+    "retained": false,
+    "scored": false,
+    "targeted": false
+  },
+  "frozen_predictions": 14,
+  "implementation": {
+    "run_gdt124_q20_ar_ray_transfer.py": "83cb3acbfaa975e3fa7ce4850d715369cc889321f746199410cb696f91f13023"
+  },
+  "inputs": {
+    "experiments/semantic_assumptions/star_morphology_entry/source_panel.tsv": "a25fb76c84e222952730ba1ae7a761542cbba9752f2c7c84a7c26f3bedd5caef",
+    "gdt123_result.json": "022b4dbf603d85eac9be3c1f792272f9597810edfaae97569d030a7e43fa68c2",
+    "gdt124_frozen_predictions.tsv": "2f57a6abe90a0174016737cfc9bdfc7696a468dcf3d44233b33f92f2248d6bd2",
+    "gdt124_prediction.json": "8d5c99bb7999c3d36c04a279c70b32e445d94b2beebb4b42aeeb448c258f769d",
+    "gdt124_prediction_validation.json": "fcd4d1f3d8e01ab282ecce8cf28381c5eef43295c476cf527b51565c8f4d785d"
+  },
+  "interpretation": "Prospective, provenance-qualified transfer of one postselected exact PAGE_HOST/visual-state direction.",
+  "outputs": {
+    "gdt124_f106r_ar_ray_counterexamples.tsv": "193fbf66676b17af1207d12554f14a70bdad07887b1eefbdd79dff07269537b4",
+    "gdt124_f106r_ar_ray_predictions.tsv": "9f0930f06ddbdfdef0fc94520fbd7061abb9f5845a8296dcee6cd89e770a3d95"
+  },
+  "postselection_context": {
+    "discovery_tests": 843,
+    "pristine_blind": false,
+    "target_positive_records": 1,
+    "training_local_p": 0.003173053454,
+    "training_max_library_p": 1.0
+  },
+  "primary": {
+    "accuracy": 0.45454545454545453,
+    "actual_7": 5,
+    "actual_8": 6,
+    "eligible": 11,
+    "hits": 5,
+    "improvement_over_majority_hits": -1,
+    "majority_baseline_accuracy": 0.5454545454545454,
+    "majority_baseline_hits": 6,
+    "one_sided_single_positive_hypergeometric_p": 1.0,
+    "ordinal13_actual_rays": 8,
+    "ordinal13_directional_hit": false
+  },
+  "reading_sensitivities": {
+    "IT2a": {
+      "accuracy": 0.5,
+      "actual_7": 6,
+      "actual_8": 8,
+      "eligible": 14,
+      "hits": 7,
+      "majority_baseline_accuracy": 0.5714285714285714,
+      "majority_baseline_hits": 8
+    },
+    "RF1b": {
+      "accuracy": 0.5,
+      "actual_7": 6,
+      "actual_8": 8,
+      "eligible": 14,
+      "hits": 7,
+      "majority_baseline_accuracy": 0.5714285714285714,
+      "majority_baseline_hits": 8
+    },
+    "ZL3b": {
+      "accuracy": 0.42857142857142855,
+      "actual_7": 6,
+      "actual_8": 8,
+      "eligible": 14,
+      "hits": 6,
+      "majority_baseline_accuracy": 0.5714285714285714,
+      "majority_baseline_hits": 8
+    }
+  },
+  "result_content_sha256": "5a6288a9d4243baea3659a78967e10dfe65078ad7b6862245e1acdafaa3e0b06",
+  "schema": "GDT124_Q20_AR_RAY_TRANSFER_RESULT_V1",
+  "status": "Q20_AR_RAY_PROSPECTIVE_TRANSFER_FAILED",
+  "target_page": "f106r"
+}
