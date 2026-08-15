@@ -1,0 +1,96 @@
+{
+  "attribution": [
+    {
+      "cross_register_residual_dy_gain": -800.2290381313651,
+      "lofo_dy_gain_vs_base": 762.1704861968392,
+      "lofo_renderer_gain_vs_base": 6207.486747979929,
+      "lofo_residual_dy_gain_vs_renderer": -417.1769846517054,
+      "lofo_residual_gain_positive_registers": 0,
+      "renderer_control": "WRAPPER"
+    },
+    {
+      "cross_register_residual_dy_gain": -762.9073899711075,
+      "lofo_dy_gain_vs_base": 762.1704861968392,
+      "lofo_renderer_gain_vs_base": 9936.485779943672,
+      "lofo_residual_dy_gain_vs_renderer": -397.3251313874789,
+      "lofo_residual_gain_positive_registers": 0,
+      "renderer_control": "WRAPPER_FRAME"
+    },
+    {
+      "cross_register_residual_dy_gain": -491.273804143937,
+      "lofo_dy_gain_vs_base": 762.1704861968392,
+      "lofo_renderer_gain_vs_base": 15566.382370433712,
+      "lofo_residual_dy_gain_vs_renderer": -291.6885899780609,
+      "lofo_residual_gain_positive_registers": 0,
+      "renderer_control": "FULL_COMPILER"
+    }
+  ],
+  "boundaries": 7409,
+  "claim_ceiling": "Formal DY/renderer/PAGE_HOST attribution only; no role, gloss, word, morpheme, POS, sound, language, plaintext, meaning, or translation.",
+  "documents": {
+    "GDT061_DY_RENDERER_HOST_ATTRIBUTION_METHOD.md": "78fd00e5f2419c7fbec55bec427a3eadf1b2550aea70b81aad9f121b0d5f6df2",
+    "GDT061_DY_RENDERER_HOST_ATTRIBUTION_REPORT.md": "1417dc1dc48aaf35117d96ea040d91ef53abf5f60816dfaa1243cd49e3f00f82"
+  },
+  "dy_boundaries": 1298,
+  "f84r": {
+    "joined": false,
+    "opened": false,
+    "queried": false,
+    "retained": false,
+    "scored": false
+  },
+  "generative_update": "The post-DY PAGE_HOST distribution is absorbed by the following wrapper alone; retain DY as a compiler-level checkpoint/renderer transition, not a supported content-host transition.",
+  "implementation": {
+    "run_gdt061_dy_renderer_host_attribution.py": "0f67c99fc3b7daf392a8dadee0b28f89e2d88343c1a0b1ee7b5cf9d17c40a07b"
+  },
+  "inputs": {
+    "gdt055_result.json": "9c40c9bf757691502762c5bccbc686cad89e4405c5542989d36a56ead554de99",
+    "gdt059_result.json": "2908b4e9415131d59eeb20618b3330455362fdfb9aada53e68e8e48707cb6efd",
+    "gdt060_dy_transition_inventory.tsv": "5b7cd2dc877c978f9f984891d892017baea172826a7ecb05e9065378eb333db7",
+    "gdt060_result.json": "afed6d8afa0104b55945eb1d295ac72a43ba7d021a45d121c77b00a7baac6f65"
+  },
+  "outputs": {
+    "gdt061_dy_component_attribution.tsv": "3672c39b5406b0c83ff34a49726c7e698dbc5416bd235e4f6d5b3c3149ff5198",
+    "gdt061_dy_renderer_host_scores.tsv": "c300b25515be10673a635f0976cae1a95e503eb6bc76cc357f91bcfa727f466f",
+    "gdt061_variant_log.tsv": "b51f3f7e733634266c09333c45f03ab1caa58ed0bdc711b1ffc5ec2671abfedc"
+  },
+  "primary_cross_register": {
+    "base_bits": 63912.81205841014,
+    "boundaries": 7409,
+    "dy_bits": 63194.39681490499,
+    "dy_boundaries": 1298,
+    "dy_gain_vs_base": 718.415243505151,
+    "evaluation": "LEAVE_REGISTER_OUT",
+    "renderer_bits": 49930.954192518206,
+    "renderer_control": "FULL_COMPILER",
+    "renderer_dy_bits": 50422.22799666214,
+    "renderer_gain_vs_base": 13981.857865891936,
+    "renderer_gain_vs_dy": 12772.168818242848,
+    "representation": "PAGE_HOST",
+    "residual_dy_gain_per_event": -0.016820988979796513,
+    "residual_dy_gain_vs_renderer": -491.273804143937,
+    "right_events": 29206,
+    "scope": "ALL"
+  },
+  "primary_lofo": {
+    "base_bits": 60734.46232167121,
+    "boundaries": 7409,
+    "dy_bits": 59972.291835474374,
+    "dy_boundaries": 1298,
+    "dy_gain_vs_base": 762.1704861968392,
+    "evaluation": "LEAVE_FOLIO_OUT",
+    "renderer_bits": 45168.0799512375,
+    "renderer_control": "FULL_COMPILER",
+    "renderer_dy_bits": 45459.76854121556,
+    "renderer_gain_vs_base": 15566.382370433712,
+    "renderer_gain_vs_dy": 14512.523294258812,
+    "representation": "PAGE_HOST",
+    "residual_dy_gain_per_event": -0.009987283091764053,
+    "residual_dy_gain_vs_renderer": -291.6885899780609,
+    "right_events": 29206,
+    "scope": "ALL"
+  },
+  "result_content_sha256": "dd7f965aaa92a5863cc0694bc51bd535af88c6e4fbf9dd00cffdd5f357e9d96f",
+  "schema": "GDT061_DY_RENDERER_HOST_ATTRIBUTION_RESULT_V1",
+  "status": "DY_POST_BOUNDARY_HOST_SIGNAL_ABSORBED_BY_FOLLOWING_WRAPPER"
+}
