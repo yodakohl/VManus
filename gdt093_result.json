@@ -1,0 +1,97 @@
+{
+  "claim_ceiling": "Archived representation ablation only; no semantic class, role, gloss, word, morpheme, POS, sound, language, plaintext, meaning, or translation.",
+  "dark_leaf": {
+    "HOST_PLUS_B3": {
+      "delta_vs_page_host_bits": -6.90859254385245,
+      "descriptor": "DARK_LEAF",
+      "gain_bits": -2.5669438093514003,
+      "local_permutation_p": 0.1939612077584483,
+      "loci": 85,
+      "max_search_p": 0.9768046390721855,
+      "positive_loci": 25,
+      "representation": "HOST_PLUS_B3"
+    },
+    "HOST_PLUS_RIGHT": {
+      "delta_vs_page_host_bits": -7.74140381937481,
+      "descriptor": "DARK_LEAF",
+      "gain_bits": -3.3997550848737603,
+      "local_permutation_p": 0.14357128574285144,
+      "loci": 85,
+      "max_search_p": 0.99000199960008,
+      "positive_loci": 25,
+      "representation": "HOST_PLUS_RIGHT"
+    },
+    "HOST_PLUS_WRAPPER": {
+      "delta_vs_page_host_bits": -6.466969594065986,
+      "descriptor": "DARK_LEAF",
+      "gain_bits": -2.125320859564937,
+      "local_permutation_p": 0.27714457108578283,
+      "loci": 85,
+      "max_search_p": 0.9642071585682863,
+      "positive_loci": 25,
+      "representation": "HOST_PLUS_WRAPPER"
+    },
+    "HOST_PLUS_WRAPPER_RIGHT": {
+      "delta_vs_page_host_bits": -6.28810150891357,
+      "descriptor": "DARK_LEAF",
+      "gain_bits": -1.9464527744125206,
+      "local_permutation_p": 0.16796640671865626,
+      "loci": 85,
+      "max_search_p": 0.9584083183363328,
+      "positive_loci": 25,
+      "representation": "HOST_PLUS_WRAPPER_RIGHT"
+    },
+    "PAGE_HOST": {
+      "delta_vs_page_host_bits": 0.0,
+      "descriptor": "DARK_LEAF",
+      "gain_bits": 4.3416487345010495,
+      "local_permutation_p": 0.022795440911817635,
+      "loci": 85,
+      "max_search_p": 0.3635272945410918,
+      "positive_loci": 25,
+      "representation": "PAGE_HOST"
+    }
+  },
+  "descriptors": 8,
+  "documents": {
+    "GDT093_COMPILER_LAYER_REINTRODUCTION_METHOD.md": "1fd470d8a09677b2b11f0af0e127dd67553df5903da8d904057d2b057d4b15a2",
+    "GDT093_COMPILER_LAYER_REINTRODUCTION_REPORT.md": "ba99512e2cd37dd3933ef8d69ffdfef8b19290652c5c57f2964a76775209ff3c"
+  },
+  "f84r": {
+    "joined": false,
+    "opened": false,
+    "queried": false,
+    "retained": false,
+    "scored": false,
+    "targeted": false
+  },
+  "implementation": {
+    "run_gdt089_plant_descriptor_localization.py": "4c0e6527415cc65b951b61189d239b5b6011d295f40e79a712d4df04e7c4dc6a",
+    "run_gdt093_compiler_layer_reintroduction.py": "9ebaa22bf4fa482ac24b9703362de6fc12e549bf10d15a6101143286d6a5d216"
+  },
+  "inputs": {
+    "gdt012_annotated_core_inventory.tsv": "137efc96893220f8d55857b5ffc60f54a4eeb87450b42151b8bdc557e7281525",
+    "gdt059_hpr2_external_inventory.tsv": "3a683e6bf169fb79220693c3b75256588f37ec8e52f788af68ad3de3bb2f83ef",
+    "gdt089_descriptor_manifest.tsv": "e15d20ca266a1d932653a63598dd46cf23ee533a8b644c68e49a49619a330d4f",
+    "gdt089_result.json": "45aeacce6815ab0f2e1b7ea101d6dd629a793da25c7afd46687b04949b284793",
+    "gdt092_result.json": "a26dc19a4e7243486b354aa468848540985e6b70385b20d4676c246d230653ef"
+  },
+  "interpretation": "Compiler-state tokens dilute rather than add to the weak PAGE_HOST visual descriptor signal; content neutrality remains unconfirmed.",
+  "loci": 85,
+  "outputs": {
+    "gdt093_layer_scores.tsv": "51852a4e7edcc98ec5653feec29c76475754d5dd54ddff3c925a244396f37d92",
+    "gdt093_null_results.tsv": "52a219fc3b289f7784292e379b07735285fe3ea080af90853c666d4106dd9c22"
+  },
+  "page_host_best_axes": 5,
+  "representations": [
+    "PAGE_HOST",
+    "HOST_PLUS_WRAPPER",
+    "HOST_PLUS_RIGHT",
+    "HOST_PLUS_B3",
+    "HOST_PLUS_WRAPPER_RIGHT"
+  ],
+  "result_content_sha256": "d144ae7b1e418ebd880fceba80af492f235a4269740fc1fc8513591073b6a581",
+  "scanned_cells": 40,
+  "schema": "GDT093_COMPILER_LAYER_REINTRODUCTION_RESULT_V1",
+  "status": "COMPILER_LAYERS_DILUTE_PAGE_HOST_DARK_LEAF_SIGNAL"
+}
