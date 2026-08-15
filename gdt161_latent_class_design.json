@@ -1,0 +1,54 @@
+{
+  "schema": "GDT161_LATENT_OPERATION_CLASS_DESIGN_V1",
+  "status": "FROZEN_BEFORE_LATENT_CLASS_SCORING",
+  "seed": 1610032026,
+  "pair_cell_folds": 5,
+  "operation_folds_per_side": 5,
+  "k_grid": [1, 2, 4, 8, 16, 32],
+  "block_beta_prior": 0.5,
+  "logistic_ridge": 1.0,
+  "coclustering_iterations": 12,
+  "top20_null_worlds": 1024,
+  "top20_null": "RIGHT_LABEL_SWITCH_LENGTH_EXACT",
+  "target": "VOYNICH_MATCHED",
+  "comparators": [
+    "LATIN_MEDICAL_GRAPHEMATIC",
+    "LATIN_15C_GRAPHEMATIC",
+    "LATIN_SCHOLASTIC_GRAPHEMATIC",
+    "IFORAL_1395_1411_GRAPHEMATIC",
+    "LATIN_GERMAN_APOTHECARY_LATE15"
+  ],
+  "models": [
+    "GLOBAL",
+    "HOST_PROFILE_LOGIT",
+    "DEGREE_LOGIT",
+    "HOST_BLOCK",
+    "COMPAT_BLOCK"
+  ],
+  "forbidden_model_inputs": [
+    "operation_literal",
+    "operation_family_subtype",
+    "old_edge_string",
+    "new_edge_string",
+    "host_characters",
+    "host_length",
+    "EVA_or_display_glyph_identity"
+  ],
+  "inputs": {
+    "gdt003_structural_fingerprint_corpora.json.gz": "7b4dfe4e14f613856578e10085df2423ec60a0f72dafa14fc08cd2d0cd89ca03",
+    "gdt159_diplomatic_corpora.json.gz": "b1a06f205c309848f2d2c43212a4f24419f060f73eab7f9d1d18dc25e459303e",
+    "gdt160_result.json": "d5d71304f2977714581f77835272dda6451040c54b30152f292a3c80775c0c6a",
+    "gdt160_fold_decomposition.tsv": "a874b2ffa91a1b138840a59ede17033f773f90c2767d769bd5a8f6c9926cdc09",
+    "gdt160_pair_excess.tsv": "92925232a8c137251ae6be8fcfebccdf1ebcbb5fedfd38d473f6fb3667cdd70e",
+    "gdt160_null_design.json": "e10dc156f58e2fc3bdf2bb91cf6cafbbf35a57ac139e5c7c44954f5e1424cb18",
+    "run_gdt003_nested_heldout.py": "3f44cad0ecad49ab3caf8021429e3cfac9abb517018f9e1da7d7f2412c6a3e4c",
+    "run_gdt160_compatibility_pairing_null.py": "a7173c62b631b3e9272bc18cfa6388603ea9f4a6146ad4cff8ee93001209e058"
+  },
+  "f84r": {
+    "opened": false,
+    "queried": false,
+    "retained": false,
+    "joined": false,
+    "scored": false
+  }
+}
