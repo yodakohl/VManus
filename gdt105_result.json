@@ -1,0 +1,171 @@
+{
+  "best_model": "FINAL_CHAR",
+  "claim_ceiling": "Formal edge grammar only; no word, morpheme, POS, sound, language, plaintext, role, gloss, meaning, or translation.",
+  "documents": {
+    "GDT105_UNIVERSAL_HOST_EDGE_GRAMMAR_METHOD.md": "3a81e78079f6fdd57c673faa41eae28c2c661ca5a1fd546854b1a09f29132ce5",
+    "GDT105_UNIVERSAL_HOST_EDGE_GRAMMAR_REPORT.md": "888b80086bd7215bd7eee7746bfbfeab4da2f9dea1dbbecc74ef1e9203978a4b"
+  },
+  "f84r": {
+    "joined": false,
+    "opened": false,
+    "queried": false,
+    "retained": false,
+    "scored": false,
+    "targeted": false
+  },
+  "generative_revision": "PAGE_HOST := CONTENT_ADDRESS + EDGE_STATE; EDGE_STATE licenses the following renderer.",
+  "groups": 15592,
+  "implementation": {
+    "run_gdt105_universal_host_edge_grammar.py": "ed8dec84d83446bc9dcae92b4ee6d5dcad728e37f1c934cf73ad77ad81a179bc"
+  },
+  "inputs": {
+    "gdt062_result.json": "52828ee0e450cbfb72b7037164610da0c882469ff2ba42b118991f3967dd436a",
+    "gdt062_right_family_inventory.tsv": "b0292332157524a7f5e0745bde74c38432c52e3f2dd7ae816677f0ea743ca1cc",
+    "gdt102_result.json": "ecb06cbe6299916528cd5b4b0a7bb3daafa47d518c5ac0d966703a664713eafb"
+  },
+  "interpretation": "Final PAGE_HOST character is a universal renderer-licensing edge state, not a PCH-specific factor; content status of the residual remains unproved.",
+  "leave_register_rows": 30,
+  "models": {
+    "EXACT_PAGE_HOST": {
+      "feature": "host",
+      "gain_vs_register_bits": 9947.646058652155,
+      "groups": 15592,
+      "leave_folio_bits": 11617.194168916934,
+      "model": "EXACT_PAGE_HOST",
+      "physical_folios": 94,
+      "positive_folios_vs_register": 77,
+      "semantic_role": "UNASSIGNED"
+    },
+    "FINAL_CHAR": {
+      "feature": "last",
+      "gain_vs_register_bits": 15561.557301592817,
+      "groups": 15592,
+      "leave_folio_bits": 6003.282925976272,
+      "model": "FINAL_CHAR",
+      "physical_folios": 94,
+      "positive_folios_vs_register": 94,
+      "semantic_role": "UNASSIGNED"
+    },
+    "FINAL_TWO": {
+      "feature": "last2",
+      "gain_vs_register_bits": 15037.200371052379,
+      "groups": 15592,
+      "leave_folio_bits": 6527.63985651671,
+      "model": "FINAL_TWO",
+      "physical_folios": 94,
+      "positive_folios_vs_register": 94,
+      "semantic_role": "UNASSIGNED"
+    },
+    "FIRST_CHAR": {
+      "feature": "first",
+      "gain_vs_register_bits": 2294.546973807064,
+      "groups": 15592,
+      "leave_folio_bits": 19270.293253762025,
+      "model": "FIRST_CHAR",
+      "physical_folios": 94,
+      "positive_folios_vs_register": 86,
+      "semantic_role": "UNASSIGNED"
+    },
+    "HOST_LENGTH": {
+      "feature": "length",
+      "gain_vs_register_bits": 1991.109488603488,
+      "groups": 15592,
+      "leave_folio_bits": 19573.7307389656,
+      "model": "HOST_LENGTH",
+      "physical_folios": 94,
+      "positive_folios_vs_register": 82,
+      "semantic_role": "UNASSIGNED"
+    },
+    "REGISTER_ONLY": {
+      "feature": "constant",
+      "gain_vs_register_bits": 0.0,
+      "groups": 15592,
+      "leave_folio_bits": 21564.84022756909,
+      "model": "REGISTER_ONLY",
+      "physical_folios": 94,
+      "positive_folios_vs_register": 0,
+      "semantic_role": "UNASSIGNED"
+    }
+  },
+  "outputs": {
+    "gdt105_edge_model_scores.tsv": "9e00dc96eeed8d099019d5251c8584cd1986dec2f5be41e2a56d5b5f10d395d6",
+    "gdt105_leave_register_scores.tsv": "68301e53a594d35c06c5b7ad01fad8d97a7e5220c146f26d416fddeff5694661",
+    "gdt105_nonpch_to_pch_transfer.tsv": "3ebb08abe5f8751fbd95afb179c87d4f1ae8d63c5ca93639d9b898b095b698db"
+  },
+  "pch_best_model": "FINAL_CHAR",
+  "pch_groups": 331,
+  "pch_transfer": {
+    "EXACT_PAGE_HOST": {
+      "gain_vs_register_bits": 0.0,
+      "model": "EXACT_PAGE_HOST",
+      "semantic_role": "UNASSIGNED",
+      "test_bits": 519.9639829415486,
+      "test_groups": 331,
+      "test_scope": "PCH_ONLY",
+      "train_groups": 15261,
+      "train_scope": "ALL_NON_PCH"
+    },
+    "FINAL_CHAR": {
+      "gain_vs_register_bits": 395.35101075245825,
+      "model": "FINAL_CHAR",
+      "semantic_role": "UNASSIGNED",
+      "test_bits": 124.61297218909036,
+      "test_groups": 331,
+      "test_scope": "PCH_ONLY",
+      "train_groups": 15261,
+      "train_scope": "ALL_NON_PCH"
+    },
+    "FINAL_TWO": {
+      "gain_vs_register_bits": 380.2133910068741,
+      "model": "FINAL_TWO",
+      "semantic_role": "UNASSIGNED",
+      "test_bits": 139.7505919346745,
+      "test_groups": 331,
+      "test_scope": "PCH_ONLY",
+      "train_groups": 15261,
+      "train_scope": "ALL_NON_PCH"
+    },
+    "FIRST_CHAR": {
+      "gain_vs_register_bits": -31.098909948147025,
+      "model": "FIRST_CHAR",
+      "semantic_role": "UNASSIGNED",
+      "test_bits": 551.0628928896956,
+      "test_groups": 331,
+      "test_scope": "PCH_ONLY",
+      "train_groups": 15261,
+      "train_scope": "ALL_NON_PCH"
+    },
+    "HOST_LENGTH": {
+      "gain_vs_register_bits": -9.800781746403231,
+      "model": "HOST_LENGTH",
+      "semantic_role": "UNASSIGNED",
+      "test_bits": 529.7647646879518,
+      "test_groups": 331,
+      "test_scope": "PCH_ONLY",
+      "train_groups": 15261,
+      "train_scope": "ALL_NON_PCH"
+    },
+    "REGISTER_ONLY": {
+      "gain_vs_register_bits": 0.0,
+      "model": "REGISTER_ONLY",
+      "semantic_role": "UNASSIGNED",
+      "test_bits": 519.9639829415486,
+      "test_groups": 331,
+      "test_scope": "PCH_ONLY",
+      "train_groups": 15261,
+      "train_scope": "ALL_NON_PCH"
+    }
+  },
+  "physical_folios": 94,
+  "renderer_counts": {
+    "B3": 309,
+    "BARE": 9653,
+    "DY": 2642,
+    "DY_RIGHT": 25,
+    "RIGHT": 2963
+  },
+  "result_content_sha256": "2c47ade414a34df6c5e2f3b464693400fa8c446736b49c078d3777a6953042ce",
+  "schema": "GDT105_UNIVERSAL_HOST_EDGE_GRAMMAR_RESULT_V1",
+  "semantic_role": "UNASSIGNED",
+  "status": "UNIVERSAL_FINAL_CHARACTER_RENDERER_GRAMMAR_DOMINATES_EXACT_PAGE_HOST"
+}
