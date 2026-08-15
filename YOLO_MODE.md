@@ -99,3 +99,21 @@ medieval controls must be sourced and committed before target scoring. A
 system-level match is never a language, origin, authorship, direct-copy,
 plaintext, or translation result; compatibility and cultural specificity must
 be reported separately.
+
+## Medieval abbreviation positive controls
+
+Single-`PAGE_HOST` visual-gloss mining is paused.  The next semantic-layer
+calibration uses independently readable medieval texts with diplomatic and
+expanded transcriptions.  Discovery sees only diplomatic surface forms,
+anonymous abbreviation-site markers, and document boundaries.  Expansion
+letters, regularized plaintext, functional document divisions, and modern
+descriptions remain hidden until the parser, representations, retrieval rule,
+and evaluation family are frozen.
+
+Positive-control success does not transfer a German word or abbreviation into
+Voynichese.  It measures which HPR2-like effects are expected when a real
+abbreviated natural language is stripped into recurrent outer, local, host,
+right-edge, and record-boundary layers.  Synthetic Voynich-style abbreviation
+of the readable controls must distinguish effects imposed by the encoder from
+effects recovered without using the expansion truth.  No f84-prefixed source
+row or artifact may be read by this route.
