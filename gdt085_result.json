@@ -1,0 +1,80 @@
+{
+  "claim_ceiling": "No content, semantic class, role, gloss, word, morpheme, POS, sound, language, plaintext, meaning, or translation.",
+  "complete_renderer_cells": 20,
+  "dimension_summaries": {
+    "DY": {
+      "factor_gain_vs_neighbor": -25.19282211441744,
+      "factor_gain_vs_pool": -29.330545384895387,
+      "same_base_gain_vs_pool": -1.6505331730843367
+    },
+    "POSITION": {
+      "factor_gain_vs_neighbor": -222.09124526409596,
+      "factor_gain_vs_pool": -202.52823055214094,
+      "same_base_gain_vs_pool": -31.164837986290124
+    },
+    "REGISTER": {
+      "factor_gain_vs_neighbor": -177.7334049620779,
+      "factor_gain_vs_pool": -266.56105136334344,
+      "same_base_gain_vs_pool": -3.848398731220243
+    },
+    "RIGHT_FAMILY": {
+      "factor_gain_vs_neighbor": -591.1423116281749,
+      "factor_gain_vs_pool": -682.1205094004139,
+      "same_base_gain_vs_pool": -4.365388757208692
+    },
+    "WRAPPER": {
+      "factor_gain_vs_neighbor": 620.6872163409396,
+      "factor_gain_vs_pool": 489.0190779600067,
+      "same_base_gain_vs_pool": 195.3988704994987
+    }
+  },
+  "documents": {
+    "GDT085_PAGE_HOST_2X2_FACTOR_ALGEBRA_METHOD.md": "2c8193107ce2bf1f54e5aad8b3c687b96b2ad3d80d19ff0e1a28607ac42279eb",
+    "GDT085_PAGE_HOST_2X2_FACTOR_ALGEBRA_REPORT.md": "352eab0970d891ad61514f999dad6b3108ddfb30496c22cd4f50419396d315b3"
+  },
+  "f84r": {
+    "joined": false,
+    "opened": false,
+    "queried": false,
+    "retained": false,
+    "scored": false,
+    "targeted": false
+  },
+  "grammar_refinement": {
+    "base_function": "strong formal WRAPPER-licensing coordinate",
+    "page_host": "BASE(o/y) + TERMINAL(k/t)",
+    "right_family": "whole-host and register conditioned; not factor-independent",
+    "terminal_function": "unresolved formal contrast"
+  },
+  "hosts": [
+    "ok",
+    "ot",
+    "yk",
+    "yt"
+  ],
+  "implementation": {
+    "run_gdt085_page_host_2x2_factor_algebra.py": "57e652926d82228187e92a8bb48c405304967c7fbf79368807c46bbfbe3c05f6"
+  },
+  "inputs": {
+    "gdt003_nested_result.json": "e2247485111cca89d2431a0d8fe3ea09e94a5e795c0a305a37e0f0d6100b3174",
+    "gdt062_right_family_inventory.tsv": "b0292332157524a7f5e0745bde74c38432c52e3f2dd7ae816677f0ea743ca1cc",
+    "gdt081_result.json": "1e4dbb918ceb2d436c10688b50a7a8d23ded5fe52df33490b01b74e248aa2e24",
+    "gdt084_result.json": "04c439e0a6dea8247c41bbcbdd9a9aaad0f6cecda8b133df30f3de4ad3b69ddf"
+  },
+  "limitations": [
+    "postselected rectangle",
+    "global held-cell rather than held-folio scoring",
+    "two-sign parser surfaces",
+    "GDT003 general algebra not above string baselines"
+  ],
+  "outputs": {
+    "gdt085_held_cell_scores.tsv": "d39bea873a6d839f1c84efb2a922ff5c218ea0cbbb4fccedd1915d22b4853374",
+    "gdt085_host_renderer_cells.tsv": "fe2fa6aa501b94b6cef779df40929f38b205a43e77f187bdfc2bb39f4f838dbb",
+    "gdt085_matched_rectangle_scan.tsv": "3ed80eb1f2670ecf6edf84532dbb5f56dd56c24c8088abe5339134733afe26e8"
+  },
+  "result_content_sha256": "116b071e6f8c151dd584bb60aee5b7bc5a60297c54e7b280c8a664ee08d1e952",
+  "schema": "GDT085_PAGE_HOST_2X2_FACTOR_ALGEBRA_RESULT_V1",
+  "status": "O_Y_HOST_AXIS_PREDICTS_WRAPPER_LICENSE_BUT_FULL_TWO_SLOT_INDEPENDENCE_FAILS",
+  "threshold10_rectangles": 6,
+  "threshold10_target_rank": 1
+}
