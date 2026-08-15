@@ -1,0 +1,101 @@
+{
+  "best_models": {
+    "HOST_REGISTER_FACTOR": {
+      "bits_per_group": 2.71982433044666,
+      "groups": 15592,
+      "held_bits": 42407.50096032432,
+      "joint_backoff": "NA",
+      "model": "HOST_REGISTER_FACTOR",
+      "register_backoff": 16,
+      "selector_bits": 2.321928094887362,
+      "selector_configurations": 5,
+      "selector_paid_bits": 42409.822888419214
+    },
+    "RIGHT_GIVEN_WRAPPER": {
+      "bits_per_group": 2.7177624841741523,
+      "groups": 15592,
+      "held_bits": 42375.35265324338,
+      "joint_backoff": 64,
+      "model": "RIGHT_GIVEN_WRAPPER",
+      "register_backoff": 16,
+      "selector_bits": 4.643856189774724,
+      "selector_configurations": 25,
+      "selector_paid_bits": 42379.99650943316
+    },
+    "WRAPPER_GIVEN_RIGHT": {
+      "bits_per_group": 2.71981135227167,
+      "groups": 15592,
+      "held_bits": 42407.29860461988,
+      "joint_backoff": 256,
+      "model": "WRAPPER_GIVEN_RIGHT",
+      "register_backoff": 16,
+      "selector_bits": 4.643856189774724,
+      "selector_configurations": 25,
+      "selector_paid_bits": 42411.94246080965
+    }
+  },
+  "claim_ceiling": "No semantic class, role, gloss, word, morpheme, POS, sound, language, plaintext, meaning, or translation.",
+  "documents": {
+    "GDT077_WRAPPER_RIGHT_CONDITIONAL_COMPATIBILITY_METHOD.md": "3301d312a86eedb4966229231108ea87462c88446a75ab5b81101b3cfd2c7192",
+    "GDT077_WRAPPER_RIGHT_CONDITIONAL_COMPATIBILITY_REPORT.md": "542189d3254685ddb2dd0c094decfec68310a6d714efd34050a6d6a9d1573bf4"
+  },
+  "f84r": {
+    "joined": false,
+    "opened": false,
+    "queried": false,
+    "retained": false,
+    "scored": false,
+    "targeted": false
+  },
+  "grid": [
+    1,
+    4,
+    16,
+    64,
+    256
+  ],
+  "groups": 15592,
+  "implementation": {
+    "run_gdt077_wrapper_right_conditional_compatibility.py": "de7d36ce883e058dddfc9c95318354f0944f898f29d5da4360f310877eb3c82c"
+  },
+  "inputs": {
+    "gdt062_result.json": "52828ee0e450cbfb72b7037164610da0c882469ff2ba42b118991f3967dd436a",
+    "gdt062_right_family_inventory.tsv": "b0292332157524a7f5e0745bde74c38432c52e3f2dd7ae816677f0ea743ca1cc",
+    "gdt064_result.json": "6dbe5eb872a24b91a1cbb9808e90c293acd6e8ca4c84360c385da6c50f71ec82",
+    "gdt066_result.json": "8b9a2f2150fcb99bdc4d040f88c4c3a10241893a5bf70edb00d1a1cc3b381150",
+    "gdt076_result.json": "b6b530a084aa338532319e7e927a95e0fed2efd7cec54c80b2c9039d9ecd0974"
+  },
+  "interpretation": "Weak asymmetric formal compatibility after PAGE_HOST and register; not fully independent slots and not whole-form memorization.",
+  "outputs": {
+    "gdt077_model_scores.tsv": "03ddbd895276d4c08c4ebc22cc3f09c5c651ace0a779d73e8cb68a9c0de7b475",
+    "gdt077_register_scores.tsv": "70a2f8499211ca27c7c31104784351aadb871f1c065d4b18e01940b0f7d8ba25",
+    "gdt077_variant_log.tsv": "0483227746ad20409b4636c186cafbe01ebdec8b633ab0f1028f0e3222b8ed81"
+  },
+  "preferred_generation_order": "WRAPPER -> PAGE_HOST -> RIGHT_FAMILY",
+  "result_content_sha256": "5464095e8c8a49742b027839456c8cdb87e1bc2c90d1d7d9126bfdc2004306ad",
+  "right_family_states": [
+    "NONE",
+    "aiin",
+    "ain",
+    "air",
+    "al",
+    "ar"
+  ],
+  "right_given_wrapper_fully_paid_gain_bits": 28.826378986057534,
+  "right_given_wrapper_positive_registers": 2,
+  "right_given_wrapper_selector_paid_gain_bits": 29.826378986057534,
+  "schema": "GDT077_WRAPPER_RIGHT_CONDITIONAL_COMPATIBILITY_RESULT_V1",
+  "status": "WRAPPER_WEAK_REGISTER_DEPENDENTLY_CONDITIONS_RIGHT_FAMILY",
+  "wrapper_given_right_positive_registers": 3,
+  "wrapper_given_right_selector_paid_gain_bits": -2.1195723904384067,
+  "wrapper_states": [
+    "NONE",
+    "ch",
+    "che",
+    "d",
+    "q",
+    "s",
+    "sh",
+    "t"
+  ]
+}
