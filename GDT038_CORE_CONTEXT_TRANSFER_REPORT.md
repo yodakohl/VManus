@@ -4,7 +4,7 @@
 
 **DAM_FIELD_ROLE_PROVISIONAL_LOW_CAPACITY; DAIIN_STATE_ONLY; OKAM/ODAIN_SECTION_CONDITIONED**
 
-Every one of the 65 Herbal-B or Currier-B Stars/Recipe occurrences is aligned as preceding field and immediate state → observed wrapper+core → immediate state and following field. Fields are segmented only by the frozen GDT016 `DY_RESOLUTION` state.
+Every one of the 65 Herbal-B or Currier-B Stars/Recipe occurrences is aligned as preceding field and immediate state → observed wrapper+core → immediate state and following field. Fields are segmented only by the frozen GDT016 `DY_RESOLUTION` state. GDT016 contains strict consensus prose groups, not every alternative-bearing physical group; the export now distinguishes retained-line completeness and secure physical line end. Inventory-relative field positions on incomplete lines are not silently called complete physical contexts.
 
 | Core | HB/S occurrences | HB/S folios | target-state overlap | local-context median overlap | Worst LOFO state overlap | Decision |
 |---|---:|---:|---:|---:|---:|---|
@@ -22,7 +22,7 @@ All 23 DAIIN occurrences—6 Herbal-B and 17 S, spread across 4 and 5 folios—a
 
 ### DAM
 
-All eight DAM occurrences are `CARRIER_STATE`: four `ch|dam` in Herbal-B and three `ch|dam` plus one `che|dam` in S. More importantly, every occurrence is in the final open field of its line; five are at the open-field end and three are internal. The target-state overlap is 1.000, field-position and combined field-role overlap are each 0.600, and next-field shape is identically `EOL`. Exact neighbours remain variable, and only 3 Herbal-B versus 2 S physical folios support the pattern. DAM is the best provisional abstract field-role lead, explicitly low-capacity and renderer-dependent.
+All eight DAM occurrences are `CARRIER_STATE`: four `ch|dam` in Herbal-B and three `ch|dam` plus one `che|dam` in S. Every occurrence lies in the final open field of the **retained strict-consensus inventory**; five are secure physical line ends and three are internal. Six occurrences lie on fully retained lines and all six preserve final-open-field placement. The target-state overlap is 1.000, field-position and combined field-role overlap are each 0.600, and next-field shape is identically `EOL` in the retained sequence. Exact neighbours remain variable, and only 3 Herbal-B versus 2 S physical folios support the pattern. DAM is the best provisional abstract field-role lead, explicitly low-capacity, renderer-dependent, and subject to the retained-line caveat.
 
 ### OKAM
 

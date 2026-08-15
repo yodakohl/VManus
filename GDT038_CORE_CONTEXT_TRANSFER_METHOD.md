@@ -20,6 +20,14 @@ Each physical line is split after every `DY_RESOLUTION` group. For every target 
 
 Nothing crosses a physical line. Final material without a DY resolution is explicitly `OPEN`.
 
+GDT016 contains only strict, all-reading-consensus prose groups. It may omit
+alternative-bearing groups while preserving their original `group_index` and
+`group_count`. Accordingly, the occurrence export records retained-group
+count, exact completeness of the retained physical line, and whether the
+target is the source-native physical final group. Field templates on an
+incomplete retained line are explicitly inventory-relative and are not a
+claim that no omitted group intervenes.
+
 ## Comparison
 
 Eleven declared categorical context views are compared separately for each core: target state, wrapper, field position, field role, previous and next state, previous and next field shape, immediate micro-context, masked field template, and neighbouring-field context.

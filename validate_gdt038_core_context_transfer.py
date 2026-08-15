@@ -66,6 +66,10 @@ def reconstruct_occurrences(source_rows):
         sec = section(line[0])
         if sec not in {"HB", "SB"}:
             continue
+        physical_count = int(line[0]["group_count"])
+        indices = {int(row["group_index"]) for row in line}
+        line_complete = (len(line) == physical_count and
+                         indices == set(range(1, physical_count + 1)))
         fields, current = [], []
         for index, row in enumerate(line):
             current.append((index, row))
@@ -117,7 +121,11 @@ def reconstruct_occurrences(source_rows):
                 "locus": locus, "page": row["page"],
                 "physical_folio": row["physical_folio"], "section": sec,
                 "hand": row["hand"], "group_index": row["group_index"],
-                "group_count": row["group_count"], "token": row["token"],
+                "group_count": row["group_count"],
+                "retained_group_count": str(len(line)),
+                "retained_line_complete": str(int(line_complete)),
+                "physical_line_end": str(int(int(row["group_index"]) == physical_count)),
+                "token": row["token"],
                 "wrapper": row["stripped_prefix"], "core": core,
                 "wrapper_core": row["stripped_prefix"] + "|" + core,
                 "target_state": row["record_state"],
@@ -253,9 +261,13 @@ def main():
     checks["all_comparison_metrics_independently_reconstructed"] = numeric_exact
     checks["daiin_dam_carrier_state_exact"] = state_claims
     dam = [row for row in expected_occ if row["core"] == "dam"]
-    checks["dam_final_open_field_pattern"] = (len(dam) == 8 and
+    checks["dam_inventory_final_open_field_pattern"] = (len(dam) == 8 and
         all(row["next_field_shape"] == "EOL" and row["field_closed"] == "0" for row in dam) and
-        Counter(row["field_position"] for row in dam) == {"OPEN_FIELD_END": 5, "FIELD_INTERNAL": 3})
+        Counter(row["field_position"] for row in dam) == {"OPEN_FIELD_END": 5, "FIELD_INTERNAL": 3} and
+        sum(row["retained_line_complete"] == "1" for row in dam) == 6 and
+        sum(row["physical_line_end"] == "1" for row in dam) == 5 and
+        all(row["next_field_shape"] == "EOL" and row["field_closed"] == "0"
+            for row in dam if row["retained_line_complete"] == "1"))
 
     expected_clusters = []
     for core in CORES:
@@ -299,9 +311,12 @@ def main():
     checks["implementation_hash"] = all(
         sha(ROOT / name) == digest for name, digest in result["implementation"].items())
     checks["f84_flags_false"] = not any(result["f84r"].values())
+    checks["coverage_counts_bound"] = (result["coverage"]["dam"] == {
+        "complete_line_occurrences": 6, "physical_line_end_occurrences": 5})
     report = (ROOT / "GDT038_CORE_CONTEXT_TRANSFER_REPORT.md").read_text()
     checks["claim_ceiling_and_dependency_disclosed"] = (
         "No concrete function" in report and "independent role evidence" in report
+        and "retained strict-consensus inventory" in report
         and "f84r was not opened" in report)
     ledger = read(LEDGER)
     entries = [row for row in ledger if row["checkpoint_id"] == "GDT038_CKPT001"]
@@ -311,6 +326,10 @@ def main():
         entries[0]["holdout_page"] == "f84r" and
         entries[0]["discovery_pages"] ==
         "65_OCCURRENCES_4_CORES_21_PHYSICAL_FOLIOS_11_CONTEXT_VIEWS")
+    corrections = [row for row in ledger if row["checkpoint_id"] == "GDT038_CKPT002"]
+    checks["coverage_correction_ledgered"] = (len(corrections) == 1 and
+        corrections[0]["status"] ==
+        "CORRECTED_INVENTORY_RELATIVE_FIELD_CONTEXT_NO_DECISION_CHANGE")
     passed = all(checks.values())
     validation = {
         "schema": "GDT038_CORE_CONTEXT_TRANSFER_VALIDATION_V1",

@@ -40,9 +40,27 @@
       "sb_occurrences": 10
     }
   },
+  "coverage": {
+    "daiin": {
+      "complete_line_occurrences": 18,
+      "physical_line_end_occurrences": 2
+    },
+    "dam": {
+      "complete_line_occurrences": 6,
+      "physical_line_end_occurrences": 5
+    },
+    "odain": {
+      "complete_line_occurrences": 12,
+      "physical_line_end_occurrences": 4
+    },
+    "okam": {
+      "complete_line_occurrences": 6,
+      "physical_line_end_occurrences": 11
+    }
+  },
   "documents": {
-    "GDT038_CORE_CONTEXT_TRANSFER_METHOD.md": "24efa8eb94d47f75c8cd31f80a7e26b1181b021569e1d7a2952b3bd8a34a6523",
-    "GDT038_CORE_CONTEXT_TRANSFER_REPORT.md": "4f2e94142ef9c78d0b12cb62a3705235cd27c4e26304ea0922781a84d31b5d62"
+    "GDT038_CORE_CONTEXT_TRANSFER_METHOD.md": "68772a05270e2f97a8e7c6f39e8c501f50253d6d7b68b1ca6e1d49343b2d271f",
+    "GDT038_CORE_CONTEXT_TRANSFER_REPORT.md": "b566fdcd98bda5cd3d27f944ba40dfd91bb8830308b84b814f8f70afb20dd87f"
   },
   "f84r": {
     "joined": false,
@@ -65,9 +83,9 @@
     "neighbor_field_context"
   ],
   "implementation": {
-    "run_gdt038_core_context_transfer.py": "e7b65835379e980ce0c6e8e17bd29acdb4889dfe9a8152ea0d5d87a2c58fdf36"
+    "run_gdt038_core_context_transfer.py": "bcfcbd120c85f4ef67ce3caa9c537fb9ce872d86800fd4f9dd2b53960bcb7d3e"
   },
-  "important_dependency": "GDT016 CARRIER_STATE is induced from the ch/che/sh renderer family. DAIIN/DAM state invariance is therefore not independent evidence beyond wrapper stability; field position and neighbors are tested separately.",
+  "important_dependency": "GDT016 CARRIER_STATE is induced from the ch/che/sh renderer family. DAIIN/DAM state invariance is therefore not independent evidence beyond wrapper stability; field position and neighbors are tested separately. GDT016 retains only strict consensus prose groups, so field templates are inventory-relative on incomplete lines.",
   "inputs": {
     "gdt016_group_state_inventory.tsv": "e109ce15864ed6b6f76d446b3c96d6190a0dc53d20d8ab0944554124e687234c",
     "gdt016_result.json": "aaa96a3be942bc1eab6587d5362922f3f16ec2beea7f520d47e190c32df80c2c",
@@ -76,10 +94,10 @@
   "occurrences": 65,
   "outputs": {
     "gdt038_context_clusters.tsv": "3c7156672a609a40eef992bcfca822225882b257179c94e6b18b4380133295d9",
-    "gdt038_occurrence_contexts.tsv": "23891260182ea14f0eb6b2a9de9dfaa4ac35cc87451f198661dfa4ddb3690dd6",
+    "gdt038_occurrence_contexts.tsv": "1cbf9e9e594063a24d434ea1c50def2734b328b89d18a091a8eab8c0d77753fc",
     "gdt038_role_comparison.tsv": "8e83d68f37419e98bba457d432bb84f935843df74ee588d1be5719d3d36b7897"
   },
-  "result_content_sha256": "c1959f401a5dab17a184e9e3008ca976766787d5d9745ebb4592b083b2d397b2",
+  "result_content_sha256": "3bf11a34931c1cfc8b6039d2a18723e972e41d1ca846d88e55d138ce477a4ad8",
   "schema": "GDT038_CORE_CONTEXT_TRANSFER_RESULT_V1",
   "scope": "Full available formal local contexts for exact residual cores DAIIN, DAM, OKAM, ODAIN in Herbal-B versus Currier-B Stars/Recipe S.",
   "status": "DAM_FIELD_ROLE_PROVISIONAL_LOW_CAPACITY_DAIIN_STATE_ONLY_OKAM_ODAIN_SECTION_CONDITIONED"
