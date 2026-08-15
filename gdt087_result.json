@@ -1,0 +1,77 @@
+{
+  "claim_ceiling": "Parser-dependent formal construction licensing only; no semantic class, role, gloss, word, morpheme, POS, sound, language, plaintext, meaning, or translation.",
+  "classifications": {
+    "CH_FAMILY": "REGISTER_CONDITIONED_Y_LEANING",
+    "D": "Y_BASE_LICENSED",
+    "NONE": "DESCRIPTIVE_COMPLEMENT",
+    "Q": "O_BASE_LICENSED",
+    "S": "CONDITIONALLY_COMPATIBLE"
+  },
+  "d_o_exceptions": 14,
+  "documents": {
+    "GDT087_OPERATOR_HOST_COMPATIBILITY_METHOD.md": "a67726dc47b1fb61edd843fa65677704fcb7d1ec8458b613f1cb39f6638b3ca0",
+    "GDT087_OPERATOR_HOST_COMPATIBILITY_REPORT.md": "8747f77db5366543af2dfee1c1d777cdfc2323232da334b0b49c46c32632f1c5"
+  },
+  "f84r": {
+    "joined": false,
+    "opened": false,
+    "queried": false,
+    "retained": false,
+    "scored": false,
+    "targeted": false
+  },
+  "grammar_refinement": "OUTER_WRAPPER compatibility is constrained by PAGE_HOST base: q selects O; d selects Y; ch/che/sh and s remain register-conditional.",
+  "groups": 4641,
+  "implementation": {
+    "run_gdt087_operator_host_compatibility.py": "3d4ea83428bcf3f6e2bd1e0e2c2425299bf9d0aa6fa6194b5155b7758964a6f5"
+  },
+  "inputs": {
+    "gdt003_nested_result.json": "e2247485111cca89d2431a0d8fe3ea09e94a5e795c0a305a37e0f0d6100b3174",
+    "gdt062_right_family_inventory.tsv": "b0292332157524a7f5e0745bde74c38432c52e3f2dd7ae816677f0ea743ca1cc",
+    "gdt086_result.json": "5b680b654df60e939e523c6c8155c72d09b5982513ee26eaa4c8d75406ee493e"
+  },
+  "matched_tails": 42,
+  "outputs": {
+    "gdt087_operator_counterexamples.tsv": "f20daad821331786f4dc4ae92adfef333a2e42981da2c3e42cc748db5b22fa5d",
+    "gdt087_wrapper_base_cells.tsv": "f9f2aa571e837fa36a1feac86e3ad06a25070ff2cd454292a30d5035e218a327",
+    "gdt087_wrapper_model_scores.tsv": "80ced59685eaf87d1018004887d5c081b9e5d1b1b378fdeda5b92d5c7111b9b6",
+    "gdt087_wrapper_register_gains.tsv": "923506df28b689eae651542a9cb81f25df0a674bc1367a0d89c7af2038b07da9"
+  },
+  "physical_folios": 93,
+  "q_y_exceptions": 42,
+  "result_content_sha256": "3b66add1b45f63f3a499b4a2ff31fc963905ee482385f61c439b41c8ed55ff37",
+  "schema": "GDT087_OPERATOR_HOST_COMPATIBILITY_RESULT_V1",
+  "selected_models": {
+    "CH_FAMILY": {
+      "gain_bits": 30.111262418015713,
+      "lambda": 16,
+      "positive_registers": 4,
+      "selector_paid_gain_bits": 27.78933432312835
+    },
+    "D": {
+      "gain_bits": 65.08205727159691,
+      "lambda": 1,
+      "positive_registers": 5,
+      "selector_paid_gain_bits": 62.76012917670955
+    },
+    "NONE": {
+      "gain_bits": 82.12781674923508,
+      "lambda": 4,
+      "positive_registers": 4,
+      "selector_paid_gain_bits": 79.80588865434771
+    },
+    "Q": {
+      "gain_bits": 122.33048340979258,
+      "lambda": 1,
+      "positive_registers": 5,
+      "selector_paid_gain_bits": 120.00855531490521
+    },
+    "S": {
+      "gain_bits": 16.27623062919696,
+      "lambda": 1,
+      "positive_registers": 4,
+      "selector_paid_gain_bits": 13.954302534309598
+    }
+  },
+  "status": "Q_AND_D_FORM_COMPLEMENTARY_O_Y_HOST_LICENSING_SYSTEM"
+}
