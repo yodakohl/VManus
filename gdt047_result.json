@@ -1,0 +1,66 @@
+{
+  "claim_ceiling": "Post-attribution formal residual host ranking only; no word, morpheme, POS, sound, language, plaintext, meaning, or translation.",
+  "documents": {
+    "GDT047_POST_ATTRIBUTION_CORE_ATLAS_METHOD.md": "ce385f95238bbd2c41c473de9ab737f5d19c0c5dea7cf1696c8b29a455e337f7",
+    "GDT047_POST_ATTRIBUTION_CORE_ATLAS_REPORT.md": "7575da0a7cbb8e3d752a6f014cad0d5ec0731b5818caa418891f4c1a2202eb9e"
+  },
+  "eligible_cores": 48,
+  "f84r": {
+    "joined": false,
+    "opened": false,
+    "queried": false,
+    "retained": false,
+    "scored": false
+  },
+  "filtered_groups": 11277,
+  "implementation": {
+    "run_gdt047_post_attribution_core_atlas.py": "55d8f470bd0184473d98b494d102a7ef2bdf6fa8651aa99c74492cf803e6f817"
+  },
+  "inputs": {
+    "gdt012_annotated_core_inventory.tsv": "137efc96893220f8d55857b5ffc60f54a4eeb87450b42151b8bdc557e7281525",
+    "gdt012_result.json": "827dff4a77aae1e621301d2faa296d24913a82d46360b1c6e98fce43b922890c",
+    "gdt016_group_state_inventory.tsv": "e109ce15864ed6b6f76d446b3c96d6190a0dc53d20d8ab0944554124e687234c",
+    "gdt016_result.json": "aaa96a3be942bc1eab6587d5362922f3f16ec2beea7f520d47e190c32df80c2c",
+    "gdt037_result.json": "243c03f924f563f855b013d098215400b6227e26ed0f57d6017a859864c26876",
+    "gdt041_result.json": "6105790dee83737ad58234367ae3eaa383c763c275bc238149f806574cc3aacc",
+    "gdt043_result.json": "f4f6cd2958c05afcaf75c146fc91485ba1f8161e02b82666fa6ff5ab41c3bf2f",
+    "gdt045_result.json": "8d6a55b8e722af5deabdbd943785ec453a08b92f491a9804f46c901050ab248e"
+  },
+  "known_mechanisms_subtracted": [
+    "RIGHT_EDGE_DY",
+    "TERMINAL_M_B3",
+    "CARRIER_PLUS_D_DOUBLE"
+  ],
+  "outputs": {
+    "gdt047_residual_core_atlas.tsv": "2d7b1c0b4ddf4d9d8059620453c375ef3e758f9bd33a2a7af1083929d8e2b2a7",
+    "gdt047_visual_counterexamples.tsv": "bbe56021858ba52b2b122740ce27b67a02340be082e476cd24595ef383166cbb"
+  },
+  "result_content_sha256": "0c08d3caf32ddab2a994e1f381fc4fd01e39b2f14e642716cefdf7a939333749",
+  "schema": "GDT047_POST_ATTRIBUTION_CORE_ATLAS_RESULT_V1",
+  "status": "OKAIR_TOP_POST_ATTRIBUTION_RESIDUAL_HOST_UNGROUNDED",
+  "top_residual": {
+    "annotated_folios": 0,
+    "annotated_groups": 0,
+    "annotated_object_classes": "",
+    "annotated_relation_classes": "",
+    "core": "okair",
+    "formal_attribution": "UNATTRIBUTED_RESIDUAL",
+    "grounding_state": "UNGROUNDED_NO_ANNOTATED_LABEL_HIT",
+    "ha_count": 0,
+    "hb_count": 3,
+    "hb_folios": 3,
+    "hb_sb_abs_log2_rate_difference": 0.8841038975816385,
+    "lofo_min_ha": 3.309596361874957,
+    "lofo_min_ob": 0.7534115103580727,
+    "min_log2_enrichment_vs_ha": 3.9339245259904176,
+    "min_log2_specificity_vs_ob": 1.3777396744735333,
+    "ob_count": 2,
+    "rank": 1,
+    "rank_score": 6.869612251673131,
+    "sb_count": 7,
+    "sb_folios": 5,
+    "target_states": "Q_OUTER_STATE:5;OTHER:5",
+    "target_wrappers": "q:5;NONE:5"
+  },
+  "unattributed_robust_cores": 2
+}
