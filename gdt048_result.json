@@ -1,0 +1,150 @@
+{
+  "claim_ceiling": "Reusable source-formal right-family selection only; no morpheme, function, word, POS, sound, language, plaintext, meaning, or translation.",
+  "documents": {
+    "GDT048_AIR_RIGHT_FAMILY_SELECTION_METHOD.md": "3151274c2684cb93716736288c8e42654b4eb232aa35e52db3898416f34e6ac1",
+    "GDT048_AIR_RIGHT_FAMILY_SELECTION_REPORT.md": "bb9ac93269a582d680042ae7201bcbea037e3cd02379184fb3f1f00c0de55f33"
+  },
+  "eligible_groups": 2235,
+  "f84r": {
+    "joined": false,
+    "opened": false,
+    "queried": false,
+    "retained": false,
+    "scored": false
+  },
+  "implementation": {
+    "run_gdt048_air_right_family_selection.py": "575e08774cb7570fb7295d4c71ec82b8cb418ac9140bdedaba7f46b3dd49b71c"
+  },
+  "inputs": {
+    "gdt016_group_state_inventory.tsv": "e109ce15864ed6b6f76d446b3c96d6190a0dc53d20d8ab0944554124e687234c",
+    "gdt047_result.json": "513181d1380ea72f58ddba82fda0611b031b06d3a9cc4424ed079d148a415142"
+  },
+  "lofo": [
+    {
+      "log2_rate_ratio": 1.2032212028683766,
+      "physical_folio": "f104"
+    },
+    {
+      "log2_rate_ratio": 0.8649424136105477,
+      "physical_folio": "f105"
+    },
+    {
+      "log2_rate_ratio": 1.2859427979022309,
+      "physical_folio": "f106"
+    },
+    {
+      "log2_rate_ratio": 1.3983131818944319,
+      "physical_folio": "f107"
+    },
+    {
+      "log2_rate_ratio": 1.3306500491525852,
+      "physical_folio": "f108"
+    },
+    {
+      "log2_rate_ratio": 1.3132255522956358,
+      "physical_folio": "f111"
+    },
+    {
+      "log2_rate_ratio": 1.29070631948245,
+      "physical_folio": "f112"
+    },
+    {
+      "log2_rate_ratio": 1.3760827971330296,
+      "physical_folio": "f113"
+    },
+    {
+      "log2_rate_ratio": 1.1201643723340433,
+      "physical_folio": "f114"
+    },
+    {
+      "log2_rate_ratio": 1.2680852020830717,
+      "physical_folio": "f115"
+    },
+    {
+      "log2_rate_ratio": 1.246272382982084,
+      "physical_folio": "f31"
+    },
+    {
+      "log2_rate_ratio": 1.2348049855616121,
+      "physical_folio": "f40"
+    },
+    {
+      "log2_rate_ratio": 1.2644654997480538,
+      "physical_folio": "f50"
+    },
+    {
+      "log2_rate_ratio": 1.2242205462368907,
+      "physical_folio": "f55"
+    },
+    {
+      "log2_rate_ratio": 1.2571606991248205,
+      "physical_folio": "f94"
+    }
+  ],
+  "lofo_min_log2_rate_ratio": 0.8649424136105477,
+  "nonok_table": {
+    "control_air": 17,
+    "control_other": 628,
+    "fisher_p": 0.011760908847249174,
+    "odds_ratio": 2.0865362833194894,
+    "target_air": 44,
+    "target_other": 779
+  },
+  "ok_table": {
+    "control_air": 2,
+    "control_other": 387,
+    "fisher_p": 0.019872439826841497,
+    "odds_ratio": 5.258152173913044,
+    "target_air": 10,
+    "target_other": 368
+  },
+  "ok_vs_nonok_interaction": {
+    "log_odds_ratio_difference": 0.9242742568354559,
+    "two_sided_p": 0.26574508967290544,
+    "z": 1.112914644950253
+  },
+  "ok_wrapper_stratified": {
+    "observed_target_air": 10,
+    "strata": [
+      {
+        "air_n": 6,
+        "control_n": 109,
+        "observed_target_air": 5,
+        "target_n": 182,
+        "wrapper": "NONE"
+      },
+      {
+        "air_n": 6,
+        "control_n": 280,
+        "observed_target_air": 5,
+        "target_n": 196,
+        "wrapper": "q"
+      }
+    ],
+    "two_sided_p": 0.034193748769483695
+  },
+  "outputs": {
+    "gdt048_air_occurrences.tsv": "16edabc5d54b13cb2ab7fbe8bd9227f558a26d6d976eac16150c692f75b1dd62",
+    "gdt048_air_selection_by_base.tsv": "9b74defd289f37cd0f955c930c1b2c287fb1678049025edf7b7baec0cc0d701f"
+  },
+  "overall_table": {
+    "control_air": 19,
+    "control_other": 1015,
+    "fisher_p": 0.00046069016634281066,
+    "odds_ratio": 2.5150277612077274,
+    "target_air": 54,
+    "target_other": 1147
+  },
+  "result_content_sha256": "ead75467f112d187c98fbd018b138ed4b6ece18f7f174bea679a765e52976d4c",
+  "right_family": [
+    "aiin",
+    "air",
+    "ain",
+    "ar",
+    "al"
+  ],
+  "schema": "GDT048_AIR_RIGHT_FAMILY_SELECTION_RESULT_V1",
+  "status": "AIR_IS_BS_ENRICHED_RIGHT_FAMILY_NOT_OK_SPECIFIC",
+  "target_air_bases": 27,
+  "target_air_folios": 15
+}
