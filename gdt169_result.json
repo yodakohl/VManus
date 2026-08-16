@@ -1,0 +1,166 @@
+{
+  "aggregate": {
+    "ALL_SCORABLE": {
+      "host_mean_z": -0.10406316037895691,
+      "host_positive_pairs": 17,
+      "host_top_decile_pairs": 3,
+      "pairs": 38,
+      "subset": "ALL_SCORABLE",
+      "tuple_mean_z": 0.08852720105385548,
+      "tuple_minus_host_mean_z": 0.19259036143281238,
+      "tuple_positive_pairs": 18,
+      "tuple_top_decile_pairs": 3,
+      "tuple_z_exceeds_host_z_pairs": 21
+    },
+    "ASSERTED_SAME_OR_STRONG": {
+      "host_mean_z": 0.41413777889509457,
+      "host_positive_pairs": 8,
+      "host_top_decile_pairs": 1,
+      "pairs": 11,
+      "subset": "ASSERTED_SAME_OR_STRONG",
+      "tuple_mean_z": 0.4169619033826333,
+      "tuple_minus_host_mean_z": 0.00282412448753873,
+      "tuple_positive_pairs": 8,
+      "tuple_top_decile_pairs": 1,
+      "tuple_z_exceeds_host_z_pairs": 6
+    },
+    "CROSS_SOURCE_CORROBORATED": {
+      "host_mean_z": 0.27651630328029986,
+      "host_positive_pairs": 7,
+      "host_top_decile_pairs": 0,
+      "pairs": 10,
+      "subset": "CROSS_SOURCE_CORROBORATED",
+      "tuple_mean_z": 0.44436845594880836,
+      "tuple_minus_host_mean_z": 0.16785215266850848,
+      "tuple_positive_pairs": 7,
+      "tuple_top_decile_pairs": 1,
+      "tuple_z_exceeds_host_z_pairs": 6
+    },
+    "HERBAL_TO_PHARMA": {
+      "host_mean_z": -0.2581830933370014,
+      "host_positive_pairs": 13,
+      "host_top_decile_pairs": 0,
+      "pairs": 31,
+      "subset": "HERBAL_TO_PHARMA",
+      "tuple_mean_z": -0.014567246983047413,
+      "tuple_minus_host_mean_z": 0.243615846353954,
+      "tuple_positive_pairs": 13,
+      "tuple_top_decile_pairs": 2,
+      "tuple_z_exceeds_host_z_pairs": 18
+    },
+    "INTERNAL_HERBAL": {
+      "host_mean_z": 0.578467971292383,
+      "host_positive_pairs": 4,
+      "host_top_decile_pairs": 3,
+      "pairs": 7,
+      "subset": "INTERNAL_HERBAL",
+      "tuple_mean_z": 0.5450883280744253,
+      "tuple_minus_host_mean_z": -0.03337964321795767,
+      "tuple_positive_pairs": 5,
+      "tuple_top_decile_pairs": 1,
+      "tuple_z_exceeds_host_z_pairs": 3
+    },
+    "LOCALLY_OWNED_QUERY_PAIR": {
+      "host_mean_z": 0.2659762335564248,
+      "host_positive_pairs": 4,
+      "host_top_decile_pairs": 0,
+      "pairs": 5,
+      "subset": "LOCALLY_OWNED_QUERY_PAIR",
+      "tuple_mean_z": 0.511654513366278,
+      "tuple_minus_host_mean_z": 0.24567827980985318,
+      "tuple_positive_pairs": 4,
+      "tuple_top_decile_pairs": 0,
+      "tuple_z_exceeds_host_z_pairs": 3
+    }
+  },
+  "candidate_pairs": 40,
+  "claim_ceiling": "Exploratory anonymous external-referent formal-invariance atlas only; no object identity, role, word, code value, meaning, plaintext, or translation.",
+  "documents": {
+    "GDT169_EXTERNAL_REFERENT_TUPLE_METHOD.md": "17c0018cb9c2b4a3bb237f1d2928ecdea50827661e89142c7ede0db5304a133e",
+    "GDT169_EXTERNAL_REFERENT_TUPLE_REPORT.md": "eadb9173dd9ab68af4762f43c5c9f34c3bfe15f6b5d4498572d49fe890bb1656"
+  },
+  "f84": {
+    "image_access": false,
+    "rejected_other_f84_rows": 228,
+    "retained_joined_scored_rows": 0,
+    "source_f84r_rows": 0
+  },
+  "implementation": {
+    "run_gdt169_external_referent_tuple.py": "6f0e7bccbed074a86f0ba931a42f92965ef41ce3baedbf3762d093d26da841e9"
+  },
+  "inputs": {
+    "gdt062_right_family_inventory.tsv": "b0292332157524a7f5e0745bde74c38432c52e3f2dd7ae816677f0ea743ca1cc",
+    "gdt152_relation_queries.tsv": "ce16c7207b7838efd4abe589e644b40d6966cb1751e8ea151d4b2dfeb4326a93",
+    "gdt169_external_referent_candidates.tsv": "e142868eff28e055d79087eb88772db4ae7021b1394d7896f7f638d9ed20c2f0",
+    "gdt169_external_referent_source_audit.json": "90ec92053be33eac4db832ad10155806581ecfd4c3a506177689daf6910feebf"
+  },
+  "interpretation": "Whole-page PAGE_HOST overlap is modestly more invariant than the exact full record tuple, but zero of five locally owned/provisional queries matches either representation on its paired Herbal page.",
+  "local_query_exact_hits": {
+    "full_tuple": 0,
+    "page_host": 0
+  },
+  "local_query_pairs": 5,
+  "null": [
+    {
+      "dependency_caveat": "PAIR_DRAWS_DO_NOT_REMOVE_SHARED_PAGE_OR_SOURCE_DEPENDENCE",
+      "local_p": 0.73675,
+      "max_two_p": 0.8689,
+      "observed_mean_z": -0.10406316037895691,
+      "pairs": 38,
+      "representation": "PAGE_HOST",
+      "seed": 169168,
+      "worlds": 20000
+    },
+    {
+      "dependency_caveat": "PAIR_DRAWS_DO_NOT_REMOVE_SHARED_PAGE_OR_SOURCE_DEPENDENCE",
+      "local_p": 0.2903,
+      "max_two_p": 0.4311,
+      "observed_mean_z": 0.08852720105385548,
+      "pairs": 38,
+      "representation": "FULL_TUPLE",
+      "seed": 169168,
+      "worlds": 20000
+    }
+  ],
+  "outputs": {
+    "gdt169_aggregate_summary.tsv": "e4ad37eca48694e8577d7e9a511a59f3945a69f26511cc76903a32f4b386d66e",
+    "gdt169_counterexamples.tsv": "8c27d5d78c51a3eec90090a0d34542118042c17211ebcbc582aa3a57bf2dae84",
+    "gdt169_local_query_scores.tsv": "2d95860f017bcd0eaeab168e984b090a6b1763b313a7698d109511a1cd8defe0",
+    "gdt169_null_results.tsv": "75e33494f4edbb54a68a3fbc7ddc7fd0cf40181c8f15c38b61a6d4ddf56e9f2b",
+    "gdt169_referent_tuple_scores.tsv": "8230e1ef129af63e075d85f915d6ebecb313987d11f516449bb2050c7c445e24"
+  },
+  "representations": [
+    "PAGE_HOST",
+    "POSITION_WRAPPER_HOST_RIGHT_CLOSURE_TUPLE"
+  ],
+  "result_content_sha256": "4aaba30af41ba15728516ce55bddb1470b74c92f812914c99b54a973bc624d3e",
+  "schema": "GDT169_EXTERNAL_REFERENT_TUPLE_RESULT_V1",
+  "scorable_page_pairs": 38,
+  "source_access_correction": {
+    "artifact": "gdt169_source_access_correction.json",
+    "sha256": "bf5a6b676edecc2769c88003e2627d81a738d2e6dea6fc6552cc16aefe00c113"
+  },
+  "status": "NO_REPLICATED_EXTERNAL_REFERENT_INVARIANCE",
+  "top_formal_candidate_ids": [
+    "MHI005",
+    "GDT151_HP019",
+    "MHI007",
+    "GDT151_HP011",
+    "GDT151_HP028",
+    "GDT151_HP029",
+    "MHI006",
+    "MHI001"
+  ],
+  "top_provenance_candidate_ids": [
+    "GDT151_HP004",
+    "GDT151_HP005",
+    "GDT151_HP007",
+    "GDT151_HP017",
+    "GDT151_HP021",
+    "GDT151_HP006",
+    "GDT151_HP011",
+    "GDT151_HP019",
+    "GDT151_HP020",
+    "MHI001"
+  ]
+}

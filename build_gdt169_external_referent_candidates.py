@@ -11,10 +11,10 @@ R = Path(__file__).resolve().parent
 HP = R / "gdt151_relation_inventory.tsv"
 MHI = R / "experiments/semantic_assumptions/cache/existing_human_annotations/manual_herbal_internal_relations.tsv"
 JSP = R / "experiments/semantic_assumptions/cache/existing_human_annotations/stolfi_2025_internal_plant_pairs.tsv"
-PAGES = R / "experiments/semantic_assumptions/results/existing_human_page_annotations.tsv"
 LOCAL = R / "gdt152_relation_queries.tsv"
 OUT = R / "gdt169_external_referent_candidates.tsv"
 AUDIT = R / "gdt169_external_referent_source_audit.json"
+CORRECTION = R / "gdt169_source_access_correction.json"
 
 
 def read(path):
@@ -69,8 +69,6 @@ def main():
     assert len(good_jsp) == 10
     jsp_by_pair = {(x["first_page"], x["second_page_current"]): x for x in good_jsp}
 
-    page_rows = {x["page"]: x for x in read(PAGES) if not x["page"].startswith("f84")}
-
     local_all = [x for x in read(LOCAL) if not x["label_locus"].startswith("f84") and not x["target_page"].startswith("f84")]
     by_local = defaultdict(list)
     for row in local_all:
@@ -116,7 +114,7 @@ def main():
             "source_physical_folio": folio(pair[0]), "target_physical_folio": folio(pair[1]),
             "relation_class": x["relation_class"], "component": x["component"],
             "assertion_strength": x["strength"], "primary_provenance": "EXISTING_HUMAN_ANNOTATION_VOYNICH_NU",
-            "primary_source_url": page_rows[pair[0]]["source_url"], "human_statement_sha256": hashlib.sha256(statement.encode()).hexdigest(),
+            "primary_source_url": "SOURCE_BOUND_MANUAL_HERBAL_ATLAS_NO_INLINE_URL", "human_statement_sha256": hashlib.sha256(statement.encode()).hexdigest(),
             "cross_source_corroborated": int(corroborated),
             "corroboration_id": jsp_by_pair[pair]["relation_id"] if corroborated else "NONE",
             "corroboration_independence": "POTENTIALLY_DERIVED_UNKNOWN" if corroborated else "ONE_SOURCE_ONLY",
@@ -147,7 +145,7 @@ def main():
 
     audit = {
         "schema": "GDT169_EXTERNAL_REFERENT_SOURCE_AUDIT_V1",
-        "status": "FROZEN_40_SOURCE_BOUND_RELATION_PAIRS_BEFORE_FORMAL_SCORING",
+        "status": "CORRECTED_FROZEN_40_SOURCE_BOUND_RELATION_PAIRS_BEFORE_FORMAL_SCORING",
         "candidate_pairs": 40, "herbal_pharma_pairs": 32, "internal_herbal_pairs": 8,
         "cross_source_corroborated_pairs": sum(int(x["cross_source_corroborated"]) for x in candidates),
         "locally_owned_query_pairs": sum(x["local_query_locus"] != "NONE" for x in candidates),
@@ -160,8 +158,16 @@ def main():
             "f80r_f82r_repeated_figures": "PROXIMITY_ONLY_WITH_NO_REPEATED_REFERENT_IDENTITY",
             "f106r_star_paragraphs": "NO_AUTHORIAL_ONE_TO_ONE_STAR_TO_PARAGRAPH_BINDING",
         },
-        "f84": {"rows_retained": 0, "formal_payload_accessed": False, "image_accessed": False},
-        "inputs": {str(p.relative_to(R)): sha(p) for p in (HP, MHI, JSP, PAGES, LOCAL)},
+        "f84": {
+            "corrected_final_inputs_contain_f84_rows": False,
+            "rows_retained_or_used_for_selection": 0,
+            "formal_payload_accessed": False,
+            "image_accessed": False,
+            "superseded_builder_transient_human_catalogue_read": True,
+            "superseded_read_used_for_selection_or_scoring": False,
+        },
+        "source_access_correction": {"artifact": CORRECTION.name, "sha256": sha(CORRECTION)},
+        "inputs": {str(p.relative_to(R)): sha(p) for p in (HP, MHI, JSP, LOCAL, CORRECTION)},
         "implementation": {Path(__file__).name: sha(Path(__file__))},
         "outputs": {OUT.name: sha(OUT)},
         "claim_ceiling": "Source-bound external-referent candidate ranking only; no identity, role, word, code value, meaning, plaintext, or translation.",

@@ -4,13 +4,16 @@
   "claim_ceiling": "Source-bound external-referent candidate ranking only; no identity, role, word, code value, meaning, plaintext, or translation.",
   "cross_source_corroborated_pairs": 10,
   "f84": {
+    "corrected_final_inputs_contain_f84_rows": false,
     "formal_payload_accessed": false,
     "image_accessed": false,
-    "rows_retained": 0
+    "rows_retained_or_used_for_selection": 0,
+    "superseded_builder_transient_human_catalogue_read": true,
+    "superseded_read_used_for_selection_or_scoring": false
   },
   "herbal_pharma_pairs": 32,
   "implementation": {
-    "build_gdt169_external_referent_candidates.py": "9c7a80a24567cf21ba63cb70c39250381d8f25c51778fb2ac14422cbdd67a8c8"
+    "build_gdt169_external_referent_candidates.py": "6cc6cc5b087eb6bc2fc3535dec46882361bf96907eff2651a2400d7c5db12bde"
   },
   "inadmissible_layout_near_misses": {
     "f106r_star_paragraphs": "NO_AUTHORIAL_ONE_TO_ONE_STAR_TO_PARAGRAPH_BINDING",
@@ -21,18 +24,22 @@
   "inputs": {
     "experiments/semantic_assumptions/cache/existing_human_annotations/manual_herbal_internal_relations.tsv": "8cfaed94f7b05693dbe79173bc8da2637d6bed69badb9dd23698e28941e2530e",
     "experiments/semantic_assumptions/cache/existing_human_annotations/stolfi_2025_internal_plant_pairs.tsv": "53248c1ab2a50ec43a56ecee0bb22478a890a00f38671c75882620d8c5d28230",
-    "experiments/semantic_assumptions/results/existing_human_page_annotations.tsv": "b358f244cbe853448dd5c32dbc04004cb8ce63d9a8c5ed5afe2a679a115d87fa",
     "gdt151_relation_inventory.tsv": "8736d15cb3fab1b7f0e26862e0ed266efa01181508db1ccb241b197bf58814c4",
-    "gdt152_relation_queries.tsv": "ce16c7207b7838efd4abe589e644b40d6966cb1751e8ea151d4b2dfeb4326a93"
+    "gdt152_relation_queries.tsv": "ce16c7207b7838efd4abe589e644b40d6966cb1751e8ea151d4b2dfeb4326a93",
+    "gdt169_source_access_correction.json": "bf5a6b676edecc2769c88003e2627d81a738d2e6dea6fc6552cc16aefe00c113"
   },
   "internal_herbal_pairs": 8,
   "locally_owned_query_pairs": 5,
   "new_visual_observations": 0,
   "outputs": {
-    "gdt169_external_referent_candidates.tsv": "2fb21e5c45f40a19302e2350ed1550dcec1227ca3322ddce8263314f6956bdce"
+    "gdt169_external_referent_candidates.tsv": "e142868eff28e055d79087eb88772db4ae7021b1394d7896f7f638d9ed20c2f0"
   },
-  "result_content_sha256": "b916ca15d98163561fb9d0371a00cb422fe4d8b7d6c296719c01a51f7f61393a",
+  "result_content_sha256": "b7d1bc477b7217c97c87136bb4ff7abcae8f4a1b9e15d48e07b99e4558418dd2",
   "schema": "GDT169_EXTERNAL_REFERENT_SOURCE_AUDIT_V1",
   "selection_used_voynich_strings": false,
-  "status": "FROZEN_40_SOURCE_BOUND_RELATION_PAIRS_BEFORE_FORMAL_SCORING"
+  "source_access_correction": {
+    "artifact": "gdt169_source_access_correction.json",
+    "sha256": "bf5a6b676edecc2769c88003e2627d81a738d2e6dea6fc6552cc16aefe00c113"
+  },
+  "status": "CORRECTED_FROZEN_40_SOURCE_BOUND_RELATION_PAIRS_BEFORE_FORMAL_SCORING"
 }

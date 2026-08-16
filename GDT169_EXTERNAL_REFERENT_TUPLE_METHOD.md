@@ -35,6 +35,14 @@ Derived copies of the same human assertion are not counted twice.  Every
 `f84*` row is rejected before any descriptive or formal field is retained.
 No image is opened and no new visual observation is made.
 
+Access correction: the first published freeze builder loaded the global human
+page-annotation table before filtering it solely to recover MHI source URLs.
+That transient read included the f84r human-catalogue row, although no f84
+description entered selection, output, formal features, or scoring.  The
+corrected builder removes the global table completely and binds the exact
+superseded commit/file hashes in `gdt169_source_access_correction.json`.  No
+f84 transcription, formal payload, or image was accessed.
+
 ## Fixed formal comparison
 
 The scorer streams the existing f84-free selection through the one published
@@ -55,7 +63,11 @@ overlap.
 
 For each locally owned label, the scorer separately asks whether its exact
 host and exact complete tuple occur anywhere on the paired Herbal page.  These
-five queries are kept separate from whole-page bags.
+five queries are kept separate from whole-page bags.  GDT062 does not retain
+the diagnostic label rows themselves, so a label's position slot may be
+unavailable.  In that case the complete tuple is scored as absent only when
+its exact PAGE_HOST is itself absent (the tuple is a strict refinement of that
+host); a host-positive query without a label slot would be left unscored.
 
 Candidate priority is frozen from provenance only: local ownership,
 cross-source corroboration, same-object versus resemblance wording, physical

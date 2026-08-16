@@ -53,6 +53,15 @@ Updated: 2026-08-16. Read this file first, then
   renderer alignment are not lexical proof. The next useful discriminator
   needs an independent content or referent endpoint rather than another
   host-neighbor likelihood.
+- The complete permitted external-referent census does not yet supply that
+  endpoint. Forty human-nominated plant/fragment/component pairs yield 38
+  scorable whole-page comparisons, but neither exact PAGE_HOST nor the full
+  slot/wrapper/host/right/closure tuple has replicated matched-page excess.
+  More decisively, none of five singular/provisional local label queries
+  retains its exact PAGE_HOST on the paired Herbal page, so no exact full tuple
+  can be retained either. Keep the provenance-ranked atlas, stop host-neighbor
+  diagnostics, and require a new source-bound, separately owned repeated
+  referent before testing a lexical or distributed address again.
 
 ## Confirmed structural baseline
 
