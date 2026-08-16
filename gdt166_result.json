@@ -1,0 +1,295 @@
+{
+  "capacity": {
+    "context_focals": {
+      "PARAGRAPH_BAG": 8447,
+      "WHOLE_LINE": 15203,
+      "WINDOW_PM2": 15203
+    },
+    "exact_hosts": 1873,
+    "frame_rejected": 21,
+    "frame_total": 1164,
+    "lines": 2431,
+    "paragraphs": 288,
+    "physical_folios": 93,
+    "retained_source_groups": 15364,
+    "source_rejected": 228,
+    "source_total": 15592
+  },
+  "claim_ceiling": "No word, lexeme, code value, morpheme, POS, language, semantic role, meaning, plaintext, or translation.",
+  "decision_inputs": {
+    "any_held_folio_positive": false,
+    "neighbor_stable_all_splits": false,
+    "passing_context_modes": []
+  },
+  "documents": {
+    "GDT166_OPAQUE_HOST_DISTRIBUTIONAL_CONTEXT_METHOD.md": "3f65fba6c27046f6639ae72cc3e9b95b91458386e044bb5f7df8f316f4fa3e34",
+    "GDT166_OPAQUE_HOST_DISTRIBUTIONAL_CONTEXT_REPORT.md": "17b65b9e17c37eed061fa244a713057aca1b9aed6f76b29922a50303a8906d89"
+  },
+  "f84r": {
+    "joined": false,
+    "opened": false,
+    "queried": false,
+    "retained": false,
+    "scored": false
+  },
+  "implementation": {
+    "run_gdt166_opaque_host_distributional_context.py": "c34cb1020308478b338b60c1008c9aa9a83bb0a95ed4cf6302127945521c2851"
+  },
+  "inputs": {
+    "gdt046_line_frames.tsv": "4c8a8486ec39c2d138b865c950ebaff038f1db1e3668219105893d6b04f92511",
+    "gdt062_right_family_inventory.tsv": "b0292332157524a7f5e0745bde74c38432c52e3f2dd7ae816677f0ea743ca1cc",
+    "gdt165_directed_relations.tsv": "e0b0761a8ddf54d387a616c2b05fdbf4bea0e5dec0af4ff7de194bdfa1e0a84e",
+    "gdt165_result.json": "96483b518b02fe3dfb36a1e2702ce955cf1ec99dec4d5e729c61a3b2f027d64e",
+    "gdt166_design.json": "8611a47672f1add1fc309199420e5c3cbb14544aaff5a63e1e2b3d979cdbb790"
+  },
+  "interpretation": "Parser-independent opaque exact-host distributional dependence only; no fixed-order assumption.",
+  "neighbor": {
+    "context_panel": 256,
+    "focal_panel": 64,
+    "stable_all_splits": false,
+    "summary": {
+      "HELD_FOLIO": {
+        "axis": "HELD_FOLIO",
+        "claim_state": "OPAQUE_DISTRIBUTIONAL_NEIGHBOR_NO_LEXEME_OR_MEANING",
+        "eligible_folds": 69,
+        "excess_mrr": 0.045149963133230164,
+        "local_p": 0.000975609756097561,
+        "max3_p": 0.002926829268292683,
+        "mean_reciprocal_rank": 0.27649856124256833,
+        "null_mean": 0.23134859810933817,
+        "predictions": 446,
+        "swappable_predictions": 418,
+        "top1": 43,
+        "top5": 199
+      },
+      "HELD_HAND": {
+        "axis": "HELD_HAND",
+        "claim_state": "OPAQUE_DISTRIBUTIONAL_NEIGHBOR_NO_LEXEME_OR_MEANING",
+        "eligible_folds": 5,
+        "excess_mrr": 0.013459028853995025,
+        "local_p": 0.17268292682926828,
+        "max3_p": 0.35024390243902437,
+        "mean_reciprocal_rank": 0.11671613641785059,
+        "null_mean": 0.10325710756385556,
+        "predictions": 158,
+        "swappable_predictions": 158,
+        "top1": 4,
+        "top5": 22
+      },
+      "HELD_SECTION": {
+        "axis": "HELD_SECTION",
+        "claim_state": "OPAQUE_DISTRIBUTIONAL_NEIGHBOR_NO_LEXEME_OR_MEANING",
+        "eligible_folds": 6,
+        "excess_mrr": 0.02081227505703441,
+        "local_p": 0.05170731707317073,
+        "max3_p": 0.1326829268292683,
+        "mean_reciprocal_rank": 0.12796149671529833,
+        "null_mean": 0.10714922165826392,
+        "predictions": 195,
+        "swappable_predictions": 194,
+        "top1": 7,
+        "top5": 32
+      }
+    }
+  },
+  "null_capacity": {
+    "PARAGRAPH_BAG": {
+      "swappable": 6890,
+      "variable": 6802
+    },
+    "WHOLE_LINE": {
+      "swappable": 13621,
+      "variable": 13561
+    },
+    "WINDOW_PM2": {
+      "swappable": 13621,
+      "variable": 13561
+    }
+  },
+  "outputs": {
+    "gdt166_context_fold_scores.tsv": "3117659dd1148973410d04df72971232ee3557d359c7e9fe40c9e77685eeab15",
+    "gdt166_context_inventory.tsv": "b6782d5f510e0ddac5248eb4e7b6559c342e7e4346caaf66991274cb8b313bc3",
+    "gdt166_context_null.tsv": "8dfbef418ce9327a69ffc4668924b2bdd474dec62ce15c2729de8b7d9b6d8aba",
+    "gdt166_context_scores.tsv": "2d4fb09dacc253d2bcbda3437d4da9d337be583ec83f42af6bf812bb6ca099f5",
+    "gdt166_counterexamples.tsv": "93cb79690bcd3936e5bf28a6f8b3aec596c86613083bd4b4e8139743e525084d",
+    "gdt166_neighbor_null.tsv": "1950725d71918c67eda8ce51b97ee85a8729fe8c67785d6ff6165e9a10ab0c68",
+    "gdt166_neighbor_relations.tsv": "3a8795117e158a7b249c1899442abe850dd24f8438e0f27fe365254d6981fdf3",
+    "gdt166_neighbor_stability.tsv": "f511511a2cd0ad5b009eea5ebe2b3b64027a1db94656c68d288cf9aaae13aa1b",
+    "gdt166_variant_log.tsv": "8dfabe190b5d3a6dba1549e9a19d58d9241ece2e18f83026b7ed4df9d59e1db6"
+  },
+  "passing_context_modes": [],
+  "result_content_sha256": "c8993303d162d2ac44f18cc4faa40ea8c969cef3f49dae771644a6ce16cff97f",
+  "schema": "GDT166_OPAQUE_HOST_DISTRIBUTIONAL_CONTEXT_RESULT_V1",
+  "scores": {
+    "PARAGRAPH_BAG:HELD_FOLIO": {
+      "alignment_excess_per_focal": 0.0010360885732556002,
+      "axis": "HELD_FOLIO",
+      "claim_state": "OPAQUE_CONTEXT_DISTRIBUTION_NO_LEXEME_OR_MEANING",
+      "context_mode": "PARAGRAPH_BAG",
+      "focal_occurrences": 8447,
+      "folds": 91,
+      "gain_bits": -2912.6182847297678,
+      "gain_per_focal": -0.34481097250263615,
+      "gain_without_ok_y_bits": -2915.539652195404,
+      "host_bits": 71218.65419394875,
+      "local_p": 0.13170731707317074,
+      "max3_p": 0.6741463414634147,
+      "nuisance_bits": 68306.03590921898,
+      "null_mean_gain_per_focal": -0.34584706107589175,
+      "ok_y_gain_bits": 2.9213674656362945,
+      "ok_y_weight": 28.41920867085502,
+      "positive_folds": 0,
+      "source_seen_fraction": 0.9067124422872026,
+      "unigram_bits": 65594.08493532911
+    },
+    "PARAGRAPH_BAG:HELD_HAND": {
+      "axis": "HELD_HAND",
+      "claim_state": "OPAQUE_CONTEXT_DISTRIBUTION_NO_LEXEME_OR_MEANING",
+      "context_mode": "PARAGRAPH_BAG",
+      "focal_occurrences": 8447,
+      "folds": 5,
+      "gain_bits": -2546.7931115140595,
+      "gain_per_focal": -0.30150267686919136,
+      "gain_without_ok_y_bits": -2552.4247284320722,
+      "host_bits": 71525.75357659248,
+      "nuisance_bits": 68978.96046507849,
+      "ok_y_gain_bits": 5.631616918012432,
+      "ok_y_weight": 28.41920867085503,
+      "positive_folds": 0,
+      "source_seen_fraction": 0.8790102995146206,
+      "unigram_bits": 68030.3752536922
+    },
+    "PARAGRAPH_BAG:HELD_SECTION": {
+      "axis": "HELD_SECTION",
+      "claim_state": "OPAQUE_CONTEXT_DISTRIBUTION_NO_LEXEME_OR_MEANING",
+      "context_mode": "PARAGRAPH_BAG",
+      "focal_occurrences": 8447,
+      "folds": 6,
+      "gain_bits": -2645.328474472913,
+      "gain_per_focal": -0.3131678080351501,
+      "gain_without_ok_y_bits": -2647.9430288756066,
+      "host_bits": 71504.66424812595,
+      "nuisance_bits": 68859.33577365307,
+      "ok_y_gain_bits": 2.614554402693338,
+      "ok_y_weight": 28.419208670855014,
+      "positive_folds": 0,
+      "source_seen_fraction": 0.8779448324849058,
+      "unigram_bits": 67879.42687938831
+    },
+    "WHOLE_LINE:HELD_FOLIO": {
+      "alignment_excess_per_focal": 0.029565650557214718,
+      "axis": "HELD_FOLIO",
+      "claim_state": "OPAQUE_CONTEXT_DISTRIBUTION_NO_LEXEME_OR_MEANING",
+      "context_mode": "WHOLE_LINE",
+      "focal_occurrences": 15203,
+      "folds": 92,
+      "gain_bits": -7572.887008539537,
+      "gain_per_focal": -0.49811793781092795,
+      "gain_without_ok_y_bits": -7586.58401352017,
+      "host_bits": 131896.34477079447,
+      "local_p": 0.000975609756097561,
+      "max3_p": 0.000975609756097561,
+      "nuisance_bits": 124323.45776225494,
+      "null_mean_gain_per_focal": -0.5276835883681427,
+      "ok_y_gain_bits": 13.697004980632132,
+      "ok_y_weight": 58.76205738705738,
+      "positive_folds": 0,
+      "source_seen_fraction": 0.919621127409064,
+      "unigram_bits": 118881.7348106854
+    },
+    "WHOLE_LINE:HELD_HAND": {
+      "axis": "HELD_HAND",
+      "claim_state": "OPAQUE_CONTEXT_DISTRIBUTION_NO_LEXEME_OR_MEANING",
+      "context_mode": "WHOLE_LINE",
+      "focal_occurrences": 15203,
+      "folds": 5,
+      "gain_bits": -7117.835062107779,
+      "gain_per_focal": -0.46818621733261717,
+      "gain_without_ok_y_bits": -7136.799067498655,
+      "host_bits": 131771.78089883126,
+      "nuisance_bits": 124653.94583672332,
+      "ok_y_gain_bits": 18.96400539087643,
+      "ok_y_weight": 58.76205738705736,
+      "positive_folds": 0,
+      "source_seen_fraction": 0.8969282378477932,
+      "unigram_bits": 122544.66487773975
+    },
+    "WHOLE_LINE:HELD_SECTION": {
+      "axis": "HELD_SECTION",
+      "claim_state": "OPAQUE_CONTEXT_DISTRIBUTION_NO_LEXEME_OR_MEANING",
+      "context_mode": "WHOLE_LINE",
+      "focal_occurrences": 15203,
+      "folds": 6,
+      "gain_bits": -7253.28681543903,
+      "gain_per_focal": -0.4770957584318246,
+      "gain_without_ok_y_bits": -7265.205273732536,
+      "host_bits": 131008.98003028761,
+      "nuisance_bits": 123755.69321484868,
+      "ok_y_gain_bits": 11.918458293505523,
+      "ok_y_weight": 58.76205738705735,
+      "positive_folds": 0,
+      "source_seen_fraction": 0.9012037097941196,
+      "unigram_bits": 121975.59926321982
+    },
+    "WINDOW_PM2:HELD_FOLIO": {
+      "alignment_excess_per_focal": 0.03880612814168749,
+      "axis": "HELD_FOLIO",
+      "claim_state": "OPAQUE_CONTEXT_DISTRIBUTION_NO_LEXEME_OR_MEANING",
+      "context_mode": "WINDOW_PM2",
+      "focal_occurrences": 15203,
+      "folds": 92,
+      "gain_bits": -8777.143612101194,
+      "gain_per_focal": -0.5773297120371764,
+      "gain_without_ok_y_bits": -8806.15324646886,
+      "host_bits": 130406.6411773612,
+      "local_p": 0.000975609756097561,
+      "max3_p": 0.000975609756097561,
+      "nuisance_bits": 121629.49756526001,
+      "null_mean_gain_per_focal": -0.6161358401788639,
+      "ok_y_gain_bits": 29.009634367668365,
+      "ok_y_weight": 69.41666666666666,
+      "positive_folds": 0,
+      "source_seen_fraction": 0.919621127409064,
+      "unigram_bits": 117045.2717918889
+    },
+    "WINDOW_PM2:HELD_HAND": {
+      "axis": "HELD_HAND",
+      "claim_state": "OPAQUE_CONTEXT_DISTRIBUTION_NO_LEXEME_OR_MEANING",
+      "context_mode": "WINDOW_PM2",
+      "focal_occurrences": 15203,
+      "folds": 5,
+      "gain_bits": -8529.86106580384,
+      "gain_per_focal": -0.561064333737015,
+      "gain_without_ok_y_bits": -8565.05933424085,
+      "host_bits": 131231.21615023067,
+      "nuisance_bits": 122701.35508442685,
+      "ok_y_gain_bits": 35.19826843701018,
+      "ok_y_weight": 69.41666666666666,
+      "positive_folds": 0,
+      "source_seen_fraction": 0.8969282378477932,
+      "unigram_bits": 120889.89743393958
+    },
+    "WINDOW_PM2:HELD_SECTION": {
+      "axis": "HELD_SECTION",
+      "claim_state": "OPAQUE_CONTEXT_DISTRIBUTION_NO_LEXEME_OR_MEANING",
+      "context_mode": "WINDOW_PM2",
+      "focal_occurrences": 15203,
+      "folds": 6,
+      "gain_bits": -8678.251715696004,
+      "gain_per_focal": -0.5708249500556472,
+      "gain_without_ok_y_bits": -8705.214163630508,
+      "host_bits": 130373.24473061679,
+      "nuisance_bits": 121694.99301492085,
+      "ok_y_gain_bits": 26.962447934504507,
+      "ok_y_weight": 69.41666666666666,
+      "positive_folds": 0,
+      "source_seen_fraction": 0.9012037097941196,
+      "unigram_bits": 120265.93263683251
+    }
+  },
+  "special_control": {
+    "identity_pair": "ok->y",
+    "use": "CONTRIBUTION_AND_EXCLUSION_ONLY"
+  },
+  "status": "OPAQUE_HOST_DISTRIBUTIONAL_CONTEXT_NOT_TRANSFERABLE"
+}
