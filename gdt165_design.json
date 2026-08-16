@@ -1,0 +1,44 @@
+{
+  "community_k": 8,
+  "community_panel_size": 128,
+  "community_selection": "TOP_ENDPOINT_FREQUENCY_SHA256_TIEBREAK_NO_NEIGHBOR_LABEL",
+  "community_smoothing": 16,
+  "edge": "WITHIN_PHYSICAL_LINE_GROUP_I_TO_I_PLUS_1",
+  "exact_host_smoothing": 16,
+  "f84_policy": "REJECT_ALL_F84_PREFIX_ROWS_BEFORE_RETENTION",
+  "forbidden_features": [
+    "token",
+    "wrapper",
+    "inner_d",
+    "local_frame",
+    "right_family",
+    "dy_closure",
+    "b3",
+    "glyph_identity_features",
+    "substring_features",
+    "edit_distance",
+    "ANY_OTHER_SAME_GROUP_PARSED_FEATURE"
+  ],
+  "minimum_directed_relation_folios": 3,
+  "minimum_directed_relation_occurrences": 8,
+  "nuisance": [
+    "section",
+    "currier",
+    "hand",
+    "global_source_frequency_bin",
+    "source_position_quartile",
+    "physical_line_group_count_bin"
+  ],
+  "nuisance_smoothing": 32,
+  "null": "HELD_FOLIO_TARGET_PERMUTATION_WITHIN_EXACT_NUISANCE_KEY",
+  "null_worlds": 1024,
+  "outer_splits": [
+    "HELD_FOLIO",
+    "HELD_SECTION",
+    "HELD_HAND"
+  ],
+  "schema": "GDT165_OPAQUE_PAGE_HOST_RELATION_GRAPH_DESIGN_V1",
+  "semantic_assignments": [],
+  "status": "FROZEN_BEFORE_SCORING",
+  "voynich_source": "gdt062_right_family_inventory.tsv"
+}
