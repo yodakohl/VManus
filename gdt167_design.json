@@ -37,6 +37,7 @@
     "pairs": 10,
     "folds_per_pair": 2,
     "algorithm": "DETERMINISTIC_EQUAL_WEIGHT_HUNGARIAN",
+    "assignment_constraint": "SAME_FOUR_FREQUENCY_RANK_BLOCKS_AS_NULL",
     "training_features": ["normalized_log_frequency", "context_entropy", "top1_concentration", "top3_concentration", "top5_concentration", "self_context_fraction", "position_Q0", "position_Q1", "position_Q2", "position_Q3", "line_2", "line_3", "line_4", "line_5_7", "line_8P"],
     "held_endpoint": "WHOLE_LINE_PPMI_COSINE_GEOMETRY_CORRELATION",
     "glyph_or_identity_alignment": false,

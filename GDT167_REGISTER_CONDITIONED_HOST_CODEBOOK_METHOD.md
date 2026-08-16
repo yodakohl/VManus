@@ -99,7 +99,9 @@ signature with no host/context identity feature:
 - five physical-line-count-bin proportions.
 
 Z-standardize each feature inside each stratum.  Use a deterministic equal-
-weight minimum-cost Hungarian assignment between the two ten-host panels.
+weight minimum-cost Hungarian assignment independently within the same four
+frequency-rank blocks used by the null.  Neither fitted nor random mappings
+may cross a block.
 No weight, dimension, K, or mapping is tuned on co-occurrence geometry.
 
 The held target is the Pearson correlation between the two 45-cell whole-line
