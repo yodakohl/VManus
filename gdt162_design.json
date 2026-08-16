@@ -1,0 +1,55 @@
+{
+  "candidate_host_lengths": [
+    2,
+    3
+  ],
+  "context_components": [
+    "wrapper",
+    "inner_d",
+    "local_frame",
+    "right_family",
+    "dy_closure",
+    "b3"
+  ],
+  "decision_vocabulary": [
+    "SHORT_HOST_CODEBOOK_ARCHITECTURE_INTERESTING",
+    "SHORT_HOST_INTERNAL_PRODUCTIVITY_INTERESTING",
+    "MIXED_SHORT_HOST_CODEBOOK_AND_INTERNAL_STRUCTURE",
+    "SHORT_HOST_CODEBOOK_NOT_DISTINGUISHED"
+  ],
+  "display_unit": "ONE_CHARACTER_IN_FROZEN_HPR2_PAGE_HOST_NOT_A_NEW_PALEOGRAPHIC_OR_PHONETIC_SEGMENTATION",
+  "external_controls": [
+    "LATIN_MEDICAL_GRAPHEMATIC",
+    "LATIN_15C_GRAPHEMATIC",
+    "LATIN_SCHOLASTIC_GRAPHEMATIC",
+    "IFORAL_1395_1411_GRAPHEMATIC",
+    "LATIN_GERMAN_APOTHECARY_LATE15"
+  ],
+  "f84_policy": "REJECT_ALL_F84_PREFIX_ROWS_BEFORE_RETENTION",
+  "host_field": "page_host",
+  "input": "gdt062_right_family_inventory.tsv",
+  "null_worlds": 1024,
+  "nulls": [
+    "LENGTH_UNIGRAM",
+    "POSITION_PRESERVING",
+    "CONTEXT_IDENTITY"
+  ],
+  "outer_fields_kept_separate": [
+    "wrapper",
+    "inner_d",
+    "local_frame",
+    "right_family",
+    "dy_closure",
+    "b3"
+  ],
+  "primary_tests": [
+    "LENGTH_RECURRENCE",
+    "POSITION_SLOT_DEPENDENCE",
+    "HAMMING1_NEIGHBOR_GRAPH",
+    "HELD_FOLIO_EXACT_IDENTITY_VS_NEIGHBOR_CONTEXT",
+    "SUBSTITUTION_CONTEXT_COHERENCE"
+  ],
+  "schema": "GDT162_PAGE_HOST_CODEBOOK_DESIGN_V1",
+  "semantic_assignments": [],
+  "status": "FROZEN_BEFORE_SCORING"
+}
