@@ -100,6 +100,20 @@ Updated: 2026-08-16. Read this file first, then
   therefore does not produce factorial compatibility. B2 improves instrument
   calibration but is synthetic, not a historical reconstruction or a model of
   Voynich architecture.
+- GDT174 freezes those same three controls and places the f84-free complete-line
+  Voynich HPR2 panel on each calibration axis without rescaling or a composite
+  score. Voynich raw LEFT-by-RIGHT density is factorial-B-like (.833), but its
+  exact GDT173 null expectation is still higher (.871), leaving negative excess
+  -.038 with p=.940; the excess is B2-like rather than factorial-specific.
+  Negative WHOLE_LINE direction is also factorial-B-like. Coordinates outside
+  the frozen envelope are high PAGE_HOST recurrence/cross-folio recurrence
+  (proxies, not recovery), high null opportunity, slightly higher length-2/3
+  host mass, higher external-substitution coherence, and a negative NEXT_HOST
+  direction absent from all three controls. Actual host recovery has no
+  Voynich oracle; same-group compiler coherence and closure are only analogous;
+  register alignment is nonparallel and unresolved. These separate gaps define
+  requirements for any future intermediate control but do not authorize B3,
+  identify an encoder, or supply meaning.
 - The complete permitted external-referent census does not yet supply that
   endpoint. Forty human-nominated plant/fragment/component pairs yield 38
   scorable whole-page comparisons, but neither exact PAGE_HOST nor the full
