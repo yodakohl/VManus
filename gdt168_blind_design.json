@@ -1,0 +1,41 @@
+{
+  "schema": "GDT168_BLIND_DIAGNOSTIC_DESIGN_V1",
+  "status": "FROZEN_BEFORE_BLIND_SCORING",
+  "blind_views": ["CONTROL_X", "CONTROL_Y"],
+  "diagnostics": {
+    "GDT113": ["record_line_closure_precision", "host_surface_recurrence"],
+    "GDT160": ["operation_count", "compatible_pair_density", "right_label_switch_excess_1024"],
+    "GDT162": ["short_host_mass", "hamming_neighbor_graph", "held_unit_compiler_context_gain"],
+    "GDT163_164": ["compiler_substitution_delta_coherence", "external_substitution_delta_coherence"],
+    "GDT165": ["held_unit_next_host_gain"],
+    "GDT166": ["held_unit_window_pm2_gain", "held_unit_whole_line_gain"],
+    "GDT167": ["within_renderer_codebook_gain", "cross_scribe_geometry", "cross_register_geometry"]
+  },
+  "primary_renderer_for_surface_algebra": "R1_S1",
+  "renderer_invariance_required": true,
+  "held_unit": "source_unit_id",
+  "context_smoothing": {"nuisance": 16.0, "host": 8.0, "target_jeffreys": 0.5},
+  "alignment": {
+    "panel_hosts": 10,
+    "reference_renderer": "R1_S1",
+    "comparison_renderers": ["R1_S2", "R2_S1", "R3_S1", "R4_S1", "R5_S1"],
+    "frequency_blocks": [[0, 3], [3, 5], [5, 8], [8, 10]],
+    "worlds": 1024
+  },
+  "classification_thresholds": {
+    "positive_held_gain_bits_per_event": 0.0,
+    "stable_fold_fraction": 0.6,
+    "alignment_global_mean_correlation": 0.1,
+    "alignment_empirical_p": 0.05,
+    "substitution_delta_coherence": 0.1
+  },
+  "forbidden_inputs": [
+    "gdt168_synthetic_ground_truth.json.gz",
+    "gdt168_codebook_truth.tsv",
+    "plaintext_form",
+    "concept_index",
+    "canonical_code",
+    "Voynich source or image"
+  ],
+  "f84r": {"opened": false, "queried": false, "retained": false, "joined": false, "scored": false}
+}
