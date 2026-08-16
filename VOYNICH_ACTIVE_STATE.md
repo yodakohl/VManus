@@ -67,6 +67,24 @@ Updated: 2026-08-16. Read this file first, then
   some closure and identity/position signal but cannot recover either hidden
   component architecture. Future parser changes must be calibrated on these
   frozen synthetic observations without tuning to Voynich outcomes.
+- GDT171 is the primary historical-plausibility calibration; GDT168 v1 remains
+  an unchanged toy control.  V2 uses only 384 recurring Latin medical source
+  types as lexical IDs, encodes all rarer forms through one literal escape,
+  preserves real source order, varies record/line/folio length, partitions
+  content across four registers with partial overlap, and gives hands a shared
+  alphabet with only a small deterministic spelling variant. Its distributed
+  world is an explicit 384-row lookup rather than a modulo cipher. On frequent
+  lexical-ID rows, the unchanged surface parser recovers the lexical world's
+  true host span 80.7% of the time and achieves held lexical-ID accuracy .897
+  at .905 coverage.  The distributed world's inferred host performs poorly
+  (.217 accuracy), while its full visible tuple reaches .938 accuracy at .076
+  coverage; its compatible-operation density is .8125 with blind null tails
+  below .009, versus .333 with tails above .93 in the lexical world. Layout
+  assistance nearly isolates record closers in the lexical world but reduces
+  exact marked-component boundary recovery. Therefore positive held host
+  context is instrument-sensitive evidence compatible with a recurrent lexical
+  layer, while very dense left-right compatibility is compatible with
+  distributed notation; neither identifies Voynich architecture by itself.
 - The complete permitted external-referent census does not yet supply that
   endpoint. Forty human-nominated plant/fragment/component pairs yield 38
   scorable whole-page comparisons, but neither exact PAGE_HOST nor the full
