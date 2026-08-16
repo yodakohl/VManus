@@ -1,0 +1,70 @@
+{
+  "blind_firewall": {
+    "f84r_access": false,
+    "forbidden_inputs_opened": false,
+    "oracle_fields_used": false,
+    "read_files": [
+      "gdt171_observation_corpus.json.gz",
+      "gdt171_source_observation_oracle_freeze.json",
+      "gdt171_blind_design.json",
+      "run_gdt170_blind_instrument.py",
+      "GDT171_HISTORICAL_PLAUSIBILITY_INSTRUMENT_METHOD.md"
+    ],
+    "voynich_inputs": 0
+  },
+  "claim_ceiling": "Blind synthetic historical-plausibility outputs only; no Voynich word, code value, language, meaning, plaintext, or translation.",
+  "commitments": {
+    "diagnostic_content_sha256": "df0626d16d4d506eca32cc8669bb064ec3bd0e162620841f4cbf9cf048115df6",
+    "parse_content_sha256": "451ad4dbfa6d8b8e80d81735a6cf0238e39b5e1205429c490e1507cdb5c2fd3a"
+  },
+  "counts": {
+    "anonymous_worlds": 2,
+    "content_folios": 176,
+    "diagnostic_rows": 52,
+    "observation_rows": 30428,
+    "operation_rows": 35,
+    "parse_rows": 60856
+  },
+  "documents": {
+    "GDT171_HISTORICAL_PLAUSIBILITY_INSTRUMENT_METHOD.md": "698a5cf9d502d2ccf1f2d0f2c7a1a17e4bfc63c29f362068a3374b1a563a3bd1"
+  },
+  "implementation": {
+    "run_gdt171_blind_instrument.py": "22475586b79f2ab80bf08b33ed58b8059c788107086e0cbd8c577f77d4b01b04"
+  },
+  "inputs": {
+    "gdt171_blind_design.json": "895b12deab67a2f85a923730d81046cc6a3a6281c53ba89dbdf4dfd608ba18d3",
+    "gdt171_observation_corpus.json.gz": "8e23c8d988dba7718a12624489d8b4218d73ed626d40213ab155f24dde5729bf",
+    "gdt171_source_observation_oracle_freeze.json": "959610cfe21a9679c0b786d4ec2d1c070e46f919b1e03ddbdd26adea69b5db70",
+    "run_gdt170_blind_instrument.py": "33acd76f72716f3820a315919a9a5c4f417fb10b7e06dc4e5c15b94bdd6ba9b2"
+  },
+  "outputs": {
+    "gdt171_blind_diagnostics.tsv": "b01ed5c6c471967c42668c5013c9a0284f12670b0a260921ef45fd8e72135e7d",
+    "gdt171_blind_operations.tsv": "2fa74c8994ed97bfd5fa0aa55f4e03b123d07f119fafd2f37b3964127f971201",
+    "gdt171_blind_parses.json.gz": "306b7e7aeb2a256579509ad553278a96c4624690e8f2881c463b4c23d6582bc2"
+  },
+  "result_content_sha256": "032b072f7ff85bb9c5dfeb0c8b38301239233a9ba6ea58d261bf39503dc9ab0b",
+  "schema": "GDT171_BLIND_INSTRUMENT_RESULT_V1",
+  "status": "GDT171_BLIND_OUTPUTS_FROZEN_BEFORE_ORACLE_EVALUATION",
+  "summary": {
+    "CONTROL_P|SURFACE_ONLY": {
+      "inferred_host_types": 7695,
+      "mean_operation_count": 0.19784409096884448,
+      "surface_exact_host_rate": 0.8201656369133693
+    },
+    "CONTROL_P|VMANUS_ANNOTATION_ASSISTED": {
+      "inferred_host_types": 9130,
+      "mean_operation_count": 0.0377941369790982,
+      "surface_exact_host_rate": 0.9626002366241619
+    },
+    "CONTROL_Q|SURFACE_ONLY": {
+      "inferred_host_types": 7231,
+      "mean_operation_count": 0.6333640068358091,
+      "surface_exact_host_rate": 0.6294859997370843
+    },
+    "CONTROL_Q|VMANUS_ANNOTATION_ASSISTED": {
+      "inferred_host_types": 8685,
+      "mean_operation_count": 0.16366504535296436,
+      "surface_exact_host_rate": 0.8634152754042329
+    }
+  }
+}
