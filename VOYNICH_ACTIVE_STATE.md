@@ -114,6 +114,21 @@ Updated: 2026-08-16. Read this file first, then
   register alignment is nonparallel and unresolved. These separate gaps define
   requirements for any future intermediate control but do not authorize B3,
   identify an encoder, or supply meaning.
+- GDT175 directly calibrates GDT174's recurrence-with-negative-NEXT_HOST gap
+  before applying the unchanged diagnostic to Voynich. The synthetic A, B2,
+  and factorial-B controls each cover about 62% of next events and have positive
+  global held gains (+2.96, +2.18, and +1.69 bits/event), although their
+  high-frequency N64_PLUS bins already range from -1.00 to +0.10. Voynich
+  covers 6,652/7,305 next events (91.1%) but remains negative at -0.742
+  bit/event. All five powered registers remain negative, so register mixture is
+  not the dominant explanation. The 2--4 and 5--15 event bins jointly show
+  below-control gain/overlap and above-control divergence, but only two of four
+  bins meet the frozen folio-instability rule; N16_63 and N64_PLUS disagree in
+  which coordinate is abnormal. Status is therefore `MIXED_OR_UNRESOLVED`:
+  simple pooled sampling and register mixture are inadequate, but a single
+  manuscript-wide folio-conditioned mechanism is not established. Do not build
+  B3 from this heterogeneous residual or infer a codebook, word, language,
+  morphology, role, meaning, plaintext, or translation.
 - The complete permitted external-referent census does not yet supply that
   endpoint. Forty human-nominated plant/fragment/component pairs yield 38
   scorable whole-page comparisons, but neither exact PAGE_HOST nor the full
