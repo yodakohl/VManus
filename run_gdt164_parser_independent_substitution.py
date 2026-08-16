@@ -279,7 +279,18 @@ def stats(rows):
 
 
 def primary(cases):
-    rows = [r for r in predictions(cases, "HELD_BASE", False) if r["model"] == "OP_SUBSTITUTION"]
+    by_operation = defaultdict(list)
+    for row in cases:
+        by_operation[row["operation"]].append(row)
+    rows = []
+    for operation, group in by_operation.items():
+        if len(group) < MIN_CASES:
+            continue
+        for test in group:
+            train = [row for row in group if row["base_family"] != test["base_family"]]
+            if len(train) < MIN_TRAIN_CASES or len({row["base_family"] for row in train}) < MIN_TRAIN_BASES:
+                continue
+            rows.append(make_prediction(test, weighted_mean(train), "OP_SUBSTITUTION", "HELD_BASE"))
     per_op = defaultdict(list)
     for row in rows:
         per_op[row["operation"]].append(row)
