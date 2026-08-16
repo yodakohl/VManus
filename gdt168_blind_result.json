@@ -1,0 +1,89 @@
+{
+  "claim_ceiling": "Blind synthetic diagnostic output only; no Voynich word, code value, language, meaning, plaintext, or translation.",
+  "f84r": {
+    "joined": false,
+    "opened": false,
+    "queried": false,
+    "retained": false,
+    "scored": false
+  },
+  "forbidden_fields_seen": [],
+  "implementation": {
+    "run_gdt003_nested_heldout.py": "3f44cad0ecad49ab3caf8021429e3cfac9abb517018f9e1da7d7f2412c6a3e4c",
+    "run_gdt160_compatibility_pairing_null.py": "a7173c62b631b3e9272bc18cfa6388603ea9f4a6146ad4cff8ee93001209e058",
+    "run_gdt168_blind_diagnostics.py": "f2be388e1d9041a487a7fbeb1243fa2c629c74c9958ac50432ce3e385ce4fc69"
+  },
+  "inputs": {
+    "gdt168_blind_design.json": "6127df4db3e3dffe695a36c2155cf38ac5cc3df5e405e1781e58df2aee056e6b",
+    "gdt168_blind_synthetic_corpora.json.gz": "b4ad2ee2310bbf4ace1a7187ee1df3dc485826ffa0dadf0a5e094d433e9c0355",
+    "gdt168_source_encoder_freeze.json": "a1b1fe85a97a76252b245299e3a03f57984936597ccbb8dc95ca4c8f49ad3798"
+  },
+  "outputs": {
+    "gdt168_blind_alignment_scores.tsv": "117f34f3a122cfbf5213f7fe9fdb02149685acd73f11336b0c33be72c7103dab",
+    "gdt168_blind_context_scores.tsv": "2b2ba8f5e646ddd271a938ce6e83645f315013d8c04159f7fda8e5b429842a34",
+    "gdt168_blind_diagnostic_summary.tsv": "a515bbd9e1253753b59b90001735af4d300a41e59313a95063ca421b26a76ed1",
+    "gdt168_blind_substitution_scores.tsv": "7ea1c6af70b3982c0b9948e86b75eb697d126f38b1bdb1f7d828282ad7b014f8",
+    "gdt168_blind_surface_algebra.tsv": "84225909a5a07f07ad9b4a2cd46b8947c6b9f6a5c1a8131f147d5c6d1319d869"
+  },
+  "result_content_sha256": "cf9feccf79cd5ea09773c82efbc9acd8289d8a3635dcf6a1b087908d5725a493",
+  "rows": 240000,
+  "schema": "GDT168_BLIND_DIAGNOSTIC_RESULT_V1",
+  "status": "BLIND_DIAGNOSTICS_COMPLETE_TRUTH_NOT_READ",
+  "summary": {
+    "CONTROL_X": {
+      "GDT113_RECORD_ARCHITECTURE:host_recurrent_mass": 0.6076666666666667,
+      "GDT113_RECORD_ARCHITECTURE:host_types": 6175,
+      "GDT113_RECORD_ARCHITECTURE:line_end_closure_recall": 1.0,
+      "GDT113_RECORD_ARCHITECTURE:nonend_b3_rate": 0.0,
+      "GDT113_RECORD_ARCHITECTURE:record_end_b3_precision": 1.0,
+      "GDT113_RECORD_ARCHITECTURE:surface_recurrent_mass": 0.25658333333333333,
+      "GDT113_RECORD_ARCHITECTURE:surface_types": 9901,
+      "GDT160_SURFACE_ALGEBRA:compatible_pair_density": 0.01645021645021645,
+      "GDT160_SURFACE_ALGEBRA:graph_lr_excess": 386.060546875,
+      "GDT160_SURFACE_ALGEBRA:inclusive_p": 0.000975609756097561,
+      "GDT160_SURFACE_ALGEBRA:selected_operations": 231,
+      "GDT160_SURFACE_ALGEBRA:switchable_right_fraction": 1.0,
+      "GDT162_167_CONTEXT:COMPILER_GAIN_PER_EVENT": -0.6110659295038187,
+      "GDT162_167_CONTEXT:NEXT_HOST_GAIN_PER_EVENT": -0.3844277845928802,
+      "GDT162_167_CONTEXT:WHOLE_LINE_GAIN_PER_EVENT": -0.47401905928244753,
+      "GDT162_167_CONTEXT:WINDOW_PM2_GAIN_PER_EVENT": -0.4541790362088885,
+      "GDT162_SHORT_HOST:hamming1_density": 0.008118412200044852,
+      "GDT162_SHORT_HOST:hamming1_edges": 154755,
+      "GDT162_SHORT_HOST:host_types": 6175,
+      "GDT162_SHORT_HOST:short_host_mass": 1.0,
+      "GDT163_164_SUBSTITUTION:COMPILER_DELTA_COSINE": 0.004493411595228844,
+      "GDT163_164_SUBSTITUTION:EXTERNAL_WINDOW_DELTA_COSINE": 0.00027412971073331825,
+      "GDT167_ALIGNMENT:CROSS_REGISTER_MEAN_CORRELATION": 0.9999999999999998
+    },
+    "CONTROL_Y": {
+      "GDT113_RECORD_ARCHITECTURE:host_recurrent_mass": 1.0,
+      "GDT113_RECORD_ARCHITECTURE:host_types": 100,
+      "GDT113_RECORD_ARCHITECTURE:line_end_closure_recall": 1.0,
+      "GDT113_RECORD_ARCHITECTURE:nonend_b3_rate": 0.0,
+      "GDT113_RECORD_ARCHITECTURE:record_end_b3_precision": 1.0,
+      "GDT113_RECORD_ARCHITECTURE:surface_recurrent_mass": 0.6066666666666667,
+      "GDT113_RECORD_ARCHITECTURE:surface_types": 7170,
+      "GDT160_SURFACE_ALGEBRA:compatible_pair_density": 0.18525778094559278,
+      "GDT160_SURFACE_ALGEBRA:graph_lr_excess": 2525.947265625,
+      "GDT160_SURFACE_ALGEBRA:inclusive_p": 0.000975609756097561,
+      "GDT160_SURFACE_ALGEBRA:selected_operations": 184,
+      "GDT160_SURFACE_ALGEBRA:switchable_right_fraction": 0.9995845943860898,
+      "GDT162_167_CONTEXT:COMPILER_GAIN_PER_EVENT": -2.1446324877771152,
+      "GDT162_167_CONTEXT:NEXT_HOST_GAIN_PER_EVENT": -1.0699261769523203,
+      "GDT162_167_CONTEXT:WHOLE_LINE_GAIN_PER_EVENT": -0.11615866375678864,
+      "GDT162_167_CONTEXT:WINDOW_PM2_GAIN_PER_EVENT": -0.2446690495400661,
+      "GDT162_SHORT_HOST:hamming1_density": 0.21818181818181817,
+      "GDT162_SHORT_HOST:hamming1_edges": 1080,
+      "GDT162_SHORT_HOST:host_types": 100,
+      "GDT162_SHORT_HOST:short_host_mass": 1.0,
+      "GDT163_164_SUBSTITUTION:COMPILER_DELTA_COSINE": 0.11192706702780222,
+      "GDT163_164_SUBSTITUTION:EXTERNAL_WINDOW_DELTA_COSINE": -0.003385093408150638,
+      "GDT167_ALIGNMENT:CROSS_REGISTER_MEAN_CORRELATION": 1.0
+    }
+  },
+  "truth_files_read": [],
+  "views": [
+    "CONTROL_X",
+    "CONTROL_Y"
+  ]
+}
