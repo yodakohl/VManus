@@ -1,0 +1,49 @@
+{
+  "candidate_lengths": [2, 3],
+  "direction_rule": "UNICODE_ASCENDING_AT_CHANGED_POSITION",
+  "endpoint": "PARSER_INDEPENDENT_EXTERNAL_CONTEXT_ONLY",
+  "exact_identity_baseline": "EXACT_PAIR_OTHER_STRATA_SEPARATE",
+  "external_context_blocks": [
+    "PREVIOUS_CONTIGUOUS_IDENTITY_SHA256_BUCKET32",
+    "NEXT_CONTIGUOUS_IDENTITY_SHA256_BUCKET32",
+    "PREVIOUS_CONTIGUOUS_IDENTITY_LENGTH_CLASS",
+    "NEXT_CONTIGUOUS_IDENTITY_LENGTH_CLASS",
+    "PREVIOUS_CONTIGUOUS_IDENTITY_CORPUS_FREQUENCY_CLASS",
+    "NEXT_CONTIGUOUS_IDENTITY_CORPUS_FREQUENCY_CLASS",
+    "DISTANCE_FROM_UNIT_START",
+    "DISTANCE_TO_UNIT_END",
+    "UNIT_POSITION_QUARTILE",
+    "OBSERVED_UNIT_INDEX_SPAN_CLASS"
+  ],
+  "f84_policy": "REJECT_ALL_F84_PREFIX_ROWS_BEFORE_RETENTION",
+  "forbidden_target_fields": [
+    "token",
+    "wrapper",
+    "inner_d",
+    "local_frame",
+    "right_family",
+    "dy_closure",
+    "b3",
+    "ANY_OTHER_SAME_SOURCE_GROUP_PARSED_FEATURE"
+  ],
+  "historical_controls": [
+    "LATIN_MEDICAL_GRAPHEMATIC",
+    "LATIN_15C_GRAPHEMATIC",
+    "LATIN_SCHOLASTIC_GRAPHEMATIC",
+    "IFORAL_1395_1411_GRAPHEMATIC",
+    "LATIN_GERMAN_APOTHECARY_LATE15"
+  ],
+  "identity_hash_buckets": 32,
+  "max_case_weight": 20,
+  "minimum_endpoint_occurrences_per_cell": 2,
+  "minimum_operation_cases": 4,
+  "minimum_prediction_training_bases": 2,
+  "minimum_prediction_training_cases": 3,
+  "null": "POSITION_PRESERVING_TYPE_IDENTITY_SHUFFLE",
+  "null_worlds": 1024,
+  "position_baseline": "SAME_LENGTH_AND_POSITION_DIFFERENT_GLYPH_PAIR",
+  "schema": "GDT164_PARSER_INDEPENDENT_SUBSTITUTION_DESIGN_V1",
+  "semantic_assignments": [],
+  "status": "FROZEN_BEFORE_SCORING",
+  "voynich_source": "gdt062_right_family_inventory.tsv"
+}
