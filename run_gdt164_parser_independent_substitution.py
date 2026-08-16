@@ -59,6 +59,9 @@ def write(path: Path, rows: list[dict[str, object]]) -> None:
         for key in row:
             if key not in fields:
                 fields.append(key)
+    if "claim_state" in fields:
+        fields.remove("claim_state")
+        fields.append("claim_state")
     with path.open("w", encoding="utf-8", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=fields, delimiter="\t", lineterminator="\n")
         writer.writeheader()
@@ -436,6 +439,9 @@ def main() -> None:
         row.update({"null_local_p": null_summary["aggregate_local_p"],
                     "best_operation_maxT_p": null_summary["top_operation_maxT_p"],
                     "null_mean_gain": null_summary["null_aggregate_mean"]})
+    comparator_rows.sort(key=lambda row: (row["corpus_id"] != "VOYNICH_PAGE_HOST", row["corpus_id"]))
+    for row in comparator_rows:
+        row["claim_state"] = "IDENTICAL_EXTERNAL_CONTEXT_ENDPOINT_NO_MORPHOLOGY_OR_MEANING"
 
     vnull = null_summaries["VOYNICH_PAGE_HOST"]
     hnull_rows = [r for r in all_nulls if r["corpus_id"] == "VOYNICH_PAGE_HOST"]
@@ -472,6 +478,12 @@ def main() -> None:
                          "evidence": f"base {float(row['held_base_fractional_mse_gain']):+.6f}; section {float(row['held_base_and_section_fractional_mse_gain']):+.6f}; hand {float(row['held_base_and_hand_fractional_mse_gain']):+.6f}",
                          "impact": "Repeated one-character relation does not guarantee an external-context operator."})
     counters += [
+        {"counterexample_type": "GDT163_TOP_OPERATION_COLLAPSE", "item": "L3:P3:a>y",
+         "evidence": f"external base/section/hand gains {next(float(r['held_base_fractional_mse_gain']) for r in op_scores if r['operation']=='L3:P3:a>y'):+.6f}/{next(float(r['held_base_and_section_fractional_mse_gain']) for r in op_scores if r['operation']=='L3:P3:a>y'):+.6f}/{next(float(r['held_base_and_hand_fractional_mse_gain']) for r in op_scores if r['operation']=='L3:P3:a>y'):+.6f}",
+         "impact": "GDT163's strongest B3-linked operation does not transfer to parser-independent context."},
+        {"counterexample_type": "LOCAL_MAXT_WITHOUT_REGISTER_TRANSFER", "item": op_scores[0]["operation"],
+         "evidence": f"base gain {float(op_scores[0]['held_base_fractional_mse_gain']):+.6f}, maxT p {float(op_scores[0]['maxT_p']):.6f}, held-section predictions {int(op_scores[0]['held_base_and_section_predictions'])}, held-hand predictions {int(op_scores[0]['held_base_and_hand_predictions'])}",
+         "impact": "The isolated post-ranked lead has no section- or hand-excluded capacity and cannot rescue the negative aggregate."},
         {"counterexample_type": "EXACT_IDENTITY_BASELINE", "item": "EXACT_PAIR_OTHER_STRATA",
          "evidence": f"held-base gain {float(summaries['HELD_BASE','EXACT_PAIR_OTHER_STRATA']['fractional_mse_gain']):+.6f}",
          "impact": "Exact pair identity is separate and may remain more predictive than substitution class."},
@@ -544,10 +556,23 @@ source folds; they are provenance partitions, not independent manuscripts.
 
 This is the direct parser-coupling test.  The target excludes every focal
 same-group HPR2 field and contains only external neighbor and unit-position
-information.  The exact identity baseline remains separate.  A positive result
-would establish only a transferable surface association; it would not establish
-linguistic morphology or meaning.  See `gdt164_counterexamples.tsv` for failed
-relations and limitations.
+information.  The aggregate substitution gain is negative, and exact-pair
+identity is also negative on this external target.  GDT163's strongest
+`L3:P3:a>y` relation falls to
+{next(float(r['held_base_fractional_mse_gain']) for r in op_scores if r['operation']=='L3:P3:a>y'):+.6f}
+at held base,
+{next(float(r['held_base_and_section_fractional_mse_gain']) for r in op_scores if r['operation']=='L3:P3:a>y'):+.6f}
+with section excluded, and
+{next(float(r['held_base_and_hand_fractional_mse_gain']) for r in op_scores if r['operation']=='L3:P3:a>y'):+.6f}
+with hand excluded.  The one maxT-ranked local relation has no section- or
+hand-excluded predictions and cannot rescue the non-significant aggregate.
+
+Only the scholastic historical control reaches the fixed 100-prediction power
+label after fold stratification; all historical results are otherwise retained
+as low-capacity sensitivities.  GDT164 therefore does not support substitution
+transfer outside the HPR2 parser coupling.  This narrows GDT163 rather than
+proving that no internal operation exists.  See `gdt164_counterexamples.tsv`
+for failed relations and limitations.
 
 All f84-prefix rows were rejected before retention.  No f84r material was
 opened, queried, retained, joined, or scored.
@@ -564,7 +589,7 @@ opened, queried, retained, joined, or scored.
               "voynich_null": vnull, "top_operations": top, "comparators": comparator_rows,
               "decision_inputs": {"all_voynich_modes_positive": all_positive, "aggregate_null_pass": null_pass,
                                   "at_least_one_maxT_operation": maxt_pass, "above_all_powered_historical_controls": above_controls},
-              "interpretation": "Parser-independent external-context prediction by held-base one-character substitution classes; exact identity remains separate and no linguistic or semantic function is assigned.",
+              "interpretation": "Held-base substitution vectors do not predict parser-independent external context: aggregate, held-section, and held-hand gains are negative, and GDT163's strongest a>y operation collapses. The prior positive is therefore localized to HPR2 parser/orthotactic coupling at this resolution, not established morphology or meaning.",
               "claim_ceiling": "No grapheme, phoneme, morpheme, word, POS, language, semantic role, meaning, plaintext, or translation.",
               "f84r": {"opened": False, "queried": False, "retained": False, "joined": False, "scored": False},
               "inputs": {SOURCE.name: sha(SOURCE), CONTROL_SOURCE.name: sha(CONTROL_SOURCE), CONTROL_MANIFEST.name: sha(CONTROL_MANIFEST), DESIGN.name: sha(DESIGN), "gdt163_result.json": sha(ROOT / "gdt163_result.json")},
