@@ -1,0 +1,54 @@
+{
+  "schema": "GDT167_REGISTER_CONDITIONED_HOST_CODEBOOK_DESIGN_V1",
+  "status": "FROZEN_BEFORE_SCORING",
+  "stratum_rule": "SECTION_CURRIER_CELL_WITH_AT_LEAST_5_FOLIOS_AND_500_GROUPS_ON_MULTIGROUP_LINES",
+  "strata": {
+    "HERBAL_A": {"section": "H", "currier": "A", "groups": 3909, "lines": 789, "folios": 47},
+    "HERBAL_B": {"section": "H", "currier": "B", "groups": 1323, "lines": 188, "folios": 16},
+    "STARS_RECIPE_B": {"section": "S", "currier": "B", "groups": 4854, "lines": 661, "folios": 12},
+    "PHARMA_A": {"section": "P", "currier": "A", "groups": 650, "lines": 107, "folios": 6},
+    "BIOLOGICAL_B": {"section": "B", "currier": "B", "groups": 3153, "lines": 468, "folios": 9}
+  },
+  "excluded_cells": {
+    "T_B": {"groups": 949, "folios": 4},
+    "C_B": {"groups": 185, "folios": 2},
+    "S_A": {"groups": 301, "folios": 1},
+    "T_A": {"groups": 31, "folios": 1}
+  },
+  "context_modes": ["WINDOW_PM2", "WHOLE_LINE"],
+  "context_normalization": "ONE_TOTAL_WEIGHT_PER_FOCAL_OCCURRENCE",
+  "nuisance_features": ["section", "currier", "hand", "stratum_local_focal_frequency_bin", "position_quartile", "line_count_bin"],
+  "nuisance_concentration": 32.0,
+  "host_concentration": 16.0,
+  "held_primary": "PHYSICAL_FOLIO_WITHIN_STRATUM",
+  "held_hand": "HERBAL_B_ONLY",
+  "null_worlds": 1024,
+  "context_maxT": "NULL_CENTERED_GAIN_PER_FOCAL_ACROSS_5X2_TESTS",
+  "geometry": {
+    "host_panel": 10,
+    "minimum_occurrences_each_deterministic_half": 4,
+    "context_panel": 128,
+    "profile": "WHOLE_LINE_PPMI_COSINE",
+    "endpoint": "UPPER_TRIANGLE_PEARSON_CORRELATION",
+    "frequency_rank_blocks": [[0,3],[3,5],[5,8],[8,10]],
+    "worlds": 1024
+  },
+  "alignment": {
+    "pairs": 10,
+    "folds_per_pair": 2,
+    "algorithm": "DETERMINISTIC_EQUAL_WEIGHT_HUNGARIAN",
+    "training_features": ["normalized_log_frequency", "context_entropy", "top1_concentration", "top3_concentration", "top5_concentration", "self_context_fraction", "position_Q0", "position_Q1", "position_Q2", "position_Q3", "line_2", "line_3", "line_4", "line_5_7", "line_8P"],
+    "held_endpoint": "WHOLE_LINE_PPMI_COSINE_GEOMETRY_CORRELATION",
+    "glyph_or_identity_alignment": false,
+    "worlds": 1024
+  },
+  "inputs": {
+    "gdt062_right_family_inventory.tsv": "b0292332157524a7f5e0745bde74c38432c52e3f2dd7ae816677f0ea743ca1cc",
+    "gdt166_result.json": "238283014c2783b0928d61de7a41b97bfc89fec4eca55a8638cf776f87b19dd4",
+    "gdt166_context_scores.tsv": "2d4fb09dacc253d2bcbda3437d4da9d337be583ec83f42af6bf812bb6ca099f5",
+    "gdt166_neighbor_relations.tsv": "3a8795117e158a7b249c1899442abe850dd24f8438e0f27fe365254d6981fdf3"
+  },
+  "forbidden": ["raw_token", "wrapper", "inner_d", "local_frame", "right_family", "dy", "b3", "glyph_identity_for_alignment", "character_or_substring_features", "semantic_gloss", "f84_prefix_rows"],
+  "f84r": {"opened": false, "queried": false, "retained": false, "joined": false, "scored": false},
+  "claim_ceiling": "Anonymous register-conditioned codebook/geometry only; no word, lexeme, code value, morpheme, POS, language, semantic role, meaning, plaintext, or translation."
+}
