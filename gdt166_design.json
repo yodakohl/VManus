@@ -1,0 +1,74 @@
+{
+  "schema": "GDT166_OPAQUE_HOST_DISTRIBUTIONAL_CONTEXT_DESIGN_V1",
+  "status": "FROZEN_BEFORE_SCORING",
+  "question": "Do opaque exact PAGE_HOST identities carry transferable unordered physical context beyond fixed nuisance variables?",
+  "contexts": [
+    "WINDOW_PM2",
+    "WHOLE_LINE",
+    "PARAGRAPH_BAG"
+  ],
+  "context_normalization": "ONE_TOTAL_WEIGHT_PER_FOCAL_OCCURRENCE",
+  "held_axes": [
+    "PHYSICAL_FOLIO",
+    "SECTION",
+    "HAND"
+  ],
+  "nuisance_features": [
+    "section",
+    "currier",
+    "hand",
+    "global_focal_host_frequency_bin",
+    "position_quartile",
+    "physical_line_group_count_bin"
+  ],
+  "nuisance_concentration": 32.0,
+  "exact_host_concentration": 16.0,
+  "null_worlds": 1024,
+  "null_family": "HELD_FOLIO_FOCAL_IDENTITY_PERMUTATION_WITHIN_EXACT_NUISANCE_STRATA",
+  "null_maxT_endpoint": "GAIN_BITS_PER_FOCAL_OCCURRENCE_ACROSS_THREE_CONTEXTS",
+  "nearest_neighbor": {
+    "focal_panel": 64,
+    "context_panel": 256,
+    "profile": "POSITIVE_PMI_COSINE",
+    "minimum_training_mass": 16,
+    "minimum_held_mass": 4,
+    "null": "PREDICTED_NEIGHBOR_PERMUTATION_WITHIN_SPLIT_AND_GLOBAL_FREQUENCY_BIN",
+    "worlds": 1024
+  },
+  "special_control": {
+    "source_display_identity": "ok",
+    "context_display_identity": "y",
+    "use": "REPORT_CONTRIBUTION_AND_EXCLUDE_SENSITIVITY_ONLY",
+    "seed_selection": false
+  },
+  "capacity": {
+    "retained_source_groups": 15364,
+    "physical_lines": 2431,
+    "physical_folios": 93,
+    "exact_hosts": 1873,
+    "WINDOW_PM2": {"focal_occurrences": 15203, "raw_context_links": 47192},
+    "WHOLE_LINE": {"focal_occurrences": 15203, "raw_context_links": 105274},
+    "PARAGRAPH_BAG": {"focal_occurrences": 8447, "raw_context_links": 393238, "paragraphs": 288, "complete_lines": 1143, "physical_folios": 91}
+  },
+  "inputs": {
+    "gdt062_right_family_inventory.tsv": "b0292332157524a7f5e0745bde74c38432c52e3f2dd7ae816677f0ea743ca1cc",
+    "gdt046_line_frames.tsv": "4c8a8486ec39c2d138b865c950ebaff038f1db1e3668219105893d6b04f92511",
+    "gdt165_result.json": "96483b518b02fe3dfb36a1e2702ce955cf1ec99dec4d5e729c61a3b2f027d64e",
+    "gdt165_directed_relations.tsv": "e0b0761a8ddf54d387a616c2b05fdbf4bea0e5dec0af4ff7de194bdfa1e0a84e"
+  },
+  "forbidden": [
+    "raw_token",
+    "wrapper",
+    "inner_d",
+    "local_frame",
+    "right_family",
+    "dy",
+    "b3",
+    "glyph_or_character_features",
+    "substring_or_edit_similarity",
+    "semantic_gloss",
+    "f84_prefix_rows"
+  ],
+  "f84r": {"opened": false, "queried": false, "retained": false, "joined": false, "scored": false},
+  "claim_ceiling": "Opaque distributional identity/class only; no word, lexeme, code value, morpheme, POS, language, semantic role, meaning, plaintext, or translation."
+}
