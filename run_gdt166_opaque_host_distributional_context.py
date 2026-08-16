@@ -315,10 +315,12 @@ def aggregate_scores(fold_rows, null_by_mode):
                 row["alignment_excess_per_focal"] = row["gain_per_focal"] - row["null_mean_gain_per_focal"]
                 row["local_p"] = (1 + sum(x >= row["gain_per_focal"] - 1e-12 for x in null)) / (WORLDS + 1)
             rows.append(row)
-    null_max = [max(null_by_mode[m][w] for m in MODES) for w in range(WORLDS)]
+    null_means = {m: sum(null_by_mode[m]) / WORLDS for m in MODES}
+    null_max = [max(null_by_mode[m][w] - null_means[m] for m in MODES) for w in range(WORLDS)]
     for row in rows:
         if row["axis"] == "HELD_FOLIO":
-            row["max3_p"] = (1 + sum(x >= row["gain_per_focal"] - 1e-12 for x in null_max)) / (WORLDS + 1)
+            observed_excess = row["gain_per_focal"] - null_means[row["context_mode"]]
+            row["max3_p"] = (1 + sum(x >= observed_excess - 1e-12 for x in null_max)) / (WORLDS + 1)
     return rows, null_max
 
 
@@ -484,7 +486,7 @@ def main() -> None:
         row = {"world": world}
         for mode in MODES:
             row[mode + "_gain_per_focal"] = null_by_mode[mode][world]
-        row["max3_gain_per_focal"] = context_null_max[world]
+        row["max3_null_centered_excess_per_focal"] = context_null_max[world]
         row["claim_state"] = "HELD_FOLIO_FOCAL_IDENTITY_ALIGNMENT_NULL"
         null_rows.append(row)
 
@@ -559,6 +561,13 @@ def main() -> None:
     write(COUNTER, counterexamples)
     write(VARIANTS, variants)
 
+    def report_null(row):
+        return (f"{row['null_mean_gain_per_focal']:+.5f} / {row['alignment_excess_per_focal']:+.5f}"
+                if row["axis"] == "HELD_FOLIO" else "")
+
+    def report_p(row):
+        return f"{row['local_p']:.4f}/{row['max3_p']:.4f}" if row["axis"] == "HELD_FOLIO" else ""
+
     report = f"""# GDT166 — opaque PAGE_HOST distributional context report
 
 Decision: **{status}**.
@@ -567,7 +576,7 @@ Decision: **{status}**.
 
 | context | split | focal/folds | gain bits | bits/focal | null mean / excess | positive folds | seen | without frozen ok->y | p/max3 |
 | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-""" + "".join(f"| `{r['context_mode']}` | `{r['axis']}` | {r['focal_occurrences']}/{r['folds']} | {r['gain_bits']:+.3f} | {r['gain_per_focal']:+.5f} | {r.get('null_mean_gain_per_focal','')} / {r.get('alignment_excess_per_focal','')} | {r['positive_folds']}/{r['folds']} | {r['source_seen_fraction']:.3f} | {r['gain_without_ok_y_bits']:+.3f} | {r.get('local_p','')}{' / ' + str(r.get('max3_p','')) if r['axis']=='HELD_FOLIO' else ''} |\n" for r in score_rows) + f"""
+""" + "".join(f"| `{r['context_mode']}` | `{r['axis']}` | {r['focal_occurrences']}/{r['folds']} | {r['gain_bits']:+.3f} | {r['gain_per_focal']:+.5f} | {report_null(r)} | {r['positive_folds']}/{r['folds']} | {r['source_seen_fraction']:.3f} | {r['gain_without_ok_y_bits']:+.3f} | {report_p(r)} |\n" for r in score_rows) + f"""
 
 Every focal occurrence has total context weight one.  The frozen `ok -> y`
 control was neither a feature nor a selection seed; the deletion column removes

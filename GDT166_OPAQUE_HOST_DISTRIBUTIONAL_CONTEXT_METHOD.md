@@ -79,7 +79,9 @@ positive-fold fraction, and seen-source coverage for each context scale.  The
 primary conditional null has 1,024 deterministic worlds.  Within every held
 folio and exact six-variable nuisance stratum, it permutes focal host IDs while
 leaving context bags and trained distributions fixed.  Local p-values are
-upper-tail; maxT uses gain per focal occurrence across the three context modes.
+upper-tail.  Because the three context scales have different null codelength
+baselines, maxT uses each mode's gain per focal occurrence minus that mode's
+own null mean.
 
 The frozen special-case sensitivity removes only focal `ok` -> context `y`
 mass and reports the resulting aggregate gains.  It is a control, not a seed,
