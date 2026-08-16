@@ -1,0 +1,154 @@
+{
+  "alternate_registers_are_partial_content_witnesses": true,
+  "architecture": {
+    "alphabet_permutations": 0,
+    "folio_record_range": [
+      3,
+      7
+    ],
+    "hands": [
+      "S1",
+      "S2"
+    ],
+    "line_length_range": [
+      4,
+      9
+    ],
+    "record_length_range": [
+      9,
+      27
+    ],
+    "registers": [
+      "R1",
+      "R2",
+      "R3",
+      "R4"
+    ],
+    "scribe_variant": "S2_FINAL_GLYPH_SHARED_ALPHABET_VARIANT_FOR_1_OF_17_FREQUENT_IDS",
+    "system_a": "384_ID_INJECTIVE_HOST_PLUS_LITERAL_ESCAPE",
+    "system_b": "384_ROW_EXPLICIT_HOST_LEFT_RIGHT_FIELD_TABLE_PLUS_LITERAL_ESCAPE"
+  },
+  "claim_ceiling": "Synthetic historical-plausibility instrument freeze only; no Voynich word, code value, language, meaning, plaintext, or translation.",
+  "commitments": {
+    "lookup_content_sha256": "446e6e5e531a80922f153f1987d7279950b8d83fbae921030caa9afbb08820a8",
+    "observation_content_sha256": "946f797678f1e9ec1670afca835ee46b6831a3eab497d128add924bbdad8eade",
+    "oracle_content_sha256": "d2fecb102b9d56b628a1836a60e27c39758e4d42cda457ed589ab91909020d30"
+  },
+  "counts": {
+    "content_folios": 176,
+    "layout_instances_per_world": 15214,
+    "observation_rows": 30428,
+    "oracle_rows": 30428,
+    "register_hand_rows": {
+      "R1_S1": 2804,
+      "R1_S2": 1800,
+      "R2_S1": 1563,
+      "R2_S2": 3546,
+      "R3_S1": 1320,
+      "R3_S2": 1807,
+      "R4_S1": 1174,
+      "R4_S2": 1200
+    },
+    "world_folios": 352
+  },
+  "documents": {
+    "GDT171_HISTORICAL_PLAUSIBILITY_INSTRUMENT_METHOD.md": "698a5cf9d502d2ccf1f2d0f2c7a1a17e4bfc63c29f362068a3374b1a563a3bd1"
+  },
+  "f84r_access": false,
+  "freeze_content_sha256": "6b27822ac7f9c7402da2d9659511402c693376cff889e9aeb21dd0d1b1ebe9f1",
+  "implementation": {
+    "build_gdt171_historical_controls.py": "1348df4d5479ecd9aa4bcddf1b0a0580a7625b2eb3169a2d3d9cdbdb80f84089"
+  },
+  "inputs": {
+    "gdt159_diplomatic_corpora.json.gz": "b1a06f205c309848f2d2c43212a4f24419f060f73eab7f9d1d18dc25e459303e",
+    "gdt159_diplomatic_source_provenance.json": "28ab71282884223bb478d98b94cd6095f09314623311fa05e3d22450fa1eae18"
+  },
+  "no_voynich_tuning": true,
+  "observation_allowed_fields": [
+    "observation_id",
+    "world_view",
+    "witness_renderer",
+    "register",
+    "hand",
+    "folio_id",
+    "layout_folio_ordinal",
+    "physical_line_id",
+    "line_ordinal_on_folio",
+    "group_index",
+    "group_count",
+    "surface_group",
+    "left_separator",
+    "right_separator",
+    "paragraph_start",
+    "paragraph_end",
+    "line_layout_role",
+    "page_layout_role",
+    "annotation_provenance",
+    "annotation_tags",
+    "annotation_confidence"
+  ],
+  "observation_forbidden_fields": [
+    "canonical_host",
+    "lexical_id",
+    "lexical_status",
+    "rendered_host",
+    "scribe_render_rule",
+    "source_form",
+    "source_type_hash",
+    "true_closure",
+    "true_field_marker",
+    "true_lexical_left",
+    "true_lexical_right",
+    "true_line_frame",
+    "true_literal_escape",
+    "true_positional_right",
+    "true_record_id",
+    "true_record_length",
+    "true_record_operator",
+    "true_record_slot",
+    "true_source_occurrence_index"
+  ],
+  "oracle_fields": [
+    "observation_id",
+    "system",
+    "source_unit_full",
+    "source_form",
+    "source_type_hash",
+    "lexical_status",
+    "lexical_id",
+    "true_record_id",
+    "true_source_occurrence_index",
+    "true_record_slot",
+    "true_record_length",
+    "canonical_host",
+    "rendered_host",
+    "scribe_render_rule",
+    "true_record_operator",
+    "true_line_frame",
+    "true_literal_escape",
+    "true_lexical_left",
+    "true_lexical_right",
+    "true_field_marker",
+    "true_positional_right",
+    "true_closure"
+  ],
+  "outputs": {
+    "gdt171_observation_corpus.json.gz": "8e23c8d988dba7718a12624489d8b4218d73ed626d40213ab155f24dde5729bf",
+    "gdt171_observation_schema.tsv": "dbceff1a0ee95ef6252e4ec6b396f94601b391b1167e0b61e4fe8c5ef0983c4b",
+    "gdt171_register_folio_manifest.tsv": "b169930ee4be96120a7c25665568174c6c3a95a4543b5a8e82a4136f1ef28dc8",
+    "gdt171_sealed_lexical_lookup.tsv": "dcf24d72559a486e40580abb4e384ebab5c2121705fbae78e40d4797dafeb587",
+    "gdt171_sealed_oracle.json.gz": "2134df197f344b22b76034e8271c398fb9d652fa000147bd0d9ec897b198fb30"
+  },
+  "schema": "GDT171_SOURCE_OBSERVATION_ORACLE_FREEZE_V1",
+  "source": {
+    "corpus_id": "LATIN_MEDICAL_GRAPHEMATIC",
+    "frequent_lexical_ids": 384,
+    "frequent_token_rows": 4678,
+    "literal_escape_rows_in_unreplicated_source": 7322,
+    "source_rows": 12000,
+    "source_types": 6175,
+    "source_units": 21
+  },
+  "status": "FROZEN_HISTORICAL_V2_BEFORE_BLIND_PARSE",
+  "voynich_inputs": 0
+}
