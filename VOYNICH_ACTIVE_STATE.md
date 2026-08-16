@@ -53,6 +53,20 @@ Updated: 2026-08-16. Read this file first, then
   renderer alignment are not lexical proof. The next useful discriminator
   needs an independent content or referent endpoint rather than another
   host-neighbor likelihood.
+- GDT170 now places those same controls behind a manuscript-like observation
+  boundary instead of giving the diagnostics HPR2-analog truth columns.  The
+  generic surface parser and its layout-assisted variant recover zero exact
+  true hosts, left edges, right edges, or complete decompositions in both
+  worlds.  They do retain partial transferable identity: the lexical world's
+  whole-surface-like inferred host decodes perfectly where covered (23--25%),
+  and the distributed world's visible group plus physical record position
+  decodes perfectly at 22% coverage. Layout assistance also makes the subset
+  of inferred right closers perfectly precise at record ends, without solving
+  segmentation. Thus GDT168 is an oracle-field diagnostic calibration, while
+  GDT170 is the end-to-end instrument calibration: the present parser detects
+  some closure and identity/position signal but cannot recover either hidden
+  component architecture. Future parser changes must be calibrated on these
+  frozen synthetic observations without tuning to Voynich outcomes.
 - The complete permitted external-referent census does not yet supply that
   endpoint. Forty human-nominated plant/fragment/component pairs yield 38
   scorable whole-page comparisons, but neither exact PAGE_HOST nor the full

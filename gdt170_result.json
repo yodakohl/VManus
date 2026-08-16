@@ -1,0 +1,67 @@
+{
+  "chronology": {
+    "blind_design_commit": "4ecde6f",
+    "blind_outputs_commit": "ef379be",
+    "observation_oracle_freeze_commit": "b4c1cba",
+    "oracle_opened_only_after_blind_outputs_published": true
+  },
+  "claim_ceiling": "Synthetic end-to-end instrument calibration only; no Voynich word, code value, language, role, meaning, plaintext, or translation.",
+  "commitments": {
+    "component_recovery_content_sha256": "9be045653b19aacb3b5e983a8307e02b0c0112d10dc455ed386f6b7e26392722",
+    "diagnostic_calibration_content_sha256": "cae7a80b043d255af5f6b552d99820d675bf05a8c602a116246e0c9dd416c56b",
+    "recovery_levels_content_sha256": "47f0f5333899469126dbe1ef51d2bd88f117287ecc5d445cfa659ba451cd5fc5"
+  },
+  "decision": "GDT168_ORACLE_DIAGNOSTICS_NOT_END_TO_END_PARSER_CALIBRATION",
+  "documents": {
+    "GDT170_FULL_OBSERVATION_INSTRUMENT_METHOD.md": "9e55d004c4cfa69912f352a78ce50b0b758e28e7e0124a497241ecabc4f81ba3",
+    "GDT170_FULL_OBSERVATION_INSTRUMENT_REPORT.md": "db5163ed6f5bb7dea8e432d4a3c2b92a13cbe6d12b00ce49d69bdc35c7d7f267"
+  },
+  "f84r_access": false,
+  "headline": {
+    "oracle_system_a_host_information_fraction": 1.0,
+    "oracle_system_b_full_information_fraction": 1.0,
+    "oracle_system_b_host_information_fraction": 0.4430614117299934,
+    "system_a": {
+      "full_decoder_accuracy": 1.0,
+      "full_decoder_coverage": 0.223,
+      "host_decoder_accuracy": 1.0,
+      "host_decoder_coverage": 0.2455,
+      "host_information_fraction": 1.0
+    },
+    "system_b": {
+      "full_decoder_accuracy": 1.0,
+      "full_decoder_coverage": 0.223,
+      "host_decoder_accuracy": 0.2979027645376549,
+      "host_decoder_coverage": 0.6993333333333334,
+      "host_information_fraction": 0.9287687633763504
+    }
+  },
+  "implementation": {
+    "unblind_gdt170_full_instrument.py": "f5848114485a31268b2c83ee90aca90a1f92c8e5bd35caba51c07d8c5dea11e8"
+  },
+  "inputs": {
+    "gdt170_blind_design.json": "ec8fd673fb6631eb430192ad7cf6e0d85511301586bb91a1e7b8fe303d99c76c",
+    "gdt170_blind_diagnostics.tsv": "2967147ddfea315475700039adf4dcfb2879f0e9e086a8c061073669b4d26de7",
+    "gdt170_blind_parses.json.gz": "e35bdb88724ed46c999ac4d7b0101dd35d1f47b9dccb8028a7c0df548a594440",
+    "gdt170_blind_result.json": "eb96573449dbb3bdf2473e12412b67471ca058465a744d9f0d0d7d229d91e158",
+    "gdt170_blind_validation.json": "9f0dc53f654a5e7ef2bbb03d8b35fb3a153afbeed6a648d28bf1a984374d2c48",
+    "gdt170_observation_corpus.json.gz": "18bb4fcda68c4f9182ebaaef800e987b0662e19691a4cc94e700ac46c1f5090d",
+    "gdt170_observation_oracle_freeze.json": "7d50c8f4fcef7e744669cf32dfdfba4f12f0e8eda247c4dcba8866d837bf9797",
+    "gdt170_sealed_oracle.json.gz": "cd39ab4366ba000bda5a87d674488f4e6e09e832ec5a6354ed8d6ec32f0c56f8"
+  },
+  "no_voynich_tuning": true,
+  "outputs": {
+    "gdt170_component_recovery.tsv": "505e7c8d8ef236e92657d84f03644d379778ff3d7a32e006b3ae551bb71bf3a9",
+    "gdt170_counterexamples.tsv": "f6ce24f6c6bb8aa27a9845bd9f09662cb4a9982b2a775d5d5213018311886794",
+    "gdt170_diagnostic_calibration.tsv": "9d5bbcf66202ccea3f0b21dc47a1b626a32c024f996001a2ee0bd7d93ec8da74",
+    "gdt170_recovery_levels.tsv": "91e4495bc8767d4ded11a96bdf1b93a4a45d2432dec1c579020eba17f2c53e34"
+  },
+  "result_content_sha256": "528154dcb31f7bcfa11b709f9bf8ba46ceec9bd224fff3a261afd0d79900d7b8",
+  "schema": "GDT170_FULL_OBSERVATION_INSTRUMENT_RESULT_V1",
+  "status": "PARTIAL_IDENTITY_AND_RECORD_SIGNAL_WITHOUT_COMPONENT_ARCHITECTURE_RECOVERY",
+  "voynich_inputs": 0,
+  "world_mapping": {
+    "CONTROL_X": "SYSTEM_A_FIXED_LEXICAL_CODEBOOK",
+    "CONTROL_Y": "SYSTEM_B_DISTRIBUTED_RECORD_CODE"
+  }
+}
