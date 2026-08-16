@@ -92,7 +92,9 @@ the 256 context hosts with greatest full-panel context mass; all ties use
 opaque SHA256 identity order.  Selection sees no pair association.  Remaining
 contexts collapse to `OTHER`.
 
-For every train/held split, build positive-PMI context vectors independently.
+Use `WHOLE_LINE` as the sole nearest-neighbor context; the other two scales
+remain likelihood endpoints only.  For every train/held split, build
+positive-PMI context vectors independently.
 For each focal host with at least 16 training and four held context units,
 choose its training cosine-nearest other host.  Rank that fixed predicted
 neighbor by cosine similarity in the held-only profiles; the predicted
