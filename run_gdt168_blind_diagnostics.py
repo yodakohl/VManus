@@ -50,7 +50,7 @@ def write(path, rows):
             if field not in fields: fields.append(field)
     with Path(path).open("w", encoding="utf-8", newline="") as handle:
         writer = csv.DictWriter(handle, fields, delimiter="\t", lineterminator="\n")
-        writer.writeheader(); writer.writerows(rows)
+        writer.writeheader(); writer.writerows([{field: row.get(field, "NA") for field in fields} for row in rows])
 
 
 def load():
