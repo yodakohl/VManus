@@ -1,6 +1,6 @@
 # Voynich active state — structural reset baseline
 
-Updated: 2026-08-12. Read this file first, then
+Updated: 2026-08-16. Read this file first, then
 `experiments/semantic_assumptions/ACTIVE_EXPERIMENT_LEDGER.tsv`.
 
 ## Outcome
@@ -42,6 +42,17 @@ Updated: 2026-08-12. Read this file first, then
   bridge is no longer active confirmed evidence: its exact positive ledger
   summary survives, but its inventory, preregistration, scorer, result, and
   validator do not survive in the repository and cannot be reconstructed.
+- A frozen synthetic-instrument calibration now limits how opaque PAGE_HOST
+  negatives may be interpreted. On one real medieval medical source, a true
+  injective 2–3-character concept codebook lost every held
+  host-to-compiler/next/window/line likelihood test, while a deliberately
+  nonlexical distributed record code sometimes looked less negative. Both
+  controls also produced left×right compatibility excess and perfectly aligned
+  renderer spaces. GDT162–GDT167 therefore reject their tested predictive host
+  models, not every possible sparse lexical address. Compatibility excess and
+  renderer alignment are not lexical proof. The next useful discriminator
+  needs an independent content or referent endpoint rather than another
+  host-neighbor likelihood.
 
 ## Confirmed structural baseline
 

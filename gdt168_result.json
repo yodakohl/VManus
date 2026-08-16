@@ -1,0 +1,74 @@
+{
+  "blind_result_sha256": "df40bc3709f23142a3a972b74a931dd1d72dc70dff2d227244b188b9472c6a14",
+  "claim_ceiling": "Synthetic instrument calibration only; no Voynich word, code value, language, semantic role, meaning, plaintext, or translation.",
+  "documents": {
+    "GDT168_SYNTHETIC_ARCHITECTURE_CALIBRATION_METHOD.md": "b4de4a24e3969c254397c7fc28bd261b9137ab78663bda7a324ff809fcc7d618",
+    "GDT168_SYNTHETIC_ARCHITECTURE_CALIBRATION_REPORT.md": "6e828b0b3a0f5ee3747339c900300529a5edb101572cbbb07d0dee6da05cfddc"
+  },
+  "f84r": {
+    "joined": false,
+    "opened": false,
+    "queried": false,
+    "retained": false,
+    "scored": false
+  },
+  "ground_truth": {
+    "system_a_host_decoder": {
+      "accuracy_on_predictions": 1.0,
+      "correct": 6190,
+      "coverage": 0.5158333333333334,
+      "positive_units": 21,
+      "predictions": 6190,
+      "representation": "PAGE_HOST",
+      "system": "SYSTEM_A",
+      "total_rows": 12000,
+      "units": 21
+    },
+    "system_a_host_information_fraction": 1.0,
+    "system_b_full_decoder": {
+      "accuracy_on_predictions": 1.0,
+      "correct": 2681,
+      "coverage": 0.22341666666666668,
+      "positive_units": 21,
+      "predictions": 2681,
+      "representation": "FULL_TUPLE_PLUS_SLOT",
+      "system": "SYSTEM_B",
+      "total_rows": 12000,
+      "units": 21
+    },
+    "system_b_full_tuple_slot_information_fraction": 1.0,
+    "system_b_host_decoder": {
+      "accuracy_on_predictions": 0.04833333333333333,
+      "correct": 580,
+      "coverage": 1.0,
+      "positive_units": 21,
+      "predictions": 12000,
+      "representation": "PAGE_HOST",
+      "system": "SYSTEM_B",
+      "total_rows": 12000,
+      "units": 21
+    },
+    "system_b_host_information_fraction": 0.4430614117299934
+  },
+  "implementation": {
+    "unblind_gdt168_synthetic_calibration.py": "3cd963403b37fe7760380047c7373d5fefdb34f8129e9839132fbe67c1a1a44d"
+  },
+  "inputs": {
+    "gdt168_blind_diagnostic_summary.tsv": "b5ad48152419bf200e98a3d5edc59080894d308a8f456c430df4fe603bac6937",
+    "gdt168_blind_result.json": "df40bc3709f23142a3a972b74a931dd1d72dc70dff2d227244b188b9472c6a14",
+    "gdt168_blind_synthetic_corpora.json.gz": "b4ad2ee2310bbf4ace1a7187ee1df3dc485826ffa0dadf0a5e094d433e9c0355",
+    "gdt168_codebook_truth.tsv": "e17d81e0b80e8e793a7457c5a4a577fb83c1afcc1c33a51364f5dc65e3e41958",
+    "gdt168_source_encoder_freeze.json": "a1b1fe85a97a76252b245299e3a03f57984936597ccbb8dc95ca4c8f49ad3798",
+    "gdt168_synthetic_ground_truth.json.gz": "b1b71e4563e9725f23bbf39dc0be45530cfb2285c321be86f4e898519833b5ff"
+  },
+  "interpretation": "Negative exact-host context transfer is not sensitive to every genuine lexical codebook; compatibility and renderer alignment are not specific to lexical hosts.",
+  "outputs": {
+    "gdt168_counterexamples.tsv": "8a839e92fa40617b76851c297822ebbcadb5bd87e63644d2716d2cce8b950e78",
+    "gdt168_diagnostic_recovery_matrix.tsv": "787d8eb93b4f69e075c69f8c37124649ef3a392cc82fe978cebaf4d92fcdb3cc",
+    "gdt168_ground_truth_decoder.tsv": "3a44735c78611a17b72f3f3158dc1d47426fa110dc15294006b1d4262a00a0a0",
+    "gdt168_ground_truth_information.tsv": "f05bb47be03228ab6b7f13259c2b71d57eac1053172416d822089273a3883e76"
+  },
+  "result_content_sha256": "05f5a54e7ef3eaf83e9c3d04ba879c8bcf03c08a92ccdd18f29ced63fc0ee851",
+  "schema": "GDT168_SYNTHETIC_ARCHITECTURE_CALIBRATION_RESULT_V1",
+  "status": "HOST_NEGATIVES_DO_NOT_DISTINGUISH_LEXICAL_FROM_DISTRIBUTED_CODE"
+}
