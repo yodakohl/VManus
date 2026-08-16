@@ -1,0 +1,105 @@
+{
+  "claim_ceiling": "No word boundary, lexical item, morpheme, phoneme, language, semantic role, meaning, plaintext, or translation.",
+  "decision_inputs": {
+    "codebook_rule": false,
+    "cross_fold_recurrence_above_primary_controls": true,
+    "exact_identity_positive": true,
+    "neighbor_transfer_positive": true,
+    "productive_rule": true,
+    "short_mass_above_primary_controls": false
+  },
+  "documents": {
+    "GDT162_PAGE_HOST_CODEBOOK_METHOD.md": "7fd68c9ec979c8794e31d746b75c255f298b51c6496383be7aad2f08ae676892",
+    "GDT162_PAGE_HOST_CODEBOOK_REPORT.md": "9dedafcb8c93a5acdb26b5f53f70ea2435b0e0d56c64f0cbbb3ada2fc8ec3ca9"
+  },
+  "f84r": {
+    "joined": false,
+    "opened": false,
+    "present_in_actual_input": false,
+    "queried": false,
+    "retained": false,
+    "scored": false
+  },
+  "held_folio_context": {
+    "exact_gain_vs_neighbor": 7598.922942519537,
+    "exact_gain_vs_nuisance": 10636.305478330105,
+    "exact_host_bits": 19556.849620984893,
+    "neighbor_bits": 27155.77256350443,
+    "neighbor_gain_vs_nuisance": 3037.382535810568,
+    "nuisance_bits": 30193.155099314998,
+    "scored_component_rows": 35088
+  },
+  "held_section_context": {
+    "exact_gain_vs_neighbor": 7184.5116127164365,
+    "exact_gain_vs_nuisance": 11529.813217258015,
+    "exact_host_bits": 21053.208771163158,
+    "neighbor_bits": 28237.720383879594,
+    "neighbor_gain_vs_nuisance": 4345.301604541579,
+    "nuisance_bits": 32583.021988421173,
+    "scored_component_rows": 35088
+  },
+  "historical_control_count": 5,
+  "implementation": {
+    "run_gdt162_page_host_codebook.py": "566dd9f032de5cf0978aeb7804abbc682e3a13656a6ce9f65d4a9cedf5baa1d8"
+  },
+  "inputs": {
+    "gdt062_result.json": "52828ee0e450cbfb72b7037164610da0c882469ff2ba42b118991f3967dd436a",
+    "gdt062_right_family_inventory.tsv": "b0292332157524a7f5e0745bde74c38432c52e3f2dd7ae816677f0ea743ca1cc",
+    "gdt159_diplomatic_corpora.json.gz": "b1a06f205c309848f2d2c43212a4f24419f060f73eab7f9d1d18dc25e459303e",
+    "gdt159_diplomatic_corpus_manifest.tsv": "f86b3a001233413a45fc262f10dcaf01c2e5510e48955d3c3bf879e21d9ae5c5",
+    "gdt159_result.json": "befb4521dfcd3f7eac6e2f3703ba4c933b4fac7827a32577ff1aa45a41320ea0",
+    "gdt162_design.json": "5408ce96537f1dfd75dbd9a52b9553aa8d573c94d6961294dc568339ff58a82f"
+  },
+  "interpretation": "Exact PAGE_HOST identity is stronger than one-glyph-neighbor backoff, but dense null-exceeding neighbor geometry and transferable substitution context reject a pure inventory of independent opaque addresses; the best exploratory description is identity-bearing and internally structured.",
+  "length_recurrence": {
+    "effective_token_vocabulary": 195.68216054118733,
+    "length_2_3_token_mass": 0.38063004425930747,
+    "length_2_3_type_mass": 0.12867058195408435,
+    "length_2_tokens": 3631,
+    "length_2_types": 66,
+    "length_3_tokens": 2217,
+    "length_3_types": 175,
+    "representation": "VOYNICH_PAGE_HOST",
+    "short_cross_fold_token_coverage": 0.9837551299589603,
+    "short_cross_unit_token_coverage": 0.9844391244870041,
+    "short_recurrent_token_coverage": 0.9854651162790697,
+    "token_length_entropy": 2.6329072634152877,
+    "token_vocabulary_entropy": 7.6123684277431005,
+    "tokens": 15364,
+    "type_length_entropy": 2.7756154017674413,
+    "types": 1873
+  },
+  "neighbor_geometry": {
+    "coherence_pair_count": 1701.0,
+    "edges": 933.0,
+    "mean_neighbor_context_cosine": 0.9115180851374511,
+    "mean_substitution_delta_coherence": 0.40045416383476384
+  },
+  "observed_geometry": {
+    "collisions": 0.0,
+    "neighbor_context_cosine": 0.9115180851374511,
+    "neighbor_density": 0.053713298791019,
+    "slot_total_correlation_mean": 2.1855114875591872,
+    "substitution_delta_coherence": 0.40045416383476384,
+    "top20_substitution_share": 0.1939978563772776
+  },
+  "outputs": {
+    "gdt162_context_transfer.tsv": "7dcbc3d199fd855b8040314c011c61ff4ec133e73a288ce8860b44e93617ead4",
+    "gdt162_counterexamples.tsv": "a4cfdd34a390913ad67caff0416ceabcf09429f557edbcf585cc9b17a189b8b6",
+    "gdt162_historical_controls.tsv": "02d3db59b1c78195e8b5ea0d7f6aaadabcaaffceb6cdbf060960262b459b66e3",
+    "gdt162_host_inventory.tsv": "999a5a647dadb60a563b24eb11d656d72307162212f918561e7b59d4be7f759e",
+    "gdt162_length_recurrence.tsv": "7eaca5086204cd029de8a2670ddb508505cf3488b7b300317f24d4bb6b759a77",
+    "gdt162_neighbor_substitutions.tsv": "847583989c05586665199bf182c388e8186c34873b3e6502626bf17e065f5bba",
+    "gdt162_null_summary.tsv": "d1021141b11794e4cef075e9069cfaf170296f484aaafb137a8c6343999ce657",
+    "gdt162_position_slot_metrics.tsv": "5abb8674316eb96e7e36d34fd126e8df1c45c7ad1d4d6cb088601b01d674ed05",
+    "gdt162_variant_log.tsv": "aed6df86c78014d99a679c7b5f10d308da3def53b276da81316813cc7f5acb14"
+  },
+  "physical_folios": 93,
+  "rejected_f84_rows": 228,
+  "result_content_sha256": "d50df6b133b7a9ace73986f6017739405dde625ba12ab4ca3af28672beba87de",
+  "schema": "GDT162_PAGE_HOST_CODEBOOK_RESULT_V1",
+  "short_host_occurrences": 5848,
+  "short_host_types": 241,
+  "source_rows": 15364,
+  "status": "SHORT_HOST_INTERNAL_PRODUCTIVITY_INTERESTING"
+}

@@ -550,6 +550,8 @@ def main() -> None:
         if row["null"] == "CONTEXT_IDENTITY":
             c = str(row["metric"]).removeprefix("conditional_mi_"); z = (float(row["observed"]) - means[c]) / sds[c]
             row["max_family_p"] = (1 + sum(x >= z - 1e-12 for x in maxes)) / (WORLDS + 1)
+    for row in null_summary:
+        row.setdefault("max_family_p", "NOT_APPLICABLE")
 
     # Compact counterexample atlas.
     counters = []
@@ -602,9 +604,28 @@ def main() -> None:
     vlen = length_by["VOYNICH_PAGE_HOST"]
     ranked_controls = sorted((length_by[c] for c in by_corpus), key=lambda x: abs(float(x["length_2_3_token_mass"]) - float(vlen["length_2_3_token_mass"])))
     top_neighbors = sorted(neighbor_atlas, key=lambda x: (-(int(x["count_a"]) + int(x["count_b"])), x["host_a"], x["host_b"]))[:12]
+    page_position = [r for r in position_rows if r["representation"] == "VOYNICH_PAGE_HOST"]
+    component_totals = []
+    for component in COMPONENTS:
+        rr = [r for r in folio_scores if r["component"] == component]
+        component_totals.append((component, sum(float(r["exact_gain_vs_nuisance"]) for r in rr), sum(float(r["neighbor_gain_vs_nuisance"]) for r in rr), sum(float(r["exact_gain_vs_nuisance"]) > 0 for r in rr), sum(float(r["neighbor_gain_vs_nuisance"]) > 0 for r in rr), len(rr)))
+    density_null = next(r for r in null_summary if r["null"] == "POSITION_PRESERVING" and r["metric"] == "neighbor_density")
+    tc_null = next(r for r in null_summary if r["null"] == "POSITION_PRESERVING" and r["metric"] == "slot_total_correlation_mean")
     report = f"""# GDT162 — short PAGE_HOST codebook report
 
 Decision: **{status}**.
+
+## Bottom line
+
+The **pure opaque-codebook** version is not supported.  Exact PAGE_HOST
+identity is much more predictive than a one-glyph-neighbor backoff, so host
+identity plainly matters; however the same inventory has a denser Hamming-one
+graph than its position-preserving null, and those neighbors transfer outer
+context and substitution-direction effects.  The strongest descriptive model
+is therefore an **identity-bearing but internally structured short-host
+system**, not 241 arbitrary independent addresses.  The frozen strict codebook
+label also fails because Voynich's 2–3-character concentration does not exceed
+all primary historical graphematic controls.
 
 ## Short-host inventory
 
@@ -624,6 +645,20 @@ mass.  The closest frozen historical control by this single coordinate is
 {float(ranked_controls[0]['length_2_3_token_mass']):.1%}.  Length concentration
 is not treated as sufficient evidence by itself.
 
+## Positional inventories and slot dependence
+
+| length | weighting | position inventories | position entropies (bits) | position↔glyph MI | total correlation |
+| ---: | --- | --- | --- | ---: | ---: |
+""" + "".join(f"| {r['length']} | {r['weighting']} | `{r['position_inventories']}` | {r['position_entropies']} | {float(r['position_glyph_mi']):.4f} | {float(r['total_correlation']):.4f} |\n" for r in page_position) + f"""
+
+The mean type-weighted total correlation across lengths 2 and 3 is
+{observed_geometry['slot_total_correlation_mean']:.6f} bits, below the
+position-preserving null mean {float(tc_null['null_mean']):.6f}.  This is not a
+compact-slot excess: after preserving positional inventories, randomized type
+codes are more dependent because collisions remove distinct combinations.
+The observed inventory is instead unusually injective and densely connected;
+those properties must not be conflated with a small factorial code.
+
 ## Exact identity versus one-glyph neighbors
 
 Across leave-one-physical-folio folds and all six outer compiler components,
@@ -639,10 +674,18 @@ This is the cleanest codebook-versus-productivity diagnostic in the pass.
 Exact-identity gain cannot be read semantically: the HPR2 parser itself strips
 licensed outer fields, so formal host/context coupling is partly architectural.
 
+| held-folio component | exact-host gain (bits) | neighbor gain (bits) | positive exact folds | positive neighbor folds |
+| --- | ---: | ---: | ---: | ---: |
+""" + "".join(f"| `{c}` | {eg:+.3f} | {ng:+.3f} | {ep}/{n} | {np}/{n} |\n" for c, eg, ng, ep, np, n in component_totals) + f"""
+
 ## Slot and neighbor geometry
 
 The 2–3-character inventory contains {int(neighbor_obs['edges']):,} Hamming-one
-type pairs.  Mean neighbor outer-context cosine is
+type pairs, density {observed_geometry['neighbor_density']:.6f} versus the
+position-preserving null mean {float(density_null['null_mean']):.6f}
+(local/max-family p {float(density_null['local_p']):.6f}/
+{float(density_null.get('max_family_p', 1.0)):.6f}).  Mean neighbor
+outer-context cosine is
 {neighbor_obs['mean_neighbor_context_cosine']:.6f}; mean repeated-substitution
 context-delta coherence is
 {neighbor_obs['mean_substitution_delta_coherence']:.6f} over
@@ -703,7 +746,7 @@ input and was not opened, queried, retained, joined, or scored.
             "neighbor_transfer_positive": neighbor_positive,
             "codebook_rule": codebook, "productive_rule": productive,
         },
-        "interpretation": "Exploratory short recurrent formal-address architecture versus one-glyph-neighbor transfer; not language decipherment.",
+        "interpretation": "Exact PAGE_HOST identity is stronger than one-glyph-neighbor backoff, but dense null-exceeding neighbor geometry and transferable substitution context reject a pure inventory of independent opaque addresses; the best exploratory description is identity-bearing and internally structured.",
         "claim_ceiling": "No word boundary, lexical item, morpheme, phoneme, language, semantic role, meaning, plaintext, or translation.",
         "f84r": {"present_in_actual_input": False, "opened": False, "queried": False, "retained": False, "joined": False, "scored": False},
         "inputs": {SOURCE.name: sha(SOURCE), CONTROL_SOURCE.name: sha(CONTROL_SOURCE), CONTROL_MANIFEST.name: sha(CONTROL_MANIFEST), DESIGN.name: sha(DESIGN), "gdt062_result.json": sha(ROOT / "gdt062_result.json"), "gdt159_result.json": sha(ROOT / "gdt159_result.json")},
