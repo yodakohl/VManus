@@ -565,6 +565,10 @@ The held-folio alignment null gives p={null_summary['total_gain_p']:.6f};
 the directed-relation maxT p is {null_summary['top_relation_maxT_p']:.6f}.
 The null has {null_summary['swappable_test_events']:,} swappable and
 {null_summary['target_variable_test_events']:,} target-variable held events.
+The total-gain p-value is an upper-tail alignment diagnostic: the observed
+{null_summary['observed_total_host_gain_bits']:+.3f}-bit gain is less negative
+than the shuffled mean {null_summary['null_total_mean']:+.3f}, but it remains
+far below zero.  It therefore does not reverse the failed predictive result.
 
 ## Community stability
 
@@ -610,6 +614,7 @@ opened, queried, retained, joined, or scored.
               "directed_relations": {"eligible": len(relation_rows), "stable_maxT": len(stable_rel),
                                      "top_maxT_p": null_summary["top_relation_maxT_p"]},
               "null": null_summary,
+              "null_interpretation": "Observed identity alignment is less negative than the shuffled alignment but remains below zero; this is sparse-order evidence, not positive global held prediction.",
               "decision_inputs": {"exact_all_splits_positive": exact_all_positive, "held_folio_null_pass": null_pass,
                                   "stable_maxT_relation": relation_pass, "community_gate": community_stable},
               "interpretation": "Opaque exact PAGE_HOST identity prediction and anonymous graph structure only; no character features or same-group HPR2 fields enter.",
