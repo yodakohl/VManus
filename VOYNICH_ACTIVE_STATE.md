@@ -74,8 +74,8 @@ Updated: 2026-08-16. Read this file first, then
   partitioned registers, partial overlap and shared-alphabet hand variation,
   while replacing only rare literal payloads with escape `w` plus the unchanged
   source graphematic form. System B is explicitly an artificial factorial
-  distributed control, not a historical-naturalistic encoder; a non-Cartesian
-  B2 has not been built. On frequent lexical-ID rows, System A held host accuracy
+  distributed control, not a historical-naturalistic encoder. On frequent
+  lexical-ID rows, System A held host accuracy
   is .881 at .905 coverage and exact true-host recovery is .794; System B host
   accuracy remains .217 while its full visible tuple remains .938 at .076
   coverage. No frequent recovery/component metric changes by the frozen .05
@@ -86,6 +86,20 @@ Updated: 2026-08-16. Read this file first, then
   signs remain unchanged. Therefore the qualitative calibration survives, but
   exact global operation counts and magnitudes depend on literal rendering;
   neither world identifies Voynich architecture by itself.
+- GDT173 adds only the precommitted non-Cartesian B2 control; GDT172 lexical A
+  and factorial B remain byte-frozen. B2 is an explicit irregular 384-row,
+  exactly reversible, human-grown distributed table with partial family reuse,
+  optional fields, local analogies, exceptions, and shared-symbol hand
+  variants. Under the unchanged blind instrument, its surface held host
+  accuracy is .268 at .931 coverage and exact host recovery is .616;
+  annotation assistance raises held accuracy to .689 but lowers exact host
+  recovery to .186. B2 retains positive NEXT_HOST context and a positive
+  surface whole-line score (the annotation score is slightly negative), while
+  its left-by-right compatibility density is only .278 with a high null tail
+  (p=.986), versus factorial B's .875 and p=.00195. Distributed identity alone
+  therefore does not produce factorial compatibility. B2 improves instrument
+  calibration but is synthetic, not a historical reconstruction or a model of
+  Voynich architecture.
 - The complete permitted external-referent census does not yet supply that
   endpoint. Forty human-nominated plant/fragment/component pairs yield 38
   scorable whole-page comparisons, but neither exact PAGE_HOST nor the full
