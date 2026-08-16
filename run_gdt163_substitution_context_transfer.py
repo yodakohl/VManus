@@ -216,10 +216,33 @@ def fast_primary(cases: list[dict[str, object]]) -> tuple[dict[str, float], dict
             if len(train) >= MIN_TRAIN_CASES and len({r["base_family"] for r in train}) >= MIN_TRAIN_BASES:
                 row = make_prediction(test, weighted_mean(train), "OP_SUBSTITUTION", "HELD_BASE"); op_rows.append(row); local.append(row)
         if local: per_op[operation] = prediction_stats(local)
-    for test in cases:
-        train = [r for r in by_pos[test["length"], test["position"]] if r["operation"] != test["operation"] and r["base_family"] != test["base_family"]]
-        if len(train) >= MIN_TRAIN_CASES and len({r["base_family"] for r in train}) >= MIN_TRAIN_BASES:
-            position_rows.append(make_prediction(test, weighted_mean(train), "POSITION_ONLY", "HELD_BASE"))
+    # Algebraically identical position-only leave-operation-and-base-out means.
+    # The sufficient-statistic form is essential for the 1,024-world controls.
+    for position_key, group in by_pos.items():
+        dimension = len(group[0]["delta"])
+        total_w = 0.0; total_v = np.zeros(dimension); total_n = 0
+        op_w = Counter(); op_n = Counter(); op_v = defaultdict(lambda: np.zeros(dimension))
+        base_w = Counter(); base_n = Counter(); base_v = defaultdict(lambda: np.zeros(dimension))
+        pair_w = Counter(); pair_n = Counter(); pair_v = defaultdict(lambda: np.zeros(dimension))
+        base_ops = defaultdict(set)
+        for row in group:
+            weight = float(row["weight"]); value = row["delta"]; operation = row["operation"]; base = row["base_family"]
+            total_w += weight; total_v += weight * value; total_n += 1
+            op_w[operation] += weight; op_v[operation] += weight * value; op_n[operation] += 1
+            base_w[base] += weight; base_v[base] += weight * value; base_n[base] += 1
+            pair_w[operation, base] += weight; pair_v[operation, base] += weight * value; pair_n[operation, base] += 1
+            base_ops[base].add(operation)
+        all_bases = set(base_ops); only_by_op = defaultdict(set)
+        for base, operations in base_ops.items():
+            if len(operations) == 1: only_by_op[next(iter(operations))].add(base)
+        for test in group:
+            operation, base = test["operation"], test["base_family"]
+            n = total_n - op_n[operation] - base_n[base] + pair_n[operation, base]
+            weight = total_w - op_w[operation] - base_w[base] + pair_w[operation, base]
+            value = total_v - op_v[operation] - base_v[base] + pair_v[operation, base]
+            train_bases = len(all_bases) - len(only_by_op[operation]) - (0 if base in only_by_op[operation] else 1)
+            if n >= MIN_TRAIN_CASES and train_bases >= MIN_TRAIN_BASES and weight > 0:
+                position_rows.append(make_prediction(test, value / weight, "POSITION_ONLY", "HELD_BASE"))
     return prediction_stats(op_rows), prediction_stats(position_rows), per_op
 
 
