@@ -1,0 +1,76 @@
+{
+  "build_b3": false,
+  "claim_ceiling": "Axis-wise synthetic calibration only; no Voynich encoder word code language morphology role meaning plaintext or translation.",
+  "comparability": {
+    "CLOSURE": "STRUCTURALLY_ANALOGOUS_EDITORIAL_PARAGRAPH_END",
+    "EXTERNAL_SUBSTITUTION": "DIRECT",
+    "HOST_RECOVERY_ACCURACY": "NOT_COMPARABLE_NO_VOYNICH_ORACLE",
+    "HOST_RECURRENCE_PROXY": "DIRECT_PROXY_NOT_RECOVERY",
+    "LEFT_RIGHT_COMPATIBILITY": "DIRECT",
+    "NEXT_HOST": "DIRECTION_ONLY_UNEQUAL_CORPUS",
+    "REGISTER_ALIGNMENT": "NOT_DIRECTLY_COMPARABLE_NONPARALLEL_CONTENT",
+    "SAME_GROUP_SUBSTITUTION": "STRUCTURALLY_ANALOGOUS_HPR2_SIGNATURE",
+    "SHORT_HOST_STRUCTURE": "DIRECT",
+    "WHOLE_LINE": "DIRECTION_ONLY_UNEQUAL_CORPUS"
+  },
+  "controls": [
+    "LEXICAL_A",
+    "HUMAN_GROWN_B2",
+    "FACTORIAL_B"
+  ],
+  "controls_frozen_exactly_as_published": true,
+  "design_content_sha256": "777c326b5dd240877fbbae96363eb9d9c49bcae40eb8b7a75aa8705f32635c3e",
+  "f84_filter": "REJECT_PAGE_OR_LOCUS_PREFIX_F84_BEFORE_RETENTION",
+  "f84r_access": false,
+  "input_sha256": {
+    "gdt046_line_frames.tsv": "4c8a8486ec39c2d138b865c950ebaff038f1db1e3668219105893d6b04f92511",
+    "gdt062_right_family_inventory.tsv": "b0292332157524a7f5e0745bde74c38432c52e3f2dd7ae816677f0ea743ca1cc",
+    "gdt167_alignment_scores.tsv": "f0bcc8510f3bf36e2f7960a11b028b71ee7e262b8d77e0cfbc63afa75f316cd1",
+    "gdt167_result.json": "f98ded13c6b09fff06b0e516cd9c779066dd03cfb1914b1133122d2a4b1bcdf5",
+    "gdt172_blind_diagnostics.tsv": "73e759cd308be72af24087ece8218244179ce3d73e687f276e4aef4233d4aeb9",
+    "gdt172_blind_parses.json.gz": "df629f9e2eaf7fc149336c7363ece8ce0c6a838ce4bfca9bd41ac44b2e48c00a",
+    "gdt172_component_recovery.tsv": "94b9d356fae2d9f79f5c420b85df30ff637199ede83c8b799db6bea311fba160",
+    "gdt172_recovery_levels.tsv": "ab990371524eb8097e7b0d2d0779350b137bd6e8b4830b1536a64bd74b8cdd4d",
+    "gdt172_result.json": "53947e346891533171029921936cfacb0217e1c797916d88858a2792d482f21b",
+    "gdt173_blind_diagnostics.tsv": "7b26acd9ab1de13469d1e12af0f4eac9bacd70c2b097e34c12600e71ef77f65a",
+    "gdt173_blind_parses.json.gz": "9752c76d3cb05e033ecdce52b6acc40d85b7665a1cbcfc87f8e8f60bf70ab760",
+    "gdt173_component_recovery.tsv": "236173fcd8ff34c5a1fd99eb948dbb8357938246d2d385984904abd05dae958c",
+    "gdt173_recovery_levels.tsv": "db5c029af43db40fb8032f74018046dc91b635ff9ef4ce9d905c3f8346e1f91e",
+    "gdt173_result.json": "dd0b58e0af841f5247cb6a9506a9a5ea56c9b8c8dfa44a63ce4965a14679a1ed",
+    "gdt173_three_system_fingerprint.tsv": "68c530a12d6d25c97573726f620fe69533df1d9e3a6389e72d624eb76e541765",
+    "gdt173_three_system_recovery.tsv": "edf9d97b3115a12209d0f05b94597315a14f13c41cb147cdda651e5bbf0827ed",
+    "run_gdt170_blind_instrument.py": "33acd76f72716f3820a315919a9a5c4f417fb10b7e06dc4e5c15b94bdd6ba9b2"
+  },
+  "method_sha256": "a6d8cc3318187264f0380bee1828284d13897216c44f0f3cce72963e91d11d19",
+  "metrics": [
+    "HOST_RECOVERY_ACCURACY",
+    "HOST_RECURRENCE_PROXY",
+    "LEFT_RIGHT_COMPATIBILITY",
+    "SHORT_HOST_STRUCTURE",
+    "SAME_GROUP_SUBSTITUTION",
+    "EXTERNAL_SUBSTITUTION",
+    "NEXT_HOST",
+    "WHOLE_LINE",
+    "CLOSURE",
+    "REGISTER_ALIGNMENT"
+  ],
+  "no_composite": true,
+  "no_images": true,
+  "no_new_parser": true,
+  "no_threshold_tuning": true,
+  "operation_rules": {
+    "lengths": [
+      1,
+      2,
+      3
+    ],
+    "maximum_per_side": 12,
+    "minimum_distinct_hosts": 8,
+    "minimum_physical_folios": 5,
+    "null_worlds": 1024
+  },
+  "placement_rule": "UNSCALED_NEAREST_CONTROL_INSIDE_RANGE_ELSE_OUTSIDE; DIRECTION_ONLY_WHERE_DECLARED; NO_COMPOSITE",
+  "schema": "GDT174_VOYNICH_CALIBRATED_FINGERPRINT_DESIGN_V1",
+  "status": "FROZEN_BEFORE_VOYNICH_FINGERPRINT_SCORING",
+  "voynich_representation": "FROZEN_GDT062_HPR2_ON_F84_FREE_COMPLETE_GDT046_LINES"
+}
