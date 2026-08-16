@@ -311,6 +311,8 @@ def aggregate_scores(fold_rows, null_by_mode):
             if axis == "HELD_FOLIO":
                 observed_rates[mode] = row["gain_per_focal"]
                 null = null_by_mode[mode]
+                row["null_mean_gain_per_focal"] = sum(null) / WORLDS
+                row["alignment_excess_per_focal"] = row["gain_per_focal"] - row["null_mean_gain_per_focal"]
                 row["local_p"] = (1 + sum(x >= row["gain_per_focal"] - 1e-12 for x in null)) / (WORLDS + 1)
             rows.append(row)
     null_max = [max(null_by_mode[m][w] for m in MODES) for w in range(WORLDS)]
@@ -425,7 +427,8 @@ def neighbor_null(predictions):
                 counts[row["axis"]] += 1
         values = {axis: sums[axis] / counts[axis] if counts[axis] else 0.0 for axis, _ in AXES}
         worlds.append({"world": world, **values})
-    null_max = [max(row[axis] for axis, _ in AXES) for row in worlds]
+    null_means = {axis: sum(row[axis] for row in worlds) / WORLDS for axis, _ in AXES}
+    null_max = [max(row[axis] - null_means[axis] for axis, _ in AXES) for row in worlds]
     summary_rows = []
     for axis, _ in AXES:
         rows = [r for r in predictions if r["axis"] == axis]
@@ -434,9 +437,10 @@ def neighbor_null(predictions):
                              "eligible_folds": len({r["held"] for r in rows}),
                              "mean_reciprocal_rank": observed[axis],
                              "top1": sum(r["top1"] for r in rows), "top5": sum(r["top5"] for r in rows),
-                             "null_mean": sum(values) / WORLDS,
+                             "null_mean": null_means[axis],
+                             "excess_mrr": observed[axis] - null_means[axis],
                              "local_p": (1 + sum(x >= observed[axis] - 1e-12 for x in values)) / (WORLDS + 1),
-                             "max3_p": (1 + sum(x >= observed[axis] - 1e-12 for x in null_max)) / (WORLDS + 1),
+                             "max3_p": (1 + sum(x >= observed[axis] - null_means[axis] - 1e-12 for x in null_max)) / (WORLDS + 1),
                              "swappable_predictions": swappable[axis],
                              "claim_state": "OPAQUE_DISTRIBUTIONAL_NEIGHBOR_NO_LEXEME_OR_MEANING"})
     return worlds, summary_rows
@@ -501,7 +505,7 @@ def main() -> None:
                            "held_folio_mrr": row["HELD_FOLIO"],
                            "held_section_mrr": row["HELD_SECTION"],
                            "held_hand_mrr": row["HELD_HAND"],
-                           "max3_mrr": max(row[a] for a, _ in AXES),
+                           "max3_null_centered_excess": max(row[a] - next(x["null_mean"] for x in neighbor_summary if x["axis"] == a) for a, _ in AXES),
                            "claim_state": "NEIGHBOR_ASSIGNMENT_FREQUENCY_STRATIFIED_NULL"} for row in neighbor_worlds]
 
     exact_context_pass = []
@@ -561,9 +565,9 @@ Decision: **{status}**.
 
 ## Held unordered-context prediction
 
-| context | split | focal/folds | gain bits | bits/focal | positive folds | seen | without frozen ok->y | p/max3 |
-| --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-""" + "".join(f"| `{r['context_mode']}` | `{r['axis']}` | {r['focal_occurrences']}/{r['folds']} | {r['gain_bits']:+.3f} | {r['gain_per_focal']:+.5f} | {r['positive_folds']}/{r['folds']} | {r['source_seen_fraction']:.3f} | {r['gain_without_ok_y_bits']:+.3f} | {r.get('local_p','')}{' / ' + str(r.get('max3_p','')) if r['axis']=='HELD_FOLIO' else ''} |\n" for r in score_rows) + f"""
+| context | split | focal/folds | gain bits | bits/focal | null mean / excess | positive folds | seen | without frozen ok->y | p/max3 |
+| --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+""" + "".join(f"| `{r['context_mode']}` | `{r['axis']}` | {r['focal_occurrences']}/{r['folds']} | {r['gain_bits']:+.3f} | {r['gain_per_focal']:+.5f} | {r.get('null_mean_gain_per_focal','')} / {r.get('alignment_excess_per_focal','')} | {r['positive_folds']}/{r['folds']} | {r['source_seen_fraction']:.3f} | {r['gain_without_ok_y_bits']:+.3f} | {r.get('local_p','')}{' / ' + str(r.get('max3_p','')) if r['axis']=='HELD_FOLIO' else ''} |\n" for r in score_rows) + f"""
 
 Every focal occurrence has total context weight one.  The frozen `ok -> y`
 control was neither a feature nor a selection seed; the deletion column removes
@@ -571,9 +575,9 @@ only that focal/context mass.
 
 ## Whole-line distributional neighbor transfer
 
-| split | predictions/folds | MRR | top1/top5 | null mean | local/max3 p | swappable |
+| split | predictions/folds | MRR | top1/top5 | null mean / excess | local/max3 p | swappable |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
-""" + "".join(f"| `{r['axis']}` | {r['predictions']}/{r['eligible_folds']} | {r['mean_reciprocal_rank']:.4f} | {r['top1']}/{r['top5']} | {r['null_mean']:.4f} | {r['local_p']:.4f}/{r['max3_p']:.4f} | {r['swappable_predictions']} |\n" for r in neighbor_summary) + f"""
+""" + "".join(f"| `{r['axis']}` | {r['predictions']}/{r['eligible_folds']} | {r['mean_reciprocal_rank']:.4f} | {r['top1']}/{r['top5']} | {r['null_mean']:.4f} / {r['excess_mrr']:+.4f} | {r['local_p']:.4f}/{r['max3_p']:.4f} | {r['swappable_predictions']} |\n" for r in neighbor_summary) + f"""
 
 Neighbor identities are exact opaque categories; PPMI profiles use only
 unordered whole-line co-occurrence.  Alternate readings are not replications.

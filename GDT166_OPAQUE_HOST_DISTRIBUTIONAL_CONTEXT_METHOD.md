@@ -103,8 +103,10 @@ eligible hosts and folds for held folio, section, and hand.
 
 The neighbor null permutes predicted neighbor IDs within split and global
 focal-frequency bin, preserving the number and frequency ecology of predictions.
-Run 1,024 worlds and maxT across the three split axes.  Exact identity strings
-do not enter similarity.
+Run 1,024 worlds and maxT across the three split axes.  Because the number of
+held candidates differs sharply by axis, maxT uses each axis's MRR minus its
+own null mean rather than incomparable raw MRR.  Exact identity strings do not
+enter similarity.
 
 ## Decisions
 
