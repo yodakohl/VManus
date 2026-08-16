@@ -46,8 +46,12 @@ For each source event, nuisance key is:
 
 Frequency bins are `1`, `2--4`, `5--15`, `16--63`, and `64+`; line-count bins
 are `2`, `3`, `4`, `5--7`, and `8+`.  These bins are fixed once from the
-text-blind adjacency census.  The nuisance distribution is a target-count
-table with concentration 32 toward the training target unigram.
+text-blind adjacency census.  For each of the six nuisance variables, form a
+separate target-count distribution with concentration 32 toward the training
+target unigram; the nuisance prediction is their equal-weight arithmetic
+mixture.  Thus when a section or hand is wholly excluded, that unavailable
+component backs off to the unigram while the other five controls remain
+active.  No interaction or mixture weight is fitted.
 
 The exact-host model adds the opaque source identity with concentration 16
 toward the nuisance distribution.  It never sees any character, substring, or
@@ -102,7 +106,7 @@ with at least eight occurrences on at least three physical folios.  It is
 label it `LOCAL_OR_UNSTABLE` or `NO_GAIN`.
 
 Primary null: in every held-folio test set, permute next-host identities within
-the exact nuisance key while leaving trained models fixed.  This preserves
+the exact six-variable joint nuisance key while leaving trained models fixed.  This preserves
 folio, section, Currier, hand, source-frequency bin, position, line length,
 source identities, and the complete held target multiset.  Run 1,024
 deterministic worlds.  Report an inclusive p-value for total exact-host gain
