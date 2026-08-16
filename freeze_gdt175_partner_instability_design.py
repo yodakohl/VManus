@@ -1,0 +1,13 @@
+#!/usr/bin/env python3
+"""Freeze GDT175 before any GDT175 control or Voynich score."""
+from __future__ import annotations
+import hashlib,json
+from pathlib import Path
+R=Path(__file__).resolve().parent;OUT=R/"gdt175_design.json";METHOD=R/"GDT175_RECURRENCE_PARTNER_INSTABILITY_METHOD.md"
+FILES=["gdt172_blind_parses.json.gz","gdt172_result.json","gdt173_blind_parses.json.gz","gdt173_result.json","gdt174_design.json","gdt174_result.json"]
+def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+def csha(x):return hashlib.sha256(json.dumps(x,sort_keys=True,ensure_ascii=True,separators=(",",":")).encode()).hexdigest()
+def main():
+ parent=json.loads((R/"gdt174_result.json").read_text());assert parent["status"]=="VOYNICH_PARTLY_OUTSIDE_FROZEN_SYNTHETIC_ENVELOPE" and not parent["build_b3"]
+ d={"schema":"GDT175_PARTNER_INSTABILITY_DESIGN_V1","status":"DIAGNOSTIC_FROZEN_BEFORE_CONTROL_CALIBRATION","controls":["LEXICAL_A","HUMAN_GROWN_B2","FACTORIAL_B"],"control_level":"SURFACE_ONLY","controls_frozen_exactly_as_published":True,"build_b3":False,"event":"WITHIN_PHYSICAL_LINE_NEXT_HOST","eligible_host":{"minimum_next_events":2,"minimum_physical_folios":2},"occurrence_bins":{"N2_4":[2,4],"N5_15":[5,15],"N16_63":[16,63],"N64_PLUS":[64,None]},"held_model":{"alpha":16.0,"beta":8.0,"nuisance":["GROUP_INDEX","LINE_ORDINAL_MOD3","GROUP_COUNT"],"fold":"PHYSICAL_FOLIO"},"partner_overlap":"MEAN_PAIRWISE_UNWEIGHTED_JACCARD","distribution_divergence":"MEAN_PAIRWISE_JENSEN_SHANNON_BITS_JEFFREYS_HALF_ON_POOLED_HOST_TARGET_SUPPORT","target_entropy":"POOLED_SHANNON_BITS_AND_MEAN_EMPIRICAL_FOLIO_SHANNON_BITS","sampling_null":{"worlds":256,"preserve":["HOST_PARTNER_MULTISET","FOLIO_EVENT_COUNTS"],"shuffle":"PARTNER_ASSIGNMENT_ONLY"},"powered_scope":{"minimum_folios":3,"minimum_next_events":20,"minimum_eligible_hosts":3},"powered_bin_minimum_hosts":5,"scopes":["GLOBAL","REGISTER","SECTION_WHERE_AVAILABLE"],"summary_weighting":{"overlap_js_entropy":"EQUAL_HOST","held_gain":"EVENT_SUM_AND_BITS_PER_EVENT"},"diagnoses":["SAMPLING_FREQUENCY_SUFFICIENT","REGISTER_MIXTURE_DOMINANT","FOLIO_CONDITIONED_INSTABILITY_SUPPORTED","MIXED_OR_UNRESOLVED"],"diagnosis_rules":"LITERAL_METHOD_RULES","control_inputs":{x:sha(R/x) for x in FILES},"method_sha256":sha(METHOD),"forbidden_before_control_commit":["gdt062_right_family_inventory.tsv","gdt046_line_frames.tsv","gdt174_side_by_side.tsv"],"no_rescaling":True,"no_tuning":True,"no_new_architecture":True,"f84r_access":False,"claim_ceiling":"Partner-instability calibration only; no architecture word code language morphology role meaning plaintext or translation."};d["design_content_sha256"]=csha(d);OUT.write_text(json.dumps(d,indent=2,sort_keys=True)+"\n");print(d["status"])
+if __name__=="__main__":main()

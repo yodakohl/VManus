@@ -1,0 +1,98 @@
+{
+  "build_b3": false,
+  "claim_ceiling": "Partner-instability calibration only; no architecture word code language morphology role meaning plaintext or translation.",
+  "control_inputs": {
+    "gdt172_blind_parses.json.gz": "df629f9e2eaf7fc149336c7363ece8ce0c6a838ce4bfca9bd41ac44b2e48c00a",
+    "gdt172_result.json": "53947e346891533171029921936cfacb0217e1c797916d88858a2792d482f21b",
+    "gdt173_blind_parses.json.gz": "9752c76d3cb05e033ecdce52b6acc40d85b7665a1cbcfc87f8e8f60bf70ab760",
+    "gdt173_result.json": "dd0b58e0af841f5247cb6a9506a9a5ea56c9b8c8dfa44a63ce4965a14679a1ed",
+    "gdt174_design.json": "fd4ecffa3abd0be4a95b688d71e409ae42c123e9e4c14f0df4ef0be6bd1edcd7",
+    "gdt174_result.json": "5b466bd8338c6d0f63792324eea05dc724dbe1290832acf830d69210eeb94f1b"
+  },
+  "control_level": "SURFACE_ONLY",
+  "controls": [
+    "LEXICAL_A",
+    "HUMAN_GROWN_B2",
+    "FACTORIAL_B"
+  ],
+  "controls_frozen_exactly_as_published": true,
+  "design_content_sha256": "0f0f2b28a9d716cb8c877a721b2f8a7d8e3ec60862816a03074ae63af864cbd3",
+  "diagnoses": [
+    "SAMPLING_FREQUENCY_SUFFICIENT",
+    "REGISTER_MIXTURE_DOMINANT",
+    "FOLIO_CONDITIONED_INSTABILITY_SUPPORTED",
+    "MIXED_OR_UNRESOLVED"
+  ],
+  "diagnosis_rules": "LITERAL_METHOD_RULES",
+  "distribution_divergence": "MEAN_PAIRWISE_JENSEN_SHANNON_BITS_JEFFREYS_HALF_ON_POOLED_HOST_TARGET_SUPPORT",
+  "eligible_host": {
+    "minimum_next_events": 2,
+    "minimum_physical_folios": 2
+  },
+  "event": "WITHIN_PHYSICAL_LINE_NEXT_HOST",
+  "f84r_access": false,
+  "forbidden_before_control_commit": [
+    "gdt062_right_family_inventory.tsv",
+    "gdt046_line_frames.tsv",
+    "gdt174_side_by_side.tsv"
+  ],
+  "held_model": {
+    "alpha": 16.0,
+    "beta": 8.0,
+    "fold": "PHYSICAL_FOLIO",
+    "nuisance": [
+      "GROUP_INDEX",
+      "LINE_ORDINAL_MOD3",
+      "GROUP_COUNT"
+    ]
+  },
+  "method_sha256": "9bad003155dda4d1c2ef0cca4f7de81335748813506637db5a34ab454eec8613",
+  "no_new_architecture": true,
+  "no_rescaling": true,
+  "no_tuning": true,
+  "occurrence_bins": {
+    "N16_63": [
+      16,
+      63
+    ],
+    "N2_4": [
+      2,
+      4
+    ],
+    "N5_15": [
+      5,
+      15
+    ],
+    "N64_PLUS": [
+      64,
+      null
+    ]
+  },
+  "partner_overlap": "MEAN_PAIRWISE_UNWEIGHTED_JACCARD",
+  "powered_bin_minimum_hosts": 5,
+  "powered_scope": {
+    "minimum_eligible_hosts": 3,
+    "minimum_folios": 3,
+    "minimum_next_events": 20
+  },
+  "sampling_null": {
+    "preserve": [
+      "HOST_PARTNER_MULTISET",
+      "FOLIO_EVENT_COUNTS"
+    ],
+    "shuffle": "PARTNER_ASSIGNMENT_ONLY",
+    "worlds": 256
+  },
+  "schema": "GDT175_PARTNER_INSTABILITY_DESIGN_V1",
+  "scopes": [
+    "GLOBAL",
+    "REGISTER",
+    "SECTION_WHERE_AVAILABLE"
+  ],
+  "status": "DIAGNOSTIC_FROZEN_BEFORE_CONTROL_CALIBRATION",
+  "summary_weighting": {
+    "held_gain": "EVENT_SUM_AND_BITS_PER_EVENT",
+    "overlap_js_entropy": "EQUAL_HOST"
+  },
+  "target_entropy": "POOLED_SHANNON_BITS_AND_MEAN_EMPIRICAL_FOLIO_SHANNON_BITS"
+}
