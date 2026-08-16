@@ -178,13 +178,15 @@ def make_prediction(test: dict[str, object], pred: np.ndarray, model: str, mode:
             "section": test["section"], "hand": test["hand"], "source_count": test["source_count"], "target_count": test["target_count"], "weight": test["weight"],
             "zero_sse": float(actual @ actual), "pred_sse": float((actual - pred) @ (actual - pred)), "dot": dot,
             "cosine": dot / (na * npred) if na and npred else 0.0, "actual_norm": na, "predicted_norm": npred,
+            "actual_delta_json": json.dumps([round(float(x), 12) for x in actual], separators=(",", ":")),
+            "predicted_delta_json": json.dumps([round(float(x), 12) for x in pred], separators=(",", ":")),
             "claim_state": "HELD_FORMAL_DELTA_NO_MORPHOLOGY_OR_MEANING"}
 
 
 def predict_cases(cases: list[dict[str, object]], mode: str, include_exact: bool) -> list[dict[str, object]]:
-    by_op = defaultdict(list); by_pos = defaultdict(list); by_base = defaultdict(list)
+    by_op = defaultdict(list); by_pos = defaultdict(list); by_exact = defaultdict(list)
     for case in cases:
-        by_op[case["operation"]].append(case); by_pos[case["length"], case["position"]].append(case); by_base[case["base_family"]].append(case)
+        by_op[case["operation"]].append(case); by_pos[case["length"], case["position"]].append(case); by_exact[case["source"], case["target"]].append(case)
     out = []
     for test in cases:
         def allowed(row: dict[str, object]) -> bool:
@@ -198,7 +200,7 @@ def predict_cases(cases: list[dict[str, object]], mode: str, include_exact: bool
         if len(position) >= MIN_TRAIN_CASES and len({r["base_family"] for r in position}) >= MIN_TRAIN_BASES:
             out.append(make_prediction(test, weighted_mean(position), "POSITION_ONLY", mode))
         if include_exact:
-            exact = [r for r in by_base[test["base_family"]] if r is not test and allowed(r)]
+            exact = [r for r in by_exact[test["source"], test["target"]] if r is not test and allowed(r)]
             if exact: out.append(make_prediction(test, weighted_mean(exact), "EXACT_PAIR_OTHER_STRATA", mode))
     return out
 
@@ -322,6 +324,12 @@ def main() -> None:
         for mode in ("HELD_BASE", "HELD_BASE_AND_SECTION", "HELD_BASE_AND_HAND"):
             stats = prediction_stats([r for r in hpred if r["model"] == "OP_SUBSTITUTION" and r["mode"] == mode and r["operation"] == op])
             for key, value in stats.items(): row[f"{mode.lower()}_{key}"] = value
+        rr = [r for r in hpred if r["model"] == "OP_SUBSTITUTION" and r["mode"] == "HELD_BASE" and r["operation"] == op]
+        if rr:
+            weights = np.array([float(r["weight"]) for r in rr]); actual = np.average(np.array([json.loads(str(r["actual_delta_json"])) for r in rr]), axis=0, weights=weights); predicted = np.average(np.array([json.loads(str(r["predicted_delta_json"])) for r in rr]), axis=0, weights=weights)
+            strongest = sorted(range(len(actual)), key=lambda i: (-abs(float(actual[i])), hpr_dims[i]))[:4]
+            row["dominant_delta_dimensions"] = "|".join(f"{hpr_dims[i]}:{float(actual[i]):+.4f}/{float(predicted[i]):+.4f}" for i in strongest)
+        else: row["dominant_delta_dimensions"] = ""
         op_scores.append(row)
 
     # Generic local-sequence channel applied identically to VMS and controls.
@@ -340,7 +348,7 @@ def main() -> None:
         labels = {r["identity"]: r["identity"] for r in occurrences if len(r["identity"]) in LENGTHS}
         cases = generic_cases(labels, vectors, counts); score, position, pop = fast_primary(cases)
         predictions = predict_cases(cases, "HELD_BASE", False)
-        for row in predictions: row["corpus_id"] = corpus_id
+        for row in predictions: row["corpus_id"] = corpus_id; row["context_dimensions"] = "|".join(dims)
         generic_predictions += predictions
         top = max((x["fractional_mse_gain"] for x in pop.values()), default=0.0)
         null_rows, null_summary = null_worlds(corpus_id, labels, generic_cases, vectors, counts, float(score["fractional_mse_gain"]), float(top))
@@ -425,9 +433,9 @@ as a separate baseline and never enters the learned substitution vector.
 
 ## Strongest specific substitutions
 
-| operation | cells/bases | sections/hands | held-base gain | held-section | held-hand | cosine | maxT p | label |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
-""" + "".join(f"| `{r['operation']}` | {r['eligible_cells']}/{r['base_families']} | {r['sections']}/{r['hands']} | {float(r['held_base_fractional_mse_gain']):+.4f} | {float(r['held_base_and_section_fractional_mse_gain']):+.4f} | {float(r['held_base_and_hand_fractional_mse_gain']):+.4f} | {float(r['held_base_mean_cosine']):+.4f} | {float(r['maxT_p']):.4f} | `{r['label']}` |\n" for r in top) + f"""
+| operation | cells/bases | sections/hands | held-base gain | held-section | held-hand | cosine | maxT p | dominant observed/predicted deltas | label |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- | --- |
+""" + "".join(f"| `{r['operation']}` | {r['eligible_cells']}/{r['base_families']} | {r['sections']}/{r['hands']} | {float(r['held_base_fractional_mse_gain']):+.4f} | {float(r['held_base_and_section_fractional_mse_gain']):+.4f} | {float(r['held_base_and_hand_fractional_mse_gain']):+.4f} | {float(r['held_base_mean_cosine']):+.4f} | {float(r['maxT_p']):.4f} | `{r['dominant_delta_dimensions']}` | `{r['label']}` |\n" for r in top) + f"""
 
 These rows are selected after scoring and receive maxT rather than local-only
 labels.  Character names are frozen HPR2 display characters, not inferred
