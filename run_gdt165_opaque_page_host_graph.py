@@ -212,7 +212,7 @@ def probabilities(model, event, target):
     return q, nuisance, host, community
 
 
-def rank_flags(model, event, actual):
+def rank_targets(model, event):
     scored = []
     for target in model["target_vocab"]:
         q, nuisance, host, community = probabilities(model, event, target)
@@ -221,8 +221,7 @@ def rank_flags(model, event, actual):
     result = {}
     for name, column in (("unigram", 1), ("nuisance", 2), ("host", 3), ("community", 4)):
         ordered = sorted(scored, key=lambda x: order_key(x, column))
-        result[name + "_top1"] = int(ordered[0][0] == actual)
-        result[name + "_top5"] = int(actual in {x[0] for x in ordered[:5]})
+        result[name] = (ordered[0][0], frozenset(x[0] for x in ordered[:5]))
     return result
 
 
@@ -247,12 +246,10 @@ def score_mode(events, mode, target_vocab, panel):
             seen += int(model["host_total"][event["source"]] > 0)
             cache_key = (event["source"],) + tuple(event[f] for f in FEATURES)
             if cache_key not in rank_cache:
-                rank_cache[cache_key] = rank_flags(model, event, event["target"])
-            else:
-                # The cached ranking is independent of actual target; recompute membership only.
-                rank_cache[cache_key] = rank_flags(model, event, event["target"])
-            for key, value in rank_cache[cache_key].items():
-                totals[key] += value
+                rank_cache[cache_key] = rank_targets(model, event)
+            for name, (top1, top5) in rank_cache[cache_key].items():
+                totals[name + "_top1"] += int(event["target"] == top1)
+                totals[name + "_top5"] += int(event["target"] in top5)
             contributions.append({"mode": mode, "held": held, "event_id": event["event_id"],
                                   "source": event["source"], "target": event["target"], "folio": event["folio"],
                                   "host_gain_bits": math.log2(host / nuisance),
@@ -377,8 +374,6 @@ def held_alignment_null(events, artifacts, relation_rows):
     rows = []
     gains = []
     tops = []
-    swappable = sum(len(group) for _, (_, test) in artifacts.items()
-                    for group in defaultdict(list).values())  # replaced below
     swappable = 0
     variable = 0
     prepared = {}
@@ -386,7 +381,20 @@ def held_alignment_null(events, artifacts, relation_rows):
         groups = defaultdict(list)
         for event in test:
             groups[event["nuisance_key"]].append(event)
-        prepared[held] = model, groups
+        prepared_groups = {}
+        for key, group in groups.items():
+            unique_sources = {event["source"] for event in group}
+            unique_targets = {event["target"] for event in group}
+            lookup = {}
+            exemplar = group[0]
+            for source in unique_sources:
+                probe = dict(exemplar)
+                probe["source"] = source
+                for target in unique_targets:
+                    _, nuisance, host, _ = probabilities(model, probe, target)
+                    lookup[source, target] = math.log2(host / nuisance)
+            prepared_groups[key] = group, lookup
+        prepared[held] = prepared_groups
         swappable += sum(len(group) for group in groups.values() if len(group) >= 2)
         variable += sum(len(group) for group in groups.values() if len({r["target"] for r in group}) >= 2)
     for world in range(WORLDS):
@@ -395,14 +403,13 @@ def held_alignment_null(events, artifacts, relation_rows):
         pair_count = Counter()
         pair_folios = defaultdict(set)
         for held in sorted(prepared):
-            model, groups = prepared[held]
+            groups = prepared[held]
             for key in sorted(groups, key=str):
-                group = groups[key]
+                group, lookup = groups[key]
                 targets = [r["target"] for r in group]
                 rng.shuffle(targets)
                 for event, target in zip(group, targets):
-                    _, nuisance, host, _ = probabilities(model, event, target)
-                    gain = math.log2(host / nuisance)
+                    gain = lookup[event["source"], target]
                     total += gain
                     pair = event["source"], target
                     pair_gain[pair] += gain
