@@ -1,0 +1,104 @@
+{
+  "alternate_renderers_are_not_replications": true,
+  "claim_ceiling": "Synthetic instrument freeze only; no Voynich word, code value, language, meaning, plaintext, or translation.",
+  "commitments": {
+    "observation_content_sha256": "900d1527985be0c99a01e39af01d665f51d592f126c4d4d1d2a4855f901eb909",
+    "oracle_content_sha256": "6d85edc0e6d2588347cbafdf90dd19c52ca245523bf46af756a8c2db6b1cecfd"
+  },
+  "counts": {
+    "content_folio_ordinals": 123,
+    "observation_rows": 240000,
+    "oracle_rows": 240000,
+    "renderers_per_world": 10,
+    "synthetic_folios": 2460,
+    "worlds": 2
+  },
+  "documents": {
+    "GDT170_FULL_OBSERVATION_INSTRUMENT_METHOD.md": "9e55d004c4cfa69912f352a78ce50b0b758e28e7e0124a497241ecabc4f81ba3"
+  },
+  "f84r_access": false,
+  "freeze_content_sha256": "43996e512807058d5aa765ff0e9b0ebba70cd73073616797578576f85a8553ae",
+  "implementation": {
+    "build_gdt170_observation_oracle.py": "73155ea596e08589a24177e81f32e9232a698e19a3198dd40b60a08563d3cd7c"
+  },
+  "inputs": {
+    "gdt168_blind_synthetic_corpora.json.gz": "b4ad2ee2310bbf4ace1a7187ee1df3dc485826ffa0dadf0a5e094d433e9c0355",
+    "gdt168_codebook_truth.tsv": "e17d81e0b80e8e793a7457c5a4a577fb83c1afcc1c33a51364f5dc65e3e41958",
+    "gdt168_source_encoder_freeze.json": "a1b1fe85a97a76252b245299e3a03f57984936597ccbb8dc95ca4c8f49ad3798",
+    "gdt168_synthetic_ground_truth.json.gz": "b1b71e4563e9725f23bbf39dc0be45530cfb2285c321be86f4e898519833b5ff"
+  },
+  "no_voynich_tuning": true,
+  "observation_allowed_fields": [
+    "observation_id",
+    "world_view",
+    "witness_renderer",
+    "register",
+    "hand",
+    "folio_id",
+    "layout_folio_ordinal",
+    "physical_line_id",
+    "line_ordinal_on_folio",
+    "group_index",
+    "group_count",
+    "surface_group",
+    "left_separator",
+    "right_separator",
+    "paragraph_start",
+    "paragraph_end",
+    "line_layout_role",
+    "page_layout_role",
+    "annotation_provenance",
+    "annotation_tags",
+    "annotation_confidence"
+  ],
+  "observation_forbidden_fields": [
+    "b3",
+    "canonical_host",
+    "concept_index",
+    "dy_closure",
+    "page_host",
+    "plaintext_form",
+    "record_id",
+    "rendered_host",
+    "right_family",
+    "source_unit_id",
+    "true_b3",
+    "true_record_slot",
+    "true_right_family",
+    "true_wrapper",
+    "wrapper"
+  ],
+  "oracle_fields": [
+    "observation_id",
+    "system",
+    "original_blind_id",
+    "source_unit_full",
+    "plaintext_form",
+    "concept_index",
+    "true_record_id",
+    "true_record_slot",
+    "true_record_length",
+    "canonical_a_code",
+    "canonical_host",
+    "rendered_host",
+    "true_wrapper",
+    "true_local_frame",
+    "true_right_family",
+    "true_closure_value",
+    "true_dy_closure",
+    "true_b3",
+    "wrapper_digit",
+    "right_digit",
+    "closure_digit"
+  ],
+  "outputs": {
+    "gdt170_observation_corpus.json.gz": "18bb4fcda68c4f9182ebaaef800e987b0662e19691a4cc94e700ac46c1f5090d",
+    "gdt170_observation_page_manifest.tsv": "144d8a311928078542c0ebbcc591f89974c3f97a622871d520f465b1e0156e47",
+    "gdt170_observation_schema.tsv": "f51a9d110a130ebe609910329f27f7d23dcaf317739921afaa6cafb428730bc8",
+    "gdt170_sealed_oracle.json.gz": "cd39ab4366ba000bda5a87d674488f4e6e09e832ec5a6354ed8d6ec32f0c56f8"
+  },
+  "records_per_folio": 6,
+  "schema": "GDT170_OBSERVATION_ORACLE_FREEZE_V1",
+  "status": "FROZEN_STRICT_OBSERVATION_AND_SEALED_ORACLE_BEFORE_BLIND_PARSE",
+  "voynich_inputs": 0
+}
