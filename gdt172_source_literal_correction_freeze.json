@@ -1,0 +1,97 @@
+{
+  "change": "LITERAL_ESCAPE_MARKER_PLUS_UNCHANGED_SOURCE_GRAPHEMATIC_FORM",
+  "claim_ceiling": "Synthetic literal-channel sensitivity freeze only; no Voynich word, code value, language, meaning, plaintext, or translation.",
+  "commitments": {
+    "audit_content_sha256": "f60571fc8c5ca8471a6f04ada0ca8e0510ad9e3c8763f20579fbd84c725d5c00",
+    "observation_content_sha256": "521a3f41f60372eec9acce78764306087979b9fee630d158af8e00b8d1d757ba",
+    "oracle_content_sha256": "3e186492d480f30c3cb2d4ca7b1bb158eb74de0a55fc1c5a8c6ae2890d63a0e0"
+  },
+  "counts": {
+    "content_folios": 176,
+    "frequent_rows": 11422,
+    "frequent_surface_changes": 0,
+    "literal_rows": 19006,
+    "literal_surface_changes": 19006,
+    "observation_rows": 30428,
+    "oracle_rows": 30428
+  },
+  "documents": {
+    "GDT172_LITERAL_ESCAPE_CORRECTION_METHOD.md": "28dce25f4ee9724a7d5bbc0254c880de821bfd5f0adfa11debd58ba3d827b8fc"
+  },
+  "f84_access": false,
+  "freeze_content_sha256": "6d7ea093dc278392f6eedb190479b76aa9257268de787585cc2d1af29b0af29f",
+  "implementation": {
+    "build_gdt172_literal_correction.py": "caa031b1c55e7d271155beffc1355905f353d15a1583b2ebf9670686f2736cf4"
+  },
+  "inputs": {
+    "gdt171_observation_corpus.json.gz": "8e23c8d988dba7718a12624489d8b4218d73ed626d40213ab155f24dde5729bf",
+    "gdt171_observation_schema.tsv": "dbceff1a0ee95ef6252e4ec6b396f94601b391b1167e0b61e4fe8c5ef0983c4b",
+    "gdt171_register_folio_manifest.tsv": "b169930ee4be96120a7c25665568174c6c3a95a4543b5a8e82a4136f1ef28dc8",
+    "gdt171_sealed_lexical_lookup.tsv": "dcf24d72559a486e40580abb4e384ebab5c2121705fbae78e40d4797dafeb587",
+    "gdt171_sealed_oracle.json.gz": "2134df197f344b22b76034e8271c398fb9d652fa000147bd0d9ec897b198fb30",
+    "gdt171_source_observation_oracle_freeze.json": "959610cfe21a9679c0b786d4ec2d1c070e46f919b1e03ddbdd26adea69b5db70"
+  },
+  "invariants": {
+    "b2_noncartesian_table": "NOT_BUILT_DEFERRED",
+    "frequent_lexical_assignments_exact": true,
+    "frequent_surface_rows_byte_identical": true,
+    "observation_ids_order_and_layout_exact": true,
+    "outer_fields_unchanged_on_all_rows": true,
+    "system_b_384_row_table_unchanged": true,
+    "system_b_architecture": "EXPLICIT_FACTORIAL_DISTRIBUTED_CONTROL_NOT_HISTORICAL_NATURALISTIC"
+  },
+  "no_voynich_tuning": true,
+  "observation_allowed_fields": [
+    "observation_id",
+    "world_view",
+    "witness_renderer",
+    "register",
+    "hand",
+    "folio_id",
+    "layout_folio_ordinal",
+    "physical_line_id",
+    "line_ordinal_on_folio",
+    "group_index",
+    "group_count",
+    "surface_group",
+    "left_separator",
+    "right_separator",
+    "paragraph_start",
+    "paragraph_end",
+    "line_layout_role",
+    "page_layout_role",
+    "annotation_provenance",
+    "annotation_tags",
+    "annotation_confidence"
+  ],
+  "observation_forbidden_fields": [
+    "canonical_host",
+    "lexical_id",
+    "lexical_status",
+    "rendered_host",
+    "scribe_render_rule",
+    "source_form",
+    "source_type_hash",
+    "true_closure",
+    "true_field_marker",
+    "true_lexical_left",
+    "true_lexical_right",
+    "true_line_frame",
+    "true_literal_escape",
+    "true_positional_right",
+    "true_record_id",
+    "true_record_length",
+    "true_record_operator",
+    "true_record_slot",
+    "true_source_occurrence_index"
+  ],
+  "outputs": {
+    "gdt172_literal_change_audit.tsv": "170170821047d48592e725c978a07eeffea487bc31363e82db8551615cbd494d",
+    "gdt172_observation_corpus.json.gz": "d485a91888611e4f1654d7cdcda32fb3da0da9f895a95000502bfc66f074234c",
+    "gdt172_sealed_oracle.json.gz": "622fb24dbc78fc65439d8e49657b4fa885c36d22fcce9ae0caee538db12177bd"
+  },
+  "parent_status": "FROZEN_HISTORICAL_V2_BEFORE_BLIND_PARSE",
+  "schema": "GDT172_SOURCE_LITERAL_CORRECTION_FREEZE_V1",
+  "status": "FROZEN_LITERAL_ONLY_CORRECTION_BEFORE_BLIND_RERUN",
+  "voynich_inputs": 0
+}
