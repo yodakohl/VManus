@@ -393,6 +393,8 @@ def main() -> None:
             counters.append({"counterexample_type": "REGISTER_OR_HAND_REVERSAL", "item": row["operation"], "evidence": f"base {float(row['held_base_fractional_mse_gain']):+.6f}; section {float(row['held_base_and_section_fractional_mse_gain']):+.6f}; hand {float(row['held_base_and_hand_fractional_mse_gain']):+.6f}", "impact": "The relation is not manuscript-wide under the strict transfer split."})
     counters += [
         {"counterexample_type": "EXACT_IDENTITY_BASELINE", "item": "EXACT_PAIR_OTHER_STRATA", "evidence": f"held-base exact-pair gain {float(hsummary['HELD_BASE','EXACT_PAIR_OTHER_STRATA']['fractional_mse_gain']):+.6f}", "impact": "Exact host-pair recurrence remains separate and may explain more than the substitution class."},
+        {"counterexample_type": "GENERIC_ENDPOINT_ABSOLUTE_FAILURE", "item": "VOYNICH_PAGE_HOST", "evidence": f"identical generic local-sequence op gain {float(vgeneric['op_fractional_mse_gain']):+.6f}", "impact": "Voynich ranks above powered historical controls only relatively; the common endpoint does not show positive absolute prediction."},
+        {"counterexample_type": "PARSER_COUPLING", "item": "HPR2_OUTER_CONTEXT", "evidence": "The strongest a>y and e>y deltas concentrate in frozen B3/DY closure dimensions derived from the same source group as PAGE_HOST.", "impact": "The lead may be orthotactic/compiler coupling inside HPR2, not an independently established morphological operation."},
         {"counterexample_type": "GDT003_STRING_CEILING", "item": "GDT003", "evidence": "Nested paradigm prediction did not beat character/string baselines.", "impact": "A context-vector relation is not established linguistic morphology."},
         {"counterexample_type": "HISTORICAL_CONTEXT_LIMIT", "item": "GDT159", "evidence": "Historical controls lack Voynich HPR2 fields and are compared only on the identical generic local-sequence endpoint.", "impact": "Cross-corpus ranking calibrates ordinary neighborhood structure, not identical manuscript annotation."},
     ]
@@ -429,7 +431,13 @@ The frozen short-host inventory yields {len(hcases):,} section×hand cells from
 The primary operation learner's position-preserving aggregate p is
 {hnull_summary['aggregate_local_p']:.6f}; its best-operation maxT p is
 {hnull_summary['top_operation_maxT_p']:.6f}.  Exact-pair transfer is shown only
-as a separate baseline and never enters the learned substitution vector.
+as a separate baseline and never enters the learned substitution vector.  The
+predictive hierarchy is exact host-pair identity
+({float(hsummary['HELD_BASE','EXACT_PAIR_OTHER_STRATA']['fractional_mse_gain']):+.6f})
+above substitution class ({float(primary['fractional_mse_gain']):+.6f}) above
+position alone ({float(primary_position['fractional_mse_gain']):+.6f}).  The
+substitution signal is therefore transferable but does not replace lexical
+identity.
 
 ## Strongest specific substitutions
 
@@ -450,14 +458,23 @@ manuscript graphemes or sounds.
 This endpoint is deliberately modest: previous/next contiguous form length and
 within-unit position.  It is the only context representation applied
 identically to Voynich and the historical corpora.  GDT159 sampled gaps remain
-`MISSING`; they are not reinterpreted as record boundaries.
+`MISSING`; they are not reinterpreted as record boundaries.  Voynich's absolute
+gain on this common endpoint is {float(vgeneric['op_fractional_mse_gain']):+.6f},
+so it is negative even though it is less negative than every powered historical
+control.  This is relative specificity, not successful generic sequence
+prediction.
 
 ## Interpretation
 
 The result tests whether a repeated surface substitution carries a portable
 formal-context delta beyond exact host identity and position.  Even a positive
 result is not a linguistic morphology finding: GDT003's string ceiling and
-GDT162's exact-identity advantage remain in force.  No substitution receives a
+GDT162's exact-identity advantage remain in force.  The strongest specific
+effects mostly change frozen HPR2 closure/renderer dimensions, especially B3
+for `L3:P3:a>y` and DY for `L3:P3:e>y`.  PAGE_HOST and those dimensions are
+parsed from the same source group, so frozen orthotactic/compiler coupling is a
+live alternative to a productive internal operator.  This experiment supports
+an exploratory predictive surface relation only.  No substitution receives a
 function, morpheme, phoneme, language, semantic role, meaning, plaintext, or
 translation.
 
@@ -472,7 +489,7 @@ rows; f84r was not opened, queried, retained, joined, or scored.
               "hpr2_summaries": {f"{mode}|{model}": hsummary[mode, model] for mode in ("HELD_BASE","HELD_BASE_AND_SECTION","HELD_BASE_AND_HAND") for model in ("OP_SUBSTITUTION","POSITION_ONLY","EXACT_PAIR_OTHER_STRATA")},
               "hpr2_null": hnull_summary, "top_operations": top, "generic_comparators": comparator_rows,
               "decision_inputs": {"primary_positive": primary_positive, "all_modes_positive": all_modes_positive, "at_least_one_maxT_operation": has_maxt, "generic_voynich_above_all_powered_controls": above_controls},
-              "interpretation": "Held-base prediction of formal context deltas by exact one-character substitution classes, with exact identity separate and historical surface controls.",
+              "interpretation": "Held-base prediction of formal context deltas by exact one-character substitution classes. Exact pair identity remains much stronger, the identical generic endpoint is negative in absolute gain, and the strongest effects are parser-coupled closure dimensions. This is an exploratory predictive surface relation, not morphology or meaning.",
               "claim_ceiling": "No grapheme, phoneme, morpheme, word, POS, language, semantic role, meaning, plaintext, or translation.",
               "f84r": {"present_in_actual_input": False, "opened": False, "queried": False, "retained": False, "joined": False, "scored": False},
               "inputs": {SOURCE.name: sha(SOURCE), CONTROL_SOURCE.name: sha(CONTROL_SOURCE), CONTROL_MANIFEST.name: sha(CONTROL_MANIFEST), DESIGN.name: sha(DESIGN), "gdt162_result.json": sha(ROOT / "gdt162_result.json"), "gdt159_result.json": sha(ROOT / "gdt159_result.json")},
