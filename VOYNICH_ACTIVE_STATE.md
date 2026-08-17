@@ -369,6 +369,15 @@ Updated: 2026-08-17. Read this file first, then
   medical-alchemical source-family prior and the unexplained local alignment
   between four visible emissions and one non-emission.  Do not treat the four
   output names as independent evidence or the six groups as quality words.
+- GDT196 renders every retained strict-consensus f77r prose group through the
+  frozen HPR2 compiler: 193 groups on 31 covered lines, of which 18 lines are
+  complete and 13 explicitly partial.  The six exposed diagram-state labels
+  do not unlock that prose.  Only `otedy` recurs exactly on the page (one
+  occurrence), versus 27 label-form occurrences among 3,157 matched Section B
+  / Currier B / hand 2 groups; the descriptive enrichment tail is p=.8192.
+  Stripped `e/ol/or` hosts recur only after collapsing distinct compiler
+  surfaces.  Retain the interlinear as an anonymous translation skeleton and
+  do not propagate the post-hoc COLD/DRY/HOT/MOIST display states into prose.
 
 ## Confirmed structural baseline
 
