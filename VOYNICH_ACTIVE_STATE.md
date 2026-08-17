@@ -656,6 +656,19 @@ Updated: 2026-08-17. Read this file first, then
   context, not a decipherment bridge; a next route needs new external
   ownership/parallel-text evidence rather than further internal similarity.
   No f84 input or access occurred.
+- GDT222 tests the older fixed `ar/ol/dal/dar/sy/te/tee/dy` inventory instead
+  of another selected character feature.  In the all-row view, module-set
+  Jaccard assigns both human top/bottom assemblies correctly (f75 +1.1190,
+  f83 +0.2333; aggregate +1.3524), and `ar` alone matches the local label/prose
+  side on both pages while reversing physical orientation.  This is not a
+  stable bridge: the exact two-page and max-eight tails are only `p=.25`, the
+  complete-line aggregate is -0.05 with f83 reversed, and the `ar` match
+  vanishes entirely because it depends on incomplete prose rows, including
+  f83r.53 `qotar`.  Retain the result only as a post-hoc candidate for
+  page-local component-address behavior, not an `AR` meaning or segmentation.
+  A valid successor needs a third independently defined assembly frozen before
+  module reveal; do not search another representation on these two pages.  No
+  f84 input or access occurred.
 
 ## Confirmed structural baseline
 
