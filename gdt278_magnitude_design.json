@@ -1,0 +1,70 @@
+{
+  "comparison_rule": {
+    "composite_score": "NONE",
+    "report_ratios_and_ranks": true,
+    "robust_reproduction": "BOTH_POWERED_VIEWS_REPRODUCED",
+    "tolerance_band": "NONE",
+    "view_reproduced": "CONTROL_S_EVENT_GTE_VMS_S_EVENT_AND_CONTROL_Z_GTE_VMS_Z"
+  },
+  "content_sha256": "b7ed6e0c594d51803fbf11fc5ab6301b4f5b47b34372ec1cbcc942b41037e1ed",
+  "control_admission": "SEPARATE_HASH_BOUND_MANIFEST_AFTER_THIS_FREEZE;ARCHITECTURE_LABEL_INDEPENDENT_OF_SCORE;ORACLE_NOT_SCORED",
+  "documents": {
+    "GDT278_GDT277_MAGNITUDE_CALIBRATION_METHOD.md": "84b4778e3433de16ffbf22867741a0eab9513ef478e220e7237d2acddaff7bf2"
+  },
+  "endpoint": {
+    "mandatory_companion": "NULL_Z",
+    "model": "ABBREVIATION_HEAVY_LANGUAGE",
+    "null_worlds": 64,
+    "null_z": "SAVING_BITS_DIVIDED_BY_POPULATION_SD_OF_64_NULL_HELD_BITS",
+    "primary_coordinate": "SAVING_BITS_PER_EVENT",
+    "saving_bits": "NULL_MEAN_HELD_BITS_MINUS_OBSERVED_HELD_BITS",
+    "saving_bits_per_event": "SAVING_BITS_DIVIDED_BY_SCORED_GROUP_EVENTS"
+  },
+  "f84": {
+    "input_files": 0,
+    "joined": false,
+    "opened": false,
+    "parsed": false,
+    "retained": false,
+    "scored": false
+  },
+  "gdt277_policy": "BYTE_IMMUTABLE",
+  "implementation": {
+    "freeze_gdt278_magnitude_endpoint.py": "4a4fde1d0557618a645d960cccbce3ed7ef2b5ca8d572d69a7198fea8df69aab"
+  },
+  "inputs": {
+    "gdt277_freeze_manifest": "d31a71f7ab2a802a8ce86ebc5b5669d6fa60fe2694f6afec1b2e9237a67f7c24",
+    "reference_magnitude": "ea8ee3664eb93dcd1f065a7a732574d3fdeb4fda22c8dc9d39d8d40cd9a1dca7"
+  },
+  "prohibitions": [
+    "HPR1_SEMANTICS",
+    "VOYNICH_SUBSTRING_MINING",
+    "MEANING",
+    "PLAINTEXT",
+    "TRANSLATION",
+    "POSTHOC_THRESHOLD"
+  ],
+  "representation": {
+    "lofo_safe": "MANDATORY_PRIMARY_SENSITIVITY;OPERATION_INVENTORY_AND_ALPHABET_LEARNED_WITHOUT_HELD_FOLIO;OBSERVED_AND_NULL_SCORED_FOLD_LOCAL",
+    "published_full_inventory": "INTEGRITY_ANCHOR"
+  },
+  "schema": "GDT278_MAGNITUDE_ENDPOINT_DESIGN_V1",
+  "status": "FROZEN_BEFORE_EXPANDED_CONTROL_ADMISSION_OR_SCORING",
+  "views": {
+    "LENGTH_MATCHED_OVERLAY": {
+      "events": 4476,
+      "length_quotas": "EXACT_GDT277",
+      "native_cross_length_adjacency": false,
+      "role": "PRIMARY",
+      "scaffold": "EXACT_GDT277"
+    },
+    "NATIVE_ORDER": {
+      "final_unit_truncation": "DETERMINISTIC_ALLOWED",
+      "minimum_power_fraction": 0.8,
+      "reference_events": 8448,
+      "role": "SENSITIVITY",
+      "source_unit_selection": "SHA256_ORDER_THEN_NATIVE_ORDER_WITHIN_SELECTED_UNITS",
+      "target_events_when_available": 8448
+    }
+  }
+}
