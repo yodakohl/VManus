@@ -1,0 +1,70 @@
+{
+  "claim_ceiling": "Formal field ordering only; no semantic role word meaning plaintext or translation.",
+  "content_hash": "19201bab8d183b28398627c205e1b64ca60af47cad83c46e80e83dd9c75f463d",
+  "documents": {
+    "GDT273_Q13_FIELD_SEQUENCE_GRAMMAR_METHOD.md": "83d03543d1eed34f92ef22b47c7dcd0a44f56ac70be5033aa11c7f82651642ca"
+  },
+  "experiment": "GDT273_Q13_FIELD_SEQUENCE_GRAMMAR",
+  "f84r": {
+    "new_access": false,
+    "scored": false,
+    "used": false
+  },
+  "fields": 701,
+  "folios": 9,
+  "gate_pass": false,
+  "implementation": {
+    "run_gdt273_q13_field_sequence_grammar.py": "ff4a8fe05ce7f1502816e544d38ab18447183c8b61116fe610b5e5c3bd27dec7"
+  },
+  "inputs": {
+    "gdt224_result.json": "91105467c8b3a7c533d21f7c00bffaf88284b438fad74e1f8e4e8b3230ac4fda",
+    "gdt226_result.json": "64a760c6f99acab6c9f32141c7db04c170e83881c506a24979f90f98de98d906",
+    "gdt227_q13_abstract_interlinear.tsv": "0eb7627690a3c318141279b705bc709b61b3efab17afd2756919485a006b6a2c",
+    "gdt255_result.json": "8555c2c682839b1ea8555e9095a32420afaf49a5a05b2f1a34e7232e9f89f352",
+    "gdt271_result.json": "d5815ee1850411aa9d61dc089b801804bcae4be25a478cbcb17f0558a19b8af6"
+  },
+  "interpretation": "Coarse q13 field size and endpoint states do not provide positive held-folio first-order prediction beyond position and record size.",
+  "outputs": {
+    "GDT273_Q13_FIELD_SEQUENCE_GRAMMAR_REPORT.md": "224095796c8cc018700543e537d413fcf1d1012ad59650fa0f1e35f0f3e424aa",
+    "gdt273_counterexamples.tsv": "eed2cc2ddb2d187a13cad720e6082ca2dff337fa841f42b6ef028bde8af30582",
+    "gdt273_lofo_folds.tsv": "a56e78da5283d0db536c1abe40c81950f373465613621e70df3dcd7e2ce064bf",
+    "gdt273_tests.tsv": "854f8a1bbc30f6c8c6a5c642425ff3204e826ecbaad4ef7c07b33cafbef4ac43",
+    "gdt273_transition_counts.tsv": "eafa6fbd47f6f662e9a53ccdd65d4365cfdac108853dfefcf26cf8b73959a6d3"
+  },
+  "records": 33,
+  "representations": 4,
+  "semantic_assignments": 0,
+  "status": "Q13_FIELD_ORDER_NOT_PREDICTIVE_BEYOND_POSITION_AND_RECORD_SIZE",
+  "tests": {
+    "END2": {
+      "gain_max_four_p": 0.816451061753,
+      "held_gain_bits": -7.189912632396,
+      "positive_folios": 3,
+      "repeat_max_four_p": 0.008054674152,
+      "repeat_z": -3.054262245317
+    },
+    "JOINT4": {
+      "gain_max_four_p": 0.100805467415,
+      "held_gain_bits": -9.915542585715,
+      "positive_folios": 4,
+      "repeat_max_four_p": 0.889675372224,
+      "repeat_z": 0.686437672463
+    },
+    "SIZE2": {
+      "gain_max_four_p": 0.706126433976,
+      "held_gain_bits": -7.289979125688,
+      "positive_folios": 3,
+      "repeat_max_four_p": 0.349279960947,
+      "repeat_z": 1.531267366485
+    },
+    "SIZE4": {
+      "gain_max_four_p": 0.915303880888,
+      "held_gain_bits": -41.990686990352,
+      "positive_folios": 2,
+      "repeat_max_four_p": 0.006834268977,
+      "repeat_z": 3.153029089514
+    }
+  },
+  "transitions": 668,
+  "worlds": 4096
+}

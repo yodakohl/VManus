@@ -1248,6 +1248,20 @@ Updated: 2026-08-17. Read this file first, then
   function remains unresolved; both a universal ordinal and a general density
   rule are unsupported.  No semantic value, word, meaning, translation, or
   new f84r access follows.
+- GDT273 asks whether the corrected q13 fields themselves form a portable
+  first-order sentence grammar.  Across 33 records, 701 fields, 668 adjacent
+  transitions, nine physical folios, and four frozen size/endpoint views,
+  every previous-field model loses held-folio bits relative to record-size and
+  target-position baselines (`-7.29`, `-41.99`, `-7.19`, and `-9.92` bits).
+  Field endpoints do alternate more than within-record shuffles predict
+  (END2 `z=-3.05`, max-four `p=.00805`) and fine size states cluster
+  (`z=+3.15`, `p=.00683`), but these are construction/topology facts rather
+  than positive predictive transfer.  Preserve the hierarchical grammar of
+  physical line reset, DY-delimited fields, and optional B3-like closure;
+  reject coarse field size/endpoint classes as a portable first-order q13
+  sentence syntax.  Higher-order or content-dependent order remains open.  No
+  clause role, word, meaning, plaintext, translation, or new f84r access
+  follows.
 
 ## Confirmed structural baseline
 
