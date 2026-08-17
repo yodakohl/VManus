@@ -1,0 +1,85 @@
+{
+  "latent_layers": [
+    {
+      "function": "licenses inventory and renderer ecology",
+      "layer": "PAGE_PROFILE",
+      "semantic_status": "UNASSIGNED"
+    },
+    {
+      "function": "opaque content/address candidate",
+      "layer": "PAGE_HOST",
+      "semantic_status": "UNASSIGNED"
+    },
+    {
+      "function": "record, placement, register and edge realization",
+      "layer": "COMPILER",
+      "semantic_status": "FORMAL_ONLY"
+    },
+    {
+      "function": "finite state coordinate where external schema licenses it",
+      "layer": "LOCAL_DIAGRAM_STATE",
+      "semantic_status": "PROVISIONAL_F57_F77_ONLY"
+    }
+  ],
+  "local_state_decoder": {
+    "D1_bits": [
+      "HAS_OK_COMPONENT",
+      "TERMINAL_Y"
+    ],
+    "N1_and_f77_bits": [
+      "STARTS_OT",
+      "TERMINAL_Y"
+    ],
+    "scope": [
+      "f57v:N1",
+      "f57v:D1",
+      "f77r:top_segments"
+    ],
+    "states_by_register": {
+      "D1": {
+        "00": "HOT_POSITION",
+        "01": "DRY_POSITION",
+        "10": "COLD_POSITION",
+        "11": "MOIST_POSITION"
+      },
+      "N1_and_f77": {
+        "00": "COLD_POSITION",
+        "01": "MOIST_POSITION",
+        "10": "HOT_POSITION",
+        "11": "DRY_POSITION"
+      }
+    },
+    "surface_predicates_are_morpheme_boundaries": false
+  },
+  "productions": {
+    "CHECKPOINT": [
+      "DY_CLASS"
+    ],
+    "CLOSE": [
+      "B3_CLASS"
+    ],
+    "DIAGRAM_LABEL": [
+      "LOCAL_SELECTOR? LOCAL_ADDRESS LOCAL_STATE_EDGE?"
+    ],
+    "DOCUMENT": [
+      "PAGE+"
+    ],
+    "FIELD": [
+      "WRAPPER? INNER_D? POSITION_FRAME? PAGE_HOST RIGHT_FAMILY?"
+    ],
+    "PAGE": [
+      "PAGE_PROFILE ADDRESS_INVENTORY RECORD+"
+    ],
+    "RECORD": [
+      "ENTRY_STATE? FIELD (CHECKPOINT FIELD)* CLOSE?"
+    ]
+  },
+  "status": "LEADING_ABDUCTIVE_GENERATOR_NOT_CONFIRMED_DECIPHERMENT",
+  "theory": "PAGE_CONDITIONED_HYBRID_TECHNICAL_COMPILER",
+  "translation_policy": {
+    "f84r_target": false,
+    "global_export_requires": "FROZEN_INDEPENDENT_SCHEMA_TRANSFER",
+    "local_position_glosses_are_words": false,
+    "opaque_address_rendering": "ADDR[folio:register:position]"
+  }
+}

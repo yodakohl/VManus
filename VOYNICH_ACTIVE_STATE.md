@@ -196,6 +196,24 @@ Updated: 2026-08-17. Read this file first, then
   f67v1 universal-output transfer failed.  Do not gloss the six groups as
   quality words, the puffs as named elements, or the apparatus as a known
   operation, material, recipe, plaintext, or manuscript-wide translation.
+- GDT181 consolidates the live results into one explicit YOLO generator rather
+  than leaving compressed language, pure notation, and hybrid accounts tied.
+  The leading abductive model is a page-conditioned hybrid technical compiler:
+  physical lines compile records; wrappers/frames/right families plus DY/B3
+  realize record and register state; PAGE_HOST remains an opaque
+  page/register-conditioned address candidate; and externally licensed finite
+  diagrams may add local state coordinates.  Transparent exposed theory grades
+  are 9/20 for compressed natural language, 18/20 for pure notation, and 20/20
+  for the hybrid; these are not probabilities.  The executable semantic scope
+  remains exactly the f57/f77 scaffold: 8 quality positions, 6 process states,
+  and 5 transition relations on two folios, with the first coordinate correctly
+  register-conditioned (Fire incidence for N1/f77, Water incidence for D1) and
+  terminal `y` the shared local partition.  There are still zero confirmed
+  source words and zero plaintext clauses.  Use the published grammar,
+  provisional lexicon, 19 worked parses, nine counterexamples, and seven frozen
+  predictions as the current translation program; do not globalize `ot`, `ok`,
+  `y`, q, DY, B3, or PAGE_HOST, and do not treat the abductive selection as a
+  decipherment result.  f84r remains sealed and receives no prediction.
 
 ## Confirmed structural baseline
 
