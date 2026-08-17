@@ -1,0 +1,110 @@
+{
+  "best": {
+    "expanded_parallel": {
+      "active_mapping": "a>ac>id>me>tf>bg>hh>si>lk>wl>rm>pn>co>ep>dq>kr>ns>yt>gw>fx>u",
+      "active_source_signs": 20,
+      "all_pair_swaps_locally_optimal": 1,
+      "common_overhead_bits": "6.000000000000",
+      "events": 60023,
+      "full_mapping_order": "aoimtbhslxwrpcedknygjqfuzv",
+      "gap_per_event": "2.349978955355",
+      "gap_vs_matched_kt_bits": "141052.786837265710",
+      "key_bits": "78.890100230687",
+      "mapping_hash": "6643f74711507cddc97c65dca7f886bef5790d9192a82d8337b1993cfde6527d",
+      "matched_kt_total_bits": "128743.344900293756",
+      "pack": "EXPANDED_PARALLEL",
+      "pack_selector_bits": "1.000000000000",
+      "paid_total_bits": "269796.131737559452",
+      "passes": 21,
+      "payload_bits": "269710.241637328756",
+      "physical_lines": 2430,
+      "seed": 20701
+    },
+    "real_diplomatic": {
+      "active_mapping": "a>ac>pd>ue>sf>wg>bh>fi>lk>il>rm>dn>co>ep>mq>gr>ns>ot>yw>kx>t",
+      "active_source_signs": 20,
+      "all_pair_swaps_locally_optimal": 1,
+      "common_overhead_bits": "6.000000000000",
+      "events": 60023,
+      "full_mapping_order": "aqpuswbflxirdcemgnoyjhktzv",
+      "gap_per_event": "2.342625958465",
+      "gap_vs_matched_kt_bits": "140611.437904934341",
+      "key_bits": "78.890100230687",
+      "mapping_hash": "d51cd13a78685423c37ba944bfdedb1d94ea2300e2875fb126d9a891cd2b0fd7",
+      "matched_kt_total_bits": "128743.344900293756",
+      "pack": "REAL_DIPLOMATIC",
+      "pack_selector_bits": "1.000000000000",
+      "paid_total_bits": "269354.782805228082",
+      "passes": 20,
+      "payload_bits": "269268.892704997386",
+      "physical_lines": 2430,
+      "seed": 20701
+    }
+  },
+  "claim_ceiling": "Bounded historical-diplomatic character-model screen only; no sign, sound, word, language, plaintext, meaning, or translation.",
+  "comparison": {
+    "all_six_shared_start_savings_positive": true,
+    "comparison": "REAL_DIPLOMATIC_MINUS_EXPANDED_PARALLEL",
+    "diplomatic_best_paid_bits": "269354.782805228082",
+    "diplomatic_gap_vs_kt_bits": "140611.437904934341",
+    "diplomatic_mapping_stable": 0,
+    "diplomatic_saving_bits": "441.348932331370",
+    "diplomatic_saving_bits_per_event": "0.007352996890",
+    "expanded_best_paid_bits": "269796.131737559452",
+    "expanded_gap_vs_kt_bits": "141052.786837265710",
+    "expanded_mapping_stable": 0,
+    "failure_gap_fraction_removed": "0.003128962867",
+    "paired_saving_max_bits": 24658.518247159314,
+    "paired_saving_min_bits": 441.3489323313697
+  },
+  "counts": {
+    "active_source_signs": 20,
+    "anonymous_outcomes": 21,
+    "events": 60023,
+    "parallel_lines_per_pack": 48337,
+    "physical_lines": 2430,
+    "runs": 6
+  },
+  "documents": {
+    "GDT207_DIPLOMATIC_ABBREVIATION_LANGUAGE_SCREEN_METHOD.md": "89d68f4c1b25b573754627f2d069a7ef8c9f93bbc9acef8acc4a82dfc06f09a2",
+    "GDT207_DIPLOMATIC_ABBREVIATION_LANGUAGE_SCREEN_REPORT.md": "fee788bf7e0633108834711ef850e290795abf2d4ff0f86c70ae9b4210d03d75"
+  },
+  "f84": {
+    "f84r_rows_in_source": 0,
+    "formal_fields_retained": 0,
+    "formal_payload_displayed": false,
+    "formal_rows_joined": 0,
+    "formal_rows_scored": 0,
+    "other_f84_rows_in_source": 228
+  },
+  "gates": {
+    "inverse_transducer_screen_authorized": false,
+    "real_diplomatic_beats_expanded_parallel": true,
+    "real_diplomatic_beats_matched_kt": false,
+    "real_diplomatic_mapping_stable": false
+  },
+  "implementation": {
+    "gdt001_mtf_score.cpp": "e59e1605353f72fddf90886896bc126a5aaf8295bf21131b1c4872133bbf4a76",
+    "run_gdt001_mtf_dynamic_rank.py": "944110f0824f5710ecded431ae00b26397445de86941cd5eb062440b17dbb827",
+    "run_gdt189_compiler_stripped_language.py": "ec5df2047c1bad474617952f51ae9d48c997da8cc74cc1c88a70966a0344de45",
+    "run_gdt207_diplomatic_abbreviation_language_screen.py": "e10a049fa642548ccd1c2a55a5c39bccf313e0926ff687770875001353e3af3e"
+  },
+  "inputs": {
+    "gdt016_group_state_inventory.tsv": "e109ce15864ed6b6f76d446b3c96d6190a0dc53d20d8ab0944554124e687234c",
+    "gdt155_blinded_diplomatic.tsv": "8e907ee5a29def9098e84239617c8deab4d3420c8df50860107d8637489ec03b",
+    "gdt155_unblinded_lines.tsv": "57cbf58af98a14e220852054ce2b6aff90702f332757d0229cc9b6d6f6968ab7",
+    "gdt157_result.json": "f0c4f867e6e1bac7167b97c498988af662f3ab2da96faaa6a07471e2788fafcd",
+    "gdt189_result.json": "ef340e3b95fabb15c1b8516b59d8a76b145b212cf6f26da8a2d90effb86dd93a"
+  },
+  "interpretation": "Authentic diplomatic abbreviation improves its expanded parallel but does not provide a competitive or stable injective PAGE_HOST decoder.",
+  "outputs": {
+    "gdt207_abbreviation_comparison.tsv": "f2f3e258e28e4b8ca11185297083b5f6d0574020ca5153e5c5e60ef570deb20a",
+    "gdt207_abbreviation_pack_summary.tsv": "6e9cf833ddb0fa8e147c43c818acf678914261f4f11d928b6d685e8eeda00f81",
+    "gdt207_counterexamples.tsv": "6bca7f8c4f3f0e68faed6be5c2e2f42879f16c872f1b86018ff18d0e51d68760",
+    "gdt207_mapping_runs.tsv": "f4c3babf7cb58b46fd9f26fe5a105e5d223be1c50db0ff5a6c616d4308bc2922",
+    "gdt207_search_sensitivity.tsv": "991530f27de5c945a237e865b4479e0eac9397de88c6e496ee801d9aa33a75a7"
+  },
+  "result_content_sha256": "bc287d337e1508c43412c05ef17b77ac3f0849769880f9e3aa0a77f24a1c8056",
+  "schema": "GDT207_DIPLOMATIC_ABBREVIATION_LANGUAGE_SCREEN_RESULT_V1",
+  "status": "DIPLOMATIC_ABBREVIATION_RELATIVE_GAIN_DIRECT_DECODER_REJECTED"
+}

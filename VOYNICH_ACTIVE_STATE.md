@@ -463,6 +463,17 @@ Updated: 2026-08-17. Read this file first, then
   six-day/six-f77-cell bridge.  Neither witness supplies five adjacent process
   relations or a four-output/one-hold mask, so no metal, planet, element, day,
   or operation name is assigned to Voynich.
+- GDT207 tests the only bounded authentic-abbreviation successor licensed by
+  GDT157/GDT189 before adding a flexible inverse channel.  Under the unchanged
+  static PAGE_HOST mapping, the real Nuremberg diplomatic model beats its
+  line-aligned expansion by only 441.3 bits (0.0074 bit/event) in the frozen
+  three-start comparison and by a positive but highly optimizer-sensitive
+  441--24,659 bits across six shared starts.  It still loses 140,611.4 bits
+  (2.343 bits/event) to matched anonymous source KT and its keys disagree.
+  Authentic abbreviation remains directionally compatible with part of the
+  architecture, but it does not expose a named-letter decoder and does not
+  license a flexible inverse transducer without a genuinely external
+  contextual key.
 
 ## Confirmed structural baseline
 
