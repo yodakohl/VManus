@@ -1116,6 +1116,17 @@ Updated: 2026-08-17. Read this file first, then
   local `f82r` clue.  Do not widen edit radii or cuts post hoc; a new
   source-bound attachment with a prospectively frozen source-native query is
   required.  No meaning, translation, or f84r access follows.
+- GDT262 calibrates GDT260 against all 13 f82r labels and all 32 distinct
+  four-member label windows.  f82r.10 is still the unique best label in every
+  reading.  An unconstrained paragraph-assignment maxT remains attractive
+  (`p=.027820/.012190/.041750`), but it destroys page order.  The stronger
+  32-shift topology-preserving maxT is nonconfirming
+  (`p=.3125/.28125/.40625`), because equally good clustered line/window
+  alignments occur elsewhere around the page.  Treat the f82r.10 pattern as a
+  real descriptive local anomaly but not a component-indexed paragraph key;
+  GDT261's independent-folio failure reinforces that demotion.  No further
+  f82r cuts/radii should be mined, and no meaning, translation, or f84r access
+  follows.
 
 ## Confirmed structural baseline
 
