@@ -784,6 +784,19 @@ Updated: 2026-08-17. Read this file first, then
   handles for a genuinely independent referent.  Stable placement does not
   localize content, and no internal gloss search is licensed.  No new f84
   access occurred.
+- GDT231 performs the first complete source-native formal scan over the
+  existing non-f84 q13 human visual-unit atlas: 119 labels, 112 family-covered
+  labels, 21 multi-label units and 391 within-unit pairs.  The f82r left/right
+  “waterfall” positions carry stable family expressions `BACAB` and `BACACA`,
+  sharing prefix `BACA`; its exposed descriptive tails are `.0435` within
+  f82r same-unit pairs, `.0307` across all same-unit pairs and `.0513` after
+  matching family lengths.  This is an interesting local matched-apparatus or
+  slot-class candidate, not a semantic result.  Both positions are proximity-
+  owned, more similar nymph-array pairs exist, and the two direct f82v pool
+  labels have zero shared leading family.  Do not gloss `BACA`, `dar`, or
+  either display string as water/flow.  The only useful next test is a frozen
+  independent paired hydraulic-component target selected before its formal
+  payload is opened.  No new f84 access occurred.
 
 ## Confirmed structural baseline
 
