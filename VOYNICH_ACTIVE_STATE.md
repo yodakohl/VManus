@@ -144,7 +144,14 @@ Updated: 2026-08-17. Read this file first, then
   This supports a low-resolution procedural-record schema but does not show
   that any PAGE_HOST is an ingredient, tool, verb, heading, or translated
   word. Exact-host atlas leads are placement-coupled and require an independent
-  content test.
+  content test. GDT177 supplied that immediate unused-feature test and all four
+  predictions failed: closer-like final fields have no B3 enrichment and more
+  DY, short-argument-like hosts have no recurrence advantage, instruction-like
+  fields have lower rather than higher compiler density, and a held-folio exact
+  host update loses 695.9 bits on 1,444 fields and is negative on all eight
+  folios. Therefore the CoReMA calibration remains valid externally, but its
+  Q20 projection is only a position/extent analogy. Withdraw semantic force
+  from the GDT176 field labels and from `che`/`oke`/`opche` placement purity.
 - The complete permitted external-referent census does not yet supply that
   endpoint. Forty human-nominated plant/fragment/component pairs yield 38
   scorable whole-page comparisons, but neither exact PAGE_HOST nor the full
