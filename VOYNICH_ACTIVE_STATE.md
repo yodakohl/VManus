@@ -2760,6 +2760,30 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   do not resume exact-host gloss, neighbor, or scaffold-slot mining.  No word,
   semantic role, language, plaintext, translation, or f84 access follows.
 
+- GDT277 calibrates that frozen GDT276 signature against five known worlds on
+  one exact 4,476-event host-length/page/line/record/alphabet-capacity
+  scaffold.  The full predeclared signature—compiler-conditioned character
+  form ranks first, beats the compressed character world, and has positive
+  matched-context saving—appears in all three non-language controls: the
+  reversible lexical-ID codebook A (`+126.53` matched bits), factorial
+  technical notation B (`+154.08`), and human-grown distributed shorthand B2
+  (`+85.26`).  It appears in neither paired Nuremberg view because the
+  page-local exact code wins both expanded ordinary language and diplomatic
+  abbreviation, although compiler context still improves their character
+  codes by `864.74` and `1,059.08` bits respectively.  Matched Voynich retains
+  the signature with a much larger `+1,607.82`-bit context saving.  All three
+  structured controls and Voynich also retain the abbreviation-world
+  rank/direction after host-dependent parsing and the 21-symbol alphabet are
+  learned without each held folio.  Therefore the **GDT276 model name is not
+  an architecture diagnosis**: compiler-conditioned graphematic form is a
+  real compression fact, but it does not uniquely track natural language or
+  medieval abbreviation and is equally compatible with these structured
+  code/notation controls.  Voynich's larger magnitude remains an exploratory
+  residual, not a rescued discriminator, because no magnitude threshold was
+  frozen and alphabet matching is lossy (87.7–95.9% character coverage in the
+  controls).  Do not infer abbreviation, language, notation identity, meaning,
+  plaintext, or translation from GDT276 alone.  No f84 source was an input.
+
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
 the ZL editorial paragraph scaffold, and conditioning on collapsed page, exact
