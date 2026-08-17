@@ -1,0 +1,74 @@
+{
+  "claim_ceiling": "Missingness-robust position/length role likeness only; no field ownership, ingredient, operation, object, word, language, plaintext, or translation.",
+  "content_hash": "d3b40b9007a12db14fbe485059826753bf5fc4c65f215ca0b4ce392cb792f4ef",
+  "documents": {
+    "GDT243_F82R_MISSINGNESS_AWARE_ROLE_METHOD.md": "f25833750d9eda3ae0700ebc193a0427036e6f2b27e0c915844e2840230f7187",
+    "GDT243_F82R_MISSINGNESS_AWARE_ROLE_REPORT.md": "e888e67f87f24b78989f0c1ce319ee21fca01c34fc3c9060f2cffa63d36fa0b4"
+  },
+  "experiment": "GDT243_F82R_MISSINGNESS_AWARE_ROLE",
+  "f84": {
+    "input": false,
+    "joined": false,
+    "new_access": false,
+    "retained": false,
+    "scored": false
+  },
+  "fields": 51,
+  "implementation": {
+    "run_gdt243_f82r_missingness_aware_role.py": "7e85e5483f50c74dc274455f0f0c2482dc26e8e34df3a811b540448c8f49418a"
+  },
+  "inputs": {
+    "gdt002_grammar_projection.tsv": "33bec3be712b35c52afc44ffa7af5e6719ad5a183d8be9a5ac852e1a4e2649b7",
+    "gdt176_external_role_units.tsv": "f36d5011761b6a8fc99d2a8b0df2e76cb7b797ce1115e693f5fcfb4e940451a5",
+    "gdt241_f82r_hpr2_fields.tsv": "6916e4d1cf46a95ed732c05cfde9780eec0e2c706e993162e25cf2b782744534",
+    "gdt242_f82r_paragraph_coordinate.tsv": "b806f9836f449ac71ef31fcfba6aeeffd01d86c0f3e3284c0b39eafcc29d817f"
+  },
+  "interpretation": "The external readable-recipe position/length instrument is applied across the complete feasible missing-field range; retained classes are robust abstract analogies, not semantic roles.",
+  "outputs": {
+    "gdt243_f82r_missingness_role_projection.tsv": "bb28b33e62674c4485558c8143f5d730cc7d6094dd24441401269d7f61e842c1",
+    "gdt243_f82r_paragraph_uncertainty.tsv": "919f55916d08381ff9036d54d6f27f219cee17cb51a1f74c82c643620b23db80",
+    "gdt243_role_summary.tsv": "4526a3edba6aab412a7d6b905429471c120b01d1a4234cf7f07624c81cad0fb3"
+  },
+  "paragraph_uncertainty": [
+    {
+      "covered_lines": 6,
+      "known_fields": 17,
+      "missing_field_max": 25,
+      "missing_field_min": 3,
+      "missing_lines": 3,
+      "paragraph_id": "P1",
+      "physical_lines": 9,
+      "total_field_max": 42,
+      "total_field_min": 20
+    },
+    {
+      "covered_lines": 5,
+      "known_fields": 17,
+      "missing_field_max": 40,
+      "missing_field_min": 4,
+      "missing_lines": 4,
+      "paragraph_id": "P2",
+      "physical_lines": 9,
+      "total_field_max": 57,
+      "total_field_min": 21
+    },
+    {
+      "covered_lines": 6,
+      "known_fields": 17,
+      "missing_field_max": 75,
+      "missing_field_min": 8,
+      "missing_lines": 8,
+      "paragraph_id": "P3",
+      "physical_lines": 14,
+      "total_field_max": 92,
+      "total_field_min": 25
+    }
+  ],
+  "robust_fields": 51,
+  "role_counts": {
+    "INSTRUCTION_CLAUSE_LIKE": 20,
+    "SHORT_ARGUMENT_LIKE": 31
+  },
+  "status": "F82R_MISSINGNESS_AWARE_ROLE_PROJECTION_BUILT_FORMAL_ANALOGY_ONLY",
+  "unresolved_fields": 0
+}

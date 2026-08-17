@@ -919,6 +919,18 @@ Updated: 2026-08-17. Read this file first, then
   but missing lines prevent an authorial 17-field claim.  Replacement roles
   require a missingness-aware paragraph coordinate.  No word, meaning,
   plaintext, translation, or new f84 access follows.
+- GDT243 reapplies the frozen readable-recipe position/length instrument across
+  the complete feasible missing-field range for each corrected f82r paragraph.
+  All 51 observed fields retain one broad class even when total paragraph size
+  ranges from 20–42, 21–57, and 25–92 fields: 20 are instruction-clause-like
+  and 31 short-argument-like.  This restores a missingness-robust two-way field-
+  extent architecture, not semantic operations or ingredients; the instrument
+  is largely length-driven and its calibration cannot identify tools/openers.
+  Covered subsets shift from P1 9/8 clause/short to P2 7/10 and P3 4/13, but
+  incomplete nonrandom coverage makes that descriptive only.  Retain a
+  technical long/compact field alternation while keeping therapeutic,
+  case/indication, apparatus-key, and nonsemantic worlds live.  No word,
+  plaintext, translation, or new f84 access follows.
 
 ## Confirmed structural baseline
 
