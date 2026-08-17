@@ -807,6 +807,17 @@ Updated: 2026-08-17. Read this file first, then
   family candidate rather than a universal label marker.  Move `dar-`/`BACA-`
   out of the provisional content column: it does not mean water or flow.  No
   new f84 access occurred.
+- GDT233 learns 14 label-enriched family prefixes on 3,211 non-q13/non-f84
+  loci and applies them unchanged to q13.  The union predicts 34/98 q13 labels
+  with 12 false positives among 548 prose loci: precision `.739` versus q13
+  label prevalence `.152`, recall `.347`, exposed tail `5.42e-21`.  This
+  supports a transferable but partial graphical-label prefix compiler.  The
+  exposed `BACA-` sensitivity narrowly misses the strict outside-q13 cutoff
+  (`7/14` labels, `p=.01152`) but marks 5/5 q13 labels; stripping it leaves
+  heterogeneous residuals `B`, empty, `B`, `CA`, and `BCA`.  Target those
+  residuals only when an independent referent is available.  Neither prefix
+  nor residual is an authorial label marker or content word.  No new f84
+  access occurred.
 
 ## Confirmed structural baseline
 

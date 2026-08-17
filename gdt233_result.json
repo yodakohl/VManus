@@ -1,0 +1,60 @@
+{
+  "baca_q13": {
+    "labels": 5,
+    "occurrences": 5,
+    "residuals": {
+      "f75v.21": "B",
+      "f75v.30": "",
+      "f82r.35": "B",
+      "f82r.38": "CA",
+      "f83r.51": "BCA"
+    }
+  },
+  "baca_training": {
+    "label_rate": 0.5,
+    "labels": 7,
+    "occurrences": 14,
+    "p": 0.01151932717349928,
+    "strict_selected": false
+  },
+  "claim_ceiling": "Transferred editorial-label register architecture and residual candidates only; no authorial label marker, object, word, morpheme, sound, language, plaintext, or translation.",
+  "content_hash": "117cc1dafb2e1204d357aa0efd4a648c16a6ca02e7e0c37e5e12a460b4bfa917",
+  "documents": {
+    "GDT233_TRANSFERRED_LABEL_PREFIX_COMPILER_METHOD.md": "9af140a7b763ccc6abb52b8faadc4a496c27363100e800f073f6b4fa1e6a2624",
+    "GDT233_TRANSFERRED_LABEL_PREFIX_COMPILER_REPORT.md": "081ae7333a54546f7c0c136842645e175992e545ae3fb985b4dff138974bd9fb"
+  },
+  "experiment": "GDT233_TRANSFERRED_LABEL_PREFIX_COMPILER",
+  "f84": {
+    "joined": false,
+    "new_access": false,
+    "retained": false,
+    "scored": false
+  },
+  "implementation": {
+    "run_gdt233_transferred_label_prefix_compiler.py": "4a71efcacf443126006e895933c1274a5c93213d727291a255d8e8f83de82ccf"
+  },
+  "inputs": {
+    "experiments/semantic_assumptions/results/source_sta_family_consensus_groups.tsv": "a202d93498e8a350a5d7e0ca46e831dcc37ea5c0182dc404d63cb797a98b1225"
+  },
+  "interpretation": "A partial graphical-label prefix compiler transfers into q13. BACA is a near-threshold outside-q13 label prefix and leaves heterogeneous residuals, favoring register/local-class over a water word.",
+  "outputs": {
+    "gdt233_prefix_manifest.tsv": "e316cc6f1f37779b680c7d7d3b2b14a6231952a2ba9f307498cc561a59104ce9",
+    "gdt233_q13_label_predictions.tsv": "643079a0de45e8eb7ffea7f6b5f70303d94f466d7953907fea9b4a8daad6b9e7",
+    "gdt233_transfer_metrics.tsv": "22f35b56c3cc588567b8007222046dfaf59506df8bd66e4cff9c7e1fe29dbe80"
+  },
+  "q13_labels": 98,
+  "q13_loci": 646,
+  "status": "TRANSFERRED_GRAPHICAL_LABEL_PREFIX_LAYER_PARTIAL_CONTENT_RESIDUAL_UNRESOLVED",
+  "strict_prefixes": 14,
+  "strict_transfer": {
+    "fn": 64,
+    "fp": 12,
+    "p": 5.417347725122283e-21,
+    "precision": 0.7391304347826086,
+    "recall": 0.3469387755102041,
+    "tn": 536,
+    "tp": 34
+  },
+  "training_labels": 643,
+  "training_loci": 3211
+}
