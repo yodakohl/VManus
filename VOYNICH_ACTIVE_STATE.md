@@ -319,6 +319,16 @@ Updated: 2026-08-17. Read this file first, then
   one-frequent-host-to-one-frequent-word substitution rescues the stripped
   layer.  Surviving language models must be nonbijective, context/page keyed,
   or operate at a different unit; no optimized target word is a reading.
+- GDT191 allows that frequent-host dictionary to change independently by
+  Currier, section, hand, or physical folio, paying every permutation key.
+  Folio-specific Middle High German is the closest of the fixed family and
+  shrinks the loss from the global K=8 channel to 240.07 bits on 6,333 mapped
+  events (0.0379 bits/event), but it remains worse than the matched per-folio
+  source-identity KT code and the complete 93-dictionary decoder differs among
+  all three starts.  This is evidence that page ecology is real, not a licensed
+  translation: fixed one-host-to-one-word dictionaries fail even after known
+  manuscript context is allowed to re-key them.  Do not escalate by adding
+  unpaid page dictionaries.
 
 ## Confirmed structural baseline
 

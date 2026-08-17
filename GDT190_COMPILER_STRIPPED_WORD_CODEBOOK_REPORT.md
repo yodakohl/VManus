@@ -27,7 +27,7 @@ The compiler-stripped substrate is therefore not rescued by a fixed frequent
 whole-word nomenclator.  Together with GDT189, the remaining language routes
 require nonbijective/context-dependent expansion, page-specific keys, or a unit
 other than one source sign or one PAGE_HOST identity.  Assigned target words
-are optimizer labels, not readings, and are not published as plaintext.
+are optimizer labels, not readings, and are not promoted as plaintext.
 
 This closes only the bounded model above.  It establishes no word, language,
 sound, plaintext, meaning, or translation.  Every f84 row was rejected before
