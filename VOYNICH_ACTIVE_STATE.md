@@ -642,6 +642,20 @@ Updated: 2026-08-17. Read this file first, then
   requires a second independently owned local label/text assembly or a
   readable direct-annotation homolog, not another edge or f76 reanalysis.  No
   f84 input or access occurred.
+- GDT221 tests the remaining full-record alternative on two independently
+  described top/bottom label-and-prose assemblies, f75v and f83r, using fixed
+  raw-char3, residual-host-char3, and source-family-char3 bags.  With only
+  complete HPR2 prose lines, f75 is positive in all three views but f83 is
+  negative in all three.  The best aggregate PAGE_HOST-texture lead has only
+  1/2 positive pages and local/max-three `p=.5` over four exact page-swap
+  worlds.  Individual retrieval is below the fixed always-top baseline of
+  20/28 in every representation (15 raw, 16 host, 12 family), and only 10/29
+  human-defined prose lines have complete HPR2 coverage.  Thus neither a
+  compact terminal key nor a complete-construction bag currently links local
+  labels to prose records transferably.  Retain f83r.51→.52 only as spatial
+  context, not a decipherment bridge; a next route needs new external
+  ownership/parallel-text evidence rather than further internal similarity.
+  No f84 input or access occurred.
 
 ## Confirmed structural baseline
 

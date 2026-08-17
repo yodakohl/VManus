@@ -1,0 +1,100 @@
+{
+  "assemblies": 4,
+  "claim_ceiling": "Two-folio post-hoc construction assignment only; no key, word, sound, language, plaintext, meaning, or translation.",
+  "complete_prose_lines": 10,
+  "documents": {
+    "GDT221_LOCAL_ASSEMBLY_CONSTRUCTION_ASSIGNMENT_METHOD.md": "250d2e21b01c12b787a2ae05355bb4b01974311155bde54e9ea26708e10673cc",
+    "GDT221_LOCAL_ASSEMBLY_CONSTRUCTION_ASSIGNMENT_REPORT.md": "12ef7bbd2e55376c7d1e3e76ae645d2cac3d7846e196810b95793827f8ea3604"
+  },
+  "exact_worlds": 4,
+  "f84": {
+    "accessed": false,
+    "joined": false,
+    "retained": false,
+    "scored": false
+  },
+  "gates": {
+    "both_pages_positive": false,
+    "max_three_at_most_05": false
+  },
+  "human_prose_lines": 29,
+  "implementation": {
+    "run_gdt221_local_assembly_construction_assignment.py": "b969e3bbd25ef0d756a580688756bf30fb26c28d902287ff042692bfc652076a"
+  },
+  "individual_retrieval": {
+    "PAGE_HOST_CHAR3": {
+      "correct": 16,
+      "eligible": 28,
+      "ties": 7
+    },
+    "RAW_CHAR3": {
+      "correct": 15,
+      "eligible": 28,
+      "ties": 4
+    },
+    "SOURCE_FAMILY_CHAR3": {
+      "correct": 12,
+      "eligible": 28,
+      "ties": 1
+    }
+  },
+  "individual_retrieval_majority_top_correct": 20,
+  "inputs": {
+    "gdt012_annotated_core_inventory.tsv": "137efc96893220f8d55857b5ffc60f54a4eeb87450b42151b8bdc557e7281525",
+    "gdt016_group_state_inventory.tsv": "e109ce15864ed6b6f76d446b3c96d6190a0dc53d20d8ab0944554124e687234c",
+    "gdt220_result.json": "3455039056a47bf31318fe616af43f8e0619af25146cf5da414c5285d2fa3949",
+    "gdt221_assembly_manifest.tsv": "d53b80c01a52ffa4676717492e47f391876bb404cf9786444038837d4761743f"
+  },
+  "interpretation": "Human-defined label/prose assembly construction does not transfer across f75 and f83 under complete-line coverage.",
+  "missing_label_loci": [
+    "f75v.22",
+    "f75v.23",
+    "f83r.50"
+  ],
+  "outputs": {
+    "gdt221_assembly_scores.tsv": "b3f994ad30e25df48387e1edf8b24fa4caf1795aaa802ccc71f0d652da2720a5",
+    "gdt221_counterexamples.tsv": "65d8f62191841e9f6dca109f23d835ba2e712a24bc2e0fe2c4ddb4ca56a9f9e0",
+    "gdt221_label_retrieval.tsv": "c1a20c4facf0516b0d1214567a8890b9dae6cbbc575f9e334a0f985df45fc77c"
+  },
+  "pages": 2,
+  "primary": {
+    "PAGE_HOST_CHAR3": {
+      "aggregate_lead": 0.07812281068265914,
+      "local_exact_p": 0.5,
+      "max_three_p": 0.5,
+      "page_leads": {
+        "f75v": 0.08728031984016829,
+        "f83r": -0.009157509157509153
+      },
+      "positive_pages": 1
+    },
+    "RAW_CHAR3": {
+      "aggregate_lead": 0.0012571209481061774,
+      "local_exact_p": 0.5,
+      "max_three_p": 0.5,
+      "page_leads": {
+        "f75v": 0.04299846444601935,
+        "f83r": -0.04174134349791317
+      },
+      "positive_pages": 1
+    },
+    "SOURCE_FAMILY_CHAR3": {
+      "aggregate_lead": 0.0334251375131475,
+      "local_exact_p": 0.5,
+      "max_three_p": 0.5,
+      "page_leads": {
+        "f75v": 0.034591936191212674,
+        "f83r": -0.001166798678065177
+      },
+      "positive_pages": 1
+    }
+  },
+  "representations": [
+    "RAW_CHAR3",
+    "PAGE_HOST_CHAR3",
+    "SOURCE_FAMILY_CHAR3"
+  ],
+  "result_content_sha256": "2b8bc15740ac42a97d8df01f0b6d252f8d19adcc2bd9aae3aee18daa45420227",
+  "schema": "GDT221_LOCAL_ASSEMBLY_ASSIGNMENT_RESULT_V1",
+  "status": "LOCAL_ASSEMBLY_CONSTRUCTION_NOT_TRANSFERABLE"
+}
