@@ -245,6 +245,15 @@ Updated: 2026-08-17. Read this file first, then
   one binary variant; ornamental copying remains live and cipher-key/alphabet
   interpretations remain weak speculation.  No f57 group retains provisional
   semantic force after GDT182--184.
+- GDT185 tests the most direct manuscript-internal job for that 17-position
+  sequence: indexing the independently inventoried 17 radial texts on f67v1.
+  Across exact STA codes and families at any/first/last sector position, with
+  all 17 rotations and both directions searched, ZL's best exact-code match is
+  7/17 against a shuffled-key mean 7.200 and its max-six p is .9600; IT and RF
+  sensitivities are likewise null and choose inconsistent phases.  The shared
+  cardinality 17 is therefore not an ordered key bridge under this mechanism.
+  R2 may remain page-local reference/calibration or ornament, but it does not
+  label the f67v1 sectors and supplies no sign value or translation.
 
 ## Confirmed structural baseline
 
