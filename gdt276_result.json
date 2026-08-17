@@ -1,0 +1,96 @@
+{
+  "census": {
+    "f84_frame_rows_rejected_before_formal_parse": 21,
+    "f84_hpr_rows_rejected_before_formal_parse": 228,
+    "folios": 91,
+    "groups": 8448,
+    "lines": 1143,
+    "pages": 180
+  },
+  "claim_ceiling": "Held-folio residual coding architecture only; no language notation identity semantic role meaning plaintext or translation.",
+  "content_hash": "4c4b596d42ab75dccc8231f784deef9ddf3e0d578daac74d930ba931b9a5f3c1",
+  "documents": {
+    "GDT276_RESIDUAL_CHANNEL_WORLD_COMPARISON_METHOD.md": "ca0fcda501dfa9c1fc6aa0f1d8e61df2c27dc9b6e77dd4416ff9c4a9669e0d5e"
+  },
+  "experiment": "GDT276_RESIDUAL_CHANNEL_WORLD_COMPARISON",
+  "f84": {
+    "rejected_before_formal_parse": true,
+    "retained": false,
+    "scored": false,
+    "tuned": false,
+    "used": false
+  },
+  "implementation": {
+    "run_gdt276_residual_channel_world_comparison.py": "6ac3391d6f46c807320b7a96751dc91e6b96eccc8461888b9317b11a5b6c4fdc"
+  },
+  "inputs": {
+    "gdt174_result.json": "5b466bd8338c6d0f63792324eea05dc724dbe1290832acf830d69210eeb94f1b",
+    "gdt237_predictions.tsv": "005dfe3fe72a30cd79a183142ecb11983b29824a65d1bb78a482247fc3ebb607",
+    "gdt276_design.json": "6d3c0da1bd32a1e7e768312a87f9d0ce9bf6605d70f4e185462b810aa2028eda",
+    "gdt276_design_validation.json": "a9134eab31b8eda6b1a872fb0ee8cc3cdfadecec23824941487ae7ba1ee6bdda"
+  },
+  "leading_world": "ABBREVIATION_HEAVY_LANGUAGE",
+  "outputs": {
+    "GDT276_RESIDUAL_CHANNEL_WORLD_COMPARISON_REPORT.md": "ee79697627f65776118e6ce0b2fa909132d29ea8b6b76acf7268ca3577ddbf77",
+    "gdt276_counterexamples.tsv": "af6b8a91b8fee6c56561690110746ca8e56bf641a44f2e4168353c4ad37d558c",
+    "gdt276_event_inventory.tsv": "6309382ea344ed77997980372b47161d10e5761e29d9f5cc67eda6fd1070c6d7",
+    "gdt276_folio_scores.tsv": "916e605989246bfc0fd8641c2914f7654244364305efa3c35f80812409844c54",
+    "gdt276_matched_controls.tsv": "1b231f1fff72dcb7ada98f742ea6b02601a35080755da1bde4ca022834be8e00",
+    "gdt276_null_worlds.tsv": "3e6e68244e01f5e5878b3428dc6650ae0c54922b7cd94e25e251c43164e3a674",
+    "gdt276_residual_channels.tsv": "120bb1484e2ab618b5a5dcd5c85390bad9299c32df0cefc9319185db27da8a0e",
+    "gdt276_residual_components.tsv": "a450ac68eedd0efc3d50936dff2bde733e6f9182269f67613e35e580d8219dad",
+    "gdt276_world_scores.tsv": "b660118dc666f876db90a87290f0c64a48c42f8014c767f6f26187e4f730e3db"
+  },
+  "residual": {
+    "compiler_character_bits": 67619.9809111955,
+    "exact_identity_savings_vs_compiler_char": -7948.500700272227,
+    "raw_given_full_tuple_bits": 0.0,
+    "sequential_savings_vs_technical": -2276.719445680399,
+    "tuple_ambiguities": 0
+  },
+  "semantic_assignments": 0,
+  "source_bindings_inherited_from_gdt174": {
+    "gdt046_line_frames.tsv": "4c8a8486ec39c2d138b865c950ebaff038f1db1e3668219105893d6b04f92511",
+    "gdt062_right_family_inventory.tsv": "b0292332157524a7f5e0745bde74c38432c52e3f2dd7ae816677f0ea743ca1cc"
+  },
+  "status": "RESIDUAL_CHANNEL_QUANTIFIED_ABBREVIATION_HEAVY_LANGUAGE_MDL_LEAD_EXPLORATORY",
+  "world_rank": [
+    "ABBREVIATION_HEAVY_LANGUAGE",
+    "COMPRESSED_NATURAL_LANGUAGE",
+    "TECHNICAL_NOTATION",
+    "LOCAL_CODEBOOK",
+    "HYBRID"
+  ],
+  "world_scores": {
+    "ABBREVIATION_HEAVY_LANGUAGE": {
+      "bits": 67619.9809111955,
+      "bits_per_group": 8.004259104071,
+      "matched_p": 0.015384615385,
+      "matched_savings_bits": 3080.522234827527
+    },
+    "COMPRESSED_NATURAL_LANGUAGE": {
+      "bits": 70519.66953638732,
+      "bits_per_group": 8.347498761409,
+      "matched_p": 0.015384615385,
+      "matched_savings_bits": 427.214315047633
+    },
+    "HYBRID": {
+      "bits": 77845.20105714812,
+      "bits_per_group": 9.214630806954,
+      "matched_p": 0.015384615385,
+      "matched_savings_bits": 666.336325739205
+    },
+    "LOCAL_CODEBOOK": {
+      "bits": 76616.78352558316,
+      "bits_per_group": 9.069221534752,
+      "matched_p": 1.0,
+      "matched_savings_bits": 0.0
+    },
+    "TECHNICAL_NOTATION": {
+      "bits": 75568.48161146772,
+      "bits_per_group": 8.945132766509,
+      "matched_p": 0.015384615385,
+      "matched_savings_bits": 2297.117177887238
+    }
+  }
+}

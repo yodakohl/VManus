@@ -2726,6 +2726,39 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   Stop local scaffold/gloss mining; latent classes and content distributed
   over a larger record tuple remain open.  No word, role, language, plaintext,
   translation, or new f84r access follows.
+- GDT276 replaces isolated host mining with one joint residual-channel
+  accounting over 8,448 complete-line groups and 91 held physical folios.
+  Page history is past-only and the nuisance key jointly includes register,
+  record ordinal, field ordinal/position, every HPR2 compiler coordinate,
+  line/paragraph closure, and the published partial label renderer.  Of five
+  fixed 256-context coding worlds, compiler-conditioned host **character
+  form** is best at `67,619.98` bits (`8.0043` per group, `1.9824` per emitted
+  host symbol including EOS).  It beats the compressed-language character
+  world (`70,519.67` bits) on 80/91 folios and saves `3,080.52` bits relative
+  to 64 frequency/opportunity-matched context controls (null SD `95.80`,
+  lower-tail resolution `1/65`).  Exact compiler-conditioned host identity is
+  far more expensive (`75,568.48`), as are a prequential page-local codebook
+  (`76,616.78`) and compiler-plus-previous-host hybrid (`77,845.20`).  Adding
+  exact identity costs `7,948.50` bits relative to compiler-conditioned
+  character form; adding the previous host costs another `2,276.72` bits,
+  independently agreeing with GDT175 partner instability.  Residual character
+  cost is broad (initial/one-character 34.1%, interior 32.1%, final 22.1%, EOS
+  11.8%), not a suffix-only effect.  Given PAGE_HOST plus all renderer fields,
+  raw groups reconstruct with zero ambiguity by HPR2 construction; that zero
+  is accounting, not semantic evidence.
+
+  **Live theory revision:** retain the physical record/line/field compiler,
+  but demote `PAGE_CONDITIONED_RECORD_CODE` when “code” means exact PAGE_HOST
+  dictionary identity.  The leading residual generator is now a
+  **compiler-conditioned graphematic/allographic or abbreviation-like form
+  channel** whose latent content variable is unresolved and may be distributed.
+  This does not identify historical abbreviation or natural language:
+  GDT157–158 showed that ordinary medieval abbreviation/document structure
+  generates only part of the full Voynich architecture.  The next legitimate
+  route is a held-folio latent-equivalence/expansion model trained against this
+  fixed conditional-character ceiling, with historical abbreviation controls;
+  do not resume exact-host gloss, neighbor, or scaffold-slot mining.  No word,
+  semantic role, language, plaintext, translation, or f84 access follows.
 
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
