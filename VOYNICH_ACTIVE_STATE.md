@@ -733,6 +733,20 @@ Updated: 2026-08-17. Read this file first, then
   diverges between q13 and Stars; do not add more boundary channels or isolated
   visual glosses.  No field is an ingredient, action, word, or translation;
   no new f84 access occurred.
+- GDT227 materializes that scaffold as a complete 701-field q13 abstract
+  interlinear with 1,896 source-group occurrences, raw groups, PAGE_HOSTs and
+  compiler cells.  Exact PAGE_HOST identities predict their held-q13-folio
+  abstract placement at `.7647` versus a `.6841` training-prior baseline
+  (`+8.06` points; 1,700 covered occurrences); 130 hosts recur across folios
+  and 38 have at least five occurrences with 80% placement purity.  Raw exact
+  groups perform almost identically on less coverage, so stripping expands
+  reuse but does not uniquely expose semantics.  PAGE_HOST placement does not
+  transfer as a common q13/Stars dictionary: q13→Stars is `-1.79` points versus
+  prior and Stars→q13 only `+1.11`.  Retain a shared record scaffold with
+  register-bound opaque values/rendering, not universal lexical meanings.  The
+  interlinear is the current working parse surface; the next genuine semantic
+  advance needs an external content endpoint attached to multiple fields.  No
+  new f84 access occurred.
 
 ## Confirmed structural baseline
 
