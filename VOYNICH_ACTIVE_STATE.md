@@ -956,6 +956,18 @@ Updated: 2026-08-17. Read this file first, then
   content channel and zero executable semantic assignments.  Rebuild pagewise
   formal coverage before any replacement role test; no word, plaintext,
   translation, or new f84 access follows.
+- GDT246 builds the complete role-free f80r census on the corrected five-
+  paragraph coordinate: 53 human loci comprise 43 prose lines and ten labels;
+  33 loci have strict exact-family consensus, one is alternative-bearing, and
+  19 have no exact consensus.  Strict prose coverage is only 25/43 and varies
+  10/17, 4/6, 2/6, 6/7, and 3/7 across P1–P5.  Three complete single-group
+  graphical-label families recur exactly as internal prose groups: `ABQA`
+  (label f80r.7; prose f80r.26), `AQABA` (labels .3/.4; prose .31/.51), and
+  `AQAC` (label .9; prose .15/.37).  This establishes a reusable graphical/
+  prose formal interface beneath or alongside the partial label renderer; it
+  does not distinguish a content identifier, construction, caption formula,
+  or nonsemantic code unit and supplies no object, role, word, plaintext,
+  translation, or new f84 access.
 
 ## Confirmed structural baseline
 
