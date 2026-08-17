@@ -1,0 +1,40 @@
+{
+  "content_hash": "7ebccd55fcd10b5ba27b1ea4bc979b82ae8fd9b7695ba40b8ba8b83c78da4a4f",
+  "documents": {
+    "GDT272_Q_DENSITY_MECHANISM_METHOD.md": "6e9b058ca70fe3fc19136001a659461e84d8f8c8999bf123d2a683d635cfa3ca"
+  },
+  "experiment": "GDT272_Q_DENSITY_MECHANISM",
+  "f84r": {
+    "new_access": false,
+    "scored": false,
+    "used": false
+  },
+  "freeze_status": "PREDICTORS_FROZEN_BEFORE_GDT271_PAGE_SCORE_JOIN",
+  "implementation": {
+    "freeze_gdt272_q_density_mechanism.py": "0f5f5be16694acf19adf91cecfc377734185dd4e94d2efe2eac0e05f8681d9da"
+  },
+  "inputs": {
+    "gdt127_q20_field_inventory.tsv": "e1ad1e114214fdcb34945dacbfd5e0c783fd85ecb2730d328b0204eb279e2227",
+    "gdt267_result.json": "9033ca6667ddea66607853e924203a79a2570a34b4737c78518108b968b83b59",
+    "gdt271_result.json": "d5815ee1850411aa9d61dc089b801804bcae4be25a478cbcb17f0558a19b8af6"
+  },
+  "null_seed_literal": "GDT272_Q_DENSITY_MECHANISM_NULL_V1",
+  "null_worlds": 65536,
+  "outputs": {
+    "gdt272_frozen_density_predictors.tsv": "367e7871769ff58d876aaa607061ee4b8981a3c1f7f875b9f0a1d6a67f9c9d7e"
+  },
+  "pages": 13,
+  "prediction": "compiler-matched q conditional page score increases with early-versus-late density imbalance",
+  "primary_gate": {
+    "max_three_p_max": 0.05,
+    "pearson": "POSITIVE",
+    "positive_leave_one_page_min": 11,
+    "sign_agreement_min": 9
+  },
+  "primary_predictor": "GROUP_COUNT_LOG_RATIO",
+  "semantic_assignments": 0,
+  "sensitivities": [
+    "FIELD_COUNT_LOG_RATIO",
+    "LINE_COUNT_LOG_RATIO"
+  ]
+}
