@@ -1,0 +1,120 @@
+{
+  "claim_ceiling": "External readable-manuscript visual/text calibration only; no Voynich role, word, sound, language, plaintext, meaning, or translation.",
+  "documents": {
+    "GDT212_DE_BALNEIS_VISUAL_TEXT_GROUNDING_METHOD.md": "385234d0928ec82750739932d883bbb5340cbac0a08e0bc4893c99244c572769",
+    "GDT212_DE_BALNEIS_VISUAL_TEXT_GROUNDING_REPORT.md": "be61d5aa7a3213bcdc56f0f583c604ed8037cd5466fe51a809e2ca72d4fe717d"
+  },
+  "f84": {
+    "accessed": false,
+    "queried": false,
+    "retained": false,
+    "scored": false
+  },
+  "implementation": {
+    "run_gdt212_de_balneis_visual_text_grounding.py": "26ee23a56c29de2a8bd9f389ae6f26b62560122916bce7732b9835566b70942c"
+  },
+  "inputs": {
+    "gdt211_de_balneis_entry_inventory.tsv": "f82b3396135676ac59ebbad7e6da475d9b0882936875dbf4abd48ba0a0dd87e1",
+    "gdt211_source_freeze.json": "b537022b3ec6e60214ea8386dd0568cc6e0e65c92a14b300a77dca6137ba7391",
+    "gdt212_morgan_visual_role_inventory.tsv": "6761c94cb1db97df14567f9ad3d3e04fa0d3b6300847b36e4e0e0d0b5bb2a31c"
+  },
+  "interpretation": "Readable bath imagery weakly exposes setting/access and non-generic water organization, but not indication, procedure, or outcome fields.",
+  "mapped_bath_entries": 32,
+  "outputs": {
+    "gdt212_counterexamples.tsv": "7c3b5c0bcb8de26dfea39f3f81f23400fab4760a1329a1d4d1f9e8e3eb5fd064",
+    "gdt212_visual_text_role_scores.tsv": "a86a051acae044f796ff6dc5e1460b6b7a1fa8ed51d9c835b1f3391a8055baa4"
+  },
+  "paired_scores": {
+    "ACCESS_OR_SETTING__LOCATION_ACCESS": {
+      "bonferroni_four_p": 0.33926262675114055,
+      "feature_and_role": 13,
+      "feature_without_role": 7,
+      "loo_feature_bits": 32.743235083021375,
+      "loo_gain_bits": 0.6323499609713252,
+      "loo_prior_bits": 33.3755850439927,
+      "neither": 8,
+      "no_feature_with_role": 4,
+      "one_sided_fisher_p": 0.08481565668778514,
+      "risk_difference": 0.3166666666666667,
+      "role_rate_with_feature": 0.65,
+      "role_rate_without_feature": 0.3333333333333333,
+      "smoothed_odds_ratio": 3.4,
+      "status": "WEAK_VISUAL_GROUNDING",
+      "text_role": "LOCATION_ACCESS",
+      "visual_feature": "ACCESS_OR_SETTING"
+    },
+    "BED_OR_DEPARTURE_NARRATIVE__OUTCOME_TESTIMONY": {
+      "bonferroni_four_p": 1.0,
+      "feature_and_role": 1,
+      "feature_without_role": 7,
+      "loo_feature_bits": 25.364663613657747,
+      "loo_gain_bits": -1.6043122167404178,
+      "loo_prior_bits": 23.76035139691733,
+      "neither": 19,
+      "no_feature_with_role": 5,
+      "one_sided_fisher_p": 0.8514707699913484,
+      "risk_difference": -0.08333333333333334,
+      "role_rate_with_feature": 0.125,
+      "role_rate_without_feature": 0.20833333333333334,
+      "smoothed_odds_ratio": 0.7090909090909091,
+      "status": "NOT_VISUALLY_GROUNDED",
+      "text_role": "OUTCOME_TESTIMONY",
+      "visual_feature": "BED_OR_DEPARTURE_NARRATIVE"
+    },
+    "NON_GENERIC_WATER_SYSTEM__HYDRAULIC_PHYSICAL": {
+      "bonferroni_four_p": 0.2267704857248795,
+      "feature_and_role": 14,
+      "feature_without_role": 2,
+      "loo_feature_bits": 27.615645441064647,
+      "loo_gain_bits": 1.2845677720997948,
+      "loo_prior_bits": 28.90021321316444,
+      "neither": 7,
+      "no_feature_with_role": 9,
+      "one_sided_fisher_p": 0.05669262143121988,
+      "risk_difference": 0.3125,
+      "role_rate_with_feature": 0.875,
+      "role_rate_without_feature": 0.5625,
+      "smoothed_odds_ratio": 4.578947368421052,
+      "status": "WEAK_VISUAL_GROUNDING",
+      "text_role": "HYDRAULIC_PHYSICAL",
+      "visual_feature": "NON_GENERIC_WATER_SYSTEM"
+    },
+    "SPECIFIC_USE_ACTION__PROCEDURE_CAUTION": {
+      "bonferroni_four_p": 1.0,
+      "feature_and_role": 10,
+      "feature_without_role": 10,
+      "loo_feature_bits": 30.890961534844394,
+      "loo_gain_bits": 1.1182506152264864,
+      "loo_prior_bits": 32.00921215007088,
+      "neither": 2,
+      "no_feature_with_role": 10,
+      "one_sided_fisher_p": 0.9905156868570323,
+      "risk_difference": -0.33333333333333337,
+      "role_rate_with_feature": 0.5,
+      "role_rate_without_feature": 0.8333333333333334,
+      "smoothed_odds_ratio": 0.23809523809523808,
+      "status": "NOT_VISUALLY_GROUNDED",
+      "text_role": "PROCEDURE_CAUTION",
+      "visual_feature": "SPECIFIC_USE_ACTION"
+    }
+  },
+  "result_content_sha256": "7df26d192f4f1af8a246d15af465d306d5dc47b7ff918d0b5dde90e0ba3529c4",
+  "schema": "GDT212_DE_BALNEIS_VISUAL_TEXT_GROUNDING_RESULT_V1",
+  "semantic_mapping": "NONE",
+  "status": "SETTING_HYDRAULICS_WEAKLY_VISUALLY_GROUNDED_INDICATION_FIELDS_NOT_RECOVERED",
+  "text_role_counts": {
+    "HYDRAULIC_PHYSICAL": 23,
+    "INDICATION": 32,
+    "LOCATION_ACCESS": 17,
+    "OUTCOME_TESTIMONY": 6,
+    "PROCEDURE_CAUTION": 20
+  },
+  "visual_feature_counts": {
+    "ACCESS_OR_SETTING": 20,
+    "BED_OR_DEPARTURE_NARRATIVE": 8,
+    "BODY_CONDITION_CUE": 14,
+    "NON_GENERIC_WATER_SYSTEM": 16,
+    "SPECIFIC_USE_ACTION": 20
+  },
+  "voynich_scored": false
+}

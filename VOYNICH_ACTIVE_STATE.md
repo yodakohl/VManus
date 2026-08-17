@@ -525,6 +525,17 @@ Updated: 2026-08-17. Read this file first, then
   theory remains provisional, and further progress requires an independently
   owned repeated referent or readable homolog rather than glossing rare
   opening hosts.
+- GDT212 maps all 32 overlapping Morgan MS G.74 bath miniatures to the readable
+  GDT211 entries using the Morgan's human catalogue. Explicit access/setting
+  and non-generic water systems weakly track readable LOCATION_ACCESS and
+  HYDRAULIC_PHYSICAL presence (risk differences +0.317 and +0.313), but neither
+  survives four-pair correction. Depicted specific actions and narrative
+  bed/departure scenes fail to recover PROCEDURE_CAUTION or OUTCOME_TESTIMONY,
+  and all 32 texts contain indications while only 14 catalogue scenes show an
+  explicit bodily cue. Therefore the actionable q13 visual anchor narrows to
+  physical setting/access/hydraulic organization; figures and gestures cannot
+  presently identify a disease, procedure, or outcome field. This calibration
+  does not score Voynich text or assign a role to any source group.
 
 ## Confirmed structural baseline
 
