@@ -710,6 +710,14 @@ Updated: 2026-08-17. Read this file first, then
   recipe-role balance and seek an externally grounded prediction about the
   organization of its clause-like and short-argument-like material.  No label
   is an index, word, meaning, or translation; no f84 input or access occurred.
+- After GDT225, a broad source-audit search inadvertently displayed the
+  already-public f84r catalogue description and derived neutral visual-
+  inventory rows.  No f84r transcription, source-family sequence, PAGE_HOST,
+  grammar projection, target token, or score was loaded or displayed.  The
+  exact formal holdout therefore remains sealed, but the later workflow must
+  not claim zero metadata exposure.  Every successor must whitelist eligible
+  non-f84 loci before parsing source/formal fields; no further f84 access is
+  authorized.
 
 ## Confirmed structural baseline
 
