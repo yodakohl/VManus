@@ -386,6 +386,15 @@ Updated: 2026-08-17. Read this file first, then
   are effectively indistinguishable.  Terminal-y remains a strong formal axis,
   but global record order does not select starts-ot as its complementary
   semantic coordinate.  Do not export the f57/f77 quality labels to prose.
+- GDT198 finds two renderer-stripped HPR2 payloads reused across the exposed
+  f77r tube-state and figure-associated label classes: `dotedy`/`otedy` share
+  opaque `e+DY`, while `otchdy`/`dchdy` share opaque `ch+DY`.  The complete
+  local assignment control is not selective: 20 of 84 assignments of three
+  figure roles among the nine stable labels achieve at least two cross-class
+  matches (p=.2381).  All ownership remains proximity-only, and the tempting
+  `otol` resemblance in `f77r.50` changes group segmentation across readings.
+  Retain only the page-local renderer-switching clue; it supplies no state,
+  figure, process, word, sound, language, plaintext, meaning, or translation.
 
 ## Confirmed structural baseline
 
