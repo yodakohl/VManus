@@ -184,6 +184,18 @@ Updated: 2026-08-17. Read this file first, then
   four-element/four-quality technical page and retain the four forward
   predictions, but do not export `ot`, `ok`, or `y`, assert a confirmed quality
   word, or call this prose plaintext or a manuscript-wide translation.
+- GDT180 composes that f57-local state square with the already retained f77r
+  segment topology; it adds no new glyph fit.  The six source groups preserve
+  the sequence COLD-DRY-HOT-HOT-MOIST-COLD across alternate readings.  Their
+  five author-visible openings have emission mask 1-1-0-1-1, so the four
+  changing pairs instantiate Earth, Fire, Air, and Water once while the sole
+  Hot-to-Hot repetition is the sole non-emitter.  The leading YOLO reading is
+  therefore a six-stage quality-state process with four transition outputs and
+  one Hot hold/continuation.  This is post-hoc and not independently
+  transferred; a cached puff-order proposal agrees at zero of four and the
+  f67v1 universal-output transfer failed.  Do not gloss the six groups as
+  quality words, the puffs as named elements, or the apparatus as a known
+  operation, material, recipe, plaintext, or manuscript-wide translation.
 
 ## Confirmed structural baseline
 
