@@ -16,10 +16,16 @@ page inventory.  That panel already has label and confirmed-prose roles and a
 432-world whole-folio null matched on section, Currier, hand, and eligible-page
 count.  Do not add a page, remove an unfavorable page, or use visual content.
 
-For those pages only, stream-select source-native family-consensus groups from
-the existing consensus table.  Reject every `f84*` row before retaining or
-parsing its formal payload.  Alternate readings are one manuscript; family
-consensus is one observation, not three replications.
+For those pages only, use two already derived source-native family views.  The
+label side comes from the f84-free `gdt012_annotated_core_inventory.tsv`,
+restricted to the exact GDT187 label loci.  The paragraph side comes from the
+f84r-free `gdt016_group_state_inventory.tsv`; reject every `f84*` row before
+retaining or parsing its formal payload.  The role table itself is f84-free.
+This corrected input route was frozen before any target score after a safety
+audit found that the unused global consensus table contains sealed-page rows.
+The panel, representations, endpoint, and null were not changed.  Alternate
+readings are one manuscript; each source-native family surface is one
+observation, not three replications.
 
 ## Frozen keys
 

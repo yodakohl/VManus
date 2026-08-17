@@ -58,7 +58,10 @@ initial compact element of a prose paragraph
 ```
 
 GDT216 therefore freezes a narrow terminal-to-initial test before calculating
-its target scores.  This is new mechanism data, not a repair of GDT187.
+its target scores.  A pre-score safety correction routes the formal rows
+through the existing f84-free GDT012 label inventory and f84r-free GDT016
+prose inventory rather than the unused global consensus table; no endpoint or
+target choice changed.  This is new mechanism data, not a repair of GDT187.
 
 ## Limits
 

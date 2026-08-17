@@ -82,6 +82,14 @@ def main() -> None:
             "max_family": 3,
             "score_run": False,
         },
+        "source_access_correction": {
+            "made_before_target_score": True,
+            "label_family_source": "gdt012_annotated_core_inventory.tsv",
+            "prose_family_source": "gdt016_group_state_inventory.tsv",
+            "role_source": "experiments/semantic_assumptions/results/existing_human_locus_roles.tsv",
+            "global_consensus_table_used": False,
+            "panel_representation_null_changed": False,
+        },
         "f84": {"accessed": False, "input": False, "output": False},
         "claim_ceiling": "External mechanism and frozen formal prediction only; no Voynich key, number, word, language, plaintext, meaning, or translation.",
     }

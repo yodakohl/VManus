@@ -53,6 +53,12 @@ def main() -> None:
     check(target["null_worlds"] == 432 and target["max_family"] == 3, "frozen_null")
     check(len(target["representations"]) == 3, "three_representations")
     check(target["score_run"] is False, "score_not_run")
+    correction = result["source_access_correction"]
+    check(correction["made_before_target_score"] is True, "correction_pre_score")
+    check(correction["label_family_source"] == "gdt012_annotated_core_inventory.tsv", "safe_label_source")
+    check(correction["prose_family_source"] == "gdt016_group_state_inventory.tsv", "safe_prose_source")
+    check(correction["global_consensus_table_used"] is False, "global_consensus_unused")
+    check(correction["panel_representation_null_changed"] is False, "frozen_science_unchanged")
     check(result["f84"] == {"accessed": False, "input": False, "output": False}, "f84_flags")
 
     for name, expected in result["outputs_sha256"].items():
