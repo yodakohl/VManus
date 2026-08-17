@@ -566,6 +566,23 @@ Updated: 2026-08-17. Read this file first, then
   key-dictionary signal (`max-ten p=.2963`). Retain only the rendering
   architecture lead. No q13 gear, shaft, ladle, irrigation device, index
   value, direct source relation, word, or translation is established.
+- GDT215 now selects one explicit evidence-bounded generator rather than
+  leaving the content synthesis as unranked alternatives.  The leading theory
+  is a hybrid medical record compiler with a distinct diagram-reference
+  register: page-conditioned opaque content addresses are rendered through
+  the retained HPR2 record grammar, short graphical strings may carry
+  component/state/case references, and the longer records may carry practical
+  medical information that the pictures do not expose field by field.  The
+  provisional document domain remains therapeutic balneology with schematic
+  hydraulic/process rendering.  This architecture jointly accommodates the
+  formal compiler, distinct label register, readable medieval precedents, and
+  the failures of simple language, fixed-host, and exact label-to-prose keys.
+  It is a YOLO generative theory, not a confirmed interpretation: semantic
+  coverage remains zero words, zero plaintext clauses, and zero licensed
+  semantic states.  Five prospective predictions now replace further internal
+  host-gloss mining; the highest-value route requires a new singular repeated
+  hydraulic/setting referent with held-folio replication or a readable q13-like
+  diagram preserving diplomatic labels and prose.  No f84 artifact was used.
 
 ## Confirmed structural baseline
 
