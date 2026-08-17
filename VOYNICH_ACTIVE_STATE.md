@@ -161,6 +161,14 @@ Updated: 2026-08-17. Read this file first, then
   can be retained either. Keep the provenance-ranked atlas, stop host-neighbor
   diagnostics, and require a new source-bound, separately owned repeated
   referent before testing a lexical or distributed address again.
+- GDT178 also closes the transformed-short-host escape on that same complete
+  atlas. Across 38 scorable human-nominated pairs, exact hosts, host bigrams,
+  host trigrams, raw trigrams, and host-length profiles all have negative
+  matched mean excess; host trigrams are -.170 z with max-five p .951, zero of
+  five local owned/provisional label queries is top-decile, and 77/78
+  pair/folio deletions remain negative. Positive cross-source/internal subsets
+  are dependent and post-selected. Do not fit another flexible string metric
+  to this exposed panel; require genuinely new row-level equivalence evidence.
 
 ## Confirmed structural baseline
 
