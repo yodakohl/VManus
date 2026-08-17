@@ -1,0 +1,61 @@
+{
+  "claim_ceiling": "Coordinate correction only; no replacement semantic role, word, language, plaintext, or translation.",
+  "content_hash": "76ade04c08c1a4fdf4d4a0e87591dc20072cd0420eab178c59279b8bd075a630",
+  "correction": "Withdraw f82r GDT229/GDT239 record-relative abstract role counts; retain source groups, PAGE_HOST/compiler parses, DY fields, label dossier, and formal coverage.",
+  "documents": {
+    "GDT242_F82R_PARAGRAPH_COORDINATE_CORRECTION_METHOD.md": "aff7fc3ddd71209f311cd9e7c5c570497040a34c5ae0346a998d57c07c9cf3d6",
+    "GDT242_F82R_PARAGRAPH_COORDINATE_CORRECTION_REPORT.md": "97d38df6e9820688b97f85c48f86719399f9b7cb24e5053e60724ef0825a7356"
+  },
+  "experiment": "GDT242_F82R_PARAGRAPH_COORDINATE_CORRECTION",
+  "f84": {
+    "input": false,
+    "joined": false,
+    "new_access": false,
+    "retained": false,
+    "scored": false
+  },
+  "historical_gdt229_record_ids": [
+    "Q13|f82r|R01"
+  ],
+  "historical_role_loci_by_paragraph": [
+    4,
+    1,
+    3
+  ],
+  "hpr2_covered_by_paragraph": [
+    6,
+    5,
+    6
+  ],
+  "hpr2_fields_by_paragraph": [
+    17,
+    17,
+    17
+  ],
+  "implementation": {
+    "run_gdt242_f82r_paragraph_coordinate_correction.py": "600f0b969677aedb6421b9f2fa8d543b2f5f51139f011d0172d0b825983bf3f4"
+  },
+  "inputs": {
+    "experiments/semantic_assumptions/results/existing_human_page_annotations.tsv": "b358f244cbe853448dd5c32dbc04004cb8ce63d9a8c5ed5afe2a679a115d87fa",
+    "gdt002_grammar_projection.tsv": "33bec3be712b35c52afc44ffa7af5e6719ad5a183d8be9a5ac852e1a4e2649b7",
+    "gdt239_f82r_field_dossier.tsv": "4de4c2a689031420277a18a4a383469d24272b5f8e70f580ee47b507a2dc5882",
+    "gdt241_f82r_line_coverage.tsv": "4199cbeef466811b66bc77bc19f18e40f67185bb140a8ab894f437896e64ef90"
+  },
+  "interpretation": "The selected complete-line frame omitted every paragraph-start locus and merged three physical paragraphs into one role coordinate.",
+  "outputs": {
+    "gdt242_f82r_paragraph_coordinate.tsv": "b806f9836f449ac71ef31fcfba6aeeffd01d86c0f3e3284c0b39eafcc29d817f",
+    "gdt242_f82r_record_correction.tsv": "ea6cd41bc3bf860275ea42886c7b20db61a2451d902cab2247624e723413ed41"
+  },
+  "paragraph_line_counts": [
+    9,
+    9,
+    14
+  ],
+  "paragraph_starts": [
+    "f82r.1",
+    "f82r.11",
+    "f82r.20"
+  ],
+  "source_paragraphs": 3,
+  "status": "GDT229_F82R_RECORD_COORDINATE_INVALID_THREE_PARAGRAPHS_COLLAPSED"
+}

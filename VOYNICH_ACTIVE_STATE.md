@@ -907,6 +907,18 @@ Updated: 2026-08-17. Read this file first, then
   abstract-role-scaffolded, and 0/32 translated.  Build an uncertainty-aware
   line/paragraph coordinate before applying any role instrument; no word,
   plaintext, translation, or new f84 access follows.
+- GDT242 finds and corrects a material f82r record-coordinate error.  Human and
+  source codes define three paragraphs beginning f82r.1, .11, and .20, but all
+  three start loci were absent from the complete-line frame; GDT224/GDT229
+  therefore merged eight covered loci from three paragraphs into one record
+  key.  Withdraw the f82r-specific 16 short-like/10 instruction-like role
+  counts and the role-based portion of GDT239.  Retain all source families,
+  labels, PAGE_HOST/compiler parses, DY fields, and broad document-world
+  alternatives.  Corrected paragraphs contain 9/9/14 physical prose lines and
+  6/5/6 HPR2-covered lines; the covered subsets each happen to yield 17 fields,
+  but missing lines prevent an authorial 17-field claim.  Replacement roles
+  require a missingness-aware paragraph coordinate.  No word, meaning,
+  plaintext, translation, or new f84 access follows.
 
 ## Confirmed structural baseline
 
