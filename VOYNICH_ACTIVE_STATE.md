@@ -267,11 +267,23 @@ Updated: 2026-08-17. Read this file first, then
   compiler mechanism.  It does not provide a Voynich key.  Foxton's direct
   model is insufficient because most of its Latin is readable and simple
   substitution does not generate the Voynich page-conditioned, line-reset,
-  wrapper/right/DY/B3 architecture.  The next live test is therefore a
-  semantics-free keyed-omission test asking whether nonsealed page-label host
-  inventories predict paragraph/field structure beyond page/register effects
-  even when exact labels are absent from prose.  No Latin plaintext, alphabet,
-  word, rubric value, source identity, or translation is inferred.
+  wrapper/right/DY/B3 architecture.  Its first semantics-free keyed-omission
+  prediction is now resolved by GDT187 rather than remaining pending.  No
+  Latin plaintext, alphabet, word, rubric value, source identity, or
+  translation is inferred.
+- GDT187 compares independently inventoried label bags with same-page prose
+  and complete paragraph-opening lines on 23 nonsealed pages/11 physical
+  folios.  Its exact 432-world null permutes whole label-page bundles only
+  among folios matched on section, Currier, hand, and eligible page count.  Of
+  ten fixed raw/PAGE_HOST/compiler channels, the strongest is all-prose
+  compiler similarity: weighted Jaccard .06901 versus .06338, local p=.0787
+  and max-ten p=.2963.  The effect is Pharma-local (+.00962, p=.0833) and
+  slightly negative in Biological/Balneological (-.00057, p=.75).  Exact host
+  reuse covers 57/215 label-group occurrences anywhere in same-page prose and
+  22/215 on paragraph-opening lines, but is not globally unusual.  Therefore
+  the current page-level label-key/omitted-headword bridge is unsupported;
+  retain Foxton only as historical mechanism context, not as a recovered
+  Voynich rubric dictionary.
 
 ## Confirmed structural baseline
 
