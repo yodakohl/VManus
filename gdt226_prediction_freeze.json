@@ -1,0 +1,69 @@
+{
+  "decision_rule": "ALL_3_DIRECTIONS_AND_AT_LEAST_8_OF_9_Q13_FOLIO_DELETIONS",
+  "documents": {
+    "GDT226_MANUSCRIPT_RECIPE_ROLE_SPECIFICITY_FREEZE_METHOD.md": "b851181aeec0ecae479a31ec5371551695e5b1df95257c02f8af62ad6fc9348a"
+  },
+  "f84": {
+    "future_access_authorized": false,
+    "joined": false,
+    "public_metadata_previously_exposed": true,
+    "scored": false,
+    "source_or_formal_payload_retained": false
+  },
+  "field_rule": "DY_CLOSURE_OR_LINE_END",
+  "folio_counts": {
+    "HERBAL_A": 46,
+    "HERBAL_B": 15,
+    "OTHER_A": 7,
+    "OTHER_B": 3,
+    "Q13": 9,
+    "STARS_B": 12
+  },
+  "freeze_content_sha256": "e8f22f2e8ce3cc0d99ca30079c1614cafdfb17c3f1210dbca30b9334cae480fb",
+  "implementation": {
+    "freeze_gdt226_manuscript_recipe_role_specificity.py": "6acbf34660b564a3ad025b510e2407e94553e9d1717d546afeaaf88e6f833448"
+  },
+  "inputs": {
+    "gdt016_group_state_inventory.tsv": "e109ce15864ed6b6f76d446b3c96d6190a0dc53d20d8ab0944554124e687234c",
+    "gdt046_line_frames.tsv": "4c8a8486ec39c2d138b865c950ebaff038f1db1e3668219105893d6b04f92511",
+    "gdt176_external_role_units.tsv": "f36d5011761b6a8fc99d2a8b0df2e76cb7b797ce1115e693f5fcfb4e940451a5",
+    "gdt176_result.json": "906123f9bc1d4f8411f3eed4e54088275b8b8cbf7aa3bae052c06b04814c56a9",
+    "gdt224_result.json": "91105467c8b3a7c533d21f7c00bffaf88284b438fad74e1f8e4e8b3230ac4fda"
+  },
+  "instrument": "UNCHANGED_GDT176_POSITION_LENGTH",
+  "line_counts": {
+    "HERBAL_A": 434,
+    "HERBAL_B": 91,
+    "OTHER_A": 59,
+    "OTHER_B": 56,
+    "Q13": 240,
+    "STARS_B": 263
+  },
+  "page_counts": {
+    "HERBAL_A": 89,
+    "HERBAL_B": 30,
+    "OTHER_A": 14,
+    "OTHER_B": 6,
+    "Q13": 18,
+    "STARS_B": 23
+  },
+  "predictions": [
+    {
+      "id": "P1",
+      "rule": "Q13_RECIPE_JS_LT_HERBAL_A_AND_HERBAL_B"
+    },
+    {
+      "id": "P2",
+      "rule": "Q13_RECIPE_JS_RANK_LE_2_OF_6"
+    },
+    {
+      "id": "P3",
+      "rule": "Q13_NEAREST_OTHER_SCOPE_IS_STARS_B"
+    }
+  ],
+  "prior_exposure": "P1_Q13_VS_HERBAL_B_AND_PUBLISHED_STARS_PROJECTION_ALREADY_EXPOSED",
+  "record_rule": "PAGE_OR_EDITOR_PARAGRAPH_START",
+  "schema": "GDT226_MANUSCRIPT_RECIPE_ROLE_SPECIFICITY_FREEZE_V1",
+  "scope_rule": "HA_HB_SB_OA_Q13_F75_TO_F83_REMAINING_OB",
+  "status": "FROZEN_BEFORE_SIX_SCOPE_ROLE_PROJECTION"
+}
