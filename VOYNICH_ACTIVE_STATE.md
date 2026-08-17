@@ -1185,6 +1185,17 @@ Updated: 2026-08-17. Read this file first, then
   translation.  The q effect covaries with record-length imbalance, so
   expansion, density, and record-stage mechanisms remain unresolved.  No new
   f84r access occurred.
+- GDT268 freezes those two q13 directions before scoring the independent,
+  f84-free Q20 star-record register.  In ZL, the first half of each page has
+  slightly more `q` than the last half on 9/13 pages (mean `+.02561`, OR
+  `1.189`), while bare rendering is higher late on 9/13 (early-minus-late
+  `-.03992`, OR `.849`).  IT and RF retain both aggregate directions, but the
+  ZL max-two p-values are `.1725` and `.1917` and no reading sensitivity
+  passes its max-two test.  Thus the q13 placement rule has a weak
+  same-direction Stars echo but is not a confirmed manuscript-wide ordinal
+  operator.  Keep `q` as an earlier-record-associated q13 renderer and a
+  cross-register record-stage hypothesis only; no word, semantic function,
+  translation, or new f84r access follows.
 
 ## Confirmed structural baseline
 
