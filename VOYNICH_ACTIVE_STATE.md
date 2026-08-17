@@ -487,6 +487,18 @@ Updated: 2026-08-17. Read this file first, then
   explicitly post-hoc: neither source reproduces six states/five edges, no
   singular readable label bridge exists, the old quality-word decoder remains
   withdrawn, and no source group receives a meaning.
+- GDT209 directly inspects three institutional primary images instead of
+  relying on apparatus prose alone. Wolfenbüttel Cod. Guelf. 23.19 Aug. 4°
+  fol. 40r has paired pear-shaped vessels with crossing ducts; Othmer MS 7
+  fol. 10r has a return-loop vessel and a paired-descending-duct vessel; fol.
+  36r has paired domed furnaces with nested chambers and side outlets. This
+  materially strengthens the historical plausibility of circulation,
+  paired-container, and nested-apparatus imagery, but all three images lack
+  q13's figures inside connected pools, repeated figure/stage units, and color
+  program. None has the exact f77 topology or a readable singular Voynich
+  label bridge. Retain medicinal-alchemical circulation as the leading broad
+  q13 content theory, lower its iconographic specificity, and reject direct
+  descent from the inspected Rupescissa/Pseudo-Lull diagram types.
 
 ## Confirmed structural baseline
 
