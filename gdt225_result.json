@@ -1,0 +1,69 @@
+{
+  "claim_ceiling": "Formal/source-order distributed-closure diagnostic only; no label key index word meaning language plaintext or translation.",
+  "counts": {
+    "herbal_b3": 2,
+    "herbal_expanded_closures": 18,
+    "herbal_field_closers": 17,
+    "herbal_following_label_blocks": 0,
+    "herbal_proxies": 2,
+    "herbal_records": 22,
+    "q13_b3": 2,
+    "q13_expanded_closures": 23,
+    "q13_field_closers": 17,
+    "q13_following_label_blocks": 9,
+    "q13_proxies": 11,
+    "q13_records": 33
+  },
+  "documents": {
+    "GDT225_Q13_DISTRIBUTED_CLOSURE_FREEZE_METHOD.md": "e894f77c68a734bc32a6f2dbca08bd008c339111a4439531dca1d9ed0a12916c",
+    "GDT225_Q13_DISTRIBUTED_CLOSURE_REPORT.md": "7fc1d3b4838b876f45f32f6c6afc8d6e8a9314baa08063a9c2306aa196661022"
+  },
+  "effects": {
+    "folio_balanced_baseline_deficit": 0.3013227513227513,
+    "folio_balanced_deficit_shrink": 0.4916593503072871,
+    "folio_balanced_expanded_deficit": 0.15317460317460319,
+    "missing_proxy_q13_minus_herbal": 0.175,
+    "q13_proxy_missing_minus_field_closer": 0.08088235294117646,
+    "record_weighted_baseline_deficit": 0.25757575757575757,
+    "record_weighted_deficit_shrink": 0.5294117647058824,
+    "record_weighted_expanded_deficit": 0.12121212121212122
+  },
+  "f84": {
+    "accessed": false,
+    "joined": false,
+    "retained": false,
+    "scored": false
+  },
+  "freeze_commit": "f9ed5f1",
+  "gates": {
+    "at_least_eight_lofo": false,
+    "folio_balanced_half_deficit_reduction": false,
+    "q13_missing_enrichment": true,
+    "q13_missing_proxy_higher": true,
+    "record_weighted_half_deficit_reduction": true
+  },
+  "implementation": {
+    "run_gdt225_q13_distributed_closure.py": "e70c2b67741d9181af59f98c2396b246d151a46bc512cb9049f6ea7bedafbb33"
+  },
+  "inputs": {
+    "gdt012_annotated_core_inventory.tsv": "137efc96893220f8d55857b5ffc60f54a4eeb87450b42151b8bdc557e7281525",
+    "gdt046_line_frames.tsv": "4c8a8486ec39c2d138b865c950ebaff038f1db1e3668219105893d6b04f92511",
+    "gdt224_field_role_projection.tsv": "df6ece439c627513e074ca61204b06d364dbb78d394cb5f613b46b4ce32af0b7",
+    "gdt224_record_role_summary.tsv": "3830bd117c272cb07911e5ae34151a87967f774f5d47d22964741d9edf7567f6",
+    "gdt224_result.json": "91105467c8b3a7c533d21f7c00bffaf88284b438fad74e1f8e4e8b3230ac4fda",
+    "gdt225_freeze_validation.json": "52c5abf7def69f93c8916667f08f80c432ecba39a40e4ba6725f687f2b5cfe14",
+    "gdt225_prediction_freeze.json": "f53c765db54c6f5a8ba545791771a6631372ee6f3c2cdd5371972ad1fe361daa"
+  },
+  "interpretation": "Existing B3 and following-label channels partially reduce the q13 closer deficit, but the mechanism is not folio-stable or specifically concentrated in missing closers.",
+  "lofo_all_three_hits": 4,
+  "lofo_total": 9,
+  "outputs": {
+    "gdt225_closure_scores.tsv": "29729dbe9d98b2291d703d7c05d50f6ef40590a7fcba41a5c1e36227d0d5d5ec",
+    "gdt225_counterexamples.tsv": "1ba4f710933a974e8480b132aacda029891a6f5ba25fc1ccfd4be68b8b5212fb",
+    "gdt225_lofo.tsv": "79a53f7b7ddfe9cb7178412f44aac78e974c390ece054e1fdba540d3010cf73b",
+    "gdt225_record_closure_atlas.tsv": "e83f55bef0851f8df4f29a2039be5d9a9b81580c440851914fb631435a190fe6"
+  },
+  "result_content_sha256": "ddbd8803dd4217ed24f5144ab92fa93739375fa3df6a901ebdac1b1ca3ef9381",
+  "schema": "GDT225_Q13_DISTRIBUTED_CLOSURE_RESULT_V1",
+  "status": "DISTRIBUTED_CLOSURE_PARTIAL_OR_GENERIC"
+}

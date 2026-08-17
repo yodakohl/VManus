@@ -697,6 +697,19 @@ Updated: 2026-08-17. Read this file first, then
   next semantic route should explain the missing/relocated q13 close under a
   frozen mechanism; no individual field is an ingredient, tool, action, word,
   or translation.  No f84 input or access occurred.
+- GDT225 freezes the two existing external-to-final-field closure channels,
+  final-line B3 and a following human-label block in source order, on the
+  unchanged GDT224 records.  Their union is more frequent among q13 records
+  missing a closer than Herbal-B (`.375` versus `.200`) and reduces the pooled
+  closer deficit by 52.94%, but folio balancing gives only 49.17% and all
+  frozen directions survive just 4/9 q13 folio deletions.  Following labels
+  occur after 4/16 q13 missing-closer records and 5/17 already-closed records;
+  B3 has only two examples per scope.  Thus the label layout is genuinely
+  q13-specific on this panel but is not a stable relocated closer.  Stop
+  adding generic closure channels.  Preserve only GDT224's weak global
+  recipe-role balance and seek an externally grounded prediction about the
+  organization of its clause-like and short-argument-like material.  No label
+  is an index, word, meaning, or translation; no f84 input or access occurred.
 
 ## Confirmed structural baseline
 
