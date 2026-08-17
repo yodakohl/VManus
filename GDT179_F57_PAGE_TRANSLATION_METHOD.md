@@ -49,8 +49,8 @@ The candidate local decoder is then stated, not fitted:
 
 - N1 `starts_ot` selects the two qualities incident to FIRE;
 - D1 `has_ok_component` selects the two qualities incident to WATER;
-- terminal `y` selects the passive-quality pair MOIST/DRY;
-- absence of terminal `y` selects the active-quality pair HOT/COLD.
+- terminal `y` selects the MOIST/DRY quality pair;
+- absence of terminal `y` selects the HOT/COLD quality pair.
 
 Each register therefore supplies two binary coordinates and identifies all
 four quality positions.  The decoder applies only to these two f57 registers.

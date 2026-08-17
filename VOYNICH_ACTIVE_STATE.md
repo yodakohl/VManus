@@ -169,6 +169,21 @@ Updated: 2026-08-17. Read this file first, then
   pair/folio deletions remain negative. Positive cross-source/internal subsets
   are dependent and post-selected. Do not fit another flexible string metric
   to this exposed panel; require genuinely new row-level equivalence evidence.
+- GDT179 is a YOLO synthesis rather than a confirmation experiment.  The
+  official Walters W.73 phase fixes top-clockwise Fire-Air-Water-Earth and the
+  associated Hot-Moist-Cold-Dry incidence square before the new synthesis.
+  Under that phase, both f57 short-label registers admit exact local two-bit
+  decoders: N1 combines starts-`ot` (Fire-incidence Hot/Dry) with terminal `y`
+  (Moist/Dry), while D1 combines an `ok` component (Water-incidence
+  Moist/Cold) with the same terminal-`y` partition.  All eight page positions
+  decode without an exception across the alternate readings at feature level.
+  This is the strongest current page-local semantic scaffold, but it is
+  post-hoc, one-folio, and proximity-owned.  R2's stable `f,f,p,p` column is
+  exactly confounded among hot/cold, upper/lower geometry, and Latin noun
+  gender; three long rings remain opaque.  Treat f57 as a provisional
+  four-element/four-quality technical page and retain the four forward
+  predictions, but do not export `ot`, `ok`, or `y`, assert a confirmed quality
+  word, or call this prose plaintext or a manuscript-wide translation.
 
 ## Confirmed structural baseline
 
