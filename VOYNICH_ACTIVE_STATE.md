@@ -1150,6 +1150,18 @@ Updated: 2026-08-17. Read this file first, then
   PAGE_HOST.  Close further label-substring-to-paragraph-topic mining without
   new ownership evidence; use the compiler fingerprint as a record-regime
   clue only.  No meaning, translation, or new f84r access follows.
+- GDT265 tests the main nuisance explanation for that result with a fully
+  held-page earlier-versus-later-record assignment.  Wrapper-only features
+  choose the correct orientation for 62/72 split views on eight of nine held
+  pages (`p=.0994` local; max-eight `p=.1014`); PAGE_HOST character texture is
+  59/72 and the complete compiler is 58/72, while right-family alone reverses
+  to 32/72.  The wrapper effect is large and broadly signed but remains just
+  outside the predeclared search adjustment.  Treat it as **borderline global
+  record-order transfer**: much of GDT264's wrapper fingerprint is plausibly
+  document position, so it cannot be promoted as latent content, but the data
+  do not establish a universal earlier/later code.  The next content-bearing
+  route must control record ordinal explicitly.  No topic, meaning,
+  translation, or new f84r access follows.
 
 ## Confirmed structural baseline
 
