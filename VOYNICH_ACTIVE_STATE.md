@@ -1093,6 +1093,18 @@ Updated: 2026-08-17. Read this file first, then
   weak late-placement clue inside the sparse-reference world, not a paragraph
   or field address.  No referent, cross-reference function, meaning,
   translation, or new f84r access follows.
+- GDT260 applies the corrected paragraph query to f82r.10, the page's only
+  human-attached component label.  The member-code neighborhood of its
+  two-reading left split component (`orol`) is confined to the physically
+  following P2: ZL3b 3/3 hit-lines, IT2a 4/4, RF1b 3/3, with local tails
+  `.016935/.003504/.016935` and three-representation Bonferroni values
+  `.050806/.010512/.050806`.  The right component is broad, the complete
+  label has zero one-edit prose hits, exact left-component reuse is zero, and
+  coarse `ACAB` occurs throughout P1/P2/P3.  Retain a provisional
+  attached-label→adjacent-paragraph member-neighborhood hypothesis and freeze
+  the same query on a different source-bound attached label before formal
+  access.  Alternate readings are sensitivities, not replications; no
+  component name, meaning, translation, or new f84r access follows.
 
 ## Confirmed structural baseline
 
