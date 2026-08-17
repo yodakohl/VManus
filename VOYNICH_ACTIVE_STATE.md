@@ -228,6 +228,15 @@ Updated: 2026-08-17. Read this file first, then
   force.  Call them descriptive semantic candidates until a frozen
   schema-equivalent transfer or readable homolog succeeds; no source group,
   local bit, quality word, or transition name is confirmed.
+- GDT183 tests the remaining f57 outside `dairal/dairol` label as a possible
+  title/start word.  Its source-native BAFAB family is strongly entry-enriched
+  inside the HPR2-covered prose subset (4/4 FIRST versus 372/1,463 for all
+  `d-`-wrapped groups; raw hypergeometric p=.00413), but two of 83 equally
+  supported family types are also all-FIRST and the four occurrences span
+  ENTRY, AL, and OL states.  The best live analysis is therefore structural:
+  `d[ENTRY_WRAPPER] + air/airol[OPAQUE HOST/RIGHT]`.  Treat the f57 form as
+  START_MARKER_LIKE, not as a translated word for start or title; no lexical
+  value is confirmed and f84r remains untouched.
 
 ## Confirmed structural baseline
 
