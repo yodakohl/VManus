@@ -1,0 +1,58 @@
+{
+  "claim_ceiling": "One-page prospective formal component-assignment result only; no segmentation role word sound language plaintext or translation.",
+  "documents": {
+    "GDT223_F82V_FIXED_MODULE_TRANSFER_FREEZE_METHOD.md": "fad347376f8c4939dfb257b7ff10e15db66d9cd71133def29af2f2e0a402888d",
+    "GDT223_F82V_FIXED_MODULE_TRANSFER_REPORT.md": "b0d80cb3e9533158ce92a7deb630a020a129bfe481faaeede1d907cf4bb23443"
+  },
+  "f84": {
+    "accessed": false,
+    "joined": false,
+    "retained": false,
+    "scored": false
+  },
+  "freeze_commit": "dc266ccfdb70e2cb7ba7c8bb681c1c6727f27fc8",
+  "implementation": {
+    "run_gdt223_f82v_fixed_module_transfer.py": "a26f18449aa4f39ae9c8d7c371715a15bde6779b7895193679a3b10ca705f035"
+  },
+  "inputs": {
+    "gdt012_annotated_core_inventory.tsv": "137efc96893220f8d55857b5ffc60f54a4eeb87450b42151b8bdc557e7281525",
+    "gdt016_group_state_inventory.tsv": "e109ce15864ed6b6f76d446b3c96d6190a0dc53d20d8ab0944554124e687234c",
+    "gdt222_module_manifest.tsv": "f4de54fa00de00b1470cbc757c9f020cd4a428f2eeac9ef4a9835aac8635b35a",
+    "gdt223_f82v_assembly_prediction.tsv": "c6eca486f416ac2c6674cf5429f4aaa246996ab9e05e855d376ebee5349d8aa5",
+    "gdt223_freeze_validation.json": "90f6158498c5c3554d4538c5ca45ea9c6c0f9152c7d0a96430279949ebae58cd",
+    "gdt223_prediction_freeze.json": "0473cb811f89e9e4d6ac169020f74b20b402698d694d23d1651e86e7c19a14be"
+  },
+  "interpretation": "The generic module-set direction transfers weakly, but the frozen ar local-address prediction fails; dal is the post-reveal driver.",
+  "modules": [
+    "ar",
+    "ol",
+    "dal",
+    "dar",
+    "sy",
+    "te",
+    "tee",
+    "dy"
+  ],
+  "outputs": {
+    "gdt223_counterexamples.tsv": "854fe722c9a05ff6e13f5844b00639c4c103d505a95ed3a7c6ecd87f304dfa50",
+    "gdt223_f82v_assignment_score.tsv": "ec1c9a5de9cc1d119c792038459adc7a673bc0c1e977513ae0bd78cafdc55425",
+    "gdt223_f82v_leave_one_module_out.tsv": "75e60dd57e0c9feef1441845bfc8ae1f85f334b838a9ae84f02d7c33f1717f53",
+    "gdt223_f82v_module_correspondence.tsv": "151488010922853f9fcb7b4f0fb8bbe0e20cc6cfcbc27f3a9106f863fb483301",
+    "gdt223_f82v_module_inventory.tsv": "bf9275ca1dcaf02c20566a672e5f010c96c526b0578f045d6b70b333f18b22a9"
+  },
+  "page": "f82v",
+  "physical_folio": "f82",
+  "prediction_results": {
+    "ar_discriminates_exactly_one_matching_side": false,
+    "assignment_lead": 0.05714285714285716,
+    "directional_p": 0.5,
+    "exact_swap_worlds": 2,
+    "positive_assignment_lead": true,
+    "postreveal_dal_discriminates_exactly_one_matching_side": true
+  },
+  "result_content_sha256": "7d10ba8b4f1a2659ff90f7fd7dc2547d543927780747ae143706d80d433f3db5",
+  "schema": "GDT223_F82V_FIXED_MODULE_TRANSFER_RESULT_V1",
+  "selected_complete_prose_lines": 12,
+  "selected_labels": 8,
+  "status": "MODULE_SET_DIRECTION_HIT_AR_LOCAL_ADDRESS_TRANSFER_FAILED"
+}

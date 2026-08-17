@@ -669,6 +669,19 @@ Updated: 2026-08-17. Read this file first, then
   A valid successor needs a third independently defined assembly frozen before
   module reveal; do not search another representation on these two pages.  No
   f84 input or access occurred.
+- GDT223 prospectively transfers that exact eight-module representation to
+  f82v after freezing three human top labels plus its first complete prose
+  block against five human bottom labels plus its second complete prose block.
+  The generic assignment direction hits, but only narrowly (lead +.05714,
+  one-page `p=.5`).  The named `ar` prediction fails: `ar` occurs in neither
+  label bag and both prose bags.  The only matching discriminator is `dal` on
+  the top side, selected only after reveal, and removing `dal` reverses the
+  lead to -.18333.  Reject `ar` as a transferable local assembly address and
+  retain only weak evidence that some page-specific module can align local
+  label/prose bags.  Do not search a replacement module on f82v; the changing
+  discriminator is evidence for page-conditioned address material, ordinary
+  local string reuse, or both—not a word meaning.  No f84 input or access
+  occurred.
 
 ## Confirmed structural baseline
 
