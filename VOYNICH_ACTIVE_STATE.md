@@ -773,6 +773,17 @@ Updated: 2026-08-17. Read this file first, then
   plaintext clause or translation is established.  The next discriminator is
   a newly acquired source-bound repeated component/state or a readable q13-
   like homolog, not another internal host score.  No new f84 access occurred.
+- GDT230 ranks 63 recurrent exact q13 PAGE_HOST identities as possible opaque
+  content addresses, then compares their held-folio abstract-class lookup to a
+  field-size, endpoint and record-position baseline.  Nine identities are
+  highly wrapper-invariant (`olchey`, `r`, `cthy`, `eol`, `che`, `okey`, `ey`,
+  `olk`, `ckhy`), with `cthy` instruction-like in 23/24 occurrences on eight
+  folios and `che` short-argument-like in 13/14 on six folios.  However, the
+  nuisance baseline meets or beats exact-host lookup for all nine; increments
+  range from `0` to `-.0952`.  Retain these strings only as prioritized opaque
+  handles for a genuinely independent referent.  Stable placement does not
+  localize content, and no internal gloss search is licensed.  No new f84
+  access occurred.
 
 ## Confirmed structural baseline
 
