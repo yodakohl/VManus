@@ -499,6 +499,20 @@ Updated: 2026-08-17. Read this file first, then
   label bridge. Retain medicinal-alchemical circulation as the leading broad
   q13 content theory, lower its iconographic specificity, and reject direct
   descent from the inspected Rupescissa/Pseudo-Lull diagram types.
+- GDT210 tests the principal content rival using four official Morgan MS G.74
+  images of Peter of Eboli's *De balneis Puteolanis* (Italy, ca. 1400). Fol.
+  21r supplies the closest readable visual package yet: vertically tiered
+  figures, two lower bathing pools, a central descending watercourse, and one
+  architectural frame; fols. 9r, 19r, and 25r independently show shared
+  pools, figures, water beside or beneath structures, domes, arches, stairs,
+  and caves. Six transparent post-hoc axes favor the bath comparator, while
+  long/cross-page ducts remain the one clear secondary alchemical/hydraulic
+  lead. The leading q13 content theory therefore becomes a therapeutic
+  balneological regimen or bath-site compendium rendered with an unusually
+  schematic hydraulic/process layer. Literal therapeutic subjects/bathers are
+  provisionally favored over personified chemical materials. This is a page-
+  genre theory only: there is still no singular readable label bridge, no
+  Voynich bath/disease/procedure/place word, and no translation.
 
 ## Confirmed structural baseline
 
