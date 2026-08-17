@@ -944,6 +944,18 @@ Updated: 2026-08-17. Read this file first, then
   missingness-aware f82r extent result survive.  The hybrid record compiler
   remains the leading formal generator, but there is no active q13 semantic
   field interlinear, word, plaintext, translation, or new f84 access.
+- GDT245 propagates that correction through the dependent q13 stack.  Its
+  fourteen-row status map suspends six coordinate-dependent claim layers,
+  withdraws the f82r 16/10 prose-role count, archives the GDT229 lattice as a
+  hypothesis rather than an active interlinear, and removes semantic use of
+  GDT227 role purity, GDT228 page fractions, and GDT230 host-role rankings.
+  Source-native families, HPR2 PAGE_HOST/compiler/DY parses, the source-bound
+  f82r visual-label dossier, and the independently tested GDT231–238 label
+  renderer remain live.  The active generator is now explicitly a page-
+  conditioned paragraph/field compiler plus label renderer with an unresolved
+  content channel and zero executable semantic assignments.  Rebuild pagewise
+  formal coverage before any replacement role test; no word, plaintext,
+  translation, or new f84 access follows.
 
 ## Confirmed structural baseline
 
