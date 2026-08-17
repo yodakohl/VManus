@@ -818,6 +818,17 @@ Updated: 2026-08-17. Read this file first, then
   residuals only when an independent referent is available.  Neither prefix
   nor residual is an authorial label marker or content word.  No new f84
   access occurred.
+- GDT234 removes those prefixes from all 391 GDT231 visual-unit pairs.  Among
+  157 pairs where at least one prefix is stripped, similarity degrades in 129,
+  improves in 18 and is unchanged in 10 (mean delta `-.275`).  Requiring both
+  prefixes to be stripped and both residuals nonempty leaves 13 pairs, with
+  nine degraded, two improved and two unchanged (mean `-.204`).  The f77v
+  left/right tubes reduce from `AQAB|LJBA/AQABAC` to unrelated residuals, and
+  the exposed f82r BACA sensitivity reduces the waterfall pair to `B/CA` with
+  zero similarity.  Therefore the shared material is mainly register/local-
+  class rendering, not recovered content.  Residuals are the correct future
+  target, but none currently has an independent meaning.  No new f84 access
+  occurred.
 
 ## Confirmed structural baseline
 
