@@ -1,0 +1,44 @@
+{
+  "claim_ceiling": "Density-conditioned opaque renderer mechanism only; no q semantic value word meaning plaintext or translation.",
+  "content_hash": "eb849c3cad899caafef2d074494b2edc3c7c5fe96cff934fc54de0b57d181b4b",
+  "documents": {
+    "GDT272_Q_DENSITY_MECHANISM_METHOD.md": "6e9b058ca70fe3fc19136001a659461e84d8f8c8999bf123d2a683d635cfa3ca"
+  },
+  "experiment": "GDT272_Q_DENSITY_MECHANISM",
+  "f84r": {
+    "new_access": false,
+    "scored": false,
+    "used": false
+  },
+  "gate_pass": false,
+  "implementation": {
+    "run_gdt272_q_density_mechanism.py": "5ba354a589d2b358d29eb2798a5858f8a45df1171772a74886d086cace008c6c"
+  },
+  "inputs": {
+    "gdt271_page_scores.tsv": "f8a115e270fc520aebbcbd88b3493bdc1374498d33b3d199bf41425a69ae8324",
+    "gdt272_frozen_density_predictors.tsv": "367e7871769ff58d876aaa607061ee4b8981a3c1f7f875b9f0a1d6a67f9c9d7e",
+    "gdt272_frozen_prediction.json": "85bfbf7cef962f8142f9a45ae7bda05689b85034be6ccd64d2d1c7217a818015"
+  },
+  "interpretation": "Frozen Q20 page-level test of whether q conditional stage scores track early-versus-late record density.",
+  "outputs": {
+    "GDT272_Q_DENSITY_MECHANISM_REPORT.md": "55c79954eb681b41a3603767bad76f148ab4736d3c1c2d095df03de2bc8a7d50",
+    "gdt272_counterexamples.tsv": "258811ad707eda4d7e9e05ba35d18ab034ea2a549fd97ccf497e9a34edb7ac22",
+    "gdt272_density_outcome_join.tsv": "036323fd4ee582a913f82cf5a2f2530929412bcdefcb25e83068bcbf60200cfa",
+    "gdt272_density_tests.tsv": "46dc176389b8bef63687813cdd5a114d302580919ef50b56cc3219785ee854f1"
+  },
+  "primary": {
+    "linear_slope": -1.559324486781,
+    "local_directional_p": 0.671162854571,
+    "loo_max_r": 0.113122628623,
+    "loo_min_r": -0.41907063819,
+    "max_three_directional_p": 0.799014297267,
+    "negative_leave_one_page": 11,
+    "pearson_r": -0.134378013239,
+    "positive_leave_one_page": 2,
+    "sign_agreements": 7,
+    "sign_scored": 13,
+    "spearman_rho": -0.115384615385
+  },
+  "semantic_assignments": 0,
+  "status": "Q_DENSITY_EXPANSION_MECHANISM_NOT_SUPPORTED_IN_Q20"
+}

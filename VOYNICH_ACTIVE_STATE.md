@@ -1236,6 +1236,18 @@ Updated: 2026-08-17. Read this file first, then
   echo but keep GDT270 explicitly q13-local: `q` is not established as a
   universal record-stage operator.  No semantic prefix, word, meaning,
   translation, or new f84r access follows.
+- GDT272 tests the most plausible nuisance mechanism suggested by GDT267: q's
+  q13 association had correlated `.860` with earlier/later record-length
+  imbalance, so Q20 group, field, and physical-line density ratios were frozen
+  before joining the GDT271 page scores.  All three transfer in the wrong
+  direction.  The primary group-count relation is `r=-.134` (7/13 sign
+  agreements, only 2/13 positive leave-one-page fits, max-three `p=.7990`);
+  field count is `r=-.320` and line count `r=-.154`.  Thus the q13 length
+  correlation does not identify a transferable expansion/density renderer.
+  Keep `q` as a separable but register-local constructional choice whose exact
+  function remains unresolved; both a universal ordinal and a general density
+  rule are unsupported.  No semantic value, word, meaning, translation, or
+  new f84r access follows.
 
 ## Confirmed structural baseline
 
