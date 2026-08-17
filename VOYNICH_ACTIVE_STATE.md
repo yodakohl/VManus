@@ -1162,6 +1162,29 @@ Updated: 2026-08-17. Read this file first, then
   do not establish a universal earlier/later code.  The next content-bearing
   route must control record ordinal explicitly.  No topic, meaning,
   translation, or new f84r access follows.
+- GDT266 attempted to subtract held-training earlier/later centroids before
+  repeating mate retrieval, but the binary panel makes the target
+  unidentifiable: every true mate has the query's ordinal and every decoy has
+  the opposite ordinal.  Sparse centroid subtraction leaves class-specific
+  residual geometry, and swapping identities after constructing that geometry
+  does not create an ordinal-matched null.  The large diagnostic scores (raw
+  exact 124/144; PAGE_HOST character texture 106/144) therefore have **zero
+  payload evidential weight**.  Stop this residual design; it neither confirms
+  nor rejects a PAGE_HOST content channel.  No meaning, translation, or new
+  f84r access follows.
+- GDT267 replaces that invalid residual with a directly identifiable paired
+  wrapper/ordinal atlas.  After normalizing each record by source-group count,
+  `q` is more frequent in the earlier eligible record on 9/9 pages (mean rate
+  difference `+.1184`, Mantel–Haenszel OR `1.584`, max-eight `p=.02924`, held
+  direction 9/9).  Bare/`NONE` rendering is more frequent in the later record
+  on 9/9 pages (earlier-minus-later `-.1170`, OR `.588`, max-eight `p=.00585`,
+  held direction 9/9).  Other wrappers do not survive the family control.
+  This licenses a q13 constructional statement—`q` participates in an
+  earlier-record rendering regime contrasted with later bare rendering.  It
+  does not make `q` a word, phoneme, morpheme, semantic operator, topic, or
+  translation.  The q effect covaries with record-length imbalance, so
+  expansion, density, and record-stage mechanisms remain unresolved.  No new
+  f84r access occurred.
 
 ## Confirmed structural baseline
 
