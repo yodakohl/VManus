@@ -1,0 +1,59 @@
+{
+  "best": {
+    "active_source_signs": 20,
+    "all_coordinate_alternatives_locally_optimal": 1,
+    "common_overhead_bits": "6.000000000000",
+    "descent_passes": 3,
+    "distinct_target_consonants": 17,
+    "events": 60023,
+    "gap_per_event": "1.420243531161",
+    "gap_vs_matched_kt_bits": "85247.277470897054",
+    "identical_mapping_all_starts": 0,
+    "initial_gdt193_mapping_hash": "8c1aa59bd32c83e8c0a528afada8840fb7526c6dfb9dbf92c28561bbb3367b63",
+    "language": "old_italian_tuscan",
+    "language_selector_bits": "2.584962500721",
+    "mapping": "a=d|c=g|d=v|e=s|f=b|g=q|h=n|i=n|k=r|l=l|m=f|n=z|o=c|p=r|q=f|r=h|s=p|t=m|x=j|y=t",
+    "mapping_hash": "0684d7cbcc7d96a31411eb55f6aa19cabaf9884c058ed054ddf31056037527b3",
+    "mapping_hashes_all_starts": "6e37f281a6b68a9d5735f2a49ae419cef29b8563e0417a0b1918efff7b5ef8cf,0684d7cbcc7d96a31411eb55f6aa19cabaf9884c058ed054ddf31056037527b3,6fbcfc306f07c5a78230e2a268090f52fbcf1da20c2cdc11ff70365ffb34aaaa",
+    "mapping_key_bits": "87.846348455575",
+    "matched_null_total_bits": "128743.344900293756",
+    "paid_total_bits": "213990.622371190810",
+    "payload_and_reverse_bits": "213894.191060234501",
+    "physical_lines": 2430,
+    "seed": "19302"
+  },
+  "claim_ceiling": "Bounded compiler-stripped fixed consonantal homophony only; no sign, sound, word, language, plaintext, meaning, or translation.",
+  "counts": {
+    "physical_lines": 2430,
+    "runs": 18,
+    "source_rows": 15360
+  },
+  "documents": {
+    "GDT194_CONSONANTAL_HOMOPHONY_METHOD.md": "60282c5d70314cab48ed4e4b141e697e5f8719c25d8c0002f7cb011b2e433165",
+    "GDT194_CONSONANTAL_HOMOPHONY_REPORT.md": "345b80a5e7e9f9310051c773f7b614f1857875dc7d7d6d91efeefe3594735ef8"
+  },
+  "experiment": "GDT194_CONSONANTAL_HOMOPHONY",
+  "f84r_accessed": false,
+  "gates": {
+    "all_pass": false,
+    "best_beats_matched_kt": false,
+    "best_mapping_stable": false
+  },
+  "implementation": {
+    "run_gdt193_compiler_stripped_consonantal.py": "d647f5bbdab2b4f9c3f2d40b740f5886bca000457281c5906059db69d2c4f3da",
+    "run_gdt194_consonantal_homophony.py": "d4db8f4dcdd80c89cf831ea101bf9903f6ada91d4c1f8680588e24c82a52b547"
+  },
+  "improvement_vs_injective_bits": 2870.291516865429,
+  "injective_gap_bits": 88117.56898776248,
+  "inputs": {
+    "gdt016_group_state_inventory.tsv": "e109ce15864ed6b6f76d446b3c96d6190a0dc53d20d8ab0944554124e687234c",
+    "gdt193_consonantal_runs.tsv": "1af73c6a3b0391c2ceb006dd626c5a0b32253f035cfbc8bc10ffc4824f9bd171",
+    "gdt193_result.json": "10be99aaeef9c33c0c83ba8d1e412200d421e9d882cc67711084257ff7300b5c"
+  },
+  "outputs": {
+    "gdt194_counterexamples.tsv": "62488836b109bb97779fa45bdba91128635e08e1f8130f267e2f1d46c305711f",
+    "gdt194_homophonic_runs.tsv": "af8d29e7cd45a4867982c5e87534b87c83ce6084f63f0166de01f4c98ee6cfa6",
+    "gdt194_homophonic_summary.tsv": "a60a8c788642322fe9a2168ef5c8e068ea633b5a9880d51ca70d5cd3ecfa3192"
+  },
+  "status": "CONSONANTAL_HOMOPHONY_FALSIFIED"
+}

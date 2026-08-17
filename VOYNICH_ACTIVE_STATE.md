@@ -349,6 +349,12 @@ Updated: 2026-08-17. Read this file first, then
   architectural direction—vowel omission is less incompatible than literal
   alphabetic text.  It is nowhere near a decipherment and supplies no stable
   consonant, language, or word value.
+- GDT194 allows those consonant mappings to be homophonic and transmits the
+  complete reverse-source ambiguity.  The best Old Italian/Tuscan run uses 17
+  distinct consonants for 20 source signs and improves the injective result by
+  only 2,870.29 bits; it still loses 85,247.28 bits (1.420 bits/event) to the
+  matched source code and remains restart-unstable.  Fixed homophony therefore
+  does not convert the consonant-deletion direction into a key or language.
 
 ## Confirmed structural baseline
 
