@@ -1,0 +1,60 @@
+{
+  "claim_ceiling": "Coordinate correction only; no replacement semantic role, word, language, plaintext, or translation.",
+  "content_hash": "848c647f3821c025591097e3bfd13359c64f0421caca89431a42766b3dbba3d8",
+  "correction": "Withdraw f80r GDT229 record-relative abstract roles and treat every unaudited q13 record coordinate as provisional until its full paragraph starts are checked.",
+  "documents": {
+    "GDT244_F80R_PARAGRAPH_COORDINATE_CORRECTION_METHOD.md": "af00319f0ccf62f2b9f4177a66da1c1b6de7d8c9575aa184556fb936442ee078",
+    "GDT244_F80R_PARAGRAPH_COORDINATE_CORRECTION_REPORT.md": "7068472cbcf24b5be95bfbe35f32b9be966e1b37c471d283ee19d140a5500a43"
+  },
+  "experiment": "GDT244_F80R_PARAGRAPH_COORDINATE_CORRECTION",
+  "f84": {
+    "input": false,
+    "joined": false,
+    "new_access": false,
+    "retained": false,
+    "scored": false
+  },
+  "historical_records": [
+    "Q13|f80r|R01",
+    "Q13|f80r|R02"
+  ],
+  "historical_role_loci_by_paragraph": [
+    7,
+    2,
+    1,
+    3,
+    1
+  ],
+  "implementation": {
+    "run_gdt244_f80r_paragraph_coordinate_correction.py": "bdecdadb715c61c442e9a49063c0834219fad6bdf2f4715699e7f844bdb68360"
+  },
+  "inputs": {
+    "GDT002_EXISTING_VISUAL_EVIDENCE_AUDIT.md": "98657a746e4bff0d3e42cf952cd5a7d36f08638222dc49b6d0bde4e158756734",
+    "gdt002_grammar_projection.tsv": "33bec3be712b35c52afc44ffa7af5e6719ad5a183d8be9a5ac852e1a4e2649b7",
+    "gdt229_q13_semantic_role_lattice.tsv": "c44e484fde8bc0850ad2ff9d54798f54c9954dc8b01e4672826acab860a9f7aa"
+  },
+  "interpretation": "The frame-selected role lattice merges f80r paragraphs P1-P3 into historical R01 and P4-P5 into R02.",
+  "outputs": {
+    "gdt244_f80r_paragraph_coordinate.tsv": "03756a8dcb33ba88aa87da246829b04954edf64eff5d4bc2dba20d34181d686f",
+    "gdt244_f80r_record_correction.tsv": "c9e437229db9162d6246bb5360cf61a60b5a097500fb6f13fcb2ce21fd2e94ba"
+  },
+  "paragraph_line_counts": [
+    17,
+    6,
+    6,
+    7,
+    7
+  ],
+  "paragraph_starts": [
+    "f80r.11",
+    "f80r.28",
+    "f80r.34",
+    "f80r.40",
+    "f80r.47"
+  ],
+  "single_reading_disagreement": [
+    "f80r.18"
+  ],
+  "source_paragraphs": 5,
+  "status": "GDT229_F80R_RECORD_COORDINATE_INVALID_FIVE_PARAGRAPHS_COLLAPSED_TO_TWO"
+}

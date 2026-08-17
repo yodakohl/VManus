@@ -931,6 +931,19 @@ Updated: 2026-08-17. Read this file first, then
   technical long/compact field alternation while keeping therapeutic,
   case/indication, apparatus-key, and nonsemantic worlds live.  No word,
   plaintext, translation, or new f84 access follows.
+- GDT244 establishes that the GDT224 paragraph-coordinate failure is systemic
+  across both source-complete GDT002 discovery pages.  f80r has five majority-
+  marked physical paragraphs but GDT229 collapses P1–P3 into R01 and P4–P5
+  into R02; the 43-line spans are 17/6/6/7/7 with old role coverage 7/2/1/3/1.
+  f82r already showed three paragraphs collapsed to one.  Therefore suspend
+  the GDT228 page-role association and treat all GDT224-derived q13 roles plus
+  GDT227 identity-role purity, GDT229 semantic lattice, and GDT230 host-role
+  rankings as historical unaudited analogies until every page's complete
+  paragraph starts are restored.  Source families, PAGE_HOST/compiler/DY
+  parses, GDT231–238 label-renderer results, and GDT240–243 formal coverage/
+  missingness-aware f82r extent result survive.  The hybrid record compiler
+  remains the leading formal generator, but there is no active q13 semantic
+  field interlinear, word, plaintext, translation, or new f84 access.
 
 ## Confirmed structural baseline
 
