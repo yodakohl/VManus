@@ -410,6 +410,13 @@ Updated: 2026-08-17. Read this file first, then
   orientation-free p=2/6) and all ownership is proximity-only.  It favors a
   panel-zone renderer over the GDT198 visual-class reading, but establishes no
   source/destination, stage, quality, lexical value, or plaintext.
+- GDT201 applies that exact upper-`d`/lower-`ot` rule without repair to the
+  already fixed comparable f83r panel.  Both upper arch-end labels and both
+  lower outlet-adjacent labels miss (0/4), with all readings agreeing on the
+  relevant initial class despite the internal `sasoldal`/`saroldal`
+  disagreement.  GDT200 is therefore only a four-label f77 description, not a
+  transferable apparatus-zone renderer.  Neither visual class nor panel zone
+  supplies a general key for the GDT198 surface pairs.
 
 ## Confirmed structural baseline
 
