@@ -340,6 +340,15 @@ Updated: 2026-08-17. Read this file first, then
   fixed one/two-letter abbreviation alphabet beneath HPR2 is not the missing
   mechanism; longer/contextual/phrase expansion or an external key remain
   logically open but receive no sign values from this result.
+- GDT193 tests omission instead of expansion by deleting `a/e/i/o/u` from each
+  target-pack word, normalizing the LM over exactly 21 consonants plus SPACE,
+  and mapping the 20 active PAGE_HOST signs injectively to 20 of those 21
+  consonants.  The best Old Italian/Tuscan run reduces the literal-channel loss
+  by 33,011.53 bits, but still loses 88,117.57 bits (1.468 bits/event) to the
+  matched anonymous source model and all three keys disagree.  Retain only the
+  architectural direction—vowel omission is less incompatible than literal
+  alphabetic text.  It is nowhere near a decipherment and supplies no stable
+  consonant, language, or word value.
 
 ## Confirmed structural baseline
 

@@ -1,0 +1,47 @@
+#!/usr/bin/env python3
+"""GDT193: consonant-only historical language models on PAGE_HOST."""
+from __future__ import annotations
+import csv,ctypes,hashlib,json,math
+from pathlib import Path
+import numpy as np
+from gdt001_core import LETTERS,universal_uint_bits
+from gdt001_language_models import PACK_NAMES,NgramLM,TARGET_ALPHABET,TARGET_SPACE,TARGET_BOS
+from run_gdt001_mtf_dynamic_rank import compile_library,static_score,pair,ptr
+from run_gdt189_compiler_stripped_language import guarded,parser,sequences,arrays,kt_bits
+
+ROOT=Path(__file__).resolve().parent;SOURCE=ROOT/'gdt016_group_state_inventory.tsv';METHOD=ROOT/'GDT193_COMPILER_STRIPPED_CONSONANTAL_METHOD.md';REPORT=ROOT/'GDT193_COMPILER_STRIPPED_CONSONANTAL_REPORT.md';RUNS=ROOT/'gdt193_consonantal_runs.tsv';SUMMARY=ROOT/'gdt193_consonantal_summary.tsv';COUNTER=ROOT/'gdt193_counterexamples.tsv';RESULT=ROOT/'gdt193_result.json';SEEDS=(19301,19302,19303);CONSONANTS='bcdfghjklmnpqrstvwxyz';VOWELS='aeiou'
+def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+def write(p,rows):
+ with p.open('w',encoding='utf8',newline='') as h:w=csv.DictWriter(h,fieldnames=list(rows[0]),delimiter='\t',lineterminator='\n');w.writeheader();w.writerows(rows)
+def consonant_lm(language):
+ size=len(TARGET_ALPHABET);counts=np.zeros((size+1,size+1,size),dtype=np.float64);letters=0;lines=0
+ for raw in (ROOT/'.gdt001/language_packs'/f'{language}.txt').read_text(encoding='utf8').splitlines():
+  words=[''.join(c for c in word if c not in VOWELS) for word in raw.split()];text=' '.join(w for w in words if w)
+  if not text:continue
+  ids=[TARGET_ALPHABET.index(c) for c in text];hist=[TARGET_BOS,TARGET_BOS];lines+=1
+  for value in ids:counts[hist[0],hist[1],value]+=1;hist=[hist[1],value];letters+=value!=TARGET_SPACE
+ allowed=np.asarray([ord(c)-97 for c in CONSONANTS]+[TARGET_SPACE],dtype=np.int64);costs=np.full_like(counts,1e12);denominator=counts[:,:,allowed].sum(2,keepdims=True)+.5*len(allowed);costs[:,:,allowed]=-np.log2((counts[:,:,allowed]+.5)/denominator);return NgramLM(language,2,costs,letters),lines
+def eligible_pair_indices(eligible):
+ allowed=set(eligible);return np.asarray([i for i in range(325) if (lambda p:p[0] in allowed and p[1] in allowed)(pair(26,i))],dtype=np.int64)
+def search(api,tokens,offsets,costs,active,seed):
+ rng=np.random.default_rng(seed);dummy=25;eligible=active+[dummy];mapping=np.empty(26,dtype=np.int32);mapping[eligible]=[ord(x)-97 for x in rng.permutation(list(CONSONANTS))];inactive=[x for x in range(25) if x not in active];mapping[inactive]=[ord(x)-97 for x in rng.permutation(list(VOWELS))];indices=eligible_pair_indices(eligible);current=static_score(api,tokens,offsets,mapping,costs);passes=0
+ while passes<100:
+  values=np.empty(325,dtype=np.float64);api.gdt001_static_lm_swap_scores(ptr(tokens,ctypes.c_int32),ptr(offsets,ctypes.c_int64),len(offsets)-1,ptr(mapping,ctypes.c_int32),ptr(costs,ctypes.c_double),ptr(values,ctypes.c_double));chosen=int(indices[np.argmin(values[indices])]);candidate=float(values[chosen]);passes+=1
+  if candidate>=current-1e-9:break
+  a,b=pair(26,chosen);mapping[a],mapping[b]=mapping[b],mapping[a];current=candidate
+ values=np.empty(325,dtype=np.float64);api.gdt001_static_lm_swap_scores(ptr(tokens,ctypes.c_int32),ptr(offsets,ctypes.c_int64),len(offsets)-1,ptr(mapping,ctypes.c_int32),ptr(costs,ctypes.c_double),ptr(values,ctypes.c_double));local=float(values[indices].min())>=current-1e-8
+ return current,mapping,passes,local
+def main():
+ src=guarded();seq=sequences(src,'PAGE_HOST',parser(src));tokens,offsets=arrays(seq);active=sorted({x for line in seq for x in line if x!=25});null_payload,_=kt_bits(seq,set(active));common=3+universal_uint_bits(2);null_total=null_payload+common;key=math.lgamma(22)/math.log(2);selector=math.log2(len(PACK_NAMES));api=compile_library();runs=[];summary=[]
+ for language in PACK_NAMES:
+  lm,pack_lines=consonant_lm(language);current=[]
+  for seed in SEEDS:
+   payload,mapping,passes,local=search(api,tokens,offsets,lm.costs,active,seed);omitted=CONSONANTS[next(i for i,x in enumerate([ord(c)-97 for c in CONSONANTS]) if x not in set(int(mapping[s]) for s in active))] if False else chr(97+int(mapping[25]));text='|'.join(f'{LETTERS[s]}={chr(97+int(mapping[s]))}' for s in active);digest=hashlib.sha256(text.encode()).hexdigest();total=payload+key+selector+common
+   row={'language':language,'seed':seed,'pack_consonant_letters':lm.corpus_letters,'pack_lines':pack_lines,'physical_lines':len(seq),'events':len(tokens),'active_source_signs':len(active),'payload_bits':f'{payload:.12f}','mapping_key_bits':f'{key:.12f}','language_selector_bits':f'{selector:.12f}','common_overhead_bits':f'{common:.12f}','paid_total_bits':f'{total:.12f}','matched_null_total_bits':f'{null_total:.12f}','gap_vs_matched_kt_bits':f'{total-null_total:.12f}','gap_per_event':f'{(total-null_total)/len(tokens):.12f}','descent_passes':passes,'all_eligible_swaps_locally_optimal':int(local),'omitted_consonant':omitted,'mapping':text,'mapping_hash':digest};runs.append(row);current.append(row)
+  best=min(current,key=lambda x:float(x['paid_total_bits']));summary.append({**best,'best_seed':best['seed'],'mapping_hashes_all_starts':','.join(x['mapping_hash'] for x in current),'identical_mapping_all_starts':int(len({x['mapping_hash'] for x in current})==1)})
+ best=min(summary,key=lambda x:float(x['paid_total_bits']));same=[x for x in runs if x['language']==best['language']];stable=len({x['mapping_hash'] for x in same})==1;beats=float(best['gap_vs_matched_kt_bits'])<0;g189=json.loads((ROOT/'gdt189_result.json').read_text());literal=float(next(x for x in g189['representations'] if x['representation']=='PAGE_HOST')['gap_vs_matched_kt_bits']);status='COMPILER_STRIPPED_CONSONANTAL_PROVISIONAL' if beats and stable else 'COMPILER_STRIPPED_CONSONANTAL_FALSIFIED'
+ counter=[{'counterexample_id':'C01','observation':f"Best consonantal mapping loses {float(best['gap_vs_matched_kt_bits']):.1f} bits to matched KT.",'impact':'consonant deletion does not identify language'}, {'counterexample_id':'C02','observation':f"Literal-vowel gap is {literal:.1f}; consonantal best is {float(best['gap_vs_matched_kt_bits']):.1f}.",'impact':'substantial improvement remains far from competitive'}, {'counterexample_id':'C03','observation':f"Best-language maps are {'stable' if stable else 'unstable'} across starts.",'impact':'decoder stability'}, {'counterexample_id':'C04','observation':'The fixed a/e/i/o/u deletion is deliberately language-agnostic and incomplete.','impact':'bounded sensitivity'}, {'counterexample_id':'C05','observation':'Target letters are optimizer states and not sound assignments.','impact':'no phonetic promotion'}]
+ write(RUNS,runs);write(SUMMARY,summary);write(COUNTER,counter)
+ report=f'''# GDT193 — consonantal stripping helps but remains far from language\n\nStatus: **{status}**.\n\nAfter deleting `a/e/i/o/u` from the six target training packs, the best\nPAGE_HOST mapping is `{best['language']}`. It loses\n**{float(best['gap_vs_matched_kt_bits']):,.1f} bits** to the matched anonymous\nsource code ({float(best['gap_per_event']):.3f} bits/event). This is materially\nsmaller than the literal named-letter loss of {literal:,.1f} bits, but remains\nfar from competitive. The complete mapping is {'stable' if stable else 'not stable'}\nacross the three starts.\n\n| pack | best gap (bits) | gap/event | stable | omitted consonant |\n|---|---:|---:|---|---|\n'''+''.join(f"| `{x['language']}` | {float(x['gap_vs_matched_kt_bits']):,.1f} | {float(x['gap_per_event']):.3f} | {'yes' if int(x['identical_mapping_all_starts']) else 'no'} | `{x['omitted_consonant']}` |\n" for x in summary)+'''\nThe direction is worth retaining as architectural evidence: vowel omission is\nless incompatible with PAGE_HOST than literal alphabetic text. It is not a\nlanguage or phonetic result, because the paid channel still loses by tens of\nthousands of bits and supplies no stable key. Any viable skeleton theory needs\ncontext-dependent restoration or a different unit, not this static alphabet.\n\nNo sign, sound, word, language, plaintext, meaning, or translation is\nestablished. Every f84 row was rejected before parsing or scoring.\n''';REPORT.write_text(report,encoding='utf8')
+ result={'experiment':'GDT193_COMPILER_STRIPPED_CONSONANTAL','status':status,'best':best,'literal_page_host_gap_bits':literal,'gap_reduction_bits':literal-float(best['gap_vs_matched_kt_bits']),'counts':{'source_rows':len(src),'physical_lines':len(seq),'runs':len(runs),'active_source_signs':len(active)},'gates':{'best_beats_matched_kt':beats,'best_mapping_stable':stable,'all_pass':beats and stable},'f84r_accessed':False,'claim_ceiling':'Bounded static consonantal-skeleton mapping only; no sign, sound, word, language, plaintext, meaning, or translation.','inputs':{SOURCE.name:sha(SOURCE),'gdt016_result.json':sha(ROOT/'gdt016_result.json'),'gdt189_result.json':sha(ROOT/'gdt189_result.json')},'implementation':{Path(__file__).name:sha(Path(__file__)),'gdt001_mtf_score.cpp':sha(ROOT/'gdt001_mtf_score.cpp'),'gdt001_language_models.py':sha(ROOT/'gdt001_language_models.py')},'outputs':{p.name:sha(p) for p in (RUNS,SUMMARY,COUNTER)},'documents':{METHOD.name:sha(METHOD),REPORT.name:sha(REPORT)}};RESULT.write_text(json.dumps(result,sort_keys=True,indent=2)+'\n');print(json.dumps({'status':status,'language':best['language'],'gap':best['gap_vs_matched_kt_bits'],'reduction':literal-float(best['gap_vs_matched_kt_bits']),'stable':stable}))
+if __name__=='__main__':main()
