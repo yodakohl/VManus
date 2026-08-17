@@ -551,6 +551,21 @@ Updated: 2026-08-17. Read this file first, then
   gloss, a later-remedy layer in q13, or any source-group meaning. The next
   useful external target is specifically a readable bath/hydraulic/process
   diagram with singular component labels, not another broadly similar vessel.
+- GDT214 supplies the missing hydraulic rendering comparator from both official
+  sides of Metropolitan Museum 55.121.11, a 1315 al-Jazari water-raising
+  folio. It combines a source-identified donkey drive, shafts/wheels, water,
+  ladles and irrigation discharge; the reverse renders four parallel lifting
+  bays beneath a shared drive, and compact isolated marks occur beside many
+  parts. Scholarship independently documents the broader medieval Arabic
+  mechanics convention of compact letter references linking diagram
+  components to explanatory text. This makes `DIAGRAM_COMPONENT_OR_STATE_KEY`
+  a historically plausible alternative to `NEARBY_OBJECT_NAME` for some q13
+  graphical strings. Its necessary Voynich prediction is nevertheless already
+  nonconfirming: GDT187 finds exact PAGE_HOST label-to-same-page-prose reuse at
+  57/215 occurrences and 22/215 paragraph openings, but no globally unusual
+  key-dictionary signal (`max-ten p=.2963`). Retain only the rendering
+  architecture lead. No q13 gear, shaft, ladle, irrigation device, index
+  value, direct source relation, word, or translation is established.
 
 ## Confirmed structural baseline
 
