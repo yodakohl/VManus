@@ -1070,6 +1070,19 @@ Updated: 2026-08-17. Read this file first, then
   longer pristine and future provenance must disclose this access.  Continue
   to prohibit every further f84r access unless the user explicitly authorizes
   it.
+- GDT258 replaces the suspended q13 semantic lattice with a corrected
+  generative synthesis.  The leading world is a graphical legend layer plus
+  independent physical paragraph/HPR2 records, with sparse reuse of complete
+  rendered groups across the two channels.  It explains f80r's 10 labels but
+  five paragraphs, f82r's 13 labels but three paragraphs, 94 reproducible
+  covered fields, the three exact label/prose member bridges, and the
+  transferred graphical renderer without claiming one record per figure or a
+  simple label-word dictionary.  The mandatory no-recoverable-content world
+  remains close because the corrected role layer is entirely size-driven and
+  the best residual-position clue is weak.  The next translation-relevant
+  evidence must be an independently known, source-bound referent with a full
+  rendered tuple and corrected-paragraph query.  No field meaning, plaintext,
+  translation, or new f84r access follows.
 
 ## Confirmed structural baseline
 
