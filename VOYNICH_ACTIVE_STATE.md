@@ -583,6 +583,23 @@ Updated: 2026-08-17. Read this file first, then
   host-gloss mining; the highest-value route requires a new singular repeated
   hydraulic/setting referent with held-folio replication or a readable q13-like
   diagram preserving diplomatic labels and prose.  No f84 artifact was used.
+- GDT216/GDT217 use a readable circa-1420 positive control to refine the
+  possible diagram-reference layer.  Wellcome MS 49 Wound Man phrases end in
+  compact numbers that point to same-numbered prose paragraphs; three
+  source-described examples are 3/3 exact key matches while their full phrases
+  differ.  On the unchanged 23-page/11-folio GDT187 panel, the predeclared
+  source-native two-family label-terminal to paragraph-initial representation
+  has mean weighted Jaccard .02404 versus null .01638, with local and max-three
+  exact `p=.0463`.  It has exact overlap cells on five folios, and all 11/11
+  leave-one-folio effects remain positive.  Retain this as a provisional
+  compact positional-reference lead only.  Its Pharma effect is essentially
+  zero (`p=.6667`), Biological/Balneological carries the excess, and all exact
+  overlaps use common `QA/BA/KA/CA` family pairs.  No label is paired to a
+  paragraph and no family is a number, letter, index, word, or meaning.  The
+  next valid step is untouched-page transfer of this exact family-2 rule, not
+  selection of another edge feature.  The source route was corrected before
+  scoring to exclude the global table containing sealed rows; no f84r input or
+  access occurred.
 
 ## Confirmed structural baseline
 
