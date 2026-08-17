@@ -854,6 +854,16 @@ Updated: 2026-08-17. Read this file first, then
   Current translation is document-mechanical rather than lexical: there are
   zero active semantic source-unit assignments, words, clauses, language
   identifications, or plaintext readings.  No f84 input or prediction is used.
+- GDT237 rediscoveres the GDT233 label-prefix inventory independently in each
+  leave-one-section-out fold over 3,857 non-f84 loci.  Seven prefixes survive
+  all eight training folds.  Held-section precision exceeds label prevalence
+  in five sections and is strongly enriched in q13/B (`.739` versus `.152`)
+  and Pharma/P (`.943` versus `.620`), but Herbal overfires badly and Text has
+  almost no reach.  Retain a reusable, partial graphical-label renderer, not a
+  universal label marker.  In conjunction with GDT235 the best decomposition
+  is `TRANSFERABLE_PARTIAL_LABEL_RENDERER + REGISTER_BOUND_OPAQUE_CONTENT`;
+  neither layer is an object word, morpheme, language key, plaintext, or
+  translation.  No new f84 access occurred.
 
 ## Confirmed structural baseline
 

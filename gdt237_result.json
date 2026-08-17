@@ -1,0 +1,60 @@
+{
+  "claim_ceiling": "Cross-section prediction of editorial label kind only; no authorial label marker, ownership, object, word, morpheme, language, plaintext, or translation.",
+  "content_hash": "faacb12bacbe3f47916d1780e77da09483ed940ec3ad497de0f2ce404ee94994",
+  "documents": {
+    "GDT237_LABEL_PREFIX_LEAVE_SECTION_METHOD.md": "cb1c4ba0181104ffe52b1afada152315365c26df9bb07044bd5bccc9ab14b723",
+    "GDT237_LABEL_PREFIX_LEAVE_SECTION_REPORT.md": "e13bd187397411cd863a77c84567b8fcce52872a542ea5933daf49b7dd180bd8"
+  },
+  "experiment": "GDT237_LABEL_PREFIX_LEAVE_SECTION_TRANSFER",
+  "f84": {
+    "joined": false,
+    "new_access": false,
+    "retained": false,
+    "scored": false
+  },
+  "implementation": {
+    "run_gdt237_label_prefix_leave_section.py": "a8b69a9f237d61072911d9bee056dd1c73c610d8dae0d23d872210c8a935e561"
+  },
+  "inputs": {
+    "experiments/semantic_assumptions/results/source_sta_family_consensus_groups.tsv": "a202d93498e8a350a5d7e0ca46e831dcc37ea5c0182dc404d63cb797a98b1225"
+  },
+  "labels": 741,
+  "nominal_significant_sections": [
+    "B",
+    "P"
+  ],
+  "outputs": {
+    "gdt237_predictions.tsv": "005dfe3fe72a30cd79a183142ecb11983b29824a65d1bb78a482247fc3ebb607",
+    "gdt237_prefix_stability.tsv": "ae70efffa2774469a6c0f5a7c33b1a2bed82f9c4a528aec4a92ad9e2de72d149",
+    "gdt237_section_folds.tsv": "e7f540b0c8079523e17d8d728be700ace84eec3f4680a986c56a6db080c9d18d"
+  },
+  "pooled": {
+    "fn": 462,
+    "fp": 437,
+    "precision": 0.38966480446927376,
+    "prevalence": 0.1921182266009852,
+    "recall": 0.3765182186234818,
+    "tn": 2679,
+    "tp": 279
+  },
+  "positive_lift_sections": [
+    "A",
+    "B",
+    "C",
+    "P",
+    "Z"
+  ],
+  "rows": 3857,
+  "sections": [
+    "A",
+    "B",
+    "C",
+    "H",
+    "P",
+    "S",
+    "T",
+    "Z"
+  ],
+  "stable_prefixes_all_folds": 7,
+  "status": "GRAPHICAL_LABEL_PREFIX_COMPILER_CROSS_SECTION_PARTIAL"
+}
