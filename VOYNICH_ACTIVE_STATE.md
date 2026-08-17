@@ -237,6 +237,14 @@ Updated: 2026-08-17. Read this file first, then
   `d[ENTRY_WRAPPER] + air/airol[OPAQUE HOST/RIGHT]`.  Treat the f57 form as
   START_MARKER_LIKE, not as a translated word for start or title; no lexical
   value is confirmed and f84r remains untouched.
+- GDT184 rechecks f57 R2's semantic capacity.  Four repeated 17-position
+  periods have only one all-reading-stable changing column (`f,f,p,p`), hence
+  two stable profiles/one bit where four unique sector identities require two
+  bits.  Demote the GDT179 four-element row-table reading.  The leading
+  generative description is a fourfold reference/calibration sequence with
+  one binary variant; ornamental copying remains live and cipher-key/alphabet
+  interpretations remain weak speculation.  No f57 group retains provisional
+  semantic force after GDT182--184.
 
 ## Confirmed structural baseline
 
