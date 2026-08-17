@@ -1,0 +1,44 @@
+{
+  "alphabet": ["?", "a", "c", "d", "e", "f", "g", "h", "i", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "x", "y", "<EOS>"],
+  "capacity": {
+    "context_buckets": 256,
+    "context_token_prior_mass": 64.0,
+    "global_token_prior_mass": 32.0,
+    "page_token_prior_mass": 32.0,
+    "character_context_prior_mass": 11.0,
+    "world_selector_bits": 2.321928094887362
+  },
+  "compiler_nuisance": [
+    "register",
+    "record_ordinal",
+    "field_ordinal",
+    "within_field_position",
+    "wrapper",
+    "q_flag",
+    "local_frame",
+    "inner_d",
+    "right_family",
+    "dy_closure",
+    "b3",
+    "line_close",
+    "paragraph_close",
+    "known_label_renderer"
+  ],
+  "experiment": "GDT276_RESIDUAL_CHANNEL_WORLD_COMPARISON",
+  "fold": "LEAVE_ONE_PHYSICAL_FOLIO_OUT",
+  "matched_control_strata": ["register", "record_ordinal", "within_field_position", "page_host_length"],
+  "matched_control_worlds": 64,
+  "models": [
+    "COMPRESSED_NATURAL_LANGUAGE",
+    "ABBREVIATION_HEAVY_LANGUAGE",
+    "LOCAL_CODEBOOK",
+    "TECHNICAL_NOTATION",
+    "HYBRID"
+  ],
+  "page_conditioning": "HELD_PAGE_PREQUENTIAL_PAST_ONLY",
+  "primary_target": "OPAQUE_PAGE_HOST",
+  "semantic_assignments": 0,
+  "source_guard": "REJECT_ALL_F84_PREFIX_ROWS_BEFORE_FORMAL_COLUMN_PARSE",
+  "status": "FROZEN_BEFORE_GDT276_SCORING",
+  "version": 1
+}
