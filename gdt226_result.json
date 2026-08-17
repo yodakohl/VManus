@@ -1,0 +1,177 @@
+{
+  "claim_ceiling": "Manuscript-scope position-length architecture only; no ingredient tool action object token word language plaintext or translation.",
+  "documents": {
+    "GDT226_MANUSCRIPT_RECIPE_ROLE_SPECIFICITY_FREEZE_METHOD.md": "b851181aeec0ecae479a31ec5371551695e5b1df95257c02f8af62ad6fc9348a",
+    "GDT226_MANUSCRIPT_RECIPE_ROLE_SPECIFICITY_REPORT.md": "66393f7705ba033ba297ad49525efd0eda47f32ac132449a38e3b3c1584800bc"
+  },
+  "external_predicted_class_counts": {
+    "CLOSER": 492,
+    "INGREDIENT": 11897,
+    "OPENER": 120,
+    "OPERATION": 9885,
+    "TOOL": 0
+  },
+  "external_training_units": 22394,
+  "f84": {
+    "future_access_authorized": false,
+    "joined": false,
+    "public_metadata_previously_exposed": true,
+    "scored": false,
+    "source_or_formal_payload_retained": false
+  },
+  "freeze_commit": "80181f9",
+  "gates": {
+    "P1": true,
+    "P2": true,
+    "P3": true,
+    "at_least_eight_lofo": true
+  },
+  "implementation": {
+    "run_gdt226_manuscript_recipe_role_specificity.py": "b5c408e9df99c48050f51aad5e2121a4dfd2e4e07fe9b6dfc84f9c51d65d4dbf"
+  },
+  "inputs": {
+    "gdt016_group_state_inventory.tsv": "e109ce15864ed6b6f76d446b3c96d6190a0dc53d20d8ab0944554124e687234c",
+    "gdt046_line_frames.tsv": "4c8a8486ec39c2d138b865c950ebaff038f1db1e3668219105893d6b04f92511",
+    "gdt176_external_role_units.tsv": "f36d5011761b6a8fc99d2a8b0df2e76cb7b797ce1115e693f5fcfb4e940451a5",
+    "gdt176_result.json": "906123f9bc1d4f8411f3eed4e54088275b8b8cbf7aa3bae052c06b04814c56a9",
+    "gdt224_result.json": "91105467c8b3a7c533d21f7c00bffaf88284b438fad74e1f8e4e8b3230ac4fda",
+    "gdt226_freeze_validation.json": "98c3628ad445332799e3b125db68c1837df7b5527672ad71581ad6641002c608",
+    "gdt226_prediction_freeze.json": "79462b8493982a41924ce50f9988e9db643387ba632ea8f8bf98c013a8d8aeb8"
+  },
+  "interpretation": "q13 and Stars-B share a recipe-like position-length architecture, but Currier/register and record-size confounding prevent semantic identification.",
+  "lofo_all_three_hits": 9,
+  "lofo_total": 9,
+  "outputs": {
+    "gdt226_counterexamples.tsv": "9d100a96d7add9cbfb8e9beed32207d6655a0ad879cd6fa6d72eb06e59ba7891",
+    "gdt226_field_role_projection.tsv": "6568b55c9f02957bab88902e4ab73e8379f48a498d54e24d10511f00e1b7ed6d",
+    "gdt226_lofo.tsv": "6daf6d57b9f46ea5c4b9d37230bf45b3dbfea5128e6346ad9040443ec17189e2",
+    "gdt226_pairwise_distances.tsv": "312da4f3a324cacf1ee8a03a4bc9286a163188137b2ac76bdbf6e42c2f981480",
+    "gdt226_scope_profiles.tsv": "b2543809c727818d2d729550cfe8a430aa7253e18ed5bbd44ae415d48713df39",
+    "gdt226_size_matched.tsv": "928cc596e651fb73f392de071a4beb2c568a64988a9b2fbcd6cd33942a00fdef"
+  },
+  "prediction_hits": {
+    "P1": true,
+    "P2": true,
+    "P3": true
+  },
+  "q13_nearest_other_js": 0.01727300995385909,
+  "q13_nearest_other_scope": "STARS_B",
+  "q13_recipe_js_rank": 1,
+  "result_content_sha256": "9a3d45b115615b443fbfa06f9609b014a0d2e7cd9f2d8470d3cd048bd5afe5b4",
+  "schema": "GDT226_MANUSCRIPT_RECIPE_ROLE_SPECIFICITY_RESULT_V1",
+  "scope_profiles": {
+    "HERBAL_A": {
+      "closer_fields": 104,
+      "fields": 502,
+      "folios": 46,
+      "ingredient_fields": 55,
+      "lines": 434,
+      "opener_fields": 3,
+      "operation_fields": 340,
+      "pages": 89,
+      "recipe_js_divergence": 0.189399559346,
+      "recipe_js_rank": 6,
+      "records": 111,
+      "tool_fields": 0
+    },
+    "HERBAL_B": {
+      "closer_fields": 26,
+      "fields": 238,
+      "folios": 15,
+      "ingredient_fields": 119,
+      "lines": 91,
+      "opener_fields": 10,
+      "operation_fields": 83,
+      "pages": 30,
+      "recipe_js_divergence": 0.0387401252733,
+      "recipe_js_rank": 4,
+      "records": 35,
+      "tool_fields": 0
+    },
+    "OTHER_A": {
+      "closer_fields": 10,
+      "fields": 93,
+      "folios": 7,
+      "ingredient_fields": 16,
+      "lines": 59,
+      "opener_fields": 2,
+      "operation_fields": 65,
+      "pages": 14,
+      "recipe_js_divergence": 0.116519784625,
+      "recipe_js_rank": 5,
+      "records": 15,
+      "tool_fields": 0
+    },
+    "OTHER_B": {
+      "closer_fields": 10,
+      "fields": 141,
+      "folios": 3,
+      "ingredient_fields": 67,
+      "lines": 56,
+      "opener_fields": 2,
+      "operation_fields": 62,
+      "pages": 6,
+      "recipe_js_divergence": 0.0124109705525,
+      "recipe_js_rank": 3,
+      "records": 12,
+      "tool_fields": 0
+    },
+    "Q13": {
+      "closer_fields": 17,
+      "fields": 701,
+      "folios": 9,
+      "ingredient_fields": 427,
+      "lines": 240,
+      "opener_fields": 4,
+      "operation_fields": 253,
+      "pages": 18,
+      "recipe_js_divergence": 0.00488191086003,
+      "recipe_js_rank": 1,
+      "records": 33,
+      "tool_fields": 0
+    },
+    "STARS_B": {
+      "closer_fields": 49,
+      "fields": 725,
+      "folios": 12,
+      "ingredient_fields": 345,
+      "lines": 263,
+      "opener_fields": 7,
+      "operation_fields": 324,
+      "pages": 23,
+      "recipe_js_divergence": 0.0103478959109,
+      "recipe_js_rank": 2,
+      "records": 82,
+      "tool_fields": 0
+    }
+  },
+  "secondary_status": "REGISTER_AND_RECORD_SIZE_CONFOUNDED",
+  "size_matched_sensitivity": {
+    "HERBAL_A": {
+      "mean_q13_advantage": 0.09957333935925168,
+      "positive_strata": 7,
+      "shared_size_strata": 9
+    },
+    "HERBAL_B": {
+      "mean_q13_advantage": 0.04362191400099697,
+      "positive_strata": 6,
+      "shared_size_strata": 9
+    },
+    "OTHER_A": {
+      "mean_q13_advantage": 0.12236957041702548,
+      "positive_strata": 5,
+      "shared_size_strata": 8
+    },
+    "OTHER_B": {
+      "mean_q13_advantage": -0.011575825260466986,
+      "positive_strata": 4,
+      "shared_size_strata": 6
+    },
+    "STARS_B": {
+      "mean_q13_advantage": -0.022965453387675444,
+      "positive_strata": 3,
+      "shared_size_strata": 12
+    }
+  },
+  "status": "Q13_RECIPE_ROLE_SPECIFICITY_PROVISIONAL"
+}

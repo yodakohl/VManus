@@ -718,6 +718,21 @@ Updated: 2026-08-17. Read this file first, then
   not claim zero metadata exposure.  Every successor must whitelist eligible
   non-f84 loci before parsing source/formal fields; no further f84 access is
   authorized.
+- GDT226 applies the unchanged readable-recipe position/length instrument to
+  six manuscript scopes after rejecting every f84 page before retention.  q13
+  is closest to the external recipe role distribution (JS `.004882`), Stars-B
+  is second (`.010348`) and q13's nearest Voynich neighbor, and all three
+  frozen directions survive 9/9 q13 folio deletions.  This supports a shared
+  q13/Stars practical-record-like clause/argument scaffold rather than an
+  arbitrary Herbal layout.  It is not content identification: all B scopes
+  outrank both A scopes, and exact record-size matching reverses q13's
+  advantage against Stars-B (-.0230) and Other-B (-.0116) while preserving it
+  over both Herbals.  Treat the lead as provisional and register/record-size
+  confounded.  The next useful route should hold the role/position scaffold
+  fixed and test whether compiler layers stay shared while opaque host content
+  diverges between q13 and Stars; do not add more boundary channels or isolated
+  visual glosses.  No field is an ingredient, action, word, or translation;
+  no new f84 access occurred.
 
 ## Confirmed structural baseline
 
