@@ -1001,6 +1001,17 @@ Updated: 2026-08-17. Read this file first, then
   formal host.  This correction strengthens the distributed-construction
   model and supplies no content key, referent, word, plaintext, translation,
   or new f84 access.
+- GDT250 uses the two surviving exact whole-host label/prose bridges as a
+  frozen candidate set for a narrow human-annotation join.  Exact `okaly`
+  labels are figure-tagged in 4/4 rows on two physical folios: three hedged
+  astronomical figure labels on f72 and one unhedged proximity-only q13 figure
+  label on f80.  This generates the first current provisional role hypothesis,
+  `FIGURE_ASSOCIATED_CLASS_DESCRIPTOR`, but it is low-independence and not
+  executable semantics.  Exact `olky` supplies the counterexample: its two
+  unhedged labels span a figure on f80 and a plant on f99, so a stable coarse
+  object gloss fails.  Freeze the next independently selected `okaly` label to
+  predict FIGURE rather than PLANT/CONTAINER/LINE/STAR_ONLY; no ownership,
+  identity, word, plaintext, translation, or new f84 access follows.
 
 ## Confirmed structural baseline
 
