@@ -797,6 +797,16 @@ Updated: 2026-08-17. Read this file first, then
   either display string as water/flow.  The only useful next test is a frozen
   independent paired hydraulic-component target selected before its formal
   payload is opened.  No new f84 access occurred.
+- GDT232 gives the exposed `BACA-` prefix a more likely architectural role.
+  Among 3,857 non-f84 strict first-group loci it occurs 19 times: 12 labels,
+  six prose loci and one radial locus.  All five q13 occurrences are labels and
+  five of six Pharma occurrences are labels; the postselected global label-
+  enrichment tail is `3.10e-5`, and the q13/Pharma concentration tail is
+  `.00627`.  Because the prefix was chosen after GDT231 and has prose/radial
+  counterexamples, treat it as a graphical-label-register or local-class
+  family candidate rather than a universal label marker.  Move `dar-`/`BACA-`
+  out of the provisional content column: it does not mean water or flow.  No
+  new f84 access occurred.
 
 ## Confirmed structural baseline
 
