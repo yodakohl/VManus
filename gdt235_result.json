@@ -1,0 +1,108 @@
+{
+  "claim_ceiling": "Coarse visible-object prediction only; no label ownership, object name, word, morpheme, sound, language, plaintext, or translation.",
+  "content_hash": "2d380b12565ccd4c5e7baaac6ffc0cb9cb9d83722d9f4c3d5aa182184f30b0b4",
+  "documents": {
+    "GDT235_LABEL_RESIDUAL_OBJECT_TRANSFER_METHOD.md": "f58bfa400ba81865e7a09e1fb74f2a6cd753e9929d76e6e84c54ed20339d0e27",
+    "GDT235_LABEL_RESIDUAL_OBJECT_TRANSFER_REPORT.md": "11aa2354735cc1b12f2a345070c72111ebe9acaa05e4d5e52cbf33bc07dee53b"
+  },
+  "experiment": "GDT235_LABEL_RESIDUAL_OBJECT_TRANSFER",
+  "f84": {
+    "joined": false,
+    "new_access": false,
+    "retained": false,
+    "scored": false
+  },
+  "folios": 23,
+  "held_folio": {
+    "RAW_FAMILY": {
+      "accuracy_delta": -0.234726688103,
+      "baseline_accuracy": 0.733118971061,
+      "baseline_correct": 228,
+      "covered": 311,
+      "feature_accuracy": 0.498392282958,
+      "feature_correct": 155
+    },
+    "STRICT_RESIDUAL": {
+      "accuracy_delta": -0.238390092879,
+      "baseline_accuracy": 0.721362229102,
+      "baseline_correct": 233,
+      "covered": 323,
+      "feature_accuracy": 0.482972136223,
+      "feature_correct": 156
+    },
+    "TRANSFERRED_PREFIX": {
+      "accuracy_delta": -0.204778156997,
+      "baseline_accuracy": 0.764505119454,
+      "baseline_correct": 224,
+      "covered": 293,
+      "feature_accuracy": 0.559726962457,
+      "feature_correct": 164
+    }
+  },
+  "held_section": {
+    "RAW_FAMILY": {
+      "accuracy_delta": 0.122807017544,
+      "baseline_accuracy": 0.185964912281,
+      "baseline_correct": 53,
+      "covered": 285,
+      "feature_accuracy": 0.308771929825,
+      "feature_correct": 88
+    },
+    "STRICT_RESIDUAL": {
+      "accuracy_delta": 0.076666666667,
+      "baseline_accuracy": 0.2,
+      "baseline_correct": 60,
+      "covered": 300,
+      "feature_accuracy": 0.276666666667,
+      "feature_correct": 83
+    },
+    "TRANSFERRED_PREFIX": {
+      "accuracy_delta": 0.013651877133,
+      "baseline_accuracy": 0.129692832765,
+      "baseline_correct": 38,
+      "covered": 293,
+      "feature_accuracy": 0.143344709898,
+      "feature_correct": 42
+    }
+  },
+  "implementation": {
+    "run_gdt235_label_residual_object_transfer.py": "d29f6d05f44bd96bd8c4b210ddbc8885c5b588ae7146d45452e18e90b63e4020"
+  },
+  "inputs": {
+    "experiments/semantic_assumptions/results/existing_human_exact_locus_annotations.tsv": "79c7f06e91f90054aff4cdf27f098a5977d820acdf91f239a14c6ddf553a7f61",
+    "experiments/semantic_assumptions/results/source_sta_family_consensus_groups.tsv": "a202d93498e8a350a5d7e0ca46e831dcc37ea5c0182dc404d63cb797a98b1225",
+    "gdt233_prefix_manifest.tsv": "e316cc6f1f37779b680c7d7d3b2b14a6231952a2ba9f307498cc561a59104ce9"
+  },
+  "interpretation": "Exact residuals do not transfer visible object class beyond section/folio nuisance; graphical prefixes and residuals encode register ecology rather than a recovered object dictionary.",
+  "inventory_rows": 703,
+  "object_classes": {
+    "ASTRONOMICAL": 357,
+    "FIGURE_ONLY": 36,
+    "OTHER_LABEL": 70,
+    "PLANT": 171,
+    "WATER_OR_APPARATUS": 69
+  },
+  "outputs": {
+    "gdt235_label_object_inventory.tsv": "a48bdd4a221e09f789e01577f5df7bb6d7a3d2ed198342bd3efa1d3b1b13af5f",
+    "gdt235_object_transfer_folds.tsv": "6a11b0eb317a90ac525cf88094e3171d671fe2dffba02539f8bc25b952421931",
+    "gdt235_object_transfer_summary.tsv": "aaa31e7fa92918915479bae987a18b57192a24320c04114025eeb67478645052"
+  },
+  "q13_held_section": {
+    "RAW_FAMILY": {
+      "baseline_correct": 0,
+      "covered": 41,
+      "feature_correct": 0
+    },
+    "STRICT_RESIDUAL": {
+      "baseline_correct": 0,
+      "covered": 39,
+      "feature_correct": 0
+    },
+    "TRANSFERRED_PREFIX": {
+      "baseline_correct": 0,
+      "covered": 35,
+      "feature_correct": 0
+    }
+  },
+  "status": "LABEL_RESIDUAL_OBJECT_CLASS_NOT_TRANSFERABLE_SECTION_DOMINATES"
+}

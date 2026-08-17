@@ -829,6 +829,18 @@ Updated: 2026-08-17. Read this file first, then
   class rendering, not recovered content.  Residuals are the correct future
   target, but none currently has an independent meaning.  No new f84 access
   occurred.
+- GDT235 tests the remaining exact label residual against the complete
+  non-f84 family-covered human label atlas: 703 labels on 23 physical folios.
+  Held-folio residual lookup covers 323 labels and predicts `.483`, while the
+  section-matched baseline predicts `.721` on those same rows (`-.238`).  Raw
+  families and transferred prefixes are also worse than their matched
+  baselines.  In the stronger section-held sensitivity, q13/B receives zero
+  correct exact-class predictions from raw family, residual, or prefix on
+  41/39/35 covered labels.  Keep the GDT233 result as a partial graphical-label
+  compiler, but reject a transferable exact residual object dictionary on the
+  current atlas.  The residual is register-bound and opaque; it supplies no
+  object word, meaning, plaintext, language, or translation.  No new f84
+  access occurred.
 
 ## Confirmed structural baseline
 
