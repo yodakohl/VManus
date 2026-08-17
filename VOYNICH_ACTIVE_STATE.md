@@ -627,6 +627,21 @@ Updated: 2026-08-17. Read this file first, then
   route must identify a singular local visual relation or readable direct-
   annotation homolog rather than prose-key reuse.  No f84r input or access
   occurred.
+- GDT220 audits the seven exposed GDT217 key-overlap cells against the existing
+  human local descriptions without changing the fixed family-2 edge.  Only
+  one cell is independently co-localized: `f83r.51` (`darolsy`) lies by the
+  lower right structure of the southwest figure and `f83r.52` starts the text
+  block below the same figure.  Two cells are explicit different-unit/zone
+  counterexamples and four have no defensible label-to-paragraph ownership.
+  The f83 placement has only a 2/6 local reassignment tail (`p=1/3`), its other
+  lower label lacks a strict eligible family key, and exact PAGE_HOST
+  `arolsy` occurs zero times in the available adjacent paragraph rows.  Retain
+  f83r.51→.52 as one post-hoc local bridge candidate, but treat the literal
+  compact prose-reference interpretation of GDT217 as not established.  Do
+  not assign `darolsy`, `CA`, `ol`, or any component a meaning.  Progress now
+  requires a second independently owned local label/text assembly or a
+  readable direct-annotation homolog, not another edge or f76 reanalysis.  No
+  f84 input or access occurred.
 
 ## Confirmed structural baseline
 
