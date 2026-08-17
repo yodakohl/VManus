@@ -378,6 +378,14 @@ Updated: 2026-08-17. Read this file first, then
   Stripped `e/ol/or` hosts recur only after collapsing distinct compiler
   surfaces.  Retain the interlinear as an anonymous translation skeleton and
   do not propagate the post-hoc COLD/DRY/HOT/MOIST display states into prose.
+- GDT197 compares the three shallow decoder pairs that fit the exposed f57 N1
+  labels perfectly on 1,169 complete non-f84 lines and 8,641 strict groups.
+  All three carry significant anonymous line-order structure, but the selected
+  terminal-y plus starts-ot pair ranks second.  Contains-al plus terminal-y is
+  first by only .118 standardized units, with paired shuffle p=.8943; the two
+  are effectively indistinguishable.  Terminal-y remains a strong formal axis,
+  but global record order does not select starts-ot as its complementary
+  semantic coordinate.  Do not export the f57/f77 quality labels to prose.
 
 ## Confirmed structural baseline
 
