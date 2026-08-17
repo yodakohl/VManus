@@ -600,6 +600,19 @@ Updated: 2026-08-17. Read this file first, then
   selection of another edge feature.  The source route was corrected before
   scoring to exclude the global table containing sealed rows; no f84r input or
   access occurred.
+- GDT218 challenges that exposed lead with all four two-family edge
+  orientations.  The externally specified label-terminal to paragraph-initial
+  orientation is the only one with a positive null-relative effect; the other
+  three effects are negative.  However the four-orientation maxT tail is
+  `.1157`, so GDT217 is directional evidence rather than search-robust
+  confirmation.  The complete untouched-page census finds only f76r outside
+  the discovery panel: it has nine label loci and two prose paragraph starts,
+  but all nine labels are single-family groups and therefore provide zero
+  capacity for the frozen two-family rule.  Do not shorten GDT217 to rescue the
+  transfer.  A separately frozen single-sign index test is permissible because
+  single signs are the independently observed label format on f76r and the
+  readable Wound Man mechanism uses compact numerals/initials; its paragraph
+  keys have not been opened.  No f84r source or artifact was accessed.
 
 ## Confirmed structural baseline
 
