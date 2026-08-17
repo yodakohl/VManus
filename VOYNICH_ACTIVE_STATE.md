@@ -1083,6 +1083,16 @@ Updated: 2026-08-17. Read this file first, then
   evidence must be an independently known, source-bound referent with a full
   rendered tuple and corrected-paragraph query.  No field meaning, plaintext,
   translation, or new f84r access follows.
+- GDT259 tests whether the three exact q13 label/prose bridges share an
+  executable address.  Their prose occurrences lie at normalized physical-
+  paragraph positions `.600`, `.800`, and `.625` (mean `.675`), but the
+  page-conditioned group-weighted tail is only `p=.167539` and the physical-
+  line-uniform sensitivity is `p=.180025`.  The two published HPR2 addresses
+  also disagree: one is in field 1/2 before DY and one in field 2/2 before
+  physical line end; the third line remains formally unavailable.  Retain a
+  weak late-placement clue inside the sparse-reference world, not a paragraph
+  or field address.  No referent, cross-reference function, meaning,
+  translation, or new f84r access follows.
 
 ## Confirmed structural baseline
 
