@@ -1224,6 +1224,18 @@ Updated: 2026-08-17. Read this file first, then
   host/right/closure tuple.  It remains an exposed HPR2-dependent exploratory
   result, and GDT268 still blocks a universal ordinal claim.  No semantic
   prefix, word, meaning, translation, or new f84r access follows.
+- GDT271 prospectively freezes the GDT270 `q → EARLY` direction at the metric
+  level and transfers it to the independent Q20 Stars register.  Exact page,
+  PAGE_HOST, O/OT, inner-D, right-family, DY, and B3 matching leaves 128 ZL
+  strata, 668 occurrences, 33 hosts, and all thirteen pages.  The aggregate
+  direction is positive (U `+11.471`, OR `1.338`, directional occurrence
+  `p=.03976`), but only seven of thirteen page scores are positive and the
+  frozen max-three page test fails (`p=.13536`).  IT and RF give almost the
+  same positive aggregate and the same 7/13 page split; they are reading
+  sensitivities, not replications.  Therefore retain a weak register-level
+  echo but keep GDT270 explicitly q13-local: `q` is not established as a
+  universal record-stage operator.  No semantic prefix, word, meaning,
+  translation, or new f84r access follows.
 
 ## Confirmed structural baseline
 
