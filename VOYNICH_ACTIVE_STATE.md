@@ -887,6 +887,16 @@ Updated: 2026-08-17. Read this file first, then
   clauses, but case/indication, apparatus-key, and nonsemantic worlds remain.
   This is document architecture with zero lexical assignments, not a page
   translation, and no f84 input or access occurred.
+- GDT240 expands the f82r accounting to every human-catalogued locus without
+  imputing text.  All 45 loci now have an explicit coverage state: 29 strict
+  exact-family, five exact-family-with-alternative, and 11 no-consensus.  All
+  13 labels have family coverage; prose has 19 strict, two alternative-bearing,
+  and 11 unresolved loci.  Therefore 21/32 prose loci have usable source-native
+  family structure, but the GDT229 semantic-role scaffold remains 8/32.  The
+  next safe extension is to parse the 13 additional consensus-covered lines
+  with frozen grammar while keeping the 11 disagreement lines unresolved or
+  marginalized.  Full formal census supplies no field role, word, plaintext,
+  translation, preferred reading, or new f84 access.
 
 ## Confirmed structural baseline
 
