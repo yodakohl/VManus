@@ -284,6 +284,20 @@ Updated: 2026-08-17. Read this file first, then
   the current page-level label-key/omitted-headword bridge is unsupported;
   retain Foxton only as historical mechanism context, not as a recovered
   Voynich rubric dictionary.
+- GDT188 closes the direct fixed-bijection version of the historical
+  scientific-cipher route by invariance, without searching a key.  Any
+  consistent one-symbol-to-one-symbol substitution preserves token equality,
+  lengths, edge operations, transformation rectangles, LEFT×RIGHT
+  compatibility, and the GDT160 graph null up to relabelling.  The matched
+  fifteenth-century Latin control has nearly identical operation scale
+  (1.004x Voynich) but compatible-pair density .001410 versus .045291, a 32.1x
+  identity-invariant gap; the Latin medical gap is 50.4x.  Voynich GDT160
+  excess density .039969 is 31.8x the fifteenth-century Latin excess.  Thus a
+  Foxton/Fontana-style alphabet renaming of the frozen Latin controls cannot
+  generate the visible Voynich algebra.  Any underlying language route must
+  first remove or model a nonbijective abbreviation/codebook/context layer or
+  the record compiler.  This is not a universal rejection of Latin or complex
+  ciphers and supplies no letter value or plaintext.
 
 ## Confirmed structural baseline
 
