@@ -41,19 +41,29 @@ The first calibrated targets are:
 - recurrence and document-frequency profiles of normalized external concepts;
 - within-record transitions among the above roles.
 
-All thresholds, feature sets, and folds will be learned and evaluated on
-CoReMA collection-held and recipe-held splits before they are applied to Q20.
-Literal German characters and concept identities are forbidden predictors in
-the transferable model.
+Two low-capacity multinomial models are compared under leave-one-collection-out
+evaluation. `POSITION_LENGTH` uses relative unit position, squared position,
+log span length, and log record length.  The second adds normalized opaque-ID
+frequency, document frequency, neighbour diversity, and prior within-record
+recurrence.  Both use fixed ridge strength and deterministic optimization.
+The model with lower summed held-collection log loss is selected before Q20
+aggregates are inspected. Literal German characters, English labels, and
+concept identities are forbidden predictors.
 
 ## Planned Voynich projection
 
-If the external instrument beats position/length/record-frequency baselines,
-freeze it and project its role probabilities onto the existing f84-free Q20
-record/field inventory.  Q20 scoring may use only physical record position,
-field position/extent, opaque PAGE_HOST recurrence, and already frozen
-source-native compiler structure.  The projection must be reported as
-`ROLE_LIKE`, never as a translation of a host.
+If an external instrument beats the training-role prior, project its role
+probabilities onto the existing f84-free Q20 record/field inventory without
+refitting. Q20 scoring uses physical record/field position and field extent;
+opaque first-PAGE_HOST recurrence is available only if the externally selected
+model contains it. The projection is reported as `ROLE_LIKE`, never as a
+translation of a host.
+
+Class-specific transfer is mandatory. A failed oracle class is not exported
+under its semantic name. In the completed calibration, OPERATION is mapped to
+`INSTRUCTION_CLAUSE_LIKE`, INGREDIENT and TOOL are merged into
+`SHORT_ARGUMENT_LIKE`, CLOSER is mapped to `RECORD_CLOSER_LIKE`, and the failed
+OPENER class becomes `UNRESOLVED_EDGE_CLASS`.
 
 The first falsifier is external: if the structural instrument cannot recover
 known CoReMA roles on held collections, it cannot license any Q20 role claim.

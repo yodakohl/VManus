@@ -1,0 +1,105 @@
+{
+  "claim_ceiling": "transferable cross-corpus record-role likeness only; no Voynich word meaning, language, plaintext, or translation",
+  "content_hash": "871c6d0021a2cab522afec0d3b018708ecff23f76cb4c06dd3fb0fef2fc33cbc",
+  "documents": {
+    "GDT176_READABLE_RECIPE_ROLE_CALIBRATION_METHOD.md": "4caf236fba0c1ea69a2ce9fa0ae77f2777f9ea7e5a7ae865a2dc594cbba196e6",
+    "GDT176_READABLE_RECIPE_SOURCE_AUDIT.md": "2cf00bc08b7819ba00e43cf771384acb606dfbfffcf97d61ff04191047a0b56e"
+  },
+  "experiment": "GDT176_READABLE_RECIPE_ROLE_CALIBRATION",
+  "external_recipes": 1136,
+  "external_units": 22394,
+  "f84r_accessed": false,
+  "held_collection_results": {
+    "POSITION_LENGTH": {
+      "accuracy": 0.8260248280789497,
+      "bits_per_unit": 0.7226229011191307,
+      "gain_vs_prior_bits": 20558.939463393886,
+      "macro_f1_fold_mean": 0.49057973754492484,
+      "n": 22394,
+      "positive_folds_vs_prior": 6
+    },
+    "POSITION_LENGTH_PLUS_OPAQUE_RECURRENCE": {
+      "accuracy": 0.7964186835759578,
+      "bits_per_unit": 1.108559561156756,
+      "gain_vs_prior_bits": 11916.273898511305,
+      "macro_f1_fold_mean": 0.48530869749555516,
+      "n": 22394,
+      "positive_folds_vs_prior": 5
+    },
+    "TRAIN_ROLE_PRIOR": {
+      "accuracy": 0.44078771099401626,
+      "bits_per_unit": 1.6406786063702643,
+      "gain_vs_prior_bits": 0.0,
+      "macro_f1_fold_mean": 0.1227076182760563,
+      "n": 22394,
+      "positive_folds_vs_prior": 0
+    }
+  },
+  "implementation": {
+    "run_gdt176_readable_recipe_role_calibration.py": "fea53f113891446eec4eacb1ea6e6ef8eeb1a289ff02003e21fdc8dab2dcc79d"
+  },
+  "inputs": {
+    "gdt127_q20_field_inventory.tsv": "e1ad1e114214fdcb34945dacbfd5e0c783fd85ecb2730d328b0204eb279e2227",
+    "gdt176_source_freeze.json": "0b1a9b8d72debfe09c55544b32ddfbb2386da578413adab027c9d7a3a40525e5"
+  },
+  "outputs": {
+    "gdt176_external_role_confusion.tsv": "f0e182a63f25b25f611e4c07e543eca380073a9d601db389468ba9d5da64c395",
+    "gdt176_external_role_folds.tsv": "1a52ee7c4f9358ced24ca6d03fe5b4bb8767839d45129e6dde4d3a087667f942",
+    "gdt176_external_role_predictions.tsv": "6377f75ccaf2ff494c8bd8721a69e42fcd01eb4522a4e998c171fa65db1f1311",
+    "gdt176_external_role_units.tsv": "f36d5011761b6a8fc99d2a8b0df2e76cb7b797ce1115e693f5fcfb4e940451a5",
+    "gdt176_q20_abstract_role_summary.tsv": "fa863ec6fcf551b8420cb41e694fe8a87ba9ec391660b9bc0b177ef0afeea683",
+    "gdt176_q20_opaque_host_role_atlas.tsv": "a90654b5f1b9faa1c4975e2d7396e578c48c7b5869d342fa8c414cd83cc65c35",
+    "gdt176_q20_role_like_projection.tsv": "ddbc9b8c9e19c551bf8f6f7777f7ec95143575d5d4199fab9e5f3847828e4418",
+    "gdt176_q20_role_like_summary.tsv": "842ed17d0b59a88b3628b0e58f2942189188d0937ae63ea2f70b2726fcefde99"
+  },
+  "projection_is_role_like_not_semantic_confirmation": true,
+  "projection_model_selected_on_external_folds_only": "POSITION_LENGTH",
+  "q20_all_three_comparable_field_keys": 1467,
+  "q20_all_three_top_role_stable_keys": 1407,
+  "q20_editions": [
+    "ZL3b",
+    "IT2a",
+    "RF1b"
+  ],
+  "q20_editions_are_alternate_readings": true,
+  "q20_projected_fields": 4443,
+  "q20_zl_final_field_role_like_counts": {
+    "CLOSER": 121,
+    "INGREDIENT": 24,
+    "OPERATION": 25
+  },
+  "q20_zl_first_field_role_like_counts": {
+    "INGREDIENT": 28,
+    "OPENER": 39,
+    "OPERATION": 103
+  },
+  "q20_zl_record_count": 170,
+  "selected_model_class_metrics": {
+    "CLOSER": {
+      "precision": 0.7553191489361702,
+      "recall": 0.5877483443708609,
+      "support": 604
+    },
+    "INGREDIENT": {
+      "precision": 0.7722797273415805,
+      "recall": 0.9751354797577303,
+      "support": 9411
+    },
+    "OPENER": {
+      "precision": 0.044897959183673466,
+      "recall": 0.017377567140600316,
+      "support": 633
+    },
+    "OPERATION": {
+      "precision": 0.9141486320947325,
+      "recall": 0.907202917637524,
+      "support": 9871
+    },
+    "TOOL": {
+      "precision": 0,
+      "recall": 0.0,
+      "support": 1875
+    }
+  },
+  "status": "PARTIAL_EXTERNAL_ROLE_INSTRUMENT_SUPPORTED_Q20_SCHEMA_EXPLORATORY"
+}

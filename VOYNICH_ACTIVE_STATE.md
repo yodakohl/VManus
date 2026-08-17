@@ -1,6 +1,6 @@
 # Voynich active state — structural reset baseline
 
-Updated: 2026-08-16. Read this file first, then
+Updated: 2026-08-17. Read this file first, then
 `experiments/semantic_assumptions/ACTIVE_EXPERIMENT_LEDGER.tsv`.
 
 ## Outcome
@@ -129,6 +129,22 @@ Updated: 2026-08-16. Read this file first, then
   manuscript-wide folio-conditioned mechanism is not established. Do not build
   B3 from this heterogeneous residual or infer a codebook, word, language,
   morphology, role, meaning, plaintext, or translation.
+- GDT176 introduces the first powered readable-medieval-recipe role instrument
+  rather than another internal host-neighbour score. Across six held CoReMA
+  collections and 22,394 source-blind units, relative position plus span length
+  reduces log loss from 1.641 to .723 bits/unit and is positive on all six
+  collections. The transfer is only partial: operation/instruction spans and
+  short arguments are recovered well enough to retain, closers are moderate,
+  tools collapse completely into the short-argument class, and openers fail.
+  Adding opaque recurrence hurts held transfer. Applied unchanged to the
+  f84-free Q20 field inventory, the model yields a coarse mixture of
+  `INSTRUCTION_CLAUSE_LIKE`, `SHORT_ARGUMENT_LIKE`, and
+  `RECORD_CLOSER_LIKE` fields; 121/170 ZL record-final fields are closer-like
+  and 1,407/1,467 all-reading-comparable field keys retain the same top class.
+  This supports a low-resolution procedural-record schema but does not show
+  that any PAGE_HOST is an ingredient, tool, verb, heading, or translated
+  word. Exact-host atlas leads are placement-coupled and require an independent
+  content test.
 - The complete permitted external-referent census does not yet supply that
   endpoint. Forty human-nominated plant/fragment/component pairs yield 38
   scorable whole-page comparisons, but neither exact PAGE_HOST nor the full

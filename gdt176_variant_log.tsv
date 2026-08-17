@@ -1,0 +1,5 @@
+variant_id	stage	model	status	outcome	reason
+V1_EXTERNAL_DEV	external_only	least_squares_logits	SUPERSEDED	attractive accuracy but worse-than-prior held log loss	least-squares scores were not calibrated multinomial probabilities; replaced before interpreting Q20 aggregates
+V2_EXTERNAL_FIXED	external_only	multinomial_POSITION_LENGTH	SELECTED	0.722623 held bits/unit; +20558.939 bits versus held training-role priors; 6/6 positive folds	lowest held-collection log loss among the two declared structural models
+V3_EXTERNAL_FIXED	external_only	multinomial_POSITION_LENGTH_PLUS_OPAQUE_RECURRENCE	NOT_SELECTED	1.108560 held bits/unit; +11916.274 bits versus prior; 5/6 positive folds	opaque recurrence worsened external held log loss by 8642.666 bits relative to position/length
+V4_Q20_PROJECTION	cross_corpus	selected_V2_applied_without_refit	RETAINED_EXPLORATORY	4443 field projections over three alternate readings	no Q20 outcome or aggregate was used in external model selection
