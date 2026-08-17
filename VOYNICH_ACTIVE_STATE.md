@@ -298,6 +298,17 @@ Updated: 2026-08-17. Read this file first, then
   first remove or model a nonbijective abbreviation/codebook/context layer or
   the record compiler.  This is not a universal rejection of Latin or complex
   ciphers and supplies no letter value or plaintext.
+- GDT189 tests that immediate escape route directly: the same six frozen
+  historical-language packs are scored after either outer-wrapper/DY stripping
+  or full frozen HPR2 PAGE_HOST extraction.  PAGE_HOST does improve the raw
+  failure per retained event (2.118 to 2.018 bits/event), but its best injective
+  named-letter code still loses to the matched anonymous order-2 KT channel by
+  121,129 bits on 60,023 events, and the best Old Hungarian mapping is different
+  in all three deterministic starts.  Therefore the frozen compiler is not
+  merely hiding an ordinary one-source-sign-to-one-plaintext-letter stream.
+  Any surviving language route needs a noninjective abbreviation/codebook,
+  context-dependent expansion, or units above/below individual letters.  The
+  pack ranking is not language evidence and no plaintext is produced.
 
 ## Confirmed structural baseline
 
