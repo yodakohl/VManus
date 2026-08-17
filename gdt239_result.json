@@ -1,0 +1,64 @@
+{
+  "claim_ceiling": "Translation-shaped page organization only; no field ownership, object word, action, condition, material, language, plaintext, or translation.",
+  "content_hash": "0cacff9da09434e1e62329531b0151f0fd827720e02156a22c918f8ffe2618e4",
+  "documents": {
+    "GDT239_F82R_TRANSLATION_DOSSIER_METHOD.md": "690970aaaa5d12fc5bdf8552fe69a7a6da022dde36bad9f143ae8ab041ed03df",
+    "GDT239_F82R_TRANSLATION_DOSSIER_REPORT.md": "ee557196f348cd095a25e4234e88bd2617dd30ad0cedc530bd9ec7f24da5bd77"
+  },
+  "experiment": "GDT239_F82R_TRANSLATION_DOSSIER",
+  "f84": {
+    "input": false,
+    "joined": false,
+    "new_access": false,
+    "retained": false,
+    "scored": false
+  },
+  "formal_counts": {
+    "covered_prose_loci": 8,
+    "dy_ended": 19,
+    "human_prose_locus_coverage": 0.25,
+    "instruction_clause_like": 10,
+    "line_ended": 7,
+    "mechanical_record_keys": 1,
+    "parsed_fields": 26,
+    "short_argument_like": 16
+  },
+  "human_counts": {
+    "labels": 13,
+    "loci": 45,
+    "paragraphs": 3,
+    "prose_lines": 32
+  },
+  "implementation": {
+    "run_gdt239_f82r_translation_dossier.py": "8815bf2e39730877b5de6f0596f97f3287b558ca753924fb3738726094330d80"
+  },
+  "inputs": {
+    "experiments/semantic_assumptions/results/existing_human_exact_locus_annotations.tsv": "79c7f06e91f90054aff4cdf27f098a5977d820acdf91f239a14c6ddf553a7f61",
+    "experiments/semantic_assumptions/results/existing_human_page_annotations.tsv": "b358f244cbe853448dd5c32dbc04004cb8ce63d9a8c5ed5afe2a679a115d87fa",
+    "gdt229_q13_semantic_role_lattice.tsv": "c44e484fde8bc0850ad2ff9d54798f54c9954dc8b01e4672826acab860a9f7aa",
+    "gdt233_q13_label_predictions.tsv": "643079a0de45e8eb7ffea7f6b5f70303d94f466d7953907fea9b4a8daad6b9e7",
+    "gdt237_prefix_stability.tsv": "ae70efffa2774469a6c0f5a7c33b1a2bed82f9c4a528aec4a92ad9e2de72d149"
+  },
+  "interpretation": "f82r can be rendered as a complete visual-label dossier plus a partial selected-record field scaffold; the apparatus and figure labels remain renderer-plus-opaque-residual forms and prose fields remain broad role alternatives.",
+  "label_counts": {
+    "connected_component_evidence": 1,
+    "exact_labels": 13,
+    "gdt233_strict_prefix_detected": 6,
+    "gdt237_fold_stable_prefix_detected": 3,
+    "proximity_only": 12
+  },
+  "leading_page_hypothesis": "ILLUSTRATED_THERAPEUTIC_OR_HYDRAULIC_PRACTICAL_RECORD_WITH_COMPONENT_STATE_ARGUMENTS",
+  "lexical_assignments": 0,
+  "mandatory_alternatives": [
+    "ILLUSTRATED_CASE_OR_INDICATION_RECORD",
+    "APPARATUS_OR_SETTING_KEY_WITH_PROSE",
+    "NONSEMANTIC_RECORD_RENDERER"
+  ],
+  "outputs": {
+    "gdt239_f82r_field_dossier.tsv": "4de4c2a689031420277a18a4a383469d24272b5f8e70f580ee47b507a2dc5882",
+    "gdt239_f82r_label_dossier.tsv": "c506807ce418cd7c49e260ab73b0643864c0bfaf1d81efbc1e22aa838ce9c7a2",
+    "gdt239_f82r_page_model.json": "fdb58b1f1488e7f1abea50af4b10a58350e44fafa3d88d1e504e7943e18f47ac"
+  },
+  "page": "f82r",
+  "status": "F82R_VISUAL_LABEL_DOSSIER_COMPLETE_PROSE_LATTICE_PARTIAL_NO_LEXICAL_KEY"
+}

@@ -874,6 +874,19 @@ Updated: 2026-08-17. Read this file first, then
   a prefix means near, attached, inside, or any relation.  Proximity is not
   ownership; retain `PARTIAL LABEL/RELATION RENDERER + REGISTER-BOUND OPAQUE
   RESIDUAL`, with no word, language, plaintext, translation, or new f84 access.
+- GDT239 assembles the first complete f82r visual-label dossier and exposes the
+  prose-coverage limit.  All 13 exact labels are aligned: twelve are proximity-
+  only and f82r.10 is the sole component-linked row.  Six labels carry a strict
+  GDT233 prefix and three carry an all-fold GDT237 prefix.  The component label
+  `ACAB` is consumed entirely by the transferred prefix, leaving no candidate
+  object residual; the exposed BACA waterfall pair leaves unrelated `B/CA`.
+  The available GDT229 scaffold contains 26 fields but covers only eight of 32
+  human-catalogued prose loci (25%): 16 short-like, 10 instruction-like, 19 DY-
+  ended.  The leading page theory is an illustrated therapeutic/hydraulic
+  practical record alternating compact arguments with longer technical
+  clauses, but case/indication, apparatus-key, and nonsemantic worlds remain.
+  This is document architecture with zero lexical assignments, not a page
+  translation, and no f84 input or access occurred.
 
 ## Confirmed structural baseline
 
