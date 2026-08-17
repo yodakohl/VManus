@@ -1105,6 +1105,17 @@ Updated: 2026-08-17. Read this file first, then
   the same query on a different source-bound attached label before formal
   access.  Alternate readings are sensitivities, not replications; no
   component name, meaning, translation, or new f84r access follows.
+- GDT261 tests the only independent-folio adjacent-label case already present
+  in the compact attachment/layout inventories.  f83r.46 is hedged and
+  formally pre-exposed, so the safe endpoint is a falsifying display-layer
+  sensitivity rather than validation.  Its `ol` component hits 24/25 page
+  lines and all three following-paragraph lines (`p=.88`), hence has no local
+  specificity; `saiin` hits 12 page lines but zero target lines, and full
+  `olsaiin` has zero one-edit prose hits.  This fails the broad
+  attached-label→adjacent-paragraph transfer and confines GDT260 to a page-
+  local `f82r` clue.  Do not widen edit radii or cuts post hoc; a new
+  source-bound attachment with a prospectively frozen source-native query is
+  required.  No meaning, translation, or f84r access follows.
 
 ## Confirmed structural baseline
 
