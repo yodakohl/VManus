@@ -2784,6 +2784,32 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   controls).  Do not infer abbreviation, language, notation identity, meaning,
   plaintext, or translation from GDT276 alone.  No f84 source was an input.
 
+- GDT278 freezes the previously unscored GDT277 magnitude question before
+  expanding to 15 ground-truth controls.  The endpoint is compiler-context
+  matched saving in bits/event plus null z; a control must equal or exceed the
+  published Voynich coordinate on both, with no tolerance band or composite.
+  On the exact 4,476-event length/page/line/record scaffold, no admitted
+  control reproduces Voynich after fold-local parser/alphabet learning:
+  Voynich is `.3573` bits/event (`z=22.43`), the nearest real diplomatic
+  control is Nuremberg at `.1827` (`z=11.93`), and every codebook/notation/
+  hybrid control is at or below `.0293`.  In native source order, however,
+  three powered real Latin diplomatic panels exceed the frozen published
+  Voynich reference on both coordinates: scholastic `.5294`/`z=53.27`,
+  medical `.4675`/`z=48.41`, and fifteenth-century mixed Latin
+  `.3994`/`z=54.41`; fold-safe Voynich itself is `.3438`/`z=29.11` against
+  the published `.3646`/`z=32.16` reference.  No synthetic codebook,
+  factorial notation, human-grown hybrid, held-book learned abbreviation,
+  Nuremberg pair, or Augsburg account panel reproduces the native magnitude.
+  Therefore the large compiler-conditioned character saving is strongly
+  **order/matching sensitive**: authentic diplomatic text can exceed it with
+  native document structure, while the exact matched-overlay residual remains
+  outside this control envelope.  Do not treat magnitude as a language,
+  abbreviation, codebook, or notation identifier; the next useful calibration
+  must localize which native boundary/register opportunities generate the
+  Latin excess without changing the frozen endpoint.  No HPR1 semantics,
+  Voynich substring mining, meaning, plaintext, translation, or f84 access
+  occurred.
+
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
 the ZL editorial paragraph scaffold, and conditioning on collapsed page, exact
