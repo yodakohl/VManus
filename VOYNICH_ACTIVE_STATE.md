@@ -474,6 +474,19 @@ Updated: 2026-08-17. Read this file first, then
   architecture, but it does not expose a named-letter decoder and does not
   license a flexible inverse transducer without a genuinely external
   contextual key.
+- GDT208 supplies the strongest current exploratory content-domain theory from
+  genuinely external readable material.  A 1443 medicinal copy of John of
+  Rupescissa treats distillation of wine, plants, and minerals; a studied 1451
+  copy depicts a body-like top/bottom pipe vessel and describes continual
+  ascent/descent separating quintessence from four corruptible elements; and
+  late-fifteenth-century *Donum Dei* miniatures place personified figures,
+  worms, flowers, and roses inside process flasks.  Together these make
+  medicinal-alchemical circulation/separation with personified material or
+  process states the leading q13 content hypothesis.  The tempting f77 reading
+  of four expelled elemental fractions plus one retained fifth essence is
+  explicitly post-hoc: neither source reproduces six states/five edges, no
+  singular readable label bridge exists, the old quality-word decoder remains
+  withdrawn, and no source group receives a meaning.
 
 ## Confirmed structural baseline
 
