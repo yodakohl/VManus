@@ -430,6 +430,15 @@ Updated: 2026-08-17. Read this file first, then
   the leading abductive architecture.  Translation now requires genuinely
   external identifying information; more internal pattern reuse cannot by
   itself select values for the opaque addresses.
+- GDT203 opens the first post-reset external acquisition candidate rather than
+  another Voynich surface fit.  Institutional catalogues identify northern
+  Italian Othmer MS 2 (1450--1475) fol. 41r as a full-page drawing of two
+  readable alchemical tools, `Sublimatoria vasa` and
+  `furnus sublimatorum`, in a practical/theoretical recipe miscellany.  This
+  is useful near-contemporary evidence that apparatus drawings and readable
+  technical labels coexisted, but it is not an f77 key: the source documents
+  two tools, not six ordered states, five relations, or the required
+  four-output/one-hold topology.  Map neither Latin label to Voynich.
 
 ## Confirmed structural baseline
 
