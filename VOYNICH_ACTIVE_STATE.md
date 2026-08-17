@@ -402,6 +402,14 @@ Updated: 2026-08-17. Read this file first, then
   apparatus miss are both on f75.  Therefore the renderer switch is not a
   transferable visual-class rule.  Keep only anonymous payload recurrence and
   do not use the f77 pairs as a dictionary or semantic compiler key.
+- GDT200 directly inspects the complete four f77r figure-label positions and
+  finds a cleaner local confound: both figures at the endpoints of the upper
+  tube have all-reading `d-` labels, while both figures beside the separate
+  middle/lower left apparatuses have all-reading `ot-` labels.  This perfect
+  2-versus-2 split is post-hoc on one folio (directional assignment p=1/6;
+  orientation-free p=2/6) and all ownership is proximity-only.  It favors a
+  panel-zone renderer over the GDT198 visual-class reading, but establishes no
+  source/destination, stage, quality, lexical value, or plaintext.
 
 ## Confirmed structural baseline
 
