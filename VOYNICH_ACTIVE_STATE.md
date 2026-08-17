@@ -309,6 +309,16 @@ Updated: 2026-08-17. Read this file first, then
   Any surviving language route needs a noninjective abbreviation/codebook,
   context-dependent expansion, or units above/below individual letters.  The
   pack ranking is not language evidence and no plaintext is produced.
+- GDT190 then raises the candidate unit from source sign to exact PAGE_HOST:
+  the 8, 16, 32, and 64 most frequent hosts are mapped bijectively to the same
+  number of frequent historical-language words and scored as order-1 word
+  sequences.  Every paid codebook loses to its matched source-identity KT
+  channel.  The closest is Middle High German at K=8, still 841.60 bits worse
+  over 5,108 mapped events/3,490 runs, and its three optimized dictionaries
+  disagree.  At K=64 the loss is 3,527.57 bits.  Thus neither one-letter nor
+  one-frequent-host-to-one-frequent-word substitution rescues the stripped
+  layer.  Surviving language models must be nonbijective, context/page keyed,
+  or operate at a different unit; no optimized target word is a reading.
 
 ## Confirmed structural baseline
 
