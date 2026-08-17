@@ -897,6 +897,16 @@ Updated: 2026-08-17. Read this file first, then
   with frozen grammar while keeping the 11 disagreement lines unresolved or
   marginalized.  Full formal census supplies no field role, word, plaintext,
   translation, preferred reading, or new f84 access.
+- GDT241 applies only the frozen HPR2 group/field parser to the wider f82r
+  source panel.  Formal field coverage rises from eight to 17 of 32 prose loci
+  and from 26 to 51 fields; all eight old loci reproduce ordered tokens,
+  PAGE_HOSTs, compiler cells and endpoints exactly.  The nine new loci add 25
+  formal fields but receive no role, because they lack the complete-line record
+  coordinate used by GDT229.  The current page stack is therefore 45/45 human
+  loci accounted, 21/32 prose loci family-covered, 17/32 HPR2-segmented, 8/32
+  abstract-role-scaffolded, and 0/32 translated.  Build an uncertainty-aware
+  line/paragraph coordinate before applying any role instrument; no word,
+  plaintext, translation, or new f84 access follows.
 
 ## Confirmed structural baseline
 
