@@ -613,6 +613,20 @@ Updated: 2026-08-17. Read this file first, then
   single signs are the independently observed label format on f76r and the
   readable Wound Man mechanism uses compact numerals/initials; its paragraph
   keys have not been opened.  No f84r source or artifact was accessed.
+- GDT219 prospectively tests that separate single-sign mechanism on f76r.
+  Before target reveal, its nine one-sign labels were frozen as family-key set
+  `{A,B,C,D,Q}` and the null as all 861 two-opening draws from the public
+  GDT217 distribution.  Both actual paragraph starts begin with family `P`,
+  giving 0/2 membership hits, one rather than two distinct target keys, and an
+  inclusive tail of 1.0.  Reject an overt f76r single-sign label-to-paragraph
+  index.  Together with GDT187 and GDT218, this shifts the possible graphical
+  register away from exact prose cross-reference keys toward direct local
+  annotation, state/case marking, or no stable reference mechanism.  GDT217's
+  two-family positional excess remains exploratory but unreplicated.  Do not
+  search another label edge after seeing these failures.  The next external
+  route must identify a singular local visual relation or readable direct-
+  annotation homolog rather than prose-key reuse.  No f84r input or access
+  occurred.
 
 ## Confirmed structural baseline
 
