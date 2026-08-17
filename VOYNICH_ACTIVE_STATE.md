@@ -214,6 +214,20 @@ Updated: 2026-08-17. Read this file first, then
   predictions as the current translation program; do not globalize `ot`, `ok`,
   `y`, q, DY, B3, or PAGE_HOST, and do not treat the abductive selection as a
   decipherment result.  f84r remains sealed and receives no prediction.
+- GDT182 immediately audits the exposed f57 decoder for the look-elsewhere
+  freedom inherent in four labels.  The all-reading-stable length-1--3
+  prefix/suffix/substring family supplies 57 predicates, 10 masks and three
+  complete 2x2 mask pairs in N1, plus 42 predicates, nine masks and two
+  complete pairs in D1.  Terminal `y` is genuinely the only literal shared
+  nonconstant mask (with `HAS1:y` as an alias), but after searching the seven
+  common literal predicates some shared-mask match occurs in 10/24 exact D1
+  position permutations (p=.4167); terminal `y` specifically aligns in 4/24
+  (descriptive p=.1667).  Therefore GDT179/GDT180 remain useful exposed
+  page/process scaffolds and GDT181 remains the leading generative architecture,
+  but the 8/8 local fit and inherited f77 states lose provisional-translation
+  force.  Call them descriptive semantic candidates until a frozen
+  schema-equivalent transfer or readable homolog succeeds; no source group,
+  local bit, quality word, or transition name is confirmed.
 
 ## Confirmed structural baseline
 
