@@ -1196,6 +1196,21 @@ Updated: 2026-08-17. Read this file first, then
   operator.  Keep `q` as an earlier-record-associated q13 renderer and a
   cross-register record-stage hypothesis only; no word, semantic function,
   translation, or new f84r access follows.
+- GDT269 asks whether GDT267 merely compared different host vocabularies.
+  Across 632 q-or-bare occurrences, exact `PAGE_HOST × page` conditioning
+  leaves 30 movable strata, 211 occurrences, 12 hosts, and all nine pages.
+  `q` remains earlier-record-associated (Mantel–Haenszel OR `1.990`, exact
+  occurrence-level two-sided diagnostic `p=.0380`, page-cluster sign-flip
+  `p=.0214`; seven of nine page scores positive).  This strengthens the
+  constructional analysis: the same opaque PAGE_HOST can take q or bare
+  rendering while retaining a record-stage tendency.  The effect is not
+  position-independent, however: matching within-field group position reduces
+  the OR to `1.595` and the exact diagnostic to `p=.2869`, while finer role and
+  position strata lose substantial capacity.  Keep `q` as a reusable outer
+  renderer participating in q13 line/field/record template organization, not
+  a semantic prefix or universal ordinal.  GDT268 remains the weak
+  nonconfirming cross-register result.  No meaning, translation, or new f84r
+  access follows.
 
 ## Confirmed structural baseline
 

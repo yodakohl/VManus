@@ -1,0 +1,57 @@
+{
+  "analysis_state": "EXPLORATORY_POSTHOC_CONDITIONAL_DECOMPOSITION",
+  "claim_ceiling": "Opaque q13 wrapper placement conditional on exact host/page only; no semantic operator word morpheme meaning plaintext or translation.",
+  "content_hash": "b4498b73b2434856cdd757d959ff0173459d5149e55949131cd728916a049ace",
+  "documents": {
+    "GDT269_Q13_WRAPPER_HOST_CONDITIONAL_METHOD.md": "dc49ec74eb3f42fb35c07c38cc423e52f487f71f3021db607e7da589d6a04bc1"
+  },
+  "experiment": "GDT269_Q13_WRAPPER_HOST_CONDITIONAL",
+  "f84r": {
+    "new_access": false,
+    "prior_process_breach_disclosed": true,
+    "scored": false,
+    "used": false
+  },
+  "implementation": {
+    "run_gdt269_q13_wrapper_host_conditional.py": "f12b664193664f129be105257e33c1c1c2410675afaf18c538d0d8f1b9b3014e"
+  },
+  "inputs": {
+    "gdt010_result.json": "c7e5769dc664043ef9f2e34151b1033a4cbaf53f8b7b07cfda2b0cad02889ae9",
+    "gdt064_result.json": "6dbe5eb872a24b91a1cbb9808e90c293acd6e8ca4c84360c385da6c50f71ec82",
+    "gdt227_q13_abstract_interlinear.tsv": "0eb7627690a3c318141279b705bc709b61b3efab17afd2756919485a006b6a2c",
+    "gdt267_result.json": "9033ca6667ddea66607853e924203a79a2570a34b4737c78518108b968b83b59",
+    "gdt268_result.json": "13855df775eeeae58dc899b4ed76fbbb849a06481c3f6eb764ace14c2a5e958e"
+  },
+  "interpretation": "q13 q remains earlier-record-associated within exact PAGE_HOST and page, but the association weakens under within-field position matching.",
+  "outputs": {
+    "GDT269_Q13_WRAPPER_HOST_CONDITIONAL_REPORT.md": "eb7accca65a6de8ccbc5c80cedf6f39b48b333f9b112fa4e1cbc4bb5f37d453d",
+    "gdt269_counterexamples.tsv": "6c6a46def2f2ead760d1685d008a924e67812a949411a2973b6505d542d7a8bc",
+    "gdt269_exact_null.tsv": "f34cf547d8c8ceb578ab45e7d92f55f1d58453ed7d454393d945bfb17ddada3a",
+    "gdt269_occurrences.tsv": "99be7be07dcd1de2af5ad8517bb350fce64946cb2bcd14e6b91c2bb9031fb522",
+    "gdt269_page_scores.tsv": "c405301d4f1a1cfa3181e57fd6faa6e6ec53df293f8cc4864b094de44884318b",
+    "gdt269_page_sign_null.tsv": "9a5fabd81f805736b3f62d613ad1cbf97ddd98930d2f0cde6d339d8a57d7c809",
+    "gdt269_strata.tsv": "b8ce5eab782db09dc94a4b2f374437a0623f7f284bd7590bbe665885dcef378d",
+    "gdt269_tests.tsv": "c5ad12e9940171d10708daaa2234a792e70a2162f32413cc4bf40e5a14dfdbb4"
+  },
+  "pages": 9,
+  "position_sensitivity": {
+    "exact_two_sided_p": 0.286925488515,
+    "mh_odds_ratio": 1.594964335143,
+    "mobile_occurrences": 115
+  },
+  "primary": {
+    "conditional_u": 6.289991462786,
+    "exact_two_sided_p": 0.037996906359,
+    "mh_odds_ratio": 1.990179647492,
+    "mobile_hosts": 12,
+    "mobile_occurrences": 211,
+    "movable_strata": 30,
+    "page_sign_flip_p": 0.021442495127,
+    "positive_pages": 7
+  },
+  "q_or_bare_occurrences": 632,
+  "records": 18,
+  "semantic_assignments": 0,
+  "status": "Q13_Q_STAGE_SURVIVES_EXACT_HOST_PAGE_CONDITIONING_BUT_IS_POSITION_SENSITIVE",
+  "variants_reported": 7
+}
