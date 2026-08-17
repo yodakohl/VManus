@@ -513,6 +513,18 @@ Updated: 2026-08-17. Read this file first, then
   provisionally favored over personified chemical materials. This is a page-
   genre theory only: there is still no singular readable label bridge, no
   Voynich bath/disease/procedure/place word, and no translation.
+- GDT211 freezes a readable 32-record *De balneis* information schema before
+  scoring q13: every bath record contains identity and indication material,
+  while access/hydraulics, procedure/caution, and testimony are optional. q13
+  paragraph-start PAGE_HOSTs are less cross-folio recurrent than continuation
+  starts by 0.289, but the same-hand Herbal-B control is nearly identical
+  (+0.283) and the exact page-plus-line-length null is nonconfirming
+  (`p=0.2958`, 42 swappable lines). The bath-entry schema is therefore
+  compatible with q13 but has not localized an identity or therapeutic field;
+  treat the signal as generic opening architecture. The balneological content
+  theory remains provisional, and further progress requires an independently
+  owned repeated referent or readable homolog rather than glossing rare
+  opening hosts.
 
 ## Confirmed structural baseline
 
