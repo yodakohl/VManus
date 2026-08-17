@@ -1,0 +1,69 @@
+{
+  "comparison": {
+    "axis_count": 8,
+    "class_counts": {
+      "ARCHITECTURE_MATCH": 2,
+      "NO_CONTENT_MATCH": 1,
+      "NO_EXACT_HOMOLOG": 1,
+      "PARTIAL_ARCHITECTURE_MATCH": 1,
+      "STRONG_ASYMMETRY": 2,
+      "VOYNICH_UNSUPPORTED": 1
+    },
+    "exact_topological_homolog": false,
+    "q13_connected_component_rows": 1,
+    "q13_pilot_pages": [
+      "f80r",
+      "f82r"
+    ],
+    "q13_proximity_only_rows": 22,
+    "q13_text_linked_inventory_rows": 23,
+    "singular_readable_voynich_bridge": false
+  },
+  "content_sha256": "3563074647a05795c48c41cf9ae0782834949c368b7483927087a569e65327c5",
+  "decision": "ARCHITECTURE_HOMOLOG_WITHOUT_TOPOLOGY_OR_SEMANTIC_TRANSFER",
+  "documents_sha256": {
+    "GDT213_READABLE_MEDICAL_DIAGRAM_COMPARATOR_METHOD.md": "4e51bba72dc3002b67be2027776b9f069218bb7b18a73da8711c9942b4d402be",
+    "GDT213_READABLE_MEDICAL_DIAGRAM_COMPARATOR_REPORT.md": "f4852a333ea2a11f3567809df86bd972dd7d049888902492289ea013236a6a84",
+    "GDT213_READABLE_MEDICAL_DIAGRAM_SOURCE_AUDIT.md": "632b163901fd6f90e49219a0a4e1ce16668357f893296fc0460f568e73289574"
+  },
+  "experiment": "GDT213_READABLE_LABELLED_MEDICAL_DIAGRAM_COMPARATOR",
+  "f84": {
+    "accessed": false,
+    "input": false,
+    "output": false
+  },
+  "inputs_sha256": {
+    "GDT210_THERAPEUTIC_BALNEOLOGICAL_COMPARATOR_REPORT.md": "3671117cccfb54862084fe4d29154743604433ea5b36be9ec69df52bc383084c",
+    "GDT212_DE_BALNEIS_VISUAL_TEXT_GROUNDING_REPORT.md": "be61d5aa7a3213bcdc56f0f583c604ed8037cd5466fe51a809e2ca72d4fe717d",
+    "run_gdt213_readable_medical_diagram_comparator.py": "fd1491bb53a7f05c7d0bf39e17e8c02cb38c106c8933ecf1464d854798cfc377"
+  },
+  "interpretation": {
+    "next_test": "Seek a readable medieval bath or hydraulic diagram with independently owned component labels; Ashmole 399 supplies the document architecture but not the content/topology bridge.",
+    "not_supported": [
+      "q13 is an anatomy diagram",
+      "q13 labels name nearby figures",
+      "q13 prose is a later addition",
+      "any Voynich word has an anatomical, therapeutic, or hydraulic meaning",
+      "plaintext, language, translation, or source descent"
+    ],
+    "supported": "A medieval medical manuscript can combine abstract connected-system geometry, short component labels, and longer practical text on the same page."
+  },
+  "observations": {
+    "ai_direct_visual_observations": 6,
+    "count": 9,
+    "existing_scholarly_rows": 3
+  },
+  "outputs_sha256": {
+    "gdt213_ashmole_source_manifest.tsv": "910fc07adebf185f2d8c758c1689eb84f0821a30f4b83ae93ef7e32d988f74dd",
+    "gdt213_counterexamples.tsv": "ebc54227845b41d674efadd537a2e043a7b31084c8d9d524dcb3eda980531946",
+    "gdt213_readable_medical_diagram_observations.tsv": "21e0a8ad41fcf244c710264249e25937d8407ca96457ea2bc9c015583ea4bd04",
+    "gdt213_system_architecture_comparison.tsv": "141dd893d14acb513e5825f89c008287f64c446bf4a69d9b0a5feb6e370daec1"
+  },
+  "sources": {
+    "count": 5,
+    "primary_institutional_images": 2,
+    "scholarly_interpretive_sources": 2
+  },
+  "status": "MEDIEVAL_MEDICAL_SCHEMATIC_DOCUMENT_ARCHITECTURE_SUPPORTED_CONTENT_BRIDGE_ABSENT",
+  "validator_sha256": "3be6923b32acfb6a119e7a15f2d74b6985705704a1170a01b612f76f7b7e898e"
+}

@@ -536,6 +536,21 @@ Updated: 2026-08-17. Read this file first, then
   physical setting/access/hydraulic organization; figures and gestures cannot
   presently identify a disease, procedure, or outcome field. This calibration
   does not score Voynich text or assign a role to any source group.
+- GDT213 directly inspects official Bodleian images of MS Ashmole 399 fols.
+  13v and 22v and separates six visual observations from three scholarly
+  interpretations. Fol. 13v supplies a readable medieval precedent for an
+  abstract connected medical system that combines short component labels, one
+  embedded humanlike figure, and dense longer practical text; fol. 22v shows
+  that the same codex can instead place continuous prose around another
+  abstract branching system. This strengthens the historical plausibility of
+  q13 as a mixed medical-diagram/practical-record format, but the critical
+  asymmetry remains: Ashmole's labels have readable component ownership,
+  whereas 22 of 23 text-linked f80r/f82r inventory rows are proximity-only and
+  only f82r.10 is connected-component evidence. The comparator is anatomical,
+  not balneological, has no exact q13 topology, and does not license an anatomy
+  gloss, a later-remedy layer in q13, or any source-group meaning. The next
+  useful external target is specifically a readable bath/hydraulic/process
+  diagram with singular component labels, not another broadly similar vessel.
 
 ## Confirmed structural baseline
 
