@@ -759,6 +759,20 @@ Updated: 2026-08-17. Read this file first, then
   field has authorial visual ownership and none is a material, stage, pool or
   word.  Preserve it as an acquisition target, not a translation.  No new f84
   access occurred.
+- GDT229 converts all 701 q13 fields into an explicit provisional semantic
+  lattice while retaining alternatives.  The leading abductive world is a
+  hybrid therapeutic/hydraulic practical record: 253 long fields receive
+  practical/indication or setting/hydraulic-description candidates, 427 short
+  fields receive material/case/quantity or component/parameter/local-state
+  candidates, 17 fields receive caution/outcome/formal-close candidates, and
+  four receive identity/location/access-header candidates.  The split within
+  each broad class is a page-level modifier inherited from GDT212/GDT228, not
+  field ownership.  This is now the working translation-shaped scaffold, but
+  it has no lexical key: every PAGE_HOST and source group remains unglossed,
+  the nonsemantic renderer world remains mandatory, and no word, language,
+  plaintext clause or translation is established.  The next discriminator is
+  a newly acquired source-bound repeated component/state or a readable q13-
+  like homolog, not another internal host score.  No new f84 access occurred.
 
 ## Confirmed structural baseline
 
