@@ -439,6 +439,19 @@ Updated: 2026-08-17. Read this file first, then
   technical labels coexisted, but it is not an f77 key: the source documents
   two tools, not six ordered states, five relations, or the required
   four-output/one-hold topology.  Map neither Latin label to Voynich.
+- GDT204 completes the institutional catalogue screen for Othmer MS 1--7:
+  24 diagram/no-diagram records across all seven manuscripts, 19 with readable
+  catalogue values, and zero exact f77 homologs.  The strongest new historical
+  material is Othmer MS 6 (1472), whose fol. 13r groups nine named operations
+  into three triplets (`liquefaccio/elementatio/diuisio`,
+  `inhumatio/distillacio/calcinacio`, and
+  `inceratio/congelatio/sublimatio`), while adjacent folios contain named
+  element, sulfur/medicine, corruption/generation, alembic, and interconnected
+  elemental diagrams.  This materially strengthens the broad alchemical
+  technical-taxonomy prior but supplies no unique Voynich correspondence:
+  none documents the required six ordered states, five relations, and
+  four-output/one-hold topology together.  Keep every external operation name
+  unassigned.
 
 ## Confirmed structural baseline
 
