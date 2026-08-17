@@ -1,0 +1,53 @@
+{
+  "claim_ceiling": "Page-level visual geometry to abstract role-likeness association only; no field ownership host meaning word language plaintext or translation.",
+  "documents": {
+    "GDT228_Q13_VISUAL_ROLE_ATLAS_METHOD.md": "4297b4c19cbca97bd08bdf08da18ee5b75d65c7da18150fa32ef7aa0dc5d6f72",
+    "GDT228_Q13_VISUAL_ROLE_ATLAS_REPORT.md": "99767f6d224b2e961769a42f26ade2ac213b440382fa4eae5df72a3fa49f05ec"
+  },
+  "f84": {
+    "future_access_authorized": false,
+    "joined": false,
+    "manifest_rows": 0,
+    "public_metadata_previously_exposed": true,
+    "scored": false,
+    "source_or_formal_payload_retained": false
+  },
+  "fields": 701,
+  "implementation": {
+    "run_gdt228_q13_visual_role_atlas.py": "6128a3cb9932ecc506d98693f58d097eb47bf65a904e77d24f6fdbe1f0606122"
+  },
+  "inputs": {
+    "experiments/semantic_assumptions/results/existing_human_page_annotations.tsv": "b358f244cbe853448dd5c32dbc04004cb8ce63d9a8c5ed5afe2a679a115d87fa",
+    "gdt227_q13_abstract_interlinear.tsv": "0eb7627690a3c318141279b705bc709b61b3efab17afd2756919485a006b6a2c",
+    "gdt227_result.json": "eabada963219ffa8c3a7a49c2c822884edc5c99e51db2178869c412824984a1e",
+    "gdt228_visual_feature_manifest.tsv": "f38d0c860c95fd707e25c2bb1014690fd74bd4f3ae0a492974ee6564130851fd"
+  },
+  "interpretation": "Pages with multiple human-described bounded regions have a weak excess of short-argument-like fields; this is a page-level organization hypothesis only.",
+  "outputs": {
+    "gdt228_counterexamples.tsv": "8f43c79a8125864a2917375249a01855ca2256426d0f4d01257731113f46524a",
+    "gdt228_null_results.tsv": "996bc734a0282d598620f976ebb9befe6d3faef8fd1d864d223dc2ea1bd5acf6",
+    "gdt228_page_role_profiles.tsv": "b3dc0a9025fbd80091bebcad1a4dc689baee279f7842928632d188335efd25b8",
+    "gdt228_visual_role_scores.tsv": "1c697f5bafc6eb318b505bb9c4427cdcb7c5a8944fcf1fca99edc71e5b88bed1"
+  },
+  "pages": 18,
+  "physical_folios": 9,
+  "postselection": "FULLY_DISCLOSED_TWO_AXES_SIX_ENDPOINTS",
+  "result_content_sha256": "c825451fe03603b301e5c259a37e2783a56688b7e2f6691e9af8ee485d20b405",
+  "schema": "GDT228_Q13_VISUAL_ROLE_ATLAS_RESULT_V1",
+  "status": "MULTI_REGION_SHORT_ARGUMENT_LEAD_POSTSELECTED_LOW_CAPACITY",
+  "top_lead": {
+    "abstract_role": "INSTRUCTION_CLAUSE_LIKE",
+    "discordant_folios": 3,
+    "exact_page_worlds": 31824,
+    "exact_two_sided_p": "0.100835847159",
+    "lofo_same_direction": 9,
+    "lofo_total": 9,
+    "max_six_p": "0.385986328125",
+    "negative_pages": 11,
+    "observed_effect": "-0.0940713133157",
+    "positive_pages": 7,
+    "visual_feature": "multiple_bounded_regions",
+    "within_folio_two_sided_p": "0.125",
+    "within_folio_worlds": 8
+  }
+}

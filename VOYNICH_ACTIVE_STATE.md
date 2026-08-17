@@ -747,6 +747,18 @@ Updated: 2026-08-17. Read this file first, then
   interlinear is the current working parse surface; the next genuine semantic
   advance needs an external content endpoint attached to multiple fields.  No
   new f84 access occurred.
+- GDT228 makes the first page-level visual join to that interlinear using only
+  two disclosed public-catalogue geometry axes.  On seven pages with multiple
+  separately described pools/sub-pools, instruction-clause-like fields are
+  depleted by `.0941` and short-argument-like fields enriched by `.0781`; the
+  stronger exact page tail is `.1008`, within-folio tail `.125` on only three
+  discordant folios, max-six `.386`, with 9/9 deletion direction.  The other
+  tried axis, an explicit connecting/entering/leaving path, is null.  This is a
+  fully disclosed postselected, page-level organization lead: several bounded
+  regions may induce more component/parameter/state-like short items, but no
+  field has authorial visual ownership and none is a material, stage, pool or
+  word.  Preserve it as an acquisition target, not a translation.  No new f84
+  access occurred.
 
 ## Confirmed structural baseline
 
