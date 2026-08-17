@@ -968,6 +968,17 @@ Updated: 2026-08-17. Read this file first, then
   does not distinguish a content identifier, construction, caption formula,
   or nonsemantic code unit and supplies no object, role, word, plaintext,
   translation, or new f84 access.
+- GDT247 tightens that interface to exact member identity across all three
+  readings.  Of 23 aligned label groups on f80r/f82r, three recur as complete
+  line-internal prose groups: `okaly` f80r.3→f80r.31, `olky` f80r.7→f80r.38,
+  and `okal` f82r.36→f82r.6.  Their complete ordered STA member vectors agree
+  in ZL3b, IT2a, and RF1b.  Each graphical occurrence is proximity-only and
+  all three carry a GDT233 label-enriched prefix; two are consumed completely
+  by that prefix.  Therefore the prefix layer is a rendering propensity rather
+  than a label-exclusive marker, and a minority of labels can select opaque
+  prose-compatible group identities.  Coverage is only 3/23 and no visible
+  ownership is established, so these are content-address candidates without
+  referents—not words, meanings, plaintext, translation, or new f84 access.
 
 ## Confirmed structural baseline
 
