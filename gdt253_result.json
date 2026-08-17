@@ -1,0 +1,53 @@
+{
+  "active_semantic_assignments": 0,
+  "claim_ceiling": "Exploratory catalogue-position association only; no authorial number degree direction word language plaintext or translation.",
+  "content_hash": "5bf4c2500fde66f9e53063344dccb90a7e600987dcf9729a225111a8350c78b2",
+  "cross_folio_recurrent_pairs_by_edition": {
+    "IT2a": 1,
+    "ZL3b": 1
+  },
+  "documents": {
+    "GDT253_RENDERER_RESIDUAL_POSITION_CALIBRATION_METHOD.md": "50fa1ef80a8e824a4963af7288d2b65ec1780805978ca7074e5688b98bb32c34",
+    "GDT253_RENDERER_RESIDUAL_POSITION_CALIBRATION_REPORT.md": "43164209ba2b46f51d711cf96da1c7e50651584487604f6a26e15bddd222cfd4"
+  },
+  "eligible_rows_by_edition": {
+    "IT2a": 35,
+    "RF1b": 35,
+    "ZL3b": 35
+  },
+  "experiment": "GDT253_RENDERER_RESIDUAL_POSITION_CALIBRATION",
+  "f84": {
+    "input": false,
+    "joined": false,
+    "new_access": false,
+    "retained": false,
+    "scored": false
+  },
+  "gdt252_pair_exact_member_support_readings": [
+    "ZL3b",
+    "IT2a"
+  ],
+  "gdt252_pair_failed_exact_member_readings": [
+    "RF1b"
+  ],
+  "implementation": {
+    "run_gdt253_renderer_residual_position_calibration.py": "322839144b3254dc674ba94c37405f2ea4486d7d67b3d91ea91d172d4e691eb4"
+  },
+  "inputs": {
+    "experiments/semantic_assumptions/results/source_sta_group_alignment.tsv": "f23654f1d4c854db6d458b418a0d3530115731604854cf0a0495565e58341840",
+    "experiments/semantic_assumptions/results/special_circle_text_blind_array_inventory.tsv": "0800312871234a068668cb8120b8a07026b50c6f6a955a22ca8a237bf606019a",
+    "gdt235_label_object_inventory.tsv": "a48bdd4a221e09f789e01577f5df7bb6d7a3d2ed198342bd3efa1d3b1b13af5f",
+    "gdt252_result.json": "fa3072c394c38bad4848257bf65b08b558d2c56610146cb8deb5308c6f3f67b3"
+  },
+  "interpretation": "The full renderer/residual slot-4 coincidence is the only cross-folio repeated pair in ZL3b/IT2a and is borderline under a max-search null, but it fails exact RF1b member stability and cannot yet serve as a positional key.",
+  "outputs": {
+    "gdt253_candidate_summary.tsv": "92713103cbbdbca461769b5ff7f60d528d8eeb6a19b8ac1436bee6369db55aec",
+    "gdt253_counterexamples.tsv": "14f4d55624b7c74a33c3944be9c812dbfd7d3071e8f194a542a331ab323c1fec",
+    "gdt253_null_results.tsv": "c409a6736462f4b3ef8bbc1afeea4392452b9d67195ec6c4ffefd2f6d214ad4c",
+    "gdt253_renderer_residual_inventory.tsv": "d3451209785995cccc9a1a97110aed6c47d996b3564aa4489a3936d670ef8f04"
+  },
+  "status": "GDT252_POSITION_LEAD_MAXT_BORDERLINE_AND_RF_READING_UNSTABLE_NO_POSITION_KEY",
+  "ten_slot_arrays": 8,
+  "zl_independent_pairing_max_search_p": 0.081083967835,
+  "zl_primary_max_statistic": 2
+}

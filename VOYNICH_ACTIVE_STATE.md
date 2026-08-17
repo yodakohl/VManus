@@ -1032,6 +1032,16 @@ Updated: 2026-08-17. Read this file first, then
   postselected full-renderer-plus-residual hypothesis pending a complete
   max-search calibration.  It establishes no authorial degree coordinate,
   number value, word, plaintext, translation, or new f84 access.
+- GDT253 calibrates that exposed lead against all transferred renderer/residual
+  constructions in all eight frozen ten-slot arrays.  The `okal+AB` pair is
+  the only cross-folio recurrent exact member-prefix pair in ZL3b and IT2a,
+  but the within-array max-search diagnostics are only p=0.081084 when
+  renderer and residual inventories are independently permuted and p=0.085219
+  when intact pairs are position-permuted.  RF1b reads the f72 renderer member
+  as `Qa` rather than the f70 `Q1`, so exact source-member identity is not
+  all-reading stable.  Keep the slot-4 association as a weak prospective clue
+  only; it is not an executable positional key and licenses no number, degree,
+  direction, word, plaintext, translation, or new f84 access.
 
 ## Confirmed structural baseline
 
