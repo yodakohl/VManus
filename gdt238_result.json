@@ -1,0 +1,71 @@
+{
+  "claim_ceiling": "Visible annotation relation mode only; no authorial ownership, object, word, morpheme, language, plaintext, or translation.",
+  "content_hash": "912220d4b92e82974fc6bc06cc11f603833bd2f6da8f3b328994d88351674808",
+  "documents": {
+    "GDT238_LABEL_PREFIX_RELATION_MODE_METHOD.md": "12df62450532d4f7eb8cf389d3ea4c274fc2866c74fa3adb9d4c7ba96a68c815",
+    "GDT238_LABEL_PREFIX_RELATION_MODE_REPORT.md": "b24f86d8f7c04ee7dfaa77b9b87ca493e6bd1ac1bcc3b758b346738484a13060"
+  },
+  "experiment": "GDT238_LABEL_PREFIX_RELATION_MODE",
+  "f84": {
+    "joined": false,
+    "new_access": false,
+    "retained": false,
+    "scored": false
+  },
+  "folios": 16,
+  "implementation": {
+    "run_gdt238_label_prefix_relation_mode.py": "85938c2f607cbdbe53d58fbbbe6a7b12bb47a6c59605600456bc57f744554923"
+  },
+  "inputs": {
+    "experiments/semantic_assumptions/results/existing_human_exact_locus_annotations.tsv": "79c7f06e91f90054aff4cdf27f098a5977d820acdf91f239a14c6ddf553a7f61",
+    "experiments/semantic_assumptions/results/source_sta_family_consensus_groups.tsv": "a202d93498e8a350a5d7e0ca46e831dcc37ea5c0182dc404d63cb797a98b1225",
+    "gdt237_prefix_stability.tsv": "ae70efffa2774469a6c0f5a7c33b1a2bed82f9c4a528aec4a92ad9e2de72d149"
+  },
+  "interpretation": "Stable graphical-label prefixes carry a weak held-folio relation-mode clue, concentrated in five paired improvements; exact raw families do not transfer.",
+  "inventory_rows": 310,
+  "outputs": {
+    "gdt238_relation_folds.tsv": "872c24628faef59979a97b94a04b2e11d3a91fc06e9e5309ce5e663584c1d5bb",
+    "gdt238_relation_inventory.tsv": "b461bbab01e898a21988ce60ed2e2f3446235d130f302a48a3e8efc685167d65",
+    "gdt238_relation_summary.tsv": "8132da12fde5f240c524a96096a2d754b07611c3b6b881fe4232c896e457a879"
+  },
+  "primary": {
+    "accuracy_delta": "0.073529411765",
+    "baseline_accuracy": "0.750000000000",
+    "baseline_correct": 51,
+    "covered": 68,
+    "feature_accuracy": "0.823529411765",
+    "feature_correct": 56,
+    "model": "STABLE_PREFIX",
+    "one_sided_sign_p": "0.03125",
+    "paired_losses": 0,
+    "paired_wins": 5
+  },
+  "raw_counterexample": {
+    "accuracy_delta": "-0.133928571429",
+    "baseline_accuracy": "0.714285714286",
+    "baseline_correct": 80,
+    "covered": 112,
+    "feature_accuracy": "0.580357142857",
+    "feature_correct": 65,
+    "model": "RAW_FAMILY",
+    "one_sided_sign_p": "0.00296230614185",
+    "paired_losses": 21,
+    "paired_wins": 6
+  },
+  "relation_classes": {
+    "ARRAY_OR_GROUP": 5,
+    "ATTACHMENT": 73,
+    "ENCLOSURE_OR_CONTACT": 7,
+    "PROXIMITY": 225
+  },
+  "stable_prefixes": [
+    "ABQA",
+    "AP",
+    "APA",
+    "APAB",
+    "APAC",
+    "APK",
+    "AQAB"
+  ],
+  "status": "WEAK_PREFIX_RELATION_MODE_LEAD_LOW_CAPACITY"
+}

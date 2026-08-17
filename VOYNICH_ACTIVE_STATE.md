@@ -864,6 +864,16 @@ Updated: 2026-08-17. Read this file first, then
   is `TRANSFERABLE_PARTIAL_LABEL_RENDERER + REGISTER_BOUND_OPAQUE_CONTENT`;
   neither layer is an object word, morpheme, language key, plaintext, or
   translation.  No new f84 access occurred.
+- GDT238 asks whether those seven fold-stable prefixes carry a visible
+  label-relation mode.  Among 68 cross-folio-covered prefixed annotations,
+  prefix-modal lookup gets 56 relation classes correct versus 51 for the
+  same-section baseline (`+.0735`; five paired wins, zero losses; one-sided
+  sign tail `.03125`).  Exact raw families are worse than baseline (65/112
+  versus 80/112).  This is a weak, low-capacity clue that part of the prefix
+  layer renders graphical attachment/proximity conditions, not evidence that
+  a prefix means near, attached, inside, or any relation.  Proximity is not
+  ownership; retain `PARTIAL LABEL/RELATION RENDERER + REGISTER-BOUND OPAQUE
+  RESIDUAL`, with no word, language, plaintext, translation, or new f84 access.
 
 ## Confirmed structural baseline
 
