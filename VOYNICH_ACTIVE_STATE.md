@@ -1061,6 +1061,15 @@ Updated: 2026-08-17. Read this file first, then
   fields where the entire panel receives that class.  Retain it as a reusable
   closed-field formal host, not a material/argument word.  There is zero
   identifiable PAGE_HOST semantic residual, no translation, and no f84 access.
+- GDT257 records a process-level f84r access breach after GDT255.  A scratch
+  capacity audit for an exact-member label/prose test loaded the global source
+  family-consensus table before restricting it to non-holdout pages, so f84r
+  rows were transiently parsed in the subprocess.  No f84r value was printed,
+  manually inspected, selected, joined, scored, or written, and the proposed
+  test was aborted without an artifact.  The f84r seal is nevertheless no
+  longer pristine and future provenance must disclose this access.  Continue
+  to prohibit every further f84r access unless the user explicitly authorizes
+  it.
 
 ## Confirmed structural baseline
 

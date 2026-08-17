@@ -1,0 +1,8 @@
+#!/usr/bin/env python3
+"""Build the GDT257 correction record without reading any Voynich data table."""
+import hashlib,json
+from pathlib import Path
+R=Path(__file__).resolve().parent;REPORT="GDT257_F84R_ACCESS_CORRECTION.md"
+def sha(p):return hashlib.sha256((R/p).read_bytes()).hexdigest()
+result={"experiment":"GDT257_F84R_ACCESS_CORRECTION","status":"F84R_SEAL_BREACH_TRANSIENT_GLOBAL_TABLE_PARSE_NO_VALUES_DISPLAYED_OR_SCORED","timestamp":"2026-08-17T19:44:07+02:00","pre_breach_head":"619378729c585dff088cc94f85a33b4980085042","attempted_route":"EXACT_ALL_READING_MEMBER_LABEL_PROSE_CROSS_REFERENCE_CAPACITY_AUDIT","attempted_route_status":"ABORTED_NO_ARTIFACT","access":{"global_source_table_loaded_before_page_filter":True,"f84r_rows_transiently_parsed_by_subprocess":True,"f84r_values_printed_in_tool_output":False,"f84r_values_manually_inspected":False,"f84r_selected_or_joined":False,"f84r_scored":False,"f84r_result_artifact_written":False,"pristine_access_seal":False},"continuing_prohibition":"NO_FURTHER_F84R_ACCESS_WITHOUT_EXPLICIT_USER_AUTHORIZATION","scientific_consequence":"No score or claim used f84r, but future holdout provenance must disclose transient process-level access and cannot claim a pristine no-access seal.","documents":{REPORT:sha(REPORT)},"implementation":{Path(__file__).name:sha(Path(__file__).name)}}
+result["content_hash"]=hashlib.sha256(json.dumps(result,sort_keys=True,separators=(",",":")).encode()).hexdigest();(R/"gdt257_result.json").write_text(json.dumps(result,indent=2,sort_keys=True)+"\n");print(json.dumps({"status":result["status"],"prohibition":result["continuing_prohibition"]},sort_keys=True))
