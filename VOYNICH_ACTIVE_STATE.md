@@ -254,6 +254,24 @@ Updated: 2026-08-17. Read this file first, then
   cardinality 17 is therefore not an ordered key bridge under this mechanism.
   R2 may remain page-local reference/calibration or ornament, but it does not
   label the f67v1 sectors and supplies no sign value or translation.
+- GDT186 adds a source-frozen historical mechanism comparator.  John de
+  Foxton's Latin *Liber Cosmographiae* (Trinity Cambridge R.15.21, completed
+  1408) selectively enciphers 135 operative/rubric-like words in a technical,
+  medical, astrological, and diagrammatic compendium.  Its strongest analogue
+  for GDT181 is not the substitution alphabet itself: diagram/list keys can
+  supply head nouns omitted from dependent prose, one recurrent headword is
+  partly ciphered by syllable, and ordinary Latin abbreviation continues
+  inside cipher.  A contemporary Fontana comparator also establishes that an
+  almost wholly artificial-alphabet technical text was historically possible.
+  This raises the source plausibility of a diagram/rubric-key plus record-
+  compiler mechanism.  It does not provide a Voynich key.  Foxton's direct
+  model is insufficient because most of its Latin is readable and simple
+  substitution does not generate the Voynich page-conditioned, line-reset,
+  wrapper/right/DY/B3 architecture.  The next live test is therefore a
+  semantics-free keyed-omission test asking whether nonsealed page-label host
+  inventories predict paragraph/field structure beyond page/register effects
+  even when exact labels are absent from prose.  No Latin plaintext, alphabet,
+  word, rubric value, source identity, or translation is inferred.
 
 ## Confirmed structural baseline
 
