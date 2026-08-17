@@ -1127,6 +1127,14 @@ Updated: 2026-08-17. Read this file first, then
   GDT261's independent-folio failure reinforces that demotion.  No further
   f82r cuts/radii should be mined, and no meaning, translation, or f84r access
   follows.
+- GDT263 tests the simplest alternative document address suggested by f80r's
+  exact 10-label/5-paragraph cardinality: ordered labels 1–2 map to P1 through
+  labels 9–10 to P5.  Across 20 four-member windows per reading, no individual
+  label has adjusted `p<.1`; the aggregate evidence is exceeded by 30/43 ZL,
+  18/43 IT, and 34/43 RF circular shifts (`p=.697674/.418605/.790698`).
+  Reject this specific two-label-per-paragraph lattice.  The hybrid legend
+  plus independent paragraphs remains viable, but label/paragraph cardinality
+  alone supplies no translation address, meaning, or f84r access.
 
 ## Confirmed structural baseline
 
