@@ -1262,6 +1262,20 @@ Updated: 2026-08-17. Read this file first, then
   sentence syntax.  Higher-order or content-dependent order remains open.  No
   clause role, word, meaning, plaintext, translation, or new f84r access
   follows.
+- GDT274 consolidates the surviving q13 architecture into an executable
+  evidence-tiered grammar covering 33 records, 240 physical lines, 701 fields,
+  and 1,896 source groups.  At the full rendered-line scale, all 240 raw,
+  PAGE_HOST, and compiler-cell sequences are unique and none recurs on another
+  folio.  At the scaffold scale, exact field-size sequences have other-folio
+  support for 124/240 lines, and coarse `S12/L3P + endpoint` templates for
+  208/240.  The best current generator is therefore explicitly
+  scale-dependent: `PAGE -> RECORD -> PHYSICAL_LINE -> FIELD -> GROUP`, with
+  factored `COMPILER_CELL(PAGE_HOST)` groups, reusable coarse line scaffolds,
+  and unique complete renderings.  Compiler ecology is record-local and `q`
+  remains a q13-local outer renderer; adjacent coarse field state, a universal
+  q stage, and q density/expansion are not licensed.  Every content value is
+  still `UNASSIGNED`; no word, clause role, language, plaintext, translation,
+  or new f84r access follows.
 
 ## Confirmed structural baseline
 

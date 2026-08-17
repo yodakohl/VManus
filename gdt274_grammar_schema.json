@@ -1,0 +1,48 @@
+{
+  "content_hash": "45cb369f2e42eb8a1a0398726a35323b64b8ad61bf13d02e0cf20446a9f7b42c",
+  "experiment": "GDT274_Q13_EXECUTABLE_FORMAL_GRAMMAR",
+  "nonlinguistic_boundaries": [
+    "source separator",
+    "DY-derived field boundary",
+    "physical line reset",
+    "mechanical record boundary"
+  ],
+  "opaque_symbols": [
+    "PAGE_HOST"
+  ],
+  "productions": {
+    "COMPILER_CELL": [
+      "WRAPPER",
+      "O_OT_FRAME",
+      "INNER_D",
+      "PAGE_HOST",
+      "RIGHT_FAMILY",
+      "DY",
+      "B3"
+    ],
+    "FIELD": [
+      "GROUP{1..}"
+    ],
+    "GROUP": [
+      "COMPILER_CELL(PAGE_HOST)"
+    ],
+    "PHYSICAL_LINE": [
+      "FIELD+"
+    ],
+    "Q13_PAGE": [
+      "RECORD+"
+    ],
+    "RECORD": [
+      "PHYSICAL_LINE+"
+    ]
+  },
+  "sealed_folio": "f84r",
+  "semantic_assignments": {},
+  "start": "Q13_PAGE",
+  "unsupported_rules": [
+    "portable first-order coarse field-state chain",
+    "universal q record-stage operator",
+    "q density/expansion value"
+  ],
+  "version": 1
+}
