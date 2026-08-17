@@ -1012,6 +1012,17 @@ Updated: 2026-08-17. Read this file first, then
   object gloss fails.  Freeze the next independently selected `okaly` label to
   predict FIGURE rather than PLANT/CONTAINER/LINE/STAR_ONLY; no ownership,
   identity, word, plaintext, translation, or new f84 access follows.
+- GDT251 expands `okaly` to the complete annotated `okal*` nonprose family and
+  demotes the GDT250 figure-class hypothesis before it is used.  Twenty groups
+  in ten surface forms on seven folios all carry the already-transferred
+  `AQAB` family prefix, with nine heterogeneous residual renderings.  Apparent
+  figure purity (18/20; figure-or-sky 19/20) is section-confounded: all rows
+  lie in Zodiac/q13, and the GDT235-covered Zodiac baseline is already 178/178
+  figure-tagged while q13 is 55/73.  The better generator is an `AQAB`/visible
+  `okal-` graphical-label renderer plus unresolved right residual, usable in
+  prose as well as labels.  Do not run the GDT250 figure prediction as a
+  semantic test without new cross-section evidence; no figure word, suffix
+  meaning, plaintext, translation, or new f84 access follows.
 
 ## Confirmed structural baseline
 
