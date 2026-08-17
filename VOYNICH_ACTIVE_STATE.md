@@ -355,6 +355,20 @@ Updated: 2026-08-17. Read this file first, then
   only 2,870.29 bits; it still loses 85,247.28 bits (1.420 bits/event) to the
   matched source code and remains restart-unstable.  Fixed homophony therefore
   does not convert the consonant-deletion direction into a key or language.
+- GDT195 audits the exposed f77 six-state process against six readable,
+  authority-bound medieval technical comparators.  The sources establish a
+  historically plausible medical-alchemical ecology containing quality
+  squares, labelled apparatus, distillation/sublimation recipes, staged
+  transformation diagrams, and even a five-circle volvelle with one repeated
+  compound quality state.  None documents the complete six-state,
+  four-output/one-no-output f77 architecture.  More importantly, exact
+  enumeration shows that once four quality states and one hold are assumed,
+  covering Earth, Fire, Air, and Water once is algebraically automatic: the
+  observed fixed mask admits eight sequences (four rotations by two
+  directions), or 40 when the hold may move.  Retain only the broad
+  medical-alchemical source-family prior and the unexplained local alignment
+  between four visible emissions and one non-emission.  Do not treat the four
+  output names as independent evidence or the six groups as quality words.
 
 ## Confirmed structural baseline
 
