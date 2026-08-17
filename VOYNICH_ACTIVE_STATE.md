@@ -989,7 +989,18 @@ Updated: 2026-08-17. Read this file first, then
   q13↔Stars opaque-address lead.  None participates in a GDT165 stable directed
   relation and all 33 focal windows are distinct, so the ranking is post-hoc,
   context-unstable, and assigns no referent, function, word, plaintext,
-  translation, or new f84 access.
+  translation, or new f84 access.  Its `okal` q13↔Stars ranking is superseded
+  by the GDT249 layer correction below.
+- GDT249 withdraws the GDT248 `okal` q13↔Stars content-address lead.  The exact
+  f82r source-group equality remains, but both the label and prose occurrence
+  parse as `PAGE_HOST=ok + RIGHT_FAMILY=al`; GDT248 had incorrectly looked up
+  the distinct PAGE_HOST `okal`.  The correct `ok` host has 834 published
+  contexts on 69 folios across all six represented sections, so it is not a
+  narrow q13/Stars address.  Retain `okal` only as exact cross-scope rendered-
+  tuple reuse, `olky` as a Currier-B-wide formal host, and `okaly` as a broad
+  formal host.  This correction strengthens the distributed-construction
+  model and supplies no content key, referent, word, plaintext, translation,
+  or new f84 access.
 
 ## Confirmed structural baseline
 
