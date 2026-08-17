@@ -1051,6 +1051,16 @@ Updated: 2026-08-17. Read this file first, then
   formal lattice for f80r, but the classes are generated from length and
   position and there are still zero semantic assignments.  No field ownership,
   ingredient, operation, word, plaintext, translation, or f84r access follows.
+- GDT255 shows why the corrected q13 field lattice still cannot ground content:
+  all 94 retained f80r/f82r fields are reproduced exactly by the threshold
+  `1–2 groups -> SHORT_ARGUMENT_LIKE; 3+ groups ->
+  INSTRUCTION_CLAUSE_LIKE`.  Thirteen PAGE_HOSTs recur at least twice on each
+  page, but every apparent role association is predicted by exact field size.
+  In particular `olche` is 4/4 short-field-like across both pages and bare,
+  `q`, and `s` renderings, yet all four occurrences are in one- or two-group
+  fields where the entire panel receives that class.  Retain it as a reusable
+  closed-field formal host, not a material/argument word.  There is zero
+  identifiable PAGE_HOST semantic residual, no translation, and no f84 access.
 
 ## Confirmed structural baseline
 
