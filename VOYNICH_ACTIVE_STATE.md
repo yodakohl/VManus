@@ -1042,6 +1042,15 @@ Updated: 2026-08-17. Read this file first, then
   all-reading stable.  Keep the slot-4 association as a weak prospective clue
   only; it is not an executable positional key and licenses no number, degree,
   direction, word, plaintext, translation, or new f84 access.
+- GDT254 rebuilds f80r HPR2 fields on the corrected five-paragraph coordinate,
+  without reviving the invalid GDT229 two-record role sequence.  Twenty-three
+  of 43 prose loci yield 43 formal fields; the remaining 20 lines stay as
+  paragraph-local missing ranges.  Across every feasible range, 25 covered
+  fields remain instruction-clause-like and 18 short-argument-like under the
+  frozen readable-recipe position/extent instrument.  This restores a usable
+  formal lattice for f80r, but the classes are generated from length and
+  position and there are still zero semantic assignments.  No field ownership,
+  ingredient, operation, word, plaintext, translation, or f84r access follows.
 
 ## Confirmed structural baseline
 
