@@ -1211,6 +1211,19 @@ Updated: 2026-08-17. Read this file first, then
   a semantic prefix or universal ordinal.  GDT268 remains the weak
   nonconfirming cross-register result.  No meaning, translation, or new f84r
   access follows.
+- GDT270 isolates `q` from every other same-group compiler coordinate.  After
+  fixing exact page, PAGE_HOST, O/OT frame, inner-D, right family, DY, and B3,
+  26 movable strata retain 121 occurrences across ten hosts and all nine q13
+  pages.  `q` remains earlier-record-associated (MH OR `3.030`, exact
+  diagnostic `p=.00374`, shared max-fourteen page `p=.04483`).  Adding
+  within-field position retains 58 occurrences and OR `3.330` (exact
+  `p=.03982`, max-fourteen page `p=.01754`).  The finest joint position plus
+  endpoint match has only 36 occurrences and is nonconfirming (`p=.12059`).
+  This licenses a sharper formal statement: in q13, `q` is a separable outer
+  constructional renderer rather than a consequence of a different
+  host/right/closure tuple.  It remains an exposed HPR2-dependent exploratory
+  result, and GDT268 still blocks a universal ordinal claim.  No semantic
+  prefix, word, meaning, translation, or new f84r access follows.
 
 ## Confirmed structural baseline
 
