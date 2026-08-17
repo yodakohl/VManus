@@ -329,6 +329,17 @@ Updated: 2026-08-17. Read this file first, then
   translation: fixed one-host-to-one-word dictionaries fail even after known
   manuscript context is allowed to re-key them.  Do not escalate by adding
   unpaid page dictionaries.
+- GDT192 allows each of the 20 active PAGE_HOST-layer signs to emit any one- or
+  two-letter string, transmits both expansion boundaries and reverse homophone
+  ambiguity, and exhaustively optimizes every 702-way one-coordinate change
+  from the three nested GDT189 starts.  The best Old Hungarian pack still loses
+  121,211.81 bits to matched KT and is unstable.  More importantly, every
+  retained optimum uses 20 one-letter and zero two-letter genes: the added
+  expansion capacity collapses back to the failed static channel.  Under the
+  favorable shortest nested code that gap is still 121,129.10 bits.  Thus a
+  fixed one/two-letter abbreviation alphabet beneath HPR2 is not the missing
+  mechanism; longer/contextual/phrase expansion or an external key remain
+  logically open but receive no sign values from this result.
 
 ## Confirmed structural baseline
 
