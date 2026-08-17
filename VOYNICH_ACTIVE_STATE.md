@@ -2714,7 +2714,18 @@ source-complete, and no-reversal claims. The next distinct question is the
 mechanism's actual scope—page side, paragraph, line block, or physical leaf—
 using source separators and frozen manual layout only. No sound, vowel,
 consonant, word, language, cipher operation, meaning, plaintext, or translation
-follows.
+  follows.
+- GDT275 closes exact scaffold-slot content mining.  On 1,896 q13 group
+  events, the recurring line-template/slot model has positive PAGE_HOST gain
+  on 9/9 held folios (`+80.756` bits), but exact permutations preserving
+  folio, field size, endpoint, fields per line, line slot, record-position
+  quartile, and identity frequency gain the same amount (null `+80.812`,
+  `z=-.044`, max-two `p=.6706`).  Raw identity is likewise below null
+  (`+33.009` versus `+35.038`, `p=.8819`).  Thus the coarse template is a
+  reusable carrier, not a portable exact PAGE_HOST or raw-group dictionary.
+  Stop local scaffold/gloss mining; latent classes and content distributed
+  over a larger record tuple remain open.  No word, role, language, plaintext,
+  translation, or new f84r access follows.
 
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
