@@ -1023,6 +1023,15 @@ Updated: 2026-08-17. Read this file first, then
   prose as well as labels.  Do not run the GDT250 figure prediction as a
   semantic test without new cross-section evidence; no figure word, suffix
   meaning, plaintext, translation, or new f84 access follows.
+- GDT252 finds one post-hoc positional lead inside that renderer family.  The
+  full `okal` renderer plus strict family residual `AB` occurs at slot 4/10 in
+  two independent ten-slot bands, f70v1 and f72r1, both catalogued as Kluge
+  homolog 09A.  This is only 2/7 formally covered slot-4 rows and 2/4 covered
+  09A homologs; moreover f70v2.25 has the same whole family `AQABAB` at slot
+  3/10.  Retain `POSITION_4_OF_10 / HOMOLOGOUS_SLOT_09A` only as a weak,
+  postselected full-renderer-plus-residual hypothesis pending a complete
+  max-search calibration.  It establishes no authorial degree coordinate,
+  number value, word, plaintext, translation, or new f84 access.
 
 ## Confirmed structural baseline
 
