@@ -452,6 +452,17 @@ Updated: 2026-08-17. Read this file first, then
   none documents the required six ordered states, five relations, and
   four-output/one-hold topology together.  Keep every external operation name
   unassigned.
+- GDT205 finds the closest readable ordered-system comparator yet in
+  Constantine of Pisa's 1257 *Book of the Secrets of Alchemy*.  Its argument
+  relates six metals to six creation days, but the 1361 diagrammatic witness
+  renders a vertical sequence of seven planet/metal circle segments followed
+  by lower cosmological segments for earth, air, and the Dead Sea; the later
+  Flemish adaptation adds a creator circle, personifications, animals, and
+  waters.  This strengthens the historical case for labelled diagrams and
+  tables as compact technical theory, but falsifies the tempting direct
+  six-day/six-f77-cell bridge.  Neither witness supplies five adjacent process
+  relations or a four-output/one-hold mask, so no metal, planet, element, day,
+  or operation name is assigned to Voynich.
 
 ## Confirmed structural baseline
 
