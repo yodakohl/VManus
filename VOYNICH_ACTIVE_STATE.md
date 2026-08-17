@@ -395,6 +395,13 @@ Updated: 2026-08-17. Read this file first, then
   `otol` resemblance in `f77r.50` changes group segmentation across readings.
   Retain only the page-local renderer-switching clue; it supplies no state,
   figure, process, word, sound, language, plaintext, meaning, or translation.
+- GDT199 freezes those two exact f77 renderer switches and enumerates the
+  complete non-f77 annotated single-group inventory carrying either payload.
+  Only 1/4 eligible archived class predictions is exact; both figure-only
+  targets use bare `OT` rather than the predicted `d+OT`.  The one hit and one
+  apparatus miss are both on f75.  Therefore the renderer switch is not a
+  transferable visual-class rule.  Keep only anonymous payload recurrence and
+  do not use the f77 pairs as a dictionary or semantic compiler key.
 
 ## Confirmed structural baseline
 
