@@ -979,6 +979,17 @@ Updated: 2026-08-17. Read this file first, then
   prose-compatible group identities.  Coverage is only 3/23 and no visible
   ownership is established, so these are content-address candidates without
   referents—not words, meanings, plaintext, translation, or new f84 access.
+- GDT248 ranks those three exact hosts against the already-published f84-free
+  GDT165/166 opaque-context inventories.  `okaly` has 18 focal contexts on 15
+  folios across B/S/H/T and is best treated as a general formal unit; `olky`
+  has 11 contexts on nine folios across four sections but is entirely Currier
+  B, making register/renderer structure the leading explanation.  `okal` has
+  only four global contexts, all on four Stars folios, while GDT247 supplies
+  its exact f82r label/prose bridge; it is therefore the narrowest current
+  q13↔Stars opaque-address lead.  None participates in a GDT165 stable directed
+  relation and all 33 focal windows are distinct, so the ranking is post-hoc,
+  context-unstable, and assigns no referent, function, word, plaintext,
+  translation, or new f84 access.
 
 ## Confirmed structural baseline
 
