@@ -417,6 +417,19 @@ Updated: 2026-08-17. Read this file first, then
   disagreement.  GDT200 is therefore only a four-label f77 description, not a
   transferable apparatus-zone renderer.  Neither visual class nor panel zone
   supplies a general key for the GDT198 surface pairs.
+- GDT202 reconciles all seven frozen GDT181 predictions against GDT182--201
+  and supersedes GDT181's active semantic scope.  Zero predictions recover a
+  transferable semantic value or plaintext.  The one supported prediction is
+  negative: the tested one-layer alphabetic, nomenclator, expansion,
+  consonantal, and homophonic decoders fail.  The f57 feature decoder is
+  nonunique, R2 lacks a four-state key, no exact f77 homolog exists, the `ot`
+  axis is not globally selected, and the f77 renderer transfers score 1/4 and
+  0/4.  Withdraw all eleven local quality/process/element gloss entries and
+  reset active semantic coverage to zero.  Retain six compiler terms as
+  formal-only and keep the anonymous page-conditioned technical compiler as
+  the leading abductive architecture.  Translation now requires genuinely
+  external identifying information; more internal pattern reuse cannot by
+  itself select values for the opaque addresses.
 
 ## Confirmed structural baseline
 
