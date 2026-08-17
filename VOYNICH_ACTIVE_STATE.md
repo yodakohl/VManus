@@ -841,6 +841,19 @@ Updated: 2026-08-17. Read this file first, then
   current atlas.  The residual is register-bound and opaque; it supplies no
   object word, meaning, plaintext, language, or translation.  No new f84
   access occurred.
+- GDT236 consolidates the corrected translation frontier.  The leading
+  abductive generator remains a hybrid page-conditioned technical record
+  compiler: page/register profile, physical record, field compiler,
+  graphical-label rendering, opaque content allocation, and right/checkpoint/
+  closure rendering.  GDT181's former f57/f77 semantic decoder is removed from
+  the executable layer: GDT182's feature-multiplicity audit plus GDT184/GDT185
+  leave it descriptive only.  Nine layer statuses and six acquisition
+  predictions are now frozen.  The strongest next discriminator is a singular
+  human-bound referent repeated on at least two new physical folios, comparing
+  full tuple, PAGE_HOST, and stripped residual without rewriting the compiler.
+  Current translation is document-mechanical rather than lexical: there are
+  zero active semantic source-unit assignments, words, clauses, language
+  identifications, or plaintext readings.  No f84 input or prediction is used.
 
 ## Confirmed structural baseline
 
