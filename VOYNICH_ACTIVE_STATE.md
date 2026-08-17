@@ -682,6 +682,21 @@ Updated: 2026-08-17. Read this file first, then
   discriminator is evidence for page-conditioned address material, ordinary
   local string reuse, or both—not a word meaning.  No f84 input or access
   occurred.
+- GDT224 applies the unchanged GDT176 position/length role instrument, learned
+  on 22,394 editor-tagged units from 1,136 real medieval recipes, to 33 q13
+  mechanical records and 22 same-hand Herbal-B controls.  q13's aggregate
+  projected clause/argument/closer distribution is much closer to the readable
+  recipe distribution than Herbal-B's (JS .00488 vs .03692; advantage +.03204,
+  exact-record-size +.05667, 9/9 q13 folio deletions; max-three `p=.0576`).
+  However the two more interpretable predictions fail: mixed clause+argument
+  prevalence reverses after exact record-size control (-.0741), and q13 has
+  far fewer final closer-like fields than Herbal-B (-.3013 raw, -.4074 size;
+  0/9 positive deletions).  Retain a weak external calibration that q13 has a
+  recipe-like global balance of clause-sized and argument-sized fields, while
+  rejecting a complete readable-recipe sequence or closer architecture.  The
+  next semantic route should explain the missing/relocated q13 close under a
+  frozen mechanism; no individual field is an ingredient, tool, action, word,
+  or translation.  No f84 input or access occurred.
 
 ## Confirmed structural baseline
 
