@@ -1,0 +1,56 @@
+{
+  "best_local_p": 0.001220405175,
+  "best_max_six_p": 0.003417134489,
+  "best_representation": "COMPILER_COARSE",
+  "best_top1": 90,
+  "claim_ceiling": "Within-page record-mate retrieval only; no paragraph topic label object procedure word language plaintext or translation.",
+  "content_hash": "d0bffa5a59e32a50d5bb62779de2622ce53629ce6ca18496613338cda3cd2d67",
+  "documents": {
+    "GDT264_Q13_RECORD_FINGERPRINT_METHOD.md": "2d766bd2abfe22710b67b6efaf49509d58f53768e42cf5f7f24717a1bdf9e061"
+  },
+  "eligible_pages": 9,
+  "eligible_records": 18,
+  "experiment": "GDT264_Q13_RECORD_FINGERPRINT",
+  "f84r": {
+    "further_access_authorized": false,
+    "new_access": false,
+    "prior_transient_parse_disclosed": true,
+    "scored": false,
+    "used": false
+  },
+  "implementation": {
+    "run_gdt264_q13_record_fingerprint.py": "4e707841cb62fcf7ae02f0f9532101d2561b3f1ddc095544ed34c383ae69c8a1"
+  },
+  "inputs": {
+    "gdt227_q13_abstract_interlinear.tsv": "0eb7627690a3c318141279b705bc709b61b3efab17afd2756919485a006b6a2c",
+    "gdt257_result.json": "6a499b4b56a88f4cf9eb50eac74d7adf6669cd856304d591c1eb788893b668c4"
+  },
+  "interpretation": "Tests whether q13 mechanical records have a within-page formal fingerprint; it does not identify a topic or translate content.",
+  "outputs": {
+    "GDT264_Q13_RECORD_FINGERPRINT_REPORT.md": "ee6ab4e35bef791498bf6c707a4e7d3a98df7f079865f5159b82efa0797d4f83",
+    "gdt264_compiler_component_scores.tsv": "08b59f076f5dad45f2d214df4d6c3fc0f5e2d86bd996dcbcc90c84dcf79e27dc",
+    "gdt264_counterexamples.tsv": "c75f0f50e09e6e5392f919ddc049b4dec09ffb470490dafe45125a0460808136",
+    "gdt264_record_fingerprint_null.tsv": "b7e6e3f43b5bacaf782273ae24abec04d716c02303c30575b605139e108e03f4",
+    "gdt264_record_fingerprint_predictions.tsv": "2f13e57ab4c8cb485a138aaa15209612901fd0538ef17ea62d381f8ef11ec8e7",
+    "gdt264_record_fingerprint_scores.tsv": "75802ecc542c29ebe4d0ecda6a7a2561e5df3f6615bbe3fb6229d0035f07770e"
+  },
+  "page_host_top1": 79,
+  "posthoc_compiler_decomposition": {
+    "best_component": "WRAPPER",
+    "max_five_p": 0.002684891384,
+    "top1": 97
+  },
+  "predictions_per_representation": 144,
+  "raw_exact_top1": 84,
+  "representations": [
+    "STRUCTURE_ONLY",
+    "COMPILER_COARSE",
+    "RAW_EXACT",
+    "PAGE_HOST_EXACT",
+    "RAW_CHAR3",
+    "PAGE_HOST_CHAR3"
+  ],
+  "semantic_assignments": 0,
+  "split_seeds": 4,
+  "status": "Q13_RECORD_LOCAL_FINGERPRINT_EXPLORATORY"
+}

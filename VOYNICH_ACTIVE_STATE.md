@@ -1135,6 +1135,21 @@ Updated: 2026-08-17. Read this file first, then
   Reject this specific two-label-per-paragraph lattice.  The hybrid legend
   plus independent paragraphs remains viable, but label/paragraph cardinality
   alone supplies no translation address, meaning, or f84r access.
+- GDT264 asks the prerequisite question at a different scale: whether two
+  independently sampled halves of the same q13 mechanical record can retrieve
+  each other against the competing record on the same page.  Across nine
+  pages, eighteen records, four deterministic locus splits and both
+  directions, compiler coordinates score 90/144 top-1 versus 72/144 chance
+  (max-six `p=.00342`); raw and PAGE_HOST character trigrams each score 86/144
+  (max-six `p=.04955`).  Exact PAGE_HOST identities are only 79/144
+  (`p=.40444` adjusted), below raw exact groups at 84/144.  A declared post-hoc
+  decomposition localizes the strongest fingerprint to wrapper ecology
+  (97/144, max-five `p=.00268`), followed by right-family/joint-cell structure.
+  Therefore q13 records have a real within-page rendering/template fingerprint,
+  but the result does not localize a paragraph topic or dictionary to exact
+  PAGE_HOST.  Close further label-substring-to-paragraph-topic mining without
+  new ownership evidence; use the compiler fingerprint as a record-regime
+  clue only.  No meaning, translation, or new f84r access follows.
 
 ## Confirmed structural baseline
 
