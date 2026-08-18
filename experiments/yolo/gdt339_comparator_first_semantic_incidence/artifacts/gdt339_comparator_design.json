@@ -1,0 +1,22 @@
+{
+  "schema": "GDT339_COMPARATOR_DESIGN_V1",
+  "status": "FROZEN_BEFORE_COMPARATOR_SCORE",
+  "comparators": [
+    {"dataset": "COREMA", "held_collections": ["b4", "b6", "br1", "bs1", "gr1", "w1"], "classes": ["OPENER", "OPERATION", "INGREDIENT", "TOOL", "CLOSER"]},
+    {"dataset": "NUREMBERG", "held_collections": ["Band2", "Band3", "Band4", "Band5"], "classes": ["ADDRESSEE", "CONTENT", "OTHER"]}
+  ],
+  "candidate_models": ["FREQUENCY_DEGREE", "TOPOLOGY_ONLY", "FULL_INCIDENCE"],
+  "ineligible_strong_baseline": "OPAQUE_ID_LOOKUP",
+  "partner_hash_bins": 64,
+  "sample_cap_per_collection_class": 5000,
+  "optimizer": {"steps": 500, "learning_rate": 0.03, "ridge": 0.002},
+  "dirichlet_alpha": 0.5,
+  "null": {"worlds": 2048, "seed": 339, "kind": "FIXED_PREDICTION_WITHIN_HELD_COLLECTION_MAX3"},
+  "selection_charge_bits": 1.584962500721156,
+  "selection_gates": {"positive_tasks": 2, "positive_folds_min": 8, "max3_p_max": 0.05, "selector_paid_gain_positive": true},
+  "voynich_scoring": {"frequency_bins": [2, 4, 8, 16], "jeffreys_alpha": 0.5, "class_shrinkage_trials": 8, "model_selector_bits": 1.0, "null_worlds": 8192, "null_seed": 339339},
+  "voynich_capacity_gates": {"tuple_fold_tests_min": 100, "physical_folios_min": 20, "registers_min": 3, "positive_folio_fraction_min": 0.6, "max_family_p_max": 0.05},
+  "semantic_state_on_voynich": "UNASSIGNED",
+  "translation_state": "UNASSIGNED",
+  "f84": "FORBIDDEN"
+}

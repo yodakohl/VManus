@@ -1,0 +1,43 @@
+{
+  "artifact_policy": {"large_artifact_justification": "", "max_inline_bytes": 5000000},
+  "claim_ceiling": "Comparator-selected opaque incidence instrument only; no Voynich class, tuple merge, role, meaning, language, plaintext, translation, or f84 result.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt339_comparator_first_semantic_incidence/src/run_comparators.py",
+    "validate": "python3 experiments/yolo/gdt339_comparator_first_semantic_incidence/src/validate_comparators.py"
+  },
+  "created": "2026-08-18",
+  "dependencies": ["GDT155", "GDT176"],
+  "experiment_id": "GDT339",
+  "inputs": [
+    {"path": "experiments/yolo/gdt339_comparator_first_semantic_incidence/METHOD.md", "role": "frozen comparator-first method and later Voynich scoring contract", "sha256": "aa9558836b4eac665a141922c6c6a956c146a757834eb735ebcab2fe39545f0d"},
+    {"path": "experiments/yolo/gdt339_comparator_first_semantic_incidence/artifacts/gdt339_comparator_design.json", "role": "machine-readable model family gates and fixed seeds", "sha256": "3297ad5e57ac4f9164a16d7aaeafda865fe01d146df50cbc3cfae3924f6e1f28"},
+    {"path": "experiments/yolo/gdt339_comparator_first_semantic_incidence/src/run_comparators.py", "role": "deterministic comparator scorer and invariant freezer", "sha256": "0a313bfe844e10850529d4a908b5c3edbec2e5a65bc0cea28d33088558a3f4ef"},
+    {"path": "experiments/yolo/gdt339_comparator_first_semantic_incidence/src/validate_comparators.py", "role": "nonimporting comparator accounting validator", "sha256": "3efcb78e6367dc31a0302f9259115dda63c32e3bcc9e2893461c2695da48a4a7"},
+    {"path": "experiments/yolo/gdt339_comparator_first_semantic_incidence/src/run.py", "role": "frozen post-checkpoint Voynich application runner", "sha256": "a6dc075bad89e0d6d311440df90b7a31fceb112a9a0f48844bdbfe05cd133ed2"},
+    {"path": "gdt176_external_role_units.tsv", "role": "CoReMA readable semantic-role occurrence layer", "sha256": "f36d5011761b6a8fc99d2a8b0df2e76cb7b797ce1115e693f5fcfb4e940451a5"},
+    {"path": "gdt176_source_freeze.json", "role": "CoReMA source provenance freeze", "sha256": "0b1a9b8d72debfe09c55544b32ddfbb2386da578413adab027c9d7a3a40525e5"},
+    {"path": "gdt155_unblinded_record_truth.tsv", "role": "Nuremberg readable parallel-record truth layer", "sha256": "38cb3f5e3b08a1d4bb32950f70465e64dd2c24472e7759009377cf2878be0e7b"},
+    {"path": "gdt155_unblind_export.json", "role": "Nuremberg and Ste1 source provenance", "sha256": "81867d5da5b1190709f712e698858208ccb995a98ca7f74789a58cc4f8927044"}
+  ],
+  "outputs": [
+    {"path": "experiments/yolo/gdt339_comparator_first_semantic_incidence/README.md", "role": "experiment entry point", "sha256": "e9fb1868d735d825f822e26a85e2f54c24712471dd9fe09c7759dc0993b9fb15"},
+    {"path": "experiments/yolo/gdt339_comparator_first_semantic_incidence/COMPARATOR_REPORT.md", "role": "comparator-first result report", "sha256": "a28636021faa572555d9d7eb8c7908e485fc5b16d453d536e83f3a3a98e3e4a7"},
+    {"path": "experiments/yolo/gdt339_comparator_first_semantic_incidence/artifacts/README.md", "role": "artifact scope note", "sha256": "5578b37255a2e303f7f262365a4552e15ece1bd34b8f703cfb92b93c98f53b11"},
+    {"path": "experiments/yolo/gdt339_comparator_first_semantic_incidence/artifacts/gdt339_comparator_units_summary.tsv", "role": "readable-source census with raw forms excluded", "sha256": "eef477dadaf37089bd8cd4191636d15e8b4bd97e4616547e10749b9e4d0508d8"},
+    {"path": "experiments/yolo/gdt339_comparator_first_semantic_incidence/artifacts/gdt339_comparator_folds.tsv", "role": "held-collection comparator scores", "sha256": "c13909f9814c0f2ca6b84730b557106a0c4e2ebb48a51c7d92173cc69a799256"},
+    {"path": "experiments/yolo/gdt339_comparator_first_semantic_incidence/artifacts/gdt339_comparator_models.tsv", "role": "aggregate comparator model comparison", "sha256": "e4ff8902565f0572286005e67abb3f0c860c56bf51b5d1dcac337f6e6e67cc93"},
+    {"path": "experiments/yolo/gdt339_comparator_first_semantic_incidence/artifacts/gdt339_comparator_null.tsv", "role": "fixed-prediction max-three null", "sha256": "69a3d9225c783b452d0b484ba6f1b270305ea474a64e035096bd33c957dd434f"},
+    {"path": "experiments/yolo/gdt339_comparator_first_semantic_incidence/artifacts/gdt339_tried_variants.tsv", "role": "complete fixed comparator variant ledger", "sha256": "5188931487fc878532e156116e92c286b5a09bce7c3b6eaa55e6bf343b55f88f"},
+    {"path": "experiments/yolo/gdt339_comparator_first_semantic_incidence/artifacts/gdt339_invariant_freeze.json", "role": "pre-Voynich invariant coefficient and gate freeze", "sha256": "3fdae75bea705090f0a906f9b82fc5ba891c54506093a0b7b0295ace6434fabd"},
+    {"path": "experiments/yolo/gdt339_comparator_first_semantic_incidence/artifacts/gdt339_comparator_result.json", "role": "compact comparator-stage result", "sha256": "5805c9463665ac390be455a7a9cadaceeaa1f96cfea633b7a48a15c655f828c4"},
+    {"path": "experiments/yolo/gdt339_comparator_first_semantic_incidence/artifacts/gdt339_comparator_validation.json", "role": "independent comparator validation", "sha256": "e4ef1ab31a292df9d85d75a950e1db6db1584a82024da84fd81fc1cecf54a754"}
+  ],
+  "question": "Can semantic classes in readable CoReMA and Nuremberg collections transfer from opaque-ID record-incidence invariants strongly enough to freeze a corpus-general instrument before any Voynich outcome is inspected?",
+  "schema_version": 1,
+  "sealed_data": {"f84r": "FORBIDDEN"},
+  "slug": "comparator_first_semantic_incidence",
+  "status": "NO_TRANSFERABLE_COMPARATOR_INVARIANT_FROZEN_BEFORE_VOYNICH",
+  "title": "Comparator-first semantic incidence invariants",
+  "updated": "2026-08-18",
+  "validation": {"artifact": "experiments/yolo/gdt339_comparator_first_semantic_incidence/artifacts/gdt339_comparator_validation.json", "status": "PASS"}
+}
