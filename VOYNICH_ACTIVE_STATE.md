@@ -3435,6 +3435,23 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   cannot be predicted. This is not a morpheme, POS, semantic role, meaning,
   sound, language, plaintext, translation, or f84 result.
 
+- GDT315 calibrates the unchanged GDT314 instrument on seven powered frozen
+  historical/synthetic panels. Voynich ranks 1/8 by both held codelength gain
+  and exact-cell/register-matched direction: +.04150 bits/event and +.287.
+  The next control is hybrid shorthand at only +.00396 bits/event, but its
+  matched direction is negative (-.184). Arbitrary codebook, compositional
+  notation, IForal, Latin-15c, Latin medical, and Latin scholastic controls
+  range from -.00002 to +.00002 bits/event or exact zero; every control has
+  zero `s` rate at physical line start under its observation-layer parser.
+  No control equals the Voynich held gain, so the frozen classification is
+  `S_LINE_ENTRY_VOYNICH_ENRICHED`. This makes the positive `s` line-entry
+  selector an unusual **Voynich formal compiler signature** in this calibrated
+  panel, not a generic consequence of the tested abbreviations/codebooks.
+  Control `s` is only an analogous parser surface class, not a harmonized
+  morpheme, so this cannot identify a shared linguistic function or assign
+  Voynich `s` a meaning, sound, language, plaintext, translation, or f84
+  result.
+
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
 the ZL editorial paragraph scaffold, and conditioning on collapsed page, exact
