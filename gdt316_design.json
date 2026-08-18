@@ -1,0 +1,55 @@
+{
+  "claim_ceiling": "Fresh-surface q post-DY tendency only; no morpheme POS meaning sound language plaintext or translation.",
+  "content_sha256": "be388a2c94699049d4e211bd6d30eaebabd301d48a0f1db2b1e439668eb7b303",
+  "decision": {
+    "alignment_p_le": 0.05,
+    "gain_positive": true,
+    "matched_delta_positive": true,
+    "positive_coefficients_min": 65,
+    "positive_powered_sections_min": 2
+  },
+  "f84": {
+    "authorized": false,
+    "joined": false,
+    "opened": false,
+    "parsed": false,
+    "retained": false,
+    "scored": false
+  },
+  "fold": "LEAVE_ONE_PHYSICAL_FOLIO_OUT",
+  "forbidden": [
+    "ALL_GDT303_NONE_Q_SURFACES",
+    "ALL_GDT306_SURFACES",
+    "same_group_renderer_as_predictor",
+    "host_glyphs",
+    "host_substrings"
+  ],
+  "implementation": {
+    "freeze_gdt316_fresh_q_post_dy.py": "272c68cc62de84527494a2b261a74f1a92fb73144862b3bcb7168a357e6a0c49"
+  },
+  "inputs": {
+    "GDT316_FRESH_Q_POST_DY_METHOD.md": "f24f23d3ca459e0fca56d43482cbce041d01b56c544a9cd20510b22c711dca06",
+    "gdt278_native_event_inventory.tsv": "598e9833f3f0f67f187b59153156a776a22f5fa722a6b6428a386c2bb5178b2a",
+    "gdt303_pair_deltas.tsv": "9b5ae35f46d80aed07a54c0329e8d8bd132ce92afc7ff8c792949c3f9cc1725a",
+    "gdt306_frozen_event_panel.tsv": "2c2c95272a0e89246a5e58df68779b643512b4a071d926ed29103bfc95f99de7"
+  },
+  "models": {
+    "CELL": [],
+    "CELL_PREV_DY": [
+      "prev_dy"
+    ]
+  },
+  "null": {
+    "scope": "FIXED_CROSSFIT_ALIGNMENT_DIAGNOSTIC",
+    "seed": 31620260818,
+    "strata": "CELL_X_REGISTER",
+    "worlds": 8192
+  },
+  "outputs": {
+    "gdt316_capacity.tsv": "8ee17526797f446a595ef3e6633fb34ebfdcc3f06a22ff65a320691af9e15229",
+    "gdt316_frozen_panel.tsv": "204e0f94e7e5b8d9186c24f8c0f4272063d1812590482706552edc7b9b2f20eb"
+  },
+  "ridge": 10.0,
+  "schema": "GDT316_FRESH_Q_POST_DY_DESIGN_V1",
+  "status": "FROZEN_BEFORE_FRESH_Q_SCORING"
+}
