@@ -3516,6 +3516,21 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   prefix, morpheme, POS, meaning, sound, language, plaintext, translation, or
   f84 result follows.
 
+- GDT320 similarly tests GDT318's weak positive `d` coefficients for both
+  physical line entry and preceding DY after excluding all 505 GDT318
+  surfaces. Seven fresh cells retain 46 events, 21 `d` choices, and 30 folios.
+  Both cell/register-matched deltas are positive (+.167 line entry; +.280
+  post-DY), and both training coefficients are positive in 30/30 folds, but
+  every frozen model loses held bits. The joint model loses .00300 bits/event
+  and -2.14 bits after the fixed selector charge; only H is positive among
+  B/H/S and max-three p=1. Therefore
+  `D_DUAL_ENTRY_FRESH_TRANSFER_WEAK_OR_FAILED`: do not add a reusable `d`
+  selector. Together GDT319/GDT320 show that the broad GDT318 multinomial fit
+  successfully consolidates the established `s`/`q` rules but its secondary
+  `t`/`d` coefficient directions do not transfer with useful held predictive
+  strength. No prefix, morpheme, POS, meaning, sound, language, plaintext,
+  translation, or f84 result follows.
+
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
 the ZL editorial paragraph scaffold, and conditioning on collapsed page, exact
