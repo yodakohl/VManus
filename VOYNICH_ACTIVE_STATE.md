@@ -54,6 +54,16 @@ Updated: 2026-08-18. This is the full claim registry. For routine work, read
   record-local entity-flow topology is not a calibrated semantic bridge. No
   GDT327 target row was opened, no tuple is licensed as an entity, and an
   independently normalized cross-record referent remains necessary.
+- GDT343 tests the missing nested control using globally stable anonymous
+  CoReMA concept identities. Persistent identity improves readable parallel-
+  recipe retrieval over opaque diplomatic words (570 versus 538 top-1; MRR
+  .876 versus .808), but adding fixed identity-specific path, flow-edge,
+  ordered-field, merge/split and closure features falls to 568 top-1 and MRR
+  .874 (`C-B=-.00197`; 4/6 positive folds; inclusive `p=.99487`). The calibrated
+  lesson is therefore narrow: stable cross-record identity is valuable, while
+  this ordered-flow representation adds nothing once identity is available.
+  The comparator gate failed, so no GDT327 target row was opened and no exact
+  Voynich tuple is licensed as an entity.
 - A frozen synthetic-instrument calibration now limits how opaque PAGE_HOST
   negatives may be interpreted. On one real medieval medical source, a true
   injective 2–3-character concept codebook lost every held

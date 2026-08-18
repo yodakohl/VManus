@@ -129,6 +129,15 @@ morpheme, plaintext symbol, or semantic role.
   entity-flow gate therefore fails: identity-free merge/split/reuse topology
   does not replace persistent lexical/entity identity, and no GDT327 target was
   opened.
+- GDT343 then supplied persistent, globally consistent anonymous CoReMA concept
+  identity and asked the narrower nested question. Identity alone improves over
+  diplomatic words (570 versus 538 top-1; MRR .876 versus .808), but adding the
+  frozen identity-specific path, edge, field-order, merge/split, and closure
+  representation falls to 568 top-1 and MRR .874. It is positive in 4/6 held
+  collections but loses in aggregate (`C-B=-.00197`, inclusive `p=.99487`).
+  Thus persistent normalized identity is a useful readable-recipe anchor, but
+  this flow representation adds no transferable information once identity is
+  known. The comparator gate failed and no GDT327 target row was opened.
 
 ## Calibration constraints
 
@@ -199,6 +208,8 @@ falsifier:
   comparator was inferior to unordered recurrence;
 - record-local anonymous entity-flow transfer after GDT342 remained far below
   diplomatic-word identity on readable cross-collection recipe parallels;
+- persistent-identity plus ordered-flow transfer after GDT343 failed to improve
+  on persistent identity alone in readable cross-collection recipe parallels;
 - f57/f77 quality, element, process, or lexical assignments.
 
 The complete route memory remains in
@@ -233,6 +244,13 @@ cross-record identity relation or referent, not merely anonymous recurrence,
 merge/split, order, or closure. Exact GDT327 tuple identity cannot be promoted
 to that relation without independent target evidence.
 
+GDT343 supplies that cross-record identity in the readable comparator and
+shows the next limitation: once persistent normalized identity is known, the
+tested ordered entity-flow augmentation is redundant or slightly harmful.
+Future grounding therefore needs an independently licensed target identity;
+adding this same flow graph cannot create one and must not be used to promote
+exact GDT327 tuples into entities.
+
 If no new external endpoint exists, improve instrumentation or acquire new
 evidence rather than mining another internal string feature.
 
@@ -253,6 +271,7 @@ evidence rather than mining another internal string feature.
 - `experiments/yolo/gdt340_recipe_pharma_section_semantic_schema/REPORT.md`
 - `experiments/yolo/gdt341_ordered_recipe_event_graph/COMPARATOR_REPORT.md`
 - `experiments/yolo/gdt342_anonymous_entity_flow_graph/COMPARATOR_REPORT.md`
+- `experiments/yolo/gdt343_persistent_identity_flow/COMPARATOR_REPORT.md`
 - `GDT330_F84R_METADATA_ACCESS_CORRECTION.md`
 
 Use `experiments/EXPERIMENT_INDEX.tsv` for exact paths, dependencies, runners,

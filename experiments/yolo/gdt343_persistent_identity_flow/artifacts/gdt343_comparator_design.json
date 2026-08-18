@@ -1,0 +1,19 @@
+{
+  "schema": "GDT343_COMPARATOR_DESIGN_V1",
+  "date": "2026-08-18",
+  "status": "FROZEN_BEFORE_COMPARATOR_SCORING_AND_VOYNICH_ACCESS",
+  "collections": ["b4", "b6", "br1", "bs1", "gr1", "w1"],
+  "parallel_truth": {"one_normalized_title": true, "different_collection": true, "minimum_shared_concept_ids": 2, "different_normalized_surface_hash": true},
+  "global_anonymization": {"method": "SHA256_DOMAIN_SALTED_20_HEX", "domain": "GDT343_GLOBAL_CONCEPT_V1", "stable_across_records_and_collections": true, "export_source_ids_or_names": false, "missing_concept": "UNIQUE_LOCAL_SINGLETON"},
+  "models": ["RAW_OPAQUE_WORD_IDENTITY", "GLOBAL_ANON_CONCEPT_IDENTITY", "GLOBAL_ANON_IDENTITY_PLUS_FLOW"],
+  "identity_weights": {"concept_multiset": 0.75, "concept_set": 0.15, "record_size": 0.10},
+  "flow_augment_weights": {"same_identity_paths": 0.40, "identity_flow_edges": 0.30, "ordered_field_identities": 0.20, "anonymous_field_motifs": 0.10},
+  "flow_augment_coefficient": 0.10,
+  "count_clip": 4,
+  "retrieval": {"mrr_cutoff": 100, "top_k": [1, 5], "tie_break": "candidate_record_id_lexical"},
+  "null": {"worlds": 4096, "seed": 343176, "strata": ["held_collection", "unit_count_bucket", "field_count_bucket"], "tested_augments": 1},
+  "gates": {"baseline": "GLOBAL_ANON_CONCEPT_IDENTITY", "candidate": "GLOBAL_ANON_IDENTITY_PLUS_FLOW", "positive_folds_min": 4, "inclusive_p_max": 0.05, "require_aggregate_mrr_gain": true, "require_aggregate_top1_gain": true},
+  "prospective_target": {"panels": {"RECIPE_STARS_S": {"section": "S", "register": "STARS_RECIPE_B"}, "PHARMA_P": {"section": "P", "register": "OTHER_A"}}, "endpoint": "NEXT_FIELD_EXACT_TUPLE_PERSISTENCE", "held_unit": "PHYSICAL_FOLIO", "null_worlds": 4096, "seed": 343327, "positive_folio_fraction_min": 0.60, "panels_never_pooled": true},
+  "voynich_target_values_inspected_before_freeze": false,
+  "sealed": {"f84": "FORBIDDEN"}
+}
