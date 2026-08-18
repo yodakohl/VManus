@@ -1,0 +1,95 @@
+{
+  "claim_ceiling": "Register-conditioned external placement of opaque tuples only; no semantics meaning plaintext or translation.",
+  "content_sha256": "1511e06635bb1b0eb3e625a2e26cbd3cf203a19bd2e5e005ed197abd4bb8bdd2",
+  "documents": {
+    "GDT334_REGISTER_CONDITIONED_TUPLE_PLACEMENT_METHOD.md": "cea3cf231b92e9a23c71434792953902e3ac503a3852682e80983c81ffb01674",
+    "GDT334_REGISTER_CONDITIONED_TUPLE_PLACEMENT_REPORT.md": "6d3b0b993008ef8d02a37d0d1a18eadeb23b4e1b24d142f9b0043dafcdb5e662"
+  },
+  "f84": {
+    "input_rows": 0,
+    "joined": false,
+    "opened": false,
+    "retained": false,
+    "scored": false
+  },
+  "implementation": {
+    "run_gdt334_register_conditioned_tuple_placement.py": "7bac31c6d79e74edccd2f2ee8ffe029c0eabf3773b2adb3e976b293969eb4ddb"
+  },
+  "inputs": {
+    "gdt327_joint_tuple_interlinear.tsv": "7eba46774be44992064cc114f67329723ac7bf589321b0d763fb7f7f748cc1e9",
+    "gdt333_result.json": "38b4f90623e9f3e5b73d7c814f8a90828da28e28222d8ca14b75db903f02e2bd"
+  },
+  "outputs": {
+    "gdt334_folds.tsv": "54176339ac65f3caff6b9d833aa0c8603714cbd7a66ad28d1ba04ccb4c0cee3b",
+    "gdt334_register_scores.tsv": "3eef1ada796ba92d25809853fed5e8d8f0aeefe0fc526ebcc6dca43bfd1aadb3"
+  },
+  "registers": [
+    {
+      "alpha_choices": "2:0|4:0|8:0|16:46|32:0|64:0",
+      "component_predictions": 8000,
+      "coordinate_bits": "8539.507430806188",
+      "folds": 46,
+      "positive_folds": 38,
+      "register": "HERBAL_A",
+      "scored_events": 2000,
+      "tuple_gain": "291.578181278999",
+      "tuple_shrunk_bits": "8247.929249527187"
+    },
+    {
+      "alpha_choices": "2:0|4:0|8:0|16:0|32:7|64:8",
+      "component_predictions": 2052,
+      "coordinate_bits": "2898.391622018039",
+      "folds": 15,
+      "positive_folds": 9,
+      "register": "HERBAL_B",
+      "scored_events": 513,
+      "tuple_gain": "3.939775323079",
+      "tuple_shrunk_bits": "2894.451846694961"
+    },
+    {
+      "alpha_choices": "2:0|4:0|8:0|16:0|32:0|64:7",
+      "component_predictions": 980,
+      "coordinate_bits": "1188.531771522946",
+      "folds": 7,
+      "positive_folds": 4,
+      "register": "OTHER_A",
+      "scored_events": 245,
+      "tuple_gain": "-0.719935682574",
+      "tuple_shrunk_bits": "1189.251707205520"
+    },
+    {
+      "alpha_choices": "2:0|4:0|8:0|16:12|32:0|64:0",
+      "component_predictions": 7900,
+      "coordinate_bits": "11121.530841809026",
+      "folds": 12,
+      "positive_folds": 11,
+      "register": "OTHER_B",
+      "scored_events": 1975,
+      "tuple_gain": "196.060456642292",
+      "tuple_shrunk_bits": "10925.470385166735"
+    },
+    {
+      "alpha_choices": "2:0|4:0|8:5|16:7|32:0|64:0",
+      "component_predictions": 7572,
+      "coordinate_bits": "10023.616708311602",
+      "folds": 12,
+      "positive_folds": 10,
+      "register": "STARS_RECIPE_B",
+      "scored_events": 1893,
+      "tuple_gain": "205.666259857611",
+      "tuple_shrunk_bits": "9817.950448453990"
+    }
+  ],
+  "schema": "GDT334_REGISTER_CONDITIONED_TUPLE_PLACEMENT_RESULT_V1",
+  "status": "REGISTER_CONDITIONED_TUPLE_PLACEMENT_SUPPORTED_WITH_ONE_WEAK_STRATUM",
+  "summary": {
+    "component_predictions": 26504,
+    "coordinate_bits": 33771.578374467805,
+    "folds": 92,
+    "positive_folds": 72,
+    "positive_registers": 4,
+    "scored_events": 6626,
+    "tuple_gain": 696.524737419407,
+    "tuple_shrunk_bits": 33075.0536370484
+  }
+}

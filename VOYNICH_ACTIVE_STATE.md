@@ -3707,6 +3707,20 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   rebinding remains necessary; no semantic role, meaning, language, plaintext,
   translation, or f84 result follows.
 
+- GDT334 directly tests register-conditioned usage with nested whole-folio
+  folds. It scores 6,626 recurrent-tuple events/26,504 external placement
+  components; each rare tuple distribution is shrunk toward its coordinate
+  baseline, with concentration chosen only by inner training-folio folds.
+  Exact tuple identity saves +696.52 held bits beyond coordinate, improving
+  72/92 folio folds and 4/5 registers: Herbal A +291.58, Herbal B +3.94,
+  Other A -0.72, Other B +196.06, Stars/Recipe B +205.67. Therefore
+  `REGISTER_CONDITIONED_TUPLE_PLACEMENT_SUPPORTED_WITH_ONE_WEAK_STRATUM`:
+  the best current code architecture is a shared tuple inventory with
+  register-conditioned placement usage. An unshrunk rare-tuple lookup remains
+  invalid, Other A is a counterexample, and Herbal B is nearly neutral. This
+  identifies transferable formal usage, not a semantic role, meaning,
+  language, plaintext, translation, or f84 result.
+
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
 the ZL editorial paragraph scaffold, and conditioning on collapsed page, exact
