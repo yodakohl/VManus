@@ -3351,6 +3351,22 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   for the 7/8 positive s classes; it assigns no lexical class,
   grammar meaning, sound, language, plaintext, translation, or f84 result.
 
+- GDT310 performs that source-wrapper-only causal repair. Predictors are built
+  solely from `NONE`, `ch`, or `d` occurrences; target `q`/`s` events supply
+  only the held binary license label. None of the three operations passes the
+  frozen target-blind rule. Neutral→`q` falls to a +.00093 Brier gain, AUC
+  .599, AP .727, and max-12 p=.587. `ch→s` and `d→s` have negative FULL
+  gains (-.03866 and -.03620; corrected p=.970 and .858), despite the latter's
+  descriptive AUC .867 in only 16 hosts. Therefore GDT309's q lead was an
+  after-license ecology imprint, not an unseen-alternant prediction. The
+  formal generator retains sparse compatibility-licensed operations because
+  GDT303/GDT305/GDT307 established positional transfer on licensed pairs, but
+  the compatible-host lists are presently opaque and must not be generated
+  from source-side ecology. A useful successor must model or measure the
+  operation opportunity itself rather than add another host-level license
+  classifier. No lexical class, morpheme, grammar meaning, sound, language,
+  plaintext, translation, or f84 result follows.
+
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
 the ZL editorial paragraph scaffold, and conditioning on collapsed page, exact
