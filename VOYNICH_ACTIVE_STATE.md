@@ -3648,6 +3648,16 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   semantic role, object, meaning, language, plaintext, translation, or f84
   result follows.
 
+- GDT329 corrects the post-hoc field-position interpretation with an exact
+  search-aware audit. It permutes field ordinals within register×field-length
+  strata while retaining all 44 recurrent formulas and maximizes the
+  pair-agreement statistic in every one of 8,192 worlds. The three-host lead
+  remains rank 1 (z=2.751), but its local p=.088734 and max-44 p=.377884.
+  Therefore `FORMULA_POSITION_SPECIFICITY_NOT_ABOVE_SEARCH_NULL`: preserve the
+  formula as a cross-register retrieval key and exact/renderer-variant reuse
+  example, but do not claim that field 3 is an identified special or semantic
+  slot. No meaning, language, plaintext, translation, or f84 result follows.
+
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
 the ZL editorial paragraph scaffold, and conditioning on collapsed page, exact
