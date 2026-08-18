@@ -3616,6 +3616,20 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   formally memorized, not a linguistic word. No semantic category, meaning,
   language, plaintext, translation, or f84 result follows.
 
+- GDT327 publishes the resulting executable intermediate representation over
+  all 8,448 f84-free reference groups on 91 folios. It assigns 1,676 stable
+  opaque joint-tuple IDs to `(PAGE_HOST, frame, inner-D, right-family, DY,
+  B3)`, preserves page/record/line/field coordinates, and applies the GDT322
+  probability formula only to the calibrated 126 cells covering 5,607 events
+  (66.4%). The remaining 2,841 events are explicitly
+  `UNLICENSED_OR_UNKNOWN`; GDT325's failed coordinate fallback and GDT326's
+  failed independent-host factorization are not smuggled into the parser.
+  Every semantic and translation state remains `UNASSIGNED`. This is the
+  current translation-ready formal interlinear: future grounding must align
+  whole fields/records to external evidence before attaching hypotheses to
+  joint-tuple sequences. No meaning, language, plaintext, translation, or f84
+  result is asserted.
+
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
 the ZL editorial paragraph scaffold, and conditioning on collapsed page, exact
