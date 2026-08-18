@@ -1,6 +1,6 @@
 # GDT339 — comparator-first semantic incidence invariants
 
-Status: `NO_TRANSFERABLE_COMPARATOR_INVARIANT_FROZEN_BEFORE_VOYNICH`
+Status: `NO_TRANSFERABLE_COMPARATOR_INVARIANT`
 
 GDT339 first learns whether semantics survives opaque-ID record incidence in
 readable CoReMA and Nuremberg collections. Only a publicly frozen invariant is
@@ -14,3 +14,8 @@ collections/books and was worse than the frequency-degree model on Nuremberg.
 That negative freeze is published before the unchanged Voynich structural
 diagnostic is run; the latter cannot acquire semantic force from this failed
 instrument.
+
+The unchanged held-folio Voynich diagnostic is positive as anonymous
+structure (+259.899 bits over register×frequency; 61/82 positive folios), but
+exact tuple identity is stronger (+507.326 bits). Because the semantic
+comparator gate failed first, this licenses no semantic class or tuple merge.

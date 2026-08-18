@@ -7,7 +7,7 @@ The authoritative scientific status remains
 ## Inventory
 
 - Experiments indexed: **338**
-- Experiment-associated tracked files: **4,358** (549.7 MiB)
+- Experiment-associated tracked files: **4,367** (551.4 MiB)
 - Structured GDT337+ experiments: **3**
 - IDs without a ledger entry: **166**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
@@ -20,7 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT339 | GDT339_comparator_first_semantic_incidence | `NO_TRANSFERABLE_COMPARATOR_INVARIANT_FROZEN_BEFORE_VOYNICH` | [report](../experiments/yolo/gdt339_comparator_first_semantic_incidence/COMPARATOR_REPORT.md) | 18 | 267.7 KiB | 3 | STRUCTURED_YOLO |
+| GDT339 | GDT339_comparator_first_semantic_incidence | `NO_TRANSFERABLE_COMPARATOR_INVARIANT` | [report](../experiments/yolo/gdt339_comparator_first_semantic_incidence/REPORT.md) | 27 | 1.9 MiB | 3 | STRUCTURED_YOLO |
 | GDT338 | GDT338_renderer_invariant_equivalence | `NO_STABLE_RENDERER_INVARIANT_EQUIVALENCE` | [report](../experiments/yolo/gdt338_renderer_invariant_equivalence/REPORT.md) | 21 | 645.3 KiB | 7 | STRUCTURED_YOLO |
 | GDT337 | GDT337_blind_external_homologue_census | `NO_VIABLE_FROZEN_ENDPOINT` | [report](../experiments/yolo/gdt337_external_homologue_census/REPORT.md) | 14 | 97.6 KiB | 0 | STRUCTURED_YOLO |
 | GDT336 | GDT336_placement_conditioned_tuple_retrieval | `LINE_PLACEMENT_WEAKLY_IMPROVES_EXACT_TUPLE_RETRIEVAL` | [report](../GDT336_PLACEMENT_CONDITIONED_TUPLE_RETRIEVAL_REPORT.md) | 8 | 22.6 KiB | 2 | LEGACY_ROOT |

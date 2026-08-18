@@ -93,6 +93,14 @@ morpheme, plaintext symbol, or semantic role.
   bits and improves exact-field top-1 9→15, but its low-mobility matched
   diagnostic is nonconfirming (`p=.3265`). Do not merge surfaces or exact joint
   tuples into a new latent object on this evidence.
+- GDT339 first tested opaque record-incidence features on readable CoReMA and
+  Nuremberg semantics. Its selected topology instrument transferred in only
+  3/10 held collections/books and was worse than frequency on Nuremberg, so it
+  is not a corpus-general semantic invariant. Applied unchanged afterward,
+  its anonymous classes do predict held-folio Voynich partner recurrence
+  (+259.90 bits, 61/82 positive folios), but exact tuple identity is stronger
+  (+507.33 bits). Treat this as tuple-specific structural incidence only; do
+  not merge tuples or import comparator role names.
 
 ## Calibration constraints
 
@@ -155,6 +163,8 @@ falsifier:
 - recurrent-formula field-position or fixed external-template claims;
 - universal register-independent tuple roles;
 - renderer-invariant field equivalence beyond exact opaque joint-tuple identity;
+- semantic-class induction from opaque record incidence after GDT339's readable
+  comparator failed cross-corpus transfer;
 - f57/f77 quality, element, process, or lexical assignments.
 
 The complete route memory remains in
@@ -194,6 +204,7 @@ evidence rather than mining another internal string feature.
 - `GDT335_TUPLE_PLACEMENT_COMPONENT_DECOMPOSITION_REPORT.md`
 - `GDT336_PLACEMENT_CONDITIONED_TUPLE_RETRIEVAL_REPORT.md`
 - `experiments/yolo/gdt338_renderer_invariant_equivalence/REPORT.md`
+- `experiments/yolo/gdt339_comparator_first_semantic_incidence/REPORT.md`
 - `GDT330_F84R_METADATA_ACCESS_CORRECTION.md`
 
 Use `experiments/EXPERIMENT_INDEX.tsv` for exact paths, dependencies, runners,
