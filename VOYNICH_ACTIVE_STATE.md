@@ -3419,6 +3419,22 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   universal affix. No morpheme, category, meaning, sound, language, plaintext,
   translation, or f84 result follows.
 
+- GDT314 prospectively extends the `s` selector beyond every exact surface
+  used by GDT303 `ch→s`/`d→s`. Fifteen disjoint opaque cells contain 344
+  events and 35 `s` choices on 78 folios. In leave-one-folio-out scoring, an
+  exact-cell plus physical-line-start model saves .04150 bits/event over the
+  exact-cell prior. The cell/register-matched line-start delta is +.287;
+  raw `s` rates are 31.4% at line start and 4.7% elsewhere. All 78 training-
+  fold coefficients are positive, 61/78 held folios improve, and the powered
+  B/H/S sections all contribute positively (+.0694/+.0498/+.0238
+  bits/event). The fixed-crossfit alignment diagnostic is 1/8193, while its
+  shared-training dependence is explicitly not called an exact retrained
+  null. This promotes **`s` as a reusable stochastic physical-line-entry
+  renderer** rather than a rule confined to seven selected triads. The cell
+  must still be known to license `s`; GDT310's failure means a new license
+  cannot be predicted. This is not a morpheme, POS, semantic role, meaning,
+  sound, language, plaintext, translation, or f84 result.
+
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
 the ZL editorial paragraph scaffold, and conditioning on collapsed page, exact
