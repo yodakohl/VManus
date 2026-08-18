@@ -3298,6 +3298,23 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   HPR2-representation-dependent and supplies no morpheme,
   grammatical meaning, sound, language, plaintext, translation, or f84 claim.
 
+- GDT307 separates two kinds of wrapper behavior in a frozen post-selection
+  domain-stability analysis.  Exact `ch→s` positional deltas learned outside
+  a held domain agree inside it for 11/13 section cells and 13/15 hand cells
+  (direction accuracies .846/.867; max-12 p=.00793/.00269), with positive
+  register and Currier views.  `d→s` also meets the frozen stability rule
+  (section .789, hand .947; hand max-12 p=.00305), although its section
+  correction is weaker (.1288).  Neutral→`q` has small positive mean dots but
+  fails section/hand direction accuracy (.421/.375) and is domain-mixed.
+  Because all three operations were selected on the complete GDT303 corpus,
+  these are post-selection stability results, not independent discoveries.
+  The updated formal picture is sparse: compatible `s` substitutions carry a
+  broadly domain-stable physical-position delta, while `q` is better described
+  by its post-DY host/register ecology than by one domain-invariant position
+  vector.  This does not rescue GDT289's failed global wrapper rule or identify
+  a morpheme, grammar category, meaning, sound, language, plaintext,
+  translation, or f84 result.
+
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
 the ZL editorial paragraph scaffold, and conditioning on collapsed page, exact
