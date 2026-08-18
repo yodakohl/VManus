@@ -53,7 +53,7 @@
     {
       "path": "experiments/yolo/gdt338_renderer_invariant_equivalence/src/validate.py",
       "role": "nonimporting reconstruction validator",
-      "sha256": "cb787c71d219bb4490d74df21562567830d4b2574938c6333c3c732296bff482"
+      "sha256": "73f4256e408e61c1e8f782b61f76b6c2cdcee27847717bc7292123f2994d08d9"
     },
     {
       "path": "gdt327_joint_tuple_interlinear.tsv",
@@ -90,12 +90,67 @@
     {
       "path": "experiments/yolo/gdt338_renderer_invariant_equivalence/README.md",
       "role": "experiment entry point",
-      "sha256": "1aacae4808ded75809c5a4c0711754c3e04ce85054562b19c97216a3b5ed30c3"
+      "sha256": "ea4c5e82290bdb67c02991e0a62dade3d661d4d2296600bb724ec4a3d3a8cddd"
+    },
+    {
+      "path": "experiments/yolo/gdt338_renderer_invariant_equivalence/REPORT.md",
+      "role": "scientific report",
+      "sha256": "5af9e7ccf052724bdc5913a4b36a4e9aeb5c07a84f37e9eb3b92f6f8d1422cdd"
     },
     {
       "path": "experiments/yolo/gdt338_renderer_invariant_equivalence/artifacts/README.md",
       "role": "artifact scope note",
-      "sha256": "ebbe1f973afd34380dd029d7e233c7f60686bd6081fb76013919293addde6d2d"
+      "sha256": "71d09b2d65c74ca74fdfdb872f1e227fb1a060c6740a2308a1ee047f5c1f11b7"
+    },
+    {
+      "path": "experiments/yolo/gdt338_renderer_invariant_equivalence/artifacts/gdt338_equivalence_classes.tsv",
+      "role": "normalized-object atlas",
+      "sha256": "b7df94d6dc472eecfa630f57ca265da5525601f2e9d615de677b9863794cfee8"
+    },
+    {
+      "path": "experiments/yolo/gdt338_renderer_invariant_equivalence/artifacts/gdt338_holdout_predictions.tsv",
+      "role": "held-folio group predictions",
+      "sha256": "7bf73a0e4d4d181aa153552e9f57162a757d988dddbb0d266540dea39555e15e"
+    },
+    {
+      "path": "experiments/yolo/gdt338_renderer_invariant_equivalence/artifacts/gdt338_model_scores.tsv",
+      "role": "model comparison",
+      "sha256": "c60e0a5f91ab46358db452cb77ae2d27401e1fb4c446357562fa2bb134fb50d3"
+    },
+    {
+      "path": "experiments/yolo/gdt338_renderer_invariant_equivalence/artifacts/gdt338_folio_scores.tsv",
+      "role": "held-folio transfer diagnostics",
+      "sha256": "56a7290b1c599b7148133cf3147ab23914ae96ed34d531bcc62a32e3e102c3df"
+    },
+    {
+      "path": "experiments/yolo/gdt338_renderer_invariant_equivalence/artifacts/gdt338_register_scores.tsv",
+      "role": "register sensitivity",
+      "sha256": "3d2d53c6a97581f304a70b6843942cbb978c76728e32345696f3ecc270ec4dd7"
+    },
+    {
+      "path": "experiments/yolo/gdt338_renderer_invariant_equivalence/artifacts/gdt338_length_scores.tsv",
+      "role": "field-length sensitivity",
+      "sha256": "b048f549254f50187f207ac9b6211d0dab1a8f8fe52d80c6b08dd84a0d5f098f"
+    },
+    {
+      "path": "experiments/yolo/gdt338_renderer_invariant_equivalence/artifacts/gdt338_null.tsv",
+      "role": "fixed-prediction matched diagnostic worlds",
+      "sha256": "b5656f54d069bf27e29720057ba1b91b41e87c6ea4f9dfcf3a79d38e33087120"
+    },
+    {
+      "path": "experiments/yolo/gdt338_renderer_invariant_equivalence/artifacts/gdt338_counterexamples.tsv",
+      "role": "limitations and falsifiers",
+      "sha256": "e1f44c6f8e13b4830c3e3866da325fd8fb48eb61734a502fa4b06609cec8ce18"
+    },
+    {
+      "path": "experiments/yolo/gdt338_renderer_invariant_equivalence/artifacts/gdt338_result.json",
+      "role": "compact canonical result",
+      "sha256": "38deb58f0682725285947a3da99755f46ead978ac5d470fe2d4c62b1196c2ecc"
+    },
+    {
+      "path": "experiments/yolo/gdt338_renderer_invariant_equivalence/artifacts/gdt338_validation.json",
+      "role": "independent reconstruction validation",
+      "sha256": "46e5f6c7641db80fb43bab155d8be4dc22b405e8912a5d5b220b460c27bb907d"
     }
   ],
   "question": "Do distinct rendered field surfaces on held folios become predictively exchangeable after only the supported two-rule renderer and three placement effects are marginalized while exact opaque joint tuples remain intact?",
@@ -104,11 +159,11 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "renderer_invariant_equivalence",
-  "status": "REGISTERED_UNSCORED",
+  "status": "NO_STABLE_RENDERER_INVARIANT_EQUIVALENCE",
   "title": "Renderer-invariant exact-joint equivalence",
   "updated": "2026-08-18",
   "validation": {
-    "artifact": null,
-    "status": "NOT_RUN"
+    "artifact": "experiments/yolo/gdt338_renderer_invariant_equivalence/artifacts/gdt338_validation.json",
+    "status": "PASS"
   }
 }

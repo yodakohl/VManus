@@ -86,6 +86,13 @@ morpheme, plaintext symbol, or semantic role.
 - GDT336 converts the supported placement signal into a weak exact-tuple prior:
   +446.40 held bits and 1,932→1,971 top-1 hits on 6,626 recurrent events. It is
   not a standalone decoder.
+- GDT338 prospectively tests the strongest renderer-invariant equivalence still
+  licensed by that grammar. On 25 unseen-surface fields/17 held folios, the
+  exact-joint wrapper model gains only +2.38 raw bits and loses 0.20 bits after
+  its fixed selector, with only 4/17 positive folds. Placement gains +7.98 raw
+  bits and improves exact-field top-1 9→15, but its low-mobility matched
+  diagnostic is nonconfirming (`p=.3265`). Do not merge surfaces or exact joint
+  tuples into a new latent object on this evidence.
 
 ## Calibration constraints
 
@@ -147,6 +154,7 @@ falsifier:
 - unknown-cell licensing from coordinate or sibling-host backoff;
 - recurrent-formula field-position or fixed external-template claims;
 - universal register-independent tuple roles;
+- renderer-invariant field equivalence beyond exact opaque joint-tuple identity;
 - f57/f77 quality, element, process, or lexical assignments.
 
 The complete route memory remains in
@@ -185,6 +193,7 @@ evidence rather than mining another internal string feature.
 - `GDT334_REGISTER_CONDITIONED_TUPLE_PLACEMENT_REPORT.md`
 - `GDT335_TUPLE_PLACEMENT_COMPONENT_DECOMPOSITION_REPORT.md`
 - `GDT336_PLACEMENT_CONDITIONED_TUPLE_RETRIEVAL_REPORT.md`
+- `experiments/yolo/gdt338_renderer_invariant_equivalence/REPORT.md`
 - `GDT330_F84R_METADATA_ACCESS_CORRECTION.md`
 
 Use `experiments/EXPERIMENT_INDEX.tsv` for exact paths, dependencies, runners,

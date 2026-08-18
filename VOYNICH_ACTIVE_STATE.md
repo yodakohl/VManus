@@ -3762,6 +3762,21 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   score, diagram identity, slot value, word, language, plaintext, translation,
   or f84 access follows.
 
+- GDT338 prospectively tests the narrowest renderer-invariant formal
+  equivalence licensed by GDT321--336. A score-blind panel contains 25 fields,
+  32 groups, 17 held folios, nine exact normalized objects and ten
+  register-conditioned object cells. Every held wrapper-rendered surface is
+  absent from training, while its exact ordered joint-tuple object has at least
+  two training surfaces on two training folios. `JOINT_TWO_RULE` gains +2.384
+  raw bits over `JOINT_NO_RULE` but loses 0.201 bits after the fixed six-model
+  selector, is positive in only 4/17 folio folds, and has max-two diagnostic
+  p=1. Placement gains +7.977 raw/+6.977 paid bits and improves exact-field
+  top-1 9/25 to 15/25, but its matched diagnostic is p=.3265 with only nine
+  mobile events. Therefore `NO_STABLE_RENDERER_INVARIANT_EQUIVALENCE`: retain
+  exact opaque joint-tuple identity and stop this normalization route. No
+  PAGE_HOST function, semantic role, meaning, language, plaintext,
+  translation, or f84 result follows.
+
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
 the ZL editorial paragraph scaffold, and conditioning on collapsed page, exact

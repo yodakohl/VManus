@@ -7,6 +7,7 @@ import csv
 import hashlib
 import json
 import math
+import random
 import sys
 from collections import Counter, defaultdict
 from pathlib import Path
@@ -89,6 +90,28 @@ def choose_tuple(prob: dict[str, float]) -> str:
 
 def near(a: float, b: float, tolerance: float = 5e-9) -> bool:
     return abs(a - b) <= tolerance
+
+
+def permutation_groups(predictions: list[dict[str, object]], fields: tuple[str, ...]) -> list[list[int]]:
+    grouped: dict[tuple[str, ...], list[int]] = defaultdict(list)
+    for index, prediction in enumerate(predictions):
+        grouped[tuple(str(prediction[field]) for field in fields)].append(index)
+    return [indices for _, indices in sorted(grouped.items())]
+
+
+def stratum_gain(
+    predictions: list[dict[str, object]], key: str, value: str, wrapper_baseline: str
+) -> tuple[float, float]:
+    members = [prediction for prediction in predictions if str(prediction[key]) == value]
+    wrapper_base = wrapper_candidate = coordinate = placement = 0.0
+    for prediction in members:
+        wrapper_truth = prediction["wrapper"]
+        wrapper_base -= math.log2(prediction["wp"][wrapper_baseline][wrapper_truth])
+        wrapper_candidate -= math.log2(prediction["wp"]["JOINT_TWO_RULE"][wrapper_truth])
+        tuple_truth = prediction["tuple"]
+        coordinate -= math.log2(prediction["tp"]["COORDINATE"][tuple_truth])
+        placement -= math.log2(prediction["tp"]["PLACEMENT"][tuple_truth])
+    return wrapper_base - wrapper_candidate, coordinate - placement
 
 
 def main() -> int:
@@ -229,6 +252,11 @@ def main() -> int:
                 {
                     "field_id": field["field_id"],
                     "event_id": member["event_id_sha256"],
+                    "held_folio": folio,
+                    "register": register,
+                    "coordinate_id": member["coordinate_id"],
+                    "line_first": member["line_first"],
+                    "prev_dy": member["prev_dy"],
                     "wrapper": member["observed_wrapper"],
                     "tuple": member["joint_tuple_id"],
                     "wp": wp,
@@ -283,6 +311,49 @@ def main() -> int:
     check("selector_charge_placement", near(result["placement"]["selector_paid_gain_bits"], placement_gain - 1.0))
 
     check("null_worlds", len(null_rows) == int(design["null"]["worlds"]), len(null_rows))
+    wrapper_groups = permutation_groups(
+        reconstructed, ("held_folio", "register", "coordinate_id", "line_first", "prev_dy")
+    )
+    tuple_groups = permutation_groups(reconstructed, ("held_folio", "register", "coordinate_id"))
+    wrapper_truth = [prediction["wrapper"] for prediction in reconstructed]
+    tuple_truth = [prediction["tuple"] for prediction in reconstructed]
+    null_mismatches: list[str] = []
+    for world, published_null in enumerate(null_rows):
+        rng = random.Random(int(design["null"]["seed"]) * 1_000_003 + world)
+        shuffled_wrappers = wrapper_truth.copy()
+        shuffled_tuples = tuple_truth.copy()
+        for group in wrapper_groups:
+            values = [wrapper_truth[index] for index in group]
+            rng.shuffle(values)
+            for index, value in zip(group, values):
+                shuffled_wrappers[index] = value
+        for group in tuple_groups:
+            values = [tuple_truth[index] for index in group]
+            rng.shuffle(values)
+            for index, value in zip(group, values):
+                shuffled_tuples[index] = value
+        null_wrapper_bits = {model: 0.0 for model in WRAPPER_MODELS}
+        null_coordinate = null_placement = 0.0
+        for index, prediction in enumerate(reconstructed):
+            for model in WRAPPER_MODELS:
+                null_wrapper_bits[model] -= math.log2(prediction["wp"][model][shuffled_wrappers[index]])
+            null_coordinate -= math.log2(prediction["tp"]["COORDINATE"][shuffled_tuples[index]])
+            null_placement -= math.log2(prediction["tp"]["PLACEMENT"][shuffled_tuples[index]])
+        null_baseline = min(
+            (model for model in WRAPPER_MODELS if model != "JOINT_TWO_RULE"),
+            key=lambda model: (null_wrapper_bits[model], model),
+        )
+        null_wrapper_gain = null_wrapper_bits[null_baseline] - null_wrapper_bits["JOINT_TWO_RULE"]
+        null_placement_gain = null_coordinate - null_placement
+        if published_null["wrapper_best_baseline"] != null_baseline:
+            null_mismatches.append(f"{world}:baseline")
+        if not near(float(published_null["wrapper_gain_bits"]), null_wrapper_gain):
+            null_mismatches.append(f"{world}:wrapper")
+        if not near(float(published_null["placement_gain_bits"]), null_placement_gain):
+            null_mismatches.append(f"{world}:placement")
+        if not near(float(published_null["max_two_gain_bits"]), max(null_wrapper_gain, null_placement_gain)):
+            null_mismatches.append(f"{world}:max_two")
+    check("null_replay_exact", not null_mismatches, null_mismatches[:10])
     wrapper_p = (1 + sum(float(row["max_two_gain_bits"]) >= wrapper_gain - 1e-12 for row in null_rows)) / (len(null_rows) + 1)
     placement_p = (1 + sum(float(row["max_two_gain_bits"]) >= placement_gain - 1e-12 for row in null_rows)) / (len(null_rows) + 1)
     check("wrapper_p", near(wrapper_p, result["wrapper"]["max_two_diagnostic_p"]), wrapper_p)
@@ -295,6 +366,56 @@ def main() -> int:
     check("length_strata", {row["stratum"] for row in read_tsv(LENGTH)} == {"1", "2"})
     check("class_count", len(read_tsv(CLASSES)) == 9)
     check("counterexamples", len(read_tsv(COUNTER)) == 6)
+    for key, published_rows in (("register", register_rows), ("held_folio", folio_rows)):
+        for row in published_rows:
+            wrapper_stratum_gain, placement_stratum_gain = stratum_gain(
+                reconstructed, key, row["stratum"], best_baseline
+            )
+            check(f"stratum_wrapper:{key}:{row['stratum']}", near(wrapper_stratum_gain, float(row["wrapper_gain_bits"])))
+            check(f"stratum_placement:{key}:{row['stratum']}", near(placement_stratum_gain, float(row["placement_gain_bits"])))
+    wrapper_positive_registers = sum(
+        stratum_gain(reconstructed, "register", row["stratum"], best_baseline)[0] > 0 for row in register_rows
+    )
+    placement_positive_registers = sum(
+        stratum_gain(reconstructed, "register", row["stratum"], best_baseline)[1] > 0 for row in register_rows
+    )
+    wrapper_positive_folios = sum(
+        stratum_gain(reconstructed, "held_folio", row["stratum"], best_baseline)[0] > 0 for row in folio_rows
+    )
+    placement_positive_folios = sum(
+        stratum_gain(reconstructed, "held_folio", row["stratum"], best_baseline)[1] > 0 for row in folio_rows
+    )
+    capacity_pass = (
+        counts["fields"] >= design["capacity_gates"]["fields_min"]
+        and counts["physical_folios"] >= design["capacity_gates"]["folios_min"]
+        and counts["normalized_classes"] >= design["capacity_gates"]["normalized_objects_min"]
+        and counts["register_class_cells"] >= design["capacity_gates"]["register_object_cells_min"]
+        and counts["registers"] >= design["capacity_gates"]["registers_min"]
+    )
+    wrapper_pass = (
+        wrapper_gain - math.log2(6) > 0
+        and wrapper_positive_registers >= 2
+        and wrapper_positive_folios >= 10
+        and wrapper_p <= 0.05
+    )
+    placement_pass = (
+        placement_gain - 1 > 0
+        and placement_positive_registers >= 2
+        and placement_positive_folios >= 10
+        and exact[("PLACEMENT", "PLACEMENT")] >= exact[("PLACEMENT", "COORDINATE")]
+        and placement_p <= 0.05
+    )
+    expected_status = (
+        "RENDERER_INVARIANT_FORMAL_EQUIVALENCE_SUPPORTED"
+        if capacity_pass and wrapper_pass and placement_pass
+        else "EXACT_JOINT_RENDERER_NORMALIZATION_ONLY"
+        if capacity_pass and wrapper_pass
+        else "NO_STABLE_RENDERER_INVARIANT_EQUIVALENCE"
+    )
+    check("result_gates", result["gates"] == {"capacity": capacity_pass, "wrapper_transfer": wrapper_pass, "placement_recovery": placement_pass})
+    check("result_decision", result["status"] == expected_status, expected_status)
+    check("result_wrapper_positive_counts", result["wrapper"]["positive_registers"] == wrapper_positive_registers and result["wrapper"]["positive_folios"] == wrapper_positive_folios)
+    check("result_placement_positive_counts", result["placement"]["positive_registers"] == placement_positive_registers and result["placement"]["positive_folios"] == placement_positive_folios)
     check("semantic_unassigned", all(row["semantic_state"] == "UNASSIGNED" for row in capacity + published_predictions))
     check("f84_flag", result["source_access"]["f84_opened_parsed_retained_joined_or_scored"] is False)
     check("no_semantics", result["semantic_assignments"] == 0 and result["translation_assignments"] == 0)

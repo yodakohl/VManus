@@ -7,7 +7,7 @@ The authoritative scientific status remains
 ## Inventory
 
 - Experiments indexed: **337**
-- Experiment-associated tracked files: **4,329** (548.9 MiB)
+- Experiment-associated tracked files: **4,340** (549.5 MiB)
 - Structured GDT337+ experiments: **2**
 - IDs without a ledger entry: **166**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
@@ -20,7 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT338 | GDT338_renderer_invariant_equivalence | `FROZEN_BEFORE_HELD_SCORE` | [report](../experiments/yolo/gdt338_renderer_invariant_equivalence/METHOD.md) | 10 | 77.7 KiB | 7 | STRUCTURED_YOLO |
+| GDT338 | GDT338_renderer_invariant_equivalence | `NO_STABLE_RENDERER_INVARIANT_EQUIVALENCE` | [report](../experiments/yolo/gdt338_renderer_invariant_equivalence/REPORT.md) | 21 | 645.3 KiB | 7 | STRUCTURED_YOLO |
 | GDT337 | GDT337_blind_external_homologue_census | `NO_VIABLE_FROZEN_ENDPOINT` | [report](../experiments/yolo/gdt337_external_homologue_census/REPORT.md) | 14 | 97.6 KiB | 0 | STRUCTURED_YOLO |
 | GDT336 | GDT336_placement_conditioned_tuple_retrieval | `LINE_PLACEMENT_WEAKLY_IMPROVES_EXACT_TUPLE_RETRIEVAL` | [report](../GDT336_PLACEMENT_CONDITIONED_TUPLE_RETRIEVAL_REPORT.md) | 8 | 22.6 KiB | 2 | LEGACY_ROOT |
 | GDT335 | GDT335_tuple_placement_component_decomposition | `TUPLE_GAIN_IS_LINE_PLACEMENT_NOT_RECORD_FIELD_ORDINAL` | [report](../GDT335_TUPLE_PLACEMENT_COMPONENT_DECOMPOSITION_REPORT.md) | 7 | 12.1 KiB | 2 | LEGACY_ROOT |
