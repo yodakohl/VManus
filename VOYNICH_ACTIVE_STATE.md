@@ -3170,6 +3170,22 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   code value, sound, language, meaning, plaintext, translation, authorship,
   origin, or f84 result.
 
+- GDT299 adds a narrow but reproducible constraint to that revised generator.
+  Across 6,844 f84-free events on 91 physical folios, an opaque complete-form
+  identity predicts physical `FIRST/MIDDLE/LAST` line position better than its
+  opaque `PAGE_HOST` alone: held-folio codelength improves by 0.038336 bits per
+  event, 72/91 folios have positive gain, both frozen support-prior
+  sensitivities remain positive, and the frozen 64-world max-family tail is
+  1/65.  The matched null preserves folio, section, Currier, hand, exact group
+  count, host, and per-folio surface-identity counts.  Structured notation,
+  hybrid, and arbitrary-codebook controls show substantially larger gains,
+  while the readable Latin graphematic controls are flat or negative.  Thus
+  complete surface alternants carry transferable physical record-placement
+  information beyond the stripped host, consistent with GDT298's high-
+  capacity joint `(PAGE_HOST, renderer)` state.  This does not identify the
+  information as lexical or semantic and supplies no word, value, sound,
+  language, plaintext, translation, authorship, origin, or f84 result.
+
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
 the ZL editorial paragraph scaffold, and conditioning on collapsed page, exact

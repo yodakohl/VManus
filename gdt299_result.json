@@ -1,0 +1,88 @@
+{
+  "claim_ceiling": "Held-folio opaque whole-form physical-line placement only; no word morphology function semantic role code value language meaning plaintext or translation.",
+  "content_sha256": "57036e0397f82a170e0e5a1234969b4c0e473f913c484e205f237c439f4a2937",
+  "documents": {
+    "GDT299_WHOLE_FORM_PHYSICAL_ROLE_TRANSFER_METHOD.md": "99946714200467cdde9cc2fac9f262578a41fb7f355bf7b4fe90ba578650bb27",
+    "GDT299_WHOLE_FORM_PHYSICAL_ROLE_TRANSFER_REPORT.md": "d206960d6d424f7311973fe382604cd8663c89d1d8c389acc66448c5a2fcc5af"
+  },
+  "f84": {
+    "input_files": 0,
+    "joined": false,
+    "opened": false,
+    "parsed": false,
+    "retained": false,
+    "scored": false
+  },
+  "gates": {
+    "both_prior_sensitivities_positive": true,
+    "gain_positive": true,
+    "max_family_p_le_0_05": true,
+    "positive_folios_at_least_60": true
+  },
+  "implementation": {
+    "run_gdt299_whole_form_physical_role.py": "882d3590c0fc23d55261a2dc0e93c2083a1e395cad5e06b62743e7b57d60f146"
+  },
+  "inputs": {
+    "gdt278_native_event_inventory.tsv": "598e9833f3f0f67f187b59153156a776a22f5fa722a6b6428a386c2bb5178b2a",
+    "gdt297_result.json": "18ec14d0280d1121a4120128568858c888fd1becabd2884a529b48145b5999b0",
+    "gdt298_result.json": "43a415116864007d6c532f89486a61cd6e0fe753879709481f287a7fc654e6ce",
+    "gdt299_capacity.tsv": "7586376ef7283e59849ff7d75508d7251e4c7fec7004f8aaa899d75fb35323d4",
+    "gdt299_design.json": "e2c9c203b300480c5d8027ecd79a345dfecd4ebf0e2a87bb10f80bb0b4fb1aa0",
+    "gdt299_design_validation.json": "aff4f10ec2e45da3341316a301512b28dadb042c2e5e7b7e0e4f3d19d078f448",
+    "gdt299_freeze_manifest.tsv": "e3aefe549906b45fb6f1fc50509419d16d0f8602ff3e77b17377b6f6e639230e"
+  },
+  "null_variable_panels": 11,
+  "outputs": {
+    "GDT299_WHOLE_FORM_PHYSICAL_ROLE_TRANSFER_REPORT.md": "d206960d6d424f7311973fe382604cd8663c89d1d8c389acc66448c5a2fcc5af",
+    "gdt299_counterexamples.tsv": "f002c96c8f2af647d085073e50bd728f15d57665f3fb5d288b8bd9d05e174bf1",
+    "gdt299_folio_scores.tsv": "39afb2ee539c5e3fc9a50e044d3a9bc0b44a21bba01b132159717699a9f96b79",
+    "gdt299_null_results.tsv": "2fa17b6502473bea6c9aac2fe99b88f78f0d7c339dcd9e2fbe5182e0814da30b",
+    "gdt299_panel_scores.tsv": "88608904d3ec6f7f1ba13e6def4bc12f8a013bde1be1a1bec247803adace4ebf",
+    "gdt299_prior_sensitivity.tsv": "fc8637ed70064e7d14b43512b2f4b6bd3e983b26f0b9048bfac3c7695cd67547"
+  },
+  "page_host_substrings_mined": 0,
+  "panels": 16,
+  "powered_panels": 14,
+  "schema": "GDT299_WHOLE_FORM_PHYSICAL_ROLE_TRANSFER_RESULT_V1",
+  "semantic_assignments": 0,
+  "source_strings_inspected": 0,
+  "status": "WHOLE_FORM_PHYSICAL_ROLE_TRANSFERS",
+  "voynich_prior_sensitivities": [
+    {
+      "control_id": "VOYNICH_REFERENCE",
+      "events": 6844,
+      "positive_folios": 58,
+      "prior_mass": 5.0,
+      "whole_form_gain_vs_host_bits_per_event": "0.027885919233"
+    },
+    {
+      "control_id": "VOYNICH_REFERENCE",
+      "events": 6844,
+      "positive_folios": 81,
+      "prior_mass": 22.0,
+      "whole_form_gain_vs_host_bits_per_event": "0.038961909505"
+    }
+  ],
+  "voynich_summary": {
+    "capacity_status": "POWERED",
+    "control_id": "VOYNICH_REFERENCE",
+    "events": 6844,
+    "folios": 91,
+    "host_bits_per_event": "0.917899135899",
+    "host_gain_vs_layout_bits_per_event": "0.077496381942",
+    "host_top1": "0.767095265926",
+    "layout_bits_per_event": "0.995395517841",
+    "layout_top1": "0.763442431327",
+    "local_p": "0.015384615385",
+    "max_family_p": "0.015384615385",
+    "null_capacity": "VARIABLE",
+    "null_mean_gain": "0.014554383534",
+    "null_mobile_events_world0": 1207,
+    "null_sd_gain": "0.002013894896",
+    "observed_z": "11.808862688485",
+    "positive_folios": 72,
+    "whole_form_bits_per_event": "0.879562944070",
+    "whole_form_gain_vs_host_bits_per_event": "0.038336191829",
+    "whole_form_top1": "0.774839275278"
+  }
+}
