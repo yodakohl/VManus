@@ -3116,6 +3116,23 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   meaning, lexical identity, code value, word, language, plaintext,
   translation, or f84 access follows.
 
+- GDT296 turns that result into a held-folio normalization atlas rather than
+  another semantic search.  The complete score-blind population contains 59
+  exact opaque hosts with at least 20 events on five physical folios (5,715
+  events total).  Only five meet the frozen canonical-renderer threshold:
+  `lche`, `cthol`, `cthor`, `okee`, and `okeey`; no host meets the separate
+  position-conditioned threshold and 54/59 remain variable.  `lche` is the
+  cleanest formal normalization candidate (42/42 held events share the same
+  renderer tuple), whereas high-frequency hosts such as `ok`, `l`, `d`, and
+  `o` are explicit counterexamples with low held top-1 accuracy.  This makes
+  the GDT293 asymmetry more specific: a minority of exact hosts license nearly
+  canonical same-group realizations, but the broader host inventory is not a
+  one-renderer dictionary and coarse position does not create a second clean
+  class under the frozen thresholds.  The atlas is parser-coupled and its
+  opaque IDs are normalization handles only; it establishes no lexicality,
+  word, code value, sound, language, meaning, plaintext, translation, or f84
+  access.
+
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
 the ZL editorial paragraph scaffold, and conditioning on collapsed page, exact
