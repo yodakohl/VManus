@@ -56,6 +56,13 @@ inclusive one-sided p, and max-four p across the four panels.  This null keeps
 the most direct boundary/length opportunities while destroying the specific
 wrapper-to-rest-of-host association.
 
+The exact randomization seed family is
+`GDT283_FIRSTCHAR_LENGTH_MATCHED_V1|panel|world`.  The max-four statistic is
+the maximum panel-standardized total gain in each shared world, compared with
+the corresponding observed panel z.  Positive host-bucket counts use the
+total gain summed over all held-folio events assigned to each of the eight
+frozen buckets.
+
 ## Frozen decision
 
 Report `WRAPPER_CHANNEL_SURVIVES_UNSEEN_HOST_TYPES_AND_INTERNAL_POSITIONS` only
