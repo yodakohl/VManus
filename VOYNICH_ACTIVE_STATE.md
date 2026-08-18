@@ -3483,6 +3483,24 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   affix, morpheme, POS, semantic role, meaning, sound, language, plaintext,
   translation, or f84 result follows.
 
+- GDT318 consolidates the two selectors in an eight-way wrapper model over
+  every powered outcome-diverse cell, rather than selecting cells for `s` or
+  `q`. Across 126 opaque cells, 5,607 events, and 91 folios, the exact-cell
+  Jeffreys prior costs 1.80282 bits/event. Shared physical-line-start plus
+  preceding-DY selectors lower this to 1.76822, saving .03460 bits/event and
+  +191.99 bits after a fixed two-bit model charge; the fixed-crossfit
+  max-three diagnostic is 1/8193. All B/H/S sections contribute positively.
+  Both expected coefficients are positive in 91/91 folds: `s × LINE_START`
+  (+.959 mean) and `q × PREV_DY` (+.742). The same fit exposes secondary
+  formal tendencies without promoting them yet: `t` and `d` shift toward
+  line entry, `ch/che` shift away, and post-DY suppresses `s`, `sh`, and
+  `NONE`. This is now the smallest executable renderer state machine:
+  memorize an opaque compatibility cell, then modulate its eight-way visible
+  wrapper choice by line entry and preceding DY. It still cannot predict an
+  unseen cell license and assigns no universal prefix, morpheme, POS,
+  semantic role, meaning, sound, language, plaintext, translation, or f84
+  result.
+
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
 the ZL editorial paragraph scaffold, and conditioning on collapsed page, exact
