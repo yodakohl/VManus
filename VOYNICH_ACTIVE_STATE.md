@@ -3250,6 +3250,20 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   physical shifts into POS, discourse meanings, lexical glosses, sounds,
   plaintext, translation, or any f84 claim.
 
+- GDT304 localizes the three transferred operations more precisely, but is
+  explicitly post-hoc hypothesis generation because all endpoint values were
+  inspected before publication.  `ch→s` and `d→s` increase HPR2 field-first
+  probability by +.432 and +.242; neutral→`q` increases it by +.150 and
+  decreases field-last by -.161.  Their record-ordinal-1 deltas are small
+  (-.041, -.061, +.002), so the best current formal interpretation is a
+  probabilistic **field-entry renderer**, not a record-number/title marker.
+  Because `ch→s` also has a positive mean line-last delta, `s` is more safely
+  described as boundary-favoring with a strong entry bias than exclusively
+  initial.  Four exact future predictions are frozen for genuinely new data;
+  no exposed panel can validate them and f84 remains unauthorized.  This is
+  not a POS, discourse meaning, morpheme, sound, language, plaintext, or
+  translation result.
+
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
 the ZL editorial paragraph scaffold, and conditioning on collapsed page, exact
