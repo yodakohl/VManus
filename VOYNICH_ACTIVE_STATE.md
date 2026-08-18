@@ -3721,6 +3721,17 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   identifies transferable formal usage, not a semantic role, meaning,
   language, plaintext, translation, or f84 result.
 
+- GDT335 freezes every GDT334 fold/alpha and decomposes its +696.52-bit gain.
+  Exact tuple identity saves +281.83 bits for physical line entry, +289.93 for
+  within-field position, and +167.13 for physical line quartile, but loses
+  42.36 bits for field ordinal. Field ordinal is negative in every register;
+  line entry is positive in all five. Therefore
+  `TUPLE_GAIN_IS_LINE_PLACEMENT_NOT_RECORD_FIELD_ORDINAL`: GDT334 supports a
+  register-conditioned line-placement signature of exact joint tuples, not a
+  stable numbered record field or semantic slot. The within-field component
+  is still a formal boundary-position effect. No semantic role, meaning,
+  language, plaintext, translation, or f84 result follows.
+
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
 the ZL editorial paragraph scaffold, and conditioning on collapsed page, exact
