@@ -3150,6 +3150,26 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   does not establish or reject lexicality in general and supplies no word,
   morpheme, sound, language, meaning, plaintext, translation, or f84 access.
 
+- GDT298 resolves all six exposed GDT288 predictions and revises the leading
+  executable generator to a **register-conditioned lexicalized hybrid record
+  shorthand**.  The low-capacity layer remains physical record templates,
+  line-entry/reset, field opportunity, wrapper/frame/edge tendencies, and
+  DY/B3 closure coordinates.  The high-capacity layer is now a joint
+  `(PAGE_HOST, renderer)` surface-form state rather than a causal host-then-
+  renderer chain.  Of GDT288's six novel predictions, the compact cross-host
+  renderer rule failed, the right-to-closure rule is weak/failed, exact-host
+  completion is formally supported but causally reduced to whole-form
+  alternant memory, repeated-referent tuple preservation is unsupported on the
+  current panel, historical factorization is nonunique, and the many-to-one
+  translation-key requirement remains untested.  Abbreviation-heavy natural
+  language remains a plausible component and the nonsemantic source model a
+  mandatory adversarial null; compact factorial notation and a fixed local
+  codebook rank lower.  Future grounding must compare complete surface form,
+  joint form state, and PAGE_HOST simultaneously rather than glossing the
+  stripped host by default.  This is an abductive formal theory, not a word,
+  code value, sound, language, meaning, plaintext, translation, authorship,
+  origin, or f84 result.
+
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
 the ZL editorial paragraph scaffold, and conditioning on collapsed page, exact
