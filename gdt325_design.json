@@ -1,0 +1,93 @@
+{
+  "alpha": 0.5,
+  "cell_fields": [
+    "page_host",
+    "local_frame",
+    "inner_d",
+    "right_family",
+    "dy_closure",
+    "b3"
+  ],
+  "claim_ceiling": "Sparse-cell renderer-coordinate wrapper backoff only; no host identity morpheme lexical class meaning sound language plaintext or translation.",
+  "classes": [
+    "NONE",
+    "ch",
+    "che",
+    "d",
+    "q",
+    "s",
+    "sh",
+    "t"
+  ],
+  "content_sha256": "0c61886ca57c62127be0e8da478540becbd4a879b1f2032e9228fcdc686fcd34",
+  "coordinate_fields": [
+    "local_frame",
+    "inner_d",
+    "right_family",
+    "dy_closure",
+    "b3"
+  ],
+  "decision": {
+    "coordinate_beats_global": true,
+    "max_four_p_le": 0.05,
+    "positive_powered_sections_min": 2,
+    "selector_paid_gain_positive": true
+  },
+  "f84": {
+    "authorized": false,
+    "joined": false,
+    "opened": false,
+    "parsed": false,
+    "retained": false,
+    "scored": false
+  },
+  "fixed_coefficients": {
+    "q_X_prev_dy": 0.8920380870887143,
+    "s_X_line_first": 1.0021314958853849
+  },
+  "implementation": {
+    "freeze_gdt325_sparse_cell_coordinate_backoff.py": "a1e0b0bbdd2e33dcba3d1d6271e18f24f3ebb0554d15729b290aae084045e9fd"
+  },
+  "inputs": {
+    "GDT325_SPARSE_CELL_COORDINATE_BACKOFF_METHOD.md": "ef46c3841215617780da581032c014528680f27538403754df4359ebd22cc97c",
+    "gdt278_native_event_inventory.tsv": "598e9833f3f0f67f187b59153156a776a22f5fa722a6b6428a386c2bb5178b2a",
+    "gdt322_renderer_model.json": "f367091b0de2bc2ce4ddec02e7f2975babe7c7e83359bd7d6ad6abed7a0d37d5",
+    "gdt324_result.json": "d9ee0abc904db375f2df63128f16404b57bd4d9f360f804c2c45b1c6309bea8d"
+  },
+  "models": [
+    "GLOBAL",
+    "GLOBAL_TWO_RULE",
+    "COORDINATE",
+    "COORDINATE_TWO_RULE"
+  ],
+  "null": {
+    "event_count_bins": [
+      "5_6",
+      "7_9"
+    ],
+    "scope": "FIXED_PREDICTION_MAX_FOUR_DIAGNOSTIC",
+    "seed": 32520260818,
+    "strata": "REGISTER_X_LINE_START_X_PREV_DY_X_CELL_EVENT_COUNT_BIN",
+    "worlds": 8192
+  },
+  "outputs": {
+    "gdt325_capacity.tsv": "3a076ab2338151b27898e126d63c853080e4ba635e4fd9340a15ba9a2ad31bb7",
+    "gdt325_frozen_panel.tsv": "539e266c9ec733806bd2897a15d6362cbb6e6c6ce46d8475c6e6bff98cc12af4"
+  },
+  "primary_weighting": "EQUAL_TARGET_CELLS",
+  "schema": "GDT325_SPARSE_CELL_COORDINATE_BACKOFF_DESIGN_V1",
+  "selector_bits": 2.0,
+  "sensitivity_weighting": "HELD_EVENTS",
+  "status": "FROZEN_BEFORE_SPARSE_CELL_SCORING",
+  "target_eligibility": {
+    "maximum_events": 9,
+    "minimum_events": 5,
+    "minimum_folios": 2,
+    "powered_coordinate_required": true,
+    "wrapper_outcome_used": false
+  },
+  "training_eligibility": {
+    "minimum_events": 10,
+    "minimum_folios": 3
+  }
+}
