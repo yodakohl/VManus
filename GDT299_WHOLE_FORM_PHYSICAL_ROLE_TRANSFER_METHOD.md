@@ -47,7 +47,9 @@ strata before held-folio fitting.  This preserves host, exact opportunity,
 line length, every surface identity's per-folio count, and all outcomes while
 destroying only the observed whole-form-to-position alignment where mobility
 exists.  Report local and max-family inclusive tails over all null-variable
-panels.
+panels.  The family statistic is the maximum panel-standardized gain, using
+each panel's 64-world null mean and population standard deviation; zero-
+variance panels are excluded from that maximum.
 
 ## Decision and ceiling
 
