@@ -3658,6 +3658,18 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   example, but do not claim that field 3 is an identified special or semantic
   slot. No meaning, language, plaintext, translation, or f84 result follows.
 
+- GDT330 records a process-level access correction after GDT329. A scratch
+  page-context check iterated two global public-metadata tables with
+  `csv.DictReader` before applying its f82r/f83r/f107v whitelist, transiently
+  materializing an f84r metadata dictionary. No f84 value was printed or
+  manually inspected, no row was retained/joined/scored/written, and no f84
+  transcription, family, PAGE_HOST, grammar projection, token, or formal
+  result was opened. GDT328--329 were already published and their inputs have
+  zero f84 rows. The public-metadata class was already exposed under GDT225,
+  but this still breaches the continuing no-access instruction. All future
+  global page tables require raw-line whitelisting before parsing; no further
+  f84r access is authorized without explicit permission.
+
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
 the ZL editorial paragraph scaffold, and conditioning on collapsed page, exact
