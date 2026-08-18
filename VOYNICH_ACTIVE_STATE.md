@@ -3468,6 +3468,21 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   unseen licenses. This is not a universal prefix, morpheme, POS, semantic
   role, meaning, sound, language, plaintext, translation, or f84 result.
 
+- GDT317 freezes that GDT316 instrument on every powered GDT278 control
+  without relaxing capacity thresholds. Only compositional technical
+  notation, hybrid shorthand, and Latin scholastic graphematic meet the
+  exact-cell requirements. Voynich ranks 1/4 by both held gain and matched
+  post-DY delta (+.02778 bits/event; +.202). All three controls have zero
+  analogous `q` events immediately after their DY class and therefore zero
+  held gain and zero matched delta; no control equals the Voynich gain. The
+  frozen status is `Q_POST_DY_VOYNICH_ENRICHED`, but the calibration panel is
+  narrow and control `q`/DY classes are parser analogues rather than
+  harmonized linguistic units. Together GDT315 and GDT317 identify unusual
+  complementary Voynich compiler signatures—`s` at physical line entry and
+  `q` after DY—without identifying their linguistic function. No universal
+  affix, morpheme, POS, semantic role, meaning, sound, language, plaintext,
+  translation, or f84 result follows.
+
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
 the ZL editorial paragraph scaffold, and conditioning on collapsed page, exact
