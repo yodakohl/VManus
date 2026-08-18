@@ -3386,6 +3386,22 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   the wrappers linguistic morphemes or identify a grammar category, meaning,
   sound, language, plaintext, translation, or f84 result.
 
+- GDT312 compresses the two `s` operations into one post-hoc three-surface
+  rule without double-counting shared `s` events. Seven exact target surfaces
+  have genuine `{ch,d,s}` triads, giving 529 training and 350 deterministic
+  held-folio events. An exact-triad prior costs .57436 held bits/event;
+  adding only physical line start and preceding-group DY lowers this to
+  .51388 (+.06048 bits/event; null-centered +.04549; descriptive max-three
+  p=1/8193). The signal is line entry: held `s` frequency is 43.3% at physical
+  line start versus 7.6% elsewhere, with an exact triad/register-matched delta
+  +.284. Preceding DY contributes essentially no shared rule (coefficient
+  .041; held matched delta -.062). The compact grammar can therefore replace
+  separate `ch→s` and `d→s` choice rules with `licensed {ch,d,s} triad +
+  LINE_START → higher P(s)`. This was selected after GDT311 outcome exposure
+  and does not predict which hosts license the triad. It is a formal renderer,
+  not a morpheme, POS, meaning, sound, language, plaintext, translation, or
+  f84 result.
+
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
 the ZL editorial paragraph scaffold, and conditioning on collapsed page, exact
