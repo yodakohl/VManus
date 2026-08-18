@@ -2833,6 +2833,26 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   localization, not evidence for abbreviation, language, meaning, plaintext,
   translation, or any f84 access.
 
+- GDT280 splits only GDT279's frozen edge block over the same panels, views,
+  endpoint and null.  All three native-positive Latin panels are
+  `RIGHT_FAMILY`-led: published Shapley contributions are `.2217` scholastic,
+  `.1812` medical and `.1458` mixed fifteenth-century Latin, and their total
+  edge increments are `.4395/.3525/.3278` bits/event.  Held-folio-safe parsing
+  preserves the leader and increases those total increments to
+  `.6513/.5322/.4659`.  Voynich is instead `OUTER_WRAPPER`-led (`.1702`
+  published; `.0809` safe), with weak/negative right-family allocation.  More
+  importantly, its total edge increment collapses from `.2684` published to
+  only `.0319` safe, while the Latin effects remain large.  Therefore the
+  authentic diplomatic controls do not reproduce the Voynich component
+  profile: their robust residual is primarily right-edge-family structure;
+  Voynich retains only a much weaker outer-wrapper direction after
+  representation leakage is removed.  Do not interpret this as q-prefix
+  semantics or morphology.  The fixed 256-bucket family has bounded collision
+  noise—constant Latin display-renderer fields receive tiny nonzero values—so
+  a separately frozen collision sensitivity is required before treating fine
+  Shapley magnitudes as intrinsic.  No abbreviation identity, sound, word,
+  morpheme, language, meaning, plaintext, translation, or f84 access follows.
+
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
 the ZL editorial paragraph scaffold, and conditioning on collapsed page, exact
