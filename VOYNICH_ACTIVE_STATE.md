@@ -3234,6 +3234,22 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   physical placement, not grammatical function, lexical meaning, sound,
   plaintext, translation, or any f84 result.
 
+- GDT303 recovers a limited productive layer inside that host-specific atlas.
+  From 314 score-blind same-host form pairs differing exactly one renderer
+  field, 29 operations had at least four hosts.  Three predict the physical
+  position delta of an unseen host after a 4,096-world max-family correction:
+  `ch→s` moves probability out of `MIDDLE` toward a boundary (mean delta
+  FIRST/MIDDLE/LAST +.406/-.527/+.121; 7/7 held hosts; corrected p=.04735),
+  `d→s` shifts mainly toward `FIRST` (+.266/-.289/+.023; 8/8; p=.02636), and
+  neutral→`q` makes a smaller initial-over-final shift (+.075/-.004/-.071;
+  24/31; p=.00610).  Thirteen other operations are weak and thirteen fail;
+  notably adding DY closure is a failed cross-host positional delta under this
+  test.  Thus some wrapper substitutions are genuinely reusable formal
+  position operators, but the system is sparse and compatibility-conditioned,
+  consistent with GDT300's failed global renderer model.  Do not convert these
+  physical shifts into POS, discourse meanings, lexical glosses, sounds,
+  plaintext, translation, or any f84 claim.
+
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
 the ZL editorial paragraph scaffold, and conditioning on collapsed page, exact
