@@ -2887,6 +2887,24 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   channel, not prefix morphology, abbreviation, function, sound, language,
   meaning, plaintext, translation, or any f84 access.
 
+- GDT283 shows that the wrapper/host-form coupling is not only an exact-host
+  lookup or an immediately adjacent first-character artifact.  With each
+  target host assigned to one of eight immutable identity buckets and every
+  training occurrence from that bucket removed, the Voynich full-wrapper gain
+  is `+.3152` bits/event, including `+.0501` on internal host characters, and
+  all 8/8 buckets are positive.  Against 64 wrapper permutations matched on
+  section, Currier, hand, within-field position, exact host length and first
+  host character, the standard `+.1305` gain has local and max-four
+  `p=1/65`.  The three Latin controls also pass, so wrapper/host coupling is
+  not Voynich-specific.  The positional shape differs: Voynich gains
+  `+.1727` initial and `+.0385` internal but loses `-.0392` final and `-.0416`
+  EOS in the standard endpoint; all three Latin panels gain at all four
+  positions.  Retain a real, onset-heavy opaque compiler-to-host coupling that
+  generalizes to unseen host types, while rejecting a simple calibrated Latin
+  abbreviation-edge profile.  This remains same-group form compression, not
+  productive morphology, lexical identity, sound, function, language,
+  meaning, plaintext, translation, or any f84 access.
+
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
 the ZL editorial paragraph scaffold, and conditioning on collapsed page, exact
