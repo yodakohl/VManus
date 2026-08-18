@@ -1,0 +1,70 @@
+{
+  "alpha": 0.5,
+  "claim_ceiling": "Shared opaque-cell wrapper entry-state compression only; no unseen license prefix morpheme POS meaning sound language plaintext or translation.",
+  "classes": [
+    "NONE",
+    "ch",
+    "che",
+    "d",
+    "q",
+    "s",
+    "sh",
+    "t"
+  ],
+  "content_sha256": "b55c7642d0b4c3e57136db38faad2aa58d5ee1d9a916d123c22b8507b2cff7f7",
+  "decision": {
+    "max_three_p_le": 0.05,
+    "positive_powered_sections_min": 2,
+    "q_prev_dy_positive_coefficients_min": 75,
+    "s_line_positive_coefficients_min": 75,
+    "selector_paid_gain_positive": true
+  },
+  "eligibility": {
+    "min_events": 10,
+    "min_folios": 3,
+    "min_wrapper_classes": 2
+  },
+  "f84": {
+    "authorized": false,
+    "joined": false,
+    "opened": false,
+    "parsed": false,
+    "retained": false,
+    "scored": false
+  },
+  "fold": "LEAVE_ONE_PHYSICAL_FOLIO_OUT",
+  "implementation": {
+    "freeze_gdt318_global_wrapper_entry_state.py": "cbd320674f625695ad6598b07b9756bf1ae2175a2bae87e1ba573757c928bec9"
+  },
+  "inputs": {
+    "GDT318_GLOBAL_WRAPPER_ENTRY_STATE_METHOD.md": "cd44bd8e3f088b37fb4a76a3bae0da168d8b5fea3ccae212b29e0f14ade35c34",
+    "gdt278_native_event_inventory.tsv": "598e9833f3f0f67f187b59153156a776a22f5fa722a6b6428a386c2bb5178b2a"
+  },
+  "models": {
+    "CELL": [],
+    "CELL_BOTH": [
+      "line_first",
+      "prev_dy"
+    ],
+    "CELL_LINE_START": [
+      "line_first"
+    ],
+    "CELL_PREV_DY": [
+      "prev_dy"
+    ]
+  },
+  "null": {
+    "scope": "FIXED_CROSSFIT_MAX_THREE_ALIGNMENT_DIAGNOSTIC",
+    "seed": 31820260818,
+    "strata": "CELL_X_REGISTER",
+    "worlds": 8192
+  },
+  "outputs": {
+    "gdt318_capacity.tsv": "887c4a22b77d55e28d2c085b24f9920a159ed9ebb29358f4b8a3b75a49557a5b",
+    "gdt318_frozen_panel.tsv": "b68ffc1764c2e014bbc6217a86e3c62d44ea3fe8fb53283f8ce572b38682a9c1"
+  },
+  "ridge": 10.0,
+  "schema": "GDT318_GLOBAL_WRAPPER_ENTRY_STATE_DESIGN_V1",
+  "selector_cost_bits": 2.0,
+  "status": "FROZEN_BEFORE_GLOBAL_WRAPPER_SCORING"
+}
