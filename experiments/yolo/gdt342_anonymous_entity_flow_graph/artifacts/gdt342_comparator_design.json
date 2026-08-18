@@ -1,0 +1,40 @@
+{
+  "schema": "GDT342_COMPARATOR_DESIGN_V1",
+  "date": "2026-08-18",
+  "status": "FROZEN_BEFORE_COMPARATOR_SCORING_AND_VOYNICH_ACCESS",
+  "collections": ["b4", "b6", "br1", "bs1", "gr1", "w1"],
+  "parallel_truth": {
+    "one_normalized_title": true,
+    "different_collection": true,
+    "minimum_shared_concept_ids": 2,
+    "different_normalized_surface_hash": true
+  },
+  "anonymization": {
+    "concept_ids": "RECORD_LOCAL_FIRST_OCCURRENCE_IDS",
+    "missing_concepts": "UNIQUE_RECORD_LOCAL_SINGLETON",
+    "restart_each_record": true,
+    "export_global_ids_or_forms": false
+  },
+  "count_clip": 4,
+  "field_signature": ["unit_count", "distinct_count", "new_count", "immediate_continuation_count", "return_after_gap_count", "future_use_count", "merge_flag", "split_reuse_count", "record_closure"],
+  "transition_signature": ["source_distinct", "target_distinct", "shared", "new", "ended", "return_after_gap", "merge_flag", "split_reuse_count"],
+  "entity_path_signature": ["field_occurrence_count", "first_field_quartile", "last_field_quartile", "maximum_gap", "immediate_continuation_count", "return_flag", "final_field_presence"],
+  "models": ["SIZE_ONLY", "ORDER_ONLY", "UNORDERED_INCIDENCE", "RAW_OPAQUE_WORD_IDENTITY", "ANON_ENTITY_FLOW", "GLOBAL_CONCEPT_ID_CEILING"],
+  "required_controls": ["SIZE_ONLY", "ORDER_ONLY", "UNORDERED_INCIDENCE", "RAW_OPAQUE_WORD_IDENTITY"],
+  "selection_eligible": ["ANON_ENTITY_FLOW"],
+  "entity_flow_weights": {"ordered_fields": 0.35, "ordered_transitions": 0.20, "entity_paths": 0.20, "flow_edges": 0.15, "record_size": 0.10},
+  "retrieval": {"mrr_cutoff": 100, "top_k": [1, 5], "tie_break": "candidate_record_id_lexical"},
+  "null": {"worlds": 2048, "seed": 342176, "strata": ["held_collection", "unit_count_bucket", "field_count_bucket"], "max_family": 1},
+  "gates": {"positive_folds_min": 4, "inclusive_p_max": 0.05, "must_beat": ["SIZE_ONLY", "ORDER_ONLY", "UNORDERED_INCIDENCE", "RAW_OPAQUE_WORD_IDENTITY"]},
+  "prospective_target": {
+    "panels": {"RECIPE_STARS_S": {"section": "S", "register": "STARS_RECIPE_B"}, "PHARMA_P": {"section": "P", "register": "OTHER_A"}},
+    "endpoint": "NEXT_FIELD_EXACT_TUPLE_PERSISTENCE",
+    "held_unit": "PHYSICAL_FOLIO",
+    "null_worlds": 4096,
+    "seed": 342327,
+    "positive_folio_fraction_min": 0.60,
+    "panels_never_pooled": true
+  },
+  "voynich_target_values_inspected_before_freeze": false,
+  "sealed": {"f84": "FORBIDDEN"}
+}

@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **340**
-- Experiment-associated tracked files: **4,415** (552.0 MiB)
-- Structured GDT337+ experiments: **5**
+- Experiments indexed: **341**
+- Experiment-associated tracked files: **4,434** (552.4 MiB)
+- Structured GDT337+ experiments: **6**
 - IDs without a ledger entry: **166**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT342 | GDT342_anonymous_entity_flow_graph | `ANONYMOUS_ENTITY_FLOW_NOT_CALIBRATED` | [report](../experiments/yolo/gdt342_anonymous_entity_flow_graph/COMPARATOR_REPORT.md) | 19 | 402.6 KiB | 3 | STRUCTURED_YOLO |
 | GDT341 | GDT341_ordered_recipe_event_graph | `NO_COMPARATOR_GRAPH_CALIBRATION` | [report](../experiments/yolo/gdt341_ordered_recipe_event_graph/COMPARATOR_REPORT.md) | 18 | 347.0 KiB | 3 | STRUCTURED_YOLO |
 | GDT340 | GDT340_recipe_pharma_section_semantic_schema_target | `INSUFFICIENT_COMPARATOR_OR_TARGET_CAPACITY` | [report](../experiments/yolo/gdt340_recipe_pharma_section_semantic_schema/REPORT.md) | 30 | 305.7 KiB | 5 | STRUCTURED_YOLO |
 | GDT339 | GDT339_comparator_first_semantic_incidence | `NO_TRANSFERABLE_COMPARATOR_INVARIANT` | [report](../experiments/yolo/gdt339_comparator_first_semantic_incidence/REPORT.md) | 27 | 1.9 MiB | 3 | STRUCTURED_YOLO |

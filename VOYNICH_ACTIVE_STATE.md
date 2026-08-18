@@ -43,6 +43,17 @@ Updated: 2026-08-18. This is the full claim registry. For routine work, read
   bridge is no longer active confirmed evidence: its exact positive ledger
   summary survives, but its inventory, preregistration, scorer, result, and
   validator do not survive in the repository and cannot be reconstructed.
+- GDT342 calibrates a stronger readable-recipe bridge after GDT341's ordered
+  graph failure. CoReMA editor concepts were normalized and then completely
+  anonymized within each record, preserving equality, continuation,
+  merge/split/reuse, field order, and closure but no global identity or lexical
+  form. This graph improves held cross-collection parallel retrieval over
+  size, order-only, and unordered-incidence controls (343/688 top-1; MRR
+  .540), yet exact opaque diplomatic-word identity is much stronger (538/688;
+  MRR .808), and the graph beats all controls in 0/6 collections. Therefore
+  record-local entity-flow topology is not a calibrated semantic bridge. No
+  GDT327 target row was opened, no tuple is licensed as an entity, and an
+  independently normalized cross-record referent remains necessary.
 - A frozen synthetic-instrument calibration now limits how opaque PAGE_HOST
   negatives may be interpreted. On one real medieval medical source, a true
   injective 2–3-character concept codebook lost every held

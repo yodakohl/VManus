@@ -120,6 +120,15 @@ morpheme, plaintext symbol, or semantic role.
   it resides in repeated lexical/entity identity and unordered incidence rather
   than a transferable identity-free process order. The comparator gate failed,
   so no GDT327 Voynich target row was joined or scored.
+- GDT342 retained the complete within-record equality topology by normalizing
+  CoReMA concepts and then restarting anonymous entity IDs in every record.
+  Its flow graph improves top-1 retrieval to 343/688 and MRR .540, above
+  order-only (261/.424) and unordered incidence (245/.439), but exact opaque
+  diplomatic-word identity reaches 538/688 and MRR .808. It beats every
+  required control in 0/6 held collections and has null p=1. The readable
+  entity-flow gate therefore fails: identity-free merge/split/reuse topology
+  does not replace persistent lexical/entity identity, and no GDT327 target was
+  opened.
 
 ## Calibration constraints
 
@@ -188,6 +197,8 @@ falsifier:
   after GDT340's Recipe reversal and Pharma capacity failure;
 - identity-free ordered recipe-event graph transfer after GDT341's readable
   comparator was inferior to unordered recurrence;
+- record-local anonymous entity-flow transfer after GDT342 remained far below
+  diplomatic-word identity on readable cross-collection recipe parallels;
 - f57/f77 quality, element, process, or lexical assignments.
 
 The complete route memory remains in
@@ -216,6 +227,12 @@ some independently normalized repeated-entity identity or another stable
 cross-wording anchor; process order alone is not an adequate bridge. Such an
 anchor must be externally defined before any Voynich tuple is inspected.
 
+GDT342 sharpens that requirement: retaining the entire record-local equality
+graph still does not suffice. A future bridge needs an externally licensed
+cross-record identity relation or referent, not merely anonymous recurrence,
+merge/split, order, or closure. Exact GDT327 tuple identity cannot be promoted
+to that relation without independent target evidence.
+
 If no new external endpoint exists, improve instrumentation or acquire new
 evidence rather than mining another internal string feature.
 
@@ -235,6 +252,7 @@ evidence rather than mining another internal string feature.
 - `experiments/yolo/gdt339_comparator_first_semantic_incidence/REPORT.md`
 - `experiments/yolo/gdt340_recipe_pharma_section_semantic_schema/REPORT.md`
 - `experiments/yolo/gdt341_ordered_recipe_event_graph/COMPARATOR_REPORT.md`
+- `experiments/yolo/gdt342_anonymous_entity_flow_graph/COMPARATOR_REPORT.md`
 - `GDT330_F84R_METADATA_ACCESS_CORRECTION.md`
 
 Use `experiments/EXPERIMENT_INDEX.tsv` for exact paths, dependencies, runners,
