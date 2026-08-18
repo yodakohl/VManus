@@ -3630,6 +3630,24 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   joint-tuple sequences. No meaning, language, plaintext, translation, or f84
   result is asserted.
 
+- GDT328 mines that fixed interlinear at the field rather than single-host
+  scale. Among 2,400 complete fields (1,713 multi-group), only 15 exact
+  joint-tuple sequences and 29 PAGE_HOST sequences recur on at least two
+  physical folios. One three-host sequence is exceptional: it occurs on
+  f82r.2, f83r.6, and f107v.35, always as field 3, spanning OTHER_B and
+  STARS_RECIPE_B. f83r/f107v share the exact visible joint formula
+  `qokaiin|chedy|qokeedy`; f82r preserves the opaque host sequence but renders
+  `qokain|dy|qokeedy`. Conditional on empirical length-three field positions
+  in the corresponding registers, those fixed occurrences land specifically
+  at ordinal 3 with descriptive probability .004779, or at any common ordinal
+  with probability .092093. This is a post-hoc
+  `CROSS_REGISTER_FIELD3_FORMULA_LEAD`, not confirmation: it is the first
+  reusable three-group stock-field candidate, but it has no independently
+  owned referent and its content remains unassigned. The renderer difference
+  is a counterexample to invariant visible wording. No word boundary, phrase,
+  semantic role, object, meaning, language, plaintext, translation, or f84
+  result follows.
+
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
 the ZL editorial paragraph scaffold, and conditioning on collapsed page, exact
