@@ -1,0 +1,28 @@
+{
+  "schema": "GDT340_COMPARATOR_DESIGN_V1",
+  "date": "2026-08-18",
+  "status": "FROZEN_BEFORE_VOYNICH_TUPLE_SCORING",
+  "collections": ["b4", "b6", "br1", "bs1", "gr1", "w1"],
+  "primary_axes": ["MATERIAL", "OPERATION", "INTERMEDIATE_STATE", "APPLICATION", "RESULT_CONDITION"],
+  "auxiliary_axes": ["TOOL_MEDIATION"],
+  "models": {
+    "STRUCTURE_ONLY": [0, 1, 2, 3, 4, 5],
+    "STRUCTURE_PLUS_RECURRENCE": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+  },
+  "feature_names": [
+    "log_unit_count", "log_field_count", "mean_field_size", "sd_field_size",
+    "max_field_fraction", "singleton_field_fraction", "distinct_id_fraction",
+    "repeated_id_fraction", "mean_training_document_frequency",
+    "max_training_document_frequency", "mean_partner_degree"
+  ],
+  "optimizer": {"steps": 1000, "learning_rate": 0.025, "ridge": 0.01},
+  "null": {"worlds": 4096, "seed": 340176, "strata": ["held_collection", "unit_count_bin"], "max_family": 10},
+  "axis_gate": {"minimum_positive_records": 25, "minimum_negative_records": 25, "minimum_positive_collections": 3, "minimum_positive_folds": 4, "gain_bits_min": 0.0, "max_t_p_max": 0.10},
+  "target_panels": {
+    "RECIPE_STARS_S": {"section": "S", "register": "STARS_RECIPE_B"},
+    "PHARMA_P": {"section": "P", "register": "OTHER_A"}
+  },
+  "target_model": {"tuple_shrinkage_trials": 8.0, "jeffreys_alpha": 0.5, "worlds": 4096, "seed": 340327, "selector_charge_rule": "log2(recoverable_axes * powered_panels)"},
+  "target_access_disclosure": "GDT327 header and aggregate capacity metadata inspected before freeze; no joint_tuple_id value association prediction or score inspected",
+  "sealed": {"f84": "FORBIDDEN"}
+}
