@@ -11,6 +11,7 @@ from __future__ import annotations
 import argparse
 import csv
 import io
+import json
 import re
 import subprocess
 import sys
@@ -22,8 +23,8 @@ ROOT = Path(__file__).resolve().parents[1]
 LEDGER = ROOT / "experiments/semantic_assumptions/ACTIVE_EXPERIMENT_LEDGER.tsv"
 TSV_OUT = ROOT / "experiments/EXPERIMENT_INDEX.tsv"
 MD_OUT = ROOT / "experiments/EXPERIMENT_INDEX.md"
-GDT_RE = re.compile(r"(?i)gdt(\d{3})(?!\d)")
-STRUCTURED_RE = re.compile(r"^experiments/yolo/gdt(\d{3})_[a-z0-9][a-z0-9_-]*/")
+GDT_RE = re.compile(r"(?i)gdt(\d{3,})(?!\d)")
+STRUCTURED_RE = re.compile(r"^experiments/yolo/gdt(\d{3,})_[a-z0-9][a-z0-9_-]*/")
 STRUCTURED_START = 337
 
 
@@ -33,11 +34,13 @@ class Experiment:
     paths: list[str] = field(default_factory=list)
     dependencies: set[int] = field(default_factory=set)
     ledger_rows: list[dict[str, str]] = field(default_factory=list)
+    manifest_path: str = ""
+    manifest: dict = field(default_factory=dict)
 
 
 def git_paths() -> list[str]:
     completed = subprocess.run(
-        ["git", "ls-files"],
+        ["git", "ls-files", "--cached", "--others", "--exclude-standard"],
         cwd=ROOT,
         check=True,
         text=True,
@@ -132,6 +135,12 @@ def build_experiments(paths: list[str], ledger: list[dict[str, str]]) -> dict[in
             experiments.setdefault(number, Experiment(number)).ledger_rows.append(row)
 
     for experiment in experiments.values():
+        manifests = [path for path in experiment.paths if path.endswith("/experiment.json")]
+        if len(manifests) > 1:
+            raise RuntimeError(f"GDT{experiment.number:03d} has multiple structured manifests")
+        if manifests:
+            experiment.manifest_path = manifests[0]
+            experiment.manifest = json.loads((ROOT / manifests[0]).read_text(encoding="utf-8"))
         for path in experiment.paths:
             if not path.endswith(".py"):
                 continue
@@ -186,6 +195,9 @@ def render(experiments: dict[int, Experiment]) -> tuple[bytes, bytes]:
         "file_count",
         "total_bytes",
         "ledger_entries",
+        "manifest",
+        "question",
+        "claim_ceiling",
         "dependencies",
         "methods",
         "reports",
@@ -198,21 +210,40 @@ def render(experiments: dict[int, Experiment]) -> tuple[bytes, bytes]:
         experiment = experiments[number]
         classes = classify_paths(experiment.paths)
         latest = experiment.ledger_rows[-1] if experiment.ledger_rows else {}
-        report, report_exists = resolve_report(latest.get("primary_report", ""), classes["reports"])
+        manifest = experiment.manifest
+        manifest_reports = [
+            binding.get("path", "")
+            for binding in manifest.get("outputs", [])
+            if "REPORT" in binding.get("role", "").upper()
+        ]
+        preferred_report = latest.get("primary_report", "")
+        if not preferred_report and manifest_reports:
+            preferred_report = manifest_reports[0]
+        report, report_exists = resolve_report(preferred_report, classes["reports"])
         total_bytes = sum((ROOT / path).stat().st_size for path in experiment.paths)
+        dependencies = set(experiment.dependencies)
+        for dependency in manifest.get("dependencies", []):
+            match = GDT_RE.search(dependency)
+            if match:
+                dependencies.add(int(match.group(1)))
         rows.append(
             {
                 "experiment_id": f"GDT{number:03d}",
-                "latest_date": latest.get("date", ""),
-                "experiment_name": latest.get("experiment", f"GDT{number:03d}"),
-                "status": latest.get("status", "UNREGISTERED"),
+                "latest_date": latest.get("date", manifest.get("updated", "")),
+                "experiment_name": latest.get(
+                    "experiment", manifest.get("title", f"GDT{number:03d}")
+                ),
+                "status": latest.get("status", manifest.get("status", "UNREGISTERED")),
                 "primary_report": report,
                 "primary_report_exists": str(report_exists).lower(),
                 "layout": describe_layout(number, experiment.paths),
                 "file_count": len(experiment.paths),
                 "total_bytes": total_bytes,
                 "ledger_entries": len(experiment.ledger_rows),
-                "dependencies": ";".join(f"GDT{item:03d}" for item in sorted(experiment.dependencies)),
+                "manifest": experiment.manifest_path,
+                "question": manifest.get("question", ""),
+                "claim_ceiling": manifest.get("claim_ceiling", ""),
+                "dependencies": ";".join(f"GDT{item:03d}" for item in sorted(dependencies)),
                 "methods": ";".join(classes["methods"]),
                 "reports": ";".join(classes["reports"]),
                 "runners": ";".join(classes["runners"]),
@@ -243,7 +274,7 @@ def render(experiments: dict[int, Experiment]) -> tuple[bytes, bytes]:
         f"- Experiment-associated tracked files: **{tracked_files:,}** ({human_size(tracked_bytes)})",
         f"- Structured GDT337+ experiments: **{structured}**",
         f"- IDs without a ledger entry: **{unregistered}**",
-        f"- Full machine-readable paths and dependencies: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)",
+        f"- Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)",
         "  (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)",
         "",
         "GDT001–GDT336 are the byte-frozen legacy flat layout. Starting with",

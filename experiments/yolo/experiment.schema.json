@@ -1,0 +1,99 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/yodakohl/VManus/experiments/yolo/experiment.schema.json",
+  "title": "VManus structured YOLO experiment manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "experiment_id",
+    "slug",
+    "title",
+    "status",
+    "created",
+    "updated",
+    "question",
+    "claim_ceiling",
+    "sealed_data",
+    "commands",
+    "dependencies",
+    "inputs",
+    "outputs",
+    "validation",
+    "artifact_policy"
+  ],
+  "properties": {
+    "schema_version": {"const": 1},
+    "experiment_id": {"type": "string", "pattern": "^GDT[0-9]{3,}$"},
+    "slug": {"type": "string", "pattern": "^[a-z0-9][a-z0-9_-]*$"},
+    "title": {"type": "string", "minLength": 1},
+    "status": {"type": "string", "minLength": 1},
+    "created": {"type": "string", "format": "date"},
+    "updated": {"type": "string", "format": "date"},
+    "question": {"type": "string"},
+    "claim_ceiling": {"type": "string"},
+    "sealed_data": {
+      "type": "object",
+      "additionalProperties": {"type": "string"},
+      "required": ["f84r"],
+      "properties": {"f84r": {"const": "FORBIDDEN"}}
+    },
+    "commands": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["run", "validate"],
+      "properties": {
+        "run": {"type": "string", "minLength": 1},
+        "validate": {"type": "string", "minLength": 1}
+      }
+    },
+    "dependencies": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {"type": "string", "pattern": "^GDT[0-9]{3,}$"}
+    },
+    "inputs": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/fileBinding"}
+    },
+    "outputs": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/fileBinding"}
+    },
+    "validation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "artifact"],
+      "properties": {
+        "status": {"enum": ["NOT_RUN", "PASS", "FAIL", "BLOCKED"]},
+        "artifact": {"type": ["string", "null"]}
+      }
+    },
+    "artifact_policy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["max_inline_bytes", "large_artifact_justification"],
+      "properties": {
+        "max_inline_bytes": {"type": "integer", "minimum": 1},
+        "large_artifact_justification": {"type": "string"}
+      }
+    }
+  },
+  "$defs": {
+    "fileBinding": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["path", "role", "sha256"],
+      "properties": {
+        "path": {"type": "string", "minLength": 1},
+        "role": {"type": "string", "minLength": 1},
+        "sha256": {
+          "oneOf": [
+            {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+            {"type": "null"}
+          ]
+        }
+      }
+    }
+  }
+}

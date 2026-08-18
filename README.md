@@ -4,17 +4,22 @@ VManus is a provenance-preserving research workspace for structural analysis of
 the Voynich manuscript. It does **not** contain a confirmed translation,
 plaintext, language identification, phonetic alphabet, or English lexicon.
 
-For a concise public account of established results and failures, start with
-[`HIGH_LEVEL_RESULTS.md`](HIGH_LEVEL_RESULTS.md).
+For the concise current account, start with
+[`VOYNICH_CURRENT_ROUTE.md`](VOYNICH_CURRENT_ROUTE.md).
+[`HIGH_LEVEL_RESULTS.md`](HIGH_LEVEL_RESULTS.md) is a dated public synthesis and
+may lag later corrections; it is not the live routing authority.
 
 ## Navigation
 
-For scientific work, read these in order:
+For routine scientific work, read these in order:
 
-1. `VOYNICH_ACTIVE_STATE.md`
-2. `experiments/semantic_assumptions/ACTIVE_EXPERIMENT_LEDGER.tsv`
-3. `experiments/semantic_assumptions/grammar/CONFIRMED_GRAMMAR.md`
-4. `experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv`
+1. [`VOYNICH_CURRENT_ROUTE.md`](VOYNICH_CURRENT_ROUTE.md)
+2. [`experiments/EXPERIMENT_INDEX.md`](experiments/EXPERIMENT_INDEX.md)
+3. The named primary report for the active route
+
+Use `VOYNICH_ACTIVE_STATE.md`, the full active ledger, confirmed grammar, and
+closed-route registry for targeted claim audits and historical reconstruction,
+not as mandatory full reads on every turn.
 
 For repository navigation, use:
 
@@ -51,9 +56,9 @@ layout.
 Create the next experiment with:
 
 ```bash
-python3 tools/new_yolo_experiment.py short_slug
+./vmanus-exp new short_slug
 python3 tools/build_experiment_index.py
-python3 tools/build_experiment_index.py --check
+./vmanus-exp check
 ```
 
 ## Generated and local data

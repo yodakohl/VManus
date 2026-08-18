@@ -10,7 +10,7 @@ The authoritative scientific status remains
 - Experiment-associated tracked files: **4,305** (548.7 MiB)
 - Structured GDT337+ experiments: **0**
 - IDs without a ledger entry: **166**
-- Full machine-readable paths and dependencies: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
+- Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
 
 GDT001–GDT336 are the byte-frozen legacy flat layout. Starting with

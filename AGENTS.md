@@ -1,11 +1,14 @@
 # Workspace continuity instructions
 
-Before any Voynich action, read `VOYNICH_ACTIVE_STATE.md`, then
-`experiments/semantic_assumptions/ACTIVE_EXPERIMENT_LEDGER.tsv`. They are the
-compact authoritative claim registry and routing index. Read only the named
-primary reports needed for the active experiment. `VOYNICH_HANDOFF.md`,
-`VOYNICH_WORKLOG.md`, and the older experiment log/README are recovery archives
-and may contain superseded claims.
+Before any Voynich action, read `VOYNICH_CURRENT_ROUTE.md`, then use
+`experiments/EXPERIMENT_INDEX.tsv` to locate only the primary reports needed for
+the active experiment. The current-route file is the compact authoritative
+routing snapshot. `VOYNICH_ACTIVE_STATE.md` and
+`experiments/semantic_assumptions/ACTIVE_EXPERIMENT_LEDGER.tsv` remain the full
+claim registry and append-only material history; read targeted rows or sections
+when auditing a claim, correcting the route, or checking for duplicate work,
+not on every turn. `VOYNICH_HANDOFF.md`, `VOYNICH_WORKLOG.md`, and the older
+experiment log/README are recovery archives and may contain superseded claims.
 
 - Use subagents only when the user explicitly authorizes them; preserve task
   independence where blinding is part of an experiment.
@@ -28,4 +31,6 @@ and may contain superseded claims.
 - Keep GDT001--GDT336 byte-frozen in the legacy repository-root layout. Starting
   with GDT337, create every new experiment under
   `experiments/yolo/gdtNNN_short_slug/` using `tools/new_yolo_experiment.py`;
-  `tools/build_experiment_index.py --check` enforces this boundary.
+  every such directory must contain a valid `experiment.json` manifest.
+  `./vmanus-exp check` enforces the layout, manifest, index, sealed-data, and
+  staged-tree privacy gates.

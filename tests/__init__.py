@@ -1,0 +1,1 @@
+"""VManus repository infrastructure tests."""

@@ -1,6 +1,7 @@
 # Voynich active state — structural reset baseline
 
-Updated: 2026-08-18. Read this file first, then
+Updated: 2026-08-18. This is the full claim registry. For routine work, read
+`VOYNICH_CURRENT_ROUTE.md` first and open only the relevant sections here and in
 `experiments/semantic_assumptions/ACTIVE_EXPERIMENT_LEDGER.tsv`.
 
 ## Outcome

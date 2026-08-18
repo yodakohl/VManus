@@ -1,0 +1,22 @@
+name: repository-integrity
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  integrity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Compile repository tooling
+        run: python -m py_compile tools/*.py
+      - name: Test repository infrastructure
+        run: python -m unittest tests.test_repository_infrastructure
+      - name: Check generated index
+        run: python tools/build_experiment_index.py --check
+      - name: Check structured experiments and continuity state
+        run: python tools/repository_preflight.py --all
