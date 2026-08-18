@@ -3013,6 +3013,23 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   morphology, function, sound, language, meaning, plaintext, translation, or
   any f84 access.
 
+- GDT290 also rejects the compact latent-class rescue.  It clusters opaque
+  hosts solely from wrapper distributions at their other field positions,
+  forbids the exact target host-position cell, and learns each target-position
+  distribution from hosts outside the target's immutable bucket.  K=4 scores
+  7,347 Voynich events but loses `-.3851` bits/event to the same-host
+  other-position bag; all 8/8 buckets and 4/4 positions are negative, with
+  held-section `-.3955` and held-hand `-.3977`.  K=2 (`-.4397`) and K=8
+  (`-.3089`) also fail everywhere; corrected variable-family maxT is 1.0.
+  Therefore neither one universal transition nor 2/4/8 opaque positional
+  classes explain the GDT286 host-by-position increment.  Treat wrapper
+  selection as exact-host-local, high-capacity, or dependent on an omitted
+  record variable.  Do not promote that interaction as a small productive
+  morphology or reusable grammar rule.  The broader hybrid record-shorthand
+  theory remains possible but now requires a richer host/record selector; no
+  lexical class, function, sound, language, meaning, plaintext, translation,
+  or f84 access follows.
+
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
 the ZL editorial paragraph scaffold, and conditioning on collapsed page, exact
