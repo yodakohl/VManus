@@ -36,7 +36,8 @@ weight. Report event-weighted sensitivity separately. Charge the selected
 nonbaseline model by a two-bit four-model selector.
 
 Use 8,192 fixed-prediction worlds that permute complete target-cell wrapper
-count vectors inside frozen event-count × folio-count bins. This preserves a
+count vectors inside frozen event-count bins `10–19/20–49/50+` crossed with
+folio-count bins `3–4/5–9/10+`. This preserves a
 cell's internal wrapper distribution and approximate opportunity while
 destroying its host/coordinate address. Max-correct over the three nonbaseline
 models. The null is an architectural diagnostic, not a retrained exact

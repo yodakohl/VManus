@@ -48,6 +48,7 @@ def main():
     check("panel_counts", len(panel) == 60 and sum(int(row["event_count"]) for row in panel) == 3135 and len({row["host_id"] for row in panel}) == 20)
     check("withheld", all(row["wrapper_outcome"] == "WITHHELD_UNTIL_SCORING" for row in panel))
     check("models", design["models"] == ["GLOBAL", "COORDINATE", "HOST_SIBLING", "HOST_COORD_ADDITIVE"])
+    check("null_bins", design["null"]["event_count_bins"] == ["10_19", "20_49", "50_PLUS"] and design["null"]["folio_count_bins"] == ["3_4", "5_9", "10_PLUS"])
     check("hashes", all(design["inputs"][name] == sha(R / name) for name in design["inputs"]) and all(design["outputs"][name] == sha(R / name) for name in design["outputs"]))
     validation = {"schema": "GDT324_DESIGN_VALIDATION_V1", "status": "PASS", "checks_passed": len(checks), "checks": checks, "design_sha256": sha(R / "gdt324_design.json"), "f84_rows": 0}
     validation["content_sha256"] = canonical_hash(validation)

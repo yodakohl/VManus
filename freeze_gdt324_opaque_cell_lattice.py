@@ -77,7 +77,7 @@ def main():
         "primary_weighting": "EQUAL_TARGET_CELLS",
         "sensitivity_weighting": "HELD_EVENTS",
         "selector_bits": 2.0,
-        "null": {"worlds": 8192, "seed": 32420260818, "strata": "EVENT_COUNT_BIN_X_FOLIO_COUNT_BIN", "unit": "COMPLETE_CELL_WRAPPER_COUNT_VECTOR", "scope": "FIXED_PREDICTION_MAX_THREE_DIAGNOSTIC"},
+        "null": {"worlds": 8192, "seed": 32420260818, "strata": "EVENT_COUNT_BIN_X_FOLIO_COUNT_BIN", "event_count_bins": ["10_19", "20_49", "50_PLUS"], "folio_count_bins": ["3_4", "5_9", "10_PLUS"], "unit": "COMPLETE_CELL_WRAPPER_COUNT_VECTOR", "scope": "FIXED_PREDICTION_MAX_THREE_DIAGNOSTIC"},
         "decision": {"additive_selector_paid_gain_positive": True, "additive_beats_both_single_axes": True, "max_three_p_le": 0.05},
         "claim_ceiling": "Known recurrent-host opaque compatibility-cell compression only; no new host license morpheme lexical category meaning sound language plaintext or translation.",
         "f84": {"authorized": False, "opened": False, "parsed": False, "retained": False, "joined": False, "scored": False},
