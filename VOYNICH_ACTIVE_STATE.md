@@ -2977,6 +2977,24 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   PAGE_HOST a word.  No morphology, abbreviation, notation identity, language,
   meaning, plaintext, translation, or f84 access follows.
 
+- GDT288 records the current YOLO generative theory rather than another local
+  score.  The leading architecture is a **register-conditioned technical
+  record shorthand with a language-derived or other graphematic payload**:
+  page/register chooses a record template and field slot; an opaque payload
+  family produces PAGE_HOST; outer wrapper is rendered jointly from host and
+  slot; local frame/right family render the edge; DY/B3 close fields or
+  records.  Pure abbreviated natural language remains a plausible payload
+  component but mismatches the Voynich wrapper-led/contextual direction; pure
+  notation explains the compiler but not the broad character-form residual or
+  all calibrated magnitudes.  The hybrid is therefore the working theory, not
+  a confirmed identity.  Six frozen novel predictions now route future work:
+  cross-host wrapper-position transfer, right-family closure specificity,
+  exact-host completion without NEXT_HOST rescue, tuple-over-surface invariance
+  in homologous records, historical technical-shorthand factorization, and
+  many-to-one compiler stripping for any future key.  No English gloss,
+  lexical assignment, language, meaning, plaintext, translation, or f84
+  access was added.
+
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
 the ZL editorial paragraph scaffold, and conditioning on collapsed page, exact
