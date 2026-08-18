@@ -1,0 +1,69 @@
+{
+  "choices": [
+    "NONE",
+    "ch",
+    "d",
+    "s",
+    "q"
+  ],
+  "claim_ceiling": "Five-way stochastic formal selector in two known exact opaque cells only; no unseen cell morphology category meaning sound language plaintext or translation.",
+  "content_sha256": "3de8a74ee8066bdcd83385d85ee8fb9a5469b633499b62cb83e949bfce08b3ec",
+  "decision": {
+    "entry_gain_positive": true,
+    "max3_p_le": 0.05,
+    "null_centered_positive": true,
+    "q_prev_dy_held_matched_delta_positive": true,
+    "q_prev_dy_training_coefficient_positive": true,
+    "s_line_start_held_matched_delta_positive": true,
+    "s_line_start_training_coefficient_positive": true
+  },
+  "f84": {
+    "authorized": false,
+    "joined": false,
+    "opened": false,
+    "parsed": false,
+    "retained": false,
+    "scored": false
+  },
+  "forbidden": [
+    "same_group_renderer_coordinates_as_predictors",
+    "host_glyphs",
+    "host_substrings",
+    "surface_identity_beyond_anonymous_cell"
+  ],
+  "implementation": {
+    "freeze_gdt313_five_way_entry_selector.py": "e177cd1284bb8c9ba244a44776894dbb6c286f20b152ea3decbf9d1f1fb6da2a"
+  },
+  "inputs": {
+    "GDT313_FIVE_WAY_ENTRY_SELECTOR_METHOD.md": "1b5e40b4079f106b23336b8499e3d8dc7668c4615c5c140a618054260be68cb4",
+    "gdt278_native_event_inventory.tsv": "598e9833f3f0f67f187b59153156a776a22f5fa722a6b6428a386c2bb5178b2a",
+    "gdt303_pair_deltas.tsv": "9b5ae35f46d80aed07a54c0329e8d8bd132ce92afc7ff8c792949c3f9cc1725a"
+  },
+  "models": {
+    "CELL": [],
+    "ENTRY_STATE": [
+      "line_first",
+      "prev_dy"
+    ],
+    "LINE_START": [
+      "line_first"
+    ],
+    "PREV_DY": [
+      "prev_dy"
+    ]
+  },
+  "null": {
+    "max_family": 3,
+    "seed": 31320260818,
+    "strata": "CELL_X_REGISTER",
+    "worlds": 8192
+  },
+  "outputs": {
+    "gdt313_capacity.tsv": "8644eb65203a673fef1b90dcbfc0c4bd62f1f026f12bcea443fcd6e073476e09",
+    "gdt313_frozen_panel.tsv": "68b6904e0fbe6b528a32b839906c9b6c637b7102679c95f76bee6a69d7413357"
+  },
+  "ridge": 10.0,
+  "schema": "GDT313_FIVE_WAY_ENTRY_SELECTOR_DESIGN_V1",
+  "split": "INHERIT_GDT311_SHA_FOLIO_SPLIT",
+  "status": "FROZEN_BEFORE_FIVE_WAY_SCORING"
+}
