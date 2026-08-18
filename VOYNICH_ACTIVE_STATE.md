@@ -3745,6 +3745,23 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   decoder. It predicts opaque tuple probability only and supplies no semantic
   role, meaning, language, plaintext, translation, or f84 result.
 
+- GDT337 performs the required score-blind external endpoint census rather than
+  another internal grammar search. Fourteen provenance-bound medieval
+  astronomical/computistical witnesses and eleven geometry-only candidate
+  correspondences are audited against the 45-array/504-slot special-circle
+  inventory and ten-sign/300-position zodiac inventory without loading a
+  Voynich string, tuple, PAGE_HOST, formal-family value, or image. British
+  Library Add MS 25435 is a strong new exact donor: a numbered I--XXVIII lunar
+  wheel with a movable pointer and 28 readable named records. Yet zero
+  candidate has both a text-blind target phase/slot correspondence and
+  disjoint-folio discovery/holdout capacity. f69v has no authorial start or
+  direction and one folio; f68r1 has no authorial 28-order and one folio; the
+  zodiac has seven topologies and zero disjoint-folio repeated-topology pair;
+  the 10+5 panels have no pairing device. Freeze no endpoint and acquire a new
+  target-side authorial relation before joint-tuple grounding. No semantic
+  score, diagram identity, slot value, word, language, plaintext, translation,
+  or f84 access follows.
+
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
 the ZL editorial paragraph scaffold, and conditioning on collapsed page, exact

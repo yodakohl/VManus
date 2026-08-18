@@ -104,6 +104,14 @@ morpheme, plaintext symbol, or semantic role.
 
 - No visual/page annotation currently licenses a manuscript-wide semantic role
   or word meaning.
+- GDT337 audits 14 provenance-bound readable astronomical/computistical
+  witnesses against the text-blind special-circle and zodiac inventories. It
+  finds exact external donors—including British Library Add MS 25435's
+  numbered I–XXVIII lunar wheel with pointer and 28 readable records—but zero
+  endpoint with both a text-blind Voynich slot correspondence and disjoint-
+  folio discovery/holdout capacity. Do not score current 28-, 30-, 7+12-,
+  fourfold-, or 10+5-slot candidates merely because an external count/order is
+  now available.
 - The exposed f57/f77 quality/element decoder was withdrawn after
   look-elsewhere and transfer failures (GDT182–GDT202).
 - Recurrent formulas and universal tuples are retrieval candidates only. Their
@@ -147,14 +155,18 @@ ledger. Use those files for a proposed-route duplicate audit, not on every turn.
 
 ## Next useful route
 
-1. Use GDT327 joint tuples plus the weak GDT336 placement prior as an alignment
-   substrate, never as translated output.
-2. Seek a new provenance-clean external content/referent endpoint that can be
-   joined without selecting it from PAGE_HOST or surface similarity.
-3. Freeze the endpoint and prediction before exposing its target tuple/formal
-   payload.
-4. Compare exact joint-tuple invariance against compiler-coordinate and strong
-   frequency/register/position controls.
+1. Do not score any GDT337 near-match. The external donor side is no longer the
+   only bottleneck; the target lacks authorial phase/ownership and independent-
+   folio replication.
+2. Acquire one genuinely new target relation: either a second independently
+   ordered 28-slot folio, a text-blind zodiac band/start key plus a disjoint-
+   folio repeated topology, or singular homologous slots on at least two
+   discovery folios and one held folio.
+3. Only after that acquisition, use GDT327 joint tuples plus the weak GDT336
+   placement prior as an alignment substrate, never as translated output.
+4. Freeze the endpoint and prediction before exposing its target tuple/formal
+   payload, then compare exact joint-tuple invariance against compiler,
+   frequency, register, position, and layout controls.
 5. Promote nothing beyond anonymous structural dependence unless the external
    endpoint transfers across independent physical folios.
 

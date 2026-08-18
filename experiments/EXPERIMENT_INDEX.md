@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **335**
-- Experiment-associated tracked files: **4,305** (548.7 MiB)
-- Structured GDT337+ experiments: **0**
+- Experiments indexed: **336**
+- Experiment-associated tracked files: **4,319** (548.8 MiB)
+- Structured GDT337+ experiments: **1**
 - IDs without a ledger entry: **166**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT337 | GDT337_blind_external_homologue_census | `NO_VIABLE_FROZEN_ENDPOINT` | [report](../experiments/yolo/gdt337_external_homologue_census/REPORT.md) | 14 | 97.6 KiB | 0 | STRUCTURED_YOLO |
 | GDT336 | GDT336_placement_conditioned_tuple_retrieval | `LINE_PLACEMENT_WEAKLY_IMPROVES_EXACT_TUPLE_RETRIEVAL` | [report](../GDT336_PLACEMENT_CONDITIONED_TUPLE_RETRIEVAL_REPORT.md) | 8 | 22.6 KiB | 2 | LEGACY_ROOT |
 | GDT335 | GDT335_tuple_placement_component_decomposition | `TUPLE_GAIN_IS_LINE_PLACEMENT_NOT_RECORD_FIELD_ORDINAL` | [report](../GDT335_TUPLE_PLACEMENT_COMPONENT_DECOMPOSITION_REPORT.md) | 7 | 12.1 KiB | 2 | LEGACY_ROOT |
 | GDT334 | GDT334_register_conditioned_tuple_placement | `REGISTER_CONDITIONED_TUPLE_PLACEMENT_SUPPORTED_WITH_ONE_WEAK_STRATUM` | [report](../GDT334_REGISTER_CONDITIONED_TUPLE_PLACEMENT_REPORT.md) | 8 | 22.2 KiB | 2 | LEGACY_ROOT |
