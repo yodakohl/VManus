@@ -3574,6 +3574,20 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   renderer parameterization only and adds no license, semantic category,
   meaning, language, plaintext, translation, or f84 result.
 
+- GDT324 then removes every event from one complete compatibility cell and
+  asks whether its eight-way wrapper distribution can be reconstructed from
+  other hosts at the same renderer coordinate, other coordinates of the same
+  opaque PAGE_HOST, or their additive combination. Across 60 target cells
+  (3,135 events, 20 recurrent hosts), coordinate peers gain +2.919
+  cell-equivalent bits (+.919 after the fixed selector; max-three p=1/8193),
+  but same-host siblings lose 30.177 bits and the additive model loses 10.040.
+  Therefore `OPAQUE_COORDINATE_ECOLOGY_ONLY`: a small renderer-coordinate
+  prior transfers across hosts, while a PAGE_HOST does not carry one stable
+  wrapper-license profile across renderer coordinates. Preserve exact joint
+  host×coordinate cells in the executable lexicon. This does not license a new
+  host or identify a morpheme, lexical class, meaning, language, plaintext,
+  translation, or f84 result.
+
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
 the ZL editorial paragraph scaffold, and conditioning on collapsed page, exact
