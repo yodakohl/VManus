@@ -1,0 +1,63 @@
+{
+  "claim_ceiling": "Formal s line-entry calibration only; no shared linguistic function meaning sound language identity plaintext or translation.",
+  "classification": {
+    "enriched": "VOYNICH_RANK1_GAIN_AND_DELTA",
+    "non_specific": "AT_LEAST_TWO_CONTROLS_GAIN_GE_VOYNICH",
+    "otherwise": "MIXED"
+  },
+  "content_sha256": "bae87ef347fa53482e07292cd6020bf0e5da547d2770e22883309987362a9ae3",
+  "eligibility": {
+    "cell_min_non_s": 2,
+    "cell_min_non_s_folios": 2,
+    "cell_min_s": 2,
+    "cell_min_s_folios": 2,
+    "min_cells": 5,
+    "min_events": 100,
+    "min_folios": 5,
+    "min_s_events": 20
+  },
+  "f84": {
+    "authorized": false,
+    "joined": false,
+    "opened": false,
+    "parsed": false,
+    "retained": false,
+    "scored": false
+  },
+  "implementation": {
+    "freeze_gdt315_s_line_entry_controls.py": "64a1a9296add02ea3c84f69f6ae709a4b1934ffe1ce2a92c8ffa29acc5b22326"
+  },
+  "inputs": {
+    "GDT315_S_LINE_ENTRY_CONTROL_CALIBRATION_METHOD.md": "9295abfb000fe725f3fb7bdb2cc776a7798327b99b802dd62022109d8a64a264",
+    "gdt278_native_event_inventory.tsv": "598e9833f3f0f67f187b59153156a776a22f5fa722a6b6428a386c2bb5178b2a",
+    "gdt314_frozen_panel.tsv": "6bdc86ec7f3dea302ab0b5de6ba415b041ebd0dbdb0d897a74e538fa1fba3c28"
+  },
+  "instrument": {
+    "fold": "LEAVE_ONE_PHYSICAL_FOLIO_OUT",
+    "models": [
+      "CELL",
+      "CELL_LINE_START"
+    ],
+    "null_scope": "FIXED_CROSSFIT_ALIGNMENT_DIAGNOSTIC",
+    "null_seed": 31520260818,
+    "null_strata": "CELL_X_REGISTER",
+    "null_worlds": 8192,
+    "ridge": 10.0
+  },
+  "outputs": {
+    "gdt315_capacity.tsv": "8d5d0df40b45b460a0421a7d982cf432cb3cb3651444dd0afb1b5020fa5d7e50",
+    "gdt315_frozen_panel.tsv": "5dfea3b1904af5d93585ccca9d801d4d9bf5e584002110929169be2d07470764"
+  },
+  "powered_panels": [
+    "ARBITRARY_LOCAL_CODEBOOK",
+    "COMPOSITIONAL_TECHNICAL_NOTATION",
+    "HYBRID_SHORTHAND",
+    "IFORAL_1395_1411_GRAPHEMATIC",
+    "LATIN_15C_GRAPHEMATIC",
+    "LATIN_MEDICAL_GRAPHEMATIC",
+    "LATIN_SCHOLASTIC_GRAPHEMATIC",
+    "VOYNICH_REFERENCE"
+  ],
+  "schema": "GDT315_S_LINE_ENTRY_CONTROL_DESIGN_V1",
+  "status": "FROZEN_BEFORE_CONTROL_SCORING"
+}
