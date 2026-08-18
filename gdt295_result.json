@@ -1,0 +1,232 @@
+{
+  "claim_ceiling": "Online page-local parser-defined renderer adaptation only; no page vocabulary meaning lexical identity code value word language plaintext or translation.",
+  "content_sha256": "f751275d11f28b69899d591245ce80cd087a3f2af79f65d4994ccbc4a74e11c2",
+  "documents": {
+    "GDT295_ONLINE_PAGE_LOCAL_RENDERER_METHOD.md": "070eee84efaf67cfeccc88b3afc3baea10a619a3d9669a77b4691a891b310da4",
+    "GDT295_ONLINE_PAGE_LOCAL_RENDERER_REPORT.md": "17c512081a8b8a702fbe2f46c117e4321223fcbd874cbde1723f1366467ccf4f"
+  },
+  "f84": {
+    "input_files": 0,
+    "joined": false,
+    "opened": false,
+    "parsed": false,
+    "retained": false,
+    "scored": false
+  },
+  "frozen_gates": {
+    "at_least_four_of_six_sections_positive": true,
+    "at_least_one_hundred_of_one_hundred_fifty_three_pages_positive": false,
+    "both_prior_sensitivities_positive": false,
+    "maxT_p_le_0_05": false,
+    "total_gain_positive": true
+  },
+  "implementation": {
+    "run_gdt295_online_page_local_renderer.py": "5c396187ac922310ffe78b825222efca548a88fa8fd83528b5690c34db3bf138"
+  },
+  "inputs": {
+    "gdt082_result.json": "7f21cb487fb046312810a1a5bdc9938c969484bf7731ea6c7d852d115ff42600",
+    "gdt278_native_event_inventory.tsv": "598e9833f3f0f67f187b59153156a776a22f5fa722a6b6428a386c2bb5178b2a",
+    "gdt288_result.json": "6c25b01ad9ef117e507a2b1901bd6ac97d4c9cd42bdd09eae646679b16e3176a",
+    "gdt293_result.json": "65bbf6b18948c6fe0ce0d814d9b4c439cbe5a468e585ab3a96a15c02031b9b3f",
+    "gdt294_result.json": "77e255debefaef2a5b35e1f76dd71e3ff688aaff179159f804bd8c824ce39412",
+    "gdt295_capacity.tsv": "088d5b96625e99f3790faca811ec1bca3272c5cb354a1b6783be780aa1be425b",
+    "gdt295_design.json": "8519a5f7e216e0151634de79220068319d6c7aba01b905971f0675253ec8f290",
+    "gdt295_design_validation.json": "fa09f9a3fd51b1e6f5055f2dfe33ae38f61fc9a287a81cbcfffae0606f318d9f",
+    "gdt295_freeze_manifest.tsv": "18556cf552871656b9265a55f5fdc75005774f22405247c70c48dab9e7327d0e"
+  },
+  "new_architectures": 0,
+  "new_corpora": 0,
+  "outputs": {
+    "GDT295_ONLINE_PAGE_LOCAL_RENDERER_REPORT.md": "17c512081a8b8a702fbe2f46c117e4321223fcbd874cbde1723f1366467ccf4f",
+    "gdt295_breakdown.tsv": "7edd6f1434af7a512299a5fbf9f034700d871c9f07b2d5dd207309ebb71bdf64",
+    "gdt295_counterexamples.tsv": "7a32bc1c09ec898c32389be67611000d00a735ec51fbcf82c0ed87791b5cf668",
+    "gdt295_folio_scores.tsv": "97fd4b6907600136b7d305ffd62f9b25a5af5df6ef365a90c67079c255d70dfc",
+    "gdt295_null_results.tsv": "b50cf043b1ff748b219a05390c3840a99d0098a8855d78a8217253e71567cdb1",
+    "gdt295_panel_scores.tsv": "463bff10c44162a04623799fb596cacb6b35b7ff483f4e889a41f615b59b75b8",
+    "gdt295_voynich_sensitivities.tsv": "6637e8371d4148d4ab587490030f04db4f2099d263bcfb2f068f204e81a51915"
+  },
+  "page_host_substrings_mined": 0,
+  "same_line_update_forbidden": true,
+  "schema": "GDT295_ONLINE_PAGE_LOCAL_RENDERER_RESULT_V1",
+  "semantic_assignments": 0,
+  "status": "PAGE_LOCAL_RENDERER_ADAPTATION_WEAK_OR_LOCAL",
+  "summary": [
+    {
+      "capacity_status": "SCORED",
+      "control_id": "AUGSBURG_ACCOUNTS_1402_1424",
+      "eligible_events": 707,
+      "folios": 12,
+      "increments": {
+        "PAGE_HOST_GIVEN_CROSS_FOLIO_POSITION": 0.023648377662,
+        "PAGE_POSITION_GIVEN_PAGE_HOST": 0.00390164556,
+        "TOTAL_PAGE_LOCAL_GAIN": 0.027550023222
+      },
+      "local_p": "1.000000000000",
+      "max_variable_family_p": "1.000000000000",
+      "null_mean": "0.036235938355",
+      "null_mobile_events_world0": 41,
+      "null_sd": "0.002548951920",
+      "null_swappable_events": 384,
+      "observed_z": "-3.407641809774",
+      "pages": 112,
+      "positive_pages": 71,
+      "positive_sections": 1,
+      "sections": 1
+    },
+    {
+      "capacity_status": "SCORED",
+      "control_id": "ARBITRARY_LOCAL_CODEBOOK",
+      "eligible_events": 643,
+      "folios": 141,
+      "increments": {
+        "PAGE_HOST_GIVEN_CROSS_FOLIO_POSITION": 0.030531697764,
+        "PAGE_POSITION_GIVEN_PAGE_HOST": -0.004430477783,
+        "TOTAL_PAGE_LOCAL_GAIN": 0.026101219981
+      },
+      "local_p": "1.000000000000",
+      "max_variable_family_p": "1.000000000000",
+      "null_mean": "0.182479805552",
+      "null_mobile_events_world0": 114,
+      "null_sd": "0.020378661346",
+      "null_swappable_events": 322,
+      "observed_z": "-7.673643666470",
+      "pages": 141,
+      "positive_pages": 32,
+      "positive_sections": 1,
+      "sections": 1
+    },
+    {
+      "capacity_status": "SCORED",
+      "control_id": "COMPOSITIONAL_TECHNICAL_NOTATION",
+      "eligible_events": 1385,
+      "folios": 162,
+      "increments": {
+        "PAGE_HOST_GIVEN_CROSS_FOLIO_POSITION": 0.114673643461,
+        "PAGE_POSITION_GIVEN_PAGE_HOST": -0.007342964829,
+        "TOTAL_PAGE_LOCAL_GAIN": 0.107330678632
+      },
+      "local_p": "1.000000000000",
+      "max_variable_family_p": "1.000000000000",
+      "null_mean": "1.148796980934",
+      "null_mobile_events_world0": 667,
+      "null_sd": "0.059294821584",
+      "null_swappable_events": 1061,
+      "observed_z": "-17.564203323092",
+      "pages": 162,
+      "positive_pages": 65,
+      "positive_sections": 1,
+      "sections": 1
+    },
+    {
+      "capacity_status": "SCORED",
+      "control_id": "HYBRID_SHORTHAND",
+      "eligible_events": 1077,
+      "folios": 162,
+      "increments": {
+        "PAGE_HOST_GIVEN_CROSS_FOLIO_POSITION": 0.095143257772,
+        "PAGE_POSITION_GIVEN_PAGE_HOST": 0.011714053097,
+        "TOTAL_PAGE_LOCAL_GAIN": 0.106857310869
+      },
+      "local_p": "1.000000000000",
+      "max_variable_family_p": "1.000000000000",
+      "null_mean": "0.741930544729",
+      "null_mobile_events_world0": 425,
+      "null_sd": "0.048518890557",
+      "null_swappable_events": 745,
+      "observed_z": "-13.089195292250",
+      "pages": 162,
+      "positive_pages": 69,
+      "positive_sections": 1,
+      "sections": 1
+    },
+    {
+      "capacity_status": "UNSCORED_ZERO_ONLINE_CAPACITY",
+      "control_id": "LATIN_SCHOLASTIC_GRAPHEMATIC",
+      "eligible_events": 0
+    },
+    {
+      "capacity_status": "UNSCORED_ZERO_ONLINE_CAPACITY",
+      "control_id": "LATIN_MEDICAL_GRAPHEMATIC",
+      "eligible_events": 0
+    },
+    {
+      "capacity_status": "UNSCORED_ZERO_ONLINE_CAPACITY",
+      "control_id": "LATIN_15C_GRAPHEMATIC",
+      "eligible_events": 0
+    },
+    {
+      "capacity_status": "SCORED",
+      "control_id": "VOYNICH_REFERENCE",
+      "eligible_events": 2880,
+      "folios": 86,
+      "increments": {
+        "PAGE_HOST_GIVEN_CROSS_FOLIO_POSITION": 0.041254744974,
+        "PAGE_POSITION_GIVEN_PAGE_HOST": -0.013012891412,
+        "TOTAL_PAGE_LOCAL_GAIN": 0.028241853562
+      },
+      "local_p": "1.000000000000",
+      "max_variable_family_p": "1.000000000000",
+      "null_mean": "0.360974040788",
+      "null_mobile_events_world0": 1132,
+      "null_sd": "0.019365822880",
+      "null_swappable_events": 2291,
+      "observed_z": "-17.181412289157",
+      "pages": 153,
+      "positive_pages": 80,
+      "positive_sections": 4,
+      "sections": 6
+    }
+  ],
+  "unscored_zero_capacity_panels": [
+    "LATIN_SCHOLASTIC_GRAPHEMATIC",
+    "LATIN_MEDICAL_GRAPHEMATIC",
+    "LATIN_15C_GRAPHEMATIC"
+  ],
+  "uses_earlier_held_folio_lines": true,
+  "variable_null_panels": [
+    "AUGSBURG_ACCOUNTS_1402_1424",
+    "ARBITRARY_LOCAL_CODEBOOK",
+    "COMPOSITIONAL_TECHNICAL_NOTATION",
+    "HYBRID_SHORTHAND",
+    "VOYNICH_REFERENCE"
+  ],
+  "voynich_sensitivities": [
+    {
+      "PAGE_HOST_GIVEN_CROSS_FOLIO_POSITION": -0.0042736264023890014,
+      "PAGE_POSITION_GIVEN_PAGE_HOST": -0.07443262069366041,
+      "TOTAL_PAGE_LOCAL_GAIN": -0.07870624709604941,
+      "eligible_events": 2880,
+      "prior_mass": 5.0
+    },
+    {
+      "PAGE_HOST_GIVEN_CROSS_FOLIO_POSITION": 0.04545759838895202,
+      "PAGE_POSITION_GIVEN_PAGE_HOST": 0.008319251686672007,
+      "TOTAL_PAGE_LOCAL_GAIN": 0.05377685007562402,
+      "eligible_events": 2880,
+      "prior_mass": 22.0
+    }
+  ],
+  "voynich_summary": {
+    "capacity_status": "SCORED",
+    "control_id": "VOYNICH_REFERENCE",
+    "eligible_events": 2880,
+    "folios": 86,
+    "increments": {
+      "PAGE_HOST_GIVEN_CROSS_FOLIO_POSITION": 0.041254744974,
+      "PAGE_POSITION_GIVEN_PAGE_HOST": -0.013012891412,
+      "TOTAL_PAGE_LOCAL_GAIN": 0.028241853562
+    },
+    "local_p": "1.000000000000",
+    "max_variable_family_p": "1.000000000000",
+    "null_mean": "0.360974040788",
+    "null_mobile_events_world0": 1132,
+    "null_sd": "0.019365822880",
+    "null_swappable_events": 2291,
+    "observed_z": "-17.181412289157",
+    "pages": 153,
+    "positive_pages": 80,
+    "positive_sections": 4,
+    "sections": 6
+  },
+  "zero_null_variance_panels": []
+}

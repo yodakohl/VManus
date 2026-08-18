@@ -3100,6 +3100,22 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   architecture, not productive morphology, a lexical class, word, code value,
   language, meaning, plaintext, translation, or any f84 access.
 
+- GDT295 rejects online page-local rebinding as the explanation for GDT293's
+  strong host-to-renderer channel.  On 2,880 eligible events, using only prior
+  physical lines from the held page adds a small `+.02824` bits/event over the
+  cross-folio host×position model: page-host history contributes `+.04125`,
+  while page-local position gives `-.01301`.  Only 80/153 pages improve, the
+  prior-5 sensitivity reverses to `-.07871`, and the exact page+host null
+  expects much greater apparent gain (`+.36097`), giving local and max-five
+  `p=1.0`.  Four of six sections are positive, but the conjunctive frozen rule
+  fails.  All events on a physical line were scored before that line updated
+  history.  Therefore the best current renderer model remains a broadly
+  reusable **exact host + weak coarse position** license, not a codebook
+  relearned online on each page.  The three Latin panels have zero online
+  same-page capacity and cannot calibrate this endpoint.  No page vocabulary
+  meaning, lexical identity, code value, word, language, plaintext,
+  translation, or f84 access follows.
+
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
 the ZL editorial paragraph scaffold, and conditioning on collapsed page, exact
