@@ -3367,6 +3367,25 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   classifier. No lexical class, morpheme, grammar meaning, sound, language,
   plaintext, translation, or f84 result follows.
 
+- GDT311 then models the operation opportunity after the exact compatible pair
+  is supplied. A deterministic SHA split trains on two thirds of physical
+  folios and scores the unseen third: 150 `ch→s`, 262 `d→s`, and 694
+  neutral→`q` events across all 53 GDT303 exact pairs. Relative to a
+  ridge-shrunk exact-pair rate, the frozen FULL external-context model saves
+  .29473, .08743, and .07413 bits/event respectively; held AUC is .915, .787,
+  and .761. All three exceed the pair-by-register null after max-12 correction
+  (p=1/8193), and even the minimal prior-DY plus physical-line-start model is
+  positive for all three (+.19582, +.07565, +.05175 bits/event). Thus the
+  compatibility list cannot be predicted for unseen hosts, but source-versus-
+  target **choice on an already licensed exact pair is a transferable
+  stochastic boundary/position process**. This is the first executable split
+  of the sparse-operation grammar: memorize the licensed pair; predict its
+  alternant choice from external record context. The operations/pairs were
+  selected on the manuscript in GDT303, so this is deterministic held-folio
+  parameter transfer, not independent operation discovery. It does not make
+  the wrappers linguistic morphemes or identify a grammar category, meaning,
+  sound, language, plaintext, translation, or f84 result.
+
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
 the ZL editorial paragraph scaffold, and conditioning on collapsed page, exact
