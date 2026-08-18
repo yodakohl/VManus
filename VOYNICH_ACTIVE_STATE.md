@@ -2905,6 +2905,26 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   productive morphology, lexical identity, sound, function, language,
   meaning, plaintext, translation, or any f84 access.
 
+- GDT284 calibrates that four-position wrapper fingerprint against eight more
+  frozen known-world panels without changing the GDT283 instrument.  Under the
+  standard held-folio endpoint, no scored control reproduces Voynich's
+  `INITIAL+/INTERNAL+/FINAL-/EOS-` sign pattern; the three closest vectors are
+  the scholastic, medical, and mixed fifteenth-century Latin diplomatic panels,
+  but all three remain positive at both terminal coordinates.  The Nuremberg
+  expanded and diplomatic overlays have zero reusable context under this exact
+  instrument, and the two learned-abbreviation outputs have only one wrapper
+  class, so all four are capacity-unscored rather than negative matches.  The
+  crucial falsifier is the unseen-host sensitivity: after every exact target
+  host identity is excluded from training, Voynich becomes `++++`, matching
+  Augsburg accounts and all three Latin panels across two architecture
+  categories.  Therefore the standard `++--` profile is distinct in this
+  finite calibration panel, but its terminal-negative half does not transfer
+  beyond reusable exact host identities.  Retain onset/internal wrapper-to-form
+  coupling; localize the unexplained terminal penalty to exact-host-supported
+  structure rather than a universal wrapper rule.  This establishes no
+  morphology, abbreviation mechanism, lexical identity, sound, language,
+  meaning, plaintext, translation, or any f84 access.
+
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
 the ZL editorial paragraph scaffold, and conditioning on collapsed page, exact
