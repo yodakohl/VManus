@@ -2925,6 +2925,24 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   morphology, abbreviation mechanism, lexical identity, sound, language,
   meaning, plaintext, translation, or any f84 access.
 
+- GDT285 localizes that terminal residual within the frozen scorer.  Among
+  7,661 Voynich events whose exact PAGE_HOST recurs outside the held folio,
+  the standard wrapper gain is `+.1863` bits/event at onset/internal positions
+  but `-.0840` at final/EOS.  Removing every training occurrence of the exact
+  target host preserves and strengthens onset/internal gain (`+.2945`) while
+  flipping terminal gain positive (`+.0190`).  Removing the same number of
+  non-host training events instead leaves terminal gain negative (`-.0850`).
+  All three Latin controls start terminal-positive and become more positive
+  under exact-host exclusion.  Thus the Voynich terminal penalty requires
+  reusable exact-host training support in this model; it is not a uniform
+  wrapper operation on unseen hosts.  The matched control is exact in removal
+  volume but coarse in opportunity for 50.7% of Voynich donor events, and all
+  modes retain ordinary past-within-page held history, so treat this as a
+  scorer-mechanism localization rather than causal proof about the manuscript.
+  PAGE_HOST remains an opaque parser identity, not a demonstrated lexeme.  No
+  morphology, abbreviation, language, meaning, plaintext, translation, or
+  f84 access follows.
+
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
 the ZL editorial paragraph scaffold, and conditioning on collapsed page, exact
