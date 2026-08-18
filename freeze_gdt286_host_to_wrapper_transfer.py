@@ -1,0 +1,13 @@
+#!/usr/bin/env python3
+"""Freeze GDT286 before wrapper-outcome scoring."""
+from __future__ import annotations
+import csv,hashlib,json
+from pathlib import Path
+R=Path(__file__).resolve().parent;METHOD=R/'GDT286_HOST_TO_WRAPPER_TRANSFER_METHOD.md';DESIGN=R/'gdt286_design.json';MAN=R/'gdt286_freeze_manifest.tsv'
+PANELS=['AUGSBURG_ACCOUNTS_1402_1424','ARBITRARY_LOCAL_CODEBOOK','COMPOSITIONAL_TECHNICAL_NOTATION','HYBRID_SHORTHAND','LATIN_SCHOLASTIC_GRAPHEMATIC','LATIN_MEDICAL_GRAPHEMATIC','LATIN_15C_GRAPHEMATIC','VOYNICH_REFERENCE'];ART=['gdt285_result.json','gdt284_result.json','gdt284_summary.tsv','gdt278_native_event_inventory.tsv','gdt276_design.json']
+def sha(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
+def csha(v):return hashlib.sha256(json.dumps(v,sort_keys=True,ensure_ascii=True,separators=(',',':')).encode()).hexdigest()
+def main():
+ with MAN.open('w',encoding='utf8',newline='') as h:w=csv.DictWriter(h,['artifact','frozen_sha256'],delimiter='\t',lineterminator='\n');w.writeheader();w.writerows([{'artifact':x,'frozen_sha256':sha(R/x)} for x in ART])
+ d={'schema':'GDT286_HOST_TO_WRAPPER_TRANSFER_DESIGN_V1','status':'FROZEN_BEFORE_GDT286_SCORING','panels':PANELS,'events_per_panel':8448,'outcome':'FROZEN_WRAPPER_CLASS','models':['SHAPE_CONTEXT','EXACT_HOST','EXACT_HOST_X_POSITION'],'shape_context':['section','currier','hand','register','within_field_position','host_length','first_host_character','last_host_character'],'global_prior':'DIRICHLET_ONE_HALF','hierarchical_prior_mass':11.0,'primary_split':'HELD_PHYSICAL_FOLIO','voynich_sensitivities':['HELD_SECTION','HELD_HAND'],'null_worlds':64,'null_seed':'GDT286_WITHIN_FOLIO_SHAPE_HOST_ID','null_strata':['physical_folio','section','currier','hand','register','within_field_position','host_length','first_host_character','last_host_character'],'maxT':'MAX_STANDARDIZED_EXACT_HOST_GAIN_OVER_8_PANELS','decision':{'stable':'WRAPPER_PRIMARILY_STABLE_HOST_CLASS','contextual':'WRAPPER_CONTEXT_CONDITIONED_HOST_VARIANT','fail':'WRAPPER_HOST_ASSOCIATION_NOT_TRANSFERABLE','alpha':0.05},'new_corpora':0,'new_architectures':0,'semantic_assignments':0,'page_host_substrings_mined':0,'claim_ceiling':'Opaque exact-host to wrapper-class association only; no lexical class morphology language meaning plaintext or translation.','f84':{'input_files':0,'opened':False,'parsed':False,'retained':False,'joined':False,'scored':False},'freeze_manifest_sha256':sha(MAN),'method_sha256':sha(METHOD),'implementation':{'freeze_gdt286_host_to_wrapper_transfer.py':sha(Path(__file__))}};d['content_sha256']=csha(d);DESIGN.write_text(json.dumps(d,indent=2,sort_keys=True)+'\n');print(json.dumps({'status':d['status'],'content_sha256':d['content_sha256']},sort_keys=True))
+if __name__=='__main__':main()
