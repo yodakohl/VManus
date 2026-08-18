@@ -3219,6 +3219,21 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   formal architecture only and establishes no lexicality, linguistic
   function, meaning, plaintext, translation, or f84 result.
 
+- GDT302 turns that channel into a practical exact-form normalization atlas.
+  Frozen frequency/support thresholds retain 145 complete forms under 37
+  opaque hosts (4,292 events).  Nineteen forms meet the stable physical-role
+  criterion, 31 are provisional, 25 weak, and 70 are counterexamples.  Only
+  three within-host different-role pairs are stable: host `che` has
+  `qotchedy` biased `MIDDLE` versus `tchedy` biased `FIRST`; host `l` has
+  `ldy` biased `LAST` versus both `tol` and `dol` biased `FIRST`.  Other useful
+  candidates include `saiin`→`FIRST`, `dy`→`LAST`, and `sor`→`FIRST` relative
+  to their own exact hosts.  The channel is concentrated: the top 10 and 20
+  positive forms carry 53.0% and 71.8% of positive scored-form gain.  Therefore
+  retain a small host-specific positional-alternant lexicon with many explicit
+  exceptions, not a universal affix grammar.  These arrows denote only
+  physical placement, not grammatical function, lexical meaning, sound,
+  plaintext, translation, or any f84 result.
+
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
 the ZL editorial paragraph scaffold, and conditioning on collapsed page, exact
