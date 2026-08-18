@@ -1,0 +1,53 @@
+{
+  "claim_ceiling": "Fresh-surface physical-line-entry tendency only; no morpheme POS meaning sound language plaintext or translation.",
+  "content_sha256": "dea6f58f7f7f0fe4526d6946e262cad68d36a90211cedd68ec3115027cdd927c",
+  "decision": {
+    "alignment_p_le": 0.05,
+    "gain_positive": true,
+    "matched_delta_positive": true,
+    "positive_coefficients_min": 60,
+    "positive_powered_sections_min": 2
+  },
+  "f84": {
+    "authorized": false,
+    "joined": false,
+    "opened": false,
+    "parsed": false,
+    "retained": false,
+    "scored": false
+  },
+  "fold": "LEAVE_ONE_PHYSICAL_FOLIO_OUT",
+  "forbidden": [
+    "ALL_GDT303_CH_D_S_SURFACES",
+    "same_group_renderer_as_predictor",
+    "host_glyphs",
+    "host_substrings"
+  ],
+  "implementation": {
+    "freeze_gdt314_fresh_s_line_entry.py": "93a6fc3f6f0c9be1cc6ab7a2d53760bbd4c76ece66c29ed5854a92b22207c4f3"
+  },
+  "inputs": {
+    "GDT314_FRESH_S_LINE_ENTRY_METHOD.md": "7a9de49c230cded6713a21339d03021e91874ec67093890421efa6caa59ab885",
+    "gdt278_native_event_inventory.tsv": "598e9833f3f0f67f187b59153156a776a22f5fa722a6b6428a386c2bb5178b2a",
+    "gdt303_pair_deltas.tsv": "9b5ae35f46d80aed07a54c0329e8d8bd132ce92afc7ff8c792949c3f9cc1725a"
+  },
+  "models": {
+    "CELL": [],
+    "CELL_LINE_START": [
+      "line_first"
+    ]
+  },
+  "null": {
+    "scope": "FIXED_CROSSFIT_PREDICTION_ALIGNMENT_DIAGNOSTIC",
+    "seed": 31420260818,
+    "strata": "CELL_X_REGISTER",
+    "worlds": 8192
+  },
+  "outputs": {
+    "gdt314_capacity.tsv": "d63d49e3433470a879c20044dc080131c84045c7ee7a8ae5e63693d1f77813f9",
+    "gdt314_frozen_panel.tsv": "6bdc86ec7f3dea302ab0b5de6ba415b041ebd0dbdb0d897a74e538fa1fba3c28"
+  },
+  "ridge": 10.0,
+  "schema": "GDT314_FRESH_S_LINE_ENTRY_DESIGN_V1",
+  "status": "FROZEN_BEFORE_FRESH_S_SCORING"
+}
