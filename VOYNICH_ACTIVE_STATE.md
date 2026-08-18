@@ -2870,6 +2870,23 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   as a prefix or establish abbreviation, morphology, language, code, notation,
   meaning, plaintext, translation, or any f84 access.
 
+- GDT282 isolates that Voynich outer-wrapper direction from bare/wrapped
+  presence and q frequency without inspecting PAGE_HOST substrings.  Full
+  eight-class wrapper identity beats the exact no-wrapper base by `+.1927`
+  bits/event with held-folio-safe parsing, `+.0255` with whole sections held,
+  and `+.0108` with whole hands held; it also beats the simpler presence model
+  in all three regimes.  The full direction is positive in 5/6 held sections
+  and 3/4 powered held hands.  Exhaustive one-vs-rest probes show that this is
+  distributed unevenly: `sh` is the strongest cross-section/hand class, q and
+  d are weaker, while several classes are neutral or harmful in isolation.
+  `q_flag` is exactly equivalent to `wrapper=q` on all 8,448 events, and adding
+  it to full wrapper identity changes no exact-context score; never count it as
+  an independent formal dimension.  An initial unique-rename “ablation” was
+  correctly discarded before publication because it was a bijection and
+  forced zero loss.  The result supports a transferable opaque wrapper-class
+  channel, not prefix morphology, abbreviation, function, sound, language,
+  meaning, plaintext, translation, or any f84 access.
+
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
 the ZL editorial paragraph scaffold, and conditioning on collapsed page, exact

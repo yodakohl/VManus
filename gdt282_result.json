@@ -1,0 +1,95 @@
+{
+  "claim_ceiling": "Transfer of an opaque wrapper-class character-prediction channel only; no function morphology language meaning plaintext or translation.",
+  "class_probe_rule": "EXHAUSTIVE_ONE_VS_REST_BINARY",
+  "content_sha256": "40b0fac539ca9c9bbc6436c720dfdcaeee4adf472bdfad5d6018856a01590d15",
+  "documents": {
+    "GDT282_OUTER_WRAPPER_CLASS_TRANSFER_METHOD.md": "654db4620019cc5fb12483e3c26abc21527a53dd8805ef70b35e8a31b8e30809",
+    "GDT282_OUTER_WRAPPER_CLASS_TRANSFER_REPORT.md": "91a6f3e633a5fcf77328a2521c5721a476409a2a088696cdfec40b62e64bdded"
+  },
+  "events": 8448,
+  "f84": {
+    "input_files": 0,
+    "joined": false,
+    "opened": false,
+    "parsed": false,
+    "retained": false,
+    "scored": false
+  },
+  "folios": 91,
+  "frozen_gates": {
+    "all_three_total_positive": true,
+    "hands_positive_at_least_3_of_4": true,
+    "identity_beyond_presence_all_three": true,
+    "q_redundancy_exact": true,
+    "sections_positive_at_least_4_of_6": true
+  },
+  "gdt281_immutable": true,
+  "hpr1_semantics_used": 0,
+  "implementation": {
+    "run_gdt282_outer_wrapper_class_transfer.py": "03ca8f10c24ac5e2319fe39f499b123d921fd666a5a341ed04d48941bf6c08d9"
+  },
+  "inputs": {
+    "gdt278_native_event_inventory.tsv": "598e9833f3f0f67f187b59153156a776a22f5fa722a6b6428a386c2bb5178b2a",
+    "gdt281_result.json": "91a9b5a39bd81de6bb534a03e9240de7de7fd45b3a4f624605127d4532bfd4fe",
+    "gdt282_design.json": "198c660238b0887660089d4fe2efea08f845dc4f76eec5f4f4b9301f5dc5c6e4",
+    "gdt282_design_validation.json": "b194d957760027d991237710ddc360b97ec97af02e9a9db25866139ada9644cb",
+    "gdt282_gdt281_freeze_manifest.tsv": "fe4fafb33960fc2a13e9f4d5c0b3b13deff849713d58f589482e2618f64ecad3"
+  },
+  "models": [
+    "BASE_NO_WRAPPER",
+    "WRAPPER_PRESENCE",
+    "Q_BINARY",
+    "FULL_WRAPPER_IDENTITY",
+    "FULL_WRAPPER_PLUS_Q_REDUNDANCY"
+  ],
+  "new_corpora": 0,
+  "outputs": {
+    "GDT282_OUTER_WRAPPER_CLASS_TRANSFER_REPORT.md": "91a6f3e633a5fcf77328a2521c5721a476409a2a088696cdfec40b62e64bdded",
+    "gdt282_counterexamples.tsv": "df1348ec07d68ecfba19f46abb1688c780456561f570a6f03ddc073312e3af44",
+    "gdt282_model_scores.tsv": "624a671df3459012957b6b77c8ffa22e63dce25983d3362b2419db06d0aeb571",
+    "gdt282_null_results.tsv": "21500e4196c1540ab5f37650ff5150c45b2f6ba0bc18a3ace65b9bd3d8960e36",
+    "gdt282_transfer_folds.tsv": "c31b8a11c66399fcd3feca409911f533f5e4e19267f7911d9f01304e4fcb26da",
+    "gdt282_wrapper_class_probes.tsv": "83417d70ba00bb448f6410242cfde4d9eae4e02c261447c738df979ad243f04b",
+    "gdt282_wrapper_counts.tsv": "b643c4f8509e145e876985ecd9ac2ed544b2a0dfdb988175f1276af0a908f25e"
+  },
+  "page_host_substrings_mined": 0,
+  "positive_hands": 3,
+  "positive_sections": 5,
+  "powered_hands": 4,
+  "powered_sections": 6,
+  "q_flag_redundant_with_wrapper_q": true,
+  "regime_checks": {
+    "HELD_HAND_PUBLISHED": {
+      "full_gain": 0.01077264583,
+      "full_positive": true,
+      "identity_beyond_presence_positive": true,
+      "presence_gain": 0.002335861122
+    },
+    "HELD_SECTION_PUBLISHED": {
+      "full_gain": 0.025496919908,
+      "full_positive": true,
+      "identity_beyond_presence_positive": true,
+      "presence_gain": 0.010076595188
+    },
+    "LOFO_SAFE_HELD_FOLIO": {
+      "full_gain": 0.192708957101,
+      "full_positive": true,
+      "identity_beyond_presence_positive": true,
+      "presence_gain": 0.091259718213
+    }
+  },
+  "schema": "GDT282_OUTER_WRAPPER_CLASS_TRANSFER_RESULT_V1",
+  "semantic_assignments": 0,
+  "status": "OUTER_WRAPPER_IDENTITY_TRANSFERS_ACROSS_REGISTERS",
+  "superseded_invalid_probe": "UNIQUE_RENAME_IS_BIJECTIVE_ZERO_INFORMATION",
+  "wrapper_classes": [
+    "NONE",
+    "q",
+    "ch",
+    "d",
+    "sh",
+    "che",
+    "t",
+    "s"
+  ]
+}
