@@ -3133,6 +3133,23 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   word, code value, sound, language, meaning, plaintext, translation, or f84
   access.
 
+- GDT297 supplies the necessary mechanistic correction to that atlas.  Joining
+  all 5,715 events back to their published complete source groups shows that,
+  within every one of the 59 exact hosts, renderer tuple and raw surface form
+  are bijective.  Consequently the held top-1 renderer prediction is also the
+  held top-1 prediction of the corresponding whole-form alternant.  Only
+  `lche` has one strict surface (`lchedy`, 42/42); the other four canonical
+  atlas candidates are dominant but nonunique whole forms (`cthol` 29/30,
+  `cthor` 19/20, `qokeedy` 99/126 for host `okee`, and `qokeey` 90/115 for
+  host `okeey`).  Retain GDT293 as a strong exact-host completion statistic
+  and GDT296 as a useful normalization inventory, but do not cite either as
+  evidence that a renderer generalizes independently of whole-form memory.
+  GDT289--290 already failed the relevant cross-host/compact-class transfer.
+  The executable model must therefore treat exact host+renderer as a high-
+  capacity surface lexicon until an unseen-host alternant is predicted.  This
+  does not establish or reject lexicality in general and supplies no word,
+  morpheme, sound, language, meaning, plaintext, translation, or f84 access.
+
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
 the ZL editorial paragraph scaffold, and conditioning on collapsed page, exact
