@@ -70,6 +70,19 @@ worlds with seed family
 `GDT289_HELD_WRAPPER_ALIGNMENT|panel|world|stratum`.
 Report local and standardized max-eight inclusive p-values.
 
+### Pre-score capacity correction
+
+The first authoritative scorer attempt stopped before writing any result when
+the standardized family assertion found exact zero null variance in four
+panels.  A capacity-only rerun exposed only event counts, mobile-label counts,
+and null standard deviations—not observed effect sizes.  Augsburg and all
+three Latin diplomatic panels have mobile held labels but invariant paired
+bag-versus-transfer contrast under every exact-stratum permutation.  Retain
+their observed scores and inclusive local tails descriptively, but exclude
+them from standardized maxT.  The corrected family is therefore max-four over
+Voynich, lexical A, factorial B, and human-grown B2.  This rule is frozen before
+any target effect or decision is published.
+
 ## Frozen decision
 
 Call `LOW_COMPLEXITY_CROSS_HOST_POSITION_RULE_SUPPORTED` only if Voynich:
@@ -77,7 +90,7 @@ Call `LOW_COMPLEXITY_CROSS_HOST_POSITION_RULE_SUPPORTED` only if Voynich:
 - has positive primary gain;
 - has positive gain in at least six of eight target-host buckets;
 - has positive gain in at least three of four target positions;
-- has max-eight `p <= .05`; and
+- has corrected max-four `p <= .05`; and
 - has positive gain in both held-section and held-hand sensitivities.
 
 Otherwise call `HOST_POSITION_EFFECT_REQUIRES_HOST_SPECIFIC_TABLE`.  If fewer
