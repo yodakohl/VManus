@@ -3600,6 +3600,22 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   licenses remain the unresolved bottleneck; no host identity, meaning,
   language, plaintext, translation, or f84 result follows.
 
+- GDT326 directly tests whether PAGE_HOST can nevertheless act as an
+  independently reusable payload across compiler coordinates. In each of 315
+  targets on 76 held folios, both the opaque host and full coordinate are seen
+  in training but their exact edge is new. The register table costs 4.6763
+  folio-balanced bits/event and scores 50/315 top-1. Exact host tables and
+  five-component host-factorial models are much worse: 5.8159 and 5.7792
+  bits/event, 0 and 2 top-1, with -86.61/-83.82 folio-equivalent gains. Adding
+  register to the host factorial falls to -100.66, improves only 10/76
+  folios, and has max-four p=1. Therefore
+  `HOST_COORDINATE_TUPLE_REMAINS_LEXICALIZED`: PAGE_HOST is not supported as
+  an independently recombining content value under this held-edge test. The
+  current operative symbol must remain the joint host×compiler-coordinate
+  state, plus GDT321's two external entry selectors. Here `lexicalized` means
+  formally memorized, not a linguistic word. No semantic category, meaning,
+  language, plaintext, translation, or f84 result follows.
+
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
 the ZL editorial paragraph scaffold, and conditioning on collapsed page, exact
