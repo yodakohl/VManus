@@ -1,0 +1,19 @@
+{
+  "schema": "GDT341_COMPARATOR_DESIGN_V1",
+  "date": "2026-08-18",
+  "status": "FROZEN_BEFORE_VOYNICH_TUPLE_SCORING",
+  "collections": ["b4", "b6", "br1", "bs1", "gr1", "w1"],
+  "parallel_truth": {"one_normalized_title": true, "different_collection": true, "minimum_shared_concept_ids": 2, "different_normalized_surface_hash": true},
+  "field_signature": ["unit_count_bucket", "new_id_count_bucket", "returning_id_count_bucket", "continuing_id_count_bucket", "branching_id_count_bucket", "record_end"],
+  "count_buckets": [1, 2, 3, 4],
+  "models": ["SIZE_ONLY", "UNORDERED_GRAPH", "ORDERED_FIELD_GRAPH", "ORDERED_REPEAT_GRAPH", "GLOBAL_OPAQUE_ID_CEILING"],
+  "selection_eligible": ["ORDERED_FIELD_GRAPH", "ORDERED_REPEAT_GRAPH"],
+  "ordered_repeat_weights": {"ordered_alignment": 0.70, "repeat_edge_jaccard": 0.20, "record_size_similarity": 0.10},
+  "retrieval": {"mrr_cutoff": 100, "top_k": [1, 5], "tie_break": "candidate_record_id_lexical"},
+  "null": {"worlds": 2048, "seed": 341176, "strata": ["held_collection", "unit_count_bucket", "field_count_bucket"], "max_family": 2},
+  "gates": {"positive_folds_min": 4, "max_two_p_max": 0.05, "must_beat": ["SIZE_ONLY", "UNORDERED_GRAPH"]},
+  "target_panels": {"RECIPE_STARS_S": {"section": "S", "register": "STARS_RECIPE_B"}, "PHARMA_P": {"section": "P", "register": "OTHER_A"}},
+  "target_null": {"worlds": 4096, "seed": 341327, "max_family": 4, "minimum_records": 20, "minimum_folios": 5},
+  "voynich_target_values_inspected_before_freeze": false,
+  "sealed": {"f84": "FORBIDDEN"}
+}

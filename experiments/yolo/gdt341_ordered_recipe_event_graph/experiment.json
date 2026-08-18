@@ -1,0 +1,51 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Comparator calibration only: identity-free ordered field/repeat topology did not outperform unordered anonymous recurrence for retrieving wording-distinct parallel medieval recipes. No Voynich target join, event role, tuple or field meaning, language, plaintext, translation, or f84 result.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt341_ordered_recipe_event_graph/src/run_comparators.py",
+    "validate": "python3 experiments/yolo/gdt341_ordered_recipe_event_graph/src/validate_comparators.py"
+  },
+  "created": "2026-08-18",
+  "dependencies": ["GDT176", "GDT340", "GDT327"],
+  "experiment_id": "GDT341",
+  "inputs": [
+    {"path": "experiments/yolo/gdt341_ordered_recipe_event_graph/METHOD.md", "role": "frozen comparator-first ordered-event-graph method", "sha256": "89618b85e7555fd03248f1d6dd0e3dadd2f74df9c74ce118a3188790c5c915ee"},
+    {"path": "experiments/yolo/gdt341_ordered_recipe_event_graph/artifacts/gdt341_comparator_design.json", "role": "frozen graph representations folds controls and gate", "sha256": "fc7a85e215c031cff295b2fbda4a5e88496d8dfc5e0ebc76a7a13d7a4b9706c0"},
+    {"path": "gdt176_source_freeze.json", "role": "frozen CoReMA source provenance and content hashes", "sha256": "0b1a9b8d72debfe09c55544b32ddfbb2386da578413adab027c9d7a3a40525e5"},
+    {"path": "gdt176_corema_collection_manifest.tsv", "role": "six-collection comparator manifest", "sha256": "d879dce2146c6965db583b2f6cef02d7d1c675f9b69b96a9e9451c24a996da76"},
+    {"path": "gdt176_corema_role_oracle.tsv", "role": "sealed comparator truth used only for parallel identity and post-ranking calibration", "sha256": "170afc09327d7e2589107d1f4bd28f7725bfb8bcedcdd84bb9e7fb1c2c7f24ec"}
+  ],
+  "outputs": [
+    {"path": "experiments/yolo/gdt341_ordered_recipe_event_graph/README.md", "role": "experiment entry point", "sha256": "b528e1c70196aa3074984ff74e0b18fe30d96273a71f1762b46678e0b0e17b75"},
+    {"path": "experiments/yolo/gdt341_ordered_recipe_event_graph/SOURCE_AUDIT.md", "role": "source-only parallel-recipe capacity audit", "sha256": "ae31fdd19d01025c860512969628310b68937008a4c9966154bda8006d144452"},
+    {"path": "experiments/yolo/gdt341_ordered_recipe_event_graph/COMPARATOR_REPORT.md", "role": "held-collection calibration report", "sha256": "56f4602da9539b8e5e84ea6d4146922fb3c6a5dc5530945833608ea0b25feb44"},
+    {"path": "experiments/yolo/gdt341_ordered_recipe_event_graph/artifacts/README.md", "role": "artifact schema index", "sha256": "8f605b16452ca1d1414ca2d9e38605ace71391d62e4e29a969f2087fe5446a10"},
+    {"path": "experiments/yolo/gdt341_ordered_recipe_event_graph/artifacts/gdt341_parallel_recipe_census.tsv", "role": "wording-distinct cross-collection parallel-pair census", "sha256": "d0439a434976dd69528ff173053fc3e3fd5bc546f2fb5c0a366cca093484b5fc"},
+    {"path": "experiments/yolo/gdt341_ordered_recipe_event_graph/artifacts/gdt341_comparator_folds.tsv", "role": "held-collection fold scores", "sha256": "d062b41a260a9de6b9c52556958d0dd81ded5cf36dd91020ba757e01825b2a69"},
+    {"path": "experiments/yolo/gdt341_ordered_recipe_event_graph/artifacts/gdt341_comparator_retrieval.tsv", "role": "record-level retrieval outcomes", "sha256": "1e81925fd4d9ef3afaccbf1e115ac41507bbdb8d0599358513520b240b99a591"},
+    {"path": "experiments/yolo/gdt341_ordered_recipe_event_graph/artifacts/gdt341_comparator_models.tsv", "role": "model summary and selection gate", "sha256": "9a5dc77b0fa76437162f7afe958aeca0300c56fc3b1978fb0b7f45e05a63f473"},
+    {"path": "experiments/yolo/gdt341_ordered_recipe_event_graph/artifacts/gdt341_comparator_null.tsv", "role": "held-collection truth-bundle permutation null", "sha256": "9bf9793b17cbd30585b0df8d99e0b53e67ac2d2e683c4c20088001fa569c2bde"},
+    {"path": "experiments/yolo/gdt341_ordered_recipe_event_graph/artifacts/gdt341_graph_freeze.json", "role": "failed comparator graph freeze and no-target decision", "sha256": "7a864984e6cea53846906d3170f134d9508a555116f7a06704a055c3c8778256"},
+    {"path": "experiments/yolo/gdt341_ordered_recipe_event_graph/artifacts/gdt341_comparator_result.json", "role": "compact comparator result", "sha256": "2150d9f734ecfa0feccbc4e28177fc56eb7e86e78e81ccb44b201a26eaaf1b53"},
+    {"path": "experiments/yolo/gdt341_ordered_recipe_event_graph/artifacts/gdt341_counterexamples.tsv", "role": "calibration failures and counterexamples", "sha256": "18f2efc42fdee80f4305979a8da5dfaac92e286b5c623e5df22de11125e8da6c"},
+    {"path": "experiments/yolo/gdt341_ordered_recipe_event_graph/artifacts/gdt341_comparator_validation.json", "role": "independent comparator validation", "sha256": "022f62a1134982e4737a52f4c26dda099c57cbff41df9e7c0ed76fd85fc1c0b3"},
+    {"path": "experiments/yolo/gdt341_ordered_recipe_event_graph/src/run_comparators.py", "role": "comparator scorer", "sha256": "0704e8c2dcab4ede37c88363e58813dcf2e4fd8620d938611dee4f02a1f0bf8c"},
+    {"path": "experiments/yolo/gdt341_ordered_recipe_event_graph/src/validate_comparators.py", "role": "nonimporting comparator validator", "sha256": "6f37bb225cfec6ff32bc228a9414bd74d82b1ed385fe53b0e5e29a45960549e0"}
+  ],
+  "question": "Can wording-distinct parallel medieval recipes be recovered as the same anonymized ordered event graph before applying that graph unchanged to Recipe/Pharma Voynich records?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "ordered_recipe_event_graph",
+  "status": "NO_COMPARATOR_GRAPH_CALIBRATION",
+  "title": "Ordered recipe event graph calibration",
+  "updated": "2026-08-18",
+  "validation": {
+    "artifact": "experiments/yolo/gdt341_ordered_recipe_event_graph/artifacts/gdt341_comparator_validation.json",
+    "status": "PASS"
+  }
+}

@@ -110,6 +110,16 @@ morpheme, plaintext symbol, or semantic role.
   zero records mobile under the exact size/field null. Retain the readable
   ontology as calibration; do not assign a Voynich field, tuple, or record an
   event meaning.
+- GDT341 then preserved field order, repeated-entity links, transition,
+  continuation, branching, and closure on 657 wording-distinct
+  cross-collection parallel-recipe pairs. The best ordered graph reached
+  284/688 top-1 retrieval and MRR .468, but the unordered recurrence graph was
+  better at 295/688 and MRR .496; the ordered model improved over both controls
+  in only 2/6 held collections. An exact opaque-identity ceiling reached
+  561/688 and MRR .850. Parallel recipe identity is therefore real, but much of
+  it resides in repeated lexical/entity identity and unordered incidence rather
+  than a transferable identity-free process order. The comparator gate failed,
+  so no GDT327 Voynich target row was joined or scored.
 
 ## Calibration constraints
 
@@ -176,6 +186,8 @@ falsifier:
   comparator failed cross-corpus transfer;
 - complete-record Recipe/Pharma event-schema transfer from current exact tuples
   after GDT340's Recipe reversal and Pharma capacity failure;
+- identity-free ordered recipe-event graph transfer after GDT341's readable
+  comparator was inferior to unordered recurrence;
 - f57/f77 quality, element, process, or lexical assignments.
 
 The complete route memory remains in
@@ -199,6 +211,11 @@ ledger. Use those files for a proposed-route duplicate audit, not on every turn.
 5. Promote nothing beyond anonymous structural dependence unless the external
    endpoint transfers across independent physical folios.
 
+GDT341 additionally shows that a future readable-recipe instrument must retain
+some independently normalized repeated-entity identity or another stable
+cross-wording anchor; process order alone is not an adequate bridge. Such an
+anchor must be externally defined before any Voynich tuple is inspected.
+
 If no new external endpoint exists, improve instrumentation or acquire new
 evidence rather than mining another internal string feature.
 
@@ -217,6 +234,7 @@ evidence rather than mining another internal string feature.
 - `experiments/yolo/gdt338_renderer_invariant_equivalence/REPORT.md`
 - `experiments/yolo/gdt339_comparator_first_semantic_incidence/REPORT.md`
 - `experiments/yolo/gdt340_recipe_pharma_section_semantic_schema/REPORT.md`
+- `experiments/yolo/gdt341_ordered_recipe_event_graph/COMPARATOR_REPORT.md`
 - `GDT330_F84R_METADATA_ACCESS_CORRECTION.md`
 
 Use `experiments/EXPERIMENT_INDEX.tsv` for exact paths, dependencies, runners,
