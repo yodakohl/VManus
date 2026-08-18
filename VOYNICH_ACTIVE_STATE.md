@@ -3315,6 +3315,22 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   a morpheme, grammar category, meaning, sound, language, plaintext,
   translation, or f84 result.
 
+- GDT308 updates the executable YOLO grammar without scoring a new row.  The
+  GDT298 joint-form lexicon is retained, but it is no longer the whole
+  renderer story: a small **compatibility-licensed shared-operation** layer
+  sits inside the much larger host-specific alternant table.  The current
+  generator is page/register → record template → field opportunity → unknown
+  payload/form entry → joint `(PAGE_HOST, renderer)` alternant → optional
+  sparse operation → local frame/right edge/DY-B3 closure → visible group.
+  `ch→s` and `d→s` are the only domain-stable operations in this update;
+  neutral→`q` remains a post-DY host/register ecology with a domain-mixed
+  physical-position vector.  This resolves GDT298's predicted unseen-host
+  alternant test narrowly rather than authorizing a universal affix grammar.
+  Any future decoder must marginalize over whole-form alternants plus sparse
+  licensed operations; blindly stripping all wrappers remains unsupported.
+  This is a formal working architecture, not a word, morpheme, meaning, sound,
+  language, plaintext, translation, or f84 result.
+
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
 the ZL editorial paragraph scaffold, and conditioning on collapsed page, exact
