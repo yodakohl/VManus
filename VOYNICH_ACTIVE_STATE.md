@@ -3588,6 +3588,18 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   host or identify a morpheme, lexical class, meaning, language, plaintext,
   translation, or f84 result.
 
+- GDT325 prospectively tests that coordinate lead on 94 lower-support cells
+  (609 events, 85 folios, 84 hosts) excluded from the powered GDT324 training
+  threshold. Coordinate backoff loses 17.914 cell-equivalent bits and 119.94
+  event-weighted bits versus the powered global prior; adding the frozen
+  GDT322 s/q rules loses 18.170 and 121.04. Coordinate gain is negative in all
+  B/H/S sections and max-four p=1. Therefore
+  `SPARSE_CELL_COORDINATE_BACKOFF_NOT_SUPPORTED`: GDT324's small coordinate
+  ecology is frequent-cell-local and must not replace GDT322's
+  `UNLICENSED_OR_UNKNOWN` policy for sparse or unseen cells. Exact cell
+  licenses remain the unresolved bottleneck; no host identity, meaning,
+  language, plaintext, translation, or f84 result follows.
+
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
 the ZL editorial paragraph scaffold, and conditioning on collapsed page, exact
