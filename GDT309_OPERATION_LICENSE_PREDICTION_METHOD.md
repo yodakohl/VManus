@@ -29,7 +29,7 @@ surface identities are forbidden predictors.  Freeze host-level summaries:
 ## Frozen score and null
 
 Use one fixed ridge-10 linear-probability model and analytic leave-one-host-out
-predictions, clipped only for reporting.  For each operation and each of
+predictions, clipped to `[0.01, 0.99]` before every Brier/AUC/AP score.  For each operation and each of
 `LAYOUT`, `COMPILER`, `REGISTER`, and `FULL`, report Brier improvement over
 `FREQUENCY`, ROC AUC, and average precision.
 

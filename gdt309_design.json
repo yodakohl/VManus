@@ -1,6 +1,6 @@
 {
   "claim_ceiling": "Opaque operation-license structural prediction only; no lexical class grammar semantics sound language plaintext meaning or translation.",
-  "content_sha256": "eaaab9b9299c195d7d969d431f7424ee7b26542e4dd76cbf90d1e504c93a1405",
+  "content_sha256": "55d34a4f46cf7a141242d9d991671cac78adad3bb28c76c6072b884383a9c4fa",
   "decision": {
     "full_auc_minimum": 0.65,
     "full_brier_gain_positive": true,
@@ -27,10 +27,10 @@
     "minimum_eligible_forms": 2
   },
   "implementation": {
-    "freeze_gdt309_operation_license.py": "7f661865143932a7fb080cf0a65256fb5e2e3e599a0bb7066a50ed5cecc186c3"
+    "freeze_gdt309_operation_license.py": "87322b778dd761c6a95fbb0f6da6b708dbbc9f3e44ab30182b679cb08f242a1c"
   },
   "inputs": {
-    "GDT309_OPERATION_LICENSE_PREDICTION_METHOD.md": "2e3e7b0d99a49abe75ad643535f07b6f564338f06fe9f3db074122b01999ebbb",
+    "GDT309_OPERATION_LICENSE_PREDICTION_METHOD.md": "3020384a3ab7fe0c15fd64ba362d07a2c40c1f0718b17be916c95861c568f966",
     "gdt278_native_event_inventory.tsv": "598e9833f3f0f67f187b59153156a776a22f5fa722a6b6428a386c2bb5178b2a",
     "gdt303_pair_deltas.tsv": "9b5ae35f46d80aed07a54c0329e8d8bd132ce92afc7ff8c792949c3f9cc1725a"
   },
@@ -134,6 +134,10 @@
     "gdt309_capacity.tsv": "b717ef85559c61520a40ec2eabfefcd16b28ad0ed936ac555a40d00564780b03",
     "gdt309_host_features.tsv": "1630573aa448cbfb7ebe2c8cb6b4dac8246f33d69b5fa3f657bb0577ad094251"
   },
+  "prediction_clip": [
+    0.01,
+    0.99
+  ],
   "ridge": 10.0,
   "schema": "GDT309_OPERATION_LICENSE_PREDICTION_DESIGN_V1",
   "status": "FROZEN_BEFORE_LICENSE_PREDICTION_SCORING"
