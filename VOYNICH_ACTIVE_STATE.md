@@ -3670,6 +3670,17 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   global page tables require raw-line whitelisting before parsing; no further
   f84r access is authorized without explicit permission.
 
+- GDT331 asks whether any recurrent formula carries a stable surrounding
+  line/record template after exactly matching register, formula length, and
+  field ordinal. The best two-host formula has context agreement .600 versus
+  null .435 (local p=.0464) but max-44 p=.5031. The three-host GDT328 lead is
+  essentially null: .533 versus .500, z=.194, local p=.291, max-44 p=1. Its
+  preceding field lengths are 1, 3, and 5+, and its following fields differ.
+  Therefore `NO_RECURRENT_FORMULA_HAS_SEARCH_STABLE_EXTERNAL_TEMPLATE`: the
+  lead is portable stock field material, not a fixed whole-record schema or
+  identified semantic slot. No meaning, language, plaintext, translation, or
+  f84 result follows.
+
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
 the ZL editorial paragraph scaffold, and conditioning on collapsed page, exact
