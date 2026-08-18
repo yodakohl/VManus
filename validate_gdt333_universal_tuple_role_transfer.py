@@ -1,0 +1,12 @@
+#!/usr/bin/env python3
+"""Validate retained GDT333 counts, arithmetic, and provenance."""
+import csv,hashlib,json
+from pathlib import Path
+R=Path(__file__).resolve().parent;P=R/'gdt333_result.json';OUT=R/'gdt333_validation.json'
+def sha(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
+def can(v):return hashlib.sha256(json.dumps(v,sort_keys=True,ensure_ascii=True,separators=(',',':')).encode()).hexdigest()
+def read(n):
+ with (R/n).open(encoding='utf8',newline='') as h:return list(csv.DictReader(h,delimiter='\t'))
+def main():
+ v=json.loads(P.read_text());s=v.pop('content_sha256');ts=read('gdt333_tuple_role_scores.tsv');rs=read('gdt333_register_scores.tsv');src=read('gdt327_joint_tuple_interlinear.tsv');z=v['summary'];checks={'content':s==can(v),'source':len(src)==8448 and not any(x['page'].startswith('f84') or x['locus'].startswith('f84') for x in src),'tuples':len(ts)==z['tuples']==53,'events':sum(int(x['events']) for x in rs)==z['events']==3836,'components':sum(int(x['component_predictions']) for x in rs)==z['component_predictions']==15344,'registers':len(rs)==5,'gain_sum':abs(sum(float(x['tuple_gain_vs_coordinate']) for x in rs)-z['tuple_gain_vs_coordinate'])<1e-8,'positive_registers':sum(float(x['tuple_gain_vs_coordinate'])>0 for x in rs)==z['positive_registers']==3,'tuple_gains':abs(sum(float(x['total_gain_vs_coordinate']) for x in ts)-z['tuple_gain_vs_coordinate'])<1e-8,'no_all5':sum(int(x['positive_registers'])==5 for x in ts)==z['all_five_positive_tuples']==0,'four_plus':sum(int(x['positive_registers'])>=4 for x in ts)==z['at_least_four_positive_tuples']==8,'unassigned':all(x['semantic_state']==x['translation_state']=='UNASSIGNED' for x in ts),'inputs':all(v['inputs'][n]==sha(R/n) for n in v['inputs']),'docs':all(v['documents'][n]==sha(R/n) for n in v['documents']),'impl':all(v['implementation'][n]==sha(R/n) for n in v['implementation']),'outputs':all(v['outputs'][n]==sha(R/n) for n in v['outputs']),'f84':v['f84']['input_rows']==0 and not any(x for k,x in v['f84'].items() if k!='input_rows')};assert all(checks.values()),checks;q={'schema':'GDT333_VALIDATION_V1','status':'PASS','scope':'RETAINED_HELD_REGISTER_ARITHMETIC_COUNTS_HASHES','checks_passed':len(checks),'result_sha256':sha(P),'note':'Integrity and arithmetic validation; model refit is not independently replayed.'};q['content_sha256']=can(q);OUT.write_text(json.dumps(q,indent=2,sort_keys=True)+'\n');print(json.dumps({'status':'PASS','checks':len(checks)},sort_keys=True))
+if __name__=='__main__':main()

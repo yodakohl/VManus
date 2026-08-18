@@ -1,0 +1,42 @@
+{
+  "claim_ceiling": "Register-held abstract placement only; no stable semantic role meaning plaintext or translation.",
+  "content_sha256": "bb830feced7d0df303443f3c1a956d9089f8c0ca8ef523ec046cdea446569173",
+  "documents": {
+    "GDT333_UNIVERSAL_TUPLE_ROLE_TRANSFER_METHOD.md": "ad3335de8fb9fd9d01f48669cd63c37192b96567cace8e3e779bfa2cd1317cc1",
+    "GDT333_UNIVERSAL_TUPLE_ROLE_TRANSFER_REPORT.md": "08fda0bda5e973a66839b8f1edac1967f0ca3043fa3e29ef57b9d4c29e9fcf62"
+  },
+  "f84": {
+    "input_rows": 0,
+    "joined": false,
+    "opened": false,
+    "retained": false,
+    "scored": false
+  },
+  "implementation": {
+    "run_gdt333_universal_tuple_role_transfer.py": "e5e831b0fa13814a04230b2424dcd92613a81a83e5b872e810fa7c0d962878ea"
+  },
+  "inputs": {
+    "gdt327_joint_tuple_interlinear.tsv": "7eba46774be44992064cc114f67329723ac7bf589321b0d763fb7f7f748cc1e9",
+    "gdt332_joint_tuple_portability.tsv": "d186bd0f8554bd09556576b507b98f477fd39b5b6513bf8748a2e6d0db9b1513",
+    "gdt332_result.json": "10f362be71624803343dc05332d2c5c80b421eca358f0f2121afda586a5fde5e"
+  },
+  "outputs": {
+    "gdt333_register_scores.tsv": "ac50ee6b602b241b2679d36c575fde2cf88b5658036deb3f9eea0a5a89114ff0",
+    "gdt333_tuple_role_scores.tsv": "f02ce8bc752809ef8ec960ec916296867e89eed67b010b6f81a99de3b8bbb172"
+  },
+  "schema": "GDT333_UNIVERSAL_TUPLE_ROLE_TRANSFER_RESULT_V1",
+  "status": "UNIVERSAL_TUPLE_PLACEMENT_AGGREGATE_REGISTER_UNSTABLE",
+  "summary": {
+    "all_five_positive_tuples": 0,
+    "at_least_four_positive_tuples": 8,
+    "component_predictions": 15344,
+    "coordinate_bits": 20540.620901784172,
+    "coordinate_gain_vs_global": 380.5115686580466,
+    "events": 3836,
+    "global_bits": 20921.13247044222,
+    "joint_tuple_bits": 20400.87374081948,
+    "positive_registers": 3,
+    "tuple_gain_vs_coordinate": 139.74716096469274,
+    "tuples": 53
+  }
+}

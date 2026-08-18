@@ -3694,6 +3694,19 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   grounding targets, but recurrence supplies no meaning, language, plaintext,
   translation, or f84 result.
 
+- GDT333 holds out each complete register and asks whether the 53 universal
+  tuples preserve external placement (line entry, within-field position,
+  field ordinal, and physical line quartile) beyond their compiler coordinate.
+  Coordinate saves +380.51 bits over the global code and exact tuple identity
+  saves another +139.75 in aggregate across 15,344 component predictions, but
+  only 3/5 registers improve: Herbal B (-26.85) and Other A (-3.26) reverse.
+  No tuple is positive in all five registers; eight are positive in at least
+  four. Therefore `UNIVERSAL_TUPLE_PLACEMENT_AGGREGATE_REGISTER_UNSTABLE`:
+  retain those eight as higher-quality functional candidates but reject one
+  manuscript-wide tuple-to-role dictionary. Register-conditioned usage or
+  rebinding remains necessary; no semantic role, meaning, language, plaintext,
+  translation, or f84 result follows.
+
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
 the ZL editorial paragraph scaffold, and conditioning on collapsed page, exact
