@@ -3331,10 +3331,10 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   This is a formal working architecture, not a word, morpheme, meaning, sound,
   language, plaintext, translation, or f84 result.
 
-- GDT309 tests whether the sparse-operation compatibility table is itself
+- GDT309 classifies whether the sparse-operation compatibility table is
   compressible without using host glyphs/substrings, exact identity, surface
-  identity, or wrapper counts.  Among 58 opaque hosts, neutral→`q` licensing
-  is structurally predictable: the full leave-one-host ridge improves Brier
+  identity, or wrapper counts.  Among 58 opaque hosts, observed neutral→`q`
+  licensing is structurally classifiable: the full leave-one-host ridge improves Brier
   score over frequency by .07094, with AUC .806, AP .828, and max-12
   p=.04052.  Layout alone carries most of the usable signal (+.06527;
   max-12 p=.00549), while register alone is negative.  In contrast,
@@ -3343,8 +3343,12 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   +.00190.  Thus q belongs to a broad, low-complexity field/layout host
   ecology even though its exact position vector is domain-mixed.  The two
   domain-stable `s` positional operations still require an opaque compatible-
-  host list under the tested instrument.  The result is post-selection and
-  low-capacity for the 7/8 positive s classes; it assigns no lexical class,
+  host list under the tested instrument.  A causal audit found that the host
+  summaries include all of the host's events, including q/s target-wrapper
+  occurrences.  GDT309 therefore classifies the ecology after the license is
+  observed; it does not predict an unseen target alternant.  A source-wrapper-
+  only successor is required.  The result is post-selection and low-capacity
+  for the 7/8 positive s classes; it assigns no lexical class,
   grammar meaning, sound, language, plaintext, translation, or f84 result.
 
 A score-blind capacity audit now confirms that the scope question is testable
