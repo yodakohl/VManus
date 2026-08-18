@@ -3402,6 +3402,23 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   not a morpheme, POS, meaning, sound, language, plaintext, translation, or
   f84 result.
 
+- GDT313 directly contrasts those entry choices inside the same two opaque
+  host/renderer cells that contain all five exact `{NONE,ch,d,s,q}` surfaces.
+  With 273 training and 203 deterministic held events, the exact-cell prior
+  costs 1.99765 bits/event and the frozen multinomial `LINE_START + PREV_DY`
+  selector costs 1.92999, a +.06766 bits/event gain (null-centered +.05472;
+  max-three p=1/8193). On held folios `s` is 32.4% at line start versus 1.8%
+  elsewhere, with cell/register-matched delta +.297; `q` is 40.0% after DY
+  versus 10.7% otherwise, matched delta +.199. Training coefficients point in
+  the same directions (+.315 for `s×LINE_START`, +.491 for `q×PREV_DY`). The
+  executable sparse grammar therefore has two distinguishable external entry
+  selectors on otherwise identical opportunities: **`s` is line-entry
+  weighted; `q` is post-DY continuation-entry weighted**. `NONE`, `ch`, and
+  `d` are the residual alternatives. Coverage is only two already licensed
+  cells, so this does not generate a new compatibility cell or license a
+  universal affix. No morpheme, category, meaning, sound, language, plaintext,
+  translation, or f84 result follows.
+
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
 the ZL editorial paragraph scaffold, and conditioning on collapsed page, exact
