@@ -3083,6 +3083,23 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   causally prior.  No word, code value, morpheme, sound, language, meaning,
   plaintext, translation, or f84 access follows.
 
+- GDT294 decomposes GDT293's remaining renderer error.  After physical
+  boundary opportunity and exact host, adding the host's four-way field
+  position saves a further `+.07094` bits/event, with all four positions and
+  66/91 folios positive; held-section and held-hand gains remain `+.05792` and
+  `+.04922`.  A finer host×position×record/field/group table instead loses
+  `-.06653` bits/event and is negative in every prior/section/hand sensitivity.
+  The coarse position lead changes sign at prior mass 5 (`-.00239`) and all
+  seven control nulls have zero variance under the strict host-preserving
+  strata, so the nominal max-family `p=1/65` effectively tests Voynich alone.
+  Descriptively, the position increment is positive in the three structured
+  notation/code controls and negative in all three Latin graphematic controls.
+  Retain **exact opaque host + coarse field position** as the smallest current
+  renderer model, with smoothing-sensitive strength; reject a deeper record-
+  slot exception table at this resolution.  This is parser-coupled formal
+  architecture, not productive morphology, a lexical class, word, code value,
+  language, meaning, plaintext, translation, or any f84 access.
+
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
 the ZL editorial paragraph scaffold, and conditioning on collapsed page, exact
