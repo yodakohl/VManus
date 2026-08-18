@@ -182,7 +182,7 @@ def main() -> None:
         saving = mean - float(row["observed_bits"])
         check("score_arithmetic:" + ":".join(map(str, key)), close(row["null_mean_bits"], mean) and close(row["null_sd_bits"], sd) and close(row["saving_bits"], saving) and close(row["saving_bits_per_event"], saving / int(row["events"])) and (row["null_z"] == "NA" if sd == 0 else close(row["null_z"], saving / sd)))
 
-    groups = {(x["control_id"], x["view"], x["representation"]) for x in score}
+    groups = sorted({(x["control_id"], x["view"], x["representation"]) for x in score})
     for group in groups:
         rr = {int(x["subset_mask"]): x for x in score if (x["control_id"], x["view"], x["representation"]) == group}
         if group[2] == "PUBLISHED_FROZEN_GDT278":
