@@ -3681,6 +3681,19 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   identified semantic slot. No meaning, language, plaintext, translation, or
   f84 result follows.
 
+- GDT332 inventories the operative GDT327 joint tuple as an opaque codebook.
+  Its 1,676 types are long-tailed (1,078 singletons), but 7,343/8,448 events
+  (86.9%) use a tuple seen on another folio, 7,001 (82.9%) use a tuple spanning
+  registers, and 6,906 (81.7%) span hands. Only 53 exact tuples occur in all
+  five registers, yet they carry 3,836 events (45.4%); conversely 1,209
+  register-private types carry only 1,447 events (17.1%). Therefore
+  `SHARED_CORE_WITH_REGISTER_LOCAL_TAIL`: a small universal joint-code core
+  coexists with a large rare local tail. Together with GDT326, this says the
+  portable symbol is the exact host×coordinate state rather than a freely
+  recombining host. The 53 all-register tuples are the highest-capacity future
+  grounding targets, but recurrence supplies no meaning, language, plaintext,
+  translation, or f84 result.
+
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
 the ZL editorial paragraph scaffold, and conditioning on collapsed page, exact
