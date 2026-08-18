@@ -3186,6 +3186,22 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   information as lexical or semantic and supplies no word, value, sound,
   language, plaintext, translation, authorship, origin, or f84 result.
 
+- GDT300 shows that the GDT299 placement signal does **not** collapse to a
+  compact renderer rule shared across opaque hosts.  The exact host×renderer
+  partition reproduces the complete-form gain exactly (+0.038336 bits/event),
+  but the frozen cross-host conditional-independence renderer model worsens
+  held-folio codelength by 0.031736 bits/event and improves only 26/91 folios;
+  both prior sensitivities are negative.  Every individual frozen component
+  is also negative relative to the host baseline.  The small randomized tail
+  for the complete tuple means the real alignment is less harmful than
+  shuffled alignments, not that it has positive predictive value.  Structured
+  notation/code controls do exhibit positive shared-renderer gains.  Retain
+  the physical placement effect as host-specific whole-form alternant behavior
+  under the tested model, not a manuscript-wide wrapper/frame/right/closure
+  grammar.  This sharpens the GDT298 lexicalized joint-state theory but does
+  not establish lexicality, a linguistic function, meaning, plaintext,
+  translation, or any f84 result.
+
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
 the ZL editorial paragraph scaffold, and conditioning on collapsed page, exact
