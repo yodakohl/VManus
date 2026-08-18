@@ -3452,6 +3452,22 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   Voynich `s` a meaning, sound, language, plaintext, translation, or f84
   result.
 
+- GDT316 prospectively tests the corresponding `q` selector on a second
+  surface-disjoint panel. It excludes all exact surfaces used by the GDT303
+  neutral/`q` pairs and every surface in GDT306, leaving 36 other opaque cells,
+  450 events, 137 `q` choices, and 82 physical folios. In leave-one-folio-out
+  scoring, exact cell plus immediately preceding physical-group DY saves
+  .02778 bits/event over the exact-cell prior. The cell/register-matched
+  post-DY delta is +.202; all 82 training-fold coefficients are positive,
+  53/82 held folios improve, and B/H/S each contribute positive gain. The
+  fixed-crossfit alignment diagnostic is p=.00513 and remains explicitly
+  diagnostic rather than an exact retrained null. Together with GDT313, this
+  establishes a reusable stochastic **post-DY `q` entry selector** across two
+  disjoint exact-surface panels. It still requires an already known
+  `q`-compatible cell: GDT310 showed that source-side ecology does not predict
+  unseen licenses. This is not a universal prefix, morpheme, POS, semantic
+  role, meaning, sound, language, plaintext, translation, or f84 result.
+
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
 the ZL editorial paragraph scaffold, and conditioning on collapsed page, exact
