@@ -33,8 +33,8 @@ Wrapper probabilities use Dirichlet-1/2 global smoothing and the fixed
 11-event hierarchical prior used by GDT286.
 
 1. `POSITION_CONTEXT`: section, Currier, hand, register, target position, host
-   length, first host character, and last host character, with past target-page
-   wrappers available equally to every model.
+   length, first host character, and last host character.  No target-page
+   wrapper outcome, including an earlier event, enters any predictor.
 2. `OTHER_POSITION_HOST_BAG`: the target host's wrapper counts on training
    folios at all positions except the target position, shrunk to
    `POSITION_CONTEXT`.
@@ -53,7 +53,8 @@ sensitivities, not replications.
 
 ## Frozen null
 
-Freeze the two held-folio probability vectors for every scoreable event, then
+Freeze the two fully training-only held-folio probability vectors for every
+scoreable event, then
 in each world permute the held wrapper outcomes within exact
 `physical folio × section × Currier × hand × register × target position × host
 length × first host character × last host character` strata.  This preserves:
