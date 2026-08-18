@@ -1,0 +1,101 @@
+{
+  "claim_ceiling": "Weak held-folio formal tuple retrieval prior only; no semantics meaning plaintext or translation.",
+  "content_sha256": "8dc02b6cbbe451c247c6432f848f41ab5b4a10b6f477afecd1bc65f1b1e8706b",
+  "documents": {
+    "GDT336_PLACEMENT_CONDITIONED_TUPLE_RETRIEVAL_METHOD.md": "7421cd066394449eff32ee697dcd008124b8b4c0dab7db24449d4eb494a43231",
+    "GDT336_PLACEMENT_CONDITIONED_TUPLE_RETRIEVAL_REPORT.md": "0cd2b6bc90c551ad5f5e1bcb3e2aa7d5d4358c9818e29e134927c585ae98fd97"
+  },
+  "f84": {
+    "input_rows": 0,
+    "joined": false,
+    "opened": false,
+    "retained": false,
+    "scored": false
+  },
+  "implementation": {
+    "run_gdt336_placement_conditioned_tuple_retrieval.py": "ee10f86e1f7e29f25098d4a99a7718fad3d094c06c53b1ac5c717a880c76f6ca"
+  },
+  "inputs": {
+    "gdt327_joint_tuple_interlinear.tsv": "7eba46774be44992064cc114f67329723ac7bf589321b0d763fb7f7f748cc1e9",
+    "gdt335_result.json": "56b6c11c8e707faaeaed56d942420afb798b2b98349aa6b5a77c73576e854c8c"
+  },
+  "outputs": {
+    "gdt336_folds.tsv": "5788f97b20cab873d938ddf8a6aa41a3b3f0cf8acbcfd5c0491a924e6f87f95f",
+    "gdt336_register_scores.tsv": "1e6cb0beb7c1cf0d7d990d619ff6cb8a1a64bed7152817f83424b6571d9a0185"
+  },
+  "registers": [
+    {
+      "alpha_choices": "32:0|64:0|128:0|256:46|512:0|1024:0",
+      "coordinate_bits": "10265.149204716228",
+      "coordinate_top1": 518,
+      "folds": 46,
+      "placement_bits": "10126.827266989199",
+      "placement_gain": "138.321937727029",
+      "placement_top1": 529,
+      "positive_folds": 34,
+      "register": "HERBAL_A",
+      "scored_events": 2000
+    },
+    {
+      "alpha_choices": "32:0|64:0|128:15|256:0|512:0|1024:0",
+      "coordinate_bits": "1899.897011601549",
+      "coordinate_top1": 187,
+      "folds": 15,
+      "placement_bits": "1890.087413638213",
+      "placement_gain": "9.809597963335",
+      "placement_top1": 185,
+      "positive_folds": 11,
+      "register": "HERBAL_B",
+      "scored_events": 513
+    },
+    {
+      "alpha_choices": "32:0|64:0|128:1|256:6|512:0|1024:0",
+      "coordinate_bits": "1047.606485282606",
+      "coordinate_top1": 74,
+      "folds": 7,
+      "placement_bits": "1045.791029659084",
+      "placement_gain": "1.815455623521",
+      "placement_top1": 73,
+      "positive_folds": 5,
+      "register": "OTHER_A",
+      "scored_events": 245
+    },
+    {
+      "alpha_choices": "32:0|64:0|128:12|256:0|512:0|1024:0",
+      "coordinate_bits": "8158.067230656375",
+      "coordinate_top1": 600,
+      "folds": 12,
+      "placement_bits": "8034.948387943290",
+      "placement_gain": "123.118842713084",
+      "placement_top1": 635,
+      "positive_folds": 12,
+      "register": "OTHER_B",
+      "scored_events": 1975
+    },
+    {
+      "alpha_choices": "32:0|64:0|128:12|256:0|512:0|1024:0",
+      "coordinate_bits": "8424.969168409174",
+      "coordinate_top1": 553,
+      "folds": 12,
+      "placement_bits": "8251.631159338036",
+      "placement_gain": "173.338009071137",
+      "placement_top1": 549,
+      "positive_folds": 11,
+      "register": "STARS_RECIPE_B",
+      "scored_events": 1893
+    }
+  ],
+  "schema": "GDT336_PLACEMENT_CONDITIONED_TUPLE_RETRIEVAL_RESULT_V1",
+  "status": "LINE_PLACEMENT_WEAKLY_IMPROVES_EXACT_TUPLE_RETRIEVAL",
+  "summary": {
+    "coordinate_bits": 29795.68910066593,
+    "coordinate_top1": 1932,
+    "folds": 92,
+    "placement_bits": 29349.285257567823,
+    "placement_gain": 446.403843098106,
+    "placement_top1": 1971,
+    "positive_folds": 73,
+    "positive_registers": 5,
+    "scored_events": 6626
+  }
+}

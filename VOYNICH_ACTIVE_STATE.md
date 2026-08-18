@@ -3732,6 +3732,18 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   is still a formal boundary-position effect. No semantic role, meaning,
   language, plaintext, translation, or f84 result follows.
 
+- GDT336 inverts the supported line-placement channel into an executable exact
+  tuple retrieval prior. In nested register-specific whole-folio folds, line
+  entry, within-field position, and line quartile save +446.40 bits over
+  coordinate-only tuple frequency on 6,626 recurrent events, with positive
+  codelength gain in 73/92 folds and all five registers. Exact top-1 changes
+  only from 1,932 to 1,971 and falls slightly in Herbal B/Other A; training
+  selects large shrinkage concentrations (mostly 128/256). Therefore
+  `LINE_PLACEMENT_WEAKLY_IMPROVES_EXACT_TUPLE_RETRIEVAL`: placement is a weak
+  correction to a dominant coordinate-specific code prior, not a standalone
+  decoder. It predicts opaque tuple probability only and supplies no semantic
+  role, meaning, language, plaintext, translation, or f84 result.
+
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
 the ZL editorial paragraph scaffold, and conditioning on collapsed page, exact
