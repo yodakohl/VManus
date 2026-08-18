@@ -48,6 +48,13 @@ The host bucket and permutation seed families are unchanged from GDT283.
 Apply the shared-world maximum statistic across all twelve panels as a
 calibration diagnostic.  Alternate readings are not independent samples.
 
+A source-only pre-score capacity check found that the two learned-abbreviation
+outputs have one constant parsed wrapper class and zero wrapper-mobile events.
+They remain in the table as `UNSCORED_NO_WRAPPER_CAPACITY`: their zero vector
+documents that the frozen observation parser found no wrapper contrast, but
+they cannot reproduce a sign pattern and are excluded from standardized maxT.
+This rule is frozen before any GDT284 codelength is computed.
+
 ## Frozen fingerprint comparison
 
 For each panel and for both standard and nested modes, report:
