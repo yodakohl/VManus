@@ -3501,6 +3501,21 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   semantic role, meaning, sound, language, plaintext, translation, or f84
   result.
 
+- GDT319 tests the strongest secondary GDT318 coefficient on genuinely fresh
+  surfaces. All 505 exact surfaces in the GDT318 panel are excluded, leaving
+  seven other `t`-compatible cells, 50 events, 20 `t` choices, and 31 folios.
+  The cell/register-matched line-entry delta is positive (+.349), and every
+  fold's training coefficient is positive, but the exact-cell-plus-line-start
+  model loses .00598 held bits/event, only 18/31 folios improve, none of the
+  powered B/H/S sections contributes positive gain, and the diagnostic is
+  p=.789. Therefore the fresh transfer status is
+  `T_LINE_ENTRY_FRESH_SURFACE_TRANSFER_WEAK_OR_FAILED`. Do not extend the
+  compact renderer state machine with a reusable `t` selector. The broad
+  GDT318 `t` coefficient remains descriptive on its exposed panel; the robust
+  reusable rules remain `s` at physical line entry and `q` after DY. No
+  prefix, morpheme, POS, meaning, sound, language, plaintext, translation, or
+  f84 result follows.
+
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
 the ZL editorial paragraph scaffold, and conditioning on collapsed page, exact
