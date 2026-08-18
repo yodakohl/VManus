@@ -2943,6 +2943,24 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   morphology, abbreviation, language, meaning, plaintext, translation, or
   f84 access follows.
 
+- GDT286 reverses the channel and predicts wrapper class from opaque host
+  identity.  Across held folios, exact host identity improves Voynich wrapper
+  codelength by `+.1298` bits/event over section/Currier/hand/register,
+  field-position, length and fixed edge-character context; adding the
+  host-by-field-position interaction improves another `+.0320`.  Host identity
+  also remains positive with whole sections (`+.4224`) or hands (`+.4131`)
+  held.  The frozen within-folio shape-preserving null gives max-eight
+  `p=1/65`, but is low-mobility: only 411/8,448 Voynich IDs change in world 0,
+  and the observed host gain exceeds its high null mean by only `+.0123`
+  bits/event.  Retain a weak cross-folio exact-host association plus a clearer
+  contextual host-by-position effect, not a wrapper fixed once per host.  The
+  contextual increment is also present in the factorial and human-grown
+  notation controls, so it is not Voynich-specific.  This supports a
+  host-and-slot-conditioned renderer/selector architecture over a simple
+  productive affix or immutable lexical-class account.  PAGE_HOST remains an
+  opaque parser identity; no lexical class, morphology, abbreviation, sound,
+  language, meaning, plaintext, translation, or f84 access follows.
+
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
 the ZL editorial paragraph scaffold, and conditioning on collapsed page, exact
