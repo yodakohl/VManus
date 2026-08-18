@@ -3531,6 +3531,23 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   strength. No prefix, morpheme, POS, meaning, sound, language, plaintext,
   translation, or f84 result follows.
 
+- GDT321 then asks whether the two independently transferable rules suffice,
+  rather than retaining GDT318's failed secondary coefficients. On the exact
+  5,607-event GDT318 panel, a model with only `s × LINE_START` and
+  `q × PREV_DY` gains .02399 bits/event and +120.46 bits after a two-parameter
+  BIC charge plus model selector. It retains 69.3% of the unrestricted raw
+  gain while the 16-parameter anchor retains only +92.78 charged bits. Both
+  restricted coefficients are positive in 91/91 folds and max-two p=1/8193.
+  B and S contribute positively, but Herbal H is a disclosed negative
+  (-.00409 bits/event), and only 42/91 folios improve. Under the frozen rule
+  this is `TWO_RULE_RENDERER_SUFFICIENT`: the smallest currently justified
+  executable wrapper layer is an opaque compatibility-cell lexicon modulated
+  by `s` at physical line entry and `q` after DY. The residual 30.7% broad-fit
+  gain is not licensed as additional transferable rules. This is a formal
+  stochastic renderer, not evidence that `s` or `q` is a linguistic morpheme,
+  and it predicts no unseen cell, POS, meaning, sound, language, plaintext,
+  translation, or f84 result.
+
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
 the ZL editorial paragraph scaffold, and conditioning on collapsed page, exact
