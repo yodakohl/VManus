@@ -1,0 +1,140 @@
+{
+  "claim_ceiling": "Opaque operation-license structural prediction only; no lexical class grammar semantics sound language plaintext meaning or translation.",
+  "content_sha256": "eaaab9b9299c195d7d969d431f7424ee7b26542e4dd76cbf90d1e504c93a1405",
+  "decision": {
+    "full_auc_minimum": 0.65,
+    "full_brier_gain_positive": true,
+    "full_max12_p_le": 0.05
+  },
+  "f84": {
+    "authorized": false,
+    "joined": false,
+    "opened": false,
+    "parsed": false,
+    "retained": false,
+    "scored": false
+  },
+  "forbidden_predictors": [
+    "PAGE_HOST_IDENTITY",
+    "HOST_GLYPHS_OR_SUBSTRINGS",
+    "WRAPPER_VALUES_OR_COUNTS",
+    "EXACT_SURFACE_IDENTITIES"
+  ],
+  "host_universe": {
+    "form_minimum_events": 5,
+    "form_minimum_folios": 3,
+    "hosts": 58,
+    "minimum_eligible_forms": 2
+  },
+  "implementation": {
+    "freeze_gdt309_operation_license.py": "7f661865143932a7fb080cf0a65256fb5e2e3e599a0bb7066a50ed5cecc186c3"
+  },
+  "inputs": {
+    "GDT309_OPERATION_LICENSE_PREDICTION_METHOD.md": "2e3e7b0d99a49abe75ad643535f07b6f564338f06fe9f3db074122b01999ebbb",
+    "gdt278_native_event_inventory.tsv": "598e9833f3f0f67f187b59153156a776a22f5fa722a6b6428a386c2bb5178b2a",
+    "gdt303_pair_deltas.tsv": "9b5ae35f46d80aed07a54c0329e8d8bd132ce92afc7ff8c792949c3f9cc1725a"
+  },
+  "models": {
+    "COMPILER": [
+      "frequency_log_events",
+      "frequency_log_folios",
+      "compiler_inner_d",
+      "compiler_frame_o",
+      "compiler_frame_ot",
+      "compiler_right_present",
+      "compiler_dy",
+      "compiler_b3",
+      "compiler_line_close",
+      "compiler_paragraph_close"
+    ],
+    "FREQUENCY": [
+      "frequency_log_events",
+      "frequency_log_folios"
+    ],
+    "FULL": [
+      "frequency_log_events",
+      "frequency_log_folios",
+      "layout_line_first",
+      "layout_line_middle",
+      "layout_line_last",
+      "layout_field_first",
+      "layout_field_last",
+      "layout_record1",
+      "layout_relative_position",
+      "compiler_inner_d",
+      "compiler_frame_o",
+      "compiler_frame_ot",
+      "compiler_right_present",
+      "compiler_dy",
+      "compiler_b3",
+      "compiler_line_close",
+      "compiler_paragraph_close",
+      "register_section_B",
+      "register_section_C",
+      "register_section_H",
+      "register_section_P",
+      "register_section_S",
+      "register_section_T",
+      "register_register_HERBAL_A",
+      "register_register_HERBAL_B",
+      "register_register_OTHER_A",
+      "register_register_OTHER_B",
+      "register_register_STARS_RECIPE_B",
+      "register_currier_A",
+      "register_currier_B",
+      "register_hand_1",
+      "register_hand_2",
+      "register_hand_3",
+      "register_hand_5",
+      "register_hand_@"
+    ],
+    "LAYOUT": [
+      "frequency_log_events",
+      "frequency_log_folios",
+      "layout_line_first",
+      "layout_line_middle",
+      "layout_line_last",
+      "layout_field_first",
+      "layout_field_last",
+      "layout_record1",
+      "layout_relative_position"
+    ],
+    "REGISTER": [
+      "frequency_log_events",
+      "frequency_log_folios",
+      "register_section_B",
+      "register_section_C",
+      "register_section_H",
+      "register_section_P",
+      "register_section_S",
+      "register_section_T",
+      "register_register_HERBAL_A",
+      "register_register_HERBAL_B",
+      "register_register_OTHER_A",
+      "register_register_OTHER_B",
+      "register_register_STARS_RECIPE_B",
+      "register_currier_A",
+      "register_currier_B",
+      "register_hand_1",
+      "register_hand_2",
+      "register_hand_3",
+      "register_hand_5",
+      "register_hand_@"
+    ]
+  },
+  "null_seed": 30920260818,
+  "null_strata": "HOST_EVENT_COUNT_QUARTILE",
+  "null_worlds": 8192,
+  "operations": [
+    "wrapper:ch>s",
+    "wrapper:d>s",
+    "wrapper:NONE>q"
+  ],
+  "outputs": {
+    "gdt309_capacity.tsv": "b717ef85559c61520a40ec2eabfefcd16b28ad0ed936ac555a40d00564780b03",
+    "gdt309_host_features.tsv": "1630573aa448cbfb7ebe2c8cb6b4dac8246f33d69b5fa3f657bb0577ad094251"
+  },
+  "ridge": 10.0,
+  "schema": "GDT309_OPERATION_LICENSE_PREDICTION_DESIGN_V1",
+  "status": "FROZEN_BEFORE_LICENSE_PREDICTION_SCORING"
+}
