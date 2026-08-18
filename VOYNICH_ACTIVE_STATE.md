@@ -3548,6 +3548,20 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   and it predicts no unseen cell, POS, meaning, sound, language, plaintext,
   translation, or f84 result.
 
+- GDT322 publishes that layer as an executable, independently reconstructed
+  grammar artifact. Its opaque compatibility lexicon contains 126 cells and
+  covers 5,607/8,448 reference events (66.4%) on 91 folios, while those cells
+  are only 126/1,676 (7.5%) of observed exact cells. This concentration is why
+  a memorized lexicon has useful event coverage but cannot license rare cells.
+  The executable probability is
+  `softmax(log(n[cell,wrapper]+1/2) + I[s]×1.00213×LINE_START +
+  I[q]×0.89204×PREV_DY)`. These full-panel coefficients are descriptive;
+  predictive calibration remains GDT321's held-folio score. Unknown cells are
+  explicitly `UNLICENSED_OR_UNKNOWN`, and the failed `t`/`d` extensions are
+  absent. This is the current runnable surface-renderer component of the YOLO
+  grammar, not a lexical decoder, and it assigns no prefix, morpheme, POS,
+  meaning, sound, language, plaintext, translation, or f84 result.
+
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
 the ZL editorial paragraph scaffold, and conditioning on collapsed page, exact
