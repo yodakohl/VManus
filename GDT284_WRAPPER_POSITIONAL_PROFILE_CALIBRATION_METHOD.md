@@ -45,15 +45,23 @@ Reproduce GDT283 exactly:
    host character` strata.
 
 The host bucket and permutation seed families are unchanged from GDT283.
-Apply the shared-world maximum statistic across all twelve panels as a
-calibration diagnostic.  Alternate readings are not independent samples.
+Apply the shared-world maximum statistic across all panels with nonzero null
+variance as a calibration diagnostic.  Alternate readings are not independent
+samples.
 
 A source-only pre-score capacity check found that the two learned-abbreviation
 outputs have one constant parsed wrapper class and zero wrapper-mobile events.
 They remain in the table as `UNSCORED_NO_WRAPPER_CAPACITY`: their zero vector
 documents that the frozen observation parser found no wrapper contrast, but
 they cannot reproduce a sign pattern and are excluded from standardized maxT.
-This rule is frozen before any GDT284 codelength is computed.
+The first scorer attempt then stopped before producing artifacts because the
+ordinary expanded and diplomatic Nuremberg panels had zero matched-null
+variance and an identically zero observed vector: their highly specific frozen
+contexts never reuse enough opportunity for wrapper identity to alter the
+estimate.  A four-world capacity diagnostic confirmed the cause.  This public
+correction marks them `UNSCORED_NO_CONTEXT_REUSE` and excludes them from sign
+matching and standardized maxT.  It is frozen before the authoritative run;
+no nonzero fingerprint or ranking was exposed by the failed attempt.
 
 ## Frozen fingerprint comparison
 
