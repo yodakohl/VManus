@@ -15,6 +15,8 @@ The entire 98-event panel and all 39 matching cells were committed before the pr
 
 The frozen primary and sensitivities all point toward a q-conditioned post-DY transition. The primary effect is evaluated independently of same-group q parsing by reading only the immediately preceding physical group. Physical line start is kept separate.
 
+This is a prospective, exact-surface-disjoint replication/localization of the post-DY `qo...` wrapper ecology already reported by GDT024 and GDT061. It strengthens generalization beyond their frequent forms; it does not create a new compiler state or reopen their host-transition negatives.
+
 ## Gates
 
 - `primary_delta_positive`: **PASS**

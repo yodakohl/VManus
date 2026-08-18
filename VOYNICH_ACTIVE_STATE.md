@@ -3281,8 +3281,8 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   not identify a grammatical category, discourse meaning, morpheme, sound,
   language, plaintext, translation, or any f84 result.
 
-- GDT306 independently localizes the strongest GDT305 effect to the preceding
-  field boundary.  A third panel excluded every exact surface used by GDT303
+- GDT306 prospectively replicates and localizes the strongest GDT305 effect to
+  the preceding field boundary.  A third panel excluded every exact surface used by GDT303
   or GDT305 and froze 98 neutral/q events in 39 exact
   host×renderer×register cells before reading the previous group.  `q` events
   follow a DY-closed group at an equal-cell rate of .359 versus .168 for
@@ -3290,9 +3290,12 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   direction remains positive in the frozen within-folio (+.273) and exact
   line-length (+.182) sensitivities, though each has only 11 cells and a weak
   tail.  Physical line start moves the opposite way (-.066).  Retain a
-  q-conditioned **post-DY field-restart transition** as the current formal
-  mechanism, not a generic initial prefix or record-number/title marker.  The
-  result remains HPR2-representation-dependent and supplies no morpheme,
+  q-conditioned **post-DY field-restart transition**, not a generic initial
+  prefix or record-number/title marker.  The duplicate audit shows that this
+  is a new surface-disjoint replication of GDT024/GDT061's already documented
+  post-DY `qo...` wrapper ecology, not a new compiler state; it does not reopen
+  their negative host-transition findings.  The result remains
+  HPR2-representation-dependent and supplies no morpheme,
   grammatical meaning, sound, language, plaintext, translation, or f84 claim.
 
 A score-blind capacity audit now confirms that the scope question is testable
