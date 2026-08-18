@@ -3030,6 +3030,24 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   lexical class, function, sound, language, meaning, plaintext, translation,
   or f84 access follows.
 
+- GDT291 asks whether the remaining exact-host interaction is merely omitted
+  known context.  In target-history-free held-folio scoring, the Voynich
+  host×position anchor is `+.0344` bits/event.  Adding record ordinal, field
+  ordinal, physical group position, line/paragraph closure, known label
+  renderer, local frame, inner-D, right family, DY and B3 reduces it only to
+  `+.0286`; exact host itself still adds `+.1228` beyond that rich context.
+  The residual stays positive at prior masses 5 (`+.0059`), 11, and 22
+  (`+.0404`) and in held-section (`+.0274`) and held-hand (`+.0252`) host-layer
+  sensitivities.  Whole-section/hand rich-context increments back off to zero
+  mechanically because the held identifier is part of those keys, so those
+  splits do not establish cross-register transfer of the context layer.
+  Known compiler/record coordinates explain a small portion but do not remove
+  the exact host-position association.  Combined with GDT289--290, retain an
+  exact-host-local, high-capacity, or still-unobserved record-selector effect;
+  do not recast it as a small productive wrapper paradigm.  No lexical class,
+  function, morphology, language, meaning, plaintext, translation, or f84
+  access follows.
+
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
 the ZL editorial paragraph scaffold, and conditioning on collapsed page, exact
