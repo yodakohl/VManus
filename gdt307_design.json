@@ -1,0 +1,51 @@
+{
+  "claim_ceiling": "Selected formal renderer-operation domain stability only; no grammar semantics sound language plaintext meaning or translation.",
+  "content_sha256": "0bc754909d05f6548c105641dd20d44f7803d8619010db6129415880ef319245",
+  "decision": {
+    "max12_p_le": 0.05,
+    "minimum_direction_accuracy": 0.6,
+    "required_domains": [
+      "section",
+      "hand"
+    ]
+  },
+  "domain_types": [
+    "section",
+    "register",
+    "currier",
+    "hand"
+  ],
+  "f84": {
+    "authorized": false,
+    "joined": false,
+    "opened": false,
+    "parsed": false,
+    "retained": false,
+    "scored": false
+  },
+  "implementation": {
+    "freeze_gdt307_renderer_operation_domain.py": "4bcb67986fde1b1ac64fbf95a484866e241ec76b9eabac95155fafbbd6f98571"
+  },
+  "inputs": {
+    "GDT307_RENDERER_OPERATION_DOMAIN_STABILITY_METHOD.md": "e79d9f87d152a1327a34b7021932b96637c4dc7669b3f82123984c5b7dd78dec",
+    "gdt278_native_event_inventory.tsv": "598e9833f3f0f67f187b59153156a776a22f5fa722a6b6428a386c2bb5178b2a",
+    "gdt303_pair_deltas.tsv": "9b5ae35f46d80aed07a54c0329e8d8bd132ce92afc7ff8c792949c3f9cc1725a"
+  },
+  "minimum_events_each_form_inside": 2,
+  "minimum_events_each_form_outside": 2,
+  "null_seed": 30720260818,
+  "null_worlds": 8192,
+  "operations": [
+    "wrapper:ch>s",
+    "wrapper:d>s",
+    "wrapper:NONE>q"
+  ],
+  "outputs": {
+    "gdt307_capacity.tsv": "d324e085ea2315589e535e78d07c10a7d49b09b44448de59f87e9c8190dd6b96",
+    "gdt307_frozen_domain_cells.tsv": "faab591d40668ef49b43649bd51e057912f4cb7a40663a7ea40aaadc24ee2780"
+  },
+  "provenance": "POST_SELECTION_STABILITY_OF_GDT303_OPERATIONS",
+  "schema": "GDT307_RENDERER_OPERATION_DOMAIN_STABILITY_DESIGN_V1",
+  "score": "EQUAL_HOST_DOMAIN_MEAN_TRAIN_HELD_POSITION_DELTA_DOT",
+  "status": "FROZEN_BEFORE_DOMAIN_POSITION_SCORING"
+}
