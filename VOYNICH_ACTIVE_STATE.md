@@ -2810,6 +2810,29 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   Voynich substring mining, meaning, plaintext, translation, or f84 access
   occurred.
 
+- GDT279 decomposes that order sensitivity without adding a corpus or changing
+  the frozen magnitude endpoint.  It restores the exact 4,476 source
+  occurrences used by each eligible overlay to their native source layout,
+  then partitions the inherited compiler key into opportunity, edge-compiler,
+  and closure/boundary blocks.  On the two native-positive Latin panels with a
+  matched view, fold-safe saving rises from `.0958` to `.2789` bits/event for
+  medical Latin and from `.0467` to `.2847` for mixed fifteenth-century Latin
+  when only native layout is restored; the Voynich subset is unchanged at
+  `.3573`.  Thus much of the Latin discrepancy is genuinely caused by
+  source-layout alignment rather than host-length/sample composition.  Exact
+  Shapley allocation of the *layout change* is led by opportunity interactions
+  (`+.0591/+.1209` published), because the overlay creates a negative
+  opportunity-by-edge mismatch.  This must not be confused with the native
+  predictor itself: all three native-positive Latin panels are overwhelmingly
+  edge-compiler dominated (`+.4392`, `+.3596`, `+.3287` bits/event), with only
+  `.0236`--`.0529` from closure and near-zero opportunity main allocation.
+  Fold-safe observed-block sensitivities show the same edge dominance.  The
+  next bounded calibration may split the already-frozen edge block into
+  wrapper, local frame, right family, and diplomatic display renderer; it must
+  not add corpora or tune a new endpoint.  This is compression-mechanism
+  localization, not evidence for abbreviation, language, meaning, plaintext,
+  translation, or any f84 access.
+
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
 the ZL editorial paragraph scaffold, and conditioning on collapsed page, exact
