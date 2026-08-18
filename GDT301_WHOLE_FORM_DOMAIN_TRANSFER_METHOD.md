@@ -21,7 +21,12 @@ held value.  Fit, only on training events:
 
 1. a global Dirichlet-1/2 position distribution;
 2. `LAYOUT`, using exact group count and every metadata axis except the held
-   axis;
+axis; for the physical-folio integrity fold, use exactly GDT299's
+   `section|Currier|hand|group_count` layout and its exact globally
+   cross-folio-eligible event population, and do not add register or
+   training-only ineligible rows; once selected by the GDT299 base-population
+   support rule, retain every selected event exactly as GDT299 does rather
+   than reapplying support after filtering;
 3. `PAGE_HOST`, backed off to `LAYOUT` with prior mass 11;
 4. `WHOLE_FORM`, backed off to `PAGE_HOST` with prior mass 11.
 

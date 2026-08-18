@@ -3202,6 +3202,23 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   not establish lexicality, a linguistic function, meaning, plaintext,
   translation, or any f84 result.
 
+- GDT301 finds that those host-specific whole-form placement mappings are
+  nevertheless broadly manuscript-domain stable.  With exact form and host
+  required in training outside the held domain, gain beyond host is +0.028809
+  bits/event for held register (5/5 positive), +0.025381 for held section (6/6),
+  +0.008468 for held Currier stratum (1/2), and +0.021310 for held hand (4/5);
+  all five domain views, including the exact GDT299 folio reproduction, have
+  max-five tails of 1/65.  The strict support label is withheld because the
+  Currier result is prior-sensitive: -0.010430 at prior mass 5, +0.008468 at
+  11, and +0.012622 at 22.  Thus the best current reading is a broadly stable
+  but not fully robust host-specific alternant convention: more global than a
+  page/register spelling habit, but not reducible to the tested common
+  renderer grammar.  Two transparent prepublication corrections were needed
+  to make the folio integrity fold use the exact GDT299 nuisance and selected
+  population; all four cross-domain effects remained unchanged.  This is
+  formal architecture only and establishes no lexicality, linguistic
+  function, meaning, plaintext, translation, or f84 result.
+
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
 the ZL editorial paragraph scaffold, and conditioning on collapsed page, exact
