@@ -3259,10 +3259,27 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   probabilistic **field-entry renderer**, not a record-number/title marker.
   Because `ch→s` also has a positive mean line-last delta, `s` is more safely
   described as boundary-favoring with a strong entry bias than exclusively
-  initial.  Four exact future predictions are frozen for genuinely new data;
-  no exposed panel can validate them and f84 remains unauthorized.  This is
+  initial.  Four exact future predictions were frozen for genuinely new data
+  and are tested without repair by GDT305; f84 remains unauthorized.  This is
   not a POS, discourse meaning, morpheme, sound, language, plaintext, or
   translation result.
+
+- GDT305 tests those four frozen directions on 32 lower-support same-host
+  pairs committed before endpoint scoring; both exact surfaces in every pair
+  were absent from the published GDT303 pair table, and each occurs at least
+  twice on at least two folios.  The result is mixed.  Neutral→`q` transfers
+  the predicted field-first/field-last conjunction across 25 opaque hosts
+  (+.085/-.073; diagnostic host-sign-flip p=.0104), but its physical
+  line-first delta is negative (-.055), so this is specifically a
+  parser-relative field-placement effect rather than a generic line opener.
+  `ch→s` and `d→s` have the predicted positive field-first signs (+.250 and
+  +.044), but the former has only two descriptive hosts and the latter only
+  five with a null diagnostic; `d→s` also raises field-last.  The frozen
+  record-ordinal-neutral prediction fails because the operation means are
+  -.161, +.167, and -.153.  Retain neutral→`q` as the strongest prospective
+  formal lead and treat both `s` directions as weak on this panel.  This does
+  not identify a grammatical category, discourse meaning, morpheme, sound,
+  language, plaintext, translation, or any f84 result.
 
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
