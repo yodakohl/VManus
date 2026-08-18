@@ -1,0 +1,15 @@
+#!/usr/bin/env python3
+"""Freeze GDT283 before wrapper/host coupling localization."""
+from __future__ import annotations
+import csv,hashlib,json
+from pathlib import Path
+R=Path(__file__).resolve().parent;METHOD=R/'GDT283_WRAPPER_HOST_COUPLING_LOCALIZATION_METHOD.md';MANIFEST=R/'gdt283_gdt282_freeze_manifest.tsv';DESIGN=R/'gdt283_design.json'
+FROZEN=['GDT282_OUTER_WRAPPER_CLASS_TRANSFER_METHOD.md','GDT282_OUTER_WRAPPER_CLASS_TRANSFER_REPORT.md','gdt282_design.json','gdt282_design_validation.json','gdt282_gdt281_freeze_manifest.tsv','gdt282_model_scores.tsv','gdt282_transfer_folds.tsv','gdt282_null_results.tsv','gdt282_wrapper_class_probes.tsv','gdt282_wrapper_counts.tsv','gdt282_counterexamples.tsv','gdt282_result.json','gdt282_validation.json','run_gdt282_outer_wrapper_class_transfer.py','validate_gdt282_outer_wrapper_class_transfer.py']
+def sha(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
+def csha(v):q=dict(v);q.pop('content_sha256',None);return hashlib.sha256(json.dumps(q,sort_keys=True,ensure_ascii=True,separators=(',',':')).encode()).hexdigest()
+def main():
+ p=json.loads((R/'gdt282_result.json').read_text());v=json.loads((R/'gdt282_validation.json').read_text());assert p['status']=='OUTER_WRAPPER_IDENTITY_TRANSFERS_ACROSS_REGISTERS' and p['content_sha256']==csha(p);assert v['status']=='PASS' and v['result_sha256']==sha(R/'gdt282_result.json')
+ rr=[{'artifact':x,'frozen_sha256':sha(R/x)} for x in FROZEN]
+ with MANIFEST.open('w',encoding='utf8',newline='') as h:w=csv.DictWriter(h,['artifact','frozen_sha256'],delimiter='\t',lineterminator='\n');w.writeheader();w.writerows(rr)
+ d={'schema':'GDT283_WRAPPER_HOST_COUPLING_LOCALIZATION_DESIGN_V1','status':'FROZEN_BEFORE_GDT283_SCORING','parent_result_sha256':sha(R/'gdt282_result.json'),'parent_content_sha256':p['content_sha256'],'method_sha256':sha(METHOD),'freeze_manifest_sha256':sha(MANIFEST),'panels':['LATIN_SCHOLASTIC_GRAPHEMATIC','LATIN_MEDICAL_GRAPHEMATIC','LATIN_15C_GRAPHEMATIC','VOYNICH_REFERENCE'],'models':['BASE_NO_WRAPPER','FULL_WRAPPER_IDENTITY'],'components':['INITIAL','INTERNAL','FINAL','EOS'],'host_bucket_count':8,'host_bucket_seed':'GDT283_HOST_FOLD','null_worlds':64,'null_strata':['section','currier','hand','within_field_position','host_length','first_host_character'],'voynich_mobile_events':7075,'max_panels':4,'alpha':0.05,'new_corpora':0,'semantic_assignments':0,'page_host_substrings_mined':0,'f84':{'input_files':0,'opened':False,'parsed':False,'retained':False,'joined':False,'scored':False},'claim_ceiling':'Localization of opaque same-group wrapper/host character coupling only; no morphology language meaning plaintext or translation.','implementation_sha256':sha(Path(__file__))};d['content_sha256']=csha(d);DESIGN.write_text(json.dumps(d,indent=2,sort_keys=True)+'\n');print(json.dumps({'status':d['status'],'frozen_files':len(rr)},sort_keys=True))
+if __name__=='__main__':main()
