@@ -53,19 +53,20 @@ sensitivities, not replications.
 
 ## Frozen null
 
-In each world and each training fold/bucket, independently permute normalized
-wrapper profiles among the eligible training hosts at every within-field
-position.  This preserves:
+Freeze the two held-folio probability vectors for every scoreable event, then
+in each world permute the held wrapper outcomes within exact
+`physical folio × section × Currier × hand × register × target position × host
+length × first host character × last host character` strata.  This preserves:
 
-- the exact host inventory and position support;
-- each per-position wrapper profile and its frequency;
-- the target host's actual other-position evidence;
-- target outcomes, folios, registers, positions, and the common baseline.
+- the exact scored host inventory and position support;
+- the training-learned host-bag and transfer forecasts;
+- held-folio wrapper counts within every exact nuisance/opportunity stratum;
+- folios, registers, positions, host length, and host edge shape.
 
-It destroys only the correspondence between a host's profiles at different
-positions in the hosts used to learn the transferable transition.  Use 64
-shared worlds with seed family
-`GDT289_POSITION_PROFILE_ALIGNMENT|panel|world|split|held|bucket|position`.
+It destroys the alignment between the target host and its held wrapper outcome
+while leaving both competing training-only predictors fixed.  Use 64 shared
+worlds with seed family
+`GDT289_HELD_WRAPPER_ALIGNMENT|panel|world|stratum`.
 Report local and standardized max-eight inclusive p-values.
 
 ## Frozen decision
