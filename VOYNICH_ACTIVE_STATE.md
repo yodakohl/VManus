@@ -2853,6 +2853,23 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   Shapley magnitudes as intrinsic.  No abbreviation identity, sound, word,
   morpheme, language, meaning, plaintext, translation, or f84 access follows.
 
+- GDT281 removes that bounded collision artifact without changing the frozen
+  panels, features, null worlds, or edge partition.  Exact immutable context
+  tuples preserve every predeclared profile direction in both published and
+  held-folio-safe representations: all three Latin native panels remain
+  `RIGHT_FAMILY`-led, whereas Voynich remains `OUTER_WRAPPER`-led.  Constant
+  Latin display-renderer fields now receive exactly zero Shapley allocation,
+  proving that their prior tiny effects were rehashing noise.  Collision
+  removal also corrects GDT280's apparent Voynich safe-magnitude collapse:
+  the exact-context edge increment is `+.3337`, not the hashed `+.0319`
+  bits/event.  Do not treat `+.3337` as a replacement MDL endpoint because
+  exact subsets occupy unequal context capacities and no model-key charge was
+  added.  The robust conclusion is directional: authentic diplomatic Latin
+  concentrates its edge-conditioned character signal on right-family classes,
+  while Voynich concentrates it on outer wrappers.  This does not identify q
+  as a prefix or establish abbreviation, morphology, language, code, notation,
+  meaning, plaintext, translation, or any f84 access.
+
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
 the ZL editorial paragraph scaffold, and conditioning on collapsed page, exact
