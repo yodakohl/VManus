@@ -3562,6 +3562,18 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   grammar, not a lexical decoder, and it assigns no prefix, morpheme, POS,
   meaning, sound, language, plaintext, translation, or f84 result.
 
+- GDT323 tests whether those two coefficients need Currier- or register-
+  conditioned magnitudes. The global, Currier, and five-register versions gain
+  respectively .02399, .02433, and .02526 bits/event, but their BIC-and-selector
+  charged gains fall from +120.04 to +109.49 and +77.39 bits. The most flexible
+  fit also makes the q-after-DY coefficient slightly negative in both Herbal A
+  and Herbal B after conditioning on the opaque cell. Therefore
+  `GLOBAL_TWO_RULE_REMAINS_PREFERRED`: preserve one manuscript-wide s-line-entry
+  coefficient and one q-post-DY coefficient, with Herbal-B's negative held gain
+  retained as a counterexample rather than patched. This is post-exposure
+  renderer parameterization only and adds no license, semantic category,
+  meaning, language, plaintext, translation, or f84 result.
+
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
 the ZL editorial paragraph scaffold, and conditioning on collapsed page, exact
