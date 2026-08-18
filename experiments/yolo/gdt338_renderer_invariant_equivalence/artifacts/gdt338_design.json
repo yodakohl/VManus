@@ -1,0 +1,58 @@
+{
+  "alpha_source": "gdt336_folds.tsv training-only selections",
+  "alphas": [32, 64, 128, 256, 512, 1024],
+  "candidate_model": "JOINT_TWO_RULE",
+  "capacity_gates": {
+    "normalized_objects_min": 9,
+    "register_object_cells_min": 10,
+    "fields_min": 20,
+    "folios_min": 15,
+    "registers_min": 3
+  },
+  "decision_statuses": [
+    "RENDERER_INVARIANT_FORMAL_EQUIVALENCE_SUPPORTED",
+    "EXACT_JOINT_RENDERER_NORMALIZATION_ONLY",
+    "NO_STABLE_RENDERER_INVARIANT_EQUIVALENCE"
+  ],
+  "eligibility": {
+    "all_groups_preexisting_executable_powered_cell": true,
+    "held_rendered_surface_absent_from_training": true,
+    "minimum_distinct_training_surfaces": 2,
+    "minimum_training_physical_folios": 2,
+    "within_fixed_register": true
+  },
+  "field_ordinal_used": false,
+  "fixed_renderer_coefficients": {
+    "q_prev_dy": 0.8920380870887143,
+    "s_line_first": 1.0021314958853849
+  },
+  "null": {
+    "seed": 338,
+    "tuple_strata": ["held_folio", "register", "coordinate_id"],
+    "worlds": 8192,
+    "wrapper_strata": ["held_folio", "register", "coordinate_id", "line_first", "prev_dy"]
+  },
+  "normalization_preserves": [
+    "ordered exact joint_tuple_id sequence",
+    "field boundary",
+    "frame",
+    "inner-D",
+    "right-family",
+    "DY",
+    "B3",
+    "opaque PAGE_HOST within joint tuple"
+  ],
+  "placement_components": ["line_first", "within_field_position", "line_quartile"],
+  "schema": "GDT338_DESIGN_V1",
+  "semantic_state": "UNASSIGNED",
+  "translation_state": "UNASSIGNED",
+  "wrapper_classes": ["NONE", "ch", "che", "d", "q", "s", "sh", "t"],
+  "wrapper_models": [
+    "REGISTER_TWO_RULE",
+    "COORDINATE_TWO_RULE",
+    "COORDINATE_CONTEXT_TABLE",
+    "REGISTER_MARKOV_TWO_RULE",
+    "JOINT_NO_RULE",
+    "JOINT_TWO_RULE"
+  ]
+}

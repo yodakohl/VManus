@@ -1,0 +1,114 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Renderer-invariant predictive exchangeability of exact opaque joint-tuple field sequences only; no broader tuple merge, PAGE_HOST function, semantics, language, plaintext, or translation.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt338_renderer_invariant_equivalence/src/run.py",
+    "validate": "python3 experiments/yolo/gdt338_renderer_invariant_equivalence/src/validate.py"
+  },
+  "created": "2026-08-18",
+  "dependencies": [
+    "GDT321",
+    "GDT322",
+    "GDT325",
+    "GDT326",
+    "GDT327",
+    "GDT335",
+    "GDT336"
+  ],
+  "experiment_id": "GDT338",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt338_renderer_invariant_equivalence/METHOD.md",
+      "role": "frozen prospective method and decision gates",
+      "sha256": "a85c3d917042faf8966186bd3f559dcb221052d74ca661e06bf73ea462eea6ca"
+    },
+    {
+      "path": "experiments/yolo/gdt338_renderer_invariant_equivalence/artifacts/gdt338_design.json",
+      "role": "machine-readable frozen model family and thresholds",
+      "sha256": "8b6408b1074fa0622b04f7cb2e84b172ffa47cfd58d5b1bc8e8097dd3b4ddd16"
+    },
+    {
+      "path": "experiments/yolo/gdt338_renderer_invariant_equivalence/artifacts/gdt338_capacity.tsv",
+      "role": "score-blind exact held-field capacity freeze",
+      "sha256": "70ad489d50ebfc040e8a8bb66ea6448e36aacb0097399a64d9b479b5380f5a93"
+    },
+    {
+      "path": "experiments/yolo/gdt338_renderer_invariant_equivalence/artifacts/gdt338_freeze.json",
+      "role": "hash-bound pre-score freeze",
+      "sha256": "2c33caf79330d6fe74f5160e5fb1c82489152b239138f1372d8654f184b0e9b5"
+    },
+    {
+      "path": "experiments/yolo/gdt338_renderer_invariant_equivalence/src/freeze.py",
+      "role": "deterministic score-blind panel freezer",
+      "sha256": "4a9c20437f2d68c197e29f0db243b8d968eee6402ad92c192de431cda9387b7f"
+    },
+    {
+      "path": "experiments/yolo/gdt338_renderer_invariant_equivalence/src/run.py",
+      "role": "frozen held-folio scorer",
+      "sha256": "8a4dfe171c63a6ab5990b8e44bd6fde45e935296408ad828c0f962c01c1e4c36"
+    },
+    {
+      "path": "experiments/yolo/gdt338_renderer_invariant_equivalence/src/validate.py",
+      "role": "nonimporting reconstruction validator",
+      "sha256": "cb787c71d219bb4490d74df21562567830d4b2574938c6333c3c732296bff482"
+    },
+    {
+      "path": "gdt327_joint_tuple_interlinear.tsv",
+      "role": "f84-free frozen opaque joint-tuple observation layer",
+      "sha256": "7eba46774be44992064cc114f67329723ac7bf589321b0d763fb7f7f748cc1e9"
+    },
+    {
+      "path": "gdt322_result.json",
+      "role": "frozen two-rule renderer coefficients and license scope",
+      "sha256": "2f5ab85b16314a5a9015226d61715ee30ebf592eb76b1375728c14b472a707be"
+    },
+    {
+      "path": "gdt327_result.json",
+      "role": "frozen interlinear provenance",
+      "sha256": "5403a0205410686e740059d1a5692f1fc08c96314552248f005fdd235255ea5a"
+    },
+    {
+      "path": "gdt335_result.json",
+      "role": "frozen supported placement-component selection",
+      "sha256": "56b6c11c8e707faaeaed56d942420afb798b2b98349aa6b5a77c73576e854c8c"
+    },
+    {
+      "path": "gdt336_folds.tsv",
+      "role": "training-only frozen placement shrinkage choices",
+      "sha256": "5788f97b20cab873d938ddf8a6aa41a3b3f0cf8acbcfd5c0491a924e6f87f95f"
+    },
+    {
+      "path": "gdt336_result.json",
+      "role": "frozen placement-retrieval result provenance",
+      "sha256": "a81dd85bc1dc813d6dfc51d6cacdcde3ac979a0b91e88bda8ba11144cc2eaecb"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt338_renderer_invariant_equivalence/README.md",
+      "role": "experiment entry point",
+      "sha256": "1aacae4808ded75809c5a4c0711754c3e04ce85054562b19c97216a3b5ed30c3"
+    },
+    {
+      "path": "experiments/yolo/gdt338_renderer_invariant_equivalence/artifacts/README.md",
+      "role": "artifact scope note",
+      "sha256": "ebbe1f973afd34380dd029d7e233c7f60686bd6081fb76013919293addde6d2d"
+    }
+  ],
+  "question": "Do distinct rendered field surfaces on held folios become predictively exchangeable after only the supported two-rule renderer and three placement effects are marginalized while exact opaque joint tuples remain intact?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "renderer_invariant_equivalence",
+  "status": "REGISTERED_UNSCORED",
+  "title": "Renderer-invariant exact-joint equivalence",
+  "updated": "2026-08-18",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}
