@@ -37,8 +37,10 @@ Consequently model 5 must be exactly equivalent to model 4 under exact tuple
 keys.  This is an integrity check and means q cannot be credited as an
 independent dimension merely because it appeared twice in the old hashed key.
 
-For each of the eight wrapper classes, also score a fixed ablation that merges
-that class into `OTHER_WRAPPER` while preserving `NONE`.  Ablations are
+For each of the eight wrapper classes, also score a fixed ablation that maps
+only that class to `OTHER_WRAPPER`.  The other seven identities remain intact;
+thus `NONE` remains intact in each non-`NONE` ablation, while the `NONE`
+ablation itself tests loss of the bare-state identity.  Ablations are
 descriptive and nonadditive.
 
 ## Transfer
