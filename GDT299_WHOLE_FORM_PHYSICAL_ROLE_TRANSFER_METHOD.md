@@ -42,11 +42,12 @@ are fixed sensitivities.
 ## Null
 
 In 64 deterministic worlds, permute surface identities within exact panel ×
-section × Currier × hand × physical group count × PAGE_HOST strata before
-held-folio fitting.  This preserves host, exact opportunity, line length,
-surface frequency, folio membership, and all outcomes while destroying only
-the observed whole-form-to-position alignment where mobility exists.  Report
-local and max-family inclusive tails over all null-variable panels.
+physical folio × section × Currier × hand × physical group count × PAGE_HOST
+strata before held-folio fitting.  This preserves host, exact opportunity,
+line length, every surface identity's per-folio count, and all outcomes while
+destroying only the observed whole-form-to-position alignment where mobility
+exists.  Report local and max-family inclusive tails over all null-variable
+panels.
 
 ## Decision and ceiling
 

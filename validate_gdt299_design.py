@@ -18,7 +18,7 @@ def main():
   base=[x for x in rows if x['control_id']==panel and int(x['group_count'])>=2];hf=defaultdict(set);sf=defaultdict(set)
   for x in base:hf[x['page_host']].add(x['physical_folio']);sf[x['source_surface_sha256']].add(x['physical_folio'])
   e=[x for x in base if len(hf[x['page_host']])>=2 and len(sf[x['source_surface_sha256']])>=2];s=defaultdict(list)
-  for x in e:s[(x['section'],x['currier'],x['hand'],x['group_count'],x['page_host'])].append(x)
+  for x in e:s[(x['physical_folio'],x['section'],x['currier'],x['hand'],x['group_count'],x['page_host'])].append(x)
   mob=sum(len(v) for v in s.values() if len({x['source_surface_sha256'] for x in v})>1);p=pub[panel];ck(f'capacity:{panel}',int(p['multi_group_events'])==len(base) and int(p['eligible_events'])==len(e) and int(p['eligible_folios'])==len({x['physical_folio'] for x in e}) and int(p['null_mobile_events'])==mob and p['score_capacity']==('POWERED' if len(e)>=500 else 'UNSCORED_LT500') and p['null_capacity']==('VARIABLE' if mob>=100 else 'DESCRIPTIVE_LOW_MOBILITY'))
  ck('capacity_hash',sha(R/'gdt299_capacity.tsv')==d['capacity_sha256']);ck('method',sha(R/'GDT299_WHOLE_FORM_PHYSICAL_ROLE_TRANSFER_METHOD.md')==d['method_sha256']);ck('manifest',sha(R/'gdt299_freeze_manifest.tsv')==d['freeze_manifest_sha256']);
  for x in read(R/'gdt299_freeze_manifest.tsv'):ck(f"frozen:{x['artifact']}",sha(R/x['artifact'])==x['frozen_sha256'])
