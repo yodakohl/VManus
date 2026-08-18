@@ -68,7 +68,8 @@ It destroys the alignment between the target host and its held wrapper outcome
 while leaving both competing training-only predictors fixed.  Use 64 shared
 worlds with seed family
 `GDT289_HELD_WRAPPER_ALIGNMENT|panel|world|stratum`.
-Report local and standardized max-eight inclusive p-values.
+Report local and corrected standardized max-four inclusive p-values for the
+null-variable family; zero-variance controls receive no p-value.
 
 ### Pre-score capacity correction
 
@@ -78,10 +79,12 @@ panels.  A capacity-only rerun exposed only event counts, mobile-label counts,
 and null standard deviations—not observed effect sizes.  Augsburg and all
 three Latin diplomatic panels have mobile held labels but invariant paired
 bag-versus-transfer contrast under every exact-stratum permutation.  Retain
-their observed scores and inclusive local tails descriptively, but exclude
-them from standardized maxT.  The corrected family is therefore max-four over
+their observed scores descriptively, but report both local and maxT p-values as
+`NA_ZERO_NULL_VARIANCE`.  The corrected family is therefore max-four over
 Voynich, lexical A, factorial B, and human-grown B2.  This rule is frozen before
-any target effect or decision is published.
+any target effect or decision is published.  A post-score reporting audit then
+removed floating-summation pseudo-tails from those already excluded panels;
+this changed no score, Voynich p-value, gate, or decision.
 
 ## Frozen decision
 

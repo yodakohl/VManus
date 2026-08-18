@@ -2995,6 +2995,24 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   lexical assignment, language, meaning, plaintext, translation, or f84
   access was added.
 
+- GDT289 falsifies the first low-complexity version of GDT288's
+  host-and-slot renderer prediction.  For each target event, its exact host's
+  own target-position wrapper cell was forbidden; the host was represented
+  only by occurrences on other folios and other field positions, while
+  position transitions were learned from seven other immutable host buckets.
+  Of 8,448 Voynich events, 7,347 have this support.  The transferred
+  cross-host position model loses `-.1790` bits/event to the simpler bag of
+  that same host's wrappers at other positions, with negative gain in all 8/8
+  host buckets and all 4/4 positions.  Held-section (`-.1791`) and held-hand
+  (`-.1865`) sensitivities are also negative; corrected max-four `p=1.0`.
+  Therefore GDT286's positive exact `host × position` increment does not
+  collapse to this shared cross-host transition algebra.  Refine the working
+  theory toward host-specific or richer latent host-class selection rather
+  than a universal positional wrapper table.  This does not reject the broader
+  hybrid record-shorthand architecture, identify a host as lexical, or assign
+  morphology, function, sound, language, meaning, plaintext, translation, or
+  any f84 access.
+
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
 the ZL editorial paragraph scaffold, and conditioning on collapsed page, exact
