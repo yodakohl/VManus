@@ -1,0 +1,62 @@
+{
+  "alpha": 0.5,
+  "claim_ceiling": "Held-folio opaque-host renderer-coordinate factorization only; no word morpheme category meaning sound language plaintext or translation.",
+  "content_sha256": "8b02f7c37738e204e9921ef0d43b304858b4bd2240f7fedcdcc7f9999a52d555",
+  "coordinate_fields": [
+    "local_frame",
+    "inner_d",
+    "right_family",
+    "dy_closure",
+    "b3"
+  ],
+  "decision": {
+    "beats_register_and_host_table": true,
+    "max_four_p_le": 0.05,
+    "positive_folios_min": 50,
+    "selector_paid_gain_positive": true
+  },
+  "eligibility": [
+    "HOST_SEEN_IN_TRAINING",
+    "COORDINATE_SEEN_IN_TRAINING",
+    "HOST_X_COORDINATE_EDGE_UNSEEN_IN_TRAINING"
+  ],
+  "f84": {
+    "authorized": false,
+    "joined": false,
+    "opened": false,
+    "parsed": false,
+    "retained": false,
+    "scored": false
+  },
+  "fold": "LEAVE_ONE_PHYSICAL_FOLIO_OUT",
+  "implementation": {
+    "freeze_gdt326_host_coordinate_composition.py": "4714d79333b66f04761be2ace748e73c2419b1c0ab2ba4e89de97e72eeb8aaeb"
+  },
+  "inputs": {
+    "GDT326_HOST_COORDINATE_COMPOSITION_METHOD.md": "03d8d609c6718f520767ca4d294ecea02903c64fbfed24bd4d517c12020b6db9",
+    "gdt278_native_event_inventory.tsv": "598e9833f3f0f67f187b59153156a776a22f5fa722a6b6428a386c2bb5178b2a",
+    "gdt325_result.json": "a43d1486a68dff9eb1010999cf4fc05cf28ad58a35045578e85741ca050491e3"
+  },
+  "models": [
+    "REGISTER_TABLE",
+    "HOST_TABLE",
+    "HOST_FACTORIAL",
+    "HOST_FACTORIAL_REGISTER"
+  ],
+  "null": {
+    "scope": "FIXED_PREDICTION_MAX_FOUR_DIAGNOSTIC",
+    "seed": 32620260818,
+    "strata": "HELD_PHYSICAL_FOLIO",
+    "unit": "COMPLETE_COORDINATE",
+    "worlds": 8192
+  },
+  "outputs": {
+    "gdt326_capacity.tsv": "c21bd2dabc9107e59961daaa01a6387f5900ea96bd5b3195131633f14816f754",
+    "gdt326_frozen_panel.tsv": "f23c01dc557d0af6c958a6f04d1c3010f15d0363e0eac2e4fc577ddac179dcc2"
+  },
+  "primary_weighting": "EQUAL_HELD_FOLIOS",
+  "schema": "GDT326_HOST_COORDINATE_COMPOSITION_DESIGN_V1",
+  "selector_bits": 2.0,
+  "sensitivity_weighting": "HELD_EVENTS",
+  "status": "FROZEN_BEFORE_HOST_COORDINATE_SCORING"
+}
