@@ -7,7 +7,7 @@ The authoritative scientific status remains
 ## Inventory
 
 - Experiments indexed: **339**
-- Experiment-associated tracked files: **4,388** (551.6 MiB)
+- Experiment-associated tracked files: **4,397** (551.7 MiB)
 - Structured GDT337+ experiments: **4**
 - IDs without a ledger entry: **166**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
@@ -20,7 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT340 | GDT340_recipe_pharma_section_semantic_schema_comparator | `COMPARATOR_RECORD_SCHEMA_RECOVERABLE_FROZEN_BEFORE_VOYNICH_TUPLE_SCORING` | [report](../experiments/yolo/gdt340_recipe_pharma_section_semantic_schema/COMPARATOR_REPORT.md) | 21 | 185.4 KiB | 5 | STRUCTURED_YOLO |
+| GDT340 | GDT340_recipe_pharma_section_semantic_schema_target | `INSUFFICIENT_COMPARATOR_OR_TARGET_CAPACITY` | [report](../experiments/yolo/gdt340_recipe_pharma_section_semantic_schema/REPORT.md) | 30 | 305.7 KiB | 5 | STRUCTURED_YOLO |
 | GDT339 | GDT339_comparator_first_semantic_incidence | `NO_TRANSFERABLE_COMPARATOR_INVARIANT` | [report](../experiments/yolo/gdt339_comparator_first_semantic_incidence/REPORT.md) | 27 | 1.9 MiB | 3 | STRUCTURED_YOLO |
 | GDT338 | GDT338_renderer_invariant_equivalence | `NO_STABLE_RENDERER_INVARIANT_EQUIVALENCE` | [report](../experiments/yolo/gdt338_renderer_invariant_equivalence/REPORT.md) | 21 | 645.3 KiB | 7 | STRUCTURED_YOLO |
 | GDT337 | GDT337_blind_external_homologue_census | `NO_VIABLE_FROZEN_ENDPOINT` | [report](../experiments/yolo/gdt337_external_homologue_census/REPORT.md) | 14 | 97.6 KiB | 0 | STRUCTURED_YOLO |

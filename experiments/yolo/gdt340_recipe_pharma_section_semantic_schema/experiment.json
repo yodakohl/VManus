@@ -5,25 +5,53 @@
   },
   "claim_ceiling": "Externally calibrated complete-record schema likeness and held-folio opaque-tuple recovery only; no field or tuple role, meaning, language, plaintext, translation, cross-section semantics, or f84 result.",
   "commands": {
-    "run": "python3 experiments/yolo/gdt340_recipe_pharma_section_semantic_schema/src/run_comparators.py",
-    "validate": "python3 experiments/yolo/gdt340_recipe_pharma_section_semantic_schema/src/validate_comparators.py"
+    "run": "python3 experiments/yolo/gdt340_recipe_pharma_section_semantic_schema/src/run.py",
+    "validate": "python3 experiments/yolo/gdt340_recipe_pharma_section_semantic_schema/src/validate.py"
   },
   "created": "2026-08-18",
   "dependencies": ["GDT176", "GDT177", "GDT224", "GDT226", "GDT327"],
   "experiment_id": "GDT340",
-  "inputs": [],
-  "outputs": [],
+  "inputs": [
+    {"path": "experiments/yolo/gdt340_recipe_pharma_section_semantic_schema/METHOD.md", "role": "frozen comparator-first and section-specific method", "sha256": "ce4035bdb805cdbb15aa0699a2f77796db9f3aac9d746df88c02c3b08b1d726d"},
+    {"path": "experiments/yolo/gdt340_recipe_pharma_section_semantic_schema/artifacts/gdt340_comparator_design.json", "role": "frozen models axes gates and target panels", "sha256": "d837faeaf4646973ba0d7339707ff74cfa76f7c56370844590c5d8034fa29ce9"},
+    {"path": "experiments/yolo/gdt340_recipe_pharma_section_semantic_schema/artifacts/gdt340_schema_instrument_freeze.json", "role": "public pre-target comparator instrument freeze", "sha256": "5052f32045ebe7c0bb23f022b2ca782528bfdb3f06cd0eec45a28ea1fad53876"},
+    {"path": "experiments/yolo/gdt340_recipe_pharma_section_semantic_schema/artifacts/gdt340_comparator_result.json", "role": "held-collection comparator decision", "sha256": "f88055039b69f48c4fddad311386829e140235480cfc101d55ce9a68fc6afa2e"},
+    {"path": "gdt327_joint_tuple_interlinear.tsv", "role": "f84-free frozen exact joint-tuple observation layer", "sha256": "7eba46774be44992064cc114f67329723ac7bf589321b0d763fb7f7f748cc1e9"},
+    {"path": "gdt327_result.json", "role": "joint-tuple observation provenance", "sha256": "5403a0205410686e740059d1a5692f1fc08c96314552248f005fdd235255ea5a"}
+  ],
+  "outputs": [
+    {"path": "experiments/yolo/gdt340_recipe_pharma_section_semantic_schema/README.md", "role": "experiment entry point", "sha256": "1b000ff388556be8ff87ca628a7f56ad115f922fd59409398d6182297065b5ba"},
+    {"path": "experiments/yolo/gdt340_recipe_pharma_section_semantic_schema/SOURCE_AUDIT.md", "role": "external source and qualitative ontology audit", "sha256": "8b63367ba6700f6b19a3a9fc2939c547f37073c8de7ba5cc989968c3f06d5e23"},
+    {"path": "experiments/yolo/gdt340_recipe_pharma_section_semantic_schema/COMPARATOR_REPORT.md", "role": "pre-target comparator report", "sha256": "a2d33d33a0d748333df95cbd9e64082f33cfe34e257ec04dc6bf740b2404d16f"},
+    {"path": "experiments/yolo/gdt340_recipe_pharma_section_semantic_schema/REPORT.md", "role": "final section-specific report", "sha256": "741e46f0e237478b87368809b74e4e0f58efb0f957cbc7a51d3dd5ec58dd9d24"},
+    {"path": "experiments/yolo/gdt340_recipe_pharma_section_semantic_schema/artifacts/gdt340_event_ontology.tsv", "role": "human-readable complete-record ontology", "sha256": "ecb6921b19c09646a01fd91f438934b0867d2c06f8931f62b136438f3c0e319e"},
+    {"path": "experiments/yolo/gdt340_recipe_pharma_section_semantic_schema/artifacts/gdt340_comparator_examples.tsv", "role": "readable homologous recipe examples", "sha256": "464d60b35665918dfdde7db3bc3873f06f7d1df0849b535987e2df9a9f5ab157"},
+    {"path": "experiments/yolo/gdt340_recipe_pharma_section_semantic_schema/artifacts/gdt340_external_visual_observations.tsv", "role": "provenance-bound comparator facsimile observations", "sha256": "05eb284fc1b1b8350be49fb6feb670f8de850c8da1a9fc37927aedaf4591eb05"},
+    {"path": "experiments/yolo/gdt340_recipe_pharma_section_semantic_schema/artifacts/gdt340_source_provenance.json", "role": "external source provenance", "sha256": "ea7089364a32a2a4f31434351819d22b31cc99b7c0e12b703fe6a83a3778ad6d"},
+    {"path": "experiments/yolo/gdt340_recipe_pharma_section_semantic_schema/artifacts/gdt340_comparator_validation.json", "role": "comparator validation", "sha256": "d2b1ec6f2c0862dabef2b658d294d682e32e572b85500b57dc4e8f8da1448f3d"},
+    {"path": "experiments/yolo/gdt340_recipe_pharma_section_semantic_schema/artifacts/gdt340_voynich_record_inventory.tsv", "role": "schema probabilities without tuple identities", "sha256": "d51840b30f5b7f8b87ed05ec3bf6bee12288610a0cb35f8bc4b9236b8ef1c568"},
+    {"path": "experiments/yolo/gdt340_recipe_pharma_section_semantic_schema/artifacts/gdt340_voynich_schema_folds.tsv", "role": "held-folio scores", "sha256": "762a29003380c3e9c0c5e03f000b496f3bd9c91e1dbe9dd5d89c483da47f4576"},
+    {"path": "experiments/yolo/gdt340_recipe_pharma_section_semantic_schema/artifacts/gdt340_voynich_schema_models.tsv", "role": "panel score summary", "sha256": "ffc2375163f01232f8ba6cdfc72c55885586eb6870cc5b1c6eb20eacda0d8aa9"},
+    {"path": "experiments/yolo/gdt340_recipe_pharma_section_semantic_schema/artifacts/gdt340_voynich_schema_null.tsv", "role": "exact opportunity null", "sha256": "c30f4a82de21ad885a510d8a772ec30d89b34a5a43133c1900fb020ca6e3280f"},
+    {"path": "experiments/yolo/gdt340_recipe_pharma_section_semantic_schema/artifacts/gdt340_counterexamples.tsv", "role": "counterexamples and capacity failures", "sha256": "181d1ad5fd73216f776094673b92c3189fe0073b283d6a997f735d99a0e07f1c"},
+    {"path": "experiments/yolo/gdt340_recipe_pharma_section_semantic_schema/artifacts/gdt340_result.json", "role": "compact final result", "sha256": "89bb0e09987564bd6d6f21ae642781487c8d1f8809a12ad24136fb0243443629"},
+    {"path": "experiments/yolo/gdt340_recipe_pharma_section_semantic_schema/artifacts/gdt340_validation.json", "role": "independent final validation", "sha256": "397a441809df3a15d4fa4644d40e1a37ac683904fa95a5af6b589ba8479f840a"},
+    {"path": "experiments/yolo/gdt340_recipe_pharma_section_semantic_schema/src/run.py", "role": "held-folio target scorer", "sha256": "09a43ce6d65b29e032c521fc17bd9f1c76293fac17d554ad265c459857ca4782"},
+    {"path": "experiments/yolo/gdt340_recipe_pharma_section_semantic_schema/src/validate.py", "role": "nonimporting target validator", "sha256": "e8ee04f36d517c2d617b1f6c35c4e5ccc23f013c09b87afdc1ef25127a18f9b2"},
+    {"path": "experiments/yolo/gdt340_recipe_pharma_section_semantic_schema/src/run_comparators.py", "role": "comparator scorer and freezer", "sha256": "a8d58c53d3407a77991044a57d0876d64148796f063d5f3390f9f45e46e71715"},
+    {"path": "experiments/yolo/gdt340_recipe_pharma_section_semantic_schema/src/validate_comparators.py", "role": "comparator validator", "sha256": "4317ef8c4c3412a9dc38cba7ca660b2ce7d6f7f5b2c41b9438e16de79e59f6a2"}
+  ],
   "question": "Can a complete-record medieval recipe event schema be recovered from a Voynich-comparable anonymous observation layer, then transfer separately to Recipe/Stars and Pharma on held folios?",
   "schema_version": 1,
   "sealed_data": {
     "f84r": "FORBIDDEN"
   },
   "slug": "recipe_pharma_section_semantic_schema",
-  "status": "COMPARATOR_RECORD_SCHEMA_RECOVERABLE_STAGE_B_NOT_RUN",
+  "status": "INSUFFICIENT_COMPARATOR_OR_TARGET_CAPACITY",
   "title": "Section-specific complete-record semantic schemas",
   "updated": "2026-08-18",
   "validation": {
-    "artifact": "experiments/yolo/gdt340_recipe_pharma_section_semantic_schema/artifacts/gdt340_comparator_validation.json",
+    "artifact": "experiments/yolo/gdt340_recipe_pharma_section_semantic_schema/artifacts/gdt340_validation.json",
     "status": "PASS"
   }
 }

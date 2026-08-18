@@ -101,6 +101,15 @@ morpheme, plaintext symbol, or semantic role.
   (+259.90 bits, 61/82 positive folios), but exact tuple identity is stronger
   (+507.33 bits). Treat this as tuple-specific structural incidence only; do
   not merge tuples or import comparator role names.
+- GDT340 restricted the comparator to complete medieval recipe records and a
+  five-axis event ontology. Only explicit intermediate-state/time gating was
+  recoverable from anonymous record topology across all six held collections
+  (+124.69 bits; 6/6 folds). Applied after a public freeze and separately by
+  section, exact tuples worsened its Recipe/Stars assignment by 6.61 bits
+  (3/12 positive folios). Pharma gained 1.30 bits on only 12 records but had
+  zero records mobile under the exact size/field null. Retain the readable
+  ontology as calibration; do not assign a Voynich field, tuple, or record an
+  event meaning.
 
 ## Calibration constraints
 
@@ -165,6 +174,8 @@ falsifier:
 - renderer-invariant field equivalence beyond exact opaque joint-tuple identity;
 - semantic-class induction from opaque record incidence after GDT339's readable
   comparator failed cross-corpus transfer;
+- complete-record Recipe/Pharma event-schema transfer from current exact tuples
+  after GDT340's Recipe reversal and Pharma capacity failure;
 - f57/f77 quality, element, process, or lexical assignments.
 
 The complete route memory remains in
@@ -205,6 +216,7 @@ evidence rather than mining another internal string feature.
 - `GDT336_PLACEMENT_CONDITIONED_TUPLE_RETRIEVAL_REPORT.md`
 - `experiments/yolo/gdt338_renderer_invariant_equivalence/REPORT.md`
 - `experiments/yolo/gdt339_comparator_first_semantic_incidence/REPORT.md`
+- `experiments/yolo/gdt340_recipe_pharma_section_semantic_schema/REPORT.md`
 - `GDT330_F84R_METADATA_ACCESS_CORRECTION.md`
 
 Use `experiments/EXPERIMENT_INDEX.tsv` for exact paths, dependencies, runners,
