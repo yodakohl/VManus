@@ -3065,6 +3065,24 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   suffixation, grammar function, content neutrality, language, meaning,
   plaintext, translation, or any f84 access.
 
+- GDT293 confirms the formal half of GDT288's third novel prediction.  Among
+  7,661 events whose exact opaque PAGE_HOST recurs outside the held folio,
+  exact host identity reduces joint wrapper/frame/inner-D/right/DY/B3
+  codelength by **1.41487 bits/event** beyond layout and record opportunity;
+  top-1 joint completion rises from .2347 to .3981.  All six fixed renderer
+  components improve, 90/91 folios are positive, prior-5/prior-22 gains remain
+  +1.4644/+1.3755, and whole-section/whole-hand gains are +1.7916/+1.7675.
+  The exact held-alignment max-eight diagnostic is `p=1/65`.  This is the
+  useful asymmetry predicted by the working generator: an exact host strongly
+  licenses its own same-group rendering, while GDT165 immediate NEXT_HOST
+  transfer remains negative and was not rerun.  The effect is not unique to
+  Voynich—all three Latin graphematic controls are positive, up to +.6103—and
+  f25 is the one negative held folio.  Because PAGE_HOST and renderer fields
+  are complementary outputs of the same frozen parser, retain a strong formal
+  host-to-renderer completion channel, not proof that PAGE_HOST is lexical or
+  causally prior.  No word, code value, morpheme, sound, language, meaning,
+  plaintext, translation, or f84 access follows.
+
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
 the ZL editorial paragraph scaffold, and conditioning on collapsed page, exact
