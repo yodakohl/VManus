@@ -36,6 +36,12 @@ remaining centers, lexicographic tie breaks, and at most 30 Lloyd iterations.
 Require at least `3K` eligible training hosts; otherwise that fold-position is
 capacity-unscored.
 
+A capacity-only first invocation stopped before any result because the Latin
+scholastic panel has zero K=4 scoreable rows under this rule.  It is retained
+as `UNSCORED_NO_LATENT_CLASS_CAPACITY`; the other seven panels keep the frozen
+model.  This mechanical exclusion was fixed after exposing only scoreable-row
+counts and before any effect or decision was published.
+
 The wrapper distribution for a cluster is the host-equal average of its
 members' normalized target-position profiles with Dirichlet-1/2 smoothing.
 Assign the target host by nearest center.  Give the class forecast the same
@@ -57,8 +63,8 @@ target position × host length × first host character × last host character`
 strata for 64 shared worlds.  Seed family:
 `GDT290_HELD_WRAPPER_ALIGNMENT|panel|K|world|stratum`.
 
-Report local p-values and standardized max-family p-values across the eight
-K=4 panels whose null variance is positive.  A panel with exact zero null
+Report local p-values and standardized max-family p-values across the seven
+K=4-capable panels whose null variance is positive.  A panel with exact zero null
 variance remains descriptively scored but receives
 `NA_ZERO_NULL_VARIANCE` and is excluded mechanically from maxT.
 
