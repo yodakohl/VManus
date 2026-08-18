@@ -1,6 +1,6 @@
 # Voynich active state — structural reset baseline
 
-Updated: 2026-08-17. Read this file first, then
+Updated: 2026-08-18. Read this file first, then
 `experiments/semantic_assumptions/ACTIVE_EXPERIMENT_LEDGER.tsv`.
 
 ## Outcome
@@ -3047,6 +3047,23 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   do not recast it as a small productive wrapper paradigm.  No lexical class,
   function, morphology, language, meaning, plaintext, translation, or f84
   access follows.
+
+- GDT292 tests GDT288's separate prediction that the frozen right-family layer
+  supplies a reusable closure channel.  In held-folio scoring, adding exact
+  `RIGHT_FAMILY` after layout, opaque host, wrapper, local frame, and inner-D
+  makes Voynich closure-tuple code length **worse** by `-.00759` bits/event;
+  only 35/91 folios improve.  Four of six right classes are positive, and the
+  observed alignment is less damaging than exact within-folio shuffled
+  alignments (corrected max-family diagnostic `p=1/65`), but this does not
+  rescue negative absolute prediction.  The effect changes sign between prior
+  masses 5 (`-.02587`) and 22 (`+.00438`); held-section and held-hand gains are
+  only `+.00025` and `+.00383`.  All seven readable/synthetic controls have
+  positive held-folio gains under the identical instrument.  Retain a weak or
+  local same-group rendering association, not a compact transferable closure
+  operator.  Because right family and DY/B3 are parsed from the same source
+  group, even the alignment diagnostic cannot establish causal ordering,
+  suffixation, grammar function, content neutrality, language, meaning,
+  plaintext, translation, or any f84 access.
 
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
