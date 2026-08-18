@@ -2961,6 +2961,22 @@ consonant, word, language, cipher operation, meaning, plaintext, or translation
   opaque parser identity; no lexical class, morphology, abbreviation, sound,
   language, meaning, plaintext, translation, or f84 access follows.
 
+- GDT287 combines the frozen GDT284 host-character and GDT286 wrapper-class
+  codelengths into four valid held-folio chain-rule factorizations.  Voynich is
+  best under `HOST_FIRST_CONTEXTUAL`—encode the opaque host under the
+  no-wrapper character model, then encode wrapper from host plus field
+  position—at `9.5597` joint bits/event.  It beats `WRAPPER_FIRST` by only
+  `.0314` bits/event, so the ordering lead is modest and post-hoc.  All three
+  strong Latin diplomatic panels prefer `WRAPPER_FIRST`; factorial notation
+  and Augsburg accounts also prefer contextual host-first, the lexical
+  codebook prefers stable host-first, and human-grown B2 prefers wrapper-first.
+  The current best operational grammar therefore selects a host/address in
+  record context and renders its outer wrapper jointly with slot position,
+  rather than applying a universally independent prefix.  This is a useful
+  generative working order but not causal identification, and it does not make
+  PAGE_HOST a word.  No morphology, abbreviation, notation identity, language,
+  meaning, plaintext, translation, or f84 access follows.
+
 A score-blind capacity audit now confirms that the scope question is testable
 without reopening the page-state outcome. Using only source-aligned groups and
 the ZL editorial paragraph scaffold, and conditioning on collapsed page, exact
