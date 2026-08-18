@@ -1,0 +1,101 @@
+{
+  "categorical_features": [
+    "section",
+    "currier",
+    "hand",
+    "register"
+  ],
+  "claim_ceiling": "Stochastic formal operation choice on already licensed exact pairs only; no unseen license morphology category semantics sound language plaintext meaning or translation.",
+  "content_sha256": "f034ec2348dddbd08e4c0c7d54ea1967705b227771577b8cb710ad40bc2910e3",
+  "decision": {
+    "auc_minimum": 0.6,
+    "held_full_bits_per_event_gain_positive": true,
+    "max12_p_le": 0.05,
+    "null_centered_gain_positive": true
+  },
+  "f84": {
+    "authorized": false,
+    "joined": false,
+    "opened": false,
+    "parsed": false,
+    "retained": false,
+    "scored": false
+  },
+  "forbidden_predictors": [
+    "same_group_wrapper",
+    "same_group_frame",
+    "same_group_inner_d",
+    "same_group_right_family",
+    "same_group_dy",
+    "same_group_b3",
+    "page_host_identity",
+    "host_glyphs",
+    "host_substrings",
+    "target_surface_identity"
+  ],
+  "implementation": {
+    "freeze_gdt311_operation_event_choice.py": "18d7e49ba1327f430f0c59c7d609e8745bac827bb81b1e57ed1fd307914c6ab0"
+  },
+  "inputs": {
+    "GDT311_OPERATION_EVENT_CHOICE_METHOD.md": "ca26662738bbb976201342c711af3ce7664cf95ad2d8f995c97b28e8144097bc",
+    "gdt278_native_event_inventory.tsv": "598e9833f3f0f67f187b59153156a776a22f5fa722a6b6428a386c2bb5178b2a",
+    "gdt303_pair_deltas.tsv": "9b5ae35f46d80aed07a54c0329e8d8bd132ce92afc7ff8c792949c3f9cc1725a"
+  },
+  "models": {
+    "PAIR": [],
+    "PAIR_BOUNDARY": [
+      "prev_dy",
+      "line_first"
+    ],
+    "PAIR_FULL": [
+      "line_first",
+      "line_last",
+      "relative_position",
+      "field_first",
+      "field_last",
+      "record1",
+      "prev_dy",
+      "section",
+      "currier",
+      "hand",
+      "register"
+    ],
+    "PAIR_POSITION": [
+      "line_first",
+      "line_last",
+      "relative_position",
+      "field_first",
+      "field_last",
+      "record1"
+    ],
+    "PAIR_REGISTER": [
+      "section",
+      "currier",
+      "hand",
+      "register"
+    ]
+  },
+  "null": {
+    "primary_strata": "PAIR_X_REGISTER",
+    "seed": 31120260818,
+    "sensitivity_strata": "PAIR",
+    "worlds": 8192
+  },
+  "operations": [
+    "wrapper:ch>s",
+    "wrapper:d>s",
+    "wrapper:NONE>q"
+  ],
+  "outputs": {
+    "gdt311_capacity.tsv": "1f2adb3437a809de96abdf79e61ea7b94f0e1d3c93349734a4c4c4e11337822c",
+    "gdt311_frozen_event_panel.tsv": "769cd45efeb9c0e1cc773497913b43058ee2f9c6dfd0f1aa2db14e795b847b0d"
+  },
+  "probability_clip": [
+    0.01,
+    0.99
+  ],
+  "ridge": 10.0,
+  "schema": "GDT311_OPERATION_EVENT_CHOICE_DESIGN_V1",
+  "split": "SHA256_GDT311_SPLIT_V1_MOD3_EQ0_TEST",
+  "status": "FROZEN_BEFORE_HELD_EVENT_CHOICE_SCORING"
+}
