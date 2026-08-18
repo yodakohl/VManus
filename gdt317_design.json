@@ -1,0 +1,59 @@
+{
+  "claim_ceiling": "Formal q post-DY calibration only; no shared prefix linguistic function meaning sound language plaintext or translation.",
+  "classification": {
+    "enriched": "VOYNICH_RANK1_GAIN_AND_DELTA",
+    "non_specific": "AT_LEAST_TWO_CONTROLS_GAIN_GE_VOYNICH",
+    "otherwise": "MIXED"
+  },
+  "content_sha256": "1f954b776c4f2ae6572f7352b4bc31db5930db653e1acc334a82779c7299899f",
+  "eligibility": {
+    "cell_min_non_q": 2,
+    "cell_min_non_q_folios": 2,
+    "cell_min_q": 2,
+    "cell_min_q_folios": 2,
+    "min_cells": 5,
+    "min_events": 100,
+    "min_folios": 5,
+    "min_q_events": 20
+  },
+  "f84": {
+    "authorized": false,
+    "joined": false,
+    "opened": false,
+    "parsed": false,
+    "retained": false,
+    "scored": false
+  },
+  "implementation": {
+    "freeze_gdt317_q_post_dy_controls.py": "1406251c55f926ec914203f9e7956df7e1e38cc85d21bba2274daad2e927aba8"
+  },
+  "inputs": {
+    "GDT317_Q_POST_DY_CONTROL_CALIBRATION_METHOD.md": "cd68b92b2b4c2d8d1fb3fba7f9983afea8f7a57c35ac4b5be8c77465e7921993",
+    "gdt278_native_event_inventory.tsv": "598e9833f3f0f67f187b59153156a776a22f5fa722a6b6428a386c2bb5178b2a",
+    "gdt316_frozen_panel.tsv": "204e0f94e7e5b8d9186c24f8c0f4272063d1812590482706552edc7b9b2f20eb"
+  },
+  "instrument": {
+    "fold": "LEAVE_ONE_PHYSICAL_FOLIO_OUT",
+    "models": [
+      "CELL",
+      "CELL_PREV_DY"
+    ],
+    "null_scope": "FIXED_CROSSFIT_ALIGNMENT_DIAGNOSTIC",
+    "null_seed": 31720260818,
+    "null_strata": "CELL_X_REGISTER",
+    "null_worlds": 8192,
+    "ridge": 10.0
+  },
+  "outputs": {
+    "gdt317_capacity.tsv": "8f67f2b59d272adfff5a84b5a59681950606ccee7c825e4b0ea32eda3bd37cc8",
+    "gdt317_frozen_panel.tsv": "a6e0c7ef0e15943c64db1b4551430153c20ec475d754e5b0c647cba04d584001"
+  },
+  "powered_panels": [
+    "COMPOSITIONAL_TECHNICAL_NOTATION",
+    "HYBRID_SHORTHAND",
+    "LATIN_SCHOLASTIC_GRAPHEMATIC",
+    "VOYNICH_REFERENCE"
+  ],
+  "schema": "GDT317_Q_POST_DY_CONTROL_DESIGN_V1",
+  "status": "FROZEN_BEFORE_CONTROL_SCORING"
+}
