@@ -25,3 +25,7 @@ and may contain superseded claims.
   grow the archived prose logs.
 - Do not rerun a failed route unless there is new data or a genuinely different
   predeclared falsifier.
+- Keep GDT001--GDT336 byte-frozen in the legacy repository-root layout. Starting
+  with GDT337, create every new experiment under
+  `experiments/yolo/gdtNNN_short_slug/` using `tools/new_yolo_experiment.py`;
+  `tools/build_experiment_index.py --check` enforces this boundary.
