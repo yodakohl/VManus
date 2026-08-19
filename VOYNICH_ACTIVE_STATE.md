@@ -184,6 +184,18 @@ Updated: 2026-08-19. This is the full claim registry. For routine work, read
   nested-diagram identity. Reopen only if an external readable witness fixes
   authored sector values/order or a second Voynich folio supplies the same
   topology. No f84 row was parsed, displayed, retained, joined, or scored.
+- GDT354 supplies the new external witness requested by that stop, but only at
+  system-family level. The official Penn facsimile of Armenian calendar/
+  astronomy compilation LJS 443 (after 1416) has three adjacent diagram
+  surfaces with a central circle and eight curved, text-bearing radial
+  compartments; repeated crescent-like and circular marks make a lunar reading
+  plausible. The existing human f68v3 annotation independently reports eight
+  inward-spiralling written bands. No folio-specific scholarly source located
+  here fixes the external compartment values, start, or reading direction, and
+  f68v3 still lacks target phase and independent-folio transfer. Retain a
+  provisional eight-band calendar/astronomy diagram-family homologue only; do
+  not expose or align Voynich text on this endpoint. No target image,
+  transcription, formal payload, or f84 material was accessed.
 - A frozen synthetic-instrument calibration now limits how opaque PAGE_HOST
   negatives may be interpreted. On one real medieval medical source, a true
   injective 2–3-character concept codebook lost every held

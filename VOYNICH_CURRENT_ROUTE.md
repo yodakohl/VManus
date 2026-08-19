@@ -178,14 +178,11 @@ morpheme, plaintext symbol, or semantic role.
 
 - No visual/page annotation currently licenses a manuscript-wide semantic role
   or word meaning.
-- GDT337 audits 14 provenance-bound readable astronomical/computistical
-  witnesses against the text-blind special-circle and zodiac inventories. It
-  finds exact external donors—including British Library Add MS 25435's
-  numbered I–XXVIII lunar wheel with pointer and 28 readable records—but zero
-  endpoint with both a text-blind Voynich slot correspondence and disjoint-
-  folio discovery/holdout capacity. Do not score current 28-, 30-, 7+12-,
-  fourfold-, or 10+5-slot candidates merely because an external count/order is
-  now available.
+- GDT337 finds exact readable astronomical donors but no target correspondence
+  with disjoint-folio transfer; external count/order alone licenses no score.
+- GDT354 adds a post-1416 Armenian eight-curved-compartment diagram family as a
+  provisional f68v3 topology homologue, but no external values/order, target
+  phase, or held folio; no Voynich formal payload was opened or scored.
 - The exposed f57/f77 quality/element decoder was withdrawn after
   look-elsewhere and transfer failures (GDT182–GDT202).
 - Recurrent formulas and universal tuples are retrieval candidates only. Their
@@ -244,9 +241,8 @@ ledger. Use those files for a proposed-route duplicate audit, not on every turn.
 
 ## Next useful route
 
-1. Do not score any GDT337 near-match. The external donor side is no longer the
-   only bottleneck; the target lacks authorial phase/ownership and independent-
-   folio replication.
+1. Do not score a GDT337/GDT354 near-match. LJS 443 first needs a scholarly
+   eight-compartment key/order; the target still needs phase and replication.
 2. Acquire one genuinely new target relation: either a second independently
    ordered 28-slot folio, a text-blind zodiac band/start key plus a disjoint-
    folio repeated topology, or singular homologous slots on at least two

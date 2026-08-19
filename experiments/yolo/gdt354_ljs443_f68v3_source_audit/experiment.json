@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "experiment_id": "GDT354",
+  "slug": "ljs443_f68v3_source_audit",
+  "title": "LJS 443 and f68v3 eight-band source audit",
+  "created": "2026-08-19",
+  "updated": "2026-08-19",
+  "status": "PROVISIONAL_EIGHT_BAND_SYSTEM_HOMOLOGUE_NO_SLOT_TRANSFER",
+  "question": "Does LJS 443 supply a provenance-clean external eight-band homologue for f68v3 and enough fixed slot semantics/order to authorize a later formal alignment?",
+  "dependencies": ["GDT337", "GDT353"],
+  "commands": {
+    "run": "python3 experiments/yolo/gdt354_ljs443_f68v3_source_audit/src/run.py",
+    "validate": "python3 experiments/yolo/gdt354_ljs443_f68v3_source_audit/src/validate.py"
+  },
+  "sealed_data": {"f84r": "FORBIDDEN", "f84": "FORBIDDEN"},
+  "claim_ceiling": "Provisional eight-curved-band calendar/astronomy diagram-family homologue only; no lunar-table identity, slot value, phase, direction, Armenian connection, source copying, language, plaintext, or translation.",
+  "artifact_policy": {"max_inline_bytes": 5000000, "large_artifact_justification": ""},
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt354_ljs443_f68v3_source_audit/METHOD.md",
+      "role": "source-first method; selected human row and remote-source byte digests are content-bound in the result without hashing forbidden global rows",
+      "sha256": "fd0e76e0a3e6080f2b39abfa46476bc4e173fedcf952c772b92f3907214434ae"
+    }
+  ],
+  "outputs": [
+    {"path": "experiments/yolo/gdt354_ljs443_f68v3_source_audit/README.md", "role": "experiment entry point", "sha256": "8a5547349c96a12cb91fece58b604af8128e62883ae344bc7681bbec94a00141"},
+    {"path": "experiments/yolo/gdt354_ljs443_f68v3_source_audit/SOURCE_AUDIT.md", "role": "external and target-source audit", "sha256": "0314d8c686e49293b699e43b838da5faec68a56ddbcb73768427b3e5808943de"},
+    {"path": "experiments/yolo/gdt354_ljs443_f68v3_source_audit/REPORT.md", "role": "bounded source-acquisition report", "sha256": "3518aca0bcf636d290fa31b5c4a4595bd21f803205aa1e942ce564584d4e6c6f"},
+    {"path": "experiments/yolo/gdt354_ljs443_f68v3_source_audit/artifacts/README.md", "role": "artifact guide", "sha256": "3b58f2ab8834e9eb3eb46b671ebfceae52b9f3f632f44f6d482f7dfb57071020"},
+    {"path": "experiments/yolo/gdt354_ljs443_f68v3_source_audit/artifacts/gdt354_external_sources.tsv", "role": "provenance-bound source manifest", "sha256": "8c0c0a1b03fb2f4d57d1933f6e6e1ce01402416742c40dcd05d9982bfb1da98f"},
+    {"path": "experiments/yolo/gdt354_ljs443_f68v3_source_audit/artifacts/gdt354_external_visual_observations.tsv", "role": "neutral direct external observations", "sha256": "edbe88cae718ccbc48a5a08065ef23dcb3ba1b5cb4ebe28c37a91619fade882a"},
+    {"path": "experiments/yolo/gdt354_ljs443_f68v3_source_audit/artifacts/gdt354_target_topology.tsv", "role": "guarded existing-human target topology", "sha256": "b674cab23135ec43732730257dd16bae2ed69736ad849c3dd6b25b2593b2bdfe"},
+    {"path": "experiments/yolo/gdt354_ljs443_f68v3_source_audit/artifacts/gdt354_endpoint_capacity.tsv", "role": "explicit alignment capacity gates", "sha256": "6d5f6d162bf0b88fc4d0665c423f5e6acc517a740591e494432505af057d1603"},
+    {"path": "experiments/yolo/gdt354_ljs443_f68v3_source_audit/artifacts/gdt354_result.json", "role": "compact result and bindings", "sha256": "73cdacacf0fec5b38467c47927a0d8821e7f562b850ca65077e37d27f6146541"},
+    {"path": "experiments/yolo/gdt354_ljs443_f68v3_source_audit/artifacts/gdt354_validation.json", "role": "nonimporting validation", "sha256": "aac82523f1f6c7ad6afcae7bc475ba8eb32999a679759baf0a03919c2c14d770"},
+    {"path": "experiments/yolo/gdt354_ljs443_f68v3_source_audit/src/run.py", "role": "guarded producer", "sha256": "ac05efca20ce1fdb94ab33a0b079cf698cddb3d568e7b5af7958a2836daa6b93"},
+    {"path": "experiments/yolo/gdt354_ljs443_f68v3_source_audit/src/validate.py", "role": "guarded nonimporting validator", "sha256": "0ea6c750a42a62c175eaee26d4d81478779bda24ae315bf312727beb233db720"}
+  ],
+  "validation": {"artifact": "experiments/yolo/gdt354_ljs443_f68v3_source_audit/artifacts/gdt354_validation.json", "status": "PASS"}
+}
