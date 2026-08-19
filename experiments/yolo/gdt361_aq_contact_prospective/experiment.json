@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "experiment_id": "GDT361",
+  "slug": "aq_contact_prospective",
+  "title": "Prospective AQ/contact array direction test",
+  "created": "2026-08-19",
+  "updated": "2026-08-19",
+  "status": "FROZEN_DIRECTION_SUPPORTED_EXPLORATORILY",
+  "question": "Does the postselected first-group AQ contact association retain its direction on one newly reviewed complete array on a different physical folio?",
+  "dependencies": ["GDT002", "GDT360"],
+  "commands": {
+    "run": "python3 experiments/yolo/gdt361_aq_contact_prospective/src/run.py",
+    "validate": "python3 experiments/yolo/gdt361_aq_contact_prospective/src/validate.py"
+  },
+  "sealed_data": {
+    "f84r": "FORBIDDEN",
+    "f84": "FORBIDDEN"
+  },
+  "claim_ceiling": "One weak directional visual/formal association on a single new array; no CONTACT gloss, semantic role, word, morpheme, POS, sound, language, plaintext, meaning, or translation.",
+  "artifact_policy": {
+    "max_inline_bytes": 5000000,
+    "large_artifact_justification": ""
+  },
+  "inputs": [
+    {"path":"experiments/semantic_assumptions/results/existing_human_exact_locus_annotations.tsv","role":"source-only target geometry and provenance","sha256":"79c7f06e91f90054aff4cdf27f098a5977d820acdf91f239a14c6ddf553a7f61"},
+    {"path":"experiments/semantic_assumptions/results/source_sta_family_consensus_loci.tsv","role":"guarded family locus reveal","sha256":"84354a9e5d291ab00f45c9bfe161f62d8cbd8c39db7511ff263cd9fcfe9d9e77"},
+    {"path":"experiments/semantic_assumptions/results/source_sta_family_consensus_groups.tsv","role":"guarded first-group family reveal","sha256":"a202d93498e8a350a5d7e0ca46e831dcc37ea5c0182dc404d63cb797a98b1225"},
+    {"path":"experiments/semantic_assumptions/results/source_sta_group_alignment.tsv","role":"guarded alternate-reading sensitivity","sha256":"f23654f1d4c854db6d458b418a0d3530115731604854cf0a0495565e58341840"},
+    {"path":"experiments/yolo/gdt360_existing_annotation_joint_grounding/artifacts/gdt360_result.json","role":"postselected discovery lead binding","sha256":"2797cd0f9b9bca4445406f8c00f06bd65dcfd647daa46a09bdf57581afced913"}
+  ],
+  "outputs": [
+    {"path":"experiments/yolo/gdt361_aq_contact_prospective/README.md","role":"experiment entry point","sha256":"a290244b578027a0bd6ebefe67b75088c544c0673eac22f503b7dd9064d99538"},
+    {"path":"experiments/yolo/gdt361_aq_contact_prospective/METHOD.md","role":"prospective method","sha256":"fddbbdb8f274dee082e14cb16bfaaa65fad02fe58a3b73087fe18e9af1ee7b9e"},
+    {"path":"experiments/yolo/gdt361_aq_contact_prospective/SOURCE_AUDIT.md","role":"source and target audit","sha256":"2fe406a41185e81bb383d6731ffbe2bf1a9b424972e4299a37dc97b74a588b76"},
+    {"path":"experiments/yolo/gdt361_aq_contact_prospective/CORRECTION.md","role":"published wrong-canvas correction","sha256":"13ca4f9c1e6480e09a7ce8aae79df712ade7f43084201c17b10ec5e179dd7877"},
+    {"path":"experiments/yolo/gdt361_aq_contact_prospective/REPORT.md","role":"result report","sha256":"2476c1c3c05102639bc7f627c93f2ce6e913cb53f4048c2f3c1518d9f850f9bd"},
+    {"path":"experiments/yolo/gdt361_aq_contact_prospective/artifacts/README.md","role":"artifact guide","sha256":"6ee396fbe607122f30aaaccba56c4d0c6dcbb7f89893298b89b60e02cb85e89e"},
+    {"path":"experiments/yolo/gdt361_aq_contact_prospective/artifacts/gdt361_selection.tsv","role":"source-only target selection","sha256":"bbb273ed3abc5347372b1d800faaafbd4b10421cc3a4d8aa8dbb3b71487c5541"},
+    {"path":"experiments/yolo/gdt361_aq_contact_prospective/artifacts/gdt361_freeze.json","role":"corrected prediction freeze","sha256":"bc062603bba6d05ef0822131985a023f56aed9fb68e0045945da404790c44adc"},
+    {"path":"experiments/yolo/gdt361_aq_contact_prospective/artifacts/gdt361_localizations.tsv","role":"official-image crop localization records","sha256":"6affa3795e1974fa20649596636d59a2fb6e7589c024726c6a18915becfab95b"},
+    {"path":"experiments/yolo/gdt361_aq_contact_prospective/artifacts/gdt361_visual_observations.tsv","role":"pre-reveal visual calls","sha256":"caf8a1eb0e33e900589fcb8edb424cfbd1ff4fa2f0505d3189cb4a07fcebb74d"},
+    {"path":"experiments/yolo/gdt361_aq_contact_prospective/artifacts/gdt361_visual_freeze.json","role":"visual freeze binding","sha256":"bc66b477a50015bd9e0452a25f46cf690c1feed7eb173093a9bdd98b9dc0161a"},
+    {"path":"experiments/yolo/gdt361_aq_contact_prospective/artifacts/gdt361_formal_reveal.tsv","role":"guarded post-freeze formal join","sha256":"2291a9294ac66827f1f5289a0c016f969576d81f737ce55ef67e12b0db95ec9c"},
+    {"path":"experiments/yolo/gdt361_aq_contact_prospective/artifacts/gdt361_counterexamples.tsv","role":"counterexamples and limits","sha256":"10d47637f7219b02cf65d4ac4d4cc0859e2ded5bfbe192b301ae76582414c6df"},
+    {"path":"experiments/yolo/gdt361_aq_contact_prospective/artifacts/gdt361_result.json","role":"compact result and bindings","sha256":"0de5d2a8bec9116c7800a647e58299c11e4271d70941192c0073a65e4ea75b63"},
+    {"path":"experiments/yolo/gdt361_aq_contact_prospective/artifacts/gdt361_validation.json","role":"independent arithmetic and integrity validation","sha256":"13bffab1b05ee71553eaee93b51e66594fecc57a953fbc7b7c4cc00adaa00e15"},
+    {"path":"experiments/yolo/gdt361_aq_contact_prospective/src/freeze.py","role":"source-only freeze producer","sha256":"bbed135a4b998d4a1588d605ed88bde9f3c1b8ca4692d787dc8caac3783fc80b"},
+    {"path":"experiments/yolo/gdt361_aq_contact_prospective/src/validate_freeze.py","role":"freeze validator","sha256":"54dc7dd0ea04a6a5e7221caa9ed32dd395049f0b5a2bd7e42f59fbfe30b43e8e"},
+    {"path":"experiments/yolo/gdt361_aq_contact_prospective/src/freeze_visual.py","role":"visual freeze producer","sha256":"6b35c3c58f7685ce6f393f787049941f9694a05ed8b7fa9684954ef81892ce4e"},
+    {"path":"experiments/yolo/gdt361_aq_contact_prospective/src/validate_visual.py","role":"visual integrity validator","sha256":"f8dbf1014725f8bcf811af0f0e74e2461430605760379e7c2b594f735ef043e9"},
+    {"path":"experiments/yolo/gdt361_aq_contact_prospective/src/run.py","role":"deterministic scorer","sha256":"deb2297305ddb55c86d49a258704d16bd3907e426fa852aff87af4a63471aea0"},
+    {"path":"experiments/yolo/gdt361_aq_contact_prospective/src/validate.py","role":"nonimporting result validator","sha256":"9425d31bf6313edd0dd12741c2ad4bd3b96c84924c85415eb309ce48d9b1db7a"}
+  ],
+  "validation": {
+    "artifact": "experiments/yolo/gdt361_aq_contact_prospective/artifacts/gdt361_validation.json",
+    "status": "PASS"
+  }
+}

@@ -254,6 +254,17 @@ Updated: 2026-08-19. This is the full claim registry. For routine work, read
   world qualifies after source-lineage and overlap controls. Retain a precise
   new-array acquisition target, not a contact gloss or semantic role. No new
   image or f84 material was accessed.
+- GDT361 prospectively carries that one AQ/contact direction to the
+  source-described f102v2/L2 array after a published adjacent-canvas
+  correction. The six previously unexposed formal rows contain one AQ among
+  three CONTACT calls and zero AQ among two CLEAR_GAP calls, with one
+  UNCERTAIN row; the direction is positive but the exact one-sided probability
+  is 6/10=.60. The two other CONTACT rows are non-AQ counterexamples. A second
+  AQ/CONTACT row is descriptive only because its family was displayed before
+  freeze. Retain a weak third-folio acquisition lead, not a CONTACT gloss. Any
+  continuation must freeze several complete arrays together before formal
+  reveal; no role, word, meaning, language, plaintext, translation, or f84
+  access follows.
 - A frozen synthetic-instrument calibration now limits how opaque PAGE_HOST
   negatives may be interpreted. On one real medieval medical source, a true
   injective 2–3-character concept codebook lost every held
