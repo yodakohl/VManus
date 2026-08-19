@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **346**
-- Experiment-associated tracked files: **4,535** (571.2 MiB)
-- Structured GDT337+ experiments: **11**
+- Experiments indexed: **347**
+- Experiment-associated tracked files: **4,545** (571.3 MiB)
+- Structured GDT337+ experiments: **12**
 - IDs without a ledger entry: **166**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT348 | GDT348_oracle_coordinate_transport_freeze | `FROZEN_BEFORE_ORACLE_TRANSPORT_SCORING` | [report](../experiments/yolo/gdt348_oracle_coordinate_transport_calibration/METHOD.md) | 10 | 22.9 KiB | 5 | STRUCTURED_YOLO |
 | GDT347 | GDT347_fixed_graph_control_transport | `MANUSCRIPT_SPECIFIC_FORMAL_CONVENTION` | [report](../experiments/yolo/gdt347_fixed_graph_control_transport/REPORT.md) | 23 | 11.0 MiB | 3 | STRUCTURED_YOLO |
 | GDT346 | GDT346_compositional_operator_manifold | `LOCAL_COMPATIBILITY_WITHOUT_TRANSFER` | [report](../experiments/yolo/gdt346_compositional_operator_manifold/REPORT.md) | 19 | 2.0 MiB | 4 | STRUCTURED_YOLO |
 | GDT345 | GDT345_productive_operator_transfer | `LOCAL_OR_LEXICAL_OPERATOR_DEPENDENCE_ONLY` | [report](../experiments/yolo/gdt345_productive_operator_transfer/REPORT.md) | 19 | 4.0 MiB | 4 | STRUCTURED_YOLO |
