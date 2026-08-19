@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "experiment_id": "GDT353",
+  "slug": "f68_nested_diagram_alignment",
+  "title": "f68v1/f68v2 ordered radial-title alignment",
+  "created": "2026-08-19",
+  "updated": "2026-08-19",
+  "status": "NO_ORDERED_FORMAL_SUPPORT_FOR_F68V1_V2_NESTING",
+  "question": "Do the two human-ordered eight-title f68 arrays show exceptional formal alignment under rotation/reflection?",
+  "dependencies": ["GDT337"],
+  "commands": {
+    "run": "python3 experiments/yolo/gdt353_f68_nested_diagram_alignment/src/run.py",
+    "validate": "python3 experiments/yolo/gdt353_f68_nested_diagram_alignment/src/validate.py"
+  },
+  "sealed_data": {"f84r": "FORBIDDEN", "f84": "FORBIDDEN"},
+  "claim_ceiling": "Ordered formal alignment of two eight-title arrays only; no diagram identity, sector value, language, meaning, plaintext, or translation.",
+  "artifact_policy": {"max_inline_bytes": 5000000, "large_artifact_justification": ""},
+  "inputs": [
+    {"path": "experiments/yolo/gdt353_f68_nested_diagram_alignment/METHOD.md", "role": "post-exposure guarded method; selected source rows are content-bound in the result without hashing forbidden global rows", "sha256": "c63cc88da51063dab58077ff32daae53e0446a66e0ffd3ce11e658cb24a29c68"}
+  ],
+  "outputs": [
+    {"path": "experiments/yolo/gdt353_f68_nested_diagram_alignment/README.md", "role": "experiment entry point", "sha256": "54c1c5db29ca8e29f2d434e00289d712a33363069848ab59292b632f4abd1fbc"},
+    {"path": "experiments/yolo/gdt353_f68_nested_diagram_alignment/REPORT.md", "role": "negative result report", "sha256": "7b2deb2aa1cb76c6a351d24256088edb8f2a46f5b289935d9d3488b1f4b87f1a"},
+    {"path": "experiments/yolo/gdt353_f68_nested_diagram_alignment/artifacts/README.md", "role": "artifact guide", "sha256": "dcb41b0d40d674ab61eed121f2bade898c86fe3243051c75b53b11693bfdf3a9"},
+    {"path": "experiments/yolo/gdt353_f68_nested_diagram_alignment/artifacts/gdt353_arrays.tsv", "role": "fixed human-ordered arrays", "sha256": "be88b5bd497d3c8a9379f075159f50f9cdedf0bd87da2c7b21277b0f04c277a0"},
+    {"path": "experiments/yolo/gdt353_f68_nested_diagram_alignment/artifacts/gdt353_scores.tsv", "role": "observed and exact-null scores", "sha256": "c13099d7878ec6f134ce4fefaa1126638e324b2c787850543c5706941a72e586"},
+    {"path": "experiments/yolo/gdt353_f68_nested_diagram_alignment/artifacts/gdt353_result.json", "role": "compact result and provenance", "sha256": "ad00746eaa57decc3c09b7e1039aa0d274cce305935be1642a691f1c3cf0f48b"},
+    {"path": "experiments/yolo/gdt353_f68_nested_diagram_alignment/artifacts/gdt353_validation.json", "role": "independent exact reconstruction", "sha256": "468917105860fdece43712cf233cf50e8d02ea251b4f9801989843aacd304c9b"},
+    {"path": "experiments/yolo/gdt353_f68_nested_diagram_alignment/src/run.py", "role": "guarded producer", "sha256": "8af8b1106b2c12b2b1beceb6ac67650d5e1463eb0bac2e89e302a483daa9763e"},
+    {"path": "experiments/yolo/gdt353_f68_nested_diagram_alignment/src/validate.py", "role": "guarded nonimporting validator", "sha256": "e3aabcdaab624116a9c3c8e6eb8904bcfe50a12181531c564e61e2e4e95e5826"}
+  ],
+  "validation": {"artifact": "experiments/yolo/gdt353_f68_nested_diagram_alignment/artifacts/gdt353_validation.json", "status": "PASS"}
+}

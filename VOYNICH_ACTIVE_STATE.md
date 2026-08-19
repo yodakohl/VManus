@@ -173,6 +173,17 @@ Updated: 2026-08-19. This is the full claim registry. For routine work, read
   on 44 non-f84 pages. Retain it only as a post-exposure common-form lead, not
   a plant name or gloss. All final source reads were raw-field guarded and no
   f84 row was parsed, displayed, retained, joined, or scored.
+- GDT353 tests the tempting same-folio geometric analogy between f68v1's eight
+  radial text sectors and f68v2's eight boundary-title sectors. Across
+  ZL3b/IT2a/RF1b, diplomatic surfaces and primary STA families, none of twelve
+  predeclared edit/trigram comparisons is exceptional after the exact 8!
+  target-order null and the complete rotation/reflection search. The strongest
+  surface result is only `p=.21944`; the post-hoc title-length result is
+  `p=.51429`, and preferred mappings vary by representation. Retain the shared
+  geometry only as a visual analogy, not an ordered text correspondence or
+  nested-diagram identity. Reopen only if an external readable witness fixes
+  authored sector values/order or a second Voynich folio supplies the same
+  topology. No f84 row was parsed, displayed, retained, joined, or scored.
 - A frozen synthetic-instrument calibration now limits how opaque PAGE_HOST
   negatives may be interpreted. On one real medieval medical source, a true
   injective 2–3-character concept codebook lost every held
