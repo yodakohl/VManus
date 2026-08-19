@@ -64,6 +64,16 @@ Updated: 2026-08-18. This is the full claim registry. For routine work, read
   this ordered-flow representation adds nothing once identity is available.
   The comparator gate failed, so no GDT327 target row was opened and no exact
   Voynich tuple is licensed as an entity.
+- GDT344 tests formal grammar paths above, rather than inside, exact GDT327
+  tuples on Recipe/Stars and Pharma only. Coordinate-change paths save
+  14.76--15.50 held bits over GDT336 placement and the exact-value path saves
+  4.39 bits on unseen exact tuple-pair edges, but exact predecessor identity is
+  1.68 bits better over all 2,002 scored edges. Transfer is only 6/12 Recipe
+  and 3/5 Pharma folios with max-two `p=.78887`. A separate five-class CoReMA
+  event-path instrument loses 1.84 held bits to record shape and is positive in
+  only 2/6 collections. Thus no renderer-independent grammar equivalence or
+  record-event alignment is supported; no Voynich record was assigned a
+  comparator class, no tuple was merged or glossed, and f84 remained sealed.
 - A frozen synthetic-instrument calibration now limits how opaque PAGE_HOST
   negatives may be interpreted. On one real medieval medical source, a true
   injective 2–3-character concept codebook lost every held

@@ -138,6 +138,17 @@ morpheme, plaintext symbol, or semantic role.
   Thus persistent normalized identity is a useful readable-recipe anchor, but
   this flow representation adds no transferable information once identity is
   known. The comparator gate failed and no GDT327 target row was opened.
+- GDT344 moves one level above atomic tuples on the already exposed
+  Recipe/Stars and Pharma panels. Exact and coarse formal coordinate-change
+  paths both improve on GDT336 placement alone, and the exact-value path saves
+  4.39 bits on 1,604 held edges whose exact tuple pair is unseen in training.
+  Across all 2,002 scored edges, however, exact predecessor tuple identity is
+  still better by 1.68 bits; paths are positive on only 6/12 Recipe and 3/5
+  Pharma folios and max-two `p=.78887`. The separate CoReMA event-path
+  calibration also loses 1.84 bits to record shape and is positive in 2/6
+  collections. The gated record-level alignment was therefore not run. Retain
+  the unseen-pair path gain as a weak formal backoff lead, not a grammar
+  equivalence or semantic event path.
 
 ## Calibration constraints
 
@@ -210,6 +221,8 @@ falsifier:
   diplomatic-word identity on readable cross-collection recipe parallels;
 - persistent-identity plus ordered-flow transfer after GDT343 failed to improve
   on persistent identity alone in readable cross-collection recipe parallels;
+- abstract coordinate-transition paths after GDT344 failed to beat exact
+  predecessor tuple identity or calibrate a readable recipe event-path bridge;
 - f57/f77 quality, element, process, or lexical assignments.
 
 The complete route memory remains in
@@ -251,6 +264,12 @@ Future grounding therefore needs an independently licensed target identity;
 adding this same flow graph cannot create one and must not be used to promote
 exact GDT327 tuples into entities.
 
+GDT344 adds one bounded nuance: formal coordinate-change paths can weakly
+back off genuinely unseen exact tuple pairs, but the aggregate signal remains
+inferior to exact predecessor identity and does not transfer consistently
+across Recipe/Stars folios. This is not sufficient to collapse different tuple
+sequences into one latent grammar object.
+
 If no new external endpoint exists, improve instrumentation or acquire new
 evidence rather than mining another internal string feature.
 
@@ -272,6 +291,7 @@ evidence rather than mining another internal string feature.
 - `experiments/yolo/gdt341_ordered_recipe_event_graph/COMPARATOR_REPORT.md`
 - `experiments/yolo/gdt342_anonymous_entity_flow_graph/COMPARATOR_REPORT.md`
 - `experiments/yolo/gdt343_persistent_identity_flow/COMPARATOR_REPORT.md`
+- `experiments/yolo/gdt344_grammar_transition_paths/REPORT.md`
 - `GDT330_F84R_METADATA_ACCESS_CORRECTION.md`
 
 Use `experiments/EXPERIMENT_INDEX.tsv` for exact paths, dependencies, runners,

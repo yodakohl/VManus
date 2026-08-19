@@ -9,30 +9,49 @@
     "validate": "python3 experiments/yolo/gdt344_grammar_transition_paths/src/validate.py"
   },
   "created": "2026-08-19",
-  "dependencies": ["GDT278", "GDT327", "GDT336", "GDT340", "GDT343"],
+  "dependencies": ["GDT176", "GDT278", "GDT327", "GDT336", "GDT340", "GDT343"],
   "experiment_id": "GDT344",
   "inputs": [
-    {"path": "experiments/yolo/gdt344_grammar_transition_paths/METHOD.md", "role": "frozen formal-transition and comparator-first method", "sha256": "16723319fd0611ce667622ae4c61f267212f55b06966352853556eefb3981880"},
-    {"path": "experiments/yolo/gdt344_grammar_transition_paths/artifacts/gdt344_design.json", "role": "frozen models gates panels and nulls", "sha256": "38c9002138ce9590c71c39c117f3faa0eada9dc2cfbda164fd451431f391e7cc"}
+    {"path": "experiments/yolo/gdt344_grammar_transition_paths/METHOD.md", "role": "publicly frozen formal-transition and comparator-first method", "sha256": "16723319fd0611ce667622ae4c61f267212f55b06966352853556eefb3981880"},
+    {"path": "experiments/yolo/gdt344_grammar_transition_paths/SOURCE_AUDIT.md", "role": "pre-score source and transition capacity audit", "sha256": "a80bcf25da4ac79a5f3c1632f4faa635b86a395051f47de4e3b6f7fab70b4c29"},
+    {"path": "experiments/yolo/gdt344_grammar_transition_paths/artifacts/gdt344_design.json", "role": "frozen models gates panels and nulls", "sha256": "38c9002138ce9590c71c39c117f3faa0eada9dc2cfbda164fd451431f391e7cc"},
+    {"path": "gdt278_native_event_inventory.tsv", "role": "source-native compiler coordinates and physical hierarchy", "sha256": "598e9833f3f0f67f187b59153156a776a22f5fa722a6b6428a386c2bb5178b2a"},
+    {"path": "gdt327_joint_tuple_interlinear.tsv", "role": "atomic exact joint-tuple identities", "sha256": "7eba46774be44992064cc114f67329723ac7bf589321b0d763fb7f7f748cc1e9"},
+    {"path": "gdt336_folds.tsv", "role": "published held-folio tuple placement concentrations", "sha256": "5788f97b20cab873d938ddf8a6aa41a3b3f0cf8acbcfd5c0491a924e6f87f95f"},
+    {"path": "experiments/yolo/gdt340_recipe_pharma_section_semantic_schema/artifacts/gdt340_voynich_record_inventory.tsv", "role": "pre-existing Recipe and Pharma page whitelist", "sha256": "d51840b30f5b7f8b87ed05ec3bf6bee12288610a0cb35f8bc4b9236b8ef1c568"},
+    {"path": "gdt176_corema_role_oracle.tsv", "role": "readable-recipe event-path evaluation truth", "sha256": "170afc09327d7e2589107d1f4bd28f7725bfb8bcedcdd84bb9e7fb1c2c7f24ec"},
+    {"path": "gdt176_corema_collection_manifest.tsv", "role": "six-collection comparator manifest", "sha256": "d879dce2146c6965db583b2f6cef02d7d1c675f9b69b96a9e9451c24a996da76"},
+    {"path": "gdt176_source_freeze.json", "role": "CoReMA source provenance freeze", "sha256": "0b1a9b8d72debfe09c55544b32ddfbb2386da578413adab027c9d7a3a40525e5"}
   ],
   "outputs": [
-    {"path": "experiments/yolo/gdt344_grammar_transition_paths/README.md", "role": "experiment entry point", "sha256": "9f89ba5070bcaec42fdef57bab3a2dbac2786e9ce715229935f0178db403192b"},
-    {"path": "experiments/yolo/gdt344_grammar_transition_paths/SOURCE_AUDIT.md", "role": "pre-score source and transition capacity audit", "sha256": "a80bcf25da4ac79a5f3c1632f4faa635b86a395051f47de4e3b6f7fab70b4c29"},
-    {"path": "experiments/yolo/gdt344_grammar_transition_paths/artifacts/README.md", "role": "planned artifact schema index", "sha256": "8f7475bddeba80603dbc19a6cd55c19e20a619cf50222ef2b43698948e7e4bbf"},
-    {"path": "experiments/yolo/gdt344_grammar_transition_paths/src/run.py", "role": "frozen formal and comparator scorer", "sha256": "9e758a205e23755237a03430b20747602dc28546336edd566de14e11af5d2831"},
+    {"path": "experiments/yolo/gdt344_grammar_transition_paths/README.md", "role": "experiment entry point and compact interpretation", "sha256": "a717ba3886e76ce65b38922d23a958b5abfe8ae9100de72d553765017bce921a"},
+    {"path": "experiments/yolo/gdt344_grammar_transition_paths/REPORT.md", "role": "formal held-folio and staged decision report", "sha256": "bcb4c5b512674660ec59f874878c3ff4462de7339c15d5d84aff534b3b8f658b"},
+    {"path": "experiments/yolo/gdt344_grammar_transition_paths/COMPARATOR_REPORT.md", "role": "readable-recipe event-path calibration report", "sha256": "550a6f718bace8445a72f5a12a0f85b4d366887c172c53e30aa9d758c2673ea9"},
+    {"path": "experiments/yolo/gdt344_grammar_transition_paths/artifacts/README.md", "role": "artifact schema index", "sha256": "8f7475bddeba80603dbc19a6cd55c19e20a619cf50222ef2b43698948e7e4bbf"},
+    {"path": "experiments/yolo/gdt344_grammar_transition_paths/artifacts/gdt344_transition_inventory.tsv", "role": "section-restricted atomic transition inventory", "sha256": "b08bca4208e493be2cce5b16e17814a8ade97cd9274a497d200148768a1b76fe"},
+    {"path": "experiments/yolo/gdt344_grammar_transition_paths/artifacts/gdt344_path_atlas.tsv", "role": "exact and coarse formal path recurrence atlas", "sha256": "3848b416c6333f3db5fd870c2352f1b5a2a875da93dab853856178388726bf12"},
+    {"path": "experiments/yolo/gdt344_grammar_transition_paths/artifacts/gdt344_formal_folds.tsv", "role": "held-folio formal model scores", "sha256": "040e3154be4eb551afe802af93ba5f94194b86295293535dc2d3068f43b95c14"},
+    {"path": "experiments/yolo/gdt344_grammar_transition_paths/artifacts/gdt344_formal_models.tsv", "role": "aggregate formal model comparison", "sha256": "7aa3fb4ad71526ab34fee3154d88b21b6f9c45526ba9eec6c78e7226fae40eab"},
+    {"path": "experiments/yolo/gdt344_grammar_transition_paths/artifacts/gdt344_formal_null.tsv", "role": "fixed-prediction max-two formal null", "sha256": "266d132b7279126c6598650297b13d25237db95b220085a6966208157abd0a05"},
+    {"path": "experiments/yolo/gdt344_grammar_transition_paths/artifacts/gdt344_comparator_folds.tsv", "role": "held-collection event-path calibration scores", "sha256": "b0796a5a4756b13b84ff61f30d108944c9040d30eddad642f988323b53d504f3"},
+    {"path": "experiments/yolo/gdt344_grammar_transition_paths/artifacts/gdt344_comparator_models.tsv", "role": "aggregate comparator models and gate", "sha256": "dbe4a34122c4fd170571bb53b4c06f83bfcd6ea84c47b38ffcc3560863ad7340"},
+    {"path": "experiments/yolo/gdt344_grammar_transition_paths/artifacts/gdt344_comparator_null.tsv", "role": "matched comparator class-bundle null", "sha256": "892b6b8dca2dd5970c7d44803a45bf06e4e1dd4eb3643a3d91059b2b4a289c82"},
+    {"path": "experiments/yolo/gdt344_grammar_transition_paths/artifacts/gdt344_target_folds.tsv", "role": "explicit empty gated alignment table", "sha256": "94034bbabc472fceacd2702f3fc331faeca49de1cfbcbef7e5f48fb11fbba541"},
+    {"path": "experiments/yolo/gdt344_grammar_transition_paths/artifacts/gdt344_counterexamples.tsv", "role": "failure capacity and access ledger", "sha256": "1501ac7bde8eb1d8567bf17eb5e55db675eecee860c12dc71629a9719ff226a5"},
+    {"path": "experiments/yolo/gdt344_grammar_transition_paths/artifacts/gdt344_result.json", "role": "compact staged result", "sha256": "f84721433908e37f771b86592c1a650ea9095a533074fb1dcc250a33b9945654"},
+    {"path": "experiments/yolo/gdt344_grammar_transition_paths/artifacts/gdt344_validation.json", "role": "independent source path accounting and decision validation", "sha256": "e93e91c0767c2f6f04c5130fa03543a1b838f1bf181ba99958fcd3e285088ecc"},
+    {"path": "experiments/yolo/gdt344_grammar_transition_paths/src/run.py", "role": "publicly frozen formal and comparator scorer", "sha256": "9e758a205e23755237a03430b20747602dc28546336edd566de14e11af5d2831"},
     {"path": "experiments/yolo/gdt344_grammar_transition_paths/src/validate.py", "role": "nonimporting final validator", "sha256": "4938226740844f4403349add57e4ac77c54ea672e87ba0f2665b82289c33e7b8"}
   ],
   "question": "Do changes between atomic exact GDT327 tuples form transferable held-folio grammar paths, and can a separately calibrated readable-recipe instrument align those paths with complete-record event-path likeness without token glosses?",
   "schema_version": 1,
-  "sealed_data": {
-    "f84r": "FORBIDDEN"
-  },
+  "sealed_data": {"f84r": "FORBIDDEN"},
   "slug": "grammar_transition_paths",
-  "status": "FROZEN_BEFORE_FORMAL_AND_COMPARATOR_SCORING",
+  "status": "NO_TRANSFERABLE_GRAMMAR_TRANSITION_PATH",
   "title": "Grammar transition paths above atomic joint tuples",
   "updated": "2026-08-19",
   "validation": {
-    "artifact": null,
-    "status": "NOT_RUN"
+    "artifact": "experiments/yolo/gdt344_grammar_transition_paths/artifacts/gdt344_validation.json",
+    "status": "PASS"
   }
 }
