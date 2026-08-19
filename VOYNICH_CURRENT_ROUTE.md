@@ -244,8 +244,9 @@ ledger. Use those files for a proposed-route duplicate audit, not on every turn.
 
 ## Next useful route
 
-1. Do not score the GDT337/GDT354–356 near-match. Search Hovhannēs Sarkawag
-   commentary witnesses for a folio-specific key; target phase/replication remain absent.
+1. Do not score the GDT337/GDT354–358 near-match. Search the exact-surface
+   Shirakatsi attribution and independent witnesses for a figure-specific
+   function and authored values/order; target phase/replication remain absent.
 2. Acquire one genuinely new target relation: either a second independently
    ordered 28-slot folio, a text-blind zodiac band/start key plus a disjoint-
    folio repeated topology, or singular homologous slots on at least two
@@ -284,7 +285,6 @@ productive operator manifold.
 
 If no new external endpoint exists, improve instrumentation or acquire new
 evidence rather than mining another internal string feature.
-The recovered Sarkawag edition/index route is exhausted without a slot key; require a specialist concordance or genuinely different external endpoint.
 
 ## Primary routing references
 

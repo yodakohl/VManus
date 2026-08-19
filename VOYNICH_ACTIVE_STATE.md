@@ -221,6 +221,17 @@ Updated: 2026-08-19. This is the full claim registry. For routine work, read
   1999 witnesses. Close this edition/index acquisition route; reopen only with
   a specialist concordance, readable parallel witness, or authored slot key.
   No Voynich image, transcription, formal payload, or f84 material was accessed.
+- GDT358 recovers a secondary-source attribution for the exact Penn surface:
+  the 1974 *Armenian Soviet Encyclopedia* reproduces LJS 443 current f.209r and
+  captions it as one of the boloraks/circular tables composed by Anania
+  Shirakatsi. The stronger “Phases of the Moon” label is only 2013 Commons
+  uploader metadata and is not in the printed caption. The reproduction is the
+  same manuscript surface, not an independent homologue; Penn still catalogues
+  the folio inside Sarkawag's commentary, and no source supplies compartment
+  values, function, start, direction, or order. Retain the bolorak-tradition
+  attribution but do not call it an eight-phase diagram or align a Voynich
+  target. No Voynich image, transcription, formal payload, or f84 material was
+  accessed.
 - A frozen synthetic-instrument calibration now limits how opaque PAGE_HOST
   negatives may be interpreted. On one real medieval medical source, a true
   injective 2–3-character concept codebook lost every held

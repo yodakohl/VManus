@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "experiment_id": "GDT358",
+  "slug": "shirakatsi_bolorak_attribution",
+  "title": "Exact-surface Shirakatsi bolorak attribution audit",
+  "created": "2026-08-19",
+  "updated": "2026-08-19",
+  "status": "SAME_SURFACE_ANANIA_BOLORAK_ATTRIBUTION_NO_PHASE_OR_SLOT_KEY",
+  "question": "Does a published reproduction identify the exact LJS 443 f.209r surface strongly enough to supply an externally keyed endpoint?",
+  "dependencies": ["GDT355", "GDT357"],
+  "commands": {
+    "run": "python3 experiments/yolo/gdt358_shirakatsi_bolorak_attribution/src/run.py",
+    "validate": "python3 experiments/yolo/gdt358_shirakatsi_bolorak_attribution/src/validate.py"
+  },
+  "sealed_data": {"f84r": "FORBIDDEN", "f84": "FORBIDDEN"},
+  "claim_ceiling": "Exact-surface secondary attribution to a Shirakatsi bolorak/circular-table tradition plus explicit source conflict and missing slot key; no eight-phase identification, independent homologue, Voynich alignment, Armenian origin, authorship, language, plaintext, meaning, or translation.",
+  "artifact_policy": {"max_inline_bytes": 5000000, "large_artifact_justification": ""},
+  "inputs": [
+    {"path": "experiments/yolo/gdt355_ljs443_diagram_series_census/artifacts/gdt355_result.json", "role": "complete external diagram-series census", "sha256": "df270a2069741f5133637635f4427ffa857791ca8c40baf88dbb8a6b35af36d9"},
+    {"path": "experiments/yolo/gdt357_sarkawag_source_access/artifacts/gdt357_result.json", "role": "prior critical-edition and public-witness audit", "sha256": "70cd774561b1c168a9d37b3653cf1ac92ace4ec7244b320eb41425dc9399ffc7"}
+  ],
+  "outputs": [
+    {"path": "experiments/yolo/gdt358_shirakatsi_bolorak_attribution/README.md", "role": "experiment entry point", "sha256": "90d424153df7b29e455180819620f845b121fc2969487edfe232c37c73915384"},
+    {"path": "experiments/yolo/gdt358_shirakatsi_bolorak_attribution/METHOD.md", "role": "external attribution method", "sha256": "9e0d9b3558ceef0996544c07c4847b51a6d2f3f038e33126417edf904b9a16f3"},
+    {"path": "experiments/yolo/gdt358_shirakatsi_bolorak_attribution/SOURCE_AUDIT.md", "role": "caption, provenance, and edition audit", "sha256": "d6f895e2bef05ce6296ff0af9bbbb876d8cb71458cb5834a88b23d320f61e892"},
+    {"path": "experiments/yolo/gdt358_shirakatsi_bolorak_attribution/REPORT.md", "role": "bounded result report", "sha256": "50a1c3f34b84b70795299ee40b130c0b8cf161c4d1bc5f281f1fee0f985158c6"},
+    {"path": "experiments/yolo/gdt358_shirakatsi_bolorak_attribution/artifacts/README.md", "role": "artifact guide", "sha256": "f3a38eb57db13a7399425af477a7fa1368dfa80a2abf6497b54f80677956994f"},
+    {"path": "experiments/yolo/gdt358_shirakatsi_bolorak_attribution/artifacts/gdt358_external_sources.tsv", "role": "external source manifest", "sha256": "9e51f4b65ee89a550d8ebd575b3e705e68c21628a60ac990560cec64ba1c607f"},
+    {"path": "experiments/yolo/gdt358_shirakatsi_bolorak_attribution/artifacts/gdt358_attribution_chain.tsv", "role": "separated attribution claims", "sha256": "b471eaada0ae4f527247734df78ffc24f5f54cdf4257d55385527dcfe6769dea"},
+    {"path": "experiments/yolo/gdt358_shirakatsi_bolorak_attribution/artifacts/gdt358_image_landmark_audit.tsv", "role": "manual exact-surface landmark comparison", "sha256": "dd2d1adc3911fc5fdc4a6ccc9c8d88418ad974fef8a00e5ca041a0899467c412"},
+    {"path": "experiments/yolo/gdt358_shirakatsi_bolorak_attribution/artifacts/gdt358_edition_visual_audit.tsv", "role": "no-OCR collected-edition figure audit", "sha256": "f311f2c63fa5f6c1491cd8987d3e9c5d5f18d257ff762009d2a31c8dba238b1f"},
+    {"path": "experiments/yolo/gdt358_shirakatsi_bolorak_attribution/artifacts/gdt358_key_capacity.tsv", "role": "slot-key capacity decisions", "sha256": "f7152f517278440d3d47ca637bcf9a04a7b2868a8eaafb299691bea035efe325"},
+    {"path": "experiments/yolo/gdt358_shirakatsi_bolorak_attribution/artifacts/gdt358_counterexamples.tsv", "role": "mandatory limiting evidence", "sha256": "e2cb406f5153a3f8a4f88fbc330fe89bf230786be549b6dd77e6ccc6d6313ea2"},
+    {"path": "experiments/yolo/gdt358_shirakatsi_bolorak_attribution/artifacts/gdt358_result.json", "role": "compact result and bindings", "sha256": "a3db45460634e58170ce693ddfe3f32d58df9445054612af91b6ac5e9524fd75"},
+    {"path": "experiments/yolo/gdt358_shirakatsi_bolorak_attribution/artifacts/gdt358_validation.json", "role": "nonimporting validation", "sha256": "c49c7bb6d0098dc72b5ebeed98bbc05ba15f90a1e1900a3ecd5a556bce655422"},
+    {"path": "experiments/yolo/gdt358_shirakatsi_bolorak_attribution/src/run.py", "role": "deterministic producer", "sha256": "4fc07181e6d467512b874a0343f670266255f1585d5f65b2d083aff959a8b185"},
+    {"path": "experiments/yolo/gdt358_shirakatsi_bolorak_attribution/src/validate.py", "role": "nonimporting validator", "sha256": "629bd982e04b58665d956de0e93e4ea9a0df4321ce2517165b9b107d5423726e"}
+  ],
+  "validation": {"artifact": "experiments/yolo/gdt358_shirakatsi_bolorak_attribution/artifacts/gdt358_validation.json", "status": "PASS"}
+}
