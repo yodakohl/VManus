@@ -1,0 +1,92 @@
+{
+  "collections": [
+    "b4",
+    "b6",
+    "br1",
+    "bs1",
+    "gr1",
+    "w1"
+  ],
+  "content_hash": "fe1e12180dd01742c15c8bf969398583fd383229aaff9a064cd544c2d934f940",
+  "f84_accessed": false,
+  "fixed_logistic_l2": 4.0,
+  "folds": "leave one complete CoReMA collection out; train on remaining five",
+  "forbidden_inputs": [
+    "source strings",
+    "editor_english_label",
+    "role",
+    "annotation_flags",
+    "parent_instruction_ordinal",
+    "concept_id",
+    "Voynich data"
+  ],
+  "hidden_oracle_fields": [
+    "role ALTERNATIVE",
+    "role TIME",
+    "role REF",
+    "role CLOSER",
+    "annotation exclusion",
+    "annotation analogy",
+    "annotation comparison",
+    "parent_instruction_ordinal"
+  ],
+  "inputs": {
+    ".gdt176/corema/b4.recipes.xml": "59bf0cf97fc21623a7683cc8059a150644bff313488939222fd200969b7b0afd",
+    ".gdt176/corema/b6.recipes.xml": "d475072e62701bea6b058729b5f4b988e0eb93fe00878d2831f62e431573e3dd",
+    ".gdt176/corema/br1.recipes.xml": "8f142085e1a67c1e854992b1f35a3e8afa9476407789e8029b95bfe639b639ba",
+    ".gdt176/corema/bs1.recipes.xml": "d4fc0b986404cb423b99137678a879d3df94b15602740dbfb1fd56b25bc74eb6",
+    ".gdt176/corema/gr1.recipes.xml": "41c603f445a15bcb914eb0d090c80754ad1747821b7556dd77e31c1273a12ff5",
+    ".gdt176/corema/w1.recipes.xml": "a56639c7e8795a2afe76aa7cd950a8a68ade7231e1e68170034bc30002ab48e6",
+    "experiments/yolo/gdt375_comparator_derived_functional_roadmap/artifacts/gdt375_detector_contract.tsv": "76ac5adb828ee9b5b80c6a568e78e92a9c772ce6d2cd49c574039ba814460013",
+    "gdt176_corema_collection_manifest.tsv": "d879dce2146c6965db583b2f6cef02d7d1c675f9b69b96a9e9451c24a996da76",
+    "gdt176_corema_role_oracle.tsv": "170afc09327d7e2589107d1f4bd28f7725bfb8bcedcdd84bb9e7fb1c2c7f24ec"
+  },
+  "models": [
+    "PREVALENCE",
+    "NUISANCE",
+    "OPAQUE_ID",
+    "STRUCTURE",
+    "STRUCTURE_PLUS_ID"
+  ],
+  "null_strata": "held collection x record-length bucket x relative-position decile x direct-token-count bucket",
+  "null_worlds": 1024,
+  "observation_fields": [
+    "collection_id",
+    "recipe_id",
+    "recipe_ordinal",
+    "element_ordinal",
+    "opaque_form_id",
+    "direct_token_count",
+    "observable_surface",
+    "record_element_count",
+    "relative_position"
+  ],
+  "observation_sha256": "1af98e15019d2ec92c1f81fe8ea2568daedc568ccac822add150435e2650a097",
+  "oracle_commitment_sha256": "170afc09327d7e2589107d1f4bd28f7725bfb8bcedcdd84bb9e7fb1c2c7f24ec",
+  "promotion": {
+    "combined_gain_vs_identity_positive": true,
+    "max_family_p_max": 0.05,
+    "minimum_ap_over_prevalence": 1.5,
+    "minimum_pooled_auc": 0.65,
+    "minimum_positive_collections": 4,
+    "minimum_positive_gain_folds": 4,
+    "structure_gain_vs_nuisance_positive": true
+  },
+  "schema": "GDT376_DESIGN_V1",
+  "status": "FROZEN_BEFORE_HELD_ORACLE_EVALUATION",
+  "targets": [
+    "ALTERNATIVE",
+    "TIME",
+    "REF",
+    "CLOSER",
+    "EXCLUSION",
+    "ANALOGY",
+    "COMPARISON",
+    "PREDICATE_HEAD_WITH_DEPENDENTS",
+    "HIGH_VALENCY_HEAD",
+    "PARENTED_DEPENDENT",
+    "ANY_FUNCTIONAL_CLASS"
+  ],
+  "voynich_scored": false,
+  "voynich_transfer": "only detector families whose mapped hidden endpoint passes every promotion gate; no post-Voynich detector changes"
+}
