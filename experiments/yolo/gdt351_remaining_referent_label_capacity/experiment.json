@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "experiment_id": "GDT351",
+  "slug": "remaining_referent_label_capacity",
+  "title": "Remaining externally nominated referent-label capacity audit",
+  "created": "2026-08-19",
+  "updated": "2026-08-19",
+  "status": "STOP_ZERO_NEW_SINGULAR_OWNED_REFERENT_LABELS",
+  "question": "Do the remaining four GDT169 asserted-same relations have a source-documented singular target inscription?",
+  "dependencies": ["GDT151", "GDT152", "GDT169"],
+  "commands": {
+    "run": "python3 experiments/yolo/gdt351_remaining_referent_label_capacity/src/run.py",
+    "validate": "python3 experiments/yolo/gdt351_remaining_referent_label_capacity/src/validate.py"
+  },
+  "sealed_data": {"f84r": "FORBIDDEN", "f84": "FORBIDDEN"},
+  "claim_ceiling": "Source-capacity result only; no plant identity, label meaning, word, language, plaintext, or translation.",
+  "artifact_policy": {"max_inline_bytes": 5000000, "large_artifact_justification": ""},
+  "inputs": [
+    {"path": "experiments/yolo/gdt351_remaining_referent_label_capacity/METHOD.md", "role": "source-only method and correction disclosure", "sha256": "f60e5684de29cf88d4111b2d286db458c74a92c4cde7c87cbd6c111a9d8cd63e"},
+    {"path": "gdt169_external_referent_candidates.tsv", "role": "frozen relation candidates", "sha256": "e142868eff28e055d79087eb88772db4ae7021b1394d7896f7f638d9ed20c2f0"},
+    {"path": "gdt151_relation_inventory.tsv", "role": "human relation statements", "sha256": "8736d15cb3fab1b7f0e26862e0ed266efa01181508db1ccb241b197bf58814c4"},
+    {"path": "GDT152_OWNED_LABEL_HPR2_PAGE_ADDRESS_METHOD.md", "role": "published local-query locus assignments", "sha256": "42a414c7ef0dd73e7b8e70ad4a86fafe59c25db8ad0ceb6efdcd1c77e80b511d"},
+    {"path": "experiments/semantic_assumptions/results/existing_human_page_annotations.tsv", "role": "guarded human page counts", "sha256": "b358f244cbe853448dd5c32dbc04004cb8ce63d9a8c5ed5afe2a679a115d87fa"},
+    {"path": "experiments/semantic_assumptions/results/existing_human_exact_locus_annotations.tsv", "role": "guarded exact ownership comments", "sha256": "79c7f06e91f90054aff4cdf27f098a5977d820acdf91f239a14c6ddf553a7f61"}
+  ],
+  "outputs": [
+    {"path": "experiments/yolo/gdt351_remaining_referent_label_capacity/README.md", "role": "experiment entry point", "sha256": "64a6b4bae7d6f1b25fa7a273272acdf7bfb5927f5692b7b3efd4edc402277b03"},
+    {"path": "experiments/yolo/gdt351_remaining_referent_label_capacity/REPORT.md", "role": "capacity report", "sha256": "62bd16f8c9a00a2f698c09177f81ee5acd92e100da09b5a0a3f808ad83051a4e"},
+    {"path": "experiments/yolo/gdt351_remaining_referent_label_capacity/artifacts/README.md", "role": "artifact scope", "sha256": "2b13dee3a33fedf729c99fc01a08078f9d73e700ccdffeafed3760d70c7d4c6e"},
+    {"path": "experiments/yolo/gdt351_remaining_referent_label_capacity/artifacts/gdt351_capacity.tsv", "role": "four-row capacity atlas", "sha256": "8444b76edd5dcbc6dc44e10846068349b43684bf0d0b32a2dd410063a326bfeb"},
+    {"path": "experiments/yolo/gdt351_remaining_referent_label_capacity/artifacts/gdt351_result.json", "role": "compact result", "sha256": "04fdbf94beb0c1e39212a12a5004852437439ab051a767a0c44cfc5a9e8171e2"},
+    {"path": "experiments/yolo/gdt351_remaining_referent_label_capacity/artifacts/gdt351_validation.json", "role": "independent validation", "sha256": "4a0b4220f1ecbd26f0a9d6b7bdb49d0a8856f5e2d6a0e9ac387b28b9c402a7b5"},
+    {"path": "experiments/yolo/gdt351_remaining_referent_label_capacity/src/run.py", "role": "guarded result producer", "sha256": "04167dab701d17262524f7ebfdb8f44935b9f98b207aabb8b2cae6716b691989"},
+    {"path": "experiments/yolo/gdt351_remaining_referent_label_capacity/src/validate.py", "role": "guarded nonimporting validator", "sha256": "b18fedfd9a0dbbc3729552bbf620997065e93b7a3cd7c3b359725b545b825b41"}
+  ],
+  "validation": {"artifact": "experiments/yolo/gdt351_remaining_referent_label_capacity/artifacts/gdt351_validation.json", "status": "PASS"}
+}

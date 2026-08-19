@@ -150,6 +150,18 @@ Updated: 2026-08-19. This is the full claim registry. For routine work, read
   the purposive sample does not estimate medieval prevalence. No Voynich target
   was rescored, f69v still lacks authorial phase and independent-folio transfer,
   and no slot value, language, meaning, plaintext, or translation follows.
+- GDT351 exhausts the four remaining `ASSERTED_SAME` Herbal→pharmaceutical
+  relations in GDT169 that lacked a local query. Human-source counts show that
+  fragments 204, 205, and 206 have no separate mapped plant inscription; the
+  only plausible row-end inscription for fragment 61 is explicitly between
+  plants 3 and 4 and remains proximity-only. Thus the cached atlas supplies
+  zero new singular referent→inscription joins, and no image or formal identity
+  was opened or scored. A first uncommitted local builder transiently parsed
+  global human tables including f84 rows; none was displayed or used, and the
+  final producer/validator raw-field guard excludes all f84 rows before parse
+  while binding the superseded hashes. Do not repair these four candidates by
+  proximity. The next grounding route requires genuinely new source-bound
+  repeated referents with singular ownership on discovery and held folios.
 - A frozen synthetic-instrument calibration now limits how opaque PAGE_HOST
   negatives may be interpreted. On one real medieval medical source, a true
   injective 2–3-character concept codebook lost every held
