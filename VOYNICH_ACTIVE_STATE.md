@@ -10030,6 +10030,30 @@ comparator label is not transferred. No HEAD_SLOT or other functional class is
 assigned. The exposed panel may not be repartitioned to confirm the lead; new
 non-f84 evidence is required.
 
+GDT379 tested new orthogonal consequences of that exposed lead and closes it
+for semantic interpretation. The only surviving anomaly is a formal recurrence
+pattern `F1 X F1`: 29/394 eligible middle spans at horizon 2 versus a matched
+null mean of .043404 (joint maxT p=.023188), but the nuisance-residual direction
+holds in only 26/67 eligible folios. No symmetry, variable-arity, exclusivity,
+paired-operator, renderer-equivalence, or transferable comparator-function
+behavior passed the frozen stability gate. Do not lower that gate or continue
+testing F1 as AND, OR, NOT, UNTIL, or a function word.
+
+GDT380 then removed exact identity entirely and recalibrated the four GDT378
+secondary signatures as local equality/recurrence, pre/post diversity,
+reconvergence, horizon, deletion-bridge, and placement transformations across
+held readable-comparator domains. Zero of four passed the preregistered
+end-to-end gate. Three score rankings were nonrandom, but every one failed a
+required transfer condition: CMP01 had positive full gain in only 2/5 domains;
+CMP02 reversed in CoReMA and lost 47.227 bits in PCEEC2; CMP03 had a .597290
+transfer floor and only one positive-gain domain; CMP04 ranked strongly but
+lost 3,823.761 held bits in PCEEC2, while deleting pivot recurrence made Quinte
+negative. Therefore no Voynich target row was read and no anonymous behavior
+class was created. The GDT378 comparator labels are not presently licensed as
+identity-free functional detectors; a future route needs a new independently
+calibrated behavioral representation or genuinely new external structure, not
+another tuple/function relabeling.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU
