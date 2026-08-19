@@ -1,0 +1,112 @@
+{
+  "confirmation_gate": {
+    "fixed_prediction_max_family_p": 0.05,
+    "minimum_domains_auc_0_60_and_positive_gain": 3,
+    "requires_nonrecipe": true,
+    "requires_procedural": true
+  },
+  "content_hash": "e843e323a5cb00299bd13de042f117e0c31c1826a279157a2949d422ffb6a5d8",
+  "encoding_modes": [
+    "BASE_ORACLE_BLIND",
+    "FREE_TOKEN",
+    "PREFIX",
+    "SUFFIX",
+    "WRAPPER_ALTERNATION",
+    "BOUNDARY_CHOICE",
+    "POSITIONAL_ALTERNATION",
+    "ZERO_SUPPLETIVE"
+  ],
+  "endpoints": [
+    "FUNCTION_WORD",
+    "ALTERNATIVE_OR",
+    "POLARITY_EXCLUSION",
+    "UNTIL_STATE_GATE",
+    "COORDINATOR",
+    "REF_ANAPHORA"
+  ],
+  "exploration_gate": {
+    "auc": 0.6,
+    "gain_bits": 0
+  },
+  "f84_accessed": false,
+  "gdt381_outcome_used_to_design": false,
+  "inputs": {
+    "encoder_freeze": "5819fdd682d2dfa3d1de6875273c0204aae45aa1f23523d776997befdd9ab28b",
+    "method": "4b3049ed9c19e116aca5379a8e4e0ae5dc06864e8c412358a42ac0db886f2222"
+  },
+  "null": {
+    "preserve": [
+      "domain",
+      "collection",
+      "record_length_bin",
+      "position_bin",
+      "boundary_state"
+    ],
+    "worlds": 256
+  },
+  "ontology_inventories": {
+    "NATURAL_LANGUAGE_LIKE": [
+      "COORDINATOR",
+      "ALTERNATIVE_OR",
+      "POLARITY_EXCLUSION",
+      "UNTIL_STATE_GATE",
+      "REF_ANAPHORA",
+      "FUNCTION_WORD"
+    ],
+    "TECHNICAL_NOTATION_LIKE": {
+      "ADD_ITEM": "COORDINATOR",
+      "ALTERNATIVE_SLOT": "ALTERNATIVE_OR",
+      "COPY_PREVIOUS": "REF_ANAPHORA",
+      "EXCEPTION": "POLARITY_EXCLUSION",
+      "NEXT_OR_GATE": "UNTIL_STATE_GATE",
+      "RELATION_OR_END": "FUNCTION_WORD"
+    }
+  },
+  "overcontrol_treatments": [
+    "GRAMMAR_FEATURE",
+    "CONDITIONED_NUISANCE",
+    "REMOVED"
+  ],
+  "overcontrol_variables": [
+    "LINE_FIELD_POSITION",
+    "RECORD_RELATIVE_POSITION",
+    "BOUNDARY_CLOSURE",
+    "RECURRENCE",
+    "GLOBAL_LOCAL_FREQUENCY",
+    "RECORD_LENGTH",
+    "PREVIOUS_STATE",
+    "NEXT_STATE"
+  ],
+  "primary_metrics": [
+    "held_logloss_gain_bits",
+    "auc",
+    "average_precision",
+    "positive_domains"
+  ],
+  "prospective_split": {
+    "confirmation_domains": [
+      "HARLEIAN_COOKERY",
+      "QUINTE_ESSENCE"
+    ],
+    "development_domains": [
+      "COREMA",
+      "CURIOUS_CURES",
+      "PCEEC2"
+    ]
+  },
+  "recovery_regimes": [
+    "STRICT_UNIVERSAL_HELD_DOMAIN",
+    "DOMAIN_LOCAL_HIERARCHICAL_HELD_COLLECTION"
+  ],
+  "representations": [
+    "SOURCE_TOKEN_EQUALITY",
+    "DOMAIN_LOCAL_OPAQUE_ID",
+    "HOST_IDENTITY",
+    "COMPOSITE_JOINT_STATE",
+    "COMPLETE_RENDERED_GROUP",
+    "FIELD_CONSTRUCTION_SPAN"
+  ],
+  "schema": "GDT382_RECOVERY_DESIGN_FREEZE_V1",
+  "status": "FROZEN_BEFORE_HIDDEN_ORACLE_EVALUATION",
+  "voynich_scoring": false
+}
