@@ -127,6 +127,18 @@ Updated: 2026-08-19. This is the full claim registry. For routine work, read
   manuscript-specific convention inside the current coordinate definition;
   do not reopen the internal operator route. No new Voynich score or f84 access
   occurred.
+- GDT349 completes a text-blind 235-slot zodiac-facing census before any
+  formal join. The only directional states are the 10 left and one right
+  hedged public assertions that originally nominated the axis; the other 224
+  reviewed positions are frontal, radial, or otherwise non-directional under
+  the frozen absolute image-left/right profile definition. Only f70v2's inner
+  ring is mixed, and the sole right assertion remains on f70. The acquisition
+  therefore stops before formal access for lack of directional and
+  independent-folio capacity. Do not rescue it by converting gesture,
+  star-side, or radial orientation into “facing.” A broad audit search
+  displayed one unrelated line from a previously published f84 result; it was
+  not retained, joined, or scored, but the analyst seal is no longer described
+  as pristine. No further f84 access is authorized.
 - A frozen synthetic-instrument calibration now limits how opaque PAGE_HOST
   negatives may be interpreted. On one real medieval medical source, a true
   injective 2–3-character concept codebook lost every held
