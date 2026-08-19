@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "experiment_id": "GDT356",
+  "slug": "ljs443_work_attribution",
+  "title": "LJS 443 work attribution and folio-key capacity audit",
+  "created": "2026-08-19",
+  "updated": "2026-08-19",
+  "status": "WORK_ATTRIBUTION_NARROWED_FOLIO_KEY_STILL_ABSENT",
+  "question": "Which catalogued work contains the LJS 443 diagram subseries isolated by GDT354-355, and does scholarship supply a folio-specific value/order key?",
+  "dependencies": ["GDT337", "GDT353", "GDT354", "GDT355"],
+  "commands": {
+    "run": "python3 experiments/yolo/gdt356_ljs443_work_attribution/src/run.py",
+    "validate": "python3 experiments/yolo/gdt356_ljs443_work_attribution/src/validate.py"
+  },
+  "sealed_data": {"f84r": "FORBIDDEN", "f84": "FORBIDDEN"},
+  "claim_ceiling": "Containing catalogued work plus system-level calendrical possibilities and an explicit absent folio key; no diagram identity, slot value, copying, Armenian origin for Voynich, language, plaintext, or translation.",
+  "artifact_policy": {"max_inline_bytes": 5000000, "large_artifact_justification": ""},
+  "inputs": [
+    {"path": "experiments/yolo/gdt355_ljs443_diagram_series_census/artifacts/gdt355_result.json", "role": "prior external diagram-series census", "sha256": "df270a2069741f5133637635f4427ffa857791ca8c40baf88dbb8a6b35af36d9"}
+  ],
+  "outputs": [
+    {"path": "experiments/yolo/gdt356_ljs443_work_attribution/README.md", "role": "experiment entry point", "sha256": "8ddcafad38f6c398c2c859dc7378418e574624c328d46edd2a6b04475b4eb94a"},
+    {"path": "experiments/yolo/gdt356_ljs443_work_attribution/METHOD.md", "role": "external-only attribution method", "sha256": "155571b23537f0e64ca8ab2a472be6f3a1993dcf995f06c76ef864dc83841355"},
+    {"path": "experiments/yolo/gdt356_ljs443_work_attribution/SOURCE_AUDIT.md", "role": "official and scholarly source audit", "sha256": "be6edd1c43ba2fff8c5738e1b7b2d30d9a6816fe7500a3061651b1f2ed732a1a"},
+    {"path": "experiments/yolo/gdt356_ljs443_work_attribution/REPORT.md", "role": "bounded attribution report", "sha256": "26349c69090762ecf445402202f28c37c670c0299e729ee5e66826169b238f0e"},
+    {"path": "experiments/yolo/gdt356_ljs443_work_attribution/artifacts/README.md", "role": "artifact guide", "sha256": "fd692953ea780d93f6fa6fffc0accbf41b856986682b2aa52b19cd170572e5c8"},
+    {"path": "experiments/yolo/gdt356_ljs443_work_attribution/artifacts/gdt356_external_sources.tsv", "role": "external source bindings", "sha256": "daaf304ca5882c267445022973d0d39f82e561d07bba2ad7e25e10dac5f368ec"},
+    {"path": "experiments/yolo/gdt356_ljs443_work_attribution/artifacts/gdt356_work_ranges.tsv", "role": "catalogued range attribution", "sha256": "6545759f963ab41be72d3eb4ddec2f54a35d1197770eb204270409e96478da0d"},
+    {"path": "experiments/yolo/gdt356_ljs443_work_attribution/artifacts/gdt356_feature_audit.tsv", "role": "folio-key support audit", "sha256": "133938dd8996bf44921a0959e72fd5d3ed6771141446eab851580bb2e3ff3eee"},
+    {"path": "experiments/yolo/gdt356_ljs443_work_attribution/artifacts/gdt356_counterexamples.tsv", "role": "explicit falsifiers", "sha256": "5177428e68e39ecb23e72f69104f13865a09fd2a95fd38cbc108a24388096eba"},
+    {"path": "experiments/yolo/gdt356_ljs443_work_attribution/artifacts/gdt356_result.json", "role": "compact result and bindings", "sha256": "ed519250981e27a0b93c237c0bb61f0753deb57c7620b793997fa939e96339a4"},
+    {"path": "experiments/yolo/gdt356_ljs443_work_attribution/artifacts/gdt356_validation.json", "role": "nonimporting validation", "sha256": "6c0354da47935e47e73152d53bddad6e04c1999dab5fd8a34aae8111e4517d5c"},
+    {"path": "experiments/yolo/gdt356_ljs443_work_attribution/src/run.py", "role": "deterministic producer", "sha256": "573afee06d4d3de7ac9d665df0858a201b4bd8fcac9de6d9de04c77d260c0910"},
+    {"path": "experiments/yolo/gdt356_ljs443_work_attribution/src/validate.py", "role": "nonimporting validator", "sha256": "16c0c1713e845ff8d519b8d40fad6943fa4746a90676c22fc175111ae5bcbbc7"}
+  ],
+  "validation": {"artifact": "experiments/yolo/gdt356_ljs443_work_attribution/artifacts/gdt356_validation.json", "status": "PASS"}
+}

@@ -205,6 +205,15 @@ Updated: 2026-08-19. This is the full claim registry. For routine work, read
   but require a scholarly folio-specific value/order key before any target
   alignment. No Voynich image, transcription, formal payload, or f84 material
   was accessed.
+- GDT356 narrows that external series to the Penn-catalogued *Commentary on the
+  Calendar* by Hovhannēs Vardapet/Sarkawag, ff.145v–212r. The narrow pages
+  209r–210r are not in the Anania Shirakatsʻi astronomy item beginning at 213r
+  or Hakob Ghrimetsʻi's earlier commentary. Scholarship documents a composite
+  calendar collection with comparative calendars, a Kharnakhoran, lunar
+  computation, a lunar indicator, and 532-year tables, but supplies no LJS 443
+  folio concordance, eight values, start, or direction. Search the Hovhannēs
+  commentary tradition specifically; do not infer an eight-phase lunar table.
+  No Voynich image, transcription, formal payload, or f84 material was accessed.
 - A frozen synthetic-instrument calibration now limits how opaque PAGE_HOST
   negatives may be interpreted. On one real medieval medical source, a true
   injective 2–3-character concept codebook lost every held

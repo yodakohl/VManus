@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **354**
-- Experiment-associated tracked files: **4,649** (572.2 MiB)
-- Structured GDT337+ experiments: **19**
+- Experiments indexed: **355**
+- Experiment-associated tracked files: **4,663** (572.2 MiB)
+- Structured GDT337+ experiments: **20**
 - IDs without a ledger entry: **166**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT356 | GDT356_ljs443_work_attribution | `WORK_ATTRIBUTION_NARROWED_FOLIO_KEY_STILL_ABSENT` | [report](../experiments/yolo/gdt356_ljs443_work_attribution/REPORT.md) | 14 | 41.1 KiB | 4 | STRUCTURED_YOLO |
 | GDT355 | GDT355_ljs443_diagram_series_census | `EIGHT_BAND_SUBFAMILY_RECURRENT_RENDERING_NOT_EIGHT_SPECIFIC` | [report](../experiments/yolo/gdt355_ljs443_diagram_series_census/REPORT.md) | 14 | 72.3 KiB | 3 | STRUCTURED_YOLO |
 | GDT354 | GDT354_ljs443_f68v3_source_audit | `PROVISIONAL_EIGHT_BAND_SYSTEM_HOMOLOGUE_NO_SLOT_TRANSFER` | [report](../experiments/yolo/gdt354_ljs443_f68v3_source_audit/REPORT.md) | 14 | 41.2 KiB | 2 | STRUCTURED_YOLO |
 | GDT353 | GDT353_f68_nested_diagram_alignment | `NO_ORDERED_FORMAL_SUPPORT_FOR_F68V1_V2_NESTING` | [report](../experiments/yolo/gdt353_f68_nested_diagram_alignment/REPORT.md) | 11 | 28.4 KiB | 1 | STRUCTURED_YOLO |
