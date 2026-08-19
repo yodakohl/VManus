@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "experiment_id": "GDT355",
+  "slug": "ljs443_diagram_series_census",
+  "title": "Complete LJS 443 diagram-series census",
+  "created": "2026-08-19",
+  "updated": "2026-08-19",
+  "status": "EIGHT_BAND_SUBFAMILY_RECURRENT_RENDERING_NOT_EIGHT_SPECIFIC",
+  "question": "Within the complete official LJS 443 diagram run, is the eight-curved-band rendering recurrent and are curved radial compartments specific to eight?",
+  "dependencies": ["GDT337", "GDT353", "GDT354"],
+  "commands": {
+    "run": "python3 experiments/yolo/gdt355_ljs443_diagram_series_census/src/run.py",
+    "validate": "python3 experiments/yolo/gdt355_ljs443_diagram_series_census/src/validate.py"
+  },
+  "sealed_data": {"f84r": "FORBIDDEN", "f84": "FORBIDDEN"},
+  "claim_ceiling": "Recurrent local eight-curved-compartment subfamily plus a non-eight curved-lobe counterexample only; no lunar-table identity, slot value, start, direction, copying, Armenian origin, language, plaintext, or translation.",
+  "artifact_policy": {"max_inline_bytes": 5000000, "large_artifact_justification": ""},
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt354_ljs443_f68v3_source_audit/artifacts/gdt354_result.json",
+      "role": "prior source-audit result; no Voynich payload",
+      "sha256": "73cdacacf0fec5b38467c47927a0d8821e7f562b850ca65077e37d27f6146541"
+    }
+  ],
+  "outputs": [
+    {"path": "experiments/yolo/gdt355_ljs443_diagram_series_census/README.md", "role": "experiment entry point", "sha256": "ee697148344465b1339503c3a39cf70e629ced104785225913a48fce847511e1"},
+    {"path": "experiments/yolo/gdt355_ljs443_diagram_series_census/METHOD.md", "role": "external-only census method", "sha256": "5e5c365ced7fdbf7b95d650e75d41919f360539d0369548b1e57340006227271"},
+    {"path": "experiments/yolo/gdt355_ljs443_diagram_series_census/SOURCE_AUDIT.md", "role": "external source and exposure audit", "sha256": "54b2bbd6e022c773a070c7748a9ff217e35b21eb895697e5d3ea89fbd9583b34"},
+    {"path": "experiments/yolo/gdt355_ljs443_diagram_series_census/REPORT.md", "role": "bounded source-census report", "sha256": "2696059129ca991c22ab008e653933ea3d11dc49b97c1b4fbf9968e9c45ef699"},
+    {"path": "experiments/yolo/gdt355_ljs443_diagram_series_census/artifacts/README.md", "role": "artifact guide", "sha256": "267d449af33331673d18ed952e1f576b9919846670fa6c1c9af31448446ee74b"},
+    {"path": "experiments/yolo/gdt355_ljs443_diagram_series_census/artifacts/gdt355_external_sources.tsv", "role": "official external-source manifest", "sha256": "b250a3f1f040ff9da9699a1bc4466fc43a226e161c85b935ff2d84ecea235e16"},
+    {"path": "experiments/yolo/gdt355_ljs443_diagram_series_census/artifacts/gdt355_diagram_census.tsv", "role": "complete neutral 38-surface census", "sha256": "61d54153e5eff523cc5edf85c79ff0ec218ffbca4d0885727a8e96023f6011a3"},
+    {"path": "experiments/yolo/gdt355_ljs443_diagram_series_census/artifacts/gdt355_family_summary.tsv", "role": "fixed topology-family summary", "sha256": "b639a6b25453122ab2bd5ec17818ba559f831b2da19587463fedc952538f8b39"},
+    {"path": "experiments/yolo/gdt355_ljs443_diagram_series_census/artifacts/gdt355_counterexamples.tsv", "role": "direct non-eight counterexample", "sha256": "a3ed2468e5099e88b90aae3f25031d278e475dbb084f11c21ca149256b3e059b"},
+    {"path": "experiments/yolo/gdt355_ljs443_diagram_series_census/artifacts/gdt355_result.json", "role": "compact result and bindings", "sha256": "df270a2069741f5133637635f4427ffa857791ca8c40baf88dbb8a6b35af36d9"},
+    {"path": "experiments/yolo/gdt355_ljs443_diagram_series_census/artifacts/gdt355_validation.json", "role": "nonimporting validation", "sha256": "585f50d2e4394e0ba27da957d6b00bb4dd7d3c8577a3f06fcbbe3be1201057d9"},
+    {"path": "experiments/yolo/gdt355_ljs443_diagram_series_census/src/run.py", "role": "deterministic producer", "sha256": "dd80de8526a0c33586bbb79a9dfab6964dbc7804d9e8c73f292820449ed2cc71"},
+    {"path": "experiments/yolo/gdt355_ljs443_diagram_series_census/src/validate.py", "role": "nonimporting validator", "sha256": "3c5d765cfc7db80cbb236e66a79c9b3c75a8b87ae40fcf80a02bfdbdd324c11b"}
+  ],
+  "validation": {"artifact": "experiments/yolo/gdt355_ljs443_diagram_series_census/artifacts/gdt355_validation.json", "status": "PASS"}
+}

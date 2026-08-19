@@ -196,6 +196,15 @@ Updated: 2026-08-19. This is the full claim registry. For routine work, read
   provisional eight-band calendar/astronomy diagram-family homologue only; do
   not expose or align Voynich text on this endpoint. No target image,
   transcription, formal payload, or f84 material was accessed.
+- GDT355 exhausts the complete official 38-surface LJS 443 diagram run. The
+  narrow eight-curved-band rendering is a coherent three-page subseries and a
+  broader eight-curved family has five pages, but nearby current f.206v has
+  twelve curved text-bearing lobes. Curved radial compartments therefore do
+  not themselves key the value eight. Four further pages use other exact
+  eightfold topologies. Retain the period-appropriate system-family comparator,
+  but require a scholarly folio-specific value/order key before any target
+  alignment. No Voynich image, transcription, formal payload, or f84 material
+  was accessed.
 - A frozen synthetic-instrument calibration now limits how opaque PAGE_HOST
   negatives may be interpreted. On one real medieval medical source, a true
   injective 2–3-character concept codebook lost every held

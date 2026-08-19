@@ -180,9 +180,11 @@ morpheme, plaintext symbol, or semantic role.
   or word meaning.
 - GDT337 finds exact readable astronomical donors but no target correspondence
   with disjoint-folio transfer; external count/order alone licenses no score.
-- GDT354 adds a post-1416 Armenian eight-curved-compartment diagram family as a
-  provisional f68v3 topology homologue, but no external values/order, target
-  phase, or held folio; no Voynich formal payload was opened or scored.
+- GDT354–355 add a post-1416 Armenian eight-curved-compartment diagram family
+  as a provisional f68v3 topology homologue. The exact rendering recurs on
+  three adjacent pages, but a nearby twelve-lobe page proves that curved radial
+  compartments are not specific to eight. No external values/order, target
+  phase, or held folio exists; no Voynich formal payload was opened or scored.
 - The exposed f57/f77 quality/element decoder was withdrawn after
   look-elsewhere and transfer failures (GDT182–GDT202).
 - Recurrent formulas and universal tuples are retrieval candidates only. Their
@@ -241,8 +243,8 @@ ledger. Use those files for a proposed-route duplicate audit, not on every turn.
 
 ## Next useful route
 
-1. Do not score a GDT337/GDT354 near-match. LJS 443 first needs a scholarly
-   eight-compartment key/order; the target still needs phase and replication.
+1. Do not score a GDT337/GDT354–355 near-match. LJS 443 first needs a scholarly
+   folio-specific key/order; the target still needs phase and replication.
 2. Acquire one genuinely new target relation: either a second independently
    ordered 28-slot folio, a text-blind zodiac band/start key plus a disjoint-
    folio repeated topology, or singular homologous slots on at least two
