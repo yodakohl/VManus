@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "experiment_id": "GDT349",
+  "slug": "zodiac_facing_orientation_acquisition",
+  "title": "Complete strict zodiac facing-orientation acquisition",
+  "created": "2026-08-19",
+  "updated": "2026-08-19",
+  "status": "FROZEN_BEFORE_NEW_IMAGE_REVIEW",
+  "question": "Does a complete text-blind 235-slot strict cyclic zodiac census contain a transferable left/right visual contrast not determined by page or ring?",
+  "dependencies": ["GDT337"],
+  "commands": {
+    "run": "python3 experiments/yolo/gdt349_zodiac_facing_orientation_acquisition/src/freeze.py",
+    "validate": "python3 experiments/yolo/gdt349_zodiac_facing_orientation_acquisition/src/validate_freeze.py"
+  },
+  "sealed_data": {"f84r": "FORBIDDEN", "f84": "FORBIDDEN"},
+  "claim_ceiling": "Text-blind visual-capacity acquisition only; no label ownership, direction word, semantics, language, plaintext, or translation.",
+  "artifact_policy": {"max_inline_bytes": 5000000, "large_artifact_justification": ""},
+  "inputs": [
+    {"path": "experiments/yolo/gdt349_zodiac_facing_orientation_acquisition/METHOD.md", "role": "pre-image acquisition contract", "sha256": "1a3db406748abe82c4c9ec6dc407db5c2e192af0199b7b329e9240f39b18ebd4"},
+    {"path": "experiments/yolo/gdt349_zodiac_facing_orientation_acquisition/SOURCE_AUDIT.md", "role": "prior-route and ownership audit", "sha256": "de844341ab0a460db936ec24911e58749fa3475514814ff13134b259da19b547"},
+    {"path": "experiments/yolo/gdt349_zodiac_facing_orientation_acquisition/CORRECTION.md", "role": "pre-review panel-size correction", "sha256": "6fab7297ec10dd644ea19a953c4e4b3e8501c1f265c582c6f21aeddb6f035fc4"},
+    {"path": "experiments/semantic_assumptions/results/zodiac_label_cycle_capacity.tsv", "role": "complete strict cyclic zodiac panel", "sha256": "6b075674c867328681e016afcb59fac57dc5d494ce4f3fdbcf9d487b7d5d1033"},
+    {"path": "experiments/semantic_assumptions/results/public_zodiac_label_attribute_capacity.json", "role": "source-only facing-attribute capacity audit", "sha256": "e4bc06e268d2ead7b5b0f3263778f2cee23fb7e93e1209519d9fb34eca201de1"}
+  ],
+  "outputs": [
+    {"path": "experiments/yolo/gdt349_zodiac_facing_orientation_acquisition/README.md", "role": "experiment entry point", "sha256": "75ac42645a0e13bc9e69f3a7e2c54a0a763e47a5d5f855df277fbec368c2ae6b"},
+    {"path": "experiments/yolo/gdt349_zodiac_facing_orientation_acquisition/artifacts/README.md", "role": "artifact scope", "sha256": "74a4ccb26ffdc62c848c16499471fa91674724f25171ceed14070e1e26181c1b"},
+    {"path": "experiments/yolo/gdt349_zodiac_facing_orientation_acquisition/artifacts/gdt349_selection.tsv", "role": "frozen complete 235-slot review panel", "sha256": "680244b34020722a5753d47ac60e2508a2ac5f30e413b10d967c319758599981"},
+    {"path": "experiments/yolo/gdt349_zodiac_facing_orientation_acquisition/artifacts/gdt349_freeze.json", "role": "compact freeze result", "sha256": "35555e29914fa4a994e18b310012fe3ae6206f365881c9e73101399391be6e94"},
+    {"path": "experiments/yolo/gdt349_zodiac_facing_orientation_acquisition/artifacts/gdt349_freeze_validation.json", "role": "independent freeze validation", "sha256": "e1159b76713d35d13129d72f761d6643b2ebccd82bd2d8201183e898ba4fc212"},
+    {"path": "experiments/yolo/gdt349_zodiac_facing_orientation_acquisition/src/freeze.py", "role": "freeze producer", "sha256": "02f4f3d5bb8ee1907cf299faf0415a6e718c1a76ee60d1ccfc52dc7426d041dd"},
+    {"path": "experiments/yolo/gdt349_zodiac_facing_orientation_acquisition/src/validate_freeze.py", "role": "nonimporting freeze validator", "sha256": "44b4d6fde6bff54232e05274da69e4e85190e684c877198ee0f383a2200f8744"}
+  ],
+  "validation": {"artifact": "experiments/yolo/gdt349_zodiac_facing_orientation_acquisition/artifacts/gdt349_freeze_validation.json", "status": "PASS"}
+}
