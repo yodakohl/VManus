@@ -1,0 +1,94 @@
+{
+  "channel_treatments": [
+    "EVIDENCE",
+    "CONDITIONED_NUISANCE",
+    "OMITTED"
+  ],
+  "claim_ceiling": "COMPARATOR_ROLE_RELATION_INSTRUMENT_FREEZE_ONLY",
+  "content_hash": "e2281f628237ee6fe2abf67b0b0845f8b5694df7fe9acae5feba13ef20da246e",
+  "documents": {
+    "experiments/yolo/gdt384_role_specific_relational_consequence/METHOD.md": "501752e92b5feaf702499a0fafe9f74d7809b17c27753bd53c4ccf4d02aca319",
+    "experiments/yolo/gdt384_role_specific_relational_consequence/README.md": "feead8f9387909b31d59a5abe7fddc5c1134a8e41e4c65e654eec1a8309f590a",
+    "experiments/yolo/gdt384_role_specific_relational_consequence/SOURCE_AUDIT.md": "b1a446f1a8b99a36d269b62e776c26954efae7bd9fb4e01ae35f5d2b58b924b4",
+    "experiments/yolo/gdt384_role_specific_relational_consequence/experiment.json": "09b1e2a17b954033929dc7d920dcf1092a861fcbf2dc14d1fe222a260625c271",
+    "experiments/yolo/gdt384_role_specific_relational_consequence/gdt384_relation_manifest.tsv": "b7730c3a6c195d9cf69c57ab413f36ad69a857e5e967346c7d9b899a685471f7"
+  },
+  "f84": {
+    "opened": false,
+    "parsed": false,
+    "retained": false,
+    "scored": false
+  },
+  "full_stage_gate": {
+    "all_42_realization_controls": true,
+    "all_six_roles": true,
+    "priority_coordinator_required": true
+  },
+  "gdt381_target_artifacts_allowed": false,
+  "grammar_channels": [
+    "FREQUENCY",
+    "RECURRENCE",
+    "LINE_FIELD_POSITION",
+    "RECORD_RELATIVE_POSITION",
+    "BOUNDARY_CLOSURE",
+    "PREVIOUS_STATE",
+    "RECORD_LENGTH"
+  ],
+  "implementation": {
+    "experiments/yolo/gdt384_role_specific_relational_consequence/src/freeze_stage_a.py": "54a3ebb0cfd2ad9e9c627b48b0a400574bc97a1a68013fd2af2a2a43be7c2c7f"
+  },
+  "inputs": {
+    "experiments/yolo/gdt378_cross_corpus_construction_transfer/artifacts/gdt378_hidden_oracle.tsv.gz": "35568bb5ae417bd725af03abbd09ce7d7dc3fbf3b64fb77bf00299603893de02",
+    "experiments/yolo/gdt382_voynichification_methodology_audit/artifacts/gdt382_voynichified_observation_layer.tsv.gz": "4c20dc0dd234f9b1947ce9c81d9d1c8645e30a1fd81321b6a9be755b3d229896",
+    "experiments/yolo/gdt383_repaired_local_role_transfer/artifacts/gdt383_stage_a_result.json": "4be6bf719e46cb23bedd5dfa15b9634d2aa4568ef5e87ef4fd3100a0292f9db2",
+    "gdt176_corema_role_oracle.tsv": "170afc09327d7e2589107d1f4bd28f7725bfb8bcedcdd84bb9e7fb1c2c7f24ec"
+  },
+  "null": {
+    "family": "SIX_ROLES_X_RELATION_VARIANTS_X_RESOLUTIONS_X_CHANNELS_X_HORIZONS",
+    "strata": [
+      "domain",
+      "held_collection",
+      "record_length_bin",
+      "pivot_position_bin",
+      "boundary_state"
+    ],
+    "type": "REBUILD_FOLD_TRAINED_ROLE_CONTRIBUTION_MAX_FAMILY",
+    "worlds": 2048
+  },
+  "priority_role": "COORDINATOR",
+  "relation_gate": {
+    "deterministic_overlap_auc_max": 0.65,
+    "max_family_p": 0.05,
+    "minimum_negative": 50,
+    "minimum_positive": 50,
+    "positive_gain_each_gold_domain": true,
+    "positive_held_collection_blocks": 4,
+    "relation_auc_increment": 0.02,
+    "source_overlap_auc_max": 0.65
+  },
+  "resolutions": [
+    "HOST_IDENTITY",
+    "COMPLETE_RENDERED_GROUP",
+    "CONSTRUCTION_STATE",
+    "COMPOSITE_JOINT_STATE",
+    "SHORT_CONSTRUCTION_SPAN"
+  ],
+  "role_gate": {
+    "hierarchy_minus_exact_joint_auc": 0.02,
+    "hierarchy_minus_universal_auc": 0.1,
+    "macro_auc": 0.8,
+    "positive_gain": true
+  },
+  "roles": [
+    "COORDINATOR",
+    "ALTERNATIVE_OR",
+    "REF_ANAPHORA",
+    "UNTIL_STATE_GATE",
+    "POLARITY_EXCLUSION",
+    "FUNCTION_WORD"
+  ],
+  "schema": "GDT384_STAGE_A_FREEZE_V1",
+  "status": "FROZEN_BEFORE_RELATION_CONSTRUCTION_OR_SCORING",
+  "voynich_rows_read": 0,
+  "voynich_stage_b_authorized": false
+}
