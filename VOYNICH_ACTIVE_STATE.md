@@ -10107,6 +10107,23 @@ generic three-event geometry with independently annotated/authorial downstream
 event graphs while preserving source/outcome separation. No function, role,
 POS, meaning, language, plaintext, translation, or f84 access follows.
 
+GDT384 replaces the generic future with independently parsed/editor-linked,
+role-specific relations and tests COORDINATOR first. The hidden role itself is
+recovered strongly across held PCEEC2 source files (AUC .949269; +3,148.368
+bits). The independently parsed sibling-homology relation has 2,347 positives,
+and adding the role probability saves 425.113 calibration bits on 76/84 held
+files. It nevertheless fails the decisive definition-overlap audit: the
+licensed source-side composite alone predicts sibling homology at AUC .797797,
+above the frozen .65 ceiling, and the role changes relation AUC by -.000054.
+Thus parse provenance does not make this endpoint disjoint from source grammar.
+The sequential freeze stops before its 2,048-world null, the other five roles,
+and all Voynich access. Do not lower the overlap ceiling or promote the
+attractive codelength gain. A further comparator method would need genuinely
+external held relation edges—explicit antecedent IDs, editor parent/child
+links, or paired propositions—not parse topology already recoverable from the
+source representation. No latent role, coordination, POS, meaning, language,
+plaintext, translation, or f84 access follows.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU

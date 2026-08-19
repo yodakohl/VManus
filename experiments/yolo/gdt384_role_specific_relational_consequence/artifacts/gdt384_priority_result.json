@@ -1,0 +1,51 @@
+{
+  "claim_ceiling": "COMPARATOR_PRIORITY_ROLE_RELATION_ONLY",
+  "content_hash": "e2d509fddb088445fa1aa59abc9b4c24e2d3235166b8eacc2bb6bf4c93e8920b",
+  "f84": {
+    "opened": false,
+    "parsed": false,
+    "retained": false,
+    "scored": false
+  },
+  "gdt381_target_artifacts_read": false,
+  "implementation": {
+    "experiments/yolo/gdt384_role_specific_relational_consequence/src/run_priority_coordinator.py": "0a074d659a714da773692d086d0d5eafbde6b699d64660cc43cfab6e8c0f3b10"
+  },
+  "inputs": {
+    "experiments/yolo/gdt378_cross_corpus_construction_transfer/artifacts/gdt378_hidden_oracle.tsv.gz": "35568bb5ae417bd725af03abbd09ce7d7dc3fbf3b64fb77bf00299603893de02",
+    "experiments/yolo/gdt382_voynichification_methodology_audit/artifacts/gdt382_voynichified_observation_layer.tsv.gz": "4c20dc0dd234f9b1947ce9c81d9d1c8645e30a1fd81321b6a9be755b3d229896",
+    "experiments/yolo/gdt384_role_specific_relational_consequence/artifacts/gdt384_hidden_relational_oracle.tsv.gz": "66d03f8c89f0e843cf87432e7c6c906100fdcaab6ef1bceef8d1b886407d9502",
+    "experiments/yolo/gdt384_role_specific_relational_consequence/artifacts/gdt384_stage_a_freeze.json": "cde0dcd03a931f0b80059a93886ed68a36f697efaf40c609262cca77f88fa819"
+  },
+  "null_run": false,
+  "other_roles_scored": false,
+  "outputs": {
+    "experiments/yolo/gdt384_role_specific_relational_consequence/artifacts/gdt384_priority_coordinator.tsv": "6027381d626586b73dc987f9b6655ebb0054055a1f114259a2d02541b997d194",
+    "experiments/yolo/gdt384_role_specific_relational_consequence/artifacts/gdt384_priority_coordinator_folds.tsv": "71eb000221d3288e4bf048c27e42f335f0944980815afda6ea0f4590a9947c9d",
+    "experiments/yolo/gdt384_role_specific_relational_consequence/artifacts/gdt384_priority_predictions.tsv.gz": "53292e70acac62a8574056f6f7024d3fa6037ee50fc8fda917b6b9e9876e142d"
+  },
+  "priority": {
+    "auc_increment": -5.3710168252396606e-05,
+    "deterministic_overlap_auc": 0.516093964999895,
+    "domain": "PCEEC2",
+    "held_collections": 84,
+    "joint_max_family_p": "NOT_RUN_PREREQUISITE_FAILURE",
+    "n": 27518,
+    "positive_held_collections": 76,
+    "pre_null_gate_pass": 0,
+    "relation_gain_bits": 425.1125255542229,
+    "relation_positives": 2347,
+    "role": "COORDINATOR",
+    "role_auc": 0.9492685808685116,
+    "role_gain_bits": 3148.3678234110203,
+    "role_plus_relation_auc": 0.7977429270877102,
+    "role_positives": 1292,
+    "source_overlap_auc": 0.7977966372559626,
+    "source_relation_auc": 0.7977966372559626
+  },
+  "schema": "GDT384_PRIORITY_RESULT_V1",
+  "stage_a_pass": false,
+  "status": "PRIORITY_RELATION_FAILED_STOP_BEFORE_OTHER_ROLES",
+  "voynich_rows_read": 0,
+  "voynich_stage_b_authorized": false
+}
