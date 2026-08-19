@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "experiment_id": "GDT374",
+  "slug": "common_functional_operator_discovery",
+  "title": "Common functional-operator discovery",
+  "created": "2026-08-19",
+  "updated": "2026-08-19",
+  "status": "FROZEN_NOT_RUN",
+  "question": "Can exact record-level rewrites over atomic GDT327 tuples predict operator classes on unseen physical folios beyond layout and frequency?",
+  "dependencies": ["GDT373", "GDT327"],
+  "commands": {
+    "run": "python3 experiments/yolo/gdt374_common_functional_operator_discovery/src/run.py",
+    "validate": "python3 experiments/yolo/gdt374_common_functional_operator_discovery/src/validate.py"
+  },
+  "sealed_data": {"f84r": "FORBIDDEN", "f84": "FORBIDDEN"},
+  "claim_ceiling": "Anonymous record-conditioned formal rewrite behavior only; no function, morpheme, POS, sound, language, plaintext, meaning, or translation.",
+  "artifact_policy": {"max_inline_bytes": 5000000, "large_artifact_justification": ""},
+  "inputs": [
+    {"path": "gdt327_joint_tuple_interlinear.tsv", "role": "f84-free atomic tuple interlinear"},
+    {"path": "experiments/semantic_assumptions/results/drawing_reset_segment_atlas.tsv", "role": "guarded source-native drawing/reset and separator metadata"},
+    {"path": "experiments/yolo/gdt373_functional_operator_roadmap/artifacts/gdt373_hypothesis_registry.tsv", "role": "pre-search hypothesis registry"}
+  ],
+  "outputs": [
+    {"path": "experiments/yolo/gdt374_common_functional_operator_discovery/METHOD.md", "role": "public method freeze"},
+    {"path": "experiments/yolo/gdt374_common_functional_operator_discovery/artifacts/gdt374_freeze.json", "role": "machine freeze"},
+    {"path": "experiments/yolo/gdt374_common_functional_operator_discovery/artifacts/gdt374_freeze_validation.json", "role": "freeze validation"}
+  ],
+  "validation": {"artifact": "experiments/yolo/gdt374_common_functional_operator_discovery/artifacts/gdt374_freeze_validation.json", "status": "PASS"}
+}
