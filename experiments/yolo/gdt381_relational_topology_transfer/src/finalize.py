@@ -1,0 +1,12 @@
+#!/usr/bin/env python3
+"""Bind the GDT381 comparator lead and target nonpromotion."""
+from __future__ import annotations
+import hashlib,json
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[4];BASE=ROOT/"experiments/yolo/gdt381_relational_topology_transfer";ART=BASE/"artifacts"
+def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+def content(o):q=dict(o);q.pop("content_hash",None);return hashlib.sha256(json.dumps(q,sort_keys=True,separators=(",",":")).encode()).hexdigest()
+def main():
+ c=json.loads((ART/"gdt381_comparator_result.json").read_text());t=json.loads((ART/"gdt381_voynich_result.json").read_text());a=json.loads((ART/"gdt381_target_definition_overlap.json").read_text());v=json.loads((ART/"gdt381_target_validation.json").read_text());assert c["eligible_anonymous_topologies"]==["CMP_TOPOLOGY_04"] and t["promotion"] and a["primary_promotion_honored_as_semantic_or_independent_transfer"] is False and v["status"]=="PASS"
+ result={"schema":"GDT381_FINAL_RESULT_V1","status":"COMPARATOR_TOPOLOGY_SUPPORTED_TARGET_TRANSFER_UNIDENTIFIABLE_DEFINITION_OVERLAP","comparator_topology":"CMP_TOPOLOGY_04","comparator_topology_authorized":True,"voynich_primary_numerical_gate_pass":True,"voynich_behavior_class_promoted":False,"reason":"SOURCE_SIDE_FEATURES_DOMINATE_BOTH_CLASS_DEFINITION_AND_HELD_PREDICTOR","source_side_auc_for_membership":a["source_side_auc_for_frozen_membership"],"source_side_full_logit_correlation":a["source_side_full_logit_correlation"],"formal_realizations_inspected":False,"semantic_state":"UNASSIGNED","inputs":{str(p.relative_to(ROOT)):sha(p) for p in [ART/"gdt381_comparator_result.json",ART/"gdt381_comparator_validation.json",ART/"gdt381_voynich_target_freeze.json",ART/"gdt381_voynich_result.json",ART/"gdt381_target_definition_overlap.json",ART/"gdt381_target_validation.json"]},"documents":{str((BASE/n).relative_to(ROOT)):sha(BASE/n) for n in ["METHOD.md","COMPARATOR_REPORT.md","TARGET_METHOD.md","REPORT.md","README.md","experiment.json"]},"implementation":{str((BASE/"src/finalize.py").relative_to(ROOT)):sha(BASE/"src/finalize.py")},"f84":{"opened":False,"parsed":False,"retained":False,"scored":False},"claim_ceiling":"ONE_COMPARATOR_RELATION_TOPOLOGY_INSTRUMENT_TARGET_NONPROMOTING_NO_FUNCTION_CLASS"};result["content_hash"]=content(result);(ART/"gdt381_result.json").write_text(json.dumps(result,indent=2,sort_keys=True)+"\n")
+if __name__=="__main__":main()

@@ -10054,6 +10054,24 @@ identity-free functional detectors; a future route needs a new independently
 calibrated behavioral representation or genuinely new external structure, not
 another tuple/function relabeling.
 
+GDT381 moved to corpus-local latent context classes and class-label-invariant
+relation topology. One readable-comparator instrument, anonymous
+`CMP_TOPOLOGY_04`, passes held-domain calibration (AUC floor .716304, positive
+gain over nuisance/trivial/equality-deleted baselines in 3/4 domains, max-five
+p=.000488). Its readable coordination provenance is not a Voynich label. The
+frozen f84-free target then produces a literal numerical pass on 8,448 events:
+2,958 members, +2,644.470 bits over nuisance, +210.371 over trivial motifs,
+AUC .916061, 65/86 powered folios and 5/5 registers positive, joint p=.000244.
+However, this target result is nonpromoting: a post-score pre-realization audit
+shows that the conservative source-side portion of the defining comparator
+score alone predicts membership at AUC .895386 and correlates .903827 with the
+full defining logit. The held predictor therefore substantially predicts the
+source-side part of its own class definition rather than an independent
+downstream transformation. No realization identity was inspected and no
+Voynich function class is assigned. A new route must freeze a post-pivot-only
+or source-residualized topology outcome and a disjoint source predictor before
+scoring; GDT381 may not be repaired post hoc.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU
