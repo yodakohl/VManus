@@ -14,6 +14,8 @@ primary reports or change canonical decipherment claims.
 | 34-page flower/berry/explicit-none | GDT364 within-group KU, local p=.0198, +7.029 held bits | maxT p=.793; only 22/34 pages null-mobile |
 | distributed weak-feature model | GDT365 reproductive PCA-4, +2.521 held-folio bits, max-six p=.083 | loses 9.275 bits when whole quires are held out |
 | exact matched berry-minus-flower contrast | GDT366 two opposite-orientation physical folios | delta vectors point oppositely, cosine -.0678; exact p=.760 |
+| co-observed Pharma shape acquisition | GDT367 all 27 localized cells reviewed on three added axes | broad closed form and colored fill are 27/27; only two fork absences |
+| quantitative Pharma geometry | GDT368 `ACA`×terminal-arm CMI .6667 bits/row, complete maxT p=.00293 | direction reverses between the two f99 arrays; LOFO +.753 bits and selector-paid -6.586 |
 
 The local Pharma annotations do not currently rescue a joint cell model.
 Pairwise overlap is only two CONTACT×root-colour loci, six
@@ -25,6 +27,9 @@ negative or imputing them would manufacture the desired joint sample.
 
 The present human/AI annotation corpus does not ground an anonymous formal
 family, a stable distributed page vector, or a local multi-axis label tuple.
+GDT368 shows that postselected count bins can produce a strong within-array
+dependence while assigning the same formal feature to different visual bins in
+different arrays; dependence alone is not a transferable grounding relation.
 Do not mine GDT363–366 loadings, prefixes, or individual families for a new
 gloss. Do not reinterpret the old binary stops as passes.
 
