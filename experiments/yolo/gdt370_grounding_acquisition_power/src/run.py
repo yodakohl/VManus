@@ -201,7 +201,7 @@ def adequate_designs(rows: list[dict[str, object]]) -> list[dict[str, object]]:
 
 def write_tsv(path: Path, rows: list[dict[str, object]]) -> None:
     with path.open("w", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=list(rows[0]))
+        w = csv.DictWriter(f, fieldnames=list(rows[0]), lineterminator="\n")
         w.writeheader()
         for row in rows:
             w.writerow(row)

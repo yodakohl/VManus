@@ -6,10 +6,10 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **359**
-- Experiment-associated tracked files: **4,726** (576.4 MiB)
-- Structured GDT337+ experiments: **24**
-- IDs without a ledger entry: **166**
+- Experiments indexed: **369**
+- Experiment-associated tracked files: **4,886** (577.4 MiB)
+- Structured GDT337+ experiments: **34**
+- IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
 
@@ -20,6 +20,16 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT370 | GDT370_grounding_acquisition_power | `NO_TESTED_DESIGN_REACHES_FROZEN_POWER_GATE` | [report](../experiments/yolo/gdt370_grounding_acquisition_power/REPORT.md) | 13 | 52.4 KiB | 2 | STRUCTURED_YOLO |
+| GDT369 | GDT369_order_preserving_geometry_null | `GDT368_ASSOCIATION_NOT_UNUSUAL_UNDER_ORDER_MATCHED_NULL` | [report](../experiments/yolo/gdt369_order_preserving_geometry_null/REPORT.md) | 11 | 21.9 KiB | 1 | STRUCTURED_YOLO |
+| GDT368 | GDT368_quantitative_component_geometry | `ADJUSTED_ASSOCIATION_DIRECTIONALLY_UNSTABLE` | [report](../experiments/yolo/gdt368_quantitative_component_geometry/REPORT.md) | 25 | 107.1 KiB | 2 | STRUCTURED_YOLO |
+| GDT367 | GDT367_joint_cell_visual_acquisition | `NEW_AXES_INSUFFICIENT_FOR_JOINT_FORMAL_SEARCH` | [report](../experiments/yolo/gdt367_joint_cell_visual_acquisition/REPORT.md) | 13 | 41.0 KiB | 1 | STRUCTURED_YOLO |
+| GDT366 | GDT366_matched_reproductive_delta | `MATCHED_DELTA_NOT_ALIGNED` | [report](../experiments/yolo/gdt366_matched_reproductive_delta/REPORT.md) | 11 | 26.3 KiB | 3 | STRUCTURED_YOLO |
+| GDT365 | GDT365_distributed_visual_formal_signal | `DISTRIBUTED_SIGNAL_LOCAL_OR_UNSTABLE` | [report](../experiments/yolo/gdt365_distributed_visual_formal_signal/REPORT.md) | 13 | 60.0 KiB | 2 | STRUCTURED_YOLO |
+| GDT364 | GDT364_reproductive_structure_joint_atlas | `POSTEXPOSURE_JOINT_ATLAS_COMPLETE_NO_ADJUSTED_SIGNAL` | [report](../experiments/yolo/gdt364_reproductive_structure_joint_atlas/REPORT.md) | 13 | 200.0 KiB | 1 | STRUCTURED_YOLO |
+| GDT363 | GDT363_leaf_margin_formal_atlas | `EXPLORATORY_ATLAS_COMPLETE_NO_ADJUSTED_SIGNAL` | [report](../experiments/yolo/gdt363_leaf_margin_formal_atlas/REPORT.md) | 14 | 330.2 KiB | 0 | STRUCTURED_YOLO |
+| GDT362 | GDT362_remaining_complete_array | `FROZEN_DIRECTION_CONTRADICTED` | [report](../experiments/yolo/gdt362_remaining_complete_array/REPORT.md) | 24 | 56.5 KiB | 2 | STRUCTURED_YOLO |
+| GDT361 | GDT361_AQ_contact_prospective | `FROZEN_DIRECTION_SUPPORTED_EXPLORATORILY` | [report](../experiments/yolo/gdt361_aq_contact_prospective/REPORT.md) | 22 | 60.0 KiB | 2 | STRUCTURED_YOLO |
 | GDT360 | GDT360_existing_annotation_joint_grounding | `EXPLORATORY_SINGLE_CHANNEL_LEADS_ONLY` | [report](../experiments/yolo/gdt360_existing_annotation_joint_grounding/REPORT.md) | 16 | 4.1 MiB | 4 | STRUCTURED_YOLO |
 | GDT359 | GDT359_shirakatsi_bolorak_category | `BOLORAK_CATEGORY_BROADENED_NO_FIGURE_KEY` | [report](../experiments/yolo/gdt359_shirakatsi_bolorak_category/REPORT.md) | 16 | 44.8 KiB | 1 | STRUCTURED_YOLO |
 | GDT358 | GDT358_shirakatsi_bolorak_attribution | `SAME_SURFACE_ANANIA_BOLORAK_ATTRIBUTION_NO_PHASE_OR_SLOT_KEY` | [report](../experiments/yolo/gdt358_shirakatsi_bolorak_attribution/REPORT.md) | 16 | 55.2 KiB | 2 | STRUCTURED_YOLO |
@@ -377,5 +387,5 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 | GDT005 | GDT005 | `UNREGISTERED` | [report](../GDT005_DUPLICATE_AUDIT.md) | 9 | 20.0 KiB | 3 | LEGACY_ROOT |
 | GDT004 | GDT004 | `UNREGISTERED` | [report](../GDT004_EXPLORATORY_MODULE_SHAPE_REPORT.md) | 10 | 40.2 KiB | 2 | LEGACY_ROOT |
 | GDT003 | GDT003 | `UNREGISTERED` | [report](../GDT003_NESTED_HELDOUT_REPORT.md) | 43 | 19.4 MiB | 2 | LEGACY_ROOT |
-| GDT002 | GDT002 | `UNREGISTERED` | [report](../GDT002_ACA_REPLICATION_CAPACITY_REPORT.md) | 97 | 11.8 MiB | 1 | LEGACY_ROOT |
+| GDT002 | GDT002_existing_annotation_route_synthesis | `CURRENT_EXISTING_ANNOTATION_GROUNDING_CAPACITY_EXHAUSTED` | [report](../experiments/yolo/GDT002_EXISTING_ANNOTATION_ROUTE_STATUS.md) | 98 | 11.8 MiB | 1 | LEGACY_ROOT |
 | GDT001 | GDT001 | `UNREGISTERED` | [report](../GDT001_CURRENT_SUMMARY.md) | 305 | 76.2 MiB | 0 | LEGACY_ROOT |

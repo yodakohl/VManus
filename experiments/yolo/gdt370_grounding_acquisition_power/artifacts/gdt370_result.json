@@ -1,0 +1,63 @@
+{
+  "adequate_design_count": 0,
+  "claim_ceiling": "SYNTHETIC_PROSPECTIVE_ACQUISITION_CAPACITY_ONLY",
+  "content_hash": "a6f0f72bcb59d5a4c554c3375335717a7ede1bbe8ff4e509bc6fca58e0ca36db",
+  "current_panel_capacity": {
+    "arrays": 5,
+    "cells": 27,
+    "eligible_for_two_held_folios_plus_multi_folio_discovery": false,
+    "folios": 3,
+    "reason": "Holding two folios leaves one discovery folio; the observed top association reversed in f99 and failed the order-matched null."
+  },
+  "f84_accessed": false,
+  "gate": {
+    "medium_reversing_any_pass_at_most": 0.1,
+    "medium_stable_detection_at_least": 0.8,
+    "null_any_pass_at_most": 0.05
+  },
+  "implementation": {
+    "experiments/yolo/gdt370_grounding_acquisition_power/src/run.py": "fc4f946de29df079c224cc003481f1721bec0f76f57c85bc07a51488227cad8d"
+  },
+  "inputs": {
+    "experiments/yolo/gdt368_quantitative_component_geometry/artifacts/gdt368_result.json": "fcf93fdc6ea0e29606e49c2b2c52ef668470b8121228158316e77818c8ff1b37",
+    "experiments/yolo/gdt369_order_preserving_geometry_null/artifacts/gdt369_result.json": "719e1a7013eaa7d65ce5667c667a0baaa63c62279e10ea46c0136e379e74270d"
+  },
+  "new_images_accessed": 0,
+  "new_voynich_rows_loaded": 0,
+  "outputs": {
+    "experiments/yolo/gdt370_grounding_acquisition_power/artifacts/gdt370_design_thresholds.tsv": "962a49d27118690ee016a71b64ea7b7859fe3083d39a8bf093c7105e3dbe793a",
+    "experiments/yolo/gdt370_grounding_acquisition_power/artifacts/gdt370_power_grid.tsv": "6f6d2fccfc5e0bf7ecd697dbb22af4c781610d9c55fdc47468e8b5ac22d0ddf3"
+  },
+  "question": "How much independent acquisition capacity is needed to distinguish stable grounding from postselected or reversing associations?",
+  "recommended_design": null,
+  "schema": "GDT370_RESULT_V1",
+  "simulation": {
+    "arrays_per_folio": [
+      1,
+      2
+    ],
+    "betas": {
+      "MEDIUM": 0.9,
+      "NULL": 0.0,
+      "STRONG": 1.3,
+      "WEAK": 0.5
+    },
+    "candidate_library": 81,
+    "cells_per_array": [
+      6,
+      9
+    ],
+    "folios": [
+      4,
+      6,
+      8,
+      10,
+      12
+    ],
+    "held_folios": 2,
+    "seed": 37020260819,
+    "selector_cost_bits": 6.339850002884624,
+    "trials_per_design_scenario": 256
+  },
+  "status": "NO_TESTED_DESIGN_REACHES_FROZEN_POWER_GATE"
+}

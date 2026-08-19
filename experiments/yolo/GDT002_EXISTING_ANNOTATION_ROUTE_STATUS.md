@@ -48,3 +48,14 @@ Reopen this route only with one of the following genuinely new capacities:
 The next useful grounding experiment should predict a full anonymous formal
 tuple or distributed profile on that held evidence. More page-wide substring,
 prefix, PCA-loading, or catalogue mining is not warranted. f84 remains sealed.
+
+## GDT370 prospective design calibration
+
+GDT370 quantified that acquisition requirement without opening any new
+Voynich row or image. Under the same 81-way selection burden as GDT368, no
+tested design with only two small held folios reached 80% power for a stable
+medium association. At 12 folios and 216 cells, discovery selected the planted
+rule in 84.8% of trials but the selector-paid two-folio validation succeeded in
+only 7.4%. Null and reversing worlds almost never passed. The next acquisition
+must therefore increase untouched held-evidence capacity, not add another few
+postexposure discovery cells.

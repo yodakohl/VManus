@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "experiment_id": "GDT370",
+  "slug": "grounding_acquisition_power",
+  "title": "Prospective grounding-acquisition power design",
+  "created": "2026-08-19",
+  "updated": "2026-08-19",
+  "status": "NO_TESTED_DESIGN_REACHES_FROZEN_POWER_GATE",
+  "question": "How much independent acquisition capacity is needed to distinguish stable visual-formal grounding from postselected or array-reversing associations?",
+  "dependencies": ["GDT368", "GDT369"],
+  "commands": {
+    "run": "python3 experiments/yolo/gdt370_grounding_acquisition_power/src/run.py",
+    "validate": "python3 experiments/yolo/gdt370_grounding_acquisition_power/src/validate.py"
+  },
+  "sealed_data": {"f84r": "FORBIDDEN", "f84": "FORBIDDEN"},
+  "claim_ceiling": "Synthetic prospective acquisition-capacity calibration only; no Voynich association, object, role, word, language, plaintext, meaning, or translation.",
+  "artifact_policy": {"max_inline_bytes": 5000000, "large_artifact_justification": ""},
+  "inputs": [
+    {"path": "experiments/yolo/gdt368_quantitative_component_geometry/artifacts/gdt368_result.json", "role": "observed postselected association motivation"},
+    {"path": "experiments/yolo/gdt369_order_preserving_geometry_null/artifacts/gdt369_result.json", "role": "observed order-matched falsifier motivation"}
+  ],
+  "outputs": [
+    {"path": "experiments/yolo/gdt370_grounding_acquisition_power/METHOD.md", "role": "public pre-simulation freeze"},
+    {"path": "experiments/yolo/gdt370_grounding_acquisition_power/REPORT.md", "role": "result report"},
+    {"path": "experiments/yolo/gdt370_grounding_acquisition_power/artifacts/gdt370_power_grid.tsv", "role": "complete aggregate simulation grid"},
+    {"path": "experiments/yolo/gdt370_grounding_acquisition_power/artifacts/gdt370_design_thresholds.tsv", "role": "design gate table"},
+    {"path": "experiments/yolo/gdt370_grounding_acquisition_power/artifacts/gdt370_counterexamples.tsv", "role": "counterexample audit"},
+    {"path": "experiments/yolo/gdt370_grounding_acquisition_power/artifacts/gdt370_result.json", "role": "compact bound result"},
+    {"path": "experiments/yolo/gdt370_grounding_acquisition_power/artifacts/gdt370_validation.json", "role": "integrity and gate validation"}
+  ],
+  "validation": {"artifact": "experiments/yolo/gdt370_grounding_acquisition_power/artifacts/gdt370_validation.json", "status": "PASS"}
+}
