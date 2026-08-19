@@ -2,7 +2,15 @@
 
 Date: 2026-08-19
 
-Status: `FROZEN_BEFORE_OPERATOR_SCORING`
+Status: `CORRECTED_FREEZE_BEFORE_AUTHORITATIVE_OPERATOR_SCORING`
+
+The original public freeze used direct `KEEP/SET` marginals for `PLACEMENT`.
+An immediate uncommitted diagnostic run showed that this is an unfair null:
+delta names depend on the source value, so a source-aware model can win even
+when the target value is independently drawn. `CORRECTION.md` records that
+invalidated run. The authoritative V2 instrument below uses one common target-
+coordinate value space for every model and translates predicted target values
+to delta operators only after prediction. No V1 score is evidence.
 
 ## Question
 
@@ -61,12 +69,17 @@ target-derived signature, PAGE_HOST, or target surface characters.
 
 ## Fixed models
 
-All models predict the same six delta components with a product categorical
-code. Global component counts use Jeffreys `0.5`; the layout table is shrunk to
+All models predict the six target-coordinate values with a product categorical
+code, then mechanically translate each predicted target value to `KEEP` or
+`SET:<value>` relative to the known source state. Thus their likelihoods are
+likelihoods of exactly the same delta targets, but all share a fair label space.
+Global target-value counts use Jeffreys `0.5`; the layout table is shrunk to
 global with fixed concentration 64 and source-conditioned tables are shrunk to
 layout with fixed concentration 32. Nothing is tuned on held data.
 
-1. `PLACEMENT`: boundary/layout only.
+1. `PLACEMENT`: target-coordinate marginals from boundary/layout only, mapped
+   to source-relative delta labels after prediction. This is the mandatory
+   independence baseline.
 2. `EXACT_PREDECESSOR`: layout plus exact atomic source `joint_tuple_id`.
 3. `SOURCE_STATE_TABLE`: layout plus the complete six-coordinate source state.
 4. `FACTORIAL_OPERATOR`: for each delta coordinate separately, layout plus only

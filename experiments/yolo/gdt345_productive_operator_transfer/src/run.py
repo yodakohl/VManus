@@ -189,7 +189,7 @@ def build_tables(train: list[dict[str, object]], design: dict[str, object], mode
     contexts: list[dict[tuple, Counter[str]]] = [defaultdict(Counter) for _ in COMPONENTS]
     for edge in train:
         layout = tuple(edge["layout"])
-        for index, label in enumerate(edge["text_delta"]):
+        for index, label in enumerate(edge["target_state"]):
             globals_[index][label] += 1
             layouts[index][layout][label] += 1
             context = model_context(edge, model, index)
@@ -220,12 +220,13 @@ def component_distribution(edge: dict[str, object], tables: dict[str, object], i
 
 def predict(edge: dict[str, object], tables: dict[str, object]) -> tuple[float, tuple[str, ...]] | None:
     bits = 0.0; chosen: list[str] = []
-    for index, truth in enumerate(edge["text_delta"]):
+    for index, truth in enumerate(edge["target_state"]):
         probs = component_distribution(edge, tables, index)
         if truth not in probs:
             return None
         bits -= math.log2(max(1e-300, probs[truth]))
-        chosen.append(min(probs, key=lambda label: (-probs[label], label)))
+        predicted_target = min(probs, key=lambda label: (-probs[label], label))
+        chosen.append("KEEP" if predicted_target == edge["source_state"][index] else f"SET:{predicted_target}")
     return bits, tuple(chosen)
 
 
