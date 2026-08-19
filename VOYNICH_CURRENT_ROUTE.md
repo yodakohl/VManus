@@ -149,18 +149,17 @@ morpheme, plaintext symbol, or semantic role.
   collections. The gated record-level alignment was therefore not run. Retain
   the unseen-pair path gain as a weak formal backoff lead, not a grammar
   equivalence or semantic event path.
-- GDT345 replaces that target-conditioned description with actual held
-  operator selection. Its corrected component marginals save 371.56 LOFO bits
-  over exact predecessor, but add only seven exact recoveries, tie the exact
-  baseline on unseen source-state×operator combinations, reverse in Herbal A,
-  section H and hand 1, and fail max-two `p=.3505`. GDT346 then tests their
-  cross-coordinate compatibility. A sparse graph has a real raw coupling lead
-  (+43.80 bits; max-two `p=.000244`) and repeatedly selects wrapper interactions
-  plus RIGHT_FAMILY↔DY, but loses 759.70 selector-paid bits, leaves top-5
-  unchanged, adds only three exact recoveries, fails held-section transfer, and
-  supplies no paid Herbal-A graph. Retain local renderer/closure coupling and
-  coordinate-wise smoothing only; reject a reusable compositional operator
-  manifold and stop this internal route.
+- GDT345–GDT346 retain coordinate-wise smoothing and local pair coupling, but
+  reject a reusable compositional operator manifold after weak recovery,
+  selector-cost, environment-transfer, and Herbal-A failures. GDT347 freezes
+  the three recurrent pairings and their weights once. They gain 65.48 bits on
+  1,231 transitions from 17 held Voynich folios (56.65 after the one-time cost;
+  `p=.000244`; 13/17 positive), but exact recovery declines 289→287 and no
+  powered native or matched GDT278 control transports. Inner-D↔wrapper carries
+  most of the result (+78.60); RIGHT_FAMILY↔DY adds +5.37, while DY↔wrapper
+  is negative. Because every admitted control has zero inner-D and DY changes,
+  call this manuscript-specific only inside the current formal observation
+  layer, not a unique authorial compiler. The internal operator route stops.
 
 ## Calibration constraints
 
@@ -235,9 +234,8 @@ falsifier:
   on persistent identity alone in readable cross-collection recipe parallels;
 - abstract coordinate-transition paths after GDT344 failed to beat exact
   predecessor tuple identity or calibrate a readable recipe event-path bridge;
-- productive coordinate-operator algebra after corrected GDT345 added only
-  seven exact recoveries and GDT346's raw pair coupling failed selector-paid,
-  held-section, non-wrapper, recovery, and Herbal-A transfer gates;
+- productive coordinate-operator algebra after GDT345–GDT347 failed recovery,
+  cost, transfer, and fully comparable external-control gates;
 - f57/f77 quality, element, process, or lexical assignments.
 
 The complete route memory remains in
@@ -293,6 +291,7 @@ evidence rather than mining another internal string feature.
 - `experiments/semantic_assumptions/grammar/CONFIRMED_GRAMMAR.md`
 - `GDT327_JOINT_TUPLE_INTERLINEAR_REPORT.md`
 - `experiments/yolo/gdt345_productive_operator_transfer/REPORT.md`
+- `experiments/yolo/gdt347_fixed_graph_control_transport/REPORT.md`
 - `GDT330_F84R_METADATA_ACCESS_CORRECTION.md`
 
 Use `experiments/EXPERIMENT_INDEX.tsv` for exact paths, dependencies, runners,

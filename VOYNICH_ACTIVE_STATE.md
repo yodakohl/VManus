@@ -101,6 +101,20 @@ Updated: 2026-08-19. This is the full claim registry. For routine work, read
   grammar. This route stops without semantic alignment, PAGE_HOST
   factorization, tuple merging, morphology, meaning, translation, or f84
   access.
+- GDT347 freezes the three recurrent GDT346 pairings once and transports their
+  exact Voynich-fitted weights to the historical and synthetic GDT278 controls.
+  On 1,231 transitions from 17 held Voynich folios the graph gains 65.48 bits
+  raw and 56.65 after its one-time topology cost (`p=.000244`; 13/17 folios),
+  although exact argmax recovery declines 289→287. No powered native or
+  matched control transports: ordinary text gains only 3.52 bits with `p=1`,
+  Nuremberg diplomatic 1.12 with `p=1`, factorial notation loses 52.18, and B2
+  loses 20.01. The effect is dominated by inner-D↔wrapper (+78.60); the
+  RIGHT_FAMILY↔DY edge adds +5.37 (`p=.00268`), while DY↔wrapper is negative.
+  All controls have zero inner-D and DY changes under the common parser, so the
+  registered outcome is manuscript-specific only within this formal
+  observation layer. It is not evidence for a unique authorial compiler,
+  morphology, language, meaning, or translation. The internal operator route
+  remains closed and f84 remained unaccessed.
 - A frozen synthetic-instrument calibration now limits how opaque PAGE_HOST
   negatives may be interpreted. On one real medieval medical source, a true
   injective 2–3-character concept codebook lost every held

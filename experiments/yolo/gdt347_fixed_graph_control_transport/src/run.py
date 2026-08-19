@@ -14,9 +14,9 @@ def root(p):
 ROOT=root(Path(__file__).resolve());import sys;sys.path.insert(0,str(ROOT))
 from tools.vmanus_experiment import GuardedTSV  # noqa:E402
 EXP=ROOT/'experiments/yolo/gdt347_fixed_graph_control_transport';ART=EXP/'artifacts';METHOD=EXP/'METHOD.md';AUDIT=EXP/'SOURCE_AUDIT.md'
-DESIGN=ART/'gdt347_design.json';FROZEN=ART/'gdt347_frozen_graph.json';CAP=ART/'gdt347_control_capacity.tsv';FREEZEVAL=ART/'gdt347_freeze_validation.json'
+DESIGN=ART/'gdt347_design.json';FROZEN=ART/'gdt347_frozen_graph.json';CAP=ART/'gdt347_control_capacity.tsv';FREEZEVAL=ART/'gdt347_freeze_validation.json';CORRECTION=EXP/'CORRECTION.md'
 G345=ROOT/'experiments/yolo/gdt345_productive_operator_transfer/artifacts/gdt345_transition_inventory.tsv';NATIVE=ROOT/'gdt278_native_event_inventory.tsv';MATCHED=ROOT/'gdt278_matched_event_inventory.tsv';MANIFEST=ROOT/'gdt278_control_manifest.tsv'
-PANELS=ART/'gdt347_panel_scores.tsv';FOLDS=ART/'gdt347_folio_scores.tsv';ENV=ART/'gdt347_environment_scores.tsv';NULL=ART/'gdt347_null.tsv';COUNTER=ART/'gdt347_counterexamples.tsv';RESULT=ART/'gdt347_result.json';REPORT=EXP/'REPORT.md'
+PANELS=ART/'gdt347_panel_scores.tsv';FOLDS=ART/'gdt347_folio_scores.tsv';ENV=ART/'gdt347_environment_scores.tsv';EDGE=ART/'gdt347_edge_scores.tsv';NULL=ART/'gdt347_null.tsv';COUNTER=ART/'gdt347_counterexamples.tsv';RESULT=ART/'gdt347_result.json';REPORT=EXP/'REPORT.md'
 COMP=('local_frame','inner_d','right_family','dy_closure','b3','canonical_wrapper')
 
 def read(p):
@@ -83,11 +83,17 @@ def score_event(e,tables,pairs,phi):
     if any(e['target'][i] not in ps[i] for i in range(6)):return None
     ind_bits=-sum(math.log2(max(1e-300,ps[i][e['target'][i]])) for i in range(6));ind_best=tuple(min(p,key=lambda y:(-p[y],y)) for p in ps)
     active=sorted({i for p in pairs for i in p});inactive=[i for i in range(6) if i not in active];z=0.;bestw=-1.;best=None
-    truth_energy=1.;known=nonneutral=0
+    truth_energy=1.;known=nonneutral=0;pair_gain={};pair_logz={};pair_known={};pair_non={}
     for p in pairs:
         k=(p,e['scope'],e['delta'][p[0]],e['delta'][p[1]])
-        if k in phi:known+=1
-        f=phi.get(k,1.);truth_energy*=f;nonneutral+=int(abs(f-1)>1e-15)
+        pair_known[p]=int(k in phi);known+=pair_known[p]
+        f=phi.get(k,1.);truth_energy*=f;pair_non[p]=int(abs(f-1)>1e-15);nonneutral+=pair_non[p]
+        zp=0.
+        for ya,pa in ps[p[0]].items():
+            da='KEEP' if ya==e['source'][p[0]] else 'SET:'+ya
+            for yb,pb in ps[p[1]].items():
+                db='KEEP' if yb==e['source'][p[1]] else 'SET:'+yb;zp+=pa*pb*phi.get((p,e['scope'],da,db),1.)
+        pair_logz[p]=math.log2(max(1e-300,zp));pair_gain[p]=math.log2(max(1e-300,f))-pair_logz[p]
     for vals in itertools.product(*(tuple(ps[i]) for i in active)):
         target=dict(zip(active,vals));base=math.prod(ps[i][target[i]] for i in active);ds={i:('KEEP' if target[i]==e['source'][i] else 'SET:'+target[i]) for i in active};energy=1.
         for p in pairs:energy*=phi.get((p,e['scope'],ds[p[0]],ds[p[1]]),1.)
@@ -95,21 +101,31 @@ def score_event(e,tables,pairs,phi):
         if w>bestw or (w==bestw and (best is None or vals<best)):bestw,best=w,vals
     gain=math.log2(max(1e-300,truth_energy/max(1e-300,z)));graph_target=list(ind_best)
     for i,v in zip(active,best):graph_target[i]=v
-    return {'ind_bits':ind_bits,'graph_bits':ind_bits-gain,'gain':gain,'ind_hit':int(ind_best==e['target']),'graph_hit':int(tuple(graph_target)==e['target']),'logz':math.log2(max(1e-300,z)),'known':known,'nonneutral':nonneutral}
+    return {'ind_bits':ind_bits,'graph_bits':ind_bits-gain,'gain':gain,'ind_hit':int(ind_best==e['target']),'graph_hit':int(tuple(graph_target)==e['target']),'logz':math.log2(max(1e-300,z)),'known':known,'nonneutral':nonneutral,'pair_gain':pair_gain,'pair_logz':pair_logz,'pair_known':pair_known,'pair_non':pair_non}
 
 def score_panel(edges,train_fixed,pairs,phi,design,fixed_train=False):
-    folds=[];null_events=[]
-    helds=['FROZEN_VOY_TEST'] if fixed_train else sorted({e['folio'] for e in edges})
+    folds=[];null_events=[];envfold=defaultdict(lambda:{'events':0,'gain':0.})
+    helds=sorted({e['folio'] for e in edges})
     for held in helds:
-        train=train_fixed if fixed_train else [e for e in edges if e['folio']!=held];test=edges if fixed_train else [e for e in edges if e['folio']==held]
+        train=train_fixed if fixed_train else [e for e in edges if e['folio']!=held];test=[e for e in edges if e['folio']==held]
         if not train:continue
-        tables=build_tables(train,design);a={'n':0,'ib':0.,'gb':0.,'ih':0,'gh':0,'known':0,'non':0}
+        tables=build_tables(train,design);a={'n':0,'ib':0.,'gb':0.,'ih':0,'gh':0,'known':0,'non':0,'pg':Counter(),'pk':Counter(),'pn':Counter()}
         for e in test:
             s=score_event(e,tables,pairs,phi)
             if s is None:continue
-            a['n']+=1;a['ib']+=s['ind_bits'];a['gb']+=s['graph_bits'];a['ih']+=s['ind_hit'];a['gh']+=s['graph_hit'];a['known']+=s['known'];a['non']+=s['nonneutral'];null_events.append({'held':held,'layout':e['layout'],'scope':e['scope'],'source':e['source'],'delta':e['delta'],'logz':s['logz']})
-        folds.append({'held_folio':held,'events':a['n'],'independent_bits':f"{a['ib']:.9f}",'graph_bits':f"{a['gb']:.9f}",'raw_gain':f"{a['ib']-a['gb']:.9f}",'independent_exact':a['ih'],'graph_exact':a['gh'],'truth_cell_coverage':f"{a['known']/max(1,a['n']*len(pairs)):.9f}",'nonneutral_event_edge_rate':f"{a['non']/max(1,a['n']*len(pairs)):.9f}"})
-    return folds,null_events
+            a['n']+=1;a['ib']+=s['ind_bits'];a['gb']+=s['graph_bits'];a['ih']+=s['ind_hit'];a['gh']+=s['graph_hit'];a['known']+=s['known'];a['non']+=s['nonneutral']
+            for p in pairs:a['pg'][p]+=s['pair_gain'][p];a['pk'][p]+=s['pair_known'][p];a['pn'][p]+=s['pair_non'][p]
+            for split in ('section','register','hand'):
+                q=envfold[(split,e[split],held)];q['events']+=1;q['gain']+=s['gain']
+            null_events.append({'held':held,'layout':e['layout'],'scope':e['scope'],'source':e['source'],'delta':e['delta'],'logz':s['logz'],'pair_logz':s['pair_logz']})
+        row={'held_folio':held,'events':a['n'],'independent_bits':f"{a['ib']:.9f}",'graph_bits':f"{a['gb']:.9f}",'raw_gain':f"{a['ib']-a['gb']:.9f}",'independent_exact':a['ih'],'graph_exact':a['gh'],'truth_cell_coverage':f"{a['known']/max(1,a['n']*len(pairs)):.9f}",'nonneutral_event_edge_rate':f"{a['non']/max(1,a['n']*len(pairs)):.9f}"}
+        for p in pairs:
+            tag=f'{p[0]}_{p[1]}';row[f'pair_{tag}_gain']=f"{a['pg'][p]:.9f}";row[f'pair_{tag}_coverage']=f"{a['pk'][p]/max(1,a['n']):.9f}";row[f'pair_{tag}_nonneutral']=f"{a['pn'][p]/max(1,a['n']):.9f}"
+        folds.append(row)
+    environment=[]
+    for split,value in sorted({(s,v) for s,v,_ in envfold}):
+        xs=[(h,a) for (s,v,h),a in envfold.items() if s==split and v==value];environment.append({'split':split.upper(),'value':value,'folios':len(xs),'events':sum(a['events'] for _,a in xs),'gain':sum(a['gain'] for _,a in xs),'positive_folios':sum(a['gain']>0 for _,a in xs)})
+    return folds,null_events,environment
 
 def null_panel(events,pairs,phi,worlds,seed):
     n=len(events)
@@ -125,7 +141,8 @@ def null_panel(events,pairs,phi,worlds,seed):
             for va,ia in maps[a].items():
                 for vb,ib in maps[b].items():mat[si,ia,ib]=math.log2(max(1e-300,phi.get((p,s,va,vb),1.)))
         mats[p]=mat
-    observed=sum(float(np.sum(mats[p][scope,vals[p[0]],vals[p[1]]])) for p in pairs)-float(np.sum(logz))
+    observed={'combined':sum(float(np.sum(mats[p][scope,vals[p[0]],vals[p[1]]])) for p in pairs)-float(np.sum(logz))}
+    for p in pairs:observed[p]=float(np.sum(mats[p][scope,vals[p[0]],vals[p[1]]]))-sum(e['pair_logz'][p] for e in events)
     groups=[];mobile_idx=set()
     for i in range(6):
         d=defaultdict(list)
@@ -135,18 +152,21 @@ def null_panel(events,pairs,phi,worlds,seed):
             ar=np.array(ids,dtype=np.int32);gs.append(ar)
             if len({int(vals[i][j]) for j in ids})>1:mobile_idx.update(ids)
         groups.append(gs)
-    rows=[];exceed=0;rng=np.random.default_rng(seed);batch=128
+    rows=[];exceed=Counter();rng=np.random.default_rng(seed);batch=128;obsmax=max(observed.values())
     for start in range(0,worlds,batch):
         b=min(batch,worlds-start);lab=[np.tile(v,(b,1)) for v in vals]
         for i in range(6):
             for ids in groups[i]:
                 if len(ids)<2:continue
                 order=np.argsort(rng.random((b,len(ids))),axis=1);lab[i][:,ids]=lab[i][:,ids][np.arange(b)[:,None],order]
-        gain=np.full(b,-float(np.sum(logz)))
-        for p in pairs:gain+=np.sum(mats[p][scope[None,:],lab[p[0]],lab[p[1]]],axis=1)
-        exceed+=int(np.sum(gain>=observed-1e-12))
-        rows.extend({'world':start+i,'gain':f"{v:.9f}"} for i,v in enumerate(gain))
-    return rows,(1+exceed)/(1+worlds),len(mobile_idx)
+        pair_world={p:np.sum(mats[p][scope[None,:],lab[p[0]],lab[p[1]]],axis=1)-sum(e['pair_logz'][p] for e in events) for p in pairs};gain=sum(pair_world.values())+sum(e['pair_logz'][p] for p in pairs for e in events)-float(np.sum(logz));maximum=np.maximum.reduce([gain,*pair_world.values()])
+        exceed['combined']+=int(np.sum(gain>=observed['combined']-1e-12));exceed['max4']+=int(np.sum(maximum>=obsmax-1e-12))
+        for p in pairs:exceed[p]+=int(np.sum(pair_world[p]>=observed[p]-1e-12))
+        for i,v in enumerate(gain):
+            row={'world':start+i,'combined_gain':f"{v:.9f}",'max_four_gain':f"{maximum[i]:.9f}"}
+            for p in pairs:row[f'gain_{p[0]}_{p[1]}']=f"{pair_world[p][i]:.9f}"
+            rows.append(row)
+    pvals={k:(1+exceed[k])/(1+worlds) for k in ['combined','max4',*pairs]};return rows,pvals,len(mobile_idx)
 
 def arch_group(cat):
     if cat in {'REAL_NATURAL_LANGUAGE','REAL_STRUCTURED_NATURAL_LANGUAGE'}:return 'ORDINARY_OR_STRUCTURED_NATURAL_LANGUAGE'
@@ -165,17 +185,17 @@ def main():
         for r in rows:
             if not r['control_id'].startswith('VOYNICH'):by[r['control_id']].append(r)
         for cid,rs in sorted(by.items()):panels.append((view,cid,manifest[cid]['architecture_category'],event_edges(rs,cid,manifest[cid]['architecture_category'],view),[],False))
-    panel_rows=[];fold_rows=[];env_rows=[];all_null=[]
+    panel_rows=[];fold_rows=[];env_rows=[];edge_rows=[];all_null=[]
     for panel_index,(view,cid,arch,edges,fixed_train,is_voy) in enumerate(panels):
-        folds,ne=score_panel(edges,fixed_train,pairs,phi,design,is_voy);n=sum(int(r['events']) for r in folds);ib=sum(float(r['independent_bits']) for r in folds);gb=sum(float(r['graph_bits']) for r in folds);gain=ib-gb;ih=sum(int(r['independent_exact']) for r in folds);gh=sum(int(r['graph_exact']) for r in folds);known=sum(float(r['truth_cell_coverage'])*int(r['events']) for r in folds)/max(1,n);non=sum(float(r['nonneutral_event_edge_rate'])*int(r['events']) for r in folds)/max(1,n)
-        null_rows,p,mobile=null_panel(ne,pairs,phi,int(design['null']['worlds']),int(design['null']['seed'])+panel_index*10000);all_null.extend({'view':view,'control_id':cid,**r} for r in null_rows)
-        comparable=n>=int(design['comparability']['minimum_scored_transitions']) and len({e['folio'] for e in edges})>=int(design['comparability']['minimum_folios']) and mobile>=int(design['comparability']['minimum_null_mobile_transitions']) and non>=float(design['comparability']['minimum_nonneutral_coverage']);transfers=comparable and gain>0 and p<=.05
-        row={'view':view,'control_id':cid,'architecture_category':arch,'architecture_group':arch_group(arch),'source_transitions':len(edges),'scored_transitions':n,'folios':len({e['folio'] for e in edges}),'independent_bits':f"{ib:.9f}",'frozen_graph_bits':f"{gb:.9f}",'raw_gain':f"{gain:.9f}",'selector_bits_once':f"{float(frozen['selector_bits_once']):.9f}",'standalone_cost_adjusted_gain':f"{gain-float(frozen['selector_bits_once']):.9f}",'positive_folios':sum(float(r['raw_gain'])>0 for r in folds),'independent_exact':ih,'graph_exact':gh,'truth_cell_coverage':f"{known:.9f}",'nonneutral_event_edge_rate':f"{non:.9f}",'null_mobile_transitions':mobile,'inclusive_p':f"{p:.9f}",'comparable':int(comparable),'transfers':int(transfers)};panel_rows.append(row)
+        folds,ne,panel_env=score_panel(edges,fixed_train,pairs,phi,design,is_voy);n=sum(int(r['events']) for r in folds);ib=sum(float(r['independent_bits']) for r in folds);gb=sum(float(r['graph_bits']) for r in folds);gain=ib-gb;ih=sum(int(r['independent_exact']) for r in folds);gh=sum(int(r['graph_exact']) for r in folds);known=sum(float(r['truth_cell_coverage'])*int(r['events']) for r in folds)/max(1,n);non=sum(float(r['nonneutral_event_edge_rate'])*int(r['events']) for r in folds)/max(1,n)
+        null_rows,pvals,mobile=null_panel(ne,pairs,phi,int(design['null']['worlds']),int(design['null']['seed'])+panel_index*10000);all_null.extend({'view':view,'control_id':cid,**r} for r in null_rows)
+        comparable=n>=int(design['comparability']['minimum_scored_transitions']) and len({e['folio'] for e in edges})>=int(design['comparability']['minimum_folios']) and mobile>=int(design['comparability']['minimum_null_mobile_transitions']) and non>=float(design['comparability']['minimum_nonneutral_coverage']);transfers=comparable and gain>0 and pvals['combined']<=.05
+        row={'view':view,'control_id':cid,'architecture_category':arch,'architecture_group':arch_group(arch),'source_transitions':len(edges),'scored_transitions':n,'folios':len({e['folio'] for e in edges}),'independent_bits':f"{ib:.9f}",'frozen_graph_bits':f"{gb:.9f}",'raw_gain':f"{gain:.9f}",'selector_bits_once':f"{float(frozen['selector_bits_once']):.9f}",'standalone_cost_adjusted_gain':f"{gain-float(frozen['selector_bits_once']):.9f}",'positive_folios':sum(float(r['raw_gain'])>0 for r in folds),'independent_exact':ih,'graph_exact':gh,'truth_cell_coverage':f"{known:.9f}",'nonneutral_event_edge_rate':f"{non:.9f}",'null_mobile_transitions':mobile,'inclusive_p':f"{pvals['combined']:.9f}",'max_four_p':f"{pvals['max4']:.9f}",'comparable':int(comparable),'transfers':int(transfers)};panel_rows.append(row)
+        for p in pairs:
+            tag=f'{p[0]}_{p[1]}';pg=sum(float(r[f'pair_{tag}_gain']) for r in folds);pc=sum(float(r[f'pair_{tag}_coverage'])*int(r['events']) for r in folds)/max(1,n);pn=sum(float(r[f'pair_{tag}_nonneutral'])*int(r['events']) for r in folds)/max(1,n);edge_rows.append({'view':view,'control_id':cid,'architecture_category':arch,'pair_id':f'{p[0]}-{p[1]}','coordinate_a':COMP[p[0]],'coordinate_b':COMP[p[1]],'events':n,'gain':f"{pg:.9f}",'inclusive_p':f"{pvals[p]:.9f}",'max_four_p':f"{pvals['max4']:.9f}",'truth_cell_coverage':f"{pc:.9f}",'nonneutral_rate':f"{pn:.9f}",'delta_a_changes':sum(e['delta'][p[0]]!='KEEP' for e in ne),'delta_b_changes':sum(e['delta'][p[1]]!='KEEP' for e in ne),'evidence_status':'POSTSCORE_DIAGNOSTIC'})
         for r in folds:fold_rows.append({'view':view,'control_id':cid,'architecture_category':arch,**r})
-        for split in ('section','register','hand'):
-            for value in sorted({e[split] for e in edges}):
-                ids={e['folio'] for e in edges if e[split]==value};fs=[r for r in folds if r['held_folio'] in ids];env_rows.append({'view':view,'control_id':cid,'split':split.upper(),'value':value,'folios':len(ids),'events':sum(int(r['events']) for r in fs),'gain':f"{sum(float(r['raw_gain']) for r in fs):.9f}",'positive_folios':sum(float(r['raw_gain'])>0 for r in fs)})
-    write(PANELS,panel_rows);write(FOLDS,fold_rows);write(ENV,env_rows);write(NULL,all_null)
+        for er in panel_env:env_rows.append({'view':view,'control_id':cid,**er,'gain':f"{er['gain']:.9f}"})
+    write(PANELS,panel_rows);write(FOLDS,fold_rows);write(ENV,env_rows);write(EDGE,edge_rows);write(NULL,all_null)
     primary=[r for r in panel_rows if r['view']=='NATIVE'];voy=next(r for r in primary if r['control_id']=='VOYNICH_FIXED_HOLDOUT');transport=[r for r in primary if r['control_id']!='VOYNICH_FIXED_HOLDOUT' and int(r['transfers'])]
     ordinary=[r for r in transport if r['architecture_group']=='ORDINARY_OR_STRUCTURED_NATURAL_LANGUAGE'];diplomatic=[r for r in transport if r['architecture_group']=='REAL_DIPLOMATIC'];compiler=[r for r in transport if r['architecture_group'] in {'LEARNED_ABBREVIATION','COMPILER_LIKE_SYNTHETIC'}]
     if not int(voy['transfers']):status='GDT346_LOCAL_OVERFITTING'
@@ -188,8 +208,11 @@ def main():
     for r in primary:
         if r['control_id']=='VOYNICH_FIXED_HOLDOUT':continue
         lines.append(f"| {r['control_id']} | {r['architecture_group']} | {r['scored_transitions']} | {float(r['raw_gain']):+.3f} | {r['inclusive_p']} | {r['nonneutral_event_edge_rate']} | {r['comparable']} | {r['transfers']} |")
-    lines+=['',f"Transporting controls: {', '.join(r['control_id'] for r in transport) if transport else 'none'}.",'','The graph was never reselected or refit on a control. Control-specific learning was restricted to the independent-coordinate marginal reference. No semantics, PAGE_HOST factorization, tuple merging, or f84 access occurred.']
+    lines+=['',f"Transporting controls: {', '.join(r['control_id'] for r in transport) if transport else 'none'}.",'','Post-score frozen-edge decomposition (decision-inert):','', '| Panel | Edge | Gain | p | max4 p | delta changes A/B |','|---|---|---:|---:|---:|---:|']
+    for r in edge_rows:
+        if r['view']=='NATIVE':lines.append(f"| {r['control_id']} | {r['coordinate_a']}<->{r['coordinate_b']} | {float(r['gain']):+.3f} | {r['inclusive_p']} | {r['max_four_p']} | {r['delta_a_changes']}/{r['delta_b_changes']} |")
+    lines+=['','The graph was never reselected or refit on a control. Control-specific learning was restricted to the independent-coordinate marginal reference. The held Voynich benefit is distributional: exact argmax recovery declines by two. More importantly, every admitted control has zero inner-D and zero DY changes under the frozen observation parser. The status therefore means manuscript-specific within this coordinate observation layer; it does not show that ordinary writing lacks an unobserved analogous mechanism. No semantics, PAGE_HOST factorization, tuple merging, or f84 access occurred.']
     REPORT.write_text('\n'.join(lines)+'\n')
-    outputs={str(p.relative_to(ROOT)):sha(p) for p in (PANELS,FOLDS,ENV,NULL,COUNTER,REPORT)};inputs={str(p.relative_to(ROOT)):sha(p) for p in (METHOD,AUDIT,DESIGN,FROZEN,CAP,FREEZEVAL,G345,NATIVE,MATCHED,MANIFEST)}
+    outputs={str(p.relative_to(ROOT)):sha(p) for p in (PANELS,FOLDS,ENV,EDGE,NULL,COUNTER,REPORT)};inputs={str(p.relative_to(ROOT)):sha(p) for p in (METHOD,AUDIT,CORRECTION,DESIGN,FROZEN,CAP,FREEZEVAL,G345,NATIVE,MATCHED,MANIFEST)}
     result={'schema':'GDT347_RESULT_V1','date':'2026-08-19','status':status,'frozen_topology':frozen['topology'],'selector_bits_once':frozen['selector_bits_once'],'voynich':voy,'native_transport_controls':[r['control_id'] for r in transport],'panels':panel_rows,'semantics':'UNASSIGNED','page_host_factorizations':0,'tuple_merges':0,'f84':{'opened':False,'parsed':False,'retained':False,'joined':False,'scored':False},'claim_ceiling':'Portability of three frozen formal coordinate couplings only; no authorial grammar morphology semantics word language plaintext translation or f84 result.','inputs':inputs,'outputs':outputs,'implementation':{str(Path(__file__).resolve().relative_to(ROOT)):sha(Path(__file__).resolve())}};result['content_sha256']=content(result);RESULT.write_bytes(canon(result));print(status,'voy_gain',voy['raw_gain'],'p',voy['inclusive_p'],'controls',len(transport));return 0
 if __name__=='__main__':raise SystemExit(main())
