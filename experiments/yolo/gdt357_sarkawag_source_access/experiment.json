@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "experiment_id": "GDT357",
+  "slug": "sarkawag_source_access",
+  "title": "Sarkawag critical-edition and public-witness access audit",
+  "created": "2026-08-19",
+  "updated": "2026-08-19",
+  "status": "CRITICAL_EDITION_RECOVERED_NO_FOLIO_KEY_OR_PUBLIC_PARALLEL",
+  "question": "Does the recovered 1956 edition or a public parallel witness supply the missing LJS 443 folio-specific slot key?",
+  "dependencies": ["GDT354", "GDT355", "GDT356"],
+  "commands": {
+    "run": "python3 experiments/yolo/gdt357_sarkawag_source_access/src/run.py",
+    "validate": "python3 experiments/yolo/gdt357_sarkawag_source_access/src/validate.py"
+  },
+  "sealed_data": {"f84r": "FORBIDDEN", "f84": "FORBIDDEN"},
+  "claim_ceiling": "Recovered critical edition plus negative public-key capacity; no diagram identity, slot values, Armenian origin or authorship for Voynich, language, plaintext, meaning, or translation.",
+  "artifact_policy": {"max_inline_bytes": 5000000, "large_artifact_justification": ""},
+  "inputs": [
+    {"path": "experiments/yolo/gdt356_ljs443_work_attribution/artifacts/gdt356_result.json", "role": "prior external work-attribution audit", "sha256": "ed519250981e27a0b93c237c0bb61f0753deb57c7620b793997fa939e96339a4"}
+  ],
+  "outputs": [
+    {"path": "experiments/yolo/gdt357_sarkawag_source_access/README.md", "role": "experiment entry point", "sha256": "998d781a51f31b5ceb1b63939883a3bca64f409e4805a92e668f3074abd62817"},
+    {"path": "experiments/yolo/gdt357_sarkawag_source_access/METHOD.md", "role": "external source-access method", "sha256": "54faa1a4e3e26aba2fee3dee12ba432d3d06c2791a2f02a9495a6068ddbfcd26"},
+    {"path": "experiments/yolo/gdt357_sarkawag_source_access/SOURCE_AUDIT.md", "role": "critical edition and public witness audit", "sha256": "c4ea46529a69a8d661c49085da68a42cc0becd07c3dd23f8c48a7579dfad6dfb"},
+    {"path": "experiments/yolo/gdt357_sarkawag_source_access/REPORT.md", "role": "bounded source-capacity report", "sha256": "27138c04dfb7542ca5def3b3529dc666ebbd614010f535c545da021fa9228441"},
+    {"path": "experiments/yolo/gdt357_sarkawag_source_access/artifacts/README.md", "role": "artifact guide", "sha256": "701cfd8b28c58223c7abf5ddfb35f2c166bc2a90ce47ac309ce3df4d2f265fdc"},
+    {"path": "experiments/yolo/gdt357_sarkawag_source_access/artifacts/gdt357_counterexamples.tsv", "role": "explicit limits", "sha256": "34dd0485894e046825d9a03d027f94445d3e4cf9bde28b22efc1d5f9703f0b05"},
+    {"path": "experiments/yolo/gdt357_sarkawag_source_access/artifacts/gdt357_edition_visual_audit.tsv", "role": "direct no-OCR edition observations", "sha256": "f0b102cf411cd2e125641653d5bbff2eaaac26ccb68d201f158bb438dae1ebd3"},
+    {"path": "experiments/yolo/gdt357_sarkawag_source_access/artifacts/gdt357_external_sources.tsv", "role": "external source bindings", "sha256": "573e861ffcc66a0d698b302e8905ccccac23e5108455d296629ce4f9d606222e"},
+    {"path": "experiments/yolo/gdt357_sarkawag_source_access/artifacts/gdt357_key_capacity.tsv", "role": "slot-key capacity decisions", "sha256": "29c77f390cfdc0818bf1f49a073839ad6a629ea0913e18ac97a326112f4e9c4a"},
+    {"path": "experiments/yolo/gdt357_sarkawag_source_access/artifacts/gdt357_witness_access.tsv", "role": "public witness availability", "sha256": "a75989e8d44ac3554010ed0f43e296cb688a3db64b1ecac2bba7f5adea46a655"},
+    {"path": "experiments/yolo/gdt357_sarkawag_source_access/artifacts/gdt357_result.json", "role": "compact result and bindings", "sha256": "70cd774561b1c168a9d37b3653cf1ac92ace4ec7244b320eb41425dc9399ffc7"},
+    {"path": "experiments/yolo/gdt357_sarkawag_source_access/artifacts/gdt357_validation.json", "role": "nonimporting validation", "sha256": "0a982b70133a8ef50b029ca5f0edccd47f5d992782db24b3b3616345fcce21a3"},
+    {"path": "experiments/yolo/gdt357_sarkawag_source_access/src/run.py", "role": "deterministic producer", "sha256": "598938dde215562ba5f4b757c9e0bb5a256fd70a49d07bb8a887fa8c22440d0b"},
+    {"path": "experiments/yolo/gdt357_sarkawag_source_access/src/validate.py", "role": "nonimporting validator", "sha256": "46f674a5ade9dce23edffebf4897b89a3f7b49502b18f4b3f0fb38508da1e124"}
+  ],
+  "validation": {"artifact": "experiments/yolo/gdt357_sarkawag_source_access/artifacts/gdt357_validation.json", "status": "PASS"}
+}

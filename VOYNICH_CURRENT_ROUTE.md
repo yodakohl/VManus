@@ -284,6 +284,7 @@ productive operator manifold.
 
 If no new external endpoint exists, improve instrumentation or acquire new
 evidence rather than mining another internal string feature.
+The recovered Sarkawag edition/index route is exhausted without a slot key; require a specialist concordance or genuinely different external endpoint.
 
 ## Primary routing references
 

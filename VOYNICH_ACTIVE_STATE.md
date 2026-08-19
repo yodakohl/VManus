@@ -214,6 +214,13 @@ Updated: 2026-08-19. This is the full claim registry. For routine work, read
   folio concordance, eight values, start, or direction. Search the Hovhannēs
   commentary tradition specifically; do not infer an eight-phase lunar table.
   No Voynich image, transcription, formal payload, or f84 material was accessed.
+- GDT357 recovers and directly audits the full 382-surface Abrahamyan 1956
+  critical edition without OCR. Its reproduced figures and printed pp.159–190
+  supply no concordance or slot key for LJS 443 209r–210r. The 2,579-row public
+  Armenian-manuscript index contains LJS 443 but not the cited MM 1973 or MM
+  1999 witnesses. Close this edition/index acquisition route; reopen only with
+  a specialist concordance, readable parallel witness, or authored slot key.
+  No Voynich image, transcription, formal payload, or f84 material was accessed.
 - A frozen synthetic-instrument calibration now limits how opaque PAGE_HOST
   negatives may be interpreted. On one real medieval medical source, a true
   injective 2–3-character concept codebook lost every held
