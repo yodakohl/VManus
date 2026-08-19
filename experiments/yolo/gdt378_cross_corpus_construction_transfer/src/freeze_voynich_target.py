@@ -13,6 +13,7 @@ ART = BASE / "artifacts"
 SOURCE = ROOT / "gdt327_joint_tuple_interlinear.tsv"
 SIGNATURES = ART / "gdt378_secondary_transfer_signature_freeze.json"
 METHOD = BASE / "TARGET_METHOD.md"
+SCORER = BASE / "src/run_voynich_target.py"
 
 
 def sha(path):
@@ -69,7 +70,10 @@ def main():
             str(SIGNATURES.relative_to(ROOT)): sha(SIGNATURES),
         },
         "documents": {str(METHOD.relative_to(ROOT)): sha(METHOD)},
-        "implementation": {str(Path(__file__).relative_to(ROOT)): sha(Path(__file__))},
+        "implementation": {
+            str(Path(__file__).relative_to(ROOT)): sha(Path(__file__)),
+            str(SCORER.relative_to(ROOT)): sha(SCORER),
+        },
         "claim_ceiling": "ANONYMOUS_MULTI_RESOLUTION_CONSTRUCTION_TRANSFER_ONLY",
     }
     freeze["content_hash"] = content(freeze)
