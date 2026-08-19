@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "experiment_id": "GDT359",
+  "slug": "shirakatsi_bolorak_category",
+  "title": "Shirakatsi bolorak category audit",
+  "created": "2026-08-19",
+  "updated": "2026-08-19",
+  "status": "BOLORAK_CATEGORY_BROADENED_NO_FIGURE_KEY",
+  "question": "Does published Shirakatsi scholarship use bolorak vocabulary for distinct diagram topologies, and does any source key the Penn eight-compartment surface?",
+  "dependencies": ["GDT358"],
+  "commands": {
+    "run": "python3 experiments/yolo/gdt359_shirakatsi_bolorak_category/src/run.py",
+    "validate": "python3 experiments/yolo/gdt359_shirakatsi_bolorak_category/src/validate.py"
+  },
+  "sealed_data": {"f84r": "FORBIDDEN", "f84": "FORBIDDEN"},
+  "claim_ceiling": "Published Shirakatsi bolorak vocabulary spans distinct circular/table topologies; no exact Penn function, eight phases, slot key, independent witness, Voynich alignment, Armenian origin/authorship, language, plaintext, meaning, or translation.",
+  "artifact_policy": {"max_inline_bytes": 5000000, "large_artifact_justification": ""},
+  "inputs": [
+    {"path": "experiments/yolo/gdt358_shirakatsi_bolorak_attribution/artifacts/gdt358_result.json", "role": "prior exact-surface attribution audit", "sha256": "a3db45460634e58170ce693ddfe3f32d58df9445054612af91b6ac5e9524fd75"}
+  ],
+  "outputs": [
+    {"path": "experiments/yolo/gdt359_shirakatsi_bolorak_category/README.md", "role": "experiment entry point", "sha256": "aa0de7b9388eef706c8be562d898839ed6320dd8545c2cb8ebbf46f90110a3ed"},
+    {"path": "experiments/yolo/gdt359_shirakatsi_bolorak_category/METHOD.md", "role": "external category-audit method", "sha256": "78f21151f0fa1cf4a93de2a35c1acb521c024d4a18ea5c5c26a7d8e6fe64eb15"},
+    {"path": "experiments/yolo/gdt359_shirakatsi_bolorak_category/SOURCE_AUDIT.md", "role": "source and caption audit", "sha256": "68a43ae71052996cf5f3504fe6fe26e4d439fa0200d9bcb0eb651601028b2611"},
+    {"path": "experiments/yolo/gdt359_shirakatsi_bolorak_category/REPORT.md", "role": "bounded result report", "sha256": "6434186b8787da057803b33725f216906eb78118ab2d3e73a95723d4ccd348d9"},
+    {"path": "experiments/yolo/gdt359_shirakatsi_bolorak_category/artifacts/README.md", "role": "artifact guide", "sha256": "0e9580f5b2883fd9747d3b8634cf06c3404bc2ff7b64231ef82348ff710ee9b0"},
+    {"path": "experiments/yolo/gdt359_shirakatsi_bolorak_category/artifacts/gdt359_external_sources.tsv", "role": "external source manifest", "sha256": "b9e119317624eb0ae0e6444c31e01e156e87abd2098806430ad5d19ccd29a715"},
+    {"path": "experiments/yolo/gdt359_shirakatsi_bolorak_category/artifacts/gdt359_visual_census.tsv", "role": "direct visual observations", "sha256": "95d5c9c0847508b015f27544297cad834a077fb1c7cd16679ca1a545f4240cfb"},
+    {"path": "experiments/yolo/gdt359_shirakatsi_bolorak_category/artifacts/gdt359_term_comparison.tsv", "role": "caption terminology comparison", "sha256": "5e30a2892d126cdb394ad1bca9c8742d094397442872993f5382b98778ccdb40"},
+    {"path": "experiments/yolo/gdt359_shirakatsi_bolorak_category/artifacts/gdt359_attribution_caveats.tsv", "role": "bounded attribution warnings", "sha256": "b419349fc3584d7d41d351f1d7865f4b45b57b908c6d45e43cd079287a14356e"},
+    {"path": "experiments/yolo/gdt359_shirakatsi_bolorak_category/artifacts/gdt359_key_capacity.tsv", "role": "figure-key capacity decisions", "sha256": "80db9e86b6201cfa351341698b8756964f974d5c2373dc8ff0d0a8b9b3757f8c"},
+    {"path": "experiments/yolo/gdt359_shirakatsi_bolorak_category/artifacts/gdt359_counterexamples.tsv", "role": "explicit falsifiers", "sha256": "e2fe9b0905c6b57a93c3a83556d0e5d5f255aa28407c22ae15d4cc32f178b48c"},
+    {"path": "experiments/yolo/gdt359_shirakatsi_bolorak_category/artifacts/gdt359_result.json", "role": "compact result and bindings", "sha256": "24d322dd2f8366a879788a3e33caebe3cdb08d842ddfe6028a975f58cd0f22c5"},
+    {"path": "experiments/yolo/gdt359_shirakatsi_bolorak_category/artifacts/gdt359_validation.json", "role": "nonimporting validation", "sha256": "08033b859b70cb55ace79a4b08972534dd06e84511a7f166c74c47fb2b4f0c4b"},
+    {"path": "experiments/yolo/gdt359_shirakatsi_bolorak_category/src/run.py", "role": "deterministic producer", "sha256": "cc11b08b1c05e59d9797c95ea29de97a067c4877525f32dc5f07559ff916996c"},
+    {"path": "experiments/yolo/gdt359_shirakatsi_bolorak_category/src/validate.py", "role": "nonimporting validator", "sha256": "545c0280efb4612efdc2fee249e87eaa1859d10947638097c385edea649dc675"}
+  ],
+  "validation": {"artifact": "experiments/yolo/gdt359_shirakatsi_bolorak_category/artifacts/gdt359_validation.json", "status": "PASS"}
+}

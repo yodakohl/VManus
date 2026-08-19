@@ -232,6 +232,18 @@ Updated: 2026-08-19. This is the full claim registry. For routine work, read
   attribution but do not call it an eight-phase diagram or align a Voynich
   target. No Voynich image, transcription, formal payload, or f84 material was
   accessed.
+- GDT359 shows that the attribution word is not a topology key. A complete
+  visual census of the 75-surface 1958 scholarly monograph finds a visibly
+  different concentric annular grid captioned `Շիրակացու տոմարական
+  բոլորակներից մեկը` (one of Shirakatsi's calendrical boloraks), plus another
+  distinct concentric astronomical figure and no exact Penn wheel. Thus the
+  same *bolorak* vocabulary spans distinct circular/table layouts. The 1962
+  lunar-cycle edition is bibliographically verified but its exact scan was not
+  acquired; Tumanian's 1971 correction of two other attributions is a warning,
+  not a refutation of the Penn caption. Retain only a broad tradition/category
+  attribution; no function, eight phases, values, start, direction, order, or
+  alignment follows. No Voynich image, transcription, formal payload, or f84
+  material was accessed.
 - A frozen synthetic-instrument calibration now limits how opaque PAGE_HOST
   negatives may be interpreted. On one real medieval medical source, a true
   injective 2–3-character concept codebook lost every held

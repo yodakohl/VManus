@@ -1,9 +1,7 @@
 # Voynich current route
 
-Updated: 2026-08-19. This is the compact authoritative routing snapshot.
-Read it before Voynich work. Use `experiments/EXPERIMENT_INDEX.tsv` to locate
-the named primary report. Consult `VOYNICH_ACTIVE_STATE.md` and the full active
-ledger only for claim-detail audits, corrections, or historical reconstruction.
+Updated: 2026-08-19. Use `experiments/EXPERIMENT_INDEX.tsv` for primary reports; consult the
+active state and ledger only for claim-detail audits or historical reconstruction.
 
 ## Scientific ceiling
 
@@ -186,6 +184,8 @@ morpheme, plaintext symbol, or semantic role.
   compartments are not specific to eight. GDT356 assigns the pages to the
   Hovhannēs Sarkawag calendar commentary, but no external values/order, target
   phase, or held folio exists; no Voynich formal payload was opened or scored.
+- GDT358–359 recover a real exact-surface Shirakatsi *bolorak* attribution, but
+  the same term labels a different 1958 grid; it is not an eight-compartment key.
 - The exposed f57/f77 quality/element decoder was withdrawn after
   look-elsewhere and transfer failures (GDT182–GDT202).
 - Recurrent formulas and universal tuples are retrieval candidates only. Their
@@ -244,9 +244,9 @@ ledger. Use those files for a proposed-route duplicate audit, not on every turn.
 
 ## Next useful route
 
-1. Do not score the GDT337/GDT354–358 near-match. Search the exact-surface
-   Shirakatsi attribution and independent witnesses for a figure-specific
-   function and authored values/order; target phase/replication remain absent.
+1. Do not score the GDT337/GDT354–359 near-match. Reopen only with the exact
+   1962 lunar edition, a specialist concordance, an independent readable
+   witness, or authored values/order; target phase and replication remain absent.
 2. Acquire one genuinely new target relation: either a second independently
    ordered 28-slot folio, a text-blind zodiac band/start key plus a disjoint-
    folio repeated topology, or singular homologous slots on at least two
