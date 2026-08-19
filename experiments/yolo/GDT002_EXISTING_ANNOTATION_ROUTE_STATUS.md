@@ -68,3 +68,13 @@ therefore impractical for most finite diagram classes. The next useful
 capacity question is how much a genuinely external pre-specification of one or
 a few comparisons reduces the required panel, not another internal feature or
 annotation-axis search.
+
+GDT372 answers that question. On a fixed 384-cell design, medium-effect
+detection rises from 39.1% with 81 searched candidates to 75.8% with three
+externally frozen candidates, while the three-candidate null and reversing
+pass rates remain 3.9% and 2.7%. A nominal one-candidate likelihood gate is too
+permissive (17.2% null passes), so external nomination must still carry an
+explicit matched null. The practical next endpoint must therefore freeze about
+one to three comparisons externally and supply disjoint-folio arrays; the
+current inventory supplies neither. No further internal atlas expansion is
+warranted.

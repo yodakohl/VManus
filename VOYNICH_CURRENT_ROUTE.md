@@ -195,6 +195,14 @@ morpheme, plaintext symbol, or semantic role.
 - A future semantic step requires an independently owned repeated referent,
   readable parallel, or other external endpoint that was not selected from the
   Voynich strings being tested.
+- GDT370–372 quantify the capacity consequence. Under an 81-way visual×formal
+  search, even 20 folios/480 simulated cells reach only 67.2% detection for a
+  medium heterogeneous relation. At 384 cells, freezing three candidates
+  externally raises detection from 39.1% (81 candidates) to 75.8% while
+  controlling null/reversing worlds. A single nominated comparison still
+  needs a matched null. Future grounding should admit roughly one to three
+  externally specified comparisons with multiple complete held folios;
+  internal atlas expansion is not the live route.
 
 ## Sealed material and source handling
 

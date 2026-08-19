@@ -276,6 +276,15 @@ Updated: 2026-08-19. This is the full claim registry. For routine work, read
   do not rescue it with internal substrings, alternate prefixes, recoding, or
   exclusions. This does not invalidate AQ as a formal family and supplies no
   role, meaning, language, plaintext, translation, or f84 access.
+- GDT370–372 turn the qualitative acquisition failure into a prospective
+  capacity constraint without opening any Voynich row or image. Under an
+  81-way search, even 20 folios/480 synthetic cells detect a medium stable
+  relation in only 67.2% of trials. On a fixed 384-cell design, reducing the
+  externally frozen family from 81 candidates to three raises detection from
+  39.1% to 75.8%, with null/reversing pass below 4%. One candidate without a
+  matched null is still too permissive. The next grounding route therefore
+  requires roughly one to three externally frozen comparisons plus disjoint
+  held-folio arrays, not more internal feature mining.
 - A frozen synthetic-instrument calibration now limits how opaque PAGE_HOST
   negatives may be interpreted. On one real medieval medical source, a true
   injective 2–3-character concept codebook lost every held
