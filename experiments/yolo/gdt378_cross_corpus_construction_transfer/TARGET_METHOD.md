@@ -44,7 +44,7 @@ record.
 The strong placement baseline is learned on non-held folios and conditions on
 section, register, Currier, hand, record-length bucket, record-ordinal quartile,
 physical-line position, within-field position, unit-length bucket and
-training-only opaque-ID recurrence bucket. A fixed hierarchy backs off only by
+closure class, plus the training-only opaque-ID recurrence bucket. A fixed hierarchy backs off only by
 dropping hand, then Currier, then section; it never uses candidate outcomes
 from the held folio. The scored residual is frozen-signature score minus this
 placement expectation.
@@ -74,6 +74,8 @@ frequency, folio coverage, layout opportunities and sizes remain fixed. One
 world maximum charges all four signatures, all four resolutions, every powered
 candidate, all five slot families, and both positive and negative tails. Null
 mobility is reported; a low-capacity null cannot promote a result.
+The frozen capacity minimum is 256 mobile events and 10% of the scored events
+at that resolution; both must be met.
 
 ## Claim ceiling
 

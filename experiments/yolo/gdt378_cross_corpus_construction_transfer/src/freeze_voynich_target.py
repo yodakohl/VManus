@@ -58,6 +58,8 @@ def main():
         "minimum_positive_residual_registers": 2,
         "candidate_shrinkage": 16,
         "null_worlds": 4096,
+        "null_minimum_mobile_events": 256,
+        "null_minimum_mobile_fraction": .10,
         "max_family_p_max": .05,
         "null_scope": "TWO_SIDED_MAX_ALL_SIGNATURES_RESOLUTIONS_CANDIDATES_AND_SLOT_FAMILIES",
         "voynich_scored": False,
