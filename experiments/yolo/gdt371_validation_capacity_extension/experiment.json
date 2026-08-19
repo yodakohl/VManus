@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "experiment_id": "GDT371",
+  "slug": "validation_capacity_extension",
+  "title": "Untouched-validation capacity extension",
+  "created": "2026-08-19",
+  "updated": "2026-08-19",
+  "status": "NO_TESTED_DESIGN_REACHES_EXTENDED_GATE",
+  "question": "Does increasing untouched folio and cell capacity make an 81-way medium visual-formal relation prospectively detectable?",
+  "dependencies": ["GDT370"],
+  "commands": {
+    "run": "python3 experiments/yolo/gdt371_validation_capacity_extension/src/run.py",
+    "validate": "python3 experiments/yolo/gdt371_validation_capacity_extension/src/validate.py"
+  },
+  "sealed_data": {"f84r": "FORBIDDEN", "f84": "FORBIDDEN"},
+  "claim_ceiling": "Synthetic prospective acquisition capacity only; no Voynich association, role, word, language, plaintext, meaning, or translation.",
+  "artifact_policy": {"max_inline_bytes": 5000000, "large_artifact_justification": ""},
+  "inputs": [{"path": "experiments/yolo/gdt370_grounding_acquisition_power/artifacts/gdt370_result.json", "role": "frozen capacity calibration motivating the extension"}],
+  "outputs": [
+    {"path": "experiments/yolo/gdt371_validation_capacity_extension/METHOD.md", "role": "public pre-simulation freeze"},
+    {"path": "experiments/yolo/gdt371_validation_capacity_extension/REPORT.md", "role": "result report"},
+    {"path": "experiments/yolo/gdt371_validation_capacity_extension/artifacts/gdt371_power_grid.tsv", "role": "complete aggregate grid"},
+    {"path": "experiments/yolo/gdt371_validation_capacity_extension/artifacts/gdt371_design_thresholds.tsv", "role": "design gate table"},
+    {"path": "experiments/yolo/gdt371_validation_capacity_extension/artifacts/gdt371_counterexamples.tsv", "role": "counterexample audit"},
+    {"path": "experiments/yolo/gdt371_validation_capacity_extension/artifacts/gdt371_result.json", "role": "compact result"},
+    {"path": "experiments/yolo/gdt371_validation_capacity_extension/artifacts/gdt371_validation.json", "role": "validation"}
+  ],
+  "validation": {"artifact": "experiments/yolo/gdt371_validation_capacity_extension/artifacts/gdt371_validation.json", "status": "PASS"}
+}

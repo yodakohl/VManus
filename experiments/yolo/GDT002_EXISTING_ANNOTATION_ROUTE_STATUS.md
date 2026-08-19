@@ -59,3 +59,12 @@ rule in 84.8% of trials but the selector-paid two-folio validation succeeded in
 only 7.4%. Null and reversing worlds almost never passed. The next acquisition
 must therefore increase untouched held-evidence capacity, not add another few
 postexposure discovery cells.
+
+GDT371 extended that calibration to as many as 20 folios and 480 cells. The
+medium stable rule was selected in 96.1% of trials and had positive median paid
+gain, but full detection reached only 67.2%; a strong effect reached 87.1%.
+Null and reversing worlds remained suppressed. Broad 81-way atlas discovery is
+therefore impractical for most finite diagram classes. The next useful
+capacity question is how much a genuinely external pre-specification of one or
+a few comparisons reduces the required panel, not another internal feature or
+annotation-axis search.

@@ -1,0 +1,57 @@
+{
+  "adequate_design_count": 0,
+  "claim_ceiling": "SYNTHETIC_PROSPECTIVE_ACQUISITION_CAPACITY_ONLY",
+  "content_hash": "d6c06bb9a1fb69e1a811ad7ca95e0c1742a47b91a2519e2439d2aae8c77beffd",
+  "f84_accessed": false,
+  "gate": {
+    "held_positive_fraction": 0.75,
+    "medium_reversing_any_pass_at_most": 0.1,
+    "medium_stable_detection_at_least": 0.8,
+    "minimum_positive_held_folios": 2,
+    "null_any_pass_at_most": 0.05
+  },
+  "implementation": {
+    "experiments/yolo/gdt371_validation_capacity_extension/src/run.py": "40c758abd689e534b58fd6fc47b77b1a2ecee6557df6ff5a40a78e0a3a9edb2a"
+  },
+  "inputs": {
+    "experiments/yolo/gdt370_grounding_acquisition_power/artifacts/gdt370_result.json": "1c13ccf4c1918d10bc51d5e945d34c0ddc68b93145be81392b7bba73f5f75222"
+  },
+  "new_images_accessed": 0,
+  "new_voynich_rows_loaded": 0,
+  "outputs": {
+    "experiments/yolo/gdt371_validation_capacity_extension/artifacts/gdt371_design_thresholds.tsv": "3c7079ed46ee6d45609a1ed8b6c3cb3d272b588daae358e3017f8d6eeec4a597",
+    "experiments/yolo/gdt371_validation_capacity_extension/artifacts/gdt371_power_grid.tsv": "3795d35d6dfd7baffc7e532f7918c5c11dedcf9b7da1953b5b91aef6acf4d8f5"
+  },
+  "recommended_design": null,
+  "schema": "GDT371_RESULT_V1",
+  "simulation": {
+    "arrays_per_folio": [
+      1,
+      2
+    ],
+    "candidate_library": 81,
+    "cells_per_array": [
+      6,
+      9,
+      12
+    ],
+    "discovery_folios": [
+      4,
+      6,
+      8,
+      10,
+      12
+    ],
+    "held_folios": [
+      2,
+      4,
+      6,
+      8,
+      10
+    ],
+    "seed": 37120260819,
+    "selector_cost_bits": 6.339850002884624,
+    "trials": 256
+  },
+  "status": "NO_TESTED_DESIGN_REACHES_EXTENDED_GATE"
+}
