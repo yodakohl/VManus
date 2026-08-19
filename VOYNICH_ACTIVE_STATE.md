@@ -10124,6 +10124,20 @@ links, or paired propositions—not parse topology already recoverable from the
 source representation. No latent role, coordination, POS, meaning, language,
 plaintext, translation, or f84 access follows.
 
+GDT385 is now frozen as the next comparator-only repair. It replaces
+parse-topology outcomes with CoReMA's explicit editor parent links. A recovered
+opaque role must improve whole-collection-held prediction of `NONE` versus the
+exact backward physical-element distance to the linked parent instruction.
+The source side remains the frozen GDT382 composite observation through the
+pivot; parent ordinals, instruction roles, concepts and labels are hidden
+outcomes only. Four routes (REF, TIME, ALTERNATIVE and exclusion in the hidden
+comparator oracle) are jointly charged, with REF priority. Mechanical capacity
+is 26,169 eligible pivots, 11,415 strict observable links, and 97/237/324/201
+role-specific links across all six collections. No relation score was inspected
+before freeze. Voynich access remains locked unless the comparator parent-link
+instrument passes its published gate; no comparator label transfers to
+Voynich, and f84 remains sealed.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU
