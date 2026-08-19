@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **371**
-- Experiment-associated tracked files: **4,911** (577.6 MiB)
-- Structured GDT337+ experiments: **36**
+- Experiments indexed: **372**
+- Experiment-associated tracked files: **4,923** (577.7 MiB)
+- Structured GDT337+ experiments: **37**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT373 | GDT373_functional_operator_roadmap | `FUNCTIONAL_OPERATOR_HYPOTHESES_REGISTERED_BEFORE_SEARCH` | [report](../experiments/yolo/gdt373_functional_operator_roadmap/REPORT.md) | 12 | 41.8 KiB | 37 | STRUCTURED_YOLO |
 | GDT372 | GDT372_external_prespecification_capacity | `SEARCH_FREEDOM_CAPACITY_CALIBRATED` | [report](../experiments/yolo/gdt372_external_prespecification_capacity/REPORT.md) | 13 | 145.1 KiB | 1 | STRUCTURED_YOLO |
 | GDT371 | GDT371_validation_capacity_extension | `NO_TESTED_DESIGN_REACHES_EXTENDED_GATE` | [report](../experiments/yolo/gdt371_validation_capacity_extension/REPORT.md) | 12 | 138.0 KiB | 1 | STRUCTURED_YOLO |
 | GDT370 | GDT370_grounding_acquisition_power | `NO_TESTED_DESIGN_REACHES_FROZEN_POWER_GATE` | [report](../experiments/yolo/gdt370_grounding_acquisition_power/REPORT.md) | 13 | 52.4 KiB | 2 | STRUCTURED_YOLO |

@@ -252,20 +252,25 @@ ledger. Use those files for a proposed-route duplicate audit, not on every turn.
 
 ## Next useful route
 
-1. Do not score the GDT337/GDT354–359 near-match. Reopen only with the exact
-   1962 lunar edition, a specialist concordance, an independent readable
-   witness, or authored values/order; target phase and replication remain absent.
-2. Acquire one genuinely new target relation: either a second independently
-   ordered 28-slot folio, a text-blind zodiac band/start key plus a disjoint-
-   folio repeated topology, or singular homologous slots on at least two
-   discovery folios and one held folio.
-3. Only after that acquisition, use GDT327 joint tuples plus the weak GDT336
-   placement prior as an alignment substrate, never as translated output.
-4. Freeze the endpoint and prediction before exposing its target tuple/formal
-   payload, then compare exact joint-tuple invariance against compiler,
-   frequency, register, position, and layout controls.
-5. Promote nothing beyond anonymous structural dependence unless the external
-   endpoint transfers across independent physical folios.
+GDT373 supersedes the former external-acquisition-only routing instruction for
+one bounded internal experiment. Implement GDT374 as a common, f84-free
+functional-operator discovery framework over atomic GDT327 tuple records:
+
+1. build physical-line and drawing/reset-segment records with hierarchical
+   separators, DY/B3, layout, and register metadata;
+2. align near-isomorphic records without PAGE_HOST or glyph similarity;
+3. infer only the frozen tuple/field rewrite classes in the GDT373 method;
+4. rank by cross-base recurrence and held-folio predictive gain with exact
+   record, placement, tuple-frequency, and matched-edit baselines;
+5. charge the complete search and preserve page/register/layout/position,
+   record length, tuple recurrence, and edit opportunity in nulls;
+6. retain anonymous behavior labels only, and freeze any prospective non-f84
+   test before inspecting its target tuple identities.
+
+Do not reopen GDT003/string paradigms, minimal-pair synonymy, PAGE_HOST
+substring mining, marginal scope correlation, or GDT345--347 next-state
+operator manifolds. External grounding remains paused unless genuinely new
+evidence meeting the earlier acquisition requirements appears.
 
 GDT341 additionally shows that a future readable-recipe instrument must retain
 some independently normalized repeated-entity identity or another stable

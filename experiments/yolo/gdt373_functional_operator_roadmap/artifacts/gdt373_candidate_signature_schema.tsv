@@ -1,0 +1,23 @@
+field	category	definition	requirement
+candidate_id	IDENTITY	stable hash of family plus rewrite signature	REQUIRED
+hypothesis_family	IDENTITY	one GDT373 registered family	REQUIRED
+rewrite_type	FORM	PREFIX_INSERT|SUFFIX_INSERT|INTERNAL_INSERT|DELETE|REPLACE|PAIRED|BOUNDARY_SPLIT_JOIN|DUPLICATE|SHORTEN_RESUME	REQUIRED
+operator_tuple_ids	FORM	opaque atomic GDT327 tuple IDs only	REQUIRED
+scope_level	SCOPE	FIELD|PHYSICAL_LINE|DRAWING_RESET|RECORD_PAIR	REQUIRED
+symmetry	BEHAVIOR	forward/reverse support and directionality	REQUIRED
+valency_delta	BEHAVIOR	change in dependent field or branch count	REQUIRED
+host_diversity	CAPACITY	distinct opaque base records after exact deduplication	REQUIRED
+optionality	BEHAVIOR	operator present/absent in matched licensed contexts	REQUIRED
+mutual_exclusion	BEHAVIOR	co-occurrence deficit against matched marginals	REQUIRED
+downstream_state_change	BEHAVIOR	change after rewritten span, never used as discovery feature	REQUIRED
+record_length_effect	NUISANCE	record/field/group length delta	REQUIRED
+physical_folios	TRANSFER	distinct physical folios; editions not multiplied	REQUIRED
+registers	TRANSFER	distinct registers and register-specific flag	REQUIRED
+held_gain_bits	SCORE	held-folio gain over strongest matched baseline	REQUIRED
+positive_held_folios	SCORE	folio-balanced sign count	REQUIRED
+local_p	CONTROL	candidate-local matched null tail	REQUIRED
+max_search_p	CONTROL	full-library max-search tail	REQUIRED
+selector_cost_bits	MDL	log2 full enumerated candidate library plus operator form cost	REQUIRED
+reading_stability	ROBUSTNESS	agreement and alternate-reading sensitivity	REQUIRED
+anonymous_behavior_label	INTERPRETATION	optional *_LIKE label; semantic state remains UNASSIGNED	OPTIONAL
+confounds	AUDIT	page/register/layout/position/frequency/opportunity caveats	REQUIRED

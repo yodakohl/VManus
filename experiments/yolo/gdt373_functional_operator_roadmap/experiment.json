@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "experiment_id": "GDT373",
+  "slug": "functional_operator_roadmap",
+  "title": "Deduplicated internal functional-operator roadmap",
+  "created": "2026-08-19",
+  "updated": "2026-08-19",
+  "status": "FUNCTIONAL_OPERATOR_HYPOTHESES_REGISTERED_BEFORE_SEARCH",
+  "question": "Which still-unexhausted record-level functional or grammatical attack points are genuinely distinct from prior operator, substring, synonym, scope, and manifold routes?",
+  "dependencies": ["GDT327", "GDT345", "GDT346", "GDT347", "GDT003"],
+  "commands": {
+    "run": "python3 experiments/yolo/gdt373_functional_operator_roadmap/src/build.py",
+    "validate": "python3 experiments/yolo/gdt373_functional_operator_roadmap/src/validate.py"
+  },
+  "sealed_data": {"f84r": "FORBIDDEN", "f84": "FORBIDDEN"},
+  "claim_ceiling": "Ranked route registry and common discovery contract only; no function, morpheme, POS, language, plaintext, meaning, or translation.",
+  "artifact_policy": {"max_inline_bytes": 5000000, "large_artifact_justification": ""},
+  "inputs": [
+    {"path": "VOYNICH_ACTIVE_STATE.md", "role": "authoritative active claims"},
+    {"path": "experiments/semantic_assumptions/ACTIVE_EXPERIMENT_LEDGER.tsv", "role": "active experiment routing ledger"},
+    {"path": "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv", "role": "closed-route registry"},
+    {"path": "gdt327_result.json", "role": "atomic joint-tuple interface"}
+  ],
+  "outputs": [
+    {"path": "experiments/yolo/gdt373_functional_operator_roadmap/METHOD.md", "role": "pre-search method freeze"},
+    {"path": "experiments/yolo/gdt373_functional_operator_roadmap/REPORT.md", "role": "route report"},
+    {"path": "experiments/yolo/gdt373_functional_operator_roadmap/artifacts/gdt373_hypothesis_registry.tsv", "role": "ranked hypothesis registry"},
+    {"path": "experiments/yolo/gdt373_functional_operator_roadmap/artifacts/gdt373_prior_route_crosswalk.tsv", "role": "deduplication crosswalk"},
+    {"path": "experiments/yolo/gdt373_functional_operator_roadmap/artifacts/gdt373_candidate_signature_schema.tsv", "role": "candidate schema"},
+    {"path": "experiments/yolo/gdt373_functional_operator_roadmap/artifacts/gdt373_result.json", "role": "compact result"},
+    {"path": "experiments/yolo/gdt373_functional_operator_roadmap/artifacts/gdt373_validation.json", "role": "validation"}
+  ],
+  "validation": {"artifact": "experiments/yolo/gdt373_functional_operator_roadmap/artifacts/gdt373_validation.json", "status": "PASS"}
+}

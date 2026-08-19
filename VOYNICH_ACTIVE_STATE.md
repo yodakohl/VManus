@@ -9953,6 +9953,28 @@ uncertainty records, and an untouched whole-folio confirmation set. This is
 not proof that the manuscript is untranslatable; it is a stop against
 manufacturing a gloss from nonidentifying data.
 
+## Current internal-grounding route (GDT373)
+
+The user has authorized one genuinely different internal route: infer
+record-conditioned functional rewrites over atomic GDT327 joint tuples and
+source-native boundaries. GDT373 registers 22 families before any form is
+scored and explicitly excludes four ancestors: GDT003/string paradigms,
+minimal-pair or synonym equivalence, marginal scope/order association, and
+GDT345--347 next-state operator manifolds. PAGE_HOST remains unfactored and
+glyph/subword similarity, visual grounding, and external glosses are forbidden.
+
+The common successor, GDT374, may align near-isomorphic physical-line or reset-
+segment records and mine only predeclared whole-record edits: atomic tuple
+insertion/deletion/replacement, boundary split/join, paired two-site rewrites,
+duplication, and prior-record-conditioned shortening/resumption. Candidates
+must be ranked by opaque-base diversity and held-folio gain under full-library
+penalties and page/register/layout/position/length/frequency/opportunity-
+preserving nulls. Discovery may retain weak candidates, but prospective
+promotion requires a frozen anonymous behavioral signature and an untouched
+non-f84 panel. This route may establish formal operator-like behavior only; it
+does not license a function, morpheme, POS, language, plaintext, meaning, or
+translation.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU
