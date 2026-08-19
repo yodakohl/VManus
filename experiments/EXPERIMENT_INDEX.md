@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **344**
-- Experiment-associated tracked files: **4,493** (558.2 MiB)
-- Structured GDT337+ experiments: **9**
+- Experiments indexed: **345**
+- Experiment-associated tracked files: **4,501** (558.2 MiB)
+- Structured GDT337+ experiments: **10**
 - IDs without a ledger entry: **166**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT346 | Compositional formal-operator manifold | `FROZEN_BEFORE_COMPATIBILITY_GRAPH_SCORING` | [report](../experiments/yolo/gdt346_compositional_operator_manifold/SOURCE_AUDIT.md) | 8 | 55.6 KiB | 4 | STRUCTURED_YOLO |
 | GDT345 | GDT345_productive_operator_transfer | `LOCAL_OR_LEXICAL_OPERATOR_DEPENDENCE_ONLY` | [report](../experiments/yolo/gdt345_productive_operator_transfer/REPORT.md) | 19 | 4.0 MiB | 4 | STRUCTURED_YOLO |
 | GDT344 | GDT344_grammar_transition_paths | `NO_TRANSFERABLE_GRAMMAR_TRANSITION_PATH` | [report](../experiments/yolo/gdt344_grammar_transition_paths/REPORT.md) | 22 | 1.4 MiB | 6 | STRUCTURED_YOLO |
 | GDT343 | GDT343_persistent_identity_flow | `PERSISTENT_IDENTITY_FLOW_NOT_CALIBRATED` | [report](../experiments/yolo/gdt343_persistent_identity_flow/COMPARATOR_REPORT.md) | 18 | 399.1 KiB | 3 | STRUCTURED_YOLO |
