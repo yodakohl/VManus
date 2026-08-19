@@ -9975,6 +9975,21 @@ non-f84 panel. This route may establish formal operator-like behavior only; it
 does not license a function, morpheme, POS, language, plaintext, meaning, or
 translation.
 
+GDT374 has now run that exact common endpoint. The f84-free inventory contains
+2,400 fields, 1,334 drawing-reset segments, and 1,143 physical lines. There are
+277 exact one-tuple field insertion/deletion events on 26 folios, but only four
+drawing-segment events and zero whole-line events; exact duplication, boundary
+split/join, and prior-record shortening have zero instances. Twenty-three
+insertion classes recur on two folios and eight reach three opaque bases plus
+two folios. Atomic base identity improves rank (top-1 9 to 30; top-5 30 to 42)
+but catastrophically worsens held probability calibration: -519.980 bits
+overall and -583.663 bits on 109 operator-specific unseen-base events, with only
+2/24 positive folios. The best opaque prefix row spans five bases, seven folios,
+and two registers and contributes +5.309 raw/+0.786 selector-paid bits, but the
+full-library null is p=.368562. It remains WEAK and no candidate is promoted.
+Do not rerun this exact insertion endpoint by changing smoothing, hashes,
+thresholds, or tuple subsets.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU

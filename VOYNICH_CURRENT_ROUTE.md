@@ -272,6 +272,21 @@ substring mining, marginal scope correlation, or GDT345--347 next-state
 operator manifolds. External grounding remains paused unless genuinely new
 evidence meeting the earlier acquisition requirements appears.
 
+GDT374 is complete and found no promotable operator. Exact atomic field
+insertion has real cross-folio recurrence and a weak seven-folio prefix lead,
+but source identity loses 519.980 held bits and the candidate max-library tail
+is .368562. Drawing-reset/whole-line and exact split/join/shortening scopes have
+insufficient or zero capacity. Do not retune this endpoint.
+
+The next admissible internal step is calibration-first, not another Voynich
+candidate scan: apply the frozen GDT374 rewrite/event construction to readable
+structured controls through an opaque-identity observation layer. Determine
+whether the rank-improves/codelength-collapses signature is expected from real
+functional operators, lexical template families, or sparse record notation.
+Only if that calibration licenses a different, predeclared statistic may it be
+returned unchanged to GDT373 families 2--6. No current row qualifies for a
+prospective non-f84 operator test.
+
 GDT341 additionally shows that a future readable-recipe instrument must retain
 some independently normalized repeated-entity identity or another stable
 cross-wording anchor; process order alone is not an adequate bridge. Such an

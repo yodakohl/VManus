@@ -5,7 +5,7 @@
   "title": "Common functional-operator discovery",
   "created": "2026-08-19",
   "updated": "2026-08-19",
-  "status": "FROZEN_NOT_RUN",
+  "status": "NO_PROMOTABLE_FUNCTIONAL_OPERATOR_FOUND",
   "question": "Can exact record-level rewrites over atomic GDT327 tuples predict operator classes on unseen physical folios beyond layout and frequency?",
   "dependencies": ["GDT373", "GDT327"],
   "commands": {
@@ -22,8 +22,18 @@
   ],
   "outputs": [
     {"path": "experiments/yolo/gdt374_common_functional_operator_discovery/METHOD.md", "role": "public method freeze"},
+    {"path": "experiments/yolo/gdt374_common_functional_operator_discovery/REPORT.md", "role": "result report"},
     {"path": "experiments/yolo/gdt374_common_functional_operator_discovery/artifacts/gdt374_freeze.json", "role": "machine freeze"},
-    {"path": "experiments/yolo/gdt374_common_functional_operator_discovery/artifacts/gdt374_freeze_validation.json", "role": "freeze validation"}
+    {"path": "experiments/yolo/gdt374_common_functional_operator_discovery/artifacts/gdt374_freeze_validation.json", "role": "freeze validation"},
+    {"path": "experiments/yolo/gdt374_common_functional_operator_discovery/artifacts/gdt374_record_inventory.tsv", "role": "opaque record inventory"},
+    {"path": "experiments/yolo/gdt374_common_functional_operator_discovery/artifacts/gdt374_rewrite_events.tsv", "role": "exact rewrite events"},
+    {"path": "experiments/yolo/gdt374_common_functional_operator_discovery/artifacts/gdt374_candidate_atlas.tsv", "role": "ranked candidate atlas"},
+    {"path": "experiments/yolo/gdt374_common_functional_operator_discovery/artifacts/gdt374_holdout_predictions.tsv", "role": "held predictions"},
+    {"path": "experiments/yolo/gdt374_common_functional_operator_discovery/artifacts/gdt374_transfer_scores.tsv", "role": "transfer summary"},
+    {"path": "experiments/yolo/gdt374_common_functional_operator_discovery/artifacts/gdt374_null_results.tsv", "role": "matched null worlds"},
+    {"path": "experiments/yolo/gdt374_common_functional_operator_discovery/artifacts/gdt374_counterexamples.tsv", "role": "counterexamples"},
+    {"path": "experiments/yolo/gdt374_common_functional_operator_discovery/artifacts/gdt374_result.json", "role": "compact result"},
+    {"path": "experiments/yolo/gdt374_common_functional_operator_discovery/artifacts/gdt374_validation.json", "role": "validation"}
   ],
-  "validation": {"artifact": "experiments/yolo/gdt374_common_functional_operator_discovery/artifacts/gdt374_freeze_validation.json", "status": "PASS"}
+  "validation": {"artifact": "experiments/yolo/gdt374_common_functional_operator_discovery/artifacts/gdt374_validation.json", "status": "PASS"}
 }
