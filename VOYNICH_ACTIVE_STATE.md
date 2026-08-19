@@ -162,6 +162,17 @@ Updated: 2026-08-19. This is the full claim registry. For routine work, read
   while binding the superseded hashes. Do not repair these four candidates by
   proximity. The next grounding route requires genuinely new source-bound
   repeated referents with singular ownership on discovery and held folios.
+- GDT352 repairs one gap outside that four-row filter: the public catalogue's
+  f96v↔f99r fragment-94 resemblance maps to `f99r.46`, the sole label in a
+  human-described one-plant/one-label row. The new singular query is formally
+  negative: no exact surface match in any of ZL3b/IT2a/RF1b, no exact family
+  match, surface ranks 22/26, 24/26, 24/26, and family rank 15/26 against the
+  nominated f96v page. The separate f96v↔f100r fragment-116 relation has an
+  attractive `otear`↔`ytear/yteor`, exact-`AQJAC` candidate, but its ownership
+  is explicitly ambiguous between two shifted row labels and `AQJAC` occurs
+  on 44 non-f84 pages. Retain it only as a post-exposure common-form lead, not
+  a plant name or gloss. All final source reads were raw-field guarded and no
+  f84 row was parsed, displayed, retained, joined, or scored.
 - A frozen synthetic-instrument calibration now limits how opaque PAGE_HOST
   negatives may be interpreted. On one real medieval medical source, a true
   injective 2–3-character concept codebook lost every held

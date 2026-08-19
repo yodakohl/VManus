@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **350**
-- Experiment-associated tracked files: **4,598** (572.0 MiB)
-- Structured GDT337+ experiments: **15**
+- Experiments indexed: **351**
+- Experiment-associated tracked files: **4,610** (572.0 MiB)
+- Structured GDT337+ experiments: **16**
 - IDs without a ledger entry: **166**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT352 | GDT352_singular_fragment_query | `SINGULAR_QUERY_NEGATIVE_WITH_AMBIGUOUS_COMMON_FORM_LEAD` | [report](../experiments/yolo/gdt352_singular_fragment_query/REPORT.md) | 12 | 35.7 KiB | 3 | STRUCTURED_YOLO |
 | GDT351 | GDT351_remaining_referent_label_capacity | `STOP_ZERO_NEW_SINGULAR_OWNED_REFERENT_LABELS` | [report](../experiments/yolo/gdt351_remaining_referent_label_capacity/REPORT.md) | 10 | 25.8 KiB | 3 | STRUCTURED_YOLO |
 | GDT350 | GDT350_lunar_28_binary_specificity | `A65_28_BINARY_HAS_NON_GEORGIAN_COUNTEREXAMPLE` | [report](../experiments/yolo/gdt350_lunar_28_binary_specificity/REPORT.md) | 15 | 35.1 KiB | 1 | STRUCTURED_YOLO |
 | GDT349 | GDT349_zodiac_facing_orientation_acquisition | `STOP_NO_TRANSFERABLE_DIRECTIONAL_PROFILE_CAPACITY` | [report](../experiments/yolo/gdt349_zodiac_facing_orientation_acquisition/REPORT.md) | 17 | 208.2 KiB | 1 | STRUCTURED_YOLO |

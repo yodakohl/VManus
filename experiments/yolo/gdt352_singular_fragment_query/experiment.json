@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "experiment_id": "GDT352",
+  "slug": "singular_fragment_query",
+  "title": "Singular pharmaceutical-fragment formal query",
+  "created": "2026-08-19",
+  "updated": "2026-08-19",
+  "status": "SINGULAR_QUERY_NEGATIVE_WITH_AMBIGUOUS_COMMON_FORM_LEAD",
+  "question": "Does the one newly recoverable singular Herbal-to-pharmaceutical fragment query show exact or unusual source-native formal recurrence on its human-nominated Herbal page?",
+  "dependencies": ["GDT151", "GDT169", "GDT351"],
+  "commands": {
+    "run": "python3 experiments/yolo/gdt352_singular_fragment_query/src/run.py",
+    "validate": "python3 experiments/yolo/gdt352_singular_fragment_query/src/validate.py"
+  },
+  "sealed_data": {"f84r": "FORBIDDEN", "f84": "FORBIDDEN"},
+  "claim_ceiling": "One post-exposure source-bound formal query only; no plant identity, lexical identity, meaning, language, plaintext, or translation.",
+  "artifact_policy": {"max_inline_bytes": 5000000, "large_artifact_justification": ""},
+  "inputs": [
+    {"path": "experiments/yolo/gdt352_singular_fragment_query/METHOD.md", "role": "post-exposure guarded method; selected rows from global guarded sources are content-bound in gdt352_source_digests.tsv without hashing forbidden rows", "sha256": "0473f47aee7b77035dc8b7c3009e1f65ecb9dac12f5644b9355e2e8c7dd585f9"}
+  ],
+  "outputs": [
+    {"path": "experiments/yolo/gdt352_singular_fragment_query/README.md", "role": "experiment entry point", "sha256": "050bd59aba0d759dc81ed6aa97dbbdd66377f978d7d89bfa1012722ab2f5f5be"},
+    {"path": "experiments/yolo/gdt352_singular_fragment_query/REPORT.md", "role": "exploratory result report", "sha256": "a611f52586df53b5d69ee0151d8bd95b611713f9ee2d528c351f94fe22a37993"},
+    {"path": "experiments/yolo/gdt352_singular_fragment_query/artifacts/README.md", "role": "artifact guide", "sha256": "0d62eb3d431ee49a97aa72d779f2e656f629946efdb5bf238761e49feea488ed"},
+    {"path": "experiments/yolo/gdt352_singular_fragment_query/artifacts/gdt352_query_inventory.tsv", "role": "two-relation ownership inventory", "sha256": "202733e59f161852badb6fd15976839daac72743e885be95d4d45a29da16543a"},
+    {"path": "experiments/yolo/gdt352_singular_fragment_query/artifacts/gdt352_scores.tsv", "role": "formal comparison rows", "sha256": "4459c5309808b3f744174b3f8eaeba1b8b2d1413498b1768af5e646fc2c199d8"},
+    {"path": "experiments/yolo/gdt352_singular_fragment_query/artifacts/gdt352_source_digests.tsv", "role": "guarded selected-row content bindings", "sha256": "c16072fd7204bf890c8bbf552e2b65796c29de8018c1df4866a876bcbd029bdf"},
+    {"path": "experiments/yolo/gdt352_singular_fragment_query/artifacts/gdt352_result.json", "role": "compact result", "sha256": "608f5f8d9274e2c705628ae5d0325b855cfd60f70f6c617b3102cd47441e21ef"},
+    {"path": "experiments/yolo/gdt352_singular_fragment_query/artifacts/gdt352_validation.json", "role": "independent validation", "sha256": "e5254cefa9123c1bc2f2ec18a72ad6f4631784de94bf674ff224864571ee1b9b"},
+    {"path": "experiments/yolo/gdt352_singular_fragment_query/src/run.py", "role": "guarded producer", "sha256": "59ca0b137b93388ba6fce6e9393e3c42518eb38332e925d443eebc6f3be3121b"},
+    {"path": "experiments/yolo/gdt352_singular_fragment_query/src/validate.py", "role": "guarded nonimporting validator", "sha256": "daf221a922bba32ac9ed7f63f631fa9d6f2ab32213abf28d6e30eda72881ec94"}
+  ],
+  "validation": {"artifact": "experiments/yolo/gdt352_singular_fragment_query/artifacts/gdt352_validation.json", "status": "PASS"}
+}
