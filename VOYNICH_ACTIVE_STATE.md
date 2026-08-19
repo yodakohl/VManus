@@ -10012,6 +10012,19 @@ maximum as a predicate, or infer action, POS, valency, dependents, meanings, or
 translation. The exact comparator-first local-head transfer endpoint is now
 closed; the broader ranked roadmap remains a registry, not evidence.
 
+GDT378 extends the calibration to five independent readable domains and seven
+fixed form-blind representations. The construction-level HEAD signature still
+fails: its best scope/horizon representation has a required cross-domain AUC
+floor of .603566, negative structure-over-nuisance gain in CoReMA, PCEEC2 and
+Harleian, and max-family p=1. Four secondary comparator signatures survive a
+stricter pre-target safeguard requiring AUC >= .65 plus positive incremental
+structure gain in three held domains including syntax/non-recipe and
+procedural evidence. They are frozen only as anonymous `CMP_FUNCTION_01--04`
+detectors; their readable-oracle labels must not be imported as Voynich
+functions. The next permitted stage is one charged multi-resolution test of
+those frozen signatures on f84-free GDT327 structure. HEAD is not eligible and
+may not be rescued by changing its representation or threshold.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU

@@ -78,17 +78,26 @@ independent medical/procedural domain, and PCEEC2 as the non-recipe syntax
 domain.  A fixed representation and threshold are selected solely from held
 comparator performance.
 
-The remaining GDT375 families are comparator-only secondary endpoints:
+The remaining GDT375 families begin as comparator-only secondary endpoints:
 state transition, valency, REF/anaphora, correlatives, NEXT/RESUME, UNTIL,
 coordination, alternative/OR, polarity/exclusion, pointer+relation,
 comparison, function-word bottleneck, scope horizon, and procedural automata.
 A family failed by GDT376 is reconsidered only if the cross-corpus
-representation passes held domains before any Voynich scoring.
+representation passes held domains before any Voynich scoring. After the
+comparator outcomes are available but before any Voynich access, secondary
+transfer eligibility additionally requires AUC >= .65 and positive
+structure-over-nuisance gain in at least three held domains, including one
+syntax/non-recipe domain and one procedural domain, with max-family p <= .05.
+Selected detector coefficients, normalization, score transform, and threshold
+quantile are then frozen. This safeguard may remove comparator leads; it may
+not add a detector that failed the held comparator panel.
 
 ## Conditional Voynich stage
 
-Only after the comparator gate passes is the signature frozen and applied,
-unchanged, to the f84-free GDT327 representation at four resolutions:
+Only a signature that passes its comparator gate may be frozen and applied,
+unchanged, to the f84-free GDT327 representation at four resolutions. A HEAD
+failure does not authorize lowering its gate; separately calibrated secondary
+signatures remain distinct anonymous tests:
 
 `atomic joint tuple -> source group -> field/construction span -> recurring
 grammar slot/record position`.
