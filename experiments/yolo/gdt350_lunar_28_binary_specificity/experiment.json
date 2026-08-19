@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "experiment_id": "GDT350",
+  "slug": "lunar_28_binary_specificity",
+  "title": "External 28-member binary-presentation specificity audit",
+  "created": "2026-08-19",
+  "updated": "2026-08-19",
+  "status": "FROZEN_EXTERNAL_PANEL_BEFORE_DIRECT_FACSIMILE_REVIEW",
+  "question": "Does A-65's exact alternating presentation have an independent non-Georgian 28-member medieval counterexample?",
+  "dependencies": ["GDT337"],
+  "commands": {
+    "run": "python3 experiments/yolo/gdt350_lunar_28_binary_specificity/src/run.py",
+    "validate": "python3 experiments/yolo/gdt350_lunar_28_binary_specificity/src/validate.py"
+  },
+  "sealed_data": {"f84r": "FORBIDDEN", "f84": "FORBIDDEN"},
+  "claim_ceiling": "External-source specificity audit only; no Voynich target score, slot alignment, cultural identification, language, meaning, plaintext, or translation.",
+  "artifact_policy": {"max_inline_bytes": 5000000, "large_artifact_justification": ""},
+  "inputs": [
+    {"path": "experiments/yolo/gdt350_lunar_28_binary_specificity/METHOD.md", "role": "frozen external-only method", "sha256": "3b5465583f12969b181dfbc23273df50702eb9f403c087c1c181f23a7696ef4a"},
+    {"path": "experiments/yolo/gdt350_lunar_28_binary_specificity/SOURCE_AUDIT.md", "role": "source provenance audit", "sha256": "2ebf141e906ef1c283f72c904867c85547e4d3293a2720de45e525d984302daf"},
+    {"path": "experiments/yolo/gdt350_lunar_28_binary_specificity/artifacts/gdt350_source_panel.tsv", "role": "frozen six-witness panel", "sha256": "743dc77c74c6329acc898812a0a191f63bf54f5e836120e096341570aedd20e3"}
+  ],
+  "outputs": [
+    {"path": "experiments/yolo/gdt350_lunar_28_binary_specificity/README.md", "role": "experiment entry point", "sha256": "a0b9978c9044ad9e3b399dde6954405a1bdc0d71e94861876a4f4c22c4dbec89"},
+    {"path": "experiments/yolo/gdt350_lunar_28_binary_specificity/artifacts/README.md", "role": "artifact scope", "sha256": "5b2971076023e0c016d8be9348a3a6f8eaa29a47f73139192a50199b2daf2a72"},
+    {"path": "experiments/yolo/gdt350_lunar_28_binary_specificity/artifacts/gdt350_freeze.json", "role": "source-panel freeze", "sha256": "2c73d2fbc77da7dd0a66c7856b244d9a34e08ba4bd38f937a652fc25a14fe78b"},
+    {"path": "experiments/yolo/gdt350_lunar_28_binary_specificity/artifacts/gdt350_freeze_validation.json", "role": "freeze validation", "sha256": "cb5a22fd9264c5f72471a9340b76b29415d8e5555bc52f8cf9bc5a432e4cc220"},
+    {"path": "experiments/yolo/gdt350_lunar_28_binary_specificity/src/run.py", "role": "freeze producer", "sha256": "93f7745b512f0bb13029037b6d1bff3f11d0b47967e255f53cefd629516753ed"},
+    {"path": "experiments/yolo/gdt350_lunar_28_binary_specificity/src/validate.py", "role": "nonimporting freeze validator", "sha256": "dac6c7e332ceb364708fa57aef1510b6d7efcb1f24fab3a2dd7e798c9c2c10e1"}
+  ],
+  "validation": {"artifact": "experiments/yolo/gdt350_lunar_28_binary_specificity/artifacts/gdt350_freeze_validation.json", "status": "PASS"}
+}
