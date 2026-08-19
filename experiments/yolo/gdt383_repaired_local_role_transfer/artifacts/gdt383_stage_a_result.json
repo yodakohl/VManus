@@ -1,0 +1,70 @@
+{
+  "claim_ceiling": "COMPARATOR_POSITIVE_CONTROL_REPAIRED_INSTRUMENT_ONLY",
+  "content_hash": "01bcb97d6a7f30c3ef1125a7e2fa968a18820696774cb86e740180c46bb70d03",
+  "documents": {
+    "experiments/yolo/gdt383_repaired_local_role_transfer/METHOD.md": "ac3c8a28f70cca9f237adaf13aa189d224595bbc24df27660394163b55645079",
+    "experiments/yolo/gdt383_repaired_local_role_transfer/README.md": "daa24ef75b18bbafe5366d2916c501b01525d6632a2390e90c2cfad82ede3dd4",
+    "experiments/yolo/gdt383_repaired_local_role_transfer/REPORT.md": "f60e3158699dcf3413c5233c02e39956e5ba9475302421e6a5270b5ee0ec5628",
+    "experiments/yolo/gdt383_repaired_local_role_transfer/experiment.json": "6b5b12a901f0b16a4102c1a211f1682a9a1d45eee4172e36a0d29e43cfa896a7"
+  },
+  "downstream_gates": {
+    "ALTERNATIVE_OR": false,
+    "COORDINATOR": false,
+    "FUNCTION_WORD": false,
+    "POLARITY_EXCLUSION": false,
+    "REF_ANAPHORA": false,
+    "UNTIL_STATE_GATE": false
+  },
+  "downstream_roles_passing": 0,
+  "f84": {
+    "opened": false,
+    "parsed": false,
+    "retained": false,
+    "scored": false
+  },
+  "gdt381_target_artifacts_read": false,
+  "implementation": {
+    "experiments/yolo/gdt383_repaired_local_role_transfer/src/finalize_stage_a.py": "6295cbce7ab95749e53a115ddd73c46f302573ce48c7820c08ec82960014d0dc",
+    "experiments/yolo/gdt383_repaired_local_role_transfer/src/run_stage_a.py": "0be1f76882f9f4cba717a4adc82bd0187cb658ef41cd435ba9cf74dc8e552b94",
+    "experiments/yolo/gdt383_repaired_local_role_transfer/src/validate_stage_a.py": "04e65d533b81fd864bc372afde689e554550047f4eae35d8f685b9d96aa37c20"
+  },
+  "inputs": {
+    "experiments/yolo/gdt378_cross_corpus_construction_transfer/artifacts/gdt378_hidden_oracle.tsv.gz": "35568bb5ae417bd725af03abbd09ce7d7dc3fbf3b64fb77bf00299603893de02",
+    "experiments/yolo/gdt382_voynichification_methodology_audit/artifacts/gdt382_voynichified_observation_layer.tsv.gz": "4c20dc0dd234f9b1947ce9c81d9d1c8645e30a1fd81321b6a9be755b3d229896",
+    "experiments/yolo/gdt383_repaired_local_role_transfer/artifacts/gdt383_stage_a_freeze.json": "918ce513e8f1c65e122935a4efd5926016f5bfab6ed074157c84225a4c429f00"
+  },
+  "interpretation": "REPAIRED_LOCAL_ROLE_RECOVERY_PARTIAL_BUT_DISJOINT_TRANSFORMATION_NOT_VALIDATED",
+  "next_route": "COMPARATOR_ONLY_AUTHORIAL_DOWNSTREAM_EVENT_GRAPH_CALIBRATION",
+  "outputs": {
+    "experiments/yolo/gdt383_repaired_local_role_transfer/artifacts/gdt383_channel_treatments.tsv": "e4aced88a6c6f183f5a43c1db4cd16b4ae4497780b63af227f31659198cf399a",
+    "experiments/yolo/gdt383_repaired_local_role_transfer/artifacts/gdt383_downstream_transfer.tsv": "754ffeafe101a52a7f5af246e13b6d7b865634adc2a8bd8be57173b15d1a8065",
+    "experiments/yolo/gdt383_repaired_local_role_transfer/artifacts/gdt383_null_worlds.tsv": "fce5f7a134d38b1a3386f562dfa69699f1ffad1c3b99ac6726931c9273bd92bf",
+    "experiments/yolo/gdt383_repaired_local_role_transfer/artifacts/gdt383_outcome_overlap.tsv": "6bbf596b578739bfb772f1c283393cab7bdfc4313527652fec50951a136954d9",
+    "experiments/yolo/gdt383_repaired_local_role_transfer/artifacts/gdt383_realization_controls.tsv": "a922c705447d53e38ca9e5d844d39910ac3e38a7ab487323c57e90ddd819f232",
+    "experiments/yolo/gdt383_repaired_local_role_transfer/artifacts/gdt383_resolution_diagnostics.tsv": "71a7e88403912523f6d19ef2e23e5aa2249a65be61948b29f3ae298dcf229161",
+    "experiments/yolo/gdt383_repaired_local_role_transfer/artifacts/gdt383_role_recovery.tsv": "7e7a899455dd9d64ef4ab652c9d9120f60e0a090a8a85e1b6b5d7f5f5f9a842f"
+  },
+  "pivots": 123478,
+  "priority_coordinator_pass": false,
+  "realization_cells_passing": 42,
+  "realization_gate_pass": true,
+  "records": 3235,
+  "role_gates": {
+    "ALTERNATIVE_OR": false,
+    "COORDINATOR": true,
+    "FUNCTION_WORD": true,
+    "POLARITY_EXCLUSION": false,
+    "REF_ANAPHORA": false,
+    "UNTIL_STATE_GATE": false
+  },
+  "roles_passing": 2,
+  "rows": 133183,
+  "schema": "GDT383_STAGE_A_RESULT_V1",
+  "semantic_state": "UNASSIGNED",
+  "stage_a_pass": false,
+  "status": "STAGE_A_FAILED_STOP_BEFORE_VOYNICH",
+  "voynich_rows_read": 0,
+  "voynich_scored": false,
+  "voynich_stage_b_authorized": false,
+  "voynich_stage_b_created": false
+}

@@ -10091,6 +10091,22 @@ those assumptions. Repair and revalidate a multi-resolution, register-local,
 grammar-channel instrument before any further Voynich operator search; do not
 mine another target under the old mapping.
 
+GDT383 implements that repair and stops at its comparator-only positive-control
+gate. The domain-local, five-resolution hierarchy passes the complete hidden-
+role gate for FUNCTION_WORD and COORDINATOR and recovers all 42 free/bound
+realization ceilings; it also decisively outperforms exact-joint and strict-
+universal mappings for the strongest roles. Automatic nuisance conditioning
+again destroys large amounts of held signal. However, zero of six roles passes
+the strictly disjoint post-pivot transformation gate after joint correction.
+COORDINATOR is the closest case, with positive held gains in both untouched
+confirmation domains but max-six p=.358674. Therefore Stage B was not created
+and no Voynich or GDT381 target row was read. Do not lower the gates, promote
+the selected wrapper-change outcome, or run another Voynich operator search
+with this instrument. The next route must remain comparator-only and replace
+generic three-event geometry with independently annotated/authorial downstream
+event graphs while preserving source/outcome separation. No function, role,
+POS, meaning, language, plaintext, translation, or f84 access follows.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU
