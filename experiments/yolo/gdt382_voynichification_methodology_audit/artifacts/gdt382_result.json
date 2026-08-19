@@ -1,0 +1,89 @@
+{
+  "base_endpoints_exploration_recoverable": 6,
+  "bound_control_cells_auc_0_80": 42,
+  "bound_control_cells_total": 42,
+  "claim_ceiling": "COMPARATOR_POSITIVE_CONTROL_METHODOLOGY_CALIBRATION_ONLY",
+  "content_hash": "925bbe47c9f3976827c87fefdf605625871488bdc86d885e6f9ed3937f5d207a",
+  "decision_matrix": {
+    "BOUND_FUNCTIONS_NOT_RECOVERABLE_BY_CURRENT_METHOD": false,
+    "CURRENT_PIPELINE_VALIDATED_FOR_COMPOSITE_ENCODING": true,
+    "DISCOVERY_CORRECTION_UNDERPOWERED": false,
+    "JOINT_TUPLE_MAPPING_NOT_HOMOLOGOUS": true,
+    "OVERCONTROL_DESTROYS_FUNCTION_SIGNAL": true,
+    "UNIVERSAL_CROSS_DOMAIN_INVARIANCE_TOO_STRICT": true
+  },
+  "documents": {
+    "experiments/yolo/gdt382_voynichification_methodology_audit/METHOD.md": "4b3049ed9c19e116aca5379a8e4e0ae5dc06864e8c412358a42ac0db886f2222",
+    "experiments/yolo/gdt382_voynichification_methodology_audit/README.md": "e7242cbd92c92f944ede3a044fe9ca216dab43442cc61f959ece2247fd74ec64",
+    "experiments/yolo/gdt382_voynichification_methodology_audit/REPORT.md": "82851927cd52e9d5b1732c138598a104a0c6ccbeb367e7c9b37ef201eff8842f",
+    "experiments/yolo/gdt382_voynichification_methodology_audit/experiment.json": "41b22a8bb241ad3ade4e3561b5cac9186d799d0afb69408e4a5ba18af7a2f63f"
+  },
+  "domains": [
+    "COREMA",
+    "CURIOUS_CURES",
+    "HARLEIAN_COOKERY",
+    "PCEEC2",
+    "QUINTE_ESSENCE"
+  ],
+  "endpoints": [
+    "FUNCTION_WORD",
+    "ALTERNATIVE_OR",
+    "POLARITY_EXCLUSION",
+    "UNTIL_STATE_GATE",
+    "COORDINATOR",
+    "REF_ANAPHORA"
+  ],
+  "f84": {
+    "opened": false,
+    "parsed": false,
+    "retained": false,
+    "scored": false
+  },
+  "gdt381_outcome_used_to_tune": false,
+  "implementation": {
+    "experiments/yolo/gdt382_voynichification_methodology_audit/src/finalize_gdt382.py": "38986b79073336fa22129b4af75d3e2d1c745b80246b3972361b7d6ce40d629c",
+    "experiments/yolo/gdt382_voynichification_methodology_audit/src/run_gdt382.py": "f8e16c36a3e3c1c2cd3ecc53648682e5bbca3373157ff4115120d65714898411"
+  },
+  "inputs": {
+    "experiments/yolo/gdt378_cross_corpus_construction_transfer/artifacts/gdt378_hidden_oracle.tsv.gz": "35568bb5ae417bd725af03abbd09ce7d7dc3fbf3b64fb77bf00299603893de02",
+    "experiments/yolo/gdt382_voynichification_methodology_audit/artifacts/gdt382_encoder_freeze.json": "5819fdd682d2dfa3d1de6875273c0204aae45aa1f23523d776997befdd9ab28b",
+    "experiments/yolo/gdt382_voynichification_methodology_audit/artifacts/gdt382_recovery_design_freeze.json": "102df11ec533c57ba74cf53ba7849514ada1ad8ac8b1ef95570441476f4aa18c",
+    "experiments/yolo/gdt382_voynichification_methodology_audit/artifacts/gdt382_voynichified_observation_layer.tsv.gz": "4c20dc0dd234f9b1947ce9c81d9d1c8645e30a1fd81321b6a9be755b3d229896"
+  },
+  "local_minus_universal_best_auc": {
+    "ALTERNATIVE_OR": 0.2619187472176716,
+    "COORDINATOR": 0.4753349383755926,
+    "FUNCTION_WORD": 0.47838110492090746,
+    "POLARITY_EXCLUSION": 0.31138799419721774,
+    "REF_ANAPHORA": 0.24267727882871315,
+    "UNTIL_STATE_GATE": 0.40829358537496874
+  },
+  "methodological_consequence": "REPAIR_INSTRUMENT_BEFORE_NEXT_VOYNICH_OPERATOR",
+  "outputs": {
+    "experiments/yolo/gdt382_voynichification_methodology_audit/artifacts/gdt382_bound_free_controls.tsv": "2e162e292d5664e7ebe314477c96c58379370474f6567e3c2feb2485cc1cfe99",
+    "experiments/yolo/gdt382_voynichification_methodology_audit/artifacts/gdt382_counterexamples.tsv": "f4135a0ec2468ebb955e4f1a5caec5358a4798c4bff985afb0ef3ed017ed74c9",
+    "experiments/yolo/gdt382_voynichification_methodology_audit/artifacts/gdt382_discovery_confirmation.tsv": "595ec27dee44d51ac70020519452461cbfa6bb88c6594bae03524cc8b0cfbc24",
+    "experiments/yolo/gdt382_voynichification_methodology_audit/artifacts/gdt382_ontology_audit.tsv": "487e2803750fbebb87440fcba47e058f97da44156994d35bcda4aaa057933938",
+    "experiments/yolo/gdt382_voynichification_methodology_audit/artifacts/gdt382_overcontrol_audit.tsv": "ee5c31397758cef4a3dc33efcb11b464ff0c335bffea159b1dc59e405db1287f",
+    "experiments/yolo/gdt382_voynichification_methodology_audit/artifacts/gdt382_representation_recovery.tsv": "e01146b4e2baf51754db6ecd688db23df9b455613a94a513c65c7c3c2f14d5b5"
+  },
+  "records": 3235,
+  "representations": [
+    "SOURCE_TOKEN_EQUALITY",
+    "DOMAIN_LOCAL_OPAQUE_ID",
+    "HOST_IDENTITY",
+    "COMPOSITE_JOINT_STATE",
+    "COMPLETE_RENDERED_GROUP",
+    "FIELD_CONSTRUCTION_SPAN"
+  ],
+  "rows": 133183,
+  "schema": "GDT382_RESULT_V1",
+  "status": "METHODOLOGY_AUDIT_COMPLETE",
+  "strongest_overcontrol_loss": {
+    "bits": 14881.300334066469,
+    "endpoint": "FUNCTION_WORD",
+    "variable": "GLOBAL_LOCAL_FREQUENCY"
+  },
+  "voynich_rows_read": 0,
+  "voynich_scored": false
+}

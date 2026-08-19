@@ -10072,6 +10072,25 @@ Voynich function class is assigned. A new route must freeze a post-pivot-only
 or source-residualized topology outcome and a disjoint source predictor before
 scoring; GDT381 may not be repaired post hoc.
 
+GDT382 stress-tests that methodology on a known-positive, oracle-blind
+Voynichification of the same five readable domains. All six hidden functional
+classes remain recoverable at some representation level, and all 42
+free/prefix/suffix/wrapper/boundary/position/zero-suppletive positive-control
+cells are recovered by the domain-local instrument. But exact composite joint
+state is never the best functional unit, has negative aggregate held
+codelength gain, and exact field spans are worse still. Domain-local recovery
+exceeds the best strict universal model by .243--.478 AUC for every endpoint;
+every best universal model loses held bits. Conditioning frequency as nuisance
+removes up to 14,881 genuine function bits, with recurrence and context also
+destructive for some classes. Therefore the observation boundary can recover
+composite-encoded function, but `readable word ≈ exact GDT327 joint tuple`,
+universal cross-domain coefficient invariance, and automatic residualization
+of grammar-bearing variables are not validated. Earlier negatives remain
+exact for their instruments but are instrument-limited where they depend on
+those assumptions. Repair and revalidate a multi-resolution, register-local,
+grammar-channel instrument before any further Voynich operator search; do not
+mine another target under the old mapping.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU
