@@ -24,12 +24,12 @@ of the frozen visual labels that preserves:
 Take the Cartesian product across arrays. The exact endpoint orbit sizes,
 determined from visual labels before rescoring, are:
 
-- major-body count: 1,040 worlds;
-- terminal-arm count: 8,640 worlds;
+- major-body count: 2,080 worlds;
+- terminal-arm count: 2,880 worlds;
 - dominant hue: 120 worlds.
 
 For the fixed `ACA`×terminal-arm candidate, report the exact inclusive local
-tail and the exact terminal-endpoint max-mask tail over all 8,640 worlds.
+tail and the exact terminal-endpoint max-mask tail over all 2,880 worlds.
 
 For a common three-endpoint/max-mask diagnostic, draw 4,096 deterministic
 uniform worlds independently from each endpoint's full adjacency-matched

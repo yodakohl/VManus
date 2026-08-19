@@ -13,8 +13,8 @@ def main():
  for e in ('major_body_count','terminal_arm_count','dominant_hue'):
   total=1
   for a in sorted({x['array_id'] for x in r}):
-   y=[x[e] for x in r if x['array_id']==a];adj=sum(y[i]==y[i-1] for i in range(1,len(y)));q={p for p in itertools.permutations(y) if sum(p[i]==p[i-1] for i in range(1,len(p)))==adj};total*=len(q)
+   rr=sorted((x for x in r if x['array_id']==a),key=lambda x:int(x['ordinal']));y=[x[e] for x in rr];adj=sum(y[i]==y[i-1] for i in range(1,len(y)));q={p for p in itertools.permutations(y) if sum(p[i]==p[i-1] for i in range(1,len(p)))==adj};total*=len(q)
   orbits[e.upper()]=total
- assert orbits=={'MAJOR_BODY_COUNT':1040,'TERMINAL_ARM_COUNT':8640,'DOMINANT_HUE':120}
+ assert orbits=={'MAJOR_BODY_COUNT':2080,'TERMINAL_ARM_COUNT':2880,'DOMINANT_HUE':120}
  p={'schema':'GDT369_FREEZE_V1','status':'POSTEXPOSURE_DIAGNOSTIC_FROZEN_BEFORE_RESCORING','panel_rows':27,'frozen_mask_count':27,'fixed_candidate':{'endpoint':'TERMINAL_ARM_COUNT','formal_feature':'FAMILY_3GRAM:ACA'},'adjacency_matched_exact_orbits':orbits,'global_sample_worlds':4096,'reversal_sensitivity':True,'feature_or_endpoint_reselection':False,'f84_accessed':False,'inputs':{str(x.relative_to(ROOT)):sha256_file(x) for x in (PANEL,FEATURES,ATLAS,RESULT,EXP/'METHOD.md')},'implementation':{str(Path(__file__).relative_to(ROOT)):sha256_file(Path(__file__))},'claim_ceiling':'ORDER_ROBUSTNESS_DIAGNOSTIC_OF_FIXED_GDT368_ASSOCIATION_ONLY'};p['content_hash']=hashlib.sha256(canonical_json_bytes(p)).hexdigest();OUT.write_bytes(canonical_json_bytes(p))
 if __name__=='__main__':main()
