@@ -185,7 +185,7 @@ morpheme, plaintext symbol, or semantic role.
   Hovhannēs Sarkawag calendar commentary, but no external values/order, target
   phase, or held folio exists; no Voynich formal payload was opened or scored.
 - GDT358–359 recover a real exact-surface Shirakatsi *bolorak* attribution, but
-  the same term labels a different 1958 grid; it is not an eight-compartment key.
+  the same term labels a different 1958 grid; it is not an eight-compartment key. GDT360 finds one postselected `AQ`/`AQA` CONTACT/GAP lead (5/8 vs 2/18; +5.61 held bits), but no joint world; a new geometry-selected mixed array is required.
 - The exposed f57/f77 quality/element decoder was withdrawn after
   look-elsewhere and transfer failures (GDT182–GDT202).
 - Recurrent formulas and universal tuples are retrieval candidates only. Their

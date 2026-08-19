@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **358**
-- Experiment-associated tracked files: **4,710** (572.3 MiB)
-- Structured GDT337+ experiments: **23**
+- Experiments indexed: **359**
+- Experiment-associated tracked files: **4,726** (576.4 MiB)
+- Structured GDT337+ experiments: **24**
 - IDs without a ledger entry: **166**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT360 | GDT360_existing_annotation_joint_grounding | `EXPLORATORY_SINGLE_CHANNEL_LEADS_ONLY` | [report](../experiments/yolo/gdt360_existing_annotation_joint_grounding/REPORT.md) | 16 | 4.1 MiB | 4 | STRUCTURED_YOLO |
 | GDT359 | GDT359_shirakatsi_bolorak_category | `BOLORAK_CATEGORY_BROADENED_NO_FIGURE_KEY` | [report](../experiments/yolo/gdt359_shirakatsi_bolorak_category/REPORT.md) | 16 | 44.8 KiB | 1 | STRUCTURED_YOLO |
 | GDT358 | GDT358_shirakatsi_bolorak_attribution | `SAME_SURFACE_ANANIA_BOLORAK_ATTRIBUTION_NO_PHASE_OR_SLOT_KEY` | [report](../experiments/yolo/gdt358_shirakatsi_bolorak_attribution/REPORT.md) | 16 | 55.2 KiB | 2 | STRUCTURED_YOLO |
 | GDT357 | GDT357_sarkawag_source_access | `CRITICAL_EDITION_RECOVERED_NO_FOLIO_KEY_OR_PUBLIC_PARALLEL` | [report](../experiments/yolo/gdt357_sarkawag_source_access/REPORT.md) | 15 | 39.1 KiB | 3 | STRUCTURED_YOLO |

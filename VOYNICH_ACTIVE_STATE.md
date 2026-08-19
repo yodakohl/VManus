@@ -244,6 +244,16 @@ Updated: 2026-08-19. This is the full claim registry. For routine work, read
   attribution; no function, eight phases, values, start, direction, order, or
   alignment follows. No Voynich image, transcription, formal payload, or f84
   material was accessed.
+- GDT360 consolidates the existing visual annotations before any new image
+  acquisition. Across 4,607 cases, 4,536 formal joins, 771 loci, 16 endpoints,
+  and 306 state-blind masks, the sole interesting single-channel lead is
+  first-group family prefix `AQ` (panel alias `AQA`) in 5/8 CONTACT versus 2/18
+  GAP observations. It saves 5.61 held-folio bits on 3/3 folds, but support is
+  only f89/f99 in one section, the exact opportunity-matched orbit has three
+  mobile rows, maxT is .195, and selector-paid gain is -7.64 bits. Zero joint
+  world qualifies after source-lineage and overlap controls. Retain a precise
+  new-array acquisition target, not a contact gloss or semantic role. No new
+  image or f84 material was accessed.
 - A frozen synthetic-instrument calibration now limits how opaque PAGE_HOST
   negatives may be interpreted. On one real medieval medical source, a true
   injective 2–3-character concept codebook lost every held
