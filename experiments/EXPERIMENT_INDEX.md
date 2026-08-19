@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **342**
-- Experiment-associated tracked files: **4,452** (552.8 MiB)
-- Structured GDT337+ experiments: **7**
+- Experiments indexed: **343**
+- Experiment-associated tracked files: **4,460** (552.9 MiB)
+- Structured GDT337+ experiments: **8**
 - IDs without a ledger entry: **166**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT344 | GDT344_grammar_transition_paths_freeze | `FROZEN_BEFORE_FORMAL_AND_COMPARATOR_SCORING` | [report](../experiments/yolo/gdt344_grammar_transition_paths/METHOD.md) | 8 | 67.1 KiB | 6 | STRUCTURED_YOLO |
 | GDT343 | GDT343_persistent_identity_flow | `PERSISTENT_IDENTITY_FLOW_NOT_CALIBRATED` | [report](../experiments/yolo/gdt343_persistent_identity_flow/COMPARATOR_REPORT.md) | 18 | 399.1 KiB | 3 | STRUCTURED_YOLO |
 | GDT342 | GDT342_anonymous_entity_flow_graph | `ANONYMOUS_ENTITY_FLOW_NOT_CALIBRATED` | [report](../experiments/yolo/gdt342_anonymous_entity_flow_graph/COMPARATOR_REPORT.md) | 19 | 402.6 KiB | 3 | STRUCTURED_YOLO |
 | GDT341 | GDT341_ordered_recipe_event_graph | `NO_COMPARATOR_GRAPH_CALIBRATION` | [report](../experiments/yolo/gdt341_ordered_recipe_event_graph/COMPARATOR_REPORT.md) | 18 | 347.0 KiB | 3 | STRUCTURED_YOLO |

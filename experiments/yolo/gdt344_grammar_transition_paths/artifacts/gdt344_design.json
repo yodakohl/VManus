@@ -1,0 +1,25 @@
+{
+  "schema": "GDT344_DESIGN_V1",
+  "date": "2026-08-19",
+  "status": "FROZEN_BEFORE_FORMAL_AND_COMPARATOR_SCORING",
+  "panels": {
+    "RECIPE_STARS_S": {"section": "S", "register": "STARS_RECIPE_B"},
+    "PHARMA_P": {"section": "P", "register": "OTHER_A"}
+  },
+  "formal_models": ["PLACEMENT", "EXACT_PREDECESSOR", "PATH_SHAPE", "PATH_VALUE"],
+  "formal_alphas": [8, 32, 128, 512],
+  "path_resolutions": ["SHAPE", "VALUE"],
+  "renderer_nuisance": ["s@LINE_START", "q@POST_DY"],
+  "formal_null": {"worlds": 4096, "seed": 344327, "max_family": 2, "fixed_prediction": true},
+  "formal_gate": {"gain_over_placement": true, "gain_over_exact_predecessor": true, "positive_folio_fraction_each_panel": 0.6, "unseen_pair_gain": true, "inclusive_p_max": 0.05},
+  "comparator_collections": ["b4", "b6", "br1", "bs1", "gr1", "w1"],
+  "event_path_classes": ["BASIC_MO", "MO_STATE_ONLY", "MO_APPLICATION_ONLY", "MO_RESULT_ONLY", "MO_MULTI_OPTIONAL"],
+  "comparator_models": ["SHAPE_ONLY", "IDENTITY_FLOW_TOPOLOGY"],
+  "comparator_ridge": 4.0,
+  "comparator_null": {"worlds": 4096, "seed": 344176, "max_family": 1},
+  "comparator_gate": {"aggregate_gain": true, "positive_collections_min": 4, "inclusive_p_max": 0.05},
+  "target_gate": "REQUIRE_FORMAL_AND_COMPARATOR_PASS",
+  "target_path_hash_bins": 64,
+  "sealed": {"f84": "FORBIDDEN"},
+  "voynich_semantic_assignments": 0
+}
