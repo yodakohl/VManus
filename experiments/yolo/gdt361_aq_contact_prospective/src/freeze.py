@@ -70,8 +70,8 @@ def main() -> None:
             "prospective_scoring_loci": TARGETS[1:],
             "preexposed_excluded_loci": [TARGETS[0]],
             "basis": "SOURCE_DESCRIBED_SEQUENTIAL_SEVEN_LABEL_ROW_SELECTED_WITHOUT_TARGET_VISUAL_STATES",
-            "official_canvas_id": "1006253", "official_dimensions": [2838, 3697],
-            "official_image_sha256": "e3ed770ad77b1c1127b8e60b2ee2d9e226ab4089d4861b85dbf22299925397ce",
+            "official_canvas_id": "1006252", "official_dimensions": [2981, 3795],
+            "official_image_sha256": "8cdb1030d805b968932146124915cb0d86f7abf853167ffec028b59599820fad",
         },
         "prediction": {
             "formal_predicate": "FIRST_GROUP_PREFIX_2:AQ",
@@ -88,7 +88,15 @@ def main() -> None:
             "formal_values_of_six_scored_loci_queried_before_freeze": False,
             "f102v2_10_formal_value_displayed_and_excluded": True,
             "gdt360_global_state_blind_join_preexisting": True,
+            "correct_full_canvas_opened_before_corrected_freeze": True,
+            "target_crop_level_states_recorded_before_corrected_freeze": False,
             "f84_accessed": False,
+        },
+        "correction": {
+            "superseded_freeze_sha256": "714639e5d3d1d9c5917194ec97f5e2b64e0082e738fd618068d65fe00a37b0f3",
+            "superseded_canvas_id": "1006253",
+            "reason": "ADJACENT_F102V1_CANVAS_MISIDENTIFIED_AS_F102V2",
+            "selection_prediction_and_score_changed": False,
         },
         "inputs": {
             str(HUMAN.relative_to(ROOT)): sha256_file(HUMAN),

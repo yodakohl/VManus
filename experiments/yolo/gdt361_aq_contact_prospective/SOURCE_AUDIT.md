@@ -17,9 +17,12 @@ not newly described from an image.
   sentence asserting a physical census. Direct whole-row review must therefore
   decide whether the seven loci exhaust the visible unit before state grading.
 
-Yale canvas `1006253` is the right part of f102v, with recorded dimensions
-2838 x 3697 and cached SHA-256
-`e3ed770ad77b1c1127b8e60b2ee2d9e226ab4089d4861b85dbf22299925397ce`.
+Yale canvas `1006252` is f102v2, with recorded dimensions 2981 x 3795 and
+cached SHA-256
+`8cdb1030d805b968932146124915cb0d86f7abf853167ffec028b59599820fad`.
+The first published freeze incorrectly named adjacent f102v1 canvas `1006253`;
+the correction occurred after opening the correct full canvas but before
+target-level state review or formal query of `.11`–`.16`.
 
 The formal row for `.10` was displayed during the present audit and is excluded
 from the prospective score. No formal family value for `.11`–`.16` is included

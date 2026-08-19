@@ -20,8 +20,8 @@ embedding, or image classification is permitted.
 The fixed target is the source-described seven-label second plant row on
 `f102v2`, loci `f102v2.10` through `f102v2.16`. The exact human source gives
 seven sequential positions, all east of their associated drawn item, and does
-not label any as CONTACT or CLEAR_GAP. The official image is Yale canvas
-`1006253` (right part of f102v), 2838 x 3697 pixels.
+not label any as CONTACT or CLEAR_GAP. The corrected official image is Yale
+canvas `1006252` (f102v2), 2981 x 3795 pixels.
 
 Selection is based only on the existing source-bound row description, its
 seven sequential loci, a different physical folio from f89/f99/f100, and the
@@ -39,6 +39,17 @@ loci are `f102v2.11` through `.16`; their row-level formal values must not be
 queried until the visual calls are written and hash-frozen.
 
 This is prospective-to-observer rather than a pristine repository holdout.
+
+## Pre-review canvas correction
+
+The first published freeze misidentified adjacent canvas `1006253` (f102v1)
+as f102v2. The error was found by checking the cached human catalogue link and
+opening the official canvases. Canvas `1006252` is the selected f102v2 target.
+The complete correct full canvas was therefore visible before this correction,
+but no target crop-level CONTACT/GAP call had been recorded and no formal value
+for `.11`–`.16` had been queried. The selected loci, source-defined unit,
+formal predicate, direction, and scoring rule did not change. The corrected
+freeze explicitly binds the superseded freeze hash.
 
 ## Visual observation rule
 

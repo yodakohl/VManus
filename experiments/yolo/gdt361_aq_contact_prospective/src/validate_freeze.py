@@ -25,6 +25,10 @@ def main() -> None:
     checks.append(all(r["visual_state"] == "SEALED_PENDING_DIRECT_REVIEW" for r in rows))
     checks.append(all(not r["page"].startswith("f84") for r in rows))
     checks.append(freeze["prediction"]["formal_predicate"] == "FIRST_GROUP_PREFIX_2:AQ")
+    checks.append(freeze["selection"]["official_canvas_id"] == "1006252")
+    checks.append(freeze["selection"]["official_dimensions"] == [2981, 3795])
+    checks.append(freeze["correction"]["superseded_freeze_sha256"] == "714639e5d3d1d9c5917194ec97f5e2b64e0082e738fd618068d65fe00a37b0f3")
+    checks.append(freeze["correction"]["selection_prediction_and_score_changed"] is False)
     checks.append(freeze["access"]["f84_accessed"] is False)
     for rel, digest in freeze["inputs"].items():
         checks.append(sha256_file(ROOT / rel) == digest)
