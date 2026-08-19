@@ -67,7 +67,60 @@ Cures. The source oracles for Curious, Harleian, and Quinte are frozen
 high-precision lexical controls rather than syntax gold, so even the four
 survivors remain provisional instrument signatures.
 
-## Decision and next stage
+## Voynich multi-resolution stage
+
+After the comparator/signature freeze was published, the four anonymous
+detectors were applied unchanged to 8,448 GDT327 source groups and 2,400 exact
+field spans on 91 non-f84 physical folios. The charged atlas contains 24,356
+signature×resolution candidates; 1,064 meet the 12-event, three-folio,
+two-register power minimum.
+
+No candidate is promoted by the frozen primary test. Event-level null mobility
+is ample—6,539 atomic events, 6,612 complete-group events, and 1,005 field
+events—but the **global max statistic is degenerate**. The required null
+conditions on exact position and closure, while the charged grammar-slot
+candidate `CMP_FUNCTION_03 / FROM_START_X_CLOSURE / 1__LINE_END` is itself
+defined by those variables. Its statistic is therefore invariant. Every one
+of 4,096 null worlds has the same maximum, 561.258338, and every powered
+candidate receives primary maxT p=1. This is an identifiability failure of the
+combined slot-aware null, not evidence that all 1,064 candidates lack signal.
+The rule that a low-effective-capacity null cannot promote is honored.
+
+An explicitly post-hoc, non-promoting diagnosis then removed only the
+deterministic slot panels while retaining all 960 powered opaque-identity
+candidates across atomic tuples, complete source groups, and field spans. Its
+4,096-world identity-only null has 3,393 distinct serialized maxima. Twenty-
+four candidates have diagnostic max-family p<=.05, but only two also satisfy
+every non-null transfer gate—and they are the same formal object at two
+resolutions:
+
+| Anonymous detector | Resolution / opaque ID | Events | Folios | Registers | mean placement residual | held SSE gain | positive-gain folios | diagnostic maxT p |
+|---|---|---:|---:|---:|---:|---:|---:|---:|
+| CMP_FUNCTION_04 | atomic tuple `2f1c5e56e8f0ff459065` | 435 | 84 | 5 | +0.109185 | +5.135914 | 72.6% | 0.000244 |
+| CMP_FUNCTION_04 | source group `c502a1edfafbe3e54262` | 249 | 78 | 5 | +0.174045 | +7.397961 | 64.1% | 0.000244 |
+
+The complete-group ID is exactly the `d`-wrapper realization of the atomic
+tuple ID, so this is **one linked exploratory lead**, not two independent
+findings. Its placement residual is positive on 91.7% of atomic-tuple folios
+and 78.2% of complete-group folios; the complete group is positive in three
+registers, while the atomic object is positive in all five. Exact field spans
+have only seven powered types per signature and yield no corresponding lead.
+
+`CMP_FUNCTION_04` was calibrated against a readable-comparator
+function-word oracle, but that name is not transferred to Voynich. The lead
+may simply identify an unusually recurrent formal group whose equality and
+context profile resemble the comparator detector. Because the diagnostic was
+introduced after discovering the primary null degeneracy, it cannot nominate
+a Voynich functional class. No neighboring-slot, valency, scope, or operator
+interpretation is authorized.
+
+The first execution wrote all score/null tables byte-identically but failed
+while serializing a NumPy integer into the result JSON. The published
+correction records the old/new scorer hashes and the four pre-correction
+output hashes; the rerun reproduced all four exactly. No scientific setting
+changed.
+
+## Decision
 
 The comparator conclusion is:
 
@@ -75,14 +128,14 @@ The comparator conclusion is:
 
 plus:
 
-`FOUR_SECONDARY_SIGNATURES_FROZEN_FOR_ANONYMOUS_MULTI_RESOLUTION_TEST`
+`NO_PRIMARY_TARGET_PROMOTION_NULL_DEGENERATE`
 
-The next stage may apply only those four frozen signatures to the f84-free
-Voynich representation at the four charged resolutions. It must use whole-
-folio holdout and one maxT family over signatures, resolutions, slots, and
-operator families. No score may be called UNTIL, OR, polarity, exclusion, or
-function word in Voynich unless independent transfer later justifies a
-functional class; the initial output is only an anonymous construction score.
+plus one `POSTHOC_NONPROMOTING_OPAQUE_FORMAL_LEAD` represented at two linked
+resolutions. GDT378 does not license a `HEAD_SLOT` or any of the readable
+comparator functions. A confirmation would require a genuinely untouched
+non-f84 target or independently new evidence; the already exposed 91-folio
+panel cannot be repartitioned after the lead is known.
 
-No Voynich row was opened or scored during this comparator pass. No f84 file,
-row, image, text, or formal payload was opened, parsed, retained, or scored.
+No f84 file, row, image, text, or formal payload was opened, parsed, retained,
+or scored in either stage. Independent retained-output validation passes 41/41
+checks.

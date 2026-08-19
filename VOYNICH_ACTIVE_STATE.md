@@ -10016,14 +10016,19 @@ GDT378 extends the calibration to five independent readable domains and seven
 fixed form-blind representations. The construction-level HEAD signature still
 fails: its best scope/horizon representation has a required cross-domain AUC
 floor of .603566, negative structure-over-nuisance gain in CoReMA, PCEEC2 and
-Harleian, and max-family p=1. Four secondary comparator signatures survive a
-stricter pre-target safeguard requiring AUC >= .65 plus positive incremental
-structure gain in three held domains including syntax/non-recipe and
-procedural evidence. They are frozen only as anonymous `CMP_FUNCTION_01--04`
-detectors; their readable-oracle labels must not be imported as Voynich
-functions. The next permitted stage is one charged multi-resolution test of
-those frozen signatures on f84-free GDT327 structure. HEAD is not eligible and
-may not be rescued by changing its representation or threshold.
+Harleian, and max-family p=1. Four secondary comparator signatures passed a
+stricter pre-target safeguard and were applied anonymously at atomic tuple,
+complete source-group, field-span and grammar-slot resolutions. Among 1,064
+powered candidates, zero can be promoted because the required position- and
+closure-preserving global maxT is invariant: one slot candidate is itself
+defined by the conditioned variables, making all 4,096 world maxima identical.
+A disclosed post-hoc identity-only diagnostic isolates one linked formal lead:
+atomic tuple `2f1c5e56e8f0ff459065` and its `d`-wrapper complete-group realization
+`c502a1edfafbe3e54262`, spanning 84/78 folios and all five registers with
+diagnostic maxT p=.000244. This is not a confirmed function and the readable
+comparator label is not transferred. No HEAD_SLOT or other functional class is
+assigned. The exposed panel may not be repartitioned to confirm the lead; new
+non-f84 evidence is required.
 
 ## Runtime and sources
 

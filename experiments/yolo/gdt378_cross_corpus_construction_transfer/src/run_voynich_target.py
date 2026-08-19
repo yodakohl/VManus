@@ -19,6 +19,7 @@ ART = BASE / "artifacts"
 SOURCE = ROOT / "gdt327_joint_tuple_interlinear.tsv"
 FREEZE = ART / "gdt378_voynich_target_design_freeze.json"
 SIGNATURES = ART / "gdt378_secondary_transfer_signature_freeze.json"
+CORRECTION = ART / "gdt378_target_execution_correction.json"
 
 
 def sha(path):
@@ -351,7 +352,9 @@ def memberships(elements, resolution):
 def main():
     freeze = json.loads(FREEZE.read_text())
     signature_freeze = json.loads(SIGNATURES.read_text())
+    correction = json.loads(CORRECTION.read_text())
     assert freeze["status"] == "FROZEN_BEFORE_VOYNICH_TARGET_SCORING" and not freeze["voynich_scored"]
+    assert correction["status"] == "MECHANICAL_SERIALIZATION_CORRECTION_AFTER_SCORES_BEFORE_RESULT" and correction["corrected_scorer_sha256"] == sha(Path(__file__))
     assert sha(SOURCE) == freeze["inputs"][str(SOURCE.relative_to(ROOT))]
     source = read(SOURCE)
     assert len(source) == 8448 and not any(any(row[key].lower().startswith("f84") for key in ("page", "physical_folio", "locus")) for row in source)
@@ -430,10 +433,10 @@ def main():
         mean_residual = float(np.mean(item["residuals"]))
         sd_residual = float(np.std(item["residuals"]))
         statistic = abs(mean_residual) / max(1e-9, sd_residual / math.sqrt(event_count))
-        positive_residual_folios = sum(np.mean(values) > 0 for values in item["folios"].values())
-        positive_residual_registers = sum(np.mean(values) > 0 for values in item["registers"].values())
+        positive_residual_folios = int(sum(np.mean(values) > 0 for values in item["folios"].values()))
+        positive_residual_registers = int(sum(np.mean(values) > 0 for values in item["registers"].values()))
         eligible_gain_folds = len(item["fold_gain"])
-        positive_gain_folds = sum(value > 0 for value in item["fold_gain"].values())
+        positive_gain_folds = int(sum(value > 0 for value in item["fold_gain"].values()))
         candidate_rows.append({
             "signature_id": signature_id, "resolution": resolution, "candidate_family": family, "candidate_id": candidate,
             "events": event_count, "predicted_events": item["predicted_events"], "physical_folios": folio_count,
@@ -557,7 +560,7 @@ def main():
         "null_worlds": freeze["null_worlds"], "null_mobility": mobility,
         "semantic_assignments": 0,
         "f84": {"opened": False, "parsed": False, "retained": False, "scored": False},
-        "inputs": {str(path.relative_to(ROOT)): sha(path) for path in [SOURCE, FREEZE, SIGNATURES]},
+        "inputs": {str(path.relative_to(ROOT)): sha(path) for path in [SOURCE, FREEZE, SIGNATURES, CORRECTION]},
         "outputs": {str(path.relative_to(ROOT)): sha(path) for path in [event_path, candidate_path, summary_path, null_path]},
         "implementation": {str(Path(__file__).relative_to(ROOT)): sha(Path(__file__))},
         "claim_ceiling": "ANONYMOUS_MULTI_RESOLUTION_COMPARATOR_SIGNATURE_TRANSFER_ONLY",

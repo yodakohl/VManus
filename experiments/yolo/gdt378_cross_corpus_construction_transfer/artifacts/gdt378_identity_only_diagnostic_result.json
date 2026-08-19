@@ -1,0 +1,33 @@
+{
+  "claim_ceiling": "POSTHOC_IDENTITY_ONLY_NULL_DIAGNOSTIC_NO_PROMOTION_OR_FUNCTION",
+  "content_hash": "5d4f17f6063d6a46d180fb92802105c405b9a9ecd123e0998d8c476a514065e0",
+  "f84": {
+    "opened": false,
+    "parsed": false,
+    "retained": false,
+    "scored": false
+  },
+  "identity_only_null_unique_maxima": 3393,
+  "implementation": {
+    "experiments/yolo/gdt378_cross_corpus_construction_transfer/src/diagnose_identity_only_null.py": "3c3282293bfb6c0128785e4437e9a1fec92bbd9a60e287f139ad34b2bfe27723"
+  },
+  "inputs": {
+    "experiments/yolo/gdt378_cross_corpus_construction_transfer/artifacts/gdt378_voynich_candidate_atlas.tsv": "64e3fb043730b13436a70a920bbfc1618f418da9514713878403e7a47213f46c",
+    "experiments/yolo/gdt378_cross_corpus_construction_transfer/artifacts/gdt378_voynich_event_scores.tsv.gz": "77bf3db353b16531115a0e5994b5e6afb5c7d2b6a0af95191dbae5dfe2da8b80",
+    "experiments/yolo/gdt378_cross_corpus_construction_transfer/artifacts/gdt378_voynich_null.tsv.gz": "7e304cddd0044608a30e00543122b867af475a5033233d9b8d5ad012e31de8ef",
+    "experiments/yolo/gdt378_cross_corpus_construction_transfer/artifacts/gdt378_voynich_target_result.json": "8e8b0bd6b308bf15a4b63fe0a960d91a22f732fbd8d285b00698f6c37fb35c2b",
+    "gdt327_joint_tuple_interlinear.tsv": "7eba46774be44992064cc114f67329723ac7bf589321b0d763fb7f7f748cc1e9"
+  },
+  "minimum_identity_only_p": 0.000244081035,
+  "outputs": {
+    "experiments/yolo/gdt378_cross_corpus_construction_transfer/artifacts/gdt378_identity_only_diagnostic.tsv": "3ae3b17b4bc3d7cb4af5e08d62d62c0b1f57620e56503478ba0dcfd18838e3b9",
+    "experiments/yolo/gdt378_cross_corpus_construction_transfer/artifacts/gdt378_identity_only_null.tsv.gz": "66d30e21ab2cdfa6c42ccc58f0589b8289f4c1bfb1e15670f817c7419a79c039"
+  },
+  "powered_identity_candidates": 960,
+  "primary_decision_unchanged": true,
+  "primary_null_unique_maxima": 1,
+  "reason": "The frozen primary maxT is invariant because slot labels are fixed by the exact position/closure strata; this diagnostic excludes only the deterministic slot panels and cannot promote a candidate.",
+  "schema": "GDT378_IDENTITY_ONLY_DIAGNOSTIC_V1",
+  "semantic_assignments": 0,
+  "status": "POSTHOC_NONPROMOTING_NULL_DIAGNOSIS"
+}
