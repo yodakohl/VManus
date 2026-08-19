@@ -9990,6 +9990,28 @@ full-library null is p=.368562. It remains WEAK and no candidate is promoted.
 Do not rerun this exact insertion endpoint by changing smoothing, hashes,
 thresholds, or tuple subsets.
 
+GDT375 then re-ranked the route around fifteen comparator-derived families,
+each registered separately rather than buried under the earlier broad labels.
+GDT376 calibrated them on 27,349 observable elements from six held CoReMA
+collections while hiding functional tags, exclusion/comparison annotations,
+and parent links. Only the anonymous `PREDICATE_HEAD_WITH_DEPENDENTS` endpoint
+passed: structure gained 845.705 bits over nuisance and the combined model
+gained 2,239.561 bits over its best aggregate baseline, with 5/6 positive
+collections and max-family p=.000976. High-valency, parented-dependent, REF,
+TIME, ALTERNATIVE, CLOSER, exclusion, analogy, comparison, and a pooled
+function-word class did not pass their full stronger-baseline gates.
+
+GDT377 transferred that one frozen signature to the f84-free GDT327 atomic
+tuple inventory. The 111 powered exact tuples show a nonrandom relative
+context concentration (maximum structure-minus-nuisance delta .216334 versus
+matched tuple-ID shuffle p=.003417), but zero tuples reach mean comparator
+probability .5 and zero reach the frozen 75% cross-folio consistency gate. The
+strongest powered tuple averages only .326614 and clears .5 on 2/12 folios.
+No functional class is assigned. Do not lower the gates, promote the relative
+maximum as a predicate, or infer action, POS, valency, dependents, meanings, or
+translation. The exact comparator-first local-head transfer endpoint is now
+closed; the broader ranked roadmap remains a registry, not evidence.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU
