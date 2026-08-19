@@ -1,0 +1,11 @@
+target	counterexample	implication
+ALTERNATIVE	structure gains 53.621 bits over nuisance but loses 365.172 bits to opaque identity and has 0/6 positive best-baseline folds	anonymous state structure does not independently recover ALTERNATIVE
+TIME	pooled AUC is 0.846 but structure loses 284.472 bits to position/length nuisance	good ranking is not transferable incremental information
+REF	pooled AUC is 0.804 and max-family p is 0.000976 but structure loses 48.500 bits to nuisance and combined loses 110.163 bits to opaque identity	REF/anaphora signature is not calibrated
+CLOSER	combined model gains 589.001 bits over the best aggregate baseline and is positive in 5/6 folds but structure alone loses 1283.867 bits to nuisance	closure is dominated by generic record position rather than the requested form-blind state signature
+EXCLUSION	structure gains 31.532 bits over nuisance but combined loses 129.592 bits to opaque identity	exclusion is identity-conditioned rather than a transferable inverse-state detector
+ANALOGY	structure gains 43.565 bits over nuisance but only 2/6 folds beat the stronger baseline	analogy signal is collection-unstable
+COMPARISON	structure gains only 8.380 bits over nuisance and combined loses 421.674 bits to the best baseline	comparison detector does not transfer
+HIGH_VALENCY_HEAD	structure gains 92.488 bits over nuisance but combined loses 4104.316 bits and has 0/6 positive folds	the promoted head detector does not recover valency magnitude
+PARENTED_DEPENDENT	structure gains 569.811 bits over nuisance but combined loses 708.032 bits to the best baseline	head-like detection must not be broadened to argument/dependent labeling
+ANY_FUNCTIONAL_CLASS	structure gains 348.254 bits over nuisance but combined loses 1763.769 bits to opaque identity	there is no generic function-word detector

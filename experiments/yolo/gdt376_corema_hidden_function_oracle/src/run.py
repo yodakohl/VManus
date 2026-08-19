@@ -138,9 +138,9 @@ def main():
     summary=[]
     observed={}
     for target in TARGETS:
-        inds=sorted(allpred[target]);y=Y[target][inds];P={m:np.array([allpred[target][i][m] for i in inds]) for m in ['PREVALENCE','NUISANCE','OPAQUE_ID','STRUCTURE','STRUCTURE_PLUS_ID']};B={m:bits(y,p) for m,p in P.items()};best=np.minimum(-np.log2(np.clip(P['NUISANCE'],1e-9,1)) * y - np.log2(np.clip(1-P['NUISANCE'],1e-9,1))*(1-y),-np.log2(np.clip(P['OPAQUE_ID'],1e-9,1))*y-np.log2(np.clip(1-P['OPAQUE_ID'],1e-9,1))*(1-y)).sum();gain_best=float(best-B['STRUCTURE_PLUS_ID']);observed[target]=gain_best
+        inds=sorted(allpred[target]);y=Y[target][inds];P={m:np.array([allpred[target][i][m] for i in inds]) for m in ['PREVALENCE','NUISANCE','OPAQUE_ID','STRUCTURE','STRUCTURE_PLUS_ID']};B={m:bits(y,p) for m,p in P.items()};gain_best=float(min(B['NUISANCE'],B['OPAQUE_ID'])-B['STRUCTURE_PLUS_ID']);observed[target]=gain_best
         folds=[r for r in foldrows if r['target']==target];by={(r['held_collection'],r['model']):float(r['bits']) for r in folds};posfold=sum(by[(c,'STRUCTURE_PLUS_ID')]<min(by[(c,'NUISANCE')],by[(c,'OPAQUE_ID')]) for c in collections);positive_cols=sum(any(r['target']==target and r['held_collection']==c and int(r['positives'])>0 for r in folds) for c in collections);prev=float(y.mean());a=auc(y,P['STRUCTURE_PLUS_ID']);a_p=ap(y,P['STRUCTURE_PLUS_ID'])
-        summary.append({'target':target,'n':len(inds),'positives':int(y.sum()),'positive_collections':positive_cols,'structure_gain_vs_nuisance_bits':f'{B["NUISANCE"]-B["STRUCTURE"]:.9f}','combined_gain_vs_identity_bits':f'{B["OPAQUE_ID"]-B["STRUCTURE_PLUS_ID"]:.9f}','combined_gain_vs_best_rowwise_baseline_bits':f'{gain_best:.9f}','positive_gain_folds':posfold,'pooled_auc':f'{a:.9f}','pooled_average_precision':f'{a_p:.9f}','prevalence':f'{prev:.9f}','ap_over_prevalence':f'{a_p/max(prev,1e-12):.9f}'})
+        summary.append({'target':target,'n':len(inds),'positives':int(y.sum()),'positive_collections':positive_cols,'structure_gain_vs_nuisance_bits':f'{B["NUISANCE"]-B["STRUCTURE"]:.9f}','combined_gain_vs_identity_bits':f'{B["OPAQUE_ID"]-B["STRUCTURE_PLUS_ID"]:.9f}','combined_gain_vs_best_aggregate_baseline_bits':f'{gain_best:.9f}','positive_gain_folds':posfold,'pooled_auc':f'{a:.9f}','pooled_average_precision':f'{a_p:.9f}','prevalence':f'{prev:.9f}','ap_over_prevalence':f'{a_p/max(prev,1e-12):.9f}'})
     # Fixed-prediction, nuisance-stratified held-label null; max across all endpoints.
     indices={t:sorted(allpred[t]) for t in TARGETS};strata=defaultdict(list)
     for i in indices[TARGETS[0]]:
@@ -162,11 +162,15 @@ def main():
     for c in contracts:
         eps=[x.strip() for x in c['hidden_oracle_endpoints'].split(';')];matched=sorted(set(eps)&promoted_targets)
         transfer.append({'hypothesis_family':c['hypothesis_family'],'oracle_endpoints':c['hidden_oracle_endpoints'],'promoted_endpoints':';'.join(matched),'transfer_to_voynich':'YES' if matched else 'NO','frozen_signature':c['form_blind_signature'],'semantic_gloss':'UNASSIGNED'})
-    write_tsv(ART/'gdt376_fold_scores.tsv',foldrows);write_tsv(ART/'gdt376_held_predictions.tsv',predrows);write_tsv(ART/'gdt376_oracle_endpoint_summary.tsv',summary);write_tsv(ART/'gdt376_transfer_gate.tsv',transfer)
+    write_tsv(ART/'gdt376_fold_scores.tsv',foldrows);write_tsv(ART/'gdt376_oracle_endpoint_summary.tsv',summary);write_tsv(ART/'gdt376_transfer_gate.tsv',transfer)
     nullrows=[{'target':t,'observed_gain_bits':f'{observed[t]:.9f}','local_p':next(r['local_p'] for r in summary if r['target']==t),'max_family_p':next(r['max_family_p'] for r in summary if r['target']==t),'null_worlds':1024} for t in TARGETS];write_tsv(ART/'gdt376_null.tsv',nullrows)
-    outputs=[ART/x for x in ['gdt376_fold_scores.tsv','gdt376_held_predictions.tsv','gdt376_oracle_endpoint_summary.tsv','gdt376_transfer_gate.tsv','gdt376_null.tsv']]
     promoted=[r['target'] for r in summary if r['promoted']=='YES'];families=[r['hypothesis_family'] for r in transfer if r['transfer_to_voynich']=='YES']
-    result={'schema':'GDT376_RESULT_V1','status':'FORM_BLIND_FUNCTIONAL_SIGNATURES_CALIBRATED' if promoted else 'NO_FORM_BLIND_FUNCTIONAL_SIGNATURE_GENERALIZED','rows_scored':sum(valid),'collections':collections,'targets':len(TARGETS),'promoted_endpoints':promoted,'transferable_families':families,'voynich_scored':False,'f84_accessed':False,'design_sha256':sha(DESIGN),'inputs':{str(p.relative_to(ROOT)):sha(p) for p in [OBS,ORACLE,CONTRACT]},'outputs':{str(p.relative_to(ROOT)):sha(p) for p in outputs},'implementation':{str((BASE/'src/run.py').relative_to(ROOT)):sha(BASE/'src/run.py')},'claim_ceiling':'COMPARATOR_HELD_FUNCTIONAL_DETECTOR_CALIBRATION_ONLY'}
+    promoted_predictions=[row for row in predrows if row['target'] in promoted]
+    write_tsv(ART/'gdt376_promoted_endpoint_predictions.tsv',promoted_predictions)
+    legacy_predictions=ART/'gdt376_held_predictions.tsv'
+    if legacy_predictions.exists():legacy_predictions.unlink()
+    outputs=[ART/x for x in ['gdt376_fold_scores.tsv','gdt376_promoted_endpoint_predictions.tsv','gdt376_oracle_endpoint_summary.tsv','gdt376_transfer_gate.tsv','gdt376_null.tsv']]
+    result={'schema':'GDT376_RESULT_V1','status':'FORM_BLIND_FUNCTIONAL_SIGNATURES_CALIBRATED' if promoted else 'NO_FORM_BLIND_FUNCTIONAL_SIGNATURE_GENERALIZED','rows_scored':int(sum(valid)),'collections':collections,'targets':len(TARGETS),'promoted_endpoints':promoted,'transferable_families':families,'voynich_scored':False,'f84_accessed':False,'design_sha256':sha(DESIGN),'inputs':{str(p.relative_to(ROOT)):sha(p) for p in [OBS,ORACLE,CONTRACT]},'outputs':{str(p.relative_to(ROOT)):sha(p) for p in outputs},'implementation':{str((BASE/'src/run.py').relative_to(ROOT)):sha(BASE/'src/run.py')},'claim_ceiling':'COMPARATOR_HELD_FUNCTIONAL_DETECTOR_CALIBRATION_ONLY'}
     result['content_hash']=hashlib.sha256(json.dumps(result,sort_keys=True,separators=(',',':')).encode()).hexdigest();(ART/'gdt376_result.json').write_text(json.dumps(result,indent=2,sort_keys=True)+'\n')
     print(json.dumps({'status':result['status'],'promoted':promoted,'families':families},sort_keys=True))
 if __name__=='__main__':main()
