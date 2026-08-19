@@ -1,0 +1,122 @@
+{
+  "channel_treatments": [
+    "EVIDENCE",
+    "CONDITIONED_NUISANCE",
+    "OMITTED"
+  ],
+  "confirmation_domains": [
+    "HARLEIAN_COOKERY",
+    "QUINTE_ESSENCE"
+  ],
+  "content_hash": "617cb932188e8b1518ea51c19e59f52b7cc2d5b36617d3b1bb75c28ff5bfb093",
+  "development_domains": [
+    "COREMA",
+    "PCEEC2",
+    "CURIOUS_CURES"
+  ],
+  "documents": {
+    "experiments/yolo/gdt383_repaired_local_role_transfer/METHOD.md": "ac3c8a28f70cca9f237adaf13aa189d224595bbc24df27660394163b55645079",
+    "experiments/yolo/gdt383_repaired_local_role_transfer/README.md": "daa24ef75b18bbafe5366d2916c501b01525d6632a2390e90c2cfad82ede3dd4",
+    "experiments/yolo/gdt383_repaired_local_role_transfer/experiment.json": "6b5b12a901f0b16a4102c1a211f1682a9a1d45eee4172e36a0d29e43cfa896a7"
+  },
+  "downstream_gate": {
+    "coordinator_required": true,
+    "max_family_p": 0.05,
+    "minimum_roles": 4,
+    "positive_each_confirmation_domain": true
+  },
+  "endpoints": [
+    "FUNCTION_WORD",
+    "ALTERNATIVE_OR",
+    "POLARITY_EXCLUSION",
+    "UNTIL_STATE_GATE",
+    "COORDINATOR",
+    "REF_ANAPHORA"
+  ],
+  "f84": {
+    "opened": false,
+    "parsed": false,
+    "retained": false,
+    "scored": false
+  },
+  "gdt381_target_artifacts_allowed": false,
+  "grammar_channels": [
+    "FREQUENCY",
+    "RECURRENCE",
+    "LINE_FIELD_POSITION",
+    "RECORD_RELATIVE_POSITION",
+    "BOUNDARY_CLOSURE",
+    "PREVIOUS_STATE",
+    "RECORD_LENGTH"
+  ],
+  "implementation": {
+    "experiments/yolo/gdt383_repaired_local_role_transfer/src/freeze_stage_a.py": "47620fbb44139ff99d39d85e2666d352017a215716f8565ef272e1354ceb9b08"
+  },
+  "inputs": {
+    "encoded_observation": {
+      "experiments/yolo/gdt382_voynichification_methodology_audit/artifacts/gdt382_voynichified_observation_layer.tsv.gz": "4c20dc0dd234f9b1947ce9c81d9d1c8645e30a1fd81321b6a9be755b3d229896"
+    },
+    "gdt382_result": {
+      "experiments/yolo/gdt382_voynichification_methodology_audit/artifacts/gdt382_result.json": "1fc00c89432a42f63dffe5e42b49b0393a4db2f6963878c726aef0876bf751c7"
+    },
+    "hidden_oracle_commitment": {
+      "experiments/yolo/gdt378_cross_corpus_construction_transfer/artifacts/gdt378_hidden_oracle.tsv.gz": "35568bb5ae417bd725af03abbd09ce7d7dc3fbf3b64fb77bf00299603893de02"
+    }
+  },
+  "leakage_ceiling_source_only_auc": 0.65,
+  "null": {
+    "strata": [
+      "domain",
+      "outer_fold",
+      "record_length_bin",
+      "pivot_position_bin",
+      "pivot_boundary"
+    ],
+    "type": "FIXED_CROSSFIT_PREDICTION_MAX_FAMILY",
+    "worlds": 512
+  },
+  "outcome_y": "STRICTLY_J_PLUS_1_TO_J_PLUS_3_ONLY",
+  "post_only_outcomes": [
+    "POST_RETURN_ABC_A",
+    "POST_PERSIST_THEN_EXIT",
+    "POST_HOMOGENEOUS_3",
+    "POST_LOW_DIVERSITY_3",
+    "POST_ANY_BOUNDARY_3",
+    "POST_WRAPPER_CHANGE_3",
+    "POST_RENDERER_STABLE_3",
+    "POST_TERMINUS_3"
+  ],
+  "realization_gate": {
+    "cells": 42,
+    "minimum_auc": 0.9,
+    "positive_gain_required": true
+  },
+  "realization_modes": [
+    "FREE_TOKEN",
+    "PREFIX",
+    "SUFFIX",
+    "WRAPPER_ALTERNATION",
+    "BOUNDARY_CHOICE",
+    "POSITIONAL_ALTERNATION",
+    "ZERO_SUPPLETIVE"
+  ],
+  "resolutions": [
+    "HOST_IDENTITY",
+    "COMPLETE_RENDERED_GROUP",
+    "CONSTRUCTION_STATE",
+    "COMPOSITE_JOINT_STATE",
+    "SHORT_CONSTRUCTION_SPAN"
+  ],
+  "role_gate": {
+    "hierarchy_minus_exact_joint_auc": 0.02,
+    "hierarchy_minus_universal_auc": 0.1,
+    "macro_auc": 0.8,
+    "max_family_p": 0.05,
+    "positive_gain_domains": 3
+  },
+  "schema": "GDT383_STAGE_A_FREEZE_V1",
+  "source_x": "PIVOT_AND_PRE_PIVOT_ONLY",
+  "status": "FROZEN_BEFORE_POSITIVE_CONTROL_EVALUATION",
+  "voynich_rows_read": 0,
+  "voynich_stage_b_authorized": false
+}
