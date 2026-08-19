@@ -27,10 +27,11 @@ overlaps are only 2, 6, and 7 loci respectively.
   at least eight union pages and absence on at least eight.
 - Exclude exact families, surfaces, member IDs, roots, PAGE_HOSTs, tuples,
   EVA, and all meanings.
-- Within every held fold, regress the formal matrix on quire, page side,
-  source-group/locus volume, mean source-group length, label rate, and
-  reading-alternative rate using ridge 8. Standardize the residual using the
-  training fold only.
+- Within every held fold, regress the formal matrix on Currier/hand, quire,
+  folio-rank quartile, page side, source-group/locus volume, mean source-group
+  length, label rate, and reading-alternative rate using ridge 8. Standardize
+  the residual using the training fold only. In an endpoint where a nuisance
+  is invariant, its column is inert rather than omitted adaptively.
 - Learn PCA on training residuals only. Score fixed dimensions 2, 4, and 8.
 - Use a smoothed nearest-class-centroid likelihood with equal spherical
   covariance. Compare its held codelength with the training class-prior code.
