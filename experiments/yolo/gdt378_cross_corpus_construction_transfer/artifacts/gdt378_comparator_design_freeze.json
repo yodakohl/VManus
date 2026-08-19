@@ -1,0 +1,67 @@
+{
+  "claim_ceiling": "FORM_BLIND_COMPARATOR_OBSERVATION_AND_HIDDEN_ORACLE_FREEZE_ONLY",
+  "content_hash": "ce3cd41da47394d9e7d0fb17436c64de47bf0c05760adee2248f3e98188ff120",
+  "domains": [
+    "COREMA",
+    "PCEEC2",
+    "CURIOUS_CURES",
+    "HARLEIAN_COOKERY",
+    "QUINTE_ESSENCE"
+  ],
+  "f84": {
+    "opened": false,
+    "parsed": false,
+    "retained": false,
+    "scored": false
+  },
+  "forbidden_observation_fields": [
+    "surface",
+    "word",
+    "translation",
+    "pos",
+    "parse",
+    "role",
+    "concept_id",
+    "function_label",
+    "parent_link"
+  ],
+  "head_gate": {
+    "max_family_p_max": 0.05,
+    "minimum_domain_auc": 0.65,
+    "minimum_other_medical_or_procedural_domains": 1,
+    "positive_structure_gain": true,
+    "required_domains": [
+      "COREMA",
+      "PCEEC2"
+    ]
+  },
+  "implementation": {
+    "experiments/yolo/gdt378_cross_corpus_construction_transfer/src/freeze_comparator_layers.py": "ab6b0df798440a97dcd41799013e62c4c954698dc5e3778d99d75d0255d0abdc"
+  },
+  "inputs": {
+    "corema_oracle": "170afc09327d7e2589107d1f4bd28f7725bfb8bcedcdd84bb9e7fb1c2c7f24ec",
+    "gdt376_observation": "1af98e15019d2ec92c1f81fe8ea2568daedc568ccac822add150435e2650a097",
+    "oracle_contract": "6294285e5ce31231debb34ae0974d1378e759443b3dcab4f4548d3cdeb84dabd",
+    "source_freeze": "52e2aa40dbb62b29f285a2e54b81b459c17711b74fedc886aa765ecf4585e569"
+  },
+  "outputs": {
+    "experiments/yolo/gdt378_cross_corpus_construction_transfer/artifacts/gdt378_comparator_observation_layer.tsv.gz": "1eb9111c9d0803e8f2b51a2b5689d0986ea0d75108bc1be415ca79ad66fdbe0e",
+    "experiments/yolo/gdt378_cross_corpus_construction_transfer/artifacts/gdt378_endpoint_coverage.tsv": "f6e81385f358f8e20f02b13210d374fcadae0a8cee22cbd4e363d615f2a00d3f",
+    "experiments/yolo/gdt378_cross_corpus_construction_transfer/artifacts/gdt378_hidden_oracle.tsv.gz": "35568bb5ae417bd725af03abbd09ce7d7dc3fbf3b64fb77bf00299603893de02"
+  },
+  "records": 3235,
+  "representations": [
+    "ABSOLUTE_PROBABILITY",
+    "WITHIN_RECORD_RANK",
+    "STRUCTURE_MINUS_NUISANCE_DELTA",
+    "DOMAIN_STANDARDIZED",
+    "SCOPE_HORIZON",
+    "NEIGHBOR_RECURRENCE",
+    "FIXED_RANK_COMBINATION"
+  ],
+  "rows": 133183,
+  "schema": "GDT378_COMPARATOR_LAYER_FREEZE_V1",
+  "status": "FORM_BLIND_LAYERS_FROZEN_BEFORE_SCORING",
+  "voynich_rows_read": 0,
+  "voynich_scored": false
+}

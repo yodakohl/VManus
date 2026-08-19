@@ -1,0 +1,36 @@
+{
+  "availability": {
+    "ALTERNATIVE_OR": ["COREMA", "PCEEC2", "CURIOUS_CURES", "HARLEIAN_COOKERY", "QUINTE_ESSENCE"],
+    "CLOSER": ["COREMA", "CURIOUS_CURES", "HARLEIAN_COOKERY", "QUINTE_ESSENCE"],
+    "COMPARISON": ["COREMA", "PCEEC2", "CURIOUS_CURES", "HARLEIAN_COOKERY", "QUINTE_ESSENCE"],
+    "COORDINATOR": ["PCEEC2", "CURIOUS_CURES", "HARLEIAN_COOKERY", "QUINTE_ESSENCE"],
+    "CORRELATIVE_MEMBER": ["PCEEC2", "CURIOUS_CURES", "HARLEIAN_COOKERY", "QUINTE_ESSENCE"],
+    "FUNCTION_WORD": ["PCEEC2", "CURIOUS_CURES", "HARLEIAN_COOKERY", "QUINTE_ESSENCE"],
+    "HEAD_WITH_DEPENDENTS": ["COREMA", "PCEEC2", "CURIOUS_CURES", "HARLEIAN_COOKERY", "QUINTE_ESSENCE"],
+    "HIGH_VALENCY_HEAD": ["COREMA", "PCEEC2"],
+    "NEXT_RESUME": ["PCEEC2", "CURIOUS_CURES", "HARLEIAN_COOKERY", "QUINTE_ESSENCE"],
+    "POLARITY_EXCLUSION": ["COREMA", "PCEEC2", "CURIOUS_CURES", "HARLEIAN_COOKERY", "QUINTE_ESSENCE"],
+    "REF_ANAPHORA": ["COREMA", "PCEEC2", "CURIOUS_CURES", "HARLEIAN_COOKERY", "QUINTE_ESSENCE"],
+    "STATE_TRANSITION": ["CURIOUS_CURES", "HARLEIAN_COOKERY", "QUINTE_ESSENCE"],
+    "UNTIL_STATE_GATE": ["COREMA", "PCEEC2", "CURIOUS_CURES", "HARLEIAN_COOKERY", "QUINTE_ESSENCE"]
+  },
+  "head_stems": [
+    "tak", "put", "mak", "set", "seeth", "seth", "boil", "boyl", "grynd", "grind", "strain", "strayn", "cast", "medl", "meng", "mix", "let", "lat", "wash", "waisch", "give", "yeu", "draw", "distil", "kep", "keep", "serv", "cut", "kyt", "break", "brek", "bren", "calc", "rectif", "dissolv", "stamp", "bray", "temper", "clarif", "warm", "heat", "hete", "colour", "colou", "dry", "pore", "pour", "lay", "bind", "cover", "drink", "drynk", "use", "anoint", "apply", "hold", "remove", "add", "chop", "pare", "roast", "rost", "fry", "smyte", "hack"
+  ],
+  "lexical_sets": {
+    "ALTERNATIVE_OR": ["or", "ellis", "elles", "else"],
+    "CLOSER": ["explicit", "amen", "forth", "forthe"],
+    "COMPARISON": ["like", "lyke", "same", "selfsame"],
+    "COORDINATOR": ["and"],
+    "NEXT_RESUME": ["then", "thanne", "afterward", "afterwarde", "next"],
+    "POLARITY_EXCLUSION": ["not", "nought", "no", "ne", "without", "withoute", "except"],
+    "REF_ANAPHORA": ["thereof", "therof", "aforeseid", "aforeseyd", "foresaid", "same"],
+    "STATE_TRANSITION": ["become", "became", "wax", "waxe", "remain", "remayne", "cool", "kele", "dry", "thicken", "thik"],
+    "UNTIL_STATE_GATE": ["until", "til", "till", "tyl"]
+  },
+  "pceec_head_rule": "for each IP node choose every lexical verbal leaf in a direct non-IP branch, or the last auxiliary if no lexical verb; require at least one dependent-category sibling",
+  "pceec_records_per_file": 12,
+  "procedural_record_max_tokens": 180,
+  "schema": "GDT378_ORACLE_CONTRACT_V1",
+  "status": "FROZEN_BEFORE_DETECTOR_SCORING"
+}
