@@ -115,6 +115,18 @@ Updated: 2026-08-19. This is the full claim registry. For routine work, read
   observation layer. It is not evidence for a unique authorial compiler,
   morphology, language, meaning, or translation. The internal operator route
   remains closed and f84 remained unaccessed.
+- GDT348 supplies the frozen authored/oracle coordinate fields that GDT347's
+  blind control parser could not recover. On the same five held source units
+  per system, the unchanged Voynich weights worsen lexical A by 82.19 bits,
+  factorial B by 1,403.70, and human-grown B2 by 788.29; every control is
+  negative on 5/5 units and exact recovery is unchanged. The nominal B2
+  `p=.0403` compares one negative score with still more-negative null worlds
+  and is not transfer evidence. This removes the zero-DY/inner-D parser excuse
+  for the mapped oracle analogues, while the partial category crosswalk and
+  omitted synthetic fields prevent a unique-compiler claim. Retain only a
+  manuscript-specific convention inside the current coordinate definition;
+  do not reopen the internal operator route. No new Voynich score or f84 access
+  occurred.
 - A frozen synthetic-instrument calibration now limits how opaque PAGE_HOST
   negatives may be interpreted. On one real medieval medical source, a true
   injective 2–3-character concept codebook lost every held

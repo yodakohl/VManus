@@ -1,13 +1,14 @@
 {
   "artifact_policy": {"large_artifact_justification": "", "max_inline_bytes": 5000000},
   "claim_ceiling": "Oracle-coordinate instrument calibration only; no authorial compiler, semantics, PAGE_HOST factorization, tuple merge, word, morphology, language, plaintext, translation, or f84 result.",
-  "commands": {"run": "python3 experiments/yolo/gdt348_oracle_coordinate_transport_calibration/src/freeze.py", "validate": "python3 experiments/yolo/gdt348_oracle_coordinate_transport_calibration/src/validate_freeze.py"},
+  "commands": {"run": "python3 experiments/yolo/gdt348_oracle_coordinate_transport_calibration/src/run.py", "validate": "python3 experiments/yolo/gdt348_oracle_coordinate_transport_calibration/src/validate.py"},
   "created": "2026-08-19",
   "dependencies": ["GDT170", "GDT172", "GDT173", "GDT345", "GDT347"],
   "experiment_id": "GDT348",
   "inputs": [
     {"path": "experiments/yolo/gdt348_oracle_coordinate_transport_calibration/METHOD.md", "role": "public oracle-transport design freeze", "sha256": "a94057b146793781c46e3d05f137c588cda18b55176ef4b8ba2fa901dec8d901"},
     {"path": "experiments/yolo/gdt348_oracle_coordinate_transport_calibration/SOURCE_AUDIT.md", "role": "frozen-control and oracle-use audit", "sha256": "d2f8d73e054309caaec5adf7a1a026b2fb7e617f70db5f400131bdf1fc804b20"},
+    {"path": "experiments/yolo/gdt348_oracle_coordinate_transport_calibration/CORRECTION.md", "role": "prepublication status and precision corrections", "sha256": "24af4dd2c1f316df96845714c50493b7912ac9e340cf78a0eba0e4ae0010ec8e"},
     {"path": "experiments/yolo/gdt347_fixed_graph_control_transport/artifacts/gdt347_frozen_graph.json", "role": "unchanged Voynich graph topology and weights", "sha256": "6191e2892da868730f837e5bee43a1ecbde897f7a65000c7c744471f0c4501db"},
     {"path": "experiments/yolo/gdt345_productive_operator_transfer/artifacts/gdt345_transition_inventory.tsv", "role": "Voynich training right-family rank only", "sha256": "5a5cddaab60013fdd44e83acd1d7cf77c91f001fcefb65389e62358891c39d97"},
     {"path": "gdt172_sealed_oracle.json.gz", "role": "frozen lexical-A and factorial-B authored coordinates", "sha256": "622fb24dbc78fc65439d8e49657b4fa885c36d22fcce9ae0caee538db12177bd"},
@@ -16,20 +17,30 @@
     {"path": "gdt173_b2_observation_corpus.json.gz", "role": "frozen B2 layout/order observation layer", "sha256": "1985e62c56a74131ee01f05e707c37f8b18487bb9552b39474f3c62b0cf89872"}
   ],
   "outputs": [
-    {"path": "experiments/yolo/gdt348_oracle_coordinate_transport_calibration/README.md", "role": "experiment entry point", "sha256": "23876d371d05010f5541035d9fed88c67fa6d70940e882c71a080960a5602bff"},
-    {"path": "experiments/yolo/gdt348_oracle_coordinate_transport_calibration/artifacts/README.md", "role": "artifact index", "sha256": "5aa4e0ab0506ee5576182f138cb29296743346054b2f98c3def88da61cbc7b23"},
+    {"path": "experiments/yolo/gdt348_oracle_coordinate_transport_calibration/README.md", "role": "experiment entry point", "sha256": "dc660f1c52282678d8c6aefdb5df48bdf4c7afb80560f480d625f12f645ab185"},
+    {"path": "experiments/yolo/gdt348_oracle_coordinate_transport_calibration/REPORT.md", "role": "oracle-coordinate transport result and ceiling", "sha256": "890b6cd4b48ca9a5fb535700b05c22d746bd28d321cf0ae27f666546ce03bd2b"},
+    {"path": "experiments/yolo/gdt348_oracle_coordinate_transport_calibration/artifacts/README.md", "role": "artifact index", "sha256": "176a70cc2728e1392a32929b79ed713eb2057626f35419efa858909e0c1e0632"},
     {"path": "experiments/yolo/gdt348_oracle_coordinate_transport_calibration/artifacts/gdt348_design.json", "role": "frozen split graph and crosswalk", "sha256": "ecfc42a4249cd1bcf31a0f42cadc9566ed055913d0f34d0f814094c759d6aaaf"},
     {"path": "experiments/yolo/gdt348_oracle_coordinate_transport_calibration/artifacts/gdt348_oracle_capacity.tsv", "role": "score-blind coordinate capacity", "sha256": "3204e0594907db0938c277a7637396a9e2f031524492ff4048c30f0053b7f01f"},
     {"path": "experiments/yolo/gdt348_oracle_coordinate_transport_calibration/artifacts/gdt348_freeze_validation.json", "role": "independent freeze validation", "sha256": "60a59db5f6ed0af54d3c9eefc984a45cdd584355e42f8ffe999c2c8ecc7de548"},
+    {"path": "experiments/yolo/gdt348_oracle_coordinate_transport_calibration/artifacts/gdt348_panel_scores.tsv", "role": "held oracle-control scores", "sha256": "53a92fe78619f9a6f6af109de1bd9b28e269d2441c91930d5dec2f67644ea2b8"},
+    {"path": "experiments/yolo/gdt348_oracle_coordinate_transport_calibration/artifacts/gdt348_unit_scores.tsv", "role": "held source-unit scores", "sha256": "5ee3a76a516b4afba933f4851400bc8da2acaa3ba272f621de73625771366006"},
+    {"path": "experiments/yolo/gdt348_oracle_coordinate_transport_calibration/artifacts/gdt348_edge_scores.tsv", "role": "fixed-edge decomposition", "sha256": "e8109ee5f84830c9b5ccf57e9245c74fe6b247c328b5995740438a7e5067f4e6"},
+    {"path": "experiments/yolo/gdt348_oracle_coordinate_transport_calibration/artifacts/gdt348_null.tsv", "role": "coupling-destruction worlds", "sha256": "92bd478add4937ef8afdd1cb3bd217379240aa04bb39c1896757783d72b10cae"},
+    {"path": "experiments/yolo/gdt348_oracle_coordinate_transport_calibration/artifacts/gdt348_counterexamples.tsv", "role": "comparability and claim limits", "sha256": "1ddb8402b18ef708d06b80b55d66ed51f55bc5b1443a58ce6024d5fbbe5e3fee"},
+    {"path": "experiments/yolo/gdt348_oracle_coordinate_transport_calibration/artifacts/gdt348_result.json", "role": "compact authoritative result", "sha256": "2da554c6aea96631abe9c4a97733d148818c2605beb9d995600b9226280b8930"},
+    {"path": "experiments/yolo/gdt348_oracle_coordinate_transport_calibration/artifacts/gdt348_validation.json", "role": "independent source and score-accounting validation", "sha256": "37d0c419e458a7259db3ac816a5b18110f0f0d333640d5d294153d078f9ad799"},
     {"path": "experiments/yolo/gdt348_oracle_coordinate_transport_calibration/src/freeze.py", "role": "public freeze producer", "sha256": "d6d8bead922576104aee8735bdd303aee8c9543754d65313b1e54221b9e9a954"},
-    {"path": "experiments/yolo/gdt348_oracle_coordinate_transport_calibration/src/validate_freeze.py", "role": "independent freeze validator", "sha256": "b55baf8ba23beb70ba098184485f78d764b9e1ab8a218f95c76aa0b8d5107660"}
+    {"path": "experiments/yolo/gdt348_oracle_coordinate_transport_calibration/src/validate_freeze.py", "role": "independent freeze validator", "sha256": "b55baf8ba23beb70ba098184485f78d764b9e1ab8a218f95c76aa0b8d5107660"},
+    {"path": "experiments/yolo/gdt348_oracle_coordinate_transport_calibration/src/run.py", "role": "public fixed-weight scorer", "sha256": "6d815b7223e0971a48a1c462b2123310abe49dd2a3501d6d3ea6afe28c018855"},
+    {"path": "experiments/yolo/gdt348_oracle_coordinate_transport_calibration/src/validate.py", "role": "independent final validator", "sha256": "d1e31a4a3bdab836b5bf3d4ba380bbe19311732a7f8cac7e63d3566e9d44c2d8"}
   ],
   "question": "Does the unchanged GDT347 graph transport when frozen synthetic controls expose their authored oracle coordinates instead of blind-parser zeros?",
   "schema_version": 1,
   "sealed_data": {"f84r": "FORBIDDEN"},
   "slug": "oracle_coordinate_transport_calibration",
-  "status": "FROZEN_BEFORE_ORACLE_TRANSPORT_SCORING",
+  "status": "ORACLE_MANUSCRIPT_SPECIFIC_RETAINED",
   "title": "Oracle-coordinate transport calibration",
   "updated": "2026-08-19",
-  "validation": {"artifact": "experiments/yolo/gdt348_oracle_coordinate_transport_calibration/artifacts/gdt348_freeze_validation.json", "status": "PASS"}
+  "validation": {"artifact": "experiments/yolo/gdt348_oracle_coordinate_transport_calibration/artifacts/gdt348_validation.json", "status": "PASS"}
 }

@@ -150,16 +150,16 @@ morpheme, plaintext symbol, or semantic role.
   the unseen-pair path gain as a weak formal backoff lead, not a grammar
   equivalence or semantic event path.
 - GDT345–GDT346 retain coordinate-wise smoothing and local pair coupling, but
-  reject a reusable compositional operator manifold after weak recovery,
-  selector-cost, environment-transfer, and Herbal-A failures. GDT347 freezes
-  the three recurrent pairings and their weights once. They gain 65.48 bits on
-  1,231 transitions from 17 held Voynich folios (56.65 after the one-time cost;
-  `p=.000244`; 13/17 positive), but exact recovery declines 289→287 and no
-  powered native or matched GDT278 control transports. Inner-D↔wrapper carries
-  most of the result (+78.60); RIGHT_FAMILY↔DY adds +5.37, while DY↔wrapper
-  is negative. Because every admitted control has zero inner-D and DY changes,
-  call this manuscript-specific only inside the current formal observation
-  layer, not a unique authorial compiler. The internal operator route stops.
+  reject a reusable operator manifold after recovery, cost, environment, and
+  Herbal-A failures. GDT347's frozen three-edge graph gains 65.48 bits on 1,231
+  held Voynich transitions (56.65 paid; `p=.000244`; 13/17 folios), but exact
+  recovery declines 289→287; inner-D↔wrapper dominates and no blind-parser
+  control transports. GDT348 supplies authored coordinates for lexical A,
+  factorial B, and B2: unchanged weights lose 82.19, 1,403.70, and 788.29 bits,
+  with 0/5 positive units and no recovery change in every system. This removes
+  the zero-DY/inner-D parser excuse for mapped analogues, but the partial
+  crosswalk bars a unique-compiler claim. Retain only a manuscript-specific
+  convention inside this coordinate definition and stop the operator route.
 
 ## Calibration constraints
 
@@ -292,6 +292,7 @@ evidence rather than mining another internal string feature.
 - `GDT327_JOINT_TUPLE_INTERLINEAR_REPORT.md`
 - `experiments/yolo/gdt345_productive_operator_transfer/REPORT.md`
 - `experiments/yolo/gdt347_fixed_graph_control_transport/REPORT.md`
+- `experiments/yolo/gdt348_oracle_coordinate_transport_calibration/REPORT.md`
 - `GDT330_F84R_METADATA_ACCESS_CORRECTION.md`
 
 Use `experiments/EXPERIMENT_INDEX.tsv` for exact paths, dependencies, runners,
