@@ -150,16 +150,17 @@ morpheme, plaintext symbol, or semantic role.
   the unseen-pair path gain as a weak formal backoff lead, not a grammar
   equivalence or semantic event path.
 - GDT345 replaces that target-conditioned description with actual held
-  operator selection. Its first uncommitted source-relative-label baseline was
-  invalidated because delta names depend mechanically on the source value.
-  Under the publicly corrected common target-value code, the component-
-  factorized model saves 371.56 LOFO bits over exact atomic predecessor and is
-  positive on 57/91 folios, but improves exact next-state recovery by only
-  2,202→2,209. On 1,028 unseen source-state×operator combinations it saves
-  only 39.24 bits and ties exact predecessor at 89 recoveries. Held Herbal A,
-  section H, and hand 1 reverse; max-two p=.3505. Retain coordinate-wise local
-  transition dependence as a backoff, but reject a robust productive operator
-  algebra on this test.
+  operator selection. Its corrected component marginals save 371.56 LOFO bits
+  over exact predecessor, but add only seven exact recoveries, tie the exact
+  baseline on unseen source-state×operator combinations, reverse in Herbal A,
+  section H and hand 1, and fail max-two `p=.3505`. GDT346 then tests their
+  cross-coordinate compatibility. A sparse graph has a real raw coupling lead
+  (+43.80 bits; max-two `p=.000244`) and repeatedly selects wrapper interactions
+  plus RIGHT_FAMILY↔DY, but loses 759.70 selector-paid bits, leaves top-5
+  unchanged, adds only three exact recoveries, fails held-section transfer, and
+  supplies no paid Herbal-A graph. Retain local renderer/closure coupling and
+  coordinate-wise smoothing only; reject a reusable compositional operator
+  manifold and stop this internal route.
 
 ## Calibration constraints
 
@@ -235,8 +236,8 @@ falsifier:
 - abstract coordinate-transition paths after GDT344 failed to beat exact
   predecessor tuple identity or calibrate a readable recipe event-path bridge;
 - productive coordinate-operator algebra after corrected GDT345 added only
-  seven exact recoveries, tied exact predecessor on unseen combinations, and
-  failed its matched max-two null;
+  seven exact recoveries and GDT346's raw pair coupling failed selector-paid,
+  held-section, non-wrapper, recovery, and Herbal-A transfer gates;
 - f57/f77 quality, element, process, or lexical assignments.
 
 The complete route memory remains in
@@ -278,11 +279,11 @@ Future grounding therefore needs an independently licensed target identity;
 adding this same flow graph cannot create one and must not be used to promote
 exact GDT327 tuples into entities.
 
-GDT344 adds one bounded nuance: formal coordinate-change paths can weakly
-back off genuinely unseen exact tuple pairs, but the aggregate signal remains
-inferior to exact predecessor identity and does not transfer consistently
-across Recipe/Stars folios. This is not sufficient to collapse different tuple
-sequences into one latent grammar object.
+GDT344–GDT346 add one bounded nuance: formal-coordinate marginals and sparse
+pair couplings can back off unseen combinations, but the gains do not pay for
+graph selection or transfer across all environments. This is not sufficient
+to collapse tuple sequences into one latent grammar object or posit a
+productive operator manifold.
 
 If no new external endpoint exists, improve instrumentation or acquire new
 evidence rather than mining another internal string feature.

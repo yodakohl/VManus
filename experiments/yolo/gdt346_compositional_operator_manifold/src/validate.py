@@ -64,7 +64,7 @@ def main() -> int:
 
     graph=read(GRAPH);folds=read(FOLDS);transfer=read(TRANSFER);pred=read(PRED);models=read(MODELS);null=read(NULL);herbal=read(HERBAL)
     check("graph_pairs",all(0<=int(r['pair_id'].split('-')[0])<int(r['pair_id'].split('-')[1])<6 for r in graph));check("graph_unassigned",all(r['semantic_state']=='UNASSIGNED' for r in graph))
-    for tag in {r['fold_tag'] for r in graph}: check(f"graph_max3:{tag}",sum(int(r['selected']) for r in graph if r['fold_tag']==tag)<=3)
+    for tag in sorted({r['fold_tag'] for r in graph}): check(f"graph_max3:{tag}",sum(int(r['selected']) for r in graph if r['fold_tag']==tag)<=3)
     check("fold_rows",len(folds)==91*len(MODEL_NAMES),len(folds));check("fold_models",{r['model'] for r in folds}==set(MODEL_NAMES));check("model_rows",{r['model'] for r in models}==set(MODEL_NAMES))
     by={r['model']:r for r in models}
     for model in MODEL_NAMES:
@@ -73,7 +73,9 @@ def main() -> int:
     check("transfer_split_models",all({r['model'] for r in transfer if r['split']==s}==set(MODEL_NAMES) for s in ('SECTION','REGISTER','HAND')))
     check("null_worlds",len(null)==int(design['null']['worlds']))
     full=by['PAIR_GRAPH_FULL'];non=by['PAIR_GRAPH_NONWRAPPER'];base=by['INDEPENDENT_MARGINAL'];obsfull=float(base['decisive_bits'])-float(full['decisive_bits']);obsnon=float(base['decisive_bits'])-float(non['decisive_bits'])
-    pfull=(1+sum(float(r['full_gain'])>=obsfull-1e-8 for r in null))/(1+len(null));pnon=(1+sum(float(r['nonwrapper_gain'])>=obsnon-1e-8 for r in null))/(1+len(null));pmax=(1+sum(float(r['max_two_gain'])>=max(obsfull,obsnon)-1e-8 for r in null))/(1+len(null))
+    # TSV values are rounded to nine decimals; 1e-10 retains the scorer's
+    # inclusive comparison without admitting a distinct value 4e-9 below it.
+    pfull=(1+sum(float(r['full_gain'])>=obsfull-1e-10 for r in null))/(1+len(null));pnon=(1+sum(float(r['nonwrapper_gain'])>=obsnon-1e-10 for r in null))/(1+len(null));pmax=(1+sum(float(r['max_two_gain'])>=max(obsfull,obsnon)-1e-10 for r in null))/(1+len(null))
     check("null_p_full",math.isclose(pfull,float(full['inclusive_p']),abs_tol=5e-10),(pfull,full['inclusive_p']));check("null_p_non",math.isclose(pnon,float(non['inclusive_p']),abs_tol=5e-10));check("null_p_max",math.isclose(pmax,float(full['max_two_p']),abs_tol=5e-10))
     check("herbal_rows",len(herbal)>0 and {r['model'] for r in herbal}=={'INDEPENDENT','FOREIGN_GRAPH','LOCAL_GRAPH'});check("result_source",result['source']=={'events':8268,'folios':91,'pages':180});check("zero_semantics",result['semantic_alignments']==result['tuple_merges']==result['page_host_factorizations']==0);check("f84_flags",all(v is False for v in result['f84'].values()))
     for p,d in result['inputs'].items():check(f"input_hash:{p}",sha(ROOT/p)==d)

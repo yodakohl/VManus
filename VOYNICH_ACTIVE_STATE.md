@@ -1,6 +1,6 @@
 # Voynich active state — structural reset baseline
 
-Updated: 2026-08-18. This is the full claim registry. For routine work, read
+Updated: 2026-08-19. This is the full claim registry. For routine work, read
 `VOYNICH_CURRENT_ROUTE.md` first and open only the relevant sections here and in
 `experiments/semantic_assumptions/ACTIVE_EXPERIMENT_LEDGER.tsv`.
 
@@ -87,6 +87,20 @@ Updated: 2026-08-18. This is the full claim registry. For routine work, read
   useful local backoff, but a robust productive formal algebra is not
   supported. No semantic alignment, tuple merge, PAGE_HOST factorization,
   morphology, meaning, translation, or f84 access occurred.
+- GDT346 asks whether those six marginal gains lie on a sparse compositional
+  compatibility manifold. On 1,027 unseen source-state×operator combinations,
+  the full pair graph saves 43.80 raw bits and improves mean operator rank
+  25.81→24.04, with coupling-destruction max-two `p=.000244`; its dominant
+  edges join inner-D or DY to the wrapper, while RIGHT_FAMILY↔DY is retained
+  in 82/91 folio folds. But topology selection reverses the gain to -759.70
+  bits, top-5 is unchanged (322), exact recovery rises only 89→92, the
+  non-wrapper graph loses 304.19 paid bits, held-section transfer fails, and
+  neither foreign nor Herbal-A-local graphs transfer after cost. Thus local
+  renderer/closure compatibility is real, but the active conclusion is that
+  GDT345 captured marginal transition smoothing rather than a productive
+  grammar. This route stops without semantic alignment, PAGE_HOST
+  factorization, tuple merging, morphology, meaning, translation, or f84
+  access.
 - A frozen synthetic-instrument calibration now limits how opaque PAGE_HOST
   negatives may be interpreted. On one real medieval medical source, a true
   injective 2–3-character concept codebook lost every held
