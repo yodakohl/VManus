@@ -13,13 +13,28 @@
     {"path": "gdt278_native_event_inventory.tsv", "role": "source-native formal coordinates and physical hierarchy", "sha256": "598e9833f3f0f67f187b59153156a776a22f5fa722a6b6428a386c2bb5178b2a"},
     {"path": "gdt327_joint_tuple_interlinear.tsv", "role": "atomic exact source tuple identities and frozen event order", "sha256": "7eba46774be44992064cc114f67329723ac7bf589321b0d763fb7f7f748cc1e9"}
   ],
-  "outputs": [],
+  "outputs": [
+    {"path": "experiments/yolo/gdt345_productive_operator_transfer/README.md", "role": "experiment entry point and compact result", "sha256": "7b9d0619dde48532be3152866e956bbb352399489f6654d47049d70668f3dd01"},
+    {"path": "experiments/yolo/gdt345_productive_operator_transfer/REPORT.md", "role": "held operator-transfer result and claim ceiling", "sha256": "faddd81543640320ccbdc95ff16a1486b2b90a15b81e59d431c68f20a64f367e"},
+    {"path": "experiments/yolo/gdt345_productive_operator_transfer/artifacts/README.md", "role": "artifact schema index", "sha256": "f589d17ee8a08505f504501e572ecb0c83980b98ef4d8492cec3adefac8f25f9"},
+    {"path": "experiments/yolo/gdt345_productive_operator_transfer/artifacts/gdt345_operator_inventory.tsv", "role": "boundary-aware formal operator census", "sha256": "61b4986f4eafd73b12b3848fd268a5efb10bb3e447e230c5791fb69592663260"},
+    {"path": "experiments/yolo/gdt345_productive_operator_transfer/artifacts/gdt345_transition_inventory.tsv", "role": "source target state and applied delta inventory", "sha256": "5a5cddaab60013fdd44e83acd1d7cf77c91f001fcefb65389e62358891c39d97"},
+    {"path": "experiments/yolo/gdt345_productive_operator_transfer/artifacts/gdt345_lofo_folds.tsv", "role": "physical-folio held model scores", "sha256": "0aa57e450a46885157c5fed2c7e7eb5f08885d8aadb9e27a0c3edb729c7acd21"},
+    {"path": "experiments/yolo/gdt345_productive_operator_transfer/artifacts/gdt345_transfer_folds.tsv", "role": "held section register and hand transfer scores", "sha256": "aad330bcc4df046b204b5319d4b2e4ee78aea1d3e92174d80cd2e4bf141b0924"},
+    {"path": "experiments/yolo/gdt345_productive_operator_transfer/artifacts/gdt345_model_scores.tsv", "role": "aggregate model codelength recovery and unseen-combination comparison", "sha256": "08ff6f6e14d6f4913692531725db824015534ac8a4eb785feb4c6477b2f2f153"},
+    {"path": "experiments/yolo/gdt345_productive_operator_transfer/artifacts/gdt345_null.tsv", "role": "fixed-prediction exact-layout max-two null", "sha256": "e1b63eb9369a9c121f64a8bd1b0962bbe3d7e7d83475b0b54c13e5e3eb221cc2"},
+    {"path": "experiments/yolo/gdt345_productive_operator_transfer/artifacts/gdt345_counterexamples.tsv", "role": "correction transfer failures and access negatives", "sha256": "19c95272741fda71a10c828eabe4f57b9ab3ba011cac36619986d5670977b9d9"},
+    {"path": "experiments/yolo/gdt345_productive_operator_transfer/artifacts/gdt345_result.json", "role": "compact corrected operator-transfer result", "sha256": "a3118cb5776ce7e2e96ba8fa426d62c27b7e7366f542968cce6419bb1679f7f2"},
+    {"path": "experiments/yolo/gdt345_productive_operator_transfer/artifacts/gdt345_validation.json", "role": "independent source delta application and accounting validation", "sha256": "c89982e9ff6fc2613ffc20603dd2f3cb26224f4216c31dfc8e83b71f560ab68c"},
+    {"path": "experiments/yolo/gdt345_productive_operator_transfer/src/run.py", "role": "public corrected scorer", "sha256": "e4a7b250ca3ae7e9310b32b937ddf0f464fdbb6bc36f851a64cdb9bcb709af66"},
+    {"path": "experiments/yolo/gdt345_productive_operator_transfer/src/validate.py", "role": "nonimporting final validator", "sha256": "b6f6034e54c7d25d4affcbeb573e3acaacf5982c7e0ded2897bf3e4a7847cf9e"}
+  ],
   "question": "Can formal delta operators selected without target formal information reconstruct held next states on unseen folios, sections, registers, hands, and source-state by operator combinations?",
   "schema_version": 1,
   "sealed_data": {"f84r": "FORBIDDEN"},
   "slug": "productive_operator_transfer",
-  "status": "CORRECTED_FREEZE_BEFORE_AUTHORITATIVE_OPERATOR_SCORING",
+  "status": "LOCAL_OR_LEXICAL_OPERATOR_DEPENDENCE_ONLY",
   "title": "Productive formal-operator transfer",
   "updated": "2026-08-19",
-  "validation": {"artifact": null, "status": "NOT_RUN"}
+  "validation": {"artifact": "experiments/yolo/gdt345_productive_operator_transfer/artifacts/gdt345_validation.json", "status": "PASS"}
 }

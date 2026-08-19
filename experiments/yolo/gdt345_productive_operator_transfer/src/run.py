@@ -28,6 +28,7 @@ EXP = ROOT / "experiments/yolo/gdt345_productive_operator_transfer"
 ART = EXP / "artifacts"
 METHOD = EXP / "METHOD.md"
 SOURCE_AUDIT = EXP / "SOURCE_AUDIT.md"
+CORRECTION = EXP / "CORRECTION.md"
 DESIGN = ART / "gdt345_design.json"
 NATIVE = ROOT / "gdt278_native_event_inventory.tsv"
 INTER = ROOT / "gdt327_joint_tuple_interlinear.tsv"
@@ -397,12 +398,14 @@ def main() -> int:
         status = "NO_PRODUCTIVE_OPERATOR_TRANSFER"
 
     counterexamples = [
+        {"code": "V1_LABEL_SPACE_INVALIDATED", "detail": "direct source-relative delta placement null produced an invalid uncommitted positive and was superseded before authoritative scoring", "effect": "ONLY_TARGET_VALUE_V2_IS_EVIDENCE"},
         {"code": "GDT344_PREDECESSOR_LEAD", "detail": "GDT344 exact predecessor beat target-conditioned path models overall", "effect": "PRODUCTIVE_MODEL_MUST_BEAT_EXACT_PREDECESSOR"},
         {"code": "UNSEEN_COMBINATION", "detail": f"{fac['unseen_combo_events']} LOFO events have source state and operator seen separately but pair unseen", "effect": f"factorial gain over exact={fac['unseen_gain_over_exact']} bits"},
         {"code": "NULL_CAPACITY", "detail": f"{mobile} LOFO events lie in exact-layout strata with at least two operator values", "effect": "FIXED_PREDICTION_ALIGNMENT_DIAGNOSTIC"},
         {"code": "TARGET_LEAKAGE", "detail": "target wrapper coordinate tuple and target-derived signatures excluded from all contexts", "effect": "TRUE_OPERATOR_PREDICTION"},
         {"code": "ATOMIC_TUPLES", "detail": "exact predecessor uses opaque joint_tuple_id only; PAGE_HOST never factored", "effect": "NO_SUBSTRING_OR_HOST_MINING"},
         {"code": "SEMANTIC_ALIGNMENT", "detail": "not run by design", "effect": "NO_ROLE_OR_MEANING"},
+        {"code": "HELD_STRATUM_FAILURES", "detail": "factorial gain over exact is negative for held section H, register HERBAL_A, and hand 1", "effect": "NOT_UNIVERSALLY_TRANSFERABLE"},
         {"code": "F84", "detail": "raw f84 selectors rejected before row parse", "effect": "NO_ACCESS"},
     ]
     write_tsv(COUNTER, counterexamples)
@@ -414,12 +417,14 @@ GDT345 formed {source['edges']:,} adjacent formal transitions from {source['grou
 
 The factorized operator model changes LOFO codelength by {float(fac['gain_over_exact_predecessor']):+.3f} bits relative to exact atomic predecessor and by {float(fac['gain_over_placement']):+.3f} bits relative to layout. It exactly reconstructs {fac['exact_next_state_hits']}/{fac['eligible_events']} next states, versus {score['EXACT_PREDECESSOR']['exact_next_state_hits']} for exact predecessor. On {fac['unseen_combo_events']} events whose source state and operator were individually known but whose combination was unseen in training, its gain over exact predecessor is {float(fac['unseen_gain_over_exact']):+.3f} bits with {fac['unseen_combo_hits']} exact recoveries versus {score['EXACT_PREDECESSOR']['unseen_combo_hits']}.
 
-The factorized model beats exact predecessor on {fac['positive_folios_vs_exact']}/{source['folios']} physical folios. Held-category transfer is: {json.dumps(transfer_summary, sort_keys=True)}. The exact-layout fixed-prediction max-two p is {fac['max_two_p']} over {mobile} mobile events. Gate outcomes are {json.dumps(gates, sort_keys=True)}.
+The factorized model beats exact predecessor on {fac['positive_folios_vs_exact']}/{source['folios']} physical folios. Held-category transfer is: {json.dumps(transfer_summary, sort_keys=True)}. Section H, register HERBAL_A, and hand 1 are negative counterexamples. The exact-layout fixed-prediction max-two p is {fac['max_two_p']} over {mobile} mobile events; the seven-hit exact-recovery advantage is not unusual under that null. Gate outcomes are {json.dumps(gates, sort_keys=True)}.
+
+The earlier source-relative-label diagnostic is explicitly invalidated in `CORRECTION.md`; only this common-target-value V2 result is evidence.
 
 No semantic comparator was run. Exact joint tuples stayed opaque and atomic; PAGE_HOST was not factored; no glyph string, role, meaning, or translation was used. All f84 selectors were rejected before row parsing.
 """
     REPORT.write_text(report)
-    inputs = {str(path.relative_to(ROOT)): sha(path) for path in (METHOD, SOURCE_AUDIT, DESIGN, NATIVE, INTER)}
+    inputs = {str(path.relative_to(ROOT)): sha(path) for path in (METHOD, SOURCE_AUDIT, CORRECTION, DESIGN, NATIVE, INTER)}
     outputs = {str(path.relative_to(ROOT)): sha(path) for path in (OPERATORS, TRANSITIONS, LOFO, TRANSFER, SCORES, NULL, COUNTER, REPORT)}
     result = {
         "schema": "GDT345_RESULT_V1", "date": "2026-08-19", "status": status, "source": source,

@@ -1,6 +1,6 @@
 # Voynich current route
 
-Updated: 2026-08-18. This is the compact authoritative routing snapshot.
+Updated: 2026-08-19. This is the compact authoritative routing snapshot.
 Read it before Voynich work. Use `experiments/EXPERIMENT_INDEX.tsv` to locate
 the named primary report. Consult `VOYNICH_ACTIVE_STATE.md` and the full active
 ledger only for claim-detail audits, corrections, or historical reconstruction.
@@ -149,6 +149,17 @@ morpheme, plaintext symbol, or semantic role.
   collections. The gated record-level alignment was therefore not run. Retain
   the unseen-pair path gain as a weak formal backoff lead, not a grammar
   equivalence or semantic event path.
+- GDT345 replaces that target-conditioned description with actual held
+  operator selection. Its first uncommitted source-relative-label baseline was
+  invalidated because delta names depend mechanically on the source value.
+  Under the publicly corrected common target-value code, the component-
+  factorized model saves 371.56 LOFO bits over exact atomic predecessor and is
+  positive on 57/91 folios, but improves exact next-state recovery by only
+  2,202→2,209. On 1,028 unseen source-state×operator combinations it saves
+  only 39.24 bits and ties exact predecessor at 89 recoveries. Held Herbal A,
+  section H, and hand 1 reverse; max-two p=.3505. Retain coordinate-wise local
+  transition dependence as a backoff, but reject a robust productive operator
+  algebra on this test.
 
 ## Calibration constraints
 
@@ -223,6 +234,9 @@ falsifier:
   on persistent identity alone in readable cross-collection recipe parallels;
 - abstract coordinate-transition paths after GDT344 failed to beat exact
   predecessor tuple identity or calibrate a readable recipe event-path bridge;
+- productive coordinate-operator algebra after corrected GDT345 added only
+  seven exact recoveries, tied exact predecessor on unseen combinations, and
+  failed its matched max-two null;
 - f57/f77 quality, element, process, or lexical assignments.
 
 The complete route memory remains in
@@ -276,22 +290,8 @@ evidence rather than mining another internal string feature.
 ## Primary routing references
 
 - `experiments/semantic_assumptions/grammar/CONFIRMED_GRAMMAR.md`
-- `GDT003_NESTED_HELDOUT_REPORT.md`
-- `GDT322_EXECUTABLE_RENDERER_REPORT.md`
-- `GDT325_SPARSE_CELL_COORDINATE_BACKOFF_REPORT.md`
-- `GDT326_HOST_COORDINATE_COMPOSITION_REPORT.md`
 - `GDT327_JOINT_TUPLE_INTERLINEAR_REPORT.md`
-- `GDT332_JOINT_TUPLE_PORTABILITY_REPORT.md`
-- `GDT334_REGISTER_CONDITIONED_TUPLE_PLACEMENT_REPORT.md`
-- `GDT335_TUPLE_PLACEMENT_COMPONENT_DECOMPOSITION_REPORT.md`
-- `GDT336_PLACEMENT_CONDITIONED_TUPLE_RETRIEVAL_REPORT.md`
-- `experiments/yolo/gdt338_renderer_invariant_equivalence/REPORT.md`
-- `experiments/yolo/gdt339_comparator_first_semantic_incidence/REPORT.md`
-- `experiments/yolo/gdt340_recipe_pharma_section_semantic_schema/REPORT.md`
-- `experiments/yolo/gdt341_ordered_recipe_event_graph/COMPARATOR_REPORT.md`
-- `experiments/yolo/gdt342_anonymous_entity_flow_graph/COMPARATOR_REPORT.md`
-- `experiments/yolo/gdt343_persistent_identity_flow/COMPARATOR_REPORT.md`
-- `experiments/yolo/gdt344_grammar_transition_paths/REPORT.md`
+- `experiments/yolo/gdt345_productive_operator_transfer/REPORT.md`
 - `GDT330_F84R_METADATA_ACCESS_CORRECTION.md`
 
 Use `experiments/EXPERIMENT_INDEX.tsv` for exact paths, dependencies, runners,

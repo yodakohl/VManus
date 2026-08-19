@@ -74,6 +74,19 @@ Updated: 2026-08-18. This is the full claim registry. For routine work, read
   only 2/6 collections. Thus no renderer-independent grammar equivalence or
   record-event alignment is supported; no Voynich record was assigned a
   comparator class, no tuple was merged or glossed, and f84 remained sealed.
+- GDT345 performs the stricter productive test by predicting a six-coordinate
+  delta from source-side state and observable layout, applying it, and scoring
+  the resulting next state. An initial uncommitted direct-delta placement null
+  was invalidated because delta labels mechanically depend on the source; the
+  corrected common target-value instrument is the only evidence. Component-
+  factorized transfer saves 371.56 held-folio bits over exact predecessor and
+  is positive on 57/91 folios, but adds only seven exact recoveries (2,209
+  versus 2,202), ties exact predecessor at 89/1,028 recoveries on unseen
+  source-state×operator combinations, reverses in held section H, Herbal A and
+  hand 1, and fails max-two p=.35050. Coordinate-wise transition pooling is a
+  useful local backoff, but a robust productive formal algebra is not
+  supported. No semantic alignment, tuple merge, PAGE_HOST factorization,
+  morphology, meaning, translation, or f84 access occurred.
 - A frozen synthetic-instrument calibration now limits how opaque PAGE_HOST
   negatives may be interpreted. On one real medieval medical source, a true
   injective 2–3-character concept codebook lost every held

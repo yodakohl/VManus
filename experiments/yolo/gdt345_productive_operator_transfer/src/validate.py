@@ -134,22 +134,23 @@ def main() -> int:
     check("expected_edges", len(expected) == 8268)
     transitions = read_tsv(TRANSITIONS); check("transition_rows", len(transitions) == len(expected))
     expected_by_id = {r["edge_id"]: r for r in expected}; check("transition_unique", len({r["edge_id"] for r in transitions}) == len(transitions))
+    mismatch = Counter()
     for row in transitions:
         x = expected_by_id[row["edge_id"]]
-        check(f"edge_page:{row['edge_id']}", row["page"] == x["page"] and row["physical_folio"] == x["folio"])
-        check(f"edge_strata:{row['edge_id']}", (row["section"], row["register"], row["hand"]) == (x["section"], x["register"], x["hand"]))
-        check(f"edge_state:{row['edge_id']}", row["source_state_id"] == x["source_state_id"] and row["target_state_id"] == x["target_state_id"])
-        check(f"edge_operator:{row['edge_id']}", row["operator_id"] == x["operator_id"] and row["text_operator_id"] == x["text_operator_id"] and tuple(json.loads(row["delta_json"])) == x["op"])
-        check(f"edge_apply:{row['edge_id']}", apply(tuple(json.loads(row["source_state_json"])), tuple(json.loads(row["delta_json"]))) == tuple(json.loads(row["target_state_json"])))
-        check(f"edge_boundary:{row['edge_id']}", (row["boundary_scope"], row["field_order"], int(row["field_boundary"]), int(row["line_reset"]), int(row["record_reset"]), row["reset_state"]) == (x["scope"], x["order"], x["fb"], x["lr"], x["rr"], x["reset"]))
-        check(f"edge_unassigned:{row['edge_id']}", row["semantic_state"] == row["translation_state"] == "UNASSIGNED")
+        mismatch["page"] += int(not (row["page"] == x["page"] and row["physical_folio"] == x["folio"]))
+        mismatch["strata"] += int(not ((row["section"], row["register"], row["hand"]) == (x["section"], x["register"], x["hand"])))
+        mismatch["state"] += int(not (row["source_state_id"] == x["source_state_id"] and row["target_state_id"] == x["target_state_id"]))
+        mismatch["operator"] += int(not (row["operator_id"] == x["operator_id"] and row["text_operator_id"] == x["text_operator_id"] and tuple(json.loads(row["delta_json"])) == x["op"]))
+        mismatch["apply"] += int(not (apply(tuple(json.loads(row["source_state_json"])), tuple(json.loads(row["delta_json"]))) == tuple(json.loads(row["target_state_json"]))))
+        mismatch["boundary"] += int(not ((row["boundary_scope"], row["field_order"], int(row["field_boundary"]), int(row["line_reset"]), int(row["record_reset"]), row["reset_state"]) == (x["scope"], x["order"], x["fb"], x["lr"], x["rr"], x["reset"])))
+        mismatch["unassigned"] += int(not (row["semantic_state"] == row["translation_state"] == "UNASSIGNED"))
+    for name, count in sorted(mismatch.items()): check(f"all_edges_{name}", count == 0, count)
 
     operators = read_tsv(OPERATORS); groups = Counter(r["operator_id"] for r in transitions)
     check("operator_rows", len(operators) == len(groups))
     check("operator_event_sum", sum(int(r["events"]) for r in operators) == len(transitions))
-    for row in operators:
-        check(f"operator_count:{row['operator_id']}", int(row["events"]) == groups[row["operator_id"]])
-        check(f"operator_unassigned:{row['operator_id']}", row["semantic_state"] == "UNASSIGNED")
+    check("all_operator_counts", all(int(row["events"]) == groups[row["operator_id"]] for row in operators))
+    check("all_operator_unassigned", all(row["semantic_state"] == "UNASSIGNED" for row in operators))
 
     lofo = read_tsv(LOFO); transfer = read_tsv(TRANSFER); scores = read_tsv(SCORES); null = read_tsv(NULL)
     check("lofo_rows", len(lofo) == 91 * len(MODELS), len(lofo))
