@@ -7,7 +7,7 @@ The authoritative scientific status remains
 ## Inventory
 
 - Experiments indexed: **349**
-- Experiment-associated tracked files: **4,583** (571.9 MiB)
+- Experiment-associated tracked files: **4,588** (572.0 MiB)
 - Structured GDT337+ experiments: **14**
 - IDs without a ledger entry: **166**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
@@ -20,7 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT350 | GDT350_lunar_28_binary_specificity_freeze | `FROZEN_EXTERNAL_PANEL_BEFORE_DIRECT_FACSIMILE_REVIEW` | [report](../experiments/yolo/gdt350_lunar_28_binary_specificity/METHOD.md) | 10 | 17.4 KiB | 1 | STRUCTURED_YOLO |
+| GDT350 | GDT350_lunar_28_binary_specificity | `A65_28_BINARY_HAS_NON_GEORGIAN_COUNTEREXAMPLE` | [report](../experiments/yolo/gdt350_lunar_28_binary_specificity/REPORT.md) | 15 | 35.1 KiB | 1 | STRUCTURED_YOLO |
 | GDT349 | GDT349_zodiac_facing_orientation_acquisition | `STOP_NO_TRANSFERABLE_DIRECTIONAL_PROFILE_CAPACITY` | [report](../experiments/yolo/gdt349_zodiac_facing_orientation_acquisition/REPORT.md) | 17 | 208.2 KiB | 1 | STRUCTURED_YOLO |
 | GDT348 | GDT348_oracle_coordinate_transport_calibration | `ORACLE_MANUSCRIPT_SPECIFIC_RETAINED` | [report](../experiments/yolo/gdt348_oracle_coordinate_transport_calibration/REPORT.md) | 21 | 502.3 KiB | 6 | STRUCTURED_YOLO |
 | GDT347 | GDT347_fixed_graph_control_transport | `MANUSCRIPT_SPECIFIC_FORMAL_CONVENTION` | [report](../experiments/yolo/gdt347_fixed_graph_control_transport/REPORT.md) | 23 | 11.0 MiB | 3 | STRUCTURED_YOLO |

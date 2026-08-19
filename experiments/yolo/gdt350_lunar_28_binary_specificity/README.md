@@ -4,6 +4,8 @@ External-only audit of whether A-65's ordered 28-night alternating manuscript
 presentation has independent non-Georgian medieval counterexamples. No Voynich
 target is opened or scored.
 
+Result: `A65_28_BINARY_HAS_NON_GEORGIAN_COUNTEREXAMPLE`.
+
 Run:
 
 ```bash

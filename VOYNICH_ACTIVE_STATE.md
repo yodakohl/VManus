@@ -139,6 +139,17 @@ Updated: 2026-08-19. This is the full claim registry. For routine work, read
   displayed one unrelated line from a previously published f84 result; it was
   not retained, joined, or scored, but the analyst seal is no longer described
   as pristine. No further f84 access is authorized.
+- GDT350 resolves KART001's previously unknown cultural-specificity denominator
+  for the abstract `ordered 28 + strict binary presentation` tuple. A-65's
+  odd-red/even-black schedule has an independent non-Georgian counterexample:
+  the official British Library catalogue states that German Add MS 25435 has
+  28 owned prophet records and every other miniature has a gold background.
+  A complete Pal. lat. 1369 list is visibly nonalternating, while Pal. lat.
+  1408 and Bodl. Or. 133 remain unresolved. Thus the tuple retains broad lunar/
+  divinatory system compatibility but has low Georgian cultural specificity;
+  the purposive sample does not estimate medieval prevalence. No Voynich target
+  was rescored, f69v still lacks authorial phase and independent-folio transfer,
+  and no slot value, language, meaning, plaintext, or translation follows.
 - A frozen synthetic-instrument calibration now limits how opaque PAGE_HOST
   negatives may be interpreted. On one real medieval medical source, a true
   injective 2–3-character concept codebook lost every held

@@ -14,48 +14,79 @@ def find_repo_root(start: Path) -> Path:
 
 ROOT = find_repo_root(Path(__file__).resolve())
 EXP = ROOT / "experiments/yolo/gdt350_lunar_28_binary_specificity"
-PANEL = EXP / "artifacts/gdt350_source_panel.tsv"
-OUT = EXP / "artifacts/gdt350_freeze.json"
+ART = EXP / "artifacts"
 
 
 def sha(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
+def read_tsv(path: Path):
+    with path.open(newline="", encoding="utf-8") as fh:
+        return list(csv.DictReader(fh, delimiter="\t"))
+
+
 def main() -> int:
-    with PANEL.open(newline="", encoding="utf-8") as fh:
-        rows = list(csv.DictReader(fh, delimiter="\t"))
-    assert len(rows) == 6
-    assert len({r["witness_id"] for r in rows}) == 6
-    assert sum(r["panel_role"] == "CORE_28" for r in rows) == 5
-    assert sum(r["direct_review_required"] == "YES" for r in rows) == 2
-    assert all("f84" not in json.dumps(r).lower() for r in rows)
-    payload = {
+    panel_path = ART / "gdt350_source_panel.tsv"
+    obs_path = ART / "gdt350_observations.tsv"
+    counter_path = ART / "gdt350_counterexamples.tsv"
+    freeze_path = ART / "gdt350_freeze.json"
+    panel = read_tsv(panel_path)
+    obs = read_tsv(obs_path)
+    assert len(panel) == len(obs) == 6
+    assert [r["witness_id"] for r in panel] == [r["witness_id"] for r in obs]
+    core_ids = {r["witness_id"] for r in panel if r["panel_role"] == "CORE_28"}
+    core = [r for r in obs if r["witness_id"] in core_ids]
+    exact = [r for r in core if r["final_presentation_state"].startswith("EXACT_BINARY_ALTERNATION")]
+    nonalt = [r for r in core if r["final_presentation_state"] == "COMPLETE_NONALTERNATING"]
+    unresolved = [r for r in core if r["final_presentation_state"] == "UNRESOLVED_INCOMPLETE_OR_AMBIGUOUS"]
+    non_georgian_exact = [r for r in exact if r["witness_id"] != "W001_A65"]
+    assert len(core) == 5 and len(exact) == 2 and len(nonalt) == 1 and len(unresolved) == 2
+    assert [r["witness_id"] for r in non_georgian_exact] == ["W002_BL_ADD_25435"]
+    result = {
         "experiment": "GDT350",
-        "status": "FROZEN_EXTERNAL_PANEL_BEFORE_DIRECT_FACSIMILE_REVIEW",
+        "status": "A65_28_BINARY_HAS_NON_GEORGIAN_COUNTEREXAMPLE",
+        "decision": "A65_28_BINARY_HAS_NON_GEORGIAN_COUNTEREXAMPLE",
         "counts": {
-            "witnesses": len(rows),
-            "core_28_witnesses": sum(r["panel_role"] == "CORE_28" for r in rows),
-            "context_controls": sum(r["panel_role"] != "CORE_28" for r in rows),
-            "direct_review_pending": sum(r["direct_review_required"] == "YES" for r in rows),
-            "source_asserted_exact_alternation": 2,
+            "all_witnesses": len(obs),
+            "core_28_witnesses": len(core),
+            "exact_binary_alternation": len(exact),
+            "complete_nonalternating": len(nonalt),
+            "unresolved": len(unresolved),
+            "non_georgian_exact_counterexamples": len(non_georgian_exact),
+            "direct_visual_review_rows": sum(r["provenance"] == "AI_DIRECT_VISUAL_OBSERVATION" for r in obs),
+            "counterexamples_logged": len(read_tsv(counter_path)),
         },
-        "frozen_witness_ids": [r["witness_id"] for r in rows],
+        "exact_witnesses": [r["witness_id"] for r in exact],
+        "non_georgian_exact_witnesses": [r["witness_id"] for r in non_georgian_exact],
+        "interpretation": {
+            "system_compatibility": "RETAINS_BROAD_28_PLUS_BINARY_COMPATIBILITY",
+            "georgian_cultural_specificity": "LOW",
+            "absolute_medieval_prevalence": "UNRESOLVED_PURPOSIVE_SAMPLE",
+            "voynich_table_transfer": "NOT_AUTHORIZED_TARGET_PHASE_AND_TRANSFER_CAPACITY_ABSENT",
+        },
         "inputs": {
-            str(PANEL.relative_to(ROOT)): sha(PANEL),
+            str(panel_path.relative_to(ROOT)): sha(panel_path),
+            str(obs_path.relative_to(ROOT)): sha(obs_path),
+            str(counter_path.relative_to(ROOT)): sha(counter_path),
+            str(freeze_path.relative_to(ROOT)): sha(freeze_path),
             str((EXP / "METHOD.md").relative_to(ROOT)): sha(EXP / "METHOD.md"),
             str((EXP / "SOURCE_AUDIT.md").relative_to(ROOT)): sha(EXP / "SOURCE_AUDIT.md"),
         },
+        "documents": {str((EXP / "REPORT.md").relative_to(ROOT)): sha(EXP / "REPORT.md")},
         "access": {
             "voynich_source_tables_loaded": False,
             "voynich_images_opened": False,
             "voynich_formal_payload_opened": False,
+            "voynich_target_scored": False,
             "f84_accessed": False,
+            "ocr_or_automated_vision_used": False,
         },
-        "claim_ceiling": "External-source panel freeze only; no Voynich target score, slot alignment, cultural identification, language, meaning, plaintext, or translation.",
+        "validation_scope": "Independent source/result accounting and provenance checks; not a second visual review.",
+        "claim_ceiling": "Independent non-Georgian external counterexample to unique A-65 28-member alternation only; no prevalence estimate, Voynich identification, slot alignment, origin, language, meaning, plaintext, or translation.",
     }
-    OUT.write_text(json.dumps(payload, indent=2, sort_keys=True) + "\n", encoding="utf-8")
-    print(f"wrote {OUT.relative_to(ROOT)}")
+    (ART / "gdt350_result.json").write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
+    print(json.dumps(result["counts"], sort_keys=True))
     return 0
 
 
