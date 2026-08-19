@@ -265,6 +265,17 @@ Updated: 2026-08-19. This is the full claim registry. For routine work, read
   continuation must freeze several complete arrays together before formal
   reveal; no role, word, meaning, language, plaintext, translation, or f84
   access follows.
+- GDT362 exhausts the remaining complete unused-folio array in the current
+  human-source census and contradicts the frozen AQ/contact direction. After a
+  published correction from one canvas to the two-canvas f101v foldout, all
+  nine visual states were frozen before formal reveal: 3 CONTACT, 5 CLEAR_GAP,
+  and one fold-damage UNCERTAIN. The sole first-group AQ row is CLEAR_GAP;
+  CONTACT has 0/3 AQ versus GAP 1/5, effect -0.20, exact one-sided 56/56=1.0.
+  Seven rows have exact family consensus and the first-group predicate is
+  stable across all readings on all nine. Close the current AQ/contact route;
+  do not rescue it with internal substrings, alternate prefixes, recoding, or
+  exclusions. This does not invalidate AQ as a formal family and supplies no
+  role, meaning, language, plaintext, translation, or f84 access.
 - A frozen synthetic-instrument calibration now limits how opaque PAGE_HOST
   negatives may be interpreted. On one real medieval medical source, a true
   injective 2–3-character concept codebook lost every held
