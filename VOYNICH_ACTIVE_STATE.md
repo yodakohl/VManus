@@ -10173,6 +10173,16 @@ edge packet is empty and validation passes 36/36. This is an acquisition
 protocol only; no parent, role, syntax, POS, meaning, language, plaintext,
 translation, or f84 access follows.
 
+GDT389 freezes execution of that primary batch before new image access. Its
+exact universe is all 61 allowed pages on 30 folios, reviewed in a deterministic
+hash order; image metadata must be filtered by exact allowed page label before
+retention, and mixed canvases containing any f84 label are rejected. A
+pre-freeze broad repository search accidentally displayed the already published
+f84r visual document-role value `REPEATED_OWNED_RECORDS`. No f84 image,
+transcription, source group, formal identity, PAGE_HOST, tuple, prediction, or
+score was opened or used. The breach is disclosed and no further f84 access is
+authorized. Freeze validation passes 16/16; formal scoring remains locked.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU

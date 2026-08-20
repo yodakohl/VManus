@@ -219,9 +219,11 @@ morpheme, plaintext symbol, or semantic role.
 ## Sealed material and source handling
 
 - **f84r is sealed. Do not access it without explicit user authorization.**
-- GDT330 records that a global page-table scratch audit transiently parsed f84r
-  public metadata. No value was displayed, retained, joined, or scored, and no
-  formal/transcription payload was opened. The process breach is disclosed.
+- GDT330 records a transient f84r metadata parse with no displayed value.
+  Before GDT389, a broad canvas-mapping search later displayed the already
+  published page-role value `REPEATED_OWNED_RECORDS`. No image, transcription,
+  source group, formal identity, tuple, prediction, or score was opened; GDT389
+  discloses the breach and freezes an exact allow-list-before-retention loader.
 - Future global tables must select or reject rows from the raw selector field
   before parsing the remainder of a row. Use the guarded source loader in
   `tools/vmanus_experiment.py` for new structured experiments.
@@ -277,21 +279,19 @@ of author-visible connectors between separately localizable inscriptions.
 Scoring stays locked until at least 50 singular directed edges/five folios pass
 exact ownership, grammar-independence, held-folio, and mobile-null gates.
 
-Execute that packet without formal access. Local attachment, catalogue order,
-radial adjacency, OPEN/BODY, and cross-page similarity are not substitute
-targets. Do not reopen operator, PAGE_HOST, visual-substring, or semantic-role
-mining while capacity is zero.
+GDT389 freezes the exact 61-page/30-folio review order and allow-list-only image
+loader before image access. Execute that packet without formal access. Local
+attachment, catalogue order, radial adjacency, OPEN/BODY, and cross-page
+similarity are not substitute targets; do not reopen internal mining.
 
 ## Primary routing references
 
 - `experiments/semantic_assumptions/grammar/CONFIRMED_GRAMMAR.md`
 - `GDT327_JOINT_TUPLE_INTERLINEAR_REPORT.md`
-- `experiments/yolo/gdt345_productive_operator_transfer/REPORT.md`
-- `experiments/yolo/gdt347_fixed_graph_control_transport/REPORT.md`
-- `experiments/yolo/gdt348_oracle_coordinate_transport_calibration/REPORT.md`
 - `experiments/yolo/gdt386_independent_relation_edge_capacity/REPORT.md`
 - `experiments/yolo/gdt387_cross_domain_parent_link_calibration/REPORT.md`
 - `experiments/yolo/gdt388_acquisition_ready_relation_edge_protocol/REPORT.md`
+- `experiments/yolo/gdt389_connector_edge_census/METHOD.md`
 - `GDT330_F84R_METADATA_ACCESS_CORRECTION.md`
 
 Use `experiments/EXPERIMENT_INDEX.tsv` for exact paths, dependencies, runners,
