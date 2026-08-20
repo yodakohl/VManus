@@ -161,18 +161,15 @@ morpheme, plaintext symbol, or semantic role.
 
 ## Calibration constraints
 
-- GDT382 validates the broad observation pipeline on six known functions after
-  an oracle-blind composite Voynichification, including all 42 free and bound
-  marker controls. It simultaneously rejects exact composite joint identity as
-  a generally homologous readable-word unit: opaque source/host identity is
-  much stronger, exact joint state loses held bits in aggregate, and exact
-  field spans collapse. Domain-local realization beats strict universal
-  transfer by at least .243 AUC on all six endpoints, while conditioning
-  frequency/recurrence/context can erase genuine function signal. The next
-  route is instrument repair and positive-control revalidation: multiple
-  resolutions, register-local realizations, and grammar-bearing position/
-  boundary/frequency channels must be modeled explicitly before another
-  Voynich operator test.
+- GDT382 validates the observation pipeline on six known functions after
+  oracle-blind composite Voynichification, but rejects exact joint identity as
+  a generally homologous readable-word unit. Domain-local realization beats
+  strict universal transfer on all endpoints, and conditioning grammar-bearing
+  channels can erase real function signal.
+- GDT394 corrects GDT384/385/387: a deterministic role score supplies no new
+  conditional information. It compresses both readable domains, but loses to
+  matched one-dimensional source summaries; max-eight p=1 in both. Close this
+  latent-semantic-role architecture and do not create GDT395 from it.
 - GDT276’s compiler-conditioned character compression is real but not
   architecture-specific under GDT277’s synthetic controls.
 - GDT278–GDT297 show that large compiler-conditioned character gains also occur
@@ -258,6 +255,8 @@ falsifier:
   predecessor tuple identity or calibrate a readable recipe event-path bridge;
 - productive coordinate-operator algebra after GDT345–GDT347 failed recovery,
   cost, transfer, and fully comparable external-control gates;
+- latent-role transfer after GDT394 found useful but non-distinctive compression
+  against matched one-dimensional source bottlenecks;
 - f57/f77 quality, element, process, or lexical assignments.
 
 The complete route memory remains in

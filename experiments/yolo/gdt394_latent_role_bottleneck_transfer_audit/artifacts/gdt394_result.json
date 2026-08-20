@@ -1,0 +1,106 @@
+{
+  "claim_ceiling": "COMPARATOR_ONLY_MATCHED_ONE_DIMENSIONAL_COMPRESSION_AUDIT",
+  "content_sha256": "7d1ee894e48e3e5814627f2b37e97f9e439add0688f2917d98e7711a48297fd8",
+  "domain_results": {
+    "COREMA": {
+      "best_control": "SUPERVISED_RELATION_1D",
+      "best_control_gain_bits": 1018.9762690278221,
+      "best_control_mrr": 0.751621577373039,
+      "best_control_null_centered_excess_bits": 573.3981626772098,
+      "best_control_top1": 14934,
+      "gates": {
+        "beats_every_control_gain": false,
+        "beats_every_control_null_excess": false,
+        "majority_positive_folds": true,
+        "max8_p": false,
+        "mrr_margin": false,
+        "not_one_exact_form": true,
+        "not_one_fold": true,
+        "positive_gain": true,
+        "positive_null_excess": true,
+        "top1_margin": false
+      },
+      "max8_p": 1.0,
+      "mobile_fraction": 0.9978600634338339,
+      "mobile_rows": 26113,
+      "pass": false,
+      "role_gain_bits": 396.7152672363445,
+      "role_mrr": 0.7481703096403615,
+      "role_null_centered_excess_bits": 327.7756733201992,
+      "role_top1": 14754
+    },
+    "PCEEC2": {
+      "best_control": "SUPERVISED_RELATION_1D",
+      "best_control_gain_bits": 3418.271816084176,
+      "best_control_mrr": 0.5287171356308825,
+      "best_control_null_centered_excess_bits": 1882.3888269167542,
+      "best_control_top1": 9026,
+      "gates": {
+        "beats_every_control_gain": false,
+        "beats_every_control_null_excess": false,
+        "majority_positive_folds": true,
+        "max8_p": false,
+        "mrr_margin": false,
+        "not_one_exact_form": true,
+        "not_one_fold": true,
+        "positive_gain": true,
+        "positive_null_excess": true,
+        "top1_margin": false
+      },
+      "max8_p": 1.0,
+      "mobile_fraction": 0.7495187407994565,
+      "mobile_rows": 19857,
+      "pass": false,
+      "role_gain_bits": 1173.502487401929,
+      "role_mrr": 0.49183729876569443,
+      "role_null_centered_excess_bits": 661.7546853907793,
+      "role_top1": 7340
+    }
+  },
+  "f84": {
+    "opened": false,
+    "parsed": false,
+    "retained": false,
+    "scored": false
+  },
+  "implementation": {
+    "experiments/yolo/gdt394_latent_role_bottleneck_transfer_audit/src/freeze.py": "6390c5764a878e0767dc24173603ed79de6fd5d96ab18ab3d9faf9b0cd4f6d24",
+    "experiments/yolo/gdt394_latent_role_bottleneck_transfer_audit/src/run.py": "c1a87a4857e4dd8cb4ea8d99d087dccabae4987284510777a3c12b90e90d30db",
+    "experiments/yolo/gdt394_latent_role_bottleneck_transfer_audit/src/validate.py": "7dfa90fe6648cf01fff8a03aee64945bb59a104cc0c92533ade088ad9043fedb",
+    "experiments/yolo/gdt394_latent_role_bottleneck_transfer_audit/src/validate_freeze.py": "45d1a5593802ae4a7f8de1bac8d9d66929b0e8d72186c08bd2a3266a9103109b"
+  },
+  "inputs": {
+    "experiments/yolo/gdt382_voynichification_methodology_audit/artifacts/gdt382_voynichified_observation_layer.tsv.gz": "4c20dc0dd234f9b1947ce9c81d9d1c8645e30a1fd81321b6a9be755b3d229896",
+    "experiments/yolo/gdt385_corema_parent_link_consequence/artifacts/gdt385_predictions.tsv.gz": "319cb3a4a4288bc78d334cb74770651a0a71bbfadeb37cb12b1651619ff57526",
+    "experiments/yolo/gdt387_cross_domain_parent_link_calibration/artifacts/gdt387_hidden_governor_oracle.tsv.gz": "67adc844f12dfdc4828d07d191d0a14e93080507126e135a2b72b1adb864ca8b",
+    "experiments/yolo/gdt387_cross_domain_parent_link_calibration/artifacts/gdt387_predictions.tsv.gz": "319311d4dcc940ae504ba550acbf050c1079a23b77b558b3938695433afa788f",
+    "experiments/yolo/gdt394_latent_role_bottleneck_transfer_audit/artifacts/gdt394_pre_score_freeze.json": "da8e03ce3ab3097ca242079a250f0a0b326fec4a743a3289097ab3d012585e0a"
+  },
+  "interpretation_correction": "ROLE_SCORE_IS_DETERMINISTIC_SOURCE_COMPRESSION_NOT_CONDITIONAL_INFORMATION",
+  "models": [
+    "ROLE_BOTTLENECK",
+    "LINEAR_ROLE_1D",
+    "SUPERVISED_RELATION_1D",
+    "PCA_SOURCE_1D",
+    "RANDOM_SOURCE_1D",
+    "GRAMMAR_SUMMARY_1D",
+    "EXACT_JOINT_ROLE_1D",
+    "SHUFFLED_ROLE_1D"
+  ],
+  "null_worlds": 512,
+  "outputs": {
+    "experiments/yolo/gdt394_latent_role_bottleneck_transfer_audit/artifacts/gdt394_bottleneck_scores.tsv": "3e42b7a748f11d5b2c4b5914ff2a331320d86db8b37e92ef6f1fb11721235727",
+    "experiments/yolo/gdt394_latent_role_bottleneck_transfer_audit/artifacts/gdt394_counterexamples.tsv": "54270c93b7df21246d84c83ebee991f7eee0780d2216399547f7d619f1d87f52",
+    "experiments/yolo/gdt394_latent_role_bottleneck_transfer_audit/artifacts/gdt394_fold_scores.tsv": "b25c51d7a2c4f8f44b629da4e847880bfbda7550ea1a39da8c5072b4de0e4329",
+    "experiments/yolo/gdt394_latent_role_bottleneck_transfer_audit/artifacts/gdt394_null_summary.tsv": "11e75eaa318daaf0e321c82c1f115f5251d7b37526c4afba694f11d2763b98bb",
+    "experiments/yolo/gdt394_latent_role_bottleneck_transfer_audit/artifacts/gdt394_null_worlds.tsv": "378f7f8f01059211caacd0b9bfa864a3eb0f6dc0c5b94de331f73f22bb35f9e0",
+    "experiments/yolo/gdt394_latent_role_bottleneck_transfer_audit/artifacts/gdt394_predictions.tsv.gz": "3bff8e32a436cb0fb42cf43cd3edbfdedfcc93ba75cda962f5c5784acfaa31fd"
+  },
+  "overall_pass": false,
+  "schema": "GDT394_RESULT_V1",
+  "semantic_state": "UNASSIGNED",
+  "status": "LATENT_ROLE_COMPRESSION_NOT_DISTINCT_FROM_MATCHED_SOURCE_BOTTLENECKS",
+  "validation_scope": "RETAINED_FOLD_NULL_AND_PRIMARY_ARITHMETIC",
+  "voynich_rows_read": 0,
+  "voynich_stage_authorized": false
+}

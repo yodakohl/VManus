@@ -60,6 +60,11 @@
       "sha256": "7c3faf68ec26c88cd26b51c38b5c31639b53de8b9a9cb2d8b5868b95bbe876c2"
     },
     {
+      "path": "experiments/yolo/gdt394_latent_role_bottleneck_transfer_audit/REPORT.md",
+      "role": "final matched-capacity audit report",
+      "sha256": "8f00ed8f751473697e8d8e7d3f8d849ada5aac6d1f43f452145e16f62c95e33b"
+    },
+    {
       "path": "experiments/yolo/gdt394_latent_role_bottleneck_transfer_audit/METHOD.md",
       "role": "pre-score corrected method and promotion gate",
       "sha256": "dfa411707395b651bc30668309dee837c40b1e0a81dc0fe3d8200ca1c4696a8d"
@@ -83,6 +88,46 @@
       "path": "experiments/yolo/gdt394_latent_role_bottleneck_transfer_audit/artifacts/gdt394_pre_score_freeze_validation.json",
       "role": "independent freeze validation",
       "sha256": "66990796474fddfd1f0999a25488dcc1437549f87b494b6cc3ae52b25fedac6f"
+    },
+    {
+      "path": "experiments/yolo/gdt394_latent_role_bottleneck_transfer_audit/artifacts/gdt394_bottleneck_scores.tsv",
+      "role": "domain and model score summary",
+      "sha256": "3e42b7a748f11d5b2c4b5914ff2a331320d86db8b37e92ef6f1fb11721235727"
+    },
+    {
+      "path": "experiments/yolo/gdt394_latent_role_bottleneck_transfer_audit/artifacts/gdt394_counterexamples.tsv",
+      "role": "failed promotion gates and stronger matched controls",
+      "sha256": "54270c93b7df21246d84c83ebee991f7eee0780d2216399547f7d619f1d87f52"
+    },
+    {
+      "path": "experiments/yolo/gdt394_latent_role_bottleneck_transfer_audit/artifacts/gdt394_fold_scores.tsv",
+      "role": "held collection and file fold scores",
+      "sha256": "b25c51d7a2c4f8f44b629da4e847880bfbda7550ea1a39da8c5072b4de0e4329"
+    },
+    {
+      "path": "experiments/yolo/gdt394_latent_role_bottleneck_transfer_audit/artifacts/gdt394_null_summary.tsv",
+      "role": "coupling-null centered model summaries",
+      "sha256": "11e75eaa318daaf0e321c82c1f115f5251d7b37526c4afba694f11d2763b98bb"
+    },
+    {
+      "path": "experiments/yolo/gdt394_latent_role_bottleneck_transfer_audit/artifacts/gdt394_null_worlds.tsv",
+      "role": "jointly charged 512-world null maxima",
+      "sha256": "378f7f8f01059211caacd0b9bfa864a3eb0f6dc0c5b94de331f73f22bb35f9e0"
+    },
+    {
+      "path": "experiments/yolo/gdt394_latent_role_bottleneck_transfer_audit/artifacts/gdt394_predictions.tsv.gz",
+      "role": "retained comparator held predictions",
+      "sha256": "3bff8e32a436cb0fb42cf43cd3edbfdedfcc93ba75cda962f5c5784acfaa31fd"
+    },
+    {
+      "path": "experiments/yolo/gdt394_latent_role_bottleneck_transfer_audit/artifacts/gdt394_result.json",
+      "role": "compact final result",
+      "sha256": "7310a9010e530e1ca8b771aaa4f85ea50db8c0ba938d09f8a4ee490b350c86e3"
+    },
+    {
+      "path": "experiments/yolo/gdt394_latent_role_bottleneck_transfer_audit/artifacts/gdt394_validation.json",
+      "role": "independent retained-artifact validation",
+      "sha256": "be899293e4184b488423d4459b1554f6a87d4e443daf3cfa46d10b863efc7c86"
     },
     {
       "path": "experiments/yolo/gdt394_latent_role_bottleneck_transfer_audit/src/freeze.py",
@@ -112,11 +157,11 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "latent_role_bottleneck_transfer_audit",
-  "status": "FROZEN_BEFORE_SCORING",
+  "status": "LATENT_ROLE_COMPRESSION_NOT_DISTINCT_FROM_MATCHED_SOURCE_BOTTLENECKS",
   "title": "Latent-role bottleneck transfer audit",
   "updated": "2026-08-20",
   "validation": {
-    "artifact": null,
-    "status": "NOT_RUN"
+    "artifact": "experiments/yolo/gdt394_latent_role_bottleneck_transfer_audit/artifacts/gdt394_validation.json",
+    "status": "PASS"
   }
 }

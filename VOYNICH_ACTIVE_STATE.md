@@ -10162,6 +10162,19 @@ on 26,493 PCEEC2 edges and is positive in 69/84 files, but adds only 3.130 bits
 above its conditional-null mean and seven top-1 targets. This supports the
 narrow readable instrument, not a Voynich role.
 
+GDT394 corrects the information-theoretic interpretation of GDT384/385/387.
+Because every role score is a deterministic source-feature function, their raw
+codelength increments can only represent finite-model compression,
+regularization, or abstraction. In the frozen matched one-dimensional audit,
+the anonymous role remains useful in CoReMA (+396.715 bits; 5/6 collections)
+and PCEEC2 (+1,173.502 bits; 79/84 files), with positive null-centered excess
+and no single-fold/form dependence. It is not privileged: a direct supervised
+source scalar gains +1,018.976 and +3,418.272 bits respectively; a grammar
+summary beats it in CoReMA and PCA beats it in PCEEC2. Both max-eight p-values
+are 1, and rank gates fail. The latent-semantic-role architecture closes; no
+GDT395 or Voynich stage is authorized. No role, parent, syntax, POS, meaning,
+language, plaintext, translation, or f84 access follows.
+
 GDT388 freezes the acquisition repair. The 1,059 local-relation rows contain 95
 explicit positives on twelve folios, including 52 unhedged cases, but none has
 a normalized second manuscript locus or an ordered inscription edge. The
