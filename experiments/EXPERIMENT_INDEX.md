@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **392**
-- Experiment-associated tracked files: **5,394** (623.7 MiB)
-- Structured GDT337+ experiments: **57**
+- Experiments indexed: **393**
+- Experiment-associated tracked files: **5,405** (623.7 MiB)
+- Structured GDT337+ experiments: **58**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT394 | GDT394_latent_role_bottleneck_transfer_audit_freeze | `FROZEN_BEFORE_SCORING` | [report](../experiments/yolo/gdt394_latent_role_bottleneck_transfer_audit/METHOD.md) | 11 | 56.1 KiB | 4 | STRUCTURED_YOLO |
 | GDT393 | GDT393_remaining_page_connector_census | `COMPLETE_RESIDUAL_CENSUS_ZERO_ELIGIBLE_DIRECTED_EDGES` | [report](../experiments/yolo/gdt393_remaining_page_connector_census/REPORT.md) | 20 | 51.2 KiB | 2 | STRUCTURED_YOLO |
 | GDT392 | GDT392_source_access_correction | `SOURCE_COMMENT_MATERIALIZATION_DISCLOSED` | [report](../experiments/yolo/gdt392_special_circle_start_direction_census/CORRECTION.md) | 23 | 115.0 KiB | 3 | STRUCTURED_YOLO |
 | GDT391 | GDT391_local_object_relation_normalization | `NORMALIZATION_SUCCEEDS_BUT_MATCHED_RELATION_CAPACITY_FAILS` | [report](../experiments/yolo/gdt391_local_object_relation_normalization/REPORT.md) | 22 | 226.6 KiB | 4 | STRUCTURED_YOLO |
