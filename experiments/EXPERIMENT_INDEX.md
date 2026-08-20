@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **384**
-- Experiment-associated tracked files: **5,223** (621.5 MiB)
-- Structured GDT337+ experiments: **49**
+- Experiments indexed: **385**
+- Experiment-associated tracked files: **5,236** (621.5 MiB)
+- Structured GDT337+ experiments: **50**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT386 | GDT386_independent_relation_edge_capacity | `NO_INDEPENDENT_TARGET_RELATION_EDGE_AVAILABLE` | [report](../experiments/yolo/gdt386_independent_relation_edge_capacity/REPORT.md) | 13 | 35.5 KiB | 18 | STRUCTURED_YOLO |
 | GDT385 | GDT385_corema_parent_link_current | `COMPARATOR_PARENT_LINK_INSTRUMENT_FAILED_STOP_BEFORE_VOYNICH` | [report](../experiments/yolo/gdt385_corema_parent_link_consequence/REPORT.md) | 22 | 3.0 MiB | 4 | STRUCTURED_YOLO |
 | GDT384 | GDT384_role_specific_relation_priority | `PRIORITY_RELATION_UNIDENTIFIABLE_SOURCE_OVERLAP_STOP_BEFORE_VOYNICH` | [report](../experiments/yolo/gdt384_role_specific_relational_consequence/REPORT.md) | 24 | 1.3 MiB | 6 | STRUCTURED_YOLO |
 | GDT383 | GDT383_repaired_local_role_stage_a | `STAGE_A_FAILED_STOP_BEFORE_VOYNICH` | [report](../experiments/yolo/gdt383_repaired_local_role_transfer/REPORT.md) | 20 | 200.3 KiB | 3 | STRUCTURED_YOLO |

@@ -1,0 +1,53 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Score-blind capacity of existing f84-free evidence for an independently ordered relation endpoint; no Voynich formal score, role, parent, POS, meaning, language, plaintext, or translation.",
+  "commands": {
+    "run": "./vpy experiments/yolo/gdt386_independent_relation_edge_capacity/src/run.py",
+    "validate": "./vpy experiments/yolo/gdt386_independent_relation_edge_capacity/src/validate.py"
+  },
+  "created": "2026-08-20",
+  "dependencies": [
+    "GDT169",
+    "GDT337",
+    "GDT351",
+    "GDT360",
+    "GDT385"
+  ],
+  "experiment_id": "GDT386",
+  "inputs": [
+    {"path": "gdt169_external_referent_candidates.tsv", "role": "complete human-nominated cross-page referent pairs", "sha256": "e142868eff28e055d79087eb88772db4ae7021b1394d7896f7f638d9ed20c2f0"},
+    {"path": "experiments/yolo/gdt351_remaining_referent_label_capacity/artifacts/gdt351_capacity.tsv", "role": "remaining referent ownership upgrades", "sha256": "8444b76edd5dcbc6dc44e10846068349b43684bf0d0b32a2dd410063a326bfeb"},
+    {"path": "experiments/yolo/gdt360_existing_annotation_joint_grounding/artifacts/gdt360_annotation_inventory.tsv", "role": "guarded non-f84 human and layout relation inventory", "sha256": "3d5a129635d3b1b9714928f8cd21b94e2cdb170e836344327fa4ba837c2bbe4d"},
+    {"path": "experiments/yolo/gdt337_external_homologue_census/artifacts/gdt337_candidate_correspondences.tsv", "role": "geometry-only external homologue capacity matrix", "sha256": "a17c6ccce67ebe286b65f022fce8d5d37ff0f429ba5e2ea156f371c2352eb641"},
+    {"path": "q20ob001_source_panel.tsv", "role": "f84-free Q20 record ownership panel; metadata columns only", "sha256": "35636753732e24e9af6cb2e5798df8b7453baac11db9088f7ba131fa8c186d88"},
+    {"path": "experiments/yolo/gdt385_corema_parent_link_consequence/artifacts/gdt385_result.json", "role": "preceding comparator parent-link decision", "sha256": "624cd6363454bbce85f7262321452b64ae43b0b3b5dbf2693909177ea9af4c7b"}
+  ],
+  "outputs": [
+    {"path": "experiments/yolo/gdt386_independent_relation_edge_capacity/README.md", "role": "experiment entry point", "sha256": "872732ee2df4a25a6ab7105827b9582b3f1bf424c3432b999d7706a567dff218"},
+    {"path": "experiments/yolo/gdt386_independent_relation_edge_capacity/METHOD.md", "role": "frozen score-blind capacity method", "sha256": "d3827ef753aa0e2ae5ec4bb8726212e877b4c2e6dc9c82412461c8d689daf53e"},
+    {"path": "experiments/yolo/gdt386_independent_relation_edge_capacity/SOURCE_AUDIT.md", "role": "input provenance audit", "sha256": "cb2e3abe13ab03c95dba9b18a566a761ab5adbbdcc7d968e1eb54f4e1f3794de"},
+    {"path": "experiments/yolo/gdt386_independent_relation_edge_capacity/REPORT.md", "role": "capacity result and acquisition requirement", "sha256": "cc7b657614eb053f9104928c018b09b892d97fb4263c2b5134017f25999f4f12"},
+    {"path": "experiments/yolo/gdt386_independent_relation_edge_capacity/artifacts/README.md", "role": "artifact guide", "sha256": "20648a7f84769eddf1385e8797d3b448618ec9654426c3642a0b05453ef93008"},
+    {"path": "experiments/yolo/gdt386_independent_relation_edge_capacity/artifacts/gdt386_candidate_edge_families.tsv", "role": "complete candidate-family gate matrix", "sha256": "f1cf67baae3322b9427c3947116a16274d3532b46e55257f4fc7356c3884dc65"},
+    {"path": "experiments/yolo/gdt386_independent_relation_edge_capacity/artifacts/gdt386_viable_endpoint_freeze.tsv", "role": "empty eligible endpoint freeze", "sha256": "d4ff2cb00b4888db670b432f7a95cf893e298f1204b7941bd14555ed0bcaa356"},
+    {"path": "experiments/yolo/gdt386_independent_relation_edge_capacity/artifacts/gdt386_closed_route_dedup.tsv", "role": "closed-route and duplicate exclusions", "sha256": "5d959f0a97ad718869fc309ac7ca9384629b2dedd010c170b5f914da4ae835ed"},
+    {"path": "experiments/yolo/gdt386_independent_relation_edge_capacity/artifacts/gdt386_result.json", "role": "compact hash-bound result", "sha256": "2412398ce01d658c61c6e8490564c0a563a747cf130dc376b23cfb4999217d9a"},
+    {"path": "experiments/yolo/gdt386_independent_relation_edge_capacity/artifacts/gdt386_validation.json", "role": "independent source-count validation", "sha256": "ec3000fe91c9bd8f5675c6721ee74e95553fc8793394fd7aead3995042a88a2d"},
+    {"path": "experiments/yolo/gdt386_independent_relation_edge_capacity/src/run.py", "role": "deterministic capacity producer", "sha256": "a19d42a05d818dd67bf9c4521dcff9d30cc5b07ed09a39cc4ef52d6474594f32"},
+    {"path": "experiments/yolo/gdt386_independent_relation_edge_capacity/src/validate.py", "role": "nonimporting source-count validator", "sha256": "b8a370b57ed0721bcdb9274c437601904a0fa66785321232dd593e97b06995bb"}
+  ],
+  "question": "Does the existing f84-free human and layout evidence contain an independently authored or externally supplied ordered relation edge with exact pivot/target ownership and held-folio capacity?",
+  "schema_version": 1,
+  "sealed_data": {"f84r": "FORBIDDEN"},
+  "slug": "independent_relation_edge_capacity",
+  "status": "NO_INDEPENDENT_TARGET_RELATION_EDGE_AVAILABLE",
+  "title": "Independent Voynich relation-edge capacity audit",
+  "updated": "2026-08-20",
+  "validation": {
+    "artifact": "experiments/yolo/gdt386_independent_relation_edge_capacity/artifacts/gdt386_validation.json",
+    "status": "PASS"
+  }
+}

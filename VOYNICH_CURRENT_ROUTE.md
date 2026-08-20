@@ -264,24 +264,25 @@ ledger. Use those files for a proposed-route duplicate audit, not on every turn.
 
 ## Next useful route
 
-GDT385 is the latest completed comparator repair. It uses CoReMA's explicit
-editor parent pointers as outcomes independent of the composite source
-representation. Only the hidden TIME-derived anonymous route passes
-whole-collection transfer (+194.224 bits, 5/6 collections, max-four
-`p=.000488`); the priority REF route and the ALTERNATIVE/exclusion routes fail
-their frozen calibration, stability, target-rank, or joint-null gates. The
-complete priority-plus-3/4 instrument gate fails, so no Voynich stage is
-authorized.
+GDT385's comparator repair recovered only one of four anonymous CoReMA routes:
+the hidden TIME-derived route adds 194.224 held relation bits across 5/6
+collections (`max4 p=.000488`), while the priority REF route fails. The full
+instrument gate therefore failed and licensed only a score-blind target
+capacity audit.
 
-The next useful pass is score-blind target-homology/capacity work. Inventory
-only authorial or externally supplied relation edges already available for
-non-f84 Voynich records, and reject any endpoint whose answer is defined by
-the same tuple recurrence, placement, line, field, or boundary structure used
-as predictor. Deduplicate explicitly against resume/repeat/scope, exact-tuple,
-PAGE_HOST, and GDT345--347 routes. Only a genuinely independent, observable
-edge with cross-folio capacity can authorize a new frozen target experiment.
-If none exists, report the absence and return to acquisition/instrumentation;
-do not relabel internal grammar as a parent relation.
+GDT386 completed that audit without reading formal identities. Across 40
+cross-page referent pairs, 1,059 local relation cases on 335 loci, 170 Q20
+records, 11 external homologue candidates, and four remaining referent
+upgrades, it found zero independently ordered target edges. Local geometry is
+not a parent target; repeated grammar, line/field return, and OPEN/BODY
+structure are source-defined outcomes. No Voynich score is authorized.
+
+The next useful work is acquisition/instrumentation: obtain a provenance-clean
+relation census with exact pivot and target, independently visible direction
+or ownership, at least 50 edges on five physical folios, and no dependence on
+tuple recurrence or placement. Until then, improve the readable comparator or
+the observation protocol; do not reopen internal operator, PAGE_HOST, visual
+substring, or semantic-role mining.
 
 ## Primary routing references
 
@@ -290,6 +291,7 @@ do not relabel internal grammar as a parent relation.
 - `experiments/yolo/gdt345_productive_operator_transfer/REPORT.md`
 - `experiments/yolo/gdt347_fixed_graph_control_transport/REPORT.md`
 - `experiments/yolo/gdt348_oracle_coordinate_transport_calibration/REPORT.md`
+- `experiments/yolo/gdt386_independent_relation_edge_capacity/REPORT.md`
 - `GDT330_F84R_METADATA_ACCESS_CORRECTION.md`
 
 Use `experiments/EXPERIMENT_INDEX.tsv` for exact paths, dependencies, runners,
