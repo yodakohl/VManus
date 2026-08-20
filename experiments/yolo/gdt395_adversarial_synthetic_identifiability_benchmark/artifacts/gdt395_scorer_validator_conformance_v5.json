@@ -1,0 +1,49 @@
+{
+  "bindings": {
+    "SCORER_VALIDATOR_CONFORMANCE_CORRECTION_V5.md": "11f4ecf6f33471a6ff195d61cb3842283f790d3d7be362f52fb3cac355a38a20",
+    "SCORING_DESIGN.md": "baa11d53c2a460614fa5ee665e4ef2f0ee34d44211f5684d5d23aa8b740c9e16",
+    "VALIDATION_DESIGN.md": "3142cbaedc91ef851bf9cf30f608bbf61df353abc9721c71d6f847635f454cdf",
+    "artifacts/gdt395_blind_claims_freeze.json": "07c372c55b6ec1a9aae3747ced4d4cd413c17dc3d3c76ea3ee4c8c59bc57e3d9",
+    "artifacts/gdt395_blind_claims_validation.json": "767999b1b4d747544422e40c7de6a25c5efdeabded1ddf7673b96fe0c95c31b6",
+    "artifacts/gdt395_corpus_manifest.tsv": "2564e294576610b2a399c37241a35f2a7bfb14779fde873b20641c01ffc4def2",
+    "artifacts/gdt395_scoring_execution_v4_correction.json": "874a51912b9b2bff93cbd3422bc4bb0a6389ca9412f70ab7562cbbc06b812101",
+    "artifacts/gdt395_scoring_execution_v4_correction_validation.json": "2e28bb8d9eeac7d5000eb303d54e9776808ad33eb8ab1e8a546ed488a1001fe1",
+    "artifacts/gdt395_validation_execution_v3_correction.json": "ecfa77ea5fc8e0104933b1088e0f9d4f5143cfa0c96521333224f11c73d9f3d9",
+    "artifacts/gdt395_validation_execution_v3_correction_validation.json": "491ec98baf738730d743d73cf3cbe7a314074556e323b186f856a230f0c2d48c",
+    "src/freeze_scorer_validator_conformance_v5.py": "13c11a9a256d552e179eb7f3a3930f7c87869cb14473d5e88cfe30abf2ea183b",
+    "src/run_identifiability_scoring_v5.py": "4809b15012ac94806fda4e67bf6db7475ae101561040362df893c9b775d7f61f",
+    "src/score_identifiability.py": "281c8161345f4cc45f5926d06e95cd342d2df7d34c6113b62235bacf4c4df48b",
+    "src/score_identifiability_v3.py": "8a3f8622eded992ce7aaef72f1654a34b76bfd5e6216b8d223579b40ea9a5303",
+    "src/score_identifiability_v4.py": "6cee6679e1768610e18fe6ade5c6d391d13158222e25a0c97724d9cf6f7fb79b",
+    "src/score_identifiability_v5.py": "cfcba6145c9a611ffa3b71b309e54213139e3996d0f0a5bad7621fcec73427f9",
+    "src/validate_identifiability.py": "cc68516cb7cdd7b296c71b92276bfca2a099f611e9dfe0528f76c7e238bc22ec",
+    "src/validate_identifiability_v2.py": "96d19e176b8864a4a09c19dafb797f1e64427d7081e92a4bc7e4ca7a91904e9e",
+    "src/validate_identifiability_v3.py": "46972cc1253a8c4131a40a75a79ae266fadf34e63a85932e7e2fbb09cd8b5f0a",
+    "src/validate_scorer_validator_conformance_v5.py": "2348030068a2e471be4396ea6f58e8559449365e8f21f793627352dfaaf64732"
+  },
+  "checks": {
+    "eight_v4_outputs_bound_before_v5": true,
+    "f84_opened": false,
+    "f84r_opened": false,
+    "no_metric_or_threshold_selected_from_v4_values": true,
+    "post_oracle_chronology_disclosed": true,
+    "v5_output_absent_at_freeze": true,
+    "validator_spec_predates_oracle_access": true,
+    "voynich_rows": 0
+  },
+  "content_sha256": "2f843dd0cf22059fccc239ade008b6175c85b5e313e25cb64ba609cbb643d955",
+  "failure_gate": "PANEL_METRICS_MISMATCH_GATE",
+  "repair_basis": "PRE_ORACLE_INDEPENDENT_VALIDATION_DESIGN",
+  "schema": "GDT395_SCORER_VALIDATOR_CONFORMANCE_V5_FREEZE_V1",
+  "status": "POST_ORACLE_CONFORMANCE_CORRECTION_FROZEN_BEFORE_SCORING_V5",
+  "superseded_v4_output_sha256": {
+    "architecture_metrics.tsv": "f5ff8d52c40bf5cb364f3f993b50bdc808f43aaa032024d2db4569dad76c87be",
+    "method_stress_tests.tsv": "8a6b924f6132560f16c7402cbf980cd9fc476d09b062150da157aace4e6e972b",
+    "pair_panel_metrics.tsv": "0ade6cbb76515f388b71696b57fa35fc4a2895cf8314a8819a0104b977791018",
+    "panel_metrics.tsv": "be6f8f998dd411d44a1604ebb5004fdd972886ed1e7d61f81cbdf7bc08fd069d",
+    "property_decisions.tsv": "fdee7bc7b62c9226770f0e0dd83361f0a6756f44b2375a1f2e17d2cc4dae7766",
+    "summary.json": "feea428ba236bb9b7da9a0414add0ff9ce712d9d84625b2451f1641ccf204ffe",
+    "w10_false_discoveries.tsv": "0d3b9cdb98f909cc4fa6f2889bfb17852507421592302f5ca41eac59779aea71",
+    "world_representation_metrics.tsv": "752297e64033050abc5ee8122b8af7c845c0ee0b83550b42180480931df5722a"
+  }
+}
