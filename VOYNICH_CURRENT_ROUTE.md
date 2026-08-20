@@ -279,10 +279,11 @@ of author-visible connectors between separately localizable inscriptions.
 Scoring stays locked until at least 50 singular directed edges/five folios pass
 exact ownership, grammar-independence, held-folio, and mobile-null gates.
 
-GDT389 freezes the exact 61-page/30-folio review order and allow-list-only image
-loader before image access. Execute that packet without formal access. Local
-attachment, catalogue order, radial adjacency, OPEN/BODY, and cross-page
-similarity are not substitute targets; do not reopen internal mining.
+GDT389 reviewed the exact 61-page/30-folio packet on 50 safe Yale canvases:
+47 pages have no candidate, 14 retain ambiguous drawing connectors, and zero
+supply two singular inscription endpoints. Capacity is zero eligible edges;
+the parent-link/connector route is closed. Do not substitute proximity, radial
+order, OPEN/BODY, or cross-page similarity for genuinely new relation evidence.
 
 ## Primary routing references
 
@@ -291,7 +292,7 @@ similarity are not substitute targets; do not reopen internal mining.
 - `experiments/yolo/gdt386_independent_relation_edge_capacity/REPORT.md`
 - `experiments/yolo/gdt387_cross_domain_parent_link_calibration/REPORT.md`
 - `experiments/yolo/gdt388_acquisition_ready_relation_edge_protocol/REPORT.md`
-- `experiments/yolo/gdt389_connector_edge_census/METHOD.md`
+- `experiments/yolo/gdt389_connector_edge_census/REPORT.md`
 - `GDT330_F84R_METADATA_ACCESS_CORRECTION.md`
 
 Use `experiments/EXPERIMENT_INDEX.tsv` for exact paths, dependencies, runners,

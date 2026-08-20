@@ -1,0 +1,66 @@
+{
+  "access": {
+    "automated_image_classification_calls": 0,
+    "clip_embedding_caption_calls": 0,
+    "content_hash": "d7d1d8ebb79c752dc75a37d07167a81297cbb4b21aa505cceea591010d8b4937",
+    "direct_visual_reviewer_count": 1,
+    "direct_visual_reviewer_type": "AI_EXPLORATORY_NOT_HUMAN_OR_CONFIRMATORY",
+    "f84_image_transcription_source_group_formal_identity_prediction_or_score_access": false,
+    "formal_rows_read": 0,
+    "frozen_pages_reviewed": 61,
+    "known_prior_metadata_display_breach": "See CORRECTION.md; no further f84 access occurred in image mapping or review.",
+    "ocr_calls": 0,
+    "official_yale_canvases_opened": 50,
+    "schema": "GDT389_ACCESS_V1",
+    "voynich_text_identities_read": 0
+  },
+  "capacity": {
+    "edge_gate_pass": false,
+    "folio_gate_pass": false,
+    "later_formal_scoring_authorized": false,
+    "minimum_edges": 50,
+    "minimum_physical_folios": 5
+  },
+  "claim_ceiling": "GEOMETRY_ONLY_COMPLETE_CONNECTOR_CENSUS_AND_CAPACITY",
+  "content_hash": "a1dd2451980dc0243ec6578c1aa9d075e39f40bf5e74a0263e51b839f3507ab5",
+  "counts": {
+    "ambiguous_connector_pages": 14,
+    "connector_with_fewer_than_two_inscriptions_pages": 0,
+    "connector_with_two_or_more_inscriptions_pages": 0,
+    "eligible_directed_edge_folios": 0,
+    "eligible_directed_edges": 0,
+    "exact_endpoint_localizations": 0,
+    "frozen_pages_reviewed": 61,
+    "no_connector_candidate_pages": 47,
+    "official_canvases_reviewed": 50,
+    "physical_folios_reviewed": 30
+  },
+  "implementation": {
+    "experiments/yolo/gdt389_connector_edge_census/src/map_images.py": "ce8a5324e16478d2eddd95252e1900dcc8e62d223b8ec5990184ab3ed6b0cfa2",
+    "experiments/yolo/gdt389_connector_edge_census/src/prepare_review.py": "ebcdffc419b24542303ff59b1f5177d28e81aae1ccd444d0a88f99b3002235e3",
+    "experiments/yolo/gdt389_connector_edge_census/src/run.py": "f20eb279e97730bc371e2327ecaeff57c755b6a2c76b9da7759ad08a5d8fdd75"
+  },
+  "inputs": {
+    "experiments/yolo/gdt388_acquisition_ready_relation_edge_protocol/artifacts/gdt388_page_frame.tsv": "1e58e41b357ea9077ae63dc1f7f71a71c175700c804176429ebde4cd684a2fba",
+    "experiments/yolo/gdt389_connector_edge_census/artifacts/gdt389_image_manifest.tsv": "82b4ec3b0006f84b91b5a76d9154a68451d3e30206e8f832c76f5ae5c4b934b7",
+    "experiments/yolo/gdt389_connector_edge_census/artifacts/gdt389_image_mapping.json": "c015b0c09357e026589f813c06fcb464c6503bdc63dfcb4fc1f28ab4b0268690",
+    "experiments/yolo/gdt389_connector_edge_census/artifacts/gdt389_pre_image_freeze.json": "fca7568ae650b32f3d8d9f1d7e4e9f4cf5afe2af75888fa4c46897c1caa38bb1",
+    "experiments/yolo/gdt389_connector_edge_census/artifacts/gdt389_review_image_hashes.tsv": "e5a98d766a25dac1197594b3c0460dd20967ac400eb7ffc093321a3601c2a002"
+  },
+  "interpretation": "Visible connectors in the frozen frame join graphical objects or regions, not two singular, directionally ordered inscription endpoints. The current parent-link application remains closed at acquisition capacity.",
+  "outputs": {
+    "experiments/yolo/gdt389_connector_edge_census/artifacts/gdt389_access_log.json": "4fbb92ed0902a1db803853c7f60af4ca18cbefacd82bdd81a6dbebc72d7bf92a",
+    "experiments/yolo/gdt389_connector_edge_census/artifacts/gdt389_ambiguous_candidates.tsv": "33cb9b232116a1926d2cef344440544ac2cbe8fb62ce1a91231b5ef3034c1d5f",
+    "experiments/yolo/gdt389_connector_edge_census/artifacts/gdt389_capacity_gates.tsv": "e09b7554c999bfe942633d50dbed0d15d03a40f2727f9e61431dabadfe7b431b",
+    "experiments/yolo/gdt389_connector_edge_census/artifacts/gdt389_eligible_edge_packet.tsv": "701ba6dd741d874545f20defddf8570bf8c0f4e7d9aa5ddefd316ca1ca84573c",
+    "experiments/yolo/gdt389_connector_edge_census/artifacts/gdt389_page_observations.tsv": "8420b15d01debd4bcca53fc214c879655ad945f77d1f879d5d198827959d4b6b"
+  },
+  "review": {
+    "all_ambiguities_published": true,
+    "automated_visual_judgments": 0,
+    "complete_frame": true,
+    "provenance": "SINGLE_AI_DIRECT_VISUAL_EXPLORATORY_NOT_HUMAN_OR_CONFIRMATORY"
+  },
+  "schema": "GDT389_RESULT_V1",
+  "status": "COMPLETE_CENSUS_ZERO_ELIGIBLE_DIRECTED_EDGES"
+}

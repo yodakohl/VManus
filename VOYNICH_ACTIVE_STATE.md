@@ -10173,15 +10173,17 @@ edge packet is empty and validation passes 36/36. This is an acquisition
 protocol only; no parent, role, syntax, POS, meaning, language, plaintext,
 translation, or f84 access follows.
 
-GDT389 freezes execution of that primary batch before new image access. Its
-exact universe is all 61 allowed pages on 30 folios, reviewed in a deterministic
-hash order; image metadata must be filtered by exact allowed page label before
-retention, and mixed canvases containing any f84 label are rejected. A
-pre-freeze broad repository search accidentally displayed the already published
-f84r visual document-role value `REPEATED_OWNED_RECORDS`. No f84 image,
-transcription, source group, formal identity, PAGE_HOST, tuple, prediction, or
-score was opened or used. The breach is disclosed and no further f84 access is
-authorized. Freeze validation passes 16/16; formal scoring remains locked.
+GDT389 completes that primary batch. All 61 frozen pages on 30 folios were
+directly reviewed through 50 allow-listed Yale canvases in the preregistered
+order. Forty-seven pages have no connector candidate; fourteen retain ducts,
+paths, branches, or arcs whose endpoints are graphical objects/regions rather
+than two singular inscriptions. No page reached two-endpoint localization,
+direction review, or eligibility: capacity is zero directed edges on zero
+folios versus the frozen 50-edge/five-folio gate. Validation passes 55/55 and
+explicitly does not claim a second visual reviewer. The earlier metadata-only
+f84r display remains disclosed; no f84 image, transcription, source group,
+formal identity, PAGE_HOST, tuple, prediction, or score was accessed in the
+image review. The current connector/parent-link acquisition route is closed.
 
 ## Runtime and sources
 
