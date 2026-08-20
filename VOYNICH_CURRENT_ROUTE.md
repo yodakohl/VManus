@@ -281,8 +281,9 @@ supply two singular inscription endpoints. Capacity is zero eligible edges;
 the parent-link/connector route is closed. Do not substitute proximity, radial
 order, OPEN/BODY, or cross-page similarity for genuinely new relation evidence.
 
-GDT391 leaves four matched local relations. GDT392 finds six start-only circle
-markers but zero directions/eligible edges; all current grounding scores stay locked.
+GDT390 closes Q20 pointers; GDT391 leaves four matched local relations; GDT392
+leaves six start-only markers but zero directions. With GDT386's B03 block, all
+five GDT388 batches are exhausted; scores stay locked pending genuinely new data.
 
 ## Primary routing references
 
@@ -292,7 +293,7 @@ markers but zero directions/eligible edges; all current grounding scores stay lo
 - `experiments/yolo/gdt387_cross_domain_parent_link_calibration/REPORT.md`
 - `experiments/yolo/gdt388_acquisition_ready_relation_edge_protocol/REPORT.md`
 - `experiments/yolo/gdt389_connector_edge_census/REPORT.md`
-- `experiments/yolo/gdt390_q20_inter_record_pointer_census/METHOD.md`
+- GDT390–392 reports: `experiments/yolo/gdt390_q20_inter_record_pointer_census/REPORT.md`, `experiments/yolo/gdt391_local_object_relation_normalization/REPORT.md`, `experiments/yolo/gdt392_special_circle_start_direction_census/REPORT.md`
 - `GDT330_F84R_METADATA_ACCESS_CORRECTION.md`
 
 Use `experiments/EXPERIMENT_INDEX.tsv` for exact paths, dependencies, runners,
