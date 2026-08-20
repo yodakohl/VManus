@@ -264,67 +264,24 @@ ledger. Use those files for a proposed-route duplicate audit, not on every turn.
 
 ## Next useful route
 
-GDT373 supersedes the former external-acquisition-only routing instruction for
-one bounded internal experiment. Implement GDT374 as a common, f84-free
-functional-operator discovery framework over atomic GDT327 tuple records:
+GDT385 is the latest completed comparator repair. It uses CoReMA's explicit
+editor parent pointers as outcomes independent of the composite source
+representation. Only the hidden TIME-derived anonymous route passes
+whole-collection transfer (+194.224 bits, 5/6 collections, max-four
+`p=.000488`); the priority REF route and the ALTERNATIVE/exclusion routes fail
+their frozen calibration, stability, target-rank, or joint-null gates. The
+complete priority-plus-3/4 instrument gate fails, so no Voynich stage is
+authorized.
 
-1. build physical-line and drawing/reset-segment records with hierarchical
-   separators, DY/B3, layout, and register metadata;
-2. align near-isomorphic records without PAGE_HOST or glyph similarity;
-3. infer only the frozen tuple/field rewrite classes in the GDT373 method;
-4. rank by cross-base recurrence and held-folio predictive gain with exact
-   record, placement, tuple-frequency, and matched-edit baselines;
-5. charge the complete search and preserve page/register/layout/position,
-   record length, tuple recurrence, and edit opportunity in nulls;
-6. retain anonymous behavior labels only, and freeze any prospective non-f84
-   test before inspecting its target tuple identities.
-
-Do not reopen GDT003/string paradigms, minimal-pair synonymy, PAGE_HOST
-substring mining, marginal scope correlation, or GDT345--347 next-state
-operator manifolds. External grounding remains paused unless genuinely new
-evidence meeting the earlier acquisition requirements appears.
-
-GDT374 is complete and found no promotable operator. Exact atomic field
-insertion has real cross-folio recurrence and a weak seven-folio prefix lead,
-but source identity loses 519.980 held bits and the candidate max-library tail
-is .368562. Drawing-reset/whole-line and exact split/join/shortening scopes have
-insufficient or zero capacity. Do not retune this endpoint.
-
-The next admissible internal step is calibration-first, not another Voynich
-candidate scan: apply the frozen GDT374 rewrite/event construction to readable
-structured controls through an opaque-identity observation layer. Determine
-whether the rank-improves/codelength-collapses signature is expected from real
-functional operators, lexical template families, or sparse record notation.
-Only if that calibration licenses a different, predeclared statistic may it be
-returned unchanged to GDT373 families 2--6. No current row qualifies for a
-prospective non-f84 operator test.
-
-GDT341 additionally shows that a future readable-recipe instrument must retain
-some independently normalized repeated-entity identity or another stable
-cross-wording anchor; process order alone is not an adequate bridge. Such an
-anchor must be externally defined before any Voynich tuple is inspected.
-
-GDT342 sharpens that requirement: retaining the entire record-local equality
-graph still does not suffice. A future bridge needs an externally licensed
-cross-record identity relation or referent, not merely anonymous recurrence,
-merge/split, order, or closure. Exact GDT327 tuple identity cannot be promoted
-to that relation without independent target evidence.
-
-GDT343 supplies that cross-record identity in the readable comparator and
-shows the next limitation: once persistent normalized identity is known, the
-tested ordered entity-flow augmentation is redundant or slightly harmful.
-Future grounding therefore needs an independently licensed target identity;
-adding this same flow graph cannot create one and must not be used to promote
-exact GDT327 tuples into entities.
-
-GDT344–GDT346 add one bounded nuance: formal-coordinate marginals and sparse
-pair couplings can back off unseen combinations, but the gains do not pay for
-graph selection or transfer across all environments. This is not sufficient
-to collapse tuple sequences into one latent grammar object or posit a
-productive operator manifold.
-
-If no new external endpoint exists, improve instrumentation or acquire new
-evidence rather than mining another internal string feature.
+The next useful pass is score-blind target-homology/capacity work. Inventory
+only authorial or externally supplied relation edges already available for
+non-f84 Voynich records, and reject any endpoint whose answer is defined by
+the same tuple recurrence, placement, line, field, or boundary structure used
+as predictor. Deduplicate explicitly against resume/repeat/scope, exact-tuple,
+PAGE_HOST, and GDT345--347 routes. Only a genuinely independent, observable
+edge with cross-folio capacity can authorize a new frozen target experiment.
+If none exists, report the absence and return to acquisition/instrumentation;
+do not relabel internal grammar as a parent relation.
 
 ## Primary routing references
 

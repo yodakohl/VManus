@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **373**
-- Experiment-associated tracked files: **4,943** (579.9 MiB)
-- Structured GDT337+ experiments: **38**
+- Experiments indexed: **384**
+- Experiment-associated tracked files: **5,223** (621.5 MiB)
+- Structured GDT337+ experiments: **49**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,17 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT385 | GDT385_corema_parent_link_current | `COMPARATOR_PARENT_LINK_INSTRUMENT_FAILED_STOP_BEFORE_VOYNICH` | [report](../experiments/yolo/gdt385_corema_parent_link_consequence/REPORT.md) | 22 | 3.0 MiB | 4 | STRUCTURED_YOLO |
+| GDT384 | GDT384_role_specific_relation_priority | `PRIORITY_RELATION_UNIDENTIFIABLE_SOURCE_OVERLAP_STOP_BEFORE_VOYNICH` | [report](../experiments/yolo/gdt384_role_specific_relational_consequence/REPORT.md) | 24 | 1.3 MiB | 6 | STRUCTURED_YOLO |
+| GDT383 | GDT383_repaired_local_role_stage_a | `STAGE_A_FAILED_STOP_BEFORE_VOYNICH` | [report](../experiments/yolo/gdt383_repaired_local_role_transfer/REPORT.md) | 20 | 200.3 KiB | 3 | STRUCTURED_YOLO |
+| GDT382 | GDT382_voynichification_methodology_audit | `PIPELINE_RECOVERS_COMPOSITE_FUNCTION_BUT_JOINT_MAPPING_AND_OVERCONTROL_FAIL` | [report](../experiments/yolo/gdt382_voynichification_methodology_audit/REPORT.md) | 21 | 6.8 MiB | 2 | STRUCTURED_YOLO |
+| GDT381 | GDT381_target_definition_overlap_audit | `COMPARATOR_TOPOLOGY_SUPPORTED_TARGET_TRANSFER_UNIDENTIFIABLE_DEFINITION_OVERLAP` | [report](../experiments/yolo/gdt381_relational_topology_transfer/REPORT.md) | 44 | 630.2 KiB | 4 | STRUCTURED_YOLO |
+| GDT380 | GDT380_identity_free_functional_operator_transfer | `NO_IDENTITY_FREE_SIGNATURE_PASSED_COMPARATOR_GATE` | [report](../experiments/yolo/gdt380_identity_free_functional_transfer/REPORT.md) | 25 | 8.7 MiB | 3 | STRUCTURED_YOLO |
+| GDT379 | GDT379_F1_orthogonal_behavior | `NO_STABLE_JOINTLY_ADJUSTED_ORTHOGONAL_CONSEQUENCE` | [report](../experiments/yolo/gdt379_f1_orthogonal_behavior/REPORT.md) | 31 | 917.9 KiB | 6 | STRUCTURED_YOLO |
+| GDT378 | GDT378_identity_only_null_diagnostic | `ONE_LINKED_POSTHOC_OPAQUE_FORMAL_LEAD_NONPROMOTING` | [report](../experiments/yolo/gdt378_cross_corpus_construction_transfer/artifacts/gdt378_identity_only_diagnostic_result.json) | 51 | 14.0 MiB | 4 | STRUCTURED_YOLO |
+| GDT377 | GDT377_local_head_signature_transfer | `NO_STABLE_VOYNICH_TRANSFER_CANDIDATE` | [report](../experiments/yolo/gdt377_local_head_signature_transfer/REPORT.md) | 14 | 1.4 MiB | 3 | STRUCTURED_YOLO |
+| GDT376 | GDT376_corema_hidden_function_oracle | `FORM_BLIND_FUNCTIONAL_SIGNATURES_CALIBRATED` | [report](../experiments/yolo/gdt376_corema_hidden_function_oracle/REPORT.md) | 17 | 4.5 MiB | 2 | STRUCTURED_YOLO |
+| GDT375 | GDT375_comparator_derived_functional_roadmap | `COMPARATOR_DERIVED_FUNCTIONAL_FAMILIES_REGISTERED_BEFORE_ORACLE_EVALUATION` | [report](../experiments/yolo/gdt375_comparator_derived_functional_roadmap/REPORT.md) | 11 | 41.0 KiB | 8 | STRUCTURED_YOLO |
 | GDT374 | GDT374_common_functional_operator_discovery | `NO_PROMOTABLE_FUNCTIONAL_OPERATOR_FOUND` | [report](../experiments/yolo/gdt374_common_functional_operator_discovery/REPORT.md) | 20 | 2.2 MiB | 2 | STRUCTURED_YOLO |
 | GDT373 | GDT373_functional_operator_roadmap | `FUNCTIONAL_OPERATOR_HYPOTHESES_REGISTERED_BEFORE_SEARCH` | [report](../experiments/yolo/gdt373_functional_operator_roadmap/REPORT.md) | 12 | 41.8 KiB | 37 | STRUCTURED_YOLO |
 | GDT372 | GDT372_external_prespecification_capacity | `SEARCH_FREEDOM_CAPACITY_CALIBRATED` | [report](../experiments/yolo/gdt372_external_prespecification_capacity/REPORT.md) | 13 | 145.1 KiB | 1 | STRUCTURED_YOLO |

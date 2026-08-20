@@ -1,0 +1,82 @@
+{
+  "claim_ceiling": "COMPARATOR_EXTERNAL_PARENT_LINK_INSTRUMENT_ONLY",
+  "content_hash": "377f2c50031fbb74670388b9bcc737994082f0e59e74ea553b5674d23ea6aa5b",
+  "eligible_pivots": 26169,
+  "f84": {
+    "opened": false,
+    "parsed": false,
+    "retained": false,
+    "scored": false
+  },
+  "implementation": {
+    "experiments/yolo/gdt385_corema_parent_link_consequence/src/freeze_gdt385.py": "b00e46826a599794d3c923a64f11e25d99bca99bb3372917e8ad7b88e6801a52",
+    "experiments/yolo/gdt385_corema_parent_link_consequence/src/run.py": "d02c02d4816824c7cfb1277176229fdef19404088e98c024d2d7900ffb870e89",
+    "experiments/yolo/gdt385_corema_parent_link_consequence/src/run_gdt385.py": "d3475c724c47f679ac0aa45d7c638b834c9df8bb90fe65b395e0f2b0a66ea348",
+    "experiments/yolo/gdt385_corema_parent_link_consequence/src/validate.py": "f03c0f2a959152b18aca39ca1d183cbe3a35efe4d330ef64f28a7cf0376cd024",
+    "experiments/yolo/gdt385_corema_parent_link_consequence/src/validate_freeze.py": "48393f0d2c356e6b23d48bba3fd51de2fc303cd55658f30162dd93279d917aef"
+  },
+  "inputs": {
+    "experiments/yolo/gdt382_voynichification_methodology_audit/artifacts/gdt382_voynichified_observation_layer.tsv.gz": "4c20dc0dd234f9b1947ce9c81d9d1c8645e30a1fd81321b6a9be755b3d229896",
+    "experiments/yolo/gdt385_corema_parent_link_consequence/artifacts/gdt385_pre_score_freeze.json": "0b90fc4c98ab7218f7ac84da41049cec5415b5ce6e7462ae2768fffa21d3d11e",
+    "gdt176_corema_role_oracle.tsv": "170afc09327d7e2589107d1f4bd28f7725bfb8bcedcdd84bb9e7fb1c2c7f24ec"
+  },
+  "instrument_pass": false,
+  "invalid_or_unobservable_positive_links": 87,
+  "outputs": {
+    "experiments/yolo/gdt385_corema_parent_link_consequence/artifacts/gdt385_collection_folds.tsv": "a8c82e69a9239d45c92161e21d72814c2524dd8062c4122909642336d4655ebd",
+    "experiments/yolo/gdt385_corema_parent_link_consequence/artifacts/gdt385_counterexamples.tsv": "eeddc60642d5cf19eb089986eb6db73c54d36c3c25cd542a44385b6d65cdf9fb",
+    "experiments/yolo/gdt385_corema_parent_link_consequence/artifacts/gdt385_null_worlds.tsv": "63396d38a434f845fad5a699a001ec44aada90560f6a16f21598114ae0e59f40",
+    "experiments/yolo/gdt385_corema_parent_link_consequence/artifacts/gdt385_predictions.tsv.gz": "319cb3a4a4288bc78d334cb74770651a0a71bbfadeb37cb12b1651619ff57526",
+    "experiments/yolo/gdt385_corema_parent_link_consequence/artifacts/gdt385_route_scores.tsv": "11753952793e1fb33adbca75e74ee339f098367ec9d9b42aebd9194026c90d19"
+  },
+  "priority_route_pass": false,
+  "route_summary": {
+    "CMP_PARENT_01": {
+      "gate_pass": 0,
+      "joint_max4_p": 1.0,
+      "mobile_fraction": 0.9532271007680844,
+      "positive_gain_collections": 4,
+      "relation_gain_bits": 104.05256475303031,
+      "role_auc": 0.6361052510027873,
+      "role_gain_bits": -0.7734223717770874,
+      "target_mrr_delta": 0.00029785370127022315
+    },
+    "CMP_PARENT_02": {
+      "gate_pass": 1,
+      "joint_max4_p": 0.0004880429477794046,
+      "mobile_fraction": 0.9525392640146738,
+      "positive_gain_collections": 5,
+      "relation_gain_bits": 194.22398163636535,
+      "role_auc": 0.770749195341727,
+      "role_gain_bits": 168.22382912666308,
+      "target_mrr_delta": 0.0001401664476565756
+    },
+    "CMP_PARENT_03": {
+      "gate_pass": 0,
+      "joint_max4_p": 0.56564177647633,
+      "mobile_fraction": 0.9525392640146738,
+      "positive_gain_collections": 3,
+      "relation_gain_bits": 156.59200452199002,
+      "role_auc": 0.6859115323239793,
+      "role_gain_bits": 110.33982024787247,
+      "target_mrr_delta": -0.0001419393863546503
+    },
+    "CMP_PARENT_04": {
+      "gate_pass": 0,
+      "joint_max4_p": 0.9580283064909713,
+      "mobile_fraction": 0.9527303297795101,
+      "positive_gain_collections": 6,
+      "relation_gain_bits": 145.19670933725138,
+      "role_auc": 0.6853472276930659,
+      "role_gain_bits": 57.78321029993981,
+      "target_mrr_delta": -0.00014308658198280977
+    }
+  },
+  "routes_passing": 1,
+  "schema": "GDT385_RESULT_V1",
+  "semantic_state": "UNASSIGNED",
+  "status": "COMPARATOR_PARENT_LINK_INSTRUMENT_FAILED_STOP_BEFORE_VOYNICH",
+  "valid_links": 11415,
+  "voynich_rows_read": 0,
+  "voynich_stage_authorized": false
+}

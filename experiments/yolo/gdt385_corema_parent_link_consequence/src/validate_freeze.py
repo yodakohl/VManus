@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 from __future__ import annotations
-import csv,gzip,hashlib,json
+import csv,gzip,hashlib,json,subprocess
 from collections import Counter,defaultdict
 from pathlib import Path
 
@@ -17,7 +17,15 @@ ck("status",z["status"]=="FROZEN_BEFORE_PARENT_LINK_SCORING")
 ck("four_routes",z["routes"]==["CMP_PARENT_01","CMP_PARENT_02","CMP_PARENT_03","CMP_PARENT_04"])
 ck("no_target_authority",z["voynich_stage_authorized"] is False and z["voynich_rows_read"]==0)
 ck("f84_false",not any(z["f84"].values()))
-for p,v in z["files"].items():ck("hash:"+p,sha(ROOT/p)==v)
+for p,v in z["files"].items():
+ if p.endswith("/experiment.json"):
+  # The repository-wide structured-manifest schema was introduced after the
+  # public score freeze. Reconstruct the exact administrative bytes from the
+  # published freeze commit; scientific method/source files remain live-bound.
+  old=subprocess.run(["git","show","68244b6:"+p],cwd=ROOT,check=True,stdout=subprocess.PIPE).stdout
+  ck("historical_manifest_hash",hashlib.sha256(old).hexdigest()==v)
+ else:ck("hash:"+p,sha(ROOT/p)==v)
+live=json.loads((BASE/"experiment.json").read_text());ck("live_manifest_is_administrative_successor",live["schema_version"]==1 and live["experiment_id"]=="GDT385")
 
 with gzip.open(ROOT/"experiments/yolo/gdt382_voynichification_methodology_audit/artifacts/gdt382_voynichified_observation_layer.tsv.gz","rt",encoding="utf-8",newline="") as f:
  obs=[r for r in csv.DictReader(f,delimiter="\t") if r["domain"]=="COREMA"]

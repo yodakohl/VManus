@@ -10138,6 +10138,20 @@ before freeze. Voynich access remains locked unless the comparator parent-link
 instrument passes its published gate; no comparator label transfers to
 Voynich, and f84 remains sealed.
 
+GDT385 has completed and the full comparator instrument fails. Its source/
+outcome separation succeeds mechanically, and the hidden TIME-derived route
+does carry a small collection-held increment for the external editor parent
+link (+194.224 bits; 5/6 collections; max-four p=.000488). The priority
+REF-derived route loses 0.773 role-calibration bits and has max-four p=1;
+ALTERNATIVE-derived and exclusion-derived routes show raw relation gains but
+fail stability, target-rank, or joint-null gates. Only 1/4 routes passes versus
+the frozen priority-plus-3/4 requirement. No Voynich stage is authorized. The
+next route is a score-blind audit for a genuinely homologous non-f84 target
+relation edge; tuple recurrence, field placement, or line structure cannot be
+relabelled as an external parent without repeating GDT384's source-overlap
+failure. No role, POS, meaning, language, plaintext, translation, or f84 access
+follows.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU
