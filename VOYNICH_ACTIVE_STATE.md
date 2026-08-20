@@ -10222,9 +10222,12 @@ catalogue/transcription convention and cannot choose between cyclic
 orientations. Capacity is zero eligible arrays/directed edges/folios versus the
 50-edge/five-folio gate; formal identity and scoring remained closed.
 Validation passes 39/39 and explicitly does not reproduce the single-AI visual
-judgments. This closes B04 on current evidence and licenses no reading order,
-number, direction name, role, meaning, language, plaintext, translation, or
-new f84 access.
+judgments. A subsequent access correction discloses that all 504 human
+source-catalogue rows were materialized and a post-review search displayed
+occasional diplomatic glyph notes; zero formal-feature rows or scores were
+opened, and all counts/decisions remain unchanged (`PASS 44/44`). This closes
+B04 on current evidence and licenses no reading order, number, direction name,
+role, meaning, language, plaintext, translation, or new f84 access.
 
 ## Runtime and sources
 

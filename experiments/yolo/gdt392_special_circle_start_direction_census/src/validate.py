@@ -42,6 +42,7 @@ def main() -> int:
     mapping = tsv(ART / "gdt392_image_manifest.tsv")
     hashes = tsv(ART / "gdt392_review_image_hashes.tsv")
     access = json.loads((ART / "gdt392_access_log.json").read_text(encoding="utf-8"))
+    correction = json.loads((ART / "gdt392_access_correction.json").read_text(encoding="utf-8"))
     result = json.loads((ART / "gdt392_result.json").read_text(encoding="utf-8"))
     checks: list[dict[str, object]] = []
 
@@ -71,8 +72,9 @@ def main() -> int:
     check("gate_capacity_fail", gate_map["G06_MINIMUM_DIRECTED_EDGES"]["current_pass"] == "0" and gate_map["G07_MINIMUM_PHYSICAL_FOLIOS"]["current_pass"] == "0", "both")
     check("access_counts", access["arrays_reviewed"] == 45 and access["slots_covered"] == 504 and access["official_yale_canvases_reviewed"] == 14, access)
     check("access_no_ocr_or_automation", access["ocr_calls"] == access["automated_image_classification_calls"] == access["clip_embedding_caption_calls"] == 0, access)
-    check("access_formal_zero", access["voynich_surface_or_formal_rows_read"] == 0, access)
-    check("access_f84_false", access["f84_image_transcription_source_group_formal_identity_prediction_or_score_access"] is False, access)
+    check("access_source_materialization_disclosed", access["source_inventory_full_rows_materialized"] == 504 and access["post_visual_review_catalogue_rows_with_diplomatic_notation_displayed"] is True, access)
+    check("access_formal_zero", access["formal_family_page_host_joint_tuple_or_renderer_rows_read"] == 0 and access["formal_scoring_run"] is False, access)
+    check("access_f84_false", access["f84_opened_parsed_retained_displayed_or_scored"] is False, access)
     body = dict(access); claimed = body.pop("content_hash")
     check("access_content_hash", digest(body) == claimed, claimed)
     check("result_status", result["status"] == "COMPLETE_CENSUS_ZERO_ELIGIBLE_START_DIRECTION_ARRAYS", result["status"])
@@ -80,6 +82,10 @@ def main() -> int:
     check("result_scoring_locked", result["capacity"]["formal_scoring_authorized"] is False, result["capacity"])
     check("result_candidate_ids", result["start_only_array_ids"] == [r["array_id"] for r in candidates], result["start_only_array_ids"])
     check("result_access_bound", result["access"] == access, "exact")
+    correction_body = dict(correction); correction_claimed = correction_body.pop("content_hash")
+    check("correction_content_hash", digest(correction_body) == correction_claimed, correction_claimed)
+    check("correction_scientific_effect_none", correction["scientific_effect"] == "NONE_COUNTS_STATES_GATES_AND_DECISION_UNCHANGED", correction["scientific_effect"])
+    check("correction_f84_false", correction["corrected_access"]["f84_opened_parsed_retained_displayed_or_scored"] is False, correction["corrected_access"])
     for path, expected in result["inputs"].items():
         check(f"input_hash:{path}", sha(ROOT / path) == expected, expected)
     for path, expected in result["outputs"].items():

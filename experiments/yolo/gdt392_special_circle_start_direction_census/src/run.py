@@ -23,6 +23,7 @@ FRAME = ART / "gdt392_array_frame.tsv"
 FREEZE = ART / "gdt392_pre_image_freeze.json"
 MAPPING = ART / "gdt392_image_manifest.tsv"
 IMAGE_HASHES = ART / "gdt392_review_image_hashes.tsv"
+CORRECTION = ART / "gdt392_access_correction.json"
 
 START_ONLY = {
     "SCARR001|f67r1|D1": "A decorated square in the adjacent text ring fixes a conspicuous sector boundary; no arrowhead or other author-visible direction is present.",
@@ -116,8 +117,12 @@ def main() -> int:
         "ocr_calls": 0,
         "automated_image_classification_calls": 0,
         "clip_embedding_caption_calls": 0,
-        "voynich_surface_or_formal_rows_read": 0,
-        "f84_image_transcription_source_group_formal_identity_prediction_or_score_access": False,
+        "source_inventory_full_rows_materialized": 504,
+        "source_catalogue_comments_may_contain_diplomatic_glyph_notes": True,
+        "post_visual_review_catalogue_rows_with_diplomatic_notation_displayed": True,
+        "formal_family_page_host_joint_tuple_or_renderer_rows_read": 0,
+        "formal_scoring_run": False,
+        "f84_opened_parsed_retained_displayed_or_scored": False,
     }
     access["content_hash"] = digest(access)
     (ART / "gdt392_access_log.json").write_text(json.dumps(access, indent=2, sort_keys=True) + "\n")
@@ -160,7 +165,7 @@ def main() -> int:
             "automated_visual_judgments": 0,
         },
         "access": access,
-        "inputs": {str(path.relative_to(ROOT)): sha(path) for path in [FRAME, FREEZE, MAPPING, IMAGE_HASHES]},
+        "inputs": {str(path.relative_to(ROOT)): sha(path) for path in [FRAME, FREEZE, MAPPING, IMAGE_HASHES, CORRECTION]},
         "outputs": {str(path.relative_to(ROOT)): sha(path) for path in output_paths},
         "implementation": {str(Path(__file__).resolve().relative_to(ROOT)): sha(Path(__file__).resolve())},
         "claim_ceiling": "TEXT_BLIND_SPECIAL_CIRCLE_START_DIRECTION_CENSUS_AND_CAPACITY_ONLY",

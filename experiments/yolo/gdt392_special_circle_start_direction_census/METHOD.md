@@ -10,7 +10,9 @@ author-visible start and direction tied to separately owned manuscript labels?
 The complete published special-circle inventory supplies 504 slots in 45
 arrays on 23 pages/seven physical folios. Selection is complete rather than
 feature-driven. Existing GDT389 canvas mappings and byte hashes are reused.
-All inputs are f84-free, and no Voynich surface or formal identity is opened.
+All inputs are f84-free. No formal-family, PAGE_HOST, joint-tuple, or renderer
+identity is opened. `CORRECTION.md` records that the source catalogue rows
+themselves include occasional diplomatic glyph notes and were materialized.
 
 ## Method
 

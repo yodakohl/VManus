@@ -51,9 +51,12 @@ exposed in prior repository work, not an independent human review. The
 validator reconstructs the complete frame, state/candidate counts, access
 claims, gates, and hashes; it does not reproduce the visual judgments.
 
-No OCR, automatic image classification, CLIP/embedding retrieval, captions,
-Voynich surface, family, PAGE_HOST, joint tuple, or renderer identity was used.
-No new f84 content was accessed.
+No OCR, automatic image classification, CLIP/embedding retrieval, or captions
+were used. No formal family, PAGE_HOST, joint tuple, renderer identity, or
+score was opened. The full human source-catalogue rows were materialized and a
+post-review search displayed occasional diplomatic glyph notes; this corrected
+provenance is bound in `CORRECTION.md` and did not supply a visible direction
+or change any count. No new f84 content was accessed.
 
 ## Claim ceiling
 
