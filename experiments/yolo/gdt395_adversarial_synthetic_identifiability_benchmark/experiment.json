@@ -6,7 +6,7 @@
   "claim_ceiling": "Synthetic/comparator identifiability calibration only; no synthetic property transfers to Voynich, no Voynich GDT396, and no f84 access.",
   "commands": {
     "run": "python3 experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/run_blind_decoders_v3.py --mode all",
-    "validate": "python3 experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/validate_decoder_execution_v3_correction.py"
+    "validate": "python3 experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/validate_blind_claims.py"
   },
   "created": "2026-08-20",
   "dependencies": [
@@ -93,6 +93,16 @@
       "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/README.md",
       "role": "frozen panel artifact",
       "sha256": "436e27b337a357c1eae4e5db0d24da453cb866825c98346b70f5a3a0c897edcb"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_blind_claims_freeze.json",
+      "role": "pre-oracle cryptographic freeze of all blind decoder claims",
+      "sha256": "07c372c55b6ec1a9aae3747ced4d4cd413c17dc3d3c76ea3ee4c8c59bc57e3d9"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_blind_claims_validation.json",
+      "role": "independent full blind-claim validation",
+      "sha256": "767999b1b4d747544422e40c7de6a25c5efdeabded1ddf7673b96fe0c95c31b6"
     },
     {
       "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_corpus_generation_audit.json",
@@ -532,11 +542,11 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "adversarial_synthetic_identifiability_benchmark",
-  "status": "V3_INTERRUPTION_RECOVERY_VALIDATED",
+  "status": "BLIND_CLAIMS_FROZEN_AND_VALIDATED_BEFORE_ORACLE_ACCESS",
   "title": "Adversarial synthetic writing-system identifiability benchmark",
   "updated": "2026-08-20",
   "validation": {
-    "artifact": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_v3_interruption_recovery_validation.json",
+    "artifact": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_blind_claims_validation.json",
     "status": "PASS"
   }
 }
