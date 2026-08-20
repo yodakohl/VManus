@@ -5,8 +5,8 @@
   },
   "claim_ceiling": "Synthetic calibration of which hidden properties are recoverable through a restricted 24-symbol observation channel; no synthetic role, ontology, sound, language, meaning, plaintext, or translation transfers to Voynich.",
   "commands": {
-    "run": "python3 experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/src/run.py",
-    "validate": "python3 experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/src/validate.py"
+    "run": "python3 experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/src/run_v2.py",
+    "validate": "python3 experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/src/validate_qualification_result.py"
   },
   "created": "2026-08-20",
   "dependencies": [
@@ -112,6 +112,20 @@
     {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/artifacts/gdt396_qualification_execution_correction_validation.json","role":"post-oracle qualifier correction validation V1","sha256":"a7e0b7f74e6ba0d2e705969a3995f64821096fe4db0ef4a71b9788ca1553b4fd"},
     {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/artifacts/gdt396_qualification_execution_correction_freeze_v2.json","role":"validator provenance successor freeze","sha256":"234334adff7e49c56469c37d23c7e32b8e33b78643912ad6f58c87fbcba836fb"},
     {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/artifacts/gdt396_qualification_execution_correction_validation_v2.json","role":"validator provenance successor validation","sha256":"e486e2b5a48f9e1757e53f99042036237449d93d36a5d933c6e270a16307f99b"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/GDT396_REPAIRED_SYNTHETIC_IDENTIFIABILITY_REPORT.md","role":"primary report","sha256":"12f30c831d253b3d9c6f7432ca5aea40326f1b8ddda59101f8b646ecc46efe5d"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/QUALIFICATION_RESULT_METHOD.md","role":"qualification result serialization method","sha256":"0f8e37a62f5fb65af46007879fccc11d31018a9e94b542b2ba306bc1407b9439"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/QUALIFICATION_RESULT_EXECUTION_CORRECTION.md","role":"authoritative public result path correction","sha256":"a546400d6c9b05503f7dcbf534fd16d42a67a521a283657acdf8c2a7e8e57662"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/src/run_v2.py","role":"authoritative public runner","sha256":"f222161200b52cb11d04b0ecf54999d7a7ddabcb6ea08bf58f6f1e325034a4e8"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/src/build_qualification_outputs.py","role":"qualification result artifact builder","sha256":"f29235e7c6d2d47f2d31e51403da208c4cabfa962bbab5099d257fccd1b46e1c"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/src/freeze_qualification_result.py","role":"qualification result freezer","sha256":"51b551fc4b42223a869328b9d36e329d83b0ae023afa6d4bba7b226019e4a8cf"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/src/validate_qualification_result.py","role":"independent qualification result validator","sha256":"97798b160acbbce4fb0a46d0e1d2d21eb45310e23655b4e1e3a098d670bb895c"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/artifacts/gdt396_decoder_qualification.json","role":"corrected decoder qualification result","sha256":"b9cc50499c5cb2b597843936452803db0b9fd8141718b7f33caa5c1791414919"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/artifacts/gdt396_qualification_identifiability_matrix.tsv.gz","role":"lossless strict qualification identifiability matrix","sha256":"c40724be5d37afe53ed90ad71c010728c2baa77b9ba0d9742e834e02888f742c"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/artifacts/gdt396_qualification_route_matrix.tsv","role":"compact qualification route matrix","sha256":"6c4882abb1b14b00d003c906560e8558533c797295d9ca7aceb50ec0236ab7d4"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/artifacts/gdt396_property_decisions.tsv","role":"property calibration decisions","sha256":"8badbda4a69a73f28a8fd4fcffc896d00eef57c4fe17aab4fb0e4c9d8a2ddeef"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/artifacts/gdt396_result.json","role":"compact final result","sha256":"8a213daca60c6f972c7c7e8015dcd4eec48a2a292e47a1324a281815c1d8fdea"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/artifacts/gdt396_result_freeze.json","role":"final result freeze","sha256":"8025a884837896ac8ba5b1a2be29ce366354e9ed50b08f322b0fb7fabd68d4a8"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/artifacts/gdt396_validation.json","role":"independent final validation","sha256":"ce549b058f64fa962d6edc5faf4ba8e7fa398840dc8a0b7eff28deef444a5ff2"},
     {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/CLAIM_INTERFACE.md","role":"claim interface","sha256":"a37213e12142c9596ab1f0e72315f4458f18d1097b2613fecf4109c7dd70b8a9"},
     {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/CLAIM_RETENTION_PLAN.md","role":"claim retention plan","sha256":"9f93cc0bd3676478b9972720f1f0002606b3279757ca8377829fe70d55d92780"},
     {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/DECODER_EXECUTION_SPEC.md","role":"decoder execution specification","sha256":"9d7a48d79cc6b3c0ba6ce17b65b9bec4835435879f2512a89a8f01ddcf3aa6d9"},
@@ -170,11 +184,11 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "repaired_synthetic_identifiability_voynich_surface",
-  "status": "QUALIFICATION_POST_ORACLE_EXECUTION_CORRECTION_VALIDATED",
+  "status": "NO_CONFIRMATION_ELIGIBLE_PROPERTY",
   "title": "Repaired synthetic identifiability benchmark with Voynich-constrained surface channel",
   "updated": "2026-08-20",
   "validation": {
-    "artifact": "experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/artifacts/gdt396_qualification_execution_correction_validation_v2.json",
+    "artifact": "experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/artifacts/gdt396_validation.json",
     "status": "PASS"
   }
 }
