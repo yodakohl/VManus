@@ -5,8 +5,8 @@
   },
   "claim_ceiling": "Synthetic/comparator identifiability calibration only; no synthetic property transfers to Voynich, no Voynich GDT396, and no f84 access.",
   "commands": {
-    "run": "python3 experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/freeze_world_panel_stage.py",
-    "validate": "python3 experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/validate_world_panel.py"
+    "run": "python3 experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/run_blind_decoders.py --mode all",
+    "validate": "python3 experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/validate_decoder_panel.py"
   },
   "created": "2026-08-20",
   "dependencies": [
@@ -33,6 +33,11 @@
       "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/DECODER_IMPLEMENTATION_API.md",
       "role": "frozen benchmark documentation",
       "sha256": "be7816b017e59b2aa60afb1ef5a252a27ccd7bb2ee14fa7ee72604dd20749a19"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/DECODER_PANEL_REVIEW.md",
+      "role": "frozen benchmark documentation",
+      "sha256": "d1969c010265b38541215c3cbb7f4b4825e07126a69453916ceb291a20951e2c"
     },
     {
       "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/METHOD.md",
@@ -73,6 +78,16 @@
       "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_corpus_manifest.tsv",
       "role": "frozen 200-corpus blind/oracle hash manifest",
       "sha256": "2564e294576610b2a399c37241a35f2a7bfb14779fde873b20641c01ffc4def2"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_decoder_panel_freeze.json",
+      "role": "frozen decoder panel artifact",
+      "sha256": "65f6a6cc6eac46ee22ccdfcc80880d82fbfaf8ead9cf12194c4ad6b29ed8cd39"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_decoder_panel_validation.json",
+      "role": "validation artifact",
+      "sha256": "d3def8bee4fa311d95750212463cf123f488d9248613f6fba2da1ad5c9f6cde1"
     },
     {
       "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_designer_provenance.tsv",
@@ -130,6 +145,56 @@
       "sha256": "8fd2c6f94e5691465943251dcf62437f886e4c48b634f7fd1f26dd2c3df6814d"
     },
     {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/decoders/d01_multiview_graph/ATTESTATION.md",
+      "role": "frozen benchmark documentation",
+      "sha256": "0d41f13a5100fc8fd26649489d6e0ce45a856a7b786d70736cdbf72a800e8b17"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/decoders/d01_multiview_graph/decoder.py",
+      "role": "reproducible decoder implementation",
+      "sha256": "c458b7d1a3b994e198d4a11c97096b9fee21804233918c8dc962487596c5d9e1"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/decoders/d02_mdl_components/ATTESTATION.md",
+      "role": "frozen benchmark documentation",
+      "sha256": "2787f5f866a2ea9733e1569d6e1d644bf50a424cfc021d3dde96a52b17fc2c77"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/decoders/d02_mdl_components/decoder.py",
+      "role": "reproducible decoder implementation",
+      "sha256": "bbeacc0a828e7f57c0814e7daa8af3279ff6e4a68d63944454b7b0cd90c62fa5"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/decoders/d03_frequency_position/ATTESTATION.md",
+      "role": "frozen benchmark documentation",
+      "sha256": "7055c0a828b33d4e558e76462d652f5a56fb4b9e75bda3ee345cd36bbe50a146"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/decoders/d03_frequency_position/decoder.py",
+      "role": "reproducible decoder implementation",
+      "sha256": "5bee36320e6a18c3a80a21ee2be144567b9dc0dfe0418b6c6c58ea6a33931419"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/decoders/d04_surface_components/ATTESTATION.md",
+      "role": "frozen benchmark documentation",
+      "sha256": "19bee42e1b818b5bf0f0415638330fe7177f6e511264cdea27eebea7273d1522"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/decoders/d04_surface_components/decoder.py",
+      "role": "reproducible decoder implementation",
+      "sha256": "605d344d7c49205f11fb73cef050921b3e3b2e53913fc8633172947053d00802"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/decoders/d05_context_topology/ATTESTATION.md",
+      "role": "frozen benchmark documentation",
+      "sha256": "7b5057795b18c9fba78406fc61b370b892b499a40bc5f04a39cc4f4f38a9941c"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/decoders/d05_context_topology/decoder.py",
+      "role": "reproducible decoder implementation",
+      "sha256": "451f5bd0293db511af0ba2a00b12c76541945819eb4387860e15e0e97586a5fd"
+    },
+    {
       "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/build_pair_blind_views.py",
       "role": "reproducible panel implementation",
       "sha256": "2af7ec8c537f1dde4a828409bbafea4ab8dfe5ab35a07bc9e42c5ca4f8d547c4"
@@ -143,6 +208,16 @@
       "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/decoder_api.py",
       "role": "reproducible panel implementation",
       "sha256": "6ec981248cde228280485c681a00c69bcc80931ed707465aad2971265926a247"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/freeze_blind_claims.py",
+      "role": "reproducible decoder implementation",
+      "sha256": "6f42010d245720c488717e1a0a599a521ec88cdb26236b7d29749d0988bb7b44"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/freeze_decoder_panel.py",
+      "role": "reproducible decoder implementation",
+      "sha256": "be3ba42f5609389026b259300f59bea85f63a7130eb6bc10b80c9102a3fd7f61"
     },
     {
       "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/freeze_interface.py",
@@ -180,9 +255,24 @@
       "sha256": "82819fe5a84a0829820ca95f647e4af71c932f5e7bbce9662cd7b8c4d43f15aa"
     },
     {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/run_blind_decoders.py",
+      "role": "reproducible decoder implementation",
+      "sha256": "d19d32c5f20da41bcabeb8f9b0f0bc2361d6097cd5fbb5b0d3a0ccfb4578de89"
+    },
+    {
       "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/validate.py",
       "role": "independent validator",
       "sha256": "82819fe5a84a0829820ca95f647e4af71c932f5e7bbce9662cd7b8c4d43f15aa"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/validate_blind_claims.py",
+      "role": "independent validator",
+      "sha256": "2cb12d70f6bc0031a65a2c0ce6f4827c94ce15f26a8f3ce6de367a3c6dff9542"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/validate_decoder_panel.py",
+      "role": "independent validator",
+      "sha256": "846591f954cee882d00710feef9d81ec63b40aa20d8250534ddd48c66771c17f"
     },
     {
       "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/validate_interface_freeze.py",
@@ -317,11 +407,11 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "adversarial_synthetic_identifiability_benchmark",
-  "status": "CORPORA_FROZEN_BEFORE_DECODER_EXECUTION",
+  "status": "DECODER_PANEL_FROZEN_BEFORE_EXECUTION",
   "title": "Adversarial synthetic writing-system identifiability benchmark",
   "updated": "2026-08-20",
   "validation": {
-    "artifact": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_world_panel_validation.json",
+    "artifact": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_decoder_panel_validation.json",
     "status": "PASS"
   }
 }

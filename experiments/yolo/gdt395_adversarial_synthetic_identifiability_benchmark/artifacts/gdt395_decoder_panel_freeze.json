@@ -1,0 +1,150 @@
+{
+  "bindings": {
+    "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/DECODER_CONTRACT.md": "285f7256756975a2296949246284eaeee94da29a0632b73d3b6025aa600f918e",
+    "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/DECODER_IMPLEMENTATION_API.md": "be7816b017e59b2aa60afb1ef5a252a27ccd7bb2ee14fa7ee72604dd20749a19",
+    "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_corpus_generation_audit.json": "15c10b0363e66131dadf7bd1ce6e3d7a10a741ea4800f3ffc38446d94be003db",
+    "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_corpus_manifest.tsv": "2564e294576610b2a399c37241a35f2a7bfb14779fde873b20641c01ffc4def2",
+    "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_interface_freeze.json": "9a36477af1d77ddfa5c07608e593281ec001598db4a1d6f4f1537afe25e628cf",
+    "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_pair_blind_manifest.tsv": "751239ecc77622e5ce01735576e76c450541393c07ff9e066058d2ca6c843524",
+    "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_pair_protocol_amendment.json": "883f4b461ae5b1dc9a10f95ca76ab91e35396be9d6b2d020a8848e14afba0cd9",
+    "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/decoder_api.py": "6ec981248cde228280485c681a00c69bcc80931ed707465aad2971265926a247",
+    "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/freeze_decoder_panel.py": "be3ba42f5609389026b259300f59bea85f63a7130eb6bc10b80c9102a3fd7f61",
+    "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/run_blind_decoders.py": "d19d32c5f20da41bcabeb8f9b0f0bc2361d6097cd5fbb5b0d3a0ccfb4578de89",
+    "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/validate_decoder_panel.py": "846591f954cee882d00710feef9d81ec63b40aa20d8250534ddd48c66771c17f"
+  },
+  "content_sha256": "a0d1d78744c588658e75f896a5688087316fc7e21a07f0d2f5ec944dc96dee6c",
+  "decoder_claims_generated": 0,
+  "decoders": [
+    {
+      "attestation_sha256": "0d41f13a5100fc8fd26649489d6e0ce45a856a7b786d70736cdbf72a800e8b17",
+      "directory": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/decoders/d01_multiview_graph",
+      "executed_before_freeze": false,
+      "meta": {
+        "decoder_id": "D01_MULTIVIEW_GRAPH",
+        "designer_model": "gpt-5.6-sol",
+        "method_family": "multiview_equality_context_graph",
+        "oracle_blind": true,
+        "supported_representations": [
+          "FULL_GROUP",
+          "HOST_LIKE",
+          "COMPOSITE_STATE",
+          "INFERRED_COMPONENTS",
+          "CONSTRUCTION_SPAN",
+          "RECORD_TOPOLOGY"
+        ]
+      },
+      "observation_rows_seen_by_designer": 0,
+      "oracle_rows_seen_by_designer": 0,
+      "source_sha256": "c458b7d1a3b994e198d4a11c97096b9fee21804233918c8dc962487596c5d9e1"
+    },
+    {
+      "attestation_sha256": "2787f5f866a2ea9733e1569d6e1d644bf50a424cfc021d3dde96a52b17fc2c77",
+      "directory": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/decoders/d02_mdl_components",
+      "executed_before_freeze": false,
+      "meta": {
+        "decoder_id": "D02_MDL_COMPONENTS",
+        "designer_model": "OpenAI Codex (Sol)",
+        "method_family": "minimum-description-length components and record topology",
+        "oracle_blind": true,
+        "supported_representations": [
+          "FULL_GROUP",
+          "HOST_LIKE",
+          "COMPOSITE_STATE",
+          "INFERRED_COMPONENTS",
+          "CONSTRUCTION_SPAN",
+          "RECORD_TOPOLOGY"
+        ]
+      },
+      "observation_rows_seen_by_designer": 0,
+      "oracle_rows_seen_by_designer": 0,
+      "source_sha256": "bbeacc0a828e7f57c0814e7daa8af3279ff6e4a68d63944454b7b0cd90c62fa5"
+    },
+    {
+      "attestation_sha256": "7055c0a828b33d4e558e76462d652f5a56fb4b9e75bda3ee345cd36bbe50a146",
+      "directory": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/decoders/d03_frequency_position",
+      "executed_before_freeze": false,
+      "meta": {
+        "decoder_id": "D03_frequency_position",
+        "designer_model": "gpt-5.6-luna",
+        "method_family": "frequency_position_recurrence_baseline",
+        "oracle_blind": true,
+        "supported_representations": [
+          "FULL_GROUP",
+          "HOST_LIKE",
+          "COMPOSITE_STATE",
+          "INFERRED_COMPONENTS",
+          "CONSTRUCTION_SPAN",
+          "RECORD_TOPOLOGY"
+        ]
+      },
+      "observation_rows_seen_by_designer": 0,
+      "oracle_rows_seen_by_designer": 0,
+      "source_sha256": "5bee36320e6a18c3a80a21ee2be144567b9dc0dfe0418b6c6c58ea6a33931419"
+    },
+    {
+      "attestation_sha256": "19bee42e1b818b5bf0f0415638330fe7177f6e511264cdea27eebea7273d1522",
+      "directory": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/decoders/d04_surface_components",
+      "executed_before_freeze": false,
+      "meta": {
+        "decoder_id": "D04_surface_components",
+        "designer_model": "gpt-5.6-luna",
+        "method_family": "surface recurrence, affix and layout induction",
+        "oracle_blind": true,
+        "supported_representations": [
+          "FULL_GROUP",
+          "HOST_LIKE",
+          "COMPOSITE_STATE",
+          "INFERRED_COMPONENTS",
+          "CONSTRUCTION_SPAN",
+          "RECORD_TOPOLOGY"
+        ]
+      },
+      "observation_rows_seen_by_designer": 0,
+      "oracle_rows_seen_by_designer": 0,
+      "source_sha256": "605d344d7c49205f11fb73cef050921b3e3b2e53913fc8633172947053d00802"
+    },
+    {
+      "attestation_sha256": "7b5057795b18c9fba78406fc61b370b892b499a40bc5f04a39cc4f4f38a9941c",
+      "directory": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/decoders/d05_context_topology",
+      "executed_before_freeze": false,
+      "meta": {
+        "decoder_id": "D05",
+        "designer_model": "gpt-5.6-luna",
+        "method_family": "cooccurrence_record_topology_graph",
+        "oracle_blind": true,
+        "supported_representations": [
+          "FULL_GROUP",
+          "HOST_LIKE",
+          "COMPOSITE_STATE",
+          "INFERRED_COMPONENTS",
+          "CONSTRUCTION_SPAN",
+          "RECORD_TOPOLOGY"
+        ]
+      },
+      "observation_rows_seen_by_designer": 0,
+      "oracle_rows_seen_by_designer": 0,
+      "source_sha256": "451f5bd0293db511af0ba2a00b12c76541945819eb4387860e15e0e97586a5fd"
+    }
+  ],
+  "f84": {
+    "opened": false,
+    "parsed": false,
+    "retained": false,
+    "scored": false
+  },
+  "oracle_scoring_performed": false,
+  "policy": {
+    "designers_excluded": true,
+    "luna_replication": 3,
+    "oracle_blind": true,
+    "sol_high_capacity": 2
+  },
+  "pre_execution_evidence": {
+    "claim_root_file_count": 0,
+    "freeze_output_absent_on_entry": true,
+    "one_shot_overwrite_guard": true
+  },
+  "schema": "GDT395_DECODER_PANEL_FREEZE_V1",
+  "status": "FROZEN_BEFORE_DECODER_EXECUTION",
+  "voynich_rows": 0
+}
