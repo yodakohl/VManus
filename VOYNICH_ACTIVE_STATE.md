@@ -10292,3 +10292,27 @@ was opened. The residual connector route is closed pending genuinely new data.
 - The superseded 5.05 GB bulk tree was removed on 2026-08-08. Its untracked
   files are not recoverable from Git; compact negative-route memory remains in
   `ACTIVE_EXPERIMENT_LEDGER.tsv` and `CLOSED_ROUTE_FAMILIES.tsv`.
+
+## GDT397 synthetic observability correction
+
+GDT397 is a bounded synthetic-only post-mortem of the exposed GDT396
+qualification block. It separates formal identity, anonymous structural roles,
+and referential semantics. A byte-identical W09 observation packet supports
+both its original semantic oracle and a formal-only interpretation, proving
+that external denotation, readable gloss, and meaningful-versus-isomorphic-
+formal-symbol status are not identifiable from internal distribution alone.
+
+The fixed two-atom constrained surface is bijective: atom-pair decoding restores
+every FREE ceiling result exactly. Lexical identity passes in W02 and W09 on
+5/5 folds and is a concrete GDT396 gate-contamination case. Given an
+oracle-supplied backward-query pivot, anonymous target ranking passes 5/5 folds
+in both worlds (W02 MRR .484 versus .185; W09 .979 versus .063). It does not
+identify query pivots or license REF/anaphora semantics. Control-role features
+add too little over the near-perfect position/frequency baseline, scope ends do
+not beat record-end controls, and alternatives lack two-world capacity. W10 has
+no relation edges, so its frozen positive reference/alternative target claims
+are invented formal edges; a weaker temporal/gate output does track real formal
+scope ends (AUROC .715, AP .132 versus .081 prevalence) but licenses no semantic
+label. No Voynich score, new seed, confirmation seed, f84, or f84r was opened.
+No experiment follows automatically; only a future explicitly authorized,
+new-seed anonymous backward-edge test with blind pivot detection is calibrated.

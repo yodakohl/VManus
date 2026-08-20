@@ -60,6 +60,26 @@
       "path": "experiments/yolo/gdt397_bounded_observability_ontology_audit/src/validate.py",
       "role": "independent result validator",
       "sha256": "8660de4e775c1ae21002e71d58277c0c8370ba9e94b14e45ef358dea0b244f50"
+    },
+    {
+      "path": "experiments/yolo/gdt397_bounded_observability_ontology_audit/artifacts/README.md",
+      "role": "artifact guide",
+      "sha256": "599c223c1fd6deabd278c6275f5f0367ab45e01cd83375b1937577f01cefc58d"
+    },
+    {
+      "path": "experiments/yolo/gdt397_bounded_observability_ontology_audit/GDT397_BOUNDED_OBSERVABILITY_REPORT.md",
+      "role": "primary report",
+      "sha256": "14fb4df58bc17b43cfdbc59aa7d6aa0bdebf06bfbf417540c3be2386787ff08e"
+    },
+    {
+      "path": "experiments/yolo/gdt397_bounded_observability_ontology_audit/artifacts/gdt397_observability_results.tsv",
+      "role": "single compact result and proof table",
+      "sha256": "9d21495468314cb768e33af337eb04f90ea8dae5d88199a57232890f30a2a0b8"
+    },
+    {
+      "path": "experiments/yolo/gdt397_bounded_observability_ontology_audit/artifacts/gdt397_validation.json",
+      "role": "independent validation",
+      "sha256": "d2b58c937da2d5747cf1a07608dd6ea814836476f80156b3773365791b7bc567"
     }
   ],
   "question": "Which GDT396 failures reflect an unrelated suite gate, which operator-relevant properties are actually observable under world-local oracle-supervised ceilings, and which semantic claims are impossible by observational equivalence?",
@@ -69,11 +89,11 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "bounded_observability_ontology_audit",
-  "status": "REGISTERED_UNSCORED",
+  "status": "ONE_CONDITIONAL_FORMAL_EDGE_CEILING_PASSES",
   "title": "bounded observability ceiling and ontology correction audit",
   "updated": "2026-08-21",
   "validation": {
-    "artifact": null,
-    "status": "NOT_RUN"
+    "artifact": "experiments/yolo/gdt397_bounded_observability_ontology_audit/artifacts/gdt397_validation.json",
+    "status": "PASS"
   }
 }

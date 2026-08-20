@@ -1,6 +1,6 @@
 # Voynich current route
 
-Updated: 2026-08-20. Use `experiments/EXPERIMENT_INDEX.tsv` for primary reports; consult the
+Updated: 2026-08-21. Use `experiments/EXPERIMENT_INDEX.tsv` for primary reports; consult the
 active state and ledger only for claim-detail audits or historical reconstruction.
 
 ## Scientific ceiling
@@ -170,12 +170,17 @@ morpheme, plaintext symbol, or semantic role.
   conditional information. It compresses both readable domains, but loses to
   matched one-dimensional source summaries; max-eight p=1 in both. Close this
   latent-semantic-role architecture.
-- User-authorized GDT395 stress-tested identifiability without scoring Voynich.
-  No property clears the 3-decoder/2-Luna gate and 10/17 properties remain
-  interface HOLD, yet D02 recovers lexical identity on 8/9 meaningful worlds
-  and entity/shared-stem partitions on five worlds at 5/5 seeds; all three Luna
-  decoders have zero passes. This is an instrument false negative. Repair the
-  synthetic interface and decoders before any Voynich GDT396.
+- GDT395–396 stress-test the synthetic instrument, not Voynich. GDT396 repairs
+  the interface, but its unrelated relation suite suppresses all 18 otherwise
+  passing routes and its W10 veto conflates formal and referential structure.
+- GDT397 corrects that ontology. FREE and atom-pair-decoded ceilings are
+  identical; lexical identity is gate contamination. Given an oracle-supplied
+  query pivot, backward-target ranking beats all controls in W02/W09 on 5/5
+  folds (MRR .484/.979 versus .185/.063), but it does not detect pivots or
+  license REF semantics. Control roles add nothing beyond position/frequency;
+  scope loses to record-end; alternatives lack capacity. W10 relation edges
+  are invented, while its modest scope-end signal is formal. A byte-identical
+  W09 witness makes external denotation nonidentifiable internally.
 - GDT276’s compiler-conditioned character compression is real but not
   architecture-specific under GDT277’s synthetic controls.
 - GDT278–GDT297 show that large compiler-conditioned character gains also occur
@@ -271,16 +276,12 @@ ledger. Use those files for a proposed-route duplicate audit, not on every turn.
 
 ## Next useful route
 
-Repair GDT395 on untouched generated corpora before any Voynich semantic score:
-add record IDs; typed/ranked relation, reference, scope, and morphology claims;
-and three replication decoders that form recurrent rather than singleton
-clusters. Retain W02/W03, W09/W10, and the semantics-light guard. Require
-positive-control recovery plus adversarial rejection; no GDT396 transfer is
-authorized before that gate passes.
+No experiment follows automatically. Future synthetic work is limited to
+new-seed anonymous backward-edge ranking with blind pivot detection; formal
+relation remains distinct from REF/meaning, and no Voynich score is authorized.
 
-The prior connector route remains closed: GDT386–393 supply zero score-ready
-ordered edges on current data. Do not substitute proximity, radial order,
-OPEN/BODY, or cross-page similarity for genuinely new relation evidence.
+GDT386–393 supply zero score-ready connector edges. Do not substitute
+proximity, radial order, OPEN/BODY, or cross-page similarity.
 
 ## Primary routing references
 
