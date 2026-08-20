@@ -1,0 +1,115 @@
+{
+  "claim_ceiling": "CROSS_DOMAIN_COMPARATOR_RELATION_CALIBRATION_ONLY",
+  "content_hash": "e64abbbcde9b376d4a055fb30b64f8944e4df65500853d2c79014d138d8825d8",
+  "distance_classes": [
+    "L_FAR",
+    "L13",
+    "L12",
+    "L11",
+    "L10",
+    "L9",
+    "L8",
+    "L7",
+    "L6",
+    "L5",
+    "L4",
+    "L3",
+    "L2",
+    "L1",
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6",
+    "R7",
+    "R8",
+    "R9",
+    "R10",
+    "R11",
+    "R12",
+    "R13",
+    "R_FAR"
+  ],
+  "documents": {
+    "experiments/yolo/gdt387_cross_domain_parent_link_calibration/METHOD.md": "99b761df95902f85c29e1cf9b4ead6947089645d0081229ef3cca02562ab7266",
+    "experiments/yolo/gdt387_cross_domain_parent_link_calibration/README.md": "179dee751db92dd5db7d340fda56d629ba9350db80079ead7c421f2322600765",
+    "experiments/yolo/gdt387_cross_domain_parent_link_calibration/SOURCE_AUDIT.md": "ae33aa38ecdc94d39a6918f67c50ffec5eb8aa826fe5a5ee77b482b784a570d8"
+  },
+  "f84": {
+    "opened": false,
+    "parsed": false,
+    "retained": false,
+    "scored": false
+  },
+  "fold": "WHOLE_PCEEC2_SOURCE_FILE",
+  "gate": {
+    "governor_gain_positive": true,
+    "maximum_p": 0.05,
+    "minimum_mobile_fraction": 0.2,
+    "minimum_positive_files": 42,
+    "minimum_role_auc": 0.65,
+    "minimum_role_files": 40,
+    "minimum_role_pivots": 100,
+    "minimum_target_mrr_delta": 0.0,
+    "role_gain_positive": true
+  },
+  "head_rule_id": "GDT387_FIXED_CONSTITUENCY_HEAD_RULE_V1",
+  "hidden_role_forms": [
+    "after",
+    "afore",
+    "before",
+    "ere",
+    "when",
+    "whan",
+    "whanne",
+    "whenne",
+    "until",
+    "untill",
+    "til",
+    "till",
+    "while",
+    "whil",
+    "whiles",
+    "whilst"
+  ],
+  "implementation": {
+    "experiments/yolo/gdt387_cross_domain_parent_link_calibration/src/freeze.py": "3275d2af3dff3bfa25f9df1c51ca616ac8805f3c13f6b852a54395fc3ffc79fb",
+    "experiments/yolo/gdt387_cross_domain_parent_link_calibration/src/run.py": "6d4fa10bae917f17cd4751e1d46d4eeae3e8f490866078f4c1833ce84ae2c977",
+    "experiments/yolo/gdt387_cross_domain_parent_link_calibration/src/validate.py": "1ad961cf1a00239537827c0fd0d32b3e6cd8d7e97a73639b6f2d5bf06d1395f0",
+    "experiments/yolo/gdt387_cross_domain_parent_link_calibration/src/validate_freeze.py": "f861a0c0e2d02d6d98ddf4837e3f5cc32cf2507195441d954aa8113b4c2217cd"
+  },
+  "inputs": {
+    "experiments/yolo/gdt382_voynichification_methodology_audit/artifacts/gdt382_voynichified_observation_layer.tsv.gz": "4c20dc0dd234f9b1947ce9c81d9d1c8645e30a1fd81321b6a9be755b3d229896",
+    "experiments/yolo/gdt385_corema_parent_link_consequence/artifacts/gdt385_result.json": "624cd6363454bbce85f7262321452b64ae43b0b3b5dbf2693909177ea9af4c7b"
+  },
+  "null": {
+    "inclusive": true,
+    "seed": 3872048,
+    "strata": "FILE_X_POSITION_X_BOUNDARY_X_FIELD_BIN_X_WITHIN_FIELD_BIN_X_RECORD_LENGTH_BIN_X_TRAINING_FREQUENCY_BIN",
+    "worlds": 2048
+  },
+  "representations": [
+    "HOST_IDENTITY",
+    "COMPLETE_RENDERED_GROUP",
+    "CONSTRUCTION_STATE",
+    "COMPOSITE_JOINT_STATE",
+    "SHORT_CONSTRUCTION_SPAN",
+    "FREQUENCY_GRAMMAR_CHANNEL"
+  ],
+  "sampling": {
+    "hidden_role_files": 47,
+    "hidden_role_pivots": 110,
+    "maximum_records_per_file": 12,
+    "observation_pceec2_rows": 27518
+  },
+  "schema": "GDT387_PRE_SCORE_FREEZE_V1",
+  "source": {
+    "bundle_sha256": "c90c1eabdb58bd1a41e9231c52612bc14cfa1c560d8cf357e1480384e873c714",
+    "commit": "bf79d1c46e8ef983a7347b0664d0d80243f32831",
+    "parsed_files": 84,
+    "url": "https://github.com/beatrice57/pceec2"
+  },
+  "status": "FROZEN_BEFORE_SCORING",
+  "voynich_rows_authorized": 0
+}
