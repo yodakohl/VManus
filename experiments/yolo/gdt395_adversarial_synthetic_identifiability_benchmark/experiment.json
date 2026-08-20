@@ -70,6 +70,11 @@
       "sha256": "b4653602fabd2915ae4557b07c06471b7648e1059457a7777f07d92ed2fa60ed"
     },
     {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/SCORING_EXECUTION_CORRECTION_V3.md",
+      "role": "pre-execution world-hypothesis interface correction disclosure",
+      "sha256": "54d05bb60689eccfbce3e08c07bc1ebf3619ce2f71e8c30b3839bad8908c906d"
+    },
+    {
       "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/SCORING_REVIEW.md",
       "role": "independent pre-oracle scoring interface audit",
       "sha256": "7201c46d1f6257e2a8bc40dad2a804f8a03318fdcb6a210c89e216b4cda0e7cf"
@@ -210,6 +215,16 @@
       "sha256": "5cc296626354ed1ec4dc4c33f07f449a21040e8918ba951e32775692a9718763"
     },
     {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_scoring_execution_v3_correction.json",
+      "role": "pre-execution world-hypothesis correction freeze",
+      "sha256": "2647e77d52d5d0641ad5821fba9d2e1e90af3f660434e39c21dcb4407f1a0e8e"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_scoring_execution_v3_correction_validation.json",
+      "role": "independent world-hypothesis correction validation",
+      "sha256": "a7eb5dd1afee7c0dbb0d75dab880a6c11cd5ad040f4e9736e5071e154e89086b"
+    },
+    {
       "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_v3_interruption_recovery_freeze.json",
       "role": "one-shot pre-execution interrupted-run recovery freeze",
       "sha256": "cd3b07df07df2242855642203ef6e69c6e320a084cbc185066c0ff3e7c3ed59b"
@@ -335,6 +350,11 @@
       "sha256": "32bbdc0c54c5dac95f9e245f0820d66ddb5050e95cf0b1321bb799549c0123c4"
     },
     {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/freeze_scoring_execution_v3_correction.py",
+      "role": "one-shot world-hypothesis correction freezer",
+      "sha256": "e012d538079bdbbb5fa43468e2cb9979d1db6feba04498b65d6c06c36eabe196"
+    },
+    {
       "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/freeze_v3_interrupted_recovery.py",
       "role": "one-shot interrupted-run recovery freezer",
       "sha256": "8ceb2a34c5a1e323b981aa05cf0a14cd4d448d27574f36a829f755daf161f4ee"
@@ -395,6 +415,11 @@
       "sha256": "63ef6181a53836c190f81f4851c404721f0c04760da354cbda11df6bd53f3245"
     },
     {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/score_identifiability_v3.py",
+      "role": "frozen-validator world-hypothesis scoring wrapper",
+      "sha256": "8a3f8622eded992ce7aaef72f1654a34b76bfd5e6216b8d223579b40ea9a5303"
+    },
+    {
       "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/validate.py",
       "role": "independent validator",
       "sha256": "82819fe5a84a0829820ca95f647e4af71c932f5e7bbce9662cd7b8c4d43f15aa"
@@ -438,6 +463,11 @@
       "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/validate_scoring_execution_v2_correction.py",
       "role": "independent scoring transport correction validator",
       "sha256": "52d377a8d861b4710159eed5b3fd1eececbc6bd25b627c7bf4d8509e82e0cef2"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/validate_scoring_execution_v3_correction.py",
+      "role": "independent world-hypothesis correction validator",
+      "sha256": "927450ab678edf226c997fc5d1273a2c282135fe13f8d062c57a6e098223bf2f"
     },
     {
       "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/validate_v3_interrupted_completion.py",
@@ -572,7 +602,7 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "adversarial_synthetic_identifiability_benchmark",
-  "status": "SCORING_V2_CORRECTION_FROZEN_BEFORE_ORACLE_ACCESS",
+  "status": "SCORING_V3_CORRECTION_FROZEN_BEFORE_ORACLE_ACCESS",
   "title": "Adversarial synthetic writing-system identifiability benchmark",
   "updated": "2026-08-20",
   "validation": {
