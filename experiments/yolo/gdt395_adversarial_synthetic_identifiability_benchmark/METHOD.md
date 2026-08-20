@@ -35,11 +35,14 @@ generative control. At least six worlds must implement explicit multi-stage
 genealogy with abbreviation, analogy, merger/split, fossilization, and
 register variation. Only a minority control may expose a clean component map.
 
-Two predeclared adversarial comparisons use the same carrier envelope while
-differing in hidden interpretation: meaningful versus semantics-light, and
-organic versus engineered. Carrier matching constrains page/record/line-length,
-alphabet, token-length, recurrence, and separator distributions without
-forcing identical strings.
+Two predeclared adversarial comparisons use a corrected record/line-local
+carrier view while differing in hidden interpretation: meaningful versus
+semantics-light, and organic versus engineered. The pre-decoding correction is
+fully specified in `PAIR_PROTOCOL_AMENDMENT.md`. It preserves authentic
+complete records and hidden truth, matches record/line structure, separators,
+ambiguity, token length, and recurrence, and masks page/paragraph/register/
+hand/layout and glyph-internal channels as non-comparable. The authentic full
+corpora remain unchanged and support the full property matrix.
 
 ## Corpus panel
 

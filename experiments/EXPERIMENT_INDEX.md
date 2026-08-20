@@ -7,7 +7,7 @@ The authoritative scientific status remains
 ## Inventory
 
 - Experiments indexed: **394**
-- Experiment-associated tracked files: **5,427** (624.5 MiB)
+- Experiment-associated tracked files: **5,469** (625.0 MiB)
 - Structured GDT337+ experiments: **59**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
@@ -20,7 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT395 | GDT395_adversarial_synthetic_identifiability_benchmark_interface | `FROZEN_BEFORE_WORLD_DESIGN` | [report](../experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/METHOD.md) | 13 | 35.3 KiB | 5 | STRUCTURED_YOLO |
+| GDT395 | GDT395_adversarial_synthetic_identifiability_benchmark_world_panel | `FROZEN_BEFORE_CORPUS_GENERATION_AND_DECODING` | [report](../experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/WORLD_PANEL_REVIEW.md) | 55 | 556.2 KiB | 5 | STRUCTURED_YOLO |
 | GDT394 | GDT394_latent_role_bottleneck_transfer_audit | `LATENT_ROLE_COMPRESSION_NOT_DISTINCT_FROM_MATCHED_SOURCE_BOTTLENECKS` | [report](../experiments/yolo/gdt394_latent_role_bottleneck_transfer_audit/REPORT.md) | 20 | 763.4 KiB | 4 | STRUCTURED_YOLO |
 | GDT393 | GDT393_remaining_page_connector_census | `COMPLETE_RESIDUAL_CENSUS_ZERO_ELIGIBLE_DIRECTED_EDGES` | [report](../experiments/yolo/gdt393_remaining_page_connector_census/REPORT.md) | 20 | 51.2 KiB | 2 | STRUCTURED_YOLO |
 | GDT392 | GDT392_source_access_correction | `SOURCE_COMMENT_MATERIALIZATION_DISCLOSED` | [report](../experiments/yolo/gdt392_special_circle_start_direction_census/CORRECTION.md) | 23 | 115.0 KiB | 3 | STRUCTURED_YOLO |

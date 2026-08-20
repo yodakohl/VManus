@@ -5,8 +5,8 @@
   },
   "claim_ceiling": "Synthetic/comparator identifiability calibration only; no synthetic property transfers to Voynich, no Voynich GDT396, and no f84 access.",
   "commands": {
-    "run": "python3 experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/freeze_interface.py",
-    "validate": "python3 experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/validate_interface_freeze.py"
+    "run": "python3 experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/freeze_world_panel_stage.py",
+    "validate": "python3 experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/validate_world_panel.py"
   },
   "created": "2026-08-20",
   "dependencies": [
@@ -20,64 +20,274 @@
   "inputs": [],
   "outputs": [
     {
-      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/README.md",
-      "role": "experiment entry point",
-      "sha256": "098de826a5636ca098cebf2ee34d24472533c97e31eb4a55ba70202e90e84b38"
-    },
-    {
-      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/METHOD.md",
-      "role": "frozen benchmark method",
-      "sha256": "fc8b311586a53550c701c14a706e730237275121b929c8bc8860dce589ae5f9f"
-    },
-    {
-      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/WORLD_DESIGN_CONTRACT.md",
-      "role": "isolated designer contract",
-      "sha256": "bc06c0bd8fc1c15b133090a720cd64ebd6db312e16e8b8ac283feb1df8f368c0"
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/.gitignore",
+      "role": "generated-work exclusion policy",
+      "sha256": "5b561aa9ae36ca5ff408c3a22ce239167f80f4d3b6ef53ff095a6136fb824aa8"
     },
     {
       "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/DECODER_CONTRACT.md",
-      "role": "blind decoder claim contract",
+      "role": "frozen benchmark documentation",
       "sha256": "285f7256756975a2296949246284eaeee94da29a0632b73d3b6025aa600f918e"
     },
     {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/DECODER_IMPLEMENTATION_API.md",
+      "role": "frozen benchmark documentation",
+      "sha256": "be7816b017e59b2aa60afb1ef5a252a27ccd7bb2ee14fa7ee72604dd20749a19"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/METHOD.md",
+      "role": "frozen benchmark documentation",
+      "sha256": "b1082da84807bd7f1984c2e3ab2d5af09046d7751cb8ec2037d25fab8b00453d"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/PAIR_PROTOCOL_AMENDMENT.md",
+      "role": "pre-decoding truth-safe pair protocol correction",
+      "sha256": "21b9c8de2c826e8256dda084df552cc141e029e31f1369c9f17a0a775f47a3f1"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/README.md",
+      "role": "frozen benchmark documentation",
+      "sha256": "098de826a5636ca098cebf2ee34d24472533c97e31eb4a55ba70202e90e84b38"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/WORLD_DESIGN_CONTRACT.md",
+      "role": "frozen benchmark documentation",
+      "sha256": "bc06c0bd8fc1c15b133090a720cd64ebd6db312e16e8b8ac283feb1df8f368c0"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/WORLD_PANEL_REVIEW.md",
+      "role": "independent adversarial world-panel review",
+      "sha256": "75173ede3f544e124530b3413667c19ed50b0b429ba3de50ee70c55c49ea4296"
+    },
+    {
       "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/README.md",
-      "role": "artifact boundary guide",
+      "role": "frozen panel artifact",
       "sha256": "436e27b337a357c1eae4e5db0d24da453cb866825c98346b70f5a3a0c897edcb"
     },
     {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_designer_provenance.tsv",
+      "role": "frozen panel artifact",
+      "sha256": "e82c421bb74538dd720fe6d986c3f85894e208353ba728f3c866ad8657b067a0"
+    },
+    {
       "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_interface_freeze.json",
-      "role": "pre-world-design interface and score freeze",
+      "role": "frozen panel artifact",
       "sha256": "9a36477af1d77ddfa5c07608e593281ec001598db4a1d6f4f1537afe25e628cf"
     },
     {
       "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_interface_freeze_validation.json",
-      "role": "independent interface-freeze validation",
+      "role": "validation artifact",
       "sha256": "a75b05d8e7d41bfef68c5d8eef82cb2aba930e7a43668bb4fa18b561d2c69a73"
     },
     {
-      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/world_api.py",
-      "role": "shared world schema validator",
-      "sha256": "add4b987cce7a36c2bb7e109995596b8d655c93f7c3cd96f534a5cf70ea606ef"
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_pair_matched_records.tsv",
+      "role": "frozen panel artifact",
+      "sha256": "19c06114713cd532fdda83c3d7754a840fbad8de030dd1ba4ef9741ec54ce78f"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_pair_matching_audit.tsv",
+      "role": "frozen panel artifact",
+      "sha256": "99538db0bdcc81a55c69268a0888c41d8b25684c1000301f01aa1edae19ad5ef"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_pair_protocol_amendment.json",
+      "role": "frozen panel artifact",
+      "sha256": "883f4b461ae5b1dc9a10f95ca76ab91e35396be9d6b2d020a8848e14afba0cd9"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_pair_protocol_amendment_validation.json",
+      "role": "validation artifact",
+      "sha256": "910112e151cf95dc984894553075ee601d239390ecf01a82cc8f813f7d9de3f4"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_world_panel_freeze.json",
+      "role": "frozen panel artifact",
+      "sha256": "a6902f982eff9058b24748e38535f53c857d9e76928ebafff938b0de988b5b98"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_world_panel_validation.json",
+      "role": "validation artifact",
+      "sha256": "8fd2c6f94e5691465943251dcf62437f886e4c48b634f7fd1f26dd2c3df6814d"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/build_pair_blind_views.py",
+      "role": "reproducible panel implementation",
+      "sha256": "2af7ec8c537f1dde4a828409bbafea4ab8dfe5ab35a07bc9e42c5ca4f8d547c4"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/build_pair_matched_subpanels.py",
+      "role": "reproducible panel implementation",
+      "sha256": "a0d1d423efb01da40b84913b37de122672a082e2ad36fe588f74a80d9b0b60cf"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/decoder_api.py",
+      "role": "reproducible panel implementation",
+      "sha256": "6ec981248cde228280485c681a00c69bcc80931ed707465aad2971265926a247"
     },
     {
       "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/freeze_interface.py",
-      "role": "interface freeze producer",
+      "role": "reproducible panel implementation",
       "sha256": "67d71ad221fc2d2e55bd86ef119d8fa2d1cb0504c3210d771e4e68798dec997c"
     },
     {
-      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/validate_interface_freeze.py",
-      "role": "independent interface freeze validator",
-      "sha256": "1317d130ac1e493a962945b66633bf5ca60a42388abfbde56a5b65cbddc4bb28"
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/freeze_pair_protocol_amendment.py",
+      "role": "reproducible panel implementation",
+      "sha256": "846976e5807d26e35820d508fa664b2c02ea067afb4e339d8873c501af7b5556"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/freeze_world_panel.py",
+      "role": "reproducible panel implementation",
+      "sha256": "8116f08362c59ee040a2134e88ee7d000ea7c442dbcd2268af288ecb2d68b0a0"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/freeze_world_panel_stage.py",
+      "role": "reproducible panel implementation",
+      "sha256": "eea75d950394904b33268e6dc4c2290104bc07ab6cbe5e1d942d6593a019655d"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/generate_corpora.py",
+      "role": "reproducible panel implementation",
+      "sha256": "ed908a5caf002a25d08dfed7af16c293ab0a79e813ab1b4106e2fe346e6bc76c"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/normalize_bundle.py",
+      "role": "reproducible panel implementation",
+      "sha256": "69afd4425f5e8f1f0f2d28c18394a1b9b45f23d1f6e3a608635dcabada03fd8a"
     },
     {
       "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/run.py",
-      "role": "reserved final benchmark runner entry point",
+      "role": "reproducible panel implementation",
       "sha256": "82819fe5a84a0829820ca95f647e4af71c932f5e7bbce9662cd7b8c4d43f15aa"
     },
     {
       "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/validate.py",
-      "role": "reserved final benchmark validator entry point",
+      "role": "independent validator",
       "sha256": "82819fe5a84a0829820ca95f647e4af71c932f5e7bbce9662cd7b8c4d43f15aa"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/validate_interface_freeze.py",
+      "role": "independent validator",
+      "sha256": "1317d130ac1e493a962945b66633bf5ca60a42388abfbde56a5b65cbddc4bb28"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/validate_pair_blind_views.py",
+      "role": "independent validator",
+      "sha256": "caff3af7c10708c04c6caf865c92e82d2384465a0a7e47abf968df6138ae114f"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/validate_pair_protocol_amendment.py",
+      "role": "independent validator",
+      "sha256": "a77977e41cbbf66cc8421617bc60f776731a655fccb7dc16a673a78f61443bc2"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/validate_world_panel.py",
+      "role": "independent validator",
+      "sha256": "da8c9529b971a6dc0a54b2f7be5dccdb5ec43f817621e8ce012bf6a5d4892173"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/world_api.py",
+      "role": "reproducible panel implementation",
+      "sha256": "add4b987cce7a36c2bb7e109995596b8d655c93f7c3cd96f534a5cf70ea606ef"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/worlds/w01_technical_scribal_shorthand/DESIGN.md",
+      "role": "isolated Sol world design record sealed from decoders",
+      "sha256": "aa7474b9cb944f6e35925a30b41786ac23c8c25a9e6b748600eb963c734a9c0f"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/worlds/w01_technical_scribal_shorthand/generator.py",
+      "role": "isolated Sol world generator frozen before decoding",
+      "sha256": "116b4e19ea70e76299a2414cf50f733bc365ff89178569203c34dfee06696ffb"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/worlds/w02_organic_codebook/DESIGN.md",
+      "role": "isolated Sol world design record sealed from decoders",
+      "sha256": "d30971e3807dc80328eddd3b262db6d5e9b84a19b3fbce1dce43e4385a30d6ff"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/worlds/w02_organic_codebook/generator.py",
+      "role": "isolated Sol world generator frozen before decoding",
+      "sha256": "a54e36e89e032bce53b5b19b062fc97690e74c3dbf02452bb61d7e4601e1e67a"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/worlds/w03_engineered_catalogue_code/DESIGN.md",
+      "role": "isolated Sol world design record sealed from decoders",
+      "sha256": "048dbe99b2a7be0170f9625c65b8814ef7e4621fd8d9f16f3d2bfefe43ff0c7d"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/worlds/w03_engineered_catalogue_code/generator.py",
+      "role": "isolated Sol world generator frozen before decoding",
+      "sha256": "7b050c8553ebbb09406c24d3fbcc1e486fc08a2b25ae77728f8697d6a398a65f"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/worlds/w04_procedural_recipe_notation/DESIGN.md",
+      "role": "isolated Sol world design record sealed from decoders",
+      "sha256": "6e60c91aea410a4b8a1f7795f866270a057d4c2bdf662ef68df7330fb71f0ca9"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/worlds/w04_procedural_recipe_notation/generator.py",
+      "role": "isolated Sol world generator frozen before decoding",
+      "sha256": "c87b1136f2040f75e5afea26615b9d670ff99b5c399bb903215cf3628ddbba37"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/worlds/w05_mnemonic_ritual_legacy/DESIGN.md",
+      "role": "isolated Sol world design record sealed from decoders",
+      "sha256": "0ceb7b95640720663dde8adbf6e3d43ff208f6cd50ff5bf991ae9ce180e990b1"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/worlds/w05_mnemonic_ritual_legacy/generator.py",
+      "role": "isolated Sol world generator frozen before decoding",
+      "sha256": "ba110e6df509901b45ed652d3d3029e377e697f4c7f6ef7938e31c1bcb7a5d7a"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/worlds/w06_organic_catalogue_index/DESIGN.md",
+      "role": "isolated Sol world design record sealed from decoders",
+      "sha256": "3857159834433eecfd198c2c1f454ed59ceae5615f833cf7a46f8fe358da2845"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/worlds/w06_organic_catalogue_index/generator.py",
+      "role": "isolated Sol world generator frozen before decoding",
+      "sha256": "559c5207f212540eee13051396e194770da48cf4317d0a89100ea63f60f6fc36"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/worlds/w07_hybrid_word_code_quantity/DESIGN.md",
+      "role": "isolated Sol world design record sealed from decoders",
+      "sha256": "c0edf893d7932e4faedab06461d3448a622d742517984ebfa98b96f7648b4a86"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/worlds/w07_hybrid_word_code_quantity/generator.py",
+      "role": "isolated Sol world generator frozen before decoding",
+      "sha256": "ab2b2bf31ce2c699f3fd3ef5da4a812ef1db56df17bf18cc996c95af518577fc"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/worlds/w08_diverged_multi_school_notation/DESIGN.md",
+      "role": "isolated Sol world design record sealed from decoders",
+      "sha256": "4b70513cf56192875d644c0a0f3892b97b807900dc0f1537976655d134e0538d"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/worlds/w08_diverged_multi_school_notation/generator.py",
+      "role": "isolated Sol world generator frozen before decoding",
+      "sha256": "825de7b98f3e4fef2754424bd46d025091740d30f13a10ffdd9e57702564eda4"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/worlds/w09_meaningful_relational_system/DESIGN.md",
+      "role": "isolated Sol world design record sealed from decoders",
+      "sha256": "f65f68435153268fdbda6c31546d33f077c4fa17750e2be4e034b2ff664b0c0b"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/worlds/w09_meaningful_relational_system/generator.py",
+      "role": "isolated Sol world generator frozen before decoding",
+      "sha256": "8a592e361b5504367285953bd90368a58147166192f80a2a406f4846009c65c3"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/worlds/w10_semantics_light_generator/DESIGN.md",
+      "role": "isolated Sol world design record sealed from decoders",
+      "sha256": "c48e91214d9aae0db4f32a21211c93f766a83857da3b5f73a636e5b413df5598"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/worlds/w10_semantics_light_generator/generator.py",
+      "role": "isolated Sol world generator frozen before decoding",
+      "sha256": "59bf249c1b829f2f083a51d2babef935919c44579a61c2f5f8c524df3b110741"
     }
   ],
   "question": "Which hidden lexical, genealogical, functional, relational, scope, register, and semantic properties are identifiable from independently designed synthetic manuscript-like observation layers?",
@@ -87,11 +297,11 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "adversarial_synthetic_identifiability_benchmark",
-  "status": "FROZEN_BEFORE_WORLD_DESIGN",
+  "status": "FROZEN_BEFORE_CORPUS_GENERATION_AND_DECODING",
   "title": "Adversarial synthetic writing-system identifiability benchmark",
   "updated": "2026-08-20",
   "validation": {
-    "artifact": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_interface_freeze_validation.json",
+    "artifact": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_world_panel_validation.json",
     "status": "PASS"
   }
 }
