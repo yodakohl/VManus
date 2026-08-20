@@ -1,0 +1,77 @@
+{
+  "access": {
+    "automated_image_classification_calls": 0,
+    "clip_embedding_caption_calls": 0,
+    "content_hash": "fec1a959e8d310d23e224945078a1bb559c602a519f1b5f28a092c95005c5f13",
+    "direct_visual_reviewer_count": 1,
+    "direct_visual_reviewer_type": "AI_SOURCE_AWARE_EXPLORATORY_NOT_HUMAN_OR_CONFIRMATORY",
+    "f84_image_transcription_source_group_formal_identity_prediction_or_score_access": false,
+    "formal_identity_rows_read": 0,
+    "frozen_loci_normalized": 180,
+    "ocr_calls": 0,
+    "official_yale_canvases_reviewed": 20,
+    "pages_reviewed": 21,
+    "prior_page_exposure_disclosed": true,
+    "schema": "GDT391_ACCESS_V1",
+    "voynich_surface_strings_read": 0
+  },
+  "capacity": {
+    "all_gates_pass": false,
+    "later_formal_scoring_authorized": false,
+    "minimum_mixed_units": 10,
+    "minimum_physical_folios": 5,
+    "minimum_singular_positive_relations": 50
+  },
+  "claim_ceiling": "TEXT_BLIND_LOCAL_TEXT_OBJECT_GEOMETRY_OWNERSHIP_AND_CAPACITY_ONLY",
+  "content_hash": "efb0091944a0fd7a7d7344b46280eb969fc499c3c7c1dfd4af74d31266354c70",
+  "counts": {
+    "complete_unit_loci": 180,
+    "eligible_folios": 4,
+    "eligible_matched_positive_relations": 4,
+    "eligible_mixed_units": 4,
+    "normalized_relation_states": {
+      "AMBIGUOUS_OR_MULTIPLE": 33,
+      "CONTACT_OR_OVERLAP": 7,
+      "INSIDE_BOUNDED_REGION": 6,
+      "ON_OR_ATTACHED": 48,
+      "PROXIMITY_ONLY": 86
+    },
+    "object_localization_states": {
+      "MULTIPLE_OR_ALTERNATIVE_OBJECTS": 43,
+      "NO_RELATION_BEYOND_PROXIMITY": 24,
+      "OBJECT_REGION_NOT_INDIVIDUATED": 7,
+      "SINGULAR_OBJECT_LOCALIZED": 106
+    },
+    "official_canvases": 20,
+    "pages_reviewed": 21,
+    "physical_folios": 12,
+    "singular_positive_folios": 8,
+    "singular_positive_relations": 61,
+    "source_units": 44
+  },
+  "implementation": {
+    "experiments/yolo/gdt391_local_object_relation_normalization/src/prepare_review.py": "2fbd4321f1c7ef26fdf33a50d067e4661b89c0f60b357bc43feee3c31f8a33db",
+    "experiments/yolo/gdt391_local_object_relation_normalization/src/run.py": "8f1538f8381ae97bc165e55de9941ab181da0e79768ab35f7d3e451e230868e0"
+  },
+  "inputs": {
+    "experiments/yolo/gdt391_local_object_relation_normalization/artifacts/gdt391_complete_unit_frame.tsv": "c83e17863f9f591bcd0df97fe6f094b016a4a748c15ae1f81a58be2fdf77a606",
+    "experiments/yolo/gdt391_local_object_relation_normalization/artifacts/gdt391_image_manifest.tsv": "300f64471133bb75c9ad85b3d7cf93ed47ab86b37510502113e1f3070271a3f6",
+    "experiments/yolo/gdt391_local_object_relation_normalization/artifacts/gdt391_pre_normalization_freeze.json": "c72554c29e106a821561cfb980f124d410750a6fbb08823f0ab88ea7adf70f04",
+    "experiments/yolo/gdt391_local_object_relation_normalization/artifacts/gdt391_review_image_hashes.tsv": "1515426a3714ad44066a9343062b9e4f09f1c802c0ca5661f6476dfe5a462d1a"
+  },
+  "interpretation": "The source-aware census can normalize a substantial singular relation layer, dominated by f68 star attachments, but only a small subset retains same-unit topology-matched proximity controls. The separate local text-object route is not identifiable at the frozen matched-comparator capacity.",
+  "outputs": {
+    "experiments/yolo/gdt391_local_object_relation_normalization/artifacts/gdt391_access_log.json": "5ff46f53aaa6f72c4501798397ddce9034bebed0871061aa08fd88a27e600a13",
+    "experiments/yolo/gdt391_local_object_relation_normalization/artifacts/gdt391_capacity_gates.tsv": "cc0c004cf1baa69cb2a2c448566a34eb53a56987d6793cc1b90fdf173578a08e",
+    "experiments/yolo/gdt391_local_object_relation_normalization/artifacts/gdt391_eligible_relation_packet.tsv": "df619879b1c6d52daccdfa2e94fd17e06a45a508c95582a72b95fed50dd44d3b",
+    "experiments/yolo/gdt391_local_object_relation_normalization/artifacts/gdt391_normalized_object_relations.tsv": "d26c0c20fb3c57e3a4096a1a02c94ab6257623d1f47e69ec2b1f428e016ca92a",
+    "experiments/yolo/gdt391_local_object_relation_normalization/artifacts/gdt391_page_review.tsv": "5dcc2f722aad3cb2d0108605f31144627dc937f894f8b94ca43b5e3168a0e8d0"
+  },
+  "review": {
+    "automated_visual_judgments": 0,
+    "complete_frame": true,
+    "provenance": "SINGLE_AI_SOURCE_AWARE_EXPLORATORY_WITH_PRIOR_PAGE_EXPOSURE"
+  },
+  "schema": "GDT391_RESULT_V1",
+  "status": "NORMALIZATION_SUCCEEDS_BUT_MATCHED_RELATION_CAPACITY_FAILS"
+}

@@ -75,3 +75,13 @@ f84 remains forbidden. GDT391 can establish only local text-object geometry,
 ownership normalization, and capacity. It establishes no object meaning,
 label gloss, parent/reference relation, word, role, syntax, POS, language,
 plaintext, or translation.
+
+## Executed outcome
+
+All 180 loci on 21 pages were reviewed under the frozen schema through 20
+allow-listed official canvases. Sixty-one positive rows on eight folios retain
+a singular neutral object/region, but 48 are the two f68 star arrays on one
+physical folio. Only four positives in four units/four folios also have a
+same-unit, same-topology singular `PROXIMITY_ONLY` comparator. The matched
+minimums of 50 rows, ten mixed units, and five folios therefore fail. No formal
+score was authorized or run.

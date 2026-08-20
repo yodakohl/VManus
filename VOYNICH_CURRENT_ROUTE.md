@@ -281,8 +281,8 @@ supply two singular inscription endpoints. Capacity is zero eligible edges;
 the parent-link/connector route is closed. Do not substitute proximity, radial
 order, OPEN/BODY, or cross-page similarity for genuinely new relation evidence.
 
-GDT390 completes Q20 with zero pointers across 170 records/13 pages/eight folios;
-GDT391 freezes 180 local text-object loci/12 folios with every formal score locked.
+GDT390 closes Q20 with zero pointers. GDT391 normalizes 61 singular local
+relations, but only four matched rows/four folios survive; formal scoring stays locked.
 
 ## Primary routing references
 

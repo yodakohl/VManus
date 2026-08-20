@@ -10198,18 +10198,19 @@ grounding route is exhausted; do not substitute page order, star ordinal,
 proximity, common rendering, OPEN/BODY hierarchy, reading order, or formal
 recurrence for an independent authorial edge.
 
-GDT391 begins the one genuinely distinct GDT388 acquisition family left after
-the inscription-edge routes closed. It freezes every locus in all 44
-source-defined units containing an attachment, contact, enclosure, or
-array/group observation: 180 loci on 21 pages/12 folios, including 86
-proximity-only comparison rows and all hedged cases. Twenty-three units on
-eight folios already contain relation/proximity mobility, but no object ID has
-yet been normalized. The loader retained only the source/visual prefix of the
-f84-free GDT360 artifact; formal coverage suffixes and every Voynich identity
-remain unopened. Validation passes 25/25. This is a separate local
-text-to-object endpoint, not a substitute parent link and not a semantic
-grounding result. Visual normalization may proceed only under the frozen
-neutral-object schema and 50-relation/five-folio/ten-mixed-unit capacity gate.
+GDT391 completes the separate B02 local text-object relation normalization.
+All 180 loci in 44 source-defined units on 21 pages/12 folios were reviewed
+through 20 allow-listed official canvases. Sixty-one singular positive
+relations survive on eight folios, but 48 are concentrated in the two f68 star
+arrays. Only f100r.10, f99v.20, f89r2.33, and f67r2.48 retain a singular
+same-unit, same-topology proximity comparator: four mixed units/four folios,
+below the frozen 50-relation/ten-unit/five-folio gates. Formal identity and
+scoring therefore remained closed. Validation passes 104/104 and explicitly
+does not reproduce the single-AI visual judgments. The current local relation
+route is closed absent genuinely new complete mixed units; the four surviving
+rows are acquisition seeds, not a test panel. No object meaning, label gloss,
+parent/reference relation, word, role, syntax, POS, language, plaintext,
+translation, or new f84 access follows.
 
 ## Runtime and sources
 
