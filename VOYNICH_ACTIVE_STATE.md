@@ -10198,6 +10198,19 @@ grounding route is exhausted; do not substitute page order, star ordinal,
 proximity, common rendering, OPEN/BODY hierarchy, reading order, or formal
 recurrence for an independent authorial edge.
 
+GDT391 begins the one genuinely distinct GDT388 acquisition family left after
+the inscription-edge routes closed. It freezes every locus in all 44
+source-defined units containing an attachment, contact, enclosure, or
+array/group observation: 180 loci on 21 pages/12 folios, including 86
+proximity-only comparison rows and all hedged cases. Twenty-three units on
+eight folios already contain relation/proximity mobility, but no object ID has
+yet been normalized. The loader retained only the source/visual prefix of the
+f84-free GDT360 artifact; formal coverage suffixes and every Voynich identity
+remain unopened. Validation passes 25/25. This is a separate local
+text-to-object endpoint, not a substitute parent link and not a semantic
+grounding result. Visual normalization may proceed only under the frozen
+neutral-object schema and 50-relation/five-folio/ten-mixed-unit capacity gate.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU

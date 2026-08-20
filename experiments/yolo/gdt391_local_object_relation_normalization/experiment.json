@@ -1,0 +1,95 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Frozen text-blind local text-object geometry and ownership normalization design; no object meaning, word, role, syntax, POS, language, plaintext, translation, or f84 result.",
+  "commands": {
+    "run": "./vpy experiments/yolo/gdt391_local_object_relation_normalization/src/freeze.py",
+    "validate": "./vpy experiments/yolo/gdt391_local_object_relation_normalization/src/validate_freeze.py"
+  },
+  "created": "2026-08-20",
+  "dependencies": [
+    "GDT360",
+    "GDT388",
+    "GDT390"
+  ],
+  "experiment_id": "GDT391",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt360_existing_annotation_joint_grounding/artifacts/gdt360_annotation_inventory.tsv",
+      "role": "f84-free provenance-bound exact-human relation inventory; only source/visual prefix retained",
+      "sha256": "3d5a129635d3b1b9714928f8cd21b94e2cdb170e836344327fa4ba837c2bbe4d"
+    },
+    {
+      "path": "experiments/yolo/gdt388_acquisition_ready_relation_edge_protocol/artifacts/gdt388_result.json",
+      "role": "published B02 acquisition requirement and separation from parent-link endpoint",
+      "sha256": "79cf873aa0f718d69d2af321ea8ebbae6c1db5fdef796ea099fe6b71045a9ac6"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt391_local_object_relation_normalization/METHOD.md",
+      "role": "pre-normalization complete-unit method",
+      "sha256": "1ea4b62c66e232639b7c5927e913130f5a93cdb81d19673e2020821a8cc7317a"
+    },
+    {
+      "path": "experiments/yolo/gdt391_local_object_relation_normalization/README.md",
+      "role": "experiment entry point",
+      "sha256": "8b60041cf28a4c323db8df3b893b8fb31515f0bfc65a9ea688bb8209ceeff5ea"
+    },
+    {
+      "path": "experiments/yolo/gdt391_local_object_relation_normalization/artifacts/README.md",
+      "role": "artifact guide",
+      "sha256": "5369c0988e0c74140129ab1f357f85d50ad487789715eb4503259ea3d3477336"
+    },
+    {
+      "path": "experiments/yolo/gdt391_local_object_relation_normalization/artifacts/gdt391_complete_unit_frame.tsv",
+      "role": "complete 180-locus source-unit frame",
+      "sha256": "c83e17863f9f591bcd0df97fe6f094b016a4a748c15ae1f81a58be2fdf77a606"
+    },
+    {
+      "path": "experiments/yolo/gdt391_local_object_relation_normalization/artifacts/gdt391_pre_normalization_freeze.json",
+      "role": "selection orders states access and capacity freeze",
+      "sha256": "c72554c29e106a821561cfb980f124d410750a6fbb08823f0ab88ea7adf70f04"
+    },
+    {
+      "path": "experiments/yolo/gdt391_local_object_relation_normalization/artifacts/gdt391_pre_normalization_freeze_validation.json",
+      "role": "independent source-frame and freeze validation",
+      "sha256": "657b3da3b70941af4e9363d675c5a17cc81fbde13be22f8fdfd0b35cc4362109"
+    },
+    {
+      "path": "experiments/yolo/gdt391_local_object_relation_normalization/src/freeze.py",
+      "role": "source-only freeze producer",
+      "sha256": "0a2f1d9282f253b53fa6fb577ddc29862fa4de5c025df5f37eb3551883470960"
+    },
+    {
+      "path": "experiments/yolo/gdt391_local_object_relation_normalization/src/run.py",
+      "role": "reserved post-freeze normalization producer",
+      "sha256": "82819fe5a84a0829820ca95f647e4af71c932f5e7bbce9662cd7b8c4d43f15aa"
+    },
+    {
+      "path": "experiments/yolo/gdt391_local_object_relation_normalization/src/validate.py",
+      "role": "reserved post-freeze final validator",
+      "sha256": "82819fe5a84a0829820ca95f647e4af71c932f5e7bbce9662cd7b8c4d43f15aa"
+    },
+    {
+      "path": "experiments/yolo/gdt391_local_object_relation_normalization/src/validate_freeze.py",
+      "role": "independent freeze validator",
+      "sha256": "5e04a041e2682659f44d2b25a4842312c6686fcc9c5bcfd86f4d0d0fc1230dd3"
+    }
+  ],
+  "question": "Can complete positive-bearing human source units be normalized into singular author-visible text-object relations without consulting Voynich formal identities?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "local_object_relation_normalization",
+  "status": "FROZEN_BEFORE_OBJECT_NORMALIZATION",
+  "title": "Local text-object relation normalization",
+  "updated": "2026-08-20",
+  "validation": {
+    "artifact": "experiments/yolo/gdt391_local_object_relation_normalization/artifacts/gdt391_pre_normalization_freeze_validation.json",
+    "status": "PASS"
+  }
+}
