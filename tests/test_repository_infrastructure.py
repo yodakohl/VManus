@@ -13,6 +13,7 @@ from pathlib import Path
 from tools.repository_preflight import (
     CREDENTIAL_PATTERNS,
     LOCAL_PATH_PATTERNS,
+    check_reproducibility_bindings,
     check_structured_layout,
 )
 from tools.guarded_tsv_query import query as query_guarded_tsv
@@ -243,6 +244,44 @@ class InfrastructureTests(unittest.TestCase):
             )
             self.assertEqual(result[0]["identifier"], "CONNECTOR_RELATION")
             self.assertEqual(result[0]["kind"], "CLOSED_ROUTE")
+
+    def test_reproducibility_files_must_be_hash_bound(self) -> None:
+        with tempfile.TemporaryDirectory() as raw:
+            root = Path(raw)
+            directory = root / "experiments/yolo/gdt400_fixture"
+            (directory / "src").mkdir(parents=True)
+            manifest = directory / "experiment.json"
+            report = directory / "REPORT.md"
+            runner = directory / "src/run.py"
+            report.write_text("# report\n", encoding="utf-8")
+            runner.write_text("# runner\n", encoding="utf-8")
+            data = {"inputs": [], "outputs": []}
+            errors = check_reproducibility_bindings(data, manifest, root)
+            self.assertEqual(len(errors), 2)
+
+            import hashlib
+
+            result_path = directory / "artifacts/gdt400_result.json"
+            result_path.parent.mkdir()
+            result_path.write_text(
+                json.dumps(
+                    {
+                        "document_hashes": {
+                            report.relative_to(root).as_posix(): hashlib.sha256(
+                                report.read_bytes()
+                            ).hexdigest()
+                        },
+                        "implementation_hashes": {
+                            runner.relative_to(root).as_posix(): hashlib.sha256(
+                                runner.read_bytes()
+                            ).hexdigest()
+                        },
+                    }
+                ),
+                encoding="utf-8",
+            )
+            data["outputs"] = [{"path": result_path.relative_to(root).as_posix()}]
+            self.assertEqual(check_reproducibility_bindings(data, manifest, root), [])
 
     def test_scaffold_manifest_and_scripts(self) -> None:
         module = self.load_module("test_scaffolder", ROOT / "tools/new_yolo_experiment.py")

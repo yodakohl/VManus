@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import json
 import re
 import subprocess
 import sys
@@ -18,6 +19,7 @@ from tools.vmanus_experiment import (
     ROOT,
     load_manifest,
     manifest_paths,
+    sha256_file,
     validate_manifest_data,
     verify_manifest_bindings,
 )
@@ -168,6 +170,7 @@ def check_manifests() -> list[str]:
             errors.append(str(exc))
             continue
         errors.extend(f"{path.relative_to(ROOT)}: {error}" for error in verify_manifest_bindings(data))
+        errors.extend(check_reproducibility_bindings(data, path))
         policy = data["artifact_policy"]
         experiment_dir = path.parent
         large = [
@@ -179,6 +182,64 @@ def check_manifests() -> list[str]:
                 f"{path.relative_to(ROOT)}: large artifacts lack justification: "
                 + ", ".join(str(item.relative_to(ROOT)) for item in large)
             )
+    return errors
+
+
+def check_reproducibility_bindings(
+    data: dict,
+    manifest_path: Path,
+    root: Path = ROOT,
+) -> list[str]:
+    """Require every experiment document and source file to be hash-bound.
+
+    Most structured experiments bind these files directly in the manifest.
+    A compact result may instead carry ``document_hashes`` and
+    ``implementation_hashes``; those indirect bindings are independently
+    verified here.
+    """
+
+    errors: list[str] = []
+    bound = {
+        item["path"]
+        for collection in ("inputs", "outputs")
+        for item in data.get(collection, [])
+        if isinstance(item, dict) and isinstance(item.get("path"), str)
+    }
+    for item in data.get("outputs", []):
+        raw_path = item.get("path", "") if isinstance(item, dict) else ""
+        if not (raw_path.endswith("_result.json") or raw_path.endswith("/result.json")):
+            continue
+        result_path = root / raw_path
+        if not result_path.is_file():
+            continue
+        try:
+            result = json.loads(result_path.read_text(encoding="utf-8"))
+        except (OSError, UnicodeDecodeError, json.JSONDecodeError):
+            continue
+        for family in ("document_hashes", "implementation_hashes"):
+            bindings = result.get(family)
+            if not isinstance(bindings, dict):
+                continue
+            for raw_bound_path, digest in bindings.items():
+                candidate = Path(raw_bound_path)
+                if candidate.is_absolute() or ".." in candidate.parts:
+                    errors.append(f"{result_path.relative_to(root)}: unsafe {family} path")
+                    continue
+                full_path = root / candidate
+                if not full_path.is_file():
+                    errors.append(f"{result_path.relative_to(root)}: missing {family} file {candidate}")
+                    continue
+                if not isinstance(digest, str) or sha256_file(full_path) != digest:
+                    errors.append(f"{result_path.relative_to(root)}: {family} hash mismatch {candidate}")
+                    continue
+                bound.add(candidate.as_posix())
+
+    experiment_dir = manifest_path.parent
+    required = sorted((*experiment_dir.glob("*.md"), *experiment_dir.glob("src/*.py")))
+    for path in required:
+        relative = path.relative_to(root).as_posix()
+        if relative not in bound:
+            errors.append(f"{manifest_path.relative_to(root)}: unbound reproducibility file {relative}")
     return errors
 
 
