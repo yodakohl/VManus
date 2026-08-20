@@ -1,6 +1,6 @@
 {
   "artifact_policy": {
-    "large_artifact_justification": "",
+    "large_artifact_justification": "The ignored qualification claim manifest indexes 24,300 independently frozen typed claim files and 162,102,663 rows; it remains local because the compact published freeze binds its hash and every constituent claim hash without publishing the large blind claim payload.",
     "max_inline_bytes": 5000000
   },
   "claim_ceiling": "Synthetic calibration of which hidden properties are recoverable through a restricted 24-symbol observation channel; no synthetic role, ontology, sound, language, meaning, plaintext, or translation transfers to Voynich.",
@@ -91,6 +91,16 @@
       "role": "decoder and instrument panel validation",
       "sha256": "9b2467da869e8a7c85831ae783fa45927d4d936b70a0159f74136f6177844ca7"
     },
+    {
+      "path": "experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/artifacts/gdt396_qualification_corpus_validation.json",
+      "role": "new untouched qualification paired-corpus validation",
+      "sha256": "95ec2e5600014a8e8bd6b317b1a10462e68f92e187a576cfe1a03bea49026f3e"
+    },
+    {
+      "path": "experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/artifacts/gdt396_qualification_claim_freeze.json",
+      "role": "blind qualification claims frozen before oracle scoring",
+      "sha256": "4a9fa6b1bc3df08edaf1fb5c03f91419bbbba20e06391a33827a7ad7ca4b6e6f"
+    },
     {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/CLAIM_INTERFACE.md","role":"claim interface","sha256":"a37213e12142c9596ab1f0e72315f4458f18d1097b2613fecf4109c7dd70b8a9"},
     {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/CLAIM_RETENTION_PLAN.md","role":"claim retention plan","sha256":"9f93cc0bd3676478b9972720f1f0002606b3279757ca8377829fe70d55d92780"},
     {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/DECODER_EXECUTION_SPEC.md","role":"decoder execution specification","sha256":"9d7a48d79cc6b3c0ba6ce17b65b9bec4835435879f2512a89a8f01ddcf3aa6d9"},
@@ -149,7 +159,7 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "repaired_synthetic_identifiability_voynich_surface",
-  "status": "DECODER_PANEL_FROZEN",
+  "status": "QUALIFICATION_CLAIMS_FROZEN_BEFORE_ORACLE_SCORING",
   "title": "Repaired synthetic identifiability benchmark with Voynich-constrained surface channel",
   "updated": "2026-08-20",
   "validation": {
