@@ -163,12 +163,14 @@ def check_navigation_links() -> list[str]:
 
 def check_manifests() -> list[str]:
     errors: list[str] = []
+    manifests: list[tuple[Path, dict]] = []
     for path in manifest_paths():
         try:
             data = load_manifest(path)
         except Exception as exc:  # compact error aggregation for the preflight
             errors.append(str(exc))
             continue
+        manifests.append((path, data))
         errors.extend(f"{path.relative_to(ROOT)}: {error}" for error in verify_manifest_bindings(data))
         errors.extend(check_reproducibility_bindings(data, path))
         policy = data["artifact_policy"]
@@ -182,6 +184,63 @@ def check_manifests() -> list[str]:
                 f"{path.relative_to(ROOT)}: large artifacts lack justification: "
                 + ", ".join(str(item.relative_to(ROOT)) for item in large)
             )
+    errors.extend(check_manifest_dependency_graph(manifests))
+    return errors
+
+
+def check_manifest_dependency_graph(
+    manifests: list[tuple[Path, dict]],
+    *,
+    available_ids: set[int] | None = None,
+) -> list[str]:
+    """Reject missing, forward, or cyclic explicit experiment dependencies."""
+
+    errors: list[str] = []
+    if available_ids is None:
+        index_path = ROOT / "experiments/EXPERIMENT_INDEX.tsv"
+        with index_path.open(encoding="utf-8", newline="") as handle:
+            available_ids = {
+                int(row["experiment_id"][3:])
+                for row in csv.DictReader(handle, delimiter="\t")
+            }
+    graph: dict[int, set[int]] = {}
+    for path, data in manifests:
+        current = int(data["experiment_id"][3:])
+        dependencies = {int(value[3:]) for value in data.get("dependencies", [])}
+        graph[current] = dependencies
+        for dependency in sorted(dependencies):
+            if dependency not in available_ids:
+                errors.append(
+                    f"{path.relative_to(ROOT)}: missing dependency GDT{dependency:03d}"
+                )
+            if dependency >= current:
+                errors.append(
+                    f"{path.relative_to(ROOT)}: dependency is not earlier GDT{dependency:03d}"
+                )
+
+    visited: set[int] = set()
+    active: set[int] = set()
+
+    def visit(node: int, trail: list[int]) -> None:
+        if node in active:
+            start = trail.index(node)
+            cycle = trail[start:] + [node]
+            errors.append(
+                "manifest dependency cycle: "
+                + " -> ".join(f"GDT{item:03d}" for item in cycle)
+            )
+            return
+        if node in visited:
+            return
+        active.add(node)
+        for dependency in sorted(graph.get(node, set())):
+            if dependency in graph:
+                visit(dependency, trail + [dependency])
+        active.remove(node)
+        visited.add(node)
+
+    for node in sorted(graph):
+        visit(node, [node])
     return errors
 
 

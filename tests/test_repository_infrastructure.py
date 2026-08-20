@@ -14,6 +14,7 @@ from tools.repository_preflight import (
     CREDENTIAL_PATTERNS,
     LOCAL_PATH_PATTERNS,
     check_reproducibility_bindings,
+    check_manifest_dependency_graph,
     check_structured_layout,
 )
 from tools.guarded_tsv_query import query as query_guarded_tsv
@@ -282,6 +283,33 @@ class InfrastructureTests(unittest.TestCase):
             )
             data["outputs"] = [{"path": result_path.relative_to(root).as_posix()}]
             self.assertEqual(check_reproducibility_bindings(data, manifest, root), [])
+
+    def test_manifest_dependency_graph_rejects_forward_and_missing_edges(self) -> None:
+        manifests = [
+            (
+                ROOT / "experiments/yolo/gdt400_fixture/experiment.json",
+                {"experiment_id": "GDT400", "dependencies": ["GDT399", "GDT401"]},
+            )
+        ]
+        errors = check_manifest_dependency_graph(manifests, available_ids={399, 400})
+        self.assertTrue(any("missing dependency GDT401" in error for error in errors))
+        self.assertTrue(any("dependency is not earlier GDT401" in error for error in errors))
+
+    def test_manifest_dependency_graph_accepts_acyclic_history(self) -> None:
+        manifests = [
+            (
+                ROOT / "experiments/yolo/gdt399_a/experiment.json",
+                {"experiment_id": "GDT399", "dependencies": []},
+            ),
+            (
+                ROOT / "experiments/yolo/gdt400_b/experiment.json",
+                {"experiment_id": "GDT400", "dependencies": ["GDT399"]},
+            ),
+        ]
+        self.assertEqual(
+            check_manifest_dependency_graph(manifests, available_ids={399, 400}),
+            [],
+        )
 
     def test_scaffold_manifest_and_scripts(self) -> None:
         module = self.load_module("test_scaffolder", ROOT / "tools/new_yolo_experiment.py")
