@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **395**
-- Experiment-associated tracked files: **5,654** (642.8 MiB)
-- Structured GDT337+ experiments: **60**
+- Experiments indexed: **396**
+- Experiment-associated tracked files: **5,660** (642.8 MiB)
+- Structured GDT337+ experiments: **61**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT397 | bounded observability ceiling and ontology correction audit | `REGISTERED_UNSCORED` | — | 6 | 63.3 KiB | 1 | STRUCTURED_YOLO |
 | GDT396 | GDT396_repaired_synthetic_identifiability_result | `NO_CONFIRMATION_ELIGIBLE_PROPERTY` | [report](../experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/GDT396_REPAIRED_SYNTHETIC_IDENTIFIABILITY_REPORT.md) | 93 | 7.6 MiB | 1 | STRUCTURED_YOLO |
 | GDT395 | GDT395_adversarial_synthetic_identifiability_benchmark_conformance_v5 | `POST_ORACLE_CONFORMANCE_CORRECTION_VALIDATED` | [report](../experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/SCORER_VALIDATOR_CONFORMANCE_CORRECTION_V5.md) | 147 | 10.8 MiB | 5 | STRUCTURED_YOLO |
 | GDT394 | GDT394_latent_role_bottleneck_transfer_audit | `LATENT_ROLE_COMPRESSION_NOT_DISTINCT_FROM_MATCHED_SOURCE_BOTTLENECKS` | [report](../experiments/yolo/gdt394_latent_role_bottleneck_transfer_audit/REPORT.md) | 20 | 763.4 KiB | 4 | STRUCTURED_YOLO |
