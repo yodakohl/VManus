@@ -10185,16 +10185,18 @@ f84r display remains disclosed; no f84 image, transcription, source group,
 formal identity, PAGE_HOST, tuple, prediction, or score was accessed in the
 image review. The current connector/parent-link acquisition route is closed.
 
-GDT390 freezes the one remaining non-catalog connector acquisition named by
-GDT388: a complete direct visual census of the 170 star-defined Q20 records on
-13 pages/eight physical folios for author-visible record-to-record pointers.
-The metadata-only frame retains unit/page/folio/star and line-locus structure;
-GDT114 compiler/profile suffix fields were not parsed, retained, or displayed.
-The page and record orders, five outcomes, direction rules, and the same
-50-edge/five-folio capacity gate are frozen before new image access; validation
-passes 16/16. Q20 pages have prior repository exposure, so this is procedural
-blinding by one exploratory AI reviewer, not pristine human evidence. Formal
-scoring and all f84 access remain locked.
+GDT390 completes the one remaining non-catalog connector acquisition named by
+GDT388. All 170 star-defined Q20 records on 13 pages/eight physical folios were
+covered by complete-page direct visual review through 13 allow-listed official
+Yale canvases. Every page has marginal star-like record markers but no visible
+arrow, line, bracket, tail, path, or other device connecting one record to
+another: zero candidates, zero source/target localizations, and zero eligible
+edges/folios versus the 50-edge/five-folio gate. Validation passes 61/61 and
+does not claim a second visual reviewer. No formal identity or score was
+opened, and no new f84 content was accessed. The current external-parent
+grounding route is exhausted; do not substitute page order, star ordinal,
+proximity, common rendering, OPEN/BODY hierarchy, reading order, or formal
+recurrence for an independent authorial edge.
 
 ## Runtime and sources
 

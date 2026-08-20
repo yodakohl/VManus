@@ -72,3 +72,13 @@ are permitted.
 GDT390 can establish only Q20 inter-record-pointer geometry and capacity. It
 cannot establish a parent, reference, continuation meaning, heading, recipe,
 syntax, POS, word, language, plaintext, or translation.
+
+## Executed outcome
+
+The frozen census was completed without modifying the design. All 13 pages and
+170 record regions were reviewed. Every page received
+`NO_INTER_RECORD_POINTER`: marginal star-like record markers are visible, but
+no arrow, line, bracket, tail, path, or other authorial device connects one
+record/marker to another. No ambiguous candidate required endpoint
+localization. The eligible edge count is zero on zero folios, so the 50-edge /
+five-folio capacity gate fails and formal scoring remains prohibited.

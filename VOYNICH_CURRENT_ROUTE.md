@@ -281,8 +281,8 @@ supply two singular inscription endpoints. Capacity is zero eligible edges;
 the parent-link/connector route is closed. Do not substitute proximity, radial
 order, OPEN/BODY, or cross-page similarity for genuinely new relation evidence.
 
-GDT390 freezes the remaining Q20 census: 170 records/13 pages/eight non-f84
-folios will be reviewed for visible record pointers; formal scoring stays locked.
+GDT390 completes the remaining Q20 census: 170 records/13 pages/eight folios,
+zero pointer candidates/edges. The external-parent route is exhausted and formal scoring stays locked.
 
 ## Primary routing references
 
