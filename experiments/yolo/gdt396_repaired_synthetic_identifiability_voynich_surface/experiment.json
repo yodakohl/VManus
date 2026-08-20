@@ -101,6 +101,17 @@
       "role": "blind qualification claims frozen before oracle scoring",
       "sha256": "4a9fa6b1bc3df08edaf1fb5c03f91419bbbba20e06391a33827a7ad7ca4b6e6f"
     },
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/QUALIFICATION_EXECUTION_CORRECTION.md","role":"post-oracle qualifier eligibility correction disclosure","sha256":"2060e6549d65042237ef517ef5ce4ad0ef38a0bd8fe7ab3c9f40e68f2b0f444f"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/QUALIFICATION_EXECUTION_VALIDATOR_PROVENANCE_CORRECTION.md","role":"append-only validator provenance successor disclosure","sha256":"7a6c8dac332ea63905a45a45d1ee7fb7e545ad3f19c2d461d8eb08e4535a8ada"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/src/qualify_decoders_v2.py","role":"narrow corrected qualification aggregator","sha256":"53bd2da6c92330e8e2269827356b2ed0f90525e19207b55888f650d4ed1afa34"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/src/freeze_qualification_execution_correction.py","role":"qualification execution correction freezer","sha256":"f3e95eedb79ef803c18692727070194fcb9f851132e48d7ae118d894c9cdb400"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/src/validate_qualification_execution_correction.py","role":"qualification execution correction validator V1","sha256":"7994131a94394cf016fde86bbfdc8d287d2adebef55e59930dc051e3647e83eb"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/src/freeze_qualification_execution_correction_v2.py","role":"validator provenance successor freezer","sha256":"30db6c8cd3ed7766e91cbf29baab1ba7d6b36de058e9103230fcd88d5184f94c"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/src/validate_qualification_execution_correction_v2.py","role":"validator provenance successor validator","sha256":"bf2d74fb10b9a6097aafe859bc21ea14f757b8a64101e46f0e6faa73c64cfada"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/artifacts/gdt396_qualification_execution_correction_freeze.json","role":"post-oracle qualifier correction freeze V1","sha256":"05306cf85b59709f48460f023bdc6a978ed363953f5aab90963f559f80895866"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/artifacts/gdt396_qualification_execution_correction_validation.json","role":"post-oracle qualifier correction validation V1","sha256":"a7e0b7f74e6ba0d2e705969a3995f64821096fe4db0ef4a71b9788ca1553b4fd"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/artifacts/gdt396_qualification_execution_correction_freeze_v2.json","role":"validator provenance successor freeze","sha256":"234334adff7e49c56469c37d23c7e32b8e33b78643912ad6f58c87fbcba836fb"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/artifacts/gdt396_qualification_execution_correction_validation_v2.json","role":"validator provenance successor validation","sha256":"e486e2b5a48f9e1757e53f99042036237449d93d36a5d933c6e270a16307f99b"},
     {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/CLAIM_INTERFACE.md","role":"claim interface","sha256":"a37213e12142c9596ab1f0e72315f4458f18d1097b2613fecf4109c7dd70b8a9"},
     {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/CLAIM_RETENTION_PLAN.md","role":"claim retention plan","sha256":"9f93cc0bd3676478b9972720f1f0002606b3279757ca8377829fe70d55d92780"},
     {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/DECODER_EXECUTION_SPEC.md","role":"decoder execution specification","sha256":"9d7a48d79cc6b3c0ba6ce17b65b9bec4835435879f2512a89a8f01ddcf3aa6d9"},
@@ -159,11 +170,11 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "repaired_synthetic_identifiability_voynich_surface",
-  "status": "QUALIFICATION_CLAIMS_FROZEN_BEFORE_ORACLE_SCORING",
+  "status": "QUALIFICATION_POST_ORACLE_EXECUTION_CORRECTION_VALIDATED",
   "title": "Repaired synthetic identifiability benchmark with Voynich-constrained surface channel",
   "updated": "2026-08-20",
   "validation": {
-    "artifact": "experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/artifacts/gdt396_decoder_panel_validation.json",
+    "artifact": "experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/artifacts/gdt396_qualification_execution_correction_validation_v2.json",
     "status": "PASS"
   }
 }
