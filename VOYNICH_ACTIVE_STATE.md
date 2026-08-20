@@ -10212,17 +10212,19 @@ rows are acquisition seeds, not a test panel. No object meaning, label gloss,
 parent/reference relation, word, role, syntax, POS, language, plaintext,
 translation, or new f84 access follows.
 
-GDT392 now freezes the still-unexecuted GDT388 B04 special-circle
-start/direction census before focused array review. The complete pre-existing
-text-blind frame contains 504 slots in 45 arrays on 23 pages/seven physical
-folios, mapped to 14 allow-listed official canvases. A decorated sector,
-clock-face description, conventional clockwise order, radial adjacency, spoke,
-or centre is explicitly insufficient: an eligible array needs an author-visible
-start, an independently visible direction, and separately owned exact label
-slots. Formal identities and scoring remain sealed pending direct review;
-validation passes 23/23. This is acquisition only and licenses no reading
-order, number, direction name, role, meaning, language, plaintext, translation,
-or f84 access.
+GDT392 completes the GDT388 B04 special-circle start/direction census. All 504
+slots in 45 arrays on 23 pages/seven physical folios were reviewed through 14
+allow-listed official canvases. Six arrays on f67/f69 retain a plausible
+author-visible start-only boundary (decorated square/wedge, dotted radial
+boundary/tail, or double-ray/wide-gap break), but zero arrays contain an
+independent visible direction marker. Clockwise wording belongs to the human
+catalogue/transcription convention and cannot choose between cyclic
+orientations. Capacity is zero eligible arrays/directed edges/folios versus the
+50-edge/five-folio gate; formal identity and scoring remained closed.
+Validation passes 39/39 and explicitly does not reproduce the single-AI visual
+judgments. This closes B04 on current evidence and licenses no reading order,
+number, direction name, role, meaning, language, plaintext, translation, or
+new f84 access.
 
 ## Runtime and sources
 

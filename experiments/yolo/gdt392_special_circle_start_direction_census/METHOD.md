@@ -43,3 +43,12 @@ that the diagrams lack meaning or order.
 The claim ceiling is complete text-blind special-circle start/direction
 acquisition only. GDT392 cannot establish a direction name, number, reading
 order, role, POS, meaning, language, plaintext, translation, or f84 result.
+
+## Executed outcome
+
+All 45 arrays were reviewed. Six retain an author-visible start-only marker or
+boundary: f67r1 D1; f67r2 M1, M2, and M3; f67v1 X1; and f69r E1. None has an
+independent arrowhead or other visible direction. The remaining 39 arrays have
+neither a singular start nor a direction marker. Therefore zero arrays license
+an ordered relation, all capacity gates fail, and formal scoring remains
+closed.

@@ -7,7 +7,7 @@ The authoritative scientific status remains
 ## Inventory
 
 - Experiments indexed: **391**
-- Experiment-associated tracked files: **5,364** (623.6 MiB)
+- Experiment-associated tracked files: **5,371** (623.6 MiB)
 - Structured GDT337+ experiments: **56**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
@@ -20,7 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT392 | GDT392_special_circle_start_direction_census_freeze | `FROZEN_BEFORE_FOCUSED_ARRAY_REVIEW` | [report](../experiments/yolo/gdt392_special_circle_start_direction_census/METHOD.md) | 13 | 45.2 KiB | 3 | STRUCTURED_YOLO |
+| GDT392 | GDT392_special_circle_start_direction_census | `COMPLETE_CENSUS_ZERO_ELIGIBLE_START_DIRECTION_ARRAYS` | [report](../experiments/yolo/gdt392_special_circle_start_direction_census/REPORT.md) | 20 | 102.8 KiB | 3 | STRUCTURED_YOLO |
 | GDT391 | GDT391_local_object_relation_normalization | `NORMALIZATION_SUCCEEDS_BUT_MATCHED_RELATION_CAPACITY_FAILS` | [report](../experiments/yolo/gdt391_local_object_relation_normalization/REPORT.md) | 22 | 226.6 KiB | 4 | STRUCTURED_YOLO |
 | GDT390 | GDT390_q20_inter_record_pointer_census | `COMPLETE_Q20_CENSUS_ZERO_INTER_RECORD_POINTERS` | [report](../experiments/yolo/gdt390_q20_inter_record_pointer_census/REPORT.md) | 25 | 134.8 KiB | 2 | STRUCTURED_YOLO |
 | GDT389 | GDT389_connector_edge_census | `COMPLETE_CENSUS_ZERO_ELIGIBLE_DIRECTED_EDGES` | [report](../experiments/yolo/gdt389_connector_edge_census/REPORT.md) | 24 | 142.1 KiB | 1 | STRUCTURED_YOLO |

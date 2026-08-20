@@ -1,8 +1,9 @@
 # GDT392 — special circle start direction census
 
-Status: `FROZEN_BEFORE_FOCUSED_ARRAY_REVIEW`
+Status: `COMPLETE_CENSUS_ZERO_ELIGIBLE_START_DIRECTION_ARRAYS`
 
-The complete 45-array/504-slot frame is frozen before focused review. Formal
-identities and scoring remain sealed.
+The complete 45-array/504-slot frame has been reviewed. Six arrays retain a
+visible start-only boundary, but none has an independent visible direction.
+Formal identities and scoring remained sealed.
 
-See `METHOD.md`, `experiment.json`, and the freeze artifacts.
+See `METHOD.md`, `REPORT.md`, and `experiment.json`.

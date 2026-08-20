@@ -281,8 +281,8 @@ supply two singular inscription endpoints. Capacity is zero eligible edges;
 the parent-link/connector route is closed. Do not substitute proximity, radial
 order, OPEN/BODY, or cross-page similarity for genuinely new relation evidence.
 
-GDT391 leaves four matched local relations. GDT392 freezes all 45 special-circle
-arrays for the final authorial start/direction census; formal scoring stays locked.
+GDT391 leaves four matched local relations. GDT392 finds six start-only circle
+markers but zero directions/eligible edges; all current grounding scores stay locked.
 
 ## Primary routing references
 

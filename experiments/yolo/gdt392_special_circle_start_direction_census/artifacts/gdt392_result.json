@@ -1,0 +1,74 @@
+{
+  "access": {
+    "arrays_reviewed": 45,
+    "automated_image_classification_calls": 0,
+    "clip_embedding_caption_calls": 0,
+    "content_hash": "0d8ff695e23a8c1fdacc23060c3e1813c42c1de6aae121d76b55fa72288c7b0f",
+    "direct_visual_reviewer_count": 1,
+    "direct_visual_reviewer_type": "AI_DIRECT_VISUAL_EXPLORATORY_NOT_HUMAN_OR_CONFIRMATORY",
+    "f84_image_transcription_source_group_formal_identity_prediction_or_score_access": false,
+    "ocr_calls": 0,
+    "official_yale_canvases_reviewed": 14,
+    "pages_reviewed": 23,
+    "prior_page_exposure_disclosed": true,
+    "schema": "GDT392_ACCESS_V1",
+    "slots_covered": 504,
+    "voynich_surface_or_formal_rows_read": 0
+  },
+  "capacity": {
+    "all_gates_pass": false,
+    "formal_scoring_authorized": false,
+    "minimum_directed_edges": 50,
+    "minimum_physical_folios": 5
+  },
+  "claim_ceiling": "TEXT_BLIND_SPECIAL_CIRCLE_START_DIRECTION_CENSUS_AND_CAPACITY_ONLY",
+  "content_hash": "04f801ca567e9814fc853917bcc9d2f7ab46407b8dc827c621139779130666e8",
+  "counts": {
+    "arrays": 45,
+    "direction_markers": 0,
+    "eligible_arrays": 0,
+    "eligible_directed_edges": 0,
+    "eligible_physical_folios": 0,
+    "official_canvases": 14,
+    "pages": 23,
+    "physical_folios": 7,
+    "review_states": {
+      "DISTINCT_START_MARKER_NO_DIRECTION": 6,
+      "NO_AUTHORIAL_START_OR_DIRECTION": 39
+    },
+    "slots": 504,
+    "start_only_candidates": 6,
+    "start_only_folios": 2
+  },
+  "implementation": {
+    "experiments/yolo/gdt392_special_circle_start_direction_census/src/run.py": "42c2307c93dd2f832fc7c26f4ecc6ae5d6b444624cd92ca16237bfef67aebe11"
+  },
+  "inputs": {
+    "experiments/yolo/gdt392_special_circle_start_direction_census/artifacts/gdt392_array_frame.tsv": "2eeed2a6b05479e1243a0b7610440d07c26152f307d3fa773bdd584e6a008b6a",
+    "experiments/yolo/gdt392_special_circle_start_direction_census/artifacts/gdt392_image_manifest.tsv": "292e70307c1733a5aba025e9520b833904c2cf67ff092e5bbe4c4084ea9fd344",
+    "experiments/yolo/gdt392_special_circle_start_direction_census/artifacts/gdt392_pre_image_freeze.json": "8730d8ab52ea6a52e56368257c46cf73d31cc40ce0e67a96bd38afee1d1454dc",
+    "experiments/yolo/gdt392_special_circle_start_direction_census/artifacts/gdt392_review_image_hashes.tsv": "1b81e694fad9f108c2b0c99a1447363518ba9129ed9b5e23588cd8b8cd88828f"
+  },
+  "interpretation": "The complete special-circle inventory contains several visibly distinguished start boundaries, but no independent author-visible direction. Clockwise catalogue/transcription order cannot convert them into ordered target relations.",
+  "outputs": {
+    "experiments/yolo/gdt392_special_circle_start_direction_census/artifacts/gdt392_access_log.json": "4605928b3ad76ead8a4f745ce098d3a2c6ac6682ae07b8c7d5f22c45f5e50eb6",
+    "experiments/yolo/gdt392_special_circle_start_direction_census/artifacts/gdt392_array_observations.tsv": "546b4ab1664294bce3c278517edced3ff959ebc6b01737d46bbf5c28dc951167",
+    "experiments/yolo/gdt392_special_circle_start_direction_census/artifacts/gdt392_capacity_gates.tsv": "68f30ed368673eedfd2b5c1e08219a647e3a16489434f974887b7541eee0a769",
+    "experiments/yolo/gdt392_special_circle_start_direction_census/artifacts/gdt392_start_only_candidates.tsv": "f640efcb2a7733130e26efa28d0dd239d8948bf4e0fde1fab29f88386fe1ca25"
+  },
+  "review": {
+    "automated_visual_judgments": 0,
+    "complete_frame": true,
+    "provenance": "SINGLE_AI_DIRECT_VISUAL_EXPLORATORY_WITH_PRIOR_PAGE_EXPOSURE"
+  },
+  "schema": "GDT392_RESULT_V1",
+  "start_only_array_ids": [
+    "SCARR001|f67r1|D1",
+    "SCARR002|f67r2|M1",
+    "SCARR003|f67r2|M2",
+    "SCARR004|f67r2|M3",
+    "SCARR007|f67v1|X1",
+    "SCARR013|f69r|E1"
+  ],
+  "status": "COMPLETE_CENSUS_ZERO_ELIGIBLE_START_DIRECTION_ARRAYS"
+}
