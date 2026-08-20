@@ -1,0 +1,92 @@
+{
+  "checks": [
+    {
+      "detail": [
+        "f101v",
+        "f116v",
+        "f11v",
+        "f17r",
+        "f2r",
+        "f41v",
+        "f49v",
+        "f66r",
+        "f68v1",
+        "f68v3",
+        "f70r2",
+        "f86v4"
+      ],
+      "name": "exact_residual_page_set",
+      "pass": true
+    },
+    {
+      "detail": 12,
+      "name": "unique_pages",
+      "pass": true
+    },
+    {
+      "detail": 12,
+      "name": "positive_role_capacity",
+      "pass": true
+    },
+    {
+      "detail": [
+        "f101v",
+        "f116v",
+        "f11v",
+        "f17r",
+        "f2r",
+        "f41v",
+        "f49v",
+        "f66r",
+        "f68v1",
+        "f68v3",
+        "f70r2",
+        "f86v4"
+      ],
+      "name": "no_f84",
+      "pass": true
+    },
+    {
+      "detail": 12,
+      "name": "formal_access_locked",
+      "pass": true
+    },
+    {
+      "detail": "92e01e9488320da394bb5fab053cec01987ceb5d4cbdc2f3e2769146adb0c074",
+      "name": "freeze_frame_hash",
+      "pass": true
+    },
+    {
+      "detail": [
+        12,
+        12
+      ],
+      "name": "freeze_counts",
+      "pass": true
+    },
+    {
+      "detail": "RAW_PAGE_PREFIX_REJECTED_BEFORE_ROW_PARSE",
+      "name": "raw_selector_guard",
+      "pass": true
+    },
+    {
+      "detail": false,
+      "name": "no_pre_freeze_image",
+      "pass": true
+    },
+    {
+      "detail": false,
+      "name": "formal_payload_closed",
+      "pass": true
+    },
+    {
+      "detail": "Before this freeze, an ad hoc capacity command split two forbidden page-description metadata rows before output filtering; neither row was displayed, selected, retained, scored, or used to define this frame. The authoritative freeze loader rejects the raw page selector before parsing the row.",
+      "name": "prior_metadata_parse_disclosed",
+      "pass": true
+    }
+  ],
+  "checks_passed": 11,
+  "checks_total": 11,
+  "experiment_id": "GDT393",
+  "status": "PASS"
+}
