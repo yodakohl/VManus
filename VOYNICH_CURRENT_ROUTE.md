@@ -169,7 +169,13 @@ morpheme, plaintext symbol, or semantic role.
 - GDT394 corrects GDT384/385/387: a deterministic role score supplies no new
   conditional information. It compresses both readable domains, but loses to
   matched one-dimensional source summaries; max-eight p=1 in both. Close this
-  latent-semantic-role architecture and do not create GDT395 from it.
+  latent-semantic-role architecture.
+- User-authorized GDT395 stress-tested identifiability without scoring Voynich.
+  No property clears the 3-decoder/2-Luna gate and 10/17 properties remain
+  interface HOLD, yet D02 recovers lexical identity on 8/9 meaningful worlds
+  and entity/shared-stem partitions on five worlds at 5/5 seeds; all three Luna
+  decoders have zero passes. This is an instrument false negative. Repair the
+  synthetic interface and decoders before any Voynich GDT396.
 - GDT276’s compiler-conditioned character compression is real but not
   architecture-specific under GDT277’s synthetic controls.
 - GDT278–GDT297 show that large compiler-conditioned character gains also occur
@@ -265,23 +271,16 @@ ledger. Use those files for a proposed-route duplicate audit, not on every turn.
 
 ## Next useful route
 
-GDT385 recovered only one of four anonymous CoReMA routes. GDT387 independently
-strengthens that readable instrument (+85.11 exact-governor bits on 26,493
-PCEEC2 edges/69 of 84 files), but only +3.13 bits exceed its conditional-null
-mean and just seven top-1 targets are added. No comparator role transfers.
+Repair GDT395 on untouched generated corpora before any Voynich semantic score:
+add record IDs; typed/ranked relation, reference, scope, and morphology claims;
+and three replication decoders that form recurrent rather than singleton
+clusters. Retain W02/W03, W09/W10, and the semantics-light guard. Require
+positive-control recovery plus adversarial rejection; no GDT396 transfer is
+authorized before that gate passes.
 
-GDT386–388 find zero ordered target edges and freeze acquisition at 50 singular
-directed edges/five folios with exact ownership, grammar independence, held
-folios, and a mobile null.
-
-GDT389 reviewed the exact 61-page/30-folio packet on 50 safe Yale canvases:
-47 pages have no candidate, 14 retain ambiguous drawing connectors, and zero
-supply two singular inscription endpoints. Capacity is zero eligible edges;
-the parent-link/connector route is closed. Do not substitute proximity, radial
-order, OPEN/BODY, or cross-page similarity for genuinely new relation evidence.
-
-GDT390 closes Q20; GDT391 leaves four matched local relations; GDT392 finds six
-start-only markers but zero directions; GDT393 adds zero edges on the 12-page residual frame. All batches are exhausted; scores stay locked pending genuinely new data.
+The prior connector route remains closed: GDT386–393 supply zero score-ready
+ordered edges on current data. Do not substitute proximity, radial order,
+OPEN/BODY, or cross-page similarity for genuinely new relation evidence.
 
 ## Primary routing references
 
@@ -291,6 +290,7 @@ start-only markers but zero directions; GDT393 adds zero edges on the 12-page re
 - `experiments/yolo/gdt387_cross_domain_parent_link_calibration/REPORT.md`
 - `experiments/yolo/gdt388_acquisition_ready_relation_edge_protocol/REPORT.md`
 - `experiments/yolo/gdt389_connector_edge_census/REPORT.md`
+- `experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/GDT395_ADVERSARIAL_SYNTHETIC_IDENTIFIABILITY_REPORT.md`
 - GDT390–392 reports: `experiments/yolo/gdt390_q20_inter_record_pointer_census/REPORT.md`, `experiments/yolo/gdt391_local_object_relation_normalization/REPORT.md`, `experiments/yolo/gdt392_special_circle_start_direction_census/REPORT.md`
 - `GDT330_F84R_METADATA_ACCESS_CORRECTION.md`
 

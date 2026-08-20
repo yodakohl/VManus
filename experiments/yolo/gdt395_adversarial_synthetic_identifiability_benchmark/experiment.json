@@ -5,8 +5,8 @@
   },
   "claim_ceiling": "Synthetic/comparator identifiability calibration only; no synthetic property transfers to Voynich, no Voynich GDT396, and no f84 access.",
   "commands": {
-    "run": "python3 experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/run_blind_decoders_v3.py --mode all",
-    "validate": "python3 experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/validate_blind_claims.py"
+    "run": "python3 experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/run_identifiability_scoring_v5.py",
+    "validate": "python3 experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/validate_identifiability_release.py"
   },
   "created": "2026-08-20",
   "dependencies": [
@@ -38,6 +38,11 @@
       "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/DECODER_PANEL_REVIEW.md",
       "role": "frozen benchmark documentation",
       "sha256": "d1969c010265b38541215c3cbb7f4b4825e07126a69453916ceb291a20951e2c"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/GDT395_ADVERSARIAL_SYNTHETIC_IDENTIFIABILITY_REPORT.md",
+      "role": "final synthetic identifiability benchmark report",
+      "sha256": "60a921e51c9c0a4b59b8e283b7d73d6bb2799ce29c1b161b7de4fd3c5677151c"
     },
     {
       "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/INTERRUPTION_RECOVERY.md",
@@ -173,6 +178,51 @@
       "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_designer_provenance.tsv",
       "role": "frozen panel artifact",
       "sha256": "e82c421bb74538dd720fe6d986c3f85894e208353ba728f3c866ad8657b067a0"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_identifiability_scores_v5/architecture_metrics.tsv",
+      "role": "world-level architecture diagnostic aggregates",
+      "sha256": "f5ff8d52c40bf5cb364f3f993b50bdc808f43aaa032024d2db4569dad76c87be"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_identifiability_scores_v5/method_stress_tests.tsv",
+      "role": "explicit unscored method-stress endpoint table",
+      "sha256": "aecf600b3710b6147852ffd103023ed3fc9cf1f0ff2e6fe4969ffb6970efad48"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_identifiability_scores_v5/pair_panel_metrics.tsv",
+      "role": "record-local adversarial pair HOLD matrix",
+      "sha256": "d3a55d2156ab8aef7397d8a14cdf48f885d0c06f8bdde9db913126ce5e4b290b"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_identifiability_scores_v5/panel_metrics.tsv",
+      "role": "validated held world-seed-representation-decoder property matrix",
+      "sha256": "c19ae28bffeea547ffc59abc5970a246ad24f591e58d256413c23a4c4a404bb7"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_identifiability_scores_v5/property_decisions.tsv",
+      "role": "compact property identifiability decisions",
+      "sha256": "146d0c5f32648d32a3f4248edfaca1b03fb051b457143aeba4e6ceb97032ab78"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_identifiability_scores_v5/summary.json",
+      "role": "compact aggregate score summary and bindings",
+      "sha256": "0a42d0dd1ee65f01a71b74e5f5ea1ab81283811951cadb9a80faea2351ee6d78"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_identifiability_scores_v5/w10_false_discoveries.tsv",
+      "role": "semantics-light W10 false-discovery diagnostics",
+      "sha256": "877616c7d57831ccb2ec9463929fbb4df9d77c7089a5e005542453e88e796355"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_identifiability_scores_v5/world_representation_metrics.tsv",
+      "role": "world-by-representation recovery aggregates",
+      "sha256": "0b8e1c0ddbd62ce619d7bdbb0526c1da6abfcc967ef7ff056e92933a35f2f41f"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_identifiability_validation_v5.json",
+      "role": "independent row-exact final score validation",
+      "sha256": "207047eb934ae12cc0293ed578c7c8d2625f11ee0c7ec5e5b178915f08a6b848"
     },
     {
       "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_interface_freeze.json",
@@ -525,6 +575,11 @@
       "sha256": "cc68516cb7cdd7b296c71b92276bfca2a099f611e9dfe0528f76c7e238bc22ec"
     },
     {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/validate_identifiability_release.py",
+      "role": "idempotent settled-release validator",
+      "sha256": "77761490e810679d2c056b1613392851de84871db0d0c6eaaf277591cbc00756"
+    },
+    {
       "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/validate_identifiability_v2.py",
       "role": "opaque-set corrected independent aggregate validator",
       "sha256": "96d19e176b8864a4a09c19dafb797f1e64427d7081e92a4bc7e4ca7a91904e9e"
@@ -702,11 +757,11 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "adversarial_synthetic_identifiability_benchmark",
-  "status": "POST_ORACLE_CONFORMANCE_CORRECTION_FROZEN_BEFORE_SCORING_V5",
+  "status": "CURRENT_VMANUS_METHOD_FALSE_NEGATIVE_ON_POSITIVE_CONTROLS",
   "title": "Adversarial synthetic writing-system identifiability benchmark",
   "updated": "2026-08-20",
   "validation": {
-    "artifact": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_scorer_validator_conformance_v5_validation.json",
+    "artifact": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_identifiability_validation_v5.json",
     "status": "PASS"
   }
 }
