@@ -7,7 +7,7 @@ import csv
 import sys
 import tempfile
 import unittest
-from contextlib import redirect_stdout
+from contextlib import redirect_stderr, redirect_stdout
 from pathlib import Path
 
 from tools.repository_preflight import (
@@ -15,6 +15,7 @@ from tools.repository_preflight import (
     LOCAL_PATH_PATTERNS,
     check_structured_layout,
 )
+from tools.guarded_tsv_query import query as query_guarded_tsv
 from tools.vmanus_experiment import (
     GuardedTSV,
     SealedDataError,
@@ -73,6 +74,50 @@ class InfrastructureTests(unittest.TestCase):
             source.write_text('page\tpayload\n"f84r"\tSEALED\n', encoding="utf-8")
             with self.assertRaises(SealedDataError):
                 list(GuardedTSV(source, selector_column="page", forbidden_action="error"))
+
+    def test_guarded_query_requires_explicit_allowlist_and_columns(self) -> None:
+        with tempfile.TemporaryDirectory() as raw:
+            source = Path(raw) / "fixture.tsv"
+            source.write_text(
+                "page\tsection\tpayload\n"
+                "f83r\tB\tADMIT\n"
+                "f84r\tB\tSEALED\n"
+                "f85v\tH\tOTHER\n",
+                encoding="utf-8",
+            )
+            stdout, stderr = io.StringIO(), io.StringIO()
+            with redirect_stdout(stdout), redirect_stderr(stderr):
+                self.assertEqual(
+                    query_guarded_tsv(
+                        path=source,
+                        selector="page",
+                        allowed_values={"f83r", "f84r"},
+                        columns=["page", "section"],
+                    ),
+                    0,
+                )
+            self.assertEqual(stdout.getvalue(), "page\tsection\nf83r\tB\n")
+            self.assertNotIn("SEALED", stdout.getvalue())
+            self.assertIn('"skipped_forbidden": 1', stderr.getvalue())
+
+    def test_guarded_query_rejects_unbounded_or_unknown_projection(self) -> None:
+        with tempfile.TemporaryDirectory() as raw:
+            source = Path(raw) / "fixture.tsv"
+            source.write_text("page\tpayload\nf83r\tADMIT\n", encoding="utf-8")
+            with self.assertRaisesRegex(ValueError, "explicit --allow"):
+                query_guarded_tsv(
+                    path=source,
+                    selector="page",
+                    allowed_values=set(),
+                    columns=["page"],
+                )
+            with self.assertRaisesRegex(ValueError, "missing TSV columns"):
+                query_guarded_tsv(
+                    path=source,
+                    selector="page",
+                    allowed_values={"f83r"},
+                    columns=["unknown"],
+                )
 
     def test_scaffold_manifest_and_scripts(self) -> None:
         module = self.load_module("test_scaffolder", ROOT / "tools/new_yolo_experiment.py")

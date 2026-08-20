@@ -20,6 +20,10 @@ experiment log/README are recovery archives and may contain superseded claims.
   unrelated files; never publish any such material.
 - Prefer cached transcription/features and up to 32 CPU workers; avoid repeated
   OCR/image decoding.
+- Inspect mixed sealed/unsealed TSV sources through `./vmanus-exp query-tsv`
+  with explicit selector allow-values and output columns. Do not parse a full
+  row and filter afterward; the guarded command rejects `f84*` from the raw
+  selector field before materializing the remainder.
 - Keep structural tags distinct from English word translations.
 - Treat ZL3b/IT2a/RF1b as alternate readings of one manuscript.
 - After every material pass, failure, correction, or provisional lead, add one

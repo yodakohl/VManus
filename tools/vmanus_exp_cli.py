@@ -13,6 +13,7 @@ if str(REPOSITORY_ROOT) not in sys.path:
     sys.path.insert(0, str(REPOSITORY_ROOT))
 
 from tools.repository_preflight import run as preflight
+from tools.guarded_tsv_query import query as query_guarded_tsv, resolve_repo_file
 from tools.vmanus_experiment import ROOT, load_manifest, verify_manifest_bindings
 
 
@@ -54,6 +55,17 @@ def main() -> int:
     publish = subparsers.add_parser("publish", help="preflight an exact staged tree; does not push")
     publish.add_argument("experiment", nargs="?")
 
+    query_tsv = subparsers.add_parser(
+        "query-tsv",
+        help="inspect explicit rows/columns through the sealed-data TSV guard",
+    )
+    query_tsv.add_argument("path")
+    query_tsv.add_argument("--selector", required=True)
+    query_tsv.add_argument("--allow", action="append", required=True)
+    query_tsv.add_argument("--columns", required=True)
+    query_tsv.add_argument("--forbid-prefix", action="append")
+    query_tsv.add_argument("--count-only", action="store_true")
+
     args = parser.parse_args()
     if args.command == "new":
         command = [sys.executable, "tools/new_yolo_experiment.py", args.slug]
@@ -62,6 +74,20 @@ def main() -> int:
         if args.dry_run:
             command.append("--dry-run")
         return subprocess.run(command, cwd=ROOT).returncode
+    if args.command == "query-tsv":
+        try:
+            columns = [column.strip() for column in args.columns.split(",") if column.strip()]
+            forbidden = tuple(args.forbid_prefix or ["f84"])
+            return query_guarded_tsv(
+                path=resolve_repo_file(args.path),
+                selector=args.selector,
+                allowed_values=set(args.allow),
+                columns=columns,
+                forbidden_prefixes=forbidden,
+                count_only=args.count_only,
+            )
+        except ValueError as exc:
+            parser.error(str(exc))
     if args.command in {"run", "validate"}:
         return run_manifest_command(resolve_experiment(args.experiment), args.command)
     if args.command == "manifest":
