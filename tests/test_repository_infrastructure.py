@@ -21,6 +21,7 @@ from tools.relation_edge_intake import (
     NULL_COLUMNS,
     validate_relation_edge_packet,
 )
+from tools.route_duplicate_query import query_routes
 from tools.vmanus_experiment import (
     GuardedTSV,
     SealedDataError,
@@ -217,6 +218,31 @@ class InfrastructureTests(unittest.TestCase):
             )
             with self.assertRaises(SealedDataError):
                 validate_relation_edge_packet(packet)
+
+    def test_route_duplicate_query_ranks_closed_family(self) -> None:
+        with tempfile.TemporaryDirectory() as raw:
+            directory = Path(raw)
+            closed = directory / "closed.tsv"
+            index = directory / "index.tsv"
+            closed.write_text(
+                "family\tstatus\twhat_the_archive_establishes\treopen_only_if\tarchive_pointer\n"
+                "CONNECTOR_RELATION\tCLOSED\tvisible connector parent edges have zero capacity\tnew directed endpoint\treport.md\n"
+                "CALENDAR\tCLOSED\tmonth and number routes fail\tnew arithmetic equality\tcalendar.md\n",
+                encoding="utf-8",
+            )
+            index.write_text(
+                "experiment_id\tlatest_date\texperiment_name\tstatus\tprimary_report\tprimary_report_exists\tlayout\tfile_count\ttotal_bytes\tledger_entries\tmanifest\tquestion\tclaim_ceiling\tdependencies\tmethods\treports\trunners\tvalidators\tartifacts\n"
+                "GDT001\t2026-01-01\tmonth_probe\tFAIL\tgdt001.md\ttrue\tLEGACY\t1\t1\t1\t\tDoes a month mapping work?\tNone\t\t\t\t\t\t\n",
+                encoding="utf-8",
+            )
+            result = query_routes(
+                "authorial connector relation edge",
+                closed_path=closed,
+                index_path=index,
+                limit=2,
+            )
+            self.assertEqual(result[0]["identifier"], "CONNECTOR_RELATION")
+            self.assertEqual(result[0]["kind"], "CLOSED_ROUTE")
 
     def test_scaffold_manifest_and_scripts(self) -> None:
         module = self.load_module("test_scaffolder", ROOT / "tools/new_yolo_experiment.py")

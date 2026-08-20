@@ -35,6 +35,9 @@ experiment log/README are recovery archives and may contain superseded claims.
   grow the archived prose logs.
 - Do not rerun a failed route unless there is new data or a genuinely different
   predeclared falsifier.
+- Before proposing a new route, use `./vmanus-exp route-check QUERY` as a fast
+  duplicate screen, then inspect only the returned primary reports and closed
+  family rows. Its lexical ranking is navigation help, not a scientific gate.
 - Keep GDT001--GDT336 byte-frozen in the legacy repository-root layout. Starting
   with GDT337, create every new experiment under
   `experiments/yolo/gdtNNN_short_slug/` using `tools/new_yolo_experiment.py`;

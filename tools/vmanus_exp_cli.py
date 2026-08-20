@@ -15,6 +15,7 @@ if str(REPOSITORY_ROOT) not in sys.path:
 from tools.repository_preflight import run as preflight
 from tools.guarded_tsv_query import query as query_guarded_tsv, resolve_repo_file
 from tools.relation_edge_intake import render_report, validate_relation_edge_packet
+from tools.route_duplicate_query import query_routes, render_tsv as render_route_tsv
 from tools.vmanus_experiment import ROOT, load_manifest, verify_manifest_bindings
 
 
@@ -74,6 +75,13 @@ def main() -> int:
     edge_intake.add_argument("packet")
     edge_intake.add_argument("--null-candidates")
 
+    route_check = subparsers.add_parser(
+        "route-check",
+        help="rank likely closed-route and prior-experiment duplicates",
+    )
+    route_check.add_argument("query", nargs="+")
+    route_check.add_argument("--limit", type=int, default=10)
+
     args = parser.parse_args()
     if args.command == "new":
         command = [sys.executable, "tools/new_yolo_experiment.py", args.slug]
@@ -106,6 +114,12 @@ def main() -> int:
             sys.stdout.write(render_report(report))
             return 1 if report["status"] == "INVALID_PACKET" else 0
         except (ValueError, RuntimeError) as exc:
+            parser.error(str(exc))
+    if args.command == "route-check":
+        try:
+            sys.stdout.write(render_route_tsv(query_routes(" ".join(args.query), limit=args.limit)))
+            return 0
+        except ValueError as exc:
             parser.error(str(exc))
     if args.command in {"run", "validate"}:
         return run_manifest_command(resolve_experiment(args.experiment), args.command)
