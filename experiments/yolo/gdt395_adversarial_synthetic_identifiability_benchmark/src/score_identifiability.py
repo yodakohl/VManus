@@ -22,6 +22,8 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[4]
+EXP = ROOT / "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark"
+CORPUS_ROOT = EXP / ".work/corpora"
 
 WORLDS = tuple(f"W{i:02d}" for i in range(1, 11))
 HELD_SEEDS = tuple(range(15, 20))
@@ -237,7 +239,7 @@ def validate_implementation_map(freeze: dict) -> dict[str, str]:
 
 
 def validate_blind_gate(freeze_path: Path, validation_path: Path,
-                        role_paths: dict[str, list[Path]]) -> tuple[dict[str, str], dict[str, str]]:
+                        role_paths: dict[str, list[Path]]) -> tuple[dict[str, str], dict[str, str], dict]:
     freeze = load_json(freeze_path)
     validation = load_json(validation_path)
     if freeze.get("schema") != FREEZE_SCHEMA or validation.get("schema") != VALIDATION_SCHEMA:
@@ -267,7 +269,44 @@ def validate_blind_gate(freeze_path: Path, validation_path: Path,
     hashes = {"claims_freeze": freeze_digest,
               "claims_validation": sha256_file(validation_path)}
     hashes.update(exact_role_bindings(freeze, role_paths))
-    return hashes, validate_implementation_map(freeze)
+    return hashes, validate_implementation_map(freeze), freeze
+
+
+def validate_oracle_manifest(freeze: dict, manifest_path: Path,
+                             oracle_paths: list[Path]) -> dict[Path, str]:
+    implementation = freeze.get("bindings", {}).get("implementation", {}).get("hashes", {})
+    manifest_rel = "artifacts/gdt395_corpus_manifest.tsv"
+    if not isinstance(implementation, dict) or implementation.get(manifest_rel) != sha256_file(manifest_path):
+        raise Refusal("corpus manifest is not implementation-bound by the claims freeze")
+    handle, reader = open_tsv(manifest_path)
+    try:
+        require_header(reader, (
+            "world_id", "corpus_seed", "events", "record_rewriter",
+            "observation_relpath", "observation_sha256", "oracle_relpath",
+            "oracle_sha256",
+        ), manifest_path)
+        expected: dict[Path, str] = {}
+        for row in reader:
+            world = clean(row["world_id"])
+            seed = safe_int(row["corpus_seed"], "manifest corpus_seed")
+            if world not in WORLDS or seed not in range(20):
+                raise Refusal("corpus manifest has an out-of-panel identity")
+            if seed not in HELD_SEEDS:
+                continue
+            rel = Path(clean(row["oracle_relpath"]))
+            canonical = Path("sealed") / world / f"seed_{seed:02d}_oracle.tsv.gz"
+            digest = clean(row["oracle_sha256"])
+            if rel != canonical or rel.is_absolute() or ".." in rel.parts:
+                raise Refusal("corpus manifest has an unsafe oracle path")
+            if not re.fullmatch(r"[0-9a-f]{64}", digest):
+                raise Refusal("corpus manifest has an invalid oracle SHA-256")
+            expected[(CORPUS_ROOT / rel).resolve()] = digest
+    finally:
+        handle.close()
+    supplied = {path.resolve() for path in oracle_paths}
+    if len(expected) != 50 or supplied != set(expected):
+        raise Refusal("oracle inputs do not exactly equal the 50 frozen held corpora")
+    return expected
 
 
 def clean(value: object) -> str:
@@ -534,13 +573,17 @@ def validate_claim_dimensions(db: sqlite3.Connection, world_claims: list[dict[st
     return decoders
 
 
-def ingest_oracle(db: sqlite3.Connection, paths: list[Path]) -> dict[str, str]:
+def ingest_oracle(db: sqlite3.Connection, paths: list[Path],
+                  expected_hashes: dict[Path, str]) -> dict[str, str]:
     placeholders = ",".join("?" for _ in range(len(ORACLE_FIELDS) + 1))
     sql = f"INSERT INTO oracle({quoted(ORACLE_FIELDS)},oracle_order) VALUES ({placeholders})"
     hashes: dict[str, str] = {}
     order_by_corpus: Counter[tuple[str, int]] = Counter()
     for path_index, path in enumerate(paths):
-        hashes[f"sealed_oracle_{path_index:03d}:{portable_path(path)}"] = sha256_file(path)
+        digest = sha256_file(path)
+        if digest != expected_hashes[path.resolve()]:
+            raise Refusal("sealed oracle SHA-256 differs from the frozen corpus manifest")
+        hashes[f"sealed_oracle_{path_index:03d}:{portable_path(path)}"] = digest
         handle, reader = open_tsv(path)
         try:
             require_header(reader, ORACLE_FIELDS, path)
@@ -1090,6 +1133,7 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--claims-freeze", type=Path, required=True)
     parser.add_argument("--claims-validation", type=Path, required=True)
+    parser.add_argument("--corpus-manifest", type=Path, required=True)
     parser.add_argument("--claims-tsv", type=Path, action="append", required=True)
     parser.add_argument("--pair-claims-tsv", type=Path, action="append", required=True)
     parser.add_argument("--world-claim-json", type=Path, action="append", required=True)
@@ -1105,8 +1149,10 @@ def main(argv: list[str] | None = None) -> int:
         "pair_event_claims": args.pair_claims_tsv,
         "world_claims": args.world_claim_json,
     }
-    input_hashes, model_tiers = validate_blind_gate(
+    input_hashes, model_tiers, freeze = validate_blind_gate(
         args.claims_freeze, args.claims_validation, role_paths)
+    expected_oracles = validate_oracle_manifest(freeze, args.corpus_manifest, args.oracle_tsv)
+    input_hashes["corpus_manifest"] = sha256_file(args.corpus_manifest)
     args.output_dir.mkdir(parents=True, exist_ok=True)
     with tempfile.TemporaryDirectory(prefix="gdt395_score_") as temp_dir:
         db = create_database(str(Path(temp_dir) / "score.sqlite3"))
@@ -1117,7 +1163,7 @@ def main(argv: list[str] | None = None) -> int:
             decoders = validate_claim_dimensions(db, world_claims, model_tiers)
             validate_preoracle_claims(db, decoders)
             # This is the first access to any sealed-oracle path.
-            oracle_hashes = ingest_oracle(db, args.oracle_tsv)
+            oracle_hashes = ingest_oracle(db, args.oracle_tsv, expected_oracles)
             input_hashes.update(oracle_hashes)
             validate_oracle_joins(db, decoders)
             panel: list[dict[str, object]] = []

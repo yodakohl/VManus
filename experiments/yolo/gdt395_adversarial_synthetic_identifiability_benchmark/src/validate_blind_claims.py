@@ -47,6 +47,8 @@ REQUIRED_IMPLEMENTATION = {
     "artifacts/gdt395_runner_cache_equivalence_validation.json",
     "SCORING_DESIGN.md",
     "SCORING_REVIEW.md",
+    "VALIDATION_DESIGN.md",
+    "VALIDATION_REVIEW.md",
     "artifacts/gdt395_corpus_manifest.tsv",
     "artifacts/gdt395_pair_blind_manifest.tsv",
     "src/decoder_api.py",
@@ -56,6 +58,7 @@ REQUIRED_IMPLEMENTATION = {
     "src/freeze_blind_claims.py",
     "src/score_identifiability.py",
     "src/validate_blind_claims.py",
+    "src/validate_identifiability.py",
 }
 
 

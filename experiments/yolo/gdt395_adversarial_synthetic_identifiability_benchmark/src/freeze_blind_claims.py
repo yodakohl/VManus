@@ -70,9 +70,12 @@ def main() -> None:
         "artifacts/gdt395_runner_cache_equivalence_validation.json",
         "SCORING_DESIGN.md",
         "SCORING_REVIEW.md",
+        "VALIDATION_DESIGN.md",
+        "VALIDATION_REVIEW.md",
         "src/freeze_blind_claims.py",
         "src/score_identifiability.py",
         "src/validate_blind_claims.py",
+        "src/validate_identifiability.py",
     ):
         implementation[rel] = sha(EXP / rel)
     decoder_freeze = json.loads(DECODER_FREEZE.read_text())

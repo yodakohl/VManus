@@ -48,6 +48,13 @@ must equal the bound paths for that role exactly; a file bound under one role
 cannot satisfy another, and any path occurring in two roles is rejected. The
 scorer verifies these bytes before it opens or hashes any oracle path.
 
+The scorer also requires the claims-freeze-bound public
+`gdt395_corpus_manifest.tsv`. Before opening any sealed row, it selects the
+exact 50 W01--W10/seed15--19 oracle entries and requires the supplied oracle
+paths to equal that set. Each sealed file is hashed and must match its frozen
+manifest SHA-256 before it is parsed. Training-seed oracle files are not
+opened.
+
 ## Accepted claim shapes
 
 Authentic and pair event claims are exact `decoder_api.CLAIM_FIELDS` TSVs. The

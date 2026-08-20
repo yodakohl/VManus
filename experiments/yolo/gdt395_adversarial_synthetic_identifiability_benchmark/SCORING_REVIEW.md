@@ -420,3 +420,42 @@ component-specific fossil/productive history, and actual lexical meaning until
 the specific schema gaps above are corrected before outcome access. No GDT395
 result, including a GO endpoint, can assign a meaning, ancestry narrative, or
 synthetic ontology to Voynich material.
+
+## Final static oracle-manifest-binding audit (2026-08-20)
+
+**Verdict: GO for the frozen scorer as narrowly implemented.** This was a
+static, pre-oracle audit only: no corpus, claim rows, oracle rows, generator,
+decoder output, Voynich/f84 material, or scorer import/execution was used.
+
+The audited control flow validates the frozen claims before resolving any
+oracle path. The supplied corpus manifest must hash to the manifest digest
+bound into that claims freeze. Oracle selection is then restricted to exactly
+the 50 unique canonical held paths
+`sealed/W01..W10/seed_15..19_oracle.tsv.gz`; training seeds cannot enter the
+selected set. Every selected oracle file must also match its manifest-bound
+content hash before TSV parsing. Absolute paths, traversal, noncanonical
+oracle names, duplicates, omissions, and additions are refusal conditions.
+Published path labels and refusal messages are limited to repository-relative
+portable paths or basenames.
+
+Only the seven narrowly defined anonymous partitions remain scoreable:
+anonymous lexical identity, semantic-entity identity, shared historical-stem
+identity, function class, entity reuse, register realization, and semantic-
+category partition. Entity-reuse scoring excludes singleton entities rather
+than treating them as absent reuse. All unsupported properties and all pair
+endpoints are hard-HOLD; an empty or universal `PAIR_ALLOWED` set cannot enable
+them. Decisions are exploratory only, confirmation is disabled, and no
+aggregation path can promote a hard-HOLD endpoint. Outputs are aggregate-only
+and exclude event rows, oracle labels or values, visible strings, joined
+records, and local absolute paths.
+
+Where the earlier interface-only disposition in this review is broader, the
+hard-HOLD behavior in the audited design and scorer governs the executable
+analysis.
+
+Audited byte identities:
+
+- `SCORING_DESIGN.md` — SHA-256
+  `baa11d53c2a460614fa5ee665e4ef2f0ee34d44211f5684d5d23aa8b740c9e16`
+- `src/score_identifiability.py` — SHA-256
+  `281c8161345f4cc45f5926d06e95cd342d2df7d34c6113b62235bacf4c4df48b`
