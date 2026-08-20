@@ -10229,6 +10229,19 @@ opened, and all counts/decisions remain unchanged (`PASS 44/44`). This closes
 B04 on current evidence and licenses no reading order, number, direction name,
 role, meaning, language, plaintext, translation, or new f84 access.
 
+GDT393 completes the residual page-role connector census outside GDT389. The
+pre-image frame retained twelve pages on eleven physical folios after excluding
+the exhausted Rosettes route. Direct review through eleven official canvases
+found eight pages with no connector candidate and four cosmological panels with
+ambiguous radial/path-like geometry, but zero oriented pairs of singular exact
+inscription endpoints. Capacity remains zero edges/folios against the inherited
+50-edge/five-folio/mobile-null gate, so no formal join or score ran. Validation
+passes 35/35. The visual review is provenance-qualified: a post-freeze filename
+search printed safe-page transcription candidates before image judgment, while
+an earlier ad hoc capacity command parsed but did not display or use two
+forbidden page-description metadata rows. No forbidden image or formal payload
+was opened. The residual connector route is closed pending genuinely new data.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU

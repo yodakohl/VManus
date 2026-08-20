@@ -5,8 +5,8 @@
   },
   "claim_ceiling": "Complete geometry-only capacity census of the previously unreviewed f84-free page-role remainder; no parent, reference, operator, syntax, POS, meaning, language, plaintext, or translation.",
   "commands": {
-    "run": "python3 experiments/yolo/gdt393_remaining_page_connector_census/src/freeze.py",
-    "validate": "python3 experiments/yolo/gdt393_remaining_page_connector_census/src/validate_freeze.py"
+    "run": "python3 experiments/yolo/gdt393_remaining_page_connector_census/src/run.py",
+    "validate": "python3 experiments/yolo/gdt393_remaining_page_connector_census/src/validate.py"
   },
   "created": "2026-08-20",
   "dependencies": [
@@ -41,19 +41,60 @@
       "path": "experiments/yolo/gdt393_remaining_page_connector_census/artifacts/gdt393_pre_image_freeze_validation.json",
       "role": "independent pre-image validation",
       "sha256": "c1555e5abdc8662aca4220fe2bcd3255ea6578ce486d4f85ea83fd39fa7dd62b"
+    },
+    {
+      "path": "experiments/yolo/gdt393_remaining_page_connector_census/artifacts/gdt393_image_manifest.tsv",
+      "role": "official review-canvas bindings and hashes",
+      "sha256": "2a74f48e3f310cde532a3a42430dca4baa13e6032324f748ddc1b0a971b94618"
+    },
+    {
+      "path": "experiments/yolo/gdt393_remaining_page_connector_census/artifacts/gdt393_page_observations.tsv",
+      "role": "complete direct-visual page census",
+      "sha256": "a15e38ac47039aa0456f291cbbdfe453cad23a5f16ea8731893aa356d4684678"
+    },
+    {
+      "path": "experiments/yolo/gdt393_remaining_page_connector_census/artifacts/gdt393_ambiguous_candidates.tsv",
+      "role": "retained ineligible geometry cases",
+      "sha256": "979657db629ff69a3e4d7bc1165a1a5eb8b4843fd43c25991ccb14a6227a2b18"
+    },
+    {
+      "path": "experiments/yolo/gdt393_remaining_page_connector_census/artifacts/gdt393_eligible_edge_packet.tsv",
+      "role": "zero-edge eligibility packet",
+      "sha256": "6b5bf8688c2bb2719442c8412016f950a74f6d909f9a140a46cf59b12d5d9140"
+    },
+    {
+      "path": "experiments/yolo/gdt393_remaining_page_connector_census/artifacts/gdt393_capacity_gates.tsv",
+      "role": "inherited capacity gate outcomes",
+      "sha256": "5085450300bceaf0e48586ca8f04150b1c6751991c73f3bec02967cc49d79cbe"
+    },
+    {
+      "path": "experiments/yolo/gdt393_remaining_page_connector_census/artifacts/gdt393_access_log.json",
+      "role": "review chronology and provenance disclosures",
+      "sha256": "39c4355dfbfaf15f2a077364c9806c18896a20a42c061fb412d64cd8dd238b00"
+    },
+    {
+      "path": "experiments/yolo/gdt393_remaining_page_connector_census/artifacts/gdt393_result.json",
+      "role": "compact scientific result",
+      "sha256": "d3e2e2d368e34fb981cf95ba0e9fffb0753c7093f244b57b52f983f839b3d210"
+    },
+    {
+      "path": "experiments/yolo/gdt393_remaining_page_connector_census/artifacts/gdt393_validation.json",
+      "role": "independent result validation",
+      "sha256": "5b65a4f0cd4067038d0563a640971dacd095a10e0ca495b85419358160bc4e67"
     }
   ],
   "question": "Does the complete residual page-role frame outside GDT389 contain author-visible directed connectors between separately localizable inscriptions?",
   "schema_version": 1,
   "sealed_data": {
+    "f84": "FORBIDDEN",
     "f84r": "FORBIDDEN"
   },
   "slug": "remaining_page_connector_census",
-  "status": "PRE_IMAGE_FRAME_FROZEN",
+  "status": "COMPLETE_RESIDUAL_CENSUS_ZERO_ELIGIBLE_DIRECTED_EDGES",
   "title": "Residual page connector census",
   "updated": "2026-08-20",
   "validation": {
-    "artifact": "experiments/yolo/gdt393_remaining_page_connector_census/artifacts/gdt393_pre_image_freeze_validation.json",
+    "artifact": "experiments/yolo/gdt393_remaining_page_connector_census/artifacts/gdt393_validation.json",
     "status": "PASS"
   }
 }

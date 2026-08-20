@@ -1,0 +1,247 @@
+{
+  "checks": [
+    {
+      "detail": 12,
+      "name": "frame_size",
+      "pass": true
+    },
+    {
+      "detail": [
+        "f101v",
+        "f116v",
+        "f11v",
+        "f17r",
+        "f2r",
+        "f41v",
+        "f49v",
+        "f66r",
+        "f68v1",
+        "f68v3",
+        "f70r2",
+        "f86v4"
+      ],
+      "name": "page_join",
+      "pass": true
+    },
+    {
+      "detail": [
+        "f101",
+        "f11",
+        "f116",
+        "f17",
+        "f2",
+        "f41",
+        "f49",
+        "f66",
+        "f68",
+        "f70",
+        "f86"
+      ],
+      "name": "folio_count",
+      "pass": true
+    },
+    {
+      "detail": [
+        "1006078",
+        "1006097",
+        "1006106",
+        "1006155",
+        "1006171",
+        "1006192",
+        "1006197",
+        "1006199",
+        "1006229",
+        "1006250",
+        "1006277"
+      ],
+      "name": "canvas_count",
+      "pass": true
+    },
+    {
+      "detail": 12,
+      "name": "no_f84_rows",
+      "pass": true
+    },
+    {
+      "detail": {
+        "C": 13,
+        "L": 102,
+        "R": 16
+      },
+      "name": "role_counts",
+      "pass": true
+    },
+    {
+      "detail": {
+        "AMBIGUOUS_CONNECTOR": 4,
+        "NO_CONNECTOR_CANDIDATE": 8
+      },
+      "name": "outcome_counts",
+      "pass": true
+    },
+    {
+      "detail": 4,
+      "name": "candidate_count",
+      "pass": true
+    },
+    {
+      "detail": 0,
+      "name": "zero_edges",
+      "pass": true
+    },
+    {
+      "detail": [
+        {
+          "gate": "SINGULAR_DIRECTED_EDGES",
+          "observed": "0",
+          "pass": "0",
+          "required": "50"
+        },
+        {
+          "gate": "PHYSICAL_FOLIOS",
+          "observed": "0",
+          "pass": "0",
+          "required": "5"
+        },
+        {
+          "gate": "MOBILE_MATCHED_TARGETS",
+          "observed": "0",
+          "pass": "0",
+          "required": "1_PER_EDGE"
+        }
+      ],
+      "name": "capacity_gates",
+      "pass": true
+    },
+    {
+      "detail": 0,
+      "name": "direction_zero",
+      "pass": true
+    },
+    {
+      "detail": 0,
+      "name": "exact_endpoint_pairs_zero",
+      "pass": true
+    },
+    {
+      "detail": 12,
+      "name": "single_ai_provenance",
+      "pass": true
+    },
+    {
+      "detail": "A filename-location search printed already-public candidate transcription rows for several allow-listed pages. This did not change the frozen page universe or outcome rules, but the visual review is provenance-qualified rather than analyst-blind.",
+      "name": "safe_page_exposure_disclosed",
+      "pass": true
+    },
+    {
+      "detail": "Before the freeze, an ad hoc capacity command split two forbidden page-description metadata rows before filtering. Neither row was displayed, selected, retained, scored, or used. The authoritative loader rejects the raw selector before row parsing.",
+      "name": "metadata_parse_disclosed",
+      "pass": true
+    },
+    {
+      "detail": false,
+      "name": "no_f84_image_or_formal",
+      "pass": true
+    },
+    {
+      "detail": 0,
+      "name": "no_formal_score",
+      "pass": true
+    },
+    {
+      "detail": "COMPLETE_RESIDUAL_CENSUS_ZERO_ELIGIBLE_DIRECTED_EDGES",
+      "name": "decision",
+      "pass": true
+    },
+    {
+      "detail": "52530e00a4bc09a92270f82c996c464db48d39328f602d528e8596dffd374c08",
+      "name": "content_hash",
+      "pass": true
+    },
+    {
+      "detail": "39c4355dfbfaf15f2a077364c9806c18896a20a42c061fb412d64cd8dd238b00",
+      "name": "input_hashes:experiments/yolo/gdt393_remaining_page_connector_census/artifacts/gdt393_access_log.json",
+      "pass": true
+    },
+    {
+      "detail": "979657db629ff69a3e4d7bc1165a1a5eb8b4843fd43c25991ccb14a6227a2b18",
+      "name": "input_hashes:experiments/yolo/gdt393_remaining_page_connector_census/artifacts/gdt393_ambiguous_candidates.tsv",
+      "pass": true
+    },
+    {
+      "detail": "5085450300bceaf0e48586ca8f04150b1c6751991c73f3bec02967cc49d79cbe",
+      "name": "input_hashes:experiments/yolo/gdt393_remaining_page_connector_census/artifacts/gdt393_capacity_gates.tsv",
+      "pass": true
+    },
+    {
+      "detail": "6b5bf8688c2bb2719442c8412016f950a74f6d909f9a140a46cf59b12d5d9140",
+      "name": "input_hashes:experiments/yolo/gdt393_remaining_page_connector_census/artifacts/gdt393_eligible_edge_packet.tsv",
+      "pass": true
+    },
+    {
+      "detail": "2a74f48e3f310cde532a3a42430dca4baa13e6032324f748ddc1b0a971b94618",
+      "name": "input_hashes:experiments/yolo/gdt393_remaining_page_connector_census/artifacts/gdt393_image_manifest.tsv",
+      "pass": true
+    },
+    {
+      "detail": "a15e38ac47039aa0456f291cbbdfe453cad23a5f16ea8731893aa356d4684678",
+      "name": "input_hashes:experiments/yolo/gdt393_remaining_page_connector_census/artifacts/gdt393_page_observations.tsv",
+      "pass": true
+    },
+    {
+      "detail": "1b4321d1e2e7c136c75954af5e94cd080d99e87112e4aeeffda9bbec0ff3ba04",
+      "name": "input_hashes:experiments/yolo/gdt393_remaining_page_connector_census/artifacts/gdt393_pre_image_freeze.json",
+      "pass": true
+    },
+    {
+      "detail": "c1555e5abdc8662aca4220fe2bcd3255ea6578ce486d4f85ea83fd39fa7dd62b",
+      "name": "input_hashes:experiments/yolo/gdt393_remaining_page_connector_census/artifacts/gdt393_pre_image_freeze_validation.json",
+      "pass": true
+    },
+    {
+      "detail": "92e01e9488320da394bb5fab053cec01987ceb5d4cbdc2f3e2769146adb0c074",
+      "name": "input_hashes:experiments/yolo/gdt393_remaining_page_connector_census/artifacts/gdt393_residual_page_frame.tsv",
+      "pass": true
+    },
+    {
+      "detail": "1eacb8551bdc1109af651e7713c22f1d58af722ffcc95bfe39b2cea305ce63f4",
+      "name": "document_hashes:experiments/yolo/gdt393_remaining_page_connector_census/METHOD.md",
+      "pass": true
+    },
+    {
+      "detail": "6f5484e4e6e0030510e040efe659f6a8e0bb2d93c8019bec017b8c65b78781a1",
+      "name": "document_hashes:experiments/yolo/gdt393_remaining_page_connector_census/README.md",
+      "pass": true
+    },
+    {
+      "detail": "26c6917e2b1e8d09ab90f865fc8ad317dc56f7ab3112d238bcbb2f452869b46e",
+      "name": "document_hashes:experiments/yolo/gdt393_remaining_page_connector_census/REPORT.md",
+      "pass": true
+    },
+    {
+      "detail": "0ab664df2aee73284df5f1f787899b784fd6676b351a5f7866931fce5672fc50",
+      "name": "implementation_hashes:experiments/yolo/gdt393_remaining_page_connector_census/src/freeze.py",
+      "pass": true
+    },
+    {
+      "detail": "1731c7351e24d3cd15c1557967f8f31da9fad63db5461e84252fb6ae6501f99b",
+      "name": "implementation_hashes:experiments/yolo/gdt393_remaining_page_connector_census/src/run.py",
+      "pass": true
+    },
+    {
+      "detail": "eb406dcb11e7383df9974160ef1ccb445ca05c9dcaf9aeb2cd1f6f2de2835231",
+      "name": "implementation_hashes:experiments/yolo/gdt393_remaining_page_connector_census/src/validate.py",
+      "pass": true
+    },
+    {
+      "detail": "da0b25a7040a1575d388117b9ca4fd5c4e0c56df665796376cb32c57aa534b68",
+      "name": "implementation_hashes:experiments/yolo/gdt393_remaining_page_connector_census/src/validate_freeze.py",
+      "pass": true
+    }
+  ],
+  "checks_passed": 35,
+  "checks_total": 35,
+  "experiment_id": "GDT393",
+  "result_sha256": "d3e2e2d368e34fb981cf95ba0e9fffb0753c7093f244b57b52f983f839b3d210",
+  "status": "PASS"
+}

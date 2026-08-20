@@ -282,7 +282,7 @@ the parent-link/connector route is closed. Do not substitute proximity, radial
 order, OPEN/BODY, or cross-page similarity for genuinely new relation evidence.
 
 GDT390 closes Q20; GDT391 leaves four matched local relations; GDT392 finds six
-start-only markers but zero directions. With GDT386's B03 block, all five GDT388 batches are exhausted; scores stay locked pending genuinely new data.
+start-only markers but zero directions; GDT393 adds zero edges on the 12-page residual frame. All batches are exhausted; scores stay locked pending genuinely new data.
 
 ## Primary routing references
 
