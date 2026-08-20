@@ -1,0 +1,97 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Synthetic/comparator identifiability calibration only; no synthetic property transfers to Voynich, no Voynich GDT396, and no f84 access.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/freeze_interface.py",
+    "validate": "python3 experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/validate_interface_freeze.py"
+  },
+  "created": "2026-08-20",
+  "dependencies": [
+    "GDT168",
+    "GDT170",
+    "GDT173",
+    "GDT382",
+    "GDT394"
+  ],
+  "experiment_id": "GDT395",
+  "inputs": [],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/README.md",
+      "role": "experiment entry point",
+      "sha256": "098de826a5636ca098cebf2ee34d24472533c97e31eb4a55ba70202e90e84b38"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/METHOD.md",
+      "role": "frozen benchmark method",
+      "sha256": "fc8b311586a53550c701c14a706e730237275121b929c8bc8860dce589ae5f9f"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/WORLD_DESIGN_CONTRACT.md",
+      "role": "isolated designer contract",
+      "sha256": "bc06c0bd8fc1c15b133090a720cd64ebd6db312e16e8b8ac283feb1df8f368c0"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/DECODER_CONTRACT.md",
+      "role": "blind decoder claim contract",
+      "sha256": "285f7256756975a2296949246284eaeee94da29a0632b73d3b6025aa600f918e"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/README.md",
+      "role": "artifact boundary guide",
+      "sha256": "436e27b337a357c1eae4e5db0d24da453cb866825c98346b70f5a3a0c897edcb"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_interface_freeze.json",
+      "role": "pre-world-design interface and score freeze",
+      "sha256": "9a36477af1d77ddfa5c07608e593281ec001598db4a1d6f4f1537afe25e628cf"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_interface_freeze_validation.json",
+      "role": "independent interface-freeze validation",
+      "sha256": "a75b05d8e7d41bfef68c5d8eef82cb2aba930e7a43668bb4fa18b561d2c69a73"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/world_api.py",
+      "role": "shared world schema validator",
+      "sha256": "add4b987cce7a36c2bb7e109995596b8d655c93f7c3cd96f534a5cf70ea606ef"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/freeze_interface.py",
+      "role": "interface freeze producer",
+      "sha256": "67d71ad221fc2d2e55bd86ef119d8fa2d1cb0504c3210d771e4e68798dec997c"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/validate_interface_freeze.py",
+      "role": "independent interface freeze validator",
+      "sha256": "1317d130ac1e493a962945b66633bf5ca60a42388abfbde56a5b65cbddc4bb28"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/run.py",
+      "role": "reserved final benchmark runner entry point",
+      "sha256": "82819fe5a84a0829820ca95f647e4af71c932f5e7bbce9662cd7b8c4d43f15aa"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/validate.py",
+      "role": "reserved final benchmark validator entry point",
+      "sha256": "82819fe5a84a0829820ca95f647e4af71c932f5e7bbce9662cd7b8c4d43f15aa"
+    }
+  ],
+  "question": "Which hidden lexical, genealogical, functional, relational, scope, register, and semantic properties are identifiable from independently designed synthetic manuscript-like observation layers?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "adversarial_synthetic_identifiability_benchmark",
+  "status": "FROZEN_BEFORE_WORLD_DESIGN",
+  "title": "Adversarial synthetic writing-system identifiability benchmark",
+  "updated": "2026-08-20",
+  "validation": {
+    "artifact": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_interface_freeze_validation.json",
+    "status": "PASS"
+  }
+}

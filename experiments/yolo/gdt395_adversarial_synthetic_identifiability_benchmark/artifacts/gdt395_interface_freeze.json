@@ -1,0 +1,212 @@
+{
+  "content_sha256": "f9f215dce008552336b7f0198f4a6b9ed23c73384b7ef0a5f4f3eb00bb848ef7",
+  "corpus_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "decoder_policy": {
+    "designers_excluded": true,
+    "luna_replication_minimum": 3,
+    "observation_only": true,
+    "sol_high_capacity": 2
+  },
+  "designer_policy": {
+    "forbidden_context": [
+      "other_worlds",
+      "decoder_outputs",
+      "Voynich_semantic_hypotheses",
+      "Voynich_sources"
+    ],
+    "fork_turns": "none",
+    "one_isolated_session_per_world": true,
+    "primary_model": "gpt-5.6-sol"
+  },
+  "f84": {
+    "opened": false,
+    "parsed": false,
+    "retained": false,
+    "scored": false
+  },
+  "hashes": {
+    "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/DECODER_CONTRACT.md": "285f7256756975a2296949246284eaeee94da29a0632b73d3b6025aa600f918e",
+    "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/METHOD.md": "fc8b311586a53550c701c14a706e730237275121b929c8bc8860dce589ae5f9f",
+    "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/WORLD_DESIGN_CONTRACT.md": "bc06c0bd8fc1c15b133090a720cd64ebd6db312e16e8b8ac283feb1df8f368c0",
+    "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/freeze_interface.py": "67d71ad221fc2d2e55bd86ef119d8fa2d1cb0504c3210d771e4e68798dec997c",
+    "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/world_api.py": "add4b987cce7a36c2bb7e109995596b8d655c93f7c3cd96f534a5cf70ea606ef"
+  },
+  "inputs": [],
+  "method_stress_tests": [
+    "EXACT_COMPOSITE_AS_WORD",
+    "UNIVERSAL_COEFFICIENTS",
+    "RESIDUALIZE_FREQUENCY_POSITION_RECURRENCE",
+    "SCALAR_ROLE_BOTTLENECK",
+    "FIXED_SHORT_HORIZON",
+    "MULTI_CONSTRAINT_INTERSECTION"
+  ],
+  "properties": [
+    "LEXICAL_IDENTITY",
+    "SEMANTIC_ENTITY_IDENTITY",
+    "HISTORICAL_STEM_ANCESTRY",
+    "PRODUCTIVE_MORPHOLOGY",
+    "FOSSILIZED_MORPHOLOGY",
+    "FUNCTION_CLASS",
+    "COORDINATOR_RELATION",
+    "ALTERNATIVE_RELATION",
+    "REFERENCE_ANAPHORA",
+    "TEMPORAL_STATE_GATE",
+    "SCOPE",
+    "ENTITY_REUSE",
+    "OPERATOR_CLASS",
+    "RECORD_SCHEMA",
+    "REGISTER_LOCAL_VARIANT",
+    "SEMANTIC_CATEGORY",
+    "ACTUAL_LEXICAL_MEANING"
+  ],
+  "representations": [
+    "FULL_GROUP",
+    "HOST_LIKE",
+    "COMPOSITE_STATE",
+    "INFERRED_COMPONENTS",
+    "CONSTRUCTION_SPAN",
+    "RECORD_TOPOLOGY"
+  ],
+  "schema": "GDT395_INTERFACE_FREEZE_V1",
+  "status": "FROZEN_BEFORE_WORLD_DESIGN",
+  "target_events_per_seed": 8448,
+  "thresholds": {
+    "binary": {
+      "balanced_accuracy_min": 0.65,
+      "fdr_max": 0.4,
+      "mcc_min": 0.2
+    },
+    "cluster": {
+      "ari_min": 0.2,
+      "nmi_min": 0.35,
+      "pair_f1_min": 0.35
+    },
+    "median_decoder_required": true,
+    "relation": {
+      "coverage_min": 0.25,
+      "mrr_above_chance_min": 0.05,
+      "mrr_min": 0.15
+    },
+    "scope": {
+      "coverage_min": 0.25,
+      "interval_iou_min": 0.35
+    },
+    "semantics_light_false_positive_max": 0.1,
+    "worlds_for_family_specific": 2,
+    "worlds_for_general": 7
+  },
+  "voynich_rows": 0,
+  "world_assignments": [
+    {
+      "adversarial_pair_id": "NONE",
+      "broad_family": "TECHNICAL_SCRIBAL_SHORTHAND",
+      "carrier_profile": "CARRIER_TECHNICAL",
+      "clean_control": false,
+      "organic_required": true,
+      "practical_domain": "technical natural-language records",
+      "world_id": "W01"
+    },
+    {
+      "adversarial_pair_id": "PAIR_CODEBOOK",
+      "broad_family": "ORGANIC_CODEBOOK",
+      "carrier_profile": "CARRIER_CODEBOOK_MATCHED",
+      "clean_control": false,
+      "organic_required": true,
+      "practical_domain": "apothecary inventory and preparation",
+      "world_id": "W02"
+    },
+    {
+      "adversarial_pair_id": "PAIR_CODEBOOK",
+      "broad_family": "ENGINEERED_CATALOGUE_CODE",
+      "carrier_profile": "CARRIER_CODEBOOK_MATCHED",
+      "clean_control": true,
+      "organic_required": false,
+      "practical_domain": "catalogue and stock indexing",
+      "world_id": "W03"
+    },
+    {
+      "adversarial_pair_id": "NONE",
+      "broad_family": "PROCEDURAL_RECIPE_NOTATION",
+      "carrier_profile": "CARRIER_PROCEDURAL",
+      "clean_control": false,
+      "organic_required": true,
+      "practical_domain": "multi-step material transformation",
+      "world_id": "W04"
+    },
+    {
+      "adversarial_pair_id": "NONE",
+      "broad_family": "MNEMONIC_RITUAL_LEGACY",
+      "carrier_profile": "CARRIER_MNEMONIC",
+      "clean_control": false,
+      "organic_required": true,
+      "practical_domain": "conservative calendrical ritual procedure",
+      "world_id": "W05"
+    },
+    {
+      "adversarial_pair_id": "NONE",
+      "broad_family": "ORGANIC_CATALOGUE_INDEX",
+      "carrier_profile": "CARRIER_INDEX",
+      "clean_control": false,
+      "organic_required": true,
+      "practical_domain": "taxonomic collection and cross-reference",
+      "world_id": "W06"
+    },
+    {
+      "adversarial_pair_id": "NONE",
+      "broad_family": "HYBRID_WORD_CODE_QUANTITY",
+      "carrier_profile": "CARRIER_HYBRID",
+      "clean_control": false,
+      "organic_required": true,
+      "practical_domain": "measurement and workshop accounting",
+      "world_id": "W07"
+    },
+    {
+      "adversarial_pair_id": "NONE",
+      "broad_family": "DIVERGED_MULTI_SCHOOL_NOTATION",
+      "carrier_profile": "CARRIER_SCHOOLS",
+      "clean_control": false,
+      "organic_required": true,
+      "practical_domain": "medical teaching and case procedure",
+      "world_id": "W08"
+    },
+    {
+      "adversarial_pair_id": "PAIR_SEMANTIC",
+      "broad_family": "MEANINGFUL_RELATIONAL_SYSTEM",
+      "carrier_profile": "CARRIER_ADVERSARIAL_MATCHED",
+      "clean_control": false,
+      "organic_required": true,
+      "practical_domain": "route planning and resource allocation",
+      "world_id": "W09"
+    },
+    {
+      "adversarial_pair_id": "PAIR_SEMANTIC",
+      "broad_family": "SEMANTICS_LIGHT_GENERATOR",
+      "carrier_profile": "CARRIER_ADVERSARIAL_MATCHED",
+      "clean_control": false,
+      "organic_required": false,
+      "practical_domain": "semantics-light structured production",
+      "world_id": "W10"
+    }
+  ]
+}
