@@ -1,6 +1,6 @@
 {
   "artifact_policy": {
-    "large_artifact_justification": "",
+    "large_artifact_justification": "The 6.3 MB aggregate panel table retains the fixed world-by-seed-by-representation-by-decoder property matrix required for independent row-exact validation; it contains no event-level oracle or claim payload.",
     "max_inline_bytes": 5000000
   },
   "claim_ceiling": "Synthetic/comparator identifiability calibration only; no synthetic property transfers to Voynich, no Voynich GDT396, and no f84 access.",
@@ -88,6 +88,11 @@
       "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/VALIDATION_DESIGN.md",
       "role": "pre-oracle independent result-validation design",
       "sha256": "3142cbaedc91ef851bf9cf30f608bbf61df353abc9721c71d6f847635f454cdf"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/VALIDATION_EXECUTION_CORRECTION_V3.md",
+      "role": "post-oracle validation Boolean-gate correction disclosure",
+      "sha256": "31ea1e644f7c37f38c822c6b0855856b9352f7ee1a90934f8185367046d5e8ce"
     },
     {
       "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/VALIDATION_REVIEW.md",
@@ -255,6 +260,16 @@
       "sha256": "fdff954f46be6b1b5fd165138e83afce1da6f33014a6d7a912684660276eef9d"
     },
     {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_validation_execution_v3_correction.json",
+      "role": "post-oracle validation correction freeze binding settled score bytes",
+      "sha256": "ecfa77ea5fc8e0104933b1088e0f9d4f5143cfa0c96521333224f11c73d9f3d9"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_validation_execution_v3_correction_validation.json",
+      "role": "independent validation correction validation",
+      "sha256": "491ec98baf738730d743d73cf3cbe7a314074556e323b186f856a230f0c2d48c"
+    },
+    {
       "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_world_panel_freeze.json",
       "role": "frozen panel artifact",
       "sha256": "a6902f982eff9058b24748e38535f53c857d9e76928ebafff938b0de988b5b98"
@@ -380,6 +395,11 @@
       "sha256": "8ceb2a34c5a1e323b981aa05cf0a14cd4d448d27574f36a829f755daf161f4ee"
     },
     {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/freeze_validation_execution_v3_correction.py",
+      "role": "one-shot validation Boolean-gate correction freezer",
+      "sha256": "d3e9885610dde0957179ca6a1680c6994bf009dc78736f45c2baac16e4f28382"
+    },
+    {
       "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/freeze_world_panel.py",
       "role": "reproducible panel implementation",
       "sha256": "8116f08362c59ee040a2134e88ee7d000ea7c442dbcd2268af288ecb2d68b0a0"
@@ -465,6 +485,11 @@
       "sha256": "96d19e176b8864a4a09c19dafb797f1e64427d7081e92a4bc7e4ca7a91904e9e"
     },
     {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/validate_identifiability_v3.py",
+      "role": "case-insensitive Boolean-gate aggregate validator",
+      "sha256": "46972cc1253a8c4131a40a75a79ae266fadf34e63a85932e7e2fbb09cd8b5f0a"
+    },
+    {
       "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/validate_decoder_execution_correction.py",
       "role": "independent validator",
       "sha256": "749c1e371720e495079cd4a9ac013e09d01254e3844cba8781bc2cc5c7fd1220"
@@ -508,6 +533,11 @@
       "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/validate_v3_interrupted_completion.py",
       "role": "independent interrupted-run recovery validator",
       "sha256": "a68e8b67834f3eb5c2a36ce98ed1c6c32d2f27999677980312335f6180b11d58"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/validate_validation_execution_v3_correction.py",
+      "role": "independent validation correction validator",
+      "sha256": "352d3147a0549c63a5aebae4c03acdbc856dbfb2412187946d35e0587c5696fd"
     },
     {
       "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/validate_pair_protocol_amendment.py",
@@ -637,7 +667,7 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "adversarial_synthetic_identifiability_benchmark",
-  "status": "POST_ORACLE_SCHEMA_CORRECTION_FROZEN_BEFORE_SCORING_V4",
+  "status": "POST_ORACLE_VALIDATION_CORRECTION_FROZEN_BEFORE_VALIDATION_V3",
   "title": "Adversarial synthetic writing-system identifiability benchmark",
   "updated": "2026-08-20",
   "validation": {
