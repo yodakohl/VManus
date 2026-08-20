@@ -1,0 +1,159 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Synthetic calibration of which hidden properties are recoverable through a restricted 24-symbol observation channel; no synthetic role, ontology, sound, language, meaning, plaintext, or translation transfers to Voynich.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/src/run.py",
+    "validate": "python3 experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/src/validate.py"
+  },
+  "created": "2026-08-20",
+  "dependencies": [
+    "GDT395"
+  ],
+  "experiment_id": "GDT396",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_world_panel_freeze.json",
+      "role": "frozen ten-world generator and hidden-world panel",
+      "sha256": "a6902f982eff9058b24748e38535f53c857d9e76928ebafff938b0de988b5b98"
+    },
+    {
+      "path": "experiments/semantic_assumptions/LRG001_OFFICIAL_ALPHABET_RECOVERY_SPEC.md",
+      "role": "pre-existing canonical 24-position STA-family carrier inventory specification",
+      "sha256": "744e4500b0c4c9627254a80e0bce3878ff16a8d669cb947ace1005f940987c5d"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/README.md",
+      "role": "experiment entry point",
+      "sha256": "2dc2f9afdd70a5707fb25a8265495b69f790442fd38974356b089bc94d8863ef"
+    },
+    {
+      "path": "experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/METHOD.md",
+      "role": "paired surface and untouched-seed method",
+      "sha256": "a846e026aba2ed1fc717458c9e4573aac9abe418154da0a13e567b8694708c7b"
+    },
+    {
+      "path": "experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/artifacts/gdt396_protocol_freeze.json",
+      "role": "pre-generation protocol and channel freeze",
+      "sha256": "1289584fd7b632dd5feaa8ac82af5b7b41d94ef52405d9adc3ca878cd656487b"
+    },
+    {
+      "path": "experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/artifacts/gdt396_protocol_validation.json",
+      "role": "protocol validation",
+      "sha256": "d82d175aa773c7b4b59bfbf732cba95fd0479a61aeff1d3fbd119881235d7e37"
+    },
+    {
+      "path": "experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/artifacts/gdt396_development_corpus_validation.json",
+      "role": "legacy/development paired-corpus validation",
+      "sha256": "d936d8c003bc7e3a0674298912bf0c4f19d5de3ad1a1dba976357e5ca453b2d9"
+    },
+    {
+      "path": "experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/artifacts/gdt396_prequalification_correction_freeze.json",
+      "role": "versioned prequalification correction freeze preserving historical protocol failure",
+      "sha256": "1eb18881324d25b5da9f918e2dce7d59953fdd2e701182ccf829aca13471f8da"
+    },
+    {
+      "path": "experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/artifacts/gdt396_prequalification_correction_validation.json",
+      "role": "historical prequalification correction validation",
+      "sha256": "83bfac9b6bc6204056c0ababa978958ee3ba262e316413a6b1b69b357362f762"
+    },
+    {
+      "path": "experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/artifacts/gdt396_prequalification_correction_freeze_v2.json",
+      "role": "post-review prequalification enforcement freeze",
+      "sha256": "e41e9e052dbba9d89a58f7d4941c699bc262173ea354013bffd72c33eef47660"
+    },
+    {
+      "path": "experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/artifacts/gdt396_prequalification_correction_validation_v2.json",
+      "role": "historical post-review prequalification enforcement validation",
+      "sha256": "6d6c626275680111042f26965918ac472adb1a932762951b2a68e4b7749c4be0"
+    },
+    {
+      "path": "experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/artifacts/gdt396_prequalification_correction_freeze_v3.json",
+      "role": "fail-closed W10 prequalification correction freeze",
+      "sha256": "fc587ec03b1f02be3acb50a180ef12b7974ad09429bfade0d57545403b32f636"
+    },
+    {
+      "path": "experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/artifacts/gdt396_prequalification_correction_validation_v3.json",
+      "role": "fail-closed W10 prequalification correction validation",
+      "sha256": "e44f400aa459cf9d7c6459353d130e880c2c15abb7e7e579204be7f41936a4af"
+    },
+    {
+      "path": "experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/artifacts/gdt396_decoder_panel_freeze.json",
+      "role": "independently reviewed decoder and instrument panel freeze",
+      "sha256": "0a8e055b1331b923f5685665b794c9341748fd4a6d9d52d02800e27e18185903"
+    },
+    {
+      "path": "experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/artifacts/gdt396_decoder_panel_validation.json",
+      "role": "decoder and instrument panel validation",
+      "sha256": "9b2467da869e8a7c85831ae783fa45927d4d936b70a0159f74136f6177844ca7"
+    },
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/CLAIM_INTERFACE.md","role":"claim interface","sha256":"a37213e12142c9596ab1f0e72315f4458f18d1097b2613fecf4109c7dd70b8a9"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/CLAIM_RETENTION_PLAN.md","role":"claim retention plan","sha256":"9f93cc0bd3676478b9972720f1f0002606b3279757ca8377829fe70d55d92780"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/DECODER_EXECUTION_SPEC.md","role":"decoder execution specification","sha256":"9d7a48d79cc6b3c0ba6ce17b65b9bec4835435879f2512a89a8f01ddcf3aa6d9"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/DECODER_PANEL_REVIEW.md","role":"independent panel review","sha256":"9f7e15e04ab9811613ab432507d65c4b6dc1faf229fc1c01c467b0c33b73a1e1"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/DECODER_QUALIFICATION_SPEC.md","role":"decoder qualification specification","sha256":"2ec5700c0dd8bddea0955cee40442f244fdde340b0ee26fc1fe0d6b0ff50f345"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/ORACLE_TRUTH_SPEC.md","role":"oracle truth specification","sha256":"2b16c2be1f48bdcfb0374a12b4c7fc665abf4d284cf9089574d3ba845f58b3fb"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/PREQUALIFICATION_INSTRUMENT_CORRECTION.md","role":"instrument correction","sha256":"783e14c8377db20c4591820bb53a1bbdaa043e3422356f719e535598ed64c23b"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/PREQUALIFICATION_REAUDIT_CORRECTION.md","role":"re-audit correction","sha256":"d6c9ea0e1d854516ecb8bed0d4682c196c83d8c6e5c6002ed8c918414f296a37"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/PREQUALIFICATION_W10_CORRECTION.md","role":"semantics-light fail-closed correction","sha256":"800cb326af4ec69bdbbf55100989512150a87fe37e52c7cee5a52e307b18e393"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/RUNNER_INTEGRATION_CORRECTION.md","role":"runner integration correction","sha256":"f3144cbe3ef0d1c809681873352577846debd0528ca47beee0bcb51600d2a306"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/SCORING_DESIGN.md","role":"scoring design","sha256":"9581c3775320ccdd5ccd0a1a48e55b8240d04aa882935df65c933878fe62acb2"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/TRACE_DIGEST_CORRECTION.md","role":"trace digest correction","sha256":"bb61b72507b02c4953ddab5a20038ecdabceeb982205bb2121c46b42f3e9e9dd"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/VALIDATION_DESIGN.md","role":"validation design","sha256":"07ad9070b1e2523311277288b796dcd095447ee93d80ad34dd1137531b18e1a3"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/decoders/d396s01_multiview_graph/ATTESTATION.md","role":"decoder attestation","sha256":"7dd38e1ee3384b3b4e84fe33fb7c21713bd447c1a436dde364792f516c3eec0d"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/decoders/d396s01_multiview_graph/decoder.py","role":"blind decoder","sha256":"8c52c318402a85874b5cb2ae1561fd9c1a954b31d7ef23edcbc02e66219235f4"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/decoders/d396s02_mdl_components/ATTESTATION.md","role":"decoder attestation","sha256":"c590256435721625256174403f4e8ec8752b418908e720b5fc97bd8d5410b4d8"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/decoders/d396s02_mdl_components/decoder.py","role":"blind decoder","sha256":"c633fcb9a8ba501db7e9bce4eda023146d1f87f3bf2d5e6c3d9bddedd932d2d0"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/decoders/d396s03_relation_topology/ATTESTATION.md","role":"decoder attestation","sha256":"daa1fe534ef1afc8c6e6679d4159b9f35749ecbaf05d4909bddc2123a8e27434"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/decoders/d396s03_relation_topology/decoder.py","role":"blind decoder","sha256":"623ebb020e93d9100580cb6d9379a7e437f330eee91d60bc9fed007f9ea44b98"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/decoders/d396s04_contrastive_roles/ATTESTATION.md","role":"decoder attestation","sha256":"9bd6f2db58ac2a287cb6d8bc665d3e8775447019e00ef2c128209884245254c9"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/decoders/d396s04_contrastive_roles/decoder.py","role":"blind decoder","sha256":"b61fb3bd4b545c9ec8d30f3a360a9cdb055db5e71bc36306b29b51211fcb8ba7"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/decoders/d396s05_multiconstraint_function/ATTESTATION.md","role":"decoder attestation","sha256":"b48df3c58caeca02207048e6c504d1ccb37e3d21c1dc0d1979c7cd9c5264d434"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/decoders/d396s05_multiconstraint_function/decoder.py","role":"blind decoder","sha256":"e3f2c2148b4dd8a8ab423ab894565a2b8a6baee4bc36ba83756d591f27baa08a"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/src/decoder_api_v2.py","role":"implementation","sha256":"446046f78748e2cddaf65c535ba5f17aac93ae83b3aa7fd3ef8e1ccf997fd960"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/src/freeze_claims.py","role":"implementation","sha256":"6487fa2c4a740d1075653f0c8d78fc50cdd7ccbf708c047da0c70934e002f9fd"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/src/freeze_decoder_panel.py","role":"implementation","sha256":"38a9b2d169318e72c1fb058480de4012986a25811a4da988721bc841dccf97b1"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/src/freeze_prequalification_correction.py","role":"implementation","sha256":"9159e54aa27f7711dfa0b750eb829000e0e3e820616aa4ca090118fc5ffa174e"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/src/freeze_prequalification_correction_v2.py","role":"implementation","sha256":"40bd142487d7b72ab24aab342114f15f8d1e17d975e3a88d7ebbdb59e0cb8b7c"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/src/freeze_prequalification_correction_v3.py","role":"implementation","sha256":"231f5d496f6dffed3332440d38b190b5b2f8da32683b87c10da901dcfdbafa06"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/src/freeze_protocol.py","role":"implementation","sha256":"0e66b9e0da6242237be644769ced7175475da62a6104fb45a4ef71b69b81e42c"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/src/generate_paired_corpora.py","role":"implementation","sha256":"578c810dca299ac2e5a8af7515b3cf90b1e5a201f054ef433898b7fdafe4056b"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/src/merge_claim_manifests.py","role":"implementation","sha256":"38846b41c6c7a0d5641bac42575950a9f4f5d87601352cda752dd26a401054de"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/src/metrics.py","role":"implementation","sha256":"78b436bf16dcf3faf963eb20b03d0b134e9c5889bb1f90737b05d373efbf0d0a"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/src/observation_api.py","role":"implementation","sha256":"5f4ac356118415c7b8c66cc1377f6de8da78ef3a6eac6602762d891705193476"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/src/phase_authority.py","role":"implementation","sha256":"0b7ed8f5bcc2a42ccb9dfd2799e82afd260418cc41fa935907a8924128289432"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/src/qualify_decoders.py","role":"implementation","sha256":"da5f645e7212f4ea2851034c5ffdb69a226bc55cd18f4e4df9df2ff81869d3fe"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/src/repair_trace_manifests.py","role":"implementation","sha256":"62e512d4f426f607b170789efcfbd52ed1c14ddde795099b20d3763aa3c88a90"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/src/run.py","role":"implementation","sha256":"0968b9c6d63e88a36c1e43a6605c99cd8656aa57dbdd56a72acec8ae54e091e7"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/src/run_blind_decoders.py","role":"implementation","sha256":"cfa577483c08d54dc38fb099b36f3088de8db0198cddb52f79a0ad94187cd43c"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/src/score_decoder_phase.py","role":"implementation","sha256":"ab3f29c501eb82777e881cd8fe547c2d61ab27b6dbaaf99a99040236a893d35f"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/src/surface_channel.py","role":"implementation","sha256":"c25b12138f30d15e6083d6a642a1fc21ee9b48e6b0f924dac4843a9324646aca"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/src/test_instrument_contract.py","role":"implementation","sha256":"3abfc893a686cd14edca8ddb16500dfa462da3b64406ff8009b4302913d5c95b"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/src/validate.py","role":"implementation","sha256":"83b10e9946ad472c7f466c45ef551ab3453e2f8069a0c916ba3f0148b35614f7"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/src/validate_decoder_panel.py","role":"implementation","sha256":"304e89a4244d1db5bfaa0a44987505ceeff6247e9ac85b2ad5627e518b619169"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/src/validate_paired_corpora.py","role":"implementation","sha256":"9cce0c2928f6fcd555b6bb4bc7dfefda3520a5be1c63d1d0229b9c1e32dfc4f3"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/src/validate_phase_corpora.py","role":"implementation","sha256":"bde5c39fa9259cc3a5d9985790a246c353b47405292360c87a7ebdda353d1117"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/src/validate_prequalification_correction.py","role":"implementation","sha256":"4b4d1fa05f48f984b5d856aa1c654e77a1c5ab11194b00a73c3c2dbe95241794"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/src/validate_prequalification_correction_v2.py","role":"implementation","sha256":"f7264919eb7cf9946dff9bee62dbecd9209685cf5e08b630d10453289f942fa0"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/src/validate_prequalification_correction_v3.py","role":"implementation","sha256":"ade156f257bf9b83f4e8e546da4d4eb585e58163f3c059602ae8107e928c7d9c"},
+    {"path":"experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/src/validate_protocol.py","role":"implementation","sha256":"91b374ac6ebda5eab785d5b4284650ae13c8fb195a66df9d56db32945070b93f"}
+  ],
+  "question": "Which lexical, entity, morphological, functional, relational, scope, schema, and architecture properties are identifiable on untouched synthetic corpora after the same hidden worlds are rendered through either their free surface or a restricted 24-symbol Voynich-sized channel?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "repaired_synthetic_identifiability_voynich_surface",
+  "status": "DECODER_PANEL_FROZEN",
+  "title": "Repaired synthetic identifiability benchmark with Voynich-constrained surface channel",
+  "updated": "2026-08-20",
+  "validation": {
+    "artifact": "experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/artifacts/gdt396_decoder_panel_validation.json",
+    "status": "PASS"
+  }
+}

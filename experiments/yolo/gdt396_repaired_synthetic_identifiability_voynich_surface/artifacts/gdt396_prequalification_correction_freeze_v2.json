@@ -1,0 +1,51 @@
+{
+  "bindings": {
+    ".work/corpora/gdt396_development_paired_manifest_v2.tsv": "fe65ff08064db4e027a72d8bd0b0cc89631ac498b4ab6e258f05f7a6a01876e6",
+    ".work/corpora/gdt396_legacy_paired_manifest_v2.tsv": "2646d2a7fd94a61e79bd6adfd889fa02d7d8288328cb2112ef6668e0f8bb285c",
+    "PREQUALIFICATION_REAUDIT_CORRECTION.md": "d6c9ea0e1d854516ecb8bed0d4682c196c83d8c6e5c6002ed8c918414f296a37",
+    "artifacts/gdt396_development_corpus_validation.json": "d936d8c003bc7e3a0674298912bf0c4f19d5de3ad1a1dba976357e5ca453b2d9",
+    "artifacts/gdt396_prequalification_correction_freeze.json": "1eb18881324d25b5da9f918e2dce7d59953fdd2e701182ccf829aca13471f8da",
+    "artifacts/gdt396_prequalification_correction_validation.json": "83bfac9b6bc6204056c0ababa978958ee3ba262e316413a6b1b69b357362f762",
+    "artifacts/gdt396_protocol_freeze.json": "1289584fd7b632dd5feaa8ac82af5b7b41d94ef52405d9adc3ca878cd656487b",
+    "artifacts/gdt396_protocol_validation.json": "d82d175aa773c7b4b59bfbf732cba95fd0479a61aeff1d3fbd119881235d7e37",
+    "src/freeze_claims.py": "6487fa2c4a740d1075653f0c8d78fc50cdd7ccbf708c047da0c70934e002f9fd",
+    "src/freeze_decoder_panel.py": "4a87889adc1fd0d04a070cb253690664fee1bb9f477067284748d7307e05a492",
+    "src/freeze_prequalification_correction_v2.py": "40bd142487d7b72ab24aab342114f15f8d1e17d975e3a88d7ebbdb59e0cb8b7c",
+    "src/generate_paired_corpora.py": "578c810dca299ac2e5a8af7515b3cf90b1e5a201f054ef433898b7fdafe4056b",
+    "src/phase_authority.py": "0b7ed8f5bcc2a42ccb9dfd2799e82afd260418cc41fa935907a8924128289432",
+    "src/qualify_decoders.py": "a29e1f510ac08cb9abf550792d64f0bd59c8674da1615cd36b9d51b548757a18",
+    "src/run.py": "0fcb96de93ac65b2032c99349ec883f098a745e5391c0b0d4fbda22c3c28cfd0",
+    "src/run_blind_decoders.py": "cfa577483c08d54dc38fb099b36f3088de8db0198cddb52f79a0ad94187cd43c",
+    "src/score_decoder_phase.py": "ab3f29c501eb82777e881cd8fe547c2d61ab27b6dbaaf99a99040236a893d35f",
+    "src/test_instrument_contract.py": "8e90acc6cff46e850dc8731945e25e1aa9c14a4298cbccaf2df3c48aff596099",
+    "src/validate.py": "fab7c6b7602f088cee0120ab610a619ae9938b187a9ecc7431dc9b59817129d8",
+    "src/validate_decoder_panel.py": "5d93c14a4347c80dfb1f4d525b7e47f20086b7d25b1344047c54eddf160fe8c5",
+    "src/validate_phase_corpora.py": "bde5c39fa9259cc3a5d9985790a246c353b47405292360c87a7ebdda353d1117",
+    "src/validate_prequalification_correction_v2.py": "f7264919eb7cf9946dff9bee62dbecd9209685cf5e08b630d10453289f942fa0"
+  },
+  "confirmation_observations_generated": false,
+  "content_sha256": "8a2ee0429c1f304755b39a5d49aa7723e214ebeff5a1f187b56916b162df5181",
+  "f84": {
+    "allowed": false,
+    "opened": false,
+    "rows": 0
+  },
+  "f84r": {
+    "allowed": false,
+    "opened": false,
+    "rows": 0
+  },
+  "qualification_observations_generated": false,
+  "schema": "GDT396_PREQUALIFICATION_CORRECTION_FREEZE_V2",
+  "status": "FROZEN_BEFORE_QUALIFICATION_GENERATION",
+  "v1_freeze_sha256": "1eb18881324d25b5da9f918e2dce7d59953fdd2e701182ccf829aca13471f8da",
+  "v1_postfreeze_drift": [],
+  "v2_reasons": {
+    "action_time_authority": "authenticate current instrument and blind-claim freezes instead of trusting stored PASS literals",
+    "expanded_binding_surface": "bind the post-review runner, scorer, qualifier, claim freezer, action-time authority, public entry points, panel freezer/validator, and adversarial fixtures omitted from correction V1",
+    "logical_claim_integrity": "enforce logical-key uniqueness, status-dependent emptiness, and morphology rank limits before scoring",
+    "semantics_light_guard": "require explicit event-level W10 false-positive rates for scored and no-capacity rows"
+  },
+  "voynich_corpus_files_opened": 0,
+  "voynich_rows": 0
+}

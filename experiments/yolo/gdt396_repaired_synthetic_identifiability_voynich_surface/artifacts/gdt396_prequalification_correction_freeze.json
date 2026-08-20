@@ -1,0 +1,53 @@
+{
+  "bindings": {
+    ".work/corpora/gdt396_development_paired_manifest_v2.tsv": "fe65ff08064db4e027a72d8bd0b0cc89631ac498b4ab6e258f05f7a6a01876e6",
+    ".work/corpora/gdt396_legacy_paired_manifest_v2.tsv": "2646d2a7fd94a61e79bd6adfd889fa02d7d8288328cb2112ef6668e0f8bb285c",
+    "PREQUALIFICATION_INSTRUMENT_CORRECTION.md": "783e14c8377db20c4591820bb53a1bbdaa043e3422356f719e535598ed64c23b",
+    "RUNNER_INTEGRATION_CORRECTION.md": "f3144cbe3ef0d1c809681873352577846debd0528ca47beee0bcb51600d2a306",
+    "artifacts/gdt396_development_corpus_validation.json": "d936d8c003bc7e3a0674298912bf0c4f19d5de3ad1a1dba976357e5ca453b2d9",
+    "artifacts/gdt396_protocol_freeze.json": "1289584fd7b632dd5feaa8ac82af5b7b41d94ef52405d9adc3ca878cd656487b",
+    "artifacts/gdt396_protocol_validation.json": "d82d175aa773c7b4b59bfbf732cba95fd0479a61aeff1d3fbd119881235d7e37",
+    "src/decoder_api_v2.py": "446046f78748e2cddaf65c535ba5f17aac93ae83b3aa7fd3ef8e1ccf997fd960",
+    "src/freeze_prequalification_correction.py": "9159e54aa27f7711dfa0b750eb829000e0e3e820616aa4ca090118fc5ffa174e",
+    "src/generate_paired_corpora.py": "578c810dca299ac2e5a8af7515b3cf90b1e5a201f054ef433898b7fdafe4056b",
+    "src/test_instrument_contract.py": "8e90acc6cff46e850dc8731945e25e1aa9c14a4298cbccaf2df3c48aff596099",
+    "src/validate_prequalification_correction.py": "4b4d1fa05f48f984b5d856aa1c654e77a1c5ab11194b00a73c3c2dbe95241794"
+  },
+  "confirmation_observations_generated": false,
+  "content_sha256": "a8a3a183894e33f93d511cb007f7cde8ed29548e475c72f18835b465fcbccc34",
+  "disclosed_protocol_drift": [
+    {
+      "corrected_sha256": "446046f78748e2cddaf65c535ba5f17aac93ae83b3aa7fd3ef8e1ccf997fd960",
+      "frozen_sha256": "276451822e1e356dd4fe1f252007299e18f4e6ca089386226847fc0d1b1d5261",
+      "relpath": "src/decoder_api_v2.py"
+    },
+    {
+      "corrected_sha256": "578c810dca299ac2e5a8af7515b3cf90b1e5a201f054ef433898b7fdafe4056b",
+      "frozen_sha256": "be7d0481d58b70df8541aec159111d82548e73bebb8284d4c92ecff75feb2da7",
+      "relpath": "src/generate_paired_corpora.py"
+    }
+  ],
+  "drift_reasons": {
+    "src/decoder_api_v2.py": "reject string truth values and require Python booleans before canonical TSV serialization",
+    "src/generate_paired_corpora.py": "enforce decoder-panel and confirmation-instrument phase authority before untouched block generation"
+  },
+  "f84": {
+    "allowed": false,
+    "opened": false,
+    "rows": 0
+  },
+  "f84r": {
+    "allowed": false,
+    "opened": false,
+    "rows": 0
+  },
+  "hidden_worlds_or_generators_changed": false,
+  "legacy_or_development_corpora_regenerated": false,
+  "original_protocol_freeze_sha256": "1289584fd7b632dd5feaa8ac82af5b7b41d94ef52405d9adc3ca878cd656487b",
+  "qualification_observations_generated": false,
+  "schema": "GDT396_PREQUALIFICATION_CORRECTION_FREEZE_V1",
+  "scientific_surface_contract_changed": false,
+  "status": "FROZEN_BEFORE_QUALIFICATION_GENERATION",
+  "voynich_corpus_files_opened": 0,
+  "voynich_rows": 0
+}

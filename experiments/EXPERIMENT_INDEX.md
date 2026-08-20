@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **394**
-- Experiment-associated tracked files: **5,569** (644.3 MiB)
-- Structured GDT337+ experiments: **59**
+- Experiments indexed: **395**
+- Experiment-associated tracked files: **5,627** (635.8 MiB)
+- Structured GDT337+ experiments: **60**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,7 +20,8 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT395 | GDT395_adversarial_synthetic_identifiability_benchmark_conformance_v5 | `POST_ORACLE_CONFORMANCE_CORRECTION_VALIDATED` | [report](../experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/SCORER_VALIDATOR_CONFORMANCE_CORRECTION_V5.md) | 155 | 19.9 MiB | 5 | STRUCTURED_YOLO |
+| GDT396 | GDT396_repaired_synthetic_identifiability_prequalification | `DECODER_PANEL_FROZEN_AND_VALIDATED` | [report](../experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/artifacts/gdt396_decoder_panel_validation.json) | 66 | 576.1 KiB | 1 | STRUCTURED_YOLO |
+| GDT395 | GDT395_adversarial_synthetic_identifiability_benchmark_conformance_v5 | `POST_ORACLE_CONFORMANCE_CORRECTION_VALIDATED` | [report](../experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/SCORER_VALIDATOR_CONFORMANCE_CORRECTION_V5.md) | 147 | 10.8 MiB | 5 | STRUCTURED_YOLO |
 | GDT394 | GDT394_latent_role_bottleneck_transfer_audit | `LATENT_ROLE_COMPRESSION_NOT_DISTINCT_FROM_MATCHED_SOURCE_BOTTLENECKS` | [report](../experiments/yolo/gdt394_latent_role_bottleneck_transfer_audit/REPORT.md) | 20 | 763.4 KiB | 4 | STRUCTURED_YOLO |
 | GDT393 | GDT393_remaining_page_connector_census | `COMPLETE_RESIDUAL_CENSUS_ZERO_ELIGIBLE_DIRECTED_EDGES` | [report](../experiments/yolo/gdt393_remaining_page_connector_census/REPORT.md) | 20 | 51.2 KiB | 2 | STRUCTURED_YOLO |
 | GDT392 | GDT392_source_access_correction | `SOURCE_COMMENT_MATERIALIZATION_DISCLOSED` | [report](../experiments/yolo/gdt392_special_circle_start_direction_census/CORRECTION.md) | 23 | 115.0 KiB | 3 | STRUCTURED_YOLO |
