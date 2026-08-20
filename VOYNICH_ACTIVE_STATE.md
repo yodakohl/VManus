@@ -10175,6 +10175,21 @@ are 1, and rank gates fail. The latent-semantic-role architecture closes; no
 GDT395 or Voynich stage is authorized. No role, parent, syntax, POS, meaning,
 language, plaintext, translation, or f84 access follows.
 
+The user-authorized GDT395 simulator benchmark then tests the method rather
+than Voynich. Ten independent synthetic writing systems, twenty seeds each,
+and five oracle-blind decoders produce 2,150 frozen claim files. Independent
+validation reproduces 25,500 authentic panel rows and passes all 14 checks.
+No property clears the full 3-decoder/2-Luna gate, and ten of seventeen
+requested properties are interface HOLD. This is a demonstrated instrument
+false negative: the D02 Sol decoder recovers FULL_GROUP lexical identity on
+8/9 meaningful worlds and HOST_LIKE entity/shared-stem partitions on five
+worlds, in every held seed, while all three Luna decoders produce zero seed
+passes. Function class and semantic category have zero passes. Pair, relation,
+scope, genealogy, productive/fossil morphology, and meaning conclusions remain
+unavailable. Do not create a Voynich GDT396. The next route is new-seed
+synthetic repair of record/relation claim interfaces and non-singleton
+replication decoders. GDT395 accessed neither f84 nor f84r.
+
 GDT388 freezes the acquisition repair. The 1,059 local-relation rows contain 95
 explicit positives on twelve folios, including 52 unhedged cases, but none has
 a normalized second manuscript locus or an ordered inscription edge. The
