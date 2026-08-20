@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **388**
-- Experiment-associated tracked files: **5,304** (623.2 MiB)
-- Structured GDT337+ experiments: **53**
+- Experiments indexed: **389**
+- Experiment-associated tracked files: **5,315** (623.2 MiB)
+- Structured GDT337+ experiments: **54**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT390 | GDT390_q20_inter_record_pointer_census_freeze | `FROZEN_BEFORE_IMAGE_ACCESS` | [report](../experiments/yolo/gdt390_q20_inter_record_pointer_census/METHOD.md) | 11 | 41.8 KiB | 2 | STRUCTURED_YOLO |
 | GDT389 | GDT389_connector_edge_census | `COMPLETE_CENSUS_ZERO_ELIGIBLE_DIRECTED_EDGES` | [report](../experiments/yolo/gdt389_connector_edge_census/REPORT.md) | 24 | 142.1 KiB | 1 | STRUCTURED_YOLO |
 | GDT388 | GDT388_acquisition_ready_relation_edge_protocol | `ACQUISITION_PROTOCOL_FROZEN_ZERO_ELIGIBLE_CURRENT_EDGES` | [report](../experiments/yolo/gdt388_acquisition_ready_relation_edge_protocol/REPORT.md) | 14 | 59.5 KiB | 5 | STRUCTURED_YOLO |
 | GDT387 | GDT387_cross_domain_parent_link_calibration | `CROSS_DOMAIN_PARENT_LINK_SIGNATURE_SUPPORTED` | [report](../experiments/yolo/gdt387_cross_domain_parent_link_calibration/REPORT.md) | 20 | 1.3 MiB | 4 | STRUCTURED_YOLO |

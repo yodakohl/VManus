@@ -271,19 +271,18 @@ strengthens that readable instrument (+85.11 exact-governor bits on 26,493
 PCEEC2 edges/69 of 84 files), but only +3.13 bits exceed its conditional-null
 mean and just seven top-1 targets are added. No comparator role transfers.
 
-GDT386 finds zero independently ordered target edges in the existing archive.
-GDT388 makes acquisition operational: 1,059 local-relation rows contain 95
-explicit positives/12 folios, but none has a normalized second target locus or
-ordered inscription edge. The primary batch is a complete geometry-only census
-of author-visible connectors between separately localizable inscriptions.
-Scoring stays locked until at least 50 singular directed edges/five folios pass
-exact ownership, grammar-independence, held-folio, and mobile-null gates.
+GDT386–388 find zero ordered target edges and freeze acquisition at 50 singular
+directed edges/five folios with exact ownership, grammar independence, held
+folios, and a mobile null.
 
 GDT389 reviewed the exact 61-page/30-folio packet on 50 safe Yale canvases:
 47 pages have no candidate, 14 retain ambiguous drawing connectors, and zero
 supply two singular inscription endpoints. Capacity is zero eligible edges;
 the parent-link/connector route is closed. Do not substitute proximity, radial
 order, OPEN/BODY, or cross-page similarity for genuinely new relation evidence.
+
+GDT390 freezes the remaining Q20 census: 170 records/13 pages/eight non-f84
+folios will be reviewed for visible record pointers; formal scoring stays locked.
 
 ## Primary routing references
 
@@ -293,6 +292,7 @@ order, OPEN/BODY, or cross-page similarity for genuinely new relation evidence.
 - `experiments/yolo/gdt387_cross_domain_parent_link_calibration/REPORT.md`
 - `experiments/yolo/gdt388_acquisition_ready_relation_edge_protocol/REPORT.md`
 - `experiments/yolo/gdt389_connector_edge_census/REPORT.md`
+- `experiments/yolo/gdt390_q20_inter_record_pointer_census/METHOD.md`
 - `GDT330_F84R_METADATA_ACCESS_CORRECTION.md`
 
 Use `experiments/EXPERIMENT_INDEX.tsv` for exact paths, dependencies, runners,

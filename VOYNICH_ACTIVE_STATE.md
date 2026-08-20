@@ -10185,6 +10185,17 @@ f84r display remains disclosed; no f84 image, transcription, source group,
 formal identity, PAGE_HOST, tuple, prediction, or score was accessed in the
 image review. The current connector/parent-link acquisition route is closed.
 
+GDT390 freezes the one remaining non-catalog connector acquisition named by
+GDT388: a complete direct visual census of the 170 star-defined Q20 records on
+13 pages/eight physical folios for author-visible record-to-record pointers.
+The metadata-only frame retains unit/page/folio/star and line-locus structure;
+GDT114 compiler/profile suffix fields were not parsed, retained, or displayed.
+The page and record orders, five outcomes, direction rules, and the same
+50-edge/five-folio capacity gate are frozen before new image access; validation
+passes 16/16. Q20 pages have prior repository exposure, so this is procedural
+blinding by one exploratory AI reviewer, not pristine human evidence. Formal
+scoring and all f84 access remain locked.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU

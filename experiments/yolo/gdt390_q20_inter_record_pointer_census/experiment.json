@@ -1,0 +1,36 @@
+{
+  "artifact_policy": {"large_artifact_justification": "", "max_inline_bytes": 5000000},
+  "claim_ceiling": "Frozen Q20 inter-record-pointer acquisition design; no parent, reference, role, syntax, POS, meaning, language, plaintext, translation, or f84 result.",
+  "commands": {
+    "run": "./vpy experiments/yolo/gdt390_q20_inter_record_pointer_census/src/freeze.py",
+    "validate": "./vpy experiments/yolo/gdt390_q20_inter_record_pointer_census/src/validate_freeze.py"
+  },
+  "created": "2026-08-20",
+  "dependencies": ["GDT114", "GDT388"],
+  "experiment_id": "GDT390",
+  "inputs": [
+    {"path": "gdt114_q20_record_template_inventory.tsv", "role": "published Q20 record inventory; only fixed metadata prefix retained", "sha256": "cfad2444ad8199877501acd2c7fa51ef4e232663f585d2f6b0f89e2187a424d7"},
+    {"path": "gdt114_result.json", "role": "published 170-record eight-folio Q20 accounting", "sha256": "dba0ad2e469dbeb75219528efbb527dbfa769b754a45fea6f7b499170e9dc8ef"},
+    {"path": "experiments/yolo/gdt388_acquisition_ready_relation_edge_protocol/artifacts/gdt388_result.json", "role": "acquisition protocol and B05 Q20 census requirement", "sha256": "79cf873aa0f718d69d2af321ea8ebbae6c1db5fdef796ea099fe6b71045a9ac6"}
+  ],
+  "outputs": [
+    {"path": "experiments/yolo/gdt390_q20_inter_record_pointer_census/METHOD.md", "role": "frozen pre-image Q20 census method", "sha256": "5187cece8c406eb577660b2edc6865b387e173581b4b75a6223e6b534e29c42c"},
+    {"path": "experiments/yolo/gdt390_q20_inter_record_pointer_census/README.md", "role": "experiment entry point", "sha256": "7489debb2e2b0a73ca90029f436a6d611dc58c5d9a36dded66a261d3384e3795"},
+    {"path": "experiments/yolo/gdt390_q20_inter_record_pointer_census/artifacts/README.md", "role": "artifact guide", "sha256": "9eab8ebb5922e07a558e25d84f06a7a87a7536df24d87c819bbcb2553ad56612"},
+    {"path": "experiments/yolo/gdt390_q20_inter_record_pointer_census/artifacts/gdt390_pre_image_freeze.json", "role": "exact page/record order outcomes gates and access freeze", "sha256": "d82629ffc5699c4da9b8bf8062e0515c8c23559d31b5ee3d13b37d949b9ae1d5"},
+    {"path": "experiments/yolo/gdt390_q20_inter_record_pointer_census/artifacts/gdt390_pre_image_freeze_validation.json", "role": "independent freeze validation", "sha256": "6a20138474cf6366eb269e0f49d76d94374341ae32da05d5aabd2f1392e1ba3a"},
+    {"path": "experiments/yolo/gdt390_q20_inter_record_pointer_census/artifacts/gdt390_record_frame.tsv", "role": "metadata-only 170-record census", "sha256": "d38ba7fd46a4bb4d3639a56f5882f0edde7c9ccb8089fbc2575d6f516266d869"},
+    {"path": "experiments/yolo/gdt390_q20_inter_record_pointer_census/src/freeze.py", "role": "pre-image freeze producer", "sha256": "4fd0b1d61e7cc2c5858487cbb0bff95c098c8a923d3d0a6dd9a58c41307a049d"},
+    {"path": "experiments/yolo/gdt390_q20_inter_record_pointer_census/src/run.py", "role": "reserved post-freeze acquisition producer", "sha256": "82819fe5a84a0829820ca95f647e4af71c932f5e7bbce9662cd7b8c4d43f15aa"},
+    {"path": "experiments/yolo/gdt390_q20_inter_record_pointer_census/src/validate.py", "role": "reserved post-freeze final validator", "sha256": "82819fe5a84a0829820ca95f647e4af71c932f5e7bbce9662cd7b8c4d43f15aa"},
+    {"path": "experiments/yolo/gdt390_q20_inter_record_pointer_census/src/validate_freeze.py", "role": "pre-image freeze validator", "sha256": "a57fffc1fbfb5ec262c0d1384565ab64bebd77d6954daa455833dbbbf8112d8f"}
+  ],
+  "question": "Do the 170 star-defined Q20 records contain author-visible directed record-to-record pointers?",
+  "schema_version": 1,
+  "sealed_data": {"f84r": "FORBIDDEN"},
+  "slug": "q20_inter_record_pointer_census",
+  "status": "FROZEN_BEFORE_IMAGE_ACCESS",
+  "title": "Q20 inter-record pointer census",
+  "updated": "2026-08-20",
+  "validation": {"artifact": "experiments/yolo/gdt390_q20_inter_record_pointer_census/artifacts/gdt390_pre_image_freeze_validation.json", "status": "PASS"}
+}
