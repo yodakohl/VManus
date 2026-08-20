@@ -1,29 +1,103 @@
 {
-  "schema_version": 1,
-  "experiment_id": "GDT371",
-  "slug": "validation_capacity_extension",
-  "title": "Untouched-validation capacity extension",
-  "created": "2026-08-19",
-  "updated": "2026-08-19",
-  "status": "NO_TESTED_DESIGN_REACHES_EXTENDED_GATE",
-  "question": "Does increasing untouched folio and cell capacity make an 81-way medium visual-formal relation prospectively detectable?",
-  "dependencies": ["GDT370"],
-  "commands": {
-    "run": "python3 experiments/yolo/gdt371_validation_capacity_extension/src/run.py",
-    "validate": "python3 experiments/yolo/gdt371_validation_capacity_extension/src/validate.py"
+  "artifact_policy": {
+    "large_artifact_justification": "Administrative binding of already published exhaustive artifacts; no new artifact generated.",
+    "max_inline_bytes": 5000000
   },
-  "sealed_data": {"f84r": "FORBIDDEN", "f84": "FORBIDDEN"},
-  "claim_ceiling": "Synthetic prospective acquisition capacity only; no Voynich association, role, word, language, plaintext, meaning, or translation.",
-  "artifact_policy": {"max_inline_bytes": 5000000, "large_artifact_justification": ""},
-  "inputs": [{"path": "experiments/yolo/gdt370_grounding_acquisition_power/artifacts/gdt370_result.json", "role": "frozen capacity calibration motivating the extension"}],
-  "outputs": [
-    {"path": "experiments/yolo/gdt371_validation_capacity_extension/METHOD.md", "role": "public pre-simulation freeze"},
-    {"path": "experiments/yolo/gdt371_validation_capacity_extension/REPORT.md", "role": "result report"},
-    {"path": "experiments/yolo/gdt371_validation_capacity_extension/artifacts/gdt371_power_grid.tsv", "role": "complete aggregate grid"},
-    {"path": "experiments/yolo/gdt371_validation_capacity_extension/artifacts/gdt371_design_thresholds.tsv", "role": "design gate table"},
-    {"path": "experiments/yolo/gdt371_validation_capacity_extension/artifacts/gdt371_counterexamples.tsv", "role": "counterexample audit"},
-    {"path": "experiments/yolo/gdt371_validation_capacity_extension/artifacts/gdt371_result.json", "role": "compact result"},
-    {"path": "experiments/yolo/gdt371_validation_capacity_extension/artifacts/gdt371_validation.json", "role": "validation"}
+  "claim_ceiling": "SYNTHETIC_PROSPECTIVE_ACQUISITION_CAPACITY_ONLY",
+  "commands": {
+    "run": "./vpy experiments/yolo/gdt371_validation_capacity_extension/src/run.py",
+    "validate": "./vpy experiments/yolo/gdt371_validation_capacity_extension/src/validate.py"
+  },
+  "created": "2026-08-19",
+  "dependencies": [
+    "GDT370"
   ],
-  "validation": {"artifact": "experiments/yolo/gdt371_validation_capacity_extension/artifacts/gdt371_validation.json", "status": "PASS"}
+  "experiment_id": "GDT371",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt370_grounding_acquisition_power/artifacts/gdt370_result.json",
+      "role": "hash-bound published scientific input",
+      "sha256": "1c13ccf4c1918d10bc51d5e945d34c0ddc68b93145be81392b7bba73f5f75222"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt371_validation_capacity_extension/METHOD.md",
+      "role": "retained published experiment file",
+      "sha256": "b4cff765dff8772c5ada63cd3229faf7bcbb3609ac22c9473dddba53a1ba62c0"
+    },
+    {
+      "path": "experiments/yolo/gdt371_validation_capacity_extension/README.md",
+      "role": "retained published experiment file",
+      "sha256": "ee177941326dc2e70465fab1f5b7965d533068afcdcc4ac4a682fae3a70b7b62"
+    },
+    {
+      "path": "experiments/yolo/gdt371_validation_capacity_extension/REPORT.md",
+      "role": "retained published experiment file",
+      "sha256": "034a953e5ecd59a309061a115062e2835245f6d0b76726bd53d2d62f479e0044"
+    },
+    {
+      "path": "experiments/yolo/gdt371_validation_capacity_extension/artifacts/README.md",
+      "role": "retained published experiment file",
+      "sha256": "297c4db54d5d4e4e7e928e0709d4c364e8634981ae0f96792c63e72a89d86bc5"
+    },
+    {
+      "path": "experiments/yolo/gdt371_validation_capacity_extension/artifacts/gdt371_counterexamples.tsv",
+      "role": "retained published experiment file",
+      "sha256": "256306381111bc7b4ae8bc3170d67756ca732b2de7e55324cc326a22f0f36cb1"
+    },
+    {
+      "path": "experiments/yolo/gdt371_validation_capacity_extension/artifacts/gdt371_design_thresholds.tsv",
+      "role": "retained published experiment file",
+      "sha256": "3c7079ed46ee6d45609a1ed8b6c3cb3d272b588daae358e3017f8d6eeec4a597"
+    },
+    {
+      "path": "experiments/yolo/gdt371_validation_capacity_extension/artifacts/gdt371_power_grid.tsv",
+      "role": "retained published experiment file",
+      "sha256": "3795d35d6dfd7baffc7e532f7918c5c11dedcf9b7da1953b5b91aef6acf4d8f5"
+    },
+    {
+      "path": "experiments/yolo/gdt371_validation_capacity_extension/artifacts/gdt371_result.json",
+      "role": "retained published experiment file",
+      "sha256": "87c829cdcb86b86e5e197e9dd5bfadf1391a05db307f6ab42f159a62d68cd205"
+    },
+    {
+      "path": "experiments/yolo/gdt371_validation_capacity_extension/artifacts/gdt371_validation.json",
+      "role": "retained published experiment file",
+      "sha256": "33dc46fdbd34a19ba7a312372288609d7ebe576a0046a81d46c1a2dc0310b5f8"
+    },
+    {
+      "path": "experiments/yolo/gdt371_validation_capacity_extension/src/__pycache__/run.cpython-312.pyc",
+      "role": "retained published experiment file",
+      "sha256": "173c3fa7664df7705f72e3d48bdfd69b965e4c15739e8b5532114a30c16495d3"
+    },
+    {
+      "path": "experiments/yolo/gdt371_validation_capacity_extension/src/__pycache__/validate.cpython-312.pyc",
+      "role": "retained published experiment file",
+      "sha256": "b8f315e07661faca54fdb1fca731f50c8c51178b7f2fab7657ac163ebf060e71"
+    },
+    {
+      "path": "experiments/yolo/gdt371_validation_capacity_extension/src/run.py",
+      "role": "retained published experiment file",
+      "sha256": "40c758abd689e534b58fd6fc47b77b1a2ecee6557df6ff5a40a78e0a3a9edb2a"
+    },
+    {
+      "path": "experiments/yolo/gdt371_validation_capacity_extension/src/validate.py",
+      "role": "retained published experiment file",
+      "sha256": "bfec150b5be02cee915dcfcbcde9ae41523440d55b9c52a09c2a652c5cb1b4f4"
+    }
+  ],
+  "question": "Does increasing untouched folio and cell capacity make an 81-way medium visual-formal relation prospectively detectable?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "validation_capacity_extension",
+  "status": "NO_TESTED_DESIGN_REACHES_EXTENDED_GATE",
+  "title": "Untouched-validation capacity extension",
+  "updated": "2026-08-20",
+  "validation": {
+    "artifact": "experiments/yolo/gdt371_validation_capacity_extension/artifacts/gdt371_validation.json",
+    "status": "PASS"
+  }
 }

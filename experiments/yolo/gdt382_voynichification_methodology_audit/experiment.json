@@ -1,8 +1,181 @@
 {
+  "artifact_policy": {
+    "large_artifact_justification": "Administrative binding of already published exhaustive artifacts; no new artifact generated.",
+    "max_inline_bytes": 7012439
+  },
+  "claim_ceiling": "COMPARATOR_POSITIVE_CONTROL_METHODOLOGY_CALIBRATION_ONLY",
+  "commands": {
+    "run": "./vpy experiments/yolo/gdt382_voynichification_methodology_audit/src/finalize_gdt382.py",
+    "validate": "./vpy tools/validate_migrated_yolo_experiment.py experiments/yolo/gdt382_voynichification_methodology_audit"
+  },
+  "created": "2026-08-19",
+  "dependencies": [],
   "experiment_id": "GDT382",
-  "name": "methodology stress-test / Voynichification audit",
-  "stage": "COMPLETE",
-  "voynich_scoring": false,
-  "f84_access": false,
-  "semantic_scope": "READABLE_COMPARATOR_POSITIVE_CONTROL_ONLY"
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/artifacts/gdt378_hidden_oracle.tsv.gz",
+      "role": "hash-bound published scientific input",
+      "sha256": "35568bb5ae417bd725af03abbd09ce7d7dc3fbf3b64fb77bf00299603893de02"
+    },
+    {
+      "path": "experiments/yolo/gdt382_voynichification_methodology_audit/artifacts/gdt382_encoder_freeze.json",
+      "role": "hash-bound published scientific input",
+      "sha256": "5819fdd682d2dfa3d1de6875273c0204aae45aa1f23523d776997befdd9ab28b"
+    },
+    {
+      "path": "experiments/yolo/gdt382_voynichification_methodology_audit/artifacts/gdt382_recovery_design_freeze.json",
+      "role": "hash-bound published scientific input",
+      "sha256": "102df11ec533c57ba74cf53ba7849514ada1ad8ac8b1ef95570441476f4aa18c"
+    },
+    {
+      "path": "experiments/yolo/gdt382_voynichification_methodology_audit/artifacts/gdt382_voynichified_observation_layer.tsv.gz",
+      "role": "hash-bound published scientific input",
+      "sha256": "4c20dc0dd234f9b1947ce9c81d9d1c8645e30a1fd81321b6a9be755b3d229896"
+    },
+    {
+      "path": "tools/validate_migrated_yolo_experiment.py",
+      "role": "administrative structured-manifest validator",
+      "sha256": "ab8a06abc87c42dfbb7d6cd32af780fa0996605f2df4fe4a7d484fc7a941d9b1"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt382_voynichification_methodology_audit/METHOD.md",
+      "role": "retained published experiment file",
+      "sha256": "4b3049ed9c19e116aca5379a8e4e0ae5dc06864e8c412358a42ac0db886f2222"
+    },
+    {
+      "path": "experiments/yolo/gdt382_voynichification_methodology_audit/README.md",
+      "role": "retained published experiment file",
+      "sha256": "e7242cbd92c92f944ede3a044fe9ca216dab43442cc61f959ece2247fd74ec64"
+    },
+    {
+      "path": "experiments/yolo/gdt382_voynichification_methodology_audit/REPORT.md",
+      "role": "retained published experiment file",
+      "sha256": "82851927cd52e9d5b1732c138598a104a0c6ccbeb367e7c9b37ef201eff8842f"
+    },
+    {
+      "path": "experiments/yolo/gdt382_voynichification_methodology_audit/artifacts/gdt382_bound_free_controls.tsv",
+      "role": "retained published experiment file",
+      "sha256": "2e162e292d5664e7ebe314477c96c58379370474f6567e3c2feb2485cc1cfe99"
+    },
+    {
+      "path": "experiments/yolo/gdt382_voynichification_methodology_audit/artifacts/gdt382_counterexamples.tsv",
+      "role": "retained published experiment file",
+      "sha256": "f4135a0ec2468ebb955e4f1a5caec5358a4798c4bff985afb0ef3ed017ed74c9"
+    },
+    {
+      "path": "experiments/yolo/gdt382_voynichification_methodology_audit/artifacts/gdt382_discovery_confirmation.tsv",
+      "role": "retained published experiment file",
+      "sha256": "595ec27dee44d51ac70020519452461cbfa6bb88c6594bae03524cc8b0cfbc24"
+    },
+    {
+      "path": "experiments/yolo/gdt382_voynichification_methodology_audit/artifacts/gdt382_encoder_freeze.json",
+      "role": "retained published experiment file",
+      "sha256": "5819fdd682d2dfa3d1de6875273c0204aae45aa1f23523d776997befdd9ab28b"
+    },
+    {
+      "path": "experiments/yolo/gdt382_voynichification_methodology_audit/artifacts/gdt382_freeze_validation.json",
+      "role": "retained published experiment file",
+      "sha256": "bf4e8077823cff10af38b30a9f4ba034289c116c4ebfacf27639b9e247ef5699"
+    },
+    {
+      "path": "experiments/yolo/gdt382_voynichification_methodology_audit/artifacts/gdt382_ontology_audit.tsv",
+      "role": "retained published experiment file",
+      "sha256": "487e2803750fbebb87440fcba47e058f97da44156994d35bcda4aaa057933938"
+    },
+    {
+      "path": "experiments/yolo/gdt382_voynichification_methodology_audit/artifacts/gdt382_overcontrol_audit.tsv",
+      "role": "retained published experiment file",
+      "sha256": "ee5c31397758cef4a3dc33efcb11b464ff0c335bffea159b1dc59e405db1287f"
+    },
+    {
+      "path": "experiments/yolo/gdt382_voynichification_methodology_audit/artifacts/gdt382_recovery_design_freeze.json",
+      "role": "retained published experiment file",
+      "sha256": "102df11ec533c57ba74cf53ba7849514ada1ad8ac8b1ef95570441476f4aa18c"
+    },
+    {
+      "path": "experiments/yolo/gdt382_voynichification_methodology_audit/artifacts/gdt382_representation_recovery.tsv",
+      "role": "retained published experiment file",
+      "sha256": "e01146b4e2baf51754db6ecd688db23df9b455613a94a513c65c7c3c2f14d5b5"
+    },
+    {
+      "path": "experiments/yolo/gdt382_voynichification_methodology_audit/artifacts/gdt382_result.json",
+      "role": "retained published experiment file",
+      "sha256": "1fc00c89432a42f63dffe5e42b49b0393a4db2f6963878c726aef0876bf751c7"
+    },
+    {
+      "path": "experiments/yolo/gdt382_voynichification_methodology_audit/artifacts/gdt382_validation.json",
+      "role": "retained published experiment file",
+      "sha256": "142678e3f538f0b6f4b5a2eca22f2e8df5ea926c8e429735390deee8599f3a8c"
+    },
+    {
+      "path": "experiments/yolo/gdt382_voynichification_methodology_audit/artifacts/gdt382_voynichified_observation_layer.tsv.gz",
+      "role": "retained published experiment file",
+      "sha256": "4c20dc0dd234f9b1947ce9c81d9d1c8645e30a1fd81321b6a9be755b3d229896"
+    },
+    {
+      "path": "experiments/yolo/gdt382_voynichification_methodology_audit/src/__pycache__/finalize_gdt382.cpython-312.pyc",
+      "role": "retained published experiment file",
+      "sha256": "6bbcea898752e46c68fdab4a1c19c9ac0716afa6df60759d01657bf4a7b2dc73"
+    },
+    {
+      "path": "experiments/yolo/gdt382_voynichification_methodology_audit/src/__pycache__/freeze_gdt382.cpython-312.pyc",
+      "role": "retained published experiment file",
+      "sha256": "391e74480348af99bba8f7da7a0a1c71df542a05b05ee74d291caa0162b4d992"
+    },
+    {
+      "path": "experiments/yolo/gdt382_voynichification_methodology_audit/src/__pycache__/run_gdt382.cpython-312.pyc",
+      "role": "retained published experiment file",
+      "sha256": "02e78cf7fb31bd1e970fc041ac51c435faae3b3f47a709440f7127d7976f6d21"
+    },
+    {
+      "path": "experiments/yolo/gdt382_voynichification_methodology_audit/src/__pycache__/validate_gdt382.cpython-312.pyc",
+      "role": "retained published experiment file",
+      "sha256": "d50e5d8aab6d2d28df45ddfc23d9b488e79012cf4e39b7aef7df63c4988e6de9"
+    },
+    {
+      "path": "experiments/yolo/gdt382_voynichification_methodology_audit/src/__pycache__/validate_gdt382_freeze.cpython-312.pyc",
+      "role": "retained published experiment file",
+      "sha256": "17898d0d01b1eb858117b71abd46fc2e8423973cc3978dfa3258f37b499e8a12"
+    },
+    {
+      "path": "experiments/yolo/gdt382_voynichification_methodology_audit/src/finalize_gdt382.py",
+      "role": "retained published experiment file",
+      "sha256": "38986b79073336fa22129b4af75d3e2d1c745b80246b3972361b7d6ce40d629c"
+    },
+    {
+      "path": "experiments/yolo/gdt382_voynichification_methodology_audit/src/freeze_gdt382.py",
+      "role": "retained published experiment file",
+      "sha256": "e1b38ae7df3912b7d54d3dddf421312ec9a6ef2dc96a263f00f328daa7569ecd"
+    },
+    {
+      "path": "experiments/yolo/gdt382_voynichification_methodology_audit/src/run_gdt382.py",
+      "role": "retained published experiment file",
+      "sha256": "f8e16c36a3e3c1c2cd3ecc53648682e5bbca3373157ff4115120d65714898411"
+    },
+    {
+      "path": "experiments/yolo/gdt382_voynichification_methodology_audit/src/validate_gdt382.py",
+      "role": "retained published experiment file",
+      "sha256": "5cf042ad1848ca6b261e858253e5ae3acf438f810f24edd9210d16dcb7c941a0"
+    },
+    {
+      "path": "experiments/yolo/gdt382_voynichification_methodology_audit/src/validate_gdt382_freeze.py",
+      "role": "retained published experiment file",
+      "sha256": "5089cb97a7cf3e3d0c0725ffce6b6cf842b92c82beac55377add186780837bda"
+    }
+  ],
+  "question": "What did the published GDT382 experiment establish under its frozen method?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "voynichification_methodology_audit",
+  "status": "METHODOLOGY_AUDIT_COMPLETE",
+  "title": "methodology stress-test / Voynichification audit",
+  "updated": "2026-08-20",
+  "validation": {
+    "artifact": "experiments/yolo/gdt382_voynichification_methodology_audit/artifacts/gdt382_validation.json",
+    "status": "PASS"
+  }
 }

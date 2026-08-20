@@ -1,7 +1,351 @@
 {
-  "experiment": "GDT378",
-  "f84_accessed": false,
-  "status": "HEAD_FAILED_PRIMARY_TARGET_NULL_DEGENERATE_POSTHOC_FORMAL_LEAD",
+  "artifact_policy": {
+    "large_artifact_justification": "Administrative binding of already published exhaustive artifacts; no new artifact generated.",
+    "max_inline_bytes": 5808853
+  },
+  "claim_ceiling": "ONE_POSTHOC_OPAQUE_FORMAL_LEAD_AT_TWO_RESOLUTIONS_NO_PROMOTION_FUNCTION_OR_SEMANTICS",
+  "commands": {
+    "run": "./vpy experiments/yolo/gdt378_cross_corpus_construction_transfer/src/finalize_gdt378.py",
+    "validate": "./vpy experiments/yolo/gdt378_cross_corpus_construction_transfer/src/validate_voynich_target.py"
+  },
+  "created": "2026-08-19",
+  "dependencies": [],
+  "experiment_id": "GDT378",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/artifacts/gdt378_comparator_result.json",
+      "role": "hash-bound published scientific input",
+      "sha256": "f88781a48584b4f7d5c3a213d7f327e40544b5ff4cd1cd4ab460f009edc99dab"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/artifacts/gdt378_identity_only_diagnostic.tsv",
+      "role": "hash-bound published scientific input",
+      "sha256": "3ae3b17b4bc3d7cb4af5e08d62d62c0b1f57620e56503478ba0dcfd18838e3b9"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/artifacts/gdt378_identity_only_diagnostic_result.json",
+      "role": "hash-bound published scientific input",
+      "sha256": "0a6186426c1eefda15f52d6afa7387cd1e33a37cf8ccca9cf60bd19378e43f4b"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/artifacts/gdt378_target_execution_correction.json",
+      "role": "hash-bound published scientific input",
+      "sha256": "9dfc22ae8d2336d30f036dc05414541647f20a08591ee5e79afea26c782b5bcc"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/artifacts/gdt378_voynich_candidate_atlas.tsv",
+      "role": "hash-bound published scientific input",
+      "sha256": "64e3fb043730b13436a70a920bbfc1618f418da9514713878403e7a47213f46c"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/artifacts/gdt378_voynich_target_result.json",
+      "role": "hash-bound published scientific input",
+      "sha256": "8e8b0bd6b308bf15a4b63fe0a960d91a22f732fbd8d285b00698f6c37fb35c2b"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/METHOD.md",
+      "role": "retained published experiment file",
+      "sha256": "b74ad62f3d4130aafba07f17f2ea2a1ed1e37d67ac297a1acb0a7351fce7c020"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/README.md",
+      "role": "retained published experiment file",
+      "sha256": "078c426c6da0dba97c94af4e9bf6e666f60209dc76102a85d2afe5559e7e0345"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/REPORT.md",
+      "role": "retained published experiment file",
+      "sha256": "4bcd75b770cf2b932a970b731e9c4639d79bc8b264df303bc502717355990a9e"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/SOURCE_AUDIT.md",
+      "role": "retained published experiment file",
+      "sha256": "87e2b9949e66bf8d7950583cde0dc91870e58155fc7cb73e47642a6bca83aa60"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/TARGET_METHOD.md",
+      "role": "retained published experiment file",
+      "sha256": "7fab5a83cd5e6320e20fc6f73991e7e34eb647b3e16946a433cf1da851499f07"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/artifacts/gdt378_comparator_design_freeze.json",
+      "role": "retained published experiment file",
+      "sha256": "455142c5ab2f8d43f7860b6e3b3d3a3818b3a5ffd5b6b0e092dd8e393467eec3"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/artifacts/gdt378_comparator_design_validation.json",
+      "role": "retained published experiment file",
+      "sha256": "1e7724c3238a4db3bba2cc9307709d9e7ead1ef4e362bf7eefb57b2d50b4d1f0"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/artifacts/gdt378_comparator_fold_scores.tsv",
+      "role": "retained published experiment file",
+      "sha256": "7e75dd281e4da8ef011bf9701d9759562b710ab986802ebafc0ebd48c81d9551"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/artifacts/gdt378_comparator_null.tsv",
+      "role": "retained published experiment file",
+      "sha256": "e391f01dfedea856f652a99f340f01c4844ab20cfff142a396565df280a1b176"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/artifacts/gdt378_comparator_null_worlds.tsv.gz",
+      "role": "retained published experiment file",
+      "sha256": "e8ccfced357954a77a3386d72191edf2f1171de04868e76c4676ace686d00d8e"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/artifacts/gdt378_comparator_observation_layer.tsv.gz",
+      "role": "retained published experiment file",
+      "sha256": "1eb9111c9d0803e8f2b51a2b5689d0986ea0d75108bc1be415ca79ad66fdbe0e"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/artifacts/gdt378_comparator_result.json",
+      "role": "retained published experiment file",
+      "sha256": "f88781a48584b4f7d5c3a213d7f327e40544b5ff4cd1cd4ab460f009edc99dab"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/artifacts/gdt378_comparator_source_manifest.tsv",
+      "role": "retained published experiment file",
+      "sha256": "d9e9cff85ad06ff12c566ff372a6005e897f66b1b84a7f16af5b962a870b16ec"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/artifacts/gdt378_comparator_validation.json",
+      "role": "retained published experiment file",
+      "sha256": "f7a488a784a665bb2f133f5c3c2e90c329262a03ef782ac5287d173fb3539836"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/artifacts/gdt378_curious_cures_page_manifest.tsv",
+      "role": "retained published experiment file",
+      "sha256": "8fdc18e59a8fa9ff763882d9f1c5d667be7c858fab9c263fb6b11a2d1ba788c0"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/artifacts/gdt378_endpoint_coverage.tsv",
+      "role": "retained published experiment file",
+      "sha256": "f6e81385f358f8e20f02b13210d374fcadae0a8cee22cbd4e363d615f2a00d3f"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/artifacts/gdt378_functional_family_calibration.tsv",
+      "role": "retained published experiment file",
+      "sha256": "d7d75e2428dd4300607d4fcbcf8c7ef4da0ac2354f2a5cbeafc4f1f5d7406133"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/artifacts/gdt378_head_held_predictions.tsv.gz",
+      "role": "retained published experiment file",
+      "sha256": "f71f749b08faaad579643a2f80343b83f19f5afcd3a4e9f9985f502a47c80398"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/artifacts/gdt378_hidden_oracle.tsv.gz",
+      "role": "retained published experiment file",
+      "sha256": "35568bb5ae417bd725af03abbd09ce7d7dc3fbf3b64fb77bf00299603893de02"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/artifacts/gdt378_identity_only_diagnostic.tsv",
+      "role": "retained published experiment file",
+      "sha256": "3ae3b17b4bc3d7cb4af5e08d62d62c0b1f57620e56503478ba0dcfd18838e3b9"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/artifacts/gdt378_identity_only_diagnostic_result.json",
+      "role": "retained published experiment file",
+      "sha256": "0a6186426c1eefda15f52d6afa7387cd1e33a37cf8ccca9cf60bd19378e43f4b"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/artifacts/gdt378_identity_only_null.tsv.gz",
+      "role": "retained published experiment file",
+      "sha256": "66d30e21ab2cdfa6c42ccc58f0589b8289f4c1bfb1e15670f817c7419a79c039"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/artifacts/gdt378_oracle_contract.json",
+      "role": "retained published experiment file",
+      "sha256": "6294285e5ce31231debb34ae0974d1378e759443b3dcab4f4548d3cdeb84dabd"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/artifacts/gdt378_result.json",
+      "role": "retained published experiment file",
+      "sha256": "d1f2c6417f94965c22747314fd1dabac599054a45c11561c6caf1ec6dbdd2891"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/artifacts/gdt378_secondary_transfer_signature_freeze.json",
+      "role": "retained published experiment file",
+      "sha256": "7892650f9e92df13bbaea543d7626e35fef391eaab70a1d115ab15d7fe73fb12"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/artifacts/gdt378_signature_summary.tsv",
+      "role": "retained published experiment file",
+      "sha256": "eb6faa3720ddc8a20957eedce04dbb05badca29666faeb92fd5ec02cc24ef059"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/artifacts/gdt378_source_access_exclusions.tsv",
+      "role": "retained published experiment file",
+      "sha256": "093377e939eb5ddbab0e4c4b6f6f99520175a0a30d070d7e4b017d2dd1c44617"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/artifacts/gdt378_source_freeze.json",
+      "role": "retained published experiment file",
+      "sha256": "52e2aa40dbb62b29f285a2e54b81b459c17711b74fedc886aa765ecf4585e569"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/artifacts/gdt378_source_freeze_validation.json",
+      "role": "retained published experiment file",
+      "sha256": "523c8b396634de5195725c8f0f610602c21ab98a486de355856489386b89d8fd"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/artifacts/gdt378_target_execution_correction.json",
+      "role": "retained published experiment file",
+      "sha256": "9dfc22ae8d2336d30f036dc05414541647f20a08591ee5e79afea26c782b5bcc"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/artifacts/gdt378_transfer_signature_freeze.json",
+      "role": "retained published experiment file",
+      "sha256": "18c407cda050d73cf505b410f9a060f5a1acb9de6c2841bb02e5a4dde6b91a8e"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/artifacts/gdt378_validation.json",
+      "role": "retained published experiment file",
+      "sha256": "3e87e81f52a0a3bd79517901b9a93f56d495a2a17abe9f13d175787ad6099347"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/artifacts/gdt378_voynich_candidate_atlas.tsv",
+      "role": "retained published experiment file",
+      "sha256": "64e3fb043730b13436a70a920bbfc1618f418da9514713878403e7a47213f46c"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/artifacts/gdt378_voynich_event_scores.tsv.gz",
+      "role": "retained published experiment file",
+      "sha256": "77bf3db353b16531115a0e5994b5e6afb5c7d2b6a0af95191dbae5dfe2da8b80"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/artifacts/gdt378_voynich_null.tsv.gz",
+      "role": "retained published experiment file",
+      "sha256": "7e304cddd0044608a30e00543122b867af475a5033233d9b8d5ad012e31de8ef"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/artifacts/gdt378_voynich_resolution_summary.tsv",
+      "role": "retained published experiment file",
+      "sha256": "a8a45999ff1e81d593b66eae2b07a419ab6c629d6c9be79266bcee175a9e9a99"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/artifacts/gdt378_voynich_target_design_freeze.json",
+      "role": "retained published experiment file",
+      "sha256": "66b9732f003d2c4817f88ec58d412e5720015ab8347354b1b7b522e04bfa9c46"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/artifacts/gdt378_voynich_target_result.json",
+      "role": "retained published experiment file",
+      "sha256": "8e8b0bd6b308bf15a4b63fe0a960d91a22f732fbd8d285b00698f6c37fb35c2b"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/src/__pycache__/diagnose_identity_only_null.cpython-312.pyc",
+      "role": "retained published experiment file",
+      "sha256": "2812b7bea391d5bf7c2a2973f5ce9dbef5e6742acfe53e64bb2660a54510b2f3"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/src/__pycache__/finalize_gdt378.cpython-312.pyc",
+      "role": "retained published experiment file",
+      "sha256": "b870f865ce556467d14ab8c71e19cd99100499930726e5634cf7e3ca547bf759"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/src/__pycache__/freeze_transfer_signatures.cpython-312.pyc",
+      "role": "retained published experiment file",
+      "sha256": "75d44e75d33f0cd8024f32bcff93a7404d316a1b7587473dd22ec483ad56edc7"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/src/__pycache__/freeze_voynich_target.cpython-312.pyc",
+      "role": "retained published experiment file",
+      "sha256": "aac5e67fcc584715eaa898219b916e9de66390225d8bd8ef6a5fc5ab0bc7802b"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/src/__pycache__/run_comparator.cpython-312.pyc",
+      "role": "retained published experiment file",
+      "sha256": "e3c2eb9875e53034b1b24ba5395a653b4a8d579fb038028e12fedd23e830a997"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/src/__pycache__/run_voynich_target.cpython-312.pyc",
+      "role": "retained published experiment file",
+      "sha256": "775cb30b8cdc67851a8d7f3414e92e6b673c92d88cb14f6a2c14710201317797"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/src/__pycache__/validate_comparator.cpython-312.pyc",
+      "role": "retained published experiment file",
+      "sha256": "5ad44847930a717cb31668e8bd340cd8d49abdf3330c1afa96eb223ed85a6424"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/src/__pycache__/validate_voynich_target.cpython-312.pyc",
+      "role": "retained published experiment file",
+      "sha256": "4e6b27c3a72b181a1bebed1a2193927e9146cb5f3cdfc30ab243fa373e27331c"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/src/diagnose_identity_only_null.py",
+      "role": "retained published experiment file",
+      "sha256": "3c3282293bfb6c0128785e4437e9a1fec92bbd9a60e287f139ad34b2bfe27723"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/src/finalize_gdt378.py",
+      "role": "retained published experiment file",
+      "sha256": "4dea585cbdbbfd21a91e16d8fa051fb2ecc64701491e9e750b89ebed22c85788"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/src/freeze_comparator_layers.py",
+      "role": "retained published experiment file",
+      "sha256": "ab6b0df798440a97dcd41799013e62c4c954698dc5e3778d99d75d0255d0abdc"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/src/freeze_sources.py",
+      "role": "retained published experiment file",
+      "sha256": "3c1e6ab8af0240200cce1a70491f3a795b614810ca7b8cb0b204330676ef0fbe"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/src/freeze_transfer_signatures.py",
+      "role": "retained published experiment file",
+      "sha256": "29824828adcd2578919d95c3c54464ee3c67ba0ac6ab7e5f8b8634f87af220e7"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/src/freeze_voynich_target.py",
+      "role": "retained published experiment file",
+      "sha256": "735ce0d5587e5260f436b8b84abb37a74a2832a3f2fbea134b4f4ae010fcbbbb"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/src/run_comparator.py",
+      "role": "retained published experiment file",
+      "sha256": "35f7ab9d93142cbf10f6cc70e57fad171a0298a4569a65c79af0b1ea67655df8"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/src/run_voynich_target.py",
+      "role": "retained published experiment file",
+      "sha256": "e3be4678c668ca6d5f217fb2052184b88669fcce80e7404d248e469572f3e81a"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/src/validate_comparator.py",
+      "role": "retained published experiment file",
+      "sha256": "82084cb793400cd28bf095bc83fe03f80655bfb2e9501c2cf3b6b761dcd6bd3f"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/src/validate_comparator_layers.py",
+      "role": "retained published experiment file",
+      "sha256": "84512dbc5dcdcaa99267b10d9635ca4dfaecc509c0812b8bcfefd8a0abd8b88f"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/src/validate_source_freeze.py",
+      "role": "retained published experiment file",
+      "sha256": "5ae99c3091d6752bed1bf5f8da4a46fc66e336dc88d7bc4c54c7c9e41ae749a7"
+    },
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/src/validate_voynich_target.py",
+      "role": "retained published experiment file",
+      "sha256": "025eff8a1258db91a21c03c02c76a337f079cd1977b91cd6ca3264a4cf9810fc"
+    }
+  ],
+  "question": "What did the published GDT378 experiment establish under its frozen method?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "cross_corpus_construction_transfer",
+  "status": "HEAD_FAILED_PRIMARY_TARGET_NULL_DEGENERATE_TWO_POSTHOC_IDENTITY_LEADS",
   "title": "Cross-corpus construction-level functional transfer",
-  "voynich_scored": true
+  "updated": "2026-08-20",
+  "validation": {
+    "artifact": "experiments/yolo/gdt378_cross_corpus_construction_transfer/artifacts/gdt378_validation.json",
+    "status": "PASS"
+  }
 }

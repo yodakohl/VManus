@@ -1,34 +1,112 @@
 {
-  "schema_version": 1,
-  "experiment_id": "GDT373",
-  "slug": "functional_operator_roadmap",
-  "title": "Deduplicated internal functional-operator roadmap",
-  "created": "2026-08-19",
-  "updated": "2026-08-19",
-  "status": "FUNCTIONAL_OPERATOR_HYPOTHESES_REGISTERED_BEFORE_SEARCH",
-  "question": "Which still-unexhausted record-level functional or grammatical attack points are genuinely distinct from prior operator, substring, synonym, scope, and manifold routes?",
-  "dependencies": ["GDT327", "GDT345", "GDT346", "GDT347", "GDT003"],
-  "commands": {
-    "run": "python3 experiments/yolo/gdt373_functional_operator_roadmap/src/build.py",
-    "validate": "python3 experiments/yolo/gdt373_functional_operator_roadmap/src/validate.py"
+  "artifact_policy": {
+    "large_artifact_justification": "Administrative binding of already published exhaustive artifacts; no new artifact generated.",
+    "max_inline_bytes": 5000000
   },
-  "sealed_data": {"f84r": "FORBIDDEN", "f84": "FORBIDDEN"},
-  "claim_ceiling": "Ranked route registry and common discovery contract only; no function, morpheme, POS, language, plaintext, meaning, or translation.",
-  "artifact_policy": {"max_inline_bytes": 5000000, "large_artifact_justification": ""},
+  "claim_ceiling": "RANKED_DEDUPLICATED_ROUTE_REGISTRY_ONLY",
+  "commands": {
+    "run": "./vpy experiments/yolo/gdt373_functional_operator_roadmap/src/build.py",
+    "validate": "./vpy experiments/yolo/gdt373_functional_operator_roadmap/src/validate_manifest_wrapper.py"
+  },
+  "created": "2026-08-19",
+  "dependencies": [
+    "GDT327",
+    "GDT345",
+    "GDT346",
+    "GDT347",
+    "GDT003"
+  ],
+  "experiment_id": "GDT373",
   "inputs": [
-    {"path": "VOYNICH_ACTIVE_STATE.md", "role": "authoritative active claims"},
-    {"path": "experiments/semantic_assumptions/ACTIVE_EXPERIMENT_LEDGER.tsv", "role": "active experiment routing ledger"},
-    {"path": "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv", "role": "closed-route registry"},
-    {"path": "gdt327_result.json", "role": "atomic joint-tuple interface"}
+    {
+      "path": "experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv",
+      "role": "hash-bound published scientific input",
+      "sha256": "04bdef4c434a96324df0b2ef9c508a65ec9533b467fc9ad4a6910b33a1d36d99"
+    },
+    {
+      "path": "gdt327_result.json",
+      "role": "hash-bound published scientific input",
+      "sha256": "5403a0205410686e740059d1a5692f1fc08c96314552248f005fdd235255ea5a"
+    }
   ],
   "outputs": [
-    {"path": "experiments/yolo/gdt373_functional_operator_roadmap/METHOD.md", "role": "pre-search method freeze"},
-    {"path": "experiments/yolo/gdt373_functional_operator_roadmap/REPORT.md", "role": "route report"},
-    {"path": "experiments/yolo/gdt373_functional_operator_roadmap/artifacts/gdt373_hypothesis_registry.tsv", "role": "ranked hypothesis registry"},
-    {"path": "experiments/yolo/gdt373_functional_operator_roadmap/artifacts/gdt373_prior_route_crosswalk.tsv", "role": "deduplication crosswalk"},
-    {"path": "experiments/yolo/gdt373_functional_operator_roadmap/artifacts/gdt373_candidate_signature_schema.tsv", "role": "candidate schema"},
-    {"path": "experiments/yolo/gdt373_functional_operator_roadmap/artifacts/gdt373_result.json", "role": "compact result"},
-    {"path": "experiments/yolo/gdt373_functional_operator_roadmap/artifacts/gdt373_validation.json", "role": "validation"}
+    {
+      "path": "experiments/yolo/gdt373_functional_operator_roadmap/ADMINISTRATIVE_MANIFEST_MIGRATION.md",
+      "role": "retained published experiment file",
+      "sha256": "3e8c3cdb18e9d2d6eead1f754b8e40f48a596b23400c3839b524f9f38f36a8f3"
+    },
+    {
+      "path": "experiments/yolo/gdt373_functional_operator_roadmap/METHOD.md",
+      "role": "retained published experiment file",
+      "sha256": "2e67f18856d045dfc9cf07b1f30bab6cecd5c17f7812aa82e0525decc293bf0e"
+    },
+    {
+      "path": "experiments/yolo/gdt373_functional_operator_roadmap/README.md",
+      "role": "retained published experiment file",
+      "sha256": "aa75d751163656020a95895a5219b38d95614dceb2ac94c91bda1e466814d1b0"
+    },
+    {
+      "path": "experiments/yolo/gdt373_functional_operator_roadmap/REPORT.md",
+      "role": "retained published experiment file",
+      "sha256": "bd59d52be7ea00a458506724fd72b17f5bf402364112df34c5bd06be732f01c7"
+    },
+    {
+      "path": "experiments/yolo/gdt373_functional_operator_roadmap/artifacts/README.md",
+      "role": "retained published experiment file",
+      "sha256": "7a703f1d8212be8374a1d41de73165fb63c623d815466c730c69688d3aec0887"
+    },
+    {
+      "path": "experiments/yolo/gdt373_functional_operator_roadmap/artifacts/gdt373_candidate_signature_schema.tsv",
+      "role": "retained published experiment file",
+      "sha256": "3c9e168e77e5f56193885dc13f1ce6a6c32c3b7804e852901887ee4d46763ea7"
+    },
+    {
+      "path": "experiments/yolo/gdt373_functional_operator_roadmap/artifacts/gdt373_hypothesis_registry.tsv",
+      "role": "retained published experiment file",
+      "sha256": "baed51d625fb685cb667f4c4103c0f468d10f264eaa75a1552b959fe8d212da8"
+    },
+    {
+      "path": "experiments/yolo/gdt373_functional_operator_roadmap/artifacts/gdt373_prior_route_crosswalk.tsv",
+      "role": "retained published experiment file",
+      "sha256": "196aadb28863826d2ecb1d7369872844179bb058e5d58a4e6a8a92847b1d959b"
+    },
+    {
+      "path": "experiments/yolo/gdt373_functional_operator_roadmap/artifacts/gdt373_result.json",
+      "role": "retained published experiment file",
+      "sha256": "efdf91bc880425ae9d68016edbcbec4f6e3809d00fcd81e6d6d9430247a39297"
+    },
+    {
+      "path": "experiments/yolo/gdt373_functional_operator_roadmap/artifacts/gdt373_validation.json",
+      "role": "retained published experiment file",
+      "sha256": "e50ef0a55dc8875630cc61dd10c1cdc376e7d423e4f767dd5e9e2773b5b8d600"
+    },
+    {
+      "path": "experiments/yolo/gdt373_functional_operator_roadmap/src/build.py",
+      "role": "retained published experiment file",
+      "sha256": "602c0afaf7527f9065258632cbe02a3d42429fa1290e35e53c569a3bc78f679f"
+    },
+    {
+      "path": "experiments/yolo/gdt373_functional_operator_roadmap/src/validate.py",
+      "role": "retained published experiment file",
+      "sha256": "29fb5b7d25078f6c03f752bbe9fc2ee8fb4d70e62c100513d57b24290de21439"
+    },
+    {
+      "path": "experiments/yolo/gdt373_functional_operator_roadmap/src/validate_manifest_wrapper.py",
+      "role": "retained published experiment file",
+      "sha256": "e5bf6acc743af9069ee490026c070362c5bd631348e646370721567be36d2237"
+    }
   ],
-  "validation": {"artifact": "experiments/yolo/gdt373_functional_operator_roadmap/artifacts/gdt373_validation.json", "status": "PASS"}
+  "question": "Which still-unexhausted record-level functional or grammatical attack points are genuinely distinct from prior operator, substring, synonym, scope, and manifold routes? 2 historical live-path input binding(s) are preserved inside the compact result but omitted from the current-byte wrapper because the path advanced or disappeared. 2 historical live-path input binding(s) are preserved inside the compact result but omitted from the current-byte wrapper because the path advanced or disappeared. 2 historical live-path input binding(s) are preserved inside the compact result but omitted from the current-byte wrapper because the path advanced or disappeared.",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "functional_operator_roadmap",
+  "status": "FUNCTIONAL_OPERATOR_HYPOTHESES_REGISTERED_BEFORE_SEARCH",
+  "title": "Deduplicated internal functional-operator roadmap",
+  "updated": "2026-08-20",
+  "validation": {
+    "artifact": "experiments/yolo/gdt373_functional_operator_roadmap/artifacts/gdt373_validation.json",
+    "status": "PASS"
+  }
 }

@@ -1,0 +1,116 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "Administrative binding of already published exhaustive artifacts; no new artifact generated.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "REPLICATED_WITHIN_FOLIO_ANONYMOUS_FORMAL_PAGE_PROFILE_CHANGE_ONLY_NO_LEXICAL_OR_SEMANTIC_CLAIM",
+  "commands": {
+    "run": "./vpy experiments/yolo/gdt366_matched_reproductive_delta/src/run.py",
+    "validate": "./vpy experiments/yolo/gdt366_matched_reproductive_delta/src/validate.py"
+  },
+  "created": "2026-08-19",
+  "dependencies": [],
+  "experiment_id": "GDT366",
+  "inputs": [
+    {
+      "path": "experiments/semantic_assumptions/results/existing_human_page_annotations.tsv",
+      "role": "hash-bound published scientific input",
+      "sha256": "b358f244cbe853448dd5c32dbc04004cb8ce63d9a8c5ed5afe2a679a115d87fa"
+    },
+    {
+      "path": "experiments/semantic_assumptions/results/source_sta_family_consensus_groups.tsv",
+      "role": "hash-bound published scientific input",
+      "sha256": "a202d93498e8a350a5d7e0ca46e831dcc37ea5c0182dc404d63cb797a98b1225"
+    },
+    {
+      "path": "experiments/yolo/gdt363_leaf_margin_formal_atlas/src/run.py",
+      "role": "hash-bound published scientific input",
+      "sha256": "950f1c4624c4c33dbd97e58e86c34c641944d2d021b1b69bd77b75bb2359b3ae"
+    },
+    {
+      "path": "experiments/yolo/gdt365_distributed_visual_formal_signal/artifacts/gdt365_feature_manifest.tsv",
+      "role": "hash-bound published scientific input",
+      "sha256": "ebc891b5a480fad86a668021c9fb064168575e546d036b220a84a0a5640207bd"
+    },
+    {
+      "path": "experiments/yolo/gdt366_matched_reproductive_delta/METHOD.md",
+      "role": "hash-bound published scientific input",
+      "sha256": "34183cff6e0e353e7af1dad1c1c6664b04950d97fd4073ce973bd7c18f360b70"
+    },
+    {
+      "path": "experiments/yolo/gdt366_matched_reproductive_delta/artifacts/gdt366_freeze.json",
+      "role": "hash-bound published scientific input",
+      "sha256": "fa9808316fe05c1707c95c57dccdbb534cb5c7b7ca038a1405e39b55b3cf91f8"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt366_matched_reproductive_delta/METHOD.md",
+      "role": "retained published experiment file",
+      "sha256": "34183cff6e0e353e7af1dad1c1c6664b04950d97fd4073ce973bd7c18f360b70"
+    },
+    {
+      "path": "experiments/yolo/gdt366_matched_reproductive_delta/REPORT.md",
+      "role": "retained published experiment file",
+      "sha256": "256f1fdd4e27b885a23f49c7b9110f91f09a55bd7cacb34dc2b760d7ad80f190"
+    },
+    {
+      "path": "experiments/yolo/gdt366_matched_reproductive_delta/artifacts/gdt366_counterexamples.tsv",
+      "role": "retained published experiment file",
+      "sha256": "43b3b1a764b0a41b4c979c8d624096d04b35ad373926283f2d6672df1ba5af37"
+    },
+    {
+      "path": "experiments/yolo/gdt366_matched_reproductive_delta/artifacts/gdt366_freeze.json",
+      "role": "retained published experiment file",
+      "sha256": "fa9808316fe05c1707c95c57dccdbb534cb5c7b7ca038a1405e39b55b3cf91f8"
+    },
+    {
+      "path": "experiments/yolo/gdt366_matched_reproductive_delta/artifacts/gdt366_null_folio_inventory.tsv",
+      "role": "retained published experiment file",
+      "sha256": "dc6aa289543524a54cc2c250abdbb2609a57338f898ba5f6a9e9494bab88278f"
+    },
+    {
+      "path": "experiments/yolo/gdt366_matched_reproductive_delta/artifacts/gdt366_result.json",
+      "role": "retained published experiment file",
+      "sha256": "41937184507ff4e0b6039b3b05ad9037b4b54ffb5d06bea79dea7f8745601318"
+    },
+    {
+      "path": "experiments/yolo/gdt366_matched_reproductive_delta/artifacts/gdt366_validation.json",
+      "role": "retained published experiment file",
+      "sha256": "9f0c96b288093323948def026d78bab5d6131170dcdcbe8a222245c8b59cbd8b"
+    },
+    {
+      "path": "experiments/yolo/gdt366_matched_reproductive_delta/src/freeze.py",
+      "role": "retained published experiment file",
+      "sha256": "d14a71bcbdde36d7ecf9fc948f67a4eaca32d4a7d3746f92185159a7a0446e74"
+    },
+    {
+      "path": "experiments/yolo/gdt366_matched_reproductive_delta/src/run.py",
+      "role": "retained published experiment file",
+      "sha256": "7a941937d3dc6efbec6ab5493404996bf4df8378f85a76a97e1de5c5e2fb7215"
+    },
+    {
+      "path": "experiments/yolo/gdt366_matched_reproductive_delta/src/validate.py",
+      "role": "retained published experiment file",
+      "sha256": "dafa1da9a08fc19b1bea6156f5524155b2a8bdbaeaf2ccd64eedb2ab8bd5afc6"
+    },
+    {
+      "path": "experiments/yolo/gdt366_matched_reproductive_delta/src/validate_freeze.py",
+      "role": "retained published experiment file",
+      "sha256": "de1e7496d8d7d0ed9e27c67d09f966b5ed62a64e5aef7d21beb74620a514628b"
+    }
+  ],
+  "question": "What did the published GDT366 experiment establish under its frozen method?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "matched_reproductive_delta",
+  "status": "MATCHED_DELTA_NOT_ALIGNED",
+  "title": "GDT366 matched reproductive delta report",
+  "updated": "2026-08-20",
+  "validation": {
+    "artifact": "experiments/yolo/gdt366_matched_reproductive_delta/artifacts/gdt366_validation.json",
+    "status": "PASS"
+  }
+}

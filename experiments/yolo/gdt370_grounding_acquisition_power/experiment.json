@@ -1,32 +1,114 @@
 {
-  "schema_version": 1,
-  "experiment_id": "GDT370",
-  "slug": "grounding_acquisition_power",
-  "title": "Prospective grounding-acquisition power design",
-  "created": "2026-08-19",
-  "updated": "2026-08-19",
-  "status": "NO_TESTED_DESIGN_REACHES_FROZEN_POWER_GATE",
-  "question": "How much independent acquisition capacity is needed to distinguish stable visual-formal grounding from postselected or array-reversing associations?",
-  "dependencies": ["GDT368", "GDT369"],
-  "commands": {
-    "run": "python3 experiments/yolo/gdt370_grounding_acquisition_power/src/run.py",
-    "validate": "python3 experiments/yolo/gdt370_grounding_acquisition_power/src/validate.py"
+  "artifact_policy": {
+    "large_artifact_justification": "Administrative binding of already published exhaustive artifacts; no new artifact generated.",
+    "max_inline_bytes": 5000000
   },
-  "sealed_data": {"f84r": "FORBIDDEN", "f84": "FORBIDDEN"},
-  "claim_ceiling": "Synthetic prospective acquisition-capacity calibration only; no Voynich association, object, role, word, language, plaintext, meaning, or translation.",
-  "artifact_policy": {"max_inline_bytes": 5000000, "large_artifact_justification": ""},
+  "claim_ceiling": "SYNTHETIC_PROSPECTIVE_ACQUISITION_CAPACITY_ONLY",
+  "commands": {
+    "run": "./vpy experiments/yolo/gdt370_grounding_acquisition_power/src/run.py",
+    "validate": "./vpy experiments/yolo/gdt370_grounding_acquisition_power/src/validate.py"
+  },
+  "created": "2026-08-19",
+  "dependencies": [
+    "GDT368",
+    "GDT369"
+  ],
+  "experiment_id": "GDT370",
   "inputs": [
-    {"path": "experiments/yolo/gdt368_quantitative_component_geometry/artifacts/gdt368_result.json", "role": "observed postselected association motivation"},
-    {"path": "experiments/yolo/gdt369_order_preserving_geometry_null/artifacts/gdt369_result.json", "role": "observed order-matched falsifier motivation"}
+    {
+      "path": "experiments/yolo/gdt368_quantitative_component_geometry/artifacts/gdt368_result.json",
+      "role": "hash-bound published scientific input",
+      "sha256": "fcf93fdc6ea0e29606e49c2b2c52ef668470b8121228158316e77818c8ff1b37"
+    },
+    {
+      "path": "experiments/yolo/gdt369_order_preserving_geometry_null/artifacts/gdt369_result.json",
+      "role": "hash-bound published scientific input",
+      "sha256": "719e1a7013eaa7d65ce5667c667a0baaa63c62279e10ea46c0136e379e74270d"
+    }
   ],
   "outputs": [
-    {"path": "experiments/yolo/gdt370_grounding_acquisition_power/METHOD.md", "role": "public pre-simulation freeze"},
-    {"path": "experiments/yolo/gdt370_grounding_acquisition_power/REPORT.md", "role": "result report"},
-    {"path": "experiments/yolo/gdt370_grounding_acquisition_power/artifacts/gdt370_power_grid.tsv", "role": "complete aggregate simulation grid"},
-    {"path": "experiments/yolo/gdt370_grounding_acquisition_power/artifacts/gdt370_design_thresholds.tsv", "role": "design gate table"},
-    {"path": "experiments/yolo/gdt370_grounding_acquisition_power/artifacts/gdt370_counterexamples.tsv", "role": "counterexample audit"},
-    {"path": "experiments/yolo/gdt370_grounding_acquisition_power/artifacts/gdt370_result.json", "role": "compact bound result"},
-    {"path": "experiments/yolo/gdt370_grounding_acquisition_power/artifacts/gdt370_validation.json", "role": "integrity and gate validation"}
+    {
+      "path": "experiments/yolo/gdt370_grounding_acquisition_power/CORRECTION.md",
+      "role": "retained published experiment file",
+      "sha256": "b1f5026f13ebb0c1dbe9dd0519eafa4cc4b5c44b9917d376f84b831043a898d3"
+    },
+    {
+      "path": "experiments/yolo/gdt370_grounding_acquisition_power/METHOD.md",
+      "role": "retained published experiment file",
+      "sha256": "61e15604bfbdefd25a8616d6cc54cf5d6501e2838ee41ddf821767d2b501ec55"
+    },
+    {
+      "path": "experiments/yolo/gdt370_grounding_acquisition_power/README.md",
+      "role": "retained published experiment file",
+      "sha256": "6fdf144a9114ff9497d232f86fc950e483528582bb0015b915f5391653f94792"
+    },
+    {
+      "path": "experiments/yolo/gdt370_grounding_acquisition_power/REPORT.md",
+      "role": "retained published experiment file",
+      "sha256": "01e469c42c04c109744258e325acdfe571a3550e321911de9d9ab3421781e837"
+    },
+    {
+      "path": "experiments/yolo/gdt370_grounding_acquisition_power/artifacts/README.md",
+      "role": "retained published experiment file",
+      "sha256": "b9eb341ac2f525ac2eeb5c13d17e8f3d12d52892c1c5f0027bcdf0b2b81de804"
+    },
+    {
+      "path": "experiments/yolo/gdt370_grounding_acquisition_power/artifacts/gdt370_counterexamples.tsv",
+      "role": "retained published experiment file",
+      "sha256": "537ee91aa5f1ff8b85762576c601cc1a7990cea994ffe7b04eb7833746b883e9"
+    },
+    {
+      "path": "experiments/yolo/gdt370_grounding_acquisition_power/artifacts/gdt370_design_thresholds.tsv",
+      "role": "retained published experiment file",
+      "sha256": "962a49d27118690ee016a71b64ea7b7859fe3083d39a8bf093c7105e3dbe793a"
+    },
+    {
+      "path": "experiments/yolo/gdt370_grounding_acquisition_power/artifacts/gdt370_power_grid.tsv",
+      "role": "retained published experiment file",
+      "sha256": "6f6d2fccfc5e0bf7ecd697dbb22af4c781610d9c55fdc47468e8b5ac22d0ddf3"
+    },
+    {
+      "path": "experiments/yolo/gdt370_grounding_acquisition_power/artifacts/gdt370_result.json",
+      "role": "retained published experiment file",
+      "sha256": "1c13ccf4c1918d10bc51d5e945d34c0ddc68b93145be81392b7bba73f5f75222"
+    },
+    {
+      "path": "experiments/yolo/gdt370_grounding_acquisition_power/artifacts/gdt370_validation.json",
+      "role": "retained published experiment file",
+      "sha256": "37b56919f1862e660c35144aa6c6a2deb0a180de26a90d8390c7a2be61a8c2f2"
+    },
+    {
+      "path": "experiments/yolo/gdt370_grounding_acquisition_power/src/__pycache__/run.cpython-312.pyc",
+      "role": "retained published experiment file",
+      "sha256": "a765152849976a1559cf5478c28283286481ae68c37091f50121272be2d3308f"
+    },
+    {
+      "path": "experiments/yolo/gdt370_grounding_acquisition_power/src/__pycache__/validate.cpython-312.pyc",
+      "role": "retained published experiment file",
+      "sha256": "32ac2aeab09c58fb80077d18c3dd6d834fe40774d57587c287d88c8fd7fa7335"
+    },
+    {
+      "path": "experiments/yolo/gdt370_grounding_acquisition_power/src/run.py",
+      "role": "retained published experiment file",
+      "sha256": "fc4f946de29df079c224cc003481f1721bec0f76f57c85bc07a51488227cad8d"
+    },
+    {
+      "path": "experiments/yolo/gdt370_grounding_acquisition_power/src/validate.py",
+      "role": "retained published experiment file",
+      "sha256": "a78697f1b2ca7c5b4d0cee325dcf5bdad95cde6116c630b702160e235b0fafc7"
+    }
   ],
-  "validation": {"artifact": "experiments/yolo/gdt370_grounding_acquisition_power/artifacts/gdt370_validation.json", "status": "PASS"}
+  "question": "How much independent acquisition capacity is needed to distinguish stable visual-formal grounding from postselected or array-reversing associations?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "grounding_acquisition_power",
+  "status": "NO_TESTED_DESIGN_REACHES_FROZEN_POWER_GATE",
+  "title": "Prospective grounding-acquisition power design",
+  "updated": "2026-08-20",
+  "validation": {
+    "artifact": "experiments/yolo/gdt370_grounding_acquisition_power/artifacts/gdt370_validation.json",
+    "status": "PASS"
+  }
 }

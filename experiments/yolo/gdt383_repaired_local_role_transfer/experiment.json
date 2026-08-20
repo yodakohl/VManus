@@ -1,7 +1,171 @@
 {
+  "artifact_policy": {
+    "large_artifact_justification": "Administrative binding of already published exhaustive artifacts; no new artifact generated.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "COMPARATOR_POSITIVE_CONTROL_REPAIRED_INSTRUMENT_ONLY",
+  "commands": {
+    "run": "./vpy experiments/yolo/gdt383_repaired_local_role_transfer/src/finalize_stage_a.py",
+    "validate": "./vpy tools/validate_migrated_yolo_experiment.py experiments/yolo/gdt383_repaired_local_role_transfer"
+  },
+  "created": "2026-08-19",
+  "dependencies": [],
   "experiment_id": "GDT383",
-  "name": "repaired multi-resolution local-role transfer with disjoint prediction",
-  "stage": "STAGE_A_PRE_OUTCOME_FREEZE",
-  "voynich_access_authorized": false,
-  "f84_access": false
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/artifacts/gdt378_hidden_oracle.tsv.gz",
+      "role": "hash-bound published scientific input",
+      "sha256": "35568bb5ae417bd725af03abbd09ce7d7dc3fbf3b64fb77bf00299603893de02"
+    },
+    {
+      "path": "experiments/yolo/gdt382_voynichification_methodology_audit/artifacts/gdt382_voynichified_observation_layer.tsv.gz",
+      "role": "hash-bound published scientific input",
+      "sha256": "4c20dc0dd234f9b1947ce9c81d9d1c8645e30a1fd81321b6a9be755b3d229896"
+    },
+    {
+      "path": "experiments/yolo/gdt383_repaired_local_role_transfer/artifacts/gdt383_stage_a_freeze.json",
+      "role": "hash-bound published scientific input",
+      "sha256": "918ce513e8f1c65e122935a4efd5926016f5bfab6ed074157c84225a4c429f00"
+    },
+    {
+      "path": "tools/validate_migrated_yolo_experiment.py",
+      "role": "administrative structured-manifest validator",
+      "sha256": "ab8a06abc87c42dfbb7d6cd32af780fa0996605f2df4fe4a7d484fc7a941d9b1"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt383_repaired_local_role_transfer/METHOD.md",
+      "role": "retained published experiment file",
+      "sha256": "ac3c8a28f70cca9f237adaf13aa189d224595bbc24df27660394163b55645079"
+    },
+    {
+      "path": "experiments/yolo/gdt383_repaired_local_role_transfer/README.md",
+      "role": "retained published experiment file",
+      "sha256": "daa24ef75b18bbafe5366d2916c501b01525d6632a2390e90c2cfad82ede3dd4"
+    },
+    {
+      "path": "experiments/yolo/gdt383_repaired_local_role_transfer/REPORT.md",
+      "role": "retained published experiment file",
+      "sha256": "f60e3158699dcf3413c5233c02e39956e5ba9475302421e6a5270b5ee0ec5628"
+    },
+    {
+      "path": "experiments/yolo/gdt383_repaired_local_role_transfer/artifacts/gdt383_channel_treatments.tsv",
+      "role": "retained published experiment file",
+      "sha256": "e4aced88a6c6f183f5a43c1db4cd16b4ae4497780b63af227f31659198cf399a"
+    },
+    {
+      "path": "experiments/yolo/gdt383_repaired_local_role_transfer/artifacts/gdt383_downstream_transfer.tsv",
+      "role": "retained published experiment file",
+      "sha256": "754ffeafe101a52a7f5af246e13b6d7b865634adc2a8bd8be57173b15d1a8065"
+    },
+    {
+      "path": "experiments/yolo/gdt383_repaired_local_role_transfer/artifacts/gdt383_null_worlds.tsv",
+      "role": "retained published experiment file",
+      "sha256": "fce5f7a134d38b1a3386f562dfa69699f1ffad1c3b99ac6726931c9273bd92bf"
+    },
+    {
+      "path": "experiments/yolo/gdt383_repaired_local_role_transfer/artifacts/gdt383_outcome_overlap.tsv",
+      "role": "retained published experiment file",
+      "sha256": "6bbf596b578739bfb772f1c283393cab7bdfc4313527652fec50951a136954d9"
+    },
+    {
+      "path": "experiments/yolo/gdt383_repaired_local_role_transfer/artifacts/gdt383_realization_controls.tsv",
+      "role": "retained published experiment file",
+      "sha256": "a922c705447d53e38ca9e5d844d39910ac3e38a7ab487323c57e90ddd819f232"
+    },
+    {
+      "path": "experiments/yolo/gdt383_repaired_local_role_transfer/artifacts/gdt383_resolution_diagnostics.tsv",
+      "role": "retained published experiment file",
+      "sha256": "71a7e88403912523f6d19ef2e23e5aa2249a65be61948b29f3ae298dcf229161"
+    },
+    {
+      "path": "experiments/yolo/gdt383_repaired_local_role_transfer/artifacts/gdt383_role_recovery.tsv",
+      "role": "retained published experiment file",
+      "sha256": "7e7a899455dd9d64ef4ab652c9d9120f60e0a090a8a85e1b6b5d7f5f5f9a842f"
+    },
+    {
+      "path": "experiments/yolo/gdt383_repaired_local_role_transfer/artifacts/gdt383_stage_a_freeze.json",
+      "role": "retained published experiment file",
+      "sha256": "918ce513e8f1c65e122935a4efd5926016f5bfab6ed074157c84225a4c429f00"
+    },
+    {
+      "path": "experiments/yolo/gdt383_repaired_local_role_transfer/artifacts/gdt383_stage_a_freeze_validation.json",
+      "role": "retained published experiment file",
+      "sha256": "81377473beb17a8009e1e8044689881016f459d3816022b67c8c632fd566750f"
+    },
+    {
+      "path": "experiments/yolo/gdt383_repaired_local_role_transfer/artifacts/gdt383_stage_a_result.json",
+      "role": "retained published experiment file",
+      "sha256": "4be6bf719e46cb23bedd5dfa15b9634d2aa4568ef5e87ef4fd3100a0292f9db2"
+    },
+    {
+      "path": "experiments/yolo/gdt383_repaired_local_role_transfer/artifacts/gdt383_stage_a_validation.json",
+      "role": "retained published experiment file",
+      "sha256": "dbb1e0c11ab11054f20fa347945aa9c7239c0cdf412671d5cc321f6849b6f5dd"
+    },
+    {
+      "path": "experiments/yolo/gdt383_repaired_local_role_transfer/src/__pycache__/finalize_stage_a.cpython-312.pyc",
+      "role": "retained published experiment file",
+      "sha256": "1ddd77bf2a1b0f202ca01682afe300960dc555dbe6c85e43fd5090d1bebcc45f"
+    },
+    {
+      "path": "experiments/yolo/gdt383_repaired_local_role_transfer/src/__pycache__/freeze_stage_a.cpython-312.pyc",
+      "role": "retained published experiment file",
+      "sha256": "fc585a8180f3705e04585dbe1c9c513d35e37673658ff6601a0e9b0e1cefca61"
+    },
+    {
+      "path": "experiments/yolo/gdt383_repaired_local_role_transfer/src/__pycache__/run_stage_a.cpython-312.pyc",
+      "role": "retained published experiment file",
+      "sha256": "e53386aaf97c9107d5cfb596a08abe273e8d6ce3a5416b78cdf5b7f9b04c81d3"
+    },
+    {
+      "path": "experiments/yolo/gdt383_repaired_local_role_transfer/src/__pycache__/validate_stage_a.cpython-312.pyc",
+      "role": "retained published experiment file",
+      "sha256": "edd5de5e395f75a722fc9b08a3dae1687a4135f0336ecede92eb25193b41f460"
+    },
+    {
+      "path": "experiments/yolo/gdt383_repaired_local_role_transfer/src/__pycache__/validate_stage_a_freeze.cpython-312.pyc",
+      "role": "retained published experiment file",
+      "sha256": "cfe10d16ea65293c0594f5aa0d0b4c47051e32835be3e53ac0778d79c311b099"
+    },
+    {
+      "path": "experiments/yolo/gdt383_repaired_local_role_transfer/src/finalize_stage_a.py",
+      "role": "retained published experiment file",
+      "sha256": "6295cbce7ab95749e53a115ddd73c46f302573ce48c7820c08ec82960014d0dc"
+    },
+    {
+      "path": "experiments/yolo/gdt383_repaired_local_role_transfer/src/freeze_stage_a.py",
+      "role": "retained published experiment file",
+      "sha256": "47620fbb44139ff99d39d85e2666d352017a215716f8565ef272e1354ceb9b08"
+    },
+    {
+      "path": "experiments/yolo/gdt383_repaired_local_role_transfer/src/run_stage_a.py",
+      "role": "retained published experiment file",
+      "sha256": "0be1f76882f9f4cba717a4adc82bd0187cb658ef41cd435ba9cf74dc8e552b94"
+    },
+    {
+      "path": "experiments/yolo/gdt383_repaired_local_role_transfer/src/validate_stage_a.py",
+      "role": "retained published experiment file",
+      "sha256": "04e65d533b81fd864bc372afde689e554550047f4eae35d8f685b9d96aa37c20"
+    },
+    {
+      "path": "experiments/yolo/gdt383_repaired_local_role_transfer/src/validate_stage_a_freeze.py",
+      "role": "retained published experiment file",
+      "sha256": "f2db116604f2a3f0ca2e4c516cb67e7742d439b4515a7d0b04ae7a64d96d18c7"
+    }
+  ],
+  "question": "What did the published GDT383 experiment establish under its frozen method?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "repaired_local_role_transfer",
+  "status": "STAGE_A_FAILED_STOP_BEFORE_VOYNICH",
+  "title": "repaired multi-resolution local-role transfer with disjoint prediction",
+  "updated": "2026-08-20",
+  "validation": {
+    "artifact": "experiments/yolo/gdt383_repaired_local_role_transfer/artifacts/gdt383_stage_a_validation.json",
+    "status": "PASS"
+  }
 }

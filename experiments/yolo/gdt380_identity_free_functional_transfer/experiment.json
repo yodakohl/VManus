@@ -1,7 +1,186 @@
 {
+  "artifact_policy": {
+    "large_artifact_justification": "Administrative binding of already published exhaustive artifacts; no new artifact generated.",
+    "max_inline_bytes": 9033604
+  },
+  "claim_ceiling": "COMPARATOR_STAGE_IDENTITY_FREE_INSTRUMENT_STOP_NO_VOYNICH_FUNCTION_CLASS",
+  "commands": {
+    "run": "./vpy experiments/yolo/gdt380_identity_free_functional_transfer/src/finalize.py",
+    "validate": "./vpy tools/validate_migrated_yolo_experiment.py experiments/yolo/gdt380_identity_free_functional_transfer"
+  },
+  "created": "2026-08-19",
+  "dependencies": [],
   "experiment_id": "GDT380",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt380_identity_free_functional_transfer/artifacts/gdt380_comparator_behavior_freeze.json",
+      "role": "hash-bound published scientific input",
+      "sha256": "829d910696cdba12489b9435bfd1cc16cc6f6113606c30af6e798b0756ef16da"
+    },
+    {
+      "path": "experiments/yolo/gdt380_identity_free_functional_transfer/artifacts/gdt380_comparator_result.json",
+      "role": "hash-bound published scientific input",
+      "sha256": "fdc776cc15bd92b4520b7581417c2a33143a23b81beb213c6148855fa41580e2"
+    },
+    {
+      "path": "experiments/yolo/gdt380_identity_free_functional_transfer/artifacts/gdt380_comparator_validation.json",
+      "role": "hash-bound published scientific input",
+      "sha256": "e0f13acc24eb8adc4f75c3c56f828906f9a242e7c3c61b12450503a0a90876f8"
+    },
+    {
+      "path": "experiments/yolo/gdt380_identity_free_functional_transfer/artifacts/gdt380_counterexamples.tsv",
+      "role": "hash-bound published scientific input",
+      "sha256": "ec5c3115c0bc30fa461ee143561de7d7a5997c4480c3519d9b4967c2f934f3fe"
+    },
+    {
+      "path": "experiments/yolo/gdt380_identity_free_functional_transfer/artifacts/gdt380_identity_free_signature_freeze.json",
+      "role": "hash-bound published scientific input",
+      "sha256": "3a882c86d8821c9cd51316964cb3188cd5f8f9f152419dab0d5ca94af5c5076e"
+    },
+    {
+      "path": "experiments/yolo/gdt380_identity_free_functional_transfer/artifacts/gdt380_null_capacity.tsv",
+      "role": "hash-bound published scientific input",
+      "sha256": "7c76246d056ec63a403c54d84fa1f6981cc7495f567437d922474e982d351ffb"
+    },
+    {
+      "path": "tools/validate_migrated_yolo_experiment.py",
+      "role": "administrative structured-manifest validator",
+      "sha256": "ab8a06abc87c42dfbb7d6cd32af780fa0996605f2df4fe4a7d484fc7a941d9b1"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt380_identity_free_functional_transfer/METHOD.md",
+      "role": "retained published experiment file",
+      "sha256": "70c87c7e60d41bb273c2971fbf4845b033f098ac3d41f2f3ec0027f56e3a9880"
+    },
+    {
+      "path": "experiments/yolo/gdt380_identity_free_functional_transfer/README.md",
+      "role": "retained published experiment file",
+      "sha256": "b455ca86c302da3fcd36a6d4b4a8718b706eb8c431eeb9775f61176cce185da7"
+    },
+    {
+      "path": "experiments/yolo/gdt380_identity_free_functional_transfer/REPORT.md",
+      "role": "retained published experiment file",
+      "sha256": "788342289fa8634cc7e765f0f1ef45a28e51939e3a4458ff91870bdddc05e873"
+    },
+    {
+      "path": "experiments/yolo/gdt380_identity_free_functional_transfer/artifacts/gdt380_behavior_feature_manifest.tsv",
+      "role": "retained published experiment file",
+      "sha256": "760c36a514069fc78ddb543cfd63a25e8874c12836212a3b814540fdbf1b6928"
+    },
+    {
+      "path": "experiments/yolo/gdt380_identity_free_functional_transfer/artifacts/gdt380_comparator_behavior_freeze.json",
+      "role": "retained published experiment file",
+      "sha256": "829d910696cdba12489b9435bfd1cc16cc6f6113606c30af6e798b0756ef16da"
+    },
+    {
+      "path": "experiments/yolo/gdt380_identity_free_functional_transfer/artifacts/gdt380_comparator_family_summary.tsv",
+      "role": "retained published experiment file",
+      "sha256": "125de26e0631508c1a032700df550f41b39ca45c2e522f4eeb16b33d4235ef6c"
+    },
+    {
+      "path": "experiments/yolo/gdt380_identity_free_functional_transfer/artifacts/gdt380_comparator_fold_scores.tsv",
+      "role": "retained published experiment file",
+      "sha256": "736380cff84e5d632df3fedfedb81a54e0363ca54a66795d4effe5f327b92999"
+    },
+    {
+      "path": "experiments/yolo/gdt380_identity_free_functional_transfer/artifacts/gdt380_comparator_freeze_result.json",
+      "role": "retained published experiment file",
+      "sha256": "87e312de9e7ae7dbcbf84ae43397de41a041d9d51303c15811408fb9fc8bdfec"
+    },
+    {
+      "path": "experiments/yolo/gdt380_identity_free_functional_transfer/artifacts/gdt380_comparator_freeze_validation.json",
+      "role": "retained published experiment file",
+      "sha256": "72ebe47010566731bc58a7ca904adc376d0254fc8e736b8d4ea292ce091655de"
+    },
+    {
+      "path": "experiments/yolo/gdt380_identity_free_functional_transfer/artifacts/gdt380_comparator_null.tsv.gz",
+      "role": "retained published experiment file",
+      "sha256": "7b3d0ebc1bcfc93b285e9f49bc0c1d276fec45993f1bfc3a61db0228286592fd"
+    },
+    {
+      "path": "experiments/yolo/gdt380_identity_free_functional_transfer/artifacts/gdt380_comparator_predictions.tsv.gz",
+      "role": "retained published experiment file",
+      "sha256": "d000bf461d137d7db0a6de1fe71e4ae6767f239c611d4dce41a763635ee9cb38"
+    },
+    {
+      "path": "experiments/yolo/gdt380_identity_free_functional_transfer/artifacts/gdt380_comparator_result.json",
+      "role": "retained published experiment file",
+      "sha256": "fdc776cc15bd92b4520b7581417c2a33143a23b81beb213c6148855fa41580e2"
+    },
+    {
+      "path": "experiments/yolo/gdt380_identity_free_functional_transfer/artifacts/gdt380_comparator_validation.json",
+      "role": "retained published experiment file",
+      "sha256": "e0f13acc24eb8adc4f75c3c56f828906f9a242e7c3c61b12450503a0a90876f8"
+    },
+    {
+      "path": "experiments/yolo/gdt380_identity_free_functional_transfer/artifacts/gdt380_counterexamples.tsv",
+      "role": "retained published experiment file",
+      "sha256": "ec5c3115c0bc30fa461ee143561de7d7a5997c4480c3519d9b4967c2f934f3fe"
+    },
+    {
+      "path": "experiments/yolo/gdt380_identity_free_functional_transfer/artifacts/gdt380_identity_free_signature_freeze.json",
+      "role": "retained published experiment file",
+      "sha256": "3a882c86d8821c9cd51316964cb3188cd5f8f9f152419dab0d5ca94af5c5076e"
+    },
+    {
+      "path": "experiments/yolo/gdt380_identity_free_functional_transfer/artifacts/gdt380_null_capacity.tsv",
+      "role": "retained published experiment file",
+      "sha256": "7c76246d056ec63a403c54d84fa1f6981cc7495f567437d922474e982d351ffb"
+    },
+    {
+      "path": "experiments/yolo/gdt380_identity_free_functional_transfer/artifacts/gdt380_result.json",
+      "role": "retained published experiment file",
+      "sha256": "627e52d393992435bcad2b3dc4bf389f94cce3e56b7ec201913e4cbaccfaa265"
+    },
+    {
+      "path": "experiments/yolo/gdt380_identity_free_functional_transfer/artifacts/gdt380_validation.json",
+      "role": "retained published experiment file",
+      "sha256": "4152a69d0e8817bcb61eb1733afd253ff9d77921668ec8b4e08456f5a12af59b"
+    },
+    {
+      "path": "experiments/yolo/gdt380_identity_free_functional_transfer/src/finalize.py",
+      "role": "retained published experiment file",
+      "sha256": "f434998ca99a5a188332032a7608a35630124a1139f463935eca57bee98c534e"
+    },
+    {
+      "path": "experiments/yolo/gdt380_identity_free_functional_transfer/src/freeze_comparator.py",
+      "role": "retained published experiment file",
+      "sha256": "b6082ed2d50d53ab2dbc0c671f1c2be3ab2d6204ca5a349e1082c64518250d80"
+    },
+    {
+      "path": "experiments/yolo/gdt380_identity_free_functional_transfer/src/run_comparator.py",
+      "role": "retained published experiment file",
+      "sha256": "8302d69ffc337d2d20715ef4c23914fdd6871f7e442ca78e996c837a1f173947"
+    },
+    {
+      "path": "experiments/yolo/gdt380_identity_free_functional_transfer/src/validate_comparator.py",
+      "role": "retained published experiment file",
+      "sha256": "015b0ecb5346ac22540bf892e72cf6be86572405ecf44719de803e3065599c20"
+    },
+    {
+      "path": "experiments/yolo/gdt380_identity_free_functional_transfer/src/validate_comparator_freeze.py",
+      "role": "retained published experiment file",
+      "sha256": "6bc0369a016ff83300b363f04197928ebdc7f2ab5a7c31767f0d03041a2431e8"
+    },
+    {
+      "path": "experiments/yolo/gdt380_identity_free_functional_transfer/src/validate_final.py",
+      "role": "retained published experiment file",
+      "sha256": "558559567a84918443d9a5b1fcaa310c19bfbf6e71c82235fb9bf09112238328"
+    }
+  ],
+  "question": "What did the published GDT380 experiment establish under its frozen method?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "identity_free_functional_transfer",
+  "status": "NO_IDENTITY_FREE_SIGNATURE_PASSED_COMPARATOR_GATE",
   "title": "Identity-free functional-operator transfer",
-  "status": "COMPARATOR_BEHAVIOR_FREEZE",
-  "semantic_state": "UNASSIGNED",
-  "f84_access_authorized": false
+  "updated": "2026-08-20",
+  "validation": {
+    "artifact": "experiments/yolo/gdt380_identity_free_functional_transfer/artifacts/gdt380_validation.json",
+    "status": "PASS"
+  }
 }

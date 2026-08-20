@@ -1,7 +1,201 @@
 {
+  "artifact_policy": {
+    "large_artifact_justification": "Administrative binding of already published exhaustive artifacts; no new artifact generated.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "COMPARATOR_ROLE_RELATION_INSTRUMENT_FAILURE_ONLY",
+  "commands": {
+    "run": "./vpy experiments/yolo/gdt384_role_specific_relational_consequence/src/finalize_stage_a.py",
+    "validate": "./vpy tools/validate_migrated_yolo_experiment.py experiments/yolo/gdt384_role_specific_relational_consequence"
+  },
+  "created": "2026-08-19",
+  "dependencies": [],
   "experiment_id": "GDT384",
-  "name": "role-specific relational consequence calibration",
-  "stage": "STAGE_A_PRE_RELATION_FREEZE",
-  "voynich_access_authorized": false,
-  "f84_access": false
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/artifacts/gdt378_hidden_oracle.tsv.gz",
+      "role": "hash-bound published scientific input",
+      "sha256": "35568bb5ae417bd725af03abbd09ce7d7dc3fbf3b64fb77bf00299603893de02"
+    },
+    {
+      "path": "experiments/yolo/gdt382_voynichification_methodology_audit/artifacts/gdt382_voynichified_observation_layer.tsv.gz",
+      "role": "hash-bound published scientific input",
+      "sha256": "4c20dc0dd234f9b1947ce9c81d9d1c8645e30a1fd81321b6a9be755b3d229896"
+    },
+    {
+      "path": "experiments/yolo/gdt384_role_specific_relational_consequence/artifacts/gdt384_hidden_relational_oracle.tsv.gz",
+      "role": "hash-bound published scientific input",
+      "sha256": "66d03f8c89f0e843cf87432e7c6c906100fdcaab6ef1bceef8d1b886407d9502"
+    },
+    {
+      "path": "experiments/yolo/gdt384_role_specific_relational_consequence/artifacts/gdt384_stage_a_freeze.json",
+      "role": "hash-bound published scientific input",
+      "sha256": "cde0dcd03a931f0b80059a93886ed68a36f697efaf40c609262cca77f88fa819"
+    },
+    {
+      "path": "tools/validate_migrated_yolo_experiment.py",
+      "role": "administrative structured-manifest validator",
+      "sha256": "ab8a06abc87c42dfbb7d6cd32af780fa0996605f2df4fe4a7d484fc7a941d9b1"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt384_role_specific_relational_consequence/METHOD.md",
+      "role": "retained published experiment file",
+      "sha256": "501752e92b5feaf702499a0fafe9f74d7809b17c27753bd53c4ccf4d02aca319"
+    },
+    {
+      "path": "experiments/yolo/gdt384_role_specific_relational_consequence/README.md",
+      "role": "retained published experiment file",
+      "sha256": "feead8f9387909b31d59a5abe7fddc5c1134a8e41e4c65e654eec1a8309f590a"
+    },
+    {
+      "path": "experiments/yolo/gdt384_role_specific_relational_consequence/REPORT.md",
+      "role": "retained published experiment file",
+      "sha256": "d0da5f109790e1e5321eab00cd5201645801fc5f120399761187c72c9c60b183"
+    },
+    {
+      "path": "experiments/yolo/gdt384_role_specific_relational_consequence/SOURCE_AUDIT.md",
+      "role": "retained published experiment file",
+      "sha256": "b1a446f1a8b99a36d269b62e776c26954efae7bd9fb4e01ae35f5d2b58b924b4"
+    },
+    {
+      "path": "experiments/yolo/gdt384_role_specific_relational_consequence/artifacts/gdt384_hidden_relational_oracle.tsv.gz",
+      "role": "retained published experiment file",
+      "sha256": "66d03f8c89f0e843cf87432e7c6c906100fdcaab6ef1bceef8d1b886407d9502"
+    },
+    {
+      "path": "experiments/yolo/gdt384_role_specific_relational_consequence/artifacts/gdt384_output_audit_extension.json",
+      "role": "retained published experiment file",
+      "sha256": "066d5a8e0eda21550293bedcb6b72055847cf0b3435ce726382ddeb3df173a5a"
+    },
+    {
+      "path": "experiments/yolo/gdt384_role_specific_relational_consequence/artifacts/gdt384_priority_coordinator.tsv",
+      "role": "retained published experiment file",
+      "sha256": "6027381d626586b73dc987f9b6655ebb0054055a1f114259a2d02541b997d194"
+    },
+    {
+      "path": "experiments/yolo/gdt384_role_specific_relational_consequence/artifacts/gdt384_priority_coordinator_folds.tsv",
+      "role": "retained published experiment file",
+      "sha256": "71eb000221d3288e4bf048c27e42f335f0944980815afda6ea0f4590a9947c9d"
+    },
+    {
+      "path": "experiments/yolo/gdt384_role_specific_relational_consequence/artifacts/gdt384_priority_predictions.tsv.gz",
+      "role": "retained published experiment file",
+      "sha256": "53292e70acac62a8574056f6f7024d3fa6037ee50fc8fda917b6b9e9876e142d"
+    },
+    {
+      "path": "experiments/yolo/gdt384_role_specific_relational_consequence/artifacts/gdt384_priority_result.json",
+      "role": "retained published experiment file",
+      "sha256": "b2d1456fd463b861d7f9e309360c22038f1d95acb7920a2e9c07b920e5baf5f1"
+    },
+    {
+      "path": "experiments/yolo/gdt384_role_specific_relational_consequence/artifacts/gdt384_relation_capacity.tsv",
+      "role": "retained published experiment file",
+      "sha256": "3d837bf475fc3d2bbbb56c62801a9a7783aa450569209e7caa9edc9f9286fb8e"
+    },
+    {
+      "path": "experiments/yolo/gdt384_role_specific_relational_consequence/artifacts/gdt384_relation_oracle_build.json",
+      "role": "retained published experiment file",
+      "sha256": "e6c881dcd68d8f436afa7749d9dece0955472e7d453947c8f9d7ddc69478c88c"
+    },
+    {
+      "path": "experiments/yolo/gdt384_role_specific_relational_consequence/artifacts/gdt384_result.json",
+      "role": "retained published experiment file",
+      "sha256": "fb0ce8b89cedc167a1fde8a55fd97a737c56f2a240709bc82ab6f08579f28426"
+    },
+    {
+      "path": "experiments/yolo/gdt384_role_specific_relational_consequence/artifacts/gdt384_stage_a_freeze.json",
+      "role": "retained published experiment file",
+      "sha256": "cde0dcd03a931f0b80059a93886ed68a36f697efaf40c609262cca77f88fa819"
+    },
+    {
+      "path": "experiments/yolo/gdt384_role_specific_relational_consequence/artifacts/gdt384_stage_a_freeze_validation.json",
+      "role": "retained published experiment file",
+      "sha256": "25afbd3e7959dae75e20634e0e87c50ba4f8ec43d061c2a994d02bd64bcc8dfd"
+    },
+    {
+      "path": "experiments/yolo/gdt384_role_specific_relational_consequence/artifacts/gdt384_validation.json",
+      "role": "retained published experiment file",
+      "sha256": "1987a265967a08733e3c4f340f67268321e5e8ed6f7869ef1376aa2f9bc627a8"
+    },
+    {
+      "path": "experiments/yolo/gdt384_role_specific_relational_consequence/gdt384_relation_manifest.tsv",
+      "role": "retained published experiment file",
+      "sha256": "b7730c3a6c195d9cf69c57ab413f36ad69a857e5e967346c7d9b899a685471f7"
+    },
+    {
+      "path": "experiments/yolo/gdt384_role_specific_relational_consequence/src/__pycache__/build_relational_oracle.cpython-312.pyc",
+      "role": "retained published experiment file",
+      "sha256": "27f5b91c3623285f74ed4ee6480a85e9503037cfd4127f67b4224548ce4561b1"
+    },
+    {
+      "path": "experiments/yolo/gdt384_role_specific_relational_consequence/src/__pycache__/finalize_stage_a.cpython-312.pyc",
+      "role": "retained published experiment file",
+      "sha256": "d1e20d60be62391277141baf579057289e3ca429e7572e769ec92d0ab7ee51c6"
+    },
+    {
+      "path": "experiments/yolo/gdt384_role_specific_relational_consequence/src/__pycache__/freeze_stage_a.cpython-312.pyc",
+      "role": "retained published experiment file",
+      "sha256": "11cef5ea8345351e7ec229a0a36a0b2c1e28b24f74923b70c0362aac8262f130"
+    },
+    {
+      "path": "experiments/yolo/gdt384_role_specific_relational_consequence/src/__pycache__/run_priority_coordinator.cpython-312.pyc",
+      "role": "retained published experiment file",
+      "sha256": "8b42c7269851c1a6b18b3bde951e75c2f271d4222a5b7a07242cf1bc7fa3899c"
+    },
+    {
+      "path": "experiments/yolo/gdt384_role_specific_relational_consequence/src/__pycache__/validate_stage_a.cpython-312.pyc",
+      "role": "retained published experiment file",
+      "sha256": "3aea58ee68e58526cbba110820719c9eda012bff64666dbf440b2578b6945fbf"
+    },
+    {
+      "path": "experiments/yolo/gdt384_role_specific_relational_consequence/src/__pycache__/validate_stage_a_freeze.cpython-312.pyc",
+      "role": "retained published experiment file",
+      "sha256": "14fb0199014170832f2735ce5fedab3cb641186bd950551e6de8a904bc5b8126"
+    },
+    {
+      "path": "experiments/yolo/gdt384_role_specific_relational_consequence/src/build_relational_oracle.py",
+      "role": "retained published experiment file",
+      "sha256": "2abb94445222c244bd4db5d90d44e82145ee8ae633ef853f0f688e6ddda9f073"
+    },
+    {
+      "path": "experiments/yolo/gdt384_role_specific_relational_consequence/src/finalize_stage_a.py",
+      "role": "retained published experiment file",
+      "sha256": "747695c59c24620610d8bde7c92e9ce2ddf30d539e55818cce78778d5486d9ee"
+    },
+    {
+      "path": "experiments/yolo/gdt384_role_specific_relational_consequence/src/freeze_stage_a.py",
+      "role": "retained published experiment file",
+      "sha256": "54a3ebb0cfd2ad9e9c627b48b0a400574bc97a1a68013fd2af2a2a43be7c2c7f"
+    },
+    {
+      "path": "experiments/yolo/gdt384_role_specific_relational_consequence/src/run_priority_coordinator.py",
+      "role": "retained published experiment file",
+      "sha256": "0a074d659a714da773692d086d0d5eafbde6b699d64660cc43cfab6e8c0f3b10"
+    },
+    {
+      "path": "experiments/yolo/gdt384_role_specific_relational_consequence/src/validate_stage_a.py",
+      "role": "retained published experiment file",
+      "sha256": "1cabb68031a3b46cc51da6164a69b7edace89d0786adc75a3a1948e5e8791b3d"
+    },
+    {
+      "path": "experiments/yolo/gdt384_role_specific_relational_consequence/src/validate_stage_a_freeze.py",
+      "role": "retained published experiment file",
+      "sha256": "cf13888ad0f8f1bcc0e855de1650798b6edd6887c841eaedefddd942675ec1f7"
+    }
+  ],
+  "question": "What did the published GDT384 experiment establish under its frozen method?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "role_specific_relational_consequence",
+  "status": "PRIORITY_RELATION_UNIDENTIFIABLE_SOURCE_OVERLAP_STOP_BEFORE_VOYNICH",
+  "title": "role-specific relational consequence calibration",
+  "updated": "2026-08-20",
+  "validation": {
+    "artifact": "experiments/yolo/gdt384_role_specific_relational_consequence/artifacts/gdt384_validation.json",
+    "status": "PASS"
+  }
 }

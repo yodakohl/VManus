@@ -1,39 +1,149 @@
 {
-  "schema_version": 1,
-  "experiment_id": "GDT374",
-  "slug": "common_functional_operator_discovery",
-  "title": "Common functional-operator discovery",
-  "created": "2026-08-19",
-  "updated": "2026-08-19",
-  "status": "NO_PROMOTABLE_FUNCTIONAL_OPERATOR_FOUND",
-  "question": "Can exact record-level rewrites over atomic GDT327 tuples predict operator classes on unseen physical folios beyond layout and frequency?",
-  "dependencies": ["GDT373", "GDT327"],
-  "commands": {
-    "run": "python3 experiments/yolo/gdt374_common_functional_operator_discovery/src/run.py",
-    "validate": "python3 experiments/yolo/gdt374_common_functional_operator_discovery/src/validate.py"
+  "artifact_policy": {
+    "large_artifact_justification": "Administrative binding of already published exhaustive artifacts; no new artifact generated.",
+    "max_inline_bytes": 5000000
   },
-  "sealed_data": {"f84r": "FORBIDDEN", "f84": "FORBIDDEN"},
-  "claim_ceiling": "Anonymous record-conditioned formal rewrite behavior only; no function, morpheme, POS, sound, language, plaintext, meaning, or translation.",
-  "artifact_policy": {"max_inline_bytes": 5000000, "large_artifact_justification": ""},
+  "claim_ceiling": "ANONYMOUS_RECORD_CONDITIONED_FORMAL_REWRITE_BEHAVIOR_ONLY",
+  "commands": {
+    "run": "./vpy experiments/yolo/gdt374_common_functional_operator_discovery/src/run.py",
+    "validate": "./vpy experiments/yolo/gdt374_common_functional_operator_discovery/src/validate.py"
+  },
+  "created": "2026-08-19",
+  "dependencies": [
+    "GDT373",
+    "GDT327"
+  ],
+  "experiment_id": "GDT374",
   "inputs": [
-    {"path": "gdt327_joint_tuple_interlinear.tsv", "role": "f84-free atomic tuple interlinear"},
-    {"path": "experiments/semantic_assumptions/results/drawing_reset_segment_atlas.tsv", "role": "guarded source-native drawing/reset and separator metadata"},
-    {"path": "experiments/yolo/gdt373_functional_operator_roadmap/artifacts/gdt373_hypothesis_registry.tsv", "role": "pre-search hypothesis registry"}
+    {
+      "path": "experiments/semantic_assumptions/results/drawing_reset_segment_atlas.tsv",
+      "role": "hash-bound published scientific input",
+      "sha256": "e303f9298e5d76473e7ddd311370e3486cb9997dfb58c05df40c3fb3b4de2486"
+    },
+    {
+      "path": "experiments/yolo/gdt373_functional_operator_roadmap/artifacts/gdt373_hypothesis_registry.tsv",
+      "role": "hash-bound published scientific input",
+      "sha256": "baed51d625fb685cb667f4c4103c0f468d10f264eaa75a1552b959fe8d212da8"
+    },
+    {
+      "path": "experiments/yolo/gdt374_common_functional_operator_discovery/artifacts/gdt374_freeze.json",
+      "role": "hash-bound published scientific input",
+      "sha256": "d926a2de39dd647bfaecd18151bc7f65bac451c69116faa004c6b471970156f0"
+    },
+    {
+      "path": "gdt327_joint_tuple_interlinear.tsv",
+      "role": "hash-bound published scientific input",
+      "sha256": "7eba46774be44992064cc114f67329723ac7bf589321b0d763fb7f7f748cc1e9"
+    }
   ],
   "outputs": [
-    {"path": "experiments/yolo/gdt374_common_functional_operator_discovery/METHOD.md", "role": "public method freeze"},
-    {"path": "experiments/yolo/gdt374_common_functional_operator_discovery/REPORT.md", "role": "result report"},
-    {"path": "experiments/yolo/gdt374_common_functional_operator_discovery/artifacts/gdt374_freeze.json", "role": "machine freeze"},
-    {"path": "experiments/yolo/gdt374_common_functional_operator_discovery/artifacts/gdt374_freeze_validation.json", "role": "freeze validation"},
-    {"path": "experiments/yolo/gdt374_common_functional_operator_discovery/artifacts/gdt374_record_inventory.tsv", "role": "opaque record inventory"},
-    {"path": "experiments/yolo/gdt374_common_functional_operator_discovery/artifacts/gdt374_rewrite_events.tsv", "role": "exact rewrite events"},
-    {"path": "experiments/yolo/gdt374_common_functional_operator_discovery/artifacts/gdt374_candidate_atlas.tsv", "role": "ranked candidate atlas"},
-    {"path": "experiments/yolo/gdt374_common_functional_operator_discovery/artifacts/gdt374_holdout_predictions.tsv", "role": "held predictions"},
-    {"path": "experiments/yolo/gdt374_common_functional_operator_discovery/artifacts/gdt374_transfer_scores.tsv", "role": "transfer summary"},
-    {"path": "experiments/yolo/gdt374_common_functional_operator_discovery/artifacts/gdt374_null_results.tsv", "role": "matched null worlds"},
-    {"path": "experiments/yolo/gdt374_common_functional_operator_discovery/artifacts/gdt374_counterexamples.tsv", "role": "counterexamples"},
-    {"path": "experiments/yolo/gdt374_common_functional_operator_discovery/artifacts/gdt374_result.json", "role": "compact result"},
-    {"path": "experiments/yolo/gdt374_common_functional_operator_discovery/artifacts/gdt374_validation.json", "role": "validation"}
+    {
+      "path": "experiments/yolo/gdt374_common_functional_operator_discovery/METHOD.md",
+      "role": "retained published experiment file",
+      "sha256": "a12dada409774cdb9706d24a6713542e2c1f66151fa60a0da689c621b2cb25ba"
+    },
+    {
+      "path": "experiments/yolo/gdt374_common_functional_operator_discovery/README.md",
+      "role": "retained published experiment file",
+      "sha256": "5ea204b7b5171ac2c55032bc942d2651b6e7223749df6f36a732e6d567ae8e34"
+    },
+    {
+      "path": "experiments/yolo/gdt374_common_functional_operator_discovery/REPORT.md",
+      "role": "retained published experiment file",
+      "sha256": "5aacf87ea15b6b52e8fa529530b4e8e188ffe9d8c48778f83764e3d8fb17ffea"
+    },
+    {
+      "path": "experiments/yolo/gdt374_common_functional_operator_discovery/artifacts/README.md",
+      "role": "retained published experiment file",
+      "sha256": "886438b6203a2050745d90414f384b8a5ad11f073bc1d24974b13ab8da63ca9b"
+    },
+    {
+      "path": "experiments/yolo/gdt374_common_functional_operator_discovery/artifacts/gdt374_candidate_atlas.tsv",
+      "role": "retained published experiment file",
+      "sha256": "6db9dcca8a01cf5b0c794525d1a6dad060354247f2b6ebe133760ac5f18e1ed4"
+    },
+    {
+      "path": "experiments/yolo/gdt374_common_functional_operator_discovery/artifacts/gdt374_counterexamples.tsv",
+      "role": "retained published experiment file",
+      "sha256": "3458b2f188b7e959876e55d43d8c67531be38ac16b3526da1d6759123b970416"
+    },
+    {
+      "path": "experiments/yolo/gdt374_common_functional_operator_discovery/artifacts/gdt374_freeze.json",
+      "role": "retained published experiment file",
+      "sha256": "d926a2de39dd647bfaecd18151bc7f65bac451c69116faa004c6b471970156f0"
+    },
+    {
+      "path": "experiments/yolo/gdt374_common_functional_operator_discovery/artifacts/gdt374_freeze_validation.json",
+      "role": "retained published experiment file",
+      "sha256": "2796081db824fae25a8e52922a509eb54b6ab9cbab590334f28401d8e5f5e1da"
+    },
+    {
+      "path": "experiments/yolo/gdt374_common_functional_operator_discovery/artifacts/gdt374_holdout_predictions.tsv",
+      "role": "retained published experiment file",
+      "sha256": "ac24fa689ea622e14177153760063feb96ea4c487e69c380732cc025962c29b1"
+    },
+    {
+      "path": "experiments/yolo/gdt374_common_functional_operator_discovery/artifacts/gdt374_null_results.tsv",
+      "role": "retained published experiment file",
+      "sha256": "a84ad7d7766fa87ac18d806d4700051ce5d91e709ec4caa6023d9c92ac5e6544"
+    },
+    {
+      "path": "experiments/yolo/gdt374_common_functional_operator_discovery/artifacts/gdt374_record_inventory.tsv",
+      "role": "retained published experiment file",
+      "sha256": "8bc1838f9e34a03c69fde5751d5499a5bbf5439f74f0e64ef5d126a23e9a2d9c"
+    },
+    {
+      "path": "experiments/yolo/gdt374_common_functional_operator_discovery/artifacts/gdt374_result.json",
+      "role": "retained published experiment file",
+      "sha256": "a1e138b9588ecc2578cbbfa052bce4b8236bf63750d9d8a084b24620f79aaf48"
+    },
+    {
+      "path": "experiments/yolo/gdt374_common_functional_operator_discovery/artifacts/gdt374_rewrite_events.tsv",
+      "role": "retained published experiment file",
+      "sha256": "621ad1e51a4d233a230f8efd7c0bc9ac04fe68e717132070220cf47ea41e3338"
+    },
+    {
+      "path": "experiments/yolo/gdt374_common_functional_operator_discovery/artifacts/gdt374_transfer_scores.tsv",
+      "role": "retained published experiment file",
+      "sha256": "105e97a4e127d961cdf0d377eee73642b8ec6f136177328a8bba616b8306ea79"
+    },
+    {
+      "path": "experiments/yolo/gdt374_common_functional_operator_discovery/artifacts/gdt374_validation.json",
+      "role": "retained published experiment file",
+      "sha256": "eed62ab960afcd7d9732526897c1f9368841865c0e278dd1f80144ba102bd19b"
+    },
+    {
+      "path": "experiments/yolo/gdt374_common_functional_operator_discovery/src/freeze.py",
+      "role": "retained published experiment file",
+      "sha256": "493cbe5f4e69b00e08f048759d6942ac43324067c175cddc09c20218fc2ac8e5"
+    },
+    {
+      "path": "experiments/yolo/gdt374_common_functional_operator_discovery/src/run.py",
+      "role": "retained published experiment file",
+      "sha256": "1bcacf7e450c6396a580ab2213a89e72a482b8355499ad40d5f1d8ed8dcd8924"
+    },
+    {
+      "path": "experiments/yolo/gdt374_common_functional_operator_discovery/src/validate.py",
+      "role": "retained published experiment file",
+      "sha256": "1c4e6a2e436f97e195b70ea13f9e86d8e11e6ed2a8490c23eae4ac7cb9e5fce3"
+    },
+    {
+      "path": "experiments/yolo/gdt374_common_functional_operator_discovery/src/validate_freeze.py",
+      "role": "retained published experiment file",
+      "sha256": "8f139bd52f773807f932768703e3a57b69ef4ee19873197176272ce157afb873"
+    }
   ],
-  "validation": {"artifact": "experiments/yolo/gdt374_common_functional_operator_discovery/artifacts/gdt374_validation.json", "status": "PASS"}
+  "question": "Can exact record-level rewrites over atomic GDT327 tuples predict operator classes on unseen physical folios beyond layout and frequency?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "common_functional_operator_discovery",
+  "status": "NO_PROMOTABLE_FUNCTIONAL_OPERATOR_FOUND",
+  "title": "Common functional-operator discovery",
+  "updated": "2026-08-20",
+  "validation": {
+    "artifact": "experiments/yolo/gdt374_common_functional_operator_discovery/artifacts/gdt374_validation.json",
+    "status": "PASS"
+  }
 }

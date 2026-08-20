@@ -1,7 +1,141 @@
 {
-  "experiment": "GDT376",
-  "title": "CoReMA hidden functional oracle",
+  "artifact_policy": {
+    "large_artifact_justification": "Administrative binding of already published exhaustive artifacts; no new artifact generated.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "COMPARATOR_HELD_FUNCTIONAL_DETECTOR_CALIBRATION_ONLY",
+  "commands": {
+    "run": "./vpy experiments/yolo/gdt376_corema_hidden_function_oracle/src/run.py",
+    "validate": "./vpy experiments/yolo/gdt376_corema_hidden_function_oracle/src/validate.py"
+  },
+  "created": "2026-08-19",
+  "dependencies": [],
+  "experiment_id": "GDT376",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt375_comparator_derived_functional_roadmap/artifacts/gdt375_detector_contract.tsv",
+      "role": "hash-bound published scientific input",
+      "sha256": "76ac5adb828ee9b5b80c6a568e78e92a9c772ce6d2cd49c574039ba814460013"
+    },
+    {
+      "path": "experiments/yolo/gdt376_corema_hidden_function_oracle/artifacts/gdt376_observation_layer.tsv",
+      "role": "hash-bound published scientific input",
+      "sha256": "1af98e15019d2ec92c1f81fe8ea2568daedc568ccac822add150435e2650a097"
+    },
+    {
+      "path": "gdt176_corema_role_oracle.tsv",
+      "role": "hash-bound published scientific input",
+      "sha256": "170afc09327d7e2589107d1f4bd28f7725bfb8bcedcdd84bb9e7fb1c2c7f24ec"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt376_corema_hidden_function_oracle/METHOD.md",
+      "role": "retained published experiment file",
+      "sha256": "0acf83b5f6d03c48724e65b179d86429c477c942a3642b25b00d96c491e953a4"
+    },
+    {
+      "path": "experiments/yolo/gdt376_corema_hidden_function_oracle/README.md",
+      "role": "retained published experiment file",
+      "sha256": "19a229538d81cf70f6e7db28bb9fe63d6f822d5914c45ec9d7b357943ef7fcbf"
+    },
+    {
+      "path": "experiments/yolo/gdt376_corema_hidden_function_oracle/REPORT.md",
+      "role": "retained published experiment file",
+      "sha256": "ca89a593511d92e4dfd35daadb6e4da4c44b2183ee1d16a4db4afe8585ca9e70"
+    },
+    {
+      "path": "experiments/yolo/gdt376_corema_hidden_function_oracle/artifacts/gdt376_counterexamples.tsv",
+      "role": "retained published experiment file",
+      "sha256": "1695d76d71afcd9914c8a21752e826dbe61f9e839fc58c4198fb4e61fc1261e7"
+    },
+    {
+      "path": "experiments/yolo/gdt376_corema_hidden_function_oracle/artifacts/gdt376_design_freeze.json",
+      "role": "retained published experiment file",
+      "sha256": "ffe6dc4b8060585740b0c96fd7a899a85214db0ad0fddb3b864bba7d61d2b5fa"
+    },
+    {
+      "path": "experiments/yolo/gdt376_corema_hidden_function_oracle/artifacts/gdt376_fold_scores.tsv",
+      "role": "retained published experiment file",
+      "sha256": "f27869d0397e9c180191e3a908febbeb8dd54172545ef3400fbf518ac164e74c"
+    },
+    {
+      "path": "experiments/yolo/gdt376_corema_hidden_function_oracle/artifacts/gdt376_null.tsv",
+      "role": "retained published experiment file",
+      "sha256": "fb81d3d34a08f70b769c2dc8024d72054ede9371e93c2379c0c98c57b5d7402a"
+    },
+    {
+      "path": "experiments/yolo/gdt376_corema_hidden_function_oracle/artifacts/gdt376_observation_layer.tsv",
+      "role": "retained published experiment file",
+      "sha256": "1af98e15019d2ec92c1f81fe8ea2568daedc568ccac822add150435e2650a097"
+    },
+    {
+      "path": "experiments/yolo/gdt376_corema_hidden_function_oracle/artifacts/gdt376_oracle_endpoint_summary.tsv",
+      "role": "retained published experiment file",
+      "sha256": "11d62e56314b4b70a05a6749ef6e2f4ae7b6b764d97647f44617e8c0f7237494"
+    },
+    {
+      "path": "experiments/yolo/gdt376_corema_hidden_function_oracle/artifacts/gdt376_promoted_endpoint_predictions.tsv",
+      "role": "retained published experiment file",
+      "sha256": "95477221e9ff4e4942273e6663f666ffe160750701284b6e2196c2695fe966f3"
+    },
+    {
+      "path": "experiments/yolo/gdt376_corema_hidden_function_oracle/artifacts/gdt376_result.json",
+      "role": "retained published experiment file",
+      "sha256": "fa1050b4e1e7903b863a3026845f200d507c29000a08ce7fa206a4c326b47577"
+    },
+    {
+      "path": "experiments/yolo/gdt376_corema_hidden_function_oracle/artifacts/gdt376_transfer_gate.tsv",
+      "role": "retained published experiment file",
+      "sha256": "c556bb7965c0d965c1bbe79b9dd728191b728678a2ad91639946a9c4f7194d86"
+    },
+    {
+      "path": "experiments/yolo/gdt376_corema_hidden_function_oracle/artifacts/gdt376_validation.json",
+      "role": "retained published experiment file",
+      "sha256": "cee6be142a27096d45978e1c4f8ab1aa622cc1873d8fa91de2385a0e21fd20a8"
+    },
+    {
+      "path": "experiments/yolo/gdt376_corema_hidden_function_oracle/src/__pycache__/freeze.cpython-312.pyc",
+      "role": "retained published experiment file",
+      "sha256": "885ed7108ce81a194b3b12dc6929862659f9d73e3f26744a1282e45df2453958"
+    },
+    {
+      "path": "experiments/yolo/gdt376_corema_hidden_function_oracle/src/__pycache__/run.cpython-312.pyc",
+      "role": "retained published experiment file",
+      "sha256": "07c34ea38bb48bc758a9507a8a19e9d5c1074964ad62ad247520df46ff768134"
+    },
+    {
+      "path": "experiments/yolo/gdt376_corema_hidden_function_oracle/src/__pycache__/validate.cpython-312.pyc",
+      "role": "retained published experiment file",
+      "sha256": "ab5b19f738e21818a5b615d3c23215438f132481c67e1ae753ec7a9ed3ad1431"
+    },
+    {
+      "path": "experiments/yolo/gdt376_corema_hidden_function_oracle/src/freeze.py",
+      "role": "retained published experiment file",
+      "sha256": "9be1df706d277d5ecb353e57173cd355e96053433c34333c272d4da3cb8c3bd7"
+    },
+    {
+      "path": "experiments/yolo/gdt376_corema_hidden_function_oracle/src/run.py",
+      "role": "retained published experiment file",
+      "sha256": "d3faa0de51a770fd3b72257e307ff8d8412f1584e3891efadb35b2cb996a0a17"
+    },
+    {
+      "path": "experiments/yolo/gdt376_corema_hidden_function_oracle/src/validate.py",
+      "role": "retained published experiment file",
+      "sha256": "15a24e921711126ad18762ca23888539204de91b9c803cca4745df15aa6e6f06"
+    }
+  ],
+  "question": "What did the published GDT376 experiment establish under its frozen method?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "corema_hidden_function_oracle",
   "status": "FORM_BLIND_FUNCTIONAL_SIGNATURES_CALIBRATED",
-  "voynich_scored": false,
-  "f84_accessed": false
+  "title": "CoReMA hidden functional oracle",
+  "updated": "2026-08-20",
+  "validation": {
+    "artifact": "experiments/yolo/gdt376_corema_hidden_function_oracle/artifacts/gdt376_validation.json",
+    "status": "PASS"
+  }
 }

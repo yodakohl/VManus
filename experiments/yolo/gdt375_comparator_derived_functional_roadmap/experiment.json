@@ -1,7 +1,86 @@
 {
-  "experiment": "GDT375",
-  "title": "Comparator-derived functional-operator roadmap",
+  "artifact_policy": {
+    "large_artifact_justification": "Administrative binding of already published exhaustive artifacts; no new artifact generated.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "RANKED_COMPARATOR_FIRST_HYPOTHESIS_REGISTRY_ONLY",
+  "commands": {
+    "run": "./vpy experiments/yolo/gdt375_comparator_derived_functional_roadmap/src/build.py",
+    "validate": "./vpy experiments/yolo/gdt375_comparator_derived_functional_roadmap/src/validate.py"
+  },
+  "created": "2026-08-19",
+  "dependencies": [],
+  "experiment_id": "GDT375",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt373_functional_operator_roadmap/artifacts/gdt373_hypothesis_registry.tsv",
+      "role": "hash-bound published scientific input",
+      "sha256": "baed51d625fb685cb667f4c4103c0f468d10f264eaa75a1552b959fe8d212da8"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt375_comparator_derived_functional_roadmap/METHOD.md",
+      "role": "retained published experiment file",
+      "sha256": "8399a5e2c0b6814525ec84569320c2bfc02c84d04e8ada73b2f06e51a89933cc"
+    },
+    {
+      "path": "experiments/yolo/gdt375_comparator_derived_functional_roadmap/README.md",
+      "role": "retained published experiment file",
+      "sha256": "1e68d34e487d09caace11fa6b2454f787cf25366e1502fadbd5ab679376b8d4c"
+    },
+    {
+      "path": "experiments/yolo/gdt375_comparator_derived_functional_roadmap/REPORT.md",
+      "role": "retained published experiment file",
+      "sha256": "bb6891f81c4e3e13aa08823529f1bc9764fb49b2615d5d2e1d9edea0493bba87"
+    },
+    {
+      "path": "experiments/yolo/gdt375_comparator_derived_functional_roadmap/artifacts/gdt375_detector_contract.tsv",
+      "role": "retained published experiment file",
+      "sha256": "76ac5adb828ee9b5b80c6a568e78e92a9c772ce6d2cd49c574039ba814460013"
+    },
+    {
+      "path": "experiments/yolo/gdt375_comparator_derived_functional_roadmap/artifacts/gdt375_gdt373_crosswalk.tsv",
+      "role": "retained published experiment file",
+      "sha256": "868fb0a98c8c08d73898258da323eee01729c506867560a1aac42bf4627fa9d2"
+    },
+    {
+      "path": "experiments/yolo/gdt375_comparator_derived_functional_roadmap/artifacts/gdt375_ranked_hypothesis_registry.tsv",
+      "role": "retained published experiment file",
+      "sha256": "83289b5bd941fb1a59888de54498d267994e9d63ebe8ff08571066111bfb631e"
+    },
+    {
+      "path": "experiments/yolo/gdt375_comparator_derived_functional_roadmap/artifacts/gdt375_result.json",
+      "role": "retained published experiment file",
+      "sha256": "67909f1535f27aba724d4cba6abd25803794462e88ed0f42ba1838ff956c0999"
+    },
+    {
+      "path": "experiments/yolo/gdt375_comparator_derived_functional_roadmap/artifacts/gdt375_validation.json",
+      "role": "retained published experiment file",
+      "sha256": "986d1b735d15f7dbb6f69a378b389b149133b61e5b79eeac8097618609f60a66"
+    },
+    {
+      "path": "experiments/yolo/gdt375_comparator_derived_functional_roadmap/src/build.py",
+      "role": "retained published experiment file",
+      "sha256": "81dbcf37dac578df4452524913b27e58f5c4b3335b98e4d7e0d27a03361beccd"
+    },
+    {
+      "path": "experiments/yolo/gdt375_comparator_derived_functional_roadmap/src/validate.py",
+      "role": "retained published experiment file",
+      "sha256": "bafc61c04d34540d6048a61741ae1dac6d5f5cd62503b4448704079673815b0f"
+    }
+  ],
+  "question": "What did the published GDT375 experiment establish under its frozen method?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "comparator_derived_functional_roadmap",
   "status": "COMPARATOR_DERIVED_FUNCTIONAL_FAMILIES_REGISTERED_BEFORE_ORACLE_EVALUATION",
-  "voynich_scored": false,
-  "f84_accessed": false
+  "title": "Comparator-derived functional-operator roadmap",
+  "updated": "2026-08-20",
+  "validation": {
+    "artifact": "experiments/yolo/gdt375_comparator_derived_functional_roadmap/artifacts/gdt375_validation.json",
+    "status": "PASS"
+  }
 }

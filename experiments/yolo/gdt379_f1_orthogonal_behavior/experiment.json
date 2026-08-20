@@ -1,9 +1,206 @@
 {
+  "artifact_policy": {
+    "large_artifact_justification": "Administrative binding of already published exhaustive artifacts; no new artifact generated.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "EXPOSED_ANONYMOUS_FORMAL_CANDIDATE_BEHAVIOR_ONLY_NO_FUNCTION_OR_MEANING",
+  "commands": {
+    "run": "./vpy experiments/yolo/gdt379_f1_orthogonal_behavior/src/finalize_gdt379.py",
+    "validate": "./vpy tools/validate_migrated_yolo_experiment.py experiments/yolo/gdt379_f1_orthogonal_behavior"
+  },
+  "created": "2026-08-19",
+  "dependencies": [],
   "experiment_id": "GDT379",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt378_cross_corpus_construction_transfer/artifacts/gdt378_voynich_event_scores.tsv.gz",
+      "role": "hash-bound published scientific input",
+      "sha256": "77bf3db353b16531115a0e5994b5e6afb5c7d2b6a0af95191dbae5dfe2da8b80"
+    },
+    {
+      "path": "experiments/yolo/gdt379_f1_orthogonal_behavior/artifacts/gdt379_f1_candidate_freeze.json",
+      "role": "hash-bound published scientific input",
+      "sha256": "81346f837ba23ae8f6d544fe8a1a857ec4c3df81c072311abba2c72643ebc34a"
+    },
+    {
+      "path": "experiments/yolo/gdt379_f1_orthogonal_behavior/artifacts/gdt379_null_and_future_correction_freeze.json",
+      "role": "hash-bound published scientific input",
+      "sha256": "8808c3b17574c37fe4bec6f7101670b73d7d62632eee8611a97c9c50a72ac6be"
+    },
+    {
+      "path": "gdt327_joint_tuple_interlinear.tsv",
+      "role": "hash-bound published scientific input",
+      "sha256": "7eba46774be44992064cc114f67329723ac7bf589321b0d763fb7f7f748cc1e9"
+    },
+    {
+      "path": "tools/validate_migrated_yolo_experiment.py",
+      "role": "administrative structured-manifest validator",
+      "sha256": "ab8a06abc87c42dfbb7d6cd32af780fa0996605f2df4fe4a7d484fc7a941d9b1"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt379_f1_orthogonal_behavior/METHOD.md",
+      "role": "retained published experiment file",
+      "sha256": "c50e204dca0f15b250e15e8117b4e667b3b0a75f4cc0b4e5e43a84204a1812fc"
+    },
+    {
+      "path": "experiments/yolo/gdt379_f1_orthogonal_behavior/README.md",
+      "role": "retained published experiment file",
+      "sha256": "8524f9b2fba0945652a72d0289f6333e60fd4aa8cee3f5d2cda0c8390fbf6eaf"
+    },
+    {
+      "path": "experiments/yolo/gdt379_f1_orthogonal_behavior/REPORT.md",
+      "role": "retained published experiment file",
+      "sha256": "5560c4852d16d6a93238e7579d6ea35bdad770fcaed6d85dd12e7a86dacdeeb2"
+    },
+    {
+      "path": "experiments/yolo/gdt379_f1_orthogonal_behavior/artifacts/gdt379_diagnostic_manifest.tsv",
+      "role": "retained published experiment file",
+      "sha256": "efe48be3c1a983c96826390dc9c657e536cb660e4c448c2cfb5aaa812bd44e59"
+    },
+    {
+      "path": "experiments/yolo/gdt379_f1_orthogonal_behavior/artifacts/gdt379_execution_correction.json",
+      "role": "retained published experiment file",
+      "sha256": "0f0c187e999b61d4acf72dd5dcfc09428bdea7f5e36952f6bbc8561fe4feafe8"
+    },
+    {
+      "path": "experiments/yolo/gdt379_f1_orthogonal_behavior/artifacts/gdt379_f1_candidate_freeze.json",
+      "role": "retained published experiment file",
+      "sha256": "81346f837ba23ae8f6d544fe8a1a857ec4c3df81c072311abba2c72643ebc34a"
+    },
+    {
+      "path": "experiments/yolo/gdt379_f1_orthogonal_behavior/artifacts/gdt379_f1_chains.tsv",
+      "role": "retained published experiment file",
+      "sha256": "d492380d0fd09cdb42a0bf468cda9034e6a4f68b5d0522c8e33ee98be798ff10"
+    },
+    {
+      "path": "experiments/yolo/gdt379_f1_orthogonal_behavior/artifacts/gdt379_f2_held_folds.tsv",
+      "role": "retained published experiment file",
+      "sha256": "b839f8b12d805117270cd13710a2418658f4ed57415725b3da5229e987654dc7"
+    },
+    {
+      "path": "experiments/yolo/gdt379_f1_orthogonal_behavior/artifacts/gdt379_family_results.tsv",
+      "role": "retained published experiment file",
+      "sha256": "9dbdf20d8d0fdc0b9284349845b000fe4a11f8b1b4fe7850acb29de812047b99"
+    },
+    {
+      "path": "experiments/yolo/gdt379_f1_orthogonal_behavior/artifacts/gdt379_final_implementation_correction.json",
+      "role": "retained published experiment file",
+      "sha256": "34b434ac8e43e08e4f707f51771fb6ca9662efa82932a06c575e2d7a2f90d9f9"
+    },
+    {
+      "path": "experiments/yolo/gdt379_f1_orthogonal_behavior/artifacts/gdt379_freeze_result.json",
+      "role": "retained published experiment file",
+      "sha256": "577a8e85da5153c248816d8cd775dd3c73d8d17de33ef5d017595f324ea229f1"
+    },
+    {
+      "path": "experiments/yolo/gdt379_f1_orthogonal_behavior/artifacts/gdt379_freeze_validation.json",
+      "role": "retained published experiment file",
+      "sha256": "3d9950e444745b0e0d0d36f5e39c218c91077963c840d5dda0d16d99e134729c"
+    },
+    {
+      "path": "experiments/yolo/gdt379_f1_orthogonal_behavior/artifacts/gdt379_gate_enforcement_correction.json",
+      "role": "retained published experiment file",
+      "sha256": "4e5da26bde4b6382f009cea93332e0cd80df932d65a360e47cf6de2527df2fbd"
+    },
+    {
+      "path": "experiments/yolo/gdt379_f1_orthogonal_behavior/artifacts/gdt379_null.tsv.gz",
+      "role": "retained published experiment file",
+      "sha256": "3b5121346afd5a1365961ab7b51573cb2070198ba2d231cc879dd280509261de"
+    },
+    {
+      "path": "experiments/yolo/gdt379_f1_orthogonal_behavior/artifacts/gdt379_null_and_future_correction_freeze.json",
+      "role": "retained published experiment file",
+      "sha256": "8808c3b17574c37fe4bec6f7101670b73d7d62632eee8611a97c9c50a72ac6be"
+    },
+    {
+      "path": "experiments/yolo/gdt379_f1_orthogonal_behavior/artifacts/gdt379_null_serialization_correction.json",
+      "role": "retained published experiment file",
+      "sha256": "01a6e707c318603c8852c96b93803dfc1bda8c13689c2ff4e8aa7945e76360dd"
+    },
+    {
+      "path": "experiments/yolo/gdt379_f1_orthogonal_behavior/artifacts/gdt379_null_submetrics.tsv.gz",
+      "role": "retained published experiment file",
+      "sha256": "654c8ebeae6617c6dc182ca342524dbd168ca07de7e9b1729ff01d9521dfb23c"
+    },
+    {
+      "path": "experiments/yolo/gdt379_f1_orthogonal_behavior/artifacts/gdt379_result.json",
+      "role": "retained published experiment file",
+      "sha256": "40f93a0ed3078a504d421b78fa5ec1b0c2f63af3e3c000b3643d5170043da848"
+    },
+    {
+      "path": "experiments/yolo/gdt379_f1_orthogonal_behavior/artifacts/gdt379_route_dedup.tsv",
+      "role": "retained published experiment file",
+      "sha256": "f8ae948e99fbca3d96d4618c8df6f1071c481fcef1731b70ed4a0b645a875f18"
+    },
+    {
+      "path": "experiments/yolo/gdt379_f1_orthogonal_behavior/artifacts/gdt379_submetric_results.tsv",
+      "role": "retained published experiment file",
+      "sha256": "4a2a5e4d85855faf7addf704b171d383758d84aac1cea178bbb24ce399958137"
+    },
+    {
+      "path": "experiments/yolo/gdt379_f1_orthogonal_behavior/artifacts/gdt379_validation.json",
+      "role": "retained published experiment file",
+      "sha256": "7b512c76871582a2e25fbb939b115f9602477ebf3c2a9ac03b480b6e13d0307a"
+    },
+    {
+      "path": "experiments/yolo/gdt379_f1_orthogonal_behavior/src/finalize_gdt379.py",
+      "role": "retained published experiment file",
+      "sha256": "f71fbad53df3eb9a41bd30f48cf9715d0f0528bf246123c6427c1e6cb2989415"
+    },
+    {
+      "path": "experiments/yolo/gdt379_f1_orthogonal_behavior/src/freeze_gdt379.py",
+      "role": "retained published experiment file",
+      "sha256": "5a3a38f4c87d249b15afd9591bb01e20da002f289a4f18c904fd7dd967398634"
+    },
+    {
+      "path": "experiments/yolo/gdt379_f1_orthogonal_behavior/src/record_execution_correction.py",
+      "role": "retained published experiment file",
+      "sha256": "b7159eadc66483ad66679823b4c87825fb4b9da457c7d9545a884530b6db19a0"
+    },
+    {
+      "path": "experiments/yolo/gdt379_f1_orthogonal_behavior/src/record_final_implementation_correction.py",
+      "role": "retained published experiment file",
+      "sha256": "fa7f87b8e437792f8dbded883231cf1caaa9f36b7e1cbc98288e4a96713c6ea7"
+    },
+    {
+      "path": "experiments/yolo/gdt379_f1_orthogonal_behavior/src/record_gate_enforcement_correction.py",
+      "role": "retained published experiment file",
+      "sha256": "a6a4e6605727ab0a57fcadf1b79b778c8dd8bcaccfbf0d4361575fb5f2b47b52"
+    },
+    {
+      "path": "experiments/yolo/gdt379_f1_orthogonal_behavior/src/record_null_serialization_correction.py",
+      "role": "retained published experiment file",
+      "sha256": "a5b75128f65702020626396a191682ad103d1b8b9d15b837e4d0639dd5d19688"
+    },
+    {
+      "path": "experiments/yolo/gdt379_f1_orthogonal_behavior/src/run_gdt379.py",
+      "role": "retained published experiment file",
+      "sha256": "033a8e1540a870f28c69613679c347e1a1884ce5e9b3fa419010ea2f27b0302b"
+    },
+    {
+      "path": "experiments/yolo/gdt379_f1_orthogonal_behavior/src/validate_freeze.py",
+      "role": "retained published experiment file",
+      "sha256": "3a39e706e03ee220623f8a589d595f2606b17125b54b896b9b4a04a64519e1df"
+    },
+    {
+      "path": "experiments/yolo/gdt379_f1_orthogonal_behavior/src/validate_gdt379.py",
+      "role": "retained published experiment file",
+      "sha256": "93036a3d9d596ef45c0076c3659a81a8af2775e4dd0fef451bbcc0c05bf44e92"
+    }
+  ],
+  "question": "What did the published GDT379 experiment establish under its frozen method?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "f1_orthogonal_behavior",
+  "status": "NO_STABLE_JOINTLY_ADJUSTED_ORTHOGONAL_CONSEQUENCE",
   "title": "F1 orthogonal behavioral consequences",
-  "status": "FROZEN_NOT_RUN",
-  "semantic_state": "UNASSIGNED",
-  "f84_access": false,
-  "source": "gdt327_joint_tuple_interlinear.tsv",
-  "method": "experiments/yolo/gdt379_f1_orthogonal_behavior/METHOD.md"
+  "updated": "2026-08-20",
+  "validation": {
+    "artifact": "experiments/yolo/gdt379_f1_orthogonal_behavior/artifacts/gdt379_validation.json",
+    "status": "PASS"
+  }
 }

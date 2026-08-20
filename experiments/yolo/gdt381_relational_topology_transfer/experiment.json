@@ -1,7 +1,291 @@
 {
+  "artifact_policy": {
+    "large_artifact_justification": "Administrative binding of already published exhaustive artifacts; no new artifact generated.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "ONE_COMPARATOR_RELATION_TOPOLOGY_INSTRUMENT_TARGET_NONPROMOTING_NO_FUNCTION_CLASS",
+  "commands": {
+    "run": "./vpy experiments/yolo/gdt381_relational_topology_transfer/src/finalize.py",
+    "validate": "./vpy tools/validate_migrated_yolo_experiment.py experiments/yolo/gdt381_relational_topology_transfer"
+  },
+  "created": "2026-08-19",
+  "dependencies": [],
   "experiment_id": "GDT381",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt381_relational_topology_transfer/artifacts/gdt381_comparator_result.json",
+      "role": "hash-bound published scientific input",
+      "sha256": "d9c61419858a026a18238d884d66eae016e9b9753f9aa971344177bf4efcaef9"
+    },
+    {
+      "path": "experiments/yolo/gdt381_relational_topology_transfer/artifacts/gdt381_comparator_validation.json",
+      "role": "hash-bound published scientific input",
+      "sha256": "a7e6bfc5530e18c2d58ed634e881e620b584d721f5d4462efe37fda4bc4c2ff5"
+    },
+    {
+      "path": "experiments/yolo/gdt381_relational_topology_transfer/artifacts/gdt381_target_definition_overlap.json",
+      "role": "hash-bound published scientific input",
+      "sha256": "32aa97f5a0bdb94c7ea09cc919eab0312b1a86b9300f36a60cfdbfb9e9015719"
+    },
+    {
+      "path": "experiments/yolo/gdt381_relational_topology_transfer/artifacts/gdt381_target_validation.json",
+      "role": "hash-bound published scientific input",
+      "sha256": "9d81d2e6b15f79c4aa32d1612ba67bf9ebd1509e3fd5b8457bc1ef08d0306ded"
+    },
+    {
+      "path": "experiments/yolo/gdt381_relational_topology_transfer/artifacts/gdt381_voynich_result.json",
+      "role": "hash-bound published scientific input",
+      "sha256": "9371cf2f84728a05a9c481ca93e531c139177a8ee78c4db6aadd9d5c7e8f2cd0"
+    },
+    {
+      "path": "experiments/yolo/gdt381_relational_topology_transfer/artifacts/gdt381_voynich_target_freeze.json",
+      "role": "hash-bound published scientific input",
+      "sha256": "41655d7e9c25ec7e0a77d2504ef521099ccc2ecf57b3f84eb05063e55eadee4f"
+    },
+    {
+      "path": "tools/validate_migrated_yolo_experiment.py",
+      "role": "administrative structured-manifest validator",
+      "sha256": "ab8a06abc87c42dfbb7d6cd32af780fa0996605f2df4fe4a7d484fc7a941d9b1"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt381_relational_topology_transfer/COMPARATOR_REPORT.md",
+      "role": "retained published experiment file",
+      "sha256": "417dbe491521905a7c07abbfb953ddbd682d22e55383373d6028526f9dfe908c"
+    },
+    {
+      "path": "experiments/yolo/gdt381_relational_topology_transfer/METHOD.md",
+      "role": "retained published experiment file",
+      "sha256": "06cb43ded9c71b4d7ae5784217d7f9cfa5db550f462a4c816ba1f32b6a545fec"
+    },
+    {
+      "path": "experiments/yolo/gdt381_relational_topology_transfer/README.md",
+      "role": "retained published experiment file",
+      "sha256": "86990f4652c40e581b7b8dd1e8a630066d5aa74e68137f2b87e07f9f6d025367"
+    },
+    {
+      "path": "experiments/yolo/gdt381_relational_topology_transfer/REPORT.md",
+      "role": "retained published experiment file",
+      "sha256": "1ab23978619c269feff16b4010a5b0f3fee607a7424310692fb0613f47d7961b"
+    },
+    {
+      "path": "experiments/yolo/gdt381_relational_topology_transfer/TARGET_METHOD.md",
+      "role": "retained published experiment file",
+      "sha256": "78cfdd41b2a70506357ed395c4610d5d65623f5b395f202fa0cc0a2adfb98f73"
+    },
+    {
+      "path": "experiments/yolo/gdt381_relational_topology_transfer/artifacts/gdt381_clustering_summary.tsv",
+      "role": "retained published experiment file",
+      "sha256": "0a1b6b119919bd2f7400da72372b743c4abcd9e10e396bfeaf3d667fffae1c6e"
+    },
+    {
+      "path": "experiments/yolo/gdt381_relational_topology_transfer/artifacts/gdt381_comparator_family_summary.tsv",
+      "role": "retained published experiment file",
+      "sha256": "4d090c7c30ae026933b83534720c5d4edf4f6f06db98d8108e40395fed61eeb1"
+    },
+    {
+      "path": "experiments/yolo/gdt381_relational_topology_transfer/artifacts/gdt381_comparator_fold_scores.tsv",
+      "role": "retained published experiment file",
+      "sha256": "a765bbef4d960d2c255b3fef2e9f828dae36059176cc490fcd16b84733da6cf8"
+    },
+    {
+      "path": "experiments/yolo/gdt381_relational_topology_transfer/artifacts/gdt381_comparator_freeze_result.json",
+      "role": "retained published experiment file",
+      "sha256": "119f1827f69b55bfa37ef0c2a007312c00e5fadb0ef73061a2beac0961c35ebc"
+    },
+    {
+      "path": "experiments/yolo/gdt381_relational_topology_transfer/artifacts/gdt381_comparator_freeze_validation.json",
+      "role": "retained published experiment file",
+      "sha256": "e35609aa8490aa7248a794e1456dc1134bbc01049ca6a9e5fd9c61221aa552d8"
+    },
+    {
+      "path": "experiments/yolo/gdt381_relational_topology_transfer/artifacts/gdt381_comparator_null.tsv.gz",
+      "role": "retained published experiment file",
+      "sha256": "270d24a0fda1047258cd52bb79356308523b7ebd3d86a7af6757a946f95c60b0"
+    },
+    {
+      "path": "experiments/yolo/gdt381_relational_topology_transfer/artifacts/gdt381_comparator_result.json",
+      "role": "retained published experiment file",
+      "sha256": "d9c61419858a026a18238d884d66eae016e9b9753f9aa971344177bf4efcaef9"
+    },
+    {
+      "path": "experiments/yolo/gdt381_relational_topology_transfer/artifacts/gdt381_comparator_topology_freeze.json",
+      "role": "retained published experiment file",
+      "sha256": "aaf333979df039aadf70d36e8a6a08b694d65c020d51494eb10548c31a62fcb1"
+    },
+    {
+      "path": "experiments/yolo/gdt381_relational_topology_transfer/artifacts/gdt381_comparator_validation.json",
+      "role": "retained published experiment file",
+      "sha256": "a7e6bfc5530e18c2d58ed634e881e620b584d721f5d4462efe37fda4bc4c2ff5"
+    },
+    {
+      "path": "experiments/yolo/gdt381_relational_topology_transfer/artifacts/gdt381_latent_class_summary.tsv",
+      "role": "retained published experiment file",
+      "sha256": "1ac1bff12720e7bbc28aa76374d33652b09cbe4bfccf9b2c3753389ab7f9dcd4"
+    },
+    {
+      "path": "experiments/yolo/gdt381_relational_topology_transfer/artifacts/gdt381_null_capacity.tsv",
+      "role": "retained published experiment file",
+      "sha256": "021ab2138380441ca7f2ef11ad0f284a691088bf86f7501eb5ab9a9da13b7991"
+    },
+    {
+      "path": "experiments/yolo/gdt381_relational_topology_transfer/artifacts/gdt381_result.json",
+      "role": "retained published experiment file",
+      "sha256": "ff8cefd6044f0817afd276514decc546bd809523a637c37638d165c8eb174249"
+    },
+    {
+      "path": "experiments/yolo/gdt381_relational_topology_transfer/artifacts/gdt381_target_definition_overlap.json",
+      "role": "retained published experiment file",
+      "sha256": "32aa97f5a0bdb94c7ea09cc919eab0312b1a86b9300f36a60cfdbfb9e9015719"
+    },
+    {
+      "path": "experiments/yolo/gdt381_relational_topology_transfer/artifacts/gdt381_target_definition_overlap_features.tsv",
+      "role": "retained published experiment file",
+      "sha256": "7cffd3970ee3b262bb2828527d5372a8f8e0928eb12d2d2b847996b27713590b"
+    },
+    {
+      "path": "experiments/yolo/gdt381_relational_topology_transfer/artifacts/gdt381_target_freeze_result.json",
+      "role": "retained published experiment file",
+      "sha256": "1d79e73900d3b1a5782469740040f0cc22e669869002bdbe745621f4b30f4859"
+    },
+    {
+      "path": "experiments/yolo/gdt381_relational_topology_transfer/artifacts/gdt381_target_freeze_validation.json",
+      "role": "retained published experiment file",
+      "sha256": "a6bfa490c6d909ca49d5174c26b039891539048020a3f4b59912ed6a1304da81"
+    },
+    {
+      "path": "experiments/yolo/gdt381_relational_topology_transfer/artifacts/gdt381_target_validation.json",
+      "role": "retained published experiment file",
+      "sha256": "9d81d2e6b15f79c4aa32d1612ba67bf9ebd1509e3fd5b8457bc1ef08d0306ded"
+    },
+    {
+      "path": "experiments/yolo/gdt381_relational_topology_transfer/artifacts/gdt381_topology_feature_manifest.tsv",
+      "role": "retained published experiment file",
+      "sha256": "2ac12b5cd2c4b91892a186685579fc6b5d69b8beb2ffadaf21e81edabb034974"
+    },
+    {
+      "path": "experiments/yolo/gdt381_relational_topology_transfer/artifacts/gdt381_topology_signature_freeze.json",
+      "role": "retained published experiment file",
+      "sha256": "27f32b40ebd4f1c3590efa4615274cccf6b3b88111675fa961693443ce4a95d8"
+    },
+    {
+      "path": "experiments/yolo/gdt381_relational_topology_transfer/artifacts/gdt381_validation.json",
+      "role": "retained published experiment file",
+      "sha256": "57e7dd705583e6c49b80eb52d778465404b8f7b77b8ee3f6c6edd082e80e7bf7"
+    },
+    {
+      "path": "experiments/yolo/gdt381_relational_topology_transfer/artifacts/gdt381_voynich_event_scores.tsv.gz",
+      "role": "retained published experiment file",
+      "sha256": "778d1b1791f9ea8e1e2ec38fb8eb7c838cfe242e0a2a6c1d423a9bfbb37778d5"
+    },
+    {
+      "path": "experiments/yolo/gdt381_relational_topology_transfer/artifacts/gdt381_voynich_fold_scores.tsv",
+      "role": "retained published experiment file",
+      "sha256": "2a9247dc83cf871f44c38505277d454e79bc97ad4a66c84d6186ed84291eaba5"
+    },
+    {
+      "path": "experiments/yolo/gdt381_relational_topology_transfer/artifacts/gdt381_voynich_latent_class_summary.tsv",
+      "role": "retained published experiment file",
+      "sha256": "71e00ff7efab9b0618c976a34e57fd3780178ccc96b4c14044b978534abf560b"
+    },
+    {
+      "path": "experiments/yolo/gdt381_relational_topology_transfer/artifacts/gdt381_voynich_null.tsv.gz",
+      "role": "retained published experiment file",
+      "sha256": "deb62d7d08929cdf5375a7838eb5132adb39be3fa7dd522abe6d4da2b7fa5e89"
+    },
+    {
+      "path": "experiments/yolo/gdt381_relational_topology_transfer/artifacts/gdt381_voynich_register_scores.tsv",
+      "role": "retained published experiment file",
+      "sha256": "76ee81c1e0bb3c5a5a37640bf8f1ade8250a4691362db22567a9a8e41583cf1b"
+    },
+    {
+      "path": "experiments/yolo/gdt381_relational_topology_transfer/artifacts/gdt381_voynich_result.json",
+      "role": "retained published experiment file",
+      "sha256": "9371cf2f84728a05a9c481ca93e531c139177a8ee78c4db6aadd9d5c7e8f2cd0"
+    },
+    {
+      "path": "experiments/yolo/gdt381_relational_topology_transfer/artifacts/gdt381_voynich_target_freeze.json",
+      "role": "retained published experiment file",
+      "sha256": "41655d7e9c25ec7e0a77d2504ef521099ccc2ecf57b3f84eb05063e55eadee4f"
+    },
+    {
+      "path": "experiments/yolo/gdt381_relational_topology_transfer/src/__pycache__/run_comparator.cpython-312.pyc",
+      "role": "retained published experiment file",
+      "sha256": "fb50513b9f6d0a4cc3b8ca597a995e757281a95388da1f66eae7b083e5e88625"
+    },
+    {
+      "path": "experiments/yolo/gdt381_relational_topology_transfer/src/__pycache__/run_target.cpython-312.pyc",
+      "role": "retained published experiment file",
+      "sha256": "d785401a3f62d94614cd2cc5dc8be8112f982505bbeee91fe0f091a5a0113261"
+    },
+    {
+      "path": "experiments/yolo/gdt381_relational_topology_transfer/src/audit_target_definition_overlap.py",
+      "role": "retained published experiment file",
+      "sha256": "a4ca1ed4521b29e43af5d60e811ce31fdfd67423873fa9352949442424a349bb"
+    },
+    {
+      "path": "experiments/yolo/gdt381_relational_topology_transfer/src/finalize.py",
+      "role": "retained published experiment file",
+      "sha256": "a0742f62e006c89d4061ba222f631cc69b282d4178cb6e2bfb24bcb6687c24b5"
+    },
+    {
+      "path": "experiments/yolo/gdt381_relational_topology_transfer/src/freeze_comparator.py",
+      "role": "retained published experiment file",
+      "sha256": "51aa011a0d55473c15156c4222729bd65349fd21c2b155e327a3be82511673bb"
+    },
+    {
+      "path": "experiments/yolo/gdt381_relational_topology_transfer/src/freeze_target.py",
+      "role": "retained published experiment file",
+      "sha256": "2731d88eea773437e0bd59a04f8a59715560e4be9d3536a8f964b08152257d7b"
+    },
+    {
+      "path": "experiments/yolo/gdt381_relational_topology_transfer/src/run_comparator.py",
+      "role": "retained published experiment file",
+      "sha256": "0b45bf313e8d6e9ac6a423b156de8fde7c96b4ce6c6c15ff561cee684b298032"
+    },
+    {
+      "path": "experiments/yolo/gdt381_relational_topology_transfer/src/run_target.py",
+      "role": "retained published experiment file",
+      "sha256": "68062b9a9ec78dcb031e7479b069abbbd001aa40b57848001efd85a440dadea1"
+    },
+    {
+      "path": "experiments/yolo/gdt381_relational_topology_transfer/src/validate_comparator.py",
+      "role": "retained published experiment file",
+      "sha256": "b50aedd341c42e63e57d6496dd05a588d16d80b724f92e423c7a8e77d7c3881e"
+    },
+    {
+      "path": "experiments/yolo/gdt381_relational_topology_transfer/src/validate_final.py",
+      "role": "retained published experiment file",
+      "sha256": "e59b2b2e27f3b8fbbec51127210fc91e6de1d61d360c62ae8b319cfef566ee91"
+    },
+    {
+      "path": "experiments/yolo/gdt381_relational_topology_transfer/src/validate_freeze.py",
+      "role": "retained published experiment file",
+      "sha256": "8c6d02d96a5231af503b4fe95c1079df1937157ed2172dc0c47a9ba03f76074e"
+    },
+    {
+      "path": "experiments/yolo/gdt381_relational_topology_transfer/src/validate_target.py",
+      "role": "retained published experiment file",
+      "sha256": "8b67d2aed61052191634d7c257dbe8864d9dcba628f30265af4c23d52b8ad820"
+    },
+    {
+      "path": "experiments/yolo/gdt381_relational_topology_transfer/src/validate_target_freeze.py",
+      "role": "retained published experiment file",
+      "sha256": "12e41b03e6f3fde465f723cb553a33ca601adffdf21857cf14d93d1f79ff8784"
+    }
+  ],
+  "question": "What did the published GDT381 experiment establish under its frozen method?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "relational_topology_transfer",
+  "status": "COMPARATOR_TOPOLOGY_SUPPORTED_TARGET_TRANSFER_UNIDENTIFIABLE_DEFINITION_OVERLAP",
   "title": "Cross-domain relational-topology operator transfer",
-  "status": "COMPARATOR_TOPOLOGY_FREEZE",
-  "semantic_state": "UNASSIGNED",
-  "f84_access_authorized": false
+  "updated": "2026-08-20",
+  "validation": {
+    "artifact": "experiments/yolo/gdt381_relational_topology_transfer/artifacts/gdt381_validation.json",
+    "status": "PASS"
+  }
 }
