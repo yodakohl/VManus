@@ -57,7 +57,7 @@ def main() -> int:
         "updated": today,
         "question": "",
         "claim_ceiling": "",
-        "sealed_data": {"f84r": "FORBIDDEN"},
+        "sealed_data": {"f84": "FORBIDDEN", "f84r": "FORBIDDEN"},
         "commands": {
             "run": f"python3 {relative}/src/run.py",
             "validate": f"python3 {relative}/src/validate.py",

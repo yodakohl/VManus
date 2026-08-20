@@ -42,5 +42,6 @@ experiment log/README are recovery archives and may contain superseded claims.
   with GDT337, create every new experiment under
   `experiments/yolo/gdtNNN_short_slug/` using `tools/new_yolo_experiment.py`;
   every such directory must contain a valid `experiment.json` manifest.
+  Starting with GDT394, manifests must seal both `f84` and `f84r` explicitly.
   `./vmanus-exp check` enforces the layout, manifest, index, sealed-data, and
   staged-tree privacy gates.

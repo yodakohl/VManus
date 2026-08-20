@@ -130,6 +130,9 @@ def validate_manifest_data(data: object, manifest_path: Path | None = None) -> l
         errors.append("sealed_data.f84r must equal FORBIDDEN")
     elif not all(isinstance(key, str) and isinstance(value, str) for key, value in sealed.items()):
         errors.append("sealed_data keys and values must be strings")
+    if id_match and int(id_match.group(1)) >= 394:
+        if not isinstance(sealed, dict) or sealed.get("f84") != "FORBIDDEN":
+            errors.append("GDT394+ sealed_data.f84 must equal FORBIDDEN")
 
     commands = data.get("commands")
     if not isinstance(commands, dict) or set(commands) != {"run", "validate"}:

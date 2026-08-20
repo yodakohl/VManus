@@ -301,6 +301,7 @@ class InfrastructureTests(unittest.TestCase):
             data = load_manifest(manifest_path)
             self.assertEqual(validate_manifest_data(data, manifest_path), [])
             self.assertEqual(verify_manifest_bindings(data, temporary_root), [])
+            self.assertEqual(data["sealed_data"]["f84"], "FORBIDDEN")
             for name in ("run.py", "validate.py"):
                 compile((manifest_path.parent / "src" / name).read_text(), name, "exec")
 
@@ -320,6 +321,35 @@ class InfrastructureTests(unittest.TestCase):
             [],
         )
         self.assertTrue(check_structured_layout(["GDT337_BAD.md"]))
+
+    def test_new_manifest_requires_whole_f84_seal(self) -> None:
+        data = {
+            "schema_version": 1,
+            "experiment_id": "GDT394",
+            "slug": "fixture",
+            "title": "fixture",
+            "status": "REGISTERED_UNSCORED",
+            "created": "2026-08-20",
+            "updated": "2026-08-20",
+            "question": "",
+            "claim_ceiling": "",
+            "sealed_data": {"f84r": "FORBIDDEN"},
+            "commands": {"run": "true", "validate": "true"},
+            "dependencies": [],
+            "inputs": [],
+            "outputs": [],
+            "validation": {"status": "NOT_RUN", "artifact": None},
+            "artifact_policy": {
+                "max_inline_bytes": 1,
+                "large_artifact_justification": "",
+            },
+        }
+        self.assertIn(
+            "GDT394+ sealed_data.f84 must equal FORBIDDEN",
+            validate_manifest_data(data),
+        )
+        data["sealed_data"]["f84"] = "FORBIDDEN"
+        self.assertEqual(validate_manifest_data(data), [])
 
     def test_structured_manifest_drives_index(self) -> None:
         indexer = self.load_module("test_indexer", ROOT / "tools/build_experiment_index.py")
