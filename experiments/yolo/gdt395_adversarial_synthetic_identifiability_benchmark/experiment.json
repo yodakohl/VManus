@@ -5,8 +5,8 @@
   },
   "claim_ceiling": "Synthetic/comparator identifiability calibration only; no synthetic property transfers to Voynich, no Voynich GDT396, and no f84 access.",
   "commands": {
-    "run": "python3 experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/run_blind_decoders_v2.py --mode all",
-    "validate": "python3 experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/validate_decoder_execution_correction.py"
+    "run": "python3 experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/run_blind_decoders_v3.py --mode all",
+    "validate": "python3 experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/validate_decoder_execution_v3_correction.py"
   },
   "created": "2026-08-20",
   "dependencies": [
@@ -55,6 +55,16 @@
       "sha256": "098de826a5636ca098cebf2ee34d24472533c97e31eb4a55ba70202e90e84b38"
     },
     {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/SCORING_DESIGN.md",
+      "role": "pre-oracle scoring design",
+      "sha256": "c64b74b08320906dadea0d5dc12e290ae5c3c30f05220d73ab9270ea730d1c9b"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/SCORING_REVIEW.md",
+      "role": "independent pre-oracle scoring interface audit",
+      "sha256": "634c9107da816f9f0e50db9be7c7b4769bc5b68d3588c5585c82f41ff6160f69"
+    },
+    {
       "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/WORLD_DESIGN_CONTRACT.md",
       "role": "frozen benchmark documentation",
       "sha256": "bc06c0bd8fc1c15b133090a720cd64ebd6db312e16e8b8ac283feb1df8f368c0"
@@ -88,6 +98,16 @@
       "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_decoder_execution_correction_validation.json",
       "role": "validation artifact",
       "sha256": "27daefadf5fa9609fcbdc132e4eb25cf404373efa3b7a90ba672e372a0808b02"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_decoder_execution_v3_correction.json",
+      "role": "frozen decoder execution correction artifact",
+      "sha256": "08bdc71b4accee935a22d140970e3aafaf6428f18bab3d07b50351cc8301b8a7"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_decoder_execution_v3_correction_validation.json",
+      "role": "validation artifact",
+      "sha256": "146f1652f84a563089a87dd5c61e93ec78d7b881db047470897926762eec50e7"
     },
     {
       "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_decoder_panel_freeze.json",
@@ -143,6 +163,11 @@
       "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_pair_protocol_amendment_validation.json",
       "role": "validation artifact",
       "sha256": "910112e151cf95dc984894553075ee601d239390ecf01a82cc8f813f7d9de3f4"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_runner_cache_equivalence_validation.json",
+      "role": "validation artifact",
+      "sha256": "a205198c3d6df25075e114378dbf2dba9476af2c620cd04619042d6fabecc178"
     },
     {
       "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_world_panel_freeze.json",
@@ -222,12 +247,17 @@
     {
       "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/freeze_blind_claims.py",
       "role": "reproducible decoder implementation",
-      "sha256": "6f42010d245720c488717e1a0a599a521ec88cdb26236b7d29749d0988bb7b44"
+      "sha256": "477b6246260884160acc9468c2f4a20b7dace921aef5a9ae421b7373376f8ee3"
     },
     {
       "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/freeze_decoder_execution_correction.py",
       "role": "reproducible decoder execution implementation",
       "sha256": "f8f740d6196d42d41c8460551c7909455815efcef70e166cfb2dd83d99569a4f"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/freeze_decoder_execution_v3_correction.py",
+      "role": "reproducible decoder execution implementation",
+      "sha256": "d8c208e6312ec439db2bb0b88185d1807dcc1f47c2085491ed1295e50935f7ad"
     },
     {
       "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/freeze_decoder_panel.py",
@@ -280,6 +310,16 @@
       "sha256": "fb076ab956e097ad4d09bcdf6614c3957acf1cb1e0e740347b894e016506043f"
     },
     {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/run_blind_decoders_v3.py",
+      "role": "reproducible decoder execution implementation",
+      "sha256": "3f6dad1d18b7d90f250ba95f75ac2779a04029369fff3008530653bdbaa1dc34"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/score_identifiability.py",
+      "role": "pre-oracle scoring implementation",
+      "sha256": "2dd80b7e16a5f9bd56b88cdb608efcf8ef07dd6f879221a1b0aa6bdc66567ff2"
+    },
+    {
       "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/validate.py",
       "role": "independent validator",
       "sha256": "82819fe5a84a0829820ca95f647e4af71c932f5e7bbce9662cd7b8c4d43f15aa"
@@ -287,12 +327,17 @@
     {
       "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/validate_blind_claims.py",
       "role": "independent validator",
-      "sha256": "2cb12d70f6bc0031a65a2c0ce6f4827c94ce15f26a8f3ce6de367a3c6dff9542"
+      "sha256": "434868ad14ce33bd06940a4d3d4b95e4063cba15c0acc28e3eda2a795f45d5bb"
     },
     {
       "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/validate_decoder_execution_correction.py",
       "role": "independent validator",
       "sha256": "749c1e371720e495079cd4a9ac013e09d01254e3844cba8781bc2cc5c7fd1220"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/validate_decoder_execution_v3_correction.py",
+      "role": "independent validator",
+      "sha256": "5bae8b498bde78f6114c63ee10a5115aaa7505e225ff76aa92ac4df1947253b1"
     },
     {
       "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/validate_decoder_panel.py",
@@ -313,6 +358,11 @@
       "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/validate_pair_protocol_amendment.py",
       "role": "independent validator",
       "sha256": "a77977e41cbbf66cc8421617bc60f776731a655fccb7dc16a673a78f61443bc2"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/validate_runner_cache_equivalence.py",
+      "role": "independent validator",
+      "sha256": "a461015695e2878c5d3ae1d738f7aecf0182ff894c3efb29050b164f9cff5930"
     },
     {
       "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/validate_world_panel.py",
@@ -432,11 +482,11 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "adversarial_synthetic_identifiability_benchmark",
-  "status": "DECODER_EXECUTION_V2_FROZEN_AFTER_ZERO_CLAIM_V1_FAILURE",
+  "status": "DECODER_EXECUTION_V3_FROZEN_AFTER_UNFROZEN_PARTIAL_V2_RUN",
   "title": "Adversarial synthetic writing-system identifiability benchmark",
   "updated": "2026-08-20",
   "validation": {
-    "artifact": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_decoder_execution_correction_validation.json",
+    "artifact": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_decoder_execution_v3_correction_validation.json",
     "status": "PASS"
   }
 }

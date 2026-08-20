@@ -45,6 +45,10 @@ def tsv(path: Path) -> list[dict]:
         return list(csv.DictReader(fh, delimiter="\t"))
 
 
+def repo_path(path: Path) -> str:
+    return str(path.resolve().relative_to(ROOT.resolve()))
+
+
 def claim_shape(path: Path) -> tuple[int, set[str]]:
     opener = gzip.open if path.suffix == ".gz" else open
     with opener(path, "rt", encoding="utf-8", newline="") as fh:
@@ -60,21 +64,36 @@ def main() -> None:
     corpus_events = {(r["world_id"], int(r["corpus_seed"])): int(r["events"]) for r in tsv(CORPUS)}
     pair_events = {(r["pair_id"], r["world_id"], int(r["corpus_seed"])): int(r["events"]) for r in tsv(PAIR)}
     checks = {}
-    checks["status"] = freeze["status"] == "BLIND_CLAIMS_FROZEN_BEFORE_ORACLE_ACCESS"
-    checks["bindings"] = all(sha(EXP / rel) == digest for rel, digest in freeze["bindings"].items())
-    checks["manifest_hash"] = sha(MANIFEST) == freeze["claim_manifest_sha256"]
+    checks["status"] = (
+        freeze.get("status") == "PASS"
+        and freeze.get("phase") == "FROZEN_BEFORE_ORACLE_ACCESS"
+        and freeze.get("oracle_blind") is True
+    )
+    implementation = freeze.get("bindings", {}).get("implementation", {}).get("hashes", {})
+    checks["bindings"] = all(sha(EXP / rel) == digest for rel, digest in implementation.items())
+    manifest_binding = freeze.get("claim_manifest", {})
+    checks["manifest_hash"] = (
+        manifest_binding.get("path") == repo_path(MANIFEST)
+        and sha(MANIFEST) == manifest_binding.get("sha256")
+    )
     checks["counts"] = len(rows) == freeze["claim_file_count"] == 2150
     checks["mode_counts"] = (
         sum(r["mode"] == "world_claim" for r in rows) == freeze["world_claim_file_count"] == 50
         and sum(r["mode"] != "world_claim" for r in rows) == freeze["event_claim_file_count"] == 2100
     )
     exact_keys = set()
-    hashes = shapes = path_safe = identity = confidence = True
+    hashes = shapes = path_safe = identity = confidence = claim_bindings = True
+    frozen_claims = {}
+    for kind in ("event_claims", "pair_event_claims", "world_claims"):
+        items = freeze.get("bindings", {}).get(kind, [])
+        for item in items:
+            frozen_claims[item.get("path", "")] = item.get("sha256", "")
     for row in rows:
         rel = Path(row["claim_relpath"])
         path_safe &= not rel.is_absolute() and ".." not in rel.parts
         path = CLAIMS / rel
         hashes &= path.is_file() and sha(path) == row["claim_sha256"]
+        claim_bindings &= frozen_claims.get(repo_path(path)) == row["claim_sha256"]
         held_key = -1 if row["held_seed"] == "NONE" else int(row["held_seed"])
         key = (row["mode"], row["pair_id"], row["world_id"], held_key, row["decoder_id"], row["representation"])
         exact_keys.add(key)
@@ -106,6 +125,7 @@ def main() -> None:
                     expected_keys.add(("pair", pair_id, world, seed, decoder, rep))
     checks["exact_matrix"] = exact_keys == expected_keys and len(decoders) == 5
     checks["file_hashes"] = hashes
+    checks["claim_bindings"] = claim_bindings and len(frozen_claims) == len(rows)
     checks["claim_shapes"] = shapes
     checks["safe_paths"] = path_safe
     checks["world_claim_identity"] = identity
@@ -120,6 +140,9 @@ def main() -> None:
         "checks": checks,
         "checks_passed": sum(checks.values()), "checks_total": len(checks),
         "freeze_sha256": sha(FREEZE),
+        "bindings": {
+            "claims_freeze": {"path": repo_path(FREEZE), "sha256": sha(FREEZE)},
+        },
     }
     OUT.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
     print(json.dumps({"status": result["status"], "checks": f"{result['checks_passed']}/{result['checks_total']}"}, sort_keys=True))

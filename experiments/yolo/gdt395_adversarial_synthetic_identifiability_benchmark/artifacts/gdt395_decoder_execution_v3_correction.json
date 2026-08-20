@@ -1,0 +1,35 @@
+{
+  "bindings": {
+    "artifacts/gdt395_decoder_execution_correction.json": "e9c95bc3179cc0a82d5012ae0bce1b9bc7fa737060b72d675b1812bdb60591db",
+    "artifacts/gdt395_decoder_execution_correction_validation.json": "27daefadf5fa9609fcbdc132e4eb25cf404373efa3b7a90ba672e372a0808b02",
+    "artifacts/gdt395_decoder_panel_freeze.json": "65f6a6cc6eac46ee22ccdfcc80880d82fbfaf8ead9cf12194c4ad6b29ed8cd39",
+    "artifacts/gdt395_runner_cache_equivalence_validation.json": "a205198c3d6df25075e114378dbf2dba9476af2c620cd04619042d6fabecc178",
+    "src/freeze_decoder_execution_v3_correction.py": "d8c208e6312ec439db2bb0b88185d1807dcc1f47c2085491ed1295e50935f7ad",
+    "src/run_blind_decoders.py": "d19d32c5f20da41bcabeb8f9b0f0bc2361d6097cd5fbb5b0d3a0ccfb4578de89",
+    "src/run_blind_decoders_v2.py": "fb076ab956e097ad4d09bcdf6614c3957acf1cb1e0e740347b894e016506043f",
+    "src/run_blind_decoders_v3.py": "3f6dad1d18b7d90f250ba95f75ac2779a04029369fff3008530653bdbaa1dc34",
+    "src/validate_decoder_execution_v3_correction.py": "5bae8b498bde78f6114c63ee10a5115aaa7505e225ff76aa92ac4df1947253b1",
+    "src/validate_runner_cache_equivalence.py": "a461015695e2878c5d3ae1d738f7aecf0182ff894c3efb29050b164f9cff5930"
+  },
+  "cache_equivalence": "PASS_35_OF_35_FABRICATED_ONLY",
+  "content_sha256": "a1348f85e6ace97e5650f241445048626bab5a131df20ccb6645a145ce410f0b",
+  "f84": {
+    "opened": false,
+    "parsed": false,
+    "retained": false,
+    "scored": false
+  },
+  "oracle_opened": false,
+  "oracle_rows_read": 0,
+  "schema": "GDT395_DECODER_EXECUTION_V3_CORRECTION_V1",
+  "scientific_change": "NONE_EXECUTION_AND_SCHEMA_CONFORMANCE_ONLY",
+  "status": "V3_FROZEN_AFTER_UNFROZEN_PARTIAL_V2_RUN",
+  "v2_complete_claim_manifest_present": false,
+  "v2_failure": "D03 emitted schema-invalid UNRESOLVED confidence before V2 completion",
+  "v2_partial_claim_files_present": 1426,
+  "v3_changes": [
+    "memoize pure train-only fitted objects for identical training-list object and representation",
+    "map only schema-invalid UNRESOLVED confidence to numeric 0.0"
+  ],
+  "voynich_rows": 0
+}
