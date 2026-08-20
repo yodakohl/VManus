@@ -379,6 +379,50 @@ class InfrastructureTests(unittest.TestCase):
         data["sealed_data"]["f84"] = "FORBIDDEN"
         self.assertEqual(validate_manifest_data(data), [])
 
+    def test_pass_validation_artifact_must_be_bound_local_output(self) -> None:
+        with tempfile.TemporaryDirectory() as raw:
+            manifest = (
+                Path(raw)
+                / "experiments/yolo/gdt394_fixture/experiment.json"
+            )
+            data = {
+                "schema_version": 1,
+                "experiment_id": "GDT394",
+                "slug": "fixture",
+                "title": "fixture",
+                "status": "COMPLETE",
+                "created": "2026-08-20",
+                "updated": "2026-08-20",
+                "question": "fixture",
+                "claim_ceiling": "fixture",
+                "sealed_data": {"f84": "FORBIDDEN", "f84r": "FORBIDDEN"},
+                "commands": {"run": "true", "validate": "true"},
+                "dependencies": [],
+                "inputs": [],
+                "outputs": [],
+                "validation": {
+                    "status": "PASS",
+                    "artifact": "experiments/yolo/gdt394_fixture/artifacts/validation.json",
+                },
+                "artifact_policy": {
+                    "max_inline_bytes": 1,
+                    "large_artifact_justification": "",
+                },
+            }
+            errors = validate_manifest_data(data, manifest)
+            self.assertIn("PASS validation artifact must be a hash-bound output", errors)
+            data["outputs"] = [
+                {
+                    "path": "outside/validation.json",
+                    "role": "validation",
+                    "sha256": "a" * 64,
+                }
+            ]
+            errors = validate_manifest_data(data, manifest)
+            self.assertTrue(any("output must remain inside" in error for error in errors))
+            data["outputs"][0]["path"] = data["validation"]["artifact"]
+            self.assertEqual(validate_manifest_data(data, manifest), [])
+
     def test_structured_manifest_drives_index(self) -> None:
         indexer = self.load_module("test_indexer", ROOT / "tools/build_experiment_index.py")
         with tempfile.TemporaryDirectory() as raw:

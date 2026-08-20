@@ -201,6 +201,19 @@ def validate_manifest_data(data: object, manifest_path: Path | None = None) -> l
             errors.append("manifest ID/slug do not match the containing directory")
         if manifest_path.name != "experiment.json":
             errors.append("manifest filename must be experiment.json")
+        output_paths = {
+            binding.get("path")
+            for binding in data.get("outputs", [])
+            if isinstance(binding, dict) and isinstance(binding.get("path"), str)
+        }
+        experiment_prefix = f"experiments/yolo/{manifest_path.parent.name}/"
+        for output_path in sorted(output_paths):
+            if not output_path.startswith(experiment_prefix):
+                errors.append(f"output must remain inside experiment directory: {output_path}")
+        if validation_status == "PASS":
+            artifact = data.get("validation", {}).get("artifact")
+            if artifact not in output_paths:
+                errors.append("PASS validation artifact must be a hash-bound output")
     return errors
 
 
