@@ -40,6 +40,11 @@
       "sha256": "d1969c010265b38541215c3cbb7f4b4825e07126a69453916ceb291a20951e2c"
     },
     {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/INTERRUPTION_RECOVERY.md",
+      "role": "pre-execution interruption recovery protocol",
+      "sha256": "0e02df6fd8ccd5724461927bfc5f23bf8462558580cdc2c2d757a0eaf4fda7e2"
+    },
+    {
       "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/METHOD.md",
       "role": "frozen benchmark documentation",
       "sha256": "b1082da84807bd7f1984c2e3ab2d5af09046d7751cb8ec2037d25fab8b00453d"
@@ -180,6 +185,11 @@
       "sha256": "a205198c3d6df25075e114378dbf2dba9476af2c620cd04619042d6fabecc178"
     },
     {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_v3_interruption_recovery_freeze.json",
+      "role": "one-shot pre-execution interrupted-run recovery freeze",
+      "sha256": "cd3b07df07df2242855642203ef6e69c6e320a084cbc185066c0ff3e7c3ed59b"
+    },
+    {
       "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_world_panel_freeze.json",
       "role": "frozen panel artifact",
       "sha256": "a6902f982eff9058b24748e38535f53c857d9e76928ebafff938b0de988b5b98"
@@ -257,7 +267,7 @@
     {
       "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/freeze_blind_claims.py",
       "role": "reproducible decoder implementation",
-      "sha256": "61fd8ad9d3f97b46b88c7a6fd469309a0dec3fcde64a27cf0b34d2cb923845cc"
+      "sha256": "3ac6373a27f209fb71139fe437e2e3a1e143d264f5a48177d6406202d1a0b365"
     },
     {
       "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/freeze_decoder_execution_correction.py",
@@ -285,6 +295,11 @@
       "sha256": "846976e5807d26e35820d508fa664b2c02ea067afb4e339d8873c501af7b5556"
     },
     {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/freeze_v3_interrupted_recovery.py",
+      "role": "one-shot interrupted-run recovery freezer",
+      "sha256": "8ceb2a34c5a1e323b981aa05cf0a14cd4d448d27574f36a829f755daf161f4ee"
+    },
+    {
       "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/freeze_world_panel.py",
       "role": "reproducible panel implementation",
       "sha256": "8116f08362c59ee040a2134e88ee7d000ea7c442dbcd2268af288ecb2d68b0a0"
@@ -303,6 +318,11 @@
       "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/normalize_bundle.py",
       "role": "reproducible panel implementation",
       "sha256": "69afd4425f5e8f1f0f2d28c18394a1b9b45f23d1f6e3a608635dcabada03fd8a"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/recover_v3_interrupted_completion.py",
+      "role": "narrow interrupted-run recovery implementation",
+      "sha256": "a21a49e8ea3cbd1c1ea1a50b3e3af53eaec5c151f85c130e5281534ecb3af353"
     },
     {
       "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/run.py",
@@ -337,7 +357,7 @@
     {
       "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/validate_blind_claims.py",
       "role": "independent validator",
-      "sha256": "3e35ab85402ec97d108eb2fd8ef170a621db41981238d73bc27d4d6a41fa7757"
+      "sha256": "d463cc9cdee1ec92cba3222caf897bc27fcd2742d782076db3566ee4953af06e"
     },
     {
       "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/validate_identifiability.py",
@@ -368,6 +388,11 @@
       "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/validate_pair_blind_views.py",
       "role": "independent validator",
       "sha256": "caff3af7c10708c04c6caf865c92e82d2384465a0a7e47abf968df6138ae114f"
+    },
+    {
+      "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/validate_v3_interrupted_completion.py",
+      "role": "independent interrupted-run recovery validator",
+      "sha256": "a68e8b67834f3eb5c2a36ce98ed1c6c32d2f27999677980312335f6180b11d58"
     },
     {
       "path": "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/src/validate_pair_protocol_amendment.py",
@@ -497,7 +522,7 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "adversarial_synthetic_identifiability_benchmark",
-  "status": "SCORING_AND_INDEPENDENT_VALIDATION_FROZEN_BEFORE_ORACLE_ACCESS",
+  "status": "V3_INTERRUPTION_RECOVERY_FROZEN_BEFORE_EXECUTION",
   "title": "Adversarial synthetic writing-system identifiability benchmark",
   "updated": "2026-08-20",
   "validation": {

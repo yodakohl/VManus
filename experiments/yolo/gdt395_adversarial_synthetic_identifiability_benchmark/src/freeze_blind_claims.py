@@ -14,6 +14,7 @@ CLAIMS = EXP / ".work/claims"
 MANIFEST = CLAIMS / "blind_claim_manifest_all.tsv"
 OUT = EXP / "artifacts/gdt395_blind_claims_freeze.json"
 DECODER_FREEZE = EXP / "artifacts/gdt395_decoder_panel_freeze.json"
+RECOVERY_VALIDATION = EXP / "artifacts/gdt395_v3_interruption_recovery_validation.json"
 
 
 def sha(path: Path) -> str:
@@ -26,6 +27,13 @@ def sha(path: Path) -> str:
 
 def repo_path(path: Path) -> str:
     return str(path.resolve().relative_to(ROOT.resolve()))
+
+
+def valid_content(data: dict) -> bool:
+    copy = dict(data)
+    expected = copy.pop("content_sha256", "")
+    raw = json.dumps(copy, sort_keys=True, separators=(",", ":")).encode("ascii")
+    return hashlib.sha256(raw).hexdigest() == expected
 
 
 def main() -> None:
@@ -72,13 +80,21 @@ def main() -> None:
         "SCORING_REVIEW.md",
         "VALIDATION_DESIGN.md",
         "VALIDATION_REVIEW.md",
+        "INTERRUPTION_RECOVERY.md",
+        "artifacts/gdt395_v3_interruption_recovery_freeze.json",
+        "artifacts/gdt395_v3_interruption_recovery_result.json",
+        "artifacts/gdt395_v3_interruption_recovery_validation.json",
         "src/freeze_blind_claims.py",
         "src/score_identifiability.py",
         "src/validate_blind_claims.py",
         "src/validate_identifiability.py",
+        "src/freeze_v3_interrupted_recovery.py",
+        "src/recover_v3_interrupted_completion.py",
+        "src/validate_v3_interrupted_completion.py",
     ):
         implementation[rel] = sha(EXP / rel)
     decoder_freeze = json.loads(DECODER_FREEZE.read_text())
+    recovery_validation = json.loads(RECOVERY_VALIDATION.read_text())
     implementation_map = {}
     for row in decoder_freeze["decoders"]:
         meta = row["meta"]
@@ -106,6 +122,15 @@ def main() -> None:
         ),
         "all_decoders_oracle_blind": all(v["oracle_blind"] is True for v in implementation_map.values()),
         "all_claim_hashes_verified": True,
+        "interruption_recovery_validated": (
+            valid_content(recovery_validation)
+            and recovery_validation.get("schema") == "GDT395_V3_INTERRUPTION_RECOVERY_VALIDATION_V1"
+            and recovery_validation.get("status") == "PASS"
+            and recovery_validation.get("checks_total") == recovery_validation.get("checks_passed")
+            and bool(recovery_validation.get("checks"))
+            and all(type(value) is bool and value
+                    for value in recovery_validation.get("checks", {}).values())
+        ),
         "oracle_unopened": True,
         "voynich_and_f84_absent": True,
     }

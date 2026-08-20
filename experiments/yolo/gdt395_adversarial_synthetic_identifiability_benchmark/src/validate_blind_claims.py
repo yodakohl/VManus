@@ -20,6 +20,9 @@ OUT = EXP / "artifacts/gdt395_blind_claims_validation.json"
 CORPUS = EXP / "artifacts/gdt395_corpus_manifest.tsv"
 PAIR = EXP / "artifacts/gdt395_pair_blind_manifest.tsv"
 DECODER_FREEZE = EXP / "artifacts/gdt395_decoder_panel_freeze.json"
+RECOVERY_FREEZE = EXP / "artifacts/gdt395_v3_interruption_recovery_freeze.json"
+RECOVERY_RESULT = EXP / "artifacts/gdt395_v3_interruption_recovery_result.json"
+RECOVERY_VALIDATION = EXP / "artifacts/gdt395_v3_interruption_recovery_validation.json"
 REPS = {
     "FULL_GROUP", "HOST_LIKE", "COMPOSITE_STATE", "INFERRED_COMPONENTS",
     "CONSTRUCTION_SPAN", "RECORD_TOPOLOGY",
@@ -49,6 +52,10 @@ REQUIRED_IMPLEMENTATION = {
     "SCORING_REVIEW.md",
     "VALIDATION_DESIGN.md",
     "VALIDATION_REVIEW.md",
+    "INTERRUPTION_RECOVERY.md",
+    "artifacts/gdt395_v3_interruption_recovery_freeze.json",
+    "artifacts/gdt395_v3_interruption_recovery_result.json",
+    "artifacts/gdt395_v3_interruption_recovery_validation.json",
     "artifacts/gdt395_corpus_manifest.tsv",
     "artifacts/gdt395_pair_blind_manifest.tsv",
     "src/decoder_api.py",
@@ -59,6 +66,9 @@ REQUIRED_IMPLEMENTATION = {
     "src/score_identifiability.py",
     "src/validate_blind_claims.py",
     "src/validate_identifiability.py",
+    "src/freeze_v3_interrupted_recovery.py",
+    "src/recover_v3_interrupted_completion.py",
+    "src/validate_v3_interrupted_completion.py",
 }
 
 
@@ -77,6 +87,13 @@ def tsv(path: Path) -> list[dict]:
 
 def repo_path(path: Path) -> str:
     return str(path.resolve().relative_to(ROOT.resolve()))
+
+
+def valid_content(data: dict) -> bool:
+    copy = dict(data)
+    expected = copy.pop("content_sha256", "")
+    raw = json.dumps(copy, sort_keys=True, separators=(",", ":")).encode("ascii")
+    return hashlib.sha256(raw).hexdigest() == expected
 
 
 def observation_ids(path: Path, world: str, seed: int) -> set[str]:
@@ -263,6 +280,26 @@ def main() -> None:
     checks["confidence"] = confidence
     checks["no_oracle_interface"] = "oracle" not in MANIFEST.read_text().lower()
     checks["seal"] = not freeze["oracle_opened"] and freeze["oracle_rows_read"] == freeze["voynich_rows"] == 0 and not any(freeze["f84"].values())
+    recovery_freeze = json.loads(RECOVERY_FREEZE.read_text())
+    recovery_result = json.loads(RECOVERY_RESULT.read_text())
+    recovery_validation = json.loads(RECOVERY_VALIDATION.read_text())
+    recovery_bindings = recovery_validation.get("bindings", {})
+    checks["interruption_recovery"] = (
+        valid_content(recovery_freeze)
+        and valid_content(recovery_result)
+        and valid_content(recovery_validation)
+        and recovery_validation.get("schema") == "GDT395_V3_INTERRUPTION_RECOVERY_VALIDATION_V1"
+        and recovery_validation.get("status") == "PASS"
+        and recovery_validation.get("checks_total") == recovery_validation.get("checks_passed")
+        and bool(recovery_validation.get("checks"))
+        and all(type(value) is bool and value
+                for value in recovery_validation.get("checks", {}).values())
+        and recovery_bindings.get("freeze_sha256") == sha(RECOVERY_FREEZE)
+        and recovery_bindings.get("result_sha256") == sha(RECOVERY_RESULT)
+        and recovery_bindings.get("manifest_sha256") == sha(MANIFEST)
+        and recovery_result.get("recovery_freeze_sha256") == sha(RECOVERY_FREEZE)
+        and recovery_result.get("claim_manifest_sha256") == sha(MANIFEST)
+    )
     freeze_checks = freeze.get("checks", {})
     checks["freeze_checks"] = (
         isinstance(freeze_checks, dict) and bool(freeze_checks)

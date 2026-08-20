@@ -1,0 +1,34 @@
+{
+  "bindings": {
+    "INTERRUPTION_RECOVERY.md": "0e02df6fd8ccd5724461927bfc5f23bf8462558580cdc2c2d757a0eaf4fda7e2",
+    "artifacts/gdt395_corpus_manifest.tsv": "2564e294576610b2a399c37241a35f2a7bfb14779fde873b20641c01ffc4def2",
+    "artifacts/gdt395_decoder_execution_v3_correction.json": "08bdc71b4accee935a22d140970e3aafaf6428f18bab3d07b50351cc8301b8a7",
+    "artifacts/gdt395_decoder_panel_freeze.json": "65f6a6cc6eac46ee22ccdfcc80880d82fbfaf8ead9cf12194c4ad6b29ed8cd39",
+    "artifacts/gdt395_pair_blind_manifest.tsv": "751239ecc77622e5ce01735576e76c450541393c07ff9e066058d2ca6c843524",
+    "decoders/d01_multiview_graph/decoder.py": "c458b7d1a3b994e198d4a11c97096b9fee21804233918c8dc962487596c5d9e1",
+    "src/freeze_v3_interrupted_recovery.py": "8ceb2a34c5a1e323b981aa05cf0a14cd4d448d27574f36a829f755daf161f4ee",
+    "src/recover_v3_interrupted_completion.py": "a21a49e8ea3cbd1c1ea1a50b3e3af53eaec5c151f85c130e5281534ecb3af353",
+    "src/run_blind_decoders.py": "d19d32c5f20da41bcabeb8f9b0f0bc2361d6097cd5fbb5b0d3a0ccfb4578de89",
+    "src/run_blind_decoders_v2.py": "fb076ab956e097ad4d09bcdf6614c3957acf1cb1e0e740347b894e016506043f",
+    "src/run_blind_decoders_v3.py": "3f6dad1d18b7d90f250ba95f75ac2779a04029369fff3008530653bdbaa1dc34",
+    "src/validate_v3_interrupted_completion.py": "a68e8b67834f3eb5c2a36ce98ed1c6c32d2f27999677980312335f6180b11d58"
+  },
+  "checks": {
+    "all_event_claims_present": true,
+    "authoritative_manifest_absent": true,
+    "f84_opened": false,
+    "one_world_claim_missing": true,
+    "oracle_opened": false,
+    "recovery_source_bound": true,
+    "voynich_rows": 0
+  },
+  "content_sha256": "09a29a7404ddefaeceaf800c1a62d2c1f6cc02bad4559cfad0d04772fb26e358",
+  "event_claim_files": 2100,
+  "prestate_claim_map_sha256": "6cf4396c8fdad612f2b8efb69d76701ea1ec9fc4ea72c7da272a73c223e00d48",
+  "reason": "EXTERNAL_CONNECTION_INTERRUPTION_AFTER_EVENT_CLAIMS_BEFORE_FINAL_WORLD_CLAIM_AND_MANIFEST",
+  "schema": "GDT395_V3_INTERRUPTION_RECOVERY_FREEZE_V1",
+  "sole_missing_claim": "world_claims/W05/D01_MULTIVIEW_GRAPH/train_seeds_00_14.json",
+  "status": "FROZEN_BEFORE_RECOVERY_EXECUTION",
+  "total_claim_files": 2149,
+  "world_claim_files": 49
+}
