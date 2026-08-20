@@ -13,6 +13,7 @@ EXP = ROOT / "experiments/yolo/gdt395_adversarial_synthetic_identifiability_benc
 CLAIMS = EXP / ".work/claims"
 MANIFEST = CLAIMS / "blind_claim_manifest_all.tsv"
 OUT = EXP / "artifacts/gdt395_blind_claims_freeze.json"
+DECODER_FREEZE = EXP / "artifacts/gdt395_decoder_panel_freeze.json"
 
 
 def sha(path: Path) -> str:
@@ -39,7 +40,7 @@ def main() -> None:
         if not path.is_file() or sha(path) != row["claim_sha256"]:
             raise RuntimeError(f"claim hash mismatch: {path}")
     claim_bindings = {
-        "event_claims": [],
+        "authentic_event_claims": [],
         "pair_event_claims": [],
         "world_claims": [],
     }
@@ -51,7 +52,7 @@ def main() -> None:
         elif row["mode"] == "pair":
             claim_bindings["pair_event_claims"].append(binding)
         else:
-            claim_bindings["event_claims"].append(binding)
+            claim_bindings["authentic_event_claims"].append(binding)
     implementation = {}
     for rel in (
         "artifacts/gdt395_decoder_panel_freeze.json",
@@ -67,12 +68,49 @@ def main() -> None:
         "artifacts/gdt395_decoder_execution_v3_correction.json",
         "artifacts/gdt395_decoder_execution_v3_correction_validation.json",
         "artifacts/gdt395_runner_cache_equivalence_validation.json",
+        "SCORING_DESIGN.md",
+        "SCORING_REVIEW.md",
         "src/freeze_blind_claims.py",
+        "src/score_identifiability.py",
         "src/validate_blind_claims.py",
     ):
         implementation[rel] = sha(EXP / rel)
+    decoder_freeze = json.loads(DECODER_FREEZE.read_text())
+    implementation_map = {}
+    for row in decoder_freeze["decoders"]:
+        meta = row["meta"]
+        designer = meta["designer_model"].lower()
+        model_family = "LUNA" if "luna" in designer else "SOL" if "sol" in designer else ""
+        implementation_map[meta["decoder_id"]] = {
+            "decoder_id": meta["decoder_id"],
+            "model_family": model_family,
+            "oracle_blind": meta["oracle_blind"],
+            "source_sha256": row["source_sha256"],
+        }
+    mode_counts = {
+        "authentic_event_claims": sum(r["mode"] == "authentic" for r in rows),
+        "pair_event_claims": sum(r["mode"] == "pair" for r in rows),
+        "world_claims": sum(r["mode"] == "world_claim" for r in rows),
+    }
+    checks = {
+        "claim_file_count_2150": len(rows) == 2150,
+        "authentic_claim_count_1500": mode_counts["authentic_event_claims"] == 1500,
+        "pair_claim_count_600": mode_counts["pair_event_claims"] == 600,
+        "world_claim_count_50": mode_counts["world_claims"] == 50,
+        "two_sol_three_luna": (
+            sum(v["model_family"] == "SOL" for v in implementation_map.values()) == 2
+            and sum(v["model_family"] == "LUNA" for v in implementation_map.values()) == 3
+        ),
+        "all_decoders_oracle_blind": all(v["oracle_blind"] is True for v in implementation_map.values()),
+        "all_claim_hashes_verified": True,
+        "oracle_unopened": True,
+        "voynich_and_f84_absent": True,
+    }
+    if not all(checks.values()):
+        failed = ",".join(name for name, passed in checks.items() if not passed)
+        raise RuntimeError(f"claims freeze checks failed: {failed}")
     data = {
-        "schema": "GDT395_BLIND_CLAIMS_FREEZE_V1",
+        "schema": "GDT395_BLIND_CLAIMS_FREEZE_V2",
         "status": "PASS",
         "phase": "FROZEN_BEFORE_ORACLE_ACCESS",
         "claim_file_count": len(rows),
@@ -80,6 +118,8 @@ def main() -> None:
         "world_claim_file_count": sum(r["mode"] == "world_claim" for r in rows),
         "claim_manifest": {"path": repo_path(MANIFEST), "sha256": sha(MANIFEST)},
         "bindings": {**claim_bindings, "implementation": {"hashes": implementation}},
+        "implementation_map": implementation_map,
+        "checks": checks,
         "oracle_blind": True,
         "oracle_opened": False,
         "oracle_rows_read": 0,

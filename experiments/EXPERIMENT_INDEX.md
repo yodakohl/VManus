@@ -20,7 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT395 | GDT395_adversarial_synthetic_identifiability_benchmark_execution_v3 | `V3_FROZEN_AFTER_UNFROZEN_PARTIAL_V2_RUN` | [report](../experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/artifacts/gdt395_decoder_execution_v3_correction.json) | 92 | 876.9 KiB | 5 | STRUCTURED_YOLO |
+| GDT395 | GDT395_adversarial_synthetic_identifiability_benchmark_scoring_v2 | `FROZEN_BEFORE_ORACLE_ACCESS` | [report](../experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/SCORING_REVIEW.md) | 92 | 892.0 KiB | 5 | STRUCTURED_YOLO |
 | GDT394 | GDT394_latent_role_bottleneck_transfer_audit | `LATENT_ROLE_COMPRESSION_NOT_DISTINCT_FROM_MATCHED_SOURCE_BOTTLENECKS` | [report](../experiments/yolo/gdt394_latent_role_bottleneck_transfer_audit/REPORT.md) | 20 | 763.4 KiB | 4 | STRUCTURED_YOLO |
 | GDT393 | GDT393_remaining_page_connector_census | `COMPLETE_RESIDUAL_CENSUS_ZERO_ELIGIBLE_DIRECTED_EDGES` | [report](../experiments/yolo/gdt393_remaining_page_connector_census/REPORT.md) | 20 | 51.2 KiB | 2 | STRUCTURED_YOLO |
 | GDT392 | GDT392_source_access_correction | `SOURCE_COMMENT_MATERIALIZATION_DISCLOSED` | [report](../experiments/yolo/gdt392_special_circle_start_direction_census/CORRECTION.md) | 23 | 115.0 KiB | 3 | STRUCTURED_YOLO |

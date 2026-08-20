@@ -10,8 +10,10 @@ from __future__ import annotations
 import argparse
 import csv
 import hashlib
+import itertools
 import json
 import math
+import re
 import sqlite3
 import statistics
 import sys
@@ -19,6 +21,7 @@ import tempfile
 from collections import Counter, defaultdict
 from pathlib import Path
 
+ROOT = Path(__file__).resolve().parents[4]
 
 WORLDS = tuple(f"W{i:02d}" for i in range(1, 11))
 HELD_SEEDS = tuple(range(15, 20))
@@ -37,6 +40,26 @@ PROPERTIES = (
 HOLD_PROPERTIES = {
     "COORDINATOR_RELATION", "ALTERNATIVE_RELATION", "REFERENCE_ANAPHORA",
     "TEMPORAL_STATE_GATE", "OPERATOR_CLASS", "ACTUAL_LEXICAL_MEANING",
+    "PRODUCTIVE_MORPHOLOGY", "FOSSILIZED_MORPHOLOGY", "RECORD_SCHEMA", "SCOPE",
+}
+ENDPOINT_QUALIFICATION = {
+    "LEXICAL_IDENTITY": "ANONYMOUS_LEXICAL_ID_EQUALITY_ONLY",
+    "SEMANTIC_ENTITY_IDENTITY": "ANONYMOUS_SEMANTIC_ENTITY_COIDENTITY_ONLY",
+    "HISTORICAL_STEM_ANCESTRY": "SHARED_HISTORICAL_STEM_ID_PARTITION_ONLY_NOT_GENEALOGY",
+    "PRODUCTIVE_MORPHOLOGY": "INTERFACE_HOLD_OPAQUE_COMPONENT_ID_NOT_BOOLEAN",
+    "FOSSILIZED_MORPHOLOGY": "INTERFACE_HOLD_OPAQUE_COMPONENT_ID_NOT_BOOLEAN",
+    "FUNCTION_CLASS": "ANONYMOUS_FUNCTION_CLASS_PARTITION_ONLY",
+    "COORDINATOR_RELATION": "INTERFACE_HOLD_NO_FROZEN_TYPED_RANKED_TARGET",
+    "ALTERNATIVE_RELATION": "INTERFACE_HOLD_NO_FROZEN_TYPED_RANKED_TARGET",
+    "REFERENCE_ANAPHORA": "INTERFACE_HOLD_NO_DIRECT_ORACLE_REFERENCE_TARGET",
+    "TEMPORAL_STATE_GATE": "INTERFACE_HOLD_NO_MATCHING_CLAIM_TRUTH",
+    "SCOPE": "INTERFACE_HOLD_NO_VALIDATED_EVENT_ORDER",
+    "ENTITY_REUSE": "RECURRING_ANONYMOUS_ENTITY_ID_PAIR_PARTITION_ONLY",
+    "OPERATOR_CLASS": "INTERFACE_HOLD_NO_ORACLE_OPERATOR_CLASS",
+    "RECORD_SCHEMA": "INTERFACE_HOLD_NO_RECORD_ID_IN_ACCEPTED_INPUTS",
+    "REGISTER_LOCAL_VARIANT": "AUTHENTIC_REGISTER_REALIZATION_IDENTITY_ONLY",
+    "SEMANTIC_CATEGORY": "ANONYMOUS_SEMANTIC_CATEGORY_PARTITION_ONLY_NOT_MEANING",
+    "ACTUAL_LEXICAL_MEANING": "INTERFACE_HOLD_NO_GLOSS_OR_MEANING_CHANNEL",
 }
 CLAIM_FIELDS = (
     "world_id", "corpus_seed", "event_id", "representation", "decoder_id",
@@ -62,9 +85,6 @@ ORACLE_FIELDS = (
 )
 THRESHOLDS = {
     "cluster": {"nmi": 0.35, "ari": 0.20, "pair_f1": 0.35},
-    "binary": {"balanced_accuracy": 0.65, "mcc": 0.20, "fdr_max": 0.40},
-    "relation": {"coverage": 0.25, "mrr": 0.15, "mrr_above_chance": 0.05},
-    "scope": {"coverage": 0.25, "interval_iou": 0.35},
 }
 WORLD_FAMILIES = {
     "W01": "TECHNICAL_SCRIBAL_SHORTHAND",
@@ -85,28 +105,28 @@ ARCH_FLAG_TRUTH = {
     "semantics_light_like": {"W10"},
 }
 PAIR_WORLDS = {"W02", "W03", "W09", "W10"}
-PAIR_ALLOWED = {
-    "LEXICAL_IDENTITY": set(REPRESENTATIONS) - {"INFERRED_COMPONENTS"},
-    "SEMANTIC_ENTITY_IDENTITY": set(REPRESENTATIONS) - {"INFERRED_COMPONENTS"},
-    "SCOPE": set(REPRESENTATIONS) - {"INFERRED_COMPONENTS"},
-    "ENTITY_REUSE": set(REPRESENTATIONS) - {"INFERRED_COMPONENTS"},
-    "RECORD_SCHEMA": {"RECORD_TOPOLOGY"},
-}
+PAIR_ALLOWED: dict[str, set[str]] = {}
 STRESS_TESTS = (
     "EXACT_COMPOSITE_AS_WORD", "UNIVERSAL_COEFFICIENTS",
     "RESIDUALIZE_FREQUENCY_POSITION_RECURRENCE", "SCALAR_ROLE_BOTTLENECK",
     "FIXED_SHORT_HORIZON", "MULTI_CONSTRAINT_INTERSECTION",
 )
 MISSING = {"", "NONE", "NULL", "UNRESOLVED", "NA", "N/A", "[]", "{}"}
+FREEZE_SCHEMA = "GDT395_BLIND_CLAIMS_FREEZE_V2"
+VALIDATION_SCHEMA = "GDT395_BLIND_CLAIMS_VALIDATION_V2"
+ROLE_NAMES = ("authentic_event_claims", "pair_event_claims", "world_claims")
 class Refusal(RuntimeError):
     """A hard precondition failure that must produce no scientific output."""
 
 
 def sha256_file(path: Path) -> str:
     digest = hashlib.sha256()
-    with path.open("rb") as handle:
-        for block in iter(lambda: handle.read(1024 * 1024), b""):
-            digest.update(block)
+    try:
+        with path.open("rb") as handle:
+            for block in iter(lambda: handle.read(1024 * 1024), b""):
+                digest.update(block)
+    except OSError as exc:
+        raise Refusal("cannot hash required input") from None
     return digest.hexdigest()
 
 
@@ -114,81 +134,140 @@ def load_json(path: Path) -> dict:
     try:
         with path.open("r", encoding="utf-8") as handle:
             value = json.load(handle)
-    except (OSError, json.JSONDecodeError) as exc:
-        raise Refusal(f"cannot read required JSON {path}: {exc}") from exc
+    except (OSError, json.JSONDecodeError):
+        raise Refusal(f"cannot read required JSON {portable_path(path)}") from None
     if not isinstance(value, dict):
-        raise Refusal(f"required JSON is not an object: {path}")
+        raise Refusal(f"required JSON is not an object: {portable_path(path)}")
     return value
-
-
-def artifact_bindings(value: object) -> list[tuple[str, str]]:
-    found: list[tuple[str, str]] = []
-    if isinstance(value, dict):
-        path = value.get("path")
-        digest = value.get("sha256")
-        if isinstance(path, str) and isinstance(digest, str):
-            found.append((path, digest.lower()))
-        hashes = value.get("hashes")
-        if isinstance(hashes, dict):
-            for key, val in hashes.items():
-                if isinstance(key, str) and isinstance(val, str):
-                    found.append((key, val.lower()))
-        for child in value.values():
-            found.extend(artifact_bindings(child))
-    elif isinstance(value, list):
-        for child in value:
-            found.extend(artifact_bindings(child))
-    return found
-
-
-def path_aliases(path: Path) -> set[str]:
-    resolved = path.resolve()
-    aliases = {str(path), str(resolved), path.name}
-    try:
-        aliases.add(str(resolved.relative_to(Path.cwd().resolve())))
-    except ValueError:
-        pass
-    return aliases
 
 
 def portable_path(path: Path) -> str:
     resolved = path.resolve()
     try:
-        return str(resolved.relative_to(Path.cwd().resolve()))
+        return str(resolved.relative_to(ROOT.resolve()))
     except ValueError:
         return path.name
 
 
-def require_binding(artifact: dict, path: Path, digest: str, label: str) -> None:
-    aliases = path_aliases(path)
-    matches = [(p, h) for p, h in artifact_bindings(artifact)
-               if p in aliases or Path(p).resolve() == path.resolve()]
-    if not matches:
-        raise Refusal(f"{label} is not path-bound in artifact: {path}")
-    if not any(h == digest for _, h in matches):
-        raise Refusal(f"{label} SHA-256 mismatch: {path}")
+def validate_content_hash(document: dict, label: str) -> None:
+    declared = document.get("content_sha256")
+    if not isinstance(declared, str) or not re.fullmatch(r"[0-9a-f]{64}", declared):
+        raise Refusal(f"{label} lacks a valid content_sha256")
+    payload = dict(document)
+    del payload["content_sha256"]
+    encoded = json.dumps(payload, sort_keys=True, separators=(",", ":"),
+                         ensure_ascii=True).encode("ascii")
+    if hashlib.sha256(encoded).hexdigest() != declared:
+        raise Refusal(f"{label} content_sha256 mismatch")
+
+
+def validate_checks(document: dict, label: str) -> None:
+    checks = document.get("checks")
+    if not isinstance(checks, dict) or not checks:
+        raise Refusal(f"{label} requires a nonempty checks object")
+    if any(type(value) is not bool for value in checks.values()):
+        raise Refusal(f"{label} checks must be Boolean")
+    if not all(checks.values()):
+        raise Refusal(f"{label} contains a failed check")
+
+
+def binding_entries(document: dict, role: str) -> list[dict[str, str]]:
+    bindings = document.get("bindings")
+    if not isinstance(bindings, dict) or role not in bindings:
+        raise Refusal(f"freeze lacks required binding role {role}")
+    entries = bindings[role]
+    if not isinstance(entries, list) or not entries:
+        raise Refusal(f"binding role {role} must be a nonempty list")
+    output = []
+    for entry in entries:
+        if not isinstance(entry, dict) or set(entry) != {"path", "sha256"}:
+            raise Refusal(f"binding role {role} has a malformed entry")
+        path, digest = entry["path"], entry["sha256"]
+        if not isinstance(path, str) or not path or not isinstance(digest, str):
+            raise Refusal(f"binding role {role} has invalid types")
+        if not re.fullmatch(r"[0-9a-f]{64}", digest):
+            raise Refusal(f"binding role {role} has invalid SHA-256")
+        output.append({"path": path, "sha256": digest})
+    return output
+
+
+def exact_role_bindings(freeze: dict, role_paths: dict[str, list[Path]]) -> dict[str, str]:
+    bound_by_role: dict[str, dict[Path, str]] = {}
+    for role in ROLE_NAMES:
+        bound: dict[Path, str] = {}
+        for entry in binding_entries(freeze, role):
+            resolved = Path(entry["path"]).resolve()
+            if resolved in bound:
+                raise Refusal(f"duplicate path in binding role {role}")
+            bound[resolved] = entry["sha256"]
+        bound_by_role[role] = bound
+    for first, second in itertools.combinations(ROLE_NAMES, 2):
+        if set(bound_by_role[first]) & set(bound_by_role[second]):
+            raise Refusal(f"cross-role binding substitution between {first} and {second}")
+    hashes: dict[str, str] = {}
+    for role in ROLE_NAMES:
+        supplied = {path.resolve() for path in role_paths[role]}
+        if supplied != set(bound_by_role[role]):
+            raise Refusal(f"supplied files do not exactly equal binding role {role}")
+        for index, path in enumerate(role_paths[role]):
+            digest = sha256_file(path)
+            if digest != bound_by_role[role][path.resolve()]:
+                raise Refusal(f"SHA-256 mismatch in binding role {role}")
+            hashes[f"{role}_{index:03d}:{portable_path(path)}"] = digest
+    return hashes
+
+
+def validate_implementation_map(freeze: dict) -> dict[str, str]:
+    mapping = freeze.get("implementation_map")
+    if not isinstance(mapping, dict) or len(mapping) != 5:
+        raise Refusal("freeze implementation_map must bind exactly five decoders")
+    tiers: dict[str, str] = {}
+    for decoder_id, entry in mapping.items():
+        if not isinstance(decoder_id, str) or not decoder_id or not isinstance(entry, dict):
+            raise Refusal("malformed decoder implementation_map entry")
+        if entry.get("decoder_id") != decoder_id or entry.get("oracle_blind") is not True:
+            raise Refusal("implementation_map decoder provenance failure")
+        tier = entry.get("model_family")
+        if tier not in {"SOL", "LUNA"}:
+            raise Refusal("implementation_map model_family must be SOL or LUNA")
+        tiers[decoder_id] = tier
+    if list(tiers.values()).count("SOL") != 2 or list(tiers.values()).count("LUNA") != 3:
+        raise Refusal("implementation_map must bind exactly two SOL and three LUNA decoders")
+    return tiers
 
 
 def validate_blind_gate(freeze_path: Path, validation_path: Path,
-                        claim_paths: list[Path]) -> dict[str, str]:
+                        role_paths: dict[str, list[Path]]) -> tuple[dict[str, str], dict[str, str]]:
     freeze = load_json(freeze_path)
     validation = load_json(validation_path)
+    if freeze.get("schema") != FREEZE_SCHEMA or validation.get("schema") != VALIDATION_SCHEMA:
+        raise Refusal("freeze or validation schema mismatch")
+    validate_content_hash(freeze, "claims freeze")
+    validate_content_hash(validation, "claims validation")
+    validate_checks(freeze, "claims freeze")
+    validate_checks(validation, "claims validation")
     expected = {"status": "PASS", "phase": "FROZEN_BEFORE_ORACLE_ACCESS",
-                "oracle_blind": True}
+                "oracle_blind": True, "oracle_opened": False,
+                "oracle_rows_read": 0, "voynich_rows": 0}
     for key, wanted in expected.items():
         if freeze.get(key) != wanted:
             raise Refusal(f"claims freeze requires {key}={wanted!r}")
+    f84 = freeze.get("f84")
+    if not isinstance(f84, dict) or not f84 or any(value is not False for value in f84.values()):
+        raise Refusal("claims freeze does not preserve the f84 seal")
     if validation.get("status") != "PASS":
         raise Refusal("blind-claims validation status is not PASS")
     freeze_digest = sha256_file(freeze_path)
-    require_binding(validation, freeze_path, freeze_digest, "claims freeze")
+    validation_binding = binding_entries(validation, "claims_freeze")
+    if len(validation_binding) != 1:
+        raise Refusal("validation must bind exactly one claims freeze")
+    bound = validation_binding[0]
+    if Path(bound["path"]).resolve() != freeze_path.resolve() or bound["sha256"] != freeze_digest:
+        raise Refusal("validation claims-freeze binding mismatch")
     hashes = {"claims_freeze": freeze_digest,
               "claims_validation": sha256_file(validation_path)}
-    for index, path in enumerate(claim_paths):
-        digest = sha256_file(path)
-        require_binding(freeze, path, digest, "blind claim input")
-        hashes[f"blind_claim_{index:03d}:{portable_path(path)}"] = digest
-    return hashes
+    hashes.update(exact_role_bindings(freeze, role_paths))
+    return hashes, validate_implementation_map(freeze)
 
 
 def clean(value: object) -> str:
@@ -207,7 +286,7 @@ def parse_bool(value: object) -> bool | None:
         return False
     if token == "UNRESOLVED":
         return None
-    raise Refusal(f"non-binary value in a binary field: {value!r}")
+    raise Refusal("non-Boolean value in a Boolean field")
 
 
 def parse_oracle_pipe(value: object, label: str) -> tuple[str, ...]:
@@ -216,12 +295,12 @@ def parse_oracle_pipe(value: object, label: str) -> tuple[str, ...]:
         raise Refusal(f"invalid missing oracle value in {label}")
     atoms = raw.split("|")
     if any(not atom or atom != atom.strip() for atom in atoms):
-        raise Refusal(f"noncanonical pipe value in {label}: {raw!r}")
+        raise Refusal(f"noncanonical pipe value in {label}")
     if len(atoms) != len(set(atoms)) or atoms != sorted(atoms):
-        raise Refusal(f"unsorted or duplicate pipe atoms in {label}: {raw!r}")
+        raise Refusal(f"unsorted or duplicate pipe atoms in {label}")
     if "NONE" in atoms:
         if atoms != ["NONE"]:
-            raise Refusal(f"NONE mixed with a value in {label}: {raw!r}")
+            raise Refusal(f"NONE mixed with a value in {label}")
         return ()
     return tuple(atoms)
 
@@ -239,24 +318,24 @@ def safe_int(value: object, label: str) -> int:
     try:
         return int(clean(value))
     except ValueError as exc:
-        raise Refusal(f"invalid integer {label}: {value!r}") from exc
+        raise Refusal(f"invalid integer {label}") from exc
 
 
 def open_tsv(path: Path) -> tuple[object, csv.DictReader]:
     try:
         handle = path.open("r", encoding="utf-8", newline="")
     except OSError as exc:
-        raise Refusal(f"cannot open TSV {path}: {exc}") from exc
+        raise Refusal(f"cannot open TSV {portable_path(path)}") from None
     reader = csv.DictReader(handle, delimiter="\t")
     if reader.fieldnames is None:
         handle.close()
-        raise Refusal(f"TSV has no header: {path}")
+        raise Refusal(f"TSV has no header: {portable_path(path)}")
     return handle, reader
 
 
 def require_header(reader: csv.DictReader, fields: tuple[str, ...], path: Path) -> None:
     if tuple(reader.fieldnames or ()) != fields:
-        raise Refusal(f"wrong TSV header for {path}")
+        raise Refusal(f"wrong TSV header for {portable_path(path)}")
 
 
 def quoted(names: tuple[str, ...] | list[str]) -> str:
@@ -294,15 +373,36 @@ def ingest_claims(db: sqlite3.Connection, paths: list[Path], view: str) -> None:
                 seed = safe_int(row["corpus_seed"], "corpus_seed")
                 rep = clean(row["representation"])
                 if world not in WORLDS or seed not in HELD_SEEDS or rep not in REPRESENTATIONS:
-                    raise Refusal(f"out-of-panel claim at {path}:{row_number}")
+                    raise Refusal(f"out-of-panel claim at {portable_path(path)}:{row_number}")
                 if view == "pair" and world not in PAIR_WORLDS:
-                    raise Refusal(f"non-pair world in pair claims at {path}:{row_number}")
+                    raise Refusal(f"non-pair world in pair claims at {portable_path(path)}:{row_number}")
+                if not clean(row["event_id"]) or not clean(row["decoder_id"]):
+                    raise Refusal(f"missing claim identity at {portable_path(path)}:{row_number}")
                 try:
                     confidence = float(row["confidence"])
                 except ValueError as exc:
-                    raise Refusal(f"bad confidence at {path}:{row_number}") from exc
-                if not 0.0 <= confidence <= 1.0:
-                    raise Refusal(f"confidence outside [0,1] at {path}:{row_number}")
+                    raise Refusal(f"bad confidence at {portable_path(path)}:{row_number}") from None
+                if not math.isfinite(confidence) or not 0.0 <= confidence <= 1.0:
+                    raise Refusal(f"confidence outside [0,1] at {portable_path(path)}:{row_number}")
+                cluster_fields = (
+                    "entity_cluster", "lexical_cluster", "stem_cluster", "function_cluster",
+                    "operator_cluster", "construction_cluster", "register_variant_cluster",
+                    "semantic_category_cluster", "record_schema_cluster",
+                    "productive_component_prediction", "fossilized_component_prediction",
+                )
+                for field in cluster_fields:
+                    token = clean(row[field])
+                    if not token or token.upper() in {"NONE", "NULL", "NA", "N/A"}:
+                        raise Refusal(f"invalid opaque/abstention claim at {portable_path(path)}:{row_number}")
+                endpoint_fields = (
+                    "predicted_relation_target_event_id", "predicted_reference_target_event_id",
+                    "predicted_scope_start_event_id", "predicted_scope_end_event_id",
+                )
+                for field in endpoint_fields:
+                    token = clean(row[field])
+                    if (not token or token.upper() in {"NONE", "NULL", "NA", "N/A"}
+                            or (token != "UNRESOLVED" and "|" in token)):
+                        raise Refusal(f"invalid endpoint claim at {portable_path(path)}:{row_number}")
                 values = [clean(row[name]) for name in CLAIM_FIELDS]
                 values[CLAIM_FIELDS.index("corpus_seed")] = str(seed)
                 batch.append((view, *values))
@@ -322,40 +422,94 @@ def ingest_claims(db: sqlite3.Connection, paths: list[Path], view: str) -> None:
     db.commit()
 
 
+def validate_preoracle_claims(db: sqlite3.Connection, decoders: tuple[str, ...]) -> None:
+    expected_repeats = len(REPRESENTATIONS) * len(decoders)
+    for view, worlds in (("main", WORLDS), ("pair", tuple(sorted(PAIR_WORLDS)))):
+        for world in worlds:
+            for seed in HELD_SEEDS:
+                bad = db.execute(
+                    "SELECT COUNT(*) FROM (SELECT event_id,COUNT(*) n FROM claims "
+                    "WHERE view=? AND world_id=? AND corpus_seed=? GROUP BY event_id HAVING n != ?)",
+                    (view, world, str(seed), expected_repeats),
+                ).fetchone()[0]
+                if bad:
+                    raise Refusal(f"claim event identities vary across {view} panels")
+    for field in (
+        "predicted_relation_target_event_id", "predicted_reference_target_event_id",
+        "predicted_scope_start_event_id", "predicted_scope_end_event_id",
+    ):
+        invalid = db.execute(
+            f'SELECT COUNT(*) FROM claims c WHERE c."{field}" != \'UNRESOLVED\' '
+            f'AND NOT EXISTS (SELECT 1 FROM claims e WHERE e.view=c.view '
+            f'AND e.world_id=c.world_id AND e.corpus_seed=c.corpus_seed '
+            f'AND e.event_id=c."{field}")'
+        ).fetchone()[0]
+        if invalid:
+            raise Refusal("endpoint claim refers outside its permitted held view")
+
+
+def path_world_id(path: Path) -> str | None:
+    matches = set(re.findall(r"(?<![A-Za-z0-9])W(?:0[1-9]|10)(?![A-Za-z0-9])", str(path)))
+    if len(matches) > 1:
+        raise Refusal("world-claim path contains multiple world IDs")
+    return next(iter(matches)) if matches else None
+
+
 def ingest_world_claims(paths: list[Path]) -> list[dict[str, str]]:
-    required = ("world_id", "representation", *WORLD_CLAIM_FIELDS)
     rows: list[dict[str, str]] = []
-    seen: set[tuple[str, str, str]] = set()
+    seen: set[tuple[str, str]] = set()
     for path in paths:
-        handle, reader = open_tsv(path)
+        document = load_json(path)
+        envelope_world: str | None = None
+        if set(document) == set(WORLD_CLAIM_FIELDS):
+            payload = document
+        elif set(document) == {"world_id", *WORLD_CLAIM_FIELDS}:
+            envelope_world = clean(document["world_id"])
+            payload = {name: document[name] for name in WORLD_CLAIM_FIELDS}
+        elif set(document) in ({"world_id", "claim"}, {"world_id", "world_claim"}):
+            envelope_world = clean(document["world_id"])
+            payload = document.get("claim", document.get("world_claim"))
+            if not isinstance(payload, dict) or set(payload) != set(WORLD_CLAIM_FIELDS):
+                raise Refusal("malformed world-claim JSON envelope")
+        else:
+            raise Refusal("world-claim JSON has an unexpected schema")
+        from_path = path_world_id(path)
+        if envelope_world and from_path and envelope_world != from_path:
+            raise Refusal("world-claim path/envelope world mismatch")
+        world = envelope_world or from_path
+        if world not in WORLDS:
+            raise Refusal("world claim lacks one strict W01--W10 path/envelope ID")
+        item = {name: clean(payload[name]) for name in WORLD_CLAIM_FIELDS}
+        item["world_id"] = world
+        key = (world, item["decoder_id"])
+        if key in seen:
+            raise Refusal("duplicate world claim key")
+        seen.add(key)
         try:
-            require_header(reader, required, path)
-            for row_number, row in enumerate(reader, 2):
-                item = {name: clean(row[name]) for name in required}
-                key = (item["world_id"], item["representation"], item["decoder_id"])
-                if item["world_id"] not in WORLDS or item["representation"] not in REPRESENTATIONS:
-                    raise Refusal(f"bad world-claim envelope at {path}:{row_number}")
-                if key in seen:
-                    raise Refusal(f"duplicate world claim key at {path}:{row_number}")
-                seen.add(key)
-                try:
-                    confidence = float(item["confidence"])
-                except ValueError as exc:
-                    raise Refusal(f"bad world confidence at {path}:{row_number}") from exc
-                if not 0.0 <= confidence <= 1.0:
-                    raise Refusal(f"world confidence outside [0,1] at {path}:{row_number}")
-                rows.append(item)
-        finally:
-            handle.close()
+            confidence = float(item["confidence"])
+        except ValueError as exc:
+            raise Refusal("bad world-claim confidence") from exc
+        if not math.isfinite(confidence) or not 0.0 <= confidence <= 1.0:
+            raise Refusal("world-claim confidence outside [0,1]")
+        for flag in ("language_like", "notation_like", "codebook_like", "semantics_light_like"):
+            parse_bool(item[flag])
+        if not present(item["architecture_cluster"]):
+            item["architecture_cluster"] = "UNRESOLVED"
+        rows.append(item)
+    if len(rows) != 50:
+        raise Refusal("world claims must be exactly 50 individual JSON files")
     return rows
 
 
-def validate_claim_dimensions(db: sqlite3.Connection, world_claims: list[dict[str, str]]) -> tuple[str, ...]:
+def validate_claim_dimensions(db: sqlite3.Connection, world_claims: list[dict[str, str]],
+                              model_tiers: dict[str, str]) -> tuple[str, ...]:
     decoders = tuple(row[0] for row in db.execute(
         "SELECT DISTINCT decoder_id FROM claims WHERE view='main' ORDER BY decoder_id"
     ))
     if len(decoders) != 5:
         raise Refusal(f"expected exactly five main decoders, found {len(decoders)}")
+    if set(decoders) != set(model_tiers):
+        raise Refusal("event decoder IDs do not match the frozen implementation_map")
     pair_decoders = tuple(row[0] for row in db.execute(
         "SELECT DISTINCT decoder_id FROM claims WHERE view='pair' ORDER BY decoder_id"
     ))
@@ -373,10 +527,10 @@ def validate_claim_dimensions(db: sqlite3.Connection, world_claims: list[dict[st
     ).fetchone()[0]
     if got_main != expected_main or got_pair != expected_pair:
         raise Refusal("incomplete claim panel dimensions")
-    expected_world = {(w, r, d) for w in WORLDS for r in REPRESENTATIONS for d in decoders}
-    got_world = {(r["world_id"], r["representation"], r["decoder_id"]) for r in world_claims}
+    expected_world = {(w, d) for w in WORLDS for d in decoders}
+    got_world = {(r["world_id"], r["decoder_id"]) for r in world_claims}
     if got_world != expected_world:
-        raise Refusal("world-claim panel is not exactly 10 worlds x 6 representations x 5 decoders")
+        raise Refusal("world-claim panel is not exactly 10 worlds x 5 decoders")
     return decoders
 
 
@@ -395,7 +549,7 @@ def ingest_oracle(db: sqlite3.Connection, paths: list[Path]) -> dict[str, str]:
                 world = clean(row["world_id"])
                 seed = safe_int(row["corpus_seed"], "oracle corpus_seed")
                 if world not in WORLDS:
-                    raise Refusal(f"bad oracle world at {path}:{row_number}")
+                    raise Refusal(f"bad oracle world at {portable_path(path)}:{row_number}")
                 if seed not in HELD_SEEDS:
                     continue
                 key = (world, seed)
@@ -487,7 +641,8 @@ def comb2(value: int) -> int:
 def cluster_scores(pairs: Counter[tuple[str, str]]) -> dict[str, float | int | None]:
     n = sum(pairs.values())
     if n == 0:
-        return {"n": 0, "nmi": None, "ari": None, "pair_f1": None}
+        return {"n": 0, "nmi": None, "ari": None, "pair_f1": None,
+                "co_cluster_fpr": None}
     truth = Counter()
     pred = Counter()
     for (t, p), count in pairs.items():
@@ -512,7 +667,12 @@ def cluster_scores(pairs: Counter[tuple[str, str]]) -> dict[str, float | int | N
     precision = tp / pred_pairs if pred_pairs else (1.0 if truth_pairs == 0 else 0.0)
     recall = tp / truth_pairs if truth_pairs else (1.0 if pred_pairs == 0 else 0.0)
     pair_f1 = 0.0 if precision + recall == 0.0 else 2.0 * precision * recall / (precision + recall)
-    return {"n": n, "nmi": nmi, "ari": ari, "pair_f1": pair_f1}
+    different_truth_pairs = total_pairs - truth_pairs
+    false_co_clusters = pred_pairs - tp
+    co_cluster_fpr = (false_co_clusters / different_truth_pairs
+                      if different_truth_pairs else None)
+    return {"n": n, "nmi": nmi, "ari": ari, "pair_f1": pair_f1,
+            "co_cluster_fpr": co_cluster_fpr}
 
 
 def binary_scores(tp: int, tn: int, fp: int, fn: int) -> dict[str, float | int | None]:
@@ -530,14 +690,6 @@ def binary_scores(tp: int, tn: int, fp: int, fn: int) -> dict[str, float | int |
     }
 
 
-def interval_iou(a: int, b: int, c: int, d: int) -> float:
-    left1, right1 = sorted((a, b))
-    left2, right2 = sorted((c, d))
-    intersection = max(0, min(right1, right2) - max(left1, left2) + 1)
-    union = max(right1, right2) - min(left1, left2) + 1
-    return intersection / union
-
-
 def empty_result(view: str, world: str, seed: int, rep: str, decoder: str,
                  prop: str, kind: str, status: str) -> dict[str, object]:
     return {
@@ -550,7 +702,9 @@ def empty_result(view: str, world: str, seed: int, rep: str, decoder: str,
         "exact_scope_accuracy": None, "interval_iou": None,
         "target_distance_mae": None, "false_discoveries": 0,
         "primary_index": None, "threshold_pass": False,
-        "metric_note": "",
+        "absent_truth_n": 0, "unresolved_n": 0, "invalid_n": 0,
+        "co_cluster_fpr": None, "false_positive_rate": None,
+        "endpoint_qualification": ENDPOINT_QUALIFICATION[prop], "metric_note": "",
     }
 
 
@@ -559,7 +713,6 @@ CLUSTER_MAP = {
     "SEMANTIC_ENTITY_IDENTITY": ("entity_cluster", "semantic_entity_id"),
     "HISTORICAL_STEM_ANCESTRY": ("stem_cluster", "historical_stem_id"),
     "FUNCTION_CLASS": ("function_cluster", "function_class"),
-    "RECORD_SCHEMA": ("record_schema_cluster", "record_schema_id"),
     "REGISTER_LOCAL_VARIANT": ("register_variant_cluster", "register_realization_id"),
     "SEMANTIC_CATEGORY": ("semantic_category_cluster", "semantic_category"),
 }
@@ -590,7 +743,6 @@ def panel_rows(db: sqlite3.Connection, view: str, world: str, seed: int,
 def score_panel(db: sqlite3.Connection, view: str, world: str, seed: int,
                 rep: str, decoder: str) -> list[dict[str, object]]:
     joined = panel_rows(db, view, world, seed, rep, decoder)
-    universe = {clean(row["event_id"]): int(row["oracle_order"]) for row in joined}
     results: list[dict[str, object]] = []
     for prop in PROPERTIES:
         if prop in HOLD_PROPERTIES:
@@ -605,10 +757,6 @@ def score_panel(db: sqlite3.Connection, view: str, world: str, seed: int,
             continue
         if prop in CLUSTER_MAP or prop == "ENTITY_REUSE":
             result = score_cluster_panel(joined, view, world, seed, rep, decoder, prop)
-        elif prop in {"PRODUCTIVE_MORPHOLOGY", "FOSSILIZED_MORPHOLOGY"}:
-            result = score_binary_panel(joined, view, world, seed, rep, decoder, prop)
-        elif prop == "SCOPE":
-            result = score_scope_panel(joined, universe, view, world, seed, rep, decoder)
         else:
             raise AssertionError(prop)
         finalize_result(result)
@@ -620,10 +768,23 @@ def score_cluster_panel(joined: list[sqlite3.Row], view: str, world: str, seed: 
                         rep: str, decoder: str, prop: str) -> dict[str, object]:
     result = empty_result(view, world, seed, rep, decoder, prop, "cluster", "SCORED")
     pairs: Counter[tuple[str, str]] = Counter()
-    predictions = false_discoveries = absent_n = 0
-    for row in joined:
+    predictions = eligible_predictions = false_discoveries = absent_n = unresolved_n = 0
+    parsed_entities: list[str | None] = []
+    recurring_entities: Counter[str] = Counter()
+    if prop == "ENTITY_REUSE":
+        for row in joined:
+            truth_value = parse_oracle_scalar(row["o_semantic_entity_id"], "semantic_entity_id")
+            parsed_entities.append(truth_value)
+            if truth_value is not None:
+                recurring_entities[truth_value] += 1
+    for row_index, row in enumerate(joined):
         if prop == "ENTITY_REUSE":
-            truth = parse_oracle_scalar(row["o_semantic_entity_id"], "semantic_entity_id") or ""
+            candidate = parsed_entities[row_index]
+            if candidate is not None and recurring_entities[candidate] < 2:
+                # A singleton entity is outside the reuse endpoint, not an
+                # oracle-negative reuse event and not a decoder false positive.
+                continue
+            truth = candidate or ""
             pred = clean(row["c_entity_cluster"])
         else:
             pred_field, truth_field = CLUSTER_MAP[prop]
@@ -637,18 +798,24 @@ def score_cluster_panel(joined: list[sqlite3.Row], view: str, world: str, seed: 
             if resolved:
                 false_discoveries += 1
             continue
+        if resolved:
+            eligible_predictions += 1
+        else:
+            unresolved_n += 1
         abstention = f"__ABSTENTION_SINGLETON__{clean(row['event_id'])}"
         pairs[(truth, pred if resolved else abstention)] += 1
     scores = cluster_scores(pairs)
     result.update({"eligible_n": scores["n"], "prediction_n": predictions,
-                   "coverage": predictions / len(joined) if joined else 0.0,
+                   "coverage": eligible_predictions / scores["n"] if scores["n"] else 0.0,
                    "nmi": scores["nmi"], "ari": scores["ari"],
-                   "pair_f1": scores["pair_f1"], "false_discoveries": false_discoveries})
-    if world == "W10" and prop == "SEMANTIC_CATEGORY":
-        result["false_discoveries"] = predictions
-        result["fdr"] = 1.0 if predictions else 0.0
-    else:
-        result["fdr"] = false_discoveries / predictions if predictions else 0.0
+                   "pair_f1": scores["pair_f1"], "false_discoveries": false_discoveries,
+                   "absent_truth_n": absent_n, "unresolved_n": unresolved_n,
+                   "co_cluster_fpr": scores["co_cluster_fpr"]})
+    absent_claim_rate = false_discoveries / absent_n if absent_n else None
+    applicable_rates = [rate for rate in (absent_claim_rate, scores["co_cluster_fpr"])
+                        if rate is not None]
+    result["false_positive_rate"] = max(applicable_rates) if applicable_rates else None
+    result["fdr"] = result["false_positive_rate"]
     truth_counts = Counter()
     for (truth, _), count in pairs.items():
         truth_counts[truth] += count
@@ -659,96 +826,6 @@ def score_cluster_panel(joined: list[sqlite3.Row], view: str, world: str, seed: 
     return result
 
 
-def score_binary_panel(joined: list[sqlite3.Row], view: str, world: str, seed: int,
-                       rep: str, decoder: str, prop: str) -> dict[str, object]:
-    result = empty_result(view, world, seed, rep, decoder, prop, "binary", "SCORED")
-    tp = tn = fp = fn = covered = 0
-    for row in joined:
-        if prop == "PRODUCTIVE_MORPHOLOGY":
-            truth = parse_bool(row["o_productive_morphology"])
-            pred = parse_bool(row["c_productive_component_prediction"])
-        else:
-            truth = bool(parse_oracle_pipe(row["o_fossilized_component_ids"],
-                                           "fossilized_component_ids"))
-            pred = parse_bool(row["c_fossilized_component_prediction"])
-        if truth is None:
-            continue
-        if pred is not None:
-            covered += 1
-        if pred is None:
-            if truth:
-                fn += 1
-            else:
-                fp += 1
-            continue
-        positive_call = pred
-        if truth and positive_call:
-            tp += 1
-        elif truth:
-            fn += 1
-        elif positive_call:
-            fp += 1
-        else:
-            tn += 1
-    scores = binary_scores(tp, tn, fp, fn)
-    result.update(scores)
-    result.update({"eligible_n": scores["n"], "prediction_n": tp + fp,
-                   "coverage": covered / scores["n"] if scores["n"] else 0.0,
-                   "false_discoveries": fp})
-    if scores["n"] == 0 or scores["balanced_accuracy"] is None or scores["mcc"] is None:
-        result["status"] = "UNSCORED_DEGENERATE_BINARY_TRUTH"
-    return result
-
-
-def score_scope_panel(joined: list[sqlite3.Row], universe: dict[str, int],
-                      view: str, world: str, seed: int, rep: str,
-                      decoder: str) -> dict[str, object]:
-    result = empty_result(view, world, seed, rep, decoder, "SCOPE", "scope", "SCORED")
-    eligible = covered = predictions = false_discoveries = 0
-    endpoint_hits = exact_hits = 0
-    iou_sum = 0.0
-    for row in joined:
-        ts = parse_oracle_scalar(row["o_scope_start_event_id"], "scope_start_event_id")
-        te = parse_oracle_scalar(row["o_scope_end_event_id"], "scope_end_event_id")
-        if (ts is None) != (te is None):
-            raise Refusal("one-sided oracle scope interval")
-        ps, pe = clean(row["c_predicted_scope_start_event_id"]), clean(row["c_predicted_scope_end_event_id"])
-        truth_ok = ts is not None and te is not None and ts in universe and te in universe
-        if ts is not None and te is not None and (ts not in universe or te not in universe):
-            raise Refusal("oracle scope endpoint outside permitted held view")
-        if truth_ok and universe[ts] > universe[te]:
-            raise Refusal("reversed oracle scope interval")
-        predicted = present(ps) or present(pe)
-        if predicted:
-            predictions += 1
-        if not truth_ok:
-            if predicted:
-                false_discoveries += 1
-            continue
-        eligible += 1
-        pred_ok = ps in universe and pe in universe
-        if pred_ok and universe[ps] > universe[pe]:
-            pred_ok = False
-        if not pred_ok:
-            continue
-        covered += 1
-        endpoint_hits += int(ps == ts) + int(pe == te)
-        exact_hits += int(ps == ts and pe == te)
-        iou_sum += interval_iou(universe[ps], universe[pe], universe[ts], universe[te])
-    result.update({
-        "eligible_n": eligible, "prediction_n": predictions,
-        "coverage": covered / eligible if eligible else 0.0,
-        "endpoint_accuracy": endpoint_hits / (2 * eligible) if eligible else None,
-        "exact_scope_accuracy": exact_hits / eligible if eligible else None,
-        "interval_iou": iou_sum / eligible if eligible else None,
-        "false_discoveries": false_discoveries,
-        "fdr": false_discoveries / predictions if predictions else 0.0,
-    })
-    if eligible == 0:
-        result["status"] = "UNSCORED_NO_ELIGIBLE_TRUTH"
-    return result
-
-
 def primary_index(result: dict[str, object]) -> float | None:
     kind = result["kind"]
     if result["status"] != "SCORED":
@@ -756,15 +833,6 @@ def primary_index(result: dict[str, object]) -> float | None:
     if kind == "cluster":
         values = (result["nmi"], result["ari"], result["pair_f1"])
         scales = (0.35, 0.20, 0.35)
-    elif kind == "binary":
-        values = (result["balanced_accuracy"], result["mcc"], 1.0 - float(result["fdr"]))
-        scales = (0.65, 0.20, 0.60)
-    elif kind == "relation":
-        values = (result["coverage"], result["mrr"], result["mrr_above_chance"])
-        scales = (0.25, 0.15, 0.05)
-    elif kind == "scope":
-        values = (result["coverage"], result["interval_iou"])
-        scales = (0.25, 0.35)
     else:
         return None
     if any(value is None for value in values):
@@ -780,14 +848,6 @@ def passes_threshold(result: dict[str, object]) -> bool:
         if kind == "cluster":
             return (float(result["nmi"]) >= 0.35 and float(result["ari"]) >= 0.20
                     and float(result["pair_f1"]) >= 0.35)
-        if kind == "binary":
-            return (float(result["balanced_accuracy"]) >= 0.65 and float(result["mcc"]) >= 0.20
-                    and float(result["fdr"]) <= 0.40)
-        if kind == "relation":
-            return (float(result["coverage"]) >= 0.25 and float(result["mrr"]) >= 0.15
-                    and float(result["mrr_above_chance"]) >= 0.05)
-        if kind == "scope":
-            return float(result["coverage"]) >= 0.25 and float(result["interval_iou"]) >= 0.35
     except (TypeError, ValueError):
         return False
     return False
@@ -804,12 +864,15 @@ METRIC_FIELDS = (
     "nmi", "ari", "pair_f1", "balanced_accuracy", "mcc", "fdr", "top1",
     "mrr", "mrr_above_chance", "endpoint_accuracy", "exact_scope_accuracy",
     "interval_iou", "target_distance_mae", "false_discoveries",
-    "primary_index", "threshold_pass", "metric_note",
+    "absent_truth_n", "unresolved_n", "invalid_n", "co_cluster_fpr",
+    "false_positive_rate", "primary_index", "threshold_pass",
+    "endpoint_qualification", "metric_note",
 )
 AGG_METRICS = (
     "coverage", "nmi", "ari", "pair_f1", "balanced_accuracy", "mcc", "fdr",
     "top1", "mrr", "mrr_above_chance", "endpoint_accuracy",
     "exact_scope_accuracy", "interval_iou", "target_distance_mae", "primary_index",
+    "false_positive_rate", "co_cluster_fpr",
 )
 
 
@@ -822,7 +885,7 @@ def median_values(rows: list[dict[str, object]]) -> dict[str, float | None]:
 
 
 def aggregate_world_representation(panel: list[dict[str, object]], decoders: tuple[str, ...],
-                                   view: str) -> list[dict[str, object]]:
+                                   view: str, model_tiers: dict[str, str]) -> list[dict[str, object]]:
     grouped: dict[tuple[str, str, str, str], list[dict[str, object]]] = defaultdict(list)
     for row in panel:
         if row["view"] == view:
@@ -845,58 +908,61 @@ def aggregate_world_representation(panel: list[dict[str, object]], decoders: tup
                 valid = [row for row in rows if row is not None and row["status"] == "SCORED"]
                 med = median_values(valid) if len(valid) == len(decoders) else {name: None for name in AGG_METRICS}
                 clear_n = sum(bool(row and row.get("threshold_pass")) for row in rows)
+                luna_clear = sum(bool(row and row.get("threshold_pass"))
+                                 for decoder, row in zip(decoders, rows)
+                                 if model_tiers[decoder] == "LUNA")
                 status = "SCORED" if len(valid) == len(decoders) else "UNSCORED"
                 output.append({
                     "view": view, "property": prop, "world_id": world,
                     "representation": rep, "status": status,
                     "decoders_scored": len(valid), "decoders_clear": clear_n,
-                    "median_decoder_clear": status == "SCORED" and clear_n >= 3,
+                    "luna_decoders_clear": luna_clear,
+                    "median_decoder_clear": status == "SCORED" and clear_n >= 3 and luna_clear >= 2,
+                    "endpoint_qualification": ENDPOINT_QUALIFICATION[prop],
                     **med,
                 })
     return output
 
 
 def architecture_scores(rows: list[dict[str, str]], decoders: tuple[str, ...]) -> list[dict[str, object]]:
-    indexed = {(r["world_id"], r["representation"], r["decoder_id"]): r for r in rows}
+    indexed = {(r["world_id"], r["decoder_id"]): r for r in rows}
     output: list[dict[str, object]] = []
-    for rep in REPRESENTATIONS:
-        for decoder in decoders:
-            panel = [indexed[(world, rep, decoder)] for world in WORLDS]
-            pairs = Counter((WORLD_FAMILIES[row["world_id"]],
-                             row["architecture_cluster"] if present(row["architecture_cluster"])
-                             else "UNRESOLVED") for row in panel)
-            scores = cluster_scores(pairs)
+    for decoder in decoders:
+        panel = [indexed[(world, decoder)] for world in WORLDS]
+        pairs = Counter((WORLD_FAMILIES[row["world_id"]],
+                         row["architecture_cluster"] if present(row["architecture_cluster"])
+                         else f"__ABSTENTION_SINGLETON__{row['world_id']}") for row in panel)
+        scores = cluster_scores(pairs)
+        output.append({
+            "decoder_id": decoder, "endpoint": "ARCHITECTURE_CLUSTER",
+            "truth_basis": "FROZEN_BROAD_FAMILY", "n": scores["n"],
+            "nmi": scores["nmi"], "ari": scores["ari"],
+            "pair_f1": scores["pair_f1"], "balanced_accuracy": None,
+            "mcc": None, "fdr": None,
+        })
+        for flag, positives in ARCH_FLAG_TRUTH.items():
+            tp = tn = fp = fn = 0
+            for row in panel:
+                truth = row["world_id"] in positives
+                prediction = parse_bool(row[flag])
+                pred = bool(prediction) if prediction is not None else False
+                if truth and pred:
+                    tp += 1
+                elif truth:
+                    fn += 1
+                elif pred:
+                    fp += 1
+                else:
+                    tn += 1
+            scores_b = binary_scores(tp, tn, fp, fn)
             output.append({
-                "representation": rep, "decoder_id": decoder,
-                "endpoint": "ARCHITECTURE_CLUSTER", "truth_basis": "FROZEN_BROAD_FAMILY",
-                "n": scores["n"], "nmi": scores["nmi"], "ari": scores["ari"],
-                "pair_f1": scores["pair_f1"], "balanced_accuracy": None,
-                "mcc": None, "fdr": None,
+                "decoder_id": decoder, "endpoint": flag.upper(),
+                "truth_basis": ("FROZEN_EXPLICIT" if flag == "semantics_light_like"
+                                else "PREDECLARED_PUBLIC_ASSIGNMENT_PROXY"),
+                "n": scores_b["n"], "nmi": None, "ari": None, "pair_f1": None,
+                "balanced_accuracy": scores_b["balanced_accuracy"],
+                "mcc": scores_b["mcc"], "fdr": scores_b["fdr"],
             })
-            for flag, positives in ARCH_FLAG_TRUTH.items():
-                tp = tn = fp = fn = 0
-                for row in panel:
-                    truth = row["world_id"] in positives
-                    prediction = parse_bool(row[flag])
-                    pred = bool(prediction) if prediction is not None else False
-                    if truth and pred:
-                        tp += 1
-                    elif truth:
-                        fn += 1
-                    elif pred:
-                        fp += 1
-                    else:
-                        tn += 1
-                scores_b = binary_scores(tp, tn, fp, fn)
-                output.append({
-                    "representation": rep, "decoder_id": decoder,
-                    "endpoint": flag.upper(),
-                    "truth_basis": ("FROZEN_EXPLICIT" if flag == "semantics_light_like"
-                                    else "PREDECLARED_PUBLIC_ASSIGNMENT_PROXY"),
-                    "n": scores_b["n"], "nmi": None, "ari": None, "pair_f1": None,
-                    "balanced_accuracy": scores_b["balanced_accuracy"],
-                    "mcc": scores_b["mcc"], "fdr": scores_b["fdr"],
-                })
     return output
 
 
@@ -909,14 +975,30 @@ def w10_table(panel: list[dict[str, object]]) -> list[dict[str, object]]:
     for prop in PROPERTIES:
         for rep in REPRESENTATIONS:
             rows = grouped[(prop, rep)]
-            discoveries = sum(int(row["false_discoveries"]) for row in rows)
-            predictions = sum(int(row["prediction_n"]) for row in rows)
+            seed_rates = []
+            for seed in HELD_SEEDS:
+                values = [float(row["false_positive_rate"]) for row in rows
+                          if row["corpus_seed"] == seed and row["false_positive_rate"] is not None]
+                if values:
+                    seed_rates.append(statistics.median(values))
+            point = statistics.fmean(seed_rates) if len(seed_rates) == 5 else None
+            if len(seed_rates) == 5:
+                bootstrap = sorted(statistics.fmean(seed_rates[index] for index in draw)
+                                   for draw in itertools.product(range(5), repeat=5))
+                upper = bootstrap[math.ceil(0.95 * len(bootstrap)) - 1]
+            else:
+                upper = None
             output.append({
                 "property": prop, "representation": rep,
-                "panels": len(rows), "predictions": predictions,
-                "false_discoveries": discoveries,
-                "false_discovery_rate": discoveries / predictions if predictions else 0.0,
-                "guard_pass": (discoveries / predictions if predictions else 0.0) <= 0.10,
+                "endpoint_qualification": ENDPOINT_QUALIFICATION[prop],
+                "panels": len(rows),
+                "seed_false_positive_rates": ("|".join(f"{value:.10g}" for value in seed_rates)
+                                               if seed_rates else "NA"),
+                "false_positive_rate": point, "false_positive_upper95": upper,
+                "upper95_method": "EXACT_SEED_CLUSTER_BOOTSTRAP_3125_NO_RECORD_RESAMPLE",
+                "point_guard_pass": upper is not None and upper <= 0.10,
+                "confirmatory_guard_pass": False,
+                "inference_status": "EXPLORATORY_UNCONFIRMED",
             })
     return output
 
@@ -931,11 +1013,15 @@ def property_decisions(main_agg: list[dict[str, object]], pair_agg: list[dict[st
         if prop in HOLD_PROPERTIES:
             output.append({
                 "property": prop, "decision": "UNSCORED_INTERFACE_HOLD",
+                "endpoint_qualification": ENDPOINT_QUALIFICATION[prop],
                 "representation": "NONE", "worlds_clear": 0,
                 "meaningful_worlds_clear": 0, "clear_world_ids": "NONE",
-                "clear_world_families": "NONE", "w10_false_discovery_rate": None,
+                "clear_world_families": "NONE", "w10_false_positive_rate": None,
+                "w10_false_positive_upper95": None,
                 "w10_guard_pass": False, "organic_confusion_flag": False,
                 "organic_confusion_representations": "NONE",
+                "raw_p_value": None, "holm_adjusted_p_value": None,
+                "inference_status": "UNSCORED_INTERFACE_HOLD",
             })
             continue
         rep_counts: dict[str, int] = {}
@@ -947,33 +1033,34 @@ def property_decisions(main_agg: list[dict[str, object]], pair_agg: list[dict[st
                                           for world in WORLDS if world != "W10")
         best_rep = min(REPRESENTATIONS, key=lambda rep: (-rep_counts[rep], REPRESENTATIONS.index(rep)))
         general_reps = [rep for rep in REPRESENTATIONS
-                        if meaningful_counts[rep] >= 7 and bool(guard[(prop, rep)]["guard_pass"])]
+                        if meaningful_counts[rep] >= 7 and bool(guard[(prop, rep)]["point_guard_pass"])]
         family_reps = [rep for rep in REPRESENTATIONS
-                       if 2 <= meaningful_counts[rep] <= 6 and bool(guard[(prop, rep)]["guard_pass"])]
-        confused_reps: list[str] = []
+                       if 2 <= meaningful_counts[rep] <= 6 and bool(guard[(prop, rep)]["point_guard_pass"])]
         if general_reps:
-            decision = "PROPERTY_IDENTIFIABLE_FROM_INTERNAL_STRUCTURE"
+            exploratory_pattern = "POINT_THRESHOLD_GENERAL_PATTERN"
             chosen = general_reps[0]
         elif family_reps:
-            decision = "PROPERTY_ONLY_IDENTIFIABLE_UNDER_SPECIFIC_WORLD_FAMILIES"
+            exploratory_pattern = "POINT_THRESHOLD_FAMILY_SPECIFIC_PATTERN"
             chosen = max(family_reps, key=lambda rep: (meaningful_counts[rep], -REPRESENTATIONS.index(rep)))
-        elif prop in {"SEMANTIC_CATEGORY", "ACTUAL_LEXICAL_MEANING"}:
-            decision = "PROPERTY_REQUIRES_EXTERNAL_GROUNDING"
-            chosen = best_rep
         else:
-            decision = "NOT_IDENTIFIABLE_BY_THIS_PANEL"
+            exploratory_pattern = "NO_POINT_THRESHOLD_PATTERN"
             chosen = best_rep
         clear_worlds = [world for world in WORLDS
                         if main_index[(prop, world, chosen)]["median_decoder_clear"]]
         output.append({
-            "property": prop, "decision": decision, "representation": chosen,
+            "property": prop, "decision": "EXPLORATORY_UNCONFIRMED",
+            "endpoint_qualification": ENDPOINT_QUALIFICATION[prop],
+            "exploratory_pattern": exploratory_pattern, "representation": chosen,
             "worlds_clear": len(clear_worlds), "meaningful_worlds_clear": len([w for w in clear_worlds if w != "W10"]),
             "clear_world_ids": "|".join(clear_worlds) if clear_worlds else "NONE",
             "clear_world_families": "|".join(WORLD_FAMILIES[w] for w in clear_worlds if w != "W10") or "NONE",
-            "w10_false_discovery_rate": guard[(prop, chosen)]["false_discovery_rate"],
-            "w10_guard_pass": guard[(prop, chosen)]["guard_pass"],
+            "w10_false_positive_rate": guard[(prop, chosen)]["false_positive_rate"],
+            "w10_false_positive_upper95": guard[(prop, chosen)]["false_positive_upper95"],
+            "w10_guard_pass": False,
             "organic_confusion_flag": False,
             "organic_confusion_representations": "UNSCORED_EQUIVALENCE_GATE_REQUIRED",
+            "raw_p_value": None, "holm_adjusted_p_value": None,
+            "inference_status": "EXPLORATORY_UNCONFIRMED_NO_RECORD_BLOCKS_OR_HOLM_INPUTS",
         })
     return output
 
@@ -990,7 +1077,7 @@ def format_value(value: object) -> object:
 
 def write_tsv(path: Path, rows: list[dict[str, object]], fields: tuple[str, ...] | None = None) -> None:
     if not rows and fields is None:
-        raise Refusal(f"cannot infer empty TSV schema: {path}")
+        raise Refusal(f"cannot infer empty TSV schema: {portable_path(path)}")
     names = fields or tuple(rows[0].keys())
     with path.open("w", encoding="utf-8", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=names, delimiter="\t", lineterminator="\n")
@@ -1005,7 +1092,7 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     parser.add_argument("--claims-validation", type=Path, required=True)
     parser.add_argument("--claims-tsv", type=Path, action="append", required=True)
     parser.add_argument("--pair-claims-tsv", type=Path, action="append", required=True)
-    parser.add_argument("--world-claims-tsv", type=Path, action="append", required=True)
+    parser.add_argument("--world-claim-json", type=Path, action="append", required=True)
     parser.add_argument("--oracle-tsv", type=Path, action="append", required=True)
     parser.add_argument("--output-dir", type=Path, required=True)
     return parser.parse_args(argv)
@@ -1013,16 +1100,22 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
 
 def main(argv: list[str] | None = None) -> int:
     args = parse_args(argv)
-    claim_inputs = [*args.claims_tsv, *args.pair_claims_tsv, *args.world_claims_tsv]
-    input_hashes = validate_blind_gate(args.claims_freeze, args.claims_validation, claim_inputs)
+    role_paths = {
+        "authentic_event_claims": args.claims_tsv,
+        "pair_event_claims": args.pair_claims_tsv,
+        "world_claims": args.world_claim_json,
+    }
+    input_hashes, model_tiers = validate_blind_gate(
+        args.claims_freeze, args.claims_validation, role_paths)
     args.output_dir.mkdir(parents=True, exist_ok=True)
     with tempfile.TemporaryDirectory(prefix="gdt395_score_") as temp_dir:
         db = create_database(str(Path(temp_dir) / "score.sqlite3"))
         try:
             ingest_claims(db, args.claims_tsv, "main")
             ingest_claims(db, args.pair_claims_tsv, "pair")
-            world_claims = ingest_world_claims(args.world_claims_tsv)
-            decoders = validate_claim_dimensions(db, world_claims)
+            world_claims = ingest_world_claims(args.world_claim_json)
+            decoders = validate_claim_dimensions(db, world_claims, model_tiers)
+            validate_preoracle_claims(db, decoders)
             # This is the first access to any sealed-oracle path.
             oracle_hashes = ingest_oracle(db, args.oracle_tsv)
             input_hashes.update(oracle_hashes)
@@ -1038,8 +1131,8 @@ def main(argv: list[str] | None = None) -> int:
             db.close()
     main_panel = [row for row in panel if row["view"] == "main"]
     pair_panel = [row for row in panel if row["view"] == "pair"]
-    main_agg = aggregate_world_representation(main_panel, decoders, "main")
-    pair_agg = aggregate_world_representation(pair_panel, decoders, "pair")
+    main_agg = aggregate_world_representation(main_panel, decoders, "main", model_tiers)
+    pair_agg = aggregate_world_representation(pair_panel, decoders, "pair", model_tiers)
     w10 = w10_table(main_panel)
     decisions = property_decisions(main_agg, pair_agg, w10)
     architecture = architecture_scores(world_claims, decoders)
@@ -1056,17 +1149,25 @@ def main(argv: list[str] | None = None) -> int:
         "schema": "GDT395_IDENTIFIABILITY_SCORE_SUMMARY_V1",
         "status": "PASS",
         "panel": {"worlds": 10, "held_seeds": list(HELD_SEEDS),
-                  "representations": list(REPRESENTATIONS), "decoders": list(decoders)},
+                  "representations": list(REPRESENTATIONS), "decoders": list(decoders),
+                  "decoder_model_family": model_tiers,
+                  "world_claim_files": len(args.world_claim_json)},
         "input_sha256": input_hashes,
         "decisions": {row["property"]: row["decision"] for row in decisions},
+        "endpoint_qualification": ENDPOINT_QUALIFICATION,
+        "interface_hold_properties": sorted(HOLD_PROPERTIES),
+        "confirmatory_promotions_enabled": False,
         "unscored_method_stress_tests": list(STRESS_TESTS),
         "ambiguities": [
             "Coordinator, alternative, and reference retrieval are UNSCORED_INTERFACE_HOLD.",
             "Temporal-state gate and operator class are UNSCORED_INTERFACE_HOLD.",
+            "Productive and fossilized morphology are HOLD because resolved claims are opaque component IDs, not Booleans.",
+            "Record schema is HOLD without record_id; scope is HOLD without validated event order.",
             "ACTUAL_LEXICAL_MEANING is UNSCORED_INTERFACE_HOLD and is not lexical identity.",
             "No relation-type substring, state-pair, function-class, or lexical-identity surrogate is used.",
             "Architecture boolean truths except semantics-light are public-assignment proxies.",
             "A common representation must meet cross-world decision counts.",
+            "All point-threshold patterns are EXPLORATORY_UNCONFIRMED; no PROPERTY_IDENTIFIABLE promotion is emitted.",
         ],
         "contains_event_rows": False,
         "voynich_rows": 0,
