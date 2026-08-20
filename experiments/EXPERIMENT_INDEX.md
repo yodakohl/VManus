@@ -7,7 +7,7 @@ The authoritative scientific status remains
 ## Inventory
 
 - Experiments indexed: **386**
-- Experiment-associated tracked files: **5,257** (621.7 MiB)
+- Experiment-associated tracked files: **5,266** (623.0 MiB)
 - Structured GDT337+ experiments: **51**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
@@ -20,7 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT387 | GDT387_cross_domain_parent_link_freeze | `FROZEN_BEFORE_SCORING` | [report](../experiments/yolo/gdt387_cross_domain_parent_link_calibration/METHOD.md) | 11 | 40.7 KiB | 4 | STRUCTURED_YOLO |
+| GDT387 | GDT387_cross_domain_parent_link_calibration | `CROSS_DOMAIN_PARENT_LINK_SIGNATURE_SUPPORTED` | [report](../experiments/yolo/gdt387_cross_domain_parent_link_calibration/REPORT.md) | 20 | 1.3 MiB | 4 | STRUCTURED_YOLO |
 | GDT386 | GDT386_independent_relation_edge_capacity | `NO_INDEPENDENT_TARGET_RELATION_EDGE_AVAILABLE` | [report](../experiments/yolo/gdt386_independent_relation_edge_capacity/REPORT.md) | 13 | 35.5 KiB | 18 | STRUCTURED_YOLO |
 | GDT385 | GDT385_corema_parent_link_current | `COMPARATOR_PARENT_LINK_INSTRUMENT_FAILED_STOP_BEFORE_VOYNICH` | [report](../experiments/yolo/gdt385_corema_parent_link_consequence/REPORT.md) | 22 | 3.0 MiB | 4 | STRUCTURED_YOLO |
 | GDT384 | GDT384_role_specific_relation_priority | `PRIORITY_RELATION_UNIDENTIFIABLE_SOURCE_OVERLAP_STOP_BEFORE_VOYNICH` | [report](../experiments/yolo/gdt384_role_specific_relational_consequence/REPORT.md) | 24 | 1.3 MiB | 6 | STRUCTURED_YOLO |

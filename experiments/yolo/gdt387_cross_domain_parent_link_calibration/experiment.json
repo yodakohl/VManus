@@ -3,7 +3,7 @@
   "claim_ceiling": "Comparator-only cross-domain prediction of an external syntactic-governor relation after Voynichification; no Voynich role, syntax, POS, meaning, language, plaintext, translation, or f84 result.",
   "commands": {
     "run": "./vpy experiments/yolo/gdt387_cross_domain_parent_link_calibration/src/run.py",
-    "validate": "./vpy experiments/yolo/gdt387_cross_domain_parent_link_calibration/src/validate_freeze.py"
+    "validate": "./vpy experiments/yolo/gdt387_cross_domain_parent_link_calibration/src/validate.py"
   },
   "created": "2026-08-20",
   "dependencies": ["GDT382", "GDT384", "GDT385", "GDT386"],
@@ -16,9 +16,18 @@
     {"path": "experiments/yolo/gdt387_cross_domain_parent_link_calibration/README.md", "role": "experiment entry point", "sha256": "179dee751db92dd5db7d340fda56d629ba9350db80079ead7c421f2322600765"},
     {"path": "experiments/yolo/gdt387_cross_domain_parent_link_calibration/METHOD.md", "role": "public pre-score method and gate", "sha256": "99b761df95902f85c29e1cf9b4ead6947089645d0081229ef3cca02562ab7266"},
     {"path": "experiments/yolo/gdt387_cross_domain_parent_link_calibration/SOURCE_AUDIT.md", "role": "external corpus provenance", "sha256": "ae33aa38ecdc94d39a6918f67c50ffec5eb8aa826fe5a5ee77b482b784a570d8"},
-    {"path": "experiments/yolo/gdt387_cross_domain_parent_link_calibration/artifacts/README.md", "role": "artifact guide", "sha256": "c314c30e1c4362683176f5374319f3c7962ea37889e80bf906d2658242b18dda"},
+    {"path": "experiments/yolo/gdt387_cross_domain_parent_link_calibration/REPORT.md", "role": "held-file result and target-capacity consequence", "sha256": "f2b8be84fa9595de9fa4561639185cfa3aa120dc0c018e0209b55537377fb622"},
+    {"path": "experiments/yolo/gdt387_cross_domain_parent_link_calibration/artifacts/README.md", "role": "artifact guide", "sha256": "d1f1b6028643646e0eef1da59fd658ca8fe6ca1a860837a06776a1bb6ec9def3"},
     {"path": "experiments/yolo/gdt387_cross_domain_parent_link_calibration/artifacts/gdt387_pre_score_freeze.json", "role": "frozen source role head rules models null and gate", "sha256": "bd9302a5af4935bf7b3e2498f9a5c06f0de99bd96f5f0032dcf4b167b2e7b9c1"},
     {"path": "experiments/yolo/gdt387_cross_domain_parent_link_calibration/artifacts/gdt387_pre_score_freeze_validation.json", "role": "pre-score freeze validation", "sha256": "d8d60e9a937740f8f18179132c3f9e7abc18cbb52465027cf9e3e7eef0fbc000"},
+    {"path": "experiments/yolo/gdt387_cross_domain_parent_link_calibration/artifacts/gdt387_hidden_governor_oracle.tsv.gz", "role": "opaque hidden comparator role and parse-governor oracle", "sha256": "67adc844f12dfdc4828d07d191d0a14e93080507126e135a2b72b1adb864ca8b"},
+    {"path": "experiments/yolo/gdt387_cross_domain_parent_link_calibration/artifacts/gdt387_route_score.tsv", "role": "frozen route score and gates", "sha256": "56d4f24215a8e35581ed1a8a390110b242a65ed1037502b8964fb6c32f945306"},
+    {"path": "experiments/yolo/gdt387_cross_domain_parent_link_calibration/artifacts/gdt387_file_folds.tsv", "role": "84 whole-file fold scores", "sha256": "ec985d041a2681d04ca2efe4dd3a5b3184385d3d4a9465d3b8f0944846432bb5"},
+    {"path": "experiments/yolo/gdt387_cross_domain_parent_link_calibration/artifacts/gdt387_null_worlds.tsv", "role": "2048 conditional null worlds", "sha256": "1e1f3acfb250fe3cd9e9ee2b4c6b61c1af40a42973934a76aeac29b27998af00"},
+    {"path": "experiments/yolo/gdt387_cross_domain_parent_link_calibration/artifacts/gdt387_predictions.tsv.gz", "role": "retained opaque held predictions and exact ranks", "sha256": "319311d4dcc940ae504ba550acbf050c1079a23b77b558b3938695433afa788f"},
+    {"path": "experiments/yolo/gdt387_cross_domain_parent_link_calibration/artifacts/gdt387_counterexamples.tsv", "role": "worst hidden-role exact-target cases", "sha256": "29a9d2aecb0b656930b3c8fa4c8975801d44a44005b93693f017455ccf3826f8"},
+    {"path": "experiments/yolo/gdt387_cross_domain_parent_link_calibration/artifacts/gdt387_result.json", "role": "compact hash-bound result", "sha256": "e46f0d354bffd0992b9c272a9b407d22499f2f0459f01ed3cfe7de702edc4a56"},
+    {"path": "experiments/yolo/gdt387_cross_domain_parent_link_calibration/artifacts/gdt387_validation.json", "role": "independent retained-prediction validation", "sha256": "f2aa78e29da5d916dd275b0d3a6c3d1748f4138442ffccfdfaa8cad54eebc2e2"},
     {"path": "experiments/yolo/gdt387_cross_domain_parent_link_calibration/src/freeze.py", "role": "freeze producer", "sha256": "3275d2af3dff3bfa25f9df1c51ca616ac8805f3c13f6b852a54395fc3ffc79fb"},
     {"path": "experiments/yolo/gdt387_cross_domain_parent_link_calibration/src/validate_freeze.py", "role": "freeze validator", "sha256": "f861a0c0e2d02d6d98ddf4837e3f5cc32cf2507195441d954aa8113b4c2217cd"},
     {"path": "experiments/yolo/gdt387_cross_domain_parent_link_calibration/src/run.py", "role": "frozen hidden-oracle builder and scorer", "sha256": "6d4fa10bae917f17cd4751e1d46d4eeae3e8f490866078f4c1833ce84ae2c977"},
@@ -28,8 +37,8 @@
   "schema_version": 1,
   "sealed_data": {"f84r": "FORBIDDEN"},
   "slug": "cross_domain_parent_link_calibration",
-  "status": "FROZEN_BEFORE_SCORING",
+  "status": "CROSS_DOMAIN_PARENT_LINK_SIGNATURE_SUPPORTED",
   "title": "Cross-domain external parent-link calibration",
   "updated": "2026-08-20",
-  "validation": {"artifact": "experiments/yolo/gdt387_cross_domain_parent_link_calibration/artifacts/gdt387_pre_score_freeze_validation.json", "status": "PASS"}
+  "validation": {"artifact": "experiments/yolo/gdt387_cross_domain_parent_link_calibration/artifacts/gdt387_validation.json", "status": "PASS"}
 }

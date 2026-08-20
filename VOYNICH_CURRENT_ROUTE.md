@@ -264,25 +264,25 @@ ledger. Use those files for a proposed-route duplicate audit, not on every turn.
 
 ## Next useful route
 
-GDT385's comparator repair recovered only one of four anonymous CoReMA routes:
-the hidden TIME-derived route adds 194.224 held relation bits across 5/6
-collections (`max4 p=.000488`), while the priority REF route fails. The full
-instrument gate therefore failed and licensed only a score-blind target
-capacity audit.
+GDT385 recovered only one of four anonymous CoReMA routes: the hidden
+TIME-derived route adds 194.224 held relation bits across 5/6 collections
+(`max4 p=.000488`), while priority REF and the full instrument gate fail.
 
-GDT386 completed that audit without reading formal identities. Across 40
-cross-page referent pairs, 1,059 local relation cases on 335 loci, 170 Q20
-records, 11 external homologue candidates, and four remaining referent
-upgrades, it found zero independently ordered target edges. Local geometry is
-not a parent target; repeated grammar, line/field return, and OPEN/BODY
-structure are source-defined outcomes. No Voynich score is authorized.
+GDT386's score-blind audit found zero independently ordered target edges among
+40 cross-page pairs, 1,059 local relation cases/335 loci, 170 Q20 records, 11
+external homologues, and four upgrades. Local geometry is not a parent target;
+grammar, line/field return, and OPEN/BODY are source-defined outcomes.
 
-The next useful work is acquisition/instrumentation: obtain a provenance-clean
-relation census with exact pivot and target, independently visible direction
-or ownership, at least 50 edges on five physical folios, and no dependence on
-tuple recurrence or placement. Until then, improve the readable comparator or
-the observation protocol; do not reopen internal operator, PAGE_HOST, visual
-substring, or semantic-role mining.
+GDT387 strengthens only the readable instrument: +85.11 exact-governor bits on
+26,493 opaque PCEEC2 pivots/69 of 84 files (`p=.04295`), but just +3.13 bits
+above the null mean and seven extra top-1 targets. External hierarchy can
+survive composite encoding across two readable domains; Voynich capacity is
+still zero and no role is licensed.
+
+Next acquire a provenance-clean relation census: exact pivot/target,
+independent direction/ownership, at least 50 edges/five folios, and no tuple or
+placement dependence. Until then, improve the observation protocol; do not
+reopen internal operator, PAGE_HOST, visual-substring, or semantic-role mining.
 
 ## Primary routing references
 
@@ -292,6 +292,7 @@ substring, or semantic-role mining.
 - `experiments/yolo/gdt347_fixed_graph_control_transport/REPORT.md`
 - `experiments/yolo/gdt348_oracle_coordinate_transport_calibration/REPORT.md`
 - `experiments/yolo/gdt386_independent_relation_edge_capacity/REPORT.md`
+- `experiments/yolo/gdt387_cross_domain_parent_link_calibration/REPORT.md`
 - `GDT330_F84R_METADATA_ACCESS_CORRECTION.md`
 
 Use `experiments/EXPERIMENT_INDEX.tsv` for exact paths, dependencies, runners,

@@ -1,0 +1,64 @@
+{
+  "claim_ceiling": "CROSS_DOMAIN_COMPARATOR_RELATION_CALIBRATION_ONLY",
+  "content_hash": "495b48434dc4f1e21a36ae9a526d224655fac6eae7118feec00741f217b53e80",
+  "f84": {
+    "opened": false,
+    "parsed": false,
+    "retained": false,
+    "scored": false
+  },
+  "implementation": {
+    "experiments/yolo/gdt387_cross_domain_parent_link_calibration/src/freeze.py": "3275d2af3dff3bfa25f9df1c51ca616ac8805f3c13f6b852a54395fc3ffc79fb",
+    "experiments/yolo/gdt387_cross_domain_parent_link_calibration/src/run.py": "6d4fa10bae917f17cd4751e1d46d4eeae3e8f490866078f4c1833ce84ae2c977",
+    "experiments/yolo/gdt387_cross_domain_parent_link_calibration/src/validate.py": "1ad961cf1a00239537827c0fd0d32b3e6cd8d7e97a73639b6f2d5bf06d1395f0",
+    "experiments/yolo/gdt387_cross_domain_parent_link_calibration/src/validate_freeze.py": "f861a0c0e2d02d6d98ddf4837e3f5cc32cf2507195441d954aa8113b4c2217cd"
+  },
+  "inputs": {
+    "experiments/yolo/gdt382_voynichification_methodology_audit/artifacts/gdt382_voynichified_observation_layer.tsv.gz": "4c20dc0dd234f9b1947ce9c81d9d1c8645e30a1fd81321b6a9be755b3d229896",
+    "experiments/yolo/gdt385_corema_parent_link_consequence/artifacts/gdt385_result.json": "624cd6363454bbce85f7262321452b64ae43b0b3b5dbf2693909177ea9af4c7b",
+    "experiments/yolo/gdt387_cross_domain_parent_link_calibration/artifacts/gdt387_pre_score_freeze.json": "bd9302a5af4935bf7b3e2498f9a5c06f0de99bd96f5f0032dcf4b167b2e7b9c1"
+  },
+  "outputs": {
+    "experiments/yolo/gdt387_cross_domain_parent_link_calibration/artifacts/gdt387_counterexamples.tsv": "29a9d2aecb0b656930b3c8fa4c8975801d44a44005b93693f017455ccf3826f8",
+    "experiments/yolo/gdt387_cross_domain_parent_link_calibration/artifacts/gdt387_file_folds.tsv": "ec985d041a2681d04ca2efe4dd3a5b3184385d3d4a9465d3b8f0944846432bb5",
+    "experiments/yolo/gdt387_cross_domain_parent_link_calibration/artifacts/gdt387_hidden_governor_oracle.tsv.gz": "67adc844f12dfdc4828d07d191d0a14e93080507126e135a2b72b1adb864ca8b",
+    "experiments/yolo/gdt387_cross_domain_parent_link_calibration/artifacts/gdt387_null_worlds.tsv": "1e1f3acfb250fe3cd9e9ee2b4c6b61c1af40a42973934a76aeac29b27998af00",
+    "experiments/yolo/gdt387_cross_domain_parent_link_calibration/artifacts/gdt387_predictions.tsv.gz": "319311d4dcc940ae504ba550acbf050c1079a23b77b558b3938695433afa788f",
+    "experiments/yolo/gdt387_cross_domain_parent_link_calibration/artifacts/gdt387_route_score.tsv": "56d4f24215a8e35581ed1a8a390110b242a65ed1037502b8964fb6c32f945306"
+  },
+  "pceec2_rows": 27518,
+  "root_or_unmapped_rows": 1025,
+  "route": {
+    "gate_pass": 1,
+    "governor_gain_bits": 85.10919072099205,
+    "mobile_fraction": 0.4167893405805307,
+    "mobile_rows": 11042,
+    "n": 26493,
+    "permutation_p": 0.042947779404587605,
+    "positive_files": 69,
+    "role_auc": 0.9274794719740329,
+    "role_files": 47,
+    "role_gain_bits": 222.90010848877296,
+    "role_governor_bits": 89382.58244428171,
+    "role_pivots": 110,
+    "role_target_mrr": 0.5009874812986843,
+    "role_target_top1": 0.2937002227003359,
+    "route_id": "CMP_XDOMAIN_01",
+    "source_files": 84,
+    "source_governor_bits": 89467.6916350027,
+    "source_target_mrr": 0.5008355534143533,
+    "source_target_top1": 0.29343600196278263,
+    "target_mrr_delta": 0.00015192788433104898
+  },
+  "schema": "GDT387_RESULT_V1",
+  "scored_governor_edges": 26493,
+  "semantic_state": "COMPARATOR_ONLY",
+  "source": {
+    "bundle_sha256": "c90c1eabdb58bd1a41e9231c52612bc14cfa1c560d8cf357e1480384e873c714",
+    "commit": "bf79d1c46e8ef983a7347b0664d0d80243f32831",
+    "url": "https://github.com/beatrice57/pceec2"
+  },
+  "source_files": 84,
+  "status": "CROSS_DOMAIN_PARENT_LINK_SIGNATURE_SUPPORTED",
+  "voynich_rows_read": 0
+}
