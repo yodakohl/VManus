@@ -1,0 +1,63 @@
+{
+  "acquisition": {
+    "frozen_page_frame_folios": 30,
+    "frozen_page_frame_pages": 61,
+    "max_externally_frozen_comparisons": 3,
+    "minimum_edges": 50,
+    "minimum_physical_folios": 5,
+    "power_note": "GDT372 favors approximately one to three externally frozen comparisons and still requires a matched null; the larger 12-discovery plus 4-held design is a planning target, not a claim that 50 edges alone confirms anything.",
+    "primary_batch": "B01_AUTHORIAL_CONNECTOR_BETWEEN_LABELED_ENDPOINTS",
+    "scoring_authorized": false
+  },
+  "claim_ceiling": "TEXT_BLIND_ACQUISITION_PROTOCOL_AND_CAPACITY_ONLY",
+  "content_hash": "24b571186f27a7a9d6917faf2c8ed383e2323d1b5530d104f4b9606d985d495e",
+  "current_capacity": {
+    "independent_ordered_target_edges": 0,
+    "independent_ordered_target_folios": 0,
+    "local_relation_catalogue_rows": 1059,
+    "local_relation_folios": 20,
+    "local_relation_unique_loci": 335,
+    "positive_local_relation_folios": 12,
+    "positive_local_relation_rows": 95,
+    "positive_local_relation_unique_loci": 94,
+    "unhedged_positive_rows": 52
+  },
+  "gdt372_gate": {
+    "medium_reversing_any_pass_at_most": 0.1,
+    "medium_stable_detection_at_least": 0.8,
+    "null_any_pass_at_most": 0.05
+  },
+  "implementation": {
+    "experiments/yolo/gdt388_acquisition_ready_relation_edge_protocol/src/run.py": "0aefa92c88f75d2bffaef6bbdefee67c456ee8f8b4d8fb6e7c12b6a48d03ae2f",
+    "experiments/yolo/gdt388_acquisition_ready_relation_edge_protocol/src/validate.py": "9bdcad7771d36f10148216b1b7d0c7001324c25da26fe0719deb8034d25ddd03"
+  },
+  "inputs": {
+    "experiments/yolo/gdt337_external_homologue_census/artifacts/gdt337_result.json": "0aa70dec9b6c92ce800671b1ba63b3f08bb9d90d3bee482457be8e020f848ee6",
+    "experiments/yolo/gdt360_existing_annotation_joint_grounding/artifacts/gdt360_annotation_inventory.tsv": "3d5a129635d3b1b9714928f8cd21b94e2cdb170e836344327fa4ba837c2bbe4d",
+    "experiments/yolo/gdt372_external_prespecification_capacity/artifacts/gdt372_result.json": "ea63c9105ebf5a116a7998653bfc5661493f22c559bd120ac7c3413389062890",
+    "experiments/yolo/gdt386_independent_relation_edge_capacity/artifacts/gdt386_result.json": "2412398ce01d658c61c6e8490564c0a563a747cf130dc376b23cfb4999217d9a",
+    "experiments/yolo/gdt387_cross_domain_parent_link_calibration/artifacts/gdt387_result.json": "e46f0d354bffd0992b9c272a9b407d22499f2f0459f01ed3cfe7de702edc4a56"
+  },
+  "outputs": {
+    "experiments/yolo/gdt388_acquisition_ready_relation_edge_protocol/artifacts/gdt388_acquisition_batches.tsv": "db7652c8409869020e23c9fb450cd95ecaaa3e53c47b2cf59f202ff79042b9c6",
+    "experiments/yolo/gdt388_acquisition_ready_relation_edge_protocol/artifacts/gdt388_acquisition_gates.tsv": "9fe96cbf1e81515f6cbf13154f501d8afc74716e31d64ec818195b9026ba246e",
+    "experiments/yolo/gdt388_acquisition_ready_relation_edge_protocol/artifacts/gdt388_edge_packet_template.tsv": "701ba6dd741d874545f20defddf8570bf8c0f4e7d9aa5ddefd316ca1ca84573c",
+    "experiments/yolo/gdt388_acquisition_ready_relation_edge_protocol/artifacts/gdt388_page_frame.tsv": "1e58e41b357ea9077ae63dc1f7f71a71c175700c804176429ebde4cd684a2fba",
+    "experiments/yolo/gdt388_acquisition_ready_relation_edge_protocol/artifacts/gdt388_relation_type_capacity.tsv": "cfb32abd30bbd0393c3c5c1e4624649a13ca332aec78e920ed286c70ac041313"
+  },
+  "positive_state_counts": {
+    "REL_ARRAY_OR_GROUP": 6,
+    "REL_ENCLOSURE": 7,
+    "REL_EXPLICIT_ATTACHMENT": 73,
+    "REL_OVERLAP_OR_CONTACT": 9
+  },
+  "schema": "GDT388_RESULT_V1",
+  "source_access": {
+    "f84_opened_parsed_retained_or_scored": false,
+    "new_visual_observations": 0,
+    "voynich_formal_rows_read": 0,
+    "voynich_images_opened": false,
+    "voynich_text_identities_read": 0
+  },
+  "status": "ACQUISITION_PROTOCOL_FROZEN_ZERO_ELIGIBLE_CURRENT_EDGES"
+}

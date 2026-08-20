@@ -10152,6 +10152,27 @@ relabelled as an external parent without repeating GDT384's source-overlap
 failure. No role, POS, meaning, language, plaintext, translation, or f84 access
 follows.
 
+GDT386 completes the subsequent score-blind audit. Forty cross-page referent
+pairs, 1,059 local relation cases on 335 loci, 170 Q20 records, eleven external
+homologues, and four remaining ownership upgrades supply zero independently
+ordered target edges. Local geometry, source hierarchy, recurrence, and
+placement are not external targets. GDT387 then strengthens only the readable
+calibration: the anonymous relation score adds 85.109 held exact-governor bits
+on 26,493 PCEEC2 edges and is positive in 69/84 files, but adds only 3.130 bits
+above its conditional-null mean and seven top-1 targets. This supports the
+narrow readable instrument, not a Voynich role.
+
+GDT388 freezes the acquisition repair. The 1,059 local-relation rows contain 95
+explicit positives on twelve folios, including 52 unhedged cases, but none has
+a normalized second manuscript locus or an ordered inscription edge. The
+primary batch is a geometry-only census of visible authorial connectors between
+two separately localizable inscriptions. No score may run until at least 50
+singular directed edges on five folios pass exact pivot/target ownership,
+grammar-independence, whole-folio holdout, and mobile-null gates. The published
+edge packet is empty and validation passes 36/36. This is an acquisition
+protocol only; no parent, role, syntax, POS, meaning, language, plaintext,
+translation, or f84 access follows.
+
 ## Runtime and sources
 
 - Interpreter: `./vpy`; up to 32 CPU workers and the available CUDA GPU
