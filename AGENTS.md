@@ -24,6 +24,9 @@ experiment log/README are recovery archives and may contain superseded claims.
   with explicit selector allow-values and output columns. Do not parse a full
   row and filter afterward; the guarded command rejects `f84*` from the raw
   selector field before materializing the remainder.
+- Run `./vmanus-exp check-edge-packet PACKET [--null-candidates NULLS]` on new
+  relation evidence. A packet is not score-ready until the executable GDT388
+  capacity, held-folio, provenance, and mobile-null gates all pass.
 - Keep structural tags distinct from English word translations.
 - Treat ZL3b/IT2a/RF1b as alternate readings of one manuscript.
 - After every material pass, failure, correction, or provisional lead, add one

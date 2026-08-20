@@ -14,6 +14,7 @@ if str(REPOSITORY_ROOT) not in sys.path:
 
 from tools.repository_preflight import run as preflight
 from tools.guarded_tsv_query import query as query_guarded_tsv, resolve_repo_file
+from tools.relation_edge_intake import render_report, validate_relation_edge_packet
 from tools.vmanus_experiment import ROOT, load_manifest, verify_manifest_bindings
 
 
@@ -66,6 +67,13 @@ def main() -> int:
     query_tsv.add_argument("--forbid-prefix", action="append")
     query_tsv.add_argument("--count-only", action="store_true")
 
+    edge_intake = subparsers.add_parser(
+        "check-edge-packet",
+        help="validate a GDT388-compatible relation-edge acquisition packet",
+    )
+    edge_intake.add_argument("packet")
+    edge_intake.add_argument("--null-candidates")
+
     args = parser.parse_args()
     if args.command == "new":
         command = [sys.executable, "tools/new_yolo_experiment.py", args.slug]
@@ -87,6 +95,17 @@ def main() -> int:
                 count_only=args.count_only,
             )
         except ValueError as exc:
+            parser.error(str(exc))
+    if args.command == "check-edge-packet":
+        try:
+            packet = resolve_repo_file(args.packet)
+            null_candidates = (
+                resolve_repo_file(args.null_candidates) if args.null_candidates else None
+            )
+            report = validate_relation_edge_packet(packet, null_candidates)
+            sys.stdout.write(render_report(report))
+            return 1 if report["status"] == "INVALID_PACKET" else 0
+        except (ValueError, RuntimeError) as exc:
             parser.error(str(exc))
     if args.command in {"run", "validate"}:
         return run_manifest_command(resolve_experiment(args.experiment), args.command)

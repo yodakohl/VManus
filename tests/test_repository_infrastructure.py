@@ -16,6 +16,11 @@ from tools.repository_preflight import (
     check_structured_layout,
 )
 from tools.guarded_tsv_query import query as query_guarded_tsv
+from tools.relation_edge_intake import (
+    EDGE_COLUMNS,
+    NULL_COLUMNS,
+    validate_relation_edge_packet,
+)
 from tools.vmanus_experiment import (
     GuardedTSV,
     SealedDataError,
@@ -118,6 +123,100 @@ class InfrastructureTests(unittest.TestCase):
                     allowed_values={"f83r"},
                     columns=["unknown"],
                 )
+
+    @staticmethod
+    def _edge_row(edge_id: str, page: str, folio: str, fold: str) -> dict[str, str]:
+        digest = "a" * 64
+        return {
+            "edge_id": edge_id,
+            "batch_id": "B01",
+            "page": page,
+            "physical_folio": folio,
+            "diagram_unit_id": "UNIT1",
+            "pivot_visual_id": "PV1",
+            "pivot_locus": f"{page}.1",
+            "target_visual_id": "TV1",
+            "target_locus": f"{page}.2",
+            "relation_type": "DIRECTED_CONNECTOR",
+            "direction_basis": "AUTHORIAL_POINTER",
+            "ownership_basis": "SINGULAR_EXACT",
+            "geometry_only_selection": "TRUE",
+            "source_manifest_id": "SOURCE1",
+            "page_crop_sha256": digest,
+            "pivot_crop_sha256": digest,
+            "target_crop_sha256": digest,
+            "source_aware_localizer": "LOCALIZER_A",
+            "relation_reviewer": "REVIEWER_B",
+            "relation_confidence": "HIGH",
+            "ambiguity_state": "RESOLVED",
+            "formal_access_state": "SEALED_NOT_ACCESSED",
+            "fold_assignment": fold,
+            "eligibility_status": "ELIGIBLE",
+        }
+
+    def test_edge_intake_requires_capacity_holdout_and_mobile_null(self) -> None:
+        with tempfile.TemporaryDirectory() as raw:
+            directory = Path(raw)
+            packet = directory / "packet.tsv"
+            nulls = directory / "nulls.tsv"
+            edge_rows = []
+            null_rows = []
+            for index in range(50):
+                folio_number = 10 + index % 5
+                page = f"f{folio_number}r"
+                edge_id = f"E{index:03d}"
+                edge_row = self._edge_row(
+                    edge_id,
+                    page,
+                    f"f{folio_number}",
+                    "HOLDOUT" if index % 5 == 0 else "DISCOVERY",
+                )
+                edge_row["pivot_locus"] = f"{page}.i{index}a"
+                edge_row["target_locus"] = f"{page}.i{index}b"
+                edge_rows.append(edge_row)
+                null_rows.extend(
+                    [
+                        {
+                            "edge_id": edge_id,
+                            "candidate_target_locus": f"{page}.i{index}b",
+                            "is_observed_target": "TRUE",
+                            "matched_topology": "TRUE",
+                            "eligible_under_null": "TRUE",
+                        },
+                        {
+                            "edge_id": edge_id,
+                            "candidate_target_locus": f"{page}.i{index}c",
+                            "is_observed_target": "FALSE",
+                            "matched_topology": "TRUE",
+                            "eligible_under_null": "TRUE",
+                        },
+                    ]
+                )
+            with packet.open("w", encoding="utf-8", newline="") as handle:
+                writer = csv.DictWriter(handle, fieldnames=EDGE_COLUMNS, delimiter="\t")
+                writer.writeheader()
+                writer.writerows(edge_rows)
+            with nulls.open("w", encoding="utf-8", newline="") as handle:
+                writer = csv.DictWriter(handle, fieldnames=NULL_COLUMNS, delimiter="\t")
+                writer.writeheader()
+                writer.writerows(null_rows)
+            report = validate_relation_edge_packet(packet, nulls)
+            self.assertEqual(report["status"], "SCORE_READY")
+            self.assertEqual(report["eligible_edges"], 50)
+            self.assertEqual(report["eligible_folios"], 5)
+            self.assertEqual(report["mobile_edges"], 50)
+
+    def test_edge_intake_rejects_f84_before_payload_parse(self) -> None:
+        with tempfile.TemporaryDirectory() as raw:
+            packet = Path(raw) / "packet.tsv"
+            packet.write_text(
+                "\t".join(EDGE_COLUMNS)
+                + "\n"
+                + "E1\tB01\tf84r\tf84\tSEALED_PAYLOAD_THAT_MUST_NOT_PARSE\n",
+                encoding="utf-8",
+            )
+            with self.assertRaises(SealedDataError):
+                validate_relation_edge_packet(packet)
 
     def test_scaffold_manifest_and_scripts(self) -> None:
         module = self.load_module("test_scaffolder", ROOT / "tools/new_yolo_experiment.py")
