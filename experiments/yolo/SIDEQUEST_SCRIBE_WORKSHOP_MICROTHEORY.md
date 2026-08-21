@@ -56,6 +56,21 @@ The sections below preserve the rapid historical iterations, including ideas
 later narrowed or withdrawn. The current synthesis and the final iterations
 take precedence over the early `v0.3` dictionary.
 
+### Current sentence/record hierarchy
+
+```text
+PAGE        illustrated entry or lookup table
+PARAGRAPH   record/module under the page subject
+LINE        physical writing packet and renderer reset, not a sentence
+FIELD       local clause/cell, often checkpointed by DY or line end
+GROUP       rendered card or compact construction
+JOIN/SPACE  local attachment choice, not automatically a word boundary
+```
+
+An “utterance” may span several physical lines, and a paragraph may contain
+several clause-like fields. No current evidence establishes SVO order, POS or
+sentence-final punctuation.
+
 ## Rapid iterations
 
 ### Version 0 — ordinary prose with encrypted words
@@ -5234,3 +5249,59 @@ labels are names.
 The zero f68↔f69 exact-card overlap and failed f69 lag-14 test remain central
 falsifiers. Any later attempt to claim a direct lunar table must explain both
 rather than relying on the attractive number 28.
+
+## Iteration 80 — statements live between line and paragraph scale
+
+The fixed pages quantify why line-by-line translation repeatedly failed. The
+two Herbal modules occupy:
+
+| page | module A lines | module B lines |
+|---|---:|---:|
+| f10r | 5 | 7 |
+| f11r | 5 | 2 |
+| f55v | 6 | 6 |
+| f56r | 9 | 10 |
+
+The Biological prose modules are larger still:
+
+```text
+f81v  9 + 18 lines
+f82r  9 + 9 + 14 lines
+f83r  8 + 9 + 7 + 6 + 14 main lines, then 3 + 4 local lines
+```
+
+A paragraph therefore behaves like a **record or discourse module**, not one
+ordinary sentence. It can contain a list of operations, properties or clauses.
+The physical line is a copy packet constrained by available width; supported
+S-at-line-entry and Q-after-DY rendering shows that line position changes a
+surface form without necessarily changing content.
+
+The smallest useful sentence-like unit is the field or short construction,
+but DY cannot be translated as a full stop. f83r.52–55 illustrates the full
+hierarchy particularly clearly:
+
+```text
+paragraph/local record
+  line 52: one four-card SOL...OL clause/specification
+  line 53: a parallel four-card SOL...OL clause/specification
+  line 54: a five-card DAIIN configuration clause
+  line 55: a short three-card SOL clause/specification
+```
+
+The four lines jointly describe one local apparatus record. A translation
+should preserve their parallelism and shared scope rather than emit four
+unrelated sentences.
+
+The current punctuation analogy is consequently:
+
+```text
+SPACE/JOIN       internal attachment uncertainty
+DY               comma/semicolon/check box inside a module
+physical line    line wrap plus possible carried state
+paragraph break  record/module boundary, closest available analogue to full stop
+page/diagram     silent heading and discourse domain
+```
+
+B3 may be a stronger closure state in the formal parser, but it is not a
+confirmed period and is not required at every visible paragraph end. The early
+v0.3 `B3 = full stop` gloss is withdrawn.
