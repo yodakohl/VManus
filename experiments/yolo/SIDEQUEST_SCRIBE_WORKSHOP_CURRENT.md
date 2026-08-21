@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-21, after V8 ignored-content audit.
+Updated: 2026-08-21, after V9 terminal-system selection.
 
 Status: **speculative working theory, not a GDT result and not a
 translation**. This file is the compact authoritative entry point for the
@@ -321,6 +321,56 @@ f10r (24/38). This is where plant identity, part, property, habitat/water,
 preparation or use may actually reside. The three circle pages remain almost
 entirely uninterpreted beyond topology. Details:
 `sidequest_theory_candidates_v8/V8_IGNORED_CONTENT_AUDIT.md`.
+
+## Four-agent V9 terminal-system selection
+
+V9 attacked the previously ignored 12/10/8/8 attached-terminal families with
+four independent exhaustive, stencil, historical and adversarial passes. The
+attached-terminal value-system candidate wins 96/100 under the frozen rubric;
+the stencil/value-vector model follows at 95 and supplies the strongest
+continuous parse.
+
+The selected local architecture is:
+
+```text
+COMMITTED CELL := optional qualifier/card sequence
+                  + EXACT OPAQUE VALUE CARD
+                  + COMMIT(DY)
+
+ONE-CARD CELL  := inherited slot/question
+                  + EXACT OPAQUE VALUE CARD
+                  + COMMIT(DY)
+```
+
+All 38 leading-family events share one exact attached-coordinate identity and
+`DY=1, B3=0`, but retain four different stable host-side payload identities.
+The punctuation-like component is therefore already present in `DY`; complete
+tuple identity carries an additional anonymous selection. Sixteen of the 38
+events occupy one-card fields, so those cells are now read as complete inherited
+slot values rather than empty punctuation.
+
+The leading families are `VAL-A` (12 events; all three fixed Biological pages),
+`VAL-B` (10; f82r/f83r), `VAL-C` (8; f82r/f83r) and `VAL-D` (8; f81v/f83r).
+They move among field ordinals and lengths. They are neither four fixed columns
+nor an ordered or binary scale. The best formulation is **slot-conditioned but
+content-dependent categorical value**.
+
+The strongest complete record is f82r.27:
+
+```text
+seven committed cells: 1 | 2 | 1 | 1 | 1 | 1 | 1 cards
+anonymous values:       A | (B,b) | C | D | E | C | F
+```
+
+The identical `qokeedy` card in cells 3 and 6 proves repeated formal value
+identity only. No dose, temperature, liquid, treatment, route or body-part
+meaning follows. The strongest adversarial alternative is a workshop cadence
+or model-sheet deck; it explains wrapper locking and one-card exemplars, but
+lacks an independently identified practice function and fits the costly
+integrated illustrations less well.
+
+Full selection details are recovery-only material in
+`sidequest_theory_candidates_v9/V9_THEORY_SELECTION.md`.
 
 ## Generative model
 
@@ -675,21 +725,18 @@ alphabet.
 
 Only pursue work that can materially change this compact theory:
 
-1. **terminal-value test:** compare the recurrent 12/10/8/8 terminal families
-   as categorical answers versus lexical action/result cards, preserving their
-   exact identities and inherited stencil slots;
-2. **opaque-Herbal test:** inventory repeated page-local cards on f10r/f56r and
+1. **opaque-Herbal test:** inventory repeated page-local cards on f10r/f56r and
    ask whether they behave as owner, plant-part/property, habitat/medium,
    preparation or use entries without mining substrings;
-3. **reference-versus-index test:** ask whether field-initial, repeated and
+2. **reference-versus-index test:** ask whether field-initial, repeated and
    `Y–AIIN–Y` occurrences reuse a value/setting active earlier in the same
    record or merely occupy repeatable checklist coordinates;
-4. **link-operand test:** ask whether L/O's explicit and inherited operands are
+3. **link-operand test:** ask whether L/O's explicit and inherited operands are
    structurally coherent, especially the one-card f81v.7 field;
-5. **paired-frame test:** inspect only the two `Y-AIIN-Y` environments for
+4. **paired-frame test:** inspect only the two `Y-AIIN-Y` environments for
    independently dyadic operands; withdraw equal allocation if neither is
    symmetric;
-6. **practical-form-versus-checklist test:** seek repeated fixed-page visual
+5. **practical-form-versus-checklist test:** seek repeated fixed-page visual
    roles that distinguish medical/applicative content from generic indexed
    form filling; never import prose cards into the circle pages.
 
