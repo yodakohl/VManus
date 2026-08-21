@@ -5718,3 +5718,102 @@ independent purpose. KART001 found the 7/12/28 architecture compatible with
 generic medieval astronomy but not above generic controls, and direct A-65
 table transfer failed. The medical link is historically economical, not
 internally demonstrated.
+
+## Iteration 90 — generative scribe walkthrough
+
+To make the theory falsifiable as an invented system, imagine a master giving
+an apprentice three readable source snippets. The exercise is not to decode a
+Voynich page; it asks whether the proposed compiler can naturally produce the
+observed kinds of records.
+
+### A. A simple-medicine source entry
+
+Readable source structure, following *Circa instans* practice:
+
+```text
+NAME/PICTURE: Aloe
+CONSTITUTION: hot and dry
+DEGREE: stated degree
+VIRTUES/USES: several prose items
+```
+
+Workshop compilation:
+
+```text
+[PICTURE = silent entry address]
+T-or-QOT QUALITY_CARD | QUALITY_A | QUALITY_B | VALUE_CARD | DY
+[new line packets as space permits]
+S-or-D SETTING | USE_CARD | MATERIAL/RELATION_CARD | RESULT_CARD | DY
+```
+
+This generates the observed Herbal architecture without claiming that f10r,
+f11r or f56r is Aloe, or that CHOL/CTHY is hot/dry. A source name may be omitted
+because the picture addresses the record, represented by a page-specific
+incipit, or stored in a register card not recognizable as phonetic spelling.
+
+### B. A women's bathing source instruction
+
+A *Trotula* treatment paraphrased by the Metropolitan Museum instructs that a
+woman in difficult labour be bathed in water in which mallow, fenugreek,
+linseed and barley have been cooked
+(<https://www.metmuseum.org/pt/perspectives/trotula-womens-medicine-in-middle-ages>).
+The workshop need not copy that sentence. It can compile:
+
+```text
+[PICTURE = patient/application topology]
+D-AIIN          set patient, grade, amount or case value
+SOL ... OL      select treatment/application head with liquid/carrier
+ITEM_CARD*      select registered ingredients or components
+Q-EDY           link the prepared/processed state
+DY              commit the local step
+S-AIIN          inherit the setting into the next packet
+RESULT/CAUTION  record the next state, exception or outcome
+```
+
+That abstract sequence matches the Biological density of SOL, OL, AIIN,
+Q+EDY and DY without translating any one of them. It also explains why the
+figure/pool carries information absent from the prose string and why several
+applications can share a record.
+
+### C. A circular lookup instruction
+
+Readable source structure:
+
+```text
+select visible class/position
+look up one state or judgement
+if the same state recurs, copy the same card
+```
+
+Workshop compilation:
+
+```text
+[RING + ORDINAL + PARITY = silent address]
+O/OT/OK CARD    object or row pickup
+AIIN/EDY CARD   registered state/value
+X X             literal repeat where adjacent slots share a card
+DY              local transition where written rather than geometrically given
+```
+
+This generates f68's short labels and f69's repeatable 28-position values with
+the same renderer, while allowing f67's prose to explain a selection rule.
+
+### What the exercise establishes
+
+The invented system is learnable because the apprentice does not memorize a
+cipher alphabet. They learn:
+
+1. let picture and geometry carry subject and coordinate;
+2. replace recurrent source concepts with registered opaque cards;
+3. use D/S/Q to set, carry and link construction state;
+4. place values or relations in AIIN/EDY/OL-like slots;
+5. duplicate a whole card when required;
+6. checkpoint locally and reflow around the drawing.
+
+Five scribes can share those rules while inheriting different spellings,
+abbreviation habits and register tables. This is a stronger production theory
+than a monoalphabetic cipher and a more flexible one than a perfectly Cartesian
+code. Its weakness is equally clear: many source sentences collapse to the
+same formal skeleton, so the original wording—and perhaps much of the exact
+meaning—cannot be recovered without the lost register table or an external
+parallel.
