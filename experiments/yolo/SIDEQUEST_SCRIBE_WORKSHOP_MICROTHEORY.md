@@ -2535,3 +2535,87 @@ Biological lines, and easy transmission between scribes.
 > figures receive the same state, copy the closed SH form twice.
 
 This is simpler than teaching sounds, declensions, or a one-to-one cipher.
+
+## Iteration 30 — correction: learn whole state cells, not `SH = result`
+
+The immediately following f83r.28 provides a useful adversarial test:
+
+```text
+ZL3b  saiin | cheeky | sheey | qokedy | shedy | oldy
+IT2a  saiin | cheeky | sheey | qokedy | shedy | oldy
+RF1b  saiin | cheeky | sheey | qokedy | edy   | oldy
+```
+
+The six source groups are definite-space separated in ZL, but the fifth group
+has a real alternate-reading disagreement. Therefore the attractive rule
+`SH = resulting state` is too strong.
+
+### Revised principle
+
+```text
+wrongly simple:
+    SH + HOST + DY = RESULT(HOST)
+
+better workshop model:
+    learn recurrent complete state cells such as
+    CHEDY, SHCKHEDY, EDY/SHEDY, OLDY
+    and place them in known construction slots
+```
+
+Some cells may be historically related or analogically patterned, but the
+apprentice does not need to decompose them productively. This matches the main
+project's failure to support free allomorph/coordinate recombination.
+
+### f83r.28 as a state-transition packet
+
+```text
+SAIIN      resume/open with registered N2 setting
+CHEEKY     current prepared KY item/state
+SHEEY      initial local state cell
+QOKEDY     execute standard grade-1 process; checkpoint
+(SH)EDY    resulting/current EDY state; reading uncertain
+OLDY       put/hold in OL carrier state; line checkpoint
+```
+
+Bold paraphrase:
+
+> Continue with the registered setting and the prepared KY item in its initial
+> state. Apply the standard first-grade treatment, record the resulting EDY
+> condition, and carry it forward in the OL medium or channel.
+
+Because the paragraph continues, `OLDY` is a line-carried state rather than a
+complete-instruction ending.
+
+### What remains of the f83r.27 formula
+
+The sequence remains an excellent complete construction:
+
+```text
+DAIN | CHEDY | QOKEEDY | SHCKHEDY | SHCKHEDY
+```
+
+But the safe workshop lesson is now:
+
+```text
+VALUE-CELL | PREPARATION-CELL | PROCESS-CELL | STATE-CELL | STATE-CELL
+```
+
+not a universal morpheme equation. `SHCKHEDY` can be learned as one conventional
+closed state form, exactly as a medieval abbreviation student memorizes a
+whole suspension or ligature even when parts resemble other abbreviations.
+
+### The learnability payoff
+
+This yields a two-tier grammar:
+
+```text
+productive tier:
+    paragraph/line/field order, state inheritance, a few renderer choices
+
+lexicalized tier:
+    complete process, value, carrier and state cells copied from exemplars
+```
+
+Several scribes can learn this easily. They share the productive construction
+order and a central phrasebook, while rare or irregular complete cells remain
+register- or master-specific.
