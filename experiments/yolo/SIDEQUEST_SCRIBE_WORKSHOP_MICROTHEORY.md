@@ -4453,11 +4453,12 @@ catalogued Biological labels, not from line statistics:
 | f83r.50 | approx. `SAROLDAL` | left lower structure | yes, reading-unstable |
 | f83r.51 | `DAROLSY` | right lower structure / spray | yes |
 
-Seven of these eight labels contain an OL sequence. This concentration is a
-real reason to keep a Biological-register gloss alive, but it is not a clean
-word-to-picture binding: the two f83 tube-end assignments are hedged, f82's
-waterfall labels are spatial labels rather than proved nouns, and earlier
-all-folio transfer tests rejected OL as a universal left/right marker.
+Seven of these eight labels from tub/tube/flow/apparatus micro-scenes contain
+an OL sequence. This concentration is a real reason to keep a
+Biological-register gloss alive, but it is not a clean word-to-picture binding:
+the two f83 tube-end assignments are hedged, f83r.50 is only a nearby structure
+label, f82's waterfall labels are spatial labels rather than proved nouns, and
+earlier all-folio transfer tests rejected OL as a universal left/right marker.
 
 The best unifying decomposition is now:
 
@@ -4536,3 +4537,90 @@ f69's direct lunar lag-14 prediction failed; OL and AROL occur outside water
 contexts; the Herbal two packets lack a stable universal formal contrast; the
 f68 O/OT ray clue is single-folio and post-hoc; and no image has yet supplied a
 word-level referent that transfers independently.
+
+## Iteration 64 — page-local keys bridge labels and prose
+
+The strongest evidence that the prose and diagrams participate in one system
+is not a global label dictionary. It is a repeated **page-local key** pattern:
+
+| page | diagram/ring card | occurrence in longer text | reading status |
+|---|---|---|---|
+| f68r1 | `OTOR` star label | f68r1.1 | exact ZL/IT; RF splits the prose card |
+| f69v | `OKEOD`, `OKEEY`, `OKODY`, `SAR` radial cards | outer text loci 1/3 | several exact per reading; boundaries vary |
+| f81v | OTAIN-family tub label | f81v.5 and f82r.18 | exact within ZL; label varies in IT/RF |
+| f82r | `OKAL` lower-figure label | f82r.6 and f82r.12 | exact in all three readings at all three loci |
+
+f82r is the cleanest case. `OKAL` labels a position between a nymph and the
+left waterfall in the lower figure, then appears once in the first prose block
+and once in the second. The location does not decide whether OKAL identifies a
+figure, stream, material, state or apparatus component. Its repeat nevertheless
+supports a practical scribal rule:
+
+```text
+write a compact card beside the depicted item or slot
+reuse the same card inside one or more prose instructions on that page
+```
+
+f83r is the counterexample: none of its four selected apparatus/structure
+labels reappears exactly in its prose. f67r2 has only the very short `AIR` and
+`AY` overlap between ring labels and outer prose, too weak to interpret. The
+result is therefore a sparse reference channel, not a mandatory page key.
+This agrees with GDT258's corrected architecture: diagram legends and
+paragraph records are independent channels with only a minority of complete
+groups shared between them.
+
+In the invented workshop manual, `OKAL` is best treated as a **local registered
+referent**. A loose f82 paraphrase can say “for the OKAL item/state, carry out
+the following entries” without claiming that OKAL means WATER, WOMAN, BATH or
+any other object. The important semantic advance is referential function at
+page scale, not lexical content.
+
+## Iteration 65 — real manuscript types make the combined document ordinary
+
+The unified medical-astrological theory does not require an exotic cultural
+package. Several catalogued medieval manuscripts combine nearly the same broad
+genres:
+
+| comparator | relevant contents | consequence for the sidequest |
+|---|---|---|
+| BL Egerton 747, ca. 1280–1350 | *Tractatus de herbis*, lunar calendar, antidotarium, doses, substitutions, weights and synonyms | plant, remedy, measure and lunar material can inhabit one medical volume |
+| BL Add MS 5297, late 15th c. | calendars, lunar-change table with instructions, 171 herb illustrations and 330 chapters of properties/descriptions | an illustrated herbal and astronomical lookup apparatus can be one compilation |
+| BL Add MS 29301, ca. 1420–30 | surgical diagrams, Zodiac Man, 68 plant drawings, *Circa instans*, regimen and recipes | the exact period supports image-led surgery/medicine, zodiac and herbs together |
+| BL Harley MS 1736, 1446 and later | medical/veterinary recipes, lucky/unlucky days, *Astrologia medicorum*, seven planets and zodiac tables | practical recipes and astrological timing coexist in a working miscellany |
+
+Catalogue records:
+
+- <https://searcharchives.bl.uk/catalog/032-001983805>
+- <https://searcharchives.bl.uk/catalog/032-002029027>
+- <https://searcharchives.bl.uk/catalog/032-002020783>
+- <https://searcharchives.bl.uk/catalog/040-002047567>
+
+This literature comparison strengthens only the **document architecture**. It
+does not show that the Voynich text is Latin, English, Italian, Georgian or any
+other language; it does not identify the drawings; and it makes astronomical
+material less geographically diagnostic, not more. The simplest historical
+world is now a workshop medical miscellany or deliberately unified handbook,
+not six unrelated treatises accidentally bound together.
+
+## Iteration 66 — best loose page-level reading of the ten-page set
+
+At the current ceiling, the most useful “translation” is a document-level
+paraphrase rather than invented word-for-word prose:
+
+| page | best loose workshop reading | main uncertainty |
+|---|---|---|
+| f10r | “For the depicted flowering simple: enter two compact technical notes; one includes the standard CHOL–CTHY preparation and several AIIN settings.” | either note could instead be identity, quality, synonym, locality, dose or use |
+| f11r | “For the clustered blue-flowered simple: enter two short notes; repeat one complete SHOR card, checkpoint, and reuse the CHOL–CTHY construction.” | the duplicate may be emphasis, two applications or pure scribal copying |
+| f55v | “For the broad-leaved rooted simple: place two longer modules around the drawing, carrying AIIN values and OL/AR relations across the spatial interruption.” | Currier-B vocabulary and image-shaped line breaks dominate; no part ownership |
+| f56r | “For the spiral/spiny simple: record two modules using the Herbal-A construction deck, ending the second with a DAIIN setting.” | the striking spiral cannot be assigned a textual description |
+| f67r2 | “Consult the nested 12- and 7-member almanac rings and their local legends; use the surrounding text for the rule or interpretation.” | no authorial start, direction or value mapping |
+| f68r1 | “Register 29 individual star/object cards; distinguish local marked variants and refer to at least OTOR in the accompanying legend.” | identifiers versus attribute bundles; O/OT ray clue is post-hoc |
+| f69v | “Read a 28-position alternating radial schedule whose state cards may recur; the outer text explains or invokes several of those cards.” | LONG/SHORT has no textual marker and the schedule is not proved lunar |
+| f81v | “Set up the material/apparatus/value inventory, then execute or record a much denser process/state sequence; the bottom tub bears the OTAIN–OLKAL key.” | setup/process is inferred from the sharp paragraph mode switch |
+| f82r | “Describe three stages or aspects of a bath/apparatus system; label its lower figures/flows, and reuse OKAL as a local key in two prose blocks.” | paragraphs need not map one-to-one to upper/lower image regions |
+| f83r | “Give five main procedure blocks plus two local apparatus blocks; identify paired conduit endpoints/states with the AROL construction.” | the local labels do not exactly recur in prose and one paired reading is unstable |
+
+Nothing here requires a statement to end at a physical line. The scribe copies
+cards and clauses through available pockets around a pre-existing drawing;
+paragraph initials and paragraph ends are stronger discourse boundaries than
+line ends, while DY remains a local cell checkpoint inside them.
