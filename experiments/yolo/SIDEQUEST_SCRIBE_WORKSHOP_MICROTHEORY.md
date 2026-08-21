@@ -2714,3 +2714,143 @@ PARAGRAPH CLOSE   terminate the inherited workspace
 
 This is the most historically learnable version so far: a phrasebook plus two
 positional rendering habits and paragraph-level state inheritance.
+
+## Iteration 32 — f55v must be read around the plant, not across it
+
+Direct inspection of the official Yale f55v canvas corrects the earlier
+paragraph reading. The page has four visible text blocks:
+
+```text
+upper left    | flowering crown | upper right
+
+              large plant image
+
+lower left    | stem/root zone  | lower right
+```
+
+Official canvas: `1006183`. The inspected 2200-pixel IIIF derivative has
+SHA-256 `6d10a10138c833a8ed63dd8031bed97c1ae6b22ceac1243043dd71c3fdcf3182`.
+
+The source-native `DRAWING_INTERRUPTION` occurs on f55v.1--5 and f55v.7--12.
+It is literally the plant occupying the middle of the physical row. Therefore
+the concatenated transcription order:
+
+```text
+LEFT SEGMENT <DRAWING> RIGHT SEGMENT
+```
+
+does not establish a sentence that runs left-to-right through the plant.
+
+### Corrected reading order
+
+The most plausible workshop order is column-local:
+
+```text
+upper-left column downward
+upper-right column downward
+
+lower-left column downward
+lower-right column downward
+```
+
+Another possibility is paired row-by-row entries, but in either case the
+drawing boundary is structural. The plant is the shared silent argument between
+the two columns.
+
+### Upper zone: likely two notes for the flowering part
+
+The first six physical rows divide into:
+
+```text
+UPPER LEFT
+f55v.1  kcheedchdy oedain chckhy
+f55v.2  oeeed yteey okeedy qoaiin
+f55v.3  qokeeey os ain qool al chedy
+f55v.4  okar chckhdy cheody keeyfar al
+f55v.5  qokaiin chaiin ykain ykan ody
+f55v.6  ykaiin daiin ykair cheky daiiny
+
+UPPER RIGHT
+f55v.1  otoldaiin dodyd
+f55v.2  okeody ykeesan
+f55v.3  sar aiin ol kar am
+f55v.4  ochedy qokain ody
+f55v.5  daiin chedy talam
+```
+
+The longer left column looks like description plus preparation parameters; the
+shorter right column looks like a compact parallel use, state, or dosage list.
+Both are attached visually to the flowering/upper plant zone.
+
+### Lower zone: likely two notes for leaf, stem, or root use
+
+The last six rows likewise form two streams. The crucial tail is:
+
+```text
+LOWER LEFT
+f55v.10  oaiin ol s aiin okaiin oky
+f55v.11  ykaiin cheoar cheeky oldy
+f55v.12  daiin ar cheky olkeechy sl
+
+LOWER RIGHT
+f55v.10  ytaiin otar y kal ykar ol
+f55v.11  aiin okal oltchy or y orain
+f55v.12  ar aiin daiin otam
+```
+
+The left column contains the clearest sequence compatible with putting a plant
+part into a medium, preparing it, and retaining an OL-state. The right column
+contains another parameter/relation sequence that may encode use, dose,
+application, storage, or an alternative preparation.
+
+### Corrected bold paraphrase
+
+Lower-left stream:
+
+> Enter the measured plant material into the liquid carrier—possibly water.
+> Continue with the indexed amount, prepare the KY material, let or keep it in
+> the carrier condition, then add the final measure along the indicated course.
+
+Lower-right stream:
+
+> For the corresponding application or second preparation, use the marked
+> relation and Y/K values in the carrier. Add the registered quantity and leave
+> it in the final marked condition.
+
+This is still invented, but it respects the manuscript layout.
+
+### Stronger workshop document model
+
+The page is not simply:
+
+```text
+plant picture + prose underneath
+```
+
+It is:
+
+```text
+plant image as shared subject and spatial index
++ multiple local text streams attached to plant zones
++ paragraph/column templates
++ compressed process and value cells
+```
+
+A scribe learns to place the appropriate note beside the relevant plant zone.
+Another scribe can understand it because vertical zone and column position are
+part of the notation. This also explains why mechanically stitching physical
+row fragments can create sentences the author never intended.
+
+### Correction to Iteration 24
+
+The earlier `f55v.1--6 = one preparation` and `f55v.7--12 = second preparation`
+reading was too linear. Retain only:
+
+```text
+upper paragraph/zone = notes associated with upper/flowering plant region
+lower paragraph/zone = notes associated with lower plant/root region
+each zone contains at least two layout-separated streams
+```
+
+Preparation, use, dosage and water remain candidate contextual interpretations,
+not established column labels.
