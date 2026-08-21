@@ -1,0 +1,83 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Opaque predictive formal equivalence only; no word, lexeme, morpheme, stem, allomorph, synonym, entity, POS, language, meaning, sound, plaintext, or translation.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt398_opaque_joint_tuple_predictive_equivalence_preflight/src/run.py",
+    "validate": "python3 experiments/yolo/gdt398_opaque_joint_tuple_predictive_equivalence_preflight/src/validate.py"
+  },
+  "created": "2026-08-21",
+  "dependencies": [
+    "GDT003",
+    "GDT025",
+    "GDT161",
+    "GDT299",
+    "GDT302",
+    "GDT324",
+    "GDT325",
+    "GDT327",
+    "GDT338",
+    "GDT397"
+  ],
+  "experiment_id": "GDT398",
+  "inputs": [
+    {
+      "path": "gdt327_joint_tuple_interlinear.tsv",
+      "role": "f84-free opaque exact joint-tuple events",
+      "sha256": "7eba46774be44992064cc114f67329723ac7bf589321b0d763fb7f7f748cc1e9"
+    },
+    {
+      "path": "gdt327_joint_tuple_atlas.tsv",
+      "role": "f84-free tuple universe and named comparison baselines",
+      "sha256": "470d34efb4eac432f50d2af1e997d4b5c0ccc4758bcd82d711daa4d7756b9e71"
+    },
+    {
+      "path": "experiments/semantic_assumptions/results/source_separator_transcription.tsv",
+      "role": "mixed source accessed only through guarded GDT327 locus allow-list; full file never parsed or hash-read",
+      "sha256": null
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt398_opaque_joint_tuple_predictive_equivalence_preflight/README.md",
+      "role": "experiment entry point",
+      "sha256": null
+    },
+    {
+      "path": "experiments/yolo/gdt398_opaque_joint_tuple_predictive_equivalence_preflight/METHOD.md",
+      "role": "frozen overlap audit and bounded method",
+      "sha256": null
+    },
+    {
+      "path": "experiments/yolo/gdt398_opaque_joint_tuple_predictive_equivalence_preflight/src/run.py",
+      "role": "single predictive clustering runner",
+      "sha256": null
+    },
+    {
+      "path": "experiments/yolo/gdt398_opaque_joint_tuple_predictive_equivalence_preflight/src/validate.py",
+      "role": "independent structural validator",
+      "sha256": null
+    },
+    {
+      "path": "experiments/yolo/gdt398_opaque_joint_tuple_predictive_equivalence_preflight/artifacts/README.md",
+      "role": "artifact guide",
+      "sha256": null
+    }
+  ],
+  "question": "Can all exact GDT327 joint tuples, treated as opaque atomic IDs, be compressed into fewer predictively interchangeable latent formal types that improve structural prediction on unseen physical folios beyond exact identity and existing baselines?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "opaque_joint_tuple_predictive_equivalence_preflight",
+  "status": "PREREGISTERED_UNSCORED",
+  "title": "opaque joint-tuple predictive equivalence preflight",
+  "updated": "2026-08-21",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}
