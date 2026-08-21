@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-21, after V9 terminal-system selection.
+Updated: 2026-08-21, after V10 opaque-Herbal selection.
 
 Status: **speculative working theory, not a GDT result and not a
 translation**. This file is the compact authoritative entry point for the
@@ -372,6 +372,49 @@ integrated illustrations less well.
 Full selection details are recovery-only material in
 `sidequest_theory_candidates_v9/V9_THEORY_SELECTION.md`.
 
+## Four-agent V10 opaque-Herbal selection
+
+V10 exhaustively attacked the largely untranslated f10r/f56r material with
+independent card-ecology, visual-owner, historical and adversarial passes. The
+adversarial abbreviated-prose model wins 97/100, narrowly ahead of the
+picture-owned monograph at 96. Their synthesis is more useful than either
+extreme:
+
+```text
+Herbal A := inherited illustrated Herbal/materia-medica article
+            + workshop abbreviation into exact learned cards
+            + picture as dossier topic
+            + text reflow around the previously drawn plant
+            + mostly open prose, not Bio-style committed cells
+```
+
+The picture supplies the page topic but does not automatically supply leaf,
+root, flower or habitat operands. Text and image may be parallel descendants
+of an exemplar entry. Physical field boundaries created by a stem or available
+space are layout events, not necessarily semantic slots; logical statements may
+continue across lines.
+
+The exact ecology motivates the register split. f10r has 38 events/25 types/19
+singleton types and no attached DY or B3 in five scored lines. f56r has 27
+events/21 types/17 singleton types and only one DY close in seven lines. Only
+four exact types cross the two pages. Herbal A therefore has a small portable
+construction/technical deck plus a large page-local content tail, unlike the
+short committed Biological value cells.
+
+Two anonymous topic-carrier leads survive:
+
+- `OWNER-10` (`4d455901...`) appears once in each f10r paragraph;
+- `O56` (`2cc054357...`) appears four times only on f56r, twice at line entry
+  and twice medially.
+
+They may resume the current pictured simple, a part, preparation or ordinary
+content word. Neither is a plant name or pronoun. WATER/moisture remains a
+historically plausible clause type but has no independently owned image feature
+or exact card.
+
+Full selection details are recovery-only material in
+`sidequest_theory_candidates_v10/V10_THEORY_SELECTION.md`.
+
 ## Generative model
 
 ```text
@@ -379,16 +422,16 @@ SOURCE MATERIAL
   ordinary plant/simple notes | bath/application records | astronomical tables
         ↓ picture/register ellipsis and formula abbreviation
 PRE-DRAWN IMAGE
-  silent subject/address, object class, geometry, repeated arguments
+  Herbal page topic; Bio/Astro may additionally supply geometry or arguments
         ↓
 REGISTER TEMPLATE
-  Herbal dossier | Bio checked-cell form | Astro local lookup array
+  Herbal open abbreviated article | Bio checked-cell form | Astro local lookup
         ↓
 CARD SEQUENCE
   ~20 frequent taught cards + register/page-local copied technical cards
         ↓
 FIELD GRAMMAR
-  entry / interior / result-near / attached close
+  Herbal open continuation | Bio entry/interior/value/attached close
         ↓
 HAND/REGISTER RENDERER
   wrapper choice + JOIN/SPACE + line reset + physical reflow
@@ -404,10 +447,10 @@ PAGE COPY SHEET     rare local values and irregular exemplars
 ```
 
 A trainee need not calculate a complex cipher. They can identify the page
-register, choose an exemplar form, copy registered cards, place them in
-licensed cells, apply their hand's wrapper habits, and reflow around the
-pre-existing drawing. They may reproduce rare technical content operationally
-without being able to expand every card into speech.
+register, copy or abbreviate an inherited article, choose registered cards or
+cells where the register requires them, apply their hand's wrapper habits, and
+reflow around the pre-existing drawing. They may reproduce rare technical
+content operationally without being able to expand every card into speech.
 
 ## Best current composition grammar
 
@@ -429,6 +472,11 @@ Important distinctions:
   word;
 - a statement need not end at the physical line.
 
+`FIELD` is a physical/formal slice, not one universal semantic unit. On Herbal
+A it usually holds an open piece of reflowed article prose. On Biological B it
+can behave as a short inherited slot with an exact categorical value and local
+commitment.
+
 ## Strongest exact evidence on the fixed prose pages
 
 GDT327 covers 381 events on the seven fixed prose pages. Seventeen exact cards
@@ -443,6 +491,8 @@ covered Herbal events and 92/281 Biological events.
 | Y `b921a237...` | 18 / 6 | mostly middle; next event closes in 3/15 | type/frame |
 | L/O `dcda95c8...` | 19 / 3 | mostly middle; next event closes in 5/17 | relation/class |
 | CTHY `e0b630cb...` | 7 / 3 | 6 middle, 1 last | property/state |
+| OWNER-10 `4d455901...` | 2 / f10r only | one in each paragraph | page-local topic carrier candidate |
+| O56 `2cc054357...` | 4 / f56r only | FIRST 2, MIDDLE 2 | page-local topic/content carrier candidate |
 
 These labels are anonymous functional paraphrases, not words or POS.
 
@@ -676,7 +726,14 @@ Confirmed English lexemes: **0**. Confirmed plaintext clauses: **0**.
 
 ## Translation ceiling
 
-The maximum useful speculative source-class paraphrase is:
+For Herbal A, the maximum useful source-class paraphrase is:
+
+> Continue the inherited article for the pictured simple: give identifying,
+> descriptive, classificatory, habitat, preparation or use material as
+> required, and resume the current page-local topic across physical reflow.
+
+No one clause type is known to be present. For Biological B, the maximum useful
+speculative paraphrase remains:
 
 > For the object already shown, instantiate the appropriate register form;
 > enter the next item, relate its marked nodes to a parameter or state, commit
@@ -725,9 +782,9 @@ alphabet.
 
 Only pursue work that can materially change this compact theory:
 
-1. **opaque-Herbal test:** inventory repeated page-local cards on f10r/f56r and
-   ask whether they behave as owner, plant-part/property, habitat/medium,
-   preparation or use entries without mining substrings;
+1. **Herbal topic-carrier test:** distinguish whether `OWNER-10`/`O56` resume a
+   page topic or are ordinary frequent prose cards using only the fixed four
+   Herbal pages and whole-card contexts;
 2. **reference-versus-index test:** ask whether field-initial, repeated and
    `Y–AIIN–Y` occurrences reuse a value/setting active earlier in the same
    record or merely occupy repeatable checklist coordinates;
