@@ -3299,3 +3299,67 @@ Exact repetition also fits an organically learned workshop notation better
 than a perfectly economical engineered code. A hurried scribe can repeat a
 known cell rather than invoke an abstract iteration sign, and every colleague
 can read the local instruction from the copied form.
+
+## Iteration 41 — analytic packets and space-saving compact cards
+
+The secure paragraph beginning at f83r.47 has a striking shape:
+
+```text
+47  otchdy | qokchdy | shedal
+48  dal | cheol | lol | chdal | aiin
+49  sol | daiiin | chedy
+50  sasoldal
+51  darolsy
+```
+
+The first three loci are analytic multi-cell packets; the last two contain one
+long complete group each. Nearby surface material repeatedly exposes pieces
+resembling `dal`, `ol`, `sol`, `chedy` and relation-family cards in separated
+or differently joined realizations.
+
+The simplest circa-1420 workshop explanation is **layout-sensitive
+compilation**:
+
+```text
+broad writing space    write several registered cells separately
+narrow/local space     join a licensed sequence into one compact card
+```
+
+The two compact forms need not be lexical words. They may be abbreviated
+renderings of a construction that apprentices already know from the analytic
+packets. Conversely, the separated forms need not be spoken words either;
+spacing simply exposes the copied cells more clearly.
+
+An invented operational parse is:
+
+```text
+47  initialize or qualify the local construction
+48  list its DAL/OL/value cells explicitly
+49  enter the SOL/value/CHEDY continuation
+50  write the first compact construction card: SASOLDAL
+51  write the second compact construction card: DAROLSY
+```
+
+If forced into speculative practical prose:
+
+> Establish the local CH/DY construction. Enter the DAL and OL-associated
+> cells with the registered value, then continue with SOL and CHEDY. In the
+> remaining compact positions write the corresponding SASOLDAL and DAROLSY
+> formulae.
+
+This intentionally avoids deciding whether the final cards are products,
+operations, states, labels, references or merely continuations fitted around
+the pre-existing diagram. The image-first production assumption gives a direct
+nonsemantic reason for joining: parchment width is locally unavailable.
+
+The workshop grammar therefore gains a renderer rule:
+
+```text
+CELL₁ SPACE CELL₂ SPACE CELL₃
+    may have a licensed compact realization
+CELL₁+CELL₂+CELL₃
+```
+
+The license must still be learned from exemplars; arbitrary concatenation is
+not allowed. This explains free/bound reuse without requiring ordinary lexical
+word boundaries or fully productive linguistic morphology.
