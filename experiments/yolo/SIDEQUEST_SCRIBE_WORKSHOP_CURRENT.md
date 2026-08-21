@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-21, after V12 opaque-formula correction.
+Updated: 2026-08-21, after V14 ten-page purpose synthesis.
 
 Status: **speculative working theory, not a GDT result and not a
 translation**. This file is the compact authoritative entry point for the
@@ -64,8 +64,9 @@ source-class expansions.
 
 ## Best current overall theory
 
-The leading reconstruction is now a **formula-card practical medical register**
-produced by a small workshop around 1420. Ordinary technical language probably
+The leading reconstruction is now an **illustrated iatromedical reference
+workbook implemented by a generic exact-card/register machine**, produced by a
+small workshop around 1420. Ordinary technical language probably
 exists upstream, but the surviving page is not ordinary prose encrypted letter
 by letter. A compiler first omits arguments supplied by picture, register and
 routine, then converts the remainder into learned whole-card abbreviations and
@@ -101,10 +102,11 @@ The strongest integrated content fork remains `WHAT / HOW / WHEN`:
 - Biological supplies how it is configured or applied;
 - Astro supplies when or under what configuration.
 
-That integration is attractive but secondary. Historical comparators make a
-heterogeneous workshop miscellany safer than one unified doctrine. Herbal and
-Biological are plausibly one medical-practical ecology; Astro is provisionally
-a practical lookup annex and need not constrain each treatment entry.
+That consultation logic is now the leading purpose hypothesis at moderate
+confidence, not a demonstrated direct concordance. Historical comparators still
+make a heterogeneous workshop reference miscellany a strong rival. Herbal and
+Biological are probably one medical-practical ecology; Astro is a practical
+lookup annex that need not map entry-by-entry onto either register.
 
 ## Five-agent theory selection
 
@@ -525,6 +527,46 @@ claimed.
 Full details are recovery-only material in
 `sidequest_theory_candidates_v13/V13_THEORY_SELECTION.md`.
 
+## Four-agent V14 ten-page purpose synthesis
+
+V14 forces all ten pages into one historically usable book. Three perspectives
+select a medical-practical `WHAT/HOW/WHEN` workflow; the chancery corrector
+selects a generic illustrated technical reference register with probably
+medical-natural content. Their synthesis separates purpose and mechanism:
+
+```text
+PURPOSE:    illustrated iatromedical / medical-natural reference workbook
+TECHNOLOGY: generic exact-card and register machine
+USE LOGIC:  Herbal WHAT | Bio HOW | Astro WHEN/CONDITION
+```
+
+Herbal identifies/describes simples and their properties, preparations or
+uses. Bio instantiates application, apparatus, state or treatment-configuration
+cells. Astro supplies celestial/prognostic selectors. Direct entry-by-entry
+crosslinks are not established; the three modules can be consulted together
+without being one relational database.
+
+Working confidences are .70 for medical-natural practical content, .66 for an
+illustrated reference/workbook, .82 for the generic card/register technology,
+.57 for WHAT/HOW/WHEN consultation and only .20 for direct cross-indexing.
+
+Leading concrete content bets now include:
+
+- Herbal local tail = plant-specific name/property/use material (.66);
+- Bio terminal values = treatment-configuration categories (.49 content/.84
+  formal), especially state/process/application mode (.58);
+- Astro 7/12 = planets or luminaries × zodiac divisions (.72);
+- Astro 28 = lunar-station/mansion source family (.63), with specifically
+  medical election/prognosis only .41.
+
+The strongest rival remains a generic illustrated technical exemplar/form
+register. It will overtake the medical purpose if Bio value identities follow
+copied stencil/renderer features rather than independently visible application
+roles.
+
+Full details are recovery-only material in
+`sidequest_theory_candidates_v14/V14_THEORY_SELECTION.md`.
+
 ## Generative model
 
 ```text
@@ -891,9 +933,12 @@ alphabet.
 
 Only pursue work that can materially change this compact theory:
 
-1. **practical-form-versus-checklist test:** seek repeated fixed-page visual
-   roles that distinguish medical/applicative content from generic indexed
-   form filling; never import prose cards into the circle pages.
+1. **Bio visual-role/value test:** define picture/layout roles for the38 leading
+   Bio value occurrences before reading their identities, then test whether
+   exact values follow application roles or merely stencil/renderer features;
+2. **Astro consultation synthesis:** develop one executable whole-diagram
+   workflow joining the 7/12 selector, spatial1+28 catalogue and alternating28
+   schedule without asserting direct label identity.
 
 Do not add pages, mine substrings, revive old glosses, or append another long
 chronological narrative. If none of these changes the model, report the fixed
