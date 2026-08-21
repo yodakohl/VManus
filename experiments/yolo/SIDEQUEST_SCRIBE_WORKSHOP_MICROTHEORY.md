@@ -3423,3 +3423,64 @@ ACTION_HEAD + variable arguments + invariant final slot
 The same head can be detached or attached according to the licensed exemplar
 and available space. An apprentice can learn that behavior without knowing a
 phonetic value or decomposing every SOL compound productively.
+
+## Iteration 43 — `SOL` has a constructional attachment gradient
+
+The simple claim “SOL joins only to save space” does not survive its wider
+sample distribution. Free-SOL lines average 6.88 groups; bound-SOL lines average
+6.42. There is no useful global line-length separation.
+
+Instead, f83r.20 and f83r.21 each contain both attachment states within the
+same physical locus:
+
+```text
+20  solkeedy ... sol | cheeety ...
+21  solkeedy ... sol | chedy ...       ZL3b/IT2a
+21  solkeedy ... solchedy ...          RF1b
+```
+
+The initial `solkeedy` is consistently bound. `sol cheeety` is consistently
+separate. The `sol/chedy` boundary is read both ways. This supplies a direct
+attachment gradient:
+
+```text
+SOL | CHEEETY              detached
+SOL | CHEDY ~ SOLCHEDY     variably perceived/joined
+SOLKEEDY                   conventional bound card
+```
+
+The repaired workshop rule is therefore:
+
+```text
+SOL is a detachable construction head.
+Its following host and construction slot license free, variable or fused form.
+Available space may influence a marginal join, but does not determine the rule.
+```
+
+This is exactly the kind of system several scribes can learn. Common
+head+operand combinations become memorized compact cards; less familiar or
+wider-scope applications keep the head separate. Analogy can create intermediate
+forms, and a physical boundary can be genuinely ambiguous to modern readers.
+
+The bold operational reading remains:
+
+```text
+SOL = initiate the registered treatment/preparation of the next cell or span
+```
+
+Under that guess, f83r.20--21 contain a primary bound SOLKEEDY operation and a
+later secondary SOL CHE... operation inside each packet. A loose paraphrase is:
+
+> Perform the standard KEEDY treatment through the listed Q-stages; then apply
+> the same treatment head to the CHEEETY/CHEDY component and continue with the
+> remaining registered cells.
+
+“Treatment” and “preparation” are still guesses. The defensible sidequest gain
+is the free/variable/fused constructional behavior, not a recovered verb.
+
+### Correction to Iterations 41--42
+
+Space-sensitive joining remains a plausible local renderer, especially on
+pages written around prior illustrations, but it cannot be the sole explanation
+for SOL attachment. Host-specific lexicalization and constructional scope must
+be part of the invented grammar.
