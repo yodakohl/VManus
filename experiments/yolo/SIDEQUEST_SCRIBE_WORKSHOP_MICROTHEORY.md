@@ -3716,3 +3716,64 @@ ways compatible with their observed boundary profiles.
 Withdraw `SAII = larger record closure`. Retain only a QOKY+SAI-family local
 tail and the possibility that SAI(N) carries or resumes the current registered
 state.
+
+## Iteration 48 — a two-column `QOK` workshop card
+
+The larger AIIN-ending inventory is dominated by three forms:
+
+```text
+DAIIN       23 occurrences, 5 selected folios
+AIIN        19 occurrences, 6 selected folios
+QOKAIIN     17 occurrences, 3 selected folios
+```
+
+`QOKAIIN` is therefore not a rare accidental extension in this sample. It can
+be compared directly with the 21 `QOKEEDY` occurrences. Five loci on f82r/f83r
+contain both exact cards:
+
+```text
+f82r.15   QOKEEDY ... QOKAIIN
+f82r.26   QOKEEDY ... QOKAIIN
+f82r.28   QOKEEDY ... QOKAIIN
+f83r.6    QOKAIIN ... QOKEEDY
+f83r.14   QOKEEDY ... QOKAIIN
+```
+
+Four of the five put the EEDY card first. The sidequest can therefore give an
+apprentice a small two-column paradigm without claiming ordinary morphology:
+
+```text
+registered family       checkpoint/process column    reference/value column
+QOK                     QOK-EEDY                      QOK-AIIN
+```
+
+The operational reading is:
+
+```text
+QOKEEDY     perform or record the completed QOK-family operation/state
+QOKAIIN     enter or retain its associated QOK-family parameter/reference
+```
+
+This makes the right-side material a **cell-type selector** in the invented
+notation. `EEDY` packages a DY-closed process/state realization; `AIIN` packages
+a registered reference/value realization. QOK identifies the shared local
+family or row of the workshop table.
+
+A bold paraphrase of the common order is:
+
+> Carry out the QOK operation and then record its corresponding QOK setting.
+
+The reverse f83r.6 order prevents a universal temporal rule. It may mean that
+some templates state the parameter first, or that the two columns are not
+temporal at all. The safer claim is paired availability inside the same packet.
+
+This is learnable as a lookup grid:
+
+```text
+choose family row → choose process or reference column → add licensed pickup
+```
+
+The grid need not extend to every visible form, and the cells may be
+lexicalized. GDT002's semantic-slot stop and GDT003's string-baseline result
+still block promotion to a demonstrated linguistic paradigm. The sidequest
+uses it only as a compact generative theory for a scribal notation.
