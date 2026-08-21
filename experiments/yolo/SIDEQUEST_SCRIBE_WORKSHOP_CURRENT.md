@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-21, after V17 recurrent teaching-deck revision.
+Updated: 2026-08-21, after V18 six-card process reconstruction.
 
 Status: **speculative working theory, not a GDT result and not a
 translation**. This file is the compact authoritative entry point for the
@@ -714,6 +714,41 @@ The selected deck and fully regenerated 776-row ledger are in
 `sidequest_theory_candidates_v17/V17_SELECTED_RECURRENT_DECK.tsv` and
 `V17_SELECTED_COMPLETE_TRANSLATION_LEDGER.tsv`; validation is `PASS` in
 `V17_VALIDATION.json`.
+
+## Four-agent V18 disputed-card process reconstruction
+
+V18 resolves the six localized V17 disputes by reconstructing all 31 target
+occurrences as full process states, including containing field/record and
+neighboring physical lines. Three concrete rivals were inserted at every
+occurrence. The selected revisions are:
+
+```text
+OKEEY    temper the working liquid and keep it lukewarm
+LCHEDY   drain the spent whole liquid into the lower receiving vessel; end
+DCHEDY   wash the used vessel or channel through once; end
+OLCHEDY  set the mixed liquid aside in a covered receiving vessel; end
+CHAR     from the same prepared batch
+CHO      then take the following ingredient or plant part
+```
+
+The strongest gain is a concrete separation of wet-process endings:
+
+```text
+QOKEDY    rinse the pictured application place
+OLKEEDY   let the liquid settle
+SHCKHEDY  strain once through cloth
+OLCHEDY   reserve the useful mixed liquid
+LCHEDY    drain the spent whole charge downward
+DCHEDY    wash the used apparatus through once
+```
+
+Thus the Bio workflow now distinguishes preparation, use, recovery, disposal
+and apparatus cleaning rather than treating several terminal cards as generic
+values. The selected six-card changes affect 31 events and have been propagated
+through the complete 776-row ledger in
+`sidequest_theory_candidates_v18/V18_SELECTED_COMPLETE_TRANSLATION_LEDGER.tsv`.
+All other V17 meanings remain concrete and unchanged. Full rationale is in
+`V18_THEORY_SELECTION.md`; validation is `PASS` in `V18_VALIDATION.json`.
 
 ## Generative model
 
