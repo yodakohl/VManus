@@ -1591,3 +1591,155 @@ Voynich construction
 Thus a useful partial translation might read “assign a grade-2 quantity,
 process at grade 2, transfer through the depicted course, record result L” even
 while the material and operation names remain unknown.
+
+## Iteration 19 — AIIN is a parameter, not necessarily a dose
+
+Across the selected pages, standalone `aiin` is mostly field-internal and
+appears after several different constructions. `daiin` can occur at line entry
+or internally. This weakens the concrete noun “portion” and strengthens the
+abstract reading **registered value/parameter**.
+
+The decisive workshop clue is f10r.7. All three readings preserve the adjacent
+pair:
+
+```text
+dain | dair
+```
+
+They also preserve an earlier `daiin` in the same line. The line therefore
+contains:
+
+```text
+D + A + II + N
+D + A + I  + N
+D + A + I  + R
+```
+
+This looks like a tiny typed parameter table:
+
+```text
+D           assign/bind/set
+A           value introducer
+I-count     relative grade
+N/R         value type or channel
+```
+
+### Revised AIIN family
+
+```text
+AIIN  N-type registered value at grade 2
+AIN   N-type registered value at grade 1
+AIR   R-type registered value at grade 1
+DAIIN set/bind N-type grade 2
+DAIN  set/bind N-type grade 1
+DAIR  set/bind R-type grade 1
+```
+
+In a recipe, an N-value may be paraphrased as an amount or dose. In a circle
+table it may be an ordinal/index. In an apparatus record it may be a setting.
+The abstract parameter role is shared; the concrete unit is supplied by the
+page/register.
+
+### Provisional f10r.7 reading
+
+```text
+dchy | qokchol | y/kchaiin | yty | daiin | cth | dain | dair | am
+```
+
+> Bind CHY and activate/associate OKCHOL. Register the Y/KCH grade-2 value and
+> YTY. Set N-channel grade 2; for CTH set both N-channel grade 1 and R-channel
+> grade 1; finish with AM.
+
+This sounds more like a compact specification or comparison table than a
+sentence. The plant image silently identifies what is being specified.
+
+### Updated value model
+
+```text
+N-channel  scalar quantity/index/setting
+R-channel  paired route/quality/category setting
+L-channel  another categorical endpoint/state
+E-channel  process intensity/duration grade
+```
+
+The channel names are anonymous transcription labels, not sounds or initials.
+
+The best concrete gloss for `daiin` is now **SET VALUE N2**, with “take a
+portion” retained only as a context-specific Herbal paraphrase.
+
+## Iteration 20 — AM as a terminal result family
+
+Within the selected f10r/f55v/f82r/f83r/f69v ZL sample, the exact forms
+`am`, `dam`, `kam`, `sam`, `otam`, and `talam` occur seven times in total. All
+seven are the last physical group of their line:
+
+```text
+f10r.7   ... dain | dair | am
+f55v.3   ... aiin | ol | kar | am
+f55v.5   ... daiin | chedy | talam
+f55v.12  ... aiin | daiin | otam
+f82r.11  ... qotal | chedy | kam
+f82r.16  ... aiin | chey | racty | dam
+f83r.10  ... aiin | chky | lal | sam
+```
+
+The best workshop interpretation is not another punctuation mark. Physical
+line end already commits the record. `AM` instead carries a **terminal content
+value**:
+
+```text
+AM      result, end product, final condition, or terminal value
+D-AM    assigned/applied result
+K-AM    K-class result
+S-AM    resumed/new-state result
+OT-AM   marked-frame result
+T-AL-AM action/variant-L result
+```
+
+The prefixes remain speculative, but the shared line-final function is useful.
+
+### Consequence for record syntax
+
+```text
+... PROCESS ... STATE ... AM_RESULT | LINE_COMMIT
+```
+
+This separates semantic result from grammatical closure:
+
+```text
+DY/B3/line end  = commit mechanics
+AM family       = terminal value carried by the committed record
+```
+
+### Revised f10r.7 ending
+
+```text
+... D_SET(N-grade 2) | CTH | D_SET(N-grade 1) | D_SET(R-grade 1) | AM_RESULT
+```
+
+> Set the N2 parameter; for CTH set N1 and R1; record the final product or
+> condition AM.
+
+### Revised f82r.16 ending
+
+```text
+... S_RESUME | AIIN_VALUE | CHE(Y) | RACTY | D-AM_RESULT
+```
+
+> Resume with the registered N-value, describe Y and RACTY, and finish with
+> the assigned/applied result state AM.
+
+This is the first content-function guess in the microtheory supported by a
+perfect positional pattern inside the tiny chosen sample. It may still be a
+line-final formula or renderer class rather than “result” in semantics, but it
+deserves priority over isolated object glosses.
+
+### Current content hierarchy
+
+```text
+AM family    strongest candidate for terminal result/value
+AIIN family  typed parameter/value
+OKE family   graded process/state
+OL/AROL      carrier/path relation
+local hosts  unresolved materials, parts, operations, or states
+```
