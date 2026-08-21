@@ -4868,3 +4868,153 @@ This makes “Biological” a modern visual label rather than the document's
 necessary genre. The pages can be balneological, therapeutic, hydraulic,
 alchemical or a hybrid; the variable illustrated medical-record architecture
 is the stronger inference.
+
+## Iteration 72 — Herbal incipits are candidate entry addresses, not sentences
+
+The first prose packet on each plant page begins with a different construction:
+
+```text
+f10r  PCHOCTHY ...
+f11r  TSHOL ...
+f55v  KCHEDCHDY ...
+f56r  O | CHAL ...
+```
+
+Their line-entry surfaces are unique in the ten-page set and visibly share
+pieces with common body families (`CTHY`, `SHOL/OL`, `CHEDY`, `CHAL`). A
+scribe-like reading is that the incipit carries the plant entry's local address
+or first descriptive class through an ornamental/positional renderer. It need
+not be a spoken plant name, and the drawing already makes a written title
+optional.
+
+The second packets open differently again (`YCHEOR`, `OKCHD`, `TCHOL`,
+`TCHOKY`). No exact opener or final card is common to all four pages. Their
+paragraph ends are respectively CTHY/DAIIN/DAIINY/CHEECKHODY for the first
+packets and QOTOR/DY/OTAM/DAIIN for the second. Thus the paragraph boundary is
+encoded by layout and source separation rather than a universal END word.
+
+The best Herbal syntax is consequently:
+
+```text
+[page-specific entry address or class] + multi-line technical module
+[new module address or discourse reset] + multi-line technical module
+```
+
+Calling the first card a plant name remains attractive because readable
+herbals normally begin an entry with a name or synonym, but the same rarity of
+paragraph starts occurs in other registers. The safer term is
+`HERBAL_ENTRY_ADDRESS_A`; no lexeme is promoted.
+
+## Iteration 73 — plausible production workflow for a five-scribe workshop
+
+The current model can be implemented with ordinary fifteenth-century workshop
+practice and no implausibly perfect cipher training:
+
+1. **Layout and drawing first.** A master or illustrator reserves text pockets,
+   draws the plant, bath/apparatus or circle, and establishes visible slots.
+2. **Source abstraction.** A compiler or senior scribe reduces a source entry
+   to a page address, a few content cards, settings and ordered operations.
+3. **Register table.** The writer consults a small Herbal, bath or almanac card
+   list. Common content rows combine with AIIN/EDY/EEDY-like cell types.
+4. **Stateful copying.** S carries the current state, D makes a selection
+   explicit, Q links a licensed next/homologous cell, and DY checkpoints a
+   local cell without ending the larger statement.
+5. **Local references.** A compact card can be written beside a visible object
+   and reused in prose (`OKAL`, `OTOR`, OTAIN-family, f69 ring cards).
+6. **Renderer choice.** The hand joins or detaches pieces and shortens a form
+   according to learned practice and available space. This creates alternate
+   readings without requiring different underlying content.
+7. **Paragraph commit.** A marked paragraph break closes the module; a physical
+   line break normally does not.
+
+This workflow naturally produces Currier/register effects. Hand 1's Herbal-A
+deck licenses `CHOL CTHY`; hand 2's Biological/Herbal-B deck favours its own
+surface inventory and longer record-like packets; hand 4 fills compact circle
+slots. They share the compiler conventions but not every card or spelling.
+
+The reason for using such a system could be compression, standardization of
+heterogeneous source languages, rapid copying, workshop secrecy, or several at
+once. Compression/standardization is the primary hypothesis because the
+notation exploits images and slot geometry; deliberate concealment is not
+required. This also explains why simple language/cipher mappings and phonotactic
+fits fail while formal recurrence remains strong.
+
+## Iteration 74 — deliberately bold Biological paraphrases
+
+The sidequest now permits the following end-to-end German paraphrases. They are
+not recovered plaintext; they show that one coherent codebook can make the
+pages useful to a practitioner.
+
+### f81v
+
+> **OTAIN–OLKAL bath/apparatus.** First carry the existing setting, enter the
+> local quantities or reference values, and specify the OL medium and apparatus
+> state. Then work through the long sequence of linked and completed process
+> cards, retaining the medium at checkpoints and repeating a card where the
+> same treatment/state is required.
+
+### f82r
+
+> **OKAL bath/site or hydraulic system.** Record its identity/physical setting
+> and the relevant values; record a second module for use, condition or
+> procedure; then give the extended operating/therapeutic entry. In the lower
+> scheme mark the left discharge as DAROL and the right discharge as DARARY;
+> assign separate short cards to the figures and remaining components.
+
+### f83r
+
+> **Extended treatment and flow circuit.** The five main blocks give the
+> successive descriptive, indication and procedure modules. In the lower local
+> diagram carry the incoming OL path to the DAL basin, activate the outgoing OL
+> path at the SY spray, and specify two parallel SOL constructions ending in
+> OL, followed by the local DAIIN setting and a final short SOL construction.
+
+The most literal invented rendering of f83r.52–55 is:
+
+```text
+SOL-KEEY; linked EKEY; RALY relation; in/through OL.
+SOL-CHKAL; CHE-OL; QOT-AR relation; in/through OL.
+Set one OL unit; enter DAIN/CHEY; hold at LDALOR.
+SOL; RTAIN; CTHAL.
+```
+
+A practitioner could read that as two parallel operations in the same medium,
+a setting/quantity line and a final operation. A diagram drafter could instead
+read it as two component specifications, one configuration line and a final
+component. The unresolved verb-versus-noun choice is now the largest local
+ambiguity, not the overall record architecture.
+
+## Current maximum-use theory after seventy-four iterations
+
+The ten pages now yield a coherent hierarchy:
+
+```text
+DOCUMENT  illustrated medical/astrological workshop handbook
+PAGE      silent subject and register supplied by drawing
+MODULE    paragraph-scale entry; statements can cross physical lines
+FIELD     one or more registered cards with local checkpointing
+CARD      opaque content row plus setting/state/renderer choices
+LABEL     incomplete card completed by visible owner and slot geometry
+```
+
+The best content assignments are, in descending order of usefulness:
+
+1. Biological `OL` is a carrier/medium/channel class, often literally water or
+   liquid at page level but not a universal word WATER.
+2. `D/S + AR + OL + right state` is a local hydraulic conduit algebra; D is
+   active/outgoing and S incoming/carried in the strongest scene.
+3. `OTAIN OLKAL` is a vessel/bath/apparatus label and `OKAL` is a reusable
+   anonymous page key.
+4. EDY-rich prose records processes/results/states, while AIIN-rich packets
+   record settings/values/references.
+5. SOL is a Biological construction head, with action versus component status
+   unresolved.
+6. Herbal pages contain two technical modules under a silent plant heading;
+   `CHOL CTHY` is a shared Herbal-A preparation/qualification formula.
+7. Circle labels are residual value/object cards whose ordinal, system and some
+   state information are carried by geometry.
+
+This is substantially more than whole-word similarity alone, but it is still
+a generative translation hypothesis. It has not produced one independently
+confirmed plaintext word, and several attractive assignments were deliberately
+chosen because they make these ten pages cohere.
