@@ -3595,3 +3595,68 @@ For the workshop learner, this ambiguity is not fatal. The phrasebook can
 teach `DAIIN CHEY` as a frequent construction while exemplar context supplies
 the page-specific object. The formal construction can be stable even if CHEY
 does not denote the same external thing in every register.
+
+## Iteration 46 — `Q-OKE-E-DY` as a complete linked operation card
+
+The selected ZL3b sample contains:
+
+```text
+qokeedy      21
+okeedy        3
+solkeedy      2
+```
+
+The 21 exact `qokeedy` occurrences are concentrated on f82r/f83r. Only three
+are locus-initial and only one immediately follows a free standalone `dy`.
+Consequently, the Q of QOKEEDY is not explained as the deterministic visible
+successor of every preceding DY checkpoint.
+
+The strongest small construction is f83r.30:
+
+```text
+s | okeedy | qokeedy | qoky | saii        ZL3b
+sokeedy | qokeedy | qoky | saii           joined reading tendency
+```
+
+The invented compiler parse is:
+
+```text
+S       physical-line pickup/resume realization
+OKEE    registered operation or process family
+DY      complete/checkpoint that local cell
+Q       link the following homologous cell into the active chain
+QOKY    associated value/state card
+SAII    larger local record closure
+```
+
+This yields:
+
+```text
+S | OKEE-DY       resume and execute one complete OKEE cell
+Q-OKEE-DY         execute the linked/next homologous OKEE cell
+```
+
+A bold practical paraphrase is:
+
+> Resume the standard OKEE treatment, then carry out the linked next instance
+> of the same treatment; enter QOKY and close the local entry.
+
+This is exactly the kind of formula an apprentice can memorize as a model line.
+The placement prefixes and DY checkpoint are partly productive, while
+`OKEEDY/QOKEEDY` remain common complete cards rather than proof of unrestricted
+morpheme concatenation.
+
+`solkeedy` is deliberately not forced into the same decomposition. It may be
+SOL+KEEDY, S+OL+KEEDY, or a lexicalized whole card; the visible string alone
+does not choose. The SOL attachment result from Iteration 43 applies only where
+free/bound evidence actually licenses that boundary.
+
+The useful sidequest class is therefore:
+
+```text
+LINKED_CHECKPOINTED_OPERATION_CELL
+```
+
+The words operation, treatment, same and next remain invented. GDT003 still
+prevents treating this attractive local algebra as confirmed linguistic
+morphology or as predictive evidence beyond ordinary Voynich string structure.
