@@ -7953,3 +7953,32 @@ physical line break   reflow opportunity
 field close           local cell commitment
 paragraph/record      larger continuing statement or dossier module
 ```
+
+## Iteration 156 — f55v is the workshop bridge, not a second Herbal dialect
+
+The Herbal-B/hand-2 page f55v uses 16 exact card types. Eight of those types
+also occur on the three fixed Biological-B pages, while only three occur on
+the three fixed Herbal-A pages; three are shared by all three sets. The bridge
+includes the portable AIIN and Y cards and the exact `qokaiin`
+`b5fcea1eaed0...` card involved in the f82r carry-forward.
+
+The three f55v closing cards refine the picture: one exact closer is also
+present in Biological B, whereas two are local to f55v in this panel. Thus B
+does not simply import a complete Bio vocabulary onto a plant page. It shares
+more of the B card ecology and the high-closure production habit, while local
+or topical cards still vary.
+
+The most economical workshop organization is consequently:
+
+```text
+COMMON LEDGER       portable cards shared across topics and hands
+B EXEMPLAR SHELF    B-compatible entries, closures and wrapper habits
+REGISTER ADDENDUM   plant, bath/apparatus or circle-specific cards/templates
+PAGE COPY SHEET     rare local values and irregular exemplars
+```
+
+This is simpler to teach than two unrelated languages and more faithful to the
+data than one universal vocabulary. It also makes a testable historical
+prediction for additional pages: pages by the same hand/register should share
+more exact card identities and closure habits even when their pictures differ,
+while exact local closers need not transfer.
