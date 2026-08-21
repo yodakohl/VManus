@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-21, after sidequest Iteration 158.
+Updated: 2026-08-21, after the five-agent theory comparison.
 
 Status: **speculative working theory, not a GDT result and not a
 translation**. This file is the compact authoritative entry point for the
@@ -41,10 +41,29 @@ joint-tuple identities.
 
 ## Best current overall theory
 
-The leading reconstruction is a **hybrid abbreviated language plus technical
-codebook** produced by a small practical workshop around 1420. It is more like
-a compact illustrated card-and-form system than ordinary prose encrypted
-letter by letter.
+The leading reconstruction is now an **exemplar-coded practical register**
+produced by a small workshop around 1420. Ordinary technical language probably
+exists upstream, but the surviving page is not ordinary prose encrypted letter
+by letter. A compiler first omits arguments supplied by picture, register and
+routine, then converts the remainder into learned whole-card abbreviations and
+form slots. A hand/register renderer supplies wrappers, joining, closure and
+physical reflow.
+
+In compact form:
+
+```text
+ordinary technical source
+  → picture/register ellipsis
+  → lexical, relation, value and state packets
+  → exact learned cards in a register stencil
+  → hand/register rendering
+  → visible Voynich groups
+```
+
+This is a hybrid of abbreviated natural language and technical notation. Some
+cards may abbreviate a source word, phrase, measure or relation; other cards
+may be purely notational. Exact card identity is currently more trustworthy
+than any proposed expansion.
 
 The manuscript section is best treated as a practical miscellany:
 
@@ -52,21 +71,50 @@ The manuscript section is best treated as a practical miscellany:
 - Biological pages: short bath/application/apparatus configuration records;
 - circle pages: local astronomical/astrological lookup instruments.
 
-The stronger integrated content fork is `WHAT / HOW / WHEN`:
+The strongest integrated content fork remains `WHAT / HOW / WHEN`:
 
 - Herbal supplies what substance or simple;
 - Biological supplies how it is configured or applied;
 - Astro supplies when or under what configuration.
 
-That integration is attractive but not required. Historical comparators make a
-heterogeneous workshop miscellany safer than one unified doctrine.
+That integration is attractive but secondary. Historical comparators make a
+heterogeneous workshop miscellany safer than one unified doctrine. Herbal and
+Biological are plausibly one medical-practical ecology; Astro is provisionally
+a practical lookup annex and need not constrain each treatment entry.
+
+## Five-agent theory selection
+
+Five independent agents developed the current basis from this compact file
+without reading one another. The fixed qualitative scores were explanation of
+exact evidence (25), three-register coverage (20), learnability (15),
+historical plausibility (15), semantic leverage (15), and discriminating
+predictions (10).
+
+| candidate | score / 100 | disposition |
+|---|---:|---|
+| exemplar-coded workshop register | 91 | **selected architecture** |
+| abbreviated natural language + typed form | 88 | incorporated as upstream payload mechanism |
+| pictured dispensatory/treatment scheduler | 86 | incorporated for Herbal/Bio content |
+| iatromathematical WHAT/HOW/WHEN concordance | 82 | retained as secondary integration fork |
+| visual pattern/exercise book | 79 | retained as leading adversarial alternative |
+
+The winner best explains whole-card identity, wrapper allography, B closure,
+variable-entry stencils, line carry and multi-hand learnability with the fewest
+semantic commitments. The abbreviation candidate supplies its missing source
+layer; the medical candidate supplies the best iconographic content frame.
+The Astro candidate loses because no cross-register pointer is established.
+The pattern-book candidate explains form unusually well but struggles with the
+expense and content-rich iconography of a retained illustrated codex.
+
+Full independent candidates and the comparison are recovery-only material in
+`sidequest_theory_candidates/`; they are not default context.
 
 ## Generative model
 
 ```text
 SOURCE MATERIAL
-  plant/simple knowledge | bath/application records | astronomical tables
-        ↓ lossy workshop reduction
+  ordinary plant/simple notes | bath/application records | astronomical tables
+        ↓ picture/register ellipsis and formula abbreviation
 PRE-DRAWN IMAGE
   silent subject/address, object class, geometry, repeated arguments
         ↓
@@ -74,7 +122,7 @@ REGISTER TEMPLATE
   Herbal dossier | Bio checked-cell form | Astro local lookup array
         ↓
 CARD SEQUENCE
-  shared abstract cards + register-local technical cards
+  shared lexical/relation/value/state packets + register-local technical cards
         ↓
 FIELD GRAMMAR
   entry / interior / result-near / attached close
@@ -95,7 +143,8 @@ PAGE COPY SHEET     rare local values and irregular exemplars
 A trainee need not calculate a complex cipher. They can identify the page
 register, choose an exemplar form, copy registered cards, place them in
 licensed cells, apply their hand's wrapper habits, and reflow around the
-pre-existing drawing.
+pre-existing drawing. They may reproduce rare technical content operationally
+without being able to expand every card into speech.
 
 ## Best current composition grammar
 
@@ -134,6 +183,32 @@ covered Herbal events and 92/281 Biological events.
 
 These labels are anonymous functional paraphrases, not words or POS.
 
+### Best provisional expansion classes
+
+The five-agent comparison converged on the following useful guesses. They are
+working expansion classes, not translations:
+
+| form/construction | best current guess | confidence |
+|---|---|---:|
+| attached DY/B3-bearing terminal | local value/cell resolved or committed | .78 formal, no lexical confidence |
+| AIIN card | entered value, amount, degree or index/reference | .37 |
+| Y card | item type, unit or frame tag | .33 |
+| L/O card | broad relation such as of/with/in/for, or class link | .29 |
+| CTHY card | qualified/prepared state or property class | .21 |
+| exact `qokaiin` boundary repeat | active parameter/head copied forward | .20 |
+| Bio OKE/OKEE/LCHE/CHE/CKHY deck | local process, configuration or result codes | .18 as a class |
+
+The boldest retained constructional reading is:
+
+```text
+Y — AIIN — Y  ≈  ITEM/UNIT — SAME OR STATED VALUE — ITEM/UNIT
+```
+
+Its closest historical functional analogy is the recipe convention *ana*, “of
+each/equal amount,” but no Voynich card is read phonetically as *ana*. The same
+frame could instead mean matching setting, same class, paired degree or simply
+a tagged value. Two occurrences support only a prediction-worthy lead.
+
 The exact collapses are stronger than the surface spelling:
 
 - `AIIN / DAIIN / SAIIN / CHAIIN / TAIIN` are one exact card under different
@@ -160,7 +235,8 @@ f83r.3  CHEY DAIIN CHEY   Bio field head, followed by LCHE-CLOSE
 
 No common independently annotated picture owner exists. It is therefore more
 plausibly an abstract tagged-value/two-place frame than a plant, water, tube or
-figure name. The exact function remains unknown.
+figure name. The leading speculative expansion is equal/shared value or paired
+setting, but the exact function remains unknown.
 
 ### Repeated form stencils
 
@@ -317,15 +393,23 @@ alphabet.
 
 Only pursue work that can materially change this compact theory:
 
-1. reconstruct additional repeated field stencils and distinguish fixed versus
-   variable card positions;
-2. test whether exact line carry repeats by structural class without assigning
-   RESUME semantics;
-3. separate hand/Currier closure habits from section-local closer identity;
-4. locate an independently annotated repeated referent already present on the
-   fixed pages;
-5. seek a genuinely repeated Astro surface/topology value without importing
-   prose joint cards.
+1. **slot-fill test:** in every already repeated stencil, ask whether field
+   shape and closure predict held card classes better than exact phrase reuse;
+2. **equal/shared-value test:** inspect the two `Y-AIIN-Y` environments for two
+   independently comparable operands or settings; reject that gloss if the
+   frame instead owns one stable object;
+3. **typed-closure test:** determine whether the major Bio closer identities
+   prefer distinct pre-close stencil/length classes after page/hand are held
+   fixed; collapse them to punctuation if they do not;
+4. **carry deletion test:** compare the f82r record grammar with the boundary
+   `qokaiin` treated once versus twice; retain copied-forward head only if the
+   one-state parse improves stencil coherence;
+5. **silent-address test:** determine whether page-owned visible homologues
+   explain local card reuse better than line position, without inventing new
+   image ownership;
+6. **Astro local-state test:** seek repeated surface classes at repeated roles
+   inside one frozen diagram, never by importing prose cards or aligning the
+   three pages post hoc.
 
 Do not add pages, mine substrings, revive old glosses, or append another long
 chronological narrative. If none of these changes the model, report the fixed
