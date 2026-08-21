@@ -514,3 +514,176 @@ VISIBLE LINE
 The system is therefore plausibly **compressed technical language plus
 notation**, not purely one or the other. Some local codes may abbreviate real
 spoken words; the surrounding construction behaves like a form language.
+
+## Iteration 6 — the visible ending is not the grammatical unit
+
+A quick internal consistency check on the covered f82r/f83r lines improves the
+model. The visible string ending `-dy` cannot always be read as the same suffix.
+
+```text
+qokeedy = q + OKEE + licensed DY closure
+qokedy  = q + OKE  + licensed DY closure
+qoteedy = q + OT-frame + EE + licensed DY closure
+daldy   = d + AL + licensed DY closure
+oldy    = O-frame + L + licensed DY closure
+
+chedy   = often CHE wrapper + Y host, with NO licensed DY closure
+```
+
+In the covered f82r/f83r events, all ten `qokeedy` occurrences are either the
+only or the last group of their field and all ten carry the formal DY closure.
+The inspected `qokedy` and `qoteedy` cases behave the same way. By contrast,
+the covered `chedy` cases are mostly field-internal and carry no formal DY
+closure despite their surface spelling.
+
+This changes the invented lexicon in an important way:
+
+- `DY` is not an alphabetic suffix meaning “finished.” It is a **licensed
+  construction cell** whose surface can overlap ordinary host material.
+- `qokeedy` is not simply a word for “continue.” Its best full reading is
+  **NEXT/PROCESS(OKEE) + CLOSE FIELD**.
+- `chedy` may instead be an inline **DESCRIPTOR(Y)** construction.
+- a reader in the workshop recognizes the construction from slot, spacing,
+  line state and expected record schema, not from the final glyphs alone.
+
+The wrapper ecology on these two pages fits that interpretation. `s` is
+concentrated at record/line entry; `che` is overwhelmingly nonclosing and
+internal; `q` frequently realizes compact closed cells; `sh` often carries a
+closing/result state. These are tendencies, not a one-form/one-function code.
+
+### Revised record syntax
+
+```text
+RECORD := ENTRY_FIELD CONTINUATION_FIELD* TERMINAL_FIELD?
+
+ENTRY_FIELD := S_ENTRY? HEAD DESCRIPTOR*
+CONTINUATION_FIELD := Q_LINK? ARGUMENT* CHECKPOINT
+CHECKPOINT := STATE_OR_PROCESS + LICENSED_DY
+TERMINAL_FIELD := RESULT_OR_VALUE + (DY | B3 | LINE_END)
+```
+
+Working semantic roles:
+
+```text
+s-construction      "start/resume this record"
+ch/che-construction "describe the current item"
+d-construction      "bind a source, recipient, carrier, or relation"
+q-construction      "continue with a linked field/step"
+sh-construction     "record a standing/result state"
+DY-cell             "commit the current field"
+B3-cell             "commit the complete record"
+```
+
+This is closer to a medieval shorthand or tabular notarial system than to
+ordinary alphabetic morphology. The same visible glyph sequence can be parsed
+differently because construction position is part of the code.
+
+### Consequence for translation attempts
+
+A future line reading should first recover the record actions and only then
+guess content:
+
+```text
+surface: qokeedy
+bad first move: identify a word stem OKEE and suffix DY
+better move:   identify a complete linked checkpoint cell
+               [Q_LINK, local value OKEE, FIELD_CLOSE]
+```
+
+Thus the current best “translation” is two-layered:
+
+```text
+formal reading: NEXT(OKEE); CLOSE
+content guess:  then continue/process/circulate; checkpoint
+```
+
+The formal reading is considerably more plausible than the content guess.
+
+## Iteration 7 — a provisional procedural automaton
+
+The construction tendencies can be turned into a concrete scribal state
+machine:
+
+```text
+START/SELECT
+  -> ITEM_OR_AMOUNT
+  -> DESCRIPTION*
+  -> (NEXT_PROCESS -> ARGUMENT_OR_VALUE* -> CHECKPOINT)*
+  -> RESULT_STATE?
+  -> RECORD_CLOSE
+```
+
+The most aggressive cell-level guesses are now:
+
+```text
+daiin      ASSIGN/TAKE an AIIN amount or index
+qokaiin    NEXT: standard entry with AIIN amount/index
+qokal      NEXT: standard entry, variant AL
+qokeedy    NEXT: perform/continue OKEE; close field
+qokedy     NEXT: perform/continue OKE; close field
+shedy      RESULT/standing state E; close field
+chedy      describe/qualify Y (usually not a close cell)
+oldy       carrier/base L; close field
+daldy      assign/route variant AL; close field
+```
+
+`AIIN` is allowed to be either a numerical-looking index or a conventional
+quantity class; no number is guessed. `OK/OKE/OKEE` may be a family of closely
+related standard processes, degrees, or states. Their difference could be
+lexical, scalar, or merely historical allography.
+
+### A fuller f82r.2 reading
+
+```text
+dchedy
+// qolchedy
+// qokain | dy | qokeedy
+// qokal | lcheckhy | lched
+```
+
+Two-layer paraphrase:
+
+```text
+FORMAL
+SELECT(CHE); CLOSE
+NEXT(OLCHE); CLOSE
+NEXT(OK, value AIN), ASSIGN(Y), NEXT_PROCESS(OKEE); CLOSE
+NEXT(OK, variant AL), DESCRIBE(LCHECKHY, LCHED); LINE CLOSE
+
+SPECULATIVE CONTENT
+Take/establish the CHE material or state.
+Pass to the OLCHE carrier/state.
+Use indexed OK with Y, then continue the OKEE treatment.
+Finally use OK-AL with the two listed descriptors.
+```
+
+### A short unclosed line: f83r.52
+
+```text
+solkeey | qekey | raly | ol
+
+S:OLKEEY | Q:EKEY | RALY | O:L
+```
+
+Provisional reading:
+
+> Start/resume the OLKEEY item; link EKEY; add RALY; place or understand it in
+> carrier/frame L. The physical line end commits the field without an explicit
+> DY cell.
+
+This explains why some records are saturated with `DY` while others have none:
+line end is itself a licensed closure, and B-style pages more often spell out
+intermediate checkpoints.
+
+### Updated manuscript purpose
+
+The most specific coherent story is now:
+
+> a workshop reference manual for identifying natural materials, assigning
+> quantities or indices, preparing/extracting them through carrier states or
+> vessels, recording intermediate/result states, and selecting cyclical
+> conditions for the operation.
+
+The script is partly abbreviatory language and partly an executable notation.
+Its “sentences” are closer to recipes, register entries, or process cards than
+to narrative clauses.
