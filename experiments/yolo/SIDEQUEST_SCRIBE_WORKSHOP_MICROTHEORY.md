@@ -19,7 +19,7 @@ The image was not opened or forwarded, no transcription/formal value was
 exposed, and the result is excluded from every inference. No further `f84` or
 `f84r` access is authorized.
 
-## Current synthesis after Iteration 125
+## Current synthesis after Iteration 146
 
 The leading reconstruction is a **hybrid abbreviated language + technical
 codebook** used for an illustrated practical/medical workshop miscellany. A
@@ -49,15 +49,19 @@ DY-closed field and the second exact tuple opens the following field. The
 all-reading-stable surface sequence `DY | DAIIN` crosses Herbal-A/hand 1 and
 Biological-B/hand 2, but GDT327 parses it as consecutive `D:Y` and `D:AIIN`
 cards, not as a closure followed by a value. Its old checkpoint reading is
-withdrawn. The strongest content-system guesses remain local.
-Biological `OL` behaves like a carrier/medium/channel class, and
+withdrawn. The strongest content-system guesses remain local. More importantly,
+Herbal `CHOL` and Biological `OL` can be the same exact O-framed L card under
+different observed wrappers; they may not receive different meanings.
+That shared card remains a broad relation/classification candidate, and
 `D/S + AR + OL + right state` differentiates related hydraulic constructions. `OTAIN OLKAL`
 is a tub/apparatus caption candidate; `OKAL` is an anonymous card reused between
 a figure label and two prose blocks; SOL is a flexible Biological construction
 head. The clearest local field grammar opens with QOKAIIN/QOKEEY/QOKAL-like
 cards, admits OL/DAIIN/CHEDY-like interiors, and closes with formally licensed
-QOKEEDY/QOKEDY/SHEDY/LCHEDY states. Exact `CHOL` crosses Herbal-A/hand 1 and circle/hand 4, making a shared
-quality/classification axis plausible; `CTHY` is its Herbal-local companion.
+QOKEEDY/QOKEDY/SHEDY/LCHEDY states. Displayed `CHOL` crosses Herbal-A/hand 1 and circle/hand 4, but the circle
+loci are outside GDT327 and cannot be assigned the same parser-level card. On
+the covered Herbal/Bio prose, the CHOL card has unwrapped `OL` realizations and
+the exact CTHY card likewise crosses registers under different wrappers.
 On circle pages the written label is residual data added to visible
 ring/star/radial coordinates. f67r2 has three distinct counted layers—not just
 12 and 7, but also an independently catalogued central ring of 8 labels.
@@ -69,10 +73,11 @@ regimen is a useful but weak subgenre fork. The astronomical pages are
 comfortably generic-medieval in structure; using them for medical selection or
 timing is historically economical but not internally established.
 
-Explicitly withdrawn readings include `AROL = WATER`, `OL = WATER`, SOL as a
-confirmed verb, a fixed DESCRIPTION→RECIPE order for the two Herbal packets,
-line equals sentence, a universal diagram-label dictionary, and a direct
-f68↔f69 28-name list. No exact card has a confirmed English meaning.
+Explicitly withdrawn readings include `AROL = WATER`, `OL = WATER`, simultaneous
+`CHOL = HOT` versus `OL = MEDIUM`, `CTHY = DRY`, `D=ASSIGN`, `S=RESUME`,
+`Q=NEXT`, SOL as a confirmed verb, a fixed DESCRIPTION→RECIPE order for the two
+Herbal packets, line equals sentence, a universal diagram-label dictionary,
+and a direct f68↔f69 28-name list. No exact card has a confirmed English meaning.
 
 The main architectural fork is no longer evenly balanced. The mixed world is
 best: heterogeneous natural-language source material was compiled into nominal
@@ -87,7 +92,7 @@ recover the source language or original wording.
 |---|---|
 | strongest | picture/geometry is part of the information channel; paragraph is a record module; line is a reflow packet; shared compiler plus local rendering |
 | medium | four Herbal two-module entries; Biological prose versus local apparatus mode; f67/f68/f69 are selection/map/schedule-like distinct lookup modes |
-| low | CHOL quality axis; OL carrier/channel; SOL construction head; bath/application content; weak intrinsic-to-procedural Herbal ordering |
+| low | shared CHOL/OL relation-or-class axis; SOL construction head; bath/application content; weak intrinsic-to-procedural Herbal ordering |
 | very low | women's-health/fertility focus; prognosis/treatment timing; any individual action, quality, value or relation |
 | rejected | global word dictionary, AROL=WATER, line=sentence, direct f68/f69 name list, simple cipher or clean agglutinative morphology |
 
@@ -109,6 +114,40 @@ JOIN/SPACE  local attachment choice, not automatically a word boundary
 An “utterance” may span several physical lines, and a paragraph may contain
 several clause-like fields. No current evidence establishes SVO order, POS or
 sentence-final punctuation.
+
+### Current composition grammar, version 1.0
+
+```text
+PAGE
+  := PRE_DRAWN_VISUAL_ADDRESS + RECORD+
+
+RECORD
+  := paragraph-owned sequence of physical LINE packets
+
+LINE
+  := one or more FIELD slices fitted into available image space
+
+FIELD
+  := EXACT_CARD+ + optional LICENSED_ATTACHED_DY_CLOSE
+
+SURFACE_GROUP
+  := render(EXACT_CARD, wrapper_state, hand/register, line/field context)
+```
+
+Concrete exact-card families on the fixed Herbal/Bio prose:
+
+| latent exact card | covered surface family | strongest present description |
+|---|---|---|
+| `b921a237...` | Y, DY, CHY, SHY, SY, CHEY-like | portable Y/type/frame card; never attached-DY closure |
+| `2f1c5e56...` | AIIN, DAIIN, SAIIN, TAIIN, CHAIIN | portable value/reference candidate under five wrappers |
+| `dcda95c8...` | OL, CHOL and other wrapper forms | portable relation/class L/O card |
+| `e0b630cb...` | CTHY and sh/che wrapper forms | portable property/state candidate |
+| several exact closing cards | QOKEEDY, SHEDY, LCHEDY and variants | registered field-closing state deck |
+
+The most useful exact paths are `Y–AIIN–Y`, `OR–Y`, and `L–E_CLOSE`. Visible
+prefixes are not safely translatable morphemes. Free displayed DY is a rendered
+Y-card; attached DY is a different field-closing coordinate. The Astro labels
+remain outside this exact-card interlinear and may not inherit these collapses.
 
 ## Rapid iterations
 
@@ -6839,9 +6878,9 @@ to functions only where the ten pages constrain them:
 ```text
 VISUAL_ADDRESS     := pictured plant / apparatus locus / geometric coordinate
 CARD[h]            := registered opaque content value h
-VALUE[AIIN]        := portable scalar-or-reference slot (content unresolved)
-REL[OL]            := carrier/context relation slot (water is one local option)
-CLASS[CHOL, CTHY]  := Herbal-A paired classification construction
+CARD[AIIN]         := portable exact card; scalar/reference is a content guess
+CARD[L/O]          := shared exact CHOL/OL card; relation/class is a content guess
+PHRASE[L, CTHY]    := Herbal-A surface construction from two portable cards
 ENTRY[x]           := card licensed at field entry
 CLOSE[x]           := card licensed with attached DY closure
 LINE_RENDER[s]     := line-entry rendering opportunity
@@ -6867,9 +6906,10 @@ ASTRONOMICAL
 `AIIN` is a particularly useful placeholder rather than a translated number.
 On the seven fixed prose pages covered by GDT278, the host occurs 20 times on
 all seven pages: 6 field-first, 9 middle and 5 last, never as a singleton field.
-Its wrappers are `d` 11 times, `s` 4, unwrapped 3, and `ch`/`t` once each. That
-profile fits a value or reference filled into several constructions better than
-a universal closer or one fixed syntactic word. It still does not distinguish
+Its wrappers are `d` 11 times, `s` 4, unwrapped 3, and `ch`/`t` once each. All
+twenty are one exact GDT327 card, so the wrapper must not be translated as a
+separate verb or prefix. The profile fits a value or reference card filled into
+several constructions better than a universal closer. It still does not distinguish
 amount, dose, degree, ordinal, identifier, or ordinary lexical content.
 
 The advantage of this notation is honesty and usefulness: one can now parse a
@@ -6942,6 +6982,10 @@ an obvious common vocabulary.
 
 ## Iteration 124 — one coherent but deliberately risky plaintext world
 
+**Superseded by Iteration 133.** The exercise below was useful because its
+simultaneous `CHOL=HOT` and `OL=MEDIUM` assignments make a crisp prediction;
+the exact joint-card audit then falsifies that prediction.
+
 To avoid hiding forever behind anonymous labels, one complete content world can
 be written down and then kept visibly below the formal theory. The most coherent
 current guess is:
@@ -6979,6 +7023,11 @@ falsifier if an external plant anchor ever becomes available.
 
 ## Iteration 125 — a scribe's worked conversion
 
+**Content key withdrawn by Iteration 133; compilation architecture retained.**
+The example still illustrates lossy image-addressed compilation, but CHOL and
+OL cannot carry the two different meanings assigned below when they instantiate
+the same exact registered card.
+
 Imagine the source note around 1420 says:
 
 > “This simple is hot and dry. Use one registered measure in water; prepare it
@@ -7006,3 +7055,635 @@ This worked conversion explains why a reverse “translation” may never recove
 the original wording: articles, conjunctions, repeated subject names, visible
 coordinates and predictable verbs can all be omitted. What may remain
 recoverable is a schematic paraphrase, not a diplomatic plaintext.
+
+## Iteration 126 — a small exact core really does bridge Herbal and Biological
+
+Seventeen exact GDT327 joint-tuple types occur in both the four fixed Herbal
+pages and the three fixed Biological pages. The most frequent bridges are:
+
+| anonymous joint tuple | Herbal events | Bio events | displayed host family | observed wrappers across both |
+|---|---:|---:|---|---|
+| `2f1c5e56...` | 9 | 11 | AIIN | none, d, s, t, ch |
+| `b921a237...` | 9 | 9 | Y | none, ch, sh, d, s, che |
+| `7a4bb813...` | 5 | 2 | OR | none, sh, ch, s |
+| `dcda95c8...` | 3 | 16 | L | none, che, q, s, t, ch |
+| `276a7c2d...` | 3 | 7 | OKY | q, ch, none |
+| `e0b630cb...` | 3 | 4 | CTHY | che, sh, none |
+
+These are exact parser-level cards, not substring guesses. Their wrapper range
+is exactly what the shared-card/local-renderer theory predicts. They also look
+more like portable values, relations or compiler vocabulary than plant names
+or apparatus identities. The strong AIIN/Y/L bridge is the best internal reason
+to believe several scribes were using one teachable master inventory rather
+than unrelated scripts that merely look alike.
+
+This does not make the cards lexical. GDT398 found no stable free predictive
+merges beyond exact identity. The workshop should preserve these exact cards
+and allow rendering variation, not collapse neighbouring spellings into guessed
+synonyms.
+
+## Iteration 127 — every paragraph begins differently
+
+The guarded ZL display has 17 paragraph starts across the seven fixed prose
+pages: two each on f10r, f11r, f55v, f56r and f81v, three on f82r and four on
+f83r. Their first visible groups are all distinct. In the narrower GDT327
+coverage, the first exact joint tuple of each of eleven represented records is
+also unique.
+
+Therefore there is no universal explicit record opener equivalent to “take,”
+“recipe,” “item,” or “for.” The blank/reset and the image establish the record;
+the first card is locally informative. This pushes the source model away from a
+uniform imperative recipe list and toward nominal dossiers, specifications or
+compiled entries. Some underlying source recipes may still have begun with
+*recipe/take*, but the compiler either omitted or absorbed that predictable
+word.
+
+The same holds at the other edge: paragraph finals are diverse. Layout brackets
+the record on both sides, so the written card sequence spends its capacity on
+variable content rather than fixed opening and closing words.
+
+## Iteration 128 — current maximum-content reading of the four plants
+
+With the risky HOT/DRY sandbox kept explicit, the best page-level source
+paraphrases are:
+
+```text
+f10r
+  record A: [pictured simple A] — identity/constitution; stock paired quality;
+            several compact values
+  record B: additional relations, preparation/use conditions and assigned values
+
+f11r
+  record A: [pictured simple B] — same stock constitution system; local values
+  record B: additional application/property record with one repeated SHOR card
+
+f55v
+  record A: [pictured simple C] — hand-2 identity/property packet
+  record B: preparation/use or habitat relations, including AR/ALDY/DARY cards
+
+f56r
+  record A: [pictured simple D] — long Herbal-A classification dossier
+  record B: further qualities/uses; CHOL–CTHY recurs inside the extended module
+```
+
+The recurrence of CHOL–CTHY in both an early and a late module prevents a rigid
+“description first, recipe second” law. A safer distinction is **baseline
+dossier** versus **additional entries**. Water can occur in either module as a
+habitat, preparation medium or application, which is why image-driven attempts
+to assign all aqueous language to the second paragraph would be artificial.
+
+## Iteration 129 — current maximum-content reading of the three Bio pages
+
+The same symbolic vocabulary yields:
+
+```text
+f81v  scene-level overview + a second specification record;
+       one local two-card apparatus label OTAIN OLKAL
+
+f82r  three prose records + a dense local label catalogue;
+       repeated entry/closure deck enumerates several configurations
+
+f83r  four visible prose modules + local labels and short apparatus records;
+       most strongly cell-structured of the fixed display
+```
+
+The most economical content reading is **bath/application/apparatus
+specification**, not continuous narrative. The figures and tubes provide silent
+arguments; prose records state common rules or regimens; labels select local
+configurations; short cells commit attributes or states. A treatment sequence
+is possible, but the pages need not be chronological stages. They may be three
+plates from a catalogue of arrangements.
+
+The women's-health fork remains historically plausible because comparable
+medical miscellanies place women's recipes, waters, bathing and diagrams
+together. It is nevertheless weaker than the neutral apparatus/regimen reading:
+the drawn figures do not prove patients, fertility, anatomy or disease.
+
+## Iteration 130 — current maximum-content reading of the three circle pages
+
+The strongest coherent astronomical world is:
+
+```text
+f67r2  a multi-index concordance:
+       12 main divisions × a selective 7-member layer × an 8-member central layer
+
+f68r1  a spatial catalogue:
+       one central labelled object + 28 noncentral labelled objects
+
+f69v   an ordered 28-step schedule:
+       exact alternating visible class + residual state/value cards
+```
+
+In an aggressive medieval gloss, f67r2 combines zodiac/annual divisions,
+planetary rulers and an eightfold phase/direction/quality layer; f68r1 maps 28
+lunar stations, stars or catalogue entities around a centre; f69v gives the
+ordered lunar-night or computistical schedule. This is the most intelligible
+single astronomical package available on the fixed pages.
+
+The restrictions matter:
+
+- generic medieval astrology explains 12, 7 and 28 without a Georgian source;
+- the f67 eight may be phase, direction, wind, quality or something else;
+- f68 has no authorial 28-member order and cannot simply be read as the f69 list;
+- f69's externally predicted lag-14 relation is poor, directly falsifying an
+  A-65 table transfer;
+- no written card identifies a planet, sign, mansion, day, number or prognosis.
+
+Thus “lunar/astronomical lookup” is a reasonable genre gloss. Every row value
+and exact system identification remains conjectural.
+
+## Iteration 131 — the strongest integrated handbook theory is WHAT / HOW / WHEN
+
+If the three page families are parts of one coordinated handbook rather than a
+loose miscellany, their division of labour is remarkably economical:
+
+```text
+HERBAL       WHAT SUBSTANCE?  identity, constitution, virtues, preparation options
+BIOLOGICAL   HOW APPLIED?     bath, vessel, conduit, local application or regimen
+ASTRO        WHEN/UNDER WHAT CONFIGURATION?  calendar, ruler, phase or prognosis
+```
+
+This theory explains why the pictures are indispensable. The plant supplies
+the substance, the body/apparatus scene supplies the mode of administration,
+and the circle supplies the timing/configuration. The shared exact AIIN/Y/L/OR
+cards and the cross-register CHOL lead then become common value/quality/relation
+vocabulary in a medical working system.
+
+It is also easy to overfit. No plant page points to a specific Bio record; no
+Bio record points to a specific circle cell; the three circle label namespaces
+do not share a content list; and the historical comparators show that one codex
+can hold all these materials without such a triadic workflow. Therefore:
+
+| content model | current rank |
+|---|---|
+| workshop miscellany sharing one shorthand | 1 |
+| coordinated WHAT/HOW/WHEN medical handbook | 2, strongest integrated theory |
+| women's fertility/balneo-astrological manual | 3, attractive but over-specific |
+
+## Iteration 132 — reconstructed workshop organisation
+
+The best imagined production setting is a small literate technical workshop,
+not one solitary cryptographer:
+
+```text
+MASTER EXEMPLARS
+  plant images and article sources
+  bath/apparatus diagrams and regimen sources
+  astronomical tables and rules
+
+HOUSE TOOLS
+  common exact-card ledger
+  register-specific phrasebooks
+  compatible-construction table
+  simple line-entry/post-closure rendering habits
+
+PRODUCTION
+  copy/draw the plate first
+  select and compress the relevant source record
+  render it into the available space
+  let paragraph layout close records
+  tolerate hand-specific joins, splits and wrapper choices
+```
+
+Several scribes can learn this because card identity and page template are
+shared, while spelling/rendering habits are local. Currier A/B can then reflect
+different register templates and hands within one system rather than two
+plaintext languages. The codebook may have served brevity, controlled copying,
+mnemonic use, professional exclusivity, or all four. Full secrecy is not
+required to produce an unreadable survivor once the card ledger and source
+tradition are lost.
+
+## Iteration 133 — `CHOL` and `OL` collapse to one exact card
+
+The bold HOT/DRY world fails a direct internal consistency check. In the frozen
+GDT327 interlinear:
+
+```text
+f10r.5 group 3   displayed CHOL   joint tuple dcda95c81a...   wrapper ch
+f10r.8 group 4   displayed CHOL   joint tuple dcda95c81a...   wrapper ch
+f10r.8 group 6   displayed CHOL   joint tuple dcda95c81a...   wrapper ch
+f81v.17 group 3  displayed OL     joint tuple dcda95c81a...   wrapper none
+f83r.54 group 2  displayed OL     joint tuple dcda95c81a...   wrapper none
+```
+
+The hidden host and coordinate IDs are identical. The difference is the
+observed wrapper. The same exact card has 3 covered Herbal and 16 covered Bio
+events and appears with none/`che`/`q`/`s`/`t`/`ch` renderings across the fixed
+pages. It is precisely the portable L-card already isolated in Iteration 126.
+
+The CTHY constituent is portable too. Exact tuple `e0b630cb...` appears as
+unwrapped CTHY on f10r/f11r and with `sh` or `che` wrappers in seven covered
+events spanning f10r, f11r and f83r. The **surface bigram** `CHOL CTHY` remains
+a Herbal-A phrasebook pattern, but its two component cards are not Herbal-only
+words.
+
+Consequences:
+
+- `CHOL=HOT` and `OL=IN/WITH_MEDIUM` cannot both be true under the best current
+  grammar; that worked dictionary is withdrawn.
+- `CTHY=DRY` loses its paired-quality support because its partner is a portable
+  cross-register card, not a separately established HOT card.
+- A broad common function such as RELATION, CLASS, CARRIER, or ADDRESS remains
+  possible for the shared L-card, but none is selected.
+- The field/card architecture becomes stronger: a visually prominent prefix
+  can change while the registered identity remains exact.
+
+This is the most useful semantic correction in the late sidequest. It replaces
+two attractive visible-word glosses with one deeper, renderer-invariant card.
+The result is less like deciphered prose and more like the teachable card
+compiler the workshop theory predicts.
+
+## Iteration 134 — `AIIN/DAIIN/SAIIN/TAIIN/CHAIIN` are one card
+
+The same exact-card audit removes another layer of invented morphology. Exact
+tuple `2f1c5e56...` accounts for 20 covered events on all seven fixed prose
+pages:
+
+| observed wrapper | events | familiar displayed family |
+|---|---:|---|
+| `d` | 11 | DAIIN |
+| `s` | 4 | SAIIN |
+| none | 3 | AIIN |
+| `ch` | 1 | CHAIIN |
+| `t` | 1 | TAIIN |
+
+The joint host and coordinate are unchanged. It occurs field-first, middle and
+last. Therefore `D_ASSIGN(AIIN)`, `S_RESUME(AIIN)` and comparable old
+sidequest parses are withdrawn as semantic analyses. They remain convenient
+descriptions of *surface rendering* only.
+
+The corrected notation is:
+
+```text
+CARD[AIIN] @ wrapper=d
+CARD[AIIN] @ wrapper=s
+CARD[AIIN] @ wrapper=none
+```
+
+The sequence displayed as `DY | DAIIN` is similarly two exact cards, Y then
+AIIN, both carrying a `d` wrapper. Its potentially meaningful fact is shared
+constructional rendering across adjacent cards, not “checkpoint then assign a
+value.”
+
+This collapse is exactly what a multi-scribe card system needs. Apprentices
+memorize one AIIN card, while the renderer tells them how it appears at a given
+line/field state. It also explains why naive substring morphology looked so
+productive yet failed to beat string baselines in GDT003: visible left pieces
+can be generated by construction state rather than by source-language
+morphemes.
+
+AIIN itself could still be a value, reference, common content card or even a
+function-like item. The exact-card identity solves surface composition, not
+meaning.
+
+## Iteration 135 — the free Y family is another single exact card
+
+Exact tuple `b921a237...` occurs 18 times across the fixed Herbal and Bio pages.
+It is rendered with none/`ch`/`sh`/`d`/`s`/`che` wrappers and never carries the
+formal DY-closure coordinate. Thus surface Y, CHY, SHY, DY, SY and CHEY-like
+groups can instantiate one portable Y-card.
+
+This makes the crucial DY distinction explicit:
+
+```text
+FREE SURFACE DY
+  = wrapper d + exact Y-card
+  = not a field closure
+
+ATTACHED DY CONSTRUCTION
+  = closure coordinate inside another exact joint card
+  = field-closing behavior in the licensed grammar
+```
+
+A reader trained by the workshop knows the difference from the complete card
+and boundary context. A modern reader who treats every final `dy` or free `dy`
+as one morpheme will collapse two different formal mechanisms.
+
+## Iteration 136 — the hidden `Y–AIIN–Y` construction
+
+After renderer collapse, two visibly dissimilar passages become identical:
+
+```text
+f10r.6 groups 7–9   CHY  TAIIN  SHY
+latent cards         Y    AIIN    Y
+
+f83r.3 groups 4–6   CHEY DAIIN CHEY
+latent cards          Y    AIIN    Y
+```
+
+The exact GDT327 joint-tuple sequence is
+`b921a237... → 2f1c5e56... → b921a237...` in both a Herbal and a Biological
+record. Shorter directions recur too: AIIN→Y appears on f10r, f82r and f83r;
+Y→AIIN on f10r, f11r and f83r. OR→Y likewise appears on three fixed pages.
+
+This is the strongest concrete phrase-level example for the card compiler. It
+is invisible to raw word matching, crosses section/register context, preserves
+exact card order and tolerates different wrappers on every position.
+
+The most economical anonymous parse is a **bracketed or balanced value frame**:
+
+```text
+Y_FRAME_OPEN  AIIN_VALUE_OR_REFERENCE  Y_FRAME_CLOSE
+```
+
+But the same Y card at both edges does not prove opening versus closing, and
+AIIN may not be a scalar. Alternatives include three adjacent values, a copied
+agreement frame, a relation with repeated endpoint class, or formulaic prose.
+With only two complete triplets, this remains a high-value post-hoc lead, not a
+confirmed construction.
+
+## Iteration 137 — first renderer-invariant microgrammar
+
+Only three short latent paths recur across multiple fixed pages strongly enough
+to enter the current phrasebook:
+
+```text
+Y -> AIIN -> Y     two complete cross-section realizations;
+Y <-> AIIN        both directed pairs recur on three pages;
+OR -> Y           three pages across Herbal and Bio;
+L -> E_CLOSE      four events on f81v/f83r under varied wrappers.
+```
+
+In symbolic workshop notation:
+
+```text
+BALANCED_FRAME := CARD[Y] CARD[AIIN] CARD[Y]
+RELATION_PAIR  := CARD[OR] CARD[Y]
+BIO_CLOSE_PAIR := CARD[L] CLOSE[E]
+```
+
+These paths do not yet compose into a complete sentence grammar. They do show
+where meaning should be sought: at exact-card constructions after renderer
+collapse, not in visible prefixes or edit-similar “words.” GDT338 and GDT398
+still forbid promoting them into a general equivalence system; the paths are
+exact identities, not learned merges.
+
+## Iteration 138 — three visible phrases, one latent `OR→Y` pair
+
+The exact OR→Y path occurs with three different wrapper displays:
+
+```text
+f10r.9   CHOR  CHY     = OR-card -> Y-card
+f55v.11  OR    Y       = OR-card -> Y-card
+f83r.38  OR    CHEY    = OR-card -> Y-card
+```
+
+Likewise, AIIN→Y is rendered `TAIIN SHY` on f10r and `DAIIN CHEY` on f82r/f83r.
+Y→AIIN is rendered `CHY TAIIN`, `DY DAIIN`, or `CHEY DAIIN`. The Bio L→E-close
+pair survives none/`q`/`t` renderings on L and `sh`/`che` renderings on the
+closing card.
+
+This miniature concordance is what a workshop reader would actually learn:
+
+| latent path | surface examples | current functional placeholder |
+|---|---|---|
+| Y→AIIN→Y | CHY TAIIN SHY; CHEY DAIIN CHEY | balanced/value frame |
+| OR→Y | CHOR CHY; OR Y; OR CHEY | relation pair |
+| L→E-close | OL SHEDY and wrapper variants | carrier/class plus committed state |
+
+The English placeholders remain speculative. The equivalence of the exact
+card paths is inherited from GDT327 and does not depend on edit similarity.
+
+## Iteration 139 — wrappers do not show simple agreement
+
+If visible wrappers were ordinary person, number or case prefixes, the same
+latent path might preserve a stable wrapper pattern. It does not:
+
+```text
+Y -> AIIN -> Y
+  ch -> t -> sh
+  che -> d -> che
+
+OR -> Y
+  ch -> ch
+  none -> none
+  none -> che
+
+Y -> AIIN
+  ch -> t
+  d -> d
+  che -> d
+```
+
+The wrappers can repeat across adjacent cards, but they need not agree. This is
+more consistent with local renderer/construction choices than with a simple
+inflectional concord system. A subtler grammatical role remains possible, but
+the sidequest should not resurrect `d-`, `s-`, `ch-`, `che-` as translated
+morphemes.
+
+The content-bearing search space has therefore shrunk substantially:
+
+```text
+likely information: exact card identity + exact card order + visible address
+secondary grammar: attached closure and field/paragraph topology
+mostly rendering: variable outer wrapper and some JOIN/SPACE choices
+```
+
+That is now the most complete word-composition model available from these ten
+pages.
+
+## Iteration 140 — the exact-card grammar does not cover the three circle pages
+
+An explicit coverage check finds zero f67r2, f68r1 or f69v events in the frozen
+GDT327 joint-tuple interlinear. The circle loci belong to special diagram/label
+source classes outside that executable prose representation.
+
+Therefore the evidence layers must stay separate:
+
+```text
+Herbal + Biological prose
+  exact GDT327 cards, fields, closures and renderer collapse available
+
+f67r2 + f68r1 + f69v diagrams
+  human-owned topology and alternate surface readings available
+  no GDT327 exact-card normalization available
+```
+
+Consequences:
+
+- displayed circle `CHOL`, `AIIN`, `DY` or similar forms may not be declared
+  identical to the prose cards merely because the ZL surface matches;
+- the shared-workshop compiler on Astro remains a document-level hypothesis,
+  not an executed card-level result;
+- the circle conclusions should remain selection/map/schedule topology with
+  local residual labels;
+- the strong CHOL↔OL, AIIN-family and Y-family collapses are currently a
+  Herbal/Bio prose grammar only.
+
+This weakens the integrated WHAT/HOW/WHEN theory slightly and leaves the
+workshop-miscellany model comfortably first. It also keeps the sidequest from
+using a parser outside its licensed source domain.
+
+## Iteration 141 — first coherent anonymous content algebra
+
+After withdrawing the conflicting word glosses, the positions of the four
+portable cards suggest a small anonymous algebra:
+
+| exact card | events / folios in covered fixed prose | field positions | best anonymous content role |
+|---|---|---|---|
+| L/O `dcda95c8...` | 19 / 3 | 3 first, 14 middle, 1 last, 1 only | RELATION_OR_CLASS_LINK |
+| CTHY `e0b630cb...` | 7 / 3 | 6 middle, 1 last | PROPERTY_OR_STATE_VALUE |
+| AIIN `2f1c5e56...` | 20 / 7 | 6 first, 9 middle, 5 last | VALUE_OR_REFERENCE |
+| Y `b921a237...` | 18 / 6 | 2 first, 13 middle, 3 last | TYPE_OR_FRAME_VALUE |
+
+This licenses schematic readings such as:
+
+```text
+L/O -> CTHY       RELATION/CLASS applied to a property/state value
+L/O -> E_CLOSE    RELATION/CLASS followed by a committed state
+Y -> AIIN -> Y    repeated type/frame around a value/reference
+OR -> Y           second relation card applied to the Y type/frame
+```
+
+If forced into loose English, L/O is closer to “is/has/in class/with respect
+to” than to WATER, CTHY is closer to “property/state C” than DRY, AIIN is
+closer to “registered value/index” than a decoded number, and Y is closer to a
+type/pointer value than a sound. These are provisional functional paraphrases,
+not lexemes.
+
+## Iteration 142 — shared grammar, local content, silent image
+
+The seventeen exact cards shared between Herbal and Bio account for 44/100
+covered Herbal events and 92/281 covered Bio events. Thus a very small shared
+inventory carries 35.7% of all 381 covered events, while the majority remains
+register/page local.
+
+The natural information allocation is:
+
+```text
+VISIBLE IMAGE       subject, object class, geometry, some arguments
+SHARED EXACT CORE   relations, values, types, construction/control vocabulary
+REGISTER-LOCAL TAIL plant/apparatus-specific content and local states
+LAYOUT/RENDERER     record scope, field closure, line reflow, wrapper surface
+```
+
+This is a stronger explanation for the failed global dictionary than “every
+word is meaningless.” The common cards may be too abstract to ground from a
+plant picture, while the content cards recur too locally to transfer across
+pages. The image silently supplies precisely the referent that would otherwise
+let us align them.
+
+It also explains why the Biological register has a lower type/token ratio and
+more shared events: it repeatedly uses a common apparatus/state deck. Herbal
+mixes the same core with more page-addressed identity/property cards; Astro is
+largely outside the exact-card instrument and remains coordinate-addressed.
+
+## Iteration 143 — what “translation” can now mean
+
+For these ten pages a realistic translation has three layers:
+
+```text
+LAYER 1, recoverable now
+  image address + paragraph/field structure + exact card identity + closure
+
+LAYER 2, provisionally paraphrasable
+  RELATION/CLASS, VALUE/REFERENCE, TYPE/FRAME, COMMITTED_STATE
+
+LAYER 3, not recovered
+  plant name, ingredient, action, quantity, disease, body part, astronomical
+  value, source language wording and every English lexical gloss
+```
+
+The current output is therefore a **schematic translation**: “for the pictured
+item, record relation R, value V and state S in this local cell.” It is more
+informative than saying the text is wholly opaque, but much less than a
+plaintext. A complete lexical translation would require an external anchor for
+one of the register-local cards or the lost codebook itself.
+
+## Iteration 144 — six lines in the corrected exact-card interlinear
+
+The new grammar can parse real fixed-page material without the withdrawn
+`D_ASSIGN`, `Q_NEXT`, HOT or WATER glosses:
+
+```text
+f10r.5  one open Herbal field
+  [OKCHY-entry] [local CHOL-card] [shared L/O-card] [shared CTHY-card]
+
+f10r.6  one open Herbal field
+  [YCHEOR] [CTHY] [OR] [CTH] [OCTHOLY]
+  [Y-card] [Y-card] [AIIN-card] [Y-card]
+
+f81v.17  four Bio fields
+  [closed SHKCH-card] //
+  [Y-card] [L/O relation-card] [closed E-state] //
+  [closed OLCHE-card] //
+  [OK-entry] [CKHY-card] [L-card] [R-card]
+
+f82r.2  four Bio fields
+  [closed CHE-card] //
+  [closed OLCHE-card] //
+  [OK-entry] [Y-card] [closed OKEE-state] //
+  [OK-entry] [LCHECKHY-card] [LCHED-card]
+
+f83r.3  four Bio fields
+  [closed OLKEE-card] //
+  [OT-entry] [closed KEE-card] //
+  [Y-card] [AIIN-card] [Y-card] [closed LCHE-state] //
+  [OK-entry] [OT-card] [AR-card]
+
+f83r.6  five Bio fields
+  [closed CHE-card] //
+  [CHY-entry] [OK-card] [closed OLCHE-state] //
+  [OK-entry] [Y-card] [closed OKEE-state] //
+  [closed LCHE-state] //
+  [open OKY-card]
+```
+
+`//` is a formal field boundary, not punctuation or sentence end. “Entry,”
+“relation” and “state” are the current anonymous functional paraphrases. The
+exact opaque cards, order and closure status are inherited facts.
+
+## Iteration 145 — register templates package the same cards differently
+
+Compare the Y/AIIN material:
+
+```text
+f10r.6 Herbal-A
+  ... Y Y AIIN Y          one long unclosed article field
+
+f83r.3 Biological-B
+  Y AIIN Y LCHE-close     one short explicitly closed cell
+```
+
+The shared latent construction need not change meaning. The register template
+changes how it is packaged: Herbal embeds it in a long dossier row, while Bio
+turns it into a checked specification cell. This is a concrete mechanism for
+the length-normalized field-density difference and for apparent Currier
+grammar differences.
+
+The model is therefore not “Currier A is prose, Currier B is another language.”
+It is:
+
+```text
+shared exact cards
+  + Herbal article enclosure
+  + Biological cell/checklist enclosure
+  + hand-specific wrapper realization
+```
+
+Content register and hand remain confounded, so this cannot prove that every
+Currier difference is formatting. It does show that one exact cross-register
+phrase can survive while its field enclosure changes.
+
+## Iteration 146 — composition grammar version 1.0
+
+The accumulated corrections are now compact enough to freeze as the best
+sidequest work theory:
+
+```text
+meaning-bearing candidate layer: exact opaque card identities and their order
+formal grammar layer:             field entry, exact compatibility, closure
+renderer layer:                   wrapper, line reset, post-close choice, joins
+document layer:                   image address, paragraph record, page template
+```
+
+The apparent word is a rendered card, not necessarily a source word. The
+apparent prefix is often a renderer choice, not necessarily a morpheme. The
+apparent suffix DY can be a licensed closure inside one card, while a free DY
+group is a different Y-card rendering. The apparent sentence is often a
+paragraph record reflowed over physical lines.
+
+This version explains more of the ten pages with fewer assumptions than every
+earlier dictionary. Its central missing object is no longer “the alphabet” but
+the **card ledger**: the mapping from exact portable and register-local cards to
+source concepts or technical values.
