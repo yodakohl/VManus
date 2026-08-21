@@ -2236,3 +2236,99 @@ The system may abbreviate natural-language source notes, but its final page is
 closer to a technical register than ordinary prose. It is learnable because
 most grammar is construction order and recurrence, while difficult local
 content is copied from exemplars rather than generated from first principles.
+
+## Iteration 27 — the first apprentice phrasebook from the six pages
+
+The six-page sample contains a compact exact-form core. This is preferable to
+inventing a meaning for every rare family:
+
+```text
+form    occurrences  pages  line start / middle / end
+AIIN        19          6          0 / 16 / 3
+DAIIN       23          5          5 / 17 / 1
+OR           9          5          1 /  7 / 1
+DAR          5          5          1 /  2 / 2
+CHEY        17          4          0 / 15 / 2
+DY          16          4          0 /  8 / 8
+AR          14          4          0 / 12 / 2
+DAL         12          4          1 /  8 / 3
+OL          11          4          0 /  8 / 3
+S           11          4          3 /  8 / 0
+SAR          7          4          2 /  2 / 3
+```
+
+This supports a learnable positional phrasebook. The scribe need not know a
+modern grammatical label; he learns where a form belongs in a record.
+
+### Pocket-card version
+
+```text
+AIIN   registered measure/setting/value; normally follows something
+DAIIN  enter, assign, or add the registered value
+CHEY   qualify/prepare the current local item or state
+OL     carrier/medium/channel; Herbal concretization may be water/liquid
+AR     route/source/course relation
+OR     second relation or target channel
+DAR    bind/apply/transfer through the AR relation
+DAL    retain/settle/bind at the L-side state
+S      open or resume a packet; never used as the final item here
+SAR    resumed/marked AR-course state
+DY     local checkpoint; often but not always at line end
+```
+
+The semantic words are invented. The positional distinctions are the reason
+these guesses cohere:
+
+```text
+entry/control        S
+local qualification  CHEY
+value                AIIN
+value assignment     DAIIN
+carrier/relation     OL / AR / OR
+applied relation     DAR / DAL / SAR
+checkpoint           DY
+```
+
+### A 1420 teaching instruction
+
+An imagined master might teach the apprentice:
+
+> First copy the form that opens the row. Then copy the sign for the thing or
+> process from the page list. If a quantity is needed, write AIIN after it; if
+> the quantity is to be entered or added, use DAIIN. Write OL for the carrier
+> line and AR or OR for its course. Use only the DAR/DAL variant shown in the
+> exemplar. Put DY where the local operation is fixed, then continue on the
+> next line until the paragraph is complete.
+
+That instruction is simple enough to transmit orally and by model leaves.
+
+### More concrete f55v.12 attempt
+
+```text
+daiin | ar | cheky | olkeechy | sl | ar | aiin | daiin | otam
+```
+
+Workshop parse:
+
+```text
+SET/ADD MEASURE
+THROUGH COURSE AR
+PREPARE LOCAL KY ITEM
+IN OL-CARRIER WITH KEE/CHY STATE
+RETAIN SL STATE
+THROUGH COURSE AR
+MEASURE
+SET/ADD MEASURE
+MARKED AM CHECKPOINT; PARAGRAPH END
+```
+
+Bold paraphrase:
+
+> Add the measured amount. Prepare the KY material and carry it through the
+> liquid medium—possibly water—under the indicated condition. Retain that
+> state, apply the second measured amount, and leave it in the marked final
+> condition.
+
+This line genuinely ends its paragraph, so `OTAM` can be translated here as a
+final retained condition even though the broader AM family is not a universal
+statement closer.
