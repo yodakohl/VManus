@@ -1426,3 +1426,168 @@ whole-cell effect of `Q(OKE-grade)`, not as the lexical meaning of OKEE.
 This is a substantial simplification: one state family plus a scalar channel
 generates many high-frequency forms while allowing lines to describe genuine
 technical transitions.
+
+## Iteration 17 — typed value vectors on the right
+
+f82r.14 contains both `qokain` and `qokaiin` in the same physical line, and the
+contrast survives ZL3b, IT2a, and RF1b. The intervening `deeedy` and `qokeey`
+are also stable across the three readings. This makes an accidental spelling
+variant less attractive inside the sidequest.
+
+```text
+r | olchy | qokal | chey | qokain | deeedy | qokeey | qokaiin | olchedy
+```
+
+Treat the right side as a compact typed value vector:
+
+```text
+A + I^n + N   quantity/index channel at grade n
+A + L         categorical endpoint/state L
+A + R         categorical endpoint/state R
+E^n           process/duration/intensity channel at grade n
+Y             compact terminator or local state channel
+```
+
+The full cell template becomes:
+
+```text
+CONTROL + LOCAL_HOST + VALUE_TYPE + VALUE_GRADE + COMMIT
+```
+
+Examples:
+
+```text
+qokain   Q_ACTIVE + OK + N_VALUE(grade 1)
+qokaiin  Q_ACTIVE + OK + N_VALUE(grade 2)
+qokal    Q_ACTIVE + OK + L_STATE
+qokar    Q_ACTIVE + OK + R_STATE
+shedal   SH_RESULT + ED + L_STATE
+daldy    D_BIND + L_STATE + COMMIT
+```
+
+This is almost exactly what a compact technical notation needs: the same
+operation or object code can be combined with a typed amount, route, endpoint,
+or process grade without spelling a new ordinary word.
+
+### Provisional f82r.14 reading
+
+```text
+R/OLCHY record head
+Q(OK, state L)
+CHE(Y descriptor)
+Q(OK, amount/index grade 1)
+D(process grade 3); commit candidate
+Q(OK, process grade 2, Y realization)
+Q(OK, amount/index grade 2)
+OLCHE terminal state
+```
+
+Loose paraphrase:
+
+> For R/OLCHY, use OK state L and descriptor Y; assign quantity/index grade 1;
+> apply process grade 3 and then grade 2; set quantity/index grade 2; finish in
+> the OLCHE state.
+
+The line may encode a ratio, schedule, calibration, or sequence of treatment
+levels. The crucial hypothesis is not a particular operation but that `AIN`
+and `AIIN` are two values of one typed channel.
+
+### Revised scalar architecture
+
+```text
+I-count channel  -> amount, count, dose, or ordinal
+E-count channel  -> duration, intensity, concentration, or process degree
+L/R channel      -> paired categorical alternatives
+```
+
+This provides a reason for multiple recurrent right families and for the
+extreme near-neighbour structure without requiring phonological inflection.
+
+## Iteration 18 — a complete semantic record schema
+
+The current guesses can be assembled into one practical data model:
+
+```text
+ENTITY/REFERENT       supplied by plant, figure, vessel, or circle position
+LOCAL_PART_OR_ITEM    page-local address code
+QUANTITY_OR_INDEX     I-count channel
+OPERATION/RELATION    Q/D/CH/CHE construction
+PROCESS_GRADE         E-count channel
+CARRIER_OR_PATH       OL/AROL family
+RESULT_STATE          SH construction plus L/R/Y value
+TIME_OR_CYCLE         circle slot and geometric state
+COMMIT                DY/B3/line/record boundary
+```
+
+This is the first nearly complete answer to what a record could mean without
+requiring recovered nouns.
+
+### Section projections of the same schema
+
+```text
+HERBAL A
+  IMAGE_ENTITY + PART/PROPERTY + CLASSIFICATION + UNIT
+
+HERBAL B
+  IMAGE_ENTITY + UNIT + PREPARATION + CARRIER + RESULT
+
+BIOLOGICAL
+  DEPICTED_NODE/PATH + TRANSFER + PROCESS_GRADE + RESULT_STATE
+
+ASTRO/CIRCLE
+  CYCLE_POSITION + BINARY/GEOMETRIC_STATE + LOCAL CONDITION KEY
+```
+
+The sections may be complementary reference tables in one technical system:
+what material is used, how it is prepared or circulated, what state should
+result, and under which cyclical condition the action is indexed.
+
+### Canonical hypothetical workshop record
+
+Invented underlying entry:
+
+> For the plant shown here, take a grade-2 unit of the selected part. Prepare
+> it in carrier OL at process grade 2. Transfer it through the AROL course to
+> endpoint SY. Record result state ED-L. Use the cycle condition represented by
+> the selected f69v slot.
+
+Possible compiled text:
+
+```text
+daiin | cheol | qokeedy | darolsy | shedal
+```
+
+Additional timing is supplied by pointing to or copying the appropriate circle
+key rather than spelling its ordinal in the prose.
+
+Expanded procedural paraphrase:
+
+```text
+TAKE/ASSIGN UNIT(I-grade 2)
+PREPARE IN CARRIER(OL)
+ACTIVE PROCESS(OK, E-grade 2); COMMIT
+TRANSFER THROUGH COURSE(AROL) TO STATE(SY)
+RECORD RESULT(ED, L)
+UNDER CYCLE CONDITION(slot geometry + local key)
+```
+
+### What “translation” now means in this sidequest
+
+The likely recoverable first translation is not:
+
+```text
+Voynich word -> German word
+```
+
+It is:
+
+```text
+Voynich construction
+  -> technical record operation and typed value
+  -> page-local referent
+  -> eventual natural-language paraphrase
+```
+
+Thus a useful partial translation might read “assign a grade-2 quantity,
+process at grade 2, transfer through the depicted course, record result L” even
+while the material and operation names remain unknown.
