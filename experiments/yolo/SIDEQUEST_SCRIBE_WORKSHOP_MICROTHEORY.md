@@ -2619,3 +2619,98 @@ lexicalized tier:
 Several scribes can learn this easily. They share the productive construction
 order and a central phrasebook, while rare or irregular complete cells remain
 register- or master-specific.
+
+## Iteration 31 — f83r.28--30 exposes the renderer as a scribal rule
+
+The end of the f83r.25--30 paragraph gives the cleanest bridge between the
+confirmed renderer and the invented workshop semantics.
+
+```text
+f83r.28  ... oldy
+f83r.29  ... oldy
+f83r.30  s | okeedy | qokeedy | qoky | saii
+```
+
+`OLDY` is stable at the end of both f83r.28 and f83r.29 in all three readings.
+The final line then has a source-boundary disagreement:
+
+```text
+ZL3b  s | okeedy    (uncertain small space)
+IT2a  sokeedy
+RF1b  sokeedy
+```
+
+The joined/detached choice does not need a semantic difference. It is exactly
+what a workshop renderer produces.
+
+### The same base cell in two constructional positions
+
+```text
+line-entry position:       S + OKEEDY
+after a DY-closed cell:    Q + OKEEDY
+```
+
+In f83r.30 they occur consecutively:
+
+```text
+S-OKEEDY | Q-OKEEDY
+```
+
+The master can teach this without translating either wrapper:
+
+> At the beginning of a new physical row use the S realization of the licensed
+> OKEEDY cell. When the next licensed cell follows a DY checkpoint, use its Q
+> realization. Join or lightly detach the entry mark according to the house
+> hand.
+
+This fits the established renderer results much better than treating `s` and
+`q` as ordinary words.
+
+### Cross-line state inheritance
+
+The repeated line-final `OLDY` now receives a simple record-level function:
+
+```text
+f83r.28  write OL carrier state to line boundary
+f83r.29  preserve/write the same OL carrier state again
+f83r.30  resume the process in a new physical row
+```
+
+Bold paraphrase of the three-line tail:
+
+> Leave the prepared item in the OL medium. While it remains in that medium,
+> perform the CHEY, QODY and KESD substeps and retain the same carrier state.
+> On the next row resume the standard treatment, repeat the linked process,
+> enter the QOKY value and close the paragraph with SAII.
+
+The content names remain unknown, but the carried-state syntax is now much
+clearer.
+
+### Why multiple hands are expected
+
+Different scribes can render the same abstract packet as:
+
+```text
+s | okeedy
+sokeedy
+```
+
+without disagreeing about the record. This naturally produces varying spaces,
+ligatures and transcription boundaries while preserving the construction.
+The manuscript's notorious boundary ambiguity is therefore not necessarily
+corruption; it may be an intended property of a shorthand in which entry marks
+can be written free or bound.
+
+### Updated minimal compiler
+
+```text
+INPUT STATE       complete learned cell, inherited from earlier line
+LINE ENTRY        choose licensed S realization
+LOCAL PROCESS     copy complete process/value/state cells
+POST-CHECKPOINT   choose licensed Q realization after DY
+LINE CARRY        repeat current carrier/state cell at row edge if needed
+PARAGRAPH CLOSE   terminate the inherited workspace
+```
+
+This is the most historically learnable version so far: a phrasebook plus two
+positional rendering habits and paragraph-level state inheritance.
