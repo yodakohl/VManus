@@ -3249,3 +3249,53 @@ This is learnable by copying a model paragraph. Its variable complete cells can
 change while the six-packet scaffold remains familiar. No physical line has to
 be a complete statement, and the pre-drawn illustration need only constrain
 where the packets fit.
+
+## Iteration 40 — literal duplication as a workshop instruction
+
+The six-page sample contains nine immediate exact `X X` pairs:
+
+```text
+f10r.3     dy dy
+f55v.9     or or
+f82r.18    shedy shedy
+f82r.29    qoty qoty
+f83r.7     qoteedy qoteedy
+f83r.27    shckhedy shckhedy
+f67r2.73   ykchey ykchey
+f69v.1     okar okar
+f69v.3     oteey oteey
+```
+
+All nine duplicate pairs remain exact in ZL3b, IT2a and RF1b. They occur on
+all six selected pages and in all three selected hands; five are the final two
+groups of their locus. The convention is therefore broader than the particular
+SHCKHEDY example.
+
+The simplest apprentice rule is:
+
+```text
+X X = copy the same registered cell into the next adjacent opportunity
+```
+
+Depending on the record, a practitioner might understand this operationally
+as “again”, “for the second parallel slot”, “repeat once”, or “the same value
+for both”. The written system need not contain a separate word meaning twice.
+Literal recopying is easy to teach, robust across scribes, and compatible with
+both prose-like records and circular lists.
+
+This revises the f83r.27 paraphrase. `SHCKHEDY SHCKHEDY` need not encode a
+special plural ending or a semantic result morpheme. The whole registered cell
+is simply deployed twice. Likewise `OR OR` may occupy two relation positions
+without making `OR` equivalent to spoken “and”.
+
+The rule remains formal and underspecified:
+
+```text
+supported sidequest function:     DUPLICATE_OR_REPEAT_CURRENT_CELL
+not established:                  TWO, PLURAL, BOTH, AGAIN, EMPHASIS
+```
+
+Exact repetition also fits an organically learned workshop notation better
+than a perfectly economical engineered code. A hurried scribe can repeat a
+known cell rather than invoke an abstract iteration sign, and every colleague
+can read the local instruction from the copied form.
