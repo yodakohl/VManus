@@ -3047,3 +3047,56 @@ forms are not freely interchangeable spellings.
 This remains an invented workshop convention. The positional skew is small,
 the six-page selection is not an independent test, and GDT003 already prevents
 promotion of a productive linguistic morphology from such formal pairs.
+
+## Iteration 36 — `DY` closes a local unit, not necessarily an utterance
+
+The exact standalone form `dy` occurs 16 times in the six-page ZL3b sample:
+
+```text
+line-final       8
+line-internal    8
+```
+
+The eight internal successors are diverse:
+
+```text
+dy, chy, chodaiin, qokeedy, daiin, choaiin, ykey, chol
+```
+
+Only one begins with `q`. This makes two simple readings untenable:
+
+```text
+DY = sentence-final full stop             too strong
+DY mechanically requires following q      false in this sample
+```
+
+The useful workshop rule is instead:
+
+```text
+DY = finish or checkpoint the current local cell;
+     the record may stop, continue on the same line,
+     or continue on a later physical line.
+```
+
+In the invented practical paraphrase, `DY` is closest to a tiny **done/next
+notch** rather than a spoken word. It could be read operationally as “this
+entry is complete” while leaving the containing procedure open. The doubled
+`dy dy` at f10r.3 is then compatible with two adjacent closed slots, although
+that particular explanation is especially weak.
+
+This also sharpens the renderer model. `q` may be favoured in some post-DY
+constructional states, as the main project found, but it is a stochastic or
+licensed realization rather than the literal successor of every written
+`DY`. An apprentice learns where a completed cell permits the next registered
+form, not the deterministic string rewrite `DY -> Q`.
+
+Thus the working hierarchy becomes:
+
+```text
+physical line       available writing packet
+DY                   local cell checkpoint
+paragraph/record     larger continuing instruction or entry
+```
+
+The invented gloss “done/next” remains shorthand for this structural behavior,
+not a recovered English meaning or proof that `DY` is punctuation.
