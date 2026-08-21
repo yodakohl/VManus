@@ -3777,3 +3777,71 @@ The grid need not extend to every visible form, and the cells may be
 lexicalized. GDT002's semantic-slot stop and GDT003's string-baseline result
 still block promotion to a demonstrated linguistic paradigm. The sidequest
 uses it only as a compact generative theory for a scribal notation.
+
+## Iteration 49 — the sparse AIIN/EDY/EEDY workshop matrix
+
+The QOK row is not isolated. Mechanical suffix matching in the six-page ZL3b
+sample finds seven visible rows with an AIIN card and at least one EDY/EEDY
+counterpart:
+
+| row | AIIN | EDY | EEDY |
+|---|---:|---:|---:|
+| QOK | `qokaiin` 17 | `qokedy` 18 | `qokeedy` 21 |
+| QOT | `qotaiin` 3 | `qotedy` 3 | `qoteedy` 7 |
+| CH | `chaiin` 2 | `chedy` 22 | `cheedy` 1 |
+| OK | `okaiin` 2 | `okedy` 2 | `okeedy` 3 |
+| OT | `otaiin` 2 | `otedy` 4 | — |
+| LK | `lkaiin` 1 | `lkedy` 3 | `lkeedy` 1 |
+| SOLK | `solkaiin` 1 | — | `solkeedy` 2 |
+
+This is a sparse lookup table, not a complete factorial system. That is a
+feature of the workshop theory: common cells are memorized and analogy is
+limited by licensed exemplars.
+
+EDY and EEDY cannot be dismissed as mere spelling alternatives in the QOK row.
+They co-occur in three loci. Most strikingly, f82r.15 contains all three QOK
+cards:
+
+```text
+kedy | lchedy | qokedy | qokeedy | lkeedy | qokaiin |
+dy | daiin | chdy | dy
+```
+
+The invented matrix columns are now:
+
+```text
+AIIN       registered reference, parameter or input form
+EDY        base completed process/state form
+EEDY       extended, second-stage or marked completed process/state form
+```
+
+The EEDY description is deliberately vague. It may mark duration, grade,
+iteration, a second state, a different renderer or a conventional whole-form
+contrast. No number value is assigned.
+
+The generative workshop rule becomes:
+
+```text
+CELL := [licensed pickup/head] + REGISTERED_ROW + REGISTERED_COLUMN
+
+ROW     := QOK | QOT | CH | OK | OT | LK | SOLK | ...
+COLUMN  := AIIN_REFERENCE | EDY_BASE_DONE | EEDY_MARKED_DONE
+```
+
+Not every Cartesian combination exists. An apprentice learns the frequent
+rows as a table and creates a new combination only by close analogy or from an
+exemplar.
+
+A bold f82r.15 paraphrase is:
+
+> Record the K and LCH completed cells; enter the base and marked QOK states,
+> then the marked LK state and the QOK reference setting. Checkpoint the row,
+> enter the general reference, record CH, and checkpoint again.
+
+The literal meanings of K, LCH, QOK, LK and CH are entirely unknown. The value
+of the paraphrase is that it reads the packet as a sequence of table cells,
+not as ten unrelated word-like tokens.
+
+This matrix is the strongest current sidequest account of apparent word
+composition. It remains a generative notation hypothesis, not evidence that
+the rows are lexemes or that the columns are linguistic morphemes.
