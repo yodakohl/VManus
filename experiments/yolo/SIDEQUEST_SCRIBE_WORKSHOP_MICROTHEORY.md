@@ -3006,3 +3006,44 @@ Biological prose; hand 4 supplies both circle pages. The census therefore does
 not separate scribal dialect from document register and does not establish the
 invented value, checkpoint, relation or procedural readings. It only makes the
 small-workshop learning model more concrete.
+
+## Iteration 35 — the first teachable contrast: `AIIN` versus `D-AIIN`
+
+The narrowest useful master-card contrast is the exact pair:
+
+```text
+AIIN      19 occurrences; 0 line-initial, 3 line-final
+DAIIN     23 occurrences; 4 line-initial, 1 line-final
+```
+
+Both occur in all three selected hands. `AIIN` repeatedly follows short forms
+such as `s`, `or`, `ar` and `sar`; `DAIIN` can itself open a line and often
+precedes another constructional cell. The contrast is not absolute, but it is
+simple enough to teach:
+
+```text
+AIIN       bare parameter/reference cell
+D-AIIN     entered, activated or instruction-ready form of that cell
+```
+
+In the invented practical reading, the least committal paraphrase is:
+
+```text
+AIIN       “the registered item/value”
+DAIIN      “enter/take/set the registered item/value”
+```
+
+“Value” may mean quantity, grade, duration, catalogue index or something else;
+the sidequest does not choose among them. The important hypothesis is
+constructional rather than lexical: `D` licenses the same familiar cell in a
+more active or entry-like slot.
+
+This would be easy for an apprentice because it is learned as one paired card,
+not as a universal rule over every possible host. Other `D+X` forms can arise
+by analogy, but they need not all have the same interpretation. The adjacent
+`daiin aiin` on f67r2.43 and `aiin daiin` on f55v.12 also warn that the two
+forms are not freely interchangeable spellings.
+
+This remains an invented workshop convention. The positional skew is small,
+the six-page selection is not an independent test, and GDT003 already prevents
+promotion of a productive linguistic morphology from such formal pairs.
