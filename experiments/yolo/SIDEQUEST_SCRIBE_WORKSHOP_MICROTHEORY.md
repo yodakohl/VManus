@@ -5601,3 +5601,50 @@ This reconciles long cross-line statements with strong line-entry effects.
 Paragraph/module boundaries may still reflect source organization; physical
 line endings mostly reflect available width. Local labels remain separate
 because their ownership comes from diagram geometry, not prose proximity.
+
+## Iteration 88 — immersion to local application: the women's-regimen fork
+
+The three Biological images admit a page-order interpretation that is more
+specific than generic “water” but still does not require anatomical pipes:
+
+| page | dominant visible treatment topology | bold record family |
+|---|---|---|
+| f81v | many female figures sharing one enclosed green pool | collective/full-body immersion regimen |
+| f82r | individual vessels or sources plus a large shared pool and many local labels | bath/source catalogue with alternative applications |
+| f83r | individual containers, arcs, conduits, returns and sprays | localized delivery, washing, fumigation or apparatus specification |
+
+This visual progression fits two historically available packages. Illustrated
+*De balneis* witnesses show nude bathers in open pools, bath buildings and
+thermal sources, and describe the names and therapeutic virtues of particular
+baths. The *Trotula* women's-medicine tradition prescribes baths, steam or
+fumigation apparatus and herb-infused water for several female conditions; a
+late-medieval Dutch witness even illustrates fumigation pots and stools. A
+modern scholarly overview of medieval bathing notes uses for female and male
+infertility, vaginal conditions, newborn care and cosmetics
+(<https://pureadmin.qub.ac.uk/ws/portalfiles/portal/608361877/Pages_from_The_elements_in_the_medieval_world_interdisciplinary_perspectives_WATER.pdf>),
+while Monica Green's edition establishes the *Trotula* as an ensemble of three
+independent works rather than one unitary authorial treatise
+(<https://www.jstor.org/stable/j.ctt3fht4s>).
+
+The leading low-confidence subgenre is therefore a **women's bathing and local
+application regimen**, embedded in the broader medical handbook. It explains
+why female figures, medicinal simples, process-heavy prose and astro-medical
+lookup tables could coexist. It also makes the f83 OL-rich local labels and
+SOL-headed apparatus lines practical rather than cosmological.
+
+But the alternatives stay live. The figures could be conventional nymphs or
+personified states; the pools could be cosmological or physiological rather
+than therapeutic; the conduits need not depict literal plumbing; and the
+selected pages show neither readable disease names nor an unambiguous birth,
+uterus, dose or treatment result. Thus the hierarchy is:
+
+```text
+illustrated practical/medical handbook       leading overall genre
+bath/source/apparatus records                leading Biological function
+women's-health or fertility regimen          useful but weak subgenre fork
+specific gynecological diagnosis/treatment   not identified
+```
+
+No woman in the picture is assigned an individual patient identity. The
+repeated figures may be alternative procedures, stages, exemplars or simply
+diagram occupants.
