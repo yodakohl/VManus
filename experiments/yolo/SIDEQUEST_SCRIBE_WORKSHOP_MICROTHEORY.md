@@ -19,7 +19,7 @@ The image was not opened or forwarded, no transcription/formal value was
 exposed, and the result is excluded from every inference. No further `f84` or
 `f84r` access is authorized.
 
-## Current synthesis after Iteration 146
+## Current synthesis after Iteration 148
 
 The leading reconstruction is a **hybrid abbreviated language + technical
 codebook** used for an illustrated practical/medical workshop miscellany. A
@@ -49,7 +49,10 @@ DY-closed field and the second exact tuple opens the following field. The
 all-reading-stable surface sequence `DY | DAIIN` crosses Herbal-A/hand 1 and
 Biological-B/hand 2, but GDT327 parses it as consecutive `D:Y` and `D:AIIN`
 cards, not as a closure followed by a value. Its old checkpoint reading is
-withdrawn. The strongest content-system guesses remain local. More importantly,
+withdrawn. The strongest phrase-level construction is now exact latent
+`Y–AIIN–Y`: it alone among all contiguous 3/4-card paths recurs across two fixed
+pages, rendered as `CHY TAIIN SHY` on f10r and `CHEY DAIIN CHEY` on f83r.
+The strongest content-system guesses remain local. More importantly,
 Herbal `CHOL` and Biological `OL` can be the same exact O-framed L card under
 different observed wrappers; they may not receive different meanings.
 That shared card remains a broad relation/classification candidate, and
@@ -7687,3 +7690,57 @@ This version explains more of the ten pages with fewer assumptions than every
 earlier dictionary. Its central missing object is no longer “the alphabet” but
 the **card ledger**: the mapping from exact portable and register-local cards to
 source concepts or technical values.
+
+## Iteration 147 — `Y–AIIN–Y` is the only cross-page exact 3/4-card phrase
+
+An exhaustive contiguous scan of every GDT327-covered line on the seven fixed
+prose pages finds exactly one three- or four-card path recurring on two physical
+pages:
+
+```text
+Y-card -> AIIN-card -> Y-card
+```
+
+It occurs twice, on f10r and f83r. No exact four-card path crosses pages. The
+triplet is not tied to one absolute field position: on f10r it occupies the
+tail of a long Herbal field; on f83r it begins a Bio field and is followed by a
+closing card.
+
+This makes it a better construction candidate than a random attractive bigram.
+It survives wrapper replacement, section change and field-placement change.
+It is also the maximum available evidence: two occurrences do not identify
+bracketing, agreement, value, reference or meaning. The working phrasebook
+should therefore contain exactly one renderer-invariant multi-card formula,
+not a growing atlas of post-hoc phrases.
+
+## Iteration 148 — the register-local tail is a Bio state deck
+
+Among exact cards occurring at least three times in the covered fixed prose but
+in only one of the two registers, Herbal supplies only two types: a four-event
+page-local O-card and a three-event/two-page OKCHY card. Biological supplies
+sixteen such types. Its leaders are:
+
+| Bio-private exact card family | events | fixed folios | structural behavior |
+|---|---:|---:|---|
+| E-close | 12 | 3 | position-pure closing card |
+| OKEE-close | 10 | 2 | position-pure closing card |
+| OKE-close | 8 | 2 | position-pure closing card |
+| LCHE-close | 8 | 2 | position-pure closing card |
+| OKEEY | 7 | 3 | open entry/interior card |
+| OK | 7 | 3 | open entry/interior card |
+| CHE-close | 4 | 3 | wrapper-variable closing card |
+| CKHY | 4 | 2 | local open content/state card |
+| OLCHE-close | 3 | 3 | recurrent closed carrier/state card |
+
+The asymmetry is exactly what the leading document theory predicts. Biological
+reuses a technical configuration/state deck across apparatus pages. Herbal
+uses the shared abstract core but leaves more plant-specific identity and
+properties in rare page-local cards or the image itself.
+
+This is the closest the sidequest comes to a stable content vocabulary:
+OKE/OK/LCHE/CHE/CKHY families are very probably **registered Bio technical
+values**. They may represent operations, materials, apparatus classes, body
+applications, qualities, or state results; their English meanings remain
+unrecoverable on the fixed pages. The important gain is knowing which cards to
+look up in a lost Bio phrasebook, rather than treating their surface strings as
+ordinary related words.
