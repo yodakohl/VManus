@@ -5111,3 +5111,83 @@ That favours a flexible construction head over a fixed noun label, while still
 falling short of a verb. The working notation should therefore retain
 `SOL_HEAD(ARGUMENTS...)` and postpone TAKE/APPLY/COMPONENT until an independent
 relation becomes available.
+
+## Iteration 78 — the three Astro pages form a multi-table system, not one copied list
+
+The most attractive numerical bridge must survive a direct inventory check:
+
+```text
+f68r1  29 labelled stars = one documented central + 28 noncentral
+f69v   28 ordered radial entries
+```
+
+If these were simply the same 28 named units rendered twice, shared cards or a
+fixed order would be expected. In the fixed ZL readings, none of the 29 exact
+f68 star-label groups is an exact group in the f69 radial entries. The f68
+array also has no authorial start or direction. This rejects the simplest
+“star map plus identical keyed list” reading.
+
+A more realistic workshop system uses different dimensions:
+
+```text
+f67r2   rule/classification wheel: 12-member system under 7-member system
+f68r1   spatial object or station catalogue around sun/moon references
+f69v    ordered 28-position schedule with a visible parity/alternation channel
+```
+
+The three tables can belong to one astrological toolkit without sharing
+surface identifiers. The 12/7 wheel may choose sign and celestial controller;
+the star field may identify a spatial configuration; the 28 schedule may give
+a daily/station prognosis, permitted action or state. These are semantic
+possibilities, not decoded coordinates.
+
+The historical analogy is strong but nonunique. An Oxford Museum of the
+History of Science late-fifteenth-century medical-astrology instrument combines
+fever prediction, a zodiac scale and a 1–28 scale for lunar mansions
+(<https://www.mhs.ox.ac.uk/astrolabe/exhibition/medical_astrology.html>).
+Late medieval folded almanacs were likewise designed in part for medical
+practitioners
+(<https://research-information.bris.ac.uk/en/publications/astrological-medicine-and-the-medieval-english-folded-alihanac/>).
+This makes a 7/12/28 medical timing apparatus plausible, but it does not make
+f69 a lunar-mansion list or connect any Voynich card to a mansion.
+
+The strict f69 LONG/SHORT alternation is best read as a parity or two-column
+scaffold, not GOOD/BAD. Alternating layout can help a copyist track odd/even
+slots. The actual written card then supplies the variable result. Since the
+text does not distinguish LONG from SHORT, the geometry already carries the
+binary bit and no redundant marker is needed.
+
+## Iteration 79 — bold Astro paraphrase and medical use
+
+The strongest complete but explicitly speculative reading is:
+
+### f67r2
+
+> Choose the relevant one of twelve cyclic classes and the governing one of
+> seven celestial classes. Read the associated short rule cards and consult the
+> surrounding legend for how to combine them.
+
+### f68r1
+
+> Identify the individual star/station or observed configuration relative to
+> the sun and moon. Record one compact identifier/attribute card beside each
+> object; use the upper prose as the catalogue legend.
+
+### f69v
+
+> For each of twenty-eight ordered stations/days, follow the alternating slot
+> scaffold and read the assigned state, prognosis or permitted-action card.
+> Repeated `OKEOD` means that the same result recurs at several positions. The
+> outer text explains how those value cards are used.
+
+In the unified medical manual, these pages could answer “when, under which
+celestial configuration, is the plant/bath procedure selected, avoided or
+modified?” They might instead be ordinary astronomical, calendrical or magical
+tables bound with medicine. The ten pages do not decide. The useful advance is
+the division into **selection wheel, spatial catalogue and ordered schedule**,
+which explains their different recurrence patterns without pretending all
+labels are names.
+
+The zero f68↔f69 exact-card overlap and failed f69 lag-14 test remain central
+falsifiers. Any later attempt to claim a direct lunar table must explain both
+rather than relying on the attractive number 28.
