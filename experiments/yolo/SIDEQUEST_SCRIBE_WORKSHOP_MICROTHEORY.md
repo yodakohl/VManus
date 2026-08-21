@@ -7982,3 +7982,35 @@ data than one universal vocabulary. It also makes a testable historical
 prediction for additional pages: pages by the same hand/register should share
 more exact card identities and closure habits even when their pictures differ,
 while exact local closers need not transfer.
+
+## Iteration 157 — the historical control favors a practical miscellany
+
+The manuscript comparison already assembled in Iterations 65 and 118 gains a
+production-side control from Erin McCarthy's study of late-medieval practical
+books. The surveyed miscellanies range from commissioned professional volumes
+through semi-professional copies to organically accumulated household and
+practitioner books. Medical material often forms the backbone, but calendars,
+prognostics, recipes, agriculture, crafts, inks and other useful knowledge can
+coexist; repeated or closely related practical texts recur across collections.
+
+This supports three modest parts of the work theory:
+
+- heterogeneous useful knowledge can be one working book rather than one
+  unified treatise;
+- register changes can reflect source blocks and production circumstances;
+- copying exemplars and adding local practical material are historically
+  ordinary behaviors.
+
+It also weakens the most ambitious content synthesis. The ten pages need not
+be one tightly integrated WHAT/HOW/WHEN doctrine merely because herbs,
+apparatus-like scenes and circles share a codex. A practical workshop
+miscellany remains the leading genre; WHAT/HOW/WHEN is a coherent secondary
+fork.
+
+The comparison does **not** attest a Voynich-like private card ledger. That
+part is an abductive explanation of the internal exact-card/rendering evidence,
+not a known medieval parallel. Relevant controls remain the British Library
+catalogues for [Add MS 29301](https://searcharchives.bl.uk/catalog/032-002020783)
+and [Harley MS 1736](https://searcharchives.bl.uk/catalog/040-002047567), plus
+the scholarly practical-book comparison [“Here Is a Good Boke to
+Lerne”](https://www.cambridge.org/core/journals/journal-of-british-studies/article/here-is-a-good-boke-to-lerne-practical-books-the-coming-of-the-press-and-the-search-for-knowledge-ca-14001560/8217EBC4F6CE53F1084709587B7C2E12).
