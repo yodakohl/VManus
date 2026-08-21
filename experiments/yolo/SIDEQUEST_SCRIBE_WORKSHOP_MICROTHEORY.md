@@ -3140,3 +3140,57 @@ lexicalized irregularity expected in a small workshop shorthand.
 The repeated `OR OR` can be imagined as two relation slots, a repeated link, or
 two separately copied codes. It is not enough to call `OR` “and”, and the
 sidequest leaves that choice open.
+
+## Iteration 38 — page-template pickup keys
+
+The first visible family of a locus differs sharply by page. The most useful
+comparison holds hand 2 constant:
+
+| page | loci | Q | S | D | O | Y | other |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| f55v | 12 | 2 | 0 | 1 | 4 | 3 | 2 |
+| f82r | 45 | 9 | 6 | 9 | 10 | 0 | 11 |
+| f83r | 55 | 5 | 28 | 7 | 6 | 0 | 9 |
+
+The same hand therefore produces no S-initial locus on f55v but an S-initial
+majority on f83r. This is better modeled as a page/construction template than
+as a personal scribal dialect or one ordinary content word.
+
+There is also a local architectural contrast on f82r. Its ten O-initial loci
+average only 2.1 groups, whereas its other powered initial families average
+roughly 5.2--9.1 groups. O-initial material there is strongly associated with
+compact entries. This need not generalize to every page.
+
+The invented apprentice card now contains five **pickup modes**:
+
+```text
+O    open or neutral compact entry
+S    resume the locally active construction at a new locus/line
+D    enter or assert the first registered cell
+Q    attach the new packet to a licensed preceding/checkpoint state
+Y    select an indexed or register-local entry type
+```
+
+These are deliberately operational descriptions, not word meanings. A scribe
+chooses the pickup mode demanded by the page template and then copies the
+appropriate complete cells. The same content cell may consequently surface
+under different pickup modes without requiring five different lexical senses.
+
+This yields a learnable production routine:
+
+```text
+1. identify the page/record template;
+2. choose its licensed pickup mode;
+3. copy or adapt the next complete cell sequence;
+4. mark local cell completion with DY where required;
+5. continue across physical lines until the larger record closes.
+```
+
+The circle pages are not treated as ordinary prose lines in this comparison:
+their f67r2/f69v loci are array or radial inscription slots. Their strong O/Y
+opening profiles may use the same pickup inventory, but that is only an analogy
+until slot and prose behavior are compared on equal structural units.
+
+The concrete labels open, resume, enter, attach and select remain invented.
+The observed result is only that opening-family choice is strongly local to
+page/construction type even within one hand.
