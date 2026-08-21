@@ -2102,3 +2102,137 @@ Circle       QOKEEDY = execute/record the slot's grade-2 state
 This is exactly the hybrid hypothesis: a small shared technical algebra plus
 page-local vocabulary and image-supplied referents, not one universal English
 word per Voynich group.
+
+## Iteration 26 — what an apprentice scribe could actually learn in 1420
+
+The theory must be learnable without statistics. A workshop scribe does not
+know HPR2 coordinates or 1,676 abstract joint tuples. The useful empirical clue
+is that 53 recurrent tuple types occur in all five powered registers and cover
+about 45.4% of their events. The workshop can therefore have a small common
+phrasebook plus register-specific additions.
+
+### The imagined teaching sequence
+
+An apprentice could learn the system in five stages:
+
+```text
+1. Learn the small pen-stroke/glyph inventory.
+2. Memorize roughly fifty common complete forms as indivisible shorthand.
+3. Learn four or five paragraph templates by copying model pages.
+4. Learn a limited set of licensed variants around those complete forms.
+5. Add the local plant, recipe, apparatus, or astronomical lookup list.
+```
+
+The system is **analogical but not freely generative**. This is important.
+GDT003 found much formal compatibility but no advantage over strong string
+statistics on unseen folios, and later work retained exact joint tuples rather
+than freely recombining their apparent coordinates. In the workshop story the
+scribe writes from remembered exemplars:
+
+```text
+known complete form
+    + one familiar positional/rendering alteration
+    + page-local value
+```
+
+He does not mechanically combine every possible prefix, host, and suffix.
+That produces the observed mixture of obvious families, forbidden-looking
+combinations, fossilized irregularities, and large register-local tails.
+
+### The pocket grammar
+
+The whole practical grammar could fit on one teaching leaf:
+
+```text
+A. The image or paragraph opening establishes the subject.
+B. Do not repeat that subject unless it changes.
+C. Each physical line adds one bounded packet to the current record.
+D. Carry the current state across line breaks until paragraph closure.
+E. Use an entry form to show whether a packet starts, resumes, or activates.
+F. Use a known process/value form; modify it only by licensed analogy.
+G. End a local field with its conventional checkpoint form.
+H. End the complete instruction at the paragraph boundary.
+```
+
+The provisional signs in the sidequest phrasebook become workshop actions,
+not dictionary words:
+
+```text
+s-form at line entry     open/reset a packet
+q-form after checkpoint  reactivate/continue a licensed construction
+d-form                   bind/set the following local value
+ch/che-form              qualify or prepare a local item/state
+o/ot-frame               select a carrier/process frame
+I/E repetitions          choose a grade in a small value series
+DY                       close or commit a local field
+AM family                retain a line-edge/local checkpoint state
+paragraph end            close the complete record
+```
+
+Only the first two renderer tendencies have solid formal backing in the main
+project. The remaining functions are the invented scribe model.
+
+### How several scribes remain mutually intelligible
+
+The workshop needs shared conventions but permits personal hands:
+
+```text
+shared:
+    paragraph templates
+    common complete-form phrasebook
+    order of process/value/carrier/checkpoint fields
+    diagram ownership conventions
+
+scribe-specific:
+    stroke shape and ligature
+    preferred abbreviation length
+    which optional checkpoint is written
+    local spelling/rendering variants
+    density of explicit versus inherited information
+```
+
+A new scribe copies several approved model records before contributing pages.
+He can read another hand because the construction order and common formulae
+are stable even when the surface rendering differs.
+
+### Currier A and B as learnable workshop registers
+
+The simplest workshop explanation is not two unrelated languages:
+
+```text
+COMMON CORE       shared shorthand and record mechanics
+REGISTER A        slower descriptive/catalogue expansion
+REGISTER B        denser procedural/checkpoint expansion
+SPECIAL CIRCLES   compact slot-table expansion
+```
+
+A scribe may specialize in one register, explaining hand/register
+concentration, while still recognizing the common core. Recipe/Stars and
+Herbal B look related because both favor the denser practical expansion.
+
+### What this predicts inside the sidequest
+
+If the theory is coherent, then:
+
+1. Common forms should concentrate at structurally important packet positions.
+2. Rare local forms should be surrounded by familiar common scaffolding.
+3. A paragraph should remain readable after replacing rare forms with blanks:
+   its process/parameter/checkpoint skeleton should survive.
+4. Different scribes should vary more in surface realization than in paragraph
+   architecture.
+5. Apparent morphology should be productive only near frequent exemplars, not
+   across the full theoretical grid.
+
+These predictions fit the existing broad results much better than a perfectly
+regular cipher or a freely productive agglutinative language.
+
+### Leading historical picture
+
+The current best imaginative reconstruction is a small technical workshop
+around 1420 using a private or school-specific shorthand. Masters maintain
+model leaves and local lookup lists; scribes encode illustrated plant,
+preparation, apparatus, and calendar records using a shared packet grammar.
+The system may abbreviate natural-language source notes, but its final page is
+closer to a technical register than ordinary prose. It is learnable because
+most grammar is construction order and recurrence, while difficult local
+content is copied from exemplars rather than generated from first principles.
