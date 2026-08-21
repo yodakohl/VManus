@@ -1,7 +1,7 @@
 # Voynich current route
 
-Updated: 2026-08-21. Use `experiments/EXPERIMENT_INDEX.tsv` for primary reports; consult the
-active state and ledger only for claim-detail audits or historical reconstruction.
+Updated: 2026-08-21. Use `experiments/EXPERIMENT_INDEX.tsv` for primary reports; consult the active state and ledger only for claim-detail audits or historical reconstruction.
+Noncanonical ten-page sidequest: `experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_CURRENT.md`.
 
 ## Scientific ceiling
 

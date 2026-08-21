@@ -1,5 +1,10 @@
 # YOLO sidequest: ten-page scribe-workshop microtheory
 
+> **ARCHIVE / RECOVERY ONLY.** The compact authoritative current theory is
+> [`SIDEQUEST_SCRIBE_WORKSHOP_CURRENT.md`](SIDEQUEST_SCRIBE_WORKSHOP_CURRENT.md).
+> Read and update that file by default. Do not load or extend this chronological
+> archive unless auditing a specific historical iteration.
+
 Status: **deliberately speculative, post-hoc, and non-confirmatory**.
 
 This is not a GDT result and does not modify any canonical claim. It asks what
