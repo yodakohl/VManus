@@ -8,7 +8,10 @@ make the current VManus grammar intelligible. The sample is fixed here to two
 approximately comparable Herbal pages (`f10r`, Currier A; `f55v`, Currier B),
 two biological pages (`f82r`, `f83r`), and two circle/astronomical pages
 (`f67r2`, `f69v`). ZL3b is used for the displayed surface; reading uncertainty
-is retained where it matters. `f84` and `f84r` were not accessed.
+is retained where it matters. The initial six-page pass did not access `f84`
+or `f84r`. During Iteration 4, a direct scan of a mixed result table
+unintentionally displayed one `f84v` row; it was excluded from the inference
+and is disclosed in the ledger. No `f84r` row was accessed.
 
 ## Rapid iterations
 
@@ -90,9 +93,9 @@ The right column is an intentionally aggressive guess, not a translation.
 
 The least bad content guesses are deliberately abstract:
 
-- `AROL`: **referenced unit/branch/item**, not water. This permits its reuse in
-  plants, pharma, and diagrams. It may also be merely a frequent local address
-  family whose value is rebound by page profile.
+- `AROL`: initially **referenced unit/branch/item**; Iteration 4 below sharpens
+  this to a possible course/carrier category. It may also be merely a frequent
+  local address family whose value is rebound by page profile.
 - `AIIN`: an **index/quantity-bearing value**, because it occurs both as a host
   and a right family. No number is assigned.
 - `OK/OKEE/OKCH`: a broad family of **standard local entries/states**. The
@@ -206,7 +209,8 @@ The second form is transcription-uncertain (`sasoldal` in ZL3b versus
 `saroldal` in IT2a/RF1b). The attractive reading is therefore only that two
 parallel structures receive two related *catalogue addresses*. Their shared
 part identifies a local class; the edges distinguish relation/entry and
-variant. `AROL = water` remains excluded by plant-label counterexamples.
+variant. Only the rigid equation `AROL = WATER` is excluded; a water-, sap-,
+or conduit-related construction can occur beside plants as well as apparatus.
 
 ### Astronomical/circle — f67r2
 
@@ -315,3 +319,59 @@ catalogue/process notebook with page-local addresses and a shared scribal
 compiler**, possibly carrying compressed natural-language residue inside some
 addresses. On these six pages, that theory makes more coherent sense than a
 word cipher, a clean agglutinative language, or a pure nomenclator.
+
+## Iteration 4 — allow water in plant records
+
+The original wording made the plant-label counterexamples do too much work. A
+plant illustration can perfectly well be accompanied by a note about water,
+sap, juice, soaking, irrigation, root uptake, or a conduit-like stalk. The
+counterexamples exclude only the rigid equation `AROL = WATER`.
+
+Three competing readings were compared informally:
+
+1. **AROL = a water/fluid noun.** This fits `darol` beside the f82r waterfall,
+   the f75v pond context, and `orarol` in front of Rosettes tubes. It becomes
+   strained in circular contexts and does not explain why the form changes at
+   its edges.
+2. **AROL = a plant stem/branch.** This fits `sarol` near a stalk on f102v2,
+   `darolaly` near a stem on f99v, and longer AROL labels below leaves. It fails
+   to generalize naturally to waterfalls, tubes, and circular diagrams.
+3. **AROL = a course/carrier/connection.** This can be realized physically as
+   a stem or sap path in a plant, a pipe/watercourse in an apparatus, and a
+   connection/orbit in a circle. It explains the cross-domain distribution
+   with one abstract workshop category.
+
+Version 3 is the new leading guess. The microlexicon becomes:
+
+```text
+AR       ≈ transmitted/circulating content or active connection class
+OL       ≈ carrier/path/axis construction
+AROL     ≈ connected carrier, course, conduit, stalk-path, branch-path
+d+AROL   ≈ active/outgoing/delivery course
+s+AROL   ≈ source/incoming/standing course
+AROL+SY  ≈ course with endpoint/status variant SY
+AROL+DAL ≈ course with endpoint/status variant DAL
+```
+
+This is deliberately bolder than the evidence. In particular, no controlled
+visual test has established the proposed `d/s` polarity, and `AR + OL` need
+not be the true synchronous segmentation. But it gives a useful workshop
+reading of the f82r/f83r labels:
+
+```text
+f82r  darol       "delivery/outgoing conduit"
+f83r  darolsy     "delivery conduit, endpoint/status SY"
+f83r  saroldal    "source/return conduit, endpoint/status DAL"
+```
+
+The last surface is reading-sensitive. The paraphrases are therefore not
+translations; they are the most economical explicit design values for a
+scribe trying to make related apparatus labels while retaining the plant
+occurrences.
+
+Under this revision, the plant pages need not contain only botanical names.
+Their records may mix specimen identity with functional observations such as
+root uptake, sap-bearing stalks, expressed juice, soaking, or preparation.
+This strengthens the overall **technical notebook** interpretation: the same
+formal course/carrier category can be reused across living plants, vessels,
+channels, and astronomical paths without requiring the same concrete object.
