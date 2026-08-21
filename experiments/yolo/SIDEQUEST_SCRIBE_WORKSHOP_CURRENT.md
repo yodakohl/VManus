@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-21, after V19 complete four-page Herbal reconstruction.
+Updated: 2026-08-21, after V20 Herbal/Biological bridge-deck refinement.
 
 Status: **speculative working theory, not a GDT result and not a
 translation**. This file is the compact authoritative entry point for the
@@ -775,6 +775,30 @@ plantain/broad-leaf f55v and a spiny or glandular wet-heath f56r. Narrow species
 names remain deliberately weaker than the article mechanisms. Full rationale
 is in `sidequest_theory_candidates_v19/V19_THEORY_SELECTION.md`; validation is
 `PASS` in `V19_VALIDATION.json`.
+
+## V20 cross-register bridge deck
+
+Seventeen exact cards occur in both the fixed Herbal and Biological pages and
+carry 136 events. Reading every occurrence preserves 13 V18/V19 defaults and
+sharpens four vague phrases across 23 events:
+
+```text
+CHTY      work it until evenly homogeneous
+QOKAIIN   begin the next measured entry
+AL/DAL    apply it at the place indicated by the drawing
+OTCHEY    take the final indicated share
+```
+
+This yields a compact common workshop mini-language: begin entry, identify the
+present portion, state measure, reuse the same batch, combine, mix, work until
+homogeneous/clear/ready, keep warm, apply at the pictured place and close. The
+picture or register supplies the plant, vessel, channel or application site;
+rare cards supply local article content.
+
+The AL/DAL action remains the riskiest change: a pure location relation is its
+live rival. CHTY remains distinct from exact CTHY, which retains “when the
+preparation is ready.” The full 569-entry/776-event dictionary is regenerated
+in `sidequest_theory_candidates_v20/`; validation is `PASS`.
 
 ## Generative model
 
