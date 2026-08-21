@@ -3898,3 +3898,107 @@ licensed functions, and the exact external content of AIIN and OL is unknown.
 The advance is the detachable operator behavior plus a single economical
 functional interpretation that links free/bound spelling, line reset and state
 inheritance.
+
+## Iteration 51 — one compiler, three image-bound technical registers
+
+Direct review of the already repository-bound official Yale views sharpens the
+sidequest at page level:
+
+```text
+f82r/f83r    containers, tubes, bathing figures, streams and transitions
+f67r2/f69v   radial/cyclic arrays with repeated inscription opportunities
+f10r/f55v    a depicted plant supplies the page-level physical subject
+```
+
+This licenses a hybrid workshop system:
+
+```text
+shared formal compiler
+    pickup modes
+    registered row × AIIN/EDY/EEDY cell type
+    DY local checkpoints
+    free/bound renderer choices
+    literal X X duplication
+
+register-local binding
+    Herbal: depicted plant + preparation/carrier/setting record
+    Biological: body/apparatus + liquid/process/state record
+    Circle: cyclic slot + parameter/state record
+```
+
+### Herbal sidequest reading
+
+The image supplies “this plant” without requiring a repeated plant name. The
+text may concentrate on what the workshop needs to do with it:
+
+```text
+DAIIN/AIIN       enter or reuse quantity, grade or preparation setting
+OL               carrier or medium, plausibly including water
+DY               finish the current local preparation cell
+row matrix       select registered preparation/state variants
+```
+
+Thus a broad page paraphrase can be:
+
+> For the depicted plant, record the prescribed settings and carrier; perform
+> the listed preparation cells, retaining or replacing values as marked.
+
+### Biological/bathing sidequest reading
+
+The visible containers, tubes, baths, emissions and linked bodies make a
+procedural or balneological register plausible:
+
+```text
+SOL              apply, treat, wash, bathe, pour or process
+OL               bath/liquid/carrier/channel content
+AIIN              amount, grade, duration or registered setting
+EDY/EEDY          base versus marked/extended process state
+Q                 link a homologous next process cell
+S                 retain the currently active setting across a packet boundary
+```
+
+A broad paraphrase is:
+
+> Apply the registered treatment through the depicted vessel or bodily path,
+> using the indicated medium and setting; preserve, replace or repeat local
+> states according to the copied cells.
+
+Water is visually plausible here, but OL still need not lexically mean water.
+The illustration may supply the liquid/bath interpretation while OL specifies
+only a formal carrier slot.
+
+### Astronomical/circle sidequest reading
+
+The same compiler can be reused without action semantics:
+
+```text
+array position    supplies cyclic order and object ownership
+AIIN              slot reference or parameter value
+EDY/EEDY          alternative slot states or marked columns
+D/S               set a new value versus carry the current value
+X X               repeat the same value in the adjacent opportunity
+```
+
+A broad paraphrase is:
+
+> At each radial position, enter the registered parameter or carry the previous
+> one; select the appropriate base or marked state and repeat a cell where two
+> adjacent positions share it.
+
+### Leading sidequest architecture
+
+This is now more coherent than either ordinary prose or a pure codebook alone:
+
+```text
+HYBRID TECHNICAL SHORTHAND
+= image-bound silent subject
++ sparse tabular codebook
++ construction heads and carry operators
++ layout-sensitive free/bound rendering
++ limited natural-language-like sequencing
+```
+
+The same visible form need not have one external referent in every register.
+What transfers is the compiler role; the illustration, page template and local
+row table supply the content binding. This explains why universal gloss mining
+has repeatedly failed while formal construction order remains strong.
