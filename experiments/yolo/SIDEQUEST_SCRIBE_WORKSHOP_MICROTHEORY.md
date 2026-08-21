@@ -375,3 +375,142 @@ root uptake, sap-bearing stalks, expressed juice, soaking, or preparation.
 This strengthens the overall **technical notebook** interpretation: the same
 formal course/carrier category can be reused across living plants, vessels,
 channels, and astronomical paths without requiring the same concrete object.
+
+## Iteration 5 — one practical workflow across the six pages
+
+The most coherent manuscript-level guess is no longer merely “technical
+catalogue.” It is a **medical/pharmacological and balneological workshop book
+with an astronomical scheduling layer**:
+
+```text
+HERBAL A     raw material/specimen identification and properties
+HERBAL B     preparation, quantity, carrier and derived-state records
+BIOLOGICAL   apparatus, flow, bathing/application and process diagrams
+ASTRO/CIRCLE timing, cycle, condition and lookup tables
+```
+
+This does not require every section to be prose or every drawing to illustrate
+the adjacent record exactly. The workshop can reuse one compiler while loading
+a different local address table for plants, preparations, apparatus and
+cycles.
+
+### More aggressive functional lexicon
+
+| Form | Iteration-5 guess | Intended breadth |
+|---|---|---|
+| `s-` | start/resume a record | entry control, not content |
+| `q-` | then/next/linked step | continuation control |
+| `d-` | take from/apply to/through | generic directed relation |
+| `ch-` | describe or qualify | ordinary property construction |
+| `che-` | prepare/transform/qualified state | process-like construction |
+| `sh-` | resulting or standing state | state/result construction |
+| `t-` | marked action/instruction | rare action-head candidate |
+| `Y` | local pointer/index carrier | “this/entry n” without a number value |
+| `AIIN/AIN` | amount, count, dose, or table index | value slot |
+| `OL` | carrier/base/path | liquid, stalk, tube, or formal carrier |
+| `AROL` | conducting course/carrier | sap path, tube, watercourse, orbit |
+| `OK/OKEE` | standard operation/state family | perhaps continue, circulate, prepare |
+| `AL/AR` | paired input/output or state variants | no direction assigned |
+| `SY/DAL/DAR` | endpoint/condition variants | compact label discrimination |
+| `DY` | complete the current field | punctuation-like compiler state |
+| `B3` | complete the record | stronger terminal state |
+
+The most useful new guess is `Q+OKEE+DY ≈ THEN CONTINUE/PROCESS;`. It is a
+very common, highly reusable closed cell and repeats several times in dense
+Biological records. This need not mean one ordinary word. It can be a compiled
+instruction cell.
+
+### Reverse-generating f55v.11
+
+Start from an invented workshop record:
+
+```text
+ITEM YK, VALUE AIIN
+PREPARE/QUALIFY O with variant AR
+PREPARE/QUALIFY EKY
+CARRIER L; CLOSE FIELD
+VALUE AIIN, STANDARD-STATE AL, CARRIER OLTCHY, VALUES OR/Y/OR-AIN
+```
+
+Apply the guessed compiler:
+
+```text
+YK+AIIN | CHE+O+AR | CHE+EKY | O+L+DY
+// AIIN | OK+AL | OLTCHY | OR | Y | OR+AIN
+```
+
+This yields the observed line:
+
+```text
+ykaiin | cheoar | cheeky | oldy // aiin | okal | oltchy | or | y | orain
+```
+
+The result reads naturally as a plant-linked preparation record even though
+the page carries a plant illustration. The picture can identify the raw
+material while the text specifies extraction, carrier, amount, or use.
+
+### Reverse-generating f82r.27
+
+Treat the seven closed fields as a process path rather than seven words:
+
+```text
+pchedy
+// rsheal | daldy
+// qokeedy
+// rshedy
+// qoteedy
+// qokeedy
+// lochedy
+```
+
+Provisional workshop paraphrase:
+
+> Establish the PCHE state. Pass RSHE through variant AL and close. Then
+> continue/circulate. Set the RSHE state. Then use the marked EE treatment.
+> Continue/circulate again. End in the LOCHE receiver/state.
+
+This is the first speculative reading that makes repeated `qokeedy` useful:
+it acts like a recurrent process instruction or continuation checkpoint. The
+large number of one-cell DY fields becomes expected in a diagram-associated
+procedure.
+
+### Reinterpreting the circle pages
+
+Under the unified workflow, f67r2 and f69v need not contain names of planets
+or lunar days. They can be lookup keys used by the preparation/application
+records:
+
+- the seven-member set selects one of seven celestial/time conditions;
+- the twelve-member set selects a larger cycle class;
+- the 28-spoke f69v wheel supplies daily/nightly or phase-indexed conditions;
+- strict LONG/SHORT alternation is an alternating table channel, perhaps two
+  classes of entry, not a decoded word feature.
+
+The bolder semantic paraphrase is:
+
+> choose material → prepare it through a carrier/process → apply or circulate
+> it under a selected cyclical condition → close the record.
+
+That is not yet a translation, but it is a concrete end-to-end purpose that
+lets the same formal grammar do useful work in all six sampled pages.
+
+### Current leading reconstruction
+
+```text
+VISIBLE GROUP
+  = render(
+      local item/process code,
+      record operation,
+      carrier/frame,
+      value or condition,
+      closure state,
+      register and hand convention
+    )
+
+VISIBLE LINE
+  = ITEM/HEAD + PROPERTY* + PROCESS* + CONDITION* + CLOSE
+```
+
+The system is therefore plausibly **compressed technical language plus
+notation**, not purely one or the other. Some local codes may abbreviate real
+spoken words; the surrounding construction behaves like a form language.
