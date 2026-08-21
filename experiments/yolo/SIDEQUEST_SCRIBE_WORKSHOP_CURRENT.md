@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-21, after the five-agent theory comparison.
+Updated: 2026-08-21, after the four-agent V2 theory comparison.
 
 Status: **speculative working theory, not a GDT result and not a
 translation**. This file is the compact authoritative entry point for the
@@ -41,13 +41,14 @@ joint-tuple identities.
 
 ## Best current overall theory
 
-The leading reconstruction is now an **exemplar-coded practical register**
+The leading reconstruction is now a **formula-card practical medical register**
 produced by a small workshop around 1420. Ordinary technical language probably
 exists upstream, but the surviving page is not ordinary prose encrypted letter
 by letter. A compiler first omits arguments supplied by picture, register and
 routine, then converts the remainder into learned whole-card abbreviations and
-form slots. A hand/register renderer supplies wrappers, joining, closure and
-physical reflow.
+form slots. Roughly twenty frequent cards form a teachable common deck; a much
+larger rare tail is copied from register/page exemplars. A hand/register
+renderer supplies wrappers, joining, closure and physical reflow.
 
 In compact form:
 
@@ -109,6 +110,31 @@ expense and content-rich iconography of a retained illustrated codex.
 Full independent candidates and the comparison are recovery-only material in
 `sidequest_theory_candidates/`; they are not default context.
 
+## Four-agent V2 refinement
+
+Four new independent candidates spent a longer pass on executable parsing,
+cross-page coherence, organic codebook evolution and historical workshop
+practice. A rubric frozen before reading their outcomes selected the executable
+parser 94/100, narrowly ahead of the cross-page coherence model at 93/100.
+
+The selected specialization is:
+
+```text
+formula-card practical medical register
+  + silent picture/page address
+  + common teaching deck and copied local tail
+  + open Currier-A dossier mode
+  + committed Currier-B cell mode
+  + Astro as a separate local lookup namespace
+```
+
+The runner-up supplies a binding correction: different close-bearing cards are
+real payload-bearing identities with a shared commitment realization, but the
+fixed pages do not establish a dictionary of semantically typed closer values.
+Likewise AIIN remains a broad parameter candidate; `AIIN = amount` is no longer
+the default reading. Full V2 selection details are recovery-only material in
+`sidequest_theory_candidates_v2/V2_THEORY_SELECTION.md`.
+
 ## Generative model
 
 ```text
@@ -122,7 +148,7 @@ REGISTER TEMPLATE
   Herbal dossier | Bio checked-cell form | Astro local lookup array
         ↓
 CARD SEQUENCE
-  shared lexical/relation/value/state packets + register-local technical cards
+  ~20 frequent taught cards + register/page-local copied technical cards
         ↓
 FIELD GRAMMAR
   entry / interior / result-near / attached close
@@ -152,7 +178,7 @@ without being able to expand every card into speech.
 PAGE   := PRE_DRAWN_VISUAL_ADDRESS + RECORD+
 RECORD := paragraph-owned sequence of physical LINE packets
 LINE   := one or more FIELD slices fitted into available image space
-FIELD  := EXACT_CARD+ + optional LICENSED_ATTACHED_DY_CLOSE
+FIELD  := EXACT_CARD* + optional PAYLOAD_BEARING_ATTACHED_COMMIT_CARD
 GROUP  := render(EXACT_CARD, wrapper_state, hand/register, local context)
 ```
 
@@ -183,6 +209,32 @@ covered Herbal events and 92/281 Biological events.
 
 These labels are anonymous functional paraphrases, not words or POS.
 
+### Most useful miniature parser
+
+The V2 pass adds one concrete source-like grammar:
+
+```text
+FIELD := HEAD? + ARGUMENT/ITEM* + LINK/STATE/PARAMETER*
+         + optional TERMINAL_CARD(COMMIT)
+```
+
+The strongest new candidate is exact `qokaiin`: 7/9 occurrences are
+field-initial and all nine right neighbors differ. Its restricted entry ecology
+plus broad continuation makes `INSTRUCTION/ENTRY_HEAD` the best anonymous
+role, with TAKE/USE/ENTER/APPLY only a low-confidence expansion class. L/O is
+the next best lead: it is predominantly internal and participates in
+`X–L/O–Y–L/O–CLOSE` as well as four `L/O–CLOSE` constructions.
+
+The terminal rule is deliberately asymmetric:
+
+```text
+TERMINAL_CARD = unknown exact payload identity + committed realization
+```
+
+Different terminal cards are not collapsed to punctuation. But their broad
+field-length distributions do not yet license readings such as RESULT,
+LOCATION or PREPARATION for particular closer families.
+
 ### Best provisional expansion classes
 
 The five-agent comparison converged on the following useful guesses. They are
@@ -190,24 +242,26 @@ working expansion classes, not translations:
 
 | form/construction | best current guess | confidence |
 |---|---|---:|
-| attached DY/B3-bearing terminal | local value/cell resolved or committed | .78 formal, no lexical confidence |
-| AIIN card | entered value, amount, degree or index/reference | .37 |
-| Y card | item type, unit or frame tag | .33 |
-| L/O card | broad relation such as of/with/in/for, or class link | .29 |
-| CTHY card | qualified/prepared state or property class | .21 |
-| exact `qokaiin` boundary repeat | active parameter/head copied forward | .20 |
+| attached DY/B3-bearing behavior | local field committed/terminated | .78 formal, no lexical confidence |
+| exact `qokaiin` | entry/instruction head | .46 formal; .27 for TAKE/USE-like source class |
+| L/O card | link, co-member or broad relation | .39 formal |
+| AIIN card | parameter, amount, degree, index or reference | .28; .15 for quantity specifically |
+| CTHY card | qualifier/prepared/property state | .25 |
+| Y card | generic item, unit or reference slot | .21 |
 | Bio OKE/OKEE/LCHE/CHE/CKHY deck | local process, configuration or result codes | .18 as a class |
 
 The boldest retained constructional reading is:
 
 ```text
-Y — AIIN — Y  ≈  ITEM/UNIT — SAME OR STATED VALUE — ITEM/UNIT
+Y — AIIN — Y  ≈  TAGGED ITEM — PAIRED/TYPED PARAMETER — TAGGED ITEM
 ```
 
 Its closest historical functional analogy is the recipe convention *ana*, “of
-each/equal amount,” but no Voynich card is read phonetically as *ana*. The same
-frame could instead mean matching setting, same class, paired degree or simply
-a tagged value. Two occurrences support only a prediction-worthy lead.
+each/equal amount,” but no Voynich card is read phonetically as *ana*. Equal
+amount now has only `.12` working confidence because the Herbal occurrence has
+an extra adjacent Y card and neither picture establishes symmetric operands.
+The broader paired/typed-parameter frame remains at `.34`. Two occurrences
+support only a prediction-worthy construction.
 
 The exact collapses are stronger than the surface spelling:
 
@@ -234,9 +288,10 @@ f83r.3  CHEY DAIIN CHEY   Bio field head, followed by LCHE-CLOSE
 ```
 
 No common independently annotated picture owner exists. It is therefore more
-plausibly an abstract tagged-value/two-place frame than a plant, water, tube or
-figure name. The leading speculative expansion is equal/shared value or paired
-setting, but the exact function remains unknown.
+plausibly an abstract tagged-parameter/two-place frame than a plant, water,
+tube or figure name. A paired setting remains plausible; equal/shared amount is
+now explicitly subordinate because no symmetric operands are independently
+established. The exact function remains unknown.
 
 ### Repeated form stencils
 
@@ -266,8 +321,10 @@ f82r.4 qokaiin ...
 
 The same exact `b5fcea1e...` card and same surface group moves from field-final
 to next-line field-initial. It is the only exact boundary-card repeat among 46
-same-record line transitions. Treat it as a carry-forward candidate, not a
-translated RESUME operator.
+same-record line transitions. Treating the first copy as an anticipatory carry
+and the second as the logical field head produces the cleanest local parse;
+confidence is `.52` for this one transition only. It is not a translated RESUME
+operator and may still be dittography or ordinary phrase repetition.
 
 ## Renderer versus register
 
@@ -370,11 +427,15 @@ Confirmed English lexemes: **0**. Confirmed plaintext clauses: **0**.
 
 ## Translation ceiling
 
-The maximum defensible schematic paraphrase is:
+The maximum useful speculative source-class paraphrase is:
 
 > For the object already shown, instantiate the appropriate register form;
-> enter its anonymous type/relation/value cards, close resolved cells, and
-> continue the same record across the available line space.
+> take or set the current item, relate it to the stated parameter or prepared
+> condition, commit the local cell, and continue an unfinished head across
+> available line space.
+
+This is not plaintext. `take/set`, `item`, `parameter` and `prepared` name a
+coherent candidate instruction ecology, not identified English lexemes.
 
 Still missing:
 
@@ -393,23 +454,22 @@ alphabet.
 
 Only pursue work that can materially change this compact theory:
 
-1. **slot-fill test:** in every already repeated stencil, ask whether field
-   shape and closure predict held card classes better than exact phrase reuse;
-2. **equal/shared-value test:** inspect the two `Y-AIIN-Y` environments for two
-   independently comparable operands or settings; reject that gloss if the
-   frame instead owns one stable object;
-3. **typed-closure test:** determine whether the major Bio closer identities
-   prefer distinct pre-close stencil/length classes after page/hand are held
-   fixed; collapse them to punctuation if they do not;
-4. **carry deletion test:** compare the f82r record grammar with the boundary
-   `qokaiin` treated once versus twice; retain copied-forward head only if the
-   one-state parse improves stencil coherence;
-5. **silent-address test:** determine whether page-owned visible homologues
-   explain local card reuse better than line position, without inventing new
-   image ownership;
-6. **Astro local-state test:** seek repeated surface classes at repeated roles
-   inside one frozen diagram, never by importing prose cards or aligning the
-   three pages post hoc.
+1. **entry-head test:** compare qokaiin's 7/9 field-entry behavior and
+   right-context diversity against fixed frequency-/page-matched cards, with
+   the f82r carry counted both once and twice;
+2. **link test:** ask whether L/O sits between structurally more homogeneous
+   operands than matched interior cards, without calling it AND/WITH/IN;
+3. **parameter test:** ask whether AIIN neighbors generic item/tag cards more
+   often than matched portable cards; quantity must lose if this is absent;
+4. **paired-frame test:** inspect only the two `Y-AIIN-Y` environments for
+   independently dyadic operands; withdraw equal allocation if neither is
+   symmetric;
+5. **terminal-payload test:** compare exact closer identity with preceding
+   construction class after field length/page are held fixed; retain COMMIT but
+   reject a typed semantic dictionary if no extra structure survives;
+6. **silent-address/Astro test:** seek content recurrence only from already
+   owned fixed-page visual homologues and repeated roles inside one diagram;
+   never import prose cards into the circle pages.
 
 Do not add pages, mine substrings, revive old glosses, or append another long
 chronological narrative. If none of these changes the model, report the fixed
