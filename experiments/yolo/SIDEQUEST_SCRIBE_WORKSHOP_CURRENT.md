@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-21, after the four-agent V3 continuous-translation pass.
+Updated: 2026-08-21, after the four-agent V4 ambiguity-resolution pass.
 
 Status: **speculative working theory, not a GDT result and not a
 translation**. This file is the compact authoritative entry point for the
@@ -167,6 +167,41 @@ identified liquid referent. Literal WATER has only `.24` working confidence.
 Full details are recovery-only material in
 `sidequest_theory_candidates_v3/V3_THEORY_SELECTION.md`.
 
+## Four-agent V4 ambiguity resolution
+
+V4 forced complete lexicons through all 73 occurrences of qokaiin, L/O, AIIN,
+Y and CTHY and translated entire paragraph records. The global lexicon model
+wins 93/100, followed by the focused qokaiin and record-level models at 92.
+
+The clearest new decision is:
+
+```text
+qokaiin = ADDRESS / ACTIVATE CURRENT SLOT
+```
+
+It is FIRST in 7/9 occurrences, five times immediately after a committed cell,
+and has nine different following cards. ADDRESS/ACTIVATE scores 94 in the
+frozen qokaiin comparison, versus 81 for TAKE/USE, 70 for ordinary content and
+56 for WORKING_MEDIUM/LIQUID. TAKE/USE may be a fluent contextual rendering,
+but it is too narrow to define the card. WATER is no longer a serious default.
+
+V4 also corrects the overall semantic posture. An indexed workshop checklist
+scores 89 against 90 for the typed practical form, and nonsemantic
+paragraph-owned form filling explains the internal record evidence slightly
+better than medical source semantics. The live theory is therefore layered:
+
+```text
+best internal architecture:
+  picture-addressed indexed form filling with exact cards
+
+best conditional content interpretation:
+  practical medical/herbal/application register
+```
+
+The medical interpretation stays the leading historical expansion, but is no
+longer embedded in the formal names. Details are recovery-only material in
+`sidequest_theory_candidates_v4/V4_THEORY_SELECTION.md`.
+
 ## Generative model
 
 ```text
@@ -246,14 +281,15 @@ These labels are anonymous functional paraphrases, not words or POS.
 The V2 pass adds one concrete source-like grammar:
 
 ```text
-FIELD := HEAD? + ARGUMENT/ITEM* + LINK/STATE/PARAMETER*
+FIELD := ADDRESS? + ITEM_NODE* + RELATION/STATE/PARAMETER*
          + optional TERMINAL_CARD(COMMIT)
 ```
 
 The strongest new candidate is exact `qokaiin`: 7/9 occurrences are
 field-initial and all nine right neighbors differ. Its restricted entry ecology
-plus broad continuation makes `ENTRY/ADDRESS_HEAD` the best anonymous role,
-with TAKE/USE/ENTER/APPLY only a low-confidence expansion class. L/O is
+plus broad continuation makes `ADDRESS/ACTIVATE_CURRENT_SLOT` the best
+anonymous role. TAKE/USE/ENTER/APPLY are contextual renderings, not the card's
+identity. L/O is
 the next best lead: it is predominantly internal and participates in
 `X–L/O–Y–L/O–CLOSE` as well as four `L/O–CLOSE` constructions.
 
@@ -275,11 +311,11 @@ working expansion classes, not translations:
 | form/construction | best current guess | confidence |
 |---|---|---:|
 | attached DY/B3-bearing behavior | local field committed/terminated | .78 formal, no lexical confidence |
-| exact `qokaiin` | entry/address head | .46 formal; .27 for TAKE/USE-like source class |
-| L/O card | link, co-member or broad relation | .39 formal |
-| AIIN card | parameter, amount, degree, index or reference | .28; .15 for quantity specifically |
-| CTHY card | qualifier/prepared/property state | .25 |
-| Y card | generic item, unit or reference slot | .21 |
+| exact `qokaiin` | address/activate current slot | strongest V4 formal lead; TAKE/USE contextual only |
+| L/O card | relation or class edge | .39 formal; no fixed preposition |
+| AIIN card | parameter, index or reference | amount/number demoted |
+| CTHY card | property, status or state | no PREPARED/HOT/DRY word |
+| Y card | item node or pointer | no entity gloss |
 | Bio OKE/OKEE/LCHE/CHE/CKHY deck | local process, configuration or result codes | .18 as a class |
 
 All-occurrence V3 consistency is deliberately less fluent than the examples:
@@ -473,12 +509,12 @@ Confirmed English lexemes: **0**. Confirmed plaintext clauses: **0**.
 The maximum useful speculative source-class paraphrase is:
 
 > For the object already shown, instantiate the appropriate register form;
-> take or set the current item, relate it to the stated parameter or prepared
-> condition, commit the local cell, and continue an unfinished head across
-> available line space.
+> activate the current slot, relate its marked nodes to a parameter or state,
+> commit the local cell, and continue an unfinished address across available
+> line space.
 
-This is not plaintext. `take/set`, `item`, `parameter` and `prepared` name a
-coherent candidate instruction ecology, not identified English lexemes.
+This is not plaintext. `activate`, `node`, `parameter` and `state` name a
+coherent indexed-form architecture, not identified English lexemes.
 
 Representative V3 free excerpts are:
 
@@ -487,8 +523,8 @@ Representative V3 free excerpts are:
 > associated parameter and working state, then close the local result.
 
 > **f82r.3–4:** Begin the next entry with its relation and configuration—write
-> the active head at the margin, repeat it at the new line, apply the carried
-> setting to its prepared state, and commit the cell.
+> the active address at the margin, repeat it at the new line, attach the
+> carried setting to its state, and commit the cell.
 
 > **f83r.3:** Fix the first local state and its related value. Put the two
 > marked entries under one stated parameter, commit their linkage, then
@@ -517,22 +553,23 @@ alphabet.
 
 Only pursue work that can materially change this compact theory:
 
-1. **entry-head test:** compare qokaiin's 7/9 field-entry behavior and
-   right-context diversity against fixed frequency-/page-matched cards, with
-   the f82r carry counted both once and twice;
-2. **link test:** ask whether L/O sits between structurally more homogeneous
+1. **address-versus-key test:** compare qokaiin's post-close activation pattern
+   with an indexed record-key/checklist interpretation; do not return to WATER
+   without an independently owned liquid referent;
+2. **link-versus-cross-reference test:** ask whether L/O sits between structurally more homogeneous
    operands than matched interior cards, without calling it AND/WITH/IN;
-3. **parameter test:** ask whether AIIN neighbors generic item/tag cards more
-   often than matched portable cards; quantity must lose if this is absent;
+3. **parameter-versus-index test:** ask whether AIIN neighborhoods follow
+   continuous values/settings or repeatable checklist coordinates; quantity
+   remains demoted;
 4. **paired-frame test:** inspect only the two `Y-AIIN-Y` environments for
    independently dyadic operands; withdraw equal allocation if neither is
    symmetric;
 5. **terminal-payload test:** compare exact closer identity with preceding
    construction class after field length/page are held fixed; retain COMMIT but
    reject a typed semantic dictionary if no extra structure survives;
-6. **silent-address/Astro test:** seek content recurrence only from already
-   owned fixed-page visual homologues and repeated roles inside one diagram;
-   never import prose cards into the circle pages.
+6. **practical-form-versus-checklist test:** seek repeated fixed-page visual
+   roles that distinguish medical/applicative content from generic indexed
+   form filling; never import prose cards into the circle pages.
 
 Do not add pages, mine substrings, revive old glosses, or append another long
 chronological narrative. If none of these changes the model, report the fixed
