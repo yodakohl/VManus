@@ -41,10 +41,12 @@ is admitted only through unseen-folio predictive interchangeability.
 
 Primary input is the already published, f84-free
 `gdt327_joint_tuple_interlinear.tsv` (8,448 events, 91 physical folios, 1,676
-types). ZL3b source separators and raw group surfaces are obtained only through
+types). The bound `inputs/gdt398_safe_source_view.tsv.gz` contains exactly the
+corresponding 8,448 ZL3b separator/raw-surface rows. It was produced through
 `./vmanus-exp query-tsv`, with the exact GDT327 locus allow-list and
-`--forbid-prefix f84`, before non-selector columns are materialized. Those
-fields supply boundary outcomes and a named string baseline only.
+`--forbid-prefix f84`, before non-selector columns were materialized. The final
+scorer reads only this f84-free view. Those fields supply boundary outcomes and
+a named string baseline only.
 
 The candidate model never receives PAGE_HOST, coordinate ID, frame, inner-D,
 right family, DY, B3, wrapper, raw spelling, edit features, renderer labels,
@@ -163,7 +165,8 @@ conditions, mechanically instantiated as:
 6. mean partition ARI exceeds the 95th percentile matched-null stability;
 7. raw gain remains positive after removing each fold's largest class;
 8. raw gain remains positive after removing its top 5% frequent tuple types;
-9. the paid candidate beats PAGE_HOST and the exact-equivalent GDT338 baseline;
+9. the paid candidate beats GLOBAL/FREQUENCY, PAGE_HOST, and the
+   exact-equivalent GDT338 baseline;
 10. it beats `STRING_SIMILARITY`, and at least half of published stable direct
     merges cross that string grouping.
 
@@ -181,3 +184,15 @@ POS, language, meaning, sound, plaintext, or translation. A failure closes
 this free latent-lexicon/equivalence route. No alternative clustering method,
 expanded K range, edit/PAGE_HOST initialization, semantic interpretation, or
 automatic follow-on experiment is authorized.
+
+## Post-execution decision-label conformance correction
+
+The public pre-outcome freeze is commit `12d5658e`. Before result publication,
+the first deterministic run exposed that condition 9 above had named PAGE_HOST
+and GDT338 but accidentally omitted the already mandatory GLOBAL/FREQUENCY
+anti-triviality comparator. The correction adds no model, K, endpoint,
+threshold, score, or search freedom and can only make promotion harder. It also
+routes a raw gain that is dominated by GLOBAL/FREQUENCY, frequent-type removal,
+or largest-cluster removal to
+`APPARENT_EQUIVALENCE_EXPLAINED_BY_EXISTING_STRUCTURE`, as required by the
+registered decision vocabulary. All numerical analysis remains byte-identical.

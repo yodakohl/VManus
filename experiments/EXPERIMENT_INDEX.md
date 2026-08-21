@@ -7,7 +7,7 @@ The authoritative scientific status remains
 ## Inventory
 
 - Experiments indexed: **397**
-- Experiment-associated tracked files: **5,669** (643.0 MiB)
+- Experiment-associated tracked files: **5,677** (643.7 MiB)
 - Structured GDT337+ experiments: **62**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
@@ -20,7 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT398 | opaque joint-tuple predictive equivalence preflight | `PREREGISTERED_UNSCORED` | — | 6 | 69.8 KiB | 10 | STRUCTURED_YOLO |
+| GDT398 | GDT398_opaque_joint_tuple_predictive_equivalence_preflight | `APPARENT_EQUIVALENCE_EXPLAINED_BY_EXISTING_STRUCTURE` | [report](../experiments/yolo/gdt398_opaque_joint_tuple_predictive_equivalence_preflight/REPORT.md) | 14 | 791.5 KiB | 10 | STRUCTURED_YOLO |
 | GDT397 | GDT397_bounded_observability_ontology_audit | `ONE_CONDITIONAL_FORMAL_EDGE_CEILING_PASSES` | [report](../experiments/yolo/gdt397_bounded_observability_ontology_audit/GDT397_BOUNDED_OBSERVABILITY_REPORT.md) | 9 | 115.4 KiB | 1 | STRUCTURED_YOLO |
 | GDT396 | GDT396_repaired_synthetic_identifiability_result | `NO_CONFIRMATION_ELIGIBLE_PROPERTY` | [report](../experiments/yolo/gdt396_repaired_synthetic_identifiability_voynich_surface/GDT396_REPAIRED_SYNTHETIC_IDENTIFIABILITY_REPORT.md) | 93 | 7.6 MiB | 1 | STRUCTURED_YOLO |
 | GDT395 | GDT395_adversarial_synthetic_identifiability_benchmark_conformance_v5 | `POST_ORACLE_CONFORMANCE_CORRECTION_VALIDATED` | [report](../experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/SCORER_VALIDATOR_CONFORMANCE_CORRECTION_V5.md) | 147 | 10.8 MiB | 5 | STRUCTURED_YOLO |

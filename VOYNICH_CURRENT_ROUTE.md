@@ -84,13 +84,14 @@ morpheme, plaintext symbol, or semantic role.
 - GDT336 converts the supported placement signal into a weak exact-tuple prior:
   +446.40 held bits and 1,932→1,971 top-1 hits on 6,626 recurrent events. It is
   not a standalone decoder.
-- GDT338 prospectively tests the strongest renderer-invariant equivalence still
-  licensed by that grammar. On 25 unseen-surface fields/17 held folios, the
-  exact-joint wrapper model gains only +2.38 raw bits and loses 0.20 bits after
-  its fixed selector, with only 4/17 positive folds. Placement gains +7.98 raw
-  bits and improves exact-field top-1 9→15, but its low-mobility matched
-  diagnostic is nonconfirming (`p=.3265`). Do not merge surfaces or exact joint
-  tuples into a new latent object on this evidence.
+- GDT338's renderer-invariant equivalence loses 0.20 paid bits on 25
+  unseen-surface fields (4/17 positive folds); its separate placement lead is
+  low-mobility and nonconfirming (`p=.3265`). It licenses no tuple merge.
+- GDT398 then learns equivalence freely from opaque exact-tuple structural
+  behavior. It saves +347.10 raw/+201.83 paid bits but only 5/11 folds improve,
+  the matched-null p is 1, GLOBAL/FREQUENCY is 11,686.68 bits shorter, both
+  largest-class and frequent-type removals reverse the gain, and zero stable
+  merges survive. Close free latent clustering as existing-structure shrinkage.
 - GDT339 first tested opaque record-incidence features on readable CoReMA and
   Nuremberg semantics. Its selected topology instrument transferred in only
   3/10 held collections/books and was worse than frequency on Nuremberg, so it
@@ -252,6 +253,7 @@ falsifier:
 - recurrent-formula field-position or fixed external-template claims;
 - universal register-independent tuple roles;
 - renderer-invariant field equivalence beyond exact opaque joint-tuple identity;
+- free predictive equivalence clustering of exact joint tuples after GDT398;
 - semantic-class induction from opaque record incidence after GDT339's readable
   comparator failed cross-corpus transfer;
 - complete-record Recipe/Pharma event-schema transfer from current exact tuples
@@ -276,9 +278,8 @@ ledger. Use those files for a proposed-route duplicate audit, not on every turn.
 
 ## Next useful route
 
-No experiment follows automatically. Future synthetic work is limited to
-new-seed anonymous backward-edge ranking with blind pivot detection; formal
-relation remains distinct from REF/meaning, and no Voynich score is authorized.
+No experiment follows automatically. The free latent-tuple route is closed;
+the separately calibrated backward-edge route still requires explicit authority.
 
 GDT386–393 supply zero score-ready connector edges. Do not substitute
 proximity, radial order, OPEN/BODY, or cross-page similarity.
@@ -295,5 +296,4 @@ proximity, radial order, OPEN/BODY, or cross-page similarity.
 - GDT390–392 reports: `experiments/yolo/gdt390_q20_inter_record_pointer_census/REPORT.md`, `experiments/yolo/gdt391_local_object_relation_normalization/REPORT.md`, `experiments/yolo/gdt392_special_circle_start_direction_census/REPORT.md`
 - `GDT330_F84R_METADATA_ACCESS_CORRECTION.md`
 
-Use `experiments/EXPERIMENT_INDEX.tsv` for exact paths, dependencies, runners,
-validators, and compact artifacts.
+Use `experiments/EXPERIMENT_INDEX.tsv` for exact paths, dependencies, runners, validators, and compact artifacts.

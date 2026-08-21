@@ -10316,3 +10316,19 @@ scope ends (AUROC .715, AP .132 versus .081 prevalence) but licenses no semantic
 label. No Voynich score, new seed, confirmation seed, f84, or f84r was opened.
 No experiment follows automatically; only a future explicitly authorized,
 new-seed anonymous backward-edge test with blind pivot detection is calibrated.
+
+## GDT398 opaque joint-tuple equivalence closure
+
+GDT398 ran the one registered anonymous clustering path over all 1,676 exact
+GDT327 tuple types with 11 held-folio folds. The selected partitions save
+347.10 raw bits versus exact identity and 201.83 bits after the registered
+partition/selector costs, but improve only 5/11 folds. GLOBAL/FREQUENCY is
+11,686.68 bits shorter than the latent model; every matched assignment null is
+more favourable (`p=1`); removing the largest class or top 5% frequent types
+reverses the gain to -216.37/-203.13 bits; and no direct merge reaches 0.70
+coassignment stability.
+
+Status is `APPARENT_EQUIVALENCE_EXPLAINED_BY_EXISTING_STRUCTURE`. This closes
+free predictive clustering of exact joint tuples under the registered stop
+rule. It establishes no latent lexicon, tuple merge, morphology, semantics, or
+translation. f84/f84r were excluded by the guarded source boundary.

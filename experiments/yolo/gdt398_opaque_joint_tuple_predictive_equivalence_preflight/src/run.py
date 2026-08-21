@@ -4,14 +4,13 @@
 from __future__ import annotations
 
 import csv
+import gzip
 import hashlib
 import heapq
-import io
 import itertools
 import json
 import math
 import random
-import subprocess
 from collections import Counter, defaultdict
 from pathlib import Path
 
@@ -30,7 +29,7 @@ EXP = ROOT / "experiments/yolo/gdt398_opaque_joint_tuple_predictive_equivalence_
 ART = EXP / "artifacts"
 INTER = ROOT / "gdt327_joint_tuple_interlinear.tsv"
 ATLAS = ROOT / "gdt327_joint_tuple_atlas.tsv"
-SEPARATORS = ROOT / "experiments/semantic_assumptions/results/source_separator_transcription.tsv"
+SAFE_VIEW = EXP / "inputs/gdt398_safe_source_view.tsv.gz"
 REPORT = EXP / "REPORT.md"
 RESULT = ART / "result.json"
 FOLDS_OUT = ART / "fold_scores.tsv"
@@ -98,25 +97,19 @@ def read_interlinear_guarded() -> list[dict]:
     return rows
 
 
-def guarded_separator_view(rows: list[dict]) -> tuple[dict[tuple[str, int], dict], str, dict]:
-    loci = sorted({row["locus"] for row in rows})
-    cmd = [str(ROOT / "vmanus-exp"), "query-tsv", str(SEPARATORS), "--selector", "locus"]
-    for locus in loci:
-        cmd.extend(("--allow", locus))
-    cmd.extend((
-        "--columns",
-        "edition,locus,page,source_group_index,left_separator,right_separator,paragraph_start,paragraph_end,ivtff_group_raw",
-        "--forbid-prefix", "f84",
-    ))
-    proc = subprocess.run(cmd, cwd=ROOT, text=True, capture_output=True, check=True)
-    selected = [row for row in csv.DictReader(io.StringIO(proc.stdout), delimiter="\t") if row["edition"] == "ZL3b"]
+def load_safe_separator_view(rows: list[dict]) -> tuple[dict[tuple[str, int], dict], str, dict]:
+    expected = "056ec5193f02acbb9a591dcba7edd45469518ddc732975c6947e65353f16b81e"
+    if sha256(SAFE_VIEW) != expected:
+        raise RuntimeError("GDT398 safe source view hash drift")
+    with gzip.open(SAFE_VIEW, "rt", encoding="utf-8", newline="") as fh:
+        selected = list(csv.DictReader(fh, delimiter="\t"))
     index = {(r["locus"], int(r["source_group_index"])): r for r in selected}
     if len(selected) != len(rows) or any((r["locus"], int(r["group_index"])) not in index for r in rows):
         raise RuntimeError("guarded ZL3b separator join is not exact")
     if any(r["page"].lower().startswith("f84") or r["locus"].lower().startswith("f84") for r in selected):
         raise RuntimeError("guard failure: f84 material retained")
-    stats = {"query_stderr": proc.stderr.strip(), "selected_zl3b_rows": len(selected), "loci": len(loci)}
-    return index, hashlib.sha256(proc.stdout.encode()).hexdigest(), stats
+    stats = {"safe_view_rows": len(selected), "loci": len({row["locus"] for row in selected})}
+    return index, expected, stats
 
 
 def int_bucket(value: int) -> str:
@@ -549,7 +542,7 @@ def main() -> int:
         raise RuntimeError("refusing to overwrite GDT398 result artifacts")
     ART.mkdir(parents=True, exist_ok=True)
     rows = read_interlinear_guarded()
-    separator_index, separator_hash, guard_stats = guarded_separator_view(rows)
+    separator_index, separator_hash, guard_stats = load_safe_separator_view(rows)
     events, opaque_map = enrich_events(rows, separator_index)
     ALL_EVENTS = events
     ALL_TYPES = sorted({e["tuple"] for e in events})
@@ -780,12 +773,22 @@ def main() -> int:
         "stability_above_matched_null": observed_ari > stability_q95,
         "positive_without_largest_cluster": largest_removed_gain > 0,
         "positive_without_top_frequent_types": frequent_removed_gain > 0,
-        "beats_page_host_and_gdt338_after_cost": model_totals["PAGE_HOST"] - model_totals["LEARNED_LATENT_CLASS"] - partition_cost - selector_cost > 0 and paid_gain > 0,
+        "beats_frequency_page_host_and_gdt338_after_cost": (
+            model_totals["GLOBAL_FREQUENCY"] - model_totals["LEARNED_LATENT_CLASS"] - partition_cost - selector_cost > 0
+            and model_totals["PAGE_HOST"] - model_totals["LEARNED_LATENT_CLASS"] - partition_cost - selector_cost > 0
+            and paid_gain > 0
+        ),
         "not_reducible_to_string_similarity": model_totals["STRING_SIMILARITY"] - model_totals["LEARNED_LATENT_CLASS"] - partition_cost - selector_cost > 0 and string_cross_fraction >= 0.50,
     }
     if all(gates.values()):
         status = "PREDICTIVE_LATENT_TUPLE_EQUIVALENCE_SUPPORTED"
-    elif raw_gain > 0 and (not gates["stability_above_matched_null"] or model_totals["PAGE_HOST"] <= model_totals["LEARNED_LATENT_CLASS"] or model_totals["STRING_SIMILARITY"] <= model_totals["LEARNED_LATENT_CLASS"]):
+    elif raw_gain > 0 and (
+        not gates["stability_above_matched_null"]
+        or model_totals["GLOBAL_FREQUENCY"] <= model_totals["LEARNED_LATENT_CLASS"]
+        or model_totals["PAGE_HOST"] <= model_totals["LEARNED_LATENT_CLASS"]
+        or model_totals["STRING_SIMILARITY"] <= model_totals["LEARNED_LATENT_CLASS"]
+        or largest_removed_gain <= 0 or frequent_removed_gain <= 0 or not merge_rows
+    ):
         status = "APPARENT_EQUIVALENCE_EXPLAINED_BY_EXISTING_STRUCTURE"
     elif raw_gain > 0:
         status = "LATENT_SHARING_WEAK_NOT_A_LEXICON_EQUIVALENCE"
@@ -848,7 +851,7 @@ def main() -> int:
         },
         "claim_ceiling": "Opaque predictive formal equivalence only; no word lexeme morpheme stem allomorph synonym entity POS language meaning sound plaintext or translation.",
         "stop_rule": "No alternative clustering, K range, edit/PAGE_HOST initialization, semantic interpretation, or automatic follow-on experiment.",
-        "inputs": {"gdt327_joint_tuple_interlinear.tsv": sha256(INTER), "gdt327_joint_tuple_atlas.tsv": sha256(ATLAS), "guarded_separator_view": separator_hash},
+        "inputs": {"gdt327_joint_tuple_interlinear.tsv": sha256(INTER), "gdt327_joint_tuple_atlas.tsv": sha256(ATLAS), "gdt398_safe_source_view.tsv.gz": separator_hash},
         "documents": {"METHOD.md": sha256(EXP / "METHOD.md"), "README.md": sha256(EXP / "README.md")},
         "implementation": {"run.py": sha256(Path(__file__))},
         "f84": {"allowed": False, "accessed": False, "retained": False, "scored": False},
@@ -875,11 +878,14 @@ def main() -> int:
     for name, passed in gates.items():
         report.append(f"- `{name}`: **{'PASS' if passed else 'FAIL'}**")
     report.extend([
-        "", "## Interpretation", "",
+        "", "## Failure localization", "",
+        f"GLOBAL/FREQUENCY is {model_totals['LEARNED_LATENT_CLASS'] - model_totals['GLOBAL_FREQUENCY']:.3f} bits shorter than the selected latent model. Every one of the {NULL_WORLDS} matched assignment worlds has a larger selector-paid gain than observed (`p={null_p:.6f}`). Removing the largest selected class changes the gain to {largest_removed_gain:+.3f} bits; removing the top 5% frequent types changes it to {frequent_removed_gain:+.3f} bits. No direct merge pair reaches the frozen 0.70 coassignment-stability publication threshold.", "",
+        "The positive aggregate exact-versus-latent difference is therefore ordinary shrinkage concentrated in high-frequency/large-class structure, not a stable freely learned latent lexicon.", "",
+        "## Interpretation", "",
         "The candidate algorithm saw only opaque type occurrences and the frozen structural views. PAGE_HOST and raw spelling entered named baselines and post-hoc diagnostics only. The result does not license a word, lexeme, morpheme, stem, allomorph, synonym, entity, POS, language, meaning, sound, plaintext, or translation.", "",
         "If the paid exact-identity comparison fails, this route is closed under the registered stop rule; no alternate clustering algorithm or relaxed K/stability search follows automatically.", "",
         "## Seal", "",
-        "The GDT327 input was f84-free. The mixed separator source was accessed only through the executable exact-locus allow-list guard with `f84*` rejection before materializing selected columns. f84 and f84r were not retained, joined, or scored. No semantic or visual annotation was used.", "",
+        "The GDT327 input and bound 8,448-row source view are f84-free. The view was created through the executable exact-locus allow-list guard with `f84*` rejection before materializing selected columns; the scorer reads only that frozen view. f84 and f84r were not retained, joined, or scored. No semantic or visual annotation was used.", "",
     ])
     REPORT.write_text("\n".join(report), encoding="utf-8")
     result["documents"]["REPORT.md"] = sha256(REPORT)

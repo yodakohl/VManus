@@ -5,12 +5,11 @@ from __future__ import annotations
 
 import ast
 import csv
+import gzip
 import hashlib
-import io
 import itertools
 import json
 import re
-import subprocess
 from collections import Counter, defaultdict
 from pathlib import Path
 
@@ -27,7 +26,7 @@ EXP = ROOT / "experiments/yolo/gdt398_opaque_joint_tuple_predictive_equivalence_
 ART = EXP / "artifacts"
 INTER = ROOT / "gdt327_joint_tuple_interlinear.tsv"
 ATLAS = ROOT / "gdt327_joint_tuple_atlas.tsv"
-SEPARATORS = ROOT / "experiments/semantic_assumptions/results/source_separator_transcription.tsv"
+SAFE_VIEW = EXP / "inputs/gdt398_safe_source_view.tsv.gz"
 RUNNER = EXP / "src/run.py"
 RESULT = ART / "result.json"
 OUTPUT = ART / "validation.json"
@@ -99,19 +98,13 @@ def adjusted_rand(mapping_a: dict[str, str], mapping_b: dict[str, str]) -> float
     return (index - expected) / (maximum - expected) if maximum != expected else 1.0
 
 
-def guarded_view_hash(loci: list[str]) -> tuple[str, int]:
-    cmd = [str(ROOT / "vmanus-exp"), "query-tsv", str(SEPARATORS), "--selector", "locus"]
-    for locus in loci:
-        cmd.extend(("--allow", locus))
-    cmd.extend((
-        "--columns", "edition,locus,page,source_group_index,left_separator,right_separator,paragraph_start,paragraph_end,ivtff_group_raw",
-        "--forbid-prefix", "f84",
-    ))
-    proc = subprocess.run(cmd, cwd=ROOT, text=True, capture_output=True, check=True)
-    selected = [row for row in csv.DictReader(io.StringIO(proc.stdout), delimiter="\t") if row["edition"] == "ZL3b"]
+def safe_view_audit() -> tuple[str, int, set[tuple[str, int]]]:
+    with gzip.open(SAFE_VIEW, "rt", encoding="utf-8", newline="") as fh:
+        selected = list(csv.DictReader(fh, delimiter="\t"))
     if any(row["page"].lower().startswith("f84") or row["locus"].lower().startswith("f84") for row in selected):
-        raise RuntimeError("guarded validator query retained f84")
-    return hashlib.sha256(proc.stdout.encode()).hexdigest(), len(selected)
+        raise RuntimeError("frozen safe view contains f84")
+    keys = {(row["locus"], int(row["source_group_index"])) for row in selected}
+    return sha256(SAFE_VIEW), len(selected), keys
 
 
 def main() -> int:
@@ -133,8 +126,9 @@ def main() -> int:
     result = json.loads(RESULT.read_text(encoding="utf-8"))
     checks["result_schema_status"] = result.get("schema") == "GDT398_OPAQUE_JOINT_TUPLE_EQUIVALENCE_RESULT_V1" and result.get("status") in STATUSES
     checks["content_hash"] = result.get("content_sha256") == canonical_hash(result)
-    safe_hash, safe_rows = guarded_view_hash(sorted({r["locus"] for r in inter}))
-    checks["guarded_separator_view"] = safe_rows == 8448 and result["guarded_source"]["selected_view_sha256"] == safe_hash
+    safe_hash, safe_rows, safe_keys = safe_view_audit()
+    source_keys = {(row["locus"], int(row["group_index"])) for row in inter}
+    checks["guarded_separator_view"] = safe_hash == "056ec5193f02acbb9a591dcba7edd45469518ddc732975c6947e65353f16b81e" and safe_rows == 8448 and safe_keys == source_keys and result["guarded_source"]["selected_view_sha256"] == safe_hash
 
     fold_header, folds = read_tsv(ART / "fold_scores.tsv")
     cluster_header, clusters = read_tsv(ART / "cluster_summary.tsv")
