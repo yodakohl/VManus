@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-22, after V24 complete ten-page translation edition.
+Updated: 2026-08-22, after V25 typed repetition-construction refinement.
 
 Status: **speculative working theory, not a GDT result and not a
 translation**. This file is the compact authoritative entry point for the
@@ -874,6 +874,25 @@ plant preparations, linked-vessel bath/application procedures and an
 astrological body-safety/station schedule. `V24_COMPLETE_TEN_PAGE_TRANSLATION.md`
 is the default human-readable translation; the 776-event TSV is the exact
 machine audit. “Complete” means total speculative coverage, not decipherment.
+
+## V25 typed repetition grammar
+
+All 15 prose loci containing a repeated exact card now have one complete
+constructional reading. Repeated action cards mean repeat the action; repeated
+item/measure cards instantiate multiple portions; repeated relation or pointer
+cards open parallel operand slots.
+
+The clearest examples are two rinses on f81v.18, two washes on f81v.21, two
+separately closed immersions on f82r.27, a staged first/second rinse on f83r.20
+and two cloth strainings on f83r.27. `LSHEDY` is corrected from the internally
+double-counted “wash twice” to the singular “wash once; close this pass”; its
+two written occurrences supply twice.
+
+The same grammar turns repeated portion/measure cards on f10r, f55v and f82r
+into counted ingredients and repeated L/O-like cards into multiple attachments
+under one active relation. This is a learnable construction above exact-card
+identity, not a confirmed numeral or plurality marker. The enhanced 199-locus
+edition is in `sidequest_theory_candidates_v25/`.
 
 ## Generative model
 
