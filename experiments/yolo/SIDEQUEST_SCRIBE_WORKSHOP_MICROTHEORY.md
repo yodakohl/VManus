@@ -5648,3 +5648,73 @@ specific gynecological diagnosis/treatment   not identified
 No woman in the picture is assigned an individual patient identity. The
 repeated figures may be alternative procedures, stages, exemplars or simply
 diagram occupants.
+
+## Iteration 89 — maximum-use ten-page reading, version 0.5
+
+The following is the most concrete coherent reading presently possible. It is
+not a decipherment; it is what a workshop compiler could have been instructed
+to enter on each page.
+
+| page | silent address | proposed record content | confidence ceiling |
+|---|---|---|---|
+| f10r | flowering simple with tiered leaves and storage-like roots | identify/classify the simple; enter paired constitution/quality and settings; then list virtues, preparation or applications | quality formula low; applications very low |
+| f11r | dense, blue-flowered multi-stem simple | identify another simple in the same Herbal-A quality system; enter two short use/property modules and repeat one SHOR card | quality system low; repeat function low |
+| f55v | broad single-leaf simple with tall inflorescence | enter a Currier-B/hand-2 identity/property packet, then a longer relational/preparation packet using AIIN values and OL/AR cards | module split medium; content very low |
+| f56r | spiral/radiating blue-headed simple | classify the simple, reuse CHOL in both modules, and give a second packet of use/preparation conditions ending in a setting | shared axis low; exact purpose very low |
+| f67r2 | nested 12- and 7-member wheel | choose or cross-reference an outer class and an inner celestial/lunar class; use the prose/legends to derive a registered quality or state | counts high; selection/use low |
+| f68r1 | 29 labelled stars with one central object | locate or register an object/station in a spatial catalogue; write its local residual identifier/attributes | inventory high; object semantics very low |
+| f69v | ordered 28-radial array with strict alternation | consult the selected ordinal and silent parity column; copy its state/prognosis/action card, allowing the same card at multiple positions | schedule topology high; lunar/medical use very low |
+| f81v | many women in a common enclosed pool | first set bath/material/setting values; then record a long immersion regimen, process sequence or consequences under the OTAIN–OLKAL apparatus key | mode switch medium; treatment content very low |
+| f82r | individual vessels/sources plus shared pool | describe the source/apparatus and two or more alternative applications; attach local flow/component labels and reuse OKAL between diagram and prose | local key medium; stage semantics very low |
+| f83r | local containers, arcs, conduits, returns and sprays | give five general regimen/procedure modules and two local delivery specifications; distinguish carried versus activated OL paths and their terminal states | prose/local-mode split medium; path meanings very low |
+
+The implied page grammars are compact:
+
+```text
+HERBAL_ENTRY := PICTURED_SIMPLE
+                {IDENTITY_OR_CLASS, QUALITY_OR_DEGREE}*
+                PARAGRAPH_BREAK
+                {VIRTUE, PREPARATION, QUANTITY, APPLICATION}*
+
+BATH_RECORD  := PICTURED_SITE_OR_APPARATUS
+                {SOURCE, MEDIUM, SETTING}*
+                {PROCESS_OR_APPLICATION, STATE, RESULT_OR_CONDITION}+
+                LOCAL_DIAGRAM_KEYS*
+
+CIRCLE_USE   := VISIBLE_SELECTION_OR_POSITION
+                + WRITTEN_CLASS_OR_STATE_CARD
+                + OPTIONAL_RULE_OR_INTERPRETATION_PROSE
+```
+
+These semantic field names are deliberately broad alternatives. They define
+what information a useful manual would need, not what any tuple has been shown
+to mean. The grammar's explanatory success is that one shared card compiler can
+render all three while the picture supplies the expensive noun phrase or
+coordinate.
+
+### Leading genre decision
+
+Among three candidate worlds, the ranking is now:
+
+1. **hybrid abbreviated language + technical notation** — strongest: explains
+   paragraph discourse, repeated exact cards, diagram labels, silent geometry,
+   hand/register rendering and failed simple ciphers at once;
+2. **compressed natural-language medical miscellany** — plausible source layer,
+   but weaker as the visible representation because recurrence and formal
+   compatibility are too compiler-like;
+3. **pure semantic codebook/notation** — plausible for diagrams, but weaker for
+   long variable paragraphs and cross-line discourse.
+
+The best current overall theory is therefore: **a small multi-scribe workshop
+converted heterogeneous herbal, bathing/women's-regimen and astronomical
+source material into a shared image-addressed shorthand, using register-local
+card tables and a common stateful renderer.** The source content could have
+been ordinary Latin or vernacular prose, but the visible system is not a simple
+phonetic transcription of it.
+
+The theory still cannot choose between an integrated medico-astrological
+handbook and a workshop miscellany whose astronomical material had a partly
+independent purpose. KART001 found the 7/12/28 architecture compatible with
+generic medieval astronomy but not above generic controls, and direct A-65
+table transfer failed. The medical link is historically economical, not
+internally demonstrated.
