@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-22, after V22 f69 repeated-rule correction.
+Updated: 2026-08-22, after V23 prose/Astro homograph audit.
 
 Status: **speculative working theory, not a GDT result and not a
 translation**. This file is the compact authoritative entry point for the
@@ -845,6 +845,22 @@ This revises 33 radial tokens while preserving the 107 f69 circular-prose
 tokens. The f68→f69 index remains absent. Full details are in
 `sidequest_theory_candidates_v22/V22_THEORY_SELECTION.md`; validation is
 `PASS` over the complete 569-entry/776-event reading.
+
+## V23 shared shapes with local binding
+
+A deliberately creative exact-surface bridge test finds 44 complete visible
+forms shared between prose and Astro, covering 98 prose and 89 Astro events.
+This supports a common learnable graphic/abbreviation repertoire. It does not
+support a common word dictionary: zero of the 44 forms retains one current
+default across all occurrences.
+
+The selected architecture is therefore **shared graphic deck, register-local
+binding**. Herbal/Bio construction assigns practical instruction value; an
+Astro diagram slot assigns selector, catalogue or schedule value. Attractive
+local echoes such as `okeey` (lukewarm liquid / warm bath) and `aiin` (measure /
+one Astro usual-measure occurrence) remain mnemonic possibilities, not portable
+words. The complete V22 translation is unchanged. Full audit:
+`sidequest_theory_candidates_v23/V23_EXACT_SURFACE_HOMOGRAPHS.tsv`.
 
 ## Generative model
 
