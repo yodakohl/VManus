@@ -3845,3 +3845,56 @@ not as ten unrelated word-like tokens.
 This matrix is the strongest current sidequest account of apparent word
 composition. It remains a generative notation hypothesis, not evidence that
 the rows are lexemes or that the columns are linguistic morphemes.
+
+## Iteration 50 — free `S | AIIN` confirms a detachable carry operator
+
+The six-page ZL3b sample contains four exact detached `s | aiin` sequences on
+three pages:
+
+```text
+f55v.10   ol    | s | aiin | okaiin
+f82r.16   ol    | s | aiin | chey
+f83r.10   cthal | s | aiin | chky
+f83r.33   sy    | s | aiin | sheekchy
+```
+
+This is additional to five exact fused `saiin` groups. Alternate readings vary
+precisely at the attachment boundary:
+
+```text
+f55v.10   S | AIIN in all three readings
+f82r.16   SAIIN in IT; S | AIIN in ZL/RF
+f83r.10   SAIIN or attachment to the preceding cell in IT/RF;
+          S | AIIN in ZL
+f83r.33   SAIIN in IT; S | AIIN in ZL/RF
+```
+
+Thus the S-AIIN relation is not inferred from substring resemblance alone.
+The source boundary itself oscillates while the construction survives.
+
+This strengthens the apprentice card:
+
+```text
+AIIN       the registered setting/reference
+D-AIIN     enter or establish a new setting/reference
+S-AIIN     retain, resume or reuse the same/current setting/reference
+```
+
+The boldest useful gloss for S is now **SAME/CURRENT-CARRY**, not a sound or an
+ordinary translated word. It explains why S is favoured at physical line entry:
+the new writing packet resumes a state already active in the larger record.
+
+The repeated cross-page frame `ol | s | aiin` then receives a concrete
+sidequest reading:
+
+> For the OL carrier/object, retain the same currently registered setting.
+
+This fits plant/biological technical prose especially well if OL is a liquid,
+water, vessel content or substrate and AIIN a quantity/grade/duration. It also
+remains compatible with non-liquid values.
+
+The construction is still not proof that S always means same. S may have other
+licensed functions, and the exact external content of AIIN and OL is unknown.
+The advance is the detachable operator behavior plus a single economical
+functional interpretation that links free/bound spelling, line reset and state
+inheritance.
