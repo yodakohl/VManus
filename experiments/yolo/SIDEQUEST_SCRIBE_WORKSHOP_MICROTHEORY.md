@@ -3363,3 +3363,63 @@ CELL₁+CELL₂+CELL₃
 The license must still be learned from exemplars; arbitrary concatenation is
 not allowed. This explains free/bound reuse without requiring ordinary lexical
 word boundaries or fully productive linguistic morphology.
+
+## Iteration 42 — `SOL` as a register-local construction head
+
+The next secure paragraph, f83r.52--55, begins with a near-isomorphic pair:
+
+```text
+52  solkeey  | qekey | raly  | ol
+53  solchkal | cheol | qotar | ol
+54  daiin    | ol    | dain  | chey | ldalor
+55  sol      | rtain | cthal
+```
+
+The two four-cell packets have the same outer template:
+
+```text
+SOL+VARIABLE | VARIABLE | VARIABLE | OL
+SOL+VARIABLE | VARIABLE | VARIABLE | OL
+```
+
+This frame is stable across the three readings; only the internal f83r.53
+`cheol/cheal` reading varies. In the same paragraph `sol` appears free on the
+last line.
+
+Across the entire six-page ZL3b sample there are 20 groups containing the exact
+surface sequence `sol`. Eight are the complete free group `sol`, and 14 of the
+20 SOL-bearing groups occupy locus-initial position. All are on f82r/f83r.
+This concentration makes `SOL` a plausible **register-local construction
+head**, rather than a universal manuscript-wide content root.
+
+The provisional workshop card is:
+
+```text
+SOL [CELL...]       free head in ample space
+SOL+CELL [...]      compact attached realization
+
+operational role:   initiate a registered action on the following cell(s)
+bold gloss:          take / prepare / process
+```
+
+The final `OL` shared by the two parallel packets may be a common carrier,
+medium, destination, state, or simply a fixed fourth column. A liquid or water
+medium is compatible with the invented practical reading but is not required.
+
+A deliberately bold paraphrase of the paired packets is:
+
+> Process or take the KEEY item with its QEKEY/RALY specifications in the OL
+> medium. Process or take the CHKAL item with its CHEOL/QOTAR specifications in
+> the same OL medium. Enter the shared OL and DAIN/CHEY settings, then issue the
+> final SOL instruction for RTAIN/CTHAL.
+
+This is not a translation of the unknown cells. Its useful claim is the
+construction:
+
+```text
+ACTION_HEAD + variable arguments + invariant final slot
+```
+
+The same head can be detached or attached according to the licensed exemplar
+and available space. An apprentice can learn that behavior without knowing a
+phonetic value or decomposing every SOL compound productively.
