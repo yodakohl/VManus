@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-21, after V11 Herbal topic-carrier correction.
+Updated: 2026-08-21, after V12 opaque-formula correction.
 
 Status: **speculative working theory, not a GDT result and not a
 translation**. This file is the compact authoritative entry point for the
@@ -38,6 +38,19 @@ No additional page is admitted without explicit user authorization. `f84` and
 evidence. The circle pages have no GDT327 events and therefore may be analyzed
 only from frozen topology/layout and surface readings—not by importing prose
 joint-tuple identities.
+
+## Reusable four-agent perspectives
+
+Future four-agent sidequest passes reuse four fixed five-line backgrounds:
+
+- R1 workshop master: learnability, copying and apprentice errors;
+- R2 medical/Herbal scribe: historically plausible source-text practice;
+- R3 technical register writer: executable address/value/slot notation;
+- R4 chancery corrector: scribal error, segmentation and strongest null.
+
+The exact profiles are frozen in `SIDEQUEST_FOUR_AGENT_BACKGROUNDS.md`. Each
+agent receives one perspective and the same evidence protocol but may not read
+sibling outcomes before finishing.
 
 ## Best current overall theory
 
@@ -443,6 +456,34 @@ exist upstream, but these exact cards do not identify it.
 Full selection details are recovery-only material in
 `sidequest_theory_candidates_v11/V11_THEORY_SELECTION.md`.
 
+## Four-agent V12 opaque-formula correction
+
+The first pass under the reusable historical perspectives asks whether the
+sole cross-page exact triple `Y–AIIN–Y` encodes shared/equal value, reference,
+a dyadic frame or a checklist coordinate. All four independently select
+`NOT_DISTINGUISHABLE_WITH_TWO_OCCURRENCES`.
+
+The positive formal result survives. `Y–AIIN–Y` is the only exact triple
+repeated across two fixed prose pages among 164 field-internal windows (267
+under complete record-order counting), so retain:
+
+```text
+FORMULA_F3 := exact Y -> exact AIIN -> exact Y
+```
+
+It is a teachable cross-register whole-card formula. Its contexts are not
+semantically parallel: f10r locally has `Y–Y–AIIN–Y` at an open Herbal line
+tail, whereas f83r has `Y–AIIN–Y–LCHE[COMMIT]` at a Biological field head.
+There are no independently owned symmetric operands or shared antecedent.
+
+Therefore withdraw `POINTER–SAME/STATED REFERENCE–POINTER` and the equal-amount
+or *ana* reading. Shared reference, dyadic relation, checklist index and
+ordinary formulaic prose remain compatible. A scribe can copy and recognize
+`FORMULA_F3` without knowing—or exposing to us—its expansion.
+
+Full details are recovery-only material in
+`sidequest_theory_candidates_v12/V12_THEORY_SELECTION.md`.
+
 ## Generative model
 
 ```text
@@ -515,8 +556,8 @@ covered Herbal events and 92/281 Biological events.
 
 | anonymous card | events/pages | descriptive placement | current loose role |
 |---|---|---|---|
-| AIIN `2f1c5e56...` | 20 / 7 | FIRST 6, MIDDLE 9, LAST 5; no immediate attached close in 0/15 opportunities | interior value/address |
-| Y `b921a237...` | 18 / 6 | mostly middle; next event closes in 3/15 | type/frame |
+| AIIN `2f1c5e56...` | 20 / 7 | FIRST 6, MIDDLE 9, LAST 5; no immediate attached close in 0/15 opportunities | opaque portable card; parameter/reference remains possible |
+| Y `b921a237...` | 18 / 6 | mostly middle; next event closes in 3/15 | opaque portable card/node candidate |
 | L/O `dcda95c8...` | 19 / 3 | mostly middle; next event closes in 5/17 | relation/class |
 | CTHY `e0b630cb...` | 7 / 3 | 6 middle, 1 last | property/state |
 | H10_LOCAL_2 `4d455901...` | 2 / f10r only | one in each paragraph | anonymous local recurrence |
@@ -561,7 +602,7 @@ working expansion classes, not translations:
 | attached DY/B3-bearing behavior | local field committed/terminated | .78 formal, no lexical confidence |
 | exact `qokaiin` | address/activate current slot | V5 source class ITEM/ALSO/NEXT; not phonetic |
 | L/O card | associative link with inherited operands | ASSOCIATED WITH / SAME RELATION; no fixed preposition |
-| AIIN card | stated reference/current standard | amount, degree, index or setting supplied by record |
+| AIIN card | parameter/value/reference candidate | no active-reference or amount gloss established |
 | CTHY card | property, status or state | no PREPARED/HOT/DRY word |
 | Y card | item node or pointer | no entity gloss |
 | Bio OKE/OKEE/LCHE/CHE/CKHY deck | local process, configuration or result codes | .18 as a class |
@@ -577,18 +618,17 @@ All-occurrence V3 consistency is deliberately less fluent than the examples:
 | CTHY state | 7/7 distributionally possible | no externally owned prepared state |
 | terminals | 90/90 close formally | individual English action/result readings absent |
 
-The boldest retained constructional reading is:
+The strongest retained constructional object is now anonymous:
 
 ```text
-Y — AIIN — Y  ≈  POINTER — SAME/STATED REFERENCE — POINTER
+FORMULA_F3 := Y — AIIN — Y
 ```
 
-Its closest historical functional analogies are *idem*, *ut supra*, ditto-like
-reuse and the recipe convention *ana*. No Voynich card is read phonetically as
-any of these. Equal amount remains only one possible referenced value because
-the Herbal occurrence has an extra adjacent Y card and neither picture
-establishes symmetric operands. Two occurrences support only a
-prediction-worthy shared-reference construction.
+Its closest historical functional analogies include *idem*, *ut supra*,
+ditto-like reuse and the recipe convention *ana*, but ordinary formulaic prose,
+a dyadic frame and an indexed coordinate fit equally well. No Voynich card is
+read phonetically as any analogy. Equal amount is withdrawn because neither
+record establishes symmetric operands.
 
 The exact collapses are stronger than the surface spelling:
 
@@ -614,11 +654,10 @@ f10r.6  CHY TAIIN SHY     Herbal field tail
 f83r.3  CHEY DAIIN CHEY   Bio field head, followed by LCHE-CLOSE
 ```
 
-No common independently annotated picture owner exists. It is therefore more
-plausibly an abstract tagged-parameter/two-place frame than a plant, water,
-tube or figure name. A paired setting remains plausible; equal/shared amount is
-now explicitly subordinate because no symmetric operands are independently
-established. The exact function remains unknown.
+No common independently annotated picture owner exists. V12 therefore retains
+only a copied, teachable exact-card formula. Reference, dyad, index and ordinary
+formulaic prose remain unresolved; no plant, water, tube, figure or quantity
+meaning is licensed.
 
 ### Repeated form stencils
 
@@ -810,15 +849,9 @@ alphabet.
 
 Only pursue work that can materially change this compact theory:
 
-1. **reference-versus-index test:** ask whether field-initial, repeated and
-   `Y–AIIN–Y` occurrences reuse a value/setting active earlier in the same
-   record or merely occupy repeatable checklist coordinates;
-2. **link-operand test:** ask whether L/O's explicit and inherited operands are
+1. **link-operand test:** ask whether L/O's explicit and inherited operands are
    structurally coherent, especially the one-card f81v.7 field;
-3. **paired-frame test:** inspect only the two `Y-AIIN-Y` environments for
-   independently dyadic operands; withdraw equal allocation if neither is
-   symmetric;
-4. **practical-form-versus-checklist test:** seek repeated fixed-page visual
+2. **practical-form-versus-checklist test:** seek repeated fixed-page visual
    roles that distinguish medical/applicative content from generic indexed
    form filling; never import prose cards into the circle pages.
 
