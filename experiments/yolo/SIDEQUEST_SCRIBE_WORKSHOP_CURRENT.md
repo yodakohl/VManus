@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-21, after the four-agent V2 theory comparison.
+Updated: 2026-08-21, after the four-agent V3 continuous-translation pass.
 
 Status: **speculative working theory, not a GDT result and not a
 translation**. This file is the compact authoritative entry point for the
@@ -135,6 +135,38 @@ Likewise AIIN remains a broad parameter candidate; `AIIN = amount` is no longer
 the default reading. Full V2 selection details are recovery-only material in
 `sidequest_theory_candidates_v2/V2_THEORY_SELECTION.md`.
 
+## Four-agent V3 translation refinement
+
+V3 froze a small lexicon before attempting long passages. The continuous and
+historical models tied at 93/100; continuous translation wins because it
+publishes all-occurrence consistency rather than scoring only attractive
+examples. The historical model supplies the preferred source order, and the
+visual model supplies a drawn-argument ellipsis mechanism.
+
+```text
+PICTURED/DOSSIER ADDRESS
+  → ENTRY or reactivated address head
+  → ITEM / RELATION / PARAMETER packets
+  → PREPARATION or CONFIGURATION state
+  → exact payload-bearing COMMIT card
+  → optional open continuation
+```
+
+This resembles a normalized formulary memorandum but does not identify Latin
+or another source language. A vernacular imperative sequence could have been
+compiled into the same form. The picture may silently supply not only the
+subject but page-local parts, stations, paths or endpoints; no card receives a
+universal LEAF, WATER, BODY, TUBE or STAR gloss.
+
+The strongest rival is now explicit: `qokaiin` could be a working liquid or
+matrix rather than an entry head, with the f82r repeat denoting continuous
+material. This rival remains live but secondary because qokaiin is field-first
+in 7/9 cases, has nine distinct right neighbors, and owns no independently
+identified liquid referent. Literal WATER has only `.24` working confidence.
+
+Full details are recovery-only material in
+`sidequest_theory_candidates_v3/V3_THEORY_SELECTION.md`.
+
 ## Generative model
 
 ```text
@@ -220,8 +252,8 @@ FIELD := HEAD? + ARGUMENT/ITEM* + LINK/STATE/PARAMETER*
 
 The strongest new candidate is exact `qokaiin`: 7/9 occurrences are
 field-initial and all nine right neighbors differ. Its restricted entry ecology
-plus broad continuation makes `INSTRUCTION/ENTRY_HEAD` the best anonymous
-role, with TAKE/USE/ENTER/APPLY only a low-confidence expansion class. L/O is
+plus broad continuation makes `ENTRY/ADDRESS_HEAD` the best anonymous role,
+with TAKE/USE/ENTER/APPLY only a low-confidence expansion class. L/O is
 the next best lead: it is predominantly internal and participates in
 `X–L/O–Y–L/O–CLOSE` as well as four `L/O–CLOSE` constructions.
 
@@ -243,12 +275,23 @@ working expansion classes, not translations:
 | form/construction | best current guess | confidence |
 |---|---|---:|
 | attached DY/B3-bearing behavior | local field committed/terminated | .78 formal, no lexical confidence |
-| exact `qokaiin` | entry/instruction head | .46 formal; .27 for TAKE/USE-like source class |
+| exact `qokaiin` | entry/address head | .46 formal; .27 for TAKE/USE-like source class |
 | L/O card | link, co-member or broad relation | .39 formal |
 | AIIN card | parameter, amount, degree, index or reference | .28; .15 for quantity specifically |
 | CTHY card | qualifier/prepared/property state | .25 |
 | Y card | generic item, unit or reference slot | .21 |
 | Bio OKE/OKEE/LCHE/CHE/CKHY deck | local process, configuration or result codes | .18 as a class |
+
+All-occurrence V3 consistency is deliberately less fluent than the examples:
+
+| candidate | strict positional fit | main tension |
+|---|---:|---|
+| qokaiin head | 7/9 | one medial and one field-final/catchword |
+| L/O relation | 14/19 medial | too mobile for one conjunction/preposition |
+| AIIN parameter | 20/20 only at broad class level | 6 first and 5 last reject narrow infix amount |
+| Y item/pointer | 13/18 medial | may be a generic formal card rather than entity |
+| CTHY state | 7/7 distributionally possible | no externally owned prepared state |
+| terminals | 90/90 close formally | individual English action/result readings absent |
 
 The boldest retained constructional reading is:
 
@@ -436,6 +479,26 @@ The maximum useful speculative source-class paraphrase is:
 
 This is not plaintext. `take/set`, `item`, `parameter` and `prepared` name a
 coherent candidate instruction ecology, not identified English lexemes.
+
+Representative V3 free excerpts are:
+
+> **f55v.5:** For the pictured simple, take the measured or indexed share;
+> enter its two local specifications and commit that preparation. Enter the
+> associated parameter and working state, then close the local result.
+
+> **f82r.3–4:** Begin the next entry with its relation and configuration—write
+> the active head at the margin, repeat it at the new line, apply the carried
+> setting to its prepared state, and commit the cell.
+
+> **f83r.3:** Fix the first local state and its related value. Put the two
+> marked entries under one stated parameter, commit their linkage, then
+> activate the next item.
+
+Fluency is capped by a four-way provenance rule: every expressed element must
+be independently pictured/inherited (`P`), a formal card role (`F`), an
+explicitly speculative expansion (`S`), or unsupported (`U`). Translation
+stops at the first `U`; unsupported substances, actions, body parts, amounts or
+directions may not be silently inserted.
 
 Still missing:
 
