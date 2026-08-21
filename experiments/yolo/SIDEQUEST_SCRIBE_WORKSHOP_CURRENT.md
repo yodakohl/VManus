@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-21, after V15 Biological value-deck synthesis.
+Updated: 2026-08-21, after V16 complete default-meaning synthesis.
 
 Status: **speculative working theory, not a GDT result and not a
 translation**. This file is the compact authoritative entry point for the
@@ -601,6 +601,62 @@ one broad pool/application configuration, not as two named visible stations.
 Full details are recovery-only material in
 `sidequest_theory_candidates_v15/V15_THEORY_SELECTION.md`.
 
+## Four-agent V16 complete default-meaning synthesis
+
+V16 changes the sidequest from an architecture with semantic blanks into a
+fully instantiated working translation. Four independent historical scribal
+perspectives each assigned a concrete default meaning to all 381 prose events
+and all 395 primary ZL3b Astro groups. Every candidate covers 776/776 visible
+groups, all 173 exact prose-card types and every group inside multi-group Astro
+labels. No `UNKNOWN`, `OPAQUE`, `PAYLOAD`, `ITEM`, `VALUE` or `STATE` remains as
+a terminal gloss; uncertainty is carried only by confidence and provenance.
+
+The selected basis is the R4 chancery-corrector model (97/100), supplemented by
+R1's apprentice grammar and R3's executable register workflow:
+
+```text
+ordinary iatromedical professional prose
+  -> omit arguments already supplied by picture and running rubric
+  -> abbreviate frequent words and whole phrases as learned exact cards
+  -> copy rare plant, substance and instruction cards from the exemplar
+  -> render open Herbal prose or short committed Bio rubrics
+  -> bind Astro text to its drawn local address
+```
+
+Current concrete defaults:
+
+| card/construction | working meaning |
+|---|---|
+| qokaiin | take up the next entry or portion |
+| L/O | with it; likewise under the same rubric |
+| AIIN | in the stated or usual measure |
+| Y | this share or present portion |
+| CTHY | when prepared and ready |
+| Y–AIIN–Y | both portions by the same stated standard |
+| VAL-S | set ready and close the instruction |
+| VAL-QE | use the tempered warm medium and close |
+| VAL-Q | retain the ordinary base setting and close |
+| VAL-L | pour or rinse at the local place and close |
+| recurrent OKEEY/QOKEEY | warm it gently |
+| recurrent CKHY | through the connected channels |
+
+The present content reading is a practical `WHAT / HOW / WHEN` book: pictured
+simples and their parts/preparations; baths, conduits and local applications;
+then 7/12/28 astronomical or astrological lookup instruments. f68r1 remains a
+spatial catalogue with no invented authorial cycle start. f69v is provisionally
+a 28-position lunar election table with perform/avoid choices.
+
+The selected full dictionary and event readings are
+`sidequest_theory_candidates_v16/V16_R4_COMPLETE_DEFAULT_LEXICON.tsv` and
+`V16_R4_COMPLETE_TRANSLATION_LEDGER.tsv`; all 199 locus readings are in
+`V16_R4_FLUENT_LINE_READINGS.tsv`. The four-way validation is `PASS` in
+`V16_VALIDATION.json`. Full comparison and revision rules are in
+`V16_THEORY_SELECTION.md`.
+
+These English phrases are deliberately concrete defaults, not confirmed
+lexemes or plaintext. A weak default persists until a better concrete reading
+improves all its occurrences; it no longer falls back to an anonymous tag.
+
 ## Generative model
 
 ```text
@@ -909,7 +965,12 @@ Do not revive without genuinely new evidence:
 
 Confirmed English lexemes: **0**. Confirmed plaintext clauses: **0**.
 
-## Translation ceiling
+## Former conservative translation ceiling (superseded for this sidequest)
+
+The following paragraphs preserve the pre-V16 evidential ceiling for canonical
+scientific claims. They no longer govern the exploratory working translation:
+V16 deliberately supplies concrete defaults beyond that ceiling, while
+marking them as speculative rather than silently treating them as established.
 
 For Herbal A, the maximum useful source-class paraphrase is:
 
@@ -967,9 +1028,16 @@ alphabet.
 
 Only pursue work that can materially change this compact theory:
 
-1. **Astro consultation synthesis:** develop one executable whole-diagram
+1. **All-occurrence lexical revision:** choose one recurrent exact card at a
+   time, compare its selected concrete gloss against the recorded concrete
+   rivals, and replace it only when the new gloss improves every occurrence
+   and its surrounding fluent reading.
+2. **Astro consultation synthesis:** refine the executable whole-diagram
    workflow joining the 7/12 selector, spatial1+28 catalogue and alternating28
-   schedule without asserting direct label identity.
+   schedule without inventing a cycle start or direct cross-page label identity.
+3. **Singleton consolidation:** look for source-level paraphrase classes that
+   allow several low-confidence Herbal or Bio `CONTEXT_DEFAULT`s to share one
+   historically ordinary phrase, while retaining a concrete meaning for each.
 
 Do not add pages, mine substrings, revive old glosses, or append another long
 chronological narrative. If none of these changes the model, report the fixed
