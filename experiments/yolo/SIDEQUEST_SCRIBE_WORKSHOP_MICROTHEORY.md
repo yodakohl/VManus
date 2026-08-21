@@ -14,7 +14,7 @@ direct scan of a mixed result table
 unintentionally displayed one `f84v` row; it was excluded from the inference
 and is disclosed in the ledger. No `f84r` row was accessed.
 
-## Current synthesis after Iteration 90
+## Current synthesis after Iteration 98
 
 The leading reconstruction is a **hybrid abbreviated language + technical
 codebook** used for an illustrated medico-astrological workshop handbook.
@@ -23,7 +23,7 @@ codebook** used for an illustrated medico-astrological workshop handbook.
 DOCUMENT
   four two-module simple-medicine entries
   three variable bath/application/apparatus records with local hydraulic labels
-  three astronomical lookup modes: selection wheel, spatial catalogue, schedule
+  three astronomical lookup modes: multilayer selection wheel, spatial catalogue, schedule
 
 ENCODING
   picture/geometry supplies silent subject, owner, ordinal and some state
@@ -34,9 +34,13 @@ ENCODING
   DY checkpoints a local cell but does not end the statement
 ```
 
-The strongest exact master-rule candidate is all-reading-stable `DY DAIIN`
-across Herbal-A/hand 1 and Biological-B/hand 2: an anonymous checkpoint-to-
-explicit-state transition. The strongest content-system guesses remain local.
+The strongest genuinely grammar-licensed local handoff is all-reading-stable
+`QOLCHEDY | QOKAIN` on f81v and f82r: the first exact tuple is a one-group
+DY-closed field and the second exact tuple opens the following field. The
+all-reading-stable surface sequence `DY | DAIIN` crosses Herbal-A/hand 1 and
+Biological-B/hand 2, but GDT327 parses it as consecutive `D:Y` and `D:AIIN`
+cards, not as a closure followed by a value. Its old checkpoint reading is
+withdrawn. The strongest content-system guesses remain local.
 Biological `OL` behaves like a carrier/medium/channel class, and
 `D/S + AR + OL + right state` differentiates related hydraulic constructions. `OTAIN OLKAL`
 is a tub/apparatus caption candidate; `OKAL` is an anonymous card reused between
@@ -44,7 +48,8 @@ a figure label and two prose blocks; SOL is a flexible Biological construction
 head. Exact `CHOL` crosses Herbal-A/hand 1 and circle/hand 4, making a shared
 quality/classification axis plausible; `CTHY` is its Herbal-local companion.
 On circle pages the written label is residual data added to visible
-ring/star/radial coordinates.
+ring/star/radial coordinates. f67r2 has three distinct counted layers—not just
+12 and 7, but also an independently catalogued central ring of 8 labels.
 
 The leading document-level reading is an illustrated practical/medical
 handbook or workshop miscellany. The Biological subset is best read as
@@ -4221,7 +4226,7 @@ parallel compartments of a shared green enclosure: successive slots can reuse
 a treatment setting and then override it locally. The picture supplies only
 the repeated-stage interpretation, not ownership of either token.
 
-A more reproducible transition crosses three pages:
+A more reproducible surface sequence crosses three pages:
 
 ```text
 f11r.4   ... KCHY | DY DAIIN
@@ -4229,11 +4234,15 @@ f81v.4   ... DAIN | DY DAIIN | CHCTHY
 f82r.15  ... QOKAIIN | DY DAIIN | CHDY DY
 ```
 
-`DY | DAIIN` survives all three readings at all three loci. This extends the
-workshop state machine:
+`DY | DAIIN` survives all three readings at all three loci. The interpretation
+below was the Iteration-54 guess and is superseded by Iteration 94: GDT327
+represents the freestanding `DY` here as `D:Y`, with no `dy_closure` flag.
+Therefore the sequence does **not** independently establish a checkpoint.
+
+The old proposed workshop state machine was:
 
 ```text
-DY       checkpoint/commit the current local cell
+DY       checkpoint/commit the current local cell [WITHDRAWN FOR FREE DY]
 DAIIN    write or activate the next registered setting/value cell
 S-AIIN   inherit the current setting/value into the new packet
 ```
@@ -4314,11 +4323,12 @@ it still does not make OL the word WATER.
 ## Iteration 57 — ten-page saturation
 
 After adding the four frozen pages, the exact cross-folio construction census
-has produced only four genuinely new reusable observations:
+had produced four reusable observations. Iteration 94 later corrects the
+second row's functional interpretation:
 
 ```text
 CHOL CTHY            Herbal-A/hand-1 standard construction
-DY DAIIN             checkpoint followed by set/value card
+DY DAIIN             consecutive D-rendered Y and AIIN cards; not a proven checkpoint
 QOLCHEDY QOKAIN      Biological two-card process/reference frame
 OTOR label ↔ prose   diagram identifier card reused in a construction
 ```
@@ -5211,14 +5221,15 @@ array also has no authorial start or direction. This rejects the simplest
 A more realistic workshop system uses different dimensions:
 
 ```text
-f67r2   rule/classification wheel: 12-member system under 7-member system
+f67r2   rule/classification wheel: 12 sectors + selective 7-ring + central 8-ring
 f68r1   spatial object or station catalogue around sun/moon references
 f69v    ordered 28-position schedule with a visible parity/alternation channel
 ```
 
 The three tables can belong to one astrological toolkit without sharing
-surface identifiers. The 12/7 wheel may choose sign and celestial controller;
-the star field may identify a spatial configuration; the 28 schedule may give
+surface identifiers. The 12/7/8 wheel may combine a main cyclic class, a
+selective overlay and a central orientation/state vocabulary; the star field
+may identify a spatial configuration; the 28 schedule may give
 a daily/station prognosis, permitted action or state. These are semantic
 possibilities, not decoded coordinates.
 
@@ -5229,7 +5240,7 @@ fever prediction, a zodiac scale and a 1–28 scale for lunar mansions
 Late medieval folded almanacs were likewise designed in part for medical
 practitioners
 (<https://research-information.bris.ac.uk/en/publications/astrological-medicine-and-the-medieval-english-folded-alihanac/>).
-This makes a 7/12/28 medical timing apparatus plausible, but it does not make
+This makes a 7/8/12/28 multi-cycle apparatus plausible, but it does not make
 f69 a lunar-mansion list or connect any Voynich card to a mansion.
 
 The strict f69 LONG/SHORT alternation is best read as a parity or two-column
@@ -5244,9 +5255,10 @@ The strongest complete but explicitly speculative reading is:
 
 ### f67r2
 
-> Choose the relevant one of twelve cyclic classes and the governing one of
-> seven celestial classes. Read the associated short rule cards and consult the
-> surrounding legend for how to combine them.
+> Choose the relevant one of twelve cyclic classes, consult the selectively
+> populated seven-card overlay and then the separate central eight-card ring.
+> Read the associated short rule cards and surrounding legend for how the
+> layers combine. None of the three vocabularies is yet identified.
 
 ### f68r1
 
@@ -5530,15 +5542,14 @@ The three strongest exact adjacent-card formulae separate into useful layers:
 |---|---|---|---|
 | `CHOL CTHY` | f10r, f11r, f56r | exact in ZL/IT/RF | hand-1/Herbal-A stock classification formula |
 | `S AIIN` | f55v, f81v, f82r, f83r | several IT/RF disagreements | hand-2/Currier-B carry/value rendering |
-| `DY DAIIN` | f11r, f81v, f82r | exact in ZL/IT/RF | shared checkpoint-to-explicit-value transition |
+| `DY DAIIN` | f11r, f81v, f82r | exact in ZL/IT/RF | shared D:Y-to-D:AIIN surface sequence; closure reading withdrawn |
 
-The last row is the most important. It crosses Herbal A/hand 1 and Biological
-B/hand 2, while the other two formulae remain perfectly confounded with a
-scribe/register package. If several scribes learned the system, `DY -> DAIIN`
-is a plausible master-rule transition and the other formulae plausible local
-phrasebook entries. This does not prove that DAIIN means a value; it says only
-that a checkpointed field can reopen in the same explicit formal state across
-different hands.
+The last row initially looked most important because it crosses Herbal A/hand
+1 and Biological B/hand 2. Iteration 94 shows why that inference was too fast:
+the exact GDT327 tuple for the free `DY` is a `d`-wrapper over Y and carries no
+DY-closure flag. The recurrence still supports a portable ordered pair, but it
+does not show that a checkpointed field reopens. `QOLCHEDY | QOKAIN` is the
+cleaner closure-to-entry construction inside this ten-page sample.
 
 The plant images strengthen the nonvisual reading of the Herbal formula. f10r
 has tiered toothed leaves and two storage-like lateral roots, f11r a dense
@@ -5683,7 +5694,7 @@ to enter on each page.
 | f11r | dense, blue-flowered multi-stem simple | identify another simple in the same Herbal-A quality system; enter two short use/property modules and repeat one SHOR card | quality system low; repeat function low |
 | f55v | broad single-leaf simple with tall inflorescence | enter a Currier-B/hand-2 identity/property packet, then a longer relational/preparation packet using AIIN values and OL/AR cards | module split medium; content very low |
 | f56r | spiral/radiating blue-headed simple | classify the simple, reuse CHOL in both modules, and give a second packet of use/preparation conditions ending in a setting | shared axis low; exact purpose very low |
-| f67r2 | nested 12- and 7-member wheel | choose or cross-reference an outer class and an inner celestial/lunar class; use the prose/legends to derive a registered quality or state | counts high; selection/use low |
+| f67r2 | 12 sectors, selective 7-label ring and central 8-label ring | combine or cross-reference three separately rendered class/state layers; use the prose/legends to derive a registered result | counts high; layer functions very low |
 | f68r1 | 29 labelled stars with one central object | locate or register an object/station in a spatial catalogue; write its local residual identifier/attributes | inventory high; object semantics very low |
 | f69v | ordered 28-radial array with strict alternation | consult the selected ordinal and silent parity column; copy its state/prognosis/action card, allowing the same card at multiple positions | schedule topology high; lunar/medical use very low |
 | f81v | many women in a common enclosed pool | first set bath/material/setting values; then record a long immersion regimen, process sequence or consequences under the OTAIN–OLKAL apparatus key | mode switch medium; treatment content very low |
@@ -5850,7 +5861,7 @@ what the other pages of its register would lead the workshop theory to expect.
 | f10r/f11r/f56r Herbal A | two prose modules, hand-1 phrasebook, CHOL–CTHY quality construction | all three fit | module content and order vary |
 | f55v Herbal B | two prose modules but a different hand/register phrasebook | two modules, no CHOL–CTHY, S–AIIN available | exact content heads not predicted |
 | f81v/f82r/f83r Biological | female figures plus pool/vessel/conduit topology; dense state/process cards; local apparatus labels | broad fit on all three | number of prose modules and local labels varies sharply |
-| f67r2/f68r1/f69v circle | geometry carries address and writing supplies residual cards | broad fit | 12+7 wheel, 29-star map and 28-alternating schedule are not mutually predictable |
+| f67r2/f68r1/f69v circle | geometry carries address and writing supplies residual cards | broad fit | 12+7+8 wheel, 29-star map and 28-alternating schedule are not mutually predictable |
 
 This stress test leaves three conclusions:
 
@@ -5940,3 +5951,219 @@ remain unlicensed. A plant picture may still encode habitat, including water,
 or may combine mnemonic features from several source plants. The current
 workshop grammar allows that content but cannot recover it from these four
 images alone.
+
+## Iteration 94 — free `DY` is not the formal DY closure
+
+The previous synthesis promoted the all-reading-exact surface sequence
+`DY | DAIIN` as a portable checkpoint-to-value transition. That was a layer
+error. On the one occurrence directly represented in the frozen GDT327
+interlinear, f11r.4, the free group `DY` has:
+
+```text
+observed wrapper = d
+opaque host       = Y
+dy_closure        = 0
+within field      = MIDDLE
+```
+
+It is therefore a `D:Y` card in the current grammar, not the same object as
+the group-internal DY closure state. The next surface group is independently a
+`D:AIIN` card. f81v.4 and f82r.15 preserve the same visible pair in all three
+readings, but their recurrence licenses only:
+
+```text
+D:Y  ->  D:AIIN
+```
+
+as an ordered cross-register card pair. It does not license “finish, then set
+the value.” This correction is important for the invented scribe: a novice
+must learn the registered card analysis, not mechanically treat every visible
+`dy` as punctuation.
+
+The strongest genuine field handoff inside the fixed ten pages is instead:
+
+```text
+f81v.17  ... SHEDY // QOLCHEDY // QOKAIN ...
+f82r.2   DCHEDY // QOLCHEDY // QOKAIN | DY | QOKEEDY ...
+```
+
+`QOLCHEDY | QOKAIN` is exact in ZL3b, IT2a and RF1b on both pages. In GDT327,
+the first opaque tuple is an `ONLY` group with `dy_closure=1`; the second is
+`FIRST` in the following field. This is a real reusable compiler instruction:
+
+```text
+close registered OLCHE construction
+open following field with registered OK+AIN construction
+```
+
+The semantic values remain unknown. A process-to-quantity paraphrase is
+possible in a medical record, but the formal result establishes only the
+handoff.
+
+## Iteration 95 — four phrasebook layers, ranked by what actually transfers
+
+The exact and reading-sensitive sequences now separate more cleanly:
+
+| construction | pages | readings | layer supported | aggressive workshop guess |
+|---|---|---|---|---|
+| `QOLCHEDY | QOKAIN` | f81v, f82r | exact ZL/IT/RF | Biological field handoff | completed carrier/process stage → parameter or registered next item |
+| `D:Y | D:AIIN` | f11r, f81v, f82r | exact ZL/IT/RF | portable ordered D-card pair | related explicit values or assignments |
+| `CHOL | CTHY` | f10r, f11r, f56r | exact ZL/IT/RF | hand-1 Herbal stock construction | paired constitution/quality clause |
+| `OL | S | AIIN` | f55v, f82r | ZL/RF split; IT joins `SAIIN` on f82r | hand-2 JOIN/SPACE phrasebook | carrier/context plus inherited value |
+
+The fourth row is especially revealing about the writing system. f55v.10 has
+`OL | S | AIIN` in every reading. f82r.16 has the same three groups in ZL/RF,
+but IT2a reads `OL | SAIIN`. The content-bearing construction can therefore
+survive a source-boundary disagreement. This is exactly what the workshop
+compiler requires: SPACE versus JOIN is sometimes a rendering decision rather
+than a safe linguistic word boundary.
+
+`CHOL` is also more productive than the stock pair alone suggests. Twelve
+exact occurrences span five pages. Only three are followed by `CTHY`; other
+local continuations include `OR`, `CHOLOR`, `CHOLY`, `GIIN`, `OKOL` and YK/OL
+contexts. f10r.8 even writes:
+
+```text
+OTOL | CHOL | CHOLOR | CHOL | DAIIN | DAR
+```
+
+This looks more like repeated selection from a CHOL row or classification axis
+than one indivisible word. The most concrete safe reading is “invoke the CHOL
+class, then choose a local completion.” Calling that class a medicinal quality
+remains a genre-based guess.
+
+## Iteration 96 — paragraph closure is layout, not a universal closing word
+
+The final groups of the eight Herbal paragraphs are:
+
+```text
+CTHY, QOTOR, DAIIN, DY, DAIINY, OTAM, CHEECKHODY, DAIIN
+```
+
+They contain seven distinct forms; only `DAIIN` repeats. The ten principal
+Biological prose paragraphs end in nine distinct forms; only `SHEDY` repeats.
+No common surface group marks even half of the record endings in either
+register. Conversely, many DY-looking groups occur inside continuing records.
+
+The scribe model should therefore make the paragraph boundary an authored
+layout event and the strongest record delimiter, while treating B3/DY as local
+construction states rather than period signs:
+
+```text
+PARAGRAPH_END := finish current record in available page space
+                 + optional local closing construction
+                 + visible blank/reset
+
+LINE_END      := stop this writing packet at the drawing or margin
+                 + carry compiler state when the paragraph continues
+```
+
+This is compatible with the user's production correction that the pictures
+were laid down first. Text can bend, split or shorten because the available
+space changes; no semantic plant part or apparatus part follows merely from
+vertical proximity.
+
+The manuscript analogies support the record architecture but not the cards.
+Studies of Middle English recipes divide their variable surface text into
+heading/purpose, ingredients or preparation, application and additional
+comments
+(<https://www.peterlang.com/document/1054689>). The Middle English
+*Antidotarium Nicolai* likewise has remedy name/explanation, indications,
+ingredients, preparation, dosage and administration
+(<https://theses.gla.ac.uk/8965/>). Those variable modules explain why one
+record can need three lines and another eleven without requiring one sentence
+per line.
+
+## Iteration 97 — f67r2 is a 12 + 7 + 8 instrument
+
+The source-native human inventory corrects the simplified 12+7 description.
+f67r2 contains:
+
+```text
+12 moon-bearing sectors with short local prose
+12 labels below the moons
+ 7 labels above selected moons
+ 8 labels in a separate ring around the central star/flower
+ 1 ruled three-line legend at the bottom
+```
+
+The central eight are not a minor decoration: they are a third written
+vocabulary with their own circular ownership. The best functional paraphrase
+is now a **three-layer lookup instrument**:
+
+```text
+sector layer      choose the principal cyclic case
+selective 7 layer choose or display an applicable secondary controller/class
+central 8 layer   choose an orientation, state family, phase or other index
+sector prose      supply the local rule or result
+bottom legend     explain or qualify use of the wheel
+```
+
+Every noun in the right column is an alternative, not a decoded role. In
+particular, the eight labels are not assigned to winds or directions. An
+eight-wind azimuth convention existed, while twelve signs and seven planetary
+bodies were ordinary medieval scientific inventories; the Oxford scientific-
+instrument glossary documents the eight traditional 45-degree wind sectors
+(<https://www.mhs.ox.ac.uk/epact/glossary.php?FirstID=138&RecordsAtATime=155>),
+and Walters W.73 documents a medieval diagram relating the zodiac and seven
+planetary bodies
+(<https://art.thewalters.org/object/W.73.2V/>). These show that a compiler
+could combine differently sized scientific cycles. They are not an exact
+12+7+8 donor, and no cardinal orientation is established on f67r2.
+
+This correction weakens the easy “twelve signs plus seven planets” reading:
+that pair alone leaves an entire authored ring unexplained. It strengthens the
+more general interpretation of f67r2 as an operational lookup page rather than
+a labelled picture or ordinary prose passage.
+
+## Iteration 98 — best current workshop theory, version 0.6
+
+The most economical system a small group of scribes could actually learn is
+now the following.
+
+```text
+1. COPY OR DRAW THE PAGE OBJECT FIRST
+   plant, bath/apparatus or circular instrument fixes the page register and
+   silently supplies the expensive subject/address.
+
+2. CHOOSE A RECORD TEMPLATE
+   HERBAL: two broad modules for simple-medicine information.
+   BATH: variable site/apparatus/process modules plus local diagram keys.
+   CIRCLE: geometry-owned lookup cells plus a prose legend.
+
+3. SELECT OPAQUE REGISTER CARDS
+   cards encode local identities, qualities, values, relations or operations;
+   the exact semantic table is lost.
+
+4. APPLY THE SHARED COMPILER
+   choose licensed wrapper/frame/right/closure states; use genuine closed-field
+   handoffs such as QOLCHEDY -> QOKAIN; do not parse surface DY mechanically.
+
+5. RENDER FOR HAND AND SPACE
+   choose joined/detached spellings, line-entry and post-closure realizations,
+   then reflow the record around the pre-existing drawing.
+
+6. END THE RECORD BY LAYOUT
+   paragraph reset carries the reliable record boundary; no universal written
+   full stop is required.
+```
+
+The corresponding maximum-use content theory is:
+
+- **Herbal:** illustrated entries for simples, probably organized around
+  classification/constitution and practical virtues or applications. The
+  two-paragraph division is real; its exact semantic order is not.
+- **Biological:** records about baths, sources, vessels, conduits, immersion or
+  local application. A women's-health use remains plausible because the human
+  figures are female and comparable treatments use baths and fumigation, but
+  it is not required by the formal system.
+- **Astronomical:** three distinct instruments—a 12+7+8 lookup wheel, a
+  29-object spatial catalogue and a 28-position alternating schedule. Their
+  medical use is historically plausible, not internally proved.
+
+This version explains more with less than the earlier theory. It needs no
+phonetic cipher alphabet, no clean root-and-affix language, no line-final
+period token and no global word dictionary. It requires only a master set of
+construction rules, register-specific card tables and scribal rendering
+habits. The still-missing object is the card table: without an external
+parallel, the system can be reconstructed more confidently than its values.
