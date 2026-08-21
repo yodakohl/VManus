@@ -5908,3 +5908,35 @@ language” alone. It does not identify what the cards mean, and GDT003 still
 shows that their formal fourth-cell prediction does not beat strong character
 statistics. The compiler is a production architecture, not demonstrated
 linguistic morphology.
+
+## Iteration 93 — plant-identification literature does not orient the quality axis
+
+A targeted literature/community audit of the four fixed Herbal images does not
+produce a usable external anchor:
+
+- early tentative lists call f10r *Scabiosa*, while newer catalogues and
+  independent enthusiasts also propose cornflower/*Centaurea cyanus*;
+- f56r has been called sundew in a published carnivorous-plant book, but close
+  visual discussion also proposes *Echium* or a palm-like plant and notes that
+  every candidate ignores major parts of the drawing;
+- f11r's stable catalogue description is merely “spiny carrots”, emphasizing
+  its composite or unnatural features rather than identifying a taxon;
+- f55v has candidate transcription incipits but no comparably repeated,
+  consensus plant identification.
+
+The early tentative table is preserved by René Zandbergen
+(<https://www.voynich.nu/extra/herb_oldid.html>); the f56r sundew provenance and
+its limitations are summarized here
+(<https://ciphermysteries.com/2008/04/11/voynich-f56r-sundew-updated>).
+
+This failure matters. Choosing Scabiosa and sundew because historical sources
+might assign both a convenient hot/dry constitution, while leaving f11r
+unidentified, would manufacture the desired CHOL/CTHY mapping. The image
+identifications are not sufficiently independent or consistent to orient the
+quality axis.
+
+Therefore `CHOL = HOT`, `CTHY = DRY`, botanical names and water-habitat readings
+remain unlicensed. A plant picture may still encode habitat, including water,
+or may combine mnemonic features from several source plants. The current
+workshop grammar allows that content but cannot recover it from these four
+images alone.
