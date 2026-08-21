@@ -1913,3 +1913,192 @@ abbreviated local vocabulary
 
 This is more coherent than either ordinary prose or a pure codebook, while
 still leaving almost all concrete nouns and operations unresolved.
+
+## Iteration 24 — f55v as two preparations for one depicted plant
+
+f55v contains twelve lines divided source-natively into two six-line
+paragraphs. Reading the paragraph as the record produces a more natural
+workshop document than reading twelve separate sentences.
+
+### Paragraph 1: f55v.1--6
+
+The first line introduces several dense CHE/CKHY and DAIIN-like constructions.
+The middle repeatedly cycles through OKE/OKEE grades, CHEDY variants, ODY/DY,
+and AIIN values. The final line is unusually parameter-heavy:
+
+```text
+ykaiin | daiin | ykair | cheky | daiiny
+```
+
+Provisional record shape:
+
+```text
+line 1     identify plant part/preparation base and initial condition
+line 2     begin graded treatment and introduce a measured value
+line 3     continue at another grade; introduce carrier/state OL; checkpoint AM
+line 4     repeat treatment of the same local part/state
+line 5     set paired values and a prepared-state variant; checkpoint TALAM
+line 6     summarize N/R-type parameters and close the paragraph
+```
+
+Fast natural-language paraphrase:
+
+> Take the relevant part of the depicted plant in the stated initial
+> condition. Treat it through the indicated grades in a carrier medium, adding
+> the registered quantity. Repeat or continue the treatment, set the paired
+> parameters, and leave the preparation in the indicated final local state.
+
+This is invented, but it respects the actual multi-line recurrence better than
+twelve unrelated glosses.
+
+### Is `OL` water?
+
+The most useful cross-section abstraction remains:
+
+```text
+OL    carrier / medium / channel
+AROL  extended carrier-course / path
+```
+
+On a plant-preparation page, `OL` could concretely be **water**, oil, juice,
+decoction liquid, or vessel contents. On a Biological apparatus page, the same
+abstract role could be a conduit or flow path. The present sidequest therefore
+permits the paraphrase "in water/the liquid medium" but does not bind `OL`
+specifically to water.
+
+### Paragraph 2: f55v.7--12
+
+The second paragraph reuses AIIN/DAIIN, OK-, OTAR, AR, AL, OL, and CHE-like
+families but changes their ordering. This is exactly what we would expect from
+a second preparation, application, storage condition, or alternative method
+for the same pictured plant.
+
+Provisional shape:
+
+```text
+line 7      introduce alternate local state/part
+lines 8--9  specify treatment and AR/AL relations
+lines 10--11 accumulate carrier and parameter values
+line 12     bind the last values in AR/OL context; close at OTAM
+```
+
+Fast paraphrase:
+
+> Alternatively prepare or apply the same plant under the second condition.
+> Use the specified carrier/path relation, add the indexed quantities in the
+> stated order, and retain the final marked medium/state.
+
+### Currier A versus B in the workshop theory
+
+This yields a concrete explanation for the established architectural
+difference without requiring two languages:
+
+```text
+Herbal Currier A  descriptive catalogue / identification register
+Herbal Currier B  preparation, application, or dispensary record register
+```
+
+Both may describe plants, but B compiles more of the practical procedure into
+short closed fields and repeated parameter updates. This is presently the best
+sidequest-level interpretation of why the same broad formal vocabulary appears
+in Herbal B and Recipe/Stars records.
+
+## Iteration 25 — Biological paragraphs as reusable process programs
+
+The complete f82r.11--19 paragraph repeatedly uses the same compact families
+across nine physical lines:
+
+```text
+QOKEDY / QOKEEDY / QOKEEY / QOKEEEY
+LCHEDY / OLCHEDY
+CHEDY / SHEDY
+QOKAIIN / OKAIN / AIIN
+OL / OR / R
+```
+
+f83r.25--30 independently reuses QOKEEDY, QOKEEY, QOKEDY, CHEDY, SHEDY and
+OLDY in another six-line paragraph. In the workshop story these are not names
+of fifteen objects. They form a reusable process language applied to different
+local diagrams.
+
+### A bolder contextual vocabulary
+
+```text
+OKE                 standard transform/process
+Q + OKE             execute or activate that process
+E-count             process grade, duration, or intensity
+DY                   commit the local process state
+CHE                 prepare/qualify the current item or channel
+SH                  treated/resulting realization of a comparable state
+L / OL              carrier, vessel, medium, or channel
+R / AR               route/relation/course selector
+AIIN                 measured setting, amount, time, or ordinal
+```
+
+In the Biological register the most natural concrete paraphrases are:
+
+```text
+QOKEEDY   flush/bathe/circulate at grade 2, then checkpoint
+QOKEDY    flush/bathe/circulate at grade 1, then checkpoint
+LCHEDY    hold/settle in the channel or vessel, then checkpoint
+SHEDY     resulting treated state, checkpoint
+QOKAIIN   execute process with registered setting N2
+```
+
+"Water" is highly plausible as one physical medium on bathing/apparatus pages,
+but these are contextual glosses. The abstract operation could also cover heat,
+mixture, flow, immersion, or timed residence.
+
+### f82r.11--19 as an invented nine-stage program
+
+```text
+11  initialize channel/device; execute standard process; retain KAM checkpoint
+12  enter marked process; set conduit/path and local prepared state
+13  transfer through OLCHE; repeat standard process; retain AROL course
+14  load R/OL channel state; set grade and quantity parameters
+15  cycle through K/LCHE/OKE states with several local commits
+16  repeat standard process twice; bind R/OR/OL carrier; retain DAM checkpoint
+17  execute several grades; leave RALCHEY local state
+18  load carrier, resulting state, DAL relation and measured parameter
+19  write final OKAIN/QOKEEDY/LCHY packet and close the paragraph
+```
+
+Fast paraphrase:
+
+> Set up the indicated vessel or channel. Run the standard bath/flow operation
+> through the listed grades, holding the material at the marked intermediate
+> states. Set the recorded amount or duration, repeat the cycle where shown,
+> transfer through the indicated course, and leave the system in its final
+> local channel state.
+
+### f83r.25--30 as a shorter related program
+
+```text
+25  execute several OKE grades; qualify state Y; set marked AL state
+26  prepare marked channel; repeat OKE; enter resulting state and commit
+27  set N1 parameter; prepare; process; record the same treated state twice
+28  introduce N2 parameter; qualify; process; retain resulting OLDY state
+29  carry forward SALCHE/OLDY state with a local exceptional value
+30  reset/continue; execute OKE grades; close the paragraph
+```
+
+This repeated process inventory is the strongest reason to imagine a small
+workshop with standardized procedural notation. The page image supplies which
+vessel, body, pool, tube, or route is current; the text records what is done to
+it and with which local settings.
+
+### Cross-register contextual translation
+
+The same abstract cell can receive a register-specific paraphrase without
+changing its compiler role:
+
+```text
+Herbal       QOKEEDY = soak/extract/process at grade 2
+Biological   QOKEEDY = bathe/flush/circulate at grade 2
+Recipe       QOKEEDY = perform the standard operation at grade 2
+Circle       QOKEEDY = execute/record the slot's grade-2 state
+```
+
+This is exactly the hybrid hypothesis: a small shared technical algebra plus
+page-local vocabulary and image-supplied referents, not one universal English
+word per Voynich group.
