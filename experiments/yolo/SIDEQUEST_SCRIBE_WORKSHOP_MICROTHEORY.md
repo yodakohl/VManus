@@ -7744,3 +7744,212 @@ applications, qualities, or state results; their English meanings remain
 unrecoverable on the fixed pages. The important gain is knowing which cards to
 look up in a lost Bio phrasebook, rather than treating their surface strings as
 ordinary related words.
+
+## Iteration 149 — the only long shared formula has no shared picture referent
+
+The existing human/layout annotations do not attach the two `Y-AIIN-Y`
+occurrences to homologous visible objects. The f10r occurrence is embedded in
+ordinary prose beside a plant page whose frozen GDT137 inventory has none of
+the twelve specific visual-feature flags. The f83r occurrence is in the third
+line of its first prose block. The securely localized f83r labels and
+apparatus relations occur much later at loci .45/.46/.50/.51; no source-native
+annotation assigns the .3 construction to one tube, figure, outlet or fluid.
+
+This is useful negative evidence. If `Y-AIIN-Y` named a plant part, water,
+tube or figure, its transfer between these two contexts would be difficult to
+explain. A generic construction—type/value frame, comparison frame, copied
+ledger slot, or other abstract record syntax—is easier. The triplet therefore
+moves one step toward **grammar/template** and one step away from **content
+name**, without acquiring a translated function.
+
+## Iteration 150 — the four shared cards occupy different construction zones
+
+On the 381 GDT327-covered events of the seven fixed prose pages, the four
+candidate core cards behave as follows:
+
+| exact card | events | FIRST | MIDDLE | LAST/ONLY | next event is attached close | next event is field-final |
+|---|---:|---:|---:|---:|---:|---:|
+| AIIN | 20 | 6 | 9 | 5 | 0/15 | 3/15 |
+| Y | 18 | 2 | 13 | 3 | 3/15 | 7/15 |
+| L/O | 19 | 3 | 14 | 2 | 5/17 | 7/17 |
+| CTHY | 7 | 0 | 6 | 1 | 1/6 | 3/6 |
+| every other card | — | — | — | — | 37/193 | 62/193 |
+
+None of the four is itself a DY/B3-closing card. More importantly, AIIN is
+never immediately followed by an attached close in the fifteen cases with a
+following event. Y and especially L/O are much more compatible with a
+following close or field-final card. Small counts bar a hard syntax, but the
+best workshop interpretation is now:
+
+```text
+AIIN  portable interior value/address card
+Y     portable type/frame card that can lead toward a field result
+L/O   portable relation/class card often near the resolved side of a field
+CTHY  portable property/state card, usually interior
+```
+
+This ordering evidence is independent of the withdrawn surface-prefix glosses.
+It also argues against treating the four cards as undifferentiated content
+labels.
+
+## Iteration 151 — a medieval scribe could learn this without learning a cipher
+
+The smallest learnable workshop procedure is a set of exemplar tables, not a
+phonetic key:
+
+1. identify the page register from the already drawn image and ruling;
+2. choose an article/cell/ring template from a small register phrasebook;
+3. copy exact cards from the shared ledger plus the register-local deck;
+4. place cards in licensed entry/interior/result/close positions;
+5. choose the contextual wrapper rendering used by the current hand;
+6. reflow the record around the drawing, continuing across physical lines;
+7. omit arguments already supplied by the picture or diagram.
+
+That procedure is teachable by copying a few model pages. It tolerates
+several hands, explains why the same exact card surfaces as `AIIN`, `DAIIN`,
+`SAIIN`, `CHAIIN` or `TAIIN`, and does not require every scribe to perform an
+elaborate cipher calculation. Irregular and rare cards can simply be copied
+from exemplars. The writer may know the source content while the surviving
+notation remains lossy to us.
+
+## Iteration 152 — the strongest speculative parse is a tagged value frame
+
+Thinking as that scribe, the most economical use of the sole cross-page
+three-card formula is:
+
+```text
+Y  AIIN  Y
+TAG/FRAME  REGISTERED VALUE  TAG/FRAME
+```
+
+This need not be an opening and closing bracket in the modern typographic
+sense. It could be a repeated category card around a value, a copied
+left/right slot pair, or a two-place relation whose two operands happen to use
+the same type. The f10r line actually has `Y Y AIIN Y`, so the first Y may be
+the preceding slot, a repeated entry, or the end of the prior construction.
+The f83r triplet is followed by an LCHE closing card, making the cell boundary
+clearer there.
+
+The provisional rendering is therefore only:
+
+```text
+f10r.6  ... [Y] [Y : AIIN : Y]                     (open Herbal dossier tail)
+f83r.3  ... [Y : AIIN : Y] [LCHE-CLOSE]            (closed Bio specification)
+```
+
+This is more concrete than “similar words occur,” but deliberately stops short
+of `quantity`, `dose`, `degree`, `from-to`, `same`, or any other gloss.
+
+## Iteration 153 — maximum ten-page work theory, revision 11
+
+The ten pages now fit one compact generative account:
+
+```text
+SOURCE MATERIAL
+  plant/simple knowledge | bath/application specifications | astro tables
+        ↓ workshop reduction
+PRE-DRAWN IMAGE
+  supplies subject, object class, geometry and many repeated arguments
+        ↓
+REGISTER TEMPLATE
+  Herbal dossier | Bio checked-cell record | Astro local lookup array
+        ↓
+CARD SEQUENCE
+  shared abstract core + register-local technical values
+        ↓
+FIELD GRAMMAR
+  entry / interior / result-near / attached close
+        ↓
+HAND RENDERER
+  contextual wrapper + JOIN/SPACE + physical-line reflow
+```
+
+The likely source is not one ordinary sentence encoded letter by letter.
+Rather, a scribe reduces heterogeneous practical knowledge into a page-specific
+technical register. Herbal most plausibly records the pictured simple's
+identity/classification, qualities, preparation or use; water may occur as
+habitat, medium or application, but no fixed card means water. Biological
+pages reuse a denser configuration/state deck for baths, conduits, vessels,
+bodies or applications. Astro pages use geometry as the main address and
+write only local residual values. The three registers may form a WHAT/HOW/WHEN
+handbook, but a looser workshop miscellany remains the safer overall genre.
+
+The closest available “translation” is consequently a schematic instruction
+to the scribe:
+
+> For the object already shown, instantiate the appropriate register template;
+> enter its type/relation/value cards, close resolved cells, and continue the
+> same record across whatever line space the drawing leaves.
+
+No exact plant, substance, action, body part, number or astronomical value has
+yet been recovered. The important advance is a plausible, learnable 1420-era
+production workflow and a more sharply differentiated anonymous card syntax.
+
+### Source-handling note for this iteration
+
+A broad repository `rg` navigation command inadvertently traversed mixed
+legacy TSVs while locating fixed-page annotations. It displayed only the
+explicitly searched f10r/f83r rows and no f84/f84r row, but this was not the
+required guarded access pattern. All subsequent mixed-table extraction in
+this iteration used `./vmanus-exp query-tsv` with an explicit seven-page allow
+list and `--forbid-prefix f84`. No f84/f84r image or text value was inspected.
+
+## Iteration 154 — closure style and Bio cell length are separable
+
+The fixed-page field census corrects an important overreading:
+
+| register | fields | mean cards/field | attached-close fields |
+|---|---:|---:|---:|
+| Herbal A | 16 | 5.12 | 2/16 (.125) |
+| Herbal B (f55v) | 4 | 4.50 | 3/4 (.750) |
+| Other/Biological B | 115 | 2.44 | 85/115 (.739) |
+
+The high closure rate follows the B writing system even onto the Herbal f55v
+page, while short checklist-like cells remain characteristic of the
+Biological template. Therefore the earlier “Bio closing-state deck” conflated
+two layers. The corrected decomposition is:
+
+```text
+Currier/renderer B   strongly favors explicit attached closure
+Biological template strongly favors many short fields/cells
+Bio local deck       supplies which particular closing cards recur
+```
+
+This is exactly the kind of rule a small workshop can teach: the same page
+content type can be laid out with a different closure convention, and the same
+B closure habit can serve long Herbal fields or short Bio cells. Closure must
+not be translated as a Bio operation or result merely because it is abundant
+there.
+
+## Iteration 155 — one exact carry-forward proves a line is not the record
+
+Across the fixed GDT327 prose there are 46 consecutive physical-line
+transitions that remain inside the same paragraph record. Only 9/46 preceding
+lines finish with an attached closing card, so neither physical line end nor
+field closure is a general record terminator.
+
+One transition provides an especially concrete scribal mechanism:
+
+```text
+f82r.3 ... qokaiin
+f82r.4 qokaiin ...
+```
+
+The last event of f82r.3 and first event of f82r.4 have the same exact GDT327
+joint tuple `b5fcea1eaed0...`, the same `q` rendering and the same visible
+group. On the first line it is field-final; on the next it is field-initial.
+This is the only exact boundary-card repetition among the 46 same-record line
+transitions.
+
+The best workmanlike reading is an occasional **carry-forward**: repeat the
+active card at the start of the next physical line so the reader knows which
+entry or subject continues. It could also be ordinary content repetition, so
+`RESUME` is not promoted as a meaning. But the occurrence demonstrates a
+simple way a 1420-era scribe can preserve a longer logical unit while fitting
+text around a pre-drawn image. The hierarchy is now:
+
+```text
+physical line break   reflow opportunity
+field close           local cell commitment
+paragraph/record      larger continuing statement or dossier module
+```
