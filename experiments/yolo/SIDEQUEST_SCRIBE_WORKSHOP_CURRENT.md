@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-21, after V16 complete default-meaning synthesis.
+Updated: 2026-08-21, after V17 recurrent teaching-deck revision.
 
 Status: **speculative working theory, not a GDT result and not a
 translation**. This file is the compact authoritative entry point for the
@@ -656,6 +656,64 @@ The selected full dictionary and event readings are
 These English phrases are deliberately concrete defaults, not confirmed
 lexemes or plaintext. A weak default persists until a better concrete reading
 improves all its occurrences; it no longer falls back to an anonymous tag.
+
+## Four-agent V17 recurrent teaching-deck revision
+
+V17 stress-tested the 30 exact cards with at least three occurrences, covering
+217/381 prose events. Each of four historical scribal perspectives compared
+exactly three concrete meanings for every card and rewrote all occurrences plus
+complete f10r, f56r and f82r passages. The selected consensus deck retains a
+meaning for all 776 groups after propagation.
+
+The strongest unanimous correction is:
+
+```text
+OKY/QOKY = apply or use this portion
+```
+
+V16's `lesser portion` required an unobserved comparison in most of its ten
+contexts. The new application reading works in both Herbal and Biological.
+
+The selected common process vocabulary is now:
+
+```text
+AIIN          stated/usual measure
+L/O           with the foregoing preparation
+Y             this present portion
+qokaiin       take the next portion/instruction
+CTHY          when the preparation is ready
+CHEDY(open)   stir until evenly mixed
+SHEDY(close)  let stand until ready; end
+OKAIN         add one measured portion to the vessel
+OKAL          mix two portions together
+OR            prepared decoction/working liquid
+OKEEY         keep lukewarm
+QOKEEDY       bathe/immerse in tempered warm liquid; end
+QOKEDY        rinse the pictured place once; end
+LCHEDY        leave standing in the lower vessel; end
+CKHY          through the connected channels
+CHEEY         until the liquid runs clear
+OLKEEDY       let the liquid settle; end
+SHCKHEDY      strain once through cloth; end
+QOKCHDY       heat once; end
+OTAL          toward the lower outlet
+```
+
+This produces the best current Bio workflow: take a measured charge, add and
+mix it, keep or heat it warm, immerse, stand/settle, strain, route through
+channels, rinse/apply at the pictured place and close the local instruction.
+Herbal shares the compatible prose phrases `prepared decoction`, `fresh
+preparation`, `same batch`, `stated measure`, and `present portion`.
+
+Six cards remain concretely disputed but are not returned to anonymous tags:
+OKEEY (lukewarm/mix/add warm water), LCHEDY (stand/drain/cool), DCHEDY
+(finish/strain/wash), OLCHEDY (reserve/decant), CHAR (same batch/continue), and
+f56r CHO (thereafter/topic/flowering tops).
+
+The selected deck and fully regenerated 776-row ledger are in
+`sidequest_theory_candidates_v17/V17_SELECTED_RECURRENT_DECK.tsv` and
+`V17_SELECTED_COMPLETE_TRANSLATION_LEDGER.tsv`; validation is `PASS` in
+`V17_VALIDATION.json`.
 
 ## Generative model
 
