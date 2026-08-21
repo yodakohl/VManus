@@ -5018,3 +5018,96 @@ This is substantially more than whole-word similarity alone, but it is still
 a generative translation hypothesis. It has not produced one independently
 confirmed plaintext word, and several attractive assignments were deliberately
 chosen because they make these ten pages cohere.
+
+## Iteration 75 — explicit counterexample ledger for the current theory
+
+The ten-page theory becomes more useful when its attractive terms are tested
+against their own awkward occurrences:
+
+| proposed reading | strongest support | counterexample / correction | retained form |
+|---|---|---|---|
+| `AROL = water` | DAROL and DAROLSY in flow scenes | plant/pharma and astronomical contexts; zero free exact `AROL` in these ten pages | reject WATER; retain compound conduit/axis hypothesis |
+| `OL = water` | OL-rich apparatus-local f83 text and OL-bearing labels | exact OL also occurs on f55v and f69v; DARARY is a flow-scene no-OL form | register-local carrier/medium/channel only |
+| `OKAL = the f82 object` | exact label plus two prose hits in all readings | exact OKAL occurs eight times across f55v, f67r2, f81v and f82r | general registered category/card used as a local f82 key |
+| `OTAIN = bath` | one tub label plus f81/f82 prose; all three exact ZL hits are Biological | label changes to OTOIN/TAIN in alternate readings; wider manuscript not tested here | bath/vessel/apparatus-class candidate in this register |
+| `SOL = action verb` | Biological concentration, frequent line entry, parallel SOL…OL lines | SOL-rich local block may specify apparatus components; 11/13 SOL-initial lines do not end OL | anonymous Biological construction head |
+| `first Herbal block = description; second = recipe` | four pages have exactly two prose packets | feature profiles and CHOL CTHY position do not preserve that order; prior ordinal test failed | two technical modules with unknown ordering |
+| `O/OT encodes star rays` | f68 1/9 versus 6/9 non-seven-ray post-hoc contrast | one folio, no held array, widespread O/OT outside stars | local renderer clue only |
+| `f69 is a 28-night table copied from one known source` | 28 radial entries and strict alternation | lag-14 prediction failed; LONG/SHORT lacks a text marker | generic 28-position state schedule |
+| `line = sentence` | visually lineated prose | renderer reset and continuation evidence; text is fitted around drawings | line is a writing packet, paragraph is the stronger discourse unit |
+| `all diagram labels are referenced in prose` | OTOR, OKEOD-family, OTAIN-family, OKAL bridges | f83 selected labels have zero exact prose reuse; f82 only 1/13 labels repeats exactly | sparse optional page-key channel |
+
+Two numerical cautions are especially important. The f68 page has 29
+human-owned star labels; the earlier “32 labels” count included three other
+one-group diagram texts and must not be read as 32 stars. Also, the compound
+AROL theory has only one exact `DAROL` and one exact `DAROLSY` free surface in
+the fixed ten pages. Its apparent productivity comes from older split/join and
+component evidence, not a large local paradigm.
+
+## Iteration 76 — recipe grammar as an analogy, not a Latin decoding
+
+Readable medieval recipes often compress a practical sequence into a small
+set of recurrent functions: take/select material, give quantity, prepare,
+combine with a vehicle, apply, wait/continue, and close. The present cards can
+be aligned with that **event grammar** without claiming a word correspondence:
+
+| practical function | current anonymous card candidate |
+|---|---|
+| select or explicitly enter an item/value | D + content; `DAIIN` |
+| carry the current item/state into a new packet | S + content; `SAIIN` |
+| refer to a linked licensed operation/value | Q + content |
+| quantity, grade, setting or registered reference | AIIN family |
+| processed/completed/marked state | EDY/EEDY family |
+| carrier, vehicle, bath medium or channel | OL family |
+| route, transfer or conduit relation | AR with OL/other tail |
+| introduce a Biological operation/component specification | SOL construction |
+| checkpoint one local operation | DY |
+| repeat the same operation or assign it twice | literal `X X` |
+
+This yields an end-to-end **technical event language** rather than a list of
+translated words. For example, the invented construction
+
+```text
+SAIIN | DAIIN | ... OL ... | QOKEEDY | DAROLSY
+```
+
+can be read abstractly as:
+
+```text
+carry current setting → enter local value/item → specify carrier
+→ invoke linked completed process → discharge/transfer to terminal state
+```
+
+It should not be converted into a Latin sentence such as *recipe aquam...*.
+The analogy is useful precisely because the notation may summarize Latin,
+vernacular or nonlinguistic source instructions with the same cards.
+
+## Iteration 77 — strongest next discriminant inside the same ten pages
+
+The main unresolved fork is now:
+
+```text
+WORLD L: the long paragraphs are heavily abbreviated natural-language clauses
+WORLD N: the long paragraphs are sequences of nominal technical specifications
+WORLD H: both occur, with prose-like connectors around codebook cells
+```
+
+The local SOL construction demonstrates why surface order alone cannot choose.
+`SOLKEEY ... OL` can be “perform X in medium OL” under WORLD L, or “component X,
+OL channel” under WORLD N. WORLD H remains the leader because it allows long
+paragraph discourse while treating diagram labels and repeated matrix cards as
+technical notation.
+
+Within the fixed pages, the best discriminator is not another substring. It is
+whether repeated construction heads systematically change their argument
+inventory between main prose and diagram-local blocks. The current evidence is:
+
+- SOL occurs only in the f82/f83 Biological sample and usually at line entry;
+- exact free final OL occurs only in the two adjacent local SOL lines;
+- the local f83 blocks reverse the main-prose EDY/OL balance;
+- but most SOL lines have varied continuations and no fixed arity.
+
+That favours a flexible construction head over a fixed noun label, while still
+falling short of a verb. The working notation should therefore retain
+`SOL_HEAD(ARGUMENTS...)` and postpone TAKE/APPLY/COMPONENT until an independent
+relation becomes available.
