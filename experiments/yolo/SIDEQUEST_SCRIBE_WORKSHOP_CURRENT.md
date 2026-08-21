@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-21, after V14 ten-page purpose synthesis.
+Updated: 2026-08-21, after V15 Biological value-deck synthesis.
 
 Status: **speculative working theory, not a GDT result and not a
 translation**. This file is the compact authoritative entry point for the
@@ -567,6 +567,40 @@ roles.
 Full details are recovery-only material in
 `sidequest_theory_candidates_v14/V14_THEORY_SELECTION.md`.
 
+## Four-agent V15 Biological value-deck synthesis
+
+V15 freezes visual-role maps for all 38 leading Bio-value occurrences before
+joining family identity. No family is a stable direct label for figure, pool,
+pipe, junction or outlet. Raw role association weakens under page conditioning
+and is more strongly explained by paragraph/stencil identity.
+
+The medical lead survives in narrowed form:
+
+```text
+PICTURE/PARAGRAPH -> selects application/configuration stencil
+STENCIL           -> licenses latent value slots
+EXACT VALUE CARD  -> selects state/application condition
+DY                -> commits the cell
+```
+
+Working confidence is .62 for a latent application/configuration deck, .52 for
+a generic stencil/cadence deck and only .10 for direct visible-station names.
+
+The selected anonymous taxonomy is:
+
+- `VAL-Q` = BASE_CONFIGURATION (.50);
+- `VAL-QE` = MARKED_MEDIUM_OR_APPLICATION (.48);
+- `VAL-S` = SET_OR_RESULT_STATE (.45);
+- `VAL-L` = LOCAL_HELD_OR_CARRIED_APPLICATION (.43).
+
+Concrete subordinate bets remain deliberately weaker: standard/usual,
+tempered/warm, pour/rinse and immerse/soak. The repeated `VAL-QE` in cells 3
+and 6 of f82r.27 is best read as the same latent condition selected twice under
+one broad pool/application configuration, not as two named visible stations.
+
+Full details are recovery-only material in
+`sidequest_theory_candidates_v15/V15_THEORY_SELECTION.md`.
+
 ## Generative model
 
 ```text
@@ -933,10 +967,7 @@ alphabet.
 
 Only pursue work that can materially change this compact theory:
 
-1. **Bio visual-role/value test:** define picture/layout roles for the38 leading
-   Bio value occurrences before reading their identities, then test whether
-   exact values follow application roles or merely stencil/renderer features;
-2. **Astro consultation synthesis:** develop one executable whole-diagram
+1. **Astro consultation synthesis:** develop one executable whole-diagram
    workflow joining the 7/12 selector, spatial1+28 catalogue and alternating28
    schedule without asserting direct label identity.
 
