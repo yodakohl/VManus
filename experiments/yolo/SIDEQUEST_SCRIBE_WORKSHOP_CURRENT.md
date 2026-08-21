@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-22, after V21 concrete Astro consultation synthesis.
+Updated: 2026-08-22, after V22 f69 repeated-rule correction.
 
 Status: **speculative working theory, not a GDT result and not a
 translation**. This file is the compact authoritative entry point for the
@@ -826,6 +826,25 @@ the rival that LONG/SHORT is only graphic or a condition/result template.
 Full rationale and tables are in
 `sidequest_theory_candidates_v21/V21_THEORY_SELECTION.md`; validation is
 `PASS` over 395 Astro groups and the complete 776-event ledger.
+
+## V22 f69 repeated-rule correction
+
+The former odd/even “favour/withhold” reading is withdrawn. Exact complete
+entry `okeod` occurs at stations 11, 15 and 24, crossing LONG/LONG/SHORT slots;
+positional polarity would assign it opposite meanings. LONG/SHORT is therefore
+layout or template capacity, not textual polarity.
+
+All 28 radial entries now carry identity-consistent concrete medical-rule
+defaults. `okeod` means “favourable for bathing” in all three positions; other
+rules include cool washing, avoiding bloodletting or hot baths, anointing,
+resting, rinsing, draining, straining liquor and withholding treatment under a
+weak condition. These remain speculative expansions, but they no longer
+contradict exact recurrence.
+
+This revises 33 radial tokens while preserving the 107 f69 circular-prose
+tokens. The f68→f69 index remains absent. Full details are in
+`sidequest_theory_candidates_v22/V22_THEORY_SELECTION.md`; validation is
+`PASS` over the complete 569-entry/776-event reading.
 
 ## Generative model
 
