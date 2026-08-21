@@ -39,8 +39,9 @@ system: Biological `OL` behaves like a carrier/medium/channel class, and
 `OTAIN OLKAL` is a tub/apparatus caption candidate; `OKAL` is an anonymous card
 reused between a figure label and two prose blocks; SOL is a flexible
 Biological construction head. In Herbal A, `CHOL CTHY` is a repeated
-preparation/qualification construction. On the circle pages the written label
-is residual data added to visible ring/star/radial coordinates.
+quality/qualification construction, with a paired medical-quality reading now
+leading over the earlier water-preparation guess. On the circle pages the
+written label is residual data added to visible ring/star/radial coordinates.
 
 Explicitly withdrawn readings include `AROL = WATER`, `OL = WATER`, SOL as a
 confirmed verb, a fixed DESCRIPTION→RECIPE order for the two Herbal packets,
@@ -5305,3 +5306,79 @@ page/diagram     silent heading and discourse domain
 B3 may be a stronger closure state in the formal parser, but it is not a
 confirmed period and is not required at every visible paragraph end. The early
 v0.3 `B3 = full stop` gloss is withdrawn.
+
+## Iteration 81 — CHOL CTHY as a paired quality formula
+
+The earlier “prepare in water” reading of `CHOL CTHY` used OL too literally.
+The actual repeated lines suggest a different construction:
+
+```text
+f10r.5   QOKCHY | QOTCHOL | CHOL | CTHY
+f11r.3   QOTY | CHOL | CTHY | DOR ...
+f56r.15  TCHO | TCHOL | CHOL | CTHY
+```
+
+The stable tail describes three visibly different plants, occurs in different
+packet positions, and is absent from the hand-2/Currier-B f55v page. This is
+exactly the behaviour expected of either a hand-1 stock formula or a shared
+classification, not a plant name.
+
+Medieval materia medica supplies a particularly economical class of stock
+formulae: paired qualities such as hot/cold and dry/moist, often qualified by a
+degree. The British Library's Add MS 29301 catalogue even quotes the Middle
+English *Circa instans* opening “Aloe is hot and dry”
+(<https://searcharchives.bl.uk/catalog/032-002020783>). Astrological medicine
+uses the same broad quality system for signs, planets, bodies and treatment
+conditions. Exact `CHOL` also occurs in the f67r2/f69v circle text, so a quality
+card can cross Herbal and Astro registers more naturally than a literal plant
+preparation or water noun.
+
+The new leading parse is therefore:
+
+```text
+T/QOT-CHOL     marked or linked quality/class card
+CHOL CTHY      paired quality/constitution formula
+AIIN/DAIIN     possible degree, setting or quantity value when supplied
+```
+
+A bold readable paraphrase is “[quality A] and [quality B], at the registered
+degree.” It would be tempting to write “hot and dry”, but there is no basis for
+choosing which quality, which order, or even whether the pair is humoral. Other
+possibilities are part-used + preparation-method, season + habitat, or two
+workshop classification codes.
+
+The main counterevidence is strong: CTHY itself is confined to the three
+Herbal-A/hand-1 pages in this sample, CHOL has many non-paired occurrences, no
+explicit AND is identified, and the formula's paragraph ordinal varies. The
+result is a better **functional gloss**—paired classification—not two English
+adjectives.
+
+## Iteration 82 — weak ordering of the two Herbal modules
+
+The four Herbal pages each contain two prose modules, but the earlier rigid
+`DESCRIPTION -> RECIPE` reading was too strong. A deliberately coarse exact-form
+census nevertheless leaves a weaker ordering clue. Across ZL3b the four first
+modules contain 167 groups and the four second modules 192 groups:
+
+| module set | AR-family | OL-family | AIIN-family |
+|---|---:|---:|---:|
+| first | 6 (3.6%) | 18 (10.8%) | 27 (16.2%) |
+| second | 16 (8.3%) | 24 (12.5%) | 34 (17.7%) |
+
+AR-family density does not decrease from first to second on any of the four
+pages, although most of the aggregate contrast is supplied by f55v. OL and
+AIIN are only slightly denser in the second modules. Coupled with the repeated
+`CHOL CTHY` quality formula, the least extravagant workshop ordering is:
+
+```text
+module 1    identity / class / intrinsic qualities
+module 2    relational use / preparation / quantity / application
+```
+
+This is an ordering tendency, not two fixed fields and not two sentences.
+Page-specific omissions, copied source differences, and available drawing
+space can change the contents and length of either module. A previous powered
+paragraph-ordinal route failed, so this ordering is retained only as a weak
+scribe-level default. It becomes useful only if later parses independently
+place a classification formula in module 1 and a relational or procedural
+construction in module 2 on the same page.
