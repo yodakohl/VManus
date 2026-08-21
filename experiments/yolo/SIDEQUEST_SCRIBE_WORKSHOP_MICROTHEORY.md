@@ -5456,3 +5456,46 @@ and values; record relevant relations, process states or uses; consult the
 appropriate astronomical state table when needed; carry and close the record
 with a small shared compiler.** This is the first theory that covers all ten
 pages without requiring one global word gloss.
+
+## Iteration 84 — shared compiler cards versus register-local heads
+
+An exact ZL3b census over the ten pages supplies a useful division that does
+not depend on substring interpretation:
+
+| exact card | events | pages | line-start | line-end | leading tier |
+|---|---:|---:|---:|---:|---|
+| `DAIIN` | 43 | 8 | 5 | 7 | shared value/reference card |
+| `AIIN` | 21 | 8 | 0 | 3 | shared value/setting card |
+| `DY` | 22 | 7 | 0 | 10 | rightward checkpoint/transition |
+| `S` | 15 | 7 | 4 | 0 | leftward carry/resume marker |
+| `DAL` | 16 | 6 | 1 | 4 | shared relation/state card |
+| `DAR` | 8 | 6 | 1 | 2 | shared relation/state card |
+| `CHOL` | 12 | 5 | 1 | 0 | quality/classification candidate |
+| `OL` | 26 | 5 | 1 | 3 | Biological-heavy carrier candidate |
+| `SOL` | 8 | 2 | 6 | 0 | Biological construction head |
+
+This is not a claim that each row is one word. It is a scribe's practical
+inventory. The broad cards are portable between plant, circle and apparatus
+records, while `SOL` is sharply register-local and strongly line-initial.
+`DY` and `S` show opposite edge preferences. `AIIN` never opens a physical
+line in this sample, whereas its expanded/marked `DAIIN` realization can do so.
+
+The simplest teachable rule is:
+
+```text
+[ENTRY/CARRY/SET] [REGISTER HEAD OR ITEM] [VALUE/RELATION]* [STATE] [CHECKPOINT]
+```
+
+Each bracket can span multiple groups and lines, and optional cards can be
+silently supplied by picture or geometry. The register head need not be a
+single recurring form: Herbal uses page-specific entry addresses, Biological
+admits `SOL` and local OL constructions, while circle pages rely heavily on
+slot position. This explains both the manuscript-wide formal resemblance and
+the failure to obtain one global lexicon.
+
+The main warning is that line position is partly rendering. DAIIN ends four of
+seven f11r lines carrying it but none of its nine f81v occurrences; exact DY
+ends all four of its f67r2 lines but no f81v line. Therefore the **abstract
+card** may be portable while its punctuation/attachment behavior is learned
+per hand and register. No numerical value, syntactic category or plaintext is
+assigned.
