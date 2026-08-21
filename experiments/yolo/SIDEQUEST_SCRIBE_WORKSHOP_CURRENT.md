@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-21, after V7 stated-reference reconstruction.
+Updated: 2026-08-21, after V8 ignored-content audit.
 
 Status: **speculative working theory, not a GDT result and not a
 translation**. This file is the compact authoritative entry point for the
@@ -287,6 +287,40 @@ The strongest rival remains a content-free generic value/index slot. The
 reference reading requires local antecedent continuity that is not yet
 externally owned. Details:
 `sidequest_theory_candidates_v7/V7_REFERENCE_VALUE.md`.
+
+## V8 ignored-content audit
+
+The current translation-like work covers far less content than its fluent
+paraphrases suggest. Among 381 exact-card events on the seven fixed prose pages:
+
+| layer | events | share |
+|---|---:|---:|
+| five speculative core cards | 73 | 19.2% |
+| five anonymous secondary cards | 38 | 10.0% |
+| terminal cards known only as payload+COMMIT | 90 | 23.6% |
+| completely opaque cards | 180 | 47.2% |
+
+Seventy-seven of 135 fields contain no core/secondary card, and 44 fields
+contain only terminal cards. The sidequest has therefore reconstructed a
+possible **record language**, not the manuscript's content vocabulary.
+
+The strongest new content hypothesis is that Biological terminal-only fields
+are categorical value cells:
+
+```text
+[question/slot inherited from stencil] = [exact terminal value] + COMMIT
+```
+
+There are 90 terminal events, 38 exact terminal types, 16 recurrent types and
+22 singletons. The four most frequent types occur 12/10/8/8 times. They could
+encode states, results, operations, routes, quantities or checklist-like
+answers. Their exact payload is currently untranslated.
+
+The most ignored ordinary prose is Herbal f56r (22/27 fully opaque events) and
+f10r (24/38). This is where plant identity, part, property, habitat/water,
+preparation or use may actually reside. The three circle pages remain almost
+entirely uninterpreted beyond topology. Details:
+`sidequest_theory_candidates_v8/V8_IGNORED_CONTENT_AUDIT.md`.
 
 ## Generative model
 
@@ -641,20 +675,20 @@ alphabet.
 
 Only pursue work that can materially change this compact theory:
 
-1. **address-versus-key test:** compare qokaiin's post-close activation pattern
-   with an indexed record-key/checklist interpretation; do not return to WATER
-   without an independently owned liquid referent;
-2. **link-versus-cross-reference test:** ask whether L/O sits between structurally more homogeneous
-   operands than matched interior cards, without calling it AND/WITH/IN;
+1. **terminal-value test:** compare the recurrent 12/10/8/8 terminal families
+   as categorical answers versus lexical action/result cards, preserving their
+   exact identities and inherited stencil slots;
+2. **opaque-Herbal test:** inventory repeated page-local cards on f10r/f56r and
+   ask whether they behave as owner, plant-part/property, habitat/medium,
+   preparation or use entries without mining substrings;
 3. **reference-versus-index test:** ask whether field-initial, repeated and
    `Y–AIIN–Y` occurrences reuse a value/setting active earlier in the same
    record or merely occupy repeatable checklist coordinates;
-4. **paired-frame test:** inspect only the two `Y-AIIN-Y` environments for
+4. **link-operand test:** ask whether L/O's explicit and inherited operands are
+   structurally coherent, especially the one-card f81v.7 field;
+5. **paired-frame test:** inspect only the two `Y-AIIN-Y` environments for
    independently dyadic operands; withdraw equal allocation if neither is
    symmetric;
-5. **terminal-payload test:** compare exact closer identity with preceding
-   construction class after field length/page are held fixed; retain COMMIT but
-   reject a typed semantic dictionary if no extra structure survives;
 6. **practical-form-versus-checklist test:** seek repeated fixed-page visual
    roles that distinguish medical/applicative content from generic indexed
    form filling; never import prose cards into the circle pages.
