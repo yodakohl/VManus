@@ -1081,3 +1081,194 @@ The most important remaining ambiguity is whether `AIIN`, `OKEE`, `OL`, and
 `AROL` have broad technical meanings or are merely local values repeatedly
 loaded into the same compiler slots. The writing system works in either case;
 only the translation changes.
+
+## Iteration 12 — repeated strokes as scalar payload
+
+The common near-pairs are easier to understand if repeated `e/i`-like units are
+technical tallies or grades rather than vowels:
+
+```text
+qokedy   / qokeedy   / qokeeedy
+qokain   / qokaiin   / qokaiiin
+oteedy   / oteeedy
+```
+
+These forms coexist in similar lines and sometimes in the same record. A
+workshop can use repeated strokes to mark relative amount, duration, degree,
+iteration, or a small ordinal while retaining the same surrounding operation.
+
+Provisional mechanism:
+
+```text
+E^n in an OK/OKE construction
+    = process/state grade or duration n
+
+I^n in an AIN/AIIN construction
+    = amount/index grade n
+
+Y
+    = value terminator or compact state ending in some constructions
+```
+
+No absolute number is assigned. Only the relative principle “more repeated
+units may represent a different grade” is being invented.
+
+### Example paradigm
+
+```text
+Q + OK + E  + DY  -> qokedy
+Q + OK + EE + DY  -> qokeedy
+Q + OK + EEE+ DY  -> qokeeedy
+```
+
+Possible reading:
+
+```text
+qokedy    continue the standard process at grade/duration 1; close
+qokeedy   continue the standard process at grade/duration 2; close
+qokeeedy  continue the standard process at grade/duration 3; close
+```
+
+Likewise:
+
+```text
+qokain    next standard value, short amount/index grade
+qokaiin   next standard value, longer amount/index grade
+```
+
+This is more attractive than treating every member as an unrelated word, but
+it need not be numerical morphology in a spoken language. It can be a scribal
+value code embedded inside the composite cell.
+
+### Why this helps the manuscript-wide theory
+
+- Herbal records need quantities, proportions, durations, and preparation
+  grades.
+- Biological/process records need repeated operations and state levels.
+- Astronomical tables need ordinal or cyclical values.
+- repeated strokes are economical for a workshop and naturally generate dense
+  near-neighbour families;
+- a phoneme mapping will fail if some graphemes function as tallies rather than
+  sounds;
+- exact whole forms remain sparse because control, local address, scalar value,
+  closure, and renderer are fused.
+
+### Updated generated instruction
+
+Underlying note:
+
+> Take an AIIN-grade portion of the depicted plant; process it in carrier OL
+> for OKEE-grade duration; record state AL.
+
+```text
+daiin | cheol | qokeedy | shedal
+```
+
+The same surface generated in Iteration 11 now receives a more specific
+internal interpretation: `AIIN` and `EE` are value-bearing grades rather than
+ordinary lexical syllables.
+
+The risk is obvious: repeated glyphs can arise from ordinary orthography,
+abbreviation, copying habits, or the transcription system. The scalar reading
+is retained only because it makes the invented technical notation simpler.
+
+## Iteration 13 — how a small workshop could evolve the system
+
+The final surface should not expose a clean designed grammar. Assume several
+scribal habits descended from an earlier practical notation.
+
+### Stage 1: loose source notes
+
+```text
+ITEM   AMOUNT   PROCESS   RESULT
+```
+
+Content abbreviations are relatively independent. A picture or marginal label
+supplies the item.
+
+### Stage 2: recurrent control marks
+
+Scribes introduce free or detached marks for:
+
+```text
+new entry | next step | relation | field done | record done
+```
+
+These become the ancestors of `s`, `q`, `d`, DY and B3 constructions.
+
+### Stage 3: fusion and positional allomorphy
+
+High-frequency sequences fuse:
+
+```text
+q | okee | DY -> qokeedy
+d | ar | ol   -> darol
+ar | ol       -> arol
+```
+
+The same pieces remain detached in slower writing or when scope must be clear.
+Line-entry and post-closure position begin selecting `s` and `q` renderers.
+
+### Stage 4: tabular standardization
+
+Currier-B hands increasingly write explicit intermediate cells:
+
+```text
+STEP; STEP; STATE; STEP; RESULT
+```
+
+Currier A retains longer descriptive lines and lets physical line end perform
+more closure work. This is a register/history contrast, not necessarily a
+language split.
+
+### Stage 5: scalar and geometric compression
+
+Repeated strokes encode value grades; diagrams encode entity, order, binary
+state, and ownership. Text carries only the residual instruction or local key.
+
+### Stage 6: fossilization and local rebinding
+
+Later scribes copy forms whose original pieces are no longer fully productive.
+A historically meaningful component can become:
+
+- obligatory renderer material;
+- a page-local address fragment;
+- an opaque fixed cell;
+- a construction used with a new technical value;
+- a homograph of a still-live closure or scalar mark.
+
+This yields strong formal reuse but weak clean paradigms. It also explains why
+free clustering of complete joint tuples finds no stable lexicon: historical
+ancestry, present function, and local value need not define the same partition.
+
+### Proposed workshop stations
+
+```text
+HAND 1 / descriptive station
+  longer Herbal-A fields, inline CH constructions, fewer explicit stops
+
+HANDS 2/3/5 / tabular-process station
+  denser Herbal-B and Biological fields, checkpoint cells and Q links
+
+CIRCLE specialist
+  compact labels; order, parity and class delegated to diagram geometry
+```
+
+These are functional stations in the imagined workshop, not identified people.
+
+### Translation consequence
+
+There may be no valid operation “strip affixes and read the root.” A decoder
+would instead need:
+
+```text
+historical form family
++ current construction role
++ page-local value binding
++ scalar/closure interpretation
++ visual/geometric arguments
++ hand/register renderer
+```
+
+Only after those layers are resolved would an ordinary-language paraphrase be
+possible.
