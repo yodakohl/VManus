@@ -5499,3 +5499,41 @@ ends all four of its f67r2 lines but no f81v line. Therefore the **abstract
 card** may be portable while its punctuation/attachment behavior is learned
 per hand and register. No numerical value, syntactic category or plaintext is
 assigned.
+
+## Iteration 85 — master grammar versus hand-local phrasebook
+
+The three strongest exact adjacent-card formulae separate into useful layers:
+
+| formula | locations | reading stability | workshop interpretation |
+|---|---|---|---|
+| `CHOL CTHY` | f10r, f11r, f56r | exact in ZL/IT/RF | hand-1/Herbal-A stock classification formula |
+| `S AIIN` | f55v, f81v, f82r, f83r | several IT/RF disagreements | hand-2/Currier-B carry/value rendering |
+| `DY DAIIN` | f11r, f81v, f82r | exact in ZL/IT/RF | shared checkpoint-to-explicit-value transition |
+
+The last row is the most important. It crosses Herbal A/hand 1 and Biological
+B/hand 2, while the other two formulae remain perfectly confounded with a
+scribe/register package. If several scribes learned the system, `DY -> DAIIN`
+is a plausible master-rule transition and the other formulae plausible local
+phrasebook entries. This does not prove that DAIIN means a value; it says only
+that a checkpointed field can reopen in the same explicit formal state across
+different hands.
+
+The plant images strengthen the nonvisual reading of the Herbal formula. f10r
+has tiered toothed leaves and two storage-like lateral roots, f11r a dense
+multi-stemmed crown, and f56r spiral/radiating blue heads. Their shared `CHOL
+CTHY` therefore does not plausibly name one visible leaf, root or flower shape.
+A common invisible medicinal quality or a stock classification clause is more
+coherent. f55v's broad single leaf and tall inflorescence lack the formula, but
+that contrast is inseparable from hand/Currier.
+
+This yields a teachable two-level system:
+
+```text
+MASTER GRAMMAR     state transitions, value/reference cards, checkpoint logic
+LOCAL PHRASEBOOK   Herbal quality formulae, Biological heads, hand renderings
+```
+
+It also corrects a common error: exact recurrence across a hand-local package
+does not automatically identify content. The portable transition is currently
+stronger evidence for grammar than either `CHOL CTHY` or `S AIIN` is for a
+meaning.
