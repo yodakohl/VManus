@@ -14,44 +14,66 @@ direct scan of a mixed result table
 unintentionally displayed one `f84v` row; it was excluded from the inference
 and is disclosed in the ledger. No `f84r` row was accessed.
 
-## Current synthesis after Iteration 79
+## Current synthesis after Iteration 90
 
 The leading reconstruction is a **hybrid abbreviated language + technical
 codebook** used for an illustrated medico-astrological workshop handbook.
 
 ```text
 DOCUMENT
-  four two-module plant entries
-  three variable bath/site/apparatus records with local hydraulic labels
+  four two-module simple-medicine entries
+  three variable bath/application/apparatus records with local hydraulic labels
   three astronomical lookup modes: selection wheel, spatial catalogue, schedule
 
 ENCODING
   picture/geometry supplies silent subject, owner, ordinal and some state
   paragraph supplies the main discourse module
-  registered cards supply remaining content, setting, state and relation
-  s/d/q and joining render licensed cards in local structural contexts
+  a shared master grammar supplies state transitions and checkpoints
+  register/hand phrasebooks supply content cards and licensed renderings
+  S/D/Q and joining render licensed cards in local structural contexts
   DY checkpoints a local cell but does not end the statement
 ```
 
-The strongest current content guess is not a translated word but a local
-system: Biological `OL` behaves like a carrier/medium/channel class, and
-`D/S + AR + OL + right state` differentiates related hydraulic constructions.
-`OTAIN OLKAL` is a tub/apparatus caption candidate; `OKAL` is an anonymous card
-reused between a figure label and two prose blocks; SOL is a flexible
-Biological construction head. In Herbal A, `CHOL CTHY` is a repeated
-quality/qualification construction, with a paired medical-quality reading now
-leading over the earlier water-preparation guess. On the circle pages the
-written label is residual data added to visible ring/star/radial coordinates.
+The strongest exact master-rule candidate is all-reading-stable `DY DAIIN`
+across Herbal-A/hand 1 and Biological-B/hand 2: an anonymous checkpoint-to-
+explicit-state transition. The strongest content-system guesses remain local.
+Biological `OL` behaves like a carrier/medium/channel class, and
+`D/S + AR + OL + right state` differentiates related hydraulic constructions. `OTAIN OLKAL`
+is a tub/apparatus caption candidate; `OKAL` is an anonymous card reused between
+a figure label and two prose blocks; SOL is a flexible Biological construction
+head. Exact `CHOL` crosses Herbal-A/hand 1 and circle/hand 4, making a shared
+quality/classification axis plausible; `CTHY` is its Herbal-local companion.
+On circle pages the written label is residual data added to visible
+ring/star/radial coordinates.
+
+The leading document-level reading is an illustrated practical/medical
+handbook or workshop miscellany. The Biological subset is best read as
+bath/source/apparatus records; a women's-health, fertility or local-application
+regimen is a useful but weak subgenre fork. The astronomical pages are
+comfortably generic-medieval in structure; using them for medical selection or
+timing is historically economical but not internally established.
 
 Explicitly withdrawn readings include `AROL = WATER`, `OL = WATER`, SOL as a
 confirmed verb, a fixed DESCRIPTION→RECIPE order for the two Herbal packets,
 line equals sentence, a universal diagram-label dictionary, and a direct
 f68↔f69 28-name list. No exact card has a confirmed English meaning.
 
-The main unresolved fork is whether the long blocks are abbreviated natural
-language, nominal technical specifications, or a mixture. The mixed world is
-currently best because it explains prose texture, sparse label↔prose keys,
-strong card recurrence and register-local rendering with one teachable system.
+The main architectural fork is no longer evenly balanced. The mixed world is
+best: heterogeneous natural-language source material was compiled into nominal
+technical specifications and codebook cards, then rendered with a stateful
+shorthand. This explains prose texture, sparse label↔prose keys, strong card
+recurrence and register-local rendering with one teachable system. It does not
+recover the source language or original wording.
+
+### Confidence ladder
+
+| tier | current claim |
+|---|---|
+| strongest | picture/geometry is part of the information channel; paragraph is a record module; line is a reflow packet; shared compiler plus local rendering |
+| medium | four Herbal two-module entries; Biological prose versus local apparatus mode; f67/f68/f69 are selection/map/schedule-like distinct lookup modes |
+| low | CHOL quality axis; OL carrier/channel; SOL construction head; bath/application content; weak intrinsic-to-procedural Herbal ordering |
+| very low | women's-health/fertility focus; prognosis/treatment timing; any individual action, quality, value or relation |
+| rejected | global word dictionary, AROL=WATER, line=sentence, direct f68/f69 name list, simple cipher or clean agglutinative morphology |
 
 The sections below preserve the rapid historical iterations, including ideas
 later narrowed or withdrawn. The current synthesis and the final iterations
@@ -5817,3 +5839,29 @@ code. Its weakness is equally clear: many source sentences collapse to the
 same formal skeleton, so the original wording—and perhaps much of the exact
 meaning—cannot be recovered without the lost register table or an external
 parallel.
+
+## Iteration 91 — internal leave-one-page stress audit
+
+As a nonconfirmatory coherence check, remove each page conceptually and ask
+what the other pages of its register would lead the workshop theory to expect.
+
+| held page class | prediction from the remaining pages | observed fit | miss |
+|---|---|---|---|
+| f10r/f11r/f56r Herbal A | two prose modules, hand-1 phrasebook, CHOL–CTHY quality construction | all three fit | module content and order vary |
+| f55v Herbal B | two prose modules but a different hand/register phrasebook | two modules, no CHOL–CTHY, S–AIIN available | exact content heads not predicted |
+| f81v/f82r/f83r Biological | female figures plus pool/vessel/conduit topology; dense state/process cards; local apparatus labels | broad fit on all three | number of prose modules and local labels varies sharply |
+| f67r2/f68r1/f69v circle | geometry carries address and writing supplies residual cards | broad fit | 12+7 wheel, 29-star map and 28-alternating schedule are not mutually predictable |
+
+This stress test leaves three conclusions:
+
+1. the two-module Herbal record is the most stable content architecture;
+2. the Biological bath/application register is visually and formally coherent,
+   but not a fixed paragraph template;
+3. the astronomical pages share a renderer and lookup principle, not one
+   demonstrated common table.
+
+The integrated medico-astrological handbook remains the leading historical
+world because such compilations are ordinary and economical. Internally,
+however, a looser workshop miscellany using the same compiler fits almost as
+well. The women's-regimen fork and medical timing of the circles are the first
+claims to discard if the theory becomes overburdened.
