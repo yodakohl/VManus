@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-21, after V5 itemized-formulary reconstruction.
+Updated: 2026-08-21, after V6 associative-link reconstruction.
 
 Status: **speculative working theory, not a GDT result and not a
 translation**. This file is the compact authoritative entry point for the
@@ -232,6 +232,33 @@ PICTURED OWNER
 V4 algebra. It remains a hypothesis, not an identified source word. Details:
 `sidequest_theory_candidates_v5/V5_ITEMIZED_FORMULARY.md`.
 
+## V6 L/O refinement
+
+All 19 exact L/O occurrences were forced through four source models. Fourteen
+are field-medial, but three are field-first, one is a one-card field, and one
+is field-final. That ecology rejects a single obligatory spoken preposition.
+
+The best expansion is:
+
+```text
+L/O ≈ ASSOCIATED WITH / IN THE SAME RELATION / LINK AS ABOVE
+```
+
+Formally:
+
+```text
+ASSOCIATE(active_node, local_or_inherited_node)
+```
+
+With two overt operands L/O is medial. At field start its first operand is
+inherited; at field end its target remains open. The one-card field can mean
+approximately “retain the current association.” Fluent *with/of/to/in* depends
+on the register slot and is not a dictionary of separate senses.
+
+This is more concrete than `RELATION_EDGE` but still compatible with a purely
+notational cross-reference. Details:
+`sidequest_theory_candidates_v6/V6_ASSOCIATIVE_LINK.md`.
+
 ## Generative model
 
 ```text
@@ -342,7 +369,7 @@ working expansion classes, not translations:
 |---|---|---:|
 | attached DY/B3-bearing behavior | local field committed/terminated | .78 formal, no lexical confidence |
 | exact `qokaiin` | address/activate current slot | V5 source class ITEM/ALSO/NEXT; not phonetic |
-| L/O card | relation or class edge | .39 formal; no fixed preposition |
+| L/O card | associative link with inherited operands | ASSOCIATED WITH / SAME RELATION; no fixed preposition |
 | AIIN card | parameter, index or reference | amount/number demoted |
 | CTHY card | property, status or state | no PREPARED/HOT/DRY word |
 | Y card | item node or pointer | no entity gloss |
@@ -558,6 +585,9 @@ Representative V3 free excerpts are:
 > **f83r.3:** Fix the first local state and its related value. Put the two
 > marked entries under one stated parameter, commit their linkage, then
 > activate the next item.
+
+> **f81v.18, field 2:** Take the marked node, associate it with the first local
+> value and likewise with the second; validate the completed cell.
 
 Fluency is capped by a four-way provenance rule: every expressed element must
 be independently pictured/inherited (`P`), a formal card role (`F`), an
