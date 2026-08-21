@@ -3538,3 +3538,60 @@ This is compatible with the small-workshop model. Apprentices need learn only
 that OL occupies an argument/carrier position under several construction heads;
 the actual referent may be supplied by the page register, illustration, or an
 exemplar table rather than encoded by OL alone.
+
+## Iteration 45 — `DAIIN | CHEY` as a reusable entry frame
+
+Exact free `chey` occurs 17 times in the six-page ZL3b sample:
+
+```text
+locus-initial     0
+locus-internal   15
+locus-final       2
+```
+
+Like OL, CHEY therefore behaves as a dependent cell rather than a pickup head.
+Its strongest local construction is the exact bigram `daiin | chey`, repeated
+on two independent selected folios:
+
+```text
+f82r.21   daiin | chey | qol ...
+f82r.23   daiin | chey | qokeeedy ...
+f83r.3    daiin | chey | lchedy ...
+```
+
+All three occurrences preserve `daiin | chey` in ZL3b, IT2a and RF1b, while
+the following cell changes. That is the expected shape of a reusable entry
+frame followed by a variable continuation.
+
+The invented workshop parse is:
+
+```text
+DAIIN        activate/enter the registered item or parameter
+CHEY         current dependent item, material, class or setting
+NEXT CELL    chosen operation/state/continuation
+```
+
+The bold practical paraphrase is:
+
+> Enter or take the current CHEY item/setting; then perform the following
+> registered operation.
+
+This makes `DAIIN CHEY` more like a small “head + operand” construction than a
+complete sentence. It can be embedded halfway through a longer packet and can
+feed several different continuations.
+
+CHEY itself should not yet receive one concrete gloss. Its circle occurrences
+and diverse neighbors allow at least:
+
+```text
+current item/material
+selected category
+quality or preparation state
+parameter value
+generic entry cell rebound by register
+```
+
+For the workshop learner, this ambiguity is not fatal. The phrasebook can
+teach `DAIIN CHEY` as a frequent construction while exemplar context supplies
+the page-specific object. The formal construction can be stable even if CHEY
+does not denote the same external thing in every register.
