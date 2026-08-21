@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-21, after V20 Herbal/Biological bridge-deck refinement.
+Updated: 2026-08-22, after V21 concrete Astro consultation synthesis.
 
 Status: **speculative working theory, not a GDT result and not a
 translation**. This file is the compact authoritative entry point for the
@@ -799,6 +799,33 @@ The AL/DAL action remains the riskiest change: a pure location relation is its
 live rival. CHTY remains distinct from exact CTHY, which retains “when the
 preparation is ready.” The full 569-entry/776-event dictionary is regenerated
 in `sidequest_theory_candidates_v20/`; validation is `PASS`.
+
+## V21 executable Astro consultation
+
+The three circle pages now have one concrete working procedure:
+
+```text
+f67r2  choose planet and zodiac/body sector; protect the governed region
+f68r1  identify the current one-of-28 lunar station by its drawn place
+f69v   consult that station's one-of-28 favour/withhold application rule
+```
+
+The twelve f67 zodiac divisions receive the conventional head-to-feet body
+sequence from Aries through Pisces, and are read as an invasive-treatment
+safety gate. This changes twelve local Astro defaults. The labels are not
+claimed to spell zodiac or body-part names.
+
+The critical gap remains explicit: f68 has no demonstrated cyclic start and no
+visible identity mapping to f69. The executable workflow therefore requires a
+learned conventional station index, or else the two 28-member pages are related
+but separate tools. All 28 working correspondences are marked
+`NOT_VISIBLE_CONVENTIONAL_INDEX_REQUIRED`, never as decoded pairs. The
+alternating favour/withhold reading of f69 is useful but remains vulnerable to
+the rival that LONG/SHORT is only graphic or a condition/result template.
+
+Full rationale and tables are in
+`sidequest_theory_candidates_v21/V21_THEORY_SELECTION.md`; validation is
+`PASS` over 395 Astro groups and the complete 776-event ledger.
 
 ## Generative model
 
