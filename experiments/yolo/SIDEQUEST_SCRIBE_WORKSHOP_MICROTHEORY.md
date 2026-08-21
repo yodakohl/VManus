@@ -1,17 +1,60 @@
-# YOLO sidequest: six-page scribe-workshop microtheory
+# YOLO sidequest: ten-page scribe-workshop microtheory
 
 Status: **deliberately speculative, post-hoc, and non-confirmatory**.
 
 This is not a GDT result and does not modify any canonical claim. It asks what
 a small workshop might plausibly have been doing if one deliberately tries to
-make the current VManus grammar intelligible. The sample is fixed here to two
-approximately comparable Herbal pages (`f10r`, Currier A; `f55v`, Currier B),
-two biological pages (`f82r`, `f83r`), and two circle/astronomical pages
-(`f67r2`, `f69v`). ZL3b is used for the displayed surface; reading uncertainty
-is retained where it matters. The initial six-page pass did not access `f84`
-or `f84r`. During Iteration 4, a direct scan of a mixed result table
+make the current VManus grammar intelligible. The sample is fixed to four
+Herbal pages (`f10r`, `f11r`, `f55v`, `f56r`), three Biological pages (`f81v`,
+`f82r`, `f83r`) and three circle/astronomical pages (`f67r2`, `f68r1`, `f69v`).
+No further page is admitted until this set is exhausted. ZL3b is used for the
+displayed surface; reading uncertainty is retained where it matters. The
+initial six-page pass did not access `f84` or `f84r`. During Iteration 4, a
+direct scan of a mixed result table
 unintentionally displayed one `f84v` row; it was excluded from the inference
 and is disclosed in the ledger. No `f84r` row was accessed.
+
+## Current synthesis after Iteration 79
+
+The leading reconstruction is a **hybrid abbreviated language + technical
+codebook** used for an illustrated medico-astrological workshop handbook.
+
+```text
+DOCUMENT
+  four two-module plant entries
+  three variable bath/site/apparatus records with local hydraulic labels
+  three astronomical lookup modes: selection wheel, spatial catalogue, schedule
+
+ENCODING
+  picture/geometry supplies silent subject, owner, ordinal and some state
+  paragraph supplies the main discourse module
+  registered cards supply remaining content, setting, state and relation
+  s/d/q and joining render licensed cards in local structural contexts
+  DY checkpoints a local cell but does not end the statement
+```
+
+The strongest current content guess is not a translated word but a local
+system: Biological `OL` behaves like a carrier/medium/channel class, and
+`D/S + AR + OL + right state` differentiates related hydraulic constructions.
+`OTAIN OLKAL` is a tub/apparatus caption candidate; `OKAL` is an anonymous card
+reused between a figure label and two prose blocks; SOL is a flexible
+Biological construction head. In Herbal A, `CHOL CTHY` is a repeated
+preparation/qualification construction. On the circle pages the written label
+is residual data added to visible ring/star/radial coordinates.
+
+Explicitly withdrawn readings include `AROL = WATER`, `OL = WATER`, SOL as a
+confirmed verb, a fixed DESCRIPTION→RECIPE order for the two Herbal packets,
+line equals sentence, a universal diagram-label dictionary, and a direct
+f68↔f69 28-name list. No exact card has a confirmed English meaning.
+
+The main unresolved fork is whether the long blocks are abbreviated natural
+language, nominal technical specifications, or a mixture. The mixed world is
+currently best because it explains prose texture, sparse label↔prose keys,
+strong card recurrence and register-local rendering with one teachable system.
+
+The sections below preserve the rapid historical iterations, including ideas
+later narrowed or withdrawn. The current synthesis and the final iterations
+take precedence over the early `v0.3` dictionary.
 
 ## Rapid iterations
 
