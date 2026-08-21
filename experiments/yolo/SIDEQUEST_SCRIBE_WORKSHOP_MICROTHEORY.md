@@ -4758,3 +4758,113 @@ workshop can learn it as a shared grammar plus register-specific lookup sheets,
 with individual hands choosing slightly different joins and surface variants.
 That is simpler than requiring every scribe to encrypt ordinary prose letter by
 letter while independently reproducing the same positional restrictions.
+
+## Iteration 70 — a concrete hydraulic microdictionary
+
+The f82/f83 labels permit one deliberately bold, internally coherent reading.
+On f82r two independently catalogued left/right waterfall positions carry:
+
+```text
+left   DAROL
+right  DARARY        (IT: DARYRY; RF: JARARY)
+```
+
+The repeated `D-AR` frame is more informative than either ending. The two
+visible objects are the same broad class but differ in rendering: the left is
+a broad/wavy fall and the right a narrow vertical fall. A workshop copying
+hydraulic diagrams could therefore use:
+
+```text
+D-AR          active outflow / discharge-path construction
+OL            channel or sheet-medium subtype
+ARY           alternate outlet/stream subtype
+```
+
+f83r adds a second local opposition:
+
+```text
+approximately S-AR-OL-DAL    left/source/base construction
+exact         D-AR-OL-SY      right/outflow/spray construction
+```
+
+Here the `S` versus `D` contrast fits the global renderer intuition unusually
+well: S carries or resumes an incoming/current state; D explicitly activates
+or selects an outgoing state. `DAL` can then be a basin/base/reservoir state,
+while `SY` can be a spray/release/terminal state. The right-hand lower
+structure visibly emits a dotted spray, making the following apprentice
+translations maximally coherent:
+
+| locus | bold workshop paraphrase |
+|---|---|
+| f82r.35 `DAROL` | “active outflow through the OL channel” |
+| f82r.38 `DARARY` | “active outflow through the ARY outlet” |
+| f83r.50 approx. `SAROLDAL` | “incoming/return OL conduit to the DAL reservoir” |
+| f83r.51 `DAROLSY` | “discharge the OL conduit in the SY spray state” |
+
+This is the best current content microtheory, but its weaknesses must remain
+attached to it. The f82 labels are proximity-owned; the right reading varies;
+the f83 left form is unstable; the states were inferred from the same pictures
+being explained; and earlier transfer tests rejected a universal OL
+left/right marker. The theory is therefore a **local hydraulic legend**, not a
+dictionary for the manuscript. A safer statement is only that D/S plus AR/OL
+and right-edge variants differentiate related visible flow constructions.
+
+The f81v caption completes the local vocabulary without fixing direction:
+
+```text
+OTAIN OLKAL    the OTAIN-class vessel/bath with OLKAL contents or subtype
+```
+
+Together, the five bold label readings form a tiny apparatus legend that an
+apprentice could copy from a model sheet. They are more useful than calling
+OL “water”, because water is supplied by the drawing while the written cards
+differentiate vessel, channel, outlet and state.
+
+## Iteration 71 — Biological paragraphs as a variable bath/site record package
+
+The three Biological pages do not have one paragraph per depicted figure:
+
+| page | main prose blocks | local apparatus blocks | selected labels |
+|---|---:|---:|---:|
+| f81v | 2 | 0 | 1 two-card tub label |
+| f82r | 3 | 0 | 13 figure/flow/tube labels |
+| f83r | 5 | 2 | 4 selected tube/structure labels |
+
+This matches the readable *De balneis* calibration better than a rigid recipe
+template. GDT211's 32 bath records all had an identity and indication, while
+location/access, hydraulic description, procedure/caution and outcome were
+optional. GDT212 further found that pictures weakly expose setting/access and
+hydraulic organization but do **not** reliably expose indication, procedure or
+outcome. Applied as a sidequest model, the likely page package is:
+
+```text
+silent page subject: named spring, bath, apparatus or treatment complex
+optional prose modules:
+  identity/site or class
+  access/setting
+  hydraulic/physical properties
+  medical indication or body condition
+  preparation/procedure/caution
+  result/testimony
+local labels:
+  depicted vessel/channel/flow/component cards
+```
+
+The paragraph count can vary because modules can be omitted or combined. This
+also explains why the f81 two-block mode switch can be setup→process while f82
+needs three long blocks and f83 five: they need not encode identical roles or
+the same number of patients. The illustrations chiefly ground the hydraulic
+layer; much of the actual medical payload may be invisible in the pictures.
+
+The best loose page readings become:
+
+```text
+f81v  compact bath/apparatus entry: setup inventory, procedure sequence, vessel key
+f82r  fuller bath/site entry: three prose modules plus a labelled hydraulic/figure tableau
+f83r  extended bath/apparatus entry: five prose modules plus a locally specified flow circuit
+```
+
+This makes “Biological” a modern visual label rather than the document's
+necessary genre. The pages can be balneological, therapeutic, hydraulic,
+alchemical or a hybrid; the variable illustrated medical-record architecture
+is the stronger inference.
