@@ -5382,3 +5382,77 @@ paragraph-ordinal route failed, so this ordering is retained only as a weak
 scribe-level default. It becomes useful only if later parses independently
 place a classification formula in module 1 and a relational or procedural
 construction in module 2 on the same page.
+
+## Iteration 83 — one workshop handbook, three lookup layers
+
+The ten pages now support a more economical historical model than ten isolated
+microgenres. The proposed object is an **illustrated practical handbook** whose
+three surviving lookup layers answer different questions:
+
+| layer | these pages | silent information | written residual |
+|---|---|---|---|
+| materia medica | f10r, f11r, f55v, f56r | pictured simple | class/quality, virtues, preparation/use |
+| baths/apparatus | f81v, f82r, f83r | pictured site, vessel, conduit and participant | setting, local component, process/state, indication/result |
+| astro-medical lookup | f67r2, f68r1, f69v | selected ring, star position, radial ordinal/parity | class, local state, prognosis or permitted action |
+
+This package is historically ordinary at the level that matters. British
+Library Egerton MS 747 joins an illustrated *Tractatus de herbis*, a lunar
+calendar, an antidotary, doses, substitutions, weights/measures and ingredient
+synonyms (<https://searcharchives.bl.uk/catalog/032-001983805>). Add MS 29301
+(c. 1420–1430) joins surgical diagrams, a Zodiac Man, 68 plant drawings, a
+Middle English *Circa instans*, a regimen and recipes
+(<https://searcharchives.bl.uk/catalog/032-002020783>). Monica Green's and
+Hilary Carey's work on late-medieval folded almanacs identifies them as compact
+medical-practitioner instruments combining calendrical, astrological and
+medical information (<https://research-information.bris.ac.uk/en/publications/astrological-medicine-and-the-medieval-english-folded-alihanac/>).
+Peter of Eboli's illustrated *De balneis* tradition describes named baths,
+their therapeutic waters and treatment effects; even the number and order of
+bath entries vary among witnesses
+(<https://www.cambridge.org/core/journals/traditio/article/peter-of-eboli-de-balneis-puteolanis-manuscripts-from-the-aragonese-scriptorium-in-naples/C804287BB668512B4D019696E0B114C8>).
+
+The parallel is **information architecture**, not textual descent. No readable
+comparator has the Voynich drawings, card strings, paragraph counts or exact
+circle system. But it makes a single small workshop's task intelligible:
+
+```text
+1 draw or copy the subject and its slots
+2 choose the register table: SIMPLE / BATH-APPARATUS / CIRCLE
+3 write a page-specific address or let the image supply it silently
+4 emit one or more records from shared abstract cards
+5 render a card joined or detached according to hand, state and available space
+6 carry state across line packets; close only the local field or paragraph
+```
+
+The resulting grammar need not be a substitution cipher. A new scribe learns
+roughly a dozen construction states and three finite register tables, then
+copies content from heterogeneous sources into that normalized format. This
+explains why Currier/hand changes affect surface families, why exact cards can
+recur without stable immediate neighbours, why image labels and prose only
+occasionally bridge exactly, and why a character model predicts formal variants
+well while whole-word translation attempts fail.
+
+### Current compact card manual (v0.4)
+
+| card/construction | best workshop instruction | confidence | strongest warning |
+|---|---|---|---|
+| pictured subject | take as silent record address | medium | ownership can be ambiguous |
+| paragraph start | open a new module under that address | medium | not necessarily a new subject |
+| `S-` line entry | carry/resume current setting | low | may be renderer only |
+| `D-` construction | set/activate an explicit local item/state | low | no semantic transfer proof |
+| `Q-` construction | link/look up a dependent registered card | low | GDT003 cannot beat strings |
+| `AIIN/DAIIN` | supply value, degree, quantity or reference | very low | exact value/number unknown |
+| `EDY/EEDY` | processed/result/state family | very low | extremely register-sensitive |
+| `OL` in Biological | carrier/medium/channel class | low local | emphatically not universal WATER |
+| `AR+OL` in local labels | conduit/path relation | very low local | tiny, partly unstable sample |
+| `SOL ... OL` | construction head with an OL argument/terminal | very low | verb/noun unresolved |
+| `CHOL CTHY` | paired quality/classification formula | low functional | qualities and degree unknown |
+| `DY` | field checkpoint/transition | medium formal | not sentence-final punctuation |
+| B3 | stronger local closure state | medium formal | not a confirmed period |
+| drawing/ring position | silent owner, ordinal or state | medium | cannot assume one universal coordinate |
+
+The best current end-to-end paraphrase is therefore not a plaintext but an
+editorial instruction: **identify the pictured entry; register its qualities
+and values; record relevant relations, process states or uses; consult the
+appropriate astronomical state table when needed; carry and close the record
+with a small shared compiler.** This is the first theory that covers all ten
+pages without requiring one global word gloss.
