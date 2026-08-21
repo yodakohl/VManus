@@ -2442,3 +2442,96 @@ CHECKPOINT   DY or local AM-family realization
 
 That is small enough for several scribes to share, yet expressive enough to
 describe plant treatment, apparatus flow and circular slot records.
+
+## Iteration 29 — the first complete apprentice formula: f83r.27
+
+f83r.27 is unusually clean. ZL3b, IT2a and RF1b all give exactly:
+
+```text
+dain | chedy | qokeedy | shckhedy | shckhedy
+```
+
+All five are distinct source groups separated by definite spaces. The last
+complete form is repeated exactly. This makes the line suitable as a model-leaf
+exercise.
+
+### Mechanical workshop parse
+
+```text
+DAIN          set/register N-type value at grade 1
+CHE-DY        prepare or qualify the current item; checkpoint
+Q-OKE-E-DY    execute the standard process at grade 2; checkpoint
+SH-CKHE-DY    retain/record resulting CKHE state; checkpoint
+SH-CKHE-DY    repeat the same resulting state or assign it to a second item
+```
+
+Abstractly:
+
+```text
+VALUE | PREPARATION-CLOSE | PROCESS-CLOSE | RESULT-CLOSE | RESULT-CLOSE
+```
+
+The exact content can vary while this formula remains teachable.
+
+### Bold plaintext-style paraphrases
+
+Process repetition reading:
+
+> Set one unit. Prepare it. Apply the standard grade-two treatment. Hold the
+> resulting CKHE condition twice.
+
+Parallel-output reading:
+
+> Set one unit and prepare it. Apply the grade-two process, then record the same
+> treated condition for each of the two corresponding outputs.
+
+The second reading is particularly attractive if the image supplies two
+parallel figures, vessels, streams, or targets. The text need not name either
+referent; repeating the same closed state assigns one code to both.
+
+### Repetition as a scribal operator
+
+A medieval workshop does not need a separate numeral or word for every small
+multiplicity. It can use literal repetition:
+
+```text
+X-DY              set state X once
+X-DY | X-DY       set the same state twice / for two parallel slots
+```
+
+This would explain otherwise odd adjacent identical labels and forms such as
+repeated `daldy`: the code is repeated because the same instruction or state
+belongs to more than one pictured object/slot. It is safer than assigning a
+number value to any glyph.
+
+### Distinguishing CHE and SH in the workshop grammar
+
+The f83r.25--30 paragraph supports a useful asymmetric teaching distinction:
+
+```text
+CHE-family   pending/prepared/qualified current item or state
+QOKE-family  active standard transformation
+SH-family    resulting/treated realization
+```
+
+Thus the broad construction is:
+
+```text
+CHE(X)  ->  QOKE(grade)  ->  SH(X')
+```
+
+DY can close any of the three local cells. An open SH form may remain available
+for another operation; SH...DY fixes it as a checkpoint.
+
+This is still an invented semantics, but it explains several observations at
+once: wrapper families, repeated identical forms, DY chaining, compact
+Biological lines, and easy transmission between scribes.
+
+### How the master teaches it
+
+> The CHE form tells which prepared thing is active. Copy the QOKE form for the
+> operation and choose its E-grade from the model. After the operation copy the
+> corresponding SH form. Add DY whenever that entry is fixed. If two equal
+> figures receive the same state, copy the closed SH form twice.
+
+This is simpler than teaching sounds, declensions, or a one-to-one cipher.
