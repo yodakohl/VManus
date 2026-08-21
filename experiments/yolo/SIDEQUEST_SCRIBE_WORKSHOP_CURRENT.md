@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-21, after the four-agent V4 ambiguity-resolution pass.
+Updated: 2026-08-21, after V5 itemized-formulary reconstruction.
 
 Status: **speculative working theory, not a GDT result and not a
 translation**. This file is the compact authoritative entry point for the
@@ -202,6 +202,36 @@ The medical interpretation stays the leading historical expansion, but is no
 longer embedded in the formal names. Details are recovery-only material in
 `sidequest_theory_candidates_v4/V4_THEORY_SELECTION.md`.
 
+## V5 source-function refinement
+
+V5 gives V4's abstract qokaiin role a historically ordinary source expansion:
+
+```text
+qokaiin ≈ ITEM / ALSO / NEXT ENTRY
+```
+
+This is not a phonetic reading. It names the function of a recurrent list or
+recipe-entry card. Seven of nine occurrences are field-initial, five follow a
+committed cell, two begin a line, one is medial, and the one field-final copy is
+repeated exactly at the next line start. An itemizing card can explain all four
+positions: ordinary entry, nested subentry, anticipatory catchword and restart.
+
+The new synthesis is an **itemized pictured formulary**. This dissolves the
+apparent conflict between practical medical register and indexed checklist:
+the checklist is the writing format of the practical register.
+
+```text
+PICTURED OWNER
+  + open descriptive ITEM entries in A mode
+  + short checked ITEM subentries in B mode
+  + relation, parameter, pointer and state cards
+  + exact local value carrying COMMIT
+```
+
+`ITEM/ALSO/NEXT` is the first source-like function narrower than the anonymous
+V4 algebra. It remains a hypothesis, not an identified source word. Details:
+`sidequest_theory_candidates_v5/V5_ITEMIZED_FORMULARY.md`.
+
 ## Generative model
 
 ```text
@@ -311,7 +341,7 @@ working expansion classes, not translations:
 | form/construction | best current guess | confidence |
 |---|---|---:|
 | attached DY/B3-bearing behavior | local field committed/terminated | .78 formal, no lexical confidence |
-| exact `qokaiin` | address/activate current slot | strongest V4 formal lead; TAKE/USE contextual only |
+| exact `qokaiin` | address/activate current slot | V5 source class ITEM/ALSO/NEXT; not phonetic |
 | L/O card | relation or class edge | .39 formal; no fixed preposition |
 | AIIN card | parameter, index or reference | amount/number demoted |
 | CTHY card | property, status or state | no PREPARED/HOT/DRY word |
@@ -509,12 +539,11 @@ Confirmed English lexemes: **0**. Confirmed plaintext clauses: **0**.
 The maximum useful speculative source-class paraphrase is:
 
 > For the object already shown, instantiate the appropriate register form;
-> activate the current slot, relate its marked nodes to a parameter or state,
-> commit the local cell, and continue an unfinished address across available
-> line space.
+> enter the next item, relate its marked nodes to a parameter or state, commit
+> the local cell, and continue an unfinished item across available line space.
 
-This is not plaintext. `activate`, `node`, `parameter` and `state` name a
-coherent indexed-form architecture, not identified English lexemes.
+This is not plaintext. `item/next`, `node`, `parameter` and `state` name a
+coherent itemized-form architecture, not identified English lexemes.
 
 Representative V3 free excerpts are:
 
@@ -523,8 +552,8 @@ Representative V3 free excerpts are:
 > associated parameter and working state, then close the local result.
 
 > **f82r.3–4:** Begin the next entry with its relation and configuration—write
-> the active address at the margin, repeat it at the new line, attach the
-> carried setting to its state, and commit the cell.
+> ITEM at the margin; on the new line repeat ITEM, attach the carried setting
+> to its state, and commit the cell.
 
 > **f83r.3:** Fix the first local state and its related value. Put the two
 > marked entries under one stated parameter, commit their linkage, then
