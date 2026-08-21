@@ -687,3 +687,202 @@ The most specific coherent story is now:
 The script is partly abbreviatory language and partly an executable notation.
 Its “sentences” are closer to recipes, register entries, or process cards than
 to narrative clauses.
+
+## Iteration 8 — three layers of vocabulary
+
+Trying to give every recurring host one global concrete meaning makes the
+theory unstable. A workshop would more plausibly maintain three vocabularies:
+
+### Layer A: shared control language
+
+```text
+S_ENTRY       start/resume
+Q_LINK        next/continue in the same construction
+D_BIND        take/assign/connect/apply
+CHE_DESCRIBE  supply an inline property or prepared form
+SH_STATE      supply a standing/result state
+DY_CLOSE      commit field
+B3_CLOSE      commit record
+```
+
+These are grammatical or notational actions shared by the scribes.
+
+### Layer B: broad technical value families
+
+```text
+AIIN  portion, unit, count, dose, or ordinal value
+DAIIN take/assign one AIIN-class value
+DAIN  related shorter value form
+DAIR  contrasting value/measure realization
+
+OL    carrier, base, path, vessel relation
+AROL  conducting carrier/course: sap path, tube, channel, orbit
+
+OK/OKE/OKEE
+      standard state/process family; OKEE tentatively means repeat,
+      continue, cycle, circulate, or maintain the treatment
+
+AL/AR two paired state, route, or endpoint classes
+```
+
+Layer B is allowed to become more concrete inside a register. For Biological
+records, `OKEE` might be “circulate/rinse”; in Herbal preparation, “soak or
+repeat treatment”; in a circle table, “advance/continuing phase.” The shared
+meaning would be ITERATE/CONTINUE, not one substance.
+
+### Layer C: page-local address values
+
+Forms such as `CHEY`, `CTHOOR`, `EKY`, `RSHE`, `LCHECKHY`, and `OLTCHY` are
+currently treated as page- or register-local material, state, apparatus, or
+property codes. Their visible similarity may reflect historical ancestry or
+scribal abbreviation, but their value is loaded from the current page profile.
+
+This separation prevents the theory from demanding that every repeated shape
+be either meaningless or a universal dictionary word.
+
+### First explicit quantity guess
+
+`AIIN` is the best candidate for a value-bearing technical unit because it is
+common in Herbal, Biological, and circle material, occurs independently, and
+also fills a right-side value family. The deliberately literal guess is:
+
+```text
+AIIN   "one registered portion/unit" or "unit-value slot"
+DAIIN  "take/assign a portion"
+QOKAIIN "then use the standard AIIN value"
+```
+
+No numerical value is implied. The “one” reading means one conventional unit
+entry, not the integer 1.
+
+### Microtranslations
+
+```text
+f10r.12
+odaiin | daiin | qotchy | qotor
+```
+
+> In the current O-frame, record a portion; take/assign a portion; then use
+> TCHY; then use OR.
+
+```text
+f55v.6
+ykaiin | daiin | ykair | cheky | daiiny
+```
+
+> YK with its unit value; assign a portion; YK with the contrasting measure;
+> prepare/describe KY; finish with the Y-marked portion state.
+
+```text
+f82r.16
+qokeedy | lchedy | qokeedy | cheey | r | or | ol | s | aiin | chey | ... | dam
+```
+
+> Continue/circulate and close; commit the LCHE state; continue/circulate
+> again; describe Y with the listed R/OR/OL material; resume with an AIIN unit;
+> add CHEY; terminate with DAM.
+
+The last paraphrase is useful because repeated `qokeedy` now means an iterative
+action bracketing another state, not a repeated object name.
+
+### Current confidence ordering inside the sidequest
+
+```text
+highest:  DY/B3 closure; s-entry; q-linked continuation
+medium:   che-description; sh-state/result; AIIN value/portion class
+low:      OKEE iterate/circulate; OL carrier; AROL course/conduit
+very low: concrete water, dose, source/return, or action glosses
+```
+
+This is still deliberate invention, but it now distinguishes what the scribe
+probably did structurally from what the workshop may have meant technically.
+
+## Iteration 9 — section-specific record syntax
+
+The same compiler appears to be used with different higher-level templates.
+In the covered six-page material, the useful qualitative contrast is:
+
+```text
+HERBAL A
+  one long descriptive field, usually committed by physical line end
+
+HERBAL B
+  one preparation/property field // one value/result field
+
+BIOLOGICAL
+  CHECKPOINT // CHECKPOINT // CHECKPOINT ... // descriptive tail
+
+CIRCLE LABEL
+  one compact precompiled address/value cell
+```
+
+This suggests that “sentence structure” is section-dependent even if the cell
+grammar is shared.
+
+### Biological command-cell hypothesis
+
+Singleton closed fields are tentatively read by wrapper class:
+
+```text
+Q+VALUE+DY   linked process/next-step checkpoint
+SH+VALUE+DY  standing/result-state checkpoint
+D+VALUE+DY   assign, transfer, take-from, or apply-to checkpoint
+S+VALUE+DY   reset, resume, or new-subroutine checkpoint
+VALUE+DY     bare state/material checkpoint
+```
+
+A multi-group final field then supplies arguments, values, exceptions, or a
+description and is committed by line end. The wrappers do not have to be
+spoken words; they may function like rubric symbols in an executable recipe.
+
+### Re-reading f82r.2 as a small program
+
+```text
+D(CHE); CLOSE
+Q(OLCHE); CLOSE
+Q(OK-AIN), D(Y), Q(OKEE); CLOSE
+Q(OK-AL), LCHECKHY, LCHED; LINE CLOSE
+```
+
+Possible operational paraphrase:
+
+> Establish or take CHE. Transfer to the linked OLCHE stage. At the indexed OK
+> stage assign Y and continue the OKEE treatment. Finish with OK variant AL and
+> its two qualifying values.
+
+### Re-reading f83r.47 as state progression
+
+```text
+OT(CH); CLOSE
+Q(OKCH); CLOSE
+SH(ED-AL); LINE CLOSE
+```
+
+> Enter the marked CH state. Continue through OKCH. Record the resulting ED-AL
+> state.
+
+This is substantially more coherent than treating `otchdy`, `qokchdy`, and
+`shedal` as three unrelated nouns.
+
+### Why Currier B looks different
+
+The difference may be documentary rather than linguistic:
+
+- Currier A spells out descriptive chains and lets line end close them.
+- Currier B compiles intermediate stages into explicit closed cells.
+- Biological B pushes this convention furthest because a depicted process or
+  apparatus benefits from checkpoint-like notation.
+- A small workshop can teach both as register templates while retaining shared
+  signs and local content codes.
+
+The resulting leading syntax is:
+
+```text
+LINE := DESCRIPTION_RECORD
+      | PREPARATION_FIELD // VALUE_OR_RESULT_FIELD
+      | CHECKPOINT+ // ARGUMENT_OR_RESULT_TAIL
+      | COMPACT_LABEL
+```
+
+This gives the manuscript a plausible sentence structure without forcing it
+to copy the syntax of an ordinary spoken language.
