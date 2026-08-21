@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-22, after V25 typed repetition-construction refinement.
+Updated: 2026-08-22, after V26 field/record sentence reconstruction.
 
 Status: **speculative working theory, not a GDT result and not a
 translation**. This file is the compact authoritative entry point for the
@@ -893,6 +893,23 @@ into counted ingredients and repeated L/O-like cards into multiple attachments
 under one active relation. This is a learnable construction above exact-card
 identity, not a confirmed numeral or plurality marker. The enhanced 199-locus
 edition is in `sidequest_theory_candidates_v25/`.
+
+## V26 sentence and operation hierarchy
+
+The 381 prose events are now reassembled into 135 grammar-derived fields and
+11 complete records. Physical lines are layout; fields are local clauses or
+operand packages; DY commits a local operation; B3 commits a major step; an
+open field carries owner, batch and process state onward.
+
+The register contrast is strong: Herbal has 20 fields, only 5 committed and 15
+open, matching continuous articles around pictures. Biological has 115 fields,
+85 committed and 30 open, matching short executable application worksheets.
+Thus one shared card deck can compile into article prose in Herbal and a dense
+step form in Bio without requiring two languages.
+
+The full segmentation and readable records are in
+`sidequest_theory_candidates_v26/V26_COMPLETE_135_FIELD_TRANSLATION.tsv` and
+`V26_COMPLETE_11_RECORD_TRANSLATION.tsv`; validation is `PASS`.
 
 ## Generative model
 
