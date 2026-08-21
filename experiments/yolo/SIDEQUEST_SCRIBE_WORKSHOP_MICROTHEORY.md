@@ -4352,3 +4352,187 @@ OLKAL bath” or “bath containing/using OLKAL”. The direction of modificatio
 unknown: OLKAL could instead be the head meaning tub while OTAIN is a condition
 or treatment. The robust layer is only shared Biological recurrence plus
 independent tub-label ownership.
+
+## Iteration 60 — the four Herbal pages are two-part illustrated entries
+
+The extension pages reveal a page-level regularity that the exact-form census
+missed. All four Herbal pages contain two prose packets around one previously
+drawn plant:
+
+| page | Currier / hand | first packet | second packet | visible arrangement |
+|---|---|---:|---:|---|
+| f10r | A / 1 | 43 groups | 49 groups | two blocks above the plant |
+| f11r | A / 1 | 32 groups | 27 groups | two short blocks above the plant |
+| f55v | B / 2 | 43 groups | 62 groups | two blocks interrupted by the plant |
+| f56r | A / 1 | 49 groups | 54 groups | two blocks fitted around the plant |
+
+This transfers across Currier A/B and hands 1/2. The economical page grammar
+is therefore not “one sentence per line” but:
+
+```text
+DRAWN PLANT = silent entry heading
+HERBAL BLOCK A = identification, qualities or description card set
+HERBAL BLOCK B = uses, preparation, administration or dose card set
+```
+
+The alternatives within each block cannot yet be ordered. In particular, a
+simple feature count does not sharply separate the two packet types, and the
+closed Herbal paragraph-ordinal route found no predictive universal formal
+profile. The useful result is the **two-part document template**, not a proof
+that the first packet is DESCRIPTION or the second is PREPARATION.
+
+This is historically plausible without being diagnostic. The British
+Library's catalogue for the illustrated *Tractatus de herbis* in Egerton 747
+describes plant/substance entries accompanied by an antidotarium and material
+on doses, substitutions, weights and synonyms
+(<https://searcharchives.bl.uk/catalog/032-001983805>). Penn's ca. 1400
+*Erbario* likewise places medicinal-property and preparation notes around or
+over plant images (<https://colenda.library.upenn.edu/catalog/81431-p3n87308d>).
+Those comparators make a silent image heading plus compact technical modules a
+credible workshop format; they do not identify either Voynich packet.
+
+`CHOL CTHY`, which recurs exactly on f10r, f11r and f56r, now has a slightly
+more concrete but still reversible workshop reading. Since `OL` behaves
+elsewhere like a carrier/medium slot, `CHOL CTHY` may be an Herbal-A formula of
+the form “with/in the registered carrier, perform the CTHY preparation”. A
+bold apprentice could paraphrase it as “prepare/heat in water”, but WATER and
+HEAT are deliberately interchangeable guesses: the exact evidence licenses
+only a repeated hand-1 Herbal construction.
+
+## Iteration 61 — three different astronomical data modes
+
+The three circle pages should not be translated as one homogeneous list.
+
+1. **f68r1 is an object-card field.** Its human inventory contains 29
+   explicitly attached star labels; the 29 ZL surfaces are all different. An
+   attached card such as `OTOR` also occurs in the page's longer text. This is
+   compatible with individual catalogue identifiers or attribute bundles.
+2. **f69v is a repeated state/value schedule.** Among its 28 ordered radial
+   entries, `OKEOD` repeats at positions 14 and 18 in all readings, and at 27
+   in ZL3b/IT2a with an RF1b split. A repeated card is awkward for 28 unique
+   names but natural in a schedule where the same state/value can recur.
+3. **f67r2 is a nested almanac.** It combines distinct 7- and 12-member human
+   label arrays plus surrounding rings and prose. Most labels are unique; the
+   apparent ZL `OKODAR` echo across the 7 and 12 rings is not stable in the
+   alternate readings and is retained only as a warning against easy ring
+   alignment.
+
+One post-hoc f68 clue is worth preserving without promotion. For its nine
+plain-O star labels, eight attached stars have seven rays and one has six. For
+the nine OT labels, only three have seven rays, while four have six and two
+have eight. The local one-sided exact tail for the 1/9 versus 6/9 non-seven
+contrast is about .025 before any search correction. Thus O may be an
+unmarked seven-ray renderer and OT a marked/nonstandard renderer **on this
+folio**. This cannot be generalized: the direct star-label route has only one
+owned folio, the feature was noticed post hoc, and O/OT occur throughout other
+registers. It is a plausible example of how a compact card encodes
+object-class plus local ID, not evidence that T means “six/eight rays”.
+
+The conservative astronomical paraphrase is therefore “object catalogue +
+cyclic state table + nested calendrical/almanac table”. KART001 already showed
+that the relevant 7/12/28/30 cardinalities fit broad medieval
+astrology/computus and are not geographically specific; its failed f69 lag-14
+prediction also argues against a direct copied 28-night value table. Medieval
+computistical diagrams routinely combine multiple cyclic schedules rather
+than prose sentences—for example Walters W.73 is a small cosmographical
+diagram compendium (<https://t.thedigitalwalters.org/Data/WaltersManuscripts/html/W73/description.html>).
+
+## Iteration 62 — OL/AROL as a Biological carrier-and-conduit vocabulary
+
+The strongest content-bearing sidequest clue now comes from the independently
+catalogued Biological labels, not from line statistics:
+
+| page/locus | reading nucleus | independent visible ownership | OL present |
+|---|---|---|---|
+| f81v.28 | `OTAIN OLKAL` | label left of bottom tub | yes |
+| f82r.10 | `OROL DAIN` / joined variant | cross-shaped tube | yes |
+| f82r.35 | `DAROL` | left waterfall/flow label | yes |
+| f82r.38 | `DARARY` | right waterfall/flow label | no |
+| f83r.45 | `CHTOROL` | possible left tube end | yes |
+| f83r.46 | `OLSAIIN` | possible right tube end | yes |
+| f83r.50 | approx. `SAROLDAL` | left lower structure | yes, reading-unstable |
+| f83r.51 | `DAROLSY` | right lower structure / spray | yes |
+
+Seven of these eight labels contain an OL sequence. This concentration is a
+real reason to keep a Biological-register gloss alive, but it is not a clean
+word-to-picture binding: the two f83 tube-end assignments are hedged, f82's
+waterfall labels are spatial labels rather than proved nouns, and earlier
+all-folio transfer tests rejected OL as a universal left/right marker.
+
+The best unifying decomposition is now:
+
+```text
+OL       carrier / medium / conduit-class slot
+AR       path / axis / relation slot
+AR-OL    conduit, axis, stem or route through a carrier
+D-AR-OL  activated/directed conduit or outgoing flow state
+S-AR-OL  carried/return/source counterpart
+DAL/SY   local endpoint or state selector
+```
+
+This is better than `AROL = water`. An axis/conduit abstraction can recur in
+plant-root/stalk labels and in tubes, channels and flows; a water noun cannot
+explain the plant and astronomical counterexamples. On f83r the tempting pair
+is therefore not two translated phrases but two ends/states of one registered
+conduit construction:
+
+```text
+approximately S-AR-OL-DAL    conduit/path in state DAL
+exact         D-AR-OL-SY      conduit/path in state SY
+```
+
+The left member is transcription-unstable (`SASOLDAL` in ZL, approximately
+`SAROLDAL` in IT, split in RF), while `DAROLSY` is stable. `DARARY` is the
+important same-scene counterexample: if OL were obligatory for water/flow,
+that label should contain it. The current theory instead permits different
+channel/material classes under a shared D-AR relation.
+
+## Iteration 63 — leading document theory: a medico-astrological workshop manual
+
+The ten pages now support one more specific overall theory than “hybrid
+technical shorthand” alone:
+
+> A small workshop compiled an illustrated practical medical handbook. Plant
+> pages register simples and their properties/preparations; Biological pages
+> register baths, liquids, channels or treatment apparatus plus independent
+> procedural prose; astronomical pages supply timing, classification or
+> calendrical lookup tables used by the same practical system.
+
+The shared writing system remains deliberately simple enough for several
+scribes around 1420:
+
+```text
+1. picture or diagram supplies the silent subject and local register
+2. choose a register-local row/card from a memorized table or exemplar
+3. AIIN-like cells enter a setting, quantity, grade or registered reference
+4. EDY/EEDY-like cells record completed/marked states
+5. S carries or resumes; D sets, activates or selects; Q links a licensed cell
+6. OL supplies a carrier/medium/channel argument; AR supplies a path/relation
+7. DY checkpoints a local cell but does not end the statement
+8. JOIN/SPACE and shortened forms fit the cards around the earlier drawing
+```
+
+The historical comparison is architectural, not identificatory. The
+*De balneis Puteolanis* tradition organized therapeutic waters and baths in a
+repeated illustrated medical genre
+(<https://www.cambridge.org/core/journals/traditio/article/peter-of-eboli-de-balneis-puteolanis-manuscripts-from-the-aragonese-scriptorium-in-naples/C804287BB668512B4D019696E0B114C8>),
+while medieval medical astrology tied astronomical cycles to diagnosis and
+treatment timing. These traditions make a plant + bath/apparatus + almanac
+compendium historically intelligible, but many Latin, Greek, Arabic and
+vernacular technical compilations could supply the same broad architecture.
+
+The leading theory beats its rivals abductively as follows:
+
+| world | what it explains | main failure |
+|---|---|---|
+| ordinary encrypted prose | broad paragraph flow | labels, repeated card algebra and sharp within-page mode switches |
+| pure technical notation | compact cards and diagrams | long paragraph texture and scribal variation |
+| ordinary abbreviated medical language | paragraphs and formulae | unusually strong formal compatibility and register-local card inventories |
+| **hybrid abbreviated language + codebook/notation** | all three modes with one teachable workshop system | still lacks any securely decoded lexeme or clause |
+
+This is now the best sidequest theory, not a manuscript claim. Its awkward
+facts remain decisive: GDT003 composition does not beat string baselines;
+f69's direct lunar lag-14 prediction failed; OL and AROL occur outside water
+contexts; the Herbal two packets lack a stable universal formal contrast; the
+f68 O/OT ray clue is single-folio and post-hoc; and no image has yet supplied a
+word-level referent that transfers independently.
