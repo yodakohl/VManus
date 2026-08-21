@@ -3100,3 +3100,43 @@ paragraph/record     larger continuing instruction or entry
 
 The invented gloss “done/next” remains shorthand for this structural behavior,
 not a recovered English meaning or proof that `DY` is punctuation.
+
+## Iteration 37 — `OR` is a link-like cell; `DAR` is not simply `D+OR`
+
+The shared master-card candidates `or` and `dar` do not behave like the clean
+`aiin/daiin` pair:
+
+```text
+OR       9 occurrences: 1 start, 7 middle, 1 end
+DAR      5 occurrences: 1 start, 2 middle, 2 end
+```
+
+`OR` is strongly internal in this tiny sample. It precedes `aiin` twice and
+appears literally doubled in f55v.9:
+
+```text
+... chey | or | or | aiin ...
+```
+
+That makes a link, relation slot or small connective card a useful sidequest
+interpretation. It does **not** determine whether the relation would be read as
+with, of, to, from, at, another column label, or no spoken word at all.
+
+`DAR`, by contrast, is more boundary-skewed and is not visibly `D+OR`: the
+surface forms differ in their middle element. The apprentice model should
+therefore store it as a complete card:
+
+```text
+OR       small link/relation cell
+DAR      registered whole relation or operation cell
+```
+
+The earlier temptation to derive every `DAR/DAL/SAR` form from a universal
+`D/S + AR/OR` grammar is accordingly weakened. Analogy may help a scribe
+remember the family, but historical resemblance, current formal segmentation
+and current function need not coincide. This is exactly the kind of
+lexicalized irregularity expected in a small workshop shorthand.
+
+The repeated `OR OR` can be imagined as two relation slots, a repeated link, or
+two separately copied codes. It is not enough to call `OR` “and”, and the
+sidequest leaves that choice open.
