@@ -5865,3 +5865,46 @@ world because such compilations are ordinary and economical. Internally,
 however, a looser workshop miscellany using the same compiler fits almost as
 well. The women's-regimen fork and medical timing of the circles are the first
 claims to discard if the theory becomes overburdened.
+
+## Iteration 92 — historical abbreviation is only the lower layer
+
+The earlier controlled historical experiments now constrain the invented
+production mechanism:
+
+- GDT157 learned an expansion-to-diplomatic transducer from real Nuremberg
+  parallel text. Abbreviation reproduced compression, entropy, cross-space
+  dependence and some opening behaviour, but genuine diplomatic German still
+  had about 182 discovered operations versus Voynich's 407 and compatible-pair
+  density 0.00142 versus 0.04529.
+- GDT158 showed that authentic accounting/register structure can generate much
+  of the opening, closing and reset half of the architecture, but not the
+  token-level operation algebra.
+- GDT159 added abbreviation-preserving Latin technical/medical and other
+  diplomatic corpora. None jointly entered the Voynich regime of operation
+  scale, compatible-pair density and left-dominant support.
+- GDT160 preserved vocabulary, frequencies, host support and register structure
+  while destroying only LEFT×RIGHT pairing. Voynich retained an 8.37 observed/
+  null ratio in all twelve folds. Similar pairing exists in readable corpora,
+  so it is not uniquely mysterious, but Voynich's absolute excess was 31.8
+  times the largest external excess.
+
+This gives the workshop theory a historical decomposition:
+
+```text
+ordinary source language
+    + ordinary scribal abbreviation                explains compression/texture
+    + ordinary record layout                        explains much boundary reset
+    + manuscript-specific registered card compiler explains residual pair algebra
+```
+
+The final layer need not be cryptographic. A workshop phrasebook in which
+left pickup/state cards license particular right value/closure cards naturally
+creates the observed compatible-pair excess. It also remains simple enough for
+several scribes: they learn a finite construction table, not hundreds of
+independent cipher substitutions.
+
+This is why **hybrid** now leads decisively over “heavily abbreviated natural
+language” alone. It does not identify what the cards mean, and GDT003 still
+shows that their formal fourth-cell prediction does not beat strong character
+statistics. The compiler is a production architecture, not demonstrated
+linguistic morphology.
