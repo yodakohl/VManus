@@ -8014,3 +8014,44 @@ catalogues for [Add MS 29301](https://searcharchives.bl.uk/catalog/032-002020783
 and [Harley MS 1736](https://searcharchives.bl.uk/catalog/040-002047567), plus
 the scholarly practical-book comparison [“Here Is a Good Boke to
 Lerne”](https://www.cambridge.org/core/journals/journal-of-british-studies/article/here-is-a-good-boke-to-lerne-practical-books-the-coming-of-the-press-and-the-search-for-knowledge-ca-14001560/8217EBC4F6CE53F1084709587B7C2E12).
+
+## Iteration 158 — repeated line stencils reveal the form grammar
+
+Serializing each physical line only as field length plus attached closure
+reveals a small number of recurring cross-page stencils:
+
+```text
+Herbal A
+  4O                 five lines on f10r/f11r/f56r
+  5O                 two lines on f11r/f56r
+
+Biological B
+  1C | 3C | 1C | 4O two lines on f81v/f82r
+  2C | 4O           two lines on f82r/f83r
+```
+
+`C` means that the field's final exact card has attached closure; `O` means
+open. These are line packets inside larger paragraph records, not complete
+sentences.
+
+The strongest pair is f81v.17 and f82r.7. Both instantiate the full
+`1C|3C|1C|4O` stencil. Eight of their nine card positions differ, but the
+third card of the three-card field—the visible `shedy` closer, exact tuple
+`bc4f1f5c006c...`—is identical in both. This is precisely what a reusable
+form looks like: variable entries occupy fixed cells while one conventional
+closing card can remain constant.
+
+The two `2C|4O` lines on f82r.3 and f83r.8 share the architecture without a
+same-position exact card, showing that the stencil does not require a copied
+surface phrase. Herbal A instead repeatedly uses one longer open field per
+line. The best anonymous record syntax is therefore:
+
+```text
+HERBAL ARTICLE ROW := OPEN_FIELD(usually 4–5 cards)
+BIO FORM ROW       := CLOSED_CELL+ + OPEN_TAIL
+```
+
+This is the clearest current answer to “sentence structure.” The reusable unit
+is often a field stencil populated by cards, and the paragraph chains such
+stencils across line breaks. It does not identify which cell is material,
+action, quantity, condition or result.
