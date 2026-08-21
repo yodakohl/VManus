@@ -108,3 +108,18 @@ No wording corresponding to *same*, *as above*, *of equal quantity*, *each*,
 V12 establishes a copied, teachable exact-card formula. It establishes no
 meaning, word, relation, amount, reference, language or plaintext. `f84` and
 `f84r` remained sealed throughout all four passes.
+
+## Exploratory persistence correction
+
+After V12, the sidequest method was explicitly corrected: lack of unique proof
+does not erase a useful working interpretation. Accordingly, preserve this
+ranked semantic expansion alongside the formal result:
+
+1. `SHARED_ACTIVE_REFERENCE` — leading speculative expansion, confidence .44;
+2. ordinary copied formulaic prose — strongest rival, .42;
+3. dyadic/indexed frame — live secondary family, .34;
+4. literal equal quantity/*ana* — narrow and poorly supported, .18.
+
+Thus `FORMULA_F3` remains certain at the sidequest's formal level, while “two
+entries under one active value/reference” remains the best current semantic
+guess rather than a withdrawn claim. It must not be presented as proven.

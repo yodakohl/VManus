@@ -52,6 +52,16 @@ The exact profiles are frozen in `SIDEQUEST_FOUR_AGENT_BACKGROUNDS.md`. Each
 agent receives one perspective and the same evidence protocol but may not read
 sibling outcomes before finishing.
 
+## Exploratory persistence rule
+
+This sidequest ranks generative working theories; it is not a confirmation
+pipeline. A useful interpretation remains live while it fits all fixed-page
+occurrences and simplifies the overall reading. Underdetermination lowers its
+confidence and preserves rivals—it does not automatically erase the lead.
+Replace a reading only when it becomes clearly incompatible or a simpler rival
+explains materially more. Structural facts remain distinct from speculative
+source-class expansions.
+
 ## Best current overall theory
 
 The leading reconstruction is now a **formula-card practical medical register**
@@ -476,13 +486,44 @@ semantically parallel: f10r locally has `Y–Y–AIIN–Y` at an open Herbal lin
 tail, whereas f83r has `Y–AIIN–Y–LCHE[COMMIT]` at a Biological field head.
 There are no independently owned symmetric operands or shared antecedent.
 
-Therefore withdraw `POINTER–SAME/STATED REFERENCE–POINTER` and the equal-amount
-or *ana* reading. Shared reference, dyadic relation, checklist index and
-ordinary formulaic prose remain compatible. A scribe can copy and recognize
-`FORMULA_F3` without knowing—or exposing to us—its expansion.
+The exact evidence alone does not decide the expansion. Under the sidequest's
+exploratory persistence rule, retain `SHARED_ACTIVE_REFERENCE`—roughly “two
+entries under one active value/reference”—as the leading semantic guess at .44,
+with ordinary copied formulaic prose at .42 and a dyadic/indexed frame at .34.
+Only literal equal quantity or *ana* is demoted strongly (.18). A scribe can
+copy and recognize `FORMULA_F3` without exposing its expansion to us.
 
 Full details are recovery-only material in
 `sidequest_theory_candidates_v12/V12_THEORY_SELECTION.md`.
+
+## Four-agent V13 L/O relation refinement
+
+V13 applies the corrected exploratory rule to all 19 exact L/O occurrences.
+All four historical perspectives preserve and sharpen the V6 association lead.
+The selected workshop function is:
+
+```text
+L/O := CONTINUE_UNDER_ACTIVE_RELATION
+     ≈ WITH THE CURRENT ITEM
+     ≈ ALSO / LIKEWISE UNDER THE SAME HEADING
+```
+
+The rule maintains an active relation anchor. Medial `A–L/O–B` attaches B under
+A/current H; repeated `A–L/O–B–L/O–C` continues the same relation; FIRST or
+ONLY L/O inherits its missing anchor from the record; LAST L/O leaves an edge
+open across the physical line; `L/O–COMMIT` commits an inherited-relation cell.
+
+This explains 14 medial, 3 first, 1 only and 1 last occurrence with one
+learnable rule. It also resolves the f81v.7 singleton as “likewise/retain the
+current link” and the f83r.52 line-final case as a carried open relation.
+
+Working confidence is .74 for a formal relation/continuation function and .59
+for the `WITH/ALSO/LIKEWISE` source expansion. The strongest rival is a purely
+formal relation-slot card; no specific preposition, medical relation or word is
+claimed.
+
+Full details are recovery-only material in
+`sidequest_theory_candidates_v13/V13_THEORY_SELECTION.md`.
 
 ## Generative model
 
@@ -601,7 +642,7 @@ working expansion classes, not translations:
 |---|---|---:|
 | attached DY/B3-bearing behavior | local field committed/terminated | .78 formal, no lexical confidence |
 | exact `qokaiin` | address/activate current slot | V5 source class ITEM/ALSO/NEXT; not phonetic |
-| L/O card | associative link with inherited operands | ASSOCIATED WITH / SAME RELATION; no fixed preposition |
+| L/O card | continue under active relation | WITH CURRENT ITEM / ALSO / LIKEWISE; no fixed preposition |
 | AIIN card | parameter/value/reference candidate | no active-reference or amount gloss established |
 | CTHY card | property, status or state | no PREPARED/HOT/DRY word |
 | Y card | item node or pointer | no entity gloss |
@@ -618,16 +659,17 @@ All-occurrence V3 consistency is deliberately less fluent than the examples:
 | CTHY state | 7/7 distributionally possible | no externally owned prepared state |
 | terminals | 90/90 close formally | individual English action/result readings absent |
 
-The strongest retained constructional object is now anonymous:
+The strongest retained constructional object is formally anonymous:
 
 ```text
 FORMULA_F3 := Y — AIIN — Y
 ```
 
 Its closest historical functional analogies include *idem*, *ut supra*,
-ditto-like reuse and the recipe convention *ana*, but ordinary formulaic prose,
-a dyadic frame and an indexed coordinate fit equally well. No Voynich card is
-read phonetically as any analogy. Equal amount is withdrawn because neither
+ditto-like reuse and the recipe convention *ana*. `SHARED_ACTIVE_REFERENCE`
+remains the leading speculative expansion, narrowly ahead of ordinary
+formulaic prose; a dyadic frame and indexed coordinate remain live. No Voynich
+card is read phonetically as any analogy. Equal amount is weak because neither
 record establishes symmetric operands.
 
 The exact collapses are stronger than the surface spelling:
@@ -849,9 +891,7 @@ alphabet.
 
 Only pursue work that can materially change this compact theory:
 
-1. **link-operand test:** ask whether L/O's explicit and inherited operands are
-   structurally coherent, especially the one-card f81v.7 field;
-2. **practical-form-versus-checklist test:** seek repeated fixed-page visual
+1. **practical-form-versus-checklist test:** seek repeated fixed-page visual
    roles that distinguish medical/applicative content from generic indexed
    form filling; never import prose cards into the circle pages.
 
