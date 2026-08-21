@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-21, after V18 six-card process reconstruction.
+Updated: 2026-08-21, after V19 complete four-page Herbal reconstruction.
 
 Status: **speculative working theory, not a GDT result and not a
 translation**. This file is the compact authoritative entry point for the
@@ -750,6 +750,32 @@ through the complete 776-row ledger in
 All other V17 meanings remain concrete and unchanged. Full rationale is in
 `V18_THEORY_SELECTION.md`; validation is `PASS` in `V18_VALIDATION.json`.
 
+## Four-agent V19 complete Herbal reconstruction
+
+V19 forced every card on all four Herbal pages into a complete illustrated
+article: 100/100 events, 66/66 exact types and two concrete rivals for every one
+of 55 singletons. R2's historically calibrated materia-medica articles are the
+new basis, with R3's exact-card consistency discipline and the R1/R4 scribal
+controls incorporated.
+
+The strongest contradiction-driven revision concerns exact card
+`d665560c...`: it occurs as `dchol/schol` beside visibly different plants on
+f11r and f56r and therefore cannot retain the old “local plant name” default.
+The selected reading is **of this pictured simple**, with “for painful
+swellings” retained as the strongest concrete rival.
+
+Selection is deliberately local. Of the 66 Herbal cards, 49 occur only on
+these pages and receive the new article meanings; 17 also occur in Biological
+pages and retain their V18 cross-register defaults. This revises 56 events
+without breaking the common wet-process deck. The full selected dictionary
+still has 569 entries and the ledger 776/776 concrete defaults.
+
+The current page bets are scabious/knapweed-like f10r, umbellifer-like f11r,
+plantain/broad-leaf f55v and a spiny or glandular wet-heath f56r. Narrow species
+names remain deliberately weaker than the article mechanisms. Full rationale
+is in `sidequest_theory_candidates_v19/V19_THEORY_SELECTION.md`; validation is
+`PASS` in `V19_VALIDATION.json`.
+
 ## Generative model
 
 ```text
@@ -992,10 +1018,13 @@ Other established renderer effects inherited from the main project:
 
 ### Herbal
 
-Four pictured-simple dossiers, generally one long open field per row. The
-image supplies the plant. Text plausibly records identity/classification,
-qualities, preparation, habitat, medium or use. Water may occur in any of
-those roles, but no exact card is assigned WATER.
+Four pictured-simple materia-medica articles. The image supplies the omitted
+plant owner; the article carries plant part, habitat, gathering time, medium,
+measure, preparation, application, indication, storage and reference. The
+current concrete readings are f10r root powder/decoction with running water and
+red wine; f11r clarified root liquor and warm poultice; f55v broad-leaf wound
+wash; and f56r a part-by-part wet-heath dossier. These are working source-text
+expansions, not confirmed clauses. No exact card is assigned WATER.
 
 ### Biological
 
