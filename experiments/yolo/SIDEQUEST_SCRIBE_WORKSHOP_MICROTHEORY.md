@@ -2715,7 +2715,11 @@ PARAGRAPH CLOSE   terminate the inherited workspace
 This is the most historically learnable version so far: a phrasebook plus two
 positional rendering habits and paragraph-level state inheritance.
 
-## Iteration 32 — f55v must be read around the plant, not across it
+## Iteration 32 — f55v must be read around the plant, not across it (superseded)
+
+**Superseded by Iteration 33.** The visual observation of four text blocks and
+drawing interruptions is valid. The inference that those blocks carry fixed
+plant-part or column meanings is not justified.
 
 Direct inspection of the official Yale f55v canvas corrects the earlier
 paragraph reading. The page has four visible text blocks:
@@ -2854,3 +2858,73 @@ each zone contains at least two layout-separated streams
 
 Preparation, use, dosage and water remain candidate contextual interpretations,
 not established column labels.
+
+## Iteration 33 — pre-drawn image, space-filling text
+
+The simpler circa-1420 production model is:
+
+```text
+1. illustrator draws and colours the plant;
+2. text scribe receives the already occupied page;
+3. scribe fits the entry into the remaining parchment spaces;
+4. lines stop at the drawing and may resume on its other side;
+5. paragraph structure continues independently of the irregular line widths.
+```
+
+This chronology is an explicit sidequest assumption, not a codicological result
+established here. It explains the page without assigning semantics to proximity.
+
+### What the image licenses
+
+```text
+plausible:
+    the page broadly concerns the depicted plant
+    the drawing constrains available writing space
+    the same paragraph may occupy several irregular blocks
+
+not licensed:
+    upper text = flower meaning
+    lower text = root meaning
+    left = preparation
+    right = application/dosage
+    drawing boundary = grammatical operator
+    nearby group names the nearby plant part
+```
+
+The `DRAWING_INTERRUPTION` therefore becomes a **layout obstacle marker** in the
+working theory. It may coincide with a logical break, but it does not create one.
+
+### Reading-order consequence
+
+For f55v and f10r we retain multiple possible orders:
+
+```text
+row-wise continuation around the drawing
+column-wise continuation within a free text block
+mixed order chosen by paragraph geometry
+```
+
+No semantic paraphrase may depend on choosing one of these without stronger
+evidence. The earlier horizontal and column-wise translations remain examples
+of possible readings only, not the preferred decoder.
+
+### Revised workshop model
+
+The image may still save the scribe from repeatedly naming the plant at page
+level. But the text grammar itself is reconstructed from recurrence, paragraph
+boundaries, source groups, line entry and DY behavior—not from which leaf,
+flower, stem, or root happens to be closest.
+
+This makes the production process simpler:
+
+```text
+shared page topic: depicted plant
+text placement: available-space optimization
+record grammar: learned phrasebook and paragraph templates
+local visual ownership: unknown
+```
+
+For multiple scribes this is natural. The illustrator fixes the occupied
+regions; each text hand wraps or blocks the record according to available
+space and house convention. Variation in line length and drawing interruption
+then needs no semantic explanation.
