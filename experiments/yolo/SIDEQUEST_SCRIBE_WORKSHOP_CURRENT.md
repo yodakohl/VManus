@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-21, after V6 associative-link reconstruction.
+Updated: 2026-08-21, after V7 stated-reference reconstruction.
 
 Status: **speculative working theory, not a GDT result and not a
 translation**. This file is the compact authoritative entry point for the
@@ -259,6 +259,35 @@ This is more concrete than `RELATION_EDGE` but still compatible with a purely
 notational cross-reference. Details:
 `sidequest_theory_candidates_v6/V6_ASSOCIATIVE_LINK.md`.
 
+## V7 AIIN refinement
+
+AIIN occurs 20 times across all seven fixed prose pages: six FIRST, nine
+MIDDLE, five LAST, and zero immediately before an attached close. That mobility
+is poorly explained by a narrow amount or number marker.
+
+The leading source-class expansion is now:
+
+```text
+AIIN ≈ AS STATED / SAME ACTIVE VALUE / CURRENT STANDARD
+```
+
+The referenced value can be an amount, degree, duration, stage, index or
+setting; AIIN need not encode which. A field-initial occurrence reuses the
+active standard, an interior occurrence binds a node to it, and a field-final
+occurrence leaves that reference open. Two occurrences inside f81v.7 can be
+read as two explicit bindings to the same active standard.
+
+This strengthens `Y–AIIN–Y` without claiming equal quantities:
+
+```text
+POINTER-A — SAME/STATED REFERENCE — POINTER-B
+```
+
+The strongest rival remains a content-free generic value/index slot. The
+reference reading requires local antecedent continuity that is not yet
+externally owned. Details:
+`sidequest_theory_candidates_v7/V7_REFERENCE_VALUE.md`.
+
 ## Generative model
 
 ```text
@@ -370,7 +399,7 @@ working expansion classes, not translations:
 | attached DY/B3-bearing behavior | local field committed/terminated | .78 formal, no lexical confidence |
 | exact `qokaiin` | address/activate current slot | V5 source class ITEM/ALSO/NEXT; not phonetic |
 | L/O card | associative link with inherited operands | ASSOCIATED WITH / SAME RELATION; no fixed preposition |
-| AIIN card | parameter, index or reference | amount/number demoted |
+| AIIN card | stated reference/current standard | amount, degree, index or setting supplied by record |
 | CTHY card | property, status or state | no PREPARED/HOT/DRY word |
 | Y card | item node or pointer | no entity gloss |
 | Bio OKE/OKEE/LCHE/CHE/CKHY deck | local process, configuration or result codes | .18 as a class |
@@ -389,15 +418,15 @@ All-occurrence V3 consistency is deliberately less fluent than the examples:
 The boldest retained constructional reading is:
 
 ```text
-Y — AIIN — Y  ≈  TAGGED ITEM — PAIRED/TYPED PARAMETER — TAGGED ITEM
+Y — AIIN — Y  ≈  POINTER — SAME/STATED REFERENCE — POINTER
 ```
 
-Its closest historical functional analogy is the recipe convention *ana*, “of
-each/equal amount,” but no Voynich card is read phonetically as *ana*. Equal
-amount now has only `.12` working confidence because the Herbal occurrence has
-an extra adjacent Y card and neither picture establishes symmetric operands.
-The broader paired/typed-parameter frame remains at `.34`. Two occurrences
-support only a prediction-worthy construction.
+Its closest historical functional analogies are *idem*, *ut supra*, ditto-like
+reuse and the recipe convention *ana*. No Voynich card is read phonetically as
+any of these. Equal amount remains only one possible referenced value because
+the Herbal occurrence has an extra adjacent Y card and neither picture
+establishes symmetric operands. Two occurrences support only a
+prediction-worthy shared-reference construction.
 
 The exact collapses are stronger than the surface spelling:
 
@@ -583,8 +612,8 @@ Representative V3 free excerpts are:
 > to its state, and commit the cell.
 
 > **f83r.3:** Fix the first local state and its related value. Put the two
-> marked entries under one stated parameter, commit their linkage, then
-> activate the next item.
+> marked entries under the same previously stated reference, commit their
+> linkage, then activate the next item.
 
 > **f81v.18, field 2:** Take the marked node, associate it with the first local
 > value and likewise with the second; validate the completed cell.
@@ -617,9 +646,9 @@ Only pursue work that can materially change this compact theory:
    without an independently owned liquid referent;
 2. **link-versus-cross-reference test:** ask whether L/O sits between structurally more homogeneous
    operands than matched interior cards, without calling it AND/WITH/IN;
-3. **parameter-versus-index test:** ask whether AIIN neighborhoods follow
-   continuous values/settings or repeatable checklist coordinates; quantity
-   remains demoted;
+3. **reference-versus-index test:** ask whether field-initial, repeated and
+   `Y–AIIN–Y` occurrences reuse a value/setting active earlier in the same
+   record or merely occupy repeatable checklist coordinates;
 4. **paired-frame test:** inspect only the two `Y-AIIN-Y` environments for
    independently dyadic operands; withdraw equal allocation if neither is
    symmetric;
