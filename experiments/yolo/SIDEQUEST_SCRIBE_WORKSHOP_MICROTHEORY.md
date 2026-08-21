@@ -5537,3 +5537,67 @@ It also corrects a common error: exact recurrence across a hand-local package
 does not automatically identify content. The portable transition is currently
 stronger evidence for grammar than either `CHOL CTHY` or `S AIIN` is for a
 meaning.
+
+## Iteration 86 — CHOL as a cross-register quality axis
+
+The complete exact-form distribution changes the earlier formula parse.
+`CHOL` occurs twelve times on five pages: f10r, f11r, f56r, f67r2 and f69v.
+Thus it crosses from Herbal A/hand 1 into the circle section/hand 4. `CTHY`, by
+contrast, completes `CHOL CTHY` only in the three Herbal-A pages.
+
+The circle contexts are not label matches but prose/table contexts:
+
+```text
+f67r2.35   CHOL | GIIN | OKOL
+f69v.1     ... OKAR | OKAR | CHOL | CHEES ...
+f69v.2     YKA | CHOL | YKAR ...
+f69v.2     ... DY | CHOL | YKAR | OL ...
+```
+
+The leading compositional reading is now:
+
+```text
+CHOL        shared qualitative/classification coordinate
+CTHY        Herbal-local companion coordinate or completion
+T-/QOT-     marked/linked realization of the quality card
+AIIN/DAIIN  optional scale, degree, value or reference
+```
+
+This is compatible with—but does not identify—the medieval practice of
+classifying both simples and astronomical bodies/signs by qualities and
+degrees. It is more economical than making exact CHOL two unrelated words in
+two registers, and more cautious than assigning CHOL=`hot` and CTHY=`dry`.
+Those two English orientations are symmetric and currently unknowable.
+
+The countercase remains substantial: CHOL is embedded among very different
+neighbours, has no independently read external value, and the circle contexts
+may use a generic formal card rather than the same content coordinate. The
+claim is a shared **axis address**, not a decoded quality.
+
+## Iteration 87 — drawing-first layout, record-first syntax
+
+The page images make a crucial production constraint visible. The drawings and
+their reserved shapes govern where text can fit: f55v's two text masses occupy
+the spaces above and beside a giant leaf/stem, f56r's long text runs down the
+left of a wide spiral plant, and the Biological paragraphs fill irregular gaps
+between pools, pipes, figures and labels. Under the working assumption that
+the drawings were laid out first, line length and even the vertical placement
+of a paragraph are primarily material constraints.
+
+Consequently the two Herbal modules must not be read as “upper part of plant”
+and “root” merely because one sits above and one below the illustration. Nor
+does a Biological paragraph necessarily own the nearest figure. The scribe's
+workflow is instead:
+
+```text
+compose/copy one record module
+    -> find the next available writing area
+    -> break it into physical line packets
+    -> render JOIN/SPACE and carry state locally
+    -> resume the same statement on the next line or available block
+```
+
+This reconciles long cross-line statements with strong line-entry effects.
+Paragraph/module boundaries may still reflect source organization; physical
+line endings mostly reflect available width. Local labels remain separate
+because their ownership comes from diagram geometry, not prose proximity.
