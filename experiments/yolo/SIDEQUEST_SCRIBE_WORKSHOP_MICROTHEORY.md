@@ -4624,3 +4624,137 @@ Nothing here requires a statement to end at a physical line. The scribe copies
 cards and clauses through available pockets around a pre-existing drawing;
 paragraph initials and paragraph ends are stronger discourse boundaries than
 line ends, while DY remains a local cell checkpoint inside them.
+
+## Iteration 67 — f83 separates procedural prose from apparatus-local text
+
+The five large f83r prose paragraphs and the two small blocks written inside
+the lower apparatus provide an internal mode comparison on one folio:
+
+| f83 mode | groups | EDY-ending | contains OL |
+|---|---:|---:|---:|
+| five main prose blocks | 314 | 134 (42.7%) | 34 (10.8%) |
+| two apparatus-local blocks | 27 | 3 (11.1%) | 10 (37.0%) |
+
+This is a large descriptive reversal, though post-hoc and confined to one
+page. It strengthens a division of labour:
+
+```text
+EDY-rich main prose       process, outcome or successive state recording
+OL-rich apparatus prose  carriers, channels, media or local component relations
+```
+
+The final local block is particularly compact:
+
+```text
+f83r.52  SOLKEEY | QEKEY | RALY | OL
+f83r.53  SOLCHKAL | CHEOL | QOTAR | OL
+f83r.54  DAIIN | OL | DAIN | CHEY | LDALOR
+f83r.55  SOL | RTAIN | CTHAL
+```
+
+The first two lines form a clear local parallel: `SOL + variable material`,
+two variable relation/state cells, and final `OL`. Across the f82/f83 sample,
+the only two lines ending in exact free `OL` are these two adjacent SOL-initial
+lines; eleven other SOL-initial lines end differently. This licenses a local
+construction, not a universal syntax.
+
+Earlier iterations tentatively called SOL an ACTION head. The apparatus-local
+concentration forces a broader and better guess: SOL is a **Biological
+construction head** that can introduce an operation, component or treatment
+entry. In a recipe-like reading the two lines say “process/use KEEY … in OL”
+and “process/use CHKAL … in OL”; in an apparatus-list reading they say “SOL
+component KEEY … OL” and “SOL component CHKAL … OL”. The data do not choose
+between verbal instruction and nominal specification.
+
+## Iteration 68 — geometry carries data that the writing need not repeat
+
+The three circle pages make the compiler easier to teach because part of every
+entry is already supplied by geometry:
+
+```text
+f67r2: ring membership supplies 7-system versus 12-system and local slot
+f68r1: the depicted star supplies ray/core/location attributes and object slot
+f69v: radial order supplies 1..28 position and LONG/SHORT supplies a binary bit
+```
+
+F69LS001 found no reliable text feature distinguishing LONG from SHORT. In the
+workshop theory this is expected rather than embarrassing: the geometry is the
+binary field, while the written card records some other attribute. The
+complete f69 cell is therefore:
+
+```text
+radial ordinal + visible LONG/SHORT state + opaque written value card
+```
+
+Likewise, f68's ray count need not be fully spelled out, though the post-hoc
+O/OT association suggests that the written card may redundantly mark an
+exception class. f67's 7/12 membership need not be encoded in every label
+because the ring supplies it. This **silent-coordinate principle** also
+explains the Herbal and Biological pages: the plant, tub, figure or channel can
+serve as a silent argument while the text supplies properties and operations.
+
+It follows that a word-for-word decipherment is structurally the wrong first
+target. A surface group can be only the written residue of a larger cell whose
+other coordinates are image, ring, position, paragraph and current carried
+state. The system still permits natural-language fragments in the long prose;
+it merely predicts that isolated labels are intentionally incomplete.
+
+## Iteration 69 — an apprentice's teachable grammar and current card lexicon
+
+A master could teach the current ten-page system without teaching 1,676
+independent “words”:
+
+```text
+PAGE RULE
+  identify the picture/register and its silent subject
+
+BLOCK RULE
+  start a new paragraph card; do not restart at every physical line
+
+ENTRY RULE
+  [carry S / explicitly select D] + registered content card
+  + zero or more relation/value cards + optional local checkpoint DY
+
+LINK RULE
+  after a licensed checkpoint, Q selects a linked/homologous card
+
+LABEL RULE
+  write only the local identifier/attribute bundle beside its visible owner
+
+COPY RULE
+  repeat X literally when the same complete cell is required twice
+
+LAYOUT RULE
+  join, detach or shorten licensed pieces to fit the earlier drawing
+```
+
+Within the ten-page ZL surface alone, the exact free cards are frequent enough
+to memorize as a small practical deck: `DAIIN` 43, `CHEDY` 31, `SHEDY` 30,
+`OL` 26, `DY` 22, `AIIN` 21, `QOKEEDY` 21, `QOKAIIN` 18, `CHOL` 12, `OKAL`
+8, `SOL` 8, `CTHY` 7, and `OTAIN` 3. Compounds and alternate readings add
+further realizations. Counts do not prove meanings, but they make a shared
+exemplar/card system plausible for multiple scribes.
+
+The current deliberately concrete vocabulary is ranked as follows:
+
+| card/construction | best provisional function | status |
+|---|---|---|
+| `DY` | local checkpoint/cell closure, not sentence end | strongest structural guess |
+| `S-` | carry/resume current licensed state at line entry | renderer-supported, meaning invented |
+| `D-` | explicit select/set/activate counterpart | provisional |
+| `Q-` | linked/homologous lookup after a checkpoint | renderer-supported placement, meaning invented |
+| `AIIN` family | registered setting/value/quantity/reference cell | provisional but distributionally useful |
+| `EDY/EEDY` family | process/result/state cell with grades or marked variants | provisional |
+| `OL` | Biological carrier/medium/channel slot; broader carrier elsewhere | strongest content guess |
+| `AR-OL` | axis/conduit/path over that carrier | abductive cross-domain guess |
+| `SOL` | Biological construction head for operation/component/treatment entry | provisional, verb versus noun unresolved |
+| `OTAIN OLKAL` | local tub/apparatus label | image-owned phrase, internal roles unresolved |
+| `OKAL` on f82r | page-local registered referent | strongest anonymous reference function |
+| `CHOL CTHY` | repeated Herbal-A preparation/qualification construction | exact form, content weak |
+| `OKEOD` | repeatable f69 cyclic state/value card | schedule role plausible, value unknown |
+
+This lexicon is intentionally functional rather than phonetic. A five-scribe
+workshop can learn it as a shared grammar plus register-specific lookup sheets,
+with individual hands choosing slightly different joins and surface variants.
+That is simpler than requiring every scribe to encrypt ordinary prose letter by
+letter while independently reproducing the same positional restrictions.
