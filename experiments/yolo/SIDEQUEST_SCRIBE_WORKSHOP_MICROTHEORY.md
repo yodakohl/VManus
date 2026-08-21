@@ -3484,3 +3484,57 @@ Space-sensitive joining remains a plausible local renderer, especially on
 pages written around prior illustrations, but it cannot be the sole explanation
 for SOL attachment. Host-specific lexicalization and constructional scope must
 be part of the invented grammar.
+
+## Iteration 44 — `OL` as a dependent carrier/object slot
+
+The 11 exact free `ol` occurrences in the six-page ZL3b sample have the opposite
+placement profile from SOL:
+
+```text
+locus-initial     0
+locus-internal    8
+locus-final       3
+```
+
+Its immediate left environments include:
+
+```text
+AIIN, OAIIN, OR, CHEOL, SAIN, SOL, RALY, QOTAR, DAIIN, YKAR
+```
+
+Thus `OL` is not a plausible general pickup key or action head. It behaves more
+like a dependent registered object, carrier, medium, state, or destination that
+different heads and relation cells can select.
+
+The invented local constructions now read:
+
+```text
+SOL | OL ...          operate on / prepare the OL carrier or object
+DAIIN | OL ...        enter or set the OL carrier or object
+OR | OL ...           place OL in the current relation slot
+... RALY | OL         close a parallel packet with OL as its fourth value
+... QOTAR | OL        same fourth slot under a different internal specification
+```
+
+This gives the f83r.52--53 parallelism a simple head/argument shape:
+
+```text
+SOL+item | method/state | relation | OL
+SOL+item | method/state | relation | OL
+```
+
+The bold practical gloss is **carrier or working medium**. On a plant or
+biological page, that could readily be water, another liquid, oil, sap, a bath,
+a vessel content, or a prepared substrate. The f69v circle occurrence of free
+`ol` warns that the same formal cell may instead be a generic channel/ring field,
+a register-rebound code, or a homograph. Therefore:
+
+```text
+useful invented class:     CARRIER_OR_OBJECT_SLOT
+premature lexical gloss:   WATER
+```
+
+This is compatible with the small-workshop model. Apprentices need learn only
+that OL occupies an argument/carrier position under several construction heads;
+the actual referent may be supplied by the page register, illustration, or an
+exemplar table rather than encoded by OL alone.
