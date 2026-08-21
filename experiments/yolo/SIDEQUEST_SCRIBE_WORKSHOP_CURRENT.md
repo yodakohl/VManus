@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-21, after V10 opaque-Herbal selection.
+Updated: 2026-08-21, after V11 Herbal topic-carrier correction.
 
 Status: **speculative working theory, not a GDT result and not a
 translation**. This file is the compact authoritative entry point for the
@@ -401,19 +401,47 @@ four exact types cross the two pages. Herbal A therefore has a small portable
 construction/technical deck plus a large page-local content tail, unlike the
 short committed Biological value cells.
 
-Two anonymous topic-carrier leads survive:
+V10 nominated two anonymous topic-carrier leads for the dedicated V11 test:
 
 - `OWNER-10` (`4d455901...`) appears once in each f10r paragraph;
 - `O56` (`2cc054357...`) appears four times only on f56r, twice at line entry
   and twice medially.
 
-They may resume the current pictured simple, a part, preparation or ordinary
-content word. Neither is a plant name or pronoun. WATER/moisture remains a
-historically plausible clause type but has no independently owned image feature
-or exact card.
+V11 below rejects their privileged topic-carrier interpretation. WATER/moisture
+remains a historically plausible clause type but has no independently owned
+image feature or exact card.
 
 Full selection details are recovery-only material in
 `sidequest_theory_candidates_v10/V10_THEORY_SELECTION.md`.
+
+## Four-agent V11 topic-carrier correction
+
+V11 tested the two V10 page-local leads against matched recurring Herbal cards.
+All four independent agents select:
+
+```text
+TOPIC_CARRIER_NOT_DISTINGUISHABLE_FROM_LOCAL_PROSE_RECURRENCE
+```
+
+None of the six target events opens a paragraph. The f10r card occurs at event
+3/14 in the first paragraph and 17/24 in the second; four of six recurrent f10r
+types also cross both paragraphs. O56 occurs at positions 2, 5, 15 and 21 of
+one f56r paragraph. All six target successors differ, and deletion exposes no
+recurrent residual construction.
+
+The interpretive alias `OWNER-10` is therefore withdrawn; use neutral
+`H10_LOCAL_2` for `4d455901...`. O56 retains one real formal signature: all
+four occurrences fall in the first two groups of a physical line, rendered
+`sho` at line start and `cho` medially. Matched cards show equal or stronger
+entry concentration, so O56 is only an anonymous local early-construction card,
+not `CURRENT SIMPLE`, `OF IT` or a plant name.
+
+V10's broader architecture survives unchanged: Herbal A is open abbreviated
+article prose with a large page-local content tail. Topic-resuming language may
+exist upstream, but these exact cards do not identify it.
+
+Full selection details are recovery-only material in
+`sidequest_theory_candidates_v11/V11_THEORY_SELECTION.md`.
 
 ## Generative model
 
@@ -491,8 +519,8 @@ covered Herbal events and 92/281 Biological events.
 | Y `b921a237...` | 18 / 6 | mostly middle; next event closes in 3/15 | type/frame |
 | L/O `dcda95c8...` | 19 / 3 | mostly middle; next event closes in 5/17 | relation/class |
 | CTHY `e0b630cb...` | 7 / 3 | 6 middle, 1 last | property/state |
-| OWNER-10 `4d455901...` | 2 / f10r only | one in each paragraph | page-local topic carrier candidate |
-| O56 `2cc054357...` | 4 / f56r only | FIRST 2, MIDDLE 2 | page-local topic/content carrier candidate |
+| H10_LOCAL_2 `4d455901...` | 2 / f10r only | one in each paragraph | anonymous local recurrence |
+| O56 `2cc054357...` | 4 / f56r only | first two groups of four lines | anonymous early-construction recurrence |
 
 These labels are anonymous functional paraphrases, not words or POS.
 
@@ -782,18 +810,15 @@ alphabet.
 
 Only pursue work that can materially change this compact theory:
 
-1. **Herbal topic-carrier test:** distinguish whether `OWNER-10`/`O56` resume a
-   page topic or are ordinary frequent prose cards using only the fixed four
-   Herbal pages and whole-card contexts;
-2. **reference-versus-index test:** ask whether field-initial, repeated and
+1. **reference-versus-index test:** ask whether field-initial, repeated and
    `Y–AIIN–Y` occurrences reuse a value/setting active earlier in the same
    record or merely occupy repeatable checklist coordinates;
-3. **link-operand test:** ask whether L/O's explicit and inherited operands are
+2. **link-operand test:** ask whether L/O's explicit and inherited operands are
    structurally coherent, especially the one-card f81v.7 field;
-4. **paired-frame test:** inspect only the two `Y-AIIN-Y` environments for
+3. **paired-frame test:** inspect only the two `Y-AIIN-Y` environments for
    independently dyadic operands; withdraw equal allocation if neither is
    symmetric;
-5. **practical-form-versus-checklist test:** seek repeated fixed-page visual
+4. **practical-form-versus-checklist test:** seek repeated fixed-page visual
    roles that distinguish medical/applicative content from generic indexed
    form filling; never import prose cards into the circle pages.
 
