@@ -1272,3 +1272,157 @@ historical form family
 
 Only after those layers are resolved would an ordinary-language paraphrase be
 possible.
+
+## Iteration 14 — fixed translation draft
+
+To prevent the sidequest from changing its glosses on every line, the current
+working decoder is frozen in
+`SIDEQUEST_SCRIBE_WORKSHOP_TRANSLATION_DRAFT.tsv`. It contains twelve real
+micro-parses spanning the six selected pages.
+
+The provisional dictionary for subsequent rapid iterations is:
+
+```text
+AIIN       registered unit/portion/index
+DAIIN      take, assign, or record one AIIN-class value
+S          begin/resume
+Q          next/continue/link
+D          select/assign/apply/connect
+CH/CHE     describe, qualify, or prepare
+SH         standing/result state
+OKEE       repeat, maintain, circulate, or continue a standard process
+OL         carrier/base/path/frame
+AROL       conducting or connecting course
+AL/AR      paired value/state classes
+DY         licensed field commit when the formal parse supports it
+B3         record commit
+```
+
+Unknown capitalized values remain untranslated local codes. The draft uses
+German procedural paraphrases rather than pretending to recover original
+spoken syntax.
+
+This fixed draft creates a useful discipline even in YOLO mode: a later line
+must either read coherently under this dictionary or force an explicit revision
+with a named contradiction.
+
+## Iteration 15 — Q is a construction state, not necessarily “then”
+
+Two new lines were read without changing the Iteration-14 draft first. f10r.8
+works reasonably as a continued descriptive record, but f83r.25 contains three
+`q` constructions inside one field:
+
+```text
+qokeedy
+// qolchey | qokeey | qokedy
+// chedy | otal
+```
+
+If every `q` meant the spoken word “then,” the middle field would be an
+unnaturally repetitive conjunction chain. The better analysis is:
+
+```text
+Q_LINKED_FORM(value)
+```
+
+`q` marks a value as belonging to the active/linked procedural construction.
+Actual sequence comes from physical order and field boundaries. Post-DY
+position strongly licenses this form but does not exhaust its use.
+
+Revised dictionary entry:
+
+```text
+old: Q = "then/next"
+new: Q = LINKED/ACTIVE construction state
+     possible paraphrases: next, continue, associated, in the current process
+```
+
+The f83r.25 parse becomes:
+
+```text
+Q(OKEE); CLOSE
+Q(OLCHEY), Q(OKEEY), Q(OKE); CLOSE
+CHE(Y), MARKED_STATE(AL); LINE CLOSE
+```
+
+> Commit the linked OKEE process. In the linked field register OLCHEY, OKEEY
+> and OKE, then close it. Describe Y and end in marked state AL.
+
+This remains process-like but no longer mistakes a renderer/construction state
+for an ordinary conjunction.
+
+The f10r.8 line similarly begins with `Q(OT-CHOR)` and then lists several
+CH-marked descriptors before `D(AIIN)` and `D(AR)`. It can be read as a
+continuation of the preceding plant record even though no DY occurs on the
+line itself.
+
+### Updated control vocabulary
+
+```text
+S  line-entry/new-record realization
+Q  active or linked-construction realization
+D  binding/assignment realization
+CH/CHE descriptive realization
+SH standing/result realization
+```
+
+English sequencing words are now paraphrases of the complete construction,
+not direct glosses of the wrapper glyphs.
+
+## Iteration 16 — OKE is a graded state family
+
+The f83r.25 sequence suggests a better analysis than lexical `OKEE = repeat`:
+
+```text
+Q(OKEE); CLOSE
+Q(OLCHEY), Q(OKEEY), Q(OKE); CLOSE
+CHE(Y), OT+AL
+```
+
+The same broad OKE family appears at different apparent lengths and closure
+states inside one short record. Treat it as a graded technical state:
+
+```text
+OKE      state/process family at grade 1
+OKEE     state/process family at grade 2
+OKEEE    state/process family at grade 3
+OKEEY    an open or value-terminated realization of the grade-2 family
+```
+
+`q` places the state in the active/linked construction and formal DY commits
+the checkpoint. Thus:
+
+```text
+qokedy   ACTIVE(OKE, grade 1); COMMIT
+qokeedy  ACTIVE(OKE, grade 2); COMMIT
+```
+
+The underlying dimension could be duration, concentration, heat, moisture,
+iteration count, processing degree, or an ordinal class. The sidequest does
+not choose among them yet.
+
+### Process reading of f83r.25
+
+> Begin from committed OKE grade 2. Introduce or associate OLCHEY and the open
+> grade-2 value. Move to committed OKE grade 1. Record descriptor Y and final
+> marked state AL.
+
+This resembles a controlled state transition—possibly cooling, diluting,
+reducing, settling, or changing treatment duration—rather than a list of
+unrelated nouns.
+
+### Revised technical lexicon
+
+```text
+Q      active/linked construction
+OK     standard technical state/process family
+E^n    relative grade within that family
+DY     checkpoint commit
+```
+
+The earlier paraphrase “continue/circulate” is retained only as a possible
+whole-cell effect of `Q(OKE-grade)`, not as the lexical meaning of OKEE.
+
+This is a substantial simplification: one state family plus a scalar channel
+generates many high-frequency forms while allowing lines to describe genuine
+technical transitions.
