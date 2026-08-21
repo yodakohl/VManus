@@ -4287,3 +4287,68 @@ pages may describe liquids or bodily treatments. The present ten pages do not
 select among those. No further exact recurrence in this micro-corpus changes
 the grammar or supplies a defensible new content word. The expanded sample is
 therefore declared **SIDEQUEST_TEN_PAGE_FORMAL_SATURATION**.
+
+## Iteration 58 — correction: exact-form saturation is not page saturation
+
+The preceding declaration is narrowed to the exact recurring n-gram census.
+It was premature as a stop on paragraph-, record-, layout-, image- and
+historical-document inference. The same ten pages remain active; no additional
+page is admitted.
+
+f81v supplies a sharp paragraph-scale mode switch:
+
+| f81v prose block | groups | AIIN-family | exact DAIIN | EDY-ending | Q-initial |
+|---|---:|---:|---:|---:|---:|
+| paragraph 1, loci 1–9 | 88 | 16 | 8 | 12 | 7 |
+| paragraph 2, loci 10–27 | 165 | 2 | 1 | 50 | 36 |
+
+The first prose packet is dominated by AIIN/DAIIN setting or value cards. The
+second nearly abandons them and switches to checkpointed EDY-family and
+Q-linked cards. The best workshop reading is a two-part technical record:
+
+```text
+PARAGRAPH 1    establish materials, quantities, settings or apparatus state
+PARAGRAPH 2    list operations, stages, transitions or observations
+```
+
+In loose German: “Zuerst die Ausgangswerte und beteiligten Träger eintragen;
+danach die Abfolge der auszuführenden oder beobachteten Zustände.” This gives
+the AIIN-versus-EDY column guess a paragraph-level consequence. It also explains
+why DAIIN can close short Herbal lines but occur inside a Biological record: it
+belongs to a setup inventory, not necessarily to sentence syntax.
+
+The two prose blocks occupy the open area above the previously drawn large
+pool. The image can motivate a bath, liquid-treatment or apparatus reading for
+the record as a whole, but the paragraph split need not map to the pool's upper
+and lower rows.
+
+## Iteration 59 — the f81v tub/pool caption
+
+The public human catalogue identifies f81v.28 as the page's single two-word
+label of type “tubs or tubes”, positioned left of the large tub at the bottom.
+Its alternate readings are:
+
+```text
+ZL3b   OTAIN OLKAL
+IT2a   OTOIN OLKOL
+RF1b   TAIN  OLKAL
+```
+
+The exact graphemic details vary, but the two-card `O/zero-TAIN | OLK-L` frame
+survives. Exact `OTAIN` also occurs inside f81v.5's setup paragraph and
+f82r.18's running Biological text, and is absent from the other eight workshop
+pages.
+
+This permits the first comparatively concrete image-bound sidequest gloss:
+
+```text
+OTAIN OLKAL    caption for this tub/pool/apparatus or its contents
+OTAIN          candidate general bath/pool/vessel/apparatus class
+OLKAL          candidate subtype, contained medium, treatment class or local ID
+```
+
+If forced to write an apprentice translation today, the label would be “the
+OLKAL bath” or “bath containing/using OLKAL”. The direction of modification is
+unknown: OLKAL could instead be the head meaning tub while OTAIN is a condition
+or treatment. The robust layer is only shared Biological recurrence plus
+independent tub-label ownership.
