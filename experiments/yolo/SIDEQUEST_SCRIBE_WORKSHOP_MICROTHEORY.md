@@ -886,3 +886,198 @@ LINE := DESCRIPTION_RECORD
 
 This gives the manuscript a plausible sentence structure without forcing it
 to copy the syntax of an ordinary spoken language.
+
+## Iteration 10 — the picture is a grammatical argument
+
+The circle pages reveal a more powerful design principle: the visible text is
+only one channel of the record. Geometry and illustration can supply values
+that the scribe deliberately omits from the glyph sequence.
+
+```text
+COMPLETE RECORD MEANING
+  = PAGE/IMAGE REFERENT
+  + OWNED OBJECT OR SLOT
+  + GEOMETRIC STATE
+  + TEXTUAL CONSTRUCTION CELLS
+```
+
+### Herbal consequence
+
+The plant drawing can function as a zero-marked record head:
+
+```text
+[THIS DEPICTED PLANT]
+  property ...
+  portion AIIN ...
+  carrier/water/sap treatment ...
+  resulting state ...
+```
+
+The prose therefore need not contain a plant name. A note about water, root
+uptake, expressed juice, soaking, or storage beside a plant is exactly what a
+working herbal/preparation manual would need. This resolves the false dilemma
+between “plant label” and “water word.”
+
+### Biological consequence
+
+The diagram supplies vessels, bodies, pipes, or process nodes. Text can then
+encode only operations and state changes:
+
+```text
+[THE DEPICTED NODE/CHANNEL]
+  D_BIND(AROL-course)
+  Q_NEXT(process)
+  SH_RESULT(state)
+```
+
+Under this model `AROL` is best treated as an **edge/path relation class**—a
+conducting or connecting course—rather than the name of water or of the object
+itself. A plant stalk, apparatus pipe, waterfall path, and diagram connection
+can instantiate the same formal relation.
+
+### f69v consequence
+
+Every radial entry already carries at least three channels:
+
+```text
+ordinal/cyclic position i
+LONG or SHORT radial state
+local textual label tuple
+```
+
+The full entry is therefore:
+
+```text
+F69_ENTRY(i) := POSITION(i) + PARITY_STATE(i) + LABEL_CODE(i)
+```
+
+The strict alternation can be a table-reading convention analogous to
+alternating ink or background treatment in other 28-member medieval systems.
+It need not encode a property repeated inside the label. This predicts exactly
+why F69LS001 found no reliable textual LONG/SHORT marker.
+
+The 28 labels can be member-specific keys while geometry provides their order
+and alternating class. A lunar-night, mansion, treatment-day, or prognostic
+schedule remains a plausible genre guess, but direct values and a start
+direction remain unknown.
+
+### f67r2 consequence
+
+The seven- and twelve-member rings similarly supply class membership and order
+visually. Compact labels need encode only the local member key or associated
+value. They do not need to spell out “planet,” “sign,” or a number.
+
+### Revised notion of a Voynich “sentence”
+
+```text
+TEXT-ONLY VIEW:
+  Q(OKEE); SH(E); AIIN ...
+
+SCRIBE'S VIEW:
+  for the object shown here,
+  at this diagram position,
+  continue the registered process,
+  record the resulting state and unit value.
+```
+
+This is the first reconstruction that explains why extensive internal grammar
+can coexist with almost no recoverable standalone semantics: crucial arguments
+are supplied by page context, object ownership, and geometry rather than by a
+globally readable word sequence.
+
+### Updated leading architecture
+
+```text
+ILLUSTRATED REFERENT OR TABLE SLOT
+    -> supplies entity/class/index silently
+LOCAL ADDRESS CODE
+    -> identifies a material, state, member, edge, or operation within page
+SHARED COMPILER
+    -> start/link/describe/assign/state/close
+SCRIBE RENDERER
+    -> joins, spaces, abbreviates, and selects hand/register variants
+```
+
+The manuscript may consequently be less like encrypted prose and more like an
+illustrated database whose rows contain compressed procedural annotations.
+
+## Iteration 11 — write like the scribe
+
+To make the theory genuinely generative, start with an invented workshop
+instruction rather than an observed line.
+
+### Plant preparation card
+
+Underlying instruction:
+
+> For the plant drawn on this page, take one registered portion; prepare it in
+> the carrier/base; repeat or circulate the treatment; record result variant
+> AL.
+
+Compiler input:
+
+```text
+IMAGE_HEAD(plant)
+D_ASSIGN(AIIN)
+CHE_PREPARE(OL)
+Q_NEXT(OKEE) + DY_CLOSE
+SH_RESULT(ED, AL)
+```
+
+Generated surface:
+
+```text
+daiin | cheol | qokeedy | shedal
+```
+
+Every construction is ordinary-looking under the small-page inventory. The
+plant name is absent because the drawing supplies it.
+
+### Apparatus/process card
+
+Underlying instruction:
+
+> Use the outgoing carrier-course with endpoint SY; continue through the OKCH
+> stage; record result ED-AL.
+
+Compiler input and surface:
+
+```text
+D_BIND(AROL, SY) | Q_NEXT(OKCH)+DY | SH_RESULT(ED, AL)
+
+darolsy | qokchdy | shedal
+```
+
+This deliberately combines the f83r label construction with the observed
+checkpoint/result forms. It looks like the same workshop language rather than
+a new cipher alphabet.
+
+### Circle-table keys
+
+For a radial member whose ordinal and binary class are supplied geometrically:
+
+```text
+Y_INDEX(TO) + DY_CLOSE  -> ytody
+STATE(OKO) + DY_CLOSE   -> okody
+OT_FRAME(O) + DY_CLOSE -> otody
+```
+
+These three actual-looking f69v labels can be generated as alternative local
+member keys without encoding their radial length in the text.
+
+### What this exercise changes
+
+The system can now generate plausible Voynich forms from one compact design:
+
+```text
+silent illustrated/table argument
++ local value code
++ control construction
++ optional frame/value
++ licensed close
+```
+
+The most important remaining ambiguity is whether `AIIN`, `OKEE`, `OL`, and
+`AROL` have broad technical meanings or are merely local values repeatedly
+loaded into the same compiler slots. The writing system works in either case;
+only the translation changes.
