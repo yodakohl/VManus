@@ -4002,3 +4002,81 @@ The same visible form need not have one external referent in every register.
 What transfers is the compiler role; the illustration, page template and local
 row table supply the content binding. This explains why universal gloss mining
 has repeatedly failed while formal construction order remains strong.
+
+## Iteration 52 — six-page saturation and frozen four-page extension
+
+The remaining exact cross-folio transitions in the original six pages are:
+
+```text
+QOKEEDY → LCHEDY
+SHEDY   → QOKEEY
+QOKEEY  → QOKY
+OR      → AIIN
+YKAR    → OL
+AR      → AIR
+```
+
+They add no new construction class. The first three are already instances of
+the sparse row/cell matrix; OR→AIIN is already a relation-to-reference frame;
+YKAR→OL and AR→AIR are content-pair candidates without enough variable-host
+support. `YKAR | OL` appearing on both f55v and f69v is also a useful
+counterexample to universal `OL = water`.
+
+An exact cross-folio n-gram census finds only one three-cell construction beyond
+trivial short-locus types:
+
+```text
+OL | S | AIIN
+```
+
+That construction is already incorporated. A coarsened AIIN/EDY/DY/relation
+packet-skeleton search produces only generic one- and two-group classes, not a
+new specific cross-folio record template. Further lowering the resolution would
+manufacture agreement from line length alone.
+
+### Six-page saturation decision
+
+The following reusable rules have been extracted:
+
+```text
+1. image/page template supplies silent subject and register
+2. O/S/D/Q/Y choose local pickup/rendering modes
+3. sparse registered row × AIIN/EDY/EEDY cell matrix
+4. D-AIIN introduces; S-AIIN carries/resumes a reference
+5. SOL is a detachable Biological-register construction head
+6. OL is a dependent carrier/object slot, not universally water
+7. DY checkpoints a local cell, not necessarily a statement
+8. X X duplicates or repeats a complete cell
+9. statements/records can span physical lines
+10. attachment can be detached, variable or lexicalized by host
+```
+
+No remaining six-page exact recurrence supplies a genuinely new rule rather
+than renaming one of these. The original micro-corpus is therefore declared
+**SIDEQUEST_SIX_PAGE_FORMAL_SATURATION**.
+
+### Mechanically frozen extension pages
+
+Before inspecting their forms, four additions are selected by physical/register
+adjacency rather than attractive text:
+
+| page | reason |
+|---|---|
+| f11r | next new Herbal-A physical folio after f10r |
+| f56r | next new Herbal-B physical folio after f55v |
+| f81v | closest preceding new Biological physical folio before f82r |
+| f68r1 | intervening new circle/Astro physical folio between f67 and f69 |
+
+The frozen questions are:
+
+```text
+Does the AIIN/EDY/EEDY sparse matrix recur?
+Does detached/fused S-AIIN recur?
+Does SOL remain Biological-register concentrated and head-like?
+Does OL remain dependent but receive register-local visual interpretation?
+Do DY checkpoints and X X duplication transfer?
+Does any genuinely new construction survive at least two of the four pages?
+```
+
+No page is selected because it contains a desired form or image detail. f84 and
+f84r remain excluded.
