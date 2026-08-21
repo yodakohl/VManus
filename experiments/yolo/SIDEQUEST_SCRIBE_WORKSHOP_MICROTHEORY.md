@@ -2332,3 +2332,113 @@ Bold paraphrase:
 This line genuinely ends its paragraph, so `OTAM` can be translated here as a
 final retained condition even though the broader AM family is not a universal
 statement closer.
+
+## Iteration 28 — AR, OR and OL as a tiny relational case system
+
+The immediate contexts of the short cross-page forms suggest that they are
+more useful as relational particles or technical case tags than as names of
+materials. They mostly occur between longer constructions; AR appears 12/14
+times internally, OR 7/9, and OL 8/11.
+
+The simplest learnable three-way system is:
+
+```text
+AR   course/source/instrument relation: through, from, by means of
+OR   target/association relation: for, to, concerning
+OL   containment/carrier relation: in, within, using the medium
+```
+
+These English alternatives are contextual paraphrases, not separate recovered
+words. A scribe learns three relation signs:
+
+```text
+AR  path or means
+OR  target or associated item
+OL  containing medium or channel
+```
+
+### Productive-looking licensed compounds
+
+```text
+D + AR       apply/send/bind through the indicated course
+D + AL       place, retain, or settle at the L-state
+S + AR       resume along the current course
+AR + OL      course through a carrier/channel
+D + AR + OL  send/apply through the carrier course
+```
+
+This does not require all combinations to exist. The apprentice copies only
+the compounds present on the model leaf.
+
+### Re-reading `darolsy`
+
+```text
+darolsy
+= D + AR + OL + S/Y
+= APPLY + COURSE + CARRIER + TERMINAL LOCAL STATE
+```
+
+Bold paraphrase:
+
+> Lead or apply it through the carrier/channel to the marked Y-state.
+
+This fits its placement beside a FLOW-like structure on f83r without requiring
+`AROL` itself to mean water. Water may flow in that channel; AROL is the
+route-through-carrier construction.
+
+The uncertain opposing reading around `sasoldal`/approximately `saroldal` can
+then be understood cautiously as:
+
+```text
+S + (AR) + OL + D + AL
+RESUME + COURSE + CARRIER + SETTLE/PLACE AT L
+```
+
+> Continue through the carrier and leave it at the L-state.
+
+The uncertain transcription prevents treating the pair as a clean opposition,
+but the workshop grammar can generate both constructions with a small number
+of learned cells.
+
+### f55v.10 under the relation system
+
+```text
+oaiin | ol | s | aiin | okaiin | oky | ytaiin | otar | y | kal | ykar | ol
+```
+
+Workshop parse:
+
+```text
+framed value N2
+in carrier/medium OL
+resume packet
+value N2
+OK process with indexed value
+local OK/Y value series
+marked AR course
+local K/AL and Y/K/AR values
+finish line in carrier OL
+```
+
+Bold paraphrase:
+
+> In the current liquid or carrier enter the first measured value. Resume with
+> the second indexed amount, perform the standard operation on the Y/K item,
+> use the marked course, and leave the line's preparation in the carrier.
+
+Because f55v.10 is paragraph-internal, the final OL is a carried medium state,
+not the end of the complete instruction.
+
+### Revised minimal grammar
+
+```text
+ENTRY        s / selected line-entry form
+ACTION       q+licensed process, d+licensed assignment
+ITEM/STATE   page-local complete form
+VALUE        AIIN-family
+RELATION     AR | OR | OL and licensed compounds
+CHECKPOINT   DY or local AM-family realization
+```
+
+That is small enough for several scribes to share, yet expressive enough to
+describe plant treatment, apparatus flow and circular slot records.
