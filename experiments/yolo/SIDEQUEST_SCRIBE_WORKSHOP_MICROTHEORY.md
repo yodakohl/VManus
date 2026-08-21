@@ -1667,7 +1667,12 @@ The channel names are anonymous transcription labels, not sounds or initials.
 The best concrete gloss for `daiin` is now **SET VALUE N2**, with “take a
 portion” retained only as a context-specific Herbal paraphrase.
 
-## Iteration 20 — AM as a terminal result family
+## Iteration 20 — AM as a terminal result family (superseded)
+
+**Superseded by Iteration 21.** This iteration incorrectly treated physical
+line end as if it normally ended the complete statement/record. The observed
+line-final pattern remains real in the tiny sample, but the semantic inference
+"terminal result" does not survive paragraph-aware reading.
 
 Within the selected f10r/f55v/f82r/f83r/f69v ZL sample, the exact forms
 `am`, `dam`, `kam`, `sam`, `otam`, and `talam` occur seven times in total. All
@@ -1743,3 +1748,168 @@ OKE family   graded process/state
 OL/AROL      carrier/path relation
 local hosts  unresolved materials, parts, operations, or states
 ```
+
+## Iteration 21 — statements span lines; AM is a local checkpoint at most
+
+The source-native paragraph flags overturn the preceding interpretation. For
+the seven selected AM-family lines:
+
+```text
+locus      paragraph start  paragraph end
+f10r.7          no              no
+f55v.3          no              no
+f55v.5          no              no
+f55v.12         no              yes
+f82r.11         yes             no
+f82r.16         no              no
+f83r.10         no              no
+```
+
+Only one of seven ends its paragraph. Five are internal lines and one begins a
+paragraph. Therefore:
+
+```text
+physical line != complete statement
+line-final AM  != demonstrated final result
+```
+
+The surviving workshop hypothesis is narrower:
+
+```text
+AM family = local carried state / checkpoint / line packet value
+```
+
+It could tell the next line which local state is current, close a subrecord
+that is embedded in a longer paragraph, or simply belong to a line-final
+renderer formula. `D-AM`, `K-AM`, `S-AM`, `OT-AM`, and `T-AL-AM` remain useful
+formal variants, but their prefixes cannot yet be read as result modifiers.
+
+This also changes f10r.7. It is not a self-contained instruction ending in
+`AM`; it is one packet inside the paragraph running from f10r.6 through
+f10r.12. Likewise f55v.3 and f55v.5 are two internal packets of the same
+f55v.1--6 paragraph, while f82r.11 opens a paragraph and f82r.16 continues it.
+
+## Iteration 22 — the likely unit is a multi-line procedural block
+
+The revised invented compiler now has three nested levels:
+
+```text
+GROUP       local value, operator, item, or state
+LINE        bounded packet / scribal row / partial clause
+PARAGRAPH   complete practical record or multi-step statement
+```
+
+A plausible paragraph generator is:
+
+```text
+PARAGRAPH_START:
+    establish depicted/local subject and initial state
+
+CONTINUATION_LINE*:
+    inherit subject/state
+    add item, parameter, operation, path, or comparison
+    optionally emit DY/AM-like local checkpoint
+
+PARAGRAPH_END:
+    commit the accumulated record
+```
+
+This makes the frequent absence of an explicit repeated subject economical:
+the plant, vessel, body, or circle region supplies the referent once; following
+lines inherit it. A line-initial `s`, `q`, `d`, or `o/ot` form can therefore be
+a continuation-mode selector rather than a sentence-initial word.
+
+### Revised sample reading: f10r.6--12
+
+Instead of seven independent sentences, read the block schematically as:
+
+```text
+f10r.6   establish preparation/state for the depicted plant
+f10r.7   bind CHY; register N2, N1, and R1 parameters; checkpoint AM
+f10r.8   continue with a linked CHOR/CHOL carrier/path specification
+f10r.9   add a second operation and commit a local DY field
+f10r.10  continue in an O/OT-framed mode with an N2 value
+f10r.11  specify another framed operation/path variant
+f10r.12  close the block with ODAIIN/DAIIN and linked Q forms
+```
+
+This is not plaintext. It is a forward-coherent workshop reconstruction. Its
+advantage is that it explains why subject words need not recur on every line,
+why line entry has strong formal effects, and why a supposedly terminal `AM`
+can occur long before paragraph closure.
+
+### Current ranking after the correction
+
+```text
+MULTI-LINE INHERITED RECORD STATE       strongest architectural guess
+AIIN / DAIIN typed parameter channel    useful provisional content channel
+OKE repeated-E process/grade channel    useful provisional content channel
+OL / AROL carrier/path family           useful but weak content hypothesis
+AM terminal result                      rejected
+AM local checkpoint/carried state       provisional
+```
+
+## Iteration 23 — paragraph-internal families behave like a shared workspace
+
+Once the paragraph rather than the line is treated as the likely statement,
+the selected Herbal blocks become more coherent.
+
+In f55v.1--6, successive lines repeatedly reuse the same broad families:
+
+```text
+OKE / OKEE / OKEEE      process or state grades
+AIIN / AIN              parameter values
+DAIIN                   parameter assignment
+CHEDY / CHEODY / OCHEDY descriptor-state variants
+ODY / DY                local commits or carried states
+```
+
+That resembles six rows updating one shared preparation workspace, not six
+sentences that independently name their subjects. In f10r.6--12 the recurrent
+CHOR/CHOL, QOTOR and AIIN/DAIIN families similarly cross physical line breaks.
+
+The workshop model can now be made more explicit:
+
+```text
+paragraph environment E = {
+    silent pictured referent,
+    current material/object,
+    parameter vector,
+    current process grade,
+    carrier/path state,
+    last checkpoint
+}
+
+each line:
+    read inherited E
+    emit a bounded sequence of updates
+    write back modified E
+```
+
+Under this model, a short form at line end need not be punctuation or a final
+object. It can be the value intentionally left "on top of the stack" for the
+next line. This gives provisional functions to the architecture without
+requiring every visible group to be a natural-language word.
+
+### Stronger purpose guess
+
+For the two Herbal pages, the text is best imagined as a compact technical
+description plus preparation/use record attached to the pictured plant. Water
+may be one locally supplied material or process medium, but the drawing alone
+does not tell which group denotes it. For the Biological pages, the same
+compiler records successive states/flows through a pictured apparatus. For the
+circle pages, geometry supplies most identity and the text supplies compact
+slot values.
+
+The leading world therefore remains a **hybrid workshop register**:
+
+```text
+abbreviated local vocabulary
++ typed parameters
++ persistent paragraph state
++ image-supplied referents
++ layout-sensitive rendering
+```
+
+This is more coherent than either ordinary prose or a pure codebook, while
+still leaving almost all concrete nouns and operations unresolved.
