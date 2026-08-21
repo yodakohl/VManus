@@ -12,12 +12,20 @@ displayed surface; reading uncertainty is retained where it matters. The
 initial six-page pass did not access `f84` or `f84r`. During Iteration 4, a
 direct scan of a mixed result table
 unintentionally displayed one `f84v` row; it was excluded from the inference
-and is disclosed in the ledger. No `f84r` row was accessed.
+and is disclosed in the ledger. During the post-Iteration-104 visual review, a
+broad web image search unexpectedly returned a third-party `f84r` search result
+with a thumbnail URL and an automatically generated high-level description.
+The image was not opened or forwarded, no transcription/formal value was
+exposed, and the result is excluded from every inference. No further `f84` or
+`f84r` access is authorized.
 
-## Current synthesis after Iteration 98
+## Current synthesis after Iteration 125
 
 The leading reconstruction is a **hybrid abbreviated language + technical
-codebook** used for an illustrated medico-astrological workshop handbook.
+codebook** used for an illustrated practical/medical workshop miscellany. A
+coordinated medico-astrological handbook remains the stronger of the narrower
+content theories, but is no longer required to explain why the sections share
+one compiler.
 
 ```text
 DOCUMENT
@@ -31,7 +39,8 @@ ENCODING
   a shared master grammar supplies state transitions and checkpoints
   register/hand phrasebooks supply content cards and licensed renderings
   S/D/Q and joining render licensed cards in local structural contexts
-  DY checkpoints a local cell but does not end the statement
+  licensed attached DY closes a local cell but does not end the statement
+  free surface DY may instead be the ordinary rendered card D:Y
 ```
 
 The strongest genuinely grammar-licensed local handoff is all-reading-stable
@@ -45,7 +54,9 @@ Biological `OL` behaves like a carrier/medium/channel class, and
 `D/S + AR + OL + right state` differentiates related hydraulic constructions. `OTAIN OLKAL`
 is a tub/apparatus caption candidate; `OKAL` is an anonymous card reused between
 a figure label and two prose blocks; SOL is a flexible Biological construction
-head. Exact `CHOL` crosses Herbal-A/hand 1 and circle/hand 4, making a shared
+head. The clearest local field grammar opens with QOKAIIN/QOKEEY/QOKAL-like
+cards, admits OL/DAIIN/CHEDY-like interiors, and closes with formally licensed
+QOKEEDY/QOKEDY/SHEDY/LCHEDY states. Exact `CHOL` crosses Herbal-A/hand 1 and circle/hand 4, making a shared
 quality/classification axis plausible; `CTHY` is its Herbal-local companion.
 On circle pages the written label is residual data added to visible
 ring/star/radial coordinates. f67r2 has three distinct counted layers—not just
@@ -4499,12 +4510,13 @@ The three circle pages should not be translated as one homogeneous list.
    attached card such as `OTOR` also occurs in the page's longer text. This is
    compatible with individual catalogue identifiers or attribute bundles.
 2. **f69v is a repeated state/value schedule.** Among its 28 ordered radial
-   entries, `OKEOD` repeats at positions 14 and 18 in all readings, and at 27
-   in ZL3b/IT2a with an RF1b split. A repeated card is awkward for 28 unique
+   entries, `OKEOD` repeats at loci f69v.14 and f69v.18 in all readings, and at
+   f69v.27 in ZL3b/IT2a with an RF1b split. These are ordinals 11, 15 and 24
+   in the frozen walk, not ordinal positions 14, 18 and 27. A repeated card is awkward for 28 unique
    names but natural in a schedule where the same state/value can recur.
 3. **f67r2 is a nested almanac.** It combines distinct 7- and 12-member human
    label arrays plus surrounding rings and prose. Most labels are unique; the
-   apparent ZL `OKODAR` echo across the 7 and 12 rings is not stable in the
+   apparent ZL `OKODAR` echo across the lower 12-label and central 8-label rings is not stable in the
    alternate readings and is retained only as a warning against easy ring
    alignment.
 
@@ -6167,3 +6179,830 @@ period token and no global word dictionary. It requires only a master set of
 construction rules, register-specific card tables and scribal rendering
 habits. The still-missing object is the card table: without an external
 parallel, the system can be reconstructed more confidently than its values.
+
+## Iteration 99 — dense fields are a B/hand-2 writing mode, not proof of procedure
+
+The frozen GDT327 interlinear covers 381 events on selected lines from seven of
+the ten pages. The three circle pages are outside that formal subset and are
+not silently forced into the calculation. Its field ecology is:
+
+| page | events | fields | one-group fields | DY-closed fields |
+|---|---:|---:|---:|---:|
+| f10r | 38 | 5 | 0% | 0% |
+| f11r | 17 | 4 | 25% | 25% |
+| f55v | 18 | 4 | 0% | 50% |
+| f56r | 27 | 7 | 0% | 14% |
+| f81v | 66 | 24 | 46% | 71% |
+| f82r | 62 | 26 | 50% | 73% |
+| f83r | 153 | 65 | 43% | 75% |
+
+The Biological pages really are rendered as short, frequently closed cells in
+this subset. That is compatible with a procedural checklist. It is not an
+independent content proof, because f81–f83 are Currier B/hand 2 and the older
+GDT031–032 controls already established that Herbal B itself has denser,
+length-normalized segmentation than Herbal A. Hand, Currier and record style
+remain partly confounded.
+
+The best theory therefore assigns two separate causes:
+
+```text
+CONTENT TEMPLATE:  plant entry versus bath/apparatus record
+RENDERING TEMPLATE: Currier/hand A long fields versus B dense closed cells
+```
+
+The pool, vessels, tubes and female figures motivate the bath/apparatus content
+fork. Field density explains how hand 2 writes it; field density alone does not
+translate a cell as an action.
+
+## Iteration 100 — one latent card, several complete surface realizations
+
+GDT327 supplies a concrete apprentice example of why the visible group is not
+the stable dictionary unit. Anonymous joint tuple `259b2b3b…` occurs as a
+one-group DY-closed field at three fixed-page loci:
+
+```text
+f82r.2   DCHEDY
+f83r.6   SCHEDY
+f83r.16  TCHEDY
+```
+
+All are physical-line initial and all belong to hand 2/Currier B, yet the
+visible wrapper changes. The frozen representation treats them as the same
+opaque card state with different observed renderings. A second anonymous tuple
+is rendered as `TEDY` once and `SHEDY` twice in the selected fixed-page lines.
+
+This does not newly prove an authorial allomorph—the equivalence is inherited
+from the existing parser, and GDT338 did not validate free prospective tuple
+merging. It nevertheless makes the workshop rule concrete:
+
+> Look up the registered card first; choose its permitted D/S/T/SH rendering
+> from the local construction and writing state afterward.
+
+The variation occurs inside one hand, so “each scribe substitutes a private
+alphabet” is too simple. The same scribe must know more than one surface
+realization.
+
+## Iteration 101 — cards recur; complete multi-card fields do not
+
+Among the 135 GDT327 fields on the fixed pages, 53 contain one group and 82
+contain multiple groups. Cross-page recurrence exists for several one-group
+fields, including the anonymous cards rendered as `LCHEDY`, `QOKEEDY`,
+`QOKCHDY` and `QOLCHEDY`. But **zero complete multi-group field sequences**
+recur exactly across two fixed pages.
+
+This is the expected footprint of a productive form-filling system:
+
+```text
+reusable atoms and single-cell states    yes
+reusable transition such as closed QOLCHE -> QOKAIN    yes
+memorized whole multi-card line/field formulae         not observed here
+```
+
+The negative is capacity-limited and cannot distinguish ordinary syntax from
+technical form filling. It does rule against the easiest pure phrasebook model
+in which scribes repeatedly copy a small stock of complete encoded sentences.
+The current hybrid theory instead composes page-local records from recurrent
+cards under register grammar.
+
+## Iteration 102 — f69 repeats one card across both visible length classes
+
+The three ZL3b occurrences of `OKEOD` are at source loci f69v.14, f69v.18 and
+f69v.27, corresponding to ordinal positions 11, 15 and 24 in the frozen
+28-entry walk used here. The first two are attached to SHORT radial elements;
+the third is attached to a LONG element. ZL3b and IT2a preserve all three exact
+groups; RF1b splits the third as `OKE | D`.
+
+This corrects the older shorthand “positions 14, 18 and 27,” which confused
+locus numbers with ordinals. More importantly, the same written card crosses
+the visible binary distinction:
+
+```text
+position 11  SHORT  OKEOD
+position 15  SHORT  OKEOD
+position 24  LONG   OKEOD   [RF boundary disagreement]
+```
+
+Therefore `OKEOD` does not redundantly spell LONG or SHORT. If it is a table
+value, that value can recur under both silent geometry states. This strengthens
+the schedule/card reading and explains the old F69LS001 nonconfirmation: the
+length bit is already present in the diagram and need not be repeated in text.
+It still does not identify the value, the cycle or the use of the table.
+
+## Iteration 103 — Herbal carries page-local cards; Biological reuses a register deck
+
+Treat the first paragraph of each prose page as already established context
+and ask what fraction of later paragraph events reuse an exact group from it.
+For the four Herbal pages, second-paragraph reuse is:
+
+| page | second-paragraph events already seen in first | mean reuse from another Herbal first paragraph |
+|---|---:|---:|
+| f10r | 26.5% | 21.1% |
+| f11r | 40.7% | 27.2% |
+| f55v | 27.4% | 13.4% |
+| f56r | 25.9% | 13.0% |
+
+All four directions favour the page's own first paragraph. The effect includes
+common cards, but page-private carry is also visible: the later paragraph
+reuses 3 such events on f10r, 9 on f55v and 4 on f56r; f11r is the exception
+with zero.
+
+The Biological pattern is different. Later principal prose paragraphs reuse
+roughly 24–55% of earlier same-page material, yet usually reuse the pooled
+vocabulary of the *other* two Biological pages at least as strongly. Only
+three to six later events per page carry a type private to that page's first
+paragraph.
+
+This is a small post-hoc sample, not a significance test. As an abductive
+workshop rule it is nevertheless coherent:
+
+```text
+HERBAL       page-addressed entry; later module refers back to local item cards
+BIOLOGICAL   register-addressed procedure/apparatus deck reused across records
+ASTRO        geometry-addressed cell; text supplies residual value cards
+```
+
+The distinction explains why a universal PAGE_HOST dictionary repeatedly
+fails. “Content-bearing” need not occupy the same visible place in all three
+registers.
+
+## Iteration 104 — one compiler, three addressing modes
+
+The best current theory can now be stated more precisely than “medical
+shorthand.” The workshop is compiling three source genres with three different
+ways of identifying what a record is about:
+
+| register | primary silent/visible address | what the written cards most likely add |
+|---|---|---|
+| Herbal | one plant picture plus page-local incipit/cards | constitution/classification, virtues, preparation, application |
+| Biological | shared pool/vessel/conduit topology plus record position | recurrent operation, material/medium, parameter, state, result |
+| Astro | sector/star/radial coordinate and visible state | local class, lookup value, exception or rule |
+
+The common layer is not a word order. It is the compiler discipline:
+
+```text
+ADDRESS supplied by page or geometry
+REGISTER selects a card table
+PARAGRAPH selects a record template
+FIELD orders a few opaque cards
+RENDERER chooses wrappers, JOIN/SPACE and line realization
+LAYOUT resets the record
+```
+
+This is learnable in a small workshop because scribes share the six-step
+procedure and only need separate lookup sheets for Herbal, baths/apparatus and
+circle work. It also accommodates heterogeneous sources: a *Circa instans*
+entry, a bath treatment and an astronomical rule do not need the same syntax
+before compilation.
+
+The literature fits this division without identifying the manuscript. Middle
+English *Circa instans* witnesses reorganize simple-medicine information into
+names/synonyms, qualities and degrees, remedies and concordance tables
+(<https://www.researchgate.net/publication/335137736_Manuscript_Relations_through_Form_and_Content_in_the_Middle_English_Circa_instans>).
+The *Antidotarium Nicolai* supplies alphabetized remedies with ingredients,
+preparation, dosage and administration
+(<https://theses.gla.ac.uk/8965/>). *De balneis Puteolanis* manuscripts treat
+up to thirty-seven therapeutic baths and even vary their order
+(<https://www.cambridge.org/core/journals/traditio/article/peter-of-eboli-de-balneis-puteolanis-manuscripts-from-the-aragonese-scriptorium-in-naples/C804287BB668512B4D019696E0B114C8>).
+Walters W.73 demonstrates that short scientific compendia could organize
+cosmological knowledge primarily through diagrams
+(<https://art.thewalters.org/object/W.73.2V/>).
+
+The leading genre label is therefore **image-addressed practical-medical
+compendium with astronomical lookup material**, rendered through a shared
+technical card compiler. “Integrated medical astrology” remains less secure
+than “one workshop compiled all three.”
+
+## Iteration 105 — the three registers allocate identity differently
+
+An exact ZL3b surface census over only the fixed pages quantifies the addressing
+model:
+
+| register | events | exact types | type/token | events from types recurring on multiple pages |
+|---|---:|---:|---:|---:|
+| Herbal | 359 | 220 | .613 | 42.1% |
+| Biological | 891 | 413 | .464 | 57.6% |
+| Astro | 397 | 302 | .761 | 22.7% |
+
+Astro is the most locally individuated: its attached labels and geometry-owned
+cells create many one-off identifiers. Biological is the most deck-like: well
+over half of its events use exact forms recurring on another one of the three
+pages. Herbal lies between them, as expected if one page identifies a specific
+simple but shares quality, measure and use constructions.
+
+The leading register-specific exact cards make the same point without
+substring clustering:
+
+```text
+HERBAL-only across pages:
+  CTHY 7/3 pages, CHOR 6/2, QOTCHY 5/3, CHAIIN 4/3
+
+BIOLOGICAL-only across pages:
+  SHEDY 30/3, QOKEDY 24/3, QOKEEDY 21/2,
+  LCHEDY 18/3, QOKY 13/3, QOKAL 12/3, SOL 8/2
+
+ASTRO-only across pages:
+  sparse: AIR 4/2; OCKHY 3/3; the remaining shared exact forms mostly 2 events
+```
+
+The operational reading becomes sharper but remains anonymous:
+
+- Biological repeated forms are good candidates for a small stock of process,
+  apparatus, state or field-control cards.
+- Herbal recurrent forms are good candidates for shared qualities,
+  preparations or grammatical scaffolding around a page-specific item.
+- Astro labels are more likely to be cell-specific identities or values whose
+  address is supplied by the drawing.
+
+This is why a single form such as `DAIIN` cannot safely receive one concrete
+gloss across the manuscript. Its 43 occurrences on eight fixed pages make it a
+portable compiler/value/reference card, while the content-bearing distinction
+is distributed differently by register.
+
+## Iteration 106 — a concrete Biological field grammar
+
+The GDT327-covered fixed-page lines finally support an explicit formal clause
+template. Counts below use complete opaque states rather than a visual suffix
+rule:
+
+| displayed card | covered events | FIRST/MIDDLE | LAST/ONLY | formally DY-closed |
+|---|---:|---:|---:|---:|
+| `QOKAIIN` | 8 | 7 | 1 | 0 |
+| `QOKEEY` | 6 | 6 | 0 | 0 |
+| `QOKAL` | 4 | 4 | 0 | 0 |
+| `OL` | 8 | 7 | 1 | 0 |
+| `DAIIN` | 11 | 8 | 3 | 0 |
+| `QOKEEDY` | 10 | 0 | 10 | 10 |
+| `QOKEDY` | 8 | 0 | 8 | 8 |
+| `SHEDY` | 10 | 0 | 10 | 10 |
+| `LCHEDY` | 8 | 0 | 8 | 8 |
+| `CHEDY` | 10 | 9 | 1 | **0** |
+
+The last row is a crucial anti-shortcut. Although `CHEDY` visually ends in the
+same letters, its frozen joint state is not a DY closure in these events.
+Surface suffix matching alone would mix an interior card into the closing
+deck.
+
+The anonymous Biological syntax is therefore:
+
+```text
+FIELD := ENTRY_OR_PARAMETER  ARGUMENT_OR_MODIFIER*  CLOSED_STATE?
+
+ENTRY_OR_PARAMETER := QOKAIIN | QOKEEY | QOKAL | register-local alternatives
+ARGUMENT_OR_MODIFIER := OL | DAIIN | CHEDY | page-local cards
+CLOSED_STATE := QOKEEDY | QOKEDY | SHEDY | LCHEDY | related licensed cards
+```
+
+`SOL` is a separate line/field-entry head candidate but lacks enough covered
+events for a fixed argument grammar. A real example can now be parsed without
+pretending that each physical line is a sentence:
+
+```text
+f82r.2
+  [DCHEDY] //
+  [QOLCHEDY] //
+  [QOKAIN | D:Y | QOKEEDY] //
+  [QOKAL | LCHECKHY | LCHED]
+
+f83r.6
+  [SCHEDY] //
+  [CHEDCHY | QOKAL | OLCHEDY] //
+  [QOKAIIN | CHEDY | QOKEEDY] //
+  [LCHEDY] //
+  [QOKY]
+
+f83r.25
+  [QOKEEDY] //
+  [QOLCHEY | QOKEEY | QOKEDY] //
+  [CHEDY | OTAL]
+```
+
+For the aggressive workshop translation, these are compact specification or
+procedure cells: select a registered entry/parameter, attach zero or more
+materials/relations, and optionally commit a resulting state. That makes
+`...EDY` closing cards plausible operation/result states, but the formal
+closure could just as well delimit catalogue attributes. No verb, ingredient,
+quantity or result is identified.
+
+## Iteration 107 — f67r2's three rings use distinct local namespaces
+
+The visible member counts are not the same as source-group counts. The seven
+upper labels contain 9 ZL groups, the twelve lower labels 17 groups, and the
+eight central labels 10 groups. Their initial distributions also differ:
+
+```text
+upper 7 labels:    O-family 5/9 groups; Y 2/9; D and A one each
+lower 12 labels:   O, Y and D each 4/17; four other initials
+central 8 labels:  O 4/10; S 3/10; A 2/10; C 1/10
+```
+
+There is no exact group shared between upper and lower or upper and central in
+any reading. ZL3b alone writes `OKODAR` once in the lower 12-label layer and
+once in the central 8-label layer, but IT2a reads `OKADAR` versus `OKODAS` and
+RF1b reads `OKO AR` versus `OTO AS`. No all-reading-exact bridge remains.
+
+The three layers are therefore not simply the same names copied into three
+positions. The working instrument needs separate local namespaces and a rule
+for combining them. This makes a layered selector/result table more plausible
+than a decorative zodiac picture, but it also prevents using one attractive
+ZL spelling to align the rings.
+
+## Iteration 108 — Herbal is an article grammar, not a diluted Bio procedure
+
+The formal contrast becomes clearer when the Currier/hand confound is kept in
+view. On the GDT327-covered fixed lines, the three Herbal-A pages have long
+fields and almost no licensed DY closure. The Herbal-B page f55v has two DY
+closures in four covered fields, already resembling the denser hand-2 style.
+The stable unit common to all four plant pages is therefore not the DY cell but
+the **picture-addressed paragraph module**.
+
+The workshop can use one card inventory in two document grammars:
+
+```text
+HERBAL ARTICLE
+  SILENT_PICTURE_LEMMA
+  MODULE := CARD CARD ... CARD + paragraph/layout close
+
+BIOLOGICAL SPECIFICATION
+  SILENT_APPARATUS_OR_SCENE_ADDRESS
+  MODULE := FIELD FIELD ... FIELD + paragraph/layout close
+  FIELD  := ENTRY CARD* LICENSED_DY_CLOSER?
+```
+
+This also prevents a false semantic deduction. Dense closed fields on f81v,
+f82r and f83r need not mean that those pages contain more verbs. The difference
+may be a mixture of document template and Currier-B/hand-2 rendering. Conversely,
+the long Herbal-A fields need not be ordinary prose sentences. They can be
+compact article rows whose silent lemma is the drawing.
+
+For a 1420 workshop this is easy to teach: “for a simple, write its dossier in
+one or two paragraph blocks; for an apparatus or regimen, tick through short
+cells.” Nothing in this rule requires every statement to end with a physical
+line.
+
+## Iteration 109 — the Bio closing deck is real, but it is not one suffix word
+
+Four high-frequency exact GDT327 tuple types are position-pure closing cards on
+the covered Biological lines:
+
+| anonymous tuple | fixed-page events | FIRST/MIDDLE | LAST/ONLY | folios |
+|---|---:|---:|---:|---:|
+| `bc4f1f5c...` | 12 | 0 | 12 | 3 |
+| `7d25241b...` | 10 | 0 | 10 | 2 |
+| `7db18b2f...` | 8 | 0 | 8 | 2 |
+| `de7321bf...` | 8 | 0 | 8 | 2 |
+
+All four share the frozen DY-closure coordinate but retain different opaque
+host identities. Their visible wrappers vary: the same closing coordinate is
+realized with `q`, `sh`, `che`, `t`, or no outer wrapper, depending on the
+licensed card and context. A fifth card, `259b2b3b...`, gives the already noted
+`DCHEDY/SCHEDY/TCHEDY` line-entry variants.
+
+The simplest workshop interpretation is a **deck of completed-state cards**,
+not a single word meaning “finished.” The right closure feature says how the
+cell behaves; the host says which registered state is being committed. This is
+compatible with results, preparations, qualities, selections or catalogue
+attributes, so the concrete content remains open. It does, however, explain
+why visually similar `CHEDY` may remain internal while QOKEEDY, QOKEDY, SHEDY
+and LCHEDY repeatedly close cells: the reader consults the whole licensed card,
+not the final letters alone.
+
+## Iteration 110 — what an apprentice actually has to learn
+
+The current theory no longer requires a fantastically complicated secret
+language. It requires three finite things:
+
+1. a **shared construction sheet** saying which card/state combinations are
+   legal and which ones close a cell;
+2. a **register phrasebook** of plant, apparatus and circle cards;
+3. a few **rendering habits**, especially the supported `s` line-entry and `q`
+   post-closure choices plus local JOIN/SPACE practice.
+
+The production algorithm is deliberately mechanical:
+
+```text
+choose the illustrated subject or geometric cell
+choose the document template (article / specification / lookup)
+select a registered opaque card
+look up its licensed construction state
+render the permitted wrapper and JOIN/SPACE form for this hand and position
+reflow the record through the space left by the pre-drawn image
+use paragraph layout, not a mandatory surface word, to close the record
+```
+
+This is teachable to several scribes because they need not memorize a new
+symbol for every source word. They learn a compact card index and a rendering
+table, much as a workshop learns abbreviation conventions and tabular rubrics.
+Different hands may produce different surface forms without changing the
+underlying card selection. The price is lossy recovery: if several source
+phrases were compiled to the same card, exact plaintext cannot be reconstructed
+from the manuscript alone.
+
+## Iteration 111 — best complete page readings in workshop language
+
+These are not literal translations. They are the most economical source-record
+types that the fixed pages can currently carry.
+
+| page | strongest workshop reading | what remains silent in the image |
+|---|---|---|
+| f10r | two modules for one pictured simple: a baseline identity/quality dossier followed by additional properties, settings or uses | plant lemma and which pictured part is relevant |
+| f11r | two shorter modules for another simple using the same Herbal-A phrasebook, including CHOL–CTHY and repeated SHOR material | exact identity and whether repetition means two uses, emphasis or copying |
+| f55v | a hand-2/Currier-B plant dossier split by the available writing space, with more explicit cell closures and OL/AR/AIIN-like relational cards | whether any line belongs to leaf, root or flower rather than the whole entry |
+| f56r | a long two-module Herbal-A dossier; stock classification cards recur while the second module adds many compact adjunct entries | the conspicuous spiral/radiating form is not demonstrably named in text |
+| f81v | overview or regimen record for a shared pool/scene, using a register-wide closed-state deck | whether figures are patients, exemplars, personifications or owners |
+| f82r | catalogue of source/vessel/application configurations plus prose specifications; local labels select apparatus cards | whether the configurations are alternatives, stages or independent cases |
+| f83r | denser local-delivery/apparatus sheet with short cells, conduits and repeated state commitments | direction, material, body part and process order |
+| f67r2 | multilayer selector: twelve main sectors, a seven-member selective layer, an independent central eight-layer and a bottom rule block | authorial phase, layer values and how the three namespaces combine |
+| f68r1 | spatial catalogue: one central item plus 28 noncentral labelled stars and local prose, without an established 28-cycle order | catalogue reading order and what stars classify |
+| f69v | ordered 28-position radial schedule with a strict visible long/short alternation and residual written cards | meaning of the binary state and cycle start/value |
+
+The document-level paraphrase is therefore:
+
+> “For each illustrated simple, apparatus arrangement or circular position,
+> consult the appropriate register table and write only the residual qualities,
+> relations, settings and state cards that the picture does not already show.”
+
+“Quality,” “relation,” “setting” and “state” are functional placeholders. The
+workshop theory has not identified a single concrete ingredient, disease,
+planet, direction, number or action.
+
+## Iteration 112 — provisional card dictionary, with hard confidence tiers
+
+| construction | safest anonymous role | aggressive content guess | status |
+|---|---|---|---|
+| licensed attached DY coordinate | closes one local field/cell | completed preparation, result or selected state | **FORMALLY STRONG / CONTENT OPEN** |
+| free `D:Y` followed by `D:AIIN` | portable ordered pair of D-rendered cards | related value assignments | **FORMALLY MEDIUM / OLD CLOSURE GLOSS WITHDRAWN** |
+| `QOLCHEDY → QOKAIN` | closed Bio field followed by a new field entry | move from carrier/process state to indexed next item | **FORMALLY STRONG / CONTENT WEAK** |
+| QOKAIIN/QOKEEY/QOKAL family | Bio field-entry deck | item, parameter, dose or operation selection | **POSITIONALLY STRONG / CONTENT VERY WEAK** |
+| QOKEEDY/QOKEDY/SHEDY/LCHEDY deck | Bio closed-state deck | result, completed operation or checked attribute | **POSITIONALLY STRONG / CONTENT VERY WEAK** |
+| `AIIN/DAIIN` | portable scalar/reference-looking card family | amount, degree, dose, ordinal or cross-reference | **DISTRIBUTIONALLY STRONG / MEANING UNRESOLVED** |
+| `OL` | broad relation/carrier card, especially useful in Bio | medium, channel, vessel content or path | **LOCAL LEAD; `OL=WATER` REJECTED** |
+| `CHOL–CTHY` | Herbal-A paired stock construction | constitution/quality pair | **FORM STRONG / QUALITY GLOSS LOW** |
+| `SOL` | flexible Bio line/field-entry head | instruction or apparatus-operation head | **POSITIONAL LEAD / NOT A VERB** |
+| `OKAL` | reusable registered category/card | local object or apparatus class | **REUSE REAL / REFERENT UNKNOWN** |
+| `OTAIN OLKAL` | exact local two-card caption on f81v | tub/apparatus configuration | **VISUAL-CONTEXT LEAD ONLY** |
+| `DAR/DAL/SY` families | contrasting right-side state/relation values | source/target, branch, direction or terminal state | **FORMAL CONTRAST / EVERY GLOSS WEAK** |
+| `s` and `q` wrappers | licensed placement renderers | discourse continuation or next-step markers | **RENDERER SUPPORTED / SEMANTICS UNASSIGNED** |
+
+This table is deliberately asymmetric. The field grammar is far firmer than
+the content dictionary. A useful translation attempt must preserve that fact
+instead of turning every positional regularity into an English word.
+
+## Iteration 113 — the hybrid world now beats both simpler rivals
+
+Three complete generative worlds remain:
+
+| world | explains well | fails awkwardly |
+|---|---|---|
+| compressed natural language only | long Herbal texture, variable clauses, local repetitions | extreme card compatibility, renderer rules, short Bio cells and geometry-owned labels |
+| pure semantic/technical notation | cell closures, lookup circles, register decks, silent visual address | long prose texture, spelling variation, page-local vocabulary and likely source-language residue |
+| hybrid source language + abbreviation + card compiler | all of the above with one workshop workflow | cannot yet recover lost card values or source wording |
+
+The hybrid is now the leading theory by explanatory economy, not by a semantic
+hit. It predicts that the apparent “words” mix at least three things: source
+lexical residue, a registered content-card identity, and rendering/compiler
+state. That combination naturally produces free/bound reuse, joined versus
+detached forms, strong right-edge closure behavior, line reset, register
+effects and repeated identical labels without requiring clean linguistic
+morphology.
+
+The fixed ten pages still do **not** decide whether the surrounding source
+language was Georgian, Latin, German, Romance, Semitic or something else; nor
+whether the codebook was mnemonic, cryptographic, pedagogical or proprietary.
+What has become useful is the reconstruction of a plausible *work practice*:
+the manuscript is more like an illustrated, compiled technical notebook than
+either ordinary encrypted prose or a context-free symbol table.
+
+## Iteration 114 — two navigation axes explain `s` and `q` economically
+
+The supported global renderer rules become especially concrete inside the
+three fixed Biological pages. Among 281 covered events:
+
+| context | events | `s` wrapper | `q` wrapper |
+|---|---:|---:|---:|
+| physical-line first | 40 | 14 (35.0%) | 7 (17.5%) |
+| not line first | 241 | 9 (3.7%) | 68 (28.2%) |
+| immediately after licensed DY close | 75 | 4 (5.3%) | 33 (44.0%) |
+| not after licensed DY close | 206 | 19 (9.2%) | 42 (20.4%) |
+
+The scribe therefore navigates two different boundaries:
+
+```text
+physical reflow boundary:       line starts -> s becomes available/preferred
+internal construction boundary: closed field -> q becomes available/preferred
+```
+
+Neither selector is obligatory; both choose among already licensed cards.
+This fits a stateful rendering table much better than translating `s` as
+“continue” and `q` as “then.” In workshop language they can still be described
+as *line-entry* and *cell-entry* marks, provided those names remain formal.
+
+The distinction also explains why a statement can continue across the end of a
+line. A physical reset changes the rendering opportunity, while an internal DY
+close changes the construction state. The two boundaries may coincide, but
+they need not.
+
+## Iteration 115 — sentence structure is a record graph, not a line string
+
+The current best substitute for an unknown sentence grammar is:
+
+```text
+RECORD
+  := FIELD (FIELD)*
+
+FIELD
+  := ENTRY? CARD+ CLOSE?
+
+PHYSICAL_LINE
+  := any consecutive slice of one RECORD that fits beside the drawing
+```
+
+A field may be a clause, attribute cell, recipe step, table entry or something
+else; that semantic level is still lost. But this hierarchy explains four
+otherwise awkward observations at once:
+
+- line ends have no universal final card;
+- paragraph ends do have a reliable visual reset;
+- several licensed closures and restarts occur inside one line;
+- the same line-entry renderer can recur after reflow without implying a new
+  subject or sentence.
+
+Thus the most literal useful reading of f82r.2 is not a German sentence but a
+four-cell record:
+
+```text
+[closed card DCHEDY]
+[closed card QOLCHEDY]
+[entry QOKAIN + D:Y + close QOKEEDY]
+[entry QOKAL + two open residual cards]
+```
+
+Its source might once have read “take X, do Y, until Z,” but it might equally
+have been a four-column specification. The record graph survives either way;
+the imagined syntax does not.
+
+## Iteration 116 — water remains possible content, but not a dictionary key
+
+The plant pictures may certainly imply water, habitat, washing, soaking,
+decoction or humoral moisture. The draw-first model actually makes such silent
+content more plausible: a pictured plant can supply the subject while the text
+records preparation or use. What the ten pages do **not** license is a single
+surface equation such as `OL = water`.
+
+Standalone OL occurs in plant, Biological and circle contexts; OL-bearing forms
+also occupy apparatus labels and ordinary prose. A broader carrier/medium/path
+function can accommodate water locally without making water its global
+translation. Likewise CHOL–CTHY could encode a moisture-related constitution,
+but the shared construction crosses visually different plants and cannot be
+oriented to hot/cold/dry/moist from these images.
+
+The aggressive but disciplined Herbal paraphrase is therefore:
+
+> “For the pictured simple, record its registered constitution and the
+> applicable preparation/use conditions, possibly including aqueous handling
+> where the recipe or habitat requires it.”
+
+That is deliberately weaker than “this line says water.” It leaves space for
+water in the lost source while refusing to manufacture a lexical anchor.
+
+## Iteration 117 — exact immediate repetition is a feature of the record deck
+
+The guarded ZL display of the ten pages contains ten immediate identical-group
+repetitions: `DY DY`, `SHOR SHOR`, `CHY CHY`, `YKCHEY YKCHEY`, `OKAR OKAR`,
+`OTEEY OTEEY`, `YTEDY YTEDY`, `OL OL`, `SHEDY SHEDY`, and `QOTY QOTY`.
+They occur in Herbal, Biological and circle material.
+
+This does not prove a special repeat operator. Ordinary prose can repeat a
+word, and some instances may reflect transcription or scribal duplication.
+But a compiled technical record offers three economical readings unavailable
+to a one-word dictionary:
+
+1. two adjacent slots legitimately receive the same value;
+2. a state is deliberately carried or emphasized;
+3. the card is copied twice as a tally/check rather than inflected into a new
+   word.
+
+The phenomenon supports the idea that exact group identity can be a reusable
+card value while surrounding construction and geometry determine its role.
+It also warns against deleting duplicate groups as scribal errors during any
+future reconstruction.
+
+## Iteration 118 — a mixed medical/astronomical codex is historically ordinary
+
+The leading ten-page content package does not require an exotic lost genre.
+Three fifteenth-century catalogue comparators show essentially the same broad
+workshop neighbourhood, though not the Voynich writing system:
+
+- British Library Add MS 29301 combines medical recipes, illustrated surgery,
+  68 drawings of medicinal plants, a Middle English *Circa instans*, health
+  material and a Zodiac Man. Its miniatures are assigned to an artist active
+  around 1420–1430
+  (<https://searcharchives.bl.uk/catalog/032-002020783>).
+- Royal MS 18 A VI combines urine wheels, anatomical/bloodletting diagrams,
+  recipes for women, gynaecology/obstetrics, medicinal waters and an *Agnus
+  castus* herbal
+  (<https://searcharchives.bl.uk/catalog/040-002107422>).
+- Harley MS 2381 combines a herb list, hundreds of medical recipes, weights
+  and measures, a calendar, a lunar calendar and inserted astrological tables
+  (<https://searcharchives.bl.uk/catalog/040-002048212>).
+
+These are architectural comparators, not donors. They establish that a small
+late-medieval workshop could naturally place plants, recipes, women's medicine,
+waters, diagrams and astronomical tables inside one working codex. They do not
+identify the Voynich region, language, institution or source.
+
+## Iteration 119 — miscellany is now safer than one grand medico-astrological theory
+
+The same comparators sharpen an important distinction. Co-presence in one
+manuscript does not mean that every section participates in one integrated
+doctrine. A recipe collection can contain lunar or astrological tables because
+the book serves one practitioner or workshop, not because every herb entry is
+encoded by a planet.
+
+The content hierarchy should therefore be ranked:
+
+1. **illustrated practical/medical workshop miscellany** — leading;
+2. **coordinated materia-medica + bath/application + astronomical reference
+   handbook** — plausible;
+3. **single integrated medico-astrological therapeutic system** — attractive
+   but weak;
+4. **one continuous plaintext treatise disguised by pictures** — poor fit.
+
+The shared compiler can be the scribes' house style rather than evidence that
+all three sections share one semantic ontology. This explains why the grammar
+transfers more strongly than any proposed content dictionary.
+
+## Iteration 120 — symbolic translation version 0.8
+
+The most useful “translation” currently possible is a symbolic one that commits
+to functions only where the ten pages constrain them:
+
+```text
+VISUAL_ADDRESS     := pictured plant / apparatus locus / geometric coordinate
+CARD[h]            := registered opaque content value h
+VALUE[AIIN]        := portable scalar-or-reference slot (content unresolved)
+REL[OL]            := carrier/context relation slot (water is one local option)
+CLASS[CHOL, CTHY]  := Herbal-A paired classification construction
+ENTRY[x]           := card licensed at field entry
+CLOSE[x]           := card licensed with attached DY closure
+LINE_RENDER[s]     := line-entry rendering opportunity
+CELL_RENDER[q]     := post-closure entry rendering opportunity
+```
+
+This yields three pseudo-translations:
+
+```text
+HERBAL
+  VISUAL_ADDRESS(plant)
+  MODULE { CLASS(...); CARD(...); VALUE(...); REL(...); ... }
+
+BIOLOGICAL
+  VISUAL_ADDRESS(scene/apparatus)
+  RECORD { ENTRY(...) CARD(...) CLOSE(...); ENTRY(...) CLOSE(...); ... }
+
+ASTRONOMICAL
+  VISUAL_ADDRESS(visible sector/star/radial state)
+  CELL { CARD(residual local value) }
+```
+
+`AIIN` is a particularly useful placeholder rather than a translated number.
+On the seven fixed prose pages covered by GDT278, the host occurs 20 times on
+all seven pages: 6 field-first, 9 middle and 5 last, never as a singleton field.
+Its wrappers are `d` 11 times, `s` 4, unwrapped 3, and `ch`/`t` once each. That
+profile fits a value or reference filled into several constructions better than
+a universal closer or one fixed syntactic word. It still does not distinguish
+amount, dose, degree, ordinal, identifier, or ordinary lexical content.
+
+The advantage of this notation is honesty and usefulness: one can now parse a
+page into addresses, records, entries, values, relations and closures without
+pretending to know whether a given value means “two drams,” “cold in the second
+degree,” “use the root,” or something else.
+
+## Iteration 121 — the three circle pages allocate labels differently
+
+A guarded exact-ZL census of the human-owned label sets gives:
+
+| fixed label layer | visible loci | source groups | distinct groups | repeated group types |
+|---|---:|---:|---:|---:|
+| f67r2 upper 7 | 7 | 10 | 10 | 0 |
+| f67r2 lower 12 | 12 | 12 | 12 | 0 |
+| f67r2 central catalogued 7/8 | 7 transcribed loci | 10 | 9 | 1 |
+| f68r1 29-star set | 29 | 32 | 32 | 0 |
+| f69v 28 radial entries | 28 | 34 | 30 | 4 |
+
+The central f67 count remains human-inventoried as eight objects; the legacy
+display has seven transcribed central loci, so no missing eighth value is
+invented. The important contrast is robust at the displayed layer. f68r1 is an
+almost maximally individuated catalogue. f69v is still identity-rich but allows
+some values to repeat, as a schedule or state table naturally can.
+
+This sharpens the three page roles:
+
+```text
+f67r2  combine distinct values from several visible layers
+f68r1  locate mostly unique entries in a spatial catalogue
+f69v   read an ordered sequence whose residual values may repeat
+```
+
+It does not establish zodiac, star names, lunar nights or prognoses.
+
+## Iteration 122 — circle text encodes the residual, not the visible coordinate
+
+The geometry supplies different silent variables on each page:
+
+- f67r2 supplies layer membership and sector location;
+- f68r1 supplies central/noncentral status and two-dimensional star position;
+- f69v supplies cyclic ordinal and LONG/SHORT state.
+
+The text need not redundantly spell any of them. The repeated f69 OKEOD card
+crossing LONG and SHORT already falsifies the simplest “label names the visible
+length class” reading. Likewise, the unique f68 labels need not each contain a
+word meaning “star.”
+
+The workshop reading is a database key split across ink channels:
+
+```text
+COMPLETE_CELL = VISIBLE_COORDINATE + VISIBLE_STATE + WRITTEN_RESIDUAL_CARD
+```
+
+This is why labels can remain short while the total information is rich. It is
+also why comparing label strings without geometry repeatedly fails: part of
+the address was never in the string.
+
+## Iteration 123 — no shared surface name list links the three instruments
+
+Across the guarded ZL group inventories of the f67r2 ring labels, f68r1 star
+labels and f69v radial labels, the only exact group type occurring on two pages
+is free `DY`. No ordinary content card bridges two label pages in this display.
+Alternate readings make a positive bridge harder, not easier.
+
+Therefore the three pages are not copies of one 28-name, star-name or zodiac
+list in different layouts. They use page-local namespaces under a shared
+rendering environment. The commonality lies in the lookup architecture, not in
+an obvious common vocabulary.
+
+## Iteration 124 — one coherent but deliberately risky plaintext world
+
+To avoid hiding forever behind anonymous labels, one complete content world can
+be written down and then kept visibly below the formal theory. The most coherent
+current guess is:
+
+```text
+CHOL        = first constitution/quality value, provisionally HOT
+CTHY        = paired constitution/quality value, provisionally DRY
+AIIN        = scalar setting: degree, dose, count or registered value
+D + AIIN    = enter/assign that scalar
+OL          = relational carrier, locally IN/WITH A MEDIUM
+SOL         = Bio construction/instruction head
+attached DY = commit the selected local state
+QOK...      = renderer-heavy entry family, not a translatable Q word
+```
+
+Under this sandbox key, the shared Herbal tail `CHOL CTHY` on f10r, f11r and
+f56r says approximately “hot and dry,” while f55v belongs to a different
+phrasebook or constitution. A Bio cell containing OL could read “in/with the
+medium,” with water one likely medium in a bath context. AIIN would carry a
+dose, degree or table value. This makes a recognizably medieval medical entry.
+
+Why this is still very weak:
+
+- the plant identifications do not independently predict the same hot/dry pair;
+- CHOL also occurs on circle pages and may be a more abstract class axis;
+- OL crosses non-water contexts;
+- AIIN has no decoded numeral or unit;
+- `q`, `s` and attached DY are partly renderer/construction state, so surface
+  segmentation is not a plaintext segmentation.
+
+The HOT/DRY assignment is therefore a **worked hypothesis**, not the new main
+dictionary. Its value is that it demonstrates a complete, historically normal
+source reading the compiler could encode and yields a concrete future
+falsifier if an external plant anchor ever becomes available.
+
+## Iteration 125 — a scribe's worked conversion
+
+Imagine the source note around 1420 says:
+
+> “This simple is hot and dry. Use one registered measure in water; prepare it
+> and apply according to the second condition.”
+
+The workshop does not encipher every word. It compiles:
+
+```text
+PICTURE supplies: THIS SIMPLE and its identity
+CHOL CTHY supplies: paired constitution
+D:AIIN supplies: registered scalar/value
+OL supplies: carrier/medium relation
+one register card supplies: preparation/application class
+attached DY supplies: end of that local cell
+paragraph layout supplies: end of the plant record
+```
+
+A different hand can join or split some pieces and choose a licensed line-entry
+wrapper without changing the source content. A bath record uses the same
+compiler but expands into several short closed cells. A circle table replaces
+the plant picture with a geometric coordinate and uses mostly local residual
+cards.
+
+This worked conversion explains why a reverse “translation” may never recover
+the original wording: articles, conjunctions, repeated subject names, visible
+coordinates and predictable verbs can all be omitted. What may remain
+recoverable is a schematic paraphrase, not a diplomatic plaintext.
