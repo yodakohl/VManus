@@ -4080,3 +4080,210 @@ Does any genuinely new construction survive at least two of the four pages?
 
 No page is selected because it contains a desired form or image detail. f84 and
 f84r remain excluded.
+
+## Iteration 53 — extension metadata correction and Herbal-A formula
+
+The frozen page selection is retained exactly, but its prereveal description
+contained one metadata error: f56r is Herbal **A**, Currier A, hand 1, not
+Herbal B. It is not swapped after exposure. The four-page extension is therefore
+f11r (Herbal A/1), f56r (Herbal A/1), f81v (Biological B/2), and f68r1
+(circle/hand 4).
+
+One exact construction transfers especially cleanly:
+
+```text
+f10r.5   QOKCHY QOTCHOL | CHOL CTHY
+f11r.3   QOTY | CHOL CTHY | DOR ...
+f56r.15  TCHO TCHOL | CHOL CTHY
+```
+
+`CHOL | CTHY` is identical in ZL3b, IT2a and RF1b on all three folios. It is
+not fixed to physical-line closure: it is internal on f11r. The three depicted
+plants are visibly different, so the pair is unlikely to be the proper name of
+one plant. In this ten-page workshop sample, exact `CTHY` occurs only on f10r,
+f11r and f56r, while `CHOL` also occurs in the circle pages. The economical
+scribe's reading is therefore:
+
+```text
+CHOL        a reusable carrier/content card
+CTHY        an Herbal-A/hand-1 instruction or qualification card
+CHOL CTHY   a standard plant-record construction
+```
+
+For a deliberately concrete sidequest paraphrase, `CHOL CTHY` can be read as
+“enter the standard preparation for the usable plant material.” A carrier such
+as water may belong to that preparation, but neither member is identified as
+WATER. Currier A, hand 1 and Herbal register are perfectly confounded in these
+three occurrences, so the formula could be a school/scribe rendering rather
+than herbal content.
+
+The page images reinforce only the silent-subject architecture. f11r has a
+dense crown of leaves and blue flowers with its two text packets above the
+drawing. f56r has spiny blue-green structures and a spiral upper growth, with
+the writing fitted around the already drawn plant. The irregular line lengths
+are therefore licensed as page layout, not sentence boundaries or plant-part
+ownership.
+
+## Iteration 54 — carry, checkpoint and override on f81v
+
+The strongest Biological extension is the exact opening sequence on f81v.3:
+
+```text
+SAIIN | DAIIN | OLKEEDY | OKEDY | DYKAIN | SHEK | CHDY | DALAL | OLDY
+```
+
+All three readings preserve `SAIIN DAIIN`. Under the existing apprentice card,
+this is a compact **carry then replace/set** transition: resume the inherited
+AIIN setting, then enter the setting for the new packet. It is especially
+plausible on a page whose drawing consists of repeated figures occupying
+parallel compartments of a shared green enclosure: successive slots can reuse
+a treatment setting and then override it locally. The picture supplies only
+the repeated-stage interpretation, not ownership of either token.
+
+A more reproducible transition crosses three pages:
+
+```text
+f11r.4   ... KCHY | DY DAIIN
+f81v.4   ... DAIN | DY DAIIN | CHCTHY
+f82r.15  ... QOKAIIN | DY DAIIN | CHDY DY
+```
+
+`DY | DAIIN` survives all three readings at all three loci. This extends the
+workshop state machine:
+
+```text
+DY       checkpoint/commit the current local cell
+DAIIN    write or activate the next registered setting/value cell
+S-AIIN   inherit the current setting/value into the new packet
+```
+
+The useful correction is that `DAIIN` is not necessarily a verb meaning
+“begin”. On f11r and f56r it often closes a short Herbal-A physical line; on
+f81v it occurs nine times and always inside a longer Biological line. It is
+better treated as a portable **set/value card** whose placement is determined
+by the register's record template.
+
+Literal duplication also transfers, but with a reading-sensitivity warning.
+`SHOR SHOR` on f11r.5 is exact in all three readings. f56r.4 preserves a copied
+`CHOR` realization but IT2a joins the first copy to preceding `QOT`; the three
+f81v ZL duplicates are broken in at least one alternate reading. Thus `X X =
+copy/repeat the complete cell` remains useful, while only f11r adds a secure new
+instance.
+
+## Iteration 55 — f68r1 object-label namespace
+
+f68r1 separates two writing modes unusually sharply. Thirty-two of its 37 loci
+are one-group diagram labels, and all 32 label surfaces are distinct in ZL3b.
+Their initial families are concentrated in a compact namespace:
+
+```text
+O  9     OT 9     OK 6     CH/C 3     Y 3     D 2
+```
+
+The page therefore looks less like 32 miniature words or clauses than a copied
+inventory of celestial/object cards rendered through a small set of pickup
+families. One card, `OTOR`, appears both as the isolated label f68r1.26 and
+inside the longer legend/prose locus f68r1.1 in ZL3b and IT2a. RF1b splits the
+prose occurrence as `OT | R` but retains the label `OTOR`. Exact `OTOR` also
+occurs in the Herbal and Biological micro-corpus, so it cannot safely be a
+unique star name.
+
+The workshop interpretation is narrower and more useful:
+
+```text
+isolated circle label   = object/value identifier card
+same card in prose      = reference to or use of that registered card
+O/OT/OK                 = dominant label-rendering/pickup families
+```
+
+This is the first clear extension-page example of a candidate code value moving
+between a diagram label and a longer construction. It supports the hybrid
+codebook-plus-compiler model, but not any astronomical name, sound, number or
+translation.
+
+## Iteration 56 — a transferred Biological two-card formula
+
+One further exact sequence survives the old/new-page comparison:
+
+```text
+f82r.2   DCHEDY | QOLCHEDY QOKAIN | DY | QOKEEDY ...
+f81v.17  ... SHEDY | QOLCHEDY QOKAIN | CKHY ...
+```
+
+`QOLCHEDY | QOKAIN` is intact in ZL3b, IT2a and RF1b on both folios. It pairs a
+checkpointed QOL-family card with a QOK-family AI(N) card and therefore fits the
+same economical workshop ordering already proposed for QOK E(E)DY and AIIN:
+
+> execute or record the QOL process/state card, then supply the associated QOK
+> setting/reference card.
+
+This is a useful Biological-register template, not a translation. QOL and QOK
+could instead be two opaque values whose order is fixed by a form. The important
+advance is that the proposed row-by-cell system now predicts a repeated
+**two-card construction** rather than only individual surface families.
+
+f81v also supplies 15 exact free `OL` groups: fourteen internal and one at locus
+start. This strongly preserves OL as a recurrent Biological carrier/object
+slot, while the one start occurrence rejects the strict claim that OL can only
+be dependent. In the workshop grammar it can head an elliptical packet when
+the operation or current setting is inherited from the preceding record. The
+green shared enclosure makes liquid or bath medium plausible at page level;
+it still does not make OL the word WATER.
+
+## Iteration 57 — ten-page saturation
+
+After adding the four frozen pages, the exact cross-folio construction census
+has produced only four genuinely new reusable observations:
+
+```text
+CHOL CTHY            Herbal-A/hand-1 standard construction
+DY DAIIN             checkpoint followed by set/value card
+QOLCHEDY QOKAIN      Biological two-card process/reference frame
+OTOR label ↔ prose   diagram identifier card reused in a construction
+```
+
+The other old/new exact pairs (`SHEDY QOKEDY`, `CHEDY QOKEDY`, `DAL LCHEDY`,
+`QOL OTAR`, and `CHEY QOL CHEDY`) either reduce to the existing matrix and
+relation grammar or lose an exact boundary/form in at least one alternate
+reading. f81v's three apparent ZL duplicate pairs likewise fail all-reading
+stability. Lowering the match resolution further would simply rediscover DY,
+EDY, AIIN or short line geometry.
+
+### Best apprentice-level writing system after ten pages
+
+The system a small workshop around 1420 could plausibly teach is now:
+
+```text
+PAGE CARD
+    drawing supplies silent subject and document register
+
+RECORD CARD
+    optional S-AIIN carry-in or D-AIIN explicit set/value
+    one or more registered ROW × CELL cards
+    relation/carrier slots such as OL
+    DY checkpoint between local cells
+    literal duplicate when the same complete card is needed twice
+
+RENDERING
+    cards may be joined, detached or shortened by hand/register and available
+    space; physical lines package writing but do not bound statements
+
+REGISTER TABLES
+    Herbal A: CHOL CTHY and short value-ending packets
+    Biological B: SOL and QOLCHEDY QOKAIN process packets, frequent OL carrier
+    Circle: mostly isolated O/OT/OK object/value cards plus short legends
+```
+
+This is simple enough for several scribes: learn a common layout/compiler deck,
+then learn the permitted row cards for the register being copied. It explains
+why the manuscript has strong recurrence and positional grammar but defeats a
+single word-for-word dictionary. The current best overall guess remains a
+**hybrid technical shorthand**, not ordinary continuous prose and not a pure
+substitution cipher.
+
+The content ceiling remains low. The plant pages may discuss water, decoction,
+washing, drying, roots, leaves, flowers, quantities or timing, and the bathing
+pages may describe liquids or bodily treatments. The present ten pages do not
+select among those. No further exact recurrence in this micro-corpus changes
+the grammar or supplies a defensible new content word. The expanded sample is
+therefore declared **SIDEQUEST_TEN_PAGE_FORMAL_SATURATION**.
