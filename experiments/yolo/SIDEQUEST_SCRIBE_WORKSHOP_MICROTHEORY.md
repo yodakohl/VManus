@@ -3194,3 +3194,58 @@ until slot and prose behavior are compared on equal structural units.
 The concrete labels open, resume, enter, attach and select remain invented.
 The observed result is only that opening-family choice is strongly local to
 page/construction type even within one hand.
+
+## Iteration 39 — f83r.25–30 as one six-packet instruction
+
+The pickup-key model permits a coherent non-line-bound reading of the six-line
+f83r paragraph:
+
+```text
+25  QOKEEDY QOLCHEY QOKEEY QOKEDY CHEDY OTAL
+26  OTCHEY QOKEEY QOKY TOL SHEDY QOKYLDDY
+27  DAIN CHEDY QOKEEDY SHCKHEDY SHCKHEDY
+28  SAIIN CHEEKY SHEEY QOKEDY SHEDY OLDY
+29  SALCHEDY CHEEY QODY KESD OLDY
+30  S|OKEEDY QOKEEDY QOKY SAII
+```
+
+The invented workshop parse is:
+
+```text
+packet 25   open a Q-rich registered operation sequence;
+packet 26   continue it in an OT-framed variant;
+packet 27   enter a DAIN parameter, close CHEDY and QOKEEDY cells,
+            then write the same SHCKHEDY cell into two slots;
+packet 28   pick up a registered SAIIN/CHEEKY state,
+            execute the QOKEDY cell and carry OLDY forward;
+packet 29   resume with the CHEEY/QODY/KESD cells and retain OLDY;
+packet 30   resume OKEEDY in line-entry S rendering,
+            continue with QOKEEDY, enter QOKY, and close at SAII.
+```
+
+As a deliberately speculative practical paraphrase:
+
+> Open the standard sequence and pass through the listed CHEY/OKE stages. In
+> the alternate OT setting repeat the registered stages. Enter the indicated
+> parameter, complete the preparation and operation cells, and record the same
+> resulting condition for two slots. With the next registered setting and
+> item, perform the operation and retain it in the OLDY condition or medium.
+> Continue the CHEEY, QODY and KESD steps while preserving OLDY. Resume the OKE
+> operation, register QOKY, and close the complete entry.
+
+If the page concerns a liquid-working process, `OLDY` could be a carried liquid
+or water-compatible medium. It could equally be a non-liquid state, container,
+channel, table column or purely formal carry cell. The paragraph structure does
+not decide this.
+
+The main gain is not the invented prose but the compact production grammar:
+
+```text
+OPEN PACKET → CONTINUE PACKET → PARAMETER/CHECKPOINT PACKET
+            → STATE-CARRY PACKET → STATE-CARRY PACKET → CLOSE PACKET
+```
+
+This is learnable by copying a model paragraph. Its variable complete cells can
+change while the six-packet scaffold remains familiar. No physical line has to
+be a complete statement, and the pre-drawn illustration need only constrain
+where the packets fit.
