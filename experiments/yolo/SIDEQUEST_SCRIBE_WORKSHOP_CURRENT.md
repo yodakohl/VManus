@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-22, after V23 prose/Astro homograph audit.
+Updated: 2026-08-22, after V24 complete ten-page translation edition.
 
 Status: **speculative working theory, not a GDT result and not a
 translation**. This file is the compact authoritative entry point for the
@@ -861,6 +861,19 @@ local echoes such as `okeey` (lukewarm liquid / warm bath) and `aiin` (measure /
 one Astro usual-measure occurrence) remain mnemonic possibilities, not portable
 words. The complete V22 translation is unchanged. Full audit:
 `sidequest_theory_candidates_v23/V23_EXACT_SURFACE_HOMOGRAPHS.tsv`.
+
+## V24 complete edition
+
+The current theory is now published as one complete reading rather than a loose
+dictionary: 776/776 visible events and all 199 line/diagram loci across the ten
+fixed pages have explicit ordered translations, plus one fluent German
+paraphrase per page. No sequence is blank, opaque, unknown or silently omitted.
+
+The edition reads as a practical medical consultation booklet joining pictured
+plant preparations, linked-vessel bath/application procedures and an
+astrological body-safety/station schedule. `V24_COMPLETE_TEN_PAGE_TRANSLATION.md`
+is the default human-readable translation; the 776-event TSV is the exact
+machine audit. “Complete” means total speculative coverage, not decipherment.
 
 ## Generative model
 
