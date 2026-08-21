@@ -2928,3 +2928,81 @@ For multiple scribes this is natural. The illustrator fixes the occupied
 regions; each text hand wraps or blocks the record according to available
 space and house convention. Variation in line length and drawing interruption
 then needs no semantic explanation.
+
+## Iteration 34 — a shared workshop card, not a single uniform vocabulary
+
+The six-page ZL3b micro-sample contains three hands and three broad registers:
+
+```text
+hand 1: f10r                     Herbal A
+hand 2: f55v, f82r, f83r        Herbal B / Biological
+hand 4: f67r2, f69v              astronomical / circle material
+```
+
+An exact-form census gives the following forms in **all three hands**:
+
+| form | total | hand 1 | hand 2 | hand 4 |
+|---|---:|---:|---:|---:|
+| `daiin` | 23 | 5 | 14 | 4 |
+| `aiin` | 19 | 1 | 12 | 6 |
+| `dy` | 16 | 4 | 3 | 9 |
+| `or` | 9 | 2 | 6 | 1 |
+| `dar` | 5 | 1 | 2 | 2 |
+
+Several shorter forms also span all three hands, but their low complexity makes
+them poor teaching-card evidence. Conversely, `chey`, `ar`, `dal`, `ol`, `s`
+and `sar` occur in hands 2 and 4 in this sample but not in the one selected
+hand-1 page.
+
+This suggests a deliberately modest workshop model:
+
+```text
+MASTER CARD
+    a small stock of highly reusable complete forms
+    shared boundary and placement habits
+    a few licensed positional renderings
+
+REGISTER CARD
+    additional complete cells useful for a particular document type
+    copied paradigms and local formulae
+
+SCRIBE HABIT
+    ductus, joining, optional separation and abbreviation density
+```
+
+The apprentice therefore does not learn a huge dictionary or a clean
+prefix-root-suffix grammar. The apprentice first learns perhaps a few dozen
+frequent complete cells and how to place them in records. Less frequent cells
+are copied from exemplars; recurring constructions allow analogical extension.
+That is simple enough for several scribes while still producing strong local
+register differences.
+
+### What this changes in the invented reading
+
+`AIIN/DAIIN` and `DY` remain good candidates for the **shared procedural
+infrastructure**, because they cross the selected hands and registers. `OR` and
+`DAR` may belong to the same shared card, although their support is much lower.
+The richer `CHEY/AR/DAL/OL/SAR` system should no longer be treated as mandatory
+universal grammar; in this sample it is a register-card possibility.
+
+This is more economical than assigning every visible piece an invariant
+meaning:
+
+```text
+same manuscript-wide infrastructure
++ register-specific stock formulae
++ hand-specific rendering habits
+```
+
+It also predicts that a new scribe can produce acceptable entries by copying
+complete cells in the correct constructional order, without knowing how every
+glyph sequence decomposes.
+
+### Confound and ceiling
+
+Hand and register are heavily confounded in this tiny selection: hand 1 has
+only one chosen Herbal-A page; hand 2 supplies the selected Herbal-B and
+Biological prose; hand 4 supplies both circle pages. The census therefore does
+not separate scribal dialect from document register and does not establish the
+invented value, checkpoint, relation or procedural readings. It only makes the
+small-workshop learning model more concrete.
