@@ -3660,3 +3660,59 @@ LINKED_CHECKPOINTED_OPERATION_CELL
 The words operation, treatment, same and next remain invented. GDT003 still
 prevents treating this attractive local algebra as confirmed linguistic
 morphology or as predictive evidence beyond ordinary Voynich string structure.
+
+## Iteration 47 — `SAII` is not a closure; the AIIN operator card expands
+
+The f83r.30 ending initially tempted the parse:
+
+```text
+qoky | saii = value/state + record close
+```
+
+The sample does not support that claim. Exact `saii` occurs only once. Exact
+`qoky` occurs nine times and is locus-final only three times. Neither form is a
+general closure marker on this evidence.
+
+A more coherent local comparison is:
+
+```text
+f83r.20   ... qoky | saiin     locus-final
+f83r.30   ... qoky | saii      locus-final
+```
+
+Exact `saiin` occurs five times: three locus-initial and two locus-final. This
+two-edge distribution fits a carried/reference state better than a dedicated
+ending. Together with the earlier AIIN/DAIIN contrast it yields a simple,
+explicitly speculative apprentice paradigm:
+
+```text
+AIIN       bare registered reference/parameter cell
+D-AIIN     enter, assert or activate that cell
+S-AIIN     resume, preserve or carry that cell at a packet boundary
+S-AII      possible locally shortened/rendered S-AIIN realization
+```
+
+This would give the S family a concrete constructional function without making
+it a universal lexical prefix. It agrees with the independently useful
+line-entry tendency: S can mark that an already active record state is being
+picked up on a fresh physical packet.
+
+The repaired f83r.30 paraphrase is therefore:
+
+> Resume the OKEE cell, perform its linked Q-framed counterpart, and leave the
+> QOKY setting under the carried S-AI(N) reference state.
+
+It does **not** say that the paragraph or sentence ends there. The physical
+locus ends; the larger statement may or may not.
+
+The paradigm remains weak in ordinary evidential terms: SAIIN has only five
+examples, SAII one, and GDT003 found no transformation algebra outperforming
+strong string statistics. Its sidequest value is explanatory economy: the
+same two pickup operations D and S now act on the widely shared AIIN card in
+ways compatible with their observed boundary profiles.
+
+### Correction to Iterations 39 and 46
+
+Withdraw `SAII = larger record closure`. Retain only a QOKY+SAI-family local
+tail and the possibility that SAI(N) carries or resumes the current registered
+state.
