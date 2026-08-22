@@ -1497,3 +1497,15 @@ with the prior preparation from the same source until clear; then take the
 current portion from the prior preparation and use it at the designated target
 once ready. Primary artifact:
 `sidequest_theory_candidates_v39/V39_FOUR_ROLE_SYNTHESIS.md`.
+
+### V40 all-occurrence core propagation
+
+The twelve revised cards were propagated through all 106 actual core events in
+the complete 381-event prose ledger. Their meanings survive, but repeated DY,
+CHOR, CHOL and DAIIN are better read as worksheet prompts (`THIS ACTIVE ITEM`,
+`WORKING FLUID`, `WITH PRIOR PREPARATION`, `PRESCRIBED MEASURE`) than ordinary
+repeated prose nouns. All 47 affected lines retain complete defaults; 18 dense
+contexts document the pressure cases. The current encoder is:
+`local content + recurring prompt + specification + licensed terminal`.
+Primary artifact:
+`sidequest_theory_candidates_v40/V40_ALL_OCCURRENCE_PRESSURE_TEST.md`.
