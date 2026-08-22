@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-22, after V77 of the authorized V71–V80 cycle.
+Updated: 2026-08-22, after V78 of the authorized V71–V80 cycle.
 
 Status: **creative working reconstruction, not a GDT result and not a
 translation**. Confirmed Voynich lexemes, sounds and plaintext clauses remain
@@ -18,6 +18,30 @@ Exactly ten pages are in scope:
 
 `f84` and `f84r` remain sealed. ZL3b, IT2a and RF1b are alternate readings of
 one manuscript. No additional page, image or semantic corpus was admitted.
+
+## V78 complete continuous prose edition
+
+All 381 prose events are now bound exactly once into 116 continuous statements
+and eleven complete records. The selected release uses the historically
+calibrated R2 prose, R3's field/line/owner continuity audit, R1's apprentice
+reading discipline and R4's 28-occurrence word fit audit. Every concrete noun,
+action and silent argument remains visibly `[EXEMPLAR:…]`.
+
+`ET?` survives all 19 occurrences as the stronger provisional word. It is
+usually an additive link or member of a repeated chain, but a silent formal
+link/slot remains equally viable.
+
+`PER?` survives only on probation. At f82r.3→4, E180/E181 visibly produce
+`PER? PER?` before one complement. The selected repair reads E180 as a
+line-edge anticipatory copy and E181 as the one source token. V79 must show that
+an apprentice can apply and reverse this simple copy/read-once rule without a
+locus-specific exception list. Otherwise `PER?` is withdrawn to a formal
+entry/reset mark.
+
+Eighteen statements cross physical lines, with 19 in-statement line
+transitions. Four Biological owner resets (E203, E264, E291 and E356) cut
+through a continuing statement but delete substance, target and direction.
+Thus statement continuity never licenses an invisible global apparatus.
 
 ## V77 source-first historical dictionary audit
 
@@ -401,6 +425,12 @@ not that it is the historical world.
 
 ## Current image-first artifacts
 
+- `sidequest_theory_candidates_v78/V78_FOUR_ROLE_SELECTION.md`;
+- `sidequest_theory_candidates_v78/V78_SELECTED_381_EVENT_INTERLINEAR.tsv`;
+- `sidequest_theory_candidates_v78/V78_SELECTED_116_STATEMENTS.tsv`;
+- `sidequest_theory_candidates_v78/V78_SELECTED_11_CONTINUOUS_RECORDS.tsv`;
+- `sidequest_theory_candidates_v78/V78_SELECTED_ET_PER_28_AUDIT.tsv`;
+- four complete continuous role editions and `V78_VALIDATION.json`;
 - `sidequest_theory_candidates_v77/V77_FOUR_ROLE_SELECTION.md`;
 - `sidequest_theory_candidates_v77/V77_SELECTED_CARD_DICTIONARY.tsv`;
 - `sidequest_theory_candidates_v77/V77_SELECTED_197_OCCURRENCE_AUDIT.tsv`;
@@ -469,9 +499,10 @@ corrector. Preserve independence until each role freezes its result.
 
 ## Next bounded step and stop
 
-V77 is complete. V78 must rebuild continuous ten-page readings using `ET?` and
-`PER?` literally at every exact occurrence, formal labels only as nonwords and
-all other content visibly bracketed as master-exemplar expansion. Its main
-falsifier is simple: if either tiny value breaks a full occurrence, withdraw it
-instead of adding senses. Do not add pages, start V81 or design a
-scientific/Voynich semantic experiment automatically.
+V78 is complete. V79 must test whether an apprentice can copy and read the
+selected system forward and backward with one compact manual. The critical
+test is the f82r E180/E181 PER carry pair: if read-once follows from a simple
+visible line-edge rule, PER remains provisional; if the locus must be memorized,
+PER is replaced by a formal entry/reset mark. ET must separately beat or tie
+its silent link rival without acquiring extra senses. Do not add pages, start
+V81 or design a scientific/Voynich semantic experiment automatically.

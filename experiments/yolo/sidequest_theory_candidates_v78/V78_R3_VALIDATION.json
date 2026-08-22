@@ -1,0 +1,525 @@
+{
+  "status": "PASS",
+  "passed": 92,
+  "total": 92,
+  "failed": [],
+  "counts": {
+    "events": 381,
+    "statements": 116,
+    "records": 11,
+    "fields": 135,
+    "exact_cards": 173,
+    "et_occurrences": 19,
+    "per_occurrences": 9,
+    "formal_nonword_occurrences": 26,
+    "unknown_or_unaudited_occurrences": 327
+  },
+  "continuity": {
+    "statements_crossing_fields": 18,
+    "statements_crossing_lines": 18,
+    "internal_owner_reset_events": [
+      "203",
+      "264",
+      "291",
+      "356"
+    ]
+  },
+  "checks": [
+    {
+      "name": "event row count",
+      "pass": true,
+      "detail": 381
+    },
+    {
+      "name": "statement row count",
+      "pass": true,
+      "detail": 116
+    },
+    {
+      "name": "record row count",
+      "pass": true,
+      "detail": 11
+    },
+    {
+      "name": "card conflict row count",
+      "pass": true,
+      "detail": 173
+    },
+    {
+      "name": "source event count",
+      "pass": true,
+      "detail": 381
+    },
+    {
+      "name": "V77 dictionary target count",
+      "pass": true,
+      "detail": 24
+    },
+    {
+      "name": "V77 selected occurrence count",
+      "pass": true,
+      "detail": 197
+    },
+    {
+      "name": "report exists and nonempty",
+      "pass": true,
+      "detail": 9674
+    },
+    {
+      "name": "event serial order 1..381",
+      "pass": true,
+      "detail": [
+        1,
+        2,
+        3,
+        379,
+        380,
+        381
+      ]
+    },
+    {
+      "name": "event serial uniqueness",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "exact eleven record order",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "allowed prose pages only",
+      "pass": true,
+      "detail": [
+        "f10r",
+        "f11r",
+        "f55v",
+        "f56r",
+        "f81v",
+        "f82r",
+        "f83r"
+      ]
+    },
+    {
+      "name": "no f84 selector",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "135 exact fields",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "116 exact statement memberships",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "173 exact opaque cards",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "all required event cells populated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source serial set exact",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "event source binding exact: record_unit_id",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "event source binding exact: page",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "event source binding exact: locus",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "event source binding exact: field_id",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "event source binding exact: statement_id",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "event source binding exact: joint_tuple_id",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "event source binding exact: terminal_status",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "literal card layer exact",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "every exemplar expansion bracketed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "every event-bound reading names event once",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "20 V77 unknown targets",
+      "pass": true,
+      "detail": {
+        "EXEMPLAR_VALUE_UNKNOWN": 20,
+        "FORMAL_LABEL_NOT_WORD": 2,
+        "CODEBOOK_ATTESTED_CATEGORY": 2
+      }
+    },
+    {
+      "name": "two V77 formal nonword targets",
+      "pass": true,
+      "detail": {
+        "EXEMPLAR_VALUE_UNKNOWN": 20,
+        "FORMAL_LABEL_NOT_WORD": 2,
+        "CODEBOOK_ATTESTED_CATEGORY": 2
+      }
+    },
+    {
+      "name": "two V77 questioned words",
+      "pass": true,
+      "detail": {
+        "EXEMPLAR_VALUE_UNKNOWN": 20,
+        "FORMAL_LABEL_NOT_WORD": 2,
+        "CODEBOOK_ATTESTED_CATEGORY": 2
+      }
+    },
+    {
+      "name": "portable IDs exactly ET/PER",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "portable source entries exact",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "portable historical rows dated 1414",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "portable working words question-marked",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "dcda count 19",
+      "pass": true,
+      "detail": 19
+    },
+    {
+      "name": "dcda 19/19 only ET?",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "b5fcea count 9",
+      "pass": true,
+      "detail": 9
+    },
+    {
+      "name": "b5fcea 9/9 only PER?",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no other card prints ET/PER",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ET/PER never terminal",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ET field-entry pressure 4/19",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ET statement-entry pressure 2/19",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "PER field-entry support 7/9",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "PER nonentry pressure events exact",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "formal parameter occurrences 20",
+      "pass": true,
+      "detail": 20
+    },
+    {
+      "name": "formal relation occurrences 6",
+      "pass": true,
+      "detail": 6
+    },
+    {
+      "name": "parameter always explicit nonword",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "relation always explicit nonword",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "all other event phrases unknown",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "old mnemonic handles absent from literal phrase layer",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "V77 197 selected occurrences reproduced",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "selected occurrence cardinality exact",
+      "pass": true,
+      "detail": 197
+    },
+    {
+      "name": "statement coverage exactly once",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "statement memberships reproduce V72",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "statement exact-card order",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "statement dictionary phrase order",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "statement event tags exact",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "statement texts all populated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "18 statements cross fields",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "19 field transitions inside statements",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "18 statements cross physical lines",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "19 physical-line transitions inside statements",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "10 visible owner resets",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "four internal owner-reset breaks exact",
+      "pass": true,
+      "detail": [
+        "203",
+        "264",
+        "291",
+        "356"
+      ]
+    },
+    {
+      "name": "record order exact",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "record coverage exactly once",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "record event sequence exact",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "record exact-card order",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "record dictionary phrase order",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "record event tags exact",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "record full texts populated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "record process rivals populated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "record notation rivals populated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "one conflict row per exact card",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "conflict occurrence sum 381",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "every card receives formal rival",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ET formal rival intra-field",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "PER formal rival entry",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "parameter formal rival intra-field",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "relation formal rival intra-field",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "formal-rival partition counts frozen",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "17 cross-Herbal/Bio cards",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "summary built",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "summary count block exact",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "summary portable checks exact",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "summary f84 seal",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "output hashes current",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "report states nontranslation ceiling",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "report states exact ET/PER counts",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "report states two formal nonwords",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "report lists all eleven records",
+      "pass": true,
+      "detail": ""
+    }
+  ],
+  "seals": {
+    "f84": "SEALED_NOT_ACCESSED",
+    "f84r": "SEALED_NOT_ACCESSED"
+  }
+}
