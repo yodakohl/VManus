@@ -1,0 +1,218 @@
+{
+  "checks": [
+    {
+      "check": "selected_dictionary_input_rows",
+      "detail": 173,
+      "pass": true
+    },
+    {
+      "check": "event_interlinear_rows",
+      "detail": 100,
+      "pass": true
+    },
+    {
+      "check": "clause_edition_rows",
+      "detail": 19,
+      "pass": true
+    },
+    {
+      "check": "field_edition_rows",
+      "detail": 20,
+      "pass": true
+    },
+    {
+      "check": "record_edition_rows",
+      "detail": 5,
+      "pass": true
+    },
+    {
+      "check": "dictionary_delta_rows_zero",
+      "detail": 0,
+      "pass": true
+    },
+    {
+      "check": "event_serial_order_and_completeness",
+      "detail": "1..100",
+      "pass": true
+    },
+    {
+      "check": "event_pages_exact",
+      "detail": [
+        "f10r",
+        "f11r",
+        "f55v",
+        "f56r"
+      ],
+      "pass": true
+    },
+    {
+      "check": "event_records_exact",
+      "detail": [
+        "H1",
+        "H2",
+        "H3",
+        "H4",
+        "H5"
+      ],
+      "pass": true
+    },
+    {
+      "check": "event_identity_rows_unique",
+      "detail": 100,
+      "pass": true
+    },
+    {
+      "check": "v60_visible_and_card_channels_byte_preserved",
+      "detail": "100/100",
+      "pass": true
+    },
+    {
+      "check": "v63_event_templates_preserved",
+      "detail": "100/100",
+      "pass": true
+    },
+    {
+      "check": "every_event_has_local_default",
+      "detail": "100/100",
+      "pass": true
+    },
+    {
+      "check": "every_event_expansion_separated",
+      "detail": "100/100",
+      "pass": true
+    },
+    {
+      "check": "selected_event_status_counts",
+      "detail": {
+        "UNIQUE_CONVERGENT_CHANNELS": 6,
+        "UNIQUE_EXACT": 18,
+        "UNIQUE_FORMAL_ONLY": 5,
+        "UNPARSED_EXEMPLAR": 71
+      },
+      "pass": true
+    },
+    {
+      "check": "event_support_class_counts",
+      "detail": {
+        "EXEMPLAR_ONLY": 71,
+        "UNIQUE_EVENT_TEMPLATE;LOCAL_WORDING_AMBIGUOUS": 29
+      },
+      "pass": true
+    },
+    {
+      "check": "clause_status_counts",
+      "detail": {
+        "AMBIGUOUS": 14,
+        "EXEMPLAR_ONLY": 5
+      },
+      "pass": true
+    },
+    {
+      "check": "field_status_counts",
+      "detail": {
+        "AMBIGUOUS": 15,
+        "EXEMPLAR_ONLY": 5
+      },
+      "pass": true
+    },
+    {
+      "check": "no_unique_herbal_clause",
+      "detail": "0/19 UNIQUE",
+      "pass": true
+    },
+    {
+      "check": "no_unique_herbal_field",
+      "detail": "0/20 UNIQUE",
+      "pass": true
+    },
+    {
+      "check": "v61_clause_map_and_v63_status_preserved",
+      "detail": "19/19",
+      "pass": true
+    },
+    {
+      "check": "clauses_partition_100_events",
+      "detail": 100,
+      "pass": true
+    },
+    {
+      "check": "h5_cross_line_clause_preserved",
+      "detail": "F014|F015:H5-LB01",
+      "pass": true
+    },
+    {
+      "check": "v63_field_map_preserved",
+      "detail": "20/20",
+      "pass": true
+    },
+    {
+      "check": "fields_partition_100_events",
+      "detail": 100,
+      "pass": true
+    },
+    {
+      "check": "field_level_cross_line_marking",
+      "detail": "CONTINUES_ACROSS_H5_LB01_TO_F015|RESUMES_H5_LB01_AND_COMPLETES_H5_S001",
+      "pass": true
+    },
+    {
+      "check": "five_record_required_content_and_counts",
+      "detail": "5/5",
+      "pass": true
+    },
+    {
+      "check": "build_summary_zero_dictionary_delta",
+      "detail": 0,
+      "pass": true
+    },
+    {
+      "check": "v60_dictionary_hash_recorded",
+      "detail": "f5fe8d951db08a43ab7aa1e488b5c5efd7866c7389e418cfd74cb99e3f53fd6d",
+      "pass": true
+    },
+    {
+      "check": "no_out_of_scope_page_tokens",
+      "detail": [
+        "f10r",
+        "f11r",
+        "f55v",
+        "f56r"
+      ],
+      "pass": true
+    },
+    {
+      "check": "no_absolute_local_paths",
+      "detail": "clean",
+      "pass": true
+    },
+    {
+      "check": "no_host_semantics_token",
+      "detail": "clean",
+      "pass": true
+    }
+  ],
+  "event_status_counts": {
+    "UNIQUE_CONVERGENT_CHANNELS": 6,
+    "UNIQUE_EXACT": 18,
+    "UNIQUE_FORMAL_ONLY": 5,
+    "UNPARSED_EXEMPLAR": 71
+  },
+  "failed_checks": [],
+  "scope": {
+    "ambiguous_clauses": 14,
+    "ambiguous_fields": 15,
+    "clauses": 19,
+    "dictionary_delta_rows": 0,
+    "events": 100,
+    "exemplar_only_clauses": 5,
+    "exemplar_only_events": 71,
+    "exemplar_only_fields": 5,
+    "fields": 20,
+    "pages": 4,
+    "recognized_events": 29,
+    "records": 5,
+    "unique_clauses": 0,
+    "unique_fields": 0
+  },
+  "status": "PASS"
+}

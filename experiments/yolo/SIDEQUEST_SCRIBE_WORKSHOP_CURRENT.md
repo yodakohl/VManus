@@ -1,11 +1,27 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-22, after V60 pressure-tested the eleven exact-card mnemonics.
+Updated: 2026-08-22, after V64 completed the Herbal second edition.
 
 Status: **speculative working theory, not a GDT result and not a
 translation**. This file is the compact authoritative entry point for the
 sidequest. Update it in place when the best theory changes. Do not resume the
 iteration-by-iteration growth of the archive.
+
+## Live second-cycle state (V60–V64)
+
+The current executable layer is deliberately small: eleven exact-card
+mnemonics, four anonymous record-local registers, 116 source statements and a
+bounded ordered slot parser. It recognizes 119/381 prose events; 262 remain
+`EXEMPLAR_ONLY`. Physical lines are reflow, not sentence boundaries.
+
+V64 now supplies the preferred five-record Herbal edition. It is a
+picture-addressed materia-medica reading, with a complete technical
+plant-raw-material rival. Only 29/100 Herbal events are structurally anchored;
+all concrete plants, liquids, ailments and most operations come from image,
+genre or exemplar. The most important correction is that `VORIGES?` is
+record-local: the second f10r article cannot refer back to the first article's
+batch. The selected report is
+`sidequest_theory_candidates_v64/V64_FOUR_ROLE_SELECTION.md`.
 
 ## Read this, not the archive
 

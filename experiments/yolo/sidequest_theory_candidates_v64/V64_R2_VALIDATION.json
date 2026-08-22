@@ -1,0 +1,125 @@
+{
+  "artifact": "V64_R2_HISTORICAL_HERBAL_SECOND_EDITION",
+  "status": "PASS",
+  "scope": {
+    "allowed_pages": [
+      "f10r",
+      "f11r",
+      "f55v",
+      "f56r"
+    ],
+    "sealed_prefix": "f84",
+    "source_v60_events": 100,
+    "source_v61_statements": 19,
+    "source_v62_transitions": 19,
+    "source_v63_events": 100,
+    "source_v63_fields": 20,
+    "source_v63_statements": 19,
+    "output_events": 100,
+    "output_fields": 20,
+    "output_records": 5,
+    "output_assumption_rows": 69
+  },
+  "v63_audit": {
+    "recognized_events": 29,
+    "exemplar_only_events": 71,
+    "event_parse_status_counts": {
+      "UNIQUE_CONVERGENT_CHANNELS": 6,
+      "UNIQUE_EXACT": 18,
+      "UNIQUE_FORMAL_ONLY": 5,
+      "UNPARSED_EXEMPLAR": 71
+    },
+    "field_parse_status_counts": {
+      "AMBIGUOUS": 15,
+      "UNPARSED": 5
+    },
+    "statement_parse_status_counts": {
+      "AMBIGUOUS": 14,
+      "UNPARSED": 5
+    }
+  },
+  "record_counts": {
+    "H1": {
+      "fields": 2,
+      "events": 14,
+      "recognized": 4,
+      "exemplar_only": 10
+    },
+    "H2": {
+      "fields": 3,
+      "events": 24,
+      "recognized": 10,
+      "exemplar_only": 14
+    },
+    "H3": {
+      "fields": 4,
+      "events": 17,
+      "recognized": 3,
+      "exemplar_only": 14
+    },
+    "H4": {
+      "fields": 4,
+      "events": 18,
+      "recognized": 6,
+      "exemplar_only": 12
+    },
+    "H5": {
+      "fields": 7,
+      "events": 27,
+      "recognized": 6,
+      "exemplar_only": 21
+    }
+  },
+  "editorial_layer_tag_counts": {
+    "CARD": 24,
+    "EXEMPLAR": 28,
+    "FORMAL": 16,
+    "GENRE": 56,
+    "IMAGE": 8,
+    "REGISTER": 12
+  },
+  "assumption_disposition_counts": {
+    "EDITORIAL_FRAME": 1,
+    "HIGH_RISK": 9,
+    "HIGH_RISK_IMAGE_WAGER": 1,
+    "KEEP_GENRE": 5,
+    "KEEP_IMAGE_WAGER": 3,
+    "KEEP_LOCAL_ONLY": 17,
+    "KEEP_OPEN": 6,
+    "KEEP_TAGGED": 22,
+    "RIVAL_ONLY": 4,
+    "WITHDRAW_AS_EVIDENCE": 1
+  },
+  "gates": {
+    "all_100_events_present_once": true,
+    "event_serials_exact_1_to_100": true,
+    "all_20_fields_present": true,
+    "all_five_records_present": true,
+    "record_counts_match_2_3_4_4_7_and_14_24_17_18_27": true,
+    "v63_herbal_recognized_plus_exemplar_equals_100": true,
+    "selected_source_alignment_exact": true,
+    "no_forbidden_page": true,
+    "all_event_segments_fully_layer_tagged": true,
+    "all_field_text_fully_layer_tagged": true,
+    "all_record_text_fully_layer_tagged": true,
+    "card_tags_match_selected_exact_cards": true,
+    "formal_tags_match_or_are_observed_close": true,
+    "all_used_assumptions_declared": true,
+    "all_nonrival_content_assumptions_used": true,
+    "no_assumption_claimed_as_card_licensed": true,
+    "no_new_card_meaning": true,
+    "no_phonetic_mapping": true
+  },
+  "violations": {
+    "source_alignment": [],
+    "page": [],
+    "unmarked_event_segments": [],
+    "unmarked_field_text": [],
+    "unmarked_record_text": [],
+    "card_tags": [],
+    "formal_tags": [],
+    "unknown_assumption_ids": [],
+    "unused_nonrival_assumption_ids": []
+  },
+  "interpretive_limit": "PASS proves mechanical coverage, selected-source alignment, and explicit editorial tagging only; it does not validate plant identity, medical content, language, sound, or decipherment."
+}
