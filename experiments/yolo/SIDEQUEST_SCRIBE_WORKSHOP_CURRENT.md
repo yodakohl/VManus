@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-22, after V26 field/record sentence reconstruction.
+Updated: 2026-08-22, after V27 metadata correction of the V20–V26 chain.
 
 Status: **speculative working theory, not a GDT result and not a
 translation**. This file is the compact authoritative entry point for the
@@ -910,6 +910,15 @@ step form in Bio without requiring two languages.
 The full segmentation and readable records are in
 `sidequest_theory_candidates_v26/V26_COMPLETE_135_FIELD_TRANSLATION.tsv` and
 `V26_COMPLETE_11_RECORD_TRANSLATION.tsv`; validation is `PASS`.
+
+## V27 metadata correction
+
+A V20 propagation bug had exchanged `source_class` and `confidence` for CHTY,
+QOKAIIN, AL/DAL and OTCHEY, affecting 23 metadata rows but no English meaning.
+The V20–V26 descendant artifacts have been regenerated. All complete ledgers
+now have numeric confidence in `[0,1]` and nonnumeric source classes. The
+semantic theory and translations are unchanged; details are in
+`sidequest_theory_candidates_v27/V27_CORRECTION_REPORT.md`.
 
 ## Generative model
 

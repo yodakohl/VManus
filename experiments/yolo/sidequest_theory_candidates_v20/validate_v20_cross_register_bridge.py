@@ -29,6 +29,10 @@ def main() -> None:
     assert len(lexicon) == 569
     assert len(ledger) == 776
     assert all(row["default_English"].strip() for row in ledger)
+    assert all(0 <= float(row["confidence"]) <= 1 for row in ledger)
+    assert not any(row["source_class"].startswith(".") or
+                   row["source_class"].replace(".", "", 1).isdigit()
+                   for row in ledger)
     assert not any(row["page"].startswith("f84") for row in ledger)
     result = {
         "schema": "SIDEQUEST_V20_CROSS_REGISTER_BRIDGE_VALIDATION_V1",

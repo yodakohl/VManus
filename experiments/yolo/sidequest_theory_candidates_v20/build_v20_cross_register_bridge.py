@@ -114,7 +114,7 @@ def main() -> None:
     for row in lexicon:
         key = row["lexicon_id"]
         if row["scope"] == "PROSE_EXACT_CARD" and key in REVISIONS:
-            meaning, confidence, source_class, _ = REVISIONS[key]
+            meaning, source_class, confidence, _ = REVISIONS[key]
             row["default_English"] = meaning
             row["confidence"] = confidence
             row["source_class"] = source_class
@@ -129,7 +129,7 @@ def main() -> None:
     for row in ledger:
         key = row["exact_tuple_id"]
         if row["ledger_scope"] == "GDT327_PROSE" and key in REVISIONS:
-            meaning, confidence, source_class, _ = REVISIONS[key]
+            meaning, source_class, confidence, _ = REVISIONS[key]
             row["default_English"] = meaning
             row["confidence"] = confidence
             row["source_class"] = source_class
