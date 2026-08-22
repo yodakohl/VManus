@@ -1445,3 +1445,15 @@ supports generative coherence, not decipherment or historical correctness.
 
 Primary artifact:
 `sidequest_theory_candidates_v35/V35_PRODUCTIVE_WRITING_MANUAL.md`.
+
+### V36 apprentice correction
+
+The first forward texts were not all position-licensed. Minimal field-boundary
+repairs now place all 34 cards in a FIRST/MIDDLE/LAST/ONLY role previously
+attested for the same exact card. The standalone stomach-pain drinking promise
+was retracted because its card is only embedded and no semantically suitable
+pure closer is known; the poultice receives an existing stand/rest close.
+
+The workshop model therefore requires learned card-position profiles in
+addition to meanings and field templates. Primary artifact:
+`sidequest_theory_candidates_v36/V36_APPRENTICE_CORRECTION.md`.
