@@ -1580,3 +1580,14 @@ OKEEY, CKHY, and OLOR are recurrent whole cards rather than demonstrated
 stems. Complete local translations remain available but no longer count as
 host-meaning evidence. Primary artifact:
 `sidequest_theory_candidates_v46/V46_CONSOLIDATED_STEM_CORRECTION.md`.
+
+### V47 strict component-agreement translation
+
+The component dictionary is frozen before translation. Six admitted host
+values (OK, OR, AL, E, OT, L), five RIGHT-family values, O/OT frames, INNER-D,
+DY, and B3 must remain word-identical everywhere. Nine recurrent cards remain
+whole-card labels rather than stems; CH, CHY, CHE, OLK, Y and every unlicensed
+host remain UNKNOWN at host level. All 173 cards, 381 prose events, and 135
+fields retain complete local creative expansions in parallel with the strict
+literal composition. Primary artifact:
+`sidequest_theory_candidates_v47/V47_STRICT_STEM_AGREEMENT_REPORT.md`.
