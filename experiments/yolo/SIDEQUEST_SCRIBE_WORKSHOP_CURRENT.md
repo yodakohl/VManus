@@ -1791,3 +1791,19 @@ a target argument, and OKEEY as an action. OKE and LCHE remain useful Bio
 defaults but are still 16/16 terminal-family confounded. No other exact card
 receives meaning. Primary artifact:
 `sidequest_theory_candidates_v60/V60_FOUR_ROLE_SELECTION.md`.
+
+### V61 physical-line continuation map
+
+Four roles classify all 46 boundaries between consecutive physical loci in
+the eleven prose records. The selected conservative mixed map contains 19
+same-clause continuations, eight new clauses resuming an active item, ten next
+parallel cells, eight clean clause starts, and one unresolved boundary. The
+135 fields therefore form 116 provisional source statements; 18 statements
+cross one or two physical-line boundaries.
+
+The strongest carry is f82r.3→f82r.4, where the same exact `qokaiin` card
+occurs directly on both sides of the reset. It is read as an edge
+copy/resumption inside one clause, with deliberate repetition as the live
+rival. Field closure remains silent and does not automatically end a source
+sentence. Primary artifact:
+`sidequest_theory_candidates_v61/V61_FOUR_ROLE_SELECTION.md`.

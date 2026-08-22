@@ -1,0 +1,34 @@
+{
+  "schema": "SIDEQUEST_V61_R4_LINE_CONTINUATION_AUDIT_V1",
+  "status": "PASS",
+  "checks": {
+    "all_46_line_boundaries": true,
+    "boundary_key_contract_exact": true,
+    "all_135_fields_assigned_once": true,
+    "all_11_records": true,
+    "at_least_one_cross_line_statement": true,
+    "f82_exact_carry_preserved": true,
+    "no_f84": true
+  },
+  "counts": {
+    "boundaries": 46,
+    "statements": 39,
+    "cross_line_statements": 13,
+    "boundary_classes": {
+      "CONTINUE_SAME_CLAUSE": 18,
+      "START_NEW_CLAUSE": 8,
+      "RESUME_ACTIVE_ITEM": 1,
+      "NEXT_PARALLEL_CELL": 19,
+      "UNRESOLVED": 0
+    }
+  },
+  "inputs": {
+    "experiments/yolo/sidequest_theory_candidates_v59/V59_R1_FINAL_135_FIELD_EDITION.tsv": "0e13e560282a3db39b9d63e1bc6470e7eb6e2c9951b4e2002b7024b3ed80f9e8",
+    "experiments/yolo/sidequest_theory_candidates_v60/V60_SELECTED_381_EVENT_LEDGER.tsv": "51d69e33c7a02111c79322fb8c1537e34a61fb91c3f885ea48373c20be890f45"
+  },
+  "outputs": {
+    "experiments/yolo/sidequest_theory_candidates_v61/V61_R4_46_PHYSICAL_LINE_BOUNDARIES.tsv": "9a033eab2ebf61aa55f60346bc78963d7b9a15ec849d9f4e8ae165ecf1729a11",
+    "experiments/yolo/sidequest_theory_candidates_v61/V61_R4_SOURCE_STATEMENT_MAP.tsv": "87bc3f1dd81478f1979f474ed46699652fe538b5ee5ca161503d807687f86e40",
+    "experiments/yolo/sidequest_theory_candidates_v61/V61_R4_135_FIELD_STATEMENT_ASSIGNMENT.tsv": "f3d4269b48cc3843cffd1bdc7e8e6516a119fb1c4f05a0870071fce26660cc90"
+  }
+}
