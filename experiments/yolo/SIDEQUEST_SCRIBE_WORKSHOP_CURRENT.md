@@ -1737,3 +1737,19 @@ standalone semantic codec. Herbal/Bio source prose remains picture- and
 exemplar-dependent; Astro is learned as three separate lookup templates.
 Primary artifact:
 `sidequest_theory_candidates_v57/V57_FOUR_ROLE_SELECTION.md`.
+
+### V58 strongest nonmedical rival
+
+Four independent roles complete all 5 Herbal records, 6 Biological records,
+and 3 Astro diagrams under the same adversarial alternative: an illustrated
+technical exemplar miscellany combining plant raw materials, bathhouse or
+washhouse operations, and an independent work almanac. A pure waterworks model
+fits only the six Biological records and is withdrawn.
+
+The rival wins on apparatus-heavy Bio content and on domain-neutral formal
+economy, but loses narrowly to the iatromedical WHAT/HOW/WHEN expansion in all
+four native comparison rubrics because its Herbal products and work-calendar
+purpose need weaker historical and visual assumptions. The robust architecture
+is therefore domain-neutral; iatromedicine remains only the leading creative
+content default, never a card meaning. Primary artifact:
+`sidequest_theory_candidates_v58/V58_FOUR_ROLE_SELECTION.md`.
