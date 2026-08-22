@@ -241,4 +241,3 @@ Lesungen, zieht eine nicht isolierbare Hostglosse zurück und lässt ein
 technisches Nomen nur als Merkhilfe stehen. Vollständige Zehnseitenabdeckung
 geht dadurch nicht verloren: Die lokalen Ganzkartenexpansionen bleiben
 unverändert und ausdrücklich getrennt von den sieben atomaren Entscheidungen.
-

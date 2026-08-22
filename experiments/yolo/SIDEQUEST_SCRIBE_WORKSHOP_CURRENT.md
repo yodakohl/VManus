@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-22, after V50 pressure-tested the active host glosses.
+Updated: 2026-08-22, after V51 pressure-tested recurrent whole-card mnemonics.
 
 Status: **speculative working theory, not a GDT result and not a
 translation**. This file is the compact authoritative entry point for the
@@ -1629,3 +1629,14 @@ because every one of its 14 occurrences is already coupled to `CLOSE`; a host
 value cannot be isolated from terminal behavior. Long local defaults remain
 separate and complete. Primary artifact:
 `sidequest_theory_candidates_v50/V50_FOUR_ROLE_SELECTION.md`.
+
+### V51 recurrent whole-card pressure test
+
+Four roles audit all 70 occurrences of the nine recurrent exact cards. The
+selected mnemonic layer is now `AIIN=MASS?`, `EY=KLAR?`, `OKY=VERWENDEN?`,
+`LCHE=ABLASSEN?`, `OKE=SPÜLEN?`, `CTHY=BEREIT?`, `OKEEY=WARM?`, and
+`OLOR=ZUVOR?`; `CKHY=VERBINDUNG?` is withdrawn. `LCHE` and `OKE` are explicitly
+marked CLOSE-confounded, and `EY=KLAR?` is exposed two-versus-two rather than
+promoted. No mnemonic is a productive stem or licenses visible substring
+segmentation. Primary artifact:
+`sidequest_theory_candidates_v51/V51_FOUR_ROLE_SELECTION.md`.
