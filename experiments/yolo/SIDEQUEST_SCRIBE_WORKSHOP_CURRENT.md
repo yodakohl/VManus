@@ -1670,3 +1670,20 @@ increasingly risky complete-article expansions. Plant, organ, water, wine,
 disease, and application are not card values: only 32/100 events have selected
 V50/V51 anchors. Primary artifact:
 `sidequest_theory_candidates_v53/V53_FOUR_ROLE_SELECTION.md`.
+
+### V54 complete Biological edition
+
+Four independent roles preserve all six Biological records, 115 fields, and
+281 events. The selected layered reading is an illustrated form/pattern
+register whose concrete default domain is therapeutic balneology and
+irrigation with a real apparatus layer. Long f81v/f83r sequences read best as
+mixing, tempering, settling, filtering, draining, refilling, and station
+transfer; human figures keep bodily treatment live, while labels at f83r
+outlets without nearby figures block a pure patient-prose account.
+
+No card denotes woman, womb, disease, water, pipe, vessel, or body opening.
+The six German process readings are complete record-level defaults over 113
+selected weak anchors and 168 opaque events. The closest historical genre
+analogy is therapeutic bath literature such as *De balneis Puteolanis*, not a
+modern closed hydraulic plan. Primary artifact:
+`sidequest_theory_candidates_v54/V54_FOUR_ROLE_SELECTION.md`.
