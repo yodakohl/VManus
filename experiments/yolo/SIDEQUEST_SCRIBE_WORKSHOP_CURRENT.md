@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-22, after V28 five-template workshop grammar.
+Updated: 2026-08-22, after V29 whole-card formulary phrase reconstruction.
 
 Status: **speculative working theory, not a GDT result and not a
 translation**. This file is the compact authoritative entry point for the
@@ -934,6 +934,20 @@ templates; use repetition for additional typed actions or operands; finally
 apply hand/placement rendering. The reader reverses this by following field
 closure and carried state rather than physical line ends. The complete teaching
 rules are in `sidequest_theory_candidates_v28/V28_APPRENTICE_MANUAL.md`.
+
+## V29 plausible upstream formulary
+
+The 17 common Herbal/Bio cards now have complete source-phrase analogues. The
+preferred upstream style is abbreviated technical Latin with possible
+vernacular/coded payload: whole cards compress formulas such as *recipe*,
+*secundum mensuram consuetam*, *de eadem confectione*, *cum praeparatione
+praedicta*, *donec liquor clarus currat* and *applica loco in figura signato*.
+
+This is a learnability mechanism, not a phonetic reading. A card may stand for
+a whole formula rather than one word; rare exemplar cards carry plant,
+substance, site or special-operation content. The purely notational rival
+remains viable. Full phrasebook:
+`sidequest_theory_candidates_v29/V29_SEVENTEEN_CARD_SOURCE_PHRASEBOOK.tsv`.
 
 ## Generative model
 
