@@ -1481,3 +1481,19 @@ position. The creative encoder is now:
 Hand and register remain confounded, so this is a workshop reconstruction, not
 proof of labor division or meaning. Primary artifact:
 `sidequest_theory_candidates_v38/V38_TWO_SCRIBE_CURRICULUM.md`.
+
+### V39 four-role shared-core revision
+
+Four independent period-role reviews converge on a generic reference/control
+grammar with concrete medical defaults. OTCHEY loses unsupported finality;
+OKY supplies USE while DAL supplies DESTINATION; CHOR is prepared working fluid,
+CTHY readiness, and SHEY clear-flow threshold. The selected complete shared
+sentence is:
+
+`otchey daiin | chol chor char chty shey | cholor dy cthy oky dal`
+
+Default reading: take a prescribed measure of the indicated part; process it
+with the prior preparation from the same source until clear; then take the
+current portion from the prior preparation and use it at the designated target
+once ready. Primary artifact:
+`sidequest_theory_candidates_v39/V39_FOUR_ROLE_SYNTHESIS.md`.
