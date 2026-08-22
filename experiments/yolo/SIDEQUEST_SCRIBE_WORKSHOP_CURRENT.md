@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-22, after the historical compositional-analogue search.
+Updated: 2026-08-22, after closing the OK, CHD~CHED and E-grade paradigms.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -19,6 +19,47 @@ Exactly ten pages are in scope:
 `f84` and `f84r` remain sealed. ZL3b, IT2a and RF1b are alternate readings of
 one manuscript. No additional page, image or semantic corpus was admitted.
 
+## Active stem-consistent paradigm closure
+
+The working dictionary now gives three families one invariant contribution
+instead of changing their meaning to fit each local story:
+
+```text
+OK(X)       X in den laufenden Arbeitsgang setzen
+CHD~CHED    einen Ansatz/Posten umsetzen oder in einen Arbeitsgang führen
+L+CHED      ab- oder ausführen
+OL+CHED     mit dem Vorigen weiterführen
+OT+CHED     danach/erneut umsetzen
+
+E           kurzer/direkter Kontakt       [only in licensed frames]
+EE          anhaltender Kontakt/Halten    [only in licensed frames]
+EEE         vollständiger Kontakt         [only in licensed frames]
+Y           Arbeitszustand offen/aktiv
+DY          lokalen Schritt abschließen
+```
+
+`E/EE/EEE` is not a global stem. It is selected only in frames such as
+`OK+E/EE/EEE+Y/DY`, provisionally in the corresponding OT/SH/CHK rows. In
+`CHED` and `CKHE`, and where one exact card changes visible rendering, `e`
+remains part of the longer card/core.
+
+This revision changes 49 of 173 cards, 145 of 381 events and 93 of 116
+continuous statements. It removes the clearest contradictions: `qokchdy` and
+`okchedy` no longer mean heat versus cool, `okchol` no longer contains
+invented olive oil, `qokol` no longer means an inherent enema, and
+`lchedar` no longer means cool water. Eighty-four unchanged legacy cards plus
+the newly explicit opaque card `chokcheo` remain pure learned whole-card
+values; `qokylddy`, `qokokchy` and `qokaly` are only partially decomposed.
+The selected mechanism is therefore genuinely a mixed technical abbreviation
+plus nomenclator system rather than forced full decomposition.
+
+The active files are in `sidequest_semantic_paradigm_closure/`, led by
+`SELECTED_PARADIGM_CLOSURE_REPORT.md`,
+`SELECTED_COMPONENT_LEXICON.tsv`,
+`SELECTED_173_STEM_CONSISTENT_DICTIONARY.tsv`,
+`SELECTED_381_STEM_CONSISTENT_INTERLINEAR.tsv` and
+`SELECTED_REVISED_TRANSLATION_EXCERPTS.md`.
+
 ## Selected concrete semantic-stem model
 
 The strict V77–V80 zero-word presentation is no longer the active mode for
@@ -36,20 +77,23 @@ concrete whole-card defaults.
 The strongest current roots are:
 
 ```text
-AIR   fließende Flüssigkeit    AIIN  Maß       AIN   Portion
-AL    Stelle                   AR    aus/von   OR    Zubereitung
-OL    weiter/und               OK    geben     OT    danach
-HO    Pflanze                  Y     Ansatz    DY    Ende
-CTHY  bereit                   CHD   rühren    LCH   ablassen
-LSH   waschen                  CKHY  Durchlauf CKHE  seihen
+AIR   laufendes Medium/Bahn    AIIN  Maß       AIN   Portion
+AL    Ziel/Stelle              AR    aus/von   OR    Zubereitung
+OL    weiter/mit Vorigem       OK    in Arbeitsgang setzen
+OT    danach/nächster          Y     offener aktiver Ansatz
+DY    lokaler Abschluss        CHD~CHED umsetzen/führen
+L+CHED ab-/ausführen           CTHY bereit
 ```
 
-The strongest productive series is narrowly limited to liquid contact:
+The strongest productive series is a two-dimensional contact grid:
 
 ```text
-qokedy    spülen; Ende
-qokeedy   baden/eintauchen; Ende
-qokeeedy  vollständig durchtränken; Ende
+OK+Y         Ansatz einsetzen, offen
+OK+E+Y       kurz anlegen/benetzen, offen
+OK+EE+Y      anhaltend in Kontakt halten, offen
+OK+E+DY      kurz spülen/benetzen, geschlossen
+OK+EE+DY     eintauchen/einweichen, geschlossen
+OK+EEE+DY    vollständig durchtränken, geschlossen
 ```
 
 `o = Wasser` is not selected: `AIR` is much cleaner across `chair`, `kair`,
