@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-22, after V64 completed the Herbal second edition.
+Updated: 2026-08-22, after V65 completed the Biological second edition.
 
 Status: **speculative working theory, not a GDT result and not a
 translation**. This file is the compact authoritative entry point for the
@@ -22,6 +22,14 @@ genre or exemplar. The most important correction is that `VORIGES?` is
 record-local: the second f10r article cannot refer back to the first article's
 batch. The selected report is
 `sidequest_theory_candidates_v64/V64_FOUR_ROLE_SELECTION.md`.
+
+V65 supplies the preferred six-record Biological edition. Its best concrete
+reading is a therapeutic bath/wash worksheet with a real basin, filter,
+conduit and outlet operating layer. B2 is the strongest medical record; B5 and
+B6 are better as technical support notes. The pure waterwork rival loses only
+narrowly, 597 to 587 explicit assumption units. Only 90/281 Bio events are
+licensed by the bounded parser; 191 remain local exemplar content. The selected
+report is `sidequest_theory_candidates_v65/V65_FOUR_ROLE_SELECTION.md`.
 
 ## Read this, not the archive
 
