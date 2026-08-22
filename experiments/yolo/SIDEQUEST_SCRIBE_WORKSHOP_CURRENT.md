@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-22, after completing the quantity/preparation grammar.
+Updated: 2026-08-22, after completing the state/endpoint grammar.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -19,9 +19,68 @@ Exactly ten pages are in scope:
 `f84` and `f84r` remain sealed. ZL3b, IT2a and RF1b are alternate readings of
 one manuscript. No additional page, image or semantic corpus was admitted.
 
-## Active quantity/preparation working edition
+## Active state/endpoint working edition
 
-The current edition closes three distinct quantity axes rather than treating
+The current edition turns the previous loose state words into one bounded
+workshop matrix:
+
+```text
+IIN       target grade / required setting
+E         brief or direct action
+EE        sustained action
+EEE       complete action
+CTH(Y)    ready for use
+SHED      rest or settle
+CHK       warm or keep warm
+SOLK      local collection/holding station
+Y         this / current work item
+DY        close only in a licensed exact end card
+```
+
+The teachable rule is `FRAME + CORE + GRADE + OUTCOME`. `IIN` names a target
+state, whereas `E/EE/EEE` grades the reach or duration of a process. `Y` keeps
+the current item available; it does not mean open. A licensed exact DY card
+performs the graded action and closes the local cell.
+
+The strongest grid is:
+
+```text
+OKY/OKCHY    use the current item
+OKEY         apply it briefly
+OKEEY        let it act longer
+OKEDY        wet briefly; close
+OKEEDY       soak longer; close
+OKEEEDY      saturate fully; close
+```
+
+OT supplies a smaller next/after grid. SHED supplies short/long rest closes.
+SOLK is now read as holding the current item briefly/longer at a collection
+station—not opening the station, because Y carries no OPEN meaning. The
+central creative synthesis additionally promotes the exact minimal pair
+`CHKEEY/CHKEEDY` to a second learned CHK realization: keep warm, open versus
+keep warm and close. This is a deliberate reversible working bet; the three
+role reports retain the former whole-card readings as its strongest rival.
+
+Visible `dy` is never sufficient for closure. The exact Y card itself can be
+rendered `dy`, and `chdy|chedy` is nonterminal eleven times. Exact card identity
+therefore precedes any component reading.
+
+Relative to the quantity/preparation edition, 30 of 173 cards, 109 of 381
+events and 73 of 116 statements are revised. All 116 statements and eleven
+records are regenerated; every exact card retains a concrete default. The
+active files are in `sidequest_semantic_state_endpoint_completion/`, led by
+`SELECTED_STATE_ENDPOINT_REPORT.md`,
+`SELECTED_STATE_ENDPOINT_COMPONENTS.tsv`,
+`SELECTED_STATE_ENDPOINT_LATTICE.tsv`,
+`SELECTED_173_STATE_ENDPOINT_DICTIONARY.tsv`,
+`SELECTED_381_STATE_ENDPOINT_INTERLINEAR.tsv`,
+`SELECTED_116_STATE_ENDPOINT_SENTENCES.tsv`, and
+`SELECTED_11_STATE_ENDPOINT_RECORDS.md`. Mechanical validation passes 160
+checks.
+
+## Previous quantity/preparation working edition
+
+That edition closed three distinct quantity axes rather than treating
 them as one vague amount sign:
 
 ```text
@@ -33,7 +92,7 @@ OK+AIN    add a portion             OL+AIN    add another portion
 OK+AIIN   set to the measure        OT+AIIN   next measure
 ```
 
-It also closes the first compact preparation paradigm:
+It also closed the first compact preparation paradigm:
 
 ```text
 OR        preparation               OL+OR     previous preparation
