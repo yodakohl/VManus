@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-22, after V67 reconstructed the circa-1420 workshop workflow.
+Updated: 2026-08-22, after V68 brought the practical rival to parity.
 
 Status: **speculative working theory, not a GDT result and not a
 translation**. This file is the compact authoritative entry point for the
@@ -49,6 +49,16 @@ source expansion round-trips 776/776 only with the master exemplar and 0/776
 without it. The visible order does not discriminate Latin-like from
 vernacular-like slot order. The selected report is
 `sidequest_theory_candidates_v67/V67_FOUR_ROLE_SELECTION.md`.
+
+V68 withdraws the previous narrow iatromedical content lead. A complete
+plant-material + bathhouse/waterwork + generic work-calendar edition covers all
+14 units and 776 groups with the same architecture. Four independent rubrics
+split: one narrow practical win, one narrow medical win, and two substantive
+ties. The live content fork is therefore coequal:
+`SIMPLE/BATH/ELECTION_TIME` versus `MATERIAL/PROCESS/SCHEDULE`. The stable
+claim is the domain-neutral exemplar/card/register machine, not either content
+world. The selected report is
+`sidequest_theory_candidates_v68/V68_FOUR_ROLE_SELECTION.md`.
 
 ## Read this, not the archive
 
