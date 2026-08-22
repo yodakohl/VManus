@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-22, after completing the filtration/separation grammar.
+Updated: 2026-08-22, after completing the application/administration grammar.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -19,7 +19,77 @@ Exactly ten pages are in scope:
 `f84` and `f84r` remain sealed. ZL3b, IT2a and RF1b are alternate readings of
 one manuscript. No additional page, image or semantic corpus was admitted.
 
-## Active filtration/separation working edition
+## Active application/administration working edition
+
+The active prose edition now extends the preparation chain into one bounded
+application branch:
+
+```text
+PREPARATION / CLEAR EXTRACT
+  -> PORTION OR MEASURE
+  -> SITE
+  -> WASH | RUB | SPREAD | LAY ON
+  -> BRIEF CONTACT | SUSTAINED CONTACT | FULL SATURATION
+  -> FASTEN / CLOSE
+```
+
+Its portable core is deliberately neutral between a body and apparatus:
+
+```text
+AL        site                     OK+AL       set at the site
+OK+E+Y    lay on briefly           OK+EE+Y     hold longer
+OK+E+DY   wet briefly; close       OK+EE+DY    let act longer; close
+OK+EEE+DY saturate fully; close
+```
+
+The owner or learned specialist card supplies body, bath, cloth, vessel,
+opening or apparatus. `AL` is therefore shortened from TARGET SITE to the
+atomic working value SITE. The action nomenclator is likewise short:
+
+```text
+CHOY          wash                 DSHEOL       rub in
+SHECTHEDCHY   spread on            KCHOL        lay on
+RSHEDY        washing; close       CHEECKHODY   apply; close
+LCHEEY        wetted site          QOLKY        treatment site
+```
+
+The strongest new decision is `LDDY = FASTEN; CLOSE`, licensed only within the
+one exact `QOKYLDDY` card. Its medical expansion is to tie on a poultice; its
+technical expansion is to fasten a cloth or filter insert. Poultice, bandage,
+warmth and filter are not part of the atomic value. The previous portable
+`OKEEDY=SOAK LONGER; CLOSE` is also broadened to `LET ACT LONGER; CLOSE`;
+soaking remains its local liquid realization.
+
+The clearest application-shaped passage is B2-S012:
+
+```text
+withdraw liquid fraction -> clear extract -> ready -> hold longer ->
+wetted site -> prescribed measure -> current item -> saturate fully; close
+```
+
+H5-S002 supplies the shortest Herbal application:
+
+```text
+take from previous item -> wash -> set current item -> apply; close
+```
+
+B2-S005 remains the decisive apparatus counterexample: site assignment is
+followed by straining cloth, passage, measure, warmth and withdrawal. The same
+site/contact grammar therefore services both branches; it does not establish
+that every Biological cell is medical.
+
+Relative to the filtration edition, 22 of 173 cards, 55 of 381 events and 42
+of 116 statements are revised. The selected application table contains 35
+cards and 147 events; all eleven records are regenerated. The active files are
+in `sidequest_semantic_application_completion/`, led by
+`SELECTED_APPLICATION_COMPLETION_REPORT.md`,
+`SELECTED_APPLICATION_COMPONENTS.tsv`, `SELECTED_APPLICATION_PARADIGM.tsv`,
+`SELECTED_APPLICATION_BRANCHES.tsv`, `SELECTED_173_APPLICATION_DICTIONARY.tsv`,
+`SELECTED_381_APPLICATION_INTERLINEAR.tsv`,
+`SELECTED_116_APPLICATION_SENTENCES.tsv` and
+`SELECTED_11_APPLICATION_RECORDS.md`. Mechanical validation passes 171 checks.
+
+## Previous filtration/separation working edition
 
 The active prose edition now turns the former loose cloth/filter glosses into
 one bounded workshop chain:
