@@ -1591,3 +1591,14 @@ host remain UNKNOWN at host level. All 173 cards, 381 prose events, and 135
 fields retain complete local creative expansions in parallel with the strict
 literal composition. Primary artifact:
 `sidequest_theory_candidates_v47/V47_STRICT_STEM_AGREEMENT_REPORT.md`.
+
+### V48 four-role bounded stem extension
+
+Four independent roles audit all V47-opaque multi-card hosts without changing
+the frozen component dictionary. No new formal axis receives broad independent
+support. CHEY (select a material part) and CHOR (procure plant material in a
+time window) are activated only as exploratory creative content cores, each
+with one invariant value across two exact cards. CH, CHY, CHE, OLK, Y and all
+other disputed candidates remain UNKNOWN. The rule-addressed inventory rises
+from 19 to 23 cards; 141 remain opaque. Primary artifact:
+`sidequest_theory_candidates_v48/V48_FOUR_ROLE_SELECTION.md`.
