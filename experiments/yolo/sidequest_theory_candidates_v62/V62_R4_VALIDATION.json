@@ -1,0 +1,40 @@
+{
+  "schema": "SIDEQUEST_V62_R4_ANONYMOUS_REGISTER_TRACE_V1",
+  "status": "PASS",
+  "checks": {
+    "statements_116": true,
+    "edges_105": true,
+    "records_11": true,
+    "four_registers_each": true,
+    "owner_always_stable": true,
+    "previous_only_selected_by_voriges": true,
+    "target_introduced_only_by_ziel": true,
+    "no_f84": true
+  },
+  "counts": {
+    "operations": {
+      "CARRY_ACTIVE_ITEM": 88,
+      "CARRY_OWNER": 116,
+      "CARRY_TARGET": 1,
+      "INTRODUCE_ACTIVE_ITEM": 20,
+      "INTRODUCE_TARGET_SLOT": 9,
+      "RESET_TARGET": 97,
+      "RESUME_ACTIVE_ITEM": 8,
+      "SELECT_PREVIOUS_ITEM": 2,
+      "STORE_PREVIOUS_ITEM": 9,
+      "STORE_PREVIOUS_STATE": 96
+    },
+    "statements_with_target_requirement": 33,
+    "statements_with_previous_selection": 2,
+    "statements_without_selected_short_card": 63
+  },
+  "inputs": {
+    "experiments/yolo/sidequest_theory_candidates_v61/V61_SELECTED_116_SOURCE_STATEMENTS.tsv": "6083ba9ec5bd2122f953bbcbb4d733fc3cee2c24f7fff75543a73e764c813fc3",
+    "experiments/yolo/sidequest_theory_candidates_v61/V61_SELECTED_46_LINE_BOUNDARIES.tsv": "8f0c0ebd1ae05c24ab1c5d8918a708f1923c2937f2acce86ac09aac951b7c885"
+  },
+  "outputs": {
+    "experiments/yolo/sidequest_theory_candidates_v62/V62_R4_116_STATEMENT_REGISTER_TRACE.tsv": "f485e570d5ae4b468169a7e84e88f382616101e578ec70724c0432f26c6f6ea5",
+    "experiments/yolo/sidequest_theory_candidates_v62/V62_R4_105_INTERSTATEMENT_CARRY_EDGES.tsv": "94cf99a3a070e3ba88a1d934d784395335d5ae7bc9eccdff65363d59c9d6b1c9",
+    "experiments/yolo/sidequest_theory_candidates_v62/V62_R4_11_RECORD_REGISTER_INVENTORY.tsv": "37e938f083f79724ff330c50d1c1c5faee88637091acdf302a46bba5ba540b54"
+  }
+}

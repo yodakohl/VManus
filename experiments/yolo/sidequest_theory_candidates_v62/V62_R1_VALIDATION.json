@@ -1,0 +1,119 @@
+{
+  "status": "PASS",
+  "model": "V62_R1_FOUR_ANONYMOUS_RECORD_LOCAL_REGISTERS",
+  "counts": {
+    "records": 11,
+    "statements_traced": 116,
+    "source_line_boundaries": 46,
+    "registers_per_statement": 4,
+    "potential_role_slots": 464,
+    "required_role_slots": 369,
+    "explicit_required_slots": 188,
+    "inherited_required_slots": 152,
+    "unresolved_required_slots": 29,
+    "not_required_role_slots": 95,
+    "carry_and_reference_edges": 435,
+    "inter_statement_adjacencies": 105
+  },
+  "required_slot_resolution_by_register": {
+    "PICTURE_OWNER": {
+      "EXPLICIT": 11,
+      "INHERITED": 105
+    },
+    "ACTIVE_PREPARATION_OR_ITEM": {
+      "EXPLICIT": 78,
+      "INHERITED": 27,
+      "UNRESOLVED": 11
+    },
+    "TARGET_OR_STATION": {
+      "EXPLICIT": 62,
+      "INHERITED": 16,
+      "UNRESOLVED": 14
+    },
+    "PREVIOUS_ITEM_REFERENCE": {
+      "EXPLICIT": 37,
+      "INHERITED": 4,
+      "UNRESOLVED": 4
+    }
+  },
+  "required_slot_evidence_counts": {
+    "BOUNDARY": 8,
+    "BOUNDARY+EXEMPLAR_ONLY": 10,
+    "EXEMPLAR_ONLY": 266,
+    "SELECTED_MNEMONIC+EXEMPLAR_ONLY": 85
+  },
+  "edge_type_counts": {
+    "ACTIVE_USED_AS_PREVIOUS_REFERENCE": 8,
+    "ARCHIVE_ACTIVE_AS_PREVIOUS": 13,
+    "AVAILABLE_UNUSED": 63,
+    "EXPLICIT_REASSERTION": 62,
+    "INHERITED_CARRY_USED": 144,
+    "INPUT_CARRY_THEN_RESET": 115,
+    "RECORD_INITIALIZATION": 11,
+    "RESUME_USED": 11,
+    "UNRESOLVED_CARRY": 8
+  },
+  "operation_counts": {
+    "PICTURE_OWNER": {
+      "CARRY": 105,
+      "INTRODUCED_AT_RECORD_INITIALIZATION": 11
+    },
+    "ACTIVE_PREPARATION_OR_ITEM": {
+      "CARRY": 28,
+      "CARRY_EXPLICIT_REASSERTION": 33,
+      "INTRODUCE_EXPLICIT": 8,
+      "INTRODUCE_UNRESOLVED": 3,
+      "RESET_TO_EXPLICIT_NEW_ITEM": 26,
+      "RESET_TO_UNRESOLVED_ITEM": 5,
+      "RESOLVE_AND_RESET_EXPLICIT": 5,
+      "RESUME": 8
+    },
+    "TARGET_OR_STATION": {
+      "CARRY": 17,
+      "CARRY_UNUSED": 16,
+      "INTRODUCE_EXPLICIT": 9,
+      "INTRODUCE_UNRESOLVED": 5,
+      "KEEP_UNSET": 3,
+      "RESET_TO_EXPLICIT_TARGET": 53,
+      "RESET_TO_UNRESOLVED_TARGET": 7,
+      "RESET_TO_UNSET": 5,
+      "RESUME": 1
+    },
+    "PREVIOUS_ITEM_REFERENCE": {
+      "ARCHIVE_ACTIVE_ON_RESET": 17,
+      "CARRY_UNUSED": 43,
+      "KEEP_UNSET": 11,
+      "REFERENCE_EXPLICIT": 41,
+      "RESUME_REFERENCE": 4
+    }
+  },
+  "assertions": {
+    "all_116_selected_statements_traced_once": "PASS",
+    "all_four_registers_have_exact_input_and_next_state": "PASS",
+    "state_is_continuous_between_adjacent_statements": "PASS",
+    "all_register_values_are_anonymous_and_record_local": "PASS",
+    "picture_owner_initialized_once_per_record": "PASS",
+    "explicit_inherited_unresolved_slots_are_quantified": "PASS",
+    "required_slot_evidence_uses_only_selected_mnemonic_boundary_or_exemplar": "PASS",
+    "selected_mnemonic_and_clause_text_are_byte_preserved": "PASS",
+    "selected_mnemonic_marks_slot_not_register_referent": "PASS",
+    "exemplar_cues_do_not_create_card_meanings": "PASS",
+    "carry_edges_never_cross_records": "PASS",
+    "no_new_pages": "PASS"
+  },
+  "source_sha256": {
+    "VOYNICH_CURRENT_ROUTE.md": "d9129ad342a35da3903591c6caac7d49744ac2ec5c4e1ef32ab94cb4ba150cc7",
+    "experiments/yolo/SIDEQUEST_FOUR_AGENT_BACKGROUNDS.md": "cdf8a799c92eaf9789d0dc89debe889ac7c7e5f6e293c1ef6fa938dd97e4c201",
+    "experiments/yolo/SIDEQUEST_V60_V69_ITERATION_PROTOCOL.md": "968fff58d084a5ec8106c10ec46135bb0b3c11ed96b92ea62e55321e9a8871bb",
+    "experiments/yolo/sidequest_theory_candidates_v60/V60_FOUR_ROLE_SELECTION.md": "47af2d38753816a78ff8f243e64e1eb084fccfc239ef44bc6e0cf548186ca1ae",
+    "experiments/yolo/sidequest_theory_candidates_v61/V61_FOUR_ROLE_SELECTION.md": "b73b0f2146f123118fbb4a3618c63778c0c3593e90df37a4e540528aba2587ba",
+    "experiments/yolo/sidequest_theory_candidates_v61/V61_SELECTED_116_SOURCE_STATEMENTS.tsv": "6083ba9ec5bd2122f953bbcbb4d733fc3cee2c24f7fff75543a73e764c813fc3",
+    "experiments/yolo/sidequest_theory_candidates_v61/V61_SELECTED_46_LINE_BOUNDARIES.tsv": "8f0c0ebd1ae05c24ab1c5d8918a708f1923c2937f2acce86ac09aac951b7c885",
+    "experiments/yolo/sidequest_theory_candidates_v61/V61_SELECTED_11_RECORD_CONTINUATIONS.tsv": "22f8cd81d8c7ebd94d75b08514f19dc2eab00ba196d6c0faa8390589bf60b5ca"
+  },
+  "output_sha256": {
+    "experiments/yolo/sidequest_theory_candidates_v62/V62_R1_116_STATEMENT_REGISTER_TRACE.tsv": "3e3e2ae3f83a021ba77c97892ea6db01868531ad73c79779104f780bfcececfa",
+    "experiments/yolo/sidequest_theory_candidates_v62/V62_R1_11_RECORD_INITIAL_FINAL_REGISTERS.tsv": "a3224f345442c9d10ccc54b34e53e0986414ead1b514ae0f492a715a0709d1c9",
+    "experiments/yolo/sidequest_theory_candidates_v62/V62_R1_REGISTER_CARRY_EDGES.tsv": "0169bc9426044da8cf68de9a3974dcf8418b4ec8309a5d20202c1e671fe246b0"
+  }
+}

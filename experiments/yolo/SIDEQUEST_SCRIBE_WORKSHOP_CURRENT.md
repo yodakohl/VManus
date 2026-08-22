@@ -1807,3 +1807,18 @@ copy/resumption inside one clause, with deliberate repetition as the live
 rival. Field closure remains silent and does not automatically end a source
 sentence. Primary artifact:
 `sidequest_theory_candidates_v61/V61_FOUR_ROLE_SELECTION.md`.
+
+### V62 anonymous ellipsis registers
+
+Four roles make every omitted referent in the 116-statement creative edition
+explicit as a record-local anonymous state. The selected machine tracks four
+separate registers: `OWNER`, `ACTIVE`, `TARGET`, and `PREVIOUS`. Relative to
+the current source clauses, no state covers 9/116 statements, OWNER alone
+27/116, OWNER+ACTIVE 88/116, adding PREVIOUS 107/116, and all four 116/116.
+
+This is an execution memory, not decoded anaphora. `ZIEL?` can request a target
+slot without identifying its referent; `VORIGES?` can request a depth-one
+antecedent without naming it. Forty-nine irreducible ambiguities remain in 33
+statements, and the full transition log—not the post-state alone—is required
+for lossless backward reading. Primary artifact:
+`sidequest_theory_candidates_v62/V62_FOUR_ROLE_SELECTION.md`.
