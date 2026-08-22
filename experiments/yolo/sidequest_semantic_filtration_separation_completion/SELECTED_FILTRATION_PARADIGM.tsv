@@ -1,0 +1,19 @@
+chain_stage	joint_tuple_id	surface_family	formula	selected_reading_de	events	process_role	selection_strength	important_limit
+01_WASH	be0974b366c981dc1eef	lsho	LSH	Waschgang	1	OPEN_WASH	SELECTED_OPEN_BASE	Open member of the bounded LSH wash pair.
+01_WASH	2e7e89e0bd12b999c280	lshedy	LSH+DY	waschen; Schluss	2	CLOSED_WASH	SELECTED_RECURRENT_CLOSE	Two complete cells close the bounded LSH wash pair.
+01_WASH	d4a31dbcf1ed6d9e5aa9	tshey	TSHEY	Spülflüssigkeit	1	RINSE_LIQUID	SELECTED_SINGLETON_WHOLE_CARD	It precedes a sustained soak; TSHOL remains an unrelated plant whole card.
+03_PASS	2cc8bb3c2af19607888f	chckhy|shckhy	CKH+Y	durch den Durchlauf führen	4	PASSAGE	SELECTED_RECURRENT	Four events retain the same passage value; no drawn arrow or filter cloth is claimed.
+03_PASS	d68bc8de3bcee09db23c	shckhedy	CKHE+DY	seihen; Schluss	3	CLOSED_STRAIN	SELECTED_RECURRENT	Three complete cells use the learned straining close.
+03_PASS	c1db6b0a28d5cbb5d3d2	lcheckhedy	LCHE+CKHE+DY	klar seihen; Schluss	1	LOCAL_CLOSED_STRAIN	SELECTED_SINGLETON_EXTENSION	The local hull supplies the clear-outlet execution; CKHE retains straining.
+03_CLOTH	53cd0637c6820ba5e91f	dain	DAIN	Tuch	2	CLOTH_TOOL	SELECTED_RECURRENT_WHOLE_CARD	Two tool-slot occurrences; DAIN is not decomposed as AIIN=measure.
+03_CLOTH	2d2e37ccb2dacc53ee5a	solkaiin	SOLKAIIN	Seihtuch	1	STRAINING_CLOTH_TOOL	SELECTED_SINGLETON_WHOLE_CARD	A tool card immediately before the CKH passage; not SOLK+AIIN composition.
+03_SEPARATE	af816c04e65874a0f2fa	qoctholy	QOCTHOLY	abpressen	1	PRESS	SELECTED_SINGLETON_WHOLE_CARD	The operation follows the learned crushed-herb card in H2.
+03_SEPARATE	75a523fcf039b006f97b	kchal	KCHAL	abseihen	1	STRAIN	SELECTED_SINGLETON_WHOLE_CARD	The operation follows addition of extract liquid in H5.
+03_SEPARATE	bdad9f9ea8b80f141496	cfhy	CFHY	auswringen	1	WRING	SELECTED_SINGLETON_WHOLE_CARD	First coarse separation in the complete H3 process sequence.
+03_SEPARATE	deb377381ceaf55ea310	cphy	CPHY	nachseihen	1	RESTRAIN	SELECTED_SINGLETON_WHOLE_CARD	Second fine separation after the prescribed standing time in H3.
+04_RESULT	b5df9126607030b95175	cheey|shey	SHEY	Klarauszug	4	CLEAR_EXTRACT	SELECTED_RECURRENT_WHOLE_CARD	The exact renderer family follows straining or liquid withdrawal; it is not EY=water.
+05_COLLECT	42cdc187d5b9ffc60063	solkey	SOLK+E+Y	kurz auffangen	1	BRIEF_COLLECTION	SELECTED_LOCAL_GRADED_FAMILY	Brief collection at the local owner-bound receiving station.
+05_COLLECT	1bfd786e6b8b63734a59	solkeey	SOLK+EE+Y	länger auffangen	1	SUSTAINED_COLLECTION	SELECTED_LOCAL_GRADED_FAMILY	Sustained collection at the local owner-bound receiving station.
+05_COLLECT	3b70942557b3a40e8030	olkeedy|solkeedy	SOLK+EE+DY	länger auffangen; Schluss	3	CLOSED_COLLECTION	SELECTED_LOCAL_GRADED_FAMILY	Three complete cells close sustained collection at the local station.
+05_COLLECT	62ff059766b21c7de083	otytchol	OTYTCHOL	auffangen	1	COLLECT	SELECTED_SINGLETON_WHOLE_CARD	First extract is the local H1 expansion; the card default is the shorter operation.
+05_STORE	e026af581c99322fbd46	talam	TALAM	verwahren	1	STORE	SELECTED_SINGLETON_WHOLE_CARD	Clear extract is the local H4 object; the card default is the shorter operation.

@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-22, after completing the state/endpoint grammar.
+Updated: 2026-08-22, after completing the filtration/separation grammar.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -19,7 +19,81 @@ Exactly ten pages are in scope:
 `f84` and `f84r` remain sealed. ZL3b, IT2a and RF1b are alternate readings of
 one manuscript. No additional page, image or semantic corpus was admitted.
 
-## Active state/endpoint working edition
+## Active filtration/separation working edition
+
+The active prose edition now turns the former loose cloth/filter glosses into
+one bounded workshop chain:
+
+```text
+WASH/WET
+  -> REST/SETTLE
+  -> WRING/PRESS
+  -> STRAIN/RESTRAIN
+  -> CLEAR EXTRACT
+  -> COLLECT
+  -> STORE
+```
+
+The strongest continuous passage is f11r H3-S001:
+
+```text
+TSHOL · SCHOAL · CFHY · SHFYDAIIN · CPHY · SHEY · TCHODY
+flower herb · boil in wine · wring out · stand for prescribed time ·
+strain again · clear extract · cool; close
+```
+
+Its fluent creative reading is: boil the flower herb in wine, wring out the
+preparation, let it stand for the prescribed time, strain it again, take the
+clear extract and let it cool. This is the first local sequence in the current
+edition whose material, coarse separation, rest, fine separation, product and
+close all remain readable without assigning any card an entire sentence.
+
+The selected small lexicon is deliberately mixed:
+
+```text
+LSH       wash/rinse                 SHED      rest/settle
+CKH       passage/run                CKHE      strain
+SHEY      clear extract              SOLK      collection station
+
+DAIN      cloth                      SOLKAIIN  straining cloth
+QOCTHOLY  press out                  KCHAL     strain off
+CFHY      wring out                  CPHY      strain again
+TSHEY     rinse liquid               OTYTCHOL  collect
+TALAM     store
+```
+
+The first six are bounded reusable families or result cards. The remaining
+specialist actions/tools are learned whole cards. Four former near-synonymous
+“through cloth” defaults are therefore separated into tool, special tool,
+coarse pressing and fine straining. No fictitious common visible root is
+needed.
+
+Exact identity still overrides resemblance. `CKH=passage` applies to the
+recurrent exact CKHY card, and `CKHE=strain` to two selected terminal cards;
+similar SHECKHY, QOCKHEY, LCHECKHY and CHEECKHODY cards keep their learned
+values. `CHK` remains warmth. `SHEY=clear extract` does not make EY “water” or
+SH “clear” globally, and SHEEY is a different exact card. LSH washing does not
+absorb the SHED rest family or the TSHOL plant card.
+
+The historical mechanism is unusually close: fourteenth-/early-fifteenth-
+century pigment, ink and medical recipes separately encode crushing, standing,
+wringing in linen, straining into another vessel, the resulting liquid and
+storage. This supports the process-role inventory and the mixed
+abbreviation-plus-whole-card architecture, not a phonetic Latin/Italian
+identification.
+
+Relative to the state/endpoint edition, 18 of 173 cards, 30 of 381 events and
+24 of 116 statements are revised. The complete 173-card dictionary, 381-event
+interlinear, 116 statements and eleven records are regenerated. The active
+files are in `sidequest_semantic_filtration_separation_completion/`, led by
+`SELECTED_FILTRATION_SEPARATION_REPORT.md`,
+`SELECTED_FILTRATION_COMPONENTS.tsv`, `SELECTED_FILTRATION_PARADIGM.tsv`,
+`SELECTED_PROCESS_CHAINS.tsv`, `SELECTED_173_FILTRATION_DICTIONARY.tsv`,
+`SELECTED_381_FILTRATION_INTERLINEAR.tsv`,
+`SELECTED_116_FILTRATION_SENTENCES.tsv` and
+`SELECTED_11_FILTRATION_RECORDS.md`. Mechanical validation passes 168 checks.
+
+## Previous state/endpoint working edition
 
 The current edition turns the previous loose state words into one bounded
 workshop matrix:
