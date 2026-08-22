@@ -1533,3 +1533,13 @@ supports measure, prior batch, working liquid, temperature, opening, target,
 drainage and closure, but does not itself entail disease or body-part meanings.
 Primary artifact:
 `sidequest_theory_candidates_v42/V42_FOUR_ROLE_SYNTHESIS.md`.
+
+### V43 consolidated V42 dictionary
+
+The complete creative dictionary is now consolidated at the exact V42 state:
+173 prose joint-tuple cards each have one German default, one recurrent
+three-card construction has a German expansion, and 395 unchanged Astro-local
+labels remain explicitly separate. The 381 prose events align exactly to all
+135 V42 fields. PAGE_HOST strings such as `ey`, `ok`, or `or` receive no new
+meaning: meanings belong only to complete V42 cards/constructions. Primary
+artifact: `sidequest_theory_candidates_v43/V43_CURRENT_COMPLETE_DICTIONARY.tsv`.
