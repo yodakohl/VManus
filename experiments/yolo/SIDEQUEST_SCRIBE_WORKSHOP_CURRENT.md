@@ -1520,3 +1520,16 @@ records. The best sentence model is therefore long open Herbal article clauses
 versus short content-bearing Biological work cells; physical lines may break
 either. Primary artifact:
 `sidequest_theory_candidates_v41/V41_COMPLETE_RECORD_GRAMMAR.md`.
+
+### V42 complete eleven-record edition
+
+Four independent period-role passes expand all eleven prose records, all 135
+fields, and all 381 card events without a blank meaning. The selected creative
+basis is an illustrated iatromedical worksheet: open Herbal Simplex clauses and
+short Biological bath/irrigation work cells, with Astro retained as a separate
+WHEN/calendar namespace. A complete bathhouse/waterworks register is nearly as
+coherent and is now the strongest control. It reveals that the shared grammar
+supports measure, prior batch, working liquid, temperature, opening, target,
+drainage and closure, but does not itself entail disease or body-part meanings.
+Primary artifact:
+`sidequest_theory_candidates_v42/V42_FOUR_ROLE_SYNTHESIS.md`.
