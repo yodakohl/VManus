@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-22, after V30 complete eleven-record source reconstruction.
+Updated: 2026-08-22, after V31 named Herbal-owner reconstruction.
 
 Status: **speculative working theory, not a GDT result and not a
 translation**. This file is the compact authoritative entry point for the
@@ -969,6 +969,20 @@ technical register could generate the same visible organization. Full readable
 edition and exact expansions:
 `sidequest_theory_candidates_v30/V30_RECONSTRUCTED_SOURCE_TEXT.md` and
 `V30_ELEVEN_RECORD_SOURCE_RECONSTRUCTIONS.tsv`.
+
+## V31 concrete Herbal owners
+
+The four official Yale folio images were inspected independently of tuple
+identity and matched against the already selected V30 article content. Four
+provisional pictured owners are now retained: f10r Skabiose/Teufelsabbiss,
+f11r Veilchen, f55v Bärlauch/breitblättriges Allium and f56r Sonnentau.
+
+The strongest is f56r Sonnentau: its spiral and radiating trap-like leaves,
+dark sticky heads, wet-heath ecology and medieval medicinal use converge. The
+other three are concrete defaults with live rivals, not settled botanical
+identifications. No visible string is read as any plant name. Full image,
+historical and recipe comparison:
+`sidequest_theory_candidates_v31/V31_NAMED_HERBAL_TRANSLATION.md`.
 
 ## Generative model
 
