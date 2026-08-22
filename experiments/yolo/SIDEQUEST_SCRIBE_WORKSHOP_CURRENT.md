@@ -1652,3 +1652,21 @@ Complete local German readings remain allowed as creative whole-field
 expansions, but `CLOSE` is not a spoken “finish,” RIGHT classes do not inherit
 whole-card meanings, and juxtaposition supplies no automatic syntax. Primary
 artifact: `sidequest_theory_candidates_v52/V52_FOUR_ROLE_SELECTION.md`.
+
+### V53 complete Herbal edition
+
+Four independent roles rebuild the four Herbal pages as five complete
+illustrated materia-medica records while preserving all 20 fields and 100 card
+events. The selected owners are deliberately broad: a skabiosen- or
+Teufelsabbiss-like plant on f10r, a small shadow plant on f11r, a broad-leaved
+herb on f55v, and a wetland glandular/bristly plant on f56r. Veilchen versus
+Doldenpflanze, Allium versus Wegerich, and Sonnentau versus another sticky herb
+remain live picture alternatives.
+
+The strongest historical source mechanism is an early-fifteenth-century
+Abiss/Teufelsabbiss medicinal water parallel for f10r_R1. Veilchen wine/oil,
+Allium/Wegerich external preparations, and a Drosera chest remedy remain
+increasingly risky complete-article expansions. Plant, organ, water, wine,
+disease, and application are not card values: only 32/100 events have selected
+V50/V51 anchors. Primary artifact:
+`sidequest_theory_candidates_v53/V53_FOUR_ROLE_SELECTION.md`.
