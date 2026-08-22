@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-22, after V79 of the authorized V71–V80 cycle.
+Updated: 2026-08-22, after the completed V80 canonical third edition.
 
 Status: **creative working reconstruction, not a GDT result and not a
 translation**. Confirmed Voynich lexemes, sounds and plaintext clauses remain
@@ -18,6 +18,49 @@ Exactly ten pages are in scope:
 
 `f84` and `f84r` remain sealed. ZL3b, IT2a and RF1b are alternate readings of
 one manuscript. No additional page, image or semantic corpus was admitted.
+
+## V80 canonical third edition — cycle complete
+
+Four independent role editions converge on a complete but explicitly
+master-dependent ten-page register. R3 is the selected byte basis because it
+alone keeps the frozen model identifiers, exact Formalrollen, 381→380 and
+776→775 source accounting, all 13 Astro namespace classes and a byteidentical
+rebuild under 254/254 checks. R2 supplies the historical framing, R4 the compact
+explanation and R1 the compatible workshop summary.
+
+The canonical release binds 173 exact cards, 381 visible Prosaevents, 135
+fields, 116 statements, 395 Astro groups and 776 visible groups. Its dictionary
+contains:
+
+```text
+dcda95c81a5460feb191  FORMAL_LINK_OR_SLOT       optional master: ET? = UND/AUCH?
+b5fcea1eaed06b2f2291  FORMAL_RELATION_OR_ENTRY optional master: PER? = DURCH/GEMÄSS?
+2 exact cards          FORMAL_LABEL_NOT_WORD
+169 exact cards        EXEMPLAR_VALUE_UNKNOWN
+```
+
+The Fi1 key of 1414 attests only that the historical whole-word categories
+`et` and `per` existed. It does not identify these Voynich forms. Autonomous
+readback therefore always prints the Formalrolle first. Every concrete plant,
+material, action, bath, device, body, star or calendar value remains a
+`MASTER_MEMORIZED` occurrence expansion.
+
+The single read-once match E180→E181 remains two visible copies but one source
+position. It is local anticipation or dittography, not a proven catchword
+system. The four cross-line owner resets are E203, E264, E291 and E356. Astro
+retains 13 local namespaces, no start, direction, rotation, f68↔f69 key or
+Prosa-card import.
+
+Exactly one editorial lead is retained:
+`A_PRACTITIONER_THERAPEUTIC_IATROMATHEMATICAL_COMPENDIUM` (236). Its sole
+rival is `B_NATURAL_ARTIFICIAL_CELESTIAL_IMAGE_ATLAS_MODELBOOK` (235). The
+one-point difference orders the readable edition but identifies neither the
+historical book nor any word.
+
+Selected status:
+`PASS__FORMALLY_COMPLETE__CONTENT_MASTER_DEPENDENT__CYCLE_CLOSED`.
+Confirmed lexemes, stems, sounds, language, plaintext clauses and translations
+remain zero. V80 ends the authorized V71–V80 cycle; there is no V81 round.
 
 ## V79 apprentice reconstruction
 
@@ -447,6 +490,17 @@ not that it is the historical world.
 
 ## Current image-first artifacts
 
+- `sidequest_theory_candidates_v80/V80_FOUR_ROLE_SELECTION.md`;
+- `sidequest_theory_candidates_v80/V80_ONE_PAGE_FINAL_THEORY.md`;
+- `sidequest_theory_candidates_v80/V80_CANONICAL_173_CARD_DICTIONARY.tsv`;
+- `sidequest_theory_candidates_v80/V80_CANONICAL_381_PROSE_EVENT_INTERLINEAR.tsv`;
+- `sidequest_theory_candidates_v80/V80_CANONICAL_135_FIELD_EDITION.tsv`;
+- `sidequest_theory_candidates_v80/V80_CANONICAL_116_STATEMENT_EDITION.tsv`;
+- `sidequest_theory_candidates_v80/V80_CANONICAL_395_ASTRO_GROUP_EDITION.tsv`;
+- `sidequest_theory_candidates_v80/V80_CANONICAL_776_UNIFIED_LEDGER.tsv`;
+- `sidequest_theory_candidates_v80/V80_COMPLETE_TEN_PAGE_READABLE_EDITION.md`;
+- the canonical manual, contradiction ledger, all four role editions and
+  `V80_VALIDATION.json`;
 - `sidequest_theory_candidates_v79/V79_FOUR_ROLE_SELECTION.md`;
 - `sidequest_theory_candidates_v79/V79_SELECTED_MACHINE_MANUAL.tsv`;
 - `sidequest_theory_candidates_v79/V79_SELECTED_FORWARD_BACKWARD_TRACES.tsv`;
@@ -525,13 +579,9 @@ backgrounds in `SIDEQUEST_FOUR_AGENT_BACKGROUNDS.md`: workshop master,
 historical medical/Herbal scribe, technical register writer and chancery
 corrector. Preserve independence until each role freezes its result.
 
-## Next bounded step and stop
+## Stop
 
-V79 is complete. V80 must publish the canonical third edition: the complete
-173-card dictionary, 381-event interlinear, 135-field and 116-statement
-editions, 395-group Astro edition, 776-group unified ledger, readable ten-page
-edition, workshop manual and contradiction ledger. It must show operational
-formal values separately from optional historical word candidates and all
-occurrence-bound exemplar prose. V80 ends the authorized cycle. Do not add
-pages, start V81 or design a scientific/Voynich semantic experiment
-automatically.
+The authorized V71–V80 cycle is complete. Do not add pages, start V81, loosen
+the codebook rule, score Voynich semantics or design a follow-on experiment
+automatically. A later sidequest would require a new explicit user instruction
+and a new fixed scope; nothing in V80 licenses one.

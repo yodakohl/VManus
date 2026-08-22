@@ -1,0 +1,22 @@
+rule_order	phase	visible_input	condition	apprentice_operation	canonical_v80_readback	failure_if_omitted	source
+01	START	selected unit identifier	always	LOAD_UNIT	none	state leaks between records or namespaces	V79_SELECTED_MACHINE_MANUAL
+02	PROSE_RECORD	record boundary	new H/B record	RESET_RECORD	record boundary	B5/B6 or Herbal articles merge illegally	V79_SELECTED_MACHINE_MANUAL
+03	PROSE_RECORD	frozen statement membership	statement_id changes	OPEN_STATEMENT	statement boundary from layout template	19 line transitions split 18 valid statements	V79_SELECTED_MACHINE_MANUAL
+04	PROSE_STATEMENT	image_owner_id	record start or visible owner changes	SET_OR_RESET_OWNER	same visible owner binding	disconnected Bio stations become one invented flow	V79_SELECTED_MACHINE_MANUAL
+05	PROSE_STATEMENT	line-final exact card	physical line ends while statement remains open	BUFFER_EDGE_CARD	none	E180 may be spoken before E181 is inspected	V79_SELECTED_MACHINE_MANUAL
+06	PENDING_EDGE_CARD	next line-initial event	same exact card + same statement + same owner + prior NONCLOSE	COLLAPSE_ANTICIPATORY_COPY	render source token at line start and anticipate it once at preceding line edge	PER? PER? before one complement	V79_SELECTED_MACHINE_MANUAL
+07	PENDING_EDGE_CARD	next line-initial event	any edge-copy condition fails	RELEASE_BOTH	two visible events	false catchwords at ordinary line crossings	V79_SELECTED_MACHINE_MANUAL
+08	PROSE_STATEMENT	dcda95c81a5460feb191	exact identity match	EMIT_ET_QUESTIONED	dcda95c81a5460feb191	V78 dictionary inconsistency; silent LINK/SLOT remains equally valid	V79_SELECTED_MACHINE_MANUAL
+09	PROSE_STATEMENT	b5fcea1eaed06b2f2291	exact identity match and not suppressed edge copy	EMIT_PER_QUESTIONED	b5fcea1eaed06b2f2291	V78 dictionary inconsistency; ENTRY/RESET remains equally valid	V79_SELECTED_MACHINE_MANUAL
+10	PROSE_STATEMENT	formal nonword card	V78 status FORMAL_LABEL_NOT_WORD	EMIT_FORMAL_CHANNEL	same exact card from code sheet	editorial label becomes a claimed word	V79_SELECTED_MACHINE_MANUAL
+11	PROSE_STATEMENT	all other exact cards	no admitted V77 word	EMIT_OPAQUE_VALUE	same exact card from code sheet	new unsupported dictionary meanings appear	V79_SELECTED_MACHINE_MANUAL
+12	ANY_PROSE	master exemplar switch	master exemplar present	LOOKUP_CONTEXT_EXPANSION	same occurrence address	content cannot be recovered; formal copying still succeeds	V79_SELECTED_MACHINE_MANUAL
+13	ANY_PROSE	master exemplar switch	master exemplar absent	MASK_CONTEXT_EXPANSION	formal layout only	lookup content is mistaken for internally decoded meaning	V79_SELECTED_MACHINE_MANUAL
+14	START	f69v left-wheel namespace	local owner in f69v.4..31	SET_F69_LEFT_NAMESPACE	same namespace	three f69 wheels or f68/f69 are merged	V79_SELECTED_MACHINE_MANUAL
+15	F69_LEFT_WHEEL_NS	one of 28 local loci	direct visible slot address	LOOKUP_UNORDERED_SLOT	same opaque group sequence at same local owner	editorial L01..L28 becomes a claimed ordered cycle	V79_SELECTED_MACHINE_MANUAL
+16	ANY	end of unit	always	VERIFY_ROUNDTRIP	audit result	fluent paraphrase may hide lost or duplicated formal units	V79_SELECTED_MACHINE_MANUAL
+17	DICTIONARY	dcda exact card	every occurrence	REPORT_FORMAL_LINK_OR_SLOT	Optional master key only: ET?=UND/AUCH?	Do not infer a word from internal form	V80_FROZEN_INSTRUCTION_FROM_V79_SELECTION
+18	DICTIONARY	b5fcea exact card	after generic read-once	REPORT_FORMAL_RELATION_OR_ENTRY	Optional master key only: PER?=DURCH/GEMÄSS?	Do not infer a word from entry placement	V80_FROZEN_INSTRUCTION_FROM_V79_SELECTION
+19	DICTIONARY	two frozen formal channels	exact ID match	REPORT_FORMAL_LABEL_NOT_WORD	No spoken word	Do not turn prompts into vocabulary	V80_FROZEN_INSTRUCTION_FROM_V79_SELECTION
+20	DICTIONARY	all other exact prose cards	always	REPORT_EXEMPLAR_VALUE_UNKNOWN	Consult occurrence in master exemplar	Never guess a portable content value	V80_FROZEN_INSTRUCTION_FROM_V79_SELECTION
+21	ASTRO	opaque local group	within current owner/namespace	COPY_LOCAL_GROUP_WITHOUT_TRAVERSAL	Consult local master label	No start, direction, f68-f69 key or prose import	V80_FROZEN_INSTRUCTION_FROM_V79_SELECTION
