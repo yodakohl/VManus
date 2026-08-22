@@ -1753,3 +1753,22 @@ purpose need weaker historical and visual assumptions. The robust architecture
 is therefore domain-neutral; iatromedicine remains only the leading creative
 content default, never a card meaning. Primary artifact:
 `sidequest_theory_candidates_v58/V58_FOUR_ROLE_SELECTION.md`.
+
+### V59 final ten-page edition
+
+The canonical final release selects R1's strict exact-ID edition and removes
+the last three nonportable PAGE_HOST-derived AL/OR/CHEY mnemonics. The final
+small layer contains 57 formal SET/MARK/LINK events and 85 events carried by
+eleven exact-card mnemonics; their disjoint union covers 142/381 prose events.
+The other 239 events remain `UNKNOWN/EXEMPLAR`, while every event still has a
+complete local creative expansion. Eighty-two of 135 fields have at least one
+strict anchor, 53 have none, and 17 are fully anchored.
+
+All 173 exact prose cards, 381 prose events, 135 fields, 395 Astro groups, 776
+combined visible groups, and 14 complete record/diagram texts are published in
+five explicitly separate layers: opaque identity, formal control, exact-card
+mnemonic or unknown, local iatromedical default, and nonmedical rival. The
+selected architecture is a domain-neutral exemplar machine; iatromedical
+WHAT/HOW/WHEN remains the narrow leading content default. Confirmed lexemes
+and plaintext clauses remain zero. Primary artifact:
+`sidequest_theory_candidates_v59/V59_FINAL_WORKING_THEORY.md`.
