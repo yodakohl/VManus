@@ -1,0 +1,6 @@
+pattern_id	classification_rule	fields	events	closed_fields	selected_reading
+Q1_OPEN_OPAQUE	no selected host or whole card and no CLOSE	8	16	0	ordered opaque payload
+Q2_TERMINAL_OPAQUE	no selected host or whole card and final CLOSE	44	57	44	opaque payload plus formal terminal
+Q3_HOST_FRAME	at least one selected host/formal operator and no selected exact whole card	33	107	19	formal host/frame annotations plus opaque payload
+Q4_WHOLE_CARD	at least one selected exact whole card and no selected host/formal operator	26	72	18	ordered whole-card mnemonics plus opaque payload
+Q5_MIXED_PARATACTIC	at least one selected host/formal operator and one selected exact whole card	24	129	9	paratactic mixed annotations plus opaque payload

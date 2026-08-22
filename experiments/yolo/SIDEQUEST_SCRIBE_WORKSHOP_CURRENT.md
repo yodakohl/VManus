@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-22, after V51 pressure-tested recurrent whole-card mnemonics.
+Updated: 2026-08-22, after V52 separated field structure from sentence expansion.
 
 Status: **speculative working theory, not a GDT result and not a
 translation**. This file is the compact authoritative entry point for the
@@ -1640,3 +1640,15 @@ marked CLOSE-confounded, and `EY=KLAR?` is exposed two-versus-two rather than
 promoted. No mnemonic is a productive stem or licenses visible substring
 segmentation. Primary artifact:
 `sidequest_theory_candidates_v51/V51_FOUR_ROLE_SELECTION.md`.
+
+### V52 paratactic field grammar
+
+All four roles agree that the selected atoms support a teachable card/field
+notation but not a reconstructed sentence grammar. The universal envelope is
+`FIELD := NONCLOSE* TERMINAL?`: all 90 closes occur exactly once at field end,
+with 45 open fields. Only 145/381 events have a selected annotation, 236 stay
+opaque, 52/135 fields have no named anchor, and just 17 are fully named.
+Complete local German readings remain allowed as creative whole-field
+expansions, but `CLOSE` is not a spoken “finish,” RIGHT classes do not inherit
+whole-card meanings, and juxtaposition supplies no automatic syntax. Primary
+artifact: `sidequest_theory_candidates_v52/V52_FOUR_ROLE_SELECTION.md`.

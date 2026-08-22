@@ -1,0 +1,15 @@
+repair_id	layer	target	fields_affected	events_affected	old_annotation_or_text	new_annotation_or_text	operation	rationale	formal_sequence_changed	surface_changed	local_prose_changed
+A01	ATOM_ANNOTATION	PAGE_HOST[AL]	11	11	ZU	AN	REMAP_ANNOTATION	V50 removes the silent target while retaining only a weak relation lead.	NO	NO	NO
+A02	ATOM_ANNOTATION	PAGE_HOST[E]	14	14	BIS	UNBEKANNT	REMAP_ANNOTATION	V50 withdraws BIS because every occurrence is already CLOSE-confounded.	NO	NO	NO
+A03	ATOM_ANNOTATION	PAGE_HOST[OR]	6	8	ANSATZ	BEREITUNG	REMAP_ANNOTATION	V50 selects the smaller preparation mnemonic without fixing batch, liquid, or result.	NO	NO	NO
+A04	ATOM_ANNOTATION	PAGE_HOST[CHEY]	3	3	ANTEIL	TEIL	REMAP_ANNOTATION	V50 removes quantity and imperative content from the weak part mnemonic.	NO	NO	NO
+A05	ATOM_ANNOTATION	EXACT_CARD[EY]	4	4	FERTIG	KLAR	REMAP_ANNOTATION	V51 selects the smaller exposed state mnemonic and does not add BIS or liquid.	NO	NO	NO
+A06	ATOM_ANNOTATION	EXACT_CARD[OKY]	10	10	NUTZEN	VERWENDEN	REMAP_ANNOTATION	V51 selects the four-role whole-card action mnemonic without an object.	NO	NO	NO
+A07	ATOM_ANNOTATION	EXACT_CARD[LCHE]	8	8	ABLASS	ABLASSEN	REMAP_ANNOTATION	V51 standardizes the whole-card mnemonic while preserving its 8-of-8 CLOSE warning.	NO	NO	NO
+A08	ATOM_ANNOTATION	EXACT_CARD[OKEEY]	7	7	LAUWARM	WARM	REMAP_ANNOTATION	V51 removes the unsupported exact temperature degree.	NO	NO	NO
+A09	ATOM_ANNOTATION	EXACT_CARD[CKHY]	4	4	VERBINDUNG	UNBEKANNT	REMAP_ANNOTATION	V51 finds no recurring neighbour pair or distinguishable connection function.	NO	NO	NO
+A10	ATOM_ANNOTATION	EXACT_CARD[OLOR]	2	2	VORIGES	ZUVOR	REMAP_ANNOTATION	V51 retains only a weak anaphoric whole-card hint, not a prior object noun.	NO	NO	NO
+P01	LOCAL_PROSE	FIELD[f11r|1|f11r.1|1]	1	1	lasse die geseihte Flüssigkeit offen abkühlen	lasse die geseihte Flüssigkeit offen abkühlen und beende den Schritt	APPEND_TERMINAL_CLAUSE	The exact final formula is CLOSE(UNKNOWN_HOST[CHO]); 86 other closed fields expose the neutral closure convention.	NO	NO	YES
+P02	LOCAL_PROSE	FIELD[f55v|1|f55v.5|1]	1	1	lasse es ziehen, bis die Flüssigkeit klar ist	lasse es ziehen, bis die Flüssigkeit klar ist, und beende den Schritt	APPEND_TERMINAL_CLAUSE	The exact final formula is CLOSE(UNKNOWN_HOST[O]); the addition belongs to whole-field prose, not host O.	NO	NO	YES
+P03	LOCAL_PROSE	FIELD[f55v|1|f55v.5|2]	1	1	wasche die wunde Stelle einmal	wasche die wunde Stelle einmal und beende den Schritt	APPEND_TERMINAL_CLAUSE	The exact final formula is CLOSE_B3(UNKNOWN_HOST[ALA]); B3 and the host remain opaque.	NO	NO	YES
+P04	LOCAL_PROSE	FIELD[f56r|1|f56r.8|1]	1	1	lasse das Pflaster unbedeckt trocknen	lasse das Pflaster unbedeckt trocknen und beende den Schritt	APPEND_TERMINAL_CLAUSE	The exact final formula is CLOSE(UNKNOWN_HOST[ECKHO]); the addition does not assign closure to ECKHO.	NO	NO	YES
