@@ -1,0 +1,149 @@
+{
+  "artifact": "V63_R2_SLOT_GRAMMAR",
+  "status": "PASS",
+  "scope": {
+    "allowed_pages": [
+      "f10r",
+      "f11r",
+      "f55v",
+      "f56r",
+      "f81v",
+      "f82r",
+      "f83r"
+    ],
+    "sealed_prefix": "f84",
+    "source_event_rows": 381,
+    "source_statement_rows": 116,
+    "source_transition_rows": 116,
+    "output_template_rows": 8,
+    "output_mapping_rows": 116,
+    "event_serials_covered_once": 381,
+    "page_statement_counts": {
+      "f10r": 5,
+      "f11r": 4,
+      "f55v": 4,
+      "f56r": 6,
+      "f81v": 21,
+      "f82r": 22,
+      "f83r": 54
+    },
+    "record_statement_counts": {
+      "B1": 21,
+      "B2": 22,
+      "B3": 34,
+      "B4": 16,
+      "B5": 3,
+      "B6": 1,
+      "H1": 2,
+      "H2": 3,
+      "H3": 4,
+      "H4": 4,
+      "H5": 6
+    }
+  },
+  "coverage": {
+    "prompt_licensed_statements": 61,
+    "exemplar_only_statements": 55,
+    "prompt_licensed_fraction": 0.525862,
+    "slot_assignment_status_counts": {
+      "COMPOSITE_FIT": 14,
+      "CONFLICTING": 3,
+      "EXEMPLAR_ONLY": 55,
+      "FITS_WITH_ORDER_STRAIN": 12,
+      "SINGLE_TEMPLATE_FIT": 32
+    },
+    "primary_template_counts": {
+      "EXEMPLAR_ONLY": 55,
+      "T1_MEASUREMENT": 9,
+      "T2_DESTINATION": 10,
+      "T3_BATCH_REFERENCE": 18,
+      "T4_STATE_GATE": 7,
+      "T5_APPLY": 6,
+      "T6_TEMPER": 3,
+      "T7_RINSE": 3,
+      "T8_DRAIN": 5
+    },
+    "template_anchor_counts": {
+      "T1_MEASUREMENT": 22,
+      "T2_DESTINATION": 16,
+      "T3_BATCH_REFERENCE": 37,
+      "T4_STATE_GATE": 11,
+      "T5_APPLY": 10,
+      "T6_TEMPER": 7,
+      "T7_RINSE": 8,
+      "T8_DRAIN": 8
+    },
+    "template_statement_counts": {
+      "EXEMPLAR_ONLY": 55,
+      "T1_MEASUREMENT": 20,
+      "T2_DESTINATION": 14,
+      "T3_BATCH_REFERENCE": 25,
+      "T4_STATE_GATE": 10,
+      "T5_APPLY": 10,
+      "T6_TEMPER": 7,
+      "T7_RINSE": 8,
+      "T8_DRAIN": 8
+    },
+    "formal_prompt_event_counts": {
+      "AKTIVEN_ARBEITSSTAND_VERKNÜPFEN": 19,
+      "LOKALEN_RELATIONSSLOT_SETZEN": 6,
+      "STANDARDSLOT_SETZEN": 9,
+      "VORGABEPARAMETER?": 11
+    },
+    "exact_mnemonic_event_counts": {
+      "ABLASSEN?": 8,
+      "ANSATZ?": 7,
+      "ANTEIL?": 2,
+      "ANWENDEN?": 10,
+      "BEREIT?": 7,
+      "KLAR?": 4,
+      "MASS?": 20,
+      "SPÜLEN?": 8,
+      "TEMPERIEREN?": 7,
+      "VORIGES?": 2,
+      "ZIEL?": 10
+    }
+  },
+  "conflict_audit": {
+    "conflicting_statement_count": 3,
+    "conflicting_statement_ids": [
+      "H2-S003",
+      "B1-S002",
+      "B3-S021"
+    ],
+    "order_strain_statement_count": 12,
+    "order_strain_statement_ids": [
+      "H1-S001",
+      "H2-S001",
+      "H4-S004",
+      "B1-S016",
+      "B2-S010",
+      "B2-S012",
+      "B2-S016",
+      "B3-S030",
+      "B4-S003",
+      "B4-S011",
+      "B5-S003",
+      "B6-S001"
+    ],
+    "all_conflict_code_counts": {
+      "CANONICAL_ORDER_STRAIN": 13,
+      "REPEATED_EXACT_SLOT": 3
+    }
+  },
+  "gates": {
+    "all_116_statements_mapped": true,
+    "all_381_events_covered_once": true,
+    "no_forbidden_page": true,
+    "all_clauses_mark_owner": true,
+    "no_concrete_filled_noun_in_generated_clauses": true,
+    "no_surface_or_phonetic_column_emitted": true,
+    "unknown_content_is_local_exemplar": true
+  },
+  "violations": {
+    "page": [],
+    "owner_marker": [],
+    "concrete_noun": []
+  },
+  "interpretive_limit": "PASS validates row coverage and the declared mechanical grammar only; it does not validate historical truth, language, sound, or decipherment."
+}

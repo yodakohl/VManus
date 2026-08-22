@@ -1,0 +1,274 @@
+{
+  "checks": [
+    {
+      "check": "template_row_count",
+      "detail": 7,
+      "pass": true
+    },
+    {
+      "check": "template_inventory_exact",
+      "detail": [
+        "ACTION",
+        "PARAMETER_ASSIGNMENT",
+        "RELATION_LINK",
+        "SELECTION_REFERENCE",
+        "STATE_CHECK_GATE",
+        "TARGET_ASSIGNMENT",
+        "TERMINAL_ACTION"
+      ],
+      "pass": true
+    },
+    {
+      "check": "licensed_channel_inventory_rows",
+      "detail": 19,
+      "pass": true
+    },
+    {
+      "check": "exact_channel_count",
+      "detail": 11,
+      "pass": true
+    },
+    {
+      "check": "formal_channel_count",
+      "detail": 4,
+      "pass": true
+    },
+    {
+      "check": "register_channel_count",
+      "detail": 4,
+      "pass": true
+    },
+    {
+      "check": "registers_never_license_templates",
+      "detail": [
+        "REGISTER:OWNER",
+        "REGISTER:ACTIVE",
+        "REGISTER:TARGET",
+        "REGISTER:PREVIOUS"
+      ],
+      "pass": true
+    },
+    {
+      "check": "exact_anchor_occurrences",
+      "detail": 85,
+      "pass": true
+    },
+    {
+      "check": "formal_anchor_occurrences",
+      "detail": 41,
+      "pass": true
+    },
+    {
+      "check": "statement_map_rows",
+      "detail": 116,
+      "pass": true
+    },
+    {
+      "check": "statement_ids_unique",
+      "detail": 116,
+      "pass": true
+    },
+    {
+      "check": "statement_pages_exact",
+      "detail": [
+        "f10r",
+        "f11r",
+        "f55v",
+        "f56r",
+        "f81v",
+        "f82r",
+        "f83r"
+      ],
+      "pass": true
+    },
+    {
+      "check": "statement_event_partition",
+      "detail": 381,
+      "pass": true
+    },
+    {
+      "check": "statement_anchor_partition",
+      "detail": 126,
+      "pass": true
+    },
+    {
+      "check": "statement_exemplar_partition",
+      "detail": 255,
+      "pass": true
+    },
+    {
+      "check": "statement_mapping_status_counts",
+      "detail": {
+        "EXEMPLAR_ONLY": 52,
+        "TEMPLATE_ANCHORED_NO_TOTAL_PARSE": 64
+      },
+      "pass": true
+    },
+    {
+      "check": "statement_null_mapping_consistent",
+      "detail": "all rows",
+      "pass": true
+    },
+    {
+      "check": "fully_anchored_statements_still_not_total_parse",
+      "detail": 12,
+      "pass": true
+    },
+    {
+      "check": "field_map_rows",
+      "detail": 135,
+      "pass": true
+    },
+    {
+      "check": "field_ids_unique",
+      "detail": 135,
+      "pass": true
+    },
+    {
+      "check": "field_pages_exact",
+      "detail": [
+        "f10r",
+        "f11r",
+        "f55v",
+        "f56r",
+        "f81v",
+        "f82r",
+        "f83r"
+      ],
+      "pass": true
+    },
+    {
+      "check": "field_event_partition",
+      "detail": 381,
+      "pass": true
+    },
+    {
+      "check": "field_anchor_partition",
+      "detail": 126,
+      "pass": true
+    },
+    {
+      "check": "field_exemplar_partition",
+      "detail": 255,
+      "pass": true
+    },
+    {
+      "check": "field_mapping_status_counts",
+      "detail": {
+        "EXEMPLAR_ONLY": 61,
+        "TEMPLATE_ANCHORED_NO_TOTAL_PARSE": 74
+      },
+      "pass": true
+    },
+    {
+      "check": "every_field_maps_to_statement",
+      "detail": "135/135",
+      "pass": true
+    },
+    {
+      "check": "fully_anchored_fields_still_not_total_parse",
+      "detail": 14,
+      "pass": true
+    },
+    {
+      "check": "template_instance_counts",
+      "detail": {
+        "ACTION": 17,
+        "PARAMETER_ASSIGNMENT": 29,
+        "RELATION_LINK": 19,
+        "SELECTION_REFERENCE": 18,
+        "STATE_CHECK_GATE": 11,
+        "TARGET_ASSIGNMENT": 16,
+        "TERMINAL_ACTION": 16
+      },
+      "pass": true
+    },
+    {
+      "check": "executable_example_rows",
+      "detail": 15,
+      "pass": true
+    },
+    {
+      "check": "every_template_has_example",
+      "detail": [
+        "ACTION",
+        "PARAMETER_ASSIGNMENT",
+        "RELATION_LINK",
+        "SELECTION_REFERENCE",
+        "STATE_CHECK_GATE",
+        "TARGET_ASSIGNMENT",
+        "TERMINAL_ACTION"
+      ],
+      "pass": true
+    },
+    {
+      "check": "all_exact_anchor_classes_exemplified",
+      "detail": 11,
+      "pass": true
+    },
+    {
+      "check": "all_formal_anchor_classes_exemplified",
+      "detail": 4,
+      "pass": true
+    },
+    {
+      "check": "example_level_separation_explicit",
+      "detail": "15/15",
+      "pass": true
+    },
+    {
+      "check": "no_out_of_scope_page_tokens",
+      "detail": [
+        "f10r",
+        "f11r",
+        "f55v",
+        "f56r",
+        "f81v",
+        "f82r",
+        "f83r"
+      ],
+      "pass": true
+    },
+    {
+      "check": "no_absolute_local_paths",
+      "detail": "clean",
+      "pass": true
+    },
+    {
+      "check": "no_host_semantics_token",
+      "detail": "clean",
+      "pass": true
+    },
+    {
+      "check": "no_surface_column_in_maps",
+      "detail": "clean",
+      "pass": true
+    }
+  ],
+  "failed_checks": [],
+  "scope": {
+    "events": 381,
+    "executable_examples": 15,
+    "exemplar_only_fields": 61,
+    "exemplar_only_statements": 52,
+    "fields": 135,
+    "licensed_anchor_events": 126,
+    "pages": 7,
+    "records": 11,
+    "statements": 116,
+    "template_anchored_fields": 74,
+    "template_anchored_statements": 64,
+    "templates": 7,
+    "unlicensed_exemplar_events": 255
+  },
+  "status": "PASS",
+  "template_instance_counts": {
+    "ACTION": 17,
+    "PARAMETER_ASSIGNMENT": 29,
+    "RELATION_LINK": 19,
+    "SELECTION_REFERENCE": 18,
+    "STATE_CHECK_GATE": 11,
+    "TARGET_ASSIGNMENT": 16,
+    "TERMINAL_ACTION": 16
+  }
+}

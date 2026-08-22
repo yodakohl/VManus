@@ -1,0 +1,13 @@
+template	exact_trigger	strict_formal_trigger	required_registers	symbolic_update	terminal_requirement	bounded_rule
+PARAMETER_ASSIGN	MASS?	VORGABEPARAMETER?|STANDARDSLOT_SETZEN	ACTIVE_ITEM/PREPARATION	set an exact parameter or an explicitly FORMAL_OPAQUE parameter slot	NONE	exact and formal channels may converge but remain separately labelled
+TARGET_ASSIGN	ZIEL?	LOKALEN_RELATIONSSLOT_SETZEN	OWNER|TARGET/STATION	set exact target argument OR FORMAL_RELATION_SLOT; never equate the two payloads	NONE	formal relation slot inherits no semantic target word
+LINK_ACTIVE	ANSATZ?	AKTIVEN_ARBEITSSTAND_VERKNÜPFEN	ACTIVE_ITEM/PREPARATION|PREVIOUS_ITEM	resume exact active preparation OR execute FORMAL_ACTIVE_LINK	NONE	formal link inherits no semantic preparation word
+STATE_GATE	BEREIT?|KLAR?	NONE	ACTIVE_ITEM/PREPARATION	set selected exact state gate	NONCLOSE	exact tuple only
+ACTION_APPLY	ANWENDEN?	NONE	ACTIVE_ITEM/PREPARATION|TARGET/STATION	apply active item to current target	NONCLOSE	exact tuple only
+ACTION_TEMPER	TEMPERIEREN?	NONE	ACTIVE_ITEM/PREPARATION	temper active item	NONCLOSE	exact tuple only
+TERMINAL_FLUSH	SPÜLEN?	NONE	ACTIVE_ITEM/PREPARATION|TARGET/STATION	flush and commit	TERMINAL	exact tuple plus observed terminal; CLOSE alone never selects flush
+TERMINAL_DRAIN	ABLASSEN?	NONE	ACTIVE_ITEM/PREPARATION|TARGET/STATION	drain and commit	TERMINAL	exact tuple plus observed terminal; CLOSE alone never selects drain
+SELECT_PART	ANTEIL?	NONE	OWNER|ACTIVE_ITEM/PREPARATION|PREVIOUS_ITEM	save active as previous and select part	NONCLOSE	exact tuple only
+SELECT_PREVIOUS	VORIGES?	NONE	ACTIVE_ITEM/PREPARATION|PREVIOUS_ITEM	resume depth-one previous item	NONCLOSE	exact tuple only
+COMPOSITE_SEQUENCE	TWO_OR_MORE_EVENT_POSITIONS_WITH_AT_LEAST_ONE_LICENSED_TEMPLATE	ORDERED_FORMAL_AND_EXACT_CHANNELS_RETAINED	OWNER|ACTIVE_ITEM/PREPARATION|TARGET/STATION|PREVIOUS_ITEM	execute event-template sequence in source order	AS_OBSERVED	does not guess meanings for EXEMPLAR_ONLY positions
+EXEMPLAR_ONLY	NONE	NONE	OWNER	copy exact opaque event and use selected local exemplar only	AS_OBSERVED	no semantic parse

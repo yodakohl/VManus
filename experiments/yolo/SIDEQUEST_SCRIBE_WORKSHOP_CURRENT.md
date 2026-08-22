@@ -1822,3 +1822,18 @@ antecedent without naming it. Forty-nine irreducible ambiguities remain in 33
 statements, and the full transition log—not the post-state alone—is required
 for lossless backward reading. Primary artifact:
 `sidequest_theory_candidates_v62/V62_FOUR_ROLE_SELECTION.md`.
+
+### V63 bounded slot grammar
+
+Four roles combine only the selected exact-card mnemonics, four strict formal
+prompts, event order, and the anonymous V62 registers. The selected bounded
+parser recognizes 119/381 events; 262 remain `EXEMPLAR_ONLY`. At field level
+14/135 parses are unique, 56 ambiguous, and 65 unparsed. At statement level
+the profile is 12/116 unique, 49 ambiguous, and 55 unparsed.
+
+The resulting parameter, target, link, state, selection, application,
+tempering, flushing, and draining templates are kept as an executable
+structural grammar. They are withdrawn as a complete meaning decoder. Opaque
+event order round-trips exactly, but that proves preservation rather than
+semantic correctness. Primary artifact:
+`sidequest_theory_candidates_v63/V63_FOUR_ROLE_SELECTION.md`.
