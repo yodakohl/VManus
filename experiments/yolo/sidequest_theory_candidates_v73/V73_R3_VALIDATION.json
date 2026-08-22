@@ -1,0 +1,354 @@
+{
+  "experiment": "V73_R3_NONMEDICAL_HERBAL_THIRD_EDITION",
+  "status": "PASS",
+  "passed": 38,
+  "total": 38,
+  "failed": [],
+  "dimensions": {
+    "events": 100,
+    "fields": 20,
+    "statements": 19,
+    "records": 5
+  },
+  "checks": [
+    {
+      "name": "required_outputs_exist",
+      "pass": true,
+      "detail": [
+        "V73_R3_100_EVENT_INTERLINEAR.tsv",
+        "V73_R3_20_FIELD_EDITION.tsv",
+        "V73_R3_19_STATEMENT_REVISIONS.tsv",
+        "V73_R3_FIVE_ARTICLES.tsv",
+        "V73_R3_TECHNICAL_REPORT.md",
+        "V73_R3_BUILD_SUMMARY.json"
+      ]
+    },
+    {
+      "name": "exact_100_events",
+      "pass": true,
+      "detail": 100
+    },
+    {
+      "name": "event_serials_1_through_100_once",
+      "pass": true,
+      "detail": "1..100"
+    },
+    {
+      "name": "exact_20_fields",
+      "pass": true,
+      "detail": 20
+    },
+    {
+      "name": "field_ids_F001_through_F020_once",
+      "pass": true,
+      "detail": [
+        "F001",
+        "F002",
+        "F003",
+        "F004",
+        "F005",
+        "F006",
+        "F007",
+        "F008",
+        "F009",
+        "F010",
+        "F011",
+        "F012",
+        "F013",
+        "F014",
+        "F015",
+        "F016",
+        "F017",
+        "F018",
+        "F019",
+        "F020"
+      ]
+    },
+    {
+      "name": "exact_19_statements",
+      "pass": true,
+      "detail": 19
+    },
+    {
+      "name": "statement_ids_match_frozen_selection",
+      "pass": true,
+      "detail": [
+        "H1-S001",
+        "H1-S002",
+        "H2-S001",
+        "H2-S002",
+        "H2-S003",
+        "H3-S001",
+        "H3-S002",
+        "H3-S003",
+        "H3-S004",
+        "H4-S001",
+        "H4-S002",
+        "H4-S003",
+        "H4-S004",
+        "H5-S001",
+        "H5-S002",
+        "H5-S003",
+        "H5-S004",
+        "H5-S005",
+        "H5-S006"
+      ]
+    },
+    {
+      "name": "exact_five_articles",
+      "pass": true,
+      "detail": 5
+    },
+    {
+      "name": "record_ids_H1_through_H5",
+      "pass": true,
+      "detail": [
+        "H1",
+        "H2",
+        "H3",
+        "H4",
+        "H5"
+      ]
+    },
+    {
+      "name": "only_fixed_herbal_pages",
+      "pass": true,
+      "detail": [
+        "f10r",
+        "f11r",
+        "f55v",
+        "f56r"
+      ]
+    },
+    {
+      "name": "all_event_cells_nonblank",
+      "pass": true,
+      "detail": "all columns populated"
+    },
+    {
+      "name": "all_field_cells_nonblank",
+      "pass": true,
+      "detail": "all columns populated"
+    },
+    {
+      "name": "all_statement_cells_nonblank",
+      "pass": true,
+      "detail": "all columns populated"
+    },
+    {
+      "name": "all_article_cells_nonblank",
+      "pass": true,
+      "detail": "all columns populated"
+    },
+    {
+      "name": "frozen_event_identity_and_control_columns_exact",
+      "pass": true,
+      "detail": [
+        "page",
+        "locus",
+        "record_unit_id",
+        "field_id",
+        "statement_id",
+        "joint_tuple_id",
+        "surface_display_only",
+        "formal_formula_opaque",
+        "terminal_status",
+        "parse_status",
+        "selected_exact_mnemonic",
+        "strict_formal_prompt",
+        "event_template"
+      ]
+    },
+    {
+      "name": "frozen_field_membership_exact",
+      "pass": true,
+      "detail": "record/page/locus/statement/count/serials"
+    },
+    {
+      "name": "whole_plant_owner_exact_and_never_part_owner",
+      "pass": true,
+      "detail": {
+        "H1": "WHOLE_BROAD_TOOTHED_RADIAL_FLOWERED_HERB",
+        "H2": "WHOLE_BROAD_TOOTHED_RADIAL_FLOWERED_HERB",
+        "H3": "WHOLE_DENSE_BLUE_FLOWERED_CROWN_PLANT",
+        "H4": "WHOLE_BROAD_LEAF_PANICLED_PLANT_WITH_MNEMONIC_ROOT",
+        "H5": "WHOLE_MULTIHEAD_SPINY_OR_EMBLEMATIC_HERB"
+      }
+    },
+    {
+      "name": "every_event_has_complete_literal_exact_card_formal_exemplar_layer",
+      "pass": true,
+      "detail": "8 required literal fragments"
+    },
+    {
+      "name": "frozen_71_exemplar_29_recognized_split",
+      "pass": true,
+      "detail": {
+        "exemplar": 71,
+        "recognized": 29
+      }
+    },
+    {
+      "name": "creative_fill_layer_explicit",
+      "pass": true,
+      "detail": {
+        "CREATIVE_OCCURRENCE_EXEMPLAR_FILL": 71,
+        "FROZEN_CONTROL_CLASS_PLUS_CREATIVE_SOURCE_ARGUMENT": 29
+      }
+    },
+    {
+      "name": "all_concrete_defaults_low_confidence",
+      "pass": true,
+      "detail": [
+        "0.22",
+        "0.24",
+        "0.44",
+        "0.47"
+      ]
+    },
+    {
+      "name": "every_event_has_medical_rival",
+      "pass": true,
+      "detail": "100 prefixed rivals"
+    },
+    {
+      "name": "every_event_has_contradiction",
+      "pass": true,
+      "detail": 160
+    },
+    {
+      "name": "every_event_has_concrete_nonempty_instruction",
+      "pass": true,
+      "detail": 28
+    },
+    {
+      "name": "five_frozen_terminal_events",
+      "pass": true,
+      "detail": [
+        "45",
+        "60",
+        "63",
+        "67",
+        "86"
+      ]
+    },
+    {
+      "name": "terminal_only_closes_local_field",
+      "pass": true,
+      "detail": [
+        "45",
+        "60",
+        "63",
+        "67",
+        "86"
+      ]
+    },
+    {
+      "name": "previous_is_record_local",
+      "pass": true,
+      "detail": [
+        "28"
+      ]
+    },
+    {
+      "name": "record_event_counts_exact",
+      "pass": true,
+      "detail": {
+        "H1": 14,
+        "H2": 24,
+        "H3": 17,
+        "H4": 18,
+        "H5": 27
+      }
+    },
+    {
+      "name": "article_event_counts_exact",
+      "pass": true,
+      "detail": {
+        "H1": "14",
+        "H2": "24",
+        "H3": "17",
+        "H4": "18",
+        "H5": "27"
+      }
+    },
+    {
+      "name": "field_event_sequences_roundtrip",
+      "pass": true,
+      "detail": "20/20"
+    },
+    {
+      "name": "statement_event_total_100",
+      "pass": true,
+      "detail": 100
+    },
+    {
+      "name": "H5_S001_cross_field_continuation_retained",
+      "pass": true,
+      "detail": "F014|F015"
+    },
+    {
+      "name": "required_plant_material_process_families_present",
+      "pass": true,
+      "detail": {
+        "sampling": true,
+        "preparation": true,
+        "extraction": true,
+        "storage": true,
+        "comparison": true,
+        "wet_process": true
+      }
+    },
+    {
+      "name": "no_species_identification",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "semantic_ceiling_on_every_row",
+      "pass": true,
+      "detail": "100/100"
+    },
+    {
+      "name": "report_contains_required_scope_and_ceiling",
+      "pass": true,
+      "detail": [
+        "100 Herbal-Ereignisse",
+        "20 Felder",
+        "19 Aussagen",
+        "5 Records",
+        "71 Ereignisse",
+        "29",
+        "Ausführbare Quellenregel",
+        "Die fünf vollständigen Artikel",
+        "nicht abgebildet",
+        "keine Entzifferung oder Übersetzung",
+        "f84 und f84r"
+      ]
+    },
+    {
+      "name": "build_summary_counts_exact",
+      "pass": true,
+      "detail": {
+        "events": 100,
+        "fields": 20,
+        "statements": 19,
+        "records": 5,
+        "recognized_events": 29,
+        "exemplar_only_events": 71
+      }
+    },
+    {
+      "name": "f84_and_f84r_declared_sealed",
+      "pass": true,
+      "detail": [
+        "f84",
+        "f84r"
+      ]
+    }
+  ],
+  "sealed": [
+    "f84",
+    "f84r"
+  ]
+}

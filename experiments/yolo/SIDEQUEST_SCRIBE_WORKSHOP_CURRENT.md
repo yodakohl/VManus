@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-22, after V72 of the authorized V71–V80 cycle.
+Updated: 2026-08-22, after V73 of the authorized V71–V80 cycle.
 
 Status: **creative working reconstruction, not a GDT result and not a
 translation**. Confirmed Voynich lexemes, sounds and plaintext clauses remain
@@ -19,7 +19,29 @@ Exactly ten pages are in scope:
 `f84` and `f84r` remain sealed. ZL3b, IT2a and RF1b are alternate readings of
 one manuscript. No additional page, image or semantic corpus was admitted.
 
-## V72 result in one sentence
+## V73 complete Herbal third edition
+
+All 100 Herbal events, 20 fields, 19 statements and five formal records now
+have a complete concrete working reading. The selected historical edition is
+an illustrated Herbal/Receptarium: the four unnamed whole-plant images own five
+articles (f10r has two records), while plant part, medium, preparation, amount,
+use and storage are supplied from one assumed master exemplar.
+
+The five compact article readings are:
+
+- H1: root portion, water extraction, small use portion and storage;
+- H2: two harvest-state fractions combined with oil into an external salve;
+- H3: wine extraction of flowers/leaves plus a retained oil preparation;
+- H4: clarified leaf wash followed by a warm honey poultice;
+- H5: short topical use of fresh sticky leaves plus a dried wine-honey extract.
+
+This is deliberately a full translation-shaped hypothesis, not a decipherment.
+Only 29/100 events have any prior mnemonic or formal support; 71/100 are opaque
+whole-card values supplied entirely by the local exemplar. The selected R2
+edition exposes 79 different unsupported nouns. R3's nonmedical plant-material
+processing edition remains fully compatible and is the strongest rival.
+
+## V72 owner-aware source statements retained
 
 All 116 prose statements now have a complete owner-aware source-class
 paraphrase covering all 381 events. Herbal uses the historical article reading;
@@ -265,6 +287,11 @@ not that it is the historical world.
 
 ## Current image-first artifacts
 
+- `sidequest_theory_candidates_v73/V73_FOUR_ROLE_SELECTION.md`;
+- `sidequest_theory_candidates_v73/V73_SELECTED_100_EVENT_INTERLINEAR.tsv`;
+- `sidequest_theory_candidates_v73/V73_SELECTED_20_FIELD_EDITION.tsv`;
+- `sidequest_theory_candidates_v73/V73_SELECTED_FIVE_ARTICLES.tsv`;
+- four complete Herbal editions and `V73_VALIDATION.json`;
 - `sidequest_theory_candidates_v72/V72_FOUR_ROLE_SELECTION.md`;
 - `sidequest_theory_candidates_v72/V72_SELECTED_116_STATEMENTS.tsv`;
 - four complete 116-statement editions and `V72_VALIDATION.json`;
@@ -305,6 +332,7 @@ corrector. Preserve independence until each role freezes its result.
 
 ## Next bounded step and stop
 
-V72 is complete. V73 is authorized by the frozen V71–V80 protocol and must
-produce the complete Herbal third edition. Do not add pages, start V81 or
-design a scientific/Voynich semantic experiment automatically.
+V73 is complete. V74 is authorized by the frozen V71–V80 protocol and must
+produce the complete Biological station-atlas third edition over the fixed
+281 events, 115 fields, 97 statements and six records. Do not add pages, start
+V81 or design a scientific/Voynich semantic experiment automatically.

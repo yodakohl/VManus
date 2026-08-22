@@ -1,0 +1,60 @@
+{
+  "experiment": "V73_R1_COMPLETE_HERBAL_THIRD_EDITION",
+  "status": "PASS",
+  "inputs": {
+    "v69_cards": "experiments/yolo/sidequest_theory_candidates_v69/V69_R4_FINAL_173_CARD_DICTIONARY.tsv",
+    "v69_events": "experiments/yolo/sidequest_theory_candidates_v69/V69_R4_FINAL_381_PROSE_EVENT_INTERLINEAR.tsv",
+    "v69_fields": "experiments/yolo/sidequest_theory_candidates_v69/V69_R4_FINAL_135_FIELD_EDITION.tsv",
+    "v70_selected_image_revision": "experiments/yolo/sidequest_theory_candidates_v70/V70_SELECTED_TEN_PAGE_IMAGE_REVISION.tsv",
+    "v71_selected_owners": "experiments/yolo/sidequest_theory_candidates_v71/V71_SELECTED_OWNER_LEDGER.tsv",
+    "v72_selected_statements": "experiments/yolo/sidequest_theory_candidates_v72/V72_SELECTED_116_STATEMENTS.tsv"
+  },
+  "counts": {
+    "events": 100,
+    "fields": 20,
+    "statements": 19,
+    "records": 5,
+    "recognized_parser_events": 29,
+    "exemplar_only_parser_events": 71,
+    "source_layers": {
+      "EXEMPLAR_ONLY": 66,
+      "FORMAL_CLOSURE_MARKER_WITH_EXEMPLAR_FILL": 5,
+      "KNOWN_CARD_AND_FORMAL_WITH_EXEMPLAR_FILL": 6,
+      "KNOWN_CARD_WITH_EXEMPLAR_FILL": 18,
+      "KNOWN_FORMAL_WITH_EXEMPLAR_FILL": 5
+    },
+    "known_card_occurrences": 24,
+    "known_formal_occurrences": 11,
+    "terminal_occurrences": 5
+  },
+  "checks": {
+    "exactly_100_events": true,
+    "event_serials_exact_1_to_100": true,
+    "exactly_20_fields": true,
+    "field_ids_exact_F001_to_F020": true,
+    "exactly_19_statements": true,
+    "exactly_5_records": true,
+    "pages_exactly_fixed_four_herbal": true,
+    "all_exact_cards_in_frozen_173_dictionary": true,
+    "all_owners_match_central_v71_whole_plants": true,
+    "all_owners_page_owner_only": true,
+    "all_event_defaults_nonempty_and_concrete": true,
+    "all_events_have_source_confidence_alternative_contradiction": true,
+    "recognized_parser_events_remain_29": true,
+    "exemplar_only_parser_events_remain_71": true,
+    "field_event_counts_match": true,
+    "every_default_verbatim_in_its_field": true,
+    "every_field_verbatim_in_its_article": true,
+    "five_article_headings": true,
+    "species_names_absent_from_defaults_fields_articles": true,
+    "no_new_card_labels": true
+  },
+  "constraints": {
+    "species_identified": false,
+    "new_card_or_stem_meaning": false,
+    "new_pages_read": false,
+    "sealed_pages_opened": false,
+    "active_v73_sibling_outputs_read": false,
+    "commit_or_push": false
+  }
+}
