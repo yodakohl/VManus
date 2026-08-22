@@ -1,7 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-22, after completing the Y/CHY, transfer-order and graded
-hold-family layer.
+Updated: 2026-08-22, after completing the source–flow–target grammar.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -20,7 +19,50 @@ Exactly ten pages are in scope:
 `f84` and `f84r` remain sealed. ZL3b, IT2a and RF1b are alternate readings of
 one manuscript. No additional page, image or semantic corpus was admitted.
 
-## Active component-complete working edition
+## Active source–flow–target working edition
+
+The current grammar adds one compact directional layer:
+
+```text
+AR        Quelle/Vorrat; aus/von
+AIR       fließende Flüssigkeit im Lauf
+AL        Ziel-/Arbeitsstelle; an/zu
+L+CHED    hinausführen
+P+CHED    hineinführen
+```
+
+Its strongest exact pairs are:
+
+```text
+lchedal   Auslassstelle      pchedal   Einfüllstelle
+lchedy    hinaus; Schluss    pchedy    hinein; Schluss
+```
+
+`AIR` is deliberately neither forced to pure water nor reduced to an empty
+geometric path. It denotes the working liquid while it moves in the local run.
+Five cards now form a coherent series: `chair=Flüssigkeitszulauf`,
+`kair=laufende Beckenflüssigkeit`, `okair=Flüssigkeit in den Lauf bringen`,
+`schedair=fließende Flüssigkeit durch den Lauf führen`, and
+`dairydy=Flüssigkeitslauf abschließen`.
+
+The formerly opaque `CHEO` receives the concrete default Auszugs-/Trägerflüssigkeit;
+`LDDY` becomes the learned one-card close “als Auflage befestigen”. Seven of
+the ten most frequent remaining learned whole cards are also reduced to
+existing components, including `olkain=mit einer weiteren Portion
+fortfahren`, `otchey=den nächsten Posten wählen`, `otchor=die nächste
+Zubereitung`, and `shedal=Ruhe-/Absetzstelle`.
+
+Relative to the prior edition, 34 of 173 cards, 68 of 381 events and 46 of 116
+statements are revised; all eleven prose records are regenerated. The active
+files are in `sidequest_semantic_directional_completion/`, led by
+`SELECTED_DIRECTIONAL_COMPLETION_REPORT.md`,
+`SELECTED_DIRECTIONAL_COMPONENT_LEXICON.tsv`,
+`SELECTED_173_DIRECTIONAL_DICTIONARY.tsv`,
+`SELECTED_381_DIRECTIONAL_INTERLINEAR.tsv`,
+`SELECTED_116_DIRECTIONAL_STATEMENTS.tsv`, and
+`SELECTED_11_RECORD_READINGS.md`. Validation passes all 36 checks.
+
+## Previous component-complete working edition
 
 The current edition retains the selected OK, CHD~CHED and contact-grade layer
 and closes the next requested components:
@@ -55,8 +97,8 @@ ordinary versus longer rest, and `solkey/solkeey/olkeedy` form one local
 collection-station family. These are bounded card families, not universal
 meanings of every visible `chk`, `sh` or `solk` substring.
 
-This completion revises 21 of 173 cards, 83 of 381 events and 60 of 116
-continuous statements relative to the prior closure. The active files are in
+This completion revised 21 of 173 cards, 83 of 381 events and 60 of 116
+continuous statements relative to its prior closure. Its files remain in
 `sidequest_semantic_component_completion/`, led by
 `SELECTED_COMPONENT_COMPLETION_REPORT.md`,
 `SELECTED_COMPONENT_LEXICON_V2.tsv`,
