@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-22, after V31 named Herbal-owner reconstruction.
+Updated: 2026-08-22, after V32 concrete Biological regimen reconstruction.
 
 Status: **speculative working theory, not a GDT result and not a
 translation**. This file is the compact authoritative entry point for the
@@ -983,6 +983,21 @@ other three are concrete defaults with live rivals, not settled botanical
 identifications. No visible string is read as any plant name. Full image,
 historical and recipe comparison:
 `sidequest_theory_candidates_v31/V31_NAMED_HERBAL_TRANSLATION.md`.
+
+## V32 concrete Biological purpose
+
+The three official Biological images and all 281 selected events now receive a
+single page-level medical workflow. f81v prepares a common medicated bath and
+base charge; f82r individualizes dose, partial bath/fumigation and rest; f83r
+performs local irrigation with controlled warming, openings and drainage.
+
+The selected broad owner is a women's humoral bath regimen. The best narrower
+bet is treatment of retained/irregular menses or preparation for conception by
+warming bath, sweating, rest, fumigation and local rinse, following procedures
+known from the Trotula tradition. Repeated women are patient/state icons rather
+than decoded individuals. General spa, abstract pharmaceutical process and
+humoral-flow readings remain live rivals. Full reconstruction:
+`sidequest_theory_candidates_v32/V32_COMPLETE_BIOLOGICAL_READING.md`.
 
 ## Generative model
 
