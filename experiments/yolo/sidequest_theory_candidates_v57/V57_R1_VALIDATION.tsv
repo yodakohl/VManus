@@ -1,0 +1,24 @@
+check	expected	observed	status	basis
+scope_pages	10	10	PASS	4 Herbal + 3 Biological + 3 Astro rows in local deck
+herbal_pages	4	4	PASS	f10r f11r f55v f56r
+biological_pages	3	3	PASS	f81v f82r f83r
+astro_pages	3	3	PASS	f67r2 f68r1 f69v
+prose_records	11	11	PASS	5 Herbal + 6 Biological
+herbal_fields	20	20	PASS	selected V53 synthesis
+biological_fields	115	115	PASS	selected V54 synthesis
+prose_fields	135	135	PASS	20 + 115
+herbal_events	100	100	PASS	selected V53 synthesis
+biological_events	281	281	PASS	selected V54 synthesis
+prose_events	381	381	PASS	100 + 281
+astro_loci	142	142	PASS	74 + 37 + 31
+astro_groups	395	395	PASS	190 + 65 + 140
+all_visible_groups	776	776	PASS	381 + 395
+open_fields	45	45	PASS	15 Herbal + 30 Biological
+closed_fields	90	90	PASS	5 Herbal + 85 Biological
+selected_anchors	145	145	PASS	32 Herbal + 113 Biological
+opaque_events	236	236	PASS	68 Herbal + 168 Biological
+roundtrip_tests_minimum	3	6	PASS	RT1-RT6
+field_grammar	NONCLOSE* TERMINAL?	NONCLOSE* TERMINAL?	PASS	report and tests keep terminal unique and final
+direct_f68_f69_join	0 licensed	0 licensed	PASS	0/28 same-index and 0/784 cross-grid full-form matches
+out_of_scope_page_references	0	0	PASS	artifact text scan
+semantic_proof_claims	0	0	PASS	explicit creative/teaching status and exemplar-only verdicts

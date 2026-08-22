@@ -1720,3 +1720,20 @@ events. They are useful workshop prompts but not established words. No full
 field sequence transfers; only `PRIOR?|LINK` and `USE?|MASS?` recur as
 normalized bigrams. Warm, rinse, and drain remain Biological-local. Primary
 artifact: `sidequest_theory_candidates_v56/V56_FOUR_ROLE_SELECTION.md`.
+
+### V57 multi-scribe learnability
+
+All four roles independently converge on an exemplar-driven workshop system:
+a small productive control grammar, field/closure rules, and position-aware
+rendering are taught directly, while a large local exact-card tail is copied
+from record and diagram exemplars. R3 makes this executable as eight states and
+fifteen transitions with a fail-closed rejection state.
+
+With a complete exemplar, formal identity and layout round-trip without loss.
+Without it, the hard shared tier covers only 45/381 prose events in 35/135
+fields and 236/381 events remain opaque. Thus several circa-1420 scribes could
+reproduce and locally vary the book, but the visible cards are not a recovered
+standalone semantic codec. Herbal/Bio source prose remains picture- and
+exemplar-dependent; Astro is learned as three separate lookup templates.
+Primary artifact:
+`sidequest_theory_candidates_v57/V57_FOUR_ROLE_SELECTION.md`.
