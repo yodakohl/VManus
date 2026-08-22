@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-22, after V33 integrated WHAT/HOW/WHEN practitioner reconstruction.
+Updated: 2026-08-22, after V34 reconstructed book frame and workshop.
 
 Status: **speculative working theory, not a GDT result and not a
 translation**. This file is the compact authoritative entry point for the
@@ -1013,6 +1013,23 @@ warm bath, cool wash, rest, repetition, straining, local application or
 withholding. A trained user must supply the conventional 28-station ordinal,
 because no visible f68→f69 label bridge has been recovered. Full manual:
 `sidequest_theory_candidates_v33/V33_PRACTITIONER_DECISION_MANUAL.md`.
+
+## V34 reconstructed book frame
+
+The selected working title is *Liber de virtutibus simplicium et balneis
+mulierum secundum cursum lunae*—“Book of the virtues of simples and women's
+baths according to the course of the Moon.” The short workshop title is
+*Practica balneorum*.
+
+The best production owner is a three-to-five-person urban/household medical
+workshop with overlapping compiler, illustrator, principal-scribe,
+assistant-scribe and corrector/user roles. Pictures are drawn first; common
+source clauses become whole cards; rare multilingual payload is copied from an
+exemplar; five templates and hand-specific rendering fit the text around the
+image. The selected reason for the script is proprietary multilingual shorthand,
+not necessarily secrecy or a letter cipher. Full title, reconstructed preface,
+production order and seven-lesson apprenticeship:
+`sidequest_theory_candidates_v34/V34_RECONSTRUCTED_TITLE_PREFACE_AND_WORKSHOP.md`.
 
 ## Generative model
 
