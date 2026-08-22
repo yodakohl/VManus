@@ -1,0 +1,24 @@
+stage	joint_tuple_id	surface_family	semantic_segmentation	stable_nucleus_de	card_default_de	occurrences	event_ids	statement_ids	pages	selection_rationale
+01_WATER_ROOT	12efe866f335461823a6	chair	CH_INLET+AIR_WATER	AIR=Wasser	Wasserzulauf	1	E006	H1-S001	f10r	Plant preparation, vessel and collection make an aqueous inlet coherent.
+01_WATER_ROOT	22fb87a5a83e5c3fb510	kair	K_BASIN+AIR_WATER	AIR=Wasser	Beckenwasser	1	E103	B1-S002	f81v	The visible f81v pool supplies the basin role.
+01_WATER_ROOT	7d2404c835b10a2c06af	okair	OK_START+AIR_WATER	OK=in Gang setzen; AIR=Wasser	Wasser in Gang setzen	1	E260	B3-S014	f83r	OK supplies activation while AIR keeps its material value.
+01_WATER_ROOT	b154ff779abe5f196c80	schedair	S_RENDERER+CHED_LEAD+AIR_WATER	CHED=führen; AIR=Wasser	Wasser weiterführen	1	E300	B3-S030	f83r	CHED supplies transfer while AIR stays water.
+01_WATER_ROOT	8aedd154964a78e555d6	dairydy	D_RENDERER+AIR_WATER+Y_REFERENT+DY_CLOSE	AIR=Wasser; Y=Posten; Endkarte=Schluss	Wasserlauf schließen; Schluss	1	E351	B4-S014	f83r	The learned terminal hull closes the water run.
+02_EXTRACT_ROOT	087a47b5423438cd6b6a	chokcheo	CH_RENDERER+OK_ADD+CHEO_EXTRACT	OK=zugeben; CHEO=Auszug	Auszug zugeben	1	E092	H5-S004	f56r	The same CHEO product can become the input to the next step.
+02_EXTRACT_ROOT	807591efc3d3f7ddbfab	cheoar	CHEO_EXTRACT+AR_SOURCE	CHEO=Auszug; AR=aus	Auszug entnehmen	1	E065	H4-S003	f55v	AR supplies source direction; CHEO remains the extract.
+03_BATCH_ROOT	7a4bb8136330ee4e6e56	chor|or|shor|sor	OR_BATCH	OR=Ansatz	Ansatz	7	E017|E025|E033|E034|E071|E254|E348	H2-S001|H2-S002|H2-S003|H4-S004|B3-S012|B4-S014	f10r|f55v|f83r	Seven events across three pages keep the same prepared-batch value.
+03_BATCH_ROOT	10488b911aae52b3b334	otchor|qotchor	OT_NEXT+OR_BATCH	OT=nächster; OR=Ansatz	nächster Ansatz	2	E024|E080	H2-S002|H5-S001	f10r|f56r	OT supplies order.
+03_BATCH_ROOT	dec401773c1f0347793d	cholor|olor	OL_PREVIOUS+OR_BATCH	OL=voriger; OR=Ansatz	voriger Ansatz	2	E028|E113	H2-S002|B1-S002	f10r|f81v	OL supplies previous-batch linkage.
+03_BATCH_ROOT	b9d7b6d68209a9019e7a	chochor	HO_INGREDIENT+OR_BATCH	HO=Zutat; OR=Ansatz	Zutatenansatz	1	E074	H5-S001	f56r	The composition predicts ingredient plus prepared batch without naming a plant.
+03_BATCH_ROOT	6afeb5c9ab9f6cbdea0d	orain	OR_BATCH+AIN_PORTION	OR=Ansatz; AIN=Portion	Ansatzportion	1	E073	H4-S004	f55v	AIN supplies portion.
+04_INGREDIENT_ROOT	2cc054357a929df85f64	cho|sho	HO_INGREDIENT	HO=Zutat	Zutat	4	E075|E078|E088|E094	H5-S001|H5-S003|H5-S005	f56r	One invariant card now covers plant material and the former local honey fill.
+05_LEARNED_MEDIUM_DECK	cb57b696b815fdef9cb7	shecthy	SHECTHY_TEMPERED_WHOLE_CARD	SHECTHY=temperiert	temperiert	1	E276	B3-S021	f83r	The card lies between rest and ready states; warmth is a local expansion, not a water root.
+05_LEARNED_MEDIUM_DECK	428a5e3662aa57b4b256	schoal	SCHOAL_WINE_DECOCTION_WHOLE_CARD	SCHOAL=Weinsud	Weinsud	1	E040	H3-S001	f11r	The complete extraction chain supports a compact learned wine-decoction card.
+05_LEARNED_MEDIUM_DECK	0f18de177ed7c878bf95	dl	DL_BATH_ADDITIVE_WHOLE_CARD	DL=Badzusatz	Badzusatz	2	E112|E129	B1-S002|B1-S006	f81v	Two occurrences share a bath-additive slot.
+05_LEARNED_MEDIUM_DECK	b5df9126607030b95175	cheey|shey	SHEY_CLEAR_EXTRACT_WHOLE_CARD	SHEY=Klarauszug	Klarauszug	4	E044|E197|E203|E353	H3-S001|B2-S010|B2-S012|B4-S015	f11r|f82r|f83r	Four post-separation endpoints share the clarified-product value.
+05_LEARNED_MEDIUM_DECK	d4a31dbcf1ed6d9e5aa9	tshey	TSHEY_RINSE_WATER_WHOLE_CARD	TSHEY=Spülwasser	Spülwasser	1	E212	B2-S015	f82r	A learned rinse-water card; no free TSH or SHEY composition is asserted.
+05_LEARNED_MEDIUM_DECK	cbb42a4fe68068325d6b	dshedy	DSHE_FRESH_WATER+DY_CLOSE	DSHE=Frischwasser; Endkarte=Schluss	Frischwasser; Schluss	1	E189	B2-S007	f82r	The exact card supplies fresh water and closes its cell.
+05_LEARNED_MEDIUM_DECK	98bdc4244c84cbef3321	rsheal	RSHEAL_WARM_WATER_WHOLE_CARD	RSHEAL=Warmwasser	Warmwasser	1	E222	B2-S017	f82r	A learned warm-water card at the second opening.
+05_LEARNED_MEDIUM_DECK	b2812c8283c3a62438bd	kchy	KCHY_DRAUGHT_WHOLE_CARD	KCHY=Trank	Trank	1	E049	H3-S003	f11r	The exact card names the prepared drink, not an entire instruction.
+05_LEARNED_MEDIUM_DECK	c71c72da4e09e0833392	kchoar	KCHOAR_USE_EXTRACT_WHOLE_CARD	KCHOAR=Gebrauchsauszug	Gebrauchsauszug	1	E096	H5-S005	f56r	The shorter product name removes the unsupported chest/cough content.
+05_LEARNED_MEDIUM_DECK	883a6708116c342cb10b	skar	SKAR_WARM_POUR_WHOLE_CARD	SKAR=Warmausguss	Warmausguss	1	E360	B4-S016	f83r	A compact learned product/action noun; no free SK or AR material root is exported.

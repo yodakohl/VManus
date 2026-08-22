@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-22, after completing the application/administration grammar.
+Updated: 2026-08-22, after completing the medium/substance grammar.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -19,9 +19,80 @@ Exactly ten pages are in scope:
 `f84` and `f84r` remain sealed. ZL3b, IT2a and RF1b are alternate readings of
 one manuscript. No additional page, image or semantic corpus was admitted.
 
-## Active application/administration working edition
+## Active medium/substance working edition
 
-The active prose edition now extends the preparation chain into one bounded
+The selected working lexicon now keeps ingredient, batch, extract, clarified
+product, water, passage and vessel apart:
+
+```text
+HO       ingredient             HO+OR       ingredient batch
+OR       batch                  OT+OR       next batch
+OL+OR    previous batch         OR+AIN      batch portion
+CHEO     extract                SHEY        clear extract
+AIR      water                  CKH         passage
+```
+
+The strongest new productive candidate is `AIR=WATER`. It remains invariant
+under five learned or compositional hulls:
+
+```text
+CHAIR       water inlet
+KAIR        basin water
+OKAIR       set water in motion
+SCHEDAIR    conduct water onward
+DAIRYDY     close the water run; close
+```
+
+This is deliberately more concrete than the former FLOWING LIQUID fallback.
+It makes a new prediction: another authorized AIR compound should still concern
+water, while its hull supplies the local operation. It does not promote a
+global `O=WATER` rule.
+
+`CHEO=EXTRACT` is now the reusable intermediate product: `CHEO+AR` takes an
+extract from a source and `OK+CHEO` adds an extract to the next step. The
+separate recurrent `SHEY=CLEAR EXTRACT` card remains the refined product after
+pressing, standing and straining. `OR=BATCH` replaces the more verbal
+PREPARATION value and predicts next, previous, ingredient and portioned
+batches.
+
+The exact `cho|sho` card is repaired from a plant-versus-honey contradiction to
+the atomic `HO=INGREDIENT`. Three occurrences may still be expanded as pictured
+plant ingredients and the fourth as honey, but neither local material is the
+card's invariant meaning. `HO+OR` therefore reads predictably as INGREDIENT
+BATCH.
+
+Specific media remain a learned specialist deck rather than a fictitious
+universal letter root:
+
+```text
+SCHOAL    wine decoction        DL        bath additive
+TSHEY     rinse water           DSHEDY    fresh water; close
+RSHEAL    warm water            SHECTHY   tempered
+KCHY      draught               KCHOAR    use extract
+SKAR      warm pour
+```
+
+These are short dictionary defaults, not compressed sentences. Oil remains
+unlocalized; honey is only a possible local INGREDIENT realization.
+
+Relative to the prior application edition, 27 of 173 exact-card defaults
+change after the technical candidate and central shortening are combined. The
+selected medium deck contains 23 cards and 38 events. All 381 events, 116
+statements and eleven records are regenerated. The active files are in
+`sidequest_semantic_medium_substance_completion/`, led by
+`SELECTED_MEDIUM_SUBSTANCE_COMPLETION_REPORT.md`,
+`SELECTED_MEDIUM_SUBSTANCE_COMPONENTS.tsv`,
+`SELECTED_MEDIUM_SUBSTANCE_PARADIGM.tsv`,
+`MEDIUM_SUBSTANCE_MODEL_COMPARISON.tsv`,
+`SELECTED_173_MEDIUM_SUBSTANCE_DICTIONARY.tsv`,
+`SELECTED_381_MEDIUM_SUBSTANCE_INTERLINEAR.tsv`,
+`SELECTED_116_MEDIUM_SUBSTANCE_SENTENCES.tsv` and
+`SELECTED_11_MEDIUM_SUBSTANCE_RECORDS.md`. Mechanical validation passes 43
+checks.
+
+## Previous application/administration working edition
+
+The previous prose edition extended the preparation chain into one bounded
 application branch:
 
 ```text
