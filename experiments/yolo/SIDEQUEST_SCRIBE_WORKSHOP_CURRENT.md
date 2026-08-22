@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-22, after V29 whole-card formulary phrase reconstruction.
+Updated: 2026-08-22, after V30 complete eleven-record source reconstruction.
 
 Status: **speculative working theory, not a GDT result and not a
 translation**. This file is the compact authoritative entry point for the
@@ -948,6 +948,27 @@ a whole formula rather than one word; rare exemplar cards carry plant,
 substance, site or special-operation content. The purely notational rival
 remains viable. Full phrasebook:
 `sidequest_theory_candidates_v29/V29_SEVENTEEN_CARD_SOURCE_PHRASEBOOK.tsv`.
+
+## V30 complete upstream record reconstruction
+
+The full 381-event prose layer is now reconstructed as eleven continuous
+source-style records rather than isolated card glosses. Every exact card
+expansion is retained in the audit TSV, while a second layer renders each
+record as readable German formulary prose. Nothing in the seven prose pages is
+left without a default reading.
+
+The resulting division is coherent: the five Herbal records read as illustrated
+simple-medicine articles with gathering, habitat, plant parts, preparation and
+application; the six Biological records read as operational bath/conduit sheets
+with measured charges, warming, settling, straining, openings, basins, draining
+and local application. This strengthens the upstream-formulary model because
+the same common card deck expands naturally under two register templates.
+
+It does not prove these particular ingredients or operations. A purely formal
+technical register could generate the same visible organization. Full readable
+edition and exact expansions:
+`sidequest_theory_candidates_v30/V30_RECONSTRUCTED_SOURCE_TEXT.md` and
+`V30_ELEVEN_RECORD_SOURCE_RECONSTRUCTIONS.tsv`.
 
 ## Generative model
 
