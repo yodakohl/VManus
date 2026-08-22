@@ -645,4 +645,3 @@ Ein Korrektor muss aus jeder Zeile wieder Seite, Instrument, Locus, komplette si
 - die 28 linken f69v-Plätze auf Mittel- und Rechtsrad übertragen;
 - f68- und f69-Adressen wegen ähnlicher Kardinalität verbinden;
 - ein konkretes historisches Instrument zur Bedeutung einer sichtbaren Gruppe erklären.
-
