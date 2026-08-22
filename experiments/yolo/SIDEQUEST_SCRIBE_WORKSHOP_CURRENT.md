@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-22, after V27 metadata correction of the V20–V26 chain.
+Updated: 2026-08-22, after V28 five-template workshop grammar.
 
 Status: **speculative working theory, not a GDT result and not a
 translation**. This file is the compact authoritative entry point for the
@@ -919,6 +919,21 @@ The V20–V26 descendant artifacts have been regenerated. All complete ledgers
 now have numeric confidence in `[0,1]` and nonnumeric source classes. The
 semantic theory and translations are unchanged; details are in
 `sidequest_theory_candidates_v27/V27_CORRECTION_REPORT.md`.
+
+## V28 five-template apprentice grammar
+
+All 135 prose fields collapse into five teachable production forms: 44
+one-card committed cells, 28 short committed operations, 18 multi-card
+committed operations, 15 open Herbal article clauses and 30 open Bio worksheet
+continuations. Together they cover every fixed prose field without changing a
+single meaning.
+
+The reconstructed workshop procedure is: draw first; inherit the pictured
+owner; choose common-deck and exemplar-tail cards; select one of five field
+templates; use repetition for additional typed actions or operands; finally
+apply hand/placement rendering. The reader reverses this by following field
+closure and carried state rather than physical line ends. The complete teaching
+rules are in `sidequest_theory_candidates_v28/V28_APPRENTICE_MANUAL.md`.
 
 ## Generative model
 
