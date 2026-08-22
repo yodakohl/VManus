@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-22, after V34 reconstructed book frame and workshop.
+Updated: 2026-08-22, after V49 atomized the provisional dictionary.
 
 Status: **speculative working theory, not a GDT result and not a
 translation**. This file is the compact authoritative entry point for the
@@ -1602,3 +1602,19 @@ with one invariant value across two exact cards. CH, CHY, CHE, OLK, Y and all
 other disputed candidates remain UNKNOWN. The rule-addressed inventory rises
 from 19 to 23 cards; 141 remain opaque. Primary artifact:
 `sidequest_theory_candidates_v48/V48_FOUR_ROLE_SELECTION.md`.
+
+### V49 atomic-gloss correction
+
+V48's `CHOR = Pflanzenmaterial zeitgebunden beschaffen` is withdrawn. It was
+an entire context-derived event, not a plausible stem value. Four independent
+roles split between `ZEIT?`, `SAMMELN?`, and `UNBEKANNT`; therefore both
+`CHOR` and `CHO` now remain unknown and `CHOR` is not decomposed as `CHO+R`.
+
+The surviving compact working layer separates three formal operations
+(`OK=SETZEN`, `OT=MARKIEREN`, `L=VERKNÜPFEN`), four weak one-word hypotheses
+(`AL=ZU?`, `E=BIS?`, `OR=ANSATZ?`, `CHEY=ANTEIL?`), and nine recurring
+whole-card mnemonics such as `AIIN=MASS?` and `EY=FERTIG?`. Whole-card
+mnemonics are not stems. All 173 cards, 381 events, and 135 fields retain their
+complete creative local defaults in a separate column, so a full sentence
+expansion can no longer masquerade as the meaning of a short unit. Primary
+artifact: `sidequest_theory_candidates_v49/V49_ATOMIC_FOUR_ROLE_SELECTION.md`.

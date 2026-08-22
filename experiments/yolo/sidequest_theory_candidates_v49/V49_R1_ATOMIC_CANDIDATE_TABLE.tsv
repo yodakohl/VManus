@@ -1,0 +1,20 @@
+unit	layer	atomic_value_German	decision	exact_cards	fixed_events	removed_overclaim	reason
+ok	PAGE_HOST	EINSETZEN	RETAIN_ATOMIC_SHARED_LEAD	5	24	spezifizierten Arbeitsposten einsetzen/aktivieren	Nur der abstrakte Einsatzoperator bleibt; Arbeitsposten und Spezifikation sind lokale Argumente.
+or	PAGE_HOST	MEDIUM	RETAIN_ATOMIC_SHARED_LEAD	2	8	bereitetes Ergebnis oder Arbeitsmedium	MEDIUM ist die kleinste gemeinsame Inhaltslesung; bereitet/fertig/frisch bleiben lokal.
+al	PAGE_HOST	ZIEL	RETAIN_ATOMIC_SHARED_LEAD	2	11	Ziel- oder Parallelstation	ZIEL deckt beide Karten ohne Objekt- oder Handlungsanteil ab.
+e	PAGE_HOST	BIS	RETAIN_ATOMIC_SHARED_LEAD	2	14	Vorgang bis zu einer Zustandsgrenze führen	BIS ist nur der Grenzoperator; Bereitschaft/Klarheit und Handlung stammen aus dem lokalen Satz.
+ot	PAGE_HOST	BEZUG	RETAIN_ATOMIC_SHARED_LEAD	3	7	markierten Bezug, Parameter oder Weg wählen	BEZUG ist die einzige atomare Schnittmenge; wählen/markiert/Weg sind nicht Teil des Werts.
+l	PAGE_HOST	ANSCHLUSS	RETAIN_ATOMIC_SHARED_LEAD	5	26	angeschlossene Station oder Fortsetzung	ANSCHLUSS ist eine formale Relation; Öl, Abziehen, Kochen und Station bleiben lokal.
+chey	PAGE_HOST	AUSWAHL	PROVISIONAL_ATOMIC_LEAD	2	3	ausgewählten Materialanteil aufnehmen	Nur Auswahl ist beiden lokalen Kartenlesungen gemeinsam; Material, Anteil und nehmen sind stille Argumente.
+chor	PAGE_HOST	ZEIT	PROVISIONAL_ATOMIC_LEAD_NOT_DECOMPOSED	2	3	Pflanzenmaterial zeitgebunden beschaffen	Vor Blüte und Frühjahr teilen nur einen Zeitbezug. CHOR ist nicht CHO+R; CHO bleibt unbekannt.
+aiin	EXACT_RECURRENT_WHOLE_CARD	MASS	ATOMIC_MNEMONIC_NOT_A_STEM	1	20	MASS-/STANDARDKARTE	Ein wiederkehrender exakter Kartentyp; der Kurzname behauptet keine produktive Zerlegung.
+ey	EXACT_RECURRENT_WHOLE_CARD	ENDZUSTAND	ATOMIC_MNEMONIC_NOT_A_STEM	1	4	SOLLZUSTANDSKARTE	Ein wiederkehrender exakter Kartentyp; der Kurzname behauptet keine produktive Zerlegung.
+oky	EXACT_RECURRENT_WHOLE_CARD	VERWENDUNG	ATOMIC_MNEMONIC_NOT_A_STEM	1	10	VERWENDUNGSKARTE	Ein wiederkehrender exakter Kartentyp; der Kurzname behauptet keine produktive Zerlegung.
+lche	EXACT_RECURRENT_WHOLE_CARD	ABLAUF	ATOMIC_MNEMONIC_NOT_A_STEM	1	8	ABLAUFKARTE	Ein wiederkehrender exakter Kartentyp; der Kurzname behauptet keine produktive Zerlegung.
+oke	EXACT_RECURRENT_WHOLE_CARD	SPÜLUNG	ATOMIC_MNEMONIC_NOT_A_STEM	1	8	SPÜLKARTE	Ein wiederkehrender exakter Kartentyp; der Kurzname behauptet keine produktive Zerlegung.
+cthy	EXACT_RECURRENT_WHOLE_CARD	BEREIT	ATOMIC_MNEMONIC_NOT_A_STEM	1	7	BEREITSCHAFTSKARTE	Ein wiederkehrender exakter Kartentyp; der Kurzname behauptet keine produktive Zerlegung.
+okeey	EXACT_RECURRENT_WHOLE_CARD	LAUWARM	ATOMIC_MNEMONIC_NOT_A_STEM	1	7	TEMPERIERKARTE	Ein wiederkehrender exakter Kartentyp; der Kurzname behauptet keine produktive Zerlegung.
+ckhy	EXACT_RECURRENT_WHOLE_CARD	KANAL	ATOMIC_MNEMONIC_NOT_A_STEM	1	4	VERBINDUNGSWEGKARTE	Ein wiederkehrender exakter Kartentyp; der Kurzname behauptet keine produktive Zerlegung.
+olor	EXACT_RECURRENT_WHOLE_CARD	VORHERIGES	ATOMIC_MNEMONIC_NOT_A_STEM	1	2	VORANSATZ-PRODUKTKARTE	Ein wiederkehrender exakter Kartentyp; der Kurzname behauptet keine produktive Zerlegung.
+cho	PAGE_HOST	UNBEKANNT	REJECT_AS_COMPONENT_OF_CHOR	2	2	keiner	CHO und CHOR sind verschiedene PAGE_HOSTs; die lokalen CHO-Karten liefern keinen gemeinsamen Wert.
+ch/chy/che/olk/y	PAGE_HOST	UNBEKANNT	KEEP_WITHDRAWN	11	43	verschiedene frühere Ereignisparaphrasen	Keine nichtzirkuläre atomare Schnittmenge im festen Panel.
