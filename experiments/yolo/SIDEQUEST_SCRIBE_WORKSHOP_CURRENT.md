@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-22, after V49 atomized the provisional dictionary.
+Updated: 2026-08-22, after V50 pressure-tested the active host glosses.
 
 Status: **speculative working theory, not a GDT result and not a
 translation**. This file is the compact authoritative entry point for the
@@ -1618,3 +1618,14 @@ mnemonics are not stems. All 173 cards, 381 events, and 135 fields retain their
 complete creative local defaults in a separate column, so a full sentence
 expansion can no longer masquerade as the meaning of a short unit. Primary
 artifact: `sidequest_theory_candidates_v49/V49_ATOMIC_FOUR_ROLE_SELECTION.md`.
+
+### V50 all-occurrence host pressure test
+
+Four roles audit all 93 occurrences and 21 exact cards belonging to the seven
+active V49 PAGE_HOST glosses. `OK=SETZEN`, `OT=MARKIEREN`, and
+`L=VERKNÜPFEN` survive only as formal editorial operations. The weak layer is
+reduced to `AL=AN?`, `OR=BEREITUNG?`, and `CHEY=TEIL?`. `E=BIS?` is withdrawn
+because every one of its 14 occurrences is already coupled to `CLOSE`; a host
+value cannot be isolated from terminal behavior. Long local defaults remain
+separate and complete. Primary artifact:
+`sidequest_theory_candidates_v50/V50_FOUR_ROLE_SELECTION.md`.
