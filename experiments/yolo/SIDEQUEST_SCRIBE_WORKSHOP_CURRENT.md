@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-22, after completing the medium/substance grammar.
+Updated: 2026-08-23, after completing the thermal/temporal/order grammar.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -19,7 +19,66 @@ Exactly ten pages are in scope:
 `f84` and `f84r` remain sealed. ZL3b, IT2a and RF1b are alternate readings of
 one manuscript. No additional page, image or semantic corpus was admitted.
 
-## Active medium/substance working edition
+## Active thermal/temporal/order working edition
+
+Four creative roles now converge on one small process grammar layered over the
+medium/substance edition:
+
+```text
+OT/OL + PROCESS + E/EE/EEE + Y/licensed close
+
+OT       following / next          OL       continuation
+OK+OK    again                     OK       set to work
+CHK      warm                      SHED     settle
+CTH      ready                     SOLK     collect
+E        grade I                   EE       grade II
+EEE      grade III                 Y        current item
+```
+
+The grade is deliberately ordinal rather than a clock: grade I is usually
+brief or mild, grade II sustained or longer, and grade III complete. `Y`
+carries the current item; it does not itself mean OPEN. A close is licensed
+only by the complete learned terminal construction. Bare visible `dy` cannot
+be read as CLOSE because the exact Y-referent card itself has an open `dy`
+surface.
+
+The order layer is now predictive rather than a list of unrelated phrases:
+
+```text
+OT+OR       following batch        OL+OR       continuation batch
+OT+AIIN     following measure      OL+AIN      further portion
+OT+AL       following site         OL+CHED     continue/close
+OK+OK+Y     set the item again
+```
+
+The learned thermal/time deck remains short and overrides accidental visible
+substrings: `QOTCHOL/OLTCHY=warm`, `ROL=still warm`, `LOL=warm`,
+`QEKY=raw`, `SHECTHY=tempered`, `TCHODY/CHARY/RAL=cool`,
+`ODY=cool/close`, `SHFYDAIIN=standing time`, `CHCKHAL=duration`,
+`CHLDAIIN=settling level`, and `CHEALROR=clarity point`. These are creative
+whole-card defaults, not confirmed words.
+
+The strongest exact-identity repair is `OLDY`. Its two occurrences now both
+mean `CONTINUE; CLOSE`; the former f83r expansion “gently warm the bath
+additive and finish” was removed because the same card did not carry heat on
+f55v.
+
+R3 supplies the selected structural base; R2 supplies the concrete
+`SHED=SETTLE` process and historical process vocabulary; R1 supplies the
+teaching rule and OLDY repair; R4 forces sentence-sized glosses back to short
+atoms. The central pass makes 23 lexical repairs across 58 events while
+retaining R3's 54-card structural revision and 106-row paradigm/counterexample
+audit. The complete 173-card, 381-event, 116-statement and eleven-record files
+are in `sidequest_semantic_thermal_temporal_completion/`, led by
+`SELECTED_THERMAL_TEMPORAL_REPORT.md`,
+`THERMAL_TEMPORAL_COMPONENTS.tsv`,
+`SELECTED_THERMAL_TEMPORAL_PARADIGM.tsv`,
+`SELECTED_173_THERMAL_TEMPORAL_DICTIONARY.tsv`,
+`SELECTED_381_THERMAL_TEMPORAL_INTERLINEAR.tsv`,
+`SELECTED_116_THERMAL_TEMPORAL_SENTENCES.tsv` and
+`SELECTED_11_THERMAL_TEMPORAL_RECORDS.md`. Validation passes.
+
+## Previous medium/substance working edition
 
 The selected working lexicon now keeps ingredient, batch, extract, clarified
 product, water, passage and vessel apart:
