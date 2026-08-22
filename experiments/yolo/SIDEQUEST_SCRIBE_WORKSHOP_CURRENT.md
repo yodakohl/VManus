@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-22, after the concrete semantic-stem search.
+Updated: 2026-08-22, after the historical compositional-analogue search.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -68,6 +68,47 @@ The selected synthesis and full working lexicon are in
 The active content hypothesis remains an illustrated practical compilation:
 plant preparations on the Herbal pages, bathing/washing/apparatus instructions
 on the Biological pages, and a separately memorized celestial lookup register.
+
+## Selected historical composition model
+
+Four independent searches compared period brevigraphy, Tironian/*notae iuris*
+mechanics, medical and alchemical signs, Italian mixed nomenclators, Lullian
+semantic alphabets, mensural notation, abbacus algebra and technical workshop
+notation. No single attested 1370–1450 system supplies all of the required
+features in one running script.
+
+The selected creative mechanism is therefore a tightly bounded
+**ROOT–AUXILIARY–NOMENCLATOR** reconstruction:
+
+```text
+first read a stable learned whole value if one exists;
+otherwise [instruction] + longest independent root + [argument] + [grade]
+          + [completion].
+```
+
+This synthesis uses period evidence for each mechanism without pretending that
+one surviving codebook contains the whole invention. TCC O.1.77 (ca.1450) is
+the closest single workshop writing witness; Italian ciphers of 1379–1440 are
+the closest whole-word-plus-productive-fallback architecture; Lullian and
+pseudo-Lullian alchemy supply the closest semantic-atom model; mensural
+notation supplies the cross-base modifier discipline.
+
+The rule already revises several arbitrary whole-card values. The strongest
+new predictions are `otol = danach weiter`, `oteey = danach temperieren`,
+`lchedar = aus einer Quelle/Station abziehen`, `qokaly = den laufenden Ansatz
+an die Zielstelle führen`, `olkain = mit einer weiteren Portion fortfahren`,
+`ykaiin = den laufenden Ansatz bemessen`, and `ykan` as a `YKAIN`-family
+portion rather than an invented white-wine word. `CHED` is now tested as the
+broader operation nucleus inside the `D/S/T/P/OT/OL/L+CHED(Y)` family.
+
+The complete historical comparison, fixed grammar and fourteen concrete
+revisions are in
+`sidequest_historical_compositional_analogue_search/SELECTED_HISTORICAL_ANALOGUE_REPORT.md`,
+`CANDIDATE_SYSTEM_MATRIX.tsv`, `COMPOSITION_RULE_CROSSWALK.tsv` and
+`PREDICTED_CARD_REVISIONS.tsv`.
+
+This improves the creative dictionary but does not establish a Voynich
+language, sound value or historical descent from any named system.
 
 ## V80 canonical third edition — cycle complete
 
