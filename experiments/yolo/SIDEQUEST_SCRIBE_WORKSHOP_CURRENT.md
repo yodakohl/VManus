@@ -1569,3 +1569,14 @@ relation), L (connected station), E/EY (state threshold), AR (source), and DY
 (completion). It explicitly separates AIIN from host AIN and visible OL from
 host OL. Primary artifact:
 `sidequest_theory_candidates_v45/V45_FOUR_ROLE_STEM_REVISED_TRANSLATION.md`.
+
+### V46 correction of forced stem meanings
+
+The V45 local translations were circularly reused as evidence for several
+two-example stem glosses. V46 withdraws CH, CHY, CHE, OLK, and Y to UNKNOWN;
+retains only OK as the main productive formal axis, OR as a provisional content
+family, and AL/E/OT/L as weak formal families. AIIN, EY, OKY, LCHE, OKE, CTHY,
+OKEEY, CKHY, and OLOR are recurrent whole cards rather than demonstrated
+stems. Complete local translations remain available but no longer count as
+host-meaning evidence. Primary artifact:
+`sidequest_theory_candidates_v46/V46_CONSOLIDATED_STEM_CORRECTION.md`.
