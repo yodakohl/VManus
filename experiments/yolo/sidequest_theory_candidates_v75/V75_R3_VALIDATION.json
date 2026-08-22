@@ -1,0 +1,419 @@
+{
+  "experiment": "V75_R3_CELESTIAL_MULTI_INSTRUMENT_THIRD_EDITION",
+  "status": "PASS",
+  "passed": 53,
+  "total": 53,
+  "failed": [],
+  "dimensions": {
+    "groups": 395,
+    "loci": 142,
+    "namespaces": 13,
+    "orientations": 36,
+    "instruments": 9
+  },
+  "checks": [
+    {
+      "name": "all_required_outputs_exist",
+      "pass": true,
+      "detail": [
+        "V75_R3_395_GROUP_LOOKUP_EDITION.tsv",
+        "V75_R3_142_LOCUS_LOOKUP_EDITION.tsv",
+        "V75_R3_NAMESPACE_REGISTRY.tsv",
+        "V75_R3_ORIENTATION_ALTERNATIVES.tsv",
+        "V75_R3_INSTRUMENT_COMPARISON.tsv",
+        "V75_R3_TECHNICAL_REPORT.md",
+        "V75_R3_BUILD_SUMMARY.json"
+      ]
+    },
+    {
+      "name": "exact_395_groups",
+      "pass": true,
+      "detail": 395
+    },
+    {
+      "name": "group_serials_1_through_395_once",
+      "pass": true,
+      "detail": [
+        "1",
+        "395"
+      ]
+    },
+    {
+      "name": "unified_ordinals_382_through_776_once",
+      "pass": true,
+      "detail": [
+        "382",
+        "776"
+      ]
+    },
+    {
+      "name": "exact_142_loci",
+      "pass": true,
+      "detail": 142
+    },
+    {
+      "name": "only_fixed_three_astro_pages",
+      "pass": true,
+      "detail": [
+        "f67r2",
+        "f68r1",
+        "f69v"
+      ]
+    },
+    {
+      "name": "group_counts_by_page",
+      "pass": true,
+      "detail": {
+        "f67r2": 190,
+        "f68r1": 65,
+        "f69v": 140
+      }
+    },
+    {
+      "name": "locus_counts_by_page",
+      "pass": true,
+      "detail": {
+        "f67r2": 74,
+        "f68r1": 37,
+        "f69v": 31
+      }
+    },
+    {
+      "name": "all_group_cells_nonblank",
+      "pass": true,
+      "detail": "395 complete rows"
+    },
+    {
+      "name": "all_locus_cells_nonblank",
+      "pass": true,
+      "detail": "142 complete rows"
+    },
+    {
+      "name": "all_namespace_cells_nonblank",
+      "pass": true,
+      "detail": "13 complete rows"
+    },
+    {
+      "name": "all_orientation_cells_nonblank",
+      "pass": true,
+      "detail": "36 complete rows"
+    },
+    {
+      "name": "all_instrument_cells_nonblank",
+      "pass": true,
+      "detail": "9 complete rows"
+    },
+    {
+      "name": "exact_surface_identity_and_archived_address_retained",
+      "pass": true,
+      "detail": "395/395"
+    },
+    {
+      "name": "exact_locus_group_and_surface_sequences_retained",
+      "pass": true,
+      "detail": "142/142"
+    },
+    {
+      "name": "all_group_owners_match_v71",
+      "pass": true,
+      "detail": "395/395"
+    },
+    {
+      "name": "frozen_locus_owner_status_distribution",
+      "pass": true,
+      "detail": {
+        "DIRECT_VISIBLE": 93,
+        "INHERITED_VISIBLE": 39,
+        "UNRESOLVED": 7,
+        "PAGE_OWNER_ONLY": 3
+      }
+    },
+    {
+      "name": "every_group_has_exact_local_namespace_address",
+      "pass": true,
+      "detail": "395/395"
+    },
+    {
+      "name": "every_group_has_concrete_lookup_default",
+      "pass": true,
+      "detail": 192
+    },
+    {
+      "name": "every_default_quotes_exact_surface",
+      "pass": true,
+      "detail": "395/395"
+    },
+    {
+      "name": "all_confidences_low_and_bounded",
+      "pass": true,
+      "detail": [
+        "0.08",
+        "0.10",
+        "0.22",
+        "0.24",
+        "0.30",
+        "0.32",
+        "0.41",
+        "0.43"
+      ]
+    },
+    {
+      "name": "all_groups_have_source_class",
+      "pass": true,
+      "detail": {
+        "OPAQUE_GROUP_AT_DIRECT_VISIBLE_LOCAL_SLOT": 116,
+        "OPAQUE_GROUP_IN_LOCAL_RING_OR_BAND_TEXT": 137,
+        "OPAQUE_GROUP_AT_INHERITED_LOCAL_FIELD": 92,
+        "OPAQUE_GROUP_IN_UNRESOLVED_LEGEND_OR_CENTRE_QUARANTINE": 24,
+        "OPAQUE_GROUP_IN_PANEL_HEADER": 26
+      }
+    },
+    {
+      "name": "all_groups_have_both_rivals",
+      "pass": true,
+      "detail": "395/395"
+    },
+    {
+      "name": "all_groups_have_substantial_contradiction",
+      "pass": true,
+      "detail": 280
+    },
+    {
+      "name": "all_groups_have_semantic_ceiling",
+      "pass": true,
+      "detail": "395/395"
+    },
+    {
+      "name": "no_f68_f69_join_or_prose_card_value",
+      "pass": true,
+      "detail": "395/395"
+    },
+    {
+      "name": "old_models_explicitly_corrected_every_group",
+      "pass": true,
+      "detail": "395/395"
+    },
+    {
+      "name": "no_old_model_in_positive_lookup_defaults",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "exact_13_namespaces",
+      "pass": true,
+      "detail": 13
+    },
+    {
+      "name": "namespace_group_locus_totals",
+      "pass": true,
+      "detail": {
+        "groups": 395,
+        "loci": 142
+      }
+    },
+    {
+      "name": "all_namespaces_select_no_orientation",
+      "pass": true,
+      "detail": "13/13"
+    },
+    {
+      "name": "all_namespaces_reset_and_forbid_crosspage_join",
+      "pass": true,
+      "detail": "13/13"
+    },
+    {
+      "name": "f67_two_wheels_plus_unresolved_legend_only",
+      "pass": true,
+      "detail": [
+        "F67_LEFT_WHEEL_NS",
+        "F67_PAIRED_LEGEND_QUARANTINE_NS",
+        "F67_RIGHT_WHEEL_NS"
+      ]
+    },
+    {
+      "name": "f67_wheels_disjoint_and_complete",
+      "pass": true,
+      "detail": {
+        "left": 50,
+        "right": 23
+      }
+    },
+    {
+      "name": "f68_28_local_star_loci_direct_but_panel_unassigned",
+      "pass": true,
+      "detail": 28
+    },
+    {
+      "name": "f68_multicentre_and_header_uncertainty_retained",
+      "pass": true,
+      "detail": [
+        "f68r1.4",
+        "f68r1.5",
+        "f68r1.6",
+        "f68r1.7",
+        "f68r1.8",
+        "f68r1.37"
+      ]
+    },
+    {
+      "name": "f69_exactly_28_left_unordered_slots",
+      "pass": true,
+      "detail": 28
+    },
+    {
+      "name": "f69_middle_and_right_have_ring_text_only",
+      "pass": true,
+      "detail": [
+        [
+          "f69v.2",
+          "F69_MIDDLE_WHEEL_NS"
+        ],
+        [
+          "f69v.3",
+          "F69_RIGHT_WHEEL_NS"
+        ]
+      ]
+    },
+    {
+      "name": "f69_three_wheels_never_share_namespace",
+      "pass": true,
+      "detail": [
+        "F69_LEFT_WHEEL_NS",
+        "F69_MIDDLE_WHEEL_NS",
+        "F69_RIGHT_WHEEL_NS"
+      ]
+    },
+    {
+      "name": "exact_nine_visible_instruments",
+      "pass": true,
+      "detail": 9
+    },
+    {
+      "name": "instrument_inventory_exact",
+      "pass": true,
+      "detail": [
+        "F67_LEFT_WHEEL",
+        "F67_RIGHT_WHEEL",
+        "F68_FACE_CENTRE_SET",
+        "F68_LEFT_OPEN_STAR_FIELD",
+        "F68_MIDDLE_SECTORIZED_SUBMAP",
+        "F68_RIGHT_OPEN_STAR_FIELD",
+        "F69_LEFT_28_SLOT_WHEEL",
+        "F69_MIDDLE_WAVE_WHEEL",
+        "F69_RIGHT_FACE_RAY_WHEEL"
+      ]
+    },
+    {
+      "name": "instrument_comparison_has_three_readings",
+      "pass": true,
+      "detail": "9/9"
+    },
+    {
+      "name": "no_instrument_selects_start_direction_or_join",
+      "pass": true,
+      "detail": "9/9"
+    },
+    {
+      "name": "exact_36_orientation_alternatives",
+      "pass": true,
+      "detail": 36
+    },
+    {
+      "name": "four_orientation_alternatives_per_instrument",
+      "pass": true,
+      "detail": {
+        "F67_LEFT_WHEEL": 4,
+        "F67_RIGHT_WHEEL": 4,
+        "F68_LEFT_OPEN_STAR_FIELD": 4,
+        "F68_MIDDLE_SECTORIZED_SUBMAP": 4,
+        "F68_RIGHT_OPEN_STAR_FIELD": 4,
+        "F68_FACE_CENTRE_SET": 4,
+        "F69_LEFT_28_SLOT_WHEEL": 4,
+        "F69_MIDDLE_WAVE_WHEEL": 4,
+        "F69_RIGHT_FACE_RAY_WHEEL": 4
+      }
+    },
+    {
+      "name": "no_orientation_selected",
+      "pass": true,
+      "detail": "36/36"
+    },
+    {
+      "name": "orientation_never_aligns_f68_to_f69",
+      "pass": true,
+      "detail": "36/36"
+    },
+    {
+      "name": "circular_instruments_enumerate_direct_cw_ccw",
+      "pass": true,
+      "detail": [
+        "F67_LEFT_WHEEL",
+        "F67_RIGHT_WHEEL",
+        "F68_MIDDLE_SECTORIZED_SUBMAP",
+        "F69_LEFT_28_SLOT_WHEEL",
+        "F69_MIDDLE_WAVE_WHEEL",
+        "F69_RIGHT_FACE_RAY_WHEEL"
+      ]
+    },
+    {
+      "name": "group_to_locus_roundtrip_exact",
+      "pass": true,
+      "detail": "142/142"
+    },
+    {
+      "name": "report_contains_scope_corrections_and_ceiling",
+      "pass": true,
+      "detail": [
+        "395 Astro-Gruppen",
+        "142 Loci",
+        "keine virtuelle seitenweite 7×12-Matrix",
+        "kein einziges Zentrum-plus-28-Objekt",
+        "keine geordnete seitenweite 28-Regelfolge",
+        "f67r2 — zwei Räder",
+        "f68r1 — mehrere Paneele und Zentren",
+        "f69v — drei Räder; 28 nur links",
+        "36 explizite Alternativen",
+        "keine Entzifferung oder Übersetzung",
+        "f84 und f84r"
+      ]
+    },
+    {
+      "name": "build_summary_counts_exact",
+      "pass": true,
+      "detail": {
+        "groups": 395,
+        "loci": 142,
+        "namespaces": 13,
+        "orientation_alternatives": 36,
+        "instruments": 9,
+        "f67_groups": 190,
+        "f68_groups": 65,
+        "f69_groups": 140,
+        "f69_left_unordered_slots": 28
+      }
+    },
+    {
+      "name": "summary_no_orientation_join_or_prose_cards",
+      "pass": true,
+      "detail": {
+        "selected_orientation": "NONE",
+        "crosspage_mapping": "NONE",
+        "prose_card_values": "NONE"
+      }
+    },
+    {
+      "name": "f84_and_f84r_declared_sealed",
+      "pass": true,
+      "detail": [
+        "f84",
+        "f84r"
+      ]
+    }
+  ],
+  "selected_orientation": "NONE",
+  "crosspage_mapping": "NONE",
+  "sealed": [
+    "f84",
+    "f84r"
+  ]
+}

@@ -38,6 +38,15 @@ Every proposed visible card receives one concrete default or the explicit
 memorized value `EXEMPLAR_VALUE_UNKNOWN`; components are not invented merely
 to avoid that label.
 
+### Dictionary-attestation amendment
+
+The user added the frozen rule in `SIDEQUEST_CODEBOOK_ATTESTATION_RULE.md`
+during V75. A portable card gloss may be called a word only when an actual
+1370–1450 codebook/nomenclator entry is cited with exact source, location and
+entry. Until V77 performs that audit, all old mnemonic glosses are
+`PROVISIONAL_UNATTESTED_MNEMONIC`; occurrence-bound master-exemplar prose is
+not a dictionary.
+
 ## Ten rounds
 
 ### V71 — image-to-text ownership map

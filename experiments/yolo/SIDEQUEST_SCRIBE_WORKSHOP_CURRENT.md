@@ -1,6 +1,7 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-22, after V74 of the authorized V71–V80 cycle.
+Updated: 2026-08-22, after V75 of the authorized V71–V80 cycle and the
+contemporary-codebook dictionary amendment.
 
 Status: **creative working reconstruction, not a GDT result and not a
 translation**. Confirmed Voynich lexemes, sounds and plaintext clauses remain
@@ -19,7 +20,42 @@ Exactly ten pages are in scope:
 `f84` and `f84r` remain sealed. ZL3b, IT2a and RF1b are alternate readings of
 one manuscript. No additional page, image or semantic corpus was admitted.
 
-## V74 complete Biological station atlas
+## V75 complete celestial multi-instrument edition
+
+All 395 Astro groups and 142 loci now have a concrete local copied-label
+reading. R2 supplies the historical celestial content; R3 supplies 13 strict
+local namespaces and 36 unselected orientation alternatives.
+
+- f67r2 is two separate celestial wheels, not a page-wide 7×12 table.
+- f68r1 is a multipanel star atlas with several centres and 28 locally
+  addressed but unordered star loci.
+- f69v is three separate wheels; only the left wheel has 28 local unordered
+  radial slots.
+
+Every visible group is a segment of a local exemplar label or rule. No group
+is thereby a translated celestial word. Start, direction, rotation, f68↔f69
+mapping and prose-card import are all absent.
+
+The leading historical expansion is an astronomical-calendar or
+iatromathematical lookup: sector relations, star-station notes and local
+choice/avoidance notices. An ordinary astronomical almanac and a purely
+iconographic mnemonic atlas remain equally important rivals.
+
+## New hard dictionary rule
+
+A portable card gloss may now be printed as a word only if a real surviving
+1370–1450 codebook/nomenclator contains the corresponding entry and the exact
+entry, historical key, date, shelfmark and location are cited. Ordinary prose
+or mere historical plausibility does not qualify.
+
+Therefore all old labels such as `MASS?`, `BEREIT?`, `SPÜLEN?`, `ABLASSEN?`,
+`ANSATZ?` and `ANWENDEN?` are immediately downgraded to
+`PROVISIONAL_UNATTESTED_MNEMONIC`. V77 must either supply exact contemporary
+codebook attestations or replace them with `EXEMPLAR_VALUE_UNKNOWN` /
+`FORMAL_LABEL_NOT_WORD`. Occurrence-bound translation prose in V73–V75 is not
+the dictionary and remains explicitly speculative.
+
+## V74 complete Biological station atlas retained
 
 All 281 Biological events, 115 fields, 97 statements and six records now have
 a concrete local working reading. R2 supplies the readable balneological
@@ -315,6 +351,12 @@ not that it is the historical world.
 
 ## Current image-first artifacts
 
+- `SIDEQUEST_CODEBOOK_ATTESTATION_RULE.md`;
+- `sidequest_theory_candidates_v75/V75_FOUR_ROLE_SELECTION.md`;
+- `sidequest_theory_candidates_v75/V75_SELECTED_395_GROUP_CELESTIAL_EDITION.tsv`;
+- `sidequest_theory_candidates_v75/V75_SELECTED_142_LOCUS_CELESTIAL_EDITION.tsv`;
+- selected instrument, namespace, orientation and source audits plus four role
+  editions and `V75_VALIDATION.json`;
 - `sidequest_theory_candidates_v74/V74_FOUR_ROLE_SELECTION.md`;
 - `sidequest_theory_candidates_v74/V74_SELECTED_281_EVENT_INTERLINEAR.tsv`;
 - `sidequest_theory_candidates_v74/V74_SELECTED_115_FIELD_EDITION.tsv`;
@@ -367,7 +409,8 @@ corrector. Preserve independence until each role freezes its result.
 
 ## Next bounded step and stop
 
-V74 is complete. V75 is authorized by the frozen V71–V80 protocol and must
-produce the complete celestial multi-instrument third edition over the fixed
-395 groups and 142 loci. Do not add pages, start V81 or design a
+V75 is complete. V76 is authorized by the frozen V71–V80 protocol and must
+compare the strongest historical book purpose with a genuinely different
+period rival using the three revised section editions. It must also respect
+the new dictionary-attestation rule. Do not add pages, start V81 or design a
 scientific/Voynich semantic experiment automatically.
