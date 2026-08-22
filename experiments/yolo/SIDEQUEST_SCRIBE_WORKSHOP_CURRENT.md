@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-22, after V52 separated field structure from sentence expansion.
+Updated: 2026-08-22, after V60 pressure-tested the eleven exact-card mnemonics.
 
 Status: **speculative working theory, not a GDT result and not a
 translation**. This file is the compact authoritative entry point for the
@@ -1772,3 +1772,22 @@ selected architecture is a domain-neutral exemplar machine; iatromedical
 WHAT/HOW/WHEN remains the narrow leading content default. Confirmed lexemes
 and plaintext clauses remain zero. Primary artifact:
 `sidequest_theory_candidates_v59/V59_FINAL_WORKING_THEORY.md`.
+
+### V60 exact-card mnemonic pressure test
+
+Four independent roles inspect all 85 occurrences of the eleven exposed exact
+joint-tuple cards without PAGE_HOST, substring, coordinate, or surface-form
+inheritance. The selected one-word working deck is now:
+
+```text
+MASS?  ANWENDEN?  BEREIT?  ANSATZ?  ZIEL?  KLAR?  VORIGES?  ANTEIL?
+TEMPERIEREN?  SPÜLEN?  ABLASSEN?
+```
+
+This revises six V59 labels mainly by stabilizing their source class. In
+particular EY means at most `KLAR?`, never the former clause-sized expansion
+“until the liquid runs clear”; OR is treated as a working-material noun, AL as
+a target argument, and OKEEY as an action. OKE and LCHE remain useful Bio
+defaults but are still 16/16 terminal-family confounded. No other exact card
+receives meaning. Primary artifact:
+`sidequest_theory_candidates_v60/V60_FOUR_ROLE_SELECTION.md`.

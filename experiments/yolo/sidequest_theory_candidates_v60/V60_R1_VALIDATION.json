@@ -1,0 +1,104 @@
+{
+  "status": "PASS",
+  "model": "V60_R1_EXACT_JOINT_TUPLE_MNEMONIC_AUDIT",
+  "counts": {
+    "canonical_exact_cards_audited": 11,
+    "canonical_occurrences_audited": 85,
+    "revised_dictionary_rows": 173,
+    "revised_event_rows": 381,
+    "frozen_field_rows_used_for_context": 135,
+    "retained_mnemonics": 6,
+    "revised_mnemonics": 5,
+    "changed_dictionary_mnemonic_cells": 5,
+    "changed_event_mnemonic_cells": 28,
+    "unchanged_dictionary_rows": 168,
+    "unchanged_event_rows": 353,
+    "nonunknown_mnemonic_dictionary_rows": 11,
+    "nonunknown_mnemonic_event_rows": 85,
+    "audited_fields": 57,
+    "audited_records": 11,
+    "audited_pages": 7,
+    "audited_herbal_occurrences": 24,
+    "audited_biological_occurrences": 61,
+    "audited_nonclose_occurrences": 69,
+    "audited_terminal_occurrences": 16
+  },
+  "occurrences_by_card": {
+    "AIIN": 20,
+    "OKY": 10,
+    "CTHY": 7,
+    "OR": 7,
+    "AL": 10,
+    "EY": 4,
+    "OLOR": 2,
+    "OTCHEY": 2,
+    "OKEEY": 7,
+    "OKE": 8,
+    "LCHE": 8
+  },
+  "selected_defaults": {
+    "AIIN": "Maß",
+    "OKY": "verwenden",
+    "CTHY": "bereit",
+    "OR": "Zubereitung",
+    "AL": "dorthin",
+    "EY": "klar",
+    "OLOR": "vom Vorigen",
+    "OTCHEY": "Anteil",
+    "OKEEY": "lauwarm",
+    "OKE": "spülen",
+    "LCHE": "ablassen"
+  },
+  "changed_cards": [
+    {
+      "joint_tuple_id": "0275fbf14e07935b0a45",
+      "from": "WARM?",
+      "to": "LAUWARM?"
+    },
+    {
+      "joint_tuple_id": "7a4bb8136330ee4e6e56",
+      "from": "BEREITUNG?",
+      "to": "ZUBEREITUNG?"
+    },
+    {
+      "joint_tuple_id": "dd0ecaf5e27d81befffc",
+      "from": "AN?",
+      "to": "DORTHIN?"
+    },
+    {
+      "joint_tuple_id": "dec401773c1f0347793d",
+      "from": "ZUVOR?",
+      "to": "VOM VORIGEN?"
+    },
+    {
+      "joint_tuple_id": "faf321940aed922846a9",
+      "from": "TEIL?",
+      "to": "ANTEIL?"
+    }
+  ],
+  "assertions": {
+    "semantic_lookup_uses_complete_joint_tuple_id_only": "PASS",
+    "surface_is_audit_only": "PASS",
+    "formal_components_do_not_transfer_meaning": "PASS",
+    "all_85_occurrences_listed_once": "PASS",
+    "one_short_default_and_two_distinct_rivals_per_card": "PASS",
+    "source_class_is_one_of_five_requested_classes": "PASS",
+    "all_inherited_cells_except_mnemonic_are_identical": "PASS",
+    "all_other_v59_card_and_event_values_remain_frozen": "PASS",
+    "v59_field_context_is_read_only_and_unchanged": "PASS",
+    "no_new_pages": "PASS",
+    "creative_defaults_are_not_semantic_proof": "PASS"
+  },
+  "source_sha256": {
+    "experiments/yolo/sidequest_theory_candidates_v59/V59_R1_FINAL_173_CARD_DICTIONARY.tsv": "b87d4f147dcee1acaf515c3413a266275e8d53c1560e5ca1c2cbcf340ae428bc",
+    "experiments/yolo/sidequest_theory_candidates_v59/V59_R1_FINAL_381_PROSE_EVENT_INTERLINEAR.tsv": "53c8885e0c0a88195f940174d8c2a904b790d5f61902fb27d248a4ed55140072",
+    "experiments/yolo/sidequest_theory_candidates_v59/V59_R1_FINAL_135_FIELD_EDITION.tsv": "0e13e560282a3db39b9d63e1bc6470e7eb6e2c9951b4e2002b7024b3ed80f9e8",
+    "experiments/yolo/sidequest_theory_candidates_v59/V59_R1_FINAL_WORKSHOP_EDITION_REPORT.md": "75adc221ed5498f839195fe8bc2d09ce8bcf72ce77ac2ddf9698d8ce20dfcc9c"
+  },
+  "output_sha256": {
+    "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_REVISED_173_CARD_DICTIONARY.tsv": "8259ec9557f1ffbaa78d9f974027b7c3fafbf8dde52c2d824d68cc12f99ca1d2",
+    "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_REVISED_381_EVENT_LEDGER.tsv": "6ed7bc179a56d017b8bb8d9eb250173a7a4a0b4088e1ea715b191a59b93c78f3",
+    "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_11_CARD_DECISIONS.tsv": "4d1f89f7cb9a716bb1a8bff49bb877421e783a83d1ddf3deb78c5ec0369b53cf",
+    "experiments/yolo/sidequest_theory_candidates_v60/V60_R1_85_OCCURRENCE_AUDIT.tsv": "f09a9bdf5effb988931ecc85c46d5da624eeebaca36a6dcc3b905566927dd452"
+  }
+}
