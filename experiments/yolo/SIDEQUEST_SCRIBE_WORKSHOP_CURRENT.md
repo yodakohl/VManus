@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-22, after the explicitly authorized V70 image-first audit.
+Updated: 2026-08-22, after V71 of the authorized V71–V80 cycle.
 
 Status: **creative working reconstruction, not a GDT result and not a
 translation**. Confirmed Voynich lexemes, sounds and plaintext clauses remain
@@ -19,7 +19,23 @@ Exactly ten pages are in scope:
 `f84` and `f84r` remain sealed. ZL3b, IT2a and RF1b are alternate readings of
 one manuscript. No additional page, image or semantic corpus was admitted.
 
-## V70 result in one sentence
+## V71 result in one sentence
+
+All 135 prose fields and 142 Astro loci now have a frozen image-owner status:
+106 direct, 126 inherited, 24 page-only and 21 unresolved. The selected rule is
+`VISIBLE OWNER -> LOCAL INHERITANCE -> MASTER-EXEMPLAR VALUE`; it supplies an
+elliptical object frame without turning any card into the name of that object.
+
+The selected map deliberately differs by register:
+
+- Herbal uses the whole unidentified pictured plant because no leader line
+  licenses field-to-part assignments.
+- Biological uses local contact-defined station owners and resets at actual
+  gaps; f82r F057/F058 remain unresolved.
+- Astro uses page-local ring, star and sector slots. The 28 f69v loci .4–.31
+  belong only to the left wheel and still have no start or direction.
+
+## V70 image result retained
 
 Direct original-detail inspection by four independent period-role readings
 selects an **image-first illustrated practical and celestial compendium**:
@@ -229,6 +245,9 @@ not that it is the historical world.
 
 ## Current image-first artifacts
 
+- `sidequest_theory_candidates_v71/V71_FOUR_ROLE_SELECTION.md`;
+- `sidequest_theory_candidates_v71/V71_SELECTED_OWNER_LEDGER.tsv`;
+- four complete 277-row role ledgers and `V71_VALIDATION.json`;
 - `sidequest_theory_candidates_v70/V70_FOUR_ROLE_IMAGE_SELECTION.md`;
 - `sidequest_theory_candidates_v70/V70_SELECTED_TEN_PAGE_IMAGE_REVISION.tsv`;
 - four role-specific ten-page inventories, contact tables and V69 pressure
@@ -261,8 +280,8 @@ backgrounds in `SIDEQUEST_FOUR_AGENT_BACKGROUNDS.md`: workshop master,
 historical medical/Herbal scribe, technical register writer and chancery
 corrector. Preserve independence until each role freezes its result.
 
-## Stop
+## Next bounded step and stop
 
-V70 is the single image-first round explicitly requested after V69. It is
-complete. Do not start V71, add pages or design a scientific/Voynich semantic
-experiment automatically.
+V71 is complete. V72 is authorized by the frozen V71–V80 protocol and must
+rebuild all 116 source statements under the V71 owners. Do not add pages,
+start V81 or design a scientific/Voynich semantic experiment automatically.

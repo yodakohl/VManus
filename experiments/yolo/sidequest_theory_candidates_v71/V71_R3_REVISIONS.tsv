@@ -1,0 +1,15 @@
+revision_id	scope	v69_default	v71_r3_revision	executable_effect	visible_basis	confidence
+R001	ALL_PROSE	ein OWNER konnte implizit über die ganze Seite fortlaufen	OWNER wird am Recordbeginn gesetzt und am Recordende gelöscht	kein H1→H2- oder B3→B4-Übertrag	sichtbare Seitenbesitzer plus V69-Recordgrenzen	HIGH
+R002	HERBAL	Pflanzenname und Zubereitung konnten als Bildargument erscheinen	nur ganze Pflanze oder sichtbarer Teil wird still getragen	Art, Wasser und Verfahren bleiben Exemplarwerte	vier Bilder ohne Gefäß oder Flüssigkeit	HIGH
+R003	f10r	beide Artikel konnten denselben ungeteilten Besitzer nutzen	H1 erhält Wurzelachsenposten; H2 oberen Sprossposten; beide resetten	keine inhaltliche Teilbedeutung einer Karte	sichtbar unterscheidbare Wurzel- und Oberteile	MEDIUM
+R004	f81v	gerichteter siebenstufiger Grundkreislauf	ein gemeinsames zweireihiges Figuren-/Beckenfeld	alle B1-Felder erben nur das gemeinsame Feld	eine Umgrenzung; keine Pfeile	HIGH
+R005	f82r_TOP	eine lineare Einzelmaschine	oberer Figuren-/Zylinderraum und mittlere Ring-/Knotenstation sind getrennte Owner	Owner-Reset am visuellen Stationswechsel	lokale Kontakte, aber keine durchgehende Seitekante	HIGH
+R006	f82r_MIDDLE	Linie und Liegepodest wurden als angeschlossen behandelt	locus 19 bleibt UNRESOLVED	keine Vererbung über den sichtbaren Spalt	V70 R3 E022 PROXIMITY_ONLY	HIGH
+R007	f82r_BOTTOM	unteres Feld war Endstation derselben Maschine	unteres Mehrfigurenfeld und Randstationen bilden neue lokale Owner	kein Ober→Unter-Fluss	V70 R3 E026 NO_CONTINUOUS_EDGE	HIGH
+R008	f83r_B3	langer Irrigationszyklus	drei Randstationen, eine ungelöste Lücke und die Hauptpaarstation	B3 darf Richtung oder Zyklus nicht erben	Randstationen ohne Kante; Hauptpaar mit ungerichtetem Bogen	HIGH
+R009	f83r_B4_B6	ein gemeinsamer Rücklauf	B4 Paar/Endstationen, B5 linker offener Lauf und B6 rechter Knoten sind lokal getrennt	Recordreset bleibt trotz gemeinsamer Seite	zwei verschiedene Unterläufe und offene Enden	HIGH
+R010	f67r2	sichtbar wörtliche 7×12-Seitenmatrix	linkes und rechtes Rad erhalten getrennte Namensräume	kein Locus verbindet beide ohne sichtbare Legende	zwei heterogene, unverbundene Kreisfelder	HIGH
+R011	f68r1	ein seitenweites Zentrum plus 28	28 lokale Sternstationen bleiben, ein Gesamtzentrum nicht	Zentralfelder bleiben UNRESOLVED	mindestens fünf Gesichtmedaillons und drei Paneele	HIGH
+R012	f69v	eine geordnete 28-Regelfolge	drei Radnamensräume; 28 lokale Slots nur links	Editorennummer ist keine Drehrichtung	drei Kreise ohne Kante, Start oder Zeiger	HIGH
+R013	ALL_ASTRO	gleiche Locusnummer konnte radübergreifend wirken	Namespace ist page- und wheel-lokal	keine f68↔f69- oder f69-internen Joins	V70 Kontaktcensus	HIGH
+R014	SEMANTIC_CEILING	Owner konnte wie ein Textwert klingen	Owner ist nur stilles sichtbares Argument	keine Wort-, Karten-, Stamm- oder Operatorbedeutung	Bildkontakt bestimmt nur Geometrie	HIGH

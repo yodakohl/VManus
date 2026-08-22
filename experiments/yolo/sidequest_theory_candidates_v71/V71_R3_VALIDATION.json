@@ -1,0 +1,206 @@
+{
+  "status": "PASS",
+  "gate_count": 24,
+  "passed_gates": 24,
+  "owner_rows": 277,
+  "status_counts": {
+    "DIRECT_VISIBLE": 106,
+    "INHERITED_VISIBLE": 141,
+    "PAGE_OWNER_ONLY": 9,
+    "UNRESOLVED": 21
+  },
+  "gates": [
+    {
+      "gate": "schema_complete",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "gate": "exact_277_rows",
+      "status": "PASS",
+      "detail": 277
+    },
+    {
+      "gate": "exact_135_prose",
+      "status": "PASS",
+      "detail": 135
+    },
+    {
+      "gate": "exact_142_astro",
+      "status": "PASS",
+      "detail": 142
+    },
+    {
+      "gate": "unique_owner_row_ids",
+      "status": "PASS",
+      "detail": 277
+    },
+    {
+      "gate": "prose_field_identity_and_order",
+      "status": "PASS",
+      "detail": {
+        "first": [
+          "F001",
+          "F002"
+        ],
+        "last": [
+          "F134",
+          "F135"
+        ]
+      }
+    },
+    {
+      "gate": "astro_locus_identity_and_order",
+      "status": "PASS",
+      "detail": {
+        "first": [
+          [
+            "A1",
+            "f67r2",
+            "f67r2.1"
+          ],
+          [
+            "A1",
+            "f67r2",
+            "f67r2.2"
+          ]
+        ],
+        "last": [
+          [
+            "A3",
+            "f69v",
+            "f69v.30"
+          ],
+          [
+            "A3",
+            "f69v",
+            "f69v.31"
+          ]
+        ]
+      }
+    },
+    {
+      "gate": "prose_event_sum_381",
+      "status": "PASS",
+      "detail": 381
+    },
+    {
+      "gate": "astro_group_sum_395",
+      "status": "PASS",
+      "detail": 395
+    },
+    {
+      "gate": "allowed_pages_only",
+      "status": "PASS",
+      "detail": [
+        "f10r",
+        "f11r",
+        "f55v",
+        "f56r",
+        "f67r2",
+        "f68r1",
+        "f69v",
+        "f81v",
+        "f82r",
+        "f83r"
+      ]
+    },
+    {
+      "gate": "f84_and_f84r_absent",
+      "status": "PASS",
+      "detail": "no sealed selector"
+    },
+    {
+      "gate": "ownership_status_enum",
+      "status": "PASS",
+      "detail": [
+        "DIRECT_VISIBLE",
+        "INHERITED_VISIBLE",
+        "PAGE_OWNER_ONLY",
+        "UNRESOLVED"
+      ]
+    },
+    {
+      "gate": "all_required_cells_nonempty",
+      "status": "PASS",
+      "detail": "all 277 rows complete"
+    },
+    {
+      "gate": "semantic_ceiling_constant",
+      "status": "PASS",
+      "detail": [
+        "VISIBLE_OWNER_NOT_WORD_CARD_STEM_OR_MEANING"
+      ]
+    },
+    {
+      "gate": "astro_page_local_namespaces",
+      "status": "PASS",
+      "detail": "A1/A2/A3 never cross pages"
+    },
+    {
+      "gate": "f69_exact_28_left_slots",
+      "status": "PASS",
+      "detail": 28
+    },
+    {
+      "gate": "f69_no_direction_or_join",
+      "status": "PASS",
+      "detail": "all 31 loci"
+    },
+    {
+      "gate": "f82_local_station_partition",
+      "status": "PASS",
+      "detail": [
+        "B2_LOWER_GREEN_MULTI_FIGURE_POOL",
+        "B2_LOWER_POOL_EDGE_STATIONS",
+        "B2_MIDDLE_LEFT_DEVICE_AND_INLINE_NODE",
+        "B2_MIDDLE_RIGHT_AMBIGUOUS_STATION",
+        "B2_UPPER_PAIRED_BASINS_AND_CYLINDER"
+      ]
+    },
+    {
+      "gate": "f82_gap_unresolved",
+      "status": "PASS",
+      "detail": [
+        "F057",
+        "F058"
+      ]
+    },
+    {
+      "gate": "bio_no_image_direction",
+      "status": "PASS",
+      "detail": "115 fields"
+    },
+    {
+      "gate": "f83_b5_b6_owner_separation",
+      "status": "PASS",
+      "detail": {
+        "B5": [
+          "B5_LEFT_OPEN_FRINGE_STATION"
+        ],
+        "B6": [
+          "B6_RIGHT_S_RUN_MULTIPORT_STATION"
+        ]
+      }
+    },
+    {
+      "gate": "report_complete_trace_ids",
+      "status": "PASS",
+      "detail": "all 277 source IDs occur"
+    },
+    {
+      "gate": "report_required_sections",
+      "status": "PASS",
+      "detail": "four headings"
+    },
+    {
+      "gate": "revision_rows_present",
+      "status": "PASS",
+      "detail": 14
+    }
+  ],
+  "sealed": [
+    "f84",
+    "f84r"
+  ]
+}
