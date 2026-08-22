@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-22, after V65 completed the Biological second edition.
+Updated: 2026-08-22, after V66 completed the Astro second edition.
 
 Status: **speculative working theory, not a GDT result and not a
 translation**. This file is the compact authoritative entry point for the
@@ -30,6 +30,15 @@ B6 are better as technical support notes. The pure waterwork rival loses only
 narrowly, 597 to 587 explicit assumption units. Only 90/281 Bio events are
 licensed by the bounded parser; 191 remain local exemplar content. The selected
 report is `sidequest_theory_candidates_v65/V65_FOUR_ROLE_SELECTION.md`.
+
+V66 supplies the three Astro lookup instruments. The concrete historical lead
+is a 7×12 planetary/zodiacal medical selector, a centre-plus-28 lunar-station
+catalogue, and an independent 28-rule election schedule. The formally cheaper
+rival is a generic calendar/work-plan system. All 395 groups have page-local
+exemplar readings, but no Astro surface is a translated word. f68r1 and f69v
+remain unjoined: each admits 56 equally visible orientations and shares no
+exact full entry. The selected report is
+`sidequest_theory_candidates_v66/V66_FOUR_ROLE_SELECTION.md`.
 
 ## Read this, not the archive
 
