@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-22, after V32 concrete Biological regimen reconstruction.
+Updated: 2026-08-22, after V33 integrated WHAT/HOW/WHEN practitioner reconstruction.
 
 Status: **speculative working theory, not a GDT result and not a
 translation**. This file is the compact authoritative entry point for the
@@ -998,6 +998,21 @@ known from the Trotula tradition. Repeated women are patient/state icons rather
 than decoded individuals. General spa, abstract pharmaceutical process and
 humoral-flow readings remain live rivals. Full reconstruction:
 `sidequest_theory_candidates_v32/V32_COMPLETE_BIOLOGICAL_READING.md`.
+
+## V33 integrated ten-page handbook
+
+The Herbal, Biological and Astro pages now form one executable consultation:
+choose a pictured simple and preparation; choose the affected place and bath
+configuration; use f67r2 to veto strong treatment of a body region governed by
+the Moon's sign; identify the current one-of-28 station on f68r1; consult its
+concrete f69v rule; then perform, modify, repeat or withhold the procedure.
+
+The strongest joined example is women's local treatment: Scorpio vetoes an
+intervention at genital/bladder regions; otherwise the f69 mansion rule selects
+warm bath, cool wash, rest, repetition, straining, local application or
+withholding. A trained user must supply the conventional 28-station ordinal,
+because no visible f68→f69 label bridge has been recovered. Full manual:
+`sidequest_theory_candidates_v33/V33_PRACTITIONER_DECISION_MANUAL.md`.
 
 ## Generative model
 
