@@ -1,0 +1,498 @@
+{
+  "experiment": "V74_R3_BIOLOGICAL_STATION_ATLAS_THIRD_EDITION",
+  "status": "PASS",
+  "passed": 56,
+  "total": 56,
+  "failed": [],
+  "dimensions": {
+    "events": 281,
+    "fields": 115,
+    "statements": 97,
+    "records": 6,
+    "stations": 16,
+    "graph_edges": 18
+  },
+  "checks": [
+    {
+      "name": "all_required_outputs_exist",
+      "pass": true,
+      "detail": [
+        "V74_R3_281_EVENT_INTERLINEAR.tsv",
+        "V74_R3_115_FIELD_EDITION.tsv",
+        "V74_R3_97_STATEMENT_EDITION.tsv",
+        "V74_R3_SIX_RECORD_EDITION.tsv",
+        "V74_R3_STATION_COMPARISON.tsv",
+        "V74_R3_LOCAL_PROCESS_GRAPHS.tsv",
+        "V74_R3_TECHNICAL_REPORT.md",
+        "V74_R3_BUILD_SUMMARY.json"
+      ]
+    },
+    {
+      "name": "exact_281_events",
+      "pass": true,
+      "detail": 281
+    },
+    {
+      "name": "event_serials_101_through_381_once",
+      "pass": true,
+      "detail": [
+        "101",
+        "381"
+      ]
+    },
+    {
+      "name": "exact_115_fields",
+      "pass": true,
+      "detail": 115
+    },
+    {
+      "name": "field_ids_F021_through_F135_once",
+      "pass": true,
+      "detail": [
+        "F021",
+        "F135"
+      ]
+    },
+    {
+      "name": "exact_97_statements",
+      "pass": true,
+      "detail": 97
+    },
+    {
+      "name": "statement_ids_match_frozen_v72",
+      "pass": true,
+      "detail": 97
+    },
+    {
+      "name": "exact_six_records",
+      "pass": true,
+      "detail": [
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6"
+      ]
+    },
+    {
+      "name": "only_f81v_f82r_f83r",
+      "pass": true,
+      "detail": [
+        "f81v",
+        "f82r",
+        "f83r"
+      ]
+    },
+    {
+      "name": "all_event_cells_nonblank",
+      "pass": true,
+      "detail": "281 complete rows"
+    },
+    {
+      "name": "all_field_cells_nonblank",
+      "pass": true,
+      "detail": "115 complete rows"
+    },
+    {
+      "name": "all_statement_cells_nonblank",
+      "pass": true,
+      "detail": "97 complete rows"
+    },
+    {
+      "name": "all_record_cells_nonblank",
+      "pass": true,
+      "detail": "6 complete rows"
+    },
+    {
+      "name": "all_station_cells_nonblank",
+      "pass": true,
+      "detail": "station comparison complete"
+    },
+    {
+      "name": "all_graph_cells_nonblank",
+      "pass": true,
+      "detail": "graph complete"
+    },
+    {
+      "name": "exact_opaque_event_and_control_identity_retained",
+      "pass": true,
+      "detail": [
+        "page",
+        "locus",
+        "record_unit_id",
+        "field_id",
+        "statement_id",
+        "joint_tuple_id",
+        "surface_display_only",
+        "formal_formula_opaque",
+        "terminal_status",
+        "parse_status",
+        "selected_exact_mnemonic",
+        "strict_formal_prompt",
+        "event_template"
+      ]
+    },
+    {
+      "name": "exact_field_membership_retained",
+      "pass": true,
+      "detail": "115/115"
+    },
+    {
+      "name": "all_event_owners_match_v71",
+      "pass": true,
+      "detail": "281/281"
+    },
+    {
+      "name": "frozen_owner_status_distribution",
+      "pass": true,
+      "detail": {
+        "PAGE_OWNER_ONLY": 1,
+        "INHERITED_VISIBLE": 87,
+        "DIRECT_VISIBLE": 13,
+        "UNRESOLVED": 14
+      }
+    },
+    {
+      "name": "complete_literal_layer_every_event",
+      "pass": true,
+      "detail": "8 immutable fragments per event"
+    },
+    {
+      "name": "frozen_191_exemplar_90_supported_split",
+      "pass": true,
+      "detail": {
+        "exemplar": 191,
+        "supported": 90
+      }
+    },
+    {
+      "name": "source_class_marks_all_exemplar_events",
+      "pass": true,
+      "detail": {
+        "FROZEN_EXACT_CARD_MNEMONIC_PLUS_CREATIVE_OPERAND": 56,
+        "FROZEN_FORMAL_CONTROL_PLUS_CREATIVE_OPERAND": 29,
+        "OCCURRENCE_EXEMPLAR_ONLY": 191,
+        "FROZEN_CARD_AND_FORMAL_CONTROL_PLUS_CREATIVE_OPERAND": 5
+      }
+    },
+    {
+      "name": "every_event_has_concrete_german_default",
+      "pass": true,
+      "detail": 52
+    },
+    {
+      "name": "all_event_confidences_low_and_bounded",
+      "pass": true,
+      "detail": [
+        "0.11",
+        "0.23",
+        "0.26",
+        "0.29",
+        "0.34",
+        "0.41",
+        "0.42",
+        "0.44",
+        "0.46",
+        "0.49"
+      ]
+    },
+    {
+      "name": "every_event_has_medical_rival",
+      "pass": true,
+      "detail": "281/281"
+    },
+    {
+      "name": "every_event_has_formal_rival",
+      "pass": true,
+      "detail": "281/281"
+    },
+    {
+      "name": "every_event_has_substantial_contradiction",
+      "pass": true,
+      "detail": 182
+    },
+    {
+      "name": "semantic_ceiling_every_event",
+      "pass": true,
+      "detail": "281/281"
+    },
+    {
+      "name": "exact_unresolved_field_set",
+      "pass": true,
+      "detail": [
+        "F057",
+        "F058",
+        "F087",
+        "F088",
+        "F089",
+        "F090",
+        "F091",
+        "F092",
+        "F093",
+        "F094",
+        "F095",
+        "F096",
+        "F097",
+        "F098"
+      ]
+    },
+    {
+      "name": "unresolved_events_quarantined",
+      "pass": true,
+      "detail": 32
+    },
+    {
+      "name": "unresolved_events_forbid_material_state_carry",
+      "pass": true,
+      "detail": 32
+    },
+    {
+      "name": "all_ten_in_record_owner_changes_break_physical_carry",
+      "pass": true,
+      "detail": [
+        "F053",
+        "F057",
+        "F059",
+        "F062",
+        "F075",
+        "F080",
+        "F087",
+        "F099",
+        "F120",
+        "F126"
+      ]
+    },
+    {
+      "name": "four_cross_statement_gaps_retained",
+      "pass": true,
+      "detail": [
+        "B2-S012",
+        "B3-S016",
+        "B3-S026",
+        "B4-S015"
+      ]
+    },
+    {
+      "name": "v72_statement_structure_and_paraphrase_retained",
+      "pass": true,
+      "detail": "97/97"
+    },
+    {
+      "name": "record_event_field_statement_counts_exact",
+      "pass": true,
+      "detail": {
+        "B1": [
+          66,
+          24,
+          21
+        ],
+        "B2": [
+          62,
+          26,
+          22
+        ],
+        "B3": [
+          86,
+          38,
+          34
+        ],
+        "B4": [
+          47,
+          20,
+          16
+        ],
+        "B5": [
+          11,
+          5,
+          3
+        ],
+        "B6": [
+          9,
+          2,
+          1
+        ]
+      }
+    },
+    {
+      "name": "B5_B6_hard_reset_in_record_rules",
+      "pass": true,
+      "detail": [
+        "BEGIN_CLEAR_OWNER_ACTIVE_TARGET_PREVIOUS;END_CLEAR_OWNER_ACTIVE_TARGET_PREVIOUS;NO_B5_TO_B6_CARRY",
+        "BEGIN_CLEAR_OWNER_ACTIVE_TARGET_PREVIOUS;END_CLEAR_OWNER_ACTIVE_TARGET_PREVIOUS;NO_B5_TO_B6_CARRY"
+      ]
+    },
+    {
+      "name": "exact_16_station_comparisons",
+      "pass": true,
+      "detail": 16
+    },
+    {
+      "name": "station_comparison_has_three_readings",
+      "pass": true,
+      "detail": "16/16"
+    },
+    {
+      "name": "unresolved_stations_have_formal_quarantine_lead",
+      "pass": true,
+      "detail": [
+        "B2_MIDDLE_RIGHT_AMBIGUOUS_STATION",
+        "B3_MARGIN_TO_MAIN_GAP_UNRESOLVED"
+      ]
+    },
+    {
+      "name": "graph_has_18_frozen_edges",
+      "pass": true,
+      "detail": 18
+    },
+    {
+      "name": "graph_never_has_directed_edge",
+      "pass": true,
+      "detail": [
+        "NONE",
+        "UNDIRECTED"
+      ]
+    },
+    {
+      "name": "graph_prohibits_global_flow_everywhere",
+      "pass": true,
+      "detail": "18/18"
+    },
+    {
+      "name": "graph_contains_contacts_gaps_unresolved_and_reset",
+      "pass": true,
+      "detail": [
+        "ADJACENT_FIELD_EDGE_NO_PIPE",
+        "COMMON_VISIBLE_ENCLOSURE",
+        "CONTACT_UNRESOLVED",
+        "NO_DIRECT_VISIBLE_EDGE",
+        "NO_VISIBLE_EDGE",
+        "RECORD_RESET",
+        "VISIBLE_LOCAL_ATTACHMENT_BUT_TEXT_OWNER_RESET",
+        "VISIBLE_LOCAL_CONTACT"
+      ]
+    },
+    {
+      "name": "graph_has_explicit_B5_to_B6_no_carry",
+      "pass": true,
+      "detail": [
+        {
+          "graph_edge_id": "V74R3G018",
+          "page": "f83r",
+          "record_scope": "B5_TO_B6",
+          "endpoint_a": "B5_LEFT_OPEN_FRINGE_STATION",
+          "endpoint_b": "B6_RIGHT_S_RUN_MULTIPORT_STATION",
+          "edge_status": "RECORD_RESET",
+          "directedness": "NONE",
+          "visible_basis_or_reset": "B5 closes before independent B6 begins",
+          "permitted_register_or_material_carry": "FORBID_ALL_REGISTER_CARRY",
+          "prohibited_inference": "NO_GLOBAL_FLOW;NO_SOURCE_SINK;NO_RETURN_DIRECTION;NO_CROSS_RECORD_INHERITANCE"
+        }
+      ]
+    },
+    {
+      "name": "both_B3_and_B4_main_pairs_visible_and_undirected",
+      "pass": true,
+      "detail": [
+        [
+          "B3",
+          "UNDIRECTED"
+        ],
+        [
+          "B4",
+          "UNDIRECTED"
+        ]
+      ]
+    },
+    {
+      "name": "frozen_85_terminal_forms",
+      "pass": true,
+      "detail": 85
+    },
+    {
+      "name": "only_16_typed_flush_or_drain_events",
+      "pass": true,
+      "detail": {
+        "TERMINAL_FLUSH": 8,
+        "TERMINAL_DRAIN": 8
+      }
+    },
+    {
+      "name": "generic_close_not_promoted_to_physical_operation",
+      "pass": true,
+      "detail": 69
+    },
+    {
+      "name": "no_global_direction_in_event_constraints",
+      "pass": true,
+      "detail": "281/281"
+    },
+    {
+      "name": "no_positive_global_direction_language",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "field_event_sequences_roundtrip",
+      "pass": true,
+      "detail": "115/115"
+    },
+    {
+      "name": "statement_event_total_281",
+      "pass": true,
+      "detail": 281
+    },
+    {
+      "name": "report_contains_complete_scope_gaps_and_ceiling",
+      "pass": true,
+      "detail": [
+        "281 Ereignisse",
+        "115 Felder",
+        "97 Aussagen",
+        "6 Records",
+        "191",
+        "90",
+        "Ausführbare Registerregel",
+        "Kontaktgraph und harte Sperren",
+        "B5 -> B6",
+        "F057–F058",
+        "F087–F098",
+        "keine Entzifferung oder Übersetzung",
+        "f84 und f84r"
+      ]
+    },
+    {
+      "name": "build_summary_counts_exact",
+      "pass": true,
+      "detail": {
+        "events": 281,
+        "fields": 115,
+        "statements": 97,
+        "records": 6,
+        "station_owners": 16,
+        "graph_edges": 18,
+        "recognized_or_formal_events": 90,
+        "exemplar_only_events": 191,
+        "unresolved_fields": 14
+      }
+    },
+    {
+      "name": "build_summary_denies_global_direction",
+      "pass": true,
+      "detail": "NOT_INFERRED"
+    },
+    {
+      "name": "f84_and_f84r_declared_sealed",
+      "pass": true,
+      "detail": [
+        "f84",
+        "f84r"
+      ]
+    }
+  ],
+  "global_direction": "NOT_INFERRED",
+  "sealed": [
+    "f84",
+    "f84r"
+  ]
+}

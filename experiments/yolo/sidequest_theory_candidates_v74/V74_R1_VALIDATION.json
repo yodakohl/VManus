@@ -1,0 +1,67 @@
+{
+  "experiment": "V74_R1_COMPLETE_BIOLOGICAL_STATION_ATLAS_THIRD_EDITION",
+  "status": "PASS",
+  "counts": {
+    "events": 281,
+    "fields": 115,
+    "statements": 97,
+    "records": 6,
+    "station_owners": 16,
+    "recognized_parser_events": 90,
+    "exemplar_only_parser_events": 191,
+    "source_layers": {
+      "EXEMPLAR_ONLY": 122,
+      "FORMAL_CLOSURE_MARKER_WITH_EXEMPLAR_FILL": 69,
+      "KNOWN_CARD_AND_FORMAL_WITH_EXEMPLAR_FILL": 5,
+      "KNOWN_CARD_WITH_EXEMPLAR_FILL": 56,
+      "KNOWN_FORMAL_WITH_EXEMPLAR_FILL": 29
+    },
+    "owner_statuses_events": {
+      "DIRECT_VISIBLE": 29,
+      "INHERITED_VISIBLE": 219,
+      "PAGE_OWNER_ONLY": 1,
+      "UNRESOLVED": 32
+    },
+    "local_direction_events": 54,
+    "internal_statement_owner_resets": 4
+  },
+  "checks": {
+    "exactly_281_event_rows": true,
+    "event_serials_exact_101_to_381": true,
+    "exactly_115_field_rows": true,
+    "field_ids_exact_F021_to_F135": true,
+    "exactly_97_statement_rows": true,
+    "statement_ids_unique_and_match_source": true,
+    "exactly_six_records": true,
+    "pages_exactly_fixed_bio_three": true,
+    "event_identity_and_membership_match_source": true,
+    "every_literal_layer_contains_exact_identity": true,
+    "all_event_required_columns_nonempty": true,
+    "all_defaults_are_complete_sentences": true,
+    "all_event_owners_match_v71": true,
+    "field_owner_transitions_exact": true,
+    "unresolved_fields_retained": true,
+    "recognized_parser_events_remain_90": true,
+    "exemplar_only_parser_events_remain_191": true,
+    "field_event_counts_and_serials_match": true,
+    "statement_event_counts_match": true,
+    "exactly_four_internal_statement_owner_resets": true,
+    "statement_owner_resets_match_v71": true,
+    "reset_statements_explicitly_deny_connection": true,
+    "global_flow_never_claimed": true,
+    "local_direction_is_explicitly_bounded": true,
+    "all_three_readings_present_per_event": true,
+    "every_field_verbatim_in_continuous_edition": true,
+    "all_16_station_headings_present": true,
+    "six_record_headings_present": true,
+    "no_new_card_labels": true
+  },
+  "constraints": {
+    "global_flow_direction_invented": false,
+    "new_card_stem_sound_language_meaning": false,
+    "new_pages_read": false,
+    "sealed_pages_opened": false,
+    "active_v74_sibling_outputs_read": false,
+    "commit_or_push": false
+  }
+}

@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-22, after V73 of the authorized V71–V80 cycle.
+Updated: 2026-08-22, after V74 of the authorized V71–V80 cycle.
 
 Status: **creative working reconstruction, not a GDT result and not a
 translation**. Confirmed Voynich lexemes, sounds and plaintext clauses remain
@@ -19,7 +19,35 @@ Exactly ten pages are in scope:
 `f84` and `f84r` remain sealed. ZL3b, IT2a and RF1b are alternate readings of
 one manuscript. No additional page, image or semantic corpus was admitted.
 
-## V73 complete Herbal third edition
+## V74 complete Biological station atlas
+
+All 281 Biological events, 115 fields, 97 statements and six records now have
+a concrete local working reading. R2 supplies the readable balneological
+content; R3 supplies a mandatory 18-edge contact graph in which every edge is
+`UNDIRECTED` or `NONE`.
+
+The selected rule is:
+
+```text
+smallest local figure / pool / vessel / conduit owner
+  -> occurrence-bound bath, wash, application or apparatus value
+  -> local field close
+  -> erase substance, target and direction at every visible gap
+```
+
+The edition has 16 local station owners. Ten in-record owner changes block
+physical carry, 32 events remain attached to unresolved owners, and four
+statements (`B2-S012`, `B3-S016`, `B3-S026`, `B4-S015`) contain an explicit
+internal visual reset. B5 and B6 are separate records. There is no page-wide
+water source, sink, return path or arrow.
+
+Only 90/281 events have a frozen mnemonic or formal anchor; 191/281 concrete
+activities come entirely from the assumed master exemplar. Thus water, warmth,
+bath, wash, vessel, drain and rest make the selected world readable but remain
+unconfirmed occurrence values. A bathhouse/apparatus register and a purely
+formal iconographic atlas remain strong rivals.
+
+## V73 complete Herbal third edition retained
 
 All 100 Herbal events, 20 fields, 19 statements and five formal records now
 have a complete concrete working reading. The selected historical edition is
@@ -287,6 +315,13 @@ not that it is the historical world.
 
 ## Current image-first artifacts
 
+- `sidequest_theory_candidates_v74/V74_FOUR_ROLE_SELECTION.md`;
+- `sidequest_theory_candidates_v74/V74_SELECTED_281_EVENT_INTERLINEAR.tsv`;
+- `sidequest_theory_candidates_v74/V74_SELECTED_115_FIELD_EDITION.tsv`;
+- `sidequest_theory_candidates_v74/V74_SELECTED_97_STATEMENT_EDITION.tsv`;
+- `sidequest_theory_candidates_v74/V74_SELECTED_SIX_RECORD_EDITION.tsv`;
+- selected station comparison/contact graph, four complete role editions and
+  `V74_VALIDATION.json`;
 - `sidequest_theory_candidates_v73/V73_FOUR_ROLE_SELECTION.md`;
 - `sidequest_theory_candidates_v73/V73_SELECTED_100_EVENT_INTERLINEAR.tsv`;
 - `sidequest_theory_candidates_v73/V73_SELECTED_20_FIELD_EDITION.tsv`;
@@ -332,7 +367,7 @@ corrector. Preserve independence until each role freezes its result.
 
 ## Next bounded step and stop
 
-V73 is complete. V74 is authorized by the frozen V71–V80 protocol and must
-produce the complete Biological station-atlas third edition over the fixed
-281 events, 115 fields, 97 statements and six records. Do not add pages, start
-V81 or design a scientific/Voynich semantic experiment automatically.
+V74 is complete. V75 is authorized by the frozen V71–V80 protocol and must
+produce the complete celestial multi-instrument third edition over the fixed
+395 groups and 142 loci. Do not add pages, start V81 or design a
+scientific/Voynich semantic experiment automatically.
