@@ -1427,3 +1427,21 @@ display and one web-search f84r thumbnail metadata/high-level description.
 Neither contributed to the theory. No f84/f84r image or transcription/formal
 value is authorized. Mixed TSV access must use guarded `./vmanus-exp query-tsv`
 with explicit page allow-values and `--forbid-prefix f84`.
+
+## V35 productive writing test
+
+The selected sidequest deck is now executable in the forward direction. Eight
+new practical instructions were encoded with 34 placements of 25 meanings
+already frozen in V25; all eight decode exactly through the exact-card ledger,
+with no new tuple ID or visible form. Examples include a red-wine root
+preparation, a warm leaf poultice, a white-wine wound wash, a medicated bath,
+and a rinse-until-clear/drain sequence.
+
+This raises the model from retrospective paraphrase to a teachable creative
+workshop convention: pictured owner + ordered whole cards + local field
+closure + physical reflow. It remains circular with respect to meaning because
+writer and reader share the same speculative deck. The forward test therefore
+supports generative coherence, not decipherment or historical correctness.
+
+Primary artifact:
+`sidequest_theory_candidates_v35/V35_PRODUCTIVE_WRITING_MANUAL.md`.
