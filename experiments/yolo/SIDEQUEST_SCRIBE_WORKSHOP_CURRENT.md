@@ -1,7 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-22, after V76 of the authorized V71–V80 cycle and the
-contemporary-codebook dictionary amendment.
+Updated: 2026-08-22, after V77 of the authorized V71–V80 cycle.
 
 Status: **creative working reconstruction, not a GDT result and not a
 translation**. Confirmed Voynich lexemes, sounds and plaintext clauses remain
@@ -19,6 +18,33 @@ Exactly ten pages are in scope:
 
 `f84` and `f84r` remain sealed. ZL3b, IT2a and RF1b are alternate readings of
 one manuscript. No additional page, image or semantic corpus was admitted.
+
+## V77 source-first historical dictionary audit
+
+The inherited sentence-sized mnemonic dictionary is withdrawn. Four
+independent roles audited exactly 24 recurrent exact cards and all 197 fixed
+occurrences against source-first inventories of genuine 1379–1442 keys. R1–R3
+admitted zero words. R4 added the genuine Florentine Fi1 key of 1414, whose
+three whole-word signs are `per`, `et` and `che`, and proposed two simpler
+post-freeze readings.
+
+The selected exploratory dictionary therefore contains only:
+
+```text
+dcda95c81a5460feb191  ET?   = UND / AUCH?
+b5fcea1eaed06b2f2291  PER?  = DURCH / GEMÄSS?
+```
+
+Both are minority creative leads, not confirmed translations. `ET?` is the
+stronger lead because its 19 occurrences are mainly medial and include two
+`A–ET?–B–ET?–C` chains. `PER?` is weaker but occurs at field entry in 7/9
+cases, with one line-edge carry/restart. Each question mark is mandatory.
+
+Two other exact cards retain only formal nonword labels; 20 target cards are
+`EXEMPLAR_VALUE_UNKNOWN`. All old portable mnemonics—MASS, ANWENDEN, BEREIT,
+ANSATZ, ZIEL, KLAR, VORIGES, ANTEIL, TEMPERIEREN, SPÜLEN and ABLASSEN—are
+withdrawn. Their occurrence-bound prose may remain as bracketed master-exemplar
+expansion, never as dictionary content.
 
 ## V76 historical book-purpose competition
 
@@ -66,19 +92,18 @@ iatromathematical lookup: sector relations, star-station notes and local
 choice/avoidance notices. An ordinary astronomical almanac and a purely
 iconographic mnemonic atlas remain equally important rivals.
 
-## New hard dictionary rule
+## Hard dictionary rule
 
 A portable card gloss may now be printed as a word only if a real surviving
 1370–1450 codebook/nomenclator contains the corresponding entry and the exact
 entry, historical key, date, shelfmark and location are cited. Ordinary prose
 or mere historical plausibility does not qualify.
 
-Therefore all old labels such as `MASS?`, `BEREIT?`, `SPÜLEN?`, `ABLASSEN?`,
-`ANSATZ?` and `ANWENDEN?` are immediately downgraded to
-`PROVISIONAL_UNATTESTED_MNEMONIC`. V77 must either supply exact contemporary
-codebook attestations or replace them with `EXEMPLAR_VALUE_UNKNOWN` /
-`FORMAL_LABEL_NOT_WORD`. Occurrence-bound translation prose in V73–V75 is not
-the dictionary and remains explicitly speculative.
+V77 applies this rule. Only the actual contemporary categories `et` and `per`
+remain as question-marked creative defaults on two exact cards. They attest
+historical dictionary granularity, not a Voynich mapping. Occurrence-bound
+translation prose in V73–V75 is not the dictionary and remains explicitly
+speculative.
 
 ## V74 complete Biological station atlas retained
 
@@ -227,11 +252,10 @@ codebooks and occurrence-bound exemplar are supplied. Concrete source intent
 can be recovered 0/776 without that exemplar. The model therefore explains a
 possible writing practice; it does not decipher the surviving surface.
 
-## Legacy exact-card mnemonic handles, not a dictionary
+## Withdrawn legacy mnemonic handles
 
-Eleven exact joint-tuple identities retain short creative mnemonic handles,
-always with an implicit question mark. Under the contemporary-codebook rule,
-none is currently a word:
+The eleven former whole-card mnemonics are retained below only as an audit
+history; none is a live word after V77:
 
 ```text
 MASS?       prescribed value or quantity
@@ -247,10 +271,10 @@ SPÜLEN?     wash/flush operation
 ABLASSEN?   drain/discharge operation
 ```
 
-These are compact source-class handles, not German translations. In
-particular, `KLAR?` does **not** mean the sentence “bis die Flüssigkeit klar
-abläuft”, and no visible `ey`, `ch`, `chy`, `cho`, prefix, suffix or PAGE_HOST
-inherits any part of these meanings.
+They are no longer portable source-class handles. In particular, `KLAR?` does
+**not** mean the sentence “bis die Flüssigkeit klar abläuft”, and no visible
+`ey`, `ch`, `chy`, `cho`, prefix, suffix or PAGE_HOST inherits any part of
+these withdrawn meanings.
 
 Four exact control cards also license formal prompts:
 
@@ -377,6 +401,11 @@ not that it is the historical world.
 
 ## Current image-first artifacts
 
+- `sidequest_theory_candidates_v77/V77_FOUR_ROLE_SELECTION.md`;
+- `sidequest_theory_candidates_v77/V77_SELECTED_CARD_DICTIONARY.tsv`;
+- `sidequest_theory_candidates_v77/V77_SELECTED_197_OCCURRENCE_AUDIT.tsv`;
+- four source-first role audits, frozen historical entry inventories,
+  complete 197-occurrence audits and `V77_VALIDATION.json`;
 - `SIDEQUEST_CODEBOOK_ATTESTATION_RULE.md`;
 - `sidequest_theory_candidates_v76/V76_FOUR_ROLE_SELECTION.md`;
 - `sidequest_theory_candidates_v76/V76_SELECTED_776_GROUP_PURPOSE_BINDING.tsv`;
@@ -440,11 +469,9 @@ corrector. Preserve independence until each role freezes its result.
 
 ## Next bounded step and stop
 
-V76 is complete. V77 is authorized by the frozen V71–V80 protocol and must
-audit the recurrent exact-card deck against an independently enumerated corpus
-of genuine 1370–1450 codebook/nomenclator entries. Desired Voynich glosses may
-not drive source selection. A card without a complete exact attestation becomes
-`EXEMPLAR_VALUE_UNKNOWN` or `FORMAL_LABEL_NOT_WORD`; historical recipe prose,
-surface resemblance and functional plausibility do not rescue it. Do not add
-pages, start V81 or design a scientific/Voynich semantic experiment
-automatically.
+V77 is complete. V78 must rebuild continuous ten-page readings using `ET?` and
+`PER?` literally at every exact occurrence, formal labels only as nonwords and
+all other content visibly bracketed as master-exemplar expansion. Its main
+falsifier is simple: if either tiny value breaks a full occurrence, withdraw it
+instead of adding senses. Do not add pages, start V81 or design a
+scientific/Voynich semantic experiment automatically.
