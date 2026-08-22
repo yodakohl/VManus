@@ -1457,3 +1457,14 @@ pure closer is known; the poultice receives an existing stand/rest close.
 The workshop model therefore requires learned card-position profiles in
 addition to meanings and field templates. Primary artifact:
 `sidequest_theory_candidates_v36/V36_APPRENTICE_CORRECTION.md`.
+
+### V37 content-bearing terminal palette
+
+The fixed prose pages contain 135 field ends realized by 70 terminal-capable
+exact cards. All 90 DY/B3 events are terminal, but no universal cross-host
+closer is licensed. The workshop model now teaches action-bearing terminal
+cards (stand, bathe, rinse, drain, strain, heat, bind, drink) rather than a free
+punctuation mark. This restores a generic closed drinking instruction to the
+Skabiosa recipe through `rshedy`, while the narrower stomach-pain promise stays
+withdrawn. Primary artifact:
+`sidequest_theory_candidates_v37/V37_TERMINAL_WORKSHOP_MANUAL.md`.
