@@ -1,11 +1,12 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-22, after the bounded V60–V69 improvement cycle.
+Updated: 2026-08-22, after the explicitly authorized V70 image-first audit.
 
 Status: **creative working reconstruction, not a GDT result and not a
 translation**. Confirmed Voynich lexemes, sounds and plaintext clauses remain
 zero. This is the compact authoritative entry point for the noncanonical
-sidequest; older V1–V68 reports are recovery history, not live context.
+sidequest; older V1–V69 reports are recovery history unless V70 explicitly
+retains them.
 
 ## Fixed scope
 
@@ -18,7 +19,27 @@ Exactly ten pages are in scope:
 `f84` and `f84r` remain sealed. ZL3b, IT2a and RF1b are alternate readings of
 one manuscript. No additional page, image or semantic corpus was admitted.
 
-## V69 result in one sentence
+## V70 result in one sentence
+
+Direct original-detail inspection by four independent period-role readings
+selects an **image-first illustrated practical and celestial compendium**:
+whole-plant articles, human bath/application stations with a real but local
+apparatus layer, and multiple static celestial lookup wheels/star maps. This
+narrows the content space without translating the text.
+
+```text
+Herbal      = pictured whole-plant owner; species and preparation unseen
+Biological  = local bath/application/apparatus configurations; no global flow
+Astro       = paired/multipanel/multiwheel celestial lookup; no common route
+Text        = fitted into spaces left by drawings; physical line != statement
+```
+
+The most important correction is f69v: its left subdiagram can visibly carry
+about 28 radial places, but the full sheet contains three disconnected,
+heterogeneous wheels. Therefore `local 28-place inventory` survives while
+`one ordered 28-rule sequence` does not.
+
+## V69 formal result retained
 
 The best ten-page simulation is a **domain-neutral, exemplar-dependent
 whole-card/register system** that a small workshop could learn with a master
@@ -116,63 +137,76 @@ boundary:
 They are execution memory, not nouns, referents or semantic roles discovered
 in the manuscript. `CLOSE` finishes a field; it need not finish a statement.
 
-## Two coequal complete content editions
+## Content editions after image pressure
 
-V68 removed the former narrow medical lead. V69 therefore publishes both
-readings group-for-group and unit-for-unit.
+V69 published two complete readings group-for-group and unit-for-unit. V70
+does not rewrite those 776 creative expansions; it corrects the picture-level
+premises under them.
 
 ### Iatromedical edition
 
-- Herbal: five picture-addressed articles for simples, preparations and uses;
-- Biological: therapeutic bath/wash practice with a genuine apparatus layer;
-- Astro: a 7×12 medical-election frame, a 28-station catalogue and an
-  independent 28-rule schedule.
+- Herbal: picture-addressed articles for unidentified simples, preparations
+  and possible uses;
+- Biological: therapeutic bath/wash stations with a genuine local apparatus
+  layer;
+- Astro: paired celestial wheels, a multi-centre star atlas and a three-wheel
+  lookup plate, potentially used for medical elections.
 
 Compact content label: `SIMPLE / BATH / ELECTION`.
 
 ### Practical-technical edition
 
-- Herbal: plant raw materials, extracts, samples and stores;
-- Biological: bathhouse/washhouse basins, filters, conduits, return flow and
-  maintenance;
-- Astro: a generic work, station and scheduling instrument.
+- Herbal: unidentified plant raw materials, extracts, samples and stores;
+- Biological: bathhouse/washhouse basins, conduits, station variants and
+  maintenance, without a drawn global return flow;
+- Astro: an actual astronomical/calendar lookup or working almanac, not a
+  generic non-celestial schedule.
 
 Compact content label: `MATERIAL / PROCESS / SCHEDULE`.
 
-Four independent V68 comparisons split: one narrow practical win, one narrow
-medical win and two substantive ties. Neither reading is promoted. Their
-shared architecture is the useful result.
+V70 makes the medical reading stronger than the old completely generic
+`MATERIAL / PROCESS / SCHEDULE` rival because the Astro iconography is plainly
+celestial. It does not beat the repaired rival
+`PLANT MATERIAL / BATHHOUSE STATIONS / ASTRONOMICAL ALMANAC`. The shared
+architecture remains the useful result.
 
 ## Section-specific reading
 
 ### Herbal
 
-The picture supplies a plausible silent owner, but not a recoverable plant
-name. Only 29/100 events receive parser support; 71 are exemplar content. Water,
-root, leaf, flower, decoction and ailment details are permitted creative fills,
-not card meanings. `VORIGES?` is record-local and cannot reach into the prior
-plant article.
+The picture supplies a strong silent whole-plant owner, but not a recoverable
+plant name. The earlier Veilchen, Allium/Wegerich and Sonnentau defaults are
+withdrawn by image shape. Only 29/100 events receive parser support; 71 are
+exemplar content. Water, root, leaf, flower, decoction and ailment details are
+permitted creative fills, not card meanings; none of the four images depicts
+water or a preparation vessel. `VORIGES?` is record-local and cannot reach into
+the prior plant article.
 
 ### Biological
 
-The figures and vessel/tube layouts make bathing, washing, circulation,
-filtering and drainage the strongest shared practical vocabulary. Only 90/281
-events receive parser support; 191 are exemplar content. The medical edition
-is strongest in B2 and parts of B1–B4, while B5/B6 read better as technical
-support or maintenance records. No internal anatomy or gynecological lexicon
-is claimed.
+The figures and vessel/tube layouts make bathing, washing and local apparatus
+handling the strongest shared practical vocabulary. f81v is one shared
+figure-pool; f82r is several partly disconnected vignettes; f83r contains a
+real linked pair but no arrow or cycle. Circulation, filtering, substance and
+direction are therefore exemplar fills rather than visible geometry. Only
+90/281 events receive parser support; 191 are exemplar content. No internal
+anatomy or gynecological lexicon is claimed.
 
 ### Astro
 
 The conservative formal reading is:
 
-- `f67r2`: 7×12 selector with local adjuncts;
-- `f68r1`: centre plus 28 spatial addresses;
-- `f69v`: independent ordered 28-rule sequence.
+- `f67r2`: two distinct radial celestial reference wheels;
+- `f68r1`: multi-panel star-station atlas with several centres and one
+  sectorized submap;
+- `f69v`: three disconnected heterogeneous wheels, with approximately 28
+  visible radial places confined to the left subdiagram.
 
 There is no licensed f68↔f69 join, no fixed start or rotation, and no import of
-prose card values. The 395 visible groups are page-local diagram labels or
-fragments, not translated words.
+prose card values. A 7×12 relation, local 28-count and iatromathematical use
+remain historical overlays rather than full-page visible grammars. The 395
+visible groups are page-local diagram labels or fragments, not translated
+words.
 
 ## Why a workshop could learn it
 
@@ -193,7 +227,15 @@ notes or another domain. The full German texts are consistency probes: their
 ability to cover every group demonstrates that a world can be made coherent,
 not that it is the historical world.
 
-## Canonical V69 artifacts
+## Current image-first artifacts
+
+- `sidequest_theory_candidates_v70/V70_FOUR_ROLE_IMAGE_SELECTION.md`;
+- `sidequest_theory_candidates_v70/V70_SELECTED_TEN_PAGE_IMAGE_REVISION.tsv`;
+- four role-specific ten-page inventories, contact tables and V69 pressure
+  matrices;
+- `sidequest_theory_candidates_v70/V70_VALIDATION.json`.
+
+The complete V69 dual edition remains the bound text-level substrate:
 
 Primary report and readable edition:
 
@@ -221,6 +263,6 @@ corrector. Preserve independence until each role freezes its result.
 
 ## Stop
 
-V60–V69 are the requested ten improvement rounds. V69 is complete. Do not
-start V70, add pages or design a scientific/Voynich semantic experiment
-automatically.
+V70 is the single image-first round explicitly requested after V69. It is
+complete. Do not start V71, add pages or design a scientific/Voynich semantic
+experiment automatically.

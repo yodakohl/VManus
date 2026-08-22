@@ -1,0 +1,51 @@
+{
+  "bindings": {
+    "V70_FOUR_ROLE_IMAGE_SELECTION.md": "2490c354a0de53c845f6b3d10774e2427f3d815890e70dc2f5230b3c193af764",
+    "V70_IMAGE_MANIFEST.tsv": "2a191ec26c7eca88a6cdcd0c134dffacf412d8208e78fb93c8258aeaada3419f",
+    "V70_R1_TEN_PAGE_VISUAL_INVENTORY.tsv": "f50bc385a33c78a9cf8f56a9aa116fe9e2bc16d567eab1b8e59721f66810fbff",
+    "V70_R2_TEN_PAGE_VISUAL_INVENTORY.tsv": "51755d27b120f0a369df4bd2641f107395d846381f9326607939ca917086ee83",
+    "V70_R3_TEN_PAGE_VISUAL_INVENTORY.tsv": "4108bbe161955ca6966daabd9841dbee9a11b354469abd437bd7f33a60643fb4",
+    "V70_R4_TEN_PAGE_VISUAL_INVENTORY.tsv": "f2b93718f054f917158e7fe2f3108f58196398bed57f86de6f785820cce55087",
+    "V70_SELECTED_TEN_PAGE_IMAGE_REVISION.tsv": "b2b737171ccdee0a934ed10f767a8f19d704a44494ef498a791c33325cb50304"
+  },
+  "checks": {
+    "R1_connections_nonempty": true,
+    "R1_pressure_nonempty": true,
+    "R2_connections_nonempty": true,
+    "R2_pressure_nonempty": true,
+    "R3_connections_nonempty": true,
+    "R3_pressure_nonempty": true,
+    "R4_connections_nonempty": true,
+    "R4_pressure_nonempty": true,
+    "V70_R1_TEN_PAGE_VISUAL_INVENTORY.tsv_exact_scope": true,
+    "V70_R2_TEN_PAGE_VISUAL_INVENTORY.tsv_exact_scope": true,
+    "V70_R3_TEN_PAGE_VISUAL_INVENTORY.tsv_exact_scope": true,
+    "V70_R4_TEN_PAGE_VISUAL_INVENTORY.tsv_exact_scope": true,
+    "four_role_reports_present": true,
+    "manifest_exact_ten_pages": true,
+    "manifest_hashes_well_formed": true,
+    "manifest_no_absolute_paths": true,
+    "no_sealed_page_rows": true,
+    "selection_exact_scope": true,
+    "selection_f69_preserves_local_28_only": true,
+    "selection_no_blank_fields": true
+  },
+  "counts": {
+    "manifest_pages": 10,
+    "role_connection_rows": {
+      "R1": 48,
+      "R2": 33,
+      "R3": 42,
+      "R4": 22
+    },
+    "role_pressure_rows": {
+      "R1": 28,
+      "R2": 20,
+      "R3": 26,
+      "R4": 15
+    },
+    "selected_pages": 10
+  },
+  "schema": "V70_IMAGE_ROUND_VALIDATION_V1",
+  "status": "PASS"
+}
