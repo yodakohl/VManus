@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-22, after V75 of the authorized V71–V80 cycle and the
+Updated: 2026-08-22, after V76 of the authorized V71–V80 cycle and the
 contemporary-codebook dictionary amendment.
 
 Status: **creative working reconstruction, not a GDT result and not a
@@ -20,7 +20,32 @@ Exactly ten pages are in scope:
 `f84` and `f84r` remain sealed. ZL3b, IT2a and RF1b are alternate readings of
 one manuscript. No additional page, image or semantic corpus was admitted.
 
-## V75 complete celestial multi-instrument edition
+## V76 historical book-purpose competition
+
+All 14 fixed units and all 776 visible groups are now bound into two complete,
+period-plausible purpose models without changing a single local reading.
+
+The narrow working lead is an **illustrated practitioner compendium**: plant
+materials, local bathing/application stations and independent celestial
+election or timing instruments. Its strongest rival is a **naturalia,
+artificialia and celestialia model-and-memory book** made for a drawing/copying
+workshop rather than a medical practitioner.
+
+The comparison is intentionally unresolved:
+
+- the historical role scores the practitioner model 236 to 235;
+- the technical role gives the rival a small local economy advantage, 404 to
+  398, but the practitioner model a book-level cohesion advantage, 53 to 49;
+- twelve actual historical manuscripts or production traditions support
+  mechanisms used by one or both reconstructions, but no known period codex
+  supplies this exact three-section combination.
+
+The V76 decision is therefore
+`NEAR_TIE__A_PRACTICAL_COHERENCE__B_VISIBLE_PRODUCTION_ECONOMY`. The medical
+content remains a working expansion, not a decoded purpose. V76 adds zero
+dictionary words and zero card meanings.
+
+## V75 complete celestial multi-instrument edition retained
 
 All 395 Astro groups and 142 loci now have a concrete local copied-label
 reading. R2 supplies the historical celestial content; R3 supplies 13 strict
@@ -202,10 +227,11 @@ codebooks and occurrence-bound exemplar are supplied. Concrete source intent
 can be recovered 0/776 without that exemplar. The model therefore explains a
 possible writing practice; it does not decipher the surviving surface.
 
-## Small exact-card dictionary
+## Legacy exact-card mnemonic handles, not a dictionary
 
-Eleven exact joint-tuple identities retain short creative mnemonics, always
-with an implicit question mark:
+Eleven exact joint-tuple identities retain short creative mnemonic handles,
+always with an implicit question mark. Under the contemporary-codebook rule,
+none is currently a word:
 
 ```text
 MASS?       prescribed value or quantity
@@ -352,6 +378,11 @@ not that it is the historical world.
 ## Current image-first artifacts
 
 - `SIDEQUEST_CODEBOOK_ATTESTATION_RULE.md`;
+- `sidequest_theory_candidates_v76/V76_FOUR_ROLE_SELECTION.md`;
+- `sidequest_theory_candidates_v76/V76_SELECTED_776_GROUP_PURPOSE_BINDING.tsv`;
+- selected 14-unit scorecard, book-purpose competition, workflow, historical
+  source audit, contradictions and technical ownership/rubric tables plus four
+  role editions and `V76_VALIDATION.json`;
 - `sidequest_theory_candidates_v75/V75_FOUR_ROLE_SELECTION.md`;
 - `sidequest_theory_candidates_v75/V75_SELECTED_395_GROUP_CELESTIAL_EDITION.tsv`;
 - `sidequest_theory_candidates_v75/V75_SELECTED_142_LOCUS_CELESTIAL_EDITION.tsv`;
@@ -409,8 +440,11 @@ corrector. Preserve independence until each role freezes its result.
 
 ## Next bounded step and stop
 
-V75 is complete. V76 is authorized by the frozen V71–V80 protocol and must
-compare the strongest historical book purpose with a genuinely different
-period rival using the three revised section editions. It must also respect
-the new dictionary-attestation rule. Do not add pages, start V81 or design a
-scientific/Voynich semantic experiment automatically.
+V76 is complete. V77 is authorized by the frozen V71–V80 protocol and must
+audit the recurrent exact-card deck against an independently enumerated corpus
+of genuine 1370–1450 codebook/nomenclator entries. Desired Voynich glosses may
+not drive source selection. A card without a complete exact attestation becomes
+`EXEMPLAR_VALUE_UNKNOWN` or `FORMAL_LABEL_NOT_WORD`; historical recipe prose,
+surface resemblance and functional plausibility do not rescue it. Do not add
+pages, start V81 or design a scientific/Voynich semantic experiment
+automatically.
