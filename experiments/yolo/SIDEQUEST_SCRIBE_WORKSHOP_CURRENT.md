@@ -1556,3 +1556,16 @@ state, and local completion. Visible final `-ey` has no free meaning: `chey`
 and `cheey` belong to different PAGE_HOSTs. Exact V43 card defaults remain the
 authoritative creative translations. Primary artifact:
 `sidequest_theory_candidates_v44/V44_FOUR_ROLE_STEM_SYNTHESIS.md`.
+
+### V45 complete stem-first translation revision
+
+Four independent period-role editions rebuild all 173 prose cards and all 381
+events as stable core/axis plus licensed formal completion plus local silent
+argument. The selected conservative edition rewrites 41 cards, retains rare
+hosts as memorized whole-card values, and keeps all 395 Astro labels separate.
+Its strongest cores are AIIN (standard value), OR (prepared result), CHOR
+(procurement window), CHEY (selected material), OK (activate), OT (marked
+relation), L (connected station), E/EY (state threshold), AR (source), and DY
+(completion). It explicitly separates AIIN from host AIN and visible OL from
+host OL. Primary artifact:
+`sidequest_theory_candidates_v45/V45_FOUR_ROLE_STEM_REVISED_TRANSLATION.md`.
