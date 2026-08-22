@@ -1,0 +1,13 @@
+phrase_id	tier	formal_or_exact_basis	minimal_invariant_German	herbal_default_expansion	bio_default_expansion	status	main_limit
+P01	A	exact_surface_daiin	VORGABEPARAMETER?	Mass oder Standard einer Pflanzenzubereitung	Menge Dauer oder Einstellung einer Charge	KEEP_PRIMARY	Keine sichtbare Skala oder Einheit.
+P02	A	SET(<ARG_AIIN>)	STANDARDSLOT SETZEN	Pflanzenzubereitungs-Slot setzen	Chargen Bad- oder Konfigurationsslot setzen	KEEP_PRIMARY	ARG_AIIN bedeutet nicht MASS und liefert kein Objekt.
+P03	A	SET(<ARG_AL>)	LOKALEN RELATIONSSLOT SETZEN	lokalen Stoff- oder Anwendungsbezug setzen	lokalen Stations- oder Laufbezug setzen	KEEP_PRIMARY	ARG_AL bedeutet nicht AN und liefert kein Ziel.
+P04	A	FRAME_O(LINK)	AKTIVEN ARBEITSSTAND VERKNUEPFEN	mit laufendem Artikel oder voriger Bereitung verbinden	mit Vorlauf Behandlung oder Beckenbestand verbinden	KEEP_PRIMARY	Die Karte benennt weder Antezedent noch Verbindungsart.
+P05	B	exact_joint_tuple_AIIN	MASS?	Mass eines Pflanzenteils oder Auszugs	Mass eines Bades einer Charge oder Anwendung	EXPLORATORY_SHARED_MNEMONIC	Die Joint-Tuple-Familie besitzt mehrere Renderer; nur daiin besteht den strengsten Oberflaechentest.
+P06	B	exact_joint_tuple_OKY	VERWENDEN?	Arzneianteil gebrauchen	Bad Spuelung oder Stationsposten ausfuehren	EXPLORATORY_SHARED_MNEMONIC	Das Objekt stammt vollstaendig aus dem Register.
+P07	B	exact_joint_tuple_CTHY	BEREIT?	Zubereitung gebrauchsfertig	Charge oder Station arbeitsbereit	EXPLORATORY_SHARED_MNEMONIC	Kann eine formale Statusklasse statt Quellenwort sein.
+P08	B	exact_joint_tuple_OR	BEREITUNG?	Pflanzenauszug oder bereiteter Stoff	vorbereiteter Arbeitsbestand	EXPLORATORY_SHARED_MNEMONIC	Fluessigkeit und Stoff sind lokale Erweiterungen.
+P09	B	exact_joint_tuple_AL	AN?	an lokalen Gebrauch oder Ort	an Oeffnung Figur oder Station	EXPLORATORY_SHARED_MNEMONIC	Ziel und Richtung sind Bildargumente.
+P10	B	exact_joint_tuple_EY	KLAR?	Auszug klaeren	Lauf oder Charge klaeren	EXPLORATORY_SHARED_MNEMONIC	Wenig Herbal-Support und Zustand-/Schlusskonfundierung.
+P11	B	exact_joint_tuple_OLOR	ZUVOR?	voriger Pflanzenansatz	vorige Charge oder Station	EXPLORATORY_SHARED_MNEMONIC	Nur ein Ereignis je Register.
+P12	B	exact_joint_tuple_OTCHEY	TEIL?	markierter Pflanzenteil	markierter Stoff- oder Stationsanteil	EXPLORATORY_SHARED_MNEMONIC	Nur ein Ereignis je Register; OT-Rahmen bleibt formal.

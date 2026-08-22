@@ -1704,3 +1704,19 @@ same-index full-form matches and zero exact full-form matches across all
 f69 entry `okeod` crosses LONG/SHORT layouts, so layout polarity remains
 withdrawn. Primary artifact:
 `sidequest_theory_candidates_v55/V55_FOUR_ROLE_SELECTION.md`.
+
+### V56 Herbal↔Biological workshop phrasebook
+
+Four roles find a small shared control layer rather than a shared medical
+vocabulary. The strict transferable tier contains four prompts: an exposed
+`daiin = prescribed parameter?` lead plus formal operations for setting a
+standard slot, setting a local relation slot, and linking the active working
+state. These rules cover 45/381 prose events in 35/135 fields.
+
+At the more permissive exact-joint-tuple tier, eleven bridge cards support ten
+creative mnemonics such as `MASS?`, `USE?`, `READY?`, `PREPARATION?`, `AT?`,
+`CLEAR?`, `PRIOR?`, and `PART?`, covering 96/136 shared Herbal/Biological
+events. They are useful workshop prompts but not established words. No full
+field sequence transfers; only `PRIOR?|LINK` and `USE?|MASS?` recur as
+normalized bigrams. Warm, rinse, and drain remain Biological-local. Primary
+artifact: `sidequest_theory_candidates_v56/V56_FOUR_ROLE_SELECTION.md`.
