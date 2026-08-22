@@ -1,6 +1,7 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-22, after closing the OK, CHD~CHED and E-grade paradigms.
+Updated: 2026-08-22, after completing the Y/CHY, transfer-order and graded
+hold-family layer.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -19,10 +20,10 @@ Exactly ten pages are in scope:
 `f84` and `f84r` remain sealed. ZL3b, IT2a and RF1b are alternate readings of
 one manuscript. No additional page, image or semantic corpus was admitted.
 
-## Active stem-consistent paradigm closure
+## Active component-complete working edition
 
-The working dictionary now gives three families one invariant contribution
-instead of changing their meaning to fit each local story:
+The current edition retains the selected OK, CHD~CHED and contact-grade layer
+and closes the next requested components:
 
 ```text
 OK(X)       X in den laufenden Arbeitsgang setzen
@@ -30,37 +31,42 @@ CHD~CHED    einen Ansatz/Posten umsetzen oder in einen Arbeitsgang führen
 L+CHED      ab- oder ausführen
 OL+CHED     mit dem Vorigen weiterführen
 OT+CHED     danach/erneut umsetzen
+P+CHED      ein-/hineinführen; zum Empfänger
 
 E           kurzer/direkter Kontakt       [only in licensed frames]
 EE          anhaltender Kontakt/Halten    [only in licensed frames]
 EEE         vollständiger Kontakt         [only in licensed frames]
-Y           Arbeitszustand offen/aktiv
-DY          lokalen Schritt abschließen
+Y           dies; der aktuell gemeinte Arbeitsposten
+CHY         umhüllte Realisierung derselben Verweiskarte
+DY          gelernte lokale Abschlusskonstruktion, nicht D+Y
+
+OK+OK+CHY   den laufenden Posten erneut in Arbeit nehmen
+OK+AL+Y     den laufenden Posten an der Zielstelle einsetzen
 ```
 
-`E/EE/EEE` is not a global stem. It is selected only in frames such as
-`OK+E/EE/EEE+Y/DY`, provisionally in the corresponding OT/SH/CHK rows. In
-`CHED` and `CKHE`, and where one exact card changes visible rendering, `e`
-remains part of the longer card/core.
+The main correction is that `Y` no longer means “open”. It is a small reference
+card, equivalent in the working German to “dies/es”. A construction is open
+when no licensed terminal card closes it. `DY` remains a learned terminal
+construction and is never globally forced into `D+Y`.
 
-This revision changes 49 of 173 cards, 145 of 381 events and 93 of 116
-continuous statements. It removes the clearest contradictions: `qokchdy` and
-`okchedy` no longer mean heat versus cool, `okchol` no longer contains
-invented olive oil, `qokol` no longer means an inherent enema, and
-`lchedar` no longer means cool water. Eighty-four unchanged legacy cards plus
-the newly explicit opaque card `chokcheo` remain pure learned whole-card
-values; `qokylddy`, `qokokchy` and `qokaly` are only partially decomposed.
-The selected mechanism is therefore genuinely a mixed technical abbreviation
-plus nomenclator system rather than forced full decomposition.
+Three narrow learned families are also selected: `cheky/cheeky` encodes short
+versus longer warmth, the exact `cheedy/shedy/tedy` and `sheedy` cards encode
+ordinary versus longer rest, and `solkey/solkeey/olkeedy` form one local
+collection-station family. These are bounded card families, not universal
+meanings of every visible `chk`, `sh` or `solk` substring.
 
-The active files are in `sidequest_semantic_paradigm_closure/`, led by
-`SELECTED_PARADIGM_CLOSURE_REPORT.md`,
-`SELECTED_COMPONENT_LEXICON.tsv`,
-`SELECTED_173_STEM_CONSISTENT_DICTIONARY.tsv`,
-`SELECTED_381_STEM_CONSISTENT_INTERLINEAR.tsv` and
-`SELECTED_REVISED_TRANSLATION_EXCERPTS.md`.
+This completion revises 21 of 173 cards, 83 of 381 events and 60 of 116
+continuous statements relative to the prior closure. The active files are in
+`sidequest_semantic_component_completion/`, led by
+`SELECTED_COMPONENT_COMPLETION_REPORT.md`,
+`SELECTED_COMPONENT_LEXICON_V2.tsv`,
+`SELECTED_173_COMPONENT_COMPLETE_DICTIONARY.tsv`,
+`SELECTED_381_COMPONENT_COMPLETE_INTERLINEAR.tsv`,
+`SELECTED_116_COMPONENT_COMPLETE_STATEMENTS.tsv` and
+`SELECTED_TRANSLATION_REVISIONS.md`. Mechanical validation passes all 33
+checks.
 
-## Selected concrete semantic-stem model
+## Prior concrete semantic-stem basis
 
 The strict V77–V80 zero-word presentation is no longer the active mode for
 this creative sidequest. The user asked instead for rapid concrete semantic
@@ -80,7 +86,7 @@ The strongest current roots are:
 AIR   laufendes Medium/Bahn    AIIN  Maß       AIN   Portion
 AL    Ziel/Stelle              AR    aus/von   OR    Zubereitung
 OL    weiter/mit Vorigem       OK    in Arbeitsgang setzen
-OT    danach/nächster          Y     offener aktiver Ansatz
+OT    danach/nächster          Y     dies/aktueller Arbeitsposten
 DY    lokaler Abschluss        CHD~CHED umsetzen/führen
 L+CHED ab-/ausführen           CTHY bereit
 ```
@@ -88,9 +94,9 @@ L+CHED ab-/ausführen           CTHY bereit
 The strongest productive series is a two-dimensional contact grid:
 
 ```text
-OK+Y         Ansatz einsetzen, offen
-OK+E+Y       kurz anlegen/benetzen, offen
-OK+EE+Y      anhaltend in Kontakt halten, offen
+OK+Y         aktuellen Posten einsetzen
+OK+E+Y       aktuellen Posten kurz anlegen/benetzen
+OK+EE+Y      aktuellen Posten anhaltend in Kontakt halten
 OK+E+DY      kurz spülen/benetzen, geschlossen
 OK+EE+DY     eintauchen/einweichen, geschlossen
 OK+EEE+DY    vollständig durchtränken, geschlossen
