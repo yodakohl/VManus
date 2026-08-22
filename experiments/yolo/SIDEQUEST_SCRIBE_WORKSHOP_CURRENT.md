@@ -1468,3 +1468,16 @@ punctuation mark. This restores a generic closed drinking instruction to the
 Skabiosa recipe through `rshedy`, while the narrower stomach-pain promise stays
 withdrawn. Primary artifact:
 `sidequest_theory_candidates_v37/V37_TERMINAL_WORKSHOP_MANUAL.md`.
+
+### V38 two-scribe shared curriculum
+
+Twelve of 173 exact prose cards occur under both hands and carry 106/381 fixed
+panel events. Their current meanings form a compact process/reference
+curriculum (measure, current/previous batch, prepared liquid, readiness,
+clarity, application and pictured location), while 161 types remain local. A
+new twelve-card teaching instruction uses every shared card in an attested
+position. The creative encoder is now:
+`rare exemplar/content card -> shared process scaffold -> licensed terminal`.
+Hand and register remain confounded, so this is a workshop reconstruction, not
+proof of labor division or meaning. Primary artifact:
+`sidequest_theory_candidates_v38/V38_TWO_SCRIBE_CURRICULUM.md`.
