@@ -1,12 +1,12 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-22, after the completed V80 canonical third edition.
+Updated: 2026-08-22, after the concrete semantic-stem search.
 
-Status: **creative working reconstruction, not a GDT result and not a
-translation**. Confirmed Voynich lexemes, sounds and plaintext clauses remain
-zero. This is the compact authoritative entry point for the noncanonical
-sidequest; older V1–V69 reports are recovery history unless V70 explicitly
-retains them.
+Status: **creative working reconstruction, not a GDT result**. The sidequest
+now deliberately maintains a complete speculative translation and a concrete
+stem dictionary. These are workshop guesses, not confirmed Voynich lexemes or
+plaintext. This is the compact authoritative entry point for the noncanonical
+sidequest.
 
 ## Fixed scope
 
@@ -18,6 +18,56 @@ Exactly ten pages are in scope:
 
 `f84` and `f84r` remain sealed. ZL3b, IT2a and RF1b are alternate readings of
 one manuscript. No additional page, image or semantic corpus was admitted.
+
+## Selected concrete semantic-stem model
+
+The strict V77–V80 zero-word presentation is no longer the active mode for
+this creative sidequest. The user asked instead for rapid concrete semantic
+experimentation: recurring visible pieces should receive short meanings such
+as water, measure, portion, place, preparation, washing or filtering, and
+every one of the 173 prose cards must have a usable default.
+
+Four competing constructions were compared. The selected basis is a hybrid:
+read the longest reusable semantic root, compose only when that root keeps its
+meaning, and otherwise learn a short concrete whole-card word. It covers all
+173 cards and 381 events; 263 events receive a visible stem parse and 118 use
+concrete whole-card defaults.
+
+The strongest current roots are:
+
+```text
+AIR   fließende Flüssigkeit    AIIN  Maß       AIN   Portion
+AL    Stelle                   AR    aus/von   OR    Zubereitung
+OL    weiter/und               OK    geben     OT    danach
+HO    Pflanze                  Y     Ansatz    DY    Ende
+CTHY  bereit                   CHD   rühren    LCH   ablassen
+LSH   waschen                  CKHY  Durchlauf CKHE  seihen
+```
+
+The strongest productive series is narrowly limited to liquid contact:
+
+```text
+qokedy    spülen; Ende
+qokeedy   baden/eintauchen; Ende
+qokeeedy  vollständig durchtränken; Ende
+```
+
+`o = Wasser` is not selected: `AIR` is much cleaner across `chair`, `kair`,
+`okair` and `schedair`. `ol = Öl` is also not selected; the recurrent `ol`
+card works better as continuation/coordination. Oil remains a local concrete
+ingredient value rather than a global `OL` root. Likewise `AL`, `AR`, `AIN`,
+`AIIN` and `AIR` are independent workshop abbreviations, not descendants of a
+meaningless universal `A`.
+
+The selected synthesis and full working lexicon are in
+`sidequest_semantic_stem_search/SELECTED_SEMANTIC_STEM_SYNTHESIS.md`,
+`SELECTED_CONCRETE_STEMS.tsv`, `SELECTED_173_COMPOSITIONAL_DICTIONARY.tsv`,
+`SELECTED_381_CONCRETE_INTERLINEAR.tsv` and
+`SELECTED_TRANSLATED_PASSAGES.md`.
+
+The active content hypothesis remains an illustrated practical compilation:
+plant preparations on the Herbal pages, bathing/washing/apparatus instructions
+on the Biological pages, and a separately memorized celestial lookup register.
 
 ## V80 canonical third edition — cycle complete
 
@@ -181,7 +231,10 @@ iatromathematical lookup: sector relations, star-station notes and local
 choice/avoidance notices. An ordinary astronomical almanac and a purely
 iconographic mnemonic atlas remain equally important rivals.
 
-## Hard dictionary rule
+## Superseded V77 hard dictionary rule
+
+The following was the older conservative audit rule. It is preserved as
+history but is **not active for this high-throughput creative sidequest**.
 
 A portable card gloss may now be printed as a word only if a real surviving
 1370–1450 codebook/nomenclator contains the corresponding entry and the exact
