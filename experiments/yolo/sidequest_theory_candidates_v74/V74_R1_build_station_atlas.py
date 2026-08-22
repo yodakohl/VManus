@@ -504,4 +504,3 @@ def build() -> None:
 if __name__ == "__main__":
     build()
     print(json.dumps({"status": "BUILT", "events": 281, "fields": 115, "statements": 97, "records": 6}, indent=2))
-
