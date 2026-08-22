@@ -1687,3 +1687,20 @@ selected weak anchors and 168 opaque events. The closest historical genre
 analogy is therapeutic bath literature such as *De balneis Puteolanis*, not a
 modern closed hydraulic plan. Primary artifact:
 `sidequest_theory_candidates_v54/V54_FOUR_ROLE_SELECTION.md`.
+
+### V55 independent circle/Astro edition
+
+Four independent roles cover all 142 loci and 395 ZL3b groups without
+importing any GDT327 prose-card value. They converge on three local lookup
+instruments: f67r2 is a 7×12 configuration selector, f68r1 a spatial
+centre-plus-28 station catalogue, and f69v an ordered 28-rule/regimen list.
+Iatromathematics and lunar-mansion practice are the strongest historical
+content family; an astronomical exemplar/mnemonic book is the safest
+architecture.
+
+The two 28-member inventories are not visibly joined: there are 0/28 exact
+same-index full-form matches and zero exact full-form matches across all
+28×28 candidates, while f68 lacks an authorial start or direction. Identical
+f69 entry `okeod` crosses LONG/SHORT layouts, so layout polarity remains
+withdrawn. Primary artifact:
+`sidequest_theory_candidates_v55/V55_FOUR_ROLE_SELECTION.md`.
