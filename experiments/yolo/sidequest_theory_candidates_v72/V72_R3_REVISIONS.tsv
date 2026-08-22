@@ -1,0 +1,16 @@
+revision_id	scope	old_default	v72_r3_revision	executable_effect	nominal_repair_cost
+V72R3-01	ALL_11_RECORDS	OWNER could remain implicit across a page	reset OWNER at every H/B record	prevents H1→H2 and B3→B4 carry	0
+V72R3-02	HERBAL_19_STATEMENTS	field proximity could select root/leaf/flower	all Herbal clauses carry only the selected whole-plant page owner	part, medium and use become typed exemplar values	1
+V72R3-03	H5-S001	line boundary could split the action	one clause crosses F014→F015 under one whole-plant owner	preserves event order across f56r.5→.7	2
+V72R3-04	B1_21_STATEMENTS	shared pool was a seven-stage circuit	all entries are local bookings at one shared field	no row order, flow or return	2
+V72R3-05	B2-S004_B2-S005	f82r.2→.4 implied travel	line crossing stays inside the upper local configuration only	no owner transfer to middle/lower stations	2
+V72R3-06	B2-S012	line/podest and lower pool formed one operation	UNRESOLVED F058 then BREAK then DIRECT F059	two-clause source reconstruction; no invisible conduit	4
+V72R3-07	B2-S013_B2-S022	lower entries inherited upper machine state	lower pool and edge stations receive fresh local owners	terminal words remain local	2
+V72R3-08	B3-S016	lower margin station carried into gap	F086 owner then explicit BREAK to unresolved F087	no implicit main-station continuation	4
+V72R3-09	B3-S026	gap and main pair formed one state gate	F098 unresolved then BREAK to direct F099 pair	state value comes from exemplar, not connection	4
+V72R3-10	B4-S015	left and right lower runs formed a directed drain	F125 left owner then BREAK to F126 right owner	two local ends; no flow direction	3
+V72R3-11	B5_VS_B6	both addenda shared a return line	B5 stays left open fringe; B6 stays right S-run node	record reset blocks cross-end inheritance	2
+V72R3-12	TERMINAL_DRAIN_FLUSH	terminal class named a visible water movement	terminal class closes only the current local entry	no downstream owner or medium inferred	1
+V72R3-13	KNOWN_CARDS	mnemonic was read as plaintext	question-mark card handles remain literal-layer annotations	paraphrase uses typed source-class slots	1
+V72R3-14	EXEMPLAR_ONLY	unknown events were smoothed into fluent prose	every unknown event is printed as E### EXAMPLAR_VALUE_UNKNOWN	no event silently skipped	2
+V72R3-15	PHYSICAL_LINES	line end equalled clause end	line crossing is computed from constituent field loci	statement identity remains V69-bound	0

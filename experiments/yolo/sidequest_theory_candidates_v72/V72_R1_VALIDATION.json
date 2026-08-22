@@ -1,0 +1,51 @@
+{
+  "experiment": "V72_R1_SOURCE_CLAUSE_RECONSTRUCTION",
+  "status": "PASS",
+  "inputs": {
+    "statements": "experiments/yolo/sidequest_theory_candidates_v69/V69_R4_FINAL_116_STATEMENT_EDITION.tsv",
+    "fields": "experiments/yolo/sidequest_theory_candidates_v69/V69_R4_FINAL_135_FIELD_EDITION.tsv",
+    "events": "experiments/yolo/sidequest_theory_candidates_v69/V69_R4_FINAL_381_PROSE_EVENT_INTERLINEAR.tsv",
+    "central_selected_owners": "experiments/yolo/sidequest_theory_candidates_v71/V71_SELECTED_OWNER_LEDGER.tsv"
+  },
+  "counts": {
+    "statements": 116,
+    "records": 11,
+    "fields": 135,
+    "events": 381,
+    "line_crossing_statements": 18,
+    "within_statement_owner_reset_statements": 4,
+    "unresolved_owner_statements": 13,
+    "repair_cost_distribution": {
+      "1": 17,
+      "2": 66,
+      "3": 29,
+      "4": 4
+    },
+    "source_class_distribution": {
+      "ILLUSTRATED_SIMPLES_CLAUSE": 19,
+      "LOCAL_BATH_OR_APPLICATION_CLAUSE": 97
+    }
+  },
+  "checks": {
+    "exactly_116_statement_rows": true,
+    "statement_ids_unique": true,
+    "exactly_11_records": true,
+    "all_135_fields_covered_once": true,
+    "all_381_events_literalized_once": true,
+    "all_statement_event_counts_match": true,
+    "all_selected_owners_from_central_v71": true,
+    "every_paraphrase_concrete_nonempty": true,
+    "no_bare_exemplar_content_placeholder": true,
+    "every_event_has_typed_exemplar_slot": true,
+    "line_end_not_used_as_statement_end": true,
+    "owner_changes_within_statement_explicit": true,
+    "repair_cost_bounded_0_to_4": true
+  },
+  "constraints": {
+    "new_card_or_stem_values": false,
+    "active_v72_sibling_outputs_read": false,
+    "new_pages_read": false,
+    "sealed_pages_opened": false,
+    "commit_or_push": false
+  }
+}

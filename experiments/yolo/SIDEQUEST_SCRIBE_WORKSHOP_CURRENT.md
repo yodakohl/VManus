@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-22, after V71 of the authorized V71–V80 cycle.
+Updated: 2026-08-22, after V72 of the authorized V71–V80 cycle.
 
 Status: **creative working reconstruction, not a GDT result and not a
 translation**. Confirmed Voynich lexemes, sounds and plaintext clauses remain
@@ -19,7 +19,27 @@ Exactly ten pages are in scope:
 `f84` and `f84r` remain sealed. ZL3b, IT2a and RF1b are alternate readings of
 one manuscript. No additional page, image or semantic corpus was admitted.
 
-## V71 result in one sentence
+## V72 result in one sentence
+
+All 116 prose statements now have a complete owner-aware source-class
+paraphrase covering all 381 events. Herbal uses the historical article reading;
+Biological uses the stricter technical station reading. Four V69 statements
+(`B2-S012`, `B3-S016`, `B3-S026`, `B4-S015`) cross an actual image-owner gap
+and now contain an explicit internal reset instead of an imagined continuous
+process.
+
+The translation layer is now explicitly three-part:
+
+```text
+visible/inherited owner
+  + known exact card or formal prompt
+  + typed but creatively supplied master-exemplar content
+```
+
+Concrete words such as water, warmth, bath, plant part or drain may appear in
+the third layer; they are not thereby Voynich word meanings.
+
+## V71 owner result retained
 
 All 135 prose fields and 142 Astro loci now have a frozen image-owner status:
 106 direct, 126 inherited, 24 page-only and 21 unresolved. The selected rule is
@@ -245,6 +265,9 @@ not that it is the historical world.
 
 ## Current image-first artifacts
 
+- `sidequest_theory_candidates_v72/V72_FOUR_ROLE_SELECTION.md`;
+- `sidequest_theory_candidates_v72/V72_SELECTED_116_STATEMENTS.tsv`;
+- four complete 116-statement editions and `V72_VALIDATION.json`;
 - `sidequest_theory_candidates_v71/V71_FOUR_ROLE_SELECTION.md`;
 - `sidequest_theory_candidates_v71/V71_SELECTED_OWNER_LEDGER.tsv`;
 - four complete 277-row role ledgers and `V71_VALIDATION.json`;
@@ -282,6 +305,6 @@ corrector. Preserve independence until each role freezes its result.
 
 ## Next bounded step and stop
 
-V71 is complete. V72 is authorized by the frozen V71–V80 protocol and must
-rebuild all 116 source statements under the V71 owners. Do not add pages,
-start V81 or design a scientific/Voynich semantic experiment automatically.
+V72 is complete. V73 is authorized by the frozen V71–V80 protocol and must
+produce the complete Herbal third edition. Do not add pages, start V81 or
+design a scientific/Voynich semantic experiment automatically.

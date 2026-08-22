@@ -1,0 +1,195 @@
+{
+  "status": "PASS",
+  "gate_count": 28,
+  "passed_gates": 28,
+  "statements": 116,
+  "fields": 135,
+  "events": 381,
+  "repair_cost_counts": {
+    "0": 10,
+    "1": 35,
+    "2": 58,
+    "3": 10,
+    "4": 3
+  },
+  "gates": [
+    {
+      "gate": "schema_complete",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "gate": "exact_116_statements",
+      "status": "PASS",
+      "detail": 116
+    },
+    {
+      "gate": "statement_identity_and_order",
+      "status": "PASS",
+      "detail": [
+        "H1-S001",
+        "B6-S001"
+      ]
+    },
+    {
+      "gate": "eleven_records",
+      "status": "PASS",
+      "detail": {
+        "H1": 2,
+        "H2": 3,
+        "H3": 4,
+        "H4": 4,
+        "H5": 6,
+        "B1": 21,
+        "B2": 22,
+        "B3": 34,
+        "B4": 16,
+        "B5": 3,
+        "B6": 1
+      }
+    },
+    {
+      "gate": "event_sum_381",
+      "status": "PASS",
+      "detail": 381
+    },
+    {
+      "gate": "v69_statement_metadata_exact",
+      "status": "PASS",
+      "detail": "all bound columns"
+    },
+    {
+      "gate": "all_135_fields_once",
+      "status": "PASS",
+      "detail": 135
+    },
+    {
+      "gate": "all_381_events_once",
+      "status": "PASS",
+      "detail": 381
+    },
+    {
+      "gate": "exact_selected_v71_field_bindings",
+      "status": "PASS",
+      "detail": "135/135 central selections"
+    },
+    {
+      "gate": "literal_layer_has_every_event",
+      "status": "PASS",
+      "detail": "381 event markers"
+    },
+    {
+      "gate": "literal_known_and_unknown_tags",
+      "status": "PASS",
+      "detail": "frozen mnemonic/prompt or explicit unknown"
+    },
+    {
+      "gate": "line_crossing_exact",
+      "status": "PASS",
+      "detail": 18
+    },
+    {
+      "gate": "repair_cost_range",
+      "status": "PASS",
+      "detail": {
+        "1": 35,
+        "2": 58,
+        "0": 10,
+        "3": 10,
+        "4": 3
+      }
+    },
+    {
+      "gate": "one_concrete_paraphrase_each",
+      "status": "PASS",
+      "detail": "116 statement-addressed paraphrases"
+    },
+    {
+      "gate": "one_typed_rival_each",
+      "status": "PASS",
+      "detail": "116 single rivals"
+    },
+    {
+      "gate": "contradiction_and_constraint_each",
+      "status": "PASS",
+      "detail": "116/116"
+    },
+    {
+      "gate": "semantic_ceiling_constant",
+      "status": "PASS",
+      "detail": [
+        "CREATIVE_SOURCE_CLASS_NOT_WORD_CARD_STEM_SOUND_OR_TRANSLATION"
+      ]
+    },
+    {
+      "gate": "fixed_pages_only",
+      "status": "PASS",
+      "detail": [
+        "f10r",
+        "f11r",
+        "f55v",
+        "f56r",
+        "f81v",
+        "f82r",
+        "f83r"
+      ]
+    },
+    {
+      "gate": "sealed_pages_absent",
+      "status": "PASS",
+      "detail": "no f84/f84r selector"
+    },
+    {
+      "gate": "b2_s012_gap_reset",
+      "status": "PASS",
+      "detail": "KEEP_UNRESOLVED_OWNER[F058:UNRESOLVED:B2_MIDDLE_RIGHT_AMBIGUOUS_STATION] -> BREAK_VISIBLE_GAP -> SET_DIRECT_OWNER[F059:DIRECT_VISIBLE:B2_LOWER_GREEN_MULTI_FIGURE_POOL]"
+    },
+    {
+      "gate": "b3_s016_gap_reset",
+      "status": "PASS",
+      "detail": "INHERIT_OWNER[F086:INHERITED_VISIBLE:B3_LOWER_MARGIN_BASKET_VESSEL_STATION] -> BREAK_VISIBLE_GAP -> SET_UNRESOLVED_OWNER[F087:UNRESOLVED:B3_MARGIN_TO_MAIN_GAP_UNRESOLVED]"
+    },
+    {
+      "gate": "b3_s026_gap_reset",
+      "status": "PASS",
+      "detail": "KEEP_UNRESOLVED_OWNER[F098:UNRESOLVED:B3_MARGIN_TO_MAIN_GAP_UNRESOLVED] -> BREAK_VISIBLE_GAP -> SET_DIRECT_OWNER[F099:DIRECT_VISIBLE:B3_MAIN_ARCH_LINKED_PAIR]"
+    },
+    {
+      "gate": "b4_s015_left_right_reset",
+      "status": "PASS",
+      "detail": "INHERIT_OWNER[F125:INHERITED_VISIBLE:B4_MAIN_LEFT_OPEN_FRINGE_STATION] -> BREAK_VISIBLE_GAP -> SET_DIRECT_OWNER[F126:DIRECT_VISIBLE:B4_MAIN_RIGHT_S_RUN_MULTIPORT_STATION]"
+    },
+    {
+      "gate": "b5_b6_record_reset",
+      "status": "PASS",
+      "detail": {
+        "B5": "INHERIT_OWNER[F131:INHERITED_VISIBLE:B5_LEFT_OPEN_FRINGE_STATION] -> INHERIT_OWNER[F132:INHERITED_VISIBLE:B5_LEFT_OPEN_FRINGE_STATION] -> INHERIT_OWNER[F133:INHERITED_VISIBLE:B5_LEFT_OPEN_FRINGE_STATION] -> RESET_AT_RECORD_END",
+        "B6": "RESET_RECORD -> SET_DIRECT_OWNER[F134:DIRECT_VISIBLE:B6_RIGHT_S_RUN_MULTIPORT_STATION] -> INHERIT_OWNER[F135:INHERITED_VISIBLE:B6_RIGHT_S_RUN_MULTIPORT_STATION] -> RESET_AT_RECORD_END"
+      }
+    },
+    {
+      "gate": "all_bio_constraints_block_direction",
+      "status": "PASS",
+      "detail": "97 Biological statements"
+    },
+    {
+      "gate": "report_all_11_records",
+      "status": "PASS",
+      "detail": "H1-H5+B1-B6"
+    },
+    {
+      "gate": "report_all_116_statement_ids",
+      "status": "PASS",
+      "detail": "116/116"
+    },
+    {
+      "gate": "revision_table_15_rows",
+      "status": "PASS",
+      "detail": 15
+    }
+  ],
+  "sealed": [
+    "f84",
+    "f84r"
+  ]
+}
