@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-22, after V78 of the authorized V71–V80 cycle.
+Updated: 2026-08-22, after V79 of the authorized V71–V80 cycle.
 
 Status: **creative working reconstruction, not a GDT result and not a
 translation**. Confirmed Voynich lexemes, sounds and plaintext clauses remain
@@ -18,6 +18,28 @@ Exactly ten pages are in scope:
 
 `f84` and `f84r` remain sealed. ZL3b, IT2a and RF1b are alternate readings of
 one manuscript. No additional page, image or semantic corpus was admitted.
+
+## V79 apprentice reconstruction
+
+The V78 form is teachable with one compact master manual, but its concrete
+content is not self-reading. All four roles audit all 19 statement-internal
+physical-line crossings. Exactly E180→E181 satisfies the generic visible
+read-once predicate (same exact card, statement and owner; no intervening
+Close): `TP=1, FP=0, FN=0, TN=18`. The apprentice needs no locus exception.
+Both visible copies remain; one source token is emitted. With one positive case
+this remains a local anticipation/carry/dittography hypothesis, not an attested
+standard catchword.
+
+The selected 16-rule machine round-trips 137/137 representative formal atoms
+with or without the master: H2 24 cards, H4 18, B2 62 and the left f69 wheel 33
+groups in 28 local slots. Without the master it recovers 0/103 concrete prose
+values and 0/28 concrete Astro values. Thus the live model is
+`EXEMPLAR_NOTATION_FORMALLY_LEARNABLE__CONCRETE_CONTENT_MASTER_DEPENDENT`.
+
+For autonomous readback, `dcda…` is primarily `FORMAL_LINK_OR_SLOT`, and
+`b5fcea…` is `FORMAL_RELATION_OR_ENTRY_MARK_WITH_ENTRY_BIAS`. The historically
+attested 1414 categories `ET?` and `PER?` remain allowed only as optional,
+master-supplied question glosses. No new word is added.
 
 ## V78 complete continuous prose edition
 
@@ -425,6 +447,12 @@ not that it is the historical world.
 
 ## Current image-first artifacts
 
+- `sidequest_theory_candidates_v79/V79_FOUR_ROLE_SELECTION.md`;
+- `sidequest_theory_candidates_v79/V79_SELECTED_MACHINE_MANUAL.tsv`;
+- `sidequest_theory_candidates_v79/V79_SELECTED_FORWARD_BACKWARD_TRACES.tsv`;
+- `sidequest_theory_candidates_v79/V79_SELECTED_19_LINE_TRANSITION_AUDIT.tsv`;
+- `sidequest_theory_candidates_v79/V79_SELECTED_REPAIR_DECISIONS.tsv`;
+- four independent apprentice audits and `V79_VALIDATION.json`;
 - `sidequest_theory_candidates_v78/V78_FOUR_ROLE_SELECTION.md`;
 - `sidequest_theory_candidates_v78/V78_SELECTED_381_EVENT_INTERLINEAR.tsv`;
 - `sidequest_theory_candidates_v78/V78_SELECTED_116_STATEMENTS.tsv`;
@@ -499,10 +527,11 @@ corrector. Preserve independence until each role freezes its result.
 
 ## Next bounded step and stop
 
-V78 is complete. V79 must test whether an apprentice can copy and read the
-selected system forward and backward with one compact manual. The critical
-test is the f82r E180/E181 PER carry pair: if read-once follows from a simple
-visible line-edge rule, PER remains provisional; if the locus must be memorized,
-PER is replaced by a formal entry/reset mark. ET must separately beat or tie
-its silent link rival without acquiring extra senses. Do not add pages, start
-V81 or design a scientific/Voynich semantic experiment automatically.
+V79 is complete. V80 must publish the canonical third edition: the complete
+173-card dictionary, 381-event interlinear, 135-field and 116-statement
+editions, 395-group Astro edition, 776-group unified ledger, readable ten-page
+edition, workshop manual and contradiction ledger. It must show operational
+formal values separately from optional historical word candidates and all
+occurrence-bound exemplar prose. V80 ends the authorized cycle. Do not add
+pages, start V81 or design a scientific/Voynich semantic experiment
+automatically.

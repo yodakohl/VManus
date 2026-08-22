@@ -1,0 +1,13 @@
+rule_id	state	apprentice_instruction	guard
+M01	SEITE_UND_REGISTER	Bestimme Herbal, Biological oder Astro nur aus der bereits gezeichneten Seite.	Kein Register darf Kartenbedeutungen aus einem anderen Register erben.
+M02	SICHTBARER_BESITZER	Öffne am Bild den kleinsten sichtbaren Besitzer: Pflanze, lokale Bio-Station oder lokales Himmelsfeld.	Eine sichtbare Lücke setzt Stoff, Ziel und Richtung zurück.
+M03	EXAKTE_KARTE	Kopiere jede opake Ganzkarte aus dem Meisterexemplar in derselben Reihenfolge.	Keine Karte wird aus Stamm, Klang, PAGE_HOST oder moderner Wortähnlichkeit erzeugt.
+M04	FELD_UND_AUSSAGE	Ein Feld ist ein Kopierfach; die Aussage darf über Feld und physische Zeile weiterlaufen.	Zeilenende ist nicht automatisch Satzende.
+M05	CLOSE	DY/B3-artige Close-Zustände schließen das lokale Fach, nicht notwendig einen sprachlichen Satz.	Close ist eine Formregel und kein historisch attestiertes Wort.
+M06	OWNER_RESET	Bei sichtbarem Besitzerwechsel beginne einen neuen lokalen Gegenstand, selbst wenn dieselbe Aussage weiterläuft.	Keine unsichtbare Leitung oder Richtung über die Lücke ergänzen.
+M07	READ_ONCE_CARRY	Steht dieselbe exakte Karte unmittelbar am Ende einer physischen Zeile und am Anfang der nächsten, bei gleicher Aussage und gleichem Besitzer und ohne Close dazwischen, lies die erste Kopie als Randvorausnahme und die zweite als Haupttoken.	Allgemeine sichtbare Hypothese; keine locus-spezifische Ausnahme und kein behaupteter Standard-Catchword.
+M08	ET_FRAGEZEICHEN	Die Karte dcda… darf probeweise als ET? (UND/AUCH?) gelesen werden.	Sie bleibt gegen einen lautlosen LINK/SLOT formal ununterscheidbar.
+M09	PER_FRAGEZEICHEN	Die Karte b5fcea… darf probeweise als PER? (DURCH/GEMÄSS?) gelesen werden; eine Read-once-Paarung zählt als ein Quelltoken.	Sie bleibt gegen ENTRY/RESET formal ununterscheidbar.
+M10	FORMALPROMPTS	Die zwei eingefrorenen Parameter-/Relationskanäle werden als Formanweisungen, nicht als Wörter, geführt.	Sie dürfen keine deutsche Lexikglosse erhalten.
+M11	EXEMPLARSCHWANZ	Alle übrigen konkreten Inhalte werden occurrence-gebunden aus dem Meisterexemplar gelernt und ausdrücklich als [EXEMPLAR:…] markiert.	Ohne Exemplar bleibt der Wert UNKNOWN; nicht erraten.
+M12	ASTRO_NAMENSRAUM	Kopiere jedes Astro-Etikett nur in seinem lokalen Rad-, Feld- oder Sternplatz-Namensraum.	Kein Start, keine Drehrichtung und kein f68↔f69-Schlüssel.

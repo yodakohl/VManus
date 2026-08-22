@@ -1,0 +1,45 @@
+{
+  "experiment": "V79_R2_HISTORICAL_APPRENTICE_RECONSTRUCTION",
+  "status": "PASS",
+  "scope": "FIXED_TEN_PAGE_SIDEQUEST_ONLY",
+  "line_transitions_audited": 19,
+  "cross_line_statements": 18,
+  "read_once_rule_matches": [
+    "E180->E181"
+  ],
+  "read_once_false_positives_under_visible_rule": 0,
+  "read_once_hypothesis": "LOCAL_ANTICIPATION_CARRY_OR_DITTOGRAPHY__NOT_STANDARD_CATCHWORD",
+  "h2_trace_events": 24,
+  "b2_trace_events": 62,
+  "b2_visible_owner_resets": [
+    "E189",
+    "E198",
+    "E203",
+    "E212"
+  ],
+  "f69_left_slots": 28,
+  "f69_left_group_segments": 33,
+  "total_trace_rows": 119,
+  "et_decision": "FORMAL_LINK_RECOVERABLE__ET_GLOSS_REQUIRES_MASTER",
+  "per_decision": "FORMAL_RELATION_ENTRY_RECOVERABLE__PER_GLOSS_REQUIRES_MASTER",
+  "semantic_forward_continuation_without_master": "FAIL__NOT_RECOVERABLE",
+  "formal_copy_and_readback_with_master": "PASS",
+  "new_portable_word_meanings": 0,
+  "sealed_pages": [
+    "f84",
+    "f84r"
+  ],
+  "inputs": [
+    "experiments/yolo/sidequest_theory_candidates_v78/V78_SELECTED_381_EVENT_INTERLINEAR.tsv",
+    "experiments/yolo/sidequest_theory_candidates_v78/V78_SELECTED_116_STATEMENTS.tsv",
+    "experiments/yolo/sidequest_theory_candidates_v78/V78_SELECTED_11_CONTINUOUS_RECORDS.tsv",
+    "experiments/yolo/sidequest_theory_candidates_v75/V75_SELECTED_395_GROUP_CELESTIAL_EDITION.tsv",
+    "experiments/yolo/sidequest_theory_candidates_v75/V75_SELECTED_142_LOCUS_CELESTIAL_EDITION.tsv"
+  ],
+  "outputs": [
+    "V79_R2_19_LINE_TRANSITION_AUDIT.tsv",
+    "V79_R2_COMPLETE_FORWARD_BACKWARD_TRACES.tsv",
+    "V79_R2_REPAIR_DECISIONS.tsv"
+  ],
+  "interpretation_ceiling": "WORKSHOP_COPY_MODEL_NOT_DECIPHERMENT_OR_TRANSLATION"
+}

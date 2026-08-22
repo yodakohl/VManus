@@ -1,0 +1,17 @@
+step	direction	scope	instruction	recoverable_output	forbidden_error
+1	BOTH	START	Choose one frozen record or one local Astro namespace; copy its visible owner and boundaries before any content.	OWNER_AND_BOUNDARY_FRAME	Do not choose a meaning first.
+2	FORWARD	PROSE_EVENT	Copy every exact card once in visible order; preserve physical line, field, statement, and owner-break metadata.	EXACT_CARD_AND_BOUNDARY_RECOVERY	Never merge similar forms or omit a repeated card.
+3	FORWARD	ET	For the exact ET card write one question-mark word ET?; read only UND?/AUCH?, never a process verb.	ET_CATEGORY	No additional sense and no promotion to a confirmed lexeme.
+4	FORWARD	PER	For the exact PER card write PER?; outside carry pairs it governs one visibly bracketed complement as DURCH?/GEMÄSS?.	PER_CATEGORY_PLUS_ONE_COMPLEMENT	PER remains probationary and the complement is exemplar content.
+5	BOTH	FORMAL	For either of the two formal cards write and read only [FORMAL; KEIN WORT].	FORMAL_NONWORD	Do not restore MASS, target, measure, or another gloss.
+6	BOTH	EXEMPLAR	For every other card write [EXEMPLARWERT UNBEKANNT]; copy any concrete expansion only inside [EXEMPLAR:...].	OPAQUE_CARD_PLUS_OPTIONAL_SOURCE_EXPANSION	Without the exemplar no concrete semantic recovery is claimed.
+7	BOTH	CARRY	At an intra-statement physical-line boundary compare the final card with the next line's first card. If exact identity, owner, and statement match and neither is CLOSE, copy both but read the first as anticipation and speak the source token once at the second.	TWO_VISIBLE_COPIES_ONE_SOURCE_TOKEN	No locus list is allowed.
+8	BOTH	CARRY_NEGATIVE	If card identity differs, owner resets, statement changes, or CLOSE occurs, do not suppress either card.	ORDINARY_TWO_EVENT_READING	A line break alone never licenses carry.
+9	BACKWARD	STATEMENT	Regroup by frozen statement identity rather than physical line; retain every cross-line and cross-field continuation.	STATEMENT_BOUNDARY_RECOVERY	Never turn every line end into a sentence end.
+10	BOTH	OWNER_RESET	At BREAK_VISIBLE_GAP reset substance, target, and direction before reading the new local owner.	LOCAL_OWNER_RECOVERY	Do not create a page-wide Bio flow.
+11	FORWARD	ASTRO_GROUP	Within one local Astro locus copy each opaque group ID in listed local order and retain the locus boundary.	OPAQUE_GROUP_AND_LOCUS_RECOVERY	Do not import prose cards or meanings.
+12	BACKWARD	ASTRO_NAMESPACE	Return every copied group only to its frozen local wheel/panel/slot; never move a value across wheels or pages.	LOCAL_NAMESPACE_RECOVERY	No f68-f69 key, common start, direction, or rotation.
+13	BOTH	F69_LEFT_28	Treat L01-L28 only as editorial addresses for 28 distinct visible radial slots; reconstruct all slot buckets but no authorial sequence.	28_SLOT_BUCKET_RECOVERY	Do not infer names, ranks, Moon mansions, or cyclic order.
+14	BACKWARD	SEMANTIC_CEILING	With the master exemplar copy bracketed content verbatim; without it recover only exact identity, boundary, owner, ET?/PER? category, and formal/nonword status.	SEPARATE_COPY_RECOVERY_FROM_SEMANTIC_INFERENCE	Rote exemplar recovery is not decipherment.
+15	CHECK	PER_DECISION	Run the carry rule over all 19 frozen transitions. Retain PER only if the E180/E181 repair is found without any false positive or false negative.	PER_FALSIFIER	One passing positive does not confirm PER semantics.
+16	CHECK	ET_DECISION	Verify all 19 ET cards retain one additive question-mark category; keep the silent formal-link rival explicitly tied.	ET_FALSIFIER	If an extra sense is needed, withdraw ET.

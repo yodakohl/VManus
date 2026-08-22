@@ -1,0 +1,32 @@
+{
+  "freeze_status": "FROZEN_BEFORE_TRANSITION_ROW_SCORING",
+  "role": "R3_TECHNICAL_REGISTER_NOTATION_SCRIBE",
+  "frozen_date": "2026-08-22",
+  "scope": "ALL_19_STATEMENT_INTERNAL_PHYSICAL_LINE_TRANSITIONS_IN_V78_SELECTED_PROSE",
+  "rule_id": "R3_ANTICIPATORY_EDGE_COPY_V1",
+  "rule": {
+    "condition_1": "last event of physical line L and first event of immediately following physical line L+1 have the same exact joint_tuple_id",
+    "condition_2": "both events belong to the same frozen V78 statement_id",
+    "condition_3": "both events have the same visible image_owner_id",
+    "condition_4": "the first occurrence is NONCLOSE and no close event lies between the adjacent occurrences",
+    "positive_action": "classify the line-final occurrence as ANTICIPATORY_MARGIN_COPY and read the line-initial occurrence once as the single source token",
+    "negative_action": "read both boundary events independently under their existing V78 statuses"
+  },
+  "no_exceptions": "NO_LOCUS_PAGE_CARD_WORD_OR_REGISTER_SPECIFIC_EXCEPTION_ALLOWED",
+  "gold_label": "V78 central selected_catchword_repair / central_repair fixed before this audit",
+  "opportunity_selection": "every adjacent locus change inside one of the 116 frozen V78 statements; expected total 19",
+  "metrics": [
+    "true_positive",
+    "false_positive",
+    "false_negative",
+    "true_negative",
+    "precision",
+    "recall",
+    "specificity"
+  ],
+  "interpretation_ceiling": "VISIBLE_COPYING_CONVENTION_ONLY_NOT_WORD_MEANING_OR_HISTORICAL_CATCHWORD_CLAIM",
+  "seals": {
+    "f84": "SEALED_NOT_ACCESSED",
+    "f84r": "SEALED_NOT_ACCESSED"
+  }
+}

@@ -1,0 +1,568 @@
+{
+  "status": "PASS",
+  "passed": 106,
+  "total": 106,
+  "failed": [],
+  "counts": {
+    "manual_rules": 16,
+    "trace_rows": 264,
+    "transition_rows": 19,
+    "error_audit_rows": 13,
+    "prose_visible_events": 104,
+    "Astro_loci": 28,
+    "Astro_groups": 33
+  },
+  "transition_confusion": {
+    "TN": 18,
+    "TP": 1
+  },
+  "roundtrip": {
+    "formal_with_master": "137/137 exact atoms (104 prose cards + 33 Astro groups)",
+    "formal_without_master": "137/137 exact atoms (104 prose cards + 33 Astro groups)",
+    "prose_semantic_with_master": "103/103 supplied lookups",
+    "prose_semantic_without_master": "0/103",
+    "astro_semantic_with_master": "28/28 supplied lookups",
+    "astro_semantic_without_master": "0/28"
+  },
+  "seals": {
+    "f84": "SEALED_NOT_ACCESSED",
+    "f84r": "SEALED_NOT_ACCESSED"
+  },
+  "checks": [
+    {
+      "name": "freeze status",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "freeze covers all 19 transitions",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "freeze bars exceptions",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "freeze has four content conditions",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "freeze seals f84/f84r",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "manual has 16 rules",
+      "pass": true,
+      "detail": 16
+    },
+    {
+      "name": "manual order exact",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "manual operation present: RESET_RECORD",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "manual operation present: OPEN_STATEMENT",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "manual operation present: SET_OR_RESET_OWNER",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "manual operation present: BUFFER_EDGE_CARD",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "manual operation present: COLLAPSE_ANTICIPATORY_COPY",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "manual operation present: RELEASE_BOTH",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "manual operation present: EMIT_ET_QUESTIONED",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "manual operation present: EMIT_PER_QUESTIONED",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "manual operation present: EMIT_FORMAL_CHANNEL",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "manual operation present: EMIT_OPAQUE_VALUE",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "manual operation present: LOOKUP_CONTEXT_EXPANSION",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "manual operation present: MASK_CONTEXT_EXPANSION",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "manual operation present: SET_F69_LEFT_NAMESPACE",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "manual operation present: LOOKUP_UNORDERED_SLOT",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "manual operation present: VERIFY_ROUNDTRIP",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "manual rows complete",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "transition rows exactly 19",
+      "pass": true,
+      "detail": 19
+    },
+    {
+      "name": "transition IDs exact",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "all transition rows same statement",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "all transition rows cross loci",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "all transition rows no locus exception",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "all line-final events NONCLOSE",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "one same-card transition",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "15 same-owner transitions",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "classification TP1 TN18",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "zero FP/FN",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "one predicted copy",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "copy pair exact E180/E181",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "copy pair exact PER card",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "copy pair one source token",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "all negatives retain two tokens",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "transition opportunity reconstruction exact",
+      "pass": true,
+      "detail": 19
+    },
+    {
+      "name": "trace rows exactly 264",
+      "pass": true,
+      "detail": 264
+    },
+    {
+      "name": "trace IDs unique",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "trace pages fixed",
+      "pass": true,
+      "detail": [
+        "f10r",
+        "f55v",
+        "f69v",
+        "f82r"
+      ]
+    },
+    {
+      "name": "no f84 trace page",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "all traces exact roundtrip",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "all traces without-master semantic no",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "all traces with-master marked lookup only",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "all trace cells populated",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "prose forward 104",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "prose backward 104",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Astro forward 28",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Astro backward 28",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "H2 forward count",
+      "pass": true,
+      "detail": 24
+    },
+    {
+      "name": "H2 backward count",
+      "pass": true,
+      "detail": 24
+    },
+    {
+      "name": "H2 forward item coverage",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "H2 backward item coverage",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "H4 forward count",
+      "pass": true,
+      "detail": 18
+    },
+    {
+      "name": "H4 backward count",
+      "pass": true,
+      "detail": 18
+    },
+    {
+      "name": "H4 forward item coverage",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "H4 backward item coverage",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B2 forward count",
+      "pass": true,
+      "detail": 62
+    },
+    {
+      "name": "B2 backward count",
+      "pass": true,
+      "detail": 62
+    },
+    {
+      "name": "B2 forward item coverage",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B2 backward item coverage",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "prose forward item set exact",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "prose backward item set exact",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "forward exact card reconstruction",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "backward exact card reconstruction",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "E180 forward buffered",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "E181 forward read once",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "E180 backward anticipation",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "E181 backward main token",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B2 forward reset IDs exact",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "B2 backward reset IDs exact",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "E180/E181 same owner",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no new prose token category",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "trace ET exact card only",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "trace PER exact card only",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "f69 source loci 28",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "f69 source groups 33",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Astro item IDs L01..L28",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Astro namespace exact",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Astro no traversal forward",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Astro formal groups reconstructed both ways",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Astro no-master values unknown",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "error audit rows 13",
+      "pass": true,
+      "detail": 13
+    },
+    {
+      "name": "error audit IDs exact",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "edge metric exact",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "prose formal both master modes pass",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "prose semantics without master fail",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Astro formal both master modes pass",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Astro semantics without master fail",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ET formal rival tied",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "PER formal rival retained",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "summary built",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "summary trace rows",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "summary TP/FP/FN/TN",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "summary formal roundtrip both 137/137",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "summary no-master semantics zero",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "summary word rivals exact",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "summary seals",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "freeze hash current",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "output hashes current",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "report exists and substantial",
+      "pass": true,
+      "detail": 9275
+    },
+    {
+      "name": "report gives 19-transition confusion matrix",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "report separates formal/semantic recovery",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "report retains interpretation ceiling",
+      "pass": true,
+      "detail": ""
+    }
+  ]
+}
