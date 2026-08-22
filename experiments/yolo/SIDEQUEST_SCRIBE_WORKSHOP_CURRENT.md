@@ -1509,3 +1509,14 @@ contexts document the pressure cases. The current encoder is:
 `local content + recurring prompt + specification + licensed terminal`.
 Primary artifact:
 `sidequest_theory_candidates_v40/V40_ALL_OCCURRENCE_PRESSURE_TEST.md`.
+
+### V41 complete field and record grammar
+
+All 135 prose fields now receive concrete worksheet questions and all eleven
+records receive ordered role paths. Herbal has twenty long fields (mean 5.0
+cards; fifteen open) across five illustrated articles. Biological has 115
+short cells (mean 2.44 cards; eighty-five DY-closed) across six procedural
+records. The best sentence model is therefore long open Herbal article clauses
+versus short content-bearing Biological work cells; physical lines may break
+either. Primary artifact:
+`sidequest_theory_candidates_v41/V41_COMPLETE_RECORD_GRAMMAR.md`.
