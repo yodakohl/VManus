@@ -1,0 +1,15 @@
+error_id	error_condition	observed_scope	loss_or_false_claim	deterministic_repair	status
+E01	SOURCE_PAYLOAD_REMOVED	776 groups	Complete local intention is lost for every group	require occurrence/locus exemplar key	HELD_FAILURE_MODE
+E02	UNLICENSED_PROSE_CARD_REQUEST	159 opaque prose types; 262 occurrences	Slots cannot select the opaque tail	fail closed or cite existing whole-card exemplar	HELD_FAILURE_MODE
+E03	ID_TO_SURFACE_WITHOUT_VARIANT_SELECTOR	202 prose occurrences in 34 card IDs	one exact ID admits several copied surfaces	store occurrence renderer selector; infer no phonetics	HELD_FAILURE_MODE
+E04	ASTRO_SURFACE_WITHOUT_LOCAL_ADDRESS	140/395 groups	surface repeats do not identify local group	retain diagram+locus+group address	HELD_FAILURE_MODE
+E05	POST_STATE_WITHOUT_TRANSITION_LOG	69/116 statements	prior register operations are not recoverable	retain full V62 transition log	HELD_FAILURE_MODE
+E06	THREE_OR_FEWER_REGISTERS	9/116 failures at best three-register model	TARGET-sensitive clauses lose a required slot	use four record-local registers	HELD_FAILURE_MODE
+E07	CLOSE_SPOKEN_OR_MOVED	90 terminal fields	formal commit becomes false lexical content or invalid envelope	keep close silent and field-final	HELD_FAILURE_MODE
+E08	LINE_RESET_AS_SENTENCE	18/116 cross-line statements	source clause is split	apply V61 reflow after field compilation	HELD_FAILURE_MODE
+E09	CARRY_ACROSS_RECORD	11 prose record starts	anonymous IDs acquire a false antecedent	reset all four registers per record	HELD_FAILURE_MODE
+E10	ORDER_NORMALIZATION	42/94 pair violations under each proxy	either abstract order rewrites observed cards	preserve source order; use proxies only as audit	HELD_FAILURE_MODE
+E11	ASTRO_F68_F69_JOIN	0 licensed joins	creates an unsupported crosspage key	keep A2 and A3 namespaces separate	HELD_FAILURE_MODE
+E12	PAGE_HOST_STRING_COMPONENT_OR_PHONETIC_INHERITANCE	all 776 groups	creates a new semantic or sound rule	reject path; exact whole card remains atomic	HELD_FAILURE_MODE
+E13	TERMINAL_ACTION_FROM_CLOSE_ALONE	16 OKE/LCHE occurrences	terminal confound is mistaken for action semantics	require exact whole card plus observed terminal; preserve rival	HELD_FAILURE_MODE
+E14	NEW_SOURCE_CLAUSE_WITHOUT_EXEMPLAR	outside the 116 prose clauses/142 Astro loci	compiler has no licensed opaque payload or layout	reject; this is not a productive standalone codec	HELD_FAILURE_MODE

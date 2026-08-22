@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-22, after V66 completed the Astro second edition.
+Updated: 2026-08-22, after V67 reconstructed the circa-1420 workshop workflow.
 
 Status: **speculative working theory, not a GDT result and not a
 translation**. This file is the compact authoritative entry point for the
@@ -39,6 +39,16 @@ exemplar readings, but no Astro surface is a translated word. f68r1 and f69v
 remain unjoined: each admits 56 equally visible orientations and shares no
 exact full entry. The selected report is
 `sidequest_theory_candidates_v66/V66_FOUR_ROLE_SELECTION.md`.
+
+V67 selects an exemplar-dependent two-stage workshop realization. Ordinary
+Latin or vernacular technical source material is first normalized and made
+elliptical, then encoded with four record-local registers, 14 exact control
+cards, local whole-card exemplars, fields, reflow, and hand rendering. Formal
+identity and layout round-trip 776/776 with the codebooks; the complete chosen
+source expansion round-trips 776/776 only with the master exemplar and 0/776
+without it. The visible order does not discriminate Latin-like from
+vernacular-like slot order. The selected report is
+`sidequest_theory_candidates_v67/V67_FOUR_ROLE_SELECTION.md`.
 
 ## Read this, not the archive
 
