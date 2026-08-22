@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-22, after completing the source–flow–target grammar.
+Updated: 2026-08-22, after completing the quantity/preparation grammar.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -19,9 +19,57 @@ Exactly ten pages are in scope:
 `f84` and `f84r` remain sealed. ZL3b, IT2a and RF1b are alternate readings of
 one manuscript. No additional page, image or semantic corpus was admitted.
 
-## Active source–flow–target working edition
+## Active quantity/preparation working edition
 
-The current grammar adds one compact directional layer:
+The current edition closes three distinct quantity axes rather than treating
+them as one vague amount sign:
+
+```text
+AIN       part / bounded portion
+AIIN      prescribed measure
+IIN       grade / work stage
+
+OK+AIN    add a portion             OL+AIN    add another portion
+OK+AIIN   set to the measure        OT+AIIN   next measure
+```
+
+It also closes the first compact preparation paradigm:
+
+```text
+OR        preparation               OL+OR     previous preparation
+OT+OR     next preparation          CHO+OR    plant preparation
+OR+AIN    portion of preparation    OT+OL     then continue
+```
+
+The near-minimal `YKAIN/YKAN/YKAIIN` family is now read as “a portion of the
+current item / this portion / measure of the current item”; the unrelated old
+sentence glosses leaves, white wine and wound washing are withdrawn. Exact
+identity still outranks visible substring resemblance: `dain`, `cthaiin`,
+`qotedaiin`, `solkaiin`, `ycheor` and `oykchor` retain learned whole-card
+defaults.
+
+The 116 statements now have a teachable workshop grammar: inherited owner,
+optional link/select card, a flexible source/item–quantity–target address zone,
+an operation/flow/state execution zone, and optional close. It is a checklist,
+not a rigid modern word order. Eighty-nine statements close explicitly,
+twenty-seven remain open, and eighteen cross a physical line.
+
+Relative to the directional edition, 23 of 173 cards, 70 of 381 events and 40
+of 116 statements are revised, including two already encoded DY closes whose
+old German defaults had omitted the close. Every card still has a concrete default; all
+eleven prose records are regenerated. The active files are in
+`sidequest_semantic_quantity_preparation/`, led by
+`SELECTED_QUANTITY_PREPARATION_REPORT.md`,
+`SELECTED_QUANTITY_PREPARATION_COMPONENTS.tsv`,
+`SELECTED_COMPOSITION_TABLE.tsv`,
+`SELECTED_173_QUANTITY_PREPARATION_DICTIONARY.tsv`,
+`SELECTED_381_QUANTITY_PREPARATION_INTERLINEAR.tsv`,
+`SELECTED_116_WORKSHOP_SENTENCES.tsv` and
+`SELECTED_11_WORKSHOP_RECORDS.md`. Mechanical validation passes.
+
+## Previous source–flow–target working edition
+
+That edition added one compact directional layer:
 
 ```text
 AR        Quelle/Vorrat; aus/von
