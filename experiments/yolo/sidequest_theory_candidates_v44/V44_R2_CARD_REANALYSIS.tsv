@@ -1,0 +1,38 @@
+surface_card	V43_default	proposed_factorization	stem_level_default	context_supplies	decision
+aiin|chaiin|daiin|saiin|taiin	Ein vorgeschriebenes Maß	WRAPPER + AIIN	vorgeschriebene Quantität	Stoff und Einheit	KEEP_BROADENED
+okaiin|qokaiin	beginne den nächsten abgemessenen Posten	OK + AIIN	aktiviere einen quantifizierten Posten	nächster und konkrete Einheit	KEEP_COMPOSITIONAL
+okain|qokain	gib einen abgemessenen Anteil in das Gefäß	OK + AIN	führe eine quantifizierte Zugabe/Handhabung aus	zugeben und Gefäß	KEEP_COMPOSITIONAL
+chkain|kain	ein abgemessener Anteil	WRAPPER + K? + AIN	quantifizierte Einheit	Stoff	KEEP_QUANTITY_CORE
+otaiin|sotaiin	für dieselbe Dauer wie zuvor	WRAPPER + OT + AIIN	kontrastierter/voriger Quantitätswert	Zeitdimension und derselbe Wert	KEEP_COMPOSITIONAL
+dain	durch ein Tuch	D + AIN oder unteilbare Karte	keine belastbare AIN-Lesung	Filtermaterial	EXCEPTION_DO_NOT_FORCE
+chey|chy|dy|shy|sy|y	Diese aktive Portion	WRAPPER + Y	aktueller Arbeitsgegenstand	Portion	KEEP_BROADENED
+choky|oky|qoky	Die aktive Portion verwenden	WRAPPER + OK + Y	aktuellen Arbeitsgegenstand operativ behandeln	verwenden	KEEP_COMPOSITIONAL
+cheey|shey	Bis die Flüssigkeit klar abläuft	WRAPPER + EY	bis zum geforderten Prüfzustand	Flüssigkeit; klar; ablaufen	BROADEN_STRONGLY
+okeey|qokeey	temperiere die Arbeitsflüssigkeit und halte sie lauwarm	WRAPPER + opaque OKE/EY-like card	Temperatur-/Bereitschaftszustand	Flüssigkeit; lauwarm; halten	DO_NOT_DERIVE_FROM_EY_PAGE_HOST
+okey|qokey	warmes Wasser	WRAPPER + opaque OK card	bereitgestelltes warmes Medium	Wasser	DO_NOT_DERIVE_FROM_EY_PAGE_HOST
+oteey	das bereitete Öl	OT + opaque EEY card	bereitetes Medium	Öl	DO_NOT_DERIVE_FROM_EY_PAGE_HOST
+sheey	die erste Öffnung	SH + opaque EEY card	indizierter Zugang	erste Öffnung	DO_NOT_DERIVE_FROM_EY_PAGE_HOST
+cheol|chol|ol|qol|sol|tol	Mit der vorigen Zubereitung weiter	WRAPPER + OL	referenzierter Vorstoff/Voransatz	weiterführen	KEEP_BROADENED
+cholor|olor	Aus dem vorigen Ansatz entnehmen	WRAPPER + OL + OR	Produkt aus referenzierter Vorquelle	entnehmen	KEEP_COMPOSITIONAL
+dchol|schol	von diesem abgebildeten Simplex	WRAPPER + OL-like source card	bildlich/situativ gegebene Quelle	Simplex	POSSIBLE_POINTER_ALLOMORPH
+chor|or|shor|sor	Die bereitete Arbeitsflüssigkeit	WRAPPER + OR	bereitetes Produkt/Medium	Flüssigkeit	BROADEN
+orain	gebrauche die fertige Flüssigkeit frisch	OR + AIN	bereitetes Produkt im aktuellen Gebrauchsquantum	frisch gebrauchen	TENTATIVE_COMPOSITION
+okal|qokal	mische beide Anteile zusammen	WRAPPER + OK + AL	operativ zwei referierte Posten verbinden	Mischen und beide Anteile	KEEP_BROADENED
+okair	öffne danach den oberen Lauf	OK + AIR	aktiviere den spezifizierten Weg	öffnen; oberer Lauf	WEAK_COMPOSITION
+qokar	über der örtlich bezeichneten Stelle	Q + OK + AR	operative Relation zur Zielstelle	über; örtlich bezeichnet	WEAK_COMPOSITION
+otaiin|sotaiin	für dieselbe Dauer wie zuvor	WRAPPER + OT + AIIN	kontrastierter/voriger Messslot	Dauer	KEEP_COMPOSITIONAL
+otal|qotal	zum unteren Ablauf hin	WRAPPER + OT + AL	kontrastierter/unterer Zielweg	Ablauf	KEEP_POINTER
+otar	benutze danach den unteren Ablauf	OT + AR	kontrastierten Apparatusweg aktivieren	benutzen; danach; Ablauf	KEEP_POINTER
+lchedy	lasse die verbrauchte Flüssigkeit in das untere Auffanggefäß ablaufen und beende den Schritt	L + ACTION + DY	am nachgeordneten Abfluss ausführen und abschließen	verbrauchte Flüssigkeit; Auffanggefäß	BROADEN_STRONGLY
+lcheckhy	die zweite Öffnung	L + opaque access card	nachgeordneter/zweiter Zugang	Öffnung	KEEP_POINTER
+lchedal	das untere Becken	L + opaque basin card	nachgeordnetes/unteres Ziel	Becken	KEEP_POINTER
+ldy	ziehe es ab und beende den Schritt	L + DY	nachgeordnet/abführen und abschließen	abziehen	KEEP_BROADENED
+chdy|chedy	rühre, bis alles gleichmäßig vermischt ist	ACTION_CARD + DY	lokale Aktion bis Endpunkt, dann schließen	rühren; gleichmäßig	KEEP_DY_CLOSURE_ONLY
+cheedy|shedy|tedy	lasse es bis zur Bereitschaft stehen und beende den Schritt	ACTION_CARD + DY	lokale Aktion bis Endpunkt, dann schließen	stehen; Bereitschaft	KEEP_DY_CLOSURE_ONLY
+qokedy	spüle die bezeichnete Stelle einmal und beende den Schritt	ACTION_CARD + DY	lokale Aktion vollständig ausführen und schließen	spülen; Zielstelle	KEEP_DY_CLOSURE_ONLY
+oldy	koche sanft und beende diesen Arbeitsschritt	ACTION_CARD + DY	lokale Aktion vollständig ausführen und schließen	kochen; sanft	KEEP_DY_CLOSURE_ONLY
+dchedy|schedy|tchedy	spüle das benutzte Gefäß oder den Lauf einmal aus und beende den Schritt	WRAPPER + CHE-card + DY	Gerätehandlung vollständig ausführen und schließen	spülen; Gefäß/Lauf	KEEP_DY_CLOSURE_ONLY
+otchedy|qotchedy	mische zu gleichen Teilen und beende den Schritt	WRAPPER + distinct CHE-card + DY	Mischhandlung vollständig ausführen und schließen	gleich; mischen	CHE_NOT_SHARED_SEMANTIC_STEM
+cthaiin	gib den ausgepressten Saft hinzu	CTH-card + AIIN-like ending	verarbeitete Zugabe in vorgeschriebener Einheit	Saft; auspressen; hinzugeben	VERY_WEAK
+checthy|cthy|shcthy	Sobald die Zubereitung gebrauchsfertig ist	WRAPPER + CTHY-card	Bereitschafts-/Übergangskriterium	Zubereitung; sobald	KEEP_AS_WHOLE_CARD
+cthoor	wasche sie in fließendem Wasser	CTH-card + OR-like ending	Mediumsbehandlung	waschen; fließendes Wasser	DO_NOT_FORCE_COMMON_CTH_GLOSS

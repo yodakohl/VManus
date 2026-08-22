@@ -1543,3 +1543,16 @@ labels remain explicitly separate. The 381 prose events align exactly to all
 135 V42 fields. PAGE_HOST strings such as `ey`, `ok`, or `or` receive no new
 meaning: meanings belong only to complete V42 cards/constructions. Primary
 artifact: `sidequest_theory_candidates_v43/V43_CURRENT_COMPLETE_DICTIONARY.tsv`.
+
+### V44 four-role provisional stem layer
+
+Four independent period-role analyses decompose the 173 V43 prose cards into a
+mixed workshop system rather than ordinary prefix-stem-suffix morphology. The
+best provisional content cores are AIIN (standard measure), OR (prepared
+medium/product), CHOR (collection time/procurement), and CHEY (selected
+material part). OK, OT, L, EY, and DY are retained only as formal construction
+axes: activation, marked relation/route, continuation/receiver, required end
+state, and local completion. Visible final `-ey` has no free meaning: `chey`
+and `cheey` belong to different PAGE_HOSTs. Exact V43 card defaults remain the
+authoritative creative translations. Primary artifact:
+`sidequest_theory_candidates_v44/V44_FOUR_ROLE_STEM_SYNTHESIS.md`.
