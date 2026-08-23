@@ -7089,8 +7089,15 @@ Thus seven motifs plus three elementary cards cover 51+3/54 without a new
 sentence-sized word. See
 `sidequest_semantic_f83r_motif_transfer_two_hundred_forty_first/TWO_HUNDRED_FORTY_FIRST_READABLE_F83R_CURRICULUM.md`.
 
-Next, consolidate f81v/f82r/f83r into one 281-event Biological apprentice
-manual with one compact dictionary, seven motifs and all continuous readings.
+Pass 242 consolidates the three Biological pages into one complete apprentice
+manual: 281 cards, 97 statements, six records and 163 visible forms. Every
+visible form keeps one invariant concrete default across its occurrences. The
+compact curriculum has seven procedure motifs, six specialist components, six
+learned whole signs and three atomic commands. See
+`sidequest_semantic_biological_apprentice_manual_two_hundred_forty_second/TWO_HUNDRED_FORTY_SECOND_THREE_CONTINUOUS_PAGES.md`.
+
+Next, transfer this Biological curriculum to all 100 Herbal cards and separate
+the immediately reusable common core from new plant nouns and local operations.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
