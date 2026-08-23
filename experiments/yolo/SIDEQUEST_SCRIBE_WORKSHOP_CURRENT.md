@@ -7225,8 +7225,15 @@ to two cards; all381 events and116 statements roundtrip instruction→card→for
 →card→instruction. See
 `sidequest_semantic_bidirectional_compiler_two_hundred_sixty_first/TWO_HUNDRED_SIXTY_FIRST_READABLE_BIDIRECTIONAL_MANUAL.md`.
 
-Next, infer a compact renderer rule for the34 multi-surface cards from page,
-field position, neighbours and visible owner.
+Pass 262 supplies a three-rule renderer. The179 single-surface events copy
+directly; page/register, absolute field position and immediate card neighbours
+select198 of202 multi-surface events; only four isolated f83r station cells use
+the visible owner as final selector. All381 surfaces are generated without
+altering card meaning. See
+`sidequest_semantic_context_renderer_two_hundred_sixty_second/TWO_HUNDRED_SIXTY_SECOND_READABLE_RENDERER_MANUAL.md`.
+
+Next, organize the23 memorized whole signs by sentence slot and repair any
+noun/action value that conflicts with its fixed placement.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
