@@ -2365,6 +2365,31 @@ validator. Next consolidate R101–R109 into a one-page post-centennial scribe
 handbook and a revised pocket dictionary that no longer repeats superseded
 generic station prose.
 
+## Active hundred-tenth pocket handbook
+
+The current system is now consolidated in one small practical release: 44
+atomic values, 173 registered master cards, 230 visible surfaces and all 116
+current prose statements. Seventy cards use only the portable core, 57 use core
+plus thin cross-section bridges, and 46 require specialist or learned material.
+Every surface resolves to one master card and every master card retains one
+short atomic default.
+
+The one-page manual reduces the workshop to twelve rules: silent owner first,
+longest registered card, renderer normalization, atomic value, backward versus
+forward attachment, owner-supplied noun, bounded grades, Y versus registered
+close, line reflow, visual reset, Biological bath/service division and local
+Astro copying. The current content reading is five Herbal articles, a
+therapeutic bathing workshop with preparation and maintenance, and three
+independent celestial instruments.
+
+Active files are in
+`sidequest_semantic_post_centennial_handbook_hundred_tenth_edition/`, led by
+`HUNDRED_TENTH_ONE_PAGE_SCRIBE_HANDBOOK.md` and
+`HUNDRED_TENTH_POST_CENTENNIAL_REPORT.md`, with the 44-atom pocket, 173-card
+pocket, 230-surface index, 116 current statements, builder and validator. Next
+use this consolidated basis to search for repeated multi-card phrases whose
+meaning can be shortened into reusable workshop formulae.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
