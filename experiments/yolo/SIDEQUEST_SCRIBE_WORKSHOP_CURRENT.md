@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-23, after giving the complete edition a concrete ca.-1420 workshop architecture.
+Updated: 2026-08-23, after integrating the cross-register CHEEY/SHEY result/readout root.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -164,6 +164,26 @@ Astro field/frame versus the learned prose mixing-vessel card. Active files
 are in `sidequest_semantic_astro_local_content_seventh_edition/`, led by
 `COMPLETE_TEN_PAGE_WORKSHOP_SEVENTH_EDITION.md`, with three-root, 17-type,
 20-group and complete 487/776/258 layers.
+
+## Active eighth complete edition
+
+`CHEEY/SHEY` is now the short common root **visible result/readout** rather
+than the old sentence-sized wet-process gloss. The visible owner supplies the
+concrete expansion: a wet owner yields clear extract or visible runoff, while
+a celestial table owner yields the read or released value. This makes the
+cross-register recurrence useful without turning a star value into a liquid.
+
+Ten surfaces and fifteen groups use the root: bare `cheey/shey`, transfer
+`lcheey`, insertion `tshey`, framed `qocheey/sshey`, current
+`yshey/ychey`, next `otshey`, and class/house readout `cheyky`. Nine Astro
+groups are newly read through the shared core; six prose groups retain their
+existing fluent local expansions but now expose the same compact root.
+
+The active balance is 593 full, 121 partial and 62 learned-whole groups;
+surface types are 324 full, 112 partial, 48 whole and three register splits.
+Active files are in `sidequest_semantic_cheey_readout_eighth_edition/`, led by
+`COMPLETE_TEN_PAGE_WORKSHOP_EIGHTH_EDITION.md`, with the ten-surface paradigm,
+complete 487/776/258 layers, pocket codebook, report, builder and validator.
 
 ## Active surface compiler
 
