@@ -361,6 +361,24 @@ whole and three register splits. Active files are in
 seven-surface table, complete 487/776/258 layers, pocket codebook, report,
 builder and validator.
 
+## Active twentieth stem-aligned edition
+
+The human-readable edition is now rebuilt directly from the current event
+ledger rather than copied from an earlier prose file. All 258 reading units —
+116 prose statements and 142 Astro loci — show exact surfaces, current atom
+sequence, literal card reading and owner expansion. Astro owner expansions are
+generated from the current short values, so repaired readings such as
+O+Y+DY hold the current base value and O+CPH_ASTRO+Y current base selection
+cannot retain an older gloss.
+
+The edition binds all 487 surfaces and 776 groups, with 769 full and seven
+whole-group readings. Active files are in
+`sidequest_semantic_stem_aligned_twentieth_edition/`, led by
+`COMPLETE_TEN_PAGE_STEM_ALIGNED_TWENTIETH_EDITION.md`, with separate 116-prose,
+142-Astro, 258-unit and 776-event tables, the current dictionary, pocket
+codebook, report, builder and validator. This is the best complete reading
+surface; the nineteenth edition remains its compositional source.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
