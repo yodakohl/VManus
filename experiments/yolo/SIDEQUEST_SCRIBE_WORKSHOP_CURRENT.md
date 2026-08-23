@@ -3702,6 +3702,25 @@ product classes, five product clues, all eighteen event expansions, historical
 comparators, complete readable article, report, builder and validator. Next
 give f10r and f56r nonredundant workshop jobs so all four Herbal owners differ.
 
+## Active hundred-seventy-second four Herbal jobs
+
+All four pictured plants now have distinct workshop jobs under one learnable
+article grammar. f10r makes a multi-batch root/flower foundation extract; f11r
+makes a clarified astringent wash; f55v cools and stores a two-part plant stock;
+f56r doses an active additive for repeated target application.
+
+The new f10r and f56r expansions cover all 65 remaining Herbal events and
+eleven clauses. Their distinctions come from actual chains: f10r has base part,
+vessel, pour, following part and repeated measured batches; f56r has repeated
+additives, target placement, long contact, reinsertion and following use. No
+dictionary values changed.
+
+Files are in `sidequest_semantic_four_herbal_jobs_hundred_seventy_second/`:
+four-job inventory, complete 65-event reading, eleven new clause readings,
+historical article comparators, readable four-article edition, report, builder
+and validator. Next map the four products to the six Biological records using
+shared exact cards and visible station functions.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
