@@ -531,6 +531,27 @@ Active files are in
 `TWENTY_SEVENTH_BALANCED_CONTINUOUS_EDITION.md`, with the eleven-record table,
 report, builder and validator. This is the preferred continuous German reading.
 
+## Active twenty-eighth workshop phrasebook
+
+A reusable phrase layer now sits between individual cards and full sentences.
+Seventeen recurrent event-level compositions cover 41 occurrences and 72
+distinct events; seventeen recurrent action-head sequences cover 80
+occurrences and 128 distinct clauses. Every selected phrase occurs in at least
+two different records, and 49 of the 116 statements contain at least one such
+idiom.
+
+The apprentice can therefore pronounce common sequences as whole work phrases:
+`Y > AIIN` becomes “take this post to measure”, `OT+OL > OL` “then continue in
+the same operation”, `CHD+Y > OK+EE+CLOSE` “transfer, work longer and close”,
+and `SET > SETTLE` “set and let settle”. The phrases may overlap but never
+erase or renumber the underlying cards.
+
+Active files are in
+`sidequest_semantic_idiom_phrasebook_twenty_eighth_edition/`, led by
+`TWENTY_EIGHTH_WORKSHOP_PHRASEBOOK.md`, with complete pattern and occurrence
+tables at event and clause level, a 116-statement index, report, builder and
+validator. This is the current spoken-idiom layer of the apprentice system.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
