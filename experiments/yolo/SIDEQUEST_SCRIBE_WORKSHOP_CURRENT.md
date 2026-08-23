@@ -6855,6 +6855,16 @@ changing any card or value. See
 Next, return from syntax to concrete content and build a small owner/part/
 vessel/extract/ingredient vocabulary for the four fixed Herbal pages only.
 
+Pass 209 treats the four visible plants as silent owners of five records and
+extracts 28 Herbal noun cards (36 occurrences). Only `Wurzel` on f10r and
+`Stängel` on f56r have both a card value and a matching visible part. Leaves and
+flowers remain visible but lexically unassigned; the 100 Herbal events contain
+no `Frischwasser` whole card. The current readable articles are
+`sidequest_semantic_herbal_nouns_two_hundred_ninth/TWO_HUNDRED_NINTH_READABLE_HERBAL_ARTICLES.md`.
+
+Next, perform the same visible-owner versus inferred-noun separation for the
+six Biological records.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
