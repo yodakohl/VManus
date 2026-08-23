@@ -3562,6 +3562,26 @@ pocket manual, report, builder and validator. Next rewrite the affected B1 and
 B4 passages and decide whether the doubled B4 `shckhedy` is two stages, two
 channels or intentional repeated passage.
 
+## Active hundred-sixty-fifth double-passage resolution
+
+The doubled B4 card is now read in its complete local cell sequence. At
+f83r.27, F114 says `Einlage → überführen → lange einwirken; Schluss`; F115 and
+F116 then each contain only `shckhedy`. All five events share one locus and
+visible owner.
+
+The selected workshop reading is one prepared insert followed by two sequential
+passes: insert, transfer and hold; pass once; pass a second time. This explains
+the exact repetition and separate committed cells without inventing a second
+drawn channel. Dittography remains a live rival. MC143 itself stays the compact
+`durchlassen; Schluss`; the insert is supplied only by the preceding local
+whole card.
+
+Files are in
+`sidequest_semantic_double_pass_resolution_hundred_sixty_fifth/`: five-event
+microsequence, three model comparison, four revised clauses, readable B1/B4
+passages, report, builder and validator. Next follow the material through
+B4-S008–S016 as one downstream product/application chain.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
