@@ -1,0 +1,11 @@
+teaching_order	frame_id	frame_name	slot_1	slot_2	slot_3	occurrences	write_read_rule_de	example_statement	example_cards	example_values_de
+1	PF01	MENGE_ZUM_ZIEL_SCHLIESSEN	MENGE_STUFE	WEG_QUELLE_ZIEL	ABSCHLUSS	4	Menge festlegen, an Quelle oder Ziel führen, Zelle schließen	B1-S002	MC039|MC035|MC025	Sollmaß | durchleiten | überführen; Schluss
+2	PF02	MENGE_BEARBEITEN_SCHLIESSEN	MENGE_STUFE	HANDLUNG_VERWEIS	ABSCHLUSS	4	Menge festlegen, am aktuellen Posten handeln, Zelle schließen	B2-S003	MC017|MC123|MC082	Anteil zugeben | dies | lange einwirken; Schluss
+3	PF03	HANDLUNG_MASS_HANDLUNG	HANDLUNG_VERWEIS	MENGE_STUFE	HANDLUNG_VERWEIS	3	Arbeitsgang eröffnen, Maß setzen, am Posten fortarbeiten	H2-S001	MC123|MC039|MC123	dies | Sollmaß | dies
+4	PF04	MASS_POSTEN_FOLGEMASS	MENGE_STUFE	HANDLUNG_VERWEIS	MENGE_STUFE	3	Maß setzen, Posten behandeln, nächste Stufe angeben	H2-S003	MC048|MC123|MC087	Bearbeitungsstufe | dies | Zugabemaß
+5	PF05	MENGE_ZIEL_ZUSTAND	MENGE_STUFE	WEG_QUELLE_ZIEL	ZUSTAND_DAUER	3	Menge zur Station führen und ihren Zustand setzen	H4-S003	MC170|MC085|MC032	Sollportion | Quellauszug | länger bearbeiten
+6	PF06	MENGE_DURCH_ZWEI_STATIONEN	MENGE_STUFE	WEG_QUELLE_ZIEL	WEG_QUELLE_ZIEL	3	Menge über Quelle, Durchlass oder Ziel weiterführen	B1-S002	MC120|MC023|MC040	bemessen | Beckenlauf | dorthin einsetzen
+7	PF07	QUELLE_MENGE_ZIEL	WEG_QUELLE_ZIEL	MENGE_STUFE	WEG_QUELLE_ZIEL	3	von der Quelle eine Menge nehmen und zum Ziel führen	B1-S002	MC058|MC039|MC096	Kurze Zielpassage | Sollmaß | Langer Zieleinsatz
+8	PF08	MENGE_ZIEL_FOLGEMASS	MENGE_STUFE	WEG_QUELLE_ZIEL	MENGE_STUFE	3	Menge an der Station setzen und Folgegrad angeben	B1-S002	MC039|MC096|MC039	Sollmaß | Langer Zieleinsatz | Sollmaß
+9	PF09	WEG_ZUSTAND_SCHLIESSEN	WEG_QUELLE_ZIEL	ZUSTAND_DAUER	ABSCHLUSS	3	durch die Station führen, Zustand setzen, schließen	B2-S004	MC127|MC002|MC133	Abführung | lange einwirken | Trennabzug; Schluss
+10	PF10	FOLGE_ZUSTAND_SCHLIESSEN	REIHENFOLGE	ZUSTAND_DAUER	ABSCHLUSS	3	Folgeschritt wählen, Zustand setzen, schließen	B2-S005	MC112|MC166|MC004	Fortsetzung vorbereiten | Langwärmen | abziehen; Schluss

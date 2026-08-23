@@ -6837,6 +6837,15 @@ full pair table is
 Next, add the missing middle layer: a minimal set of short, recurrent phrase
 frames extracted from the 116 real statements.
 
+Pass 207 adds ten recurrent three-slot phrase frames (32 occurrences touching
+22 statements) and ten explicit learned exemplar chains (34 tokens). Biological
+cells preferentially use compact frames such as quantity-route-close, while
+Herbal clauses often retain longer learned object chains. The compact manual is
+`sidequest_semantic_phrase_frames_two_hundred_seventh/TWO_HUNDRED_SEVENTH_PHRASEBOOK.md`.
+
+Next, rewrite the six-field exercise so that every bridge is either licensed by
+one of these recurrent frames or copied from a real exemplar chain.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
