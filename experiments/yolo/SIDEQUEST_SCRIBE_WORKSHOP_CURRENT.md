@@ -298,6 +298,20 @@ files are in `sidequest_semantic_astro_primitive_microcode_fifteenth_edition/`,
 led by the ten-surface paradigm and forward cells, complete 487/776/258 layers,
 pocket codebook, report, builder and validator.
 
+## Active sixteenth complete edition
+
+`SH` is now the cross-register root **hold**. The bare prose card, the Astro
+secondary/current forms, the long-grade form and two operational compounds
+form one six-surface row: SH, SH+S, SH+Y, SH+EE, SH+KCH+Y and OK+SH. This keeps
+the root atomic while the object, duration and operation remain separate.
+
+Three groups newly leave the whole deck. The active balance is 745 full, zero
+partial and 31 learned-whole groups; surface types are 462 full, 22 whole and
+three register splits. Active files are in
+`sidequest_semantic_sh_hold_sixteenth_edition/`, led by the six-surface
+paradigm, complete 487/776/258 layers, pocket codebook, report, builder and
+validator.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
