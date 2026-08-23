@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-23, after integrating all ten pages into four workshop cases.
+Updated: 2026-08-23, after extracting the common macro grammar and master texts.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -18,6 +18,42 @@ Exactly ten pages are in scope:
 
 `f84` and `f84r` remain sealed. ZL3b, IT2a and RF1b are alternate readings of
 one manuscript. No additional page, image or semantic corpus was admitted.
+
+## Active workshop macro grammar
+
+The four dossiers now share a ten-question source grammar: choose the visible
+condition; select material; retain or replace the current item; name the batch
+or product; set portion, measure or stage; provide source, target and tool;
+transfer; perform the operation; inspect state; and either close the local step
+or hand its payload onward. This gives every one of the 173 prose cards and all
+116 statements an explicit macro role without replacing their concrete card
+readings.
+
+Forty-one card types occur in at least two dossiers. The strongest portable
+core is `AIIN=target measure`, `Y=this/current item`, `OL=continue`, `OT=follow`,
+`AR=from it`, `AL=to there`, `OR=batch`, `CHED=transfer`, `OK=set/start`,
+`SHED=settle`, `CHK=warm`, and `CKHE=strain`, plus the learned whole-card local
+commit. Across the prose, action and transfer dominate; 89 of 116 statements
+end with a licensed local commit, while physical line ending remains irrelevant
+to sentence completion.
+
+The book and the workshop have different useful orders. The page architecture
+is `WHAT -> HOW -> WHEN`: Herbal material, Biological procedure, Astro
+condition. Actual work is normally `WHEN -> WHAT -> HOW`: select the visible
+condition first, prepare the material next, then execute the station or
+application sequence. This makes the four dossiers usable without positing a
+written cross-page key.
+
+Four continuous master texts now express that execution order: right-wheel
+condition then root bath; star-atlas choice then wrung clear extract; three
+separate wheel readings then stored cloth application; and left-wheel
+place/aspect comparison then the fresh-plant basin path. Every original prose
+statement remains printed once below its master version with its macro trace.
+
+Active files are in `sidequest_semantic_workshop_macro_grammar/`, led by
+`WORKSHOP_MACRO_GRAMMAR_REPORT.md`, `FOUR_MASTER_SOURCE_TEXTS.md`, the ten-macro
+sheet, complete 173-card macro lexicon, 41-card cross-dossier core,
+116-statement macro parse, transition table, builder, and validator.
 
 ## Active four-case workshop book
 
