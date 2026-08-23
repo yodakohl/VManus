@@ -1731,6 +1731,31 @@ validator. Next test the remaining master-only Herbal substances and purposes
 as a small mutually coherent recipe vocabulary rather than independent slot
 guesses.
 
+## Active eighty-third concrete Herbal recipebook
+
+The five pictured-plant articles now share one concrete eleven-word recipe
+vocabulary: `Wasser`, `Wein`, `Öl`, `Honig`, `Satz`, `Trank`, `Salbe`,
+`Einreibung`, `Waschung`, `Auflage` and `Tuch`. This package gives each article
+a complete preparation path while leaving plant species, diseases and body
+parts unnamed.
+
+The key correction is to split the old blanket `OUTER_APPLICATION` source slot
+by article purpose. H2 yields Salbe/Auflage, H3 Trank plus Öl-Einreibung, H4
+Waschung plus Honig-Auflage, and H5 a fresh wash/application plus a preserved
+wine/honey drink. Three whole packages were compared editorially: medical
+materia-medica recipe 96, household/cosmetic 86 and dye/paint 79. The medical
+recipe package is the current creative Herbal reading; none of these substance
+words is promoted to a card or root.
+
+Active files are in
+`sidequest_semantic_herbal_recipe_vocabulary_eighty_third_edition/`, led by
+`EIGHTY_THIRD_COMPLETE_HERBAL_RECIPEBOOK.md`, with three model vocabularies,
+fifteen article comparisons, eleven selected recipe words, five complete
+articles, the 100-group binding, six historical analogues, report, builder and
+validator. Next perform the same whole-package comparison for the six
+Biological records: therapeutic bathhouse, ordinary bathhouse/laundry and
+apparatus/process vocabularies.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
