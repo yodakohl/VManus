@@ -466,6 +466,29 @@ templates, complete 258-unit phrase edition, fourteen section sequences,
 report, builder and validator. The next repair is to let long statements use a
 chain of two or more source frames rather than one dominant template.
 
+## Active twenty-fifth clause-chain edition
+
+The prose source layer now splits at actual action heads. All 381 prose groups
+form 254 short clauses inside the existing 116 statements: 57 statements have
+one clause, while 59 contain two to twelve. Twenty-two head families cover
+setting, continuing, outward/inward leading, transfer, settling, readiness,
+passage, warming, collecting, holding, processing, washing, dividing,
+straining, squeezing, applying, pouring, storing and the few image-supplied
+ellipses.
+
+Each clause receives a compact master verb and keeps its attached material,
+portion, measure, source, target, grade, current-post or close cards. Thus the
+long H1 opening is no longer forced into one generic flow formula; it becomes
+four instructions roughly `prepare – divide – continue through the run – set
+to measure`. All original surfaces remain in order and every event belongs to
+exactly one clause.
+
+Active files are in
+`sidequest_semantic_clause_chain_twenty_fifth_edition/`, led by
+`TWENTY_FIFTH_ELEVEN_CLAUSE_RECORDS.md`, with complete 254-clause and
+116-statement tables, report, builder and validator. This is the best current
+source-syntax layer beneath the continuous owner-filled prose.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
