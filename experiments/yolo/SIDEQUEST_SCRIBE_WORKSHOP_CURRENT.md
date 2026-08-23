@@ -7116,8 +7116,14 @@ content cores suffice for all 28 noun occurrences; productive forms include
 OR+AIN, OT+OR, CHEO+AR, CHO+AIIN, CHO+OR, CHO+Y and CHO+AL+Y. See
 `sidequest_semantic_herbal_noun_decomposition_two_hundred_forty_fifth/TWO_HUNDRED_FORTY_FIFTH_READABLE_NOUN_LESSON.md`.
 
-Next, consolidate the four Herbal pages into a final apprentice lesson: the
-shared core plus the minimum learned noun and operation cores.
+Pass 246 consolidates the four Herbal pages. A Biological-trained writer reads
+44/100 events directly and composes another 27 completely; twelve use a new
+core in a known frame and seventeen are whole local signs. Thirteen noun cores
+plus nine operation cores generate the 49 additional Herbal cards. See
+`sidequest_semantic_herbal_apprentice_manual_two_hundred_forty_sixth/TWO_HUNDRED_FORTY_SIXTH_READABLE_HERBAL_MANUAL.md`.
+
+Next, transfer the complete prose curriculum to all 395 Astro groups and split
+known prose cards from diagram-local label signs.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
