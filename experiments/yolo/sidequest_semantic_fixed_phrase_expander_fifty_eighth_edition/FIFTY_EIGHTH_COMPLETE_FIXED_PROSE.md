@@ -178,27 +178,27 @@ Stationsbesitzer: diese Station. Kartenfolge: dorthin. Die gezeichnete Station s
 
 ## B2-S001
 
-Arbeitsbesitzer: dieses Werkstück. Kartenfolge: Posten überführen; Schluss. Die Werkstatt ergänzt dabei: das sichtbar adressierte Becken; das sichtbare oder gelernte Arbeitsgefäß.
+Stationsbesitzer: diese Station. Kartenfolge: Posten überführen; Schluss. Die gezeichnete Station setzt dabei voraus: das sichtbar adressierte Becken; das sichtbare oder gelernte Arbeitsgefäß.
 
 ## B2-S002
 
-Arbeitsbesitzer: dieses Werkstück. Kartenfolge: weiterüberführen; Schluss. Die Werkstatt ergänzt dabei: das sichtbar adressierte Becken; das sichtbare oder gelernte Arbeitsgefäß; die bezeichnete örtliche Stelle.
+Stationsbesitzer: diese Station. Kartenfolge: weiterüberführen; Schluss. Die gezeichnete Station setzt dabei voraus: das sichtbar adressierte Becken; das sichtbare oder gelernte Arbeitsgefäß; die bezeichnete örtliche Stelle.
 
 ## B2-S003
 
-Arbeitsbesitzer: dieses Werkstück. Kartenfolge: eine Portion zugeben; dieser Posten; länger ansetzen; Schluss. Die Werkstatt ergänzt dabei: das sichtbar adressierte Becken; das sichtbare oder gelernte Arbeitsgefäß; der abgeteilte Teil; eine abgeteilte Portion.
+Stationsbesitzer: diese Station. Kartenfolge: eine Portion zugeben; dieser Posten; länger ansetzen; Schluss. Die gezeichnete Station setzt dabei voraus: das sichtbar adressierte Becken; das sichtbare oder gelernte Arbeitsgefäß; der abgeteilte Teil; eine abgeteilte Portion.
 
 ## B2-S004
 
-Arbeitsbesitzer: dieses Werkstück. Kartenfolge: dort ansetzen; Ausgangsdurchlass; abführen; länger ansetzen; abseihen; Schluss. Die Werkstatt ergänzt dabei: das sichtbar adressierte Becken; die sichtbar bezeichnete Öffnung.
+Stationsbesitzer: diese Station. Kartenfolge: dort ansetzen; Ausgangsdurchlass; abführen; länger ansetzen; abseihen; Schluss. Die gezeichnete Station setzt dabei voraus: das sichtbar adressierte Becken; die sichtbar bezeichnete Öffnung.
 
 ## B2-S005
 
-Arbeitsbesitzer: dieses Werkstück. Kartenfolge: dies dort ansetzen; bis Sollmass sammeln; durchleiten; auf Sollmaß einstellen; auf Sollmaß einstellen; bereitgestellten Gang fortsetzen; diesen Posten länger warm halten; abziehen; Ende. Die Werkstatt ergänzt dabei: das sichtbar adressierte Becken; das sichtbare oder gelernte Arbeitsgefäß; das für den Durchgang vorgesehene Tuch.
+Stationsbesitzer: diese Station. Kartenfolge: dies dort ansetzen; bis Sollmass sammeln; durchleiten; auf Sollmaß einstellen; auf Sollmaß einstellen; bereitgestellten Gang fortsetzen; diesen Posten länger warm halten; abziehen; Ende. Die gezeichnete Station setzt dabei voraus: das sichtbar adressierte Becken; das sichtbare oder gelernte Arbeitsgefäß; das für den Durchgang vorgesehene Tuch.
 
 ## B2-S006
 
-Arbeitsbesitzer: dieses Werkstück. Kartenfolge: langer Folgeposten; dort ansetzen; kurz durchleiten; aktuellen Posten ansetzen. Die Werkstatt ergänzt dabei: die aktuelle Becken- oder Arbeitsflüssigkeit; das sichtbar adressierte Becken; die bezeichnete örtliche Stelle; der abgeteilte Teil.
+Stationsbesitzer: diese Station. Kartenfolge: langer Folgeposten; dort ansetzen; kurz durchleiten; aktuellen Posten ansetzen. Die gezeichnete Station setzt dabei voraus: die aktuelle Becken- oder Arbeitsflüssigkeit; das sichtbar adressierte Becken; die bezeichnete örtliche Stelle; der abgeteilte Teil.
 
 ## B2-S007
 
@@ -222,15 +222,15 @@ Stationsbesitzer: diese Station. Kartenfolge: eine Portion zugeben; aus dem Ansa
 
 ## B2-S012
 
-Arbeitsbesitzer: dieses Werkstück. Kartenfolge: abziehen; klarer Auszug; kurz bereithalten; länger ansetzen; Klarlauf abfuehren; Sollmaß; dieser Posten; vollständig ansetzen; Schluss. Die Werkstatt ergänzt dabei: die aktuelle Becken- oder Arbeitsflüssigkeit; die bezeichnete örtliche Stelle; eine abgeteilte Portion.
+Stationsbesitzer: diese Station. Kartenfolge: abziehen; klarer Auszug; kurz bereithalten; länger ansetzen; Klarlauf abfuehren; Sollmaß; dieser Posten; vollständig ansetzen; Schluss. Die gezeichnete Station setzt dabei voraus: die aktuelle Becken- oder Arbeitsflüssigkeit; die bezeichnete örtliche Stelle; eine abgeteilte Portion.
 
 ## B2-S013
 
-Arbeitsbesitzer: dieses Werkstück. Kartenfolge: abführen; Schluss. Die Werkstatt ergänzt dabei: die aktuelle Becken- oder Arbeitsflüssigkeit.
+Stationsbesitzer: diese Station. Kartenfolge: abführen; Schluss. Die gezeichnete Station setzt dabei voraus: die aktuelle Becken- oder Arbeitsflüssigkeit.
 
 ## B2-S014
 
-Arbeitsbesitzer: dieses Werkstück. Kartenfolge: von dort abfuehren. Die Werkstatt ergänzt dabei: der lokale sichtbare Auslauf.
+Stationsbesitzer: diese Station. Kartenfolge: von dort abfuehren. Die gezeichnete Station setzt dabei voraus: der lokale sichtbare Auslauf.
 
 ## B2-S015
 
@@ -268,19 +268,19 @@ Stationsbesitzer: diese Station. Kartenfolge: Rest abfuehren; Schluss. Die gezei
 
 ## B3-S001
 
-Arbeitsbesitzer: dieses Werkstück. Kartenfolge: länger sammeln; Schluss. Die Werkstatt ergänzt dabei: die aktuelle Becken- oder Arbeitsflüssigkeit.
+Stationsbesitzer: diese Station. Kartenfolge: länger sammeln; Schluss. Die gezeichnete Station setzt dabei voraus: die aktuelle Becken- oder Arbeitsflüssigkeit.
 
 ## B3-S002
 
-Arbeitsbesitzer: dieses Werkstück. Kartenfolge: danach dorthin; länger wärmen; Schluss. Die Werkstatt ergänzt dabei: der lokale sichtbare Auslauf.
+Stationsbesitzer: diese Station. Kartenfolge: danach dorthin; länger wärmen; Schluss. Die gezeichnete Station setzt dabei voraus: der lokale sichtbare Auslauf.
 
 ## B3-S003
 
-Arbeitsbesitzer: dieses Werkstück. Kartenfolge: dieser Posten; Sollmaß; dieser Posten; abführen; Schluss. Die Werkstatt ergänzt dabei: die aktuelle Becken- oder Arbeitsflüssigkeit; eine abgeteilte Portion.
+Stationsbesitzer: diese Station. Kartenfolge: dieser Posten; Sollmaß; dieser Posten; abführen; Schluss. Die gezeichnete Station setzt dabei voraus: die aktuelle Becken- oder Arbeitsflüssigkeit; eine abgeteilte Portion.
 
 ## B3-S004
 
-Arbeitsbesitzer: dieses Werkstück. Kartenfolge: auf Sollmaß einstellen; danach dorthin; aus dem Ansatz. Die Werkstatt ergänzt dabei: der laufende Arbeitsansatz; der lokale sichtbare Auslauf.
+Stationsbesitzer: diese Station. Kartenfolge: auf Sollmaß einstellen; danach dorthin; aus dem Ansatz. Die gezeichnete Station setzt dabei voraus: der laufende Arbeitsansatz; der lokale sichtbare Auslauf.
 
 ## B3-S005
 
@@ -444,40 +444,40 @@ Verbindungsbesitzer: dieses verbundene Bogenpaar. Kartenfolge: Fortsetzung absch
 
 ## B4-S011
 
-Arbeitsbesitzer: dieses Werkstück. Kartenfolge: Sollmaß; kurz wärmen; länger fortführen; eine Portion zugeben; laufenden Posten umsetzen; fortsetzen; kurz abführen; Schluss. Die Werkstatt ergänzt dabei: das sichtbare oder gelernte Arbeitsgefäß; der abgeteilte Teil.
+Stationsbesitzer: diese Station. Kartenfolge: Sollmaß; kurz wärmen; länger fortführen; eine Portion zugeben; laufenden Posten umsetzen; fortsetzen; kurz abführen; Schluss. Die gezeichnete Station setzt dabei voraus: das sichtbare oder gelernte Arbeitsgefäß; der abgeteilte Teil.
 
 ## B4-S012
 
-Arbeitsbesitzer: dieses Werkstück. Kartenfolge: abführen; Schluss. Die Werkstatt ergänzt dabei: die aktuelle Becken- oder Arbeitsflüssigkeit.
+Stationsbesitzer: diese Station. Kartenfolge: abführen; Schluss. Die gezeichnete Station setzt dabei voraus: die aktuelle Becken- oder Arbeitsflüssigkeit.
 
 ## B4-S013
 
-Arbeitsbesitzer: dieses Werkstück. Kartenfolge: Fortsetzung ansetzen; kurz absetzen lassen; Schluss.
+Stationsbesitzer: diese Station. Kartenfolge: Fortsetzung ansetzen; kurz absetzen lassen; Schluss.
 
 ## B4-S014
 
-Arbeitsbesitzer: dieses Werkstück. Kartenfolge: Ansatz; dieser Posten; kurzen Durchlauf ansetzen; Wasserlauf schliessen; Schluss. Die Werkstatt ergänzt dabei: die bezeichnete örtliche Stelle; eine abgeteilte Portion.
+Stationsbesitzer: diese Station. Kartenfolge: Ansatz; dieser Posten; kurzen Durchlauf ansetzen; Wasserlauf schliessen; Schluss. Die gezeichnete Station setzt dabei voraus: die bezeichnete örtliche Stelle; eine abgeteilte Portion.
 
 ## B4-S015
 
-Arbeitsbesitzer: dieses Werkstück. Kartenfolge: eine Portion zugeben; klarer Auszug; eine Portion; zur Zielstelle durchleiten; kurz sammeln; abführen; Schluss. Die Werkstatt ergänzt dabei: die aktuelle Becken- oder Arbeitsflüssigkeit; das sichtbare oder gelernte Arbeitsgefäß; die bezeichnete örtliche Stelle; der abgeteilte Teil.
+Stationsbesitzer: diese Station. Kartenfolge: eine Portion zugeben; klarer Auszug; eine Portion; zur Zielstelle durchleiten; kurz sammeln; abführen; Schluss. Die gezeichnete Station setzt dabei voraus: die aktuelle Becken- oder Arbeitsflüssigkeit; das sichtbare oder gelernte Arbeitsgefäß; die bezeichnete örtliche Stelle; der abgeteilte Teil.
 
 ## B4-S016
 
-Arbeitsbesitzer: dieses Werkstück. Kartenfolge: weitere Portion; dorthin; vom Ausgang ausgießen; kurz absetzen lassen; Schluss. Die Werkstatt ergänzt dabei: das für den Gang vorgesehene Wasser; das sichtbar adressierte Becken.
+Stationsbesitzer: diese Station. Kartenfolge: weitere Portion; dorthin; vom Ausgang ausgießen; kurz absetzen lassen; Schluss. Die gezeichnete Station setzt dabei voraus: das für den Gang vorgesehene Wasser; das sichtbar adressierte Becken.
 
 ## B5-S001
 
-Arbeitsbesitzer: dieses Werkstück. Kartenfolge: Folgegang vollziehen; Schluss.
+Stationsbesitzer: diese Station. Kartenfolge: Folgegang vollziehen; Schluss.
 
 ## B5-S002
 
-Arbeitsbesitzer: dieses Werkstück. Kartenfolge: Umsetzung ansetzen; Schluss.
+Stationsbesitzer: diese Station. Kartenfolge: Umsetzung ansetzen; Schluss.
 
 ## B5-S003
 
-Arbeitsbesitzer: dieses Werkstück. Kartenfolge: dort absetzen; dorthin; fortsetzen; von dort weiterfuehren; dort umsetzen; Sollmaß; fortsetzen; Öffnungsstufe; laufenden Posten umsetzen. Die Werkstatt ergänzt dabei: die sichtbar bezeichnete Öffnung.
+Stationsbesitzer: diese Station. Kartenfolge: dort absetzen; dorthin; fortsetzen; von dort weiterfuehren; dort umsetzen; Sollmaß; fortsetzen; Öffnungsstufe; laufenden Posten umsetzen. Die gezeichnete Station setzt dabei voraus: die sichtbar bezeichnete Öffnung.
 
 ## B6-S001
 
-Arbeitsbesitzer: dieses Werkstück. Kartenfolge: länger sammeln; aktuellen Posten kurz bearbeiten; diesen Posten dorthin; fortsetzen; Sollmaß; fortsetzen; Tuch; dieser Posten; Endziel. Die Werkstatt ergänzt dabei: das sichtbar adressierte Becken; das für den Durchgang vorgesehene Tuch; die sichtbar bezeichnete Öffnung; die bezeichnete örtliche Stelle; eine abgeteilte Portion.
+Stationsbesitzer: diese Station. Kartenfolge: länger sammeln; aktuellen Posten kurz bearbeiten; diesen Posten dorthin; fortsetzen; Sollmaß; fortsetzen; Tuch; dieser Posten; Endziel. Die gezeichnete Station setzt dabei voraus: das sichtbar adressierte Becken; das für den Durchgang vorgesehene Tuch; die sichtbar bezeichnete Öffnung; die bezeichnete örtliche Stelle; eine abgeteilte Portion.

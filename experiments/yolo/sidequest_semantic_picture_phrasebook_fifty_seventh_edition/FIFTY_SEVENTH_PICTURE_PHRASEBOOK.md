@@ -35,15 +35,15 @@ des Stammes.
 - der ganzen breitblättrigen rispigen Bildpflanze: diese Bildpflanze; aus dieser Pflanze → am gezeigten Pflanzenteil.
 - der ganzen mehrköpfigen stacheligen Bildpflanze: diese Bildpflanze; aus dieser Pflanze → am gezeigten Pflanzenteil.
 - dem gemeinsamen zweireihigen Becken: diese Station; aus dem sichtbaren Einlauf oder Gefäß → zur sichtbaren Öffnung oder Schale.
-- den oberen Paarbecken mit Zylinder: dieses Werkstück; vom Ausgangsposten → zur bezeichneten Arbeitsstelle.
+- den oberen Paarbecken mit Zylinder: diese Station; aus dem sichtbaren Einlauf oder Gefäß → zur sichtbaren Öffnung oder Schale.
 - der mittleren linken Vorrichtung mit Zwischenknoten: diese Station; aus dem sichtbaren Einlauf oder Gefäß → zur sichtbaren Öffnung oder Schale.
 - der mittleren rechten Station: diese Station; aus dem sichtbaren Einlauf oder Gefäß → zur sichtbaren Öffnung oder Schale.
-- dem unteren grünen Mehrfigurenbecken: dieses Werkstück; vom Ausgangsposten → zur bezeichneten Arbeitsstelle.
+- dem unteren grünen Mehrfigurenbecken: diese Station; aus dem sichtbaren Einlauf oder Gefäß → zur sichtbaren Öffnung oder Schale.
 - den Randstationen des unteren Beckens: diese Station; aus dem sichtbaren Einlauf oder Gefäß → zur sichtbaren Öffnung oder Schale.
-- der oberen offenen Fächerstation: dieses Werkstück; vom Ausgangsposten → zur bezeichneten Arbeitsstelle.
+- der oberen offenen Fächerstation: diese Station; aus dem sichtbaren Einlauf oder Gefäß → zur sichtbaren Öffnung oder Schale.
 - der mittleren runden Gefäßstation: diese Station; aus dem sichtbaren Einlauf oder Gefäß → zur sichtbaren Öffnung oder Schale.
 - der unteren korbförmigen Gefäßstation: diese Station; aus dem sichtbaren Einlauf oder Gefäß → zur sichtbaren Öffnung oder Schale.
 - der Lücke zwischen Randstation und Hauptbogen: diese Zwischenstelle; von der vorigen sichtbaren Station → zur folgenden sichtbaren Station.
 - dem verbundenen Hauptbogenpaar: dieses verbundene Bogenpaar; vom sichtbaren oberen Anschluss → zum sichtbaren unteren oder seitlichen Anschluss.
-- der linken offenen Randstation: dieses Werkstück; vom Ausgangsposten → zur bezeichneten Arbeitsstelle.
-- der rechten S-förmigen Mehrfachstation: dieses Werkstück; vom Ausgangsposten → zur bezeichneten Arbeitsstelle.
+- der linken offenen Randstation: diese Station; aus dem sichtbaren Einlauf oder Gefäß → zur sichtbaren Öffnung oder Schale.
+- der rechten S-förmigen Mehrfachstation: diese Station; aus dem sichtbaren Einlauf oder Gefäß → zur sichtbaren Öffnung oder Schale.

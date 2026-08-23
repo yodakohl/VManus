@@ -1255,6 +1255,29 @@ report, builder and consistency checker. Next construct a complete journeyman
 piece that moves from one Herbal owner through a preparation, a Biological
 station sequence, and one local celestial lookup using only the pocket system.
 
+## Active sixty-first cross-section journeyman piece
+
+A sixteen-step job now joins four f11r plant-preparation units, eight f82r
+station units, and four f69 local lookup units. Four full scribe copies preserve
+the prose atom order and the three celestial namespaces. A twelve-point marking
+sheet checks owner, memory, direction, grade, close, line carry and local Astro
+discipline.
+
+The joins are four spoken master-job instructions, not manuscript words or
+cross-references. The master asks for a plant preparation, carries it to a
+named wash/bath station, requests three local f69 wheel readings plus one left
+slot, and records the result on a separate job slip. Herbal, Biological and
+Astro therefore cooperate in one workshop without becoming one textual
+register. A case-insensitive owner correction also restores all eleven basin or
+station owners that mixed capitalization had previously mislabeled as generic.
+
+Active files are in
+`sidequest_semantic_journeyman_piece_sixty_first_edition/`, led by
+`SIXTY_FIRST_COMPLETE_JOURNEYMAN_PIECE.md`, with sixteen steps, four external
+bridges, four hand copies, twelve-point marking sheet, report, builder and
+consistency checker. Next use this complete job to derive the smallest actual
+source-language formular skeleton that could be abbreviated into the cards.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible

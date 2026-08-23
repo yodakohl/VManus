@@ -56,13 +56,14 @@ def sha256(path: Path) -> str:
 
 
 def owner_class(value: str) -> str:
-    if "Bildpflanze" in value:
+    lowered = value.lower()
+    if "bildpflanze" in lowered:
         return "PLANT_BATCH"
-    if "Lücke" in value:
+    if "lücke" in lowered:
         return "UNRESOLVED_GAP_STATION"
-    if "Hauptbogenpaar" in value:
+    if "hauptbogenpaar" in lowered:
         return "CONNECTED_STRUCTURE"
-    if "Becken" in value or "Gefäß" in value or "Vorrichtung" in value or "Station" in value:
+    if any(term in lowered for term in ("becken", "gefäß", "vorrichtung", "station")):
         return "BASIN_STATION"
     return "GENERIC_WORKPIECE"
 
