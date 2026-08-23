@@ -1895,6 +1895,29 @@ builder and validator. Next attack the Biological repetition: collapse truly
 equivalent statements into a small bath/service phrasebook while keeping
 different cards and visible stations distinct.
 
+## Active ninetieth bath/service phrasebook
+
+The 97 Biological statements now reduce to sixteen teachable workshop
+primitives and eight cell macros. The largest families are temper/hold (32),
+composite station sequences (27), local drain/receiver cells (13) and
+transfer/set cells (13). Smaller families cover pass/strain, wash, measured
+charging and fastening.
+
+Nine exact instruction strings recur. `Führe ab und schließe` and `Setze länger
+an und schließe` each occur five times; `Lass absetzen und schließe` and `Setze
+um und schließe` each occur four times. This makes the Biological prose look
+like a learned operational phrasebook. The same phrase never merges its local
+owners: identical drain instructions at B2 and B4 still act on different
+visible stations.
+
+Active files are in
+`sidequest_semantic_bath_phrasebook_ninetieth_edition/`, led by
+`NINETIETH_16_BATH_SERVICE_PRIMITIVES.tsv` and
+`NINETIETH_97_STATEMENT_PHRASEBOOK.tsv`, with eight macro families, recurrent
+exact phrases, report, builder and validator. Next use this phrasebook to
+distinguish which Biological records are treatment-facing and which are
+service/maintenance-facing, then rewrite the six records accordingly.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
