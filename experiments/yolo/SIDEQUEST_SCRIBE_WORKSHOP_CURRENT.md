@@ -1530,6 +1530,26 @@ Active files are in
 the most reusable concrete master-noun slots across all fourteen units and
 replace free prose invention with a finite source lexicon.
 
+## Active seventy-fourth finite source lexicon
+
+Free master prose has been replaced by 54 reusable source slots: six shared,
+sixteen Herbal, sixteen Biological and sixteen Astro. Each of the fourteen
+units has one fixed source program, and all 776 groups are bound to it without
+changing any visible form, card or clause.
+
+The two creative content editions may now differ only through controlled pairs:
+drink versus workshop product, outer application versus workpiece coating,
+bather versus workpiece, body place versus work place, or lunar mansion versus
+calendar place. Owners and the small card dictionary remain common. No free
+extra noun is permitted in the controlled edition.
+
+Active files are in
+`sidequest_semantic_finite_source_lexicon_seventy_fourth_edition/`, led by
+`SEVENTY_FOURTH_CONTROLLED_SOURCEBOOK.md`, with the 54-word source lexicon,
+fourteen fixed programs, complete 776-group binding, report, builder and
+validator. Next rank the controlled medical/nonmedical slot pairs by which
+existing picture and card contexts most strongly favor one expansion.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
