@@ -2731,6 +2731,29 @@ curriculum, report, builder and validator. Next audit the seventeen short
 German meanings in their full contexts and replace any value that makes the
 continuous command sequences less natural than a concrete rival.
 
+## Active hundred-twenty-sixth shared-card meaning revision
+
+All 136 occurrences of the seventeen shared cards have been reread in their
+full statement contexts. Fifteen teaching glosses are shortened or made more
+portable. The central action cards are now `choky = diesen Posten einsetzen`,
+`chdy = diesen Posten übertragen`, `okal = dorthin einsetzen`, and
+`okaiin = auf Sollmaß stellen`. `char = davon`, `al = dorthin`,
+`chey = dieser Posten`, `cholor = damit weiter`, and
+`otchey = der nächste Posten` expose the anaphoric formulary grammar.
+
+Most importantly, `cheey/shey` is no longer the sentence-sized gloss “bis die
+Flüssigkeit klar abläuft”. Its short whole-card value is `Klarlauf`; the local
+syntax decides whether the scribe takes it, conducts to it, or waits for it.
+`cheeky` broadens from heat alone to `länger bearbeiten`, leaving actual heat
+to the owner and specialist cards.
+
+Active files are in
+`sidequest_semantic_shared_card_meaning_revision_hundred_twenty_sixth/`, led by
+`HUNDRED_TWENTY_SIXTH_SHARED_MEANING_REPORT.md`, with the seventeen decisions,
+136 occurrence contexts, 57 revised skeleton readings, twelve revised
+exercises, builder and validator. Next rewrite every complete statement touched
+by these cards so the revised short values propagate into continuous prose.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
