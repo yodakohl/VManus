@@ -3582,6 +3582,26 @@ microsequence, three model comparison, four revised clauses, readable B1/B4
 passages, report, builder and validator. Next follow the material through
 B4-S008–S016 as one downstream product/application chain.
 
+## Active hundred-sixty-sixth B4 downstream chain
+
+The thirty events after the double pass now form nine continuous clauses in
+three owner-bound phases. First the passed product is measured, worked longer,
+held, briefly applied, settled and marked ready. At the left lower run a fresh
+measure is warmed, extended, supplemented, transferred and a small fraction is
+drawn off. At the right S-run a portion of clear extract is added, briefly
+collected, drained and a final portion is placed at its target.
+
+This gives B4 a coherent local product/application chain without assuming a
+global flow direction. Left lower run and right S-run are visible addresses;
+source, target, fraction and clear extract come from their exact cards. No
+dictionary value changes in this round.
+
+Files are in
+`sidequest_semantic_b4_downstream_chain_hundred_sixty_sixth/`: complete
+30-event interlinear, nine translated clauses, three phases, readable chain,
+report, builder and validator. Next join B4-S004–S016 and compare it directly
+with H3→B2: second application recipe versus apparatus-maintenance procedure.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
