@@ -573,6 +573,26 @@ Active files are in
 17-idiom summary, eight-error sheet, report, builder and validator. This is the
 most concrete current explanation for multiple workshop hands.
 
+## Active thirtieth apprentice-dictation edition
+
+Twelve new teaching commands now combine two or three of the recurrent idioms
+without inventing a card. Each new command has one silent plant, basin,
+station, cloth or workpiece owner and is written by all four teaching hands,
+yielding 48 registered surface copies. Exact-Tuple sequence and meaning remain
+invariant, while all twelve exercises visibly vary between profiles.
+
+None of the twelve complete Tuple chains occurs contiguously in the 116 fixed
+statements. They are therefore genuine outputs of the creative grammar rather
+than copied manuscript passages. Examples include setting the current plant
+batch to measure and then continuing in the same operation, or bringing the
+next cloth portion to its target, holding longer, briefly resetting and
+closing.
+
+Active files are in `sidequest_semantic_new_dictations_thirtieth_edition/`, led
+by `THIRTIETH_APPRENTICE_DICTATION_BOOK.md`, with twelve exercise and 48-copy
+tables, report, builder and validator. This is the first deliberate productive
+use of the completed card-plus-idiom system.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
