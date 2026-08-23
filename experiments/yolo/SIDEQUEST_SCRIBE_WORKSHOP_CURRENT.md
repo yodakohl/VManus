@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-23, after consolidating the work-cell closure layer.
+Updated: 2026-08-23, after resolving all open work-cell handoffs.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -19,7 +19,46 @@ Exactly ten pages are in scope:
 `f84` and `f84r` remain sealed. ZL3b, IT2a and RF1b are alternate readings of
 one manuscript. No additional page, image or semantic corpus was admitted.
 
-## Active work-cell closure edition
+## Active handoff-resolution edition
+
+All 19 open work-cell edges now name what the next instruction inherits:
+
+```text
+16  DIRECT MATERIAL HANDOFFS
+ 2  NAMED RESERVE HANDOFFS
+ 1  APPARATUS-STATE HANDOFF
+```
+
+This removes many vague uses of “item” without changing a single card value.
+The active register is not automatically the last noun written in the source
+cell. H1, for example, ends by noting a root remainder but hands the measured
+root extract to the next warming step. H3 preserves a named flower reserve
+beside the draught made from it, and can recall the remaining reserve as a
+following item. B2-S014 hands forward the state “bottom drain closed”, not an
+invisible substance.
+
+The resulting practical chains include measured plant extract → following
+batch → pot/soft stage; crushed stems → strained batch → application extract →
+next dose; cooled bath mixture → transfer; wash item → wash cycle; drained
+working liquid → receiving vessel; clear liquid → further portions; and a
+treated/cooled batch → settling.
+
+The apprentice therefore maintains three payload registers across an open
+cell: active material, named reserve and apparatus configuration. A terminal
+card confirms the operation, while record layout releases every register. The
+picture continues to supply the owner.
+
+Nineteen target instructions are rewritten with their inherited payload. The
+173 card defaults, 381 event readings, 116-instruction order and eleven records
+remain intact. Active files are in
+`sidequest_semantic_handoff_resolution_completion/`, led by
+`HANDOFF_RESOLUTION_REPORT.md`, `HANDOFF_REGISTER.tsv`,
+`RECORD_RELEASE_REGISTER.tsv`, `SELECTED_173_HANDOFF_DICTIONARY.tsv`,
+`SELECTED_381_HANDOFF_INTERLINEAR.tsv`,
+`SELECTED_116_HANDOFF_SENTENCES.tsv`, and
+`SELECTED_11_HANDOFF_RECORDS.md`.
+
+## Previous work-cell closure edition
 
 The current workshop manual separates three endings which earlier German
 readings often collapsed into the verb “close”:
