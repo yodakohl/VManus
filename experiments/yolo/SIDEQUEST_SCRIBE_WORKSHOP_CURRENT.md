@@ -3158,6 +3158,27 @@ ledger, four job cards, readable edition, report, builder and validator. Next
 audit the 132 learned specialist whole cards for owner nouns and sentence-sized
 glosses, shortening each default that still reads naturally in full context.
 
+## Active hundred-forty-sixth specialist owner scrub
+
+All 132 learned specialist cards were reread as mnemonic whole entries. Fifty-
+two defaults covering 54 events were shortened; 80 were already compact. The
+main repair removes nouns previously borrowed from a particular picture:
+`Wurzel/Posten -> Grundteil`, `Zutat -> Zugabe`, `Gefäß -> Aufnahme`,
+`Tuch -> Trägereinlage`, `Flüssigkeitslauf -> Lauf`, `Zielstelle -> Ziel`,
+`Ausgang -> Quelle`, `Durchgang -> Passage`, and `Ansatz -> Bereitung`.
+
+Three sentence-sized entries also collapse to memorable cards:
+`sshkchdy = Haltetransfer; Schluss`, `cheeckhody = Langpassage; Schluss`, and
+`qockhey = Kurzpassage`. Every specialist value is now at most three German
+words, while the exact plant, basin, vessel, source, target or application
+still comes from the owner layer. Nothing is left without a concrete default.
+
+Files are in `sidequest_semantic_specialist_owner_scrub_hundred_forty_sixth/`:
+the complete 132-card audit, revised 173-card dictionary, 381-event and
+116-statement readings, report, builder and validator. Next rank recurrent
+specialist cards by cross-record portability; promote a value only when the
+same short reading survives outside its local record.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
