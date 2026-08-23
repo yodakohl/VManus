@@ -708,6 +708,29 @@ Active files are in
 56-entry teaching deck, burden summary, report, builder and consistency
 checker. This is the preferred human lookup dictionary.
 
+## Active thirty-sixth speakable Astro edition
+
+All 142 celestial loci and 395 visible groups now have a short workshop
+instruction. `f67r2` is operated as two separate comparison wheels: choose a
+wheel, then a visible sector, star place, phase or band, and read only that
+wheel's class/source/target/stage/value cards. `f68r1` is a multi-panel star
+station atlas: choose the local panel or header before its star place or centre
+key. `f69v` supplies three separate readings: a directly addressed slot on the
+left 28-place inventory, an optional middle quality reading and an optional
+right light/state reading.
+
+This is a speakable procedure rather than an imposed linear text. It requires
+no invented start or rotation, does not order the 28 f68 stars, keeps the three
+f69 wheels distinct and creates no f68-to-f69 key. A master may nevertheless
+place selected values from these local instruments into one orally assembled
+work order.
+
+Active files are in
+`sidequest_semantic_speakable_astro_thirty_sixth_edition/`, led by
+`THIRTY_SIXTH_THREE_SPOKEN_INSTRUMENTS.md`, with the 142-locus book,
+thirteen-module table, pocket manual, report, builder and consistency checker.
+This is the preferred human Astro reading layer.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
