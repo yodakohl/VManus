@@ -1,0 +1,216 @@
+{
+  "status": "PASS",
+  "checks_passed": 32,
+  "checks_total": 32,
+  "checks": [
+    {
+      "check": "four_profiles",
+      "pass": true,
+      "detail": 4
+    },
+    {
+      "check": "profile_ids",
+      "pass": true,
+      "detail": [
+        "S1_BARE_MASTER",
+        "S2_Q_CELL_SCRIBE",
+        "S3_S_LINE_SCRIBE",
+        "S4_MIXED_COMPACT"
+      ]
+    },
+    {
+      "check": "same_dictionary",
+      "pass": true,
+      "detail": "all"
+    },
+    {
+      "check": "meaning_tuple_invariant_policy",
+      "pass": true,
+      "detail": "all"
+    },
+    {
+      "check": "34_multi_surface_families",
+      "pass": true,
+      "detail": 34
+    },
+    {
+      "check": "multi_tuple_ids_exact",
+      "pass": true,
+      "detail": "same IDs"
+    },
+    {
+      "check": "all_family_meanings_invariant",
+      "pass": true,
+      "detail": "all"
+    },
+    {
+      "check": "464_statement_renderings",
+      "pass": true,
+      "detail": 464
+    },
+    {
+      "check": "116_statement_ids",
+      "pass": true,
+      "detail": 116
+    },
+    {
+      "check": "four_profiles_per_statement",
+      "pass": true,
+      "detail": "all"
+    },
+    {
+      "check": "statement_tuple_invariant",
+      "pass": true,
+      "detail": "all"
+    },
+    {
+      "check": "statement_meaning_invariant",
+      "pass": true,
+      "detail": "all"
+    },
+    {
+      "check": "statement_flags",
+      "pass": true,
+      "detail": "all"
+    },
+    {
+      "check": "68_statements_visibly_vary",
+      "pass": true,
+      "detail": 68
+    },
+    {
+      "check": "64_exercise_renderings",
+      "pass": true,
+      "detail": 64
+    },
+    {
+      "check": "16_exercise_ids",
+      "pass": true,
+      "detail": 16
+    },
+    {
+      "check": "four_profiles_per_exercise",
+      "pass": true,
+      "detail": "all"
+    },
+    {
+      "check": "exercise_tuple_invariant",
+      "pass": true,
+      "detail": "all"
+    },
+    {
+      "check": "exercise_flags",
+      "pass": true,
+      "detail": "all"
+    },
+    {
+      "check": "10_exercises_visibly_vary",
+      "pass": true,
+      "detail": 10
+    },
+    {
+      "check": "1732_token_trace",
+      "pass": true,
+      "detail": 1732
+    },
+    {
+      "check": "every_chosen_surface_registered",
+      "pass": true,
+      "detail": "all"
+    },
+    {
+      "check": "meaning_never_changes",
+      "pass": true,
+      "detail": "all"
+    },
+    {
+      "check": "q_choices_present",
+      "pass": true,
+      "detail": {
+        "BARE_REGISTERED_FALLBACK": 995,
+        "SHORTEST_REGISTERED_FALLBACK": 339,
+        "REGISTERED_S_LINE_ENTRY": 136,
+        "FIXED_OR_MARKED_ONLY_FALLBACK": 192,
+        "REGISTERED_Q_AFTER_COMMIT": 70
+      }
+    },
+    {
+      "check": "s_choices_present",
+      "pass": true,
+      "detail": {
+        "BARE_REGISTERED_FALLBACK": 995,
+        "SHORTEST_REGISTERED_FALLBACK": 339,
+        "REGISTERED_S_LINE_ENTRY": 136,
+        "FIXED_OR_MARKED_ONLY_FALLBACK": 192,
+        "REGISTERED_Q_AFTER_COMMIT": 70
+      }
+    },
+    {
+      "check": "q_only_after_commit",
+      "pass": true,
+      "detail": "all"
+    },
+    {
+      "check": "s_only_at_line_start",
+      "pass": true,
+      "detail": "all"
+    },
+    {
+      "check": "all_exercises_in_copybook",
+      "pass": true,
+      "detail": "all"
+    },
+    {
+      "check": "copybook_not_real_hand_claim",
+      "pass": true,
+      "detail": "present"
+    },
+    {
+      "check": "report_role_caveat",
+      "pass": true,
+      "detail": "present"
+    },
+    {
+      "check": "sealed_pages_absent",
+      "pass": true,
+      "detail": "absent"
+    },
+    {
+      "check": "deterministic_rebuild",
+      "pass": true,
+      "detail": {
+        "before": {
+          "FOUR_SCRIBE_PROFILES.tsv": "8267797df1ba90e3ef450c57e7c21bca208443b8783988aa706ffc6b7e528acc",
+          "MULTI_SURFACE_FAMILY_CENSUS.tsv": "c7354d4151c03739bd8a9d5f6c6e454e30bdd78d89b104ce4277808cb0383313",
+          "FOUR_HAND_116_STATEMENT_RENDERINGS.tsv": "644153b21722c7171e05bbe374560b6c601f97a1c4bc1db725e75a19cce130ad",
+          "FOUR_HAND_16_EXERCISE_RENDERINGS.tsv": "65e4fc61a37bc2e51ee5a0b02d47a30a8949da42a03ef61753d43c761fbd19c5",
+          "RENDERER_TOKEN_TRACE.tsv": "0caad7a4893af944e92d11a6a1f8236e846eeea22ae8de4ed0634697fd8674d6",
+          "FOUR_SCRIBE_COPYBOOK.md": "85d06c5222eb5cd36d2ab0ff72bd2416b8611cf5892a07f38db905ea80be013c",
+          "FOUR_SCRIBE_COPYSHOP_REPORT.md": "9119f57fd8ad81cbe21f9c37ae802e5b18926ca99a385175862788649d7295be"
+        },
+        "after": {
+          "FOUR_SCRIBE_PROFILES.tsv": "8267797df1ba90e3ef450c57e7c21bca208443b8783988aa706ffc6b7e528acc",
+          "MULTI_SURFACE_FAMILY_CENSUS.tsv": "c7354d4151c03739bd8a9d5f6c6e454e30bdd78d89b104ce4277808cb0383313",
+          "FOUR_HAND_116_STATEMENT_RENDERINGS.tsv": "644153b21722c7171e05bbe374560b6c601f97a1c4bc1db725e75a19cce130ad",
+          "FOUR_HAND_16_EXERCISE_RENDERINGS.tsv": "65e4fc61a37bc2e51ee5a0b02d47a30a8949da42a03ef61753d43c761fbd19c5",
+          "RENDERER_TOKEN_TRACE.tsv": "0caad7a4893af944e92d11a6a1f8236e846eeea22ae8de4ed0634697fd8674d6",
+          "FOUR_SCRIBE_COPYBOOK.md": "85d06c5222eb5cd36d2ab0ff72bd2416b8611cf5892a07f38db905ea80be013c",
+          "FOUR_SCRIBE_COPYSHOP_REPORT.md": "9119f57fd8ad81cbe21f9c37ae802e5b18926ca99a385175862788649d7295be"
+        }
+      }
+    }
+  ],
+  "counts": {
+    "profiles": 4,
+    "multi_surface_families": 34,
+    "statements": 116,
+    "statement_renderings": 464,
+    "varying_statements": 68,
+    "exercises": 16,
+    "exercise_renderings": 64,
+    "varying_exercises": 10,
+    "token_trace": 1732,
+    "q_choices": 70,
+    "s_choices": 136
+  }
+}

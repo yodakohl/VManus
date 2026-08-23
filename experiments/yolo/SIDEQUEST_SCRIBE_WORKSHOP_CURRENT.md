@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-23, after making the workshop grammar forward-encodable.
+Updated: 2026-08-23, after rendering the common grammar through four scribes.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -18,6 +18,33 @@ Exactly ten pages are in scope:
 
 `f84` and `f84r` remain sealed. ZL3b, IT2a and RF1b are alternate readings of
 one manuscript. No additional page, image or semantic corpus was admitted.
+
+## Active four-scribe copyshop
+
+The same dictated meaning and exact-tuple sequence now passes through four
+simple workshop profiles: an older bare-form master, a cell scribe who chooses
+registered `q` forms after local commits, a line scribe who chooses registered
+`s` forms at new line entries, and a compact mixed scribe using both rules.
+These are teaching roles, not proposed identifications of real manuscript hands.
+
+Thirty-four of the 173 exact prose cards have more than one registered surface.
+Rendering all 116 statements through all four profiles creates 464 complete
+counterfactual copies. Sixty-eight statements receive at least two distinct
+visible sequences, even though every semantic reading and exact tuple remains
+unchanged. The full 1,732-token decision trace uses a registered `q` form 70
+times after a prior committed cell and a registered `s` form 136 times at line
+entry; no token falls outside its exact card family.
+
+The sixteen generated dictation exercises similarly yield 64 copies, with ten
+exercises visibly varying between scribes. This supplies a concrete mechanism
+for multiple hands: the shared dictionary and composition grammar end at exact
+card selection, while hand and local layout choose the surface afterward.
+There is no need to posit four semantic dialects or four independent lexicons.
+
+Active files are in `sidequest_semantic_four_scribe_copyshop/`, led by
+`FOUR_SCRIBE_COPYSHOP_REPORT.md`, `FOUR_SCRIBE_COPYBOOK.md`, the four profile
+sheet, 34-family surface census, all 464 statement copies, all 64 exercise
+copies, the complete token renderer trace, builder, and validator.
 
 ## Active scribe forward encoder
 
