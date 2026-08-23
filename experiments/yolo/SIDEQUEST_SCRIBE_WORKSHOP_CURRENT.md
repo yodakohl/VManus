@@ -593,6 +593,28 @@ by `THIRTIETH_APPRENTICE_DICTATION_BOOK.md`, with twelve exercise and 48-copy
 tables, report, builder and validator. This is the first deliberate productive
 use of the completed card-plus-idiom system.
 
+## Active thirty-first balanced dossier edition
+
+The preferred balanced prose now forms four complete workshop dossiers with
+the three existing celestial instruments. Book order remains WHAT–HOW–WHEN;
+bench order is WHEN–WHAT–HOW: choose a visible condition, prepare the pictured
+plant post, then execute its local basin, cloth or station program. The four
+dossiers cover all eleven prose records, 116 statements, 381 prose groups, 142
+Astro loci and 395 Astro groups, or 776 groups in total.
+
+The revised cases are: root/two plant fractions with the shared basin and
+right f67r2 modules; clarified extract with f82r stations and f68r1 atlas;
+stored extract/Tuch sequence with three separate f69v readings; and a short
+plant application plus long f83r station route with left f67r2 modules. Each
+retains a practical nonmedical rival, and a master—not a written cross-page
+pointer—assembles the case.
+
+Active files are in
+`sidequest_semantic_balanced_dossiers_thirty_first_edition/`, led by
+`THIRTY_FIRST_FOUR_COMPLETE_BALANCED_DOSSIERS.md`, with the four-dossier and
+twelve-step tables, report, builder and validator. This is the current
+whole-book use model for the ten fixed pages.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
