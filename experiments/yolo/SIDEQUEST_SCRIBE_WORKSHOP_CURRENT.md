@@ -7167,8 +7167,15 @@ nonquantity covering/carrier card. AN does not occur in Astro and remains the
 weakest single-Prosa grade. See
 `sidequest_semantic_astro_quantity_projection_two_hundred_fifty_third/TWO_HUNDRED_FIFTY_THIRD_READABLE_ASTRO_QUANTITY.md`.
 
-Next, build the full AR/AL/OL/OT/OR/Y relation-and-reference paradigm across
-all prose cards and the matching Astro groups.
+Pass 254 builds the full relation-and-reference paradigm. AR/AL/OL/OT/OR/Y
+occur in 102 of 173 cards and 219 of 381 prose events, plus 67 Astro groups.
+Their compact teaching values are VON, ZU, WEITER, DANACH, ANSATZ and DIES;
+longer bath, plant and diagram readings belong to the local owner expansion.
+See
+`sidequest_semantic_relation_stems_two_hundred_fifty_fourth/TWO_HUNDRED_FIFTY_FOURTH_READABLE_RELATION_LESSON.md`.
+
+Next, enumerate the observed pairwise combinations of those six stems and
+turn them into a small transition algebra that predicts unseen combinations.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
