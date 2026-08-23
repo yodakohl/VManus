@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-23, after resolving the ten shared apprentice headwords.
+Updated: 2026-08-23, after recomposing the local singleton-card tail.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -19,7 +19,37 @@ Exactly ten pages are in scope:
 `f84` and `f84r` remain sealed. ZL3b, IT2a and RF1b are alternate readings of
 one manuscript. No additional page, image or semantic corpus was admitted.
 
-## Active shared-headword resolution
+## Active singleton-composition rescue
+
+The local exemplar tail is now almost halved. Of the 55 open cards that occur
+only once, 22 are fully recomposed from already taught workshop pieces and six
+are partially recomposed with one local carrier left over. Twenty-seven remain
+short learned whole cards. Thus the open prose layer is now 247/292 fully
+compositional and 253/292 component-readable when the six partial cards are
+included.
+
+The strongest repairs are `solkaiin = SOLK+AIIN`, collect to target measure;
+`sheckhy = CKH+E+Y`, pass the current item through briefly; `qockhey =
+OK+CKH+E+Y`, initiate a short pass; `chary = AR+Y`, from it; `raly = AL+Y`,
+carry this item there; `choy = HO+Y`, this ingredient; `lcheey = L+CHEEY`,
+carry off the clear flow; and `shecthy = CTH+E+Y`, hold the current item ready
+briefly. The former local nouns OVERFLOW, STRAINING CLOTH, BODY SITE, SIDE ARM
+and VAT are consequently withdrawn from those cards. Image owners may still
+supply such objects, but the card no longer has to name them.
+
+The same economy removes unsupported WARMTH from QOTCHOL/OLTCHY, BASIN from
+CHEEDAR/QOLCHEY and EQUALITY/PRESSING from OCTHEOL/QOCTHOLY. Their visible
+order, ready, transfer, source, continuation and current-item components now
+produce shorter executable readings. Twenty-five of 116 workshop instructions
+have been rewritten; all 381 prose events and all eleven records remain.
+
+Active files are in `sidequest_semantic_singleton_composition_rescue/`, led by
+`SINGLETON_COMPOSITION_REPORT.md`, `SINGLETON_55_DISPOSITION.tsv`,
+`RESCUED_COMPONENT_LEXICON.tsv`, `APPRENTICE_68_RECOMPOSED_WORD_DECK.tsv`,
+`APPRENTICE_116_RECOMPOSED_PHRASES.tsv`,
+`APPRENTICE_11_RECOMPOSED_RECORDS.md`, builder and validator.
+
+## Previous shared-headword resolution
 
 The ten duplicated apprentice headwords now form semantic bases with explicit
 workshop parameters rather than flat synonyms. The pass covers 24 exact cards
