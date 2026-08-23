@@ -2569,6 +2569,29 @@ validator. Next turn the eleven lessons into an actual copying schedule and
 estimate which cards each of four workshop hands must actively memorize versus
 read from the master exemplar.
 
+## Active hundred-nineteenth four-scribe schedule
+
+The eleven prose records now have a concrete twenty-day four-hand production
+schedule. The short hand copies H1/H3/H4/B1/B6, the q-entry hand H2/B2/B3, the
+s-flow hand H5/B4 and the master hand B5 plus final correction of the full
+batch. This assignment follows each record's best simple renderer fit rather
+than arbitrary equal workload.
+
+All four hands memorize the shared seventeen-card deck. Beyond it, the q-hand
+actively memorizes seventeen recurrent assigned cards, the s-hand nine and the
+short hand six; assigned singleton cards are copied from the master exemplar.
+Preferred hand forms reproduce 279 of 381 visible events directly. The other
+102 are explicit page-exemplar overrides, not new meanings or separate scribal
+languages.
+
+Active files are in
+`sidequest_semantic_four_scribe_schedule_hundred_nineteenth_edition/`, led by
+`HUNDRED_NINETEENTH_FOUR_SCRIBE_REPORT.md` and
+`HUNDRED_NINETEENTH_TWENTY_DAY_FOUR_SCRIBE_SCHEDULE.md`, with all 381 event
+traces, eleven record assignments, four workloads, builder and validator. Next
+inspect the 102 exemplar overrides and determine whether a second simple habit
+per hand can absorb most of them without changing card identity.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
