@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-23, after closing the two-way master-card reader.
+Updated: 2026-08-23, after assigning a distinct teaching value to every master card.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -18,6 +18,32 @@ Exactly ten pages are in scope:
 
 `f84` and `f84r` remain sealed. ZL3b, IT2a and RF1b are alternate readings of
 one manuscript. No additional page, image or semantic corpus was admitted.
+
+## Active unique master glosses
+
+The 173-card reader previously used only 152 different short German values.
+Eighteen broad labels covered 39 different cards, leaving 21 excess cards with
+the same teaching gloss. Those collisions are now resolved as workshop
+nuances. Every one of the 173 master cards has its own short default value,
+while its observed surface family, master head, component formula and tuple
+identity remain unchanged.
+
+The revisions touch 90 of 381 events and 66 of 116 statements. Three former
+`Gefaess` cards are now `Mischgefäß`, `Ansatzgefäß` and `Sammelgefäß`;
+`CHEEY/SHEY` is the clear extract while `TSHEY` adds that clear run; `LSHO`
+begins a wash and `RSHEDY` completes it. The several CHED/CHD closures now
+distinguish a plain transfer, transfer of an already set content, starting a
+transfer operation, and closing transfer of a post already in progress.
+
+These are deliberately memorable master-codebook distinctions. They make the
+creative reading more precise and prevent an apprentice from learning several
+different cards under one vague German label; they do not assert that natural
+language itself must lack synonyms.
+
+Active files are in `sidequest_semantic_unique_master_glosses/`, led by
+`UNIQUE_MASTER_GLOSS_REPORT.md`, the 173-card unique dictionary, 39-card
+resolution sheet, updated 230-surface reader key, complete 381-event and
+116-statement editions, eleven-record readable edition, builder, and validator.
 
 ## Active master-card reader
 
