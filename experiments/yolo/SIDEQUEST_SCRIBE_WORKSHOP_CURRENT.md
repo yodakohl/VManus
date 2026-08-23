@@ -975,6 +975,27 @@ Active files are in
 cells, 120 owner predictions, report, builder and consistency checker. This is
 the current finite productive word-composition machine.
 
+## Active forty-eighth constrained surface realization
+
+The 24 predicted fused atom cells were next passed through the existing card
+inventory. None has a registered fused visible form. Seven can nevertheless
+be expressed analytically as two already observed cards; four hand profiles
+produce 28 copies without inventing a surface. The boundary change from
+`BASE+ENDING` to `BASE | ENDING` is explicit and does not count as discovery of
+the fused word.
+
+Seventeen predictions remain unwriteable because either the base or ending has
+no independent card. They are blocked until a new registered form is available;
+the master may only paraphrase them with an existing multi-card or multi-clause
+command. No EVA strings are glued together and no new glyph rule is introduced.
+
+Active files are in
+`sidequest_semantic_surface_realization_forty_eighth_edition/`, led by
+`FORTY_EIGHTH_SURFACE_REALIZATION_BOOK.md`, with all 24 decisions, 28
+four-hand analytic copies, seventeen blocked compounds, report, builder and
+consistency checker. This is the current spelling boundary for predicted
+compositions.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
