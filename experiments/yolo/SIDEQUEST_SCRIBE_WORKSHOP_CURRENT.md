@@ -2797,6 +2797,27 @@ statements, builder and validator. Next organize the 132 low-frequency cards
 into small specialist drawers and give every one a short concrete whole-card
 value without inventing more universal stems.
 
+## Active hundred-twenty-ninth specialist drawers
+
+The 132 low-frequency cards now sit in eight apprentice drawers: nineteen
+material/product/vessel cards, fourteen filter/wash/flow, forty
+heat/settle/state, thirty-six transfer/source/target, eight quantity/part/stage,
+nine order/continuation, three application/fasten/store, and three other local
+operations. They cover 142 events.
+
+Each retains one exact learned whole-card value rendered as a short telegraphic
+phrase, such as `halten · bearbeiten · übertragen; schließen`. These dots are
+memory steps inside one card, not newly promoted words. The complete current
+dictionary again gives all 173 cards and all 381 events a nonempty spoken
+default while reserving productive status for the 41-card active core.
+
+Active files are in
+`sidequest_semantic_specialist_drawers_hundred_twenty_ninth/`, led by
+`HUNDRED_TWENTY_NINTH_SPECIALIST_DRAWER_REPORT.md`, with 132 specialist cards,
+eight drawers, the complete 173-card dictionary, 381-event dictionary, 116
+card chains, builder and validator. Next reconstruct one complete practical
+instruction from each drawer and compare how the drawer functions differ.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
