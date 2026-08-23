@@ -7371,9 +7371,18 @@ with successive applications. H1 alone makes the local water wager; AIR remains
 portable LAUF/BAHN and no plant species is named. See
 `sidequest_semantic_manual_herbal_edition_two_hundred_eighty_second/TWO_HUNDRED_EIGHTY_SECOND_COMPLETE_HERBAL_EDITION.md`.
 
-Next, produce six continuous Bio station narratives and manually repair the
-ninety-seven statement expansions, preserving local owner resets and rejecting
-the old single-global-water-network reading.
+Pass 283 binds all ninety-seven Bio statements and 281 events to their visible
+local stations and rewrites them as six continuous records. B1 is a shared
+double basin; B2 has four separate work zones; B3 moves from three margin
+vessels across an unpictured gap to one visibly linked pair; B4 contains
+committed applications at the pair and S-run; B5/B6 are technical addenda. The
+four statement-internal owner changes remain workshop ellipses, never invented
+pipes, and no global water circuit is asserted. See
+`sidequest_semantic_manual_bio_station_edition_two_hundred_eighty_third/TWO_HUNDRED_EIGHTY_THIRD_COMPLETE_BIO_EDITION.md`.
+
+Next, manually polish the 142 Astro loci into three continuous instrument
+readings while retaining their independent namespaces and absence of fixed
+start, direction, rotation, or f68-to-f69 key.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
