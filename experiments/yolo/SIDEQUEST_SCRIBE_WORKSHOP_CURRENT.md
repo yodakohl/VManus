@@ -397,6 +397,29 @@ Astro loci. Active files are in
 report, builder and validator. This is the most concrete image-aware reading;
 the twentieth edition remains the best strict stem alignment.
 
+## Active twenty-second continuous-record edition
+
+The 116 owner-filled prose statements are now spoken as eleven uninterrupted
+work pieces rather than as an annotated card list. The five Herbal records are
+concrete pictured-simple articles — root extract, two harvested fractions,
+flower extract, leaf preparation and a two-use wet-site plant — while the six
+Biological records are local basin, cloth, wash and transfer programs. Physical
+line endings remain reflow; visible owner changes alone interrupt or redirect
+the working subject.
+
+The readable edition deliberately keeps two expansions beside one another. Its
+main voice is the current practical medical workshop reading; a shorter
+bathhouse/material-process rival shows exactly where the same cards and image
+geometry do not require a therapeutic purpose. The Bio pages are never
+smoothed into one closed hydraulic network, and the four-page Herbal details
+remain creative owner fills rather than new atomic card meanings.
+
+Active files are in
+`sidequest_semantic_continuous_records_twenty_second_edition/`, led by
+`TWENTY_SECOND_CONTINUOUS_WORKSHOP_TRANSLATION.md`, with the eleven-record TSV,
+report, deterministic builder and validator. This is the best short continuous
+prose; the twenty-first edition remains the exact statement-to-owner binding.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
