@@ -7469,8 +7469,17 @@ OL to move; OL forms eleven prefix/selector chains and two genuine postposed
 continuations. Only `ycheor` and `chealror` are learned fronted exceptions. See
 `sidequest_semantic_slot_order_two_hundred_ninety_fourth/TWO_HUNDRED_NINETY_FOURTH_SLOT_ORDER_MANUAL.md`.
 
-Next, reconstruct the left/right slots and CHD-versus-CHED choice for all 20
-transfer-core cards, then derive the exact predicted spelling of `pchedain`.
+Pass 295 gives all 20 transfer-core cards the template left slots → CHD/CHED →
+right slots. Six short/flexible cards account for 18 events and fourteen CHED
+cards for 25. Explicit L, P, OL, AR, AIN or CTH loads select CHED; direct/current
+forms default to CHD, with small learned OT/OK/context conventions. Combining
+the attested parents `pchedy` and `chedain` now forces `pchedain` as P+CHED+AIN.
+The pass also preserves the crucial distinction that `chdy|chedy` is current-Y
+and nonterminal while `lchedy` is a licensed close. See
+`sidequest_semantic_transfer_core_two_hundred_ninety_fifth/TWO_HUNDRED_NINETY_FIFTH_TRANSFER_CORE_MANUAL.md`.
+
+Next, build the complete E/EE/EEE grade table for all 30 grade cards, identify
+every missing cell, and rank only the internally predictable new forms.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these

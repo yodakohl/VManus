@@ -1,0 +1,5 @@
+step	surface	role	instruction_de
+1	pchedy	P+CHED_TRANSFER+CLOSE	Nimm die belegte Empfänger-Transferkarte; P erzwingt CHED.
+2	chedain	CHED_TRANSFER+AIN	Nimm die belegte Portions-Transferkarte; AIN steht rechts vom CHED-Körper.
+3	p + ched + ain	LEFT_SLOT + SHARED_CORE + RIGHT_SLOT	Lege beide Karten am identischen CHED übereinander; entferne das terminale Y der ersten Elternkarte.
+4	pchedain	P+CHED_TRANSFER+AIN	Schreibe ohne Zwischenraum: eine Portion in den Empfänger überführen.
