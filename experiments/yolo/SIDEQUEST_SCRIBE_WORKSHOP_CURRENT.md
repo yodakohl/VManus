@@ -3757,6 +3757,25 @@ Files are in `sidequest_semantic_astro_workshop_appendix_hundred_seventy_fourth/
 readable appendix, report, builder and validator. Next assemble one complete
 ten-page master edition and a short curriculum for new workshop scribes.
 
+## Active hundred-seventy-fifth ten-page master edition
+
+The complete current workshop reading is now consolidated: 173 prose cards,
+381 prose events, 395 Astro groups and 776 unified visible groups across exactly
+the ten fixed pages. Four Herbal jobs, six supplied Biological station records
+and three Astro instruments form one practical compendium.
+
+A twelve-lesson curriculum teaches page class, picture owner, longest whole
+card, core grammar, field versus line, four Herbal jobs, Bio resets, product
+handoff, three Astro operations and correction. The working book is therefore
+learnable by several scribes as a productive grammar plus memorized cards and
+local diagram labels.
+
+Files are in `sidequest_semantic_ten_page_master_edition_hundred_seventy_fifth/`:
+current 173-card dictionary, 381-event Prose edition, 395-group Astro edition,
+776-group unified ledger, fourteen-unit summary, twelve-lesson curriculum,
+readable ten-page edition, report, builder and validator. Next demand concrete
+within-ten-page composition predictions from the current stem/process theory.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
