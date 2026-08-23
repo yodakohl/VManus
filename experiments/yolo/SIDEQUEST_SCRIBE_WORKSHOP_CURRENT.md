@@ -4184,6 +4184,19 @@ cool, `qekey` process versus raw, `dchey` base-part versus root, `sh` hold versu
 stalk and `dshedy` settle versus fresh water. Next resolve the complete 22-card
 learned deck occurrence by occurrence.
 
+## Active two-hundred-second learned-card reconciliation
+
+The 22 learned cards/28 occurrences now have one compact default each: eleven
+current values kept, seven legacy values restored, four refined. Key choices are
+`oykchor=Zubereitungsgefäß`, `tchody=kalt stellen; Schluss`, `dchey=Wurzel`,
+`sh=Stängel`, `ly=Auffanggefäß`, `cheeckhody=auftragen; Schluss`,
+`dshedy=Frischwasser zugeben; Schluss` and `qokylddy=befestigen; Schluss`.
+
+Fresh water is therefore localized once at B2's middle-left station rather than
+spread across all liquid-looking forms. Fifteen statement literals and nine
+fluent translations change; the 151 productive cards remain untouched. Next
+regenerate the complete reader and audit German vocabulary granularity.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
