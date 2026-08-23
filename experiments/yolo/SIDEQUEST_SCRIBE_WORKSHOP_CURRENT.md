@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-23, after compiling the apprentice phrasebook.
+Updated: 2026-08-23, after resolving the ten shared apprentice headwords.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -19,7 +19,37 @@ Exactly ten pages are in scope:
 `f84` and `f84r` remain sealed. ZL3b, IT2a and RF1b are alternate readings of
 one manuscript. No additional page, image or semantic corpus was admitted.
 
-## Active apprentice-phrasebook edition
+## Active shared-headword resolution
+
+The ten duplicated apprentice headwords now form semantic bases with explicit
+workshop parameters rather than flat synonyms. The pass covers 24 exact cards
+and 25 occurrences: seventeen contextual subtypes, three terminal-routine
+variants and four station-local synonyms. No pair is treated as a merely
+graphic allograph.
+
+The selected distinctions are: CHARY dry after spreading, RAL cool liquid,
+TCHODY cold-store the finished clear product and ODY cool a portion; LAR/LO
+close two local drains while SHEEY opens one; QOTCHOL begins warming while
+OLTCHY maintains warmth; CHEEDAR is a collecting basin and QOLCHEY a working
+basin; CHEEETY is a prior rinse while TSHEY is rinse water; LCHEEY is a body
+site and QOLKY an apparatus station; SOLKAIIN is straining cloth and DAIN
+general cloth; ROL/LOL/SHECTHY are continuing-warm/warm/hand-warm; CHOY is open
+washing while RSHEDY is the closed wash cycle. SHECKHY/QOCKHEY remain the one
+honest local synonym pair OVERFLOW.
+
+Across the 68 whole-learned cards, 54 base headwords now select 66 concrete
+readings. Eleven fluent sentences are rephrased; all 116 phrases and 381 events
+remain present.
+
+Active files are in `sidequest_semantic_shared_headword_resolution/`, led by
+`SHARED_HEADWORD_RESOLUTION_REPORT.md`,
+`SHARED_HEADWORD_10_FAMILY_SUMMARY.tsv`,
+`SHARED_HEADWORD_24_CARD_DECISIONS.tsv`,
+`APPRENTICE_68_RESOLVED_WORD_DECK.tsv`,
+`APPRENTICE_116_RESOLVED_PHRASES.tsv`,
+`APPRENTICE_11_RESOLVED_RECORDS.md`, builder and validator.
+
+## Previous apprentice-phrasebook edition
 
 The selected lexicon is now arranged as a small teachable reader rather than a
 flat translation table. Of 116 instructions, 40 are direct one-card programs,

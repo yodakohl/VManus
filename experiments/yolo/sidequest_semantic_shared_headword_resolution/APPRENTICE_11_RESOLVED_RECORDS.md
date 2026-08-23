@@ -1,0 +1,384 @@
+# Elf Records nach Auflösung der gemeinsamen Stichwörter
+
+Die Kartenfolge benutzt die kontextuell aufgelösten Lesungen; darunter steht die flüssige Werkstattphrase.
+
+## H1 — f10r
+
+- **H1-S001 · Vollständige Werkstattphrase**
+  - Karten: Wurzel → Ansatz bereit → daraus → zerkleinern → Gefäß → Wasserzulauf → auffangen → Posten ansetzen → Sollmaß → Rest
+  - Lesung: Nimm die Wurzel der abgebildeten Pflanze aus dem bereitgestellten Ansatz, zerkleinere sie, gib sie in das Gefäß, lass Wasser zulaufen und sammle den Auszug; setze ihn nach Sollmaß an und verwahre den Wurzelrest
+- **H1-S002 · Materialvorgang**
+  - Karten: Posten ansetzen → anwärmen → fortsetzen → bereit
+  - Lesung: Setze den bemessenen Wurzelauszug an, wärme ihn an, führe ihn weiter und halte ihn bereit
+
+## H2 — f10r
+
+- **H2-S001 · Vollständige Werkstattphrase**
+  - Karten: Auszugsansatz → bereit → Ansatz → Fertigmaß → pressen → dieser Posten → dieser Posten → Sollmaß → dieser Posten
+  - Lesung: Bereite aus der abgebildeten Pflanze einen Auszugsansatz, bring ihn auf Fertigmaß, presse ihn aus und teile den gewonnenen Posten nach Sollmaß
+- **H2-S002 · Vollständige Werkstattphrase**
+  - Karten: Folgeansatz → Ansatz → danach fortsetzen → fortsetzen → Fortsetzungsansatz → fortsetzen → Sollmaß → daraus
+  - Lesung: Führe den bemessenen Pflanzenansatz als Folgeansatz samt seinem Fortsetzungsposten weiter und nimm daraus das Sollmaß
+- **H2-S003 · Vollständige Werkstattphrase**
+  - Karten: Topf → Ansatz → Ansatz → dieser Posten → Weichstufe → dieser Posten → Zutatenmaß
+  - Lesung: Gib den weitergeführten Folgeansatz in den Topf, bearbeite ihn bis zur Weichstufe und entnimm das Zutatenmaß
+
+## H3 — f11r
+
+- **H3-S001 · Vollständige Werkstattphrase · REVIDIERT**
+  - Karten: Kraut → Sud → auswringen → Standmaß → nachseihen → Klarlauf → kalt stellen [SCHLUSS]
+  - Lesung: Bereite aus dem bildlich bestimmten Kraut einen Sud, wringe ihn aus, lass ihn bis zum Standmaß stehen, seih nach, nimm den Klarlauf und stelle ihn kalt.
+- **H3-S002 · Argument vor Programm**
+  - Karten: Reserve
+  - Lesung: Lege eine Blütenreserve zurück
+- **H3-S003 · Vollständige Werkstattphrase**
+  - Karten: Voriges → dieser Posten → Trank → dieser Posten → Sollmaß
+  - Lesung: Bereite aus der Blütenreserve einen Trank nach Sollmaß
+- **H3-S004 · Materialvorgang**
+  - Karten: Folgeposten → Fortsetzung einsetzen → bereit → dieser Posten
+  - Lesung: Nimm die restliche Blütenreserve als Folgeposten, setze die Fortsetzung an und halte sie bereit
+
+## H4 — f55v
+
+- **H4-S001 · Materialvorgang**
+  - Karten: auf Sollmaß einstellen → Sollmaß → Postenportion → dieser Anteil → kühlen [SCHLUSS]
+  - Lesung: Stelle das Sollmaß ein, nimm eine Postenportion und kühle diesen Anteil ab
+- **H4-S002 · Materialvorgang**
+  - Karten: Sollmaß → umsetzen → verwahren
+  - Lesung: Setze den Posten nach Sollmaß um und verwahre ihn
+- **H4-S003 · Vollständige Werkstattphrase**
+  - Karten: Postenmaß → Auszug entnehmen → länger wärmen → fortsetzen [SCHLUSS]
+  - Lesung: Nimm den Auszug aus dem verwahrten Ansatz nach Postenmaß, wärme ihn länger und schließe die Fortsetzung
+- **H4-S004 · Vollständige Werkstattphrase · REVIDIERT**
+  - Karten: Sollmaß → dort ansetzen → warm halten → Ansatz → dieser Posten → Ansatzportion
+  - Lesung: Gib nach Sollmaß eine Ansatzportion dorthin, halte die Portion warm und belasse den Posten im Ansatz.
+
+## H5 — f56r
+
+- **H5-S001 · Vollständige Werkstattphrase**
+  - Karten: Zutatenansatz → Zutat → Zutat dorthin → Sollmaß → Zutat → auflegen → Folgeansatz → Posten ansetzen → dorthin
+  - Lesung: Bereite einen Zutatenansatz, gib die Zutat dorthin nach Sollmaß, lege die nächste Zutat auf, beginne den Folgeansatz und setze den Posten dort an
+- **H5-S002 · Materialvorgang · REVIDIERT**
+  - Karten: Voriges → abwaschen → Posten ansetzen → auftragen [SCHLUSS]
+  - Lesung: Wasche die bezeichnete Stelle ab, setze den vorbereiteten Zutatenansatz an und trage ihn auf.
+- **H5-S003 · Materialvorgang**
+  - Karten: Stängel → Zutat → zerreiben → erneut ansetzen
+  - Lesung: Nimm die Stängel als Zutat, zerreibe sie und setze sie erneut an
+- **H5-S004 · Materialvorgang**
+  - Karten: Posten ansetzen → Auszug zugeben → abseihen
+  - Lesung: Setze die zerriebenen Stängel an, gib den Auszug zu und seih ab
+- **H5-S005 · Materialvorgang**
+  - Karten: Zutat → Posten ansetzen → Auszug daraus → anwenden
+  - Lesung: Setze den geseihten Ansatz als Zutat an, nimm den Auszug daraus und wende ihn an
+- **H5-S006 · Materialvorgang**
+  - Karten: Folgeposten → Gabe → Sollmaß
+  - Lesung: Wähle für die nächste Gabe diesen Anwendungsauszug als Folgeposten und das Sollmaß
+
+## B1 — f81v
+
+- **B1-S001 · Direktprogramm**
+  - Karten: kurz ansetzen [SCHLUSS]
+  - Lesung: Setze kurz an und schließe
+- **B1-S002 · Vollständige Werkstattphrase · REVIDIERT**
+  - Karten: auf Sollmaß einstellen → Beckenwasser → dort ansetzen → daraus → fortsetzen → eine Portion → weitere Portion → dorthin → fortsetzen → weiter warm → Zusatz → Fortsetzungsansatz → fortsetzen → Maß → Sollmaß → dort länger halten → Sollmaß → durchleiten → umsetzen [SCHLUSS]
+  - Lesung: Stelle das Sollmaß ein, lass Beckenwasser zu, setze dort an, gib eine weitere Portion und Zusatz hinzu, halte den Fortsetzungsansatz weiter warm, führe ihn bis zum Maß weiter, stelle das Sollmaß ein, halte dort länger, prüfe erneut das Sollmaß, leite durch, setze um und schließe.
+- **B1-S003 · Handlungskette**
+  - Karten: fortsetzen → schwenken [SCHLUSS]
+  - Lesung: Führe weiter, schwenke den Posten und schließe
+- **B1-S004 · Materialvorgang**
+  - Karten: umsetzen → fortsetzen → absetzen [SCHLUSS]
+  - Lesung: Setze um, führe weiter, lass absetzen und schließe
+- **B1-S005 · Direktprogramm**
+  - Karten: fortsetzen [SCHLUSS]
+  - Lesung: Führe den Posten weiter und schließe
+- **B1-S006 · Vollständige Werkstattphrase**
+  - Karten: eine Portion zugeben → durchleiten → Zusatz → abkühlen lassen
+  - Lesung: Gib eine Portion und den Badzusatz zu, leite durch und lass abkühlen
+- **B1-S007 · Direktprogramm**
+  - Karten: umsetzen [SCHLUSS]
+  - Lesung: Setze die abgekühlte Badmischung um und schließe
+- **B1-S008 · Materialvorgang**
+  - Karten: dieser Posten → fortsetzen → kurz wärmen → fortsetzen → absetzen [SCHLUSS]
+  - Lesung: Führe den aktuellen Posten weiter, wärme kurz, lass absetzen und schließe
+- **B1-S009 · Direktprogramm**
+  - Karten: kurz ansetzen [SCHLUSS]
+  - Lesung: Setze kurz an und schließe
+- **B1-S010 · Direktprogramm**
+  - Karten: kurz ansetzen [SCHLUSS]
+  - Lesung: Setze kurz an und schließe
+- **B1-S011 · Materialvorgang**
+  - Karten: durchleiten → Posten ansetzen
+  - Lesung: Leite durch und setze den Posten an
+- **B1-S012 · Materialvorgang**
+  - Karten: Waschgang → kurz ansetzen → waschen [SCHLUSS]
+  - Lesung: Beginne mit dem durchgeleiteten Waschposten den Waschgang, setze kurz an, wasche und schließe
+- **B1-S013 · Direktprogramm**
+  - Karten: waschen [SCHLUSS]
+  - Lesung: Wasche und schließe
+- **B1-S014 · Vollständige Werkstattphrase · REVIDIERT**
+  - Karten: umsetzen → Station → Auslass → fortsetzen → danach von dort
+  - Lesung: Setze zur Station um, führe am Auslass ab und führe danach von dort weiter.
+- **B1-S015 · Lokaler Übergang**
+  - Karten: füllen → umsetzen [SCHLUSS]
+  - Lesung: Fülle das Gefäß mit der abgeleiteten Arbeitsflüssigkeit, setze den Inhalt um und schließe
+- **B1-S016 · Vollständige Werkstattphrase**
+  - Karten: dort ansetzen → länger ansetzen → fortsetzen → absetzen [SCHLUSS]
+  - Lesung: Setze dort länger an, führe weiter, lass absetzen und schließe
+- **B1-S017 · Zielhandlung**
+  - Karten: dorthin → Hahn → umsetzen [SCHLUSS]
+  - Lesung: Führe ihn dorthin, öffne den Hahn, setze um und schließe
+- **B1-S018 · Zielhandlung**
+  - Karten: Schale → einreiben → Sollstufe → länger sammeln [SCHLUSS]
+  - Lesung: Stelle die Auffangschale bereit, reibe die bezeichnete Stelle ein, bringe sie auf Sollstufe, sammle länger und schließe
+- **B1-S019 · Direktprogramm**
+  - Karten: absetzen [SCHLUSS]
+  - Lesung: Lass absetzen und schließe
+- **B1-S020 · Gestufte Handlung**
+  - Karten: kurz wärmen → seihen [SCHLUSS]
+  - Lesung: Wärme kurz, seih und schließe
+- **B1-S021 · Argument vor Programm**
+  - Karten: dorthin
+  - Lesung: Führe den Posten dorthin
+
+## B2 — f82r
+
+- **B2-S001 · Direktprogramm**
+  - Karten: umsetzen [SCHLUSS]
+  - Lesung: Setze um und schließe
+- **B2-S002 · Direktprogramm**
+  - Karten: fortsetzen [SCHLUSS]
+  - Lesung: Führe weiter und schließe
+- **B2-S003 · Materialvorgang**
+  - Karten: eine Portion zugeben → dieser Posten → länger ansetzen [SCHLUSS]
+  - Lesung: Gib eine Portion zu, setze den Posten länger an und schließe
+- **B2-S004 · Vollständige Werkstattphrase**
+  - Karten: dort ansetzen → Ausgangsdurchlass → abführen → länger ansetzen → abseihen [SCHLUSS]
+  - Lesung: Setze dort an, leite durch den Ausgang, führe ab, setze länger an, seih ab und schließe
+- **B2-S005 · Vollständige Werkstattphrase**
+  - Karten: dies dort ansetzen → Seihtuch → durchleiten → auf Sollmaß einstellen → auf Sollmaß einstellen → gleichen → länger wärmen → abziehen [SCHLUSS]
+  - Lesung: Setze den Posten am Seihtuch an, leite ihn durch, stelle das Sollmaß ein, gleiche beide Seiten an, wärme länger, ziehe ab und schließe
+- **B2-S006 · Vollständige Werkstattphrase**
+  - Karten: langer Folgeposten → dort ansetzen → Überlauf → Posten ansetzen
+  - Lesung: Nimm den langen Folgeposten, setze ihn dort am Überlauf an und führe ihn weiter
+- **B2-S007 · Direktprogramm**
+  - Karten: Frischwasser [SCHLUSS]
+  - Lesung: Gib dem weitergeführten Überlaufposten Frischwasser zu und schließe
+- **B2-S008 · Materialvorgang**
+  - Karten: Folgemaß → daraus ansetzen → absetzen [SCHLUSS]
+  - Lesung: Stelle das Folgemaß ein, setze daraus an, lass absetzen und schließe
+- **B2-S009 · Direktprogramm**
+  - Karten: weiter absetzen [SCHLUSS]
+  - Lesung: Lass weiter absetzen und schließe
+- **B2-S010 · Materialvorgang**
+  - Karten: länger ansetzen → Posten ansetzen → Düse → Klarlauf
+  - Lesung: Setze länger an, führe den Posten durch die Düse und nimm die Klarflüssigkeit
+- **B2-S011 · Materialvorgang**
+  - Karten: eine Portion zugeben → daraus → eine Portion zugeben → länger ansetzen [SCHLUSS]
+  - Lesung: Gib der Klarflüssigkeit eine Portion zu, nimm daraus eine weitere Portion, setze länger an und schließe
+- **B2-S012 · Vollständige Werkstattphrase · REVIDIERT**
+  - Karten: abziehen → Klarlauf → kurz bereithalten → länger ansetzen → Körperstelle → Sollmaß → dieser Posten → vollständig ansetzen [SCHLUSS]
+  - Lesung: Ziehe den Posten ab, nimm den Klarlauf, halte ihn kurz bereit, setze ihn länger an der Körperstelle nach Sollmaß an, führe ihn vollständig aus und schließe.
+- **B2-S013 · Direktprogramm**
+  - Karten: abführen [SCHLUSS]
+  - Lesung: Führe ab und schließe
+- **B2-S014 · Handlungskette**
+  - Karten: Ablauf schließen
+  - Lesung: Schließe den Bodenablauf
+- **B2-S015 · Argument vor Programm**
+  - Karten: Spülwasser → länger ansetzen [SCHLUSS]
+  - Lesung: Halte den Bodenablauf geschlossen, gib Spülwasser zu, setze länger an und schließe
+- **B2-S016 · Vollständige Werkstattphrase**
+  - Karten: dorthin → von dort abführen → teilen → Sollmaß → langer Folgeposten → auf Sollmaß einstellen → kurz ansetzen → einführen [SCHLUSS]
+  - Lesung: Führe ihn dorthin und von dort ab, teile gleich, stelle das Sollmaß ein, nimm den langen Folgeposten, setze kurz an, führe ein und schließe
+- **B2-S017 · Argument vor Programm**
+  - Karten: Warmwasser → Nebenöffnung [SCHLUSS]
+  - Lesung: Lass Warmwasser ein und schließe die Nebenöffnung
+- **B2-S018 · Direktprogramm**
+  - Karten: länger ansetzen [SCHLUSS]
+  - Lesung: Setze länger an und schließe
+- **B2-S019 · Direktprogramm · REVIDIERT**
+  - Karten: Waschgang [SCHLUSS]
+  - Lesung: Führe den Waschgang aus und schließe.
+- **B2-S020 · Direktprogramm**
+  - Karten: lange Folge [SCHLUSS]
+  - Lesung: Nimm die lange Folge und schließe
+- **B2-S021 · Direktprogramm**
+  - Karten: länger ansetzen [SCHLUSS]
+  - Lesung: Setze länger an und schließe
+- **B2-S022 · Direktprogramm**
+  - Karten: Rest abführen [SCHLUSS]
+  - Lesung: Führe den Rest ab und schließe
+
+## B3 — f83r
+
+- **B3-S001 · Direktprogramm**
+  - Karten: länger sammeln [SCHLUSS]
+  - Lesung: Sammle länger und schließe
+- **B3-S002 · Argument vor Programm**
+  - Karten: danach dorthin → länger wärmen [SCHLUSS]
+  - Lesung: Führe danach dorthin, wärme länger und schließe
+- **B3-S003 · Argument vor Programm**
+  - Karten: dieser Posten → Sollmaß → dieser Posten → abführen [SCHLUSS]
+  - Lesung: Nimm den aktuellen Posten nach Sollmaß, führe ihn ab und schließe
+- **B3-S004 · Materialvorgang**
+  - Karten: auf Sollmaß einstellen → danach dorthin → daraus
+  - Lesung: Stelle das Sollmaß ein, führe danach dorthin und nimm daraus
+- **B3-S005 · Direktprogramm**
+  - Karten: umsetzen [SCHLUSS]
+  - Lesung: Setze die entnommene Sollmaßportion um und schließe
+- **B3-S006 · Materialvorgang**
+  - Karten: umsetzen → dort ansetzen → fortsetzen [SCHLUSS]
+  - Lesung: Setze dorthin um, führe weiter und schließe
+- **B3-S007 · Materialvorgang**
+  - Karten: auf Sollmaß einstellen → umsetzen → länger ansetzen [SCHLUSS]
+  - Lesung: Stelle das Sollmaß ein, setze um, setze länger an und schließe
+- **B3-S008 · Direktprogramm**
+  - Karten: abführen [SCHLUSS]
+  - Lesung: Führe ab und schließe
+- **B3-S009 · Handlungskette**
+  - Karten: Posten ansetzen
+  - Lesung: Setze den Posten an
+- **B3-S010 · Argument vor Programm**
+  - Karten: Einlass → kurze Folge [SCHLUSS]
+  - Lesung: Führe den angesetzten Posten am Einlass zu, nimm die kurze Folge und schließe
+- **B3-S011 · Handlungskette · REVIDIERT**
+  - Karten: aufstreichen → Posten ansetzen → umsetzen → antrocknen lassen
+  - Lesung: Streiche den Posten auf, setze ihn an, setze um und lass die Auflage antrocknen.
+- **B3-S012 · Argument vor Programm**
+  - Karten: Ansatz → absetzen [SCHLUSS]
+  - Lesung: Lass den aufgestrichenen und abgekühlten Ansatz absetzen und schließe
+- **B3-S013 · Materialvorgang**
+  - Karten: auf Sollmaß einstellen → eine Portion → kurz bereithalten → kurz ansetzen [SCHLUSS]
+  - Lesung: Stelle das Sollmaß ein, nimm eine Portion, halte kurz bereit, setze kurz an und schließe
+- **B3-S014 · Lokaler Übergang**
+  - Karten: Wasser einlassen → länger absetzen [SCHLUSS]
+  - Lesung: Lass Wasser ein, lass länger absetzen und schließe
+- **B3-S015 · Direktprogramm**
+  - Karten: abführen [SCHLUSS]
+  - Lesung: Führe ab und schließe
+- **B3-S016 · Handlungskette**
+  - Karten: Ablauf schließen → umsetzen [SCHLUSS]
+  - Lesung: Schließe den Bodenablauf, setze den Posten um und schließe
+- **B3-S017 · Direktprogramm**
+  - Karten: länger ansetzen [SCHLUSS]
+  - Lesung: Setze länger an und schließe
+- **B3-S018 · Direktprogramm**
+  - Karten: absetzen [SCHLUSS]
+  - Lesung: Lass absetzen und schließe
+- **B3-S019 · Direktprogramm**
+  - Karten: absetzen [SCHLUSS]
+  - Lesung: Lass absetzen und schließe
+- **B3-S020 · Argument vor Programm**
+  - Karten: dorthin → abführen [SCHLUSS]
+  - Lesung: Führe dorthin, führe ab und schließe
+- **B3-S021 · Vollständige Werkstattphrase**
+  - Karten: auf Sollmaß einstellen → bereit → dorthin → dieser Posten → Sollmaß → dort absetzen → handwarm → dieser Posten → dorthin → bereit → dorthin umsetzen [SCHLUSS]
+  - Lesung: Stelle das Sollmaß ein, halte bereit, führe dorthin, lass den Posten absetzen, bis er handwarm ist, führe ihn erneut dorthin, stelle bereit, setze dort um und schließe
+- **B3-S022 · Direktprogramm**
+  - Karten: Folgeumsetzung [SCHLUSS]
+  - Lesung: Führe die Folgeumsetzung aus und schließe
+- **B3-S023 · Direktprogramm**
+  - Karten: abführen [SCHLUSS]
+  - Lesung: Führe ab und schließe
+- **B3-S024 · Direktprogramm**
+  - Karten: umsetzen [SCHLUSS]
+  - Lesung: Setze um und schließe
+- **B3-S025 · Direktprogramm**
+  - Karten: umsetzen [SCHLUSS]
+  - Lesung: Setze um und schließe
+- **B3-S026 · Materialvorgang · REVIDIERT**
+  - Karten: Auffangbecken → Absetzmaß → umsetzen → eine Portion zugeben → bereit → klar → länger sammeln [SCHLUSS]
+  - Lesung: Stelle das Auffangbecken bereit, warte bis zum Absetzmaß, setze um, gib eine Portion zu, halte bereit, warte bis der Posten klar ist, sammle länger und schließe.
+- **B3-S027 · Direktprogramm**
+  - Karten: lange Folge [SCHLUSS]
+  - Lesung: Nimm die lange Folge und schließe
+- **B3-S028 · Materialvorgang**
+  - Karten: länger ansetzen → kurz ansetzen [SCHLUSS]
+  - Lesung: Setze länger, dann kurz an und schließe
+- **B3-S029 · Handlungskette · REVIDIERT**
+  - Karten: fortsetzen → Vorspülung → kurz ansetzen [SCHLUSS]
+  - Lesung: Führe nach der Vorspülung weiter, setze kurz an und schließe.
+- **B3-S030 · Vollständige Werkstattphrase**
+  - Karten: Posten ansetzen → Sollmaß → Wasser weiterleiten → Folgeumsetzung [SCHLUSS]
+  - Lesung: Setze den Posten nach Sollmaß an, leite Wasser weiter, führe die Folgeumsetzung aus und schließe
+- **B3-S031 · Direktprogramm**
+  - Karten: länger ansetzen [SCHLUSS]
+  - Lesung: Setze länger an und schließe
+- **B3-S032 · Materialvorgang**
+  - Karten: Portion umsetzen → umsetzen → Wanne → Folgemaß → kurze Folge [SCHLUSS]
+  - Lesung: Setze eine Portion um, führe sie in die Wanne, stelle das Folgemaß ein, nimm die kurze Folge und schließe
+- **B3-S033 · Direktprogramm**
+  - Karten: abziehen [SCHLUSS]
+  - Lesung: Ziehe ab und schließe
+- **B3-S034 · Vollständige Werkstattphrase**
+  - Karten: Sollstufe → bereit → zerkleinern → Folgemaß → untere Zielstelle → absetzen [SCHLUSS]
+  - Lesung: Bringe auf Sollstufe, halte bereit, bearbeite gleichmäßig, stelle das Folgemaß ein, führe zur unteren Zielstelle, lass absetzen und schließe
+
+## B4 — f83r
+
+- **B4-S001 · Direktprogramm**
+  - Karten: länger ansetzen [SCHLUSS]
+  - Lesung: Setze länger an und schließe
+- **B4-S002 · Materialvorgang · REVIDIERT**
+  - Karten: Arbeitsbecken → länger ansetzen → kurz ansetzen [SCHLUSS]
+  - Lesung: Bereite das Arbeitsbecken vor, setze länger und dann kurz an und schließe.
+- **B4-S003 · Vollständige Werkstattphrase**
+  - Karten: umsetzen → danach dorthin → Folgeposten → länger ansetzen → Posten ansetzen → fortsetzen → absetzen [SCHLUSS]
+  - Lesung: Setze um, führe danach dorthin, wähle den Folgeposten, setze länger an, führe weiter, lass absetzen und schließe
+- **B4-S004 · Direktprogramm**
+  - Karten: befestigen [SCHLUSS]
+  - Lesung: Befestige den Posten und schließe
+- **B4-S005 · Handlungskette**
+  - Karten: Tuch → umsetzen → länger ansetzen [SCHLUSS]
+  - Lesung: Lege das Tuch ein, setze um, setze länger an und schließe
+- **B4-S006 · Direktprogramm**
+  - Karten: seihen [SCHLUSS]
+  - Lesung: Seih und schließe
+- **B4-S007 · Direktprogramm**
+  - Karten: seihen [SCHLUSS]
+  - Lesung: Seih und schließe
+- **B4-S008 · Bemessene Handlung**
+  - Karten: Sollmaß → länger wärmen → Ablauf öffnen → kurz ansetzen [SCHLUSS]
+  - Lesung: Stelle das Sollmaß ein, wärme länger, öffne den Ablauf, setze kurz an und schließe
+- **B4-S009 · Direktprogramm**
+  - Karten: absetzen [SCHLUSS]
+  - Lesung: Lass absetzen und schließe
+- **B4-S010 · Direktprogramm**
+  - Karten: fortsetzen [SCHLUSS]
+  - Lesung: Führe weiter und schließe
+- **B4-S011 · Vollständige Werkstattphrase**
+  - Karten: Sollmaß → kurz wärmen → länger fortführen → eine Portion zugeben → umsetzen → fortsetzen → nachwaschen [SCHLUSS]
+  - Lesung: Stelle das Sollmaß ein, wärme kurz, führe länger fort, gib eine Portion zu, setze um, führe weiter, wasche nach und schließe
+- **B4-S012 · Direktprogramm**
+  - Karten: abführen [SCHLUSS]
+  - Lesung: Führe ab und schließe
+- **B4-S013 · Handlungskette**
+  - Karten: Fortsetzung einsetzen → absetzen [SCHLUSS]
+  - Lesung: Setze die Fortsetzung ein, lass absetzen und schließe
+- **B4-S014 · Materialvorgang**
+  - Karten: Ansatz → dieser Posten → Überlauf → Wasserlauf schließen [SCHLUSS]
+  - Lesung: Führe den Ansatz am Überlauf, schließe den Wasserlauf und beende den Schritt
+- **B4-S015 · Vollständige Werkstattphrase**
+  - Karten: eine Portion zugeben → Klarlauf → eine Portion → Zeit → kurz sammeln → abführen [SCHLUSS]
+  - Lesung: Gib eine Portion zu, nimm die Klarflüssigkeit, halte eine Portion für die Haltezeit, sammle kurz, führe ab und schließe
+- **B4-S016 · Vollständige Werkstattphrase**
+  - Karten: weitere Portion → dorthin → ausgießen → absetzen [SCHLUSS]
+  - Lesung: Gib eine weitere Portion dorthin, gieße sie warm aus, lass absetzen und schließe
+
+## B5 — f83r
+
+- **B5-S001 · Direktprogramm**
+  - Karten: Folgeumsetzung [SCHLUSS]
+  - Lesung: Führe die Folgeumsetzung aus und schließe
+- **B5-S002 · Direktprogramm**
+  - Karten: umsetzen [SCHLUSS]
+  - Lesung: Setze um und schließe
+- **B5-S003 · Vollständige Werkstattphrase**
+  - Karten: dort absetzen → dorthin → fortsetzen → warm → dort umsetzen → Sollmaß → fortsetzen → Öffnungsstufe → umsetzen
+  - Lesung: Lass dort absetzen, führe dorthin weiter, halte warm, setze nach Sollmaß um, stelle die Öffnung auf Zielstufe und setze erneut um
+
+## B6 — f83r
+
+- **B6-S001 · Vollständige Werkstattphrase**
+  - Karten: länger sammeln → roh → Arm → fortsetzen → Sollmaß → fortsetzen → Tuch → dieser Posten → Endziel
+  - Lesung: Sammle den rohen Posten länger, öffne den Seitenarm, führe nach Sollmaß weiter, lege das Tuch ein und führe den Posten zum Endziel
