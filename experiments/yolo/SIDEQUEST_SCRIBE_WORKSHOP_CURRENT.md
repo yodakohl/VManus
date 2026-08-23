@@ -7034,8 +7034,15 @@ pour/settle path. A therapeutic application/rinse is the strongest content
 expansion, but the arms remain directionless. See
 `sidequest_semantic_f83r_coupled_lower_apparatus_two_hundred_thirty_third/TWO_HUNDRED_THIRTY_THIRD_READABLE_TWO_ARM_FUNCTION.md`.
 
-Next, test B5 and B6 as separate apprentice addenda for the left and right
-finishing paths and tighten their complete translations accordingly.
+Pass 234 reads B5 and B6 as asymmetric apprentice addenda. B5 reuses four
+occurrences of three exact left-branch cards and continues transfer/output.
+B6 repeats no exact right-branch card but expands short collection to long,
+target to end-target, and portion to measure-plus-inlay. Thus B5 is an
+operational continuation and B6 an endpoint summary. See
+`sidequest_semantic_f83r_branch_addenda_two_hundred_thirty_fourth/TWO_HUNDRED_THIRTY_FOURTH_READABLE_BRANCH_ADDENDA.md`.
+
+Next, reconstruct the short master-to-apprentice dictation that would generate
+the full f83r owner, operation, grade, close, and addendum sequence.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
