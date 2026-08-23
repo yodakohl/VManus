@@ -3114,6 +3114,28 @@ repairs, readable edition, report, builder and validator. Next revise the
 ten-mould phrasebook and current dictionary so portable words, owner
 arguments and fluent expansions occupy separate columns everywhere.
 
+## Active hundred-forty-fourth layered current edition
+
+The complete prose basis now keeps three layers separate in every row:
+portable card value, visible or registered owner argument, and controlled
+fluent expansion. All 173 cards, 381 events and 116 statements are present.
+Forty-one cards form the cross-record active vocabulary; 132 remain learned
+local whole cards. No fluent owner noun is silently promoted into a stem.
+
+The ten moulds now carry explicit guards. M02 says measure only when AIIN or
+OKAIIN is present. M03 takes body, basin, vessel or other target from the
+owner. M05 does not turn every state into heat. M06 supplies cloth or water
+only from a card or owner. M09 is a small learned application/storage/
+fastening family, not one freely productive syntax. This preserves concrete
+translations while making their source teachable to a workshop apprentice.
+
+Files are in
+`sidequest_semantic_layered_current_edition_hundred_forty_fourth/`: layered
+173-card dictionary, 381-event and 116-statement editions, ten revised moulds,
+eleven owner registers, pocket manual, report, builder and validator. Next
+rebuild the complete 776-group ten-page edition on this layered prose basis;
+keep the Astro labels owner-local and do not import prose meanings into them.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
