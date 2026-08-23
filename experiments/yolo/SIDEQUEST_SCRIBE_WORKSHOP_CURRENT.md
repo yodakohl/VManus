@@ -2932,6 +2932,28 @@ compare the four job texts with concrete ca. 1400 recipe, balneological and
 workshop phrase orders, then revise only those short meanings for which a
 better period construction explains several cards at once.
 
+## Active hundred-thirty-fifth period phrase order
+
+Nine real fourteenth-/fifteenth-century recipe, bath, regimen and craft-book
+comparators support a very short paratactic order: TAKE material, PROCESS it,
+ADD medium, MEASURE a part, HEAT/HOLD, STRAIN or DECANT, PUT/APPLY at the
+target, FINISH. This is a good match to the current WHAT→HOW jobs and a warning
+against putting a whole modern sentence inside one learned card.
+
+The strongest lexical repairs are now `chety = Anteil`, `oldy = fertig`,
+`okaiin = bemessen`, `chdy = überführen`, `checthy = bereit` and
+`cheey/shey = Klarauszug`. Active owner and target registers supply omitted
+nouns, so `choky` can simply be `einsetzen` and `chey` simply `dies`. J2's
+wring→stand→re-strain→clear-product→transfer chain has the closest period
+parallel. J4's long apparatus route remains the weakest historical clause
+match.
+
+Files are in `sidequest_semantic_period_phrase_order_hundred_thirty_fifth/`:
+nine source comparators, the complete 41-card active-deck review, four job
+orders, report, builder and validator. Next propagate the shortened values
+through the whole current edition and rewrite every job as terse workshop
+clauses.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
