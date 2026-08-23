@@ -1382,6 +1382,27 @@ Active files are in
 the 115 Biological fields the same compact treatment as local basin/station
 instructions rather than one imagined continuous machine.
 
+## Active sixty-seventh Biological station handbook
+
+The three Biological pages now form six compact records covering 115 fields,
+97 statements and 281 groups. Sixteen visible local owners organize the text:
+the shared f81v pool, five f82r station groups and ten f83r local stations or
+record-specific uses of them. Every owner change resets source, target and
+direction.
+
+The medical reading is a bath, wash and local-application handbook; the equally
+workable technical reading is a bathhouse or washhouse operating register.
+Both use the same measured, tempered, mixed, cloth-handled, drained and locally
+closed clause grammar. Neither licenses a page-wide pipe network or hidden flow
+direction.
+
+Active files are in
+`sidequest_semantic_bio_station_handbook_sixty_seventh_edition/`, led by
+`SIXTY_SEVENTH_COMPLETE_BIO_STATION_HANDBOOK.md`, with complete 281-group,
+97-statement, sixteen-station and six-record tables, report, builder and
+validator. Next rewrite the three Astro pages as separate address-and-readout
+instruments with no imported prose grammar or f68–f69 key.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
