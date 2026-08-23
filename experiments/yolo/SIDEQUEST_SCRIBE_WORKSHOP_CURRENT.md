@@ -3059,6 +3059,24 @@ ecology audits, eight repaired template instructions, corrected composer
 manual, report, builder and validator. Next turn the repaired examples into a
 small phrasebook and assign all 116 statements to reusable mould families.
 
+## Active hundred-forty-first ten-mould phrasebook
+
+All 116 prose statements and all 381 events are now assigned to ten apprentice
+moulds. The dominant forms are target/transfer (27), state/close (27),
+order/continuation (19), and filter/clear-product (12). Seven statements are
+material/preparation articles; five instantiate the two brackets. Thirteen
+remain exact local cells copied as wholes.
+
+The writing lesson is now compact: determine OWNER, choose a mould, set common
+cards, insert one local whole card, preserve endpoint position, render the
+scribe's hand, and read back to the mould. The phrasebook gives a useful real
+statement exemplar and substitution rule for every mould.
+
+Files are in `sidequest_semantic_ten_mould_phrasebook_hundred_forty_first/`:
+ten mould definitions, complete 116-statement assignment, phrasebook, report,
+builder and validator. Next write one apprenticeship lesson per mould and
+perform an owner substitution while preserving the exact clause mould.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
