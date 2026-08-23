@@ -7232,8 +7232,15 @@ the visible owner as final selector. All381 surfaces are generated without
 altering card meaning. See
 `sidequest_semantic_context_renderer_two_hundred_sixty_second/TWO_HUNDRED_SIXTY_SECOND_READABLE_RENDERER_MANUAL.md`.
 
-Next, organize the23 memorized whole signs by sentence slot and repair any
-noun/action value that conflicts with its fixed placement.
+Pass 263 organizes the23 whole signs into ten content/product signs, four
+internal operations, one open handoff and eight terminal operations. Their
+28 occurrences obey those slots. TALAM alone changes from the noun VERWAHRORT
+to the terminal action VERWAHREN; SCHLUSS. See
+`sidequest_semantic_whole_sign_syntax_two_hundred_sixty_third/TWO_HUNDRED_SIXTY_THIRD_READABLE_NOMENCLATOR_LESSON.md`.
+
+Next, expose and count the residual cores inside the32 previously
+frame-plus-local cards, so the claimed apprentice deck includes every item the
+scribe actually has to learn.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
