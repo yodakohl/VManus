@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-23, after consolidating the complete fourteen-unit workshop edition.
+Updated: 2026-08-23, after the record-specific renderer-habit mixture pass.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -3429,6 +3429,30 @@ Files are in
 readable five-hand copybook, report, builder and validator. Next assign each
 real record the smallest mixture of the five habits that reproduces its
 observed shared-card surfaces.
+
+## Active hundred-fifty-ninth record-habit mixture
+
+The five R157/R158 profiles are now corrected from possible scribe identities
+to teaching extremes. No observed record is reproduced by one fixed profile.
+Every record mixes three to five of the five entry habits; the shortest
+maximum-cover descriptions require two to five extreme profiles.
+
+Those extremes reproduce 228 of 251 shared-card events directly. The remaining
+23 events are ten already registered micro-allographs inside the same habit,
+not new meanings or new renderer classes. They are concentrated in eight
+cards, including `chdy/chedy`, `chey/chy`, `cheol/chol` and `chal/cheal`.
+Thus all 251 shared events still recover exactly through five habits plus a
+locally learned second spelling.
+
+The corrected workshop rule is: choose the master card, choose the positional
+entry habit, then choose a registered micro-allograph if the local hand uses
+one. Several scribes may mix the same habits differently without possessing
+different dictionaries. Files are in
+`sidequest_semantic_record_habit_mixture_hundred_fifty_ninth/`: complete
+251-event fit, eleven record mixtures, ten micro-allographs, apprentice manual,
+report, builder and validator. Next derive the smallest positional schedule
+for choosing habits at field entry, after a close, inside a running clause and
+across a carried line.
 
 ## Active surface compiler
 
