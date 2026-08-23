@@ -3794,6 +3794,23 @@ deck, ten showcase predictions, apprentice deck, report, builder and validator.
 Next order the nineteen exceptions as a historically plausible mini-
 nomenclator and decide which are objects, operations, states or links.
 
+## Active hundred-seventy-seventh exception nomenclator
+
+The nineteen exceptions now form five teachable drawers: material/tool,
+container/place, separation/clarification, wash/close, and link/application.
+All 24 occurrences fit one of these jobs. Each card has a concrete master's
+gesture, from wringing cloth and showing a clear run to pointing backward,
+pouring from a source and fastening an insert.
+
+This turns the exception set into a plausible small nomenclator rather than a
+list of long translated sentences. Eight cards remain pure whole signs; eleven
+retain a productive frame around one memorized body.
+
+Files are in `sidequest_semantic_exception_nomenclator_hundred_seventy_seventh/`:
+nineteen-card codebook, five drawers, all 24 occurrence contexts, spoken
+apprentice manual, report, builder and validator. Next perform a genuine
+forward writing exercise from a short master instruction into cards and back.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
