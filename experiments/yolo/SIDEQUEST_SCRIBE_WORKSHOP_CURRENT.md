@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-23, after closing the complete 37-card terminal deck.
+Updated: 2026-08-23, after resolving the complete open-middle lexicon.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -19,7 +19,37 @@ Exactly ten pages are in scope:
 `f84` and `f84r` remain sealed. ZL3b, IT2a and RF1b are alternate readings of
 one manuscript. No additional page, image or semantic corpus was admitted.
 
-## Active complete terminal-deck edition
+## Active open-middle lexicon edition
+
+The 292 nonterminal events before the 89 close cards now form a compact mixed
+lexicon rather than 136 unrelated words. Ten productive base cards account for
+89 events and 66 productive compounds for another 136. Only five recurrent
+whole cards remain (12 events), while 55 singleton cards form the local
+master-exemplar tail. Thus 225/292 open-middle events are compositionally
+readable.
+
+The sixteen most frequent open cards already cover 148/292 events. Fifteen are
+productive: AIIN target measure, OL continue, Y current item, CHD~CHED+Y
+transfer, OK+Y set item, AL target, OK+AIIN set measure, OK+EE+Y longer set,
+OK+AIN add portion, OR batch, CTH+Y ready, OK+AL set there, AR from it, HO
+ingredient and CKH+Y pass through. Only SHEY/CHEEY = clear liquid is a learned
+whole card in this core. The complete recurrent whole-word deck is SHEY/CHEEY,
+DL bath additive, DAIN cloth, CHETY/CHTY crush, and DCHOL/SCHOL previous item.
+
+Across all 173 cards/381 events the architecture is now 101 productive types
+(301 events), four licensed partial types (five), five recurrent whole types
+(12), eight terminal specialist whole types (eight), and 55 local singleton
+exemplar types (55). This is the selected ca.-1420-style workshop mechanism:
+productive technical brevigraphs plus a tiny learned nomenclator and a long
+copied local tail. No existing card, event or sentence reading changed.
+
+Active files are in `sidequest_semantic_open_middle_lexicon/`, led by
+`OPEN_MIDDLE_LEXICON_REPORT.md`, `OPEN_MIDDLE_CORE_16_DECK.tsv`,
+`RECURRENT_WHOLE_WORD_DECK.tsv`, `OPEN_MIDDLE_136_CARD_LEXICON.tsv`,
+`OPEN_MIDDLE_SLOT_SUMMARY.tsv`, `UNIFIED_173_CARD_ARCHITECTURE.tsv`, the full
+173-/381-/116-/11 edition, builder and validator.
+
+## Previous complete terminal-deck edition
 
 All terminal commands in the eleven prose records are now covered. The eleven
 closed instructions outside the local variant menus contain nine additional
