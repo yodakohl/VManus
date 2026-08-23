@@ -7202,9 +7202,16 @@ signs; the corresponding event split is 194/159/28. Thus 353/381 events carry
 visible compositional help. See
 `sidequest_semantic_minimum_apprentice_deck_two_hundred_fifty_eighth/TWO_HUNDRED_FIFTY_EIGHTH_READABLE_APPRENTICE_MANUAL.md`.
 
-Next, reverse the direction and make the apprentice generate card sequences
-from concrete workshop instructions using only the 53-entry deck; distinguish
-semantic identity from harmless allographic card choice.
+Pass 259 reverses the writing direction. The 173 cards currently encode 171
+short instructions: 169 choose one card, while DANACH_WEITER and
+EINFÜHREN_SCHLUSS each choose a two-card working-equivalence set. Thus 374/381
+events and 109/116 statements select every Masterkarte uniquely; the remaining
+seven events/statements need a renderer or exemplar choice but retain the same
+working meaning. See
+`sidequest_semantic_reverse_workshop_compiler_two_hundred_fifty_ninth/TWO_HUNDRED_FIFTY_NINTH_READABLE_WRITING_MANUAL.md`.
+
+Next, inspect the seven residual variant contexts and decide whether the two
+card pairs are true allographs or encode small source-order distinctions.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
