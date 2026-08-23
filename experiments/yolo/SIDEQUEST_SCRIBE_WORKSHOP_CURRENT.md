@@ -3983,6 +3983,24 @@ render the same exact 73 cards as a second scribal hand using only registered
 surface allographs and unchanged field boundaries, then demand identical
 readback.
 
+## Active hundred-eighty-seventh second-hand renderer
+
+Hand B rewrites the exact 73-card mini-section by choosing the next registered
+surface of each card when an alternative exists. Forty token surfaces across
+23 cards change and 33 remain fixed. No new surface is introduced.
+
+Every Hand-B surface maps uniquely back to its original master card, so all 73
+card IDs, values, slots, eighteen field boundaries and terminal positions are
+identical. Concrete changes include `dchol→schol`, `aiin→chaiin`,
+`chedy→chdy`, `qoky→choky` and `chor→or`.
+
+Files are in `sidequest_semantic_second_hand_renderer_hundred_eighty_seventh/`:
+73-token rendering, eighteen-field Hand-B edition, 23-card allograph map, five
+renderer rules, readable edition, report, builder and validator. Next replace
+the simple next-allograph rule with a third hand that follows observed
+field-initial, medial and final surface preferences while preserving the same
+cards and fields.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
