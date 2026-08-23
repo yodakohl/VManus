@@ -1058,6 +1058,28 @@ report, builder and consistency checker. Next enumerate the tiny eight-card
 addition space and choose the best bounded teaching deck by unlocked commands
 per learned card.
 
+## Active fifty-second minimal master-deck edition
+
+All 256 subsets of the eight missing card categories have now been run through
+the compiler. The preferred small supplement contains four categories: bare
+`CKHE = separate`, bare `CHK = warm`, `E+CLOSE = brief then close`, and
+`EE+CLOSE = longer then close`. These are teaching placeholders, not proposed
+Voynich spellings.
+
+After also admitting the 25 cost-free two-card meanings, the four-card deck
+raises coverage from 79 to 128 of 144 commands. The new compiler has 55
+observed fused cells, 61 analytic two-card cells, twelve controlled
+paraphrases, and sixteen remaining rejections. A five-card deck reaches 133,
+six reaches 138, seven reaches 142, and all eight reach the full lattice; the
+four-card choice is the compact workshop cut.
+
+Active files are in
+`sidequest_semantic_minimal_master_deck_fifty_second_edition/`, led by
+`FIFTY_SECOND_FOUR_CARD_DECK.md`, with all 256 subset results, the nine-budget
+frontier, a 144-cell four-card compiler, report, builder and consistency
+checker. Next build a simulated master exemplar with neutral category tokens
+and work the remaining sixteen failures as concrete apprentice requests.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
