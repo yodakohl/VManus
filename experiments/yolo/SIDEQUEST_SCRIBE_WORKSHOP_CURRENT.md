@@ -7314,9 +7314,15 @@ Astro whole forms = 109 entries; 67 local label forms are copied from their
 diagram exemplars rather than semantically memorized. See
 `sidequest_semantic_ten_page_mixed_deck_two_hundred_seventy_fourth/TWO_HUNDRED_SEVENTY_FOURTH_READABLE_MIXED_SYSTEM.md`.
 
-Next, use the consolidated deck to produce continuous readings of each of the
-three Astro instruments, keeping their separate namespaces and avoiding any
-invented rotation, start point or f68-to-f69 key.
+Pass 275 turns the 395 groups into complete readings for all 142 visible Astro
+loci: f67r2=190/74, f68r1=65/37, f69v=140/31 groups/loci. Each locus combines
+portable components, learned whole signs and local copy labels in source copy
+order. The three instruments remain separate and no start, orientation,
+rotation or f68-to-f69 key is introduced. See
+`sidequest_semantic_three_astro_readings_two_hundred_seventy_fifth/TWO_HUNDRED_SEVENTY_FIFTH_COMPLETE_ASTRO_EDITION.md`.
+
+Next, collapse the 142 locus readings into a small set of reusable Astro entry
+templates and compare those templates with the prose statement grammar.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
