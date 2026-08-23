@@ -7142,8 +7142,14 @@ intact. Each affected statement is now written twice: a compact card-core chain
 and its plant/bath/station expansion. See
 `sidequest_semantic_cross_register_feedback_two_hundred_forty_ninth/TWO_HUNDRED_FORTY_NINTH_READABLE_CORE_AND_LOCAL.md`.
 
-Next, build a new complete 776-group ten-page working edition with the revised
-173-card dictionary, 116 prose statements and 142 diagram-locus readings.
+Pass 250 is the new complete ten-page working edition: a revised 173-card
+dictionary, 381 prose events, 116 complete prose statements, 395 Astro groups,
+142 diagram loci and one 776-row core-plus-local ledger. The readable edition
+contains every prose statement and every diagram locus. See
+`sidequest_semantic_ten_page_working_edition_two_hundred_fiftieth/TWO_HUNDRED_FIFTIETH_TEN_PAGE_READABLE_EDITION.md`.
+
+Next, audit identical component formulas in the 173-card dictionary, unify the
+OT+OL pair, and resolve the YKAIN/YKAN/YKAIIN portion paradigm.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
