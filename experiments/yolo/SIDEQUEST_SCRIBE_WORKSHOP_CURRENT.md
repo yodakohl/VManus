@@ -7454,8 +7454,16 @@ fallback two-card spelling is teachable; none of the five predicted surfaces is
 already visible on the ten pages. See
 `sidequest_semantic_five_production_squares_two_hundred_ninety_second/TWO_HUNDRED_NINETY_SECOND_APPRENTICE_COPY_SHEET.md`.
 
-Next, classify all 149 known composed prose cards by these production mechanisms
-and count where additional scribal operations are genuinely needed.
+Pass 293 classifies every one of the 149 composed prose cards and all 352 of
+their events. The production inventory closes with 35 registered base-family
+cards (121 events), 64 ordered slot-frame cards (115), 30 grade insertions (73)
+and 20 CHD/CHED transfer-core overlays (43). There is no fifth semantic
+production mechanism; only four surface choices require an owner/document
+renderer convention, while 145 cards follow their recipe alone. See
+`sidequest_semantic_full_prose_morphology_two_hundred_ninety_third/TWO_HUNDRED_NINETY_THIRD_APPRENTICE_MORPHOLOGY_MANUAL.md`.
+
+Next, infer the exact internal ordering of the 64 slot-frame cards and turn it
+into a left-to-right writing template with explicit family-specific exceptions.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
