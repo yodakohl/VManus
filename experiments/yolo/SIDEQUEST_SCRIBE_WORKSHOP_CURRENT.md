@@ -1664,6 +1664,31 @@ builder and validator. Next consolidate the selected lexicon, card licenses,
 fourteen controlled units and four-scribe workflow into one compact current
 edition before attacking the remaining weak content slots.
 
+## Active eightieth selected workshop edition
+
+The current sidequest is consolidated into one release: 43 minimal card
+entries, 54 selected source words, 43 finite card-to-source licenses, fourteen
+controlled units, 776 bound groups, four scribe profiles and a twelve-step
+desk manual. The short current theory and complete ten-page reading are now in
+the same directory.
+
+The most compact model is a mixed register of productive brevigraph-like
+cards, learned whole cards, silent image owners and local diagram
+nomenclators. The master supplies owner and a finite content program; the card
+supplies bounded action/argument structure; the hand chooses a registered
+surface only after exact-card selection. The remaining uncertainty is
+concentrated in the source-content slots and thin learned tail, not hidden in
+line endings or the renderer.
+
+Active files are in
+`sidequest_semantic_selected_workshop_eightieth_edition/`, led by
+`EIGHTIETH_ONE_PAGE_CURRENT_THEORY.md` and
+`EIGHTIETH_COMPLETE_CONTROLLED_TEN_PAGE_EDITION.md`, with the consolidated
+dictionary, source lexicon, licenses, 776 binding, four profiles, manual,
+report, builder and validator. Next rank all 54 source words by whether they
+are visible, card-licensed or only master-supplied, then replace the weakest
+values one by one with shorter and more coherent alternatives.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
