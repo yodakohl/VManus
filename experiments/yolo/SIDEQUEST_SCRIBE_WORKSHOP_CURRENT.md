@@ -266,6 +266,22 @@ three register splits. Active files are in
 the 46-form operation table, complete 487/776/258 layers, pocket codebook,
 report, builder and validator.
 
+## Active fourteenth complete edition
+
+The last twelve partial prose surfaces are now separated into the two intended
+workshop mechanisms. Eleven use a learned technical body plus a productive
+argument or close: CFH squeeze, CPH strain again, PARTITION cut off, WASH wash,
+LDDY fasten/close, DCHE root, DAN apply and SK pour. `TALAM` remains one honest
+whole command, **store at the target**, and is not misparsed through the
+Astro-local AM aspect root.
+
+The partial layer is therefore closed. The active balance is 727 fully
+composed groups, zero partial groups and 49 memorized whole groups; surface
+types are 449 full, zero partial, 35 whole and three register splits. Active
+files are in `sidequest_semantic_prose_body_completion_fourteenth_edition/`,
+led by the twelve-card resolution table, complete 487/776/258 layers, pocket
+codebook, report, builder and validator.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
