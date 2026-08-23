@@ -185,6 +185,21 @@ Active files are in `sidequest_semantic_cheey_readout_eighth_edition/`, led by
 `COMPLETE_TEN_PAGE_WORKSHOP_EIGHTH_EDITION.md`, with the ten-surface paradigm,
 complete 487/776/258 layers, pocket codebook, report, builder and validator.
 
+## Active ninth complete edition
+
+`YD` is now a small Astro-local table body meaning **active/noted row**. It is
+read as one learned body rather than global Y plus D. Four surfaces form the
+row: `ydaiin` gives its prescribed value, `ydam` its aspect, `ydchos` its
+input item, and `ydoly` continues it. All five occurrences stay in the left
+f67r2 register, so the rule is deliberately not exported to the other pages.
+
+One YD form was already readable through AM; four groups newly leave the
+partial layer. The active balance is 597 full, 117 partial and 62 learned-whole
+groups; surface types are 327 full, 109 partial, 48 whole and three register
+splits. Active files are in `sidequest_semantic_yd_active_row_ninth_edition/`,
+led by `COMPLETE_TEN_PAGE_WORKSHOP_NINTH_EDITION.md`, with the four-surface
+paradigm, full 487/776/258 layers, pocket codebook, report and validator.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
