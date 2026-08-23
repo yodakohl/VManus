@@ -1403,6 +1403,27 @@ Active files are in
 validator. Next rewrite the three Astro pages as separate address-and-readout
 instruments with no imported prose grammar or f68–f69 key.
 
+## Active sixty-eighth Astro address handbook
+
+All 395 Astro groups and 142 visible loci are now handled by three separate
+lookup manuals and thirteen local namespaces. f67r2 is two disconnected wheels;
+f68r1 is a multi-panel star atlas; f69v is three heterogeneous rosettes, with a
+28-place inventory only in the left wheel.
+
+The creative master categories remain celestial or calendrical: sector,
+star/mansion, condition, weather, light, planet or complexion. They are local
+nomenclator contents rather than exported prose words. The apprentice points
+to a locus, copies its label, reads only the matching instrument exemplar and
+clears the key at every wheel, panel or page boundary.
+
+Active files are in
+`sidequest_semantic_astro_address_handbook_sixty_eighth_edition/`, led by
+`SIXTY_EIGHTH_COMPLETE_ASTRO_ADDRESS_HANDBOOK.md`, with complete 395-group,
+142-locus, thirteen-namespace and three-instrument tables plus twelve worked
+lookups, report, builder and validator. No start, orientation, f68–f69 key or
+prose-card import is used. Next consolidate Herbal, Biological and Astro into
+one current workshop manual while keeping their different content channels.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
