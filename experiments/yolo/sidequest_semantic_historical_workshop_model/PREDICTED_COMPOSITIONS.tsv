@@ -1,0 +1,16 @@
+prediction_id	atom_sequence	predicted_short_reading_de	expected_wet_expansion	expected_celestial_expansion	status_in_current_ten_pages	blocking_rule
+P01	OK+IIN	STUFE AKTIVIEREN	Arbeitsstufe einstellen	Bedingungsstufe aktivieren	OBSERVED_ONE_OFF_okaiiin	longer whole card may override
+P02	OK+OR	SATZ ANSETZEN	Ansatz ansetzen	Tabellensatz aktivieren	OBSERVED_ONE_OFF_iokeeor	owner supplies batch class
+P03	OL+AIIN	MIT SOLLWERT FORTSETZEN	mit demselben Sollmaß fortfahren	mit demselben Grad fortfahren	NOT_YET_ISOLATED	must preserve AIIN contribution
+P04	OT+AIN	NÄCHSTE PORTION	nächste Portion nehmen	nächsten Anteil wählen	NOT_YET_ISOLATED	AIN must remain distinct from AIIN
+P05	CTH+AL	ZIEL BEREIT	Zielstelle bereit	Zielsektor bereit	NOT_YET_ISOLATED	whole CTH or AL card may block
+P06	CKH+AR	DURCHLAUF VON QUELLE	von der Quelle durch den Lauf führen	Prüfweg vom Ursprungssektor	NOT_YET_ISOLATED	CKH requires a path-like owner
+P07	SHED+EE+Y	DIESEN POSTEN LÄNGER ABSETZEN	aktuellen Ansatz länger ruhen lassen	aktuellen Platz länger halten	NOT_YET_ISOLATED	EE licensed only if a short-grade partner exists
+P08	SOLK+AL	SAMMELZIEL	Auffangstelle	Sammelplatz	NOT_YET_ISOLATED	SOLK whole-card family may block
+P09	OT+AIIN	NÄCHSTER SOLLWERT	nächstes Sollmaß	nächster Grad	NOT_YET_ISOLATED	order marker must scope over parameter
+P10	OK+AIN	PORTION ANSETZEN	Portion einsetzen	Anteil aktivieren	NOT_YET_ISOLATED	must not collapse to OK+AIIN
+P11	CHD+AL	ZUM ZIEL UMSETZEN	an Zielstelle überführen	zum Zielsektor übertragen	NOT_YET_ISOLATED	long CHD/CHED core wins
+P12	CHEO+AL	AUSGABE ZUM ZIEL	Auszug zur Zielstelle	Ausgabewert zum Zielplatz	NOT_YET_ISOLATED	CHEO remains owner-dependent
+P13	OL+AR	VON DER QUELLE WEITER	von derselben Quelle weiter	vom Ursprungssektor weiter	OBSERVED_FORWARD_CELL_olar	longest whole card may override
+P14	OT+AIR	NÄCHSTER LAUF	nächster Flüssigkeitslauf	nächste Bahn	OBSERVED_FORWARD_CELL_qotair	AIR is path not globally water
+P15	CHD+AIIN	ZUM SOLLWERT UMSETZEN	bis zum Sollmaß umsetzen	zum Sollgrad übertragen	OBSERVED_FORWARD_CELL_chedaiin	CHD/CHED allography allowed

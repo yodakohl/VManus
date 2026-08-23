@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-23, after merging prose and Astro into one complete ten-page workshop edition.
+Updated: 2026-08-23, after giving the complete edition a concrete ca.-1420 workshop architecture.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -18,6 +18,35 @@ Exactly ten pages are in scope:
 
 `f84` and `f84r` remain sealed. ZL3b, IT2a and RF1b are alternate readings of
 one manuscript. No additional page, image or semantic corpus was admitted.
+
+## Active historical workshop model
+
+The working script is now taught as a **nomenclator–brevigraph–formulary–table
+hybrid**. This is not a claim that one historical manuscript used the exact
+Voynich system. It is a concrete synthesis of four contemporary practices:
+Italian diplomatic ciphers mixed productive alphabet/syllable signs, nulls
+and learned whole values; technical manuscripts mixed productive
+abbreviations, measures and fixed signs; mensural notation applied a small
+bound modifier system to stable bases; astronomical tables let a local ring,
+row or sector supply the concrete object.
+
+The resulting compiler is simple enough for several workshop hands. It first
+looks up the longest learned whole card. If none applies, it reads a compact
+sequence of order, operation, source/quantity/target/stage, bound grade and
+current/endpoint material. The picture or table address remains a silent
+owner. This licenses the same `AIR = run/course` in a wet owner as running
+liquid and in a wheel owner as a celestial course, without pretending that
+`AIR` is globally the German word *Wasser*.
+
+The historical pass fixes four layers, assigns all 25 common cores a short
+workshop role, and derives fifteen concrete compositional predictions. Five
+are already present in the fixed corpus (`OK+IIN`, `OK+OR`, `OL+AR`,
+`OT+AIR`, `CHD+AIIN`); ten remain useful empty cells rather than post-hoc
+glosses. Active files are in
+`sidequest_semantic_historical_workshop_model/`, led by
+`HISTORICAL_ARCHITECTURE_REPORT.md` and `APPRENTICE_MANUAL_1420.md`, with the
+four-layer crosswalk, 25-stem historical roles, prediction table, sources and
+validator.
 
 ## Active surface compiler
 
