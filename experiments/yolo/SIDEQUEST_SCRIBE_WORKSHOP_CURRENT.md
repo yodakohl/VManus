@@ -1321,6 +1321,27 @@ validator. Next run those chains backward to separate genuinely recoverable
 construction content from the source nouns supplied only by picture or master
 exemplar.
 
+## Active sixty-fourth reverse-decompressor edition
+
+All 381 prose groups now run backward from visible surface to registered atoms,
+one of the twelve clause families and the corresponding source slots. Of these,
+327 use only currently productive components; 54 additionally contain a
+learned local or specialist body. Sixteen complete reverse chains make the
+layer boundary explicit.
+
+The surface and grammar recover construction. The shared dictionary recovers
+the short card reading. The page image or record supplies the concrete owner.
+The rich plant, material, complaint, treatment or apparatus wording still
+comes from the simulated master exemplar. This is the cleanest current answer
+to what the invented script itself says and what the workshop silently knows.
+
+Active files are in
+`sidequest_semantic_reverse_decompressor_sixty_fourth_edition/`, led by
+`SIXTY_FOURTH_SOURCE_RECOVERY_BOOK.md`, with a complete 381-group reverse map,
+sixteen layered readbacks, report, builder and validator. Next turn the twelve
+abstract forms into a small historical-looking repertoire of ordinary source
+clauses rather than adding more card glosses.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
