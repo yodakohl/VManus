@@ -7512,8 +7512,16 @@ visible manuscript text remains unchanged; the two cards are forward-writing
 alternatives. See
 `sidequest_semantic_cross_register_compression_two_hundred_ninety_ninth/TWO_HUNDRED_NINETY_NINTH_TWO_COMPACT_WRITING_EXAMPLES.md`.
 
-Next, add a writing-style layer to all 116 prose statements: visible phrase,
-available compact card, and the reason to compress or retain the phrase.
+Pass 300 adds a writing-style decision to all 116 prose statements: 44 are
+already single-card, 17 retain a learned payload plus frame, 37 retain a process
+sequence with its own commit scope, 16 remain open multi-slot instructions and
+two have the `olar`/`saral` compact alternatives. Maximum hypothetical
+compression saves only two of 381 cards; visible phrases primarily expose
+scope, not inefficient spelling. See
+`sidequest_semantic_statement_style_three_hundredth/THREE_HUNDREDTH_STATEMENT_STYLE_MANUAL.md`.
+
+Next, reconstruct card-end, workstep-end and statement-end scope across all 381
+events, including the 18 statements that cross physical lines.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
