@@ -3903,6 +3903,26 @@ local ambiguities, full roundtrip, report, builder and validator. Next derive a
 compact writing palette from all three generated texts: free slot choices,
 learned whole cards and ambiguity-producing substitutions.
 
+## Active hundred-eighty-third three-text writing palette
+
+The three generated instructions use 48 tokens but only 25 distinct cards.
+Their six palette drawers contain 2/7/4/5/5/3 cards for context, selection,
+condition, operation, target and close. `talam` is the only multislot card: it
+can locate a stock in G1 or set the storage station in G3.
+
+Of thirteen rare palette cards, six are fully compositional, three combine a
+productive frame with a learned body and four are memorized whole signs:
+insert, cool, previous and divide. Twelve further cards are common workshop
+cards. A twelve-row substitution guide now distinguishes grammatical slot
+replacement from real synonymy, grade/close change, branch specialization and
+unsafe sequence change.
+
+Files are in `sidequest_semantic_three_text_writing_palette_hundred_eighty_third/`:
+48-use ledger, 25-card palette, six-slot writing table, twelve substitutions,
+apprentice chart, report, builder and validator. Next classify the remaining
+148 dictionary cards into the same six drawers using only their existing short
+values and syntax, then write a fourth instruction with low palette overlap.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
