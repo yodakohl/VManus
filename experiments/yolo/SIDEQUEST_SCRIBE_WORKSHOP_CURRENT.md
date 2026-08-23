@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-23, after integrating the cross-register CHEEY/SHEY result/readout root.
+Updated: 2026-08-23, after reducing the prose compiler to twelve clause shapes.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -1298,6 +1298,28 @@ Active files are in
 formulars, ten source-slot rules, report, builder and consistency checker. Next
 compress the ten slots into a small repertoire of actual clause shapes and
 rewrite a few key passages as natural source prose before card abbreviation.
+
+## Active sixty-third clause-shape edition
+
+The 55 observed slot sequences of all 381 prose groups now collapse into
+twelve reusable clause families. They cover learned body chains, order chains,
+action with grade, target, source, quantity or referent, bare/closing action,
+source/preparation, quantity/stage, target address and referent residue. Every
+family is actually populated; no card is promoted to a sentence-sized word.
+
+Sixteen worked passages preserve five explicit layers: natural source prose,
+terse formular, slot program, clause-shape program, atomic cards and visible
+surface. They demonstrate a practical abbreviation workflow in which picture
+owner and learned content can disappear from the written sequence while the
+small construction grammar remains reusable.
+
+Active files are in
+`sidequest_semantic_clause_shapes_sixty_third_edition/`, led by
+`SIXTY_THIRD_NATURAL_SOURCE_PASSAGES.md`, with twelve shape definitions, the
+complete 381-group mapping, sixteen compression chains, report, builder and
+validator. Next run those chains backward to separate genuinely recoverable
+construction content from the source nouns supplied only by picture or master
+exemplar.
 
 ## Active surface compiler
 
