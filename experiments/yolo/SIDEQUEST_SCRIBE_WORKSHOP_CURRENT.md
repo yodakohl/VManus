@@ -890,6 +890,28 @@ Active files are in
 surfaces, report, builder and consistency checker. This is the current minimum
 memorized exception deck beneath the productive grammar.
 
+## Active forty-fourth apprentice-curriculum edition
+
+The complete system is now arranged as an eight-day, forty-hour workshop
+course. Twenty-four sequential lessons move from image owners, records and
+line carry through common stems, process bodies, grades, the small nomenclator,
+four-slot memory, spoken idioms, process macros, four hands, error correction,
+forward dictation and the three celestial instruments to a complete H3→B2
+dossier.
+
+Each day has four show-speak-copy-correct drills, giving 32 daily exercises.
+The final eight-task, sixty-point journeyman piece requires a full H3 reading,
+the complete twenty-two-step B2 station run, local f68r1.14 selection, all eight
+error repairs, the twelve-value/three-split nomenclator, macro expansion and a
+new command in two scribal hands.
+
+Active files are in
+`sidequest_semantic_apprentice_curriculum_forty_fourth_edition/`, led by
+`FORTY_FOURTH_EIGHT_DAY_APPRENTICE_MANUAL.md`, with 24 lessons, 32 exercises,
+the final examination, report, builder and consistency checker. This is the
+current concrete answer to how several circa-1420 workshop hands could learn
+the proposed system.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
