@@ -3884,6 +3884,25 @@ five revised grammar rules, pocket grammar, report, builder and validator. Next
 write a third long instruction that deliberately reopens source or portion
 inside one field, then roundtrip it without adding a card or meaning.
 
+## Active hundred-eighty-second reopen writing exercise
+
+A third free instruction now uses nineteen tokens and seventeen existing cards
+in three new closed fields. Its first field contains three micro-packets. After
+brief contact at the first target it reopens a further portion; after that
+transfer it reopens clear extract plus measure, sets an insert and closes with
+a pass. Two more fields move to the next target, wash and store the remainder.
+
+The exact new sequence is `dchol aiin cheky okal okey kain chedy dal shey aiin
+dain shckhedy | qotchy otal qoky lshedy | kain talam oldy`. Both internal
+reopens roundtrip with the six-slot/four-register grammar. No new surface, card
+value or separator was added.
+
+Files are in `sidequest_semantic_reopen_forward_writing_hundred_eighty_second/`:
+nineteen-token encoding, three-field edition, five packet-state traces, seven
+local ambiguities, full roundtrip, report, builder and validator. Next derive a
+compact writing palette from all three generated texts: free slot choices,
+learned whole cards and ambiguity-producing substitutions.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
