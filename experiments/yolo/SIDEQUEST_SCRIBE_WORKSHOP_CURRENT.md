@@ -731,6 +731,29 @@ Active files are in
 thirteen-module table, pocket manual, report, builder and consistency checker.
 This is the preferred human Astro reading layer.
 
+## Active thirty-seventh complete worked dossier
+
+One complete WHEN–WHAT–HOW job is now carried from master selection through
+visible writing and readback. The demonstration selects f68r1.14
+(`OT+CHEEY`, next visible station result), then executes the four H3 plant and
+filtration statements and all twenty-two B2 local station statements. The
+worked prose contains 26 steps and 79 visible groups; the full set of 37 f68r1
+addresses/65 groups remains available as alternative lookup values.
+
+Every step prints the master's concrete dictation, the observed surface
+sequence, literal card readback, image owner and any owner reset. The job moves
+from plant material through wringing, standing, restraining and reserving a
+second portion into upper basin, middle-node, lower-field and edge-station
+programs. One recurrent B2 idiom is rendered by all four teaching hands while
+retaining the same card sequence and meaning.
+
+Active files are in
+`sidequest_semantic_worked_dossier_thirty_seventh_edition/`, led by
+`THIRTY_SEVENTH_COMPLETE_WORKED_DOSSIER.md`, with the 26-step table, f68
+lookup choices, job card, four-hand rendering, report, builder and consistency
+checker. The cross-page job remains a master's oral assembly, not a claimed
+written manuscript pointer.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
