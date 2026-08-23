@@ -1918,6 +1918,27 @@ exact phrases, report, builder and validator. Next use this phrasebook to
 distinguish which Biological records are treatment-facing and which are
 service/maintenance-facing, then rewrite the six records accordingly.
 
+## Active ninety-first treatment/service split
+
+The Biological phrasebook now has an explicit owner rule. Eighty-seven
+statements are treatment-facing because a visible human/bath scene owns them;
+ten are service-facing after a figureless owner or the B4 owner reset. The
+operation itself never decides this distinction.
+
+B1-B3 remain figure-owned bath records. B4 is the clearest hybrid: S001-S010
+form a warm cloth/application sequence at the main pair, while S011-S016 form
+two separate figureless inlet/filter/receiver/outlet runs. B5 and B6 are
+compact service annexes. Identical drain or hold phrases can occur on either
+side, but no disease, organ or named body part is added.
+
+Active files are in
+`sidequest_semantic_treatment_service_ninety_first_edition/`, led by
+`NINETY_FIRST_6_CONTINUOUS_RECORDS.md`, with all 97 statement modes, six
+dual-mode records, macro cross-tab, five owner rules, report, builder and
+validator. Next build the same small phrasebook for the nineteen Herbal
+statements and compare whether Herbal and Biological really share a source
+syntax or only reuse a few workshop operations.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
