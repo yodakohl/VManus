@@ -1981,6 +1981,27 @@ Active files are in
 Next extend the same apprentice model to the three Astro instruments without
 pretending their local labels are prose words or forcing a shared orientation.
 
+## Active ninety-fourth Astro apprentice compiler
+
+The complete workshop now teaches two simple modes. Herbal/Biological prose
+uses the twenty-primitive combinatorial grammar; Astro uses eight address-and-
+copy rules. The latter covers all 142 loci and 395 groups across A1, A2 and A3
+while preserving eleven local namespaces.
+
+The Astro apprentice opens a local instrument, resets and selects its
+namespace, chooses a visible slot, copies every opaque group, reads only with
+that local master key and preserves the absence of orientation or cross-page
+joins. No prose card value is imported. Prose and Astro share ownership,
+exact-card discipline and hand rendering, not word meanings.
+
+Active files are in
+`sidequest_semantic_astro_apprentice_ninety_fourth_edition/`, led by
+`NINETY_FOURTH_INTEGRATED_APPRENTICE_MANUAL.md`, with eight diagram primitives,
+142 locus traces, 395 group copy traces, three instrument roundtrips, report,
+builder and validator. Next produce a compact complete workshop codebook that
+puts the twenty prose primitives, learned whole cards, source-word classes and
+eight Astro rules on one practical reference sheet.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
