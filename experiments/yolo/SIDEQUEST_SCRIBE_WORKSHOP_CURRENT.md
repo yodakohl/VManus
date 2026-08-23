@@ -6884,6 +6884,16 @@ core is listed in
 Next, place one identical bridge-card sequence under a plant owner and a
 basin/station owner to isolate the semantic work done by the image.
 
+Pass 212 places ten tokens from nine bridge cards under both owner types. All
+card values stay identical; only owner-supplied nouns change (plant item versus
+station item, plant preparation versus basin station, plant extract versus
+station flow). The compact comparison is
+`sidequest_semantic_owner_substitution_two_hundred_twelfth/TWO_HUNDRED_TWELFTH_PARALLEL_READING.md`.
+
+Next, check whether any of the 17 prose bridge cards occurs as an exact visible
+group in the three fixed Astro pages, or whether Astro remains a separate label
+register.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
