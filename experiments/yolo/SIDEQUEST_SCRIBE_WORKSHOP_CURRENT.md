@@ -2902,6 +2902,36 @@ four job profiles, the 395-group menu, complete 776 ledger, active 402-group
 reader, report, builder and validator. Next consolidate R121-R133 into a new
 single current ten-page edition and pocket manual.
 
+## Active hundred-thirty-fourth current ten-page edition
+
+R121-R133 are now consolidated into one current creative edition instead of a
+chain of overlays. It binds 173 master cards, 230 registered visible forms, all
+381 prose events, 116 complete prose statements, all 395 Astro groups, the
+complete 776-group ten-page ledger and four optional WHEN→WHAT→HOW work orders.
+
+The teachable economy is explicit: seventeen Herbal/Bio bridge cards plus 24
+frequent specialist cards cover 239 prose events. The remaining 132 exact
+cards cover 142 events and stay learned whole-card entries in eight practical
+drawers. The pocket manual teaches the two register orders, two bracket
+formulas, four hand habits, picture ownership and the rule that a physical
+line end is not a sentence end.
+
+The four jobs use all eleven prose records exactly once. Thirteen visible
+Astro choices activate 21 groups as optional WHEN conditions, while the other
+374 groups remain a local menu. No fixed orientation, cross-page key or
+written pointer is introduced. The leading content expansion remains an
+illustrated plant/preparation and therapeutic bathing compendium; a practical
+plant-material/bathhouse/astronomical-almanac reading remains the close rival.
+
+Primary files are in
+`sidequest_semantic_current_ten_page_edition_hundred_thirty_fourth/`, including
+the current 173-card dictionary, 230-form reverse key, 381-event and
+116-statement editions, 395-group Astro menu, 776-group ledger, four jobs,
+complete readable edition, pocket manual, report, builder and validator. Next
+compare the four job texts with concrete ca. 1400 recipe, balneological and
+workshop phrase orders, then revise only those short meanings for which a
+better period construction explains several cards at once.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
