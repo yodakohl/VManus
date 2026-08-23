@@ -312,6 +312,22 @@ three register splits. Active files are in
 paradigm, complete 487/776/258 layers, pocket codebook, report, builder and
 validator.
 
+## Active seventeenth complete edition
+
+The Astro-local `T` primitive now means **phase/place succession**. A single E
+serves as a bound selection hook only in the registered ES, EY and YETEY
+constructions; it remains distinct from the doubled EE long grade. This yields
+TEY current phase, YETEY selected current phase, D+CH+T+A+Y fixed current main
+phase-state, CH+T+OD+Y enter the current phase-state, ES selected secondary and
+EY current selection.
+
+Six groups leave the whole deck. The active balance is 751 full, zero partial
+and 25 learned-whole groups; surface types are 468 full, 16 whole and three
+register splits. Active files are in
+`sidequest_semantic_phase_selection_seventeenth_edition/`, led by the
+six-surface paradigm, complete 487/776/258 layers, pocket codebook, report,
+builder and validator.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
