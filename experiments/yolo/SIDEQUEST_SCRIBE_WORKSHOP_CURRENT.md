@@ -7388,9 +7388,17 @@ value, condition, relation, or path instruction. No fixed start, rotation, day
 order, or f68-to-f69 key is required. See
 `sidequest_semantic_manual_astro_instrument_edition_two_hundred_eighty_fourth/TWO_HUNDRED_EIGHTY_FOURTH_COMPLETE_ASTRO_EDITION.md`.
 
-Next, merge the manually polished Herbal, Bio, and Astro layers into one
-continuous ten-page workshop reading with all 258 prose statements/Astro loci
-and all 776 visible groups.
+Pass 285 joins all manually polished layers into one continuous ten-page
+reading. Nineteen Herbal statements, ninety-seven Bio statements and 142 Astro
+loci form 258 reading units covering all 776 visible groups. The leading scribe
+story is pictured plant preparation, local bath/wash/clarification practice and
+separate celestial choice instruments, all sharing the same source, target,
+sequence, portion, grade, path and fixed-value deck. See
+`sidequest_semantic_complete_ten_page_reading_two_hundred_eighty_fifth/TWO_HUNDRED_EIGHTY_FIFTH_COMPLETE_TEN_PAGE_READING.md`.
+
+Next, turn the current 36-family plus learned-sign inventory into a usable
+apprentice codebook and reverse-encode common workshop instructions. Retain a
+stem only when it predicts the observed card composition consistently.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
