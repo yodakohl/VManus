@@ -2024,6 +2024,30 @@ builder and validator. Next use the consolidated sheet to search for economical
 compound predictions: identify unseen but expected card combinations and give
 each a concrete workshop meaning before checking whether a surface form exists.
 
+## Active ninety-sixth compound prediction matrix
+
+The compact codebook now makes thirty-six forward predictions before consulting
+the fixed-page surface inventory. Twenty-seven predicted component combinations
+are visibly filled, eleven by more than one renderer form, eleven by a single
+clean form and five inside collision-sensitive whole-card families. Nine cells
+remain unfilled on the ten pages and therefore retain explicit predicted forms
+and short meanings rather than receiving post-hoc replacements.
+
+The strongest productive grid is `OK + AIIN/AIN/AL/AR/AIR/Y`, extended by
+`E/EE/EEE + Y/CLOSE`: it yields measure, portion, target, source and running-
+liquid instructions plus short, prolonged and complete execution. Directional
+`CHD + AL/AR`, ordered `OL/OT + OR`, and selected `CKH/SHED/SOLK/CHEO/HO/TY`
+combinations add narrower support. No compound is allowed to acquire a rich
+material noun beyond the values of its components, and ambiguous CHD/CKH/SHED/Y
+surfaces remain checked as registered whole cards.
+
+Active files are in
+`sidequest_semantic_compound_predictions_ninety_sixth_edition/`, led by
+`NINETY_SIXTH_COMPOUND_REPORT.md`, with all thirty-six predictions, forty-six
+observed surface matches, nine unfilled cells, builder and validator. Next turn
+the full component inventory into a rectangular paradigm chart, distinguishing
+productive gaps from combinations blocked by allography or learned whole cards.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
