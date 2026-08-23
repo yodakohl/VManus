@@ -869,6 +869,27 @@ Active files are in
 four-hand copies, report, builder and consistency checker. This is the current
 demonstration that the proposed mixed script can be written as well as read.
 
+## Active forty-third small-nomenclator edition
+
+The remaining special prose surfaces now fit a compact learned deck. Eighteen
+technical-body surfaces, two whole cards and three register splits—23 surfaces
+and 34 visible groups altogether—collapse to twelve learned values plus three
+homograph lessons. The learned values include wring, second pass, divide,
+input item, previous item, wash cycle, pour out and apply; `DL` remains a local
+additive and `TALAM` a whole command to store at the target.
+
+The reading order is explicit: identify the longest learned body or whole card
+first, then append only licensed arguments such as Y, AR, OL, OT or CLOSE.
+Letters inside the learned body receive no independent meaning. The three
+register splits remain `dain` (Prose cloth / Astro portion), `ody` (Prose cool /
+Astro mark-current) and `os` (Prose vessel / Astro field).
+
+Active files are in
+`sidequest_semantic_nomenclator_forty_third_edition/`, led by
+`FORTY_THIRD_SMALL_NOMENCLATOR.md`, with fifteen lessons, all 23 special
+surfaces, report, builder and consistency checker. This is the current minimum
+memorized exception deck beneath the productive grammar.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
