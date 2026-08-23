@@ -3077,6 +3077,23 @@ ten mould definitions, complete 116-statement assignment, phrasebook, report,
 builder and validator. Next write one apprenticeship lesson per mould and
 perform an owner substitution while preserving the exact clause mould.
 
+## Active hundred-forty-second owner-substitution lessons
+
+One real statement from each of the ten moulds was copied under a different
+visible owner on the fixed pages. The master sequence stays unchanged; the
+owner supplies plant, basin, batch, station, target or instrument. Four hand
+renderings of every lesson give 40 reversible visible copies.
+
+The most natural transfers are H3's filter sequence to the f55v plant
+preparation, B3's paired-measure frame to the two f10r preparation portions,
+and H5's application mould to the visible f83r cloth scene. Even the local
+exact cell changes only owner, never its learned internal value.
+
+Files are in `sidequest_semantic_ten_apprentice_lessons_hundred_forty_second/`:
+ten lessons, 40 copies, apprenticeship handbook, report, builder and
+validator. Next place literal and fluent readings side by side and label every
+inserted noun as picture owner, inherited register, or card content.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
