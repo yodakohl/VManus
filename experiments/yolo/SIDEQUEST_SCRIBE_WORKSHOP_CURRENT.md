@@ -7136,8 +7136,14 @@ closes. Wet contact, ingredient, vessel and cooling remain local expansions,
 not root meanings. See
 `sidequest_semantic_astro_native_card_values_two_hundred_forty_eighth/TWO_HUNDRED_FORTY_EIGHTH_READABLE_DIAGRAM_DICTIONARY.md`.
 
-Next, apply these five portable-core corrections to all 381 prose events and
-rewrite every affected statement with core and local expansion separated.
+Pass 249 applies those revisions to all 381 prose events. Only fifteen events
+in fourteen statements change portable core; all complete local readings stay
+intact. Each affected statement is now written twice: a compact card-core chain
+and its plant/bath/station expansion. See
+`sidequest_semantic_cross_register_feedback_two_hundred_forty_ninth/TWO_HUNDRED_FORTY_NINTH_READABLE_CORE_AND_LOCAL.md`.
+
+Next, build a new complete 776-group ten-page working edition with the revised
+173-card dictionary, 116 prose statements and 142 diagram-locus readings.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
