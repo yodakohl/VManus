@@ -7161,8 +7161,14 @@ in six cards and fifteen events; AN marks the second/alternate portion once.
 DAIN and SOTODAN remain two whole-card lookalikes. See
 `sidequest_semantic_quantity_endings_two_hundred_fifty_second/TWO_HUNDRED_FIFTY_SECOND_READABLE_QUANTITY_LESSON.md`.
 
-Next, project the three quantity endings onto the Astro pages and see whether
-diagram-local uses preserve the value/portion distinction.
+Pass 253 projects the paradigm onto Astro. Eleven AIIN groups remain
+Sollwert/Grad, one AIN compound adds a counted part-value, and DAIN remains a
+nonquantity covering/carrier card. AN does not occur in Astro and remains the
+weakest single-Prosa grade. See
+`sidequest_semantic_astro_quantity_projection_two_hundred_fifty_third/TWO_HUNDRED_FIFTY_THIRD_READABLE_ASTRO_QUANTITY.md`.
+
+Next, build the full AR/AL/OL/OT/OR/Y relation-and-reference paradigm across
+all prose cards and the matching Astro groups.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
