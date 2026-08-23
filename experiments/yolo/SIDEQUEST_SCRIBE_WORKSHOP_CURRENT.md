@@ -1619,6 +1619,28 @@ Active files are in
 forward-and-backward apprentice readings on one Herbal, one Biological and
 one Astro unit using only these licenses and the selected source lexicon.
 
+## Active seventy-eighth apprentice roundtrip
+
+Three complete teaching tracks now exercise the whole proposed system: H3 on
+f11r with 17 groups, B2 on f82r with 62 groups and A3 on f69v with 140 groups.
+Together they cover 219 visible groups, all 26 selected H3/B2 statements and
+all 31 A3 loci without skipping an awkward group.
+
+The teachable sequence is: recognize or copy the visible card/group, retain
+the picture owner or local diagram namespace, open only the source slots that
+the card and unit permit, and speak the controlled action. In reverse, the
+address and exemplar recover the exact form. The short cards alone do not
+recover the particular plant material, bath content or celestial lookup value;
+those are intentionally supplied by owner and local source program.
+
+Active files are in
+`sidequest_semantic_apprentice_roundtrip_seventy_eighth_edition/`, led by
+`SEVENTY_EIGHTH_COMPLETE_APPRENTICE_WALKTHROUGHS.md`, with the 219-group trace,
+57 statement/locus readings, three track summaries, report, builder and
+validator. Next model four scribal hands applying this same small system, so
+renderer habits may vary while the selected source and card meanings stay
+unchanged.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
