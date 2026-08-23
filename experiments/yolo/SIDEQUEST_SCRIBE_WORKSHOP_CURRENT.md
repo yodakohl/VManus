@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-23, after deriving a portable component language from the common-card lexicon.
+Updated: 2026-08-23, after extending the component language over the local process cards.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -18,6 +18,35 @@ Exactly ten pages are in scope:
 
 `f84` and `f84r` remain sealed. ZL3b, IT2a and RF1b are alternate readings of
 one manuscript. No additional page, image or semantic corpus was admitted.
+
+## Active second-ring workshop grammar
+
+Fourteen additional concrete workshop atoms now cover substance, state and
+path: `SHED` settle, `L` lead out, `CTH` ready, `CKH` conduct, `CKHE` strain,
+`CHK` warm, `SOLK` collect, `WASH` wash, `IIN` stage, `TY` part, `AIR` water
+run, `CHEO` extract, `P` lead in, and `PARTITION` divide. These cores compose
+64 previously local card types. Fifteen further cards need no new atom at all;
+they are known components inside a local frame, such as `qokol=OK+OL`,
+`ykan=Y+AIN`, `tshol=HO+L`, and `chedchy=CHD+Y`.
+
+The combined first and second rings now compose 154 of 173 prose master cards
+and 360 of 381 prose events. Only nineteen exact card types with twenty-one
+events remain learned local whole words, carrying concrete defaults such as
+root, additive, vessel, wring, re-strain, apply, fasten, cool, pour, store, and
+fill. With the 89 shared diagram labels, 449 of all 776 visible groups now have
+a common atom sequence.
+
+The strongest new paradigms are short/long settling, warming and collecting;
+open, target-directed and short conduction; straining versus leading out and
+straining; complete outward transfer paths; and water-run and extract rows.
+Four passages (`H1-S001`, `B2-S005`, `B2-S016`, `B3-S034`) are rewritten
+card by card with the extended grammar.
+
+Active files are in `sidequest_semantic_second_ring_grammar/`, led by
+`SECOND_RING_GRAMMAR_REPORT.md`, the fourteen-atom sheet, 79-card second-ring
+composition table, nineteen-card local nomenclator, complete 173-card,
+381-event and 776-group readers, four rewritten passages, pocket card, builder,
+and validator.
 
 ## Active portable component language
 
