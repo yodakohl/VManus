@@ -3865,6 +3865,25 @@ traces, apprentice manual, report, builder and validator. Next pressure-test
 the same six slots against all 116 existing prose statements and add a seventh
 slot only if a real statement cannot be expressed without it.
 
+## Active hundred-eighty-first six-slot pressure test
+
+All 381 events, 135 fields and 116 existing prose statements fit the same six
+semantic slots; no seventh slot is needed. The simple arrow order is revised
+into micro-work packets. A field may reopen source or portion after an action
+while retaining the active batch, target and station registers.
+
+There are 169 micro-packets in total. Of 135 fields, 107 need one packet, 24
+need two, two need three and two need four. Thirty-four source/portion reopens
+and thirteen target-before-operation orders account for the apparent disorder.
+All 89 close roles remain field-final. The revised machine therefore keeps the
+six semantic slots and adds only a nonlexical `REOPEN_MICRO_PACKET` control.
+
+Files are in `sidequest_semantic_six_slot_pressure_test_hundred_eighty_first/`:
+complete 381-event, 135-field and 116-statement parses, all 34 packet restarts,
+five revised grammar rules, pocket grammar, report, builder and validator. Next
+write a third long instruction that deliberately reopens source or portion
+inside one field, then roundtrip it without adding a card or meaning.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
