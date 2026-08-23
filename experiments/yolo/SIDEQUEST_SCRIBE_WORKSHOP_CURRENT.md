@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-23, after consolidating portion, measure and stage settings.
+Updated: 2026-08-23, after consolidating the reference and continuity layer.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -19,7 +19,52 @@ Exactly ten pages are in scope:
 `f84` and `f84r` remain sealed. ZL3b, IT2a and RF1b are alternate readings of
 one manuscript. No additional page, image or semantic corpus was admitted.
 
-## Active parameter/setting working edition
+## Active reference/continuity working edition
+
+The workshop now needs only five productive pointers to keep an instruction
+alive across cards, cells and physical lines:
+
+```text
+Y / CHY    THIS ITEM
+AR         FROM IT / FROM THERE
+AL         THERE / TO THE TARGET
+OL         CONTINUE THE SAME OPERATION
+OT         ADVANCE TO THE NEXT OPERATION OR ITEM
+```
+
+This makes the compounds predictable without turning them into sentence-sized
+dictionary entries. `OK+AR` is “set from it”, `OK+AL` is “set there”,
+`OT+AR` is “then from there”, `OT+AL` is “then there”, `OL+AIN` is a further
+portion in the same run, and `OT+AIIN` is the target measure for the following
+run. In this working theory `OL` is continuation, not the semantic words AND
+or OR.
+
+Two learned reference cards supplement the productive layer.
+`DCHOL|SCHOL=PREVIOUS ITEM` retrieves material established in the immediately
+preceding Herbal instruction; `LDALOR=FINAL TARGET` closes the last B6 route.
+`OLSALY` is the lower target, `OTEEY` the long next item, and `OTAR` has been
+repaired from an invented object (“next outlet”) to the compositional command
+“then from there”. Bare `Y` is shortened from “this working item” to the more
+portable “this item”.
+
+An apprentice therefore keeps four small registers: pictured owner, current
+item, active source/target, and same-versus-next operation. The picture or
+previous cell supplies nouns that the compact cards do not repeat. *Hoc*, *ex
+eo*, *ad*, *prosequere* and *sequens* are useful period-style teaching glosses,
+not proposed Voynich plaintext.
+
+This pass changes six cards across 25 occurrences and rewrites seven affected
+instructions while preserving the complete 173-card, 381-event,
+116-instruction and eleven-record reading. The active files are in
+`sidequest_semantic_reference_continuity_completion/`, led by
+`REFERENCE_CONTINUITY_REPORT.md`, `REFERENCE_CONTINUITY_REGISTER.tsv`,
+`REFERENCE_CONTINUITY_PARADIGM.tsv`,
+`SELECTED_173_REFERENCE_CONTINUITY_DICTIONARY.tsv`,
+`SELECTED_381_REFERENCE_CONTINUITY_INTERLINEAR.tsv`,
+`SELECTED_116_REFERENCE_CONTINUITY_SENTENCES.tsv`, and
+`SELECTED_11_REFERENCE_CONTINUITY_RECORDS.md`.
+
+## Previous parameter/setting working edition
 
 The workshop now distinguishes three similar-looking but semantically stable
 cores:
