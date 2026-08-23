@@ -7110,8 +7110,14 @@ shared grammar; the true whole-operation additions are cold-set, follow-up
 application, apply, cool, wring and strain-again. See
 `sidequest_semantic_herbal_operation_decomposition_two_hundred_forty_fourth/TWO_HUNDRED_FORTY_FOURTH_READABLE_OPERATION_LESSON.md`.
 
-Next, decompose the 24 local Herbal noun cards into productive quantity,
-preparation, source, target and ingredient compounds versus true learned nouns.
+Pass 245 decomposes the 24 local noun cards into eight full compounds, eight
+known frames with a learned noun core, and eight whole nouns. Thirteen learned
+content cores suffice for all 28 noun occurrences; productive forms include
+OR+AIN, OT+OR, CHEO+AR, CHO+AIIN, CHO+OR, CHO+Y and CHO+AL+Y. See
+`sidequest_semantic_herbal_noun_decomposition_two_hundred_forty_fifth/TWO_HUNDRED_FORTY_FIFTH_READABLE_NOUN_LESSON.md`.
+
+Next, consolidate the four Herbal pages into a final apprentice lesson: the
+shared core plus the minimum learned noun and operation cores.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
