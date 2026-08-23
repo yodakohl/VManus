@@ -3537,8 +3537,30 @@ Files are in
 `sidequest_semantic_master_day_workflow_hundred_sixty_third/`: complete
 79-event interlinear, 26 translated clauses, six phases, readable workday,
 report, builder and validator. Next pressure this vocabulary against the other
-three Herbal and five Biological records and revise only whole-card values
+four Herbal and five Biological records and revise only whole-card values
 that create clear process contradictions.
+
+## Active hundred-sixty-fourth process-pressure current base
+
+The other ninety prose clauses were read against the extract-to-station chain.
+Seventy-six remain directly compatible; eleven retain workable operations under
+an unresolved B3 image owner. Three clauses expose one over-literal shared
+card: `shckhedy` had been called `seihen; Schluss` despite occurring only in
+Bio, including two immediate repetitions under one visible main pair without a
+drawn filter cloth.
+
+Its new atomic value is `durchlassen; Schluss`. Filtration remains a possible
+local expansion when a visible owner or neighbouring learned card supplies a
+filter, but it is no longer smuggled into the shared word. Exactly one of 173
+cards and three of 381 events change. The complete 230-form, 116-clause,
+eleven-record, 395-Astro and 776-group edition has been rebuilt around it.
+
+Files are in
+`sidequest_semantic_process_pressure_current_hundred_sixty_fourth/`: complete
+revised base, ninety-clause pressure table, one-card revision, readable edition,
+pocket manual, report, builder and validator. Next rewrite the affected B1 and
+B4 passages and decide whether the doubled B4 `shckhedy` is two stages, two
+channels or intentional repeated passage.
 
 ## Active surface compiler
 
