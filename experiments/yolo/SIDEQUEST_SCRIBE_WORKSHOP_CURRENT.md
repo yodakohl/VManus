@@ -2524,6 +2524,27 @@ deck, revised 173-card teaching dictionary, builder and validator. Next build a
 minimal writing exercise that uses only these seventeen portable cards and
 measure which complete statements can be expressed without a sectional tablet.
 
+## Active hundred-seventeenth minimal-deck exercises
+
+The seventeen-card deck alone fully writes only three of the 116 observed
+statements: B1-S021 (`chal`), B3-S009 (`qoky`) and B4-S010 (`oldy`). Fifty-four
+more statements contain a portable skeleton and 59 contain no exact portable
+card. At event level the deck covers 136 of 381 cards.
+
+This fixes the deck's role: it is a shared control and argument inventory, not
+the content lexicon. Sectional cards and specialist tablets carry the bulk of
+the actual preparation, bath and Herbal instructions. Twelve concrete exercises
+show that the deck is nevertheless productive, including `chey aiin chey` for
+two items under one prescribed measure and `chety al chdy` for dividing a part
+and transferring it at the target.
+
+Active files are in
+`sidequest_semantic_minimal_deck_exercises_hundred_seventeenth_edition/`, led by
+`HUNDRED_SEVENTEENTH_MINIMAL_DECK_REPORT.md`, with all 116 coverage rows, eleven
+record summaries, twelve three-hand exercises, builder and validator. Next use
+the sectional-card split to construct the smallest separate Herbal and
+Biological extension decks that complete every observed prose statement.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
