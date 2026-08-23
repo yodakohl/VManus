@@ -2390,6 +2390,29 @@ pocket, 230-surface index, 116 current statements, builder and validator. Next
 use this consolidated basis to search for repeated multi-card phrases whose
 meaning can be shortened into reusable workshop formulae.
 
+## Active hundred-eleventh recurrent formulae
+
+Ten short multi-card formulae now compress 22 nonoverlapping occurrences in
+twenty statements. The strongest is `OL + SHED+E+CLOSE`, occurring four times
+as “continue, let settle briefly, close.” Other useful formulae encode current
+preparation, transferred-item continuation, long-then-short execution,
+next-continuation, additional portion to target and previous-preparation
+continuation.
+
+Most importantly, `Y–AIIN–Y` occurs once in Herbal and once in Biological. The
+best current workshop reading is **“put two items under the same prescribed
+measure.”** This revives the old equal-measure intuition at the correct level:
+it is a registered three-card frame, not the lexical meaning of `AIIN` and not
+a phonetic claim. Shorter `Y–AIIN` and `AIIN–Y` frames remain directional
+item/measure attachment formulae when the triple is absent.
+
+Active files are in
+`sidequest_semantic_recurrent_formulae_hundred_eleventh_edition/`, led by
+`HUNDRED_ELEVENTH_RECURRENT_FORMULA_REPORT.md`, with ten formulae, 22
+occurrences, all 116 annotated statements, builder and validator. Next use the
+ten formulae to predict a small set of unattested but useful card sequences and
+see which existing statements realize the same meanings with different order.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
