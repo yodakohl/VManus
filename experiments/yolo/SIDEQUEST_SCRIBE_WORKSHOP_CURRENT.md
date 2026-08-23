@@ -912,6 +912,28 @@ the final examination, report, builder and consistency checker. This is the
 current concrete answer to how several circa-1420 workshop hands could learn
 the proposed system.
 
+## Active forty-fifth integrated human edition
+
+The complete fixed ten-page reading is now collected in one human document.
+Its 258 reading units cover all 776 visible groups: 116 prose statements/381
+groups and 142 celestial loci/395 groups. Every prose unit prints surface,
+atom sequence, concise workshop reading and fully explicit four-slot expansion;
+every celestial locus prints its local address, card values and spoken
+instrument instruction.
+
+The page boundary is retained in the reading mode. f10r through f83r are spoken
+in record order, while f67r2, f68r1 and f69v are addressed locally and never
+forced into linear prose. Nine active teaching layers are linked by path and
+hash: dictionary, Astro modules, process macros, memory slate, explicit prose,
+error rules, forward commands, small nomenclator and apprentice curriculum.
+
+Active files are in
+`sidequest_semantic_complete_human_forty_fifth_edition/`, led by
+`FORTY_FIFTH_COMPLETE_TEN_PAGE_HUMAN_EDITION.md`, with the 258-unit table,
+ten-page summary, teaching-kit map, report, builder and consistency checker.
+This is the preferred complete readable edition after the memory and
+nomenclator refinements.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
