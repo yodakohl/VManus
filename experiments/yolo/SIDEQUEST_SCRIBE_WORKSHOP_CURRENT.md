@@ -956,6 +956,25 @@ Active files are in
 expansions, report, builder and consistency checker. This is the current full
 owner-expansion boundary for the common dictionary.
 
+## Active forty-seventh finite slot-lattice edition
+
+Twelve operation bases are now crossed with twelve recurrent endings in one
+fixed 12×12 word-building table. Fifty-five of the 144 exact atom sequences are
+already observed and cover 179 visible groups. Eighty-nine cells are empty but
+immediately speakable from base and ending.
+
+The 24 empty cells with the strongest row/column analogy receive a fixed short
+reading before any surface is chosen. They include OK+CLOSE set-and-close,
+OT+E+Y following-item briefly, SHED+Y settle-current, SOLK+Y collect-current,
+and CHD+EE+CLOSE transfer-longer-and-close. Each is expanded under five owners,
+giving 120 concrete predictions, while no Voynich spelling is invented.
+
+Active files are in
+`sidequest_semantic_slot_lattice_forty_seventh_edition/`, led by
+`FORTY_SEVENTH_SLOT_LATTICE_BOOK.md`, with all 144 cells, the 24 ranked empty
+cells, 120 owner predictions, report, builder and consistency checker. This is
+the current finite productive word-composition machine.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
