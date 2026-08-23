@@ -3602,6 +3602,26 @@ Files are in
 report, builder and validator. Next join B4-S004–S016 and compare it directly
 with H3→B2: second application recipe versus apparatus-maintenance procedure.
 
+## Active hundred-sixty-seventh B4 treatment charge
+
+B4-S004–S016 now form one complete 36-event, thirteen-clause procedure. Ten
+exact cards recur in both B2 and B4: long exposure, portion addition, insertion,
+target measure, clear extract, current item, settling, placement and drainage.
+`Sollmaß`, `Klarauszug` and `dies` also recur in H3.
+
+A pure second therapy recipe explains product and figures but underplays the
+insert and double pass. Pure maintenance explains the apparatus but underplays
+measured clear extract and target application. The current combined reading is
+therefore **a treatment charge prepared through local apparatus and delivered
+to target stations**. This is one concrete purpose, not a semantic hedge.
+
+Files are in
+`sidequest_semantic_b4_charge_through_apparatus_hundred_sixty_seventh/`:
+complete 36-event and thirteen-clause procedure, ten exact B2/B4 card bridges,
+three purpose models, readable edition, report, builder and validator. Next
+nominate one of the four fixed Herbal articles as the best source for this B4
+charge, with one strong rival.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
