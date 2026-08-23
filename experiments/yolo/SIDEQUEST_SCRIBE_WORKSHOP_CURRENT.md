@@ -379,6 +379,24 @@ whole-group readings. Active files are in
 codebook, report, builder and validator. This is the best complete reading
 surface; the nineteenth edition remains its compositional source.
 
+## Active twenty-first owner-filled edition
+
+All 116 prose statements now bind the current literal card sequence to an
+existing selected image owner. Nineteen Herbal statements inherit one of five
+whole illustrated plants; 97 Biological statements inherit a local basin,
+figure or station. Each row preserves the current surface and atom reading,
+then supplies a concrete practical image expansion and a short technical
+rival. Four genuine within-statement owner changes remain explicit rather than
+being smoothed into one machine or sentence subject.
+
+The full edition joins those owner-filled prose statements to the 142 current
+Astro loci. Active files are in
+`sidequest_semantic_owner_filled_twenty_first_edition/`, led by
+`COMPLETE_TEN_PAGE_OWNER_FILLED_TWENTY_FIRST_EDITION.md` and
+`ELEVEN_OWNER_FILLED_PROSE_RECORDS.md`, with the 116-row binding, owner summary,
+report, builder and validator. This is the most concrete image-aware reading;
+the twentieth edition remains the best strict stem alignment.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
