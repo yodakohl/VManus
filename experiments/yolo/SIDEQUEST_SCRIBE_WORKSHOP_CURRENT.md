@@ -3223,6 +3223,26 @@ teaching edition, report, builder and validator. Next give the five Herbal
 records the same owner-first G/L recitation while keeping the plant identity
 in the picture layer.
 
+## Active hundred-forty-ninth Herbal apprentice recitation
+
+All 100 Herbal events and 19 statements now use the same owner-first teaching
+method. Twenty-one shared card types speak 55 events; 45 local whole-card types
+speak the remaining 45. Each record points once to its whole drawn plant. The
+plant is the silent article owner, not a decoded species name.
+
+The recitation therefore does not automatically add species, root, leaf,
+flower, water, wine, oil, disease, body part, exact dose or use. Those belong
+only when a learned local card or a separate owner expansion supplies them.
+Herbal emerges as almost half nomenclator, while Biological is more strongly
+carried by the shared action deck—an economical division for one workshop.
+
+Files are in
+`sidequest_semantic_herbal_apprentice_recitation_hundred_forty_ninth/`:
+complete 100-event and 19-statement recitations, five record summaries,
+continuous teaching edition, report, builder and validator. Next join all
+eleven prose records into one owner-first source book and test which statement
+boundaries should sound like continuations rather than fresh sentences.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
