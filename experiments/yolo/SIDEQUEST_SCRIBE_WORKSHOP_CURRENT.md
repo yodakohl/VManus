@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-23, after consolidating the reference and continuity layer.
+Updated: 2026-08-23, after consolidating the work-cell closure layer.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -19,7 +19,53 @@ Exactly ten pages are in scope:
 `f84` and `f84r` remain sealed. ZL3b, IT2a and RF1b are alternate readings of
 one manuscript. No additional page, image or semantic corpus was admitted.
 
-## Active reference/continuity working edition
+## Active work-cell closure edition
+
+The current workshop manual separates three endings which earlier German
+readings often collapsed into the verb “close”:
+
+```text
+EXACT TERMINAL CARD   perform action; commit the local work cell
+NO TERMINAL CARD      hand the active operation to the next cell
+RECORD END            release every active register
+PHYSICAL LINE END     only reset the pen; preserve every register
+```
+
+Across the 116 instructions this yields 89 committed cells, 19 open handoffs
+and eight record releases. Eighteen instructions cross a physical line; 15
+later receive a terminal card, while H5-S001, B5-S003 and B6-S001 remain open
+across the line. Thus a statement can continue beyond a physical line exactly
+as assumed during the early sidequest.
+
+The close deck contains 37 exact cards and 89 occurrences. Twenty-three card
+types/71 occurrences fall into six compact teaching families: graded SET,
+TRANSFER, SETTLE, STRAIN, CONTINUE and NEXT closures. Fourteen rare types/18
+occurrences remain learned specialist endings such as cool, swivel, wash,
+withdraw, apply, rewash, fasten and close-water-run.
+
+Visible spelling alone is insufficient. Of 105 displayed groups ending in
+`dy`, 89 are terminal and 16 are open. The 16 counterforms are exactly five
+instances of the card THIS ITEM rendered `dy` and eleven instances of the open
+TRANSFER card rendered `chdy|chedy`. A scribe therefore learns terminal whole
+cards or licensed terminal rows, not the rule “every `-dy` closes”.
+
+This also distinguishes an apparatus action from a cell commit. B2-S014 says
+“close the bottom drain” but hands the operation onward without a terminal
+card; B4-S014 closes the water run and additionally commits its cell. Record
+layout supplies a third, independent release.
+
+The complete current edition remains 173 cards, 381 events, 116 instructions
+and eleven records. Its editorial marks are `[ZELLE ZU]`, `[WEITER]` and
+`[RECORD ENDE]`; they are reading aids, not proposed manuscript signs. Active
+files are in `sidequest_semantic_step_closure_completion/`, led by
+`STEP_CLOSURE_REPORT.md`, `STEP_CLOSURE_DECK.tsv`, `STATEMENT_ENDINGS.tsv`,
+`LINE_CARRY.tsv`, `OPEN_DY_COUNTERCARDS.tsv`,
+`SELECTED_173_STEP_CLOSURE_DICTIONARY.tsv`,
+`SELECTED_381_STEP_CLOSURE_INTERLINEAR.tsv`,
+`SELECTED_116_STEP_CLOSURE_SENTENCES.tsv`, and
+`SELECTED_11_STEP_CLOSURE_RECORDS.md`.
+
+## Previous reference/continuity working edition
 
 The workshop now needs only five productive pointers to keep an instruction
 alive across cards, cells and physical lines:

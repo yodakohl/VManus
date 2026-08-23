@@ -1,0 +1,61 @@
+{
+  "checks": {
+    "all_cards_readable": true,
+    "all_events_readable": true,
+    "cards_173": true,
+    "close_always_final": true,
+    "close_card_types_37": true,
+    "close_events_89": true,
+    "committed_statements_89": true,
+    "event_dictionary_match": true,
+    "events_381": true,
+    "line_carries_18": true,
+    "no_double_close": true,
+    "only_fixed_pages": true,
+    "open_dy_counterevents_16": true,
+    "open_handoffs_19": true,
+    "record_releases_8": true,
+    "records_11": true,
+    "sealed_absent": true,
+    "sentences_116": true
+  },
+  "counts": {
+    "cards": 173,
+    "close_card_types": 37,
+    "close_events": 89,
+    "closure_family_card_types": {
+      "CONTINUE_CLOSE": 3,
+      "GRADED_SET_CLOSE": 3,
+      "LEARNED_SPECIALIST_CLOSE": 14,
+      "NEXT_CLOSE": 4,
+      "SETTLE_CLOSE": 3,
+      "STRAIN_CLOSE": 2,
+      "TRANSFER_CLOSE": 8
+    },
+    "closure_family_events": {
+      "CONTINUE_CLOSE": 6,
+      "GRADED_SET_CLOSE": 19,
+      "LEARNED_SPECIALIST_CLOSE": 18,
+      "NEXT_CLOSE": 7,
+      "SETTLE_CLOSE": 14,
+      "STRAIN_CLOSE": 4,
+      "TRANSFER_CLOSE": 21
+    },
+    "ending_classes": {
+      "COMMIT_CELL": 89,
+      "HANDOFF_OPEN": 19,
+      "RELEASE_RECORD": 8
+    },
+    "events": 381,
+    "line_carries": 18,
+    "open_dy_counterevents": 16,
+    "records": 11,
+    "sentences": 116
+  },
+  "sealed": {
+    "f84": true,
+    "f84r": true
+  },
+  "status": "PASS",
+  "workshop_rule": "COMMIT CELL / HAND OFF OPEN / RELEASE RECORD; PHYSICAL LINE BREAK DOES NOTHING"
+}
