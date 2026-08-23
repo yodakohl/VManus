@@ -7155,8 +7155,14 @@ portion. No reusable concrete component formula now has two portable cores.
 See
 `sidequest_semantic_component_equations_two_hundred_fifty_first/TWO_HUNDRED_FIFTY_FIRST_READABLE_ROOT_EQUATIONS.md`.
 
-Next, expand AIN/AN/AIIN into a complete quantity-ending paradigm across all
-173 cards and separate true quantity compounds from spelling lookalikes.
+Pass 252 expands that result into a full quantity lesson. AIIN marks a
+prescribed/target value in ten cards and 39 events; AIN marks a bounded portion
+in six cards and fifteen events; AN marks the second/alternate portion once.
+DAIN and SOTODAN remain two whole-card lookalikes. See
+`sidequest_semantic_quantity_endings_two_hundred_fifty_second/TWO_HUNDRED_FIFTY_SECOND_READABLE_QUANTITY_LESSON.md`.
+
+Next, project the three quantity endings onto the Astro pages and see whether
+diagram-local uses preserve the value/portion distinction.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
