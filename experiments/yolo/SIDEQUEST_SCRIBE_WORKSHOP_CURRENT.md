@@ -1446,6 +1446,27 @@ fourteen-unit edition, 89 dictionary layers, 32-rule manual, report, builder and
 validator. Next pressure-test the consolidated content by reconstructing the
 same fourteen units from a deliberately different nonmedical workshop source.
 
+## Active seventieth nonmedical counterbook
+
+The same fourteen units and all 776 groups now have a coherent alternate master
+source without changing a surface, card, clause or owner. Herbal becomes plant
+material extraction, washing, dyeing, sizing or binding; Biological becomes
+washhouse, bathhouse, dyehouse and filter-station operation; Astro remains a
+general celestial work almanac.
+
+On a deliberately simple 0–5 content tally the medical/iatromedical edition is
+53 and the nonmedical workshop edition 55. The rival is strongest at H4, H5,
+B5 and B6. The medical reading is strongest where visible people, immersion or
+body-local application make the narrower interpretation natural. The writing
+system survives unchanged; the contested layer is the master-supplied content.
+
+Active files are in
+`sidequest_semantic_nonmedical_counterbook_seventieth_edition/`, led by
+`SEVENTIETH_COMPLETE_NONMEDICAL_COUNTERBOOK.md`, with fourteen dual units, the
+complete 776-group dual ledger, fourteen content discriminators, report,
+builder and validator. Next inspect the shared root/card vocabulary specifically
+for body-use versus material/station cues inside these fixed units.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
