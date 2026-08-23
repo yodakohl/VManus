@@ -1037,6 +1037,27 @@ Active files are in
 to rank which missing bare base or ending cards would unlock the most rejected
 commands at once.
 
+## Active fifty-first master-card request edition
+
+The 65 compiler rejections are now a concrete workshop procurement list.
+Twenty-five cells already have both bare cards and need only semantic admission
+as an analytic phrase. Thirty-two need exactly one missing bare card; eight need
+two. The complete missing inventory is four bases (`CHK`, `CKHE`, `SHED`,
+`SOLK`) and four endings (`CLOSE`, `E+CLOSE`, `E+Y`, `EE+CLOSE`).
+
+The best single master card is bare `CKHE = separate`, which immediately opens
+six rejected commands and shortens one licensed paraphrase. Bare `CHK` opens
+five and shortens two. Bare `E+CLOSE` and `EE+CLOSE` each open five more. The
+ranking names the needed function but proposes no visible Voynich surface.
+
+Active files are in
+`sidequest_semantic_master_card_requests_fifty_first_edition/`, led by
+`FIFTY_FIRST_MASTER_REQUEST_BOOK.md`, with eight ranked requests, all 65
+rejection triage rows, 25 meaning-only approvals, eight double-missing cells,
+report, builder and consistency checker. Next enumerate the tiny eight-card
+addition space and choose the best bounded teaching deck by unlocked commands
+per learned card.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
