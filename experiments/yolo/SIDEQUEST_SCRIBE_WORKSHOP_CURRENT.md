@@ -1146,6 +1146,29 @@ examples, report, builder and consistency checker. Next use only this pocket
 grammar and the hierarchical dictionary to produce a fresh complete ten-page
 reader and expose any place where the simplified system no longer carries.
 
+## Active fifty-sixth pocket-derived complete reader
+
+The full ten-page edition has been rebuilt as 776 visible groups in 258 reading
+units: 116 prose statements and 142 celestial loci. Every unit now separates
+surface sequence, card-by-card reading, fluent creative workshop reading, and
+the context layers needed for that fluency. Physical line ends remain outside
+the sentence grammar.
+
+The complete card order is readable under the 24-rule pocket grammar. Concrete
+plant parts, liquids, basins, cloths, targets and celestial positions still
+appear in the fluent edition, but are attributed to visible owner, memory,
+nomenclator or local diagram exemplar rather than being packed into a short
+root. Thus the richer WHAT/HOW/WHEN or material/bathhouse readings remain live
+without corrupting the compositional dictionary.
+
+Active files are in
+`sidequest_semantic_complete_reader_fifty_sixth_edition/`, led by
+`FIFTY_SIXTH_COMPLETE_TEN_PAGE_READER.md`, with complete 776-group and 258-unit
+tables, all 258 context dependencies, ten-page summary, report, builder and
+consistency checker. Next compare the fluent reading against the card-level
+reading sentence by sentence and isolate the smallest recurring owner-supplied
+content phrases that can be taught as picture conventions rather than words.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
