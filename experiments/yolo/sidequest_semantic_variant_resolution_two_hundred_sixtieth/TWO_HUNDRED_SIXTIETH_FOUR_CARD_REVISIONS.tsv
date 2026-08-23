@@ -1,0 +1,5 @@
+master_card_id	master_form	old_core_de	new_core_de	old_local_de	new_local_de	old_component_parse	new_component_parse	prose_event_count	contextual_reason
+MC005	okchedy	einführen; Schluss	vorigen Posten überführen; Schluss	einführen; Schluss	vorigen Posten überführen; Schluss	OK+CHED_TRANSFER+CLOSE	OK_SET+CHED_TRANSFER_PREVIOUS_ITEM+CLOSE	2	both occurrences follow an explicitly named part or withdrawal
+MC053	otol	DANACH_WEITER	danach im selben Gang weiter	anschließend fortsetzen	danach im selben Gang weiter	OT + OL	OT_FOLLOW+OL_CONTINUE_WITHIN_ACTIVE_SEQUENCE	1	bare OT+OL follows an already explicit batch sequence
+MC088	qokchdy	einführen; Schluss	neuen Posten einsetzen; Schluss	einführen; Schluss	neuen Posten einsetzen; Schluss	OK+CHD_TRANSFER+CLOSE	Q_FRAME+OK_SET+CHD_NEW_ENTRY+CLOSE	3	all three occurrences are one-card statements opening a fresh local entry
+MC163	qotchol	DANACH_WEITER	zum Folgegang wechseln	den Folgegang fortsetzen	zum Folgegang wechseln	OT + OL	Q_FRAME+OT_FOLLOW+OL_CONTINUE_NEW_TRACK	1	q-framed OT+OL selects a following track before a separate continuation card

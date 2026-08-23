@@ -7210,8 +7210,16 @@ seven events/statements need a renderer or exemplar choice but retain the same
 working meaning. See
 `sidequest_semantic_reverse_workshop_compiler_two_hundred_fifty_ninth/TWO_HUNDRED_FIFTY_NINTH_READABLE_WRITING_MANUAL.md`.
 
-Next, inspect the seven residual variant contexts and decide whether the two
-card pairs are true allographs or encode small source-order distinctions.
+Pass 260 resolves both apparent equivalence sets by source order. OTOL means
+DANACH IM SELBEN GANG WEITER, while QOTCHOL changes to the Folgegang.
+OKCHEDY/QOKCHEDY follows an explicit left-hand item and transfers that previous
+item; QOKCHDY forms three one-card statements and inserts a new item. Four card
+types and seven contexts change, leaving 173 distinct short instructions for
+173 Masterkarten. See
+`sidequest_semantic_variant_resolution_two_hundred_sixtieth/TWO_HUNDRED_SIXTIETH_READABLE_VARIANT_LESSON.md`.
+
+Next, rebuild the reverse compiler with all 173 unique instructions and write
+one bidirectional source-to-card-to-source manual for every statement.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
