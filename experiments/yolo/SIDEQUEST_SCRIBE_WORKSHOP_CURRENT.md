@@ -3664,6 +3664,26 @@ historical source table, readable selected passage, report, builder and
 validator. Next write f11r/H3 and f83r/B4 as one fluent recipe and count every
 silent object that the picture or workshop exemplar must supply.
 
+## Active hundred-seventieth continuous wash recipe
+
+The selected f11r-to-f83r scenario is now written as one complete 53-event,
+seventeen-clause recipe: boil the blue-flowering astringent wash herb in water,
+press it through linen, let it settle, strain it again, measure the clear
+extract, charge a station insert twice, warm and divide the product, wash the
+target and rinse it with fresh water.
+
+Twelve silent workshop supplies make the fluent recipe possible. Most are
+licensed by picture or operation; four remain deliberately replaceable:
+water rather than wine, linen rather than another strainer, identity of the
+batch across the page handoff, and wound/irritation wash as the final purpose.
+No card value changed.
+
+Files are in
+`sidequest_semantic_continuous_wash_recipe_hundred_seventieth/`: complete
+53-event interlinear, seventeen-clause recipe, twelve-supply ledger, readable
+full recipe, report, builder and validator. Next assign f55v/H4 a distinct
+product class; it must not collapse into a redundant copy of f11r.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible

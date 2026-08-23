@@ -1,0 +1,18 @@
+sequence	statement_id	record_unit_id	recipe_phase	unchanged_atomic_chain_de	continuous_recipe_de	silent_supply_ids
+1	H3-S001	H3	MAKE_WASH_EXTRACT	Kochgut | Sudansatz | Auswringen | Stehzeit | Nachseihen | Klarauszug | Endzugabe; Schluss	Koche das bestimmte blau bluehende Waschkraut in Wasser. Druecke es durch ein Leinentuch aus, lass die Fluessigkeit im Gefaess stehen, seihe sie nochmals klar und gib den vorgesehenen Endzusatz bei.	A01|A02|A03|A04|A05|A06|A07
+2	H3-S002	H3	RESERVE_ADDITIVE	Zugabeteil	Lege einen weiteren Teil des vorgesehenen Zusatzes bereit.	A07
+3	H3-S003	H3	MEASURE_BATCH	vom vorigen | dies | Bearbeiten | dies | Sollmass	Nimm vom vorigen klaren Ansatz, arbeite diesen Anteil durch und bringe ihn auf das vorgeschriebene Mass.	A08
+4	H3-S004	H3	READY_BATCH	Folgeposten | Weiterverarbeitung | bereit | dies	Bereite auch den Folgeanteil fertig und halte den klaren Waschauszug fuer die Stationsarbeit bereit.	A08
+5	B4-S004	B4	PREPARE_STATION	Festsetzen; Schluss	Fixiere die Waschstation fuer die betroffene Stelle.	A09|A10|A11
+6	B4-S005	B4	CHARGE_INSERT	Einlage | ueberfuehren | lange einwirken; Schluss	Setze die Leineneinlage ein, traenke sie mit dem vorbereiteten Auszug und lasse die Charge laenger darin einwirken.	A08|A09
+7	B4-S006	B4	FIRST_PASS	durchlassen; Schluss	Lasse den Auszug einmal durch die Einlage in das Aufnahmebecken laufen.	A09|A10
+8	B4-S007	B4	SECOND_PASS	durchlassen; Schluss	Fuehre denselben Auszug ein zweites Mal durch dieselbe Einlage.	A09|A10
+9	B4-S008	B4	HOLD_MEASURED_CHARGE	Sollmass | laenger bearbeiten | Langhalt | kurz einwirken; Schluss	Bemiss den doppelt durchgelassenen Auszug, halte ihn in der Arbeitsstation und lasse ihn kurz auf die Einlage einwirken.	A08|A09
+10	B4-S009	B4	SETTLE	kurz absetzen; Schluss	Lass den behandelten Auszug kurz im Becken absetzen.	A05
+11	B4-S010	B4	MARK_READY	fertig	Markiere die geklaerte Waschcharge als fertig.	A08
+12	B4-S011	B4	WARM_AND_DRAW_LEFT	Sollmass | kurz waermen | Langfortsetzung | Anteil zugeben | ueberfuehren | weiter | Kurzabzug; Schluss	Bemiss an der linken Unterlaufstation eine Teilmenge, waerme sie kurz, gib den reservierten Zusatz bei und ziehe eine kleine Fraktion in das untere Gefaess ab.	A07|A10
+13	B4-S012	B4	DRAIN_LEFT	abfuehren; Schluss	Fuehre den verbleibenden Posten am linken Unterlauf ab.	A10
+14	B4-S013	B4	SETTLE_CONTINUATION	Weiter einsetzen | kurz absetzen; Schluss	Setze die Weiterfraktion in das naechste Becken und lass sie kurz absetzen.	A05|A10
+15	B4-S014	B4	SHORT_RUN	Ansatz | dies | Kurzdurchgang | Laufschluss	Fuehre diesen Ansatz durch den kurzen Lauf bis in den naechsten Empfaenger.	A10
+16	B4-S015	B4	APPLY_CLEAR_WASH	Anteil zugeben | Klarauszug | Anteil | Zielpassage | Kurzsammlung | abfuehren; Schluss	Gib an der rechten Station eine Portion Klarauszug zu, fuehre sie zur bezeichneten Koerperstelle, wasche die gereizte Stelle und lass die gebrauchte Fluessigkeit ablaufen.	A08|A10|A11|A12
+17	B4-S016	B4	FINAL_RINSE	weiterer Anteil | dorthin | Quellausguss | kurz absetzen; Schluss	Bringe einen weiteren Anteil an dieselbe Zielstelle, spuele mit frischem Wasser nach und lass den Ablauf kurz im letzten Becken stehen.	A02|A10|A11|A12
