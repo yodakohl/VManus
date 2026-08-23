@@ -7520,8 +7520,18 @@ compression saves only two of 381 cards; visible phrases primarily expose
 scope, not inefficient spelling. See
 `sidequest_semantic_statement_style_three_hundredth/THREE_HUNDREDTH_STATEMENT_STYLE_MANUAL.md`.
 
-Next, reconstruct card-end, workstep-end and statement-end scope across all 381
-events, including the 18 statements that cross physical lines.
+Pass 301 binds every prose event simultaneously to card, field, statement,
+record and physical-line scope. Of 105 visibly `...dy`-ending events, 89 commit
+and 16 do not; conversely, learned `talam` commits without `dy`. The 135 fields
+divide into 90 committed and 45 open, while the 116 statements divide into 90
+committed and 26 open. Eighteen statements contain nineteen physical-line
+crossings: fourteen ordinary continuations, four visible-owner resets and the
+single E180→E181 read-once copy. See
+`sidequest_semantic_endpoint_scope_three_hundred_first/THREE_HUNDRED_FIRST_SCOPE_MANUAL.md`.
+
+Next, typeset all 116 statements as a readable workshop edition whose commas,
+semicolons, owner-reset brackets and read-once mark follow semantic scope rather
+than physical lines.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
