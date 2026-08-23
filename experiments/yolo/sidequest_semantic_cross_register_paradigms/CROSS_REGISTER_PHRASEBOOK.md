@@ -1,0 +1,48 @@
+# Kleine registerübergreifende Werkstatt-Phrasebook
+
+Die linke Spalte ist der gemeinsame Kartenwert; die beiden Expansionen werden vom sichtbaren Besitzer geliefert.
+
+- `OK+AR` — **QUELLE AKTIVIEREN**
+  - Nasswerkstatt: QUELLE AKTIVIEREN.
+  - Himmels-/Kalendertafel: QUELLE AKTIVIEREN.
+  - Formen: `okar|okardy|okear|okodar|ytokar`.
+- `OK+AL` — **ZIEL AKTIVIEREN**
+  - Nasswerkstatt: ZIEL AKTIVIEREN.
+  - Himmels-/Kalendertafel: ZIEL AKTIVIEREN.
+  - Formen: `okeal|okeeodal|okeodal|okoaly|okodaly`.
+- `OK+OL` — **FORTSETZUNG AKTIVIEREN**
+  - Nasswerkstatt: FORTSETZUNG AKTIVIEREN.
+  - Himmels-/Kalendertafel: FORTSETZUNG AKTIVIEREN.
+  - Formen: `okol|okoldy`.
+- `OT+OL` — **ALS NÄCHSTES FORTSETZEN**
+  - Nasswerkstatt: ALS NÄCHSTES FORTSETZEN.
+  - Himmels-/Kalendertafel: ALS NÄCHSTES FORTSETZEN.
+  - Formen: `oteol|otoldos|otoly`.
+- `OT+OR` — **NÄCHSTER SATZ/ANSATZ**
+  - Nasswerkstatt: NÄCHSTER Ansatz.
+  - Himmels-/Kalendertafel: NÄCHSTER Wahlsatz.
+  - Formen: `otor|qoteor`.
+- `AL+AIIN` — **ZIELWERT**
+  - Nasswerkstatt: ZIELWERT.
+  - Himmels-/Kalendertafel: ZIELWERT.
+  - Formen: `alaiin|aldaiin`.
+- `AR+AL` — **VON QUELLE ZUM ZIEL**
+  - Nasswerkstatt: VON QUELLE ZUM ZIEL.
+  - Himmels-/Kalendertafel: VON QUELLE ZUM ZIEL.
+  - Formen: `saral`.
+- `OT+AR` — **NÄCHSTE QUELLE**
+  - Nasswerkstatt: NÄCHSTE QUELLE.
+  - Himmels-/Kalendertafel: NÄCHSTE QUELLE.
+  - Formen: `otoar|qotoear`.
+- `CHD+AIIN` — **ZUM SOLLWERT UMSETZEN**
+  - Nasswerkstatt: ZUM SOLLWERT UMSETZEN.
+  - Himmels-/Kalendertafel: ZUM SOLLWERT UMSETZEN.
+  - Formen: `chedaiin`.
+- `OL+AR` — **VON DER QUELLE WEITER**
+  - Nasswerkstatt: VON DER QUELLE WEITER.
+  - Himmels-/Kalendertafel: VON DER QUELLE WEITER.
+  - Formen: `olar`.
+- `OT+AIR` — **NÄCHSTER LAUF/NÄCHSTE BAHN**
+  - Nasswerkstatt: NÄCHSTER LAUF/NÄCHSTE BAHN.
+  - Himmels-/Kalendertafel: NÄCHSTER LAUF/NÄCHSTE BAHN.
+  - Formen: `qotair`.

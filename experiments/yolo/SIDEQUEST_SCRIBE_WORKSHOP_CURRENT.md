@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-23, after testing the prose surface compiler against all 395 Astro groups.
+Updated: 2026-08-23, after consolidating eight productive cross-register paradigms.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -114,6 +114,30 @@ Astro nomenclator material.
 Active files are in `sidequest_semantic_astro_surface_transfer/`, led by
 `ASTRO_SURFACE_TRANSFER_REPORT.md`, complete 395-group and 301-type parses,
 18-cell forward-hit table, multi-atom candidates, builder and validator.
+
+## Active cross-register paradigms
+
+The 53 new multi-atom Astro candidates have been separated into a productive
+core and learned local names. Eight sequences recur across multiple forms or
+owners and are now spoken compositionally: `OK+AR` source activate (five
+forms, nine occurrences, eight owners), `OK+AL` target activate (five forms),
+`OT+OL` next continue, `OT+OR` next set/batch, `OK+OL` activate continuation,
+`OT+AR` next source, `AL+AIIN` target value, and `AR+AL` source-to-target.
+Three single cells retain special forward-prediction status: `OL+AR`,
+`OT+AIR`, and `CHD+AIIN`.
+
+The common minimal stem dictionary is now deliberately shorter than either
+register's fluent prose: `AIR = RUN/COURSE`, `OR = SET/BATCH`, `AL/AR =
+TARGET/SOURCE`, `AIIN/IIN = PRESCRIBED VALUE/STAGE`, and `OK/OL/OT =
+ACTIVATE/CONTINUE/NEXT`. Image owner supplies watercourse versus celestial
+course, preparation versus table set, and physical versus diagram address.
+Residual `q/s/y/o/d/e...` material stays renderer or local modifier unless a
+family independently gives it a stable job.
+
+Active files are in `sidequest_semantic_cross_register_paradigms/`, led by
+`CROSS_REGISTER_PARADIGM_REPORT.md`, the productive-family table, revised
+25-stem dictionary, 53-card Astro composition table, residual inventory,
+phrasebook, builder and validator.
 
 ## Active exception anatomy
 
