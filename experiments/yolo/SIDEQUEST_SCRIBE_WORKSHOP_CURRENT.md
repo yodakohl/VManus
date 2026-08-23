@@ -2178,6 +2178,29 @@ ambiguous statements: places where two different natural-language orders still
 fit the same card sequence, then choose one workshop reading without changing
 the dictionary.
 
+## Active hundred-second attachment convention
+
+All twenty-seven cards that lay at equal distance between two action heads now
+follow one apprentice convention. Source, measure, stage, target and current-
+item modifiers attach backward to the just-completed operation. A material or
+state card between two actions feeds the following action; a terminal result
+without a following action stays backward. This chooses twenty backward and
+seven forward attachments while leaving the other 354 events unchanged.
+
+Concrete forward cases include `schoal` (`Zutat+Ziel`) feeding the following
+`cfhy` wringing operation, `cho` feeding `kchey`, `kchoar` feeding `sotodan`, and
+`chealror` feeding the following collection operation. Measures such as
+`daiin`, targets such as `al/dal`, and sources such as `char/sar` remain postfix
+values of the preceding action. No atomic dictionary value changes.
+
+Active files are in
+`sidequest_semantic_attachment_resolution_hundred_second_edition/`, led by
+`HUNDRED_SECOND_ATTACHMENT_REPORT.md`, with the complete 381-event attachment
+trace, 27 explicit choices, 116 resolved statements, builder and validator.
+Next regenerate all 116 literal workshop sentences directly from atomic cards
+and resolved attachments, then compare them with the current fluent source
+expansions and repair any remaining order mismatch.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
