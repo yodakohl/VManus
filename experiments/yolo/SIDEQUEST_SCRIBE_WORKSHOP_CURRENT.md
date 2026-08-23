@@ -6846,6 +6846,15 @@ Herbal clauses often retain longer learned object chains. The compact manual is
 Next, rewrite the six-field exercise so that every bridge is either licensed by
 one of these recurrent frames or copied from a real exemplar chain.
 
+Pass 208 replaces the 32-token draft with a 22-token text using four productive
+frames and two learned chains. All 16 internal bridges are licensed, all five
+field modes remain represented and a second hand changes 14 surfaces without
+changing any card or value. See
+`sidequest_semantic_phrase_licensed_roundtrip_two_hundred_eighth/TWO_HUNDRED_EIGHTH_READABLE_TEXT.md`.
+
+Next, return from syntax to concrete content and build a small owner/part/
+vessel/extract/ingredient vocabulary for the four fixed Herbal pages only.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
