@@ -7494,8 +7494,18 @@ meanings but move to the learned micro-sign layer. The portable inventory stays
 plus 69. See
 `sidequest_semantic_root_pruning_two_hundred_ninety_seventh/TWO_HUNDRED_NINETY_SEVENTH_REVISED_ROOT_MANUAL.md`.
 
-Next, build the observed pair/triple combination map for the 29 families and
-rank a small set of unoccupied but structurally licensed new cards.
+Pass 298 maps all 406 pairs of the 29 productive families across prose and
+Astro: 17 occur in both registers, 69 only in prose, 14 only in Astro and 306 in
+neither. The Astro-only cells provide already written forms for twelve prose
+composition leads, including `okaiiin` (OK+IIN), `olar` (OL+AR),
+`alaiin|aldaiin` (AL+AIIN), `chedaiin` (CHED+AIIN), `eckhear` (CKHE+AR),
+`qotair` (OT+AIR), `saral` (AR+AL) and `salsain` (AL+AIN). Astro supplies the
+spelling, not the practical prose object. See
+`sidequest_semantic_cross_register_combination_map_two_hundred_ninety_eighth/TWO_HUNDRED_NINETY_EIGHTH_COMBINATION_MANUAL.md`.
+
+Next, locate where those twelve forms could replace existing two-card prose
+phrases and retain only candidates that produce a shorter, clearer workshop
+instruction.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
