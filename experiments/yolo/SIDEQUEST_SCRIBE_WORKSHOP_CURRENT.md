@@ -7067,8 +7067,16 @@ whether a handling/division/fill action, additive, port, or receiver belongs
 there, while the exact surface remains exemplar-learned. See
 `sidequest_semantic_whole_sign_slot_classes_two_hundred_thirty_eighth/TWO_HUNDRED_THIRTY_EIGHTH_READABLE_WHOLE_SIGN_CODEBOOK.md`.
 
-Next, rewrite the complete f81v and f82r records with this compact dictionary
-and decide whether they encode different practical protocols.
+Pass 239 rewrites all 43 statements and 128 cards of f81v/f82r as two complete
+protocols. f81v keeps one visible owner through 21 statements and reads as a
+cyclic shared-basin batch/application procedure. f82r changes among five local
+owners across 22 statements and reads as a modular transfer, clarification,
+division and discharge procedure. The grammar is shared; the practical
+organization differs. See
+`sidequest_semantic_biological_dual_protocol_two_hundred_thirty_ninth/TWO_HUNDRED_THIRTY_NINTH_TWO_CONTINUOUS_RECORDS.md`.
+
+Next, compare the exact card order of both protocols and extract the smallest
+reusable procedure motifs that a workshop apprentice could copy between them.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
