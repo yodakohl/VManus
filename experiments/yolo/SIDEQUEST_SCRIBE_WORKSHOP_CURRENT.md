@@ -7027,8 +7027,15 @@ pipes. The page is several stations plus one coupled lower subassembly, not a
 global circuit. See
 `sidequest_semantic_f83r_local_station_graph_two_hundred_thirty_second/TWO_HUNDRED_THIRTY_SECOND_READABLE_LOCAL_GRAPH.md`.
 
-Next, read N5–N7 alone as the only visibly coupled f83r apparatus and determine
-the most concrete two-arm function compatible with both text and geometry.
+Pass 233 reads the 71 events and 25 statements of N5–N7 as a coupled double
+basin with two finishing paths. N5 handles residence, transfer and repeated
+passage; N6 is a left temper/result/drain path; N7 is a right portion/source-
+pour/settle path. A therapeutic application/rinse is the strongest content
+expansion, but the arms remain directionless. See
+`sidequest_semantic_f83r_coupled_lower_apparatus_two_hundred_thirty_third/TWO_HUNDRED_THIRTY_THIRD_READABLE_TWO_ARM_FUNCTION.md`.
+
+Next, test B5 and B6 as separate apprentice addenda for the left and right
+finishing paths and tighten their complete translations accordingly.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
