@@ -639,6 +639,30 @@ Active files are in
 twelve-layer map, report, builder and validator. This is now the primary entry
 point for the next fixed-page creative pass.
 
+## Active thirty-third minimal-pair edition
+
+Thirty-seven observed atom-level contrasts now force the common stems to make
+small predictions rather than merely redescribe complete cards. Twenty-three
+are strong, thirteen useful but owner- or count-limited, and one is a clean but
+thin third-grade contrast. The clearest teaching grids are
+`AIIN/AIN/IIN = prescribed value/portion/stage`,
+`AL/AR/AIR = target/source/run`, `OL/OT = continue/next`,
+family-bound `E/EE/EEE = brief/longer/full`, and
+`Y/CLOSE = current item/local completion`.
+
+The same difference survives inside richer bodies: `OK+AIIN/AIN`,
+`OK+AL/AR`, `OL/OT+OR`, `CHD+AL/AR`, `OK+E/EE+Y`,
+`OK+E/EE+CLOSE`, `SHED+E/EE+CLOSE` and `CHD+Y/CLOSE`.
+`AIR`, `CHEEY` and `HO` retain stable short roles but require the visible owner
+to expand them as liquid run versus celestial course, clear extract versus
+readout, or ingredient versus table input.
+
+Active files are in
+`sidequest_semantic_minimal_pairs_thirty_third_edition/`, led by
+`THIRTY_THIRD_APPRENTICE_CONTRAST_BOOK.md`, with all 37 pairs, sixteen stem
+verdicts, report, builder and consistency checker. This is the current
+predictive-composition test of the creative dictionary.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
