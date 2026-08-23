@@ -2592,6 +2592,27 @@ traces, eleven record assignments, four workloads, builder and validator. Next
 inspect the 102 exemplar overrides and determine whether a second simple habit
 per hand can absorb most of them without changing card identity.
 
+## Active hundred-twentieth secondary renderer
+
+One secondary licensed entry habit per hand absorbs 27 of the former 102
+surface overrides. The master and q-entry hands add D-entry, the s-flow hand
+adds Q-entry and the short hand adds CH-entry. Primary plus secondary habits now
+cover 306 of 381 visible prose events; 75 remain direct page-exemplar copies.
+
+Adding more rules is poor workshop economy. A separate secondary habit for each
+record explains 319 events but needs eleven rules; a 36-row family/record table
+explains 330. The active model therefore keeps two preferences per hand and
+copies the remaining licensed variants from the exemplar. Position alone does
+not supply a useful deterministic third rule.
+
+Active files are in
+`sidequest_semantic_secondary_renderer_hundred_twentieth_edition/`, led by
+`HUNDRED_TWENTIETH_SECONDARY_RENDERER_REPORT.md`, with the 102-override audit,
+four secondary habits, revised 381-event trace, economy comparison, builder and
+validator. Next consolidate R110–R120 into a new complete working edition whose
+dictionary, formula grammar, exact shared deck, section decks and four-hand
+manual all agree.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
