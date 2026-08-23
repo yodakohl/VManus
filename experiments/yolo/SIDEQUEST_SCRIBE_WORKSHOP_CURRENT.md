@@ -7364,9 +7364,16 @@ a full owner-aware sentence. Re-reading TALAM corrects H4-S002 from open to
 closed, giving90 closed and26 open statements. See
 `sidequest_semantic_eight_prose_formulas_two_hundred_eighty_first/TWO_HUNDRED_EIGHTY_FIRST_COMPLETE_FLUENT_EDITION.md`.
 
-Next, manually polish the twenty Herbal statements into five continuous
-materia-medica articles while preserving their exact family sequences and
-clearly separating pictured owner, process, use and inherited defaults.
+Pass 282 corrects the Herbal count to nineteen statements and manually rewrites
+all of them as five continuous articles: root-water extract, continued extract,
+clarified decoction, measured cooled leaf extract, and stem/additive extract
+with successive applications. H1 alone makes the local water wager; AIR remains
+portable LAUF/BAHN and no plant species is named. See
+`sidequest_semantic_manual_herbal_edition_two_hundred_eighty_second/TWO_HUNDRED_EIGHTY_SECOND_COMPLETE_HERBAL_EDITION.md`.
+
+Next, produce six continuous Bio station narratives and manually repair the
+ninety-seven statement expansions, preserving local owner resets and rejecting
+the old single-global-water-network reading.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
