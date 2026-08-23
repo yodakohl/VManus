@@ -4073,6 +4073,19 @@ separate local blocks of the same page. The working renderer is therefore
 shared rules plus local copied-block or writing-session frame switches. Next
 map those within-record change-points.
 
+## Active hundred-ninety-third field-frame concord
+
+Twenty of 135 fields contain at least two variable-card events and a repeated
+dominant frame: CH5, D1, O4, Q5, S4 and one unframed field. Their closure split
+is informative: CH construction fields close only 1/5, while O and S fields
+close 3/4 each; Q closes 2/5. The working meanings are CH base preparation, D
+carry/resume, O continuation, Q activated substep and S state/result/branch.
+
+This explains `saiin/shcthy/sy/sol` and q/o/ch siblings as locally concordant
+renderings of learned cards rather than separate vocabulary. The device is
+optional: 82 fields lack enough variable cards and 33 are mixed. Next compose a
+fresh instruction that deliberately uses all five modes and test exact readback.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
