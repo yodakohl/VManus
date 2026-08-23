@@ -2155,6 +2155,29 @@ lexicon: rank single-form cards by contextual reuse and replace sentence-sized
 defaults with the shortest compositional or learned noun/verb that still reads
 all their occurrences.
 
+## Active hundred-first atomic dictionary
+
+Card meanings are no longer allowed to hide complete German instructions. The
+173 prose cards now draw from exactly 44 atomic defaults, and each dictionary
+entry is the literal `+`-joined contribution of its registered atoms. Eighty-five
+sentence-like old defaults are explicitly replaced; 164 entries are normalized
+in total, including short paraphrases that differed from their atom sequence.
+
+The resulting economy is thirty one-atom cards, eighty two-atom cards, sixty
+three-atom cards and only three four-atom cards. Thus `qokaiin` is
+`ansetzen+Sollmaß`, `qokeedy` is `ansetzen+länger+Schluss`, `lcheckhedy` is
+`abführen+trennen+Schluss`, and `qokylddy` is
+`ansetzen+Posten+festbinden`. Fluent recipe or bath syntax remains at statement
+level. Renderer forms such as `taiin` keep the same one-atom AIIN value.
+
+Active files are in `sidequest_semantic_atomic_defaults_hundred_first_edition/`,
+led by `HUNDRED_FIRST_ATOMIC_DEFAULT_REPORT.md`, with the 44-component table,
+173-card atomic dictionary, 164-row revision ledger, 381-event interlinear,
+builder and validator. Next use these exact atom strings to locate genuinely
+ambiguous statements: places where two different natural-language orders still
+fit the same card sequence, then choose one workshop reading without changing
+the dictionary.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
