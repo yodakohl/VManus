@@ -48,6 +48,28 @@ glosses. Active files are in
 four-layer crosswalk, 25-stem historical roles, prediction table, sources and
 validator.
 
+## Active nomenclator classification
+
+All 487 visible surfaces are now classified by what a workshop apprentice has
+to do with them. A deliberately conservative correction prevents an Astro
+form from becoming fully readable merely because it contains one known core.
+Only a bare core, a promoted family or a licensed modifier construction is
+fully generated; a local residual must still be learned with its owner.
+
+The resulting burden is 233 fully generable surface types covering 476/776
+groups, 166 partial types covering 187 groups, and 88 whole signs covering 113
+groups. Prose is strongly grammatical (347/381 groups fully generated), while
+Astro is primarily nomenclator/table material (129/395 fully generated, 173
+partial, 93 whole). Nineteen renderer allographs cover 93 groups without
+requiring any free meaning for their q/s/ch/d/t frame.
+
+Active files are in `sidequest_semantic_nomenclator_classification/`, led by
+`NOMENCLATOR_CLASSIFICATION_REPORT.md`, with a complete classified
+487-surface dictionary, 254-item memorization deck, learning-burden table,
+builder and validator. The next target is the 166 partial forms: repeated
+residual bodies may promote new families without disturbing the closed
+25-core grammar.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
