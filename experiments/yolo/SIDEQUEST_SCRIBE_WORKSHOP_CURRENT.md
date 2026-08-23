@@ -7122,8 +7122,16 @@ core in a known frame and seventeen are whole local signs. Thirteen noun cores
 plus nine operation cores generate the 49 additional Herbal cards. See
 `sidequest_semantic_herbal_apprentice_manual_two_hundred_forty_sixth/TWO_HUNDRED_FORTY_SIXTH_READABLE_HERBAL_MANUAL.md`.
 
-Next, transfer the complete prose curriculum to all 395 Astro groups and split
-known prose cards from diagram-local label signs.
+Pass 247 transfers the complete prose curriculum to Astro. Sixty-six groups on
+thirteen cards use the three-register core, and 23 groups on sixteen additional
+known prose cards recur, so 89/395 groups on 29 cards are familiar. The other
+306 groups are local labels distributed over thirteen diagram namespaces, not
+new prose sentences. See
+`sidequest_semantic_astro_curriculum_transfer_two_hundred_forty_seventh/TWO_HUNDRED_FORTY_SEVENTH_READABLE_ASTRO_TRANSFER.md`.
+
+Next, give the sixteen additional prose-card matches diagram-native short
+values, removing inappropriate wet or plant expansions while preserving their
+component logic.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
