@@ -1467,6 +1467,27 @@ complete 776-group dual ledger, fourteen content discriminators, report,
 builder and validator. Next inspect the shared root/card vocabulary specifically
 for body-use versus material/station cues inside these fixed units.
 
+## Active seventy-first domain-cue inventory
+
+None of the 28 productive roots is currently body-, patient- or disease-
+specific. The main register asymmetries are practical: `HO/CHEO` favor Herbal
+ingredient and extract handling; `SHED/SOLK/CKHE` occur only in Biological
+process contexts; `AL`, grade, close and transfer are Biological-heavy because
+that register has many small station cells.
+
+The 54 learned-body occurrences likewise contain zero explicit body/patient
+card readings. They name plant part, ingredient, vessel, cloth, inlet, outlet,
+extract or contact/application processes, all compatible with both medical and
+material-workshop sources. Human figures and immersion still make B1–B4 good
+bath/application scenes; B5–B6 are presently more naturally technical.
+
+Active files are in
+`sidequest_semantic_domain_cue_audit_seventy_first_edition/`, led by
+`SEVENTY_FIRST_EDITION_REPORT.md`, with 28 root profiles, 54 learned-body cues,
+all 381 prose-group decisions and fourteen unit decisions plus builder and
+validator. Next simplify the active semantic dictionary so every root carries
+only the shortest meaning justified across both content editions.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
