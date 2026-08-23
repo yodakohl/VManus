@@ -663,6 +663,29 @@ Active files are in
 verdicts, report, builder and consistency checker. This is the current
 predictive-composition test of the creative dictionary.
 
+## Active thirty-fourth owner-substitution edition
+
+Eighteen atom sequences already used in both prose and celestial registers are
+now spoken under three deliberately substituted owners: pictured plant,
+basin/station and celestial field. The resulting 54 teaching realizations hold
+the card nucleus fixed while changing only the silent local nouns. They are
+new apprentice exercises, not claimed manuscript passages.
+
+This sharply reduces several former overglosses. `AIR` is **run/course**, not a
+global word for water; a wet owner supplies liquid flow and a wheel supplies a
+celestial course. `CHEEY` is **visible result**, not globally clear liquid; it
+expands as clear extract, visible runoff state or table readout. `HO` is an
+**input item**, expanded as ingredient, charge or table input. The same rule
+keeps `AIIN`, `AIN`, `IIN`, `AL`, `AR`, `OL`, `OR` and richer OK/OT/OL
+compositions concrete without packing the pictured object into the stem.
+
+Active files are in
+`sidequest_semantic_owner_substitution_thirty_fourth_edition/`, led by
+`THIRTY_FOURTH_THREE_OWNER_COPYBOOK.md`, with eighteen substitution rows,
+the compact owner-nucleus lexicon, report, builder and consistency checker.
+This is the current separation between portable card meaning and image-supplied
+content.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
