@@ -1,0 +1,10 @@
+template_id	template_name_de	statement_count	canonical_formula	apprentice_rule_de	example_statement_ids
+P00_PROGRAM_ONLY	Direktprogramm	40	PROGRAM+CLOSE	Die ganze Schlusskarte als vollständigen Arbeitsbefehl ausführen.	B1-S001|B1-S005|B1-S007|B1-S009|B1-S010|B1-S013|B1-S019|B2-S001
+P01_ARGUMENT	Argument vor Programm	9	ITEM|SOURCE|MEDIUM|TARGET -> PROGRAM/HANDOFF	Den sichtbaren oder geerbten Posten einsetzen; danach Programm oder Übergabe lesen.	H3-S002|B1-S021|B2-S015|B2-S017|B3-S002|B3-S003|B3-S010|B3-S012
+P02_ACTION	Handlungskette	8	ACTION|ORDER -> PROGRAM/HANDOFF	Handlungen in Kartenfolge ausführen; die Schlusskarte beendet nur die lokale Zelle.	B1-S003|B2-S014|B3-S009|B3-S011|B3-S016|B3-S029|B4-S005|B4-S013
+P03_GRADED_ACTION	Gestufte Handlung	1	ACTION -> GRADE/STATE -> PROGRAM	Handlung und kurzen/längeren/vollen Grad gemeinsam lesen.	B1-S020
+P04_MEASURE_ACTION	Bemessene Handlung	1	QUANTITY -> ACTION -> PROGRAM	Maß oder Portion auf die folgende Handlung beziehen.	B4-S008
+P05_TARGET_ACTION	Zielhandlung	2	TARGET -> ACTION -> PROGRAM	Die Handlung an der sichtbaren oder bezeichneten Stelle ausführen.	B1-S017|B1-S018
+P06_TRANSFER	Lokaler Übergang	2	SOURCE/MEDIUM -> FLOW -> TARGET -> PROGRAM	Nur den lokalen sichtbaren Lauf lesen; keinen globalen Kreislauf ergänzen.	B1-S015|B3-S014
+P07_MATERIAL_PROCESS	Materialvorgang	26	ITEM/SOURCE/PREPARATION -> ACTION/STATE -> PROGRAM	Bildbesitzer oder Vorposten einsetzen und die folgende Bearbeitung lesen.	H1-S002|H3-S004|H4-S001|H4-S002|H5-S002|H5-S003|H5-S004|H5-S005
+P08_FULL_REGISTER	Vollständige Werkstattphrase	27	OWNER -> SOURCE/PREPARATION -> QUANTITY -> TARGET/ORDER -> ACTION -> STATE -> PROGRAM	Nur belegte Slots in sichtbarer Kartenfolge lesen; fehlende Slots bleiben elliptisch.	H1-S001|H2-S001|H2-S002|H2-S003|H3-S001|H3-S003|H4-S003|H4-S004

@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-23, after resolving the complete open-middle lexicon.
+Updated: 2026-08-23, after compiling the apprentice phrasebook.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -19,7 +19,37 @@ Exactly ten pages are in scope:
 `f84` and `f84r` remain sealed. ZL3b, IT2a and RF1b are alternate readings of
 one manuscript. No additional page, image or semantic corpus was admitted.
 
-## Active open-middle lexicon edition
+## Active apprentice-phrasebook edition
+
+The selected lexicon is now arranged as a small teachable reader rather than a
+flat translation table. Of 116 instructions, 40 are direct one-card programs,
+13 need only the sixteen-card core, 19 use its productive extensions, two need
+the recurrent whole-word deck, and 42 require at least one local exemplar word.
+Thus 74/116 instructions can be read without opening the local singleton
+glossary.
+
+The phrasebook has nine routines, from `PROGRAM+CLOSE` through a full
+`OWNER→SOURCE/PREPARATION→QUANTITY→TARGET/ORDER→ACTION→STATE→PROGRAM`
+register. It retains visible card order and treats the routines as apprentice
+reading procedures, not identified natural-language sentence types.
+
+All 68 genuinely whole-learned exact cards have compact headwords. The 55 local
+singletons reduce to 45 headword meanings; all 68 whole cards reduce to 55.
+Twenty-five overexpanded glosses now keep contextual detail outside the word:
+Klarflüssigkeit→Klarlauf, Badzusatz→Zusatz, Vorposten→Voriges,
+Blütenkraut→Kraut, Wurzelrest→Rest, Weinsud→Sud, erste Spülung→Spülung,
+Bodenablauf→Ablauf, Arbeits-/Nassstelle→Stelle, Haltezeit→Zeit and
+Mittelmaß→Maß. Exact cards remain distinct even when they share an apprentice
+headword.
+
+Active files are in `sidequest_semantic_apprentice_phrasebook/`, led by
+`APPRENTICE_PHRASEBOOK_REPORT.md`, `APPRENTICE_CORE_16.tsv`,
+`APPRENTICE_68_WHOLE_WORD_DECK.tsv`, `APPRENTICE_55_LOCAL_HEADWORDS.tsv`,
+`APPRENTICE_LEXICAL_DRAWERS.tsv`, `APPRENTICE_9_PHRASE_TEMPLATES.tsv`,
+`APPRENTICE_116_PHRASES.tsv`, `APPRENTICE_11_RECORDS.md`, builder and
+validator.
+
+## Previous open-middle lexicon edition
 
 The 292 nonterminal events before the 89 close cards now form a compact mixed
 lexicon rather than 136 unrelated words. Ten productive base cards account for
