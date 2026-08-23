@@ -6971,8 +6971,14 @@ mean equal. In f83r the stock is set, retained and drained; in f10r an extra Y
 permits a local two-post expansion. See
 `sidequest_semantic_y_aiin_y_context_two_hundred_twenty_third/TWO_HUNDRED_TWENTY_THIRD_TWO_CONTEXT_READINGS.md`.
 
-Next, inspect every exact A–B–A card window to see whether repeated outer cards
-generally preserve a referent or state across the middle operation.
+Pass 224 finds nine exact A–B–A windows on five pages. All fit one workshop
+rule: activate A, apply B, then resume the identical A. Four return to a
+referent, three to a running operation, one to a value and one repeats an
+action from the same source. See
+`sidequest_semantic_aba_return_frame_two_hundred_twenty_fourth/TWO_HUNDRED_TWENTY_FOURTH_ABA_RETURN_RULE.md`.
+
+Next, fold the A–B–A return frame into all 116 statement parses so the nine
+constructions read as single units rather than three independent cards.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
