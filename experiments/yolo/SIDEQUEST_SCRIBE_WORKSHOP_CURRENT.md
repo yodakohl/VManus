@@ -6965,8 +6965,14 @@ strongest concrete mini-formula is twice exactly `Y–AIIN–Y = dies – Sollwe
 dies`, provisionally two designated posts under one prescribed value. See
 `sidequest_semantic_real_window_phrasebook_two_hundred_twenty_second/TWO_HUNDRED_TWENTY_SECOND_REAL_PHRASEBOOK.md`.
 
-Next, rewrite both full `Y–AIIN–Y` statements and their neighboring fields as
-concrete workshop instructions under their actual plant and station owners.
+Pass 223 reads both full contexts. The better general rule is a value bracket:
+`current item – prescribed value – same item remains active`; `AIIN` need not
+mean equal. In f83r the stock is set, retained and drained; in f10r an extra Y
+permits a local two-post expansion. See
+`sidequest_semantic_y_aiin_y_context_two_hundred_twenty_third/TWO_HUNDRED_TWENTY_THIRD_TWO_CONTEXT_READINGS.md`.
+
+Next, inspect every exact A–B–A card window to see whether repeated outer cards
+generally preserve a referent or state across the middle operation.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
