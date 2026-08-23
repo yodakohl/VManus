@@ -3476,6 +3476,27 @@ report, builder and validator. Next compress the 69 local habit overrides into
 recurrent card- or record-specific customs rather than memorizing unrelated
 exceptions.
 
+## Active hundred-sixty-first recurrent renderer customs
+
+Thirteen repeatable house customs now sit above the nine positional rules:
+three record accents, seven card-in-position customs and three record-card
+customs. B1 prefers bare Bio-interiors, B3 prefers hard compact interiors and
+H3 prefers hard Herbal interiors. `dies` stays ch-open inside Bio fields;
+`Sollmaß` stays hard; `bereit` stays bare in Herbal; `weiter` usually falls to
+the bare Bio-interior form.
+
+These customs raise correct habit choice from 182 to 209 of 251 events and
+exact visible-form reproduction from 160 to 187. Twenty-two more events need
+only a second registered spelling within the correct habit. Forty-two retain a
+local registered choice. Meanings, master cards and local nomenclator remain
+unchanged.
+
+Files are in
+`sidequest_semantic_recurrent_renderer_customs_hundred_sixty_first/`: thirteen
+customs, complete 251-event trace, eleven record summaries, apprentice card,
+report, builder and validator. Next inspect the 42 residual choices in event
+order and teach only genuine short hand-switch runs.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
