@@ -1342,6 +1342,26 @@ sixteen layered readbacks, report, builder and validator. Next turn the twelve
 abstract forms into a small historical-looking repertoire of ordinary source
 clauses rather than adding more card glosses.
 
+## Active sixty-fifth period clausebook
+
+Each of the twelve clause shapes now has three concrete source realizations:
+terse practical workshop prose, a Latin-looking formulary rubric and a compact
+tabular notation. The resulting 36 templates render all 381 prose groups
+without adding a new card meaning or identifying a language.
+
+The best period analogy is explicitly mixed. Recipe parataxis supplies action
+and sequence, apothecary notation supplies measure and portion, picture or
+table supplies place, and abbreviation plus nomenclator supplies productive
+short forms beside memorized wholes. A scribe can therefore work from a terse
+formular rather than from modern continuous prose.
+
+Active files are in
+`sidequest_semantic_period_clausebook_sixty_fifth_edition/`, led by
+`SIXTY_FIFTH_SOURCE_STYLEBOOK.md`, with 36 templates, all 381 rendered source
+clauses, twelve composition rules, report, builder and validator. Next rewrite
+the Herbal records as compact source articles using only these templates and
+their visible plant owners.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
