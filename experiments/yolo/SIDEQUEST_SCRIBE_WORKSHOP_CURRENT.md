@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-23, after completing the thermal/temporal/order grammar.
+Updated: 2026-08-23, after completing the vessel/tool/station grammar.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -19,7 +19,61 @@ Exactly ten pages are in scope:
 `f84` and `f84r` remain sealed. ZL3b, IT2a and RF1b are alternate readings of
 one manuscript. No additional page, image or semantic corpus was admitted.
 
-## Active thermal/temporal/order working edition
+## Active vessel/tool/station working edition
+
+The current workshop model now has the requested mixed architecture: a small
+productive direction/transfer grammar plus a learned specialist nomenclator.
+The productive layer is deliberately terse:
+
+```text
+AL        an / zu                 AR        aus / von
+CHED      umsetzen
+L+CHED    abführen                P+CHED    einführen
+CKH       durch / Durchgang       CKHE      seihen
+SOLK      sammeln                 AIR       Wasser
+```
+
+This makes `OK+AL=dort ansetzen`, `OT+AL=danach dorthin`,
+`SHED+AL=dort absetzen`, `P+CHED+AL=Einlass`, `L+CHED+AL=Auslass`,
+`L+CHED+AR=von dort abführen`, `OK+AR=daraus ansetzen`, and
+`L+CKH+Y=Ausgangsdurchlass` predictable without storing a whole sentence in a
+card. `SOLK` combines with the existing E/EE grade series as `kurz sammeln`,
+`länger sammeln`, and `länger sammeln; Schluss`.
+
+The second layer is a compact learned apparatus deck:
+
+```text
+OS          Gefäß             OYKCHOR     Topf
+LY          Auffangschale     QOTEDAIIN   Wanne
+QOLCHEY     Becken            CHEEDAR     Sammelbecken
+DAIN        Tuch              SOLKAIIN    Seihtuch
+TEOL        Hahn              LS          Düse
+SHEEY       Ablauf            RALY        Seitenarm
+DALDY       Nebenöffnung      LAR / LO    Bodenablauf
+```
+
+The former generic `erste/zweite Öffnung` readings are withdrawn: unlike the
+productive compounds, they were unrelated whole cards. Ordering now comes from
+the sequence, while each fitting keeps a short learned name. The same
+compression replaces `glasiertes Gefäß`, `breites Gefäß`, `Empfangsgefäß`,
+`Arbeitsbecken`, and `Beckenstation` with `Topf`, `Wanne`, `Auffangschale`,
+`Becken`, and `Sammelbecken`.
+
+For a ca. 1420 teaching analogy, the master can gloss the two layers with
+ordinary workshop Latin such as `AD/DE/EX/PER`, `AQUA`, `VAS/OLLA/SCUTELLA`,
+`TINA/LABRUM`, and `PANNUS/COLATORIUM`. These are functional teaching
+parallels, not phonetic identifications of Voynich forms.
+
+This pass revises 54 of 173 exact cards and 103 of 381 occurrences while
+retaining all 116 statements and eleven prose records. The complete artifacts
+are in `sidequest_semantic_vessel_tool_station_completion/`, led by
+`VESSEL_TOOL_STATION_REPORT.md`, `VESSEL_TOOL_COMPONENTS.tsv`,
+`VESSEL_TOOL_PARADIGM.tsv`, `SELECTED_173_VESSEL_TOOL_DICTIONARY.tsv`,
+`SELECTED_381_VESSEL_TOOL_INTERLINEAR.tsv`,
+`SELECTED_116_VESSEL_TOOL_SENTENCES.tsv`, and
+`SELECTED_11_VESSEL_TOOL_RECORDS.md`.
+
+## Previous thermal/temporal/order working edition
 
 Four creative roles now converge on one small process grammar layered over the
 medium/substance edition:
@@ -1146,9 +1200,9 @@ backgrounds in `SIDEQUEST_FOUR_AGENT_BACKGROUNDS.md`: workshop master,
 historical medical/Herbal scribe, technical register writer and chancery
 corrector. Preserve independence until each role freezes its result.
 
-## Stop
+## Current boundary
 
-The authorized V71–V80 cycle is complete. Do not add pages, start V81, loosen
-the codebook rule, score Voynich semantics or design a follow-on experiment
-automatically. A later sidequest would require a new explicit user instruction
-and a new fixed scope; nothing in V80 licenses one.
+Continue only inside the ten-page creative workshop sidequest when the user
+asks. Do not add pages automatically, score Voynich semantics, or turn these
+working meanings into canonical claims. The active task values fast concrete
+iteration over preregistration, blinding, freezes, or confirmation language.
