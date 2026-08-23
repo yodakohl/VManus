@@ -420,6 +420,29 @@ Active files are in
 report, deterministic builder and validator. This is the best short continuous
 prose; the twenty-first edition remains the exact statement-to-owner binding.
 
+## Active twenty-third master–apprentice edition
+
+The working system now has a short two-way curriculum rather than only a
+decoder's dictionary. A master first points to the plant, basin, station,
+star, ring or field and dictates one work unit. The apprentice chooses the
+longest learned body, adds order, operation, quantity, direction, grade and
+current/closed status, then selects a registered local surface. Reading runs
+in the opposite order and adds fluent nouns only after the visible owner is
+known.
+
+The teaching deck has 56 compact entries in four boxes: common and bound
+grammar, process bodies, local table code and learned whole bodies. Fourteen
+lessons cover the complete workflow. Nine worked round trips bind six prose
+and three Astro dictations to existing surface sequences, their recovered atom
+sequence and the final owner-expanded reading. This turns the mixture of
+technical abbreviations and nomenclator cards into something several workshop
+hands could actually learn.
+
+Active files are in
+`sidequest_semantic_apprentice_roundtrip_twenty_third_edition/`, led by
+`TWENTY_THIRD_MASTER_APPRENTICE_MANUAL.md`, with the component deck,
+fourteen-lesson table, nine round trips, report, builder and validator.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
