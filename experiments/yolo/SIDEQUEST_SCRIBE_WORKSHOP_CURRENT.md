@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-23, after translating all eleven prose records with the reduced component language.
+Updated: 2026-08-23, after decomposing eighteen of the final nineteen whole-card exceptions.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -18,6 +18,34 @@ Exactly ten pages are in scope:
 
 `f84` and `f84r` remain sealed. ZL3b, IT2a and RF1b are alternate readings of
 one manuscript. No additional page, image or semantic corpus was admitted.
+
+## Active exception anatomy
+
+The last nineteen apparent whole cards have now been opened. Ten are fully
+readable with the existing atoms, eight combine existing atoms with one short
+learned workshop root, and only `dl = Zusatz` remains a genuinely unsegmented
+card. The complete 173-card inventory therefore contains 164 cards built only
+from the existing atoms, eight mixed bridge compounds, and one whole card. At
+the event level the split is 370 fully atomic, nine bridge-bearing, and two
+whole-card occurrences.
+
+This pass removes several attractive but compositionally isolated old glosses.
+`ly=L+Y` now leads the current item out rather than naming a collection vessel;
+`dshedy=SHED+E+CLOSE` briefly settles rather than adding fresh water;
+`lkedy=L+E+CLOSE` briefly leads out rather than naming an after-wash;
+`qekey=KCH+E+Y` briefly processes the current item rather than saying “raw”;
+and `ytey=Y+E+TY` takes a short part of the current item rather than supplying
+an unanalyzed “fill” verb.
+
+Eight compact nomenclator roots remain learnable: `DCH` previous item, `CFH`
+wring, `CPH` re-strain, `DCHE` root, `LDDY` fasten-and-close, `SK` pour, `DAN`
+apply, and `AM` store. With those bridges, 106 of 116 statements use only the
+existing atoms, eight use a bridge root, and two contain the final whole card.
+
+Active files are in `sidequest_semantic_exception_anatomy/`, led by
+`EXCEPTION_ANATOMY_REPORT.md`, the nineteen-card reanalysis, eight-root bridge
+sheet, complete 173-card dictionary, 381-event trace, 116-statement edition,
+eleven-record reading, builder and validator.
 
 ## Active complete reduced prose edition
 

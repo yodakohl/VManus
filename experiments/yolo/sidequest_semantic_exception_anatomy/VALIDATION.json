@@ -1,0 +1,283 @@
+{
+  "status": "PASS",
+  "checks_passed": 40,
+  "checks_total": 40,
+  "failed_checks": [],
+  "counts": {
+    "status": "BUILT",
+    "bridge_stems": 8,
+    "reanalyzed_cards": 19,
+    "master_cards": 173,
+    "prose_events": 381,
+    "statements": 116,
+    "records": 11
+  },
+  "checks": [
+    {
+      "name": "bridge_inventory_has_eight_unique_rows",
+      "pass": true,
+      "detail": 8
+    },
+    {
+      "name": "bridge_cores_are_exact",
+      "pass": true,
+      "detail": [
+        "AM",
+        "CFH",
+        "CPH",
+        "DAN",
+        "DCH",
+        "DCHE",
+        "LDDY",
+        "SK"
+      ]
+    },
+    {
+      "name": "bridge_cells_are_concrete_and_nonempty",
+      "pass": true,
+      "detail": 8
+    },
+    {
+      "name": "exception_table_has_nineteen_unique_cards",
+      "pass": true,
+      "detail": 19
+    },
+    {
+      "name": "exception_ids_match_old_whole_cards",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "exception_split_is_ten_eight_one",
+      "pass": true,
+      "detail": {
+        "LEARNED_WHOLE_CARD": 1,
+        "COMPOSED_EXISTING_ATOMS": 10,
+        "COMPOSED_WITH_BRIDGE_STEM": 8
+      }
+    },
+    {
+      "name": "dl_is_the_only_whole_card",
+      "pass": true,
+      "detail": [
+        {
+          "master_card_id": "MC012",
+          "master_head_form": "dl",
+          "registered_surface_family": "dl",
+          "prose_event_count": "2",
+          "old_class": "LEARNED_LOCAL_WHOLE",
+          "old_atom_sequence": "LOCAL_WHOLE",
+          "old_nucleus_de": "ZUSATZ",
+          "new_class": "LEARNED_WHOLE_CARD",
+          "new_atom_sequence": "LOCAL_WHOLE",
+          "new_nucleus_de": "ZUSATZ",
+          "new_concrete_default_de": "Zusatz",
+          "new_imperative_de": "Gib den Zusatz zu",
+          "composition_reason_de": "einzige weiterhin ungeteilte Sachkarte"
+        }
+      ]
+    },
+    {
+      "name": "all_exception_imperatives_are_short",
+      "pass": true,
+      "detail": 7
+    },
+    {
+      "name": "dictionary_has_173_unique_cards",
+      "pass": true,
+      "detail": 173
+    },
+    {
+      "name": "dictionary_preserves_base_cells",
+      "pass": true,
+      "detail": 173
+    },
+    {
+      "name": "dictionary_class_counts_exact",
+      "pass": true,
+      "detail": {
+        "PREVIOUSLY_COMPOSED": 154,
+        "LEARNED_WHOLE_CARD": 1,
+        "COMPOSED_EXISTING_ATOMS": 10,
+        "COMPOSED_WITH_BRIDGE_STEM": 8
+      }
+    },
+    {
+      "name": "all_final_card_values_nonempty",
+      "pass": true,
+      "detail": 173
+    },
+    {
+      "name": "selected_old_overreads_removed_from_new_exception_nuclei",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "event_trace_has_381_unique_events",
+      "pass": true,
+      "detail": 381
+    },
+    {
+      "name": "event_trace_preserves_base_cells",
+      "pass": true,
+      "detail": 381
+    },
+    {
+      "name": "event_readings_match_dictionary",
+      "pass": true,
+      "detail": 381
+    },
+    {
+      "name": "event_class_counts_exact",
+      "pass": true,
+      "detail": {
+        "COMPOSED_WITH_BRIDGE_STEM": 9,
+        "PREVIOUSLY_COMPOSED": 360,
+        "COMPOSED_EXISTING_ATOMS": 10,
+        "LEARNED_WHOLE_CARD": 2
+      }
+    },
+    {
+      "name": "three_hundred_seventy_nine_events_have_component_anatomy",
+      "pass": true,
+      "detail": 379
+    },
+    {
+      "name": "statement_edition_has_116_unique_rows",
+      "pass": true,
+      "detail": 116
+    },
+    {
+      "name": "statement_base_cells_preserved",
+      "pass": true,
+      "detail": 116
+    },
+    {
+      "name": "statement_atom_chains_reconstruct",
+      "pass": true,
+      "detail": 116
+    },
+    {
+      "name": "statement_nucleus_chains_reconstruct",
+      "pass": true,
+      "detail": 116
+    },
+    {
+      "name": "statement_imperative_chains_reconstruct",
+      "pass": true,
+      "detail": 116
+    },
+    {
+      "name": "statement_status_counts_exact",
+      "pass": true,
+      "detail": {
+        "COMPOSED_WITH_BRIDGE_STEM": 8,
+        "FULLY_COMPOSED_EXISTING_ATOMS": 106,
+        "CONTAINS_ONE_LEARNED_WHOLE_CARD": 2
+      }
+    },
+    {
+      "name": "exactly_sixteen_statements_rephrased",
+      "pass": true,
+      "detail": {
+        "REVISED": 16,
+        "UNCHANGED": 100
+      }
+    },
+    {
+      "name": "all_fluent_readings_are_sentences",
+      "pass": true,
+      "detail": 116
+    },
+    {
+      "name": "event_counts_partition_statements",
+      "pass": true,
+      "detail": 381
+    },
+    {
+      "name": "record_summary_has_eleven_ordered_records",
+      "pass": true,
+      "detail": [
+        "H1",
+        "H2",
+        "H3",
+        "H4",
+        "H5",
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6"
+      ]
+    },
+    {
+      "name": "record_totals_exact",
+      "pass": true,
+      "detail": "116/381"
+    },
+    {
+      "name": "record_status_totals_exact",
+      "pass": true,
+      "detail": "106/8/2"
+    },
+    {
+      "name": "record_continuous_text_reconstructs",
+      "pass": true,
+      "detail": 11
+    },
+    {
+      "name": "readable_edition_contains_all_statement_ids",
+      "pass": true,
+      "detail": 116
+    },
+    {
+      "name": "readable_edition_contains_all_surface_sequences",
+      "pass": true,
+      "detail": 116
+    },
+    {
+      "name": "readable_edition_has_eleven_sections",
+      "pass": true,
+      "detail": 11
+    },
+    {
+      "name": "summary_counts_exact",
+      "pass": true,
+      "detail": {
+        "status": "BUILT",
+        "bridge_stems": 8,
+        "reanalyzed_cards": 19,
+        "master_cards": 173,
+        "prose_events": 381,
+        "statements": 116,
+        "records": 11
+      }
+    },
+    {
+      "name": "summary_class_counts_exact",
+      "pass": true,
+      "detail": "card/event/statement"
+    },
+    {
+      "name": "summary_output_hashes_exact",
+      "pass": true,
+      "detail": 8
+    },
+    {
+      "name": "sealed_pages_absent_from_outputs",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "deterministic_rebuild_is_byte_identical",
+      "pass": true,
+      "detail": "byte-identical"
+    },
+    {
+      "name": "builder_reports_built",
+      "pass": true,
+      "detail": "{"
+    }
+  ]
+}
