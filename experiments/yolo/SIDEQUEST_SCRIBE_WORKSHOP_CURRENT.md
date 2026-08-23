@@ -4135,6 +4135,18 @@ B3 reads as 34 short vessel/station cells rather than one long sentence. The
 long S-framed B3-S021 is a two-stage state/target entry. Next normalize H1/H2
 and B1, focusing on CH base-preparation versus O continuation fields.
 
+## Active hundred-ninety-eighth normalized H1/H2/B1 edition
+
+All 104 events, 29 fields and 26 statements of H1/H2/B1 now have normalized
+translations. H1 makes a base preparation; H2 renews or divides it into measured
+following batches; B1 applies those batches through 21 short shared-basin cells.
+CH fields F001/F004/F005 are open preparation clauses, while B1 O fields carry
+continuation and Q field F038 an activated target step.
+
+Repeated singleton `qokedy` cells are repeated short contact steps, not new
+sentences or new vocabulary. Next normalize H4/H5 and B2, concentrating on
+substance transfer and visible station resets.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
