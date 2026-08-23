@@ -2775,6 +2775,28 @@ interlinear, 116 revised statements, eleven record table, report, builder and
 validator. Next subject the most frequent nonshared Herbal and Biological
 cards to the same one-card/one-short-value discipline.
 
+## Active hundred-twenty-eighth extension core
+
+Four recurrent Herbal cards and twenty frequent Biological cards now add 103
+events to the compact spoken vocabulary. Together with the revised shared
+deck, 41 actively learned cards cover 239 of 381 prose events. The other 132
+card types account for only 142 events and remain low-frequency learned
+specialist words.
+
+Herbal adds `weitere Zutat`, `diesen Posten weiterbearbeiten`, `nächster
+Arbeitsansatz`, and `vom vorigen Posten`. Biological gains a compact process
+grid: short/long exposure, short settling, discharge, draw-off, transfer,
+conduct, strain, collect, short warming, add a share, and next prescribed
+measure. Open and closed variants remain distinct cards.
+
+Active files are in
+`sidequest_semantic_extension_core_revision_hundred_twenty_eighth/`, led by
+`HUNDRED_TWENTY_EIGHTH_EXTENSION_CORE_REPORT.md`, with 24 decisions, 103
+occurrence contexts, the current 173-card and 381-event overlays, 116 literal
+statements, builder and validator. Next organize the 132 low-frequency cards
+into small specialist drawers and give every one a short concrete whole-card
+value without inventing more universal stems.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
