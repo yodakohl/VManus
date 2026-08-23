@@ -2613,6 +2613,31 @@ validator. Next consolidate R110–R120 into a new complete working edition whos
 dictionary, formula grammar, exact shared deck, section decks and four-hand
 manual all agree.
 
+## Active hundred-twenty-first complete working edition
+
+R110–R120 are now consolidated into one current release: 44 atoms, 173 teaching
+cards, 230 visible surfaces, 254 owner-resolved clauses, 381 prose events, 116
+current statements, 395 Astro groups, 776 total groups, seventeen exact shared
+cards and four hand profiles. Every event joins to its final teaching tier,
+section deck, renderer status, formula tags and current statement reading.
+
+The compact theory is now: picture names the thing; exact card gives a short
+work value; position binds it; the shared seventeen-card deck supplies control
+and arguments; Herbal and Biological extension decks supply section content;
+five specialist tablets and the master exemplar supply rare values; Astro is a
+separate local nomenclator. The concrete content lead remains an illustrated
+plant and therapeutic bathing workshop with its own preparation/maintenance
+register plus three independent celestial instruments.
+
+Active files are in
+`sidequest_semantic_complete_working_edition_hundred_twenty_first/`, led by
+`HUNDRED_TWENTY_FIRST_BEST_WORKING_THEORY.md`,
+`HUNDRED_TWENTY_FIRST_COMPLETE_TEN_PAGE_READING.md` and
+`HUNDRED_TWENTY_FIRST_COMPLETE_EDITION_REPORT.md`, with all current machine
+tables, four-hand manual, builder and validator. Next examine the seventeen
+shared cards as a miniature semantic network and try to infer the smallest
+coherent source-language phrase order behind them.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
