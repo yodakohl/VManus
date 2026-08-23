@@ -6982,8 +6982,14 @@ Pass 225 folds the nine frames into all statement parses. The 381 events become
 statements gain concise return readings; 107 remain unchanged. See
 `sidequest_semantic_aba_integrated_statements_two_hundred_twenty_fifth/TWO_HUNDRED_TWENTY_FIFTH_READABLE_ABA_EDITION.md`.
 
-Next, inspect immediate A–A and A–A–B repetitions for a second learnable rule:
-plurality, repeated action, emphasis or simple scribal carry.
+Pass 226 classifies six adjacent exact duplicate pairs. Two open same-field
+pairs set parallel items, three adjacent closed fields repeat a completed
+operation, and the f82r `qokaiin` line carry is two visible copies of one source
+instruction. Thus twelve visible cards represent eleven source tokens. See
+`sidequest_semantic_duplicate_card_grammar_two_hundred_twenty_sixth/TWO_HUNDRED_TWENTY_SIXTH_DUPLICATION_MANUAL.md`.
+
+Next, combine duplicate and A–B–A rules in one parser that distinguishes
+visible cards, source tokens and workshop reading units.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
