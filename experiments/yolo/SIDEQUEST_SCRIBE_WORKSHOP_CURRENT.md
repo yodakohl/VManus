@@ -7321,8 +7321,17 @@ order. The three instruments remain separate and no start, orientation,
 rotation or f68-to-f69 key is introduced. See
 `sidequest_semantic_three_astro_readings_two_hundred_seventy_fifth/TWO_HUNDRED_SEVENTY_FIFTH_COMPLETE_ASTRO_EDITION.md`.
 
-Next, collapse the 142 locus readings into a small set of reusable Astro entry
-templates and compare those templates with the prose statement grammar.
+Pass 276 collapses the 142 loci into eight reusable entry templates: forty
+local named entries, 34 addressed entries, ten source-to-target entries, eight
+condition entries, ten row continuations, five following relations, twenty
+graded/quantified values and fifteen action/path entries. They map directly to
+the prose OWNER/SOURCE, LINK_SELECT, QUANTITY/STATE and OPERATION/FLOW/TARGET
+zones; only prose adds CLOSE. See
+`sidequest_semantic_astro_templates_two_hundred_seventy_sixth/TWO_HUNDRED_SEVENTY_SIXTH_READABLE_SHARED_GRAMMAR.md`.
+
+Next, classify the forty portable components by actual register reach: truly
+shared Herbal/Bio/Astro grammar, prose-only craft abbreviations, and thin or
+locally specialized components.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
