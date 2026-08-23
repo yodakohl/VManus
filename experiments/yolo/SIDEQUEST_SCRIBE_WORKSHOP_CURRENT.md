@@ -3136,6 +3136,28 @@ eleven owner registers, pocket manual, report, builder and validator. Next
 rebuild the complete 776-group ten-page edition on this layered prose basis;
 keep the Astro labels owner-local and do not import prose meanings into them.
 
+## Active hundred-forty-fifth complete layered ten-page edition
+
+The layered prose is again joined to all 395 diagram groups. The resulting
+edition contains 173 prose cards, 381 prose events, 116 prose statements and
+776 visible groups. Every prose row keeps card value and owner argument in
+separate columns. Every Astro row explicitly has `NO_PROSE_CARD_VALUE`: its
+German expansion remains a local menu reading attached to the visible sector,
+ring, star, panel or legend owner.
+
+The four WHAT/HOW/optional-WHEN scenarios remain readable, but they cannot
+rewrite the dictionary. Their plant, root, basin, vessel, cloth, station and
+celestial nouns are owner or scenario expansions. No cyclic start, direction,
+rotation or f68r1-to-f69v key is introduced. This restores a complete
+ten-page story without sacrificing the stricter source separation of R144.
+
+Files are in
+`sidequest_semantic_complete_layered_ten_page_hundred_forty_fifth/`: layered
+173-card, 381-event, 116-statement and 395-group tables, complete 776-row
+ledger, four job cards, readable edition, report, builder and validator. Next
+audit the 132 learned specialist whole cards for owner nouns and sentence-sized
+glosses, shortening each default that still reads naturally in full context.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
