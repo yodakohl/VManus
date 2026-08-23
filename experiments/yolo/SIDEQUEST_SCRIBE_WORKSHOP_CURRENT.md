@@ -1641,6 +1641,29 @@ validator. Next model four scribal hands applying this same small system, so
 renderer habits may vary while the selected source and card meanings stay
 unchanged.
 
+## Active seventy-ninth selected-source four-scribe edition
+
+The already existing 464 four-hand copies have been reconciled with the new
+minimal dictionary and selected source vocabulary; no new counterfactual copy
+or renderer rule was invented. Each of the four profiles still copies all 116
+prose statements. Sixty-eight statements have at least two distinct visible
+sequences, while every four-copy set retains one exact tuple sequence, one
+minimal reading, one selected unit vocabulary and one controlled unit reading.
+
+This locates scribal variation at the end of the proposed writing process.
+The master or exemplar supplies owner, content program and exact card; only
+then does a particular hand choose a registered bare, `q`, `s` or compact
+surface and a line layout. The four profiles do not need separate lexicons or
+semantic dialects.
+
+Active files are in
+`sidequest_semantic_selected_source_four_scribe_seventy_ninth_edition/`, led by
+`SEVENTY_NINTH_FOUR_SCRIBE_SELECTED_SOURCE_COPYBOOK.md`, with all 464 current
+readings, the 116-statement invariance table, four retained profiles, report,
+builder and validator. Next consolidate the selected lexicon, card licenses,
+fourteen controlled units and four-scribe workflow into one compact current
+edition before attacking the remaining weak content slots.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
