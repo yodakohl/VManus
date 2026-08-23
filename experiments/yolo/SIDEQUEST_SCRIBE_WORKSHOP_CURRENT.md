@@ -7096,8 +7096,15 @@ compact curriculum has seven procedure motifs, six specialist components, six
 learned whole signs and three atomic commands. See
 `sidequest_semantic_biological_apprentice_manual_two_hundred_forty_second/TWO_HUNDRED_FORTY_SECOND_THREE_CONTINUOUS_PAGES.md`.
 
-Next, transfer this Biological curriculum to all 100 Herbal cards and separate
-the immediately reusable common core from new plant nouns and local operations.
+Pass 243 transfers the curriculum to all 100 Herbal events. Forty-four event
+occurrences on seventeen cards are immediately reusable; the remaining 56
+split exactly into 28 local noun occurrences and 28 local operation
+occurrences. The 66-card Herbal dictionary therefore contains seventeen common
+cards, 24 local noun cards and 25 local operation cards. See
+`sidequest_semantic_herbal_curriculum_transfer_two_hundred_forty_third/TWO_HUNDRED_FORTY_THIRD_READABLE_HERBAL_APPRENTICESHIP.md`.
+
+Next, decompose the 25 local Herbal operation cards against the shared
+component and motif grammar, retaining whole cards only where composition fails.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
