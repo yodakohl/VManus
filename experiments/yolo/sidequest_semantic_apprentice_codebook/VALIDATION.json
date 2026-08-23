@@ -1,0 +1,117 @@
+{
+  "status": "PASS",
+  "checks_passed": 18,
+  "checks_total": 18,
+  "counts": {
+    "cards": 173,
+    "events": 381,
+    "statements": 116,
+    "whole_cards": 22,
+    "whole_occurrences": 28,
+    "headwords": 16,
+    "exercises": 16,
+    "productive_events": 332,
+    "partial_events": 21,
+    "whole_events": 28
+  },
+  "checks": [
+    {
+      "name": "source_inventory",
+      "passed": true,
+      "detail": "dictionary=173, events=381, statements=116"
+    },
+    {
+      "name": "page_scope",
+      "passed": true,
+      "detail": "only the seven fixed prose pages occur"
+    },
+    {
+      "name": "source_whole_inventory",
+      "passed": true,
+      "detail": "types=22, occurrences=28"
+    },
+    {
+      "name": "codebook_inventory",
+      "passed": true,
+      "detail": "rows=22, unique_ids=22"
+    },
+    {
+      "name": "codebook_exact_binding",
+      "passed": true,
+      "detail": "the 22 codebook cards equal the complete source whole-card set"
+    },
+    {
+      "name": "codebook_occurrences",
+      "passed": true,
+      "detail": "occurrence_sum=28"
+    },
+    {
+      "name": "headword_inventory",
+      "passed": true,
+      "detail": "rows=16, unique_heads=16"
+    },
+    {
+      "name": "headword_partition",
+      "passed": true,
+      "detail": "16 headwords partition all 22 exact whole cards once"
+    },
+    {
+      "name": "headword_counts",
+      "passed": true,
+      "detail": "headword_occurrence_sum=28"
+    },
+    {
+      "name": "copybook_inventory",
+      "passed": true,
+      "detail": "rows=116, unique_statements=116"
+    },
+    {
+      "name": "copybook_source_binding",
+      "passed": true,
+      "detail": "all 116 surface and P/p/W sequences match source event order"
+    },
+    {
+      "name": "copybook_full_event_coverage",
+      "passed": true,
+      "detail": "P=332, p=21, W=28"
+    },
+    {
+      "name": "lesson_levels",
+      "passed": true,
+      "detail": "L1_PRODUCTIVE=79, L2_BOUND_CARRIERS=15, L3_CODEBOOK=22"
+    },
+    {
+      "name": "exercise_inventory",
+      "passed": true,
+      "detail": "rows=16, covered_headwords=16"
+    },
+    {
+      "name": "exercise_binding",
+      "passed": true,
+      "detail": "each exercise contains the exact whole-card headword it teaches"
+    },
+    {
+      "name": "manual_contract",
+      "passed": true,
+      "detail": "manual teaches productive, partial, and whole-card layers"
+    },
+    {
+      "name": "sealed_pages_absent",
+      "passed": true,
+      "detail": "no sealed selector occurs in generated tables"
+    },
+    {
+      "name": "deterministic_rebuild",
+      "passed": true,
+      "detail": "all generated artifacts rebuilt byte-identically"
+    }
+  ],
+  "artifact_sha256": {
+    "WHOLE_CARD_22_CODEBOOK.tsv": "1213ab7eab0ec45f3af9d85e7b538e9513d18d6518de972638c484239e75f0f6",
+    "WHOLE_HEADWORD_16.tsv": "be8b03ce07a1dd7b102fed786e9bf5fb014f09e2b039e844e297738aaf237240",
+    "COPYBOOK_116_STATEMENTS.tsv": "ea80e1b3df625a09c3990caea08347bb0abcdf0e221bb8eee0d6d86b909257ae",
+    "APPRENTICE_16_EXERCISES.tsv": "4d8e56e13d0ef151ee99b1a345d8a4aa7d851b50e6355f1ada035fe3fad06b44",
+    "APPRENTICE_ONE_PAGE_MANUAL.md": "72d5dfd18b093f897c23b0a80b69a91636ac98bc55cfbf8d80784dc7ec10b131",
+    "BUILD_SUMMARY.json": "c7897a0f3b4c3c582fb40938fe8a4bf43d592b36fc966ad55cbd4eb9efa9508e"
+  }
+}

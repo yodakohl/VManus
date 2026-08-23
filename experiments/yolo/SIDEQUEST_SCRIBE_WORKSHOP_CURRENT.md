@@ -1,6 +1,7 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-23, after completing the KCH/TY and nomenclator families.
+Updated: 2026-08-23, after compressing the remaining whole cards into a
+one-page apprentice codebook.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -19,7 +20,34 @@ Exactly ten pages are in scope:
 `f84` and `f84r` remain sealed. ZL3b, IT2a and RF1b are alternate readings of
 one manuscript. No additional page, image or semantic corpus was admitted.
 
-## Active compact family dictionary
+## Active apprentice codebook
+
+The complete prose system is now teachable as three layers. `P` cards are
+formed from productive workshop components, `p` cards retain a known component
+plus a small bound carrier, and `W` cards are looked up as exact learned forms.
+Across all 381 prose events the split is 332 `P`, 21 `p` and only 28 `W`.
+
+The 22 exact whole cards collapse into sixteen short teaching headwords:
+ZUSATZ, GEFAESS, KUEHLEN, ROH, TUCH, SCHWENKEN, PFLANZENTEIL, WASCHEN,
+AUFTRAGEN, FUELLEN, KLARLAUF, TRENNEN, FRISCHWASSER, VORIGES, TEILEN and
+BEFESTIGEN. These are workshop meanings rather than proposed sounds. Variant
+cards retain their exact identity: for example the three GEFAESS cards select
+general, receiving or preparation vessels, while the image and local station
+supply the concrete object.
+
+The full 116-statement copybook divides naturally into 79 productive lessons,
+fifteen bound-carrier lessons and 22 codebook lessons. Sixteen selected
+dictation exercises teach one headword each. This is now the simplest usable
+version of the sidequest's ca.-1420 writing system: productive brevigraphs, a
+small carrier layer, a sixteen-headword nomenclator and silent image ownership.
+
+Active files are in `sidequest_semantic_apprentice_codebook/`, led by
+`APPRENTICE_CODEBOOK_REPORT.md`, `APPRENTICE_ONE_PAGE_MANUAL.md`,
+`WHOLE_HEADWORD_16.tsv`, `WHOLE_CARD_22_CODEBOOK.tsv`,
+`COPYBOOK_116_STATEMENTS.tsv`, `APPRENTICE_16_EXERCISES.tsv`, builder and
+validator.
+
+## Previous compact family dictionary
 
 The remaining local whole-card tail now forms seven small workshop decks. The
 strongest new paradigms are `KCH = process/work`: KCH+Y work this item,
