@@ -1779,6 +1779,31 @@ the 281-group binding, five historical analogues, report, builder and
 validator. Next give the three Astro pages the same concrete whole-package
 treatment while preserving their separate namespaces and lack of orientation.
 
+## Active eighty-fifth practical celestial almanac
+
+The three Astro pages now share a concrete sixteen-word almanac vocabulary:
+`Wahlrad`, `Himmelssektor`, `Sternort`, `Bedingungsfeld`, `Ringrubrik`,
+`Himmelszeichen`, `Kalenderzeichen`, `Wahlzeichen`, `Sterntafel`, `28er Feld`,
+`Rosettenrad`, `Wetterzeichen`, `Lichtzeichen`, `Zeitzeichen`,
+`Eigenschaftszeichen` and `Ortsschlüssel`.
+
+Three whole packages were compared across all 142 loci and 395 groups. A
+practical celestial election/weather almanac leads 57, a celestial
+model/memory book 52 and explicit iatromedical election tables 51. The
+selected content therefore keeps medical timing as a plausible book-level use
+but does not force treatment meanings into local signs. A1 remains two choice
+wheels, A2 a multipanel star table and A3 three separate 28-place,
+weather and light/time/property rosettes.
+
+Active files are in
+`sidequest_semantic_celestial_almanac_vocabulary_eighty_fifth_edition/`, led by
+`EIGHTY_FIFTH_COMPLETE_CELESTIAL_ALMANAC.md`, with three model vocabularies,
+nine instrument comparisons, sixteen selected words, three complete
+instruments, all 142 loci and 395 groups, five historical analogues, report,
+builder and validator. Next combine the concrete Herbal, bath/service and
+celestial packages into one continuous ten-page codex synopsis and inspect its
+book-level purpose without altering any local dictionary value.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
