@@ -2480,6 +2480,28 @@ five tablet summaries, builder and validator. Next inspect the 57 bridge cards
 and distinguish genuinely reusable cross-section grammar from coincidental
 atom combinations.
 
+## Active hundred-fifteenth bridge revision
+
+The phrase “57 bridge cards” was too broad. Only four exact cards actually
+occur in both Herbal and Biological: `cheeky` (warm longer/current item),
+`chdy` (transfer/current item), `chety` (divide/part) and `cheey` (result).
+Forty-eight of the former bridge cards occur only in Biological and five only in
+Herbal.
+
+What crosses sections is primarily nine short atomic contributions—portion,
+run, transfer, result, warm, passage, stage, lead-out and divide—not every whole
+card built from them. The revised teaching inventory is therefore seventy
+portable core cards, four portable exact bridge cards, 53 sectional cards with
+a shared bridge atom and 46 specialist-tablet cards. This preserves useful
+composition while withdrawing false whole-card portability.
+
+Active files are in
+`sidequest_semantic_bridge_card_revision_hundred_fifteenth_edition/`, led by
+`HUNDRED_FIFTEENTH_BRIDGE_REVISION_REPORT.md`, with the nine bridge atoms, all 57
+audited cards, revised 173-card teaching dictionary, builder and validator. Next
+inspect the seventy portable-core cards by exact cross-record recurrence and
+separate truly shared whole cards from cards that only happen to use core atoms.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
