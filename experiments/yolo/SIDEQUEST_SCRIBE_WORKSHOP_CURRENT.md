@@ -1828,6 +1828,29 @@ builder and validator. Next confront every concrete source word with its
 surface/card neighborhoods and mark which meanings have a recurring textual
 anchor versus those carried solely by the master program.
 
+## Active eighty-seventh textual-anchor audit
+
+The 44 concrete content words now carry explicit provenance instead of one
+undifferentiated confidence level. Nine are supported by recurrent card
+families, nineteen primarily by visible owners or diagram structure, eight by
+local Astro nomenclators and eight only by the learned source program.
+
+The master-only recipe tail is `Wein`, `Öl`, `Honig`, `Satz`, `Trank`, `Salbe`,
+`Einreibung` and `Auflage`. These remain useful working translations but no
+longer masquerade as direct card readings. `Wasser`, `Waschung`, `Tuch`,
+`Kräuterzusatz`, `Badwärme`, `Badezeit`, `Umschlag` and `Seihgang` have recurring
+textual machinery; figures, basins, local connections and large diagram forms
+remain visually supplied. Astro sign meanings remain local to their wheel or
+panel.
+
+Active files are in
+`sidequest_semantic_textual_anchor_eighty_seventh_edition/`, led by
+`EIGHTY_SEVENTH_44_WORD_ANCHOR_AUDIT.tsv`, with a full 776-row provenance
+binding, the explicit master-only tail, report, builder and validator. Next use
+the recurrent learned whole cards to see whether any of the eight master-only
+recipe words can be narrowed or replaced by a shorter, genuinely repeated
+content value.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
