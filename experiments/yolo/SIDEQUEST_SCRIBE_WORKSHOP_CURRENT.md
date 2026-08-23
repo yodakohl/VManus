@@ -3368,6 +3368,27 @@ clauses, six continuous records, readable book, report, builder and validator.
 Next rebuild the complete eleven-record and ten-page editions from this 47+126
 dictionary and recount how much generic role scaffolding is still needed.
 
+## Active hundred-fifty-sixth atomic current ten-page edition
+
+This is the new compact sidequest base. It binds 230 visible prose forms to 173
+master cards, 381 prose events, 116 clauses, eleven records, 395 Astro groups
+and all 776 visible groups. The prose economy is exactly 47 productive shared
+cards covering 251 events plus 126 atomic local whole cards covering 130.
+
+The old dotted singleton pseudo-compositions have disappeared. Shared cards
+carry reference, quantity, order, state, operation and closure; the local
+nomenclator supplies indivisible technical words. Visible owner, carry memory,
+card meaning and fluent expansion remain separate. Astro remains an owner-
+local menu with no prose import, rotation, direction or f68r1-to-f69v key.
+
+Files are in
+`sidequest_semantic_atomic_current_ten_page_hundred_fifty_sixth/`: 173-card
+dictionary, 230-form reader, 381-event and 116-clause editions, eleven records,
+395-group Astro menu, complete 776-row ledger, four optional jobs, complete
+ten-page book, pocket manual, report, builder and validator. Next simplify the
+renderer rules for the 47 shared cards across all 230 observed surfaces without
+changing any of the 173 meanings.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
