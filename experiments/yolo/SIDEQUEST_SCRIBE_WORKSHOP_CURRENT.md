@@ -7404,9 +7404,17 @@ framed whole exception cover the nomenclator layer. Forty reverse exercises and
 twelve genuinely new composition forecasts are explicit. See
 `sidequest_semantic_apprentice_reverse_codebook_two_hundred_eighty_sixth/TWO_HUNDRED_EIGHTY_SIXTH_APPRENTICE_CODEBOOK.md`.
 
-Next, resolve the twenty remaining allograph sets by page, position, terminal
-state, neighbouring card, and owner role. Promote only a simple workshop choice
-rule; otherwise keep the variant memorized.
+Pass 287 resolves eighteen of the twenty apparent allograph sets as missing
+semantic subtypes: general/first/preparation portion, source/outflow,
+target/target-mark, new/previous transfer, short/long handling and related
+choices. The resulting 147 recipes give 145 single-form choices; only the CTH
+short-preparation pair and OT follow-transfer pair remain locally allographic.
+The canonical writer now selects 350/352 composed occurrences directly. See
+`sidequest_semantic_allograph_resolver_two_hundred_eighty_seventh/TWO_HUNDRED_EIGHTY_SEVENTH_RESOLVED_WRITER_MANUAL.md`.
+
+Next, test whether the last two pairs follow a simple owner/register writing
+rule: visible vessel versus transition zone for CTH, and main record versus
+technical addendum for the CHD/CHED follow-transfer form.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
