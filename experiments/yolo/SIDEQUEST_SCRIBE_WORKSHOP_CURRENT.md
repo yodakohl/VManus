@@ -2954,6 +2954,28 @@ orders, report, builder and validator. Next propagate the shortened values
 through the whole current edition and rewrite every job as terse workshop
 clauses.
 
+## Active hundred-thirty-sixth period-sized edition
+
+The shortened values are now propagated through all 173 cards, 230 surfaces,
+381 prose events, 116 statements, eleven records and four jobs. Twenty-nine
+active defaults changed. The central chains now read like a small workshop
+codebook rather than modern prose: `char chety = davon | Anteil`, `okaiin =
+bemessen`, `checthy chety otaiin = bereit | Anteil | Folgemaß`, and terminal
+`oldy = fertig`.
+
+The active item comes from the inherited record state, allowing `choky =
+einsetzen`, `chdy = überführen`, and `chey = dies`. Endpoint-bearing exact
+cards keep their learned close but shorten to forms such as `abführen; Schluss`,
+`seihen; Schluss`, and `kurz absetzen; Schluss`. Every one of the four jobs now
+has both a terse utterable order and all underlying record clauses.
+
+Files are in
+`sidequest_semantic_period_sized_current_edition_hundred_thirty_sixth/`, led by
+the complete terse edition, revised 173-card dictionary, 230-form key,
+381-event, 116-statement and eleven-record tables, four jobs, report, builder
+and validator. Next audit parts of speech and repeated card pairs against this
+shortened edition; do not restore sentence-sized dictionary glosses.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
