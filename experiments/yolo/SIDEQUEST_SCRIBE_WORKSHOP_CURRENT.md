@@ -849,6 +849,26 @@ Active files are in
 report, builder and consistency checker. This is the current correction layer
 for the mixed stem-and-whole-card system.
 
+## Active forty-second forward-composition edition
+
+Twenty new master commands now run in the productive direction from spoken
+work order to card chain and four scribal surfaces. Five silent owner classes
+receive four commands each: pictured plant, paired basins, cloth/filter,
+local pool station and celestial table. Each command also carries an explicit
+four-slot memory state.
+
+All twenty Tuple chains are distinct, absent as complete contiguous chains
+from the 116 fixed statements and absent from the twelve earlier dictations.
+The four profiles produce eighty surface copies; every command has visible
+surface variation while Tuple order and spoken readback stay invariant. These
+are apprentice compositions, not alleged missing manuscript text.
+
+Active files are in
+`sidequest_semantic_forward_composition_forty_second_edition/`, led by
+`FORTY_SECOND_MASTER_DICTATION_BOOK.md`, with twenty commands, eighty
+four-hand copies, report, builder and consistency checker. This is the current
+demonstration that the proposed mixed script can be written as well as read.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
