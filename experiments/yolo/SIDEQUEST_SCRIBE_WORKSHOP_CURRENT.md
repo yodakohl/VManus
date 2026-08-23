@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-23, after consolidating all 44 cross-register cards into one workshop lexicon.
+Updated: 2026-08-23, after deriving a portable component language from the common-card lexicon.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -18,6 +18,35 @@ Exactly ten pages are in scope:
 
 `f84` and `f84r` remain sealed. ZL3b, IT2a and RF1b are alternate readings of
 one manuscript. No additional page, image or semantic corpus was admitted.
+
+## Active portable component language
+
+The 44 exact surfaces shared by prose and diagrams reduce to 29 distinct prose
+master cards. Those cards now teach a compact language of seventeen atoms:
+`AIIN` value, `AIN` share, `AR` source, `AL` target, `Y` current item, `OK` set,
+`OL` continue, `OT` follow, `E/EE/EEE` short/long/full, `CHD` transfer, `OR`
+batch or set, `HO` input item, `KCH` process, `SH` hold, and `CLOSE` close.
+`CHEEY`, `DAIN`, `ODY`, and `OS` remain four learned bridge cards rather than
+being forced into smaller pieces.
+
+The seventeen atoms compose 46 additional prose master cards beyond the 29
+cross-register seeds. The portable layer therefore reads 75 of 173 prose card
+types and 241 of 381 prose events. Together with the 89 shared diagram labels,
+330 of the complete 776 visible groups now use the same component language;
+the remaining groups retain their concrete local card or owner value.
+
+The strongest productive rows are `OT+OR = FOLGEANSATZ`, `OT+AIIN =
+FOLGEWERT`, `OK+AIIN = AUF VORGABEWERT SETZEN`, `OK+AL+Y = AKTUELLEN POSTEN
+AM ZIEL SETZEN`, `CHD+AIN = ANTEIL ÜBERTRAGEN`, `OL+CHD+CLOSE = WEITER
+ÜBERTRAGEN; SCHLUSS`, and `HO+AL+Y = EINGANGSPOSTEN ZUM ZIEL`. Four complete
+passages (`H2-S002`, `H5-S001`, `B1-S002`, and `B3-S032`) have been rewritten
+card by card with this grammar before receiving their fluent workshop reading.
+
+Active files are in `sidequest_semantic_portable_component_grammar/`, led by
+`PORTABLE_COMPONENT_GRAMMAR_REPORT.md`, the 17-atom/four-whole-card sheet,
+29 seed compositions, 46 additional card predictions, four rewritten
+passages, the complete 776-group component reader, pocket card, builder, and
+validator.
 
 ## Active common 44-card lexicon
 
