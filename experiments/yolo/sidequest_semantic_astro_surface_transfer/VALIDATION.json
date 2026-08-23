@@ -1,0 +1,158 @@
+{
+  "status": "PASS",
+  "pass_count": 20,
+  "fail_count": 0,
+  "checks": [
+    {
+      "check": "group_count",
+      "pass": true,
+      "detail": 395
+    },
+    {
+      "check": "group_serial",
+      "pass": true,
+      "detail": "1..395"
+    },
+    {
+      "check": "group_ids_unique",
+      "pass": true,
+      "detail": "395 expected"
+    },
+    {
+      "check": "surface_type_count",
+      "pass": true,
+      "detail": 301
+    },
+    {
+      "check": "surface_type_unique",
+      "pass": true,
+      "detail": "301 expected"
+    },
+    {
+      "check": "type_occurrence_sum",
+      "pass": true,
+      "detail": 395
+    },
+    {
+      "check": "forward_cell_count",
+      "pass": true,
+      "detail": 18
+    },
+    {
+      "check": "three_exact_fills",
+      "pass": true,
+      "detail": [
+        "CHD+AIIN",
+        "OL+AR",
+        "OT+AIR"
+      ]
+    },
+    {
+      "check": "qotair_exact",
+      "pass": true,
+      "detail": {
+        "predicted_atom_sequence": "OT+AIR",
+        "predicted_short_reading_de": "nächsten Wasserlauf nehmen",
+        "prose_status": "EMPTY_PRODUCTIVE_CELL",
+        "astro_exact_hit_count": "1",
+        "astro_surfaces": "qotair",
+        "astro_pages": "f69v",
+        "astro_owners": "A3_RIGHT_WHEEL_RING_TEXT",
+        "existing_astro_readings": "lokaler Himmels- oder Kalenderplatz A3_RIGHT_WHEEL_RING_TEXT: naechster Platz oder folgende Bedingung + Himmels-, Ring- oder Zeigerlauf; lokaler Namensrest q.",
+        "cross_register_decision": "FORWARD_CELL_FILLED_BY_ASTRO"
+      }
+    },
+    {
+      "check": "olar_exact",
+      "pass": true,
+      "detail": {
+        "predicted_atom_sequence": "OL+AR",
+        "predicted_short_reading_de": "vom Ausgang weiterführen",
+        "prose_status": "EMPTY_PRODUCTIVE_CELL",
+        "astro_exact_hit_count": "1",
+        "astro_surfaces": "olar",
+        "astro_pages": "f67r2",
+        "astro_owners": "A1_RIGHT_OUTER_RING_TEXT",
+        "existing_astro_readings": "Ring- oder Bandstelle A1_RIGHT_OUTER_RING_TEXT: im selben Ring, Band oder Satz fortsetzen + Ausgangssektor, Ursprung oder Bezugswert.",
+        "cross_register_decision": "FORWARD_CELL_FILLED_BY_ASTRO"
+      }
+    },
+    {
+      "check": "chedaiin_exact",
+      "pass": true,
+      "detail": {
+        "predicted_atom_sequence": "CHD+AIIN",
+        "predicted_short_reading_de": "nach Sollmaß umsetzen",
+        "prose_status": "EMPTY_PRODUCTIVE_CELL",
+        "astro_exact_hit_count": "1",
+        "astro_surfaces": "chedaiin",
+        "astro_pages": "f67r2",
+        "astro_owners": "A1_LEFT_LOCAL_FIELD_39",
+        "existing_astro_readings": "Sternplatz A1_LEFT_LOCAL_FIELD_39: Wert oder Platzbezug uebertragen + Sollwert oder Grad eines Diagrammplatzes.",
+        "cross_register_decision": "FORWARD_CELL_FILLED_BY_ASTRO"
+      }
+    },
+    {
+      "check": "qotair_parse",
+      "pass": true,
+      "detail": {
+        "visible_surface": "qotair",
+        "occurrences": "1",
+        "pages": "f69v",
+        "owners": "A3_RIGHT_WHEEL_RING_TEXT",
+        "namespaces": "F69_RIGHT_WHEEL_NS",
+        "detected_literal_atoms": "OT+AIR",
+        "detected_cues": "OT=ot@1-3|AIR=air@3-6",
+        "covered_characters": "5/6",
+        "transfer_class": "FORWARD_PREDICTED_EXACT",
+        "exact_prose_master_card_id": "NONE",
+        "forward_prediction": "OT+AIR",
+        "representative_astro_reading_de": "lokaler Himmels- oder Kalenderplatz A3_RIGHT_WHEEL_RING_TEXT: naechster Platz oder folgende Bedingung + Himmels-, Ring- oder Zeigerlauf; lokaler Namensrest q."
+      }
+    },
+    {
+      "check": "exact_prose_surface_types",
+      "pass": true,
+      "detail": 44
+    },
+    {
+      "check": "exact_prose_surface_groups",
+      "pass": true,
+      "detail": 89
+    },
+    {
+      "check": "candidate_rows",
+      "pass": true,
+      "detail": 53
+    },
+    {
+      "check": "fixed_pages",
+      "pass": true,
+      "detail": [
+        "f67r2",
+        "f68r1",
+        "f69v"
+      ]
+    },
+    {
+      "check": "no_orientation_inference",
+      "pass": true,
+      "detail": "all local-owner only"
+    },
+    {
+      "check": "no_crosspage_key",
+      "pass": true,
+      "detail": "all no-key"
+    },
+    {
+      "check": "sealed_absent",
+      "pass": true,
+      "detail": "sealed tokens absent"
+    },
+    {
+      "check": "deterministic_rebuild",
+      "pass": true,
+      "detail": "all bytes identical"
+    }
+  ]
+}

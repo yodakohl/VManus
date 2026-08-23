@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-23, after producing a speakable complete eleven-record edition.
+Updated: 2026-08-23, after testing the prose surface compiler against all 395 Astro groups.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -91,6 +91,29 @@ attachment tables remain the exact lower layer.
 Active files are in `sidequest_semantic_speakable_edition/`, led by
 `SPEAKABLE_ELEVEN_RECORD_EDITION.md`, the complete 116-statement table,
 record summary, compact report, builder and validator.
+
+## Active Astro surface transfer
+
+The same longest-match stem inventory has now been applied to all 395 groups
+and 301 distinct visible forms on `f67r2`, `f68r1`, and `f69v`. The 18 empty
+prose paradigm cells were formed before this scan. Three are filled exactly by
+Astro forms: `OL+AR = olar` (continue from source), `CHD+AIIN = chedaiin`
+(transfer to prescribed value), and most strikingly `OT+AIR = qotair`
+(following run or next course). `qotair` sits in the `f69v` right-wheel ring
+text, whose existing local reading independently expands it as a following
+celestial/ring/indicator course.
+
+This broadens `AIR` from literal water to **run/course**. In Herbal/Biological
+wet-process contexts its owner can supply running liquid or water; on a wheel
+the owner supplies a celestial or pointer course. The same owner-dependent
+but compositionally stable rule now applies to `AL/AR` target/source and
+`AIIN/IIN` prescribed value/stage. The scan also finds 53 multi-atom Astro
+candidates for the next family pass, while 74 surface types remain fully local
+Astro nomenclator material.
+
+Active files are in `sidequest_semantic_astro_surface_transfer/`, led by
+`ASTRO_SURFACE_TRANSFER_REPORT.md`, complete 395-group and 301-type parses,
+18-cell forward-hit table, multi-atom candidates, builder and validator.
 
 ## Active exception anatomy
 
