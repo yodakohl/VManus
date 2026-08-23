@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-23, after the record-specific renderer-habit mixture pass.
+Updated: 2026-08-23, after the f11r material-class assignment.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -3642,6 +3642,27 @@ source candidates, three exact H3/B4 bridges, complete 53-event scenario,
 readable selection, report, builder and validator. Next assign the f11r plant
 one bounded concrete material class that best explains pressing, standing,
 re-filtering and later target application.
+
+## Active hundred-sixty-ninth f11r material class
+
+The f11r/H3 owner is now read as a **blue-flowering astringent wash and wound
+herb**. This is a concrete workshop material class, not a forced botanical
+species. It joins all seven local and downstream cues: pictured flowering
+plant, decoction, expression, standing, re-straining, exact clear extract and
+measured external station use.
+
+A cooling flowering bath herb is the strongest rival. Late-medieval recipe
+comparators make both classes historically natural, but a mucilaginous bath
+herb fits the deliberate clarification poorly and the old narrow violet guess
+still does not fit the drawing securely. The seventeen card values are
+unchanged; only the silent picture-owner expansion has become concrete.
+
+Files are in
+`sidequest_semantic_f11r_material_class_hundred_sixty_ninth/`: four material
+classes, seven process requirements, complete seventeen-event f11r expansion,
+historical source table, readable selected passage, report, builder and
+validator. Next write f11r/H3 and f83r/B4 as one fluent recipe and count every
+silent object that the picture or workshop exemplar must supply.
 
 ## Active surface compiler
 
