@@ -1596,6 +1596,29 @@ builder and validator. Next map every minimal card/root entry to the finite
 source slots it can actually license, so a short card can no longer trigger an
 arbitrary rich noun.
 
+## Active seventy-seventh card-to-source crosswalk
+
+The 43 entries in the minimal pocket dictionary now each license a finite set
+of source-slot classes, never a rich noun directly. `AL=Ziel` may open a local
+target, station, body/work area or diagram place; `AIR=Lauf` may select a run,
+water or wash-liquid channel; `CHK=wärmen` may select temperature; and
+`CHEO=Auszug` may select only extraction medium or extract. Learned cards are
+bounded in the same way.
+
+Across 381 prose groups, 202 can expose at least one content slot that is
+actually present in their own unit program. The other 179 are operation,
+order, grade, reference, closure or local learned content. Thus a card can ask
+for a kind of argument, while picture, register and unit program jointly
+supply the concrete word; no short card alone licenses `Badende`, `Wasser`,
+`Tuch`, `Wurzel` or another rich source noun.
+
+Active files are in
+`sidequest_semantic_card_source_crosswalk_seventy_seventh_edition/`, led by
+`SEVENTY_SEVENTH_CARD_SOURCE_CROSSWALK.md`, with all 43 entry licenses, the
+381-group event audit, report, builder and validator. Next run complete
+forward-and-backward apprentice readings on one Herbal, one Biological and
+one Astro unit using only these licenses and the selected source lexicon.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
