@@ -103,6 +103,22 @@ whole types/95 groups. Active files are in
 tables, reclassified learning burden, updated pocket codebook, report, builder
 and validator.
 
+## Active OD marked-entry paradigm
+
+`OD` is now promoted as a bound Astro-table modifier meaning
+**marked/entered**. The selected family has 28 surface types, 36 groups and 28
+owners. Eleven contrasts preserve the same contribution across portion,
+course, target, stage, readiness, source activation, graded target activation,
+next item, class item and addressed slot. The productive order is
+`operator/table body + E/EE grade + OD marked status + Y/current item`.
+
+This replaces the isolated `ody = take back this item` gloss with the simpler
+`OD+Y = mark/enter this item`. Longer bodies such as `CHEO+DY` still block an
+OD split, and free D remains nonsemantic. Active files are in
+`sidequest_semantic_od_marked_entry_paradigm/`, led by
+`OD_MARKED_ENTRY_REPORT.md`, with complete 28-type/36-group tables, eleven
+contrasts, six forward cells, builder and validator.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
