@@ -2663,6 +2663,30 @@ source commands with this order, compile them into the shared cards, and check
 whether the actual 57 skeleton-bearing statements remain readable without
 special pleading.
 
+## Active hundred-twenty-third two-register source grammar
+
+The single linear R122 stack has been replaced by two related workshop
+registers. Herbal article mode prefers action/state, material, carry/source,
+measure and target. Biological cell mode prefers action, source/target,
+carry/state, measure and current item. A carried source, measure or target may
+stand before the action as a short field rubric. This is one codebook with two
+entry layouts, not two semantic languages.
+
+After collapsing `Y-AIIN-Y`, `OL-(OL+OR)-OL` and the larger symmetric
+state-target envelope, 52 of 57 shared-card skeletons follow their register
+template directly, four require one local carry/fronting, and only
+`chey cheol cheol` retains two local reversals. Twelve ordinary German source
+commands were compiled forward into the shared deck: five recover exact
+observed skeletons, one an observed formula span and six are new but legal
+apprentice combinations.
+
+Active files are in
+`sidequest_semantic_two_register_source_grammar_hundred_twenty_third/`, led by
+`HUNDRED_TWENTY_THIRD_TWO_REGISTER_REPORT.md`, with the 57 observed parses,
+eight source templates, twelve source-to-card exercises, deterministic builder
+and validator. Next pass those twelve commands through the four scribe
+renderers and read them back without access to the source command.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
