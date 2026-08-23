@@ -3811,6 +3811,23 @@ nineteen-card codebook, five drawers, all 24 occurrence contexts, spoken
 apprentice manual, report, builder and validator. Next perform a genuine
 forward writing exercise from a short master instruction into cards and back.
 
+## Active hundred-seventy-eighth forward writing exercise
+
+A new thirteen-step master instruction was encoded with twelve existing cards
+in five fields and decoded back to the same atomic workflow. Three fields are
+new compositions and two reuse the taught double-pass cadence. No new surface
+or card value was needed.
+
+The generated sequence is `dchol shey aiin | cheky dain chedy qokeedy |
+shckhedy | shckhedy | kain dal qoky lshedy`: measure previous clear extract,
+warm it, set an insert, hold, pass twice, move a portion to the target, wash and
+close. Seven local nouns still come from picture or exemplar.
+
+Files are in `sidequest_semantic_forward_writing_hundred_seventy_eighth/`:
+thirteen-token encoding, five fields, seven ambiguity entries, complete
+roundtrip, report, builder and validator. Next perform a different forward
+exercise using stored stock, division, cooling and two target stations.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
