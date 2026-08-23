@@ -7019,8 +7019,16 @@ residence → output, using CHK/SHED grades, P/L+CHED transfer, AR/AL/Y address,
 OK+AIR activation, and construction-bound DY. See
 `sidequest_semantic_f83r_apparatus_lexicon_two_hundred_thirty_first/TWO_HUNDRED_THIRTY_FIRST_READABLE_APPARATUS_LEXICON.md`.
 
-Next, write the full f83r local station graph with source/input/residence/output
-edges and mark every visible owner break that blocks a direct apparatus link.
+Pass 232 maps all 153 f83r events and 54 statements onto nine local graph
+nodes. Only two inter-node edges are physical contacts: the lower paired
+assembly to its left blue channel and to its right S-conduit/hub. Three
+statements cross an owner break; upper station changes are text order, not
+pipes. The page is several stations plus one coupled lower subassembly, not a
+global circuit. See
+`sidequest_semantic_f83r_local_station_graph_two_hundred_thirty_second/TWO_HUNDRED_THIRTY_SECOND_READABLE_LOCAL_GRAPH.md`.
+
+Next, read N5–N7 alone as the only visibly coupled f83r apparatus and determine
+the most concrete two-arm function compatible with both text and geometry.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these

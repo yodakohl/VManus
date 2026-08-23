@@ -1,0 +1,11 @@
+edge_id	from_node	to_node	edge_class	visible_contact	source_transition	reading_limit
+G01	N1	N2	TEXT_ORDER_WITH_VISIBLE_GAP	NO	B3-S005	Page order changes station; no drawn connector.
+G02	N2	N3	TEXT_ORDER_WITH_VISIBLE_GAP	NO	B3-S010	Page order changes station; no drawn connector.
+G03	N3	N4	OWNER_BREAK_WITHIN_STATEMENT	NO	B3-S016:E263→E264	The clause continues, but the visible owner breaks before E264.
+G04	N4	N5	OWNER_BREAK_WITHIN_STATEMENT	NO	B3-S026:E290→E291	Long collection begins at the lower pair after an owner reset; upper/middle scenes are unconnected to it.
+G05	N5	N6	VISIBLE_UNDIRECTED_CONTACT	YES	image:C031–C032	Left lower vessel continues into a blue-lined channel with open end; no arrow.
+G06	N5	N7	VISIBLE_UNDIRECTED_CONTACT	YES	image:C033–C035	Right lower vessel continues into S-conduit and multiended hub; no arrow.
+G07	N6	N7	NO_DIRECT_EDGE	NO	image:C031–C035	Branches meet only through the paired lower assembly, not directly.
+G08	N5	N5	RECORD_RESET_SAME_VISIBLE_OWNER	NO	B3-S034→B4-S001	B4 restarts the text register although the visible pair remains the owner; this is no new physical edge.
+G09	N6	N8	RECORD_READDRESS_SAME_VISIBLE_BRANCH	NO	B4→B5	B5 returns to the left endpost but inherits no B4 working state; this is an alias, not a new physical edge.
+G10	N7	N9	RECORD_READDRESS_SAME_VISIBLE_BRANCH	NO	B5→B6	B6 addresses the right endpost in a fresh record; this is an alias, not a new physical edge.
