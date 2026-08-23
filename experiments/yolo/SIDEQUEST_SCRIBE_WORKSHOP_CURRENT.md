@@ -7396,9 +7396,17 @@ separate celestial choice instruments, all sharing the same source, target,
 sequence, portion, grade, path and fixed-value deck. See
 `sidequest_semantic_complete_ten_page_reading_two_hundred_eighty_fifth/TWO_HUNDRED_EIGHTY_FIFTH_COMPLETE_TEN_PAGE_READING.md`.
 
-Next, turn the current 36-family plus learned-sign inventory into a usable
-apprentice codebook and reverse-encode common workshop instructions. Retain a
-stem only when it predicts the observed card composition consistently.
+Pass 286 turns the 36 families into a reverse-usable apprentice codebook. The
+149 composed prose cards reduce to 124 meaning-plus-modifier recipes: 104 have
+one card form, twenty need a small learned allograph set. A default writer gets
+324/352 composed occurrences from the recipe alone; 23 whole signs plus one
+framed whole exception cover the nomenclator layer. Forty reverse exercises and
+twelve genuinely new composition forecasts are explicit. See
+`sidequest_semantic_apprentice_reverse_codebook_two_hundred_eighty_sixth/TWO_HUNDRED_EIGHTY_SIXTH_APPRENTICE_CODEBOOK.md`.
+
+Next, resolve the twenty remaining allograph sets by page, position, terminal
+state, neighbouring card, and owner role. Promote only a simple workshop choice
+rule; otherwise keep the variant memorized.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
