@@ -6875,6 +6875,15 @@ See `sidequest_semantic_bio_nouns_two_hundred_tenth/TWO_HUNDRED_TENTH_READABLE_B
 Next, identify the exact cards that genuinely bridge Herbal and Biological
 records and test whether one invariant value remains readable in both.
 
+Pass 211 finds 17 exact bridge cards carrying 136/381 prose events: 44 Herbal
+and 92 Biological. Sixteen are productive controls or operations; the sole
+learned whole-card bridge is `cheey/sheey` = `Klarlauf`. The invariant common
+core is listed in
+`sidequest_semantic_cross_register_bridge_two_hundred_eleventh/TWO_HUNDRED_ELEVENTH_COMMON_WORKSHOP_CORE.md`.
+
+Next, place one identical bridge-card sequence under a plant owner and a
+basin/station owner to isolate the semantic work done by the image.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
