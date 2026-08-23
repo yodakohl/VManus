@@ -7503,9 +7503,17 @@ composition leads, including `okaiiin` (OK+IIN), `olar` (OL+AR),
 spelling, not the practical prose object. See
 `sidequest_semantic_cross_register_combination_map_two_hundred_ninety_eighth/TWO_HUNDRED_NINETY_EIGHTH_COMBINATION_MANUAL.md`.
 
-Next, locate where those twelve forms could replace existing two-card prose
-phrases and retain only candidates that produce a shorter, clearer workshop
-instruction.
+Pass 299 tests the twelve Astro forms as prose compression devices. Only two
+preserve an existing local instruction exactly: `olar` can replace the B1-S002
+pair `sar · ol` (“from the same source, continue”), and `saral` can replace the
+B4-S016 pair `dal · skar` (“from source to target”). Three candidates have no
+local prose site and seven would lose an operation, address, item or grade. The
+visible manuscript text remains unchanged; the two cards are forward-writing
+alternatives. See
+`sidequest_semantic_cross_register_compression_two_hundred_ninety_ninth/TWO_HUNDRED_NINETY_NINTH_TWO_COMPACT_WRITING_EXAMPLES.md`.
+
+Next, add a writing-style layer to all 116 prose statements: visible phrase,
+available compact card, and the reason to compress or retain the phrase.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
