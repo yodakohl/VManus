@@ -6993,8 +6993,14 @@ tokens and 357 reading units, comprising 343 atomic and 14 composite units.
 The nested `Y Y AIIN Y` uses both pair and return rules. See
 `sidequest_semantic_combined_reference_parser_two_hundred_twenty_seventh/TWO_HUNDRED_TWENTY_SEVENTH_COMPOSITE_READING_MANUAL.md`.
 
-Next, translate one continuous f10r passage and one continuous f83r passage
-using these construction units and the fewest possible added connectives.
+Pass 228 reads complete H2 and B3-S001–S016: 60 visible cards become 50 reading
+units with 19 added German connective occurrences and no new content nouns.
+f10r reads as compact preparation/value prose; f83r as a local station program,
+without a global flow claim. See
+`sidequest_semantic_minimal_connective_passages_two_hundred_twenty_eighth/TWO_HUNDRED_TWENTY_EIGHTH_TWO_READABLE_PASSAGES.md`.
+
+Next, assign concrete functions to the first three f83r visual stations and
+read every card at each owner back against that function.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
