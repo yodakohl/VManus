@@ -1278,6 +1278,27 @@ bridges, four hand copies, twelve-point marking sheet, report, builder and
 consistency checker. Next use this complete job to derive the smallest actual
 source-language formular skeleton that could be abbreviated into the cards.
 
+## Active sixty-second source-formular edition
+
+All 381 prose cards now occupy ten reusable source slots: owner, order, action,
+source or preparation, quantity or stage, target, grade, referent, close, and
+learned/local body. The resulting 116 formulars require no statement-specific
+slot rule. Multi-slot cards such as action-plus-referent or order-plus-source
+remain compact combinations rather than sentence glosses.
+
+Every formular has two source-style renderings. One is terse workshop German;
+the other uses Latin-looking headings RES, ORD, OP, EX/PRAEP, Q/GRADUS, AD,
+MODUS, HOC and FIAT plus NOMEN. Neither is a language identification. They are
+two plausible pre-abbreviation orders showing how productive technical
+shortcuts and memorized whole signs can coexist around 1420.
+
+Active files are in
+`sidequest_semantic_source_formular_sixty_second_edition/`, led by
+`SIXTY_SECOND_SOURCE_FORMULAR_BOOK.md`, with all 381 slot assignments, 116 dual
+formulars, ten source-slot rules, report, builder and consistency checker. Next
+compress the ten slots into a small repertoire of actual clause shapes and
+rewrite a few key passages as natural source prose before card abbreviation.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
