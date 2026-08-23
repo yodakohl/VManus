@@ -4147,6 +4147,18 @@ Repeated singleton `qokedy` cells are repeated short contact steps, not new
 sentences or new vocabulary. Next normalize H4/H5 and B2, concentrating on
 substance transfer and visible station resets.
 
+## Active hundred-ninety-ninth normalized H4/H5/B2 edition
+
+All 107 visible events, 37 fields and 32 statements of H4/H5/B2 are normalized.
+H4 measures, divides, cools and stores portions; H5 makes and repeatedly applies
+an additive/extract; B2 routes working material through distinct upper, middle,
+lower and rim stations with only local direction.
+
+B2-S005 correctly reads the line-edge `qokaiin qokaiin` as two visible copies
+but one logical measure instruction: 107 visible events, 106 source tokens.
+Water/wine/oil are not forced by these cards. Next consolidate all 381 prose
+events into one new four-layer edition and audit the concrete dictionary.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
