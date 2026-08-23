@@ -7343,9 +7343,15 @@ SCHLUSS to FESTSETZEN, with concrete prose/Astro expansions retained. The full
 memorized ten-page inventory falls from 109 to105 entries. See
 `sidequest_semantic_thirty_six_stem_families_two_hundred_seventy_eighth/TWO_HUNDRED_SEVENTY_EIGHTH_READABLE_36_FAMILY_DECK.md`.
 
-Next, rewrite all116 prose statements using the corrected portable family
-values first and register-specific fluent expansions second, so no old CHK/DY/
-CHO sentence-sized gloss survives unnoticed.
+Pass 279 rewrites all173 prose cards,381 occurrences and116 statements in two
+layers: portable family literals first, local Herbal/Bio expansions second.
+There are149 pure family-composed cards/352 events,23 whole-sign cards/28
+events and one frame-plus-whole event. The five portable corrections affect70
+cards and145 events without deleting their concrete local readings. See
+`sidequest_semantic_two_layer_prose_two_hundred_seventy_ninth/TWO_HUNDRED_SEVENTY_NINTH_ELEVEN_RECORD_EDITION.md`.
+
+Next, join the revised prose and Astro editions into one ten-page dictionary,
+event ledger and readable workshop manual based on the 36-family system.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
