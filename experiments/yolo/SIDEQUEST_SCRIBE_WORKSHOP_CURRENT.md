@@ -6947,8 +6947,14 @@ Astro memberships, while separately listing the 182 exact whole portable
 occurrences. `EY` is not promoted; `DY` remains construction-bound. See
 `sidequest_semantic_portable_dictionary_entries_two_hundred_nineteenth/TWO_HUNDRED_NINETEENTH_READABLE_PORTABLE_DICTIONARY.md`.
 
-Next, substitute each dictionary article into one plant, one Biological and
-one Astro phrase and revise any headword that becomes unnatural in one owner.
+Pass 220 substitutes all eleven entries into plant, Biological and Astro
+phrases. Nine values survive. `DY` changes from `FERTIG` to the cleaner cell
+marker `SCHLUSS`; learned `CHEEY/SHEY` changes from `FREIGABEWERT` to the
+register-neutral `ERGEBNIS`, retaining local wet `Klarlauf`. See
+`sidequest_semantic_three_owner_substitution_two_hundred_twentieth/TWO_HUNDRED_TWENTIETH_THREE_OWNER_PHRASEBOOK.md`.
+
+Next, integrate these two revisions into the full dictionary, Prose and Astro
+tables and reread the common ten-token formula.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
