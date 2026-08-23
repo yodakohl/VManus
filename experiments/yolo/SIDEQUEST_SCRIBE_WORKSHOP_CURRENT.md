@@ -2099,6 +2099,31 @@ Active files are in
 how much of the complete 230-surface inventory these few renderer operations
 actually cover and isolate the irreducible learned allographs.
 
+## Active ninety-ninth renderer inventory
+
+All 230 fixed-page prose surfaces are now reduced to 173 master cards and their
+licensed entry habits. There are 173 master forms and 57 additional allographs.
+Of those additions, 52 are teachable as a stable free or bound card body plus
+one of the small `q`, `sh`, `s`, `ch`, `d`, `t` or zero-entry gestures. Only the
+five additional forms of `chey/chy/dy/shy/sy/y` resist that economical analysis:
+their common remainder is the single sign `y`, so the six-form set remains a
+learned card family rather than evidence that every entry prefix carries content.
+
+The family economy is 139 single-form cards, 23 free stable hosts, ten bound
+stable hosts and one irreducible allograph set. This explains productive-looking
+families such as `aiin/chaiin/daiin/saiin/taiin`,
+`al/chal/cheal/dal/sal/tal` and `cheol/chol/ol/qol/sol/tol` without assigning a
+new meaning to each entry sign. Renderer gestures are semantically empty and
+licensed card by card.
+
+Active files are in
+`sidequest_semantic_renderer_inventory_ninety_ninth_edition/`, led by
+`NINETY_NINTH_RENDERER_INVENTORY_REPORT.md`, with all 173 families, all 230
+surface decompositions, the renderer-gesture inventory, builder and validator.
+Next consolidate the hundredth edition: one best working theory, corrected
+dictionary, full ten-page reading, scribe manual, explicit translations and a
+short list of remaining high-value unknowns.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
