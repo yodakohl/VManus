@@ -70,6 +70,24 @@ builder and validator. The next target is the 166 partial forms: repeated
 residual bodies may promote new families without disturbing the closed
 25-core grammar.
 
+## Active Astro-local residual morphology
+
+The first residual-family pass promotes two fused, Astro-local table stems.
+`YK = class/house` occurs in 21 surface types and 26 groups across 16 owners;
+`YT = addressed slot/phase` occurs in 15 types and 17 groups across 16 owners.
+Forms such as `ykar`, `ykor`, `ykoaiin`, `ykaly` and `ytoaiin`, `ytodal`,
+`ytokar`, `ytory` now combine the local table stem with the established
+source/set/value/target/activation grammar.
+
+These are deliberately learned two-character bodies, not global meanings for
+free `K` or `T`. Thirty d/s/ch/che/q/o/t-frame surfaces remain renderer
+allographs, while unlicensed e/y residues and rare star-name tails remain
+local. Active files are in
+`sidequest_semantic_astro_residual_morphology/`, led by
+`ASTRO_RESIDUAL_MORPHOLOGY_REPORT.md`, the complete 301-type residual parse,
+36-type YK/YT paradigm, 43 group readings, local-stem rules, builder and
+validator.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
