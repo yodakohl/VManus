@@ -7529,9 +7529,16 @@ crossings: fourteen ordinary continuations, four visible-owner resets and the
 single E180→E181 read-once copy. See
 `sidequest_semantic_endpoint_scope_three_hundred_first/THREE_HUNDRED_FIRST_SCOPE_MANUAL.md`.
 
-Next, typeset all 116 statements as a readable workshop edition whose commas,
-semicolons, owner-reset brackets and read-once mark follow semantic scope rather
-than physical lines.
+Pass 302 typesets all 116 statements as eleven continuous Records independently
+of physical lines. Ninety Commit statements receive `;`, eighteen open
+statements point onward with `↪`, and eight open Record endings retain `…`;
+`/` separates open fields, four `[OWNER↻]` marks retain visible-owner changes,
+and the E180/E181 duplicate is read once with `↷`. See
+`sidequest_semantic_punctuated_edition_three_hundred_second/THREE_HUNDRED_SECOND_ELEVEN_RECORD_PUNCTUATED_EDITION.md`.
+
+Next, convert the fixed 116-statement card ledger into a fluent but fully
+traceable German imperative edition, preserving every card, field, owner change
+and Commit mark.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
