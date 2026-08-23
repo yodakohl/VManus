@@ -2838,6 +2838,29 @@ exemplar rows, function comparison, report, builder and validator. Next build
 an eleven-record drawer profile to compare the working architecture of Herbal
 articles and Biological cells.
 
+## Active hundred-thirty-first record architecture
+
+The drawer distribution makes the WHAT/HOW split concrete. Herbal has 100
+events: 55 active-core, seventeen specialist material/product, nine state,
+five quantity, five order, three filter, and only two transfer events.
+Biological has 281: 184 active-core, 36 state, 35 transfer, twelve filter, but
+only three specialist material/product events.
+
+Thus the pictured plant articles chiefly name material, preparation, product
+and portion. The basin/figure records inherit an active item and chiefly route,
+hold, settle, pass, strain or discharge it. H3 is the clearest extraction
+article; H4 the clearest quantity/application article; B2/B3 the strongest
+transfer-state programs; B4 adds cloth/application service; B5/B6 look like
+short service tails.
+
+Active files are in
+`sidequest_semantic_record_drawer_architecture_hundred_thirty_first/`, led by
+`HUNDRED_THIRTY_FIRST_RECORD_ARCHITECTURE_REPORT.md`, with the complete
+381-event drawer trace, eleven record profiles, Herbal/Bio comparison, builder
+and validator. Next pair compatible Herbal product profiles with Biological
+operation profiles to form a small set of plausible workshop jobs without
+inventing written cross-page pointers.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
