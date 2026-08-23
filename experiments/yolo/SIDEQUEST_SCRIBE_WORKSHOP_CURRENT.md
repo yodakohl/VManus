@@ -1851,6 +1851,29 @@ the recurrent learned whole cards to see whether any of the eight master-only
 recipe words can be narrowed or replaced by a shorter, genuinely repeated
 content value.
 
+## Active eighty-eighth master-tail repair
+
+The eight master-only Herbal nouns have now been shortened to predictable
+workshop classes. `Wein`, `Öl`, `Honig`, `Satz`, `Trank`, `Salbe`, `Einreibung`
+and `Auflage` become respectively `Auszugsflüssigkeit`, `Trägerstoff`,
+`Bindestoff`, `Restteil`, `dosiertes Mittel`, `streichfähiges Mittel`,
+`äußerliche Anwendung` and `gebundene Anwendung` in the primary reading. The
+old nouns remain explicit secondary content guesses.
+
+This follows the actual repetition: measure, preparation, extract, target and
+application operations recur, but no exact card uniquely covers all of the
+articles assigned wine, oil, honey or one finished-product class. Sixty-four
+ranked card-neighborhood candidates expose that mismatch rather than hiding
+it. The repaired five Herbal articles remain fully concrete and readable.
+
+Active files are in
+`sidequest_semantic_master_tail_repair_eighty_eighth_edition/`, led by
+`EIGHTY_EIGHTH_8_MASTER_WORD_REPAIRS.tsv` and the five repaired articles in
+`EIGHTY_EIGHTH_EDITION_REPORT.md`, with the 44-word lexicon, 64 neighborhood
+candidates, fourteen units, 776 binding, builder and validator. Next translate
+all 116 prose statements continuously with these repaired source classes and
+without treating physical line ends as sentence ends.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
