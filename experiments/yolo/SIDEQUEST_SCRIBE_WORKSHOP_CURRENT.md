@@ -7174,8 +7174,15 @@ longer bath, plant and diagram readings belong to the local owner expansion.
 See
 `sidequest_semantic_relation_stems_two_hundred_fifty_fourth/TWO_HUNDRED_FIFTY_FOURTH_READABLE_RELATION_LESSON.md`.
 
-Next, enumerate the observed pairwise combinations of those six stems and
-turn them into a small transition algebra that predicts unseen combinations.
+Pass 255 turns the six stems into a small algebra. Eleven of fifteen possible
+pairs are attested on twenty multi-stem cards and 26 prose occurrences. The
+sole triple OT+OL+Y reads DANACH MIT DIESEM POSTEN WEITER. AR+AL, AR+OL, AR+OR
+and AL+OL are absent; AR+OR and AL+OL are the best candidates for hidden
+compositions, while double-address AR+AL is probably written as two cards. See
+`sidequest_semantic_relation_algebra_two_hundred_fifty_fifth/TWO_HUNDRED_FIFTY_FIFTH_READABLE_COMBINATION_LESSON.md`.
+
+Next, search the memorized whole-card inventory for candidates matching the
+four missing combinations, using full contexts rather than spelling alone.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
