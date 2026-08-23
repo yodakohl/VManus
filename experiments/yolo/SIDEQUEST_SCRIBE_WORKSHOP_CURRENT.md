@@ -3303,6 +3303,27 @@ pattern table, spoken role card, report, builder and validator. Next generate
 a smoother German source book from these roles while retaining the literal
 card chain beside every clause.
 
+## Active hundred-fifty-third role-smoothed source book
+
+All 116 clauses now print three aligned layers: exact short card chain, spoken
+role expansion and smoother workshop German. The smoothing supplies German
+case and framing—`Arbeitsgegenstand`, `Menge/Stufe`, `Bezug`, `Zustand/Phase`,
+`örtlicher Weg`, or `Weg/Adresse`—and emits `Schritt schließen` exactly once
+for each of the 90 terminal statements.
+
+No dictionary value or card order changes. The result deliberately resembles
+a master reading an abbreviated register aloud rather than literary prose.
+This solves the worst noun-as-imperative errors while keeping every added
+grammatical word visibly outside the dictionary. Thirty-three clauses still
+need two or more generic role labels; these are now the concentrated weak set.
+
+Files are in
+`sidequest_semantic_role_smoothed_source_book_hundred_fifty_third/`: complete
+116 literal/role/smoothed clauses, eleven continuous records, readable side-
+by-side book, report, builder and validator. Next inspect the 33 label-heavy
+clauses and replace only genuinely learned whole cards with shorter concrete
+atomic values where that improves the entire occurrence set.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
