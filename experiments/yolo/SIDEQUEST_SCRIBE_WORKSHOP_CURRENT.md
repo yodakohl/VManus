@@ -7252,8 +7252,14 @@ diagram readings directly match the predicted Ziel+Sollwert and
 Übertragung+Sollwert values. See
 `sidequest_semantic_composition_forecast_two_hundred_sixty_fifth/TWO_HUNDRED_SIXTY_FIFTH_READABLE_FORECAST.md`.
 
-Next, parse every previously local Astro label ending in AIIN and determine
-how much of each label the40-component deck now explains.
+Pass 266 expands the AIIN family to thirteen formerly local Astro groups on
+twelve forms across all three Astro pages. Ten groups/nine forms compose fully
+from the40er deck; three retain only a local YTO/TOD/DAD core while AIIN remains
+SOLLWERT/GRAD. See
+`sidequest_semantic_astro_aiin_composition_two_hundred_sixty_sixth/TWO_HUNDRED_SIXTY_SIXTH_READABLE_AIIN_ATLAS.md`.
+
+Next, do the same for the previously local AIN and AN Astro endings and test
+whether AN consistently marks a second or alternative diagram setting.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
