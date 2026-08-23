@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-23, after resolving the local variant-selector grammar.
+Updated: 2026-08-23, after composing the 28 terminal program cards.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -19,7 +19,52 @@ Exactly ten pages are in scope:
 `f84` and `f84r` remain sealed. ZL3b, IT2a and RF1b are alternate readings of
 one manuscript. No additional page, image or semantic corpus was admitted.
 
-## Active variant-selector edition
+## Active program-composition edition
+
+The 28 exact terminal cards used by the local variant modules now form a
+small mixed workshop vocabulary rather than 28 unrelated sentence-sized
+words:
+
+```text
+ACTION CORE
+  + optional DIRECTION / ORDER / TARGET
+  + optional E/EE GRADE
+  + learned EXACT-CARD CLOSE role
+```
+
+Twenty cards are productively composed, four are licensed partial
+compositions with one memorized internal selector, and four remain learned
+whole-card commands. Across all ten-page prose occurrences, this accounts for
+69 fully compositional, five partial and four whole-card events. In the 64
+local variant calls, the split is 55/5/4.
+
+The reusable kit contains fifteen elements: `OK`, `CHD~CHED`, `SHED`,
+`CKH~CKHE`, `CHK`, `OLK`; `L`, `P`, `AL`, `OL`, `OT`, `AIR`; `E`, `EE`; and
+the exact-card close construction. The strongest grids are:
+
+```text
+OK + E/EE + CLOSE       short / longer set
+OT + E/EE + CLOSE       short / long following pass
+L/OL/OT/P/AL + CHED     out / continue / follow / in / target transfer
+OK/OL + SHED + CLOSE    start / continue settling
+L + CKHE + CLOSE        strain outward
+CHK/OLK + EE + CLOSE    longer heat / collect
+```
+
+The close remains a learned role of the whole exact card, never a global
+visible `DY = END` suffix. Initial `q` and alternating `s/d/t` wrappers receive
+no extra word meanings. Four honest nomenclator commands remain indivisible:
+`sshkchdy` swivel, `rshedy` wash, `lkedy` rewash and `qokylddy` fasten. This
+is the desired ca.-1420-style mixed architecture: a productive technical
+abbreviation layer plus a small learned specialist deck.
+
+No card value or continuous German instruction changed in this pass. Active
+files are in `sidequest_semantic_program_composition_completion/`, led by
+`PROGRAM_COMPOSITION_REPORT.md`, `PROGRAM_COMPOSITION_REGISTER.tsv`,
+`PROGRAM_COMPONENT_LEXICON.tsv`, `PROGRAM_FAMILY_GRID.tsv`, the complete
+173-/381-/116-/11 edition, builder and validator.
+
+## Previous variant-selector edition
 
 The thirteen local variant modules now have an executable apprentice rule:
 
