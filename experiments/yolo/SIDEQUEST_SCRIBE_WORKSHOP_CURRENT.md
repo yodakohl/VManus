@@ -6941,8 +6941,14 @@ expansions are cut. `Freigabewert` remains the portable value, with `Klarlauf`
 only as a local wet expansion. See
 `sidequest_semantic_owner_expansion_debt_two_hundred_eighteenth/TWO_HUNDRED_EIGHTEENTH_TOP20_SEMANTIC_DEBT.tsv`.
 
-Next, write compact dictionary entries for the most frequent portable cards,
-showing their common value and every prose/Astro local expansion side by side.
+Pass 219 writes eleven compact portable entries: ten common axes plus the
+learned `CHEEY/SHEY` result card. They bind 456 Prose axis memberships and 73
+Astro memberships, while separately listing the 182 exact whole portable
+occurrences. `EY` is not promoted; `DY` remains construction-bound. See
+`sidequest_semantic_portable_dictionary_entries_two_hundred_nineteenth/TWO_HUNDRED_NINETEENTH_READABLE_PORTABLE_DICTIONARY.md`.
+
+Next, substitute each dictionary article into one plant, one Biological and
+one Astro phrase and revise any headword that becomes unnatural in one owner.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
