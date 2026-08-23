@@ -2124,6 +2124,37 @@ Next consolidate the hundredth edition: one best working theory, corrected
 dictionary, full ten-page reading, scribe manual, explicit translations and a
 short list of remaining high-value unknowns.
 
+## Active hundredth centennial working edition
+
+The best ten-page theory is now one executable **image-addressed practical
+workshop register**. Pictures silently supply the plant, bath station or diagram
+locus. Herbal and Biological prose select exact cards for item, measure, source,
+target, operation, grade and close; Astro uses separate local owner keys. Lines
+wrap around prior drawings and do not delimit statements.
+
+The complete edition contains 173 corrected card defaults and 230 renderer
+forms, all 381 prose events in 116 continuous statements, all 395 Astro groups,
+44 source words, fourteen apprentice rules and a 776-group unified ledger with
+no empty default. It incorporates the R97 corrections: `taiin` is AIIN, CKHE is
+not CKH+E, CHD/SHED and CKH/KCH collisions remain split, and longest registered
+card wins.
+
+The concrete content lead is five illustrated plant preparations, four
+figure-owned bath/application records, two figureless service records and three
+local celestial lookup instruments. The resulting book is provisionally an
+illustrated practitioner compendium for plant preparation, bath/wash practice
+and celestial election or weather help. A natural-artificial-celestial
+modelbook remains the strongest whole-book rival.
+
+Active files are in `sidequest_semantic_centennial_working_edition/`, led by
+`HUNDREDTH_BEST_WORKING_THEORY.md` and
+`HUNDREDTH_TEN_PAGE_READABLE_TRANSLATION.md`, with the corrected dictionary,
+complete prose/Astro/total ledgers, source words, apprentice manual, twelve open
+working questions, builder and validator. Next improve the weakest half of the
+lexicon: rank single-form cards by contextual reuse and replace sentence-sized
+defaults with the shortest compositional or learned noun/verb that still reads
+all their occurrences.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
