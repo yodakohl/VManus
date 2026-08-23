@@ -1804,6 +1804,30 @@ builder and validator. Next combine the concrete Herbal, bath/service and
 celestial packages into one continuous ten-page codex synopsis and inspect its
 book-level purpose without altering any local dictionary value.
 
+## Active eighty-sixth concrete codex
+
+The three selected packages now form one complete ten-page content edition:
+five Herbal recipes, four figure-owned bath/application records, two
+figureless service records and three separate celestial instruments. The
+combined release has 44 domain source words, fourteen complete units and a
+single normalized binding for all 776 groups.
+
+The leading book purpose is a practical practitioner recipe/bath/celestial
+compendium at 54/60: prepare plant means, use them in local bath/application
+practice and consult separate sky tables for possible timing and conditions.
+A bathhouse supply/work almanac remains close at 50/60; a natural/artificial/
+celestial modelbook scores 45/60. The selected purpose is thematic rather than
+linked by invented cross-page pointers.
+
+Active files are in
+`sidequest_semantic_concrete_codex_eighty_sixth_edition/`, led by
+`EIGHTY_SIXTH_ONE_PAGE_CODEX_SYNOPSIS.md` and
+`EIGHTY_SIXTH_COMPLETE_CONCRETE_TEN_PAGE_CODEX.md`, with the 44-word content
+lexicon, fourteen units, full 776 binding, three-purpose comparison, report,
+builder and validator. Next confront every concrete source word with its
+surface/card neighborhoods and mark which meanings have a recurring textual
+anchor versus those carried solely by the master program.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
