@@ -7271,8 +7271,14 @@ basin flow remain local prose realizations. Five prose cards/events receive the
 abstract core. See
 `sidequest_semantic_air_path_revision_two_hundred_sixty_eighth/TWO_HUNDRED_SIXTY_EIGHTH_READABLE_AIR_LESSON.md`.
 
-Next, revisit the four relation-pair gaps from Pass255 against local Astro
-labels; look specifically for source-to-target and source-plus-continuation.
+Pass 269 revisits the four prose relation gaps. Astro directly composes AR+AL
+as SARAL twice and AR+OL as OLAR/OKOLAR twice. Practical prose instead uses
+the compact whole signs ÜBERTRAGEN and WEITERABZUG. AR+OR and AL+OL remain
+whole-sign routes SUDANSATZ and FOLGEANWENDUNG. See
+`sidequest_semantic_relation_gap_transfer_two_hundred_sixty_ninth/TWO_HUNDRED_SIXTY_NINTH_READABLE_REGISTER_ALGEBRA.md`.
+
+Next, parse the complete local Astro AL/AR suffix inventory and compare total
+source- and target-address use across prose and diagrams.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
