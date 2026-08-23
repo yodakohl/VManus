@@ -7129,9 +7129,15 @@ known prose cards recur, so 89/395 groups on 29 cards are familiar. The other
 new prose sentences. See
 `sidequest_semantic_astro_curriculum_transfer_two_hundred_forty_seventh/TWO_HUNDRED_FORTY_SEVENTH_READABLE_ASTRO_TRANSFER.md`.
 
-Next, give the sixteen additional prose-card matches diagram-native short
-values, removing inappropriate wet or plant expansions while preserving their
-component logic.
+Pass 248 gives the sixteen additional cards diagram-native values and feeds
+five corrections back into prose: OKEY/OKEEY mean short/long set-or-hold; CHO
+is an input or condition; OS is a receiving/enclosing field; ODY withdraws and
+closes. Wet contact, ingredient, vessel and cooling remain local expansions,
+not root meanings. See
+`sidequest_semantic_astro_native_card_values_two_hundred_forty_eighth/TWO_HUNDRED_FORTY_EIGHTH_READABLE_DIAGRAM_DICTIONARY.md`.
+
+Next, apply these five portable-core corrections to all 381 prose events and
+rewrite every affected statement with core and local expansion separated.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
