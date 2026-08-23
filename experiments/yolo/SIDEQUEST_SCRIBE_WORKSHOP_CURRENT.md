@@ -3283,6 +3283,26 @@ apprentice memory card, report, builder and validator. Next classify every
 card occurrence by spoken role—imperative, object, quantity, anaphor, state,
 link or close—and use that role order to make the German less telegraphic.
 
+## Active hundred-fifty-second spoken role grammar
+
+Every one of the 173 cards and 381 occurrences now has one of twelve spoken
+roles: operation, operation+close, object, quantity/stage, anaphor, ordered
+object, link/order, state, state+close, process/state, path operation, or
+transfer/address. Card order and short card value remain unchanged.
+
+The 116 clauses instantiate 78 exact role sequences. Twenty-eight clauses are
+a single closed operation; four are a single transfer/address and three a
+single process/state. The large tail reflects the learned nomenclator, but the
+role layer explains much of the former bad German: objects, targets and states
+were being recited as standalone commands instead of receiving case,
+connective or endpoint framing.
+
+Files are in `sidequest_semantic_spoken_role_grammar_hundred_fifty_second/`:
+173-card role lexicon, 381-event role trace, 116 clause parses, complete role-
+pattern table, spoken role card, report, builder and validator. Next generate
+a smoother German source book from these roles while retaining the literal
+card chain beside every clause.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
