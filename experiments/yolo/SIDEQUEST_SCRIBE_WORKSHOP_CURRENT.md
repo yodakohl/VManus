@@ -150,6 +150,21 @@ card. Active files are in
 `COMPLETE_TEN_PAGE_WORKSHOP_SIXTH_EDITION.md`, with the 26-form allograph
 table, four bare-frame table and complete 487/776/258 layers.
 
+## Active seventh complete edition
+
+Three Astro-local content roots are now integrated: `AM = aspect` (six
+types/eight groups), `G = degree` (four/four), and `OS = field/frame`
+(seven/eight). Their compositions include current/source aspect, degree stage,
+field source/value/input, graded field activation and class field. All 20
+groups were previously partial or whole.
+
+The reader now has 578 full, 123 partial and 75 whole groups; types are 314
+full, 114 partial, 56 whole and three register splits. `os` is the new split:
+Astro field/frame versus the learned prose mixing-vessel card. Active files
+are in `sidequest_semantic_astro_local_content_seventh_edition/`, led by
+`COMPLETE_TEN_PAGE_WORKSHOP_SEVENTH_EDITION.md`, with three-root, 17-type,
+20-group and complete 487/776/258 layers.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
