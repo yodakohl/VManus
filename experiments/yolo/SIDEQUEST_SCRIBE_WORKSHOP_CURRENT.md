@@ -1235,6 +1235,26 @@ Active files are in
 checker. Next turn the unsafe cases into a compact master-correction drill and
 measure which errors can be caught by immediate readback alone.
 
+## Active sixtieth master-correction edition
+
+The red-ink book gives eight real-statement exercises for each of four
+meaning-changing errors: grade change, Y/close confusion, AL/AR reversal, and
+drop/duplicate/reorder. Each corrupted atom sequence names its concrete wrong
+readback while introducing no fake manuscript surface.
+
+Sixteen of the 32 errors are caught by local card readback alone: speak E, EE,
+EEE and distinguish a continuing Y-item from a licensed close. Eight direction
+errors require pointing at the visible owner to distinguish source from target.
+Eight ordering errors require counting back against the master exemplar. This
+is a plausible correction routine for a workshop without an explicit grammar.
+
+Active files are in
+`sidequest_semantic_master_correction_sixtieth_edition/`, led by
+`SIXTIETH_MASTER_CORRECTION_BOOK.md`, with 32 exercises, eight correction rules,
+report, builder and consistency checker. Next construct a complete journeyman
+piece that moves from one Herbal owner through a preparation, a Biological
+station sequence, and one local celestial lookup using only the pocket system.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible

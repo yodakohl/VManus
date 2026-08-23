@@ -1,0 +1,9 @@
+rule_id	error_family	master_rule_de	detection_channel
+R01	GRADE_CHANGE	E/EE/EEE einzeln laut lesen	LOCAL_CARD_READBACK
+R02	GRADE_CHANGE	Grad nie aus der Länge des ganzen Wortbildes raten	LOCAL_CARD_READBACK
+R03	Y_CLOSE_CONFUSION	Y hält den Posten; nur gelernte Schlusskarte schließt	LOCAL_CARD_READBACK
+R04	Y_CLOSE_CONFUSION	Zeilenende darf fehlenden Schluss nicht ersetzen	LOCAL_CARD_READBACK
+R05	AL_AR_SWAP	AL mit Finger am Ziel, AR mit Finger an der Quelle lesen	READBACK_PLUS_VISIBLE_OWNER
+R06	AL_AR_SWAP	bei unklarer Zeichnung nicht aus Gewohnheit umdrehen	READBACK_PLUS_VISIBLE_OWNER
+R07	DROP_DUPLICATE_REORDER	jede Karte beim Rücklesen abhaken	MASTER_EXEMPLAR_COMPARISON
+R08	DROP_DUPLICATE_REORDER	wiederholte Karte nur behalten, wenn sie in der Vorlage zweimal steht	MASTER_EXEMPLAR_COMPARISON
