@@ -2976,6 +2976,28 @@ the complete terse edition, revised 173-card dictionary, 230-form key,
 and validator. Next audit parts of speech and repeated card pairs against this
 shortened edition; do not restore sentence-sized dictionary glosses.
 
+## Active hundred-thirty-seventh composition grammar
+
+All 173 cards now have a syntactic type and all 116 statements a type
+signature. Only fourteen exact adjacent pairs recur twice or more; only one
+exact triple recurs twice. The useful architecture is therefore a small
+formula grammar around a large learned nomenclator, not unrestricted
+word-by-word composition.
+
+`CHEY AIIN CHEY` is the strongest construction: ITEM→MEASURE→ITEM, read as two
+current items under one prescribed measure. `CHEDY QOKEEDY` is transfer→long
+hold→close; `OL SHEDY` is continuation→settle/close. The important repair is
+`CHOLOR = derselbe Ansatz`: `CHEOL CHOLOR CHEOL` then reads `weiter | derselbe
+Ansatz | weiter` instead of the redundant `weiter | damit weiter | weiter`.
+
+The active deck's parts of speech are now clean: ANTEIL, SOLLMASS, ANSATZ and
+KLARAUSZUG are nouns; DAVON, DORTHIN, DIES and DAS NÄCHSTE are anaphors;
+EINSETZEN, ÜBERFÜHREN and BEMESSEN are actions; BEREIT and FERTIG are states.
+Files are in
+`sidequest_semantic_part_of_speech_composition_hundred_thirty_seventh/`.
+Next propagate the CHOLOR repair and explicitly render both bracket formulas
+inside their affected complete records.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
