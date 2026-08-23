@@ -3094,6 +3094,26 @@ ten lessons, 40 copies, apprenticeship handbook, report, builder and
 validator. Next place literal and fluent readings side by side and label every
 inserted noun as picture owner, inherited register, or card content.
 
+## Active hundred-forty-third translation provenance
+
+The ten lessons now have literal and fluent readings side by side. Every
+concrete fluent term is labeled CARD_CONTENT, PICTURE_OWNER, ACTIVE_REGISTER,
+BRACKET_FORMULA or MOULD_GRAMMAR. This preserves readable German without
+smuggling picture nouns into card meanings.
+
+The useful split is explicit: `Anteil`, `Sollmaß`, `Klarauszug`, `Zielstelle`,
+`Auszug` and short operations are portable card contents. Plant, basin,
+vessel, station, main pair and visible cloth application come from the owner.
+M02 does not always contain a separate measure action; M09 is a practical
+store/apply/fasten family rather than one freely productive syntax. Water,
+patient and disease are no longer automatic fluent fills.
+
+Files are in `sidequest_semantic_literal_fluent_provenance_hundred_forty_third/`:
+ten side-by-side lessons, full expansion-provenance ledger, eight overreach
+repairs, readable edition, report, builder and validator. Next revise the
+ten-mould phrasebook and current dictionary so portable words, owner
+arguments and fluent expansions occupy separate columns everywhere.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
