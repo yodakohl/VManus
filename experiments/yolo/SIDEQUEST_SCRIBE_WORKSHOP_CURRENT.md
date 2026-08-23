@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-23, after rendering the common grammar through four scribes.
+Updated: 2026-08-23, after closing the two-way master-card reader.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -18,6 +18,33 @@ Exactly ten pages are in scope:
 
 `f84` and `f84r` remain sealed. ZL3b, IT2a and RF1b are alternate readings of
 one manuscript. No additional page, image or semantic corpus was admitted.
+
+## Active master-card reader
+
+The four-scribe model now has a complete reverse path. The 173 prose cards own
+230 registered visible surfaces, and within the fixed ten-page inventory every
+one of those surfaces points to exactly one master card. A reader can therefore
+look up the visible form first, recover the common card and only then read its
+component formula and short workshop meaning; no neighbouring token is needed
+to decide card identity in this edition.
+
+Normalizing the 381 observed prose events to one registered master head changes
+146 visible tokens but no tuple or meaning. The same reverse key successfully
+reads all 464 four-scribe statement copies and all 64 apprentice-exercise
+copies back to their original tuple and meaning sequences. The working system
+is now usable in both directions: meaning -> master card -> local scribe form,
+and local scribe form -> master card -> meaning.
+
+The surface key contains 139 fixed forms, 34 master heads for multi-surface
+families, 14 registered `q` variants, 19 registered `s` variants and 24 other
+allographs. These remain copyshop choices, not additional words. The 173 short
+German readings are still the creative meanings of this sidequest rather than
+historically established translations.
+
+Active files are in `sidequest_semantic_master_reader_codebook/`, led by
+`MASTER_READER_CODEBOOK_REPORT.md`, `MASTER_READER_POCKETBOOK.md`, the complete
+230-form reverse key, 173-card master dictionary, eleven-record readable
+edition, all 464 statement and 64 exercise round trips, builder, and validator.
 
 ## Active four-scribe copyshop
 
