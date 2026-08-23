@@ -7380,9 +7380,17 @@ four statement-internal owner changes remain workshop ellipses, never invented
 pipes, and no global water circuit is asserted. See
 `sidequest_semantic_manual_bio_station_edition_two_hundred_eighty_third/TWO_HUNDRED_EIGHTY_THIRD_COMPLETE_BIO_EDITION.md`.
 
-Next, manually polish the 142 Astro loci into three continuous instrument
-readings while retaining their independent namespaces and absence of fixed
-start, direction, rotation, or f68-to-f69 key.
+Pass 284 manually rewrites all 142 Astro loci and 395 groups as three concrete
+lookup instruments. f67r2 is a separate sector/phase wheel pair; f68r1 is a
+spatial 28-star-station catalogue; f69v is three choice wheels with 28 local
+work-condition entries only on the left wheel. Each locus now issues an address,
+value, condition, relation, or path instruction. No fixed start, rotation, day
+order, or f68-to-f69 key is required. See
+`sidequest_semantic_manual_astro_instrument_edition_two_hundred_eighty_fourth/TWO_HUNDRED_EIGHTY_FOURTH_COMPLETE_ASTRO_EDITION.md`.
+
+Next, merge the manually polished Herbal, Bio, and Astro layers into one
+continuous ten-page workshop reading with all 258 prose statements/Astro loci
+and all 776 visible groups.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
