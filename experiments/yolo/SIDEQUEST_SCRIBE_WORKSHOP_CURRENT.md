@@ -7238,9 +7238,15 @@ internal operations, one open handoff and eight terminal operations. Their
 to the terminal action VERWAHREN; SCHLUSS. See
 `sidequest_semantic_whole_sign_syntax_two_hundred_sixty_third/TWO_HUNDRED_SIXTY_THIRD_READABLE_NOMENCLATOR_LESSON.md`.
 
-Next, expose and count the residual cores inside the32 previously
-frame-plus-local cards, so the claimed apprentice deck includes every item the
-scribe actually has to learn.
+Pass 264 corrects the apprentice inventory. The former53-entry deck omitted
+the residual cores required by32 mixed cards. Ten additional tightly licensed
+cores close them, yielding an honest63-entry deck:40 components and23 whole
+signs. It generates150 composed cards/353 events plus23 whole cards/28 events,
+with no uncounted exemplar remainder. See
+`sidequest_semantic_complete_sixty_three_entry_deck_two_hundred_sixty_fourth/TWO_HUNDRED_SIXTY_FOURTH_READABLE_COMPLETE_DECK.md`.
+
+Next, use the63-entry deck generatively: construct a small set of legal but
+unseen card compositions and state their predicted short meanings and forms.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
