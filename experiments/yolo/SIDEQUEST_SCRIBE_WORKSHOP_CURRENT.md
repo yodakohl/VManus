@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-23, after completing the vessel/tool/station grammar.
+Updated: 2026-08-23, after completing the Herbal material/action grammar.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -19,7 +19,57 @@ Exactly ten pages are in scope:
 `f84` and `f84r` remain sealed. ZL3b, IT2a and RF1b are alternate readings of
 one manuscript. No additional page, image or semantic corpus was admitted.
 
-## Active vessel/tool/station working edition
+## Active Herbal material/action working edition
+
+The five Herbal records now use the same compositional discipline as the
+apparatus pages. Previously selected `ZUTAT`, `ANSATZ`, `AUSZUG`, `MASS`,
+`PORTION`, `AN/ZU`, `FOLGE`, and `AKTUELLER POSTEN` are combined before a new
+whole-card meaning is admitted:
+
+```text
+CTH + OR          Ansatz bereit
+CTH + AIIN        Bereitmaß
+Y + CHEO + OR     Auszugsansatz
+HO + OR           Zutatenansatz
+HO + AIIN         Zutatenmaß
+HO + AL + Y       diese Zutat dorthin
+Y + AIN           Postenportion
+Y + AIIN          Postenmaß
+OT + Y            Folgeposten
+```
+
+This repairs four especially overgrown readings: `CTHOOR` is no longer the
+unrelated verb `säubern`, `CTHAIIN` no longer imports the object `Kraut`,
+`CHODAIIN` no longer means `Geschwür`, and `CHODALY` no longer means
+`Blütebeginn`. Their new values follow the shared stems. `YCHEOR` becomes
+`AUSZUGSANSATZ` rather than a full botanical phrase, while `QOTCHY` becomes the
+compositional `FOLGEPOSTEN` and inherits flower identity from the preceding
+`SHOYTY=BLÜTENRESERVE`.
+
+The learned Materia-medica deck remains concrete and short: `WURZEL`,
+`WURZELREST`, `BLÜTENKRAUT`, `BLÜTENRESERVE`, `STÄNGEL`, `WEINSUD`, `TRANK`,
+`KLARAUSZUG`, `PRESSEN`, `AUSWRINGEN`, `NACHSEIHEN`, `ZERREIBEN`, `AUFLEGEN`,
+`ANWENDEN`, and `VERWAHREN`. Functional ca. 1420 teaching parallels are the
+ordinary recipe terms `radix`, `caulis`, `flores`, `pars`, `mensura`,
+`extractum`, `decoctum`, `potus`, `exprime`, `tere`, `cola`, `appone`, `utere`,
+and `serva`; these are workshop analogies, not phonetic identifications.
+
+The former disease expansions `Stechen im Leib`, `Geschwür`, and `trockener
+Husten` are removed from card values. The Herbal pages remain concrete
+plant-preparation articles without requiring one singleton card to encode an
+entire indication.
+
+This pass changes 19 cards and their 19 occurrences and rewrites all 19 Herbal
+statements fluently while retaining the complete 173-card, 381-event,
+116-statement and eleven-record edition. The complete artifacts are in
+`sidequest_semantic_herbal_material_action_completion/`, led by
+`HERBAL_MATERIAL_ACTION_REPORT.md`, `HERBAL_MATERIAL_COMPONENTS.tsv`,
+`HERBAL_MATERIAL_PARADIGM.tsv`, `SELECTED_173_HERBAL_MATERIAL_DICTIONARY.tsv`,
+`SELECTED_381_HERBAL_MATERIAL_INTERLINEAR.tsv`,
+`SELECTED_116_HERBAL_MATERIAL_SENTENCES.tsv`, and
+`SELECTED_11_HERBAL_MATERIAL_RECORDS.md`.
+
+## Previous vessel/tool/station working edition
 
 The current workshop model now has the requested mixed architecture: a small
 productive direction/transfer grammar plus a learned specialist nomenclator.
