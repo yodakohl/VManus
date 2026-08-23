@@ -7258,8 +7258,14 @@ from the40er deck; three retain only a local YTO/TOD/DAD core while AIIN remains
 SOLLWERT/GRAD. See
 `sidequest_semantic_astro_aiin_composition_two_hundred_sixty_sixth/TWO_HUNDRED_SIXTY_SIXTH_READABLE_AIIN_ATLAS.md`.
 
-Next, do the same for the previously local AIN and AN Astro endings and test
-whether AN consistently marks a second or alternative diagram setting.
+Pass 267 parses seven local AIN groups and three AN groups on f67r2. Nine of ten
+compose fully; only YFAIN retains a local F core. AIN remains PORTION/TEILWERT,
+while DOKAN, OEOLDAN and ORAN coherently express a second or alternative
+setting. DOKAN contains the prospectively predicted OK+AN construction. See
+`sidequest_semantic_astro_ain_an_composition_two_hundred_sixty_seventh/TWO_HUNDRED_SIXTY_SEVENTH_READABLE_AIN_AN_ATLAS.md`.
+
+Next, parse the local Astro AIR family and use it to decide whether AIR means
+water specifically or the more portable notion of a running path.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
