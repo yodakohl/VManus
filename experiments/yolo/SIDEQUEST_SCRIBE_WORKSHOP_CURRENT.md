@@ -489,6 +489,27 @@ Active files are in
 116-statement tables, report, builder and validator. This is the best current
 source-syntax layer beneath the continuous owner-filled prose.
 
+## Active twenty-sixth noun-load edition
+
+All 116 prose statements now expose four meaning layers side by side: literal
+card reading, visible image owner, rich creative expansion and a lean
+owner-plus-clause reading. The lean edition keeps every action, order marker,
+portion, measure, source, target, run, grade and close but does not require an
+exact medicine, ingredient, vessel, date or body target unless the lower layer
+already supplies it.
+
+Twenty-four statements in the rich edition contain at least one flagged
+creative detail category; 92 do not. The flagged layer consists mainly of
+medical product/use language, exact media such as wine/oil/honey, disease or
+body targets, exact plant parts, times/habitats and a few exact tools or
+vessels. These remain useful guesses in the rich reading, but they are no
+longer allowed to masquerade as values of a single root.
+
+Active files are in `sidequest_semantic_noun_load_twenty_sixth_edition/`, led
+by `TWENTY_SIXTH_LEAN_ELEVEN_RECORD_EDITION.md`, with a complete 116-statement
+noun-load audit, eleven-record summary, report, builder and validator. This
+lean layer is the preferred baseline for the next concrete semantic revision.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
