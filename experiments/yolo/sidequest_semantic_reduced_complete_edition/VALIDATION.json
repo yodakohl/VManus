@@ -1,0 +1,268 @@
+{
+  "status": "PASS",
+  "checks_passed": 41,
+  "checks_total": 41,
+  "failed_checks": [],
+  "counts": {
+    "status": "BUILT",
+    "master_cards": 173,
+    "prose_events": 381,
+    "statements": 116,
+    "records": 11,
+    "composed_events": 360,
+    "local_whole_word_events": 21,
+    "fully_composed_statements": 98,
+    "mixed_statements": 18,
+    "rephrased_statements": 111,
+    "retained_concise_statements": 5,
+    "line_spanning_statements": 18
+  },
+  "checks": [
+    {
+      "name": "dictionary_has_173_unique_cards",
+      "pass": true,
+      "detail": 173
+    },
+    {
+      "name": "dictionary_preserves_source_bytes_by_cell",
+      "pass": true,
+      "detail": 173
+    },
+    {
+      "name": "every_card_has_short_imperative",
+      "pass": true,
+      "detail": 7
+    },
+    {
+      "name": "every_imperative_starts_uppercase",
+      "pass": true,
+      "detail": 173
+    },
+    {
+      "name": "no_fallback_imperative_remains",
+      "pass": true,
+      "detail": 0
+    },
+    {
+      "name": "no_doubled_conjunction_in_imperatives",
+      "pass": true,
+      "detail": 173
+    },
+    {
+      "name": "dictionary_layers_exact",
+      "pass": true,
+      "detail": {
+        "FIRST_RING_PREDICTED": 46,
+        "FIRST_RING_SHARED_SEED": 29,
+        "SECOND_RING_COMPOSED": 79,
+        "LEARNED_LOCAL_WHOLE": 19
+      }
+    },
+    {
+      "name": "event_trace_has_381_rows",
+      "pass": true,
+      "detail": 381
+    },
+    {
+      "name": "event_trace_preserves_source_bytes_by_cell",
+      "pass": true,
+      "detail": 381
+    },
+    {
+      "name": "event_imperatives_match_dictionary",
+      "pass": true,
+      "detail": 381
+    },
+    {
+      "name": "event_layers_exact",
+      "pass": true,
+      "detail": {
+        "LEARNED_LOCAL_WHOLE": 21,
+        "SECOND_RING_COMPOSED": 119,
+        "FIRST_RING_SHARED_SEED": 152,
+        "FIRST_RING_PREDICTED": 89
+      }
+    },
+    {
+      "name": "event_composition_split_is_360_plus_21",
+      "pass": true,
+      "detail": "360+21"
+    },
+    {
+      "name": "statement_edition_has_116_unique_rows",
+      "pass": true,
+      "detail": 116
+    },
+    {
+      "name": "statement_order_is_preserved",
+      "pass": true,
+      "detail": 116
+    },
+    {
+      "name": "statement_source_fields_preserved",
+      "pass": true,
+      "detail": 116
+    },
+    {
+      "name": "previous_fluent_column_is_exact",
+      "pass": true,
+      "detail": 116
+    },
+    {
+      "name": "statement_event_counts_exact",
+      "pass": true,
+      "detail": 381
+    },
+    {
+      "name": "all_events_partition_statements_once",
+      "pass": true,
+      "detail": 116
+    },
+    {
+      "name": "atom_chains_reconstruct_exactly",
+      "pass": true,
+      "detail": 116
+    },
+    {
+      "name": "nucleus_chains_reconstruct_exactly",
+      "pass": true,
+      "detail": 116
+    },
+    {
+      "name": "imperative_chains_reconstruct_exactly",
+      "pass": true,
+      "detail": 116
+    },
+    {
+      "name": "all_reduced_readings_are_sentences",
+      "pass": true,
+      "detail": 116
+    },
+    {
+      "name": "statement_composition_split_exact",
+      "pass": true,
+      "detail": {
+        "COMPOSED_WITH_LOCAL_WHOLE_WORDS": 18,
+        "FULLY_COMPOSED": 98
+      }
+    },
+    {
+      "name": "local_whole_counts_reconstruct_exactly",
+      "pass": true,
+      "detail": 21
+    },
+    {
+      "name": "line_spanning_count_exact",
+      "pass": true,
+      "detail": 18
+    },
+    {
+      "name": "revision_split_exact",
+      "pass": true,
+      "detail": {
+        "REPHRASED": 111,
+        "RETAINED_ALREADY_CONCISE": 5
+      }
+    },
+    {
+      "name": "known_automatic_grammar_errors_absent",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "known_ascii_transliteration_residue_absent",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "record_summary_has_eleven_ordered_records",
+      "pass": true,
+      "detail": [
+        "H1",
+        "H2",
+        "H3",
+        "H4",
+        "H5",
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "B5",
+        "B6"
+      ]
+    },
+    {
+      "name": "record_summary_totals_exact",
+      "pass": true,
+      "detail": "116/381"
+    },
+    {
+      "name": "record_composition_totals_exact",
+      "pass": true,
+      "detail": "360/21"
+    },
+    {
+      "name": "record_line_span_total_exact",
+      "pass": true,
+      "detail": 18
+    },
+    {
+      "name": "record_continuous_text_reconstructs",
+      "pass": true,
+      "detail": 11
+    },
+    {
+      "name": "readable_edition_contains_all_statements",
+      "pass": true,
+      "detail": 116
+    },
+    {
+      "name": "readable_edition_contains_all_surfaces",
+      "pass": true,
+      "detail": 116
+    },
+    {
+      "name": "readable_edition_has_eleven_sections",
+      "pass": true,
+      "detail": 11
+    },
+    {
+      "name": "summary_counts_exact",
+      "pass": true,
+      "detail": {
+        "status": "BUILT",
+        "master_cards": 173,
+        "prose_events": 381,
+        "statements": 116,
+        "records": 11,
+        "composed_events": 360,
+        "local_whole_word_events": 21,
+        "fully_composed_statements": 98,
+        "mixed_statements": 18,
+        "rephrased_statements": 111,
+        "retained_concise_statements": 5,
+        "line_spanning_statements": 18
+      }
+    },
+    {
+      "name": "summary_output_hashes_exact",
+      "pass": true,
+      "detail": 6
+    },
+    {
+      "name": "sealed_pages_absent_from_outputs",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "deterministic_rebuild_is_byte_identical",
+      "pass": true,
+      "detail": "byte-identical"
+    },
+    {
+      "name": "builder_reports_built",
+      "pass": true,
+      "detail": "{"
+    }
+  ]
+}

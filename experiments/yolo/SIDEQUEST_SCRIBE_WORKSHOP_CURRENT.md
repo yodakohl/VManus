@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-23, after extending the component language over the local process cards.
+Updated: 2026-08-23, after translating all eleven prose records with the reduced component language.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -18,6 +18,29 @@ Exactly ten pages are in scope:
 
 `f84` and `f84r` remain sealed. ZL3b, IT2a and RF1b are alternate readings of
 one manuscript. No additional page, image or semantic corpus was admitted.
+
+## Active complete reduced prose edition
+
+The component grammar is now used as an actual reading system rather than a
+list of isolated guesses. Every one of the 173 prose master cards has a short
+apprentice imperative; all 381 visible prose events have an atom and imperative
+trace; all 116 registered statements have been translated again; and the full
+eleven Herbal/Biological records are readable continuously without treating a
+physical line ending as a sentence ending.
+
+Of the 116 statements, 98 are built entirely from the shared 31-atom grammar.
+Only 18 statements use any of the nineteen learned local whole cards, for 21
+local-card events in total. The other 360 events are compositionally read.
+Eighteen statements cross a physical manuscript line. The latest prose also
+replaces the old sentence-sized card glosses with short actions such as set,
+transfer, take a share, use a source, lead to a target, warm, settle, strain,
+collect, wash and close; picture owner and record context then supply the
+particular root, vessel, water run, extract or station.
+
+Active files are in `sidequest_semantic_reduced_complete_edition/`, led by
+`REDUCED_COMPLETE_EDITION_REPORT.md`, the complete eleven-record reading, the
+116-statement edition, 173-card imperative dictionary, 381-event trace,
+record summary, deterministic builder and validator.
 
 ## Active second-ring workshop grammar
 
