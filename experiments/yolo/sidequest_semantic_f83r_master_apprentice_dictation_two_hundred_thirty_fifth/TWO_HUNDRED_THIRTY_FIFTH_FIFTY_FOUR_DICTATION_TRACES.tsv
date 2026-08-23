@@ -1,0 +1,55 @@
+statement_id	record_unit_id	node_path	master_says_de	apprentice_selects_visible_cards	apprentice_reads_back_values	rules_used	event_ids	event_count
+B3-S001	B3	N1	An der oberen offenen Randstation länger auffangen; Schluss.	olkeedy	lange sammeln; Schluss	E_GRADE|CLOSE	E229	1
+B3-S002	B3	N1	Danach zur nächsten Stelle führen und dort länger erwärmen; Schluss.	qotal chkeedy	danach dorthin | Langwärmen; Schluss	E_GRADE|CLOSE	E230|E231	2
+B3-S003	B3	N1	Diesen Posten auf Sollmaß bringen und abführen; Schluss.	chey daiin chey lchedy	dies | Sollwert | dies | abführen; Schluss	AIIN_SOLLWERT|CHED_TRANSFER|CLOSE	E232|E233|E234|E235	4
+B3-S004	B3	N1	Davon eine Menge abmessen und zur folgenden Stelle bringen.	qokaiin qotal dar	bemessen | danach dorthin | davon	AIIN_SOLLWERT	E236|E237|E238	3
+B3-S005	B3	N2	In die mittlere runde Randstation überführen; Schluss.	schedy	überführen; Schluss	CHED_TRANSFER|CLOSE	E239	1
+B3-S006	B3	N2	Den Posten übertragen, am Ziel einsetzen und weiterführen; Schluss.	chedchy qokal olchedy	Postentransfer | dorthin einsetzen | weiterführen; Schluss	CHED_TRANSFER|CLOSE	E240|E241|E242	3
+B3-S007	B3	N2	Bemessen, überführen und länger einwirken lassen; Schluss.	qokaiin chedy qokeedy	bemessen | überführen | lange einwirken; Schluss	AIIN_SOLLWERT|CHED_TRANSFER|E_GRADE|CLOSE	E243|E244|E245	3
+B3-S008	B3	N2	Aus der Station abführen; Schluss.	lchedy	abführen; Schluss	CHED_TRANSFER|CLOSE	E246	1
+B3-S009	B3	N2	Den Posten einsetzen.	qoky	einsetzen	LOCAL_CARD_OR_ADDRESS	E247	1
+B3-S010	B3	N3	Der unteren korbartigen Randstation zuführen und kurz weiterführen; Schluss.	pchedal otedy	Zielzuführung | Kurzfolge; Schluss	CHED_TRANSFER|E_GRADE|CLOSE	E248|E249	2
+B3-S011	B3	N3	Die Vorbereitung übertragen, einsetzen, weiterführen und beim Quellposten belassen.	shecthedchy qoky chedy chary	Vorbereitungstransfer | einsetzen | überführen | Quellposten	CHED_TRANSFER	E250|E251|E252|E253	4
+B3-S012	B3	N3	Den Ansatz kurz absetzen lassen; Schluss.	sor shedy	Ansatz | kurz absetzen; Schluss	E_GRADE|CLOSE	E254|E255	2
+B3-S013	B3	N3	Eine Portion bemessen, kurz vorbereiten und kurz einwirken lassen; Schluss.	qokaiin chkain shcthey qokedy	bemessen | Portion | kurz vorbereiten | kurz einwirken; Schluss	AIIN_SOLLWERT|E_GRADE|CLOSE	E256|E257|E258|E259	4
+B3-S014	B3	N3	In den Lauf einsetzen und länger absetzen lassen; Schluss.	okair sheedy	Laufeinsatz | Langabsetzen; Schluss	E_GRADE|CLOSE	E260|E261	2
+B3-S015	B3	N3	Aus der Station abführen; Schluss.	lchedy	abführen; Schluss	CHED_TRANSFER|CLOSE	E262	1
+B3-S016	B3	N3→N4	Am N3-Abzug abziehen; nach sichtbarem Besitzerbruch bei N4 einführen; Schluss.	lo qokchedy	Abzug | einführen; Schluss	CLOSE|OWNER_BREAK	E263|E264	2
+B3-S017	B3	N4	Länger einwirken lassen; Schluss.	qokeedy	lange einwirken; Schluss	E_GRADE|CLOSE	E265	1
+B3-S018	B3	N4	Kurz absetzen lassen; Schluss.	shedy	kurz absetzen; Schluss	E_GRADE|CLOSE	E266	1
+B3-S019	B3	N4	Nach dem Einsatz absetzen lassen; Schluss.	qokshedy	Einsatzabsetzen; Schluss	CLOSE	E267	1
+B3-S020	B3	N4	Dorthin führen und abführen; Schluss.	dal lchedy	dorthin | abführen; Schluss	CHED_TRANSFER|CLOSE	E268|E269	2
+B3-S021	B3	N4	Bemessen, bereitstellen und dorthin bringen; Sollwert am Ziel absetzen, kurz vorbereiten, dorthin bringen, bereitstellen und ans Ziel übertragen; Schluss.	qokaiin shcthy dal sy saiin shedal shecthy chey tal shcthy dalchdy	bemessen | bereit | dorthin | dies | Sollwert | am Ziel absetzen | Kurzvorbereitung | dies | dorthin | bereit | Zieltransfer; Schluss	AIIN_SOLLWERT|CHED_TRANSFER|E_GRADE|CLOSE	E270|E271|E272|E273|E274|E275|E276|E277|E278|E279|E280	11
+B3-S022	B3	N4	Zur folgenden Station übertragen; Schluss.	qotchedy	Folgetransfer; Schluss	CHED_TRANSFER|CLOSE	E281	1
+B3-S023	B3	N4	Aus der Station abführen; Schluss.	lchedy	abführen; Schluss	CHED_TRANSFER|CLOSE	E282	1
+B3-S024	B3	N4	Überführen; Schluss.	tchedy	überführen; Schluss	CHED_TRANSFER|CLOSE	E283	1
+B3-S025	B3	N4	In die nächste Station einführen; Schluss.	qokchdy	einführen; Schluss	CLOSE	E284	1
+B3-S026	B3	N4→N5	Bei N4 von der Quelle übertragen, Sollabsetzung und Zielbereitung setzen; nach Besitzerbruch am N5-Paar länger sammeln; Schluss.	cheedar chldaiin chedy qokain checthy chealror solkeedy	Quelltransfer | Sollabsetzung | überführen | Anteil zugeben | bereit | Zielbereitung | lange sammeln; Schluss	CHED_TRANSFER|E_GRADE|CLOSE|OWNER_BREAK	E285|E286|E287|E288|E289|E290|E291	7
+B3-S027	B3	N5	Die folgende Stufe länger halten; Schluss.	qoteedy	lange Folgestufe; Schluss	E_GRADE|CLOSE	E292	1
+B3-S028	B3	N5	Länger einwirken lassen, dann den kurzen Einwirkpunkt schließen.	qokeey qokedy	lange einwirken | kurz einwirken; Schluss	E_GRADE|CLOSE	E293|E294	2
+B3-S029	B3	N5	Weiterführen, den vollen Anteil nehmen und kurz einwirken lassen; Schluss.	sol cheeety qokedy	weiter | Vollteil | kurz einwirken; Schluss	E_GRADE|CLOSE	E295|E296|E297	3
+B3-S030	B3	N5	Einsetzen, auf Sollmaß bringen, im Lauf weiterführen und zur nächsten Station übertragen; Schluss.	qoky saiin schedair otchedy	einsetzen | Sollwert | Weiterlauf | Folgetransfer; Schluss	AIIN_SOLLWERT|CHED_TRANSFER|CLOSE	E298|E299|E300|E301	4
+B3-S031	B3	N5	Länger einwirken lassen; Schluss.	qokeedy	lange einwirken; Schluss	E_GRADE|CLOSE	E302	1
+B3-S032	B3	N5	Anteil übertragen, überführen, Kurzsoll und Folgemaß setzen, kurz weiterführen; Schluss.	chedain chedy qotedaiin otaiin otedy	Anteilstransfer | überführen | Kurzsoll | Folgemaß | Kurzfolge; Schluss	CHED_TRANSFER|E_GRADE|CLOSE	E303|E304|E305|E306|E307	5
+B3-S033	B3	N5	Abziehen; Schluss.	ldy	abziehen; Schluss	CLOSE	E308	1
+B3-S034	B3	N5	Arbeitsstufe bereitstellen, Teil und Folgemaß am Zwischenziel kurz absetzen; Schluss.	soiiin checthy chety otaiin olsaly shedy	Arbeitsstufe | bereit | Teil | Folgemaß | Zwischenziel | kurz absetzen; Schluss	E_GRADE|CLOSE	E309|E310|E311|E312|E313|E314	6
+B4-S001	B4	N5	Am Hauptpaar länger einwirken lassen; Schluss.	qokeedy	lange einwirken; Schluss	E_GRADE|CLOSE	E315	1
+B4-S002	B4	N5	Den Weiterposten zuerst länger, dann kurz einwirken lassen; Schluss.	qolchey qokeey qokedy	Weiterposten | lange einwirken | kurz einwirken; Schluss	E_GRADE|CLOSE	E316|E317|E318	3
+B4-S003	B4	N5	Überführen, danach das Nächste dorthin bringen, länger einwirken, einsetzen, weiterführen und kurz absetzen; Schluss.	chedy otal otchey qokeey qoky tol shedy	überführen | danach dorthin | das nächste | lange einwirken | einsetzen | weiter | kurz absetzen; Schluss	CHED_TRANSFER|E_GRADE|CLOSE	E319|E320|E321|E322|E323|E324|E325	7
+B4-S004	B4	N5	Den Posten befestigen; Schluss.	qokylddy	befestigen; Schluss	CLOSE	E326	1
+B4-S005	B4	N5	Die Einlage überführen und länger einwirken lassen; Schluss.	dain chedy qokeedy	Einlage | überführen | lange einwirken; Schluss	CHED_TRANSFER|E_GRADE|CLOSE	E327|E328|E329	3
+B4-S006	B4	N5	Einmal durchlassen; Schluss.	shckhedy	durchlassen; Schluss	CLOSE	E330	1
+B4-S007	B4	N5	Ein zweites Mal durchlassen; Schluss.	shckhedy	durchlassen; Schluss	CLOSE	E331	1
+B4-S008	B4	N5	Auf Sollmaß bringen, länger bearbeiten, länger halten und kurz einwirken lassen; Schluss.	saiin cheeky sheey qokedy	Sollwert | länger bearbeiten | Langhalt | kurz einwirken; Schluss	AIIN_SOLLWERT|E_GRADE|CLOSE	E332|E333|E334|E335	4
+B4-S009	B4	N5	Kurz absetzen lassen; Schluss.	shedy	kurz absetzen; Schluss	E_GRADE|CLOSE	E336	1
+B4-S010	B4	N5	Schluss.	oldy	Schluss	CLOSE	E337	1
+B4-S011	B4	N6	Sollwert kurz wärmen, länger weiterführen, Anteil zugeben, überführen, fortsetzen und kurz abziehen; Schluss.	saiin cheky okeeol okain chdy sol lkedy	Sollwert | kurz wärmen | Langfortsetzung | Anteil zugeben | überführen | weiter | Kurzabzug; Schluss	AIIN_SOLLWERT|CHED_TRANSFER|E_GRADE|CLOSE	E338|E339|E340|E341|E342|E343|E344	7
+B4-S012	B4	N6	Abführen; Schluss.	lchedy	abführen; Schluss	CHED_TRANSFER|CLOSE	E345	1
+B4-S013	B4	N6	Weiter einsetzen und kurz absetzen lassen; Schluss.	qokol shedy	Weiter einsetzen | kurz absetzen; Schluss	E_GRADE|CLOSE	E346|E347	2
+B4-S014	B4	N6	Diesen Ansatz durch den kurzen Gang führen und den Lauf schließen.	or chey qockhey dairydy	Ansatz | dies | Kurzdurchgang | Laufschluss	E_GRADE|CLOSE	E348|E349|E350|E351	4
+B4-S015	B4	N6→N7	Am linken N6-Arm Anteil, Ergebnis und Zielpassage setzen; nach Besitzerbruch am rechten N7-Knoten kurz sammeln und abführen; Schluss.	qokain shey kain chckhal solkey lchedy	Anteil zugeben | Ergebnis | Portion | Zielpassage | Kurzsammlung | abführen; Schluss	CHED_TRANSFER|E_GRADE|CLOSE|OWNER_BREAK	E352|E353|E354|E355|E356|E357	6
+B4-S016	B4	N7	Weiteren Anteil dorthin bringen, davon ausgießen und kurz absetzen; Schluss.	qolkain dal skar shedy	weiterer Anteil | dorthin | Quellausguss | kurz absetzen; Schluss	E_GRADE|CLOSE	E358|E359|E360|E361	4
+B5-S001	B5	N8	Danach den linken Endtransfer abschließen.	otchdy	Nachtransfer; Schluss	CHED_TRANSFER|CLOSE	E362	1
+B5-S002	B5	N8	Den nächsten Posten in den linken Endweg einführen; Schluss.	qokchdy	einführen; Schluss	CLOSE	E363	1
+B5-S003	B5	N8	Am Ziel absetzen und dorthin weiterleiten; den weiteren Abzug zum Ziel übertragen, auf Sollwert bringen, bis zur Endstufe fortsetzen und übergeben.	shedal dal cheol lol chdal aiin sol daiiin chedy	am Ziel absetzen | dorthin | weiter | Weiterabzug | Zieltransfer | Sollwert | weiter | Endstufe | überführen	AIIN_SOLLWERT|CHED_TRANSFER	E364|E365|E366|E367|E368|E369|E370|E371|E372	9
+B6-S001	B6	N9	Am rechten Endknoten länger sammeln, kurz bearbeiten und zum Endposten weitergeben; auf Sollwert bringen und die Einlage als diesen Posten zum Endziel führen.	solkeey qekey raly ol daiin ol dain chey ldalor	Langsammlung | kurz bearbeiten | Endposten | weiter | Sollwert | weiter | Einlage | dies | Endziel	AIIN_SOLLWERT|E_GRADE	E373|E374|E375|E376|E377|E378|E379|E380|E381	9

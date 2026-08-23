@@ -7041,8 +7041,15 @@ target to end-target, and portion to measure-plus-inlay. Thus B5 is an
 operational continuation and B6 an endpoint summary. See
 `sidequest_semantic_f83r_branch_addenda_two_hundred_thirty_fourth/TWO_HUNDRED_THIRTY_FOURTH_READABLE_BRANCH_ADDENDA.md`.
 
-Next, reconstruct the short master-to-apprentice dictation that would generate
-the full f83r owner, operation, grade, close, and addendum sequence.
+Pass 235 reconstructs a forward workshop workflow: nine owner-block prompts,
+54 statement dictations, 153 exact card responses and twenty apprentice rules.
+The master points to the pre-drawn owner and dictates action/reference/grade;
+the apprentice selects cards, renderer hull and closure, with local whole signs
+copied from the exemplar. See
+`sidequest_semantic_f83r_master_apprentice_dictation_two_hundred_thirty_fifth/TWO_HUNDRED_THIRTY_FIFTH_READABLE_APPRENTICE_MANUAL.md`.
+
+Next, apply the same twenty-rule curriculum to f81v and f82r without adding
+meanings; unresolved prompts will expose the next concrete dictionary gaps.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
