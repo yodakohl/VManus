@@ -6959,8 +6959,14 @@ change (six Prose, four Astro). The common formula now reads `dies – Sollwert 
 einsetzen; davon – Sollwert – dorthin; Sollwert – Ziel – Schluss; Ergebnis`.
 See `sidequest_semantic_result_close_integration_two_hundred_twenty_first/TWO_HUNDRED_TWENTY_FIRST_REVISED_COMMON_FORMULA.md`.
 
-Next, find all real three- to five-card windows that instantiate compact
-dictionary phrases and turn the strongest recurring ones into a phrasebook.
+Pass 222 scans 215 real three- to five-card windows. Six three-card axis
+patterns recur across statements; no four- or five-card pattern does. The
+strongest concrete mini-formula is twice exactly `Y–AIIN–Y = dies – Sollwert –
+dies`, provisionally two designated posts under one prescribed value. See
+`sidequest_semantic_real_window_phrasebook_two_hundred_twenty_second/TWO_HUNDRED_TWENTY_SECOND_REAL_PHRASEBOOK.md`.
+
+Next, rewrite both full `Y–AIIN–Y` statements and their neighboring fields as
+concrete workshop instructions under their actual plant and station owners.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
