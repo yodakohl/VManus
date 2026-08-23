@@ -3201,6 +3201,28 @@ complete 132-card recurrence audit, revised 173-card dictionary, 381-event and
 Biological records in terse apprentice speech using the 47-card deck, while
 speaking singleton cards as learned local words rather than decomposing them.
 
+## Active hundred-forty-eighth Biological apprentice recitation
+
+All 281 Biological events and 97 statements can now be spoken with their
+selected local image owner. The apprentice points first, then speaks 196
+events from 43 shared teaching cards and copies 85 events from 81 learned local
+whole cards. Every token is marked `G` (Gemeinschafts-/Lehrwort) or `L`
+(Lokalkarte), so a fluent line no longer hides how much came from memory.
+
+The six continuous records preserve the local station changes from the
+image-first atlas. Four statements cross a visible owner boundary and say
+`dann Besitzer ...` explicitly. No line implies a page-wide water direction,
+closed machine or invisible connection. The recitation rule is simple enough
+for the assumed workshop: point, speak G, copy L, and close only when the exact
+card carries a learned closure.
+
+Files are in
+`sidequest_semantic_bio_apprentice_recitation_hundred_forty_eighth/`: complete
+281-event and 97-statement recitations, six record summaries, continuous
+teaching edition, report, builder and validator. Next give the five Herbal
+records the same owner-first G/L recitation while keeping the plant identity
+in the picture layer.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
