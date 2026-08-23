@@ -134,6 +134,22 @@ keeps its learned *cool* value. Active files are in
 layers, a group-level autonomy ledger, pocket codebook, report, builder and
 validator.
 
+## Active renderer-complete sixth edition
+
+Twenty-six Astro surfaces/39 groups now use an explicit registered allograph
+rule: d/s/ch/che/o/q/t frames are stripped only when a productive core is
+present. Four bare frame cards (`ch`, `d`, `o`, `s`) remain local rather than
+being silently erased. Twelve surfaces/15 groups newly leave the learning
+deck; the rest were already productive but now share one scribal rule.
+
+The active balance is 558 full, 130 partial and 88 whole groups; surface types
+are 298 full, 121 partial, 66 whole and two register splits. The second split
+is `dain`: Astro D+AIN means portion, while Prosa retains the learned cloth
+card. Active files are in
+`sidequest_semantic_renderer_completed_sixth_edition/`, led by
+`COMPLETE_TEN_PAGE_WORKSHOP_SIXTH_EDITION.md`, with the 26-form allograph
+table, four bare-frame table and complete 487/776/258 layers.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
