@@ -7048,8 +7048,14 @@ the apprentice selects cards, renderer hull and closure, with local whole signs
 copied from the exemplar. See
 `sidequest_semantic_f83r_master_apprentice_dictation_two_hundred_thirty_fifth/TWO_HUNDRED_THIRTY_FIFTH_READABLE_APPRENTICE_MANUAL.md`.
 
-Next, apply the same twenty-rule curriculum to f81v and f82r without adding
-meanings; unresolved prompts will expose the next concrete dictionary gaps.
+Pass 236 transfers that curriculum to all 128 f81v/f82r events and 43
+statements. The base rules cover 108 events; 13 more already compose from AIN,
+AIR, IIN, CKH, LSH and RESULT. Two forms remain partially composed, while five
+events use four local whole cards: `dl`, `ls`, `ly`, and `ches`. See
+`sidequest_semantic_f81_f82_curriculum_transfer_two_hundred_thirty_sixth/TWO_HUNDRED_THIRTY_SIXTH_READABLE_CURRICULUM_TRANSFER.md`.
+
+Next, add the six existing specialist components as lesson two, then read the
+remaining seven events as the smallest Biological exemplar lexicon.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
