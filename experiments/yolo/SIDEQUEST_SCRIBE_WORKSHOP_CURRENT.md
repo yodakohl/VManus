@@ -6827,6 +6827,16 @@ Next, classify every composition in this miniature as directly attested,
 attested-component recombination or overfree invention against the real fixed
 ten-page inventory.
 
+Pass 206 classifies its 26 adjacent pairs: four are exact fixed-page bigrams,
+17 are well-supported new drawer recombinations and five are thin drawer
+recombinations; none uses an unattested drawer transition. N01 and N03, plus
+the final N05 bridge, remain creative drafts rather than phrase evidence. The
+full pair table is
+`sidequest_semantic_composition_pressure_two_hundred_sixth/TWO_HUNDRED_SIXTH_26_PAIR_PRESSURE.tsv`.
+
+Next, add the missing middle layer: a minimal set of short, recurrent phrase
+frames extracted from the 116 real statements.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
