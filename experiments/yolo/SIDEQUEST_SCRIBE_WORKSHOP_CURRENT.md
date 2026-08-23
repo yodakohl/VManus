@@ -7420,9 +7420,17 @@ technical addendum uses OT+CHD. The result is 149 contextualized recipes for
 memorized whole-sign layer. See
 `sidequest_semantic_final_writer_conventions_two_hundred_eighty_eighth/TWO_HUNDRED_EIGHTY_EIGHTH_COMPLETE_WRITER_MANUAL.md`.
 
-Next, build the same reverse encoder for the 265 composed Astro groups while
-keeping the 51 Astro whole signs and 79 diagram-local names as distinct learned
-and copied layers.
+Pass 289 gives all 265 portable Astro groups a reverse writing instruction.
+Eleven strategies reuse common/prose cards or copy a local core and attach
+AR/AL, OL/OR, OT, Y, E-grade+Y, AIIN, AIN or AIR. The apprentice therefore does
+not memorize 188 composed Astro surfaces: the local core is a diagram parameter.
+The other layers remain 51 occurrences of 46 whole signs and 79 occurrences of
+67 copied local keys. See
+`sidequest_semantic_astro_reverse_encoder_two_hundred_eighty_ninth/TWO_HUNDRED_EIGHTY_NINTH_ASTRO_APPRENTICE_ENCODER.md`.
+
+Next, merge prose and Astro encoders into one forward writer manual and one
+776-row writing ledger, with pure composition, pure whole signs, the one framed
+whole exception, and local copy keys counted separately.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
