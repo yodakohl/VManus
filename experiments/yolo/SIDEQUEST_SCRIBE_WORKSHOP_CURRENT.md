@@ -6904,6 +6904,15 @@ dictionary is
 Next, construct one phrase-licensed core formula and read it under a plant,
 Biological station and Astro-sector owner without changing card values.
 
+Pass 214 does so with ten tokens from eight cards, all using surfaces actually
+seen in Astro. The stable formula is `dies – Sollwert – einsetzen; davon –
+Sollwert – dorthin; Sollwert – Ziel – fertig; Freigabewert`. Only the owner
+expansions differ across plant, station and diagram. See
+`sidequest_semantic_three_register_formula_two_hundred_fourteenth/TWO_HUNDRED_FOURTEENTH_THREE_WAY_READING.md`.
+
+Next, rebuild the apprentice sheet around a register-neutral common core and
+move wet, plant and diagram-specific meanings into explicit local expansions.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
