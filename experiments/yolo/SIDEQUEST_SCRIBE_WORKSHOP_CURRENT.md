@@ -7075,8 +7075,15 @@ division and discharge procedure. The grammar is shared; the practical
 organization differs. See
 `sidequest_semantic_biological_dual_protocol_two_hundred_thirty_ninth/TWO_HUNDRED_THIRTY_NINTH_TWO_CONTINUOUS_RECORDS.md`.
 
-Next, compare the exact card order of both protocols and extract the smallest
-reusable procedure motifs that a workshop apprentice could copy between them.
+Pass 240 finds only one exact shared card pair and no shared exact tri- or
+four-card window. Reuse instead occurs through six productive motifs: close
+then add a portion; target-pass-transfer; hold-then-settle; measure-then-pass;
+wash/contact-close; and receiver-to-result. Thirty occurrences show that the
+apprentice recomposes operations rather than copying fixed sentences. See
+`sidequest_semantic_reusable_procedure_motifs_two_hundred_fortieth/TWO_HUNDRED_FORTIETH_APPRENTICE_MOTIF_CARDS.md`.
+
+Next, apply these six motifs to all f83r stations and identify the smallest
+additional workshop motif needed for anything they do not cover.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
