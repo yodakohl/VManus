@@ -2316,6 +2316,31 @@ rewrite the complete affected f82r and f83r passages from these owners, keeping
 the practical bath/workshop reading concrete but every missing connection
 visibly marked.
 
+## Active hundred-eighth Biological rewrite
+
+The two largest Biological records now have a complete owner-specific working
+reading: 22 statements on f82r and 34 on f83r. f82r is no longer described as
+one repeated generic basin. It contains the upper paired basins and cylinder,
+the left middle device, the separate reclining-figure vessel, the green
+multi-figure pool and the lower edge/service stations. B2-S012 explicitly
+changes from the small reclining vessel to the green pool without claiming the
+nearby line connects them.
+
+f83r now proceeds through the upper fan station, round vessel and lower basket
+station, then a learned local transition batch, and only afterward the visibly
+arch-linked main pair. Eleven transition statements are therefore concrete
+workshop instructions but not claims about a drawn pipe. B3-S016 and B3-S026
+spell out both resets. This reading is more useful than the former repeated
+preface “three marginal basins and then the main pair,” because every local
+action now receives the smallest available owner.
+
+Active files are in `sidequest_semantic_bio_rewrite_hundred_eighth_edition/`,
+led by `HUNDRED_EIGHTH_BIO_REWRITE_REPORT.md` and
+`HUNDRED_EIGHTH_COMPLETE_BIO_REWRITE.md`, with all 56 statement rows, two
+continuous records, builder and validator. Next compare the medical bath/use
+expansion with a practical service/maintenance expansion statement by
+statement and choose one current lead without changing the atomic dictionary.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
