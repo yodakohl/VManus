@@ -282,6 +282,22 @@ files are in `sidequest_semantic_prose_body_completion_fourteenth_edition/`,
 led by the twelve-card resolution table, complete 487/776/258 layers, pocket
 codebook, report, builder and validator.
 
+## Active fifteenth complete edition
+
+Six bare Astro cards now define a local primitive microcode: `A` main, `S`
+secondary, `O` base, `D` fixed, `R` reference and `CH` state. Four compounds
+show how the deck combines them with existing modifiers: `AY` current main
+value, `DCHY` fixed current state, `CHSDY` hold the secondary state, and
+`OYGY` current base degree. The primitives are register-local and do not turn
+the same strokes into global prose words.
+
+These ten surfaces cover fifteen groups and supply six empty forward cells for
+future pages. The active balance is 742 full, zero partial and 34 learned-whole
+groups; surface types are 459 full, 25 whole and three register splits. Active
+files are in `sidequest_semantic_astro_primitive_microcode_fifteenth_edition/`,
+led by the ten-surface paradigm and forward cells, complete 487/776/258 layers,
+pocket codebook, report, builder and validator.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
