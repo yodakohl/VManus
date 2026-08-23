@@ -7329,9 +7329,16 @@ the prose OWNER/SOURCE, LINK_SELECT, QUANTITY/STATE and OPERATION/FLOW/TARGET
 zones; only prose adds CLOSE. See
 `sidequest_semantic_astro_templates_two_hundred_seventy_sixth/TWO_HUNDRED_SEVENTY_SIXTH_READABLE_SHARED_GRAMMAR.md`.
 
-Next, classify the forty portable components by actual register reach: truly
-shared Herbal/Bio/Astro grammar, prose-only craft abbreviations, and thin or
-locally specialized components.
+Pass 277 classifies all forty components by actual reach. Sixteen occur in
+Herbal, Bio and Astro; four bridge Herbal/Astro, four Bio/Astro, and two bridge
+the two prose registers. Seven components are Herbal-only and seven Bio-only;
+none is isolated Astro-only or unsupported. A writer can therefore learn a
+16-card common core before adding small sectional decks. See
+`sidequest_semantic_component_register_reach_two_hundred_seventy_seventh/TWO_HUNDRED_SEVENTY_SEVENTH_READABLE_SECTIONED_DECK.md`.
+
+Next, merge duplicate/allographic component entries into true stem families:
+HO with CHO_INPUT, CHD with CHED, and E/EE/EEE as one graded paradigm; revise
+DY and CHK to portable meanings that work in both prose and Astro.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
