@@ -2047,6 +2047,33 @@ Active files are in
 observed surface matches, nine unfilled cells, builder and validator. Next turn
 the full component inventory into a rectangular paradigm chart, distinguishing
 productive gaps from combinations blocked by allography or learned whole cards.
+The raw count of twenty-seven regex matches is superseded by the card-level
+reconciliation in the ninety-seventh round below.
+
+## Active ninety-seventh paradigm economy
+
+The rectangular 15-head × 12-tail chart separates visible composition from mere
+surface resemblance. It has 58 visibly filled cells, 23 licensed forward gaps
+and 99 combinations that the current workshop system does not license. `OK` and
+`OT` are the only broad paradigms; `OL`, `L`, `CHD`, `CTH` and `HO` are bounded
+productive families; six further heads form narrow learned mini-paradigms;
+`CHEO` and `TY` remain whole-card-first.
+
+Card-level reconciliation reduces the twenty-seven raw R96 surface matches to
+twenty-three robust compositions, two mixed families and two withdrawals.
+`taiin` is an AIIN allograph, not TY+AIIN. `lcheckhedy/shckhedy` use CKHE rather
+than CKH+E. `schedy` collides between CHD and SHED, while `chckhal/kchal` splits
+CKH+AL from KCH+AL. A scribe therefore composes freely only in the broad grid,
+uses listed endings in bounded families, memorizes small mini-paradigms and lets
+the longest registered card override a tempting shorter parse.
+
+Active files are in
+`sidequest_semantic_paradigm_economy_ninety_seventh_edition/`, led by
+`NINETY_SEVENTH_PARADIGM_ECONOMY_REPORT.md`, with the 180-cell chart, fifteen-
+family economy, R96 correction table, collision ledger, builder and validator.
+Next simulate several scribes using exactly this mixed productive-plus-learned
+system and measure where their renderer habits alter surfaces without changing
+the source instruction.
 
 ## Active surface compiler
 
