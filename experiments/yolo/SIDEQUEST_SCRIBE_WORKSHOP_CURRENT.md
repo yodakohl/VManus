@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-23, after recomposing the local singleton-card tail.
+Updated: 2026-08-23, after completing the KCH/TY and nomenclator families.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -19,7 +19,37 @@ Exactly ten pages are in scope:
 `f84` and `f84r` remain sealed. ZL3b, IT2a and RF1b are alternate readings of
 one manuscript. No additional page, image or semantic corpus was admitted.
 
-## Active singleton-composition rescue
+## Active compact family dictionary
+
+The remaining local whole-card tail now forms seven small workshop decks. The
+strongest new paradigms are `KCH = process/work`: KCH+Y work this item,
+KCH+E+Y work this item briefly, KCH+AL work it at the target and KCH+OL
+continue working it; and `TY = part unit/remainder`: CH+TY separate a part,
+HO+Y+TY ingredient part, E+TY+D small remainder, EEE+TY whole part and
+OT+TY+OL continue the next part.
+
+Of the previous 27 local whole cards, seven are now fully compositional, ten
+retain only one local carrier, three learned vessel cards share the single
+headword VESSEL, and seven remain honest specialist whole cards. Across all
+173 prose cards the compact architecture is 131 productive, twenty partial
+and 22 memorized whole cards; across 381 events it is 332/21/28. In the 292
+open events, 256 are fully compositional, sixteen partial and only twenty
+whole-card events.
+
+The pass also removes several incompatible old assignments: KCH no longer
+means DRINK, GRIND or STRAIN depending on the card; it always means PROCESS.
+TY no longer alternates arbitrarily between CRUSH, RESERVE, REST and RINSE; it
+selects a part unit whose wrapper determines the operation. RAL becomes a
+target handoff instead of cooling, LS an outlet instead of a nozzle, TSHEY a
+clear flow instead of specifically rinse water, and OS/LY/OYKCHOR all use the
+compact learned headword VESSEL.
+
+Active files are in `sidequest_semantic_nomenclator_family_completion/`, led
+by `NOMENCLATOR_FAMILY_REPORT.md`, `KCH_TY_PARADIGMS.tsv`,
+`REMAINING_27_FAMILY_DISPOSITION.tsv`, `COMPACT_FAMILY_DECKS.tsv`, the complete
+173-card/381-event/116-phrase/11-record compact edition, builder and validator.
+
+## Previous singleton-composition rescue
 
 The local exemplar tail is now almost halved. Of the 55 open cards that occur
 only once, 22 are fully recomposed from already taught workshop pieces and six
