@@ -4099,6 +4099,18 @@ Four cards demonstrate true compositional framing while keeping one value:
 `okeey/qokeey` lange einwirken. Next give the same source instruction to a
 second, less harmonizing renderer and test whether values and closures survive.
 
+## Active hundred-ninety-fifth mixed second renderer
+
+A position-driven second hand changes 8/25 surfaces of the same five-mode
+instruction. The harmonized CH field becomes `or daiin cheky ol dy`; the other
+four fields each change one surface. Nevertheless 25/25 exact cards and values,
+all five closures and four of five majority field modes survive.
+
+This supports a simple multi-scribe workshop: everyone learns card identity and
+closure, while full field-frame harmony is optional. A careful hand marks it
+strongly; a quick copyist uses positional allographs. Next derive the minimum
+reader normalization needed to collapse both renderings to one card stream.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
