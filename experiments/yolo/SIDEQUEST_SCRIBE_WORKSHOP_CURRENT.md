@@ -7336,9 +7336,16 @@ none is isolated Astro-only or unsupported. A writer can therefore learn a
 16-card common core before adding small sectional decks. See
 `sidequest_semantic_component_register_reach_two_hundred_seventy_seventh/TWO_HUNDRED_SEVENTY_SEVENTH_READABLE_SECTIONED_DECK.md`.
 
-Next, merge duplicate/allographic component entries into true stem families:
-HO with CHO_INPUT, CHD with CHED, and E/EE/EEE as one graded paradigm; revise
-DY and CHK to portable meanings that work in both prose and Astro.
+Pass 278 merges forty components into 36 real stem families: E/EE/EEE become
+one graded E family, CHD/CHED one transfer allography, and HO/CHO_INPUT one CHO
+input family. CHK is revised from WÄRMEN to ZUSTAND_JUSTIEREN and DY from
+SCHLUSS to FESTSETZEN, with concrete prose/Astro expansions retained. The full
+memorized ten-page inventory falls from 109 to105 entries. See
+`sidequest_semantic_thirty_six_stem_families_two_hundred_seventy_eighth/TWO_HUNDRED_SEVENTY_EIGHTH_READABLE_36_FAMILY_DECK.md`.
+
+Next, rewrite all116 prose statements using the corrected portable family
+values first and register-specific fluent expansions second, so no old CHK/DY/
+CHO sentence-sized gloss survives unnoticed.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
