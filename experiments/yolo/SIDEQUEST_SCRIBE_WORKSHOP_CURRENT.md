@@ -2880,6 +2880,28 @@ eleven ordered record steps, the 381-event job ledger, report, builder and
 validator. Next add the three fixed Astro pages as optional WHEN modules chosen
 by visible ownership, without inventing orientation or a cross-page key.
 
+## Active hundred-thirty-third optional WHEN modules
+
+The four prose jobs now reuse thirteen visible Astro choices already present
+on the three fixed diagram pages. Those choices activate 21 of 395 Astro
+groups; 374 remain menu options. The active reader therefore has 402 groups
+(381 prose plus 21 chosen conditions), while the reference ledger retains all
+776 visible groups.
+
+The work order is optional WHEN→WHAT→HOW. J1 uses a right-wheel sector, long
+closed grade, long phase and place grade; J2 a released panel value, transfer
+station and base grade; J3 one left radial slot plus middle and right states;
+J4 a source-to-target aspect, outer station and short target grade. Selection
+is always by visible owner, with no start, direction, f68-to-f69 key or written
+cross-page pointer.
+
+Active files are in
+`sidequest_semantic_optional_when_jobs_hundred_thirty_third/`, led by
+`HUNDRED_THIRTY_THIRD_FOUR_OPTIONAL_WHEN_WORK_ORDERS.md`, with thirteen choices,
+four job profiles, the 395-group menu, complete 776 ledger, active 402-group
+reader, report, builder and validator. Next consolidate R121-R133 into a new
+single current ten-page edition and pocket manual.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
