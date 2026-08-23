@@ -1102,6 +1102,28 @@ builder and consistency checker. Next consolidate roots, learned whole cards,
 memory slots, macros and owner expansions into a single hierarchy so sentence
 glosses can no longer masquerade as word meanings.
 
+## Active fifty-fourth hierarchical dictionary
+
+The full teaching inventory is now one 89-entry, seven-layer hierarchy. Only
+28 atomic roots and fifteen learned nomenclator lessons are manuscript card
+meanings. Four M-categories are explicitly simulated supplements; four memory
+registers, twenty process macros, five visible owners, and thirteen Astro-local
+modules operate above or beside the word layer.
+
+This prevents long readings from leaking downward. `AIR` remains RUN/PATH;
+the basin owner supplies liquid and the celestial owner supplies a sky path.
+`Y` remains THIS ITEM while ACTIVE identifies the item. SET-CONTINUE-SETTLE is
+a three-clause macro, never a single-word gloss. Learned bodies outrank shorter
+visual resemblance, and every Astro namespace remains local to its panel or
+wheel.
+
+Active files are in
+`sidequest_semantic_hierarchical_dictionary_fifty_fourth_edition/`, led by
+`FIFTY_FOURTH_COMPLETE_HIERARCHICAL_DICTIONARY.md`, with all 89 entries, seven
+layer rules, twelve boundary examples, report, builder and consistency checker.
+Next compress this hierarchy into a one-page pocket grammar that a 1420
+apprentice could actually memorize and use at the desk.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
