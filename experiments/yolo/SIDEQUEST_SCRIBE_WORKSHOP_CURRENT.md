@@ -6988,8 +6988,13 @@ operation, and the f82r `qokaiin` line carry is two visible copies of one source
 instruction. Thus twelve visible cards represent eleven source tokens. See
 `sidequest_semantic_duplicate_card_grammar_two_hundred_twenty_sixth/TWO_HUNDRED_TWENTY_SIXTH_DUPLICATION_MANUAL.md`.
 
-Next, combine duplicate and A–B–A rules in one parser that distinguishes
-visible cards, source tokens and workshop reading units.
+Pass 227 combines both grammars record-wide: 381 visible cards become 380 source
+tokens and 357 reading units, comprising 343 atomic and 14 composite units.
+The nested `Y Y AIIN Y` uses both pair and return rules. See
+`sidequest_semantic_combined_reference_parser_two_hundred_twenty_seventh/TWO_HUNDRED_TWENTY_SEVENTH_COMPOSITE_READING_MANUAL.md`.
+
+Next, translate one continuous f10r passage and one continuous f83r passage
+using these construction units and the fewest possible added connectives.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
