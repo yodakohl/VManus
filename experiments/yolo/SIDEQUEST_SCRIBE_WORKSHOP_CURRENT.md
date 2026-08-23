@@ -1015,6 +1015,28 @@ Active files are in
 68 four-hand copies, report, builder and consistency checker. This is the
 current safe workaround layer for missing compound cards.
 
+## Active fiftieth source-to-script compiler
+
+The complete 12×12 lattice now feeds one practical four-branch decision tree.
+Of 144 intended commands, 55 copy an observed fused card, seven use two
+independently observed cards, seventeen use the controlled paraphrase layer,
+and 65 are rejected pending a master exemplar. Thus 79 commands are writable
+with the present inventory and no new visible surface is coined.
+
+The apprentice order is fixed: look for the whole registered card; otherwise
+look for separately registered base and ending; otherwise use the named
+controlled paraphrase and retain its extra nuance; otherwise ask the master.
+This turns the current word-composition theory into an executable workshop
+procedure while keeping the difference between an exact card, an analytic
+phrase and a near paraphrase visible.
+
+Active files are in
+`sidequest_semantic_compiler_decision_tree_fiftieth_edition/`, led by
+`FIFTIETH_COMPILER_MANUAL.md`, with all 144 decisions, 79 licensed commands,
+65 rejected cells, report, builder and consistency checker. The next task is
+to rank which missing bare base or ending cards would unlock the most rejected
+commands at once.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
