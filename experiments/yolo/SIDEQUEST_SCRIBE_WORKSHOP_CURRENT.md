@@ -7462,8 +7462,15 @@ production mechanism; only four surface choices require an owner/document
 renderer convention, while 145 cards follow their recipe alone. See
 `sidequest_semantic_full_prose_morphology_two_hundred_ninety_third/TWO_HUNDRED_NINETY_THIRD_APPRENTICE_MORPHOLOGY_MANUAL.md`.
 
-Next, infer the exact internal ordering of the 64 slot-frame cards and turn it
-into a left-to-right writing template with explicit family-specific exceptions.
+Pass 294 reconstructs the visible left-to-right order of all 64 slot-frame
+cards: renderer → selector → process body → address → value/stage → current
+item → commit. Sixty-two cards follow it after renderer stripping and allowing
+OL to move; OL forms eleven prefix/selector chains and two genuine postposed
+continuations. Only `ycheor` and `chealror` are learned fronted exceptions. See
+`sidequest_semantic_slot_order_two_hundred_ninety_fourth/TWO_HUNDRED_NINETY_FOURTH_SLOT_ORDER_MANUAL.md`.
+
+Next, reconstruct the left/right slots and CHD-versus-CHED choice for all 20
+transfer-core cards, then derive the exact predicted spelling of `pchedain`.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
