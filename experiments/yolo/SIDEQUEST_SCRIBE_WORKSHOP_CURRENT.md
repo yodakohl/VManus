@@ -3518,6 +3518,28 @@ summaries, report, builder and validator. Next return to content and write one
 complete master-day workflow across one Herbal article and one Biological
 station sequence without renderer commentary inside the translation.
 
+## Active hundred-sixty-third complete master-day workflow
+
+H3/f11r and B2/f82r now form one fully spoken workshop day: seventeen Herbal
+events in four clauses prepare and clarify a pictured-plant extract; 62
+Biological events in 22 clauses transfer it through upper basins, a middle
+clarification station, a lower application field and final edge washing and
+drainage. All 79 events occur once in six continuous phases.
+
+The short reading is: prepare a clear measured extract from the pictured plant;
+transfer, divide, warm and hold it in the upper station; clarify it in the
+middle; apply the measured fraction in the lower field; wash at the edge
+stations; drain the remainder. This is the most concrete current content bet.
+The H3→B2 handoff is explicitly a master's workday scenario, not a visible
+cross-page pointer.
+
+Files are in
+`sidequest_semantic_master_day_workflow_hundred_sixty_third/`: complete
+79-event interlinear, 26 translated clauses, six phases, readable workday,
+report, builder and validator. Next pressure this vocabulary against the other
+three Herbal and five Biological records and revise only whole-card values
+that create clear process contradictions.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
