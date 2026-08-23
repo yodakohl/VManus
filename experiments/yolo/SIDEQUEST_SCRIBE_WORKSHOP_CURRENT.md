@@ -2861,6 +2861,25 @@ and validator. Next pair compatible Herbal product profiles with Biological
 operation profiles to form a small set of plausible workshop jobs without
 inventing written cross-page pointers.
 
+## Active hundred-thirty-second four practical jobs
+
+All eleven prose records now occur exactly once in four WHAT→HOW work orders.
+J1 sends the two f10r preparations into the common f81v basin program. J2 sends
+the wrung f11r clear run through the f82r stations. J3 joins the measured bound
+f55v preparation to f83r cloth/application and the two service tails. J4 sends
+the fresh f56r preparations through the long f83r transfer/state route.
+
+The four jobs contain all 381 prose events in original record order, with
+104, 79, 85 and 113 events respectively. They are the strongest current use
+scenarios, not asserted written cross-page references.
+
+Active files are in
+`sidequest_semantic_four_practical_jobs_hundred_thirty_second/`, led by
+`HUNDRED_THIRTY_SECOND_FOUR_COMPLETE_WORK_ORDERS.md`, with four job profiles,
+eleven ordered record steps, the 381-event job ledger, report, builder and
+validator. Next add the three fixed Astro pages as optional WHEN modules chosen
+by visible ownership, without inventing orientation or a cross-page key.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
