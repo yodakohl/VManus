@@ -3944,6 +3944,25 @@ validator. Next write a fourth instruction primarily from the 24 unused
 candidates and require substantially lower overlap with the current 25-card
 palette.
 
+## Active hundred-eighty-fifth zero-overlap fourth instruction
+
+A fourth free instruction uses 25 tokens, 20 distinct cards and five new
+fields. Every card comes from the unused 24-card shortlist and none overlaps
+the previous 25-card forward palette. All six slots appear; the four invariant
+terminal cards are field-final and the first field remains open.
+
+The sequence is `chor char okaiin dl cho qcthey cheol | chey cheeky shedal
+cheedy | otchor okain oiiin chdal dchedy | chey okeey chdal lchedy | otchor
+cho qcthey solkeey ldy`: prepare an additive batch, process and settle it,
+transfer a follow batch, hold and drain it, then collect and draw off another
+follow batch. It roundtrips without new surfaces or card values.
+
+Files are in `sidequest_semantic_zero_overlap_fourth_writing_hundred_eighty_fifth/`:
+25-token encoding, five fields, 20-card inventory, six ambiguity rows, full
+roundtrip, report, builder and validator. Next combine all four new texts into
+one mini-workshop section and make every open-field carry, close and owner
+handoff explicit.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
