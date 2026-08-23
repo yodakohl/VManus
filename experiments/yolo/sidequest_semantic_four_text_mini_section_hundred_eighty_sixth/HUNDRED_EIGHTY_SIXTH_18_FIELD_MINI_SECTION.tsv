@@ -1,0 +1,19 @@
+global_field_id	section	section_name	local_field	owner_register	visible_sequence	reading_de	field_status	micro_packets	event_count
+N01	A	A_CLEAR_EXTRACT_DOUBLE_PASS	1	MASTER_SUPPLIED_CLEAR_EXTRACT	dchol shey aiin	vom vorigen Klarauszug ein Sollmass nehmen	OPEN	1	3
+N02	A	A_CLEAR_EXTRACT_DOUBLE_PASS	2	MASTER_SUPPLIED_CLEAR_EXTRACT	cheky dain chedy qokeedy	kurz waermen Einlage setzen Charge ueberfuehren lange einwirken	CLOSED	1	4
+N03	A	A_CLEAR_EXTRACT_DOUBLE_PASS	3	MASTER_SUPPLIED_CLEAR_EXTRACT	shckhedy	erster Durchgang	CLOSED	1	1
+N04	A	A_CLEAR_EXTRACT_DOUBLE_PASS	4	MASTER_SUPPLIED_CLEAR_EXTRACT	shckhedy	zweiter Durchgang	CLOSED	1	1
+N05	A	A_CLEAR_EXTRACT_DOUBLE_PASS	5	MASTER_SUPPLIED_CLEAR_EXTRACT	kain dal qoky lshedy	Anteil zur Zielstelle bringen einsetzen und waschen	CLOSED	1	4
+N06	C	C_REOPEN_THREE_PACKET	1	PREVIOUS_A_BATCH_WITH_CLEAR_EXTRACT_SUBCALL	dchol aiin cheky okal okey kain chedy dal shey aiin dain shckhedy	Vorigen Ansatz messen, kurz waermen und am ersten Ziel kurz halten; weiteren Anteil dorthin ueberfuehren; Klarauszug messen, Einlage setzen und einmal durchlassen.	CLOSED	3	12
+N07	C	C_REOPEN_THREE_PACKET	2	PREVIOUS_A_BATCH_WITH_CLEAR_EXTRACT_SUBCALL	qotchy otal qoky lshedy	Zum Folgeposten und naechsten Ziel wechseln, dort einsetzen und den Waschgang schliessen.	CLOSED	1	4
+N08	C	C_REOPEN_THREE_PACKET	3	PREVIOUS_A_BATCH_WITH_CLEAR_EXTRACT_SUBCALL	kain talam oldy	Den Restanteil verwahren und fertig markieren.	CLOSED	1	3
+N09	B	B_STOCK_SPLIT_CORRECTED	1	STORED_REMAINDER_FROM_C	talam dchol ykaiin ches	vom verwahrten vorigen Ansatz eine Sollportion nehmen und teilen	OPEN	1	4
+N10	B	B_STOCK_SPLIT_CORRECTED	2	STORED_REMAINDER_FROM_C	ykain ody	erste Portion abkuehlen und den Teilvorgang schliessen	CLOSED	1	2
+N11	B	B_STOCK_SPLIT_CORRECTED	3	STORED_REMAINDER_FROM_C	talam oldy	abgekuehlte Portion verwahren und freigeben	CLOSED	1	2
+N12	B	B_STOCK_SPLIT_CORRECTED	4	STORED_REMAINDER_FROM_C	ykan cheky okal qokedy	zweite Portion kurz waermen am ersten Ziel einsetzen und kurz einwirken	CLOSED	1	4
+N13	B	B_STOCK_SPLIT_CORRECTED	5	STORED_REMAINDER_FROM_C	qotchy otal qoky rshedy	Folgeposten zum naechsten Ziel bringen dort einsetzen und Waschfolge schliessen	CLOSED	1	4
+N14	D	D_ADDITIVE_FOLLOW_BATCH	1	NEW_ADDITIVE_BATCH	chor char okaiin dl cho qcthey cheol	Ansatz aufnehmen, davon bemessen, Zusatz und weitere Zutat zugeben, kurz vorbereiten und weiterarbeiten.	OPEN	1	7
+N15	D	D_ADDITIVE_FOLLOW_BATCH	2	NEW_ADDITIVE_BATCH	chey cheeky shedal cheedy	Diesen Posten laenger bearbeiten, am Ziel absetzen und den kurzen Absetzschritt schliessen.	CLOSED	1	4
+N16	D	D_ADDITIVE_FOLLOW_BATCH	3	NEW_ADDITIVE_BATCH	otchor okain oiiin chdal dchedy	Folgeansatz mit einer Portion auf die Arbeitsstufe setzen, zum Ziel ueberfuehren und schliessen.	CLOSED	1	5
+N17	D	D_ADDITIVE_FOLLOW_BATCH	4	NEW_ADDITIVE_BATCH	chey okeey chdal lchedy	Diesen Posten lange einwirken lassen, zum Ziel ueberfuehren und abfuehren.	CLOSED	1	4
+N18	D	D_ADDITIVE_FOLLOW_BATCH	5	NEW_ADDITIVE_BATCH	otchor cho qcthey solkeey ldy	Folgeansatz mit weiterer Zutat kurz vorbereiten, lange sammeln, abziehen und schliessen.	CLOSED	1	5

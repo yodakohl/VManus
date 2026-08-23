@@ -3963,6 +3963,26 @@ roundtrip, report, builder and validator. Next combine all four new texts into
 one mini-workshop section and make every open-field carry, close and owner
 handoff explicit.
 
+## Active hundred-eighty-sixth four-text mini-section
+
+The four free instructions now form one ordered section A → C → corrected B →
+D with 73 tokens, 45 distinct cards, 18 fields and 20 micro-packets. Fifteen
+fields close and three explicitly carry state onward. All invariant terminal
+cards remain field-final.
+
+The owner chain is explicit: a master supplies A's clear extract; C begins with
+`dchol` and loads A as previous; C stores a remainder and B begins `talam
+dchol`; D then starts a new batch with `chor`, requiring a new master/picture
+owner instead of silently inheriting B. The four handoffs and all eighteen
+register states are machine-readable.
+
+Files are in `sidequest_semantic_four_text_mini_section_hundred_eighty_sixth/`:
+73-token and 18-field editions, four handoffs, eighteen register traces, four
+section summaries, readable mini-edition, report, builder and validator. Next
+render the same exact 73 cards as a second scribal hand using only registered
+surface allographs and unchanged field boundaries, then demand identical
+readback.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
