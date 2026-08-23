@@ -776,6 +776,34 @@ Active files are in
 116 programs, the worked-job program, report, builder and consistency checker.
 This is the current workflow layer above the spoken card idioms.
 
+## Active thirty-ninth scribe-memory edition
+
+The workshop ellipsis is now executable with a four-mark memory slate rather
+than a long hidden plaintext sentence. The scribe carries `OWNER` (visible
+plant, station or diagram object), `ACTIVE` (current work item), `TARGET`
+(current local destination) and `PREVIOUS` (exactly one displaced item).
+Source, quantity, stage and closure normally remain visible card cues and do
+not require a fifth persistent register.
+
+All 116 prose statements now show the four values before and after execution,
+the operation on each slot, current surface/atom sequence, process-macro
+program and expanded reading. The complete D2 example carries the same slate
+through all 26 WHAT/HOW steps. Maximum simultaneous occupancy is four slots;
+the edition contains ten visible owner switches, four of them inside a single
+statement.
+
+The practical rule is simple: a line end resets nothing, and `CLOSE` finishes
+a local cell without automatically erasing the slate. A visible station shift
+changes `OWNER` and forces `TARGET` to be checked; a true new item moves the old
+`ACTIVE` value to `PREVIOUS`; all four values clear only at record end.
+
+Active files are in
+`sidequest_semantic_scribe_memory_thirty_ninth_edition/`, led by
+`THIRTY_NINTH_SCRIBE_MEMORY_MANUAL.md`, with four-slot inventory, complete
+116-transition table, 26-step worked-job trace, report, builder and consistency
+checker. This is the current explanation for pronouns, ellipses and carried
+references without overloading individual stems.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
