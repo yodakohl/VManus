@@ -1,0 +1,139 @@
+{
+  "status": "PASS",
+  "checks_passed": 22,
+  "checks_total": 22,
+  "counts": {
+    "carrier_rules": 8,
+    "promoted_card_types": 20,
+    "promoted_events": 21,
+    "productive_card_types": 151,
+    "whole_card_types": 22,
+    "productive_events": 353,
+    "whole_events": 28,
+    "fully_composed_statements": 94,
+    "codebook_statements": 22
+  },
+  "checks": [
+    {
+      "name": "source_counts",
+      "passed": true,
+      "detail": "cards=173, events=381, statements=116"
+    },
+    {
+      "name": "source_partial_layer",
+      "passed": true,
+      "detail": "partial_types=20, partial_events=21"
+    },
+    {
+      "name": "carrier_inventory",
+      "passed": true,
+      "detail": "rows=8, unique_rules=8"
+    },
+    {
+      "name": "carrier_kinds",
+      "passed": true,
+      "detail": "BOUND_CLASSIFIER=3, FORMAL_FRAME=2, LEXICAL_MICROCORE=3"
+    },
+    {
+      "name": "closure_inventory",
+      "passed": true,
+      "detail": "all twenty and only the partial card types are promoted"
+    },
+    {
+      "name": "closure_event_coverage",
+      "passed": true,
+      "detail": "all twenty-one partial occurrences are covered once"
+    },
+    {
+      "name": "carrier_assignment",
+      "passed": true,
+      "detail": "four cards needed no new carrier and sixteen use the eight-rule sheet"
+    },
+    {
+      "name": "closed_dictionary_inventory",
+      "passed": true,
+      "detail": "rows=173, unique_ids=173"
+    },
+    {
+      "name": "two_type_architecture",
+      "passed": true,
+      "detail": "productive=151, whole=22"
+    },
+    {
+      "name": "no_partial_types",
+      "passed": true,
+      "detail": "no card remains partially parsed or empty"
+    },
+    {
+      "name": "event_binding",
+      "passed": true,
+      "detail": "all 381 event identities, surfaces, order, statements, and contextual readings are unchanged"
+    },
+    {
+      "name": "two_event_architecture",
+      "passed": true,
+      "detail": "productive=353, whole=28"
+    },
+    {
+      "name": "no_partial_events",
+      "passed": true,
+      "detail": "the former p layer has disappeared from all event rows"
+    },
+    {
+      "name": "page_scope",
+      "passed": true,
+      "detail": "only the seven fixed prose pages occur"
+    },
+    {
+      "name": "phrase_binding",
+      "passed": true,
+      "detail": "all 116 fluent instructions and event counts are unchanged"
+    },
+    {
+      "name": "lesson_levels",
+      "passed": true,
+      "detail": "fully_composed=94, codebook=22"
+    },
+    {
+      "name": "phrase_event_coverage",
+      "passed": true,
+      "detail": "symbols=381, whole_symbols=28"
+    },
+    {
+      "name": "drill_inventory",
+      "passed": true,
+      "detail": "each carrier rule has one concrete workshop drill"
+    },
+    {
+      "name": "record_inventory",
+      "passed": true,
+      "detail": "the readable edition contains all eleven prose records"
+    },
+    {
+      "name": "manual_contract",
+      "passed": true,
+      "detail": "the manual distinguishes frames, classifiers, and microcores"
+    },
+    {
+      "name": "sealed_selectors_absent",
+      "passed": true,
+      "detail": "no sealed page selector occurs in generated tables; tuple hashes are not treated as selectors"
+    },
+    {
+      "name": "deterministic_rebuild",
+      "passed": true,
+      "detail": "all generated artifacts rebuilt byte-identically"
+    }
+  ],
+  "artifact_sha256": {
+    "BOUND_CARRIER_8_LEXICON.tsv": "123dfed23dfba6a074f475a3f00e3dca94c67f834869e6080a59f89ccd093c83",
+    "PARTIAL_20_CLOSURE.tsv": "d2ddcefd0a9dcf17f9069c7799bcf26a67105972d915a47da7bffd21c1054498",
+    "CLOSED_173_CARD_DICTIONARY.tsv": "aa553e7a2a8aa27aba231f55177f342a512df5b3c8d86535c374fd14cd79c00c",
+    "CLOSED_381_EVENT_INTERLINEAR.tsv": "fd742bfd674f9328c314183b72f52ce082b1660e59c48afd660537f1b7ee9814",
+    "CLOSED_116_PHRASES.tsv": "062f10a4d633d220eeb31ea77c816c8740fb4e3e886a2975a60a3c25e7ba75f9",
+    "CARRIER_8_DRILLS.tsv": "4f3f9fce09fa87b0bf5a940897add231b9a9fa4a45a1d1dbac89e9223e856534",
+    "CLOSED_11_RECORDS.md": "9ffd3f770fa8644363aa9df3a81bf965ba9d3ea60216d2e8972692459760f8e9",
+    "BOUND_CARRIER_LEAF.md": "7b1645b286f8e259fe5b8f1433905ae1eaa50d29781249b0490abf319f0b9be6",
+    "BUILD_SUMMARY.json": "b4599b1b4526af7d42d63cbcf485eb8d3b33ea98395df43ca4256671b5828b6b"
+  }
+}

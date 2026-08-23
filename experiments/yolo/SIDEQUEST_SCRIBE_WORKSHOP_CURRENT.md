@@ -1,7 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-23, after adding exact-form selection to the apprentice
-codebook.
+Updated: 2026-08-23, after closing the bound-carrier layer.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -20,7 +19,36 @@ Exactly ten pages are in scope:
 `f84` and `f84r` remain sealed. ZL3b, IT2a and RF1b are alternate readings of
 one manuscript. No additional page, image or semantic corpus was admitted.
 
-## Active whole-card variant book
+## Active two-layer workshop dictionary
+
+The intermediate `p` layer is now closed. Its twenty card types and 21 events
+reduce to eight short carrier rules: two nonlexical local/terminal frames,
+three bound classifiers for residual branch, marked port and continuing work
+path, and three lexical microcores `DAN=apply`, `SK=pour` and
+`T...AM=store`. Four of the twenty cards already contained only established
+components and needed no new carrier at all.
+
+The complete prose dictionary therefore has only two teaching layers:
+151 productively composed types with 353 events, and 22 learned exact whole
+cards with 28 events. Ninety-four of 116 instructions are now fully composed;
+the remaining 22 use the already selected sixteen-headword codebook. No card
+or event remains partially interpreted.
+
+The frames are not promoted to free words. `R.../T...` only binds a known core
+to the active local item, and the D/terminal frame closes only licensed exact
+cards. The classifiers similarly operate inside constructions: O selects a
+residual branch, S a marked outlet and KY the continuing local path. This keeps
+the useful readings compact: `sotodan=OT+DAN` thereafter apply,
+`skar=SK+AR` pour from there, `talam=T+AL+AM` store at target, and
+`lochedy=L+O+CHED+CLOSE` carry off the remainder and close.
+
+Active files are in `sidequest_semantic_bound_carrier_closure/`, led by
+`BOUND_CARRIER_CLOSURE_REPORT.md`, `BOUND_CARRIER_LEAF.md`,
+`BOUND_CARRIER_8_LEXICON.tsv`, `PARTIAL_20_CLOSURE.tsv`, and the complete
+closed 173-card/381-event/116-statement/11-record edition, drills, builder and
+validator.
+
+## Previous whole-card variant book
 
 The sixteen learned meaning-heads now have an explicit forward-writing rule.
 Nine heads have exactly one available card; five use a small semantic subtype
