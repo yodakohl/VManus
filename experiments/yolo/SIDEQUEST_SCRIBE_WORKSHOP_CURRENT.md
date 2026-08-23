@@ -4086,6 +4086,19 @@ renderings of learned cards rather than separate vocabulary. The device is
 optional: 82 fields lack enough variable cards and 33 are mixed. Next compose a
 fresh instruction that deliberately uses all five modes and test exact readback.
 
+## Active hundred-ninety-fourth five-mode forward writing
+
+A fresh five-field instruction uses CH, D, O, Q and S modes across 25 tokens:
+`chor chaiin cheky cheol chey | dchol dchey daiin dal dar | or okain okeey ol
+olchedy | qokaiin qokal qokeey qoky qokedy | saiin shedal shecthy shcthy
+schedy`. All 25 surfaces are registered and uniquely recover both their exact
+card and intended mode. CH/D are open; O/Q/S close.
+
+Four cards demonstrate true compositional framing while keeping one value:
+`chor/or` Ansatz, `chaiin/daiin/saiin` Sollmaß, `cheol/ol` weiter and
+`okeey/qokeey` lange einwirken. Next give the same source instruction to a
+second, less harmonizing renderer and test whether values and closures survive.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
