@@ -2224,6 +2224,29 @@ validator. Next map all 44 atomic components across Herbal and Biological
 records to distinguish portable workshop vocabulary from section-specific
 learned specialist terms.
 
+## Active hundred-fourth component ecology
+
+Only fifteen of the 44 atomic values recur in at least two Herbal and two
+Biological records: `AIIN`, `AL`, `AR`, `CLOSE`, `CTH`, `E`, `EE`, `KCH`, `OK`,
+`OL`, `OR`, `OT`, `SH`, `TY` and `Y`. This is the genuinely portable shared
+teaching deck. Nine more values bridge the sections thinly and must be taught by
+example rather than assumed universally.
+
+Ten atoms remain Herbal specialists and ten Biological specialists. Notably,
+`HO=Zutat` is confined to Herbal, whereas `SHED=absetzen`, `SOLK=sammeln` and
+`WASH=waschen` are confined to Biological in the fixed slice. `CHD`, `CKH`,
+`CHK`, `L`, `AIN`, `IIN`, `AIR`, `CHEEY` and `PARTITION` are the nine thin
+bridges. This layered ecology makes the multi-scribe curriculum smaller: shared
+core first, bridge examples second, specialist tablets last.
+
+Active files are in
+`sidequest_semantic_component_ecology_hundred_fourth_edition/`, led by
+`HUNDRED_FOURTH_COMPONENT_ECOLOGY_REPORT.md`, with the 44-component ecology,
+fifteen-value portable core, specialist table, all 769 atom occurrences,
+builder and validator. Next turn this ecology into a concrete 1420-style
+apprentice curriculum and test whether a novice can write representative
+Herbal, bath/service and Astro entries using only staged lessons.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
