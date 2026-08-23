@@ -1,0 +1,136 @@
+{
+  "status": "PASS",
+  "pass_count": 23,
+  "fail_count": 0,
+  "checks": [
+    {
+      "check": "event_count",
+      "pass": true,
+      "detail": 381
+    },
+    {
+      "check": "event_ids_unique",
+      "pass": true,
+      "detail": "381 expected"
+    },
+    {
+      "check": "event_serial_complete",
+      "pass": true,
+      "detail": "1..381"
+    },
+    {
+      "check": "statement_count",
+      "pass": true,
+      "detail": 116
+    },
+    {
+      "check": "statement_ids_unique",
+      "pass": true,
+      "detail": "116 expected"
+    },
+    {
+      "check": "card_profiles",
+      "pass": true,
+      "detail": 173
+    },
+    {
+      "check": "record_count",
+      "pass": true,
+      "detail": "11 expected"
+    },
+    {
+      "check": "fusion_unit_count",
+      "pass": true,
+      "detail": 254
+    },
+    {
+      "check": "each_event_has_host",
+      "pass": true,
+      "detail": "nonempty"
+    },
+    {
+      "check": "all_hosts_exist",
+      "pass": true,
+      "detail": "all host IDs present"
+    },
+    {
+      "check": "unit_hosts_match",
+      "pass": true,
+      "detail": "254 hosts"
+    },
+    {
+      "check": "unit_members_sum",
+      "pass": true,
+      "detail": 381
+    },
+    {
+      "check": "statement_event_sum",
+      "pass": true,
+      "detail": 381
+    },
+    {
+      "check": "statement_units_sum",
+      "pass": true,
+      "detail": 254
+    },
+    {
+      "check": "all_readings_nonempty",
+      "pass": true,
+      "detail": "nonempty"
+    },
+    {
+      "check": "all_skeletons_nonempty",
+      "pass": true,
+      "detail": "nonempty"
+    },
+    {
+      "check": "dchol_count",
+      "pass": true,
+      "detail": 2
+    },
+    {
+      "check": "dchol_corrected",
+      "pass": true,
+      "detail": [
+        "DCHOL",
+        "DCHOL"
+      ]
+    },
+    {
+      "check": "no_free_dch",
+      "pass": true,
+      "detail": "DCH absent"
+    },
+    {
+      "check": "role_total",
+      "pass": true,
+      "detail": {
+        "ACTION_HEAD": 250,
+        "ARGUMENT_OR_MODIFIER": 73,
+        "CONTENT_OR_STATE": 34,
+        "ELLIPTIC_HEAD": 4,
+        "ENDPOINT_ONLY": 3,
+        "ORDER_MARKER": 17
+      }
+    },
+    {
+      "check": "direction_total",
+      "pass": true,
+      "detail": {
+        "BACKWARD": 75,
+        "FORWARD": 52,
+        "SELF": 254
+      }
+    },
+    {
+      "check": "sealed_absent",
+      "pass": true,
+      "detail": "sealed tokens absent"
+    },
+    {
+      "check": "deterministic_rebuild",
+      "pass": true,
+      "detail": "all bytes identical"
+    }
+  ]
+}

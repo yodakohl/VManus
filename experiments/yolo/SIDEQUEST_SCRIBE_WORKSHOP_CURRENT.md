@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-23, after compiling all 230 prose surfaces and correcting the false `DCH` bridge.
+Updated: 2026-08-23, after attaching all 381 compact card values to 254 action groups.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -47,6 +47,27 @@ Active files are in `sidequest_semantic_surface_compiler/`, led by
 `SURFACE_COMPILER_REPORT.md`, the 29-rule compiler, complete 230-surface and
 173-card parses, productive paradigms, forward predictions, bridge correction
 table, builder and validator.
+
+## Active clause attachment
+
+The 381 prose cards are no longer read as 381 independent commands. Across all
+116 statements, quantity, source, target, current-item, grade, material and
+endpoint cards now attach to adjacent action heads. This yields 254 compact
+work groups: 250 visible action-head events plus four owner-supplied elliptic
+heads. Seventy-five values attach backward, 52 forward, and 27 exactly
+equidistant cases remain explicit rather than being hidden by fluent prose.
+
+This makes the working translation more like a teachable workshop shorthand.
+For example a run of clear fraction, portion, target conduction, brief
+collection and outflow is one instruction complex, not five unrelated verbs.
+Both `dchol/schol` occurrences are now represented as the single learned
+`DCHOL = previous item` card throughout the event layer, so the withdrawn free
+`DCH` root no longer survives invisibly in the continuous edition.
+
+Active files are in `sidequest_semantic_clause_attachment/`, led by
+`CLAUSE_ATTACHMENT_REPORT.md`, complete 381-event attachments, 254 fusion
+units, 116 attached statements, 173 card context profiles, the eleven-record
+attachment edition, builder and validator.
 
 ## Active exception anatomy
 
