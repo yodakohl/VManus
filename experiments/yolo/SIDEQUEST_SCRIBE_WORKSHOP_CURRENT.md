@@ -6865,6 +6865,16 @@ no `Frischwasser` whole card. The current readable articles are
 Next, perform the same visible-owner versus inferred-noun separation for the
 six Biological records.
 
+Pass 210 binds the 281 Biological events to 15 local visible owners: 249 events
+at clear stations and 32 at two unresolved owner areas. Twenty-five noun or
+location cards form the Bio object register; 13 are geometry-compatible, but
+none names a direction by itself. `Frischwasser` occurs once. No portable card
+currently means person, woman, patient, body part, disease, therapy or bath.
+See `sidequest_semantic_bio_nouns_two_hundred_tenth/TWO_HUNDRED_TENTH_READABLE_BIO_STATIONS.md`.
+
+Next, identify the exact cards that genuinely bridge Herbal and Biological
+records and test whether one invariant value remains readable in both.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
