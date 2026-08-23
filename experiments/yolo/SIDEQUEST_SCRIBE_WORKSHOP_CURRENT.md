@@ -2502,6 +2502,28 @@ audited cards, revised 173-card teaching dictionary, builder and validator. Next
 inspect the seventy portable-core cards by exact cross-record recurrence and
 separate truly shared whole cards from cards that only happen to use core atoms.
 
+## Active hundred-sixteenth exact portable deck
+
+The same correction now applies to the seventy former core cards. Only thirteen
+exact core cards occur in both Herbal and Biological; 35 are Biological-only and
+22 Herbal-only even though all use portable core atoms. Adding the four exact
+bridge cards produces a genuinely shared deck of just seventeen whole cards.
+
+The deck is `oldy`, `choky`, `cheeky`, `aiin`, `okal`, `char`, `chdy`, `chor`,
+`chety`, `cheey`, `okaiin`, `chey`, `cheol`, `al`, `cholor`, `checthy` and
+`otchey`. Only `aiin = prescribed measure` occurs in all eleven prose records.
+The final teaching split is thirteen portable exact core cards, four portable
+exact bridge cards, 57 sectional cards using core atoms, 53 sectional cards
+using bridge atoms and 46 specialist-tablet cards.
+
+Active files are in
+`sidequest_semantic_exact_portable_deck_hundred_sixteenth_edition/`, led by
+`HUNDRED_SIXTEENTH_EXACT_PORTABLE_DECK_REPORT.md` and
+`HUNDRED_SIXTEENTH_PORTABLE_DECK.md`, with the seventy-card audit, seventeen-card
+deck, revised 173-card teaching dictionary, builder and validator. Next build a
+minimal writing exercise that uses only these seventeen portable cards and
+measure which complete statements can be expressed without a sectional tablet.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
