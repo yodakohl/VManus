@@ -1,0 +1,55 @@
+source_word_id	source_slot	register	medical_or_iatromedical_expansion_de	nonmedical_expansion_de	supply_layer	visible_card_word	selected_source_value_de	selection_class	eighty_first_selected_value_de	eighty_first_action	eighty_first_provenance	eighty_first_working_confidence_1_to_5
+S01	OWNER	SHARED	Besitzer	Besitzer	visible image or local record	NO__SOURCE_LEXICON_ONLY	Besitzer	UNCHANGED_SHARED	Besitzer	KEEP	VISIBLE_CONTEXT_PLUS_CARD	4
+S02	ITEM	SHARED	Arbeitsposten	Arbeitsposten	active register	NO__SOURCE_LEXICON_ONLY	Arbeitsposten	UNCHANGED_SHARED	Arbeitsposten	KEEP	CARD_OR_REGISTER_ONLY	3
+S03	PREVIOUS	SHARED	voriger Ansatz	voriger Ansatz	previous register	NO__SOURCE_LEXICON_ONLY	voriger Ansatz	UNCHANGED_SHARED	voriger Ansatz	KEEP	CARD_OR_REGISTER_ONLY	3
+S04	TARGET	SHARED	bezeichnete Stelle	bezeichnete Stelle	visible owner or target register	NO__SOURCE_LEXICON_ONLY	bezeichnete Stelle	UNCHANGED_SHARED	bezeichnete Stelle	KEEP	VISIBLE_CONTEXT_PLUS_CARD	4
+S05	PORTION	SHARED	örtliche Portion	örtliche Portion	measure/portion card	NO__SOURCE_LEXICON_ONLY	örtliche Portion	UNCHANGED_SHARED	örtliche Portion	KEEP	VISIBLE_CONTEXT_PLUS_CARD	4
+S06	RESULT	SHARED	sichtbares Ergebnis	sichtbares Ergebnis	result/readout card plus owner	NO__SOURCE_LEXICON_ONLY	sichtbares Ergebnis	UNCHANGED_SHARED	sichtbares Ergebnis	KEEP	VISIBLE_CONTEXT_PLUS_CARD	4
+H01	PLANT	HERBAL	Bildpflanze	Bildpflanze	whole plant image	NO__SOURCE_LEXICON_ONLY	Bildpflanze	UNCHANGED_SHARED	Bildpflanze	KEEP	DIRECT_VISIBLE_OWNER_OR_GEOMETRY	5
+H02	ROOT	HERBAL	Wurzelteil	Wurzelmaterial	plant owner plus master	NO__SOURCE_LEXICON_ONLY	Wurzel	NEUTRALIZED	Wurzel	KEEP	DIRECT_VISIBLE_OWNER_OR_GEOMETRY	5
+H03	SHOOT	HERBAL	junger Spross	junger Spross	plant owner plus master	NO__SOURCE_LEXICON_ONLY	junger Spross	UNCHANGED_SHARED	junger Spross	KEEP	DIRECT_VISIBLE_OWNER_OR_GEOMETRY	5
+H04	LEAF	HERBAL	Blatt	Blatt	plant owner plus master	NO__SOURCE_LEXICON_ONLY	Blatt	UNCHANGED_SHARED	Blatt	KEEP	DIRECT_VISIBLE_OWNER_OR_GEOMETRY	5
+H05	FLOWER	HERBAL	Blüte	Blüte	plant owner plus master	NO__SOURCE_LEXICON_ONLY	Blüte	UNCHANGED_SHARED	Blüte	KEEP	DIRECT_VISIBLE_OWNER_OR_GEOMETRY	5
+H06	HERB	HERBAL	Kraut	Pflanzenrohstoff	plant owner plus master	NO__SOURCE_LEXICON_ONLY	Kraut	NEUTRALIZED	Kraut	KEEP	DIRECT_VISIBLE_OWNER_OR_GEOMETRY	5
+H07	WATER	HERBAL	Wasser	Wasser	master source	NO__SOURCE_LEXICON_ONLY	Wasser	UNCHANGED_SHARED	Wasser	KEEP	MASTER_SELECTED_CONTENT	2
+H08	EXTRACTION_MEDIUM	HERBAL	Wein oder Auszugsmedium	Auszugsmedium	master source	NO__SOURCE_LEXICON_ONLY	Auszugsmedium	NEUTRALIZED	Auszugsflüssigkeit	REVISE_PLAINER	MASTER_SELECTED_CONTENT	2
+H09	OIL_BINDER	HERBAL	Öl	Bindemittel	master source	NO__SOURCE_LEXICON_ONLY	Träger	NEUTRALIZED	Trägerstoff	REVISE_PLAINER	MASTER_SELECTED_CONTENT	2
+H10	HONEY_BINDER	HERBAL	Honig	Binder	master source	NO__SOURCE_LEXICON_ONLY	Binder	NEUTRALIZED	Bindestoff	REVISE_PLAINER	MASTER_SELECTED_CONTENT	2
+H11	VESSEL	HERBAL	Gefäß	Gefäß	learned card or master	NO__SOURCE_LEXICON_ONLY	Gefäß	UNCHANGED_SHARED	Gefäß	KEEP	VISIBLE_CONTEXT_PLUS_CARD	4
+H12	CLOTH	HERBAL	Tuch	Tuch	learned card or master	NO__SOURCE_LEXICON_ONLY	Tuch	UNCHANGED_SHARED	Tuch	KEEP	VISIBLE_CONTEXT_PLUS_CARD	4
+H13	EXTRACT	HERBAL	Auszug	Auszug	extract card plus master	NO__SOURCE_LEXICON_ONLY	Auszug	UNCHANGED_SHARED	Auszug	KEEP	VISIBLE_CONTEXT_PLUS_CARD	4
+H14	RESIDUE	HERBAL	Rückstand	Rückstand	master source	NO__SOURCE_LEXICON_ONLY	Rückstand	UNCHANGED_SHARED	Rückstand	KEEP	MASTER_SELECTED_CONTENT	2
+H15	DRINK_OR_PRODUCT	HERBAL	Trank	Farb-, Duft- oder Werkprodukt	master source choice	NO__SOURCE_LEXICON_ONLY	Endprodukt	NEUTRALIZED	Mittel	REVISE_PLAINER	MASTER_SELECTED_CONTENT	2
+H16	OUTER_APPLICATION	HERBAL	äußere Auflage	Auftrag am Werkstück	master source choice	NO__SOURCE_LEXICON_ONLY	Auftrag	NEUTRALIZED	Auftrag	KEEP	MASTER_SELECTED_CONTENT	2
+B01	FIGURE_WORKPIECE	BIO	Badende	Arbeitsplatz oder Werkstück	visible figure plus master choice	NO__SOURCE_LEXICON_ONLY	Badende	VISIBLE_MEDICAL_BATH_CUE	Badende	KEEP	DIRECT_VISIBLE_OWNER_OR_GEOMETRY	5
+B02	BASIN	BIO	Becken	Becken	visible owner	NO__SOURCE_LEXICON_ONLY	Becken	UNCHANGED_SHARED	Becken	KEEP	DIRECT_VISIBLE_OWNER_OR_GEOMETRY	5
+B03	STATION	BIO	örtliche Badstation	örtliche Arbeitsstation	visible owner plus master choice	NO__SOURCE_LEXICON_ONLY	Beckenstation	NEUTRALIZED	Beckenstation	KEEP	DIRECT_VISIBLE_OWNER_OR_GEOMETRY	5
+B04	OPENING	BIO	Öffnung	Öffnung	visible/local master	NO__SOURCE_LEXICON_ONLY	Öffnung	UNCHANGED_SHARED	Öffnung	KEEP	DIRECT_VISIBLE_OWNER_OR_GEOMETRY	5
+B05	INLET	BIO	Einlass	Einlass	visible/local master	NO__SOURCE_LEXICON_ONLY	Einlass	UNCHANGED_SHARED	Einlass	KEEP	DIRECT_VISIBLE_OWNER_OR_GEOMETRY	5
+B06	OUTLET	BIO	Ablauf	Ablauf	visible/local master	NO__SOURCE_LEXICON_ONLY	Ablauf	UNCHANGED_SHARED	Ablauf	KEEP	DIRECT_VISIBLE_OWNER_OR_GEOMETRY	5
+B07	RUN	BIO	Flüssigkeitslauf	Arbeitslauf	local connection plus master	NO__SOURCE_LEXICON_ONLY	Flüssigkeitslauf	VISIBLE_WET_PROCESS_CUE	Flüssigkeitslauf	KEEP	DIRECT_VISIBLE_OWNER_OR_GEOMETRY	4
+B08	RECEIVER	BIO	Auffanggefäß	Auffanggefäß	visible/local master	NO__SOURCE_LEXICON_ONLY	Auffanggefäß	UNCHANGED_SHARED	Auffanggefäß	KEEP	DIRECT_VISIBLE_OWNER_OR_GEOMETRY	5
+B09	WASH_LIQUID	BIO	Bade- oder Waschflüssigkeit	Wasch- oder Färbeflüssigkeit	master source choice	NO__SOURCE_LEXICON_ONLY	Waschflüssigkeit	NEUTRALIZED	Waschflüssigkeit	KEEP	MASTER_SELECTED_CONTENT	2
+B10	ADDITIVE	BIO	Badezusatz	Arbeitszusatz	learned card plus master choice	NO__SOURCE_LEXICON_ONLY	Zusatz	NEUTRALIZED	Zusatz	KEEP	CARD_OR_REGISTER_ONLY	3
+B11	BIO_CLOTH	BIO	Anwendungstuch	Filter- oder Waschtuch	learned card plus master choice	NO__SOURCE_LEXICON_ONLY	Tuch	NEUTRALIZED	Tuch	KEEP	VISIBLE_CONTEXT_PLUS_CARD	4
+B12	TEMPERATURE	BIO	Badwärme	Arbeitstemperatur	grade/process plus master	NO__SOURCE_LEXICON_ONLY	Temperatur	NEUTRALIZED	Temperatur	KEEP	CARD_OR_REGISTER_ONLY	3
+B13	DURATION	BIO	Anwendungsdauer	Arbeitsdauer	grade/process plus master	NO__SOURCE_LEXICON_ONLY	Dauer	NEUTRALIZED	Dauer	KEEP	CARD_OR_REGISTER_ONLY	3
+B14	BODY_WORK_AREA	BIO	Körperstelle	Arbeitsstelle	visible figure/target plus master choice	NO__SOURCE_LEXICON_ONLY	örtliche Stelle	NEUTRALIZED	örtliche Stelle	KEEP	VISIBLE_CONTEXT_PLUS_CARD	4
+B15	IMMERSION	BIO	Teilbad	Tauchgang	visible basin plus master choice	NO__SOURCE_LEXICON_ONLY	Teilbad	VISIBLE_MEDICAL_BATH_CUE	Teilbad	KEEP	VISIBLE_CONTEXT_PLUS_CARD	4
+B16	FILTER	BIO	Seihgang	Filtergang	cloth/passage cards plus master choice	NO__SOURCE_LEXICON_ONLY	Filtern	NEUTRALIZED	Seihgang	REVISE_PLAINER	VISIBLE_CONTEXT_PLUS_CARD	4
+A01	WHEEL	ASTRO	Himmelsrad	Himmelsrad	visible geometry	NO__SOURCE_LEXICON_ONLY	Himmelsrad	UNCHANGED_SHARED	Himmelsrad	KEEP	DIRECT_VISIBLE_OWNER_OR_GEOMETRY	5
+A02	PANEL	ASTRO	Sternpaneel	Sternpaneel	visible geometry	NO__SOURCE_LEXICON_ONLY	Sternpaneel	UNCHANGED_SHARED	Sternpaneel	KEEP	DIRECT_VISIBLE_OWNER_OR_GEOMETRY	5
+A03	ROSETTE	ASTRO	Rosetteninstrument	Rosetteninstrument	visible geometry	NO__SOURCE_LEXICON_ONLY	Rosetteninstrument	UNCHANGED_SHARED	Rosetteninstrument	KEEP	DIRECT_VISIBLE_OWNER_OR_GEOMETRY	5
+A04	SECTOR	ASTRO	Himmelssektor	Kalendersektor	local master choice	NO__SOURCE_LEXICON_ONLY	Himmelssektor	VISIBLE_CELESTIAL_CUE	Himmelssektor	KEEP	DIRECT_VISIBLE_OWNER_OR_GEOMETRY	5
+A05	STAR_PLACE	ASTRO	Sternplatz	Sternplatz	visible geometry	NO__SOURCE_LEXICON_ONLY	Sternplatz	UNCHANGED_SHARED	Sternplatz	KEEP	DIRECT_VISIBLE_OWNER_OR_GEOMETRY	5
+A06	MANSION_PLACE	ASTRO	Mondstationsplatz	Kalenderplatz	local master choice	NO__SOURCE_LEXICON_ONLY	28er Platz	NEUTRALIZED	28er Feld	REVISE_PLAINER	DIRECT_VISIBLE_OWNER_OR_GEOMETRY	4
+A07	CONDITION_PLACE	ASTRO	Himmelsbedingung	Arbeitsbedingung	local master choice	NO__SOURCE_LEXICON_ONLY	Himmelsbedingung	VISIBLE_CELESTIAL_CUE	Bedingungsfeld	REVISE_PLAINER	VISIBLE_CONTEXT_PLUS_CARD	4
+A08	RING_TEXT	ASTRO	Ringrubrik	Ringrubrik	visible text location	NO__SOURCE_LEXICON_ONLY	Ringrubrik	UNCHANGED_SHARED	Ringrubrik	KEEP	DIRECT_VISIBLE_OWNER_OR_GEOMETRY	5
+A09	LOCAL_LABEL	ASTRO	lokales Himmelslabel	lokales Tabellenlabel	local nomenclator	NO__SOURCE_LEXICON_ONLY	Himmelslabel	VISIBLE_CELESTIAL_CUE	Himmelszeichen	REVISE_PLAINER	DIRECT_VISIBLE_OWNER_OR_GEOMETRY	4
+A10	CALENDAR_VALUE	ASTRO	Kalenderwert	Kalenderwert	local master	NO__SOURCE_LEXICON_ONLY	Kalenderwert	UNCHANGED_SHARED	Kalenderwert	KEEP	MASTER_SELECTED_CONTENT	2
+A11	CELESTIAL_VALUE	ASTRO	Himmelswert	Himmelswert	local master	NO__SOURCE_LEXICON_ONLY	Himmelswert	UNCHANGED_SHARED	Himmelswert	KEEP	MASTER_SELECTED_CONTENT	2
+A12	WEATHER_VALUE	ASTRO	Witterungswert	Arbeitszustand	local master choice	NO__SOURCE_LEXICON_ONLY	Witterungswert	VISIBLE_CELESTIAL_CUE	Wetterzeichen	REVISE_PLAINER	MASTER_SELECTED_CONTENT	2
+A13	LIGHT_VALUE	ASTRO	Lichtwert	Qualitätswert	local master choice	NO__SOURCE_LEXICON_ONLY	Lichtwert	VISIBLE_CELESTIAL_CUE	Lichtzeichen	REVISE_PLAINER	MASTER_SELECTED_CONTENT	2
+A14	PLANET_VALUE	ASTRO	Planetenwert	Zeitwert	local master choice	NO__SOURCE_LEXICON_ONLY	Zeitwert	NEUTRALIZED	Zeitzeichen	REVISE_PLAINER	MASTER_SELECTED_CONTENT	2
+A15	QUALITY_VALUE	ASTRO	Komplexionswert	Qualitätswert	local master choice	NO__SOURCE_LEXICON_ONLY	Qualitätswert	NEUTRALIZED	Eigenschaft	REVISE_PLAINER	MASTER_SELECTED_CONTENT	2
+A16	NAMESPACE	ASTRO	örtlicher Instrumentenschlüssel	örtlicher Instrumentenschlüssel	local workshop exemplar	NO__SOURCE_LEXICON_ONLY	örtlicher Instrumentenschlüssel	UNCHANGED_SHARED	örtlicher Instrumentenschlüssel	KEEP	CARD_OR_REGISTER_ONLY	3

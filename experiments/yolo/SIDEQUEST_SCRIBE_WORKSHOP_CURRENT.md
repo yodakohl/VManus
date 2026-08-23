@@ -1689,6 +1689,27 @@ report, builder and validator. Next rank all 54 source words by whether they
 are visible, card-licensed or only master-supplied, then replace the weakest
 values one by one with shorter and more coherent alternatives.
 
+## Active eighty-first refined source vocabulary
+
+All 54 source words now state their supply layer: 22 are directly tied to a
+visible owner or geometry, twelve combine picture context with a card, six
+come from a card/register relation, and fourteen remain selected master
+content. This keeps a visible `Blatt`, `Badende`, `Becken`, `Öffnung`, wheel or
+star place distinct from a merely supplied medium, binder or readout.
+
+Twelve clumsy values have been replaced by plainer workshop words without
+changing any stem: `Auszugsflüssigkeit`, `Trägerstoff`, `Bindestoff`, `Mittel`,
+`Seihgang`, `28er Feld`, `Bedingungsfeld`, `Himmelszeichen`, `Wetterzeichen`,
+`Lichtzeichen`, `Zeitzeichen` and `Eigenschaft`. These are still creative
+working meanings at the source layer, not translations of individual cards.
+
+Active files are in
+`sidequest_semantic_source_word_refinement_eighty_first_edition/`, led by
+`EIGHTY_FIRST_REFINED_SOURCE_DICTIONARY.md`, with the 54-word ranking, revised
+lexicon, twelve changes, report, builder and validator. Next propagate these
+twelve plainer values through all fourteen controlled readings and inspect
+which passages become more natural or expose a remaining bad composition.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
