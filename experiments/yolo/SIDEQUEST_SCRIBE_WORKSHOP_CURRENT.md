@@ -3622,6 +3622,27 @@ three purpose models, readable edition, report, builder and validator. Next
 nominate one of the four fixed Herbal articles as the best source for this B4
 charge, with one strong rival.
 
+## Active hundred-sixty-eighth Herbal source nomination
+
+The four pictured Herbal articles are now ranked as possible B4 sources.
+f55v/H4 shares six exact procedure cards and remains the strongest rival.
+f11r/H3 shares only three, but one is the decisive product identity: exact
+surface `shey`, master card MC119 and value `Klarauszug` occur in both H3 and
+B4. The other two bridges are `Sollmaß` and `dies/current item`.
+
+H3 is therefore the selected source article. Its local sequence explicitly
+prepares, presses, rests and re-filters the clear product before B4 inserts,
+double-passes, measures and delivers it. The combined scenario binds all
+seventeen H3 and 36 B4 events. The cross-page handoff remains a workshop
+reconstruction, not a visible pointer.
+
+Files are in
+`sidequest_semantic_herbal_source_nomination_hundred_sixty_eighth/`: four
+source candidates, three exact H3/B4 bridges, complete 53-event scenario,
+readable selection, report, builder and validator. Next assign the f11r plant
+one bounded concrete material class that best explains pressing, standing,
+re-filtering and later target application.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
