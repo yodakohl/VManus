@@ -3739,6 +3739,24 @@ Files are in
 readable map, report, builder and validator. Next assign the three Astro pages
 distinct timing/selection jobs without inventing a cross-page f68-f69 key.
 
+## Active hundred-seventy-fourth Astro workshop appendix
+
+The three Astro pages now perform three distinct jobs. f68 is the multipanel
+observation atlas that identifies a current local sky address. f67 supplies two
+independent eligibility wheels, one for collecting/preparing and one for
+bathing/washing/applying. f69 supplies three independent execution controls:
+local work choice, moisture/weather, and light/heat.
+
+This produces a simple workshop sequence—observe, check eligibility, set the
+execution—while preserving all visual partitions. The 28 f68 star labels and
+28 left-f69 work slots are not index-linked; no circle start or direction is
+invented. All 395 groups and 142 loci receive a concrete job.
+
+Files are in `sidequest_semantic_astro_workshop_appendix_hundred_seventy_fourth/`:
+395-group and 142-locus job editions, three page jobs, six no-key rules,
+readable appendix, report, builder and validator. Next assemble one complete
+ten-page master edition and a short curriculum for new workshop scribes.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
