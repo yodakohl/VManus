@@ -2754,6 +2754,27 @@ Active files are in
 exercises, builder and validator. Next rewrite every complete statement touched
 by these cards so the revised short values propagate into continuous prose.
 
+## Active hundred-twenty-seventh revised continuous prose
+
+The R126 overlay now covers all 381 prose events, all 116 statements and all
+eleven continuous records. Exactly 136 events carry the revised shared values;
+the remaining 245 retain their section or specialist card. Fifty-seven
+statements expose a shared-card kernel, and 22 fluent readings needed explicit
+wording changes such as `auf Sollmaß stellen`, `dorthin einsetzen`, `diesen
+Posten übertragen`, or `länger bearbeiten`.
+
+The prose now sounds more like a compact shop formulary: take from it, move it
+there, set the current item, carry the same batch onward, take the clear run,
+and close the work step. Concrete water, heat, cloth, plant part, vessel or body
+application remains supplied by the local section card and visible owner.
+
+Active files are in
+`sidequest_semantic_revised_continuous_prose_hundred_twenty_seventh/`, led by
+`HUNDRED_TWENTY_SEVENTH_COMPLETE_REVISED_PROSE.md`, with the complete 381-event
+interlinear, 116 revised statements, eleven record table, report, builder and
+validator. Next subject the most frequent nonshared Herbal and Biological
+cards to the same one-card/one-short-value discipline.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
