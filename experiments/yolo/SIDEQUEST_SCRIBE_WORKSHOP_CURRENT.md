@@ -7148,8 +7148,15 @@ dictionary, 381 prose events, 116 complete prose statements, 395 Astro groups,
 contains every prose statement and every diagram locus. See
 `sidequest_semantic_ten_page_working_edition_two_hundred_fiftieth/TWO_HUNDRED_FIFTIETH_TEN_PAGE_READABLE_EDITION.md`.
 
-Next, audit identical component formulas in the 173-card dictionary, unify the
-OT+OL pair, and resolve the YKAIN/YKAN/YKAIIN portion paradigm.
+Pass 251 removes the only two concrete component-equation conflicts. OT+OL is
+uniformly DANACH_WEITER. The apparent Y+K+AIN collision resolves into three
+visible endings: YKAIN first portion, YKAN second portion, YKAIIN prescribed
+portion. No reusable concrete component formula now has two portable cores.
+See
+`sidequest_semantic_component_equations_two_hundred_fifty_first/TWO_HUNDRED_FIFTY_FIRST_READABLE_ROOT_EQUATIONS.md`.
+
+Next, expand AIN/AN/AIIN into a complete quantity-ending paradigm across all
+173 cards and separate true quantity compounds from spelling lookalikes.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
