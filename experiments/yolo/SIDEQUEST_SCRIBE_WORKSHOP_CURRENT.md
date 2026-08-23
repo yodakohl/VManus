@@ -2201,6 +2201,29 @@ Next regenerate all 116 literal workshop sentences directly from atomic cards
 and resolved attachments, then compare them with the current fluent source
 expansions and repair any remaining order mismatch.
 
+## Active hundred-third literal regeneration
+
+The resolved 381-card stream now regenerates exactly 254 literal workshop
+clauses: 250 visible action heads plus four picture-supplied elliptic heads. Each
+clause exposes operation, item, source, run, target, value, grade, state and
+close separately. All 116 statements have a complete literal control reading.
+
+Seven statements contain the newly explicit forward material attachments:
+H2-S001, H3-S001, H5-S003, H5-S005, B1-S002, B2-S012 and B3-S026. Their current
+fluent readings were already compatible, but the new control text makes the
+relationship visible rather than relying on German prose. A form such as
+`Vorgang=ansetzen; Posten=Posten; Wert=Sollmaß; Grad=länger; Schluss` is now the
+stable intermediate representation from which fluent Herbal or bath wording is
+expanded.
+
+Active files are in
+`sidequest_semantic_literal_regeneration_hundred_third_edition/`, led by
+`HUNDRED_THIRD_LITERAL_REGENERATION_REPORT.md`, with 254 literal clauses, 116
+regenerated statements, the seven explicit forward-object rows, builder and
+validator. Next map all 44 atomic components across Herbal and Biological
+records to distinguish portable workshop vocabulary from section-specific
+learned specialist terms.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible

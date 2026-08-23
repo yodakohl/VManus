@@ -1,0 +1,255 @@
+fusion_unit_order	fusion_unit_id	statement_id	record_unit_id	page	host_event_id	member_event_ids	member_surfaces	member_atomic_defaults	operation_chain_de	item_values_de	source_value_de	run_value_de	target_value_de	measure_values_de	grade_values_de	state_values_de	close	literal_workshop_clause_de	contains_resolved_forward_material
+1	FU001	H1-S001	H1	f10r	E002	E001|E002|E003	dchey cthoor char	Wurzel+Posten | bereit+Ansatz | Quelle	bereithalten	Wurzel+Posten+Ansatz	Quelle	NONE	NONE	NONE	NONE	bereit	NO	Vorgang=bereithalten; Posten=Wurzel+Posten+Ansatz; Quelle=gesetzt; Zustand=bereit	NO
+2	FU002	H1-S001	H1	f10r	E004	E004|E005	chty os	teilen+Teil | Gefäß	teilen	Teil+Gefäß	NONE	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=teilen; Posten=Teil+Gefäß	NO
+3	FU003	H1-S001	H1	f10r	E007	E006|E007	chair otytchol	Lauf | danach+Teil+weiter	folgen→weiterführen	Teil	NONE	Lauf	NONE	NONE	NONE	NONE	NO	Vorgang=folgen→weiterführen; Reihenfolge=danach+weiter; Posten=Teil; Lauf=gesetzt	NO
+4	FU004	H1-S001	H1	f10r	E008	E008|E009|E010	oky daiin etyd	ansetzen+Posten | Sollmaß | kurz+Teil	ansetzen	Posten+Teil	NONE	NONE	NONE	Sollmaß	kurz	NONE	NO	Vorgang=ansetzen; Posten=Posten+Teil; Wert=Sollmaß; Grad=kurz	NO
+5	FU005	H1-S002	H1	f10r	E011	E011	qokchy	ansetzen+Posten	ansetzen	Posten	NONE	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=ansetzen; Posten=Posten	NO
+6	FU006	H1-S002	H1	f10r	E012	E012	qotchol	danach+weiter	folgen→weiterführen	NONE	NONE	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=folgen→weiterführen; Reihenfolge=danach+weiter	NO
+7	FU007	H1-S002	H1	f10r	E013	E013	chol	weiter	weiterführen	NONE	NONE	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=weiterführen; Reihenfolge=weiter	NO
+8	FU008	H1-S002	H1	f10r	E014	E014	cthy	bereit+Posten	bereithalten	Posten	NONE	NONE	NONE	NONE	NONE	bereit	NO	Vorgang=bereithalten; Posten=Posten; Zustand=bereit	NO
+9	FU009	H2-S001	H2	f10r	E016	E015|E016	ycheor cthy	Posten+Auszug+Ansatz | bereit+Posten	bereithalten	Posten+Auszug+Ansatz	NONE	NONE	NONE	NONE	NONE	bereit	NO	Vorgang=bereithalten; Posten=Posten+Auszug+Ansatz; Zustand=bereit	NO
+10	FU010	H2-S001	H2	f10r	E018	E017|E018	chor cthaiin	Ansatz | bereit+Sollmaß	bereithalten	Ansatz	NONE	NONE	NONE	Sollmaß	NONE	bereit	NO	Vorgang=bereithalten; Posten=Ansatz; Wert=Sollmaß; Zustand=bereit	YES
+11	FU011	H2-S001	H2	f10r	E019	E019|E020|E021|E022|E023	qoctholy dy chy taiin shy	bereit+weiter+Posten | Posten | Posten | Sollmaß | Posten	bereithalten→weiterführen	Posten	NONE	NONE	NONE	Sollmaß	NONE	bereit	NO	Vorgang=bereithalten→weiterführen; Reihenfolge=weiter; Posten=Posten; Wert=Sollmaß; Zustand=bereit	NO
+12	FU012	H2-S002	H2	f10r	E026	E024|E025|E026	qotchor chor otol	danach+Ansatz | Ansatz | danach+weiter	folgen→weiterführen	Ansatz	NONE	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=folgen→weiterführen; Reihenfolge=danach+weiter; Posten=Ansatz	NO
+13	FU013	H2-S002	H2	f10r	E027	E027	chol	weiter	weiterführen	NONE	NONE	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=weiterführen; Reihenfolge=weiter	NO
+14	FU014	H2-S002	H2	f10r	E028	E028	cholor	weiter+Ansatz	weiterführen	Ansatz	NONE	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=weiterführen; Reihenfolge=weiter; Posten=Ansatz	NO
+15	FU015	H2-S002	H2	f10r	E029	E029|E030|E031	chol daiin dar	weiter | Sollmaß | Quelle	weiterführen	NONE	Quelle	NONE	NONE	Sollmaß	NONE	NONE	NO	Vorgang=weiterführen; Reihenfolge=weiter; Quelle=gesetzt; Wert=Sollmaß	NO
+16	FU016	H2-S003	H2	f10r	E032	E032|E033|E034|E035|E036|E037|E038	oykchor shor chor chy kaiiin dy chodaiin	Posten+bearbeiten+Ansatz | Ansatz | Ansatz | Posten | Stufe | Posten | Zutat+Sollmaß	bearbeiten→zugeben	Posten+Ansatz+Zutat	NONE	NONE	NONE	Stufe+Sollmaß	NONE	NONE	NO	Vorgang=bearbeiten→zugeben; Posten=Posten+Ansatz+Zutat; Wert=Stufe+Sollmaß	NO
+17	FU017	H3-S001	H3	f11r	E039	E039	tshol	Zutat+abführen	zugeben→abführen	Zutat	NONE	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=zugeben→abführen; Posten=Zutat	NO
+18	FU018	H3-S001	H3	f11r	E041	E040|E041	schoal cfhy	Zutat+Ziel | auswringen+Posten	zugeben→auswringen	Zutat+Posten	NONE	NONE	Ziel	NONE	NONE	NONE	NO	Vorgang=zugeben→auswringen; Posten=Zutat+Posten; Ziel=gesetzt	YES
+19	FU019	H3-S001	H3	f11r	E042	E042	shfydaiin	halten+Sollmaß	halten	NONE	NONE	NONE	NONE	Sollmaß	NONE	NONE	NO	Vorgang=halten; Wert=Sollmaß	NO
+20	FU020	H3-S001	H3	f11r	E043	E043|E044|E045	cphy shey tchody	nachseihen+Posten | Ergebnis | Zutat+Schluss	nachseihen→zugeben	Posten+Ergebnis+Zutat	NONE	NONE	NONE	NONE	NONE	Ergebnis	YES	Vorgang=nachseihen→zugeben; Posten=Posten+Ergebnis+Zutat; Zustand=Ergebnis; Schluss	NO
+21	FU021	H3-S002	H3	f11r	E046	E046	shoyty	Zutat+Posten+Teil	zugeben	Zutat+Posten+Teil	NONE	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=zugeben; Posten=Zutat+Posten+Teil	NO
+22	FU022	H3-S003	H3	f11r	E049	E047|E048|E049|E050|E051	dchol chy kchy dy daiin	vorher | Posten | bearbeiten+Posten | Posten | Sollmaß	bearbeiten	Vorposten+Posten	NONE	NONE	NONE	Sollmaß	NONE	NONE	NO	Vorgang=bearbeiten; Reihenfolge=vorher; Posten=Vorposten+Posten; Wert=Sollmaß	NO
+23	FU023	H3-S004	H3	f11r	E053	E052|E053	qotchy okchol	danach+Posten | ansetzen+weiter	folgen→ansetzen→weiterführen	Posten	NONE	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=folgen→ansetzen→weiterführen; Reihenfolge=danach+weiter; Posten=Posten	NO
+24	FU024	H3-S004	H3	f11r	E054	E054|E055	cthy dy	bereit+Posten | Posten	bereithalten	Posten	NONE	NONE	NONE	NONE	NONE	bereit	NO	Vorgang=bereithalten; Posten=Posten; Zustand=bereit	NO
+25	FU025	H4-S001	H4	f55v	E056	E056|E057|E058	qokaiin chaiin ykain	ansetzen+Sollmaß | Sollmaß | Posten+Anteil	ansetzen	Posten	NONE	NONE	NONE	Sollmaß+Anteil	NONE	NONE	NO	Vorgang=ansetzen; Posten=Posten; Wert=Sollmaß+Anteil	NO
+26	FU026	H4-S001	H4	f55v	E060	E059|E060	ykan ody	Posten+Anteil | kühlen	kühlen	Posten	NONE	NONE	NONE	Anteil	NONE	NONE	NO	Vorgang=kühlen; Posten=Posten; Wert=Anteil	NO
+27	FU027	H4-S002	H4	f55v	E062	E061|E062	daiin chedy	Sollmaß | umsetzen+Posten	umsetzen	Posten	NONE	NONE	NONE	Sollmaß	NONE	NONE	NO	Vorgang=umsetzen; Posten=Posten; Wert=Sollmaß	NO
+28	FU028	H4-S002	H4	f55v	E063	E063	talam	Ziel+verwahren	verwahren	NONE	NONE	NONE	Ziel	NONE	NONE	NONE	NO	Vorgang=verwahren; Ziel=gesetzt	NO
+29	FU029	H4-S003	H4	f55v	E066	E064|E065|E066	ykaiin cheoar cheeky	Posten+Sollmaß | Auszug+Quelle | wärmen+länger+Posten	wärmen	Posten+Auszug	Quelle	NONE	NONE	Sollmaß	länger	NONE	NO	Vorgang=wärmen; Posten=Posten+Auszug; Quelle=gesetzt; Wert=Sollmaß; Grad=länger	NO
+30	FU030	H4-S003	H4	f55v	E067	E067	oldy	weiter+Schluss	weiterführen	NONE	NONE	NONE	NONE	NONE	NONE	NONE	YES	Vorgang=weiterführen; Reihenfolge=weiter; Schluss	NO
+31	FU031	H4-S004	H4	f55v	E069	E068|E069	aiin okal	Sollmaß | ansetzen+Ziel	ansetzen	NONE	NONE	NONE	Ziel	Sollmaß	NONE	NONE	NO	Vorgang=ansetzen; Ziel=gesetzt; Wert=Sollmaß	NO
+32	FU032	H4-S004	H4	f55v	E070	E070|E071|E072|E073	oltchy or y orain	weiter+bereit+Posten | Ansatz | Posten | Ansatz+Anteil	weiterführen→bereithalten	Posten+Ansatz	NONE	NONE	NONE	Anteil	NONE	bereit	NO	Vorgang=weiterführen→bereithalten; Reihenfolge=weiter; Posten=Posten+Ansatz; Wert=Anteil; Zustand=bereit	NO
+33	FU033	H5-S001	H5	f56r	E079	E074|E075|E076|E077|E078|E079	chochor cho chodaly daiin sho kchol	Zutat+Ansatz | Zutat | Zutat+Ziel+Posten | Sollmaß | Zutat | bearbeiten+weiter	zugeben→bearbeiten→weiterführen	Zutat+Ansatz+Posten	NONE	NONE	Ziel	Sollmaß	NONE	NONE	NO	Vorgang=zugeben→bearbeiten→weiterführen; Reihenfolge=weiter; Posten=Zutat+Ansatz+Posten; Ziel=gesetzt; Wert=Sollmaß	NO
+34	FU034	H5-S001	H5	f56r	E081	E080|E081|E082	otchor choky dal	danach+Ansatz | ansetzen+Posten | Ziel	folgen→ansetzen	Ansatz+Posten	NONE	NONE	Ziel	NONE	NONE	NONE	NO	Vorgang=folgen→ansetzen; Reihenfolge=danach; Posten=Ansatz+Posten; Ziel=gesetzt	NO
+35	FU035	H5-S002	H5	f56r	E085	E083|E084|E085	schol choy choky	vorher | Zutat+Posten | ansetzen+Posten	zugeben→ansetzen	Vorposten+Zutat+Posten	NONE	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=zugeben→ansetzen; Reihenfolge=vorher; Posten=Vorposten+Zutat+Posten	NO
+36	FU036	H5-S002	H5	f56r	E086	E086	cheeckhody	länger+Durchlass+Zutat+Schluss	durchleiten→zugeben	Zutat	NONE	NONE	NONE	NONE	länger	NONE	YES	Vorgang=durchleiten→zugeben; Posten=Zutat; Grad=länger; Schluss	NO
+37	FU037	H5-S003	H5	f56r	E087	E087	sh	halten	halten	NONE	NONE	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=halten	NO
+38	FU038	H5-S003	H5	f56r	E089	E088|E089	cho kchey	Zutat | bearbeiten+kurz+Posten	zugeben→bearbeiten	Zutat+Posten	NONE	NONE	NONE	NONE	kurz	NONE	NO	Vorgang=zugeben→bearbeiten; Posten=Zutat+Posten; Grad=kurz	YES
+39	FU039	H5-S003	H5	f56r	E090	E090	qokokchy	ansetzen+ansetzen+Posten	ansetzen	Posten	NONE	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=ansetzen; Posten=Posten	NO
+40	FU040	H5-S004	H5	f56r	E091	E091	okchy	ansetzen+Posten	ansetzen	Posten	NONE	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=ansetzen; Posten=Posten	NO
+41	FU041	H5-S004	H5	f56r	E092	E092	chokcheo	ansetzen+Auszug	ansetzen	Auszug	NONE	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=ansetzen; Posten=Auszug	NO
+42	FU042	H5-S004	H5	f56r	E093	E093	kchal	bearbeiten+Ziel	bearbeiten	NONE	NONE	NONE	Ziel	NONE	NONE	NONE	NO	Vorgang=bearbeiten; Ziel=gesetzt	NO
+43	FU043	H5-S005	H5	f56r	E095	E094|E095	sho chokchy	Zutat | ansetzen+Posten	zugeben→ansetzen	Zutat+Posten	NONE	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=zugeben→ansetzen; Posten=Zutat+Posten	NO
+44	FU044	H5-S005	H5	f56r	E097	E096|E097	kchoar sotodan	Auszug+Quelle | danach+anwenden	folgen→anwenden	Auszug	Quelle	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=folgen→anwenden; Reihenfolge=danach; Posten=Auszug; Quelle=gesetzt	YES
+45	FU045	H5-S006	H5	f56r	E099	E098|E099|E100	otchey keol daiin	danach+Posten | kurz+weiter | Sollmaß	folgen→weiterführen	Posten	NONE	NONE	NONE	Sollmaß	kurz	NONE	NO	Vorgang=folgen→weiterführen; Reihenfolge=danach+weiter; Posten=Posten; Wert=Sollmaß; Grad=kurz	NO
+46	FU046	B1-S001	B1	f81v	E101	E101	qokedy	ansetzen+kurz+Schluss	ansetzen	NONE	NONE	NONE	NONE	NONE	kurz	NONE	YES	Vorgang=ansetzen; Grad=kurz; Schluss	NO
+47	FU047	B1-S002	B1	f81v	E102	E102|E103	okaiin kair	ansetzen+Sollmaß | Lauf	ansetzen	NONE	NONE	Lauf	NONE	Sollmaß	NONE	NONE	NO	Vorgang=ansetzen; Lauf=gesetzt; Wert=Sollmaß	NO
+48	FU048	B1-S002	B1	f81v	E104	E104|E105	okal sar	ansetzen+Ziel | Quelle	ansetzen	NONE	Quelle	NONE	Ziel	NONE	NONE	NONE	NO	Vorgang=ansetzen; Quelle=gesetzt; Ziel=gesetzt	NO
+49	FU049	B1-S002	B1	f81v	E106	E106|E107	ol kain	weiter | Anteil	weiterführen	NONE	NONE	NONE	NONE	Anteil	NONE	NONE	NO	Vorgang=weiterführen; Reihenfolge=weiter; Wert=Anteil	NO
+50	FU050	B1-S002	B1	f81v	E108	E108|E109	olkain al	weiter+Anteil | Ziel	weiterführen	NONE	NONE	NONE	Ziel	Anteil	NONE	NONE	NO	Vorgang=weiterführen; Reihenfolge=weiter; Ziel=gesetzt; Wert=Anteil	NO
+51	FU051	B1-S002	B1	f81v	E110	E110	ol	weiter	weiterführen	NONE	NONE	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=weiterführen; Reihenfolge=weiter	NO
+52	FU052	B1-S002	B1	f81v	E111	E111	rol	weiter	weiterführen	NONE	NONE	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=weiterführen; Reihenfolge=weiter	NO
+53	FU053	B1-S002	B1	f81v	E113	E112|E113	dl olor	Zusatz | weiter+Ansatz	weiterführen	Zusatz+Ansatz	NONE	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=weiterführen; Reihenfolge=weiter; Posten=Zusatz+Ansatz	YES
+54	FU054	B1-S002	B1	f81v	E114	E114	ol	weiter	weiterführen	NONE	NONE	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=weiterführen; Reihenfolge=weiter	NO
+55	FU055	B1-S002	B1	f81v	E115	E115|E116	sheckhal daiin	Durchlass+kurz+Ziel | Sollmaß	durchleiten	NONE	NONE	NONE	Ziel	Sollmaß	kurz	NONE	NO	Vorgang=durchleiten; Ziel=gesetzt; Wert=Sollmaß; Grad=kurz	NO
+56	FU056	B1-S002	B1	f81v	E117	E117|E118	qokeedal daiin	ansetzen+länger+Ziel | Sollmaß	ansetzen	NONE	NONE	NONE	Ziel	Sollmaß	länger	NONE	NO	Vorgang=ansetzen; Ziel=gesetzt; Wert=Sollmaß; Grad=länger	NO
+57	FU057	B1-S002	B1	f81v	E119	E119	chckhy	Durchlass+Posten	durchleiten	Posten	NONE	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=durchleiten; Posten=Posten	NO
+58	FU058	B1-S002	B1	f81v	E120	E120	schedy	umsetzen+Schluss	umsetzen	NONE	NONE	NONE	NONE	NONE	NONE	NONE	YES	Vorgang=umsetzen; Schluss	NO
+59	FU059	B1-S003	B1	f81v	E121	E121	qol	weiter	weiterführen	NONE	NONE	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=weiterführen; Reihenfolge=weiter	NO
+60	FU060	B1-S003	B1	f81v	E122	E122	sshkchdy	halten+bearbeiten+umsetzen+Schluss	halten→bearbeiten→umsetzen	NONE	NONE	NONE	NONE	NONE	NONE	NONE	YES	Vorgang=halten→bearbeiten→umsetzen; Schluss	NO
+61	FU061	B1-S004	B1	f81v	E123	E123	chedy	umsetzen+Posten	umsetzen	Posten	NONE	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=umsetzen; Posten=Posten	NO
+62	FU062	B1-S004	B1	f81v	E124	E124	ol	weiter	weiterführen	NONE	NONE	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=weiterführen; Reihenfolge=weiter	NO
+63	FU063	B1-S004	B1	f81v	E125	E125	shedy	absetzen+kurz+Schluss	absetzen	NONE	NONE	NONE	NONE	NONE	kurz	NONE	YES	Vorgang=absetzen; Grad=kurz; Schluss	NO
+64	FU064	B1-S005	B1	f81v	E126	E126	qolchedy	weiter+umsetzen+Schluss	weiterführen→umsetzen	NONE	NONE	NONE	NONE	NONE	NONE	NONE	YES	Vorgang=weiterführen→umsetzen; Reihenfolge=weiter; Schluss	NO
+65	FU065	B1-S006	B1	f81v	E127	E127	qokain	ansetzen+Anteil	ansetzen	NONE	NONE	NONE	NONE	Anteil	NONE	NONE	NO	Vorgang=ansetzen; Wert=Anteil	NO
+66	FU066	B1-S006	B1	f81v	E128	E128|E129|E130	shckhy dl ral	Durchlass+Posten | Zusatz | Ziel	durchleiten	Posten+Zusatz	NONE	NONE	Ziel	NONE	NONE	NONE	NO	Vorgang=durchleiten; Posten=Posten+Zusatz; Ziel=gesetzt	NO
+67	FU067	B1-S007	B1	f81v	E131	E131	qokchdy	ansetzen+umsetzen+Schluss	ansetzen→umsetzen	NONE	NONE	NONE	NONE	NONE	NONE	NONE	YES	Vorgang=ansetzen→umsetzen; Schluss	NO
+68	FU068	B1-S008	B1	f81v	E133	E132|E133	chey ol	Posten | weiter	weiterführen	Posten	NONE	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=weiterführen; Reihenfolge=weiter; Posten=Posten	NO
+69	FU069	B1-S008	B1	f81v	E134	E134	cheky	wärmen+kurz+Posten	wärmen	Posten	NONE	NONE	NONE	NONE	kurz	NONE	NO	Vorgang=wärmen; Posten=Posten; Grad=kurz	NO
+70	FU070	B1-S008	B1	f81v	E135	E135	ol	weiter	weiterführen	NONE	NONE	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=weiterführen; Reihenfolge=weiter	NO
+71	FU071	B1-S008	B1	f81v	E136	E136	shedy	absetzen+kurz+Schluss	absetzen	NONE	NONE	NONE	NONE	NONE	kurz	NONE	YES	Vorgang=absetzen; Grad=kurz; Schluss	NO
+72	FU072	B1-S009	B1	f81v	E137	E137	qokedy	ansetzen+kurz+Schluss	ansetzen	NONE	NONE	NONE	NONE	NONE	kurz	NONE	YES	Vorgang=ansetzen; Grad=kurz; Schluss	NO
+73	FU073	B1-S010	B1	f81v	E138	E138	qokedy	ansetzen+kurz+Schluss	ansetzen	NONE	NONE	NONE	NONE	NONE	kurz	NONE	YES	Vorgang=ansetzen; Grad=kurz; Schluss	NO
+74	FU074	B1-S011	B1	f81v	E139	E139	chckhy	Durchlass+Posten	durchleiten	Posten	NONE	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=durchleiten; Posten=Posten	NO
+75	FU075	B1-S011	B1	f81v	E140	E140	qoky	ansetzen+Posten	ansetzen	Posten	NONE	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=ansetzen; Posten=Posten	NO
+76	FU076	B1-S012	B1	f81v	E141	E141	lsho	waschen	waschen	NONE	NONE	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=waschen	NO
+77	FU077	B1-S012	B1	f81v	E142	E142	qokey	ansetzen+kurz+Posten	ansetzen	Posten	NONE	NONE	NONE	NONE	kurz	NONE	NO	Vorgang=ansetzen; Posten=Posten; Grad=kurz	NO
+78	FU078	B1-S012	B1	f81v	E143	E143	lshedy	waschen+Schluss	waschen	NONE	NONE	NONE	NONE	NONE	NONE	NONE	YES	Vorgang=waschen; Schluss	NO
+79	FU079	B1-S013	B1	f81v	E144	E144	lshedy	waschen+Schluss	waschen	NONE	NONE	NONE	NONE	NONE	NONE	NONE	YES	Vorgang=waschen; Schluss	NO
+80	FU080	B1-S014	B1	f81v	E145	E145	chedy	umsetzen+Posten	umsetzen	Posten	NONE	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=umsetzen; Posten=Posten	NO
+81	FU081	B1-S014	B1	f81v	E146	E146	qolky	weiter	weiterführen	NONE	NONE	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=weiterführen; Reihenfolge=weiter	NO
+82	FU082	B1-S014	B1	f81v	E147	E147	lchedal	abführen+umsetzen+Ziel	abführen→umsetzen	NONE	NONE	NONE	Ziel	NONE	NONE	NONE	NO	Vorgang=abführen→umsetzen; Ziel=gesetzt	NO
+83	FU083	B1-S014	B1	f81v	E148	E148|E149	qol otar	weiter | danach+Quelle	weiterführen→folgen	NONE	Quelle	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=weiterführen→folgen; Reihenfolge=weiter+danach; Quelle=gesetzt	NO
+84	FU084	B1-S015	B1	f81v	E151	E150|E151	ytey okchedy	Posten+kurz+Teil | ansetzen+umsetzen+Schluss	ansetzen→umsetzen	Posten+Teil	NONE	NONE	NONE	NONE	kurz	NONE	YES	Vorgang=ansetzen→umsetzen; Posten=Posten+Teil; Grad=kurz; Schluss	NO
+85	FU085	B1-S016	B1	f81v	E152	E152	qokal	ansetzen+Ziel	ansetzen	NONE	NONE	NONE	Ziel	NONE	NONE	NONE	NO	Vorgang=ansetzen; Ziel=gesetzt	NO
+86	FU086	B1-S016	B1	f81v	E153	E153	okeey	ansetzen+länger+Posten	ansetzen	Posten	NONE	NONE	NONE	NONE	länger	NONE	NO	Vorgang=ansetzen; Posten=Posten; Grad=länger	NO
+87	FU087	B1-S016	B1	f81v	E154	E154	qol	weiter	weiterführen	NONE	NONE	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=weiterführen; Reihenfolge=weiter	NO
+88	FU088	B1-S016	B1	f81v	E155	E155	cheedy	absetzen+kurz+Schluss	absetzen	NONE	NONE	NONE	NONE	NONE	kurz	NONE	YES	Vorgang=absetzen; Grad=kurz; Schluss	NO
+89	FU089	B1-S017	B1	f81v	E157	E156|E157	sal teol	Ziel | kurz+weiter	weiterführen	NONE	NONE	NONE	Ziel	NONE	kurz	NONE	NO	Vorgang=weiterführen; Reihenfolge=weiter; Ziel=gesetzt; Grad=kurz	NO
+90	FU090	B1-S017	B1	f81v	E158	E158	dchdy	umsetzen+Schluss	umsetzen	NONE	NONE	NONE	NONE	NONE	NONE	NONE	YES	Vorgang=umsetzen; Schluss	NO
+91	FU091	B1-S018	B1	f81v	E159	E159	ly	abführen+Posten	abführen	Posten	NONE	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=abführen; Posten=Posten	NO
+92	FU092	B1-S018	B1	f81v	E160	E160|E161	dsheol oiiin	halten+kurz+weiter | Stufe	halten→weiterführen	NONE	NONE	NONE	NONE	Stufe	kurz	NONE	NO	Vorgang=halten→weiterführen; Reihenfolge=weiter; Wert=Stufe; Grad=kurz	NO
+93	FU093	B1-S018	B1	f81v	E162	E162	olkeedy	sammeln+länger+Schluss	sammeln	NONE	NONE	NONE	NONE	NONE	länger	NONE	YES	Vorgang=sammeln; Grad=länger; Schluss	NO
+94	FU094	B1-S019	B1	f81v	E163	E163	tedy	absetzen+kurz+Schluss	absetzen	NONE	NONE	NONE	NONE	NONE	kurz	NONE	YES	Vorgang=absetzen; Grad=kurz; Schluss	NO
+95	FU095	B1-S020	B1	f81v	E164	E164	cheky	wärmen+kurz+Posten	wärmen	Posten	NONE	NONE	NONE	NONE	kurz	NONE	NO	Vorgang=wärmen; Posten=Posten; Grad=kurz	NO
+96	FU096	B1-S020	B1	f81v	E165	E165	shckhedy	trennen+Schluss	trennen	NONE	NONE	NONE	NONE	NONE	NONE	NONE	YES	Vorgang=trennen; Schluss	NO
+97	FU097	B1-S021	B1	f81v	E166	E166	chal	Ziel	BILDBESITZER-AKTION	NONE	NONE	NONE	Ziel	NONE	NONE	NONE	NO	Vorgang=BILDBESITZER-AKTION; Ziel=gesetzt	NO
+98	FU098	B2-S001	B2	f82r	E167	E167	dchedy	umsetzen+Schluss	umsetzen	NONE	NONE	NONE	NONE	NONE	NONE	NONE	YES	Vorgang=umsetzen; Schluss	NO
+99	FU099	B2-S002	B2	f82r	E168	E168	qolchedy	weiter+umsetzen+Schluss	weiterführen→umsetzen	NONE	NONE	NONE	NONE	NONE	NONE	NONE	YES	Vorgang=weiterführen→umsetzen; Reihenfolge=weiter; Schluss	NO
+100	FU100	B2-S003	B2	f82r	E169	E169|E170	qokain dy	ansetzen+Anteil | Posten	ansetzen	Posten	NONE	NONE	NONE	Anteil	NONE	NONE	NO	Vorgang=ansetzen; Posten=Posten; Wert=Anteil	NO
+101	FU101	B2-S003	B2	f82r	E171	E171	qokeedy	ansetzen+länger+Schluss	ansetzen	NONE	NONE	NONE	NONE	NONE	länger	NONE	YES	Vorgang=ansetzen; Grad=länger; Schluss	NO
+102	FU102	B2-S004	B2	f82r	E172	E172	qokal	ansetzen+Ziel	ansetzen	NONE	NONE	NONE	Ziel	NONE	NONE	NONE	NO	Vorgang=ansetzen; Ziel=gesetzt	NO
+103	FU103	B2-S004	B2	f82r	E173	E173	lcheckhy	abführen+Durchlass+Posten	abführen→durchleiten	Posten	NONE	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=abführen→durchleiten; Posten=Posten	NO
+104	FU104	B2-S004	B2	f82r	E174	E174	lched	abführen+umsetzen	abführen→umsetzen	NONE	NONE	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=abführen→umsetzen	NO
+105	FU105	B2-S004	B2	f82r	E175	E175	qokeey	ansetzen+länger+Posten	ansetzen	Posten	NONE	NONE	NONE	NONE	länger	NONE	NO	Vorgang=ansetzen; Posten=Posten; Grad=länger	NO
+106	FU106	B2-S004	B2	f82r	E176	E176	lcheckhedy	abführen+trennen+Schluss	abführen→trennen	NONE	NONE	NONE	NONE	NONE	NONE	NONE	YES	Vorgang=abführen→trennen; Schluss	NO
+107	FU107	B2-S005	B2	f82r	E177	E177	qokaly	ansetzen+Ziel+Posten	ansetzen	Posten	NONE	NONE	Ziel	NONE	NONE	NONE	NO	Vorgang=ansetzen; Posten=Posten; Ziel=gesetzt	NO
+108	FU108	B2-S005	B2	f82r	E178	E178	solkaiin	sammeln+Sollmaß	sammeln	NONE	NONE	NONE	NONE	Sollmaß	NONE	NONE	NO	Vorgang=sammeln; Wert=Sollmaß	NO
+109	FU109	B2-S005	B2	f82r	E179	E179	chckhy	Durchlass+Posten	durchleiten	Posten	NONE	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=durchleiten; Posten=Posten	NO
+110	FU110	B2-S005	B2	f82r	E180	E180	qokaiin	ansetzen+Sollmaß	ansetzen	NONE	NONE	NONE	NONE	Sollmaß	NONE	NONE	NO	Vorgang=ansetzen; Wert=Sollmaß	NO
+111	FU111	B2-S005	B2	f82r	E181	E181	qokaiin	ansetzen+Sollmaß	ansetzen	NONE	NONE	NONE	NONE	Sollmaß	NONE	NONE	NO	Vorgang=ansetzen; Wert=Sollmaß	NO
+112	FU112	B2-S005	B2	f82r	E182	E182	octheol	bereit+weiter	bereithalten→weiterführen	NONE	NONE	NONE	NONE	NONE	NONE	bereit	NO	Vorgang=bereithalten→weiterführen; Reihenfolge=weiter; Zustand=bereit	NO
+113	FU113	B2-S005	B2	f82r	E183	E183	chkeey	wärmen+länger+Posten	wärmen	Posten	NONE	NONE	NONE	NONE	länger	NONE	NO	Vorgang=wärmen; Posten=Posten; Grad=länger	NO
+114	FU114	B2-S005	B2	f82r	E184	E184	ldy	abführen+Schluss	abführen	NONE	NONE	NONE	NONE	NONE	NONE	NONE	YES	Vorgang=abführen; Schluss	NO
+115	FU115	B2-S006	B2	f82r	E186	E185|E186	oteey qokal	danach+länger+Posten | ansetzen+Ziel	folgen→ansetzen	Posten	NONE	NONE	Ziel	NONE	länger	NONE	NO	Vorgang=folgen→ansetzen; Reihenfolge=danach; Posten=Posten; Ziel=gesetzt; Grad=länger	NO
+116	FU116	B2-S006	B2	f82r	E187	E187	sheckhy	Durchlass+kurz+Posten	durchleiten	Posten	NONE	NONE	NONE	NONE	kurz	NONE	NO	Vorgang=durchleiten; Posten=Posten; Grad=kurz	NO
+117	FU117	B2-S006	B2	f82r	E188	E188	qoky	ansetzen+Posten	ansetzen	Posten	NONE	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=ansetzen; Posten=Posten	NO
+118	FU118	B2-S007	B2	f82r	E189	E189	dshedy	absetzen+kurz+Schluss	absetzen	NONE	NONE	NONE	NONE	NONE	kurz	NONE	YES	Vorgang=absetzen; Grad=kurz; Schluss	NO
+119	FU119	B2-S008	B2	f82r	E191	E190|E191	sotaiin qokar	danach+Sollmaß | ansetzen+Quelle	folgen→ansetzen	NONE	Quelle	NONE	NONE	Sollmaß	NONE	NONE	NO	Vorgang=folgen→ansetzen; Reihenfolge=danach; Quelle=gesetzt; Wert=Sollmaß	NO
+120	FU120	B2-S008	B2	f82r	E192	E192	shedy	absetzen+kurz+Schluss	absetzen	NONE	NONE	NONE	NONE	NONE	kurz	NONE	YES	Vorgang=absetzen; Grad=kurz; Schluss	NO
+121	FU121	B2-S009	B2	f82r	E193	E193	solshedy	weiter+absetzen+Schluss	weiterführen→absetzen	NONE	NONE	NONE	NONE	NONE	NONE	NONE	YES	Vorgang=weiterführen→absetzen; Reihenfolge=weiter; Schluss	NO
+122	FU122	B2-S010	B2	f82r	E194	E194	qokeey	ansetzen+länger+Posten	ansetzen	Posten	NONE	NONE	NONE	NONE	länger	NONE	NO	Vorgang=ansetzen; Posten=Posten; Grad=länger	NO
+123	FU123	B2-S010	B2	f82r	E195	E195	qoky	ansetzen+Posten	ansetzen	Posten	NONE	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=ansetzen; Posten=Posten	NO
+124	FU124	B2-S010	B2	f82r	E196	E196|E197	ls cheey	abführen | Ergebnis	abführen	Ergebnis	NONE	NONE	NONE	NONE	NONE	Ergebnis	NO	Vorgang=abführen; Posten=Ergebnis; Zustand=Ergebnis	NO
+125	FU125	B2-S011	B2	f82r	E198	E198|E199	okain char	ansetzen+Anteil | Quelle	ansetzen	NONE	Quelle	NONE	NONE	Anteil	NONE	NONE	NO	Vorgang=ansetzen; Quelle=gesetzt; Wert=Anteil	NO
+126	FU126	B2-S011	B2	f82r	E200	E200	okain	ansetzen+Anteil	ansetzen	NONE	NONE	NONE	NONE	Anteil	NONE	NONE	NO	Vorgang=ansetzen; Wert=Anteil	NO
+127	FU127	B2-S011	B2	f82r	E201	E201	qokeedy	ansetzen+länger+Schluss	ansetzen	NONE	NONE	NONE	NONE	NONE	länger	NONE	YES	Vorgang=ansetzen; Grad=länger; Schluss	NO
+128	FU128	B2-S012	B2	f82r	E202	E202	lchy	abführen+Posten	abführen	Posten	NONE	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=abführen; Posten=Posten	NO
+129	FU129	B2-S012	B2	f82r	E204	E203|E204	cheey qcthey	Ergebnis | bereit+kurz+Posten	bereithalten	Ergebnis+Posten	NONE	NONE	NONE	NONE	kurz	bereit+Ergebnis	NO	Vorgang=bereithalten; Posten=Ergebnis+Posten; Grad=kurz; Zustand=bereit+Ergebnis	YES
+130	FU130	B2-S012	B2	f82r	E205	E205	qokeey	ansetzen+länger+Posten	ansetzen	Posten	NONE	NONE	NONE	NONE	länger	NONE	NO	Vorgang=ansetzen; Posten=Posten; Grad=länger	NO
+131	FU131	B2-S012	B2	f82r	E206	E206|E207	lcheey daiin	abführen+Ergebnis | Sollmaß	abführen	Ergebnis	NONE	NONE	NONE	Sollmaß	NONE	Ergebnis	NO	Vorgang=abführen; Posten=Ergebnis; Wert=Sollmaß; Zustand=Ergebnis	NO
+132	FU132	B2-S012	B2	f82r	E209	E208|E209	chey qokeeedy	Posten | ansetzen+vollständig+Schluss	ansetzen	Posten	NONE	NONE	NONE	NONE	vollständig	NONE	YES	Vorgang=ansetzen; Posten=Posten; Grad=vollständig; Schluss	NO
+133	FU133	B2-S013	B2	f82r	E210	E210	lchedy	abführen+umsetzen+Schluss	abführen→umsetzen	NONE	NONE	NONE	NONE	NONE	NONE	NONE	YES	Vorgang=abführen→umsetzen; Schluss	NO
+134	FU134	B2-S014	B2	f82r	E211	E211	lar	abführen+Quelle	abführen	NONE	Quelle	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=abführen; Quelle=gesetzt	NO
+135	FU135	B2-S015	B2	f82r	E213	E212|E213	tshey qokeedy	Ergebnis | ansetzen+länger+Schluss	ansetzen	Ergebnis	NONE	NONE	NONE	NONE	länger	Ergebnis	YES	Vorgang=ansetzen; Posten=Ergebnis; Grad=länger; Zustand=Ergebnis; Schluss	NO
+136	FU136	B2-S016	B2	f82r	E215	E214|E215	cheal lchedar	Ziel | abführen+umsetzen+Quelle	abführen→umsetzen	NONE	Quelle	NONE	Ziel	NONE	NONE	NONE	NO	Vorgang=abführen→umsetzen; Quelle=gesetzt; Ziel=gesetzt	NO
+137	FU137	B2-S016	B2	f82r	E216	E216|E217	ches aiin	teilen | Sollmaß	teilen	NONE	NONE	NONE	NONE	Sollmaß	NONE	NONE	NO	Vorgang=teilen; Wert=Sollmaß	NO
+138	FU138	B2-S016	B2	f82r	E219	E218|E219	oteey qokaiin	danach+länger+Posten | ansetzen+Sollmaß	folgen→ansetzen	Posten	NONE	NONE	NONE	Sollmaß	länger	NONE	NO	Vorgang=folgen→ansetzen; Reihenfolge=danach; Posten=Posten; Wert=Sollmaß; Grad=länger	NO
+139	FU139	B2-S016	B2	f82r	E220	E220	okey	ansetzen+kurz+Posten	ansetzen	Posten	NONE	NONE	NONE	NONE	kurz	NONE	NO	Vorgang=ansetzen; Posten=Posten; Grad=kurz	NO
+140	FU140	B2-S016	B2	f82r	E221	E221	pchedy	zuführen+umsetzen+Schluss	zuführen→umsetzen	NONE	NONE	NONE	NONE	NONE	NONE	NONE	YES	Vorgang=zuführen→umsetzen; Schluss	NO
+141	FU141	B2-S017	B2	f82r	E222	E222|E223	rsheal daldy	halten+kurz+Ziel | Ziel+Schluss	halten	NONE	NONE	NONE	Ziel	NONE	kurz	NONE	YES	Vorgang=halten; Ziel=gesetzt; Grad=kurz; Schluss	NO
+142	FU142	B2-S018	B2	f82r	E224	E224	qokeedy	ansetzen+länger+Schluss	ansetzen	NONE	NONE	NONE	NONE	NONE	länger	NONE	YES	Vorgang=ansetzen; Grad=länger; Schluss	NO
+143	FU143	B2-S019	B2	f82r	E225	E225	rshedy	waschen+Schluss	waschen	NONE	NONE	NONE	NONE	NONE	NONE	NONE	YES	Vorgang=waschen; Schluss	NO
+144	FU144	B2-S020	B2	f82r	E226	E226	qoteedy	danach+länger+Schluss	folgen	NONE	NONE	NONE	NONE	NONE	länger	NONE	YES	Vorgang=folgen; Reihenfolge=danach; Grad=länger; Schluss	NO
+145	FU145	B2-S021	B2	f82r	E227	E227	qokeedy	ansetzen+länger+Schluss	ansetzen	NONE	NONE	NONE	NONE	NONE	länger	NONE	YES	Vorgang=ansetzen; Grad=länger; Schluss	NO
+146	FU146	B2-S022	B2	f82r	E228	E228	lochedy	abführen+umsetzen+Schluss	abführen→umsetzen	NONE	NONE	NONE	NONE	NONE	NONE	NONE	YES	Vorgang=abführen→umsetzen; Schluss	NO
+147	FU147	B3-S001	B3	f83r	E229	E229	olkeedy	sammeln+länger+Schluss	sammeln	NONE	NONE	NONE	NONE	NONE	länger	NONE	YES	Vorgang=sammeln; Grad=länger; Schluss	NO
+148	FU148	B3-S002	B3	f83r	E231	E230|E231	qotal chkeedy	danach+Ziel | wärmen+länger+Schluss	folgen→wärmen	NONE	NONE	NONE	Ziel	NONE	länger	NONE	YES	Vorgang=folgen→wärmen; Reihenfolge=danach; Ziel=gesetzt; Grad=länger; Schluss	NO
+149	FU149	B3-S003	B3	f83r	E235	E232|E233|E234|E235	chey daiin chey lchedy	Posten | Sollmaß | Posten | abführen+umsetzen+Schluss	abführen→umsetzen	Posten	NONE	NONE	NONE	Sollmaß	NONE	NONE	YES	Vorgang=abführen→umsetzen; Posten=Posten; Wert=Sollmaß; Schluss	NO
+150	FU150	B3-S004	B3	f83r	E236	E236|E237|E238	qokaiin qotal dar	ansetzen+Sollmaß | danach+Ziel | Quelle	ansetzen→folgen	NONE	Quelle	NONE	Ziel	Sollmaß	NONE	NONE	NO	Vorgang=ansetzen→folgen; Reihenfolge=danach; Quelle=gesetzt; Ziel=gesetzt; Wert=Sollmaß	NO
+151	FU151	B3-S005	B3	f83r	E239	E239	schedy	umsetzen+Schluss	umsetzen	NONE	NONE	NONE	NONE	NONE	NONE	NONE	YES	Vorgang=umsetzen; Schluss	NO
+152	FU152	B3-S006	B3	f83r	E240	E240	chedchy	umsetzen+Posten	umsetzen	Posten	NONE	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=umsetzen; Posten=Posten	NO
+153	FU153	B3-S006	B3	f83r	E241	E241	qokal	ansetzen+Ziel	ansetzen	NONE	NONE	NONE	Ziel	NONE	NONE	NONE	NO	Vorgang=ansetzen; Ziel=gesetzt	NO
+154	FU154	B3-S006	B3	f83r	E242	E242	olchedy	weiter+umsetzen+Schluss	weiterführen→umsetzen	NONE	NONE	NONE	NONE	NONE	NONE	NONE	YES	Vorgang=weiterführen→umsetzen; Reihenfolge=weiter; Schluss	NO
+155	FU155	B3-S007	B3	f83r	E243	E243	qokaiin	ansetzen+Sollmaß	ansetzen	NONE	NONE	NONE	NONE	Sollmaß	NONE	NONE	NO	Vorgang=ansetzen; Wert=Sollmaß	NO
+156	FU156	B3-S007	B3	f83r	E244	E244	chedy	umsetzen+Posten	umsetzen	Posten	NONE	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=umsetzen; Posten=Posten	NO
+157	FU157	B3-S007	B3	f83r	E245	E245	qokeedy	ansetzen+länger+Schluss	ansetzen	NONE	NONE	NONE	NONE	NONE	länger	NONE	YES	Vorgang=ansetzen; Grad=länger; Schluss	NO
+158	FU158	B3-S008	B3	f83r	E246	E246	lchedy	abführen+umsetzen+Schluss	abführen→umsetzen	NONE	NONE	NONE	NONE	NONE	NONE	NONE	YES	Vorgang=abführen→umsetzen; Schluss	NO
+159	FU159	B3-S009	B3	f83r	E247	E247	qoky	ansetzen+Posten	ansetzen	Posten	NONE	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=ansetzen; Posten=Posten	NO
+160	FU160	B3-S010	B3	f83r	E248	E248|E249	pchedal otedy	zuführen+umsetzen+Ziel | danach+kurz+Schluss	zuführen→umsetzen→folgen	NONE	NONE	NONE	Ziel	NONE	kurz	NONE	YES	Vorgang=zuführen→umsetzen→folgen; Reihenfolge=danach; Ziel=gesetzt; Grad=kurz; Schluss	NO
+161	FU161	B3-S011	B3	f83r	E250	E250	shecthedchy	bereit+umsetzen+Posten	bereithalten→umsetzen	Posten	NONE	NONE	NONE	NONE	NONE	bereit	NO	Vorgang=bereithalten→umsetzen; Posten=Posten; Zustand=bereit	NO
+162	FU162	B3-S011	B3	f83r	E251	E251	qoky	ansetzen+Posten	ansetzen	Posten	NONE	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=ansetzen; Posten=Posten	NO
+163	FU163	B3-S011	B3	f83r	E252	E252|E253	chedy chary	umsetzen+Posten | Quelle+Posten	umsetzen	Posten	Quelle	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=umsetzen; Posten=Posten; Quelle=gesetzt	NO
+164	FU164	B3-S012	B3	f83r	E255	E254|E255	sor shedy	Ansatz | absetzen+kurz+Schluss	absetzen	Ansatz	NONE	NONE	NONE	NONE	kurz	NONE	YES	Vorgang=absetzen; Posten=Ansatz; Grad=kurz; Schluss	NO
+165	FU165	B3-S013	B3	f83r	E256	E256|E257	qokaiin chkain	ansetzen+Sollmaß | Anteil	ansetzen	NONE	NONE	NONE	NONE	Sollmaß+Anteil	NONE	NONE	NO	Vorgang=ansetzen; Wert=Sollmaß+Anteil	NO
+166	FU166	B3-S013	B3	f83r	E258	E258	shcthey	bereit+kurz+Posten	bereithalten	Posten	NONE	NONE	NONE	NONE	kurz	bereit	NO	Vorgang=bereithalten; Posten=Posten; Grad=kurz; Zustand=bereit	NO
+167	FU167	B3-S013	B3	f83r	E259	E259	qokedy	ansetzen+kurz+Schluss	ansetzen	NONE	NONE	NONE	NONE	NONE	kurz	NONE	YES	Vorgang=ansetzen; Grad=kurz; Schluss	NO
+168	FU168	B3-S014	B3	f83r	E260	E260	okair	ansetzen+Lauf	ansetzen	NONE	NONE	Lauf	NONE	NONE	NONE	NONE	NO	Vorgang=ansetzen; Lauf=gesetzt	NO
+169	FU169	B3-S014	B3	f83r	E261	E261	sheedy	absetzen+länger+Schluss	absetzen	NONE	NONE	NONE	NONE	NONE	länger	NONE	YES	Vorgang=absetzen; Grad=länger; Schluss	NO
+170	FU170	B3-S015	B3	f83r	E262	E262	lchedy	abführen+umsetzen+Schluss	abführen→umsetzen	NONE	NONE	NONE	NONE	NONE	NONE	NONE	YES	Vorgang=abführen→umsetzen; Schluss	NO
+171	FU171	B3-S016	B3	f83r	E263	E263	lo	abführen	abführen	NONE	NONE	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=abführen	NO
+172	FU172	B3-S016	B3	f83r	E264	E264	qokchedy	ansetzen+umsetzen+Schluss	ansetzen→umsetzen	NONE	NONE	NONE	NONE	NONE	NONE	NONE	YES	Vorgang=ansetzen→umsetzen; Schluss	NO
+173	FU173	B3-S017	B3	f83r	E265	E265	qokeedy	ansetzen+länger+Schluss	ansetzen	NONE	NONE	NONE	NONE	NONE	länger	NONE	YES	Vorgang=ansetzen; Grad=länger; Schluss	NO
+174	FU174	B3-S018	B3	f83r	E266	E266	shedy	absetzen+kurz+Schluss	absetzen	NONE	NONE	NONE	NONE	NONE	kurz	NONE	YES	Vorgang=absetzen; Grad=kurz; Schluss	NO
+175	FU175	B3-S019	B3	f83r	E267	E267	qokshedy	ansetzen+absetzen+Schluss	ansetzen→absetzen	NONE	NONE	NONE	NONE	NONE	NONE	NONE	YES	Vorgang=ansetzen→absetzen; Schluss	NO
+176	FU176	B3-S020	B3	f83r	E269	E268|E269	dal lchedy	Ziel | abführen+umsetzen+Schluss	abführen→umsetzen	NONE	NONE	NONE	Ziel	NONE	NONE	NONE	YES	Vorgang=abführen→umsetzen; Ziel=gesetzt; Schluss	NO
+177	FU177	B3-S021	B3	f83r	E270	E270	qokaiin	ansetzen+Sollmaß	ansetzen	NONE	NONE	NONE	NONE	Sollmaß	NONE	NONE	NO	Vorgang=ansetzen; Wert=Sollmaß	NO
+178	FU178	B3-S021	B3	f83r	E271	E271|E272|E273	shcthy dal sy	bereit+Posten | Ziel | Posten	bereithalten	Posten	NONE	NONE	Ziel	NONE	NONE	bereit	NO	Vorgang=bereithalten; Posten=Posten; Ziel=gesetzt; Zustand=bereit	NO
+179	FU179	B3-S021	B3	f83r	E275	E274|E275	saiin shedal	Sollmaß | absetzen+Ziel	absetzen	NONE	NONE	NONE	Ziel	Sollmaß	NONE	NONE	NO	Vorgang=absetzen; Ziel=gesetzt; Wert=Sollmaß	NO
+180	FU180	B3-S021	B3	f83r	E276	E276|E277	shecthy chey	bereit+kurz+Posten | Posten	bereithalten	Posten	NONE	NONE	NONE	NONE	kurz	bereit	NO	Vorgang=bereithalten; Posten=Posten; Grad=kurz; Zustand=bereit	NO
+181	FU181	B3-S021	B3	f83r	E279	E278|E279	tal shcthy	Ziel | bereit+Posten	bereithalten	Posten	NONE	NONE	Ziel	NONE	NONE	bereit	NO	Vorgang=bereithalten; Posten=Posten; Ziel=gesetzt; Zustand=bereit	NO
+182	FU182	B3-S021	B3	f83r	E280	E280	dalchdy	Ziel+umsetzen+Schluss	umsetzen	NONE	NONE	NONE	Ziel	NONE	NONE	NONE	YES	Vorgang=umsetzen; Ziel=gesetzt; Schluss	NO
+183	FU183	B3-S022	B3	f83r	E281	E281	qotchedy	danach+umsetzen+Schluss	folgen→umsetzen	NONE	NONE	NONE	NONE	NONE	NONE	NONE	YES	Vorgang=folgen→umsetzen; Reihenfolge=danach; Schluss	NO
+184	FU184	B3-S023	B3	f83r	E282	E282	lchedy	abführen+umsetzen+Schluss	abführen→umsetzen	NONE	NONE	NONE	NONE	NONE	NONE	NONE	YES	Vorgang=abführen→umsetzen; Schluss	NO
+185	FU185	B3-S024	B3	f83r	E283	E283	tchedy	umsetzen+Schluss	umsetzen	NONE	NONE	NONE	NONE	NONE	NONE	NONE	YES	Vorgang=umsetzen; Schluss	NO
+186	FU186	B3-S025	B3	f83r	E284	E284	qokchdy	ansetzen+umsetzen+Schluss	ansetzen→umsetzen	NONE	NONE	NONE	NONE	NONE	NONE	NONE	YES	Vorgang=ansetzen→umsetzen; Schluss	NO
+187	FU187	B3-S026	B3	f83r	E285	E285	cheedar	umsetzen+Quelle	umsetzen	NONE	Quelle	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=umsetzen; Quelle=gesetzt	NO
+188	FU188	B3-S026	B3	f83r	E286	E286	chldaiin	absetzen+Sollmaß	absetzen	NONE	NONE	NONE	NONE	Sollmaß	NONE	NONE	NO	Vorgang=absetzen; Wert=Sollmaß	NO
+189	FU189	B3-S026	B3	f83r	E287	E287	chedy	umsetzen+Posten	umsetzen	Posten	NONE	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=umsetzen; Posten=Posten	NO
+190	FU190	B3-S026	B3	f83r	E288	E288	qokain	ansetzen+Anteil	ansetzen	NONE	NONE	NONE	NONE	Anteil	NONE	NONE	NO	Vorgang=ansetzen; Wert=Anteil	NO
+191	FU191	B3-S026	B3	f83r	E289	E289	checthy	bereit+Posten	bereithalten	Posten	NONE	NONE	NONE	NONE	NONE	bereit	NO	Vorgang=bereithalten; Posten=Posten; Zustand=bereit	NO
+192	FU192	B3-S026	B3	f83r	E291	E290|E291	chealror solkeedy	Ziel+Ansatz | sammeln+länger+Schluss	sammeln	Ansatz	NONE	NONE	Ziel	NONE	länger	NONE	YES	Vorgang=sammeln; Posten=Ansatz; Ziel=gesetzt; Grad=länger; Schluss	YES
+193	FU193	B3-S027	B3	f83r	E292	E292	qoteedy	danach+länger+Schluss	folgen	NONE	NONE	NONE	NONE	NONE	länger	NONE	YES	Vorgang=folgen; Reihenfolge=danach; Grad=länger; Schluss	NO
+194	FU194	B3-S028	B3	f83r	E293	E293	qokeey	ansetzen+länger+Posten	ansetzen	Posten	NONE	NONE	NONE	NONE	länger	NONE	NO	Vorgang=ansetzen; Posten=Posten; Grad=länger	NO
+195	FU195	B3-S028	B3	f83r	E294	E294	qokedy	ansetzen+kurz+Schluss	ansetzen	NONE	NONE	NONE	NONE	NONE	kurz	NONE	YES	Vorgang=ansetzen; Grad=kurz; Schluss	NO
+196	FU196	B3-S029	B3	f83r	E295	E295|E296	sol cheeety	weiter | vollständig+Teil	weiterführen	Teil	NONE	NONE	NONE	NONE	vollständig	NONE	NO	Vorgang=weiterführen; Reihenfolge=weiter; Posten=Teil; Grad=vollständig	NO
+197	FU197	B3-S029	B3	f83r	E297	E297	qokedy	ansetzen+kurz+Schluss	ansetzen	NONE	NONE	NONE	NONE	NONE	kurz	NONE	YES	Vorgang=ansetzen; Grad=kurz; Schluss	NO
+198	FU198	B3-S030	B3	f83r	E298	E298|E299	qoky saiin	ansetzen+Posten | Sollmaß	ansetzen	Posten	NONE	NONE	NONE	Sollmaß	NONE	NONE	NO	Vorgang=ansetzen; Posten=Posten; Wert=Sollmaß	NO
+199	FU199	B3-S030	B3	f83r	E301	E300|E301	schedair otchedy	Lauf | danach+umsetzen+Schluss	folgen→umsetzen	NONE	NONE	Lauf	NONE	NONE	NONE	NONE	YES	Vorgang=folgen→umsetzen; Reihenfolge=danach; Lauf=gesetzt; Schluss	NO
+200	FU200	B3-S031	B3	f83r	E302	E302	qokeedy	ansetzen+länger+Schluss	ansetzen	NONE	NONE	NONE	NONE	NONE	länger	NONE	YES	Vorgang=ansetzen; Grad=länger; Schluss	NO
+201	FU201	B3-S032	B3	f83r	E303	E303	chedain	umsetzen+Anteil	umsetzen	NONE	NONE	NONE	NONE	Anteil	NONE	NONE	NO	Vorgang=umsetzen; Wert=Anteil	NO
+202	FU202	B3-S032	B3	f83r	E304	E304|E305|E306|E307	chedy qotedaiin otaiin otedy	umsetzen+Posten | danach+kurz+Sollmaß | danach+Sollmaß | danach+kurz+Schluss	umsetzen→folgen	Posten	NONE	NONE	NONE	Sollmaß	kurz	NONE	YES	Vorgang=umsetzen→folgen; Reihenfolge=danach; Posten=Posten; Wert=Sollmaß; Grad=kurz; Schluss	NO
+203	FU203	B3-S033	B3	f83r	E308	E308	ldy	abführen+Schluss	abführen	NONE	NONE	NONE	NONE	NONE	NONE	NONE	YES	Vorgang=abführen; Schluss	NO
+204	FU204	B3-S034	B3	f83r	E310	E309|E310	soiiin checthy	Stufe | bereit+Posten	bereithalten	Posten	NONE	NONE	NONE	Stufe	NONE	bereit	NO	Vorgang=bereithalten; Posten=Posten; Wert=Stufe; Zustand=bereit	NO
+205	FU205	B3-S034	B3	f83r	E311	E311	chety	teilen+Teil	teilen	Teil	NONE	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=teilen; Posten=Teil	NO
+206	FU206	B3-S034	B3	f83r	E314	E312|E313|E314	otaiin olsaly shedy	danach+Sollmaß | Ziel+Posten | absetzen+kurz+Schluss	folgen→absetzen	Posten	NONE	NONE	Ziel	Sollmaß	kurz	NONE	YES	Vorgang=folgen→absetzen; Reihenfolge=danach; Posten=Posten; Ziel=gesetzt; Wert=Sollmaß; Grad=kurz; Schluss	NO
+207	FU207	B4-S001	B4	f83r	E315	E315	qokeedy	ansetzen+länger+Schluss	ansetzen	NONE	NONE	NONE	NONE	NONE	länger	NONE	YES	Vorgang=ansetzen; Grad=länger; Schluss	NO
+208	FU208	B4-S002	B4	f83r	E316	E316	qolchey	weiter+Posten	weiterführen	Posten	NONE	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=weiterführen; Reihenfolge=weiter; Posten=Posten	NO
+209	FU209	B4-S002	B4	f83r	E317	E317	qokeey	ansetzen+länger+Posten	ansetzen	Posten	NONE	NONE	NONE	NONE	länger	NONE	NO	Vorgang=ansetzen; Posten=Posten; Grad=länger	NO
+210	FU210	B4-S002	B4	f83r	E318	E318	qokedy	ansetzen+kurz+Schluss	ansetzen	NONE	NONE	NONE	NONE	NONE	kurz	NONE	YES	Vorgang=ansetzen; Grad=kurz; Schluss	NO
+211	FU211	B4-S003	B4	f83r	E319	E319	chedy	umsetzen+Posten	umsetzen	Posten	NONE	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=umsetzen; Posten=Posten	NO
+212	FU212	B4-S003	B4	f83r	E322	E320|E321|E322	otal otchey qokeey	danach+Ziel | danach+Posten | ansetzen+länger+Posten	folgen→ansetzen	Posten	NONE	NONE	Ziel	NONE	länger	NONE	NO	Vorgang=folgen→ansetzen; Reihenfolge=danach; Posten=Posten; Ziel=gesetzt; Grad=länger	NO
+213	FU213	B4-S003	B4	f83r	E323	E323	qoky	ansetzen+Posten	ansetzen	Posten	NONE	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=ansetzen; Posten=Posten	NO
+214	FU214	B4-S003	B4	f83r	E324	E324	tol	weiter	weiterführen	NONE	NONE	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=weiterführen; Reihenfolge=weiter	NO
+215	FU215	B4-S003	B4	f83r	E325	E325	shedy	absetzen+kurz+Schluss	absetzen	NONE	NONE	NONE	NONE	NONE	kurz	NONE	YES	Vorgang=absetzen; Grad=kurz; Schluss	NO
+216	FU216	B4-S004	B4	f83r	E326	E326	qokylddy	ansetzen+Posten+festbinden	ansetzen	Posten	NONE	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=ansetzen; Posten=Posten	NO
+217	FU217	B4-S005	B4	f83r	E328	E327|E328	dain chedy	Tuch | umsetzen+Posten	umsetzen	Tuch+Posten	NONE	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=umsetzen; Posten=Tuch+Posten	NO
+218	FU218	B4-S005	B4	f83r	E329	E329	qokeedy	ansetzen+länger+Schluss	ansetzen	NONE	NONE	NONE	NONE	NONE	länger	NONE	YES	Vorgang=ansetzen; Grad=länger; Schluss	NO
+219	FU219	B4-S006	B4	f83r	E330	E330	shckhedy	trennen+Schluss	trennen	NONE	NONE	NONE	NONE	NONE	NONE	NONE	YES	Vorgang=trennen; Schluss	NO
+220	FU220	B4-S007	B4	f83r	E331	E331	shckhedy	trennen+Schluss	trennen	NONE	NONE	NONE	NONE	NONE	NONE	NONE	YES	Vorgang=trennen; Schluss	NO
+221	FU221	B4-S008	B4	f83r	E333	E332|E333	saiin cheeky	Sollmaß | wärmen+länger+Posten	wärmen	Posten	NONE	NONE	NONE	Sollmaß	länger	NONE	NO	Vorgang=wärmen; Posten=Posten; Wert=Sollmaß; Grad=länger	NO
+222	FU222	B4-S008	B4	f83r	E334	E334	sheey	halten+länger+Posten	halten	Posten	NONE	NONE	NONE	NONE	länger	NONE	NO	Vorgang=halten; Posten=Posten; Grad=länger	NO
+223	FU223	B4-S008	B4	f83r	E335	E335	qokedy	ansetzen+kurz+Schluss	ansetzen	NONE	NONE	NONE	NONE	NONE	kurz	NONE	YES	Vorgang=ansetzen; Grad=kurz; Schluss	NO
+224	FU224	B4-S009	B4	f83r	E336	E336	shedy	absetzen+kurz+Schluss	absetzen	NONE	NONE	NONE	NONE	NONE	kurz	NONE	YES	Vorgang=absetzen; Grad=kurz; Schluss	NO
+225	FU225	B4-S010	B4	f83r	E337	E337	oldy	weiter+Schluss	weiterführen	NONE	NONE	NONE	NONE	NONE	NONE	NONE	YES	Vorgang=weiterführen; Reihenfolge=weiter; Schluss	NO
+226	FU226	B4-S011	B4	f83r	E339	E338|E339	saiin cheky	Sollmaß | wärmen+kurz+Posten	wärmen	Posten	NONE	NONE	NONE	Sollmaß	kurz	NONE	NO	Vorgang=wärmen; Posten=Posten; Wert=Sollmaß; Grad=kurz	NO
+227	FU227	B4-S011	B4	f83r	E340	E340	okeeol	ansetzen+länger+weiter	ansetzen→weiterführen	NONE	NONE	NONE	NONE	NONE	länger	NONE	NO	Vorgang=ansetzen→weiterführen; Reihenfolge=weiter; Grad=länger	NO
+228	FU228	B4-S011	B4	f83r	E341	E341	okain	ansetzen+Anteil	ansetzen	NONE	NONE	NONE	NONE	Anteil	NONE	NONE	NO	Vorgang=ansetzen; Wert=Anteil	NO
+229	FU229	B4-S011	B4	f83r	E342	E342	chdy	umsetzen+Posten	umsetzen	Posten	NONE	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=umsetzen; Posten=Posten	NO
+230	FU230	B4-S011	B4	f83r	E343	E343	sol	weiter	weiterführen	NONE	NONE	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=weiterführen; Reihenfolge=weiter	NO
+231	FU231	B4-S011	B4	f83r	E344	E344	lkedy	abführen+kurz+Schluss	abführen	NONE	NONE	NONE	NONE	NONE	kurz	NONE	YES	Vorgang=abführen; Grad=kurz; Schluss	NO
+232	FU232	B4-S012	B4	f83r	E345	E345	lchedy	abführen+umsetzen+Schluss	abführen→umsetzen	NONE	NONE	NONE	NONE	NONE	NONE	NONE	YES	Vorgang=abführen→umsetzen; Schluss	NO
+233	FU233	B4-S013	B4	f83r	E346	E346	qokol	ansetzen+weiter	ansetzen→weiterführen	NONE	NONE	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=ansetzen→weiterführen; Reihenfolge=weiter	NO
+234	FU234	B4-S013	B4	f83r	E347	E347	shedy	absetzen+kurz+Schluss	absetzen	NONE	NONE	NONE	NONE	NONE	kurz	NONE	YES	Vorgang=absetzen; Grad=kurz; Schluss	NO
+235	FU235	B4-S014	B4	f83r	E350	E348|E349|E350|E351	or chey qockhey dairydy	Ansatz | Posten | ansetzen+Durchlass+kurz+Posten | Lauf+Posten+Schluss	ansetzen→durchleiten	Ansatz+Posten	NONE	Lauf	NONE	NONE	kurz	NONE	YES	Vorgang=ansetzen→durchleiten; Posten=Ansatz+Posten; Lauf=gesetzt; Grad=kurz; Schluss	NO
+236	FU236	B4-S015	B4	f83r	E352	E352|E353	qokain shey	ansetzen+Anteil | Ergebnis	ansetzen	Ergebnis	NONE	NONE	NONE	Anteil	NONE	Ergebnis	NO	Vorgang=ansetzen; Posten=Ergebnis; Wert=Anteil; Zustand=Ergebnis	NO
+237	FU237	B4-S015	B4	f83r	E355	E354|E355	kain chckhal	Anteil | Durchlass+Ziel	durchleiten	NONE	NONE	NONE	Ziel	Anteil	NONE	NONE	NO	Vorgang=durchleiten; Ziel=gesetzt; Wert=Anteil	NO
+238	FU238	B4-S015	B4	f83r	E356	E356	solkey	sammeln+kurz+Posten	sammeln	Posten	NONE	NONE	NONE	NONE	kurz	NONE	NO	Vorgang=sammeln; Posten=Posten; Grad=kurz	NO
+239	FU239	B4-S015	B4	f83r	E357	E357	lchedy	abführen+umsetzen+Schluss	abführen→umsetzen	NONE	NONE	NONE	NONE	NONE	NONE	NONE	YES	Vorgang=abführen→umsetzen; Schluss	NO
+240	FU240	B4-S016	B4	f83r	E358	E358|E359	qolkain dal	weiter+Anteil | Ziel	weiterführen	NONE	NONE	NONE	Ziel	Anteil	NONE	NONE	NO	Vorgang=weiterführen; Reihenfolge=weiter; Ziel=gesetzt; Wert=Anteil	NO
+241	FU241	B4-S016	B4	f83r	E360	E360	skar	ausgießen+Quelle	ausgießen	NONE	Quelle	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=ausgießen; Quelle=gesetzt	NO
+242	FU242	B4-S016	B4	f83r	E361	E361	shedy	absetzen+kurz+Schluss	absetzen	NONE	NONE	NONE	NONE	NONE	kurz	NONE	YES	Vorgang=absetzen; Grad=kurz; Schluss	NO
+243	FU243	B5-S001	B5	f83r	E362	E362	otchdy	danach+umsetzen+Schluss	folgen→umsetzen	NONE	NONE	NONE	NONE	NONE	NONE	NONE	YES	Vorgang=folgen→umsetzen; Reihenfolge=danach; Schluss	NO
+244	FU244	B5-S002	B5	f83r	E363	E363	qokchdy	ansetzen+umsetzen+Schluss	ansetzen→umsetzen	NONE	NONE	NONE	NONE	NONE	NONE	NONE	YES	Vorgang=ansetzen→umsetzen; Schluss	NO
+245	FU245	B5-S003	B5	f83r	E364	E364|E365	shedal dal	absetzen+Ziel | Ziel	absetzen	NONE	NONE	NONE	Ziel	NONE	NONE	NONE	NO	Vorgang=absetzen; Ziel=gesetzt	NO
+246	FU246	B5-S003	B5	f83r	E366	E366	cheol	weiter	weiterführen	NONE	NONE	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=weiterführen; Reihenfolge=weiter	NO
+247	FU247	B5-S003	B5	f83r	E367	E367	lol	abführen+weiter	abführen→weiterführen	NONE	NONE	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=abführen→weiterführen; Reihenfolge=weiter	NO
+248	FU248	B5-S003	B5	f83r	E368	E368|E369	chdal aiin	umsetzen+Ziel | Sollmaß	umsetzen	NONE	NONE	NONE	Ziel	Sollmaß	NONE	NONE	NO	Vorgang=umsetzen; Ziel=gesetzt; Wert=Sollmaß	NO
+249	FU249	B5-S003	B5	f83r	E370	E370|E371	sol daiiin	weiter | Stufe	weiterführen	NONE	NONE	NONE	NONE	Stufe	NONE	NONE	NO	Vorgang=weiterführen; Reihenfolge=weiter; Wert=Stufe	NO
+250	FU250	B5-S003	B5	f83r	E372	E372	chedy	umsetzen+Posten	umsetzen	Posten	NONE	NONE	NONE	NONE	NONE	NONE	NO	Vorgang=umsetzen; Posten=Posten	NO
+251	FU251	B6-S001	B6	f83r	E373	E373	solkeey	sammeln+länger+Posten	sammeln	Posten	NONE	NONE	NONE	NONE	länger	NONE	NO	Vorgang=sammeln; Posten=Posten; Grad=länger	NO
+252	FU252	B6-S001	B6	f83r	E374	E374|E375	qekey raly	bearbeiten+kurz+Posten | Ziel+Posten	bearbeiten	Posten	NONE	NONE	Ziel	NONE	kurz	NONE	NO	Vorgang=bearbeiten; Posten=Posten; Ziel=gesetzt; Grad=kurz	NO
+253	FU253	B6-S001	B6	f83r	E376	E376|E377	ol daiin	weiter | Sollmaß	weiterführen	NONE	NONE	NONE	NONE	Sollmaß	NONE	NONE	NO	Vorgang=weiterführen; Reihenfolge=weiter; Wert=Sollmaß	NO
+254	FU254	B6-S001	B6	f83r	E378	E378|E379|E380|E381	ol dain chey ldalor	weiter | Tuch | Posten | Ziel	weiterführen	Tuch+Posten	NONE	NONE	Ziel	NONE	NONE	NONE	NO	Vorgang=weiterführen; Reihenfolge=weiter; Posten=Tuch+Posten; Ziel=gesetzt	NO
