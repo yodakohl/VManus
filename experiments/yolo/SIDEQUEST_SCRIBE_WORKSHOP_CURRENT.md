@@ -443,6 +443,29 @@ Active files are in
 `TWENTY_THIRD_MASTER_APPRENTICE_MANUAL.md`, with the component deck,
 fourteen-lesson table, nine round trips, report, builder and validator.
 
+## Active twenty-fourth source-phrase edition
+
+Every one of the 258 spoken units now has a plausible short phrase before card
+compression. Ten prose frames cover filtering, application, washing, warming,
+settling, collecting, flow, transfer, measure and general preparation. Six
+diagram frames cover source–target, selection/marking, value/grade,
+class/field, next/continue and a copied local entry. The resulting edition
+binds all 116 prose statements and 142 Astro loci, hence all 776 groups.
+
+The source layer is deliberately Latin-like rather than a proposed plaintext:
+phrases such as `recipe`, `exprime`, `cola`, `dimitte stare`, `ad locum`,
+`elige` and `nota` supply a compact ca.-1420 formulary order that could equally
+have been spoken in a vernacular workshop. Image owner and current workpiece
+stay silent; cards preferentially record change, direction, quantity, grade
+and local completion. This explains why the surviving sequence need not carry
+modern sentence syntax.
+
+Active files are in `sidequest_semantic_source_phrase_twenty_fourth_edition/`,
+led by `TWENTY_FOURTH_PLAUSIBLE_SOURCE_PHRASES.md`, with the sixteen source
+templates, complete 258-unit phrase edition, fourteen section sequences,
+report, builder and validator. The next repair is to let long statements use a
+chain of two or more source frames rather than one dominant template.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
