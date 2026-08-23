@@ -7436,10 +7436,19 @@ whole signs (105 learned entries total); 67 diagram-local forms are copied from
 the page exemplar. An eight-lesson curriculum keeps those layers separate. See
 `sidequest_semantic_complete_forward_writer_two_hundred_ninetieth/TWO_HUNDRED_NINETIETH_COMPLETE_SCRIBE_MANUAL.md`.
 
-Next, audit the twelve forecast compositions against every already visible form
-and adjacent construction on the fixed ten pages. Exact hits, near-spellings and
-split multi-card realizations count as useful workshop evidence; no new page is
-needed.
+Pass 291 audits the twelve forecast compositions against every visible card and
+short statement window. Four forecasts already exist as two-card constructions
+(portion+close, continuation+measure, source+measure and source-transfer+measure),
+five remain real missing paradigm members (`otain`, `pchedain`, `lsheedy`,
+`sheeedy`, `sheeckhal`), and three overfused forecasts are rewritten as two-card
+worksteps. The new production rule is that value/address cards and a closed
+operation often stay separate, while a modifier inside a known operation may
+fuse. See
+`sidequest_semantic_forecast_workshop_audit_two_hundred_ninety_first/TWO_HUNDRED_NINETY_FIRST_WORKSHOP_FORECAST_REPORT.md`.
+
+Next, build the five surviving forms as explicit parent-card production squares
+and test whether all five obey one overlay order or reveal multiple composition
+types.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
