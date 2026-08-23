@@ -754,6 +754,28 @@ lookup choices, job card, four-hand rendering, report, builder and consistency
 checker. The cross-page job remains a master's oral assembly, not a claimed
 written manuscript pointer.
 
+## Active thirty-eighth process-macro edition
+
+Twenty recurrent two- or three-clause workshop moves now sit above the card and
+clause layers. Examples are set→pass through, pass through→set the following
+item, set→settle, continue→lead out, ready→divide, and
+transfer→continue→lead out. They compress the 254 action clauses in 116
+statements to 196 macro-or-single commands; 110 clauses participate in a
+multi-clause macro.
+
+The boundary is explicit: a macro is an apprentice's practiced workflow, never
+the lexical value of one visible surface or exact card. Every 116-statement
+macro program expands back to the identical clause-family order. The complete
+thirty-seventh D2 job also has its own 26-statement macro program, showing where
+the long procedure uses a learned move and where it genuinely needs a single
+local action.
+
+Active files are in
+`sidequest_semantic_process_macros_thirty_eighth_edition/`, led by
+`THIRTY_EIGHTH_WORKSHOP_MACRO_BOOK.md`, with twenty macro definitions,
+116 programs, the worked-job program, report, builder and consistency checker.
+This is the current workflow layer above the spoken card idioms.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
