@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-23, after extracting the common macro grammar and master texts.
+Updated: 2026-08-23, after making the workshop grammar forward-encodable.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -18,6 +18,45 @@ Exactly ten pages are in scope:
 
 `f84` and `f84r` remain sealed. ZL3b, IT2a and RF1b are alternate readings of
 one manuscript. No additional page, image or semantic corpus was admitted.
+
+## Active scribe forward encoder
+
+The working reconstruction now runs in both directions. A master can dictate a
+short source command; the apprentice splits it into macro, argument, direction,
+grade and closure, chooses an exact registered card, and only then selects a
+local `q`, `s` or bare surface from that card's observed family. No unseen card
+spelling is needed.
+
+Thirty-seven narrow paradigms cover 37 card types and 221 of the 381 prose
+events. Another 115 types/136 events compose from the broader component sheet.
+The exact learned nomenclator still contains 22 whole-card families: one,
+`CHEEY/SHEY`, has its own narrow selection rule, while the remaining 21 types
+and 24 events are copied directly. The resulting reverse trace preserves all
+173 cards, 381 events and 116 statements.
+
+The strongest generative rows are `OK+Y / OK+E+Y / OK+EE+Y` for setting the
+current item briefly or longer while leaving it open; `OK+E/EE/EEE+DY` for a
+graded closed operation; `CHED+Y / CHED+DY / L+CHED+DY / P+CHED+DY` for open,
+closed, outward and inward transfer; and parallel short/long grids for settling,
+warming and collecting.
+
+Sixteen new dictation exercises combine only already observed exact cards. All
+sixteen whole sequences are absent from the 116 manuscript statements, so they
+are genuine predictions of the creative grammar, but they are labeled
+apprentice exercises rather than manuscript text. Examples are `dain dal
+qokeey qokylddy` for bringing cloth to the target, holding it longer and
+fastening it, and `cho chodaly qokain qokchdy` for taking an ingredient to the
+target, adding a portion and transferring it.
+
+The same encoder covers the diagrams at address level: 332 Astro groups use the
+shared components and 63 local nomenclator values are copied at their visible
+owner. Thus the ten-page encoder trace again contains all 776 groups.
+
+Active files are in `sidequest_semantic_scribe_forward_encoder/`, led by
+`SCRIBE_FORWARD_ENCODER_REPORT.md`, `SCRIBE_ENCODER_MANUAL.md`, the 37-rule
+table, complete 173-card and 381-event reverse traces, sixteen generated
+dictation exercises, the 776-group encoder trace, four re-encoded dossiers,
+builder, and validator.
 
 ## Active workshop macro grammar
 
