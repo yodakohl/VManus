@@ -2638,6 +2638,31 @@ tables, four-hand manual, builder and validator. Next examine the seventeen
 shared cards as a miniature semantic network and try to infer the smallest
 coherent source-language phrase order behind them.
 
+## Active hundred-twenty-second shared-deck network
+
+Removing section-only cards from all 116 prose statements leaves a shared-card
+skeleton in 57 statements. The seventeen portable cards form 57 directed
+network edges. Their smallest useful source order is:
+
+`ORDER/CARRY -> ACTION -> OBJECT -> SOURCE -> MEASURE -> TARGET -> STATE/RESULT -> CONTINUE/CLOSE`.
+
+This is not a rigid eight-word sentence. `okaiin` fuses action and measure,
+`okal` action and target, `choky` action and current item, and `checthy` state
+and current item. Two recurring bracket constructions override the linear
+order: `Y-AIIN-Y` places two work items under the same prescribed measure, and
+`OL-(OL+OR)-OL` carries the previous batch inside a continuation frame. The
+strongest observed edges are `AIIN>Y`, `OL>AIIN`, `Y>AIIN`, `OR>Y`, and
+`CHD>OL`.
+
+Active files are in
+`sidequest_semantic_shared_deck_network_hundred_twenty_second/`, led by
+`HUNDRED_TWENTY_SECOND_SHARED_NETWORK_REPORT.md`, with the complete 116-row
+shared skeleton, 57-edge directed network, seventeen card profiles, eight-slot
+source order, deterministic builder and validator. Next generate ordinary
+source commands with this order, compile them into the shared cards, and check
+whether the actual 57 skeleton-bearing statements remain readable without
+special pleading.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
