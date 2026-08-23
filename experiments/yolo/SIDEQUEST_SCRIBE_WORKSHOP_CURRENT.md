@@ -6894,6 +6894,16 @@ Next, check whether any of the 17 prose bridge cards occurs as an exact visible
 group in the three fixed Astro pages, or whether Astro remains a separate label
 register.
 
+Pass 213 finds 89/395 Astro groups matching a registered prose surface; 66 are
+13 of the 17 Herbal-Bio bridge cards (29 f67r2, four f68r1, 33 f69v). Two values
+are generalized across registers: `AIIN` = `Sollwert` (local prose: Sollmaß)
+and `CHEEY/SHEY` = `Freigabewert` (local wet prose: Klarlauf). The revised
+dictionary is
+`sidequest_semantic_astro_prose_bridge_two_hundred_thirteenth/TWO_HUNDRED_THIRTEENTH_173_CARD_CROSS_REGISTER_DICTIONARY.tsv`.
+
+Next, construct one phrase-licensed core formula and read it under a plant,
+Biological station and Astro-sector owner without changing card values.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
