@@ -119,6 +119,21 @@ OD split, and free D remains nonsemantic. Active files are in
 `OD_MARKED_ENTRY_REPORT.md`, with complete 28-type/36-group tables, eleven
 contrasts, six forward cells, builder and validator.
 
+## Active fifth complete edition
+
+The OD paradigm is now integrated into all 36 Astro groups and 28 surfaces.
+Eleven of those groups were already productive through OK, grade or YK/YT;
+25 genuinely leave the partial/whole layer. The complete reader now has 543
+fully generated groups, 144 partial groups and 89 whole values. Surface types
+split 287 full, 132 partial, 67 whole, plus one honest register split.
+
+The split is `ody`: Astro reads `OD+Y = enter this item`, while the prose card
+keeps its learned *cool* value. Active files are in
+`sidequest_semantic_ten_page_workshop_fifth_edition/`, led by
+`COMPLETE_TEN_PAGE_WORKSHOP_FIFTH_EDITION.md`, with revised 487/776/258
+layers, a group-level autonomy ledger, pocket codebook, report, builder and
+validator.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
