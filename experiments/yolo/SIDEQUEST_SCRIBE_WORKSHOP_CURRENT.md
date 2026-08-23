@@ -7292,8 +7292,16 @@ registers OR totals 37 uses and OL 65, consistent with frequent continuation
 inside already opened rows. See
 `sidequest_semantic_astro_relation_suffix_two_hundred_seventy_first/TWO_HUNDRED_SEVENTY_FIRST_READABLE_RELATION_BOOK.md`.
 
-Next, inventory every local Astro OT construction and determine whether OT is
-consistently the transition to the following post, condition or row.
+Pass 272 inventories 26 local OT groups on 25 forms across all three Astro
+pages. OT is revised from the partly temporal DANACH_NAECHSTER to the portable
+FOLGEPOSTEN: prose expands it as “danach/nächster Arbeitsschritt”, diagrams as
+“nächster Platz”. Together with known prose and Astro uses, OT has 58 stable
+occurrences/groups. See
+`sidequest_semantic_astro_ot_transition_two_hundred_seventy_second/TWO_HUNDRED_SEVENTY_SECOND_READABLE_OT_LESSON.md`.
+
+Next, split the large local Astro Y inventory into genuine current-item endings,
+terminal constructions and accidental/internal y, rather than assigning Y by
+raw final spelling alone.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
