@@ -3243,6 +3243,26 @@ continuous teaching edition, report, builder and validator. Next join all
 eleven prose records into one owner-first source book and test which statement
 boundaries should sound like continuations rather than fresh sentences.
 
+## Active hundred-fiftieth eleven-record source book
+
+The Herbal and Biological recitations now form one 381-event, 116-clause,
+eleven-record source book. Exact selected terminal status, not line ending,
+controls speech: 90 statements close and 26 stay open. Of 105 internal record
+boundaries, 86 start a fresh step after closure, thirteen continue under the
+same owner, and six reset to a new visible owner.
+
+This realizes the earlier observation that a statement need not end with a
+physical line. The source book never uses line ending as punctuation. It says
+`weiter:` after an open clause, `Neuer Schritt:` after an exact close, and
+`Neuer Besitzer:` after a visible owner change. The 47-card teaching deck
+supplies 251 events; 126 local whole-card types supply the other 130.
+
+Files are in `sidequest_semantic_eleven_record_source_book_hundred_fiftieth/`:
+complete 381-event source trace, 116 boundary-classified clauses, eleven
+continuous records, readable source book, report, builder and validator. Next
+make the thirteen open continuations explicit by naming what survives across
+the boundary: item, preparation, target, stage or unfinished transfer.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
