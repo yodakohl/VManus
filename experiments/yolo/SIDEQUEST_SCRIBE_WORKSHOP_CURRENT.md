@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-23, after bridging the prose and diagram registers.
+Updated: 2026-08-23, after closing the local Astro nomenclator.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -19,7 +19,35 @@ Exactly ten pages are in scope:
 `f84` and `f84r` remain sealed. ZL3b, IT2a and RF1b are alternate readings of
 one manuscript. No additional page, image or semantic corpus was admitted.
 
-## Active ten-page register bridge
+## Active local Astro nomenclator closure
+
+The 63 diagram groups previously left as 53 learned local names or values now
+reduce to nine content families, one fixed-entry ending, and one compact value
+axis. Every occurrence has a concrete default: `AM=aspect value`, `TO/TE=place
+or phase`, `K/KE/KA/KO=house/class/quality`, `CHE/CHEO/CHEY=readout`,
+`CH/CTH=condition`, `IIR=index`, `P/PCH/CPH=relation/selection`, and
+`FY/YG=light or grade`. `DY/ODY` means a value is fixed in the diagram rather
+than necessarily closing a prose statement.
+
+The short axis is `Y=current`, `O=base`, `A=primary`, `E=selected`,
+`S=secondary`, `D=fixed`, `G=grade`, `R=reference`, and `Q=new entry`. It is
+used in 54 of the 63 local occurrences; the fixed-entry ending occurs fourteen
+times. This makes forms forward-readable: `Y+TO+DY` is a fixed current place,
+`Y+KE+ODY` a fixed class place, `D+O+IIR` a fixed base index, and
+`Y+CHEO+DY` a fixed current readout.
+
+The complete ten-page edition still contains 381 unchanged prose events and
+395 diagram groups at 142 local loci. The former local tail is now a teachable
+small codebook rather than an opaque list. Diagram ownership, the separate
+wheel namespaces, and the prohibition on invented start, direction, rotation,
+or f68r1-to-f69v key remain unchanged.
+
+Active files are in `sidequest_semantic_astro_nomenclator_closure/`, led by
+`ASTRO_NOMENCLATOR_CLOSURE_REPORT.md`, `ASTRO_APPRENTICE_CARD.md`, the
+ten-family lexicon, complete 63-occurrence resolution, closed 395-group and
+142-locus diagram editions, unified 776-row reading, builder, and validator.
+
+## Previous ten-page register bridge
 
 The seven prose pages and three diagram pages now share one workshop
 vocabulary. Twenty-two compact components retain an invariant operational

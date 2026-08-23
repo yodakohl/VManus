@@ -1,0 +1,154 @@
+{
+  "status": "PASS",
+  "checks_passed": 26,
+  "checks_total": 26,
+  "counts": {
+    "families": 10,
+    "local_occurrences": 63,
+    "local_surface_types": 53,
+    "astro_groups": 395,
+    "astro_loci": 142,
+    "unified_rows": 776
+  },
+  "checks": [
+    {
+      "name": "source_inventory",
+      "passed": true,
+      "detail": "groups=395, loci=142, unified=776"
+    },
+    {
+      "name": "family_inventory",
+      "passed": true,
+      "detail": "families=10"
+    },
+    {
+      "name": "family_support",
+      "passed": true,
+      "detail": "N01_VALUE_SIGNS=54, N02_AM_ASPECT=5, N03_TO_TE_PLACE_PHASE=12, N04_K_HOUSE_CLASS=12, N05_CHE_READOUT=11, N06_CH_CTH_CONDITION=7, N07_IIR_INDEX=2, N08_P_RELATION_SELECTION=3, N09_FY_YG_LIGHT_GRADE=2, N10_ENTRY_ENDING=14"
+    },
+    {
+      "name": "source_local_inventory",
+      "passed": true,
+      "detail": "occurrences=63, types=53"
+    },
+    {
+      "name": "resolution_inventory",
+      "passed": true,
+      "detail": "rows=63, ids=63"
+    },
+    {
+      "name": "resolution_binding",
+      "passed": true,
+      "detail": "all 63 local occurrences bind to the selected bridge rows"
+    },
+    {
+      "name": "concrete_defaults",
+      "passed": true,
+      "detail": "all 63 rows have short concrete defaults"
+    },
+    {
+      "name": "complete_segmentations",
+      "passed": true,
+      "detail": "all 53 forms have explicit family segmentations"
+    },
+    {
+      "name": "family_assignment",
+      "passed": true,
+      "detail": "primary_families=9"
+    },
+    {
+      "name": "primary_family_counts",
+      "passed": true,
+      "detail": "{'N01_VALUE_SIGNS': 17, 'N02_AM_ASPECT': 5, 'N03_TO_TE_PLACE_PHASE': 12, 'N04_K_HOUSE_CLASS': 12, 'N05_CHE_READOUT': 5, 'N06_CH_CTH_CONDITION': 6, 'N07_IIR_INDEX': 2, 'N08_P_RELATION_SELECTION': 2, 'N09_FY_YG_LIGHT_GRADE': 2}"
+    },
+    {
+      "name": "closed_group_inventory",
+      "passed": true,
+      "detail": "rows=395"
+    },
+    {
+      "name": "closed_group_binding",
+      "passed": true,
+      "detail": "group identity and order unchanged"
+    },
+    {
+      "name": "closed_group_status",
+      "passed": true,
+      "detail": "{'COMMON_BRIDGE_RETAINED': 332, 'FAMILY_RESOLVED': 63}"
+    },
+    {
+      "name": "closed_group_readings",
+      "passed": true,
+      "detail": "all 395 groups retain or receive a usable reading"
+    },
+    {
+      "name": "diagram_guards",
+      "passed": true,
+      "detail": "no start, direction, rotation, or f68-f69 join introduced"
+    },
+    {
+      "name": "locus_inventory",
+      "passed": true,
+      "detail": "loci=142, member_groups=395"
+    },
+    {
+      "name": "locus_binding",
+      "passed": true,
+      "detail": "all locus sequences unchanged"
+    },
+    {
+      "name": "locus_resolution_count",
+      "passed": true,
+      "detail": "family_resolved=63"
+    },
+    {
+      "name": "unified_inventory",
+      "passed": true,
+      "detail": "{'PROSE_WORKSHOP': 381, 'ASTRO_DIAGRAM': 395}"
+    },
+    {
+      "name": "prose_unchanged",
+      "passed": true,
+      "detail": "all 381 prose rows byte-field identical apart from the new layer column"
+    },
+    {
+      "name": "unified_astro_layers",
+      "passed": true,
+      "detail": "{'COMMON_22_COMPONENT_BRIDGE': 332, 'LOCAL_ASTRO_FAMILY': 63}"
+    },
+    {
+      "name": "fixed_page_scope",
+      "passed": true,
+      "detail": "f10r,f11r,f55v,f56r,f67r2,f68r1,f69v,f81v,f82r,f83r"
+    },
+    {
+      "name": "card_contract",
+      "passed": true,
+      "detail": "apprentice card teaches the principal compositions and local-owner rule"
+    },
+    {
+      "name": "anchor_readings",
+      "passed": true,
+      "detail": "five central family anchors exact"
+    },
+    {
+      "name": "deterministic_rebuild",
+      "passed": true,
+      "detail": "all family artifacts rebuilt byte-identically"
+    },
+    {
+      "name": "sealed_page_scope",
+      "passed": true,
+      "detail": "no sealed page selector appears in the family artifacts"
+    }
+  ],
+  "artifact_sha256": {
+    "families": "080ad6cff6b3dca9dd8b99983de04300e405a3bbd749d66731cd8a99f0b57ba6",
+    "resolution": "ed70ff1f8ef60c73da59dee172f85dc0eb44e3686e071604bc5f16ca42ed155c",
+    "groups": "621fe7afd2e8ec36294a5882c00376059d256de11c2c0879113457f7485ff9c9",
+    "loci": "6da87c15c8d795ca285806c41f4569e8d01eadc917abb5a04879773603e58db4",
+    "unified": "9a05a6b0efa80fd9925b0253e98a36fcba67fde7bdc7bc1ec901b8f79ea4d776",
+    "card": "16df3c6b3275e9f0d6a2d1de9daa1de2c3839205473fc824fa2c11c19169f7d1",
+    "summary": "94908384fd88dd4b2cbec396f06453c638bd35e333fdb745f7be98c610696a1b"
+  }
+}
