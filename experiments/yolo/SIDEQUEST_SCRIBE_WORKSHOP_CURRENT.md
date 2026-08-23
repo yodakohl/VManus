@@ -686,6 +686,28 @@ the compact owner-nucleus lexicon, report, builder and consistency checker.
 This is the current separation between portable card meaning and image-supplied
 content.
 
+## Active thirty-fifth human dictionary edition
+
+The complete working dictionary is now organized by what an apprentice must
+learn rather than by surface spelling alone. All 487 visible forms and all 776
+groups have a teaching class, atom sequence, short reading, owner rule,
+frequency, page and real example. The accompanying 56-entry deck lists each
+portable core, bound modifier, table-local sign, learned technical body and
+whole card with its observed forms, groups, registers and cautions.
+
+The current burden is 207 productive common forms/369 groups, 28 bound-modifier
+forms/28 groups, 124 registered renderer allographs/219 groups, 105 table-local
+codes/126 groups, eighteen learned technical bodies/23 groups, two memorized
+whole cards/three groups and three register splits/eight groups. Thus long
+visible forms need not all be words: most are readable combinations or
+registered hand forms, while the smaller learned layer remains explicit.
+
+Active files are in
+`sidequest_semantic_human_dictionary_thirty_fifth_edition/`, led by
+`THIRTY_FIFTH_COMPLETE_HUMAN_DICTIONARY.md`, with the complete 487-form table,
+56-entry teaching deck, burden summary, report, builder and consistency
+checker. This is the preferred human lookup dictionary.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
