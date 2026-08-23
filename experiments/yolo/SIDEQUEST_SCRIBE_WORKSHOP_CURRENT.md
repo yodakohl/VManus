@@ -2291,6 +2291,31 @@ bindings, owner/noun summary, builder and validator. Next inspect the twenty-fiv
 unresolved owner clauses individually against their neighbouring resolved fields
 and fixed-page image geometry, then assign the narrowest useful creative owner.
 
+## Active hundred-seventh creative owner resolution
+
+The last twenty-five owner gaps now have explicit working owners. Four f82r
+clauses belong to the separately visible reclining figure in its small
+funnel-/reclining vessel; the nearby horizontal line is deliberately not
+treated as a connection. Twenty f83r clauses form a learned local transition
+batch between the marginal station and the next main block, with no invisible
+image edge. The final f83r clause attaches forward to the directly visible
+arch-linked pair in F099 and supplies its incoming batch.
+
+All 254 clauses therefore now have a usable object frame: 21 originally direct,
+162 inherited, 46 page-owned and the former 25 gaps resolved as four creative
+visible owners, twenty explicit register owners and one forward direct owner.
+This closes the reading mechanically while preserving the important visual
+limit: local adjacency may choose an exemplar batch, but it may not invent a
+hydraulic line, direction or page-wide apparatus.
+
+Active files are in
+`sidequest_semantic_creative_owner_resolution_hundred_seventh_edition/`, led by
+`HUNDRED_SEVENTH_CREATIVE_OWNER_REPORT.md`, with the 25 decisions, revised 254
+clause bindings, 116 owner-resolved statements, builder and validator. Next
+rewrite the complete affected f82r and f83r passages from these owners, keeping
+the practical bath/workshop reading concrete but every missing connection
+visibly marked.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
