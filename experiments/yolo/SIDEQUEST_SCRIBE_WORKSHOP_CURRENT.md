@@ -7357,9 +7357,16 @@ between compositions, learned whole signs and local keys. A twelve-step manual
 and complete ten-page reading use the same two semantic layers. See
 `sidequest_semantic_unified_workshop_edition_two_hundred_eightieth/TWO_HUNDRED_EIGHTIETH_COMPLETE_TEN_PAGE_EDITION.md`.
 
-Next, mine the116 prose statements for recurrent complete formula skeletons
-and use them to improve fluent Herbal/Bio translations without changing the
-portable 36-family dictionary.
+Pass 281 reduces all116 prose statements to eight productive formula families:
+33 flow/transfer,30 simple/elliptic,12 full-address,12 sourced,11 graded,9
+quantified,6 target-application and3 linked processes. Each statement receives
+a full owner-aware sentence. Re-reading TALAM corrects H4-S002 from open to
+closed, giving90 closed and26 open statements. See
+`sidequest_semantic_eight_prose_formulas_two_hundred_eighty_first/TWO_HUNDRED_EIGHTY_FIRST_COMPLETE_FLUENT_EDITION.md`.
+
+Next, manually polish the twenty Herbal statements into five continuous
+materia-medica articles while preserving their exact family sequences and
+clearly separating pictured owner, process, use and inherited defaults.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
