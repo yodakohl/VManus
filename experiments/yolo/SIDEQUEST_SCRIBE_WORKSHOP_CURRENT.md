@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-23, after closing the local Astro nomenclator.
+Updated: 2026-08-23, after turning the Astro labels into three instruments.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -19,7 +19,35 @@ Exactly ten pages are in scope:
 `f84` and `f84r` remain sealed. ZL3b, IT2a and RF1b are alternate readings of
 one manuscript. No additional page, image or semantic corpus was admitted.
 
-## Active local Astro nomenclator closure
+## Active three-instrument Astro reading
+
+The 142 diagram loci now form three usable lookup instruments rather than one
+linear label stream. `f67r2` is read as a two-wheel place–aspect–condition
+comparator: the right wheel sets class or condition, the left combines place,
+aspect, prescribed value, source, and target. `f68r1` is a multipanel
+star-class and readout atlas: a panel header selects the query mode and one of
+28 visible star stations supplies the local address. `f69v` is a three-wheel
+register whose left wheel owns the 28-place inventory, middle wheel a
+quality/weather reading, and right wheel a light/complexion condition.
+
+Fourteen modules exhaust all 142 loci and 395 groups. Every locus has a full
+imperative and fluent workshop reading. The pages can supply the
+WHEN/UNDER-WHAT-CONDITION layer of the practical book without naming the
+Herbal or Biological owner directly. Medical and general practical expansions
+remain parallel: timing a bath/application versus selecting a general work,
+weather, or light condition.
+
+The user selects a place by visible ownership. No cyclic reading order, common
+start, rotation, mandatory cross-wheel sequence, or cross-page key is needed.
+The 381 prose events remain unchanged inside the contextual 776-row edition.
+
+Active files are in `sidequest_semantic_astro_instrument_readings/`, led by
+`ASTRO_INSTRUMENT_READINGS_REPORT.md`, `THREE_COMPLETE_INSTRUMENT_READINGS.md`,
+`INSTRUMENT_APPRENTICE_MANUAL.md`, the three-instrument and fourteen-module
+tables, complete 142-locus operational edition, contextual 776-row edition,
+builder, and validator.
+
+## Previous local Astro nomenclator closure
 
 The 63 diagram groups previously left as 53 learned local names or values now
 reduce to nine content families, one fixed-entry ending, and one compact value

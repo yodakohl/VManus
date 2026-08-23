@@ -1,0 +1,158 @@
+{
+  "status": "PASS",
+  "checks_passed": 27,
+  "checks_total": 27,
+  "counts": {
+    "instruments": 3,
+    "modules": 14,
+    "astro_loci": 142,
+    "astro_groups": 395,
+    "unified_rows": 776
+  },
+  "checks": [
+    {
+      "name": "source_inventory",
+      "passed": true,
+      "detail": "loci=142, groups=395, unified=776"
+    },
+    {
+      "name": "instrument_inventory",
+      "passed": true,
+      "detail": "instruments=3, pages=f67r2,f68r1,f69v"
+    },
+    {
+      "name": "instrument_locus_counts",
+      "passed": true,
+      "detail": "{'I67_TWO_WHEEL_COMPARATOR': 74, 'I68_STAR_CLASS_ATLAS': 37, 'I69_THREE_WHEEL_REGISTER': 31}"
+    },
+    {
+      "name": "instrument_group_counts",
+      "passed": true,
+      "detail": "{'I67_TWO_WHEEL_COMPARATOR': 190, 'I68_STAR_CLASS_ATLAS': 65, 'I69_THREE_WHEEL_REGISTER': 140}"
+    },
+    {
+      "name": "instrument_rules",
+      "passed": true,
+      "detail": "all three instruments use visible owners without a cross-page key"
+    },
+    {
+      "name": "module_inventory",
+      "passed": true,
+      "detail": "modules=14"
+    },
+    {
+      "name": "module_locus_counts",
+      "passed": true,
+      "detail": "{'M67_RIGHT_SECTORS': 12, 'M67_RIGHT_RING_RULES': 3, 'M67_RIGHT_PHASES': 8, 'M67_LEFT_ASPECT_FIELDS': 37, 'M67_LEFT_OUTER_STATIONS': 12, 'M67_LEFT_RING_RULE': 1, 'M67_SHARED_LEGEND': 1, 'M68_PANEL_HEADERS': 7, 'M68_STAR_STATIONS': 28, 'M68_CENTER_KEY': 2, 'M69_LEFT_RUBRIC': 1, 'M69_LEFT_28_SLOTS': 28, 'M69_MIDDLE_QUALITY': 1, 'M69_RIGHT_LIGHT': 1}"
+    },
+    {
+      "name": "module_group_total",
+      "passed": true,
+      "detail": "groups=395"
+    },
+    {
+      "name": "module_order_rules",
+      "passed": true,
+      "detail": "all fourteen modules are owner-selected rather than cyclically ordered"
+    },
+    {
+      "name": "operational_locus_inventory",
+      "passed": true,
+      "detail": "rows=142"
+    },
+    {
+      "name": "operational_locus_binding",
+      "passed": true,
+      "detail": "all 142 locus identities, owners, surfaces, and group counts unchanged"
+    },
+    {
+      "name": "operational_group_total",
+      "passed": true,
+      "detail": "groups=395"
+    },
+    {
+      "name": "complete_imperatives",
+      "passed": true,
+      "detail": "every locus has a concrete imperative containing its full compact sequence"
+    },
+    {
+      "name": "complete_fluent_readings",
+      "passed": true,
+      "detail": "all loci have a fluent module reading"
+    },
+    {
+      "name": "locus_selection_rule",
+      "passed": true,
+      "detail": "no locus receives a cyclic order"
+    },
+    {
+      "name": "locus_orientation_guard",
+      "passed": true,
+      "detail": "all 142 source orientation guards retained"
+    },
+    {
+      "name": "operator_inventory",
+      "passed": true,
+      "detail": "{'ASPECT': 5, 'CLASS': 8, 'CONDITION': 50, 'INDEX': 1, 'LOCAL_ENTRY': 7, 'PROCESS': 16, 'READOUT': 7, 'TRANSFER': 32, 'VALUE': 16}"
+    },
+    {
+      "name": "reading_bullet_count",
+      "passed": true,
+      "detail": "locus_bullets=142"
+    },
+    {
+      "name": "reading_page_sections",
+      "passed": true,
+      "detail": "all three full instrument sections present"
+    },
+    {
+      "name": "manual_contract",
+      "passed": true,
+      "detail": "manual teaches shared roots, local modules, and no-order rule"
+    },
+    {
+      "name": "unified_inventory",
+      "passed": true,
+      "detail": "{'PROSE_WORKSHOP': 381, 'ASTRO_DIAGRAM': 395}"
+    },
+    {
+      "name": "prose_unchanged",
+      "passed": true,
+      "detail": "all 381 prose rows unchanged apart from instrument context columns"
+    },
+    {
+      "name": "unified_module_counts",
+      "passed": true,
+      "detail": "{'M67_RIGHT_SECTORS': 28, 'M67_RIGHT_RING_RULES': 18, 'M67_LEFT_ASPECT_FIELDS': 92, 'M67_LEFT_OUTER_STATIONS': 17, 'M67_RIGHT_PHASES': 10, 'M67_LEFT_RING_RULE': 12, 'M67_SHARED_LEGEND': 13, 'M68_PANEL_HEADERS': 31, 'M68_CENTER_KEY': 6, 'M68_STAR_STATIONS': 28, 'M69_LEFT_RUBRIC': 40, 'M69_MIDDLE_QUALITY': 38, 'M69_RIGHT_LIGHT': 29, 'M69_LEFT_28_SLOTS': 33}"
+    },
+    {
+      "name": "complete_unified_context",
+      "passed": true,
+      "detail": "all 776 rows have instrument or prose context"
+    },
+    {
+      "name": "fixed_page_scope",
+      "passed": true,
+      "detail": "f10r,f11r,f55v,f56r,f67r2,f68r1,f69v,f81v,f82r,f83r"
+    },
+    {
+      "name": "deterministic_rebuild",
+      "passed": true,
+      "detail": "all instrument artifacts rebuilt byte-identically"
+    },
+    {
+      "name": "sealed_page_scope",
+      "passed": true,
+      "detail": "no sealed page selector appears"
+    }
+  ],
+  "artifact_sha256": {
+    "instruments": "c17807b5e61b24be23ff7ccebdf607d57c41bfa7882807464e4b771db291d85a",
+    "modules": "8d9049b184e322b3d9709cfa658024fb84a33fae3375f76e09badcb7f8ba3463",
+    "loci": "a6a0ed512a95116a0fd25a260f071c230104c883e54d6f58ef523cfddc9a0387",
+    "unified": "f6b1484d789e54d78f56e91b6bbccf19c0893aa33e30eb980c67236478e89461",
+    "readings": "88245c252fea016f60602e341bbcd3933ec545990f219dc8e1b773867edb9070",
+    "manual": "6c41e9189cf5a554847900c7a239bc91ad2928fb354b3573bb59b314f6a40110",
+    "summary": "2df69da08357a0120a720e7f0846c2f6c78e01a64af9a240453917cae9d73fdd"
+  }
+}
