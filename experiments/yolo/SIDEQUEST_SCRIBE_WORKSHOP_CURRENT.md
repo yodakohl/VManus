@@ -4111,6 +4111,19 @@ closure, while full field-frame harmony is optional. A careful hand marks it
 strongly; a quick copyist uses positional allographs. Next derive the minimum
 reader normalization needed to collapse both renderings to one card stream.
 
+## Active hundred-ninety-sixth reader normalization
+
+The 173 cards have 230 registered surfaces: 173 master forms plus 57 aliases,
+with zero surface ambiguity between cards. Ten reader families collapse them:
+q-active, AIIN, AL, Y, OL, OR, AR, CTH, learned CHEDY-close and fourteen small
+paired allographs. All 381 observed events and both 25-token new hands normalize
+exactly to their intended card streams.
+
+This is now a plausible apprentice reader sheet. The key warning is that visible
+`dy` is not globally a close; only an exact registered close card closes. Next
+re-read complete H3 and B3 records in normalized card form and revise their
+fluent translations without treating allographs as extra words.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible

@@ -1,0 +1,11 @@
+rule_id	reader_rule_de	alias_surfaces	cards	examples
+R1_Q_ACTIVE	Ein registriertes q vor einer O/OT/OL-Karte ändert die Kartenidentität nicht.	14	14	qokeey→okeey|qokchedy→okchedy|qokey→okey|qotchor→otchor|qokain→okain|qoky→choky|qolchedy→olchedy|qokal→okal
+R2_AIIN_MEASURE	AIIN, CHAIIN, DAIIN, SAIIN und TAIIN lesen als dieselbe Sollmaßkarte.	4	1	chaiin→aiin|daiin→aiin|saiin→aiin|taiin→aiin
+R3_AL_TARGET	AL, CHAL, CHEAL, DAL, SAL und TAL lesen als dieselbe Zielkarte.	5	1	chal→al|cheal→al|dal→al|sal→al|tal→al
+R4_Y_REFERENT	CHEY, CHY, DY, SHY, SY und Y lesen als dieselbe Dies-Karte.	5	1	chy→chey|dy→chey|shy→chey|sy→chey|y→chey
+R5_OL_CONTINUE	CHEOL, CHOL, OL, QOL, SOL und TOL lesen als dieselbe Weiter-Karte.	4	1	chol→cheol|ol→cheol|sol→cheol|tol→cheol
+R6_OR_PREPARATION	CHOR, OR, SHOR und SOR lesen als dieselbe Ansatzkarte.	3	1	or→chor|shor→chor|sor→chor
+R7_AR_SOURCE	CHAR, DAR und SAR lesen als dieselbe Davon-Karte.	2	1	dar→char|sar→char
+R8_CTH_STATE	CHECTHY, CTHY und SHCTHY lesen als dieselbe Bereit-Karte.	2	1	cthy→checthy|shcthy→checthy
+R9_CHEDY_CLOSE	Die registrierten D/S/T-CHEDY-Schlussflächen bleiben ihre jeweilige genaue Schlusskarte.	4	2	schedy→dchedy|tchedy→dchedy|shedy→cheedy|tedy→cheedy
+R10_PAIRED_ALLOGRAPH	Die übrigen 14 kleinen Aliasformen werden als gelehrte Allographen gelesen.	14	14	oky→choky|soiiin→oiiin|sho→cho|shckhy→chckhy|solkeedy→olkeedy|sotaiin→otaiin|shcthey→qcthey|chedy→chdy
