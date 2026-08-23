@@ -1874,6 +1874,27 @@ candidates, fourteen units, 776 binding, builder and validator. Next translate
 all 116 prose statements continuously with these repaired source classes and
 without treating physical line ends as sentence ends.
 
+## Active eighty-ninth continuous prose translation
+
+All 116 Herbal and Biological statements now have two complete readings: a
+card-near workshop instruction and an expanded concrete source sentence. All
+381 prose events occur exactly once. Eighteen statements explicitly continue
+across physical lines, so line ends never create artificial sentence ends.
+
+The nineteen Herbal statements have been rewritten by hand to agree with the
+five repaired article programs: no statement now silently reintroduces wine,
+oil, honey or a named product into the primary reading. The 97 Biological
+statements use their local visible station plus the concrete operation chain;
+the result is repetitive like a working checklist but fully readable.
+
+Active files are in
+`sidequest_semantic_continuous_translation_eighty_ninth_edition/`, led by
+`EIGHTY_NINTH_11_CONTINUOUS_RECORD_TRANSLATIONS.md`, with the 116-statement
+translation, 381-event binding, eighteen line-crossing statements, report,
+builder and validator. Next attack the Biological repetition: collapse truly
+equivalent statements into a small bath/service phrasebook while keeping
+different cards and visible stations distinct.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
