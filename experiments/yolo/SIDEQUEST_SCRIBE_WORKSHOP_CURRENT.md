@@ -7264,8 +7264,15 @@ while DOKAN, OEOLDAN and ORAN coherently express a second or alternative
 setting. DOKAN contains the prospectively predicted OK+AN construction. See
 `sidequest_semantic_astro_ain_an_composition_two_hundred_sixty_seventh/TWO_HUNDRED_SIXTY_SEVENTH_READABLE_AIN_AN_ATLAS.md`.
 
-Next, parse the local Astro AIR family and use it to decide whether AIR means
-water specifically or the more portable notion of a running path.
+Pass 268 finds twelve local AIR groups on f67r2/f69v. Eleven compose fully and
+one retains QOF; every diagram value is a heavenly, ring or pointer path. AIR
+therefore changes portable from LAUFFLÜSSIGKEIT to LAUF/BAHN, while water and
+basin flow remain local prose realizations. Five prose cards/events receive the
+abstract core. See
+`sidequest_semantic_air_path_revision_two_hundred_sixty_eighth/TWO_HUNDRED_SIXTY_EIGHTH_READABLE_AIR_LESSON.md`.
+
+Next, revisit the four relation-pair gaps from Pass255 against local Astro
+labels; look specifically for source-to-target and source-plus-continuation.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
