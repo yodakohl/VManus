@@ -6804,6 +6804,18 @@ Next, convert this near-injective vocabulary into a one-sheet apprentice
 dictionary organized as productive components versus learned whole cards, with
 one composition rule and one actual fixed-page example per entry.
 
+Pass 204 now supplies that apprentice dictionary. It has 29 short semantic
+components, five field modes and the 22 learned whole cards. The complete
+173-card index assigns every card to one of eight practical drawers and gives a
+real fixed-page example. Named components are visible in 156 cards; 17 cards
+retain a local core even though their complete value remains concrete. The
+current teaching sheet is
+`sidequest_semantic_apprentice_dictionary_two_hundred_fourth/TWO_HUNDRED_FOURTH_APPRENTICE_SHEET.md`.
+
+Next, use this inventory to write, rerender and read back a fresh miniature
+workshop passage. This is an internal generative consistency exercise, not a
+new manuscript page or corpus.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
