@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-23, after selecting concrete diagram values for the four execution-order work orders.
+Updated: 2026-08-23, after consolidating all 44 cross-register cards into one workshop lexicon.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -18,6 +18,34 @@ Exactly ten pages are in scope:
 
 `f84` and `f84r` remain sealed. ZL3b, IT2a and RF1b are alternate readings of
 one manuscript. No additional page, image or semantic corpus was admitted.
+
+## Active common 44-card lexicon
+
+Every exact visible form shared by prose and diagram pages now has one short
+workshop nucleus. The 44 cards fall into 20 teachable families and account for
+187 occurrences: 98 prose cards and 89 diagram labels across 86 statements or
+visible diagram loci. Thirty-six transfer directly between registers; eight
+need a controlled workshop metaphor while retaining the same abstract object.
+
+The main portable families are `aiin/daiin/saiin = VORGABEWERT`,
+`char/dar/sar = VOM AUSGANG`, `cheal/dal/sal = ZUM ZIEL`,
+`chey/chy/dy/sy/y = AKTUELLER POSTEN`, `choky/okchy/oky = AKTUELLEN POSTEN
+SETZEN`, `chol/ol/tol = FORTSETZEN`, the short/long/full OK grades, and the OT
+follow-up series. The useful metaphors are deliberately narrow: `cheey/shey`
+is a released value (clear extract or diagram readout), `dain` an enclosing
+carrier (cloth or band), `or/sor/olor` a set or batch, `os` an enclosing field,
+and `ody` withdrawal from the active state.
+
+The complete 776-group reader is unchanged at the local reading level. Its new
+common layer first supplies the portable nucleus and then lets image owner and
+register name the concrete material, vessel, place, star, ring or value. The
+nine cards already chosen in the four sample jobs remain the strongest subset,
+but the apprentice can now read all 44 shared forms by the same rule.
+
+Active files are in `sidequest_semantic_common_44_card_lexicon/`, led by
+`COMMON_44_CARD_REPORT.md`, `COMMON_44_POCKET_DICTIONARY.md`, the 20-family
+grammar, 44-card lexicon, 187-occurrence trace, complete 776-group reader,
+four-job header sheet, builder, and validator.
 
 ## Active selected job paths
 
