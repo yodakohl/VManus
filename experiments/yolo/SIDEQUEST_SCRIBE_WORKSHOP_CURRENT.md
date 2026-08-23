@@ -7307,9 +7307,16 @@ and eleven are local whole signs. The secure cross-register Y channel contains
 not count as portable Y. See
 `sidequest_semantic_astro_y_boundary_two_hundred_seventy_third/TWO_HUNDRED_SEVENTY_THIRD_READABLE_Y_LESSON.md`.
 
-Next, consolidate all newly parsed Astro components into a revised apprentice
-deck and count how much of the 395-group diagram inventory is now genuinely
-composed rather than copied as a local whole sign.
+Pass 274 consolidates the full ten-page teaching system. Of 776 prose/Astro
+groups, 618 are portable compositions, 79 learned whole signs and 79 local copy
+labels. The apprentice memorizes 40 components, 23 prose whole cards and 46
+Astro whole forms = 109 entries; 67 local label forms are copied from their
+diagram exemplars rather than semantically memorized. See
+`sidequest_semantic_ten_page_mixed_deck_two_hundred_seventy_fourth/TWO_HUNDRED_SEVENTY_FOURTH_READABLE_MIXED_SYSTEM.md`.
+
+Next, use the consolidated deck to produce continuous readings of each of the
+three Astro instruments, keeping their separate namespaces and avoiding any
+invented rotation, start point or f68-to-f69 key.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
