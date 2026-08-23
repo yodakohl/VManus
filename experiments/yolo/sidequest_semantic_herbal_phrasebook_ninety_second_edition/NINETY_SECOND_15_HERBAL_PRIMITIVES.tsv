@@ -1,0 +1,16 @@
+phrasebook_order	primitive_id	source_meaning_de	nearest_biological_primitive	recognition_cue
+1	SELECT_PLANT_PART	Pflanzenteil auswählen	Herbal-only owner/content slot	\bNimm\b|Pflanzenstoff|Pflanzenteil|Wurzel|Blatt|Blüte|Spross|Kraut
+2	PREPARE_SET	Ansatz eröffnen	Bio SET	setz[^,.]* an|Ansatz|Zubereitung
+3	ADD_MEDIUM	Medium oder Träger zugeben	Bio PORTION_ADD, richer Herbal filler	Wasser|Auszugsflüssigkeit|Trägerstoff|Bindestoff|\bGib\b|\bgib\b
+4	MEASURE	Portion oder Sollmaß setzen	Bio MEASURE/PORTION_ADD	bemiss|Bemiss|Portion|vorgeschriebene Maß|örtliche Maß
+5	CUT_CRUSH	zerteilen, zerstoßen oder bearbeiten	Herbal-only preparation action	zerteil|zerstoß|Bearbeite|bearbeite
+6	WRING	durch Tuch auswringen	Bio PASS_STRAIN	wring
+7	SETTLE	ruhen oder absetzen	Bio SETTLE	absetz|stehen|zurück
+8	STRAIN_SEPARATE	seihen oder Auszug trennen	Bio PASS_STRAIN/DRAIN	seih|trenn|Auszug ab
+9	HEAT_GRADE	wärmen oder bis zur Stufe führen	Bio HEAT/DURATION_GRADE	erwärm|Stufe|Klarlauf|Gebrauchsstufe
+10	COLLECT	Auszug sammeln	Bio COLLECT	sammel|Sammel
+11	DOSED_USE	bemessenes Mittel gebrauchen	Bio TARGET/MEASURE	dosierte|dosiertes|gebrauche|verwende
+12	EXTERNAL_APPLY	äußerlich oder gebunden anwenden	Bio TARGET/FASTEN	äußerliche|gebundene|örtliche Stelle|an die örtliche
+13	STORE_RESERVE	Rest oder Vorrat verwahren	Bio COLLECT/CLOSE	verwahr|Behalte|behalte|zurück|Restteil|Vorrat
+14	ORDER_CONTINUE	denselben oder zweiten Posten fortführen	Bio ORDER_CONTINUE	wieder|zweite|zweiten|übrig|denselben|weiter|Fortsetzung
+15	READY_CLOSE	Bereitschaft oder lokalen Abschluss markieren	Bio READY/CLOSE	bereit|Bereitschaft|Gebrauchsstufe|Abschluss

@@ -2,7 +2,7 @@
 
 ## Ergebnis
 
-87 statements are treatment-facing because a visible human/bath scene owns them; 
+87 statements are treatment-facing because a visible human/bath scene owns them;
 10 are service-facing after a figureless owner or the B4 reset.
 
 The same drain, strain, hold and close phrases occur on both sides. Therefore

@@ -137,13 +137,13 @@ def main() -> None:
             f"**Behandlungsschicht:** {row['treatment_scope_de']}", "",
             f"**Dienstschicht:** {row['service_scope_de']}", "",
         ])
-    (OUT / "NINETY_FIRST_6_CONTINUOUS_RECORDS.md").write_text("\n".join(doc) + "\n", encoding="utf-8")
+    (OUT / "NINETY_FIRST_6_CONTINUOUS_RECORDS.md").write_text("\n".join(doc).rstrip() + "\n", encoding="utf-8")
 
     mode_counts = Counter(row["primary_mode"] for row in mapped)
     report = [
         "# Einundneunzigste Werkstattrunde: Behandlung oder Dienst?", "",
         "## Ergebnis", "",
-        f"{mode_counts['TREATMENT_FACING_VISIBLE_HUMAN_OWNER']} statements are treatment-facing because a visible human/bath scene owns them; ",
+        f"{mode_counts['TREATMENT_FACING_VISIBLE_HUMAN_OWNER']} statements are treatment-facing because a visible human/bath scene owns them;",
         f"{mode_counts['SERVICE_FACING_NO_HUMAN_OWNER']} are service-facing after a figureless owner or the B4 reset.", "",
         "The same drain, strain, hold and close phrases occur on both sides. Therefore",
         "the verb family does not itself mean medicine. The image supplies the patient-",

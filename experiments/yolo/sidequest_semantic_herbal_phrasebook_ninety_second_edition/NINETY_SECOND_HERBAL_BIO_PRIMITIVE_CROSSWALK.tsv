@@ -1,0 +1,16 @@
+herbal_primitive	biological_counterpart	relation	interpretation_de
+SELECT_PLANT_PART	NONE	HERBAL_ONLY	Bildpflanze liefert Teil-/Materialslot.
+PREPARE_SET	SET	SHARED_CORE	Beide eröffnen einen lokalen Arbeitsansatz.
+ADD_MEDIUM	PORTION_ADD	PARTIAL_SHARED	Bio fügt Portion/Zusatz zu; Herbal benennt zusätzlich Mediumsfunktion.
+MEASURE	MEASURE	SHARED_CORE	Sollmaß oder Portion funktioniert gleich.
+CUT_CRUSH	NONE	HERBAL_ONLY	Zerkleinern gehört zur Pflanzenbereitung.
+WRING	PASS_STRAIN	PARTIAL_SHARED	Auswringen ist eine spezielle Durchlasshandlung.
+SETTLE	SETTLE	SHARED_CORE	Ruhen/Absetzen ist gleich lehrbar.
+STRAIN_SEPARATE	PASS_STRAIN,DRAIN	SHARED_CORE	Trennen und Durchlass bilden dieselbe Prozesszone.
+HEAT_GRADE	HEAT,DURATION_GRADE	SHARED_CORE	Wärme und Grad werden in beiden Registern gesetzt.
+COLLECT	COLLECT	SHARED_CORE	Örtliches Sammeln bleibt gleich.
+DOSED_USE	MEASURE,TARGET	PARTIAL_SHARED	Bio setzt Maß/Ziel; Herbal ergänzt Produktgebrauch.
+EXTERNAL_APPLY	TARGET,FASTEN	PARTIAL_SHARED	Ziel und Befestigung werden im Bio-Bild lokalisiert.
+STORE_RESERVE	COLLECT,CLOSE	PARTIAL_SHARED	Herbal verwahrt Vorrat, Bio schließt lokale Station.
+ORDER_CONTINUE	ORDER_CONTINUE	SHARED_CORE	Folge/Fortsetzung ist registerübergreifend.
+READY_CLOSE	READY,CLOSE	SHARED_CORE	Bereitschaft und Abschluss teilen dieselbe Satzposition.

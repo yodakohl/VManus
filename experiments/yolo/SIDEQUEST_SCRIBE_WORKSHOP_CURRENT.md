@@ -1939,6 +1939,27 @@ validator. Next build the same small phrasebook for the nineteen Herbal
 statements and compare whether Herbal and Biological really share a source
 syntax or only reuse a few workshop operations.
 
+## Active ninety-second Herbal phrasebook
+
+The nineteen Herbal statements now reduce to fifteen source primitives and
+five article macros. Eight primitives share the Biological workshop core,
+five are specialized variants of Biological operations and only two are
+genuinely Herbal-only: selecting a plant part and cutting/crushing it.
+
+The shared grammar is OWNER → set/measure → process/grade → target/continue →
+ready/close. Herbal fills it with plant part, medium, extract, reserve and
+product-use classes; Biological fills it with station, inlet, drain, receiver
+and human/figure ownership. One teachable syntax therefore serves both
+sections without making the content words synonymous.
+
+Active files are in
+`sidequest_semantic_herbal_phrasebook_ninety_second_edition/`, led by
+`NINETY_SECOND_15_HERBAL_PRIMITIVES.tsv` and
+`NINETY_SECOND_19_HERBAL_STATEMENT_PHRASEBOOK.tsv`, with five Herbal macros,
+the fifteen-row Herbal/Bio crosswalk, report, builder and validator. Next fold
+the two phrasebooks into one compact source grammar and test whether a single
+apprentice can write all eleven prose records with a small finite vocabulary.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible

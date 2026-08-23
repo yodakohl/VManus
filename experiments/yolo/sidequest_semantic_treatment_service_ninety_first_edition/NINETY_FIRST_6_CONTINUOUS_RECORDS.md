@@ -51,4 +51,3 @@ möglich; figurenlose Station = Diensthandlung.
 **Behandlungsschicht:** kein sichtbarer Badender und keine Körperstelle
 
 **Dienstschicht:** rechte Hilfsstation für Einlass, Tuch-/Seihgang und Arbeitsziel
-
