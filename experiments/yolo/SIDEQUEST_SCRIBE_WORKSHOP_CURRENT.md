@@ -7218,8 +7218,15 @@ types and seven contexts change, leaving 173 distinct short instructions for
 173 Masterkarten. See
 `sidequest_semantic_variant_resolution_two_hundred_sixtieth/TWO_HUNDRED_SIXTIETH_READABLE_VARIANT_LESSON.md`.
 
-Next, rebuild the reverse compiler with all 173 unique instructions and write
-one bidirectional source-to-card-to-source manual for every statement.
+Pass 261 rebuilds the compiler bidirectionally. The 173 instructions map one
+to one to 173 Masterkarten, which have 230 disjoint visible surfaces. Thirty-four
+cards have renderer variants and account for 202 events, but no surface maps
+to two cards; all381 events and116 statements roundtrip instruction→card→form
+→card→instruction. See
+`sidequest_semantic_bidirectional_compiler_two_hundred_sixty_first/TWO_HUNDRED_SIXTY_FIRST_READABLE_BIDIRECTIONAL_MANUAL.md`.
+
+Next, infer a compact renderer rule for the34 multi-surface cards from page,
+field position, neighbours and visible owner.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
