@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-23, after closing the bound-carrier layer.
+Updated: 2026-08-23, after bridging the prose and diagram registers.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -19,7 +19,36 @@ Exactly ten pages are in scope:
 `f84` and `f84r` remain sealed. ZL3b, IT2a and RF1b are alternate readings of
 one manuscript. No additional page, image or semantic corpus was admitted.
 
-## Active two-layer workshop dictionary
+## Active ten-page register bridge
+
+The seven prose pages and three diagram pages now share one workshop
+vocabulary. Twenty-two compact components retain an invariant operational
+nucleus and receive a register-specific expansion: `AIR=LAUF` becomes a water
+course in Biological prose and a ring, celestial, or pointer course in the
+diagrams; `AIIN=VORGABEWERT` becomes measure versus diagram grade; `AL=ZIEL`,
+`AR=AUSGANG`, `OK=SETZEN`, `OT=FOLGE`, and `OL=FORTSETZEN` remain recognizably
+the same instructions in both registers.
+
+Of 395 diagram groups, 89 exactly reuse a prose surface, 78 compose at least
+two shared components, 165 carry one shared component, and only 63 are learned
+local celestial names or table values. Thus 332 diagram groups join the common
+component system while a bounded local nomenclator supplies the rest. The
+unified edition gives all 776 visible groups on the fixed ten pages a concrete
+working reading.
+
+This does not import literal water, plants, or baths into the sky. The common
+root is abstract and the page register supplies its material realization.
+Diagram ownership remains local: f67r2 has two separate wheels, f68r1 is a
+multi-panel star atlas, and f69v has three separate wheels with the 28-place
+inventory only on the left. No start, direction, rotation, or f68r1-to-f69v
+key is added.
+
+Active files are in `sidequest_semantic_ten_page_register_bridge/`, led by
+`TEN_PAGE_REGISTER_BRIDGE_REPORT.md`, `TEN_PAGE_WORKSHOP_MANUAL.md`,
+`SHARED_22_COMPONENT_BRIDGE.tsv`, the bridged 395-group/142-locus diagram
+edition, the unified 776-row reading, builder, and validator.
+
+## Previous two-layer workshop dictionary
 
 The intermediate `p` layer is now closed. Its twenty card types and 21 events
 reduce to eight short carrier rules: two nonlexical local/terminal frames,

@@ -1,0 +1,143 @@
+{
+  "status": "PASS",
+  "checks_passed": 23,
+  "checks_total": 23,
+  "counts": {
+    "shared_components": 22,
+    "prose_events": 381,
+    "astro_groups": 395,
+    "astro_loci": 142,
+    "namespaces": 13,
+    "unified_rows": 776,
+    "exact_surface_bridge": 89,
+    "composed_component_bridge": 78,
+    "single_component_bridge": 165,
+    "local_astro_nomenclator": 63
+  },
+  "checks": [
+    {
+      "name": "source_counts",
+      "passed": true,
+      "detail": "prose=381, astro=395, loci=142, namespaces=13"
+    },
+    {
+      "name": "component_inventory",
+      "passed": true,
+      "detail": "rows=22, unique_ids=22"
+    },
+    {
+      "name": "component_values",
+      "passed": true,
+      "detail": "every shared component has common, prose, and diagram values"
+    },
+    {
+      "name": "astro_group_inventory",
+      "passed": true,
+      "detail": "rows=395, unique_groups=395"
+    },
+    {
+      "name": "astro_group_binding",
+      "passed": true,
+      "detail": "all group surfaces, pages, loci, and local ids match the selected atlas"
+    },
+    {
+      "name": "astro_page_counts",
+      "passed": true,
+      "detail": "f67r2=190, f68r1=65, f69v=140"
+    },
+    {
+      "name": "bridge_classes",
+      "passed": true,
+      "detail": "COMPOSED_COMPONENT_BRIDGE=78, EXACT_PROSE_SURFACE_BRIDGE=89, LOCAL_ASTRO_NOMENCLATOR=63, SINGLE_COMPONENT_BRIDGE=165"
+    },
+    {
+      "name": "bridge_coverage",
+      "passed": true,
+      "detail": "shared_surface_or_component=332, local_nomenclator=63"
+    },
+    {
+      "name": "exact_surface_reuse",
+      "passed": true,
+      "detail": "exact_group_occurrences=89, exact_surface_types=44"
+    },
+    {
+      "name": "complete_astro_defaults",
+      "passed": true,
+      "detail": "all 395 diagram groups have a concrete operational or local-name default"
+    },
+    {
+      "name": "no_placeholder_defaults",
+      "passed": true,
+      "detail": "no diagram reading falls back to an unknown placeholder"
+    },
+    {
+      "name": "diagram_guards",
+      "passed": true,
+      "detail": "all diagram groups retain local owner, no direction, and no f68-f69 key"
+    },
+    {
+      "name": "locus_inventory",
+      "passed": true,
+      "detail": "rows=142, unique_loci=142"
+    },
+    {
+      "name": "locus_binding",
+      "passed": true,
+      "detail": "all 142 locus readings preserve and exhaust the 395 group sequences"
+    },
+    {
+      "name": "unified_inventory",
+      "passed": true,
+      "detail": "rows=776, prose=381, astro=395"
+    },
+    {
+      "name": "unified_page_scope",
+      "passed": true,
+      "detail": "the unified ledger contains exactly the fixed ten pages"
+    },
+    {
+      "name": "unified_prose_binding",
+      "passed": true,
+      "detail": "all 381 selected prose readings enter unchanged"
+    },
+    {
+      "name": "unified_complete_readings",
+      "passed": true,
+      "detail": "every one of the 776 rows has a working reading"
+    },
+    {
+      "name": "namespace_inventory",
+      "passed": true,
+      "detail": "all and only the thirteen selected local diagram namespaces occur"
+    },
+    {
+      "name": "example_inventory",
+      "passed": true,
+      "detail": "worked_examples=12"
+    },
+    {
+      "name": "manual_contract",
+      "passed": true,
+      "detail": "manual teaches register expansion and keeps the diagram namespaces separate"
+    },
+    {
+      "name": "sealed_page_scope",
+      "passed": true,
+      "detail": "no sealed page selector occurs; tuple or content hashes are not treated as page selectors"
+    },
+    {
+      "name": "deterministic_rebuild",
+      "passed": true,
+      "detail": "all bridge artifacts rebuilt byte-identically"
+    }
+  ],
+  "artifact_sha256": {
+    "SHARED_22_COMPONENT_BRIDGE.tsv": "d94016ec820921ac8030bdf7fbfff4939c5e45cbce5f6d3b8448922f83983165",
+    "ASTRO_395_BRIDGED_GROUPS.tsv": "10f6fcc3ea0ddbf6debdf1129005994e9bc51e2708d2a3e584c1e62efaacd4a6",
+    "ASTRO_142_BRIDGED_LOCI.tsv": "de57c1240f038214bc78c6016f05e1ee6566a3fb193a49a874d11686f4a10fb9",
+    "TEN_PAGE_776_UNIFIED_READING.tsv": "1934abdcddb6a59b383cc9771089788255cd71f79d47b31b933a522a0043d6e9",
+    "BRIDGE_EXAMPLES.tsv": "e3ed33db348db9cd31e12b453d33176f1aa036683047cba5f8d57e40b02b21d9",
+    "TEN_PAGE_WORKSHOP_MANUAL.md": "d2e9d7265469fdf5b284d1032158339977b1dbc9e83799f1ec7707f92e0ac33b",
+    "BUILD_SUMMARY.json": "dd5de51a8c9ba4af2189203c2f305f6d3be9a009548a345f05e47d03519f5c03"
+  }
+}
