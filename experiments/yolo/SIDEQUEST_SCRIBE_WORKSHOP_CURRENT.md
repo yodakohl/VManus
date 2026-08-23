@@ -344,6 +344,23 @@ and three register splits. Active files are in
 eleven-surface paradigm, complete 487/776/258 layers, pocket codebook, report,
 builder and validator.
 
+## Active nineteenth complete edition
+
+Seven final residual surfaces are now productive technical bodies: CHO/SHO are
+HO input or ingredient allographs, CHES is bare partition, DCHOL/SCHOL are
+previous-plus-continuation allographs, LSHO starts the WASH process, and OCPHY
+is O+CPH_ASTRO+Y current base selection. CPH is explicitly register-split:
+selection here, strain-again in wet prose.
+
+The finite remainder is now exact. Only DL additive and TALAM store-at-target
+are whole surface types; the prose groups of dain, ody and os retain their
+three previously registered split values. The active balance is 769 full,
+zero partial and seven learned-whole groups; surface types are 482 full, two
+whole and three register splits. Active files are in
+`sidequest_semantic_final_productive_cards_nineteenth_edition/`, led by the
+seven-surface table, complete 487/776/258 layers, pocket codebook, report,
+builder and validator.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
