@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-23, after turning the ten-page reader into four execution-order work orders.
+Updated: 2026-08-23, after selecting concrete diagram values for the four execution-order work orders.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -18,6 +18,37 @@ Exactly ten pages are in scope:
 
 `f84` and `f84r` remain sealed. ZL3b, IT2a and RF1b are alternate readings of
 one manuscript. No additional page, image or semantic corpus was admitted.
+
+## Active selected job paths
+
+The complete 776-group edition is a reference inventory, not a command to read
+every label of every wheel in sequence. The four sample jobs now select only
+the visible diagram values they actually need. Thirteen choices activate 21
+diagram groups; 374 diagram groups remain menu options. Together with all 381
+prose cards, the four active paths contain 402 groups in 129 steps: 116 prose
+statements plus 13 condition choices.
+
+1. The root bath selects right sector 8, a long closed grade, a long phase and
+   the selected place's target grade: 30 active steps and 110 groups.
+2. The clear extract selects the released middle-panel value, transfer station
+   21 and the current central base grade: 29 steps and 82 groups.
+3. The stored application selects left slot 22 in the long grade, a longer-held
+   middle quality and a fixed right-hand state: 27 steps and 89 groups.
+4. The fresh plant sequence selects a source-to-target aspect, outer station 7
+   and a short target-grade operation: 43 steps and 121 groups.
+
+The selections also expose a compact exact-surface bridge. Nine chosen diagram
+forms recur identically in the prose with the same short workshop nucleus:
+`aiin` is a prescribed value (diagram grade / prose measure), `cheey` a
+released or extracted value, `cho` an input item, `dal` a target assignment,
+`dy` the current item, `okeey` and `okey` long and short grades, `oldy` closing
+a continuation, and `sheey` holding longer. The owner and register supply the
+concrete object; the card meaning stays short.
+
+Active files are in `sidequest_semantic_selected_job_paths/`, led by
+`MENU_TO_PATH_REPORT.md`, `FOUR_FLUENT_SELECTED_JOB_SHEETS.md`, the thirteen
+choice table, nine-card cross-register bridge, complete 395-group menu status,
+and the 129-step / 402-group active editions.
 
 ## Active four execution work orders
 
