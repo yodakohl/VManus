@@ -804,6 +804,30 @@ Active files are in
 checker. This is the current explanation for pronouns, ellipses and carried
 references without overloading individual stems.
 
+## Active fortieth explicit-sentence edition
+
+Every one of the 116 prose statements now has a deliberately over-explicit
+apprentice expansion beside its 381 visible groups. The expansion states the
+image owner and, where used, the anonymous current item, target address and
+previous item before speaking the current fluent workshop reading. The counts
+of explicit insertions are 116 OWNER, 116 ACTIVE, 103 TARGET and 97 PREVIOUS
+mentions.
+
+This is a teaching edition rather than a claim that the long German preamble
+was encoded letter for letter. Its purpose is to expose the division of labour:
+the card supplies the compact operation or argument cue, the four-slot slate
+supplies pronouns and carried addresses, and the local exemplar supplies the
+concrete plant, vessel, material or action. `AL` can therefore remain simply a
+target cue and `Y` a current-item cue instead of absorbing a full destination
+or noun phrase.
+
+Active files are in
+`sidequest_semantic_explicit_sentences_fortieth_edition/`, led by
+`FORTIETH_11_EXPLICIT_RECORDS.md`, with all 116 explicit sentences, the
+three-step expansion guide, report, builder and consistency checker. This is
+the current fully spoken prose edition for checking what the abbreviations
+leave unstated.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
