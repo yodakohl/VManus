@@ -2687,6 +2687,28 @@ eight source templates, twelve source-to-card exercises, deterministic builder
 and validator. Next pass those twelve commands through the four scribe
 renderers and read them back without access to the source command.
 
+## Active hundred-twenty-fourth four-hand roundtrip
+
+The twelve source commands now have 48 complete workshop copies. The
+Vorlagenhand uses the master heads, the q-entry hand its registered q forms,
+the s-flow hand its sh/s forms and the short hand the shortest registered
+surface. All 180 written tokens map uniquely back to the intended master card,
+and all 48 copies recover the complete card sequence. Every exercise has at
+least three visibly different copies.
+
+For example one command is written as `char chety choky aiin`,
+`char chety qoky aiin`, `sar chety choky saiin`, or
+`dar chty oky aiin`. Meaning selects the shared card first; the scribe selects
+the visible form second. This supplies a concrete, easily taught multi-scribe
+mechanism without four lexicons or four semantic dialects.
+
+Active files are in
+`sidequest_semantic_four_hand_source_roundtrip_hundred_twenty_fourth/`, led by
+`HUNDRED_TWENTY_FOURTH_FOUR_HAND_ROUNDTRIP_REPORT.md`, with all 48 copies, the
+180-token renderer trace, twelve roundtrip summaries, four hand results,
+builder and validator. Next compress R116-R124 into a small master codebook an
+apprentice could actually carry and use.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
