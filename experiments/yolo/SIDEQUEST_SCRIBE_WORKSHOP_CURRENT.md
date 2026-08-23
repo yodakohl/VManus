@@ -1124,6 +1124,28 @@ layer rules, twelve boundary examples, report, builder and consistency checker.
 Next compress this hierarchy into a one-page pocket grammar that a 1420
 apprentice could actually memorize and use at the desk.
 
+## Active fifty-fifth pocket grammar
+
+The hierarchy now fits on a 35-line desk sheet. Twenty-four rules divide into
+four preparation rules, nine reading steps, four sentence rules, four writing
+decisions, and three Astro-local rules. The fixed reading order is longest
+learned body, order cue, action, source or path, quantity or stage, target,
+grade, current item, and licensed close.
+
+The writing order is whole registered card, then two existing cards, then a
+controlled paraphrase with its extra nuance, then a master request. The pocket
+sheet includes one worked example for each compiler branch. It also states the
+two essential layout habits: a line end is only available space, and a visible
+owner change may redirect the concrete nouns without altering the short card
+values.
+
+Active files are in
+`sidequest_semantic_pocket_grammar_fifty_fifth_edition/`, led by
+`FIFTY_FIFTH_ONE_PAGE_POCKET_GRAMMAR.md`, with 24 desk rules, twelve worked
+examples, report, builder and consistency checker. Next use only this pocket
+grammar and the hierarchical dictionary to produce a fresh complete ten-page
+reader and expose any place where the simplified system no longer carries.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
