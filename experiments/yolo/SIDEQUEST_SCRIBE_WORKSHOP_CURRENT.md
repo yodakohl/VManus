@@ -1960,6 +1960,27 @@ the fifteen-row Herbal/Bio crosswalk, report, builder and validator. Next fold
 the two phrasebooks into one compact source grammar and test whether a single
 apprentice can write all eleven prose records with a small finite vocabulary.
 
+## Active ninety-third unified apprentice grammar
+
+All 116 prose statements and 381 prose events now run through one common
+twenty-primitive source grammar and twelve writing rules. Every primitive is
+used, and all eleven records preserve their statement count, event count,
+owner changes and visible order in forward and backward workshop readings.
+
+The apprentice learns OWNER/PART/MATERIAL/MEASURE/SET, the process and grade
+zone, local motion and target, then USE/STORE/FASTEN/CLOSE. Herbal and
+Biological share the compiler but not their specialist fillers. Twenty-one
+explicit owner selections cover record starts and visible scene changes;
+physical lines remain free wrapping space. Exact content still requires the
+record source program and learned whole cards.
+
+Active files are in
+`sidequest_semantic_unified_apprentice_grammar_ninety_third_edition/`, led by
+`NINETY_THIRD_APPRENTICE_MANUAL.md`, with twenty primitives, twelve rules, all
+116 statement parses, eleven record roundtrips, report, builder and validator.
+Next extend the same apprentice model to the three Astro instruments without
+pretending their local labels are prose words or forcing a shared orientation.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
