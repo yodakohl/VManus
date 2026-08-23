@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-23, after assigning a distinct teaching value to every master card.
+Updated: 2026-08-23, after joining prose and diagrams in one ten-page reader.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -18,6 +18,31 @@ Exactly ten pages are in scope:
 
 `f84` and `f84r` remain sealed. ZL3b, IT2a and RF1b are alternate readings of
 one manuscript. No additional page, image or semantic corpus was admitted.
+
+## Active ten-page unified reader
+
+The latest reader now covers every one of the 776 visible groups on the ten
+fixed pages. Its key has two deliberately simple parts. Prose uses 230 visible
+forms that lead directly to 173 uniquely glossed master cards. The diagrams use
+377 combinations of visible image owner plus surface. Together the apprentice
+has 607 lookup entries for 381 prose events in 116 statements and 395 diagram
+groups at 142 visible loci, or 258 complete reading units.
+
+The owner condition is essential on the circle pages. They contain 301 distinct
+surfaces, 42 of which receive different local expansions at different visible
+stars, sectors, rings or legend positions. No owner-plus-surface pair conflicts.
+The reader therefore points first and reads second; it does not invent a cyclic
+start, direction or common f68-to-f69 key.
+
+Forty-four surfaces occur in both prose and diagrams. They retain one shared
+operational nucleus but receive a register expansion: practical action in the
+prose and celestial or tabular action at the visible diagram owner. This joins
+the book without literally moving water, plants or vessels into the sky.
+
+Active files are in `sidequest_semantic_ten_page_unified_reader/`, led by
+`TEN_PAGE_UNIFIED_READER_REPORT.md`, `COMPLETE_TEN_PAGE_READER.md`, the
+607-entry key, 44-form cross-register bridge, complete 776-group trace,
+258-unit reading table, apprentice manual, builder, and validator.
 
 ## Active unique master glosses
 
