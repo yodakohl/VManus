@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-23, after attaching all 381 compact card values to 254 action groups.
+Updated: 2026-08-23, after producing a speakable complete eleven-record edition.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -68,6 +68,29 @@ Active files are in `sidequest_semantic_clause_attachment/`, led by
 `CLAUSE_ATTACHMENT_REPORT.md`, complete 381-event attachments, 254 fusion
 units, 116 attached statements, 173 card context profiles, the eleven-record
 attachment edition, builder and validator.
+
+## Active speakable prose edition
+
+All 116 statements now have a concise continuous German workshop reading while
+remaining bound to all 381 visible cards. Nineteen Herbal statements were
+edited individually; 37 Biological statements receive the same recurring
+speech repairs and 60 were already compact. The key pronunciation rule is that
+`OK+E/EE/EEE` is not recited woodenly as “short/long/full set”: the shared
+nucleus is *put into work*, spoken locally as work briefly, let act longer, or
+complete the operation. `AIIN/AIN/IIN` are Sollmaß/portion/stage;
+`AL/AR/AIR` are target/source/running liquid; `CHEEY` is spoken as clear
+extract in the wet-process records.
+
+The five Herbal records now read as short illustrated plant/extract articles:
+take a pictured part, prepare and portion a batch, add water or extract, wring
+and re-strain, store, and apply locally. The six Biological records read as
+dense basin, passage, holding, cloth, and after-wash programs. This is the
+current human-readable translation layer; the 173-card dictionary and
+attachment tables remain the exact lower layer.
+
+Active files are in `sidequest_semantic_speakable_edition/`, led by
+`SPEAKABLE_ELEVEN_RECORD_EDITION.md`, the complete 116-statement table,
+record summary, compact report, builder and validator.
 
 ## Active exception anatomy
 
