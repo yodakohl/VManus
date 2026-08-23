@@ -1488,6 +1488,28 @@ all 381 prose-group decisions and fourteen unit decisions plus builder and
 validator. Next simplify the active semantic dictionary so every root carries
 only the shortest meaning justified across both content editions.
 
+## Active seventy-second minimal dictionary
+
+The shared semantic dictionary is now deliberately short: 28 productive roots
+with one-word values and fifteen learned whole-card or pattern entries. The
+active roots are values such as `AIIN=Sollwert`, `AIN=Anteil`, `AL=Ziel`,
+`AR=Quelle`, `AIR=Lauf`, `OK=ansetzen`, `OL=weiter`, `OT=danach`, `OR=Ansatz`,
+`CHEO=Auszug`, `SHED=absetzen` and `CHEEY=Ergebnis`.
+
+All other hierarchy layers are explicitly nonwords. Visible owners, memory
+registers, process macros and Astro namespaces provide context or workflow;
+they cannot donate their rich phrases to a root. All 381 prose groups and 116
+statements have been reissued with minimal card readings beside the richer
+master text, with no unresolved internal atom.
+
+Active files are in
+`sidequest_semantic_minimal_dictionary_seventy_second_edition/`, led by
+`SEVENTY_SECOND_MINIMAL_POCKET_DICTIONARY.md`, with the 43-entry core,
+89-layer dictionary, 381 card readings, 116 statement readings, report, builder
+and validator. Next use this short dictionary to rewrite a complete Herbal and
+Biological passage without any master-only noun, then add the owner nouns back
+one at a time.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
