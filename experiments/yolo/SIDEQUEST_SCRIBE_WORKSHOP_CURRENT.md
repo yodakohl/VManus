@@ -7446,9 +7446,16 @@ operation often stay separate, while a modifier inside a known operation may
 fuse. See
 `sidequest_semantic_forecast_workshop_audit_two_hundred_ninety_first/TWO_HUNDRED_NINETY_FIRST_WORKSHOP_FORECAST_REPORT.md`.
 
-Next, build the five surviving forms as explicit parent-card production squares
-and test whether all five obey one overlay order or reveal multiple composition
-types.
+Pass 292 turns the five surviving predictions into explicit parent-card
+production squares. They reveal three operations: slot substitution
+(`otaiin`→`otain`), shared-core overlay (`pchedy`+`chedain`→`pchedain`) and grade
+lengthening (`lsheedy`, `sheeedy`, `sheeckhal`). Every letter operation and its
+fallback two-card spelling is teachable; none of the five predicted surfaces is
+already visible on the ten pages. See
+`sidequest_semantic_five_production_squares_two_hundred_ninety_second/TWO_HUNDRED_NINETY_SECOND_APPRENTICE_COPY_SHEET.md`.
+
+Next, classify all 149 known composed prose cards by these production mechanisms
+and count where additional scribal operations are genuinely needed.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
