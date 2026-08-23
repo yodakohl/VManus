@@ -1,0 +1,109 @@
+{
+  "status": "PASS",
+  "pass_count": 16,
+  "fail_count": 0,
+  "checks": [
+    {
+      "check": "dictionary_count",
+      "pass": true,
+      "detail": 53
+    },
+    {
+      "check": "surface_unique",
+      "pass": true,
+      "detail": "53 expected"
+    },
+    {
+      "check": "modifier_decisions",
+      "pass": true,
+      "detail": 8
+    },
+    {
+      "check": "e_pairs",
+      "pass": true,
+      "detail": 5
+    },
+    {
+      "check": "enriched_count",
+      "pass": true,
+      "detail": 22
+    },
+    {
+      "check": "okar_e_pair",
+      "pass": true,
+      "detail": "OK+AR -> OK+E+AR"
+    },
+    {
+      "check": "otor_e_pair",
+      "pass": true,
+      "detail": "OT+OR -> OT+E+OR"
+    },
+    {
+      "check": "otoar_e_pair",
+      "pass": true,
+      "detail": "OT+AR -> OT+E+AR"
+    },
+    {
+      "check": "ee_grade",
+      "pass": true,
+      "detail": {
+        "visible_surface": "okeeodal",
+        "occurrences": "1",
+        "previous_atom_sequence": "OK+AL",
+        "enriched_atom_sequence": "OK+EE+AL",
+        "bound_modifier": "EE",
+        "residual_renderer_or_local": "OD",
+        "enriched_common_reading_de": "Ziel länger aktivieren; lokaler OD-Status",
+        "owners": "A2_STAR_STATION_24",
+        "previous_composition_status": "FAMILY_COMPOSITION",
+        "modifier_status": "ENRICHED_BOUND_MODIFIER",
+        "local_astro_reading_de": "Sternplatz A2_STAR_STATION_24: Diagrammposten setzen oder aktivieren + lange oder volle Diagrammstufe + Zielsektor, Zielstern oder Zielfeld; lokaler Namensrest od."
+      }
+    },
+    {
+      "check": "y_bound",
+      "pass": true,
+      "detail": "three Y types"
+    },
+    {
+      "check": "dy_bound",
+      "pass": true,
+      "detail": "two DY types"
+    },
+    {
+      "check": "dy_decision_counts",
+      "pass": true,
+      "detail": {
+        "modifier": "DY",
+        "short_value_de": "AUSWAHL FESTHALTEN / GEBUNDENER ABSCHLUSS",
+        "decision": "PROMOTE_BOUND_TAIL",
+        "prose_card_types": "0",
+        "prose_events": "0",
+        "astro_surface_types": "2",
+        "astro_occurrences": "2",
+        "contrast_evidence": "okardy und okoldy",
+        "licensing_boundary": "ganzer Schwanz; nicht global D+Y zerlegen"
+      }
+    },
+    {
+      "check": "q_renderer",
+      "pass": true,
+      "detail": "renderer only"
+    },
+    {
+      "check": "od_held",
+      "pass": true,
+      "detail": "held"
+    },
+    {
+      "check": "sealed_absent",
+      "pass": true,
+      "detail": "sealed tokens absent"
+    },
+    {
+      "check": "deterministic_rebuild",
+      "pass": true,
+      "detail": "all bytes identical"
+    }
+  ]
+}

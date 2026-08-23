@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-23, after consolidating eight productive cross-register paradigms.
+Updated: 2026-08-23, after adding a bounded grade/current/endpoint modifier lattice.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -138,6 +138,25 @@ Active files are in `sidequest_semantic_cross_register_paradigms/`, led by
 `CROSS_REGISTER_PARADIGM_REPORT.md`, the productive-family table, revised
 25-stem dictionary, 53-card Astro composition table, residual inventory,
 phrasebook, builder and validator.
+
+## Active bound modifier lattice
+
+Twenty-two of the 53 new Astro compositions now receive a more precise bound
+modifier reading. Five direct family contrasts support `E = short/first
+stage` and `EE = longer/second stage`: `okar→okear`, `otor→qoteor`,
+`otoar→qotoear`, `otoldos/otoly→oteol`, and `okeodal→okeeodal`. This is the
+same narrow grade mechanism already used in the prose `OK` paradigm, not a
+global meaning for every visible `e`.
+
+Right-bound `Y` means current/selected in `okoaly`, `okodaly`, and `otoly`.
+The whole `DY` tail in `okardy` and `okoldy` means hold the selected value or
+bound endpoint; it is not split globally into free D+Y. Leading
+`q/s/ch/d/t` remains renderer material, while medial `O/OD/D/DOS` remains an
+untranslated local status until another contrast gives it one stable job.
+
+Active files are in `sidequest_semantic_modifier_lattice/`, led by
+`MODIFIER_LATTICE_REPORT.md`, the revised 53-form Astro dictionary, eight
+modifier decisions, five E-grade family pairs, builder and validator.
 
 ## Active exception anatomy
 
