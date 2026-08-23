@@ -1,7 +1,7 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-23, after compressing the remaining whole cards into a
-one-page apprentice codebook.
+Updated: 2026-08-23, after adding exact-form selection to the apprentice
+codebook.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -20,7 +20,33 @@ Exactly ten pages are in scope:
 `f84` and `f84r` remain sealed. ZL3b, IT2a and RF1b are alternate readings of
 one manuscript. No additional page, image or semantic corpus was admitted.
 
-## Active apprentice codebook
+## Active whole-card variant book
+
+The sixteen learned meaning-heads now have an explicit forward-writing rule.
+Nine heads have exactly one available card; five use a small semantic subtype
+menu; and two retain one exact tuple while the local hand chooses between two
+surface allographs. Thus the 22-card nomenclator requires only seven selection
+questions beyond learning the sixteen short meanings.
+
+The five substantive menus are GEFAESS (`os` mixing, `oykchor` preparation,
+`ly` receiving/holding), KUEHLEN (`tchody` finished clear product, `ody`
+measured portion), PFLANZENTEIL (`dchey` root, `sh` stalk), WASCHEN (`rshedy`
+full wash, `lkedy` afterwash), and TRENNEN (`cfhy` coarse/wring before standing,
+`cphy` fine/restrain after standing). KLARLAUF `cheey|shey` and VORIGES
+`dchol|schol` keep one meaning and exact tuple; their visible alternation is
+copied from the local hand rather than translated twice.
+
+All 28 whole-card occurrences now carry a concrete source cue and exact-form
+choice inside a complete 116-statement forward encoder. The preferred teaching
+rule is: meaning chooses the family, owner and work stage choose the subtype,
+and hand selects only the surface.
+
+Active files are in `sidequest_semantic_whole_card_variant_book/`, led by
+`WHOLE_CARD_VARIANT_REPORT.md`, `VARIANT_SELECTOR_LEAF.md`,
+`WHOLE_16_VARIANT_RULES.tsv`, `WHOLE_28_VARIANT_OCCURRENCES.tsv`,
+`ENCODER_116_STATEMENTS.tsv`, `VARIANT_7_DRILLS.tsv`, builder and validator.
+
+## Previous apprentice codebook
 
 The complete prose system is now teachable as three layers. `P` cards are
 formed from productive workshop components, `p` cards retain a known component

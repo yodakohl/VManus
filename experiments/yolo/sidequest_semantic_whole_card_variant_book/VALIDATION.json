@@ -1,0 +1,110 @@
+{
+  "status": "PASS",
+  "checks_passed": 17,
+  "checks_total": 17,
+  "counts": {
+    "headwords": 16,
+    "exact_whole_cards": 22,
+    "whole_occurrences": 28,
+    "statements": 116,
+    "only_form_heads": 9,
+    "semantic_variant_heads": 5,
+    "renderer_allograph_heads": 2,
+    "variant_drills": 7
+  },
+  "checks": [
+    {
+      "name": "source_counts",
+      "passed": true,
+      "detail": "cards=22, heads=16, statements=116, events=381"
+    },
+    {
+      "name": "output_counts",
+      "passed": true,
+      "detail": "rules=16, occurrences=28, statements=116, drills=7"
+    },
+    {
+      "name": "page_scope",
+      "passed": true,
+      "detail": "all occurrence selectors stay on the seven fixed prose pages"
+    },
+    {
+      "name": "selection_modes",
+      "passed": true,
+      "detail": "ONLY_FORM=9, RENDERER_ALLOGRAPH=2, SEMANTIC_VARIANT_MENU=5"
+    },
+    {
+      "name": "whole_event_set",
+      "passed": true,
+      "detail": "all 28 and only the learned whole-card events are selected"
+    },
+    {
+      "name": "occurrence_binding",
+      "passed": true,
+      "detail": "tuple, surface, statement, trigger, and rule match at every occurrence"
+    },
+    {
+      "name": "headword_set",
+      "passed": true,
+      "detail": "all sixteen teaching headwords have one selector rule"
+    },
+    {
+      "name": "headword_occurrence_counts",
+      "passed": true,
+      "detail": "rule occurrence counts sum to 28"
+    },
+    {
+      "name": "semantic_variant_cards",
+      "passed": true,
+      "detail": "five semantic menus select eleven exact cards"
+    },
+    {
+      "name": "only_form_cards",
+      "passed": true,
+      "detail": "nine one-form heads select nine exact cards"
+    },
+    {
+      "name": "renderer_allographs",
+      "passed": true,
+      "detail": "KLARLAUF and VORIGES each keep one tuple while alternating between two local surfaces"
+    },
+    {
+      "name": "encoder_statement_set",
+      "passed": true,
+      "detail": "all 116 copybook statements have an encoder row"
+    },
+    {
+      "name": "encoder_full_binding",
+      "passed": true,
+      "detail": "whole_events=28, codebook_statements=22"
+    },
+    {
+      "name": "variant_drills",
+      "passed": true,
+      "detail": "the five semantic menus and two renderer allographs each receive one contrast drill"
+    },
+    {
+      "name": "manual_contract",
+      "passed": true,
+      "detail": "the manual distinguishes the three selection mechanisms and seven questions"
+    },
+    {
+      "name": "sealed_selectors_absent",
+      "passed": true,
+      "detail": "no sealed selector occurs in generated tables"
+    },
+    {
+      "name": "deterministic_rebuild",
+      "passed": true,
+      "detail": "all generated variant-book artifacts rebuilt byte-identically"
+    }
+  ],
+  "artifact_sha256": {
+    "WHOLE_16_VARIANT_RULES.tsv": "3ee8731431366e87dd6585a10b574d62a7a1e5e63b028a0e2d214572a33ef7c2",
+    "WHOLE_28_VARIANT_OCCURRENCES.tsv": "05e74a1bac3ae111120830416f7407a002a2e230b9fe76e6f7e7e91d7cece16e",
+    "ENCODER_116_STATEMENTS.tsv": "10f09170f2d8e5f2336f6579bb965b1ca47e1de09730a78909692b414bb3ff9e",
+    "VARIANT_7_DRILLS.tsv": "158bbc33a986ac3f5c9bd1e25cc95c7750919917edb053e08e16b9fb5dc53ecc",
+    "VARIANT_SELECTOR_LEAF.md": "acc987f299bfb274839c6e8c96bc1f07b3a53d96c5f6929b66df69475fd318ac",
+    "BUILD_SUMMARY.json": "5ca60bcce028b810c46978272ca991627160544a85697ad3b5ed7ca39aeaabbf"
+  }
+}
