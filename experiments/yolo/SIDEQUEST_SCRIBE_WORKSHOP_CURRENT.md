@@ -3038,6 +3038,27 @@ eight composed instructions, 32 four-hand copies, token trace, manual, report,
 builder and validator. Next compare every composed sequence with the attested
 381-event phrase ecology and repair orders that have no local analogue.
 
+## Active hundred-fortieth attested-order composer
+
+The R139 hand renderer survives, but free card order does not. None of the
+eight novel strings preserves every internal adjacent pair from the 381-event
+ecology. C03 preserves the carried-preparation bracket and C05 the
+paired-measure bracket; in both cases the freely appended final card creates
+the unsupported join.
+
+The apprentice rule is therefore revised to template-bound substitution:
+start from one complete attested statement, preserve shared-card order and the
+endpoint, replace only the picture owner or one local whole card in the same
+slot, and render the personal hand last. Application C07 honestly uses two
+cells rather than forcing fastening and cloth contact into one invented
+string.
+
+Files are in
+`sidequest_semantic_attested_composer_order_hundred_fortieth/`: all eight
+ecology audits, eight repaired template instructions, corrected composer
+manual, report, builder and validator. Next turn the repaired examples into a
+small phrasebook and assign all 116 statements to reusable mould families.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
