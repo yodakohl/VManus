@@ -6934,9 +6934,15 @@ groups. Every line visibly separates portable card value, shared component,
 Prose extension, learned whole card and image/diagram expansion. See
 `sidequest_semantic_readable_layered_ten_pages_two_hundred_seventeenth/TWO_HUNDRED_SEVENTEENTH_READABLE_TEN_PAGES.md`.
 
-Next, rank the twenty places where the fluent owner reading adds the most
-content beyond the cards and tighten those passages without making the German
-unreadable.
+Pass 218 tightens the twenty most inflated owner readings. It removes 99 of
+378 words while preserving every card and event: repeated owner nouns, modern
+discourse scaffolding, one line-break interpretation and over-specific wet
+expansions are cut. `Freigabewert` remains the portable value, with `Klarlauf`
+only as a local wet expansion. See
+`sidequest_semantic_owner_expansion_debt_two_hundred_eighteenth/TWO_HUNDRED_EIGHTEENTH_TOP20_SEMANTIC_DEBT.tsv`.
+
+Next, write compact dictionary entries for the most frequent portable cards,
+showing their common value and every prose/Astro local expansion side by side.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
