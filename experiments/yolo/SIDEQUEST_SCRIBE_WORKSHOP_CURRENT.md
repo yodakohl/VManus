@@ -1573,6 +1573,29 @@ Active files are in
 validator. Next regenerate all fourteen units as controlled prose using only
 these selected source words and the fixed minimal card dictionary.
 
+## Active seventy-sixth controlled ten-page edition
+
+All fourteen units have now been rewritten with the selected finite source
+vocabulary and a short common action vocabulary. The controlled edition is
+less literary than the older master prose, but it keeps a readable practical
+sequence on every unit and binds all 776 visible groups without importing a
+new material, disease, body part or apparatus name.
+
+The resulting register split is sharp. The five Herbal units describe taking,
+extracting, separating, binding and applying pictured plant material. The six
+Biological units describe local basin, wash, cloth, temperature, duration,
+inlet and outlet work; only stations with visible figures use `Badende` and
+`Teilbad`. The three Astro units remain local select-copy-read procedures with
+no orientation or cross-page key.
+
+Active files are in
+`sidequest_semantic_controlled_unit_rewrite_seventy_sixth_edition/`, led by
+`SEVENTY_SIXTH_COMPLETE_CONTROLLED_TEN_PAGE_EDITION.md`, with fourteen unit
+readings, the complete 776-group binding, eight-rule writing manual, report,
+builder and validator. Next map every minimal card/root entry to the finite
+source slots it can actually license, so a short card can no longer trigger an
+arbitrary rich noun.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
