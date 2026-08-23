@@ -7189,8 +7189,14 @@ productive relation abbreviations plus a small nomenclator of routinized
 technical operations. See
 `sidequest_semantic_lexical_blocking_two_hundred_fifty_sixth/TWO_HUNDRED_FIFTY_SIXTH_READABLE_MIXED_CODEBOOK.md`.
 
-Next, integrate the four lexical blockers and the recomposed OT+OL+Y formula
-into the full 173-card dictionary and rewrite every affected statement.
+Pass 257 integrates the result into a complete new prose edition. Five card
+types, five events and five statements change: four lexical blockers plus the
+OT+OL+Y triple. The full outputs retain 173 cards, 381 events and 116 readable
+statements. See
+`sidequest_semantic_mixed_codebook_edition_two_hundred_fifty_seventh/TWO_HUNDRED_FIFTY_SEVENTH_FIVE_REWRITTEN_PASSAGES.md`.
+
+Next, compress the edition into one teachable deck: productive components,
+partly compositional cards and the genuinely memorized whole signs.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
