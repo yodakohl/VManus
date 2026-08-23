@@ -3828,6 +3828,22 @@ thirteen-token encoding, five fields, seven ambiguity entries, complete
 roundtrip, report, builder and validator. Next perform a different forward
 exercise using stored stock, division, cooling and two target stations.
 
+## Active hundred-seventy-ninth second forward exercise
+
+A second, structurally different instruction also roundtrips. Sixteen tokens,
+fifteen distinct cards and four entirely new fields encode a stored previous
+batch, prescribed division, cooling and re-storage of the first portion, brief
+warming and use of the second, then movement to a second target and wash close.
+
+Only three cards overlap the first exercise. The grammar therefore produces
+more than the familiar B4 double-pass pattern; it supports a separate stock and
+two-target workflow without any new surface or meaning.
+
+Files are in `sidequest_semantic_second_forward_writing_hundred_seventy_ninth/`:
+sixteen-token encoding, four fields, six ambiguity entries, complete roundtrip,
+report, builder and validator. Next derive the smallest shared grammar that a
+third scribe needs to read both new instructions.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
