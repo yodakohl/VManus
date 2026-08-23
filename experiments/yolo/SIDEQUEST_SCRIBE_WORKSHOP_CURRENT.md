@@ -3263,6 +3263,26 @@ continuous records, readable source book, report, builder and validator. Next
 make the thirteen open continuations explicit by naming what survives across
 the boundary: item, preparation, target, stage or unfinished transfer.
 
+## Active hundred-fifty-first open carry registers
+
+All thirteen open same-owner transitions now name their retained work memory.
+The small register set contains active preparation, current item, prescribed
+measure, source, target, local station, active extract, sequence and unfinished
+transfer. An exact close still clears them; there is no generic invisible
+sentence state.
+
+Concrete readings now include `mit demselben Ansatz und Sollmaß weiter`
+(H2-S001→S002), `mit diesem Materialanteil weiter` (H3-S002→S003), `am
+offenen Ziel in die Überführung weiter` (B1-S006→S007), and `mit dem aus der
+Quelle überführten Posten weiter` (B3-S011→S012). These are teachable memory
+instructions rather than extra words assigned to a single card.
+
+Files are in `sidequest_semantic_open_carry_registers_hundred_fifty_first/`:
+thirteen-transition audit, carry-aware 116-clause and eleven-record editions,
+apprentice memory card, report, builder and validator. Next classify every
+card occurrence by spoken role—imperative, object, quantity, anaphor, state,
+link or close—and use that role order to make the German less telegraphic.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
