@@ -7006,8 +7006,14 @@ last lower-station Abzug; E264 is correctly excluded after the visible owner
 break. See
 `sidequest_semantic_f83r_station_functions_two_hundred_twenty_ninth/TWO_HUNDRED_TWENTY_NINTH_THREE_READABLE_STATIONS.md`.
 
-Next, trace every exact card from these three stations across all its other
-owners, separating portable action values from f83r-only station expansions.
+Pass 230 traces all 27 exact station cards through their 152 occurrences. Of
+the 35 target events, 27 use 19 portable or provisionally portable action cards
+and eight use local learned whole cards. Station 1 splits 9+1, Station 2 8+1,
+and Station 3 10+6. Station nouns remain image expansions, never card values.
+See `sidequest_semantic_station_card_portability_two_hundred_thirtieth/TWO_HUNDRED_THIRTIETH_REPORT.md`.
+
+Next, connect the eight local f83r whole cards into a small apparatus lexicon:
+input, residence, output, and handoff to the next visible station.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
