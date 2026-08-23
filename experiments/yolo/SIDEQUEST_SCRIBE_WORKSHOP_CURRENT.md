@@ -7486,8 +7486,16 @@ Single-grade families are extended only when a sister family fixes the same
 E-position. See
 `sidequest_semantic_grade_matrix_two_hundred_ninety_sixth/TWO_HUNDRED_NINETY_SIXTH_GRADE_MANUAL.md`.
 
-Next, audit the 36 taught root families and demote any family that does not
-actually predict multiple cards or a stable slot contribution.
+Pass 297 prunes the old 36-family deck to 19 broad productive cores and 10
+licensed specialist families. Seven one-card values (AN, receiver, pour,
+preparation, vessel, standing-time and previous-item) retain their concrete
+meanings but move to the learned micro-sign layer. The portable inventory stays
+105 entries: 29 productive families plus 76 whole/micro-signs, rather than 36
+plus 69. See
+`sidequest_semantic_root_pruning_two_hundred_ninety_seventh/TWO_HUNDRED_NINETY_SEVENTH_REVISED_ROOT_MANUAL.md`.
+
+Next, build the observed pair/triple combination map for the 29 families and
+rank a small set of unoccupied but structurally licensed new cards.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
