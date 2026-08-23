@@ -1550,6 +1550,29 @@ fourteen fixed programs, complete 776-group binding, report, builder and
 validator. Next rank the controlled medical/nonmedical slot pairs by which
 existing picture and card contexts most strongly favor one expansion.
 
+## Active seventy-fifth selected source lexicon
+
+Every one of the 26 previously divergent source slots now has one short
+working value. Eighteen collapse to the common practical role: root, herb,
+carrier, binder, end product, application, basin station, wash liquid, cloth,
+temperature, duration, local place, filter, time or quality. This removes the
+old habit of silently choosing a medical noun in one sentence and a technical
+noun in the next.
+
+Only eight choices retain a narrower visible cue. People sitting in basins
+license `Badende` and `Teilbad`; wet station geometry licenses
+`Flüssigkeitslauf`; the wheels license `Himmelssektor`,
+`Himmelsbedingung`, `Himmelslabel`, `Witterungswert` and `Lichtwert`. These
+are picture-addressed source words, not card or stem meanings. All 54 source
+slots, fourteen programs and 776 groups remain finite and bound.
+
+Active files are in
+`sidequest_semantic_source_slot_selection_seventy_fifth_edition/`, led by
+`SEVENTY_FIFTH_SELECTED_SOURCE_LEXICON.md`, with the 26 decisions, selected
+54-word lexicon, fourteen programs, 776-group binding, report, builder and
+validator. Next regenerate all fourteen units as controlled prose using only
+these selected source words and the fixed minimal card dictionary.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible

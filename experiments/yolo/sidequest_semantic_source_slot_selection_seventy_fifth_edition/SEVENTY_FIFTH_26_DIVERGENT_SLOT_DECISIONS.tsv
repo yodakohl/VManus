@@ -1,0 +1,27 @@
+source_word_id	source_slot	register	medical_candidate	nonmedical_candidate	selected_value_de	decision_class	medical_context_fit_1_to_5	nonmedical_context_fit_1_to_5	selection_reason_de
+H02	ROOT	HERBAL	Wurzelteil	Wurzelmaterial	Wurzel	NEUTRALIZED	4	4	Die Wurzel ist sichtbar; medizinischer Teil und Werkstoff sind gleichermaßen möglich.
+H06	HERB	HERBAL	Kraut	Pflanzenrohstoff	Kraut	NEUTRALIZED	4	4	Pflanzenmaterial ist sichtbar, der Verwendungszweck nicht.
+H08	EXTRACTION_MEDIUM	HERBAL	Wein oder Auszugsmedium	Auszugsmedium	Auszugsmedium	NEUTRALIZED	2	4	Wein ist nicht sichtbar und gehört höchstens zum Meisterexemplar.
+H09	OIL_BINDER	HERBAL	Öl	Bindemittel	Träger	NEUTRALIZED	2	4	Öl und technisches Bindemittel teilen die Rolle; die Substanz bleibt offen.
+H10	HONEY_BINDER	HERBAL	Honig	Binder	Binder	NEUTRALIZED	2	4	Honig ist nicht sichtbar; Bindefunktion genügt für beide Quellen.
+H15	DRINK_OR_PRODUCT	HERBAL	Trank	Farb-, Duft- oder Werkprodukt	Endprodukt	NEUTRALIZED	2	4	Kein Karten- oder Bildwert erzwingt Einnahme statt Werkprodukt.
+H16	OUTER_APPLICATION	HERBAL	äußere Auflage	Auftrag am Werkstück	Auftrag	NEUTRALIZED	3	4	Kontakt ist plausibel; Körper oder Werkstück bleibt offen.
+B01	FIGURE_WORKPIECE	BIO	Badende	Arbeitsplatz oder Werkstück	Badende	VISIBLE_MEDICAL_BATH_CUE	5	2	Menschliche Figuren in Becken sind keine Werkstücke, auch wenn der Zweck offen bleibt.
+B03	STATION	BIO	örtliche Badstation	örtliche Arbeitsstation	Beckenstation	NEUTRALIZED	4	4	Sichtbare Becken tragen medizinischen und betrieblichen Gebrauch.
+B07	RUN	BIO	Flüssigkeitslauf	Arbeitslauf	Flüssigkeitslauf	VISIBLE_WET_PROCESS_CUE	4	3	Lokale farbige Linien und Becken stützen Flüssigkeit stärker als abstrakten Arbeitslauf.
+B09	WASH_LIQUID	BIO	Bade- oder Waschflüssigkeit	Wasch- oder Färbeflüssigkeit	Waschflüssigkeit	NEUTRALIZED	4	4	Waschen gilt für Körper, Stoff und Anlage.
+B10	ADDITIVE	BIO	Badezusatz	Arbeitszusatz	Zusatz	NEUTRALIZED	3	3	Die Karte trägt Zusatz, nicht dessen Zweck.
+B11	BIO_CLOTH	BIO	Anwendungstuch	Filter- oder Waschtuch	Tuch	NEUTRALIZED	4	4	Tuch kann Auflage, Filter oder Waschmittelträger sein.
+B12	TEMPERATURE	BIO	Badwärme	Arbeitstemperatur	Temperatur	NEUTRALIZED	4	4	Wärme ist Prozessparameter, kein medizinisches Wort.
+B13	DURATION	BIO	Anwendungsdauer	Arbeitsdauer	Dauer	NEUTRALIZED	4	4	Zeit gilt für Anwendung und Werkprozess gleichermaßen.
+B14	BODY_WORK_AREA	BIO	Körperstelle	Arbeitsstelle	örtliche Stelle	NEUTRALIZED	3	4	Das Ziel ist sichtbar oder geerbt, aber nicht als Körperstelle bezeichnet.
+B15	IMMERSION	BIO	Teilbad	Tauchgang	Teilbad	VISIBLE_MEDICAL_BATH_CUE	5	3	Figuren sitzen sichtbar in lokalen Becken; Teilbad ist die einfachste Beschreibung.
+B16	FILTER	BIO	Seihgang	Filtergang	Filtern	NEUTRALIZED	4	4	Seihen und technisches Filtern sind dieselbe Arbeitsfunktion.
+A04	SECTOR	ASTRO	Himmelssektor	Kalendersektor	Himmelssektor	VISIBLE_CELESTIAL_CUE	4	3	Die Radikonographie ist himmlisch, auch wenn Kalendername und Start fehlen.
+A06	MANSION_PLACE	ASTRO	Mondstationsplatz	Kalenderplatz	28er Platz	NEUTRALIZED	3	4	28 Plätze sind sichtbar, Mondstation und Kalenderwert bleiben gleich offen.
+A07	CONDITION_PLACE	ASTRO	Himmelsbedingung	Arbeitsbedingung	Himmelsbedingung	VISIBLE_CELESTIAL_CUE	4	3	Scheiben und Himmelsrad tragen eine lokale Bedingung, nicht beliebigen Arbeitszustand.
+A09	LOCAL_LABEL	ASTRO	lokales Himmelslabel	lokales Tabellenlabel	Himmelslabel	VISIBLE_CELESTIAL_CUE	4	3	Stern- und Radbesitzer machen den lokalen Labeltyp himmlisch.
+A12	WEATHER_VALUE	ASTRO	Witterungswert	Arbeitszustand	Witterungswert	VISIBLE_CELESTIAL_CUE	4	2	Das mittlere f69-Wolken-/Wellenmotiv stützt Witterung als kreative Kurzlesung.
+A13	LIGHT_VALUE	ASTRO	Lichtwert	Qualitätswert	Lichtwert	VISIBLE_CELESTIAL_CUE	4	3	Strahlen-/Gesichtsmotiv stützt Licht stärker als generische Qualität.
+A14	PLANET_VALUE	ASTRO	Planetenwert	Zeitwert	Zeitwert	NEUTRALIZED	3	4	Ein bestimmter Planet ist nicht identifiziert; Zeit ist der sparsamere Lookup-Wert.
+A15	QUALITY_VALUE	ASTRO	Komplexionswert	Qualitätswert	Qualitätswert	NEUTRALIZED	3	4	Komplexion ist eine mögliche, aber nicht sichtbare Spezialisierung.
