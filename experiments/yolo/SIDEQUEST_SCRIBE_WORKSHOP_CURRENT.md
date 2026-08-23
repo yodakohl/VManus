@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-23, after completing the Biological operation alphabet.
+Updated: 2026-08-23, after separating material, state, checkpoint and product.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -19,7 +19,58 @@ Exactly ten pages are in scope:
 `f84` and `f84r` remain sealed. ZL3b, IT2a and RF1b are alternate readings of
 one manuscript. No additional page, image or semantic corpus was admitted.
 
-## Active Biological operation working edition
+## Active material/state/product working edition
+
+The operation alphabet now carries a separate compact register for what is
+being processed, its current state, the point at which it may advance, and the
+recovered product:
+
+```text
+RAW MATERIAL / WATER / BATCH / ADDITIVE
+        -> process, warm, wash, settle
+RAW -> WARM -> HANDWARM -> READY -> CLEAR
+        -> withdraw, strain, collect
+EXTRACT -> CLEAR LIQUID -> DRAUGHT / APPLICATION
+```
+
+The productive and learned cards are now separated explicitly. `AIR=WATER`,
+`OR=BATCH`, `CHEO=EXTRACT`, `CTH+Y=READY` and `SHED=SETTLE` remain reusable.
+Learned specialist signs carry `DL=BATH ADDITIVE`, `RSHEAL=WARM WATER`,
+`TSHEY=RINSE WATER`, `DSHEDY=FRESH WATER`, `SCHOAL=WINE DECOCTION`, and
+`KCHY=DRAUGHT` without forcing a universal letter-by-letter analysis.
+
+The key correction separates a state from its product:
+
+```text
+CHEALROR     CLEAR                state/check
+SHEY         CLEAR LIQUID         recovered product
+```
+
+`SHEY`, rendered as `CHEEY|SHEY`, occurs after straining, after a nozzle,
+immediately after withdrawal, and as a portioned working liquid. It is now a
+learned whole sign `CLEAR LIQUID`, not the narrower Herbal-only `CLEAR
+EXTRACT`, and it is not split into speculative `SH+EY` parts. `CHEALROR`
+becomes the simple state `CLEAR` rather than the abstract noun `clarity point`.
+
+`ROL` and `LOL` now share `WARM`; sequence supplies the former extra word
+`still`. `SHECTHY` becomes the narrower concrete state `HANDWARM`, while
+`SKAR` becomes the action `POUR OUT WARM` rather than the noun `warm pour`.
+The strongest resulting chain is Herbal H3: flowering herb -> wine decoction
+-> wring -> standing time -> restrain -> clear liquid -> cool/close. Biological
+B3 now says to settle until handwarm and later wait until clear before longer
+collection.
+
+This pass changes five cards across eight occurrences and rewrites eight
+affected statements while preserving the complete 173-card, 381-event,
+116-statement and eleven-record edition. The active files are in
+`sidequest_semantic_state_product_completion/`, led by
+`STATE_PRODUCT_REPORT.md`, `STATE_PRODUCT_REGISTER.tsv`,
+`STATE_PRODUCT_PARADIGM.tsv`, `SELECTED_173_STATE_PRODUCT_DICTIONARY.tsv`,
+`SELECTED_381_STATE_PRODUCT_INTERLINEAR.tsv`,
+`SELECTED_116_STATE_PRODUCT_SENTENCES.tsv`, and
+`SELECTED_11_STATE_PRODUCT_RECORDS.md`.
+
+## Previous Biological operation working edition
 
 The six Biological records now use a compact workshop command set instead of
 sentence-sized card meanings:
