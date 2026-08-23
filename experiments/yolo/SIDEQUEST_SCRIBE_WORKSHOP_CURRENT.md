@@ -1192,6 +1192,28 @@ consistency checker. Next test whether a fixed small set of these silent phrases
 can regenerate the fluent prose from card readings without sentence-specific
 hand additions.
 
+## Active fifty-eighth fixed phrase expander
+
+Ten templates -- five owner classes with and without content phrases -- now
+regenerate all 116 prose statements. Every terse output uses only its visible
+owner formula, existing card-by-card reading, and the twenty phrases from the
+picture phrasebook. There are zero sentence-specific lexical insertions, and
+all earlier uses of every phrase are reproduced.
+
+The resulting register sounds deliberately schematic: owner, card sequence,
+then owner/exemplar assumptions. The older fluent version remains the creative
+reading, while this fixed edition shows how a small multi-scribe workshop could
+produce the same concrete content without assigning a sentence-sized meaning
+to a surface form.
+
+Active files are in
+`sidequest_semantic_fixed_phrase_expander_fifty_eighth_edition/`, led by
+`FIFTY_EIGHTH_COMPLETE_FIXED_PROSE.md`, with ten templates, all 116 generated
+statements, complete phrase coverage, report, builder and consistency checker.
+Next apply the same meaning inventory through the four scribe profiles and
+separate harmless allographic compression from changes that would alter the
+readback.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
