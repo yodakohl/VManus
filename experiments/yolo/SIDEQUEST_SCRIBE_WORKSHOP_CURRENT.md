@@ -2002,6 +2002,28 @@ builder and validator. Next produce a compact complete workshop codebook that
 puts the twenty prose primitives, learned whole cards, source-word classes and
 eight Astro rules on one practical reference sheet.
 
+## Active ninety-fifth compact workshop codebook
+
+The active sidequest theory is now consolidated on one reference sheet. It
+contains twenty prose primitives, all forty-three productive/learned card
+entries, forty-four repaired source words with provenance, twelve prose rules
+and eight Astro address rules. The sheet keeps productive composition separate
+from learned whole/register-split cards.
+
+A complete 776-row coverage binds 381 groups to combinatorial prose and 395 to
+local Astro nomenclators. Every row carries its compiler mode, primitive
+sequence and unit source words. Source words remain visibly marked as recurrent
+card, visible owner, function class or local nomenclator; none is silently
+promoted to a phonetic word.
+
+Active files are in
+`sidequest_semantic_compact_codebook_ninety_fifth_edition/`, led by
+`NINETY_FIFTH_ONE_SHEET_CODEBOOK.md`, with the twenty-role table, 43-card
+codebook, 44 source words, eight Astro rules, full 776 coverage, report,
+builder and validator. Next use the consolidated sheet to search for economical
+compound predictions: identify unseen but expected card combinations and give
+each a concrete workshop meaning before checking whether a surface form exists.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
