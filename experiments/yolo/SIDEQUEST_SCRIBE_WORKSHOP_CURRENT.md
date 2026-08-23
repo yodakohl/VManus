@@ -2270,6 +2270,27 @@ stage coverage, twelve exercises, builder and validator. Next quantify exactly
 which of the 254 prose clauses obtain their missing noun from the picture owner
 and which still rely on a learned textual or local register value.
 
+## Active hundred-sixth clause-owner binding
+
+Every one of the 254 literal clauses is now rebound to its selected field-level
+visual owner. Only 25 clauses textually name a relatively concrete object channel
+such as extract, preparation, root, cloth, vessel or result. Eighty-four contain
+only a generic item/part/additive, and 145 omit even that primary noun: picture
+and running register supply it.
+
+Owner access is direct-visible for 21 clauses, inherited-visible for 162,
+page-owner-only for 46 and unresolved for 25. This explains the terse text
+without inventing a universal lexical noun. A card can genuinely say only
+“set this item longer at the target and close” because plant, bathing figure,
+basin or service station is already active outside the card string.
+
+Active files are in
+`sidequest_semantic_clause_owner_binding_hundred_sixth_edition/`, led by
+`HUNDRED_SIXTH_CLAUSE_OWNER_REPORT.md`, with 254 clause bindings, 116 statement
+bindings, owner/noun summary, builder and validator. Next inspect the twenty-five
+unresolved owner clauses individually against their neighbouring resolved fields
+and fixed-page image geometry, then assign the narrowest useful creative owner.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
