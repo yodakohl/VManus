@@ -7245,8 +7245,15 @@ signs. It generates150 composed cards/353 events plus23 whole cards/28 events,
 with no uncounted exemplar remainder. See
 `sidequest_semantic_complete_sixty_three_entry_deck_two_hundred_sixty_fourth/TWO_HUNDRED_SIXTY_FOURTH_READABLE_COMPLETE_DECK.md`.
 
-Next, use the63-entry deck generatively: construct a small set of legal but
-unseen card compositions and state their predicted short meanings and forms.
+Pass 265 uses the deck prospectively. Twelve legal compositions receive short
+meanings and surface sketches. Ten remain unseen on the ten pages; two sketches
+already occur on f67r2: ALAIIN=AL+AIIN and CHEDAIIN=CHED+AIIN. Their existing
+diagram readings directly match the predicted Ziel+Sollwert and
+Übertragung+Sollwert values. See
+`sidequest_semantic_composition_forecast_two_hundred_sixty_fifth/TWO_HUNDRED_SIXTY_FIFTH_READABLE_FORECAST.md`.
+
+Next, parse every previously local Astro label ending in AIIN and determine
+how much of each label the40-component deck now explains.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
