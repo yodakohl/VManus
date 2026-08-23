@@ -1362,6 +1362,26 @@ clauses, twelve composition rules, report, builder and validator. Next rewrite
 the Herbal records as compact source articles using only these templates and
 their visible plant owners.
 
+## Active sixty-sixth compact Herbal sourcebook
+
+The four Herbal pages now read as five compact image-owned articles covering
+all 19 statements and 100 groups. The leading creative content is a preparation
+book rather than a plant-name list: root and shoot fractions, wet extraction,
+cloth handling, local measure, washing or application, and sometimes internal
+use. Each article preserves a practical nonmedical material-process rival.
+
+No plant species is named. Water, wine, oil, honey, salve, drink and body target
+remain source-level wagers from the simulated master exemplar; they are not
+smuggled back into individual card stems. The visible plant supplies owner,
+while the twelve clause shapes supply the repeatable source grammar.
+
+Active files are in
+`sidequest_semantic_herbal_sourcebook_sixty_sixth_edition/`, led by
+`SIXTY_SIXTH_COMPLETE_HERBAL_SOURCEBOOK.md`, with complete 100-group,
+19-statement and five-article tables, report, builder and validator. Next give
+the 115 Biological fields the same compact treatment as local basin/station
+instructions rather than one imagined continuous machine.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
