@@ -4019,6 +4019,23 @@ eleven-card change map, readable Hand-C edition, report, builder and validator.
 Next compress the 227 preferences into a few teachable hand rules and measure
 how many of Hand C's sixteen changes those rules explain.
 
+## Active hundred-eighty-ninth compressed Hand-C profile
+
+For the 73-token mini-section, default `KEEP_SURFACE` plus five apprentice rules
+reproduces every Hand-C surface. The rules cover 7/3/2/2/2 changes: q-framing
+of taught active OK/OT cards, medial/final `daiin`, medial bare `al`, boundary
+frame reduction (`chor→or`, `cheol→ol`) and final s-forms (`schedy`, `shedy`).
+
+All sixteen changes are explained, the other 57 surfaces stay fixed and there
+are zero false changes. All outputs remain registered surfaces of the same
+cards. This is a teachable hand profile rather than 227 memorized preferences,
+although it is currently scoped to the new mini-section.
+
+Files are in `sidequest_semantic_compressed_hand_profile_hundred_eighty_ninth/`:
+73-token rule trace, five rules, eleven-card profiles, apprentice pocket card,
+report, builder and validator. Next apply the same five rules back to all 381
+observed prose occurrences and identify the residual renderer families.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
