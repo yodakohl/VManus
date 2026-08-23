@@ -2075,6 +2075,30 @@ Next simulate several scribes using exactly this mixed productive-plus-learned
 system and measure where their renderer habits alter surfaces without changing
 the source instruction.
 
+## Active ninety-eighth four-scribe renderer
+
+Four simple workshop habits now render the same twelve source instructions and
+the same registered card sequences: a master-copy hand, a q-entry hand, an
+sh/s-continuation hand and a shortest-licensed-form hand. Across 48 complete
+renderings every semantic program and card identity remains fixed. Relative to
+the master, the q-hand changes twelve cards, the s-hand twelve and the short
+hand nine.
+
+The resulting pairs are concrete: `okaiin okeey` versus `qokaiin qokeey`,
+`okain okal dchedy` versus `qokain qokal dchedy` versus
+`okain okal schedy`, and `otchedy chor checthy` versus
+`qotchedy chor checthy` versus `otchedy shor shcthy` versus
+`otchedy or cthy`. Each differing form is already registered for the same card;
+no hand invents vocabulary. This supplies a simple learnable 1420-style model:
+one shared card deck plus a short list of permitted entry forms.
+
+Active files are in
+`sidequest_semantic_scribal_renderer_ninety_eighth_edition/`, led by
+`NINETY_EIGHTH_RENDERER_REPORT.md`, with four profiles, twelve source programs,
+48 realizations, parallel readable renderings, builder and validator. Next test
+how much of the complete 230-surface inventory these few renderer operations
+actually cover and isolate the irreducible learned allographs.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
