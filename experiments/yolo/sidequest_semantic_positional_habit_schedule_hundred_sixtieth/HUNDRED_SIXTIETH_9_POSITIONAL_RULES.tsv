@@ -1,0 +1,10 @@
+rule_order	rule_id	section	field_position	locus_position	habit_priority	apprentice_instruction_de
+1	B_LINE_FIELD_OPEN	BIO	FIRST	FIRST	S_FLOW_ENTRY > HARD_D_T_ENTRY > Q_CELL_ENTRY > BARE_OR_INTERNAL > OPEN_CH_ENTRY	Am Linien- und Feldanfang zuerst die Flusshand versuchen.
+2	B_FIELD_OPEN	BIO	FIRST	ANY_OTHER	Q_CELL_ENTRY > OPEN_CH_ENTRY > HARD_D_T_ENTRY > S_FLOW_ENTRY > BARE_OR_INTERNAL	Neues Bio-Feld in laufender Linie zuerst mit q eröffnen.
+3	B_FIELD_CLOSE_INSIDE_LINE	BIO	LAST	MIDDLE	BARE_OR_INTERNAL > Q_CELL_ENTRY > S_FLOW_ENTRY > HARD_D_T_ENTRY > OPEN_CH_ENTRY	Feldende vor weiterlaufender Linie möglichst nackt schreiben.
+4	B_FIELD_AND_LINE_CLOSE	BIO	LAST	LAST	Q_CELL_ENTRY > S_FLOW_ENTRY > BARE_OR_INTERNAL > HARD_D_T_ENTRY > OPEN_CH_ENTRY	Gemeinsames Feld- und Linienende aus dem knappen Endregister wählen.
+5	B_SINGLE_CELL	BIO	SINGLE	ANY	Q_CELL_ENTRY > BARE_OR_INTERNAL > HARD_D_T_ENTRY > OPEN_CH_ENTRY > S_FLOW_ENTRY	Einzelzelle zuerst als q- oder nackte Kurzkarte setzen.
+6	B_FIELD_INTERIOR	BIO	MIDDLE	MIDDLE	Q_CELL_ENTRY > HARD_D_T_ENTRY > BARE_OR_INTERNAL > S_FLOW_ENTRY > OPEN_CH_ENTRY	Im Bio-Feldinneren die kompakte Arbeitsform bevorzugen.
+7	H_FIELD_OPEN	HERBAL	FIRST	ANY	Q_CELL_ENTRY > BARE_OR_INTERNAL > OPEN_CH_ENTRY > S_FLOW_ENTRY > HARD_D_T_ENTRY	Herbal-Feld mit q oder nackter Form beginnen.
+8	H_FIELD_INTERIOR	HERBAL	MIDDLE	MIDDLE	OPEN_CH_ENTRY > BARE_OR_INTERNAL > HARD_D_T_ENTRY > Q_CELL_ENTRY > S_FLOW_ENTRY	Herbal-Innenkarten bevorzugt ch/che schreiben.
+9	H_FIELD_CLOSE	HERBAL	LAST	ANY	HARD_D_T_ENTRY > BARE_OR_INTERNAL > OPEN_CH_ENTRY > Q_CELL_ENTRY > S_FLOW_ENTRY	Herbal-Feldende bevorzugt hart oder nackt schreiben.

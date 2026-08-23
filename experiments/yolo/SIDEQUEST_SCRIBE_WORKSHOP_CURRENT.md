@@ -3454,6 +3454,28 @@ report, builder and validator. Next derive the smallest positional schedule
 for choosing habits at field entry, after a close, inside a running clause and
 across a carried line.
 
+## Active hundred-sixtieth positional habit schedule
+
+Nine apprentice rules now choose a renderer habit from section, field position
+and physical-line position. They select the observed habit in 182 of 251 shared
+events. The clearest rules are: Bio field opening inside a line prefers `q`;
+Bio field opening at line start prefers `s/sh`; Bio field ending inside a
+continuing line prefers the bare form; Herbal interiors prefer `ch/che`; and
+Herbal endings prefer a hard `d/t` or bare form.
+
+Taking the first registered spelling within the predicted habit reproduces 160
+visible tokens exactly. Twenty-two more need only a second registered spelling
+inside the correct habit. Sixty-nine use another local registered habit. This
+is a bounded scribal choice, not a different word: all 251 events still recover
+the same master card and atomic value.
+
+Files are in
+`sidequest_semantic_positional_habit_schedule_hundred_sixtieth/`: nine-rule
+schedule, complete 251-event trace, eleven record summaries, apprentice card,
+report, builder and validator. Next compress the 69 local habit overrides into
+recurrent card- or record-specific customs rather than memorizing unrelated
+exceptions.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
