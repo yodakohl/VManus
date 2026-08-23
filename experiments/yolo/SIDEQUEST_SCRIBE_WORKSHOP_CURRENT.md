@@ -828,6 +828,27 @@ three-step expansion guide, report, builder and consistency checker. This is
 the current fully spoken prose edition for checking what the abbreviations
 leave unstated.
 
+## Active forty-first apprentice-error edition
+
+Eight concrete error families are now taught with four real statements each:
+wrong visible owner, ACTIVE/PREVIOUS confusion, AR/AL source-target reversal,
+AIIN/AIN/IIN value-portion-stage collapse, OL/OT continuation-next reversal,
+E/EE/EEE grade collapse, Y/CLOSE current-endpoint reversal and a renderer frame
+misread as an extra word. The 32 examples are distinct and span nine records
+on all seven fixed prose pages.
+
+Each example states the wrong choice, its practical consequence and the repair.
+The compact teaching rhymes are deliberately simple: “AR heraus, AL hinan”,
+“OL bleibt, OT springt”, “Y bleibt in der Hand; Schluss legt ab”, and “Die
+Handform spricht nicht mit”. This makes the proposed notation teachable as a
+workshop habit rather than merely describable after the fact.
+
+Active files are in
+`sidequest_semantic_apprentice_error_book_forty_first_edition/`, led by
+`FORTY_FIRST_CORRECTION_COPYBOOK.md`, with eight rules, 32 worked errors,
+report, builder and consistency checker. This is the current correction layer
+for the mixed stem-and-whole-card system.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
