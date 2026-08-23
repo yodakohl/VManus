@@ -4159,6 +4159,18 @@ but one logical measure instruction: 107 visible events, 106 source tokens.
 Water/wine/oil are not forced by these cards. Next consolidate all 381 prose
 events into one new four-layer edition and audit the concrete dictionary.
 
+## Active two-hundredth normalized B4/B5/B6 edition
+
+All 67 events, 27 fields and 20 statements of B4/B5/B6 are normalized. B4 works
+the main pair and left underflow; its two separate `shckhedy` singleton cells
+are retained as first and second passes. B5 and B6 are independent left/right
+end-post records, not a forced global circuit. The unsupported old phrase
+“without boiling” is removed from B6.
+
+Passes 197–200 now cover all 381 prose events, 135 fields and 116 statements.
+Next merge them into one four-layer edition and issue the current compact
+component-plus-whole-card dictionary.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
