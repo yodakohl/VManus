@@ -7277,8 +7277,15 @@ the compact whole signs ÜBERTRAGEN and WEITERABZUG. AR+OR and AL+OL remain
 whole-sign routes SUDANSATZ and FOLGEANWENDUNG. See
 `sidequest_semantic_relation_gap_transfer_two_hundred_sixty_ninth/TWO_HUNDRED_SIXTY_NINTH_READABLE_REGISTER_ALGEBRA.md`.
 
-Next, parse the complete local Astro AL/AR suffix inventory and compare total
-source- and target-address use across prose and diagrams.
+Pass 270 completes the local Astro address book. It finds forty terminal AR
+groups on 25 forms and fourteen terminal AL groups on thirteen forms, spread
+across all three Astro pages. With prose and previously composed Astro forms,
+the terminal channels balance exactly: AR has 14+6+40=60 source addresses and
+AL has 38+8+14=60 target addresses. See
+`sidequest_semantic_astro_address_suffix_two_hundred_seventieth/TWO_HUNDRED_SEVENTIETH_READABLE_ADDRESS_BOOK.md`.
+
+Next, parse the complete local Astro OR/OL condition-and-continuation inventory,
+including the OT+OL+OR triple, before attempting the much larger Y family.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
