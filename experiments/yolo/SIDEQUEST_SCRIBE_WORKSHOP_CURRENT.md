@@ -3324,6 +3324,29 @@ by-side book, report, builder and validator. Next inspect the 33 label-heavy
 clauses and replace only genuinely learned whole cards with shorter concrete
 atomic values where that improves the entire occurrence set.
 
+## Active hundred-fifty-fourth atomic Herbal nomenclator
+
+All 45 local Herbal card types are now taught as indivisible short whole words
+instead of uncertain miniature compositions. Thirty-seven former dotted
+component glosses disappear. The new deck includes `Vorbereitung`,
+`Aufnahmegefäß`, `Zuguss`, `Folgeteil`, `Auszugsansatz`, `Sollvorbereitung`,
+`Kochgut`, `Sudansatz`, `Stehzeit`, `Nachseihen`, `Quellauszug`, `Verwahrort`
+and other one- or two-word entries.
+
+The strongest continuous improvement is H3: `Kochgut → Sudansatz → Auswringen
+→ Stehzeit → Nachseihen → Klarauszug → Endzugabe; Schluss`. This is exactly
+the mixed system sought in the sidequest: a small productive deck plus a
+learned technical nomenclator. Internal shapes of a singleton card are no
+longer forced to mean ingredient, target, source or measure independently.
+
+Files are in
+`sidequest_semantic_herbal_atomic_nomenclator_hundred_fifty_fourth/`: complete
+45-card old/new audit, revised 173-card and 381-event editions, nineteen
+Herbal clauses, five continuous records, readable book, report, builder and
+validator. Next make the 81 Biological local cards equally atomic, using their
+station and complete-clause function to choose one short operation, state,
+path or address value each.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
