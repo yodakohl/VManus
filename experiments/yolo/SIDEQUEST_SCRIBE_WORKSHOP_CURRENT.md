@@ -3020,6 +3020,24 @@ occurrences, eleven records, full context edition, report, builder and
 validator. Next make the scaffold productive by composing a few new source
 instructions into existing shared cards plus one selected specialist drawer.
 
+## Active hundred-thirty-ninth productive composer
+
+Eight ordinary workshop instructions were composed solely from the current
+ten-page dictionary. Each uses the shared scaffold plus exactly one of the
+eight specialist drawers. The instructions cover material, filtration, state,
+transfer, quantity, order, application and local operation; no new card or
+page was introduced.
+
+All eight source commands were rendered by the Vorlagenhand, q-entry hand,
+s-flow hand and short hand. The 32 visible copies all return to the same master
+card sequence. Especially useful are C03 (`CHEOL CHOLOR CHEOL OLKEEDY`) and C05
+(`CHEY AIIN CHEY OIIIN`): a common bracket carries one local state/stage card.
+
+Files are in `sidequest_semantic_productive_composer_hundred_thirty_ninth/`:
+eight composed instructions, 32 four-hand copies, token trace, manual, report,
+builder and validator. Next compare every composed sequence with the attested
+381-event phrase ecology and repair orders that have no local analogue.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
