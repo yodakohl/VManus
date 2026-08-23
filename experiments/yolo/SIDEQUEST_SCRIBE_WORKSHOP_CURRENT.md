@@ -6913,6 +6913,15 @@ expansions differ across plant, station and diagram. See
 Next, rebuild the apprentice sheet around a register-neutral common core and
 move wet, plant and diagram-specific meanings into explicit local expansions.
 
+Pass 215 defines ten three-register axes, 18 additional Herbal/Bio prose axes
+and 22 whole cards. `CHED~CHD` is one transfer axis, not two roots; `EY` is not
+a free word; `CHEEY/SHEY` remains the learned common `Freigabewert` card. The
+current compact manual is
+`sidequest_semantic_scoped_apprentice_grammar_two_hundred_fifteenth/TWO_HUNDRED_FIFTEENTH_APPRENTICE_SHEET.md`.
+
+Next, assign every one of the 776 fixed-page groups a primary layer: common
+core, prose extension or local exemplar value.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
