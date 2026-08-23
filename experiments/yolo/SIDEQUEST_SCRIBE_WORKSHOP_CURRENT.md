@@ -200,6 +200,23 @@ splits. Active files are in `sidequest_semantic_yd_active_row_ninth_edition/`,
 led by `COMPLETE_TEN_PAGE_WORKSHOP_NINTH_EDITION.md`, with the four-surface
 paradigm, full 487/776/258 layers, pocket codebook, report and validator.
 
+## Active tenth complete edition
+
+The bound `E/EE/EEE` grade is now extended to twenty-one registered Astro
+surfaces where no overt content core stands beside it. `EE` reads **longer
+table stage** and `EEE` **full table stage**; surrounding q/s/ch/d/t-like
+material is ignored only in this finite allograph list. Existing cores retain
+their order, yielding readings such as `OT+EE+AL` next target held longer,
+`OK+EE+OR` table set activated longer and `OT+OK+EEE` next item fully
+activated.
+
+All twenty-one groups leave the learning layer. The active balance is 618
+full, 108 partial and 50 learned-whole groups; surface types are 348 full, 100
+partial, 36 whole and three register splits. Active files are in
+`sidequest_semantic_astro_ee_grade_tenth_edition/`, led by
+`COMPLETE_TEN_PAGE_WORKSHOP_TENTH_EDITION.md`, with the 21-surface paradigm,
+complete 487/776/258 layers, pocket codebook, report, builder and validator.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
