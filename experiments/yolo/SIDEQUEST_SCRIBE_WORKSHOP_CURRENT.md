@@ -1756,6 +1756,29 @@ validator. Next perform the same whole-package comparison for the six
 Biological records: therapeutic bathhouse, ordinary bathhouse/laundry and
 apparatus/process vocabularies.
 
+## Active eighty-fourth bathbook with service annex
+
+The six Biological records now share a concrete seventeen-word bath/service
+vocabulary. B1–B4 are owned by visible people and use `Badende`, `Badwasser`,
+`Kräuterzusatz`, `Badwärme`, `Badezeit`, `Körperstelle`, `Teilbad`, `Tuch`,
+`Umschlag` and `Seihgang`. B5–B6 lack figures and are read as left and right
+`Dienststation` with `Einlass`, local `Wasserlauf`, `Auffangbecken`, `Ablauf`
+and `Arbeitsstelle`.
+
+Three whole vocabularies remain close: therapeutic bath with service annex
+114, public bathhouse/laundry 112 and closed process apparatus 98. The first is
+selected because it uses the human figures rather than treating them as
+workpieces, while the second remains a strong purpose rival. The drawings
+still support only local connections, not one global hydraulic circuit.
+
+Active files are in
+`sidequest_semantic_bath_service_vocabulary_eighty_fourth_edition/`, led by
+`EIGHTY_FOURTH_COMPLETE_BATH_SERVICE_BOOK.md`, with three model vocabularies,
+eighteen record comparisons, seventeen selected words, six complete records,
+the 281-group binding, five historical analogues, report, builder and
+validator. Next give the three Astro pages the same concrete whole-package
+treatment while preserving their separate namespaces and lack of orientation.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
