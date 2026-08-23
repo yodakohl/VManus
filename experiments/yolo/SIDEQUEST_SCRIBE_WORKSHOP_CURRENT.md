@@ -934,6 +934,28 @@ ten-page summary, teaching-kit map, report, builder and consistency checker.
 This is the preferred complete readable edition after the memory and
 nomenclator refinements.
 
+## Active forty-sixth five-owner atlas
+
+All 28 common roots now have a complete five-owner speaking grid: pictured
+plant batch, basin station, cloth/filter, celestial table and generic
+workpiece. The 140 concrete readings hold the atomic root value constant while
+letting the owner supply item, source, target, run, working set and visible
+result.
+
+Twenty-five roots already occur in both Prose and Astro and therefore support
+the full portable-nucleus treatment. Three are Prose-only: CLOSE is a formal
+prose endpoint, while SHED settle and SOLK collect remain process roots; their
+celestial expansions are teaching paraphrases rather than dictionary entries.
+The atlas keeps `AIR` as run/course, `CHEEY` as visible result and `HO` as input
+item, preventing water, filtrate, star value or ingredient from leaking into
+the root itself.
+
+Active files are in
+`sidequest_semantic_owner_atlas_forty_sixth_edition/`, led by
+`FORTY_SIXTH_FIVE_OWNER_ATLAS.md`, with 28 transfer verdicts, 140 owner
+expansions, report, builder and consistency checker. This is the current full
+owner-expansion boundary for the common dictionary.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
