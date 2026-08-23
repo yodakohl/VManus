@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-23, after the third-scribe shared-grammar pass.
+Updated: 2026-08-23, after the complete 173-card slot classification.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -3922,6 +3922,27 @@ Files are in `sidequest_semantic_three_text_writing_palette_hundred_eighty_third
 apprentice chart, report, builder and validator. Next classify the remaining
 148 dictionary cards into the same six drawers using only their existing short
 values and syntax, then write a fourth instruction with low palette overlap.
+
+## Active hundred-eighty-fourth full slot lexicon and ODY correction
+
+All 173 cards are now assigned from their 381 observed roles to the six writing
+slots: 13 G1, 25 G2, 15 G3, 91 G4, 15 G5 and 14 G6. The 148 cards not used in
+the first three forward texts are fully listed, with a 24-card shortlist of four
+new choices per slot for a low-overlap fourth instruction.
+
+The positional comparison found one real forward-writing error. `ody = cool`
+closes its sole observed field, but round 179 placed `talam oldy` after it in
+the same field. The corrected segmentation is `ykain ody | talam oldy`; the
+second exercise therefore has five fields while retaining all sixteen tokens
+and the same workflow. Six other role bridges and one `talam` extension remain
+usable because they preserve their observed finality constraints.
+
+Files are in `sidequest_semantic_full_slot_lexicon_hundred_eighty_fourth/`:
+complete 173-card and 148-unused tables, 24-card shortlist, eight role-alignment
+rows, corrected sixteen-token/five-field second exercise, report, builder and
+validator. Next write a fourth instruction primarily from the 24 unused
+candidates and require substantially lower overlap with the current 25-card
+palette.
 
 ## Active surface compiler
 
