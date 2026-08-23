@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-23, after turning the Astro labels into three instruments.
+Updated: 2026-08-23, after integrating all ten pages into four workshop cases.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -18,6 +18,41 @@ Exactly ten pages are in scope:
 
 `f84` and `f84r` remain sealed. ZL3b, IT2a and RF1b are alternate readings of
 one manuscript. No additional page, image or semantic corpus was admitted.
+
+## Active four-case workshop book
+
+The completed prose dictionary and the three Astro instruments now form four
+continuous `WHAT -> HOW -> WHEN` workshop dossiers. The Herbal image and record
+supply the material or preparation, a Biological record supplies the local
+basin/station/cloth/application procedure, and one visible Astro module supplies
+the condition or lookup value. These are concrete reconstructed use scenarios,
+not claims that the manuscript writes explicit cross-page references.
+
+1. `f10r` H1/H2 + `f81v` B1 + the right-wheel modules of `f67r2` form a
+   root-bath dossier: prepare and measure the root/extract batch, run the common
+   basin/wash sequence, then select sector, ring rule and phase condition.
+2. `f11r` H3 + `f82r` B2 + all of `f68r1` form a clear-extract dossier:
+   wring, stand, re-strain and cool the extract, route it through the local
+   stations, then read panel mode, visible star station and centre/legend.
+3. `f55v` H4 + `f83r` B4/B5/B6 + all of `f69v` form a stored-application
+   dossier: retrieve and hold a portion, apply or insert it with cloth, fasten,
+   after-wash and drain, then select place, quality and light condition on the
+   three separate wheels.
+4. `f56r` H5 + `f83r` B3 + the left-wheel modules of `f67r2` form a fresh
+   plant dossier: process the new ingredient/stalk/extract through the long
+   basin and transfer path, then compare place, aspect, source and target.
+
+This partition uses every item exactly once: 11 prose records, 116 statements,
+381 prose events, 14 Astro modules, 142 loci and 395 diagram groups, or 776
+visible groups overall. It also explains why one shared installation or lookup
+wheel can serve multiple plant dossiers without requiring one-to-one page
+pairing. The four pairings are the current working reconstruction; the separate
+records and instruments remain independently usable.
+
+Active files are in `sidequest_semantic_integrated_workshop_casebook/`, led by
+`INTEGRATED_WORKSHOP_CASEBOOK_REPORT.md`, `FOUR_COMPLETE_WORKSHOP_CASES.md`,
+`MASTER_WORKSHOP_MANUAL.md`, the four-dossier and 25-step tables, the complete
+776-group case-context edition, builder, and validator.
 
 ## Active three-instrument Astro reading
 

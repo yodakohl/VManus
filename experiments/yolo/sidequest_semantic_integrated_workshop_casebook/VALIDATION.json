@@ -1,0 +1,253 @@
+{
+  "status": "PASS",
+  "checks_passed": 33,
+  "checks_total": 33,
+  "checks": [
+    {
+      "check": "four_dossiers",
+      "pass": true,
+      "detail": 4
+    },
+    {
+      "check": "eleven_records_partitioned",
+      "pass": true,
+      "detail": [
+        "H1;H2;B1",
+        "H3;B2",
+        "H4;B4;B5;B6",
+        "H5;B3"
+      ]
+    },
+    {
+      "check": "fourteen_modules_partitioned",
+      "pass": true,
+      "detail": [
+        "M67_RIGHT_SECTORS;M67_RIGHT_RING_RULES;M67_RIGHT_PHASES;M67_SHARED_LEGEND",
+        "M68_PANEL_HEADERS;M68_STAR_STATIONS;M68_CENTER_KEY",
+        "M69_LEFT_RUBRIC;M69_LEFT_28_SLOTS;M69_MIDDLE_QUALITY;M69_RIGHT_LIGHT",
+        "M67_LEFT_ASPECT_FIELDS;M67_LEFT_OUTER_STATIONS;M67_LEFT_RING_RULE"
+      ]
+    },
+    {
+      "check": "116_source_statements",
+      "pass": true,
+      "detail": 116
+    },
+    {
+      "check": "381_source_events",
+      "pass": true,
+      "detail": 381
+    },
+    {
+      "check": "142_source_loci",
+      "pass": true,
+      "detail": 142
+    },
+    {
+      "check": "395_source_astro_groups",
+      "pass": true,
+      "detail": 395
+    },
+    {
+      "check": "14_source_modules",
+      "pass": true,
+      "detail": 14
+    },
+    {
+      "check": "776_context_rows",
+      "pass": true,
+      "detail": 776
+    },
+    {
+      "check": "unified_serial_exact",
+      "pass": true,
+      "detail": "ordered identity"
+    },
+    {
+      "check": "source_context_preserved",
+      "pass": true,
+      "detail": "all original columns byte-values equal"
+    },
+    {
+      "check": "one_dossier_each",
+      "pass": true,
+      "detail": {
+        "D1_ROOT_BATH_RIGHT_WHEEL": 173,
+        "D2_CLEAR_EXTRACT_STAR_ATLAS": 144,
+        "D3_STORED_APPLICATION_THREE_WHEELS": 225,
+        "D4_FRESH_PLANT_LEFT_WHEEL": 234
+      }
+    },
+    {
+      "check": "phase_counts",
+      "pass": true,
+      "detail": {
+        "WHAT": 100,
+        "HOW": 281,
+        "WHEN": 395
+      }
+    },
+    {
+      "check": "all_ten_pages",
+      "pass": true,
+      "detail": [
+        "f10r",
+        "f11r",
+        "f55v",
+        "f56r",
+        "f81v",
+        "f82r",
+        "f83r",
+        "f67r2",
+        "f68r1",
+        "f69v"
+      ]
+    },
+    {
+      "check": "ten_page_rows",
+      "pass": true,
+      "detail": 10
+    },
+    {
+      "check": "all_pages_used",
+      "pass": true,
+      "detail": "all used"
+    },
+    {
+      "check": "dossier_statement_sum",
+      "pass": true,
+      "detail": 116
+    },
+    {
+      "check": "dossier_event_sum",
+      "pass": true,
+      "detail": 381
+    },
+    {
+      "check": "dossier_locus_sum",
+      "pass": true,
+      "detail": 142
+    },
+    {
+      "check": "dossier_astro_group_sum",
+      "pass": true,
+      "detail": 395
+    },
+    {
+      "check": "dossier_total_group_sum",
+      "pass": true,
+      "detail": 776
+    },
+    {
+      "check": "25_unit_steps",
+      "pass": true,
+      "detail": 25
+    },
+    {
+      "check": "step_source_units_unique",
+      "pass": true,
+      "detail": 25
+    },
+    {
+      "check": "18_manual_rules",
+      "pass": true,
+      "detail": 18
+    },
+    {
+      "check": "rule_ids",
+      "pass": true,
+      "detail": [
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R05",
+        "R06",
+        "R07",
+        "R08",
+        "R09",
+        "R10",
+        "R11",
+        "R12",
+        "R13",
+        "R14",
+        "R15",
+        "R16",
+        "R17",
+        "R18"
+      ]
+    },
+    {
+      "check": "INTEGRATED_WORKSHOP_CASEBOOK_REPORT.md_explicit_scenario_caveat",
+      "pass": true,
+      "detail": "caveat present"
+    },
+    {
+      "check": "INTEGRATED_WORKSHOP_CASEBOOK_REPORT.md_no_sealed_page",
+      "pass": true,
+      "detail": "sealed pages absent"
+    },
+    {
+      "check": "MASTER_WORKSHOP_MANUAL.md_explicit_scenario_caveat",
+      "pass": true,
+      "detail": "caveat present"
+    },
+    {
+      "check": "MASTER_WORKSHOP_MANUAL.md_no_sealed_page",
+      "pass": true,
+      "detail": "sealed pages absent"
+    },
+    {
+      "check": "FOUR_COMPLETE_WORKSHOP_CASES.md_explicit_scenario_caveat",
+      "pass": true,
+      "detail": "caveat present"
+    },
+    {
+      "check": "FOUR_COMPLETE_WORKSHOP_CASES.md_no_sealed_page",
+      "pass": true,
+      "detail": "sealed pages absent"
+    },
+    {
+      "check": "no_sealed_tokens_anywhere",
+      "pass": true,
+      "detail": "none"
+    },
+    {
+      "check": "deterministic_rebuild",
+      "pass": true,
+      "detail": {
+        "before": {
+          "FOUR_WORKSHOP_DOSSIERS.tsv": "f52e1f44bd081276987d48febf58286dd25b67a601d8d75486e0ded0127c4fe0",
+          "WORKFLOW_STEPS.tsv": "a08e04f6cf0ee0536a4429b66c573de26df4da2bb8574bb0bf0fc2c1ab968264",
+          "TEN_PAGE_USAGE_MAP.tsv": "5375156fdaf2cfd6f31dcd0dfc84d565ad8eba7b9750945571b8863e5c5596cb",
+          "TEN_PAGE_776_CASE_CONTEXT.tsv": "76226f9b7956896e97af87efc172a80bc0a0e348ab98de4f274792180219fe80",
+          "MASTER_WORKSHOP_MANUAL.md": "a5ba4fc4779de4b7da6c2a13bb11d681bbf4397e39f9af943b933da232d4c3c7",
+          "FOUR_COMPLETE_WORKSHOP_CASES.md": "cfeca3f82f9bbc4e74463fd5241b7acd0486186fd39190cac5c6c3b683a5eb18",
+          "INTEGRATED_WORKSHOP_CASEBOOK_REPORT.md": "9a6681565e77c15462227c0966fe074a263b84c6cd8e222f61a961c1ff84e18e",
+          "WORKSHOP_RULES.tsv": "6bc66f9f2f3fdb7d57849f8fc386e4c2688f478a1c2e07966a69e57760623cca"
+        },
+        "after": {
+          "FOUR_WORKSHOP_DOSSIERS.tsv": "f52e1f44bd081276987d48febf58286dd25b67a601d8d75486e0ded0127c4fe0",
+          "WORKFLOW_STEPS.tsv": "a08e04f6cf0ee0536a4429b66c573de26df4da2bb8574bb0bf0fc2c1ab968264",
+          "TEN_PAGE_USAGE_MAP.tsv": "5375156fdaf2cfd6f31dcd0dfc84d565ad8eba7b9750945571b8863e5c5596cb",
+          "TEN_PAGE_776_CASE_CONTEXT.tsv": "76226f9b7956896e97af87efc172a80bc0a0e348ab98de4f274792180219fe80",
+          "MASTER_WORKSHOP_MANUAL.md": "a5ba4fc4779de4b7da6c2a13bb11d681bbf4397e39f9af943b933da232d4c3c7",
+          "FOUR_COMPLETE_WORKSHOP_CASES.md": "cfeca3f82f9bbc4e74463fd5241b7acd0486186fd39190cac5c6c3b683a5eb18",
+          "INTEGRATED_WORKSHOP_CASEBOOK_REPORT.md": "9a6681565e77c15462227c0966fe074a263b84c6cd8e222f61a961c1ff84e18e",
+          "WORKSHOP_RULES.tsv": "6bc66f9f2f3fdb7d57849f8fc386e4c2688f478a1c2e07966a69e57760623cca"
+        }
+      }
+    }
+  ],
+  "counts": {
+    "dossiers": 4,
+    "records": 11,
+    "statements": 116,
+    "prose_events": 381,
+    "astro_modules": 14,
+    "astro_loci": 142,
+    "astro_groups": 395,
+    "unified_groups": 776,
+    "pages": 10
+  }
+}
