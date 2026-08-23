@@ -3776,6 +3776,24 @@ current 173-card dictionary, 381-event Prose edition, 395-group Astro edition,
 readable ten-page edition, report, builder and validator. Next demand concrete
 within-ten-page composition predictions from the current stem/process theory.
 
+## Active hundred-seventy-sixth rare-card prediction
+
+The mixed brevigraph/nomenclator model now predicts the rarest prose cards.
+Among 143 cards with at most two events, 124 cards (140 events) are fully built
+from atoms independently present in other cards. Eleven cards have a readable
+frame plus a memorized inner body, and only eight are pure whole-card signs.
+
+The practical teaching burden is therefore 29 productive atoms plus a
+nineteen-card exception deck, not 173 unrelated words. Ten showcase rare cards
+are reconstructed compositionally, including OK+AR, OK+AL+Y, SOLK+AIIN,
+CKH+AL and OK+EEE+CLOSE.
+
+Files are in `sidequest_semantic_rare_card_prediction_hundred_seventy_sixth/`:
+complete 143-card prediction table, 29-atom support, nineteen-card exception
+deck, ten showcase predictions, apprentice deck, report, builder and validator.
+Next order the nineteen exceptions as a historically plausible mini-
+nomenclator and decide which are objects, operations, states or links.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
