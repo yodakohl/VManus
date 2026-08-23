@@ -6816,6 +6816,17 @@ Next, use this inventory to write, rerender and read back a fresh miniature
 workshop passage. This is an internal generative consistency exercise, not a
 new manuscript page or corpus.
 
+Pass 205 performs that exercise. Six internally composed fields use 32 cards:
+25 productive and seven learned whole cards. A second hand changes 25 visible
+forms to registered allographs, while dictionary readback preserves all 32
+card identities and values. All five field modes occur. The readable two-hand
+text is
+`sidequest_semantic_apprentice_roundtrip_two_hundred_fifth/TWO_HUNDRED_FIFTH_READABLE_WORKSHOP_TEXT.md`.
+
+Next, classify every composition in this miniature as directly attested,
+attested-component recombination or overfree invention against the real fixed
+ten-page inventory.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
