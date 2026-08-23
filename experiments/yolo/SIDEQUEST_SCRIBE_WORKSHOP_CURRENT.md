@@ -7478,8 +7478,16 @@ The pass also preserves the crucial distinction that `chdy|chedy` is current-Y
 and nonterminal while `lchedy` is a licensed close. See
 `sidequest_semantic_transfer_core_two_hundred_ninety_fifth/TWO_HUNDRED_NINETY_FIFTH_TRANSFER_CORE_MANUAL.md`.
 
-Next, build the complete E/EE/EEE grade table for all 30 grade cards, identify
-every missing cell, and rank only the internally predictable new forms.
+Pass 296 builds the complete E/EE/EEE matrix: 30 cards and 73 events form 20
+families with 27 observed and 33 empty grade cells. One family has all three
+grades and five have two. Only sixteen gaps receive concrete spellings; the
+strongest are `sheeedy`, `okeeey`, `qoteeedy`, `solkeeey` and `sheeckhal`.
+Single-grade families are extended only when a sister family fixes the same
+E-position. See
+`sidequest_semantic_grade_matrix_two_hundred_ninety_sixth/TWO_HUNDRED_NINETY_SIXTH_GRADE_MANUAL.md`.
+
+Next, audit the 36 taught root families and demote any family that does not
+actually predict multiple cards or a stable slot contribution.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
