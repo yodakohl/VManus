@@ -1710,6 +1710,27 @@ lexicon, twelve changes, report, builder and validator. Next propagate these
 twelve plainer values through all fourteen controlled readings and inspect
 which passages become more natural or expose a remaining bad composition.
 
+## Active eighty-second refined controlled edition
+
+The twelve plainer source words have been propagated through all fourteen
+unit readings and the complete 776-group binding. Thirteen units change; the
+small B5 station was already expressed entirely with retained vocabulary.
+
+The main gains are compositional. Herbal now speaks of
+`Auszugsflüssigkeit`, `Trägerstoff`, `Bindestoff` and `Mittel`; Biological
+keeps `Tuch` distinct from the following `Seihgang`; Astro now uses `28er
+Feld`, `Bedingungsfeld`, `Himmelszeichen`, `Wetterzeichen`, `Lichtzeichen`,
+`Zeitzeichen` and `Eigenschaft` instead of modern label/value prose. No card,
+owner, group order or hand profile changes.
+
+Active files are in
+`sidequest_semantic_refined_controlled_rewrite_eighty_second_edition/`, led by
+`EIGHTY_SECOND_COMPLETE_REFINED_TEN_PAGE_EDITION.md`, with fourteen revised
+units, before/after readings, the full 776 binding, report, builder and
+validator. Next test the remaining master-only Herbal substances and purposes
+as a small mutually coherent recipe vocabulary rather than independent slot
+guesses.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
