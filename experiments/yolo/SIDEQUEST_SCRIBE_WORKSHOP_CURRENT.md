@@ -249,6 +249,23 @@ partial, 34 whole and three register splits. Active files are in
 builder and validator. The fluent ten-page wording is unchanged; its written
 derivation is now shorter.
 
+## Active thirteenth complete edition
+
+The remaining 46 partial Astro surfaces are now a finite operational allograph
+deck. Each preserves known cores such as OK activation, OT sequence, HO input,
+AIR course, CHD transfer, CHEO output, CKH passage, CTH ready, KCH work or AIN
+portion beneath a registered scribal shell. The shell is learned by shape; it
+does not receive an independent word meaning.
+
+These forms cover 52 groups. The Astro register now contains no partial card:
+every group is either compositionally readable or an explicitly learned local
+name/value. The active balance is 715 full, 13 partial (all prose) and 48
+learned-whole groups; surface types are 438 full, 12 partial, 34 whole and
+three register splits. Active files are in
+`sidequest_semantic_astro_operation_allographs_thirteenth_edition/`, led by
+the 46-form operation table, complete 487/776/258 layers, pocket codebook,
+report, builder and validator.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
