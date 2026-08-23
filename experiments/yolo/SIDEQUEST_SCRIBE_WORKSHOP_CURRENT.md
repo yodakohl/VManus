@@ -4001,6 +4001,24 @@ the simple next-allograph rule with a third hand that follows observed
 field-initial, medial and final surface preferences while preserving the same
 cards and fields.
 
+## Active hundred-eighty-eighth positional Hand C
+
+Hand C derives 227 card-position preferences from the 381 prose events and
+chooses surfaces by field-initial, medial, final or singleton position. Sixty-
+one of 73 synthetic tokens have exact same-card/same-position support; twelve
+use an explicitly recorded nearest-position fallback.
+
+Sixteen token surfaces across eleven cards change from Hand A. Examples are
+`aiin→daiin` medially/finally, `dal→al` medially, `otal→qotal` medially,
+`chor→or` initially and `cheedy→shedy` finally. Every surface still decodes to
+the exact original card, and all fields, values, slots and closes are preserved.
+
+Files are in `sidequest_semantic_positional_third_hand_hundred_eighty_eighth/`:
+227 preferences, 73-token rendering, eighteen fields, twelve fallbacks,
+eleven-card change map, readable Hand-C edition, report, builder and validator.
+Next compress the 227 preferences into a few teachable hand rules and measure
+how many of Hand C's sixteen changes those rules explain.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
