@@ -2818,6 +2818,26 @@ eight drawers, the complete 173-card dictionary, 381-event dictionary, 116
 card chains, builder and validator. Next reconstruct one complete practical
 instruction from each drawer and compare how the drawer functions differ.
 
+## Active hundred-thirtieth drawer exemplars
+
+Each specialist drawer now has one complete practical instruction. The most
+readable examples are H3-S001 as a wring–hold–re-strain–clear-run sequence,
+B2-S004 as a passage–transfer–exposure–separation sequence, B3-S034 as a
+stage–part–next-measure–target–settle sequence, and B4-S004 as the one-card
+instruction to set a visible application and fasten it.
+
+The drawers therefore have different workshop jobs: material/product, passage
+and separation, achieved state, source-to-target transfer, quantity/stage,
+sequence carry, application/storage, and rare local operation. Eight complete
+examples cover 44 visible events without creating new cross-card roots.
+
+Active files are in
+`sidequest_semantic_drawer_exemplars_hundred_thirtieth/`, led by
+`HUNDRED_THIRTIETH_EIGHT_COMPLETE_INSTRUCTIONS.md`, with the eight exact
+exemplar rows, function comparison, report, builder and validator. Next build
+an eleven-record drawer profile to compare the working architecture of Herbal
+articles and Biological cells.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
