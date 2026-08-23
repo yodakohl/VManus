@@ -552,6 +552,27 @@ Active files are in
 tables at event and clause level, a 116-statement index, report, builder and
 validator. This is the current spoken-idiom layer of the apprentice system.
 
+## Active twenty-ninth four-scribe idiom copybook
+
+Each of the seventeen recurrent event idioms now has one real source
+occurrence copied by the four teaching hands. The resulting 68 copies preserve
+the same Exact-Tuple sequence and spoken meaning while q-, s-, bare and compact
+registered surfaces vary. Fifteen of seventeen idioms receive at least two
+different visible spellings; only two remain graphically invariant in the four
+profiles.
+
+The copybook also teaches eight concrete errors to avoid: treating q or s as a
+word, closing at every line, reading every dy as an endpoint, splitting a
+learned whole, exporting E/EE grade freely, missing an owner reset or learning
+an entire phrase as though it were one card. The master correction always
+returns to owner, exact card, bounded composition and then renderer.
+
+Active files are in
+`sidequest_semantic_scribe_idiom_copybook_twenty_ninth_edition/`, led by
+`TWENTY_NINTH_FOUR_SCRIBE_IDIOM_COPYBOOK.md`, with the 68-copy table,
+17-idiom summary, eight-error sheet, report, builder and validator. This is the
+most concrete current explanation for multiple workshop hands.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
