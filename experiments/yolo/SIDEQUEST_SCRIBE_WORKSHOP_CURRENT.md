@@ -328,6 +328,22 @@ register splits. Active files are in
 six-surface paradigm, complete 487/776/258 layers, pocket codebook, report,
 builder and validator.
 
+## Active eighteenth complete edition
+
+Three further Astro-local bodies are now active: `IIR` index, `OP` pair or
+counter-field, and `K` class. They combine with fixed/base/main/secondary,
+source, grade, continuation, state and current modifiers across eleven
+surfaces. Two over-specific old glosses are also repaired: OFYDY is simply
+O+Y+DY hold the current base value, not a light term, and TOCHSO is the
+secondary base state of a phase from known primitives.
+
+Seven groups newly leave the whole deck. The active balance is 758 full, zero
+partial and 18 learned-whole groups; surface types are 475 full, nine whole
+and three register splits. Active files are in
+`sidequest_semantic_index_pair_class_eighteenth_edition/`, led by the
+eleven-surface paradigm, complete 487/776/258 layers, pocket codebook, report,
+builder and validator.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
