@@ -6999,8 +6999,15 @@ f10r reads as compact preparation/value prose; f83r as a local station program,
 without a global flow claim. See
 `sidequest_semantic_minimal_connective_passages_two_hundred_twenty_eighth/TWO_HUNDRED_TWENTY_EIGHTH_TWO_READABLE_PASSAGES.md`.
 
-Next, assign concrete functions to the first three f83r visual stations and
-read every card at each owner back against that function.
+Pass 229 assigns concrete functions to the first three f83r visual stations and
+reads all 35 owned cards back against them: 10 cards at a Sammel-/Temperierstelle,
+9 at an Übergabe-/Haltegefäß, and 16 at a Portions-/Absetzgefäß. E263 remains the
+last lower-station Abzug; E264 is correctly excluded after the visible owner
+break. See
+`sidequest_semantic_f83r_station_functions_two_hundred_twenty_ninth/TWO_HUNDRED_TWENTY_NINTH_THREE_READABLE_STATIONS.md`.
+
+Next, trace every exact card from these three stations across all its other
+owners, separating portable action values from f83r-only station expansions.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
