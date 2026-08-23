@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "checks": {
+    "twenty_nine_tokens": true,
+    "thirteen_plus_sixteen": true,
+    "twenty_four_card_union": true,
+    "exact_three_card_overlap": true,
+    "six_slots": true,
+    "every_token_has_one_slot": true,
+    "both_exercises_use_all_slots": true,
+    "four_registers": true,
+    "nine_fields": true,
+    "field_sequences_rebuild": true,
+    "nine_state_traces": true,
+    "loop_and_branch_present": true,
+    "no_new_semantic_cards": true,
+    "sealed_absent": true
+  },
+  "grammar": "G1 context -> G2 selection -> G3 condition -> G4 operation / G5 target -> G6 commit",
+  "note": "G4 and G5 may exchange order when a learned action card already carries its target relation."
+}

@@ -1,0 +1,7 @@
+slot_id	slot_name_de	workshop_question_de	minimal_rule_de	may_repeat	may_be_omitted
+G1	QUELLE_UND_KONTEXT	Welcher Ansatz oder Vorrat ist aktiv?	Besitzer, Verwahrort oder vorigen Ansatz aufnehmen.	YES	YES_IF_INHERITED
+G2	AUSWAHL_MASS_UND_TEILUNG	Welche Menge oder Teilcharge wird bearbeitet?	Posten waehlen, messen, teilen oder den ersten/zweiten Anteil binden.	YES	YES_IF_WHOLE_BATCH
+G3	ZUSTAND_WERKZEUG_UND_STATION	Wie oder worin wird der Posten vorbereitet?	Temperatur, Einlage, Gefaess oder Verwahrstation setzen.	YES	YES
+G4	VORGANG_UND_KONTAKT	Was geschieht mit dem aktiven Posten?	Ueberfuehren, halten, durchlassen oder einwirken lassen.	YES_AS_PASS_LOOP	NO_FOR_EXECUTION_FIELD
+G5	ZIEL_UND_REIHENFOLGE	Wohin oder zu welchem Folgeposten geht der Vorgang?	Zielstelle setzen oder zum naechsten Posten/Ziel wechseln.	YES	YES_IF_TARGET_INHERITED
+G6	FREIGABE_WASCHUNG_UND_ABSCHLUSS	Ist der Teilschritt fertig und wie wird er beendet?	Bereitschaft, Waschschluss oder sonstigen Feldabschluss setzen.	NO_WITHIN_FIELD	YES_IF_CLOSE_EMBEDDED_IN_G4

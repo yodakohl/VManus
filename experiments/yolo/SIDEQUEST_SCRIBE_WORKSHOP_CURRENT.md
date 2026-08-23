@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-23, after the f11r material-class assignment.
+Updated: 2026-08-23, after the third-scribe shared-grammar pass.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -3843,6 +3843,27 @@ Files are in `sidequest_semantic_second_forward_writing_hundred_seventy_ninth/`:
 sixteen-token encoding, four fields, six ambiguity entries, complete roundtrip,
 report, builder and validator. Next derive the smallest shared grammar that a
 third scribe needs to read both new instructions.
+
+## Active hundred-eightieth third-scribe grammar
+
+The two independently composed workshop instructions now reduce to one small
+typed workflow grammar despite sharing only three cards. Their 29 tokens and
+24 distinct cards fill six recurring slots: source/context, selection/measure,
+condition/station, operation/contact, target/order and release/close. Both
+instructions use all six.
+
+Four persistent registers are sufficient: active batch, active portion,
+active target and active tool/station. A repeated one-card pass is a loop; a
+division creates first- and second-portion branches. Operation and target can
+exchange visible order when a learned card already carries its target relation.
+This is substantially simpler than memorizing each of the nine generated
+fields as a phrase.
+
+Files are in `sidequest_semantic_third_scribe_grammar_hundred_eightieth/`:
+29-token slot parse, six-slot grammar, four-register table, nine field and state
+traces, apprentice manual, report, builder and validator. Next pressure-test
+the same six slots against all 116 existing prose statements and add a seventh
+slot only if a real statement cannot be expressed without it.
 
 ## Active surface compiler
 
