@@ -3347,6 +3347,27 @@ validator. Next make the 81 Biological local cards equally atomic, using their
 station and complete-clause function to choose one short operation, state,
 path or address value each.
 
+## Active hundred-fifty-fifth atomic Biological nomenclator
+
+All 81 local Biological card types covering 85 events now have one short
+learned station value. Representative cards are `Zieltransfer`,
+`Quellabführung`, `Langsammlung`, `Waschgang`, `Quelltransfer`, `Zieleinsatz`,
+`Klarabzug`, `Laufeinsatz`, `Waschschluss`, `Quellausguss`, `Langhalt`,
+`Kurzabzug`, `Trennabzug` and `Volleinsatz`.
+
+Together with R154, all 126 local nomenclator types are atomic. The other 47
+cards remain the productive shared deck. This is the clearest realization so
+far of the desired mixed technical script: common prompts and operators plus
+memorized workshop whole words, with surface rendering applied only after
+card choice. No dotted singleton pseudo-etymology remains.
+
+Files are in
+`sidequest_semantic_bio_atomic_nomenclator_hundred_fifty_fifth/`: complete
+81-card old/new audit, 173-card dictionary, 381-event edition, 97 Biological
+clauses, six continuous records, readable book, report, builder and validator.
+Next rebuild the complete eleven-record and ten-page editions from this 47+126
+dictionary and recount how much generic role scaffolding is still needed.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
