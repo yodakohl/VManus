@@ -2709,6 +2709,28 @@ Active files are in
 builder and validator. Next compress R116-R124 into a small master codebook an
 apprentice could actually carry and use.
 
+## Active hundred-twenty-fifth apprentice master codebook
+
+The portable system now fits into six short teaching pages and an eight-day
+curriculum. The apprentice learns visible ownership, seventeen shared cards,
+Herbal article order, Biological cell order, two bracket formulas, one of four
+surface habits, line versus closure, and correction against the master. Rare
+section cards remain exemplar copies rather than guessed compositions.
+
+The pocket rule is: select the semantic master card, order it in the local
+register, apply a bracket if needed, inherit the visible owner, render through
+the hand habit, close only at a licensed cell end, then read back to the master
+cards. The twelve R123 dictations and their visible answers are printed as the
+final exercise page.
+
+Active files are in
+`sidequest_semantic_apprentice_master_codebook_hundred_twenty_fifth/`, led by
+`HUNDRED_TWENTY_FIFTH_APPRENTICE_MASTER_CODEBOOK.md`, with the seventeen-card
+teaching sheet, four-hand table, eight templates, twelve exercises, eight-day
+curriculum, report, builder and validator. Next audit the seventeen short
+German meanings in their full contexts and replace any value that makes the
+continuous command sequences less natural than a concrete rival.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
