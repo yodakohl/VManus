@@ -2436,6 +2436,28 @@ ordered predictions, all 116 order-annotated statements, builder and validator.
 Next inspect the seven open sequences against the 230-surface renderer inventory
 and derive the exact visible forms each workshop hand would most likely write.
 
+## Active hundred-thirteenth open-formula renderer
+
+The seven open R112 formulae now have 28 concrete visible renderings: one for
+each of the master, q-entry, s-flow and short hands. Every individual surface is
+already registered in the fixed ten-page inventory; only the multi-card order
+is new, and card identity plus atomic program remain unchanged.
+
+For example, “bring this item to the target at prescribed measure” is
+`chey aiin al` in the master hand, `shy saiin sal` in the s-flow hand and
+`y aiin al` in the short hand. “Continue the next step, settle briefly and
+close” is `otol cheol cheedy`, `otol qol cheedy`, `otol sol shedy` or
+`otol ol tedy`. These are now exact visible predictions of the workshop model,
+not newly fitted translations.
+
+Active files are in
+`sidequest_semantic_open_formula_renderer_hundred_thirteenth_edition/`, led by
+`HUNDRED_THIRTEENTH_OPEN_FORMULA_RENDERER_REPORT.md` and
+`HUNDRED_THIRTEENTH_PARALLEL_PREDICTED_FORMS.md`, with seven programs, 28
+renderings, builder and validator. Next examine the 46 specialist/learned cards
+in the pocket dictionary and group them into the smallest useful subject
+tablets without forcing false stems.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
