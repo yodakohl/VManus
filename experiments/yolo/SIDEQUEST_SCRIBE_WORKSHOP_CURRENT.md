@@ -7181,8 +7181,16 @@ and AL+OL are absent; AR+OR and AL+OL are the best candidates for hidden
 compositions, while double-address AR+AL is probably written as two cards. See
 `sidequest_semantic_relation_algebra_two_hundred_fifty_fifth/TWO_HUNDRED_FIFTY_FIFTH_READABLE_COMBINATION_LESSON.md`.
 
-Next, search the memorized whole-card inventory for candidates matching the
-four missing combinations, using full contexts rather than spelling alone.
+Pass 256 finds functional substitutes for all four missing pairs in the
+learned whole-sign inventory. SSHKCHDY=ÜBERTRAGEN blocks AR+AL,
+LKEDY=WEITERABZUG blocks AR+OL, SCHOAL=SUDANSATZ blocks AR+OR and
+SOTODAN=FOLGEANWENDUNG blocks AL+OL. This yields the desired mixed system:
+productive relation abbreviations plus a small nomenclator of routinized
+technical operations. See
+`sidequest_semantic_lexical_blocking_two_hundred_fifty_sixth/TWO_HUNDRED_FIFTY_SIXTH_READABLE_MIXED_CODEBOOK.md`.
+
+Next, integrate the four lexical blockers and the recomposed OT+OL+Y formula
+into the full 173-card dictionary and rewrite every affected statement.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
