@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-23, after grouping all instructions into work modules.
+Updated: 2026-08-23, after resolving the local variant-selector grammar.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -19,7 +19,47 @@ Exactly ten pages are in scope:
 `f84` and `f84r` remain sealed. ZL3b, IT2a and RF1b are alternate readings of
 one manuscript. No additional page, image or semantic corpus was admitted.
 
-## Active work-module edition
+## Active variant-selector edition
+
+The thirteen local variant modules now have an executable apprentice rule:
+
+```text
+VISIBLE OWNER
+  + optional MATERIAL / MEASURE / SOURCE / TARGET / ORDER cards
+  + learned TERMINAL PROGRAM CARD
+```
+
+Their 66 entries contain 183 events. Sixty-four entries end in one of 28 exact
+program cards; 34 consist of the program card alone and 30 place 109 argument
+events before it. Two record-final entries instead use record layout to release
+the described state. The selected menu has eleven axes: contact/follow grade
+(18), transfer/continuation (14), settling (11), outflow/withdrawal (8),
+straining (4), apparatus configuration (3), washing (2), collection (2),
+record release (2), heating (1) and swivelling (1).
+
+Five exact cards cover 32/64 terminal programs: `qokeedy` = longer set (8),
+the exact `shedy|tedy` card = settle (9), `qokedy` = short set (7), `lchedy` =
+outflow (5), and `shckhedy` = strain (3). Thus short variant cells call a
+memorized routine directly, while long cells fill its arguments first.
+
+This removes five old position-derived words. Three identical `qokedy` cells
+now all simply say “set briefly”; none means FIRST or NEXT. Two identical
+`shckhedy` cells both say “strain”; the second card does not itself mean AGAIN.
+The same repair removes unsupported NEXT from B1-S021 and PREVIOUS from
+B2-S009. Repetition inside one cell remains valid when a card is visibly
+repeated there.
+
+All 173 card defaults and 381 event readings remain unchanged. Active files
+are in `sidequest_semantic_variant_selector_completion/`, led by
+`VARIANT_SELECTOR_REPORT.md`, `VARIANT_SELECTOR_REGISTER.tsv`,
+`PROGRAM_CARD_DECK.tsv`, `SELECTOR_AXIS_LEXICON.tsv`,
+`MODULE_SELECTOR_SUMMARY.tsv`,
+`SELECTED_173_VARIANT_SELECTOR_DICTIONARY.tsv`,
+`SELECTED_381_VARIANT_SELECTOR_INTERLINEAR.tsv`,
+`SELECTED_116_VARIANT_SELECTOR_SENTENCES.tsv`, and
+`SELECTED_11_VARIANT_SELECTOR_RECORDS.md`.
+
+## Previous work-module edition
 
 The 116 prose instructions now form 37 practical modules rather than one
 assumed chronological run per record:
