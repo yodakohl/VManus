@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-23, after adding a bounded grade/current/endpoint modifier lattice.
+Updated: 2026-08-23, after publishing a complete speakable three-page Astro edition.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -157,6 +157,26 @@ untranslated local status until another contrast gives it one stable job.
 Active files are in `sidequest_semantic_modifier_lattice/`, led by
 `MODIFIER_LATTICE_REPORT.md`, the revised 53-form Astro dictionary, eight
 modifier decisions, five E-grade family pairs, builder and validator.
+
+## Active speakable Astro edition
+
+All 395 visible Astro groups now form 142 owner-addressed spoken entries: 74
+on `f67r2`, 37 on `f68r1`, and 31 on `f69v`. Twenty-nine groups use the new
+bound modifier lattice, 31 additional groups use multi-core compositions, 89
+carry an exact prose surface, and 246 remain learned local Astro words. Thus
+the edition does not pretend that every diagram label is decomposed, but it
+does pronounce every visible group.
+
+The current whole-page readings are: `f67r2` as a coupled two-wheel celestial
+choice table; `f68r1` as a multi-panel atlas with 28 addressable star stations;
+and `f69v` as three separate condition wheels, with a local 28-place inventory
+on the left. Source/target/value/stage/next/continue/course are shared grammar;
+the learned local word and image owner supply the specific star, sector,
+condition, or table value.
+
+Active files are in `sidequest_semantic_speakable_astro_edition/`, led by
+`THREE_SPEAKABLE_ASTRO_PAGES.md`, complete 395-group and 142-locus editions,
+page summary, compact report, builder and validator.
 
 ## Active exception anatomy
 
