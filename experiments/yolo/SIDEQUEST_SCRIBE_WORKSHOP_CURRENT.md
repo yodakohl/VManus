@@ -6784,6 +6784,26 @@ corrector. Preserve independence until each role freezes its result.
 
 ## Current boundary
 
+## Current compact prose vocabulary (pass 203)
+
+The working prose dictionary now has 173 exact cards and 172 short German
+values. Ten accidental synonym pairs were split by constructional function;
+the sole remaining duplicate is the deliberate CHD/CHED allomorph pair
+`okchedy` / `qokchdy` = `einführen; Schluss`. Every value is at most three
+words. The refinements propagate through all 381 visible events and 116
+statements.
+
+The current files are:
+
+- `sidequest_semantic_vocabulary_granularity_two_hundred_third/TWO_HUNDRED_THIRD_173_CARD_COMPACT_DICTIONARY.tsv`;
+- `sidequest_semantic_vocabulary_granularity_two_hundred_third/TWO_HUNDRED_THIRD_381_EVENT_COMPACT_EDITION.tsv`;
+- `sidequest_semantic_vocabulary_granularity_two_hundred_third/TWO_HUNDRED_THIRD_116_STATEMENT_COMPACT_EDITION.tsv`;
+- `sidequest_semantic_vocabulary_granularity_two_hundred_third/TWO_HUNDRED_THIRD_VOCABULARY_REPORT.md`.
+
+Next, convert this near-injective vocabulary into a one-sheet apprentice
+dictionary organized as productive components versus learned whole cards, with
+one composition rule and one actual fixed-page example per entry.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
