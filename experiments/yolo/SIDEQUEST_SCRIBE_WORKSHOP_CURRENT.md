@@ -3684,6 +3684,24 @@ Files are in
 full recipe, report, builder and validator. Next assign f55v/H4 a distinct
 product class; it must not collapse into a redundant copy of f11r.
 
+## Active hundred-seventy-first f55v stock article
+
+f55v/H4 is now the **stored two-part plant stock** article. It measures a
+prepared source extract, separates first and second portions, cools and stores
+them, then later withdraws a prescribed portion and inserts it into a following
+preparation. This makes all eighteen events one compact inventory instruction.
+
+The role is deliberately distinct from f11r: f11r produces a clarified wash
+from raw herb, while f55v manages and reuses an already prepared plant stock.
+An ointment or poultice base is the strongest rival, but fat, wax and a dressing
+are not independently named, so the broader stock costs less invention.
+
+Files are in
+`sidequest_semantic_f55v_stock_concentrate_hundred_seventy_first/`: four
+product classes, five product clues, all eighteen event expansions, historical
+comparators, complete readable article, report, builder and validator. Next
+give f10r and f56r nonredundant workshop jobs so all four Herbal owners differ.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
