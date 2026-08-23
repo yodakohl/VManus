@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-23, after composing the 28 terminal program cards.
+Updated: 2026-08-23, after closing the complete 37-card terminal deck.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -19,7 +19,43 @@ Exactly ten pages are in scope:
 `f84` and `f84r` remain sealed. ZL3b, IT2a and RF1b are alternate readings of
 one manuscript. No additional page, image or semantic corpus was admitted.
 
-## Active program-composition edition
+## Active complete terminal-deck edition
+
+All terminal commands in the eleven prose records are now covered. The eleven
+closed instructions outside the local variant menus contain nine additional
+exact card types. Five join the component grammar and four remain learned
+specialist commands. The complete inventory is:
+
+```text
+89 closed instructions
+37 exact terminal card types
+
+25 productive types     76 occurrences
+ 4 partial types          5 occurrences
+ 8 memorized whole types  8 occurrences
+```
+
+Only two elements are added to the previous fifteen-part kit: `LSH` =
+wash/rinse, supported by an open `lsho` base plus two terminal `lshedy` calls;
+and `EEE` = complete/full, the third licensed grade in
+`qokedy : qokeedy : qokeeedy`. `sheedy` is `SHED+EE+CLOSE`, while
+`okchedy/qokchedy` and `dchdy` extend the CHD~CHED transfer grid.
+
+Four new commands remain whole: `tchody` cool, `ody` cool, `cheeckhody`
+apply, and `dshedy` add fresh water. Together with `sshkchdy`, `rshedy`,
+`lkedy` and `qokylddy`, they form an eight-card memorized nomenclator layer.
+This prevents attractive but damaging splits such as reading `dshedy` as the
+productive SHED settling core or `cheeckhody` as CKHE straining.
+
+No card, event or continuous instruction changed. Active files are in
+`sidequest_semantic_complete_terminal_deck/`, led by
+`COMPLETE_TERMINAL_DECK_REPORT.md`, `COMPLETE_TERMINAL_CARD_DECK.tsv`,
+`COMPLETE_TERMINAL_COMPONENT_LEXICON.tsv`,
+`COMPLETE_TERMINAL_FAMILY_GRID.tsv`,
+`ELEVEN_REMAINING_TERMINAL_INSTRUCTIONS.tsv`, the complete 173-/381-/116-/11
+edition, builder and validator.
+
+## Previous program-composition edition
 
 The 28 exact terminal cards used by the local variant modules now form a
 small mixed workshop vocabulary rather than 28 unrelated sentence-sized

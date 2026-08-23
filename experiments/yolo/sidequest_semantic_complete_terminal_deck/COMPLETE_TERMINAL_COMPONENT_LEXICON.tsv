@@ -1,0 +1,18 @@
+component_id	component_type	value_de	terminal_card_types	terminal_occurrences	terminal_cards	teaching_rule_de
+CORE_OK	OPERATION	Arbeitsgang ansetzen	6	25	okchedy|qokchedy|qokeedy|qokedy|qokchdy|qokeeedy|qokshedy	Setzt den folgenden Kern oder Posten in den laufenden Arbeitsgang.
+CORE_CHED	OPERATION	umsetzen	11	27	okchedy|qokchedy|schedy|dchedy|tchedy|qolchedy|olchedy|dalchdy|qotchedy|otchedy|otchdy|pchedy|qokchdy|dchdy|lchedy|lochedy	CHD~CHED führt einen Posten in die nächste Arbeitsposition.
+CORE_SHED	OPERATION	absetzen	4	15	sheedy|shedy|tedy|solshedy|qokshedy	Lässt den aktuellen Posten ruhen oder sich absetzen.
+CORE_CKHE	OPERATION	seihen	2	4	lcheckhedy|shckhedy	Führt den Posten durch einen Durchlass oder Seihweg.
+CORE_CHK	OPERATION	wärmen	1	1	chkeedy	Markiert den lokalen Wärmegang; nicht mit CKHE verwechseln.
+CORE_OLK	OPERATION	sammeln	1	3	olkeedy	Hält oder sammelt den Posten an der lokalen Sammelstelle.
+DIR_L	DIRECTION	nach außen	4	12	ldy|lcheckhedy|lchedy|lochedy	Macht aus CHED/CKHE einen Auswärts-, Ablass- oder Abseihgang.
+DIR_P	DIRECTION	nach innen	1	1	pchedy	Führt CHED zum lokalen Empfänger oder in die Arbeitsstelle.
+TARGET_AL	ADDRESS	zur Zielstelle	2	2	dalchdy|daldy	Bindet den Arbeitsgang an die bezeichnete Stelle.
+ORDER_OL	ORDER	weiter	3	6	oldy|qolchedy|olchedy|solshedy	Setzt denselben Arbeitsgang oder Vorposten fort.
+ORDER_OT	ORDER	danach	4	7	qotchedy|otchedy|otchdy|otedy|qoteedy	Wählt die folgende lokale Ausführung.
+MEDIUM_AIR	MEDIUM	Wasserlauf	1	1	dairydy	Bezeichnet in dieser Ausgabe den laufenden Flüssigkeitsweg.
+GRADE_E	GRADE	kurz	2	10	qokedy|otedy	Kurzer oder direkter Kontakt-/Folgegrad in lizenzierten Reihen.
+GRADE_EE	GRADE	länger	5	17	sheedy|olkeedy|qokeedy|chkeedy|qoteedy	Anhaltender Kontakt-/Folgegrad in lizenzierten Reihen.
+CLOSE_EXACT	ENDPOINT	Zelle schließen	37	89	sheedy|ldy|okchedy|qokchedy|oldy|schedy|dchedy|tchedy|qolchedy|olchedy|dalchdy|tchody|lshedy|olkeedy|qotchedy|otchedy|sshkchdy|otchdy|pchedy|daldy|qokeedy|qokedy|rshedy|qokchdy|dairydy|cheeckhody|ody|chkeedy|lkedy|shedy|tedy|lcheckhedy|otedy|dshedy|dchdy|qokeeedy|shckhedy|solshedy|qokshedy|lchedy|qokylddy|lochedy|qoteedy	Formale Rolle der ganzen exakten Karte; kein global abtrennbares DY-Suffix.
+CORE_LSH	OPERATION	waschen oder spülen	1	2	lshedy	Offene Grundkarte LSHO und terminale LSHEDY-Karte bilden eine begrenzte Waschreihe.
+GRADE_EEE	GRADE	vollständig	1	1	qokeeedy	Oberer Vollgrad ausschließlich in der lizenzierten OK-Reihe.
