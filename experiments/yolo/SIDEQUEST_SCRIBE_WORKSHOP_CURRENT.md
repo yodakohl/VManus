@@ -7195,8 +7195,15 @@ OT+OL+Y triple. The full outputs retain 173 cards, 381 events and 116 readable
 statements. See
 `sidequest_semantic_mixed_codebook_edition_two_hundred_fifty_seventh/TWO_HUNDRED_FIFTY_SEVENTH_FIVE_REWRITTEN_PASSAGES.md`.
 
-Next, compress the edition into one teachable deck: productive components,
-partly compositional cards and the genuinely memorized whole signs.
+Pass 258 compresses the edition into a 53-entry apprentice deck: thirty
+productive components and 23 learned whole signs. Of 173 cards, 118 are fully
+productive, 32 combine a productive frame with a local core and 23 are whole
+signs; the corresponding event split is 194/159/28. Thus 353/381 events carry
+visible compositional help. See
+`sidequest_semantic_minimum_apprentice_deck_two_hundred_fifty_eighth/TWO_HUNDRED_FIFTY_EIGHTH_READABLE_APPRENTICE_MANUAL.md`.
+
+Next, reverse the direction and make the apprentice generate card sequences
+from concrete workshop instructions using only the 53-entry deck.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
