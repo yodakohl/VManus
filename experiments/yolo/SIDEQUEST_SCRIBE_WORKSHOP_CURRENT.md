@@ -3497,6 +3497,27 @@ customs, complete 251-event trace, eleven record summaries, apprentice card,
 report, builder and validator. Next inspect the 42 residual choices in event
 order and teach only genuine short hand-switch runs.
 
+## Active hundred-sixty-second renderer switch blocks
+
+Only three genuine ordered blocks survive inside the 42 residual habit choices:
+H4 writes `Ansatz → dies` as one bare pair; B1 retains `qol` for two later
+continuations; and B3 carries `shcthy` across two successive loci before
+returning to its ch form. These six events raise habit reproduction to 215 of
+251 and exact visible-form reproduction to 193.
+
+The other 36 choices are scattered or internally inconsistent. They remain
+exact registered exemplar spellings rather than receiving artificial new
+rules. Renderer expansion therefore stops at nine positional preferences,
+thirteen recurrent customs, three short switch blocks and a bounded 36-token
+copy tail. Every shared event still recovers its master card exactly.
+
+Files are in
+`sidequest_semantic_renderer_switch_blocks_hundred_sixty_second/`: three switch
+blocks, complete 251-event trace, 36 local exemplar spellings, eleven record
+summaries, report, builder and validator. Next return to content and write one
+complete master-day workflow across one Herbal article and one Biological
+station sequence without renderer commentary inside the translation.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
