@@ -7054,8 +7054,15 @@ AIR, IIN, CKH, LSH and RESULT. Two forms remain partially composed, while five
 events use four local whole cards: `dl`, `ls`, `ly`, and `ches`. See
 `sidequest_semantic_f81_f82_curriculum_transfer_two_hundred_thirty_sixth/TWO_HUNDRED_THIRTY_SIXTH_READABLE_CURRICULUM_TRANSFER.md`.
 
-Next, add the six existing specialist components as lesson two, then read the
-remaining seven events as the smallest Biological exemplar lexicon.
+Pass 237 adds those six specialist components and resolves the last seven
+events with six short whole signs: `sshkchdy = schwenken; Schluss`, `ytey =
+füllen`, `dl = Badzusatz`, `ls = Düse`, `ly = Auffangschale`, and `ches =
+gleichteilen`. All 128 events now have concrete teachable values: 108 base, 13
+specialist-composed, 7 whole-sign occurrences. See
+`sidequest_semantic_biological_second_lesson_two_hundred_thirty_seventh/TWO_HUNDRED_THIRTY_SEVENTH_READABLE_SECOND_LESSON.md`.
+
+Next, classify the six whole signs by their sentence slots and predict which
+kind of card can occupy each slot without predicting its exact surface.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
