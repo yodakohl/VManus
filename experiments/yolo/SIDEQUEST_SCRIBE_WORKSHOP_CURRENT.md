@@ -7299,9 +7299,17 @@ FOLGEPOSTEN: prose expands it as “danach/nächster Arbeitsschritt”, diagrams
 occurrences/groups. See
 `sidequest_semantic_astro_ot_transition_two_hundred_seventy_second/TWO_HUNDRED_SEVENTY_SECOND_READABLE_OT_LESSON.md`.
 
-Next, split the large local Astro Y inventory into genuine current-item endings,
-terminal constructions and accidental/internal y, rather than assigning Y by
-raw final spelling alone.
+Pass 273 prevents raw final-y oversegmentation. Among 107 local Astro groups,
+33 license Y securely after an operation/relation or explicit current reading,
+23 are the narrow E/EE/EEE+Y grade family, 40 are indivisible DY fixed endings
+and eleven are local whole signs. The secure cross-register Y channel contains
+177 uses, or 200 including graded candidates; 51 final-y groups explicitly do
+not count as portable Y. See
+`sidequest_semantic_astro_y_boundary_two_hundred_seventy_third/TWO_HUNDRED_SEVENTY_THIRD_READABLE_Y_LESSON.md`.
+
+Next, consolidate all newly parsed Astro components into a revised apprentice
+deck and count how much of the 395-group diagram inventory is now genuinely
+composed rather than copied as a local whole sign.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
