@@ -1,0 +1,55 @@
+{
+  "checks": {
+    "adjacent_edges_105": true,
+    "all_events_module_agree": true,
+    "all_statements_one_module": true,
+    "cards_173": true,
+    "cross_owner_handoffs_5": true,
+    "dictionary_values_unchanged": true,
+    "event_values_unchanged": true,
+    "events_381": true,
+    "explicit_handoffs_19": true,
+    "fixed_pages_only": true,
+    "module_boundaries_26": true,
+    "module_event_counts_381": true,
+    "module_statement_counts_116": true,
+    "modules_37": true,
+    "owner_break_statements_exact": true,
+    "parallel_editorial_edges_60": true,
+    "records_11": true,
+    "same_owner_handoffs_14": true,
+    "sealed_absent": true,
+    "sentence_readings_unchanged": true,
+    "sentences_116": true
+  },
+  "counts": {
+    "adjacent_statement_edges": 105,
+    "cards": 173,
+    "edge_classes": {
+      "EXPLICIT_HANDOFF_CROSS_OWNER": 5,
+      "EXPLICIT_HANDOFF_SAME_OWNER": 14,
+      "NEW_MODULE_BOUNDARY_OWNER_CHANGE": 1,
+      "NEW_MODULE_BOUNDARY_SAME_OWNER": 25,
+      "PARALLEL_OR_EDITORIAL_WITHIN_MODULE": 60
+    },
+    "events": 381,
+    "module_types": {
+      "CONTINUOUS_MATERIAL_CHAIN": 7,
+      "CROSS_STATION_HANDOFF": 5,
+      "LOCAL_ROUTINE_WITH_HANDOFF": 3,
+      "LOCAL_STATION_VARIANTS": 13,
+      "OWNER_BREAK_COMPOSITE": 4,
+      "SELF_CONTAINED_ROUTINE": 5
+    },
+    "modules": 37,
+    "owner_break_statements": 4,
+    "records": 11,
+    "sentences": 116
+  },
+  "sealed": {
+    "f84": true,
+    "f84r": true
+  },
+  "status": "PASS",
+  "working_rule": "OPEN HANDOFFS SEQUENCE; CLOSED CELLS MAY BE PARALLEL VARIANTS; OWNER CHANGE STARTS A NEW STATION"
+}

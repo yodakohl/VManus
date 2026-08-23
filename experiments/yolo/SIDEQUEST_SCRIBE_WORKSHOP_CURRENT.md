@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-23, after resolving all open work-cell handoffs.
+Updated: 2026-08-23, after grouping all instructions into work modules.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -19,7 +19,48 @@ Exactly ten pages are in scope:
 `f84` and `f84r` remain sealed. ZL3b, IT2a and RF1b are alternate readings of
 one manuscript. No additional page, image or semantic corpus was admitted.
 
-## Active handoff-resolution edition
+## Active work-module edition
+
+The 116 prose instructions now form 37 practical modules rather than one
+assumed chronological run per record:
+
+```text
+ 7  continuous material chains
+13  local station-variant sets
+ 3  local routines with one explicit handoff
+ 5  handoffs between distinct picture stations
+ 4  composite instructions crossing a picture-owner break
+ 5  self-contained routines
+```
+
+The decisive rule is that a committed work cell completes a local entry but
+does not automatically make the following cell its next temporal step. Across
+the eleven records there are 105 adjacent instruction edges: only 19 are
+explicit open handoffs and therefore sequential; 60 are parallel, optional or
+editorial neighbours inside a module; 26 begin a new module. Fourteen of the
+19 handoffs retain the same visible owner, while five move a named material or
+apparatus state to a new station.
+
+This turns the Herbal records into nine compact preparation/application
+modules and the Biological records into 28 station modules. B1 is a shared
+pool with several selectable programs; B2 and B3 contain local basin, vessel,
+gap and arch routines; B4 has separate main-pair, left-fringe and right-node
+programs; B5 and B6 are independent station addenda. Five cross-station
+handoffs are textual workshop order, not evidence for hidden pipes. B2-S012,
+B3-S016, B3-S026 and B4-S015 remain explicit owner-break composites with no
+invented visible connection.
+
+The 173 card defaults, 381 event readings and 116 instruction readings remain
+unchanged. Active files are in
+`sidequest_semantic_work_module_completion/`, led by
+`WORK_MODULE_REPORT.md`, `WORK_MODULE_REGISTER.tsv`,
+`STATEMENT_RELATION_REGISTER.tsv`,
+`SELECTED_173_WORK_MODULE_DICTIONARY.tsv`,
+`SELECTED_381_WORK_MODULE_INTERLINEAR.tsv`,
+`SELECTED_116_WORK_MODULE_SENTENCES.tsv`, and
+`SELECTED_11_WORK_MODULE_RECORDS.md`.
+
+## Previous handoff-resolution edition
 
 All 19 open work-cell edges now name what the next instruction inherits:
 
