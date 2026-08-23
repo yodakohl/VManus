@@ -2458,6 +2458,28 @@ renderings, builder and validator. Next examine the 46 specialist/learned cards
 in the pocket dictionary and group them into the smallest useful subject
 tablets without forcing false stems.
 
+## Active hundred-fourteenth specialist tablets
+
+The 46 specialist/learned cards are now organized into five small apprentice
+tablets rather than an undifferentiated exception list: twelve Herbal-material
+cards, eleven extract/filter/vessel cards, eleven settle/collect cards, nine
+wash/apply/transfer cards and three rare local-value cards. Together they cover
+69 fixed occurrences.
+
+Each card remains a registered whole. The apprentice recites its short atomic
+default and practices it beside a familiar core cue; immediate left and right
+cue summaries are supplied for every card. Thus the teaching system is now 70
+portable core cards, 57 bridge cards and five bounded tablets containing 46
+special cards—not 173 isolated words and not a universally productive alphabet.
+
+Active files are in
+`sidequest_semantic_specialist_tablets_hundred_fourteenth_edition/`, led by
+`HUNDRED_FOURTEENTH_SPECIALIST_TABLET_REPORT.md` and
+`HUNDRED_FOURTEENTH_APPRENTICE_SPECIALIST_TABLETS.md`, with all 46 assignments,
+five tablet summaries, builder and validator. Next inspect the 57 bridge cards
+and distinguish genuinely reusable cross-section grammar from coincidental
+atom combinations.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
