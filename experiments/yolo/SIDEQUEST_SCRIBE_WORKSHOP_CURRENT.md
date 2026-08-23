@@ -3721,6 +3721,24 @@ historical article comparators, readable four-article edition, report, builder
 and validator. Next map the four products to the six Biological records using
 shared exact cards and visible station functions.
 
+## Active hundred-seventy-third Herbal-to-Bio supply map
+
+The four Herbal products now supply all six Biological records: f10r foundation
+extract to B1; f11r clear wash to B2; f55v stored stock to B3; f11r carrier plus
+f56r active additive to B4; f55v remainder to B5; and f56r cold final
+application to B6.
+
+All seven selected product-station links have at least one exact shared card.
+The complete 4x6 matrix and all 97 Bio clauses are covered without changing a
+dictionary value. These are workshop supply links, not visible manuscript
+cross-references.
+
+Files are in
+`sidequest_semantic_herbal_to_bio_supply_map_hundred_seventy_third/`: complete
+24-cell bridge matrix, six-record supply plan, 97-clause supplied edition,
+readable map, report, builder and validator. Next assign the three Astro pages
+distinct timing/selection jobs without inventing a cross-page f68-f69 key.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
