@@ -1,0 +1,819 @@
+# Lesbare geschichtete Zehn-Seiten-Ausgabe
+
+Legende: `[KERN]` ist eine ganze portable Karte; `[ACHSE]` eine lokale Prosakarte mit gemeinsamem Bauteil; `[PROSA]` eine Prosaachse; `[GANZKARTE]` ein gelerntes lokales Wort; `[ASTRO-HOMOGRAPH]` nur gleiche Oberfläche; `[EXEMPLAR]` lokales Diagrammetikett.
+
+## H1 — WHOLE_BROAD_TOOTHED_RADIAL_FLOWERED_HERB
+
+- **H1-S001** `dchey cthoor char chty os chair otytchol oky daiin etyd`
+  - Karten: [GANZKARTE:Wurzel] [ACHSE:OR+CTH→Vorbereitung] [KERN:davon] [PROSA:Teil] [GANZKARTE:Aufnahmegefäß] [PROSA:Zuguss] [ACHSE:OL+OT+TY→Folgeteil] [KERN:einsetzen] [KERN:Sollwert] [PROSA:kleiner Rest]
+  - Besitzerlesung: Die Wurzel der Bildpflanze nehmen, einen Teil im Aufnahmegefäß vorbereiten, Flüssigkeit zugießen, den Folgeteil einsetzen, auf Sollmaß bringen und einen kleinen Rest belassen.
+- **H1-S002** `qokchy qotchol chol cthy`
+  - Karten: [ACHSE:OK+Y→weiterbearbeiten] [ACHSE:OL+OT→Folgegang] [KERN:weiter] [ACHSE:Y+CTH→bereit]
+  - Besitzerlesung: Die erste Charge weiterbearbeiten, im Folgegang weiterführen und als bereit halten.
+
+## H2 — WHOLE_BROAD_TOOTHED_RADIAL_FLOWERED_HERB
+
+- **H2-S001** `ycheor cthy chor cthaiin qoctholy dy chy taiin shy`
+  - Karten: [ACHSE:Y+OR+CHEO→Auszugsansatz] [ACHSE:Y+CTH→bereit] [KERN:Ansatz] [ACHSE:AIIN+CTH→Sollvorbereitung] [ACHSE:OL+Y+CTH→bereiter Folgeposten] [KERN:dies] [KERN:dies] [KERN:Sollwert] [KERN:dies]
+  - Besitzerlesung: Aus dem bereiten Auszugsansatz die nächste Charge ansetzen, den bereiten Folgeposten wählen und diesen auf Sollmaß bringen.
+- **H2-S002** `qotchor chor otol chol cholor chol daiin dar`
+  - Karten: [ACHSE:OT+OR→Folgeansatz] [KERN:Ansatz] [ACHSE:OL+OT→Fortgang] [KERN:weiter] [KERN:derselbe Ansatz] [KERN:weiter] [KERN:Sollwert] [KERN:davon]
+  - Besitzerlesung: Den Folgeansatz und denselben aktiven Ansatz weiterführen, davon eine Sollmenge nehmen und die Folge beibehalten.
+- **H2-S003** `oykchor shor chor chy kaiiin dy chodaiin`
+  - Karten: [GANZKARTE:Zubereitungsgefäß] [KERN:Ansatz] [KERN:Ansatz] [KERN:dies] [PROSA:Bearbeitungsstufe] [KERN:dies] [ACHSE:AIIN+HO→Zugabemaß]
+  - Besitzerlesung: Im Zubereitungsgefäß den Ansatz in der Bearbeitungsstufe bearbeiten und die vorgeschriebene Zugabemenge einsetzen.
+
+## H3 — WHOLE_DENSE_BLUE_FLOWERED_CROWN_PLANT
+
+- **H3-S001** `tshol schoal cfhy shfydaiin cphy shey tchody`
+  - Karten: [PROSA:Kochgut] [ACHSE:AL+HO→Sudansatz] [GANZKARTE:auswringen] [ACHSE:AIIN→Stehzeit] [GANZKARTE:nachseihen] [KERN:Freigabewert] [GANZKARTE:kalt stellen; Schluss]
+  - Besitzerlesung: Das Kochgut in einem Sud ansetzen, auswringen, eine Stehzeit abwarten, nachseihen, den Klarlauf abnehmen und kalt stellen; Schluss.
+- **H3-S002** `shoyty`
+  - Karten: [ACHSE:Y+HO+TY→Zugabeteil]
+  - Besitzerlesung: Den weiteren Zugabeteil bereitlegen.
+- **H3-S003** `dchol chy kchy dy daiin`
+  - Karten: [GANZKARTE:vom vorigen] [KERN:dies] [ACHSE:Y→Bearbeiten] [KERN:dies] [KERN:Sollwert]
+  - Besitzerlesung: Vom vorigen Ansatz diesen Posten weiterbearbeiten und auf Sollmaß bringen.
+- **H3-S004** `qotchy okchol cthy dy`
+  - Karten: [ACHSE:OT+Y→nächster Posten] [ACHSE:OK+OL→weiter einsetzen] [ACHSE:Y+CTH→bereit] [KERN:dies]
+  - Besitzerlesung: Zum nächsten Posten wechseln, ihn weiter einsetzen, Bereitschaft prüfen und als aktuellen Posten halten.
+
+## H4 — WHOLE_BROAD_LEAF_PANICLED_PLANT_WITH_MNEMONIC_ROOT
+
+- **H4-S001** `qokaiin chaiin ykain ykan ody`
+  - Karten: [ACHSE:OK+AIIN→bemessen] [KERN:Sollwert] [ACHSE:Y+AIN→erste Portion] [ACHSE:Y+AIN→zweite Portion] [GANZKARTE:abkühlen; Schluss]
+  - Besitzerlesung: Den Ansatz bemessen, auf Sollmaß in eine erste und zweite Portion teilen und abkühlen lassen; Schluss.
+- **H4-S002** `daiin chedy talam`
+  - Karten: [KERN:Sollwert] [KERN:überführen] [ACHSE:AL→Verwahrort]
+  - Besitzerlesung: Die Sollmenge überführen und am Verwahrort ablegen.
+- **H4-S003** `ykaiin cheoar cheeky oldy`
+  - Karten: [ACHSE:AIIN+Y→Sollportion] [ACHSE:AR+CHEO→Quellauszug] [ACHSE:Y+EE+CHK→länger bearbeiten] [KERN:fertig]
+  - Besitzerlesung: Eine Sollportion aus dem Quellauszug nehmen, länger bearbeiten und fertigstellen.
+- **H4-S004** `aiin okal oltchy or y orain`
+  - Karten: [KERN:Sollwert] [KERN:dorthin einsetzen] [ACHSE:OL+Y+CTH→Folgebereitung] [KERN:Ansatz] [KERN:dies] [ACHSE:OR+AIN→Bereitungsanteil]
+  - Besitzerlesung: Das Sollmaß am Ziel einsetzen und aus diesem Ansatz mit dem Bereitungsanteil die Folgezubereitung bilden.
+
+## H5 — WHOLE_MULTIHEAD_SPINY_OR_EMBLEMATIC_HERB
+
+- **H5-S001** `chochor cho chodaly daiin sho kchol otchor choky dal`
+  - Karten: [ACHSE:OR+HO→Zugabeansatz] [PROSA:weitere Zutat] [ACHSE:AL+Y+HO→Zielzugabe] [KERN:Sollwert] [PROSA:weitere Zutat] [ACHSE:OL→weiter bearbeiten] [ACHSE:OT+OR→Folgeansatz] [KERN:einsetzen] [KERN:dorthin]
+  - Besitzerlesung: Einen Zugabeansatz herstellen, die weitere Zutat als Zielzugabe auf Sollmaß bringen, den Folgeansatz weiter bearbeiten, einsetzen und dorthin führen.
+- **H5-S002** `schol choy choky cheeckhody`
+  - Karten: [GANZKARTE:vom vorigen] [ACHSE:Y+HO→Zugabeposten] [KERN:einsetzen] [GANZKARTE:auftragen; Schluss]
+  - Besitzerlesung: Vom vorigen Ansatz den Zugabeposten nehmen, einsetzen und an der Zielstelle auftragen; Schluss.
+- **H5-S003** `sh cho kchey qokokchy`
+  - Karten: [GANZKARTE:Stängel] [PROSA:weitere Zutat] [ACHSE:Y+E→Kurzbearbeitung] [ACHSE:OK+Y→erneut einsetzen]
+  - Besitzerlesung: Den Stängel und eine weitere Zutat kurz bearbeiten und erneut einsetzen.
+- **H5-S004** `okchy chokcheo kchal`
+  - Karten: [ACHSE:OK+Y→weiterbearbeiten] [ACHSE:OK+CHEO→Auszug einsetzen] [ACHSE:AL→Zielbearbeitung]
+  - Besitzerlesung: Weiterbearbeiten, den Auszug einsetzen und an der Zielstelle verteilen.
+- **H5-S005** `sho chokchy kchoar sotodan`
+  - Karten: [PROSA:weitere Zutat] [ACHSE:OK+Y→weiterbearbeiten] [ACHSE:AR+CHEO→bearbeiteter Quellauszug] [ACHSE:OT→Folgeanwendung]
+  - Besitzerlesung: Eine weitere Zutat mit dem bearbeiteten Quellauszug weiterbearbeiten und die Folgeanwendung ausführen.
+- **H5-S006** `otchey keol daiin`
+  - Karten: [KERN:das nächste] [ACHSE:OL+E→kurz weiterbearbeiten] [KERN:Sollwert]
+  - Besitzerlesung: Zum nächsten Posten wechseln, kurz weiterbearbeiten und auf Sollmaß bringen.
+
+## B1 — gemeinsames zweireihiges Figuren-/Beckenfeld
+
+- **B1-S001** `qokedy`
+  - Karten: [ACHSE:OK+DY+E→kurz einwirken; Schluss]
+  - Besitzerlesung: Kurz einwirken lassen; Schluss.
+- **B1-S002** `okaiin kair okal sar ol kain olkain al ol rol dl olor ol sheckhal daiin qokeedal daiin chckhy schedy`
+  - Karten: [ACHSE:OK+AIIN→bemessen] [PROSA:Beckenlauf] [KERN:dorthin einsetzen] [KERN:davon] [KERN:weiter] [PROSA:Portion] [ACHSE:OL+AIN→weiterer Anteil] [KERN:dorthin] [KERN:weiter] [ACHSE:OL→Anschluss] [GANZKARTE:Zusatz] [KERN:derselbe Ansatz] [KERN:weiter] [ACHSE:AL+E+CKH→Kurze Zielpassage] [KERN:Sollwert] [ACHSE:OK+AL+EE→Langer Zieleinsatz] [KERN:Sollwert] [ACHSE:Y+CKH→durchleiten] [ACHSE:CHED~CHD→überführen; Schluss]
+  - Besitzerlesung: Eine Portion ansetzen, den Posten lang einwirken lassen und über den Fortsetzungsweg weitergeben.
+- **B1-S003** `qol sshkchdy`
+  - Karten: [KERN:weiter] [GANZKARTE:Haltetransfer; Schluss]
+  - Besitzerlesung: Weiterführen und haltend übertragen; Schluss.
+- **B1-S004** `chedy ol shedy`
+  - Karten: [KERN:überführen] [KERN:weiter] [ACHSE:DY+E+SHED→kurz absetzen; Schluss]
+  - Besitzerlesung: Überführen, weiterführen und kurz absetzen lassen; Schluss.
+- **B1-S005** `qolchedy`
+  - Karten: [ACHSE:OL+DY+CHED~CHD→weiterführen; Schluss]
+  - Besitzerlesung: Weiterführen; Schluss.
+- **B1-S006** `qokain shckhy dl ral`
+  - Karten: [PROSA:Anteil zugeben] [ACHSE:Y+CKH→durchleiten] [GANZKARTE:Zusatz] [ACHSE:AL→Zielmarke]
+  - Besitzerlesung: Einen Anteil zugeben, durchleiten und den Zusatz an der Zielmarke halten.
+- **B1-S007** `qokchdy`
+  - Karten: [ACHSE:CHED~CHD→einführen; Schluss]
+  - Besitzerlesung: In die offene Zielstelle einführen; Schluss.
+- **B1-S008** `chey ol cheky ol shedy`
+  - Karten: [KERN:dies] [KERN:weiter] [ACHSE:Y+E+CHK→kurz wärmen] [KERN:weiter] [ACHSE:DY+E+SHED→kurz absetzen; Schluss]
+  - Besitzerlesung: Diesen Posten weiterführen, kurz wärmen, nochmals weiterführen und kurz absetzen lassen; Schluss.
+- **B1-S009** `qokedy`
+  - Karten: [ACHSE:OK+DY+E→kurz einwirken; Schluss]
+  - Besitzerlesung: Kurz einwirken lassen; Schluss.
+- **B1-S010** `qokedy`
+  - Karten: [ACHSE:OK+DY+E→kurz einwirken; Schluss]
+  - Besitzerlesung: Kurz einwirken lassen; Schluss.
+- **B1-S011** `chckhy qoky`
+  - Karten: [ACHSE:Y+CKH→durchleiten] [KERN:einsetzen]
+  - Besitzerlesung: Durch den verbundenen Gang leiten und einsetzen.
+- **B1-S012** `lsho qokey lshedy`
+  - Karten: [PROSA:Waschgang] [ACHSE:OK+Y+E→kurz einwirken] [ACHSE:DY+LSH→Waschgang; Schluss]
+  - Besitzerlesung: Waschen, kurz einwirken lassen und nochmals waschen; Schluss.
+- **B1-S013** `lshedy`
+  - Karten: [ACHSE:DY+LSH→Waschgang; Schluss]
+  - Besitzerlesung: Einen Waschgang ausführen; Schluss.
+- **B1-S014** `chedy qolky lchedal qol otar`
+  - Karten: [KERN:überführen] [ACHSE:OL→Weiterweg] [ACHSE:AL+CHED~CHD+L→Zielabführung] [KERN:weiter] [ACHSE:OT+AR→Folgequelle]
+  - Besitzerlesung: Überführen, über den Weiterweg an der Zielstelle abführen und zur Folgequelle weitergehen.
+- **B1-S015** `ytey okchedy`
+  - Karten: [GANZKARTE:Kurzteil] [ACHSE:CHED~CHD→einführen; Schluss]
+  - Besitzerlesung: Den kurzen Teil aus der eben gesetzten Quelle einführen; Schluss.
+- **B1-S016** `qokal okeey qol cheedy`
+  - Karten: [KERN:dorthin einsetzen] [ACHSE:OK+Y+EE→lange einwirken] [KERN:weiter] [ACHSE:DY+E+SHED→kurz absetzen; Schluss]
+  - Besitzerlesung: Am Ziel einsetzen, länger einwirken lassen, weiterführen und kurz absetzen lassen; Schluss.
+- **B1-S017** `sal teol dchdy`
+  - Karten: [KERN:dorthin] [ACHSE:OL+E→kurz weiterführen] [ACHSE:CHED~CHD→Transfer; Schluss]
+  - Besitzerlesung: Dorthin bringen, kurz weiterführen und übertragen; Schluss.
+- **B1-S018** `ly dsheol oiiin olkeedy`
+  - Karten: [GANZKARTE:Auffanggefäß] [ACHSE:OL+E→Kurzhalt] [PROSA:Arbeitsstufe] [PROSA:lange sammeln; Schluss]
+  - Besitzerlesung: Im Auffanggefäß kurz halten, die Arbeitsstufe setzen und länger auffangen; Schluss.
+- **B1-S019** `tedy`
+  - Karten: [ACHSE:DY+E+SHED→kurz absetzen; Schluss]
+  - Besitzerlesung: Kurz absetzen lassen; Schluss.
+- **B1-S020** `cheky shckhedy`
+  - Karten: [ACHSE:Y+E+CHK→kurz wärmen] [PROSA:durchlassen; Schluss]
+  - Besitzerlesung: Kurz wärmen und durchlassen; Schluss.
+- **B1-S021** `chal`
+  - Karten: [KERN:dorthin]
+  - Besitzerlesung: Dorthin bringen.
+
+## B2 — obere Paarbecken-/Zylinderstation
+
+- **B2-S001** `dchedy`
+  - Karten: [ACHSE:CHED~CHD→überführen; Schluss]
+  - Besitzerlesung: In die obere Paarbeckenstation überführen; Schluss.
+- **B2-S002** `qolchedy`
+  - Karten: [ACHSE:OL+DY+CHED~CHD→weiterführen; Schluss]
+  - Besitzerlesung: Durch die obere Station weiterführen; Schluss.
+- **B2-S003** `qokain dy qokeedy`
+  - Karten: [PROSA:Anteil zugeben] [KERN:dies] [ACHSE:OK+DY+EE→lange einwirken; Schluss]
+  - Besitzerlesung: Einen Anteil zugeben, diesen Posten länger einwirken lassen; Schluss.
+- **B2-S004** `qokal lcheckhy lched qokeey lcheckhedy`
+  - Karten: [KERN:dorthin einsetzen] [ACHSE:Y+L+CKH→Abführpassage] [ACHSE:CHED~CHD+L→Abführung] [ACHSE:OK+Y+EE→lange einwirken] [PROSA:Trennabzug; Schluss]
+  - Besitzerlesung: Am Ziel einsetzen, durch die Abführpassage führen, abführen, länger einwirken lassen und getrennt abziehen; Schluss.
+- **B2-S005** `qokaly solkaiin chckhy qokaiin qokaiin octheol chkeey ldy`
+  - Karten: [ACHSE:OK+AL+Y→Zieleinsatz] [ACHSE:AIIN+SOLK→Sollsammlung] [ACHSE:Y+CKH→durchleiten] [ACHSE:OK+AIIN→bemessen] [ACHSE:OK+AIIN→bemessen] [ACHSE:OL+CTH→Fortsetzung vorbereiten] [ACHSE:Y+EE+CHK→Langwärmen] [ACHSE:DY+L→abziehen; Schluss]
+  - Besitzerlesung: Am Ziel einsetzen, bis zum Soll sammeln, durchleiten, am Zeilenübergang einmal bemessen, die Fortsetzung vorbereiten, länger wärmen und abziehen; Schluss.
+- **B2-S006** `oteey qokal sheckhy qoky`
+  - Karten: [ACHSE:OT+Y+EE→Langfolge] [KERN:dorthin einsetzen] [ACHSE:Y+E+CKH→Kurzpassage] [KERN:einsetzen]
+  - Besitzerlesung: Die lange Folge ausführen, dorthin einsetzen, durch die kurze Passage führen und einsetzen.
+- **B2-S007** `dshedy`
+  - Karten: [GANZKARTE:Frischwasser zugeben; Schluss]
+  - Besitzerlesung: An der mittleren linken Knotenstation Frischwasser zugeben; Schluss.
+- **B2-S008** `sotaiin qokar shedy`
+  - Karten: [ACHSE:OT+AIIN→Folgemaß] [ACHSE:OK+AR→Quelleinsatz] [ACHSE:DY+E+SHED→kurz absetzen; Schluss]
+  - Besitzerlesung: Das Folgemaß aus der Quelle einsetzen und kurz absetzen lassen; Schluss.
+- **B2-S009** `solshedy`
+  - Karten: [ACHSE:OL+SHED→Folgeabsetzen; Schluss]
+  - Besitzerlesung: Den Folgeposten absetzen lassen; Schluss.
+- **B2-S010** `qokeey qoky ls cheey`
+  - Karten: [ACHSE:OK+Y+EE→lange einwirken] [KERN:einsetzen] [PROSA:Auslass] [KERN:Freigabewert]
+  - Besitzerlesung: Länger einwirken lassen, einsetzen und den klaren Auszug zum Auslass führen.
+- **B2-S011** `okain char okain qokeedy`
+  - Karten: [PROSA:Anteil zugeben] [KERN:davon] [PROSA:Anteil zugeben] [ACHSE:OK+DY+EE→lange einwirken; Schluss]
+  - Besitzerlesung: An der mittleren rechten Station einen Anteil zugeben, davon einen weiteren Anteil nehmen und länger einwirken lassen; Schluss.
+- **B2-S012** `lchy cheey qcthey qokeey lcheey daiin chey qokeeedy`
+  - Karten: [ACHSE:Y+L→Abführgut] [KERN:Freigabewert] [ACHSE:Y+E+CTH→kurz vorbereiten] [ACHSE:OK+Y+EE→lange einwirken] [PROSA:Klarabzug] [KERN:Sollwert] [KERN:dies] [ACHSE:OK+DY+EEE→Volleinsatz; Schluss]
+  - Besitzerlesung: Das Abführgut als klaren Auszug kurz vorbereiten, länger einwirken lassen, klar abziehen, auf Sollmaß bringen und den aktuellen Posten vollständig einsetzen; Schluss.
+- **B2-S013** `lchedy`
+  - Karten: [ACHSE:CHED~CHD+L→abführen; Schluss]
+  - Besitzerlesung: In das untere grüne Mehrfigurenfeld abführen; Schluss.
+- **B2-S014** `lar`
+  - Karten: [ACHSE:AR+L→Quellabzug]
+  - Besitzerlesung: Aus der Quelle abziehen.
+- **B2-S015** `tshey qokeedy`
+  - Karten: [LOKAL:Folgeklarlauf] [ACHSE:OK+DY+EE→lange einwirken; Schluss]
+  - Besitzerlesung: An der lokalen Randstation den Folgeklarlauf länger einwirken lassen; Schluss.
+- **B2-S016** `cheal lchedar ches aiin oteey qokaiin okey pchedy`
+  - Karten: [KERN:dorthin] [ACHSE:AR+CHED~CHD+L→Quellabführung] [GANZKARTE:teilen] [KERN:Sollwert] [ACHSE:OT+Y+EE→Langfolge] [ACHSE:OK+AIIN→bemessen] [ACHSE:OK+Y+E→kurz einwirken] [ACHSE:CHED~CHD+P→Zuführung; Schluss]
+  - Besitzerlesung: Dorthin führen, aus der Quelle abführen, teilen, auf Sollmaß bringen, die lange Folge bemessen, kurz einwirken lassen und zuführen; Schluss.
+- **B2-S017** `rsheal daldy`
+  - Karten: [ACHSE:AL+E→Kurzhalt am Ziel] [ACHSE:AL+DY→Zielschluss]
+  - Besitzerlesung: Am Ziel kurz halten und den Zielschritt schließen.
+- **B2-S018** `qokeedy`
+  - Karten: [ACHSE:OK+DY+EE→lange einwirken; Schluss]
+  - Besitzerlesung: Länger einwirken lassen; Schluss.
+- **B2-S019** `rshedy`
+  - Karten: [GANZKARTE:Vollwaschung; Schluss]
+  - Besitzerlesung: Eine Vollwaschung ausführen; Schluss.
+- **B2-S020** `qoteedy`
+  - Karten: [ACHSE:OT+EE→lange Folgestufe; Schluss]
+  - Besitzerlesung: Die folgende Stufe länger halten; Schluss.
+- **B2-S021** `qokeedy`
+  - Karten: [ACHSE:OK+DY+EE→lange einwirken; Schluss]
+  - Besitzerlesung: Länger einwirken lassen; Schluss.
+- **B2-S022** `lochedy`
+  - Karten: [ACHSE:DY+CHED~CHD+L→Abführung; Schluss]
+  - Besitzerlesung: Abführen; Schluss.
+
+## B3 — obere offene Fächer-Randstation
+
+- **B3-S001** `olkeedy`
+  - Karten: [PROSA:lange sammeln; Schluss]
+  - Besitzerlesung: An der oberen offenen Randstation länger auffangen; Schluss.
+- **B3-S002** `qotal chkeedy`
+  - Karten: [ACHSE:OT+AL→danach dorthin] [ACHSE:DY+EE+CHK→Langwärmen; Schluss]
+  - Besitzerlesung: Danach zur nächsten Stelle führen und dort länger erwärmen; Schluss.
+- **B3-S003** `chey daiin chey lchedy`
+  - Karten: [KERN:dies] [KERN:Sollwert] [KERN:dies] [ACHSE:CHED~CHD+L→abführen; Schluss]
+  - Besitzerlesung: Diesen Posten auf Sollmaß bringen und abführen; Schluss.
+- **B3-S004** `qokaiin qotal dar`
+  - Karten: [ACHSE:OK+AIIN→bemessen] [ACHSE:OT+AL→danach dorthin] [KERN:davon]
+  - Besitzerlesung: Davon eine Menge abmessen und zur folgenden Stelle bringen.
+- **B3-S005** `schedy`
+  - Karten: [ACHSE:CHED~CHD→überführen; Schluss]
+  - Besitzerlesung: In die mittlere runde Randstation überführen; Schluss.
+- **B3-S006** `chedchy qokal olchedy`
+  - Karten: [ACHSE:Y+CHED~CHD→Postentransfer] [KERN:dorthin einsetzen] [ACHSE:OL+DY+CHED~CHD→weiterführen; Schluss]
+  - Besitzerlesung: Den Posten übertragen, am Ziel einsetzen und weiterführen; Schluss.
+- **B3-S007** `qokaiin chedy qokeedy`
+  - Karten: [ACHSE:OK+AIIN→bemessen] [KERN:überführen] [ACHSE:OK+DY+EE→lange einwirken; Schluss]
+  - Besitzerlesung: Bemessen, überführen und länger einwirken lassen; Schluss.
+- **B3-S008** `lchedy`
+  - Karten: [ACHSE:CHED~CHD+L→abführen; Schluss]
+  - Besitzerlesung: Aus der Station abführen; Schluss.
+- **B3-S009** `qoky`
+  - Karten: [KERN:einsetzen]
+  - Besitzerlesung: Den Posten einsetzen.
+- **B3-S010** `pchedal otedy`
+  - Karten: [ACHSE:AL+CHED~CHD+P→Zielzuführung] [ACHSE:OT+E→Kurzfolge; Schluss]
+  - Besitzerlesung: Der unteren korbartigen Randstation zuführen und kurz weiterführen; Schluss.
+- **B3-S011** `shecthedchy qoky chedy chary`
+  - Karten: [ACHSE:Y+CHED~CHD+CTH→Vorbereitungstransfer] [KERN:einsetzen] [KERN:überführen] [ACHSE:AR+Y→Quellposten]
+  - Besitzerlesung: Die Vorbereitung übertragen, einsetzen, weiterführen und beim Quellposten belassen.
+- **B3-S012** `sor shedy`
+  - Karten: [KERN:Ansatz] [ACHSE:DY+E+SHED→kurz absetzen; Schluss]
+  - Besitzerlesung: Den Ansatz kurz absetzen lassen; Schluss.
+- **B3-S013** `qokaiin chkain shcthey qokedy`
+  - Karten: [ACHSE:OK+AIIN→bemessen] [PROSA:Portion] [ACHSE:Y+E+CTH→kurz vorbereiten] [ACHSE:OK+DY+E→kurz einwirken; Schluss]
+  - Besitzerlesung: Eine Portion bemessen, kurz vorbereiten und kurz einwirken lassen; Schluss.
+- **B3-S014** `okair sheedy`
+  - Karten: [ACHSE:OK+AIR→Laufeinsatz] [ACHSE:DY+EE+SHED→Langabsetzen; Schluss]
+  - Besitzerlesung: In den Lauf einsetzen und länger absetzen lassen; Schluss.
+- **B3-S015** `lchedy`
+  - Karten: [ACHSE:CHED~CHD+L→abführen; Schluss]
+  - Besitzerlesung: Aus der Station abführen; Schluss.
+- **B3-S016** `lo qokchedy`
+  - Karten: [PROSA:Abzug] [ACHSE:CHED~CHD→einführen; Schluss]
+  - Besitzerlesung: Abziehen und in die nächste Station einführen; Schluss.
+- **B3-S017** `qokeedy`
+  - Karten: [ACHSE:OK+DY+EE→lange einwirken; Schluss]
+  - Besitzerlesung: Länger einwirken lassen; Schluss.
+- **B3-S018** `shedy`
+  - Karten: [ACHSE:DY+E+SHED→kurz absetzen; Schluss]
+  - Besitzerlesung: Kurz absetzen lassen; Schluss.
+- **B3-S019** `qokshedy`
+  - Karten: [ACHSE:OK+SHED→Einsatzabsetzen; Schluss]
+  - Besitzerlesung: Nach dem Einsatz absetzen lassen; Schluss.
+- **B3-S020** `dal lchedy`
+  - Karten: [KERN:dorthin] [ACHSE:CHED~CHD+L→abführen; Schluss]
+  - Besitzerlesung: Dorthin führen und abführen; Schluss.
+- **B3-S021** `qokaiin shcthy dal sy saiin shedal shecthy chey tal shcthy dalchdy`
+  - Karten: [ACHSE:OK+AIIN→bemessen] [ACHSE:Y+CTH→bereit] [KERN:dorthin] [KERN:dies] [KERN:Sollwert] [ACHSE:AL+SHED→am Ziel absetzen] [ACHSE:Y+E+CTH→Kurzvorbereitung] [KERN:dies] [KERN:dorthin] [ACHSE:Y+CTH→bereit] [ACHSE:AL+CHED~CHD→Zieltransfer; Schluss]
+  - Besitzerlesung: Den Posten bemessen und, sobald er bereit ist, dorthin bringen. Für den zweiten Zustand das Sollmaß am Ziel absetzen, kurz vorbereiten, den aktuellen Posten dorthin bringen, die Bereitschaft prüfen und den Zieltransfer schließen.
+- **B3-S022** `qotchedy`
+  - Karten: [ACHSE:OT+DY+CHED~CHD→Folgetransfer; Schluss]
+  - Besitzerlesung: Zur folgenden Station übertragen; Schluss.
+- **B3-S023** `lchedy`
+  - Karten: [ACHSE:CHED~CHD+L→abführen; Schluss]
+  - Besitzerlesung: Aus der Station abführen; Schluss.
+- **B3-S024** `tchedy`
+  - Karten: [ACHSE:CHED~CHD→überführen; Schluss]
+  - Besitzerlesung: Überführen; Schluss.
+- **B3-S025** `qokchdy`
+  - Karten: [ACHSE:CHED~CHD→einführen; Schluss]
+  - Besitzerlesung: In die nächste Station einführen; Schluss.
+- **B3-S026** `cheedar chldaiin chedy qokain checthy chealror solkeedy`
+  - Karten: [ACHSE:AR+CHED~CHD→Quelltransfer] [ACHSE:AIIN→Sollabsetzung] [KERN:überführen] [PROSA:Anteil zugeben] [ACHSE:Y+CTH→bereit] [ACHSE:AL+OR→Zielbereitung] [PROSA:lange sammeln; Schluss]
+  - Besitzerlesung: Von der Quelle übertragen, auf den Sollabsetzstand bringen, weiterführen, einen Anteil zugeben, Bereitschaft prüfen, am Ziel vorbereiten und länger sammeln; Schluss.
+- **B3-S027** `qoteedy`
+  - Karten: [ACHSE:OT+EE→lange Folgestufe; Schluss]
+  - Besitzerlesung: Die folgende Stufe länger halten; Schluss.
+- **B3-S028** `qokeey qokedy`
+  - Karten: [ACHSE:OK+Y+EE→lange einwirken] [ACHSE:OK+DY+E→kurz einwirken; Schluss]
+  - Besitzerlesung: Länger einwirken lassen, dann den kurzen Einwirkpunkt schließen.
+- **B3-S029** `sol cheeety qokedy`
+  - Karten: [KERN:weiter] [PROSA:Vollteil] [ACHSE:OK+DY+E→kurz einwirken; Schluss]
+  - Besitzerlesung: Weiterführen, den vollen Anteil nehmen und kurz einwirken lassen; Schluss.
+- **B3-S030** `qoky saiin schedair otchedy`
+  - Karten: [KERN:einsetzen] [KERN:Sollwert] [PROSA:Weiterlauf] [ACHSE:OT+DY+CHED~CHD→Folgetransfer; Schluss]
+  - Besitzerlesung: Einsetzen, auf Sollmaß bringen, im Lauf weiterführen und zur nächsten Station übertragen; Schluss.
+- **B3-S031** `qokeedy`
+  - Karten: [ACHSE:OK+DY+EE→lange einwirken; Schluss]
+  - Besitzerlesung: Länger einwirken lassen; Schluss.
+- **B3-S032** `chedain chedy qotedaiin otaiin otedy`
+  - Karten: [ACHSE:CHED~CHD+AIN→Anteilstransfer] [KERN:überführen] [ACHSE:OT+AIIN+E→Kurzsoll] [ACHSE:OT+AIIN→Folgemaß] [ACHSE:OT+E→Kurzfolge; Schluss]
+  - Besitzerlesung: Einen Anteil übertragen, weiterführen, den kurzen Sollwert und das Folgemaß einstellen, dann kurz weiterführen; Schluss.
+- **B3-S033** `ldy`
+  - Karten: [ACHSE:DY+L→abziehen; Schluss]
+  - Besitzerlesung: Abziehen; Schluss.
+- **B3-S034** `soiiin checthy chety otaiin olsaly shedy`
+  - Karten: [PROSA:Arbeitsstufe] [ACHSE:Y+CTH→bereit] [PROSA:Teil] [ACHSE:OT+AIIN→Folgemaß] [ACHSE:AL+Y→Zwischenziel] [ACHSE:DY+E+SHED→kurz absetzen; Schluss]
+  - Besitzerlesung: Die Arbeitsstufe auf bereit stellen, einen Teil und das Folgemaß nehmen und am Zwischenziel kurz absetzen; Schluss.
+
+## B4 — Hauptpaar am sichtbaren ungerichteten Bogen
+
+- **B4-S001** `qokeedy`
+  - Karten: [ACHSE:OK+DY+EE→lange einwirken; Schluss]
+  - Besitzerlesung: Am Hauptpaar länger einwirken lassen; Schluss.
+- **B4-S002** `qolchey qokeey qokedy`
+  - Karten: [ACHSE:OL+Y→Weiterposten] [ACHSE:OK+Y+EE→lange einwirken] [ACHSE:OK+DY+E→kurz einwirken; Schluss]
+  - Besitzerlesung: Den Weiterposten zuerst länger, dann kurz einwirken lassen; Schluss.
+- **B4-S003** `chedy otal otchey qokeey qoky tol shedy`
+  - Karten: [KERN:überführen] [ACHSE:OT+AL→danach dorthin] [KERN:das nächste] [ACHSE:OK+Y+EE→lange einwirken] [KERN:einsetzen] [KERN:weiter] [ACHSE:DY+E+SHED→kurz absetzen; Schluss]
+  - Besitzerlesung: Überführen, danach den nächsten Posten dorthin bringen, länger einwirken lassen, einsetzen, weiterführen und kurz absetzen lassen; Schluss.
+- **B4-S004** `qokylddy`
+  - Karten: [GANZKARTE:befestigen; Schluss]
+  - Besitzerlesung: Den Posten befestigen; Schluss.
+- **B4-S005** `dain chedy qokeedy`
+  - Karten: [GANZKARTE:Einlage] [KERN:überführen] [ACHSE:OK+DY+EE→lange einwirken; Schluss]
+  - Besitzerlesung: Die Einlage überführen und länger einwirken lassen; Schluss.
+- **B4-S006** `shckhedy`
+  - Karten: [PROSA:durchlassen; Schluss]
+  - Besitzerlesung: Einmal durchlassen; Schluss.
+- **B4-S007** `shckhedy`
+  - Karten: [PROSA:durchlassen; Schluss]
+  - Besitzerlesung: Ein zweites Mal durchlassen; Schluss.
+- **B4-S008** `saiin cheeky sheey qokedy`
+  - Karten: [KERN:Sollwert] [ACHSE:Y+EE+CHK→länger bearbeiten] [ACHSE:Y+EE→Langhalt] [ACHSE:OK+DY+E→kurz einwirken; Schluss]
+  - Besitzerlesung: Auf Sollmaß bringen, länger bearbeiten, länger halten und kurz einwirken lassen; Schluss.
+- **B4-S009** `shedy`
+  - Karten: [ACHSE:DY+E+SHED→kurz absetzen; Schluss]
+  - Besitzerlesung: Kurz absetzen lassen; Schluss.
+- **B4-S010** `oldy`
+  - Karten: [KERN:fertig]
+  - Besitzerlesung: Fertigstellen; Schluss.
+- **B4-S011** `saiin cheky okeeol okain chdy sol lkedy`
+  - Karten: [KERN:Sollwert] [ACHSE:Y+E+CHK→kurz wärmen] [ACHSE:OK+OL+EE→Langfortsetzung] [PROSA:Anteil zugeben] [KERN:überführen] [KERN:weiter] [GANZKARTE:Kurzabzug; Schluss]
+  - Besitzerlesung: An der linken Unterlaufstation das Sollmaß kurz wärmen, länger weiterführen, einen Anteil zugeben, überführen, fortsetzen und kurz abziehen; Schluss.
+- **B4-S012** `lchedy`
+  - Karten: [ACHSE:CHED~CHD+L→abführen; Schluss]
+  - Besitzerlesung: Abführen; Schluss.
+- **B4-S013** `qokol shedy`
+  - Karten: [ACHSE:OK+OL→Weiter einsetzen] [ACHSE:DY+E+SHED→kurz absetzen; Schluss]
+  - Besitzerlesung: Weiter einsetzen und kurz absetzen lassen; Schluss.
+- **B4-S014** `or chey qockhey dairydy`
+  - Karten: [KERN:Ansatz] [KERN:dies] [ACHSE:OK+Y+E+CKH→Kurzdurchgang] [ACHSE:Y+DY+AIR→Laufschluss]
+  - Besitzerlesung: Diesen Ansatz durch den kurzen Gang führen und den Lauf schließen.
+- **B4-S015** `qokain shey kain chckhal solkey lchedy`
+  - Karten: [PROSA:Anteil zugeben] [KERN:Freigabewert] [PROSA:Portion] [ACHSE:AL+CKH→Zielpassage] [ACHSE:Y+E+SOLK→Kurzsammlung] [ACHSE:CHED~CHD+L→abführen; Schluss]
+  - Besitzerlesung: Eine Portion zum Klarlauf geben, die Portion durch die Zielpassage führen, kurz auffangen und abführen; Schluss.
+- **B4-S016** `qolkain dal skar shedy`
+  - Karten: [ACHSE:OL+AIN→weiterer Anteil] [KERN:dorthin] [ACHSE:AR→Quellausguss] [ACHSE:DY+E+SHED→kurz absetzen; Schluss]
+  - Besitzerlesung: Einen weiteren Anteil dorthin bringen, aus der Quelle ausgießen und kurz absetzen lassen; Schluss.
+
+## B5 — linker offener Fransen-Endposten
+
+- **B5-S001** `otchdy`
+  - Karten: [ACHSE:OT+DY+CHED~CHD→Nachtransfer; Schluss]
+  - Besitzerlesung: Den Nachtransfer am linken Endposten ausführen; Schluss.
+- **B5-S002** `qokchdy`
+  - Karten: [ACHSE:CHED~CHD→einführen; Schluss]
+  - Besitzerlesung: In den linken Endposten einführen; Schluss.
+- **B5-S003** `shedal dal cheol lol chdal aiin sol daiiin chedy`
+  - Karten: [ACHSE:AL+SHED→am Ziel absetzen] [KERN:dorthin] [KERN:weiter] [ACHSE:OL+L→Weiterabzug] [ACHSE:AL+CHED~CHD→Zieltransfer] [KERN:Sollwert] [KERN:weiter] [PROSA:Endstufe] [KERN:überführen]
+  - Besitzerlesung: Am Ziel absetzen, dorthin bringen, weiterführen und weiter abziehen; den Zieltransfer auf Sollmaß bringen, bis zur Endstufe fortsetzen und überführen.
+
+## B6 — rechter S-Lauf-/Mehrarm-Endposten
+
+- **B6-S001** `solkeey qekey raly ol daiin ol dain chey ldalor`
+  - Karten: [ACHSE:Y+EE+SOLK→Langsammlung] [GANZKARTE:kurz bearbeiten] [ACHSE:AL+Y→Endposten] [KERN:weiter] [KERN:Sollwert] [KERN:weiter] [GANZKARTE:Einlage] [KERN:dies] [ACHSE:AL→Endziel]
+  - Besitzerlesung: Am rechten Endposten länger auffangen, kurz bearbeiten, zum Endposten weiterführen, auf Sollmaß bringen, die Einlage als aktuellen Posten zum Endziel führen.
+
+## A1: f67r2 — zwei lokale Räder
+
+- **f67r2.1 — A1_RIGHT_SECTOR_SLOT_01** `ykshy s aram`
+  - Gruppen: [EXEMPLAR:ykshy] [EXEMPLAR:s] [EXEMPLAR:aram]
+  - Lokale Lesung: Sektorplatz A1_RIGHT_SECTOR_SLOT_01: Position oder Bedingung halten; lokaler Namensrest yk/y. || A1_RIGHT_SECTOR_SLOT_01: Nebenwert. || Sektorplatz A1_RIGHT_SECTOR_SLOT_01: Ausgangssektor, Ursprung oder Bezugswert; lokaler Namensrest am.
+- **f67r2.2 — A1_RIGHT_SECTOR_SLOT_02** `ykecho ols eesydy`
+  - Gruppen: [EXEMPLAR:ykecho] [EXEMPLAR:ols] [EXEMPLAR:eesydy]
+  - Lokale Lesung: Sektorplatz A1_RIGHT_SECTOR_SLOT_02: Himmelsobjekt oder Eingangsbedingung; lokaler Namensrest ykec. || Sektorplatz A1_RIGHT_SECTOR_SLOT_02: im selben Ring, Band oder Satz fortsetzen; lokaler Namensrest s. || Sektorplatz A1_RIGHT_SECTOR_SLOT_02: lange oder volle Diagrammstufe; lokaler Namensrest sydy.
+- **f67r2.3 — A1_RIGHT_SECTOR_SLOT_03** `ey shs okar`
+  - Gruppen: [EXEMPLAR:ey] [EXEMPLAR:shs] [EXEMPLAR:okar]
+  - Lokale Lesung: A1_RIGHT_SECTOR_SLOT_03: aktueller Auswahlwert. || Sektorplatz A1_RIGHT_SECTOR_SLOT_03: Position oder Bedingung halten; lokaler Namensrest s. || Sektorplatz A1_RIGHT_SECTOR_SLOT_03: Diagrammposten setzen oder aktivieren + Ausgangssektor, Ursprung oder Bezugswert.
+- **f67r2.4 — A1_RIGHT_SECTOR_SLOT_04** `shekchy sykos`
+  - Gruppen: [EXEMPLAR:shekchy] [EXEMPLAR:sykos]
+  - Lokale Lesung: Sektorplatz A1_RIGHT_SECTOR_SLOT_04: Position oder Bedingung halten + Diagrammplatz berechnen oder bearbeiten; lokaler Namensrest e/y. || A1_RIGHT_SECTOR_SLOT_04: sekundäre Grundklasse.
+- **f67r2.5 — A1_RIGHT_SECTOR_SLOT_05** `ykeody okchy`
+  - Gruppen: [EXEMPLAR:ykeody] [ASTRO-HOMOGRAPH:okchy]
+  - Lokale Lesung: A1_RIGHT_SECTOR_SLOT_05: Klassenplatz fest eingetragen. || Sektorplatz A1_RIGHT_SECTOR_SLOT_05: diesen Diagrammposten setzen.
+- **f67r2.6 — A1_RIGHT_SECTOR_SLOT_06** `dchetay`
+  - Gruppen: [EXEMPLAR:dchetay]
+  - Lokale Lesung: A1_RIGHT_SECTOR_SLOT_06: fester Hauptphasenwert.
+- **f67r2.7 — A1_RIGHT_SECTOR_SLOT_07** `ykchy kchey ykchys`
+  - Gruppen: [EXEMPLAR:ykchy] [ASTRO-HOMOGRAPH:kchey] [EXEMPLAR:ykchys]
+  - Lokale Lesung: Sektorplatz A1_RIGHT_SECTOR_SLOT_07: Diagrammplatz berechnen oder bearbeiten; lokaler Namensrest y/y. || Sektorplatz A1_RIGHT_SECTOR_SLOT_07: diesen Diagrammplatz kurz bearbeiten. || Sektorplatz A1_RIGHT_SECTOR_SLOT_07: Diagrammplatz berechnen oder bearbeiten; lokaler Namensrest y/ys.
+- **f67r2.8 — A1_RIGHT_SECTOR_SLOT_08** `chkchdar`
+  - Gruppen: [EXEMPLAR:chkchdar]
+  - Lokale Lesung: Sektorplatz A1_RIGHT_SECTOR_SLOT_08: Grad oder Diagrammzustand justieren + Wert oder Platzbezug uebertragen + Ausgangssektor, Ursprung oder Bezugswert.
+- **f67r2.9 — A1_RIGHT_SECTOR_SLOT_09** `ykar ykaly`
+  - Gruppen: [EXEMPLAR:ykar] [EXEMPLAR:ykaly]
+  - Lokale Lesung: Sektorplatz A1_RIGHT_SECTOR_SLOT_09: Ausgangssektor, Ursprung oder Bezugswert; lokaler Namensrest yk. || Sektorplatz A1_RIGHT_SECTOR_SLOT_09: Zielsektor, Zielstern oder Zielfeld; lokaler Namensrest yk/y.
+- **f67r2.10 — A1_RIGHT_SECTOR_SLOT_10** `lkshy kchy okar`
+  - Gruppen: [EXEMPLAR:lkshy] [ASTRO-HOMOGRAPH:kchy] [EXEMPLAR:okar]
+  - Lokale Lesung: Sektorplatz A1_RIGHT_SECTOR_SLOT_10: Position oder Bedingung halten; lokaler Namensrest lk/y. || Sektorplatz A1_RIGHT_SECTOR_SLOT_10: diesen Diagrammplatz bearbeiten. || Sektorplatz A1_RIGHT_SECTOR_SLOT_10: Diagrammposten setzen oder aktivieren + Ausgangssektor, Ursprung oder Bezugswert.
+- **f67r2.11 — A1_RIGHT_SECTOR_SLOT_11** `chky chykchs chy`
+  - Gruppen: [EXEMPLAR:chky] [EXEMPLAR:chykchs] [KERN:dies/chy]
+  - Lokale Lesung: Sektorplatz A1_RIGHT_SECTOR_SLOT_11: Grad oder Diagrammzustand justieren; lokaler Namensrest y. || Sektorplatz A1_RIGHT_SECTOR_SLOT_11: Diagrammplatz berechnen oder bearbeiten; lokaler Namensrest chy/s. || Sektorplatz A1_RIGHT_SECTOR_SLOT_11: dieser lokale Diagrammposten.
+- **f67r2.12 — A1_RIGHT_SECTOR_SLOT_12** `ykees ykchos`
+  - Gruppen: [EXEMPLAR:ykees] [EXEMPLAR:ykchos]
+  - Lokale Lesung: Sektorplatz A1_RIGHT_SECTOR_SLOT_12: lange oder volle Diagrammstufe; lokaler Namensrest yk/s. || Sektorplatz A1_RIGHT_SECTOR_SLOT_12: Diagrammplatz berechnen oder bearbeiten; lokaler Namensrest y/os.
+- **f67r2.13 — A1_RIGHT_RING_BAND_01** `opodchol s ain aldy`
+  - Gruppen: [EXEMPLAR:opodchol] [EXEMPLAR:s] [EXEMPLAR:ain] [EXEMPLAR:aldy]
+  - Lokale Lesung: Ring- oder Bandstelle A1_RIGHT_RING_BAND_01: im selben Ring, Band oder Satz fortsetzen; lokaler Namensrest opodch. || A1_RIGHT_RING_BAND_01: Nebenwert. || Ring- oder Bandstelle A1_RIGHT_RING_BAND_01: gezaehlter Teil oder Unterabschnitt. || Ring- oder Bandstelle A1_RIGHT_RING_BAND_01: Zielsektor, Zielstern oder Zielfeld; lokaler Namensrest dy.
+- **f67r2.14 — A1_RIGHT_RING_BAND_02** `soeey doiin oldy`
+  - Gruppen: [EXEMPLAR:soeey] [EXEMPLAR:doiin] [KERN:fertig/oldy]
+  - Lokale Lesung: Ring- oder Bandstelle A1_RIGHT_RING_BAND_02: lange oder volle Diagrammstufe; lokaler Namensrest so/y. || Ring- oder Bandstelle A1_RIGHT_RING_BAND_02: Grad- oder Bedingungsstufe; lokaler Namensrest do. || Ring- oder Bandstelle A1_RIGHT_RING_BAND_02: fortsetzen und den Eintrag schliessen.
+- **f67r2.15 — A1_LEFT_LOCAL_FIELD_15** `dolchsody`
+  - Gruppen: [EXEMPLAR:dolchsody]
+  - Lokale Lesung: Sternplatz A1_LEFT_LOCAL_FIELD_15: im selben Ring, Band oder Satz fortsetzen; lokaler Namensrest d/chsody.
+- **f67r2.16 — A1_LEFT_LOCAL_FIELD_16** `odaeiin okoes oekain y`
+  - Gruppen: [EXEMPLAR:odaeiin] [EXEMPLAR:okoes] [EXEMPLAR:oekain] [KERN:dies/y]
+  - Lokale Lesung: Sternplatz A1_LEFT_LOCAL_FIELD_16: Grad- oder Bedingungsstufe; lokaler Namensrest odae. || Sternplatz A1_LEFT_LOCAL_FIELD_16: Diagrammposten setzen oder aktivieren; lokaler Namensrest oes. || Sternplatz A1_LEFT_LOCAL_FIELD_16: gezaehlter Teil oder Unterabschnitt; lokaler Namensrest oek. || Sternplatz A1_LEFT_LOCAL_FIELD_16: dieser lokale Diagrammposten.
+- **f67r2.17 — A1_LEFT_LOCAL_FIELD_17** `otchey soraiir dy`
+  - Gruppen: [KERN:das nächste/otchey] [EXEMPLAR:soraiir] [KERN:dies/dy]
+  - Lokale Lesung: Sternplatz A1_LEFT_LOCAL_FIELD_17: naechster Diagrammposten. || Sternplatz A1_LEFT_LOCAL_FIELD_17: Bedingungs-, Tabellen- oder Wahlansatz; lokaler Namensrest s/aiir. || Sternplatz A1_LEFT_LOCAL_FIELD_17: dieser lokale Diagrammposten.
+- **f67r2.18 — A1_LEFT_LOCAL_FIELD_18** `qopchy daiin dal`
+  - Gruppen: [EXEMPLAR:qopchy] [KERN:Sollwert/daiin] [KERN:dorthin/dal]
+  - Lokale Lesung: A1_LEFT_LOCAL_FIELD_18: neuer Paarbezug. || Sternplatz A1_LEFT_LOCAL_FIELD_18: Sollwert oder Grad des bezeichneten Himmelsplatzes. || Sternplatz A1_LEFT_LOCAL_FIELD_18: zum bezeichneten Zielplatz.
+- **f67r2.19 — A1_LEFT_LOCAL_FIELD_19** `ydchos ain ar amy`
+  - Gruppen: [EXEMPLAR:ydchos] [EXEMPLAR:ain] [EXEMPLAR:ar] [EXEMPLAR:amy]
+  - Lokale Lesung: Sternplatz A1_LEFT_LOCAL_FIELD_19: Himmelsobjekt oder Eingangsbedingung; lokaler Namensrest ydc/s. || Sternplatz A1_LEFT_LOCAL_FIELD_19: gezaehlter Teil oder Unterabschnitt. || Sternplatz A1_LEFT_LOCAL_FIELD_19: Ausgangssektor, Ursprung oder Bezugswert. || A1_LEFT_LOCAL_FIELD_19: aktueller Aspektwert.
+- **f67r2.20 — A1_LEFT_LOCAL_FIELD_20** `chocfhy saral`
+  - Gruppen: [EXEMPLAR:chocfhy] [EXEMPLAR:saral]
+  - Lokale Lesung: Sternplatz A1_LEFT_LOCAL_FIELD_20: Himmelsobjekt oder Eingangsbedingung; lokaler Namensrest c/cfhy. || Sternplatz A1_LEFT_LOCAL_FIELD_20: Ausgangssektor, Ursprung oder Bezugswert + Zielsektor, Zielstern oder Zielfeld; lokaler Namensrest s.
+- **f67r2.21 — A1_LEFT_LOCAL_FIELD_21** `sain am ar`
+  - Gruppen: [EXEMPLAR:sain] [EXEMPLAR:am] [EXEMPLAR:ar]
+  - Lokale Lesung: Sternplatz A1_LEFT_LOCAL_FIELD_21: gezaehlter Teil oder Unterabschnitt; lokaler Namensrest s. || A1_LEFT_LOCAL_FIELD_21: Aspektwert. || Sternplatz A1_LEFT_LOCAL_FIELD_21: Ausgangssektor, Ursprung oder Bezugswert.
+- **f67r2.22 — A1_LEFT_LOCAL_FIELD_22** `okal`
+  - Gruppen: [KERN:dorthin einsetzen/okal]
+  - Lokale Lesung: Sternplatz A1_LEFT_LOCAL_FIELD_22: am Zielplatz setzen.
+- **f67r2.23 — A1_LEFT_LOCAL_FIELD_23** `oparchy salsain`
+  - Gruppen: [EXEMPLAR:oparchy] [EXEMPLAR:salsain]
+  - Lokale Lesung: Sternplatz A1_LEFT_LOCAL_FIELD_23: Ausgangssektor, Ursprung oder Bezugswert; lokaler Namensrest op/chy. || Sternplatz A1_LEFT_LOCAL_FIELD_23: Zielsektor, Zielstern oder Zielfeld + gezaehlter Teil oder Unterabschnitt; lokaler Namensrest s/s.
+- **f67r2.24 — A1_LEFT_LOCAL_FIELD_24** `sodar ofar ar`
+  - Gruppen: [EXEMPLAR:sodar] [EXEMPLAR:ofar] [EXEMPLAR:ar]
+  - Lokale Lesung: Sternplatz A1_LEFT_LOCAL_FIELD_24: Ausgangssektor, Ursprung oder Bezugswert; lokaler Namensrest sod. || Sternplatz A1_LEFT_LOCAL_FIELD_24: Ausgangssektor, Ursprung oder Bezugswert; lokaler Namensrest of. || Sternplatz A1_LEFT_LOCAL_FIELD_24: Ausgangssektor, Ursprung oder Bezugswert.
+- **f67r2.25 — A1_LEFT_LOCAL_FIELD_25** `ydam`
+  - Gruppen: [EXEMPLAR:ydam]
+  - Lokale Lesung: A1_LEFT_LOCAL_FIELD_25: festgelegter Aspektwert.
+- **f67r2.26 — A1_LEFT_LOCAL_FIELD_26** `yteoor yto ykor`
+  - Gruppen: [EXEMPLAR:yteoor] [EXEMPLAR:yto] [EXEMPLAR:ykor]
+  - Lokale Lesung: Sternplatz A1_LEFT_LOCAL_FIELD_26: Bedingungs-, Tabellen- oder Wahlansatz; lokaler Namensrest yteo. || A1_LEFT_LOCAL_FIELD_26: aktueller Platz. || Sternplatz A1_LEFT_LOCAL_FIELD_26: Bedingungs-, Tabellen- oder Wahlansatz; lokaler Namensrest yk.
+- **f67r2.27 — A1_LEFT_LOCAL_FIELD_27** `okeo r aiin am`
+  - Gruppen: [EXEMPLAR:okeo] [EXEMPLAR:r] [KERN:Sollwert/aiin] [EXEMPLAR:am]
+  - Lokale Lesung: Sternplatz A1_LEFT_LOCAL_FIELD_27: Diagrammposten setzen oder aktivieren; lokaler Namensrest eo. || A1_LEFT_LOCAL_FIELD_27: Bezugswert. || Sternplatz A1_LEFT_LOCAL_FIELD_27: Sollwert oder Grad des bezeichneten Himmelsplatzes. || A1_LEFT_LOCAL_FIELD_27: Aspektwert.
+- **f67r2.28 — A1_LEFT_LOCAL_FIELD_28** `okain am`
+  - Gruppen: [ASTRO-HOMOGRAPH:okain] [EXEMPLAR:am]
+  - Lokale Lesung: Sternplatz A1_LEFT_LOCAL_FIELD_28: einen gezaehlten Teilwert zugeben. || A1_LEFT_LOCAL_FIELD_28: Aspektwert.
+- **f67r2.29 — A1_LEFT_LOCAL_FIELD_29** `ytody saiin`
+  - Gruppen: [EXEMPLAR:ytody] [KERN:Sollwert/saiin]
+  - Lokale Lesung: A1_LEFT_LOCAL_FIELD_29: Platz fest eingetragen. || Sternplatz A1_LEFT_LOCAL_FIELD_29: Sollwert oder Grad des bezeichneten Himmelsplatzes.
+- **f67r2.30 — A1_LEFT_LOCAL_FIELD_30** `ochol olol`
+  - Gruppen: [EXEMPLAR:ochol] [EXEMPLAR:olol]
+  - Lokale Lesung: Sternplatz A1_LEFT_LOCAL_FIELD_30: im selben Ring, Band oder Satz fortsetzen; lokaler Namensrest och. || Sternplatz A1_LEFT_LOCAL_FIELD_30: im selben Ring, Band oder Satz fortsetzen + im selben Ring, Band oder Satz fortsetzen.
+- **f67r2.31 — A1_LEFT_LOCAL_FIELD_31** `opcholdy`
+  - Gruppen: [EXEMPLAR:opcholdy]
+  - Lokale Lesung: Sternplatz A1_LEFT_LOCAL_FIELD_31: im selben Ring, Band oder Satz fortsetzen; lokaler Namensrest opch/dy.
+- **f67r2.32 — A1_LEFT_LOCAL_FIELD_32** `dosar odas air alaiin`
+  - Gruppen: [EXEMPLAR:dosar] [EXEMPLAR:odas] [EXEMPLAR:air] [EXEMPLAR:alaiin]
+  - Lokale Lesung: Sternplatz A1_LEFT_LOCAL_FIELD_32: Ausgangssektor, Ursprung oder Bezugswert; lokaler Namensrest dos. || A1_LEFT_LOCAL_FIELD_32: fester Nebenwert. || Sternplatz A1_LEFT_LOCAL_FIELD_32: Himmels-, Ring- oder Zeigerlauf. || Sternplatz A1_LEFT_LOCAL_FIELD_32: Zielsektor, Zielstern oder Zielfeld + Sollwert oder Grad eines Diagrammplatzes.
+- **f67r2.33 — A1_LEFT_LOCAL_FIELD_33** `dokan oear odal`
+  - Gruppen: [EXEMPLAR:dokan] [EXEMPLAR:oear] [EXEMPLAR:odal]
+  - Lokale Lesung: Sternplatz A1_LEFT_LOCAL_FIELD_33: Diagrammposten setzen oder aktivieren; lokaler Namensrest d/an. || Sternplatz A1_LEFT_LOCAL_FIELD_33: Ausgangssektor, Ursprung oder Bezugswert; lokaler Namensrest oe. || Sternplatz A1_LEFT_LOCAL_FIELD_33: Zielsektor, Zielstern oder Zielfeld; lokaler Namensrest od.
+- **f67r2.34 — A1_LEFT_LOCAL_FIELD_34** `ofar oeoldan`
+  - Gruppen: [EXEMPLAR:ofar] [EXEMPLAR:oeoldan]
+  - Lokale Lesung: Sternplatz A1_LEFT_LOCAL_FIELD_34: Ausgangssektor, Ursprung oder Bezugswert; lokaler Namensrest of. || Sternplatz A1_LEFT_LOCAL_FIELD_34: im selben Ring, Band oder Satz fortsetzen + Bedingung oder Tabellenwert anwenden; lokaler Namensrest oe.
+- **f67r2.35 — A1_LEFT_LOCAL_FIELD_35** `chol giin okol`
+  - Gruppen: [KERN:weiter/chol] [EXEMPLAR:giin] [EXEMPLAR:okol]
+  - Lokale Lesung: Sternplatz A1_LEFT_LOCAL_FIELD_35: im selben Ring oder Band fortsetzen. || Sternplatz A1_LEFT_LOCAL_FIELD_35: Grad- oder Bedingungsstufe; lokaler Namensrest g. || Sternplatz A1_LEFT_LOCAL_FIELD_35: Diagrammposten setzen oder aktivieren + im selben Ring, Band oder Satz fortsetzen.
+- **f67r2.36 — A1_LEFT_LOCAL_FIELD_36** `ytor daiin or`
+  - Gruppen: [EXEMPLAR:ytor] [KERN:Sollwert/daiin] [KERN:Ansatz/or]
+  - Lokale Lesung: Sternplatz A1_LEFT_LOCAL_FIELD_36: Bedingungs-, Tabellen- oder Wahlansatz; lokaler Namensrest yt. || Sternplatz A1_LEFT_LOCAL_FIELD_36: Sollwert oder Grad des bezeichneten Himmelsplatzes. || Sternplatz A1_LEFT_LOCAL_FIELD_36: Bedingungs- oder Tabellensatz.
+- **f67r2.37 — A1_LEFT_LOCAL_FIELD_37** `ytoaiin`
+  - Gruppen: [EXEMPLAR:ytoaiin]
+  - Lokale Lesung: Sternplatz A1_LEFT_LOCAL_FIELD_37: Sollwert oder Grad eines Diagrammplatzes; lokaler Namensrest yto.
+- **f67r2.38 — A1_LEFT_LOCAL_FIELD_38** `otoldos octhole`
+  - Gruppen: [EXEMPLAR:otoldos] [EXEMPLAR:octhole]
+  - Lokale Lesung: Sternplatz A1_LEFT_LOCAL_FIELD_38: naechster Platz oder folgende Bedingung + im selben Ring, Band oder Satz fortsetzen; lokaler Namensrest dos. || Sternplatz A1_LEFT_LOCAL_FIELD_38: im selben Ring, Band oder Satz fortsetzen; lokaler Namensrest octh/e.
+- **f67r2.39 — A1_LEFT_LOCAL_FIELD_39** `sor chedaiin dy`
+  - Gruppen: [KERN:Ansatz/sor] [EXEMPLAR:chedaiin] [KERN:dies/dy]
+  - Lokale Lesung: Sternplatz A1_LEFT_LOCAL_FIELD_39: Bedingungs- oder Tabellensatz. || Sternplatz A1_LEFT_LOCAL_FIELD_39: Wert oder Platzbezug uebertragen + Sollwert oder Grad eines Diagrammplatzes. || Sternplatz A1_LEFT_LOCAL_FIELD_39: dieser lokale Diagrammposten.
+- **f67r2.40 — A1_LEFT_LOCAL_FIELD_40** `yteos oiin og`
+  - Gruppen: [EXEMPLAR:yteos] [EXEMPLAR:oiin] [EXEMPLAR:og]
+  - Lokale Lesung: A1_LEFT_LOCAL_FIELD_40: sekundärer Phasenplatz. || Sternplatz A1_LEFT_LOCAL_FIELD_40: Grad- oder Bedingungsstufe; lokaler Namensrest o. || A1_LEFT_LOCAL_FIELD_40: Grundgrad.
+- **f67r2.41 — A1_LEFT_LOCAL_FIELD_41** `ytoeopchey chekody`
+  - Gruppen: [EXEMPLAR:ytoeopchey] [EXEMPLAR:chekody]
+  - Lokale Lesung: A1_LEFT_LOCAL_FIELD_41: Vergleichswert dieses Platzes. || A1_LEFT_LOCAL_FIELD_41: abgeleiteter Klassenwert.
+- **f67r2.42 — A1_LEFT_LOCAL_FIELD_42** `sosho chos ockhy`
+  - Gruppen: [EXEMPLAR:sosho] [EXEMPLAR:chos] [EXEMPLAR:ockhy]
+  - Lokale Lesung: Sternplatz A1_LEFT_LOCAL_FIELD_42: Himmelsobjekt oder Eingangsbedingung; lokaler Namensrest sos. || Sternplatz A1_LEFT_LOCAL_FIELD_42: Himmelsobjekt oder Eingangsbedingung; lokaler Namensrest c/s. || Sternplatz A1_LEFT_LOCAL_FIELD_42: durch Sektor, Ring oder Pruefweg fuehren; lokaler Namensrest o/y.
+- **f67r2.43 — A1_LEFT_LOCAL_FIELD_43** `daiin aiin os qsg`
+  - Gruppen: [KERN:Sollwert/daiin] [KERN:Sollwert/aiin] [ASTRO-HOMOGRAPH:os] [EXEMPLAR:qsg]
+  - Lokale Lesung: Sternplatz A1_LEFT_LOCAL_FIELD_43: Sollwert oder Grad des bezeichneten Himmelsplatzes. || Sternplatz A1_LEFT_LOCAL_FIELD_43: Sollwert oder Grad des bezeichneten Himmelsplatzes. || Sternplatz A1_LEFT_LOCAL_FIELD_43: umschliessendes Diagrammfeld. || A1_LEFT_LOCAL_FIELD_43: neuer Nebengrad.
+- **f67r2.44 — A1_LEFT_LOCAL_FIELD_44** `ofydy sheody aiin`
+  - Gruppen: [EXEMPLAR:ofydy] [EXEMPLAR:sheody] [KERN:Sollwert/aiin]
+  - Lokale Lesung: A1_LEFT_LOCAL_FIELD_44: fester Grundlichtwert. || Sternplatz A1_LEFT_LOCAL_FIELD_44: Position oder Bedingung halten; lokaler Namensrest eody. || Sternplatz A1_LEFT_LOCAL_FIELD_44: Sollwert oder Grad des bezeichneten Himmelsplatzes.
+- **f67r2.45 — A1_LEFT_LOCAL_FIELD_45** `ycheody es odaiiin`
+  - Gruppen: [EXEMPLAR:ycheody] [EXEMPLAR:es] [EXEMPLAR:odaiiin]
+  - Lokale Lesung: A1_LEFT_LOCAL_FIELD_45: aktueller Ablesewert fest. || A1_LEFT_LOCAL_FIELD_45: ausgewählter Nebenwert. || Sternplatz A1_LEFT_LOCAL_FIELD_45: Grad- oder Bedingungsstufe; lokaler Namensrest odai.
+- **f67r2.46 — A1_LEFT_LOCAL_FIELD_46** `yekees oraly`
+  - Gruppen: [EXEMPLAR:yekees] [EXEMPLAR:oraly]
+  - Lokale Lesung: Sternplatz A1_LEFT_LOCAL_FIELD_46: lange oder volle Diagrammstufe; lokaler Namensrest yek/s. || Sternplatz A1_LEFT_LOCAL_FIELD_46: Bedingungs-, Tabellen- oder Wahlansatz + Zielsektor, Zielstern oder Zielfeld; lokaler Namensrest y.
+- **f67r2.47 — A1_LEFT_LOCAL_FIELD_47** `yfain`
+  - Gruppen: [EXEMPLAR:yfain]
+  - Lokale Lesung: Sternplatz A1_LEFT_LOCAL_FIELD_47: gezaehlter Teil oder Unterabschnitt; lokaler Namensrest yf.
+- **f67r2.48 — A1_LEFT_LOCAL_FIELD_48** `todaiin dain dy`
+  - Gruppen: [EXEMPLAR:todaiin] [ASTRO-HOMOGRAPH:dain] [KERN:dies/dy]
+  - Lokale Lesung: Sternplatz A1_LEFT_LOCAL_FIELD_48: Sollwert oder Grad eines Diagrammplatzes; lokaler Namensrest tod. || Sternplatz A1_LEFT_LOCAL_FIELD_48: Band-, Schleier- oder Abdecktraeger. || Sternplatz A1_LEFT_LOCAL_FIELD_48: dieser lokale Diagrammposten.
+- **f67r2.49 — A1_LEFT_LOCAL_FIELD_49** `os choer aiin`
+  - Gruppen: [ASTRO-HOMOGRAPH:os] [EXEMPLAR:choer] [KERN:Sollwert/aiin]
+  - Lokale Lesung: Sternplatz A1_LEFT_LOCAL_FIELD_49: umschliessendes Diagrammfeld. || Sternplatz A1_LEFT_LOCAL_FIELD_49: Himmelsobjekt oder Eingangsbedingung; lokaler Namensrest c/er. || Sternplatz A1_LEFT_LOCAL_FIELD_49: Sollwert oder Grad des bezeichneten Himmelsplatzes.
+- **f67r2.50 — A1_LEFT_LOCAL_FIELD_50** `choeea sal`
+  - Gruppen: [EXEMPLAR:choeea] [KERN:dorthin/sal]
+  - Lokale Lesung: Sternplatz A1_LEFT_LOCAL_FIELD_50: Himmelsobjekt oder Eingangsbedingung + lange oder volle Diagrammstufe; lokaler Namensrest c/a. || Sternplatz A1_LEFT_LOCAL_FIELD_50: zum bezeichneten Zielplatz.
+- **f67r2.51 — A1_LEFT_LOCAL_FIELD_51** `dadaiin`
+  - Gruppen: [EXEMPLAR:dadaiin]
+  - Lokale Lesung: Sternplatz A1_LEFT_LOCAL_FIELD_51: Sollwert oder Grad eines Diagrammplatzes; lokaler Namensrest dad.
+- **f67r2.52 — A1_LEFT_OUTER_STAR_STATION_01** `qotoear`
+  - Gruppen: [EXEMPLAR:qotoear]
+  - Lokale Lesung: Sternplatz A1_LEFT_OUTER_STAR_STATION_01: naechster Platz oder folgende Bedingung + Ausgangssektor, Ursprung oder Bezugswert; lokaler Namensrest q/oe.
+- **f67r2.53 — A1_LEFT_OUTER_STAR_STATION_02** `dchdar`
+  - Gruppen: [EXEMPLAR:dchdar]
+  - Lokale Lesung: Sternplatz A1_LEFT_OUTER_STAR_STATION_02: Wert oder Platzbezug uebertragen + Ausgangssektor, Ursprung oder Bezugswert; lokaler Namensrest d.
+- **f67r2.54 — A1_LEFT_OUTER_STAR_STATION_03** `y saldal`
+  - Gruppen: [KERN:dies/y] [EXEMPLAR:saldal]
+  - Lokale Lesung: Sternplatz A1_LEFT_OUTER_STAR_STATION_03: dieser lokale Diagrammposten. || Sternplatz A1_LEFT_OUTER_STAR_STATION_03: Zielsektor, Zielstern oder Zielfeld + Zielsektor, Zielstern oder Zielfeld; lokaler Namensrest s/d.
+- **f67r2.55 — A1_LEFT_OUTER_STAR_STATION_04** `ytodal`
+  - Gruppen: [EXEMPLAR:ytodal]
+  - Lokale Lesung: Sternplatz A1_LEFT_OUTER_STAR_STATION_04: Zielsektor, Zielstern oder Zielfeld; lokaler Namensrest ytod.
+- **f67r2.56 — A1_LEFT_OUTER_STAR_STATION_05** `tol daiin`
+  - Gruppen: [KERN:weiter/tol] [KERN:Sollwert/daiin]
+  - Lokale Lesung: Sternplatz A1_LEFT_OUTER_STAR_STATION_05: im selben Ring oder Band fortsetzen. || Sternplatz A1_LEFT_OUTER_STAR_STATION_05: Sollwert oder Grad des bezeichneten Himmelsplatzes.
+- **f67r2.57 — A1_LEFT_OUTER_STAR_STATION_06** `otar dy`
+  - Gruppen: [ASTRO-HOMOGRAPH:otar] [KERN:dies/dy]
+  - Lokale Lesung: Sternplatz A1_LEFT_OUTER_STAR_STATION_06: danach vom bezeichneten Ausgangsplatz. || Sternplatz A1_LEFT_OUTER_STAR_STATION_06: dieser lokale Diagrammposten.
+- **f67r2.58 — A1_LEFT_OUTER_STAR_STATION_07** `cho dal g`
+  - Gruppen: [ASTRO-HOMOGRAPH:cho] [KERN:dorthin/dal] [EXEMPLAR:g]
+  - Lokale Lesung: Sternplatz A1_LEFT_OUTER_STAR_STATION_07: Eingangsobjekt oder Eingangsbedingung. || Sternplatz A1_LEFT_OUTER_STAR_STATION_07: zum bezeichneten Zielplatz. || A1_LEFT_OUTER_STAR_STATION_07: Gradwert.
+- **f67r2.59 — A1_LEFT_OUTER_STAR_STATION_08** `ytchodly`
+  - Gruppen: [EXEMPLAR:ytchodly]
+  - Lokale Lesung: Sternplatz A1_LEFT_OUTER_STAR_STATION_08: Himmelsobjekt oder Eingangsbedingung; lokaler Namensrest ytc/dly.
+- **f67r2.60 — A1_LEFT_OUTER_STAR_STATION_09** `octhys`
+  - Gruppen: [EXEMPLAR:octhys]
+  - Lokale Lesung: A1_LEFT_OUTER_STAR_STATION_09: sekundäre Grundbedingung.
+- **f67r2.61 — A1_LEFT_OUTER_STAR_STATION_10** `ytokar`
+  - Gruppen: [EXEMPLAR:ytokar]
+  - Lokale Lesung: Sternplatz A1_LEFT_OUTER_STAR_STATION_10: Diagrammposten setzen oder aktivieren + Ausgangssektor, Ursprung oder Bezugswert; lokaler Namensrest yt.
+- **f67r2.62 — A1_LEFT_OUTER_STAR_STATION_11** `otolor`
+  - Gruppen: [EXEMPLAR:otolor]
+  - Lokale Lesung: Sternplatz A1_LEFT_OUTER_STAR_STATION_11: naechster Platz oder folgende Bedingung + im selben Ring, Band oder Satz fortsetzen + Bedingungs-, Tabellen- oder Wahlansatz.
+- **f67r2.63 — A1_LEFT_OUTER_STAR_STATION_12** `okodar`
+  - Gruppen: [EXEMPLAR:okodar]
+  - Lokale Lesung: Sternplatz A1_LEFT_OUTER_STAR_STATION_12: Diagrammposten setzen oder aktivieren + Ausgangssektor, Ursprung oder Bezugswert; lokaler Namensrest od.
+- **f67r2.64 — A1_RIGHT_PHASE_STATION_01** `s air`
+  - Gruppen: [EXEMPLAR:s] [EXEMPLAR:air]
+  - Lokale Lesung: A1_RIGHT_PHASE_STATION_01: Nebenwert. || Radstelle A1_RIGHT_PHASE_STATION_01: Himmels-, Ring- oder Zeigerlauf.
+- **f67r2.65 — A1_RIGHT_PHASE_STATION_02** `soear`
+  - Gruppen: [EXEMPLAR:soear]
+  - Lokale Lesung: Radstelle A1_RIGHT_PHASE_STATION_02: Ausgangssektor, Ursprung oder Bezugswert; lokaler Namensrest soe.
+- **f67r2.66 — A1_RIGHT_PHASE_STATION_03** `cpheey`
+  - Gruppen: [EXEMPLAR:cpheey]
+  - Lokale Lesung: Radstelle A1_RIGHT_PHASE_STATION_03: lange oder volle Diagrammstufe; lokaler Namensrest cph/y.
+- **f67r2.67 — A1_RIGHT_PHASE_STATION_04** `okodar`
+  - Gruppen: [EXEMPLAR:okodar]
+  - Lokale Lesung: Radstelle A1_RIGHT_PHASE_STATION_04: Diagrammposten setzen oder aktivieren + Ausgangssektor, Ursprung oder Bezugswert; lokaler Namensrest od.
+- **f67r2.68 — A1_RIGHT_PHASE_STATION_05** `oepchod`
+  - Gruppen: [EXEMPLAR:oepchod]
+  - Lokale Lesung: Radstelle A1_RIGHT_PHASE_STATION_05: Himmelsobjekt oder Eingangsbedingung; lokaler Namensrest oepc/d.
+- **f67r2.69 — A1_RIGHT_PHASE_STATION_06** `s ay`
+  - Gruppen: [EXEMPLAR:s] [EXEMPLAR:ay]
+  - Lokale Lesung: A1_RIGHT_PHASE_STATION_06: Nebenwert. || A1_RIGHT_PHASE_STATION_06: aktueller Hauptwert.
+- **f67r2.70 — A1_RIGHT_PHASE_STATION_07** `osar`
+  - Gruppen: [EXEMPLAR:osar]
+  - Lokale Lesung: Radstelle A1_RIGHT_PHASE_STATION_07: Ausgangssektor, Ursprung oder Bezugswert; lokaler Namensrest os.
+- **f67r2.71 — A1_RIGHT_PHASE_STATION_08** `oran`
+  - Gruppen: [EXEMPLAR:oran]
+  - Lokale Lesung: Radstelle A1_RIGHT_PHASE_STATION_08: Bedingungs-, Tabellen- oder Wahlansatz; lokaler Namensrest an.
+- **f67r2.72 — A1_LEFT_OUTER_RING_TEXT** `dar aldaiin ydaiin qkoy ydaiin qofair ypair ykoaiin ydoly ytalchos oly okey`
+  - Gruppen: [KERN:davon/dar] [EXEMPLAR:aldaiin] [EXEMPLAR:ydaiin] [EXEMPLAR:qkoy] [EXEMPLAR:ydaiin] [EXEMPLAR:qofair] [EXEMPLAR:ypair] [EXEMPLAR:ykoaiin] [EXEMPLAR:ydoly] [EXEMPLAR:ytalchos] [EXEMPLAR:oly] [ASTRO-HOMOGRAPH:okey]
+  - Lokale Lesung: Ring- oder Bandstelle A1_LEFT_OUTER_RING_TEXT: vom bezeichneten Ausgangsplatz. || Ring- oder Bandstelle A1_LEFT_OUTER_RING_TEXT: Zielsektor, Zielstern oder Zielfeld + Sollwert oder Grad eines Diagrammplatzes; lokaler Namensrest d. || Ring- oder Bandstelle A1_LEFT_OUTER_RING_TEXT: Sollwert oder Grad eines Diagrammplatzes; lokaler Namensrest yd. || A1_LEFT_OUTER_RING_TEXT: neue Grundklasse. || Ring- oder Bandstelle A1_LEFT_OUTER_RING_TEXT: Sollwert oder Grad eines Diagrammplatzes; lokaler Namensrest yd. || Ring- oder Bandstelle A1_LEFT_OUTER_RING_TEXT: Himmels-, Ring- oder Zeigerlauf; lokaler Namensrest qof. || Ring- oder Bandstelle A1_LEFT_OUTER_RING_TEXT: Himmels-, Ring- oder Zeigerlauf; lokaler Namensrest yp. || Ring- oder Bandstelle A1_LEFT_OUTER_RING_TEXT: Sollwert oder Grad eines Diagrammplatzes; lokaler Namensrest yko. || Ring- oder Bandstelle A1_LEFT_OUTER_RING_TEXT: im selben Ring, Band oder Satz fortsetzen; lokaler Namensrest yd/y. || Ring- oder Bandstelle A1_LEFT_OUTER_RING_TEXT: Zielsektor, Zielstern oder Zielfeld + Himmelsobjekt oder Eingangsbedingung; lokaler Namensrest yt/c/s. || Ring- oder Bandstelle A1_LEFT_OUTER_RING_TEXT: im selben Ring, Band oder Satz fortsetzen; lokaler Namensrest y. || Ring- oder Bandstelle A1_LEFT_OUTER_RING_TEXT: in kurzer Stufe setzen.
+- **f67r2.73 — A1_RIGHT_OUTER_RING_TEXT** `sshey sy shees qeykeey ykchey ykchey qokeochy oaiin okol ar olar`
+  - Gruppen: [EXEMPLAR:sshey] [KERN:dies/sy] [EXEMPLAR:shees] [EXEMPLAR:qeykeey] [EXEMPLAR:ykchey] [EXEMPLAR:ykchey] [EXEMPLAR:qokeochy] [EXEMPLAR:oaiin] [EXEMPLAR:okol] [EXEMPLAR:ar] [EXEMPLAR:olar]
+  - Lokale Lesung: Ring- oder Bandstelle A1_RIGHT_OUTER_RING_TEXT: abgelesener oder freigegebener Wert; lokaler Namensrest s. || Ring- oder Bandstelle A1_RIGHT_OUTER_RING_TEXT: dieser lokale Diagrammposten. || Ring- oder Bandstelle A1_RIGHT_OUTER_RING_TEXT: Position oder Bedingung halten + lange oder volle Diagrammstufe; lokaler Namensrest s. || Ring- oder Bandstelle A1_RIGHT_OUTER_RING_TEXT: lange oder volle Diagrammstufe; lokaler Namensrest qeyk/y. || Ring- oder Bandstelle A1_RIGHT_OUTER_RING_TEXT: Diagrammplatz berechnen oder bearbeiten; lokaler Namensrest y/ey. || Ring- oder Bandstelle A1_RIGHT_OUTER_RING_TEXT: Diagrammplatz berechnen oder bearbeiten; lokaler Namensrest y/ey. || Ring- oder Bandstelle A1_RIGHT_OUTER_RING_TEXT: Diagrammposten setzen oder aktivieren; lokaler Namensrest q/eochy. || Ring- oder Bandstelle A1_RIGHT_OUTER_RING_TEXT: Sollwert oder Grad eines Diagrammplatzes; lokaler Namensrest o. || Ring- oder Bandstelle A1_RIGHT_OUTER_RING_TEXT: Diagrammposten setzen oder aktivieren + im selben Ring, Band oder Satz fortsetzen. || Ring- oder Bandstelle A1_RIGHT_OUTER_RING_TEXT: Ausgangssektor, Ursprung oder Bezugswert. || Ring- oder Bandstelle A1_RIGHT_OUTER_RING_TEXT: im selben Ring, Band oder Satz fortsetzen + Ausgangssektor, Ursprung oder Bezugswert.
+- **f67r2.74 — A1_PAIRED_WHEEL_LEGEND_UNRESOLVED** `yshey qokeeody cheos oeeos qockhy chos aiin okeeody qokoaiin odain ar air ay`
+  - Gruppen: [EXEMPLAR:yshey] [EXEMPLAR:qokeeody] [EXEMPLAR:cheos] [EXEMPLAR:oeeos] [EXEMPLAR:qockhy] [EXEMPLAR:chos] [KERN:Sollwert/aiin] [EXEMPLAR:okeeody] [EXEMPLAR:qokoaiin] [EXEMPLAR:odain] [EXEMPLAR:ar] [EXEMPLAR:air] [EXEMPLAR:ay]
+  - Lokale Lesung: Legendenstelle A1_PAIRED_WHEEL_LEGEND_UNRESOLVED: abgelesener oder freigegebener Wert; lokaler Namensrest y. || Legendenstelle A1_PAIRED_WHEEL_LEGEND_UNRESOLVED: Diagrammposten setzen oder aktivieren + lange oder volle Diagrammstufe; lokaler Namensrest q/ody. || A1_PAIRED_WHEEL_LEGEND_UNRESOLVED: sekundärer Ablesewert. || Legendenstelle A1_PAIRED_WHEEL_LEGEND_UNRESOLVED: lange oder volle Diagrammstufe; lokaler Namensrest o/os. || Legendenstelle A1_PAIRED_WHEEL_LEGEND_UNRESOLVED: durch Sektor, Ring oder Pruefweg fuehren; lokaler Namensrest qo/y. || Legendenstelle A1_PAIRED_WHEEL_LEGEND_UNRESOLVED: Himmelsobjekt oder Eingangsbedingung; lokaler Namensrest c/s. || Legendenstelle A1_PAIRED_WHEEL_LEGEND_UNRESOLVED: Sollwert oder Grad des bezeichneten Himmelsplatzes. || Legendenstelle A1_PAIRED_WHEEL_LEGEND_UNRESOLVED: Diagrammposten setzen oder aktivieren + lange oder volle Diagrammstufe; lokaler Namensrest ody. || Legendenstelle A1_PAIRED_WHEEL_LEGEND_UNRESOLVED: Diagrammposten setzen oder aktivieren + Sollwert oder Grad eines Diagrammplatzes; lokaler Namensrest q/o. || Legendenstelle A1_PAIRED_WHEEL_LEGEND_UNRESOLVED: gezaehlter Teil oder Unterabschnitt; lokaler Namensrest od. || Legendenstelle A1_PAIRED_WHEEL_LEGEND_UNRESOLVED: Ausgangssektor, Ursprung oder Bezugswert. || Legendenstelle A1_PAIRED_WHEEL_LEGEND_UNRESOLVED: Himmels-, Ring- oder Zeigerlauf. || A1_PAIRED_WHEEL_LEGEND_UNRESOLVED: aktueller Hauptwert.
+
+## A2: f68r1 — Mehrpaneel-Sternatlas
+
+- **f68r1.1 — A2_LEFT_PANEL_HEADER** `shokchy chteey choteey cphol cheor opcheeol otor choctheeey okchoal`
+  - Gruppen: [EXEMPLAR:shokchy] [EXEMPLAR:chteey] [EXEMPLAR:choteey] [EXEMPLAR:cphol] [EXEMPLAR:cheor] [EXEMPLAR:opcheeol] [EXEMPLAR:otor] [EXEMPLAR:choctheeey] [EXEMPLAR:okchoal]
+  - Lokale Lesung: Sternplatz A2_LEFT_PANEL_HEADER: Himmelsobjekt oder Eingangsbedingung + Diagrammplatz berechnen oder bearbeiten; lokaler Namensrest s/y. || Sternplatz A2_LEFT_PANEL_HEADER: lange oder volle Diagrammstufe; lokaler Namensrest cht/y. || Sternplatz A2_LEFT_PANEL_HEADER: naechster Platz oder folgende Bedingung + lange oder volle Diagrammstufe; lokaler Namensrest ch/y. || Sternplatz A2_LEFT_PANEL_HEADER: im selben Ring, Band oder Satz fortsetzen; lokaler Namensrest cph. || Sternplatz A2_LEFT_PANEL_HEADER: Bedingungs-, Tabellen- oder Wahlansatz; lokaler Namensrest che. || Sternplatz A2_LEFT_PANEL_HEADER: lange oder volle Diagrammstufe + im selben Ring, Band oder Satz fortsetzen; lokaler Namensrest opch. || Sternplatz A2_LEFT_PANEL_HEADER: naechster Platz oder folgende Bedingung + Bedingungs-, Tabellen- oder Wahlansatz. || Sternplatz A2_LEFT_PANEL_HEADER: Himmelsobjekt oder Eingangsbedingung + lange oder volle Diagrammstufe; lokaler Namensrest c/cth/y. || Sternplatz A2_LEFT_PANEL_HEADER: Diagrammposten setzen oder aktivieren + Himmelsobjekt oder Eingangsbedingung + Zielsektor, Zielstern oder Zielfeld; lokaler Namensrest c.
+- **f68r1.2 — A2_MIDDLE_PANEL_HEADER** `tochso otchl qokeeedy cheey cheeteey yteody chpor cheokorchey chod`
+  - Gruppen: [EXEMPLAR:tochso] [EXEMPLAR:otchl] [ASTRO-HOMOGRAPH:qokeeedy] [KERN:Freigabewert/cheey] [EXEMPLAR:cheeteey] [EXEMPLAR:yteody] [EXEMPLAR:chpor] [EXEMPLAR:cheokorchey] [EXEMPLAR:chod]
+  - Lokale Lesung: A2_MIDDLE_PANEL_HEADER: Grundzustand dieses Platzes. || Sternplatz A2_MIDDLE_PANEL_HEADER: naechster Platz oder folgende Bedingung; lokaler Namensrest chl. || Sternplatz A2_MIDDLE_PANEL_HEADER: vollstaendig setzen und den Eintrag schliessen. || Sternplatz A2_MIDDLE_PANEL_HEADER: abgelesener oder freigegebener Diagrammwert. || Sternplatz A2_MIDDLE_PANEL_HEADER: lange oder volle Diagrammstufe + lange oder volle Diagrammstufe; lokaler Namensrest ch/t/y. || A2_MIDDLE_PANEL_HEADER: Phasenplatz fest eingetragen. || Sternplatz A2_MIDDLE_PANEL_HEADER: Bedingungs-, Tabellen- oder Wahlansatz; lokaler Namensrest chp. || Sternplatz A2_MIDDLE_PANEL_HEADER: Diagrammposten setzen oder aktivieren + Bedingungs-, Tabellen- oder Wahlansatz; lokaler Namensrest che/chey. || Sternplatz A2_MIDDLE_PANEL_HEADER: Himmelsobjekt oder Eingangsbedingung; lokaler Namensrest c/d.
+- **f68r1.3 — A2_RIGHT_PANEL_HEADER** `ykor shey qocheey chokal okeey ror eckhear daram`
+  - Gruppen: [EXEMPLAR:ykor] [KERN:Freigabewert/shey] [EXEMPLAR:qocheey] [EXEMPLAR:chokal] [ASTRO-HOMOGRAPH:okeey] [EXEMPLAR:ror] [EXEMPLAR:eckhear] [EXEMPLAR:daram]
+  - Lokale Lesung: Sektorplatz A2_RIGHT_PANEL_HEADER: Bedingungs-, Tabellen- oder Wahlansatz; lokaler Namensrest yk. || Sektorplatz A2_RIGHT_PANEL_HEADER: abgelesener oder freigegebener Diagrammwert. || Sektorplatz A2_RIGHT_PANEL_HEADER: abgelesener oder freigegebener Wert; lokaler Namensrest qo. || Sektorplatz A2_RIGHT_PANEL_HEADER: Diagrammposten setzen oder aktivieren + Zielsektor, Zielstern oder Zielfeld; lokaler Namensrest ch. || Sektorplatz A2_RIGHT_PANEL_HEADER: in langer Stufe setzen. || Sektorplatz A2_RIGHT_PANEL_HEADER: Bedingungs-, Tabellen- oder Wahlansatz; lokaler Namensrest r. || Sektorplatz A2_RIGHT_PANEL_HEADER: durch Sektor, Ring oder Pruefweg fuehren + Ausgangssektor, Ursprung oder Bezugswert; lokaler Namensrest e. || Sektorplatz A2_RIGHT_PANEL_HEADER: Ausgangssektor, Ursprung oder Bezugswert; lokaler Namensrest d/am.
+- **f68r1.4 — A2_MULTIPANEL_HEADER_FRAGMENT_04** `dchor okaiiin`
+  - Gruppen: [EXEMPLAR:dchor] [EXEMPLAR:okaiiin]
+  - Lokale Lesung: Tafelkopf A2_MULTIPANEL_HEADER_FRAGMENT_04: Bedingungs-, Tabellen- oder Wahlansatz; lokaler Namensrest dch. || Tafelkopf A2_MULTIPANEL_HEADER_FRAGMENT_04: Diagrammposten setzen oder aktivieren + Grad- oder Bedingungsstufe; lokaler Namensrest ai.
+- **f68r1.5 — A2_MULTIPANEL_HEADER_FRAGMENT_05** `yky`
+  - Gruppen: [EXEMPLAR:yky]
+  - Lokale Lesung: A2_MULTIPANEL_HEADER_FRAGMENT_05: aktuelles Haus.
+- **f68r1.6 — A2_MULTIPANEL_HEADER_FRAGMENT_06** `dary`
+  - Gruppen: [EXEMPLAR:dary]
+  - Lokale Lesung: Tafelkopf A2_MULTIPANEL_HEADER_FRAGMENT_06: Ausgangssektor, Ursprung oder Bezugswert; lokaler Namensrest d/y.
+- **f68r1.7 — A2_MULTIPANEL_HEADER_FRAGMENT_07** `chkchykoly`
+  - Gruppen: [EXEMPLAR:chkchykoly]
+  - Lokale Lesung: Tafelkopf A2_MULTIPANEL_HEADER_FRAGMENT_07: Diagrammplatz berechnen oder bearbeiten + im selben Ring, Band oder Satz fortsetzen; lokaler Namensrest ch/yk/y.
+- **f68r1.8 — A2_CENTRE_KEY_UNRESOLVED** `okodaly`
+  - Gruppen: [EXEMPLAR:okodaly]
+  - Lokale Lesung: Zentrumsmarke A2_CENTRE_KEY_UNRESOLVED: Diagrammposten setzen oder aktivieren + Zielsektor, Zielstern oder Zielfeld; lokaler Namensrest od/y.
+- **f68r1.9 — A2_STAR_STATION_01** `odchecthy`
+  - Gruppen: [EXEMPLAR:odchecthy]
+  - Lokale Lesung: A2_STAR_STATION_01: feste abgeleitete Bedingung.
+- **f68r1.10 — A2_STAR_STATION_02** `otcheody`
+  - Gruppen: [EXEMPLAR:otcheody]
+  - Lokale Lesung: Sternplatz A2_STAR_STATION_02: naechster Platz oder folgende Bedingung; lokaler Namensrest cheody.
+- **f68r1.11 — A2_STAR_STATION_03** `okoaly`
+  - Gruppen: [EXEMPLAR:okoaly]
+  - Lokale Lesung: Sternplatz A2_STAR_STATION_03: Diagrammposten setzen oder aktivieren + Zielsektor, Zielstern oder Zielfeld; lokaler Namensrest o/y.
+- **f68r1.12 — A2_STAR_STATION_04** `chocfhy`
+  - Gruppen: [EXEMPLAR:chocfhy]
+  - Lokale Lesung: Sternplatz A2_STAR_STATION_04: Himmelsobjekt oder Eingangsbedingung; lokaler Namensrest c/cfhy.
+- **f68r1.13 — A2_STAR_STATION_05** `octhey`
+  - Gruppen: [EXEMPLAR:octhey]
+  - Lokale Lesung: A2_STAR_STATION_05: ausgewählte Grundbedingung.
+- **f68r1.14 — A2_STAR_STATION_06** `otshey`
+  - Gruppen: [EXEMPLAR:otshey]
+  - Lokale Lesung: Sternplatz A2_STAR_STATION_06: naechster Platz oder folgende Bedingung + abgelesener oder freigegebener Wert.
+- **f68r1.15 — A2_STAR_STATION_07** `otydy`
+  - Gruppen: [EXEMPLAR:otydy]
+  - Lokale Lesung: Sternplatz A2_STAR_STATION_07: Teilsektor oder Untereintrag; lokaler Namensrest o/dy.
+- **f68r1.16 — A2_STAR_STATION_08** `okear`
+  - Gruppen: [EXEMPLAR:okear]
+  - Lokale Lesung: Sternplatz A2_STAR_STATION_08: Diagrammposten setzen oder aktivieren + Ausgangssektor, Ursprung oder Bezugswert; lokaler Namensrest e.
+- **f68r1.17 — A2_STAR_STATION_09** `cphocthy`
+  - Gruppen: [EXEMPLAR:cphocthy]
+  - Lokale Lesung: Sternplatz A2_STAR_STATION_09: Himmelsobjekt oder Eingangsbedingung; lokaler Namensrest cp/cthy.
+- **f68r1.18 — A2_STAR_STATION_10** `ytchody`
+  - Gruppen: [EXEMPLAR:ytchody]
+  - Lokale Lesung: Sternplatz A2_STAR_STATION_10: Himmelsobjekt oder Eingangsbedingung; lokaler Namensrest ytc/dy.
+- **f68r1.19 — A2_STAR_STATION_11** `otys`
+  - Gruppen: [EXEMPLAR:otys]
+  - Lokale Lesung: Sternplatz A2_STAR_STATION_11: Teilsektor oder Untereintrag; lokaler Namensrest o/s.
+- **f68r1.20 — A2_STAR_STATION_12** `olor`
+  - Gruppen: [KERN:derselbe Ansatz/olor]
+  - Lokale Lesung: Sternplatz A2_STAR_STATION_12: fortgesetzter Bedingungs- oder Tabellensatz.
+- **f68r1.21 — A2_STAR_STATION_13** `ockhy`
+  - Gruppen: [EXEMPLAR:ockhy]
+  - Lokale Lesung: Sternplatz A2_STAR_STATION_13: durch Sektor, Ring oder Pruefweg fuehren; lokaler Namensrest o/y.
+- **f68r1.22 — A2_STAR_STATION_14** `ofcheor`
+  - Gruppen: [EXEMPLAR:ofcheor]
+  - Lokale Lesung: Sternplatz A2_STAR_STATION_14: Bedingungs-, Tabellen- oder Wahlansatz; lokaler Namensrest ofche.
+- **f68r1.23 — A2_STAR_STATION_15** `otchdy`
+  - Gruppen: [ASTRO-HOMOGRAPH:otchdy]
+  - Lokale Lesung: Sternplatz A2_STAR_STATION_15: den folgenden Platz uebertragen und den Eintrag schliessen.
+- **f68r1.24 — A2_STAR_STATION_16** `otykchs`
+  - Gruppen: [EXEMPLAR:otykchs]
+  - Lokale Lesung: Sternplatz A2_STAR_STATION_16: Teilsektor oder Untereintrag + Diagrammplatz berechnen oder bearbeiten; lokaler Namensrest o/s.
+- **f68r1.25 — A2_STAR_STATION_17** `otol`
+  - Gruppen: [ASTRO-HOMOGRAPH:otol]
+  - Lokale Lesung: Sternplatz A2_STAR_STATION_17: danach im selben Ring oder Band fortsetzen.
+- **f68r1.26 — A2_STAR_STATION_18** `otor`
+  - Gruppen: [EXEMPLAR:otor]
+  - Lokale Lesung: Sternplatz A2_STAR_STATION_18: naechster Platz oder folgende Bedingung + Bedingungs-, Tabellen- oder Wahlansatz.
+- **f68r1.27 — A2_STAR_STATION_19** `oiinar`
+  - Gruppen: [EXEMPLAR:oiinar]
+  - Lokale Lesung: Sternplatz A2_STAR_STATION_19: Grad- oder Bedingungsstufe + Ausgangssektor, Ursprung oder Bezugswert; lokaler Namensrest o.
+- **f68r1.28 — A2_STAR_STATION_20** `okoldy`
+  - Gruppen: [EXEMPLAR:okoldy]
+  - Lokale Lesung: Sternplatz A2_STAR_STATION_20: Diagrammposten setzen oder aktivieren + im selben Ring, Band oder Satz fortsetzen; lokaler Namensrest dy.
+- **f68r1.29 — A2_STAR_STATION_21** `ykchdy`
+  - Gruppen: [EXEMPLAR:ykchdy]
+  - Lokale Lesung: Sternplatz A2_STAR_STATION_21: Wert oder Platzbezug uebertragen; lokaler Namensrest yk/y.
+- **f68r1.30 — A2_STAR_STATION_22** `oeeody`
+  - Gruppen: [EXEMPLAR:oeeody]
+  - Lokale Lesung: Sternplatz A2_STAR_STATION_22: lange oder volle Diagrammstufe; lokaler Namensrest o/ody.
+- **f68r1.31 — A2_STAR_STATION_23** `ocphy`
+  - Gruppen: [EXEMPLAR:ocphy]
+  - Lokale Lesung: A2_STAR_STATION_23: Grundauswahl.
+- **f68r1.32 — A2_STAR_STATION_24** `okeeodal`
+  - Gruppen: [EXEMPLAR:okeeodal]
+  - Lokale Lesung: Sternplatz A2_STAR_STATION_24: Diagrammposten setzen oder aktivieren + lange oder volle Diagrammstufe + Zielsektor, Zielstern oder Zielfeld; lokaler Namensrest od.
+- **f68r1.33 — A2_STAR_STATION_25** `okshor`
+  - Gruppen: [EXEMPLAR:okshor]
+  - Lokale Lesung: Sternplatz A2_STAR_STATION_25: Diagrammposten setzen oder aktivieren + Position oder Bedingung halten + Bedingungs-, Tabellen- oder Wahlansatz.
+- **f68r1.34 — A2_STAR_STATION_26** `osdaiin`
+  - Gruppen: [EXEMPLAR:osdaiin]
+  - Lokale Lesung: Sternplatz A2_STAR_STATION_26: Sollwert oder Grad eines Diagrammplatzes; lokaler Namensrest osd.
+- **f68r1.35 — A2_STAR_STATION_27** `otochedy`
+  - Gruppen: [EXEMPLAR:otochedy]
+  - Lokale Lesung: Sternplatz A2_STAR_STATION_27: naechster Platz oder folgende Bedingung + Wert oder Platzbezug uebertragen; lokaler Namensrest o/y.
+- **f68r1.36 — A2_STAR_STATION_28** `dolchedy`
+  - Gruppen: [EXEMPLAR:dolchedy]
+  - Lokale Lesung: Sternplatz A2_STAR_STATION_28: im selben Ring, Band oder Satz fortsetzen + Wert oder Platzbezug uebertragen; lokaler Namensrest d/y.
+- **f68r1.37 — A2_CENTRAL_LEGEND_UNRESOLVED** `oky okchdy okardy qear oygy`
+  - Gruppen: [KERN:einsetzen/oky] [EXEMPLAR:okchdy] [EXEMPLAR:okardy] [EXEMPLAR:qear] [EXEMPLAR:oygy]
+  - Lokale Lesung: Legendenstelle A2_CENTRAL_LEGEND_UNRESOLVED: diesen Diagrammposten setzen. || Legendenstelle A2_CENTRAL_LEGEND_UNRESOLVED: Diagrammposten setzen oder aktivieren + Wert oder Platzbezug uebertragen; lokaler Namensrest y. || Legendenstelle A2_CENTRAL_LEGEND_UNRESOLVED: Diagrammposten setzen oder aktivieren + Ausgangssektor, Ursprung oder Bezugswert; lokaler Namensrest dy. || Legendenstelle A2_CENTRAL_LEGEND_UNRESOLVED: Ausgangssektor, Ursprung oder Bezugswert; lokaler Namensrest qe. || A2_CENTRAL_LEGEND_UNRESOLVED: aktueller Grundgrad.
+
+## A3: f69v — drei getrennte Räder
+
+- **f69v.1 — A3_LEFT_WHEEL_RING_TEXT** `dair cheyky otaza sar ar chykar okoirsh ar chetody okeeos o tey otokeeey okeeody okeey doiir teeo y chey ot y okedy chsdy okeod y dy choaiin okar okar chol chees yto odair oty oteeo dar o eykeody dchor char`
+  - Gruppen: [EXEMPLAR:dair] [EXEMPLAR:cheyky] [EXEMPLAR:otaza] [KERN:davon/sar] [EXEMPLAR:ar] [EXEMPLAR:chykar] [EXEMPLAR:okoirsh] [EXEMPLAR:ar] [EXEMPLAR:chetody] [EXEMPLAR:okeeos] [EXEMPLAR:o] [EXEMPLAR:tey] [EXEMPLAR:otokeeey] [EXEMPLAR:okeeody] [ASTRO-HOMOGRAPH:okeey] [EXEMPLAR:doiir] [EXEMPLAR:teeo] [KERN:dies/y] [KERN:dies/chey] [EXEMPLAR:ot] [KERN:dies/y] [EXEMPLAR:okedy] [EXEMPLAR:chsdy] [EXEMPLAR:okeod] [KERN:dies/y] [KERN:dies/dy] [EXEMPLAR:choaiin] [EXEMPLAR:okar] [EXEMPLAR:okar] [KERN:weiter/chol] [EXEMPLAR:chees] [EXEMPLAR:yto] [EXEMPLAR:odair] [EXEMPLAR:oty] [EXEMPLAR:oteeo] [KERN:davon/dar] [EXEMPLAR:o] [EXEMPLAR:eykeody] [EXEMPLAR:dchor] [KERN:davon/char]
+  - Lokale Lesung: Radstelle A3_LEFT_WHEEL_RING_TEXT: Himmels-, Ring- oder Zeigerlauf; lokaler Namensrest d. || A3_LEFT_WHEEL_RING_TEXT: Ablesung dieses Hauses. || Radstelle A3_LEFT_WHEEL_RING_TEXT: naechster Platz oder folgende Bedingung; lokaler Namensrest aza. || Radstelle A3_LEFT_WHEEL_RING_TEXT: vom bezeichneten Ausgangsplatz. || Radstelle A3_LEFT_WHEEL_RING_TEXT: Ausgangssektor, Ursprung oder Bezugswert. || Radstelle A3_LEFT_WHEEL_RING_TEXT: Ausgangssektor, Ursprung oder Bezugswert; lokaler Namensrest chyk. || Radstelle A3_LEFT_WHEEL_RING_TEXT: Diagrammposten setzen oder aktivieren + Position oder Bedingung halten; lokaler Namensrest oir. || Radstelle A3_LEFT_WHEEL_RING_TEXT: Ausgangssektor, Ursprung oder Bezugswert. || A3_LEFT_WHEEL_RING_TEXT: abgeleiteter Platzwert. || Radstelle A3_LEFT_WHEEL_RING_TEXT: Diagrammposten setzen oder aktivieren + lange oder volle Diagrammstufe; lokaler Namensrest os. || A3_LEFT_WHEEL_RING_TEXT: Grundwert. || A3_LEFT_WHEEL_RING_TEXT: aktueller Phasenwert. || Radstelle A3_LEFT_WHEEL_RING_TEXT: naechster Platz oder folgende Bedingung + Diagrammposten setzen oder aktivieren + lange oder volle Diagrammstufe; lokaler Namensrest y. || Radstelle A3_LEFT_WHEEL_RING_TEXT: Diagrammposten setzen oder aktivieren + lange oder volle Diagrammstufe; lokaler Namensrest ody. || Radstelle A3_LEFT_WHEEL_RING_TEXT: in langer Stufe setzen. || A3_LEFT_WHEEL_RING_TEXT: fester Grundindex. || Radstelle A3_LEFT_WHEEL_RING_TEXT: lange oder volle Diagrammstufe; lokaler Namensrest t/o. || Radstelle A3_LEFT_WHEEL_RING_TEXT: dieser lokale Diagrammposten. || Radstelle A3_LEFT_WHEEL_RING_TEXT: dieser lokale Diagrammposten. || Radstelle A3_LEFT_WHEEL_RING_TEXT: naechster Platz oder folgende Bedingung. || Radstelle A3_LEFT_WHEEL_RING_TEXT: dieser lokale Diagrammposten. || Radstelle A3_LEFT_WHEEL_RING_TEXT: Diagrammposten setzen oder aktivieren; lokaler Namensrest edy. || A3_LEFT_WHEEL_RING_TEXT: sekundärer Zustand fest. || Radstelle A3_LEFT_WHEEL_RING_TEXT: Diagrammposten setzen oder aktivieren; lokaler Namensrest eod. || Radstelle A3_LEFT_WHEEL_RING_TEXT: dieser lokale Diagrammposten. || Radstelle A3_LEFT_WHEEL_RING_TEXT: dieser lokale Diagrammposten. || Radstelle A3_LEFT_WHEEL_RING_TEXT: Himmelsobjekt oder Eingangsbedingung + Sollwert oder Grad eines Diagrammplatzes; lokaler Namensrest c. || Radstelle A3_LEFT_WHEEL_RING_TEXT: Diagrammposten setzen oder aktivieren + Ausgangssektor, Ursprung oder Bezugswert. || Radstelle A3_LEFT_WHEEL_RING_TEXT: Diagrammposten setzen oder aktivieren + Ausgangssektor, Ursprung oder Bezugswert. || Radstelle A3_LEFT_WHEEL_RING_TEXT: im selben Ring oder Band fortsetzen. || Radstelle A3_LEFT_WHEEL_RING_TEXT: lange oder volle Diagrammstufe; lokaler Namensrest ch/s. || A3_LEFT_WHEEL_RING_TEXT: aktueller Platz. || Radstelle A3_LEFT_WHEEL_RING_TEXT: Himmels-, Ring- oder Zeigerlauf; lokaler Namensrest od. || Radstelle A3_LEFT_WHEEL_RING_TEXT: Teilsektor oder Untereintrag; lokaler Namensrest o. || Radstelle A3_LEFT_WHEEL_RING_TEXT: naechster Platz oder folgende Bedingung + lange oder volle Diagrammstufe; lokaler Namensrest o. || Radstelle A3_LEFT_WHEEL_RING_TEXT: vom bezeichneten Ausgangsplatz. || A3_LEFT_WHEEL_RING_TEXT: Grundwert. || A3_LEFT_WHEEL_RING_TEXT: ausgewählter Klassenplatz. || Radstelle A3_LEFT_WHEEL_RING_TEXT: Bedingungs-, Tabellen- oder Wahlansatz; lokaler Namensrest dch. || Radstelle A3_LEFT_WHEEL_RING_TEXT: vom bezeichneten Ausgangsplatz.
+- **f69v.2 — A3_MIDDLE_WHEEL_RING_TEXT** `yka chol ykar dal ykady iokeeor cheey choly ykeeal cheo oaram ockhy sheey aiin y daiial cheody cheal yetey chear y dy ykey ch y dy chol ykar ol y ykeeody chey dal ody airchy choky ychey chey`
+  - Gruppen: [EXEMPLAR:yka] [KERN:weiter/chol] [EXEMPLAR:ykar] [KERN:dorthin/dal] [EXEMPLAR:ykady] [EXEMPLAR:iokeeor] [KERN:Freigabewert/cheey] [EXEMPLAR:choly] [EXEMPLAR:ykeeal] [EXEMPLAR:cheo] [EXEMPLAR:oaram] [EXEMPLAR:ockhy] [ASTRO-HOMOGRAPH:sheey] [KERN:Sollwert/aiin] [KERN:dies/y] [EXEMPLAR:daiial] [EXEMPLAR:cheody] [KERN:dorthin/cheal] [EXEMPLAR:yetey] [EXEMPLAR:chear] [KERN:dies/y] [KERN:dies/dy] [EXEMPLAR:ykey] [EXEMPLAR:ch] [KERN:dies/y] [KERN:dies/dy] [KERN:weiter/chol] [EXEMPLAR:ykar] [KERN:weiter/ol] [KERN:dies/y] [EXEMPLAR:ykeeody] [KERN:dies/chey] [KERN:dorthin/dal] [ASTRO-HOMOGRAPH:ody] [EXEMPLAR:airchy] [KERN:einsetzen/choky] [EXEMPLAR:ychey] [KERN:dies/chey]
+  - Lokale Lesung: A3_MIDDLE_WHEEL_RING_TEXT: aktuelle Qualität. || lokaler Himmels- oder Kalenderplatz A3_MIDDLE_WHEEL_RING_TEXT: im selben Ring oder Band fortsetzen. || lokaler Himmels- oder Kalenderplatz A3_MIDDLE_WHEEL_RING_TEXT: Ausgangssektor, Ursprung oder Bezugswert; lokaler Namensrest yk. || lokaler Himmels- oder Kalenderplatz A3_MIDDLE_WHEEL_RING_TEXT: zum bezeichneten Zielplatz. || A3_MIDDLE_WHEEL_RING_TEXT: aktuelle Qualität fest. || lokaler Himmels- oder Kalenderplatz A3_MIDDLE_WHEEL_RING_TEXT: Diagrammposten setzen oder aktivieren + lange oder volle Diagrammstufe + Bedingungs-, Tabellen- oder Wahlansatz; lokaler Namensrest i. || lokaler Himmels- oder Kalenderplatz A3_MIDDLE_WHEEL_RING_TEXT: abgelesener oder freigegebener Diagrammwert. || lokaler Himmels- oder Kalenderplatz A3_MIDDLE_WHEEL_RING_TEXT: im selben Ring, Band oder Satz fortsetzen; lokaler Namensrest ch/y. || lokaler Himmels- oder Kalenderplatz A3_MIDDLE_WHEEL_RING_TEXT: lange oder volle Diagrammstufe + Zielsektor, Zielstern oder Zielfeld; lokaler Namensrest yk. || A3_MIDDLE_WHEEL_RING_TEXT: Ablesewert. || lokaler Himmels- oder Kalenderplatz A3_MIDDLE_WHEEL_RING_TEXT: Ausgangssektor, Ursprung oder Bezugswert; lokaler Namensrest o/am. || lokaler Himmels- oder Kalenderplatz A3_MIDDLE_WHEEL_RING_TEXT: durch Sektor, Ring oder Pruefweg fuehren; lokaler Namensrest o/y. || lokaler Himmels- oder Kalenderplatz A3_MIDDLE_WHEEL_RING_TEXT: diese Position laenger halten. || lokaler Himmels- oder Kalenderplatz A3_MIDDLE_WHEEL_RING_TEXT: Sollwert oder Grad des bezeichneten Himmelsplatzes. || lokaler Himmels- oder Kalenderplatz A3_MIDDLE_WHEEL_RING_TEXT: dieser lokale Diagrammposten. || lokaler Himmels- oder Kalenderplatz A3_MIDDLE_WHEEL_RING_TEXT: Zielsektor, Zielstern oder Zielfeld; lokaler Namensrest daii. || A3_MIDDLE_WHEEL_RING_TEXT: Ablesewert fest. || lokaler Himmels- oder Kalenderplatz A3_MIDDLE_WHEEL_RING_TEXT: zum bezeichneten Zielplatz. || A3_MIDDLE_WHEEL_RING_TEXT: ausgewählter Phasenwert. || lokaler Himmels- oder Kalenderplatz A3_MIDDLE_WHEEL_RING_TEXT: Ausgangssektor, Ursprung oder Bezugswert; lokaler Namensrest che. || lokaler Himmels- oder Kalenderplatz A3_MIDDLE_WHEEL_RING_TEXT: dieser lokale Diagrammposten. || lokaler Himmels- oder Kalenderplatz A3_MIDDLE_WHEEL_RING_TEXT: dieser lokale Diagrammposten. || A3_MIDDLE_WHEEL_RING_TEXT: aktuelle Klasse. || A3_MIDDLE_WHEEL_RING_TEXT: Zustand. || lokaler Himmels- oder Kalenderplatz A3_MIDDLE_WHEEL_RING_TEXT: dieser lokale Diagrammposten. || lokaler Himmels- oder Kalenderplatz A3_MIDDLE_WHEEL_RING_TEXT: dieser lokale Diagrammposten. || lokaler Himmels- oder Kalenderplatz A3_MIDDLE_WHEEL_RING_TEXT: im selben Ring oder Band fortsetzen. || lokaler Himmels- oder Kalenderplatz A3_MIDDLE_WHEEL_RING_TEXT: Ausgangssektor, Ursprung oder Bezugswert; lokaler Namensrest yk. || lokaler Himmels- oder Kalenderplatz A3_MIDDLE_WHEEL_RING_TEXT: im selben Ring oder Band fortsetzen. || lokaler Himmels- oder Kalenderplatz A3_MIDDLE_WHEEL_RING_TEXT: dieser lokale Diagrammposten. || lokaler Himmels- oder Kalenderplatz A3_MIDDLE_WHEEL_RING_TEXT: lange oder volle Diagrammstufe; lokaler Namensrest yk/ody. || lokaler Himmels- oder Kalenderplatz A3_MIDDLE_WHEEL_RING_TEXT: dieser lokale Diagrammposten. || lokaler Himmels- oder Kalenderplatz A3_MIDDLE_WHEEL_RING_TEXT: zum bezeichneten Zielplatz. || lokaler Himmels- oder Kalenderplatz A3_MIDDLE_WHEEL_RING_TEXT: diesen Diagrammposten zuruecknehmen. || lokaler Himmels- oder Kalenderplatz A3_MIDDLE_WHEEL_RING_TEXT: Himmels-, Ring- oder Zeigerlauf; lokaler Namensrest chy. || lokaler Himmels- oder Kalenderplatz A3_MIDDLE_WHEEL_RING_TEXT: diesen Diagrammposten setzen. || A3_MIDDLE_WHEEL_RING_TEXT: aktueller Ablesewert. || lokaler Himmels- oder Kalenderplatz A3_MIDDLE_WHEEL_RING_TEXT: dieser lokale Diagrammposten.
+- **f69v.3 — A3_RIGHT_WHEEL_RING_TEXT** `doair otaldal dair chdy otoar ar chy qoteor cho qotair chda oteeal cheor ar air oteody ytyd a dchy otoly okeodal oteoarar cheteeser dair chey okody dal oteey oteey`
+  - Gruppen: [EXEMPLAR:doair] [EXEMPLAR:otaldal] [EXEMPLAR:dair] [KERN:überführen/chdy] [EXEMPLAR:otoar] [EXEMPLAR:ar] [KERN:dies/chy] [EXEMPLAR:qoteor] [ASTRO-HOMOGRAPH:cho] [EXEMPLAR:qotair] [EXEMPLAR:chda] [EXEMPLAR:oteeal] [EXEMPLAR:cheor] [EXEMPLAR:ar] [EXEMPLAR:air] [EXEMPLAR:oteody] [EXEMPLAR:ytyd] [EXEMPLAR:a] [EXEMPLAR:dchy] [EXEMPLAR:otoly] [EXEMPLAR:okeodal] [EXEMPLAR:oteoarar] [EXEMPLAR:cheteeser] [EXEMPLAR:dair] [KERN:dies/chey] [EXEMPLAR:okody] [KERN:dorthin/dal] [ASTRO-HOMOGRAPH:oteey] [ASTRO-HOMOGRAPH:oteey]
+  - Lokale Lesung: lokaler Himmels- oder Kalenderplatz A3_RIGHT_WHEEL_RING_TEXT: Himmels-, Ring- oder Zeigerlauf; lokaler Namensrest do. || lokaler Himmels- oder Kalenderplatz A3_RIGHT_WHEEL_RING_TEXT: naechster Platz oder folgende Bedingung + Zielsektor, Zielstern oder Zielfeld + Zielsektor, Zielstern oder Zielfeld; lokaler Namensrest d. || lokaler Himmels- oder Kalenderplatz A3_RIGHT_WHEEL_RING_TEXT: Himmels-, Ring- oder Zeigerlauf; lokaler Namensrest d. || lokaler Himmels- oder Kalenderplatz A3_RIGHT_WHEEL_RING_TEXT: auf den bezeichneten Diagrammplatz uebertragen. || lokaler Himmels- oder Kalenderplatz A3_RIGHT_WHEEL_RING_TEXT: naechster Platz oder folgende Bedingung + Ausgangssektor, Ursprung oder Bezugswert; lokaler Namensrest o. || lokaler Himmels- oder Kalenderplatz A3_RIGHT_WHEEL_RING_TEXT: Ausgangssektor, Ursprung oder Bezugswert. || lokaler Himmels- oder Kalenderplatz A3_RIGHT_WHEEL_RING_TEXT: dieser lokale Diagrammposten. || lokaler Himmels- oder Kalenderplatz A3_RIGHT_WHEEL_RING_TEXT: naechster Platz oder folgende Bedingung + Bedingungs-, Tabellen- oder Wahlansatz; lokaler Namensrest q/e. || lokaler Himmels- oder Kalenderplatz A3_RIGHT_WHEEL_RING_TEXT: Eingangsobjekt oder Eingangsbedingung. || lokaler Himmels- oder Kalenderplatz A3_RIGHT_WHEEL_RING_TEXT: naechster Platz oder folgende Bedingung + Himmels-, Ring- oder Zeigerlauf; lokaler Namensrest q. || lokaler Himmels- oder Kalenderplatz A3_RIGHT_WHEEL_RING_TEXT: Wert oder Platzbezug uebertragen; lokaler Namensrest a. || lokaler Himmels- oder Kalenderplatz A3_RIGHT_WHEEL_RING_TEXT: naechster Platz oder folgende Bedingung + lange oder volle Diagrammstufe + Zielsektor, Zielstern oder Zielfeld. || lokaler Himmels- oder Kalenderplatz A3_RIGHT_WHEEL_RING_TEXT: Bedingungs-, Tabellen- oder Wahlansatz; lokaler Namensrest che. || lokaler Himmels- oder Kalenderplatz A3_RIGHT_WHEEL_RING_TEXT: Ausgangssektor, Ursprung oder Bezugswert. || lokaler Himmels- oder Kalenderplatz A3_RIGHT_WHEEL_RING_TEXT: Himmels-, Ring- oder Zeigerlauf. || lokaler Himmels- oder Kalenderplatz A3_RIGHT_WHEEL_RING_TEXT: naechster Platz oder folgende Bedingung; lokaler Namensrest eody. || lokaler Himmels- oder Kalenderplatz A3_RIGHT_WHEEL_RING_TEXT: Teilsektor oder Untereintrag; lokaler Namensrest y/d. || A3_RIGHT_WHEEL_RING_TEXT: Hauptwert. || A3_RIGHT_WHEEL_RING_TEXT: fester Zustand. || lokaler Himmels- oder Kalenderplatz A3_RIGHT_WHEEL_RING_TEXT: naechster Platz oder folgende Bedingung + im selben Ring, Band oder Satz fortsetzen; lokaler Namensrest y. || lokaler Himmels- oder Kalenderplatz A3_RIGHT_WHEEL_RING_TEXT: Diagrammposten setzen oder aktivieren + Zielsektor, Zielstern oder Zielfeld; lokaler Namensrest eod. || lokaler Himmels- oder Kalenderplatz A3_RIGHT_WHEEL_RING_TEXT: naechster Platz oder folgende Bedingung + Ausgangssektor, Ursprung oder Bezugswert + Ausgangssektor, Ursprung oder Bezugswert; lokaler Namensrest eo. || lokaler Himmels- oder Kalenderplatz A3_RIGHT_WHEEL_RING_TEXT: lange oder volle Diagrammstufe; lokaler Namensrest chet/ser. || lokaler Himmels- oder Kalenderplatz A3_RIGHT_WHEEL_RING_TEXT: Himmels-, Ring- oder Zeigerlauf; lokaler Namensrest d. || lokaler Himmels- oder Kalenderplatz A3_RIGHT_WHEEL_RING_TEXT: dieser lokale Diagrammposten. || lokaler Himmels- oder Kalenderplatz A3_RIGHT_WHEEL_RING_TEXT: Diagrammposten setzen oder aktivieren; lokaler Namensrest ody. || lokaler Himmels- oder Kalenderplatz A3_RIGHT_WHEEL_RING_TEXT: zum bezeichneten Zielplatz. || lokaler Himmels- oder Kalenderplatz A3_RIGHT_WHEEL_RING_TEXT: naechster Diagrammposten in langer Stufe. || lokaler Himmels- oder Kalenderplatz A3_RIGHT_WHEEL_RING_TEXT: naechster Diagrammposten in langer Stufe.
+- **f69v.4 — A3_LEFT_RADIAL_SLOT_01** `okeey sar`
+  - Gruppen: [ASTRO-HOMOGRAPH:okeey] [KERN:davon/sar]
+  - Lokale Lesung: Radstelle A3_LEFT_RADIAL_SLOT_01: in langer Stufe setzen. || Radstelle A3_LEFT_RADIAL_SLOT_01: vom bezeichneten Ausgangsplatz.
+- **f69v.5 — A3_LEFT_RADIAL_SLOT_02** `okeo dy`
+  - Gruppen: [EXEMPLAR:okeo] [KERN:dies/dy]
+  - Lokale Lesung: Radstelle A3_LEFT_RADIAL_SLOT_02: Diagrammposten setzen oder aktivieren; lokaler Namensrest eo. || Radstelle A3_LEFT_RADIAL_SLOT_02: dieser lokale Diagrammposten.
+- **f69v.6 — A3_LEFT_RADIAL_SLOT_03** `ochoyk`
+  - Gruppen: [EXEMPLAR:ochoyk]
+  - Lokale Lesung: Radstelle A3_LEFT_RADIAL_SLOT_03: Himmelsobjekt oder Eingangsbedingung; lokaler Namensrest oc/yk.
+- **f69v.7 — A3_LEFT_RADIAL_SLOT_04** `ykeey`
+  - Gruppen: [EXEMPLAR:ykeey]
+  - Lokale Lesung: Radstelle A3_LEFT_RADIAL_SLOT_04: lange oder volle Diagrammstufe; lokaler Namensrest yk/y.
+- **f69v.8 — A3_LEFT_RADIAL_SLOT_05** `ytory`
+  - Gruppen: [EXEMPLAR:ytory]
+  - Lokale Lesung: Radstelle A3_LEFT_RADIAL_SLOT_05: Bedingungs-, Tabellen- oder Wahlansatz; lokaler Namensrest yt/y.
+- **f69v.9 — A3_LEFT_RADIAL_SLOT_06** `oeesy`
+  - Gruppen: [EXEMPLAR:oeesy]
+  - Lokale Lesung: Radstelle A3_LEFT_RADIAL_SLOT_06: lange oder volle Diagrammstufe; lokaler Namensrest o/sy.
+- **f69v.10 — A3_LEFT_RADIAL_SLOT_07** `ytody`
+  - Gruppen: [EXEMPLAR:ytody]
+  - Lokale Lesung: A3_LEFT_RADIAL_SLOT_07: Platz fest eingetragen.
+- **f69v.11 — A3_LEFT_RADIAL_SLOT_08** `okody`
+  - Gruppen: [EXEMPLAR:okody]
+  - Lokale Lesung: Radstelle A3_LEFT_RADIAL_SLOT_08: Diagrammposten setzen oder aktivieren; lokaler Namensrest ody.
+- **f69v.12 — A3_LEFT_RADIAL_SLOT_09** `otody`
+  - Gruppen: [EXEMPLAR:otody]
+  - Lokale Lesung: Radstelle A3_LEFT_RADIAL_SLOT_09: naechster Platz oder folgende Bedingung; lokaler Namensrest ody.
+- **f69v.13 — A3_LEFT_RADIAL_SLOT_10** `okeal`
+  - Gruppen: [EXEMPLAR:okeal]
+  - Lokale Lesung: Radstelle A3_LEFT_RADIAL_SLOT_10: Diagrammposten setzen oder aktivieren + Zielsektor, Zielstern oder Zielfeld; lokaler Namensrest e.
+- **f69v.14 — A3_LEFT_RADIAL_SLOT_11** `okeod`
+  - Gruppen: [EXEMPLAR:okeod]
+  - Lokale Lesung: Radstelle A3_LEFT_RADIAL_SLOT_11: Diagrammposten setzen oder aktivieren; lokaler Namensrest eod.
+- **f69v.15 — A3_LEFT_RADIAL_SLOT_12** `oteeys`
+  - Gruppen: [EXEMPLAR:oteeys]
+  - Lokale Lesung: Radstelle A3_LEFT_RADIAL_SLOT_12: naechster Platz oder folgende Bedingung + lange oder volle Diagrammstufe; lokaler Namensrest ys.
+- **f69v.16 — A3_LEFT_RADIAL_SLOT_13** `oteol`
+  - Gruppen: [EXEMPLAR:oteol]
+  - Lokale Lesung: Radstelle A3_LEFT_RADIAL_SLOT_13: naechster Platz oder folgende Bedingung + im selben Ring, Band oder Satz fortsetzen; lokaler Namensrest e.
+- **f69v.17 — A3_LEFT_RADIAL_SLOT_14** `ykeydy`
+  - Gruppen: [EXEMPLAR:ykeydy]
+  - Lokale Lesung: A3_LEFT_RADIAL_SLOT_14: aktuelle Klasse fest.
+- **f69v.18 — A3_LEFT_RADIAL_SLOT_15** `okeod`
+  - Gruppen: [EXEMPLAR:okeod]
+  - Lokale Lesung: Radstelle A3_LEFT_RADIAL_SLOT_15: Diagrammposten setzen oder aktivieren; lokaler Namensrest eod.
+- **f69v.19 — A3_LEFT_RADIAL_SLOT_16** `saral`
+  - Gruppen: [EXEMPLAR:saral]
+  - Lokale Lesung: Radstelle A3_LEFT_RADIAL_SLOT_16: Ausgangssektor, Ursprung oder Bezugswert + Zielsektor, Zielstern oder Zielfeld; lokaler Namensrest s.
+- **f69v.20 — A3_LEFT_RADIAL_SLOT_17** `saiir`
+  - Gruppen: [EXEMPLAR:saiir]
+  - Lokale Lesung: A3_LEFT_RADIAL_SLOT_17: sekundärer Hauptindex.
+- **f69v.21 — A3_LEFT_RADIAL_SLOT_18** `okolar`
+  - Gruppen: [EXEMPLAR:okolar]
+  - Lokale Lesung: Radstelle A3_LEFT_RADIAL_SLOT_18: Diagrammposten setzen oder aktivieren + im selben Ring, Band oder Satz fortsetzen + Ausgangssektor, Ursprung oder Bezugswert.
+- **f69v.22 — A3_LEFT_RADIAL_SLOT_19** `ykeody`
+  - Gruppen: [EXEMPLAR:ykeody]
+  - Lokale Lesung: A3_LEFT_RADIAL_SLOT_19: Klassenplatz fest eingetragen.
+- **f69v.23 — A3_LEFT_RADIAL_SLOT_20** `sarydy`
+  - Gruppen: [EXEMPLAR:sarydy]
+  - Lokale Lesung: Radstelle A3_LEFT_RADIAL_SLOT_20: Ausgangssektor, Ursprung oder Bezugswert; lokaler Namensrest s/ydy.
+- **f69v.24 — A3_LEFT_RADIAL_SLOT_21** `otchy`
+  - Gruppen: [EXEMPLAR:otchy]
+  - Lokale Lesung: Radstelle A3_LEFT_RADIAL_SLOT_21: naechster Platz oder folgende Bedingung; lokaler Namensrest chy.
+- **f69v.25 — A3_LEFT_RADIAL_SLOT_22** `okeey dy`
+  - Gruppen: [ASTRO-HOMOGRAPH:okeey] [KERN:dies/dy]
+  - Lokale Lesung: Radstelle A3_LEFT_RADIAL_SLOT_22: in langer Stufe setzen. || Radstelle A3_LEFT_RADIAL_SLOT_22: dieser lokale Diagrammposten.
+- **f69v.26 — A3_LEFT_RADIAL_SLOT_23** `okey d`
+  - Gruppen: [ASTRO-HOMOGRAPH:okey] [EXEMPLAR:d]
+  - Lokale Lesung: Radstelle A3_LEFT_RADIAL_SLOT_23: in kurzer Stufe setzen. || A3_LEFT_RADIAL_SLOT_23: Festwert.
+- **f69v.27 — A3_LEFT_RADIAL_SLOT_24** `okeod`
+  - Gruppen: [EXEMPLAR:okeod]
+  - Lokale Lesung: Radstelle A3_LEFT_RADIAL_SLOT_24: Diagrammposten setzen oder aktivieren; lokaler Namensrest eod.
+- **f69v.28 — A3_LEFT_RADIAL_SLOT_25** `okodchy`
+  - Gruppen: [EXEMPLAR:okodchy]
+  - Lokale Lesung: Radstelle A3_LEFT_RADIAL_SLOT_25: Diagrammposten setzen oder aktivieren; lokaler Namensrest odchy.
+- **f69v.29 — A3_LEFT_RADIAL_SLOT_26** `okeody`
+  - Gruppen: [EXEMPLAR:okeody]
+  - Lokale Lesung: Radstelle A3_LEFT_RADIAL_SLOT_26: Diagrammposten setzen oder aktivieren; lokaler Namensrest eody.
+- **f69v.30 — A3_LEFT_RADIAL_SLOT_27** `okcheys`
+  - Gruppen: [EXEMPLAR:okcheys]
+  - Lokale Lesung: Radstelle A3_LEFT_RADIAL_SLOT_27: Diagrammplatz berechnen oder bearbeiten; lokaler Namensrest o/eys.
+- **f69v.31 — A3_LEFT_RADIAL_SLOT_28** `oar alys`
+  - Gruppen: [EXEMPLAR:oar] [EXEMPLAR:alys]
+  - Lokale Lesung: Radstelle A3_LEFT_RADIAL_SLOT_28: Ausgangssektor, Ursprung oder Bezugswert; lokaler Namensrest o. || Radstelle A3_LEFT_RADIAL_SLOT_28: Zielsektor, Zielstern oder Zielfeld; lokaler Namensrest ys.

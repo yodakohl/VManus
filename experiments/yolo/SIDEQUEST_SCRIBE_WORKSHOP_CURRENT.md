@@ -6928,8 +6928,15 @@ prose whole/core events, 23 Astro homographs and 306 Astro-local exemplar
 groups. The unified table is
 `sidequest_semantic_776_layered_edition_two_hundred_sixteenth/TWO_HUNDRED_SIXTEENTH_776_LAYERED_LEDGER.tsv`.
 
-Next, rewrite the readable ten-page edition so each unit visibly separates
-bracketed card values from image/owner/exemplar expansions.
+Pass 217 rewrites the complete fixed selection as one readable layered edition:
+116 Prose statements carry all 381 events, while 142 Astro loci carry all 395
+groups. Every line visibly separates portable card value, shared component,
+Prose extension, learned whole card and image/diagram expansion. See
+`sidequest_semantic_readable_layered_ten_pages_two_hundred_seventeenth/TWO_HUNDRED_SEVENTEENTH_READABLE_TEN_PAGES.md`.
+
+Next, rank the twenty places where the fluent owner reading adds the most
+content beyond the cards and tighten those passages without making the German
+unreadable.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
