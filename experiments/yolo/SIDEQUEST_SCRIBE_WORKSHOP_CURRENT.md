@@ -6977,8 +6977,13 @@ referent, three to a running operation, one to a value and one repeats an
 action from the same source. See
 `sidequest_semantic_aba_return_frame_two_hundred_twenty_fourth/TWO_HUNDRED_TWENTY_FOURTH_ABA_RETURN_RULE.md`.
 
-Next, fold the A–B–A return frame into all 116 statement parses so the nine
-constructions read as single units rather than three independent cards.
+Pass 225 folds the nine frames into all statement parses. The 381 events become
+363 reading units: 354 atomic cards and nine A–B–A constructions. Nine
+statements gain concise return readings; 107 remain unchanged. See
+`sidequest_semantic_aba_integrated_statements_two_hundred_twenty_fifth/TWO_HUNDRED_TWENTY_FIFTH_READABLE_ABA_EDITION.md`.
+
+Next, inspect immediate A–A and A–A–B repetitions for a second learnable rule:
+plurality, repeated action, emphasis or simple scribal carry.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these

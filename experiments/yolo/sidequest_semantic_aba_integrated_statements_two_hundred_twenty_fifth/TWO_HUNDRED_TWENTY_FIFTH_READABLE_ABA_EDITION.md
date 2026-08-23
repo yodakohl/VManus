@@ -1,0 +1,382 @@
+# Satzedition mit A–B–A-Rückkehrrahmen
+
+## H1 — WHOLE_BROAD_TOOTHED_RADIAL_FLOWERED_HERB
+
+- **H1-S001 · EINZELKARTEN** `dchey cthoor char chty os chair otytchol oky daiin etyd`
+  - Bau: [KARTE:Wurzel] [KARTE:Vorbereitung] [KARTE:davon] [KARTE:Teil] [KARTE:Aufnahmegefäß] [KARTE:Zuguss] [KARTE:Folgeteil] [KARTE:einsetzen] [KARTE:Sollwert] [KARTE:kleiner Rest]
+  - Lesung: Wurzel nehmen, Teil im Aufnahmegefäß vorbereiten, zugießen, Folgeteil einsetzen, auf Sollwert bringen und kleinen Rest belassen.
+- **H1-S002 · EINZELKARTEN** `qokchy qotchol chol cthy`
+  - Bau: [KARTE:weiterbearbeiten] [KARTE:Folgegang] [KARTE:weiter] [KARTE:bereit]
+  - Lesung: Die erste Charge weiterbearbeiten, im Folgegang weiterführen und als bereit halten.
+
+## H2 — WHOLE_BROAD_TOOTHED_RADIAL_FLOWERED_HERB
+
+- **H2-S001 · RAHMEN** `ycheor cthy chor cthaiin qoctholy dy chy taiin shy`
+  - Bau: [KARTE:Auszugsansatz] [KARTE:bereit] [KARTE:Ansatz] [KARTE:Sollvorbereitung] [KARTE:bereiter Folgeposten] [KARTE:dies] [ABA:Diesen Posten auf Sollwert setzen und als denselben Posten weiterführen.]
+  - Lesung: Auszugsansatz bereitstellen und Folgeansatz vorbereiten; diesen und den folgenden Posten führen, den folgenden auf Sollwert setzen und als aktuellen Posten halten.
+- **H2-S002 · RAHMEN** `qotchor chor otol chol cholor chol daiin dar`
+  - Bau: [KARTE:Folgeansatz] [KARTE:Ansatz] [KARTE:Fortgang] [ABA:Weiter im selben Ansatz, dann den Fortgang wieder aufnehmen.] [KARTE:Sollwert] [KARTE:davon]
+  - Lesung: Folgeansatz ansetzen; im Fortgang denselben Ansatz ohne Wechsel weiterführen und davon den Sollwert nehmen.
+- **H2-S003 · RAHMEN** `oykchor shor chor chy kaiiin dy chodaiin`
+  - Bau: [KARTE:Zubereitungsgefäß] [KARTE:Ansatz] [KARTE:Ansatz] [ABA:Diesen Posten durch die Bearbeitungsstufe führen und als denselben Posten halten.] [KARTE:Zugabemaß]
+  - Lesung: Im Zubereitungsgefäß den Ansatz führen, denselben Posten durch die Bearbeitungsstufe halten und das Zugabemaß einsetzen.
+
+## H3 — WHOLE_DENSE_BLUE_FLOWERED_CROWN_PLANT
+
+- **H3-S001 · EINZELKARTEN** `tshol schoal cfhy shfydaiin cphy shey tchody`
+  - Bau: [KARTE:Kochgut] [KARTE:Sudansatz] [KARTE:auswringen] [KARTE:Stehzeit] [KARTE:nachseihen] [KARTE:Ergebnis] [KARTE:kalt stellen; Schluss]
+  - Lesung: Kochgut zum Sud ansetzen, auswringen, Stehzeit abwarten, nachseihen, Ergebnis abnehmen und kalt stellen; Schluss.
+- **H3-S002 · EINZELKARTEN** `shoyty`
+  - Bau: [KARTE:Zugabeteil]
+  - Lesung: Den weiteren Zugabeteil bereitlegen.
+- **H3-S003 · RAHMEN** `dchol chy kchy dy daiin`
+  - Bau: [KARTE:vom vorigen] [ABA:Diesen Posten bearbeiten und als denselben Posten weiterführen.] [KARTE:Sollwert]
+  - Lesung: Vom vorigen Ansatz denselben Posten bearbeiten und behalten, dann auf Sollwert bringen.
+- **H3-S004 · EINZELKARTEN** `qotchy okchol cthy dy`
+  - Bau: [KARTE:nächster Posten] [KARTE:weiter einsetzen] [KARTE:bereit] [KARTE:dies]
+  - Lesung: Zum Nächsten wechseln, weiter einsetzen, Bereitschaft prüfen und dies halten.
+
+## H4 — WHOLE_BROAD_LEAF_PANICLED_PLANT_WITH_MNEMONIC_ROOT
+
+- **H4-S001 · EINZELKARTEN** `qokaiin chaiin ykain ykan ody`
+  - Bau: [KARTE:bemessen] [KARTE:Sollwert] [KARTE:erste Portion] [KARTE:zweite Portion] [KARTE:abkühlen; Schluss]
+  - Lesung: Bemessen, auf Sollwert in erste und zweite Portion teilen und abkühlen lassen; Schluss.
+- **H4-S002 · EINZELKARTEN** `daiin chedy talam`
+  - Bau: [KARTE:Sollwert] [KARTE:überführen] [KARTE:Verwahrort]
+  - Lesung: Die Sollmenge überführen und am Verwahrort ablegen.
+- **H4-S003 · EINZELKARTEN** `ykaiin cheoar cheeky oldy`
+  - Bau: [KARTE:Sollportion] [KARTE:Quellauszug] [KARTE:länger bearbeiten] [KARTE:Schluss]
+  - Lesung: Sollportion aus dem Quellauszug nehmen und länger bearbeiten; Schluss.
+- **H4-S004 · EINZELKARTEN** `aiin okal oltchy or y orain`
+  - Bau: [KARTE:Sollwert] [KARTE:dorthin einsetzen] [KARTE:Folgebereitung] [KARTE:Ansatz] [KARTE:dies] [KARTE:Bereitungsanteil]
+  - Lesung: Das Sollmaß am Ziel einsetzen und aus diesem Ansatz mit dem Bereitungsanteil die Folgezubereitung bilden.
+
+## H5 — WHOLE_MULTIHEAD_SPINY_OR_EMBLEMATIC_HERB
+
+- **H5-S001 · EINZELKARTEN** `chochor cho chodaly daiin sho kchol otchor choky dal`
+  - Bau: [KARTE:Zugabeansatz] [KARTE:weitere Zutat] [KARTE:Zielzugabe] [KARTE:Sollwert] [KARTE:weitere Zutat] [KARTE:weiter bearbeiten] [KARTE:Folgeansatz] [KARTE:einsetzen] [KARTE:dorthin]
+  - Lesung: Zugabeansatz, weitere Zutat als Zielzugabe auf Sollwert, Folgeansatz weiterbearbeiten, einsetzen und dorthin führen.
+- **H5-S002 · EINZELKARTEN** `schol choy choky cheeckhody`
+  - Bau: [KARTE:vom vorigen] [KARTE:Zugabeposten] [KARTE:einsetzen] [KARTE:auftragen; Schluss]
+  - Lesung: Vom vorigen Ansatz den Zugabeposten nehmen, einsetzen und an der Zielstelle auftragen; Schluss.
+- **H5-S003 · EINZELKARTEN** `sh cho kchey qokokchy`
+  - Bau: [KARTE:Stängel] [KARTE:weitere Zutat] [KARTE:Kurzbearbeitung] [KARTE:erneut einsetzen]
+  - Lesung: Den Stängel und eine weitere Zutat kurz bearbeiten und erneut einsetzen.
+- **H5-S004 · EINZELKARTEN** `okchy chokcheo kchal`
+  - Bau: [KARTE:weiterbearbeiten] [KARTE:Auszug einsetzen] [KARTE:Zielbearbeitung]
+  - Lesung: Weiterbearbeiten, den Auszug einsetzen und an der Zielstelle verteilen.
+- **H5-S005 · EINZELKARTEN** `sho chokchy kchoar sotodan`
+  - Bau: [KARTE:weitere Zutat] [KARTE:weiterbearbeiten] [KARTE:bearbeiteter Quellauszug] [KARTE:Folgeanwendung]
+  - Lesung: Eine weitere Zutat mit dem bearbeiteten Quellauszug weiterbearbeiten und die Folgeanwendung ausführen.
+- **H5-S006 · EINZELKARTEN** `otchey keol daiin`
+  - Bau: [KARTE:das nächste] [KARTE:kurz weiterbearbeiten] [KARTE:Sollwert]
+  - Lesung: Zum nächsten Posten wechseln, kurz weiterbearbeiten und auf Sollmaß bringen.
+
+## B1 — gemeinsames zweireihiges Figuren-/Beckenfeld
+
+- **B1-S001 · EINZELKARTEN** `qokedy`
+  - Bau: [KARTE:kurz einwirken; Schluss]
+  - Lesung: Kurz einwirken lassen; Schluss.
+- **B1-S002 · RAHMEN** `okaiin kair okal sar ol kain olkain al ol rol dl olor ol sheckhal daiin qokeedal daiin chckhy schedy`
+  - Bau: [KARTE:bemessen] [KARTE:Beckenlauf] [KARTE:dorthin einsetzen] [KARTE:davon] [KARTE:weiter] [KARTE:Portion] [KARTE:weiterer Anteil] [KARTE:dorthin] [KARTE:weiter] [KARTE:Anschluss] [KARTE:Zusatz] [KARTE:derselbe Ansatz] [KARTE:weiter] [KARTE:Kurze Zielpassage] [ABA:Den Sollwert während des langen Zieleinsatzes beibehalten.] [KARTE:durchleiten] [KARTE:überführen; Schluss]
+  - Lesung: Eine Portion ansetzen, weiterführen und am Ziel einsetzen; denselben Sollwert während des langen Zieleinsatzes halten, durchleiten und überführen; Schluss.
+- **B1-S003 · EINZELKARTEN** `qol sshkchdy`
+  - Bau: [KARTE:weiter] [KARTE:Haltetransfer; Schluss]
+  - Lesung: Weiterführen und haltend übertragen; Schluss.
+- **B1-S004 · EINZELKARTEN** `chedy ol shedy`
+  - Bau: [KARTE:überführen] [KARTE:weiter] [KARTE:kurz absetzen; Schluss]
+  - Lesung: Überführen, weiterführen und kurz absetzen lassen; Schluss.
+- **B1-S005 · EINZELKARTEN** `qolchedy`
+  - Bau: [KARTE:weiterführen; Schluss]
+  - Lesung: Weiterführen; Schluss.
+- **B1-S006 · EINZELKARTEN** `qokain shckhy dl ral`
+  - Bau: [KARTE:Anteil zugeben] [KARTE:durchleiten] [KARTE:Zusatz] [KARTE:Zielmarke]
+  - Lesung: Einen Anteil zugeben, durchleiten und den Zusatz an der Zielmarke halten.
+- **B1-S007 · EINZELKARTEN** `qokchdy`
+  - Bau: [KARTE:einführen; Schluss]
+  - Lesung: In die offene Zielstelle einführen; Schluss.
+- **B1-S008 · RAHMEN** `chey ol cheky ol shedy`
+  - Bau: [KARTE:dies] [ABA:Den laufenden Gang kurz wärmen und danach denselben Gang fortsetzen.] [KARTE:kurz absetzen; Schluss]
+  - Lesung: Denselben laufenden Gang kurz wärmen und weiterführen, dann kurz absetzen; Schluss.
+- **B1-S009 · EINZELKARTEN** `qokedy`
+  - Bau: [KARTE:kurz einwirken; Schluss]
+  - Lesung: Kurz einwirken lassen; Schluss.
+- **B1-S010 · EINZELKARTEN** `qokedy`
+  - Bau: [KARTE:kurz einwirken; Schluss]
+  - Lesung: Kurz einwirken lassen; Schluss.
+- **B1-S011 · EINZELKARTEN** `chckhy qoky`
+  - Bau: [KARTE:durchleiten] [KARTE:einsetzen]
+  - Lesung: Durch den verbundenen Gang leiten und einsetzen.
+- **B1-S012 · EINZELKARTEN** `lsho qokey lshedy`
+  - Bau: [KARTE:Waschgang] [KARTE:kurz einwirken] [KARTE:Waschgang; Schluss]
+  - Lesung: Waschen, kurz einwirken lassen und nochmals waschen; Schluss.
+- **B1-S013 · EINZELKARTEN** `lshedy`
+  - Bau: [KARTE:Waschgang; Schluss]
+  - Lesung: Einen Waschgang ausführen; Schluss.
+- **B1-S014 · EINZELKARTEN** `chedy qolky lchedal qol otar`
+  - Bau: [KARTE:überführen] [KARTE:Weiterweg] [KARTE:Zielabführung] [KARTE:weiter] [KARTE:Folgequelle]
+  - Lesung: Überführen, über den Weiterweg an der Zielstelle abführen und zur Folgequelle weitergehen.
+- **B1-S015 · EINZELKARTEN** `ytey okchedy`
+  - Bau: [KARTE:Kurzteil] [KARTE:einführen; Schluss]
+  - Lesung: Den kurzen Teil aus der eben gesetzten Quelle einführen; Schluss.
+- **B1-S016 · EINZELKARTEN** `qokal okeey qol cheedy`
+  - Bau: [KARTE:dorthin einsetzen] [KARTE:lange einwirken] [KARTE:weiter] [KARTE:kurz absetzen; Schluss]
+  - Lesung: Am Ziel einsetzen, länger einwirken lassen, weiterführen und kurz absetzen lassen; Schluss.
+- **B1-S017 · EINZELKARTEN** `sal teol dchdy`
+  - Bau: [KARTE:dorthin] [KARTE:kurz weiterführen] [KARTE:Transfer; Schluss]
+  - Lesung: Dorthin bringen, kurz weiterführen und übertragen; Schluss.
+- **B1-S018 · EINZELKARTEN** `ly dsheol oiiin olkeedy`
+  - Bau: [KARTE:Auffanggefäß] [KARTE:Kurzhalt] [KARTE:Arbeitsstufe] [KARTE:lange sammeln; Schluss]
+  - Lesung: Im Auffanggefäß kurz halten, die Arbeitsstufe setzen und länger auffangen; Schluss.
+- **B1-S019 · EINZELKARTEN** `tedy`
+  - Bau: [KARTE:kurz absetzen; Schluss]
+  - Lesung: Kurz absetzen lassen; Schluss.
+- **B1-S020 · EINZELKARTEN** `cheky shckhedy`
+  - Bau: [KARTE:kurz wärmen] [KARTE:durchlassen; Schluss]
+  - Lesung: Kurz wärmen und durchlassen; Schluss.
+- **B1-S021 · EINZELKARTEN** `chal`
+  - Bau: [KARTE:dorthin]
+  - Lesung: Dorthin bringen.
+
+## B2 — obere Paarbecken-/Zylinderstation
+
+- **B2-S001 · EINZELKARTEN** `dchedy`
+  - Bau: [KARTE:überführen; Schluss]
+  - Lesung: In die obere Paarbeckenstation überführen; Schluss.
+- **B2-S002 · EINZELKARTEN** `qolchedy`
+  - Bau: [KARTE:weiterführen; Schluss]
+  - Lesung: Durch die obere Station weiterführen; Schluss.
+- **B2-S003 · EINZELKARTEN** `qokain dy qokeedy`
+  - Bau: [KARTE:Anteil zugeben] [KARTE:dies] [KARTE:lange einwirken; Schluss]
+  - Lesung: Einen Anteil zugeben, diesen Posten länger einwirken lassen; Schluss.
+- **B2-S004 · EINZELKARTEN** `qokal lcheckhy lched qokeey lcheckhedy`
+  - Bau: [KARTE:dorthin einsetzen] [KARTE:Abführpassage] [KARTE:Abführung] [KARTE:lange einwirken] [KARTE:Trennabzug; Schluss]
+  - Lesung: Am Ziel einsetzen, durchleiten, abführen, länger einwirken und getrennt abziehen; Schluss.
+- **B2-S005 · EINZELKARTEN** `qokaly solkaiin chckhy qokaiin qokaiin octheol chkeey ldy`
+  - Bau: [KARTE:Zieleinsatz] [KARTE:Sollsammlung] [KARTE:durchleiten] [KARTE:bemessen] [KARTE:bemessen] [KARTE:Fortsetzung vorbereiten] [KARTE:Langwärmen] [KARTE:abziehen; Schluss]
+  - Lesung: Am Ziel einsetzen, bis zum Soll sammeln, durchleiten, zweimal bemessen, die Fortsetzung vorbereiten, länger wärmen und abziehen; Schluss.
+- **B2-S006 · EINZELKARTEN** `oteey qokal sheckhy qoky`
+  - Bau: [KARTE:Langfolge] [KARTE:dorthin einsetzen] [KARTE:Kurzpassage] [KARTE:einsetzen]
+  - Lesung: Die lange Folge ausführen, dorthin einsetzen, durch die kurze Passage führen und einsetzen.
+- **B2-S007 · EINZELKARTEN** `dshedy`
+  - Bau: [KARTE:Frischwasser zugeben; Schluss]
+  - Lesung: An der mittleren linken Knotenstation Frischwasser zugeben; Schluss.
+- **B2-S008 · EINZELKARTEN** `sotaiin qokar shedy`
+  - Bau: [KARTE:Folgemaß] [KARTE:Quelleinsatz] [KARTE:kurz absetzen; Schluss]
+  - Lesung: Das Folgemaß aus der Quelle einsetzen und kurz absetzen lassen; Schluss.
+- **B2-S009 · EINZELKARTEN** `solshedy`
+  - Bau: [KARTE:Folgeabsetzen; Schluss]
+  - Lesung: Den Folgeposten absetzen lassen; Schluss.
+- **B2-S010 · EINZELKARTEN** `qokeey qoky ls cheey`
+  - Bau: [KARTE:lange einwirken] [KARTE:einsetzen] [KARTE:Auslass] [KARTE:Ergebnis]
+  - Lesung: Länger einwirken lassen, einsetzen und den klaren Auszug zum Auslass führen.
+- **B2-S011 · RAHMEN** `okain char okain qokeedy`
+  - Bau: [ABA:Einen Anteil zugeben, davon nehmen und denselben Zugabegang wiederholen.] [KARTE:lange einwirken; Schluss]
+  - Lesung: Anteil zugeben, davon nehmen, denselben Zugabegang wiederholen und länger einwirken; Schluss.
+- **B2-S012 · EINZELKARTEN** `lchy cheey qcthey qokeey lcheey daiin chey qokeeedy`
+  - Bau: [KARTE:Abführgut] [KARTE:Ergebnis] [KARTE:kurz vorbereiten] [KARTE:lange einwirken] [KARTE:Klarabzug] [KARTE:Sollwert] [KARTE:dies] [KARTE:Volleinsatz; Schluss]
+  - Lesung: Abführgut auf Ergebnis kurz vorbereiten, länger einwirken, klar abziehen, auf Sollwert bringen und vollständig einsetzen; Schluss.
+- **B2-S013 · EINZELKARTEN** `lchedy`
+  - Bau: [KARTE:abführen; Schluss]
+  - Lesung: In das untere grüne Mehrfigurenfeld abführen; Schluss.
+- **B2-S014 · EINZELKARTEN** `lar`
+  - Bau: [KARTE:Quellabzug]
+  - Lesung: Aus der Quelle abziehen.
+- **B2-S015 · EINZELKARTEN** `tshey qokeedy`
+  - Bau: [KARTE:Folgeklarlauf] [KARTE:lange einwirken; Schluss]
+  - Lesung: An der lokalen Randstation den Folgeklarlauf länger einwirken lassen; Schluss.
+- **B2-S016 · EINZELKARTEN** `cheal lchedar ches aiin oteey qokaiin okey pchedy`
+  - Bau: [KARTE:dorthin] [KARTE:Quellabführung] [KARTE:teilen] [KARTE:Sollwert] [KARTE:Langfolge] [KARTE:bemessen] [KARTE:kurz einwirken] [KARTE:Zuführung; Schluss]
+  - Lesung: Dorthin führen, davon abführen, teilen, auf Sollwert bringen, die Folge bemessen, kurz einwirken und zuführen; Schluss.
+- **B2-S017 · EINZELKARTEN** `rsheal daldy`
+  - Bau: [KARTE:Kurzhalt am Ziel] [KARTE:Zielschluss]
+  - Lesung: Am Ziel kurz halten und den Zielschritt schließen.
+- **B2-S018 · EINZELKARTEN** `qokeedy`
+  - Bau: [KARTE:lange einwirken; Schluss]
+  - Lesung: Länger einwirken lassen; Schluss.
+- **B2-S019 · EINZELKARTEN** `rshedy`
+  - Bau: [KARTE:Vollwaschung; Schluss]
+  - Lesung: Eine Vollwaschung ausführen; Schluss.
+- **B2-S020 · EINZELKARTEN** `qoteedy`
+  - Bau: [KARTE:lange Folgestufe; Schluss]
+  - Lesung: Die folgende Stufe länger halten; Schluss.
+- **B2-S021 · EINZELKARTEN** `qokeedy`
+  - Bau: [KARTE:lange einwirken; Schluss]
+  - Lesung: Länger einwirken lassen; Schluss.
+- **B2-S022 · EINZELKARTEN** `lochedy`
+  - Bau: [KARTE:Abführung; Schluss]
+  - Lesung: Abführen; Schluss.
+
+## B3 — obere offene Fächer-Randstation
+
+- **B3-S001 · EINZELKARTEN** `olkeedy`
+  - Bau: [KARTE:lange sammeln; Schluss]
+  - Lesung: An der oberen offenen Randstation länger auffangen; Schluss.
+- **B3-S002 · EINZELKARTEN** `qotal chkeedy`
+  - Bau: [KARTE:danach dorthin] [KARTE:Langwärmen; Schluss]
+  - Lesung: Danach zur nächsten Stelle führen und dort länger erwärmen; Schluss.
+- **B3-S003 · RAHMEN** `chey daiin chey lchedy`
+  - Bau: [ABA:Diesen Bestand auf Sollwert setzen und als denselben Bestand weiterführen.] [KARTE:abführen; Schluss]
+  - Lesung: Diesen Bestand auf Sollwert setzen, als denselben Bestand aktiv halten und abführen; Schluss.
+- **B3-S004 · EINZELKARTEN** `qokaiin qotal dar`
+  - Bau: [KARTE:bemessen] [KARTE:danach dorthin] [KARTE:davon]
+  - Lesung: Davon eine Menge abmessen und zur folgenden Stelle bringen.
+- **B3-S005 · EINZELKARTEN** `schedy`
+  - Bau: [KARTE:überführen; Schluss]
+  - Lesung: In die mittlere runde Randstation überführen; Schluss.
+- **B3-S006 · EINZELKARTEN** `chedchy qokal olchedy`
+  - Bau: [KARTE:Postentransfer] [KARTE:dorthin einsetzen] [KARTE:weiterführen; Schluss]
+  - Lesung: Den Posten übertragen, am Ziel einsetzen und weiterführen; Schluss.
+- **B3-S007 · EINZELKARTEN** `qokaiin chedy qokeedy`
+  - Bau: [KARTE:bemessen] [KARTE:überführen] [KARTE:lange einwirken; Schluss]
+  - Lesung: Bemessen, überführen und länger einwirken lassen; Schluss.
+- **B3-S008 · EINZELKARTEN** `lchedy`
+  - Bau: [KARTE:abführen; Schluss]
+  - Lesung: Aus der Station abführen; Schluss.
+- **B3-S009 · EINZELKARTEN** `qoky`
+  - Bau: [KARTE:einsetzen]
+  - Lesung: Den Posten einsetzen.
+- **B3-S010 · EINZELKARTEN** `pchedal otedy`
+  - Bau: [KARTE:Zielzuführung] [KARTE:Kurzfolge; Schluss]
+  - Lesung: Der unteren korbartigen Randstation zuführen und kurz weiterführen; Schluss.
+- **B3-S011 · EINZELKARTEN** `shecthedchy qoky chedy chary`
+  - Bau: [KARTE:Vorbereitungstransfer] [KARTE:einsetzen] [KARTE:überführen] [KARTE:Quellposten]
+  - Lesung: Die Vorbereitung übertragen, einsetzen, weiterführen und beim Quellposten belassen.
+- **B3-S012 · EINZELKARTEN** `sor shedy`
+  - Bau: [KARTE:Ansatz] [KARTE:kurz absetzen; Schluss]
+  - Lesung: Den Ansatz kurz absetzen lassen; Schluss.
+- **B3-S013 · EINZELKARTEN** `qokaiin chkain shcthey qokedy`
+  - Bau: [KARTE:bemessen] [KARTE:Portion] [KARTE:kurz vorbereiten] [KARTE:kurz einwirken; Schluss]
+  - Lesung: Eine Portion bemessen, kurz vorbereiten und kurz einwirken lassen; Schluss.
+- **B3-S014 · EINZELKARTEN** `okair sheedy`
+  - Bau: [KARTE:Laufeinsatz] [KARTE:Langabsetzen; Schluss]
+  - Lesung: In den Lauf einsetzen und länger absetzen lassen; Schluss.
+- **B3-S015 · EINZELKARTEN** `lchedy`
+  - Bau: [KARTE:abführen; Schluss]
+  - Lesung: Aus der Station abführen; Schluss.
+- **B3-S016 · EINZELKARTEN** `lo qokchedy`
+  - Bau: [KARTE:Abzug] [KARTE:einführen; Schluss]
+  - Lesung: Abziehen und in die nächste Station einführen; Schluss.
+- **B3-S017 · EINZELKARTEN** `qokeedy`
+  - Bau: [KARTE:lange einwirken; Schluss]
+  - Lesung: Länger einwirken lassen; Schluss.
+- **B3-S018 · EINZELKARTEN** `shedy`
+  - Bau: [KARTE:kurz absetzen; Schluss]
+  - Lesung: Kurz absetzen lassen; Schluss.
+- **B3-S019 · EINZELKARTEN** `qokshedy`
+  - Bau: [KARTE:Einsatzabsetzen; Schluss]
+  - Lesung: Nach dem Einsatz absetzen lassen; Schluss.
+- **B3-S020 · EINZELKARTEN** `dal lchedy`
+  - Bau: [KARTE:dorthin] [KARTE:abführen; Schluss]
+  - Lesung: Dorthin führen und abführen; Schluss.
+- **B3-S021 · EINZELKARTEN** `qokaiin shcthy dal sy saiin shedal shecthy chey tal shcthy dalchdy`
+  - Bau: [KARTE:bemessen] [KARTE:bereit] [KARTE:dorthin] [KARTE:dies] [KARTE:Sollwert] [KARTE:am Ziel absetzen] [KARTE:Kurzvorbereitung] [KARTE:dies] [KARTE:dorthin] [KARTE:bereit] [KARTE:Zieltransfer; Schluss]
+  - Lesung: Bemessen, bereitstellen und dorthin bringen; Sollwert am Ziel absetzen, kurz vorbereiten, dorthin bringen, bereitstellen und ans Ziel übertragen; Schluss.
+- **B3-S022 · EINZELKARTEN** `qotchedy`
+  - Bau: [KARTE:Folgetransfer; Schluss]
+  - Lesung: Zur folgenden Station übertragen; Schluss.
+- **B3-S023 · EINZELKARTEN** `lchedy`
+  - Bau: [KARTE:abführen; Schluss]
+  - Lesung: Aus der Station abführen; Schluss.
+- **B3-S024 · EINZELKARTEN** `tchedy`
+  - Bau: [KARTE:überführen; Schluss]
+  - Lesung: Überführen; Schluss.
+- **B3-S025 · EINZELKARTEN** `qokchdy`
+  - Bau: [KARTE:einführen; Schluss]
+  - Lesung: In die nächste Station einführen; Schluss.
+- **B3-S026 · EINZELKARTEN** `cheedar chldaiin chedy qokain checthy chealror solkeedy`
+  - Bau: [KARTE:Quelltransfer] [KARTE:Sollabsetzung] [KARTE:überführen] [KARTE:Anteil zugeben] [KARTE:bereit] [KARTE:Zielbereitung] [KARTE:lange sammeln; Schluss]
+  - Lesung: Von der Quelle übertragen, auf Sollwert absetzen, überführen, Anteil zugeben, bereitstellen, am Ziel vorbereiten und länger sammeln; Schluss.
+- **B3-S027 · EINZELKARTEN** `qoteedy`
+  - Bau: [KARTE:lange Folgestufe; Schluss]
+  - Lesung: Die folgende Stufe länger halten; Schluss.
+- **B3-S028 · EINZELKARTEN** `qokeey qokedy`
+  - Bau: [KARTE:lange einwirken] [KARTE:kurz einwirken; Schluss]
+  - Lesung: Länger einwirken lassen, dann den kurzen Einwirkpunkt schließen.
+- **B3-S029 · EINZELKARTEN** `sol cheeety qokedy`
+  - Bau: [KARTE:weiter] [KARTE:Vollteil] [KARTE:kurz einwirken; Schluss]
+  - Lesung: Weiterführen, den vollen Anteil nehmen und kurz einwirken lassen; Schluss.
+- **B3-S030 · EINZELKARTEN** `qoky saiin schedair otchedy`
+  - Bau: [KARTE:einsetzen] [KARTE:Sollwert] [KARTE:Weiterlauf] [KARTE:Folgetransfer; Schluss]
+  - Lesung: Einsetzen, auf Sollmaß bringen, im Lauf weiterführen und zur nächsten Station übertragen; Schluss.
+- **B3-S031 · EINZELKARTEN** `qokeedy`
+  - Bau: [KARTE:lange einwirken; Schluss]
+  - Lesung: Länger einwirken lassen; Schluss.
+- **B3-S032 · EINZELKARTEN** `chedain chedy qotedaiin otaiin otedy`
+  - Bau: [KARTE:Anteilstransfer] [KARTE:überführen] [KARTE:Kurzsoll] [KARTE:Folgemaß] [KARTE:Kurzfolge; Schluss]
+  - Lesung: Anteil übertragen, überführen, Kurzsoll und Folgemaß setzen, kurz weiterführen; Schluss.
+- **B3-S033 · EINZELKARTEN** `ldy`
+  - Bau: [KARTE:abziehen; Schluss]
+  - Lesung: Abziehen; Schluss.
+- **B3-S034 · EINZELKARTEN** `soiiin checthy chety otaiin olsaly shedy`
+  - Bau: [KARTE:Arbeitsstufe] [KARTE:bereit] [KARTE:Teil] [KARTE:Folgemaß] [KARTE:Zwischenziel] [KARTE:kurz absetzen; Schluss]
+  - Lesung: Arbeitsstufe bereitstellen, Teil und Folgemaß am Zwischenziel kurz absetzen; Schluss.
+
+## B4 — Hauptpaar am sichtbaren ungerichteten Bogen
+
+- **B4-S001 · EINZELKARTEN** `qokeedy`
+  - Bau: [KARTE:lange einwirken; Schluss]
+  - Lesung: Am Hauptpaar länger einwirken lassen; Schluss.
+- **B4-S002 · EINZELKARTEN** `qolchey qokeey qokedy`
+  - Bau: [KARTE:Weiterposten] [KARTE:lange einwirken] [KARTE:kurz einwirken; Schluss]
+  - Lesung: Den Weiterposten zuerst länger, dann kurz einwirken lassen; Schluss.
+- **B4-S003 · EINZELKARTEN** `chedy otal otchey qokeey qoky tol shedy`
+  - Bau: [KARTE:überführen] [KARTE:danach dorthin] [KARTE:das nächste] [KARTE:lange einwirken] [KARTE:einsetzen] [KARTE:weiter] [KARTE:kurz absetzen; Schluss]
+  - Lesung: Überführen, danach das Nächste dorthin bringen, länger einwirken, einsetzen, weiterführen und kurz absetzen; Schluss.
+- **B4-S004 · EINZELKARTEN** `qokylddy`
+  - Bau: [KARTE:befestigen; Schluss]
+  - Lesung: Den Posten befestigen; Schluss.
+- **B4-S005 · EINZELKARTEN** `dain chedy qokeedy`
+  - Bau: [KARTE:Einlage] [KARTE:überführen] [KARTE:lange einwirken; Schluss]
+  - Lesung: Die Einlage überführen und länger einwirken lassen; Schluss.
+- **B4-S006 · EINZELKARTEN** `shckhedy`
+  - Bau: [KARTE:durchlassen; Schluss]
+  - Lesung: Einmal durchlassen; Schluss.
+- **B4-S007 · EINZELKARTEN** `shckhedy`
+  - Bau: [KARTE:durchlassen; Schluss]
+  - Lesung: Ein zweites Mal durchlassen; Schluss.
+- **B4-S008 · EINZELKARTEN** `saiin cheeky sheey qokedy`
+  - Bau: [KARTE:Sollwert] [KARTE:länger bearbeiten] [KARTE:Langhalt] [KARTE:kurz einwirken; Schluss]
+  - Lesung: Auf Sollmaß bringen, länger bearbeiten, länger halten und kurz einwirken lassen; Schluss.
+- **B4-S009 · EINZELKARTEN** `shedy`
+  - Bau: [KARTE:kurz absetzen; Schluss]
+  - Lesung: Kurz absetzen lassen; Schluss.
+- **B4-S010 · EINZELKARTEN** `oldy`
+  - Bau: [KARTE:Schluss]
+  - Lesung: Schluss.
+- **B4-S011 · EINZELKARTEN** `saiin cheky okeeol okain chdy sol lkedy`
+  - Bau: [KARTE:Sollwert] [KARTE:kurz wärmen] [KARTE:Langfortsetzung] [KARTE:Anteil zugeben] [KARTE:überführen] [KARTE:weiter] [KARTE:Kurzabzug; Schluss]
+  - Lesung: Sollwert kurz wärmen, länger weiterführen, Anteil zugeben, überführen, fortsetzen und kurz abziehen; Schluss.
+- **B4-S012 · EINZELKARTEN** `lchedy`
+  - Bau: [KARTE:abführen; Schluss]
+  - Lesung: Abführen; Schluss.
+- **B4-S013 · EINZELKARTEN** `qokol shedy`
+  - Bau: [KARTE:Weiter einsetzen] [KARTE:kurz absetzen; Schluss]
+  - Lesung: Weiter einsetzen und kurz absetzen lassen; Schluss.
+- **B4-S014 · EINZELKARTEN** `or chey qockhey dairydy`
+  - Bau: [KARTE:Ansatz] [KARTE:dies] [KARTE:Kurzdurchgang] [KARTE:Laufschluss]
+  - Lesung: Diesen Ansatz durch den kurzen Gang führen und den Lauf schließen.
+- **B4-S015 · EINZELKARTEN** `qokain shey kain chckhal solkey lchedy`
+  - Bau: [KARTE:Anteil zugeben] [KARTE:Ergebnis] [KARTE:Portion] [KARTE:Zielpassage] [KARTE:Kurzsammlung] [KARTE:abführen; Schluss]
+  - Lesung: Anteil zum Ergebnis geben, Portion durch die Zielpassage führen, kurz sammeln und abführen; Schluss.
+- **B4-S016 · EINZELKARTEN** `qolkain dal skar shedy`
+  - Bau: [KARTE:weiterer Anteil] [KARTE:dorthin] [KARTE:Quellausguss] [KARTE:kurz absetzen; Schluss]
+  - Lesung: Weiteren Anteil dorthin bringen, davon ausgießen und kurz absetzen; Schluss.
+
+## B5 — linker offener Fransen-Endposten
+
+- **B5-S001 · EINZELKARTEN** `otchdy`
+  - Bau: [KARTE:Nachtransfer; Schluss]
+  - Lesung: Den Nachtransfer am linken Endposten ausführen; Schluss.
+- **B5-S002 · EINZELKARTEN** `qokchdy`
+  - Bau: [KARTE:einführen; Schluss]
+  - Lesung: In den linken Endposten einführen; Schluss.
+- **B5-S003 · EINZELKARTEN** `shedal dal cheol lol chdal aiin sol daiiin chedy`
+  - Bau: [KARTE:am Ziel absetzen] [KARTE:dorthin] [KARTE:weiter] [KARTE:Weiterabzug] [KARTE:Zieltransfer] [KARTE:Sollwert] [KARTE:weiter] [KARTE:Endstufe] [KARTE:überführen]
+  - Lesung: Am Ziel absetzen, dorthin bringen, weiterführen und weiter abziehen; Zieltransfer auf Sollwert bringen, bis zur Endstufe fortsetzen und überführen.
+
+## B6 — rechter S-Lauf-/Mehrarm-Endposten
+
+- **B6-S001 · RAHMEN** `solkeey qekey raly ol daiin ol dain chey ldalor`
+  - Bau: [KARTE:Langsammlung] [KARTE:kurz bearbeiten] [KARTE:Endposten] [ABA:Den laufenden Gang auf Sollwert bringen und danach fortsetzen.] [KARTE:Einlage] [KARTE:dies] [KARTE:Endziel]
+  - Lesung: Länger sammeln und kurz bearbeiten; am Endposten den laufenden Gang auf Sollwert bringen und fortsetzen, dann die Einlage zum Endziel führen.
