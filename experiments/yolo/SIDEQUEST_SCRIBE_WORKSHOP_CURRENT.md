@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-23, after separating material, state, checkpoint and product.
+Updated: 2026-08-23, after consolidating portion, measure and stage settings.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -19,7 +19,61 @@ Exactly ten pages are in scope:
 `f84` and `f84r` remain sealed. ZL3b, IT2a and RF1b are alternate readings of
 one manuscript. No additional page, image or semantic corpus was admitted.
 
-## Active material/state/product working edition
+## Active parameter/setting working edition
+
+The workshop now distinguishes three similar-looking but semantically stable
+cores:
+
+```text
+AIN     PORTION       physical share
+AIIN    TARGET MEASURE
+IIN     TARGET STAGE  process or apparatus setting
+```
+
+Their productive families are deliberately parallel:
+
+```text
+AIN:   PORTION, ADD PORTION, FURTHER PORTION, BATCH PORTION,
+       ITEM PORTION, TRANSFER PORTION
+
+AIIN:  TARGET MEASURE, SET TO TARGET MEASURE, FOLLOWING MEASURE,
+       ITEM MEASURE, INGREDIENT MEASURE, READY MEASURE,
+       STANDING MEASURE, SETTLING MEASURE
+
+IIN:   TARGET STAGE, SOFT STAGE, OPENING STAGE
+```
+
+This repairs the remaining semantic drift. `SHFY+AIIN` is now `STANDING
+MEASURE`, not a root-changing `standing time`; `CHLD+AIIN` is `SETTLING
+MEASURE`, not `settling stand`; `CTH+AIIN` becomes the natural `READY
+MEASURE`; and `K+IIN` shortens from `soft target stage` to `SOFT STAGE`.
+Bare `IIN` is now consistently `TARGET STAGE`, while `DA+IIN=OPENING STAGE`
+remains unchanged.
+
+Three learned settings remain outside the productive AIN/AIIN/IIN families:
+`SHECKHAL=MIDDLE MEASURE`, `CHCKHAL=HOLDING TIME`, and `KEOL=DOSE`. `KEOL`
+loses the sentence-level phrase `per dose`; order supplies the preposition in
+`FOLLOWING ITEM · DOSE · TARGET MEASURE`. `LCHEEY=WET SITE` remains the learned
+application location. No common KHAL stem is forced from only two differently
+used whole signs.
+
+The active manual can now ask three separate apprentice questions: how much
+material (`AIN`), to what measure (`AIIN`), and to what setting (`IIN`). The
+result composes with the existing owner, material, operation, state, product
+and close registers.
+
+This pass changes eight cards across nine occurrences and rewrites nine
+affected statements while preserving the full 173-card, 381-event,
+116-statement and eleven-record edition. The active files are in
+`sidequest_semantic_parameter_setting_completion/`, led by
+`PARAMETER_SETTING_REPORT.md`, `PARAMETER_SETTING_REGISTER.tsv`,
+`PARAMETER_SETTING_PARADIGM.tsv`,
+`SELECTED_173_PARAMETER_SETTING_DICTIONARY.tsv`,
+`SELECTED_381_PARAMETER_SETTING_INTERLINEAR.tsv`,
+`SELECTED_116_PARAMETER_SETTING_SENTENCES.tsv`, and
+`SELECTED_11_PARAMETER_SETTING_RECORDS.md`.
+
+## Previous material/state/product working edition
 
 The operation alphabet now carries a separate compact register for what is
 being processed, its current state, the point at which it may advance, and the
