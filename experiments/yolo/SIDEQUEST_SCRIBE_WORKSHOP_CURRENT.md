@@ -2247,6 +2247,29 @@ builder and validator. Next turn this ecology into a concrete 1420-style
 apprentice curriculum and test whether a novice can write representative
 Herbal, bath/service and Astro entries using only staged lessons.
 
+## Active hundred-fifth apprentice curriculum
+
+A twenty-four-day workshop curriculum now teaches the system in nine lessons:
+picture ownership; fifteen core values; nine bridge values; separate Herbal and
+Biological specialist tablets; 173 card bodies; renderer habits; sentence and
+line wrapping; then the independent Astro nomenclator. Twelve actual exercises
+span core, bridge, specialist and celestial material.
+
+After the portable core alone, an apprentice can atom-read 208 of 381 prose
+events and 21 complete statements. Adding the bridges raises this to 312 events
+and 63 statements. The Herbal tablet closes all 100 Herbal events; the bath/
+service tablet closes all 281 Biological events. After both, all 381 events and
+116 statements are atom-readable. The remaining training concerns registered
+forms, permitted allographs, attachment, layout and local-key copying rather
+than new content words.
+
+Active files are in
+`sidequest_semantic_apprentice_curriculum_hundred_fifth_edition/`, led by
+`HUNDRED_FIFTH_APPRENTICE_CURRICULUM_REPORT.md`, with the 24-day curriculum,
+stage coverage, twelve exercises, builder and validator. Next quantify exactly
+which of the 254 prose clauses obtain their missing noun from the picture owner
+and which still rely on a learned textual or local register value.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
