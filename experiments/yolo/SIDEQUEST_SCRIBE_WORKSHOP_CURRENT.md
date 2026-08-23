@@ -2998,6 +2998,28 @@ Files are in
 Next propagate the CHOLOR repair and explicitly render both bracket formulas
 inside their affected complete records.
 
+## Active hundred-thirty-eighth bracket formula revision
+
+`CHOLOR` is now globally `derselbe Ansatz` in its two events. Both shared-deck
+brackets are expanded inside the complete stream. The paired-measure frame
+occurs three times, not two: H2-S001 and B3-S003 are compact, while B3-S021
+holds two local specialist cards inside the span. The carried-preparation
+frame occurs in H2-S002 and B1-S002; the B1 form likewise brackets specialist
+payload.
+
+This strengthens the mixed-codebook model. Shared cards provide a sparse
+scaffold and learned local cards can sit inside it. Spoken expansions are
+`zwei Posten unter demselben Sollmaß` and `Fortsetzung mit demselben Ansatz`;
+the exact visible cards and every intervening payload card remain in the full
+ledger.
+
+Files are in
+`sidequest_semantic_bracket_formula_revision_hundred_thirty_eighth/`: revised
+173-card dictionary, 381-event and 116-statement tables, five formula
+occurrences, eleven records, full context edition, report, builder and
+validator. Next make the scaffold productive by composing a few new source
+instructions into existing shared cards plus one selected specialist drawer.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
