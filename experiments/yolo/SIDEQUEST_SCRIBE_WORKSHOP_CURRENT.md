@@ -4036,6 +4036,18 @@ Files are in `sidequest_semantic_compressed_hand_profile_hundred_eighty_ninth/`:
 report, builder and validator. Next apply the same five rules back to all 381
 observed prose occurrences and identify the residual renderer families.
 
+## Active hundred-ninetieth global Hand-C audit
+
+Applied to all 381 observed prose events, the five rules improve exact surface
+reconstruction from 235/381 master forms to 258/381. Four transfer positively:
+q-framing +6, `daiin` position +7, boundary reduction +2 and final s-close +8.
+The medial bare-`al` rule is only local and nets zero globally.
+
+The remaining 123 events form 73 recurrent transformation-position patterns,
+led by medial `cheol→ol`, `chdy→chedy`, initial `okaiin→qokaiin` and the
+`chey/chy/dy` renderer family. Next fit one additional compact layer from those
+families, charging every rule against all 381 observations.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
