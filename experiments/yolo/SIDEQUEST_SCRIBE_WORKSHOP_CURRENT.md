@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-23, after decomposing eighteen of the final nineteen whole-card exceptions.
+Updated: 2026-08-23, after compiling all 230 prose surfaces and correcting the false `DCH` bridge.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -18,6 +18,35 @@ Exactly ten pages are in scope:
 
 `f84` and `f84r` remain sealed. ZL3b, IT2a and RF1b are alternate readings of
 one manuscript. No additional page, image or semantic corpus was admitted.
+
+## Active surface compiler
+
+The current prose grammar is now tied back to all 230 registered visible
+spellings. The compiler reads a renderer/allograph first, takes the longest
+known body, then adds portable order, direction, quantity, grade and endpoint
+material. The productive surface axes are `AIIN/AIN/IIN`, `AL/AR/AIR`,
+`OK/OL/OT`, family-bound `E/EE/EEE`, and licensed `Y` or terminal cards. Longer
+process bodies such as `CHD~CHED`, `CTH`, `CKH/CKHE`, `CHK`, `SHED`, `SOLK`,
+`HO`, `CHEO` and `KCH` can take those arguments without being reduced to
+single letters.
+
+This corrects the previous overreach `DCH = previous item`. Literal `dch`
+also occurs in transfer cards, so longest-match `CHD~CHED = transfer` wins;
+`dchol/schol = previous item` returns to a learned whole card. `CFH`, `CPH`,
+`DCHE`, `LDDY`, `SK`, `DAN` and `AM` remain useful short lexical bodies or
+tails, but each occurs in only one card and is not yet a predictive stem.
+
+Across 173 master cards, 163 have at least one actually visible reusable cue;
+the other ten are learned wholes or allographic edge cases. Eighteen empty
+paradigm cells are now written as forward predictions rather than fitted
+afterward. A useful collision already appears: predicted `HO+AR` resembles
+`kchoar`, but longest `CHEO+AR` preserves the existing “extract from source”
+reading instead of silently turning it into “ingredient from source”.
+
+Active files are in `sidequest_semantic_surface_compiler/`, led by
+`SURFACE_COMPILER_REPORT.md`, the 29-rule compiler, complete 230-surface and
+173-card parses, productive paradigms, forward predictions, bridge correction
+table, builder and validator.
 
 ## Active exception anatomy
 
@@ -37,10 +66,11 @@ This pass removes several attractive but compositionally isolated old glosses.
 and `ytey=Y+E+TY` takes a short part of the current item rather than supplying
 an unanalyzed “fill” verb.
 
-Eight compact nomenclator roots remain learnable: `DCH` previous item, `CFH`
-wring, `CPH` re-strain, `DCHE` root, `LDDY` fasten-and-close, `SK` pour, `DAN`
-apply, and `AM` store. With those bridges, 106 of 116 statements use only the
-existing atoms, eight use a bridge root, and two contain the final whole card.
+The subsequent surface audit narrows this result. `DCH` is withdrawn as a
+root and `dchol/schol` is a learned whole card. `CFH`, `CPH`, `DCHE`, `LDDY`,
+`SK`, `DAN`, and `AM` remain usable learned bodies or tails, but not portable
+stems until another card shares them. The older 106/8/2 statement accounting
+therefore describes semantic composition, not literal surface productivity.
 
 Active files are in `sidequest_semantic_exception_anatomy/`, led by
 `EXCEPTION_ANATOMY_REPORT.md`, the nineteen-card reanalysis, eight-root bridge
