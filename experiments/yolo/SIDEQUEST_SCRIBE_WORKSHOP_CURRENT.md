@@ -4048,6 +4048,19 @@ led by medial `cheol→ol`, `chdy→chedy`, initial `okaiin→qokaiin` and the
 `chey/chy/dy` renderer family. Next fit one additional compact layer from those
 families, charging every rule against all 381 observations.
 
+## Active hundred-ninety-first expanded hand profile
+
+Six second-layer rule groups covering nineteen card×position mappings raise the
+exact observed-surface reconstruction from 258 to 308/381 (80.8%). The gains
+are wider q-framing +17, CHDY e-expansion +9, short L/R boundary frames +15,
+s-state frames +6, initial SAIIN +2 and medial KAIN +1. Every output is a
+registered surface of the same exact card.
+
+The remaining 73 events are now strongly page-hand patterned: `cheol` tends to
+`chol` on f10r, `qol` on f81v and `ol/sol` on f83r, while the Y and CTH families
+show parallel local frame choices. Next infer a few page-hand renderer profiles
+instead of adding more universal spelling rules.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
