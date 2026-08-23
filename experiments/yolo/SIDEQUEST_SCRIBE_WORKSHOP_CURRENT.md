@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-23, after completing the Herbal material/action grammar.
+Updated: 2026-08-23, after completing the Biological operation alphabet.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -19,7 +19,53 @@ Exactly ten pages are in scope:
 `f84` and `f84r` remain sealed. ZL3b, IT2a and RF1b are alternate readings of
 one manuscript. No additional page, image or semantic corpus was admitted.
 
-## Active Herbal material/action working edition
+## Active Biological operation working edition
+
+The six Biological records now use a compact workshop command set instead of
+sentence-sized card meanings:
+
+```text
+ANSETZEN       UMSETZEN       EINFÜHREN       ABFÜHREN
+ABZIEHEN       WASCHEN        NACHWASCHEN     ABSETZEN
+WÄRMEN         SEIHEN         SAMMELN         BEFESTIGEN
+SCHWENKEN      GLEICHSTELLEN  GLEICHTEILEN    SCHLIESSEN
+FOLGE          FORTFÜHREN     KURZ/LÄNGER/VOLL
+```
+
+The productive core remains `OK=ANSETZEN`, `CHD~CHED=UMSETZEN`,
+`P+CHED=EINFÜHREN`, `L+CHED=ABFÜHREN`, `LCH=ABZIEHEN`, `SHED=ABSETZEN`,
+`CHK=WÄRMEN`, `CKHE=SEIHEN`, `SOLK=SAMMELN`, `OT=FOLGE`, `OL=FORTFÜHREN`,
+`E/EE/EEE=KURZ/LÄNGER/VOLL`, and `Y~CHY=DIESER POSTEN`. The close remains a
+licensed whole construction rather than a globally readable visible `dy`.
+
+Five especially awkward entries are now short operations. `QOKCHDY` and its
+E-rendered companion become `UMSETZEN; SCHLUSS`, not `Ansatz umsetzen`;
+`OTEDY/QOTEEDY` become the graded pair `KURZE/LANGE FOLGE`; `LKEDY` becomes
+`NACHWASCHEN`; `QOKYLDDY` becomes `BEFESTIGEN`; and `OCTHEOL/CHES` become
+`GLEICHSTELLEN/GLEICHTEILEN`. The former non-action `unter besonderer
+Bedingung umsetzen` receives the current creative learned value
+`SSHKCHDY=SCHWENKEN; SCHLUSS`.
+
+This is now a learnable two-layer scribe system: a small productive operation
+grammar plus a few memorized specialist commands. The image owner supplies
+body, basin, cloth, outlet or other local object; the card supplies the action.
+Functional ca. 1420 teaching parallels are ordinary imperatives such as
+`pone`, `transfere`, `infunde`, `deduc`, `detrahe`, `lava`, `depone`,
+`calefac`, `cola`, `collige`, `liga`, `agita`, `aequa`, `prosequere`, and
+`claude`, without any phonetic Latin claim.
+
+This pass changes 16 exact cards across 21 occurrences and rewrites all 97
+Biological statements as readable work instructions while retaining the full
+173-card, 381-event, 116-statement and eleven-record edition. The active files
+are in `sidequest_semantic_biological_operation_completion/`, led by
+`BIOLOGICAL_OPERATION_REPORT.md`, `BIOLOGICAL_OPERATION_ALPHABET.tsv`,
+`BIOLOGICAL_OPERATION_PARADIGM.tsv`,
+`SELECTED_173_BIOLOGICAL_OPERATION_DICTIONARY.tsv`,
+`SELECTED_381_BIOLOGICAL_OPERATION_INTERLINEAR.tsv`,
+`SELECTED_116_BIOLOGICAL_OPERATION_SENTENCES.tsv`, and
+`SELECTED_11_BIOLOGICAL_OPERATION_RECORDS.md`.
+
+## Previous Herbal material/action working edition
 
 The five Herbal records now use the same compositional discipline as the
 apparatus pages. Previously selected `ZUTAT`, `ANSATZ`, `AUSZUG`, `MASS`,
