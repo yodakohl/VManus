@@ -1214,6 +1214,27 @@ Next apply the same meaning inventory through the four scribe profiles and
 separate harmless allographic compression from changes that would alter the
 readback.
 
+## Active fifty-ninth four-scribe rendering
+
+All 116 prose statements now have four complete surface copies: bare-master,
+q-cell, s-line, and compact mixed habits. The 464 copies contain 1,524 card
+choices. Six hundred eighty-two selected surfaces differ from the source, yet
+every atom identity, card order, fixed expansion, and semantic readback remains
+unchanged.
+
+The workshop boundary is operational. Safe variation chooses another
+registered surface of the same atom, crosses a physical line, or changes
+abbreviation length within that atom. Meaning-changing errors replace E by EE
+or EEE, confuse Y with a close, swap AL and AR, or drop, duplicate or reorder a
+card. The four profiles are copying habits, not separate languages or lexicons.
+
+Active files are in
+`sidequest_semantic_four_scribe_rendering_fifty_ninth_edition/`, led by
+`FIFTY_NINTH_FOUR_HAND_COPYBOOK.md`, with four profiles, 464 sentence copies,
+1,524 group choices, eight safe/unsafe rules, report, builder and consistency
+checker. Next turn the unsafe cases into a compact master-correction drill and
+measure which errors can be caught by immediate readback alone.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible

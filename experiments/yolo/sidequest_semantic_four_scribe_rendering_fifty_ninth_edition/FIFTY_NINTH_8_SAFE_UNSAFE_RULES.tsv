@@ -1,0 +1,9 @@
+rule_id	copy_operation	classification	master_explanation_de
+SAFE01	same atom_sequence, different registered surface	SAFE	Schreibergewohnheit ändert sich, Kartenwert bleibt.
+SAFE02	same card order across a physical line	SAFE	Zeilenumbruch ist Platz, kein Satzwechsel.
+SAFE03	q/s/bare wrapper chosen from the same atom family	SAFE	Rahmenallograph bleibt Rendererwahl.
+SAFE04	different surface length within the same registered atom	SAFE	Kürzung oder Expansion ändert die Lesung nicht.
+UNSAFE01	replace E by EE or EEE	UNSAFE	Grad ändert sich.
+UNSAFE02	replace Y by a licensed CLOSE card	UNSAFE	aktueller Posten wird mit Schrittabschluss verwechselt.
+UNSAFE03	swap AL and AR	UNSAFE	Ziel und Quelle vertauschen sich.
+UNSAFE04	drop, duplicate, or reorder a card	UNSAFE	Arbeitsfolge oder Referent ändert sich.
