@@ -217,6 +217,21 @@ partial, 36 whole and three register splits. Active files are in
 `COMPLETE_TEN_PAGE_WORKSHOP_TENTH_EDITION.md`, with the 21-surface paradigm,
 complete 487/776/258 layers, pocket codebook, report, builder and validator.
 
+## Active eleventh complete edition
+
+Eight previously partial or learned Astro spellings are now registered
+allographs of the existing quantity/stage cores. `doiin/oiin` are IIN table
+stage, `dadaiin/todaiin` AIIN prescribed value, `oiinar` stage with source,
+`choaiin` input with prescribed value, and `okaiiin/qokoaiin` activate stage
+or prescribed value. Their remaining outer material is a finite scribal frame,
+not a promoted word.
+
+The active balance is 626 full, 102 partial and 48 learned-whole groups;
+surface types are 356 full, 94 partial, 34 whole and three register splits.
+Active files are in `sidequest_semantic_iin_allographs_eleventh_edition/`, led
+by `COMPLETE_TEN_PAGE_WORKSHOP_ELEVENTH_EDITION.md`, with the eight-form table,
+complete 487/776/258 layers, pocket codebook, report, builder and validator.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
