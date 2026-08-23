@@ -2545,6 +2545,30 @@ record summaries, twelve three-hand exercises, builder and validator. Next use
 the sectional-card split to construct the smallest separate Herbal and
 Biological extension decks that complete every observed prose statement.
 
+## Active hundred-eighteenth section extension decks
+
+The complete Herbal deck contains 66 exact cards: the shared seventeen plus 49
+Herbal extensions. It covers all 100 Herbal events. The complete Biological deck
+contains 124 cards: the same seventeen plus 107 Biological extensions, covering
+all 281 Bio events. Their intersection is exactly the shared deck and their union
+is exactly the full 173-card prose inventory.
+
+The two sections have different learning styles. Fifty-five of Herbal's 66 card
+types occur there only once, and H1–H4 introduce no previously seen extension
+card; this is exemplar-rich article copying. Biological has 82 singleton types
+among 124 but begins reusing many extension cards from B2 onward, consistent
+with a recurring preparation, station and closure process deck. Eleven
+incremental lessons list every new and reused card for H1–H5 and B1–B6.
+
+Active files are in
+`sidequest_semantic_section_extension_decks_hundred_eighteenth_edition/`, led by
+`HUNDRED_EIGHTEENTH_SECTION_DECK_REPORT.md` and
+`HUNDRED_EIGHTEENTH_TWO_SECTION_DECKS.md`, with 173 membership rows, full
+66-card Herbal and 124-card Biological decks, eleven lessons, builder and
+validator. Next turn the eleven lessons into an actual copying schedule and
+estimate which cards each of four workshop hands must actively memorize versus
+read from the master exemplar.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
