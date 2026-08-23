@@ -7203,7 +7203,8 @@ visible compositional help. See
 `sidequest_semantic_minimum_apprentice_deck_two_hundred_fifty_eighth/TWO_HUNDRED_FIFTY_EIGHTH_READABLE_APPRENTICE_MANUAL.md`.
 
 Next, reverse the direction and make the apprentice generate card sequences
-from concrete workshop instructions using only the 53-entry deck.
+from concrete workshop instructions using only the 53-entry deck; distinguish
+semantic identity from harmless allographic card choice.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
