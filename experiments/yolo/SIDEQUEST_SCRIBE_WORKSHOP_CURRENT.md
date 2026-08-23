@@ -4171,6 +4171,19 @@ Passes 197–200 now cover all 381 prose events, 135 fields and 116 statements.
 Next merge them into one four-layer edition and issue the current compact
 component-plus-whole-card dictionary.
 
+## Active two-hundred-first unified prose edition
+
+The current prose reader is unified: 381 visible events, 380 logical tokens,
+135 fields, 116 translated statements and eleven records. Its 173-card
+dictionary has 230 unambiguous surfaces. The architecture is 151 productive
+cards/353 events plus only 22 learned whole cards/28 events.
+
+Current values control translation; older component-reading snapshots remain
+visible for audit. The sharpest conflicts are `tchody` final-addition versus
+cool, `qekey` process versus raw, `dchey` base-part versus root, `sh` hold versus
+stalk and `dshedy` settle versus fresh water. Next resolve the complete 22-card
+learned deck occurrence by occurrence.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
