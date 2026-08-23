@@ -3389,6 +3389,27 @@ ten-page book, pocket manual, report, builder and validator. Next simplify the
 renderer rules for the 47 shared cards across all 230 observed surfaces without
 changing any of the 173 meanings.
 
+## Active hundred-fifty-seventh five-habit renderer
+
+The 47 shared cards own 103 registered visible surfaces. Their eight older
+gesture labels collapse into five apprentice habits: 37 bare/internal forms,
+20 ch/che open entries, fourteen q-cell entries, nineteen s/sh flow entries,
+and thirteen d/t/other hard entries. Thirty-three shared cards have multiple
+surfaces; fourteen have only one.
+
+Five simple scribe profiles make 235 registered card choices and all return to
+the same 47 meanings. The workshop rule is now precise: choose meaning and
+master card first; choose a registered hand/entry form second. A hand habit
+never creates a new word, changes quantity, or licenses an unseen form. This
+offers a simple mechanism for several scribes without semantic dialects.
+
+Files are in
+`sidequest_semantic_shared_renderer_simplification_hundred_fifty_seventh/`:
+103-surface classification, 47 family cards, five-hand copybook, complete
+251-event shared renderer trace, five-habit manual, report, builder and
+validator. Next render complete statements and compare how often the five
+hands produce visibly different copies of one unchanged atomic reading.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
