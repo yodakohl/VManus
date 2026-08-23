@@ -996,6 +996,25 @@ four-hand analytic copies, seventeen blocked compounds, report, builder and
 consistency checker. This is the current spelling boundary for predicted
 compositions.
 
+## Active forty-ninth controlled-paraphrase edition
+
+All seventeen unwriteable fused meanings can now be issued as one- or two-card
+workshop paraphrases using only observed cards. Three use one existing richer
+card and fourteen use two; four hand profiles produce 68 surface copies. No
+new surface or complete-chain occurrence is claimed.
+
+The price of every paraphrase is spoken explicitly. Depending on the command,
+the substitute adds a brief grade, local closure, source address, current-item
+cue or renewed setting operation. Thus the system behaves like a practical
+formulary: when a compact sign is absent, the master dictates a slightly
+longer conventional phrase instead of manufacturing a word.
+
+Active files are in
+`sidequest_semantic_controlled_paraphrase_forty_ninth_edition/`, led by
+`FORTY_NINTH_CONTROLLED_PARAPHRASE_BOOK.md`, with seventeen paraphrases,
+68 four-hand copies, report, builder and consistency checker. This is the
+current safe workaround layer for missing compound cards.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
