@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-23, after joining prose and diagrams in one ten-page reader.
+Updated: 2026-08-23, after turning the ten-page reader into four execution-order work orders.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -18,6 +18,37 @@ Exactly ten pages are in scope:
 
 `f84` and `f84r` remain sealed. ZL3b, IT2a and RF1b are alternate readings of
 one manuscript. No additional page, image or semantic corpus was admitted.
+
+## Active four execution work orders
+
+The complete ten-page reader is now arranged as four jobs that a master could
+actually hand to an apprentice. The manuscript sections still have the useful
+book order `WHAT -> HOW -> WHEN`; the bench order is `WHEN -> WHAT -> HOW`:
+choose and record the visible condition, prepare the material, then execute the
+basin, station, cloth or application program.
+
+1. The right `f67r2` wheel condition leads into the `f10r` root and extract
+   records and then the shared `f81v` basin routine: 50 reading units and 173
+   visible groups.
+2. The `f68r1` star address leads into the `f11r` wring–stand–re-strain clear
+   extract and then its `f82r` station path: 63 units and 144 groups.
+3. The three separate `f69v` readings lead into the stored `f55v` preparation
+   and then the `f83r` cloth, fastening, after-wash and release routines: 55
+   units and 225 groups.
+4. The left `f67r2` place/aspect setting leads into the fresh `f56r` plant
+   sequence and then the long `f83r` basin and transfer path: 90 units and 234
+   groups.
+
+Together the orders contain all 258 reading units and all 776 visible groups
+exactly once, organized into 25 larger execution steps. The latest unique
+173-card prose meanings and owner-addressed Astro readings are copied without
+reverting to the older broad glosses. The pairings remain the workshop's
+current use scenarios, not written cross-page pointers.
+
+Active files are in `sidequest_semantic_four_work_orders/`, led by
+`FOUR_WORK_ORDER_REPORT.md`, `FOUR_ONE_PAGE_JOB_CARDS.md`,
+`FOUR_COMPLETE_WORK_ORDERS.md`, the four-order and 25-step tables, complete
+258-unit and 776-group execution editions, builder, and validator.
 
 ## Active ten-page unified reader
 
