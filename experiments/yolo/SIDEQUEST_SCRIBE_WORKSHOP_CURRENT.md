@@ -2341,6 +2341,30 @@ continuous records, builder and validator. Next compare the medical bath/use
 expansion with a practical service/maintenance expansion statement by
 statement and choose one current lead without changing the atomic dictionary.
 
+## Active hundred-ninth bath/service choice
+
+The Biological section is now read as a hybrid rather than forced into either
+pure medicine or pure apparatus. Thirty-five of the 56 f82r/f83r statements
+belong first to preparation, transfer, settling, collection or station service.
+Twenty-one belong first to body/bath use because a reclining figure,
+multi-figure pool, figure-owned edge station or the linked main pair is the
+local owner.
+
+This makes the current concrete lead a **therapeutic bathing workshop with its
+own preparation and maintenance register**. The upper f82r basins, left device,
+three f83r marginal vessels and learned transition batch prepare and route
+working charges. The reclining basin, green pool, lower pool edge and linked
+main pair apply them. Mixed statements explicitly hand a charge from one layer
+to the other; no invisible plumbing is required.
+
+Active files are in
+`sidequest_semantic_bath_service_choice_hundred_ninth_edition/`, led by
+`HUNDRED_NINTH_BATH_SERVICE_REPORT.md`, with 56 dual readings and local choices,
+eleven station-family decisions, two selected hybrid records, builder and
+validator. Next consolidate R101–R109 into a one-page post-centennial scribe
+handbook and a revised pocket dictionary that no longer repeats superseded
+generic station prose.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
