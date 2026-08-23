@@ -1,0 +1,7 @@
+prediction_id	slot_class	trigger_context	predicted_card_class	exclusion
+P1	CLOSED_HANDLING_ACTION	After OL/continuation and at a closed field	HANDLING_ACTION+CLOSE	Do not substitute a material or vessel noun.
+P2	OPEN_FILL_OR_CHARGE_ACTION	At statement entry before transfer/close	FILL_OR_CHARGE_ACTION	The visible owner supplies the omitted container.
+P3	DIVISION_BEFORE_MEASURE	After source transfer and before AIIN	DIVISION_OR_PORTIONING_ACTION	A target or substance noun would break the action sequence.
+P4	MATERIAL_ADDITIVE	Inside a quantity/path sequence	MATERIAL_OR_ADDITIVE_NOUN	It may recur unchanged when the same additive is reused.
+P5	DEVICE_PORT	After activation and before RESULT	PORT_OR_NOZZLE_NOUN	It is a local device name, not a general direction marker.
+P6	RECEIVER_HEAD	At statement entry before handling/grade/collection	RECEIVING_VESSEL_NOUN	The following cards operate on this inherited vessel.

@@ -7061,8 +7061,14 @@ gleichteilen`. All 128 events now have concrete teachable values: 108 base, 13
 specialist-composed, 7 whole-sign occurrences. See
 `sidequest_semantic_biological_second_lesson_two_hundred_thirty_seventh/TWO_HUNDRED_THIRTY_SEVENTH_READABLE_SECOND_LESSON.md`.
 
-Next, classify the six whole signs by their sentence slots and predict which
-kind of card can occupy each slot without predicting its exact surface.
+Pass 238 shows that the six whole signs form a balanced nomenclator: three
+actions and three objects, each in a distinct sentence slot. The slot predicts
+whether a handling/division/fill action, additive, port, or receiver belongs
+there, while the exact surface remains exemplar-learned. See
+`sidequest_semantic_whole_sign_slot_classes_two_hundred_thirty_eighth/TWO_HUNDRED_THIRTY_EIGHTH_READABLE_WHOLE_SIGN_CODEBOOK.md`.
+
+Next, rewrite the complete f81v and f82r records with this compact dictionary
+and decide whether they encode different practical protocols.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
