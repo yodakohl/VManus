@@ -232,6 +232,23 @@ Active files are in `sidequest_semantic_iin_allographs_eleventh_edition/`, led
 by `COMPLETE_TEN_PAGE_WORKSHOP_ELEVENTH_EDITION.md`, with the eight-form table,
 complete 487/776/258 layers, pocket codebook, report, builder and validator.
 
+## Active twelfth complete edition
+
+Thirty-six registered Astro allographs now preserve one or more of the stable
+relational cores `AR` source, `AL` target, `OR` set/preparation and `OL`
+continuation. The apprentice recognizes the finite surface shell, reads the
+longest relational core and keeps any other known core in order. This yields
+compositions such as `KCH+AR`, `AL+AIN`, `OT+OL+OR` and `OK+OL+AR` without
+assigning meanings to every outer stroke.
+
+The 36 forms cover 37 groups, all formerly partial. The active balance is 663
+full, 65 partial and 48 learned-whole groups; surface types are 392 full, 58
+partial, 34 whole and three register splits. Active files are in
+`sidequest_semantic_relational_allographs_twelfth_edition/`, led by the
+36-form allograph table, complete 487/776/258 layers, pocket codebook, report,
+builder and validator. The fluent ten-page wording is unchanged; its written
+derivation is now shorter.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
