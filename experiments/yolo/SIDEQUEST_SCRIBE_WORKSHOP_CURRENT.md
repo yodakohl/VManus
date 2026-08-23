@@ -615,6 +615,30 @@ Active files are in
 twelve-step tables, report, builder and validator. This is the current
 whole-book use model for the ten fixed pages.
 
+## Active thirty-second compact handoff
+
+The current creative reconstruction is now compressed into one practical
+entry point without replacing its detailed editions. Twelve active layers bind
+the 487 visible surfaces, 776 visible groups, 258 reading units, 116 owner-filled
+statements, 56-entry teaching deck, 254 source clauses, balanced eleven-record
+reading, seventeen spoken idioms, four scribal profiles, twelve new dictations
+and four complete dossiers. A path-and-hash map identifies the exact source of
+each layer.
+
+`THIRTY_SECOND_QUICK_REFERENCE.md` is the apprentice's pocket sheet for common
+cores, bound grades, process bodies, learned cards, idioms and hands.
+`THIRTY_SECOND_CANONICAL_WORKING_THEORY.md` is the preferred human entry point:
+it states the current scribe mechanism, gives all eleven continuous prose
+records and connects them to the four balanced WHAT/HOW/WHEN dossiers. The
+handoff changes no card meaning; it prevents later creative passes from
+silently reviving older overloaded glosses.
+
+Active files are in
+`sidequest_semantic_canonical_handoff_thirty_second_edition/`, led by
+`THIRTY_SECOND_CANONICAL_WORKING_THEORY.md`, with the quick reference,
+twelve-layer map, report, builder and validator. This is now the primary entry
+point for the next fixed-page creative pass.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
