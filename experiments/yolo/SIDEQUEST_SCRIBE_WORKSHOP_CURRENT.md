@@ -1510,6 +1510,26 @@ and validator. Next use this short dictionary to rewrite a complete Herbal and
 Biological passage without any master-only noun, then add the owner nouns back
 one at a time.
 
+## Active seventy-third layered passage edition
+
+Two complete records now show every semantic layer separately: H3 on f11r and
+B2 on f82r, together 79 groups and 26 statements. Each runs from surface to
+atoms, minimal dictionary, visible owner, neutral source formular and finally
+parallel medical and nonmedical master prose.
+
+The exercise makes the semantic additions concrete. H3's plant owner is
+visible; wine, drink, chest complaint, oil and eyelid are medical-master nouns,
+while dye, scent, binder and workpiece are rival-master nouns. B2's people,
+basins and stations are visible; patient/body versus workpiece/material is
+still an expansion choice. Cards and owners do not change between readings.
+
+Active files are in
+`sidequest_semantic_layered_passages_seventy_third_edition/`, led by
+`SEVENTY_THIRD_COMPLETE_LAYERED_PASSAGES.md`, with all 79 layered groups,
+26 statements, two full records, report, builder and validator. Next identify
+the most reusable concrete master-noun slots across all fourteen units and
+replace free prose invention with a finite source lexicon.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
