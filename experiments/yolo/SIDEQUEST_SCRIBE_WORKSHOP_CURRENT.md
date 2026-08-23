@@ -7350,8 +7350,16 @@ events and one frame-plus-whole event. The five portable corrections affect70
 cards and145 events without deleting their concrete local readings. See
 `sidequest_semantic_two_layer_prose_two_hundred_seventy_ninth/TWO_HUNDRED_SEVENTY_NINTH_ELEVEN_RECORD_EDITION.md`.
 
-Next, join the revised prose and Astro editions into one ten-page dictionary,
-event ledger and readable workshop manual based on the 36-family system.
+Pass 280 joins the revised prose and Astro editions. The working dictionary has
+172 rows:36 stem families,23 prose whole signs,46 Astro whole signs and67 local
+copy keys. The unified interlinear has776 rows and preserves the618/79/79 split
+between compositions, learned whole signs and local keys. A twelve-step manual
+and complete ten-page reading use the same two semantic layers. See
+`sidequest_semantic_unified_workshop_edition_two_hundred_eightieth/TWO_HUNDRED_EIGHTIETH_COMPLETE_TEN_PAGE_EDITION.md`.
+
+Next, mine the116 prose statements for recurrent complete formula skeletons
+and use them to improve fluent Herbal/Bio translations without changing the
+portable 36-family dictionary.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
