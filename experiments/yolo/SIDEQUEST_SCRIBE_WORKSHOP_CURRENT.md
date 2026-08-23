@@ -7103,8 +7103,15 @@ occurrences. The 66-card Herbal dictionary therefore contains seventeen common
 cards, 24 local noun cards and 25 local operation cards. See
 `sidequest_semantic_herbal_curriculum_transfer_two_hundred_forty_third/TWO_HUNDRED_FORTY_THIRD_READABLE_HERBAL_APPRENTICESHIP.md`.
 
-Next, decompose the 25 local Herbal operation cards against the shared
-component and motif grammar, retaining whole cards only where composition fails.
+Pass 244 decomposes the 25 local operation cards: sixteen are fully built from
+shared components, three retain only a small learned core, and six remain short
+whole operations. Thus 22 of 28 local operation occurrences already use the
+shared grammar; the true whole-operation additions are cold-set, follow-up
+application, apply, cool, wring and strain-again. See
+`sidequest_semantic_herbal_operation_decomposition_two_hundred_forty_fourth/TWO_HUNDRED_FORTY_FOURTH_READABLE_OPERATION_LESSON.md`.
+
+Next, decompose the 24 local Herbal noun cards into productive quantity,
+preparation, source, target and ingredient compounds versus true learned nouns.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
