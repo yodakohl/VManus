@@ -7012,8 +7012,15 @@ and eight use local learned whole cards. Station 1 splits 9+1, Station 2 8+1,
 and Station 3 10+6. Station nouns remain image expansions, never card values.
 See `sidequest_semantic_station_card_portability_two_hundred_thirtieth/TWO_HUNDRED_THIRTIETH_REPORT.md`.
 
-Next, connect the eight local f83r whole cards into a small apparatus lexicon:
-input, residence, output, and handoff to the next visible station.
+Pass 231 reanalyses those eight exact singletons. Five are fully compositional,
+two compositional under a renderer hull, and only `lo = Abzug` remains a learned
+whole card. The productive apparatus grammar is source → input → handoff →
+residence → output, using CHK/SHED grades, P/L+CHED transfer, AR/AL/Y address,
+OK+AIR activation, and construction-bound DY. See
+`sidequest_semantic_f83r_apparatus_lexicon_two_hundred_thirty_first/TWO_HUNDRED_THIRTY_FIRST_READABLE_APPARATUS_LEXICON.md`.
+
+Next, write the full f83r local station graph with source/input/residence/output
+edges and mark every visible owner break that blocks a direct apparatus link.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
