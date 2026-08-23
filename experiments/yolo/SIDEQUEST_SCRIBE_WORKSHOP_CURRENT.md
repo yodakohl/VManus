@@ -4061,6 +4061,18 @@ The remaining 73 events are now strongly page-hand patterned: `cheol` tends to
 show parallel local frame choices. Next infer a few page-hand renderer profiles
 instead of adding more universal spelling rules.
 
+## Active hundred-ninety-second page-hand audit
+
+Six positive page-hand corrections lift reconstruction from 308 to 317/381.
+Early Herbal keeps `chol` and contracts CTH to `cthy`; f56r keeps medial
+`choky`; f82r/f83r retain medial `qokal`.
+
+Page identity alone is not enough. A proposed f81v `ol→qol` rule loses four
+net matches, and f83r `checthy→shcthy` nets zero because both surfaces occur in
+separate local blocks of the same page. The working renderer is therefore
+shared rules plus local copied-block or writing-session frame switches. Next
+map those within-record change-points.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
