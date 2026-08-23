@@ -4124,6 +4124,17 @@ This is now a plausible apprentice reader sheet. The key warning is that visible
 re-read complete H3 and B3 records in normalized card form and revise their
 fluent translations without treating allographs as extra words.
 
+## Active hundred-ninety-seventh normalized H3/B3 edition
+
+All 103 events, 42 fields and 38 statements of H3 and B3 now have visible,
+normalized, literal and fluent layers. H3 reads as a compact preparation chain:
+set in a liquid preparation, press, leave standing, strain again, take the clear
+extract, add the final component, then carry the prior batch forward by measure.
+
+B3 reads as 34 short vessel/station cells rather than one long sentence. The
+long S-framed B3-S021 is a two-stage state/target entry. Next normalize H1/H2
+and B1, focusing on CH base-preparation versus O continuation fields.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
