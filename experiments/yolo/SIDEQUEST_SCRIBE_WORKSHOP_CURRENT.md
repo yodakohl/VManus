@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-23, after publishing a complete speakable three-page Astro edition.
+Updated: 2026-08-23, after merging prose and Astro into one complete ten-page workshop edition.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -177,6 +177,26 @@ condition, or table value.
 Active files are in `sidequest_semantic_speakable_astro_edition/`, led by
 `THREE_SPEAKABLE_ASTRO_PAGES.md`, complete 395-group and 142-locus editions,
 page summary, compact report, builder and validator.
+
+## Active complete ten-page workshop edition
+
+The current sidequest is now one book rather than separate prose and diagram
+readers: 487 distinct visible surface forms, 776 visible groups, and 258 spoken
+units. The surface dictionary contains 44 forms used in both registers, 186
+prose-only forms, and 257 Astro-only forms. Every group links to one dictionary
+entry and one complete prose statement or diagram locus.
+
+The compact architecture is the sought mixture of learned whole cards and
+productive technical shorthand: 25 common cores, eight recurrent productive
+families, three forward-filled single cells, bound E/EE/EEE and Y/DY, plus
+local learned plant/vessel/star/sector/table words. The pocket codebook gives
+an eight-step reading procedure from registered surface and longest body to
+operator, quantity, address, grade, owner, and final local expansion.
+
+Active files are in `sidequest_semantic_ten_page_workshop_edition/`. The main
+human edition is `COMPLETE_TEN_PAGE_WORKSHOP_EDITION.md`; the teaching sheet is
+`TEN_PAGE_POCKET_CODEBOOK.md`; the exact lower layer is the 487-surface
+dictionary, 776-group ledger, 258-unit table, report, builder and validator.
 
 ## Active exception anatomy
 
