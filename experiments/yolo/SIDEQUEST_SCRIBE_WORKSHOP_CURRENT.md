@@ -7082,8 +7082,15 @@ wash/contact-close; and receiver-to-result. Thirty occurrences show that the
 apprentice recomposes operations rather than copying fixed sentences. See
 `sidequest_semantic_reusable_procedure_motifs_two_hundred_fortieth/TWO_HUNDRED_FORTIETH_APPRENTICE_MOTIF_CARDS.md`.
 
-Next, apply these six motifs to all f83r stations and identify the smallest
-additional workshop motif needed for anything they do not cover.
+Pass 241 transfers the motifs to all 54 f83r statements. The original six
+cover 44; one added rule, M07 LOCAL HANDOFF, covers seven more. The only three
+remainders are deliberately atomic instructions: set, fasten and bare close.
+Thus seven motifs plus three elementary cards cover 51+3/54 without a new
+sentence-sized word. See
+`sidequest_semantic_f83r_motif_transfer_two_hundred_forty_first/TWO_HUNDRED_FORTY_FIRST_READABLE_F83R_CURRICULUM.md`.
+
+Next, consolidate f81v/f82r/f83r into one 281-event Biological apprentice
+manual with one compact dictionary, seven motifs and all continuous readings.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
