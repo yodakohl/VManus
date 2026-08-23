@@ -88,6 +88,21 @@ local. Active files are in
 36-type YK/YT paradigm, 43 group readings, local-stem rules, builder and
 validator.
 
+## Active fourth complete edition
+
+The YK/YT morphology is now integrated into the complete ten-page reader, not
+left as a side table. Thirty-six surfaces and 43 Astro groups in 30 loci use
+the new local table stems. The edition still contains exactly 487 surfaces,
+776 groups and 258 reading units; all 381 prose rows are unchanged.
+
+This raises the fully generable layer from 476 to 518 groups and from 233 to
+268 surface types. The residual burden is 146 partial types/163 groups and 73
+whole types/95 groups. Active files are in
+`sidequest_semantic_ten_page_workshop_fourth_edition/`, led by
+`COMPLETE_TEN_PAGE_WORKSHOP_FOURTH_EDITION.md`, with revised 487/776/258
+tables, reclassified learning burden, updated pocket codebook, report, builder
+and validator.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
