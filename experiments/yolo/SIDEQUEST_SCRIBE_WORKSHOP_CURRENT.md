@@ -510,6 +510,27 @@ by `TWENTY_SIXTH_LEAN_ELEVEN_RECORD_EDITION.md`, with a complete 116-statement
 noun-load audit, eleven-record summary, report, builder and validator. This
 lean layer is the preferred baseline for the next concrete semantic revision.
 
+## Active twenty-seventh balanced continuous edition
+
+The eleven record narratives are now redrafted between the bare clause audit
+and the earlier rich medical story. The selected Herbal reading keeps root,
+water run, plant fractions, cloth, extract, two-stage clarification, a short
+external application and measured preparation where those ideas make several
+clauses cohere. It withdraws exact diseases, Olivenöl, honey, exact wine,
+vessel materials and anatomical targets. The Biological reading keeps visible
+figures, basins, local runs, cloth, temperature, collection and station changes
+but rejects one global circuit or a compulsory therapy.
+
+Every record prints its retained creative bets, withdrawn overdetail and
+technical rival. The resulting human prose remains bound to all 116 statements
+and 381 groups. It is more readable than the lean ledger and less dependent on
+arbitrary nouns than the twenty-second rich version.
+
+Active files are in
+`sidequest_semantic_balanced_continuous_twenty_seventh_edition/`, led by
+`TWENTY_SEVENTH_BALANCED_CONTINUOUS_EDITION.md`, with the eleven-record table,
+report, builder and validator. This is the preferred continuous German reading.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
