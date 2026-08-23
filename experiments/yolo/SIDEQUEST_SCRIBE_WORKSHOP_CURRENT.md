@@ -3179,6 +3179,28 @@ the complete 132-card audit, revised 173-card dictionary, 381-event and
 specialist cards by cross-record portability; promote a value only when the
 same short reading survives outside its local record.
 
+## Active hundred-forty-seventh recurrent specialist promotion
+
+The 132 specialist cards separate into 122 singletons, four cards repeated
+only inside one record, and six cards recurring across two Biological records.
+Those six cover twelve events and join a bounded Bio shared deck:
+`oiiin = Arbeitsstufe`, `dain = Einlage`, `qcthey = kurz vorbereiten`,
+`olkain = weiterer Anteil`, `shedal = am Ziel absetzen`, and
+`qoteedy = lange Folgestufe; Schluss`.
+
+`dain` is deliberately broader than the earlier `Trägereinlage`: its second
+owner does not independently show cloth. The four within-record repetitions
+remain local and all 122 singletons remain learned whole-card nomenclator
+entries. The portable teaching vocabulary is now 47 cards—41 earlier cards
+plus six Bio-shared cards—not a claim that these six bridge Herbal and Bio.
+
+Files are in
+`sidequest_semantic_recurrent_specialist_promotion_hundred_forty_seventh/`:
+complete 132-card recurrence audit, revised 173-card dictionary, 381-event and
+116-statement editions, report, builder and validator. Next recite all six
+Biological records in terse apprentice speech using the 47-card deck, while
+speaking singleton cards as learned local words rather than decomposing them.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
