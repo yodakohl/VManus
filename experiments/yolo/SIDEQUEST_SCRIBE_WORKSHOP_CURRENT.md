@@ -2413,6 +2413,29 @@ occurrences, all 116 annotated statements, builder and validator. Next use the
 ten formulae to predict a small set of unattested but useful card sequences and
 see which existing statements realize the same meanings with different order.
 
+## Active hundred-twelfth formula order
+
+Card order now has a concrete workshop reading. Six of eight tested contrasts
+occur in only one direction: preparation before current-item pointer, target
+before continuation, next-continuation before the continued step, continuation
+before settle-and-close, transferred item before continuation, and additional
+portion before target. This yields the default order item/preparation → measure
+or target → continuation → settle/close.
+
+Two bidirectional cases are genuine frames rather than free word order.
+`Y–AIIN–Y` binds one prescribed measure to two item slots. In H2-S002,
+`OL–(OL+OR)–OL` brackets the previous preparation with continuation: “continue
+— previous preparation — continue.” Of twelve longer ordered sequences built
+from these rules, five are already visible and seven remain useful open forward
+sequences.
+
+Active files are in
+`sidequest_semantic_formula_order_hundred_twelfth_edition/`, led by
+`HUNDRED_TWELFTH_FORMULA_ORDER_REPORT.md`, with eight order contrasts, twelve
+ordered predictions, all 116 order-annotated statements, builder and validator.
+Next inspect the seven open sequences against the 230-surface renderer inventory
+and derive the exact visible forms each workshop hand would most likely write.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible

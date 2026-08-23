@@ -1,0 +1,9 @@
+contrast_id	forward_pattern	forward_count	forward_statements	forward_working_reading_de	reverse_pattern	reverse_count	reverse_statements	reverse_working_reading_de	order_decision
+OC01	Y > AIIN	4	H2-S001|H3-S003|B3-S003|B3-S021	Posten vor Maß: das Maß gilt rückwärts für den aktuellen Posten	AIIN > Y	3	H2-S001|B2-S012|B3-S003	AIIN vor Y: das Maß eröffnet den folgenden Posten	BIDIRECTIONAL_ATTACHMENT
+OC02	OR > Y	3	H2-S003|H4-S004|B4-S014	Ansatz vor Y bildet den aktuellen Ansatz	Y > OR	0	NONE	Y vor Ansatz wäre ein Wechsel vom Posten zum neuen Ansatz	ONE_WAY_WORKSHOP_ORDER
+OC03	AL > OL	2	B1-S002|B5-S003	Ziel vor Fortsetzung: am gesetzten Ziel weiterführen	OL > AL	0	NONE	Fortsetzung vor Ziel wäre eine noch offene Zielzuweisung	ONE_WAY_WORKSHOP_ORDER
+OC04	OT+OL > OL	2	H1-S002|H2-S002	Folge-Fortsetzung eröffnet danach den weiterlaufenden Schritt	OL > OT+OL	0	NONE	umgekehrt wäre die Folge erst nachträglich markiert	ONE_WAY_WORKSHOP_ORDER
+OC05	OL > SHED+E+CLOSE	4	B1-S004|B1-S008|B1-S016|B4-S003	Fortsetzung vor Absetzen: weiterführen, kurz absetzen, schließen	SHED+E+CLOSE > OL	0	NONE	umgekehrt würde ein geschlossener Schritt unzulässig weiterlaufen	ONE_WAY_WORKSHOP_ORDER
+OC06	CHD+Y > OL	3	B1-S004|B1-S014|B4-S011	umgesetzten Posten weiterführen	OL > CHD+Y	0	NONE	umgekehrt würde die Fortsetzung vor ihrem Posten stehen	ONE_WAY_WORKSHOP_ORDER
+OC07	OL+AIN > AL	2	B1-S002|B4-S016	weitere Portion vor Ziel: Portion zum Ziel geben	AL > OL+AIN	0	NONE	umgekehrt wäre das Ziel vor der neuen Menge gesetzt	ONE_WAY_WORKSHOP_ORDER
+OC08	OL+OR > OL	2	H2-S002|B1-S002	vorigen Ansatz weiterführen	OL > OL+OR	1	H2-S002	umgekehrt würde Fortsetzung ohne benannten Ansatz beginnen	BIDIRECTIONAL_ATTACHMENT
