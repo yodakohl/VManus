@@ -7428,9 +7428,18 @@ The other layers remain 51 occurrences of 46 whole signs and 79 occurrences of
 67 copied local keys. See
 `sidequest_semantic_astro_reverse_encoder_two_hundred_eighty_ninth/TWO_HUNDRED_EIGHTY_NINTH_ASTRO_APPRENTICE_ENCODER.md`.
 
-Next, merge prose and Astro encoders into one forward writer manual and one
-776-row writing ledger, with pure composition, pure whole signs, the one framed
-whole exception, and local copy keys counted separately.
+Pass 290 merges both encoders into one executable forward writer. All 776
+visible groups now have an explicit production path: 617 pure compositions, 79
+whole-sign uses, one framed whole-sign exception and 79 local-copy uses. The
+portable teaching deck has 36 component families plus 23 prose and 46 Astro
+whole signs (105 learned entries total); 67 diagram-local forms are copied from
+the page exemplar. An eight-lesson curriculum keeps those layers separate. See
+`sidequest_semantic_complete_forward_writer_two_hundred_ninetieth/TWO_HUNDRED_NINETIETH_COMPLETE_SCRIBE_MANUAL.md`.
+
+Next, audit the twelve forecast compositions against every already visible form
+and adjacent construction on the fixed ten pages. Exact hits, near-spellings and
+split multi-card realizations count as useful workshop evidence; no new page is
+needed.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
