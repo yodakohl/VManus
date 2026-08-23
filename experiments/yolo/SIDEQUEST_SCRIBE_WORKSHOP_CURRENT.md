@@ -1080,6 +1080,28 @@ frontier, a 144-cell four-card compiler, report, builder and consistency
 checker. Next build a simulated master exemplar with neutral category tokens
 and work the remaining sixteen failures as concrete apprentice requests.
 
+## Active fifty-third simulated master exemplar
+
+The four supplement categories are now neutral shelf cards M01--M04 in a full
+copybook rather than abstract optimization results. They stand for WARM,
+SEPARATE, BRIEF-THEN-CLOSE, and LONGER-THEN-CLOSE. Their Voynich surfaces remain
+unassigned; bracketed M-labels occur only in the simulation.
+
+The exemplar contains 128 licensed commands and twelve complete forward and
+backward apprentice traces across observed fused cards, analytic observed
+pairs, analytic pairs using a master shelf card, and controlled paraphrases.
+The remaining sixteen commands are individual request slips. Together they
+need only CLOSE seven times, E+Y twice, SHED four times, and SOLK five times;
+only SHED+CLOSE and SOLK+CLOSE require two missing categories at once.
+
+Active files are in
+`sidequest_semantic_simulated_master_exemplar_fifty_third_edition/`, led by
+`FIFTY_THIRD_SIMULATED_MASTER_BOOK.md`, with four neutral catalog cards, 128
+licensed entries, sixteen request slips, twelve roundtrip traces, report,
+builder and consistency checker. Next consolidate roots, learned whole cards,
+memory slots, macros and owner expansions into a single hierarchy so sentence
+glosses can no longer masquerade as word meanings.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
