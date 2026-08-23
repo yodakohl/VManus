@@ -1,6 +1,6 @@
 # Current ten-page scribe-workshop theory
 
-Updated: 2026-08-23, after reducing the prose compiler to twelve clause shapes.
+Updated: 2026-08-23, after consolidating the complete fourteen-unit workshop edition.
 
 Status: **creative working reconstruction, not a GDT result**. The sidequest
 now deliberately maintains a complete speculative translation and a concrete
@@ -1423,6 +1423,28 @@ Active files are in
 lookups, report, builder and validator. No start, orientation, f68–f69 key or
 prose-card import is used. Next consolidate Herbal, Biological and Astro into
 one current workshop manual while keeping their different content channels.
+
+## Active sixty-ninth consolidated workshop edition
+
+The current compact release now binds every one of the 776 groups into fourteen
+readable units: five Herbal articles, six Biological station records and three
+Astro instruments. A unified ledger keeps their content channels separate. The
+shared desk manual has 32 rules and the hierarchical dictionary retains all 89
+teaching entries.
+
+The best common description is a workshop technology, not a common plaintext
+vocabulary: productive cards and clause forms, learned whole values, silent
+visual owners, local lookup namespaces and a master exemplar. Herbal leads as
+preparation practice, Biological as bath/wash/application practice with a
+bathhouse rival, and Astro as celestial/calendar reference.
+
+Active files are in
+`sidequest_semantic_consolidated_workshop_sixty_ninth_edition/`, led by
+`SIXTY_NINTH_ONE_PAGE_WORKING_THEORY.md` and
+`SIXTY_NINTH_COMPLETE_TEN_PAGE_WORKING_EDITION.md`, with the 776-group ledger,
+fourteen-unit edition, 89 dictionary layers, 32-rule manual, report, builder and
+validator. Next pressure-test the consolidated content by reconstructing the
+same fourteen units from a deliberately different nonmedical workshop source.
 
 ## Active surface compiler
 
