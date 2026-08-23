@@ -6953,8 +6953,14 @@ marker `SCHLUSS`; learned `CHEEY/SHEY` changes from `FREIGABEWERT` to the
 register-neutral `ERGEBNIS`, retaining local wet `Klarlauf`. See
 `sidequest_semantic_three_owner_substitution_two_hundred_twentieth/TWO_HUNDRED_TWENTIETH_THREE_OWNER_PHRASEBOOK.md`.
 
-Next, integrate these two revisions into the full dictionary, Prose and Astro
-tables and reread the common ten-token formula.
+Pass 221 integrates both revisions through 173 cards, 381 Prose events, 116
+statements and the 776-group layered ledger. Exactly ten visible occurrences
+change (six Prose, four Astro). The common formula now reads `dies – Sollwert –
+einsetzen; davon – Sollwert – dorthin; Sollwert – Ziel – Schluss; Ergebnis`.
+See `sidequest_semantic_result_close_integration_two_hundred_twenty_first/TWO_HUNDRED_TWENTY_FIRST_REVISED_COMMON_FORMULA.md`.
+
+Next, find all real three- to five-card windows that instantiate compact
+dictionary phrases and turn the strongest recurring ones into a phrasebook.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
