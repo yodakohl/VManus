@@ -6922,6 +6922,15 @@ current compact manual is
 Next, assign every one of the 776 fixed-page groups a primary layer: common
 core, prose extension or local exemplar value.
 
+Pass 216 assigns all 776 groups: 182 whole portable core cards/surfaces, 203
+local prose cards with a common axis, 37 prose-only component cards, 25 local
+prose whole/core events, 23 Astro homographs and 306 Astro-local exemplar
+groups. The unified table is
+`sidequest_semantic_776_layered_edition_two_hundred_sixteenth/TWO_HUNDRED_SIXTEENTH_776_LAYERED_LEDGER.tsv`.
+
+Next, rewrite the readable ten-page edition so each unit visibly separates
+bracketed card values from image/owner/exemplar expansions.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
