@@ -1169,6 +1169,29 @@ consistency checker. Next compare the fluent reading against the card-level
 reading sentence by sentence and isolate the smallest recurring owner-supplied
 content phrases that can be taught as picture conventions rather than words.
 
+## Active fifty-seventh picture phrasebook
+
+Twenty recurrent picture, owner, process and exemplar phrases now annotate all
+116 prose statements; 106 statements use at least one. The largest conventions
+are visible basin in 37 statements, vessel in 31, designated place in 31, part
+in 23, and current working liquid in 17. Seventeen exact visible owners each
+receive four reusable spoken slots: subject, current item, source and target.
+
+The phrasebook keeps provenance visible. Plant, basin, vessel, opening and place
+are owner nouns. Root, blossom and herb are article refinements. Water, wine,
+oil and juice are master-exemplar materials. Preparation, extract, liquid and
+outflow are process states. Part, portion and measure remain card-level values.
+Thus `O` or `OL` never becomes oil and `AIR` never becomes water without its
+owner filling.
+
+Active files are in
+`sidequest_semantic_picture_phrasebook_fifty_seventh_edition/`, led by
+`FIFTY_SEVENTH_PICTURE_PHRASEBOOK.md`, with seventeen owner phrases, twenty
+content conventions, all 116 annotated sentences, report, builder and
+consistency checker. Next test whether a fixed small set of these silent phrases
+can regenerate the fluent prose from card readings without sentence-specific
+hand additions.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
