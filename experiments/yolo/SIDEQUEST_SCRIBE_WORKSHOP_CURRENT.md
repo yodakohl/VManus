@@ -7412,9 +7412,17 @@ short-preparation pair and OT follow-transfer pair remain locally allographic.
 The canonical writer now selects 350/352 composed occurrences directly. See
 `sidequest_semantic_allograph_resolver_two_hundred_eighty_seventh/TWO_HUNDRED_EIGHTY_SEVENTH_RESOLVED_WRITER_MANUAL.md`.
 
-Next, test whether the last two pairs follow a simple owner/register writing
-rule: visible vessel versus transition zone for CTH, and main record versus
-technical addendum for the CHD/CHED follow-transfer form.
+Pass 288 closes the last two prose choices with simple writer conventions. A
+bounded pictured vessel uses qcthey/shcthey while the unpictured owner gap uses
+shecthy; the main operating record uses expanded OT+CHED while the compact
+technical addendum uses OT+CHD. The result is 149 contextualized recipes for
+149 composed card types and all 352 composed occurrences, plus the separately
+memorized whole-sign layer. See
+`sidequest_semantic_final_writer_conventions_two_hundred_eighty_eighth/TWO_HUNDRED_EIGHTY_EIGHTH_COMPLETE_WRITER_MANUAL.md`.
+
+Next, build the same reverse encoder for the 265 composed Astro groups while
+keeping the 51 Astro whole signs and 79 diagram-local names as distinct learned
+and copied layers.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
