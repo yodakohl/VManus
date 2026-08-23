@@ -3410,6 +3410,26 @@ Files are in
 validator. Next render complete statements and compare how often the five
 hands produce visibly different copies of one unchanged atomic reading.
 
+## Active hundred-fifty-eighth five-hand statement copyshop
+
+Five hand profiles now render all 381 prose events, producing 1,905 token
+copies, 580 complete statement copies and 55 full record copies. Every chosen
+surface is registered and every copy returns exactly to the same master-card
+and atomic-meaning sequence. No semantic repair is needed after rendering.
+
+Seventy-six of 116 statements acquire at least two visibly different sequences;
+40 remain invariant because local one-form nomenclator cards dominate them or
+their shared cards lack an alternative for that hand. Seven hundred shared-
+token copies differ visibly from the observed token while retaining identity.
+This makes several scribes compatible with one source book and dictionary.
+
+Files are in
+`sidequest_semantic_five_hand_statement_copyshop_hundred_fifty_eighth/`: full
+1,905-token trace, 580 statements, 116 variation summaries, 55 record copies,
+readable five-hand copybook, report, builder and validator. Next assign each
+real record the smallest mixture of the five habits that reproduces its
+observed shared-card surfaces.
+
 ## Active surface compiler
 
 The current prose grammar is now tied back to all 230 registered visible
