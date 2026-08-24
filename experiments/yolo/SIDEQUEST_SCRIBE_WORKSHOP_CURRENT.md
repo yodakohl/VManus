@@ -8542,10 +8542,17 @@ CONTINUE THIS AT THE TARGET rather than lower site. Only nine local singleton
 cards remain. See
 `sidequest_semantic_b3_productive_completion_four_hundred_forty_first/FOUR_HUNDRED_FORTY_FIRST_APPRENTICE_CARD.md`.
 
-Next, run a concrete tournament over the nine B3 local cards: CHARY, LO,
-CHEEDAR, SHECTHEDCHY, CHETY, CHEEETY, SHECTHY, CHLDAIIN and CHEALROR. Give each
-short rival meanings, prefer values that complete whole station sequences, and
-promote a component only where it predicts rather than merely resembles.
+Pass 442 assigns four concrete rivals to each of B3's nine singleton cards.
+The selected local station chain is QUELLSTATION -> ABSETZMASS -> AUFFANGPUNKT;
+ABKUEHLEN, ABGANG, AUFSTREICHEN, ZERKLEINERN and TEMPERIERT stay whole.
+CHEEETY changes from the unsupported FIRST RINSE to EEE-graded FULL RINSE and
+joins the productive deck. B3 finishes with 26 transfers, 18 compositions and
+eight local whole cards. See
+`sidequest_semantic_b3_local_tournament_four_hundred_forty_second/FOUR_HUNDRED_FORTY_SECOND_FINAL_B3_READING.md`.
+
+Next, transfer the combined B1/B2/B3 dictionary into B4. Preserve every exact
+value, keep the real f83r local owner connections, complete every B4 event and
+statement, and isolate only the genuinely new B4 cards before revising them.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
