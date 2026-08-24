@@ -8931,9 +8931,17 @@ cannot explain the fill/draw repetition. H1 and B1 now share the supertype
 two-pass wet process while producing different objects. See
 `sidequest_semantic_h1_double_extraction_four_hundred_ninety_first/FOUR_HUNDRED_NINETY_FIRST_REPORT.md`.
 
-Next, reconstruct the nine-card H2-S001 whole form. Determine whether it is
-another extraction variant or a different Herbal macro such as preparation,
-quality checking, storage or application.
+Pass 492 reads H2-S001 as PFLANZENANSATZ AUF SOLLMASS EINSTELLEN UND
+WEITERGEBEN. Nine cards activate one plant preparation, mark it ready, set or
+check its prescribed measure twice and carry the same work item along the
+learned local route. No new fraction is created, so this is a dispatch macro,
+not another extraction. Within this single field `dy`, `chy` and `shy` are
+three surface forms of the same Y card and retain exactly one referent. See
+`sidequest_semantic_h2_standardize_dispatch_four_hundred_ninety_second/FOUR_HUNDRED_NINETY_SECOND_REPORT.md`.
+
+Next, reconstruct the nine-card H5-S001 whole form and determine whether the
+second late-Herbal image owner reuses extraction, standardization/dispatch, or
+requires a new preparation macro.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
