@@ -8137,10 +8137,16 @@ hearing German values. Fifteen visible forms reduce to fourteen sources through
 the single marked `cheky` anticipation. See
 `sidequest_semantic_fourth_copy_combination_three_hundred_eighty_second/THREE_HUNDRED_EIGHTY_SECOND_FOURTH_COPY.md`.
 
-Next, make a compact contrast table for all six Y and five AIIN surfaces in the
-same sentence frame. Separate the variable entry shell from the invariant tail
-and ask whether the two families teach one general wrapper rule or two memorized
-palettes.
+Pass 383 places all six Y and five AIIN surfaces in fixed contrast frames and
+reconciles them with all 38 real occurrences. BARE, CH, D and S are shared
+entry shells with no assigned content meaning; Y remains Diesposten and AIIN
+remains Sollmaß. CHE/SH are Y-only and T is AIIN-only, so the workshop teaches
+one shell mechanism plus two licensed family palettes. See
+`sidequest_semantic_y_aiin_wrapper_contrast_three_hundred_eighty_third/THREE_HUNDRED_EIGHTY_THIRD_CONTRAST_SHEET.md`.
+
+Next, apply the same compositional discipline to the OKY/OKEEY/OKEDY family.
+Build a single visible ladder separating OK operation, E duration grade and
+Y/DY endpoint, while keeping exact whole-card exceptions explicit.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
