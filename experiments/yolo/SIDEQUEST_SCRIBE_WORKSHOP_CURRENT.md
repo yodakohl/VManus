@@ -8469,9 +8469,16 @@ SH+E+DY card now all read KURZ ABSETZEN; SCHLUSS. The missing long-warm and
 short-collect cells are left to the local deck rather than invented. See
 `sidequest_semantic_b1_process_ladder_four_hundred_thirty_first/FOUR_HUNDRED_THIRTY_FIRST_APPRENTICE_RULE.md`.
 
-Next, audit B1's transfer and outlet chain: CHCKHY, SCHEDY, QOLCHEDY, LCHEDAL,
-OTAR and SHCKHEDY. Build one source-path-target vocabulary and decide whether
-the final pair is SEIHEN, DURCHLASSEN or ABFUEHREN.
+Pass 432 makes B1's transfer cards one source-path-target vocabulary. AL is the
+target, AR the source side, CKH the passage and CHED transfer; L+CHED leads out,
+OL+CHED continues and SH+CKHE strains. OTAR is revised from an invented second
+outlet to DANACH VON DORT, while SCHEDY becomes UEBERFUEHREN; SCHLUSS. See
+`sidequest_semantic_source_path_target_four_hundred_thirty_second/FOUR_HUNDRED_THIRTY_SECOND_APPRENTICE_CARD.md`.
+
+Next, rebuild B1-S002's whole dosing block: KAIN, OLKAIN, DL, OLOR, SHECKHAL,
+AIIN and QOKEEDAL. Distinguish ingredient, first/following portion, additive,
+batch, moderate quantity, prescribed measure and long target hold without
+giving any card a sentence-sized gloss.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
