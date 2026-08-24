@@ -9071,9 +9071,16 @@ addresses and five local items are copied from the exemplar. A ten-page
 practice sheet accounts for all 776 visible elements. See
 `sidequest_semantic_apprentice_curriculum_five_hundred_ninth/FIVE_HUNDRED_NINTH_REPORT.md`.
 
-Next, audit the 41 memorized card values for semantic overlap and collapse only
-true duplicate workshop functions while preserving distinct source, target,
-movement, state and closure roles.
+Pass 510 reduces 41 memorized card values to 37 distinct meanings. CKHE becomes
+CKH+E (brief passage), CHEO becomes CH+E+O (brief draw process/result), the
+single LS is an OL/continue alias, and PROC169 compresses known target-stage II.
+The signs remain learnable forms but add no new semantic value. Quantity,
+source/target, movement and state contrasts remain distinct. See
+`sidequest_semantic_core_deduplication_five_hundred_tenth/FIVE_HUNDRED_TENTH_REPORT.md`.
+
+Next, generate concrete readings for underused compositional cards from the 37
+core meanings before consulting their surrounding statement, then rewrite the
+affected statements with the winning short readings.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
