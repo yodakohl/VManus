@@ -1,0 +1,17 @@
+rule_no	rule_id	instruction_de	free_choice
+1	PAGE	Nimm die physisch vorliegende Zielseite; ihr Rendererblatt ist fest gebunden.	NO
+2	SHEET	Aktiviere das zur Seite gehörende Blatt automatisch.	NO
+3	RECORD	Am Recordanfang setze den sichtbaren Hauptbesitzer.	NO
+4	VISIBLE_SHIFT	Bei einer neuen getrennten Bildstation setze den lokalen Besitzer.	NO
+5	VISIBLE_GAP	Bei einer Bildlücke beende Vererbung und kopiere die lokale Bindung.	NO
+6	INHERIT	Ohne Bildschwelle behalte den laufenden Besitzer.	NO
+7	READ_CARD	Lies die nächste exakte Karte aus dem Masterexemplar.	NO
+8	DECOMPOSE	Zerlege sie mit Kartenlexikon, Komponentenstreifen oder Ganzzeichenkarte.	NO
+9	AUTOMATON	Führe ihre primitive Operation im fünfstufigen Automaten aus.	NO
+10	CONTEXT	Prüfe die vier automatischen Wrapper-Kontextregeln.	NO
+11	ADDRESS	Falls keine Kontextregel greift, prüfe Record+Locus+Regeloberfläche im Seitenblatt.	NO
+12	STAMP	Setze gegebenenfalls einen der acht Wrapperstempel vor den erhaltenen rechten Rest.	NO
+13	GLOBAL	Ohne lokalen Eintrag benutze die globale Rendereroberfläche.	NO
+14	CARRY	Bei der einen markierten Randwiederholung E180/E181 lies zwei sichtbare Kopien als ein Quellzeichen.	NO
+15	CLOSE	Eine lizenzierte Schlusskarte schließt den Schritt; ein Zeilenende allein nicht.	NO
+16	ADVANCE	Gehe zur nächsten sichtbaren Karte und wiederhole.	NO

@@ -9188,8 +9188,17 @@ f55v4, f56r2, f81v14, f82r6 and f83r22. One page load replaces eleven record
 loads, leaving seven setup events and 374 automatic cards. See
 `sidequest_semantic_page_renderer_sheets_five_hundred_twenty_fifth/FIVE_HUNDRED_TWENTY_FIFTH_REPORT.md`.
 
-Next, treat the page renderer sheet as a physically bound part of the selected
-master exemplar, making page activation automatic rather than a free choice.
+Pass 526 treats each page renderer sheet as physically bound to its selected
+master page. Page activation is therefore automatic, not a free choice. All 381
+prose events execute through a sixteen-rule workshop manual with zero free
+program, owner, renderer or semantic-invention decisions. Surface production
+still uses 59 bound local entries, so this is deterministic exemplar execution,
+not autonomous plaintext recovery. See
+`sidequest_semantic_bound_master_exemplar_five_hundred_twenty_sixth/FIVE_HUNDRED_TWENTY_SIXTH_REPORT.md`.
+
+Next, return to content: reverse-build one complete Herbal process from visible
+owner, source/material, quantity, operation, state and target, separating card-
+licensed words from image-supplied nouns.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
