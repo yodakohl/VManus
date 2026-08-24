@@ -10134,9 +10134,18 @@ requires an orientation, or creates an f68-f69 key. The book therefore uses a
 productive command register and a separate copied celestial lookup layer. See
 `sidequest_semantic_ten_page_apprentice_handbook_six_hundred_thirty_eighth/SIX_HUNDRED_THIRTY_EIGHTH_REPORT.md`.
 
-Next, run a combined apprentice exam: write/back-read one non-source C3
-short-hold order, copy/retrieve one f69 locus, inject one error into each, and
-apply the master's correction. Add no inventory.
+Pass 639 runs the combined exam. The new C3 short-hold strip `qokaiin qokal
+cfhy cphy tshey shedy` is absent from the source and back-reads exactly. Swapping
+`cfhy/cphy` leaves the C3 cue intact but creates the detectable physical error
+“pour before wring”; the master restores only that pair. At f69v.31 the copied
+label `oar alys` is deliberately reversed; both local identities survive, but
+both positions fail until the exemplar order is restored. Thus Prose and Astro
+support different error and correction rules. See
+`sidequest_semantic_combined_apprentice_exam_six_hundred_thirty_ninth/SIX_HUNDRED_THIRTY_NINTH_REPORT.md`.
+
+Next, give the same correct C3 instruction to preparation, bath, and station
+desks. Render the licensed allographs and separate scribal surface variation
+from invariant card identity and meaning.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
