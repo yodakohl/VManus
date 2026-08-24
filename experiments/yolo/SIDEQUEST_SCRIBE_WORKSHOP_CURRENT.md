@@ -9944,9 +9944,18 @@ plant extract, flower, bath, wash, or poultice words occur only in the outer
 case layer; none is hidden inside the 39 card words. See
 `sidequest_semantic_layered_readable_six_hundred_eighteenth/SIX_HUNDRED_EIGHTEENTH_REPORT.md`.
 
-Next, compare the six cases to extract the smallest recurring preparation and
-application modules. Distinguish genuine repeated modules from the same
-generic command sequence merely attached to a different picture owner.
+Pass 619 maps all 116 statements to eight recurring workshop modules: DOSING,
+START/TREAT, ADDRESS/TRANSFER, HOLD/SETTLE, COLLECT, CONTINUE, READY-GATE, and
+CLOSE. Dosing, address/transfer, and continuation occur in all six cases; five
+cases use start/treat, hold/settle, collect, and close; only C1–C3 carry an
+explicit ready-gate. Only seventeen exact two-/three-card sequences cross two
+cases, so most commonality is modular rather than verbatim. The strongest
+three-card formulas are Y–AIIN–Y and OK+EE+Y–OK+Y–OL. See
+`sidequest_semantic_case_modules_six_hundred_nineteenth/SIX_HUNDRED_NINETEENTH_REPORT.md`.
+
+Next, turn the eight modules into a compact c.1420 apprentice tablet with
+inputs, allowed component cards, output state, surface choice, and typical
+copying error, then use it to compose and reread one complete case.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
