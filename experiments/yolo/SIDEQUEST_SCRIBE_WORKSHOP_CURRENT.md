@@ -8117,9 +8117,16 @@ scribe; no German value is spoken. The third copy changes exactly positions
 four cycles, two owners, fourteen sources and one marked carry. See
 `sidequest_semantic_board_call_third_copy_three_hundred_seventy_ninth/THREE_HUNDRED_SEVENTY_NINTH_THIRD_COPY.md`.
 
-Next, align all three copies into a stem/variant sheet. Treat changing entry
-wrappers separately from the shared content core and predict only registered,
-not invented, fourth surfaces.
+Pass 380 aligns all three copies into eight productive content cores—HO, OR,
+CTHY, Y, AIIN, CKHY, OKY and OKEEY—and six invariant learned cards. Six already
+registered surfaces unused in the three copies (`or`, `chy`, `dy`, `shy`,
+`aiin`, `daiin`) are predicted to preserve their core value; no new surface is
+invented. See
+`sidequest_semantic_three_copy_stem_sheet_three_hundred_eightieth/THREE_HUNDRED_EIGHTIETH_STEM_VARIANT_SHEET.md`.
+
+Next, test the six predicted wrapper substitutions one at a time in unchanged
+local contexts. Keep card identity, owner, cycle and neighbours fixed so that a
+failed back-reading cannot be repaired by changing the sentence.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
