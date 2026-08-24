@@ -8268,9 +8268,17 @@ registers supply follow-on batch and first press extract. The following Y
 resumes their combined vessel post. See
 `sidequest_semantic_h2_or_pair_binding_four_hundred_second/FOUR_HUNDRED_SECOND_SCRIBE_RULE.md`.
 
-Next, couple H2's earlier open Y-Y pair (DY-CHY) to the later OR-OR pair. Test
-whether the first pair opens two material referents that the last pair recalls,
-or whether Y-Y instead marks two stages of only one pressed extract.
+Pass 403 couples H2's two open pairs into a split-rejoin frame. Y-Y immediately
+after pressing opens two material referents, concretely press liquid and wet
+plant mass; the middle OT/OL sequence processes both; OR-OR recalls two
+preparations at the vessel; a following Y resumes their combined soft
+application. The material names come from the press context, not from Y. See
+`sidequest_semantic_h2_press_split_rejoin_four_hundred_third/FOUR_HUNDRED_THIRD_REVISED_H2_ARTICLE.md`.
+
+Next, search the fixed Biological records for an operation followed by an open
+pair, separated processing and a later paired rejoin. If none exists, keep the
+split-rejoin semantics H2-local while retaining only the duplicate-slot grammar
+as portable.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
