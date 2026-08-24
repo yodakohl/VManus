@@ -10218,9 +10218,17 @@ missing internally. Owner plus contiguity changes editorial treatment without
 changing card meanings; automatic insertions remain zero. See
 `sidequest_semantic_subroutine_vs_damage_six_hundred_forty_eighth/SIX_HUNDRED_FORTY_EIGHTH_REPORT.md`.
 
-Next, return the five-case grammar to all116 actual statements. Measure the
-longest genuinely occurring contiguous template run per statement and separate
-source-attested local phrases from newly composed apprentice exercises.
+Pass 649 returns the constructed cases to all116 actual statements. Every one
+of the 30 template positions uses a source-attested card, but only 1/25
+template bigrams is source-attested: `cthaiin qoctholy` in H2-S001. The longest
+source contact is two cards; 72 statements contain no template card,43 only a
+single card,1 the bigram, and0 any longer run. C1-C5 are therefore productive
+apprentice exercises, not recovered source phrases. See
+`sidequest_semantic_source_contact_six_hundred_forty_ninth/SIX_HUNDRED_FORTY_NINTH_REPORT.md`.
+
+Next, inventory all actual within-statement card bigrams and trigrams. Build
+the next grammar only from recurrent source sequences, using singletons as
+local context rather than promoted constructions.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
