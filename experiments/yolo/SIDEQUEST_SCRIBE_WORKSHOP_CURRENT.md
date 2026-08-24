@@ -9936,9 +9936,17 @@ touches 108 cards, 228 events, and 75 statements while retaining the same
 39-word/163-command inventory. See
 `sidequest_semantic_backread_noun_repair_six_hundred_seventeenth/SIX_HUNDRED_SEVENTEENTH_REPORT.md`.
 
-Next, regenerate the fluent eleven-record edition from these sharper cues.
-Concrete water, wine, oil, plant, body, or apparatus words may enter only from
-the active picture/case, never silently from AIR, O, HO, or another component.
+Pass 618 regenerates all eleven records with four visible meaning layers:
+invariant card command, image owner/station, explicit case material, and
+practical application. Six case materials now connect H1–H5 to B1–B5; B6 uses
+an inherited workshop stock without a dedicated Herbal record. Concrete water,
+plant extract, flower, bath, wash, or poultice words occur only in the outer
+case layer; none is hidden inside the 39 card words. See
+`sidequest_semantic_layered_readable_six_hundred_eighteenth/SIX_HUNDRED_EIGHTEENTH_REPORT.md`.
+
+Next, compare the six cases to extract the smallest recurring preparation and
+application modules. Distinguish genuine repeated modules from the same
+generic command sequence merely attached to a different picture owner.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
