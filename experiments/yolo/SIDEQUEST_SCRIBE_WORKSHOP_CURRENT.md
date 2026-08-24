@@ -8359,9 +8359,15 @@ that dose. H1 now has a continuous fourteen-card preparation without a
 sentence-sized card gloss. See
 `sidequest_semantic_etyd_dose_handoff_four_hundred_fifteenth/FOUR_HUNDRED_FIFTEENTH_CONTINUOUS_H1.md`.
 
-Next, audit the first two H1 cards DCHEY/Wurzelteil and CTHOOR/säubern against
-their full occurrence families and the fixed f10r image. Decide whether the
-portable values are specifically ROOT/CLEAN or the broader PART/PREPARE.
+Pass 416 uses the strongest f10r picture detail: paired red underground
+swellings. Singleton DCHEY becomes the learned picture-addressed noun KNOLLE;
+singleton CTHOOR becomes ABSCHABEN, kept separate from explicit CHOY/LSH
+wash cards. CHET remains the general BEARBEITEN card. See
+`sidequest_semantic_f10_root_scrape_four_hundred_sixteenth/FOUR_HUNDRED_SIXTEENTH_CONTINUOUS_H1.md`.
+
+Next, audit all five occurrences of CHAR/DAR/SAR. Reduce the current phrase
+“aus demselben Vorrat” to the shortest portable value among QUELLE, GLEICHE
+CHARGE and DARAUS, then rewrite every affected statement.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
