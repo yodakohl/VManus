@@ -7579,8 +7579,16 @@ open fringe branch. The genuine image gap between the basket margin and main
 pair remains a four-option transfer palette, never an invented pipe. See
 `sidequest_semantic_visual_block_roles_three_hundred_seventh/THREE_HUNDRED_SEVENTH_VISUAL_STATION_COPYBOOK.md`.
 
-Next, assign every one of the 97 Biological statements to a compact operating
-mode: charge, treat, settle, pass/filter, discharge, measure or local control.
+Pass 308 assigns all 281 Biological card events and 97 statements to seven
+operating modes. Event counts are local control 98, charge 59, treatment 35,
+measure/stage 27, discharge 23, settle/collect 21 and pass/filter 18. Primary
+statement counts are treatment 20, charge 19, settle 18, local control 17,
+discharge 14, pass/filter 7 and measure 2. Every statement retains its full
+ordered mode sequence and image-owner binding. See
+`sidequest_semantic_bio_operating_modes_three_hundred_eighth/THREE_HUNDRED_EIGHTH_COMPLETE_BIO_OPERATING_EDITION.md`.
+
+Next, cross the seven modes with the 29 productive stem families and the
+memorized whole-card layer to see which stems actually predict an operation.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
