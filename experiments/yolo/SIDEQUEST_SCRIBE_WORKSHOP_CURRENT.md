@@ -10375,8 +10375,16 @@ AIR is moving work liquid rather than a source address. All29 covered closes
 are terminal. Forty-nine new cards/92 events raise coverage to146/309. See
 `sidequest_semantic_direction_address_layer_six_hundred_sixty_ninth/SIX_HUNDRED_SIXTY_NINTH_REPORT.md`.
 
-Next, close the remaining quantity and selection layer (AIN, AIIN, IIN, K, HO,
-Y) and measure how many of the27 remaining cards become compositional.
+Pass 670 closes the quantity/item layer: AIN=PORTION, AIIN=SOLLMASS,
+IIN=ARBEITSSTUFE, K=ZUDOSIEREN, HO=ZUTAT, Y=ARBEITSPOSTEN. Their union is88
+cards/195 events. AIN is the charge while AIIN is its prescribed value; IIN is
+a process stage; K is the dosing action while HO is its material; Y resumes the
+active item and never closes merely because a writer surface looks like `dy`.
+Twenty-one new cards/65 events raise total coverage to167/374. See
+`sidequest_semantic_quantity_item_layer_six_hundred_seventieth/SIX_HUNDRED_SEVENTIETH_REPORT.md`.
+
+Next, close the exact six-card/seven-event remainder as the smallest possible
+whole-command deck, then publish one integrated173-card dictionary.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
