@@ -10303,9 +10303,16 @@ bidirectional reconfiguration cycle rather than fixed precedence. Five fused
 OK+CHD+DY shortcuts are all final. See
 `sidequest_semantic_two_verb_cycle_six_hundred_fifty_ninth/SIX_HUNDRED_FIFTY_NINTH_REPORT.md`.
 
-Next, write fluent complete German readings for all18 joint statements while
-preserving every card and order. Select the clearest multi-step process chains
-for the working translation book.
+Pass 660 gives all18 joint statements/94 events complete fluent German
+readings with every visible card retained and0 added content nouns. Nine are
+clean,8 workable,1 dense but complete. The five clearest include B3-S006
+`chedchy qokal olchedy` = transfer item, set at target, continue transfer and
+close. See
+`sidequest_semantic_two_verb_fluent_edition_six_hundred_sixtieth/SIX_HUNDRED_SIXTIETH_REPORT.md`.
+
+Next, integrate SHED=SETTLE, CHK=WARM, and CTH=READY as the third process axis.
+Find actual source chains SET/TRANSFER to WARM/SETTLE to READY/CLOSE and extend
+the fluent edition only where those state transitions occur.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
