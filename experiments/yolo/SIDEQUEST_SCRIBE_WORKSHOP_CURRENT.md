@@ -9018,8 +9018,16 @@ nonoverlapping calls cover 33 events, with no new card or meaning and the same
 120-item manual. See
 `sidequest_semantic_global_subroutine_extension_five_hundred_second/FIVE_HUNDRED_SECOND_REPORT.md`.
 
-Next, encode all 116 prose statements as complete primitive signatures and
-count the remaining distinct sentence programs.
+Pass 503 corrects terminal cards to emit their local operation followed by
+CLOSE rather than CLOSE alone. The 381 cards emit 470 procedure tokens and the
+116 statements form 72 exact programs. Nine recurrent programs cover 53 Bio
+statements; 44 Bio statements and all 19 Herbal statements have unique full
+signatures. The strongest recurrent programs are hold-close (21), move-close
+(14) and activate-close (4). See
+`sidequest_semantic_statement_programs_five_hundred_third/FIVE_HUNDRED_THIRD_REPORT.md`.
+
+Next, reconcile the nine explicit recurrent programs with the seven older Bio
+form cards and keep one consistent form-card layer.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
