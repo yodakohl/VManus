@@ -8788,11 +8788,18 @@ remain explicitly invisible. Astro resets at each of its 142 visible loci and
 does not carry a pronoun across slots. See
 `sidequest_semantic_referent_propagation_four_hundred_seventy_fourth/FOUR_HUNDRED_SEVENTY_FOURTH_REPORT.md`.
 
-Next, compress the mechanically expanded referent chains into readable record
-prose. Collapse nested phrases such as PORTION OF PORTION, retain every event in
-an aligned interlinear, and write one concise workshop instruction per one of
-the 116 statements plus fourteen genuinely continuous unit readings. Any
-compression that changes the active post must be rejected.
+Pass 475 compresses the mechanically expanded chains into readable workshop
+prose. Short referent names and four counted adjacent repetitions reduce prose
+characters by 27.69% while an aligned 381-event table preserves every card.
+The result contains 116 concise prose statements, 142 owner-addressed Astro
+loci and fourteen continuous unit editions, still totaling 776 groups. See
+`sidequest_semantic_readable_compression_four_hundred_seventy_fifth/FOUR_HUNDRED_SEVENTY_FIFTH_REPORT.md`.
+
+Next, classify every prose event into a small practical phase—SELECT, PREPARE,
+MEASURE, MOVE, APPLY, HOLD, CHECK, COLLECT or CLOSE—and segment the eleven prose
+records only where the phase genuinely changes. Compare Herbal and Biological
+phase order, then use recurrent phase transitions to improve whole-workflow
+translations without inventing new nouns.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
