@@ -9913,9 +9913,16 @@ still allow more than one local surface; the nearby exemplar chooses among
 them without changing meaning. See
 `sidequest_semantic_multiscribe_palette_six_hundred_fourteenth/SIX_HUNDRED_FOURTEENTH_REPORT.md`.
 
-Next, rewrite all eleven Prose records as a readable edition using the new 39-
-word/163-command base: owner and product once, then invariant commands with
-their selected local cards alongside.
+Pass 615 rewrites all eleven Prose records as a readable 39-word/163-command
+edition. It binds 173 exact cards, 381 events, and 116 statements; every
+statement prints the visible surfaces, card IDs, invariant command sequence,
+owner/station, and short German workshop reading. H3/H5 now explicitly resume
+an earlier work thread, while H4 distinguishes PORTION from NACHPORTION. See
+`sidequest_semantic_readable_prose_six_hundred_fifteenth/SIX_HUNDRED_FIFTEENTH_REPORT.md`.
+
+Next, back-encode the 116 German workshop readings. Any reading that admits
+multiple command sequences without a local exemplar marks an overbroad gloss
+or a missing semantic distinction to repair.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
