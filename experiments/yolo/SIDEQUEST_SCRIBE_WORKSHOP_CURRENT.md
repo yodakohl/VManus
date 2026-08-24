@@ -10722,11 +10722,19 @@ remain provisional exemplar choices: CHD+DY, CHD+Y, OK+CHD+DY and OK+Y. No
 semantic split is invented. See
 `sidequest_semantic_duplicate_recipe_inventory_seven_hundred_twelfth/SEVEN_HUNDRED_TWELFTH_REPORT.md`.
 
-Next, compare the four same-owner doublets against prior/following card,
-statement position, open/close state, repeated-item status and owner carry.
-Test one shared nuance such as first versus resumed item or plain versus bound
-continuation. Promote it only if the same direction explains all four; else
-retain exact exemplar choice.
+Pass 713 finds one shared copying tendency across those four same-owner
+doublets. Their35 occurrences comprise10 marked carrier/joint forms and25
+plain forms. At a local locus start the count is6 marked/1 plain; elsewhere it
+is4 marked/24 plain. The apprentice rule "locus start -> marked carrier,
+otherwise plain" therefore selects30/35 exact cards. Five local slips remain
+on an exception list. This is a renderer/copying preference, not a meaning
+split, so all four semantic merges and the163-family inventory stand. See
+`sidequest_semantic_boundary_carrier_seven_hundred_thirteenth/SEVEN_HUNDRED_THIRTEENTH_REPORT.md`.
+
+Next, integrate the boundary-carrier preference with the existing owner trays,
+surface renderer and five older local surface overrides over all381 events.
+Keep semantic-family selection, exact-card selection and visible-allograph
+selection as separate layers, then count whether any exception events overlap.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
