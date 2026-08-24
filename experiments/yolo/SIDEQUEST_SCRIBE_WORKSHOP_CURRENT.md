@@ -9570,8 +9570,16 @@ transfer/application are optional extensions. All 19 Herbal statements and
 100 events bind to this schema; every article ends open. See
 `sidequest_semantic_herbal_article_schema_five_hundred_seventy_second/FIVE_HUNDRED_SEVENTY_SECOND_COMPLETE_HERBAL_SCHEMA.md`.
 
-Next, derive the corresponding B1–B4 Biological cell schema: medium, quantity,
-target/passage, grade/state, local operation, and close.
+Pass 573 derives the B1–B4 cell schema: visible owner/medium, quantity/stage,
+target/passage, grade/state, local operation, and close. All four records use
+the complete inventory, but only owner/medium is mandatory per cell. Of 93
+cells, 88 carry an explicit operation, 83 close, and only fourteen fill all six
+slots. All 261 events bind to the schema; B5/B6 remain separate appendices.
+See
+`sidequest_semantic_biological_cell_schema_five_hundred_seventy_third/FIVE_HUNDRED_SEVENTY_THIRD_COMPLETE_BIOLOGICAL_SCHEMA.md`.
+
+Next, compare the shared cards across Herbal and Biological to distinguish
+portable workshop functions from owner-supplied object meanings.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
