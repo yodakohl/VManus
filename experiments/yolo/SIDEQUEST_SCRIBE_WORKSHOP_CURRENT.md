@@ -8628,10 +8628,18 @@ T+Y=DIES FUELLEN instead of the plant-only invention ZERKLEINERN. Forty-nine
 Herbal-local types covering 56 events remain. See
 `sidequest_semantic_herbal_manual_transfer_four_hundred_fifty_third/FOUR_HUNDRED_FIFTY_THIRD_REPORT.md`.
 
-Next, attack the forty-nine remaining Herbal-local types with the thirty-three
-component Biological manual. Keep genuine plant-part, material and preparation
-whole cards where composition fails; do not import bath owners. Then rebuild
-all five pictured-plant articles and list the remaining local whole words.
+Pass 454 completes all forty-nine local Herbal cards. Thirty-nine use the
+Biological component manual directly; seven require only HO=ZUTAT or
+CHEO=AUSZUG. Just OS=GEFÄSS, CFHY=AUSWRINGEN and TALAM=VERWAHREN remain learned
+whole cards. Thus old plant-only words such as root part, flower herb, ulcer,
+wine decoction and coarse grinding disappear. See
+`sidequest_semantic_herbal_component_completion_four_hundred_fifty_fourth/FOUR_HUNDRED_FIFTY_FOURTH_REPORT.md`.
+
+Next, turn the nineteen literal Herbal statements into five continuous
+picture-owned workshop articles. Every supplied noun or omitted object must be
+licensed by the pictured plant, HO/CHEO, a whole card, or immediate record
+state; do not reintroduce discarded plant parts, ailments, wine or hidden bath
+owners merely to make the German fluent.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
