@@ -10766,9 +10766,16 @@ line-end close—using only the visible owner cue and still-open docket. No card
 surface or meaning changes. See
 `sidequest_semantic_continuous_master_page_seven_hundred_seventeenth/SEVEN_HUNDRED_SEVENTEENTH_REPORT.md`.
 
-Next, recopy the five-line master page in a second attested scribal surface
-style. Change only licensed allographs; require all27 exact cards,12 statement
-boundaries,2 owner handoffs and4 cross-line continuations to backread unchanged.
+Pass 718 recopies the page in a longer framed hand. Fourteen of27 surfaces
+change using only registered allographs:10 take a ch entry frame,2 extend the
+CHD+Y e-joint and2 take a q entry frame;13 stay invariant. Character load rises
+130→155, yet all27 exact cards,12 statements,5 lines,4 cross-line clauses,3
+owner blocks and2 handoffs backread unchanged. See
+`sidequest_semantic_second_hand_copy_seven_hundred_eighteenth/SEVEN_HUNDRED_EIGHTEENTH_REPORT.md`.
+
+Next, form one mixed-hand copy with a single mid-line handoff. Use the13
+invariant cards as anchors and ask the corrector to locate the hand boundary
+from the variable surfaces alone, without moving any semantic or owner boundary.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
