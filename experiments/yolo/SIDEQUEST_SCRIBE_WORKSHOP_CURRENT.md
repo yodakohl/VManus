@@ -8708,11 +8708,19 @@ reading; 113 remain honest local labels. Seventy loci are fully read, forty-one
 mixed and thirty-one local-only. See
 `sidequest_semantic_astro_ambiguity_resolution_four_hundred_sixty_fourth/FOUR_HUNDRED_SIXTY_FOURTH_REPORT.md`.
 
-Next, attack the 113 Astro-local labels by recurrence rather than inventing 113
-words. Group identical and near-identical local surfaces inside each of the
-three independent diagram namespaces, assign short address values where a
-repeated slot function exists, and retain genuinely unique labels as learned
-whole names. Do not create an f68-to-f69 key or an orientation.
+Pass 465 finds two diagram-local label frames. Removing final S as
+STERNETIKETT or final D as PLATZETIKETT makes thirty-six of thirty-nine such
+groups immediately compositional, including the recurrent OKEOD family. Thus
+318 of 395 Astro groups now read through the shared workshop deck plus label
+frames; seventy-seven remain local, with eighty-nine loci fully read,
+thirty-three mixed and twenty local-only. See
+`sidequest_semantic_astro_label_frames_four_hundred_sixty_fifth/FOUR_HUNDRED_SIXTY_FIFTH_REPORT.md`.
+
+Next, test the remaining seventy-seven groups for a second Astro affix layer:
+initial D, D after O, and initial/final A behave like address wrappers, while F,
+AM, CPH and CFH recur as plausible local relation or object-class cores. Add
+only a small inventory that predicts several whole groups each, then rebuild
+the three diagram readings and the unified ledger.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
