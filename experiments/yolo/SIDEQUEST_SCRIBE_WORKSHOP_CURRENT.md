@@ -10143,9 +10143,19 @@ both positions fail until the exemplar order is restored. Thus Prose and Astro
 support different error and correction rules. See
 `sidequest_semantic_combined_apprentice_exam_six_hundred_thirty_ninth/SIX_HUNDRED_THIRTY_NINTH_REPORT.md`.
 
-Next, give the same correct C3 instruction to preparation, bath, and station
-desks. Render the licensed allographs and separate scribal surface variation
-from invariant card identity and meaning.
+Pass 640 gives that same instruction to three desks. Preparation writes
+`qokaiin okal cfhy cphy tshey shedy`, bath writes
+`okaiin okal cfhy cphy tshey tedy`, and station writes
+`qokaiin qokal cfhy cphy tshey shedy`. All three distinct strips back-read to
+the identical six cards and command. Three cards vary allographically; three
+single-surface cards travel unchanged. Eleven of eighteen steps are directly
+desk-attested, six are necessary single-surface borrowings, and only the
+preparation close uses a global licensed fallback. See
+`sidequest_semantic_three_desk_allography_six_hundred_fortieth/SIX_HUNDRED_FORTIETH_REPORT.md`.
+
+Next, contrast a harmless licensed allograph, a look-alike that changes exact
+card identity, and a correct card placed in the wrong process position. Teach
+the apprentice to classify surface, card, and order errors separately.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
