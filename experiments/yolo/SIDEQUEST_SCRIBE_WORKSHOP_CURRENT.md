@@ -9266,8 +9266,17 @@ Seventeen cards already occur in Herbal. Four owner-crossing cells remain
 explicitly unconnected and no global network is supplied. See
 `sidequest_semantic_complete_biological_edition_five_hundred_thirty_fifth/FIVE_HUNDRED_THIRTY_FIFTH_REPORT.md`.
 
-Next, compare the complete Herbal and Biological editions to extract the
-smallest common 381-event workshop grammar and isolate image-supplied nouns.
+Pass 536 reduces all 381 prose events to a silent image-owner plus eight common
+workshop functions: ACTIVATE, CONTINUE, SOURCE, MEASURE, TARGET, TRANSFER,
+STATE/HOLD and CLOSE. These form five syntactic lanes and 470 primitive atoms
+inside 116 statements. All eight occur in Herbal and Biological. The four
+Herbal and sixteen Biological owner nouns are image-supplied; exact species,
+body part, ailment, liquid and global direction remain outside the operator
+grammar. See
+`sidequest_semantic_common_workshop_grammar_five_hundred_thirty_sixth/FIVE_HUNDRED_THIRTY_SIXTH_REPORT.md`.
+
+Next, split the 173 exact cards into honestly compositional cards and learned
+whole-card exceptions under this eight-word grammar.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
