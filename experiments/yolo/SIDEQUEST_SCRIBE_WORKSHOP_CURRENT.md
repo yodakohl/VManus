@@ -8563,9 +8563,17 @@ than above-site, and SKAR loses invisible warmth. Only TUCH and AUSGUSS remain
 local whole cards; 45 of 47 B4 events transfer or compose. See
 `sidequest_semantic_b4_productive_completion_four_hundred_forty_fourth/FOUR_HUNDRED_FORTY_FOURTH_B4_POCKET_CARD.md`.
 
-Next, finish the two short f83r records B5 and B6 together. Transfer the entire
-B1-B4 union, preserve the B5-to-B6 record reset, read all twenty events, and
-reduce their new cards to the smallest honest local deck.
+Pass 445 completes the two short f83r records B5 and B6. Together they contain
+20 events, four statements and sixteen exact card types. Eight known types
+transfer unchanged from B1-B4 and cover twelve events; eight singleton types
+remain. The E372-to-E373 boundary is a hard record restart, so B6 inherits no
+warm state or opening stage from B5. See
+`sidequest_semantic_b5_b6_complete_four_hundred_forty_fifth/FOUR_HUNDRED_FORTY_FIFTH_REPORT.md`.
+
+Next, attack the eight B5/B6 singleton cards. Prefer the already taught OT,
+CHD, AL, SOLK, EE, Y, OR and DY pieces, but keep LOL, QEKY or RALY as compact
+whole cards if a decomposition merely renames their old guess. Finish one
+sixteen-card pocket dictionary for both records.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
