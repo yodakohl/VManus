@@ -9391,9 +9391,17 @@ five elliptic bundles. All 381 visible events remain bound, including the
 two-visible/one-source E180/E181 copy. See
 `sidequest_semantic_argument_attachment_parser_five_hundred_fiftieth/FIVE_HUNDRED_FIFTIETH_REPORT.md`.
 
-Next, split the broad action stems OK, CHD, L and K by their argument frames.
-Their frame-conditioned senses should decide whether German `ansetzen`,
-`umsetzen`, `führen` and `zuführen` are still too broad.
+Pass 551 splits the 175 occurrences of OK, CHD, L and K into 23
+frame-conditioned workshop senses. Target, path, source, quantity, preparation,
+grade and close select verbs such as `anlegen`, `einwirken lassen`, `einleiten`,
+`umfüllen`, `durchleiten`, `abführen`, `dosiert zugeben` and `einspeisen`.
+The four old generic verb tokens fall from 175 to 28 while component values
+remain fixed. See
+`sidequest_semantic_frame_conditioned_actions_five_hundred_fifty_first/FIVE_HUNDRED_FIFTY_FIRST_REPORT.md`.
+
+Next, perform the same frame split for CH, SH, SHED, CHK and R, which currently
+collapse drawing/separation, holding/settling and thermal transitions into five
+overbroad German verbs.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
