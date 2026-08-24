@@ -1,0 +1,13 @@
+docket_id	owner_class	docket_de	locus_start	component_sequence	card_sequence	surface_sequence	backreading_de	doublet_rules_used	surface_tray_lookups
+FD01	PLANT	Locus beginnt: aktuellen Posten ansetzen; vorgeschriebenes Mass nennen.	YES	OK+Y > AIIN	PROC011 > PROC009	okchy aiin	ANSETZEN · DIES; MASS	CR1	0
+FD02	PLANT	Neue Zutat nennen; diesen Posten ansetzen; aus der Zutatquelle nehmen.	NO	HO > OK+Y > K+HO+AR	PROC052 > PROC011 > PROC063	cho okchy kchoar	ZUTAT; ANSETZEN · DIES; ZUDOSIEREN · ZUTAT · QUELLE	CR1	0
+FD03	BASIN	Mass nennen; aktuellen Posten ansetzen; Zielstelle nennen.	NO	AIIN > OK+Y > AL	PROC009 > PROC008 > PROC055	aiin oky al	MASS; ANSETZEN · DIES; ZIEL	CR1	0
+FD04	BASIN	Schritt schliessen; Posten wieder aufnehmen; an Zielstelle ansetzen.	YES	CHD+DY > CHD+Y > OK+AL	PROC076 > PROC133 > PROC048	dchedy chedchy okal	UMSETZEN · SCHLUSS; UMSETZEN · DIES; ANSETZEN · ZIEL	CR2|CR3	0
+FD05	PLANT	Mass nennen; Posten umsetzen; im Gefaess verwahren.	NO	AIIN > CHD+Y > TALAM	PROC009 > PROC042 > PROC043	aiin chdy talam	MASS; UMSETZEN · DIES; VERWAHREN	CR2	0
+FD06	BASIN	Am neuen Locus den Umsetzungsschritt schliessen.	YES	CHD+DY	PROC076	dchedy	UMSETZEN · SCHLUSS	CR3	0
+FD07	APPARATUS	Durchlass am Posten; danach Umsetzung schliessen.	NO	CKH+Y > CHD+DY	PROC075 > PROC076	chckhy dchedy	DURCHLASS · DIES; UMSETZEN · SCHLUSS	CR3	0
+FD08	PLANT	Mass nennen; Umsetzung kompakt schliessen; Ansatz nennen.	NO	AIIN > CHD+DY > OR	PROC009 > PROC094 > PROC016	aiin dchdy or	MASS; UMSETZEN · SCHLUSS; ANSATZ	CR3	0
+FD09	BASIN	Posten kurz eintragen; laufenden Ansatz-Umsetzungsschritt schliessen.	NO	T+E+Y > OK+CHD+DY	PROC090 > PROC091	ytey okchedy	EINTRAGEN · KURZ · DIES; ANSETZEN · UMSETZEN · SCHLUSS	CR4	0
+FD10	BASIN	Selbstaendige geschlossene Ansatz-Umsetzungskarte.	NO	OK+CHD+DY	PROC082	qokchdy	ANSETZEN · UMSETZEN · SCHLUSS	CR4	0
+FD11	APPARATUS	Selbstaendige geschlossene Ansatz-Umsetzungskarte am Locusanfang.	YES	OK+CHD+DY	PROC082	qokchdy	ANSETZEN · UMSETZEN · SCHLUSS	CR4	0
+FD12	BASIN	Schritt am Locusanfang schliessen; umsetzen; Mass nennen, aber kein Ziel folgt.	YES	CHD+DY > CHD+Y > AIIN	PROC076 > PROC042 > PROC009	dchedy chdy aiin	UMSETZEN · SCHLUSS; UMSETZEN · DIES; MASS	CR2|CR3	0

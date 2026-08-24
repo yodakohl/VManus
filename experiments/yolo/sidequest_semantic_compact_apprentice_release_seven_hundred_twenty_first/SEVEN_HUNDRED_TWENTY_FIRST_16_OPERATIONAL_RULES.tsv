@@ -1,0 +1,17 @@
+rule_id	layer	scope	instruction_de
+CR1	EXACT_CARD	OK+Y	Markiert am Locusanfang oder unmittelbar nach einer neu genannten Zutat HO; sonst schlicht.
+CR2	EXACT_CARD	CHD+Y	Markiert nur als Wiederaufnahmebruecke CHD+DY -> CHD+Y -> OK+AL; sonst schlicht.
+CR3	EXACT_CARD	CHD+DY	Markiert am Locusanfang oder unmittelbar nach CKH+Y; sonst kompakt.
+CR4	EXACT_CARD	OK+CHD+DY	Markiert wenn die Karte eine vorausgehende Mehrkartenanweisung schliesst; als Einzelzelle kompakt.
+ST1	LOCAL_SURFACE	H2_FINAL_ITEM_CAP	Nach dem Mass am Ende der langen Pflanzenanweisung den laufenden Posten mit shy deckeln.
+ST2	LOCAL_SURFACE	H4_POST_CLOSE_MEASURE_RESET	Nach OL+DY den neuen Massposten in dieser Zeile nackt als aiin ansetzen.
+ST3	LOCAL_SURFACE	B1_LATE_CELL_ENTRY_STRIP	Spaete B1-Zellenfolge aus dem lokalen Streifen kopieren: sal, tedy, chal.
+H1_EXTENDED_E_JOINT	HAND_SURFACE	HAND_B_LONG	Bei CHD+Y die belegte laengere e-Fuge waehlen.
+H2_CH_ENTRY_FRAME	HAND_SURFACE	HAND_B_LONG	Wo vorhanden, die belegte laengste ch-gerahmte Kartenform waehlen.
+H3_Q_ENTRY_FRAME	HAND_SURFACE	HAND_B_LONG	Bei den zwei passenden OK-Karten die belegte q-Eintrittsform waehlen.
+UNCHANGED_REGISTERED_FORM	HAND_SURFACE	HAND_B_LONG	Hat die Karte keine laengere eindeutige Form, exakt unveraendert kopieren.
+OW1	OWNER	ALL	Besitzer aus Bild/Docket setzen; nicht als Wortkarte ausschreiben.
+OW2	OWNER	HANDOFF	Besitzer nur am ausdruecklichen Bild-/Docket-Handoff wechseln.
+LN1	BOUNDARY	LINE	Physisches Zeilenende schliesst keine Aussage.
+CL1	BOUNDARY	CLOSE	Nur lizenzierte Schlusskarten schliessen; sichtbares dy allein reicht nicht.
+FW1	CORRECTION	SURFACE_TO_CARD	Gleiche Karten-ID als Allograph behalten; andere Komponentenkarte gegen Docket korrigieren.

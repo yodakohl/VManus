@@ -10788,10 +10788,18 @@ are rejected. The corrected page restores27/27 cards while retaining the two
 harmless hand forms. See
 `sidequest_semantic_allograph_firewall_seven_hundred_twentieth/SEVEN_HUNDRED_TWENTIETH_REPORT.md`.
 
-Next, consolidate one short operational apprentice sheet:39 entries,163
-semantic recipes,4 doublet rules,3 local trays,2 hand profiles, the card-ID
-firewall and owner/line state. Use it alone to replay the complete27-event
-master-page exercise forward and backward.
+Pass 721 consolidates a self-contained apprentice package:39 entries,163
+semantic recipes,173 exact cards/230 surfaces,16 operational rules,12 dockets
+and a27-event replay. The compact sheet reproduces27/27 cards and recipes in
+both directions and preserves owner, statement and line structure at every
+position. The long derivation reports are no longer needed for the exercise.
+See
+`sidequest_semantic_compact_apprentice_release_seven_hundred_twenty_first/SEVEN_HUNDRED_TWENTY_FIRST_REPORT.md`.
+
+Next, hold the form machine fixed and return to content. Rank the163 semantic
+families by how awkwardly their present short German values compose across the
+eleven real records. Rewrite only the worst small set, with one atomic value per
+component or whole command and complete record-level consequences.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
