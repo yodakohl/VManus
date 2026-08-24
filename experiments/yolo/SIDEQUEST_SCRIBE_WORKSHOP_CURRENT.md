@@ -7972,9 +7972,18 @@ source cards, 116 statements and eleven records; 21 lines alter the material
 state. E180 is written only as anticipation and spoken at E181. See
 `sidequest_semantic_full_master_dictation_three_hundred_fifty_ninth/THREE_HUNDRED_FIFTY_NINTH_COMPLETE_MASTER_DICTATION.md`.
 
-Next, compress the dictation into eleven fluent modern German record readings,
-each followed by the literal card sequence and an explicit list of which nouns
-come from picture/owner rather than from a card.
+Pass 360 compresses the dictation into eleven fluent modern German records.
+Each paragraph is followed by its complete visible sequence, 380 literal source
+card values and an explicit owner-noun layer. Twenty-one concrete referent
+entries—plant, pool, vessel, station or image gap—are supplied by picture/owner,
+not promoted into card words; German grammar supplies only connective language.
+See
+`sidequest_semantic_eleven_fluent_records_three_hundred_sixtieth/THREE_HUNDRED_SIXTIETH_COMPLETE_FLUENT_TRANSLATION.md`.
+
+Next, reverse-parse each fluent paragraph back into its ordered atomic card
+values. Where multiple German phrasings map to one card, choose one controlled
+workshop phrase; where the reverse parse fails, repair the paragraph rather than
+changing the card lexicon.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
