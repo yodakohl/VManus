@@ -10367,8 +10367,16 @@ the receiver, hold longer, draw off/close—no invisible second filter or
 inherent clarity word. Four new cards/five events raise coverage to97/217. See
 `sidequest_semantic_wet_process_verbs_six_hundred_sixty_eighth/SIX_HUNDRED_SIXTY_EIGHTH_REPORT.md`.
 
-Next, consolidate the direction and address layer (L, OL, OT, AL, AR, AIR) so
-every process verb uses the same source-path-target grammar.
+Pass 669 consolidates one direction/address layer across85 cards/146 events:
+AR=VORRAT/QUELLE, AIR=FLUESSIGKEITSLAUF, L=WEITERLEITEN,
+AL=ZIELSTELLE, OL=FORTSETZEN, OT=DANACH. AR answers where from, AL where to;
+L moves the item, OL preserves the operation, OT advances to the next one;
+AIR is moving work liquid rather than a source address. All29 covered closes
+are terminal. Forty-nine new cards/92 events raise coverage to146/309. See
+`sidequest_semantic_direction_address_layer_six_hundred_sixty_ninth/SIX_HUNDRED_SIXTY_NINTH_REPORT.md`.
+
+Next, close the remaining quantity and selection layer (AIN, AIIN, IIN, K, HO,
+Y) and measure how many of the27 remaining cards become compositional.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
