@@ -8462,9 +8462,16 @@ reads economically as HALTEN+KURZ+FORTSETZEN. DSHEOL is now KURZ HALTEN, so the
 cell needs no invisible jump from vessel to body and back to collection. See
 `sidequest_semantic_dsheol_short_hold_four_hundred_thirtieth/FOUR_HUNDRED_THIRTIETH_REVISED_CELL.md`.
 
-Next, inspect the rest of B1's short hold, settle, warm and collect cards as a
-single process ladder. Test whether its repeated E/EE contrast predicts short
-versus longer residence at a pool station and rewrite every affected B1 cell.
+Pass 431 organizes nine exact cards and fifteen B1 events into one process
+ladder: short/long ANSETZEN, short/long HALTEN, short WAERMEN, short ABSETZEN,
+long AUFFANGEN and SOLLSTAND. Four surface forms of the same exact
+SH+E+DY card now all read KURZ ABSETZEN; SCHLUSS. The missing long-warm and
+short-collect cells are left to the local deck rather than invented. See
+`sidequest_semantic_b1_process_ladder_four_hundred_thirty_first/FOUR_HUNDRED_THIRTY_FIRST_APPRENTICE_RULE.md`.
+
+Next, audit B1's transfer and outlet chain: CHCKHY, SCHEDY, QOLCHEDY, LCHEDAL,
+OTAR and SHCKHEDY. Build one source-path-target vocabulary and decide whether
+the final pair is SEIHEN, DURCHLASSEN or ABFUEHREN.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
