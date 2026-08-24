@@ -7562,8 +7562,17 @@ as a formal parameter bracket, not promoted to equality or a named semantic
 operator. See
 `sidequest_semantic_recurrent_formulas_three_hundred_fifth/THREE_HUNDRED_FIFTH_RECIPE_FORMULA_COPYBOOK.md`.
 
-Next, search across statement boundaries for longer recurring procedure blocks
-made from these formulae and the fixed imperative cards.
+Pass 306 maps all 116 statements to process-phase sequences and all 105
+record-internal statement boundaries. Only three pure transitions recur:
+TRANSFER→TRANSFER seven times, MEASURE_STAGE→APPLY_CONTACT twice and
+TRANSFER→APPLY_CONTACT twice. Eight maximal same-phase blocks contain 18
+statements: one contact pair, five transfer/hand-off series, one settling pair
+and one passage/filter pair. The four-cell B3-S022–S025 transfer palette is the
+longest. No repeated hidden long recipe emerges. See
+`sidequest_semantic_procedure_blocks_three_hundred_sixth/THREE_HUNDRED_SIXTH_ELEVEN_RECORD_MACRO_EDITION.md`.
+
+Next, bind the eight procedure blocks to the already inspected local visual
+owners and assign each the narrowest concrete station role.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
