@@ -9344,8 +9344,15 @@ has a literal value and practical expansion. Prose retains composition counts
 namespaces with no direction, join or prose import. See
 `sidequest_semantic_complete_practical_ten_page_edition_five_hundred_forty_fourth/FIVE_HUNDRED_FORTY_FOURTH_REPORT.md`.
 
-Next, edit all116 prose statements into fluent cross-line German while keeping
-every component value and owner boundary unchanged.
+Pass 545 merges 116 technical cells into 97 cross-line work instructions: 89
+end at a close card and eight remain open only at record end. Thirty-two span
+multiple physical loci and nine span visible-owner changes, always marked.
+E180/E181 remains two visible copies but executes once. All 173 card phrases
+retain the revised component values. See
+`sidequest_semantic_fluent_cross_line_edition_five_hundred_forty_fifth/FIVE_HUNDRED_FORTY_FIFTH_REPORT.md`.
+
+Next, turn the97 instructions into eleven continuous record articles using
+explicit anaphora for the inherited owner and current work item.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
