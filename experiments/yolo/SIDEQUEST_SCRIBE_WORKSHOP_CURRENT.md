@@ -9807,9 +9807,22 @@ and bath/application formulary; bathhouse mechanics are its operating layer.
 See
 `sidequest_semantic_complete_workshop_cases_six_hundred_third/SIX_HUNDRED_THIRD_REPORT.md`.
 
-Next, attach the three Astro instruments as optional condition/time/state
-lookups for these cases. Preserve each local Astro namespace and avoid
-inventing planet names, orientation, or an f68-to-f69 key.
+Pass 604 attaches the three Astro pages as optional local choice/condition
+instruments. f67 supplies separate coarse and fine celestial/aspect wheels;
+f68 is a multipanel star-address book with 28 local slots; f69 has a local
+28-slot inventory plus separate sky/weather and light/celestial/complexion
+wheels. Six case plans say which kind of lookup a master may request, but the
+exact label is copied whole from its image address. The unified edition has
+381 compositional Prose groups plus 395 copied Astro labels = 776, with thirteen
+local namespaces and no orientation, cross-page key, or prose import. The
+ten-page purpose is now WHAT (Herbal), HOW/WHERE (Biological), and optional
+WHEN/UNDER-WHAT-CONDITION (Astro). See
+`sidequest_semantic_astro_case_interface_six_hundred_fourth/SIX_HUNDRED_FOURTH_REPORT.md`.
+
+Next, write a full apprentice working-day trace through product preparation,
+station operation, optional celestial lookup, and residual-stock handling;
+then shorten any dictionary values that are too sentence-like for a reusable
+workshop card.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
