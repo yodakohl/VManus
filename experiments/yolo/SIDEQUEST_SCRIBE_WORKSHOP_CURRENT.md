@@ -7686,9 +7686,15 @@ statements: short warmth precedes settling, straining or washing; long warmth
 serves the measured Herbal portion and the f83r application station. See
 `sidequest_semantic_chk_heat_grade_three_hundred_twenty_first/THREE_HUNDRED_TWENTY_FIRST_CHK_HEAT_READING.md`.
 
-Next, turn the seventeen shared cards into a complete apprentice handoff
-dialogue and mark exactly which concrete material and station details still
-have to be supplied by picture, exemplar or speech.
+Pass 322 writes five complete apprentice handoff dialogues. Each transition
+contains at least one exact shared card word. The portable cards encode action,
+measure, source, target and state; the Herbal picture supplies the material
+owner, the Bio picture the station owner, and workshop speech or the master
+exemplar selects the cross-page pairing. See
+`sidequest_semantic_apprentice_handoff_three_hundred_twenty_second/THREE_HUNDRED_TWENTY_SECOND_COMPLETE_APPRENTICE_DIALOGUE.md`.
+
+Next, derive the recurrent two- and three-card syntax of the seventeen shared
+words from all 136 occurrences and turn it into a short writing rule.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
