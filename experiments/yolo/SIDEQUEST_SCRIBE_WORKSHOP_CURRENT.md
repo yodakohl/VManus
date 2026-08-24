@@ -10486,9 +10486,16 @@ readback. The key lessons distinguish MASS/PORTION, QUELLE/ZIEL and open DIES
 from a licensed close. See
 `sidequest_semantic_apprentice_practice_six_hundred_eighty_third/SIX_HUNDRED_EIGHTY_THIRD_REPORT.md`.
 
-Next, extend the practice book from the twelve common families to the rare-card
-tail, grouping one-off recipes by the nearest learned construction so a master
-can teach them without inventing new roots.
+Pass 684 closes the113 singleton-recipe tail without a new root. Eighty-eight
+rare recipes attach to a recurrent same-head family:43 need one edit,35 two and
+10 three. Twenty-three are known-root extensions; only the singleton whole
+commands FACH and VERWAHREN remain pure memorization. Every rare card has an
+explicit KEEP/ADD/DROP/REPLACE lesson. See
+`sidequest_semantic_rare_recipe_teaching_six_hundred_eighty_fourth/SIX_HUNDRED_EIGHTY_FOURTH_REPORT.md`.
+
+Next, estimate the actual training schedule for a new scribe and produce a
+seven-day progression from the39 roots through common families rare variants
+and complete-record copying.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
