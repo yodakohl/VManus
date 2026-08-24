@@ -10161,9 +10161,17 @@ reordered. Thus the handbook now assigns distinct actions to surface, card,
 and process-order differences. See
 `sidequest_semantic_error_taxonomy_six_hundred_forty_first/SIX_HUNDRED_FORTY_FIRST_REPORT.md`.
 
-Next, place a harmless foreign-hand allograph, one wrong card, and one order
-error into a single apprentice strip. Correct only the latter two and preserve
-the harmless foreign hand instead of normalizing everything to the master.
+Pass 642 combines all three deviations in one apprentice copy:
+`okaiin qokal cphy cfhy shey shedy`. Minimal correction preserves the harmless
+foreign-hand `okaiin`, swaps only `cphy/cfhy`, and replaces only `shey` with
+`tshey`. The result differs visibly from the master but restores the identical
+six-card command. Fix-card-only and fix-order-only each remain semantically
+wrong; full master-hand normalization adds an unnecessary rewrite. See
+`sidequest_semantic_minimal_mixed_correction_six_hundred_forty_second/SIX_HUNDRED_FORTY_SECOND_REPORT.md`.
+
+Next, repeat the three-level error lesson across C1-C5. Give each case one
+licensed allograph, one nearby wrong card, and one legal-card order error to
+see whether the correction discipline generalizes beyond C3.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
