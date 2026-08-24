@@ -10681,10 +10681,19 @@ component recipe. The first two hands differ at6/14 positions and the latter
 two likewise, with0 card, owner or meaning changes. See
 `sidequest_semantic_three_scribe_copies_seven_hundred_seventh/SEVEN_HUNDRED_SEVENTH_REPORT.md`.
 
-Next, introduce three bounded apprentice errors into the customary copy: one
-grade error, one source/target error and one premature or omitted close. Have a
-corrector diagnose each from the card recipe plus owner state and restore only
-an existing licensed card/surface.
+Pass 708 introduces three plausible existing-card errors: `shey→tshey` changes
+long to short holding; `qokal→qokar` changes target to source; and
+`schedair→dairydy` closes the transfer before the following warming step. A
+corrector uses the dictated grade, active owner and still-open sequence to
+restore the three licensed cards. The repaired14-event copy is byte-for-byte
+the customary master surface sequence. See
+`sidequest_semantic_corrector_exercise_seven_hundred_eighth/SEVEN_HUNDRED_EIGHTH_REPORT.md`.
+
+Next, replace fluent German input with a terse1420-style workshop docket:
+OWNER / MATERIAL / QUANTITY / OPERATION / GRADE / TARGET / ENDPOINT. Have an
+apprentice expand each docket row into role template, existing cards, attested
+surface choices and a fluent backreading, exposing which information must be
+supplied by picture or master exemplar.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
