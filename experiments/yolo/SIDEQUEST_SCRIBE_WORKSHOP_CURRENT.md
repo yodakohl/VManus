@@ -8664,9 +8664,17 @@ E+K+E+Y=DIES KURZ ZUFUEHREN instead of invisible rawness. Thus 167 card types
 and 372 events compose; six whole cards cover nine events. See
 `sidequest_semantic_whole_card_reduction_four_hundred_fifty_eighth/FOUR_HUNDRED_FIFTY_EIGHTH_REPORT.md`.
 
-Next, fold the two new alias pairs, DL/LOL and KCHEY/QEKY, into the reverse
-writer. Recompute the exact selection partition over all 381 events and retain
-the two pairs as record allographs unless a shorter neighboring rule appears.
+Pass 459 folds DL/LOL and KCHEY/QEKY into the reverse writer. Small value alone
+selects 320 events, immediate context twenty-four, statement position
+twenty-one and record renderer sixteen. All 381 exact card IDs are again
+recovered with eleven alias rules and no restored cloth, warm or raw meaning.
+See
+`sidequest_semantic_final_reverse_writer_four_hundred_fifty_ninth/FOUR_HUNDRED_FIFTY_NINTH_COMPACT_WRITER.md`.
+
+Next, typeset one current seven-page prose edition from the final 173-card
+dictionary: five Herbal articles plus twenty-four Biological procedures. Keep
+all 116 statement boundaries, all visible owner changes and all 381 events;
+remove every superseded reading from the displayed text.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
