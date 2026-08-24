@@ -8012,9 +8012,17 @@ directly, 161 with one contrast and only 32 by nomenclator memory. Contrast cues
 select forms but only repeated cues enlarge the productive grammar. See
 `sidequest_semantic_contrast_cards_three_hundred_sixty_fourth/THREE_HUNDRED_SIXTY_FOURTH_CONTRAST_TABLET.md`.
 
-Next, reconstruct all 116 statements from the family and contrast tablets alone
-and compare the resulting 380 cards with the real source sequence. Keep the 32
-nomenclator events as explicit board lookups.
+Pass 365 corrects "sets all cards" to "sets all values" and adds the missing
+identity layer. Value and slot alone choose 308 exact cards. Among the 72 events
+on fourteen equal-value pair placards, visible owner chooses 48 and owner plus
+right neighbour chooses 24. Family, contrast, mnemonic and pair tablets together
+reconstruct all 380 source identities and surfaces across 116 statements and
+eleven records. See
+`sidequest_semantic_full_tablet_reconstruction_three_hundred_sixty_fifth/THREE_HUNDRED_SIXTY_FIFTH_COMPLETE_RECONSTRUCTION.md`.
+
+Next, teach the fourteen pair placards as a compact decision book: owner first,
+right neighbour only where the owner leaves both cards possible. Then run one
+error drill per pair without consulting a running page exemplar.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
