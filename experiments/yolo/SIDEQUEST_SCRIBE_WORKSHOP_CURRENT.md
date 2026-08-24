@@ -8111,9 +8111,15 @@ handoff and restores exactly the one true omission between `lcheey` and `cthy`.
 The corrected second copy again has fourteen source cards. See
 `sidequest_semantic_two_copy_collation_three_hundred_seventy_eighth/THREE_HUNDRED_SEVENTY_EIGHTH_COLLATOR_NOTEBOOK.md`.
 
-Next, dictate the corrected sequence to a third scribe using only board calls,
-not German values. Permit surface change only at the eight variable cards and
-retain the six invariant forms exactly.
+Pass 379 dictates only fourteen owner-cycle-position-card board calls to a third
+scribe; no German value is spoken. The third copy changes exactly positions
+1,2,7,8,9,10,11,12 and keeps positions 3,4,5,6,13,14 invariant. It preserves
+four cycles, two owners, fourteen sources and one marked carry. See
+`sidequest_semantic_board_call_third_copy_three_hundred_seventy_ninth/THREE_HUNDRED_SEVENTY_NINTH_THIRD_COPY.md`.
+
+Next, align all three copies into a stem/variant sheet. Treat changing entry
+wrappers separately from the shared content core and predict only registered,
+not invented, fourth surfaces.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
