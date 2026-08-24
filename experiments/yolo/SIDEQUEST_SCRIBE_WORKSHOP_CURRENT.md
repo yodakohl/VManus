@@ -9204,8 +9204,16 @@ are separated from ordinary German expansion; plant species, plant part,
 water/wine/oil, disease and body part remain absent. See
 `sidequest_semantic_h3_reverse_recipe_five_hundred_twenty_seventh/FIVE_HUNDRED_TWENTY_SEVENTH_REPORT.md`.
 
-Next, apply the same owner-source-measure-operation-state-target grammar to
-H4/f55v and compare the two Herbal process skeletons card by card.
+Pass 528 reverse-builds all eighteen H4/f55v events into an eight-stage dosing,
+storage, heating and target process. H3 and H4 share six primitive families and
+the exact AIIN/measure and Y/current-item cards, yet H3 emphasizes holding,
+expressing and receiver transfer while H4 emphasizes repeated measures,
+portions, storage, longer heating and target assignment. H4's final statement
+remains open because it has no licensed close card. See
+`sidequest_semantic_h4_parallel_recipe_five_hundred_twenty_eighth/FIVE_HUNDRED_TWENTY_EIGHTH_REPORT.md`.
+
+Next, reverse-build the longer H5/f56r article and derive a shared H3-H5 Herbal
+formulary with an article-specific process slot.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
