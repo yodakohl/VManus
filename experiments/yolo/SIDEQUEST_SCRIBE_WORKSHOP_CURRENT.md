@@ -9235,8 +9235,16 @@ all five records. All events have concrete source clauses and no plant species,
 disease, body part or unmarked liquid is inserted. See
 `sidequest_semantic_complete_herbal_edition_five_hundred_thirty_first/FIVE_HUNDRED_THIRTY_FIRST_REPORT.md`.
 
-Next, build a complete B1/f81v basin/application process using the same fixed
-card values and only local Bio whole-card additions.
+Pass 532 publishes the complete B1/f81v edition: 66 events, 43 exact cards,
+twenty-one operating cells and seven local pool modules. Seventeen cells close
+independently and four remain open, so B1 is read as a shared-pool operating and
+application sheet, not one directed circulation. Ten exact cards transfer from
+Herbal unchanged; Bio adds washing, passage, collection and short-cycle cards.
+See
+`sidequest_semantic_b1_pool_modules_five_hundred_thirty_second/FIVE_HUNDRED_THIRTY_SECOND_REPORT.md`.
+
+Next, split B2/f82r by its five visible local stations and give each station a
+complete operating reading without inventing a global network.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
