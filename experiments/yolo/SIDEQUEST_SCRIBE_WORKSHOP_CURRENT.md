@@ -10514,9 +10514,16 @@ only owner-local roots. The portable unit is therefore the compact root value,
 while full recipe and surface are mostly owner-local. See
 `sidequest_semantic_cross_owner_transfer_six_hundred_eighty_seventh/SIX_HUNDRED_EIGHTY_SEVENTH_REPORT.md`.
 
-Next, extend this root-versus-recipe transfer map to all eleven prose records
-and identify the smallest shared workshop core plus each record's local
-specialist tray.
+Pass 688 maps all39 roots/163 recipes across all11 prose records. Exactly three
+roots are universal: AIIN MASS, OL FORTSETZEN and Y DIES. Ten more occur in
+8-10 records, yielding a13-root pocket core;10 form an extended common tray and
+16 are specialists in1-4 records. Nine roots are record-unique. Only AIIN is an
+exact recipe in all11 records. See
+`sidequest_semantic_all_record_core_six_hundred_eighty_eighth/SIX_HUNDRED_EIGHTY_EIGHTH_REPORT.md`.
+
+Next, use the universal MASS-FORTSETZEN-DIES triad and thirteen-root pocket
+core to rewrite the eleven record openings as the simplest possible form
+prompts before any specialist card is added.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
