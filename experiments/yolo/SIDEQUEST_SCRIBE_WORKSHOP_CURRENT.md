@@ -9120,8 +9120,16 @@ automatically through owner inheritance, automaton, closure and renderer rules.
 See
 `sidequest_semantic_master_copy_mode_five_hundred_sixteenth/FIVE_HUNDRED_SIXTEENTH_REPORT.md`.
 
-Next, cluster the 67 allograph choices into contiguous local copy blocks and
-replace per-card choices with one style-switch decision wherever possible.
+Pass 517 clusters 67 allographs into fifty short local blocks, allowing at most
+one rule-rendered card between special forms in the same locus. Seventy-four
+surfaces are copied, only seven more than strictly necessary. Conscious work
+falls to 134 decisions on 110 events, leaving 271 automatic cards. Coarser
+locus/statement blocks copy far too many regular forms. See
+`sidequest_semantic_allograph_blocks_five_hundred_seventeenth/FIVE_HUNDRED_SEVENTEENTH_REPORT.md`.
+
+Next, express the 63 unique statement programs as small edits of the nine Bio
+defaults or nine shared sentence motifs wherever possible, rather than teaching
+each as an independent path.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
