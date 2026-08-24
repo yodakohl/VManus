@@ -10447,9 +10447,17 @@ why a new recipe can be meaningful before the master has supplied its exact
 written card. See
 `sidequest_semantic_historical_operational_model_six_hundred_seventy_eighth/SIX_HUNDRED_SEVENTY_EIGHTH_REPORT.md`.
 
-Next, assign every one of the39 current entries to its historical workshop
-layer and simplify any entry whose teaching burden is inconsistent with this
-five-layer model.
+Pass 679 assigns all39 entries to eight apprentice trays:16 operations,6
+state/object signs,4 relation/address signs,5 measure/stage signs,3 bound
+grades,1 endpoint,1 deictic and3 whole nomenclator commands. Ten overlong
+teaching glosses are shortened, notably AIR LAUF, AL ZIEL, AR QUELLE, O GANG,
+Y DIES, AIIN MASS and IIN STUFE. All173 cards and381 prose events are reissued
+with compact atomic readings. See
+`sidequest_semantic_historical_layer_dictionary_six_hundred_seventy_ninth/SIX_HUNDRED_SEVENTY_NINTH_REPORT.md`.
+
+Next, reread all116 prose statements with the compact tablet and make the
+owner-supplied nouns explicit so LAUF/ZIEL/DIES remain short without making the
+German edition cryptic.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
