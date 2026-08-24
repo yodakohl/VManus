@@ -9151,8 +9151,16 @@ remaining conscious choices are fifty allograph-block entries; 331 of 381
 cards flow automatically. See
 `sidequest_semantic_visible_owner_thresholds_five_hundred_twentieth/FIVE_HUNDRED_TWENTIETH_REPORT.md`.
 
-Next, test whether the fifty allograph blocks can be loaded once as locus-level
-renderer modes instead of switched on during card production.
+Pass 521 replaces fifty midstream allograph blocks with 38 locus-start override
+tables. Twenty-one tables contain one mapping, nine contain two, five contain
+three and three contain four. Sixty-six local input-to-surface entries reproduce
+67 special events while leaving all 314 regular renderer outputs untouched;
+whole-locus copying would unnecessarily copy 211 regular events. Only 38
+conscious loads remain, and 343 cards are automatic. See
+`sidequest_semantic_locus_renderer_tables_five_hundred_twenty_first/FIVE_HUNDRED_TWENTY_FIRST_REPORT.md`.
+
+Next, factor the 66 local override entries into a few recurrent wrapper
+profiles, keeping truly local exceptions in their small locus tables.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
