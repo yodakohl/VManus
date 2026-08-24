@@ -7875,9 +7875,17 @@ inside one microcycle while 22 cross a reset, so local work can restart while th
 same material thread continues. See
 `sidequest_semantic_two_layer_production_rule_three_hundred_forty_sixth/THREE_HUNDRED_FORTY_SIXTH_TWO_LAYER_RULE.md`.
 
-Next, use the two-layer rule to write one full continuous Herbal-to-Bio working
-translation with four synchronized lines: surface cards, atomic values, material
-thread/owner channel and fluent workshop German.
+Pass 347 gives the complete H3-to-B2 workflow a synchronized four-line edition:
+79 rendered events, 26 statements, 47 microcycles, atomic values, material/owner
+thread, slot sequence and fluent German. Twelve explicit markers alter the
+inherited material thread. H3 produces Klarauszug; B2 resumes the same exact card
+in the same q-operative hand while the owner changes from plant to multi-basin
+station. See
+`sidequest_semantic_h3_b2_four_line_translation_three_hundred_forty_seventh/THREE_HUNDRED_FORTY_SEVENTH_COMPLETE_H3_B2_TRANSLATION.md`.
+
+Next, turn the full H3-to-B2 edition into a compact master-apprentice dialogue:
+the master dictates owner, material state and desired result; the apprentice
+chooses and reverse-explains every microcycle.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
