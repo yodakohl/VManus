@@ -7708,9 +7708,16 @@ reverse-read exactly. Both statements deliberately cross a physical line; the
 Herbal card stays open at Bereit and the Bio card ends at Fortschluss. See
 `sidequest_semantic_fresh_handoff_copy_three_hundred_twenty_fourth/THREE_HUNDRED_TWENTY_FOURTH_FRESH_COPY.md`.
 
-Next, render both fresh passages in four plausible scribe hands using only each
-card's registered fixed-page surface palette, while preserving the same ten
-identities and meanings.
+Pass 325 renders those two passages in four workshop hands: bare, q-operative,
+s-entry and ch/t-expanded. The eight copies are visibly distinct, but all 56
+events use registered surfaces and return to the same fourteen positions,
+identities and meanings. Frequent reference, measure, batch and insertion
+cards vary; `otchey`, `cheeky` and `oldy` remain stable. See
+`sidequest_semantic_four_scribe_copy_three_hundred_twenty_fifth/THREE_HUNDRED_TWENTY_FIFTH_FOUR_SCRIBE_EDITION.md`.
+
+Next, reduce the seventeen portable cards to the smallest honest mix of
+productive semantic stems and memorized whole cards that can generate all
+their registered surface families.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
