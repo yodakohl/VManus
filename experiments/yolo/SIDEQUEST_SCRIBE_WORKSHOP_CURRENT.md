@@ -8643,10 +8643,18 @@ The result reads as a terse material-workshop register rather than modern
 Herbal prose. See
 `sidequest_semantic_herbal_continuous_articles_four_hundred_fifty_fifth/FOUR_HUNDRED_FIFTY_FIFTH_FIVE_CONTINUOUS_ARTICLES.md`.
 
-Next, merge the completed Herbal and Biological dictionaries into one
-173-card, 381-event prose manual. Reconcile every shared exact ID, count the
-smallest combined component and whole-card inventory, and expose any rule that
-works in only one register under a disguised second meaning.
+Pass 456 merges both prose registers into one 173-card, 381-event and
+116-statement manual. Thirty-five components generate 163 card types and 363
+events; ten memorized whole cards cover the other eighteen. The seventeen
+cross-register cards cover 44 Herbal and 92 Biological events with no value
+collision. Only HO and CHEO are Herbal-exclusive content signs. See
+`sidequest_semantic_combined_prose_manual_four_hundred_fifty_sixth/FOUR_HUNDRED_FIFTY_SIXTH_REPORT.md`.
+
+Next, resolve the nine exact-card alias families. Keep their shared small
+meaning, but find the shortest record, position, endpoint or neighbor rule that
+tells an apprentice which exact card to write. If no visible rule separates a
+pair, retain it honestly as a memorized allograph instead of inventing a second
+meaning.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
