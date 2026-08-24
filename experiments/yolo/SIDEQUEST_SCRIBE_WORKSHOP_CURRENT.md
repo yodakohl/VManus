@@ -8915,9 +8915,17 @@ portion-of-portion to a second parallel portion. The technical macro beats the
 medical bath rival because no disease, body part or effect is written. See
 `sidequest_semantic_b1_double_charge_macro_four_hundred_eighty_ninth/FOUR_HUNDRED_EIGHTY_NINTH_REPORT.md`.
 
-Next, reconstruct the eleven-card B3-S021 whole form. Compare its owner changes
-and object graph to the B1 double-charge macro; reuse that macro only if the
-same three phases truly appear, otherwise name a second concrete procedure.
+Pass 490 separates B3-S021 as ÜBERGABE MIT DOPPELTER SOLLPRÜFUNG. All eleven
+cards carry one Stationsansatz; no flow, portion or batch is created. AIIN occurs
+twice, CTH-bearing readiness three times and AL repeatedly around an unresolved
+margin-to-main handoff: set and check, settle/short-hold and check again, then
+transfer/close. This is not the B1 charge macro and it strengthens CTH as
+ready/releasable state without adding a new stem. See
+`sidequest_semantic_b3_double_check_transfer_four_hundred_ninetieth/FOUR_HUNDRED_NINETIETH_REPORT.md`.
+
+Next, reconstruct the ten-card Herbal H1-S001 whole form. Preserve its pictured
+plant owner and test whether it is a material-extraction macro, a generic wet
+work procedure or a genuine plant-property clause.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
