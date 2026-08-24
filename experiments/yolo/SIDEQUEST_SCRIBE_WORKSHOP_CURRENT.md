@@ -10672,10 +10672,19 @@ showing again that line end is not statement end. The surface practice text is
 schedair cheky ody`. See
 `sidequest_semantic_continuous_commission_seven_hundred_sixth/SEVEN_HUNDRED_SIXTH_REPORT.md`.
 
-Next, copy this identical14-card commission in three existing renderer styles:
-a mostly bare/global hand, a q-heavy entry hand and an owner-tray hand. Keep
-card identities and readings fixed, vary only among attested surfaces, and
-show that all three copies roundtrip to the same component and owner sequence.
+Pass 707 copies the same14-card commission in three attested surface styles:
+shortest-form, most-frequent-form and longest-form hands. The short first line
+is `aiin oky choy or lsho`; the customary line is `daiin qoky choy chor
+lsho`; the framed line is `chaiin choky choy shor lsho`. Across42 written
+events every selected surface uniquely recovers the expected card and
+component recipe. The first two hands differ at6/14 positions and the latter
+two likewise, with0 card, owner or meaning changes. See
+`sidequest_semantic_three_scribe_copies_seven_hundred_seventh/SEVEN_HUNDRED_SEVENTH_REPORT.md`.
+
+Next, introduce three bounded apprentice errors into the customary copy: one
+grade error, one source/target error and one premature or omitted close. Have a
+corrector diagnose each from the card recipe plus owner state and restore only
+an existing licensed card/surface.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
