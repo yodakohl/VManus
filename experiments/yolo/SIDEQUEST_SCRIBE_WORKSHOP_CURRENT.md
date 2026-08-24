@@ -9299,8 +9299,17 @@ canonical mnemonics collides with an observed surface. These are predictions,
 not claimed sightings. See
 `sidequest_semantic_composition_predictions_five_hundred_thirty_ninth/FIVE_HUNDRED_THIRTY_NINTH_REPORT.md`.
 
-Next, pass the twenty predictions through the bound wrapper/allograph system to
-derive a small realistic surface set for each composition.
+Pass 540 realizes all twenty missing semantic compositions with nine observed
+renderer families. Forty-seven active surface predictions remain. One apparent
+variant is rejected: bare AIR cannot render as `chair`, because that observed
+surface already means CH+AIR=draw-off+flow. This strengthens CH as a semantic
+stem rather than a freely available wrapper. Examples include otey/qotey,
+olaiin/qolaiin, okeeey/qokeeey, sheeedy/dsheeedy/tsheeedy and
+solkedy/olkedy. See
+`sidequest_semantic_predicted_surface_renderer_five_hundred_fortieth/FIVE_HUNDRED_FORTIETH_REPORT.md`.
+
+Next, compile grammar, component deck, three whole cards and renderer rules into
+a short executable 1420 workshop manual and use it for new sample instructions.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
