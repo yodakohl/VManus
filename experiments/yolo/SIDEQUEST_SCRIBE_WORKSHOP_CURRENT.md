@@ -8614,11 +8614,16 @@ record namespace selects fifteen, and three immediate-neighbor rules select the
 last eleven. All 281 expected exact cards are recovered. See
 `sidequest_semantic_biological_reverse_compiler_four_hundred_fifty_first/FOUR_HUNDRED_FIFTY_FIRST_REPORT.md`.
 
-Next, translate all six Biological records anew from the reverse-compiler
-edition as continuous workshop prose. Preserve 97 statement boundaries but
-group them into larger procedures where state and owner continue; do not let a
-physical line end a sentence, and mark only the seven visible owner changes as
-hard scene transitions.
+Pass 452 groups the 97 statements into 24 continuous workshop procedures while
+preserving all 281 events. Only E189, E198, E203, E212, E264, E291 and E356
+create hard visible scene changes; four occur inside a running statement.
+Physical lines never become sentence boundaries. See
+`sidequest_semantic_biological_continuous_prose_four_hundred_fifty_second/FOUR_HUNDRED_FIFTY_SECOND_CONTINUOUS_BIOLOGICAL_EDITION.md`.
+
+Next, return to the four Herbal pages and transfer the now-stable Biological
+component manual into all 100 Herbal events. Do not import bath owners; test
+only card meanings and compositions. Rebuild five pictured-plant articles and
+identify which Herbal singleton meanings still contradict the shared manual.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
