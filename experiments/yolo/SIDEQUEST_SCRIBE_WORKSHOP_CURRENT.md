@@ -8740,12 +8740,19 @@ thirty prose events and forty-four Astro groups without changing inventory or
 order. See
 `sidequest_semantic_common_action_roots_four_hundred_sixty_eighth/FOUR_HUNDRED_SIXTY_EIGHTH_REPORT.md`.
 
-Next, test the completed 52-unit inventory as a forward writer rather than only
-as a retrospective parse. Generate every attested component sequence, choose
-surface atoms plus the eleven aliases, and measure which of the 568 visible
-surface types across prose and Astro are recovered uniquely, contextually, or
-only by the one-name nomenclator. Repair collisions by one shared renderer rule,
-not by adding meanings.
+Pass 469 turns the inventory into a forward writer. The ten pages actually have
+487 visible surface types realizing 399 component sequences, correcting the
+older 568 estimate. Three hundred forty-nine sequences have one spelling and
+fifty have allographs. A canonical surface per sequence exactly matches 606 of
+776 groups and always emits an attested legal form; the remaining 170 are
+renderer choices, not semantic gaps. See
+`sidequest_semantic_forward_surface_writer_four_hundred_sixty_ninth/FOUR_HUNDRED_SIXTY_NINTH_REPORT.md`.
+
+Next, compress the fifty allograph families into a small renderer. Separate q
+entry-prefix, leading ch/sh/d/s/t wrappers, one-character grade alternants and
+the genuinely learned complex set. Use unit, owner and within-locus position
+only to select among already synonymous forms; no new meanings may be added.
+Aim to raise exact surface writing while keeping the rulebook teachable.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
