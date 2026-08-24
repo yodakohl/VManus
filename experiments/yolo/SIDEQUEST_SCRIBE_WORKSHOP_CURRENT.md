@@ -9449,9 +9449,18 @@ local exceptions. The 68 representative trace steps now recover exact card ID
 68/68. See
 `sidequest_semantic_allograph_renderer_rules_five_hundred_fifty_seventh/FIVE_HUNDRED_FIFTY_SEVENTH_REPORT.md`.
 
-Next, attack the final renderer layer: within each exact card ID, predict its
-observed surface spelling from page/record and locus position. Separate genuine
-positional wrappers from forms that still need local copying.
+Pass 558 completes the literal surface renderer. The deck contains 139
+single-surface cards with 179 events and 34 multi-surface cards with 202 events
+and 91 attested variants. A global rule renders 314 events and four short
+context rules another eight; 59 events currently use 34 residual locus modes.
+The resulting surface round-trip is 381/381 with no free choice. Among the
+multi-surface events the split is 135 global, eight contextual and 59 local.
+See
+`sidequest_semantic_surface_renderer_completion_five_hundred_fifty_eighth/FIVE_HUNDRED_FIFTY_EIGHTH_REPORT.md`.
+
+Next, compress the 59 residual local assignments by their shared wrapper
+transformations and determine how many of the 34 named locus modes are really
+distinct writing operations.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
