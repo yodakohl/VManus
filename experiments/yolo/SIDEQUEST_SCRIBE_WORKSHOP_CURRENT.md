@@ -9042,9 +9042,17 @@ METER_CHECK-to-CLOSE are absent and blocked. The nine common Bio programs stay
 preferred paths rather than separate lexical items. See
 `sidequest_semantic_statement_automaton_five_hundred_fifth/FIVE_HUNDRED_FIFTH_REPORT.md`.
 
-Next, compare Herbal and Biological start, transition and closure habits inside
-this shared machine, treating them as register or scribe habits rather than
-different underlying grammars.
+Pass 506 shows one machine with two register habits. Herbal has 19 statements,
+104 tokens, mean length 5.47, and only four explicit closes; all 19 programs are
+different. Biological has 97 statements, 366 tokens, mean length 3.77, and 85
+closes. The registers share 36 primitive transitions; Herbal has only three
+rare exclusive transitions. This is compatible with one workshop grammar used
+as open article prose versus short committed cells. See
+`sidequest_semantic_register_habits_five_hundred_sixth/FIVE_HUNDRED_SIXTH_REPORT.md`.
+
+Next, compile the owner choice, register habit, primitive machine and surface
+renderer into one concrete apprentice workflow with full forward and backward
+traces on the fixed pages.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
