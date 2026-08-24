@@ -8304,9 +8304,16 @@ works the charge onward. B5 therefore confirms the station grammar but hands
 the item forward instead of closing it. See
 `sidequest_semantic_b5_settling_station_four_hundred_seventh/FOUR_HUNDRED_SEVENTH_CONTINUOUS_B5_READING.md`.
 
-Next, isolate IIN-bearing station cards, especially DAIIIN, DAIIN, IIN and the
-K/SH variants. Build a small paradigm that separates work stage or opening from
-AIIN/Sollmaß and decide whether B5's second-opening reading is teachable.
+Pass 408 separates four IIN-stage events from the 20-event AIIN measure card.
+IIN means required work setting/stage; K+IIN gives a soft-consistency stage and
+DA+IIN the setting of the second opening. AIIN remains an indivisible learned
+Sollmaß card. B5 now reads “set the second opening, then work the charge
+through.” See
+`sidequest_semantic_iin_station_setting_four_hundred_eighth/FOUR_HUNDRED_EIGHTH_IIN_POCKET_RULE.md`.
+
+Next, join IIN target settings to the E/EE/EEE hold grades. Compare cards where
+the target state and the duration/completion grade coexist, and write one
+apprentice rule answering “which setting?” separately from “how long/how far?”.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
