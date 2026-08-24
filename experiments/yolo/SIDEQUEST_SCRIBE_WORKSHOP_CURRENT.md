@@ -8091,9 +8091,16 @@ copies, and leaves unmarked `aiin | aiin` for master correction rather than
 silently rescuing it. No real-page use is claimed. See
 `sidequest_semantic_visible_carry_convention_three_hundred_seventy_fifth/THREE_HUNDRED_SEVENTY_FIFTH_CARRY_MANUAL.md`.
 
-Next, build one complete practice page after two image regions are laid down.
-Fill the residual spaces with four microcycles, two visible owners, one marked
-carry and an exact surface-to-instruction back-reading.
+Pass 376 sets two existing owner images first and fills four residual text
+regions with five lines. Four microcycles and one owner handoff encode fourteen
+source cards as fifteen visible forms with one marked `cheky` carry. The fluent
+reading moves from H4 plant ingredient and extract to a separate B3 measured
+throughflow/application sequence without merging the owners. See
+`sidequest_semantic_image_first_practice_page_three_hundred_seventy_sixth/THREE_HUNDRED_SEVENTY_SIXTH_COMPLETE_PRACTICE_PAGE.md`.
+
+Next, have a second palette copy the same fourteen-card page around differently
+scaled versions of the two image blocks. Preserve owners, four cycles and the
+carry while changing only registered surface variants and residual widths.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
