@@ -8345,9 +8345,17 @@ kept distinct from separate learned cards for glazed vessel, receiver, basin
 station, wide vessel and work basin. OS is not decomposed as O+S. See
 `sidequest_semantic_os_pot_four_hundred_thirteenth/FOUR_HUNDRED_THIRTEENTH_POCKET_RULE.md`.
 
-Next, audit OTYTCHOL/AUFFANGEN and its neighboring cards. Decide whether it is
-a portable collection operation or merely the H1 product name, then close or
-repair the complete TOPF→WASSERZULAUF→collection module.
+Pass 414 changes singleton OTYTCHOL from the operation AUFFANGEN to the product
+AUSZUG. Its right neighbors OKY and AIIN activate and measure the newly created
+item, producing the coherent module BEARBEITEN→TOPF→WASSERZULAUF→AUSZUG→
+POSTEN ANSETZEN→MASS. SOLK+E/EE remains the productive collection operation;
+QOTCHOL/ANWÄRMEN is a different exact whole card. See
+`sidequest_semantic_otytchol_extract_four_hundred_fourteenth/FOUR_HUNDRED_FOURTEENTH_POCKET_RULE.md`.
+
+Next, repair E010/ETYD. Its current small value Wurzelteil cannot also carry
+the old full use-and-storage clause. Decide whether it names residue, reserve,
+use, storage or closure, and finish the H1 ten-card reading with one short
+value.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
