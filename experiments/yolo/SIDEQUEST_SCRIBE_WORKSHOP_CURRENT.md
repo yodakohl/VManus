@@ -8635,11 +8635,18 @@ whole cards. Thus old plant-only words such as root part, flower herb, ulcer,
 wine decoction and coarse grinding disappear. See
 `sidequest_semantic_herbal_component_completion_four_hundred_fifty_fourth/FOUR_HUNDRED_FIFTY_FOURTH_REPORT.md`.
 
-Next, turn the nineteen literal Herbal statements into five continuous
-picture-owned workshop articles. Every supplied noun or omitted object must be
-licensed by the pictured plant, HO/CHEO, a whole card, or immediate record
-state; do not reintroduce discarded plant parts, ailments, wine or hidden bath
-owners merely to make the German fluent.
+Pass 455 turns the nineteen literal statements into five continuous
+picture-owned workshop articles while preserving all one hundred events. Its
+only content nouns are licensed by picture owner, component or whole card;
+root, flower, herb, ulcer, wine, cough, honey, oil and body part never return.
+The result reads as a terse material-workshop register rather than modern
+Herbal prose. See
+`sidequest_semantic_herbal_continuous_articles_four_hundred_fifty_fifth/FOUR_HUNDRED_FIFTY_FIFTH_FIVE_CONTINUOUS_ARTICLES.md`.
+
+Next, merge the completed Herbal and Biological dictionaries into one
+173-card, 381-event prose manual. Reconcile every shared exact ID, count the
+smallest combined component and whole-card inventory, and expose any rule that
+works in only one register under a disguised second meaning.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
