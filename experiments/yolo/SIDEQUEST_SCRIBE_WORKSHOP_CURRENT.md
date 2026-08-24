@@ -10343,8 +10343,15 @@ Core CKH+Y occurs4 times;5 close events are all final. No filter, pipe, or flow
 direction is stored in the root. Expanded coverage is75 cards/189 events. See
 `sidequest_semantic_ckh_passage_noun_six_hundred_sixty_fifth/SIX_HUNDRED_SIXTY_FIFTH_REPORT.md`.
 
-Next, close SOLK as the verb COLLECT/CATCH in its zero-short-long grade,
-active/closed endpoint, and prescribed-measure cells.
+Pass 666 closes SOLK as the short verb AUFFANGEN across5 cards/7 events. Its
+small grid has four attested cells: ungraded active, short active, long active,
+and long closed; `solkaiin` adds a prescribed-measure slot. All3 closed events
+are final. Four duration/end cells and one portion cell are now concrete
+predictions. Expanded coverage is80 cards/196 events. See
+`sidequest_semantic_solk_collect_grid_six_hundred_sixty_sixth/SIX_HUNDRED_SIXTY_SIXTH_REPORT.md`.
+
+Next, close the compact wet-process sequence around LSH washing, CFH wringing,
+CPH after-straining, and their settle/clear-result neighbours.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
