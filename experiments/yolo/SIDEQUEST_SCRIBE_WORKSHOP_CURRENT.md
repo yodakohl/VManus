@@ -8870,9 +8870,18 @@ occurrence lookups. Every group receives a concrete reading and surface; 663
 surfaces follow default or habit and 113 still require copying. See
 `sidequest_semantic_hierarchical_manual_four_hundred_eighty_fourth/FOUR_HUNDRED_EIGHTY_FOURTH_REPORT.md`.
 
-Next, decompose the 65 local statement forms into already learned motifs and
-minimal residual spans. Count the irreducible local chunks rather than charging
-an entire statement whenever only one small insertion is novel.
+Pass 485 decomposes the 65 local forms with an optimal nonoverlapping motif
+selection. Forty-three motif occurrences cover 112/302 events; H2-S003 and
+B3-S004 need no local card. Three recurring residual mini-forms — OK+Y use the
+current post, OL+DY continue/close and SHED+DY settle/close — cover seven more
+statements. Forty-six statements keep one residual and ten retain a whole form
+because splitting would cost more. The local deck falls from 65/302 items/event
+atoms to 59/225, and the full manual from 283 to 277 items. See
+`sidequest_semantic_residual_forms_four_hundred_eighty_fifth/FOUR_HUNDRED_EIGHTY_FIFTH_REPORT.md`.
+
+Next, attack the 113 remaining surface exemplars. Group their predicted→seen
+differences into simple repeatable scribe operations; promote only operations
+that replace several copied exceptions and leave one-offs untouched.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
