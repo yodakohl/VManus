@@ -8504,9 +8504,17 @@ unresolved. Together with SHECKHY, eight compositions reduce the B2 local deck
 from 32 to 24 types. See
 `sidequest_semantic_b2_directional_composition_four_hundred_thirty_sixth/FOUR_HUNDRED_THIRTY_SIXTH_APPRENTICE_GRID.md`.
 
-Next, build B2's grade ladder around OKEY/QOKEEY/QOKEEDY/QOKEEEDY, OTEEY,
-QOTEEDY, CHKEEY and QCTHEY. Make E/EE/EEE mean short/long/full consistently,
-keep operation and close separate, and rewrite every affected B2 statement.
+Pass 437 builds a full B2 grade ladder over eight cards and fifteen events:
+E/EE/EEE are short/long/full, Y keeps the current item open and licensed DY
+closes. Six formerly local types become productive; OTEEY/QOTEEDY now instruct
+the apprentice to hold the next item/step longer instead of naming a vague
+long follower. B2 now has fourteen new productive types and eighteen local
+whole cards. See
+`sidequest_semantic_b2_grade_ladder_four_hundred_thirty_seventh/FOUR_HUNDRED_THIRTY_SEVENTH_GRADE_CARD.md`.
+
+Next, resolve B2's remaining liquid and application deck: DSHEDY, TSHEY,
+RSHEAL, RSHEDY, CHEEY, SOLKAIIN, LCHY, LCHEEY and LAR. Build a concrete
+water/extract/cloth/opening sequence without forcing all nine into one stem.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
