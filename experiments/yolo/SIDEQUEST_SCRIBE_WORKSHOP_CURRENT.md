@@ -10521,9 +10521,16 @@ roots are universal: AIIN MASS, OL FORTSETZEN and Y DIES. Ten more occur in
 exact recipe in all11 records. See
 `sidequest_semantic_all_record_core_six_hundred_eighty_eighth/SIX_HUNDRED_EIGHTY_EIGHTH_REPORT.md`.
 
-Next, use the universal MASS-FORTSETZEN-DIES triad and thirteen-root pocket
-core to rewrite the eleven record openings as the simplest possible form
-prompts before any specialist card is added.
+Pass 689 projects the first statement of every record onto the13-root pocket
+core. The11 openings contain54 cards/120 component tokens;83 are pocket-core
+tokens and37 specialist inserts. Five opening archetypes suffice: Herbal owner
+continuation, Herbal measure-close, Bio graded set-close, Bio specialist-close
+and one Bio graded target sequence. See
+`sidequest_semantic_record_opening_prompts_six_hundred_eighty_ninth/SIX_HUNDRED_EIGHTY_NINTH_REPORT.md`.
+
+Next, follow the same core-plus-specialist decomposition through every one of
+the116 statements and measure how many can be dictated from the pocket core
+alone versus requiring one or more local tool cards.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
