@@ -10601,10 +10601,17 @@ events. Thus q/s/ch/d/che are chiefly surface selectors, not WATER/OIL/TAKE-like
 words. See
 `sidequest_semantic_entry_frame_selection_six_hundred_ninety_eighth/SIX_HUNDRED_NINETY_EIGHTH_REPORT.md`.
 
-Next, merge the34 local modes by visible owner and record regime. Produce the
-smallest owner-mode table that reproduces the59 residual choices; if exact
-merging fails, preserve only the genuinely conflicting card-owner pairs as
-local exemplar entries.
+Pass 699 replaces34 residual locus modes with18 visible-owner trays. The59
+local events form49 owner-card defaults;45 pairs are invariant. Only4 pairs
+conflict and need5 event-level override slips. The conflicts (for example
+f81v pool ZIEL as al/sal/chal) keep one meaning while changing local surface,
+strongly favoring allography over extra lexical values. See
+`sidequest_semantic_owner_renderer_trays_six_hundred_ninety_ninth/SIX_HUNDRED_NINETY_NINTH_REPORT.md`.
+
+Next, consolidate the current system into one apprentice manual and one full
+forward trace:39 components,3 whole commands,7 renderer rules,18 owner trays,
+5 override slips,173 cards and381 events. Include a short readable edition of
+all11 records and explicitly mark which layer supplies each visible character.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
