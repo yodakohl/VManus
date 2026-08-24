@@ -8241,9 +8241,15 @@ reconstruct the same seven event IDs/card IDs and the same two-local-object
 reading. See
 `sidequest_semantic_three_boundary_corrector_three_hundred_ninety_eighth/THREE_HUNDRED_NINETY_EIGHTH_CORRECTOR_MANUAL.md`.
 
-Next, return to genuine content and trace all four H3 statements as an object
-flow. Include the reserved flower portion and determine whether H3 describes
-one preparation with a branch into a second use.
+Pass 399 reads all 17 H3 events as two branches from one pictured plant. The
+main branch makes a cooled clear extract through boiling, wringing, standing and
+re-straining; a reserved fresh-flower portion feeds a second measured
+drink/preparation. SHOYTY reserves and QOTCHY recalls the branch. See
+`sidequest_semantic_h3_branched_object_flow_three_hundred_ninety_ninth/THREE_HUNDRED_NINETY_NINTH_CONTINUOUS_H3_ARTICLE.md`.
+
+Next, isolate the reserve/recall grammar around SHOYTY, DCHOL, QOTCHY and OKCHOL
+and search H1, H2 and H5 for functional siblings. Decide whether this is a
+portable branch mechanism or an H3-only learned mini-script.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
