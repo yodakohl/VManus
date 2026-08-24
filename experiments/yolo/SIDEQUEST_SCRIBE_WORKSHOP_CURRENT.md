@@ -10740,9 +10740,18 @@ five-item exception sets do not overlap: the unassisted full chain matches
 371/381 and ten local notes restore381/381. See
 `sidequest_semantic_integrated_copy_manual_seven_hundred_fourteenth/SEVEN_HUNDRED_FOURTEENTH_REPORT.md`.
 
-Next, compare the ten exception slips against local line pressure, repeated
-neighbor, immediate close, owner restart and hand-style carry. Seek at most two
-or three short corrector rules; preserve any remainder as true exemplar notes.
+Pass 715 replaces all five exact-card slips with four family-specific workshop
+rules. OK+Y marks locus starts/new ingredients; CHD+Y marks the one
+close-to-target bridge; CHD+DY marks locus starts or a CKH+Y handoff; and
+OK+CHD+DY marks an attached multi-card close but stays compact as a singleton.
+Together they select35/35 doublet occurrences. The five surface slips compress
+to three local copy trays: an H2 final-item cap, an H4 bare-measure reset and a
+late-B1 three-cell strip `sal–tedy–chal`. This adds no meanings. See
+`sidequest_semantic_exception_compression_seven_hundred_fifteenth/SEVEN_HUNDRED_FIFTEENTH_REPORT.md`.
+
+Next, write fresh practice dockets using the four new doublet rules. Let the
+encoder choose semantic family and exact card without event IDs; permit lookup
+only of the three local surface trays. Then backread and correct the copies.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
