@@ -10236,8 +10236,18 @@ portable FORTSETZEN-ABSETZEN/SCHLUSS instances under `ol/qol/tol` and
 `shedy/cheedy` allography. See
 `sidequest_semantic_recurrent_source_ngrams_six_hundred_fiftieth/SIX_HUNDRED_FIFTIETH_REPORT.md`.
 
-Next, consolidate the15 source constructions into a small motif dictionary and
-rewrite all25 touched statements with minimal source-attested phrase readings.
+Pass 651 consolidates the15 source constructions into nine compact workshop
+motifs and rewrites all25 touched source statements. Longest-first selection
+gives28 nonoverlapping instances and suppresses8 contained/overlapping pairs;
+the motifs read58 of158 events while100 retain individual card readings. The
+strongest motif is the recurrent `PROC019-PROC009-PROC019` item-measure-item
+frame, visible as `chey daiin chey` and `chy taiin shy`; it licenses a two-sided
+Sollmass frame, not equality or an *ana* gloss. See
+`sidequest_semantic_source_motifs_six_hundred_fifty_first/SIX_HUNDRED_FIFTY_FIRST_REPORT.md`.
+
+Next, map the immediate source predecessor and successor around all28 selected
+motif instances. Classify each motif as entry, medial frame, branch, or close
+and retain only attachment rules seen in the actual25 statements.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
