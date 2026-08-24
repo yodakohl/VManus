@@ -7544,9 +7544,18 @@ concrete named-workstep command. Exact card/event traces, scope punctuation and
 the E180/E181 read-once rule remain intact. See
 `sidequest_semantic_imperative_edition_three_hundred_third/THREE_HUNDRED_THIRD_ELEVEN_RECORD_FLUENT_EDITION.md`.
 
-Next, replace the ten remaining named-workstep imperatives with the narrowest
-concrete verbs licensed by their full contexts, then smooth recurrent clause
-chains without changing a card value.
+Pass 304 replaces the ten remaining generic named-workstep clauses across all
+twelve occurrences. The narrowed verbs include setting the next pass, carrying
+longer or briefly into the following step, admitting fresh rinse liquid,
+holding briefly at the target, settling to the prescribed level, preparing at
+the target vessel, selecting the next application item, reinserting the
+remainder and pouring from the source side. No
+`NAMED_WORKSTEP_IMPERATIVE` remains. See
+`sidequest_semantic_ten_weak_cards_three_hundred_fourth/THREE_HUNDRED_FOURTH_TEN_CARD_CONTEXT_READINGS.md`.
+
+Next, inventory recurrent adjacent card chains and promote only those whose
+fixed order supports a teachable ca. 1420 recipe formula without changing the
+individual card meanings.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
