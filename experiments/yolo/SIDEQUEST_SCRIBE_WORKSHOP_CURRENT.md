@@ -9064,8 +9064,16 @@ f69 wheels. No start, direction, rotation, prose-primitive import or f68-to-f69
 key is added. The unified compiler now binds all 776 visible groups. See
 `sidequest_semantic_astro_compiler_five_hundred_eighth/FIVE_HUNDRED_EIGHTH_REPORT.md`.
 
-Next, compress the 124-item manual into an apprentice curriculum: a memorized
-core, a short rule set, register drills, and an explicit exemplar-copy tail.
+Pass 509 turns the 124-item manual into a six-day curriculum. Only 41 card
+values, nine workflow rules and fourteen graphic rules require active memory.
+Eighteen templates are motor drills, 37 owners/namespaces are visible lookup
+addresses and five local items are copied from the exemplar. A ten-page
+practice sheet accounts for all 776 visible elements. See
+`sidequest_semantic_apprentice_curriculum_five_hundred_ninth/FIVE_HUNDRED_NINTH_REPORT.md`.
+
+Next, audit the 41 memorized card values for semantic overlap and collapse only
+true duplicate workshop functions while preserving distinct source, target,
+movement, state and closure roles.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
