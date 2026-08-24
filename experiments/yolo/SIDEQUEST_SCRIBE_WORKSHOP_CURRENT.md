@@ -8275,10 +8275,17 @@ preparations at the vessel; a following Y resumes their combined soft
 application. The material names come from the press context, not from Y. See
 `sidequest_semantic_h2_press_split_rejoin_four_hundred_third/FOUR_HUNDRED_THIRD_REVISED_H2_ARTICLE.md`.
 
-Next, search the fixed Biological records for an operation followed by an open
-pair, separated processing and a later paired rejoin. If none exists, keep the
-split-rejoin semantics H2-local while retaining only the duplicate-slot grammar
-as portable.
+Pass 404 finds no second H2 split-rejoin in the six Biological records. Their
+four adjacent duplicates are one cross-line carry and three repeated closed
+operations; eleven within-statement repeated cards are serial or mirrored.
+B3-S021 is the closest pattern but reads as a two-station handoff, not a split.
+Thus duplicate-slot grammar is portable while press-liquid/press-mass is H2
+local. See
+`sidequest_semantic_bio_pair_contrast_four_hundred_fourth/FOUR_HUNDRED_FOURTH_BIO_DUPLICATION_MANUAL.md`.
+
+Next, read all of B3-S021 as a concrete two-station transfer. Assign each
+AIIN/CTH/AL/Y occurrence to station A or B, preserve its line crossing and local
+close, and compare a bath handoff with a workshop-vessel handoff.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
