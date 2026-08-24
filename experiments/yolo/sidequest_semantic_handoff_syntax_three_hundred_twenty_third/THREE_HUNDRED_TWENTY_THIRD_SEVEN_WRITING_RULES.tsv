@@ -1,0 +1,8 @@
+rule_id	rule	expansion
+R1	ENTRY_OR_ITEM_FIRST	[Sollstellung|Zieleinsatz|Ansatz|Folgeposten] eröffnet einen neuen lokalen Arbeitsbogen.
+R2	ARGUMENTS_CLUSTER_FLEXIBLY	Diesposten, Stelle, Gleichvorrat, Sollmaß und Klarauszug können vor oder nach einer Handlung stehen.
+R3	ACTION_THEN_CONTINUE	Umsetzen oder Einsetzen wird häufig von Fortsetzung gefolgt.
+R4	ITEM_MEASURE_ITEM_FRAME	Diesposten → Sollmaß → Diesposten bedeutet: diesen Posten messen und als denselben aktiven Posten behalten.
+R5	CONTINUATION_BRACKETS_BATCH	Fortsetzung → Fortsetzungsansatz → Fortsetzung rahmt einen weiterlaufenden Ansatz.
+R6	STATE_OR_CLOSE_LAST_WHEN_PRESENT	Bereit kann den Bogen offen übergeben; Fortschluss beendet ihn.
+R7	PARATAXIS_AND_LOOPING_ALLOWED	Nach Fortsetzung darf ein neues Argument oder eine neue Handlung folgen; die Ordnung ist keine starre Satzschablone.

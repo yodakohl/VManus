@@ -7693,8 +7693,17 @@ owner, the Bio picture the station owner, and workshop speech or the master
 exemplar selects the cross-page pairing. See
 `sidequest_semantic_apprentice_handoff_three_hundred_twenty_second/THREE_HUNDRED_TWENTY_SECOND_COMPLETE_APPRENTICE_DIALOGUE.md`.
 
-Next, derive the recurrent two- and three-card syntax of the seventeen shared
-words from all 136 occurrences and turn it into a short writing rule.
+Pass 323 derives the order of all 136 shared-card events. There are 49 direct
+bigrams, 13 direct trigrams, nine recurrent bigrams and one recurrent trigram.
+The reusable order is entry/item, flexible arguments, action, continuation and
+optional state/close. Crucially, the old Y–AIIN–Y motif is now read as
+Diesposten–Sollmaß–Diesposten: retain the same work item around a measurement,
+not an equality or `ana` formula. See
+`sidequest_semantic_handoff_syntax_three_hundred_twenty_third/THREE_HUNDRED_TWENTY_THIRD_APPRENTICE_SYNTAX.md`.
+
+Next, generate one new Herbal-output/Bio-application pair from the learned
+rules using only already registered card identities, then render and reverse-
+read it as a workshop competence demonstration.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
