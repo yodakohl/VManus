@@ -9631,9 +9631,16 @@ close slots. The resulting idiom uses short forms such as dies, davon, dorthin,
 nach Maß, im Gang, and schließe. See
 `sidequest_semantic_compact_workshop_idiom_five_hundred_eightieth/FIVE_HUNDRED_EIGHTIETH_ELEVEN_RECORD_COMPACT_EDITION.md`.
 
-Next, extract the recurring spoken words in this compact edition and separate
-them from silent image arguments and purely graphic/card machinery, producing
-a genuinely small spoken workshop dictionary.
+Pass 581 extracts a 38-entry spoken workshop core: seventeen action words,
+twelve address/content words, and nine grammar signals. Thirty-one recur and
+seven are rare specialist values. Every one of the 381 events expands into this
+vocabulary, while the pictured plant, basin, figure, device, or station remains
+a separate silent owner. See
+`sidequest_semantic_spoken_core_dictionary_five_hundred_eighty_first/FIVE_HUNDRED_EIGHTY_FIRST_THIRTY_EIGHT_SPOKEN_CORE_DICTIONARY.tsv`.
+
+Next, test likely synonym pairs (LS/OL, K/P, CH/CHD, AIIN/IIN, AL/OS) by their
+compositions and contexts. Merge only speech values that preserve a distinct
+graphic or grammatical use; otherwise write a minimal contrast pair.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
