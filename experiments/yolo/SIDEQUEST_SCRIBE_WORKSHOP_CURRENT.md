@@ -10706,10 +10706,18 @@ registry; the sole ambiguity is `CHD + OT + DY`, realized by PROC145/qotchedy
 and PROC166/otchdy. Docket plus master card address rebuilds all381 cards. See
 `sidequest_semantic_all_statement_dockets_seven_hundred_tenth/SEVEN_HUNDRED_TENTH_REPORT.md`.
 
-Next, compare PROC145 and PROC166 in full owner, record, position, neighbour,
-close and renderer context. Try to reduce the doublet to a simple local
-selection rule; if none emerges, teach it explicitly as one semantic recipe
-with two owner-bound whole-card exemplars.
+Pass 711 merges PROC145 and PROC166 semantically as one
+`OT_CHD_DY_CLOSE = DANACH · UMSETZEN · SCHLUSS` recipe while retaining two
+copy subfamilies. B3 uses the e-joint (`qotchedy|otchedy`); the B5 addendum uses
+compact `otchdy`; unseen owners still consult the master exemplar. A13-event
+CHD-close control mixes8 e-joint and5 compact forms within B1/B3, so e is not
+promoted to a global meaning. See
+`sidequest_semantic_ot_close_doublet_seven_hundred_eleventh/SEVEN_HUNDRED_ELEVENTH_REPORT.md`.
+
+Next, audit all remaining duplicate component recipes among the170 composed
+cards. For each, choose semantic split versus one recipe with local renderer
+subfamilies, preserve exact copy IDs, and publish the reduced semantic-family
+inventory plus the remaining genuinely memorized choices.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
