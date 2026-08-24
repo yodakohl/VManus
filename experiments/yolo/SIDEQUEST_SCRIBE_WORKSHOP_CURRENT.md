@@ -8047,9 +8047,17 @@ Einsetzen and Kurzkontakt cards; B3 owner plus following Kurzkontakt selects the
 Langkontakt card. Surface back-reading recovers all eight values. See
 `sidequest_semantic_paired_forward_order_three_hundred_sixty_ninth/THREE_HUNDRED_SIXTY_NINTH_PAIRED_ORDER_READING.md`.
 
-Next, render this paired order in two distinct registered scribal palettes.
-Preserve pair decisions, values, slots and microcycles; change only attested
-surface variants and have each hand read the other.
+Pass 370 renders that order in two registered instructional palettes. Compact
+`or kain chckhy cheky oky | aiin okeey qokedy` and expanded `chor chkain shckhy
+cheky choky | chaiin qokeey qokedy` differ at six positions and share two. All
+four sender-reader crossings preserve eight identities, values, slots and the
+three pair decisions. These are teaching palettes, not historical hand labels.
+See
+`sidequest_semantic_two_palette_crossread_three_hundred_seventieth/THREE_HUNDRED_SEVENTIETH_TWO_PALETTE_EDITION.md`.
+
+Next, fit the two palettes into different residual widths. Give each exactly one
+intra-cycle anticipation copy, forbid copying at the real cycle boundary and
+recover eight source cards from nine visible forms per layout.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
