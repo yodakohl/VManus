@@ -8209,9 +8209,16 @@ point. The 80% component share slightly exceeds the mixed teaching page's
 78.6%, and all five statements receive atomic plus owner-expanded readings. See
 `sidequest_semantic_owner_faithful_decomposition_three_hundred_ninety_third/THREE_HUNDRED_NINETY_THIRD_COMPLETE_READABLE_EDITION.md`.
 
-Next, trace the active object through the four genuine H4 statements. Resolve
-Y, AIN, AIIN, OR, CHEOAR and TALAM as pronoun/quantity/preparation handoffs and
-write one continuous H4 article rather than four isolated gloss lists.
+Pass 394 threads all 18 H4 events through one material genealogy: pictured
+plant → measured portion → cooled portion → worked/stored preparation → warm
+extract → target application → new preparation portion. Y resumes the active
+item, AIN selects a portion, AIIN binds measure, OR holds preparation identity,
+CHEOAR extracts, TALAM stores and OL continues. See
+`sidequest_semantic_h4_object_flow_three_hundred_ninety_fourth/THREE_HUNDRED_NINETY_FOURTH_CONTINUOUS_H4_ARTICLE.md`.
+
+Next, trace B3-S026 as a visible station flow from basin address through
+settling threshold, portion addition, readiness, clear point and graded
+receiving. Keep movement direction local to the pictured station.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
