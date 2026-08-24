@@ -9666,9 +9666,16 @@ phrase, and 73/21/10/12 formula results are unaffected because they used the
 complete event and phase tables. See
 `sidequest_semantic_full_statement_correction_five_hundred_eighty_fifth/FIVE_HUNDRED_EIGHTY_FIFTH_ELEVEN_RECORD_FULL_COMPACT_EDITION.md`.
 
-Next, split the ten two-edit variants and twelve free master examples into
-readable breath groups while preserving every action and argument; do not
-compress them by dropping cards.
+Pass 586 splits the ten two-edit variants and twelve free master examples into
+45 breath groups covering all 156 constituent events. Groups contain at most
+four cards and cut early at a close when possible; fourteen end directly at a
+close. No event is omitted. See
+`sidequest_semantic_breath_group_masterbook_five_hundred_eighty_sixth/FIVE_HUNDRED_EIGHTY_SIXTH_LONG_STATEMENT_MASTERBOOK.md`.
+
+Next, reset the entire eleven-record readable edition using one uniform
+three-line layout per statement: visible cards, compact component speech, and
+the complete owner-filled instruction. Short formulas and long breath groups
+must use the same convention.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
