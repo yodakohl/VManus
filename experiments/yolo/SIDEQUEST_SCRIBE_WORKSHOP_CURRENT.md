@@ -8098,9 +8098,16 @@ reading moves from H4 plant ingredient and extract to a separate B3 measured
 throughflow/application sequence without merging the owners. See
 `sidequest_semantic_image_first_practice_page_three_hundred_seventy_sixth/THREE_HUNDRED_SEVENTY_SIXTH_COMPLETE_PRACTICE_PAGE.md`.
 
-Next, have a second palette copy the same fourteen-card page around differently
-scaled versions of the two image blocks. Preserve owners, four cycles and the
-carry while changing only registered surface variants and residual widths.
+Pass 377 copies the same page around a wider, shallower H4 image and a narrower,
+taller B3 image. Eight of fourteen cards switch to registered variants and six
+remain invariant; fifteen visible forms still encode fourteen sources, four
+cycles, two owners and one marked carry. All four first/second copy crossreads
+are complete. See
+`sidequest_semantic_rescaled_image_copy_three_hundred_seventy_seventh/THREE_HUNDRED_SEVENTY_SEVENTH_SECOND_COPY.md`.
+
+Next, remove one real source card from a trainee version of the second copy and
+collate it against the first. Keep surface variants, carry, omission and owner
+handoff as four separate correction categories.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
