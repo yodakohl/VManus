@@ -10455,9 +10455,17 @@ Y DIES, AIIN MASS and IIN STUFE. All173 cards and381 prose events are reissued
 with compact atomic readings. See
 `sidequest_semantic_historical_layer_dictionary_six_hundred_seventy_ninth/SIX_HUNDRED_SEVENTY_NINTH_REPORT.md`.
 
-Next, reread all116 prose statements with the compact tablet and make the
-owner-supplied nouns explicit so LAUF/ZIEL/DIES remain short without making the
-German edition cryptic.
+Pass 680 rereads all116 prose statements/381 events with the compact tablet and
+twenty explicit picture-owner nouns. Seventy-three statements expose at least
+one owner-filled DIES, LAUF, ZIEL or QUELLE slot; four real within-statement
+owner changes remain marked. Eleven continuous records now keep the atomic
+values short while the plant, basin, station or image supplies the concrete
+noun. See
+`sidequest_semantic_owner_expanded_compact_edition_six_hundred_eightieth/SIX_HUNDRED_EIGHTIETH_REPORT.md`.
+
+Next, compress the 173-card master tablet into the smallest practical copybook
+layout and determine which card families an apprentice can find by recipe
+rather than memorize individually.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
