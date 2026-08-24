@@ -8979,8 +8979,16 @@ composed macro is EMPFANGSPORTION ZUM DURCHGANG STELLEN FOLGESTATION KURZ
 AUFFANGEN UND ABFUEHREN; the manual falls from 166 to 165 items. See
 `sidequest_semantic_b4_receive_exit_four_hundred_ninety_seventh/FOUR_HUNDRED_NINETY_SEVENTH_REPORT.md`.
 
-Next, reconstruct four-card B2-S006 and then reassess every remaining learned
-local whole form by length and component coverage.
+Pass 498 removes B2-S006 from the local deck. OT+EE+Y holds the next item,
+OK+AL sets it at the upper basin, SH+E+CKH+Y briefly holds the inherited
+portion in the passage and OK+Y uses it. The open macro is FOLGEPOSTEN AM
+BECKEN ANSETZEN IM DURCHLASS HALTEN UND VERWENDEN. No body or disease is
+encoded, and the manual falls from 165 to 164 items. See
+`sidequest_semantic_b2_hold_pass_use_four_hundred_ninety_eighth/FOUR_HUNDRED_NINETY_EIGHTH_REPORT.md`.
+
+Next, rebuild the residual local-form inventory after the macro series and
+rank the true remaining irreducible forms rather than following the obsolete
+Pass 488 length list.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
