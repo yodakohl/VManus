@@ -8398,10 +8398,16 @@ grind/restart; extract/strain; use and measure each dose. The old dry-cough
 indication is removed from SOTODAN, which now says only GEBRAUCHEN. See
 `sidequest_semantic_h5_complete_article_four_hundred_twenty_first/FOUR_HUNDRED_TWENTY_FIRST_COMPLETE_H5.md`.
 
-Next, rebuild all H4 events on the same mixed grammar. Compare its portion,
-cloth, squeeze, settle, re-strain, store and preparation sequence to H5 and
-decide whether their common source class is medicine or general plant-material
-processing.
+Pass 422 corrects the preview: the cloth/squeeze chain belongs H3, not H4. H4's
+18 events form four preparation/storage routines built from MASS, PORTION,
+DIES, cooling, storing, extract, warming and batch portion. H4 and H5 therefore
+share a general plant-preparation layer; H4 specializes in making/storing and
+H5 adds wash/apply/use. See
+`sidequest_semantic_h4_complete_preparation_four_hundred_twenty_second/FOUR_HUNDRED_TWENTY_SECOND_COMPLETE_H4.md`.
+
+Next, rebuild the actual H3 filtration record completely. Use its cloth,
+squeeze, settle, re-strain and clear-extract cards, then compare H3/H4/H5 as
+separation, preparation/storage and application articles.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
