@@ -7980,10 +7980,18 @@ not promoted into card words; German grammar supplies only connective language.
 See
 `sidequest_semantic_eleven_fluent_records_three_hundred_sixtieth/THREE_HUNDRED_SIXTIETH_COMPLETE_FLUENT_TRANSLATION.md`.
 
-Next, reverse-parse each fluent paragraph back into its ordered atomic card
-values. Where multiple German phrasings map to one card, choose one controlled
-workshop phrase; where the reverse parse fails, repair the paragraph rather than
-changing the card lexicon.
+Pass 361 places an exactly reversible workshop language beneath that free
+German. The 159 attested value-slot pairs each receive one phrase such as
+`MASS[Sollmaß]` or `TRANSFER[Klarabzug]`; these phrases recover all 380 source
+cards and all 116 statements in order. Sixteen pairs had two observed free
+German variants, while the other 143 already had one. The fluent edition remains
+the reading layer and the controlled edition becomes the copyist/corrector
+layer. See
+`sidequest_semantic_controlled_reverse_language_three_hundred_sixty_first/THREE_HUNDRED_SIXTY_FIRST_COMPLETE_CONTROLLED_EDITION.md`.
+
+Next, group the 159 phrases into a compact workshop thesaurus. Each family may
+license several natural German synonyms, but exactly one card formula must stay
+attached to every controlled phrase so that the reverse reading remains exact.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
