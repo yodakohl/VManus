@@ -9284,9 +9284,15 @@ productive stems are Y=this, DY=close, E=short, EE=longer, OK=activate,
 OL=continue, AL=target, CHD=transfer, AIIN=measure and AIN=portion. See
 `sidequest_semantic_composition_split_five_hundred_thirty_seventh/FIVE_HUNDRED_THIRTY_SEVENTH_REPORT.md`.
 
-Next, attack the eleven whole cards and one partial card for narrower honest
-decompositions, starting with CHEO/CKHE/LDDY rather than changing the stable
-stems.
+Pass 538 reanalyses the twelve residual cards. CHEO becomes CH+E+O, CKHE becomes
+CKH+E, and cheey/shey becomes SH+EE+Y. The deck now contains 166 fully
+compositional types/374 events, four one-off learned-atom cards/four events and
+only three true whole cards: OS=work compartment, TALAM=store, LS=continue.
+The four learned atoms are CFH=wring, S=divide, LD=fasten and DA=second. See
+`sidequest_semantic_whole_card_attack_five_hundred_thirty_eighth/FIVE_HUNDRED_THIRTY_EIGHTH_REPORT.md`.
+
+Next, use the repaired component lexicon to predict unattested combinations in
+the OK/OT/OL address families and E/EE/EEE grade lattice.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these

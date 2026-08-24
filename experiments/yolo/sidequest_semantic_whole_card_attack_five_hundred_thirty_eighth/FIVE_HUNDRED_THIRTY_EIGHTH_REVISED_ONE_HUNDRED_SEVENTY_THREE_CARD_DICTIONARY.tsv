@@ -1,0 +1,174 @@
+card_no	component_parse	invariant_card_reading_de	predicted_from_other_cards_de	component_tests	composition_status	occurrences	sections	records	primitive_program
+PROC001	CH+E+Y	abziehen · kurz · dies	abziehen · kurz · dies	CH=PASS:abziehen|E=PASS:kurz|Y=PASS:dies	COMPOSITIONAL	1	HERBAL	H1	SOURCE_DRAW
+PROC002	CTH+O+OR	bereit · Arbeitsgang · Ansatz	bereit · Arbeitsgang · Ansatz	CTH=PASS:bereit|O=PASS:Arbeitsgang|OR=PASS:Ansatz	COMPOSITIONAL	1	HERBAL	H1	ACTIVATE_CHARGE
+PROC003	AR	von dort	von dort	AR=PASS:von dort	COMPOSITIONAL	5	HERBAL|BIOLOGICAL	H1|H2|B1|B2|B3	SOURCE_DRAW
+PROC004	T+Y	eintragen · dies	eintragen · dies	T=PASS:eintragen|Y=PASS:dies	COMPOSITIONAL	2	HERBAL|BIOLOGICAL	H1|B3	ACTIVATE_CHARGE
+PROC005	OS	Arbeitsfach	?	OS=LEARNED_ATOM	LEARNED_WHOLE_CARD	1	HERBAL	H1	TARGET_HANDOFF
+PROC006	CH+AIR	abziehen · Lauf	abziehen · Lauf	CH=PASS:abziehen|AIR=PASS:Lauf	COMPOSITIONAL	1	HERBAL	H1	SOURCE_DRAW
+PROC007	OT+Y+T+CH+OL	danach · dies · eintragen · abziehen · fortsetzen	danach · dies · eintragen · abziehen · fortsetzen	OT=PASS:danach|Y=PASS:dies|T=PASS:eintragen|CH=PASS:abziehen|OL=PASS:fortsetzen	COMPOSITIONAL	1	HERBAL	H1	SOURCE_DRAW
+PROC008	OK+Y	ansetzen · dies	ansetzen · dies	OK=PASS:ansetzen|Y=PASS:dies	COMPOSITIONAL	10	HERBAL|BIOLOGICAL	H1|H5|B1|B2|B3|B4	CONTINUE_USE
+PROC009	AIIN	Maß	Maß	AIIN=PASS:Maß	COMPOSITIONAL	20	HERBAL|BIOLOGICAL	H1|H2|H3|H4|H5|B1|B2|B3|B4|B5|B6	METER_CHECK
+PROC010	E+T+Y	kurz · eintragen · dies	kurz · eintragen · dies	E=PASS:kurz|T=PASS:eintragen|Y=PASS:dies	COMPOSITIONAL	1	HERBAL	H1	ACTIVATE_CHARGE
+PROC011	OK+Y	ansetzen · dies	ansetzen · dies	OK=PASS:ansetzen|Y=PASS:dies	COMPOSITIONAL	3	HERBAL	H1|H5	ACTIVATE_CHARGE
+PROC012	OT+CH+OL	danach · abziehen · fortsetzen	danach · abziehen · fortsetzen	OT=PASS:danach|CH=PASS:abziehen|OL=PASS:fortsetzen	COMPOSITIONAL	1	HERBAL	H1	SOURCE_DRAW
+PROC013	OL	fortsetzen	fortsetzen	OL=PASS:fortsetzen	COMPOSITIONAL	19	HERBAL|BIOLOGICAL	H1|H2|B1|B3|B4|B5|B6	CONTINUE_USE
+PROC014	CTH+Y	bereit · dies	bereit · dies	CTH=PASS:bereit|Y=PASS:dies	COMPOSITIONAL	7	HERBAL|BIOLOGICAL	H1|H2|H3|B3	HOLD_STATE
+PROC015	Y+CH+E+OR	dies · abziehen · kurz · Ansatz	dies · abziehen · kurz · Ansatz	Y=PASS:dies|CH=PASS:abziehen|E=PASS:kurz|OR=PASS:Ansatz	COMPOSITIONAL	1	HERBAL	H2	SOURCE_DRAW
+PROC016	OR	Ansatz	Ansatz	OR=PASS:Ansatz	COMPOSITIONAL	7	HERBAL|BIOLOGICAL	H2|H4|B3|B4	ACTIVATE_CHARGE
+PROC017	CTH+AIIN	bereit · Maß	bereit · Maß	CTH=PASS:bereit|AIIN=PASS:Maß	COMPOSITIONAL	1	HERBAL	H2	METER_CHECK
+PROC018	O+CTH+OL+Y	Arbeitsgang · bereit · fortsetzen · dies	Arbeitsgang · bereit · fortsetzen · dies	O=PASS:Arbeitsgang|CTH=PASS:bereit|OL=PASS:fortsetzen|Y=PASS:dies	COMPOSITIONAL	1	HERBAL	H2	CONTINUE_USE
+PROC019	Y	dies	dies	Y=PASS:dies	COMPOSITIONAL	18	HERBAL|BIOLOGICAL	H2|H3|H4|B1|B2|B3|B4|B6	MOVE_PASS
+PROC020	OT+CH+OR	danach · abziehen · Ansatz	danach · abziehen · Ansatz	OT=PASS:danach|CH=PASS:abziehen|OR=PASS:Ansatz	COMPOSITIONAL	2	HERBAL	H2|H5	ACTIVATE_CHARGE
+PROC021	OT+OL	danach · fortsetzen	danach · fortsetzen	OT=PASS:danach|OL=PASS:fortsetzen	COMPOSITIONAL	1	HERBAL	H2	CONTINUE_USE
+PROC022	OL+OR	fortsetzen · Ansatz	fortsetzen · Ansatz	OL=PASS:fortsetzen|OR=PASS:Ansatz	COMPOSITIONAL	2	HERBAL|BIOLOGICAL	H2|B1	ACTIVATE_CHARGE
+PROC023	O+Y+K+OR	Arbeitsgang · dies · zuführen · Ansatz	Arbeitsgang · dies · zuführen · Ansatz	O=PASS:Arbeitsgang|Y=PASS:dies|K=PASS:zuführen|OR=PASS:Ansatz	COMPOSITIONAL	1	HERBAL	H2	ACTIVATE_CHARGE
+PROC024	K+IIN	zuführen · Sollstufe	zuführen · Sollstufe	K=PASS:zuführen|IIN=PASS:Sollstufe	COMPOSITIONAL	1	HERBAL	H2	METER_CHECK
+PROC025	CH+O+AIIN	abziehen · Arbeitsgang · Maß	abziehen · Arbeitsgang · Maß	CH=PASS:abziehen|O=PASS:Arbeitsgang|AIIN=PASS:Maß	COMPOSITIONAL	1	HERBAL	H2	SOURCE_DRAW
+PROC026	T+SH+OL	eintragen · halten · fortsetzen	eintragen · halten · fortsetzen	T=PASS:eintragen|SH=PASS:halten|OL=PASS:fortsetzen	COMPOSITIONAL	1	HERBAL	H3	HOLD_STATE
+PROC027	SH+O+AL	halten · Arbeitsgang · Zielstelle	halten · Arbeitsgang · Zielstelle	SH=PASS:halten|O=PASS:Arbeitsgang|AL=PASS:Zielstelle	COMPOSITIONAL	1	HERBAL	H3	TARGET_HANDOFF
+PROC028	CFH+Y	auswringen · dies	? · dies	CFH=LEARNED_ATOM|Y=PASS:dies	PARTIAL_WITH_LEARNED_ATOM	1	HERBAL	H3	SOURCE_DRAW
+PROC029	SH+Y+AIIN	halten · dies · Maß	halten · dies · Maß	SH=PASS:halten|Y=PASS:dies|AIIN=PASS:Maß	COMPOSITIONAL	1	HERBAL	H3	METER_CHECK
+PROC030	P+Y	hinein · dies	hinein · dies	P=PASS:hinein|Y=PASS:dies	COMPOSITIONAL	1	HERBAL	H3	MOVE_PASS
+PROC031	SH+EE+Y	halten · länger · dies	halten · länger · dies	SH=PASS:halten|EE=PASS:länger|Y=PASS:dies	COMPOSITIONAL	4	HERBAL|BIOLOGICAL	H3|B2|B4	HOLD_STATE
+PROC032	T+CH+O+DY	eintragen · abziehen · Arbeitsgang · Schluss	eintragen · abziehen · Arbeitsgang · Schluss	T=PASS:eintragen|CH=PASS:abziehen|O=PASS:Arbeitsgang|DY=PASS:Schluss	COMPOSITIONAL	1	HERBAL	H3	SOURCE_DRAW>CLOSE
+PROC033	SH+O+Y+T+Y	halten · Arbeitsgang · dies · eintragen · dies	halten · Arbeitsgang · dies · eintragen · dies	SH=PASS:halten|O=PASS:Arbeitsgang|Y=PASS:dies|T=PASS:eintragen|Y=PASS:dies	COMPOSITIONAL	1	HERBAL	H3	HOLD_STATE
+PROC034	OL	fortsetzen	fortsetzen	OL=PASS:fortsetzen	COMPOSITIONAL	2	HERBAL	H3|H5	CONTINUE_USE
+PROC035	K+Y	zuführen · dies	zuführen · dies	K=PASS:zuführen|Y=PASS:dies	COMPOSITIONAL	1	HERBAL	H3	ACTIVATE_CHARGE
+PROC036	OT+Y	danach · dies	danach · dies	OT=PASS:danach|Y=PASS:dies	COMPOSITIONAL	1	HERBAL	H3	ACTIVATE_CHARGE
+PROC037	OK+OL	ansetzen · fortsetzen	ansetzen · fortsetzen	OK=PASS:ansetzen|OL=PASS:fortsetzen	COMPOSITIONAL	1	HERBAL	H3	ACTIVATE_CHARGE
+PROC038	OK+AIIN	ansetzen · Maß	ansetzen · Maß	OK=PASS:ansetzen|AIIN=PASS:Maß	COMPOSITIONAL	9	HERBAL|BIOLOGICAL	H4|B1|B2|B3	METER_CHECK
+PROC039	Y+K+AIN	dies · zuführen · Portion	dies · zuführen · Portion	Y=PASS:dies|K=PASS:zuführen|AIN=PASS:Portion	COMPOSITIONAL	1	HERBAL	H4	ACTIVATE_CHARGE
+PROC040	Y+K+AIN	dies · zuführen · Portion	dies · zuführen · Portion	Y=PASS:dies|K=PASS:zuführen|AIN=PASS:Portion	COMPOSITIONAL	1	HERBAL	H4	ACTIVATE_CHARGE
+PROC041	O+DY	Arbeitsgang · Schluss	Arbeitsgang · Schluss	O=PASS:Arbeitsgang|DY=PASS:Schluss	COMPOSITIONAL	1	HERBAL	H4	CONTINUE_USE>CLOSE
+PROC042	CHD+Y	umsetzen · dies	umsetzen · dies	CHD=PASS:umsetzen|Y=PASS:dies	COMPOSITIONAL	11	HERBAL|BIOLOGICAL	H4|B1|B3|B4|B5	ACTIVATE_CHARGE
+PROC043	TALAM	verwahren	?	TALAM=LEARNED_ATOM	LEARNED_WHOLE_CARD	1	HERBAL	H4	CONTINUE_USE
+PROC044	Y+K+AIIN	dies · zuführen · Maß	dies · zuführen · Maß	Y=PASS:dies|K=PASS:zuführen|AIIN=PASS:Maß	COMPOSITIONAL	1	HERBAL	H4	METER_CHECK
+PROC045	CH+E+O+AR	abziehen · kurz · Arbeitsgang · von dort	abziehen · kurz · Arbeitsgang · von dort	CH=PASS:abziehen|E=PASS:kurz|O=PASS:Arbeitsgang|AR=PASS:von dort	COMPOSITIONAL	1	HERBAL	H4	SOURCE_DRAW
+PROC046	CHK+EE+Y	wärmen · länger · dies	wärmen · länger · dies	CHK=PASS:wärmen|EE=PASS:länger|Y=PASS:dies	COMPOSITIONAL	2	HERBAL|BIOLOGICAL	H4|B4	ACTIVATE_CHARGE
+PROC047	OL+DY	fortsetzen · Schluss	fortsetzen · Schluss	OL=PASS:fortsetzen|DY=PASS:Schluss	COMPOSITIONAL	2	HERBAL|BIOLOGICAL	H4|B4	CONTINUE_USE>CLOSE
+PROC048	OK+AL	ansetzen · Zielstelle	ansetzen · Zielstelle	OK=PASS:ansetzen|AL=PASS:Zielstelle	COMPOSITIONAL	6	HERBAL|BIOLOGICAL	H4|B1|B2|B3	TARGET_HANDOFF
+PROC049	OL+T+Y	fortsetzen · eintragen · dies	fortsetzen · eintragen · dies	OL=PASS:fortsetzen|T=PASS:eintragen|Y=PASS:dies	COMPOSITIONAL	1	HERBAL	H4	ACTIVATE_CHARGE
+PROC050	OR+AIN	Ansatz · Portion	Ansatz · Portion	OR=PASS:Ansatz|AIN=PASS:Portion	COMPOSITIONAL	1	HERBAL	H4	ACTIVATE_CHARGE
+PROC051	HO+CH+OR	Gabe · abziehen · Ansatz	Gabe · abziehen · Ansatz	HO=PASS:Gabe|CH=PASS:abziehen|OR=PASS:Ansatz	COMPOSITIONAL	1	HERBAL	H5	ACTIVATE_CHARGE
+PROC052	HO	Gabe	Gabe	HO=PASS:Gabe	COMPOSITIONAL	4	HERBAL	H5	ACTIVATE_CHARGE
+PROC053	HO+AL+Y	Gabe · Zielstelle · dies	Gabe · Zielstelle · dies	HO=PASS:Gabe|AL=PASS:Zielstelle|Y=PASS:dies	COMPOSITIONAL	1	HERBAL	H5	TARGET_HANDOFF
+PROC054	K+OL	zuführen · fortsetzen	zuführen · fortsetzen	K=PASS:zuführen|OL=PASS:fortsetzen	COMPOSITIONAL	1	HERBAL	H5	MOVE_PASS
+PROC055	AL	Zielstelle	Zielstelle	AL=PASS:Zielstelle	COMPOSITIONAL	10	HERBAL|BIOLOGICAL	H5|B1|B2|B3|B4|B5	TARGET_HANDOFF
+PROC056	HO+Y	Gabe · dies	Gabe · dies	HO=PASS:Gabe|Y=PASS:dies	COMPOSITIONAL	1	HERBAL	H5	ACTIVATE_CHARGE
+PROC057	CH+EE+CKH+O+DY	abziehen · länger · Durchlass · Arbeitsgang · Schluss	abziehen · länger · Durchlass · Arbeitsgang · Schluss	CH=PASS:abziehen|EE=PASS:länger|CKH=PASS:Durchlass|O=PASS:Arbeitsgang|DY=PASS:Schluss	COMPOSITIONAL	1	HERBAL	H5	HOLD_STATE>CLOSE
+PROC058	SH	halten	halten	SH=PASS:halten	COMPOSITIONAL	1	HERBAL	H5	HOLD_STATE
+PROC059	K+E+Y	zuführen · kurz · dies	zuführen · kurz · dies	K=PASS:zuführen|E=PASS:kurz|Y=PASS:dies	COMPOSITIONAL	1	HERBAL	H5	HOLD_STATE
+PROC060	OK+OK+Y	ansetzen · ansetzen · dies	ansetzen · ansetzen · dies	OK=PASS:ansetzen|OK=PASS:ansetzen|Y=PASS:dies	COMPOSITIONAL	1	HERBAL	H5	ACTIVATE_CHARGE
+PROC061	OK+CH+E+O	ansetzen · abziehen · kurz · Arbeitsgang	ansetzen · abziehen · kurz · Arbeitsgang	OK=PASS:ansetzen|CH=PASS:abziehen|E=PASS:kurz|O=PASS:Arbeitsgang	COMPOSITIONAL	1	HERBAL	H5	ACTIVATE_CHARGE
+PROC062	K+AL	zuführen · Zielstelle	zuführen · Zielstelle	K=PASS:zuführen|AL=PASS:Zielstelle	COMPOSITIONAL	1	HERBAL	H5	TARGET_HANDOFF
+PROC063	K+HO+AR	zuführen · Gabe · von dort	zuführen · Gabe · von dort	K=PASS:zuführen|HO=PASS:Gabe|AR=PASS:von dort	COMPOSITIONAL	1	HERBAL	H5	ACTIVATE_CHARGE
+PROC064	OT+O+AIN	danach · Arbeitsgang · Portion	danach · Arbeitsgang · Portion	OT=PASS:danach|O=PASS:Arbeitsgang|AIN=PASS:Portion	COMPOSITIONAL	1	HERBAL	H5	ACTIVATE_CHARGE
+PROC065	OT+Y	danach · dies	danach · dies	OT=PASS:danach|Y=PASS:dies	COMPOSITIONAL	2	HERBAL|BIOLOGICAL	H5|B4	ACTIVATE_CHARGE
+PROC066	K+E+OL	zuführen · kurz · fortsetzen	zuführen · kurz · fortsetzen	K=PASS:zuführen|E=PASS:kurz|OL=PASS:fortsetzen	COMPOSITIONAL	1	HERBAL	H5	HOLD_STATE
+PROC067	OK+E+DY	ansetzen · kurz · Schluss	ansetzen · kurz · Schluss	OK=PASS:ansetzen|E=PASS:kurz|DY=PASS:Schluss	COMPOSITIONAL	8	BIOLOGICAL	B1|B3|B4	HOLD_STATE>CLOSE
+PROC068	K+AIR	zuführen · Lauf	zuführen · Lauf	K=PASS:zuführen|AIR=PASS:Lauf	COMPOSITIONAL	1	BIOLOGICAL	B1	MOVE_PASS
+PROC069	K+AIN	zuführen · Portion	zuführen · Portion	K=PASS:zuführen|AIN=PASS:Portion	COMPOSITIONAL	3	BIOLOGICAL	B1|B3|B4	ACTIVATE_CHARGE
+PROC070	OL+K+AIN	fortsetzen · zuführen · Portion	fortsetzen · zuführen · Portion	OL=PASS:fortsetzen|K=PASS:zuführen|AIN=PASS:Portion	COMPOSITIONAL	2	BIOLOGICAL	B1|B4	ACTIVATE_CHARGE
+PROC071	R+OL	abkühlen · fortsetzen	abkühlen · fortsetzen	R=PASS:abkühlen|OL=PASS:fortsetzen	COMPOSITIONAL	1	BIOLOGICAL	B1	HOLD_STATE
+PROC072	L	führen	führen	L=PASS:führen	COMPOSITIONAL	2	BIOLOGICAL	B1	MOVE_PASS
+PROC073	SH+E+CKH+AL	halten · kurz · Durchlass · Zielstelle	halten · kurz · Durchlass · Zielstelle	SH=PASS:halten|E=PASS:kurz|CKH=PASS:Durchlass|AL=PASS:Zielstelle	COMPOSITIONAL	1	BIOLOGICAL	B1	HOLD_STATE
+PROC074	OK+EE+AL	ansetzen · länger · Zielstelle	ansetzen · länger · Zielstelle	OK=PASS:ansetzen|EE=PASS:länger|AL=PASS:Zielstelle	COMPOSITIONAL	1	BIOLOGICAL	B1	HOLD_STATE
+PROC075	CKH+Y	Durchlass · dies	Durchlass · dies	CKH=PASS:Durchlass|Y=PASS:dies	COMPOSITIONAL	4	BIOLOGICAL	B1|B2	MOVE_PASS
+PROC076	CHD+DY	umsetzen · Schluss	umsetzen · Schluss	CHD=PASS:umsetzen|DY=PASS:Schluss	COMPOSITIONAL	4	BIOLOGICAL	B1|B2|B3	MOVE_PASS>CLOSE
+PROC077	SH+K+CHD+DY	halten · zuführen · umsetzen · Schluss	halten · zuführen · umsetzen · Schluss	SH=PASS:halten|K=PASS:zuführen|CHD=PASS:umsetzen|DY=PASS:Schluss	COMPOSITIONAL	1	BIOLOGICAL	B1	HOLD_STATE>CLOSE
+PROC078	SHED+DY	absetzen · Schluss	absetzen · Schluss	SHED=PASS:absetzen|DY=PASS:Schluss	COMPOSITIONAL	12	BIOLOGICAL	B1|B2|B3|B4	HOLD_STATE>CLOSE
+PROC079	OL+CHD+DY	fortsetzen · umsetzen · Schluss	fortsetzen · umsetzen · Schluss	OL=PASS:fortsetzen|CHD=PASS:umsetzen|DY=PASS:Schluss	COMPOSITIONAL	3	BIOLOGICAL	B1|B2|B3	MOVE_PASS>CLOSE
+PROC080	OK+AIN	ansetzen · Portion	ansetzen · Portion	OK=PASS:ansetzen|AIN=PASS:Portion	COMPOSITIONAL	7	BIOLOGICAL	B1|B2|B3|B4	ACTIVATE_CHARGE
+PROC081	R+AL	abkühlen · Zielstelle	abkühlen · Zielstelle	R=PASS:abkühlen|AL=PASS:Zielstelle	COMPOSITIONAL	1	BIOLOGICAL	B1	HOLD_STATE
+PROC082	OK+CHD+DY	ansetzen · umsetzen · Schluss	ansetzen · umsetzen · Schluss	OK=PASS:ansetzen|CHD=PASS:umsetzen|DY=PASS:Schluss	COMPOSITIONAL	3	BIOLOGICAL	B1|B3|B5	ACTIVATE_CHARGE>CLOSE
+PROC083	CHK+E+Y	wärmen · kurz · dies	wärmen · kurz · dies	CHK=PASS:wärmen|E=PASS:kurz|Y=PASS:dies	COMPOSITIONAL	3	BIOLOGICAL	B1|B4	HOLD_STATE
+PROC084	LSH+O	Waschgang · Arbeitsgang	Waschgang · Arbeitsgang	LSH=PASS:Waschgang|O=PASS:Arbeitsgang	COMPOSITIONAL	1	BIOLOGICAL	B1	CONTINUE_USE
+PROC085	OK+E+Y	ansetzen · kurz · dies	ansetzen · kurz · dies	OK=PASS:ansetzen|E=PASS:kurz|Y=PASS:dies	COMPOSITIONAL	2	BIOLOGICAL	B1|B2	HOLD_STATE
+PROC086	LSH+E+DY	Waschgang · kurz · Schluss	Waschgang · kurz · Schluss	LSH=PASS:Waschgang|E=PASS:kurz|DY=PASS:Schluss	COMPOSITIONAL	2	BIOLOGICAL	B1	HOLD_STATE>CLOSE
+PROC087	SOLK+Y	auffangen · dies	auffangen · dies	SOLK=PASS:auffangen|Y=PASS:dies	COMPOSITIONAL	1	BIOLOGICAL	B1	HOLD_STATE
+PROC088	L+CHD+AL	führen · umsetzen · Zielstelle	führen · umsetzen · Zielstelle	L=PASS:führen|CHD=PASS:umsetzen|AL=PASS:Zielstelle	COMPOSITIONAL	1	BIOLOGICAL	B1	TARGET_HANDOFF
+PROC089	OT+AR	danach · von dort	danach · von dort	OT=PASS:danach|AR=PASS:von dort	COMPOSITIONAL	1	BIOLOGICAL	B1	SOURCE_DRAW
+PROC090	T+E+Y	eintragen · kurz · dies	eintragen · kurz · dies	T=PASS:eintragen|E=PASS:kurz|Y=PASS:dies	COMPOSITIONAL	1	BIOLOGICAL	B1	HOLD_STATE
+PROC091	OK+CHD+DY	ansetzen · umsetzen · Schluss	ansetzen · umsetzen · Schluss	OK=PASS:ansetzen|CHD=PASS:umsetzen|DY=PASS:Schluss	COMPOSITIONAL	2	BIOLOGICAL	B1|B3	ACTIVATE_CHARGE>CLOSE
+PROC092	OK+EE+Y	ansetzen · länger · dies	ansetzen · länger · dies	OK=PASS:ansetzen|EE=PASS:länger|Y=PASS:dies	COMPOSITIONAL	7	BIOLOGICAL	B1|B2|B3|B4	HOLD_STATE
+PROC093	E+OL	kurz · fortsetzen	kurz · fortsetzen	E=PASS:kurz|OL=PASS:fortsetzen	COMPOSITIONAL	1	BIOLOGICAL	B1	HOLD_STATE
+PROC094	CHD+DY	umsetzen · Schluss	umsetzen · Schluss	CHD=PASS:umsetzen|DY=PASS:Schluss	COMPOSITIONAL	1	BIOLOGICAL	B1	MOVE_PASS>CLOSE
+PROC095	L+Y	führen · dies	führen · dies	L=PASS:führen|Y=PASS:dies	COMPOSITIONAL	1	BIOLOGICAL	B1	MOVE_PASS
+PROC096	SH+E+OL	halten · kurz · fortsetzen	halten · kurz · fortsetzen	SH=PASS:halten|E=PASS:kurz|OL=PASS:fortsetzen	COMPOSITIONAL	1	BIOLOGICAL	B1	HOLD_STATE
+PROC097	O+IIN	Arbeitsgang · Sollstufe	Arbeitsgang · Sollstufe	O=PASS:Arbeitsgang|IIN=PASS:Sollstufe	COMPOSITIONAL	2	BIOLOGICAL	B1|B3	METER_CHECK
+PROC098	SOLK+EE+DY	auffangen · länger · Schluss	auffangen · länger · Schluss	SOLK=PASS:auffangen|EE=PASS:länger|DY=PASS:Schluss	COMPOSITIONAL	3	BIOLOGICAL	B1|B3	HOLD_STATE>CLOSE
+PROC099	SH+CKH+E+DY	halten · Durchlass · kurz · Schluss	halten · Durchlass · kurz · Schluss	SH=PASS:halten|CKH=PASS:Durchlass|E=PASS:kurz|DY=PASS:Schluss	COMPOSITIONAL	3	BIOLOGICAL	B1|B4	HOLD_STATE>CLOSE
+PROC100	OK+EE+DY	ansetzen · länger · Schluss	ansetzen · länger · Schluss	OK=PASS:ansetzen|EE=PASS:länger|DY=PASS:Schluss	COMPOSITIONAL	10	BIOLOGICAL	B2|B3|B4	HOLD_STATE>CLOSE
+PROC101	L+CKH+Y	führen · Durchlass · dies	führen · Durchlass · dies	L=PASS:führen|CKH=PASS:Durchlass|Y=PASS:dies	COMPOSITIONAL	1	BIOLOGICAL	B2	ACTIVATE_CHARGE
+PROC102	L+CHD	führen · umsetzen	führen · umsetzen	L=PASS:führen|CHD=PASS:umsetzen	COMPOSITIONAL	1	BIOLOGICAL	B2	MOVE_PASS
+PROC103	L+CKH+E+DY	führen · Durchlass · kurz · Schluss	führen · Durchlass · kurz · Schluss	L=PASS:führen|CKH=PASS:Durchlass|E=PASS:kurz|DY=PASS:Schluss	COMPOSITIONAL	1	BIOLOGICAL	B2	MOVE_PASS>CLOSE
+PROC104	OK+AL+Y	ansetzen · Zielstelle · dies	ansetzen · Zielstelle · dies	OK=PASS:ansetzen|AL=PASS:Zielstelle|Y=PASS:dies	COMPOSITIONAL	1	BIOLOGICAL	B2	TARGET_HANDOFF
+PROC105	SOLK+AIIN	auffangen · Maß	auffangen · Maß	SOLK=PASS:auffangen|AIIN=PASS:Maß	COMPOSITIONAL	1	BIOLOGICAL	B2	METER_CHECK
+PROC106	O+CTH+E+OL	Arbeitsgang · bereit · kurz · fortsetzen	Arbeitsgang · bereit · kurz · fortsetzen	O=PASS:Arbeitsgang|CTH=PASS:bereit|E=PASS:kurz|OL=PASS:fortsetzen	COMPOSITIONAL	1	BIOLOGICAL	B2	HOLD_STATE
+PROC107	CHK+EE+Y	wärmen · länger · dies	wärmen · länger · dies	CHK=PASS:wärmen|EE=PASS:länger|Y=PASS:dies	COMPOSITIONAL	1	BIOLOGICAL	B2	ACTIVATE_CHARGE
+PROC108	L+DY	führen · Schluss	führen · Schluss	L=PASS:führen|DY=PASS:Schluss	COMPOSITIONAL	2	BIOLOGICAL	B2|B3	MOVE_PASS>CLOSE
+PROC109	OT+EE+Y	danach · länger · dies	danach · länger · dies	OT=PASS:danach|EE=PASS:länger|Y=PASS:dies	COMPOSITIONAL	2	BIOLOGICAL	B2	HOLD_STATE
+PROC110	SH+E+CKH+Y	halten · kurz · Durchlass · dies	halten · kurz · Durchlass · dies	SH=PASS:halten|E=PASS:kurz|CKH=PASS:Durchlass|Y=PASS:dies	COMPOSITIONAL	1	BIOLOGICAL	B2	ACTIVATE_CHARGE
+PROC111	SH+E+DY	halten · kurz · Schluss	halten · kurz · Schluss	SH=PASS:halten|E=PASS:kurz|DY=PASS:Schluss	COMPOSITIONAL	1	BIOLOGICAL	B2	HOLD_STATE>CLOSE
+PROC112	OT+AIIN	danach · Maß	danach · Maß	OT=PASS:danach|AIIN=PASS:Maß	COMPOSITIONAL	3	BIOLOGICAL	B2|B3	METER_CHECK
+PROC113	OK+AR	ansetzen · von dort	ansetzen · von dort	OK=PASS:ansetzen|AR=PASS:von dort	COMPOSITIONAL	1	BIOLOGICAL	B2	SOURCE_DRAW
+PROC114	OL+SH+E+DY	fortsetzen · halten · kurz · Schluss	fortsetzen · halten · kurz · Schluss	OL=PASS:fortsetzen|SH=PASS:halten|E=PASS:kurz|DY=PASS:Schluss	COMPOSITIONAL	1	BIOLOGICAL	B2	HOLD_STATE>CLOSE
+PROC115	LS	fortsetzen	?	LS=LEARNED_ATOM	LEARNED_WHOLE_CARD	1	BIOLOGICAL	B2	CONTINUE_USE
+PROC116	L+CH+Y	führen · abziehen · dies	führen · abziehen · dies	L=PASS:führen|CH=PASS:abziehen|Y=PASS:dies	COMPOSITIONAL	1	BIOLOGICAL	B2	SOURCE_DRAW
+PROC117	CTH+E+Y	bereit · kurz · dies	bereit · kurz · dies	CTH=PASS:bereit|E=PASS:kurz|Y=PASS:dies	COMPOSITIONAL	2	BIOLOGICAL	B2|B3	HOLD_STATE
+PROC118	L+EE+Y	führen · länger · dies	führen · länger · dies	L=PASS:führen|EE=PASS:länger|Y=PASS:dies	COMPOSITIONAL	1	BIOLOGICAL	B2	SOURCE_DRAW
+PROC119	OK+EEE+DY	ansetzen · vollständig · Schluss	ansetzen · vollständig · Schluss	OK=PASS:ansetzen|EEE=PASS:vollständig|DY=PASS:Schluss	COMPOSITIONAL	1	BIOLOGICAL	B2	HOLD_STATE>CLOSE
+PROC120	L+CHD+DY	führen · umsetzen · Schluss	führen · umsetzen · Schluss	L=PASS:führen|CHD=PASS:umsetzen|DY=PASS:Schluss	COMPOSITIONAL	8	BIOLOGICAL	B2|B3|B4	MOVE_PASS>CLOSE
+PROC121	L+AR	führen · von dort	führen · von dort	L=PASS:führen|AR=PASS:von dort	COMPOSITIONAL	1	BIOLOGICAL	B2	SOURCE_DRAW
+PROC122	SH+E+Y	halten · kurz · dies	halten · kurz · dies	SH=PASS:halten|E=PASS:kurz|Y=PASS:dies	COMPOSITIONAL	1	BIOLOGICAL	B2	HOLD_STATE
+PROC123	L+CHD+AR	führen · umsetzen · von dort	führen · umsetzen · von dort	L=PASS:führen|CHD=PASS:umsetzen|AR=PASS:von dort	COMPOSITIONAL	1	BIOLOGICAL	B2	SOURCE_DRAW
+PROC124	CH+E+S	abziehen · kurz · teilen	abziehen · kurz · ?	CH=PASS:abziehen|E=PASS:kurz|S=LEARNED_ATOM	PARTIAL_WITH_LEARNED_ATOM	1	BIOLOGICAL	B2	ACTIVATE_CHARGE
+PROC125	P+CHD+DY	hinein · umsetzen · Schluss	hinein · umsetzen · Schluss	P=PASS:hinein|CHD=PASS:umsetzen|DY=PASS:Schluss	COMPOSITIONAL	1	BIOLOGICAL	B2	MOVE_PASS>CLOSE
+PROC126	R+SH+E+AL	abkühlen · halten · kurz · Zielstelle	abkühlen · halten · kurz · Zielstelle	R=PASS:abkühlen|SH=PASS:halten|E=PASS:kurz|AL=PASS:Zielstelle	COMPOSITIONAL	1	BIOLOGICAL	B2	HOLD_STATE
+PROC127	AL+DY	Zielstelle · Schluss	Zielstelle · Schluss	AL=PASS:Zielstelle|DY=PASS:Schluss	COMPOSITIONAL	1	BIOLOGICAL	B2	TARGET_HANDOFF>CLOSE
+PROC128	R+SHED+DY	abkühlen · absetzen · Schluss	abkühlen · absetzen · Schluss	R=PASS:abkühlen|SHED=PASS:absetzen|DY=PASS:Schluss	COMPOSITIONAL	1	BIOLOGICAL	B2	HOLD_STATE>CLOSE
+PROC129	OT+EE+DY	danach · länger · Schluss	danach · länger · Schluss	OT=PASS:danach|EE=PASS:länger|DY=PASS:Schluss	COMPOSITIONAL	2	BIOLOGICAL	B2|B3	HOLD_STATE>CLOSE
+PROC130	L+O+CHD+DY	führen · Arbeitsgang · umsetzen · Schluss	führen · Arbeitsgang · umsetzen · Schluss	L=PASS:führen|O=PASS:Arbeitsgang|CHD=PASS:umsetzen|DY=PASS:Schluss	COMPOSITIONAL	1	BIOLOGICAL	B2	MOVE_PASS>CLOSE
+PROC131	OT+AL	danach · Zielstelle	danach · Zielstelle	OT=PASS:danach|AL=PASS:Zielstelle	COMPOSITIONAL	3	BIOLOGICAL	B3|B4	TARGET_HANDOFF
+PROC132	CHK+EE+DY	wärmen · länger · Schluss	wärmen · länger · Schluss	CHK=PASS:wärmen|EE=PASS:länger|DY=PASS:Schluss	COMPOSITIONAL	1	BIOLOGICAL	B3	HOLD_STATE>CLOSE
+PROC133	CHD+Y	umsetzen · dies	umsetzen · dies	CHD=PASS:umsetzen|Y=PASS:dies	COMPOSITIONAL	1	BIOLOGICAL	B3	MOVE_PASS
+PROC134	P+CHD+AL	hinein · umsetzen · Zielstelle	hinein · umsetzen · Zielstelle	P=PASS:hinein|CHD=PASS:umsetzen|AL=PASS:Zielstelle	COMPOSITIONAL	1	BIOLOGICAL	B3	TARGET_HANDOFF
+PROC135	OT+E+DY	danach · kurz · Schluss	danach · kurz · Schluss	OT=PASS:danach|E=PASS:kurz|DY=PASS:Schluss	COMPOSITIONAL	2	BIOLOGICAL	B3	HOLD_STATE>CLOSE
+PROC136	SH+E+CTH+CHD+Y	halten · kurz · bereit · umsetzen · dies	halten · kurz · bereit · umsetzen · dies	SH=PASS:halten|E=PASS:kurz|CTH=PASS:bereit|CHD=PASS:umsetzen|Y=PASS:dies	COMPOSITIONAL	1	BIOLOGICAL	B3	HOLD_STATE
+PROC137	AR+Y	von dort · dies	von dort · dies	AR=PASS:von dort|Y=PASS:dies	COMPOSITIONAL	1	BIOLOGICAL	B3	SOURCE_DRAW
+PROC138	OK+AIR	ansetzen · Lauf	ansetzen · Lauf	OK=PASS:ansetzen|AIR=PASS:Lauf	COMPOSITIONAL	1	BIOLOGICAL	B3	MOVE_PASS
+PROC139	SH+EE+DY	halten · länger · Schluss	halten · länger · Schluss	SH=PASS:halten|EE=PASS:länger|DY=PASS:Schluss	COMPOSITIONAL	1	BIOLOGICAL	B3	HOLD_STATE>CLOSE
+PROC140	L+O	führen · Arbeitsgang	führen · Arbeitsgang	L=PASS:führen|O=PASS:Arbeitsgang	COMPOSITIONAL	1	BIOLOGICAL	B3	MOVE_PASS
+PROC141	OK+SH+E+DY	ansetzen · halten · kurz · Schluss	ansetzen · halten · kurz · Schluss	OK=PASS:ansetzen|SH=PASS:halten|E=PASS:kurz|DY=PASS:Schluss	COMPOSITIONAL	1	BIOLOGICAL	B3	HOLD_STATE>CLOSE
+PROC142	SHED+AL	absetzen · Zielstelle	absetzen · Zielstelle	SHED=PASS:absetzen|AL=PASS:Zielstelle	COMPOSITIONAL	2	BIOLOGICAL	B3|B5	HOLD_STATE
+PROC143	SH+E+CTH+Y	halten · kurz · bereit · dies	halten · kurz · bereit · dies	SH=PASS:halten|E=PASS:kurz|CTH=PASS:bereit|Y=PASS:dies	COMPOSITIONAL	1	BIOLOGICAL	B3	HOLD_STATE
+PROC144	AL+CHD+DY	Zielstelle · umsetzen · Schluss	Zielstelle · umsetzen · Schluss	AL=PASS:Zielstelle|CHD=PASS:umsetzen|DY=PASS:Schluss	COMPOSITIONAL	1	BIOLOGICAL	B3	TARGET_HANDOFF>CLOSE
+PROC145	OT+CHD+DY	danach · umsetzen · Schluss	danach · umsetzen · Schluss	OT=PASS:danach|CHD=PASS:umsetzen|DY=PASS:Schluss	COMPOSITIONAL	2	BIOLOGICAL	B3	MOVE_PASS>CLOSE
+PROC146	EE+AR	länger · von dort	länger · von dort	EE=PASS:länger|AR=PASS:von dort	COMPOSITIONAL	1	BIOLOGICAL	B3	HOLD_STATE
+PROC147	L+AIIN	führen · Maß	führen · Maß	L=PASS:führen|AIIN=PASS:Maß	COMPOSITIONAL	1	BIOLOGICAL	B3	METER_CHECK
+PROC148	AL+R+OR	Zielstelle · abkühlen · Ansatz	Zielstelle · abkühlen · Ansatz	AL=PASS:Zielstelle|R=PASS:abkühlen|OR=PASS:Ansatz	COMPOSITIONAL	1	BIOLOGICAL	B3	ACTIVATE_CHARGE
+PROC149	EEE+T+Y	vollständig · eintragen · dies	vollständig · eintragen · dies	EEE=PASS:vollständig|T=PASS:eintragen|Y=PASS:dies	COMPOSITIONAL	1	BIOLOGICAL	B3	HOLD_STATE
+PROC150	CHD+AIR	umsetzen · Lauf	umsetzen · Lauf	CHD=PASS:umsetzen|AIR=PASS:Lauf	COMPOSITIONAL	1	BIOLOGICAL	B3	MOVE_PASS
+PROC151	CHD+AIN	umsetzen · Portion	umsetzen · Portion	CHD=PASS:umsetzen|AIN=PASS:Portion	COMPOSITIONAL	1	BIOLOGICAL	B3	ACTIVATE_CHARGE
+PROC152	OT+E+AIIN	danach · kurz · Maß	danach · kurz · Maß	OT=PASS:danach|E=PASS:kurz|AIIN=PASS:Maß	COMPOSITIONAL	1	BIOLOGICAL	B3	METER_CHECK
+PROC153	OL+AL+Y	fortsetzen · Zielstelle · dies	fortsetzen · Zielstelle · dies	OL=PASS:fortsetzen|AL=PASS:Zielstelle|Y=PASS:dies	COMPOSITIONAL	1	BIOLOGICAL	B3	TARGET_HANDOFF
+PROC154	OL+Y	fortsetzen · dies	fortsetzen · dies	OL=PASS:fortsetzen|Y=PASS:dies	COMPOSITIONAL	1	BIOLOGICAL	B4	CONTINUE_USE
+PROC155	OK+Y+LD+DY	ansetzen · dies · befestigen · Schluss	ansetzen · dies · ? · Schluss	OK=PASS:ansetzen|Y=PASS:dies|LD=LEARNED_ATOM|DY=PASS:Schluss	PARTIAL_WITH_LEARNED_ATOM	1	BIOLOGICAL	B4	ACTIVATE_CHARGE>CLOSE
+PROC156	AIN	Portion	Portion	AIN=PASS:Portion	COMPOSITIONAL	2	BIOLOGICAL	B4|B6	ACTIVATE_CHARGE
+PROC157	SH+EE+Y	halten · länger · dies	halten · länger · dies	SH=PASS:halten|EE=PASS:länger|Y=PASS:dies	COMPOSITIONAL	1	BIOLOGICAL	B4	ACTIVATE_CHARGE
+PROC158	OK+EE+OL	ansetzen · länger · fortsetzen	ansetzen · länger · fortsetzen	OK=PASS:ansetzen|EE=PASS:länger|OL=PASS:fortsetzen	COMPOSITIONAL	1	BIOLOGICAL	B4	HOLD_STATE
+PROC159	L+K+E+DY	führen · zuführen · kurz · Schluss	führen · zuführen · kurz · Schluss	L=PASS:führen|K=PASS:zuführen|E=PASS:kurz|DY=PASS:Schluss	COMPOSITIONAL	1	BIOLOGICAL	B4	HOLD_STATE>CLOSE
+PROC160	OK+OL	ansetzen · fortsetzen	ansetzen · fortsetzen	OK=PASS:ansetzen|OL=PASS:fortsetzen	COMPOSITIONAL	1	BIOLOGICAL	B4	ACTIVATE_CHARGE
+PROC161	O+CKH+E+Y	Arbeitsgang · Durchlass · kurz · dies	Arbeitsgang · Durchlass · kurz · dies	O=PASS:Arbeitsgang|CKH=PASS:Durchlass|E=PASS:kurz|Y=PASS:dies	COMPOSITIONAL	1	BIOLOGICAL	B4	HOLD_STATE
+PROC162	AIR+Y+DY	Lauf · dies · Schluss	Lauf · dies · Schluss	AIR=PASS:Lauf|Y=PASS:dies|DY=PASS:Schluss	COMPOSITIONAL	1	BIOLOGICAL	B4	MOVE_PASS>CLOSE
+PROC163	CH+CKH+AL	abziehen · Durchlass · Zielstelle	abziehen · Durchlass · Zielstelle	CH=PASS:abziehen|CKH=PASS:Durchlass|AL=PASS:Zielstelle	COMPOSITIONAL	1	BIOLOGICAL	B4	TARGET_HANDOFF
+PROC164	SOLK+E+Y	auffangen · kurz · dies	auffangen · kurz · dies	SOLK=PASS:auffangen|E=PASS:kurz|Y=PASS:dies	COMPOSITIONAL	1	BIOLOGICAL	B4	HOLD_STATE
+PROC165	K+AR	zuführen · von dort	zuführen · von dort	K=PASS:zuführen|AR=PASS:von dort	COMPOSITIONAL	1	BIOLOGICAL	B4	SOURCE_DRAW
+PROC166	OT+CHD+DY	danach · umsetzen · Schluss	danach · umsetzen · Schluss	OT=PASS:danach|CHD=PASS:umsetzen|DY=PASS:Schluss	COMPOSITIONAL	1	BIOLOGICAL	B5	MOVE_PASS>CLOSE
+PROC167	L+OL	führen · fortsetzen	führen · fortsetzen	L=PASS:führen|OL=PASS:fortsetzen	COMPOSITIONAL	1	BIOLOGICAL	B5	MOVE_PASS
+PROC168	CHD+AL	umsetzen · Zielstelle	umsetzen · Zielstelle	CHD=PASS:umsetzen|AL=PASS:Zielstelle	COMPOSITIONAL	1	BIOLOGICAL	B5	TARGET_HANDOFF
+PROC169	DA+IIN	zweite · Sollstufe	? · Sollstufe	DA=LEARNED_ATOM|IIN=PASS:Sollstufe	PARTIAL_WITH_LEARNED_ATOM	1	BIOLOGICAL	B5	METER_CHECK
+PROC170	SOLK+EE+Y	auffangen · länger · dies	auffangen · länger · dies	SOLK=PASS:auffangen|EE=PASS:länger|Y=PASS:dies	COMPOSITIONAL	1	BIOLOGICAL	B6	HOLD_STATE
+PROC171	E+K+E+Y	kurz · zuführen · kurz · dies	kurz · zuführen · kurz · dies	E=PASS:kurz|K=PASS:zuführen|E=PASS:kurz|Y=PASS:dies	COMPOSITIONAL	1	BIOLOGICAL	B6	HOLD_STATE
+PROC172	R+AL+Y	abkühlen · Zielstelle · dies	abkühlen · Zielstelle · dies	R=PASS:abkühlen|AL=PASS:Zielstelle|Y=PASS:dies	COMPOSITIONAL	1	BIOLOGICAL	B6	HOLD_STATE
+PROC173	L+AL+OR	führen · Zielstelle · Ansatz	führen · Zielstelle · Ansatz	L=PASS:führen|AL=PASS:Zielstelle|OR=PASS:Ansatz	COMPOSITIONAL	1	BIOLOGICAL	B6	ACTIVATE_CHARGE
