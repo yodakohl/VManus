@@ -8034,9 +8034,16 @@ Klarabzug, Nachseihen, Langhalt, Verwahren. A second apprentice recovers all ten
 values, slots, identities and surfaces without a running page exemplar. See
 `sidequest_semantic_apprentice_curriculum_three_hundred_sixty_seventh/THREE_HUNDRED_SIXTY_SEVENTH_APPRENTICE_FINAL.md`.
 
-Next, hide the formulas and give only those ten surfaces plus their B3 owner to
-a fresh reader. Require a fluent German instruction and record every ambiguity
-rather than silently consulting the construction ledger.
+Pass 368 hides the formulas and leaves only the ten surfaces plus their B3
+owner. Every surface is unique on the 173-card board; the slot drop from five to
+three recovers the two microcycles. The neutral technical German adds no domain
+noun, while bathhouse and medical expansions remain possible but add two and
+four narrower nouns respectively. See
+`sidequest_semantic_surface_only_backread_three_hundred_sixty_eighth/THREE_HUNDRED_SIXTY_EIGHTH_SURFACE_ONLY_READING.md`.
+
+Next, replace three easy forms with cards from the fourteen pair placards. Give
+only surfaces, B3 owner and right context; require exact identity recovery and a
+second fluent back-reading.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
