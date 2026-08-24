@@ -9127,9 +9127,18 @@ falls to 134 decisions on 110 events, leaving 271 automatic cards. Coarser
 locus/statement blocks copy far too many regular forms. See
 `sidequest_semantic_allograph_blocks_five_hundred_seventeenth/FIVE_HUNDRED_SEVENTEENTH_REPORT.md`.
 
-Next, express the 63 unique statement programs as small edits of the nine Bio
-defaults or nine shared sentence motifs wherever possible, rather than teaching
-each as an independent path.
+Pass 518 shows that the 63 unique statement programs are descriptive outputs,
+not mental units selected before writing. Forty-eight lie within three edits of
+one of eighteen comparison paths, but all 63 exact base-plus-edit recipes are
+unique, so an edit deck would merely memorize the corpus again. Reading the
+next card through the five-state automaton generates every path directly. The
+63 program choices disappear; only 21 owner resets and fifty allograph-block
+entries remain: 71 decisions on 67 events, with 314 automatic cards. See
+`sidequest_semantic_emergent_programs_five_hundred_eighteenth/FIVE_HUNDRED_EIGHTEENTH_REPORT.md`.
+
+Next, split the 21 owner resets into automatic record-start initialization and
+genuine internal visible scene changes. Only the latter should remain a master
+decision.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
