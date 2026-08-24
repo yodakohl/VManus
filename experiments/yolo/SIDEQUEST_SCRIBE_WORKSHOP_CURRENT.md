@@ -7627,8 +7627,16 @@ surfaces reverse to the original identity, and all 97 German work sequences
 remain unchanged over forty physical lines. See
 `sidequest_semantic_fresh_bio_copy_three_hundred_thirteenth/THREE_HUNDRED_THIRTEENTH_SIX_RECORD_FRESH_COPY.md`.
 
-Next, compress and repair the 97 German Biological work sequences, removing
-sentence-sized card glosses and retaining one short action per card.
+Pass 314 separates dictionary meaning from sentence expansion. All 124 Bio
+cards now have a single German one-word gloss; 28 former multiword values were
+collapsed to workshop compounds such as Langkontakt, Rücktransfer,
+Kurzkontakt, Neueinsatz and Frischspülung. There are 114 distinct atomic
+values, no sentence-sized dictionary gloss and one intentional same-value
+local allograph pair for Kurzvorbereitung. See
+`sidequest_semantic_atomic_bio_glossary_three_hundred_fourteenth/THREE_HUNDRED_FOURTEENTH_124_ATOMIC_BIO_DICTIONARY.tsv`.
+
+Next, induce a small set of reusable sentence templates from the 97 atomic
+Biological lexeme chains and use them for a shorter continuous reading.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
