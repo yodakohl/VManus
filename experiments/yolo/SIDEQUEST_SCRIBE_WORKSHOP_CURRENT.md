@@ -9506,9 +9506,17 @@ into the preparation, CHD+Y ladle/transfer within a station, CHD+DY pass to the
 next station, and Herbal SH let steep. See
 `sidequest_semantic_action_complete_translation_five_hundred_sixty_fourth/FIVE_HUNDRED_SIXTY_FOURTH_COMPLETE_ACTION_TRANSLATION.md`.
 
-Next, bundle the 116 complete action strings into a small set of recurring
-workshop recipes such as CHARGE–ROUTE–CLOSE and HOLD–SETTLE–DRAIN, while
-preserving every constituent action.
+Pass 565 maps all 237 actions to ten primitive workshop phases and derives 58
+statement signatures. Only fifteen signatures recur and are taught as macros;
+they cover 73/116 statements, while 43 one-offs remain transparently composed.
+The main macros are ROUTE→CLOSE (16), HOLD→CLOSE (15), SETTLE→CLOSE (6),
+open CHARGE (5), CHARGE→HOLD→CLOSE (5), and CHARGE→ROUTE→CLOSE (5).
+All constituent actions remain present. See
+`sidequest_semantic_workshop_recipe_macros_five_hundred_sixty_fifth/FIVE_HUNDRED_SIXTY_FIFTH_REPORT.md`.
+
+Next, give the fifteen recurrent macros natural concise recipe-style German
+readings and insert them into the continuous edition, while leaving all rare
+phase chains explicit.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
