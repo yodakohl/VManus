@@ -8527,10 +8527,16 @@ cards. The local list is now exactly cloth, same setting, fresh/rinse water,
 first/second opening, equal portions and washing. See
 `sidequest_semantic_b2_apprentice_dictionary_four_hundred_thirty_ninth/FOUR_HUNDRED_THIRTY_NINTH_POCKET_MANUAL.md`.
 
-Next, transfer the combined B1+B2 deck into B3, the long f83r record. Preserve
-every shared exact value and all productive component rules, split real local
-image owners where needed, and complete every B3 event and statement before
-revising its new local cards.
+Pass 440 transfers the union of B1 and B2 into all of B3. Twenty-six exact
+types retain fixed values and cover 54 of 86 events; 26 new types cover the
+remaining 32. All 34 statements are read across three image-local owner zones,
+with the real E264 and E291 owner resets preserved inside S016 and S026. See
+`sidequest_semantic_b3_station_article_four_hundred_fortieth/FOUR_HUNDRED_FORTIETH_B3_34_STATEMENTS.tsv`.
+
+Next, attack B3's 26 local cards with the established paradigms. Start with
+SHEEDY, CHKEEDY, QOTAL, OTEDY, OTCHEDY, CHEDCHY, DALCHDY, PCHEDAL, SHEDAL,
+CHEDAIN, OKAIR, SCHEDAIR, QOKSHEDY, CTHY and SOR; reject the old broad-vessel
+and lower-site readings if their visible pieces predict measure and target.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
