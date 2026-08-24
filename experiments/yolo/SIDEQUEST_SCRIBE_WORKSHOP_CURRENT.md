@@ -9258,8 +9258,16 @@ image edge connects the two stations. Thirty-six cards retain their earlier
 Herbal/B1/B2 values and no global circulation cycle is introduced. See
 `sidequest_semantic_f83_complete_edition_five_hundred_thirty_fourth/FIVE_HUNDRED_THIRTY_FOURTH_REPORT.md`.
 
-Next, merge f81v, f82r and f83r into one complete 281-event Biological edition
-with six records, 97 cells and sixteen local owner domains.
+Pass 535 merges all three Biological pages into one complete edition: six
+records, 281 events, 124 exact cards, 97 operating cells, 85 closed and twelve
+open cells, and sixteen local owner domains. Thirty-two cards recur on at least
+two page units and cover 176 events; twelve occur on all three and cover 85.
+Seventeen cards already occur in Herbal. Four owner-crossing cells remain
+explicitly unconnected and no global network is supplied. See
+`sidequest_semantic_complete_biological_edition_five_hundred_thirty_fifth/FIVE_HUNDRED_THIRTY_FIFTH_REPORT.md`.
+
+Next, compare the complete Herbal and Biological editions to extract the
+smallest common 381-event workshop grammar and isolate image-supplied nouns.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
