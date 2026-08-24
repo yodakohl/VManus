@@ -8593,10 +8593,18 @@ opening, fresh/rinse water and sieve-cloth glosses disappear. The final deck is
 111 productive + six portable + seven local, covering 254+20+7 events. See
 `sidequest_semantic_biological_local_cleanup_four_hundred_forty_eighth/FOUR_HUNDRED_FORTY_EIGHTH_REPORT.md`.
 
-Next, audit the thirteen remaining whole cards (six portable plus seven local)
-against the 111 productive families. Look for true whole-word paradigms,
-especially FUELLEN/TEILEN and WARM/ROH, without decomposing them merely because
-their surface letters resemble productive stems.
+Pass 449 promotes seven more cards: three old drawer mistakes in OK+AIN and
+OK+CHD/CHED+DY, a T=FUELLEN pair, and two CTH=BEREIT compositions. Only six
+whole cards remain: DASSELBE, KLARAUSZUG, TUCH, TEILEN, WARM and ROH. They
+cover eleven events; 118 types and 270 of 281 Biological events are productive.
+See
+`sidequest_semantic_biological_whole_card_audit_four_hundred_forty_ninth/FOUR_HUNDRED_FORTY_NINTH_REPORT.md`.
+
+Next, freeze no science protocol; instead write the actual apprentice manual
+for the 118 productive cards. Collapse them to the smallest ordered root and
+modifier inventory, generate every attested Biological card from the manual,
+and list any card that still needs an ad-hoc rule despite being called
+productive.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
