@@ -8556,10 +8556,16 @@ visible E356 reset into two local owner zones; S015 continues across that image
 change without implying a global pipe network. See
 `sidequest_semantic_b4_station_article_four_hundred_forty_third/FOUR_HUNDRED_FORTY_THIRD_COMPLETE_B4.md`.
 
-Next, attack all fifteen B4 singleton cards. Test graded warmth, follow-item,
-fasten, cloth, opening, continuation, passage, flowing-liquid and collection
-compositions; remove unsupported first/second/lower/warm labels wherever the
-known components supply a simpler concrete instruction.
+Pass 444 derives thirteen of B4's fifteen singleton types. SHEEY becomes long
+hold rather than first opening, CHCKHAL passage site rather than duration,
+LKEDY short outflow rather than second washing, QOCKHEY short passage rather
+than above-site, and SKAR loses invisible warmth. Only TUCH and AUSGUSS remain
+local whole cards; 45 of 47 B4 events transfer or compose. See
+`sidequest_semantic_b4_productive_completion_four_hundred_forty_fourth/FOUR_HUNDRED_FORTY_FOURTH_B4_POCKET_CARD.md`.
+
+Next, finish the two short f83r records B5 and B6 together. Transfer the entire
+B1-B4 union, preserve the B5-to-B6 record reset, read all twenty events, and
+reduce their new cards to the smallest honest local deck.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
