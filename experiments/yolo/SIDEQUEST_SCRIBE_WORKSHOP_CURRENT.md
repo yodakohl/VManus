@@ -8434,9 +8434,17 @@ storage phrase and an invented harvest time. The revised 100-event edition has
 exactly five marked decisions. See
 `sidequest_semantic_herbal_weak_card_tournament_four_hundred_twenty_sixth/FOUR_HUNDRED_TWENTY_SIXTH_REVISED_FIVE_ARTICLES.md`.
 
-Next, attack the second-weakest noun or operation in each Herbal article: H1
-KNOLLE, H2 GLASIERTES GEFÄSS, H3 BLÜTENKRAUT, H4 ABKÜHLEN and H5
-GEBRAUCHSAUSZUG. Separate picture-derived nouns from process-derived ones.
+Pass 427 separates picture nouns from process meanings. KNOLLE and BLÜTENKRAUT
+remain anchored by visible f10r/f11r features; ABKÜHLEN remains supported by
+three other cooling cards. Unseen GLASIERTES GEFÄSS becomes SCHÜSSEL, and the
+redundant product GEBRAUCHSAUSZUG becomes the verb AUSZIEHEN in the clean chain
+ZUTAT→NIMM DIES→AUSZIEHEN→GEBRAUCHEN. See
+`sidequest_semantic_herbal_noun_process_tournament_four_hundred_twenty_seventh/FOUR_HUNDRED_TWENTY_SEVENTH_REVISED_ARTICLES.md`.
+
+Next, reduce the five Herbal articles to a compact operations lexicon. Separate
+productive operations from learned whole verbs and test whether the resulting
+sequence templates predict every operation slot without moving picture nouns
+into the grammar.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
