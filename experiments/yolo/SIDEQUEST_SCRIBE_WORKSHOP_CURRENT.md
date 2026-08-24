@@ -8482,10 +8482,17 @@ the redundant MODERATE QUANTITY to SH+E+CKH+AL=SHORT AT THE PASSAGE SITE,
 between the additive block and two explicit measure settings. See
 `sidequest_semantic_b1_dosing_block_four_hundred_thirty_third/FOUR_HUNDRED_THIRTY_THIRD_FORMULA_CARD.md`.
 
-Next, consolidate every B1 card into a small apprentice dictionary. Separate
-productive components, recurrent whole words and truly pool-local nouns;
-remove any remaining sentence-sized values before transferring the finished
-B1 deck to B2.
+Pass 434 consolidates B1 into a three-drawer apprentice dictionary: 27
+productive compositions covering 48 events, four portable recurrent whole
+cards covering four, and twelve pool-local whole cards covering fourteen.
+All 43 exact cards, 66 events and 21 cells are covered, and no card value is
+longer than five words. See
+`sidequest_semantic_b1_apprentice_dictionary_four_hundred_thirty_fourth/FOUR_HUNDRED_THIRTY_FOURTH_POCKET_MANUAL.md`.
+
+Next, transfer the complete B1 apprentice deck to B2. Keep every shared exact
+card and component value fixed, let f82r supply only new local station nouns,
+and produce a full event/cell/statement reading of B2 before revising any
+portable value.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
