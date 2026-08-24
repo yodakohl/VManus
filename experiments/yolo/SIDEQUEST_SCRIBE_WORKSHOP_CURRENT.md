@@ -7663,8 +7663,17 @@ stations; 32 events remain explicitly unresolved in the real f83r gap, and no
 global flow edge is invented. See
 `sidequest_semantic_bio_station_sequences_three_hundred_eighteenth/THREE_HUNDRED_EIGHTEENTH_COMPLETE_STATION_EDITION.md`.
 
-Next, reconnect the four Herbal articles to the Bio station inventory through
-explicit preparation outputs, without inventing a drawn cross-page pointer.
+Pass 319 corrects the inventory to five Herbal record-articles on four plant
+pages and gives each one a concrete workshop output. The five selected Bio
+entries are: common-pool addition, measure–hold–remeasure, clear-run contact
+and draw-off, measured long target contact, and a follow-on application. The
+H3 clear-sud handoff is the tightest match. These are practical thematic
+handoffs, not drawn cross-page pointers. See
+`sidequest_semantic_herbal_bio_handoff_three_hundred_nineteenth/THREE_HUNDRED_NINETEENTH_INTEGRATED_WORKFLOW.md`.
+
+Next, reduce the shared Herbal-output/Bio-input vocabulary to the smallest
+concrete handoff lexicon and rewrite the five handoffs without sentence-sized
+dictionary values.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
