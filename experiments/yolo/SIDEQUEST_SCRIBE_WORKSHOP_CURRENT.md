@@ -10317,8 +10317,15 @@ state-to-process. All14 state close events are final; CTH itself never closes.
 See
 `sidequest_semantic_process_state_axis_six_hundred_sixty_first/SIX_HUNDRED_SIXTY_FIRST_REPORT.md`.
 
-Next, collapse the11 exact adjacent transitions into six short teaching
-phrases and give each a fluent source reading without inventing new nouns.
+Pass 662 collapses all11 direct process-state transitions into six fluent
+teaching phrases: SET-to-READY x4, SET-to-SETTLE/CLOSE x2,
+READY-to-GRADED-SET x2, and three singleton transitions for
+READY/TRANSFER-to-SET, READY-to-TRANSFER/CLOSE, and WARM-to-CONTINUED-SET. See
+`sidequest_semantic_process_state_phrasebook_six_hundred_sixty_second/SIX_HUNDRED_SIXTY_SECOND_REPORT.md`.
+
+Next, consolidate OK, CHD, SHED, CHK, and CTH into one five-root workshop
+dictionary. Measure exact card/event coverage and inventory the remaining
+whole-card layer without changing any current readings.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
