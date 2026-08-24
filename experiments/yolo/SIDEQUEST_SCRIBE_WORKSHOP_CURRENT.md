@@ -8216,9 +8216,16 @@ item, AIN selects a portion, AIIN binds measure, OR holds preparation identity,
 CHEOAR extracts, TALAM stores and OL continues. See
 `sidequest_semantic_h4_object_flow_three_hundred_ninety_fourth/THREE_HUNDRED_NINETY_FOURTH_CONTINUOUS_H4_ARTICLE.md`.
 
-Next, trace B3-S026 as a visible station flow from basin address through
-settling threshold, portion addition, readiness, clear point and graded
-receiving. Keep movement direction local to the pictured station.
+Pass 395 corrects B3-S026 into a two-station workflow. E285–E290 form one local
+station/state chain through settling, portion, readiness and clear point;
+E291 begins after a visible owner reset at the lower pair and performs graded
+receiving/closure. The grammar continues, but no depicted connection, direction
+or material identity crosses the reset. See
+`sidequest_semantic_b3_two_station_flow_three_hundred_ninety_fifth/THREE_HUNDRED_NINETY_FIFTH_CONTINUOUS_B3_READING.md`.
+
+Next, render B3-S026 as a workshop page with continuous sentence order but an
+explicit owner-reset gap and no connecting arrow. Test whether a reader can
+preserve syntax while starting a new local referent at E291.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
