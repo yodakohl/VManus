@@ -9652,9 +9652,15 @@ measure→route→close; 43 one-off statements remain freely composed from the
 same 37 spoken values. See
 `sidequest_semantic_apprentice_phrasebook_five_hundred_eighty_third/FIVE_HUNDRED_EIGHTY_THIRD_FIFTEEN_APPRENTICE_MACROS.tsv`.
 
-Next, classify the 43 one-off statements by their nearest taught formula and
-absorb simple insertions or owner-specific substitutions as variants, leaving
-only genuinely new action sequences as free compositions.
+Pass 584 compares the 43 one-offs to those formulas. Twenty-one are one-edit
+variants, ten are two-edit extensions, and only twelve require free
+composition. Thus fifteen formulas plus sixteen small insertion/substitution
+rules directly cover 94/116 statements. See
+`sidequest_semantic_formula_variant_absorption_five_hundred_eighty_fourth/FIVE_HUNDRED_EIGHTY_FOURTH_REVISED_ONE_HUNDRED_SIXTEEN_FORMULA_MAP.tsv`.
+
+Next, write the twelve genuinely free statements as complete master examples
+and decide whether they reveal two or three useful new formulas or remain
+deliberately article-/station-specific long instructions.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
