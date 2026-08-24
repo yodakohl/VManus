@@ -9308,8 +9308,16 @@ olaiin/qolaiin, okeeey/qokeeey, sheeedy/dsheeedy/tsheeedy and
 solkedy/olkedy. See
 `sidequest_semantic_predicted_surface_renderer_five_hundred_fortieth/FIVE_HUNDRED_FORTIETH_REPORT.md`.
 
-Next, compile grammar, component deck, three whole cards and renderer rules into
-a short executable 1420 workshop manual and use it for new sample instructions.
+Pass 541 compiles an executable eighteen-rule apprentice manual with 38 taught
+components (31 productive, seven learned atoms), three whole cards and the nine
+renderer families. Twelve new instructions containing 34 cards write and read
+back exactly; six use attested cards only and six use at least one predicted
+composition. The workflow is image owner -> component cards -> grade/endpoint
+-> licensed wrapper -> reverse readback. See
+`sidequest_semantic_executable_workshop_manual_five_hundred_forty_first/FIVE_HUNDRED_FORTY_FIRST_REPORT.md`.
+
+Next, expand the twelve instructions under the two surviving book purposes and
+compare which purpose requires fewer silent content insertions.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
