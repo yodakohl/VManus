@@ -7745,8 +7745,15 @@ Folgeposten, not retained flowers. `chety/chty=Zerkleinern` returns to the
 whole-card class, leaving 157 productive and 16 memorized cards. See
 `sidequest_semantic_herbal_formula_repair_three_hundred_twenty_ninth/THREE_HUNDRED_TWENTY_NINTH_REPAIRED_HERBAL_CHAINS.md`.
 
-Next, expand the nineteen repaired Herbal chains into five continuous articles
-using only card meaning, visible plant owner and active record reference.
+Pass 330 expands all 100 Herbal events and 19 statements into five continuous
+articles using only card value, visible plant owner, active record and German
+grammar. H1 ends in Kurzrest, H2 in a Zutatsollmaß, H3 remains a real standing/
+straining/Klarauszug process without wine, H4 is divided and later warmed
+rather than cooled, and H5 is a binding/application chain. See
+`sidequest_semantic_repaired_herbal_edition_three_hundred_thirtieth/THREE_HUNDRED_THIRTIETH_COMPLETE_HERBAL_EDITION.md`.
+
+Next, rebuild the five Herbal-to-Bio handoffs from these repaired outputs and
+drop any station match that depended on cooling, free washing or K-as-straining.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
