@@ -10337,9 +10337,14 @@ transfer;0 OR events close. The expanded dictionary covers66 cards/175 events.
 See
 `sidequest_semantic_or_preparation_noun_six_hundred_sixty_fourth/SIX_HUNDRED_SIXTY_FOURTH_REPORT.md`.
 
-Next, reduce CKH to the single technical noun PASSAGE. Compose its active,
-target, forwarding, holding, short-grade, and close forms without a long
-filter-channel gloss.
+Pass 665 reduces all9 CKH cards/14 events to the one-word noun PASSAGE. Its9
+recipes add target, holding, forwarding, work, short/long grade, and endpoint.
+Core CKH+Y occurs4 times;5 close events are all final. No filter, pipe, or flow
+direction is stored in the root. Expanded coverage is75 cards/189 events. See
+`sidequest_semantic_ckh_passage_noun_six_hundred_sixty_fifth/SIX_HUNDRED_SIXTY_FIFTH_REPORT.md`.
+
+Next, close SOLK as the verb COLLECT/CATCH in its zero-short-long grade,
+active/closed endpoint, and prescribed-measure cells.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
