@@ -9928,9 +9928,17 @@ The revision touches 62 cards, 76 events, and 47 statements while preserving
 39 words/163 commands/173 cards/381 events. See
 `sidequest_semantic_backread_verb_repair_six_hundred_sixteenth/SIX_HUNDRED_SIXTEENTH_REPORT.md`.
 
-Next, sharpen the remaining easily confused noun/address drawers: LAUF versus
-DURCHLASS, ZIEL versus FACH, DIES versus GABE, and MASS versus PORTION,
-NACHPORTION, and STUFE.
+Pass 617 sharpens ten noun/address cues: AIR=FLUESSIGKEITSLAUF,
+CKH=DURCHLASSKANAL, AR=VORRAT, AL=ZIELSTELLE, OS=ARBEITSFACH,
+Y=ARBEITSPOSTEN, HO=ZUTAT, AIIN=SOLLMASS, IIN=ARBEITSSTUFE, and
+DA=ZWEITMARKER. AIN=PORTION and AN=NACHPORTION remain unchanged. The revision
+touches 108 cards, 228 events, and 75 statements while retaining the same
+39-word/163-command inventory. See
+`sidequest_semantic_backread_noun_repair_six_hundred_seventeenth/SIX_HUNDRED_SEVENTEENTH_REPORT.md`.
+
+Next, regenerate the fluent eleven-record edition from these sharper cues.
+Concrete water, wine, oil, plant, body, or apparatus words may enter only from
+the active picture/case, never silently from AIR, O, HO, or another component.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
