@@ -8852,10 +8852,19 @@ image or whole-card receiver, 23 require no directional/quantity slot, and only
 expansion names the provenance of each supplied slot. See
 `sidequest_semantic_ellipsis_matrix_four_hundred_eighty_second/FOUR_HUNDRED_EIGHTY_SECOND_REPORT.md`.
 
-Next, collapse statements with the same phase chain and the same four-slot
-supply pattern into form classes. Give each frequent class one short apprentice
-rule and list its concrete fills; quantify how many of 116 statements can be
-written from that small form deck versus copied locally.
+Pass 483 collapses statements with the same phase chain and four-slot supply
+pattern. Seven recurrent form cards cover 51/116 statements, all in Biological;
+the largest is HOLD→CLOSE with no new directional or quantity slot (23). Eight
+recurrent phase skeletons cover 64 statements. Herbal has no repeated complete
+form signature, although its articles reuse the nine smaller cross-register
+motifs from Pass 477. The emerging system is therefore a shared component
+grammar plus short Bio forms and locally composed Herbal clauses. See
+`sidequest_semantic_form_classes_four_hundred_eighty_third/FOUR_HUNDRED_EIGHTY_THIRD_REPORT.md`.
+
+Next, integrate the 35 components, 38 owner classes, nine sentence motifs,
+seven Bio form cards, 65 local forms and Astro LOCATE→READ→RECORD rule into one
+hierarchical workshop manual. Run it forward across all 776 groups and state
+honestly how much must still be learned from local exemplars.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these

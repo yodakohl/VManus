@@ -1,0 +1,8 @@
+form_class_id	phase_chain	source_supply	quantity_supply	path_supply	target_supply	statements	herbal_statements	biological_statements	records	statement_ids	apprentice_rule_de
+F01	HOLD>CLOSE	NOT_REQUIRED	NOT_REQUIRED	NOT_REQUIRED	NOT_REQUIRED	23	0	23	4	B1-S001|B1-S009|B1-S010|B1-S013|B1-S019|B1-S020|B2-S007|B2-S009|B2-S015|B2-S018|B2-S019|B2-S020|B2-S021|B3-S017|B3-S018|B3-S019|B3-S027|B3-S028|B3-S031|B4-S001|B4-S006|B4-S007|B4-S009	Führe den örtlich bestimmten Halteschritt aus und schließe die Zelle.
+F02	MOVE>CLOSE	RECORD_INHERITED	NOT_REQUIRED	RECORD_INHERITED	OWNER_VISIBLE	7	0	7	2	B3-S015|B3-S016|B3-S022|B3-S023|B3-S024|B3-S025|B4-S012	Führe den laufenden Bestand auf dem bisherigen Weg zur sichtbaren Station und schließe.
+F03	MEASURE>HOLD>CLOSE	NOT_REQUIRED	EXPLICIT	NOT_REQUIRED	NOT_REQUIRED	6	0	6	3	B2-S003|B2-S011|B3-S013|B3-S032|B4-S005|B4-S008	Setze den ausgeschriebenen Wert, halte den laufenden Posten entsprechend und schließe.
+F04	MOVE>CLOSE	RECORD_INHERITED	NOT_REQUIRED	OWNER_VISIBLE	OWNER_VISIBLE	6	0	6	3	B1-S005|B1-S007|B2-S002|B2-S013|B2-S022|B3-S033	Führe den laufenden Bestand über den sichtbaren Lauf zur sichtbaren Station und schließe.
+F05	PREPARE>HOLD>CLOSE	RECORD_INHERITED	NOT_REQUIRED	NOT_REQUIRED	NOT_REQUIRED	5	0	5	3	B1-S003|B1-S012|B3-S012|B3-S029|B4-S013	Bearbeite den übernommenen Bestand, halte ihn bis zum örtlichen Zustand und schließe.
+F06	MOVE>CLOSE	OWNER_VISIBLE	NOT_REQUIRED	LOCAL_EXEMPLAR	OWNER_VISIBLE	2	0	2	2	B3-S005|B5-S001	Führe den gesetzten Bestand über den lokal gelernten Weg zur sichtbaren Station und schließe.
+F07	MOVE>CLOSE	RECORD_INHERITED	NOT_REQUIRED	LOCAL_EXEMPLAR	OWNER_VISIBLE	2	0	2	2	B3-S008|B5-S002	Führe den gesetzten Bestand über den lokal gelernten Weg zur sichtbaren Station und schließe.
