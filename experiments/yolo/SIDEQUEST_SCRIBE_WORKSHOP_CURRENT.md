@@ -8671,10 +8671,18 @@ recovered with eleven alias rules and no restored cloth, warm or raw meaning.
 See
 `sidequest_semantic_final_reverse_writer_four_hundred_fifty_ninth/FOUR_HUNDRED_FIFTY_NINTH_COMPACT_WRITER.md`.
 
-Next, typeset one current seven-page prose edition from the final 173-card
-dictionary: five Herbal articles plus twenty-four Biological procedures. Keep
-all 116 statement boundaries, all visible owner changes and all 381 events;
-remove every superseded reading from the displayed text.
+Pass 460 typesets the current seven-page prose edition: five Herbal articles,
+twenty-four Biological procedures, 116 statements, 381 events and all seven
+visible Biological scene changes. Eight affected statements are rewritten;
+the displayed text contains none of the superseded same, cloth, warm or raw
+readings. See
+`sidequest_semantic_current_prose_edition_four_hundred_sixtieth/FOUR_HUNDRED_SIXTIETH_CURRENT_SEVEN_PAGE_PROSE.md`.
+
+Next, return to the three fixed Astro pages. Compare all 395 local groups with
+the final thirty-five prose components by exact visible card or unambiguous
+component sequence. Preserve every Astro namespace and do not force a prose
+meaning where only a diagram-local label exists. Produce a three-instrument
+reading showing exactly what transfers and what remains a local name.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
