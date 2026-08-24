@@ -9366,9 +9366,18 @@ formula “continue the same item under the set measure,” not an equal-amount
 claim. Ten other pairings remain useful idioms but do not yet compress. See
 `sidequest_semantic_recurrent_workshop_formulas_five_hundred_forty_seventh/FIVE_HUNDRED_FORTY_SEVENTH_REPORT.md`.
 
-Next, rewrite the eleven articles with the five learned formulas and ten
-observed idioms, then inspect which formerly mechanical clauses become genuine
-workshop phrases and which remain awkward.
+Pass 548 applies all fifteen recurrent sequences greedily in the eleven
+articles. Twenty-eight formula applications turn 380 source positions into 350
+spoken units while preserving all 381 visible events. Forty-one of 97
+instructions are now compact; twenty-seven retain repeated operations, twenty
+retain generic work verbs and nine cross a visible owner boundary. Bare Y,
+AIIN, AL, OR, AR and OL now behave as arguments or modifiers rather than six
+invented full verbs. See
+`sidequest_semantic_formula_revised_articles_five_hundred_forty_eighth/FIVE_HUNDRED_FORTY_EIGHTH_REPORT.md`.
+
+Next, attack the highest-frequency awkward cards as a single grammatical
+problem: decide which are true actions and which merely supply item, measure,
+place, source, preparation or continuation to the neighbouring action.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
