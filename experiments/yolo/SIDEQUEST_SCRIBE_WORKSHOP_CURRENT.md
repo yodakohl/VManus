@@ -9733,9 +9733,16 @@ universal positional renderer. Seventeen recurrent cards stay fixed and 122
 one-off forms are copied from the exemplar. See
 `sidequest_semantic_scribe_surface_palettes_five_hundred_ninety_fourth/FIVE_HUNDRED_NINETY_FOURTH_REPORT.md`.
 
-Next, give each of the 34 palettes a practical local preference—entry, middle,
-only/close, or free choice—while explicitly leaving unresolved choices to the
-card exemplar rather than inventing a universal wrapper grammar.
+Pass 595 turns the 34 palettes into an exact writing routine. Of 381 Prose
+events, 314 use the card's default surface, eight use an immediate context
+switch, 32 a learned formula cadence, and 27 one of nine short record melodies.
+All 381 surfaces are produced with zero free choices and no meaning change;
+the local overhead is only nine melodies/22 slots. See
+`sidequest_semantic_surface_preference_manual_five_hundred_ninety_fifth/FIVE_HUNDRED_NINETY_FIFTH_REPORT.md`.
+
+Next, interleave meaning, card identity, exact surface, and record melody into
+a facsimile-near teaching edition for all eleven Prose records, then attach the
+three Astro copy registers without importing Prose meanings.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
