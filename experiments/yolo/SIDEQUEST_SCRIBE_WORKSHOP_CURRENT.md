@@ -8392,9 +8392,16 @@ uses supplied by the visible owner. Synonymy remains the rival and CH is not
 promoted to a free stem. See
 `sidequest_semantic_oky_okchy_four_hundred_twentieth/FOUR_HUNDRED_TWENTIETH_POCKET_RULE.md`.
 
-Next, rebuild the complete H5 plant article with NIMM versus VERWENDE plus the
-current ZUTAT, AUSZUG, ABSEIHEN and WASCHEN cards. Use every H5 event and remove
-any remaining sentence-sized or contradictory gloss.
+Pass 421 rebuilds all 27 H5 events as six short plant-preparation/application
+steps: ingredient batch and flowering measure; place/use; wash/apply; herb
+grind/restart; extract/strain; use and measure each dose. The old dry-cough
+indication is removed from SOTODAN, which now says only GEBRAUCHEN. See
+`sidequest_semantic_h5_complete_article_four_hundred_twenty_first/FOUR_HUNDRED_TWENTY_FIRST_COMPLETE_H5.md`.
+
+Next, rebuild all H4 events on the same mixed grammar. Compare its portion,
+cloth, squeeze, settle, re-strain, store and preparation sequence to H5 and
+decide whether their common source class is medicine or general plant-material
+processing.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
