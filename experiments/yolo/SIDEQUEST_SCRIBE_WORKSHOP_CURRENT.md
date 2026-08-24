@@ -9167,8 +9167,16 @@ movements rather than 53 whole-form pairs; the stamps carry no added semantic
 value. The 38 locus-table loads remain, with 343 automatic cards. See
 `sidequest_semantic_wrapper_stamps_five_hundred_twenty_second/FIVE_HUNDRED_TWENTY_SECOND_REPORT.md`.
 
-Next, predict wrapper-stamp choice from position, register, neighbour and
-automaton state, retaining only genuinely irregular local assignments.
+Pass 523 finds exactly four repeated zero-conflict context rules: qokain loses q
+after HOLD, chor becomes or before chey, medial cheey becomes shey, and
+locus-final char becomes dar. They automate eight special events. The remaining
+59 assignments do not share another honest short context rule and stay local.
+Four locus tables disappear, leaving 34 conscious loads and 347 automatic
+cards. See
+`sidequest_semantic_context_wrapper_rules_five_hundred_twenty_third/FIVE_HUNDRED_TWENTY_THIRD_REPORT.md`.
+
+Next, organize the 34 residual locus tables into record-level renderer sheets
+so a scribe can load one sheet per record without copying regular surfaces.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
