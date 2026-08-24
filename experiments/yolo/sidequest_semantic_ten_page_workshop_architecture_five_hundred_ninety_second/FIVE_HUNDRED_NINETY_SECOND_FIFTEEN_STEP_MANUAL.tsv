@@ -1,0 +1,16 @@
+step	operation	instruction_de	output
+1	DRAW_OWNER	Bild und lokale Raumaufteilung zuerst anlegen	sichtbarer Besitzer/Instrumentplatz
+2	DECLARE_SECTION	Herbal, Biological oder Astro ausrufen	richtige Leseschicht
+3	HERBAL_OWNER	bei Herbal die abgebildete Pflanze als stummes Thema aktivieren	WHAT
+4	HERBAL_COMPOSE	37 kurze Werkstattwerte zu Stoff-/Zubereitungsaussagen zusammensetzen	offener Artikel
+5	BIO_OWNER	bei Biological die kleinste sichtbare Figur/Becken/Station aktivieren	HOW/WHERE
+6	BIO_COMPOSE	dieselbe Werkstattgrammatik mit lokalem Stationsbesitzer lesen	lokale Arbeitszelle
+7	CLOSE_LOCAL	eine gelernte Schlusskonstruktion beendet nur ihre Zelle	kein globales Zeilenende
+8	MEMORY_HANDOFF	Stoff oder Ansatz nur dann zwischen Registern tragen, wenn der Meister ihn nennt	keine geschriebene Eins-zu-eins-Paarung
+9	ASTRO_OPTION	Himmelsanhang nur aufrufen, wenn eine Bedingung verlangt ist	CONDITION/REFERENCE
+10	ASTRO_NAMESPACE	Seite, Rad/Paneel und lokalen Bildplatz zeigen	einer von 13 Namensraeumen
+11	ASTRO_COPY	vollstaendige lokale Etikette in Quellordnung lesen	keine Prosa-Komposition
+12	ASTRO_LOOKUP	konkreten Wert nur aus diesem lokalen Meisterexemplar holen	optionale Himmelsbedingung
+13	RESET_ASTRO	bei Rad-, Paneel- oder Seitenwechsel alle Astro-Schluessel loeschen	kein f68-f69-Join
+14	NO_ORIENTATION	editorische Reihenfolge nicht als Kreisrichtung lesen	kein Start/keine Rotation
+15	CORRECT	Oberflaeche, Besitzer, Komposition und lokalen Abschluss getrennt pruefen	mehrschreiberfaehige Ruecklesung

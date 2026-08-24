@@ -9708,10 +9708,18 @@ handoff. An independent celestial teaching/memory atlas therefore remains
 equally live. See
 `sidequest_semantic_astro_condition_interface_five_hundred_ninety_first/FIVE_HUNDRED_NINETY_FIRST_REPORT.md`.
 
-Next, reset the full ten-page architecture as WHAT (Herbal), HOW/WHERE
-(Biological), and optional CONDITION/REFERENCE (Astro), preserving the full
-381+395 visible inventory and making the absence of explicit cross-register
-pointers part of the workshop design rather than silently filling them in.
+Pass 592 resets all ten pages as one workshop with two reading machines. The
+381 Herbal/Biological events use the shared 37-value compositional grammar:
+Herbal supplies WHAT, Biological HOW/WHERE. The 395 Astro groups instead form
+142 locally learned labels in thirteen namespaces and can optionally supply a
+CONDITION/REFERENCE. The unified 776-row edition has no empty function and no
+written cross-register pointer. See
+`sidequest_semantic_ten_page_workshop_architecture_five_hundred_ninety_second/FIVE_HUNDRED_NINETY_SECOND_REPORT.md`.
+
+Next, assign plausible jobs to several c.1420 workshop hands—image layout,
+prose composition, Astro-label copying, local closure, and correction—and test
+whether the two-machine system remains simple enough to teach without a modern
+decoder manual.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
