@@ -1,0 +1,5 @@
+variant	surface_strip	backread_card_strip	all_surfaces_known	exact_card_sequence_preserved	exact_card_multiset_preserved	command_sequence_preserved	error_class	master_diagnosis_de	correction_action	cards_changed	positions_changed
+MASTER	qokaiin qokal cfhy cphy tshey shedy	PROC038|PROC048|PROC028|PROC030|PROC122|PROC078	YES	YES	YES	YES	NONE	NONE	ACCEPT	0	0
+HARMLESS_ALLOGRAPH	okaiin qokal cfhy cphy tshey shedy	PROC038|PROC048|PROC028|PROC030|PROC122|PROC078	YES	YES	YES	YES	SURFACE_ONLY_ALLOGRAPHY	same exact card PROC038 written with its licensed unframed surface	ACCEPT_ALLOGRAPH	0	1
+WRONG_CARD_LOOKALIKE	qokaiin qokal cfhy cphy shey shedy	PROC038|PROC048|PROC028|PROC030|PROC031|PROC078	YES	NO	NO	NO	EXACT_CARD_SUBSTITUTION	SHEY backreads to PROC031 long hold, not PROC122 short hold	RESTORE_EXPECTED_CARD	1	1
+WRONG_PROCESS_ORDER	qokaiin qokal cphy cfhy tshey shedy	PROC038|PROC048|PROC030|PROC028|PROC122|PROC078	YES	NO	YES	NO	PROCESS_ORDER_ERROR	fill card precedes wring card although both card identities survive	RESTORE_CARD_ORDER	2	2

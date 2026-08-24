@@ -10153,9 +10153,17 @@ desk-attested, six are necessary single-surface borrowings, and only the
 preparation close uses a global licensed fallback. See
 `sidequest_semantic_three_desk_allography_six_hundred_fortieth/SIX_HUNDRED_FORTIETH_REPORT.md`.
 
-Next, contrast a harmless licensed allograph, a look-alike that changes exact
-card identity, and a correct card placed in the wrong process position. Teach
-the apprentice to classify surface, card, and order errors separately.
+Pass 641 separates three error levels on the same strip. `okaiin` for
+`qokaiin` preserves PROC038 and is accepted as allography. `shey` for `tshey`
+changes PROC122 short hold to PROC031 long hold and must be replaced. Swapping
+`cfhy/cphy` preserves the card multiset but reverses wring/fill and must be
+reordered. Thus the handbook now assigns distinct actions to surface, card,
+and process-order differences. See
+`sidequest_semantic_error_taxonomy_six_hundred_forty_first/SIX_HUNDRED_FORTY_FIRST_REPORT.md`.
+
+Next, place a harmless foreign-hand allograph, one wrong card, and one order
+error into a single apprentice strip. Correct only the latter two and preserve
+the harmless foreign hand instead of normalizing everything to the master.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
