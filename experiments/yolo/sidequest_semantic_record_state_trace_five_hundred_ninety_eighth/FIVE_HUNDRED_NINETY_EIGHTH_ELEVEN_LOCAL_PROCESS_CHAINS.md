@@ -1,0 +1,382 @@
+# Fuenfhundertachtundneunzigste Runde: elf lokale Prozessketten
+
+## H1 · f10r
+
+- **H1-S001 · RECORD_INITIALIZE · H1:OWNER_01**
+  - Nimm von der abgebildeten Pflanze einen Teil kurz ab. Der Ansatz ist bereit: übertrage davon in das Arbeitsfach, lass es ablaufen, trage es ein, nimm es wieder ab, gib es in den Ansatz und trage es nach Maß ein.
+  - Zustand: `UNSET` -> `H1:OWNER_01::ACTIVE_ITEM_AVAILABLE`
+- **H1-S002 · EXPLICIT_LOCAL_CONTINUATION · H1:OWNER_01**
+  - Gib den nächsten Posten in denselben Ansatz, nimm ihn wieder ab und fahre fort, sobald er bereit ist.
+  - Zustand: `H1:OWNER_01::ACTIVE_LOCAL_MATERIAL` -> `H1:OWNER_01::ACTIVE_ITEM_AVAILABLE`
+
+## H2 · f10r
+
+- **H2-S001 · RECORD_INITIALIZE · H2:OWNER_01**
+  - Zieh den bereitgelegten Posten ab; ordne ihn dem Ansatz und dem Maß zu und führe den Gang mit diesem Posten weiter, bis er bereit ist.
+  - Zustand: `UNSET` -> `H2:OWNER_01::ACTIVE_ITEM_AVAILABLE`
+- **H2-S002 · EXPLICIT_LOCAL_CONTINUATION · H2:OWNER_01**
+  - Zieh danach vom fortgeführten Ansatz nach Maß davon ab und führe denselben Ansatz weiter.
+  - Zustand: `H2:OWNER_01::ACTIVE_LOCAL_MATERIAL` -> `H2:OWNER_01::ACTIVE_ITEM_AVAILABLE`
+- **H2-S003 · CURRENT_ITEM_CONTINUATION · H2:OWNER_01**
+  - Gib es dem Ansatz zweimal zu und zieh danach den nächsten Posten ab.
+  - Zustand: `H2:OWNER_01::CURRENT_ITEM` -> `H2:OWNER_01::ACTIVE_ITEM_AVAILABLE`
+
+## H3 · f11r
+
+- **H3-S001 · RECORD_INITIALIZE · H3:OWNER_01**
+  - Trage den Blütenstoff ein und halte ihn am Ort; wringe ihn aus, lass ihn ziehen, gib ihn hinein, lass ihn nochmals ziehen und trage den Abzug zum Schluss ein.
+  - Zustand: `UNSET` -> `H3:OWNER_01::ACTIVE_ITEM_AVAILABLE`
+- **H3-S002 · CURRENT_ITEM_CONTINUATION · H3:OWNER_01**
+  - Halte den nächsten Posten und trage ihn in denselben Gang ein.
+  - Zustand: `H3:OWNER_01::CURRENT_ITEM` -> `H3:OWNER_01::ACTIVE_ITEM_AVAILABLE`
+- **H3-S003 · EXPLICIT_LOCAL_CONTINUATION · H3:OWNER_01**
+  - Gib davon nach Maß weiter zu.
+  - Zustand: `H3:OWNER_01::ACTIVE_LOCAL_MATERIAL` -> `H3:OWNER_01::ACTIVE_ITEM_AVAILABLE`
+- **H3-S004 · EXPLICIT_LOCAL_CONTINUATION · H3:OWNER_01**
+  - Setze danach diesen Posten weiter ein und führe ihn fort, bis er bereit ist.
+  - Zustand: `H3:OWNER_01::ACTIVE_LOCAL_MATERIAL` -> `H3:OWNER_01::ACTIVE_ITEM_AVAILABLE`
+
+## H4 · f55v
+
+- **H4-S001 · RECORD_INITIALIZE · H4:OWNER_01**
+  - Setze nach Maß an, gib dosiert und nochmals zu und schließe diesen Gang.
+  - Zustand: `UNSET` -> `H4:OWNER_01::ACTIVE_ITEM_AVAILABLE`
+- **H4-S002 · CURRENT_ITEM_CONTINUATION · H4:OWNER_01**
+  - Miss den nächsten Posten ab, setze ihn um und verwahre ihn nach Maß.
+  - Zustand: `H4:OWNER_01::CURRENT_ITEM` -> `H4:OWNER_01::ACTIVE_ITEM_AVAILABLE`
+- **H4-S003 · EXPLICIT_LOCAL_CONTINUATION · H4:OWNER_01**
+  - Gib dosiert zu, entnimm den Fortsatz, temperiere ihn und schließe.
+  - Zustand: `H4:OWNER_01::ACTIVE_LOCAL_MATERIAL` -> `H4:OWNER_01::ACTIVE_ITEM_AVAILABLE`
+- **H4-S004 · EXPLICIT_LOCAL_CONTINUATION · H4:OWNER_01**
+  - Lege die gemessene Ansatzportion am Ziel an und trage sie ein.
+  - Zustand: `H4:OWNER_01::ACTIVE_LOCAL_MATERIAL` -> `H4:OWNER_01::ACTIVE_ITEM_AVAILABLE`
+
+## H5 · f56r
+
+- **H5-S001 · RECORD_INITIALIZE · H5:OWNER_01**
+  - Zieh eine Gabe ab, führe sie zum Ziel, zieh nach Maß eine weitere Gabe ab und gib sie in den Ansatz.
+  - Zustand: `UNSET` -> `H5:OWNER_01::ACTIVE_ITEM_AVAILABLE`
+- **H5-S002 · EXPLICIT_LOCAL_CONTINUATION · H5:OWNER_01**
+  - Lege die folgende Gabe an, lass sie ablaufen und fahre fort.
+  - Zustand: `H5:OWNER_01::ACTIVE_LOCAL_MATERIAL` -> `H5:OWNER_01::ACTIVE_ITEM_AVAILABLE`
+- **H5-S003 · CURRENT_ITEM_CONTINUATION · H5:OWNER_01**
+  - Lass die Gabe ziehen, gib sie zu und setze sie zweimal ein.
+  - Zustand: `H5:OWNER_01::CURRENT_ITEM` -> `H5:OWNER_01::ACTIVE_ITEM_AVAILABLE`
+- **H5-S004 · CURRENT_ITEM_CONTINUATION · H5:OWNER_01**
+  - Gib den nächsten Posten in den Ansatz, setze ihn an, zieh ihn ab und führe ihn weiter.
+  - Zustand: `H5:OWNER_01::CURRENT_ITEM` -> `H5:OWNER_01::ACTIVE_ITEM_AVAILABLE`
+- **H5-S005 · EXPLICIT_LOCAL_CONTINUATION · H5:OWNER_01**
+  - Setze die Gabe an, gib sie zu und ordne danach die nächste Portion in den Gang.
+  - Zustand: `H5:OWNER_01::ACTIVE_LOCAL_MATERIAL` -> `H5:OWNER_01::ACTIVE_ITEM_AVAILABLE`
+- **H5-S006 · EXPLICIT_LOCAL_CONTINUATION · H5:OWNER_01**
+  - Gib danach diesen Posten nach Maß zu.
+  - Zustand: `H5:OWNER_01::ACTIVE_LOCAL_MATERIAL` -> `H5:OWNER_01::ACTIVE_ITEM_AVAILABLE`
+
+## B1 · f81v
+
+- **B1-S001 · RECORD_INITIALIZE · B1:OWNER_01**
+  - Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: einwirken lassen.
+  - Zustand: `UNSET` -> `B1:OWNER_01::LOCAL_CELL_COMMITTED`
+- **B1-S002 · EXPLICIT_LOCAL_CONTINUATION · B1:OWNER_01**
+  - Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: setze nach Maß an → einspeisen → anlegen → dosiert zugeben → dosiert zugeben → abkühlen lassen → führen → zurückhalten → anlegen → durchleiten. Angaben: davon | fort | Ziel | fort | fort · Ansatz | fort | Maß | Maß | Durchlass · dies.
+  - Zustand: `B1:OWNER_01::ACTIVE_LOCAL_MATERIAL` -> `B1:OWNER_01::LOCAL_CELL_COMMITTED`
+- **B1-S003 · EXPLICIT_LOCAL_CONTINUATION · B1:OWNER_01**
+  - Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: halten + zugeben + überführen. Angaben: fort.
+  - Zustand: `B1:OWNER_01::ACTIVE_LOCAL_MATERIAL` -> `B1:OWNER_01::LOCAL_CELL_COMMITTED`
+- **B1-S004 · EXPLICIT_LOCAL_CONTINUATION · B1:OWNER_01**
+  - Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: umschöpfen → absetzen lassen. Angaben: fort.
+  - Zustand: `B1:OWNER_01::ACTIVE_LOCAL_MATERIAL` -> `B1:OWNER_01::LOCAL_CELL_COMMITTED`
+- **B1-S005 · EXPLICIT_LOCAL_CONTINUATION · B1:OWNER_01**
+  - Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: führe zur nächsten Station.
+  - Zustand: `B1:OWNER_01::ACTIVE_LOCAL_MATERIAL` -> `B1:OWNER_01::LOCAL_CELL_COMMITTED`
+- **B1-S006 · CURRENT_ITEM_CONTINUATION · B1:OWNER_01**
+  - Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: gib einen Teil hinein → durchleiten → abkühlen lassen. Angaben: Durchlass · dies.
+  - Zustand: `B1:OWNER_01::CURRENT_ITEM` -> `B1:OWNER_01::ACTIVE_ITEM_AVAILABLE`
+- **B1-S007 · SAME_OWNER_UNSPECIFIED_STEP · B1:OWNER_01**
+  - Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: einsetzen + überführen.
+  - Zustand: `B1:OWNER_01::OWNER_ACTIVE_ITEM_UNSPECIFIED` -> `B1:OWNER_01::LOCAL_CELL_COMMITTED`
+- **B1-S008 · EXPLICIT_LOCAL_CONTINUATION · B1:OWNER_01**
+  - Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: warm halten → absetzen lassen. Angaben: dies | fort | fort.
+  - Zustand: `B1:OWNER_01::ACTIVE_LOCAL_MATERIAL` -> `B1:OWNER_01::LOCAL_CELL_COMMITTED`
+- **B1-S009 · SAME_OWNER_UNSPECIFIED_STEP · B1:OWNER_01**
+  - Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: einwirken lassen.
+  - Zustand: `B1:OWNER_01::OWNER_ACTIVE_ITEM_UNSPECIFIED` -> `B1:OWNER_01::LOCAL_CELL_COMMITTED`
+- **B1-S010 · SAME_OWNER_UNSPECIFIED_STEP · B1:OWNER_01**
+  - Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: einwirken lassen.
+  - Zustand: `B1:OWNER_01::OWNER_ACTIVE_ITEM_UNSPECIFIED` -> `B1:OWNER_01::LOCAL_CELL_COMMITTED`
+- **B1-S011 · CURRENT_ITEM_CONTINUATION · B1:OWNER_01**
+  - Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: einleiten. Angaben: Durchlass · dies.
+  - Zustand: `B1:OWNER_01::CURRENT_ITEM` -> `B1:OWNER_01::ACTIVE_ITEM_AVAILABLE`
+- **B1-S012 · CURRENT_ITEM_CONTINUATION · B1:OWNER_01**
+  - Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: waschen → wirken lassen → durchwaschen.
+  - Zustand: `B1:OWNER_01::CURRENT_ITEM` -> `B1:OWNER_01::LOCAL_CELL_COMMITTED`
+- **B1-S013 · SAME_OWNER_UNSPECIFIED_STEP · B1:OWNER_01**
+  - Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: durchwaschen.
+  - Zustand: `B1:OWNER_01::OWNER_ACTIVE_ITEM_UNSPECIFIED` -> `B1:OWNER_01::LOCAL_CELL_COMMITTED`
+- **B1-S014 · EXPLICIT_LOCAL_CONTINUATION · B1:OWNER_01**
+  - Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: umschöpfen → auffangen → hinleiten + umfüllen. Angaben: fort | danach · davon.
+  - Zustand: `B1:OWNER_01::ACTIVE_LOCAL_MATERIAL` -> `B1:OWNER_01::ACTIVE_ITEM_AVAILABLE`
+- **B1-S015 · CURRENT_ITEM_CONTINUATION · B1:OWNER_01**
+  - Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: übertragen → einsetzen + überführen.
+  - Zustand: `B1:OWNER_01::CURRENT_ITEM` -> `B1:OWNER_01::LOCAL_CELL_COMMITTED`
+- **B1-S016 · EXPLICIT_LOCAL_CONTINUATION · B1:OWNER_01**
+  - Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: anlegen → wirken lassen → absetzen lassen. Angaben: fort.
+  - Zustand: `B1:OWNER_01::ACTIVE_LOCAL_MATERIAL` -> `B1:OWNER_01::LOCAL_CELL_COMMITTED`
+- **B1-S017 · EXPLICIT_LOCAL_CONTINUATION · B1:OWNER_01**
+  - Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: umfüllen. Angaben: Ziel | kurz · fort.
+  - Zustand: `B1:OWNER_01::ACTIVE_LOCAL_MATERIAL` -> `B1:OWNER_01::LOCAL_CELL_COMMITTED`
+- **B1-S018 · EXPLICIT_LOCAL_CONTINUATION · B1:OWNER_01**
+  - Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: führen → stehen lassen → auffangen und stehen lassen. Angaben: Gang · Sollstufe.
+  - Zustand: `B1:OWNER_01::ACTIVE_LOCAL_MATERIAL` -> `B1:OWNER_01::LOCAL_CELL_COMMITTED`
+- **B1-S019 · SAME_OWNER_UNSPECIFIED_STEP · B1:OWNER_01**
+  - Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: absetzen lassen.
+  - Zustand: `B1:OWNER_01::OWNER_ACTIVE_ITEM_UNSPECIFIED` -> `B1:OWNER_01::LOCAL_CELL_COMMITTED`
+- **B1-S020 · CURRENT_ITEM_CONTINUATION · B1:OWNER_01**
+  - Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: warm halten → zurückhalten.
+  - Zustand: `B1:OWNER_01::CURRENT_ITEM` -> `B1:OWNER_01::LOCAL_CELL_COMMITTED`
+- **B1-S021 · SAME_OWNER_UNSPECIFIED_STEP · B1:OWNER_01**
+  - Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: setze nur die Angaben. Angaben: Ziel.
+  - Zustand: `B1:OWNER_01::OWNER_ACTIVE_ITEM_UNSPECIFIED` -> `B1:OWNER_01::ACTIVE_ITEM_AVAILABLE`
+
+## B2 · f82r
+
+- **B2-S001 · RECORD_INITIALIZE · B2:OWNER_01**
+  - Bildort: oberes Beckenpaar mit Zylinder. Arbeitsfolge: führe zur nächsten Station.
+  - Zustand: `UNSET` -> `B2:OWNER_01::LOCAL_CELL_COMMITTED`
+- **B2-S002 · EXPLICIT_LOCAL_CONTINUATION · B2:OWNER_01**
+  - Bildort: oberes Beckenpaar mit Zylinder. Arbeitsfolge: führe zur nächsten Station.
+  - Zustand: `B2:OWNER_01::ACTIVE_LOCAL_MATERIAL` -> `B2:OWNER_01::LOCAL_CELL_COMMITTED`
+- **B2-S003 · CURRENT_ITEM_CONTINUATION · B2:OWNER_01**
+  - Bildort: oberes Beckenpaar mit Zylinder. Arbeitsfolge: gib einen Teil hinein → einwirken lassen. Angaben: dies.
+  - Zustand: `B2:OWNER_01::CURRENT_ITEM` -> `B2:OWNER_01::LOCAL_CELL_COMMITTED`
+- **B2-S004 · CURRENT_ITEM_CONTINUATION · B2:OWNER_01**
+  - Bildort: oberes Beckenpaar mit Zylinder. Arbeitsfolge: anlegen → durchleiten → führen + umsetzen → wirken lassen → durchleiten.
+  - Zustand: `B2:OWNER_01::CURRENT_ITEM` -> `B2:OWNER_01::LOCAL_CELL_COMMITTED`
+- **B2-S005 · EXPLICIT_LOCAL_CONTINUATION · B2:OWNER_01**
+  - Bildort: oberes Beckenpaar mit Zylinder. Arbeitsfolge: anlegen → bis zum Maß auffangen → einleiten → einleiten → warm halten → abführen. Angaben: Durchlass · dies | Gang · bereit · kurz · fort.
+  - Zustand: `B2:OWNER_01::ACTIVE_LOCAL_MATERIAL` -> `B2:OWNER_01::LOCAL_CELL_COMMITTED`
+- **B2-S006 · EXPLICIT_LOCAL_CONTINUATION · B2:OWNER_01**
+  - Bildort: oberes Beckenpaar mit Zylinder. Arbeitsfolge: anlegen → zurückhalten → setze dies ein. Angaben: danach · länger · dies.
+  - Zustand: `B2:OWNER_01::ACTIVE_LOCAL_MATERIAL` -> `B2:OWNER_01::ACTIVE_ITEM_AVAILABLE`
+- **B2-S007 · OWNER_RESET · B2:OWNER_02**
+  - Bildort: mittleres linkes Handgerät mit Inline-Knoten. Arbeitsfolge: ruhen lassen.
+  - Zustand: `B2:OWNER_01::STOP_AT_VISIBLE_BOUNDARY` -> `B2:OWNER_02::LOCAL_CELL_COMMITTED`
+- **B2-S008 · EXPLICIT_LOCAL_CONTINUATION · B2:OWNER_02**
+  - Bildort: mittleres linkes Handgerät mit Inline-Knoten. Arbeitsfolge: gib davon nach Maß zu → absetzen lassen. Angaben: danach · Maß.
+  - Zustand: `B2:OWNER_02::ACTIVE_LOCAL_MATERIAL` -> `B2:OWNER_02::LOCAL_CELL_COMMITTED`
+- **B2-S009 · EXPLICIT_LOCAL_CONTINUATION · B2:OWNER_02**
+  - Bildort: mittleres linkes Handgerät mit Inline-Knoten. Arbeitsfolge: ruhen lassen.
+  - Zustand: `B2:OWNER_02::ACTIVE_LOCAL_MATERIAL` -> `B2:OWNER_02::LOCAL_CELL_COMMITTED`
+- **B2-S010 · CURRENT_ITEM_CONTINUATION · B2:OWNER_02**
+  - Bildort: mittleres linkes Handgerät mit Inline-Knoten. Arbeitsfolge: wirken lassen → setze dies ein → stehen lassen. Angaben: weiter.
+  - Zustand: `B2:OWNER_02::CURRENT_ITEM` -> `B2:OWNER_02::ACTIVE_ITEM_AVAILABLE`
+- **B2-S011 · OWNER_RESET · B2:OWNER_03**
+  - Bildort: mittlere rechte unklare Station. Arbeitsfolge: gib einen Teil hinein → gib einen Teil hinein → einwirken lassen. Angaben: davon.
+  - Zustand: `B2:OWNER_02::STOP_AT_VISIBLE_BOUNDARY` -> `B2:OWNER_03::LOCAL_CELL_COMMITTED`
+- **B2-S012 · CURRENT_ITEM_CONTINUATION · B2:OWNER_03**
+  - Bildort: mittlere rechte unklare Station. Arbeitsfolge: führen + abnehmen → stehen lassen → wirken lassen → führen → setze voll an; schließe. Angaben: bereit · kurz · dies | Maß | dies.
+  - Zustand: `B2:OWNER_03::CURRENT_ITEM` -> `B2:OWNER_03::LOCAL_CELL_COMMITTED`
+- **B2-S013 · OWNER_RESET · B2:OWNER_04**
+  - Bildort: unteres grünes Mehrfigurenbecken. Arbeitsfolge: abführen + überführen.
+  - Zustand: `B2:OWNER_03::STOP_AT_VISIBLE_BOUNDARY` -> `B2:OWNER_04::LOCAL_CELL_COMMITTED`
+- **B2-S014 · EXPLICIT_LOCAL_CONTINUATION · B2:OWNER_04**
+  - Bildort: unteres grünes Mehrfigurenbecken. Arbeitsfolge: ableiten.
+  - Zustand: `B2:OWNER_04::ACTIVE_LOCAL_MATERIAL` -> `B2:OWNER_04::ACTIVE_ITEM_AVAILABLE`
+- **B2-S015 · OWNER_RESET · B2:OWNER_05**
+  - Bildort: kleine Randstationen des unteren Beckens. Arbeitsfolge: stehen lassen → einwirken lassen.
+  - Zustand: `B2:OWNER_04::STOP_AT_VISIBLE_BOUNDARY` -> `B2:OWNER_05::LOCAL_CELL_COMMITTED`
+- **B2-S016 · EXPLICIT_LOCAL_CONTINUATION · B2:OWNER_05**
+  - Bildort: kleine Randstationen des unteren Beckens. Arbeitsfolge: ableiten + umfüllen → abnehmen + abteilen → setze nach Maß an → wirken lassen → einfüllen + überführen. Angaben: Ziel | Maß | danach · länger · dies.
+  - Zustand: `B2:OWNER_05::ACTIVE_LOCAL_MATERIAL` -> `B2:OWNER_05::LOCAL_CELL_COMMITTED`
+- **B2-S017 · SAME_OWNER_UNSPECIFIED_STEP · B2:OWNER_05**
+  - Bildort: kleine Randstationen des unteren Beckens. Arbeitsfolge: abkühlen lassen + ruhen lassen. Angaben: Ziel; Schritt schließen.
+  - Zustand: `B2:OWNER_05::OWNER_ACTIVE_ITEM_UNSPECIFIED` -> `B2:OWNER_05::LOCAL_CELL_COMMITTED`
+- **B2-S018 · SAME_OWNER_UNSPECIFIED_STEP · B2:OWNER_05**
+  - Bildort: kleine Randstationen des unteren Beckens. Arbeitsfolge: einwirken lassen.
+  - Zustand: `B2:OWNER_05::OWNER_ACTIVE_ITEM_UNSPECIFIED` -> `B2:OWNER_05::LOCAL_CELL_COMMITTED`
+- **B2-S019 · SAME_OWNER_UNSPECIFIED_STEP · B2:OWNER_05**
+  - Bildort: kleine Randstationen des unteren Beckens. Arbeitsfolge: auskühlen lassen + absetzen lassen.
+  - Zustand: `B2:OWNER_05::OWNER_ACTIVE_ITEM_UNSPECIFIED` -> `B2:OWNER_05::LOCAL_CELL_COMMITTED`
+- **B2-S020 · EXPLICIT_LOCAL_CONTINUATION · B2:OWNER_05**
+  - Bildort: kleine Randstationen des unteren Beckens. Arbeitsfolge: setze nur die Angaben. Angaben: danach · länger; Schritt schließen.
+  - Zustand: `B2:OWNER_05::ACTIVE_LOCAL_MATERIAL` -> `B2:OWNER_05::LOCAL_CELL_COMMITTED`
+- **B2-S021 · SAME_OWNER_UNSPECIFIED_STEP · B2:OWNER_05**
+  - Bildort: kleine Randstationen des unteren Beckens. Arbeitsfolge: einwirken lassen.
+  - Zustand: `B2:OWNER_05::OWNER_ACTIVE_ITEM_UNSPECIFIED` -> `B2:OWNER_05::LOCAL_CELL_COMMITTED`
+- **B2-S022 · SAME_OWNER_UNSPECIFIED_STEP · B2:OWNER_05**
+  - Bildort: kleine Randstationen des unteren Beckens. Arbeitsfolge: abführen + überführen.
+  - Zustand: `B2:OWNER_05::OWNER_ACTIVE_ITEM_UNSPECIFIED` -> `B2:OWNER_05::LOCAL_CELL_COMMITTED`
+
+## B3 · f83r
+
+- **B3-S001 · RECORD_INITIALIZE · B3:OWNER_01**
+  - Bildort: obere offene Fächerstation am Rand. Arbeitsfolge: auffangen und stehen lassen.
+  - Zustand: `UNSET` -> `B3:OWNER_01::LOCAL_CELL_COMMITTED`
+- **B3-S002 · EXPLICIT_LOCAL_CONTINUATION · B3:OWNER_01**
+  - Bildort: obere offene Fächerstation am Rand. Arbeitsfolge: anwärmen. Angaben: danach · Ziel.
+  - Zustand: `B3:OWNER_01::ACTIVE_LOCAL_MATERIAL` -> `B3:OWNER_01::LOCAL_CELL_COMMITTED`
+- **B3-S003 · CURRENT_ITEM_CONTINUATION · B3:OWNER_01**
+  - Bildort: obere offene Fächerstation am Rand. Arbeitsfolge: abführen + abmessen und umsetzen. Angaben: dies | Maß | dies.
+  - Zustand: `B3:OWNER_01::CURRENT_ITEM` -> `B3:OWNER_01::LOCAL_CELL_COMMITTED`
+- **B3-S004 · EXPLICIT_LOCAL_CONTINUATION · B3:OWNER_01**
+  - Bildort: obere offene Fächerstation am Rand. Arbeitsfolge: setze nach Maß an. Angaben: danach · Ziel | davon.
+  - Zustand: `B3:OWNER_01::ACTIVE_LOCAL_MATERIAL` -> `B3:OWNER_01::ACTIVE_ITEM_AVAILABLE`
+- **B3-S005 · OWNER_RESET · B3:OWNER_02**
+  - Bildort: mittlere Randfigur im runden Gefäß. Arbeitsfolge: umfüllen.
+  - Zustand: `B3:OWNER_01::STOP_AT_VISIBLE_BOUNDARY` -> `B3:OWNER_02::LOCAL_CELL_COMMITTED`
+- **B3-S006 · EXPLICIT_LOCAL_CONTINUATION · B3:OWNER_02**
+  - Bildort: mittlere Randfigur im runden Gefäß. Arbeitsfolge: umschöpfen → anlegen → führe zur nächsten Station.
+  - Zustand: `B3:OWNER_02::ACTIVE_LOCAL_MATERIAL` -> `B3:OWNER_02::LOCAL_CELL_COMMITTED`
+- **B3-S007 · CURRENT_ITEM_CONTINUATION · B3:OWNER_02**
+  - Bildort: mittlere Randfigur im runden Gefäß. Arbeitsfolge: setze nach Maß an → umschöpfen → einwirken lassen.
+  - Zustand: `B3:OWNER_02::CURRENT_ITEM` -> `B3:OWNER_02::LOCAL_CELL_COMMITTED`
+- **B3-S008 · SAME_OWNER_UNSPECIFIED_STEP · B3:OWNER_02**
+  - Bildort: mittlere Randfigur im runden Gefäß. Arbeitsfolge: abführen + überführen.
+  - Zustand: `B3:OWNER_02::OWNER_ACTIVE_ITEM_UNSPECIFIED` -> `B3:OWNER_02::LOCAL_CELL_COMMITTED`
+- **B3-S009 · CURRENT_ITEM_CONTINUATION · B3:OWNER_02**
+  - Bildort: mittlere Randfigur im runden Gefäß. Arbeitsfolge: setze dies ein.
+  - Zustand: `B3:OWNER_02::CURRENT_ITEM` -> `B3:OWNER_02::ACTIVE_ITEM_AVAILABLE`
+- **B3-S010 · OWNER_RESET · B3:OWNER_03**
+  - Bildort: untere Randfigur im korbartigen Gefäß. Arbeitsfolge: einfüllen + umfüllen. Angaben: danach · kurz; Schritt schließen.
+  - Zustand: `B3:OWNER_02::STOP_AT_VISIBLE_BOUNDARY` -> `B3:OWNER_03::LOCAL_CELL_COMMITTED`
+- **B3-S011 · EXPLICIT_LOCAL_CONTINUATION · B3:OWNER_03**
+  - Bildort: untere Randfigur im korbartigen Gefäß. Arbeitsfolge: halten + umsetzen → setze dies ein → umschöpfen. Angaben: davon · dies.
+  - Zustand: `B3:OWNER_03::ACTIVE_LOCAL_MATERIAL` -> `B3:OWNER_03::ACTIVE_ITEM_AVAILABLE`
+- **B3-S012 · SAME_OWNER_UNSPECIFIED_STEP · B3:OWNER_03**
+  - Bildort: untere Randfigur im korbartigen Gefäß. Arbeitsfolge: absetzen lassen. Angaben: Ansatz.
+  - Zustand: `B3:OWNER_03::OWNER_ACTIVE_ITEM_UNSPECIFIED` -> `B3:OWNER_03::LOCAL_CELL_COMMITTED`
+- **B3-S013 · CURRENT_ITEM_CONTINUATION · B3:OWNER_03**
+  - Bildort: untere Randfigur im korbartigen Gefäß. Arbeitsfolge: setze nach Maß an → dosiert zugeben → einwirken lassen. Angaben: bereit · kurz · dies.
+  - Zustand: `B3:OWNER_03::CURRENT_ITEM` -> `B3:OWNER_03::LOCAL_CELL_COMMITTED`
+- **B3-S014 · SAME_OWNER_UNSPECIFIED_STEP · B3:OWNER_03**
+  - Bildort: untere Randfigur im korbartigen Gefäß. Arbeitsfolge: einleiten → ruhen lassen.
+  - Zustand: `B3:OWNER_03::OWNER_ACTIVE_ITEM_UNSPECIFIED` -> `B3:OWNER_03::LOCAL_CELL_COMMITTED`
+- **B3-S015 · SAME_OWNER_UNSPECIFIED_STEP · B3:OWNER_03**
+  - Bildort: untere Randfigur im korbartigen Gefäß. Arbeitsfolge: abführen + überführen.
+  - Zustand: `B3:OWNER_03::OWNER_ACTIVE_ITEM_UNSPECIFIED` -> `B3:OWNER_03::LOCAL_CELL_COMMITTED`
+- **B3-S016 · SAME_OWNER_UNSPECIFIED_STEP · B3:OWNER_03**
+  - Bildort: untere Randfigur im korbartigen Gefäß. Arbeitsfolge: führen → einsetzen + überführen.
+  - Zustand: `B3:OWNER_03::OWNER_ACTIVE_ITEM_UNSPECIFIED` -> `B3:OWNER_03::LOCAL_CELL_COMMITTED`
+- **B3-S017 · OWNER_RESET · B3:OWNER_04**
+  - Bildort: unverbundener Zwischenbereich. Arbeitsfolge: einwirken lassen.
+  - Zustand: `B3:OWNER_03::STOP_AT_VISIBLE_BOUNDARY` -> `B3:OWNER_04::LOCAL_CELL_COMMITTED`
+- **B3-S018 · SAME_OWNER_UNSPECIFIED_STEP · B3:OWNER_04**
+  - Bildort: unverbundener Zwischenbereich. Arbeitsfolge: absetzen lassen.
+  - Zustand: `B3:OWNER_04::OWNER_ACTIVE_ITEM_UNSPECIFIED` -> `B3:OWNER_04::LOCAL_CELL_COMMITTED`
+- **B3-S019 · SAME_OWNER_UNSPECIFIED_STEP · B3:OWNER_04**
+  - Bildort: unverbundener Zwischenbereich. Arbeitsfolge: einwirken lassen + ruhen lassen.
+  - Zustand: `B3:OWNER_04::OWNER_ACTIVE_ITEM_UNSPECIFIED` -> `B3:OWNER_04::LOCAL_CELL_COMMITTED`
+- **B3-S020 · SAME_OWNER_UNSPECIFIED_STEP · B3:OWNER_04**
+  - Bildort: unverbundener Zwischenbereich. Arbeitsfolge: hinleiten + umfüllen. Angaben: Ziel.
+  - Zustand: `B3:OWNER_04::OWNER_ACTIVE_ITEM_UNSPECIFIED` -> `B3:OWNER_04::LOCAL_CELL_COMMITTED`
+- **B3-S021 · CURRENT_ITEM_CONTINUATION · B3:OWNER_04**
+  - Bildort: unverbundener Zwischenbereich. Arbeitsfolge: setze nach Maß an → ablagern → stehen lassen → umfüllen. Angaben: bereit · dies | Ziel | dies | Maß | dies | Ziel | bereit · dies.
+  - Zustand: `B3:OWNER_04::CURRENT_ITEM` -> `B3:OWNER_04::LOCAL_CELL_COMMITTED`
+- **B3-S022 · EXPLICIT_LOCAL_CONTINUATION · B3:OWNER_04**
+  - Bildort: unverbundener Zwischenbereich. Arbeitsfolge: führe zur nächsten Station.
+  - Zustand: `B3:OWNER_04::ACTIVE_LOCAL_MATERIAL` -> `B3:OWNER_04::LOCAL_CELL_COMMITTED`
+- **B3-S023 · SAME_OWNER_UNSPECIFIED_STEP · B3:OWNER_04**
+  - Bildort: unverbundener Zwischenbereich. Arbeitsfolge: abführen + überführen.
+  - Zustand: `B3:OWNER_04::OWNER_ACTIVE_ITEM_UNSPECIFIED` -> `B3:OWNER_04::LOCAL_CELL_COMMITTED`
+- **B3-S024 · SAME_OWNER_UNSPECIFIED_STEP · B3:OWNER_04**
+  - Bildort: unverbundener Zwischenbereich. Arbeitsfolge: führe zur nächsten Station.
+  - Zustand: `B3:OWNER_04::OWNER_ACTIVE_ITEM_UNSPECIFIED` -> `B3:OWNER_04::LOCAL_CELL_COMMITTED`
+- **B3-S025 · SAME_OWNER_UNSPECIFIED_STEP · B3:OWNER_04**
+  - Bildort: unverbundener Zwischenbereich. Arbeitsfolge: einsetzen + überführen.
+  - Zustand: `B3:OWNER_04::OWNER_ACTIVE_ITEM_UNSPECIFIED` -> `B3:OWNER_04::LOCAL_CELL_COMMITTED`
+- **B3-S026 · EXPLICIT_LOCAL_CONTINUATION · B3:OWNER_04**
+  - Bildort: unverbundener Zwischenbereich. Arbeitsfolge: ableiten → umschöpfen → gib einen Teil hinein → abkühlen lassen → auffangen und stehen lassen. Angaben: länger · davon | bereit · dies.
+  - Zustand: `B3:OWNER_04::ACTIVE_LOCAL_MATERIAL` -> `B3:OWNER_04::LOCAL_CELL_COMMITTED`
+- **B3-S027 · OWNER_RESET · B3:OWNER_05**
+  - Bildort: sichtbares Figurenpaar mit gemeinsamem Bogen in B3. Arbeitsfolge: setze nur die Angaben. Angaben: danach · länger; Schritt schließen.
+  - Zustand: `B3:OWNER_04::STOP_AT_VISIBLE_BOUNDARY` -> `B3:OWNER_05::LOCAL_CELL_COMMITTED`
+- **B3-S028 · CURRENT_ITEM_CONTINUATION · B3:OWNER_05**
+  - Bildort: sichtbares Figurenpaar mit gemeinsamem Bogen in B3. Arbeitsfolge: wirken lassen → einwirken lassen.
+  - Zustand: `B3:OWNER_05::CURRENT_ITEM` -> `B3:OWNER_05::LOCAL_CELL_COMMITTED`
+- **B3-S029 · EXPLICIT_LOCAL_CONTINUATION · B3:OWNER_05**
+  - Bildort: sichtbares Figurenpaar mit gemeinsamem Bogen in B3. Arbeitsfolge: eintragen → einwirken lassen. Angaben: fort.
+  - Zustand: `B3:OWNER_05::ACTIVE_LOCAL_MATERIAL` -> `B3:OWNER_05::LOCAL_CELL_COMMITTED`
+- **B3-S030 · EXPLICIT_LOCAL_CONTINUATION · B3:OWNER_05**
+  - Bildort: sichtbares Figurenpaar mit gemeinsamem Bogen in B3. Arbeitsfolge: setze dies ein → durchleiten → führe zur nächsten Station. Angaben: Maß.
+  - Zustand: `B3:OWNER_05::ACTIVE_LOCAL_MATERIAL` -> `B3:OWNER_05::LOCAL_CELL_COMMITTED`
+- **B3-S031 · SAME_OWNER_UNSPECIFIED_STEP · B3:OWNER_05**
+  - Bildort: sichtbares Figurenpaar mit gemeinsamem Bogen in B3. Arbeitsfolge: einwirken lassen.
+  - Zustand: `B3:OWNER_05::OWNER_ACTIVE_ITEM_UNSPECIFIED` -> `B3:OWNER_05::LOCAL_CELL_COMMITTED`
+- **B3-S032 · EXPLICIT_LOCAL_CONTINUATION · B3:OWNER_05**
+  - Bildort: sichtbares Figurenpaar mit gemeinsamem Bogen in B3. Arbeitsfolge: abmessen und umsetzen → abmessen und umsetzen. Angaben: danach · kurz · Maß | danach · Maß | danach · kurz; Schritt schließen.
+  - Zustand: `B3:OWNER_05::ACTIVE_LOCAL_MATERIAL` -> `B3:OWNER_05::LOCAL_CELL_COMMITTED`
+- **B3-S033 · SAME_OWNER_UNSPECIFIED_STEP · B3:OWNER_05**
+  - Bildort: sichtbares Figurenpaar mit gemeinsamem Bogen in B3. Arbeitsfolge: abführen.
+  - Zustand: `B3:OWNER_05::OWNER_ACTIVE_ITEM_UNSPECIFIED` -> `B3:OWNER_05::LOCAL_CELL_COMMITTED`
+- **B3-S034 · EXPLICIT_LOCAL_CONTINUATION · B3:OWNER_05**
+  - Bildort: sichtbares Figurenpaar mit gemeinsamem Bogen in B3. Arbeitsfolge: eintragen → ablagern. Angaben: Gang · Sollstufe | bereit · dies | danach · Maß | fort · Ziel · dies.
+  - Zustand: `B3:OWNER_05::ACTIVE_LOCAL_MATERIAL` -> `B3:OWNER_05::LOCAL_CELL_COMMITTED`
+
+## B4 · f83r
+
+- **B4-S001 · RECORD_INITIALIZE · B4:OWNER_01**
+  - Bildort: sichtbares Figurenpaar mit gemeinsamem Bogen in B4. Arbeitsfolge: einwirken lassen.
+  - Zustand: `UNSET` -> `B4:OWNER_01::LOCAL_CELL_COMMITTED`
+- **B4-S002 · EXPLICIT_LOCAL_CONTINUATION · B4:OWNER_01**
+  - Bildort: sichtbares Figurenpaar mit gemeinsamem Bogen in B4. Arbeitsfolge: wirken lassen → einwirken lassen. Angaben: fort · dies.
+  - Zustand: `B4:OWNER_01::ACTIVE_LOCAL_MATERIAL` -> `B4:OWNER_01::LOCAL_CELL_COMMITTED`
+- **B4-S003 · EXPLICIT_LOCAL_CONTINUATION · B4:OWNER_01**
+  - Bildort: sichtbares Figurenpaar mit gemeinsamem Bogen in B4. Arbeitsfolge: umschöpfen → anlegen → setze dies ein → absetzen lassen. Angaben: danach · Ziel | danach · dies | fort.
+  - Zustand: `B4:OWNER_01::ACTIVE_LOCAL_MATERIAL` -> `B4:OWNER_01::LOCAL_CELL_COMMITTED`
+- **B4-S004 · CURRENT_ITEM_CONTINUATION · B4:OWNER_01**
+  - Bildort: sichtbares Figurenpaar mit gemeinsamem Bogen in B4. Arbeitsfolge: einsetzen + festbinden.
+  - Zustand: `B4:OWNER_01::CURRENT_ITEM` -> `B4:OWNER_01::LOCAL_CELL_COMMITTED`
+- **B4-S005 · CURRENT_ITEM_CONTINUATION · B4:OWNER_01**
+  - Bildort: sichtbares Figurenpaar mit gemeinsamem Bogen in B4. Arbeitsfolge: abmessen und umsetzen → einwirken lassen. Angaben: Portion.
+  - Zustand: `B4:OWNER_01::CURRENT_ITEM` -> `B4:OWNER_01::LOCAL_CELL_COMMITTED`
+- **B4-S006 · SAME_OWNER_UNSPECIFIED_STEP · B4:OWNER_01**
+  - Bildort: sichtbares Figurenpaar mit gemeinsamem Bogen in B4. Arbeitsfolge: zurückhalten.
+  - Zustand: `B4:OWNER_01::OWNER_ACTIVE_ITEM_UNSPECIFIED` -> `B4:OWNER_01::LOCAL_CELL_COMMITTED`
+- **B4-S007 · SAME_OWNER_UNSPECIFIED_STEP · B4:OWNER_01**
+  - Bildort: sichtbares Figurenpaar mit gemeinsamem Bogen in B4. Arbeitsfolge: zurückhalten.
+  - Zustand: `B4:OWNER_01::OWNER_ACTIVE_ITEM_UNSPECIFIED` -> `B4:OWNER_01::LOCAL_CELL_COMMITTED`
+- **B4-S008 · CURRENT_ITEM_CONTINUATION · B4:OWNER_01**
+  - Bildort: sichtbares Figurenpaar mit gemeinsamem Bogen in B4. Arbeitsfolge: warm halten → einwirken lassen → einwirken lassen. Angaben: Maß.
+  - Zustand: `B4:OWNER_01::CURRENT_ITEM` -> `B4:OWNER_01::LOCAL_CELL_COMMITTED`
+- **B4-S009 · SAME_OWNER_UNSPECIFIED_STEP · B4:OWNER_01**
+  - Bildort: sichtbares Figurenpaar mit gemeinsamem Bogen in B4. Arbeitsfolge: absetzen lassen.
+  - Zustand: `B4:OWNER_01::OWNER_ACTIVE_ITEM_UNSPECIFIED` -> `B4:OWNER_01::LOCAL_CELL_COMMITTED`
+- **B4-S010 · EXPLICIT_LOCAL_CONTINUATION · B4:OWNER_01**
+  - Bildort: sichtbares Figurenpaar mit gemeinsamem Bogen in B4. Arbeitsfolge: setze nur die Angaben. Angaben: fort; Schritt schließen.
+  - Zustand: `B4:OWNER_01::ACTIVE_LOCAL_MATERIAL` -> `B4:OWNER_01::LOCAL_CELL_COMMITTED`
+- **B4-S011 · OWNER_RESET · B4:OWNER_02**
+  - Bildort: linke Hauptstation mit offenem Fransenlauf. Arbeitsfolge: warm halten → wirken lassen → gib einen Teil hinein → umschöpfen → abführen + zugeben. Angaben: Maß | fort.
+  - Zustand: `B4:OWNER_01::STOP_AT_VISIBLE_BOUNDARY` -> `B4:OWNER_02::LOCAL_CELL_COMMITTED`
+- **B4-S012 · SAME_OWNER_UNSPECIFIED_STEP · B4:OWNER_02**
+  - Bildort: linke Hauptstation mit offenem Fransenlauf. Arbeitsfolge: abführen + überführen.
+  - Zustand: `B4:OWNER_02::OWNER_ACTIVE_ITEM_UNSPECIFIED` -> `B4:OWNER_02::LOCAL_CELL_COMMITTED`
+- **B4-S013 · EXPLICIT_LOCAL_CONTINUATION · B4:OWNER_02**
+  - Bildort: linke Hauptstation mit offenem Fransenlauf. Arbeitsfolge: weiter beschicken → absetzen lassen.
+  - Zustand: `B4:OWNER_02::ACTIVE_LOCAL_MATERIAL` -> `B4:OWNER_02::LOCAL_CELL_COMMITTED`
+- **B4-S014 · CURRENT_ITEM_CONTINUATION · B4:OWNER_02**
+  - Bildort: linke Hauptstation mit offenem Fransenlauf. Arbeitsfolge: setze nur die Angaben. Angaben: Ansatz | dies | Gang · Durchlass · kurz · dies | Lauf · dies; Schritt schließen.
+  - Zustand: `B4:OWNER_02::CURRENT_ITEM` -> `B4:OWNER_02::LOCAL_CELL_COMMITTED`
+- **B4-S015 · CURRENT_ITEM_CONTINUATION · B4:OWNER_02**
+  - Bildort: linke Hauptstation mit offenem Fransenlauf. Arbeitsfolge: gib einen Teil hinein → stehen lassen → dosiert zugeben → ablaufen lassen → auffangen → abführen + überführen.
+  - Zustand: `B4:OWNER_02::CURRENT_ITEM` -> `B4:OWNER_02::LOCAL_CELL_COMMITTED`
+- **B4-S016 · OWNER_RESET · B4:OWNER_03**
+  - Bildort: rechte Hauptstation mit S-Lauf und Mehrarmknoten. Arbeitsfolge: dosiert zugeben → zuführen → absetzen lassen. Angaben: Ziel.
+  - Zustand: `B4:OWNER_02::STOP_AT_VISIBLE_BOUNDARY` -> `B4:OWNER_03::LOCAL_CELL_COMMITTED`
+
+## B5 · f83r
+
+- **B5-S001 · RECORD_INITIALIZE · B5:OWNER_01**
+  - Bildort: linke Fransenstation im B5-Nachtrag. Arbeitsfolge: führe zur nächsten Station.
+  - Zustand: `UNSET` -> `B5:OWNER_01::LOCAL_CELL_COMMITTED`
+- **B5-S002 · SAME_OWNER_UNSPECIFIED_STEP · B5:OWNER_01**
+  - Bildort: linke Fransenstation im B5-Nachtrag. Arbeitsfolge: einsetzen + überführen.
+  - Zustand: `B5:OWNER_01::OWNER_ACTIVE_ITEM_UNSPECIFIED` -> `B5:OWNER_01::LOCAL_CELL_COMMITTED`
+- **B5-S003 · EXPLICIT_LOCAL_CONTINUATION · B5:OWNER_01**
+  - Bildort: linke Fransenstation im B5-Nachtrag. Arbeitsfolge: ablagern → hinleiten → umfüllen → abmessen und umsetzen. Angaben: Ziel | fort | Maß | fort | zweite · Sollstufe.
+  - Zustand: `B5:OWNER_01::ACTIVE_LOCAL_MATERIAL` -> `B5:OWNER_01::ACTIVE_ITEM_AVAILABLE`
+
+## B6 · f83r
+
+- **B6-S001 · RECORD_INITIALIZE · B6:OWNER_01**
+  - Bildort: rechter S-Lauf im B6-Nachtrag. Arbeitsfolge: auffangen → zugeben → abkühlen lassen → hinleiten. Angaben: fort | Maß | fort | Portion | dies.
+  - Zustand: `UNSET` -> `B6:OWNER_01::ACTIVE_ITEM_AVAILABLE`

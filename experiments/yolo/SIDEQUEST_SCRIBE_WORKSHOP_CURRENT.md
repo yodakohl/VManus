@@ -9755,10 +9755,18 @@ fragments collide, but 137 full loci are surface-unique, two need namespace,
 and three need image owner, resolving all 142 addresses. See
 `sidequest_semantic_backward_corrector_five_hundred_ninety_seventh/FIVE_HUNDRED_NINETY_SEVENTH_REPORT.md`.
 
-Next, trace the current material/state through all eleven Prose records: retain
-it across genuine continuations, reset it at visible owner changes, and write
-complete practical process chains without turning adjacent stations into one
-imaginary global pipe network.
+Pass 598 traces material/state through all 116 statements: eleven record
+initializations, 41 explicit local continuations, 25 current-item continuations,
+29 same-owner unspecified steps, and ten visible owner resets. Only H1→H2 is a
+possible same-plant resumption across records; nine other record boundaries
+reset. The edition has 21 record-local owner states and zero global pipe joins.
+See
+`sidequest_semantic_record_state_trace_five_hundred_ninety_eighth/FIVE_HUNDRED_NINETY_EIGHTH_REPORT.md`.
+
+Next, instantiate concrete workshop objects—raw part, preparation, portion,
+flowing medium, residue/extract, receiving place, and application—only where
+these continuity rules license them, yielding a tangible object ledger rather
+than abstract arrows.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
