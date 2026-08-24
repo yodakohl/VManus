@@ -7701,9 +7701,16 @@ Diesposten–Sollmaß–Diesposten: retain the same work item around a measureme
 not an equality or `ana` formula. See
 `sidequest_semantic_handoff_syntax_three_hundred_twenty_third/THREE_HUNDRED_TWENTY_THIRD_APPRENTICE_SYNTAX.md`.
 
-Next, generate one new Herbal-output/Bio-application pair from the learned
-rules using only already registered card identities, then render and reverse-
-read it as a workshop competence demonstration.
+Pass 324 uses the learned rules to write one fresh six-card Herbal output and
+one fresh eight-card Bio application. The two complete sequences are new, but
+all fourteen visible events use ten already registered card identities and
+reverse-read exactly. Both statements deliberately cross a physical line; the
+Herbal card stays open at Bereit and the Bio card ends at Fortschluss. See
+`sidequest_semantic_fresh_handoff_copy_three_hundred_twenty_fourth/THREE_HUNDRED_TWENTY_FOURTH_FRESH_COPY.md`.
+
+Next, render both fresh passages in four plausible scribe hands using only each
+card's registered fixed-page surface palette, while preserving the same ten
+identities and meanings.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
