@@ -10350,8 +10350,17 @@ are final. Four duration/end cells and one portion cell are now concrete
 predictions. Expanded coverage is80 cards/196 events. See
 `sidequest_semantic_solk_collect_grid_six_hundred_sixty_sixth/SIX_HUNDRED_SIXTY_SIXTH_REPORT.md`.
 
+Pass 667 closes SH as the portable verb HALTEN across20 cards/25 events/19
+recipes. Its direct grid contains short-active, short-closed, long-active, and
+long-closed cells; all8 observed closes are terminal. Measure, target,
+continuation, passage, ready-state, transfer, addition, entry, work-cycle, and
+cooling attach around the same root. `cheey/shey` is therefore minimally
+SH+EE+Y = longer hold the current item, not inherently clear extract or water.
+Expanded coverage is93 cards/212 events. See
+`sidequest_semantic_sh_hold_grid_six_hundred_sixty_seventh/SIX_HUNDRED_SIXTY_SEVENTH_REPORT.md`.
+
 Next, close the compact wet-process sequence around LSH washing, CFH wringing,
-CPH after-straining, and their settle/clear-result neighbours.
+P filling, and their hold/draw-off neighbours.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
