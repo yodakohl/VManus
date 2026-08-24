@@ -8888,10 +8888,19 @@ surfaces are admitted; 663 remain deterministically chosen and 113 are free
 choices, so an exact facsimile still needs local choice memory. See
 `sidequest_semantic_flexible_renderer_four_hundred_eighty_sixth/FOUR_HUNDRED_EIGHTY_SIXTH_REPORT.md`.
 
-Next, turn the five flexible rules into a multi-scribe teaching exercise.
-Generate independent legal renderings of the same fixed meanings, preserve
-card bodies and boundaries, and check whether each hand can be described by a
-small stable preference profile rather than arbitrary per-token choices.
+Pass 487 derives four preference profiles from the 102 observed entry-wrapper
+choices rather than inventing four new scribes. A global input-wrapper default
+chooses 41 exactly; twenty early-Herbal, late-Herbal, Bio and Astro preferences
+choose 58, and 41 profile-plus-position rows choose 67. Thus hand/register bias
+is real but does not fix every spelling. The 452 four-profile teaching copies
+preserve every component sequence and meaning while varying only legal
+allographs. See
+`sidequest_semantic_observed_scribe_profiles_four_hundred_eighty_seventh/FOUR_HUNDRED_EIGHTY_SEVENTH_REPORT.md`.
+
+Next, return to the 59 local content items. Classify their residual events by
+the concrete object transition they perform — plant material, preparation,
+portion, moving liquid, receiving stock, target station or result — and merge
+local items that differ only in their visible owner fill.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
