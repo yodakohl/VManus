@@ -9383,9 +9383,17 @@ This removes the mistaken assumption that every written card is a full verb.
 Component meanings remain unchanged. See
 `sidequest_semantic_component_sentence_roles_five_hundred_forty_ninth/FIVE_HUNDRED_FORTY_NINTH_REPORT.md`.
 
-Next, reparse all 97 instructions as argument bundles attached to 237 action
-events, allowing adjacent non-action cards to modify an action on either side.
-This should produce shorter and more natural clauses without deleting a card.
+Pass 550 reparses all 97 instructions as 241 action bundles over 380 executed
+source positions: 236 written action anchors plus five explicitly inherited
+elliptic actions. One hundred twenty-one non-action positions attach to the
+next action, fifteen to the previous action, and eight positions belong to the
+five elliptic bundles. All 381 visible events remain bound, including the
+two-visible/one-source E180/E181 copy. See
+`sidequest_semantic_argument_attachment_parser_five_hundred_fiftieth/FIVE_HUNDRED_FIFTIETH_REPORT.md`.
+
+Next, split the broad action stems OK, CHD, L and K by their argument frames.
+Their frame-conditioned senses should decide whether German `ansetzen`,
+`umsetzen`, `führen` and `zuführen` are still too broad.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
