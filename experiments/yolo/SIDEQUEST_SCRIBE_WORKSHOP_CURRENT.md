@@ -10029,10 +10029,20 @@ almost evenly between rule and memorized palette. Every event and statement
 round-trips to its source surface. See
 `sidequest_semantic_forward_workshop_compiler_six_hundred_twenty_seventh/SIX_HUNDRED_TWENTY_SEVENTH_REPORT.md`.
 
-Next, decompose the 179 local-exemplar surface choices into line-entry,
-post-close entry, desk preference, immediate-neighbour formula, and irreducible
-memorized choice. Build the shortest practical surface manual that still
-replays all five main cases.
+Pass 628 reuses only the formal body/wrapper technique of the earlier
+two-stage renderer and reduces the 179 apparent exemplar choices to 21 true
+local surface exceptions. Body+register+field position resolves 68, the
+previous wrapper resolves 66, and the fixed expanded-context majority resolves
+24; sixteen resolved rows are q entries after a licensed close. Across all 372
+main-case events, 193 surfaces come from semantic/card/desk rules, 158 from the
+body-wrapper manual, and only 21 from a memorized exception deck. All 372
+round-trip exactly without changing a meaning. See
+`sidequest_semantic_compact_surface_manual_six_hundred_twenty_eighth/SIX_HUNDRED_TWENTY_EIGHTH_REPORT.md`.
+
+Next, inspect the 21 local exceptions individually for simple workshop causes:
+anticipatory copying, line filling, branch resumption, hand change, or contrast
+with an immediate neighbour. Do not invent another universal renderer; retain
+any unexplained remainder as a learned local form.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
