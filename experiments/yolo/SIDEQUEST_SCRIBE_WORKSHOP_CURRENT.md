@@ -9691,9 +9691,18 @@ remain open. B1–B4 are adjacent cell registers and B5–B6 technical appendice
 with no global flow direction added. See
 `sidequest_semantic_complete_biological_station_register_five_hundred_eighty_ninth/FIVE_HUNDRED_EIGHTY_NINTH_COMPLETE_BIOLOGICAL_REGISTER.md`.
 
-Next, compare the five Herbal articles and six Biological records directly:
-test whether they form a shared WHAT/HOW workflow or merely reuse the same
-workshop grammar for independent pictured subjects.
+Pass 590 compares the sections directly. Seventeen exact cards and nine of ten
+primitive phases cross sections. Eight cards can carry material/application
+handoff values; nine are shared grammar. Together with the plant and bathing
+imagery this narrowly favors a thematic WHAT/HOW compendium, but there is no
+explicit Herbal-item→Biological-station pointer, so no one-to-one recipe chain
+is claimed. See
+`sidequest_semantic_what_how_integration_five_hundred_ninetieth/FIVE_HUNDRED_NINETIETH_REPORT.md`.
+
+Next, test the three Astro pages as a possible WHEN/condition appendix without
+importing the prose dictionary: preserve their local namespaces, multiple
+centers, no orientation, and no f68↔f69 key; compare celestial lookup against
+an independent image/memory atlas.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
