@@ -10296,9 +10296,16 @@ L-P-OL-OT-OK prefixes supply forward-fill-continue-next-set directions. All28
 closed CHD events are final. Five new compositions are predicted. See
 `sidequest_semantic_chd_valency_six_hundred_fifty_eighth/SIX_HUNDRED_FIFTY_EIGHTH_REPORT.md`.
 
-Next, combine OK=ANSETZEN and CHD=UMSETZEN across every shared statement. Test
-fixed precedence versus an alternating set-transfer cycle and isolate fused
-OK+CHD+DY as the one-card close shortcut.
+Pass 659 combines the two verbs across43 unique cards/122 events. Eighteen
+statements contain both roots, with42 root events and10 verb skeletons. Direct
+transitions are5 SET-to-TRANSFER versus6 TRANSFER-to-SET, so the grammar is a
+bidirectional reconfiguration cycle rather than fixed precedence. Five fused
+OK+CHD+DY shortcuts are all final. See
+`sidequest_semantic_two_verb_cycle_six_hundred_fifty_ninth/SIX_HUNDRED_FIFTY_NINTH_REPORT.md`.
+
+Next, write fluent complete German readings for all18 joint statements while
+preserving every card and order. Select the clearest multi-step process chains
+for the working translation book.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these

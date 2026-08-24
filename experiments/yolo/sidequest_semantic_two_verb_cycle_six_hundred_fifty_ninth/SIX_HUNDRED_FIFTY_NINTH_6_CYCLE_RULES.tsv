@@ -1,0 +1,7 @@
+rule_id	from_state	verb	to_state	workshop_rule_de
+T01	READY	SET	CONFIGURED	Posten, Menge, Ziel oder Dauer ansetzen
+T02	CONFIGURED	TRANSFER	TRANSFERRED_ACTIVE	gesetzten Posten umsetzen oder weiterleiten
+T03	TRANSFERRED_ACTIVE	SET	RECONFIGURED	nach dem Umsetzen eine neue Einstellung ansetzen
+T04	RECONFIGURED	TRANSFER	TRANSFERRED_ACTIVE	erneut umsetzen; der Zyklus darf wechseln
+T05	READY|CONFIGURED	FUSED_SET_TRANSFER_CLOSE	CLOSED	ansetzen, umsetzen und in derselben Karte schliessen
+T06	ANY_ACTIVE	SET_CLOSE|TRANSFER_CLOSE	CLOSED	lizenzierte Schlussvariante beendet die Aussage
