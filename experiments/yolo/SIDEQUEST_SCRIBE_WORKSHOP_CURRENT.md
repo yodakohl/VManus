@@ -8290,9 +8290,16 @@ the concrete lead, a vessel handoff the close rival. The text lies in an
 unconnected visual gap, so neither is assigned to a named pictured basin. See
 `sidequest_semantic_b3_two_phase_handoff_four_hundred_fifth/FOUR_HUNDRED_FIFTH_CONTINUOUS_READING.md`.
 
-Next, isolate the B3 phase-B middle SAIIN-SHEDAL-SHECTHY. Compare
-measure-settle-temper against duration-rest-warm using every fixed-page SHEDAL
-and SHECTHY occurrence, then rewrite the handoff with the better compact values.
+Pass 406 closes the phase-B middle as SAIIN/Sollmaß,
+SHEDAL/Absetzstelle and SHECTHY/temperiert. SAIIN is the same 20-event AIIN
+card, so a local duration reading is rejected; SHEDAL repeats in B3 and B5;
+SHECTHY remains a learned one-event state card. Bath and vessel expansions now
+share identical small card values. See
+`sidequest_semantic_b3_phase_b_lexicon_four_hundred_sixth/FOUR_HUNDRED_SIXTH_REVISED_HANDOFF.md`.
+
+Next, read all of B5-S003 as a second tempering station around SHEDAL, LOL,
+CHDAL and AIIN. Decide whether it confirms Absetzstelle as a portable workshop
+term and whether its final DAIIN-CHEDY is a second stage of the same charge.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
