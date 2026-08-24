@@ -9645,8 +9645,16 @@ off/transfer, AIIN/IIN = measure/grade, and AL/OS = destination/compartment.
 The 38 graphic components remain distinct. See
 `sidequest_semantic_minimal_contrast_pairs_five_hundred_eighty_second/FIVE_HUNDRED_EIGHTY_SECOND_FIVE_MINIMAL_CONTRAST_DECISIONS.tsv`.
 
-Next, collect recurrent two- and three-component speech formulas and turn them
-into a compact apprentice phrasebook for generating the 116 instructions.
+Pass 583 derives 118 recurrent two-component and 69 recurrent three-component
+phrases. Fifteen larger apprentice formulas cover 73/116 statements, including
+route→close, hold→close, settle→close, measure→hold→close, and
+measure→route→close; 43 one-off statements remain freely composed from the
+same 37 spoken values. See
+`sidequest_semantic_apprentice_phrasebook_five_hundred_eighty_third/FIVE_HUNDRED_EIGHTY_THIRD_FIFTEEN_APPRENTICE_MACROS.tsv`.
+
+Next, classify the 43 one-off statements by their nearest taught formula and
+absorb simple insertions or owner-specific substitutions as variants, leaving
+only genuinely new action sequences as free compositions.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
