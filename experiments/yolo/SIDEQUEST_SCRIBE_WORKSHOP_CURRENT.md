@@ -9990,10 +9990,22 @@ stock to an optional open cooling/collecting/dosing appendix: compatible with
 C5 material, but not visibly bound to it. See
 `sidequest_semantic_c5_c6_contrast_six_hundred_twenty_third/SIX_HUNDRED_TWENTY_THIRD_REPORT.md`.
 
-Next, order the six corrected cases into complete preparation/application
-pairs, variants, and optional appendices. Then reattach the three Astro pages
-only as separate choice/address instruments, without translating their labels
-or inventing a cross-page key.
+Pass 624 orders the corrected book as five complete Herbal-to-Biological case
+pairs plus one optional technical appendix. C1 is the base mild wash, C2 its
+stronger multi-stage variant, C3 the flower/immersion case, C4 the tempered
+contact/poultice case, and C5 the concentrate/transfer case. C6 has no Herbal
+owner and remains a separate open cooling/collecting/dosing form; it can accept
+C5 material but is not bound to it. The three Astro pages remain a wholly
+optional address/condition appendix: thirteen namespaces, 142 loci, 395 whole
+labels, no required case link, orientation, label decomposition, or f68-f69
+key. The complete edition retains 39 words, 163 invariant commands, 173 cards,
+381 Prose events/116 statements, and 395 Astro groups = 776. See
+`sidequest_semantic_six_case_astro_architecture_six_hundred_twenty_fourth/SIX_HUNDRED_TWENTY_FOURTH_REPORT.md`.
+
+Next, align the five complete case pairs by shared workshop phase rather than
+page order: take material, form the preparation, dose, address/transfer,
+hold by grade, settle/collect, and close. Identify exactly where each case
+branches from the common base procedure without adding a new word.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
