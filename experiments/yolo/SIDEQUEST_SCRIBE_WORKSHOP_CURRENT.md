@@ -10653,10 +10653,20 @@ BOUND_RESULT>QUANTITY and P21 to QUANTITY>FLOW, matching existing statement
 shapes without inventing a surface. See
 `sidequest_semantic_statement_phrasebook_seven_hundred_fourth/SEVEN_HUNDRED_FOURTH_REPORT.md`.
 
-Next, convert the five most frequent role templates into fillable workshop
-forms. Select several existing cards per slot, generate a small set of fresh
-plant/bath/apparatus instructions, and roundtrip each from plain German prompt
-to card roles to existing surface families and back.
+Pass 705 turns the five most frequent role bigrams into fillable forms and
+creates15 fresh practice statements: five Herbal, five Biological and five
+apparatus readings. Every statement uses two existing cards, an attested role
+template and existing surface families. Two exact pairs already occur on the
+fixed pages;13 are new fillings of old forms. Examples include `daiin qoky`
+(measure; set this), `cfhy shedy` (wring this; settle/close) and `chckhy lol`
+(pass this through; lead onward/continue). See
+`sidequest_semantic_five_fillable_forms_seven_hundred_fifth/SEVEN_HUNDRED_FIFTH_REPORT.md`.
+
+Next, compose a single five-to-eight-statement workshop commission that moves
+one pictured material through measure, preparation, transfer, holding and
+closure. Preserve one owner until an explicit local station change, render
+only with existing surfaces, and provide a continuous forward and backward
+reading as an apprentice exercise.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
