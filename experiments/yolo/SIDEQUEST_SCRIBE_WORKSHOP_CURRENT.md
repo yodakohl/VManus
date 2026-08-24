@@ -9407,9 +9407,18 @@ lassen`. This exposes a repeated process chain: feed/apply -> act/hold ->
 rest/settle -> drain/collect. See
 `sidequest_semantic_process_state_action_frames_five_hundred_fifty_second/FIVE_HUNDRED_FIFTY_SECOND_REPORT.md`.
 
-Next, refine the remaining action stems T, SOLK, LSH, P, CFH, S, LD and TALAM,
-then publish one unified action lexicon in which every action component has a
-frame-conditioned, short workshop reading.
+Pass 553 completes the action system. All seventeen action components now share
+one lexicon of 56 frame rules covering 271 component occurrences. The final
+eight roots add `eintragen/übertragen`, `auffangen/stehen lassen`,
+`waschen/durchwaschen`, `hineingeben/einfüllen`, `auswringen`, `abteilen`,
+`festbinden` and `verwahren`. The working system is now 38 components, 56
+action frames, five taught formulas, ten weaker idioms and three true whole
+cards. See
+`sidequest_semantic_unified_action_lexicon_five_hundred_fifty_third/FIVE_HUNDRED_FIFTY_THIRD_REPORT.md`.
+
+Next, compile this grammar into a compact canonical dictionary and regenerate
+all 173 card readings and 381 event readings from it, replacing the older
+flat-card wording with the current argument-and-frame syntax.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
