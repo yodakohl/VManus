@@ -9458,9 +9458,16 @@ multi-surface events the split is 135 global, eight contextual and 59 local.
 See
 `sidequest_semantic_surface_renderer_completion_five_hundred_fifty_eighth/FIVE_HUNDRED_FIFTY_EIGHTH_REPORT.md`.
 
-Next, compress the 59 residual local assignments by their shared wrapper
-transformations and determine how many of the 34 named locus modes are really
-distinct writing operations.
+Pass 559 reduces those 34 named modes to an eight-stamp wrapper box, 26
+mechanical remove-and-apply transformations and 17 reusable locus palettes.
+Twenty-two loci covering 27 residual events load one stamp once; only twelve
+loci with 32 events retain a short mixed stamp sequence. The full 59-event
+surface check remains exact and choice-free. See
+`sidequest_semantic_wrapper_palette_compression_five_hundred_fifty_ninth/FIVE_HUNDRED_FIFTY_NINTH_REPORT.md`.
+
+Next, attack only the twelve mixed loci: predict their 32 stamps from card
+class, statement position, and short local cadence, leaving the 22 uniform
+loci closed.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
