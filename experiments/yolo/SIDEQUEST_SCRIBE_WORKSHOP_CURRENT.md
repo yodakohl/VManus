@@ -10330,8 +10330,16 @@ roots are OR preparation17 events, CKH channel14, SOLK collection7, LSH wash3,
 and CFH wring1. See
 `sidequest_semantic_five_root_dictionary_six_hundred_sixty_third/SIX_HUNDRED_SIXTY_THIRD_REPORT.md`.
 
-Next, close OR as the first material noun: ANSATZ/PREPARATION, distinct from
-OK=SET. Compose its portion, continuation, target, source, and transfer forms.
+Pass 664 closes OR as ANSATZ/PREPARATION across10 cards/18 events/10 recipes on
+5 pages and8 records. Bare OR has7 events and4 writer surfaces chor/or/shor/sor.
+It composes with portion, continuation, target, ingredient, cooling, and
+transfer;0 OR events close. The expanded dictionary covers66 cards/175 events.
+See
+`sidequest_semantic_or_preparation_noun_six_hundred_sixty_fourth/SIX_HUNDRED_SIXTY_FOURTH_REPORT.md`.
+
+Next, reduce CKH to the single technical noun PASSAGE. Compose its active,
+target, forwarding, holding, short-grade, and close forms without a long
+filter-channel gloss.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
