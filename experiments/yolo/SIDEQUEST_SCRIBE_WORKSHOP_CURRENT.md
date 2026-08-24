@@ -10437,8 +10437,19 @@ master table. Four new readable recipes stop at lookup because no exact card is
 present;0 surfaces are invented. See
 `sidequest_semantic_reverse_apprentice_test_six_hundred_seventy_seventh/SIX_HUNDRED_SEVENTY_SEVENTH_REPORT.md`.
 
-Next, compare the resulting mixed card system against concrete c.1420 workshop
-analogues and choose the closest operational model for composition plus lookup.
+Pass 678 compares seven concrete late-medieval operating models against ten
+properties of the current39-entry/173-card system. The best single comparison
+is the early *Buch der heiligen Dreifaltigkeit*, but no one donor is sufficient.
+The selected **BILDADRESSIERTER FACHNOMENKLATOR** has five layers: picture or
+table owner; alchemical/Lullian semantic recipe; exact-card nomenclator lookup;
+mensural grade and positional allograph; owner-filled readback. This explains
+why a new recipe can be meaningful before the master has supplied its exact
+written card. See
+`sidequest_semantic_historical_operational_model_six_hundred_seventy_eighth/SIX_HUNDRED_SEVENTY_EIGHTH_REPORT.md`.
+
+Next, assign every one of the39 current entries to its historical workshop
+layer and simplify any entry whose teaching burden is inconsistent with this
+five-layer model.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
