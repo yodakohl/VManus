@@ -8813,11 +8813,18 @@ is MEASURE→MOVE with 21 occurrences across three Herbal and all six Bio
 records. See
 `sidequest_semantic_sentence_templates_four_hundred_seventy_seventh/FOUR_HUNDRED_SEVENTY_SEVENTH_REPORT.md`.
 
-Next, inspect the remaining 248 prose events outside greedy template coverage.
-Group their exact cards by recurring template slot and immediate phase context.
-Promote only short concrete slot values that work in multiple statements;
-retain true page-local names as learned whole cards. Then regenerate the 173
-card dictionary and continuous edition.
+Pass 478 inspects the remaining 248 events/130 card types by phase slot. Only
+six learned whole cards (nine events) remain; four retain the short values
+AUSWRINGEN, VERWAHREN, TEILEN and STUFE II. `os` narrows from an invisible
+vessel to ARBEITSFACH, while recurrent `cheey|shey` broadens from an overfitted
+clear extract to ERGEBNISPOSTEN across four COLLECT slots in Herbal and Bio.
+Five statements change; the full 173/381/116/776 alignment remains. See
+`sidequest_semantic_whole_card_slots_four_hundred_seventy_eighth/FOUR_HUNDRED_SEVENTY_EIGHTH_REPORT.md`.
+
+Next, trace all four ERGEBNISPOSTEN occurrences as state transitions: identify
+their exact source stock, immediate successor operation, and whether the result
+is consumed, measured, held or merely closes a cell. Choose one invariant short
+value, then rewrite the five affected statements and their parent records.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
