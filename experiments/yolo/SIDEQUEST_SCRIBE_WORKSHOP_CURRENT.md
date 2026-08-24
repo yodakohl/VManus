@@ -9623,9 +9623,17 @@ component reading and seventy use a visible fill; none looks up a completed
 whole-card gloss. See
 `sidequest_semantic_integrated_composition_parser_five_hundred_seventy_ninth/FIVE_HUNDRED_SEVENTY_NINTH_REPORT.md`.
 
-Next, simplify all 116 owner-filled instructions into short period-appropriate
-workshop German: at most one main verb per card, no modern process jargon, and
-no loss of source, measure, target, grade, current-item, or close information.
+Pass 580 rewrites all 116 statements in compact workshop idiom. It removes the
+modern explanatory phrases “laufender Posten,” “vorgeschriebenes Maß,”
+“bezeichnete Stelle,” “Arbeitsgang,” and “Schritt schließen,” reducing 978 words
+to 552 while preserving source, measure, target, grade, sequence, item, and
+close slots. The resulting idiom uses short forms such as dies, davon, dorthin,
+nach Maß, im Gang, and schließe. See
+`sidequest_semantic_compact_workshop_idiom_five_hundred_eightieth/FIVE_HUNDRED_EIGHTIETH_ELEVEN_RECORD_COMPACT_EDITION.md`.
+
+Next, extract the recurring spoken words in this compact edition and separate
+them from silent image arguments and purely graphic/card machinery, producing
+a genuinely small spoken workshop dictionary.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
