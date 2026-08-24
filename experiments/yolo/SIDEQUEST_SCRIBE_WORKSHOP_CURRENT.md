@@ -8183,9 +8183,16 @@ local whole-card value benetzte Stelle; the H4 reading is revised rather than
 rescued with a longer gloss. See
 `sidequest_semantic_five_card_reanalysis_three_hundred_eighty_ninth/THREE_HUNDRED_EIGHTY_NINTH_REVISED_BOARDLESS_EDITION.md`.
 
-Next, search the ten-page dictionary for functional sisters of the three
-remaining whole cards—target/result, second separation and storage—without
-forcing surface segmentation. Build a small nomenclator deck by function.
+Pass 390 places sixteen card families/30 occurrences into three functional
+nomenclator drawers: target/result, separation/re-separation, and receive/store.
+Eight are whole cards and eight component or compound cards; drawer membership
+requires no spelling similarity. This is the concrete mixed architecture:
+productive outer grammar plus learned specialist signs. See
+`sidequest_semantic_functional_nomenclator_deck_three_hundred_ninetieth/THREE_HUNDRED_NINETIETH_NOMENCLATOR_MANUAL.md`.
+
+Next, align the genuine H3 separation chain with the revised H4 practice chain
+by functional drawer. Mark shared stages, different cards and any H4 stage that
+has no real ten-page analogue.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
