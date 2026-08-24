@@ -8124,9 +8124,16 @@ registered surfaces unused in the three copies (`or`, `chy`, `dy`, `shy`,
 invented. See
 `sidequest_semantic_three_copy_stem_sheet_three_hundred_eightieth/THREE_HUNDRED_EIGHTIETH_STEM_VARIANT_SHEET.md`.
 
-Next, test the six predicted wrapper substitutions one at a time in unchanged
-local contexts. Keep card identity, owner, cycle and neighbours fixed so that a
-failed back-reading cannot be repaired by changing the sentence.
+Pass 381 tests all six predictions one at a time while owner, microcycle,
+neighbours, card identity and the other thirteen surfaces remain fixed. Each of
+`or`, `chy`, `dy`, `shy`, `aiin` and `daiin` returns the same fourteen-value
+sequence as the third copy. See
+`sidequest_semantic_registered_wrapper_drill_three_hundred_eighty_first/THREE_HUNDRED_EIGHTY_FIRST_DRILL_BOOK.md`.
+
+Next, write a fourth complete copy using `or`, one newly exercised Y form and
+one newly exercised AIIN form together. Keep the other eleven choices fixed,
+then let a second reader reconstruct the owner-cycle-card calls without seeing
+the German glosses.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
