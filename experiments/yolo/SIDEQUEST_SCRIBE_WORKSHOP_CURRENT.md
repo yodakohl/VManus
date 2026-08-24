@@ -9251,8 +9251,15 @@ cards transfer unchanged from Herbal/B1 and no global network edge is added.
 See
 `sidequest_semantic_b2_station_book_five_hundred_thirty_third/FIVE_HUNDRED_THIRTY_THIRD_REPORT.md`.
 
-Next, publish f83r/B3-B6 with margin stations, the unresolved gap, linked pair,
-left fringe and right S-run kept as distinct owner domains.
+Pass 534 publishes the complete f83r/B3-B6 edition: 153 events, 79 exact cards,
+54 operating cells, 49 closed and five open cells, and ten record-bound visible
+owner modules. Three cells cross owner boundaries and explicitly say that no
+image edge connects the two stations. Thirty-six cards retain their earlier
+Herbal/B1/B2 values and no global circulation cycle is introduced. See
+`sidequest_semantic_f83_complete_edition_five_hundred_thirty_fourth/FIVE_HUNDRED_THIRTY_FOURTH_REPORT.md`.
+
+Next, merge f81v, f82r and f83r into one complete 281-event Biological edition
+with six records, 97 cells and sixteen local owner domains.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
