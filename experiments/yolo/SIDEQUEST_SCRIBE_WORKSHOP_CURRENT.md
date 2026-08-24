@@ -7620,8 +7620,15 @@ card-local palette plus the known s-at-line-entry and q-after-DY biases chooses
 The last twelve exact surfaces are copied details, not twelve new words. See
 `sidequest_semantic_bio_renderer_three_hundred_twelfth/THREE_HUNDRED_TWELFTH_RENDERER_MANUAL.md`.
 
-Next, use the semantic deck and free renderer to rewrite all six Biological
-records as a fresh but Voynich-fitting apprentice copy, then read it back.
+Pass 313 uses five local renderer habits to produce a genuinely fresh copy of
+all six Biological records. Sixty-nine of 281 visible forms change while every
+new form remains in the licensed palette of the same card. All 281 fresh
+surfaces reverse to the original identity, and all 97 German work sequences
+remain unchanged over forty physical lines. See
+`sidequest_semantic_fresh_bio_copy_three_hundred_thirteenth/THREE_HUNDRED_THIRTEENTH_SIX_RECORD_FRESH_COPY.md`.
+
+Next, compress and repair the 97 German Biological work sequences, removing
+sentence-sized card glosses and retaining one short action per card.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
