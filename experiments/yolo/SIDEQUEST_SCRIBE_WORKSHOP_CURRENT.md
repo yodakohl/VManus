@@ -9034,9 +9034,17 @@ covers 53 Bio statements and keeps owner, source and path separate from process
 order. See
 `sidequest_semantic_bio_form_reconciliation_five_hundred_fourth/FIVE_HUNDRED_FOURTH_REPORT.md`.
 
-Next, derive the smallest teachable transition machine over the eight
-primitives that admits all 116 statement programs while making the nine common
-Bio programs easy defaults.
+Pass 505 reduces the 72 statement programs to a five-state apprentice machine:
+START, WORK, AFTER_SOURCE, AFTER_METER and CLOSED. It accepts all 116
+statements. Of 56 possible primitive bigrams, 53 occur; only direct
+SOURCE_DRAW-to-MOVE_PASS, SOURCE_DRAW-to-TARGET_HANDOFF and
+METER_CHECK-to-CLOSE are absent and blocked. The nine common Bio programs stay
+preferred paths rather than separate lexical items. See
+`sidequest_semantic_statement_automaton_five_hundred_fifth/FIVE_HUNDRED_FIFTH_REPORT.md`.
+
+Next, compare Herbal and Biological start, transition and closure habits inside
+this shared machine, treating them as register or scribe habits rather than
+different underlying grammars.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these

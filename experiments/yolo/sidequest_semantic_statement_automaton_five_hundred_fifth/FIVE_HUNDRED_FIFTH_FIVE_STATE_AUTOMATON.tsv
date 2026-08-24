@@ -1,0 +1,41 @@
+state	input_primitive	verdict	next_state	apprentice_rule_de	accept_if_statement_ends_here
+START	ACTIVATE_CHARGE	ALLOW	WORK	Laufende Werkstatthandlung.	NO
+START	SOURCE_DRAW	ALLOW	AFTER_SOURCE	Quellbezug für die nächste Handlung aktiv.	NO
+START	METER_CHECK	ALLOW	AFTER_METER	Maß oder Stufe verlangt noch eine Ausführung.	NO
+START	TARGET_HANDOFF	ALLOW	WORK	Laufende Werkstatthandlung.	NO
+START	MOVE_PASS	ALLOW	WORK	Laufende Werkstatthandlung.	NO
+START	HOLD_STATE	ALLOW	WORK	Laufende Werkstatthandlung.	NO
+START	CONTINUE_USE	ALLOW	WORK	Laufende Werkstatthandlung.	NO
+START	CLOSE	REJECT	NONE	Eine leere Aussage darf nicht geschlossen werden.	NO
+WORK	ACTIVATE_CHARGE	ALLOW	WORK	Laufende Werkstatthandlung.	YES
+WORK	SOURCE_DRAW	ALLOW	AFTER_SOURCE	Quellbezug für die nächste Handlung aktiv.	YES
+WORK	METER_CHECK	ALLOW	AFTER_METER	Maß oder Stufe verlangt noch eine Ausführung.	YES
+WORK	TARGET_HANDOFF	ALLOW	WORK	Laufende Werkstatthandlung.	YES
+WORK	MOVE_PASS	ALLOW	WORK	Laufende Werkstatthandlung.	YES
+WORK	HOLD_STATE	ALLOW	WORK	Laufende Werkstatthandlung.	YES
+WORK	CONTINUE_USE	ALLOW	WORK	Laufende Werkstatthandlung.	YES
+WORK	CLOSE	ALLOW	CLOSED	Lokale Handlungskette schließen.	YES
+AFTER_SOURCE	ACTIVATE_CHARGE	ALLOW	WORK	Laufende Werkstatthandlung.	YES
+AFTER_SOURCE	SOURCE_DRAW	ALLOW	AFTER_SOURCE	Quellbezug für die nächste Handlung aktiv.	YES
+AFTER_SOURCE	METER_CHECK	ALLOW	AFTER_METER	Maß oder Stufe verlangt noch eine Ausführung.	YES
+AFTER_SOURCE	TARGET_HANDOFF	REJECT	NONE	Nach Quellenentnahme wird der Posten erst angesetzt, geprüft, gehalten oder fortgeführt.	YES
+AFTER_SOURCE	MOVE_PASS	REJECT	NONE	Nach Quellenentnahme wird der Posten erst angesetzt, geprüft, gehalten oder fortgeführt.	YES
+AFTER_SOURCE	HOLD_STATE	ALLOW	WORK	Laufende Werkstatthandlung.	YES
+AFTER_SOURCE	CONTINUE_USE	ALLOW	WORK	Laufende Werkstatthandlung.	YES
+AFTER_SOURCE	CLOSE	ALLOW	CLOSED	Lokale Handlungskette schließen.	YES
+AFTER_METER	ACTIVATE_CHARGE	ALLOW	WORK	Laufende Werkstatthandlung.	YES
+AFTER_METER	SOURCE_DRAW	ALLOW	AFTER_SOURCE	Quellbezug für die nächste Handlung aktiv.	YES
+AFTER_METER	METER_CHECK	ALLOW	AFTER_METER	Maß oder Stufe verlangt noch eine Ausführung.	YES
+AFTER_METER	TARGET_HANDOFF	ALLOW	WORK	Laufende Werkstatthandlung.	YES
+AFTER_METER	MOVE_PASS	ALLOW	WORK	Laufende Werkstatthandlung.	YES
+AFTER_METER	HOLD_STATE	ALLOW	WORK	Laufende Werkstatthandlung.	YES
+AFTER_METER	CONTINUE_USE	ALLOW	WORK	Laufende Werkstatthandlung.	YES
+AFTER_METER	CLOSE	REJECT	NONE	Nach einer Maßprüfung folgt erst eine Handlung oder ein Zustand.	YES
+CLOSED	ACTIVATE_CHARGE	REJECT	NONE	Nach CLOSE darf keine weitere Karte folgen.	YES
+CLOSED	SOURCE_DRAW	REJECT	NONE	Nach CLOSE darf keine weitere Karte folgen.	YES
+CLOSED	METER_CHECK	REJECT	NONE	Nach CLOSE darf keine weitere Karte folgen.	YES
+CLOSED	TARGET_HANDOFF	REJECT	NONE	Nach CLOSE darf keine weitere Karte folgen.	YES
+CLOSED	MOVE_PASS	REJECT	NONE	Nach CLOSE darf keine weitere Karte folgen.	YES
+CLOSED	HOLD_STATE	REJECT	NONE	Nach CLOSE darf keine weitere Karte folgen.	YES
+CLOSED	CONTINUE_USE	REJECT	NONE	Nach CLOSE darf keine weitere Karte folgen.	YES
+CLOSED	CLOSE	REJECT	NONE	Nach CLOSE darf keine weitere Karte folgen.	YES
