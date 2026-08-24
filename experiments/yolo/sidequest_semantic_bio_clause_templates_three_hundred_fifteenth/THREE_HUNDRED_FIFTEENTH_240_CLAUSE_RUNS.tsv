@@ -1,0 +1,241 @@
+run_id	statement_id	record_unit_id	page	mode	template_head_de	slot_order	event_ids	surfaces	atomic_lexemes	event_count	compact_clause_de	link_to_next
+B1-S001-R01	B1-S001	B1	f81v	TREAT	BEHANDELN	POSTEN > optionaler GRAD > Kontakt/Wärme/Befestigung	E101	qokedy	Kurzkontakt	1	BEHANDELN: Kurzkontakt	END
+B1-S002-R01	B1-S002	B1	f81v	MEASURE	EINSTELLEN	MASS/PORTION/STUFE > laufender Posten	E102	qokaiin	bemessen	1	EINSTELLEN: bemessen	DANN
+B1-S002-R02	B1-S002	B1	f81v	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E103	kair	Beckenlauf	1	STEUERN: Beckenlauf	DANN
+B1-S002-R03	B1-S002	B1	f81v	CHARGE	EINBRINGEN	QUELLE/ANTEIL > EINSATZ/TRANSFER > optionales ZIEL	E104	okal	Orteinsatz	1	EINBRINGEN: Orteinsatz	DANN
+B1-S002-R04	B1-S002	B1	f81v	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E105|E106	char ol	davon|weiter	2	STEUERN: davon – weiter	DANN
+B1-S002-R05	B1-S002	B1	f81v	CHARGE	EINBRINGEN	QUELLE/ANTEIL > EINSATZ/TRANSFER > optionales ZIEL	E107|E108	kain olkain	Portion|Folgeportion	2	EINBRINGEN: Portion – Folgeportion	DANN
+B1-S002-R06	B1-S002	B1	f81v	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E109|E110|E111	al ol rol	dorthin|weiter|Anschluss	3	STEUERN: dorthin – weiter – Anschluss	DANN
+B1-S002-R07	B1-S002	B1	f81v	CHARGE	EINBRINGEN	QUELLE/ANTEIL > EINSATZ/TRANSFER > optionales ZIEL	E112|E113	dl olor	Zusatz|Gleichansatz	2	EINBRINGEN: Zusatz – Gleichansatz	DANN
+B1-S002-R08	B1-S002	B1	f81v	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E114	ol	weiter	1	STEUERN: weiter	DANN
+B1-S002-R09	B1-S002	B1	f81v	PASS_FILTER	DURCHARBEITEN	POSTEN > Wasch-/Durchlass-/Trennweg > Ablauf	E115	sheckhal	Zielkurzpassage	1	DURCHARBEITEN: Zielkurzpassage	DANN
+B1-S002-R10	B1-S002	B1	f81v	MEASURE	EINSTELLEN	MASS/PORTION/STUFE > laufender Posten	E116	aiin	Sollmaß	1	EINSTELLEN: Sollmaß	DANN
+B1-S002-R11	B1-S002	B1	f81v	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E117	qokeedal	Ziellanghalt	1	STEUERN: Ziellanghalt	DANN
+B1-S002-R12	B1-S002	B1	f81v	MEASURE	EINSTELLEN	MASS/PORTION/STUFE > laufender Posten	E118	aiin	Sollmaß	1	EINSTELLEN: Sollmaß	DANN
+B1-S002-R13	B1-S002	B1	f81v	PASS_FILTER	DURCHARBEITEN	POSTEN > Wasch-/Durchlass-/Trennweg > Ablauf	E119	chckhy	durchleiten	1	DURCHARBEITEN: durchleiten	DANN
+B1-S002-R14	B1-S002	B1	f81v	CHARGE	EINBRINGEN	QUELLE/ANTEIL > EINSATZ/TRANSFER > optionales ZIEL	E120	schedy	überführen	1	EINBRINGEN: überführen	END
+B1-S003-R01	B1-S003	B1	f81v	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E121	qol	weiter	1	STEUERN: weiter	DANN
+B1-S003-R02	B1-S003	B1	f81v	CHARGE	EINBRINGEN	QUELLE/ANTEIL > EINSATZ/TRANSFER > optionales ZIEL	E122	sshkchdy	übertragen	1	EINBRINGEN: übertragen	END
+B1-S004-R01	B1-S004	B1	f81v	CHARGE	EINBRINGEN	QUELLE/ANTEIL > EINSATZ/TRANSFER > optionales ZIEL	E123	chdy	überführen	1	EINBRINGEN: überführen	DANN
+B1-S004-R02	B1-S004	B1	f81v	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E124	ol	weiter	1	STEUERN: weiter	DANN
+B1-S004-R03	B1-S004	B1	f81v	SETTLE	ABSETZEN	POSTEN > optionaler GRAD/SOLLWERT > Ruhe/Sammlung	E125	cheedy	Kurzabsetzung	1	ABSETZEN: Kurzabsetzung	END
+B1-S005-R01	B1-S005	B1	f81v	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E126	qolchedy	weiterführen	1	STEUERN: weiterführen	END
+B1-S006-R01	B1-S006	B1	f81v	CHARGE	EINBRINGEN	QUELLE/ANTEIL > EINSATZ/TRANSFER > optionales ZIEL	E127	qokain	Zugabe	1	EINBRINGEN: Zugabe	DANN
+B1-S006-R02	B1-S006	B1	f81v	PASS_FILTER	DURCHARBEITEN	POSTEN > Wasch-/Durchlass-/Trennweg > Ablauf	E128	chckhy	durchleiten	1	DURCHARBEITEN: durchleiten	DANN
+B1-S006-R03	B1-S006	B1	f81v	CHARGE	EINBRINGEN	QUELLE/ANTEIL > EINSATZ/TRANSFER > optionales ZIEL	E129	dl	Zusatz	1	EINBRINGEN: Zusatz	DANN
+B1-S006-R04	B1-S006	B1	f81v	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E130	ral	Zielmarke	1	STEUERN: Zielmarke	END
+B1-S007-R01	B1-S007	B1	f81v	CHARGE	EINBRINGEN	QUELLE/ANTEIL > EINSATZ/TRANSFER > optionales ZIEL	E131	qokchdy	Neueinsatz	1	EINBRINGEN: Neueinsatz	END
+B1-S008-R01	B1-S008	B1	f81v	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E132|E133	y ol	dies|weiter	2	STEUERN: dies – weiter	DANN
+B1-S008-R02	B1-S008	B1	f81v	TREAT	BEHANDELN	POSTEN > optionaler GRAD > Kontakt/Wärme/Befestigung	E134	cheky	Kurzwärme	1	BEHANDELN: Kurzwärme	DANN
+B1-S008-R03	B1-S008	B1	f81v	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E135	ol	weiter	1	STEUERN: weiter	DANN
+B1-S008-R04	B1-S008	B1	f81v	SETTLE	ABSETZEN	POSTEN > optionaler GRAD/SOLLWERT > Ruhe/Sammlung	E136	cheedy	Kurzabsetzung	1	ABSETZEN: Kurzabsetzung	END
+B1-S009-R01	B1-S009	B1	f81v	TREAT	BEHANDELN	POSTEN > optionaler GRAD > Kontakt/Wärme/Befestigung	E137	qokedy	Kurzkontakt	1	BEHANDELN: Kurzkontakt	END
+B1-S010-R01	B1-S010	B1	f81v	TREAT	BEHANDELN	POSTEN > optionaler GRAD > Kontakt/Wärme/Befestigung	E138	qokedy	Kurzkontakt	1	BEHANDELN: Kurzkontakt	END
+B1-S011-R01	B1-S011	B1	f81v	PASS_FILTER	DURCHARBEITEN	POSTEN > Wasch-/Durchlass-/Trennweg > Ablauf	E139	chckhy	durchleiten	1	DURCHARBEITEN: durchleiten	DANN
+B1-S011-R02	B1-S011	B1	f81v	CHARGE	EINBRINGEN	QUELLE/ANTEIL > EINSATZ/TRANSFER > optionales ZIEL	E140	oky	einsetzen	1	EINBRINGEN: einsetzen	END
+B1-S012-R01	B1-S012	B1	f81v	PASS_FILTER	DURCHARBEITEN	POSTEN > Wasch-/Durchlass-/Trennweg > Ablauf	E141	lsho	Waschgang	1	DURCHARBEITEN: Waschgang	DANN
+B1-S012-R02	B1-S012	B1	f81v	TREAT	BEHANDELN	POSTEN > optionaler GRAD > Kontakt/Wärme/Befestigung	E142	okey	Kurzkontakt	1	BEHANDELN: Kurzkontakt	DANN
+B1-S012-R03	B1-S012	B1	f81v	PASS_FILTER	DURCHARBEITEN	POSTEN > Wasch-/Durchlass-/Trennweg > Ablauf	E143	lshedy	Waschgang	1	DURCHARBEITEN: Waschgang	END
+B1-S013-R01	B1-S013	B1	f81v	PASS_FILTER	DURCHARBEITEN	POSTEN > Wasch-/Durchlass-/Trennweg > Ablauf	E144	lshedy	Waschgang	1	DURCHARBEITEN: Waschgang	END
+B1-S014-R01	B1-S014	B1	f81v	CHARGE	EINBRINGEN	QUELLE/ANTEIL > EINSATZ/TRANSFER > optionales ZIEL	E145	chdy	überführen	1	EINBRINGEN: überführen	DANN
+B1-S014-R02	B1-S014	B1	f81v	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E146	qolky	Weiterweg	1	STEUERN: Weiterweg	DANN
+B1-S014-R03	B1-S014	B1	f81v	DISCHARGE	ABFÜHREN	POSTEN/QUELLE > Abzug/Transfer > optionales ZIEL	E147	lchedal	Zielabführung	1	ABFÜHREN: Zielabführung	DANN
+B1-S014-R04	B1-S014	B1	f81v	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E148|E149	ol otar	weiter|Folgequelle	2	STEUERN: weiter – Folgequelle	END
+B1-S015-R01	B1-S015	B1	f81v	CHARGE	EINBRINGEN	QUELLE/ANTEIL > EINSATZ/TRANSFER > optionales ZIEL	E150|E151	ytey okchedy	Kurzteil|Rücktransfer	2	EINBRINGEN: Kurzteil – Rücktransfer	END
+B1-S016-R01	B1-S016	B1	f81v	CHARGE	EINBRINGEN	QUELLE/ANTEIL > EINSATZ/TRANSFER > optionales ZIEL	E152	qokal	Orteinsatz	1	EINBRINGEN: Orteinsatz	DANN
+B1-S016-R02	B1-S016	B1	f81v	TREAT	BEHANDELN	POSTEN > optionaler GRAD > Kontakt/Wärme/Befestigung	E153	okeey	Langkontakt	1	BEHANDELN: Langkontakt	DANN
+B1-S016-R03	B1-S016	B1	f81v	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E154	ol	weiter	1	STEUERN: weiter	DANN
+B1-S016-R04	B1-S016	B1	f81v	SETTLE	ABSETZEN	POSTEN > optionaler GRAD/SOLLWERT > Ruhe/Sammlung	E155	cheedy	Kurzabsetzung	1	ABSETZEN: Kurzabsetzung	END
+B1-S017-R01	B1-S017	B1	f81v	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E156|E157	al teol	dorthin|Kurzfortgang	2	STEUERN: dorthin – Kurzfortgang	DANN
+B1-S017-R02	B1-S017	B1	f81v	CHARGE	EINBRINGEN	QUELLE/ANTEIL > EINSATZ/TRANSFER > optionales ZIEL	E158	dchdy	Transfer	1	EINBRINGEN: Transfer	END
+B1-S018-R01	B1-S018	B1	f81v	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E159|E160	ly dsheol	Auffanggefäß|Kurzhalt	2	STEUERN: Auffanggefäß – Kurzhalt	DANN
+B1-S018-R02	B1-S018	B1	f81v	MEASURE	EINSTELLEN	MASS/PORTION/STUFE > laufender Posten	E161	oiiin	Arbeitsstufe	1	EINSTELLEN: Arbeitsstufe	DANN
+B1-S018-R03	B1-S018	B1	f81v	SETTLE	ABSETZEN	POSTEN > optionaler GRAD/SOLLWERT > Ruhe/Sammlung	E162	olkeedy	Langsammlung	1	ABSETZEN: Langsammlung	END
+B1-S019-R01	B1-S019	B1	f81v	SETTLE	ABSETZEN	POSTEN > optionaler GRAD/SOLLWERT > Ruhe/Sammlung	E163	cheedy	Kurzabsetzung	1	ABSETZEN: Kurzabsetzung	END
+B1-S020-R01	B1-S020	B1	f81v	TREAT	BEHANDELN	POSTEN > optionaler GRAD > Kontakt/Wärme/Befestigung	E164	cheky	Kurzwärme	1	BEHANDELN: Kurzwärme	DANN
+B1-S020-R02	B1-S020	B1	f81v	PASS_FILTER	DURCHARBEITEN	POSTEN > Wasch-/Durchlass-/Trennweg > Ablauf	E165	shckhedy	durchlassen	1	DURCHARBEITEN: durchlassen	END
+B1-S021-R01	B1-S021	B1	f81v	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E166	al	dorthin	1	STEUERN: dorthin	END
+B2-S001-R01	B2-S001	B2	f82r	CHARGE	EINBRINGEN	QUELLE/ANTEIL > EINSATZ/TRANSFER > optionales ZIEL	E167	schedy	überführen	1	EINBRINGEN: überführen	END
+B2-S002-R01	B2-S002	B2	f82r	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E168	qolchedy	weiterführen	1	STEUERN: weiterführen	END
+B2-S003-R01	B2-S003	B2	f82r	CHARGE	EINBRINGEN	QUELLE/ANTEIL > EINSATZ/TRANSFER > optionales ZIEL	E169	qokain	Zugabe	1	EINBRINGEN: Zugabe	DANN
+B2-S003-R02	B2-S003	B2	f82r	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E170	y	dies	1	STEUERN: dies	DANN
+B2-S003-R03	B2-S003	B2	f82r	TREAT	BEHANDELN	POSTEN > optionaler GRAD > Kontakt/Wärme/Befestigung	E171	qokeedy	Langkontakt	1	BEHANDELN: Langkontakt	END
+B2-S004-R01	B2-S004	B2	f82r	CHARGE	EINBRINGEN	QUELLE/ANTEIL > EINSATZ/TRANSFER > optionales ZIEL	E172	qokal	Orteinsatz	1	EINBRINGEN: Orteinsatz	DANN
+B2-S004-R02	B2-S004	B2	f82r	DISCHARGE	ABFÜHREN	POSTEN/QUELLE > Abzug/Transfer > optionales ZIEL	E173|E174	lcheckhy lched	Abführpassage|Abführung	2	ABFÜHREN: Abführpassage – Abführung	DANN
+B2-S004-R03	B2-S004	B2	f82r	TREAT	BEHANDELN	POSTEN > optionaler GRAD > Kontakt/Wärme/Befestigung	E175	qokeey	Langkontakt	1	BEHANDELN: Langkontakt	DANN
+B2-S004-R04	B2-S004	B2	f82r	DISCHARGE	ABFÜHREN	POSTEN/QUELLE > Abzug/Transfer > optionales ZIEL	E176	lcheckhedy	Trennabzug	1	ABFÜHREN: Trennabzug	END
+B2-S005-R01	B2-S005	B2	f82r	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E177|E178	qokaly solkaiin	Zieleinsatz|Sollsammlung	2	STEUERN: Zieleinsatz – Sollsammlung	DANN
+B2-S005-R02	B2-S005	B2	f82r	PASS_FILTER	DURCHARBEITEN	POSTEN > Wasch-/Durchlass-/Trennweg > Ablauf	E179	chckhy	durchleiten	1	DURCHARBEITEN: durchleiten	DANN
+B2-S005-R03	B2-S005	B2	f82r	MEASURE	EINSTELLEN	MASS/PORTION/STUFE > laufender Posten	E180|E181	qokaiin qokaiin	bemessen|bemessen	2	EINSTELLEN: bemessen – bemessen	DANN
+B2-S005-R04	B2-S005	B2	f82r	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E182	octheol	Folgevorbereitung	1	STEUERN: Folgevorbereitung	DANN
+B2-S005-R05	B2-S005	B2	f82r	TREAT	BEHANDELN	POSTEN > optionaler GRAD > Kontakt/Wärme/Befestigung	E183	chkeey	Langwärmen	1	BEHANDELN: Langwärmen	DANN
+B2-S005-R06	B2-S005	B2	f82r	DISCHARGE	ABFÜHREN	POSTEN/QUELLE > Abzug/Transfer > optionales ZIEL	E184	ldy	abziehen	1	ABFÜHREN: abziehen	END
+B2-S006-R01	B2-S006	B2	f82r	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E185	oteey	Langfolge	1	STEUERN: Langfolge	DANN
+B2-S006-R02	B2-S006	B2	f82r	CHARGE	EINBRINGEN	QUELLE/ANTEIL > EINSATZ/TRANSFER > optionales ZIEL	E186	qokal	Orteinsatz	1	EINBRINGEN: Orteinsatz	DANN
+B2-S006-R03	B2-S006	B2	f82r	PASS_FILTER	DURCHARBEITEN	POSTEN > Wasch-/Durchlass-/Trennweg > Ablauf	E187	sheckhy	Kurzpassage	1	DURCHARBEITEN: Kurzpassage	DANN
+B2-S006-R04	B2-S006	B2	f82r	CHARGE	EINBRINGEN	QUELLE/ANTEIL > EINSATZ/TRANSFER > optionales ZIEL	E188	qoky	einsetzen	1	EINBRINGEN: einsetzen	END
+B2-S007-R01	B2-S007	B2	f82r	CHARGE	EINBRINGEN	QUELLE/ANTEIL > EINSATZ/TRANSFER > optionales ZIEL	E189	dshedy	Frischspülung	1	EINBRINGEN: Frischspülung	END
+B2-S008-R01	B2-S008	B2	f82r	MEASURE	EINSTELLEN	MASS/PORTION/STUFE > laufender Posten	E190	otaiin	Folgemaß	1	EINSTELLEN: Folgemaß	DANN
+B2-S008-R02	B2-S008	B2	f82r	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E191	qokar	Quelleinsatz	1	STEUERN: Quelleinsatz	DANN
+B2-S008-R03	B2-S008	B2	f82r	SETTLE	ABSETZEN	POSTEN > optionaler GRAD/SOLLWERT > Ruhe/Sammlung	E192	cheedy	Kurzabsetzung	1	ABSETZEN: Kurzabsetzung	END
+B2-S009-R01	B2-S009	B2	f82r	SETTLE	ABSETZEN	POSTEN > optionaler GRAD/SOLLWERT > Ruhe/Sammlung	E193	solshedy	Folgeabsetzen	1	ABSETZEN: Folgeabsetzen	END
+B2-S010-R01	B2-S010	B2	f82r	TREAT	BEHANDELN	POSTEN > optionaler GRAD > Kontakt/Wärme/Befestigung	E194	qokeey	Langkontakt	1	BEHANDELN: Langkontakt	DANN
+B2-S010-R02	B2-S010	B2	f82r	CHARGE	EINBRINGEN	QUELLE/ANTEIL > EINSATZ/TRANSFER > optionales ZIEL	E195	qoky	einsetzen	1	EINBRINGEN: einsetzen	DANN
+B2-S010-R03	B2-S010	B2	f82r	DISCHARGE	ABFÜHREN	POSTEN/QUELLE > Abzug/Transfer > optionales ZIEL	E196	ls	Auslass	1	ABFÜHREN: Auslass	DANN
+B2-S010-R04	B2-S010	B2	f82r	PASS_FILTER	DURCHARBEITEN	POSTEN > Wasch-/Durchlass-/Trennweg > Ablauf	E197	cheey	Klarlauf	1	DURCHARBEITEN: Klarlauf	END
+B2-S011-R01	B2-S011	B2	f82r	CHARGE	EINBRINGEN	QUELLE/ANTEIL > EINSATZ/TRANSFER > optionales ZIEL	E198	qokain	Zugabe	1	EINBRINGEN: Zugabe	DANN
+B2-S011-R02	B2-S011	B2	f82r	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E199	char	davon	1	STEUERN: davon	DANN
+B2-S011-R03	B2-S011	B2	f82r	CHARGE	EINBRINGEN	QUELLE/ANTEIL > EINSATZ/TRANSFER > optionales ZIEL	E200	qokain	Zugabe	1	EINBRINGEN: Zugabe	DANN
+B2-S011-R04	B2-S011	B2	f82r	TREAT	BEHANDELN	POSTEN > optionaler GRAD > Kontakt/Wärme/Befestigung	E201	qokeedy	Langkontakt	1	BEHANDELN: Langkontakt	END
+B2-S012-R01	B2-S012	B2	f82r	DISCHARGE	ABFÜHREN	POSTEN/QUELLE > Abzug/Transfer > optionales ZIEL	E202	lchy	Abführgut	1	ABFÜHREN: Abführgut	DANN
+B2-S012-R02	B2-S012	B2	f82r	PASS_FILTER	DURCHARBEITEN	POSTEN > Wasch-/Durchlass-/Trennweg > Ablauf	E203	cheey	Klarlauf	1	DURCHARBEITEN: Klarlauf	DANN
+B2-S012-R03	B2-S012	B2	f82r	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E204	qcthey	Kurzvorbereitung	1	STEUERN: Kurzvorbereitung	DANN
+B2-S012-R04	B2-S012	B2	f82r	TREAT	BEHANDELN	POSTEN > optionaler GRAD > Kontakt/Wärme/Befestigung	E205	qokeey	Langkontakt	1	BEHANDELN: Langkontakt	DANN
+B2-S012-R05	B2-S012	B2	f82r	DISCHARGE	ABFÜHREN	POSTEN/QUELLE > Abzug/Transfer > optionales ZIEL	E206	lcheey	Klarabzug	1	ABFÜHREN: Klarabzug	DANN
+B2-S012-R06	B2-S012	B2	f82r	MEASURE	EINSTELLEN	MASS/PORTION/STUFE > laufender Posten	E207	aiin	Sollmaß	1	EINSTELLEN: Sollmaß	DANN
+B2-S012-R07	B2-S012	B2	f82r	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E208|E209	y qokeeedy	dies|Volleinsatz	2	STEUERN: dies – Volleinsatz	END
+B2-S013-R01	B2-S013	B2	f82r	DISCHARGE	ABFÜHREN	POSTEN/QUELLE > Abzug/Transfer > optionales ZIEL	E210	lchedy	abführen	1	ABFÜHREN: abführen	END
+B2-S014-R01	B2-S014	B2	f82r	DISCHARGE	ABFÜHREN	POSTEN/QUELLE > Abzug/Transfer > optionales ZIEL	E211	lar	Quellabzug	1	ABFÜHREN: Quellabzug	END
+B2-S015-R01	B2-S015	B2	f82r	PASS_FILTER	DURCHARBEITEN	POSTEN > Wasch-/Durchlass-/Trennweg > Ablauf	E212	tshey	Folgeklarlauf	1	DURCHARBEITEN: Folgeklarlauf	DANN
+B2-S015-R02	B2-S015	B2	f82r	TREAT	BEHANDELN	POSTEN > optionaler GRAD > Kontakt/Wärme/Befestigung	E213	qokeedy	Langkontakt	1	BEHANDELN: Langkontakt	END
+B2-S016-R01	B2-S016	B2	f82r	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E214	al	dorthin	1	STEUERN: dorthin	DANN
+B2-S016-R02	B2-S016	B2	f82r	DISCHARGE	ABFÜHREN	POSTEN/QUELLE > Abzug/Transfer > optionales ZIEL	E215	lchedar	Quellabführung	1	ABFÜHREN: Quellabführung	DANN
+B2-S016-R03	B2-S016	B2	f82r	MEASURE	EINSTELLEN	MASS/PORTION/STUFE > laufender Posten	E216|E217	ches aiin	teilen|Sollmaß	2	EINSTELLEN: teilen – Sollmaß	DANN
+B2-S016-R04	B2-S016	B2	f82r	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E218	oteey	Langfolge	1	STEUERN: Langfolge	DANN
+B2-S016-R05	B2-S016	B2	f82r	MEASURE	EINSTELLEN	MASS/PORTION/STUFE > laufender Posten	E219	qokaiin	bemessen	1	EINSTELLEN: bemessen	DANN
+B2-S016-R06	B2-S016	B2	f82r	TREAT	BEHANDELN	POSTEN > optionaler GRAD > Kontakt/Wärme/Befestigung	E220	qokey	Kurzkontakt	1	BEHANDELN: Kurzkontakt	DANN
+B2-S016-R07	B2-S016	B2	f82r	CHARGE	EINBRINGEN	QUELLE/ANTEIL > EINSATZ/TRANSFER > optionales ZIEL	E221	pchedy	Zuführung	1	EINBRINGEN: Zuführung	END
+B2-S017-R01	B2-S017	B2	f82r	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E222|E223	rsheal daldy	Zielkurzhalt|Zielschluss	2	STEUERN: Zielkurzhalt – Zielschluss	END
+B2-S018-R01	B2-S018	B2	f82r	TREAT	BEHANDELN	POSTEN > optionaler GRAD > Kontakt/Wärme/Befestigung	E224	qokeedy	Langkontakt	1	BEHANDELN: Langkontakt	END
+B2-S019-R01	B2-S019	B2	f82r	PASS_FILTER	DURCHARBEITEN	POSTEN > Wasch-/Durchlass-/Trennweg > Ablauf	E225	rshedy	Vollwaschung	1	DURCHARBEITEN: Vollwaschung	END
+B2-S020-R01	B2-S020	B2	f82r	MEASURE	EINSTELLEN	MASS/PORTION/STUFE > laufender Posten	E226	qoteedy	Langfolgestufe	1	EINSTELLEN: Langfolgestufe	END
+B2-S021-R01	B2-S021	B2	f82r	TREAT	BEHANDELN	POSTEN > optionaler GRAD > Kontakt/Wärme/Befestigung	E227	qokeedy	Langkontakt	1	BEHANDELN: Langkontakt	END
+B2-S022-R01	B2-S022	B2	f82r	DISCHARGE	ABFÜHREN	POSTEN/QUELLE > Abzug/Transfer > optionales ZIEL	E228	lochedy	Abführung	1	ABFÜHREN: Abführung	END
+B3-S001-R01	B3-S001	B3	f83r	SETTLE	ABSETZEN	POSTEN > optionaler GRAD/SOLLWERT > Ruhe/Sammlung	E229	solkeedy	Langsammlung	1	ABSETZEN: Langsammlung	END
+B3-S002-R01	B3-S002	B3	f83r	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E230	qotal	Folgeziel	1	STEUERN: Folgeziel	DANN
+B3-S002-R02	B3-S002	B3	f83r	TREAT	BEHANDELN	POSTEN > optionaler GRAD > Kontakt/Wärme/Befestigung	E231	chkeedy	Langwärmen	1	BEHANDELN: Langwärmen	END
+B3-S003-R01	B3-S003	B3	f83r	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E232	dy	dies	1	STEUERN: dies	DANN
+B3-S003-R02	B3-S003	B3	f83r	MEASURE	EINSTELLEN	MASS/PORTION/STUFE > laufender Posten	E233	daiin	Sollmaß	1	EINSTELLEN: Sollmaß	DANN
+B3-S003-R03	B3-S003	B3	f83r	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E234	dy	dies	1	STEUERN: dies	DANN
+B3-S003-R04	B3-S003	B3	f83r	DISCHARGE	ABFÜHREN	POSTEN/QUELLE > Abzug/Transfer > optionales ZIEL	E235	lchedy	abführen	1	ABFÜHREN: abführen	END
+B3-S004-R01	B3-S004	B3	f83r	MEASURE	EINSTELLEN	MASS/PORTION/STUFE > laufender Posten	E236	qokaiin	bemessen	1	EINSTELLEN: bemessen	DANN
+B3-S004-R02	B3-S004	B3	f83r	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E237|E238	otal dar	Folgeziel|davon	2	STEUERN: Folgeziel – davon	END
+B3-S005-R01	B3-S005	B3	f83r	CHARGE	EINBRINGEN	QUELLE/ANTEIL > EINSATZ/TRANSFER > optionales ZIEL	E239	schedy	überführen	1	EINBRINGEN: überführen	END
+B3-S006-R01	B3-S006	B3	f83r	CHARGE	EINBRINGEN	QUELLE/ANTEIL > EINSATZ/TRANSFER > optionales ZIEL	E240|E241	chedchy okal	Postentransfer|Orteinsatz	2	EINBRINGEN: Postentransfer – Orteinsatz	DANN
+B3-S006-R02	B3-S006	B3	f83r	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E242	olchedy	weiterführen	1	STEUERN: weiterführen	END
+B3-S007-R01	B3-S007	B3	f83r	MEASURE	EINSTELLEN	MASS/PORTION/STUFE > laufender Posten	E243	qokaiin	bemessen	1	EINSTELLEN: bemessen	DANN
+B3-S007-R02	B3-S007	B3	f83r	CHARGE	EINBRINGEN	QUELLE/ANTEIL > EINSATZ/TRANSFER > optionales ZIEL	E244	chedy	überführen	1	EINBRINGEN: überführen	DANN
+B3-S007-R03	B3-S007	B3	f83r	TREAT	BEHANDELN	POSTEN > optionaler GRAD > Kontakt/Wärme/Befestigung	E245	qokeedy	Langkontakt	1	BEHANDELN: Langkontakt	END
+B3-S008-R01	B3-S008	B3	f83r	DISCHARGE	ABFÜHREN	POSTEN/QUELLE > Abzug/Transfer > optionales ZIEL	E246	lchedy	abführen	1	ABFÜHREN: abführen	END
+B3-S009-R01	B3-S009	B3	f83r	CHARGE	EINBRINGEN	QUELLE/ANTEIL > EINSATZ/TRANSFER > optionales ZIEL	E247	qoky	einsetzen	1	EINBRINGEN: einsetzen	END
+B3-S010-R01	B3-S010	B3	f83r	CHARGE	EINBRINGEN	QUELLE/ANTEIL > EINSATZ/TRANSFER > optionales ZIEL	E248	pchedal	Zielzuführung	1	EINBRINGEN: Zielzuführung	DANN
+B3-S010-R02	B3-S010	B3	f83r	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E249	otedy	Kurzfolge	1	STEUERN: Kurzfolge	END
+B3-S011-R01	B3-S011	B3	f83r	CHARGE	EINBRINGEN	QUELLE/ANTEIL > EINSATZ/TRANSFER > optionales ZIEL	E250|E251|E252	shecthedchy choky chedy	Vorbereitungstransfer|einsetzen|überführen	3	EINBRINGEN: Vorbereitungstransfer – einsetzen – überführen	DANN
+B3-S011-R02	B3-S011	B3	f83r	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E253	chary	Quellposten	1	STEUERN: Quellposten	END
+B3-S012-R01	B3-S012	B3	f83r	CHARGE	EINBRINGEN	QUELLE/ANTEIL > EINSATZ/TRANSFER > optionales ZIEL	E254	sor	Ansatz	1	EINBRINGEN: Ansatz	DANN
+B3-S012-R02	B3-S012	B3	f83r	SETTLE	ABSETZEN	POSTEN > optionaler GRAD/SOLLWERT > Ruhe/Sammlung	E255	tedy	Kurzabsetzung	1	ABSETZEN: Kurzabsetzung	END
+B3-S013-R01	B3-S013	B3	f83r	MEASURE	EINSTELLEN	MASS/PORTION/STUFE > laufender Posten	E256	qokaiin	bemessen	1	EINSTELLEN: bemessen	DANN
+B3-S013-R02	B3-S013	B3	f83r	CHARGE	EINBRINGEN	QUELLE/ANTEIL > EINSATZ/TRANSFER > optionales ZIEL	E257	chkain	Portion	1	EINBRINGEN: Portion	DANN
+B3-S013-R03	B3-S013	B3	f83r	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E258	qcthey	Kurzvorbereitung	1	STEUERN: Kurzvorbereitung	DANN
+B3-S013-R04	B3-S013	B3	f83r	TREAT	BEHANDELN	POSTEN > optionaler GRAD > Kontakt/Wärme/Befestigung	E259	qokedy	Kurzkontakt	1	BEHANDELN: Kurzkontakt	END
+B3-S014-R01	B3-S014	B3	f83r	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E260	okair	Laufeinsatz	1	STEUERN: Laufeinsatz	DANN
+B3-S014-R02	B3-S014	B3	f83r	SETTLE	ABSETZEN	POSTEN > optionaler GRAD/SOLLWERT > Ruhe/Sammlung	E261	sheedy	Langabsetzen	1	ABSETZEN: Langabsetzen	END
+B3-S015-R01	B3-S015	B3	f83r	DISCHARGE	ABFÜHREN	POSTEN/QUELLE > Abzug/Transfer > optionales ZIEL	E262	lchedy	abführen	1	ABFÜHREN: abführen	END
+B3-S016-R01	B3-S016	B3	f83r	DISCHARGE	ABFÜHREN	POSTEN/QUELLE > Abzug/Transfer > optionales ZIEL	E263	lo	Abzug	1	ABFÜHREN: Abzug	DANN
+B3-S016-R02	B3-S016	B3	f83r	CHARGE	EINBRINGEN	QUELLE/ANTEIL > EINSATZ/TRANSFER > optionales ZIEL	E264	okchedy	Rücktransfer	1	EINBRINGEN: Rücktransfer	END
+B3-S017-R01	B3-S017	B3	f83r	TREAT	BEHANDELN	POSTEN > optionaler GRAD > Kontakt/Wärme/Befestigung	E265	qokeedy	Langkontakt	1	BEHANDELN: Langkontakt	END
+B3-S018-R01	B3-S018	B3	f83r	SETTLE	ABSETZEN	POSTEN > optionaler GRAD/SOLLWERT > Ruhe/Sammlung	E266	tedy	Kurzabsetzung	1	ABSETZEN: Kurzabsetzung	END
+B3-S019-R01	B3-S019	B3	f83r	SETTLE	ABSETZEN	POSTEN > optionaler GRAD/SOLLWERT > Ruhe/Sammlung	E267	qokshedy	Einsatzabsetzen	1	ABSETZEN: Einsatzabsetzen	END
+B3-S020-R01	B3-S020	B3	f83r	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E268	dal	dorthin	1	STEUERN: dorthin	DANN
+B3-S020-R02	B3-S020	B3	f83r	DISCHARGE	ABFÜHREN	POSTEN/QUELLE > Abzug/Transfer > optionales ZIEL	E269	lchedy	abführen	1	ABFÜHREN: abführen	END
+B3-S021-R01	B3-S021	B3	f83r	MEASURE	EINSTELLEN	MASS/PORTION/STUFE > laufender Posten	E270	qokaiin	bemessen	1	EINSTELLEN: bemessen	DANN
+B3-S021-R02	B3-S021	B3	f83r	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E271|E272|E273	checthy dal dy	bereit|dorthin|dies	3	STEUERN: bereit – dorthin – dies	DANN
+B3-S021-R03	B3-S021	B3	f83r	MEASURE	EINSTELLEN	MASS/PORTION/STUFE > laufender Posten	E274	saiin	Sollmaß	1	EINSTELLEN: Sollmaß	DANN
+B3-S021-R04	B3-S021	B3	f83r	SETTLE	ABSETZEN	POSTEN > optionaler GRAD/SOLLWERT > Ruhe/Sammlung	E275	shedal	Zielabsetzung	1	ABSETZEN: Zielabsetzung	DANN
+B3-S021-R05	B3-S021	B3	f83r	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E276|E277|E278|E279	shecthy dy dal checthy	Kurzvorbereitung|dies|dorthin|bereit	4	STEUERN: Kurzvorbereitung – dies – dorthin – bereit	DANN
+B3-S021-R06	B3-S021	B3	f83r	CHARGE	EINBRINGEN	QUELLE/ANTEIL > EINSATZ/TRANSFER > optionales ZIEL	E280	dalchdy	Zieltransfer	1	EINBRINGEN: Zieltransfer	END
+B3-S022-R01	B3-S022	B3	f83r	CHARGE	EINBRINGEN	QUELLE/ANTEIL > EINSATZ/TRANSFER > optionales ZIEL	E281	qotchedy	Folgetransfer	1	EINBRINGEN: Folgetransfer	END
+B3-S023-R01	B3-S023	B3	f83r	DISCHARGE	ABFÜHREN	POSTEN/QUELLE > Abzug/Transfer > optionales ZIEL	E282	lchedy	abführen	1	ABFÜHREN: abführen	END
+B3-S024-R01	B3-S024	B3	f83r	CHARGE	EINBRINGEN	QUELLE/ANTEIL > EINSATZ/TRANSFER > optionales ZIEL	E283	schedy	überführen	1	EINBRINGEN: überführen	END
+B3-S025-R01	B3-S025	B3	f83r	CHARGE	EINBRINGEN	QUELLE/ANTEIL > EINSATZ/TRANSFER > optionales ZIEL	E284	qokchdy	Neueinsatz	1	EINBRINGEN: Neueinsatz	END
+B3-S026-R01	B3-S026	B3	f83r	CHARGE	EINBRINGEN	QUELLE/ANTEIL > EINSATZ/TRANSFER > optionales ZIEL	E285	cheedar	Quelltransfer	1	EINBRINGEN: Quelltransfer	DANN
+B3-S026-R02	B3-S026	B3	f83r	SETTLE	ABSETZEN	POSTEN > optionaler GRAD/SOLLWERT > Ruhe/Sammlung	E286	chldaiin	Sollabsetzung	1	ABSETZEN: Sollabsetzung	DANN
+B3-S026-R03	B3-S026	B3	f83r	CHARGE	EINBRINGEN	QUELLE/ANTEIL > EINSATZ/TRANSFER > optionales ZIEL	E287|E288	chedy okain	überführen|Zugabe	2	EINBRINGEN: überführen – Zugabe	DANN
+B3-S026-R04	B3-S026	B3	f83r	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E289|E290	checthy chealror	bereit|Zielbereitung	2	STEUERN: bereit – Zielbereitung	DANN
+B3-S026-R05	B3-S026	B3	f83r	SETTLE	ABSETZEN	POSTEN > optionaler GRAD/SOLLWERT > Ruhe/Sammlung	E291	solkeedy	Langsammlung	1	ABSETZEN: Langsammlung	END
+B3-S027-R01	B3-S027	B3	f83r	MEASURE	EINSTELLEN	MASS/PORTION/STUFE > laufender Posten	E292	qoteedy	Langfolgestufe	1	EINSTELLEN: Langfolgestufe	END
+B3-S028-R01	B3-S028	B3	f83r	TREAT	BEHANDELN	POSTEN > optionaler GRAD > Kontakt/Wärme/Befestigung	E293|E294	qokeey qokedy	Langkontakt|Kurzkontakt	2	BEHANDELN: Langkontakt – Kurzkontakt	END
+B3-S029-R01	B3-S029	B3	f83r	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E295|E296	qol cheeety	weiter|Vollteil	2	STEUERN: weiter – Vollteil	DANN
+B3-S029-R02	B3-S029	B3	f83r	TREAT	BEHANDELN	POSTEN > optionaler GRAD > Kontakt/Wärme/Befestigung	E297	qokedy	Kurzkontakt	1	BEHANDELN: Kurzkontakt	END
+B3-S030-R01	B3-S030	B3	f83r	CHARGE	EINBRINGEN	QUELLE/ANTEIL > EINSATZ/TRANSFER > optionales ZIEL	E298	qoky	einsetzen	1	EINBRINGEN: einsetzen	DANN
+B3-S030-R02	B3-S030	B3	f83r	MEASURE	EINSTELLEN	MASS/PORTION/STUFE > laufender Posten	E299	daiin	Sollmaß	1	EINSTELLEN: Sollmaß	DANN
+B3-S030-R03	B3-S030	B3	f83r	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E300	schedair	Weiterlauf	1	STEUERN: Weiterlauf	DANN
+B3-S030-R04	B3-S030	B3	f83r	CHARGE	EINBRINGEN	QUELLE/ANTEIL > EINSATZ/TRANSFER > optionales ZIEL	E301	otchedy	Folgetransfer	1	EINBRINGEN: Folgetransfer	END
+B3-S031-R01	B3-S031	B3	f83r	TREAT	BEHANDELN	POSTEN > optionaler GRAD > Kontakt/Wärme/Befestigung	E302	qokeedy	Langkontakt	1	BEHANDELN: Langkontakt	END
+B3-S032-R01	B3-S032	B3	f83r	CHARGE	EINBRINGEN	QUELLE/ANTEIL > EINSATZ/TRANSFER > optionales ZIEL	E303|E304	chedain chedy	Anteilstransfer|überführen	2	EINBRINGEN: Anteilstransfer – überführen	DANN
+B3-S032-R02	B3-S032	B3	f83r	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E305	qotedaiin	Kurzsoll	1	STEUERN: Kurzsoll	DANN
+B3-S032-R03	B3-S032	B3	f83r	MEASURE	EINSTELLEN	MASS/PORTION/STUFE > laufender Posten	E306	otaiin	Folgemaß	1	EINSTELLEN: Folgemaß	DANN
+B3-S032-R04	B3-S032	B3	f83r	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E307	otedy	Kurzfolge	1	STEUERN: Kurzfolge	END
+B3-S033-R01	B3-S033	B3	f83r	DISCHARGE	ABFÜHREN	POSTEN/QUELLE > Abzug/Transfer > optionales ZIEL	E308	ldy	abziehen	1	ABFÜHREN: abziehen	END
+B3-S034-R01	B3-S034	B3	f83r	MEASURE	EINSTELLEN	MASS/PORTION/STUFE > laufender Posten	E309	soiiin	Arbeitsstufe	1	EINSTELLEN: Arbeitsstufe	DANN
+B3-S034-R02	B3-S034	B3	f83r	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E310|E311	checthy chety	bereit|Teil	2	STEUERN: bereit – Teil	DANN
+B3-S034-R03	B3-S034	B3	f83r	MEASURE	EINSTELLEN	MASS/PORTION/STUFE > laufender Posten	E312	otaiin	Folgemaß	1	EINSTELLEN: Folgemaß	DANN
+B3-S034-R04	B3-S034	B3	f83r	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E313	olsaly	Zwischenziel	1	STEUERN: Zwischenziel	DANN
+B3-S034-R05	B3-S034	B3	f83r	SETTLE	ABSETZEN	POSTEN > optionaler GRAD/SOLLWERT > Ruhe/Sammlung	E314	tedy	Kurzabsetzung	1	ABSETZEN: Kurzabsetzung	END
+B4-S001-R01	B4-S001	B4	f83r	TREAT	BEHANDELN	POSTEN > optionaler GRAD > Kontakt/Wärme/Befestigung	E315	qokeedy	Langkontakt	1	BEHANDELN: Langkontakt	END
+B4-S002-R01	B4-S002	B4	f83r	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E316	qolchey	Weiterposten	1	STEUERN: Weiterposten	DANN
+B4-S002-R02	B4-S002	B4	f83r	TREAT	BEHANDELN	POSTEN > optionaler GRAD > Kontakt/Wärme/Befestigung	E317|E318	okeey qokedy	Langkontakt|Kurzkontakt	2	BEHANDELN: Langkontakt – Kurzkontakt	END
+B4-S003-R01	B4-S003	B4	f83r	CHARGE	EINBRINGEN	QUELLE/ANTEIL > EINSATZ/TRANSFER > optionales ZIEL	E319	chedy	überführen	1	EINBRINGEN: überführen	DANN
+B4-S003-R02	B4-S003	B4	f83r	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E320|E321	otal otchey	Folgeziel|Folgeposten	2	STEUERN: Folgeziel – Folgeposten	DANN
+B4-S003-R03	B4-S003	B4	f83r	TREAT	BEHANDELN	POSTEN > optionaler GRAD > Kontakt/Wärme/Befestigung	E322	okeey	Langkontakt	1	BEHANDELN: Langkontakt	DANN
+B4-S003-R04	B4-S003	B4	f83r	CHARGE	EINBRINGEN	QUELLE/ANTEIL > EINSATZ/TRANSFER > optionales ZIEL	E323	choky	einsetzen	1	EINBRINGEN: einsetzen	DANN
+B4-S003-R05	B4-S003	B4	f83r	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E324	cheol	weiter	1	STEUERN: weiter	DANN
+B4-S003-R06	B4-S003	B4	f83r	SETTLE	ABSETZEN	POSTEN > optionaler GRAD/SOLLWERT > Ruhe/Sammlung	E325	cheedy	Kurzabsetzung	1	ABSETZEN: Kurzabsetzung	END
+B4-S004-R01	B4-S004	B4	f83r	TREAT	BEHANDELN	POSTEN > optionaler GRAD > Kontakt/Wärme/Befestigung	E326	qokylddy	befestigen	1	BEHANDELN: befestigen	END
+B4-S005-R01	B4-S005	B4	f83r	CHARGE	EINBRINGEN	QUELLE/ANTEIL > EINSATZ/TRANSFER > optionales ZIEL	E327|E328	dain chedy	Einlage|überführen	2	EINBRINGEN: Einlage – überführen	DANN
+B4-S005-R02	B4-S005	B4	f83r	TREAT	BEHANDELN	POSTEN > optionaler GRAD > Kontakt/Wärme/Befestigung	E329	qokeedy	Langkontakt	1	BEHANDELN: Langkontakt	END
+B4-S006-R01	B4-S006	B4	f83r	PASS_FILTER	DURCHARBEITEN	POSTEN > Wasch-/Durchlass-/Trennweg > Ablauf	E330	shckhedy	durchlassen	1	DURCHARBEITEN: durchlassen	END
+B4-S007-R01	B4-S007	B4	f83r	PASS_FILTER	DURCHARBEITEN	POSTEN > Wasch-/Durchlass-/Trennweg > Ablauf	E331	shckhedy	durchlassen	1	DURCHARBEITEN: durchlassen	END
+B4-S008-R01	B4-S008	B4	f83r	MEASURE	EINSTELLEN	MASS/PORTION/STUFE > laufender Posten	E332	saiin	Sollmaß	1	EINSTELLEN: Sollmaß	DANN
+B4-S008-R02	B4-S008	B4	f83r	TREAT	BEHANDELN	POSTEN > optionaler GRAD > Kontakt/Wärme/Befestigung	E333	cheeky	Langbearbeitung	1	BEHANDELN: Langbearbeitung	DANN
+B4-S008-R03	B4-S008	B4	f83r	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E334	sheey	Langhalt	1	STEUERN: Langhalt	DANN
+B4-S008-R04	B4-S008	B4	f83r	TREAT	BEHANDELN	POSTEN > optionaler GRAD > Kontakt/Wärme/Befestigung	E335	qokedy	Kurzkontakt	1	BEHANDELN: Kurzkontakt	END
+B4-S009-R01	B4-S009	B4	f83r	SETTLE	ABSETZEN	POSTEN > optionaler GRAD/SOLLWERT > Ruhe/Sammlung	E336	cheedy	Kurzabsetzung	1	ABSETZEN: Kurzabsetzung	END
+B4-S010-R01	B4-S010	B4	f83r	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E337	oldy	fertig	1	STEUERN: fertig	END
+B4-S011-R01	B4-S011	B4	f83r	MEASURE	EINSTELLEN	MASS/PORTION/STUFE > laufender Posten	E338	saiin	Sollmaß	1	EINSTELLEN: Sollmaß	DANN
+B4-S011-R02	B4-S011	B4	f83r	TREAT	BEHANDELN	POSTEN > optionaler GRAD > Kontakt/Wärme/Befestigung	E339	cheky	Kurzwärme	1	BEHANDELN: Kurzwärme	DANN
+B4-S011-R03	B4-S011	B4	f83r	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E340	okeeol	Langfortsetzung	1	STEUERN: Langfortsetzung	DANN
+B4-S011-R04	B4-S011	B4	f83r	CHARGE	EINBRINGEN	QUELLE/ANTEIL > EINSATZ/TRANSFER > optionales ZIEL	E341|E342	okain chedy	Zugabe|überführen	2	EINBRINGEN: Zugabe – überführen	DANN
+B4-S011-R05	B4-S011	B4	f83r	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E343	sol	weiter	1	STEUERN: weiter	DANN
+B4-S011-R06	B4-S011	B4	f83r	DISCHARGE	ABFÜHREN	POSTEN/QUELLE > Abzug/Transfer > optionales ZIEL	E344	lkedy	Weiterabzug	1	ABFÜHREN: Weiterabzug	END
+B4-S012-R01	B4-S012	B4	f83r	DISCHARGE	ABFÜHREN	POSTEN/QUELLE > Abzug/Transfer > optionales ZIEL	E345	lchedy	abführen	1	ABFÜHREN: abführen	END
+B4-S013-R01	B4-S013	B4	f83r	CHARGE	EINBRINGEN	QUELLE/ANTEIL > EINSATZ/TRANSFER > optionales ZIEL	E346	qokol	Wiedereinsatz	1	EINBRINGEN: Wiedereinsatz	DANN
+B4-S013-R02	B4-S013	B4	f83r	SETTLE	ABSETZEN	POSTEN > optionaler GRAD/SOLLWERT > Ruhe/Sammlung	E347	cheedy	Kurzabsetzung	1	ABSETZEN: Kurzabsetzung	END
+B4-S014-R01	B4-S014	B4	f83r	CHARGE	EINBRINGEN	QUELLE/ANTEIL > EINSATZ/TRANSFER > optionales ZIEL	E348	sor	Ansatz	1	EINBRINGEN: Ansatz	DANN
+B4-S014-R02	B4-S014	B4	f83r	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E349|E350|E351	chey qockhey dairydy	dies|Kurzdurchgang|Laufschluss	3	STEUERN: dies – Kurzdurchgang – Laufschluss	END
+B4-S015-R01	B4-S015	B4	f83r	CHARGE	EINBRINGEN	QUELLE/ANTEIL > EINSATZ/TRANSFER > optionales ZIEL	E352	okain	Zugabe	1	EINBRINGEN: Zugabe	DANN
+B4-S015-R02	B4-S015	B4	f83r	PASS_FILTER	DURCHARBEITEN	POSTEN > Wasch-/Durchlass-/Trennweg > Ablauf	E353	cheey	Klarlauf	1	DURCHARBEITEN: Klarlauf	DANN
+B4-S015-R03	B4-S015	B4	f83r	CHARGE	EINBRINGEN	QUELLE/ANTEIL > EINSATZ/TRANSFER > optionales ZIEL	E354	chkain	Portion	1	EINBRINGEN: Portion	DANN
+B4-S015-R04	B4-S015	B4	f83r	PASS_FILTER	DURCHARBEITEN	POSTEN > Wasch-/Durchlass-/Trennweg > Ablauf	E355	chckhal	Zielpassage	1	DURCHARBEITEN: Zielpassage	DANN
+B4-S015-R05	B4-S015	B4	f83r	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E356	solkey	Kurzsammlung	1	STEUERN: Kurzsammlung	DANN
+B4-S015-R06	B4-S015	B4	f83r	DISCHARGE	ABFÜHREN	POSTEN/QUELLE > Abzug/Transfer > optionales ZIEL	E357	lchedy	abführen	1	ABFÜHREN: abführen	END
+B4-S016-R01	B4-S016	B4	f83r	CHARGE	EINBRINGEN	QUELLE/ANTEIL > EINSATZ/TRANSFER > optionales ZIEL	E358	qolkain	Folgeportion	1	EINBRINGEN: Folgeportion	DANN
+B4-S016-R02	B4-S016	B4	f83r	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E359|E360	cheal skar	dorthin|Quellausguss	2	STEUERN: dorthin – Quellausguss	DANN
+B4-S016-R03	B4-S016	B4	f83r	SETTLE	ABSETZEN	POSTEN > optionaler GRAD/SOLLWERT > Ruhe/Sammlung	E361	cheedy	Kurzabsetzung	1	ABSETZEN: Kurzabsetzung	END
+B5-S001-R01	B5-S001	B5	f83r	CHARGE	EINBRINGEN	QUELLE/ANTEIL > EINSATZ/TRANSFER > optionales ZIEL	E362	otchdy	Nachtransfer	1	EINBRINGEN: Nachtransfer	END
+B5-S002-R01	B5-S002	B5	f83r	CHARGE	EINBRINGEN	QUELLE/ANTEIL > EINSATZ/TRANSFER > optionales ZIEL	E363	qokchdy	Neueinsatz	1	EINBRINGEN: Neueinsatz	END
+B5-S003-R01	B5-S003	B5	f83r	SETTLE	ABSETZEN	POSTEN > optionaler GRAD/SOLLWERT > Ruhe/Sammlung	E364	shedal	Zielabsetzung	1	ABSETZEN: Zielabsetzung	DANN
+B5-S003-R02	B5-S003	B5	f83r	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E365|E366	sal sol	dorthin|weiter	2	STEUERN: dorthin – weiter	DANN
+B5-S003-R03	B5-S003	B5	f83r	DISCHARGE	ABFÜHREN	POSTEN/QUELLE > Abzug/Transfer > optionales ZIEL	E367	lol	Weiterabzug	1	ABFÜHREN: Weiterabzug	DANN
+B5-S003-R04	B5-S003	B5	f83r	CHARGE	EINBRINGEN	QUELLE/ANTEIL > EINSATZ/TRANSFER > optionales ZIEL	E368	chdal	Zieltransfer	1	EINBRINGEN: Zieltransfer	DANN
+B5-S003-R05	B5-S003	B5	f83r	MEASURE	EINSTELLEN	MASS/PORTION/STUFE > laufender Posten	E369	saiin	Sollmaß	1	EINSTELLEN: Sollmaß	DANN
+B5-S003-R06	B5-S003	B5	f83r	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E370	sol	weiter	1	STEUERN: weiter	DANN
+B5-S003-R07	B5-S003	B5	f83r	MEASURE	EINSTELLEN	MASS/PORTION/STUFE > laufender Posten	E371	daiiin	Endstufe	1	EINSTELLEN: Endstufe	DANN
+B5-S003-R08	B5-S003	B5	f83r	CHARGE	EINBRINGEN	QUELLE/ANTEIL > EINSATZ/TRANSFER > optionales ZIEL	E372	chdy	überführen	1	EINBRINGEN: überführen	END
+B6-S001-R01	B6-S001	B6	f83r	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E373	solkeey	Langsammlung	1	STEUERN: Langsammlung	DANN
+B6-S001-R02	B6-S001	B6	f83r	TREAT	BEHANDELN	POSTEN > optionaler GRAD > Kontakt/Wärme/Befestigung	E374	qekey	Kurzbearbeitung	1	BEHANDELN: Kurzbearbeitung	DANN
+B6-S001-R03	B6-S001	B6	f83r	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E375|E376	raly sol	Endposten|weiter	2	STEUERN: Endposten – weiter	DANN
+B6-S001-R04	B6-S001	B6	f83r	MEASURE	EINSTELLEN	MASS/PORTION/STUFE > laufender Posten	E377	saiin	Sollmaß	1	EINSTELLEN: Sollmaß	DANN
+B6-S001-R05	B6-S001	B6	f83r	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E378	sol	weiter	1	STEUERN: weiter	DANN
+B6-S001-R06	B6-S001	B6	f83r	CHARGE	EINBRINGEN	QUELLE/ANTEIL > EINSATZ/TRANSFER > optionales ZIEL	E379	dain	Einlage	1	EINBRINGEN: Einlage	DANN
+B6-S001-R07	B6-S001	B6	f83r	LOCAL_CONTROL	STEUERN	BEZUG/FOLGE/ZIEL > laufenden Gang setzen oder fortführen	E380|E381	sy ldalor	dies|Endziel	2	STEUERN: dies – Endziel	END

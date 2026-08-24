@@ -7635,8 +7635,15 @@ values, no sentence-sized dictionary gloss and one intentional same-value
 local allograph pair for Kurzvorbereitung. See
 `sidequest_semantic_atomic_bio_glossary_three_hundred_fourteenth/THREE_HUNDRED_FOURTEENTH_124_ATOMIC_BIO_DICTIONARY.tsv`.
 
-Next, induce a small set of reusable sentence templates from the 97 atomic
-Biological lexeme chains and use them for a shorter continuous reading.
+Pass 315 reduces the 97 Biological statements to seven reusable clause heads:
+STEUERN, EINBRINGEN, BEHANDELN, EINSTELLEN, ABFÜHREN, ABSETZEN and
+DURCHARBEITEN. They govern 240 contiguous mode runs and all 281 events. Forty-
+six statements need one head and 51 are paratactic multihead chains. The short
+edition uses 664 words instead of 1,110. See
+`sidequest_semantic_bio_clause_templates_three_hundred_fifteenth/THREE_HUNDRED_FIFTEENTH_SIX_RECORD_TEMPLATE_EDITION.md`.
+
+Next, resegment the abnormally long B1-S002 chain into apprentice-sized
+worksteps without treating physical line ends as sentence ends.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
