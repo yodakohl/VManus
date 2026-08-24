@@ -8906,10 +8906,18 @@ is honest. Ten long whole forms remain; B1-S002 is largest at nineteen events.
 See
 `sidequest_semantic_object_transition_atlas_four_hundred_eighty_eighth/FOUR_HUNDRED_EIGHTY_EIGHTH_REPORT.md`.
 
-Next, take B1-S002 as one complete nineteen-card nomenclator macro. Reconstruct
-its object graph and compress it into one concrete workshop procedure with a
-short name, then compare that name against the nearest bathhouse and medical
-readings without changing the component dictionary.
+Pass 489 reads B1-S002 as the macro BECKENZULAUF ZWEIFACH DOSIEREN UND
+TEMPERIEREN. Its nineteen cards form three phases: set measured flow to the
+shared f81v pool; take two sibling portions from the same stock and temper them;
+then start a second-stage batch, hold it briefly at the passage and longer at
+the pool, pass, transfer and close. OL+K+AIN is corrected from a nested
+portion-of-portion to a second parallel portion. The technical macro beats the
+medical bath rival because no disease, body part or effect is written. See
+`sidequest_semantic_b1_double_charge_macro_four_hundred_eighty_ninth/FOUR_HUNDRED_EIGHTY_NINTH_REPORT.md`.
+
+Next, reconstruct the eleven-card B3-S021 whole form. Compare its owner changes
+and object graph to the B1 double-charge macro; reuse that macro only if the
+same three phases truly appear, otherwise name a second concrete procedure.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
