@@ -10608,10 +10608,20 @@ f81v pool ZIEL as al/sal/chal) keep one meaning while changing local surface,
 strongly favoring allography over extra lexical values. See
 `sidequest_semantic_owner_renderer_trays_six_hundred_ninety_ninth/SIX_HUNDRED_NINETY_NINTH_REPORT.md`.
 
-Next, consolidate the current system into one apprentice manual and one full
-forward trace:39 components,3 whole commands,7 renderer rules,18 owner trays,
-5 override slips,173 cards and381 events. Include a short readable edition of
-all11 records and explicitly mark which layer supplies each visible character.
+Pass 700 is the consolidated apprentice manual. It corrects the inventory to39
+tablet entries total:36 composable work components +3 whole commands. These
+yield170 composed cards +3 whole cards,230 surfaces,7 renderer rules,20 visible
+owner nouns,18 local owner trays and5 slips. The381-event forward trace uses314
+global forms,8 context rules,54 owner-card defaults and5 overrides; all381
+observed surfaces are regenerated. Eleven readable records and116 statement
+rows are included. See
+`sidequest_semantic_apprentice_manual_seven_hundredth/SEVEN_HUNDREDTH_REPORT.md`.
+
+Next, arrange the36 composable entries into minimal contrast pairs and a small
+decision tree: source/target, portion/measure/stage, short/long/full,
+set/transfer/hold/settle, item/close, sequence/continuation. Then encode a set
+of fresh plain-German workshop prompts into component recipes and request the
+smallest compatible card families without changing any meanings.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
