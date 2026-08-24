@@ -9182,8 +9182,14 @@ sheet load at each record start replaces 34 locus loads, leaving eleven setup
 moments and 370 automatic cards. See
 `sidequest_semantic_record_renderer_sheets_five_hundred_twenty_fourth/FIVE_HUNDRED_TWENTY_FOURTH_REPORT.md`.
 
-Next, merge the eleven record sheets into seven page sheets while preserving
-record and locus addresses exactly.
+Pass 525 merges the eleven record sheets into seven prose-page sheets while
+preserving full record+locus+input addresses. Entry counts are f10r9, f11r2,
+f55v4, f56r2, f81v14, f82r6 and f83r22. One page load replaces eleven record
+loads, leaving seven setup events and 374 automatic cards. See
+`sidequest_semantic_page_renderer_sheets_five_hundred_twenty_fifth/FIVE_HUNDRED_TWENTY_FIFTH_REPORT.md`.
+
+Next, treat the page renderer sheet as a physically bound part of the selected
+master exemplar, making page activation automatic rather than a free choice.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
