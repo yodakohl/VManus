@@ -9057,9 +9057,15 @@ statements. Twenty-one owner resets are explicit. The compact renderer writes
 314 surfaces by rule; 67 rare allographs remain local exemplar copies. See
 `sidequest_semantic_apprentice_compiler_five_hundred_seventh/FIVE_HUNDRED_SEVENTH_REPORT.md`.
 
-Next, add the three Astro pages as a separate LOCATE-to-READ-to-RECORD loop,
-without importing prose operations or claiming names, orientation, or an
-f68-to-f69 key.
+Pass 508 adds Astro as a separate LOCATE-to-READ-to-RECORD-to-RESET compiler.
+Thirteen image-faithful namespaces cover 142 loci and 395 groups: two f67
+wheels plus a quarantined legend, seven f68 panel/star namespaces, and three
+f69 wheels. No start, direction, rotation, prose-primitive import or f68-to-f69
+key is added. The unified compiler now binds all 776 visible groups. See
+`sidequest_semantic_astro_compiler_five_hundred_eighth/FIVE_HUNDRED_EIGHTH_REPORT.md`.
+
+Next, compress the 124-item manual into an apprentice curriculum: a memorized
+core, a short rule set, register drills, and an explicit exemplar-copy tail.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
