@@ -8897,10 +8897,19 @@ preserve every component sequence and meaning while varying only legal
 allographs. See
 `sidequest_semantic_observed_scribe_profiles_four_hundred_eighty_seventh/FOUR_HUNDRED_EIGHTY_SEVENTH_REPORT.md`.
 
-Next, return to the 59 local content items. Classify their residual events by
-the concrete object transition they perform — plant material, preparation,
-portion, moving liquid, receiving stock, target station or result — and merge
-local items that differ only in their visible owner fill.
+Pass 488 maps the 59 local content items onto ten concrete object transitions.
+Thirty-one merely carry the current post through a local action; 28 activate a
+batch, portion, fraction, addition, collection, flow, result or next item. They
+form 26 transition chains. Only three abstract action/state signatures recur,
+and every pair still differs in its concrete action or grade, so no new merge
+is honest. Ten long whole forms remain; B1-S002 is largest at nineteen events.
+See
+`sidequest_semantic_object_transition_atlas_four_hundred_eighty_eighth/FOUR_HUNDRED_EIGHTY_EIGHTH_REPORT.md`.
+
+Next, take B1-S002 as one complete nineteen-card nomenclator macro. Reconstruct
+its object graph and compress it into one concrete workshop procedure with a
+short name, then compare that name against the nearest bathhouse and medical
+readings without changing the component dictionary.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
