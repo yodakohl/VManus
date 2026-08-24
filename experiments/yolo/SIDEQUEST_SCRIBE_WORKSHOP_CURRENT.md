@@ -10559,10 +10559,19 @@ component, the later desk chooses the complete card, and one final hand copies
 the unbroken86-card surface sequence around the existing pictures. See
 `sidequest_semantic_b3_four_desk_commission_six_hundred_ninety_third/SIX_HUNDRED_NINETY_THIRD_REPORT.md`.
 
-Next, inspect the five cross-desk cards as a small compositional junction tray.
-Ask whether the same downstream-ownership rule predicts other two-deck cards
-across all eleven records, then turn the stable junctions into a short copying
-rule instead of adding another memorized exception list.
+Pass 694 generalizes the five B3 junctions to all prose:22 occurrences of20
+exact cross-desk cards in8 records. Four pair rules suffice. Preparation/wet to
+transfer contributes11 cards; preparation/wet to state3 cards/5 events;
+transfer to state5; master to state1. The whole exemplar always resides at the
+later participating desk. Transfer therefore stores11 junction cards and state
+stores9; including the shared13-card core, no role needs more than29 reference
+cards. See
+`sidequest_semantic_junction_card_tray_six_hundred_ninety_fourth/SIX_HUNDRED_NINETY_FOURTH_REPORT.md`.
+
+Next, use the root order and these four junction rules predictively: hide each
+of the20 whole junction-card identities in turn, derive its component recipe
+and storage desk from the remaining workshop manual, and state the smallest
+surface family the apprentice would request before revealing the actual card.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
