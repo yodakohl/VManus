@@ -10585,10 +10585,18 @@ system is now39 compact components + productive order composition + bound
 whole-card renderer. See
 `sidequest_semantic_full_surface_composition_six_hundred_ninety_sixth/SIX_HUNDRED_NINETY_SIXTH_REPORT.md`.
 
-Next, compress the30 observed renderer residues into a small set of positional
-copying rules. Use component frame, card edge and known page/record renderer;
-keep any residue that does not collapse cleanly as a memorized allograph rather
-than inventing another meaning.
+Pass 697 compresses30 raw residues to7 positional renderer rules after one
+useful repair, CHK=chk|ch. Across230 forms,80 are now direct,129 need one rule,
+21 need two and none need more. The rules are entry frame, CHD joint,
+item/continuation carrier, address hinge, transfer linker, IIN stretch and
+terminal echo. The110 entry frames dominate; all other pieces are bounded
+joints, not new meanings. See
+`sidequest_semantic_renderer_manual_six_hundred_ninety_seventh/SIX_HUNDRED_NINETY_SEVENTH_REPORT.md`.
+
+Next, explain the entry-frame choice from actual copy context. Map q/s/ch/d/che/
+t/sh/c/y by page, record, physical locus and within-field position; derive the
+smallest practical priority rule and leave any irreducible choice on the
+master exemplar.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
