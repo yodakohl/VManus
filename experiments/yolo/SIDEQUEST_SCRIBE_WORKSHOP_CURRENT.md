@@ -8311,9 +8311,17 @@ Sollmaß card. B5 now reads “set the second opening, then work the charge
 through.” See
 `sidequest_semantic_iin_station_setting_four_hundred_eighth/FOUR_HUNDRED_EIGHTH_IIN_POCKET_RULE.md`.
 
-Next, join IIN target settings to the E/EE/EEE hold grades. Compare cards where
-the target state and the duration/completion grade coexist, and write one
-apprentice rule answering “which setting?” separately from “how long/how far?”.
+Pass 409 makes IIN settings and E/EE/EEE execution grades separate syntactic
+axes. B1 pairs a target setting with longer collection; B3 pairs one with short
+settling; H2 and B5 omit an explicit hold grade. IIN answers which setting,
+E/EE/EEE how short, long or complete, Y which item and licensed DY whether the
+step closes. See
+`sidequest_semantic_setting_hold_axes_four_hundred_ninth/FOUR_HUNDRED_NINTH_APPRENTICE_RULE.md`.
+
+Next, connect CTH/ready and SHED/settle to this two-axis rule. Trace concrete
+state progressions in H3, B3-S021 and B3-S034 and decide whether READY precedes
+action while SETTLE follows it, or whether either card has a different local
+role.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
