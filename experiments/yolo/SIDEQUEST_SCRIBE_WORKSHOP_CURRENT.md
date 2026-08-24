@@ -10471,9 +10471,16 @@ than20 recipes. Only the39 short entries, tray order and3 whole commands need
 semantic memorization; surfaces remain lookup-and-copy material. See
 `sidequest_semantic_copybook_layout_six_hundred_eighty_first/SIX_HUNDRED_EIGHTY_FIRST_REPORT.md`.
 
-Next, test the copybook as a multi-scribe production system by assigning the
-same dictated recipes to different entry positions and deriving which parts
-stay invariant versus which exact surfaces change.
+Pass 682 traces all50 recurrent component recipes/268 events as a multi-scribe
+production system. Forty-five families cross records and41 cross pages. Forty
+families keep one exact card while10 have two local card variants;14 keep one
+surface while36 use several. The shared layer is therefore the dictated recipe
+and usually exact card, while surface and owner remain local copy decisions.
+See
+`sidequest_semantic_multi_scribe_production_six_hundred_eighty_second/SIX_HUNDRED_EIGHTY_SECOND_REPORT.md`.
+
+Next, turn the twelve most recurrent families into one apprentice practice
+page with short dictations, expected card choices and common copying mistakes.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
