@@ -9489,9 +9489,19 @@ and eight wrapper stamps. All 381 events traverse owner→clause→components→
 and eleven records. See
 `sidequest_semantic_integrated_apprentice_manual_five_hundred_sixty_second/FIVE_HUNDRED_SIXTY_SECOND_REPORT.md`.
 
-Next, regenerate a continuous German working translation of all eleven prose
-records from this integrated manual, keeping card meanings short and letting
-silent owners and sentence frames supply the readable expansion.
+Pass 563 regenerates a complete German working translation: 116 concrete
+statements, 381 interlinear card events and eleven continuous prose records.
+Herbal now reads as taking, measuring, preparing and applying pictured plant
+material; Biological reads as local basin/application instructions for
+inserting, holding, washing, settling, routing and transferring liquid. Card
+values remain short; silent visual owners supply the nouns, and line endings
+remain mere spatial wraps. See
+`sidequest_semantic_continuous_working_translation_five_hundred_sixty_third/FIVE_HUNDRED_SIXTY_THIRD_COMPLETE_GERMAN_WORKING_TRANSLATION.md`.
+
+Next, mine the eleven translations for recurrent historical recipe and
+bathhouse formulae, replacing the remaining generic `Posten`,
+`Arbeitsflüssigkeit`, `einsetzen`, and `umsetzen` only where repeated card
+sequences force a more concrete action.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
