@@ -10391,8 +10391,17 @@ compose; only three learned commands remain: `os`=ARBEITSFACH,
 three commands cover173/173 cards and381/381 events. See
 `sidequest_semantic_control_axes_remainder_six_hundred_seventy_first/SIX_HUNDRED_SEVENTY_FIRST_REPORT.md`.
 
-Next, publish one integrated173-card/381-event dictionary and a compact root
-tablet, then reread all116 statements from that single edition.
+Pass 672 publishes the integrated working edition:39 root/control entries,
+173 exact cards,381 events,116 complete statements,11 records, and exactly3
+memorized whole commands. Every card has one component recipe, atomic
+expansion, short default, occurrence inventory, and composition mode; every
+statement has a complete mechanical workshop paraphrase. There are0 empty or
+placeholder meanings. See
+`sidequest_semantic_integrated_dictionary_six_hundred_seventy_second/SIX_HUNDRED_SEVENTY_SECOND_REPORT.md`.
+
+Next, turn the116 mechanical paraphrases into fluent record-local workshop
+German while preserving every card contribution and never ending a sentence
+merely at a physical line.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
