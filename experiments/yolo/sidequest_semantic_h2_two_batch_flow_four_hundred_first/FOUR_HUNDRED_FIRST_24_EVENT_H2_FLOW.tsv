@@ -1,0 +1,25 @@
+order	event_id	locus	statement_id	surface	joint_tuple_id	object_before	operation	object_after	card_value_de	working_event_reading_de
+1	E015	f10r.6	H2-S001	ycheor	7249edc4df3419c26999	OWNER_PLANT	SELECT	YOUNG_TOPS	Pflanzenspitzen	junge Spitzen mit Blättern und Blütenständen nehmen
+2	E016	f10r.6	H2-S001	cthy	e0b630cb1b5df5e7105b	YOUNG_TOPS	READY	READY_TOPS	bereit	die Pflanzenportion bereitstellen
+3	E017	f10r.6	H2-S001	chor	7a4bb8136330ee4e6e56	READY_TOPS	OPEN_BATCH	PRIMARY_BATCH	Ansatz	den ersten Ansatz eröffnen
+4	E018	f10r.6	H2-S001	cthaiin	f3c23f42baf625639e1e	PRIMARY_BATCH	CRUSH	CRUSHED_PRIMARY	Kraut zerstoßen	das Kraut zerstoßen
+5	E019	f10r.6	H2-S001	qoctholy	af816c04e65874a0f2fa	CRUSHED_PRIMARY	PRESS	PRESSED_PRIMARY	abpressen	den ersten Ansatz abpressen
+6	E020	f10r.6	H2-S001	dy	b921a237be883a820352	PRESSED_PRIMARY	RESUME	PRESSED_PRIMARY	dieser Arbeitsposten	diesen Arbeitsposten weiterführen
+7	E021	f10r.6	H2-S001	chy	b921a237be883a820352	PRESSED_PRIMARY	RESUME	PRESSED_PRIMARY	dieser Arbeitsposten	denselben Posten weiterführen
+8	E022	f10r.6	H2-S001	taiin	2f1c5e56e8f0ff459065	PRESSED_PRIMARY	MEASURE	MEASURED_PRIMARY	Sollmaß	das Sollmaß des ersten Auszugs setzen
+9	E023	f10r.6	H2-S001	shy	b921a237be883a820352	MEASURED_PRIMARY	RESUME	MEASURED_PRIMARY	dieser Arbeitsposten	den abgemessenen Posten aktiv halten
+10	E024	f10r.8	H2-S002	qotchor	10488b911aae52b3b334	MEASURED_PRIMARY	NEXT_BATCH	FOLLOW_ON_FRAME	Folgeansatz	einen Folgeansatz eröffnen
+11	E025	f10r.8	H2-S002	chor	7a4bb8136330ee4e6e56	FOLLOW_ON_FRAME	OPEN_BATCH	FOLLOW_ON_BATCH	Ansatz	den zweiten Ansatz ansetzen
+12	E026	f10r.8	H2-S002	otol	497cbd9c7401810ff56b	FOLLOW_ON_BATCH	NEXT_CONTINUE	FOLLOW_ON_BATCH	danach fortsetzen	danach mit dem zweiten Ansatz fortfahren
+13	E027	f10r.8	H2-S002	chol	dcda95c81a5460feb191	FOLLOW_ON_BATCH	CONTINUE	FOLLOW_ON_BATCH	fortsetzen	den Gang fortsetzen
+14	E028	f10r.8	H2-S002	cholor	dec401773c1f0347793d	FOLLOW_ON_BATCH	REJOIN_PREVIOUS	PRIMARY_AND_FOLLOW_ON	Fortsetzungsansatz	den ersten Ansatz wieder hinzunehmen
+15	E029	f10r.8	H2-S002	chol	dcda95c81a5460feb191	PRIMARY_AND_FOLLOW_ON	CONTINUE	PRIMARY_AND_FOLLOW_ON	fortsetzen	beide Ansätze gemeinsam weiterführen
+16	E030	f10r.8	H2-S002	daiin	2f1c5e56e8f0ff459065	PRIMARY_AND_FOLLOW_ON	MEASURE	MEASURED_COMBINATION	Sollmaß	das Sollmaß der Verbindung setzen
+17	E031	f10r.8	H2-S002	dar	4d4559019a961b834aa1	MEASURED_COMBINATION	SOURCE	SAME_STOCK_COMBINATION	aus demselben Vorrat	aus demselben Vorrat ergänzen
+18	E032	f10r.9	H2-S003	oykchor	27d97af8c96eb056c2e6	SAME_STOCK_COMBINATION	PLACE_IN_VESSEL	VESSEL	glasiertes Gefäß	alles in das bereitstehende Gefäß geben
+19	E033	f10r.9	H2-S003	shor	7a4bb8136330ee4e6e56	VESSEL	LOAD_BATCH	PRIMARY_IN_VESSEL	Ansatz	den ersten Ansatz in das Gefäß geben
+20	E034	f10r.9	H2-S003	chor	7a4bb8136330ee4e6e56	PRIMARY_IN_VESSEL	LOAD_BATCH	TWO_BATCH_VESSEL	Ansatz	den Folgeansatz dazugeben
+21	E035	f10r.9	H2-S003	chy	b921a237be883a820352	TWO_BATCH_VESSEL	RESUME	TWO_BATCH_VESSEL	dieser Arbeitsposten	diesen Gefäßposten weiterführen
+22	E036	f10r.9	H2-S003	kaiiin	409de02322e7b2ca0c62	TWO_BATCH_VESSEL	SOFT_STAGE	SOFT_PREPARATION	weiche Zielstufe	bis zur weichen Zielstufe durcharbeiten
+23	E037	f10r.9	H2-S003	dy	b921a237be883a820352	SOFT_PREPARATION	RESUME	SOFT_PREPARATION	dieser Arbeitsposten	diese weiche Zubereitung aufnehmen
+24	E038	f10r.9	H2-S003	chodaiin	834825c61d048a6b5628	SOFT_PREPARATION	APPLY	EXTERNAL_APPLICATION	Geschwür	auf die bezeichnete harte Stelle auflegen

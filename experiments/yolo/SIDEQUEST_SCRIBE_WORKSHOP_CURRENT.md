@@ -8254,9 +8254,16 @@ H3 learned cards. H1, H2 and H5 have continuation, previous-item, next-item and
 repeat siblings, but no second reserve/recall pair. See
 `sidequest_semantic_reserve_recall_grammar_four_hundredth/FOUR_HUNDREDTH_BRANCH_MANUAL.md`.
 
-Next, read all of H2 as a continuous material flow. Its dense sequence of
-preparation, continuation, previous preparation, measure and source should show
-whether the portable order grammar works without H3's two local branch cards.
+Pass 401 reads all 24 H2 events as a two-batch preparation. The first young-plant
+batch is crushed, pressed and measured; OT opens a follow-on batch from the same
+stock; OL+OR rejoins the previous batch; two consecutive OR cards load the two
+batches into a vessel before soft-stage application. H2 therefore uses the
+portable OT/OL/OR/AIIN/AR/Y grammar without H3's local reserve cards. See
+`sidequest_semantic_h2_two_batch_flow_four_hundred_first/FOUR_HUNDRED_FIRST_CONTINUOUS_H2_ARTICLE.md`.
+
+Next, attack H2's consecutive SHOR-CHOR pair by writing two source-distinct and
+two vessel-distinct paraphrases. Preserve the two OR cards and decide what
+visible or learned argument tells the scribe which batch each occurrence owns.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
