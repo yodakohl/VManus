@@ -1,0 +1,162 @@
+command_id	semantic_component_parse	slot_signature	standard_command_de	command_class	card_ids	surfaces	card_types	events	action_components	grade_scope_assignments	owner_fill_rule_de	meaning_invariant
+CMD001	AIIN	QUANTITY_STAGE	MASS	ARGUMENT_OR_OBJECT_FORMULA	PROC009	aiin|chaiin|daiin|saiin|taiin	1	20	NONE	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD002	AIN	QUANTITY_STAGE	PORTION	ARGUMENT_OR_OBJECT_FORMULA	PROC156	dain	1	2	NONE	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD003	AIR+Y+DY	SOURCE_PATH_TARGET>OBJECT_MATERIAL>CLOSE	LAUF · DIES; SCHLUSS	CLOSE_FORMULA	PROC162	dairydy	1	1	NONE	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD004	AL	SOURCE_PATH_TARGET	ZIEL	ARGUMENT_OR_OBJECT_FORMULA	PROC055	al|chal|cheal|dal|sal|tal	1	10	NONE	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD005	AL+CHD+DY	SOURCE_PATH_TARGET>ACTION>CLOSE	ZIEL · UMSETZEN; SCHLUSS	ACTION_COMMAND	PROC144	dalchdy	1	1	CHD	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD006	AL+DY	SOURCE_PATH_TARGET>CLOSE	ZIEL; SCHLUSS	CLOSE_FORMULA	PROC127	daldy	1	1	NONE	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD007	AL+R+OR	SOURCE_PATH_TARGET>ACTION>OBJECT_MATERIAL	ZIEL · KUEHLEN · ANSATZ	ACTION_COMMAND	PROC148	chealror	1	1	R	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD008	AR	SOURCE_PATH_TARGET	QUELLE	ARGUMENT_OR_OBJECT_FORMULA	PROC003	char|dar|sar	1	5	NONE	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD009	AR+Y	SOURCE_PATH_TARGET>OBJECT_MATERIAL	QUELLE · DIES	ARGUMENT_OR_OBJECT_FORMULA	PROC137	chary	1	1	NONE	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD010	CFH+Y	ACTION>OBJECT_MATERIAL	AUSWRINGEN · DIES	ACTION_COMMAND	PROC028	cfhy	1	1	CFH	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD011	CH+AIR	ACTION>SOURCE_PATH_TARGET	ABZIEHEN · LAUF	ACTION_COMMAND	PROC006	chair	1	1	CH	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD012	CH+CKH+AL	ACTION>SOURCE_PATH_TARGET>SOURCE_PATH_TARGET	ABZIEHEN · DURCHLASS · ZIEL	ACTION_COMMAND	PROC163	chckhal	1	1	CH	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD013	CH+E+O+AR	ACTION>GRADE>OBJECT_MATERIAL>SOURCE_PATH_TARGET	ABZIEHEN · KURZ · GANG · QUELLE	ACTION_COMMAND	PROC045	cheoar	1	1	CH	E->CH	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD014	CH+E+S	ACTION>GRADE>ACTION	ABZIEHEN · KURZ · TEILEN	ACTION_COMMAND	PROC124	ches	1	1	CH|S	E->CH	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD015	CH+E+Y	ACTION>GRADE>OBJECT_MATERIAL	ABZIEHEN · KURZ · DIES	ACTION_COMMAND	PROC001	dchey	1	1	CH	E->CH	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD016	CH+EE+CKH+O+DY	ACTION>GRADE>SOURCE_PATH_TARGET>OBJECT_MATERIAL>CLOSE	ABZIEHEN · LANG · DURCHLASS · GANG; SCHLUSS	ACTION_COMMAND	PROC057	cheeckhody	1	1	CH	EE->CH	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD017	CH+O+AIIN	ACTION>OBJECT_MATERIAL>QUANTITY_STAGE	ABZIEHEN · GANG · MASS	ACTION_COMMAND	PROC025	chodaiin	1	1	CH	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD018	CHD+AIN	ACTION>QUANTITY_STAGE	UMSETZEN · PORTION	ACTION_COMMAND	PROC151	chedain	1	1	CHD	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD019	CHD+AIR	ACTION>SOURCE_PATH_TARGET	UMSETZEN · LAUF	ACTION_COMMAND	PROC150	schedair	1	1	CHD	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD020	CHD+AL	ACTION>SOURCE_PATH_TARGET	UMSETZEN · ZIEL	ACTION_COMMAND	PROC168	chdal	1	1	CHD	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD021	CHD+DY	ACTION>CLOSE	UMSETZEN; SCHLUSS	ACTION_COMMAND	PROC076|PROC094	dchedy|schedy|tchedy|dchdy	2	5	CHD	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD022	CHD+Y	ACTION>OBJECT_MATERIAL	UMSETZEN · DIES	ACTION_COMMAND	PROC042|PROC133	chdy|chedy|chedchy	2	12	CHD	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD023	CHK+E+Y	ACTION>GRADE>OBJECT_MATERIAL	WAERMEN · KURZ · DIES	ACTION_COMMAND	PROC083	cheky	1	3	CHK	E->CHK	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD024	CHK+EE+DY	ACTION>GRADE>CLOSE	WAERMEN · LANG; SCHLUSS	ACTION_COMMAND	PROC132	chkeedy	1	1	CHK	EE->CHK	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD025	CHK+EE+Y	ACTION>GRADE>OBJECT_MATERIAL	WAERMEN · LANG · DIES	ACTION_COMMAND	PROC046|PROC107	cheeky|chkeey	2	3	CHK	EE->CHK	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD026	CKH+Y	SOURCE_PATH_TARGET>OBJECT_MATERIAL	DURCHLASS · DIES	ARGUMENT_OR_OBJECT_FORMULA	PROC075	chckhy|shckhy	1	4	NONE	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD027	CTH+AIIN	STATE>QUANTITY_STAGE	BEREIT · MASS	STATE_OR_GRADE_FORMULA	PROC017	cthaiin	1	1	NONE	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD028	CTH+E+Y	STATE>GRADE>OBJECT_MATERIAL	BEREIT · KURZ · DIES	STATE_OR_GRADE_FORMULA	PROC117	qcthey|shcthey	1	2	NONE	E->NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD029	CTH+O+OR	STATE>OBJECT_MATERIAL>OBJECT_MATERIAL	BEREIT · GANG · ANSATZ	STATE_OR_GRADE_FORMULA	PROC002	cthoor	1	1	NONE	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD030	CTH+Y	STATE>OBJECT_MATERIAL	BEREIT · DIES	STATE_OR_GRADE_FORMULA	PROC014	checthy|cthy|shcthy	1	7	NONE	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD031	DA+IIN	QUANTITY_STAGE>QUANTITY_STAGE	ZWEIT · STUFE	ARGUMENT_OR_OBJECT_FORMULA	PROC169	daiiin	1	1	NONE	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD032	E+K+E+Y	GRADE>ACTION>GRADE>OBJECT_MATERIAL	KURZ · ZUFUEHREN · KURZ · DIES	ACTION_COMMAND	PROC171	qekey	1	1	K	E->K|E->K	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD033	E+OL	GRADE>SEQUENCE	KURZ · FORTSETZEN	STATE_OR_GRADE_FORMULA	PROC093	teol	1	1	NONE	E->NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD034	E+T+Y	GRADE>ACTION>OBJECT_MATERIAL	KURZ · EINTRAGEN · DIES	ACTION_COMMAND	PROC010	etyd	1	1	T	E->T	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD035	EE+AR	GRADE>SOURCE_PATH_TARGET	LANG · QUELLE	STATE_OR_GRADE_FORMULA	PROC146	cheedar	1	1	NONE	EE->NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD036	EEE+T+Y	GRADE>ACTION>OBJECT_MATERIAL	VOLL · EINTRAGEN · DIES	ACTION_COMMAND	PROC149	cheeety	1	1	T	EEE->T	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD037	HO	OBJECT_MATERIAL	GABE	ARGUMENT_OR_OBJECT_FORMULA	PROC052	cho|sho	1	4	NONE	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD038	HO+AL+Y	OBJECT_MATERIAL>SOURCE_PATH_TARGET>OBJECT_MATERIAL	GABE · ZIEL · DIES	ARGUMENT_OR_OBJECT_FORMULA	PROC053	chodaly	1	1	NONE	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD039	HO+CH+OR	OBJECT_MATERIAL>ACTION>OBJECT_MATERIAL	GABE · ABZIEHEN · ANSATZ	ACTION_COMMAND	PROC051	chochor	1	1	CH	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD040	HO+Y	OBJECT_MATERIAL>OBJECT_MATERIAL	GABE · DIES	ARGUMENT_OR_OBJECT_FORMULA	PROC056	choy	1	1	NONE	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD041	K+AIN	ACTION>QUANTITY_STAGE	ZUFUEHREN · PORTION	ACTION_COMMAND	PROC069	chkain|kain	1	3	K	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD042	K+AIR	ACTION>SOURCE_PATH_TARGET	ZUFUEHREN · LAUF	ACTION_COMMAND	PROC068	kair	1	1	K	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD043	K+AL	ACTION>SOURCE_PATH_TARGET	ZUFUEHREN · ZIEL	ACTION_COMMAND	PROC062	kchal	1	1	K	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD044	K+AR	ACTION>SOURCE_PATH_TARGET	ZUFUEHREN · QUELLE	ACTION_COMMAND	PROC165	skar	1	1	K	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD045	K+E+OL	ACTION>GRADE>SEQUENCE	ZUFUEHREN · KURZ · FORTSETZEN	ACTION_COMMAND	PROC066	keol	1	1	K	E->K	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD046	K+E+Y	ACTION>GRADE>OBJECT_MATERIAL	ZUFUEHREN · KURZ · DIES	ACTION_COMMAND	PROC059	kchey	1	1	K	E->K	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD047	K+HO+AR	ACTION>OBJECT_MATERIAL>SOURCE_PATH_TARGET	ZUFUEHREN · GABE · QUELLE	ACTION_COMMAND	PROC063	kchoar	1	1	K	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD048	K+IIN	ACTION>QUANTITY_STAGE	ZUFUEHREN · STUFE	ACTION_COMMAND	PROC024	kaiiin	1	1	K	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD049	K+OL	ACTION>SEQUENCE	ZUFUEHREN · FORTSETZEN	ACTION_COMMAND	PROC054	kchol	1	1	K	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD050	K+Y	ACTION>OBJECT_MATERIAL	ZUFUEHREN · DIES	ACTION_COMMAND	PROC035	kchy	1	1	K	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD051	L	ACTION	FUEHREN	ACTION_COMMAND	PROC072	dl	1	2	L	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD052	L+AIIN	ACTION>QUANTITY_STAGE	FUEHREN · MASS	ACTION_COMMAND	PROC147	chldaiin	1	1	L	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD053	L+AL+OR	ACTION>SOURCE_PATH_TARGET>OBJECT_MATERIAL	FUEHREN · ZIEL · ANSATZ	ACTION_COMMAND	PROC173	ldalor	1	1	L	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD054	L+AR	ACTION>SOURCE_PATH_TARGET	FUEHREN · QUELLE	ACTION_COMMAND	PROC121	lar	1	1	L	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD055	L+CH+Y	ACTION>ACTION>OBJECT_MATERIAL	FUEHREN · ABZIEHEN · DIES	ACTION_COMMAND	PROC116	lchy	1	1	L|CH	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD056	L+CHD	ACTION>ACTION	FUEHREN · UMSETZEN	ACTION_COMMAND	PROC102	lched	1	1	L|CHD	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD057	L+CHD+AL	ACTION>ACTION>SOURCE_PATH_TARGET	FUEHREN · UMSETZEN · ZIEL	ACTION_COMMAND	PROC088	lchedal	1	1	L|CHD	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD058	L+CHD+AR	ACTION>ACTION>SOURCE_PATH_TARGET	FUEHREN · UMSETZEN · QUELLE	ACTION_COMMAND	PROC123	lchedar	1	1	L|CHD	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD059	L+CHD+DY	ACTION>ACTION>CLOSE	FUEHREN · UMSETZEN; SCHLUSS	ACTION_COMMAND	PROC120	lchedy	1	8	L|CHD	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD060	L+CKH+E+DY	ACTION>SOURCE_PATH_TARGET>GRADE>CLOSE	FUEHREN · DURCHLASS · KURZ; SCHLUSS	ACTION_COMMAND	PROC103	lcheckhedy	1	1	L	E->L	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD061	L+CKH+Y	ACTION>SOURCE_PATH_TARGET>OBJECT_MATERIAL	FUEHREN · DURCHLASS · DIES	ACTION_COMMAND	PROC101	lcheckhy	1	1	L	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD062	L+DY	ACTION>CLOSE	FUEHREN; SCHLUSS	ACTION_COMMAND	PROC108	ldy	1	2	L	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD063	L+EE+Y	ACTION>GRADE>OBJECT_MATERIAL	FUEHREN · LANG · DIES	ACTION_COMMAND	PROC118	lcheey	1	1	L	EE->L	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD064	L+K+E+DY	ACTION>ACTION>GRADE>CLOSE	FUEHREN · ZUFUEHREN · KURZ; SCHLUSS	ACTION_COMMAND	PROC159	lkedy	1	1	L|K	E->K	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD065	L+O	ACTION>OBJECT_MATERIAL	FUEHREN · GANG	ACTION_COMMAND	PROC140	lo	1	1	L	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD066	L+O+CHD+DY	ACTION>OBJECT_MATERIAL>ACTION>CLOSE	FUEHREN · GANG · UMSETZEN; SCHLUSS	ACTION_COMMAND	PROC130	lochedy	1	1	L|CHD	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD067	L+OL	ACTION>SEQUENCE	FUEHREN · FORTSETZEN	ACTION_COMMAND	PROC167	lol	1	1	L	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD068	L+Y	ACTION>OBJECT_MATERIAL	FUEHREN · DIES	ACTION_COMMAND	PROC095	ly	1	1	L	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD069	LSH+E+DY	ACTION>GRADE>CLOSE	WASCHEN · KURZ; SCHLUSS	ACTION_COMMAND	PROC086	lshedy	1	2	LSH	E->LSH	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD070	LSH+O	ACTION>OBJECT_MATERIAL	WASCHEN · GANG	ACTION_COMMAND	PROC084	lsho	1	1	LSH	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD071	O+CKH+E+Y	OBJECT_MATERIAL>SOURCE_PATH_TARGET>GRADE>OBJECT_MATERIAL	GANG · DURCHLASS · KURZ · DIES	STATE_OR_GRADE_FORMULA	PROC161	qockhey	1	1	NONE	E->NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD072	O+CTH+E+OL	OBJECT_MATERIAL>STATE>GRADE>SEQUENCE	GANG · BEREIT · KURZ · FORTSETZEN	STATE_OR_GRADE_FORMULA	PROC106	octheol	1	1	NONE	E->NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD073	O+CTH+OL+Y	OBJECT_MATERIAL>STATE>SEQUENCE>OBJECT_MATERIAL	GANG · BEREIT · FORTSETZEN · DIES	STATE_OR_GRADE_FORMULA	PROC018	qoctholy	1	1	NONE	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD074	O+DY	OBJECT_MATERIAL>CLOSE	GANG; SCHLUSS	CLOSE_FORMULA	PROC041	ody	1	1	NONE	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD075	O+IIN	OBJECT_MATERIAL>QUANTITY_STAGE	GANG · STUFE	ARGUMENT_OR_OBJECT_FORMULA	PROC097	oiiin|soiiin	1	2	NONE	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD076	O+Y+K+OR	OBJECT_MATERIAL>OBJECT_MATERIAL>ACTION>OBJECT_MATERIAL	GANG · DIES · ZUFUEHREN · ANSATZ	ACTION_COMMAND	PROC023	oykchor	1	1	K	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD077	OK+AIIN	ACTION>QUANTITY_STAGE	ANSETZEN · MASS	ACTION_COMMAND	PROC038	okaiin|qokaiin	1	9	OK	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD078	OK+AIN	ACTION>QUANTITY_STAGE	ANSETZEN · PORTION	ACTION_COMMAND	PROC080	okain|qokain	1	7	OK	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD079	OK+AIR	ACTION>SOURCE_PATH_TARGET	ANSETZEN · LAUF	ACTION_COMMAND	PROC138	okair	1	1	OK	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD080	OK+AL	ACTION>SOURCE_PATH_TARGET	ANSETZEN · ZIEL	ACTION_COMMAND	PROC048	okal|qokal	1	6	OK	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD081	OK+AL+Y	ACTION>SOURCE_PATH_TARGET>OBJECT_MATERIAL	ANSETZEN · ZIEL · DIES	ACTION_COMMAND	PROC104	qokaly	1	1	OK	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD082	OK+AR	ACTION>SOURCE_PATH_TARGET	ANSETZEN · QUELLE	ACTION_COMMAND	PROC113	qokar	1	1	OK	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD083	OK+CH+E+O	ACTION>ACTION>GRADE>OBJECT_MATERIAL	ANSETZEN · ABZIEHEN · KURZ · GANG	ACTION_COMMAND	PROC061	chokcheo	1	1	OK|CH	E->CH	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD084	OK+CHD+DY	ACTION>ACTION>CLOSE	ANSETZEN · UMSETZEN; SCHLUSS	ACTION_COMMAND	PROC082|PROC091	qokchdy|okchedy|qokchedy	2	5	OK|CHD	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD085	OK+E+DY	ACTION>GRADE>CLOSE	ANSETZEN · KURZ; SCHLUSS	ACTION_COMMAND	PROC067	qokedy	1	8	OK	E->OK	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD086	OK+E+Y	ACTION>GRADE>OBJECT_MATERIAL	ANSETZEN · KURZ · DIES	ACTION_COMMAND	PROC085	okey|qokey	1	2	OK	E->OK	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD087	OK+EE+AL	ACTION>GRADE>SOURCE_PATH_TARGET	ANSETZEN · LANG · ZIEL	ACTION_COMMAND	PROC074	qokeedal	1	1	OK	EE->OK	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD088	OK+EE+DY	ACTION>GRADE>CLOSE	ANSETZEN · LANG; SCHLUSS	ACTION_COMMAND	PROC100	qokeedy	1	10	OK	EE->OK	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD089	OK+EE+OL	ACTION>GRADE>SEQUENCE	ANSETZEN · LANG · FORTSETZEN	ACTION_COMMAND	PROC158	okeeol	1	1	OK	EE->OK	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD090	OK+EE+Y	ACTION>GRADE>OBJECT_MATERIAL	ANSETZEN · LANG · DIES	ACTION_COMMAND	PROC092	okeey|qokeey	1	7	OK	EE->OK	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD091	OK+EEE+DY	ACTION>GRADE>CLOSE	ANSETZEN · VOLL; SCHLUSS	ACTION_COMMAND	PROC119	qokeeedy	1	1	OK	EEE->OK	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD092	OK+OK+Y	ACTION>ACTION>OBJECT_MATERIAL	ANSETZEN · ANSETZEN · DIES	ACTION_COMMAND	PROC060	qokokchy	1	1	OK|OK	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD093	OK+OL	ACTION>SEQUENCE	ANSETZEN · FORTSETZEN	ACTION_COMMAND	PROC037|PROC160	okchol|qokol	2	2	OK	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD094	OK+SH+E+DY	ACTION>ACTION>GRADE>CLOSE	ANSETZEN · HALTEN · KURZ; SCHLUSS	ACTION_COMMAND	PROC141	qokshedy	1	1	OK|SH	E->SH	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD095	OK+Y	ACTION>OBJECT_MATERIAL	ANSETZEN · DIES	ACTION_COMMAND	PROC008|PROC011	choky|oky|qoky|chokchy|okchy|qokchy	2	13	OK	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD096	OK+Y+LD+DY	ACTION>OBJECT_MATERIAL>ACTION>CLOSE	ANSETZEN · DIES · BEFESTIGEN; SCHLUSS	ACTION_COMMAND	PROC155	qokylddy	1	1	OK|LD	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD097	OL	SEQUENCE	FORTSETZEN	SEQUENCE_FORMULA	PROC013|PROC034|PROC115	cheol|chol|ol|qol|sol|tol|dchol|schol|ls	3	22	NONE	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD098	OL+AL+Y	SEQUENCE>SOURCE_PATH_TARGET>OBJECT_MATERIAL	FORTSETZEN · ZIEL · DIES	SEQUENCE_FORMULA	PROC153	olsaly	1	1	NONE	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD099	OL+CHD+DY	SEQUENCE>ACTION>CLOSE	FORTSETZEN · UMSETZEN; SCHLUSS	ACTION_COMMAND	PROC079	olchedy|qolchedy	1	3	CHD	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD100	OL+DY	SEQUENCE>CLOSE	FORTSETZEN; SCHLUSS	CLOSE_FORMULA	PROC047	oldy	1	2	NONE	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD101	OL+K+AIN	SEQUENCE>ACTION>QUANTITY_STAGE	FORTSETZEN · ZUFUEHREN · PORTION	ACTION_COMMAND	PROC070	olkain|qolkain	1	2	K	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD102	OL+OR	SEQUENCE>OBJECT_MATERIAL	FORTSETZEN · ANSATZ	SEQUENCE_FORMULA	PROC022	cholor|olor	1	2	NONE	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD103	OL+SH+E+DY	SEQUENCE>ACTION>GRADE>CLOSE	FORTSETZEN · HALTEN · KURZ; SCHLUSS	ACTION_COMMAND	PROC114	solshedy	1	1	SH	E->SH	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD104	OL+T+Y	SEQUENCE>ACTION>OBJECT_MATERIAL	FORTSETZEN · EINTRAGEN · DIES	ACTION_COMMAND	PROC049	oltchy	1	1	T	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD105	OL+Y	SEQUENCE>OBJECT_MATERIAL	FORTSETZEN · DIES	SEQUENCE_FORMULA	PROC154	qolchey	1	1	NONE	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD106	OR	OBJECT_MATERIAL	ANSATZ	ARGUMENT_OR_OBJECT_FORMULA	PROC016	chor|or|shor|sor	1	7	NONE	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD107	OR+AIN	OBJECT_MATERIAL>QUANTITY_STAGE	ANSATZ · PORTION	ARGUMENT_OR_OBJECT_FORMULA	PROC050	orain	1	1	NONE	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD108	OS	SOURCE_PATH_TARGET	FACH	ARGUMENT_OR_OBJECT_FORMULA	PROC005	os	1	1	NONE	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD109	OT+AIIN	SEQUENCE>QUANTITY_STAGE	DANACH · MASS	SEQUENCE_FORMULA	PROC112	otaiin|sotaiin	1	3	NONE	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD110	OT+AL	SEQUENCE>SOURCE_PATH_TARGET	DANACH · ZIEL	SEQUENCE_FORMULA	PROC131	otal|qotal	1	3	NONE	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD111	OT+AR	SEQUENCE>SOURCE_PATH_TARGET	DANACH · QUELLE	SEQUENCE_FORMULA	PROC089	otar	1	1	NONE	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD112	OT+CH+OL	SEQUENCE>ACTION>SEQUENCE	DANACH · ABZIEHEN · FORTSETZEN	ACTION_COMMAND	PROC012	qotchol	1	1	CH	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD113	OT+CH+OR	SEQUENCE>ACTION>OBJECT_MATERIAL	DANACH · ABZIEHEN · ANSATZ	ACTION_COMMAND	PROC020	otchor|qotchor	1	2	CH	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD114	OT+CHD+DY	SEQUENCE>ACTION>CLOSE	DANACH · UMSETZEN; SCHLUSS	ACTION_COMMAND	PROC145|PROC166	otchedy|qotchedy|otchdy	2	3	CHD	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD115	OT+E+AIIN	SEQUENCE>GRADE>QUANTITY_STAGE	DANACH · KURZ · MASS	STATE_OR_GRADE_FORMULA	PROC152	qotedaiin	1	1	NONE	E->NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD116	OT+E+DY	SEQUENCE>GRADE>CLOSE	DANACH · KURZ; SCHLUSS	CLOSE_FORMULA	PROC135	otedy	1	2	NONE	E->NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD117	OT+EE+DY	SEQUENCE>GRADE>CLOSE	DANACH · LANG; SCHLUSS	CLOSE_FORMULA	PROC129	qoteedy	1	2	NONE	EE->NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD118	OT+EE+Y	SEQUENCE>GRADE>OBJECT_MATERIAL	DANACH · LANG · DIES	STATE_OR_GRADE_FORMULA	PROC109	oteey	1	2	NONE	EE->NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD119	OT+O+AIN	SEQUENCE>OBJECT_MATERIAL>QUANTITY_STAGE	DANACH · GANG · PORTION	SEQUENCE_FORMULA	PROC064	sotodan	1	1	NONE	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD120	OT+OL	SEQUENCE>SEQUENCE	DANACH · FORTSETZEN	SEQUENCE_FORMULA	PROC021	otol	1	1	NONE	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD121	OT+Y	SEQUENCE>OBJECT_MATERIAL	DANACH · DIES	SEQUENCE_FORMULA	PROC036|PROC065	qotchy|otchey	2	3	NONE	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD122	OT+Y+T+CH+OL	SEQUENCE>OBJECT_MATERIAL>ACTION>ACTION>SEQUENCE	DANACH [DIES EINTRAGEN · ABZIEHEN] FORTSETZEN	ACTION_COMMAND	PROC007	otytchol	1	1	T|CH	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD123	P+CHD+AL	ACTION>ACTION>SOURCE_PATH_TARGET	HINEIN · UMSETZEN · ZIEL	ACTION_COMMAND	PROC134	pchedal	1	1	P|CHD	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD124	P+CHD+DY	ACTION>ACTION>CLOSE	HINEIN · UMSETZEN; SCHLUSS	ACTION_COMMAND	PROC125	pchedy	1	1	P|CHD	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD125	P+Y	ACTION>OBJECT_MATERIAL	HINEIN · DIES	ACTION_COMMAND	PROC030	cphy	1	1	P	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD126	R+AL	ACTION>SOURCE_PATH_TARGET	KUEHLEN · ZIEL	ACTION_COMMAND	PROC081	ral	1	1	R	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD127	R+AL+Y	ACTION>SOURCE_PATH_TARGET>OBJECT_MATERIAL	KUEHLEN · ZIEL · DIES	ACTION_COMMAND	PROC172	raly	1	1	R	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD128	R+OL	ACTION>SEQUENCE	KUEHLEN · FORTSETZEN	ACTION_COMMAND	PROC071	rol	1	1	R	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD129	R+SH+E+AL	ACTION>ACTION>GRADE>SOURCE_PATH_TARGET	KUEHLEN · HALTEN · KURZ · ZIEL	ACTION_COMMAND	PROC126	rsheal	1	1	R|SH	E->SH	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD130	R+SHED+DY	ACTION>ACTION>CLOSE	KUEHLEN · ABSETZEN; SCHLUSS	ACTION_COMMAND	PROC128	rshedy	1	1	R|SHED	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD131	SH	ACTION	HALTEN	ACTION_COMMAND	PROC058	sh	1	1	SH	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD132	SH+CKH+E+DY	ACTION>SOURCE_PATH_TARGET>GRADE>CLOSE	HALTEN · DURCHLASS · KURZ; SCHLUSS	ACTION_COMMAND	PROC099	shckhedy	1	3	SH	E->SH	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD133	SH+E+CKH+AL	ACTION>GRADE>SOURCE_PATH_TARGET>SOURCE_PATH_TARGET	HALTEN · KURZ · DURCHLASS · ZIEL	ACTION_COMMAND	PROC073	sheckhal	1	1	SH	E->SH	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD134	SH+E+CKH+Y	ACTION>GRADE>SOURCE_PATH_TARGET>OBJECT_MATERIAL	HALTEN · KURZ · DURCHLASS · DIES	ACTION_COMMAND	PROC110	sheckhy	1	1	SH	E->SH	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD135	SH+E+CTH+CHD+Y	ACTION>GRADE>STATE>ACTION>OBJECT_MATERIAL	HALTEN · KURZ · BIS BEREIT; UMSETZEN · DIES	ACTION_COMMAND	PROC136	shecthedchy	1	1	SH|CHD	E->SH	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD136	SH+E+CTH+Y	ACTION>GRADE>STATE>OBJECT_MATERIAL	HALTEN · KURZ · BEREIT · DIES	ACTION_COMMAND	PROC143	shecthy	1	1	SH	E->SH	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD137	SH+E+DY	ACTION>GRADE>CLOSE	HALTEN · KURZ; SCHLUSS	ACTION_COMMAND	PROC111	dshedy	1	1	SH	E->SH	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD138	SH+E+OL	ACTION>GRADE>SEQUENCE	HALTEN · KURZ · FORTSETZEN	ACTION_COMMAND	PROC096	dsheol	1	1	SH	E->SH	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD139	SH+E+Y	ACTION>GRADE>OBJECT_MATERIAL	HALTEN · KURZ · DIES	ACTION_COMMAND	PROC122	tshey	1	1	SH	E->SH	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD140	SH+EE+DY	ACTION>GRADE>CLOSE	HALTEN · LANG; SCHLUSS	ACTION_COMMAND	PROC139	sheedy	1	1	SH	EE->SH	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD141	SH+EE+Y	ACTION>GRADE>OBJECT_MATERIAL	HALTEN · LANG · DIES	ACTION_COMMAND	PROC031|PROC157	cheey|shey|sheey	2	5	SH	EE->SH	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD142	SH+K+CHD+DY	ACTION>ACTION>ACTION>CLOSE	HALTEN · ZUFUEHREN · UMSETZEN; SCHLUSS	ACTION_COMMAND	PROC077	sshkchdy	1	1	SH|K|CHD	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD143	SH+O+AL	ACTION>OBJECT_MATERIAL>SOURCE_PATH_TARGET	HALTEN · GANG · ZIEL	ACTION_COMMAND	PROC027	schoal	1	1	SH	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD144	SH+O+Y+T+Y	ACTION>OBJECT_MATERIAL>OBJECT_MATERIAL>ACTION>OBJECT_MATERIAL	DIES HALTEN · IM GANG EINTRAGEN · DIES	ACTION_COMMAND	PROC033	shoyty	1	1	SH|T	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD145	SH+Y+AIIN	ACTION>OBJECT_MATERIAL>QUANTITY_STAGE	HALTEN · DIES · MASS	ACTION_COMMAND	PROC029	shfydaiin	1	1	SH	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD146	SHED+AL	ACTION>SOURCE_PATH_TARGET	ABSETZEN · ZIEL	ACTION_COMMAND	PROC142	shedal	1	2	SHED	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD147	SHED+DY	ACTION>CLOSE	ABSETZEN; SCHLUSS	ACTION_COMMAND	PROC078	cheedy|shedy|tedy	1	12	SHED	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD148	SOLK+AIIN	ACTION>QUANTITY_STAGE	AUFFANGEN · MASS	ACTION_COMMAND	PROC105	solkaiin	1	1	SOLK	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD149	SOLK+E+Y	ACTION>GRADE>OBJECT_MATERIAL	AUFFANGEN · KURZ · DIES	ACTION_COMMAND	PROC164	solkey	1	1	SOLK	E->SOLK	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD150	SOLK+EE+DY	ACTION>GRADE>CLOSE	AUFFANGEN · LANG; SCHLUSS	ACTION_COMMAND	PROC098	olkeedy|solkeedy	1	3	SOLK	EE->SOLK	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD151	SOLK+EE+Y	ACTION>GRADE>OBJECT_MATERIAL	AUFFANGEN · LANG · DIES	ACTION_COMMAND	PROC170	solkeey	1	1	SOLK	EE->SOLK	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD152	SOLK+Y	ACTION>OBJECT_MATERIAL	AUFFANGEN · DIES	ACTION_COMMAND	PROC087	qolky	1	1	SOLK	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD153	T+CH+O+DY	ACTION>ACTION>OBJECT_MATERIAL>CLOSE	EINTRAGEN · ABZIEHEN · GANG; SCHLUSS	ACTION_COMMAND	PROC032	tchody	1	1	T|CH	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD154	T+E+Y	ACTION>GRADE>OBJECT_MATERIAL	EINTRAGEN · KURZ · DIES	ACTION_COMMAND	PROC090	ytey	1	1	T	E->T	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD155	T+SH+OL	ACTION>ACTION>SEQUENCE	EINTRAGEN · HALTEN · FORTSETZEN	ACTION_COMMAND	PROC026	tshol	1	1	T|SH	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD156	T+Y	ACTION>OBJECT_MATERIAL	EINTRAGEN · DIES	ACTION_COMMAND	PROC004	chety|chty	1	2	T	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD157	TALAM	ACTION	VERWAHREN	ACTION_COMMAND	PROC043	talam	1	1	TALAM	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD158	Y	OBJECT_MATERIAL	DIES	ARGUMENT_OR_OBJECT_FORMULA	PROC019	chey|chy|dy|shy|sy|y	1	18	NONE	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD159	Y+CH+E+OR	OBJECT_MATERIAL>ACTION>GRADE>OBJECT_MATERIAL	DIES · ABZIEHEN · KURZ · ANSATZ	ACTION_COMMAND	PROC015	ycheor	1	1	CH	E->CH	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD160	Y+K+AIIN	OBJECT_MATERIAL>ACTION>QUANTITY_STAGE	DIES · ZUFUEHREN · MASS	ACTION_COMMAND	PROC044	ykaiin	1	1	K	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES
+CMD161	Y+K+AIN	OBJECT_MATERIAL>ACTION>QUANTITY_STAGE	DIES · ZUFUEHREN · PORTION	ACTION_COMMAND	PROC039|PROC040	ykain|ykan	2	2	K	NONE	DIES, Ziel, Quelle oder ausgelassener Gegenstand kommen aus aktivem Bild/Fall.	YES

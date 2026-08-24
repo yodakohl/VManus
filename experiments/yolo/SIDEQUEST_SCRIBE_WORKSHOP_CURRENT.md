@@ -9885,9 +9885,18 @@ action owns the grade, with the preceding action winning ties. No permitted
 action-grade cell remains unobserved. See
 `sidequest_semantic_action_grade_doctrine_six_hundred_eleventh/SIX_HUNDRED_ELEVENTH_REPORT.md`.
 
-Next, compile action+grade+endpoint into one small command table and substitute
-the exact same short command everywhere in the six cases, leaving objects and
-locations to the case layer.
+Pass 612 compiles the card grammar into 161 invariant workshop commands for
+all 173 exact cards. Every one of the 381 event readings now uses the same
+short command wherever the same semantic component sequence occurs; owner,
+product, vessel, body site, and case-specific expansion remain outside the
+card meaning. Eleven command sequences have more than one exact card identity,
+accounting for twelve semantically redundant but graphically distinct cards.
+See
+`sidequest_semantic_invariant_commands_six_hundred_twelfth/SIX_HUNDRED_TWELFTH_REPORT.md`.
+
+Next, audit those eleven duplicate-command groups occurrence by occurrence to
+separate allographs, register/scribe variants, and cards that still need a
+small semantic distinction.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these

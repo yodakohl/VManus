@@ -1,0 +1,251 @@
+# Sechs Fälle mit invarianten Werkstattbefehlen
+
+## C1
+
+- **H1-S001** / abgebildete breit gezähnte radialblütige Pflanze / RAW_PLANT_MATERIAL: ABZIEHEN · KURZ · DIES | BEREIT · GANG · ANSATZ | QUELLE | EINTRAGEN · DIES | FACH | ABZIEHEN · LAUF | DANACH [DIES EINTRAGEN · ABZIEHEN] FORTSETZEN | ANSETZEN · DIES | MASS | KURZ · EINTRAGEN · DIES
+  - Fallausbau: Frischen Pflanzenteil kurz in den Wasseransatz geben, den ersten Auszug in das Auffangfach laufen lassen und nach Mass zurueck in die Charge eintragen.
+- **H1-S002** / abgebildete breit gezähnte radialblütige Pflanze / RAW_PLANT_MATERIAL: ANSETZEN · DIES | DANACH · ABZIEHEN · FORTSETZEN | FORTSETZEN | BEREIT · DIES
+  - Fallausbau: Eine weitere Pflanzenportion in denselben Ansatz geben, kurz abziehen und bis zum bereiten Grundauszug weiterarbeiten.
+- **B1-S001** / gemeinsame zweireihige Figuren-/Beckenstation / H3: ANSETZEN · KURZ; SCHLUSS
+  - Fallausbau: Setze zweifach gezogener und ausgewrungener Bluetenauszug an gemeinsame zweireihige Figuren-/Beckenstation ein. Therapeutische Lesung: Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: einwirken lassen.
+- **B1-S002** / gemeinsame zweireihige Figuren-/Beckenstation / H3: ANSETZEN · MASS | ZUFUEHREN · LAUF | ANSETZEN · ZIEL | QUELLE | FORTSETZEN | ZUFUEHREN · PORTION | FORTSETZEN · ZUFUEHREN · PORTION | ZIEL | FORTSETZEN | KUEHLEN · FORTSETZEN | FUEHREN | FORTSETZEN · ANSATZ | FORTSETZEN | HALTEN · KURZ · DURCHLASS · ZIEL | MASS | ANSETZEN · LANG · ZIEL | MASS | DURCHLASS · DIES | UMSETZEN; SCHLUSS
+  - Fallausbau: Setze zweifach gezogener und ausgewrungener Bluetenauszug an gemeinsame zweireihige Figuren-/Beckenstation ein. Therapeutische Lesung: Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: setze nach Maß an → einspeisen → anlegen → dosiert zugeben → dosiert zugeben → abkühlen lassen → führen → zurückhalten → anlegen → durchleiten. Angaben: davon | fort | Ziel | fort | fort · Ansatz | fort | Maß | Maß | Durchlass · dies.
+- **B1-S003** / gemeinsame zweireihige Figuren-/Beckenstation / H3: FORTSETZEN | HALTEN · ZUFUEHREN · UMSETZEN; SCHLUSS
+  - Fallausbau: Setze zweifach gezogener und ausgewrungener Bluetenauszug an gemeinsame zweireihige Figuren-/Beckenstation ein. Therapeutische Lesung: Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: halten + zugeben + überführen. Angaben: fort.
+- **B1-S004** / gemeinsame zweireihige Figuren-/Beckenstation / H3: UMSETZEN · DIES | FORTSETZEN | ABSETZEN; SCHLUSS
+  - Fallausbau: Setze zweifach gezogener und ausgewrungener Bluetenauszug an gemeinsame zweireihige Figuren-/Beckenstation ein. Therapeutische Lesung: Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: umschöpfen → absetzen lassen. Angaben: fort.
+- **B1-S005** / gemeinsame zweireihige Figuren-/Beckenstation / H3: FORTSETZEN · UMSETZEN; SCHLUSS
+  - Fallausbau: Setze zweifach gezogener und ausgewrungener Bluetenauszug an gemeinsame zweireihige Figuren-/Beckenstation ein. Therapeutische Lesung: Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: führe zur nächsten Station.
+- **B1-S006** / gemeinsame zweireihige Figuren-/Beckenstation / H3: ANSETZEN · PORTION | DURCHLASS · DIES | FUEHREN | KUEHLEN · ZIEL
+  - Fallausbau: Setze zweifach gezogener und ausgewrungener Bluetenauszug an gemeinsame zweireihige Figuren-/Beckenstation ein. Therapeutische Lesung: Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: gib einen Teil hinein → durchleiten → abkühlen lassen. Angaben: Durchlass · dies.
+- **B1-S007** / gemeinsame zweireihige Figuren-/Beckenstation / H3: ANSETZEN · UMSETZEN; SCHLUSS
+  - Fallausbau: Setze zweifach gezogener und ausgewrungener Bluetenauszug an gemeinsame zweireihige Figuren-/Beckenstation ein. Therapeutische Lesung: Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: einsetzen + überführen.
+- **B1-S008** / gemeinsame zweireihige Figuren-/Beckenstation / H3: DIES | FORTSETZEN | WAERMEN · KURZ · DIES | FORTSETZEN | ABSETZEN; SCHLUSS
+  - Fallausbau: Setze zweifach gezogener und ausgewrungener Bluetenauszug an gemeinsame zweireihige Figuren-/Beckenstation ein. Therapeutische Lesung: Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: warm halten → absetzen lassen. Angaben: dies | fort | fort.
+- **B1-S009** / gemeinsame zweireihige Figuren-/Beckenstation / H3: ANSETZEN · KURZ; SCHLUSS
+  - Fallausbau: Setze zweifach gezogener und ausgewrungener Bluetenauszug an gemeinsame zweireihige Figuren-/Beckenstation ein. Therapeutische Lesung: Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: einwirken lassen.
+- **B1-S010** / gemeinsame zweireihige Figuren-/Beckenstation / H3: ANSETZEN · KURZ; SCHLUSS
+  - Fallausbau: Setze zweifach gezogener und ausgewrungener Bluetenauszug an gemeinsame zweireihige Figuren-/Beckenstation ein. Therapeutische Lesung: Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: einwirken lassen.
+- **B1-S011** / gemeinsame zweireihige Figuren-/Beckenstation / H3: DURCHLASS · DIES | ANSETZEN · DIES
+  - Fallausbau: Setze zweifach gezogener und ausgewrungener Bluetenauszug an gemeinsame zweireihige Figuren-/Beckenstation ein. Therapeutische Lesung: Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: einleiten. Angaben: Durchlass · dies.
+- **B1-S012** / gemeinsame zweireihige Figuren-/Beckenstation / H3: WASCHEN · GANG | ANSETZEN · KURZ · DIES | WASCHEN · KURZ; SCHLUSS
+  - Fallausbau: Setze zweifach gezogener und ausgewrungener Bluetenauszug an gemeinsame zweireihige Figuren-/Beckenstation ein. Therapeutische Lesung: Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: waschen → wirken lassen → durchwaschen.
+- **B1-S013** / gemeinsame zweireihige Figuren-/Beckenstation / H3: WASCHEN · KURZ; SCHLUSS
+  - Fallausbau: Setze zweifach gezogener und ausgewrungener Bluetenauszug an gemeinsame zweireihige Figuren-/Beckenstation ein. Therapeutische Lesung: Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: durchwaschen.
+- **B1-S014** / gemeinsame zweireihige Figuren-/Beckenstation / H3: UMSETZEN · DIES | AUFFANGEN · DIES | FUEHREN · UMSETZEN · ZIEL | FORTSETZEN | DANACH · QUELLE
+  - Fallausbau: Setze zweifach gezogener und ausgewrungener Bluetenauszug an gemeinsame zweireihige Figuren-/Beckenstation ein. Therapeutische Lesung: Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: umschöpfen → auffangen → hinleiten + umfüllen. Angaben: fort | danach · davon.
+- **B1-S015** / gemeinsame zweireihige Figuren-/Beckenstation / H3: EINTRAGEN · KURZ · DIES | ANSETZEN · UMSETZEN; SCHLUSS
+  - Fallausbau: Setze zweifach gezogener und ausgewrungener Bluetenauszug an gemeinsame zweireihige Figuren-/Beckenstation ein. Therapeutische Lesung: Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: übertragen → einsetzen + überführen.
+- **B1-S016** / gemeinsame zweireihige Figuren-/Beckenstation / H3: ANSETZEN · ZIEL | ANSETZEN · LANG · DIES | FORTSETZEN | ABSETZEN; SCHLUSS
+  - Fallausbau: Setze zweifach gezogener und ausgewrungener Bluetenauszug an gemeinsame zweireihige Figuren-/Beckenstation ein. Therapeutische Lesung: Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: anlegen → wirken lassen → absetzen lassen. Angaben: fort.
+- **B1-S017** / gemeinsame zweireihige Figuren-/Beckenstation / H3: ZIEL | KURZ · FORTSETZEN | UMSETZEN; SCHLUSS
+  - Fallausbau: Setze zweifach gezogener und ausgewrungener Bluetenauszug an gemeinsame zweireihige Figuren-/Beckenstation ein. Therapeutische Lesung: Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: umfüllen. Angaben: Ziel | kurz · fort.
+- **B1-S018** / gemeinsame zweireihige Figuren-/Beckenstation / H3: FUEHREN · DIES | HALTEN · KURZ · FORTSETZEN | GANG · STUFE | AUFFANGEN · LANG; SCHLUSS
+  - Fallausbau: Setze zweifach gezogener und ausgewrungener Bluetenauszug an gemeinsame zweireihige Figuren-/Beckenstation ein. Therapeutische Lesung: Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: führen → stehen lassen → auffangen und stehen lassen. Angaben: Gang · Sollstufe.
+- **B1-S019** / gemeinsame zweireihige Figuren-/Beckenstation / H3: ABSETZEN; SCHLUSS
+  - Fallausbau: Setze zweifach gezogener und ausgewrungener Bluetenauszug an gemeinsame zweireihige Figuren-/Beckenstation ein. Therapeutische Lesung: Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: absetzen lassen.
+- **B1-S020** / gemeinsame zweireihige Figuren-/Beckenstation / H3: WAERMEN · KURZ · DIES | HALTEN · DURCHLASS · KURZ; SCHLUSS
+  - Fallausbau: Setze zweifach gezogener und ausgewrungener Bluetenauszug an gemeinsame zweireihige Figuren-/Beckenstation ein. Therapeutische Lesung: Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: warm halten → zurückhalten.
+- **B1-S021** / gemeinsame zweireihige Figuren-/Beckenstation / H3: ZIEL
+  - Fallausbau: Setze zweifach gezogener und ausgewrungener Bluetenauszug an gemeinsame zweireihige Figuren-/Beckenstation ein. Therapeutische Lesung: Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: setze nur die Angaben. Angaben: Ziel.
+
+## C2
+
+- **H2-S001** / abgebildete breit gezähnte radialblütige Pflanze / RAW_PLANT_MATERIAL: DIES · ABZIEHEN · KURZ · ANSATZ | BEREIT · DIES | ANSATZ | BEREIT · MASS | GANG · BEREIT · FORTSETZEN · DIES | DIES | DIES | MASS | DIES
+  - Fallausbau: Den zurueckbehaltenen Pflanzenrest oder zweiten Teil abziehen, an Ansatz und Mass binden und bis zur Bereitschaft weiterziehen.
+- **H2-S002** / abgebildete breit gezähnte radialblütige Pflanze / RAW_PLANT_MATERIAL: DANACH · ABZIEHEN · ANSATZ | ANSATZ | DANACH · FORTSETZEN | FORTSETZEN | FORTSETZEN · ANSATZ | FORTSETZEN | MASS | QUELLE
+  - Fallausbau: Vom fortgefuehrten Ansatz einen gemessenen Nachauszug abnehmen; den Rest im Gefaess weiterfuehren.
+- **H2-S003** / abgebildete breit gezähnte radialblütige Pflanze / RAW_PLANT_MATERIAL: GANG · DIES · ZUFUEHREN · ANSATZ | ANSATZ | ANSATZ | DIES | ZUFUEHREN · STUFE | DIES | ABZIEHEN · GANG · MASS
+  - Fallausbau: Den Ansatz zweimal mit frischem Pflanzenstoff oder Medium nachbeschicken und die naechste verbrauchte Portion entfernen.
+- **B2-S001** / oberes Beckenpaar mit Zylinder / H2: UMSETZEN; SCHLUSS
+  - Fallausbau: Setze zweifach nachbeschickter standardisierter Zweitauszug an oberes Beckenpaar mit Zylinder ein. Therapeutische Lesung: Bildort: oberes Beckenpaar mit Zylinder. Arbeitsfolge: führe zur nächsten Station.
+- **B2-S002** / oberes Beckenpaar mit Zylinder / H2: FORTSETZEN · UMSETZEN; SCHLUSS
+  - Fallausbau: Setze zweifach nachbeschickter standardisierter Zweitauszug an oberes Beckenpaar mit Zylinder ein. Therapeutische Lesung: Bildort: oberes Beckenpaar mit Zylinder. Arbeitsfolge: führe zur nächsten Station.
+- **B2-S003** / oberes Beckenpaar mit Zylinder / H2: ANSETZEN · PORTION | DIES | ANSETZEN · LANG; SCHLUSS
+  - Fallausbau: Setze zweifach nachbeschickter standardisierter Zweitauszug an oberes Beckenpaar mit Zylinder ein. Therapeutische Lesung: Bildort: oberes Beckenpaar mit Zylinder. Arbeitsfolge: gib einen Teil hinein → einwirken lassen. Angaben: dies.
+- **B2-S004** / oberes Beckenpaar mit Zylinder / H2: ANSETZEN · ZIEL | FUEHREN · DURCHLASS · DIES | FUEHREN · UMSETZEN | ANSETZEN · LANG · DIES | FUEHREN · DURCHLASS · KURZ; SCHLUSS
+  - Fallausbau: Setze zweifach nachbeschickter standardisierter Zweitauszug an oberes Beckenpaar mit Zylinder ein. Therapeutische Lesung: Bildort: oberes Beckenpaar mit Zylinder. Arbeitsfolge: anlegen → durchleiten → führen + umsetzen → wirken lassen → durchleiten.
+- **B2-S005** / oberes Beckenpaar mit Zylinder / H2: ANSETZEN · ZIEL · DIES | AUFFANGEN · MASS | DURCHLASS · DIES | ANSETZEN · MASS | ANSETZEN · MASS | GANG · BEREIT · KURZ · FORTSETZEN | WAERMEN · LANG · DIES | FUEHREN; SCHLUSS
+  - Fallausbau: Setze zweifach nachbeschickter standardisierter Zweitauszug an oberes Beckenpaar mit Zylinder ein. Therapeutische Lesung: Bildort: oberes Beckenpaar mit Zylinder. Arbeitsfolge: anlegen → bis zum Maß auffangen → einleiten → einleiten → warm halten → abführen. Angaben: Durchlass · dies | Gang · bereit · kurz · fort.
+- **B2-S006** / oberes Beckenpaar mit Zylinder / H2: DANACH · LANG · DIES | ANSETZEN · ZIEL | HALTEN · KURZ · DURCHLASS · DIES | ANSETZEN · DIES
+  - Fallausbau: Setze zweifach nachbeschickter standardisierter Zweitauszug an oberes Beckenpaar mit Zylinder ein. Therapeutische Lesung: Bildort: oberes Beckenpaar mit Zylinder. Arbeitsfolge: anlegen → zurückhalten → setze dies ein. Angaben: danach · länger · dies.
+- **B2-S007** / mittleres linkes Handgerät mit Inline-Knoten / H4: HALTEN · KURZ; SCHLUSS
+  - Fallausbau: Setze abgemessene warme Auflage oder dicke Waschzubereitung an mittleres linkes Handgerät mit Inline-Knoten ein. Therapeutische Lesung: Bildort: mittleres linkes Handgerät mit Inline-Knoten. Arbeitsfolge: ruhen lassen.
+- **B2-S008** / mittleres linkes Handgerät mit Inline-Knoten / H4: DANACH · MASS | ANSETZEN · QUELLE | ABSETZEN; SCHLUSS
+  - Fallausbau: Setze abgemessene warme Auflage oder dicke Waschzubereitung an mittleres linkes Handgerät mit Inline-Knoten ein. Therapeutische Lesung: Bildort: mittleres linkes Handgerät mit Inline-Knoten. Arbeitsfolge: gib davon nach Maß zu → absetzen lassen. Angaben: danach · Maß.
+- **B2-S009** / mittleres linkes Handgerät mit Inline-Knoten / H4: FORTSETZEN · HALTEN · KURZ; SCHLUSS
+  - Fallausbau: Setze abgemessene warme Auflage oder dicke Waschzubereitung an mittleres linkes Handgerät mit Inline-Knoten ein. Therapeutische Lesung: Bildort: mittleres linkes Handgerät mit Inline-Knoten. Arbeitsfolge: ruhen lassen.
+- **B2-S010** / mittleres linkes Handgerät mit Inline-Knoten / H4: ANSETZEN · LANG · DIES | ANSETZEN · DIES | FORTSETZEN | HALTEN · LANG · DIES
+  - Fallausbau: Setze abgemessene warme Auflage oder dicke Waschzubereitung an mittleres linkes Handgerät mit Inline-Knoten ein. Therapeutische Lesung: Bildort: mittleres linkes Handgerät mit Inline-Knoten. Arbeitsfolge: wirken lassen → setze dies ein → stehen lassen. Angaben: weiter.
+- **B2-S011** / mittlere rechte unklare Station / H4: ANSETZEN · PORTION | QUELLE | ANSETZEN · PORTION | ANSETZEN · LANG; SCHLUSS
+  - Fallausbau: Setze abgemessene warme Auflage oder dicke Waschzubereitung an mittlere rechte unklare Station ein. Therapeutische Lesung: Bildort: mittlere rechte unklare Station. Arbeitsfolge: gib einen Teil hinein → gib einen Teil hinein → einwirken lassen. Angaben: davon.
+- **B2-S012** / mittlere rechte unklare Station / H4: FUEHREN · ABZIEHEN · DIES | HALTEN · LANG · DIES | BEREIT · KURZ · DIES | ANSETZEN · LANG · DIES | FUEHREN · LANG · DIES | MASS | DIES | ANSETZEN · VOLL; SCHLUSS
+  - Fallausbau: Setze abgemessene warme Auflage oder dicke Waschzubereitung an mittlere rechte unklare Station ein. Therapeutische Lesung: Bildort: mittlere rechte unklare Station. Arbeitsfolge: führen + abnehmen → stehen lassen → wirken lassen → führen → setze voll an; schließe. Angaben: bereit · kurz · dies | Maß | dies.
+- **B2-S013** / unteres grünes Mehrfigurenbecken / H5: FUEHREN · UMSETZEN; SCHLUSS
+  - Fallausbau: Setze mehrfach beschickter konzentrierter Pflanzenauszug an unteres grünes Mehrfigurenbecken ein. Therapeutische Lesung: Bildort: unteres grünes Mehrfigurenbecken. Arbeitsfolge: abführen + überführen.
+- **B2-S014** / unteres grünes Mehrfigurenbecken / H5: FUEHREN · QUELLE
+  - Fallausbau: Setze mehrfach beschickter konzentrierter Pflanzenauszug an unteres grünes Mehrfigurenbecken ein. Therapeutische Lesung: Bildort: unteres grünes Mehrfigurenbecken. Arbeitsfolge: ableiten.
+- **B2-S015** / kleine Randstationen des unteren Beckens / H4: HALTEN · KURZ · DIES | ANSETZEN · LANG; SCHLUSS
+  - Fallausbau: Setze abgemessene warme Auflage oder dicke Waschzubereitung an kleine Randstationen des unteren Beckens ein. Therapeutische Lesung: Bildort: kleine Randstationen des unteren Beckens. Arbeitsfolge: stehen lassen → einwirken lassen.
+- **B2-S016** / kleine Randstationen des unteren Beckens / H4: ZIEL | FUEHREN · UMSETZEN · QUELLE | ABZIEHEN · KURZ · TEILEN | MASS | DANACH · LANG · DIES | ANSETZEN · MASS | ANSETZEN · KURZ · DIES | HINEIN · UMSETZEN; SCHLUSS
+  - Fallausbau: Setze abgemessene warme Auflage oder dicke Waschzubereitung an kleine Randstationen des unteren Beckens ein. Therapeutische Lesung: Bildort: kleine Randstationen des unteren Beckens. Arbeitsfolge: ableiten + umfüllen → abnehmen + abteilen → setze nach Maß an → wirken lassen → einfüllen + überführen. Angaben: Ziel | Maß | danach · länger · dies.
+- **B2-S017** / kleine Randstationen des unteren Beckens / H4: KUEHLEN · HALTEN · KURZ · ZIEL | ZIEL; SCHLUSS
+  - Fallausbau: Setze abgemessene warme Auflage oder dicke Waschzubereitung an kleine Randstationen des unteren Beckens ein. Therapeutische Lesung: Bildort: kleine Randstationen des unteren Beckens. Arbeitsfolge: abkühlen lassen + ruhen lassen. Angaben: Ziel; Schritt schließen.
+- **B2-S018** / kleine Randstationen des unteren Beckens / H4: ANSETZEN · LANG; SCHLUSS
+  - Fallausbau: Setze abgemessene warme Auflage oder dicke Waschzubereitung an kleine Randstationen des unteren Beckens ein. Therapeutische Lesung: Bildort: kleine Randstationen des unteren Beckens. Arbeitsfolge: einwirken lassen.
+- **B2-S019** / kleine Randstationen des unteren Beckens / H4: KUEHLEN · ABSETZEN; SCHLUSS
+  - Fallausbau: Setze abgemessene warme Auflage oder dicke Waschzubereitung an kleine Randstationen des unteren Beckens ein. Therapeutische Lesung: Bildort: kleine Randstationen des unteren Beckens. Arbeitsfolge: auskühlen lassen + absetzen lassen.
+- **B2-S020** / kleine Randstationen des unteren Beckens / H4: DANACH · LANG; SCHLUSS
+  - Fallausbau: Setze abgemessene warme Auflage oder dicke Waschzubereitung an kleine Randstationen des unteren Beckens ein. Therapeutische Lesung: Bildort: kleine Randstationen des unteren Beckens. Arbeitsfolge: setze nur die Angaben. Angaben: danach · länger; Schritt schließen.
+- **B2-S021** / kleine Randstationen des unteren Beckens / H4: ANSETZEN · LANG; SCHLUSS
+  - Fallausbau: Setze abgemessene warme Auflage oder dicke Waschzubereitung an kleine Randstationen des unteren Beckens ein. Therapeutische Lesung: Bildort: kleine Randstationen des unteren Beckens. Arbeitsfolge: einwirken lassen.
+- **B2-S022** / kleine Randstationen des unteren Beckens / H4: FUEHREN · GANG · UMSETZEN; SCHLUSS
+  - Fallausbau: Setze abgemessene warme Auflage oder dicke Waschzubereitung an kleine Randstationen des unteren Beckens ein. Therapeutische Lesung: Bildort: kleine Randstationen des unteren Beckens. Arbeitsfolge: abführen + überführen.
+
+## C3
+
+- **H3-S001** / abgebildete dicht blau blühende Kronenpflanze / RAW_PLANT_MATERIAL: EINTRAGEN · HALTEN · FORTSETZEN | HALTEN · GANG · ZIEL | AUSWRINGEN · DIES | HALTEN · DIES · MASS | HINEIN · DIES | HALTEN · LANG · DIES | EINTRAGEN · ABZIEHEN · GANG; SCHLUSS
+  - Fallausbau: Blueten in das Tuchgefaess geben, ziehen lassen, auswringen, das Pressgut erneut einlegen, nochmals ziehen und den Auszug auffangen.
+- **H3-S002** / abgebildete dicht blau blühende Kronenpflanze / RAW_PLANT_MATERIAL: DIES HALTEN · IM GANG EINTRAGEN · DIES
+  - Fallausbau: Eine zweite Bluetenportion im gleichen Ziehgang halten und eintragen.
+- **H3-S003** / abgebildete dicht blau blühende Kronenpflanze / RAW_PLANT_MATERIAL: FORTSETZEN | DIES | ZUFUEHREN · DIES | DIES | MASS
+  - Fallausbau: Vom vorhandenen Bluetenmaterial oder Medium eine gemessene Portion weiter zugeben.
+- **H3-S004** / abgebildete dicht blau blühende Kronenpflanze / RAW_PLANT_MATERIAL: DANACH · DIES | ANSETZEN · FORTSETZEN | BEREIT · DIES | DIES
+  - Fallausbau: Den zweiten Ansatz fortsetzen, bis der Bluetenauszug gebrauchsfertig ist.
+- **B3-S001** / obere offene Fächerstation am Rand / H5: AUFFANGEN · LANG; SCHLUSS
+  - Fallausbau: Kombinierte Lesung: Bildort: obere offene Fächerstation am Rand. Arbeitsfolge: auffangen und stehen lassen. Eingesetzt wird mehrfach beschickter konzentrierter Pflanzenauszug.
+- **B3-S002** / obere offene Fächerstation am Rand / H5: DANACH · ZIEL | WAERMEN · LANG; SCHLUSS
+  - Fallausbau: Kombinierte Lesung: Bildort: obere offene Fächerstation am Rand. Arbeitsfolge: anwärmen. Angaben: danach · Ziel. Eingesetzt wird mehrfach beschickter konzentrierter Pflanzenauszug.
+- **B3-S003** / obere offene Fächerstation am Rand / H5: DIES | MASS | DIES | FUEHREN · UMSETZEN; SCHLUSS
+  - Fallausbau: Kombinierte Lesung: Bildort: obere offene Fächerstation am Rand. Arbeitsfolge: abführen + abmessen und umsetzen. Angaben: dies | Maß | dies. Eingesetzt wird mehrfach beschickter konzentrierter Pflanzenauszug.
+- **B3-S004** / obere offene Fächerstation am Rand / H5: ANSETZEN · MASS | DANACH · ZIEL | QUELLE
+  - Fallausbau: Kombinierte Lesung: Bildort: obere offene Fächerstation am Rand. Arbeitsfolge: setze nach Maß an. Angaben: danach · Ziel | davon. Eingesetzt wird mehrfach beschickter konzentrierter Pflanzenauszug.
+- **B3-S005** / mittlere Randfigur im runden Gefäß / H3: UMSETZEN; SCHLUSS
+  - Fallausbau: Kombinierte Lesung: Bildort: mittlere Randfigur im runden Gefäß. Arbeitsfolge: umfüllen. Eingesetzt wird zweifach gezogener und ausgewrungener Bluetenauszug.
+- **B3-S006** / mittlere Randfigur im runden Gefäß / H3: UMSETZEN · DIES | ANSETZEN · ZIEL | FORTSETZEN · UMSETZEN; SCHLUSS
+  - Fallausbau: Kombinierte Lesung: Bildort: mittlere Randfigur im runden Gefäß. Arbeitsfolge: umschöpfen → anlegen → führe zur nächsten Station. Eingesetzt wird zweifach gezogener und ausgewrungener Bluetenauszug.
+- **B3-S007** / mittlere Randfigur im runden Gefäß / H3: ANSETZEN · MASS | UMSETZEN · DIES | ANSETZEN · LANG; SCHLUSS
+  - Fallausbau: Kombinierte Lesung: Bildort: mittlere Randfigur im runden Gefäß. Arbeitsfolge: setze nach Maß an → umschöpfen → einwirken lassen. Eingesetzt wird zweifach gezogener und ausgewrungener Bluetenauszug.
+- **B3-S008** / mittlere Randfigur im runden Gefäß / H3: FUEHREN · UMSETZEN; SCHLUSS
+  - Fallausbau: Kombinierte Lesung: Bildort: mittlere Randfigur im runden Gefäß. Arbeitsfolge: abführen + überführen. Eingesetzt wird zweifach gezogener und ausgewrungener Bluetenauszug.
+- **B3-S009** / mittlere Randfigur im runden Gefäß / H3: ANSETZEN · DIES
+  - Fallausbau: Kombinierte Lesung: Bildort: mittlere Randfigur im runden Gefäß. Arbeitsfolge: setze dies ein. Eingesetzt wird zweifach gezogener und ausgewrungener Bluetenauszug.
+- **B3-S010** / untere Randfigur im korbartigen Gefäß / H2: HINEIN · UMSETZEN · ZIEL | DANACH · KURZ; SCHLUSS
+  - Fallausbau: Kombinierte Lesung: Bildort: untere Randfigur im korbartigen Gefäß. Arbeitsfolge: einfüllen + umfüllen. Angaben: danach · kurz; Schritt schließen. Eingesetzt wird zweifach nachbeschickter standardisierter Zweitauszug.
+- **B3-S011** / untere Randfigur im korbartigen Gefäß / H2: HALTEN · KURZ · BIS BEREIT; UMSETZEN · DIES | ANSETZEN · DIES | UMSETZEN · DIES | QUELLE · DIES
+  - Fallausbau: Kombinierte Lesung: Bildort: untere Randfigur im korbartigen Gefäß. Arbeitsfolge: halten + umsetzen → setze dies ein → umschöpfen. Angaben: davon · dies. Eingesetzt wird zweifach nachbeschickter standardisierter Zweitauszug.
+- **B3-S012** / untere Randfigur im korbartigen Gefäß / H2: ANSATZ | ABSETZEN; SCHLUSS
+  - Fallausbau: Kombinierte Lesung: Bildort: untere Randfigur im korbartigen Gefäß. Arbeitsfolge: absetzen lassen. Angaben: Ansatz. Eingesetzt wird zweifach nachbeschickter standardisierter Zweitauszug.
+- **B3-S013** / untere Randfigur im korbartigen Gefäß / H2: ANSETZEN · MASS | ZUFUEHREN · PORTION | BEREIT · KURZ · DIES | ANSETZEN · KURZ; SCHLUSS
+  - Fallausbau: Kombinierte Lesung: Bildort: untere Randfigur im korbartigen Gefäß. Arbeitsfolge: setze nach Maß an → dosiert zugeben → einwirken lassen. Angaben: bereit · kurz · dies. Eingesetzt wird zweifach nachbeschickter standardisierter Zweitauszug.
+- **B3-S014** / untere Randfigur im korbartigen Gefäß / H2: ANSETZEN · LAUF | HALTEN · LANG; SCHLUSS
+  - Fallausbau: Kombinierte Lesung: Bildort: untere Randfigur im korbartigen Gefäß. Arbeitsfolge: einleiten → ruhen lassen. Eingesetzt wird zweifach nachbeschickter standardisierter Zweitauszug.
+- **B3-S015** / untere Randfigur im korbartigen Gefäß / H2: FUEHREN · UMSETZEN; SCHLUSS
+  - Fallausbau: Kombinierte Lesung: Bildort: untere Randfigur im korbartigen Gefäß. Arbeitsfolge: abführen + überführen. Eingesetzt wird zweifach nachbeschickter standardisierter Zweitauszug.
+- **B3-S016** / untere Randfigur im korbartigen Gefäß / H2: FUEHREN · GANG | ANSETZEN · UMSETZEN; SCHLUSS
+  - Fallausbau: Kombinierte Lesung: Bildort: untere Randfigur im korbartigen Gefäß. Arbeitsfolge: führen → einsetzen + überführen. Eingesetzt wird zweifach nachbeschickter standardisierter Zweitauszug.
+- **B3-S017** / unverbundener Zwischenbereich / H1: ANSETZEN · LANG; SCHLUSS
+  - Fallausbau: Kombinierte Lesung: Bildort: unverbundener Zwischenbereich. Arbeitsfolge: einwirken lassen. Eingesetzt wird nach Mass aufgefangener Grundauszug.
+- **B3-S018** / unverbundener Zwischenbereich / H1: ABSETZEN; SCHLUSS
+  - Fallausbau: Kombinierte Lesung: Bildort: unverbundener Zwischenbereich. Arbeitsfolge: absetzen lassen. Eingesetzt wird nach Mass aufgefangener Grundauszug.
+- **B3-S019** / unverbundener Zwischenbereich / H1: ANSETZEN · HALTEN · KURZ; SCHLUSS
+  - Fallausbau: Kombinierte Lesung: Bildort: unverbundener Zwischenbereich. Arbeitsfolge: einwirken lassen + ruhen lassen. Eingesetzt wird nach Mass aufgefangener Grundauszug.
+- **B3-S020** / unverbundener Zwischenbereich / H1: ZIEL | FUEHREN · UMSETZEN; SCHLUSS
+  - Fallausbau: Kombinierte Lesung: Bildort: unverbundener Zwischenbereich. Arbeitsfolge: hinleiten + umfüllen. Angaben: Ziel. Eingesetzt wird nach Mass aufgefangener Grundauszug.
+- **B3-S021** / unverbundener Zwischenbereich / H1: ANSETZEN · MASS | BEREIT · DIES | ZIEL | DIES | MASS | ABSETZEN · ZIEL | HALTEN · KURZ · BEREIT · DIES | DIES | ZIEL | BEREIT · DIES | ZIEL · UMSETZEN; SCHLUSS
+  - Fallausbau: Kombinierte Lesung: Bildort: unverbundener Zwischenbereich. Arbeitsfolge: setze nach Maß an → ablagern → stehen lassen → umfüllen. Angaben: bereit · dies | Ziel | dies | Maß | dies | Ziel | bereit · dies. Eingesetzt wird nach Mass aufgefangener Grundauszug.
+- **B3-S022** / unverbundener Zwischenbereich / H1: DANACH · UMSETZEN; SCHLUSS
+  - Fallausbau: Kombinierte Lesung: Bildort: unverbundener Zwischenbereich. Arbeitsfolge: führe zur nächsten Station. Eingesetzt wird nach Mass aufgefangener Grundauszug.
+- **B3-S023** / unverbundener Zwischenbereich / H1: FUEHREN · UMSETZEN; SCHLUSS
+  - Fallausbau: Kombinierte Lesung: Bildort: unverbundener Zwischenbereich. Arbeitsfolge: abführen + überführen. Eingesetzt wird nach Mass aufgefangener Grundauszug.
+- **B3-S024** / unverbundener Zwischenbereich / H1: UMSETZEN; SCHLUSS
+  - Fallausbau: Kombinierte Lesung: Bildort: unverbundener Zwischenbereich. Arbeitsfolge: führe zur nächsten Station. Eingesetzt wird nach Mass aufgefangener Grundauszug.
+- **B3-S025** / unverbundener Zwischenbereich / H1: ANSETZEN · UMSETZEN; SCHLUSS
+  - Fallausbau: Kombinierte Lesung: Bildort: unverbundener Zwischenbereich. Arbeitsfolge: einsetzen + überführen. Eingesetzt wird nach Mass aufgefangener Grundauszug.
+- **B3-S026** / unverbundener Zwischenbereich / H1: LANG · QUELLE | FUEHREN · MASS | UMSETZEN · DIES | ANSETZEN · PORTION | BEREIT · DIES | ZIEL · KUEHLEN · ANSATZ | AUFFANGEN · LANG; SCHLUSS
+  - Fallausbau: Kombinierte Lesung: Bildort: unverbundener Zwischenbereich. Arbeitsfolge: ableiten → umschöpfen → gib einen Teil hinein → abkühlen lassen → auffangen und stehen lassen. Angaben: länger · davon | bereit · dies. Eingesetzt wird nach Mass aufgefangener Grundauszug.
+- **B3-S027** / sichtbares Figurenpaar mit gemeinsamem Bogen in B3 / H4: DANACH · LANG; SCHLUSS
+  - Fallausbau: Kombinierte Lesung: Bildort: sichtbares Figurenpaar mit gemeinsamem Bogen in B3. Arbeitsfolge: setze nur die Angaben. Angaben: danach · länger; Schritt schließen. Eingesetzt wird abgemessene warme Auflage oder dicke Waschzubereitung.
+- **B3-S028** / sichtbares Figurenpaar mit gemeinsamem Bogen in B3 / H4: ANSETZEN · LANG · DIES | ANSETZEN · KURZ; SCHLUSS
+  - Fallausbau: Kombinierte Lesung: Bildort: sichtbares Figurenpaar mit gemeinsamem Bogen in B3. Arbeitsfolge: wirken lassen → einwirken lassen. Eingesetzt wird abgemessene warme Auflage oder dicke Waschzubereitung.
+- **B3-S029** / sichtbares Figurenpaar mit gemeinsamem Bogen in B3 / H4: FORTSETZEN | VOLL · EINTRAGEN · DIES | ANSETZEN · KURZ; SCHLUSS
+  - Fallausbau: Kombinierte Lesung: Bildort: sichtbares Figurenpaar mit gemeinsamem Bogen in B3. Arbeitsfolge: eintragen → einwirken lassen. Angaben: fort. Eingesetzt wird abgemessene warme Auflage oder dicke Waschzubereitung.
+- **B3-S030** / sichtbares Figurenpaar mit gemeinsamem Bogen in B3 / H4: ANSETZEN · DIES | MASS | UMSETZEN · LAUF | DANACH · UMSETZEN; SCHLUSS
+  - Fallausbau: Kombinierte Lesung: Bildort: sichtbares Figurenpaar mit gemeinsamem Bogen in B3. Arbeitsfolge: setze dies ein → durchleiten → führe zur nächsten Station. Angaben: Maß. Eingesetzt wird abgemessene warme Auflage oder dicke Waschzubereitung.
+- **B3-S031** / sichtbares Figurenpaar mit gemeinsamem Bogen in B3 / H4: ANSETZEN · LANG; SCHLUSS
+  - Fallausbau: Kombinierte Lesung: Bildort: sichtbares Figurenpaar mit gemeinsamem Bogen in B3. Arbeitsfolge: einwirken lassen. Eingesetzt wird abgemessene warme Auflage oder dicke Waschzubereitung.
+- **B3-S032** / sichtbares Figurenpaar mit gemeinsamem Bogen in B3 / H4: UMSETZEN · PORTION | UMSETZEN · DIES | DANACH · KURZ · MASS | DANACH · MASS | DANACH · KURZ; SCHLUSS
+  - Fallausbau: Kombinierte Lesung: Bildort: sichtbares Figurenpaar mit gemeinsamem Bogen in B3. Arbeitsfolge: abmessen und umsetzen → abmessen und umsetzen. Angaben: danach · kurz · Maß | danach · Maß | danach · kurz; Schritt schließen. Eingesetzt wird abgemessene warme Auflage oder dicke Waschzubereitung.
+- **B3-S033** / sichtbares Figurenpaar mit gemeinsamem Bogen in B3 / H4: FUEHREN; SCHLUSS
+  - Fallausbau: Kombinierte Lesung: Bildort: sichtbares Figurenpaar mit gemeinsamem Bogen in B3. Arbeitsfolge: abführen. Eingesetzt wird abgemessene warme Auflage oder dicke Waschzubereitung.
+- **B3-S034** / sichtbares Figurenpaar mit gemeinsamem Bogen in B3 / H4: GANG · STUFE | BEREIT · DIES | EINTRAGEN · DIES | DANACH · MASS | FORTSETZEN · ZIEL · DIES | ABSETZEN; SCHLUSS
+  - Fallausbau: Kombinierte Lesung: Bildort: sichtbares Figurenpaar mit gemeinsamem Bogen in B3. Arbeitsfolge: eintragen → ablagern. Angaben: Gang · Sollstufe | bereit · dies | danach · Maß | fort · Ziel · dies. Eingesetzt wird abgemessene warme Auflage oder dicke Waschzubereitung.
+
+## C4
+
+- **H4-S001** / abgebildete breitblättrige rispige Pflanze / RAW_PLANT_MATERIAL: ANSETZEN · MASS | MASS | DIES · ZUFUEHREN · PORTION | DIES · ZUFUEHREN · PORTION | GANG; SCHLUSS
+  - Fallausbau: Pflanzenstoff nach Mass ansetzen, zwei dosierte Anteile in die Grundmasse geben und den Mischgang schliessen.
+- **H4-S002** / abgebildete breitblättrige rispige Pflanze / RAW_PLANT_MATERIAL: MASS | UMSETZEN · DIES | VERWAHREN
+  - Fallausbau: Die naechste gemessene Pflanzenmasse umsetzen und im kleinen Vorratstopf verwahren.
+- **H4-S003** / abgebildete breitblättrige rispige Pflanze / RAW_PLANT_MATERIAL: DIES · ZUFUEHREN · MASS | ABZIEHEN · KURZ · GANG · QUELLE | WAERMEN · LANG · DIES | FORTSETZEN; SCHLUSS
+  - Fallausbau: Eine Dosis zugeben, den benoetigten Anteil entnehmen, temperieren und den Zubereitungsgang schliessen.
+- **H4-S004** / abgebildete breitblättrige rispige Pflanze / RAW_PLANT_MATERIAL: MASS | ANSETZEN · ZIEL | FORTSETZEN · EINTRAGEN · DIES | ANSATZ | DIES | ANSATZ · PORTION
+  - Fallausbau: Die gemessene temperierte Ansatzportion an die bezeichnete Stelle legen oder dort eintragen.
+- **B4-S001** / sichtbares Figurenpaar mit gemeinsamem Bogen in B4 / H4: ANSETZEN · LANG; SCHLUSS
+  - Fallausbau: Setze abgemessene warme Auflage oder dicke Waschzubereitung an sichtbares Figurenpaar mit gemeinsamem Bogen in B4 ein. Therapeutische Lesung: Bildort: sichtbares Figurenpaar mit gemeinsamem Bogen in B4. Arbeitsfolge: einwirken lassen.
+- **B4-S002** / sichtbares Figurenpaar mit gemeinsamem Bogen in B4 / H4: FORTSETZEN · DIES | ANSETZEN · LANG · DIES | ANSETZEN · KURZ; SCHLUSS
+  - Fallausbau: Setze abgemessene warme Auflage oder dicke Waschzubereitung an sichtbares Figurenpaar mit gemeinsamem Bogen in B4 ein. Therapeutische Lesung: Bildort: sichtbares Figurenpaar mit gemeinsamem Bogen in B4. Arbeitsfolge: wirken lassen → einwirken lassen. Angaben: fort · dies.
+- **B4-S003** / sichtbares Figurenpaar mit gemeinsamem Bogen in B4 / H4: UMSETZEN · DIES | DANACH · ZIEL | DANACH · DIES | ANSETZEN · LANG · DIES | ANSETZEN · DIES | FORTSETZEN | ABSETZEN; SCHLUSS
+  - Fallausbau: Setze abgemessene warme Auflage oder dicke Waschzubereitung an sichtbares Figurenpaar mit gemeinsamem Bogen in B4 ein. Therapeutische Lesung: Bildort: sichtbares Figurenpaar mit gemeinsamem Bogen in B4. Arbeitsfolge: umschöpfen → anlegen → setze dies ein → absetzen lassen. Angaben: danach · Ziel | danach · dies | fort.
+- **B4-S004** / sichtbares Figurenpaar mit gemeinsamem Bogen in B4 / H4: ANSETZEN · DIES · BEFESTIGEN; SCHLUSS
+  - Fallausbau: Setze abgemessene warme Auflage oder dicke Waschzubereitung an sichtbares Figurenpaar mit gemeinsamem Bogen in B4 ein. Therapeutische Lesung: Bildort: sichtbares Figurenpaar mit gemeinsamem Bogen in B4. Arbeitsfolge: einsetzen + festbinden.
+- **B4-S005** / sichtbares Figurenpaar mit gemeinsamem Bogen in B4 / H4: PORTION | UMSETZEN · DIES | ANSETZEN · LANG; SCHLUSS
+  - Fallausbau: Setze abgemessene warme Auflage oder dicke Waschzubereitung an sichtbares Figurenpaar mit gemeinsamem Bogen in B4 ein. Therapeutische Lesung: Bildort: sichtbares Figurenpaar mit gemeinsamem Bogen in B4. Arbeitsfolge: abmessen und umsetzen → einwirken lassen. Angaben: Portion.
+- **B4-S006** / sichtbares Figurenpaar mit gemeinsamem Bogen in B4 / H4: HALTEN · DURCHLASS · KURZ; SCHLUSS
+  - Fallausbau: Setze abgemessene warme Auflage oder dicke Waschzubereitung an sichtbares Figurenpaar mit gemeinsamem Bogen in B4 ein. Therapeutische Lesung: Bildort: sichtbares Figurenpaar mit gemeinsamem Bogen in B4. Arbeitsfolge: zurückhalten.
+- **B4-S007** / sichtbares Figurenpaar mit gemeinsamem Bogen in B4 / H4: HALTEN · DURCHLASS · KURZ; SCHLUSS
+  - Fallausbau: Setze abgemessene warme Auflage oder dicke Waschzubereitung an sichtbares Figurenpaar mit gemeinsamem Bogen in B4 ein. Therapeutische Lesung: Bildort: sichtbares Figurenpaar mit gemeinsamem Bogen in B4. Arbeitsfolge: zurückhalten.
+- **B4-S008** / sichtbares Figurenpaar mit gemeinsamem Bogen in B4 / H4: MASS | WAERMEN · LANG · DIES | HALTEN · LANG · DIES | ANSETZEN · KURZ; SCHLUSS
+  - Fallausbau: Setze abgemessene warme Auflage oder dicke Waschzubereitung an sichtbares Figurenpaar mit gemeinsamem Bogen in B4 ein. Therapeutische Lesung: Bildort: sichtbares Figurenpaar mit gemeinsamem Bogen in B4. Arbeitsfolge: warm halten → einwirken lassen → einwirken lassen. Angaben: Maß.
+- **B4-S009** / sichtbares Figurenpaar mit gemeinsamem Bogen in B4 / H4: ABSETZEN; SCHLUSS
+  - Fallausbau: Setze abgemessene warme Auflage oder dicke Waschzubereitung an sichtbares Figurenpaar mit gemeinsamem Bogen in B4 ein. Therapeutische Lesung: Bildort: sichtbares Figurenpaar mit gemeinsamem Bogen in B4. Arbeitsfolge: absetzen lassen.
+- **B4-S010** / sichtbares Figurenpaar mit gemeinsamem Bogen in B4 / H4: FORTSETZEN; SCHLUSS
+  - Fallausbau: Setze abgemessene warme Auflage oder dicke Waschzubereitung an sichtbares Figurenpaar mit gemeinsamem Bogen in B4 ein. Therapeutische Lesung: Bildort: sichtbares Figurenpaar mit gemeinsamem Bogen in B4. Arbeitsfolge: setze nur die Angaben. Angaben: fort; Schritt schließen.
+- **B4-S011** / linke Hauptstation mit offenem Fransenlauf / H5: MASS | WAERMEN · KURZ · DIES | ANSETZEN · LANG · FORTSETZEN | ANSETZEN · PORTION | UMSETZEN · DIES | FORTSETZEN | FUEHREN · ZUFUEHREN · KURZ; SCHLUSS
+  - Fallausbau: Setze mehrfach beschickter konzentrierter Pflanzenauszug an linke Hauptstation mit offenem Fransenlauf ein. Therapeutische Lesung: Bildort: linke Hauptstation mit offenem Fransenlauf. Arbeitsfolge: warm halten → wirken lassen → gib einen Teil hinein → umschöpfen → abführen + zugeben. Angaben: Maß | fort.
+- **B4-S012** / linke Hauptstation mit offenem Fransenlauf / H5: FUEHREN · UMSETZEN; SCHLUSS
+  - Fallausbau: Setze mehrfach beschickter konzentrierter Pflanzenauszug an linke Hauptstation mit offenem Fransenlauf ein. Therapeutische Lesung: Bildort: linke Hauptstation mit offenem Fransenlauf. Arbeitsfolge: abführen + überführen.
+- **B4-S013** / linke Hauptstation mit offenem Fransenlauf / H5: ANSETZEN · FORTSETZEN | ABSETZEN; SCHLUSS
+  - Fallausbau: Setze mehrfach beschickter konzentrierter Pflanzenauszug an linke Hauptstation mit offenem Fransenlauf ein. Therapeutische Lesung: Bildort: linke Hauptstation mit offenem Fransenlauf. Arbeitsfolge: weiter beschicken → absetzen lassen.
+- **B4-S014** / linke Hauptstation mit offenem Fransenlauf / H5: ANSATZ | DIES | GANG · DURCHLASS · KURZ · DIES | LAUF · DIES; SCHLUSS
+  - Fallausbau: Setze mehrfach beschickter konzentrierter Pflanzenauszug an linke Hauptstation mit offenem Fransenlauf ein. Therapeutische Lesung: Bildort: linke Hauptstation mit offenem Fransenlauf. Arbeitsfolge: setze nur die Angaben. Angaben: Ansatz | dies | Gang · Durchlass · kurz · dies | Lauf · dies; Schritt schließen.
+- **B4-S015** / linke Hauptstation mit offenem Fransenlauf / H5: ANSETZEN · PORTION | HALTEN · LANG · DIES | ZUFUEHREN · PORTION | ABZIEHEN · DURCHLASS · ZIEL | AUFFANGEN · KURZ · DIES | FUEHREN · UMSETZEN; SCHLUSS
+  - Fallausbau: Setze mehrfach beschickter konzentrierter Pflanzenauszug an linke Hauptstation mit offenem Fransenlauf ein. Therapeutische Lesung: Bildort: linke Hauptstation mit offenem Fransenlauf. Arbeitsfolge: gib einen Teil hinein → stehen lassen → dosiert zugeben → ablaufen lassen → auffangen → abführen + überführen.
+- **B4-S016** / rechte Hauptstation mit S-Lauf und Mehrarmknoten / H5: FORTSETZEN · ZUFUEHREN · PORTION | ZIEL | ZUFUEHREN · QUELLE | ABSETZEN; SCHLUSS
+  - Fallausbau: Setze mehrfach beschickter konzentrierter Pflanzenauszug an rechte Hauptstation mit S-Lauf und Mehrarmknoten ein. Therapeutische Lesung: Bildort: rechte Hauptstation mit S-Lauf und Mehrarmknoten. Arbeitsfolge: dosiert zugeben → zuführen → absetzen lassen. Angaben: Ziel.
+
+## C5
+
+- **H5-S001** / abgebildete mehrköpfige stachelige Pflanze / RAW_PLANT_MATERIAL: GABE · ABZIEHEN · ANSATZ | GABE | GABE · ZIEL · DIES | MASS | GABE | ZUFUEHREN · FORTSETZEN | DANACH · ABZIEHEN · ANSATZ | ANSETZEN · DIES | ZIEL
+  - Fallausbau: Eine erste Pflanzengabe abziehen und zum Gefaess fuehren; eine zweite nach Mass abnehmen und in den Ansatz geben.
+- **H5-S002** / abgebildete mehrköpfige stachelige Pflanze / RAW_PLANT_MATERIAL: FORTSETZEN | GABE · DIES | ANSETZEN · DIES | ABZIEHEN · LANG · DURCHLASS · GANG; SCHLUSS
+  - Fallausbau: Die folgende Pflanzengabe ansetzen, den Auszug durch den Durchlass laufen lassen und mit derselben Charge fortfahren.
+- **H5-S003** / abgebildete mehrköpfige stachelige Pflanze / RAW_PLANT_MATERIAL: HALTEN | GABE | ZUFUEHREN · KURZ · DIES | ANSETZEN · ANSETZEN · DIES
+  - Fallausbau: Die Gabe ziehen lassen, dem Ansatz zufuehren und denselben Einsatz zweimal wiederholen.
+- **H5-S004** / abgebildete mehrköpfige stachelige Pflanze / RAW_PLANT_MATERIAL: ANSETZEN · DIES | ANSETZEN · ABZIEHEN · KURZ · GANG | ZUFUEHREN · ZIEL
+  - Fallausbau: Den naechsten Pflanzenteil in den Ansatz geben, ansetzen, wieder abziehen und zum folgenden Gefaess fuehren.
+- **H5-S005** / abgebildete mehrköpfige stachelige Pflanze / RAW_PLANT_MATERIAL: GABE | ANSETZEN · DIES | ZUFUEHREN · GABE · QUELLE | DANACH · GANG · PORTION
+  - Fallausbau: Eine weitere Gabe ansetzen, zufuehren und danach die naechste abgeteilte Portion in den Gang ordnen.
+- **H5-S006** / abgebildete mehrköpfige stachelige Pflanze / RAW_PLANT_MATERIAL: DANACH · DIES | ZUFUEHREN · KURZ · FORTSETZEN | MASS
+  - Fallausbau: Die letzte aktuelle Portion nach Mass zur gemeinsamen Auszugscharge geben.
+- **B5-S001** / linke Fransenstation im B5-Nachtrag / H5: DANACH · UMSETZEN; SCHLUSS
+  - Fallausbau: Führe mehrfach beschickter konzentrierter Pflanzenauszug an linke Fransenstation im B5-Nachtrag als Arbeitscharge. Betriebslesung: Bildort: linke Fransenstation im B5-Nachtrag. Arbeitsfolge: führe zur nächsten Station.
+- **B5-S002** / linke Fransenstation im B5-Nachtrag / H5: ANSETZEN · UMSETZEN; SCHLUSS
+  - Fallausbau: Führe mehrfach beschickter konzentrierter Pflanzenauszug an linke Fransenstation im B5-Nachtrag als Arbeitscharge. Betriebslesung: Bildort: linke Fransenstation im B5-Nachtrag. Arbeitsfolge: einsetzen + überführen.
+- **B5-S003** / linke Fransenstation im B5-Nachtrag / H5: ABSETZEN · ZIEL | ZIEL | FORTSETZEN | FUEHREN · FORTSETZEN | UMSETZEN · ZIEL | MASS | FORTSETZEN | ZWEIT · STUFE | UMSETZEN · DIES
+  - Fallausbau: Führe mehrfach beschickter konzentrierter Pflanzenauszug an linke Fransenstation im B5-Nachtrag als Arbeitscharge. Betriebslesung: Bildort: linke Fransenstation im B5-Nachtrag. Arbeitsfolge: ablagern → hinleiten → umfüllen → abmessen und umsetzen. Angaben: Ziel | fort | Maß | fort | zweite · Sollstufe.
+
+## C6
+
+- **B6-S001** / rechter S-Lauf im B6-Nachtrag / H5: AUFFANGEN · LANG · DIES | KURZ · ZUFUEHREN · KURZ · DIES | KUEHLEN · ZIEL · DIES | FORTSETZEN | MASS | FORTSETZEN | PORTION | DIES | FUEHREN · ZIEL · ANSATZ
+  - Fallausbau: Führe mehrfach beschickter konzentrierter Pflanzenauszug an rechter S-Lauf im B6-Nachtrag als Arbeitscharge. Betriebslesung: Bildort: rechter S-Lauf im B6-Nachtrag. Arbeitsfolge: auffangen → zugeben → abkühlen lassen → hinleiten. Angaben: fort | Maß | fort | Portion | dies.
