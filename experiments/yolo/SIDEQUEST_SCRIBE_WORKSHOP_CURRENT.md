@@ -9699,10 +9699,19 @@ explicit Herbal-item→Biological-station pointer, so no one-to-one recipe chain
 is claimed. See
 `sidequest_semantic_what_how_integration_five_hundred_ninetieth/FIVE_HUNDRED_NINETIETH_REPORT.md`.
 
-Next, test the three Astro pages as a possible WHEN/condition appendix without
-importing the prose dictionary: preserve their local namespaces, multiple
-centers, no orientation, and no f68↔f69 key; compare celestial lookup against
-an independent image/memory atlas.
+Pass 591 retains all 395 Astro groups as 142 local labels in thirteen separate
+namespaces. It finds 125 selectable image/condition slots, fourteen local
+legends, and three unresolved key areas. The best working reading is a
+celestial CONDITION/REFERENCE appendix: it can supply WHEN-like workshop
+conditions, but there is no prose pointer, orientation, f68↔f69 key, or written
+handoff. An independent celestial teaching/memory atlas therefore remains
+equally live. See
+`sidequest_semantic_astro_condition_interface_five_hundred_ninety_first/FIVE_HUNDRED_NINETY_FIRST_REPORT.md`.
+
+Next, reset the full ten-page architecture as WHAT (Herbal), HOW/WHERE
+(Biological), and optional CONDITION/REFERENCE (Astro), preserving the full
+381+395 visible inventory and making the absence of explicit cross-register
+pointers part of the workshop design rather than silently filling them in.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
