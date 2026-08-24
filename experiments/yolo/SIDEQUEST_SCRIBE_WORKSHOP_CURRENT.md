@@ -9540,8 +9540,16 @@ strongly graded but weakly routed. All 381 events receive object tags without
 adding oil, wine, disease, or species. See
 `sidequest_semantic_workshop_object_inventory_five_hundred_sixty_eighth/FIVE_HUNDRED_SIXTY_EIGHTH_REPORT.md`.
 
-Next, track the six objects through the eleven records as state transitions:
-plant matter→preparation→portion→working liquid/application→transfer/close.
+Pass 569 turns those six objects into a complete state machine for 116
+statements and 381 events. MATERIAL_PREP makes a preparation, MEASURE_CHARGE
+creates and deposits a measured portion, APPLY makes an application charge,
+ROUTE makes a targeted transfer portion, while HOLD/THERMAL/WASH/SETTLE add
+state and CLOSE commits the cell. There are 101 resets: eleven record starts,
+eight visible owner changes, and 82 post-commit restarts; 89 cells close. See
+`sidequest_semantic_object_state_machine_five_hundred_sixty_ninth/FIVE_HUNDRED_SIXTY_NINTH_COMPLETE_STATE_FLOW.md`.
+
+Next, convert each of the eleven state flows into a natural record summary
+with explicit starting material, transformations, and end product/open rest.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
