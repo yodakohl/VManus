@@ -9716,10 +9716,18 @@ CONDITION/REFERENCE. The unified 776-row edition has no empty function and no
 written cross-register pointer. See
 `sidequest_semantic_ten_page_workshop_architecture_five_hundred_ninety_second/FIVE_HUNDRED_NINETY_SECOND_REPORT.md`.
 
-Next, assign plausible jobs to several c.1420 workshop hands—image layout,
-prose composition, Astro-label copying, local closure, and correction—and test
-whether the two-machine system remains simple enough to teach without a modern
-decoder manual.
+Pass 593 shows that a three-person workshop is enough: a master compiles and
+corrects while two trained scribes can alternate between compositional prose
+and local diagram labels. Fifteen formulas plus simple variants cover 94/116
+prose statements; only 22 long forms need exemplar supervision. Astro requires
+thirteen namespace rules and copying 142 labels, not memorizing 395 word
+meanings. These are task roles, not claimed identities of palaeographic hands.
+See
+`sidequest_semantic_multi_hand_workshop_five_hundred_ninety_third/FIVE_HUNDRED_NINETY_THIRD_REPORT.md`.
+
+Next, order the visible Prose surface variants as possible scribe habits:
+separate harmless frame/allograph choices from changes in the 37 spoken values
+and from true exemplar-only exceptions.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
