@@ -1,0 +1,7 @@
+step	event	primary_register	follow_on_register	action
+1	E019	PRESSED_PRIMARY	EMPTY	first extract exists
+2	E024	PRESSED_PRIMARY	FOLLOW_ON_FRAME	open second register
+3	E028	PREVIOUS_PRIMARY	CURRENT_FOLLOW_ON	make both registers jointly available
+4	E033	PREVIOUS_PRIMARY	CURRENT_FOLLOW_ON	read OR slot 1 from current register
+5	E034	PREVIOUS_PRIMARY	CURRENT_FOLLOW_ON	read OR slot 2 from remaining previous register
+6	E035	COMBINED_VESSEL_POST	CLOSED_INTO_COMBINATION	Y resumes combined item

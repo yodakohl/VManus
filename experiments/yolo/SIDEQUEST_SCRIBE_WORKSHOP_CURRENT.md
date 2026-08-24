@@ -8261,9 +8261,16 @@ batches into a vessel before soft-stage application. H2 therefore uses the
 portable OT/OL/OR/AIIN/AR/Y grammar without H3's local reserve cards. See
 `sidequest_semantic_h2_two_batch_flow_four_hundred_first/FOUR_HUNDRED_FIRST_CONTINUOUS_H2_ARTICLE.md`.
 
-Next, attack H2's consecutive SHOR-CHOR pair by writing two source-distinct and
-two vessel-distinct paraphrases. Preserve the two OR cards and decide what
-visible or learned argument tells the scribe which batch each occurrence owns.
+Pass 402 binds H2's consecutive SHOR-CHOR pair. Both are the same exact OR card;
+the S/CH surface alternation carries no batch meaning. Immediate open
+duplication creates two instances, while the active CURRENT and PREVIOUS
+registers supply follow-on batch and first press extract. The following Y
+resumes their combined vessel post. See
+`sidequest_semantic_h2_or_pair_binding_four_hundred_second/FOUR_HUNDRED_SECOND_SCRIBE_RULE.md`.
+
+Next, couple H2's earlier open Y-Y pair (DY-CHY) to the later OR-OR pair. Test
+whether the first pair opens two material referents that the last pair recalls,
+or whether Y-Y instead marks two stages of only one pressed extract.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
