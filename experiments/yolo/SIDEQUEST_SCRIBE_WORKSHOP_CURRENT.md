@@ -7656,8 +7656,15 @@ physical line and field boundary; every owner reset begins a new step and none
 is hidden inside one. See
 `sidequest_semantic_all_long_bio_three_hundred_seventeenth/THREE_HUNDRED_SEVENTEENTH_SIX_RECORD_MICROSTEP_EDITION.md`.
 
-Next, bind the resulting short worksteps into one concrete operating sequence
-for each visible Biological station, keeping all unconnected image gaps open.
+Pass 318 binds the resulting text to sixteen local Biological stations. The 97
+statements and 32 long-statement microsteps yield 118 owner-pure work units
+covering all 281 events. Ten owner breaks and six record starts open local
+stations; 32 events remain explicitly unresolved in the real f83r gap, and no
+global flow edge is invented. See
+`sidequest_semantic_bio_station_sequences_three_hundred_eighteenth/THREE_HUNDRED_EIGHTEENTH_COMPLETE_STATION_EDITION.md`.
+
+Next, reconnect the four Herbal articles to the Bio station inventory through
+explicit preparation outputs, without inventing a drawn cross-page pointer.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
