@@ -8772,12 +8772,19 @@ The remaining opacity is therefore the pictured or diagram-local owner of
 words such as DIES, STELLE, ENTNAHME and BAHN, rather than a root collision. See
 `sidequest_semantic_continuous_ten_page_edition_four_hundred_seventy_second/FOUR_HUNDRED_SEVENTY_SECOND_REPORT.md`.
 
-Next, construct a concrete silent-owner dictionary for every visible owner zone
-on the fourteen fixed units. Replace generic DIES/DORT/STELLE with the active
-plant, material, pool, conduit, receiver, wheel, sector or star-slot wherever
-the fixed images and existing owner maps permit it; keep genuinely invisible
-owners generic. Then propagate those owners through all 116 prose statements
-and 142 Astro loci before revising any component meaning.
+Pass 473 adds the missing silent-owner dictionary. Thirty-eight reusable owner
+classes bind all 116 prose statements and 142 Astro loci to a pictured plant,
+local pool/vessel/station, wheel sector, ring, star station or radial slot. DIES
+now has an explicit active referent and DORT an owner-local source. STELLE binds
+to the visible Bio/Astro station, but remains an exemplar-learned invisible
+target in Herbal. All 776 groups and all component values remain unchanged. See
+`sidequest_semantic_silent_owner_dictionary_four_hundred_seventy_third/FOUR_HUNDRED_SEVENTY_THIRD_REPORT.md`.
+
+Next, run a record-local referent propagator over the owner-expanded edition.
+Replace each DIES/DORT/VON DORT with the most recent active material, batch,
+liquid, station value or diagram value; reset only at the already visible owner
+changes. Publish the unresolved references rather than silently filling them,
+then rewrite all fourteen units into less pronoun-heavy workshop German.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
