@@ -10210,8 +10210,17 @@ licenses zero automatic missing-card insertions because a shared backbone can
 be a legitimate short subroutine rather than a damaged full form. See
 `sidequest_semantic_owner_resolution_six_hundred_forty_seventh/SIX_HUNDRED_FORTY_SEVENTH_REPORT.md`.
 
-Next, distinguish contiguous legitimate subroutines from gapped remnants in
-all 74 owner contexts. Use the C1/C3 four-card backbone as the decisive example.
+Pass 648 separates those forms by source position. Forty-four of 74 owner
+contexts are contiguous possible short units and 30 are gapped remnants. The
+identical `qokaiin qokal shey shedy` is a contiguous closed C3 suffix at
+positions 3-6 but a gapped C1 remainder at positions 1,4,5,6 with `os lsho`
+missing internally. Owner plus contiguity changes editorial treatment without
+changing card meanings; automatic insertions remain zero. See
+`sidequest_semantic_subroutine_vs_damage_six_hundred_forty_eighth/SIX_HUNDRED_FORTY_EIGHTH_REPORT.md`.
+
+Next, return the five-case grammar to all116 actual statements. Measure the
+longest genuinely occurring contiguous template run per statement and separate
+source-attested local phrases from newly composed apprentice exercises.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
