@@ -9578,8 +9578,16 @@ slots. All 261 events bind to the schema; B5/B6 remain separate appendices.
 See
 `sidequest_semantic_biological_cell_schema_five_hundred_seventy_third/FIVE_HUNDRED_SEVENTY_THIRD_COMPLETE_BIOLOGICAL_SCHEMA.md`.
 
-Next, compare the shared cards across Herbal and Biological to distinguish
-portable workshop functions from owner-supplied object meanings.
+Pass 574 finds seventeen exact cards shared by Herbal and Biological, covering
+136 events (44/100 Herbal, 92/281 Biological). They are the portable core:
+measure, continuation, current item, source, target, preparation, readiness,
+hold/heat, entry, activation, transfer, and close. Their atomic values do not
+change; only the visible owner fills plant preparation versus basin liquid or
+application. Forty-nine cards are Herbal-only and 107 Biological-only. See
+`sidequest_semantic_cross_section_portable_cards_five_hundred_seventy_fourth/FIVE_HUNDRED_SEVENTY_FOURTH_REPORT.md`.
+
+Next, partition the 49 Herbal-local and 107 Biological-local cards into
+section-specific compositions, specialist whole cards, and local rare tails.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
