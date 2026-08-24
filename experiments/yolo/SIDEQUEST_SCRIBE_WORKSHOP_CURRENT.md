@@ -7671,9 +7671,17 @@ H3 clear-sud handoff is the tightest match. These are practical thematic
 handoffs, not drawn cross-page pointers. See
 `sidequest_semantic_herbal_bio_handoff_three_hundred_nineteenth/THREE_HUNDRED_NINETEENTH_INTEGRATED_WORKFLOW.md`.
 
-Next, reduce the shared Herbal-output/Bio-input vocabulary to the smallest
-concrete handoff lexicon and rewrite the five handoffs without sentence-sized
-dictionary values.
+Pass 320 finds the exact common vocabulary behind those handoffs: 17 identical
+card identities occur 44 times in Herbal and 92 times in Bio. They reduce to
+one-word workshop values such as Sollmaß, Fortsetzung, Diesposten, Umsetzen,
+Stelle, Einsetzen, Ansatz, Bereit, Gleichvorrat, Klarauszug and Folgeposten.
+All five selected handoffs possess an exact identity anchor; H4 and H5 each
+possess two. See
+`sidequest_semantic_handoff_lexicon_three_hundred_twentieth/THREE_HUNDRED_TWENTIETH_MINIMAL_HANDOFF_LEXICON.md`.
+
+Next, resolve the twice-attested shared `cheeky` card by reconstructing its full
+Herbal and Bio neighborhoods and choosing between Langwärme, Langhalt and
+Langbearbeitung.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
