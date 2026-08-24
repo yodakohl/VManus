@@ -7642,8 +7642,15 @@ six statements need one head and 51 are paratactic multihead chains. The short
 edition uses 664 words instead of 1,110. See
 `sidequest_semantic_bio_clause_templates_three_hundred_fifteenth/THREE_HUNDRED_FIFTEENTH_SIX_RECORD_TEMPLATE_EDITION.md`.
 
-Next, resegment the abnormally long B1-S002 chain into apprentice-sized
-worksteps without treating physical line ends as sentence ends.
+Pass 316 resegments the 19-card B1-S002 statement into five executable
+worksteps of size 3/5/6/3/2. The six-card third step deliberately crosses both
+the f81v.2→f81v.7 physical-line and field boundary, so the resegmentation does
+not equate layout with syntax. The central Sollmaß–Ziellanghalt–Sollmaß frame
+now reads as measure, hold at target, measure again. See
+`sidequest_semantic_b1_long_chain_three_hundred_sixteenth/THREE_HUNDRED_SIXTEENTH_REVISED_B1_RECORD.md`.
+
+Next, apply the same purpose-based microstep segmentation to every remaining
+Biological statement longer than five cards.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
