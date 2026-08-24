@@ -10011,9 +10011,18 @@ C5 DA/HO. Thus one six-module base procedure plus a short case supplement is
 enough to teach all five pairs; no new word is needed. See
 `sidequest_semantic_five_case_phase_alignment_six_hundred_twenty_fifth/SIX_HUNDRED_TWENTY_FIFTH_REPORT.md`.
 
-Next, build a minimal early case selector from the nine single-case cues and
-test how soon each record becomes distinguishable. Then use later cues as
-corrections and identify any record that appears to switch branch midstream.
+Pass 626 builds a positive five-card case selector. C5 is selected by HO/ZUTAT
+at event 1, C3 by CFH/AUSWRINGEN at 3, C4 by AN/NACHPORTION at 4, C1 by
+OS/ARBEITSFACH at 5, and C2 by three CTH/BEREIT cores within its first five
+events. C2's exclusive S/TEILEN arrives only at its event 74, so its opening
+profile is a useful early cue rather than a remainder rule. A full 372-event
+trace finds no foreign single-case marker and no mid-record branch switch. See
+`sidequest_semantic_early_case_selector_six_hundred_twenty_sixth/SIX_HUNDRED_TWENTY_SIXTH_REPORT.md`.
+
+Next, run the grammar forward: write short ordinary workshop instructions for
+C1-C5, compile them back to invariant commands, then let the Pass-614 scribe
+palette choose among synonymous exact cards and surfaces. Record every place
+where the source instruction does not uniquely determine the visible card.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
