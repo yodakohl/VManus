@@ -10689,11 +10689,19 @@ restore the three licensed cards. The repaired14-event copy is byte-for-byte
 the customary master surface sequence. See
 `sidequest_semantic_corrector_exercise_seven_hundred_eighth/SEVEN_HUNDRED_EIGHTH_REPORT.md`.
 
-Next, replace fluent German input with a terse1420-style workshop docket:
-OWNER / MATERIAL / QUANTITY / OPERATION / GRADE / TARGET / ENDPOINT. Have an
-apprentice expand each docket row into role template, existing cards, attested
-surface choices and a fluent backreading, exposing which information must be
-supplied by picture or master exemplar.
+Pass 709 replaces fluent input with12 terse docket rows containing OWNER,
+MATERIAL, QUANTITY, WORK, GRADE, TARGET and ENDPOINT slots. All12 expand to
+attested role templates, existing cards, existing surfaces and fluent owner-
+filled readings. All owners remain silent/image-supplied;3 dockets need a
+master choice between same-recipe card families and8 permit a hand-level
+allograph choice. Five information layers now separate picture, docket, card,
+surface and backreading. See
+`sidequest_semantic_terse_docket_encoder_seven_hundred_ninth/SEVEN_HUNDRED_NINTH_REPORT.md`.
+
+Next, derive the shortest seven-slot docket for every one of the116 fixed prose
+statements. Mark which slots come directly from compact components, which from
+the visible owner, and which remain a local exemplar addition; then rebuild
+all381 cards from docket plus card-family address.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
