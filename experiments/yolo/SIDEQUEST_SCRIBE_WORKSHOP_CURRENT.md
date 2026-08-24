@@ -10177,10 +10177,18 @@ and second stage to measure. Minimal repair restores 5/5 exact card sequences,
 5/5 precedence systems, and preserves 5/5 foreign hands. See
 `sidequest_semantic_five_case_correction_school_six_hundred_forty_third/SIX_HUNDRED_FORTY_THIRD_REPORT.md`.
 
-Next, collate two complementary apprentice copies per case without displaying
-the master strip. One copy retains correct order but one wrong card; the other
-retains the complete card inventory but one wrong order. Recover the intended
-strip from the case grammar and their complementary information.
+Pass 644 collates two complementary flawed copies per case without showing the
+master strip. A supplies correct role order but one wrong card; B supplies the
+complete card inventory but one precedence swap. Grammar-reordering B and then
+aligning it to A recovers 5/5 exact six-card sequences and preserves 5/5
+foreign hands. C4 exposes why multiset-only collation fails: duplicated
+`qokaiin` makes the replacement position ambiguous until ordered B identifies
+the second slot as `qokain`. See
+`sidequest_semantic_two_copy_collation_six_hundred_forty_fourth/SIX_HUNDRED_FORTY_FOURTH_REPORT.md`.
+
+Next, corrupt the strongest selector cue of each case. Test whether remaining
+cards plus precedence reconstruct C1-C5, and identify where a visible owner or
+master margin is genuinely required.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
