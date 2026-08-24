@@ -10290,8 +10290,15 @@ flow liquid. All26 OK close events are final. Five new combinations are
 predicted, including E+AL, E+OL, EEE+Y, AIIN+Y, and AIN+AL. See
 `sidequest_semantic_ok_valency_six_hundred_fifty_seventh/SIX_HUNDRED_FIFTY_SEVENTH_REPORT.md`.
 
-Next, build the same complete valency entry for CHD/CHED=UMSETZEN across its
-Y-DY endpoints, AL-AR-AIN-AIR arguments, and L-P-OL-OT-OK prefixes.
+Pass 658 turns all22 CHD/CHED cards/48 events into one invariant UMSETZEN verb
+with18 recipes. Direct Y-DY-AL-AIN-AIR slots explain7 cards/20 events;
+L-P-OL-OT-OK prefixes supply forward-fill-continue-next-set directions. All28
+closed CHD events are final. Five new compositions are predicted. See
+`sidequest_semantic_chd_valency_six_hundred_fifty_eighth/SIX_HUNDRED_FIFTY_EIGHTH_REPORT.md`.
+
+Next, combine OK=ANSETZEN and CHD=UMSETZEN across every shared statement. Test
+fixed precedence versus an alternating set-transfer cycle and isolate fused
+OK+CHD+DY as the one-card close shortcut.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
