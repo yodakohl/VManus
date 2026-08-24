@@ -8247,9 +8247,16 @@ re-straining; a reserved fresh-flower portion feeds a second measured
 drink/preparation. SHOYTY reserves and QOTCHY recalls the branch. See
 `sidequest_semantic_h3_branched_object_flow_three_hundred_ninety_ninth/THREE_HUNDRED_NINETY_NINTH_CONTINUOUS_H3_ARTICLE.md`.
 
-Next, isolate the reserve/recall grammar around SHOYTY, DCHOL, QOTCHY and OKCHOL
-and search H1, H2 and H5 for functional siblings. Decide whether this is a
-portable branch mechanism or an H3-only learned mini-script.
+Pass 400 separates that branch into a portable continuation core and two local
+cards. DCHOL/SCHOL is the same CH+OL continuation-post card in H3 and H5;
+OKCHOL is regular OK+OL. SHOYTY/reserve flowers and QOTCHY/recall flowers remain
+H3 learned cards. H1, H2 and H5 have continuation, previous-item, next-item and
+repeat siblings, but no second reserve/recall pair. See
+`sidequest_semantic_reserve_recall_grammar_four_hundredth/FOUR_HUNDREDTH_BRANCH_MANUAL.md`.
+
+Next, read all of H2 as a continuous material flow. Its dense sequence of
+preparation, continuation, previous preparation, measure and source should show
+whether the portable order grammar works without H3's two local branch cards.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
