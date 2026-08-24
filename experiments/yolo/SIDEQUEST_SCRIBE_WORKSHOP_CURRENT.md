@@ -7815,9 +7815,16 @@ variable: `chety|chty=Zerkleinern` and `cheey|shey=Klarauszug`. Thus composition
 and allography are independent workshop choices. See
 `sidequest_semantic_multiscribe_teaching_chart_three_hundred_thirty_eighth/THREE_HUNDRED_THIRTY_EIGHTH_MULTI_SCRIBE_CHART.md`.
 
-Next, apply the four hand-selection rules to all 381 prose events and measure the
-resulting whole-corpus visual profiles while preserving all 173 identities,
-atomic values, statement boundaries and six-slot parses.
+Pass 339 applies all four hands to every prose event, producing 1,524 rendered
+events and 464 statements. Each hand retains 173 uniquely decoded surfaces and
+all identities, values, boundaries, owners, slots and microcycles, yet the
+profiles differ strongly: q-hand has 118 q-initial events, s-hand 149 s/sh,
+expanded hand 175 ch/t and mean length 5.698 versus bare hand 4.772. See
+`sidequest_semantic_full_four_hand_corpus_three_hundred_thirty_ninth/THREE_HUNDRED_THIRTY_NINTH_FULL_HAND_PROFILES.md`.
+
+Next, assign the four profiles to the seven prose pages as a plausible small
+workshop, creating one mixed-hand edition with explicit hand changes but a
+single shared dictionary and syntax.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
