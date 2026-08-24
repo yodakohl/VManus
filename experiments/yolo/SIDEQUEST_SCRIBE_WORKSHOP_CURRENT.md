@@ -8163,9 +8163,15 @@ Each is repaired by naming ENDPOINT or GRADE and replacing exactly one existing
 card; all ten unaffected positions remain fixed and no surface is invented. See
 `sidequest_semantic_ok_error_correction_three_hundred_eighty_sixth/THREE_HUNDRED_EIGHTY_SIXTH_CORRECTOR_NOTEBOOK.md`.
 
-Next, embed one such fault in a short two-owner H4/B3 page. The corrector must
-separate owner handoff, marked carry and component error, repairing only the
-component while preserving the image ownership and line layout.
+Pass 387 combines three superficially similar disruptions on the H4/B3 page: a
+valid marked `cheky` carry, a valid image-owner handoff and an invalid
+`qokeedy` DY endpoint where `qokeey` Y/open is required. The corrector reads the
+carry once, resets the owner once and changes exactly the endpoint card. See
+`sidequest_semantic_owner_carry_component_correction_three_hundred_eighty_seventh/THREE_HUNDRED_EIGHTY_SEVENTH_CORRECTED_PAGE.md`.
+
+Next, remove the board calls and give a reader only the corrected page, image
+owners, carry mark and compact component manual. Inventory what can be read
+directly, what needs a learned whole card and what still depends on the picture.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
