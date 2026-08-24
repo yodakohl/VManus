@@ -10617,11 +10617,19 @@ observed surfaces are regenerated. Eleven readable records and116 statement
 rows are included. See
 `sidequest_semantic_apprentice_manual_seven_hundredth/SEVEN_HUNDREDTH_REPORT.md`.
 
-Next, arrange the36 composable entries into minimal contrast pairs and a small
-decision tree: source/target, portion/measure/stage, short/long/full,
-set/transfer/hold/settle, item/close, sequence/continuation. Then encode a set
-of fresh plain-German workshop prompts into component recipes and request the
-smallest compatible card families without changing any meanings.
+Pass 701 arranges all36 composable entries exactly once into18 apprentice
+contrasts and an eight-step decision tree. Of24 fresh plain-German workshop
+prompts,16 map directly to existing component recipes; eight plausible prompts
+have no exact card even though every one lies one component edit from an
+existing family. No new surface is coined: ambiguous nearest families are
+shown for a master decision. The emerging system is productive at the
+component level but licensed and bounded at the exact-card level. See
+`sidequest_semantic_contrast_encoder_seven_hundred_first/SEVEN_HUNDRED_FIRST_REPORT.md`.
+
+Next, turn all170 composed card recipes into a component compatibility graph.
+Determine which component orders and neighbour pairs are licensed, which are
+absent, and whether the eight fresh-prompt gaps violate a compact workshop
+rule or are merely unused cells in an otherwise allowed construction.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
