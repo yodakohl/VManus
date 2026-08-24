@@ -10773,9 +10773,17 @@ CHD+Y e-joint and2 take a q entry frame;13 stay invariant. Character load rises
 owner blocks and2 handoffs backread unchanged. See
 `sidequest_semantic_second_hand_copy_seven_hundred_eighteenth/SEVEN_HUNDRED_EIGHTEENTH_REPORT.md`.
 
-Next, form one mixed-hand copy with a single mid-line handoff. Use the13
-invariant cards as anchors and ask the corrector to locate the hand boundary
-from the variable surfaces alone, without moving any semantic or owner boundary.
+Pass 719 makes one mixed copy: Hand A writes positions1–13 and Hand B positions
+14–27. The switch is uniquely recoverable after MP013 from all28 possible
+cuts. It lies inside line3, inside docket FD03 and under the same BASIN owner,
+so it is independent of line, statement and owner boundaries. Fourteen variable
+forms locate the hand;13 invariant forms anchor exact card identity. See
+`sidequest_semantic_mixed_hand_boundary_seven_hundred_nineteenth/SEVEN_HUNDRED_NINETEENTH_REPORT.md`.
+
+Next, introduce two dangerous substitutions where a surface belongs to a
+different neighboring card, beside two harmless allograph substitutions of the
+same card. Make the corrector separate true card/meaning errors from mere hand
+variation using the docket and component recipe.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
