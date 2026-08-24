@@ -9336,8 +9336,16 @@ material and wet-workshop book with bath/application stations plus a separate
 celestial work almanac; medical subuses remain live. See
 `sidequest_semantic_astro_purpose_reconnection_five_hundred_forty_third/FIVE_HUNDRED_FORTY_THIRD_REPORT.md`.
 
-Next, publish a complete ten-page reading under this revised purpose with all
-381 prose events and all395 Astro groups represented and no blank sequence.
+Pass 544 publishes the complete practical ten-page edition: 381 visible prose
+cards/380 source positions in 116 statements, 173 exact card types, 395 Astro
+groups in 142 loci, and 776 visible units/775 source positions total. Every unit
+has a literal value and practical expansion. Prose retains composition counts
+374 full, four learned-atom and three whole-card events. Astro retains local
+namespaces with no direction, join or prose import. See
+`sidequest_semantic_complete_practical_ten_page_edition_five_hundred_forty_fourth/FIVE_HUNDRED_FORTY_FOURTH_REPORT.md`.
+
+Next, edit all116 prose statements into fluent cross-line German while keeping
+every component value and owner boundary unchanged.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
