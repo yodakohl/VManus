@@ -7937,9 +7937,17 @@ productive cells, two from pair placards and one from the B4-pinned master card;
 the running page exemplar is never opened. See
 `sidequest_semantic_board_composed_work_order_three_hundred_fifty_fourth/THREE_HUNDRED_FIFTY_FOURTH_READABLE_WORK_ORDER.md`.
 
-Next, render this new eleven-card order in all four workshop hands and have each
-scribe reverse-read the other three versions back to one identity, slot and
-material sequence.
+Pass 355 renders the new order in all four hands and performs all sixteen
+sender-reader rewrites. Every reader recovers 11/11 identities, values, slots and
+material states. Six positions vary by registered palette—Zutat, Ansatz, Bereit,
+Diesposten, Sollmaß and Langkontakt—while five stay invariant, producing four
+distinct complete surfaces for one work order. See
+`sidequest_semantic_four_hand_cross_read_three_hundred_fifty_fifth/THREE_HUNDRED_FIFTY_FIFTH_FOUR_PARALLEL_ORDERS.md`.
+
+Next, fit those four versions into different residual page widths. Preserve the
+four microcycles and owner handoff while permitting statements to cross lines;
+record where anticipation/carry copies would be useful and where they would
+create a false duplicate.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
