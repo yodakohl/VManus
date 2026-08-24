@@ -9159,8 +9159,16 @@ whole-locus copying would unnecessarily copy 211 regular events. Only 38
 conscious loads remain, and 343 cards are automatic. See
 `sidequest_semantic_locus_renderer_tables_five_hundred_twenty_first/FIVE_HUNDRED_TWENTY_FIRST_REPORT.md`.
 
-Next, factor the 66 local override entries into a few recurrent wrapper
-profiles, keeping truly local exceptions in their small locus tables.
+Pass 522 factors all 66 local override entries, representing 67 events and 53
+distinct surface pairs, into one operation: retain the shared right tail and
+replace the left graphic wrapper. Only eight output stamps occur:
+`zero/q/s/d/t/ch/che/sh`. Thus the apprentice learns eight reusable hand
+movements rather than 53 whole-form pairs; the stamps carry no added semantic
+value. The 38 locus-table loads remain, with 343 automatic cards. See
+`sidequest_semantic_wrapper_stamps_five_hundred_twenty_second/FIVE_HUNDRED_TWENTY_SECOND_REPORT.md`.
+
+Next, predict wrapper-stamp choice from position, register, neighbour and
+automaton state, retaining only genuinely irregular local assignments.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
