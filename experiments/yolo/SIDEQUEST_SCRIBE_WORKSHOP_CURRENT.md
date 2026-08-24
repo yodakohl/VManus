@@ -10202,9 +10202,16 @@ backbone `qokaiin qokal shey shedy`; shorter shared backbones link C4 and C5 to
 C1/C3. See
 `sidequest_semantic_case_fragment_capacity_six_hundred_forty_sixth/SIX_HUNDRED_FORTY_SIXTH_REPORT.md`.
 
-Next, bind the 37 ambiguous fragments to their visible workshop owners. Test
-whether page/record owner resolves the shared backbones or whether some remain
-ambiguous even after image context.
+Pass 647 binds each ambiguous fragment to its Herbal and Biological owner,
+creating 74 contexts. Desk alone resolves 24, physical page resolves 61, and
+the exact page-record resolves all 74. The remaining page ambiguities are the
+two f10r records and C3-C5 on f83r. Owner resolution selects context only: it
+licenses zero automatic missing-card insertions because a shared backbone can
+be a legitimate short subroutine rather than a damaged full form. See
+`sidequest_semantic_owner_resolution_six_hundred_forty_seventh/SIX_HUNDRED_FORTY_SEVENTH_REPORT.md`.
+
+Next, distinguish contiguous legitimate subroutines from gapped remnants in
+all 74 owner contexts. Use the C1/C3 four-card backbone as the decisive example.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
