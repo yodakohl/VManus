@@ -9441,9 +9441,17 @@ allograph choice. Fourteen representative traces recover semantics 14/14 and
 exact card identity without the local choice 7/14. See
 `sidequest_semantic_scribe_training_roundtrip_five_hundred_fifty_sixth/FIVE_HUNDRED_FIFTY_SIXTH_REPORT.md`.
 
-Next, learn the eleven allograph choices from visible record, position and hand
-conditions. If a small renderer rule predicts them, the apprentice can write
-the exact card without memorizing 22 separate entries.
+Pass 557 supplies eleven allograph choice rules: five use the adjacent parse,
+five use the record and one uses three memorized loci. They recover all 74
+ambiguous visible events and therefore all 381 exact card IDs. Without the one
+local-memory rule, 378/381 remain correct; only three OK+Y events are truly
+local exceptions. The 68 representative trace steps now recover exact card ID
+68/68. See
+`sidequest_semantic_allograph_renderer_rules_five_hundred_fifty_seventh/FIVE_HUNDRED_FIFTY_SEVENTH_REPORT.md`.
+
+Next, attack the final renderer layer: within each exact card ID, predict its
+observed surface spelling from page/record and locus position. Separate genuine
+positional wrappers from forms that still need local copying.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
