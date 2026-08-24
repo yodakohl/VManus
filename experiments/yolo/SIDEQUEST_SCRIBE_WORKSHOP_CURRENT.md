@@ -10253,9 +10253,18 @@ M01 is a mobile measure frame, while M09 alone occurs at entry, medial, close,
 and as a whole statement. See
 `sidequest_semantic_motif_attachment_grammar_six_hundred_fifty_second/SIX_HUNDRED_FIFTY_SECOND_REPORT.md`.
 
-Next, reduce the25 source statements to role skeletons. Preserve individual
-card stretches as counted local inserts and ask for the smallest teachable
-binder-frame-bridge-close template that round-trips every source order.
+Pass 653 reduces the25 statements to13 coarse role skeletons and eight
+apprentice rules. The most frequent are LOCAL-BINDER-LOCAL x5,
+BINDER-LOCAL x4, and LOCAL-CLOSE x4. Skeleton plus exact local inserts
+round-trips25/25 statements and all158 cards/surfaces. The motifs carry58
+events, while100 remain concrete local card stretches: small productive order
+grammar plus a majority exemplar layer. See
+`sidequest_semantic_motif_sentence_skeletons_six_hundred_fifty_third/SIX_HUNDRED_FIFTY_THIRD_REPORT.md`.
+
+Next, compare the local blocks around the three common skeleton families.
+Test whether pre-binder, post-binder, and pre-close slots prefer different
+concrete semantic classes, then rewrite only the slot contrasts that survive
+across source statements.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these

@@ -1,0 +1,9 @@
+rule_id	from_state	to_state	apprentice_rule_de
+R01	START	LOCAL	Aussage darf mit einer lokalen Kartenstrecke beginnen
+R02	START	BINDER|FRAME|BRANCH	Aussage darf mit einem portablen Motiv beginnen
+R03	LOCAL	LOCAL	lokale Karten bilden eine beliebig lange zusammenhaengende Strecke
+R04	LOCAL	BINDER|FRAME|BRIDGE|BRANCH|CLOSE|END	nach lokaler Strecke darf Motiv oder Ende folgen
+R05	BINDER	LOCAL	offener Binder verlangt rechts mindestens eine lokale Karte
+R06	BRIDGE	LOCAL	innere Bruecke verlangt rechts eine lokale Karte und ist links lokal gebunden
+R07	FRAME|BRANCH	LOCAL|CLOSE|END	beweglicher Rahmen oder Zweig darf weitergeben oder enden
+R08	CLOSE	END	Schlussmotiv ist immer terminal
