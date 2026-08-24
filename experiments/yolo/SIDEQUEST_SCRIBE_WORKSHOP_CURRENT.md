@@ -8732,11 +8732,20 @@ whole name and eleven exact surface rules; 394 of 395 Astro groups compose.
 See
 `sidequest_semantic_astro_nomenclator_closure_four_hundred_sixty_seventh/FOUR_HUNDRED_SIXTY_SEVENTH_REPORT.md`.
 
-Next, remove the remaining wet-only readings exposed by the complete Astro
-parse. Test R=cool, CHK=warm, CKHE=strain, CHEO=extract, CH=draw-off, CKH=pass
-and LS=drain against both prose and Astro. Prefer common action cores such as
-lower, raise, separate, take-out and passage, while retaining the wet meanings
-as prose expansions.
+Pass 468 replaces seven remaining wet-only roots with common actions: R SENKEN,
+CHK ANHEBEN, CKHE TRENNEN, CHEO ENTNAHME, CH ENTNEHMEN, CKH DURCHGANG and LS
+HINAUSFUEHREN. Wet expansions retain cooling, warming, straining, extract,
+drawing-off, conduit and draining. This revises twenty-seven card types,
+thirty prose events and forty-four Astro groups without changing inventory or
+order. See
+`sidequest_semantic_common_action_roots_four_hundred_sixty_eighth/FOUR_HUNDRED_SIXTY_EIGHTH_REPORT.md`.
+
+Next, test the completed 52-unit inventory as a forward writer rather than only
+as a retrospective parse. Generate every attested component sequence, choose
+surface atoms plus the eleven aliases, and measure which of the 568 visible
+surface types across prose and Astro are recovered uniquely, contextually, or
+only by the one-name nomenclator. Repair collisions by one shared renderer rule,
+not by adding meanings.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
