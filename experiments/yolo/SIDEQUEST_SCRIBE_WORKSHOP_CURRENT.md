@@ -7891,9 +7891,17 @@ five explicit lessons distinguish allograph choice, material continuity, owner
 change, line layout and semantic reference. See
 `sidequest_semantic_master_apprentice_dialogue_three_hundred_forty_eighth/THREE_HUNDRED_FORTY_EIGHTH_MASTER_APPRENTICE_DIALOGUE.md`.
 
-Next, make three deliberate apprentice miscopies—wrong card surface, lost
-material thread and wrong microcycle reset—and show exactly which redundant
-channel lets the master repair each one.
+Pass 349 makes three deliberate apprentice miscopies and repairs all three
+without adding a meaning. `qokedy` in place of `shey` is exposed by the card
+register and the Nachseihen→Klarauszug sequence; a false Rohteil reset is exposed
+by Sollmaß plus Diesposten; and a missed boundary is exposed by the impossible
+within-cycle descent S2→S2→S1. Six redundant channels recover card, material
+thread and exact boundary. See
+`sidequest_semantic_master_repair_three_hundred_forty_ninth/THREE_HUNDRED_FORTY_NINTH_MASTER_REPAIR_DIALOGUE.md`.
+
+Next, run the same repair logic across all 381 prose events and sort every
+single-card corruption into automatically repairable, detectable-but-ambiguous
+or master-exemplar-only classes.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these

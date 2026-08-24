@@ -1,0 +1,7 @@
+channel	detects_case	question	repair_power
+REGISTERED_CARD_IDENTITY	M01_WRONG_CARD_SURFACE	Dekodiert die geschriebene Oberfläche zur verlangten Karte?	EXACT_CARD
+LOCAL_OPERATION_SEQUENCE	M01_WRONG_CARD_SURFACE	Passt der Kartenwert zwischen Nachseihen und Rücknahmeschluss?	VALUE_AND_SLOT
+EXPLICIT_STATE_MARKER	M02_LOST_MATERIAL_THREAD	Welchen Stoffzustand hat die letzte sichtbare Zustandskarte gesetzt?	EXACT_INCOMING_STATE
+Y_CURRENT_REFERENT	M02_LOST_MATERIAL_THREAD	Verweist Diesposten auf den laufenden oder einen neuen Stoff?	THREAD_CONTINUITY
+SIX_SLOT_MONOTONICITY	M03_MISSED_MICROCYCLE_RESET	Läuft die Slotfolge ohne Grenze rückwärts?	EXACT_BOUNDARY
+FOLLOWING_OPERATION_FIT	M03_MISSED_MICROCYCLE_RESET	Welcher neue Bezug trägt den folgenden Langwärmen-Schritt?	CYCLE_ATTACHMENT
