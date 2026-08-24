@@ -7844,9 +7844,17 @@ two to work shelves. Klarabzug is the useful shared output class: B2 reaches it
 through long contact/abfuehrung, B4 through clear extract/collection. See
 `sidequest_semantic_result_shelf_lexicon_three_hundred_forty_second/THREE_HUNDRED_FORTY_SECOND_RESULT_SHELF_LEXICON.md`.
 
-Next, mirror the five Bio result roles against the five Herbal input/output roles
-and build a compact material-state cycle—raw part, preparation, clear extract,
-portion, application item—without adding new card glosses.
+Pass 343 maps all eleven records onto five editorial material states: Rohteil,
+Ansatz, Klarauszug, Bemessene Portion and Anwendungsposten. The result is not a
+closed cycle but an eight-edge branched ladder. Main path is Rohteil→Ansatz→
+Bemessene Portion→Anwendungsposten; only Ansatz→Ansatz and Klarauszug→Klarauszug
+are continuation loops, and no edge returns to raw material. No card gloss was
+added. See
+`sidequest_semantic_material_state_ladder_three_hundred_forty_third/THREE_HUNDRED_FORTY_THIRD_MATERIAL_STATE_LADDER.md`.
+
+Next, inspect which recurrent cards explicitly carry each material state and
+which state assignments depend only on the picture owner or workshop relay,
+keeping all concrete meanings while marking their information channel.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
