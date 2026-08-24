@@ -7649,8 +7649,15 @@ not equate layout with syntax. The central Sollmaß–Ziellanghalt–Sollmaß fr
 now reads as measure, hold at target, measure again. See
 `sidequest_semantic_b1_long_chain_three_hundred_sixteenth/THREE_HUNDRED_SIXTEENTH_REVISED_B1_RECORD.md`.
 
-Next, apply the same purpose-based microstep segmentation to every remaining
-Biological statement longer than five cards.
+Pass 317 applies the same rule to all twelve Bio statements longer than five
+cards. Their 105 visible events become 32 executable microsteps and 104 source
+operations after the E180/E181 read-once carry. Five real worksteps cross a
+physical line and field boundary; every owner reset begins a new step and none
+is hidden inside one. See
+`sidequest_semantic_all_long_bio_three_hundred_seventeenth/THREE_HUNDRED_SEVENTEENTH_SIX_RECORD_MICROSTEP_EDITION.md`.
+
+Next, bind the resulting short worksteps into one concrete operating sequence
+for each visible Biological station, keeping all unconnected image gaps open.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
