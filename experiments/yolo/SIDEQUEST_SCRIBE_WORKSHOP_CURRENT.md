@@ -8229,9 +8229,15 @@ MATERIAL is not carried, and WORKFLOW_ORDER continues. OLKEEDY alone closes the
 seven-card instruction at the new owner. See
 `sidequest_semantic_b3_open_syntax_owner_reset_three_hundred_ninety_sixth/THREE_HUNDRED_NINETY_SIXTH_WORKSHOP_PAGE.md`.
 
-Next, let a second hand reflow the same seven cards around differently sized
-station blocks. Preserve open syntax, owner reset and lack of arrow, then verify
-the same two-local-object reading survives.
+Pass 397 gives station A two short lines and station B a separate wide block.
+Four registered surfaces change, but all seven identities and readings remain.
+The small line break continues syntax/owner/material; the large gap continues
+only syntax/workflow and resets owner/material; SOLKEEDY closes. See
+`sidequest_semantic_b3_reflowed_second_hand_three_hundred_ninety_seventh/THREE_HUNDRED_NINETY_SEVENTH_SECOND_HAND_PAGE.md`.
+
+Next, turn the distinction into a compact corrector manual with three boundary
+decisions: ordinary reflow, owner reset and terminal close. Apply it to both B3
+copies and require identical source reconstruction.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
