@@ -9416,9 +9416,17 @@ action frames, five taught formulas, ten weaker idioms and three true whole
 cards. See
 `sidequest_semantic_unified_action_lexicon_five_hundred_fifty_third/FIVE_HUNDRED_FIFTY_THIRD_REPORT.md`.
 
-Next, compile this grammar into a compact canonical dictionary and regenerate
-all 173 card readings and 381 event readings from it, replacing the older
-flat-card wording with the current argument-and-frame syntax.
+Pass 554 compiles the current grammar into one working dictionary: 38
+components, 56 action frames, 173 exact cards and 381 visible event readings.
+Every row has a concrete default. Only eleven cards change their concrete
+action sense with adjacent arguments; 162 are context-stable. Eight of the
+eleven have two observed senses and three have three. This is the strongest
+current fit to a mixed productive-abbreviation plus learned-card system. See
+`sidequest_semantic_canonical_working_dictionary_five_hundred_fifty_fourth/FIVE_HUNDRED_FIFTY_FOURTH_REPORT.md`.
+
+Next, inspect the eleven context-sensitive cards occurrence by occurrence and
+decide whether each sense split is genuinely useful or whether one still more
+atomic verb can cover all of its frames.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
