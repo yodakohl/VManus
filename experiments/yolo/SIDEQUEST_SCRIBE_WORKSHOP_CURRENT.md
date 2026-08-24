@@ -7587,8 +7587,17 @@ discharge 14, pass/filter 7 and measure 2. Every statement retains its full
 ordered mode sequence and image-owner binding. See
 `sidequest_semantic_bio_operating_modes_three_hundred_eighth/THREE_HUNDRED_EIGHTH_COMPLETE_BIO_OPERATING_EDITION.md`.
 
-Next, cross the seven modes with the 29 productive stem families and the
-memorized whole-card layer to see which stems actually predict an operation.
+Pass 309 crosses every Biological event with all 29 productive families. Ten
+families predict a mode strongly: L→discharge, AIN/OR→charge, AIIN/IIN→measure,
+SHED→settle, CHK→treat and CKH/CKHE/LSH→pass/filter. P and O_WITHDRAW are
+perfect but two-event specialists. CHED is directionally conditioned, OK is a
+multimode activator, and E_GRADE/Y/DY remain frames rather than content verbs.
+Productive composition covers 264/281 events and 111/124 Bio card types; only
+17 events on 13 types remain learned whole/micro signs. See
+`sidequest_semantic_stem_mode_crosswalk_three_hundred_ninth/THREE_HUNDRED_NINTH_STEM_OPERATING_MANUAL.md`.
+
+Next, compile the ten mode-bearing stems, direction/address frames, grade and
+endpoint frames, plus 13 whole-card exceptions into a minimal Bio dictionary.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
