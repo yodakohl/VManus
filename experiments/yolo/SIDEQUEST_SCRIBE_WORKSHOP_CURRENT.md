@@ -8512,9 +8512,18 @@ long follower. B2 now has fourteen new productive types and eighteen local
 whole cards. See
 `sidequest_semantic_b2_grade_ladder_four_hundred_thirty_seventh/FOUR_HUNDRED_THIRTY_SEVENTH_GRADE_CARD.md`.
 
-Next, resolve B2's remaining liquid and application deck: DSHEDY, TSHEY,
-RSHEAL, RSHEDY, CHEEY, SOLKAIIN, LCHY, LCHEEY and LAR. Build a concrete
-water/extract/cloth/opening sequence without forcing all nine into one stem.
+Pass 438 keeps five honest whole cards for fresh/rinse water, washing, cloth
+and clear extract, but derives LCHY/Lcheey/LAR/RSHEAL as this-draw, this-long-
+draw, lead-out-from-there and wash-liquid-at-target. This removes invisible
+warmth, wet target and lower outlet claims. CHEEY/SHEY is a portable whole
+Klarauszug card, not evidence that EY alone means clear. B2 now has eighteen
+new productive cards and thirteen local wholes. See
+`sidequest_semantic_b2_liquid_application_four_hundred_thirty_eighth/FOUR_HUNDRED_THIRTY_EIGHTH_SEQUENCE_CARD.md`.
+
+Next, close the last thirteen B2 whole cards. Test LDY, SOTAIIN, QOKAR,
+SOLSHEDY and LCHEDY compositionally; retain Seihtuch, same-setting, water,
+openings, equal portions and washing as whole cards where no clean prediction
+exists. Then publish the finished B2 apprentice deck.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
