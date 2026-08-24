@@ -8600,11 +8600,18 @@ cover eleven events; 118 types and 270 of 281 Biological events are productive.
 See
 `sidequest_semantic_biological_whole_card_audit_four_hundred_forty_ninth/FOUR_HUNDRED_FORTY_NINTH_REPORT.md`.
 
-Next, freeze no science protocol; instead write the actual apprentice manual
-for the 118 productive cards. Collapse them to the smallest ordered root and
-modifier inventory, generate every attested Biological card from the manual,
-and list any card that still needs an ad-hoc rule despite being called
-productive.
+Pass 450 writes the executable apprentice manual. Thirty recurring components,
+three single-card bound signs and seven whole cards replace 124 independent
+entries. DAIIIN is demoted because its AIIIN rule has no sister card; all 117
+remaining productive cards have explicit parses and cover 269 events. The
+manual also repairs CHEEETY to FULLY FILL, makes AIR uniformly WATER, and
+unifies equal CHD transfer parses. See
+`sidequest_semantic_biological_apprentice_manual_four_hundred_fiftieth/FOUR_HUNDRED_FIFTIETH_APPRENTICE_MANUAL.md`.
+
+Next, test the manual in reverse on every Biological statement: start from the
+German workshop instruction, select components in slot order, recover the exact
+registered card and report where two cards express the same instruction or one
+instruction still needs an arbitrary card choice.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
