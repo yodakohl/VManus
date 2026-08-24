@@ -8879,9 +8879,19 @@ because splitting would cost more. The local deck falls from 65/302 items/event
 atoms to 59/225, and the full manual from 283 to 277 items. See
 `sidequest_semantic_residual_forms_four_hundred_eighty_fifth/FOUR_HUNDRED_EIGHTY_FIFTH_REPORT.md`.
 
-Next, attack the 113 remaining surface exemplars. Group their predicted→seen
-differences into simple repeatable scribe operations; promote only operations
-that replace several copied exceptions and leave one-offs untouched.
+Pass 486 reclassifies all 113 copied surfaces as generative allography. In 102
+cases the card body is unchanged while its entry wrapper varies among bare, q,
+d, s, t, ch, che and sh. The remaining eleven Astro cases are recursive inner
+allographs: eight Y and one each AIIN, AL and AR. Five rules therefore replace
+113 exemplar cards and shrink the manual from 277 to 169 items. All 776 seen
+surfaces are admitted; 663 remain deterministically chosen and 113 are free
+choices, so an exact facsimile still needs local choice memory. See
+`sidequest_semantic_flexible_renderer_four_hundred_eighty_sixth/FOUR_HUNDRED_EIGHTY_SIXTH_REPORT.md`.
+
+Next, turn the five flexible rules into a multi-scribe teaching exercise.
+Generate independent legal renderings of the same fixed meanings, preserve
+card bodies and boundaries, and check whether each hand can be described by a
+small stable preference profile rather than arbitrary per-token choices.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
