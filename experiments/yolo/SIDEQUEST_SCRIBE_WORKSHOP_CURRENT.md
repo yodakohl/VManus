@@ -7776,9 +7776,17 @@ Fortsetzen/Einsetzen at the shared f81v pool, Überführen at basket and handoff
 stations, and Abziehen/Abführen at several pool and outlet stations. See
 `sidequest_semantic_station_programs_three_hundred_thirty_third/THREE_HUNDRED_THIRTY_THIRD_APPRENTICE_PROGRAM_MANUAL.md`.
 
-Next, read the five repaired Herbal articles back through the twelve station
-programs and separate operations already begun during preparation from those
-added only at the Biological station.
+Pass 334 reads all 100 Herbal events through the twelve station programs. Eleven
+programs already begin during preparation; only Kurzbehandlung first appears at
+a Biological station. All five repaired handoffs carry at least one existing
+program: H1 carries Fortsetzen/Zugabe/Durchlass, H2 Sollmass, H3 Klarauszug, H4
+Sollmass/Langwaerme, and H5 Einsetzen/Fortsetzen. Station images then add local
+contact, holding, settling or target work. See
+`sidequest_semantic_herbal_bio_program_bridge_three_hundred_thirty_fourth/THREE_HUNDRED_THIRTY_FOURTH_WORKSHOP_BRIDGE.md`.
+
+Next, compress the twelve programs into one handwritten card-order syntax with
+start/reference, material/measure, process, grade, target and close slots, then
+use it to generate all nineteen Herbal and ninety-seven Bio statements.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
