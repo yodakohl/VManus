@@ -9220,8 +9220,15 @@ three. The exact AIIN/measure card occurs 1/3/2 times in H3/H4/H5. Article-
 specific process chains remain distinct. See
 `sidequest_semantic_h5_formulary_five_hundred_twenty_ninth/FIVE_HUNDRED_TWENTY_NINTH_REPORT.md`.
 
-Next, read H1 and H2 together to decide whether the two f10r records are
-successive sections of one pictured-plant article or independent forms.
+Pass 530 reads H1 and H2 as two part-sections of one f10r pictured-plant
+article: root/storage axis followed by upper stem/flower/bud/leaf set. Four
+exact cards retain values across the boundary, neither record contains a close
+card, and H1's `ready this` leads into H2's `this draw-short preparation`.
+Thirty-eight events form five statements and eight article stages. See
+`sidequest_semantic_f10_two_section_article_five_hundred_thirtieth/FIVE_HUNDRED_THIRTIETH_REPORT.md`.
+
+Next, publish a complete five-record Herbal working edition with one invariant
+interlinear value per exact card and fluent article readings.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
