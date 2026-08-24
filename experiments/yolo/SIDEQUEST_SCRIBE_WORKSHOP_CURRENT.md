@@ -10310,9 +10310,15 @@ clean,8 workable,1 dense but complete. The five clearest include B3-S006
 close. See
 `sidequest_semantic_two_verb_fluent_edition_six_hundred_sixtieth/SIX_HUNDRED_SIXTIETH_REPORT.md`.
 
-Next, integrate SHED=SETTLE, CHK=WARM, and CTH=READY as the third process axis.
-Find actual source chains SET/TRANSFER to WARM/SETTLE to READY/CLOSE and extend
-the fluent edition only where those state transitions occur.
+Pass 661 adds15 state cards/37 events in14 recipes: SHED=SETTLE x15,
+CHK=WARM x7, CTH=READY x15. Seventeen statements/99 events combine them with
+SET/TRANSFER. Immediate transitions run6 process-to-state and5
+state-to-process. All14 state close events are final; CTH itself never closes.
+See
+`sidequest_semantic_process_state_axis_six_hundred_sixty_first/SIX_HUNDRED_SIXTY_FIRST_REPORT.md`.
+
+Next, collapse the11 exact adjacent transitions into six short teaching
+phrases and give each a fluent source reading without inventing new nouns.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these

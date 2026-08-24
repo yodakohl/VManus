@@ -1,0 +1,7 @@
+rule_id	from_process_or_state	to_process_or_state	workshop_rule_de
+S01	SET|TRANSFER	WAERMEN	aktiven Posten nach Setzen oder Transfer waermen
+S02	SET|TRANSFER	ABSETZEN	aktiven Posten nach Setzen oder Transfer absetzen lassen
+S03	SET|TRANSFER	BEREIT	Bereitschaft des gesetzten oder umgesetzten Postens pruefen
+S04	WAERMEN|BEREIT	SET|TRANSFER	nach Zustand eine neue Arbeitsoperation beginnen
+S05	ABSETZEN+DY	CLOSED	Absetzen mit Schlusskarte beendet den Schritt
+S06	WAERMEN+DY	CLOSED	Waermen mit Schlusskarte beendet den Schritt
