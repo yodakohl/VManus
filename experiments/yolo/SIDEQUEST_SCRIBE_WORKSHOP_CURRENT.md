@@ -8570,10 +8570,17 @@ remain. The E372-to-E373 boundary is a hard record restart, so B6 inherits no
 warm state or opening stage from B5. See
 `sidequest_semantic_b5_b6_complete_four_hundred_forty_fifth/FOUR_HUNDRED_FORTY_FIFTH_REPORT.md`.
 
-Next, attack the eight B5/B6 singleton cards. Prefer the already taught OT,
-CHD, AL, SOLK, EE, Y, OR and DY pieces, but keep LOL, QEKY or RALY as compact
-whole cards if a decomposition merely renames their old guess. Finish one
-sixteen-card pocket dictionary for both records.
+Pass 446 reduces those eight singleton cards to six productive formations and
+two learned whole cards. RALY is now RAL+Y=DIES ABKUEHLEN rather than the
+unsupported ERSTE OEFFNUNG; DAIIIN is simply ZWEITE STUFE. OTCHDY, CHDAL,
+SOLKEEY and LDALOR also compose. Only LOL=WARM and QEKY=ROH remain local whole
+cards. Eighteen of twenty B5/B6 events now transfer or compose. See
+`sidequest_semantic_b5_b6_dictionary_four_hundred_forty_sixth/FOUR_HUNDRED_FORTY_SIXTH_REPORT.md`.
+
+Next, merge B1-B6 into one Biological workshop edition. Reconcile every exact
+card to one latest value, cover all 281 events and 97 statements, count the
+union dictionary only once, preserve every record and visible owner reset, and
+identify contradictions introduced by independently developed local decks.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
