@@ -8836,10 +8836,19 @@ The 79 motif occurrences now choose concrete quantity language and no longer
 hedge every measure as “Menge oder Stufe”. See
 `sidequest_semantic_quantity_triad_four_hundred_eightieth/FOUR_HUNDRED_EIGHTIETH_REPORT.md`.
 
-Next, close the directional triad AR=source, AL=target and AIR=path/flow across
-the same 381 prose events and 395 Astro groups. Combine it with the quantity
-triad to generate complete source–quantity–path–target formulas and identify
-which statements actually instantiate the whole four-slot construction.
+Pass 481 closes the directional triad: AR=QUELLE, AL=ZIELSTELLE and AIR=
+LAUF/BAHN. Prose contributes 14/39/5 events and Astro 55/32/13 groups. AIR is
+no longer the substance word WATER; it is Flüssigkeitslauf in wet context and
+Bahn in celestial context. Only B1-S002 explicitly contains source, quantity,
+path and target; H1-S001 becomes the second complete formula when ARBEITSFACH
+supplies the learned receiver. See
+`sidequest_semantic_direction_triad_four_hundred_eighty_first/FOUR_HUNDRED_EIGHTY_FIRST_REPORT.md`.
+
+Next, formalize ellipsis. For each of 116 prose statements, mark whether each
+source/quantity/path/target slot is written, inherited from the active record,
+supplied by the visible owner, supplied by a whole-card receiver, or remains a
+local exemplar value. Use that matrix to produce complete expansions without
+pretending every short cell explicitly spells all four slots.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
