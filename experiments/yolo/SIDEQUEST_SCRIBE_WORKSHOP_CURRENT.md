@@ -10194,9 +10194,17 @@ C5 without all three HO cards remain unique three-card fragments. This is a
 learned-template repair, not free decoding. See
 `sidequest_semantic_selector_damage_six_hundred_forty_fifth/SIX_HUNDRED_FORTY_FIFTH_REPORT.md`.
 
-Next, enumerate all 315 nonempty ordered subfragments of the five six-card
-cases. Find the worst-case number of surviving cards needed for unique case
-recognition and publish the genuinely ambiguous shared backbones.
+Pass 646 enumerates all 315 nonempty ordered subfragments. 278 are case-unique
+inside the learned deck and 37 are ambiguous; 17 single cards are immediate
+signatures. Worst-case guaranteed survivor thresholds are C1=5, C2=2, C3=5,
+C4=3, C5=3. The largest genuine ambiguity is the shared C1/C3 four-card
+backbone `qokaiin qokal shey shedy`; shorter shared backbones link C4 and C5 to
+C1/C3. See
+`sidequest_semantic_case_fragment_capacity_six_hundred_forty_sixth/SIX_HUNDRED_FORTY_SIXTH_REPORT.md`.
+
+Next, bind the 37 ambiguous fragments to their visible workshop owners. Test
+whether page/record owner resolves the shared backbones or whether some remain
+ambiguous even after image context.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
