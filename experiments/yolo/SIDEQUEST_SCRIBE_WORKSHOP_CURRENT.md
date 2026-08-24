@@ -10780,10 +10780,18 @@ so it is independent of line, statement and owner boundaries. Fourteen variable
 forms locate the hand;13 invariant forms anchor exact card identity. See
 `sidequest_semantic_mixed_hand_boundary_seven_hundred_nineteenth/SEVEN_HUNDRED_NINETEENTH_REPORT.md`.
 
-Next, introduce two dangerous substitutions where a surface belongs to a
-different neighboring card, beside two harmless allograph substitutions of the
-same card. Make the corrector separate true card/meaning errors from mere hand
-variation using the docket and component recipe.
+Pass 720 builds the card-ID firewall. Two substitutions (`aiin→chaiin` and
+`qokchedy→okchedy`) remain the same exact card and are correctly kept as
+allographs. Two near-neighbor substitutions (`qokal→qokar`, target→source;
+`chedy→cheedy`, open CHD+Y→SHED+DY close) decode to other component recipes and
+are rejected. The corrected page restores27/27 cards while retaining the two
+harmless hand forms. See
+`sidequest_semantic_allograph_firewall_seven_hundred_twentieth/SEVEN_HUNDRED_TWENTIETH_REPORT.md`.
+
+Next, consolidate one short operational apprentice sheet:39 entries,163
+semantic recipes,4 doublet rules,3 local trays,2 hand profiles, the card-ID
+firewall and owner/line state. Use it alone to replay the complete27-event
+master-page exercise forward and backward.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
