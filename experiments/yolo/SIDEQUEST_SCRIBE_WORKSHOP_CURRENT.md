@@ -9595,16 +9595,23 @@ cards. See
 `sidequest_semantic_section_local_card_partition_five_hundred_seventy_fifth/FIVE_HUNDRED_SEVENTY_FIFTH_REPORT.md`.
 
 Pass 576 separates semantic learning from graphic recognition. The semantic
-course has 101 items: 38 component values, 56 contextual action-frame rules,
-and seven specialist whole/inner values. The apprentice still recognizes 173
+course was initially counted as 101 items: 38 component values, 56 contextual
+action-frame rules, and seven specialist whole/inner values. The apprentice still recognizes 173
 visible card forms, but those are graphic abbreviations rather than 173 further
 meanings. All 381 events round-trip with this split. See
 `sidequest_semantic_apprentice_learning_load_five_hundred_seventy_sixth/FIVE_HUNDRED_SEVENTY_SIXTH_REPORT.md`.
 
-Next, perform a blind-to-old-gloss reconstruction of all 173 card meanings from
-only those 38 components, 56 frames, and seven specialist values, and list the
-exact cards whose wording cannot be recovered without importing the old card
-gloss.
+Pass 577 corrects that count: the seven specialist values are already seven of
+the 38 components, so the true semantic load is 94 items (38 values plus 56
+frames), not 101. Without using the old completed card glosses as input, these
+94 items reconstruct all 173 card skeletons and all 381 events. Natural wording
+is portable for 162 cards; eleven require the visible owner/slot to select the
+concrete verb. See
+`sidequest_semantic_gloss_free_reconstruction_five_hundred_seventy_seventh/FIVE_HUNDRED_SEVENTY_SEVENTH_REPORT.md`.
+
+Next, resolve those eleven context-dependent cards into one invariant abstract
+operation plus a small owner-conditioned fill, without introducing new whole
+words.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
