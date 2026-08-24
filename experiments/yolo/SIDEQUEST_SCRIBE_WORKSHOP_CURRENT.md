@@ -7571,8 +7571,16 @@ and one passage/filter pair. The four-cell B3-S022–S025 transfer palette is th
 longest. No repeated hidden long recipe emerges. See
 `sidequest_semantic_procedure_blocks_three_hundred_sixth/THREE_HUNDRED_SIXTH_ELEVEN_RECORD_MACRO_EDITION.md`.
 
-Next, bind the eight procedure blocks to the already inspected local visual
-owners and assign each the narrowest concrete station role.
+Pass 307 binds all eight procedure blocks and their 18 statements to the
+already inspected local visual owners. The strongest roles are paired short
+bath placements on f81v, a balance/contact check on the upper f82r pair, twin
+pass-through checks at the visibly linked f83r pair, and start/flush of the
+open fringe branch. The genuine image gap between the basket margin and main
+pair remains a four-option transfer palette, never an invented pipe. See
+`sidequest_semantic_visual_block_roles_three_hundred_seventh/THREE_HUNDRED_SEVENTH_VISUAL_STATION_COPYBOOK.md`.
+
+Next, assign every one of the 97 Biological statements to a compact operating
+mode: charge, treat, settle, pass/filter, discharge, measure or local control.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
