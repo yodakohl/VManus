@@ -7722,9 +7722,16 @@ also explain ten additional card families outside the shared deck. AR is now
 the one-word Quelle rather than the sentence gloss “aus demselben Vorrat.” See
 `sidequest_semantic_shared_components_three_hundred_twenty_sixth/THREE_HUNDRED_TWENTY_SIXTH_COMPONENT_MANUAL.md`.
 
-Next, apply this component grammar to all 173 prose cards, preserving every
-nonmatching item as one short memorized whole word rather than forcing a bad
-segmentation.
+Pass 327 expands the mixed system to every prose card. Forty productive
+components plus 23 learned whole cards generate 150 compositional and 23
+memorized identities, covering 353 and 28 events respectively. All 173 cards,
+381 events and 116 statements now carry exactly one atomic German value; long
+contextual expansions remain separate. See
+`sidequest_semantic_complete_atomic_deck_three_hundred_twenty_seventh/THREE_HUNDRED_TWENTY_SEVENTH_COMPLETE_DECK.md`.
+
+Next, attack the 23 memorized whole cards using only the existing forty
+components. Promote a card only when its meaning can be composed without a new
+stem; otherwise retain it as a whole sign.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
