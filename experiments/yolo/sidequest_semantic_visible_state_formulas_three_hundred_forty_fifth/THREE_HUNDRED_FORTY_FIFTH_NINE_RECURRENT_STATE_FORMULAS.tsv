@@ -1,0 +1,10 @@
+formula_id	formula_name_de	left_state_id	right_state_id	within_statement_count	direct_adjacency_count	gapped_count	records	value_pair_examples	workshop_reading_de
+F01_MASS_TO_MASS	Maß nach Maß	M4_MEASURED_PORTION	M4_MEASURED_PORTION	8	4	4	B1|B3|B5|H2|H4	Bereitsollmaß→Sollmaß|Sollmaß→Postenportion|Postenportion→Postenzweitportion|Portion→Folgeportion|Sollmaß→Sollmaß|Kurzsoll→Folgemaß|Arbeitsstufe→Folgemaß|Sollmaß→Endstufe	Menge, Stufe oder Portion wird wiederholt oder nachgestellt.
+F03_PREPARATION_CONTINUATION	Ansatz zu Ansatz	M2_PREPARATION	M2_PREPARATION	6	4	2	H2|H4	Auszugsansatz→Ansatz|Folgeansatz→Ansatz|Ansatz→Fortsetzungsansatz|Gefäßansatz→Ansatz|Ansatz→Ansatz|Fortsetzungszubereitung→Ansatz	Eine Zubereitung wird als weitere Zubereitung fortgeführt.
+F02_PREPARATION_TO_MEASURE	Ansatz zu Maß	M2_PREPARATION	M4_MEASURED_PORTION	6	1	5	B1|H1|H2|H4	Bereitansatz→Sollmaß|Ansatz→Bereitsollmaß|Fortsetzungsansatz→Sollmaß|Ansatz→Zutatsollmaß|Ansatz→Ansatzportion	Eine Zubereitung erhält ihre Sollangabe oder Portion.
+F05_MATERIAL_PAIRING	Rohteil zu Rohteil	M1_RAW_PART	M1_RAW_PART	3	2	1	H5	Zutat→Zutatstelle|Pflanzenteil→Zutat|Zutat→Quellenzutatbindung	Zwei Zutaten- oder Teilkarten werden gekoppelt.
+F04_MATERIAL_TO_PREPARATION	Rohteil zu Ansatz	M1_RAW_PART	M2_PREPARATION	3	2	1	B1|H1|H5	Wurzelteil→Bereitansatz|Zutat→Folgeansatz|Zusatz→Fortsetzungsansatz	Material oder Zutat wird in einen Arbeitsansatz überführt.
+F08_CLEAR_TO_MEASURE	Klarauszug zu Maß	M3_CLEAR_EXTRACT	M4_MEASURED_PORTION	2	2	0	B2|B4	Klarabzug→Sollmaß|Klarauszug→Portion	Der klare Anteil wird anschließend bemessen.
+F07_MEASURE_TO_ADDITION	Maß zu Zutat	M4_MEASURED_PORTION	M1_RAW_PART	2	1	1	B1|H5	Sollmaß→Zutat|Folgeportion→Zusatz	Nach der Maßangabe folgt weiteres Material.
+F06_MEASURE_TO_CLEAR	Maß zu Klarauszug	M4_MEASURED_PORTION	M3_CLEAR_EXTRACT	2	1	1	B4|H4	Postensollmaß→Auszugnahme|Folgeportion→Quellausguss	Eine bemessene Portion wird als klarer Anteil gewonnen.
+F09_MEASURE_TO_APPLICATION	Maß zu Anwendung	M4_MEASURED_PORTION	M5_APPLICATION_ITEM	2	0	2	B2|B6	Sollmaß→Volleinsatz|Sollmaß→Endziel	Ein bemessener Posten wird zur Anwendungseinheit.

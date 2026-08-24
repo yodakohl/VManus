@@ -7860,9 +7860,16 @@ specific referent comes from card, card+owner, picture, relay or result shelf,
 without withdrawing any working meaning. See
 `sidequest_semantic_state_information_channels_three_hundred_forty_fourth/THREE_HUNDRED_FORTY_FOURTH_INFORMATION_CHANNEL_MANUAL.md`.
 
-Next, order the 79 explicit state markers within statements and records to find
-the recurrent visible formulas that announce state changes such as Ansatz→Mass,
-Klarauszug→Kontakt and Portion→Ziel.
+Pass 345 orders the 79 explicit markers into 41 within-statement state links: 20
+direct and 21 with intervening operation cards. Nine formulas recur, led by
+Mass→Mass8, Ansatz→Mass6, Ansatz→Ansatz6, Rohteil→Ansatz3 and Rohteil→Rohteil3;
+the key bridges Mass↔Klarauszug and Mass→Anwendung occur twice each. Thirty-eight
+statements contain at least one marker. See
+`sidequest_semantic_visible_state_formulas_three_hundred_forty_fifth/THREE_HUNDRED_FORTY_FIFTH_VISIBLE_STATE_FORMULAS.md`.
+
+Next, combine the nine visible state formulas with the six writing slots into
+one compact production rule that orders material state and work operation
+together without turning every marker into a new lexical stem.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
