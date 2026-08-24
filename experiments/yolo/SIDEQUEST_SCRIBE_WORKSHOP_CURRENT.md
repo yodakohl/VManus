@@ -9514,9 +9514,17 @@ open CHARGE (5), CHARGE→HOLD→CLOSE (5), and CHARGE→ROUTE→CLOSE (5).
 All constituent actions remain present. See
 `sidequest_semantic_workshop_recipe_macros_five_hundred_sixty_fifth/FIVE_HUNDRED_SIXTY_FIFTH_REPORT.md`.
 
-Next, give the fifteen recurrent macros natural concise recipe-style German
-readings and insert them into the continuous edition, while leaving all rare
-phase chains explicit.
+Pass 566 gives all fifteen recurrent macros concise recipe-style German while
+printing the full card-action expansion beside every shorthand. Seventy-three
+statements use a natural macro reading; 43 one-offs remain explicit. Examples:
+ROUTE→CLOSE is “lead to the next visible station and close there,” and
+CHARGE→HOLD→CLOSE is “fill one portion, let it act, and close.” All 381 events
+remain bound to the complete readings. See
+`sidequest_semantic_natural_macro_edition_five_hundred_sixty_sixth/FIVE_HUNDRED_SIXTY_SIXTH_COMPLETE_NATURAL_EDITION.md`.
+
+Next, specialize each macro's object by visible owner class—plant material,
+basin liquid, application site, or technical station—so generic `Arbeitsstoff`
+shrinks without changing the shared macro meaning.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
