@@ -10399,9 +10399,16 @@ statement has a complete mechanical workshop paraphrase. There are0 empty or
 placeholder meanings. See
 `sidequest_semantic_integrated_dictionary_six_hundred_seventy_second/SIX_HUNDRED_SEVENTY_SECOND_REPORT.md`.
 
-Next, turn the116 mechanical paraphrases into fluent record-local workshop
-German while preserving every card contribution and never ending a sentence
-merely at a physical line.
+Pass 673 gives all116 statements/381 events complete record-local workshop
+readings. Thirteen representative statements are hand-polished;103 use one
+compositional renderer. Every event has an explicit phrase and exact card;
+fluency grades are91 clean,18 workable,7 dense. The11 continuous record texts
+ignore physical lines as sentence boundaries. See
+`sidequest_semantic_fluent_workshop_edition_six_hundred_seventy_third/SIX_HUNDRED_SEVENTY_THIRD_REPORT.md`.
+
+Next, hand-polish the7 dense and18 workable statements, eliminating duplicated
+`danach`, dangling nominal slots, and German word-order strain without dropping
+or changing any card contribution.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
