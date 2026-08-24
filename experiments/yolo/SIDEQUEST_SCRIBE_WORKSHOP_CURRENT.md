@@ -10550,9 +10550,19 @@ route requires53 desk visits and42 handoffs; no working scribe carries all26
 specialist roots. See
 `sidequest_semantic_workshop_floor_plan_six_hundred_ninety_second/SIX_HUNDRED_NINETY_SECOND_REPORT.md`.
 
-Next, run the most demanding Biological record through this four-role floor
-plan event by event. Preserve its actual card order, owner changes and physical
-line flow; show exactly what each desk adds and what the next desk receives.
+Pass 693 runs the larger 14-specialist-root record B3/f83r through the four
+desks:86 cards,34 statements,10 physical loci and5 visible owners. Selection is
+39 master/core,5 preparation/wet,25 transfer and17 state cards. Five exact cards
+span two specialist desks; they expose a flaw in literal multi-hand inscription.
+The repaired workshop uses a shared draft strip: the earlier desk marks a
+component, the later desk chooses the complete card, and one final hand copies
+the unbroken86-card surface sequence around the existing pictures. See
+`sidequest_semantic_b3_four_desk_commission_six_hundred_ninety_third/SIX_HUNDRED_NINETY_THIRD_REPORT.md`.
+
+Next, inspect the five cross-desk cards as a small compositional junction tray.
+Ask whether the same downstream-ownership rule predicts other two-deck cards
+across all eleven records, then turn the stable junctions into a short copying
+rule instead of adding another memorized exception list.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
