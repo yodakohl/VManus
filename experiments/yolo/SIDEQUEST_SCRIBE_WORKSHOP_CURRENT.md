@@ -10528,9 +10528,16 @@ continuation, Herbal measure-close, Bio graded set-close, Bio specialist-close
 and one Bio graded target sequence. See
 `sidequest_semantic_record_opening_prompts_six_hundred_eighty_ninth/SIX_HUNDRED_EIGHTY_NINTH_REPORT.md`.
 
-Next, follow the same core-plus-specialist decomposition through every one of
-the116 statements and measure how many can be dictated from the pocket core
-alone versus requiring one or more local tool cards.
+Pass 690 projects all116 statements/381 cards. Of850 component positions,608
+belong to the13-root pocket core and242 to26 specialist roots. Seventeen
+statements are core-only,39 need one specialist type and60 need several;180
+cards are core-only and201 mixed/specialist. The pocket core is dominant
+scaffolding, not a complete decoder. See
+`sidequest_semantic_statement_core_projection_six_hundred_ninetieth/SIX_HUNDRED_NINETIETH_REPORT.md`.
+
+Next, split the26 specialist roots into concrete craft stations—preparation,
+wet handling, transfer, state control and local commands—and assign each record
+the smallest physical tool deck it needs.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
