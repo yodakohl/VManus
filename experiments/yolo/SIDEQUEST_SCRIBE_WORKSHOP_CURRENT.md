@@ -7867,9 +7867,17 @@ the key bridges Mass↔Klarauszug and Mass→Anwendung occur twice each. Thirty-
 statements contain at least one marker. See
 `sidequest_semantic_visible_state_formulas_three_hundred_forty_fifth/THREE_HUNDRED_FORTY_FIFTH_VISIBLE_STATE_FORMULAS.md`.
 
-Next, combine the nine visible state formulas with the six writing slots into
-one compact production rule that orders material state and work operation
-together without turning every marker into a new lexical stem.
+Pass 346 combines six operation slots with a persistent five-state material
+thread. Of 79 markers, 73 occupy their default slot: raw/preparation in S1,
+measure entirely in S2, clear extract mainly in S3 and application mainly in S5;
+five memorized cards produce six override events. Nineteen of 41 state links stay
+inside one microcycle while 22 cross a reset, so local work can restart while the
+same material thread continues. See
+`sidequest_semantic_two_layer_production_rule_three_hundred_forty_sixth/THREE_HUNDRED_FORTY_SIXTH_TWO_LAYER_RULE.md`.
+
+Next, use the two-layer rule to write one full continuous Herbal-to-Bio working
+translation with four synchronized lines: surface cards, atomic values, material
+thread/owner channel and fluent workshop German.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
