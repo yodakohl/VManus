@@ -8994,9 +8994,16 @@ the 49 entries. Only five procedure-order macros remain; the local deck falls
 from 54 to six items and the full manual from 164 to 116. See
 `sidequest_semantic_residual_deck_collapse_four_hundred_ninety_ninth/FOUR_HUNDRED_NINETY_NINTH_REPORT.md`.
 
-Next, factor the five retained macros into a small shared procedure vocabulary
-such as charge, measure, hold, draw and dispatch while preserving their exact
-phase order.
+Pass 500 factors all 58 events in the five retained macros through eight shared
+procedure primitives: activate/charge, source/draw, meter/check,
+target/handoff, move/pass, hold/state, continue/use and close. Every primitive
+occurs in at least two macros. Fifteen phase recipes preserve exact local order,
+while the long prose expansions disappear. One procedure-grammar rule raises
+the now more explicit manual from 116 to 117 items. See
+`sidequest_semantic_procedure_primitive_grammar_five_hundredth/FIVE_HUNDREDTH_REPORT.md`.
+
+Next, mine the fifteen phase recipes for reusable two- and three-primitive
+subroutines and shorten the five order recipes without losing event order.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
