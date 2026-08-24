@@ -8577,10 +8577,18 @@ SOLKEEY and LDALOR also compose. Only LOL=WARM and QEKY=ROH remain local whole
 cards. Eighteen of twenty B5/B6 events now transfer or compose. See
 `sidequest_semantic_b5_b6_dictionary_four_hundred_forty_sixth/FOUR_HUNDRED_FORTY_SIXTH_REPORT.md`.
 
-Next, merge B1-B6 into one Biological workshop edition. Reconcile every exact
-card to one latest value, cover all 281 events and 97 statements, count the
-union dictionary only once, preserve every record and visible owner reset, and
-identify contradictions introduced by independently developed local decks.
+Pass 447 merges B1-B6 into one Biological edition: 281 events, 115 fields, 97
+statements and 124 unique exact cards. No identical card has conflicting
+values across the six local dictionaries. The union contains 87 productive
+compositions, six portable learned whole cards and 31 record-local whole cards;
+228 of 281 events are productive. Six record starts and seven visible internal
+owner changes remain explicit. See
+`sidequest_semantic_biological_union_four_hundred_forty_seventh/FOUR_HUNDRED_FORTY_SEVENTH_REPORT.md`.
+
+Next, attack the 31 remaining record-local whole cards as one bounded deck.
+Remove stale opening/water/body glosses when a shorter composition or state
+value exists, search for families across records without changing exact-card
+identity, and leave genuinely local object names as learned whole cards.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
