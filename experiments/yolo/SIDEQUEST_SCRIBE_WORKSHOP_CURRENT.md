@@ -9920,9 +9920,17 @@ owner/station, and short German workshop reading. H3/H5 now explicitly resume
 an earlier work thread, while H4 distinguishes PORTION from NACHPORTION. See
 `sidequest_semantic_readable_prose_six_hundred_fifteenth/SIX_HUNDRED_FIFTEENTH_REPORT.md`.
 
-Next, back-encode the 116 German workshop readings. Any reading that admits
-multiple command sequences without a local exemplar marks an overbroad gloss
-or a missing semantic distinction to repair.
+Pass 616 back-reads all 116 statements and sharpens five overbroad workshop
+verbs: CH=ABNEHMEN, K=ZUDOSIEREN, L=WEITERLEITEN, O=ARBEITSGANG, and
+P=EINFUELLEN. This separates taking material off from moving it onward,
+metered feeding from filling a receiver, and the work cycle from its ANSATZ.
+The revision touches 62 cards, 76 events, and 47 statements while preserving
+39 words/163 commands/173 cards/381 events. See
+`sidequest_semantic_backread_verb_repair_six_hundred_sixteenth/SIX_HUNDRED_SIXTEENTH_REPORT.md`.
+
+Next, sharpen the remaining easily confused noun/address drawers: LAUF versus
+DURCHLASS, ZIEL versus FACH, DIES versus GABE, and MASS versus PORTION,
+NACHPORTION, and STUFE.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
