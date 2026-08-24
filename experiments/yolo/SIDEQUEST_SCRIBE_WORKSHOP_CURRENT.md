@@ -8130,10 +8130,17 @@ neighbours, card identity and the other thirteen surfaces remain fixed. Each of
 sequence as the third copy. See
 `sidequest_semantic_registered_wrapper_drill_three_hundred_eighty_first/THREE_HUNDRED_EIGHTY_FIRST_DRILL_BOOK.md`.
 
-Next, write a fourth complete copy using `or`, one newly exercised Y form and
-one newly exercised AIIN form together. Keep the other eleven choices fixed,
-then let a second reader reconstruct the owner-cycle-card calls without seeing
-the German glosses.
+Pass 382 writes a fourth complete copy with `or`, `dy` and `daiin` together.
+The shared `d-` entry on neighbouring Y and AIIN cards does not merge them: a
+second reader reconstructs all fourteen owner-cycle-position-card calls without
+hearing German values. Fifteen visible forms reduce to fourteen sources through
+the single marked `cheky` anticipation. See
+`sidequest_semantic_fourth_copy_combination_three_hundred_eighty_second/THREE_HUNDRED_EIGHTY_SECOND_FOURTH_COPY.md`.
+
+Next, make a compact contrast table for all six Y and five AIIN surfaces in the
+same sentence frame. Separate the variable entry shell from the invariant tail
+and ask whether the two families teach one general wrapper rule or two memorized
+palettes.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
