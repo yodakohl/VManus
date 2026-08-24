@@ -9113,9 +9113,15 @@ allograph copies and 89 action-then-close cards. Rule rendering covers 314
 surfaces. See
 `sidequest_semantic_apprentice_copy_day_five_hundred_fifteenth/FIVE_HUNDRED_FIFTEENTH_REPORT.md`.
 
-Next, collapse routine checkpoints into automatic habits and derive a master
-copying mode that leaves only genuinely local owner resets, exemplar
-allographs and unusual program choices as conscious decisions.
+Pass 516 turns seven procedures into master habits. Conscious work falls to 63
+unique-program selections, 21 visible owner resets and 67 local allograph
+choices: 151 decision instances on 126 events. The other 255 cards flow
+automatically through owner inheritance, automaton, closure and renderer rules.
+See
+`sidequest_semantic_master_copy_mode_five_hundred_sixteenth/FIVE_HUNDRED_SIXTEENTH_REPORT.md`.
+
+Next, cluster the 67 allograph choices into contiguous local copy blocks and
+replace per-card choices with one style-switch decision wherever possible.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
