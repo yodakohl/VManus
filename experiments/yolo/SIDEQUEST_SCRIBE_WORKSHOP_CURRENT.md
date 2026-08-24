@@ -9106,9 +9106,16 @@ note form a forty-piece teaching kit covering 99 direct-card, 281 composed and
 one compressed event, all 381 prose events. See
 `sidequest_semantic_component_strips_five_hundred_fourteenth/FIVE_HUNDRED_FOURTEENTH_REPORT.md`.
 
-Next, simulate an apprentice copying all eleven prose records with only the
-forty-piece kit, visible owners and record templates, logging every card choice,
-state transition, wrapper choice and correction.
+Pass 515 simulates the full eleven-record copy day with the forty-piece kit,
+visible owners and templates. All 381 cards and surfaces round-trip. The 196
+explicit checkpoints are 21 owner resets, nineteen cross-line carries, 67 local
+allograph copies and 89 action-then-close cards. Rule rendering covers 314
+surfaces. See
+`sidequest_semantic_apprentice_copy_day_five_hundred_fifteenth/FIVE_HUNDRED_FIFTEENTH_REPORT.md`.
+
+Next, collapse routine checkpoints into automatic habits and derive a master
+copying mode that leaves only genuinely local owner resets, exemplar
+allographs and unusual program choices as conscious decisions.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
