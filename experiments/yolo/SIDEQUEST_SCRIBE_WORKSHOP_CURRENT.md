@@ -9432,10 +9432,18 @@ the current item into use” -> apply/insert/start-flow, and L+CHD+DY
 “forward, transfer, close” -> drain/route/decant by frame. See
 `sidequest_semantic_atomic_card_unification_five_hundred_fifty_fifth/FIVE_HUNDRED_FIFTY_FIFTH_REPORT.md`.
 
-Next, test the revised dictionary as a scribe-training system: teach the 38
-components, three whole cards, five formulas and attachment rules, then encode
-and decode representative Herbal and Biological instructions without looking
-up exact-card prose.
+Pass 556 tests a fourteen-rule apprentice workflow without exact-card prose.
+All 381 events recover their atomic value from components. The 173 cards use
+162 component parses: 151 cards are parse-unique, while eleven parses are
+shared by 22 semantically identical allographs covering 74 visible events.
+Thus 307 events recover exact card identity directly and 74 need a local
+allograph choice. Fourteen representative traces recover semantics 14/14 and
+exact card identity without the local choice 7/14. See
+`sidequest_semantic_scribe_training_roundtrip_five_hundred_fifty_sixth/FIVE_HUNDRED_FIFTY_SIXTH_REPORT.md`.
+
+Next, learn the eleven allograph choices from visible record, position and hand
+conditions. If a small renderer rule predicts them, the apprentice can write
+the exact card without memorizing 22 separate entries.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
