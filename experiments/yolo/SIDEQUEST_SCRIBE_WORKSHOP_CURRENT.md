@@ -7612,8 +7612,16 @@ all 281 events return to the same master card: 173 use the canonical form and
 108 a registered allograph. All sixteen owner resets/breaks survive. See
 `sidequest_semantic_bio_roundtrip_three_hundred_eleventh/THREE_HUNDRED_ELEVENTH_SIX_RECORD_ROUNDTRIP.md`.
 
-Next, infer compact positional and workshop-renderer rules for the thirty
-multi-surface cards and their 108 alternate-form events.
+Pass 312 turns those alternate forms into a compact workshop renderer. Thirty
+Bio cards have more than one registered fixed-page surface and 27 actually
+switch inside Bio. The eight wrapper classes carry no added meaning. A
+card-local palette plus the known s-at-line-entry and q-after-DY biases chooses
+227/281 visible forms; adding only Record and field position chooses 269/281.
+The last twelve exact surfaces are copied details, not twelve new words. See
+`sidequest_semantic_bio_renderer_three_hundred_twelfth/THREE_HUNDRED_TWELFTH_RENDERER_MANUAL.md`.
+
+Next, use the semantic deck and free renderer to rewrite all six Biological
+records as a fresh but Voynich-fitting apprentice copy, then read it back.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
