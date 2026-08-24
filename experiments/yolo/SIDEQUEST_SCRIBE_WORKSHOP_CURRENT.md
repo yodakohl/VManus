@@ -8076,9 +8076,17 @@ does not license it as anticipation and still recovers the exact eight-card
 source. See
 `sidequest_semantic_illegal_boundary_copy_three_hundred_seventy_third/THREE_HUNDRED_SEVENTY_THIRD_ERROR_PAGE.md`.
 
-Next, replay the predecessor-aware rule over all 46 real prose line transitions.
-Check whether the sole E180→E181 read-once case remains licensed and whether any
-other apparent duplicate was previously rescued too generously.
+Pass 374 withdraws that predecessor rule after replaying all 46 real prose
+transitions. The sole real carry E180→E181 itself follows a transfer-to-measure
+slot drop and starts a new microcycle at the old margin. Thus the synthetic
+`aiin | aiin` case is internally indistinguishable from permitted new-cycle
+anticipation. The selected real decisions remain six continuations, one
+read-once and 39 resets. See
+`sidequest_semantic_real_transition_rule_correction_three_hundred_seventy_fourth/THREE_HUNDRED_SEVENTY_FOURTH_REPORT.md`.
+
+Next, add a positive visible anticipation convention to the exercise page only,
+such as a separated marginal position. Test whether it distinguishes licensed
+carry from an ordinary duplicate; do not claim that the real pages use it.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
