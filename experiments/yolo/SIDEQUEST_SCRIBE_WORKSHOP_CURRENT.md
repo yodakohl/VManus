@@ -9465,9 +9465,17 @@ loci with 32 events retain a short mixed stamp sequence. The full 59-event
 surface check remains exact and choice-free. See
 `sidequest_semantic_wrapper_palette_compression_five_hundred_fifty_ninth/FIVE_HUNDRED_FIFTY_NINTH_REPORT.md`.
 
-Next, attack only the twelve mixed loci: predict their 32 stamps from card
-class, statement position, and short local cadence, leaving the 22 uniform
-loci closed.
+Pass 560 converts all twelve mixed loci into eleven component-triggered formula
+cadences. The 32 events now follow visible formulas such as
+POSTEN–MASS–POSTEN (`d→t→sh`) and ZUBEREITUNG–PORTION–BEREIT
+(`s→ch→sh`); ADRESSE–MASS (`che→blank`) recurs independently at two loci.
+The surface renderer is now 314 global + 8 contextual + 32 formula-cadence +
+27 uniform-locus events, still 381/381 exact and choice-free. See
+`sidequest_semantic_formula_cadence_renderer_five_hundred_sixtieth/FIVE_HUNDRED_SIXTIETH_REPORT.md`.
+
+Next, explain the remaining 22 uniform locus stamps from paragraph/line entry,
+record hand, and the preceding formula cadence so that no local surface table
+is needed.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
