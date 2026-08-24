@@ -7883,9 +7883,17 @@ in the same q-operative hand while the owner changes from plant to multi-basin
 station. See
 `sidequest_semantic_h3_b2_four_line_translation_three_hundred_forty_seventh/THREE_HUNDRED_FORTY_SEVENTH_COMPLETE_H3_B2_TRANSLATION.md`.
 
-Next, turn the full H3-to-B2 edition into a compact master-apprentice dialogue:
-the master dictates owner, material state and desired result; the apprentice
-chooses and reverse-explains every microcycle.
+Pass 348 turns that workflow into 47 master-apprentice dictation exchanges. The
+master supplies owner, incoming material and atomic operations but no Voynich
+surface; the apprentice chooses the q-hand cards and reverse-explains values,
+slots and outgoing material. All 79 events and 26 statements are covered, and
+five explicit lessons distinguish allograph choice, material continuity, owner
+change, line layout and semantic reference. See
+`sidequest_semantic_master_apprentice_dialogue_three_hundred_forty_eighth/THREE_HUNDRED_FORTY_EIGHTH_MASTER_APPRENTICE_DIALOGUE.md`.
+
+Next, make three deliberate apprentice miscopies—wrong card surface, lost
+material thread and wrong microcycle reset—and show exactly which redundant
+channel lets the master repair each one.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
