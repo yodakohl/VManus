@@ -1,0 +1,578 @@
+# Fuenfhundertsechsundneunzigste Runde: drei Astro-Kopierregister
+
+## f67r2
+
+- **f67r2.1 · F67_RIGHT_WHEEL_NS · A1_RIGHT_SECTOR_SLOT_01**
+  - Schrift: `ykshy s aram`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: einen groben Himmelsabschnitt oder sichtbaren Bedingungsplatz waehlen und nur die zugehoerige Radlegende konsultieren
+- **f67r2.2 · F67_RIGHT_WHEEL_NS · A1_RIGHT_SECTOR_SLOT_02**
+  - Schrift: `ykecho ols eesydy`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: einen groben Himmelsabschnitt oder sichtbaren Bedingungsplatz waehlen und nur die zugehoerige Radlegende konsultieren
+- **f67r2.3 · F67_RIGHT_WHEEL_NS · A1_RIGHT_SECTOR_SLOT_03**
+  - Schrift: `ey shs okar`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: einen groben Himmelsabschnitt oder sichtbaren Bedingungsplatz waehlen und nur die zugehoerige Radlegende konsultieren
+- **f67r2.4 · F67_RIGHT_WHEEL_NS · A1_RIGHT_SECTOR_SLOT_04**
+  - Schrift: `shekchy sykos`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: einen groben Himmelsabschnitt oder sichtbaren Bedingungsplatz waehlen und nur die zugehoerige Radlegende konsultieren
+- **f67r2.5 · F67_RIGHT_WHEEL_NS · A1_RIGHT_SECTOR_SLOT_05**
+  - Schrift: `ykeody okchy`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: einen groben Himmelsabschnitt oder sichtbaren Bedingungsplatz waehlen und nur die zugehoerige Radlegende konsultieren
+- **f67r2.6 · F67_RIGHT_WHEEL_NS · A1_RIGHT_SECTOR_SLOT_06**
+  - Schrift: `dchetay`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: einen groben Himmelsabschnitt oder sichtbaren Bedingungsplatz waehlen und nur die zugehoerige Radlegende konsultieren
+- **f67r2.7 · F67_RIGHT_WHEEL_NS · A1_RIGHT_SECTOR_SLOT_07**
+  - Schrift: `ykchy kchey ykchys`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: einen groben Himmelsabschnitt oder sichtbaren Bedingungsplatz waehlen und nur die zugehoerige Radlegende konsultieren
+- **f67r2.8 · F67_RIGHT_WHEEL_NS · A1_RIGHT_SECTOR_SLOT_08**
+  - Schrift: `chkchdar`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: einen groben Himmelsabschnitt oder sichtbaren Bedingungsplatz waehlen und nur die zugehoerige Radlegende konsultieren
+- **f67r2.9 · F67_RIGHT_WHEEL_NS · A1_RIGHT_SECTOR_SLOT_09**
+  - Schrift: `ykar ykaly`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: einen groben Himmelsabschnitt oder sichtbaren Bedingungsplatz waehlen und nur die zugehoerige Radlegende konsultieren
+- **f67r2.10 · F67_RIGHT_WHEEL_NS · A1_RIGHT_SECTOR_SLOT_10**
+  - Schrift: `lkshy kchy okar`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: einen groben Himmelsabschnitt oder sichtbaren Bedingungsplatz waehlen und nur die zugehoerige Radlegende konsultieren
+- **f67r2.11 · F67_RIGHT_WHEEL_NS · A1_RIGHT_SECTOR_SLOT_11**
+  - Schrift: `chky chykchs chy`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: einen groben Himmelsabschnitt oder sichtbaren Bedingungsplatz waehlen und nur die zugehoerige Radlegende konsultieren
+- **f67r2.12 · F67_RIGHT_WHEEL_NS · A1_RIGHT_SECTOR_SLOT_12**
+  - Schrift: `ykees ykchos`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: einen groben Himmelsabschnitt oder sichtbaren Bedingungsplatz waehlen und nur die zugehoerige Radlegende konsultieren
+- **f67r2.13 · F67_RIGHT_WHEEL_NS · A1_RIGHT_RING_BAND_01**
+  - Schrift: `opodchol s ain aldy`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: einen groben Himmelsabschnitt oder sichtbaren Bedingungsplatz waehlen und nur die zugehoerige Radlegende konsultieren
+- **f67r2.14 · F67_RIGHT_WHEEL_NS · A1_RIGHT_RING_BAND_02**
+  - Schrift: `soeey doiin oldy`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: einen groben Himmelsabschnitt oder sichtbaren Bedingungsplatz waehlen und nur die zugehoerige Radlegende konsultieren
+- **f67r2.15 · F67_LEFT_WHEEL_NS · A1_LEFT_LOCAL_FIELD_15**
+  - Schrift: `dolchsody`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: eine feinere Stern- oder Aspektlage nach ihrem Bildort nachschlagen
+- **f67r2.16 · F67_LEFT_WHEEL_NS · A1_LEFT_LOCAL_FIELD_16**
+  - Schrift: `odaeiin okoes oekain y`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: eine feinere Stern- oder Aspektlage nach ihrem Bildort nachschlagen
+- **f67r2.17 · F67_LEFT_WHEEL_NS · A1_LEFT_LOCAL_FIELD_17**
+  - Schrift: `otchey soraiir dy`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: eine feinere Stern- oder Aspektlage nach ihrem Bildort nachschlagen
+- **f67r2.18 · F67_LEFT_WHEEL_NS · A1_LEFT_LOCAL_FIELD_18**
+  - Schrift: `qopchy daiin dal`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: eine feinere Stern- oder Aspektlage nach ihrem Bildort nachschlagen
+- **f67r2.19 · F67_LEFT_WHEEL_NS · A1_LEFT_LOCAL_FIELD_19**
+  - Schrift: `ydchos ain ar amy`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: eine feinere Stern- oder Aspektlage nach ihrem Bildort nachschlagen
+- **f67r2.20 · F67_LEFT_WHEEL_NS · A1_LEFT_LOCAL_FIELD_20**
+  - Schrift: `chocfhy saral`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: eine feinere Stern- oder Aspektlage nach ihrem Bildort nachschlagen
+- **f67r2.21 · F67_LEFT_WHEEL_NS · A1_LEFT_LOCAL_FIELD_21**
+  - Schrift: `sain am ar`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: eine feinere Stern- oder Aspektlage nach ihrem Bildort nachschlagen
+- **f67r2.22 · F67_LEFT_WHEEL_NS · A1_LEFT_LOCAL_FIELD_22**
+  - Schrift: `okal`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: eine feinere Stern- oder Aspektlage nach ihrem Bildort nachschlagen
+- **f67r2.23 · F67_LEFT_WHEEL_NS · A1_LEFT_LOCAL_FIELD_23**
+  - Schrift: `oparchy salsain`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: eine feinere Stern- oder Aspektlage nach ihrem Bildort nachschlagen
+- **f67r2.24 · F67_LEFT_WHEEL_NS · A1_LEFT_LOCAL_FIELD_24**
+  - Schrift: `sodar ofar ar`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: eine feinere Stern- oder Aspektlage nach ihrem Bildort nachschlagen
+- **f67r2.25 · F67_LEFT_WHEEL_NS · A1_LEFT_LOCAL_FIELD_25**
+  - Schrift: `ydam`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: eine feinere Stern- oder Aspektlage nach ihrem Bildort nachschlagen
+- **f67r2.26 · F67_LEFT_WHEEL_NS · A1_LEFT_LOCAL_FIELD_26**
+  - Schrift: `yteoor yto ykor`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: eine feinere Stern- oder Aspektlage nach ihrem Bildort nachschlagen
+- **f67r2.27 · F67_LEFT_WHEEL_NS · A1_LEFT_LOCAL_FIELD_27**
+  - Schrift: `okeo r aiin am`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: eine feinere Stern- oder Aspektlage nach ihrem Bildort nachschlagen
+- **f67r2.28 · F67_LEFT_WHEEL_NS · A1_LEFT_LOCAL_FIELD_28**
+  - Schrift: `okain am`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: eine feinere Stern- oder Aspektlage nach ihrem Bildort nachschlagen
+- **f67r2.29 · F67_LEFT_WHEEL_NS · A1_LEFT_LOCAL_FIELD_29**
+  - Schrift: `ytody saiin`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: eine feinere Stern- oder Aspektlage nach ihrem Bildort nachschlagen
+- **f67r2.30 · F67_LEFT_WHEEL_NS · A1_LEFT_LOCAL_FIELD_30**
+  - Schrift: `ochol olol`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: eine feinere Stern- oder Aspektlage nach ihrem Bildort nachschlagen
+- **f67r2.31 · F67_LEFT_WHEEL_NS · A1_LEFT_LOCAL_FIELD_31**
+  - Schrift: `opcholdy`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: eine feinere Stern- oder Aspektlage nach ihrem Bildort nachschlagen
+- **f67r2.32 · F67_LEFT_WHEEL_NS · A1_LEFT_LOCAL_FIELD_32**
+  - Schrift: `dosar odas air alaiin`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: eine feinere Stern- oder Aspektlage nach ihrem Bildort nachschlagen
+- **f67r2.33 · F67_LEFT_WHEEL_NS · A1_LEFT_LOCAL_FIELD_33**
+  - Schrift: `dokan oear odal`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: eine feinere Stern- oder Aspektlage nach ihrem Bildort nachschlagen
+- **f67r2.34 · F67_LEFT_WHEEL_NS · A1_LEFT_LOCAL_FIELD_34**
+  - Schrift: `ofar oeoldan`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: eine feinere Stern- oder Aspektlage nach ihrem Bildort nachschlagen
+- **f67r2.35 · F67_LEFT_WHEEL_NS · A1_LEFT_LOCAL_FIELD_35**
+  - Schrift: `chol giin okol`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: eine feinere Stern- oder Aspektlage nach ihrem Bildort nachschlagen
+- **f67r2.36 · F67_LEFT_WHEEL_NS · A1_LEFT_LOCAL_FIELD_36**
+  - Schrift: `ytor daiin or`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: eine feinere Stern- oder Aspektlage nach ihrem Bildort nachschlagen
+- **f67r2.37 · F67_LEFT_WHEEL_NS · A1_LEFT_LOCAL_FIELD_37**
+  - Schrift: `ytoaiin`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: eine feinere Stern- oder Aspektlage nach ihrem Bildort nachschlagen
+- **f67r2.38 · F67_LEFT_WHEEL_NS · A1_LEFT_LOCAL_FIELD_38**
+  - Schrift: `otoldos octhole`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: eine feinere Stern- oder Aspektlage nach ihrem Bildort nachschlagen
+- **f67r2.39 · F67_LEFT_WHEEL_NS · A1_LEFT_LOCAL_FIELD_39**
+  - Schrift: `sor chedaiin dy`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: eine feinere Stern- oder Aspektlage nach ihrem Bildort nachschlagen
+- **f67r2.40 · F67_LEFT_WHEEL_NS · A1_LEFT_LOCAL_FIELD_40**
+  - Schrift: `yteos oiin og`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: eine feinere Stern- oder Aspektlage nach ihrem Bildort nachschlagen
+- **f67r2.41 · F67_LEFT_WHEEL_NS · A1_LEFT_LOCAL_FIELD_41**
+  - Schrift: `ytoeopchey chekody`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: eine feinere Stern- oder Aspektlage nach ihrem Bildort nachschlagen
+- **f67r2.42 · F67_LEFT_WHEEL_NS · A1_LEFT_LOCAL_FIELD_42**
+  - Schrift: `sosho chos ockhy`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: eine feinere Stern- oder Aspektlage nach ihrem Bildort nachschlagen
+- **f67r2.43 · F67_LEFT_WHEEL_NS · A1_LEFT_LOCAL_FIELD_43**
+  - Schrift: `daiin aiin os qsg`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: eine feinere Stern- oder Aspektlage nach ihrem Bildort nachschlagen
+- **f67r2.44 · F67_LEFT_WHEEL_NS · A1_LEFT_LOCAL_FIELD_44**
+  - Schrift: `ofydy sheody aiin`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: eine feinere Stern- oder Aspektlage nach ihrem Bildort nachschlagen
+- **f67r2.45 · F67_LEFT_WHEEL_NS · A1_LEFT_LOCAL_FIELD_45**
+  - Schrift: `ycheody es odaiiin`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: eine feinere Stern- oder Aspektlage nach ihrem Bildort nachschlagen
+- **f67r2.46 · F67_LEFT_WHEEL_NS · A1_LEFT_LOCAL_FIELD_46**
+  - Schrift: `yekees oraly`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: eine feinere Stern- oder Aspektlage nach ihrem Bildort nachschlagen
+- **f67r2.47 · F67_LEFT_WHEEL_NS · A1_LEFT_LOCAL_FIELD_47**
+  - Schrift: `yfain`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: eine feinere Stern- oder Aspektlage nach ihrem Bildort nachschlagen
+- **f67r2.48 · F67_LEFT_WHEEL_NS · A1_LEFT_LOCAL_FIELD_48**
+  - Schrift: `todaiin dain dy`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: eine feinere Stern- oder Aspektlage nach ihrem Bildort nachschlagen
+- **f67r2.49 · F67_LEFT_WHEEL_NS · A1_LEFT_LOCAL_FIELD_49**
+  - Schrift: `os choer aiin`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: eine feinere Stern- oder Aspektlage nach ihrem Bildort nachschlagen
+- **f67r2.50 · F67_LEFT_WHEEL_NS · A1_LEFT_LOCAL_FIELD_50**
+  - Schrift: `choeea sal`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: eine feinere Stern- oder Aspektlage nach ihrem Bildort nachschlagen
+- **f67r2.51 · F67_LEFT_WHEEL_NS · A1_LEFT_LOCAL_FIELD_51**
+  - Schrift: `dadaiin`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: eine feinere Stern- oder Aspektlage nach ihrem Bildort nachschlagen
+- **f67r2.52 · F67_LEFT_WHEEL_NS · A1_LEFT_OUTER_STAR_STATION_01**
+  - Schrift: `qotoear`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: eine feinere Stern- oder Aspektlage nach ihrem Bildort nachschlagen
+- **f67r2.53 · F67_LEFT_WHEEL_NS · A1_LEFT_OUTER_STAR_STATION_02**
+  - Schrift: `dchdar`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: eine feinere Stern- oder Aspektlage nach ihrem Bildort nachschlagen
+- **f67r2.54 · F67_LEFT_WHEEL_NS · A1_LEFT_OUTER_STAR_STATION_03**
+  - Schrift: `y saldal`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: eine feinere Stern- oder Aspektlage nach ihrem Bildort nachschlagen
+- **f67r2.55 · F67_LEFT_WHEEL_NS · A1_LEFT_OUTER_STAR_STATION_04**
+  - Schrift: `ytodal`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: eine feinere Stern- oder Aspektlage nach ihrem Bildort nachschlagen
+- **f67r2.56 · F67_LEFT_WHEEL_NS · A1_LEFT_OUTER_STAR_STATION_05**
+  - Schrift: `tol daiin`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: eine feinere Stern- oder Aspektlage nach ihrem Bildort nachschlagen
+- **f67r2.57 · F67_LEFT_WHEEL_NS · A1_LEFT_OUTER_STAR_STATION_06**
+  - Schrift: `otar dy`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: eine feinere Stern- oder Aspektlage nach ihrem Bildort nachschlagen
+- **f67r2.58 · F67_LEFT_WHEEL_NS · A1_LEFT_OUTER_STAR_STATION_07**
+  - Schrift: `cho dal g`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: eine feinere Stern- oder Aspektlage nach ihrem Bildort nachschlagen
+- **f67r2.59 · F67_LEFT_WHEEL_NS · A1_LEFT_OUTER_STAR_STATION_08**
+  - Schrift: `ytchodly`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: eine feinere Stern- oder Aspektlage nach ihrem Bildort nachschlagen
+- **f67r2.60 · F67_LEFT_WHEEL_NS · A1_LEFT_OUTER_STAR_STATION_09**
+  - Schrift: `octhys`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: eine feinere Stern- oder Aspektlage nach ihrem Bildort nachschlagen
+- **f67r2.61 · F67_LEFT_WHEEL_NS · A1_LEFT_OUTER_STAR_STATION_10**
+  - Schrift: `ytokar`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: eine feinere Stern- oder Aspektlage nach ihrem Bildort nachschlagen
+- **f67r2.62 · F67_LEFT_WHEEL_NS · A1_LEFT_OUTER_STAR_STATION_11**
+  - Schrift: `otolor`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: eine feinere Stern- oder Aspektlage nach ihrem Bildort nachschlagen
+- **f67r2.63 · F67_LEFT_WHEEL_NS · A1_LEFT_OUTER_STAR_STATION_12**
+  - Schrift: `okodar`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: eine feinere Stern- oder Aspektlage nach ihrem Bildort nachschlagen
+- **f67r2.64 · F67_RIGHT_WHEEL_NS · A1_RIGHT_PHASE_STATION_01**
+  - Schrift: `s air`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: einen groben Himmelsabschnitt oder sichtbaren Bedingungsplatz waehlen und nur die zugehoerige Radlegende konsultieren
+- **f67r2.65 · F67_RIGHT_WHEEL_NS · A1_RIGHT_PHASE_STATION_02**
+  - Schrift: `soear`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: einen groben Himmelsabschnitt oder sichtbaren Bedingungsplatz waehlen und nur die zugehoerige Radlegende konsultieren
+- **f67r2.66 · F67_RIGHT_WHEEL_NS · A1_RIGHT_PHASE_STATION_03**
+  - Schrift: `cpheey`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: einen groben Himmelsabschnitt oder sichtbaren Bedingungsplatz waehlen und nur die zugehoerige Radlegende konsultieren
+- **f67r2.67 · F67_RIGHT_WHEEL_NS · A1_RIGHT_PHASE_STATION_04**
+  - Schrift: `okodar`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: einen groben Himmelsabschnitt oder sichtbaren Bedingungsplatz waehlen und nur die zugehoerige Radlegende konsultieren
+- **f67r2.68 · F67_RIGHT_WHEEL_NS · A1_RIGHT_PHASE_STATION_05**
+  - Schrift: `oepchod`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: einen groben Himmelsabschnitt oder sichtbaren Bedingungsplatz waehlen und nur die zugehoerige Radlegende konsultieren
+- **f67r2.69 · F67_RIGHT_WHEEL_NS · A1_RIGHT_PHASE_STATION_06**
+  - Schrift: `s ay`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: einen groben Himmelsabschnitt oder sichtbaren Bedingungsplatz waehlen und nur die zugehoerige Radlegende konsultieren
+- **f67r2.70 · F67_RIGHT_WHEEL_NS · A1_RIGHT_PHASE_STATION_07**
+  - Schrift: `osar`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: einen groben Himmelsabschnitt oder sichtbaren Bedingungsplatz waehlen und nur die zugehoerige Radlegende konsultieren
+- **f67r2.71 · F67_RIGHT_WHEEL_NS · A1_RIGHT_PHASE_STATION_08**
+  - Schrift: `oran`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: einen groben Himmelsabschnitt oder sichtbaren Bedingungsplatz waehlen und nur die zugehoerige Radlegende konsultieren
+- **f67r2.72 · F67_LEFT_WHEEL_NS · A1_LEFT_OUTER_RING_TEXT**
+  - Schrift: `dar aldaiin ydaiin qkoy ydaiin qofair ypair ykoaiin ydoly ytalchos oly okey`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: eine feinere Stern- oder Aspektlage nach ihrem Bildort nachschlagen
+- **f67r2.73 · F67_RIGHT_WHEEL_NS · A1_RIGHT_OUTER_RING_TEXT**
+  - Schrift: `sshey sy shees qeykeey ykchey ykchey qokeochy oaiin okol ar olar`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: einen groben Himmelsabschnitt oder sichtbaren Bedingungsplatz waehlen und nur die zugehoerige Radlegende konsultieren
+- **f67r2.74 · F67_PAIRED_LEGEND_QUARANTINE_NS · A1_PAIRED_WHEEL_LEGEND_UNRESOLVED**
+  - Schrift: `yshey qokeeody cheos oeeos qockhy chos aiin okeeody qokoaiin odain ar air ay`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: nur als gemeinsame Ueberschrift oder Gebrauchshinweis abschreiben
+
+## f68r1
+
+- **f68r1.1 · F68_LEFT_PANEL_HEADER_NS · A2_LEFT_PANEL_HEADER**
+  - Schrift: `shokchy chteey choteey cphol cheor opcheeol otor choctheeey okchoal`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: das linke Sternfeld als eigene Nachschlageeinheit aufrufen
+- **f68r1.2 · F68_MIDDLE_PANEL_HEADER_NS · A2_MIDDLE_PANEL_HEADER**
+  - Schrift: `tochso otchl qokeeedy cheey cheeteey yteody chpor cheokorchey chod`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: das mittlere Sternfeld als eigene Nachschlageeinheit aufrufen
+- **f68r1.3 · F68_RIGHT_PANEL_HEADER_NS · A2_RIGHT_PANEL_HEADER**
+  - Schrift: `ykor shey qocheey chokal okeey ror eckhear daram`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: das rechte gegliederte Sternfeld als eigene Nachschlageeinheit aufrufen
+- **f68r1.4 · F68_MULTIPANEL_HEADER_QUARANTINE_NS · A2_MULTIPANEL_HEADER_FRAGMENT_04**
+  - Schrift: `dchor okaiiin`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: sichtbaren Kopftext bewahren, aber keinem einzelnen Sternplatz zwingen
+- **f68r1.5 · F68_MULTIPANEL_HEADER_QUARANTINE_NS · A2_MULTIPANEL_HEADER_FRAGMENT_05**
+  - Schrift: `yky`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: sichtbaren Kopftext bewahren, aber keinem einzelnen Sternplatz zwingen
+- **f68r1.6 · F68_MULTIPANEL_HEADER_QUARANTINE_NS · A2_MULTIPANEL_HEADER_FRAGMENT_06**
+  - Schrift: `dary`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: sichtbaren Kopftext bewahren, aber keinem einzelnen Sternplatz zwingen
+- **f68r1.7 · F68_MULTIPANEL_HEADER_QUARANTINE_NS · A2_MULTIPANEL_HEADER_FRAGMENT_07**
+  - Schrift: `chkchykoly`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: sichtbaren Kopftext bewahren, aber keinem einzelnen Sternplatz zwingen
+- **f68r1.8 · F68_CENTRE_KEY_QUARANTINE_NS · A2_CENTRE_KEY_UNRESOLVED**
+  - Schrift: `okodaly`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: nur als moeglichen lokalen Schluesselhalter behandeln
+- **f68r1.9 · F68_LOCAL_STAR_SLOT_NS · A2_STAR_STATION_01**
+  - Schrift: `odchecthy`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: den beim Bild gezeigten Sternplatz nachschlagen; keine Kreisfolge voraussetzen
+- **f68r1.10 · F68_LOCAL_STAR_SLOT_NS · A2_STAR_STATION_02**
+  - Schrift: `otcheody`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: den beim Bild gezeigten Sternplatz nachschlagen; keine Kreisfolge voraussetzen
+- **f68r1.11 · F68_LOCAL_STAR_SLOT_NS · A2_STAR_STATION_03**
+  - Schrift: `okoaly`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: den beim Bild gezeigten Sternplatz nachschlagen; keine Kreisfolge voraussetzen
+- **f68r1.12 · F68_LOCAL_STAR_SLOT_NS · A2_STAR_STATION_04**
+  - Schrift: `chocfhy`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: den beim Bild gezeigten Sternplatz nachschlagen; keine Kreisfolge voraussetzen
+- **f68r1.13 · F68_LOCAL_STAR_SLOT_NS · A2_STAR_STATION_05**
+  - Schrift: `octhey`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: den beim Bild gezeigten Sternplatz nachschlagen; keine Kreisfolge voraussetzen
+- **f68r1.14 · F68_LOCAL_STAR_SLOT_NS · A2_STAR_STATION_06**
+  - Schrift: `otshey`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: den beim Bild gezeigten Sternplatz nachschlagen; keine Kreisfolge voraussetzen
+- **f68r1.15 · F68_LOCAL_STAR_SLOT_NS · A2_STAR_STATION_07**
+  - Schrift: `otydy`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: den beim Bild gezeigten Sternplatz nachschlagen; keine Kreisfolge voraussetzen
+- **f68r1.16 · F68_LOCAL_STAR_SLOT_NS · A2_STAR_STATION_08**
+  - Schrift: `okear`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: den beim Bild gezeigten Sternplatz nachschlagen; keine Kreisfolge voraussetzen
+- **f68r1.17 · F68_LOCAL_STAR_SLOT_NS · A2_STAR_STATION_09**
+  - Schrift: `cphocthy`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: den beim Bild gezeigten Sternplatz nachschlagen; keine Kreisfolge voraussetzen
+- **f68r1.18 · F68_LOCAL_STAR_SLOT_NS · A2_STAR_STATION_10**
+  - Schrift: `ytchody`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: den beim Bild gezeigten Sternplatz nachschlagen; keine Kreisfolge voraussetzen
+- **f68r1.19 · F68_LOCAL_STAR_SLOT_NS · A2_STAR_STATION_11**
+  - Schrift: `otys`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: den beim Bild gezeigten Sternplatz nachschlagen; keine Kreisfolge voraussetzen
+- **f68r1.20 · F68_LOCAL_STAR_SLOT_NS · A2_STAR_STATION_12**
+  - Schrift: `olor`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: den beim Bild gezeigten Sternplatz nachschlagen; keine Kreisfolge voraussetzen
+- **f68r1.21 · F68_LOCAL_STAR_SLOT_NS · A2_STAR_STATION_13**
+  - Schrift: `ockhy`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: den beim Bild gezeigten Sternplatz nachschlagen; keine Kreisfolge voraussetzen
+- **f68r1.22 · F68_LOCAL_STAR_SLOT_NS · A2_STAR_STATION_14**
+  - Schrift: `ofcheor`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: den beim Bild gezeigten Sternplatz nachschlagen; keine Kreisfolge voraussetzen
+- **f68r1.23 · F68_LOCAL_STAR_SLOT_NS · A2_STAR_STATION_15**
+  - Schrift: `otchdy`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: den beim Bild gezeigten Sternplatz nachschlagen; keine Kreisfolge voraussetzen
+- **f68r1.24 · F68_LOCAL_STAR_SLOT_NS · A2_STAR_STATION_16**
+  - Schrift: `otykchs`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: den beim Bild gezeigten Sternplatz nachschlagen; keine Kreisfolge voraussetzen
+- **f68r1.25 · F68_LOCAL_STAR_SLOT_NS · A2_STAR_STATION_17**
+  - Schrift: `otol`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: den beim Bild gezeigten Sternplatz nachschlagen; keine Kreisfolge voraussetzen
+- **f68r1.26 · F68_LOCAL_STAR_SLOT_NS · A2_STAR_STATION_18**
+  - Schrift: `otor`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: den beim Bild gezeigten Sternplatz nachschlagen; keine Kreisfolge voraussetzen
+- **f68r1.27 · F68_LOCAL_STAR_SLOT_NS · A2_STAR_STATION_19**
+  - Schrift: `oiinar`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: den beim Bild gezeigten Sternplatz nachschlagen; keine Kreisfolge voraussetzen
+- **f68r1.28 · F68_LOCAL_STAR_SLOT_NS · A2_STAR_STATION_20**
+  - Schrift: `okoldy`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: den beim Bild gezeigten Sternplatz nachschlagen; keine Kreisfolge voraussetzen
+- **f68r1.29 · F68_LOCAL_STAR_SLOT_NS · A2_STAR_STATION_21**
+  - Schrift: `ykchdy`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: den beim Bild gezeigten Sternplatz nachschlagen; keine Kreisfolge voraussetzen
+- **f68r1.30 · F68_LOCAL_STAR_SLOT_NS · A2_STAR_STATION_22**
+  - Schrift: `oeeody`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: den beim Bild gezeigten Sternplatz nachschlagen; keine Kreisfolge voraussetzen
+- **f68r1.31 · F68_LOCAL_STAR_SLOT_NS · A2_STAR_STATION_23**
+  - Schrift: `ocphy`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: den beim Bild gezeigten Sternplatz nachschlagen; keine Kreisfolge voraussetzen
+- **f68r1.32 · F68_LOCAL_STAR_SLOT_NS · A2_STAR_STATION_24**
+  - Schrift: `okeeodal`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: den beim Bild gezeigten Sternplatz nachschlagen; keine Kreisfolge voraussetzen
+- **f68r1.33 · F68_LOCAL_STAR_SLOT_NS · A2_STAR_STATION_25**
+  - Schrift: `okshor`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: den beim Bild gezeigten Sternplatz nachschlagen; keine Kreisfolge voraussetzen
+- **f68r1.34 · F68_LOCAL_STAR_SLOT_NS · A2_STAR_STATION_26**
+  - Schrift: `osdaiin`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: den beim Bild gezeigten Sternplatz nachschlagen; keine Kreisfolge voraussetzen
+- **f68r1.35 · F68_LOCAL_STAR_SLOT_NS · A2_STAR_STATION_27**
+  - Schrift: `otochedy`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: den beim Bild gezeigten Sternplatz nachschlagen; keine Kreisfolge voraussetzen
+- **f68r1.36 · F68_LOCAL_STAR_SLOT_NS · A2_STAR_STATION_28**
+  - Schrift: `dolchedy`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: den beim Bild gezeigten Sternplatz nachschlagen; keine Kreisfolge voraussetzen
+- **f68r1.37 · F68_CENTRAL_LEGEND_QUARANTINE_NS · A2_CENTRAL_LEGEND_UNRESOLVED**
+  - Schrift: `oky okchdy okardy qear oygy`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: als lokalen Schluesselbereich behandeln, ohne ein einziges Seitenzentrum zu erfinden
+
+## f69v
+
+- **f69v.1 · F69_LEFT_WHEEL_NS · A3_LEFT_WHEEL_RING_TEXT**
+  - Schrift: `dair cheyky otaza sar ar chykar okoirsh ar chetody okeeos o tey otokeeey okeeody okeey doiir teeo y chey ot y okedy chsdy okeod y dy choaiin okar okar chol chees yto odair oty oteeo dar o eykeody dchor char`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: einen der 28 Bildplaetze lokal waehlen und die Ringrubrik desselben Rades konsultieren; keine Reihenfolge erfinden
+- **f69v.2 · F69_MIDDLE_WHEEL_NS · A3_MIDDLE_WHEEL_RING_TEXT**
+  - Schrift: `yka chol ykar dal ykady iokeeor cheey choly ykeeal cheo oaram ockhy sheey aiin y daiial cheody cheal yetey chear y dy ykey ch y dy chol ykar ol y ykeeody chey dal ody airchy choky ychey chey`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: einen Wetter- oder Himmelszustand als eigene Bedingung nachschlagen
+- **f69v.3 · F69_RIGHT_WHEEL_NS · A3_RIGHT_WHEEL_RING_TEXT**
+  - Schrift: `doair otaldal dair chdy otoar ar chy qoteor cho qotair chda oteeal cheor ar air oteody ytyd a dchy otoly okeodal oteoarar cheteeser dair chey okody dal oteey oteey`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: einen Licht-, Gestirn- oder Komplexionszustand als eigene Bedingung nachschlagen
+- **f69v.4 · F69_LEFT_WHEEL_NS · A3_LEFT_RADIAL_SLOT_01**
+  - Schrift: `okeey sar`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: einen der 28 Bildplaetze lokal waehlen und die Ringrubrik desselben Rades konsultieren; keine Reihenfolge erfinden
+- **f69v.5 · F69_LEFT_WHEEL_NS · A3_LEFT_RADIAL_SLOT_02**
+  - Schrift: `okeo dy`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: einen der 28 Bildplaetze lokal waehlen und die Ringrubrik desselben Rades konsultieren; keine Reihenfolge erfinden
+- **f69v.6 · F69_LEFT_WHEEL_NS · A3_LEFT_RADIAL_SLOT_03**
+  - Schrift: `ochoyk`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: einen der 28 Bildplaetze lokal waehlen und die Ringrubrik desselben Rades konsultieren; keine Reihenfolge erfinden
+- **f69v.7 · F69_LEFT_WHEEL_NS · A3_LEFT_RADIAL_SLOT_04**
+  - Schrift: `ykeey`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: einen der 28 Bildplaetze lokal waehlen und die Ringrubrik desselben Rades konsultieren; keine Reihenfolge erfinden
+- **f69v.8 · F69_LEFT_WHEEL_NS · A3_LEFT_RADIAL_SLOT_05**
+  - Schrift: `ytory`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: einen der 28 Bildplaetze lokal waehlen und die Ringrubrik desselben Rades konsultieren; keine Reihenfolge erfinden
+- **f69v.9 · F69_LEFT_WHEEL_NS · A3_LEFT_RADIAL_SLOT_06**
+  - Schrift: `oeesy`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: einen der 28 Bildplaetze lokal waehlen und die Ringrubrik desselben Rades konsultieren; keine Reihenfolge erfinden
+- **f69v.10 · F69_LEFT_WHEEL_NS · A3_LEFT_RADIAL_SLOT_07**
+  - Schrift: `ytody`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: einen der 28 Bildplaetze lokal waehlen und die Ringrubrik desselben Rades konsultieren; keine Reihenfolge erfinden
+- **f69v.11 · F69_LEFT_WHEEL_NS · A3_LEFT_RADIAL_SLOT_08**
+  - Schrift: `okody`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: einen der 28 Bildplaetze lokal waehlen und die Ringrubrik desselben Rades konsultieren; keine Reihenfolge erfinden
+- **f69v.12 · F69_LEFT_WHEEL_NS · A3_LEFT_RADIAL_SLOT_09**
+  - Schrift: `otody`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: einen der 28 Bildplaetze lokal waehlen und die Ringrubrik desselben Rades konsultieren; keine Reihenfolge erfinden
+- **f69v.13 · F69_LEFT_WHEEL_NS · A3_LEFT_RADIAL_SLOT_10**
+  - Schrift: `okeal`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: einen der 28 Bildplaetze lokal waehlen und die Ringrubrik desselben Rades konsultieren; keine Reihenfolge erfinden
+- **f69v.14 · F69_LEFT_WHEEL_NS · A3_LEFT_RADIAL_SLOT_11**
+  - Schrift: `okeod`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: einen der 28 Bildplaetze lokal waehlen und die Ringrubrik desselben Rades konsultieren; keine Reihenfolge erfinden
+- **f69v.15 · F69_LEFT_WHEEL_NS · A3_LEFT_RADIAL_SLOT_12**
+  - Schrift: `oteeys`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: einen der 28 Bildplaetze lokal waehlen und die Ringrubrik desselben Rades konsultieren; keine Reihenfolge erfinden
+- **f69v.16 · F69_LEFT_WHEEL_NS · A3_LEFT_RADIAL_SLOT_13**
+  - Schrift: `oteol`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: einen der 28 Bildplaetze lokal waehlen und die Ringrubrik desselben Rades konsultieren; keine Reihenfolge erfinden
+- **f69v.17 · F69_LEFT_WHEEL_NS · A3_LEFT_RADIAL_SLOT_14**
+  - Schrift: `ykeydy`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: einen der 28 Bildplaetze lokal waehlen und die Ringrubrik desselben Rades konsultieren; keine Reihenfolge erfinden
+- **f69v.18 · F69_LEFT_WHEEL_NS · A3_LEFT_RADIAL_SLOT_15**
+  - Schrift: `okeod`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: einen der 28 Bildplaetze lokal waehlen und die Ringrubrik desselben Rades konsultieren; keine Reihenfolge erfinden
+- **f69v.19 · F69_LEFT_WHEEL_NS · A3_LEFT_RADIAL_SLOT_16**
+  - Schrift: `saral`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: einen der 28 Bildplaetze lokal waehlen und die Ringrubrik desselben Rades konsultieren; keine Reihenfolge erfinden
+- **f69v.20 · F69_LEFT_WHEEL_NS · A3_LEFT_RADIAL_SLOT_17**
+  - Schrift: `saiir`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: einen der 28 Bildplaetze lokal waehlen und die Ringrubrik desselben Rades konsultieren; keine Reihenfolge erfinden
+- **f69v.21 · F69_LEFT_WHEEL_NS · A3_LEFT_RADIAL_SLOT_18**
+  - Schrift: `okolar`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: einen der 28 Bildplaetze lokal waehlen und die Ringrubrik desselben Rades konsultieren; keine Reihenfolge erfinden
+- **f69v.22 · F69_LEFT_WHEEL_NS · A3_LEFT_RADIAL_SLOT_19**
+  - Schrift: `ykeody`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: einen der 28 Bildplaetze lokal waehlen und die Ringrubrik desselben Rades konsultieren; keine Reihenfolge erfinden
+- **f69v.23 · F69_LEFT_WHEEL_NS · A3_LEFT_RADIAL_SLOT_20**
+  - Schrift: `sarydy`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: einen der 28 Bildplaetze lokal waehlen und die Ringrubrik desselben Rades konsultieren; keine Reihenfolge erfinden
+- **f69v.24 · F69_LEFT_WHEEL_NS · A3_LEFT_RADIAL_SLOT_21**
+  - Schrift: `otchy`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: einen der 28 Bildplaetze lokal waehlen und die Ringrubrik desselben Rades konsultieren; keine Reihenfolge erfinden
+- **f69v.25 · F69_LEFT_WHEEL_NS · A3_LEFT_RADIAL_SLOT_22**
+  - Schrift: `okeey dy`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: einen der 28 Bildplaetze lokal waehlen und die Ringrubrik desselben Rades konsultieren; keine Reihenfolge erfinden
+- **f69v.26 · F69_LEFT_WHEEL_NS · A3_LEFT_RADIAL_SLOT_23**
+  - Schrift: `okey d`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: einen der 28 Bildplaetze lokal waehlen und die Ringrubrik desselben Rades konsultieren; keine Reihenfolge erfinden
+- **f69v.27 · F69_LEFT_WHEEL_NS · A3_LEFT_RADIAL_SLOT_24**
+  - Schrift: `okeod`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: einen der 28 Bildplaetze lokal waehlen und die Ringrubrik desselben Rades konsultieren; keine Reihenfolge erfinden
+- **f69v.28 · F69_LEFT_WHEEL_NS · A3_LEFT_RADIAL_SLOT_25**
+  - Schrift: `okodchy`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: einen der 28 Bildplaetze lokal waehlen und die Ringrubrik desselben Rades konsultieren; keine Reihenfolge erfinden
+- **f69v.29 · F69_LEFT_WHEEL_NS · A3_LEFT_RADIAL_SLOT_26**
+  - Schrift: `okeody`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: einen der 28 Bildplaetze lokal waehlen und die Ringrubrik desselben Rades konsultieren; keine Reihenfolge erfinden
+- **f69v.30 · F69_LEFT_WHEEL_NS · A3_LEFT_RADIAL_SLOT_27**
+  - Schrift: `okcheys`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: einen der 28 Bildplaetze lokal waehlen und die Ringrubrik desselben Rades konsultieren; keine Reihenfolge erfinden
+- **f69v.31 · F69_LEFT_WHEEL_NS · A3_LEFT_RADIAL_SLOT_28**
+  - Schrift: `oar alys`
+  - Rezitation: lokalen Bildplatz zeigen, vollstaendige Etikette kopieren und nur innerhalb dieses Instruments nachschlagen
+  - Moeglicher Gebrauch: einen der 28 Bildplaetze lokal waehlen und die Ringrubrik desselben Rades konsultieren; keine Reihenfolge erfinden

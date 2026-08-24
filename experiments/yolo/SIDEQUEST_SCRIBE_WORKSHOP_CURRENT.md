@@ -9740,9 +9740,17 @@ All 381 surfaces are produced with zero free choices and no meaning change;
 the local overhead is only nine melodies/22 slots. See
 `sidequest_semantic_surface_preference_manual_five_hundred_ninety_fifth/FIVE_HUNDRED_NINETY_FIFTH_REPORT.md`.
 
-Next, interleave meaning, card identity, exact surface, and record melody into
-a facsimile-near teaching edition for all eleven Prose records, then attach the
-three Astro copy registers without importing Prose meanings.
+Pass 596 interleaves every one of the 116 Prose statements as meaning,
+37-value speech, card/component identity, exact surface, and scribe
+recitation. It also supplies 142 Astro copy lines with image owner, namespace,
+surface, and local use. A unified 776-row trace has no empty line and keeps
+Astro free of Prose-value imports. See
+`sidequest_semantic_interleaved_teaching_edition_five_hundred_ninety_sixth/FIVE_HUNDRED_NINETY_SIXTH_REPORT.md`.
+
+Next, run the edition backwards as a workshop corrector: from image owner and
+surface recover card, spoken value, and local instruction, and inventory the
+remaining ambiguities rather than hiding them behind the successful forward
+copy routine.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
