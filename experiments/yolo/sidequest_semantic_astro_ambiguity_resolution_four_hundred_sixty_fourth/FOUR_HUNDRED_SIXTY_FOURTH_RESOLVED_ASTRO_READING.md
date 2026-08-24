@@ -1,0 +1,152 @@
+# Resolved Astro workshop reading
+
+## A1
+
+- **f67r2.1** (MIXED_LOCAL_AND_RESOLVED): dies + zufuehren + dies; lokale Etikette; lokale Etikette
+- **f67r2.2** (FULLY_RESOLVED): dies + zufuehren + kurz + Gabe; Arbeitsgang + abfuehren; laenger + dies + Schluss
+- **f67r2.3** (MIXED_LOCAL_AND_RESOLVED): kurz + dies; lokale Etikette; ansetzen + von dort
+- **f67r2.4** (MIXED_LOCAL_AND_RESOLVED): halten + kurz + zufuehren + dies; lokale Etikette
+- **f67r2.5** (FULLY_RESOLVED): dies + zufuehren + kurz + Arbeitsgang + dies; dies ansetzen
+- **f67r2.6** (LOCAL_ONLY): lokale Etikette
+- **f67r2.7** (MIXED_LOCAL_AND_RESOLVED): dies + zufuehren + dies; dies kurz zuführen; lokale Etikette
+- **f67r2.8** (FULLY_RESOLVED): waermen + umsetzen + von dort
+- **f67r2.9** (FULLY_RESOLVED): dies + zufuehren + von dort; dies + zufuehren + Stelle + dies
+- **f67r2.10** (FULLY_RESOLVED): fuehren + zufuehren + dies; dies zuführen; ansetzen + von dort
+- **f67r2.11** (MIXED_LOCAL_AND_RESOLVED): waermen + dies; lokale Etikette; dies
+- **f67r2.12** (LOCAL_ONLY): lokale Etikette; lokale Etikette
+- **f67r2.13** (MIXED_LOCAL_AND_RESOLVED): Arbeitsgang + hinein + Arbeitsgang + fortsetzen; lokale Etikette; Portion; Stelle + Schluss
+- **f67r2.14** (MIXED_LOCAL_AND_RESOLVED): lokale Etikette; lokale Etikette; fortsetzen; Schluss
+- **f67r2.15** (LOCAL_ONLY): lokale Etikette
+- **f67r2.16** (MIXED_LOCAL_AND_RESOLVED): lokale Etikette; lokale Etikette; Arbeitsgang + kurz + zufuehren + Portion; dies
+- **f67r2.17** (MIXED_LOCAL_AND_RESOLVED): nächster Posten; lokale Etikette; dies
+- **f67r2.18** (FULLY_RESOLVED): Arbeitsgang + hinein + dies; Mass; Stelle
+- **f67r2.19** (MIXED_LOCAL_AND_RESOLVED): lokale Etikette; Portion; von dort; lokale Etikette
+- **f67r2.20** (MIXED_LOCAL_AND_RESOLVED): lokale Etikette; von dort + Stelle
+- **f67r2.21** (MIXED_LOCAL_AND_RESOLVED): lokale Etikette; lokale Etikette; von dort
+- **f67r2.22** (FULLY_RESOLVED): an die Stelle setzen
+- **f67r2.23** (MIXED_LOCAL_AND_RESOLVED): Arbeitsgang + hinein + von dort + dies; lokale Etikette
+- **f67r2.24** (MIXED_LOCAL_AND_RESOLVED): lokale Etikette; lokale Etikette; von dort
+- **f67r2.25** (LOCAL_ONLY): lokale Etikette
+- **f67r2.26** (FULLY_RESOLVED): dies + eintragen + kurz + Arbeitsgang + Ansatz; dies + eintragen + Arbeitsgang; dies + zufuehren + Ansatz
+- **f67r2.27** (MIXED_LOCAL_AND_RESOLVED): ansetzen + kurz + Arbeitsgang; abkuehlen; Mass; lokale Etikette
+- **f67r2.28** (MIXED_LOCAL_AND_RESOLVED): eine Portion zugeben; lokale Etikette
+- **f67r2.29** (FULLY_RESOLVED): dies + eintragen + Arbeitsgang + dies; Mass
+- **f67r2.30** (FULLY_RESOLVED): Arbeitsgang + fortsetzen; fortsetzen + fortsetzen
+- **f67r2.31** (FULLY_RESOLVED): Arbeitsgang + hinein + fortsetzen + Schluss
+- **f67r2.32** (MIXED_LOCAL_AND_RESOLVED): lokale Etikette; lokale Etikette; Lauf; Stelle + Mass
+- **f67r2.33** (MIXED_LOCAL_AND_RESOLVED): lokale Etikette; Arbeitsgang + kurz + von dort; Arbeitsgang + Stelle
+- **f67r2.34** (LOCAL_ONLY): lokale Etikette; lokale Etikette
+- **f67r2.35** (MIXED_LOCAL_AND_RESOLVED): fortsetzen; lokale Etikette; ansetzen + fortsetzen
+- **f67r2.36** (FULLY_RESOLVED): dies + eintragen + Ansatz; Mass; Ansatz
+- **f67r2.37** (FULLY_RESOLVED): dies + eintragen + Arbeitsgang + Mass
+- **f67r2.38** (MIXED_LOCAL_AND_RESOLVED): lokale Etikette; Arbeitsgang + bereit + fortsetzen + kurz
+- **f67r2.39** (FULLY_RESOLVED): Ansatz; umsetzen + Mass; dies
+- **f67r2.40** (MIXED_LOCAL_AND_RESOLVED): lokale Etikette; Arbeitsgang + Sollstufe; lokale Etikette
+- **f67r2.41** (FULLY_RESOLVED): dies + eintragen + Arbeitsgang + kurz + Arbeitsgang + hinein + dies; abziehen + kurz + zufuehren + Arbeitsgang + Schluss
+- **f67r2.42** (MIXED_LOCAL_AND_RESOLVED): lokale Etikette; lokale Etikette; Arbeitsgang + Durchlass + dies
+- **f67r2.43** (MIXED_LOCAL_AND_RESOLVED): Mass; Mass; Fach; lokale Etikette
+- **f67r2.44** (MIXED_LOCAL_AND_RESOLVED): lokale Etikette; halten + kurz + Arbeitsgang + dies; Mass
+- **f67r2.45** (MIXED_LOCAL_AND_RESOLVED): dies + Auszug + dies; lokale Etikette; lokale Etikette
+- **f67r2.46** (MIXED_LOCAL_AND_RESOLVED): lokale Etikette; Ansatz + Stelle + dies
+- **f67r2.47** (LOCAL_ONLY): lokale Etikette
+- **f67r2.48** (FULLY_RESOLVED): eintragen + Arbeitsgang + Mass; Portion; dies
+- **f67r2.49** (FULLY_RESOLVED): Fach; Gabe + kurz + abkuehlen; Mass
+- **f67r2.50** (MIXED_LOCAL_AND_RESOLVED): lokale Etikette; Stelle
+- **f67r2.51** (LOCAL_ONLY): lokale Etikette
+- **f67r2.52** (FULLY_RESOLVED): danach + Arbeitsgang + kurz + von dort
+- **f67r2.53** (LOCAL_ONLY): lokale Etikette
+- **f67r2.54** (FULLY_RESOLVED): dies; Stelle + Stelle
+- **f67r2.55** (FULLY_RESOLVED): dies + eintragen + Arbeitsgang + Stelle
+- **f67r2.56** (FULLY_RESOLVED): fortsetzen; Mass
+- **f67r2.57** (FULLY_RESOLVED): danach von dort; dies
+- **f67r2.58** (MIXED_LOCAL_AND_RESOLVED): Gabe; Stelle; lokale Etikette
+- **f67r2.59** (FULLY_RESOLVED): dies + eintragen + Gabe + fuehren + dies
+- **f67r2.60** (LOCAL_ONLY): lokale Etikette
+- **f67r2.61** (FULLY_RESOLVED): dies + eintragen + ansetzen + von dort
+- **f67r2.62** (FULLY_RESOLVED): danach + fortsetzen + Ansatz
+- **f67r2.63** (FULLY_RESOLVED): ansetzen + Arbeitsgang + von dort
+- **f67r2.64** (MIXED_LOCAL_AND_RESOLVED): lokale Etikette; Lauf
+- **f67r2.65** (LOCAL_ONLY): lokale Etikette
+- **f67r2.66** (LOCAL_ONLY): lokale Etikette
+- **f67r2.67** (FULLY_RESOLVED): ansetzen + Arbeitsgang + von dort
+- **f67r2.68** (LOCAL_ONLY): lokale Etikette
+- **f67r2.69** (LOCAL_ONLY): lokale Etikette; lokale Etikette
+- **f67r2.70** (FULLY_RESOLVED): Arbeitsgang + von dort
+- **f67r2.71** (LOCAL_ONLY): lokale Etikette
+- **f67r2.72** (MIXED_LOCAL_AND_RESOLVED): von dort; Stelle + Mass; dies + Mass; zufuehren + Arbeitsgang + dies; dies + Mass; lokale Etikette; dies + hinein + Lauf; dies + zufuehren + Arbeitsgang + Mass; lokale Etikette; lokale Etikette; fortsetzen + dies; kurz ansetzen
+- **f67r2.73** (MIXED_LOCAL_AND_RESOLVED): lokale Etikette; dies; lokale Etikette; kurz + dies + zufuehren + laenger + dies; dies + zufuehren + dies; dies + zufuehren + dies; ansetzen + kurz + Arbeitsgang + dies; Arbeitsgang + Mass; ansetzen + fortsetzen; von dort; fortsetzen + von dort
+- **f67r2.74** (MIXED_LOCAL_AND_RESOLVED): dies + halten + kurz + dies; ansetzen + laenger + Arbeitsgang + dies; lokale Etikette; lokale Etikette; Arbeitsgang + Durchlass + dies; lokale Etikette; Mass; ansetzen + laenger + Arbeitsgang + dies; ansetzen + Arbeitsgang + Mass; Arbeitsgang + Portion; von dort; Lauf; lokale Etikette
+
+## A2
+
+- **f68r1.1** (MIXED_LOCAL_AND_RESOLVED): Gabe + zufuehren + dies; abziehen + eintragen + laenger + dies; Gabe + eintragen + laenger + dies; lokale Etikette; Auszug + abkuehlen; Arbeitsgang + hinein + abziehen + laenger + fortsetzen; danach + Ansatz; Gabe + bereit + vollstaendig + dies; ansetzen + Gabe + Stelle
+- **f68r1.2** (MIXED_LOCAL_AND_RESOLVED): lokale Etikette; danach + abziehen + fuehren; vollständig ansetzen; Schluss; Ergebnis; abziehen + laenger + eintragen + laenger + dies; dies + eintragen + kurz + Arbeitsgang + dies; abziehen + hinein + Ansatz; Auszug + zufuehren + Ansatz + dies; lokale Etikette
+- **f68r1.3** (MIXED_LOCAL_AND_RESOLVED): dies + zufuehren + Ansatz; Ergebnis; Arbeitsgang + abziehen + laenger + dies; Gabe + zufuehren + Stelle; länger ansetzen; abkuehlen + Ansatz; kurz + seihen + von dort; lokale Etikette
+- **f68r1.4** (LOCAL_ONLY): lokale Etikette; lokale Etikette
+- **f68r1.5** (FULLY_RESOLVED): dies + zufuehren + dies
+- **f68r1.6** (FULLY_RESOLVED): von dort + dies
+- **f68r1.7** (FULLY_RESOLVED): waermen + dies + zufuehren + fortsetzen + dies
+- **f68r1.8** (FULLY_RESOLVED): ansetzen + Arbeitsgang + Stelle + dies
+- **f68r1.9** (LOCAL_ONLY): lokale Etikette
+- **f68r1.10** (FULLY_RESOLVED): danach + Auszug + Schluss
+- **f68r1.11** (FULLY_RESOLVED): ansetzen + Arbeitsgang + Stelle + dies
+- **f68r1.12** (LOCAL_ONLY): lokale Etikette
+- **f68r1.13** (FULLY_RESOLVED): Arbeitsgang + bereit + kurz + dies
+- **f68r1.14** (FULLY_RESOLVED): danach + halten + kurz + dies
+- **f68r1.15** (FULLY_RESOLVED): danach + dies + Schluss
+- **f68r1.16** (FULLY_RESOLVED): ansetzen + kurz + von dort
+- **f68r1.17** (LOCAL_ONLY): lokale Etikette
+- **f68r1.18** (FULLY_RESOLVED): dies + eintragen + Gabe + Schluss
+- **f68r1.19** (LOCAL_ONLY): lokale Etikette
+- **f68r1.20** (FULLY_RESOLVED): weiterer Ansatz
+- **f68r1.21** (FULLY_RESOLVED): Arbeitsgang + Durchlass + dies
+- **f68r1.22** (LOCAL_ONLY): lokale Etikette
+- **f68r1.23** (FULLY_RESOLVED): danach umsetzen; Schluss
+- **f68r1.24** (LOCAL_ONLY): lokale Etikette
+- **f68r1.25** (FULLY_RESOLVED): danach fortsetzen
+- **f68r1.26** (FULLY_RESOLVED): danach + Ansatz
+- **f68r1.27** (FULLY_RESOLVED): Arbeitsgang + Sollstufe + von dort
+- **f68r1.28** (FULLY_RESOLVED): ansetzen + fortsetzen + Schluss
+- **f68r1.29** (FULLY_RESOLVED): dies + zufuehren + umsetzen + dies
+- **f68r1.30** (FULLY_RESOLVED): Arbeitsgang + laenger + Arbeitsgang + Schluss
+- **f68r1.31** (LOCAL_ONLY): lokale Etikette
+- **f68r1.32** (FULLY_RESOLVED): ansetzen + laenger + Arbeitsgang + Stelle
+- **f68r1.33** (FULLY_RESOLVED): ansetzen + Ansatz
+- **f68r1.34** (LOCAL_ONLY): lokale Etikette
+- **f68r1.35** (FULLY_RESOLVED): danach + Arbeitsgang + umsetzen + dies
+- **f68r1.36** (LOCAL_ONLY): lokale Etikette
+- **f68r1.37** (MIXED_LOCAL_AND_RESOLVED): verwende dies; ansetzen + umsetzen + dies; ansetzen + von dort + dies; kurz + von dort; lokale Etikette
+
+## A3
+
+- **f69v.1** (MIXED_LOCAL_AND_RESOLVED): lokale Etikette; dies + zufuehren + dies; lokale Etikette; von dort; von dort; dies + zufuehren + von dort; lokale Etikette; von dort; abziehen + kurz + eintragen + Arbeitsgang + dies; lokale Etikette; Arbeitsgang; eintragen + kurz + dies; danach + ansetzen + vollstaendig + dies; ansetzen + laenger + Arbeitsgang + dies; länger ansetzen; lokale Etikette; eintragen + laenger + Arbeitsgang; dies; dies; danach; dies; ansetzen + kurz + dies; lokale Etikette; lokale Etikette; dies; dies; Gabe + Mass; ansetzen + von dort; ansetzen + von dort; fortsetzen; lokale Etikette; dies + eintragen + Arbeitsgang; lokale Etikette; danach + dies; danach + laenger + Arbeitsgang; von dort; Arbeitsgang; kurz + dies + zufuehren + kurz + Arbeitsgang + dies; lokale Etikette; von dort
+- **f69v.2** (MIXED_LOCAL_AND_RESOLVED): lokale Etikette; fortsetzen; dies + zufuehren + von dort; Stelle; lokale Etikette; lokale Etikette; Ergebnis; fortsetzen + dies; dies + zufuehren + laenger + Stelle; Auszug; lokale Etikette; Arbeitsgang + Durchlass + dies; dies länger halten; Mass; dies; lokale Etikette; Auszug + dies; Stelle; dies + kurz + eintragen + kurz + dies; abziehen + kurz + von dort; dies; dies; dies + zufuehren + kurz + dies; abziehen; dies; dies; fortsetzen; dies + zufuehren + von dort; fortsetzen; dies; dies + zufuehren + laenger + Arbeitsgang + dies; dies; Stelle; Arbeitsgang abschließen; Lauf + dies; verwende dies; dies + dies; dies
+- **f69v.3** (MIXED_LOCAL_AND_RESOLVED): lokale Etikette; danach + Stelle + Stelle; lokale Etikette; dies umsetzen; danach + Arbeitsgang + von dort; von dort; dies; danach + kurz + Ansatz; Gabe; danach + Lauf; lokale Etikette; danach + laenger + Stelle; Auszug + abkuehlen; von dort; Lauf; danach + kurz + Arbeitsgang + dies; lokale Etikette; lokale Etikette; lokale Etikette; danach + fortsetzen + dies; ansetzen + kurz + Arbeitsgang + Stelle; danach + kurz + Arbeitsgang + von dort + von dort; lokale Etikette; lokale Etikette; dies; ansetzen + Arbeitsgang + dies; Stelle; nächsten Posten länger halten; nächsten Posten länger halten
+- **f69v.4** (FULLY_RESOLVED): länger ansetzen; von dort
+- **f69v.5** (FULLY_RESOLVED): ansetzen + kurz + Arbeitsgang; dies
+- **f69v.6** (FULLY_RESOLVED): Arbeitsgang + Gabe + dies + zufuehren
+- **f69v.7** (FULLY_RESOLVED): dies + zufuehren + laenger + dies
+- **f69v.8** (FULLY_RESOLVED): dies + eintragen + Ansatz + dies
+- **f69v.9** (FULLY_RESOLVED): Arbeitsgang + laenger + dies
+- **f69v.10** (FULLY_RESOLVED): dies + eintragen + Arbeitsgang + Schluss
+- **f69v.11** (FULLY_RESOLVED): ansetzen + Arbeitsgang + Schluss
+- **f69v.12** (FULLY_RESOLVED): danach + Arbeitsgang + Schluss
+- **f69v.13** (FULLY_RESOLVED): ansetzen + kurz + Stelle
+- **f69v.14** (LOCAL_ONLY): lokale Etikette
+- **f69v.15** (LOCAL_ONLY): lokale Etikette
+- **f69v.16** (FULLY_RESOLVED): danach + kurz + fortsetzen
+- **f69v.17** (FULLY_RESOLVED): dies + zufuehren + kurz + dies + Schluss
+- **f69v.18** (LOCAL_ONLY): lokale Etikette
+- **f69v.19** (FULLY_RESOLVED): von dort + Stelle
+- **f69v.20** (LOCAL_ONLY): lokale Etikette
+- **f69v.21** (FULLY_RESOLVED): ansetzen + fortsetzen + von dort
+- **f69v.22** (FULLY_RESOLVED): dies + zufuehren + kurz + Arbeitsgang + Schluss
+- **f69v.23** (FULLY_RESOLVED): von dort + dies + Schluss
+- **f69v.24** (FULLY_RESOLVED): danach + dies
+- **f69v.25** (FULLY_RESOLVED): länger ansetzen; dies
+- **f69v.26** (MIXED_LOCAL_AND_RESOLVED): kurz ansetzen; lokale Etikette
+- **f69v.27** (LOCAL_ONLY): lokale Etikette
+- **f69v.28** (LOCAL_ONLY): lokale Etikette
+- **f69v.29** (FULLY_RESOLVED): ansetzen + kurz + Arbeitsgang + Schluss
+- **f69v.30** (LOCAL_ONLY): lokale Etikette
+- **f69v.31** (MIXED_LOCAL_AND_RESOLVED): Arbeitsgang + von dort; lokale Etikette

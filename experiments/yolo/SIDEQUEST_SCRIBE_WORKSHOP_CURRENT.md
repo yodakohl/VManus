@@ -8700,11 +8700,19 @@ Astro groups change, while the complete 173-card/381-prose/395-Astro and
 776-group edition remains intact. See
 `sidequest_semantic_ten_page_common_roots_four_hundred_sixty_third/FOUR_HUNDRED_SIXTY_THIRD_REPORT.md`.
 
-Next, resolve the forty-one ambiguous Astro component sequences by visible
-within-locus position and the established component inventory. In particular,
-test Y versus DY as current item versus licensed endpoint, prefer a known
-multi-atom workshop component only where it yields one consistent composition,
-and leave genuinely local labels local rather than forcing a reading.
+Pass 464 resolves all forty-one ambiguous Astro component sequences. Internal
+groups keep Y as the current item; final and singleton groups take the licensed
+DY endpoint. Known CHD, OT and HO macros have precedence over arbitrary smaller
+splits. Thus 282 of 395 groups now carry an exact, component, or positional
+reading; 113 remain honest local labels. Seventy loci are fully read, forty-one
+mixed and thirty-one local-only. See
+`sidequest_semantic_astro_ambiguity_resolution_four_hundred_sixty_fourth/FOUR_HUNDRED_SIXTY_FOURTH_REPORT.md`.
+
+Next, attack the 113 Astro-local labels by recurrence rather than inventing 113
+words. Group identical and near-identical local surfaces inside each of the
+three independent diagram namespaces, assign short address values where a
+repeated slot function exists, and retain genuinely unique labels as learned
+whole names. Do not create an f68-to-f69 key or an orientation.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
