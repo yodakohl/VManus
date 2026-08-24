@@ -9358,9 +9358,17 @@ events and instruction IDs remain present; eight record endings stay open and
 three remain closed. No component value changes. See
 `sidequest_semantic_anaphoric_record_articles_five_hundred_forty_sixth/FIVE_HUNDRED_FORTY_SIXTH_REPORT.md`.
 
-Next, mine recurrent multi-card sequences across records and pages, and test
-whether they can be taught as short workshop formulas without changing their
-component values.
+Pass 547 finds fourteen recurrent exact bigrams and one recurrent exact trigram
+across records. Five sequences earn places in the teaching deck; greedy formula
+substitution shortens 380 executed source positions to 366 tokens, and retains
+a three-token gain after eleven definition tokens. `Y-AIIN-Y` is now the compact
+formula “continue the same item under the set measure,” not an equal-amount
+claim. Ten other pairings remain useful idioms but do not yet compress. See
+`sidequest_semantic_recurrent_workshop_formulas_five_hundred_forty_seventh/FIVE_HUNDRED_FORTY_SEVENTH_REPORT.md`.
+
+Next, rewrite the eleven articles with the five learned formulas and ten
+observed idioms, then inspect which formerly mechanical clauses become genuine
+workshop phrases and which remain awkward.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
