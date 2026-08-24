@@ -7922,9 +7922,16 @@ allograph or an unassisted lookup. The hard pairs are `tshol/dchol` and the two
 directions of `cfhy/cphy`. See
 `sidequest_semantic_hidden_card_drill_three_hundred_fifty_second/THREE_HUNDRED_FIFTY_SECOND_CONCEALED_DRILL_DIALOGUE.md`.
 
-Next, lay out the complete 173-card teaching deck as a usable workshop board:
-six operation-slot columns, five material-state rows, fourteen competing pairs
-side by side and the twelve master cards pinned to their picture owners.
+Pass 353 lays all 173 cards onto a single workshop board: five running material
+states by six operation slots, with 26 of 30 cells occupied. All 381 events are
+accounted for; fourteen equal-value pairs sit side by side and twelve whole
+cards are pinned to their picture/station owners. State rows describe the
+working thread, not an extra lexical meaning. See
+`sidequest_semantic_workshop_board_three_hundred_fifty_third/THREE_HUNDRED_FIFTY_THIRD_WORKSHOP_BOARD.md`.
+
+Next, use only this board to compose one fresh but in-scope Herbal-to-Bio work
+order from already attested cards: make an extract, measure it and apply it at a
+Bio station. Mark every point where the running page exemplar is still needed.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
