@@ -1,0 +1,11 @@
+rule_id	semantic_component_parse	invariant_command_de	default_card_no	alternate_card_no	alternate_condition	apprentice_rule_de
+SR01	CHD+DY	UMSETZEN; SCHLUSS	PROC076	PROC094	B1-S017 after KURZ·FORTSETZEN	use compressed dchdy card after a short continuation in B1
+SR02	CHD+Y	UMSETZEN · DIES	PROC042	PROC133	B3-S006 immediately after a closed CHD card	use the CHY-framed card when B3 resumes after the closed transfer
+SR03	CHK+EE+Y	WAERMEN · LANG · DIES	PROC046	PROC107	record B2	B2 uses its reordered warming card; preparation and B4 use cheeky
+SR04	OK+CHD+DY	ANSETZEN · UMSETZEN; SCHLUSS	PROC082	PROC091	previous card is T+E+Y or L+O	use the expanded CHED card after an entry or guided path
+SR05	OK+OL	ANSETZEN · FORTSETZEN	PROC037	PROC160	record B4	B4 uses its qokol station spelling
+SR06	OK+Y	ANSETZEN · DIES	PROC008	PROC011	stored Herbal substeps H1-S002, H5-S004, H5-S005	use the CHY-framed Herbal substep card only in the three copied slots
+SR07	OL	FORTSETZEN	PROC013	PROC115	B2-S010 between ANSETZEN·DIES and HALTEN·LANG·DIES	use the short LS margin/workbench abbreviation in this B2 chain
+SR08	OT+CHD+DY	DANACH · UMSETZEN; SCHLUSS	PROC145	PROC166	record B5	B5 uses its compressed closed transfer card
+SR09	OT+Y	DANACH · DIES	PROC065	PROC036	record H3	H3 uses the q-framed next-item card
+SR10	SH+EE+Y	HALTEN · LANG · DIES	PROC031	PROC157	B4 immediately after WAERMEN·LANG·DIES	use sheey for the long hold immediately following long warming

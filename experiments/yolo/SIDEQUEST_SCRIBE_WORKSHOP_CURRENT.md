@@ -10019,10 +10019,20 @@ profile is a useful early cue rather than a remainder rule. A full 372-event
 trace finds no foreign single-case marker and no mid-record branch switch. See
 `sidequest_semantic_early_case_selector_six_hundred_twenty_sixth/SIX_HUNDRED_TWENTY_SIXTH_REPORT.md`.
 
-Next, run the grammar forward: write short ordinary workshop instructions for
-C1-C5, compile them back to invariant commands, then let the Pass-614 scribe
-palette choose among synonymous exact cards and surfaces. Record every place
-where the source instruction does not uniquely determine the visible card.
+Pass 627 runs the grammar forward from ordinary workshop instruction through
+component sequence and invariant command to exact card and visible surface for
+all 115 main-case statements/372 events. The command uniquely selects the card
+in 303 events; ten context rules select it in 69. Card identity alone fixes 174
+surfaces and desk habit another 19, while 179 still require a local exemplar.
+Thus meaning usually fixes card identity, but the visible graphy remains split
+almost evenly between rule and memorized palette. Every event and statement
+round-trips to its source surface. See
+`sidequest_semantic_forward_workshop_compiler_six_hundred_twenty_seventh/SIX_HUNDRED_TWENTY_SEVENTH_REPORT.md`.
+
+Next, decompose the 179 local-exemplar surface choices into line-entry,
+post-close entry, desk preference, immediate-neighbour formula, and irreducible
+memorized choice. Build the shortest practical surface manual that still
+replays all five main cases.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
