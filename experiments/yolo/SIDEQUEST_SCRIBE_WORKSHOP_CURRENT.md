@@ -9078,9 +9078,16 @@ The signs remain learnable forms but add no new semantic value. Quantity,
 source/target, movement and state contrasts remain distinct. See
 `sidequest_semantic_core_deduplication_five_hundred_tenth/FIVE_HUNDRED_TENTH_REPORT.md`.
 
-Next, generate concrete readings for underused compositional cards from the 37
-core meanings before consulting their surrounding statement, then rewrite the
-affected statements with the winning short readings.
+Pass 511 composes twelve rare long cards from the 37-value core and rewrites
+eleven complete statements across nine records. Forms such as otytchol,
+ycheor, tchody, cheeckhody, sheckhal, shecthedchy and lkedy become short clause
+fragments rather than sentence-sized words. No new semantic value or whole word
+is required. See
+`sidequest_semantic_productive_prediction_five_hundred_eleventh/FIVE_HUNDRED_ELEVENTH_REPORT.md`.
+
+Next, classify all 173 exact prose cards as fully compositional,
+composition-plus-learned residue, or memorized whole signs and publish the
+first compact complete morphological pocket lexicon.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
