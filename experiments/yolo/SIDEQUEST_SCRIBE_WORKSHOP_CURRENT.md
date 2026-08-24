@@ -8939,9 +8939,17 @@ not another extraction. Within this single field `dy`, `chy` and `shy` are
 three surface forms of the same Y card and retain exactly one referent. See
 `sidequest_semantic_h2_standardize_dispatch_four_hundred_ninety_second/FOUR_HUNDRED_NINETY_SECOND_REPORT.md`.
 
-Next, reconstruct the nine-card H5-S001 whole form and determine whether the
-second late-Herbal image owner reuses extraction, standardization/dispatch, or
-requires a new preparation macro.
+Pass 493 reads H5-S001 as PFLANZENZUSATZ DOSIEREN NACHBESCHICKEN UND
+EINSETZEN. A first plant addition is brought to the learned work site and set
+to measure; the same HO ingredient card then recurs as `cho/sho` for a second
+charge before the following batch is activated and deployed. This is distinct
+from H1 double extraction and H2 standardization/dispatch. The whole plant is
+the owner, but no particular leaf, flower or medical use is encoded. See
+`sidequest_semantic_h5_recharge_deploy_four_hundred_ninety_third/FOUR_HUNDRED_NINETY_THIRD_REPORT.md`.
+
+Next, reconstruct seven-card H3-S001 and test whether the existing
+wring-settle-restrain-clear-extract chain eliminates the need for a learned
+whole form.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
