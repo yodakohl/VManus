@@ -1,0 +1,760 @@
+# Fuenfhundertneunundneunzigste Runde: konkrete Objektketten
+
+## H1:OWNER_01 · abgebildete breit gezähnte radialblütige Pflanze
+
+- **H1-S001 · RECORD_INITIALIZE**
+  - Objekt: `H1:OWNER_01:MASTER_OR_IMAGE_SUPPLIED` -> `H1:OWNER_01:STATE_01`
+  - Gegenstaende: aktuell gemeinter Arbeitsposten | aktueller Ansatz | lokaler Quellvorrat | ausgewaehltes Arbeitsfach | laufende Arbeitsfluessigkeit | vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: abziehen -> eintragen -> abziehen -> eintragen + abziehen -> ansetzen -> eintragen
+  - Ergebnis: abgenommener oder abgezogener Anteil -> im Arbeitsfach eingetragener Posten -> abgenommener oder abgezogener Anteil -> im Arbeitsfach eingetragener Posten -> abgenommener oder abgezogener Anteil -> angesetzter Arbeitsposten -> im Arbeitsfach eingetragener Posten
+  - Lesung: Nimm von der abgebildeten Pflanze einen Teil kurz ab. Der Ansatz ist bereit: übertrage davon in das Arbeitsfach, lass es ablaufen, trage es ein, nimm es wieder ab, gib es in den Ansatz und trage es nach Maß ein.
+- **H1-S002 · EXPLICIT_LOCAL_CONTINUATION**
+  - Objekt: `H1:OWNER_01:STATE_01` -> `H1:OWNER_01:STATE_02`
+  - Gegenstaende: aktuell gemeinter Arbeitsposten | vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: ansetzen -> abziehen
+  - Ergebnis: angesetzter Arbeitsposten -> abgenommener oder abgezogener Anteil
+  - Lesung: Gib den nächsten Posten in denselben Ansatz, nimm ihn wieder ab und fahre fort, sobald er bereit ist.
+
+## H2:OWNER_01 · abgebildete breit gezähnte radialblütige Pflanze
+
+- **H2-S001 · RECORD_INITIALIZE**
+  - Objekt: `H2:OWNER_01:MASTER_OR_IMAGE_SUPPLIED` -> `H2:OWNER_01:STATE_01`
+  - Gegenstaende: aktueller Ansatz | aktuell gemeinter Arbeitsposten | vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: abziehen
+  - Ergebnis: abgenommener oder abgezogener Anteil
+  - Lesung: Zieh den bereitgelegten Posten ab; ordne ihn dem Ansatz und dem Maß zu und führe den Gang mit diesem Posten weiter, bis er bereit ist.
+- **H2-S002 · EXPLICIT_LOCAL_CONTINUATION**
+  - Objekt: `H2:OWNER_01:STATE_01` -> `H2:OWNER_01:STATE_02`
+  - Gegenstaende: aktueller Ansatz | vom Bildbesitzer gesetzter lokaler Arbeitsstoff | lokaler Quellvorrat
+  - Gang: abziehen
+  - Ergebnis: abgenommener oder abgezogener Anteil
+  - Lesung: Zieh danach vom fortgeführten Ansatz nach Maß davon ab und führe denselben Ansatz weiter.
+- **H2-S003 · CURRENT_ITEM_CONTINUATION**
+  - Objekt: `H2:OWNER_01:STATE_02` -> `H2:OWNER_01:STATE_03`
+  - Gegenstaende: aktueller Ansatz | aktuell gemeinter Arbeitsposten | vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: zufuehren -> zufuehren -> abziehen
+  - Ergebnis: zugefuehrte Portion -> zugefuehrte Portion -> abgenommener oder abgezogener Anteil
+  - Lesung: Gib es dem Ansatz zweimal zu und zieh danach den nächsten Posten ab.
+
+## H3:OWNER_01 · abgebildete dicht blau blühende Kronenpflanze
+
+- **H3-S001 · RECORD_INITIALIZE**
+  - Objekt: `H3:OWNER_01:MASTER_OR_IMAGE_SUPPLIED` -> `H3:OWNER_01:STATE_01`
+  - Gegenstaende: vom Bildbesitzer gesetzter lokaler Arbeitsstoff | bezeichnete Zielstelle | aktuell gemeinter Arbeitsposten
+  - Gang: eintragen + halten -> halten -> auswringen -> halten -> hineingeben -> halten -> eintragen + abziehen
+  - Ergebnis: im Arbeitsfach eingetragener Posten -> gehaltener oder einwirkender Arbeitsposten -> gehaltener oder einwirkender Arbeitsposten -> ausgedrueckter Stoff oder Pressfluessigkeit -> gehaltener oder einwirkender Arbeitsposten -> in den Empfaenger eingebrachter Stoff -> gehaltener oder einwirkender Arbeitsposten -> im Arbeitsfach eingetragener Posten -> abgenommener oder abgezogener Anteil
+  - Lesung: Trage den Blütenstoff ein und halte ihn am Ort; wringe ihn aus, lass ihn ziehen, gib ihn hinein, lass ihn nochmals ziehen und trage den Abzug zum Schluss ein.
+- **H3-S002 · CURRENT_ITEM_CONTINUATION**
+  - Objekt: `H3:OWNER_01:STATE_01` -> `H3:OWNER_01:STATE_02`
+  - Gegenstaende: aktuell gemeinter Arbeitsposten
+  - Gang: halten + eintragen
+  - Ergebnis: gehaltener oder einwirkender Arbeitsposten -> im Arbeitsfach eingetragener Posten
+  - Lesung: Halte den nächsten Posten und trage ihn in denselben Gang ein.
+- **H3-S003 · EXPLICIT_LOCAL_CONTINUATION**
+  - Objekt: `H3:OWNER_01:STATE_02` -> `H3:OWNER_01:STATE_03`
+  - Gegenstaende: vom Bildbesitzer gesetzter lokaler Arbeitsstoff | aktuell gemeinter Arbeitsposten
+  - Gang: zufuehren
+  - Ergebnis: zugefuehrte Portion
+  - Lesung: Gib davon nach Maß weiter zu.
+- **H3-S004 · EXPLICIT_LOCAL_CONTINUATION**
+  - Objekt: `H3:OWNER_01:STATE_03` -> `H3:OWNER_01:STATE_04`
+  - Gegenstaende: aktuell gemeinter Arbeitsposten | vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: ansetzen
+  - Ergebnis: angesetzter Arbeitsposten
+  - Lesung: Setze danach diesen Posten weiter ein und führe ihn fort, bis er bereit ist.
+
+## H4:OWNER_01 · abgebildete breitblättrige rispige Pflanze
+
+- **H4-S001 · RECORD_INITIALIZE**
+  - Objekt: `H4:OWNER_01:MASTER_OR_IMAGE_SUPPLIED` -> `H4:OWNER_01:STATE_01`
+  - Gegenstaende: vom Bildbesitzer gesetzter lokaler Arbeitsstoff | abgeteilte Portion
+  - Gang: ansetzen -> zufuehren -> zufuehren
+  - Ergebnis: angesetzter Arbeitsposten -> zugefuehrte Portion -> zugefuehrte Portion
+  - Lesung: Setze nach Maß an, gib dosiert und nochmals zu und schließe diesen Gang.
+- **H4-S002 · CURRENT_ITEM_CONTINUATION**
+  - Objekt: `H4:OWNER_01:STATE_01` -> `H4:OWNER_01:STATE_02`
+  - Gegenstaende: vom Bildbesitzer gesetzter lokaler Arbeitsstoff | aktuell gemeinter Arbeitsposten
+  - Gang: umsetzen -> verwahren
+  - Ergebnis: umgesetzter Arbeitsposten -> verwahrter Arbeitsposten
+  - Lesung: Miss den nächsten Posten ab, setze ihn um und verwahre ihn nach Maß.
+- **H4-S003 · EXPLICIT_LOCAL_CONTINUATION**
+  - Objekt: `H4:OWNER_01:STATE_02` -> `H4:OWNER_01:STATE_03`
+  - Gegenstaende: aktuell gemeinter Arbeitsposten | lokaler Quellvorrat | vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: zufuehren -> abziehen -> waermen
+  - Ergebnis: zugefuehrte Portion -> abgenommener oder abgezogener Anteil -> erwaermter Arbeitsposten
+  - Lesung: Gib dosiert zu, entnimm den Fortsatz, temperiere ihn und schließe.
+- **H4-S004 · EXPLICIT_LOCAL_CONTINUATION**
+  - Objekt: `H4:OWNER_01:STATE_03` -> `H4:OWNER_01:STATE_04`
+  - Gegenstaende: vom Bildbesitzer gesetzter lokaler Arbeitsstoff | bezeichnete Zielstelle | aktuell gemeinter Arbeitsposten | aktueller Ansatz
+  - Gang: ansetzen -> eintragen
+  - Ergebnis: angesetzter Arbeitsposten -> im Arbeitsfach eingetragener Posten
+  - Lesung: Lege die gemessene Ansatzportion am Ziel an und trage sie ein.
+
+## H5:OWNER_01 · abgebildete mehrköpfige stachelige Pflanze
+
+- **H5-S001 · RECORD_INITIALIZE**
+  - Objekt: `H5:OWNER_01:MASTER_OR_IMAGE_SUPPLIED` -> `H5:OWNER_01:STATE_01`
+  - Gegenstaende: aktueller Ansatz | einzusetzende Materialgabe | vom Bildbesitzer gesetzter lokaler Arbeitsstoff | aktuell gemeinter Arbeitsposten | bezeichnete Zielstelle
+  - Gang: abziehen -> zufuehren -> abziehen -> ansetzen
+  - Ergebnis: abgenommener oder abgezogener Anteil -> zugefuehrte Portion -> abgenommener oder abgezogener Anteil -> angesetzter Arbeitsposten
+  - Lesung: Zieh eine Gabe ab, führe sie zum Ziel, zieh nach Maß eine weitere Gabe ab und gib sie in den Ansatz.
+- **H5-S002 · EXPLICIT_LOCAL_CONTINUATION**
+  - Objekt: `H5:OWNER_01:STATE_01` -> `H5:OWNER_01:STATE_02`
+  - Gegenstaende: vom Bildbesitzer gesetzter lokaler Arbeitsstoff | einzusetzende Materialgabe | aktuell gemeinter Arbeitsposten | Durchlass oder Gang
+  - Gang: ansetzen -> abziehen
+  - Ergebnis: angesetzter Arbeitsposten -> abgenommener oder abgezogener Anteil
+  - Lesung: Lege die folgende Gabe an, lass sie ablaufen und fahre fort.
+- **H5-S003 · CURRENT_ITEM_CONTINUATION**
+  - Objekt: `H5:OWNER_01:STATE_02` -> `H5:OWNER_01:STATE_03`
+  - Gegenstaende: vom Bildbesitzer gesetzter lokaler Arbeitsstoff | einzusetzende Materialgabe | aktuell gemeinter Arbeitsposten
+  - Gang: halten -> zufuehren -> ansetzen + ansetzen
+  - Ergebnis: gehaltener oder einwirkender Arbeitsposten -> zugefuehrte Portion -> angesetzter Arbeitsposten -> angesetzter Arbeitsposten
+  - Lesung: Lass die Gabe ziehen, gib sie zu und setze sie zweimal ein.
+- **H5-S004 · CURRENT_ITEM_CONTINUATION**
+  - Objekt: `H5:OWNER_01:STATE_03` -> `H5:OWNER_01:STATE_04`
+  - Gegenstaende: aktuell gemeinter Arbeitsposten | vom Bildbesitzer gesetzter lokaler Arbeitsstoff | bezeichnete Zielstelle
+  - Gang: ansetzen -> ansetzen + abziehen -> zufuehren
+  - Ergebnis: angesetzter Arbeitsposten -> angesetzter Arbeitsposten -> abgenommener oder abgezogener Anteil -> zugefuehrte Portion
+  - Lesung: Gib den nächsten Posten in den Ansatz, setze ihn an, zieh ihn ab und führe ihn weiter.
+- **H5-S005 · EXPLICIT_LOCAL_CONTINUATION**
+  - Objekt: `H5:OWNER_01:STATE_04` -> `H5:OWNER_01:STATE_05`
+  - Gegenstaende: einzusetzende Materialgabe | aktuell gemeinter Arbeitsposten | abgeteilte Portion
+  - Gang: ansetzen -> zufuehren
+  - Ergebnis: angesetzter Arbeitsposten -> zugefuehrte Portion
+  - Lesung: Setze die Gabe an, gib sie zu und ordne danach die nächste Portion in den Gang.
+- **H5-S006 · EXPLICIT_LOCAL_CONTINUATION**
+  - Objekt: `H5:OWNER_01:STATE_05` -> `H5:OWNER_01:STATE_06`
+  - Gegenstaende: aktuell gemeinter Arbeitsposten | vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: zufuehren
+  - Ergebnis: zugefuehrte Portion
+  - Lesung: Gib danach diesen Posten nach Maß zu.
+
+## B1:OWNER_01 · gemeinsame zweireihige Figuren-/Beckenstation
+
+- **B1-S001 · RECORD_INITIALIZE**
+  - Objekt: `B1:OWNER_01:MASTER_OR_IMAGE_SUPPLIED` -> `B1:OWNER_01:STATE_01`
+  - Gegenstaende: vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: ansetzen
+  - Ergebnis: angesetzter Arbeitsposten
+  - Lesung: Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: einwirken lassen.
+- **B1-S002 · EXPLICIT_LOCAL_CONTINUATION**
+  - Objekt: `B1:OWNER_01:STATE_01` -> `B1:OWNER_01:STATE_02`
+  - Gegenstaende: vom Bildbesitzer gesetzter lokaler Arbeitsstoff | laufende Arbeitsfluessigkeit | bezeichnete Zielstelle | lokaler Quellvorrat | abgeteilte Portion | aktueller Ansatz | aktuell gemeinter Arbeitsposten
+  - Gang: ansetzen -> zufuehren -> ansetzen -> zufuehren -> zufuehren -> abkuehlen -> fuehren -> halten -> ansetzen -> umsetzen
+  - Ergebnis: angesetzter Arbeitsposten -> zugefuehrte Portion -> angesetzter Arbeitsposten -> zugefuehrte Portion -> zugefuehrte Portion -> abgekuehlter Arbeitsposten -> weitergefuehrter Arbeitsposten -> gehaltener oder einwirkender Arbeitsposten -> angesetzter Arbeitsposten -> umgesetzter Arbeitsposten
+  - Lesung: Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: setze nach Maß an → einspeisen → anlegen → dosiert zugeben → dosiert zugeben → abkühlen lassen → führen → zurückhalten → anlegen → durchleiten. Angaben: davon | fort | Ziel | fort | fort · Ansatz | fort | Maß | Maß | Durchlass · dies.
+- **B1-S003 · EXPLICIT_LOCAL_CONTINUATION**
+  - Objekt: `B1:OWNER_01:STATE_02` -> `B1:OWNER_01:STATE_03`
+  - Gegenstaende: vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: halten + zufuehren + umsetzen
+  - Ergebnis: gehaltener oder einwirkender Arbeitsposten -> zugefuehrte Portion -> umgesetzter Arbeitsposten
+  - Lesung: Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: halten + zugeben + überführen. Angaben: fort.
+- **B1-S004 · EXPLICIT_LOCAL_CONTINUATION**
+  - Objekt: `B1:OWNER_01:STATE_03` -> `B1:OWNER_01:STATE_04`
+  - Gegenstaende: aktuell gemeinter Arbeitsposten | vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: umsetzen -> absetzen
+  - Ergebnis: umgesetzter Arbeitsposten -> abgesetzter Stoff mit Ueberstand und Rueckstand
+  - Lesung: Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: umschöpfen → absetzen lassen. Angaben: fort.
+- **B1-S005 · EXPLICIT_LOCAL_CONTINUATION**
+  - Objekt: `B1:OWNER_01:STATE_04` -> `B1:OWNER_01:STATE_05`
+  - Gegenstaende: vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: umsetzen
+  - Ergebnis: umgesetzter Arbeitsposten
+  - Lesung: Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: führe zur nächsten Station.
+- **B1-S006 · CURRENT_ITEM_CONTINUATION**
+  - Objekt: `B1:OWNER_01:STATE_05` -> `B1:OWNER_01:STATE_06`
+  - Gegenstaende: abgeteilte Portion | aktuell gemeinter Arbeitsposten | vom Bildbesitzer gesetzter lokaler Arbeitsstoff | bezeichnete Zielstelle
+  - Gang: ansetzen -> fuehren -> abkuehlen
+  - Ergebnis: angesetzter Arbeitsposten -> weitergefuehrter Arbeitsposten -> abgekuehlter Arbeitsposten
+  - Lesung: Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: gib einen Teil hinein → durchleiten → abkühlen lassen. Angaben: Durchlass · dies.
+- **B1-S007 · SAME_OWNER_UNSPECIFIED_STEP**
+  - Objekt: `B1:OWNER_01:NEW_OR_B1:OWNER_01:STATE_06` -> `B1:OWNER_01:STATE_07`
+  - Gegenstaende: vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: ansetzen + umsetzen
+  - Ergebnis: angesetzter Arbeitsposten -> umgesetzter Arbeitsposten
+  - Lesung: Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: einsetzen + überführen.
+- **B1-S008 · EXPLICIT_LOCAL_CONTINUATION**
+  - Objekt: `B1:OWNER_01:STATE_07` -> `B1:OWNER_01:STATE_08`
+  - Gegenstaende: aktuell gemeinter Arbeitsposten | vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: waermen -> absetzen
+  - Ergebnis: erwaermter Arbeitsposten -> abgesetzter Stoff mit Ueberstand und Rueckstand
+  - Lesung: Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: warm halten → absetzen lassen. Angaben: dies | fort | fort.
+- **B1-S009 · SAME_OWNER_UNSPECIFIED_STEP**
+  - Objekt: `B1:OWNER_01:NEW_OR_B1:OWNER_01:STATE_08` -> `B1:OWNER_01:STATE_09`
+  - Gegenstaende: vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: ansetzen
+  - Ergebnis: angesetzter Arbeitsposten
+  - Lesung: Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: einwirken lassen.
+- **B1-S010 · SAME_OWNER_UNSPECIFIED_STEP**
+  - Objekt: `B1:OWNER_01:NEW_OR_B1:OWNER_01:STATE_09` -> `B1:OWNER_01:STATE_10`
+  - Gegenstaende: vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: ansetzen
+  - Ergebnis: angesetzter Arbeitsposten
+  - Lesung: Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: einwirken lassen.
+- **B1-S011 · CURRENT_ITEM_CONTINUATION**
+  - Objekt: `B1:OWNER_01:STATE_10` -> `B1:OWNER_01:STATE_11`
+  - Gegenstaende: aktuell gemeinter Arbeitsposten
+  - Gang: ansetzen
+  - Ergebnis: angesetzter Arbeitsposten
+  - Lesung: Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: einleiten. Angaben: Durchlass · dies.
+- **B1-S012 · CURRENT_ITEM_CONTINUATION**
+  - Objekt: `B1:OWNER_01:STATE_11` -> `B1:OWNER_01:STATE_12`
+  - Gegenstaende: vom Bildbesitzer gesetzter lokaler Arbeitsstoff | aktuell gemeinter Arbeitsposten
+  - Gang: waschen -> ansetzen -> waschen
+  - Ergebnis: gewaschener Arbeitsposten oder Waschfluessigkeit -> angesetzter Arbeitsposten -> gewaschener Arbeitsposten oder Waschfluessigkeit
+  - Lesung: Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: waschen → wirken lassen → durchwaschen.
+- **B1-S013 · SAME_OWNER_UNSPECIFIED_STEP**
+  - Objekt: `B1:OWNER_01:NEW_OR_B1:OWNER_01:STATE_12` -> `B1:OWNER_01:STATE_13`
+  - Gegenstaende: vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: waschen
+  - Ergebnis: gewaschener Arbeitsposten oder Waschfluessigkeit
+  - Lesung: Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: durchwaschen.
+- **B1-S014 · EXPLICIT_LOCAL_CONTINUATION**
+  - Objekt: `B1:OWNER_01:STATE_13` -> `B1:OWNER_01:STATE_14`
+  - Gegenstaende: aktuell gemeinter Arbeitsposten | bezeichnete Zielstelle | vom Bildbesitzer gesetzter lokaler Arbeitsstoff | lokaler Quellvorrat
+  - Gang: umsetzen -> auffangen -> fuehren + umsetzen
+  - Ergebnis: umgesetzter Arbeitsposten -> aufgefangener Auszug oder Arbeitsbestand -> weitergefuehrter Arbeitsposten -> umgesetzter Arbeitsposten
+  - Lesung: Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: umschöpfen → auffangen → hinleiten + umfüllen. Angaben: fort | danach · davon.
+- **B1-S015 · CURRENT_ITEM_CONTINUATION**
+  - Objekt: `B1:OWNER_01:STATE_14` -> `B1:OWNER_01:STATE_15`
+  - Gegenstaende: aktuell gemeinter Arbeitsposten | vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: eintragen -> ansetzen + umsetzen
+  - Ergebnis: im Arbeitsfach eingetragener Posten -> angesetzter Arbeitsposten -> umgesetzter Arbeitsposten
+  - Lesung: Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: übertragen → einsetzen + überführen.
+- **B1-S016 · EXPLICIT_LOCAL_CONTINUATION**
+  - Objekt: `B1:OWNER_01:STATE_15` -> `B1:OWNER_01:STATE_16`
+  - Gegenstaende: bezeichnete Zielstelle | aktuell gemeinter Arbeitsposten | vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: ansetzen -> ansetzen -> absetzen
+  - Ergebnis: angesetzter Arbeitsposten -> angesetzter Arbeitsposten -> abgesetzter Stoff mit Ueberstand und Rueckstand
+  - Lesung: Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: anlegen → wirken lassen → absetzen lassen. Angaben: fort.
+- **B1-S017 · EXPLICIT_LOCAL_CONTINUATION**
+  - Objekt: `B1:OWNER_01:STATE_16` -> `B1:OWNER_01:STATE_17`
+  - Gegenstaende: bezeichnete Zielstelle | vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: umsetzen
+  - Ergebnis: umgesetzter Arbeitsposten
+  - Lesung: Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: umfüllen. Angaben: Ziel | kurz · fort.
+- **B1-S018 · EXPLICIT_LOCAL_CONTINUATION**
+  - Objekt: `B1:OWNER_01:STATE_17` -> `B1:OWNER_01:STATE_18`
+  - Gegenstaende: aktuell gemeinter Arbeitsposten | vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: fuehren -> halten -> auffangen
+  - Ergebnis: weitergefuehrter Arbeitsposten -> gehaltener oder einwirkender Arbeitsposten -> aufgefangener Auszug oder Arbeitsbestand
+  - Lesung: Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: führen → stehen lassen → auffangen und stehen lassen. Angaben: Gang · Sollstufe.
+- **B1-S019 · SAME_OWNER_UNSPECIFIED_STEP**
+  - Objekt: `B1:OWNER_01:NEW_OR_B1:OWNER_01:STATE_18` -> `B1:OWNER_01:STATE_19`
+  - Gegenstaende: vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: absetzen
+  - Ergebnis: abgesetzter Stoff mit Ueberstand und Rueckstand
+  - Lesung: Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: absetzen lassen.
+- **B1-S020 · CURRENT_ITEM_CONTINUATION**
+  - Objekt: `B1:OWNER_01:STATE_19` -> `B1:OWNER_01:STATE_20`
+  - Gegenstaende: aktuell gemeinter Arbeitsposten | Durchlass oder Gang
+  - Gang: waermen -> halten
+  - Ergebnis: erwaermter Arbeitsposten -> gehaltener oder einwirkender Arbeitsposten
+  - Lesung: Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: warm halten → zurückhalten.
+- **B1-S021 · SAME_OWNER_UNSPECIFIED_STEP**
+  - Objekt: `B1:OWNER_01:NEW_OR_B1:OWNER_01:STATE_20` -> `B1:OWNER_01:STATE_21`
+  - Gegenstaende: bezeichnete Zielstelle
+  - Gang: nur Objekt, Mass, Ziel oder Zustand setzen
+  - Ergebnis: lokaler Objektzustand bleibt spezifiziert
+  - Lesung: Bildort: gemeinsame zweireihige Figuren-/Beckenstation. Arbeitsfolge: setze nur die Angaben. Angaben: Ziel.
+
+## B2:OWNER_01 · oberes Beckenpaar mit Zylinder
+
+- **B2-S001 · RECORD_INITIALIZE**
+  - Objekt: `B2:OWNER_01:MASTER_OR_IMAGE_SUPPLIED` -> `B2:OWNER_01:STATE_01`
+  - Gegenstaende: vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: umsetzen
+  - Ergebnis: umgesetzter Arbeitsposten
+  - Lesung: Bildort: oberes Beckenpaar mit Zylinder. Arbeitsfolge: führe zur nächsten Station.
+- **B2-S002 · EXPLICIT_LOCAL_CONTINUATION**
+  - Objekt: `B2:OWNER_01:STATE_01` -> `B2:OWNER_01:STATE_02`
+  - Gegenstaende: vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: umsetzen
+  - Ergebnis: umgesetzter Arbeitsposten
+  - Lesung: Bildort: oberes Beckenpaar mit Zylinder. Arbeitsfolge: führe zur nächsten Station.
+- **B2-S003 · CURRENT_ITEM_CONTINUATION**
+  - Objekt: `B2:OWNER_01:STATE_02` -> `B2:OWNER_01:STATE_03`
+  - Gegenstaende: abgeteilte Portion | aktuell gemeinter Arbeitsposten | vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: ansetzen -> ansetzen
+  - Ergebnis: angesetzter Arbeitsposten -> angesetzter Arbeitsposten
+  - Lesung: Bildort: oberes Beckenpaar mit Zylinder. Arbeitsfolge: gib einen Teil hinein → einwirken lassen. Angaben: dies.
+- **B2-S004 · CURRENT_ITEM_CONTINUATION**
+  - Objekt: `B2:OWNER_01:STATE_03` -> `B2:OWNER_01:STATE_04`
+  - Gegenstaende: bezeichnete Zielstelle | aktuell gemeinter Arbeitsposten | vom Bildbesitzer gesetzter lokaler Arbeitsstoff | Durchlass oder Gang
+  - Gang: ansetzen -> fuehren -> fuehren + umsetzen -> ansetzen -> fuehren
+  - Ergebnis: angesetzter Arbeitsposten -> weitergefuehrter Arbeitsposten -> weitergefuehrter Arbeitsposten -> umgesetzter Arbeitsposten -> angesetzter Arbeitsposten -> weitergefuehrter Arbeitsposten
+  - Lesung: Bildort: oberes Beckenpaar mit Zylinder. Arbeitsfolge: anlegen → durchleiten → führen + umsetzen → wirken lassen → durchleiten.
+- **B2-S005 · EXPLICIT_LOCAL_CONTINUATION**
+  - Objekt: `B2:OWNER_01:STATE_04` -> `B2:OWNER_01:STATE_05`
+  - Gegenstaende: aktuell gemeinter Arbeitsposten | vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: ansetzen -> auffangen -> ansetzen -> ansetzen -> waermen -> fuehren
+  - Ergebnis: angesetzter Arbeitsposten -> aufgefangener Auszug oder Arbeitsbestand -> angesetzter Arbeitsposten -> angesetzter Arbeitsposten -> erwaermter Arbeitsposten -> weitergefuehrter Arbeitsposten
+  - Lesung: Bildort: oberes Beckenpaar mit Zylinder. Arbeitsfolge: anlegen → bis zum Maß auffangen → einleiten → einleiten → warm halten → abführen. Angaben: Durchlass · dies | Gang · bereit · kurz · fort.
+- **B2-S006 · EXPLICIT_LOCAL_CONTINUATION**
+  - Objekt: `B2:OWNER_01:STATE_05` -> `B2:OWNER_01:STATE_06`
+  - Gegenstaende: aktuell gemeinter Arbeitsposten | bezeichnete Zielstelle
+  - Gang: ansetzen -> halten -> ansetzen
+  - Ergebnis: angesetzter Arbeitsposten -> gehaltener oder einwirkender Arbeitsposten -> angesetzter Arbeitsposten
+  - Lesung: Bildort: oberes Beckenpaar mit Zylinder. Arbeitsfolge: anlegen → zurückhalten → setze dies ein. Angaben: danach · länger · dies.
+
+## B2:OWNER_02 · mittleres linkes Handgerät mit Inline-Knoten
+
+- **B2-S007 · OWNER_RESET**
+  - Objekt: `B2:OWNER_02:MASTER_OR_IMAGE_SUPPLIED` -> `B2:OWNER_02:STATE_01`
+  - Gegenstaende: vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: halten
+  - Ergebnis: gehaltener oder einwirkender Arbeitsposten
+  - Lesung: Bildort: mittleres linkes Handgerät mit Inline-Knoten. Arbeitsfolge: ruhen lassen.
+- **B2-S008 · EXPLICIT_LOCAL_CONTINUATION**
+  - Objekt: `B2:OWNER_02:STATE_01` -> `B2:OWNER_02:STATE_02`
+  - Gegenstaende: vom Bildbesitzer gesetzter lokaler Arbeitsstoff | lokaler Quellvorrat
+  - Gang: ansetzen -> absetzen
+  - Ergebnis: angesetzter Arbeitsposten -> abgesetzter Stoff mit Ueberstand und Rueckstand
+  - Lesung: Bildort: mittleres linkes Handgerät mit Inline-Knoten. Arbeitsfolge: gib davon nach Maß zu → absetzen lassen. Angaben: danach · Maß.
+- **B2-S009 · EXPLICIT_LOCAL_CONTINUATION**
+  - Objekt: `B2:OWNER_02:STATE_02` -> `B2:OWNER_02:STATE_03`
+  - Gegenstaende: vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: halten
+  - Ergebnis: gehaltener oder einwirkender Arbeitsposten
+  - Lesung: Bildort: mittleres linkes Handgerät mit Inline-Knoten. Arbeitsfolge: ruhen lassen.
+- **B2-S010 · CURRENT_ITEM_CONTINUATION**
+  - Objekt: `B2:OWNER_02:STATE_03` -> `B2:OWNER_02:STATE_04`
+  - Gegenstaende: aktuell gemeinter Arbeitsposten | vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: ansetzen -> ansetzen -> halten
+  - Ergebnis: angesetzter Arbeitsposten -> angesetzter Arbeitsposten -> gehaltener oder einwirkender Arbeitsposten
+  - Lesung: Bildort: mittleres linkes Handgerät mit Inline-Knoten. Arbeitsfolge: wirken lassen → setze dies ein → stehen lassen. Angaben: weiter.
+
+## B2:OWNER_03 · mittlere rechte unklare Station
+
+- **B2-S011 · OWNER_RESET**
+  - Objekt: `B2:OWNER_03:MASTER_OR_IMAGE_SUPPLIED` -> `B2:OWNER_03:STATE_01`
+  - Gegenstaende: abgeteilte Portion | lokaler Quellvorrat | vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: ansetzen -> ansetzen -> ansetzen
+  - Ergebnis: angesetzter Arbeitsposten -> angesetzter Arbeitsposten -> angesetzter Arbeitsposten
+  - Lesung: Bildort: mittlere rechte unklare Station. Arbeitsfolge: gib einen Teil hinein → gib einen Teil hinein → einwirken lassen. Angaben: davon.
+- **B2-S012 · CURRENT_ITEM_CONTINUATION**
+  - Objekt: `B2:OWNER_03:STATE_01` -> `B2:OWNER_03:STATE_02`
+  - Gegenstaende: aktuell gemeinter Arbeitsposten | vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: fuehren + abziehen -> halten -> ansetzen -> fuehren -> ansetzen
+  - Ergebnis: weitergefuehrter Arbeitsposten -> abgenommener oder abgezogener Anteil -> gehaltener oder einwirkender Arbeitsposten -> angesetzter Arbeitsposten -> weitergefuehrter Arbeitsposten -> angesetzter Arbeitsposten
+  - Lesung: Bildort: mittlere rechte unklare Station. Arbeitsfolge: führen + abnehmen → stehen lassen → wirken lassen → führen → setze voll an; schließe. Angaben: bereit · kurz · dies | Maß | dies.
+
+## B2:OWNER_04 · unteres grünes Mehrfigurenbecken
+
+- **B2-S013 · OWNER_RESET**
+  - Objekt: `B2:OWNER_04:MASTER_OR_IMAGE_SUPPLIED` -> `B2:OWNER_04:STATE_01`
+  - Gegenstaende: vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: fuehren + umsetzen
+  - Ergebnis: weitergefuehrter Arbeitsposten -> umgesetzter Arbeitsposten
+  - Lesung: Bildort: unteres grünes Mehrfigurenbecken. Arbeitsfolge: abführen + überführen.
+- **B2-S014 · EXPLICIT_LOCAL_CONTINUATION**
+  - Objekt: `B2:OWNER_04:STATE_01` -> `B2:OWNER_04:STATE_02`
+  - Gegenstaende: lokaler Quellvorrat
+  - Gang: fuehren
+  - Ergebnis: weitergefuehrter Arbeitsposten
+  - Lesung: Bildort: unteres grünes Mehrfigurenbecken. Arbeitsfolge: ableiten.
+
+## B2:OWNER_05 · kleine Randstationen des unteren Beckens
+
+- **B2-S015 · OWNER_RESET**
+  - Objekt: `B2:OWNER_05:MASTER_OR_IMAGE_SUPPLIED` -> `B2:OWNER_05:STATE_01`
+  - Gegenstaende: aktuell gemeinter Arbeitsposten | vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: halten -> ansetzen
+  - Ergebnis: gehaltener oder einwirkender Arbeitsposten -> angesetzter Arbeitsposten
+  - Lesung: Bildort: kleine Randstationen des unteren Beckens. Arbeitsfolge: stehen lassen → einwirken lassen.
+- **B2-S016 · EXPLICIT_LOCAL_CONTINUATION**
+  - Objekt: `B2:OWNER_05:STATE_01` -> `B2:OWNER_05:STATE_02`
+  - Gegenstaende: bezeichnete Zielstelle | lokaler Quellvorrat | vom Bildbesitzer gesetzter lokaler Arbeitsstoff | aktuell gemeinter Arbeitsposten
+  - Gang: fuehren + umsetzen -> abziehen + teilen -> ansetzen -> ansetzen -> hineingeben + umsetzen
+  - Ergebnis: weitergefuehrter Arbeitsposten -> umgesetzter Arbeitsposten -> abgenommener oder abgezogener Anteil -> abgeteilter Arbeitsposten -> angesetzter Arbeitsposten -> angesetzter Arbeitsposten -> in den Empfaenger eingebrachter Stoff -> umgesetzter Arbeitsposten
+  - Lesung: Bildort: kleine Randstationen des unteren Beckens. Arbeitsfolge: ableiten + umfüllen → abnehmen + abteilen → setze nach Maß an → wirken lassen → einfüllen + überführen. Angaben: Ziel | Maß | danach · länger · dies.
+- **B2-S017 · SAME_OWNER_UNSPECIFIED_STEP**
+  - Objekt: `B2:OWNER_05:NEW_OR_B2:OWNER_05:STATE_02` -> `B2:OWNER_05:STATE_03`
+  - Gegenstaende: bezeichnete Zielstelle
+  - Gang: abkuehlen + halten
+  - Ergebnis: abgekuehlter Arbeitsposten -> gehaltener oder einwirkender Arbeitsposten
+  - Lesung: Bildort: kleine Randstationen des unteren Beckens. Arbeitsfolge: abkühlen lassen + ruhen lassen. Angaben: Ziel; Schritt schließen.
+- **B2-S018 · SAME_OWNER_UNSPECIFIED_STEP**
+  - Objekt: `B2:OWNER_05:NEW_OR_B2:OWNER_05:STATE_03` -> `B2:OWNER_05:STATE_04`
+  - Gegenstaende: vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: ansetzen
+  - Ergebnis: angesetzter Arbeitsposten
+  - Lesung: Bildort: kleine Randstationen des unteren Beckens. Arbeitsfolge: einwirken lassen.
+- **B2-S019 · SAME_OWNER_UNSPECIFIED_STEP**
+  - Objekt: `B2:OWNER_05:NEW_OR_B2:OWNER_05:STATE_04` -> `B2:OWNER_05:STATE_05`
+  - Gegenstaende: vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: abkuehlen + absetzen
+  - Ergebnis: abgekuehlter Arbeitsposten -> abgesetzter Stoff mit Ueberstand und Rueckstand
+  - Lesung: Bildort: kleine Randstationen des unteren Beckens. Arbeitsfolge: auskühlen lassen + absetzen lassen.
+- **B2-S020 · EXPLICIT_LOCAL_CONTINUATION**
+  - Objekt: `B2:OWNER_05:STATE_05` -> `B2:OWNER_05:STATE_06`
+  - Gegenstaende: vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: nur Objekt, Mass, Ziel oder Zustand setzen
+  - Ergebnis: lokaler Objektzustand bleibt spezifiziert
+  - Lesung: Bildort: kleine Randstationen des unteren Beckens. Arbeitsfolge: setze nur die Angaben. Angaben: danach · länger; Schritt schließen.
+- **B2-S021 · SAME_OWNER_UNSPECIFIED_STEP**
+  - Objekt: `B2:OWNER_05:NEW_OR_B2:OWNER_05:STATE_06` -> `B2:OWNER_05:STATE_07`
+  - Gegenstaende: vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: ansetzen
+  - Ergebnis: angesetzter Arbeitsposten
+  - Lesung: Bildort: kleine Randstationen des unteren Beckens. Arbeitsfolge: einwirken lassen.
+- **B2-S022 · SAME_OWNER_UNSPECIFIED_STEP**
+  - Objekt: `B2:OWNER_05:NEW_OR_B2:OWNER_05:STATE_07` -> `B2:OWNER_05:STATE_08`
+  - Gegenstaende: vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: fuehren + umsetzen
+  - Ergebnis: weitergefuehrter Arbeitsposten -> umgesetzter Arbeitsposten
+  - Lesung: Bildort: kleine Randstationen des unteren Beckens. Arbeitsfolge: abführen + überführen.
+
+## B3:OWNER_01 · obere offene Fächerstation am Rand
+
+- **B3-S001 · RECORD_INITIALIZE**
+  - Objekt: `B3:OWNER_01:MASTER_OR_IMAGE_SUPPLIED` -> `B3:OWNER_01:STATE_01`
+  - Gegenstaende: vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: auffangen
+  - Ergebnis: aufgefangener Auszug oder Arbeitsbestand
+  - Lesung: Bildort: obere offene Fächerstation am Rand. Arbeitsfolge: auffangen und stehen lassen.
+- **B3-S002 · EXPLICIT_LOCAL_CONTINUATION**
+  - Objekt: `B3:OWNER_01:STATE_01` -> `B3:OWNER_01:STATE_02`
+  - Gegenstaende: bezeichnete Zielstelle | vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: waermen
+  - Ergebnis: erwaermter Arbeitsposten
+  - Lesung: Bildort: obere offene Fächerstation am Rand. Arbeitsfolge: anwärmen. Angaben: danach · Ziel.
+- **B3-S003 · CURRENT_ITEM_CONTINUATION**
+  - Objekt: `B3:OWNER_01:STATE_02` -> `B3:OWNER_01:STATE_03`
+  - Gegenstaende: aktuell gemeinter Arbeitsposten | vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: fuehren + umsetzen
+  - Ergebnis: weitergefuehrter Arbeitsposten -> umgesetzter Arbeitsposten
+  - Lesung: Bildort: obere offene Fächerstation am Rand. Arbeitsfolge: abführen + abmessen und umsetzen. Angaben: dies | Maß | dies.
+- **B3-S004 · EXPLICIT_LOCAL_CONTINUATION**
+  - Objekt: `B3:OWNER_01:STATE_03` -> `B3:OWNER_01:STATE_04`
+  - Gegenstaende: vom Bildbesitzer gesetzter lokaler Arbeitsstoff | bezeichnete Zielstelle | lokaler Quellvorrat
+  - Gang: ansetzen
+  - Ergebnis: angesetzter Arbeitsposten
+  - Lesung: Bildort: obere offene Fächerstation am Rand. Arbeitsfolge: setze nach Maß an. Angaben: danach · Ziel | davon.
+
+## B3:OWNER_02 · mittlere Randfigur im runden Gefäß
+
+- **B3-S005 · OWNER_RESET**
+  - Objekt: `B3:OWNER_02:MASTER_OR_IMAGE_SUPPLIED` -> `B3:OWNER_02:STATE_01`
+  - Gegenstaende: vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: umsetzen
+  - Ergebnis: umgesetzter Arbeitsposten
+  - Lesung: Bildort: mittlere Randfigur im runden Gefäß. Arbeitsfolge: umfüllen.
+- **B3-S006 · EXPLICIT_LOCAL_CONTINUATION**
+  - Objekt: `B3:OWNER_02:STATE_01` -> `B3:OWNER_02:STATE_02`
+  - Gegenstaende: aktuell gemeinter Arbeitsposten | bezeichnete Zielstelle | vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: umsetzen -> ansetzen -> umsetzen
+  - Ergebnis: umgesetzter Arbeitsposten -> angesetzter Arbeitsposten -> umgesetzter Arbeitsposten
+  - Lesung: Bildort: mittlere Randfigur im runden Gefäß. Arbeitsfolge: umschöpfen → anlegen → führe zur nächsten Station.
+- **B3-S007 · CURRENT_ITEM_CONTINUATION**
+  - Objekt: `B3:OWNER_02:STATE_02` -> `B3:OWNER_02:STATE_03`
+  - Gegenstaende: vom Bildbesitzer gesetzter lokaler Arbeitsstoff | aktuell gemeinter Arbeitsposten
+  - Gang: ansetzen -> umsetzen -> ansetzen
+  - Ergebnis: angesetzter Arbeitsposten -> umgesetzter Arbeitsposten -> angesetzter Arbeitsposten
+  - Lesung: Bildort: mittlere Randfigur im runden Gefäß. Arbeitsfolge: setze nach Maß an → umschöpfen → einwirken lassen.
+- **B3-S008 · SAME_OWNER_UNSPECIFIED_STEP**
+  - Objekt: `B3:OWNER_02:NEW_OR_B3:OWNER_02:STATE_03` -> `B3:OWNER_02:STATE_04`
+  - Gegenstaende: vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: fuehren + umsetzen
+  - Ergebnis: weitergefuehrter Arbeitsposten -> umgesetzter Arbeitsposten
+  - Lesung: Bildort: mittlere Randfigur im runden Gefäß. Arbeitsfolge: abführen + überführen.
+- **B3-S009 · CURRENT_ITEM_CONTINUATION**
+  - Objekt: `B3:OWNER_02:STATE_04` -> `B3:OWNER_02:STATE_05`
+  - Gegenstaende: aktuell gemeinter Arbeitsposten
+  - Gang: ansetzen
+  - Ergebnis: angesetzter Arbeitsposten
+  - Lesung: Bildort: mittlere Randfigur im runden Gefäß. Arbeitsfolge: setze dies ein.
+
+## B3:OWNER_03 · untere Randfigur im korbartigen Gefäß
+
+- **B3-S010 · OWNER_RESET**
+  - Objekt: `B3:OWNER_03:MASTER_OR_IMAGE_SUPPLIED` -> `B3:OWNER_03:STATE_01`
+  - Gegenstaende: bezeichnete Zielstelle | vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: hineingeben + umsetzen
+  - Ergebnis: in den Empfaenger eingebrachter Stoff -> umgesetzter Arbeitsposten
+  - Lesung: Bildort: untere Randfigur im korbartigen Gefäß. Arbeitsfolge: einfüllen + umfüllen. Angaben: danach · kurz; Schritt schließen.
+- **B3-S011 · EXPLICIT_LOCAL_CONTINUATION**
+  - Objekt: `B3:OWNER_03:STATE_01` -> `B3:OWNER_03:STATE_02`
+  - Gegenstaende: aktuell gemeinter Arbeitsposten
+  - Gang: halten + umsetzen -> ansetzen -> umsetzen
+  - Ergebnis: gehaltener oder einwirkender Arbeitsposten -> umgesetzter Arbeitsposten -> angesetzter Arbeitsposten -> umgesetzter Arbeitsposten
+  - Lesung: Bildort: untere Randfigur im korbartigen Gefäß. Arbeitsfolge: halten + umsetzen → setze dies ein → umschöpfen. Angaben: davon · dies.
+- **B3-S012 · SAME_OWNER_UNSPECIFIED_STEP**
+  - Objekt: `B3:OWNER_03:NEW_OR_B3:OWNER_03:STATE_02` -> `B3:OWNER_03:STATE_03`
+  - Gegenstaende: aktueller Ansatz | vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: absetzen
+  - Ergebnis: abgesetzter Stoff mit Ueberstand und Rueckstand
+  - Lesung: Bildort: untere Randfigur im korbartigen Gefäß. Arbeitsfolge: absetzen lassen. Angaben: Ansatz.
+- **B3-S013 · CURRENT_ITEM_CONTINUATION**
+  - Objekt: `B3:OWNER_03:STATE_03` -> `B3:OWNER_03:STATE_04`
+  - Gegenstaende: vom Bildbesitzer gesetzter lokaler Arbeitsstoff | abgeteilte Portion | aktuell gemeinter Arbeitsposten
+  - Gang: ansetzen -> zufuehren -> ansetzen
+  - Ergebnis: angesetzter Arbeitsposten -> zugefuehrte Portion -> angesetzter Arbeitsposten
+  - Lesung: Bildort: untere Randfigur im korbartigen Gefäß. Arbeitsfolge: setze nach Maß an → dosiert zugeben → einwirken lassen. Angaben: bereit · kurz · dies.
+- **B3-S014 · SAME_OWNER_UNSPECIFIED_STEP**
+  - Objekt: `B3:OWNER_03:NEW_OR_B3:OWNER_03:STATE_04` -> `B3:OWNER_03:STATE_05`
+  - Gegenstaende: laufende Arbeitsfluessigkeit | vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: ansetzen -> halten
+  - Ergebnis: angesetzter Arbeitsposten -> gehaltener oder einwirkender Arbeitsposten
+  - Lesung: Bildort: untere Randfigur im korbartigen Gefäß. Arbeitsfolge: einleiten → ruhen lassen.
+- **B3-S015 · SAME_OWNER_UNSPECIFIED_STEP**
+  - Objekt: `B3:OWNER_03:NEW_OR_B3:OWNER_03:STATE_05` -> `B3:OWNER_03:STATE_06`
+  - Gegenstaende: vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: fuehren + umsetzen
+  - Ergebnis: weitergefuehrter Arbeitsposten -> umgesetzter Arbeitsposten
+  - Lesung: Bildort: untere Randfigur im korbartigen Gefäß. Arbeitsfolge: abführen + überführen.
+- **B3-S016 · SAME_OWNER_UNSPECIFIED_STEP**
+  - Objekt: `B3:OWNER_03:NEW_OR_B3:OWNER_03:STATE_06` -> `B3:OWNER_03:STATE_07`
+  - Gegenstaende: vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: fuehren -> ansetzen + umsetzen
+  - Ergebnis: weitergefuehrter Arbeitsposten -> angesetzter Arbeitsposten -> umgesetzter Arbeitsposten
+  - Lesung: Bildort: untere Randfigur im korbartigen Gefäß. Arbeitsfolge: führen → einsetzen + überführen.
+
+## B3:OWNER_04 · unverbundener Zwischenbereich
+
+- **B3-S017 · OWNER_RESET**
+  - Objekt: `B3:OWNER_04:MASTER_OR_IMAGE_SUPPLIED` -> `B3:OWNER_04:STATE_01`
+  - Gegenstaende: vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: ansetzen
+  - Ergebnis: angesetzter Arbeitsposten
+  - Lesung: Bildort: unverbundener Zwischenbereich. Arbeitsfolge: einwirken lassen.
+- **B3-S018 · SAME_OWNER_UNSPECIFIED_STEP**
+  - Objekt: `B3:OWNER_04:NEW_OR_B3:OWNER_04:STATE_01` -> `B3:OWNER_04:STATE_02`
+  - Gegenstaende: vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: absetzen
+  - Ergebnis: abgesetzter Stoff mit Ueberstand und Rueckstand
+  - Lesung: Bildort: unverbundener Zwischenbereich. Arbeitsfolge: absetzen lassen.
+- **B3-S019 · SAME_OWNER_UNSPECIFIED_STEP**
+  - Objekt: `B3:OWNER_04:NEW_OR_B3:OWNER_04:STATE_02` -> `B3:OWNER_04:STATE_03`
+  - Gegenstaende: vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: ansetzen + halten
+  - Ergebnis: angesetzter Arbeitsposten -> gehaltener oder einwirkender Arbeitsposten
+  - Lesung: Bildort: unverbundener Zwischenbereich. Arbeitsfolge: einwirken lassen + ruhen lassen.
+- **B3-S020 · SAME_OWNER_UNSPECIFIED_STEP**
+  - Objekt: `B3:OWNER_04:NEW_OR_B3:OWNER_04:STATE_03` -> `B3:OWNER_04:STATE_04`
+  - Gegenstaende: bezeichnete Zielstelle | vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: fuehren + umsetzen
+  - Ergebnis: weitergefuehrter Arbeitsposten -> umgesetzter Arbeitsposten
+  - Lesung: Bildort: unverbundener Zwischenbereich. Arbeitsfolge: hinleiten + umfüllen. Angaben: Ziel.
+- **B3-S021 · CURRENT_ITEM_CONTINUATION**
+  - Objekt: `B3:OWNER_04:STATE_04` -> `B3:OWNER_04:STATE_05`
+  - Gegenstaende: vom Bildbesitzer gesetzter lokaler Arbeitsstoff | aktuell gemeinter Arbeitsposten | bezeichnete Zielstelle
+  - Gang: ansetzen -> absetzen -> halten -> umsetzen
+  - Ergebnis: angesetzter Arbeitsposten -> abgesetzter Stoff mit Ueberstand und Rueckstand -> gehaltener oder einwirkender Arbeitsposten -> umgesetzter Arbeitsposten
+  - Lesung: Bildort: unverbundener Zwischenbereich. Arbeitsfolge: setze nach Maß an → ablagern → stehen lassen → umfüllen. Angaben: bereit · dies | Ziel | dies | Maß | dies | Ziel | bereit · dies.
+- **B3-S022 · EXPLICIT_LOCAL_CONTINUATION**
+  - Objekt: `B3:OWNER_04:STATE_05` -> `B3:OWNER_04:STATE_06`
+  - Gegenstaende: vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: umsetzen
+  - Ergebnis: umgesetzter Arbeitsposten
+  - Lesung: Bildort: unverbundener Zwischenbereich. Arbeitsfolge: führe zur nächsten Station.
+- **B3-S023 · SAME_OWNER_UNSPECIFIED_STEP**
+  - Objekt: `B3:OWNER_04:NEW_OR_B3:OWNER_04:STATE_06` -> `B3:OWNER_04:STATE_07`
+  - Gegenstaende: vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: fuehren + umsetzen
+  - Ergebnis: weitergefuehrter Arbeitsposten -> umgesetzter Arbeitsposten
+  - Lesung: Bildort: unverbundener Zwischenbereich. Arbeitsfolge: abführen + überführen.
+- **B3-S024 · SAME_OWNER_UNSPECIFIED_STEP**
+  - Objekt: `B3:OWNER_04:NEW_OR_B3:OWNER_04:STATE_07` -> `B3:OWNER_04:STATE_08`
+  - Gegenstaende: vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: umsetzen
+  - Ergebnis: umgesetzter Arbeitsposten
+  - Lesung: Bildort: unverbundener Zwischenbereich. Arbeitsfolge: führe zur nächsten Station.
+- **B3-S025 · SAME_OWNER_UNSPECIFIED_STEP**
+  - Objekt: `B3:OWNER_04:NEW_OR_B3:OWNER_04:STATE_08` -> `B3:OWNER_04:STATE_09`
+  - Gegenstaende: vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: ansetzen + umsetzen
+  - Ergebnis: angesetzter Arbeitsposten -> umgesetzter Arbeitsposten
+  - Lesung: Bildort: unverbundener Zwischenbereich. Arbeitsfolge: einsetzen + überführen.
+- **B3-S026 · EXPLICIT_LOCAL_CONTINUATION**
+  - Objekt: `B3:OWNER_04:STATE_09` -> `B3:OWNER_04:STATE_10`
+  - Gegenstaende: lokaler Quellvorrat | vom Bildbesitzer gesetzter lokaler Arbeitsstoff | aktuell gemeinter Arbeitsposten | abgeteilte Portion | aktueller Ansatz
+  - Gang: fuehren -> umsetzen -> ansetzen -> abkuehlen -> auffangen
+  - Ergebnis: weitergefuehrter Arbeitsposten -> umgesetzter Arbeitsposten -> angesetzter Arbeitsposten -> abgekuehlter Arbeitsposten -> aufgefangener Auszug oder Arbeitsbestand
+  - Lesung: Bildort: unverbundener Zwischenbereich. Arbeitsfolge: ableiten → umschöpfen → gib einen Teil hinein → abkühlen lassen → auffangen und stehen lassen. Angaben: länger · davon | bereit · dies.
+
+## B3:OWNER_05 · sichtbares Figurenpaar mit gemeinsamem Bogen in B3
+
+- **B3-S027 · OWNER_RESET**
+  - Objekt: `B3:OWNER_05:MASTER_OR_IMAGE_SUPPLIED` -> `B3:OWNER_05:STATE_01`
+  - Gegenstaende: vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: nur Objekt, Mass, Ziel oder Zustand setzen
+  - Ergebnis: lokaler Objektzustand bleibt spezifiziert
+  - Lesung: Bildort: sichtbares Figurenpaar mit gemeinsamem Bogen in B3. Arbeitsfolge: setze nur die Angaben. Angaben: danach · länger; Schritt schließen.
+- **B3-S028 · CURRENT_ITEM_CONTINUATION**
+  - Objekt: `B3:OWNER_05:STATE_01` -> `B3:OWNER_05:STATE_02`
+  - Gegenstaende: aktuell gemeinter Arbeitsposten | vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: ansetzen -> ansetzen
+  - Ergebnis: angesetzter Arbeitsposten -> angesetzter Arbeitsposten
+  - Lesung: Bildort: sichtbares Figurenpaar mit gemeinsamem Bogen in B3. Arbeitsfolge: wirken lassen → einwirken lassen.
+- **B3-S029 · EXPLICIT_LOCAL_CONTINUATION**
+  - Objekt: `B3:OWNER_05:STATE_02` -> `B3:OWNER_05:STATE_03`
+  - Gegenstaende: vom Bildbesitzer gesetzter lokaler Arbeitsstoff | aktuell gemeinter Arbeitsposten
+  - Gang: eintragen -> ansetzen
+  - Ergebnis: im Arbeitsfach eingetragener Posten -> angesetzter Arbeitsposten
+  - Lesung: Bildort: sichtbares Figurenpaar mit gemeinsamem Bogen in B3. Arbeitsfolge: eintragen → einwirken lassen. Angaben: fort.
+- **B3-S030 · EXPLICIT_LOCAL_CONTINUATION**
+  - Objekt: `B3:OWNER_05:STATE_03` -> `B3:OWNER_05:STATE_04`
+  - Gegenstaende: aktuell gemeinter Arbeitsposten | vom Bildbesitzer gesetzter lokaler Arbeitsstoff | laufende Arbeitsfluessigkeit
+  - Gang: ansetzen -> umsetzen -> umsetzen
+  - Ergebnis: angesetzter Arbeitsposten -> umgesetzter Arbeitsposten -> umgesetzter Arbeitsposten
+  - Lesung: Bildort: sichtbares Figurenpaar mit gemeinsamem Bogen in B3. Arbeitsfolge: setze dies ein → durchleiten → führe zur nächsten Station. Angaben: Maß.
+- **B3-S031 · SAME_OWNER_UNSPECIFIED_STEP**
+  - Objekt: `B3:OWNER_05:NEW_OR_B3:OWNER_05:STATE_04` -> `B3:OWNER_05:STATE_05`
+  - Gegenstaende: vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: ansetzen
+  - Ergebnis: angesetzter Arbeitsposten
+  - Lesung: Bildort: sichtbares Figurenpaar mit gemeinsamem Bogen in B3. Arbeitsfolge: einwirken lassen.
+- **B3-S032 · EXPLICIT_LOCAL_CONTINUATION**
+  - Objekt: `B3:OWNER_05:STATE_05` -> `B3:OWNER_05:STATE_06`
+  - Gegenstaende: abgeteilte Portion | aktuell gemeinter Arbeitsposten | vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: umsetzen -> umsetzen
+  - Ergebnis: umgesetzter Arbeitsposten -> umgesetzter Arbeitsposten
+  - Lesung: Bildort: sichtbares Figurenpaar mit gemeinsamem Bogen in B3. Arbeitsfolge: abmessen und umsetzen → abmessen und umsetzen. Angaben: danach · kurz · Maß | danach · Maß | danach · kurz; Schritt schließen.
+- **B3-S033 · SAME_OWNER_UNSPECIFIED_STEP**
+  - Objekt: `B3:OWNER_05:NEW_OR_B3:OWNER_05:STATE_06` -> `B3:OWNER_05:STATE_07`
+  - Gegenstaende: vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: fuehren
+  - Ergebnis: weitergefuehrter Arbeitsposten
+  - Lesung: Bildort: sichtbares Figurenpaar mit gemeinsamem Bogen in B3. Arbeitsfolge: abführen.
+- **B3-S034 · EXPLICIT_LOCAL_CONTINUATION**
+  - Objekt: `B3:OWNER_05:STATE_07` -> `B3:OWNER_05:STATE_08`
+  - Gegenstaende: vom Bildbesitzer gesetzter lokaler Arbeitsstoff | aktuell gemeinter Arbeitsposten
+  - Gang: eintragen -> absetzen
+  - Ergebnis: im Arbeitsfach eingetragener Posten -> abgesetzter Stoff mit Ueberstand und Rueckstand
+  - Lesung: Bildort: sichtbares Figurenpaar mit gemeinsamem Bogen in B3. Arbeitsfolge: eintragen → ablagern. Angaben: Gang · Sollstufe | bereit · dies | danach · Maß | fort · Ziel · dies.
+
+## B4:OWNER_01 · sichtbares Figurenpaar mit gemeinsamem Bogen in B4
+
+- **B4-S001 · RECORD_INITIALIZE**
+  - Objekt: `B4:OWNER_01:MASTER_OR_IMAGE_SUPPLIED` -> `B4:OWNER_01:STATE_01`
+  - Gegenstaende: vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: ansetzen
+  - Ergebnis: angesetzter Arbeitsposten
+  - Lesung: Bildort: sichtbares Figurenpaar mit gemeinsamem Bogen in B4. Arbeitsfolge: einwirken lassen.
+- **B4-S002 · EXPLICIT_LOCAL_CONTINUATION**
+  - Objekt: `B4:OWNER_01:STATE_01` -> `B4:OWNER_01:STATE_02`
+  - Gegenstaende: aktuell gemeinter Arbeitsposten | vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: ansetzen -> ansetzen
+  - Ergebnis: angesetzter Arbeitsposten -> angesetzter Arbeitsposten
+  - Lesung: Bildort: sichtbares Figurenpaar mit gemeinsamem Bogen in B4. Arbeitsfolge: wirken lassen → einwirken lassen. Angaben: fort · dies.
+- **B4-S003 · EXPLICIT_LOCAL_CONTINUATION**
+  - Objekt: `B4:OWNER_01:STATE_02` -> `B4:OWNER_01:STATE_03`
+  - Gegenstaende: aktuell gemeinter Arbeitsposten | bezeichnete Zielstelle | vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: umsetzen -> ansetzen -> ansetzen -> absetzen
+  - Ergebnis: umgesetzter Arbeitsposten -> angesetzter Arbeitsposten -> angesetzter Arbeitsposten -> abgesetzter Stoff mit Ueberstand und Rueckstand
+  - Lesung: Bildort: sichtbares Figurenpaar mit gemeinsamem Bogen in B4. Arbeitsfolge: umschöpfen → anlegen → setze dies ein → absetzen lassen. Angaben: danach · Ziel | danach · dies | fort.
+- **B4-S004 · CURRENT_ITEM_CONTINUATION**
+  - Objekt: `B4:OWNER_01:STATE_03` -> `B4:OWNER_01:STATE_04`
+  - Gegenstaende: aktuell gemeinter Arbeitsposten
+  - Gang: ansetzen + befestigen
+  - Ergebnis: angesetzter Arbeitsposten -> befestigter Arbeitsposten
+  - Lesung: Bildort: sichtbares Figurenpaar mit gemeinsamem Bogen in B4. Arbeitsfolge: einsetzen + festbinden.
+- **B4-S005 · CURRENT_ITEM_CONTINUATION**
+  - Objekt: `B4:OWNER_01:STATE_04` -> `B4:OWNER_01:STATE_05`
+  - Gegenstaende: abgeteilte Portion | aktuell gemeinter Arbeitsposten | vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: umsetzen -> ansetzen
+  - Ergebnis: umgesetzter Arbeitsposten -> angesetzter Arbeitsposten
+  - Lesung: Bildort: sichtbares Figurenpaar mit gemeinsamem Bogen in B4. Arbeitsfolge: abmessen und umsetzen → einwirken lassen. Angaben: Portion.
+- **B4-S006 · SAME_OWNER_UNSPECIFIED_STEP**
+  - Objekt: `B4:OWNER_01:NEW_OR_B4:OWNER_01:STATE_05` -> `B4:OWNER_01:STATE_06`
+  - Gegenstaende: Durchlass oder Gang
+  - Gang: halten
+  - Ergebnis: gehaltener oder einwirkender Arbeitsposten
+  - Lesung: Bildort: sichtbares Figurenpaar mit gemeinsamem Bogen in B4. Arbeitsfolge: zurückhalten.
+- **B4-S007 · SAME_OWNER_UNSPECIFIED_STEP**
+  - Objekt: `B4:OWNER_01:NEW_OR_B4:OWNER_01:STATE_06` -> `B4:OWNER_01:STATE_07`
+  - Gegenstaende: Durchlass oder Gang
+  - Gang: halten
+  - Ergebnis: gehaltener oder einwirkender Arbeitsposten
+  - Lesung: Bildort: sichtbares Figurenpaar mit gemeinsamem Bogen in B4. Arbeitsfolge: zurückhalten.
+- **B4-S008 · CURRENT_ITEM_CONTINUATION**
+  - Objekt: `B4:OWNER_01:STATE_07` -> `B4:OWNER_01:STATE_08`
+  - Gegenstaende: vom Bildbesitzer gesetzter lokaler Arbeitsstoff | aktuell gemeinter Arbeitsposten
+  - Gang: waermen -> halten -> ansetzen
+  - Ergebnis: erwaermter Arbeitsposten -> gehaltener oder einwirkender Arbeitsposten -> angesetzter Arbeitsposten
+  - Lesung: Bildort: sichtbares Figurenpaar mit gemeinsamem Bogen in B4. Arbeitsfolge: warm halten → einwirken lassen → einwirken lassen. Angaben: Maß.
+- **B4-S009 · SAME_OWNER_UNSPECIFIED_STEP**
+  - Objekt: `B4:OWNER_01:NEW_OR_B4:OWNER_01:STATE_08` -> `B4:OWNER_01:STATE_09`
+  - Gegenstaende: vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: absetzen
+  - Ergebnis: abgesetzter Stoff mit Ueberstand und Rueckstand
+  - Lesung: Bildort: sichtbares Figurenpaar mit gemeinsamem Bogen in B4. Arbeitsfolge: absetzen lassen.
+- **B4-S010 · EXPLICIT_LOCAL_CONTINUATION**
+  - Objekt: `B4:OWNER_01:STATE_09` -> `B4:OWNER_01:STATE_10`
+  - Gegenstaende: vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: nur Objekt, Mass, Ziel oder Zustand setzen
+  - Ergebnis: lokaler Objektzustand bleibt spezifiziert
+  - Lesung: Bildort: sichtbares Figurenpaar mit gemeinsamem Bogen in B4. Arbeitsfolge: setze nur die Angaben. Angaben: fort; Schritt schließen.
+
+## B4:OWNER_02 · linke Hauptstation mit offenem Fransenlauf
+
+- **B4-S011 · OWNER_RESET**
+  - Objekt: `B4:OWNER_02:MASTER_OR_IMAGE_SUPPLIED` -> `B4:OWNER_02:STATE_01`
+  - Gegenstaende: vom Bildbesitzer gesetzter lokaler Arbeitsstoff | aktuell gemeinter Arbeitsposten | abgeteilte Portion
+  - Gang: waermen -> ansetzen -> ansetzen -> umsetzen -> fuehren + zufuehren
+  - Ergebnis: erwaermter Arbeitsposten -> angesetzter Arbeitsposten -> angesetzter Arbeitsposten -> umgesetzter Arbeitsposten -> weitergefuehrter Arbeitsposten -> zugefuehrte Portion
+  - Lesung: Bildort: linke Hauptstation mit offenem Fransenlauf. Arbeitsfolge: warm halten → wirken lassen → gib einen Teil hinein → umschöpfen → abführen + zugeben. Angaben: Maß | fort.
+- **B4-S012 · SAME_OWNER_UNSPECIFIED_STEP**
+  - Objekt: `B4:OWNER_02:NEW_OR_B4:OWNER_02:STATE_01` -> `B4:OWNER_02:STATE_02`
+  - Gegenstaende: vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: fuehren + umsetzen
+  - Ergebnis: weitergefuehrter Arbeitsposten -> umgesetzter Arbeitsposten
+  - Lesung: Bildort: linke Hauptstation mit offenem Fransenlauf. Arbeitsfolge: abführen + überführen.
+- **B4-S013 · EXPLICIT_LOCAL_CONTINUATION**
+  - Objekt: `B4:OWNER_02:STATE_02` -> `B4:OWNER_02:STATE_03`
+  - Gegenstaende: vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: ansetzen -> absetzen
+  - Ergebnis: angesetzter Arbeitsposten -> abgesetzter Stoff mit Ueberstand und Rueckstand
+  - Lesung: Bildort: linke Hauptstation mit offenem Fransenlauf. Arbeitsfolge: weiter beschicken → absetzen lassen.
+- **B4-S014 · CURRENT_ITEM_CONTINUATION**
+  - Objekt: `B4:OWNER_02:STATE_03` -> `B4:OWNER_02:STATE_04`
+  - Gegenstaende: aktueller Ansatz | aktuell gemeinter Arbeitsposten | laufende Arbeitsfluessigkeit
+  - Gang: nur Objekt, Mass, Ziel oder Zustand setzen
+  - Ergebnis: lokaler Objektzustand bleibt spezifiziert
+  - Lesung: Bildort: linke Hauptstation mit offenem Fransenlauf. Arbeitsfolge: setze nur die Angaben. Angaben: Ansatz | dies | Gang · Durchlass · kurz · dies | Lauf · dies; Schritt schließen.
+- **B4-S015 · CURRENT_ITEM_CONTINUATION**
+  - Objekt: `B4:OWNER_02:STATE_04` -> `B4:OWNER_02:STATE_05`
+  - Gegenstaende: abgeteilte Portion | aktuell gemeinter Arbeitsposten | bezeichnete Zielstelle | vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: ansetzen -> halten -> zufuehren -> abziehen -> auffangen -> fuehren + umsetzen
+  - Ergebnis: angesetzter Arbeitsposten -> gehaltener oder einwirkender Arbeitsposten -> zugefuehrte Portion -> abgenommener oder abgezogener Anteil -> aufgefangener Auszug oder Arbeitsbestand -> weitergefuehrter Arbeitsposten -> umgesetzter Arbeitsposten
+  - Lesung: Bildort: linke Hauptstation mit offenem Fransenlauf. Arbeitsfolge: gib einen Teil hinein → stehen lassen → dosiert zugeben → ablaufen lassen → auffangen → abführen + überführen.
+
+## B4:OWNER_03 · rechte Hauptstation mit S-Lauf und Mehrarmknoten
+
+- **B4-S016 · OWNER_RESET**
+  - Objekt: `B4:OWNER_03:MASTER_OR_IMAGE_SUPPLIED` -> `B4:OWNER_03:STATE_01`
+  - Gegenstaende: abgeteilte Portion | bezeichnete Zielstelle | lokaler Quellvorrat | vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: zufuehren -> zufuehren -> absetzen
+  - Ergebnis: zugefuehrte Portion -> zugefuehrte Portion -> abgesetzter Stoff mit Ueberstand und Rueckstand
+  - Lesung: Bildort: rechte Hauptstation mit S-Lauf und Mehrarmknoten. Arbeitsfolge: dosiert zugeben → zuführen → absetzen lassen. Angaben: Ziel.
+
+## B5:OWNER_01 · linke Fransenstation im B5-Nachtrag
+
+- **B5-S001 · RECORD_INITIALIZE**
+  - Objekt: `B5:OWNER_01:MASTER_OR_IMAGE_SUPPLIED` -> `B5:OWNER_01:STATE_01`
+  - Gegenstaende: vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: umsetzen
+  - Ergebnis: umgesetzter Arbeitsposten
+  - Lesung: Bildort: linke Fransenstation im B5-Nachtrag. Arbeitsfolge: führe zur nächsten Station.
+- **B5-S002 · SAME_OWNER_UNSPECIFIED_STEP**
+  - Objekt: `B5:OWNER_01:NEW_OR_B5:OWNER_01:STATE_01` -> `B5:OWNER_01:STATE_02`
+  - Gegenstaende: vom Bildbesitzer gesetzter lokaler Arbeitsstoff
+  - Gang: ansetzen + umsetzen
+  - Ergebnis: angesetzter Arbeitsposten -> umgesetzter Arbeitsposten
+  - Lesung: Bildort: linke Fransenstation im B5-Nachtrag. Arbeitsfolge: einsetzen + überführen.
+- **B5-S003 · EXPLICIT_LOCAL_CONTINUATION**
+  - Objekt: `B5:OWNER_01:STATE_02` -> `B5:OWNER_01:STATE_03`
+  - Gegenstaende: bezeichnete Zielstelle | vom Bildbesitzer gesetzter lokaler Arbeitsstoff | aktuell gemeinter Arbeitsposten
+  - Gang: absetzen -> fuehren -> umsetzen -> umsetzen
+  - Ergebnis: abgesetzter Stoff mit Ueberstand und Rueckstand -> weitergefuehrter Arbeitsposten -> umgesetzter Arbeitsposten -> umgesetzter Arbeitsposten
+  - Lesung: Bildort: linke Fransenstation im B5-Nachtrag. Arbeitsfolge: ablagern → hinleiten → umfüllen → abmessen und umsetzen. Angaben: Ziel | fort | Maß | fort | zweite · Sollstufe.
+
+## B6:OWNER_01 · rechter S-Lauf im B6-Nachtrag
+
+- **B6-S001 · RECORD_INITIALIZE**
+  - Objekt: `B6:OWNER_01:MASTER_OR_IMAGE_SUPPLIED` -> `B6:OWNER_01:STATE_01`
+  - Gegenstaende: aktuell gemeinter Arbeitsposten | vom Bildbesitzer gesetzter lokaler Arbeitsstoff | abgeteilte Portion | aktueller Ansatz
+  - Gang: auffangen -> zufuehren -> abkuehlen -> fuehren
+  - Ergebnis: aufgefangener Auszug oder Arbeitsbestand -> zugefuehrte Portion -> abgekuehlter Arbeitsposten -> weitergefuehrter Arbeitsposten
+  - Lesung: Bildort: rechter S-Lauf im B6-Nachtrag. Arbeitsfolge: auffangen → zugeben → abkühlen lassen → hinleiten. Angaben: fort | Maß | fort | Portion | dies.

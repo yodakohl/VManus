@@ -9763,10 +9763,17 @@ reset. The edition has 21 record-local owner states and zero global pipe joins.
 See
 `sidequest_semantic_record_state_trace_five_hundred_ninety_eighth/FIVE_HUNDRED_NINETY_EIGHTH_REPORT.md`.
 
-Next, instantiate concrete workshop objects—raw part, preparation, portion,
-flowing medium, residue/extract, receiving place, and application—only where
-these continuity rules license them, yielding a tangible object ledger rather
-than abstract arrows.
+Pass 599 instantiates all 381 events as concrete local objects and operations:
+117 current-item, eighteen portion, eighteen preparation, twelve source-stock,
+33 target-place, five flowing-medium, five passage, seven material-charge, one
+work-compartment, and 165 owner-bound material events. They form 116 steps in
+21 owner-local object chains with zero cross-owner leakage. See
+`sidequest_semantic_concrete_object_ledger_five_hundred_ninety_ninth/FIVE_HUNDRED_NINETY_NINTH_REPORT.md`.
+
+Next, rewrite the five Herbal articles from these objects as concrete
+raw-material, vessel/preparation, intermediate-product, and possible-use
+recipes, keeping plant identity and disease deliberately broad where the
+fixed-page images do not decide them.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
