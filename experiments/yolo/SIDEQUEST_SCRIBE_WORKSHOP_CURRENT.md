@@ -10500,9 +10500,16 @@ events across plant, shared basin and local station owners. Graduation means
 reliable open-copybook literacy, not memorizing230 surfaces. See
 `sidequest_semantic_seven_day_curriculum_six_hundred_eighty_fifth/SIX_HUNDRED_EIGHTY_FIFTH_REPORT.md`.
 
-Next, simulate the first complete commission given to a newly trained scribe:
-copy one Herbal and one Biological record from master dictation while logging
-every lookup, variant choice, owner carry and likely correction.
+Pass 686 runs the first two full commissions: H3 and B1,83 events in25
+statements. Sixty-four lookups select one card directly;19 require a local
+two-card choice. Sixty-one events use recurrent-family lessons and22 rare-card
+lessons. Every owner carry, recipe address, exact card, surface and likely
+master correction is logged;0 surfaces are invented. See
+`sidequest_semantic_first_scribe_commission_six_hundred_eighty_sixth/SIX_HUNDRED_EIGHTY_SIXTH_REPORT.md`.
+
+Next, compare the two commissions card by card to identify which compact
+instructions genuinely transfer between plant and basin owners and which must
+receive different natural-language expansions.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
