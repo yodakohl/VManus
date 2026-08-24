@@ -10169,9 +10169,18 @@ six-card command. Fix-card-only and fix-order-only each remain semantically
 wrong; full master-hand normalization adds an unnecessary rewrite. See
 `sidequest_semantic_minimal_mixed_correction_six_hundred_forty_second/SIX_HUNDRED_FORTY_SECOND_REPORT.md`.
 
-Next, repeat the three-level error lesson across C1-C5. Give each case one
-licensed allograph, one nearby wrong card, and one legal-card order error to
-see whether the correction discipline generalizes beyond C3.
+Pass 643 generalizes the lesson across C1-C5. Each case receives one harmless
+allograph, one different close-looking card, and one adjacent swap that breaks
+one registered precedence edge. The five semantic substitutions are target to
+portion, full to long close, long to short hold, portion to prescribed amount,
+and second stage to measure. Minimal repair restores 5/5 exact card sequences,
+5/5 precedence systems, and preserves 5/5 foreign hands. See
+`sidequest_semantic_five_case_correction_school_six_hundred_forty_third/SIX_HUNDRED_FORTY_THIRD_REPORT.md`.
+
+Next, collate two complementary apprentice copies per case without displaying
+the master strip. One copy retains correct order but one wrong card; the other
+retains the complete card inventory but one wrong order. Recover the intended
+strip from the case grammar and their complementary information.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
