@@ -8005,9 +8005,16 @@ an almost even productive-abbreviation/whole-card workshop mixture without
 inventing extra roots. See
 `sidequest_semantic_family_dictation_three_hundred_sixty_third/THREE_HUNDRED_SIXTY_THIRD_MASTER_APPRENTICE_DIALOGUE.md`.
 
-Next, make contrast cards for the 22 ambiguous bundles. Permit one additional
-concrete cue only when it is already visible in the current value or owner;
-otherwise retain the pair or row as a memorized nomenclator entry.
+Pass 364 gives the 22 ambiguous bundles 65 contrast cards. Thirty-five use a
+repeated semantic cue, nineteen grammatical aspect, four a visible owner and
+seven an honest whole-card mnemonic. The result sets all 380 source cards: 187
+directly, 161 with one contrast and only 32 by nomenclator memory. Contrast cues
+select forms but only repeated cues enlarge the productive grammar. See
+`sidequest_semantic_contrast_cards_three_hundred_sixty_fourth/THREE_HUNDRED_SIXTY_FOURTH_CONTRAST_TABLET.md`.
+
+Next, reconstruct all 116 statements from the family and contrast tablets alone
+and compare the resulting 380 cards with the real source sequence. Keep the 32
+nomenclator events as explicit board lookups.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
