@@ -10479,8 +10479,16 @@ and usually exact card, while surface and owner remain local copy decisions.
 See
 `sidequest_semantic_multi_scribe_production_six_hundred_eighty_second/SIX_HUNDRED_EIGHTY_SECOND_REPORT.md`.
 
-Next, turn the twelve most recurrent families into one apprentice practice
-page with short dictations, expected card choices and common copying mistakes.
+Pass 683 turns twelve recurrent families/140 events into one apprentice
+practice page. Each family has two actual examples, allowed cards and surfaces,
+one common error and one master correction;48 drills run hear->recipe->copy->
+readback. The key lessons distinguish MASS/PORTION, QUELLE/ZIEL and open DIES
+from a licensed close. See
+`sidequest_semantic_apprentice_practice_six_hundred_eighty_third/SIX_HUNDRED_EIGHTY_THIRD_REPORT.md`.
+
+Next, extend the practice book from the twelve common families to the rare-card
+tail, grouping one-off recipes by the nearest learned construction so a master
+can teach them without inventing new roots.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
