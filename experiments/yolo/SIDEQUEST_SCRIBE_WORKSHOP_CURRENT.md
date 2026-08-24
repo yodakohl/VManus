@@ -9291,8 +9291,16 @@ only three true whole cards: OS=work compartment, TALAM=store, LS=continue.
 The four learned atoms are CFH=wring, S=divide, LD=fasten and DA=second. See
 `sidequest_semantic_whole_card_attack_five_hundred_thirty_eighth/FIVE_HUNDRED_THIRTY_EIGHTH_REPORT.md`.
 
-Next, use the repaired component lexicon to predict unattested combinations in
-the OK/OT/OL address families and E/EE/EEE grade lattice.
+Pass 539 closes two prediction matrices. The 4x5 operator/address grid has
+twelve attested and eight missing cells; the 5x3x2 grade/endpoint grid has
+eighteen attested and twelve missing cells. Twenty concrete unattested
+compositions are predicted, led by OT+E+Y, CHK+E+DY and SOLK+E+DY. None of their
+canonical mnemonics collides with an observed surface. These are predictions,
+not claimed sightings. See
+`sidequest_semantic_composition_predictions_five_hundred_thirty_ninth/FIVE_HUNDRED_THIRTY_NINTH_REPORT.md`.
+
+Next, pass the twenty predictions through the bound wrapper/allograph system to
+derive a small realistic surface set for each composition.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
