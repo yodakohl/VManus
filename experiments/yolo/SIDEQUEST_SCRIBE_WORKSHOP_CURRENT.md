@@ -10098,10 +10098,18 @@ taught as two portions, not mere emphasis. Without it the capacity is ten jobs
 in 48 orders. See
 `sidequest_semantic_compatible_slot_substitution_six_hundred_thirty_fourth/SIX_HUNDRED_THIRTY_FOURTH_REPORT.md`.
 
-Next, extract all clean two- and three-member paradigms already present in the
-173-card deck. Admit a family only when a single component changes one short
-semantic dimension; use the result as the productive apprentice substitution
-table.
+Pass 635 extracts six clean apprentice paradigms: OK, SH, SOLK, CHK, and OT
+cross grade E/EE/EEE with endpoint Y/DY, while OK also crosses quantity
+AIN/AIIN. Twenty attested semantic cells contain 22 exact cards and 70 events.
+The table predicts six absent cells without adding them: full-open OK,
+full-open/full-closed SH, short-closed SOLK and CHK, and short-open OT. This
+replaces sentence-sized glosses with short contributions such as
+OK=ANSETZEN, EEE=VOLL, DY=SCHLIESSEN. See
+`sidequest_semantic_productive_paradigm_table_six_hundred_thirty_fifth/SIX_HUNDRED_THIRTY_FIFTH_REPORT.md`.
+
+Next, reclassify all 173 cards by learning burden: fully compositional,
+compositional meaning with learned surface, partial composition with one opaque
+core, or true learned whole card. Count the resulting semantic codebook.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
