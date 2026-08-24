@@ -9894,9 +9894,19 @@ accounting for twelve semantically redundant but graphically distinct cards.
 See
 `sidequest_semantic_invariant_commands_six_hundred_twelfth/SIX_HUNDRED_TWELFTH_REPORT.md`.
 
-Next, audit those eleven duplicate-command groups occurrence by occurrence to
-separate allographs, register/scribe variants, and cards that still need a
-small semantic distinction.
+Pass 613 audits all eleven duplicate-command groups across their 75 events and
+restores two useful distinctions. The statement-initial `dchol/schol` card is
+WIEDERAUFNEHMEN rather than ordinary FORTSETZEN. In the adjacent `ykain ykan`
+pair, AIN remains PORTION while contracted AN becomes NACHPORTION. The spoken
+dictionary therefore grows carefully from 37 to 39 words and the command book
+from 161 to 163 commands. Ten duplicate groups/ten redundant card IDs remain
+graphic or register variants, including the residual OL/LS FORTSETZEN pair.
+See
+`sidequest_semantic_duplicate_command_resolution_six_hundred_thirteenth/SIX_HUNDRED_THIRTEENTH_REPORT.md`.
+
+Next, turn the ten surviving duplicate groups into an explicit multi-scribe
+surface palette: select a default card and practical conditions for choosing
+each alternate spelling without changing its meaning.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
