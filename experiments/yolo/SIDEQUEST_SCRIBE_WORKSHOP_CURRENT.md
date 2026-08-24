@@ -9026,8 +9026,17 @@ signatures. The strongest recurrent programs are hold-close (21), move-close
 (14) and activate-close (4). See
 `sidequest_semantic_statement_programs_five_hundred_third/FIVE_HUNDRED_THIRD_REPORT.md`.
 
-Next, reconcile the nine explicit recurrent programs with the seven older Bio
-form cards and keep one consistent form-card layer.
+Pass 504 replaces the seven older Bio form cards with the nine explicit
+primitive programs. Of 51 old recurrent assignments, 47 remain recurrent,
+four become unique after the corrected operation-plus-close reading, and six
+formerly local statements join recurrent programs. The reconciled layer thus
+covers 53 Bio statements and keeps owner, source and path separate from process
+order. See
+`sidequest_semantic_bio_form_reconciliation_five_hundred_fourth/FIVE_HUNDRED_FOURTH_REPORT.md`.
+
+Next, derive the smallest teachable transition machine over the eight
+primitives that admits all 116 statement programs while making the nine common
+Bio programs easy defaults.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
