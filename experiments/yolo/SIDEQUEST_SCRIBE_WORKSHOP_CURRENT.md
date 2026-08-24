@@ -9848,9 +9848,18 @@ retains a double-KURZ cadence. Dense statements are merely spoken in four-card
 chunks without reordering. See
 `sidequest_semantic_long_card_scope_six_hundred_seventh/SIX_HUNDRED_SEVENTH_REPORT.md`.
 
-Next, inspect the fourteen one-component cards and the learned specialist
-atoms. Decide which are true standalone workshop words and which are merely
-graphic abbreviations/allographs of an already shared component.
+Pass 608 classifies the fourteen one-component cards as ten portable words,
+two learned specialist words (FACH, VERWAHREN), and two graphic aliases.
+PROC034 (`dchol|schol`) and PROC115 (`ls`) both mean the existing
+OL/FORTSETZEN value; LS adds no semantic word. The five learned specialist
+atoms remain AUSWRINGEN, TEILEN, BEFESTIGEN, the ZWEIT ordinal mark, and STUFE.
+Thus the system has 38 graphic components but 37 spoken semantic words, while
+all 173 cards/381 events/116 statements remain covered. See
+`sidequest_semantic_standalone_words_six_hundred_eighth/SIX_HUNDRED_EIGHTH_REPORT.md`.
+
+Next, organize those 37 words into one compact workshop paradigm—object,
+quantity, source/path/target, sequence, action, grade/state, and close—and map
+all 173 cards to its slots.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
