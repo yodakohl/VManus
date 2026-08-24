@@ -9972,9 +9972,18 @@ already separated by eleven exclusive components and 72 nonshared exact cards.
 No new application word is added. See
 `sidequest_semantic_c3_c4_contrast_six_hundred_twenty_first/SIX_HUNDRED_TWENTY_FIRST_REPORT.md`.
 
-Next, compare C1 with C2. Because H1/H2 share the same pictured plant owner,
-this is the harder test of whether the text itself distinguishes a mild ground
-extract from a stronger follow-up/rinse extract.
+Pass 622 compares C1 and C2 despite their shared pictured Herbal owner. Both
+use all eight modules and share twenty-five components/seventeen exact cards,
+but C1 alone has AIR/FLUESSIGKEITSLAUF, LSH/WASCHEN, OS/ARBEITSFACH, and
+T/EINTRAGEN; C2 alone has EEE/VOLL, P/EINFUELLEN, and S/TEILEN. C2 has seven
+dosing statements versus C1's three; C1 has three collecting statements versus
+C2's one. The text therefore carries a useful mild wash/ground-extract versus
+divided full-treatment follow-up distinction without a new word. See
+`sidequest_semantic_c1_c2_contrast_six_hundred_twenty_second/SIX_HUNDRED_TWENTY_SECOND_REPORT.md`.
+
+Next, compare C5 and C6. C6 has no dedicated Herbal preparation; test whether
+its short B6 text is a genuine continuation of C5's prepared stock or a
+separate technical appendix that merely reuses common modules.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
