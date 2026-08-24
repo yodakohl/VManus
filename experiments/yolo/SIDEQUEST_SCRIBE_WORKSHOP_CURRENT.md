@@ -7791,9 +7791,18 @@ opens a new microcycle. All 381 events and 116 statements parse into 205 such
 cycles, 63 statements need one cycle, and the longest needs six. See
 `sidequest_semantic_card_order_syntax_three_hundred_thirty_fifth/THREE_HUNDRED_THIRTY_FIFTH_ONE_PAGE_APPRENTICE_SYNTAX.md`.
 
-Next, use the six-slot syntax to compose a fresh short Herbal preparation and a
-matching Bio station continuation from registered cards and owners, then reverse
-read both without borrowing any existing complete sequence.
+Pass 336 composes a fresh six-card Herbal preparation and ten-card Bio
+continuation using only registered identities, surfaces and values. Both full
+sequences are new and reverse-read through the six slots. The Herbal side is one
+microcycle; the Bio side is three. Exact Sollmass and Klarauszug cards bridge the
+two: `char qokain daiin shey cheeky cthy` prepares the item, and `otchey daiin
+chckhal qokeey qoky cheey qokedy qokeeedy lchedy solkey` applies, draws off and
+collects it. See
+`sidequest_semantic_fresh_six_slot_copy_three_hundred_thirty_sixth/THREE_HUNDRED_THIRTY_SIXTH_FRESH_COPY.md`.
+
+Next, render this fresh pair in four learned scribe hands using only registered
+surface alternatives while preserving all sixteen identities, six-slot order
+and four total microcycles.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
