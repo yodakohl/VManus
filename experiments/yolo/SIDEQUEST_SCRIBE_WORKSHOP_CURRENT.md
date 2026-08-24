@@ -8971,8 +8971,16 @@ is BEMESSENE PFLANZENPORTION AM ZIEL ANSETZEN UND PORTIONIEREN, and the manual
 falls from 167 to 166 items. See
 `sidequest_semantic_h4_target_batch_portion_four_hundred_ninety_sixth/FOUR_HUNDRED_NINETY_SIXTH_REPORT.md`.
 
-Next, reconstruct six-card B4-S015 across its visible owner change without
-inventing material continuity.
+Pass 497 removes B4-S015 from the local deck. At the left fringe station a
+portion creates a receiver stock and a portion reaches the local passage.
+After the visible owner reset, a fresh right-station item is briefly collected,
+led out and closed. Only workflow order crosses the gap, not material. The
+composed macro is EMPFANGSPORTION ZUM DURCHGANG STELLEN FOLGESTATION KURZ
+AUFFANGEN UND ABFUEHREN; the manual falls from 166 to 165 items. See
+`sidequest_semantic_b4_receive_exit_four_hundred_ninety_seventh/FOUR_HUNDRED_NINETY_SEVENTH_REPORT.md`.
+
+Next, reconstruct four-card B2-S006 and then reassess every remaining learned
+local whole form by length and component coverage.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
