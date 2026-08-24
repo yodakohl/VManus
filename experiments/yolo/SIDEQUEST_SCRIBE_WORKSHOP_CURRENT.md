@@ -9586,8 +9586,17 @@ change; only the visible owner fills plant preparation versus basin liquid or
 application. Forty-nine cards are Herbal-only and 107 Biological-only. See
 `sidequest_semantic_cross_section_portable_cards_five_hundred_seventy_fourth/FIVE_HUNDRED_SEVENTY_FOURTH_REPORT.md`.
 
-Next, partition the 49 Herbal-local and 107 Biological-local cards into
-section-specific compositions, specialist whole cards, and local rare tails.
+Pass 575 partitions the other 156 section-local cards and 245 events. Thirty-four
+are recurrent component builds (123 events), 115 are singleton but regular
+component builds, and only seven require a learned whole value or inner atom.
+Thus 149/156 local cards are generated semantically; over the full deck 166/173
+cards are fully compositional, four are partial, and three are learned whole
+cards. See
+`sidequest_semantic_section_local_card_partition_five_hundred_seventy_fifth/FIVE_HUNDRED_SEVENTY_FIFTH_REPORT.md`.
+
+Next, recalculate the apprentice's semantic and graphical learning load: 38
+components, 56 frame rules, and seven specialist values versus 173 visible card
+forms, plus the already derived allograph, cadence, melody, and wrapper rules.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
