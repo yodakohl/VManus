@@ -10383,8 +10383,16 @@ active item and never closes merely because a writer surface looks like `dy`.
 Twenty-one new cards/65 events raise total coverage to167/374. See
 `sidequest_semantic_quantity_item_layer_six_hundred_seventieth/SIX_HUNDRED_SEVENTIETH_REPORT.md`.
 
-Next, close the exact six-card/seven-event remainder as the smallest possible
-whole-command deck, then publish one integrated173-card dictionary.
+Pass 671 closes five final control axes across67 cards/122 events:
+T=EINTRAGEN, CH=ABNEHMEN, O=ARBEITSGANG, licensed DY=SCHLUSS, S=TEILEN.
+All89 DY-component events are final or whole. Thus `tchody`, `ody`, and `ches`
+compose; only three learned commands remain: `os`=ARBEITSFACH,
+`dchol/schol`=WIEDERAUFNEHMEN, `talam`=VERWAHREN. Productive roots plus those
+three commands cover173/173 cards and381/381 events. See
+`sidequest_semantic_control_axes_remainder_six_hundred_seventy_first/SIX_HUNDRED_SEVENTY_FIRST_REPORT.md`.
+
+Next, publish one integrated173-card/381-event dictionary and a compact root
+tablet, then reread all116 statements from that single edition.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
