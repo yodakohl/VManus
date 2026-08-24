@@ -8069,9 +8069,16 @@ eight-card source sequences from identity, owner, slot order and margin alone.
 See
 `sidequest_semantic_unmarked_layout_corrector_three_hundred_seventy_second/THREE_HUNDRED_SEVENTY_SECOND_CORRECTOR_NOTEBOOK.md`.
 
-Next, insert one deliberately illegal duplicate at a real cycle boundary. The
-corrector must flag it as a scribal error rather than licensing it as a normal
-read-once anticipation.
+Pass 373 adds an illegal `aiin | aiin` duplicate at the real Ziel-to-Maß reset.
+Unlike legal `cheky | cheky`, the predecessor slot drops from five to two before
+the repeated card. The corrector deletes the left `aiin` as a scribal error,
+does not license it as anticipation and still recovers the exact eight-card
+source. See
+`sidequest_semantic_illegal_boundary_copy_three_hundred_seventy_third/THREE_HUNDRED_SEVENTY_THIRD_ERROR_PAGE.md`.
+
+Next, replay the predecessor-aware rule over all 46 real prose line transitions.
+Check whether the sole E180→E181 read-once case remains licensed and whether any
+other apparent duplicate was previously rescued too generously.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
