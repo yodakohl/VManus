@@ -9010,8 +9010,16 @@ the same phase boundary in both B1 and H5, a particularly strong shared
 workshop routine. See
 `sidequest_semantic_shared_subroutines_five_hundred_first/FIVE_HUNDRED_FIRST_REPORT.md`.
 
-Next, search all 381 prose events for the same three primitive sequences and
-decide whether they are general routines or only five-macro teaching aids.
+Pass 502 maps all 381 prose events to the eight procedure primitives. SUB01
+gains H5-S004 and has three calls across Herbal/Bio. SUB03 grows from three to
+nine calls across H1/H2/H3/B3/B5/B6 and is a general resume-then-measure
+routine. SUB02 remains confined to the paired B1/H5 macro transition. Fourteen
+nonoverlapping calls cover 33 events, with no new card or meaning and the same
+120-item manual. See
+`sidequest_semantic_global_subroutine_extension_five_hundred_second/FIVE_HUNDRED_SECOND_REPORT.md`.
+
+Next, encode all 116 prose statements as complete primitive signatures and
+count the remaining distinct sentence programs.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
