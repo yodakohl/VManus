@@ -8861,10 +8861,18 @@ motifs from Pass 477. The emerging system is therefore a shared component
 grammar plus short Bio forms and locally composed Herbal clauses. See
 `sidequest_semantic_form_classes_four_hundred_eighty_third/FOUR_HUNDRED_EIGHTY_THIRD_REPORT.md`.
 
-Next, integrate the 35 components, 38 owner classes, nine sentence motifs,
-seven Bio form cards, 65 local forms and Astro LOCATE→READ→RECORD rule into one
-hierarchical workshop manual. Run it forward across all 776 groups and state
-honestly how much must still be learned from local exemplars.
+Pass 484 integrates the whole ten-page system into one forward workshop manual.
+Its semantic/syntactic side has 161 items: 35 components, 38 owner classes,
+nine motifs, seven Bio forms, six learned whole cards, 65 local statement forms
+and one Astro LOCATE→READ→RECORD rule. The graphic side adds nine renderer
+habits and 113 local surface exemplars, for 283 learned items rather than 776
+occurrence lookups. Every group receives a concrete reading and surface; 663
+surfaces follow default or habit and 113 still require copying. See
+`sidequest_semantic_hierarchical_manual_four_hundred_eighty_fourth/FOUR_HUNDRED_EIGHTY_FOURTH_REPORT.md`.
+
+Next, decompose the 65 local statement forms into already learned motifs and
+minimal residual spans. Count the irreducible local chunks rather than charging
+an entire statement whenever only one small insertion is novel.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
