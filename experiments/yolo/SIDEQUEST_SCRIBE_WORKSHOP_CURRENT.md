@@ -9002,8 +9002,16 @@ while the long prose expansions disappear. One procedure-grammar rule raises
 the now more explicit manual from 116 to 117 items. See
 `sidequest_semantic_procedure_primitive_grammar_five_hundredth/FIVE_HUNDREDTH_REPORT.md`.
 
-Next, mine the fifteen phase recipes for reusable two- and three-primitive
-subroutines and shorten the five order recipes without losing event order.
+Pass 501 finds three selector-paid shared subroutines: double-charge-to-target
+in B1/H5, move-activate-continue in B1/H5, and continue-remeasure in B3/H1/H2.
+Seven calls cover 18 macro events. Recipe tokens fall from 58 to 47; eight
+definition tokens yield a paid total of 55 and net gain three. SUB02 crosses
+the same phase boundary in both B1 and H5, a particularly strong shared
+workshop routine. See
+`sidequest_semantic_shared_subroutines_five_hundred_first/FIVE_HUNDRED_FIRST_REPORT.md`.
+
+Next, search all 381 prose events for the same three primitive sequences and
+decide whether they are general routines or only five-macro teaching aids.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
