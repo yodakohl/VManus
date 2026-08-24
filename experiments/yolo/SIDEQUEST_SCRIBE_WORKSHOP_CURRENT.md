@@ -8365,9 +8365,15 @@ singleton CTHOOR becomes ABSCHABEN, kept separate from explicit CHOY/LSH
 wash cards. CHET remains the general BEARBEITEN card. See
 `sidequest_semantic_f10_root_scrape_four_hundred_sixteenth/FOUR_HUNDRED_SIXTEENTH_CONTINUOUS_H1.md`.
 
-Next, audit all five occurrences of CHAR/DAR/SAR. Reduce the current phrase
-“aus demselben Vorrat” to the shortest portable value among QUELLE, GLEICHE
-CHARGE and DARAUS, then rewrite every affected statement.
+Pass 417 reduces the exact five-event CHAR/DAR/SAR card to DASSELBE. Across
+five records it expands as vom selben, daraus, mit demselben, the same action
+again, or denselben Posten. The B2 pattern OKAIN→DASSELBE→OKAIN is the clearest
+ditto-like use; surface variation does not change the card. See
+`sidequest_semantic_same_card_four_hundred_seventeenth/FOUR_HUNDRED_SEVENTEENTH_POCKET_RULE.md`.
+
+Next, audit the B2 double OKAIN construction around DASSELBE. Decide whether
+AIN is one portion, a fill, or one part of a pair, and determine whether the
+sequence repeats one addition or joins two distinct ingredients.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
