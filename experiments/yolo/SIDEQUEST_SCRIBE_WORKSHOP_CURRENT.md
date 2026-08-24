@@ -8441,10 +8441,16 @@ redundant product GEBRAUCHSAUSZUG becomes the verb AUSZIEHEN in the clean chain
 ZUTAT→NIMM DIES→AUSZIEHEN→GEBRAUCHEN. See
 `sidequest_semantic_herbal_noun_process_tournament_four_hundred_twenty_seventh/FOUR_HUNDRED_TWENTY_SEVENTH_REVISED_ARTICLES.md`.
 
-Next, reduce the five Herbal articles to a compact operations lexicon. Separate
-productive operations from learned whole verbs and test whether the resulting
-sequence templates predict every operation slot without moving picture nouns
-into the grammar.
+Pass 428 assigns all 100 Herbal cards to eight roles and extracts nineteen
+operation cores plus eleven productive rules. AIIN/AIN/Y/OR/OL/OT/AL and
+E-grades form the predictable grammar; specific operations and picture nouns
+remain learned cards. Four older H1 values are synchronized to DASSELBE,
+VERWENDE DIES, MASS and NIMM DIES. See
+`sidequest_semantic_herbal_operation_lexicon_four_hundred_twenty_eighth/FOUR_HUNDRED_TWENTY_EIGHTH_APPRENTICE_CARD.md`.
+
+Next, transfer this exact small lexicon to all B1 events. Keep each operation
+value fixed, let the f81v shared pool supply only local nouns, and rewrite the
+entire record as one basin/workstation article.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
