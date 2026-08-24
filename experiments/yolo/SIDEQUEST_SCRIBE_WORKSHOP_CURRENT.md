@@ -10626,10 +10626,19 @@ shown for a master decision. The emerging system is productive at the
 component level but licensed and bounded at the exact-card level. See
 `sidequest_semantic_contrast_encoder_seven_hundred_first/SEVEN_HUNDRED_FIRST_REPORT.md`.
 
-Next, turn all170 composed card recipes into a component compatibility graph.
-Determine which component orders and neighbour pairs are licensed, which are
-absent, and whether the eight fresh-prompt gaps violate a compact workshop
-rule or are merely unused cells in an otherwise allowed construction.
+Pass 702 turns the170 composed cards/160 distinct recipes into a directed
+compatibility grammar with161 licensed component adjacencies. Five fresh gaps
+look like structurally allowed but unused cells: LSH+Y, L+AIR, SH+E+OR, OK+AN
+and CFH+DY. Three are blocked by the current grammar: R requires an intervening
+complement; a quantity is never followed by a target address; and singleton S
+is revised from free TEILEN to the bound result GETEILT because it occurs only
+as a noninitial tail. No missing recipe receives an invented surface. See
+`sidequest_semantic_component_compatibility_seven_hundred_second/SEVEN_HUNDRED_SECOND_REPORT.md`.
+
+Next, express all eight missing prompts as the shortest sequence of existing
+cards while preserving component order and meaning. Compare one-card nearest
+substitution against exact two-/three-card paraphrase, and prefer a teachable
+multi-card construction whenever it avoids semantic loss.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
