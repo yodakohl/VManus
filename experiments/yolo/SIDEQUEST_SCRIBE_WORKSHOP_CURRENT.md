@@ -8804,10 +8804,20 @@ exists, but no rigid universal recipe order. Astro remains independent
 LOCATE→READ→RECORD per locus. See
 `sidequest_semantic_workflow_phases_four_hundred_seventy_sixth/FOUR_HUNDRED_SEVENTY_SIXTH_REPORT.md`.
 
-Next, turn the strongest shared two- and three-phase motifs into reusable
-sentence templates. Locate every exact occurrence, preserve its concrete
-referents, and compare the resulting Herbal and Bio sentences. This should
-distinguish genuine learned syntax from merely frequent isolated actions.
+Pass 477 turns the nine strongest shared two- and three-phase motifs into
+reusable apprentice sentences. All nine occur in Herbal and Biological; 79
+motif occurrences are aligned. A longest-first rewrite gives 35/116 statements
+at least one full template and covers 133/381 prose events, while bracketed
+local fills preserve every original event. The strongest productive sentence
+is MEASURE→MOVE with 21 occurrences across three Herbal and all six Bio
+records. See
+`sidequest_semantic_sentence_templates_four_hundred_seventy_seventh/FOUR_HUNDRED_SEVENTY_SEVENTH_REPORT.md`.
+
+Next, inspect the remaining 248 prose events outside greedy template coverage.
+Group their exact cards by recurring template slot and immediate phase context.
+Promote only short concrete slot values that work in multiple statements;
+retain true page-local names as learned whole cards. Then regenerate the 173
+card dictionary and continuous edition.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
