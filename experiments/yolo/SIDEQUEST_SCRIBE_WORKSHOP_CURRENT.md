@@ -8352,10 +8352,16 @@ POSTEN ANSETZEN→MASS. SOLK+E/EE remains the productive collection operation;
 QOTCHOL/ANWÄRMEN is a different exact whole card. See
 `sidequest_semantic_otytchol_extract_four_hundred_fourteenth/FOUR_HUNDRED_FOURTEENTH_POCKET_RULE.md`.
 
-Next, repair E010/ETYD. Its current small value Wurzelteil cannot also carry
-the old full use-and-storage clause. Decide whether it names residue, reserve,
-use, storage or closure, and finish the H1 ten-card reading with one short
-value.
+Pass 415 replaces singleton ETYD/WURZELTEIL plus its invented use-storage
+clause with the learned whole word GABE. It follows AUSZUG→ANSETZEN→MASS at the
+end of an open field; the next field reactivates, warms, continues and readies
+that dose. H1 now has a continuous fourteen-card preparation without a
+sentence-sized card gloss. See
+`sidequest_semantic_etyd_dose_handoff_four_hundred_fifteenth/FOUR_HUNDRED_FIFTEENTH_CONTINUOUS_H1.md`.
+
+Next, audit the first two H1 cards DCHEY/Wurzelteil and CTHOOR/säubern against
+their full occurrence families and the fixed f10r image. Decide whether the
+portable values are specifically ROOT/CLEAN or the broader PART/PREPARE.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
