@@ -10576,10 +10576,19 @@ CH+EE+CKH+O+DY->cheeckhody. This is the clearest current mechanism: composed
 technical brevigraphs plus learned whole-card allographs. See
 `sidequest_semantic_junction_surface_prediction_six_hundred_ninety_fifth/SIX_HUNDRED_NINETY_FIFTH_REPORT.md`.
 
-Next, extend the same diagnostic-fragment rule from the20 junction cards to
-all173 prose cards. Separate exact concatenations, ordered-plus-renderer forms,
-and genuine whole commands; use the failures to revise the surface grammar,
-not the component meanings.
+Pass 696 extends ordered fragments to all173 prose cards/230 visible forms.
+Exactly54 composed card types are direct in all forms,116 add a bound renderer,
+and only3 are declared whole commands (FACH, WIEDERAUFNEHMEN, VERWAHREN). All230
+forms retain their component fragments in order;78 are direct strings and152
+have residues of at most4 characters. Common residues are q,ch,d,s. The working
+system is now39 compact components + productive order composition + bound
+whole-card renderer. See
+`sidequest_semantic_full_surface_composition_six_hundred_ninety_sixth/SIX_HUNDRED_NINETY_SIXTH_REPORT.md`.
+
+Next, compress the30 observed renderer residues into a small set of positional
+copying rules. Use component frame, card edge and known page/record renderer;
+keep any residue that does not collapse cleanly as a memorized allograph rather
+than inventing another meaning.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
