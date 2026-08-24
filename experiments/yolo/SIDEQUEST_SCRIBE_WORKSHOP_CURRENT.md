@@ -7997,9 +7997,17 @@ clarification and washing distinct and preserve exact recovery of all 380 source
 cards and 116 statements. See
 `sidequest_semantic_workshop_thesaurus_three_hundred_sixty_second/THREE_HUNDRED_SIXTY_SECOND_WORKSHOP_THESAURUS.md`.
 
-Next, dictate free family phrases to an apprentice and force one exact formula
-and card choice. Use the mistakes to split families that are still too broad;
-do not alter a card merely to rescue a bad synonym.
+Pass 363 dictates only a family head plus short cues such as SOURCE, TARGET,
+SHORT, LONG, FOLLOW or MEASURE. This uniquely composes 94 of 159 formulas and
+187 of 380 source cards. The other 65 formulas and 193 source cards form 22
+explicit ambiguity bundles and are fetched as learned whole cards. This yields
+an almost even productive-abbreviation/whole-card workshop mixture without
+inventing extra roots. See
+`sidequest_semantic_family_dictation_three_hundred_sixty_third/THREE_HUNDRED_SIXTY_THIRD_MASTER_APPRENTICE_DIALOGUE.md`.
+
+Next, make contrast cards for the 22 ambiguous bundles. Permit one additional
+concrete cue only when it is already visible in the current value or owner;
+otherwise retain the pair or row as a memorized nomenclator entry.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
