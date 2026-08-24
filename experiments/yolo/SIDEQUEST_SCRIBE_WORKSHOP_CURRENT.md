@@ -9563,9 +9563,15 @@ station variants rather than four linear recipes or one global machine. B5–B6
 remain short open station notes. See
 `sidequest_semantic_natural_record_summaries_five_hundred_seventy_first/FIVE_HUNDRED_SEVENTY_FIRST_COMPLETE_RECORD_EDITION.md`.
 
-Next, align the five Herbal articles by internal article position—material,
-preparation, measure, application, and open continuation—to derive one shared
-Herbal article schema.
+Pass 572 aligns all five Herbal records into six article slots. Four are common
+to every article: pictured material, preparation batch, measure/portion, and an
+open continuation. Conditioning (hold/temper/settle) and
+transfer/application are optional extensions. All 19 Herbal statements and
+100 events bind to this schema; every article ends open. See
+`sidequest_semantic_herbal_article_schema_five_hundred_seventy_second/FIVE_HUNDRED_SEVENTY_SECOND_COMPLETE_HERBAL_SCHEMA.md`.
+
+Next, derive the corresponding B1–B4 Biological cell schema: medium, quantity,
+target/passage, grade/state, local operation, and close.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
