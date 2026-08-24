@@ -9326,8 +9326,18 @@ applications, not an exclusively therapeutic codex. Card values do not change.
 See
 `sidequest_semantic_dual_purpose_expansion_five_hundred_forty_second/FIVE_HUNDRED_FORTY_SECOND_REPORT.md`.
 
-Next, reconnect the three Astro pages and compare medical election tables with
-a general work/bathhouse almanac without importing prose card values.
+Pass 543 reconnects Astro as thirteen local namespaces, 142 loci and 395 opaque
+groups without direction, f68-f69 join or prose-card import. A medical election
+expansion needs nineteen silent purpose terms; a general celestial work
+almanac needs fourteen. Six namespaces favor work use, one favors medical
+complexion, six tie. Combined with prose, the ten-page silent-purpose cost is
+42 medical versus 33 practical/technical. The new lead is an illustrated plant
+material and wet-workshop book with bath/application stations plus a separate
+celestial work almanac; medical subuses remain live. See
+`sidequest_semantic_astro_purpose_reconnection_five_hundred_forty_third/FIVE_HUNDRED_FORTY_THIRD_REPORT.md`.
+
+Next, publish a complete ten-page reading under this revised purpose with all
+381 prose events and all395 Astro groups represented and no blank sequence.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
