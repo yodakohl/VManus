@@ -9548,8 +9548,15 @@ state and CLOSE commits the cell. There are 101 resets: eleven record starts,
 eight visible owner changes, and 82 post-commit restarts; 89 cells close. See
 `sidequest_semantic_object_state_machine_five_hundred_sixty_ninth/FIVE_HUNDRED_SIXTY_NINTH_COMPLETE_STATE_FLOW.md`.
 
-Next, convert each of the eleven state flows into a natural record summary
-with explicit starting material, transformations, and end product/open rest.
+Pass 570 corrects a case-sensitive owner bug: `Kronenpflanze` had a lowercase
+internal p and was incorrectly assigned to basin liquid. Exactly 17 H3 events
+and four H3 statements now change to PLANT_MATERIAL; H3 starts with pictured
+plant matter and forms a preparation batch. The other 364 events/112
+statements are unchanged, and all profiles/transitions are rebuilt. See
+`sidequest_semantic_plant_owner_case_correction_five_hundred_seventieth/FIVE_HUNDRED_SEVENTIETH_REPORT.md`.
+
+Next, use the corrected flows to write eleven natural record summaries with
+explicit starting material, transformations, and end product/open rest.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
