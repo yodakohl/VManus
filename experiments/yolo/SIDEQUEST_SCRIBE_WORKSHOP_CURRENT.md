@@ -8427,9 +8427,16 @@ The current weakest cards are H1 ABSCHABEN, H2 PASTE, H3 TRANK, H4 VERWAHREN
 and H5 BLÜTEBEGINN. See
 `sidequest_semantic_herbal_five_article_grammar_four_hundred_twenty_fifth/FOUR_HUNDRED_TWENTY_FIFTH_FIVE_ARTICLE_EDITION.md`.
 
-Next, attack those five weak cards together. Build five alternative complete
-article readings and choose the set that maximizes concrete coherence without
-turning any one card into a sentence.
+Pass 426 tests four short rivals for each weak Herbal card. The selected
+revisions are H1 SCHÄLEN, H2 BREI, H4 LAGERN and H5 ERSTE ZUTAT; H3 TRANK stays.
+These remove an implied tool, a modern product abstraction, a sentence-like
+storage phrase and an invented harvest time. The revised 100-event edition has
+exactly five marked decisions. See
+`sidequest_semantic_herbal_weak_card_tournament_four_hundred_twenty_sixth/FOUR_HUNDRED_TWENTY_SIXTH_REVISED_FIVE_ARTICLES.md`.
+
+Next, attack the second-weakest noun or operation in each Herbal article: H1
+KNOLLE, H2 GLASIERTES GEFÄSS, H3 BLÜTENKRAUT, H4 ABKÜHLEN and H5
+GEBRAUCHSAUSZUG. Separate picture-derived nouns from process-derived ones.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
