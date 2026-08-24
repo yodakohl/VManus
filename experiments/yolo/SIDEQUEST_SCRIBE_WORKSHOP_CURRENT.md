@@ -8339,9 +8339,15 @@ local realization, not the portable card value; CHET stays distinct from
 CTH/BEREIT, CHED/UMSETZEN, SHED/ABSETZEN and CHK/WÄRMEN. See
 `sidequest_semantic_chet_process_four_hundred_twelfth/FOUR_HUNDRED_TWELFTH_POCKET_RULE.md`.
 
-Next, audit the H1 OS/Gefäß card against every vessel, receiver and collection
-station card. Decide whether OS is a portable container word or merely a
-learned local vessel name, then rewrite the complete H1 preparation chain.
+Pass 413 keeps singleton OS as the learned whole word TOPF, locally the H1
+Ansatztopf. It sits exactly in BEARBEITEN→TOPF→WASSERZULAUF→AUFFANGEN and is
+kept distinct from separate learned cards for glazed vessel, receiver, basin
+station, wide vessel and work basin. OS is not decomposed as O+S. See
+`sidequest_semantic_os_pot_four_hundred_thirteenth/FOUR_HUNDRED_THIRTEENTH_POCKET_RULE.md`.
+
+Next, audit OTYTCHOL/AUFFANGEN and its neighboring cards. Decide whether it is
+a portable collection operation or merely the H1 product name, then close or
+repair the complete TOPF→WASSERZULAUF→collection module.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
