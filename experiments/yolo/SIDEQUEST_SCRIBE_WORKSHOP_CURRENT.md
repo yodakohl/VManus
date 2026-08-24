@@ -8223,9 +8223,15 @@ receiving/closure. The grammar continues, but no depicted connection, direction
 or material identity crosses the reset. See
 `sidequest_semantic_b3_two_station_flow_three_hundred_ninety_fifth/THREE_HUNDRED_NINETY_FIFTH_CONTINUOUS_B3_READING.md`.
 
-Next, render B3-S026 as a workshop page with continuous sentence order but an
-explicit owner-reset gap and no connecting arrow. Test whether a reader can
-preserve syntax while starting a new local referent at E291.
+Pass 396 renders that distinction directly. Across a large unconnected visual
+gap, the SYNTAX register stays open, OWNER resets from station A to station B,
+MATERIAL is not carried, and WORKFLOW_ORDER continues. OLKEEDY alone closes the
+seven-card instruction at the new owner. See
+`sidequest_semantic_b3_open_syntax_owner_reset_three_hundred_ninety_sixth/THREE_HUNDRED_NINETY_SIXTH_WORKSHOP_PAGE.md`.
+
+Next, let a second hand reflow the same seven cards around differently sized
+station blocks. Preserve open syntax, owner reset and lack of arrow, then verify
+the same two-local-object reading survives.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
