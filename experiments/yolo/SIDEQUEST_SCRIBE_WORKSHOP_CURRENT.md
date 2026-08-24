@@ -7907,9 +7907,17 @@ value-slot pairs have two exact spellings, and current owner-plus-right-context
 separates all their occurrences without inventing a new meaning. See
 `sidequest_semantic_full_correction_index_three_hundred_fiftieth/THREE_HUNDRED_FIFTIETH_ONE_PAGE_CORRECTION_MANUAL.md`.
 
-Next, make the twelve exemplar-only cards into a compact master teaching tablet:
-one picture owner, one concrete work act, one mnemonic and one contrast card for
-each, while preserving their whole-card status.
+Pass 351 makes the twelve exemplar-only cards into a master tablet. Every card
+has one picture/station owner, one short work value, a sentence strip, mnemonic
+and nearest contrast while remaining indivisible. Three strong teaching pairs
+are `cfhy/cphy` Auswringen/Nachseihen, `ches/chey` Teilen/Diesposten and
+`qekey/qokey` Kurzbearbeitung/Kurzkontakt. The twelve span eight records and all
+seven prose pages. See
+`sidequest_semantic_twelve_card_master_tablet_three_hundred_fifty_first/THREE_HUNDRED_FIFTY_FIRST_MASTER_TABLET.md`.
+
+Next, hide each of the twelve cards inside its statement and make a simulated
+apprentice reconstruct it from owner, left value, right value and slot; sort
+wrong answers into useful allograph, neighbour-card or genuine-confusion types.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
