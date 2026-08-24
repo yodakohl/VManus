@@ -7951,9 +7951,16 @@ boundaries and four owner handoffs forbid copying. Thus 48 visible forms encode
 44 source cards without making line end equal statement end. See
 `sidequest_semantic_residual_page_layout_three_hundred_fifty_sixth/THREE_HUNDRED_FIFTY_SIXTH_FOUR_RESIDUAL_LAYOUTS.md`.
 
-Next, hide the logical bars and give the four physical layouts to a workshop
-corrector. Reconstruct cycle boundaries, owner handoff and four read-once pairs
-from slot order, card identity and repetition alone.
+Pass 357 removes the logical bars and has a corrector reconstruct the layouts
+from card identity, dominant slot, margin and visible owner. All 48 visible
+forms reduce to 44 source cards; four read-once pairs, twelve logical boundaries,
+sixteen microcycles and four owner handoffs are recovered exactly. The operative
+rule is same margin/start card + same owner + nondecreasing slot. See
+`sidequest_semantic_corrector_reconstruction_three_hundred_fifty_seventh/THREE_HUNDRED_FIFTY_SEVENTH_CORRECTOR_NOTEBOOK.md`.
+
+Next, apply the same three-way line decision—continue, read-once carry, or real
+cycle/owner reset—to every available line transition in the existing 381-event
+prose edition and produce a continuous seven-page workshop reading.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
