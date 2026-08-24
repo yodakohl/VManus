@@ -9143,9 +9143,16 @@ makes fifty allograph-block entries and ten scene shifts: sixty decision
 instances on 57 events, leaving 324 automatic cards. See
 `sidequest_semantic_owner_initialization_five_hundred_nineteenth/FIVE_HUNDRED_NINETEENTH_REPORT.md`.
 
-Next, derive deterministic visual-entry cues for the ten internal Bio scene
-shifts. If every shift follows a visible threshold, remove free owner choice
-entirely and teach only the threshold rule.
+Pass 520 derives four deterministic owner-threshold rules. Eight internal Bio
+shifts enter a directly bounded visible station; two occur at a visible gap,
+where the old owner is dropped and the local exemplar binding is copied rather
+than interpreted. All 21 owner transitions are therefore automatic. The only
+remaining conscious choices are fifty allograph-block entries; 331 of 381
+cards flow automatically. See
+`sidequest_semantic_visible_owner_thresholds_five_hundred_twentieth/FIVE_HUNDRED_TWENTIETH_REPORT.md`.
+
+Next, test whether the fifty allograph blocks can be loaded once as locus-level
+renderer modes instead of switched on during card production.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these

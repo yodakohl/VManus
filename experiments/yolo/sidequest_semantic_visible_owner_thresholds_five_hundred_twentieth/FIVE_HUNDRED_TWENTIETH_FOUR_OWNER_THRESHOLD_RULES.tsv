@@ -1,0 +1,5 @@
+rule_no	condition	action	master_choice	teaching_de
+1	FIRST_EVENT_OF_RECORD	LOAD_VISIBLE_RECORD_OWNER	NO	Am Recordanfang den sichtbaren Hauptbesitzer laden.
+2	NEW_DISCONNECTED_VISIBLE_STATION_OR_REGION	RESET_TO_VISIBLE_LOCAL_OWNER	NO	Beginnt eine getrennte Station, endet die alte Besitzervererbung.
+3	VISIBLE_GAP_WITH_AMBIGUOUS_TARGET	RESET_AND_COPY_LOCAL_EXEMPLAR_BINDING	NO	Bei einer Bildlücke nicht raten: zurücksetzen und die lokale Exemplarbindung kopieren.
+4	NO_THRESHOLD	INHERIT_CURRENT_OWNER	NO	Ohne neue sichtbare Schwelle den laufenden Besitzer behalten.
