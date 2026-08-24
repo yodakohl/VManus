@@ -8151,9 +8151,16 @@ extend the same long grade to target and continuation endpoints. Six close
 neighbours remain explicit whole-card boundaries. See
 `sidequest_semantic_ok_grade_endpoint_ladder_three_hundred_eighty_fourth/THREE_HUNDRED_EIGHTY_FOURTH_LADDER_SHEET.md`.
 
-Next, use only existing ladder cells to write a compact process strip with at
-least one open-to-closed grade contrast. Then force a word-for-word component
-backread, not a fluent recipe paraphrase.
+Pass 385 lays out three parallel grade tracks using seven existing cards in
+eleven positions. Short and long each show an open/closed pair; the fully graded
+track retains an honest blank where no open top-grade card is registered. Every
+token backreads as entry shell, content core, grade and endpoint rather than a
+sentence-sized gloss. See
+`sidequest_semantic_ok_process_strip_three_hundred_eighty_fifth/THREE_HUNDRED_EIGHTY_FIFTH_PROCESS_STRIP.md`.
+
+Next, insert one wrong existing grade or endpoint card into each track. Require
+the apprentice to repair each line by naming exactly the faulty component and
+changing only that one card.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
