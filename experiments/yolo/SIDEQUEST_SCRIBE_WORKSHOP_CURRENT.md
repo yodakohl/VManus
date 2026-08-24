@@ -8986,9 +8986,17 @@ BECKEN ANSETZEN IM DURCHLASS HALTEN UND VERWENDEN. No body or disease is
 encoded, and the manual falls from 165 to 164 items. See
 `sidequest_semantic_b2_hold_pass_use_four_hundred_ninety_eighth/FOUR_HUNDRED_NINETY_EIGHTH_REPORT.md`.
 
-Next, rebuild the residual local-form inventory after the macro series and
-rank the true remaining irreducible forms rather than following the obsolete
-Pass 488 length list.
+Pass 499 removes all 46 `X:` statement residuals and all three small `R:`
+residuals as lexical learning items. Their 204 events already consist of the
+35 shared components or the learned EMPFANGSBESTAND, TEILEN and STUFE-II
+cards. One general owner/source/measure/target/action/close clause rule replaces
+the 49 entries. Only five procedure-order macros remain; the local deck falls
+from 54 to six items and the full manual from 164 to 116. See
+`sidequest_semantic_residual_deck_collapse_four_hundred_ninety_ninth/FOUR_HUNDRED_NINETY_NINTH_REPORT.md`.
+
+Next, factor the five retained macros into a small shared procedure vocabulary
+such as charge, measure, hold, draw and dispatch while preserving their exact
+phase order.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
