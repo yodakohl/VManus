@@ -10635,10 +10635,19 @@ is revised from free TEILEN to the bound result GETEILT because it occurs only
 as a noninitial tail. No missing recipe receives an invented surface. See
 `sidequest_semantic_component_compatibility_seven_hundred_second/SEVEN_HUNDRED_SECOND_REPORT.md`.
 
-Next, express all eight missing prompts as the shortest sequence of existing
-cards while preserving component order and meaning. Compare one-card nearest
-substitution against exact two-/three-card paraphrase, and prefer a teachable
-multi-card construction whenever it avoids semantic loss.
+Pass 703 expresses all24 fresh prompts with existing cards. Sixteen use one
+direct card, R+Y uses the already attested expanded R+AL+Y card, and the other
+seven use two-card paraphrases with explicit statement boundaries. Examples
+are AIN | P+CHD+AL for a portion placed at the target and CFH+Y | O+DY for
+wringing the current item then closing the work step. Every requested component
+is retained, no new card or surface is invented, and semantic productivity is
+separated cleanly from licensed word formation. See
+`sidequest_semantic_multicard_paraphrase_seven_hundred_third/SEVEN_HUNDRED_THIRD_REPORT.md`.
+
+Next, mine the116 existing statements for recurrent two-/three-card phrases,
+group them by compact workshop reading, and rewrite the seven new paraphrases
+with the closest genuinely attested statement templates rather than merely
+concatenating individually known cards.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
