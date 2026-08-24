@@ -9092,9 +9092,16 @@ composed, 91 direct-core, one compressed and eight whole-sign occurrences. All
 116 statements are rebuilt from the same entries. See
 `sidequest_semantic_complete_morph_lexicon_five_hundred_twelfth/FIVE_HUNDRED_TWELFTH_REPORT.md`.
 
-Next, turn the twelve direct core cards and five whole signs into a concrete
-seventeen-card apprentice deck with fronts, backs, legal neighbours and one
-real fixed-page example each.
+Pass 513 turns the twelve direct-core card types and five whole signs into a
+seventeen-card apprentice deck with fronts, backs, common neighbours and a real
+example each. It directly covers 99 events. Because three direct card families
+share OL/continue, the twelve atomic cards realize only ten distinct standalone
+components; 22 of 32 components occur only embedded in longer cards. See
+`sidequest_semantic_seventeen_card_deck_five_hundred_thirteenth/FIVE_HUNDRED_THIRTEENTH_REPORT.md`.
+
+Next, build twenty-two embedded-component strips, each with highlighted host
+forms from different contexts, so an apprentice learns the remaining stems
+without inventing standalone words that never occur.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
