@@ -8283,9 +8283,16 @@ Thus duplicate-slot grammar is portable while press-liquid/press-mass is H2
 local. See
 `sidequest_semantic_bio_pair_contrast_four_hundred_fourth/FOUR_HUNDRED_FOURTH_BIO_DUPLICATION_MANUAL.md`.
 
-Next, read all of B3-S021 as a concrete two-station transfer. Assign each
-AIIN/CTH/AL/Y occurrence to station A or B, preserve its line crossing and local
-close, and compare a bath handoff with a workshop-vessel handoff.
+Pass 405 reads all eleven B3-S021 cards as a two-phase handoff. Measure, ready,
+target and current-item roles recur on both sides of the line crossing; phase B
+adds a settling place, tempered state and local close. A bath-portion handoff is
+the concrete lead, a vessel handoff the close rival. The text lies in an
+unconnected visual gap, so neither is assigned to a named pictured basin. See
+`sidequest_semantic_b3_two_phase_handoff_four_hundred_fifth/FOUR_HUNDRED_FIFTH_CONTINUOUS_READING.md`.
+
+Next, isolate the B3 phase-B middle SAIIN-SHEDAL-SHECTHY. Compare
+measure-settle-temper against duration-rest-warm using every fixed-page SHEDAL
+and SHECTHY occurrence, then rewrite the handoff with the better compact values.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
