@@ -7944,10 +7944,16 @@ Diesposten, Sollmaß and Langkontakt—while five stay invariant, producing four
 distinct complete surfaces for one work order. See
 `sidequest_semantic_four_hand_cross_read_three_hundred_fifty_fifth/THREE_HUNDRED_FIFTY_FIFTH_FOUR_PARALLEL_ORDERS.md`.
 
-Next, fit those four versions into different residual page widths. Preserve the
-four microcycles and owner handoff while permitting statements to cross lines;
-record where anticipation/carry copies would be useful and where they would
-create a false duplicate.
+Pass 356 fits the four versions into residual widths 18, 16, 20 and 22. The
+result has 17 physical lines and 13 breaks. Four intra-microcycle breaks receive
+a marginal anticipation copy read once with the following line; five cycle
+boundaries and four owner handoffs forbid copying. Thus 48 visible forms encode
+44 source cards without making line end equal statement end. See
+`sidequest_semantic_residual_page_layout_three_hundred_fifty_sixth/THREE_HUNDRED_FIFTY_SIXTH_FOUR_RESIDUAL_LAYOUTS.md`.
+
+Next, hide the logical bars and give the four physical layouts to a workshop
+corrector. Reconstruct cycle boundaries, owner handoff and four read-once pairs
+from slot order, card identity and repetition alone.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
