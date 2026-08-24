@@ -7553,9 +7553,17 @@ remainder and pouring from the source side. No
 `NAMED_WORKSTEP_IMPERATIVE` remains. See
 `sidequest_semantic_ten_weak_cards_three_hundred_fourth/THREE_HUNDRED_FOURTH_TEN_CARD_CONTEXT_READINGS.md`.
 
-Next, inventory recurrent adjacent card chains and promote only those whose
-fixed order supports a teachable ca. 1420 recipe formula without changing the
-individual card meanings.
+Pass 305 finds exactly fifteen recurrent exact chains: fourteen pairs and one
+triple. Ten become teachable recipe formulae with 23 hits in 20 statements,
+including continuing then briefly settling, long contact then insertion,
+transfer then long contact, same batch then continuation and target then
+continuation. The repeated current-item–measure–current-item triple is retained
+as a formal parameter bracket, not promoted to equality or a named semantic
+operator. See
+`sidequest_semantic_recurrent_formulas_three_hundred_fifth/THREE_HUNDRED_FIFTH_RECIPE_FORMULA_COPYBOOK.md`.
+
+Next, search across statement boundaries for longer recurring procedure blocks
+made from these formulae and the fixed imperative cards.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
