@@ -8448,9 +8448,17 @@ remain learned cards. Four older H1 values are synchronized to DASSELBE,
 VERWENDE DIES, MASS and NIMM DIES. See
 `sidequest_semantic_herbal_operation_lexicon_four_hundred_twenty_eighth/FOUR_HUNDRED_TWENTY_EIGHTH_APPRENTICE_CARD.md`.
 
-Next, transfer this exact small lexicon to all B1 events. Keep each operation
-value fixed, let the f81v shared pool supply only local nouns, and rewrite the
-entire record as one basin/workstation article.
+Pass 429 transfers ten exact Herbal cards unchanged into 23 of B1's 66 events
+and supplies the remaining 43 events from a 33-card pool-local deck. All 21
+cells now read continuously as a shared pool/workstation article; a therapeutic
+bath is a possible local expansion, not part of the portable card grammar. The
+weakest local sequence is B1-S018, where DSHEOL=EINREIBEN sits awkwardly
+between EMPFANGSGEFÄSS and SOLLSTAND. See
+`sidequest_semantic_b1_pool_article_four_hundred_twenty_ninth/FOUR_HUNDRED_TWENTY_NINTH_COMPLETE_B1.md`.
+
+Next, audit DSHEOL and its neighbouring application/preparation cards. Decide
+whether its compact value is EINREIBEN, AUSSTREICHEN, BESCHICHTEN or
+VORBEREITEN, then rewrite B1-S018 without changing the ten transferred cards.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
