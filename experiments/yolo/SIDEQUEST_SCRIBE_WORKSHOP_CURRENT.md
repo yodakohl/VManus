@@ -9522,9 +9522,18 @@ CHARGE→HOLD→CLOSE is “fill one portion, let it act, and close.” All 381 
 remain bound to the complete readings. See
 `sidequest_semantic_natural_macro_edition_five_hundred_sixty_sixth/FIVE_HUNDRED_SIXTY_SIXTH_COMPLETE_NATURAL_EDITION.md`.
 
-Next, specialize each macro's object by visible owner class—plant material,
-basin liquid, application site, or technical station—so generic `Arbeitsstoff`
-shrinks without changing the shared macro meaning.
+Pass 567 supplies eight visible object classes to the shared macros: plant
+matter/preparation, basin liquid, hand-device liquid, vessel preparation,
+figure-pair application, technical-station liquid, separate portion, and an
+unclear work portion. The same formal macro now reads differently by owner;
+generic `Arbeitsstoff` falls to zero. There are 43 observed macro×owner
+combinations over 73 macro statements, with all 381 event expansions retained.
+See
+`sidequest_semantic_owner_specialized_macros_five_hundred_sixty_seventh/FIVE_HUNDRED_SIXTY_SEVENTH_COMPLETE_OWNER_SPECIALIZED_EDITION.md`.
+
+Next, cross the eight object classes with recurring quantity, state, and source
+cards across records to derive a small concrete inventory of workshop objects
+without inventing plant species or diseases.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these

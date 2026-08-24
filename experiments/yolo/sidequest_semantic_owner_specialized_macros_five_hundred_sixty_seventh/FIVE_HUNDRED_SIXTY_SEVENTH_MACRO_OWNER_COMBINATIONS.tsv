@@ -1,0 +1,44 @@
+macro_id	phase_signature	owner_object_class	statements	owner_specialized_macro_de	formal_macro_unchanged
+WM01	ROUTE>CLOSE	BASIN_LIQUID	5	Führe die Bad- oder Beckenflüssigkeit zur nächsten sichtbaren Station und schließe dort den Schritt.	YES
+WM01	ROUTE>CLOSE	FIGURE_APPLICATION	1	Führe die Anwendung am Figurenpaar zur nächsten sichtbaren Station und schließe dort den Schritt.	YES
+WM01	ROUTE>CLOSE	SEPARATE_PORTION	4	Führe die getrennt geführte Portion zur nächsten sichtbaren Station und schließe dort den Schritt.	YES
+WM01	ROUTE>CLOSE	TECHNICAL_STATION_LIQUID	3	Führe die Flüssigkeit dieser Station zur nächsten sichtbaren Station und schließe dort den Schritt.	YES
+WM01	ROUTE>CLOSE	VESSEL_PREPARATION	3	Führe den Ansatz im Gefäß zur nächsten sichtbaren Station und schließe dort den Schritt.	YES
+WM02	HOLD>CLOSE	BASIN_LIQUID	4	Lass die Bad- oder Beckenflüssigkeit einwirken oder stehen; schließe danach den Schritt.	YES
+WM02	HOLD>CLOSE	FIGURE_APPLICATION	7	Lass die Anwendung am Figurenpaar einwirken oder stehen; schließe danach den Schritt.	YES
+WM02	HOLD>CLOSE	SEPARATE_PORTION	1	Lass die getrennt geführte Portion einwirken oder stehen; schließe danach den Schritt.	YES
+WM02	HOLD>CLOSE	TECHNICAL_STATION_LIQUID	3	Lass die Flüssigkeit dieser Station einwirken oder stehen; schließe danach den Schritt.	YES
+WM03	SETTLE>CLOSE	BASIN_LIQUID	1	Lass die Bad- oder Beckenflüssigkeit ruhen und sich absetzen; schließe danach den Schritt.	YES
+WM03	SETTLE>CLOSE	FIGURE_APPLICATION	1	Lass die Anwendung am Figurenpaar ruhen und sich absetzen; schließe danach den Schritt.	YES
+WM03	SETTLE>CLOSE	HAND_DEVICE_LIQUID	2	Lass die Arbeitsflüssigkeit im Handgerät ruhen und sich absetzen; schließe danach den Schritt.	YES
+WM03	SETTLE>CLOSE	SEPARATE_PORTION	1	Lass die getrennt geführte Portion ruhen und sich absetzen; schließe danach den Schritt.	YES
+WM03	SETTLE>CLOSE	VESSEL_PREPARATION	1	Lass den Ansatz im Gefäß ruhen und sich absetzen; schließe danach den Schritt.	YES
+WM04	MEASURE_CHARGE	BASIN_LIQUID	2	Fülle eine abgemessene Portion der Beckenflüssigkeit ein.	YES
+WM04	MEASURE_CHARGE	PLANT_MATERIAL	1	Fülle eine abgemessene Portion des Pflanzenstoffs ein.	YES
+WM04	MEASURE_CHARGE	TECHNICAL_STATION_LIQUID	1	Fülle eine abgemessene Portion der Stationsflüssigkeit ein.	YES
+WM04	MEASURE_CHARGE	VESSEL_PREPARATION	1	Fülle eine abgemessene Portion des Ansatzes ein.	YES
+WM05	MEASURE_CHARGE>HOLD>CLOSE	BASIN_LIQUID	1	Fülle eine abgemessene Portion der Beckenflüssigkeit ein, lass sie einwirken und schließe den Schritt.	YES
+WM05	MEASURE_CHARGE>HOLD>CLOSE	FIGURE_APPLICATION	2	Fülle eine abgemessene Portion für die Anwendung ein, lass sie einwirken und schließe den Schritt.	YES
+WM05	MEASURE_CHARGE>HOLD>CLOSE	UNCLEAR_WORK_PORTION	1	Fülle eine abgemessene Arbeitsportion ein, lass sie einwirken und schließe den Schritt.	YES
+WM05	MEASURE_CHARGE>HOLD>CLOSE	VESSEL_PREPARATION	1	Fülle eine abgemessene Portion des Ansatzes ein, lass sie einwirken und schließe den Schritt.	YES
+WM06	MEASURE_CHARGE>ROUTE>CLOSE	BASIN_LIQUID	1	Fülle eine abgemessene Portion der Beckenflüssigkeit ein, führe sie weiter und schließe den Schritt.	YES
+WM06	MEASURE_CHARGE>ROUTE>CLOSE	FIGURE_APPLICATION	1	Fülle eine abgemessene Portion für die Anwendung ein, führe sie weiter und schließe den Schritt.	YES
+WM06	MEASURE_CHARGE>ROUTE>CLOSE	SEPARATE_PORTION	1	Fülle eine weitere abgemessene Portion ein, führe sie weiter und schließe den Schritt.	YES
+WM06	MEASURE_CHARGE>ROUTE>CLOSE	TECHNICAL_STATION_LIQUID	1	Fülle eine abgemessene Portion der Stationsflüssigkeit ein, führe sie weiter und schließe den Schritt.	YES
+WM06	MEASURE_CHARGE>ROUTE>CLOSE	VESSEL_PREPARATION	1	Fülle eine abgemessene Portion des Ansatzes ein, führe sie weiter und schließe den Schritt.	YES
+WM07	CLOSE	FIGURE_APPLICATION	2	Schließe den laufenden Arbeitsschritt für die Anwendung am Figurenpaar.	YES
+WM07	CLOSE	TECHNICAL_STATION_LIQUID	2	Schließe den laufenden Arbeitsschritt für die Flüssigkeit dieser Station.	YES
+WM08	MEASURE_CHARGE>SETTLE>CLOSE	FIGURE_APPLICATION	1	Beschicke mit eine abgemessene Portion für die Anwendung, lass den Inhalt absetzen und schließe den Schritt.	YES
+WM08	MEASURE_CHARGE>SETTLE>CLOSE	HAND_DEVICE_LIQUID	1	Beschicke mit eine abgemessene Portion der Arbeitsflüssigkeit, lass den Inhalt absetzen und schließe den Schritt.	YES
+WM08	MEASURE_CHARGE>SETTLE>CLOSE	TECHNICAL_STATION_LIQUID	1	Beschicke mit eine abgemessene Portion der Stationsflüssigkeit, lass den Inhalt absetzen und schließe den Schritt.	YES
+WM09	HOLD>SETTLE>CLOSE	BASIN_LIQUID	1	Lass die Bad- oder Beckenflüssigkeit einwirken, dann absetzen, und schließe den Schritt.	YES
+WM09	HOLD>SETTLE>CLOSE	SEPARATE_PORTION	1	Lass die getrennt geführte Portion einwirken, dann absetzen, und schließe den Schritt.	YES
+WM10	MATERIAL_PREP	PLANT_MATERIAL	2	Bereite den Pflanzenstoff oder Ansatz vor.	YES
+WM11	MEASURE_CHARGE>CLOSE	FIGURE_APPLICATION	1	Beschicke bis zum Sollmaß mit eine abgemessene Portion für die Anwendung und schließe den Schritt.	YES
+WM11	MEASURE_CHARGE>CLOSE	PLANT_MATERIAL	1	Beschicke bis zum Sollmaß mit eine abgemessene Portion des Pflanzenstoffs und schließe den Schritt.	YES
+WM12	ROUTE	BASIN_LIQUID	2	Führe die Bad- oder Beckenflüssigkeit zur nächsten sichtbaren Station.	YES
+WM13	ROUTE>MEASURE_CHARGE>ROUTE>CLOSE	BASIN_LIQUID	1	Übernimm die Bad- oder Beckenflüssigkeit, gib eine abgemessene Portion der Beckenflüssigkeit zu, führe weiter und schließe den Schritt.	YES
+WM13	ROUTE>MEASURE_CHARGE>ROUTE>CLOSE	VESSEL_PREPARATION	1	Übernimm den Ansatz im Gefäß, gib eine abgemessene Portion des Ansatzes zu, führe weiter und schließe den Schritt.	YES
+WM14	ROUTE>SETTLE>CLOSE	BASIN_LIQUID	1	Führe die Bad- oder Beckenflüssigkeit weiter, fange sie oder ihn auf, lass absetzen und schließe den Schritt.	YES
+WM14	ROUTE>SETTLE>CLOSE	VESSEL_PREPARATION	1	Führe den Ansatz im Gefäß weiter, fange sie oder ihn auf, lass absetzen und schließe den Schritt.	YES
+WM15	THERMAL>SETTLE>CLOSE	TECHNICAL_STATION_LIQUID	2	Temperiere die Flüssigkeit dieser Station, lass ruhen oder absetzen und schließe den Schritt.	YES
