@@ -9778,9 +9778,19 @@ fat are article-level carrier defaults, never single-form glosses; no plant
 species or disease is named. See
 `sidequest_semantic_concrete_herbal_recipes_six_hundredth/SIX_HUNDREDTH_REPORT.md`.
 
-Next, compare these five product classes with visible Biological station
-classes—bath, wash, poultice/application, passage, collection/rest—allowing
-many-to-many compatibility but no invented one-to-one page pointer.
+Pass 601 compares those five products with sixteen visible Biological station
+classes. The full 5x16 matrix has eighteen direct and 32 plausible working
+matches; four products have several equally strong destinations. The broad
+f81v basin accepts liquid wash/bath/mixing products, the paired f83r arch best
+accepts the tempered poultice, and the local fringe/S-flow stations accept
+liquid charges. No written folio pointer or one-to-one product/station pair is
+needed: this is a many-to-many product-class-to-workstation grammar. See
+`sidequest_semantic_product_station_compatibility_six_hundred_first/SIX_HUNDRED_FIRST_REPORT.md`.
+
+Next, write all six Biological records as concrete station programs with
+compatible Herbal products as interchangeable inputs, and compare the
+therapeutic bath/application reading with the practical bathhouse/washer
+reading without changing the card dictionary.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
