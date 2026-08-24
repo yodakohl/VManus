@@ -8496,10 +8496,17 @@ predicted directly from the grammar: SH+E+CKH+Y=DIES KURZ DURCHFUEHREN, replacin
 the vague UEBER DER STELLE. See
 `sidequest_semantic_b2_station_article_four_hundred_thirty_fifth/FOUR_HUNDRED_THIRTY_FIFTH_COMPLETE_B2.md`.
 
-Next, attack the B2-only transfer families LCHECKHY, LCHED, LCHECKHEDY,
-QOKALY, LCHEDAR, PCHEDY and LOCHEDY. Extend the B1 source-path-target grammar
-only where the visible pieces predict a concrete value, and shrink the B2
-local deck accordingly.
+Pass 436 derives seven additional B2 cards from the source-path-target grammar:
+LCHECKHY leads this item to the passage, LCHED leads out, LCHECKHEDY strains
+out and closes, QOKALY sets this at the target, LCHEDAR leads out from there,
+PCHEDY leads in and closes, and LOCHEDY leads out and closes while its O remains
+unresolved. Together with SHECKHY, eight compositions reduce the B2 local deck
+from 32 to 24 types. See
+`sidequest_semantic_b2_directional_composition_four_hundred_thirty_sixth/FOUR_HUNDRED_THIRTY_SIXTH_APPRENTICE_GRID.md`.
+
+Next, build B2's grade ladder around OKEY/QOKEEY/QOKEEDY/QOKEEEDY, OTEEY,
+QOTEEDY, CHKEEY and QCTHEY. Make E/EE/EEE mean short/long/full consistently,
+keep operation and close separate, and rewrite every affected B2 statement.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
