@@ -7784,9 +7784,16 @@ Sollmass/Langwaerme, and H5 Einsetzen/Fortsetzen. Station images then add local
 contact, holding, settling or target work. See
 `sidequest_semantic_herbal_bio_program_bridge_three_hundred_thirty_fourth/THREE_HUNDRED_THIRTY_FOURTH_WORKSHOP_BRIDGE.md`.
 
-Next, compress the twelve programs into one handwritten card-order syntax with
-start/reference, material/measure, process, grade, target and close slots, then
-use it to generate all nineteen Herbal and ninety-seven Bio statements.
+Pass 335 compresses the twelve programs into six ordered writing slots: Bezug/
+Folge, Material/Mass, Prozess/Transfer, Dauer/Zustand, Ziel/Anwendung and
+Bereit/Abschluss. Slots may be skipped or repeated; returning to an earlier slot
+opens a new microcycle. All 381 events and 116 statements parse into 205 such
+cycles, 63 statements need one cycle, and the longest needs six. See
+`sidequest_semantic_card_order_syntax_three_hundred_thirty_fifth/THREE_HUNDRED_THIRTY_FIFTH_ONE_PAGE_APPRENTICE_SYNTAX.md`.
+
+Next, use the six-slot syntax to compose a fresh short Herbal preparation and a
+matching Bio station continuation from registered cards and owners, then reverse
+read both without borrowing any existing complete sequence.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
