@@ -8385,9 +8385,16 @@ ZUGEBEN→DIES→LÄNGER ANSETZEN; H2's repeated Y cards enumerate anonymous spl
 items without naming them. See
 `sidequest_semantic_y_this_four_hundred_nineteenth/FOUR_HUNDRED_NINETEENTH_POCKET_RULE.md`.
 
-Next, separate the exact OKY and OKCHY cards, which currently both read DIES
-ANSETZEN. Compare all thirteen occurrences and seek one portable distinction:
-take versus apply, internal versus external start, or learned synonymy.
+Pass 420 provisionally separates the exact cards OKCHY=NIMM DIES and
+OKY=VERWENDE DIES. All three OKCHY cases introduce or explicitly take a new
+item; most ten OKY cases reactivate an inherited item, with two statement-start
+uses supplied by the visible owner. Synonymy remains the rival and CH is not
+promoted to a free stem. See
+`sidequest_semantic_oky_okchy_four_hundred_twentieth/FOUR_HUNDRED_TWENTIETH_POCKET_RULE.md`.
+
+Next, rebuild the complete H5 plant article with NIMM versus VERWENDE plus the
+current ZUTAT, AUSZUG, ABSEIHEN and WASCHEN cards. Use every H5 event and remove
+any remaining sentence-sized or contradictory gloss.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
