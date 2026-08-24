@@ -9678,10 +9678,16 @@ owner-filled instruction. All 381 events are indexed once; short formulas use
 one group and the 22 long statements retain 45 breath groups. See
 `sidequest_semantic_uniform_three_line_edition_five_hundred_eighty_seventh/FIVE_HUNDRED_EIGHTY_SEVENTH_COMPLETE_THREE_LINE_EDITION.md`.
 
-Next, smooth the five Herbal records into continuous article prose using only
-this complete edition, preserving every card/action/argument in a companion
-interlinear. Then treat the six Biological records separately as station and
-application entries.
+Pass 588 smooths the five Herbal records into continuous article prose while a
+nineteen-statement/100-event companion retains every card, component, action,
+and argument. H3 is the clearest processing article (enter, hold, wring, steep,
+put in, steep again, enter the extract); H4 is measure/application heavy and H5
+is the longest gift/transfer sequence. All five remain open articles. See
+`sidequest_semantic_complete_herbal_articles_five_hundred_eighty_eighth/FIVE_HUNDRED_EIGHTY_EIGHTH_COMPLETE_HERBAL_PROSE.md`.
+
+Next, smooth B1–B6 as local station/application entries, not one global pipe
+system: B1–B4 remain adjacent closed-cell registers and B5–B6 short technical
+appendices, with all 281 events retained.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
