@@ -7915,9 +7915,16 @@ are `cfhy/cphy` Auswringen/Nachseihen, `ches/chey` Teilen/Diesposten and
 seven prose pages. See
 `sidequest_semantic_twelve_card_master_tablet_three_hundred_fifty_first/THREE_HUNDRED_FIFTY_FIRST_MASTER_TABLET.md`.
 
-Next, hide each of the twelve cards inside its statement and make a simulated
-apprentice reconstruct it from owner, left value, right value and slot; sort
-wrong answers into useful allograph, neighbour-card or genuine-confusion types.
+Pass 352 hides each master card and substitutes its nearest registered wrong
+surface. All twelve are recovered: visible owner separates eight, slot one and
+the right-hand operation three; none requires an otherwise unmotivated new
+allograph or an unassisted lookup. The hard pairs are `tshol/dchol` and the two
+directions of `cfhy/cphy`. See
+`sidequest_semantic_hidden_card_drill_three_hundred_fifty_second/THREE_HUNDRED_FIFTY_SECOND_CONCEALED_DRILL_DIALOGUE.md`.
+
+Next, lay out the complete 173-card teaching deck as a usable workshop board:
+six operation-slot columns, five material-state rows, fourteen competing pairs
+side by side and the twelve master cards pinned to their picture owners.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
