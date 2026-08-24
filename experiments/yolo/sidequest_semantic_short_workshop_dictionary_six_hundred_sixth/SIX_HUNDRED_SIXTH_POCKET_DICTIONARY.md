@@ -1,0 +1,218 @@
+# Kurzes Werkstattwörterbuch
+
+## 38 Grundwörter
+
+- **AIIN** — MASS
+- **AIN** — PORTION
+- **AIR** — LAUF
+- **AL** — ZIEL
+- **AR** — QUELLE
+- **CFH** — AUSWRINGEN
+- **CH** — ABZIEHEN
+- **CHD** — UMSETZEN
+- **CHK** — WAERMEN
+- **CKH** — DURCHLASS
+- **CTH** — BEREIT
+- **DA** — ZWEIT
+- **DY** — SCHLUSS
+- **E** — KURZ
+- **EE** — LANG
+- **EEE** — VOLL
+- **HO** — GABE
+- **IIN** — STUFE
+- **K** — ZUFUEHREN
+- **L** — FUEHREN
+- **LD** — BEFESTIGEN
+- **LS** — WEITER
+- **LSH** — WASCHEN
+- **O** — GANG
+- **OK** — ANSETZEN
+- **OL** — FORTSETZEN
+- **OR** — ANSATZ
+- **OS** — FACH
+- **OT** — DANACH
+- **P** — HINEIN
+- **R** — KUEHLEN
+- **S** — TEILEN
+- **SH** — HALTEN
+- **SHED** — ABSETZEN
+- **SOLK** — AUFFANGEN
+- **T** — EINTRAGEN
+- **TALAM** — VERWAHREN
+- **Y** — DIES
+
+## 173 Karten
+
+- **PROC001** `dchey` = ABZIEHEN·KURZ·DIES
+- **PROC002** `cthoor` = BEREIT·GANG·ANSATZ
+- **PROC003** `char|dar|sar` = QUELLE
+- **PROC004** `chety|chty` = EINTRAGEN·DIES
+- **PROC005** `os` = FACH
+- **PROC006** `chair` = ABZIEHEN·LAUF
+- **PROC007** `otytchol` = DANACH·DIES·EINTRAGEN·ABZIEHEN·FORTSETZEN
+- **PROC008** `choky|oky|qoky` = ANSETZEN·DIES
+- **PROC009** `aiin|chaiin|daiin|saiin|taiin` = MASS
+- **PROC010** `etyd` = KURZ·EINTRAGEN·DIES
+- **PROC011** `chokchy|okchy|qokchy` = ANSETZEN·DIES
+- **PROC012** `qotchol` = DANACH·ABZIEHEN·FORTSETZEN
+- **PROC013** `cheol|chol|ol|qol|sol|tol` = FORTSETZEN
+- **PROC014** `checthy|cthy|shcthy` = BEREIT·DIES
+- **PROC015** `ycheor` = DIES·ABZIEHEN·KURZ·ANSATZ
+- **PROC016** `chor|or|shor|sor` = ANSATZ
+- **PROC017** `cthaiin` = BEREIT·MASS
+- **PROC018** `qoctholy` = GANG·BEREIT·FORTSETZEN·DIES
+- **PROC019** `chey|chy|dy|shy|sy|y` = DIES
+- **PROC020** `otchor|qotchor` = DANACH·ABZIEHEN·ANSATZ
+- **PROC021** `otol` = DANACH·FORTSETZEN
+- **PROC022** `cholor|olor` = FORTSETZEN·ANSATZ
+- **PROC023** `oykchor` = GANG·DIES·ZUFUEHREN·ANSATZ
+- **PROC024** `kaiiin` = ZUFUEHREN·STUFE
+- **PROC025** `chodaiin` = ABZIEHEN·GANG·MASS
+- **PROC026** `tshol` = EINTRAGEN·HALTEN·FORTSETZEN
+- **PROC027** `schoal` = HALTEN·GANG·ZIEL
+- **PROC028** `cfhy` = AUSWRINGEN·DIES
+- **PROC029** `shfydaiin` = HALTEN·DIES·MASS
+- **PROC030** `cphy` = HINEIN·DIES
+- **PROC031** `cheey|shey` = HALTEN·LANG·DIES
+- **PROC032** `tchody` = EINTRAGEN·ABZIEHEN·GANG·SCHLUSS
+- **PROC033** `shoyty` = HALTEN·GANG·DIES·EINTRAGEN·DIES
+- **PROC034** `dchol|schol` = FORTSETZEN
+- **PROC035** `kchy` = ZUFUEHREN·DIES
+- **PROC036** `qotchy` = DANACH·DIES
+- **PROC037** `okchol` = ANSETZEN·FORTSETZEN
+- **PROC038** `okaiin|qokaiin` = ANSETZEN·MASS
+- **PROC039** `ykain` = DIES·ZUFUEHREN·PORTION
+- **PROC040** `ykan` = DIES·ZUFUEHREN·PORTION
+- **PROC041** `ody` = GANG·SCHLUSS
+- **PROC042** `chdy|chedy` = UMSETZEN·DIES
+- **PROC043** `talam` = VERWAHREN
+- **PROC044** `ykaiin` = DIES·ZUFUEHREN·MASS
+- **PROC045** `cheoar` = ABZIEHEN·KURZ·GANG·QUELLE
+- **PROC046** `cheeky` = WAERMEN·LANG·DIES
+- **PROC047** `oldy` = FORTSETZEN·SCHLUSS
+- **PROC048** `okal|qokal` = ANSETZEN·ZIEL
+- **PROC049** `oltchy` = FORTSETZEN·EINTRAGEN·DIES
+- **PROC050** `orain` = ANSATZ·PORTION
+- **PROC051** `chochor` = GABE·ABZIEHEN·ANSATZ
+- **PROC052** `cho|sho` = GABE
+- **PROC053** `chodaly` = GABE·ZIEL·DIES
+- **PROC054** `kchol` = ZUFUEHREN·FORTSETZEN
+- **PROC055** `al|chal|cheal|dal|sal|tal` = ZIEL
+- **PROC056** `choy` = GABE·DIES
+- **PROC057** `cheeckhody` = ABZIEHEN·LANG·DURCHLASS·GANG·SCHLUSS
+- **PROC058** `sh` = HALTEN
+- **PROC059** `kchey` = ZUFUEHREN·KURZ·DIES
+- **PROC060** `qokokchy` = ANSETZEN·ANSETZEN·DIES
+- **PROC061** `chokcheo` = ANSETZEN·ABZIEHEN·KURZ·GANG
+- **PROC062** `kchal` = ZUFUEHREN·ZIEL
+- **PROC063** `kchoar` = ZUFUEHREN·GABE·QUELLE
+- **PROC064** `sotodan` = DANACH·GANG·PORTION
+- **PROC065** `otchey` = DANACH·DIES
+- **PROC066** `keol` = ZUFUEHREN·KURZ·FORTSETZEN
+- **PROC067** `qokedy` = ANSETZEN·KURZ·SCHLUSS
+- **PROC068** `kair` = ZUFUEHREN·LAUF
+- **PROC069** `chkain|kain` = ZUFUEHREN·PORTION
+- **PROC070** `olkain|qolkain` = FORTSETZEN·ZUFUEHREN·PORTION
+- **PROC071** `rol` = KUEHLEN·FORTSETZEN
+- **PROC072** `dl` = FUEHREN
+- **PROC073** `sheckhal` = HALTEN·KURZ·DURCHLASS·ZIEL
+- **PROC074** `qokeedal` = ANSETZEN·LANG·ZIEL
+- **PROC075** `chckhy|shckhy` = DURCHLASS·DIES
+- **PROC076** `dchedy|schedy|tchedy` = UMSETZEN·SCHLUSS
+- **PROC077** `sshkchdy` = HALTEN·ZUFUEHREN·UMSETZEN·SCHLUSS
+- **PROC078** `cheedy|shedy|tedy` = ABSETZEN·SCHLUSS
+- **PROC079** `olchedy|qolchedy` = FORTSETZEN·UMSETZEN·SCHLUSS
+- **PROC080** `okain|qokain` = ANSETZEN·PORTION
+- **PROC081** `ral` = KUEHLEN·ZIEL
+- **PROC082** `qokchdy` = ANSETZEN·UMSETZEN·SCHLUSS
+- **PROC083** `cheky` = WAERMEN·KURZ·DIES
+- **PROC084** `lsho` = WASCHEN·GANG
+- **PROC085** `okey|qokey` = ANSETZEN·KURZ·DIES
+- **PROC086** `lshedy` = WASCHEN·KURZ·SCHLUSS
+- **PROC087** `qolky` = AUFFANGEN·DIES
+- **PROC088** `lchedal` = FUEHREN·UMSETZEN·ZIEL
+- **PROC089** `otar` = DANACH·QUELLE
+- **PROC090** `ytey` = EINTRAGEN·KURZ·DIES
+- **PROC091** `okchedy|qokchedy` = ANSETZEN·UMSETZEN·SCHLUSS
+- **PROC092** `okeey|qokeey` = ANSETZEN·LANG·DIES
+- **PROC093** `teol` = KURZ·FORTSETZEN
+- **PROC094** `dchdy` = UMSETZEN·SCHLUSS
+- **PROC095** `ly` = FUEHREN·DIES
+- **PROC096** `dsheol` = HALTEN·KURZ·FORTSETZEN
+- **PROC097** `oiiin|soiiin` = GANG·STUFE
+- **PROC098** `olkeedy|solkeedy` = AUFFANGEN·LANG·SCHLUSS
+- **PROC099** `shckhedy` = HALTEN·DURCHLASS·KURZ·SCHLUSS
+- **PROC100** `qokeedy` = ANSETZEN·LANG·SCHLUSS
+- **PROC101** `lcheckhy` = FUEHREN·DURCHLASS·DIES
+- **PROC102** `lched` = FUEHREN·UMSETZEN
+- **PROC103** `lcheckhedy` = FUEHREN·DURCHLASS·KURZ·SCHLUSS
+- **PROC104** `qokaly` = ANSETZEN·ZIEL·DIES
+- **PROC105** `solkaiin` = AUFFANGEN·MASS
+- **PROC106** `octheol` = GANG·BEREIT·KURZ·FORTSETZEN
+- **PROC107** `chkeey` = WAERMEN·LANG·DIES
+- **PROC108** `ldy` = FUEHREN·SCHLUSS
+- **PROC109** `oteey` = DANACH·LANG·DIES
+- **PROC110** `sheckhy` = HALTEN·KURZ·DURCHLASS·DIES
+- **PROC111** `dshedy` = HALTEN·KURZ·SCHLUSS
+- **PROC112** `otaiin|sotaiin` = DANACH·MASS
+- **PROC113** `qokar` = ANSETZEN·QUELLE
+- **PROC114** `solshedy` = FORTSETZEN·HALTEN·KURZ·SCHLUSS
+- **PROC115** `ls` = WEITER
+- **PROC116** `lchy` = FUEHREN·ABZIEHEN·DIES
+- **PROC117** `qcthey|shcthey` = BEREIT·KURZ·DIES
+- **PROC118** `lcheey` = FUEHREN·LANG·DIES
+- **PROC119** `qokeeedy` = ANSETZEN·VOLL·SCHLUSS
+- **PROC120** `lchedy` = FUEHREN·UMSETZEN·SCHLUSS
+- **PROC121** `lar` = FUEHREN·QUELLE
+- **PROC122** `tshey` = HALTEN·KURZ·DIES
+- **PROC123** `lchedar` = FUEHREN·UMSETZEN·QUELLE
+- **PROC124** `ches` = ABZIEHEN·KURZ·TEILEN
+- **PROC125** `pchedy` = HINEIN·UMSETZEN·SCHLUSS
+- **PROC126** `rsheal` = KUEHLEN·HALTEN·KURZ·ZIEL
+- **PROC127** `daldy` = ZIEL·SCHLUSS
+- **PROC128** `rshedy` = KUEHLEN·ABSETZEN·SCHLUSS
+- **PROC129** `qoteedy` = DANACH·LANG·SCHLUSS
+- **PROC130** `lochedy` = FUEHREN·GANG·UMSETZEN·SCHLUSS
+- **PROC131** `otal|qotal` = DANACH·ZIEL
+- **PROC132** `chkeedy` = WAERMEN·LANG·SCHLUSS
+- **PROC133** `chedchy` = UMSETZEN·DIES
+- **PROC134** `pchedal` = HINEIN·UMSETZEN·ZIEL
+- **PROC135** `otedy` = DANACH·KURZ·SCHLUSS
+- **PROC136** `shecthedchy` = HALTEN·KURZ·BEREIT·UMSETZEN·DIES
+- **PROC137** `chary` = QUELLE·DIES
+- **PROC138** `okair` = ANSETZEN·LAUF
+- **PROC139** `sheedy` = HALTEN·LANG·SCHLUSS
+- **PROC140** `lo` = FUEHREN·GANG
+- **PROC141** `qokshedy` = ANSETZEN·HALTEN·KURZ·SCHLUSS
+- **PROC142** `shedal` = ABSETZEN·ZIEL
+- **PROC143** `shecthy` = HALTEN·KURZ·BEREIT·DIES
+- **PROC144** `dalchdy` = ZIEL·UMSETZEN·SCHLUSS
+- **PROC145** `otchedy|qotchedy` = DANACH·UMSETZEN·SCHLUSS
+- **PROC146** `cheedar` = LANG·QUELLE
+- **PROC147** `chldaiin` = FUEHREN·MASS
+- **PROC148** `chealror` = ZIEL·KUEHLEN·ANSATZ
+- **PROC149** `cheeety` = VOLL·EINTRAGEN·DIES
+- **PROC150** `schedair` = UMSETZEN·LAUF
+- **PROC151** `chedain` = UMSETZEN·PORTION
+- **PROC152** `qotedaiin` = DANACH·KURZ·MASS
+- **PROC153** `olsaly` = FORTSETZEN·ZIEL·DIES
+- **PROC154** `qolchey` = FORTSETZEN·DIES
+- **PROC155** `qokylddy` = ANSETZEN·DIES·BEFESTIGEN·SCHLUSS
+- **PROC156** `dain` = PORTION
+- **PROC157** `sheey` = HALTEN·LANG·DIES
+- **PROC158** `okeeol` = ANSETZEN·LANG·FORTSETZEN
+- **PROC159** `lkedy` = FUEHREN·ZUFUEHREN·KURZ·SCHLUSS
+- **PROC160** `qokol` = ANSETZEN·FORTSETZEN
+- **PROC161** `qockhey` = GANG·DURCHLASS·KURZ·DIES
+- **PROC162** `dairydy` = LAUF·DIES·SCHLUSS
+- **PROC163** `chckhal` = ABZIEHEN·DURCHLASS·ZIEL
+- **PROC164** `solkey` = AUFFANGEN·KURZ·DIES
+- **PROC165** `skar` = ZUFUEHREN·QUELLE
+- **PROC166** `otchdy` = DANACH·UMSETZEN·SCHLUSS
+- **PROC167** `lol` = FUEHREN·FORTSETZEN
+- **PROC168** `chdal` = UMSETZEN·ZIEL
+- **PROC169** `daiiin` = ZWEIT·STUFE
+- **PROC170** `solkeey` = AUFFANGEN·LANG·DIES
+- **PROC171** `qekey` = KURZ·ZUFUEHREN·KURZ·DIES
+- **PROC172** `raly` = KUEHLEN·ZIEL·DIES
+- **PROC173** `ldalor` = FUEHREN·ZIEL·ANSATZ

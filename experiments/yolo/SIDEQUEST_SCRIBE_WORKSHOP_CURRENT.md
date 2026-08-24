@@ -9829,9 +9829,20 @@ line-end splitting, global-dy closure, global-o water, invented pipe joins, and
 decomposing local Astro labels. See
 `sidequest_semantic_apprentice_workday_six_hundred_fifth/SIX_HUNDRED_FIFTH_REPORT.md`.
 
-Next, audit the active 173-card dictionary for sentence-sized or compound
-glosses. Give every card a short workshop word/action while keeping its longer
-case expansion separate, and preserve shared component contributions.
+Pass 606 separates dictionary meaning from fluent case expansion. Thirty-eight
+components now have exactly one spoken workshop word each; all 173 cards are
+one-to-five-part compounds of those words. The length distribution is
+14/62/72/21/4 cards. Eighty-eight former six-plus-word role glosses move to the
+case layer. Important contractions are AIIN=MASS, AIR=LAUF (not automatically
+water), AL=ZIEL, AR=QUELLE, Y=DIES, O=GANG, and DY=SCHLUSS only inside its
+licensed card. All 381 events/116 statements inherit the same short defaults.
+See
+`sidequest_semantic_short_workshop_dictionary_six_hundred_sixth/SIX_HUNDRED_SIXTH_REPORT.md`.
+
+Next, stress the four five-component cards and the hardest multi-card
+statements. Keep left-to-right composition where it produces natural workshop
+order; otherwise allow one explicit learned ordering or whole-card idiom rather
+than inflating the component meanings.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
