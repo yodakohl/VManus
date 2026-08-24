@@ -7829,9 +7829,17 @@ Herbal-to-Bio handoffs remain within one hand; H5-to-B4 is a D-to-C relay whose
 exact Folgeposten and Einsetzen identities survive. See
 `sidequest_semantic_mixed_workshop_edition_three_hundred_fortieth/THREE_HUNDRED_FORTIETH_MIXED_WORKSHOP_EDITION.md`.
 
-Next, turn the eleven records into a complete apprentice run sheet listing each
-input item, six-slot work sequence, output item and receiving next station or
-terminal shelf, using the mixed-hand copy as the surface edition.
+Pass 341 turns all eleven records into apprentice run cards with concrete input,
+owner/source, mixed-hand surface stream, statements, microcycles, programs,
+output and receiver. The five Herbal outputs deliver to B1/B2/B4; six Bio outputs
+go to explicit local work/application shelves where no next pointer is drawn.
+B1 is dominated by continuation, B2 by draw-off, B3 by transfer and B4 by long
+treatment. See
+`sidequest_semantic_apprentice_run_sheet_three_hundred_forty_first/THREE_HUNDRED_FORTY_FIRST_COMPLETE_RUN_SHEET.md`.
+
+Next, compare the final microcycles of the six Bio records and build a small
+result/shelf lexicon distinguishing treated portion, clear draw-off, collected
+goods, transferred goods and ready application item.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
