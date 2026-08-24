@@ -9212,8 +9212,16 @@ portions, storage, longer heating and target assignment. H4's final statement
 remains open because it has no licensed close card. See
 `sidequest_semantic_h4_parallel_recipe_five_hundred_twenty_eighth/FIVE_HUNDRED_TWENTY_EIGHTH_REPORT.md`.
 
-Next, reverse-build the longer H5/f56r article and derive a shared H3-H5 Herbal
-formulary with an article-specific process slot.
+Pass 529 reverse-builds all 27 H5/f56r events into six statements and nine
+stages centered on repeated dose, target, passage, extract and reapplication.
+Across H3-H5 the common Herbal frame is visible owner, activate work, measure,
+target, continue and optional close; five primitive families occur in all
+three. The exact AIIN/measure card occurs 1/3/2 times in H3/H4/H5. Article-
+specific process chains remain distinct. See
+`sidequest_semantic_h5_formulary_five_hundred_twenty_ninth/FIVE_HUNDRED_TWENTY_NINTH_REPORT.md`.
+
+Next, read H1 and H2 together to decide whether the two f10r records are
+successive sections of one pictured-plant article or independent forms.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
