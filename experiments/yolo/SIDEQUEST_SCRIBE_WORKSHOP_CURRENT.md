@@ -8756,11 +8756,18 @@ exact without exceptions and a forty-four-item local allograph deck closes all
 776. See
 `sidequest_semantic_two_stage_renderer_four_hundred_seventieth/FOUR_HUNDRED_SEVENTIETH_REPORT.md`.
 
-Next, simplify the renderer lookup tables into actual apprentice habits. Count
-wrapper transitions and register/position preferences across the 381 prose
-events, find the smallest ordered rules that retain most of the 359 automatic
-choices, and move any body-specific residue into the existing forty-four-card
-exception deck. The target is fewer learned rules, not a higher fitted count.
+Pass 471 replaces 673 fitted renderer lookup keys with nine repeated apprentice
+habits. Card-body and Astro-parse defaults plus those habits write 314/381 prose
+and 349/395 Astro groups exactly, 663/776 total; 113 rare forms are copied from
+the local exemplar. Incremental learning drops from 717 lookup/exception items
+to 122 habits/exception items. See
+`sidequest_semantic_compact_renderer_habits_four_hundred_seventy_first/FOUR_HUNDRED_SEVENTY_FIRST_REPORT.md`.
+
+Next, stop optimizing surface spelling and reread all fourteen units with the
+stable common-action dictionary. Produce one continuous German working edition
+that explicitly expands shared atoms into wet or celestial context, preserves
+all 776 groups, and records only genuine content collisions. Use those
+collisions—not renderer variance—to choose the next semantic revisions.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
