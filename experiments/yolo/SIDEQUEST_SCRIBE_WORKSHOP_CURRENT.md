@@ -8475,10 +8475,17 @@ OL+CHED continues and SH+CKHE strains. OTAR is revised from an invented second
 outlet to DANACH VON DORT, while SCHEDY becomes UEBERFUEHREN; SCHLUSS. See
 `sidequest_semantic_source_path_target_four_hundred_thirty_second/FOUR_HUNDRED_THIRTY_SECOND_APPRENTICE_CARD.md`.
 
-Next, rebuild B1-S002's whole dosing block: KAIN, OLKAIN, DL, OLOR, SHECKHAL,
-AIIN and QOKEEDAL. Distinguish ingredient, first/following portion, additive,
-batch, moderate quantity, prescribed measure and long target hold without
-giving any card a sentence-sized gloss.
+Pass 433 rewrites all nineteen positions of B1-S002 as a reusable dosing and
+passage formula over sixteen exact cards. KAIN/OLKAIN are first/following
+portion, DL is simply ADDITIVE and OLOR another batch. SHECKHAL is revised from
+the redundant MODERATE QUANTITY to SH+E+CKH+AL=SHORT AT THE PASSAGE SITE,
+between the additive block and two explicit measure settings. See
+`sidequest_semantic_b1_dosing_block_four_hundred_thirty_third/FOUR_HUNDRED_THIRTY_THIRD_FORMULA_CARD.md`.
+
+Next, consolidate every B1 card into a small apprentice dictionary. Separate
+productive components, recurrent whole words and truly pool-local nouns;
+remove any remaining sentence-sized values before transferring the finished
+B1 deck to B2.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
