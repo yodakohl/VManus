@@ -7837,9 +7837,16 @@ B1 is dominated by continuation, B2 by draw-off, B3 by transfer and B4 by long
 treatment. See
 `sidequest_semantic_apprentice_run_sheet_three_hundred_forty_first/THREE_HUNDRED_FORTY_FIRST_COMPLETE_RUN_SHEET.md`.
 
-Next, compare the final microcycles of the six Bio records and build a small
-result/shelf lexicon distinguishing treated portion, clear draw-off, collected
-goods, transferred goods and ready application item.
+Pass 342 reads the last four microcycles of each Bio record as five workshop
+result terms: Behandlungsportion (B1), Klarabzug (B2/B4), Sammelgut (B3),
+Transfergut (B5) and Anwendungsposten (B6). Four go to application shelves and
+two to work shelves. Klarabzug is the useful shared output class: B2 reaches it
+through long contact/abfuehrung, B4 through clear extract/collection. See
+`sidequest_semantic_result_shelf_lexicon_three_hundred_forty_second/THREE_HUNDRED_FORTY_SECOND_RESULT_SHELF_LEXICON.md`.
+
+Next, mirror the five Bio result roles against the five Herbal input/output roles
+and build a compact material-state cycle—raw part, preparation, clear extract,
+portion, application item—without adding new card glosses.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
