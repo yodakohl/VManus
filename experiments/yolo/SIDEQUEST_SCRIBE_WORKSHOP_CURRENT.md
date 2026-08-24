@@ -9796,10 +9796,20 @@ therapeutic and bathhouse reading, but the best whole is a therapeutic
 bath/application core with a necessary technical workshop layer. See
 `sidequest_semantic_biological_station_programs_six_hundred_second/SIX_HUNDRED_SECOND_REPORT.md`.
 
-Next, combine the five Herbal product recipes and six Biological station
-programs into a small set of complete workshop cases: prepare product, choose
-a compatible station, apply or process it, and handle the residual charge.
-Keep the links class-based and many-to-many rather than inventing folio keys.
+Pass 603 joins the five Herbal recipes and six Biological programs into six
+complete teaching cases: mild communal wash/bath; stronger multi-station bath;
+flower wash with vessel variants; tempered poultice with side flows;
+concentrate transfer/rest; and reserve collection/cooling/feed. All 116 Prose
+statements/381 events occur once, all sixteen stations retain interchangeable
+inputs, and the sixth case reuses H5 reserve rather than inventing a sixth
+plant recipe. The best seven-page purpose is now an illustrated herbal-product
+and bath/application formulary; bathhouse mechanics are its operating layer.
+See
+`sidequest_semantic_complete_workshop_cases_six_hundred_third/SIX_HUNDRED_THIRD_REPORT.md`.
+
+Next, attach the three Astro instruments as optional condition/time/state
+lookups for these cases. Preserve each local Astro namespace and avoid
+inventing planet names, orientation, or an f68-to-f69 key.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
