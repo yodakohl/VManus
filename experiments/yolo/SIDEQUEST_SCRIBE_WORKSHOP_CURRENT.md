@@ -8723,11 +8723,20 @@ whole Himmelsnames; 383 of 395 groups and 133 of 142 loci are now fully read.
 See
 `sidequest_semantic_astro_address_cores_four_hundred_sixty_sixth/FOUR_HUNDRED_SIXTY_SIXTH_REPORT.md`.
 
-Next, close the twelve-name nomenclator by comparing their internal recurrences:
-AIIR/IIR, AN, AZA and the long I-O-EE-OR pattern. Either promote a short core
-that explains several names or keep the item as one learned name; do not split
-a singleton merely to reach complete composition. Then typeset the first
-genuinely complete ten-page apprentice dictionary.
+Pass 467 closes eleven of the twelve remaining names with I=Zaehlstrich and
+AN=Abschnitt. Only OTAZA remains a learned local name; no singleton Z root is
+invented. It also unifies final and free S/D into single Sternbezug and
+Teiladresse components. The first complete apprentice inventory therefore has
+35 shared components, ten Astro components, six prose whole cards, one Astro
+whole name and eleven exact surface rules; 394 of 395 Astro groups compose.
+See
+`sidequest_semantic_astro_nomenclator_closure_four_hundred_sixty_seventh/FOUR_HUNDRED_SIXTY_SEVENTH_REPORT.md`.
+
+Next, remove the remaining wet-only readings exposed by the complete Astro
+parse. Test R=cool, CHK=warm, CKHE=strain, CHEO=extract, CH=draw-off, CKH=pass
+and LS=drain against both prose and Astro. Prefer common action cores such as
+lower, raise, separate, take-out and passage, while retaining the wet meanings
+as prose expansions.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
