@@ -10088,9 +10088,20 @@ and 103/110 adjacent-pair instances occur in the source. These are 22 writing
 orders for five jobs, not 22 new remedies. See
 `sidequest_semantic_finite_construction_grammar_six_hundred_thirty_third/SIX_HUNDRED_THIRTY_THIRD_REPORT.md`.
 
-Next, keep order controlled and introduce exactly one semantically compatible
-existing-card substitution per case. Use quantity, target, hold grade, or close
-slots to estimate distinct job capacity rather than mere order capacity.
+Pass 634 substitutes exactly one compatible existing card family per case.
+C1 and C3 choose short/long open holding, C2 chooses short/long/full
+application-close, and C4/C5 choose prescribed amount versus portion. The five
+bases become eleven semantic jobs in 49 distinct legal orders; all 294 cards
+read back exactly and every branch remains recognizable. C4's repeated
+`qokain qokain` is the one weak variant: it counts only if exact repetition is
+taught as two portions, not mere emphasis. Without it the capacity is ten jobs
+in 48 orders. See
+`sidequest_semantic_compatible_slot_substitution_six_hundred_thirty_fourth/SIX_HUNDRED_THIRTY_FOURTH_REPORT.md`.
+
+Next, extract all clean two- and three-member paradigms already present in the
+173-card deck. Admit a family only when a single component changes one short
+semantic dimension; use the result as the productive apprentice substitution
+table.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
