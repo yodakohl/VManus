@@ -9473,9 +9473,17 @@ The surface renderer is now 314 global + 8 contextual + 32 formula-cadence +
 27 uniform-locus events, still 381/381 exact and choice-free. See
 `sidequest_semantic_formula_cadence_renderer_five_hundred_sixtieth/FIVE_HUNDRED_SIXTIETH_REPORT.md`.
 
-Next, explain the remaining 22 uniform locus stamps from paragraph/line entry,
-record hand, and the preceding formula cadence so that no local surface table
-is needed.
+Pass 561 replaces the remaining 22 locus entries by nine short record-level
+wrapper melodies covering 27 events. Examples are H4
+`ch→blank→blank→blank`, B2 `d→d→s→blank`, and B4 `blank→t→ch→q`.
+The complete renderer is now 314 global + 8 context + 32 formula cadence + 27
+record melody; it reproduces 381/381 surfaces without an event/locus choice
+table. See
+`sidequest_semantic_record_wrapper_melodies_five_hundred_sixty_first/FIVE_HUNDRED_SIXTY_FIRST_REPORT.md`.
+
+Next, merge meaning composition, exact-card allographs, formula cadences, and
+record melodies into one compact apprentice manual, then regenerate the
+continuous German working translation from that executable system.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
