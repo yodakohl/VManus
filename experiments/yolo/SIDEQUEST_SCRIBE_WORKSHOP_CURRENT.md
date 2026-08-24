@@ -8203,9 +8203,15 @@ within registered palettes, one B3 statement crosses a line, and all 25 card
 identities reconstruct exactly with zero cross-register borrowing. See
 `sidequest_semantic_owner_faithful_copy_three_hundred_ninety_second/THREE_HUNDRED_NINETY_SECOND_OWNER_FAITHFUL_PAGE.md`.
 
-Next, decompose these 25 genuine cards with the current component and
-nomenclator manuals. Compare direct component coverage against the artificial
-four-cycle page and give a complete readable edition of all five statements.
+Pass 393 reads 20/25 genuine cards compositionally and keeps five specialist
+nomenclator cards: cooling close, storage, warming-up, basin station and clear
+point. The 80% component share slightly exceeds the mixed teaching page's
+78.6%, and all five statements receive atomic plus owner-expanded readings. See
+`sidequest_semantic_owner_faithful_decomposition_three_hundred_ninety_third/THREE_HUNDRED_NINETY_THIRD_COMPLETE_READABLE_EDITION.md`.
+
+Next, trace the active object through the four genuine H4 statements. Resolve
+Y, AIN, AIIN, OR, CHEOAR and TALAM as pronoun/quantity/preparation handoffs and
+write one continuous H4 article rather than four isolated gloss lists.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
