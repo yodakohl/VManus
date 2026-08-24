@@ -7715,9 +7715,16 @@ identities and meanings. Frequent reference, measure, batch and insertion
 cards vary; `otchey`, `cheeky` and `oldy` remain stable. See
 `sidequest_semantic_four_scribe_copy_three_hundred_twenty_fifth/THREE_HUNDRED_TWENTY_FIFTH_FOUR_SCRIBE_EDITION.md`.
 
-Next, reduce the seventeen portable cards to the smallest honest mix of
-productive semantic stems and memorized whole cards that can generate all
-their registered surface families.
+Pass 326 reduces the seventeen portable cards to thirteen semantic components
+plus two memorized whole cards, Klarauszug and Zerkleinern. Fifteen cards are
+productive, all 51 surfaces retain their identity, and the component rules
+also explain ten additional card families outside the shared deck. AR is now
+the one-word Quelle rather than the sentence gloss “aus demselben Vorrat.” See
+`sidequest_semantic_shared_components_three_hundred_twenty_sixth/THREE_HUNDRED_TWENTY_SIXTH_COMPONENT_MANUAL.md`.
+
+Next, apply this component grammar to all 173 prose cards, preserving every
+nonmatching item as one short memorized whole word rather than forcing a bad
+segmentation.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
