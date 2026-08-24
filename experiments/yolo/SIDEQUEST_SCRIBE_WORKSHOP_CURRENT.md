@@ -10698,10 +10698,18 @@ allograph choice. Five information layers now separate picture, docket, card,
 surface and backreading. See
 `sidequest_semantic_terse_docket_encoder_seven_hundred_ninth/SEVEN_HUNDRED_NINTH_REPORT.md`.
 
-Next, derive the shortest seven-slot docket for every one of the116 fixed prose
-statements. Mark which slots come directly from compact components, which from
-the visible owner, and which remain a local exemplar addition; then rebuild
-all381 cards from docket plus card-family address.
+Pass 710 derives a terse docket for all116 prose statements. Their381 cards
+contain850 component positions; statement-local deduplication leaves666 docket
+components in423 nonempty slot cells, averaging3.65 filled slots. There are96
+distinct docket signatures. Ninety-five map to one card sequence in the fixed
+registry; the sole ambiguity is `CHD + OT + DY`, realized by PROC145/qotchedy
+and PROC166/otchdy. Docket plus master card address rebuilds all381 cards. See
+`sidequest_semantic_all_statement_dockets_seven_hundred_tenth/SEVEN_HUNDRED_TENTH_REPORT.md`.
+
+Next, compare PROC145 and PROC166 in full owner, record, position, neighbour,
+close and renderer context. Try to reduce the doublet to a simple local
+selection rule; if none emerges, teach it explicitly as one semantic recipe
+with two owner-bound whole-card exemplars.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
