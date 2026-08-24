@@ -7768,9 +7768,17 @@ settling, clear-extract and closure operations without the withdrawn special
 wash/fresh-water story glosses. See
 `sidequest_semantic_repaired_bio_edition_three_hundred_thirty_second/THREE_HUNDRED_THIRTY_SECOND_COMPLETE_BIO_EDITION.md`.
 
-Next, reduce the 97 repaired Biological statements to at most twelve named
-station programs. Every statement must receive one primary apprentice program,
-with secondary operations kept visible instead of being discarded.
+Pass 333 reduces the 97 repaired Biological statements to exactly twelve named
+apprentice station programs while retaining all 281 operations in order. Every
+program occurs as a primary assignment; 43 statements are single-program and
+54 retain explicit secondary programs. The dominant local patterns are
+Fortsetzen/Einsetzen at the shared f81v pool, Überführen at basket and handoff
+stations, and Abziehen/Abführen at several pool and outlet stations. See
+`sidequest_semantic_station_programs_three_hundred_thirty_third/THREE_HUNDRED_THIRTY_THIRD_APPRENTICE_PROGRAM_MANUAL.md`.
+
+Next, read the five repaired Herbal articles back through the twelve station
+programs and separate operations already begun during preparation from those
+added only at the Biological station.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
