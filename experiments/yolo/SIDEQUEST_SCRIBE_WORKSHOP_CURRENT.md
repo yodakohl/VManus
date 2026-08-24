@@ -8325,9 +8325,17 @@ setting-ready-work-lower target-settle-close; H3 stops at ready, B5 keeps its
 settling station open. See
 `sidequest_semantic_ready_settle_cycle_four_hundred_tenth/FOUR_HUNDRED_TENTH_STATE_MANUAL.md`.
 
-Next, compare B3-S034 and B1-S018 as complete IIN routines. Decide whether bare
-IIN is most concretely fill level, consistency, release stage or a broader
-station setting, then rewrite both without the generic phrase “Zielstufe”.
+Pass 411 replaces the generic IIN gloss “Zielstufe” with the smaller portable
+value SOLLSTAND. In B1 it expands locally to the prescribed receiving/fill
+stand before longer collection; in B3 to the prescribed work stand before
+ready-work-settle. K+IIN remains a soft Sollstand, DA+IIN an opening setting,
+while AIIN stays the separate learned MASS card. See
+`sidequest_semantic_iin_setpoint_four_hundred_eleventh/FOUR_HUNDRED_ELEVENTH_POCKET_RULE.md`.
+
+Next, audit CH/CHET in B3-S034 against every occurrence of the same exact card
+and its nearest family. Replace the Herbal-heavy “zerkleinern” default with a
+shorter operation only if it reads cleanly in both material and pool/station
+contexts.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
