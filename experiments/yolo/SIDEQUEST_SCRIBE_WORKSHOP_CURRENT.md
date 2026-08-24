@@ -7536,9 +7536,17 @@ statements point onward with `↪`, and eight open Record endings retain `…`;
 and the E180/E181 duplicate is read once with `↷`. See
 `sidequest_semantic_punctuated_edition_three_hundred_second/THREE_HUNDRED_SECOND_ELEVEN_RECORD_PUNCTUATED_EDITION.md`.
 
-Next, convert the fixed 116-statement card ledger into a fluent but fully
-traceable German imperative edition, preserving every card, field, owner change
-and Commit mark.
+Pass 303 converts every one of the 173 prose cards into a short executable
+German clause and uses them for all 381 visible events, 116 statements and 11
+Records. Ninety-seven clauses are individually phrased, 47 use productive
+operation patterns, 19 retain an already executable recipe clause and 10 use a
+concrete named-workstep command. Exact card/event traces, scope punctuation and
+the E180/E181 read-once rule remain intact. See
+`sidequest_semantic_imperative_edition_three_hundred_third/THREE_HUNDRED_THIRD_ELEVEN_RECORD_FLUENT_EDITION.md`.
+
+Next, replace the ten remaining named-workstep imperatives with the narrowest
+concrete verbs licensed by their full contexts, then smooth recurrent clause
+chains without changing a card value.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
