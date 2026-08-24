@@ -10226,9 +10226,18 @@ single card,1 the bigram, and0 any longer run. C1-C5 are therefore productive
 apprentice exercises, not recovered source phrases. See
 `sidequest_semantic_source_contact_six_hundred_forty_ninth/SIX_HUNDRED_FORTY_NINTH_REPORT.md`.
 
-Next, inventory all actual within-statement card bigrams and trigrams. Build
-the next grammar only from recurrent source sequences, using singletons as
-local context rather than promoted constructions.
+Pass 650 rebuilds from all actual within-statement ngrams. Among265 bigram
+instances/245 types,14 types recur; among193 trigram instances/192 types,one
+recurs. All15 constructions cross at least two records and touch25 statements.
+The unique recurrent trigram is PROC019-PROC009-PROC019, visibly `chey daiin
+chey` and `chy taiin shy`: ARBEITSPOSTEN-SOLLMASS-ARBEITSPOSTEN, a real
+two-sided measure frame without an equality claim. PROC013-PROC078 gives four
+portable FORTSETZEN-ABSETZEN/SCHLUSS instances under `ol/qol/tol` and
+`shedy/cheedy` allography. See
+`sidequest_semantic_recurrent_source_ngrams_six_hundred_fiftieth/SIX_HUNDRED_FIFTIETH_REPORT.md`.
+
+Next, consolidate the15 source constructions into a small motif dictionary and
+rewrite all25 touched statements with minimal source-attested phrase readings.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
