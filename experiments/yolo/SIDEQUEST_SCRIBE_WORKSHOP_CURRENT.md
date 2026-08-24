@@ -7729,9 +7729,17 @@ memorized identities, covering 353 and 28 events respectively. All 173 cards,
 contextual expansions remain separate. See
 `sidequest_semantic_complete_atomic_deck_three_hundred_twenty_seventh/THREE_HUNDRED_TWENTY_SEVENTH_COMPLETE_DECK.md`.
 
-Next, attack the 23 memorized whole cards using only the existing forty
-components. Promote a card only when its meaning can be composed without a new
-stem; otherwise retain it as a whole sign.
+Pass 328 attacks all 23 whole cards without adding a component. Eight become
+ordinary compositions and fifteen remain memorized, shrinking the teaching
+deck to forty components plus fifteen whole cards. Key repairs are
+`schoal=HO+AL=Zieleingabe` rather than Weinsud, `etyd=Kurzrest`, and normal
+Absetz-/Abzugsschlüsse in place of special water glosses. The result has 158
+productive cards/361 events and 15 whole cards/20 events. See
+`sidequest_semantic_whole_card_attack_three_hundred_twenty_eighth/THREE_HUNDRED_TWENTY_EIGHTH_REVISED_WHOLE_DECK.md`.
+
+Next, rewrite all five Herbal articles from the 55-entry deck, keeping image-
+supplied plant identity explicit and removing superseded wine, fresh-water and
+duplicate-root expansions.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
