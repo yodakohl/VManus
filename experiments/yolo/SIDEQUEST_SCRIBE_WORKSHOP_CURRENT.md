@@ -7604,8 +7604,16 @@ transfer, small part, fresh rinse liquid and insert belong to charge; division
 belongs to measure. The correction affects eight events. See
 `sidequest_semantic_minimal_bio_dictionary_three_hundred_tenth/THREE_HUNDRED_TENTH_MINIMAL_BIO_APPRENTICE_DICTIONARY.md`.
 
-Next, run the 39-entry deck forward and backward over complete Biological
-Records, preserving card identities, statement scope and image-owner resets.
+Pass 311 runs the 39-entry Biological deck through all six complete records in
+both directions. Short value plus terminal scope uniquely selects all 124 card
+identities. The productive recipe and E grade leave only fifteen learned
+nondefault form selectors. All 176 registered surfaces reverse uniquely, and
+all 281 events return to the same master card: 173 use the canonical form and
+108 a registered allograph. All sixteen owner resets/breaks survive. See
+`sidequest_semantic_bio_roundtrip_three_hundred_eleventh/THREE_HUNDRED_ELEVENTH_SIX_RECORD_ROUNDTRIP.md`.
+
+Next, infer compact positional and workshop-renderer rules for the thirty
+multi-surface cards and their 108 alternate-form events.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
