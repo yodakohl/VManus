@@ -10323,9 +10323,15 @@ READY-to-GRADED-SET x2, and three singleton transitions for
 READY/TRANSFER-to-SET, READY-to-TRANSFER/CLOSE, and WARM-to-CONTINUED-SET. See
 `sidequest_semantic_process_state_phrasebook_six_hundred_sixty_second/SIX_HUNDRED_SIXTY_SECOND_REPORT.md`.
 
-Next, consolidate OK, CHD, SHED, CHK, and CTH into one five-root workshop
-dictionary. Measure exact card/event coverage and inventory the remaining
-whole-card layer without changing any current readings.
+Pass 663 consolidates five roots into57 cards/158 events/50 recipes across all7
+prose pages,10 records, and94/116 statements. All63 covered close events are
+final. The remaining layer is116 cards/223 events. Largest concrete unintegrated
+roots are OR preparation17 events, CKH channel14, SOLK collection7, LSH wash3,
+and CFH wring1. See
+`sidequest_semantic_five_root_dictionary_six_hundred_sixty_third/SIX_HUNDRED_SIXTY_THIRD_REPORT.md`.
+
+Next, close OR as the first material noun: ANSATZ/PREPARATION, distinct from
+OK=SET. Compose its portion, continuation, target, source, and transfer forms.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
