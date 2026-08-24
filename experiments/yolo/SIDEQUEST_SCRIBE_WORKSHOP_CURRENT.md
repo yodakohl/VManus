@@ -8963,8 +8963,16 @@ Workflow syntax crosses the gap; owner and material do not. The manual falls
 from 168 to 167 items without inventing a hidden pipe. See
 `sidequest_semantic_b3_two_station_decomposition_four_hundred_ninety_fifth/FOUR_HUNDRED_NINETY_FIFTH_REPORT.md`.
 
-Next, reconstruct six-card H4-S004 and test full decomposition through plant
-preparation, portion, warmth and target.
+Pass 496 removes H4-S004 from the local deck. AIIN sets a measure, OK+AL sets
+the item at the learned target, OL+T+Y enters more plant material, OR forms a
+batch, Y keeps it active and OR+AIN selects its portion. This gives four object
+states without adding warmth, body site or treatment. The open six-card form
+is BEMESSENE PFLANZENPORTION AM ZIEL ANSETZEN UND PORTIONIEREN, and the manual
+falls from 167 to 166 items. See
+`sidequest_semantic_h4_target_batch_portion_four_hundred_ninety_sixth/FOUR_HUNDRED_NINETY_SIXTH_REPORT.md`.
+
+Next, reconstruct six-card B4-S015 across its visible owner change without
+inventing material continuity.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
