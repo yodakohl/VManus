@@ -9531,9 +9531,17 @@ combinations over 73 macro statements, with all 381 event expansions retained.
 See
 `sidequest_semantic_owner_specialized_macros_five_hundred_sixty_seventh/FIVE_HUNDRED_SIXTY_SEVENTH_COMPLETE_OWNER_SPECIALIZED_EDITION.md`.
 
-Next, cross the eight object classes with recurring quantity, state, and source
-cards across records to derive a small concrete inventory of workshop objects
-without inventing plant species or diseases.
+Pass 568 crosses those owners with twelve quantity/source/state channels and
+derives six portable workshop objects: pictured plant matter, preparation
+batch, measured portion, working liquid, application charge, and targeted
+transfer portion. Plant events are preparation/measure heavy; basin and
+technical events are target/passage/grade heavy; figure-pair applications are
+strongly graded but weakly routed. All 381 events receive object tags without
+adding oil, wine, disease, or species. See
+`sidequest_semantic_workshop_object_inventory_five_hundred_sixty_eighth/FIVE_HUNDRED_SIXTY_EIGHTH_REPORT.md`.
+
+Next, track the six objects through the eleven records as state transitions:
+plant matter→preparation→portion→working liquid/application→transfer/close.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
