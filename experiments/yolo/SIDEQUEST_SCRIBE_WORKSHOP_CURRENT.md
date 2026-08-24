@@ -7929,9 +7929,17 @@ cards are pinned to their picture/station owners. State rows describe the
 working thread, not an extra lexical meaning. See
 `sidequest_semantic_workshop_board_three_hundred_fifty_third/THREE_HUNDRED_FIFTY_THIRD_WORKSHOP_BOARD.md`.
 
-Next, use only this board to compose one fresh but in-scope Herbal-to-Bio work
-order from already attested cards: make an extract, measure it and apply it at a
-Bio station. Mark every point where the running page exemplar is still needed.
+Pass 354 uses only that board to set a fresh eleven-card H4-to-B4 instruction:
+`sho sor cheoar cheeky | lcheey shcthy || sy saiin qokaly | okeey qokylddy`.
+It moves raw material through preparation, clear extract and measured portion to
+an application item in four forward-slot microcycles. Eight cards come from
+productive cells, two from pair placards and one from the B4-pinned master card;
+the running page exemplar is never opened. See
+`sidequest_semantic_board_composed_work_order_three_hundred_fifty_fourth/THREE_HUNDRED_FIFTY_FOURTH_READABLE_WORK_ORDER.md`.
+
+Next, render this new eleven-card order in all four workshop hands and have each
+scribe reverse-read the other three versions back to one identity, slot and
+material sequence.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
