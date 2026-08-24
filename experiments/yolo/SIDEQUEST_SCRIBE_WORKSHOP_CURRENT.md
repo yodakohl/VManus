@@ -9399,9 +9399,17 @@ The four old generic verb tokens fall from 175 to 28 while component values
 remain fixed. See
 `sidequest_semantic_frame_conditioned_actions_five_hundred_fifty_first/FIVE_HUNDRED_FIFTY_FIRST_REPORT.md`.
 
-Next, perform the same frame split for CH, SH, SHED, CHK and R, which currently
-collapse drawing/separation, holding/settling and thermal transitions into five
-overbroad German verbs.
+Pass 552 splits 69 occurrences of CH, SH, SHED, CHK and R with sixteen frame
+rules. Forty-eight gain narrower readings: `ablaufen lassen`, `entnehmen`,
+`abnehmen`, `zurückhalten`, `ruhen lassen`, `absetzen lassen`, `ablagern`,
+`warm halten`, `temperieren`, `anwärmen`, `abkühlen lassen` or `auskühlen
+lassen`. This exposes a repeated process chain: feed/apply -> act/hold ->
+rest/settle -> drain/collect. See
+`sidequest_semantic_process_state_action_frames_five_hundred_fifty_second/FIVE_HUNDRED_FIFTY_SECOND_REPORT.md`.
+
+Next, refine the remaining action stems T, SOLK, LSH, P, CFH, S, LD and TALAM,
+then publish one unified action lexicon in which every action component has a
+frame-conditioned, short workshop reading.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
