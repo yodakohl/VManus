@@ -8020,9 +8020,16 @@ reconstruct all 380 source identities and surfaces across 116 statements and
 eleven records. See
 `sidequest_semantic_full_tablet_reconstruction_three_hundred_sixty_fifth/THREE_HUNDRED_SIXTY_FIFTH_COMPLETE_RECONSTRUCTION.md`.
 
-Next, teach the fourteen pair placards as a compact decision book: owner first,
-right neighbour only where the owner leaves both cards possible. Then run one
-error drill per pair without consulting a running page exemplar.
+Pass 366 turns the fourteen pair placards into an owner-first decision book.
+Across all 72 paired occurrences, owner alone chooses 48 and owner plus right
+neighbour 24. One deliberately wrong sister card per pair is repaired exactly
+without opening a running page exemplar. The pair book is therefore a compact
+scribal-variant manual rather than a second semantic lexicon. See
+`sidequest_semantic_pair_placard_drill_three_hundred_sixty_sixth/THREE_HUNDRED_SIXTY_SIXTH_PAIR_DECISION_BOOK.md`.
+
+Next, distribute the full system over a short apprentice curriculum: families,
+contrasts, pair forms and the seven mnemonic distinctions. End with a fresh
+forward-set work instruction and a second apprentice's back-reading.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
