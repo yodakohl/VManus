@@ -10507,9 +10507,16 @@ lessons. Every owner carry, recipe address, exact card, surface and likely
 master correction is logged;0 surfaces are invented. See
 `sidequest_semantic_first_scribe_commission_six_hundred_eighty_sixth/SIX_HUNDRED_EIGHTY_SIXTH_REPORT.md`.
 
-Next, compare the two commissions card by card to identify which compact
-instructions genuinely transfer between plant and basin owners and which must
-receive different natural-language expansions.
+Pass 687 compares H3 and B1 directly. They share12 roots touching79/83 events,
+but only2 exact recipes/cards (`AIIN=MASS`, `Y=DIES`) covering7 events and only
+one visible surface. Seventy-two events recombine shared roots locally;4 use
+only owner-local roots. The portable unit is therefore the compact root value,
+while full recipe and surface are mostly owner-local. See
+`sidequest_semantic_cross_owner_transfer_six_hundred_eighty_seventh/SIX_HUNDRED_EIGHTY_SEVENTH_REPORT.md`.
+
+Next, extend this root-versus-recipe transfer map to all eleven prose records
+and identify the smallest shared workshop core plus each record's local
+specialist tray.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
