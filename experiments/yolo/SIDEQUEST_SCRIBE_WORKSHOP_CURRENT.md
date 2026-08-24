@@ -10107,9 +10107,19 @@ replaces sentence-sized glosses with short contributions such as
 OK=ANSETZEN, EEE=VOLL, DY=SCHLIESSEN. See
 `sidequest_semantic_productive_paradigm_table_six_hundred_thirty_fifth/SIX_HUNDRED_THIRTY_FIFTH_REPORT.md`.
 
-Next, reclassify all 173 cards by learning burden: fully compositional,
-compositional meaning with learned surface, partial composition with one opaque
-core, or true learned whole card. Count the resulting semantic codebook.
+Pass 636 classifies all 173 cards and 381 events by learning burden. Thirty-three
+cards/159 events are direct words or table compositions; 132/213 have a
+compositional meaning but a learned exact surface; five singleton cards contain
+one learned core plus productive edges; only three cards/four events are true
+whole cards: OS, RESUME_CARD, and TALAM. The 39-word booklet consists of 31
+recurrent components, five one-use embedded cores, and three whole-card words.
+Every card parse uses only these 39 words, so no additional independent card
+meaning is required. See
+`sidequest_semantic_learning_burden_six_hundred_thirty_sixth/SIX_HUNDRED_THIRTY_SIXTH_REPORT.md`.
+
+Next, extend the surface renderer from the 372 main-case events to all 381
+prose events including C6, then combine semantic and graphic burden into one
+complete apprentice curriculum.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
