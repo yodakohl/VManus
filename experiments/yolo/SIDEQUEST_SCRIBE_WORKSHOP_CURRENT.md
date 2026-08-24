@@ -9616,9 +9616,16 @@ transfer versus measure-and-transfer, or hold active versus apply. Forty events
 use the base operation unchanged and thirty use a visible fill. See
 `sidequest_semantic_context_card_resolution_five_hundred_seventy_eighth/FIVE_HUNDRED_SEVENTY_EIGHTH_REPORT.md`.
 
-Next, integrate the 38 components, 56 frames, and nine owner/slot fills into one
-compact parser that produces both the abstract card reading and a natural
-statement reading for all 381 prose events.
+Pass 579 integrates the 38 components, 56 action frames, and nine visible fills
+in a thirteen-step workshop reader. It produces abstract and owner-filled
+readings for all 381 events and 116 statements: 311 events use the portable
+component reading and seventy use a visible fill; none looks up a completed
+whole-card gloss. See
+`sidequest_semantic_integrated_composition_parser_five_hundred_seventy_ninth/FIVE_HUNDRED_SEVENTY_NINTH_REPORT.md`.
+
+Next, simplify all 116 owner-filled instructions into short period-appropriate
+workshop German: at most one main verb per card, no modern process jargon, and
+no loss of source, measure, target, grade, current-item, or close information.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these

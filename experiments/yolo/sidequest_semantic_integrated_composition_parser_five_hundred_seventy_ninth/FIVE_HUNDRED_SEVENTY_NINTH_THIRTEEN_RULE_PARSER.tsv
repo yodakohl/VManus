@@ -1,0 +1,14 @@
+rule_no	stage	instruction_de
+P01	OWNER	Bestimme den sichtbaren Besitzer; er liefert den stummen Gegenstand.
+P02	CARD	Erkenne die sichtbare Ganzkarte, aber behandle sie noch nicht als Ganzwort.
+P03	PARSE	Zerlege die Karte nach dem gefrorenen Komponentenparse.
+P04	ATOM	Lies jede Komponente mit genau einem der 38 Grundwerte.
+P05	ORDER	Bewahre die Komponentenfolge; Quelle, Menge und Ziel bleiben Argumente.
+P06	FRAME	Wähle für Handlungskomponenten eine der 56 lizenzierten Rahmenhandlungen.
+P07	FILL	Nutze bei elf abstrakten Karten genau eine der neun sichtbaren Besitzer-/Slotfüllungen.
+P08	ITEM	Y bindet den aktuell gemeinten Posten; es bezeichnet nicht selbst Abschluss.
+P09	CLOSE	Schließe nur bei einer lizenzierten Schlusskarte; nacktes dy genügt nicht.
+P10	CHAIN	Verbinde Karten in sichtbarer Reihenfolge zu einer Werkstattanweisung.
+P11	LINE	Ein physischer Zeilenwechsel beendet die Aussage nicht automatisch.
+P12	RESET	Bei sichtbarem Besitzerwechsel beginnt ein neuer lokaler Gegenstand.
+P13	SURFACE	Schreibe die fertige Karte mit Allograph-, Hüllen-, Kadenz- und Melodieregeln.
