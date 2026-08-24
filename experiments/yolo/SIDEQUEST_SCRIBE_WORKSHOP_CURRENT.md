@@ -8748,11 +8748,19 @@ fifty have allographs. A canonical surface per sequence exactly matches 606 of
 renderer choices, not semantic gaps. See
 `sidequest_semantic_forward_surface_writer_four_hundred_sixty_ninth/FOUR_HUNDRED_SIXTY_NINTH_REPORT.md`.
 
-Next, compress the fifty allograph families into a small renderer. Separate q
-entry-prefix, leading ch/sh/d/s/t wrappers, one-character grade alternants and
-the genuinely learned complex set. Use unit, owner and within-locus position
-only to select among already synonymous forms; no new meanings may be added.
-Aim to raise exact surface writing while keeping the rulebook teachable.
+Pass 470 separates stable bodies from scribal wrappers. Every prose surface is
+exactly one of 173 bodies preceded by NONE/q/che/d/ch/sh/s/t. Body, register,
+field position and previous wrapper recover 359 of 381 prose surfaces; Astro
+parse, namespace and locus position recover 373 of 395. Thus 732 of 776 are
+exact without exceptions and a forty-four-item local allograph deck closes all
+776. See
+`sidequest_semantic_two_stage_renderer_four_hundred_seventieth/FOUR_HUNDRED_SEVENTIETH_REPORT.md`.
+
+Next, simplify the renderer lookup tables into actual apprentice habits. Count
+wrapper transitions and register/position preferences across the 381 prose
+events, find the smallest ordered rules that retain most of the 359 automatic
+choices, and move any body-specific residue into the existing forty-four-card
+exception deck. The target is fewer learned rules, not a higher fitted count.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
