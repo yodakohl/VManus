@@ -10039,10 +10039,20 @@ body-wrapper manual, and only 21 from a memorized exception deck. All 372
 round-trip exactly without changing a meaning. See
 `sidequest_semantic_compact_surface_manual_six_hundred_twenty_eighth/SIX_HUNDRED_TWENTY_EIGHTH_REPORT.md`.
 
-Next, inspect the 21 local exceptions individually for simple workshop causes:
-anticipatory copying, line filling, branch resumption, hand change, or contrast
-with an immediate neighbour. Do not invent another universal renderer; retain
-any unexplained remainder as a learned local form.
+Pass 629 inspects all 21 local exceptions with neighbour, physical position,
+register, and hand. Three become compact rules: the two Y-AIIN-Y centers use
+`taiin` at the preparation desk and `daiin` at the station desk, while E352 is
+a normal q entry after a close. The adjacent B1 sequence `okeey qol cheedy`
+becomes one learned three-card cadence. Eighteen events therefore require only
+sixteen memorized entries. Nine occur at field entry/only position and four
+follow a close, but hand change explains none; the unresolved remainder stays
+local rather than spawning another universal renderer. See
+`sidequest_semantic_local_exception_anatomy_six_hundred_twenty_ninth/SIX_HUNDRED_TWENTY_NINTH_REPORT.md`.
+
+Next, compose one short new apprentice order using only already attested C1-C5
+components and card bodies. Write it forward with the compact manual, then
+read it backward to check whether the working notation is practically usable
+beyond verbatim source sentences. Do not add a page, word, or card.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
