@@ -9770,10 +9770,17 @@ work-compartment, and 165 owner-bound material events. They form 116 steps in
 21 owner-local object chains with zero cross-owner leakage. See
 `sidequest_semantic_concrete_object_ledger_five_hundred_ninety_ninth/FIVE_HUNDRED_NINETY_NINTH_REPORT.md`.
 
-Next, rewrite the five Herbal articles from these objects as concrete
-raw-material, vessel/preparation, intermediate-product, and possible-use
-recipes, keeping plant identity and disease deliberately broad where the
-fixed-page images do not decide them.
+Pass 600 rewrites all five Herbal units as concrete recipes: H1 first watery
+extract, H2 re-extraction/two recharges, H3 twice-steeped wrung flower extract,
+H4 measured tempered poultice, and H5 multiply charged concentrated plant
+preparation. All nineteen statements/100 events remain bound. Water, wine, or
+fat are article-level carrier defaults, never single-form glosses; no plant
+species or disease is named. See
+`sidequest_semantic_concrete_herbal_recipes_six_hundredth/SIX_HUNDREDTH_REPORT.md`.
+
+Next, compare these five product classes with visible Biological station
+classes—bath, wash, poultice/application, passage, collection/rest—allowing
+many-to-many compatibility but no invented one-to-one page pointer.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
