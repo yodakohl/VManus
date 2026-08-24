@@ -10796,10 +10796,17 @@ position. The long derivation reports are no longer needed for the exercise.
 See
 `sidequest_semantic_compact_apprentice_release_seven_hundred_twenty_first/SEVEN_HUNDRED_TWENTY_FIRST_REPORT.md`.
 
-Next, hold the form machine fixed and return to content. Rank the163 semantic
-families by how awkwardly their present short German values compose across the
-eleven real records. Rewrite only the worst small set, with one atomic value per
-component or whole command and complete record-level consequences.
+Pass 722 holds the form machine fixed and ranks compositional gloss pressure.
+Seven short-value candidates emerge. The first revision wave is deliberately
+only three recurrent verbs across40 families/45 events: T EINTRAGEN→ANWENDEN,
+CH ABNEHMEN→ENTNEHMEN and K ZUDOSIEREN→ZUGEBEN. O GANG→ARBEITSGANG,
+AIR LAUF→WASSER, CTH BEREIT→BEREITEN and S TEILEN→TEIL remain queued. See
+`sidequest_semantic_gloss_pressure_seven_hundred_twenty_second/SEVEN_HUNDRED_TWENTY_SECOND_REPORT.md`.
+
+Next, apply T/CH/K globally to the39-entry sheet,163 recipes,173 cards and all
+381 events/116 statements. Rephrase every affected statement once; keep all
+card IDs, surfaces, owners and boundaries unchanged and compare readability in
+each of the eleven records.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
