@@ -8844,11 +8844,18 @@ path and target; H1-S001 becomes the second complete formula when ARBEITSFACH
 supplies the learned receiver. See
 `sidequest_semantic_direction_triad_four_hundred_eighty_first/FOUR_HUNDRED_EIGHTY_FIRST_REPORT.md`.
 
-Next, formalize ellipsis. For each of 116 prose statements, mark whether each
-source/quantity/path/target slot is written, inherited from the active record,
-supplied by the visible owner, supplied by a whole-card receiver, or remains a
-local exemplar value. Use that matrix to produce complete expansions without
-pretending every short cell explicitly spells all four slots.
+Pass 482 formalizes ellipsis for all 116 prose statements. Eight statements
+write every required slot, 53 are completed from record state, eleven from
+image or whole-card receiver, 23 require no directional/quantity slot, and only
+21 still need a local exemplar value. Slot counts show source is inherited in
+63 statements, while path is visible in 28 and target visible in 34. Every
+expansion names the provenance of each supplied slot. See
+`sidequest_semantic_ellipsis_matrix_four_hundred_eighty_second/FOUR_HUNDRED_EIGHTY_SECOND_REPORT.md`.
+
+Next, collapse statements with the same phase chain and the same four-slot
+supply pattern into form classes. Give each frequent class one short apprentice
+rule and list its concrete fills; quantify how many of 116 statements can be
+written from that small form deck versus copied locally.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
