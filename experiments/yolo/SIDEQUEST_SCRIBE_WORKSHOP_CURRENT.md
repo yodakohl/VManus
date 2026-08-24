@@ -7899,9 +7899,17 @@ within-cycle descent S2→S2→S1. Six redundant channels recover card, material
 thread and exact boundary. See
 `sidequest_semantic_master_repair_three_hundred_forty_ninth/THREE_HUNDRED_FORTY_NINTH_MASTER_REPAIR_DIALOGUE.md`.
 
-Next, run the same repair logic across all 381 prose events and sort every
-single-card corruption into automatically repairable, detectable-but-ambiguous
-or master-exemplar-only classes.
+Pass 350 runs a one-card corruption exercise at every one of the 381 prose
+positions. Value plus slot uniquely restores 297 events; 72 expose the error but
+need visible owner or right neighbour to select between two equal-value cards;
+only twelve singleton whole cards require the master exemplar. Fourteen
+value-slot pairs have two exact spellings, and current owner-plus-right-context
+separates all their occurrences without inventing a new meaning. See
+`sidequest_semantic_full_correction_index_three_hundred_fiftieth/THREE_HUNDRED_FIFTIETH_ONE_PAGE_CORRECTION_MANUAL.md`.
+
+Next, make the twelve exemplar-only cards into a compact master teaching tablet:
+one picture owner, one concrete work act, one mnemonic and one contrast card for
+each, while preserving their whole-card status.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
