@@ -8105,9 +8105,15 @@ cycles, two owners and one marked carry. All four first/second copy crossreads
 are complete. See
 `sidequest_semantic_rescaled_image_copy_three_hundred_seventy_seventh/THREE_HUNDRED_SEVENTY_SEVENTH_SECOND_COPY.md`.
 
-Next, remove one real source card from a trainee version of the second copy and
-collate it against the first. Keep surface variants, carry, omission and owner
-handoff as four separate correction categories.
+Pass 378 removes `cphy`/Nachseihen from a trainee copy. Collation keeps eight
+registered variants, reads the marked `cheky` once, preserves the H4-to-B3 owner
+handoff and restores exactly the one true omission between `lcheey` and `cthy`.
+The corrected second copy again has fourteen source cards. See
+`sidequest_semantic_two_copy_collation_three_hundred_seventy_eighth/THREE_HUNDRED_SEVENTY_EIGHTH_COLLATOR_NOTEBOOK.md`.
+
+Next, dictate the corrected sequence to a third scribe using only board calls,
+not German values. Permit surface change only at the eight variable cards and
+retain the six invariant forms exactly.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
