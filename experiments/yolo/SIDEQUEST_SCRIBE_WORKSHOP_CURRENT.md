@@ -9196,9 +9196,16 @@ still uses 59 bound local entries, so this is deterministic exemplar execution,
 not autonomous plaintext recovery. See
 `sidequest_semantic_bound_master_exemplar_five_hundred_twenty_sixth/FIVE_HUNDRED_TWENTY_SIXTH_REPORT.md`.
 
-Next, return to content: reverse-build one complete Herbal process from visible
-owner, source/material, quantity, operation, state and target, separating card-
-licensed words from image-supplied nouns.
+Pass 527 reverse-builds all seventeen H3/f11r events into four continuous
+statements and an eight-stage process: visible plant at work site, express,
+hold by prescribed measure, transfer to receiver, draw and close, retain,
+reintroduce a measured amount, then continue until ready. Card-licensed words
+are separated from ordinary German expansion; plant species, plant part,
+water/wine/oil, disease and body part remain absent. See
+`sidequest_semantic_h3_reverse_recipe_five_hundred_twenty_seventh/FIVE_HUNDRED_TWENTY_SEVENTH_REPORT.md`.
+
+Next, apply the same owner-source-measure-operation-state-target grammar to
+H4/f55v and compare the two Herbal process skeletons card by card.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
