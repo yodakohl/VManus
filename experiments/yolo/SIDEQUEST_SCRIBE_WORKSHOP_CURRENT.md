@@ -10069,10 +10069,20 @@ shared deck can generate new readable orders while preserving five distinct
 case identities. See
 `sidequest_semantic_five_branch_composition_six_hundred_thirty_first/SIX_HUNDRED_THIRTY_FIRST_REPORT.md`.
 
-Next, move each branch cue through the first five positions while holding the
-other cards fixed. Determine which moves preserve the intended reading and
-which reveal a position-bound construction. Add no word, card, surface, page,
-or Astro label.
+Pass 632 moves each branch cue through positions one to five. All 25 variants
+remain recognizable as the intended case, but only eleven remain sensible
+work orders. C2 BEREIT can occupy all five early positions; C1 ARBEITSFACH and
+C5 ZUTAT allow positions one or two; C3 AUSWRINGEN remains first; C4
+NACHPORTION remains exactly between PORTION and ZIEL. Six newly licensed
+orders are added beyond Pass 631. Thus branch identity is more mobile than
+process syntax: a readiness check behaves like a rubric, while irreversible
+operations and ordered quantities do not. See
+`sidequest_semantic_movable_branch_cues_six_hundred_thirty_second/SIX_HUNDRED_THIRTY_SECOND_REPORT.md`.
+
+Next, encode the eleven licensed variants as a small finite construction
+grammar and enumerate its legal six-step orders without expanding the card
+inventory. Measure the productive capacity before the readings lose process
+coherence.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
