@@ -10186,9 +10186,17 @@ foreign hands. C4 exposes why multiset-only collation fails: duplicated
 the second slot as `qokain`. See
 `sidequest_semantic_two_copy_collation_six_hundred_forty_fourth/SIX_HUNDRED_FORTY_FOURTH_REPORT.md`.
 
-Next, corrupt the strongest selector cue of each case. Test whether remaining
-cards plus precedence reconstruct C1-C5, and identify where a visible owner or
-master margin is genuinely required.
+Pass 645 removes the primary selector and then the full selector family from
+each case. The old one-cue selector recovers only 1/10 fragments, but matching
+all remaining exact cards and their retained precedence against the learned
+five-case deck uniquely recovers 10/10. Even C2 without all three CTH cards and
+C5 without all three HO cards remain unique three-card fragments. This is a
+learned-template repair, not free decoding. See
+`sidequest_semantic_selector_damage_six_hundred_forty_fifth/SIX_HUNDRED_FORTY_FIFTH_REPORT.md`.
+
+Next, enumerate all 315 nonempty ordered subfragments of the five six-card
+cases. Find the worst-case number of surviving cards needed for unique case
+recognition and publish the genuinely ambiguous shared backbones.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
