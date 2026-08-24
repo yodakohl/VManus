@@ -10079,10 +10079,18 @@ process syntax: a readiness check behaves like a rubric, while irreversible
 operations and ordered quantities do not. See
 `sidequest_semantic_movable_branch_cues_six_hundred_thirty_second/SIX_HUNDRED_THIRTY_SECOND_REPORT.md`.
 
-Next, encode the eleven licensed variants as a small finite construction
-grammar and enumerate its legal six-step orders without expanding the card
-inventory. Measure the productive capacity before the readings lose process
-coherence.
+Pass 633 encodes five necessary precedence arrows per case and enumerates all
+legal six-card linearizations. The grammar yields 22 written orders: C1 eight,
+C2 five, C3 six, C4 one, and C5 two. It contains all five Pass-631 orders and
+all eleven Pass-632 licensed variants, plus eleven new orders made by moving
+other independent cards. All 132 steps read back exactly; 0/22 complete orders
+and 103/110 adjacent-pair instances occur in the source. These are 22 writing
+orders for five jobs, not 22 new remedies. See
+`sidequest_semantic_finite_construction_grammar_six_hundred_thirty_third/SIX_HUNDRED_THIRTY_THIRD_REPORT.md`.
+
+Next, keep order controlled and introduce exactly one semantically compatible
+existing-card substitution per case. Use quantity, target, hold grade, or close
+slots to estimate distinct job capacity rather than mere order capacity.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
