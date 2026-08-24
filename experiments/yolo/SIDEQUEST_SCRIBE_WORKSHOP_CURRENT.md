@@ -9099,9 +9099,16 @@ share OL/continue, the twelve atomic cards realize only ten distinct standalone
 components; 22 of 32 components occur only embedded in longer cards. See
 `sidequest_semantic_seventeen_card_deck_five_hundred_thirteenth/FIVE_HUNDRED_THIRTEENTH_REPORT.md`.
 
-Next, build twenty-two embedded-component strips, each with highlighted host
-forms from different contexts, so an apprentice learns the remaining stems
-without inventing standalone words that never occur.
+Pass 514 builds the 22 embedded-component strips with 62 real host examples.
+Frequent parts receive three varied hosts; singletons retain only their one
+real host. Together, seventeen exact cards, 22 strips and one compressed-stage
+note form a forty-piece teaching kit covering 99 direct-card, 281 composed and
+one compressed event, all 381 prose events. See
+`sidequest_semantic_component_strips_five_hundred_fourteenth/FIVE_HUNDRED_FOURTEENTH_REPORT.md`.
+
+Next, simulate an apprentice copying all eleven prose records with only the
+forty-piece kit, visible owners and record templates, logging every card choice,
+state transition, wrapper choice and correction.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
