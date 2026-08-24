@@ -7822,9 +7822,16 @@ profiles differ strongly: q-hand has 118 q-initial events, s-hand 149 s/sh,
 expanded hand 175 ch/t and mean length 5.698 versus bare hand 4.772. See
 `sidequest_semantic_full_four_hand_corpus_three_hundred_thirty_ninth/THREE_HUNDRED_THIRTY_NINTH_FULL_HAND_PROFILES.md`.
 
-Next, assign the four profiles to the seven prose pages as a plausible small
-workshop, creating one mixed-hand edition with explicit hand changes but a
-single shared dictionary and syntax.
+Pass 340 assembles one mixed edition: A writes H1/H2/B1, B H3/B2, C H4/B4 and D
+H5/B3/B5/B6. The seven-page copy contains exactly 381 events and 116 statements
+with all identities, values, owners, boundaries, slots and cycles intact. Four
+Herbal-to-Bio handoffs remain within one hand; H5-to-B4 is a D-to-C relay whose
+exact Folgeposten and Einsetzen identities survive. See
+`sidequest_semantic_mixed_workshop_edition_three_hundred_fortieth/THREE_HUNDRED_FORTIETH_MIXED_WORKSHOP_EDITION.md`.
+
+Next, turn the eleven records into a complete apprentice run sheet listing each
+input item, six-slot work sequence, output item and receiving next station or
+terminal shelf, using the mixed-hand copy as the surface edition.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
