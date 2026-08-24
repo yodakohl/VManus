@@ -10430,8 +10430,15 @@ The manual explicitly preserves picture ownership, Y-versus-DY, line
 continuation, and local q/s rendering. See
 `sidequest_semantic_apprentice_manual_six_hundred_seventy_sixth/SIX_HUNDRED_SEVENTY_SIXTH_REPORT.md`.
 
-Next, reverse the manual on representative Herbal and Bio instructions: start
-from German workshop intent, select components and exact card, then read back.
+Pass 677 runs12 reverse apprentice traces/73 events across all11 records:
+German intent -> components -> exact card lookup -> copied surface -> atomic
+readback -> fluent intent. All12 return exact components/cards/surfaces with the
+master table. Four new readable recipes stop at lookup because no exact card is
+present;0 surfaces are invented. See
+`sidequest_semantic_reverse_apprentice_test_six_hundred_seventy_seventh/SIX_HUNDRED_SEVENTY_SEVENTH_REPORT.md`.
+
+Next, compare the resulting mixed card system against concrete c.1420 workshop
+analogues and choose the closest operational model for composition plus lookup.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
