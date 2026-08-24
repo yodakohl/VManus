@@ -1,0 +1,34 @@
+family_id	family_code	family_head_de	allowed_free_synonyms_de	drift_boundary_de	controlled_phrases	source_events	slot_codes	member_values_de
+A01	READY	Bereit	bereit|fertig|einsatzbereit	kein Qualitätsurteil darüber hinaus	2	8	S6_BEREIT_ABSCHLUSS	Bereit|Bereitansatz
+A02	FASTEN	Festmachen	befestigen|binden|festsetzen	Ziel bleibt lokal	4	4	S6_BEREIT_ABSCHLUSS	Bindeposten|Bindestufe|Kurzbindeposten|befestigen
+A03	STORE	Verwahren	verwahren|beiseitestellen	keine Lagerdauer	1	1	S6_BEREIT_ABSCHLUSS	Verwahren
+A04	REMAINDER	Rest	Rest|Endposten|Rückstand	nicht automatisch Abfall	3	3	S6_BEREIT_ABSCHLUSS	Auftragsschluss|Endposten|Kurzrest
+B01	MATERIAL	Material	Stoff|Teil|Zutat	niemals Pflanzenart oder Heilwirkung	6	9	S1_BEZUG_FOLGE	Blütenkraut|Pflanzenteil|Wurzelteil|Zutat|Zutatfolgeteil|Zutatposten
+B02	SOURCE	Quelle	Quelle|Vorrat|daraus	niemals konkrete Herkunft erfinden	3	7	S1_BEZUG_FOLGE	Folgequelle|Quelle|Quellposten
+B03	PREPARATION	Ansatz	Ansatz|Zubereitung|Vorbereitung	nicht mit fertigem Produkt gleichsetzen	8	16	S1_BEZUG_FOLGE	Ansatz|Auszugsansatz|Folgeansatz|Folgevorbereitung|Fortsetzungsansatz|Fortsetzungszubereitung|Gefäßansatz|Zutatenansatz
+B04	CONTINUE	Fortsetzung	weiter|danach|fortsetzen	keine neue Operation hinzudichten	18	46	S1_BEZUG_FOLGE	Anschluss|Folgefortsetzung|Folgefortsetzungsposten|Folgeklarlauf|Folgeposten|Folgeteilfortsetzung|Fortschluss|Fortsetzung|Kurzfolge|Kurzfortgang|Langfolge|Langfolgestufe|Langfortsetzung|Vorfortsetzung|Weiterlauf|Weiterposten|Weiterweg|weiterführen
+B05	CURRENT	Diesposten	dies|es|laufender Posten	nur recordlokaler Referent	1	18	S1_BEZUG_FOLGE	Diesposten
+B06	VESSEL	Gefäß	Gefäß|Behälter	keine Gefäßart ohne Bild	1	1	S1_BEZUG_FOLGE	Gefäß
+B07	BIND_THREAD	Bindefortsetzung	weiter binden|Bindegang	nicht automatisch Körperverband	3	3	S1_BEZUG_FOLGE	Bindefortsetzung|Kurzbindefortsetzung|Quellenzutatbindung
+D01	SHORT_PROCESS	Kurzprozess	kurz|direkt|einmal	keine genaue Zeitdauer	2	4	S4_DAUER_ZUSTAND	Kurzbearbeitung|Kurzvorbereitung
+D02	LONG_HOLD	Langhalten	länger|anhalten|halten	keine genaue Zeitdauer	4	4	S4_DAUER_ZUSTAND	Kurzhalt|Langhalt|Zielkurzhalt|Ziellanghalt
+D03	LONG_CONTACT	Langkontakt	länger anlegen|einwirken	Anwendungsobjekt bleibt lokal	2	27	S4_DAUER_ZUSTAND	Kurzkontakt|Langkontakt
+D04	HEAT	Wärmen	wärmen|warm halten	keine Temperaturzahl	3	7	S4_DAUER_ZUSTAND	Kurzwärme|Langwärme|Langwärmen
+M01	MEASURE	Sollmaß	Maß|Vorgabe|Sollwert	keine moderne Einheit einsetzen	6	34	S2_MATERIAL_MASS	Bereitsollmaß|Folgemaß|Postensollmaß|Sollmaß|Sollstellung|Zutatsollmaß
+M02	PORTION	Portion	Teil|Portion|Menge	nicht mit Materialart gleichsetzen	8	11	S2_MATERIAL_MASS	Ansatzportion|Folgeportion|Kurzsoll|Kurzteil|Portion|Postenportion|Postenzweitportion|Vollteil
+M03	ADDITION	Zugabe	zugeben|Zusatz|Einlage	Zusatzstoff bleibt lokal	4	12	S2_MATERIAL_MASS	Auszugzugabe|Einlage|Zugabe|Zusatz
+M04	STAGE	Arbeitsstufe	Stufe|Stand|Einstellung	keine absolute Zeitstufe behaupten	2	3	S2_MATERIAL_MASS	Arbeitsstufe|Endstufe
+M05	DIVIDE	Teilen	teilen|zerkleinern	keine Werkzeugart erfinden	2	3	S2_MATERIAL_MASS	Zerkleinern|teilen
+T01	TRANSFER	Transfer	führen|überführen|umsetzen	Richtung nur aus Quelle und Ziel	14	30	S3_PROZESS_TRANSFER	Anteilstransfer|Auszugnahme|Folgetransfer|Laufschluss|Nachtransfer|Postentransfer|Quelltransfer|Rücktransfer|Transfer|Umsetzen|Umsetzschluss|Vorbereitungstransfer|Zieltransfer|überführen
+T02	SUPPLY	Zuführung	zuführen|zugießen|eingeben	Medium nicht ohne Stoffkarte benennen	3	3	S3_PROZESS_TRANSFER	Quellausguss|Zielzuführung|Zuführung
+T03	DRAIN	Abführung	abführen|abziehen|ablassen	kein sichtbares Rohr voraussetzen	11	20	S3_PROZESS_TRANSFER	Abführgut|Abführpassage|Abführung|Abzug|Kurzabzugsschluss|Quellabführung|Quellabzug|Weiterabzug|Zielabführung|abführen|abziehen
+T04	PASSAGE	Durchgang	durchführen|durchleiten|Passage	Durchlass ist nicht automatisch Filter	8	13	S3_PROZESS_TRANSFER	Auslass|Beckenlauf|Kurzdurchgang|Kurzpassage|Zielkurzpassage|Zielpassage|durchlassen|durchleiten
+T05	SETTLE	Absetzen	absetzen|stehen lassen|ruhen	Dauer nur mit Gradkarte	9	21	S3_PROZESS_TRANSFER	Absetzschluss|Einsatzabsetzen|Folgeabsetzen|Kurzabsetzung|Langabsetzen|Sollabsetzung|Standzeit|Vorabsetzschluss|Zielabsetzung
+T06	COLLECT	Sammeln	auffangen|sammeln|zurücknehmen	Gefäßart bleibt bildabhängig	5	9	S3_PROZESS_TRANSFER	Auffanggefäß|Kurzsammlung|Langsammlung|Rücknahmeschluss|Sollsammlung
+T07	CLARIFY	Klären	seihen|klären|Klarauszug	nicht zwingend sichtbares Tuch	4	7	S3_PROZESS_TRANSFER	Klarabzug|Klarauszug|Nachseihen|Trennabzug
+T08	PRESS	Auswringen	pressen|auswringen	Werkzeug nicht ergänzen	1	1	S3_PROZESS_TRANSFER	Auswringen
+T09	WASH	Waschgang	waschen|spülen	Körper oder Anlage kommt vom Besitzer	2	4	S3_PROZESS_TRANSFER	Waschgang|Wasserzulauf
+Z01	PLACE	Zielstelle	an|zur Stelle|zum Ziel	Zielreferent nicht erraten	10	27	S5_ZIEL_ANWENDUNG	Endziel|Folgeziel|Stelle|Zielbereitung|Zieleingabe|Zieleinsatz|Zielmarke|Zielschluss|Zutatstelle|Zwischenziel
+Z02	SET	Einsetzen	einsetzen|ansetzen|eingeben	keinen Stoff hinzuerfinden	7	22	S5_ZIEL_ANWENDUNG	Einsetzen|Fortsetzungseinsatz|Laufeinsatz|Neueinsatz|Quelleinsatz|Volleinsatz|Wiedereinsatz
+Z03	USE	Gebrauchen	gebrauchen|anwenden	keine medizinische Indikation	1	1	S5_ZIEL_ANWENDUNG	Gebrauchen
+Z04	BIND	Binden	binden|befestigen	Körperverband nur bei sichtbarem Besitzer	1	1	S5_ZIEL_ANWENDUNG	Zielbindung

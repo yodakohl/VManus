@@ -7989,9 +7989,17 @@ the reading layer and the controlled edition becomes the copyist/corrector
 layer. See
 `sidequest_semantic_controlled_reverse_language_three_hundred_sixty_first/THREE_HUNDRED_SIXTY_FIRST_COMPLETE_CONTROLLED_EDITION.md`.
 
-Next, group the 159 phrases into a compact workshop thesaurus. Each family may
-license several natural German synonyms, but exactly one card formula must stay
-attached to every controlled phrase so that the reverse reading remains exact.
+Pass 362 groups those 159 phrases into 33 teachable families in six lessons:
+reference, measure/material, transfer, duration/state, target/application and
+closure. Families license ordinary synonyms but every phrase retains a unique
+`FAMILY::SLOT[Value]` formula. Explicit drift limits keep drainage, passage,
+clarification and washing distinct and preserve exact recovery of all 380 source
+cards and 116 statements. See
+`sidequest_semantic_workshop_thesaurus_three_hundred_sixty_second/THREE_HUNDRED_SIXTY_SECOND_WORKSHOP_THESAURUS.md`.
+
+Next, dictate free family phrases to an apprentice and force one exact formula
+and card choice. Use the mistakes to split families that are still too broad;
+do not alter a card merely to rescue a bad synonym.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
