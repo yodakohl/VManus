@@ -8062,9 +8062,16 @@ to sixteen source cards, while the slot drop from target 5 to measure 2 always
 forbids copying. See
 `sidequest_semantic_two_residual_layouts_three_hundred_seventy_first/THREE_HUNDRED_SEVENTY_FIRST_TWO_LAYOUTS.md`.
 
-Next, hide the SOURCE/ANTICIPATION labels and boundary decisions. Let a
-corrector recover both eight-card sources using only identity, owner, slot
-sequence and the visible line margins.
+Pass 372 hides all role and boundary labels. A corrector removes the two left
+margin copies when identical cards straddle the same owner margin and marks the
+two slot drops as real resets. Both nine-form layouts reconstruct their exact
+eight-card source sequences from identity, owner, slot order and margin alone.
+See
+`sidequest_semantic_unmarked_layout_corrector_three_hundred_seventy_second/THREE_HUNDRED_SEVENTY_SECOND_CORRECTOR_NOTEBOOK.md`.
+
+Next, insert one deliberately illegal duplicate at a real cycle boundary. The
+corrector must flag it as a scribal error rather than licensing it as a normal
+read-once anticipation.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
