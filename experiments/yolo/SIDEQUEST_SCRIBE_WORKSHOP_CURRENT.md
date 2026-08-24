@@ -8947,9 +8947,16 @@ from H1 double extraction and H2 standardization/dispatch. The whole plant is
 the owner, but no particular leaf, flower or medical use is encoded. See
 `sidequest_semantic_h5_recharge_deploy_four_hundred_ninety_third/FOUR_HUNDRED_NINETY_THIRD_REPORT.md`.
 
-Next, reconstruct seven-card H3-S001 and test whether the existing
-wring-settle-restrain-clear-extract chain eliminates the need for a learned
-whole form.
+Pass 494 removes H3-S001 from the learned local deck. Its seven cards compose
+as ANSATZ AUSWRINGEN BEMESSEN UND IN EMPFANGSBESTAND ABZIEHEN: hold at the
+work site, use learned CFHY=AUSWRINGEN, hold to measure, put the item into its
+receiver, take learned SHEY=EMPFANGSBESTAND, then fill/draw and close. The old
+flower-herb/wine/restrain/clear-extract story is retained only as an optional
+expansion, not card content. The manual falls from 169 to 168 items. See
+`sidequest_semantic_h3_wring_receive_four_hundred_ninety_fourth/FOUR_HUNDRED_NINETY_FOURTH_REPORT.md`.
+
+Next, reconstruct seven-card B3-S026 and test whether source measure, addition,
+readiness and long collection also eliminate a learned local form.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
