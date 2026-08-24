@@ -9857,9 +9857,18 @@ Thus the system has 38 graphic components but 37 spoken semantic words, while
 all 173 cards/381 events/116 statements remain covered. See
 `sidequest_semantic_standalone_words_six_hundred_eighth/SIX_HUNDRED_EIGHTH_REPORT.md`.
 
-Next, organize those 37 words into one compact workshop paradigm—object,
-quantity, source/path/target, sequence, action, grade/state, and close—and map
-all 173 cards to its slots.
+Pass 609 places all 37 words in eight drawers: 2 sequence, 4 object/material,
+4 quantity/stage, 5 source/path/target, 17 action, 3 grade, 1 state, and 1 close.
+All 173 cards receive one of 79 observed slot signatures; all 116 statements/
+381 events are rewritten as these signatures. The master can now teach by
+questions—when/continue, what, how much/stage, whence/path/where, do what, how
+long, until what state, and finished—while image and active case fill omissions.
+See
+`sidequest_semantic_eight_slot_paradigm_six_hundred_ninth/SIX_HUNDRED_NINTH_REPORT.md`.
+
+Next, use the common slot signatures to generate a small set of genuinely new
+component combinations, then search only the fixed ten pages for already
+present exact cards or close surface families. Keep failed predictions visible.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
