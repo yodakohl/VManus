@@ -10749,9 +10749,19 @@ to three local copy trays: an H2 final-item cap, an H4 bare-measure reset and a
 late-B1 three-cell strip `sal–tedy–chal`. This adds no meanings. See
 `sidequest_semantic_exception_compression_seven_hundred_fifteenth/SEVEN_HUNDRED_FIFTEENTH_REPORT.md`.
 
-Next, write fresh practice dockets using the four new doublet rules. Let the
-encoder choose semantic family and exact card without event IDs; permit lookup
-only of the three local surface trays. Then backread and correct the copies.
+Pass 716 writes12 fresh dockets/27 events for PLANT, BASIN and APPARATUS without
+old event IDs. All four doublet rules are exercised in positive and negative
+contexts, selecting8 marked and6 plain doublet cards. Every event uses an
+existing card and an existing surface uniquely backreadable to that card; no
+local tray lookup, new card or new surface is needed. The refined rules are
+therefore usable for forward composition, not only retrospective description.
+See
+`sidequest_semantic_fresh_docket_copy_seven_hundred_sixteenth/SEVEN_HUNDRED_SIXTEENTH_REPORT.md`.
+
+Next, arrange the twelve dockets as one continuous master-page exercise with
+two explicit picture-owner handoffs and physical line breaks inside clauses.
+Track current owner and open/closed work so that the corrector can locate any
+bad handoff without changing meanings.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
