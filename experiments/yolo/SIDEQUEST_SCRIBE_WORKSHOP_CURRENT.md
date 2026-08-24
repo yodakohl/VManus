@@ -9375,9 +9375,17 @@ AIIN, AL, OR, AR and OL now behave as arguments or modifiers rather than six
 invented full verbs. See
 `sidequest_semantic_formula_revised_articles_five_hundred_forty_eighth/FIVE_HUNDRED_FORTY_EIGHTH_REPORT.md`.
 
-Next, attack the highest-frequency awkward cards as a single grammatical
-problem: decide which are true actions and which merely supply item, measure,
-place, source, preparation or continuation to the neighbouring action.
+Pass 549 assigns every one of the 38 taught components a sentence role and
+derives role profiles for all 173 cards and 381 prose events. Only 237 events
+contain an ACTION component. The other 144 supply item, amount, source, target,
+path/medium, preparation, process, sequence, grade, state, modifier or close.
+This removes the mistaken assumption that every written card is a full verb.
+Component meanings remain unchanged. See
+`sidequest_semantic_component_sentence_roles_five_hundred_forty_ninth/FIVE_HUNDRED_FORTY_NINTH_REPORT.md`.
+
+Next, reparse all 97 instructions as argument bundles attached to 237 action
+events, allowing adjacent non-action cards to modify an action on either side.
+This should produce shorter and more natural clauses without deleting a card.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
