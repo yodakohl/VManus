@@ -8763,11 +8763,21 @@ the local exemplar. Incremental learning drops from 717 lookup/exception items
 to 122 habits/exception items. See
 `sidequest_semantic_compact_renderer_habits_four_hundred_seventy_first/FOUR_HUNDRED_SEVENTY_FIRST_REPORT.md`.
 
-Next, stop optimizing surface spelling and reread all fourteen units with the
-stable common-action dictionary. Produce one continuous German working edition
-that explicitly expands shared atoms into wet or celestial context, preserves
-all 776 groups, and records only genuine content collisions. Use those
-collisions—not renderer variance—to choose the next semantic revisions.
+Pass 472 rereads all fourteen units with that common-action dictionary. The
+continuous edition preserves 381 prose and 395 Astro groups. Thirty-one of the
+thirty-five shared components occur in both prose and Astro, yet none requires
+two incompatible core values: wet and celestial readings are contextual
+expansions such as SENKEN→abkühlen/eine Stufe senken and LAUF→Wasserlauf/Bahn.
+The remaining opacity is therefore the pictured or diagram-local owner of
+words such as DIES, STELLE, ENTNAHME and BAHN, rather than a root collision. See
+`sidequest_semantic_continuous_ten_page_edition_four_hundred_seventy_second/FOUR_HUNDRED_SEVENTY_SECOND_REPORT.md`.
+
+Next, construct a concrete silent-owner dictionary for every visible owner zone
+on the fourteen fixed units. Replace generic DIES/DORT/STELLE with the active
+plant, material, pool, conduit, receiver, wheel, sector or star-slot wherever
+the fixed images and existing owner maps permit it; keep genuinely invisible
+owners generic. Then propagate those owners through all 116 prose statements
+and 142 Astro loci before revising any component meaning.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
