@@ -10276,9 +10276,16 @@ splits perfectly: `qokeey qoky` is2/2 open continuation; `qokeey qokedy` is2/2
 closed. See
 `sidequest_semantic_endpoint_branching_six_hundred_fifty_fifth/SIX_HUNDRED_FIFTY_FIFTH_REPORT.md`.
 
-Next, integrate this split into the complete OK-E-Y/DY paradigm. Contrast
-short/long/full grades with active-item versus exact-close endpoints and make
-explicit predictions for the missing cells.
+Pass 656 integrates the split into all23 OK cards/79 events. The core grid has7
+cards/41 events: OK+Y active; E/EE/EEE=short/long/full; licensed DY=close.
+All19 closed events are statement-final;22 active events remain non-closing.
+M09 is now compositional. Missing cells predict `qokeeey?`=full active setting
+and an uncertain `qokdy?`=ungraded close. See
+`sidequest_semantic_ok_duration_endpoint_grid_six_hundred_fifty_sixth/SIX_HUNDRED_FIFTY_SIXTH_REPORT.md`.
+
+Next, compose the remaining16 OK cards through argument valency: AIIN measure,
+AIN portion, AL target, AR source, AIR flow liquid, OL continuation, plus the
+specialized CHD/SH/LD close operations. Seek one short invariant OK verb.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
