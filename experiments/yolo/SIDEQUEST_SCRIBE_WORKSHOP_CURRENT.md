@@ -9904,9 +9904,18 @@ graphic or register variants, including the residual OL/LS FORTSETZEN pair.
 See
 `sidequest_semantic_duplicate_command_resolution_six_hundred_thirteenth/SIX_HUNDRED_THIRTEENTH_REPORT.md`.
 
-Next, turn the ten surviving duplicate groups into an explicit multi-scribe
-surface palette: select a default card and practical conditions for choosing
-each alternate spelling without changing its meaning.
+Pass 614 turns the ten surviving duplicate commands into ten executable card-
+choice rules, twenty exact-card palettes, and thirty-five licensed surfaces.
+The rules replay all 71 affected events with the right exact card. Three desks
+share one meaning system but prefer local surfaces: P for plant/preparation, B
+for bath/application, and S for station/appendix work. Seven card/record pairs
+still allow more than one local surface; the nearby exemplar chooses among
+them without changing meaning. See
+`sidequest_semantic_multiscribe_palette_six_hundred_fourteenth/SIX_HUNDRED_FOURTEENTH_REPORT.md`.
+
+Next, rewrite all eleven Prose records as a readable edition using the new 39-
+word/163-command base: owner and product once, then invariant commands with
+their selected local cards alongside.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
