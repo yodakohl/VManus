@@ -7679,9 +7679,16 @@ All five selected handoffs possess an exact identity anchor; H4 and H5 each
 possess two. See
 `sidequest_semantic_handoff_lexicon_three_hundred_twentieth/THREE_HUNDRED_TWENTIETH_MINIMAL_HANDOFF_LEXICON.md`.
 
-Next, resolve the twice-attested shared `cheeky` card by reconstructing its full
-Herbal and Bio neighborhoods and choosing between Langwärme, Langhalt and
-Langbearbeitung.
+Pass 321 resolves the twice-attested `cheeky` together with its three-event
+short sister `cheky`: CHK means warming, E short, EE longer and Y keeps the
+current item active. The resulting Kurzwärme/Langwärme pair fits all five full
+statements: short warmth precedes settling, straining or washing; long warmth
+serves the measured Herbal portion and the f83r application station. See
+`sidequest_semantic_chk_heat_grade_three_hundred_twenty_first/THREE_HUNDRED_TWENTY_FIRST_CHK_HEAT_READING.md`.
+
+Next, turn the seventeen shared cards into a complete apprentice handoff
+dialogue and mark exactly which concrete material and station details still
+have to be supplied by picture, exemplar or speech.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
