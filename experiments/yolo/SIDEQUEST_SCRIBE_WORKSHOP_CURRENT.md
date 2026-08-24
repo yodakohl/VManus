@@ -8585,10 +8585,18 @@ compositions, six portable learned whole cards and 31 record-local whole cards;
 owner changes remain explicit. See
 `sidequest_semantic_biological_union_four_hundred_forty_seventh/FOUR_HUNDRED_FORTY_SEVENTH_REPORT.md`.
 
-Next, attack the 31 remaining record-local whole cards as one bounded deck.
-Remove stale opening/water/body glosses when a shorter composition or state
-value exists, search for families across records without changing exact-card
-identity, and leave genuinely local object names as learned whole cards.
+Pass 448 reduces the 31 local whole cards to 24 compositions and seven compact
+whole cards: FUELLEN, GLEICH EINSTELLEN, TEILEN, AUFSTREICHEN, ZERKLEINERN,
+WARM and ROH. K+AIR/K+AR form a water/source supply pair, L is transfer, R is
+the cooling family, and SOLK+AIIN is AUFFANGMASS. Unsupported first/second
+opening, fresh/rinse water and sieve-cloth glosses disappear. The final deck is
+111 productive + six portable + seven local, covering 254+20+7 events. See
+`sidequest_semantic_biological_local_cleanup_four_hundred_forty_eighth/FOUR_HUNDRED_FORTY_EIGHTH_REPORT.md`.
+
+Next, audit the thirteen remaining whole cards (six portable plus seven local)
+against the 111 productive families. Look for true whole-word paradigms,
+especially FUELLEN/TEILEN and WARM/ROH, without decomposing them merely because
+their surface letters resemble productive stems.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
