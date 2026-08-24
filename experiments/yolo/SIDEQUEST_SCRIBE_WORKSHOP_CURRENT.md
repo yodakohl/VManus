@@ -8620,10 +8620,18 @@ create hard visible scene changes; four occur inside a running statement.
 Physical lines never become sentence boundaries. See
 `sidequest_semantic_biological_continuous_prose_four_hundred_fifty_second/FOUR_HUNDRED_FIFTY_SECOND_CONTINUOUS_BIOLOGICAL_EDITION.md`.
 
-Next, return to the four Herbal pages and transfer the now-stable Biological
-component manual into all 100 Herbal events. Do not import bath owners; test
-only card meanings and compositions. Rebuild five pictured-plant articles and
-identify which Herbal singleton meanings still contradict the shared manual.
+Pass 453 transfers the Biological exact-card dictionary into the five Herbal
+records without transferring any bath owner. Seventeen shared card types read
+44 of 100 Herbal events. Thirty-five old Herbal event glosses change so that
+one exact card keeps one value across registers; most clearly, CHTY is now
+T+Y=DIES FUELLEN instead of the plant-only invention ZERKLEINERN. Forty-nine
+Herbal-local types covering 56 events remain. See
+`sidequest_semantic_herbal_manual_transfer_four_hundred_fifty_third/FOUR_HUNDRED_FIFTY_THIRD_REPORT.md`.
+
+Next, attack the forty-nine remaining Herbal-local types with the thirty-three
+component Biological manual. Keep genuine plant-part, material and preparation
+whole cards where composition fails; do not import bath owners. Then rebuild
+all five pictured-plant articles and list the remaining local whole words.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
