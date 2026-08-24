@@ -8041,9 +8041,15 @@ noun, while bathhouse and medical expansions remain possible but add two and
 four narrower nouns respectively. See
 `sidequest_semantic_surface_only_backread_three_hundred_sixty_eighth/THREE_HUNDRED_SIXTY_EIGHTH_SURFACE_ONLY_READING.md`.
 
-Next, replace three easy forms with cards from the fourteen pair placards. Give
-only surfaces, B3 owner and right context; require exact identity recovery and a
-second fluent back-reading.
+Pass 369 composes a fresh eight-card B3 order with three pair values:
+`sor kain shckhy cheky choky | daiin qokeey qokedy`. B3 owner alone selects the
+Einsetzen and Kurzkontakt cards; B3 owner plus following Kurzkontakt selects the
+Langkontakt card. Surface back-reading recovers all eight values. See
+`sidequest_semantic_paired_forward_order_three_hundred_sixty_ninth/THREE_HUNDRED_SIXTY_NINTH_PAIRED_ORDER_READING.md`.
+
+Next, render this paired order in two distinct registered scribal palettes.
+Preserve pair decisions, values, slots and microcycles; change only attested
+surface variants and have each hand read the other.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
