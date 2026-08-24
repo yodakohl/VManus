@@ -10283,9 +10283,15 @@ M09 is now compositional. Missing cells predict `qokeeey?`=full active setting
 and an uncertain `qokdy?`=ungraded close. See
 `sidequest_semantic_ok_duration_endpoint_grid_six_hundred_fifty_sixth/SIX_HUNDRED_FIFTY_SIXTH_REPORT.md`.
 
-Next, compose the remaining16 OK cards through argument valency: AIIN measure,
-AIN portion, AL target, AR source, AIR flow liquid, OL continuation, plus the
-specialized CHD/SH/LD close operations. Seek one short invariant OK verb.
+Pass 657 turns all23 OK cards/79 events into one invariant verb ANSETZEN with20
+component recipes. Seven direct arguments explain9 cards/39 events: Y item, OL
+continuation, AIIN prescribed measure, AL target, AIN portion, AR source, AIR
+flow liquid. All26 OK close events are final. Five new combinations are
+predicted, including E+AL, E+OL, EEE+Y, AIIN+Y, and AIN+AL. See
+`sidequest_semantic_ok_valency_six_hundred_fifty_seventh/SIX_HUNDRED_FIFTY_SEVENTH_REPORT.md`.
+
+Next, build the same complete valency entry for CHD/CHED=UMSETZEN across its
+Y-DY endpoints, AL-AR-AIN-AIR arguments, and L-P-OL-OT-OK prefixes.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
