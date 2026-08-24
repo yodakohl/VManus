@@ -10463,9 +10463,17 @@ values short while the plant, basin, station or image supplies the concrete
 noun. See
 `sidequest_semantic_owner_expanded_compact_edition_six_hundred_eightieth/SIX_HUNDRED_EIGHTIETH_REPORT.md`.
 
-Next, compress the 173-card master tablet into the smallest practical copybook
-layout and determine which card families an apprentice can find by recipe
-rather than memorize individually.
+Pass 681 lays out a practical six-sheet copybook. The173 exact cards collapse
+to163 component-recipe addresses under34 first-component tabs;153 addresses
+select one card directly and10 select between two local card variants. The
+copybook still preserves230 exact surface exemplars, but no tab contains more
+than20 recipes. Only the39 short entries, tray order and3 whole commands need
+semantic memorization; surfaces remain lookup-and-copy material. See
+`sidequest_semantic_copybook_layout_six_hundred_eighty_first/SIX_HUNDRED_EIGHTY_FIRST_REPORT.md`.
+
+Next, test the copybook as a multi-scribe production system by assigning the
+same dictated recipes to different entry positions and deriving which parts
+stay invariant versus which exact surfaces change.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
