@@ -7737,9 +7737,16 @@ Absetz-/Abzugsschlüsse in place of special water glosses. The result has 158
 productive cards/361 events and 15 whole cards/20 events. See
 `sidequest_semantic_whole_card_attack_three_hundred_twenty_eighth/THREE_HUNDRED_TWENTY_EIGHTH_REVISED_WHOLE_DECK.md`.
 
-Next, rewrite all five Herbal articles from the 55-entry deck, keeping image-
-supplied plant identity explicit and removing superseded wine, fresh-water and
-duplicate-root expansions.
+Pass 329 catches a second inconsistency before the Herbal rewrite: 24 cards had
+productive formulas but retained incompatible old story glosses. Their values
+now follow their components. CHO+AIIN is Zutatsollmaß, not Geschwür; K+Y is
+Bindeposten, not Trank; CHO+AL+Y is Zutatstelle, not Blütebeginn; and OT+Y is
+Folgeposten, not retained flowers. `chety/chty=Zerkleinern` returns to the
+whole-card class, leaving 157 productive and 16 memorized cards. See
+`sidequest_semantic_herbal_formula_repair_three_hundred_twenty_ninth/THREE_HUNDRED_TWENTY_NINTH_REPAIRED_HERBAL_CHAINS.md`.
+
+Next, expand the nineteen repaired Herbal chains into five continuous articles
+using only card meaning, visible plant owner and active record reference.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
