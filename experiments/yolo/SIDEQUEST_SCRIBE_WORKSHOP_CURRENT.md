@@ -8780,11 +8780,19 @@ to the visible Bio/Astro station, but remains an exemplar-learned invisible
 target in Herbal. All 776 groups and all component values remain unchanged. See
 `sidequest_semantic_silent_owner_dictionary_four_hundred_seventy_third/FOUR_HUNDRED_SEVENTY_THIRD_REPORT.md`.
 
-Next, run a record-local referent propagator over the owner-expanded edition.
-Replace each DIES/DORT/VON DORT with the most recent active material, batch,
-liquid, station value or diagram value; reset only at the already visible owner
-changes. Publish the unresolved references rather than silently filling them,
-then rewrite all fourteen units into less pronoun-heavy workshop German.
+Pass 474 runs the record-local referent propagator. It resolves all ninety-two
+DIES/DORT tokens in the 381 prose events to the current plant material, batch,
+flow, extracted fraction, portion or collected stock. Twenty-one starts or
+visible owner changes reset the active post; five Herbal target-place events
+remain explicitly invisible. Astro resets at each of its 142 visible loci and
+does not carry a pronoun across slots. See
+`sidequest_semantic_referent_propagation_four_hundred_seventy_fourth/FOUR_HUNDRED_SEVENTY_FOURTH_REPORT.md`.
+
+Next, compress the mechanically expanded referent chains into readable record
+prose. Collapse nested phrases such as PORTION OF PORTION, retain every event in
+an aligned interlinear, and write one concise workshop instruction per one of
+the 116 statements plus fourteen genuinely continuous unit readings. Any
+compression that changes the active post must be rejected.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
