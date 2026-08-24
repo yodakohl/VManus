@@ -8176,10 +8176,16 @@ pipeline is surface → card/components → atomic workshop value → image argu
 See
 `sidequest_semantic_boardless_layered_reading_three_hundred_eighty_eighth/THREE_HUNDRED_EIGHTY_EIGHTH_BOARDLESS_EDITION.md`.
 
-Next, attack the five learned cards as a local process chain: CHEOAR,
-CHEKY, LCHEEY, CPHY and TALAM. Look for transferable cores in the ten-page
-dictionary, but retain a whole card wherever the decomposition changes its
-short value.
+Pass 389 decomposes CHEOAR as CHEO+AR and CHEKY as CHK+E+Y, raising the page to
+eleven component-readable cards. LCHEEY, CPHY and TALAM remain learned whole
+cards. Crucially, LCHEEY is corrected from the tempting L+CHEEY/Klarabzug to the
+local whole-card value benetzte Stelle; the H4 reading is revised rather than
+rescued with a longer gloss. See
+`sidequest_semantic_five_card_reanalysis_three_hundred_eighty_ninth/THREE_HUNDRED_EIGHTY_NINTH_REVISED_BOARDLESS_EDITION.md`.
+
+Next, search the ten-page dictionary for functional sisters of the three
+remaining whole cards—target/result, second separation and storage—without
+forcing surface segmentation. Build a small nomenclator deck by function.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
