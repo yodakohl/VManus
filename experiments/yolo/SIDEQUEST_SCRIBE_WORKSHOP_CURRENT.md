@@ -9963,9 +9963,18 @@ surface, matching the proposed mixture of productive abbreviations and learned
 whole cards. See
 `sidequest_semantic_apprentice_tablet_six_hundred_twentieth/SIX_HUNDRED_TWENTIETH_REPORT.md`.
 
-Next, compare C3 with C4 module by module. If image owner, case material, and
-target address cannot carry the difference between flower wash/immersion and
-tempered poultice/contact, add the smallest missing concrete application core.
+Pass 621 compares C3 and C4 directly. They share twenty-three components and
+eighteen exact cards, but C3 alone has CFH/AUSWRINGEN, CTH/BEREIT, EEE/VOLL,
+IIN/ARBEITSSTUFE, P/EINFUELLEN, R/KUEHLEN, and WIEDERAUFNEHMEN; C4 alone has
+AN/NACHPORTION, CKH/DURCHLASSKANAL, LD/BEFESTIGEN, and TALAM/VERWAHREN. Thus
+C3's flower-extract/wash reading and C4's tempered contact/poultice reading are
+already separated by eleven exclusive components and 72 nonshared exact cards.
+No new application word is added. See
+`sidequest_semantic_c3_c4_contrast_six_hundred_twenty_first/SIX_HUNDRED_TWENTY_FIRST_REPORT.md`.
+
+Next, compare C1 with C2. Because H1/H2 share the same pictured plant owner,
+this is the harder test of whether the text itself distinguishes a mild ground
+extract from a stronger follow-up/rinse extract.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
