@@ -8533,10 +8533,19 @@ remaining 32. All 34 statements are read across three image-local owner zones,
 with the real E264 and E291 owner resets preserved inside S016 and S026. See
 `sidequest_semantic_b3_station_article_four_hundred_fortieth/FOUR_HUNDRED_FORTIETH_B3_34_STATEMENTS.tsv`.
 
-Next, attack B3's 26 local cards with the established paradigms. Start with
-SHEEDY, CHKEEDY, QOTAL, OTEDY, OTCHEDY, CHEDCHY, DALCHDY, PCHEDAL, SHEDAL,
-CHEDAIN, OKAIR, SCHEDAIR, QOKSHEDY, CTHY and SOR; reject the old broad-vessel
-and lower-site readings if their visible pieces predict measure and target.
+Pass 441 derives seventeen of B3's 26 new types, covering 23 events. Known
+rules now yield long-settle, long-warm, next-target, short-next-step,
+next-transfer, current-transfer, inward-at-target, target-settle, portion-
+transfer, flowing-liquid start/continue, ready and batch. QOTEDAIIN becomes
+SHORT NEXT MEASURE rather than an invisible broad vessel; OLSALY becomes
+CONTINUE THIS AT THE TARGET rather than lower site. Only nine local singleton
+cards remain. See
+`sidequest_semantic_b3_productive_completion_four_hundred_forty_first/FOUR_HUNDRED_FORTY_FIRST_APPRENTICE_CARD.md`.
+
+Next, run a concrete tournament over the nine B3 local cards: CHARY, LO,
+CHEEDAR, SHECTHEDCHY, CHETY, CHEEETY, SHECTHY, CHLDAIIN and CHEALROR. Give each
+short rival meanings, prefer values that complete whole station sequences, and
+promote a component only where it predicts rather than merely resembles.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
