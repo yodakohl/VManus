@@ -8084,9 +8084,16 @@ anticipation. The selected real decisions remain six continuations, one
 read-once and 39 resets. See
 `sidequest_semantic_real_transition_rule_correction_three_hundred_seventy_fourth/THREE_HUNDRED_SEVENTY_FOURTH_REPORT.md`.
 
-Next, add a positive visible anticipation convention to the exercise page only,
-such as a separated marginal position. Test whether it distinguishes licensed
-carry from an ordinary duplicate; do not claim that the real pages use it.
+Pass 375 invents a positive mark for the exercise workshop only: an anticipation
+card occupies the final margin after a double normal gap and repeats at the next
+line start. This adds no glyph, licenses the exercise `cheky` and `qokeey`
+copies, and leaves unmarked `aiin | aiin` for master correction rather than
+silently rescuing it. No real-page use is claimed. See
+`sidequest_semantic_visible_carry_convention_three_hundred_seventy_fifth/THREE_HUNDRED_SEVENTY_FIFTH_CARRY_MANUAL.md`.
+
+Next, build one complete practice page after two image regions are laid down.
+Fill the residual spaces with four microcycles, two visible owners, one marked
+carry and an exact surface-to-instruction back-reading.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
