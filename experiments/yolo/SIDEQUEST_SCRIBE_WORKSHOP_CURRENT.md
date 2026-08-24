@@ -8332,10 +8332,16 @@ ready-work-settle. K+IIN remains a soft Sollstand, DA+IIN an opening setting,
 while AIIN stays the separate learned MASS card. See
 `sidequest_semantic_iin_setpoint_four_hundred_eleventh/FOUR_HUNDRED_ELEVENTH_POCKET_RULE.md`.
 
-Next, audit CH/CHET in B3-S034 against every occurrence of the same exact card
-and its nearest family. Replace the Herbal-heavy “zerkleinern” default with a
-shorter operation only if it reads cleanly in both material and pool/station
-contexts.
+Pass 412 replaces the overnarrow CHET gloss ZERKLEINERN with BEARBEITEN. The
+same exact card occurs after cleaning and before vessel/water in H1, and after
+SOLLSTAND/BEREIT before measure/target/settling in B3. Cutting or stirring is a
+local realization, not the portable card value; CHET stays distinct from
+CTH/BEREIT, CHED/UMSETZEN, SHED/ABSETZEN and CHK/WÄRMEN. See
+`sidequest_semantic_chet_process_four_hundred_twelfth/FOUR_HUNDRED_TWELFTH_POCKET_RULE.md`.
+
+Next, audit the H1 OS/Gefäß card against every vessel, receiver and collection
+station card. Decide whether OS is a portable container word or merely a
+learned local vessel name, then rewrite the complete H1 preparation chain.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
