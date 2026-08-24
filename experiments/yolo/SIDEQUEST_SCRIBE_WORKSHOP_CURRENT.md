@@ -8158,9 +8158,14 @@ token backreads as entry shell, content core, grade and endpoint rather than a
 sentence-sized gloss. See
 `sidequest_semantic_ok_process_strip_three_hundred_eighty_fifth/THREE_HUNDRED_EIGHTY_FIFTH_PROCESS_STRIP.md`.
 
-Next, insert one wrong existing grade or endpoint card into each track. Require
-the apprentice to repair each line by naming exactly the faulty component and
-changing only that one card.
+Pass 386 inserts one endpoint fault and two grade faults into the three tracks.
+Each is repaired by naming ENDPOINT or GRADE and replacing exactly one existing
+card; all ten unaffected positions remain fixed and no surface is invented. See
+`sidequest_semantic_ok_error_correction_three_hundred_eighty_sixth/THREE_HUNDRED_EIGHTY_SIXTH_CORRECTOR_NOTEBOOK.md`.
+
+Next, embed one such fault in a short two-owner H4/B3 page. The corrector must
+separate owner handoff, marked carry and component error, repairing only the
+component while preserving the image ownership and line layout.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these

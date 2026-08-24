@@ -1,0 +1,4 @@
+exercise	track	intended	wrong	fault_position	wrong_card	correct_card	faulty_component	observed_components	required_components	diagnosis	difference_positions	cards_changed	all_other_cards_preserved	surface_inventory_status	repair_result
+E1	KURZ	dy daiin okey qokedy	dy daiin okey okey	4	okey	qokedy	ENDPOINT	OK+E+Y	OK+E+DY	kurzer Schluss fehlt; der Diesposten bleibt versehentlich offen	4	1	YES	BOTH_EXISTING_REGISTERED_CARDS	EXACT_INTENDED_TRACK
+E2	LÄNGER	dy daiin okeey qokeedy	dy daiin okeey qokedy	4	qokedy	qokeedy	GRADE	OK+E+DY	OK+EE+DY	der Schluss ist zu kurz; ein E fehlt	4	1	YES	BOTH_EXISTING_REGISTERED_CARDS	EXACT_INTENDED_TRACK
+E3	VOLLSTÄNDIG	dy daiin qokeeedy	dy daiin qokeedy	3	qokeedy	qokeeedy	GRADE	OK+EE+DY	OK+EEE+DY	der Obergrad fehlt; länger wurde statt vollständig geschrieben	3	1	YES	BOTH_EXISTING_REGISTERED_CARDS	EXACT_INTENDED_TRACK
