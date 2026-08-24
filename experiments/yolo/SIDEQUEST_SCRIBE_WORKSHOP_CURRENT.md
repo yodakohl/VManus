@@ -7752,8 +7752,16 @@ straining/Klarauszug process without wine, H4 is divided and later warmed
 rather than cooled, and H5 is a binding/application chain. See
 `sidequest_semantic_repaired_herbal_edition_three_hundred_thirtieth/THREE_HUNDRED_THIRTIETH_COMPLETE_HERBAL_EDITION.md`.
 
-Next, rebuild the five Herbal-to-Bio handoffs from these repaired outputs and
-drop any station match that depended on cooling, free washing or K-as-straining.
+Pass 331 rebuilds all five Herbal→Bio handoffs from the repaired values. All
+five survive with seven exact identity anchors. H4 is strengthened by exact
+Sollmaß and Langwärme on both sides; H5 uses exact Folgeposten and Einsetzen.
+No connection now depends on second-root, ulcer, wine, cooling or free K-based
+washing/straining. See
+`sidequest_semantic_repaired_handoffs_three_hundred_thirty_first/THREE_HUNDRED_THIRTY_FIRST_REPAIRED_WORKFLOW.md`.
+
+Next, rewrite all 97 Biological statements from the repaired global dictionary
+and the sixteen visible/local station owners, removing any superseded story
+expansion that the new card formulas no longer license.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
