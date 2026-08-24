@@ -9725,9 +9725,17 @@ meanings. These are task roles, not claimed identities of palaeographic hands.
 See
 `sidequest_semantic_multi_hand_workshop_five_hundred_ninety_third/FIVE_HUNDRED_NINETY_THIRD_REPORT.md`.
 
-Next, order the visible Prose surface variants as possible scribe habits:
-separate harmless frame/allograph choices from changes in the 37 spoken values
-and from true exemplar-only exceptions.
+Pass 594 reduces 230 visible Prose forms to 173 card identities. Thirty-four
+recurrent cards have 91 forms and cover 202 events; nineteen palettes vary
+within a page, and 32/34 use different forms at the same statement position.
+Thus surfaces are card-local learned scribe palettes, not extra meanings or a
+universal positional renderer. Seventeen recurrent cards stay fixed and 122
+one-off forms are copied from the exemplar. See
+`sidequest_semantic_scribe_surface_palettes_five_hundred_ninety_fourth/FIVE_HUNDRED_NINETY_FOURTH_REPORT.md`.
+
+Next, give each of the 34 palettes a practical local preference—entry, middle,
+only/close, or free choice—while explicitly leaving unresolved choices to the
+card exemplar rather than inventing a universal wrapper grammar.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
