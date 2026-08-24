@@ -7808,9 +7808,16 @@ Frequent grammatical cards vary (`dar/char/sar`, `aiin/daiin/saiin/taiin`,
 logical statement crosses a physical line. See
 `sidequest_semantic_four_hand_fresh_copy_three_hundred_thirty_seventh/THREE_HUNDRED_THIRTY_SEVENTH_FOUR_HAND_EDITION.md`.
 
-Next, separate the complete 173-card deck into a shared invariant teaching core,
-hand-variable allograph cards and stable memorized technical cards, producing a
-single practical multi-scribe workshop chart.
+Pass 338 separates the full deck into three teaching layers: 125 invariant
+productive cards/163 events, 34 hand-variable palette cards/202 events, and 14
+stable memorized technical cards/16 events. Two memorized whole cards are also
+variable: `chety|chty=Zerkleinern` and `cheey|shey=Klarauszug`. Thus composition
+and allography are independent workshop choices. See
+`sidequest_semantic_multiscribe_teaching_chart_three_hundred_thirty_eighth/THREE_HUNDRED_THIRTY_EIGHTH_MULTI_SCRIBE_CHART.md`.
+
+Next, apply the four hand-selection rules to all 381 prose events and measure the
+resulting whole-corpus visual profiles while preserving all 173 identities,
+atomic values, statement boundaries and six-slot parses.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
