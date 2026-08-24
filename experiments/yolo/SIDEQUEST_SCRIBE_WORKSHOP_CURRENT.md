@@ -10125,9 +10125,18 @@ three renderer forms, and only one new local exception: E377 `daiin` at its
 second field opening. Every visible form round-trips exactly. See
 `sidequest_semantic_complete_surface_curriculum_six_hundred_thirty_seventh/SIX_HUNDRED_THIRTY_SEVENTH_REPORT.md`.
 
-Next, add the three Astro pages as a strictly separate copied lookup layer of
-395 groups, 142 loci, and 13 namespaces. Produce one ten-page apprentice
-handbook without importing Prose words, orientation, or an f68-f69 key.
+Pass 638 completes the ten-page handbook. The seven Prose pages contain 381
+productively read/written events. The three Astro pages contain 395 copied
+groups, 301 distinct visible forms, 142 image loci, and thirteen local
+namespaces. Every Astro group defaults to “local celestial/address label at
+this picture position”; none is required by a case, imports a Prose word,
+requires an orientation, or creates an f68-f69 key. The book therefore uses a
+productive command register and a separate copied celestial lookup layer. See
+`sidequest_semantic_ten_page_apprentice_handbook_six_hundred_thirty_eighth/SIX_HUNDRED_THIRTY_EIGHTH_REPORT.md`.
+
+Next, run a combined apprentice exam: write/back-read one non-source C3
+short-hold order, copy/retrieve one f69 locus, inject one error into each, and
+apply the master's correction. Add no inventory.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
