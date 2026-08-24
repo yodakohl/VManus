@@ -8027,9 +8027,16 @@ without opening a running page exemplar. The pair book is therefore a compact
 scribal-variant manual rather than a second semantic lexicon. See
 `sidequest_semantic_pair_placard_drill_three_hundred_sixty_sixth/THREE_HUNDRED_SIXTY_SIXTH_PAIR_DECISION_BOOK.md`.
 
-Next, distribute the full system over a short apprentice curriculum: families,
-contrasts, pair forms and the seven mnemonic distinctions. End with a fresh
-forward-set work instruction and a second apprentice's back-reading.
+Pass 367 fits the full system into a six-day apprentice course and ends with a
+new ten-card B3 exercise: `sor kain daiin shckhy cheky al | lcheey cphy sheey
+talam`. It reads Ansatz, Portion, Sollmaß, durchleiten, Kurzwärme, Stelle,
+Klarabzug, Nachseihen, Langhalt, Verwahren. A second apprentice recovers all ten
+values, slots, identities and surfaces without a running page exemplar. See
+`sidequest_semantic_apprentice_curriculum_three_hundred_sixty_seventh/THREE_HUNDRED_SIXTY_SEVENTH_APPRENTICE_FINAL.md`.
+
+Next, hide the formulas and give only those ten surfaces plus their B3 owner to
+a fresh reader. Require a fluent German instruction and record every ambiguity
+rather than silently consulting the construction ledger.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
