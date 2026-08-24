@@ -8420,10 +8420,16 @@ sentence-sized Geschwür gloss. H2 and H3 share a multiproduct register but use
 different branch cards. See
 `sidequest_semantic_h2_press_paste_four_hundred_twenty_fourth/FOUR_HUNDRED_TWENTY_FOURTH_COMPLETE_H2.md`.
 
-Next, combine H1-H5 into one complete Herbal article grammar. Publish the five
-translations side by side, separate common productive slots from local learned
-nouns, and identify the weakest remaining card in each article for the next
-revision.
+Pass 425 consolidates all 100 Herbal events into five complete articles.
+MASS, DIES and FORTSETZEN span all five; ANSATZ, BEREIT, STELLE and PORTION form
+smaller productive layers, while concrete nouns remain a learned local deck.
+The current weakest cards are H1 ABSCHABEN, H2 PASTE, H3 TRANK, H4 VERWAHREN
+and H5 BLÜTEBEGINN. See
+`sidequest_semantic_herbal_five_article_grammar_four_hundred_twenty_fifth/FOUR_HUNDRED_TWENTY_FIFTH_FIVE_ARTICLE_EDITION.md`.
+
+Next, attack those five weak cards together. Build five alternative complete
+article readings and choose the set that maximizes concrete coherence without
+turning any one card into a sentence.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
