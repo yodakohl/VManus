@@ -9275,8 +9275,18 @@ body part, ailment, liquid and global direction remain outside the operator
 grammar. See
 `sidequest_semantic_common_workshop_grammar_five_hundred_thirty_sixth/FIVE_HUNDRED_THIRTY_SIXTH_REPORT.md`.
 
-Next, split the 173 exact cards into honestly compositional cards and learned
-whole-card exceptions under this eight-word grammar.
+Pass 537 performs a leave-one-card composition test over the 173-card deck.
+Thirty-one component stems predict values on other cards. The complete reading
+of 161 card types/364 events is reproduced from components attested on other
+cards; one card/one event is partly compositional; eleven types/sixteen events
+remain learned whole cards. Every card keeps a concrete default. The main
+productive stems are Y=this, DY=close, E=short, EE=longer, OK=activate,
+OL=continue, AL=target, CHD=transfer, AIIN=measure and AIN=portion. See
+`sidequest_semantic_composition_split_five_hundred_thirty_seventh/FIVE_HUNDRED_THIRTY_SEVENTH_REPORT.md`.
+
+Next, attack the eleven whole cards and one partial card for narrower honest
+decompositions, starting with CHEO/CKHE/LDDY rather than changing the stable
+stems.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
