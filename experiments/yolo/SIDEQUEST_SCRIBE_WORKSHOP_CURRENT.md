@@ -10406,9 +10406,16 @@ fluency grades are91 clean,18 workable,7 dense. The11 continuous record texts
 ignore physical lines as sentence boundaries. See
 `sidequest_semantic_fluent_workshop_edition_six_hundred_seventy_third/SIX_HUNDRED_SEVENTY_THIRD_REPORT.md`.
 
-Next, hand-polish the7 dense and18 workable statements, eliminating duplicated
-`danach`, dangling nominal slots, and German word-order strain without dropping
-or changing any card contribution.
+Pass 674 hand-polishes all25 previously dense/workable statements containing
+191 events. Repeated sequence words are collapsed, nominal measure/source/
+target cards attach to their neighbouring operation, and long B1/B2/B3/B4
+chains become short workshop clauses. All card, component, event-phrase, order,
+and statement boundaries are byte-for-byte unchanged;0 dense/workable labels
+remain. See
+`sidequest_semantic_polished_long_statements_six_hundred_seventy_fourth/SIX_HUNDRED_SEVENTY_FOURTH_REPORT.md`.
+
+Next, inspect the91 short statements for hidden fragment problems and promote
+only those that still read as dangling labels rather than executable clauses.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
