@@ -7958,9 +7958,16 @@ sixteen microcycles and four owner handoffs are recovered exactly. The operative
 rule is same margin/start card + same owner + nondecreasing slot. See
 `sidequest_semantic_corrector_reconstruction_three_hundred_fifty_seventh/THREE_HUNDRED_FIFTY_SEVENTH_CORRECTOR_NOTEBOOK.md`.
 
-Next, apply the same three-way line decision—continue, read-once carry, or real
-cycle/owner reset—to every available line transition in the existing 381-event
-prose edition and produce a continuous seven-page workshop reading.
+Pass 358 applies that three-way decision to every real prose line boundary. The
+381 visible events occupy 57 lines in eleven records, with 46 transitions: six
+continue, one is the `E180→E181 qokaiin` read-once pair and 39 reset a cycle or
+owner. The sole carry collapses two visible forms to one source card, giving 380
+source positions without treating line ends as sentences. See
+`sidequest_semantic_seven_page_continuous_reading_three_hundred_fifty_eighth/THREE_HUNDRED_FIFTY_EIGHTH_ELEVEN_CONTINUOUS_RECORDS.md`.
+
+Next, turn the 57-line continuous edition into a full master dictation: for each
+line state owner and incoming material, speak one concrete German instruction,
+then show its surfaces and whether the next physical line continues or resets.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
