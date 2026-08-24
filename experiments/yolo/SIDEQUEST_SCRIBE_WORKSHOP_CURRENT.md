@@ -8821,10 +8821,19 @@ clear extract to ERGEBNISPOSTEN across four COLLECT slots in Herbal and Bio.
 Five statements change; the full 173/381/116/776 alignment remains. See
 `sidequest_semantic_whole_card_slots_four_hundred_seventy_eighth/FOUR_HUNDRED_SEVENTY_EIGHTH_REPORT.md`.
 
-Next, trace all four ERGEBNISPOSTEN occurrences as state transitions: identify
-their exact source stock, immediate successor operation, and whether the result
-is consumed, measured, held or merely closes a cell. Choose one invariant short
-value, then rewrite the five affected statements and their parent records.
+Pass 479 traces all four `cheey|shey` occurrences through source stock and
+successor operations. The card follows inward transfer, discharge, a visible
+reset into a lower pool, or portion addition; its stock is then moved, held,
+measured or collected. EMPFANGSBESTAND therefore replaces ERGEBNISPOSTEN: it is
+the stock newly available at the receiving station, not necessarily a check
+result or outflow. Four statements and downstream referents change. See
+`sidequest_semantic_result_stock_four_hundred_seventy_ninth/FOUR_HUNDRED_SEVENTY_NINTH_REPORT.md`.
+
+Next, close the quantity triad. Audit every AIN, AIIN and IIN composition in
+event context and rewrite them consistently as physical portion, prescribed
+quantity/value, or process stage. Then regenerate the strongest MEASURE→MOVE
+sentences with concrete quantity language rather than the current hedge
+“Menge oder Stufe”.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
