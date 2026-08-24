@@ -10593,10 +10593,18 @@ terminal echo. The110 entry frames dominate; all other pieces are bounded
 joints, not new meanings. See
 `sidequest_semantic_renderer_manual_six_hundred_ninety_seventh/SIX_HUNDRED_NINETY_SEVENTH_REPORT.md`.
 
-Next, explain the entry-frame choice from actual copy context. Map q/s/ch/d/che/
-t/sh/c/y by page, record, physical locus and within-field position; derive the
-smallest practical priority rule and leave any irreducible choice on the
-master exemplar.
+Pass 698 separates entry frames from lexical content across all381 events.
+Position biases but does not determine the frame: locus starts favor s, middles
+favor bare/q/ch/che/c and ends favor bare/d. Exact selection uses314 global
+card forms,4 context rules covering8 events and34 local locus modes covering59
+events. Thus q/s/ch/d/che are chiefly surface selectors, not WATER/OIL/TAKE-like
+words. See
+`sidequest_semantic_entry_frame_selection_six_hundred_ninety_eighth/SIX_HUNDRED_NINETY_EIGHTH_REPORT.md`.
+
+Next, merge the34 local modes by visible owner and record regime. Produce the
+smallest owner-mode table that reproduces the59 residual choices; if exact
+merging fails, preserve only the genuinely conflicting card-owner pairs as
+local exemplar entries.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
