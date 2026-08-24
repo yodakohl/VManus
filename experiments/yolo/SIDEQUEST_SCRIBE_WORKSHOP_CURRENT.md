@@ -8923,9 +8923,17 @@ transfer/close. This is not the B1 charge macro and it strengthens CTH as
 ready/releasable state without adding a new stem. See
 `sidequest_semantic_b3_double_check_transfer_four_hundred_ninetieth/FOUR_HUNDRED_NINETIETH_REPORT.md`.
 
-Next, reconstruct the ten-card Herbal H1-S001 whole form. Preserve its pictured
-plant owner and test whether it is a material-extraction macro, a generic wet
-work procedure or a genuine plant-property clause.
+Pass 491 reads Herbal H1-S001 as PFLANZENAUSZUG ZWEIMAL ABZIEHEN UND DOSIEREN.
+Ten cards take pictured plant material, activate a batch, fill a learned work
+compartment, draw the first running extract, refill/draw a second fraction and
+set it to the prescribed amount for a short next use. A plant-property clause
+cannot explain the fill/draw repetition. H1 and B1 now share the supertype
+two-pass wet process while producing different objects. See
+`sidequest_semantic_h1_double_extraction_four_hundred_ninety_first/FOUR_HUNDRED_NINETY_FIRST_REPORT.md`.
+
+Next, reconstruct the nine-card H2-S001 whole form. Determine whether it is
+another extraction variant or a different Herbal macro such as preparation,
+quality checking, storage or application.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
