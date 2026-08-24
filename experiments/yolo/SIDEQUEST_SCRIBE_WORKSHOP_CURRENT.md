@@ -8318,10 +8318,16 @@ E/EE/EEE how short, long or complete, Y which item and licensed DY whether the
 step closes. See
 `sidequest_semantic_setting_hold_axes_four_hundred_ninth/FOUR_HUNDRED_NINTH_APPRENTICE_RULE.md`.
 
-Next, connect CTH/ready and SHED/settle to this two-axis rule. Trace concrete
-state progressions in H3, B3-S021 and B3-S034 and decide whether READY precedes
-action while SETTLE follows it, or whether either card has a different local
-role.
+Pass 410 distinguishes CTH/ready as a nonterminal release gate from SHED/settle
+as a rest operation. Nine CTH events never close; 15 of 17 SHED events close,
+while the two SHEDAL station cards stay open. B3-S034 gives the compact cycle
+setting-ready-work-lower target-settle-close; H3 stops at ready, B5 keeps its
+settling station open. See
+`sidequest_semantic_ready_settle_cycle_four_hundred_tenth/FOUR_HUNDRED_TENTH_STATE_MANUAL.md`.
+
+Next, compare B3-S034 and B1-S018 as complete IIN routines. Decide whether bare
+IIN is most concretely fill level, consistency, release stage or a broader
+station setting, then rewrite both without the generic phrase “Zielstufe”.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these

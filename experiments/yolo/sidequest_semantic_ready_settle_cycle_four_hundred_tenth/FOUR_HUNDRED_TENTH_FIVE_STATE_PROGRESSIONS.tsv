@@ -1,0 +1,6 @@
+progression	sequence	ready_position	settle_position	reading_de
+H1-S002	set item > warm > continue > CTH	FINAL_PRODUCT_AVAILABLE	NONE	Posten ansetzen, anwärmen, fortsetzen, bereit
+H2-S001	select plant > CTH > batch > crush > press	MATERIAL_RELEASE_BEFORE_WORK	NONE	Pflanzenposten bereitstellen, dann zerstoßen und pressen
+H3-S004	recall reserve > activate > CTH > Y	SECOND_PRODUCT_AVAILABLE	NONE	Reserve einsetzen, Fortsetzung aktivieren, bereit
+B3-S021	measure > CTH > target > item > measure > SHEDAL > temper > item > target > CTH > close	PHASE_A_RELEASE_AND_PHASE_B_RELEASE	PHASE_B_LOCATION	erste Phase freigeben; an Absetzstelle temperieren; zweite Phase freigeben
+B3-S034	IIN > CTH > work > follow measure > lower site > SHEDY	BEFORE_OPERATION	TERMINAL_AFTER_OPERATION	Sollstufe, bereit, bearbeiten, am unteren Ziel kurz absetzen und schließen

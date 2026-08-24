@@ -1,0 +1,6 @@
+state	typical_card	meaning_de	next
+SETTING	IIN or AIIN	Sollzustand oder Sollmaß festlegen	READY
+READY	CTH	Posten für die nächste Handlung freigeben	ACTIVE
+ACTIVE	Y plus operation	laufenden Posten bearbeiten oder übergeben	READY_OR_SETTLING
+SETTLING	SHED plus grade	Posten stehenlassen oder absetzen	READY_OR_CLOSE
+CLOSE	licensed terminal card	örtlichen Schritt schließen	NEXT_FIELD_OR_RECORD
