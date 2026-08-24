@@ -10662,11 +10662,20 @@ fixed pages;13 are new fillings of old forms. Examples include `daiin qoky`
 (pass this through; lead onward/continue). See
 `sidequest_semantic_five_fillable_forms_seven_hundred_fifth/SEVEN_HUNDRED_FIFTH_REPORT.md`.
 
-Next, compose a single five-to-eight-statement workshop commission that moves
-one pictured material through measure, preparation, transfer, holding and
-closure. Preserve one owner until an explicit local station change, render
-only with existing surfaces, and provide a continuous forward and backward
-reading as an apprentice exercise.
+Pass 706 composes one continuous seven-statement commission from14 existing
+cards. A pictured plant owner supplies measure, ingredient, washing, holding,
+wringing and the first close; one explicit handoff transfers the prepared
+material to a basin/station owner for target assignment, measured flow,
+warming and final close. Three physical lines deliberately split C03 and C06,
+showing again that line end is not statement end. The surface practice text is
+`daiin qoky choy chor lsho / shey cfhy shedy daiin qokal chldaiin /
+schedair cheky ody`. See
+`sidequest_semantic_continuous_commission_seven_hundred_sixth/SEVEN_HUNDRED_SIXTH_REPORT.md`.
+
+Next, copy this identical14-card commission in three existing renderer styles:
+a mostly bare/global hand, a q-heavy entry hand and an owner-tray hand. Keep
+card identities and readings fixed, vary only among attested surfaces, and
+show that all three copies roundtrip to the same component and owner sequence.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
