@@ -10049,10 +10049,20 @@ follow a close, but hand change explains none; the unresolved remainder stays
 local rather than spawning another universal renderer. See
 `sidequest_semantic_local_exception_anatomy_six_hundred_twenty_ninth/SIX_HUNDRED_TWENTY_NINTH_REPORT.md`.
 
-Next, compose one short new apprentice order using only already attested C1-C5
-components and card bodies. Write it forward with the compact manual, then
-read it backward to check whether the working notation is practically usable
-beyond verbatim source sentences. Do not add a page, word, or card.
+Pass 630 composes the new in-deck order `qokaiin qokain qokal cheey ol
+shedy`: set the preparation to its prescribed amount, set a portion at the
+target, hold the work item longer, continue, settle, and close. All six words,
+cards, and surfaces are attested, and every surface uniquely identifies its
+card. The complete sequence and its first pair are absent from the 381 source
+events; four of five bigrams are new. It nevertheless reads backward exactly
+to the intended six commands. This is the first practical generative use of
+the current working deck beyond a verbatim source statement. See
+`sidequest_semantic_novel_apprentice_order_six_hundred_thirtieth/SIX_HUNDRED_THIRTIETH_REPORT.md`.
+
+Next, compose one new in-deck order for each C1-C5 branch, using its distinctive
+marker plus the common core. Check backward readability and whether the early
+case selector still identifies the intended branch outside the original
+openings. Add no word, card, surface, page, or Astro label.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
