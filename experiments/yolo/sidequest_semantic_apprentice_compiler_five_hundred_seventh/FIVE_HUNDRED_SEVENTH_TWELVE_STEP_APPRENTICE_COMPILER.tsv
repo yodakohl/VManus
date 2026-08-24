@@ -1,0 +1,13 @@
+step	rule_id	stage	apprentice_instruction_de	scope
+1	C01	OWNER_SET	Wähle den sichtbaren Pflanzen-, Becken-, Gefäß- oder Stationsbesitzer; ohne neuen Besitzer erbe den aktiven.	FIXED_TEN_PAGES
+2	C02	REGISTER_SELECT	Herbal schreibt lange offene Artikelzüge; Biological kurze meist geschlossene Zellen.	FIXED_TEN_PAGES
+3	C03	PROGRAM_SELECT	Wähle einen häufigen Bio-Pfad oder bilde eine neue Folge aus den acht Prozessprimitiven.	FIXED_TEN_PAGES
+4	C04	AUTOMATON_START	Beginne im Zustand START mit genau einem Arbeitsprimitiv.	FIXED_TEN_PAGES
+5	C05	SOURCE_HOLD	Nach SOURCE_DRAW erst ansetzen, prüfen, halten oder fortführen; nicht sofort bewegen oder übergeben.	FIXED_TEN_PAGES
+6	C06	METER_HOLD	Nach METER_CHECK erst handeln oder Zustand setzen; nicht sofort schließen.	FIXED_TEN_PAGES
+7	C07	CARD_SELECT	Wähle für jedes Primitiv die gelernte Ganzkarte oder die passende Komponentenkarte.	FIXED_TEN_PAGES
+8	C08	TERMINAL_EXPAND	Eine terminale Karte führt zuerst ihre örtliche Handlung aus und emittiert danach CLOSE.	FIXED_TEN_PAGES
+9	C09	SURFACE_RENDER	Schreibe den Kartenkörper mit Register-/Positionswrapper; seltene Allographen werden vom Exemplar kopiert.	FIXED_TEN_PAGES
+10	C10	LINE_REFLOW	Ein physisches Zeilenende beendet weder Aussage noch Besitzer; nur markierte Besitzerwechsel setzen den Besitzer zurück.	FIXED_TEN_PAGES
+11	C11	OPEN_OR_CLOSE	Herbal darf im Arbeitszustand offen enden; Biological bevorzugt CLOSED.	FIXED_TEN_PAGES
+12	C12	READ_BACK	Lies Oberfläche und Position zurück zu Karte, Primitivfolge, Automatenzustand und lokalem Besitzer.	FIXED_TEN_PAGES

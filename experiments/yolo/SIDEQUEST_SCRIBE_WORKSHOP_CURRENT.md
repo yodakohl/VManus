@@ -9050,9 +9050,16 @@ rare exclusive transitions. This is compatible with one workshop grammar used
 as open article prose versus short committed cells. See
 `sidequest_semantic_register_habits_five_hundred_sixth/FIVE_HUNDRED_SIXTH_REPORT.md`.
 
-Next, compile the owner choice, register habit, primitive machine and surface
-renderer into one concrete apprentice workflow with full forward and backward
-traces on the fixed pages.
+Pass 507 compiles owner choice, active-item carry, register habit, primitive
+machine, exact card and surface rendering into a twelve-step apprentice
+workflow. All 381 cards and 470 emitted tokens round-trip through 116
+statements. Twenty-one owner resets are explicit. The compact renderer writes
+314 surfaces by rule; 67 rare allographs remain local exemplar copies. See
+`sidequest_semantic_apprentice_compiler_five_hundred_seventh/FIVE_HUNDRED_SEVENTH_REPORT.md`.
+
+Next, add the three Astro pages as a separate LOCATE-to-READ-to-RECORD loop,
+without importing prose operations or claiming names, orientation, or an
+f68-to-f69 key.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
