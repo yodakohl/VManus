@@ -10568,10 +10568,18 @@ stores9; including the shared13-card core, no role needs more than29 reference
 cards. See
 `sidequest_semantic_junction_card_tray_six_hundred_ninety_fourth/SIX_HUNDRED_NINETY_FOURTH_REPORT.md`.
 
-Next, use the root order and these four junction rules predictively: hide each
-of the20 whole junction-card identities in turn, derive its component recipe
-and storage desk from the remaining workshop manual, and state the smallest
-surface family the apprentice would request before revealing the actual card.
+Pass 695 converts the20 junction recipes into ordered visible fragment
+requests. All20 actual surfaces preserve every requested component fragment in
+order:9 are exact direct concatenations and11 add only a small bound renderer;
+none is wholly opaque. Examples include CH+AIR->chair, T+SH+OL->tshol and
+CH+EE+CKH+O+DY->cheeckhody. This is the clearest current mechanism: composed
+technical brevigraphs plus learned whole-card allographs. See
+`sidequest_semantic_junction_surface_prediction_six_hundred_ninety_fifth/SIX_HUNDRED_NINETY_FIFTH_REPORT.md`.
+
+Next, extend the same diagnostic-fragment rule from the20 junction cards to
+all173 prose cards. Separate exact concatenations, ordered-plus-renderer forms,
+and genuine whole commands; use the failures to revise the surface grammar,
+not the component meanings.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
