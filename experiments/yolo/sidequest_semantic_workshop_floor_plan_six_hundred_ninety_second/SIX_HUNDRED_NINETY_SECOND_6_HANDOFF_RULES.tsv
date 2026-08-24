@@ -1,0 +1,7 @@
+step	from_role	to_role	packet_rule_de
+1	S01_MASTER_CORRECTOR	S02_PREPARATION_WET_OR_SKIP	Besitzer und Kernprompt oben auf das Recordpaket schreiben.
+2	S02_PREPARATION_WET	S03_TRANSFER	Vorbereitungs- und Nasskarten positionsgetreu einsetzen; Oberflaeche nicht normalisieren.
+3	S03_TRANSFER	S04_STATE_CONTROL	Transferkarten einfuegen und offene DIES-Karte von Schlusskarte unterscheiden.
+4	S04_STATE_CONTROL	S01_MASTER_CORRECTOR	Grad Zustand und Endkarte pruefen; physische Zeile nicht als Satzgrenze behandeln.
+5	S01_MASTER_CORRECTOR	COPY_COMPLETE	Seltene Ganzbefehle einsetzen und jede Karte atomar ruecklesen.
+6	COPY_COMPLETE	MASTER_EXEMPLAR_SHELF	Recordpaket mit der Mustertafel ablegen damit die naechste Hand dieselbe Variante kopiert.

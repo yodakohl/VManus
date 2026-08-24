@@ -10541,9 +10541,18 @@ and local commands5/6. Each record needs only3-14 specialist root cards beside
 the13-root pocket core; B2 and B3 are the largest at14. See
 `sidequest_semantic_craft_station_decks_six_hundred_ninety_first/SIX_HUNDRED_NINETY_FIRST_REPORT.md`.
 
-Next, use those five craft decks to produce one compact workshop floor plan:
-which writer/desk can prepare, wet-handle, transfer, monitor or close each of
-the eleven records without carrying the full specialist inventory.
+Pass 692 condenses the five decks into four learnable workshop roles. The
+master/corrector keeps five rare local commands; preparation and wet handling
+share one ten-card table; transfer keeps four heavily used cards; state control
+keeps seven. All eleven records visit transfer and state control, nine also
+visit preparation/wet handling and six call a rare master command. The complete
+route requires53 desk visits and42 handoffs; no working scribe carries all26
+specialist roots. See
+`sidequest_semantic_workshop_floor_plan_six_hundred_ninety_second/SIX_HUNDRED_NINETY_SECOND_REPORT.md`.
+
+Next, run the most demanding Biological record through this four-role floor
+plan event by event. Preserve its actual card order, owner changes and physical
+line flow; show exactly what each desk adds and what the next desk receives.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
