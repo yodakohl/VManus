@@ -7800,9 +7800,17 @@ chckhal qokeey qoky cheey qokedy qokeeedy lchedy solkey` applies, draws off and
 collects it. See
 `sidequest_semantic_fresh_six_slot_copy_three_hundred_thirty_sixth/THREE_HUNDRED_THIRTY_SIXTH_FRESH_COPY.md`.
 
-Next, render this fresh pair in four learned scribe hands using only registered
-surface alternatives while preserving all sixteen identities, six-slot order
-and four total microcycles.
+Pass 337 renders the fresh pair in four scribe hands. Eight complete surface
+copies are distinct, but all 64 events use registered and uniquely decodable
+forms while preserving card identity, meaning, slot order and four microcycles.
+Frequent grammatical cards vary (`dar/char/sar`, `aiin/daiin/saiin/taiin`,
+`shey/cheey`, `oky/qoky/choky`); rare technical cards remain stable. Every
+logical statement crosses a physical line. See
+`sidequest_semantic_four_hand_fresh_copy_three_hundred_thirty_seventh/THREE_HUNDRED_THIRTY_SEVENTH_FOUR_HAND_EDITION.md`.
+
+Next, separate the complete 173-card deck into a shared invariant teaching core,
+hand-variable allograph cards and stable memorized technical cards, producing a
+single practical multi-scribe workshop chart.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
