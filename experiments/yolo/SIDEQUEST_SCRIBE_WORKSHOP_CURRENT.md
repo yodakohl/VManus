@@ -9953,9 +9953,19 @@ cases, so most commonality is modular rather than verbatim. The strongest
 three-card formulas are Y–AIIN–Y and OK+EE+Y–OK+Y–OL. See
 `sidequest_semantic_case_modules_six_hundred_nineteenth/SIX_HUNDRED_NINETEENTH_REPORT.md`.
 
-Next, turn the eight modules into a compact c.1420 apprentice tablet with
-inputs, allowed component cards, output state, surface choice, and typical
-copying error, then use it to compose and reread one complete case.
+Pass 620 turns the eight modules into a compact master/apprentice tablet with
+question, input, allowed component cards, output state, common error, and
+correction. It then runs complete case C3: four H3 preparation statements plus
+34 B3 station statements, 103 events total. All 38 statement-level module
+readbacks agree with the forward lesson; six visible owner/station changes are
+reset explicitly. The local exemplar still selects exact card identity and
+surface, matching the proposed mixture of productive abbreviations and learned
+whole cards. See
+`sidequest_semantic_apprentice_tablet_six_hundred_twentieth/SIX_HUNDRED_TWENTIETH_REPORT.md`.
+
+Next, compare C3 with C4 module by module. If image owner, case material, and
+target address cannot carry the difference between flower wash/immersion and
+tempered poultice/contact, add the smallest missing concrete application core.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
