@@ -9243,8 +9243,16 @@ Herbal unchanged; Bio adds washing, passage, collection and short-cycle cards.
 See
 `sidequest_semantic_b1_pool_modules_five_hundred_thirty_second/FIVE_HUNDRED_THIRTY_SECOND_REPORT.md`.
 
-Next, split B2/f82r by its five visible local stations and give each station a
-complete operating reading without inventing a global network.
+Pass 533 publishes the complete B2/f82r station edition: 62 events, 46 exact
+cards, twenty-two cells and five visible local stations with event counts
+22/9/5/9/17. Nineteen cells close and three remain open. Only B2-S012 crosses a
+visible-owner boundary, explicitly without a claimed image connection. Fifteen
+cards transfer unchanged from Herbal/B1 and no global network edge is added.
+See
+`sidequest_semantic_b2_station_book_five_hundred_thirty_third/FIVE_HUNDRED_THIRTY_THIRD_REPORT.md`.
+
+Next, publish f83r/B3-B6 with margin stations, the unresolved gap, linked pair,
+left fringe and right S-run kept as distinct owner domains.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
