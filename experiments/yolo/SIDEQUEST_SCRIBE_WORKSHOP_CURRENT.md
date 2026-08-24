@@ -10269,9 +10269,16 @@ is best read as a process hand-off rather than UND; M04 is an anchored settling
 close and M07 an anchored transfer/long close. See
 `sidequest_semantic_slot_polarity_six_hundred_fifty_fourth/SIX_HUNDRED_FIFTY_FOURTH_REPORT.md`.
 
-Next, separate all motif occurrences at statement end by whether an exact
-close card is actually present. Split M09 into its open continuation and short
-closed branch; never turn a terminal M01 measure frame into punctuation.
+Pass 655 separates exact close cards from mere statement position. Nine motifs
+occur at statement end/whole:7 contain a close card and2 M01 measure frames do
+not. All7 exact close cards are terminal and0 precede further material. M09
+splits perfectly: `qokeey qoky` is2/2 open continuation; `qokeey qokedy` is2/2
+closed. See
+`sidequest_semantic_endpoint_branching_six_hundred_fifty_fifth/SIX_HUNDRED_FIFTY_FIFTH_REPORT.md`.
+
+Next, integrate this split into the complete OK-E-Y/DY paradigm. Contrast
+short/long/full grades with active-item versus exact-close endpoints and make
+explicit predictions for the missing cells.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
