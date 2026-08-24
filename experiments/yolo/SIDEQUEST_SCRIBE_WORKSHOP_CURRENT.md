@@ -8829,11 +8829,17 @@ the stock newly available at the receiving station, not necessarily a check
 result or outflow. Four statements and downstream referents change. See
 `sidequest_semantic_result_stock_four_hundred_seventy_ninth/FOUR_HUNDRED_SEVENTY_NINTH_REPORT.md`.
 
-Next, close the quantity triad. Audit every AIN, AIIN and IIN composition in
-event context and rewrite them consistently as physical portion, prescribed
-quantity/value, or process stage. Then regenerate the strongest MEASURE→MOVE
-sentences with concrete quantity language rather than the current hedge
-“Menge oder Stufe”.
+Pass 480 closes the quantity triad across all ten pages. Prose has 19 AIN
+PORTION events, 39 AIIN SOLLMASS events and three IIN SOLLSTUFE events, all in
+MEASURE; Astro adds 9/24/7 corresponding groups as Teilwert/Sollwert/Sollstufe.
+The 79 motif occurrences now choose concrete quantity language and no longer
+hedge every measure as “Menge oder Stufe”. See
+`sidequest_semantic_quantity_triad_four_hundred_eightieth/FOUR_HUNDRED_EIGHTIETH_REPORT.md`.
+
+Next, close the directional triad AR=source, AL=target and AIR=path/flow across
+the same 381 prose events and 395 Astro groups. Combine it with the quantity
+triad to generate complete source–quantity–path–target formulas and identify
+which statements actually instantiate the whole four-slot construction.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
