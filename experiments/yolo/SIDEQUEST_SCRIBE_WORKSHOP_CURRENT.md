@@ -8378,9 +8378,16 @@ portions from the same source sequentially, then holds longer and closes. AIN,
 AIIN and IIN are now PORTION, MASS and SOLLSTAND respectively. See
 `sidequest_semantic_ain_double_portion_four_hundred_eighteenth/FOUR_HUNDRED_EIGHTEENTH_POCKET_RULE.md`.
 
-Next, use B2-S003 and all productive Y/CHY cases to check whether Y simply
-inherits the just-created item. Rewrite the shortest complete
-PORTION→Y→long-hold cell and identify any case where Y needs a noun of its own.
+Pass 419 shortens Y/CHY to the deictic word DIES. The naked exact card occurs
+18 times under six renderer surfaces and the productive wrapper layer covers
+58 events; none needs a fixed substance noun. B2-S003 reads PORTION
+ZUGEBEN→DIES→LÄNGER ANSETZEN; H2's repeated Y cards enumerate anonymous split
+items without naming them. See
+`sidequest_semantic_y_this_four_hundred_nineteenth/FOUR_HUNDRED_NINETEENTH_POCKET_RULE.md`.
+
+Next, separate the exact OKY and OKCHY cards, which currently both read DIES
+ANSETZEN. Compare all thirteen occurrences and seek one portable distinction:
+take versus apply, internal versus external start, or learned synonymy.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
