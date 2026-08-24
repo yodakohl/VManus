@@ -7759,9 +7759,18 @@ No connection now depends on second-root, ulcer, wine, cooling or free K-based
 washing/straining. See
 `sidequest_semantic_repaired_handoffs_three_hundred_thirty_first/THREE_HUNDRED_THIRTY_FIRST_REPAIRED_WORKFLOW.md`.
 
-Next, rewrite all 97 Biological statements from the repaired global dictionary
-and the sixteen visible/local station owners, removing any superseded story
-expansion that the new card formulas no longer license.
+Pass 332 rewrites all 281 Biological events and 97 statements from the repaired
+dictionary and sixteen visible or explicitly unresolved local station owners.
+Eighteen revised card types alter 82 events; owner changes inside four
+statements explicitly open a new local post rather than inventing a global
+water circuit. The six records now retain Sollmass, passage, contact, warmth,
+settling, clear-extract and closure operations without the withdrawn special
+wash/fresh-water story glosses. See
+`sidequest_semantic_repaired_bio_edition_three_hundred_thirty_second/THREE_HUNDRED_THIRTY_SECOND_COMPLETE_BIO_EDITION.md`.
+
+Next, reduce the 97 repaired Biological statements to at most twelve named
+station programs. Every statement must receive one primary apprentice program,
+with secondary operations kept visible instead of being discarded.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
