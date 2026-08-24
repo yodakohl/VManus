@@ -10714,10 +10714,19 @@ CHD-close control mixes8 e-joint and5 compact forms within B1/B3, so e is not
 promoted to a global meaning. See
 `sidequest_semantic_ot_close_doublet_seven_hundred_eleventh/SEVEN_HUNDRED_ELEVENTH_REPORT.md`.
 
-Next, audit all remaining duplicate component recipes among the170 composed
-cards. For each, choose semantic split versus one recipe with local renderer
-subfamilies, preserve exact copy IDs, and publish the reduced semantic-family
-inventory plus the remaining genuinely memorized choices.
+Pass 712 audits all ten duplicate recipes/20 exact cards/71 occurrences. The
+173-card copybook reduces to163 semantic families:160 composed recipes plus3
+whole commands, while every exact copy ID and surface remains. Six duplicate
+recipes separate by owner/record and merge cleanly. Four same-owner doublets
+remain provisional exemplar choices: CHD+DY, CHD+Y, OK+CHD+DY and OK+Y. No
+semantic split is invented. See
+`sidequest_semantic_duplicate_recipe_inventory_seven_hundred_twelfth/SEVEN_HUNDRED_TWELFTH_REPORT.md`.
+
+Next, compare the four same-owner doublets against prior/following card,
+statement position, open/close state, repeated-item status and owner carry.
+Test one shared nuance such as first versus resumed item or plain versus bound
+continuation. Promote it only if the same direction explains all four; else
+retain exact exemplar choice.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
