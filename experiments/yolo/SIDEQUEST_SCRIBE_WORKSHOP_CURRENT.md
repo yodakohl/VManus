@@ -10535,9 +10535,15 @@ cards are core-only and201 mixed/specialist. The pocket core is dominant
 scaffolding, not a complete decoder. See
 `sidequest_semantic_statement_core_projection_six_hundred_ninetieth/SIX_HUNDRED_NINETIETH_REPORT.md`.
 
-Next, split the26 specialist roots into concrete craft stations—preparation,
-wet handling, transfer, state control and local commands—and assign each record
-the smallest physical tool deck it needs.
+Pass 691 assigns all26 specialist roots/242 uses to five physical decks:
+preparation4 roots/28 uses, wet handling6/33, transfer4/101, state control7/74
+and local commands5/6. Each record needs only3-14 specialist root cards beside
+the13-root pocket core; B2 and B3 are the largest at14. See
+`sidequest_semantic_craft_station_decks_six_hundred_ninety_first/SIX_HUNDRED_NINETY_FIRST_REPORT.md`.
+
+Next, use those five craft decks to produce one compact workshop floor plan:
+which writer/desk can prepare, wet-handle, transfer, monitor or close each of
+the eleven records without carrying the full specialist inventory.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
