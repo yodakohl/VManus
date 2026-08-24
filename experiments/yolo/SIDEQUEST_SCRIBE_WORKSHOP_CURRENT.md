@@ -8235,9 +8235,15 @@ The small line break continues syntax/owner/material; the large gap continues
 only syntax/workflow and resets owner/material; SOLKEEDY closes. See
 `sidequest_semantic_b3_reflowed_second_hand_three_hundred_ninety_seventh/THREE_HUNDRED_NINETY_SEVENTH_SECOND_HAND_PAGE.md`.
 
-Next, turn the distinction into a compact corrector manual with three boundary
-decisions: ordinary reflow, owner reset and terminal close. Apply it to both B3
-copies and require identical source reconstruction.
+Pass 398 reduces both layouts to three boundary decisions: ordinary reflow,
+owner-reset gap and terminal close. Copy A has two lines, Copy B three; both
+reconstruct the same seven event IDs/card IDs and the same two-local-object
+reading. See
+`sidequest_semantic_three_boundary_corrector_three_hundred_ninety_eighth/THREE_HUNDRED_NINETY_EIGHTH_CORRECTOR_MANUAL.md`.
+
+Next, return to genuine content and trace all four H3 statements as an object
+flow. Include the reserved flower portion and determine whether H3 describes
+one preparation with a branch into a second use.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these

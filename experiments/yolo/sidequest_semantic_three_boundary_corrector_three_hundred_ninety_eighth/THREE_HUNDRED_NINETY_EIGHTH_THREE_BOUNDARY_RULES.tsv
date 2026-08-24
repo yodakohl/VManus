@@ -1,0 +1,4 @@
+rule_no	boundary_type	visible_cue	syntax_action	owner_action	material_action
+1	ORDINARY_REFLOW	same image owner; small line break; no terminal card	CONTINUE	CONTINUE	CONTINUE
+2	OWNER_RESET_GAP	new image block; large gap; no connecting edge; prior syntax open	CONTINUE	RESET	RESET
+3	TERMINAL_CLOSE	licensed terminal card at local step end	CLOSE	END_LOCAL	END_LOCAL
