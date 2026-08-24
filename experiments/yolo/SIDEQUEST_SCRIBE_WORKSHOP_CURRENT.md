@@ -7852,9 +7852,17 @@ are continuation loops, and no edge returns to raw material. No card gloss was
 added. See
 `sidequest_semantic_material_state_ladder_three_hundred_forty_third/THREE_HUNDRED_FORTY_THIRD_MATERIAL_STATE_LADDER.md`.
 
-Next, inspect which recurrent cards explicitly carry each material state and
-which state assignments depend only on the picture owner or workshop relay,
-keeping all concrete meanings while marking their information channel.
+Pass 344 labels the information channel of every material-state assignment. Of
+381 events, 79 directly mark a state through 39 cards: Rohteil13, Ansatz16,
+Klarauszug8, Bemessene Portion38 and Anwendungsposten4; the other 302 are
+operations, controls or technical cards. Each transition now says whether its
+specific referent comes from card, card+owner, picture, relay or result shelf,
+without withdrawing any working meaning. See
+`sidequest_semantic_state_information_channels_three_hundred_forty_fourth/THREE_HUNDRED_FORTY_FOURTH_INFORMATION_CHANNEL_MANUAL.md`.
+
+Next, order the 79 explicit state markers within statements and records to find
+the recurrent visible formulas that announce state changes such as Ansatz→Mass,
+Klarauszug→Kontakt and Portion→Ziel.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
