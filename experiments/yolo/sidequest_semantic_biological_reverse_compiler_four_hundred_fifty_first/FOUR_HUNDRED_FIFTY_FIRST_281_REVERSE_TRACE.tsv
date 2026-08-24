@@ -1,0 +1,282 @@
+event_id	record_unit_id	statement_id	statement_position	instruction_atom_de	global_candidates	record_candidates	previous_atom_de	next_atom_de	selection_rule	selected_joint_tuple_id	expected_joint_tuple_id	selected_surfaces	exact_recovery
+E101	B1	B1-S001	1	kurz ansetzen; Schluss	1	1	START	END	UNIQUE_VALUE	7db18b2f0fb7ed0fcfd3	7db18b2f0fb7ed0fcfd3	qokedy	PASS
+E102	B1	B1-S002	1	bemessen	1	1	START	Wasser zufuehren	UNIQUE_VALUE	b5fcea1eaed06b2f2291	b5fcea1eaed06b2f2291	okaiin|qokaiin	PASS
+E103	B1	B1-S002	2	Wasser zufuehren	1	1	bemessen	an die Stelle setzen	UNIQUE_VALUE	22fb87a5a83e5c3fb510	22fb87a5a83e5c3fb510	kair	PASS
+E104	B1	B1-S002	3	an die Stelle setzen	1	1	Wasser zufuehren	dasselbe	UNIQUE_VALUE	308e8ea2d5d190c498e8	308e8ea2d5d190c498e8	okal|qokal	PASS
+E105	B1	B1-S002	4	dasselbe	1	1	an die Stelle setzen	fortsetzen	UNIQUE_VALUE	4d4559019a961b834aa1	4d4559019a961b834aa1	char|dar|sar	PASS
+E106	B1	B1-S002	5	fortsetzen	1	1	dasselbe	eine Portion	UNIQUE_VALUE	dcda95c81a5460feb191	dcda95c81a5460feb191	cheol|ol|qol|sol|tol	PASS
+E107	B1	B1-S002	6	eine Portion	1	1	fortsetzen	weitere Portion	UNIQUE_VALUE	9da1b6ac2c929daea697	9da1b6ac2c929daea697	chkain|kain	PASS
+E108	B1	B1-S002	7	weitere Portion	1	1	eine Portion	Stelle	UNIQUE_VALUE	94df4847b7b16c98394a	94df4847b7b16c98394a	olkain|qolkain	PASS
+E109	B1	B1-S002	8	Stelle	1	1	weitere Portion	fortsetzen	UNIQUE_VALUE	dd0ecaf5e27d81befffc	dd0ecaf5e27d81befffc	al|chal|cheal|dal|sal|tal	PASS
+E110	B1	B1-S002	9	fortsetzen	1	1	Stelle	weiter abkuehlen	UNIQUE_VALUE	dcda95c81a5460feb191	dcda95c81a5460feb191	cheol|ol|qol|sol|tol	PASS
+E111	B1	B1-S002	10	weiter abkuehlen	1	1	fortsetzen	weiterfuehren	UNIQUE_VALUE	1496a731803a9f48d2e1	1496a731803a9f48d2e1	rol	PASS
+E112	B1	B1-S002	11	weiterfuehren	1	1	weiter abkuehlen	weiterer Ansatz	UNIQUE_VALUE	0f18de177ed7c878bf95	0f18de177ed7c878bf95	dl	PASS
+E113	B1	B1-S002	12	weiterer Ansatz	1	1	weiterfuehren	fortsetzen	UNIQUE_VALUE	dec401773c1f0347793d	dec401773c1f0347793d	olor	PASS
+E114	B1	B1-S002	13	fortsetzen	1	1	weiterer Ansatz	kurz an der Durchlassstelle	UNIQUE_VALUE	dcda95c81a5460feb191	dcda95c81a5460feb191	cheol|ol|qol|sol|tol	PASS
+E115	B1	B1-S002	14	kurz an der Durchlassstelle	1	1	fortsetzen	Mass	UNIQUE_VALUE	4eab1841ed655c20a348	4eab1841ed655c20a348	sheckhal	PASS
+E116	B1	B1-S002	15	Mass	1	1	kurz an der Durchlassstelle	länger an der Stelle halten	UNIQUE_VALUE	2f1c5e56e8f0ff459065	2f1c5e56e8f0ff459065	aiin|daiin|saiin	PASS
+E117	B1	B1-S002	16	länger an der Stelle halten	1	1	Mass	Mass	UNIQUE_VALUE	93f69c38fdedee1598e9	93f69c38fdedee1598e9	qokeedal	PASS
+E118	B1	B1-S002	17	Mass	1	1	länger an der Stelle halten	durchführen	UNIQUE_VALUE	2f1c5e56e8f0ff459065	2f1c5e56e8f0ff459065	aiin|daiin|saiin	PASS
+E119	B1	B1-S002	18	durchführen	1	1	Mass	umsetzen; Schluss	UNIQUE_VALUE	2cc8bb3c2af19607888f	2cc8bb3c2af19607888f	chckhy|shckhy	PASS
+E120	B1	B1-S002	19	umsetzen; Schluss	2	2	durchführen	END	SHORT_DCH_AFTER_SHORT_CONTINUE_ELSE_DEFAULT	259b2b3b0bf859882e2c	259b2b3b0bf859882e2c	dchedy|schedy|tchedy	PASS
+E121	B1	B1-S003	1	fortsetzen	1	1	START	gebuendelt umsetzen; Schluss	UNIQUE_VALUE	dcda95c81a5460feb191	dcda95c81a5460feb191	cheol|ol|qol|sol|tol	PASS
+E122	B1	B1-S003	2	gebuendelt umsetzen; Schluss	1	1	fortsetzen	END	UNIQUE_VALUE	54e32e9c1414b20640e9	54e32e9c1414b20640e9	sshkchdy	PASS
+E123	B1	B1-S004	1	dies umsetzen	2	1	START	fortsetzen	RECORD_NAMESPACE	6f7ff8287eddf4da9fdb	6f7ff8287eddf4da9fdb	chdy|chedy	PASS
+E124	B1	B1-S004	2	fortsetzen	1	1	dies umsetzen	absetzen; Schluss	UNIQUE_VALUE	dcda95c81a5460feb191	dcda95c81a5460feb191	cheol|ol|qol|sol|tol	PASS
+E125	B1	B1-S004	3	absetzen; Schluss	1	1	fortsetzen	END	UNIQUE_VALUE	bc4f1f5c006c74a4d26d	bc4f1f5c006c74a4d26d	cheedy|shedy|tedy	PASS
+E126	B1	B1-S005	1	weiterführen; Schluss	1	1	START	END	UNIQUE_VALUE	28ffbc88b97772a75f1e	28ffbc88b97772a75f1e	olchedy|qolchedy	PASS
+E127	B1	B1-S006	1	eine Portion zugeben	1	1	START	durchführen	UNIQUE_VALUE	1645e612504fcef59ced	1645e612504fcef59ced	okain|qokain	PASS
+E128	B1	B1-S006	2	durchführen	1	1	eine Portion zugeben	weiterfuehren	UNIQUE_VALUE	2cc8bb3c2af19607888f	2cc8bb3c2af19607888f	chckhy|shckhy	PASS
+E129	B1	B1-S006	3	weiterfuehren	1	1	durchführen	an der Stelle abkuehlen	UNIQUE_VALUE	0f18de177ed7c878bf95	0f18de177ed7c878bf95	dl	PASS
+E130	B1	B1-S006	4	an der Stelle abkuehlen	1	1	weiterfuehren	END	UNIQUE_VALUE	4da0f0f7b5fc7ac20067	4da0f0f7b5fc7ac20067	ral	PASS
+E131	B1	B1-S007	1	Ansatz umsetzen; Schluss	2	2	START	END	STATEMENT_INITIAL_SHORT_ELSE_EXPANDED	87411f84689b4f93a303	87411f84689b4f93a303	qokchdy	PASS
+E132	B1	B1-S008	1	dies	1	1	START	fortsetzen	UNIQUE_VALUE	b921a237be883a820352	b921a237be883a820352	chey|dy|sy	PASS
+E133	B1	B1-S008	2	fortsetzen	1	1	dies	kurz wärmen	UNIQUE_VALUE	dcda95c81a5460feb191	dcda95c81a5460feb191	cheol|ol|qol|sol|tol	PASS
+E134	B1	B1-S008	3	kurz wärmen	1	1	fortsetzen	fortsetzen	UNIQUE_VALUE	d904bf7b044dd3922781	d904bf7b044dd3922781	cheky	PASS
+E135	B1	B1-S008	4	fortsetzen	1	1	kurz wärmen	absetzen; Schluss	UNIQUE_VALUE	dcda95c81a5460feb191	dcda95c81a5460feb191	cheol|ol|qol|sol|tol	PASS
+E136	B1	B1-S008	5	absetzen; Schluss	1	1	fortsetzen	END	UNIQUE_VALUE	bc4f1f5c006c74a4d26d	bc4f1f5c006c74a4d26d	cheedy|shedy|tedy	PASS
+E137	B1	B1-S009	1	kurz ansetzen; Schluss	1	1	START	END	UNIQUE_VALUE	7db18b2f0fb7ed0fcfd3	7db18b2f0fb7ed0fcfd3	qokedy	PASS
+E138	B1	B1-S010	1	kurz ansetzen; Schluss	1	1	START	END	UNIQUE_VALUE	7db18b2f0fb7ed0fcfd3	7db18b2f0fb7ed0fcfd3	qokedy	PASS
+E139	B1	B1-S011	1	durchführen	1	1	START	verwende dies	UNIQUE_VALUE	2cc8bb3c2af19607888f	2cc8bb3c2af19607888f	chckhy|shckhy	PASS
+E140	B1	B1-S011	2	verwende dies	1	1	durchführen	END	UNIQUE_VALUE	276a7c2d74d1143446f4	276a7c2d74d1143446f4	qoky	PASS
+E141	B1	B1-S012	1	Waschgang	1	1	START	kurz ansetzen	UNIQUE_VALUE	be0974b366c981dc1eef	be0974b366c981dc1eef	lsho	PASS
+E142	B1	B1-S012	2	kurz ansetzen	1	1	Waschgang	Waschgang; Schluss	UNIQUE_VALUE	08bd5ca0c2ad137a056d	08bd5ca0c2ad137a056d	okey|qokey	PASS
+E143	B1	B1-S012	3	Waschgang; Schluss	1	1	kurz ansetzen	END	UNIQUE_VALUE	2e7e89e0bd12b999c280	2e7e89e0bd12b999c280	lshedy	PASS
+E144	B1	B1-S013	1	Waschgang; Schluss	1	1	START	END	UNIQUE_VALUE	2e7e89e0bd12b999c280	2e7e89e0bd12b999c280	lshedy	PASS
+E145	B1	B1-S014	1	dies umsetzen	2	1	START	dies auffangen	RECORD_NAMESPACE	6f7ff8287eddf4da9fdb	6f7ff8287eddf4da9fdb	chdy|chedy	PASS
+E146	B1	B1-S014	2	dies auffangen	1	1	dies umsetzen	zum Auslass führen	UNIQUE_VALUE	c205570c49d4d93c23d3	c205570c49d4d93c23d3	qolky	PASS
+E147	B1	B1-S014	3	zum Auslass führen	1	1	dies auffangen	fortsetzen	UNIQUE_VALUE	433713294b25b0a12f66	433713294b25b0a12f66	lchedal	PASS
+E148	B1	B1-S014	4	fortsetzen	1	1	zum Auslass führen	danach von dort	UNIQUE_VALUE	dcda95c81a5460feb191	dcda95c81a5460feb191	cheol|ol|qol|sol|tol	PASS
+E149	B1	B1-S014	5	danach von dort	1	1	fortsetzen	END	UNIQUE_VALUE	b6b654722e55729cc947	b6b654722e55729cc947	otar	PASS
+E150	B1	B1-S015	1	dies kurz fuellen	1	1	START	Ansatz umsetzen; Schluss	UNIQUE_VALUE	a7af89ab31ce5e247395	a7af89ab31ce5e247395	ytey	PASS
+E151	B1	B1-S015	2	Ansatz umsetzen; Schluss	2	2	dies kurz fuellen	END	STATEMENT_INITIAL_SHORT_ELSE_EXPANDED	07913ef9b1fb773cd325	07913ef9b1fb773cd325	okchedy|qokchedy	PASS
+E152	B1	B1-S016	1	an die Stelle setzen	1	1	START	länger ansetzen	UNIQUE_VALUE	308e8ea2d5d190c498e8	308e8ea2d5d190c498e8	okal|qokal	PASS
+E153	B1	B1-S016	2	länger ansetzen	1	1	an die Stelle setzen	fortsetzen	UNIQUE_VALUE	0275fbf14e07935b0a45	0275fbf14e07935b0a45	okeey|qokeey	PASS
+E154	B1	B1-S016	3	fortsetzen	1	1	länger ansetzen	absetzen; Schluss	UNIQUE_VALUE	dcda95c81a5460feb191	dcda95c81a5460feb191	cheol|ol|qol|sol|tol	PASS
+E155	B1	B1-S016	4	absetzen; Schluss	1	1	fortsetzen	END	UNIQUE_VALUE	bc4f1f5c006c74a4d26d	bc4f1f5c006c74a4d26d	cheedy|shedy|tedy	PASS
+E156	B1	B1-S017	1	Stelle	1	1	START	kurz fortsetzen	UNIQUE_VALUE	dd0ecaf5e27d81befffc	dd0ecaf5e27d81befffc	al|chal|cheal|dal|sal|tal	PASS
+E157	B1	B1-S017	2	kurz fortsetzen	1	1	Stelle	umsetzen; Schluss	UNIQUE_VALUE	a06244ef1f2b37ca44c1	a06244ef1f2b37ca44c1	teol	PASS
+E158	B1	B1-S017	3	umsetzen; Schluss	2	2	kurz fortsetzen	END	SHORT_DCH_AFTER_SHORT_CONTINUE_ELSE_DEFAULT	d225b7a7b95da7aee437	d225b7a7b95da7aee437	dchdy	PASS
+E159	B1	B1-S018	1	dies fuehren	1	1	START	kurz halten	UNIQUE_VALUE	b38d70daefd663d74625	b38d70daefd663d74625	ly	PASS
+E160	B1	B1-S018	2	kurz halten	1	1	dies fuehren	Sollstand	UNIQUE_VALUE	74c76d589d44120f647b	74c76d589d44120f647b	dsheol	PASS
+E161	B1	B1-S018	3	Sollstand	1	1	kurz halten	länger auffangen; Schluss	UNIQUE_VALUE	2c82523794dcb7d2b343	2c82523794dcb7d2b343	oiiin|soiiin	PASS
+E162	B1	B1-S018	4	länger auffangen; Schluss	1	1	Sollstand	END	UNIQUE_VALUE	3b70942557b3a40e8030	3b70942557b3a40e8030	olkeedy|solkeedy	PASS
+E163	B1	B1-S019	1	absetzen; Schluss	1	1	START	END	UNIQUE_VALUE	bc4f1f5c006c74a4d26d	bc4f1f5c006c74a4d26d	cheedy|shedy|tedy	PASS
+E164	B1	B1-S020	1	kurz wärmen	1	1	START	seihen; Schluss	UNIQUE_VALUE	d904bf7b044dd3922781	d904bf7b044dd3922781	cheky	PASS
+E165	B1	B1-S020	2	seihen; Schluss	1	1	kurz wärmen	END	UNIQUE_VALUE	d68bc8de3bcee09db23c	d68bc8de3bcee09db23c	shckhedy	PASS
+E166	B1	B1-S021	1	Stelle	1	1	START	END	UNIQUE_VALUE	dd0ecaf5e27d81befffc	dd0ecaf5e27d81befffc	al|chal|cheal|dal|sal|tal	PASS
+E167	B2	B2-S001	1	umsetzen; Schluss	2	1	START	END	RECORD_NAMESPACE	259b2b3b0bf859882e2c	259b2b3b0bf859882e2c	dchedy|schedy|tchedy	PASS
+E168	B2	B2-S002	1	weiterführen; Schluss	1	1	START	END	UNIQUE_VALUE	28ffbc88b97772a75f1e	28ffbc88b97772a75f1e	olchedy|qolchedy	PASS
+E169	B2	B2-S003	1	eine Portion zugeben	1	1	START	dies	UNIQUE_VALUE	1645e612504fcef59ced	1645e612504fcef59ced	okain|qokain	PASS
+E170	B2	B2-S003	2	dies	1	1	eine Portion zugeben	länger ansetzen; Schluss	UNIQUE_VALUE	b921a237be883a820352	b921a237be883a820352	chey|dy|sy	PASS
+E171	B2	B2-S003	3	länger ansetzen; Schluss	1	1	dies	END	UNIQUE_VALUE	7d25241b0e56c836372a	7d25241b0e56c836372a	qokeedy	PASS
+E172	B2	B2-S004	1	an die Stelle setzen	1	1	START	dies zum Durchlass führen	UNIQUE_VALUE	308e8ea2d5d190c498e8	308e8ea2d5d190c498e8	okal|qokal	PASS
+E173	B2	B2-S004	2	dies zum Durchlass führen	1	1	an die Stelle setzen	hinausführen	UNIQUE_VALUE	f329f2051370174e9a38	f329f2051370174e9a38	lcheckhy	PASS
+E174	B2	B2-S004	3	hinausführen	1	1	dies zum Durchlass führen	länger ansetzen	UNIQUE_VALUE	ba8142680851f24c9ff2	ba8142680851f24c9ff2	lched	PASS
+E175	B2	B2-S004	4	länger ansetzen	1	1	hinausführen	hinaus seihen; Schluss	UNIQUE_VALUE	0275fbf14e07935b0a45	0275fbf14e07935b0a45	okeey|qokeey	PASS
+E176	B2	B2-S004	5	hinaus seihen; Schluss	1	1	länger ansetzen	END	UNIQUE_VALUE	c1db6b0a28d5cbb5d3d2	c1db6b0a28d5cbb5d3d2	lcheckhedy	PASS
+E177	B2	B2-S005	1	dies an die Stelle setzen	1	1	START	Auffangmass	UNIQUE_VALUE	4a7a6326ac95a8809302	4a7a6326ac95a8809302	qokaly	PASS
+E178	B2	B2-S005	2	Auffangmass	1	1	dies an die Stelle setzen	durchführen	UNIQUE_VALUE	2d2e37ccb2dacc53ee5a	2d2e37ccb2dacc53ee5a	solkaiin	PASS
+E179	B2	B2-S005	3	durchführen	1	1	Auffangmass	bemessen	UNIQUE_VALUE	2cc8bb3c2af19607888f	2cc8bb3c2af19607888f	chckhy|shckhy	PASS
+E180	B2	B2-S005	4	bemessen	1	1	durchführen	bemessen	UNIQUE_VALUE	b5fcea1eaed06b2f2291	b5fcea1eaed06b2f2291	okaiin|qokaiin	PASS
+E181	B2	B2-S005	5	bemessen	1	1	bemessen	kurz bereit fortsetzen	UNIQUE_VALUE	b5fcea1eaed06b2f2291	b5fcea1eaed06b2f2291	okaiin|qokaiin	PASS
+E182	B2	B2-S005	6	kurz bereit fortsetzen	1	1	bemessen	dies länger wärmen	UNIQUE_VALUE	a8f891de626fc00028e9	a8f891de626fc00028e9	octheol	PASS
+E183	B2	B2-S005	7	dies länger wärmen	2	1	kurz bereit fortsetzen	abführen; Schluss	RECORD_NAMESPACE	f0db6d30cd34f4cb2a4d	f0db6d30cd34f4cb2a4d	chkeey	PASS
+E184	B2	B2-S005	8	abführen; Schluss	1	1	dies länger wärmen	END	UNIQUE_VALUE	04a3877f0fc81b7597c9	04a3877f0fc81b7597c9	ldy	PASS
+E185	B2	B2-S006	1	nächsten Posten länger halten	1	1	START	an die Stelle setzen	UNIQUE_VALUE	5d5e0b288cf36864ed9d	5d5e0b288cf36864ed9d	oteey	PASS
+E186	B2	B2-S006	2	an die Stelle setzen	1	1	nächsten Posten länger halten	dies kurz im Durchlass halten	UNIQUE_VALUE	308e8ea2d5d190c498e8	308e8ea2d5d190c498e8	okal|qokal	PASS
+E187	B2	B2-S006	3	dies kurz im Durchlass halten	1	1	an die Stelle setzen	verwende dies	UNIQUE_VALUE	c1913ec4ff84148da6d3	c1913ec4ff84148da6d3	sheckhy	PASS
+E188	B2	B2-S006	4	verwende dies	1	1	dies kurz im Durchlass halten	END	UNIQUE_VALUE	276a7c2d74d1143446f4	276a7c2d74d1143446f4	qoky	PASS
+E189	B2	B2-S007	1	kurz halten; Schluss	1	1	START	END	UNIQUE_VALUE	cbb42a4fe68068325d6b	cbb42a4fe68068325d6b	dshedy	PASS
+E190	B2	B2-S008	1	nächstes Maß	1	1	START	von dort einsetzen	UNIQUE_VALUE	54d0e228ca346110af05	54d0e228ca346110af05	otaiin|sotaiin	PASS
+E191	B2	B2-S008	2	von dort einsetzen	1	1	nächstes Maß	absetzen; Schluss	UNIQUE_VALUE	3ae9a121ba0045b913e8	3ae9a121ba0045b913e8	qokar	PASS
+E192	B2	B2-S008	3	absetzen; Schluss	1	1	von dort einsetzen	END	UNIQUE_VALUE	bc4f1f5c006c74a4d26d	bc4f1f5c006c74a4d26d	cheedy|shedy|tedy	PASS
+E193	B2	B2-S009	1	mit dem Vorigen kurz absetzen; Schluss	1	1	START	END	UNIQUE_VALUE	daa1347f456415fe8737	daa1347f456415fe8737	solshedy	PASS
+E194	B2	B2-S010	1	länger ansetzen	1	1	START	verwende dies	UNIQUE_VALUE	0275fbf14e07935b0a45	0275fbf14e07935b0a45	okeey|qokeey	PASS
+E195	B2	B2-S010	2	verwende dies	1	1	länger ansetzen	abfuehren	UNIQUE_VALUE	276a7c2d74d1143446f4	276a7c2d74d1143446f4	qoky	PASS
+E196	B2	B2-S010	3	abfuehren	1	1	verwende dies	Klarauszug	UNIQUE_VALUE	5eff216ba51fbfb21f22	5eff216ba51fbfb21f22	ls	PASS
+E197	B2	B2-S010	4	Klarauszug	1	1	abfuehren	END	UNIQUE_VALUE	b5df9126607030b95175	b5df9126607030b95175	cheey|shey	PASS
+E198	B2	B2-S011	1	eine Portion zugeben	1	1	START	dasselbe	UNIQUE_VALUE	1645e612504fcef59ced	1645e612504fcef59ced	okain|qokain	PASS
+E199	B2	B2-S011	2	dasselbe	1	1	eine Portion zugeben	eine Portion zugeben	UNIQUE_VALUE	4d4559019a961b834aa1	4d4559019a961b834aa1	char|dar|sar	PASS
+E200	B2	B2-S011	3	eine Portion zugeben	1	1	dasselbe	länger ansetzen; Schluss	UNIQUE_VALUE	1645e612504fcef59ced	1645e612504fcef59ced	okain|qokain	PASS
+E201	B2	B2-S011	4	länger ansetzen; Schluss	1	1	eine Portion zugeben	END	UNIQUE_VALUE	7d25241b0e56c836372a	7d25241b0e56c836372a	qokeedy	PASS
+E202	B2	B2-S012	1	dies abziehen	1	1	START	Klarauszug	UNIQUE_VALUE	0ab57b7166de99db3a55	0ab57b7166de99db3a55	lchy	PASS
+E203	B2	B2-S012	2	Klarauszug	1	1	dies abziehen	dies kurz bereithalten	UNIQUE_VALUE	b5df9126607030b95175	b5df9126607030b95175	cheey|shey	PASS
+E204	B2	B2-S012	3	dies kurz bereithalten	1	1	Klarauszug	länger ansetzen	UNIQUE_VALUE	6b89d6dd70635bc60fe0	6b89d6dd70635bc60fe0	qcthey|shcthey	PASS
+E205	B2	B2-S012	4	länger ansetzen	1	1	dies kurz bereithalten	dies länger abziehen	UNIQUE_VALUE	0275fbf14e07935b0a45	0275fbf14e07935b0a45	okeey|qokeey	PASS
+E206	B2	B2-S012	5	dies länger abziehen	1	1	länger ansetzen	Mass	UNIQUE_VALUE	5fca8fc3dee57e1d8c1f	5fca8fc3dee57e1d8c1f	lcheey	PASS
+E207	B2	B2-S012	6	Mass	1	1	dies länger abziehen	dies	UNIQUE_VALUE	2f1c5e56e8f0ff459065	2f1c5e56e8f0ff459065	aiin|daiin|saiin	PASS
+E208	B2	B2-S012	7	dies	1	1	Mass	vollständig ansetzen; Schluss	UNIQUE_VALUE	b921a237be883a820352	b921a237be883a820352	chey|dy|sy	PASS
+E209	B2	B2-S012	8	vollständig ansetzen; Schluss	1	1	dies	END	UNIQUE_VALUE	d25110e0d8488927278f	d25110e0d8488927278f	qokeeedy	PASS
+E210	B2	B2-S013	1	hinausführen; Schluss	1	1	START	END	UNIQUE_VALUE	de7321bface5628e35d6	de7321bface5628e35d6	lchedy	PASS
+E211	B2	B2-S014	1	von dort abführen	1	1	START	END	UNIQUE_VALUE	29e0eb222ef2fb99523a	29e0eb222ef2fb99523a	lar	PASS
+E212	B2	B2-S015	1	dies kurz halten	1	1	START	länger ansetzen; Schluss	UNIQUE_VALUE	d4a31dbcf1ed6d9e5aa9	d4a31dbcf1ed6d9e5aa9	tshey	PASS
+E213	B2	B2-S015	2	länger ansetzen; Schluss	1	1	dies kurz halten	END	UNIQUE_VALUE	7d25241b0e56c836372a	7d25241b0e56c836372a	qokeedy	PASS
+E214	B2	B2-S016	1	Stelle	1	1	START	von dort hinausführen	UNIQUE_VALUE	dd0ecaf5e27d81befffc	dd0ecaf5e27d81befffc	al|chal|cheal|dal|sal|tal	PASS
+E215	B2	B2-S016	2	von dort hinausführen	1	1	Stelle	teilen	UNIQUE_VALUE	0f15effeca7ab10bb026	0f15effeca7ab10bb026	lchedar	PASS
+E216	B2	B2-S016	3	teilen	1	1	von dort hinausführen	Mass	UNIQUE_VALUE	db729b598e89e11452e0	db729b598e89e11452e0	ches	PASS
+E217	B2	B2-S016	4	Mass	1	1	teilen	nächsten Posten länger halten	UNIQUE_VALUE	2f1c5e56e8f0ff459065	2f1c5e56e8f0ff459065	aiin|daiin|saiin	PASS
+E218	B2	B2-S016	5	nächsten Posten länger halten	1	1	Mass	bemessen	UNIQUE_VALUE	5d5e0b288cf36864ed9d	5d5e0b288cf36864ed9d	oteey	PASS
+E219	B2	B2-S016	6	bemessen	1	1	nächsten Posten länger halten	kurz ansetzen	UNIQUE_VALUE	b5fcea1eaed06b2f2291	b5fcea1eaed06b2f2291	okaiin|qokaiin	PASS
+E220	B2	B2-S016	7	kurz ansetzen	1	1	bemessen	hineinführen; Schluss	UNIQUE_VALUE	08bd5ca0c2ad137a056d	08bd5ca0c2ad137a056d	okey|qokey	PASS
+E221	B2	B2-S016	8	hineinführen; Schluss	1	1	kurz ansetzen	END	UNIQUE_VALUE	65df3cd9e59060042d47	65df3cd9e59060042d47	pchedy	PASS
+E222	B2	B2-S017	1	an der Stelle kurz abkuehlen	1	1	START	an der Stelle schliessen	UNIQUE_VALUE	98bdc4244c84cbef3321	98bdc4244c84cbef3321	rsheal	PASS
+E223	B2	B2-S017	2	an der Stelle schliessen	1	1	an der Stelle kurz abkuehlen	END	UNIQUE_VALUE	78b3b3140714da19090d	78b3b3140714da19090d	daldy	PASS
+E224	B2	B2-S018	1	länger ansetzen; Schluss	1	1	START	END	UNIQUE_VALUE	7d25241b0e56c836372a	7d25241b0e56c836372a	qokeedy	PASS
+E225	B2	B2-S019	1	abkuehlen und absetzen; Schluss	1	1	START	END	UNIQUE_VALUE	7f68f60279efe6b28cd7	7f68f60279efe6b28cd7	rshedy	PASS
+E226	B2	B2-S020	1	nächsten Schritt länger halten; Schluss	1	1	START	END	UNIQUE_VALUE	ff178343c18e287ce3b7	ff178343c18e287ce3b7	qoteedy	PASS
+E227	B2	B2-S021	1	länger ansetzen; Schluss	1	1	START	END	UNIQUE_VALUE	7d25241b0e56c836372a	7d25241b0e56c836372a	qokeedy	PASS
+E228	B2	B2-S022	1	weiter hinausfuehren; Schluss	1	1	START	END	UNIQUE_VALUE	f2af6326898fb5b490a4	f2af6326898fb5b490a4	lochedy	PASS
+E229	B3	B3-S001	1	länger auffangen; Schluss	1	1	START	END	UNIQUE_VALUE	3b70942557b3a40e8030	3b70942557b3a40e8030	olkeedy|solkeedy	PASS
+E230	B3	B3-S002	1	Folgestelle	1	1	START	länger wärmen; Schluss	UNIQUE_VALUE	90bcf0a9ec0ef56399e6	90bcf0a9ec0ef56399e6	otal|qotal	PASS
+E231	B3	B3-S002	2	länger wärmen; Schluss	1	1	Folgestelle	END	UNIQUE_VALUE	a84fbe3ad380df345b97	a84fbe3ad380df345b97	chkeedy	PASS
+E232	B3	B3-S003	1	dies	1	1	START	Mass	UNIQUE_VALUE	b921a237be883a820352	b921a237be883a820352	chey|dy|sy	PASS
+E233	B3	B3-S003	2	Mass	1	1	dies	dies	UNIQUE_VALUE	2f1c5e56e8f0ff459065	2f1c5e56e8f0ff459065	aiin|daiin|saiin	PASS
+E234	B3	B3-S003	3	dies	1	1	Mass	hinausführen; Schluss	UNIQUE_VALUE	b921a237be883a820352	b921a237be883a820352	chey|dy|sy	PASS
+E235	B3	B3-S003	4	hinausführen; Schluss	1	1	dies	END	UNIQUE_VALUE	de7321bface5628e35d6	de7321bface5628e35d6	lchedy	PASS
+E236	B3	B3-S004	1	bemessen	1	1	START	Folgestelle	UNIQUE_VALUE	b5fcea1eaed06b2f2291	b5fcea1eaed06b2f2291	okaiin|qokaiin	PASS
+E237	B3	B3-S004	2	Folgestelle	1	1	bemessen	dasselbe	UNIQUE_VALUE	90bcf0a9ec0ef56399e6	90bcf0a9ec0ef56399e6	otal|qotal	PASS
+E238	B3	B3-S004	3	dasselbe	1	1	Folgestelle	END	UNIQUE_VALUE	4d4559019a961b834aa1	4d4559019a961b834aa1	char|dar|sar	PASS
+E239	B3	B3-S005	1	umsetzen; Schluss	2	1	START	END	RECORD_NAMESPACE	259b2b3b0bf859882e2c	259b2b3b0bf859882e2c	dchedy|schedy|tchedy	PASS
+E240	B3	B3-S006	1	dies umsetzen	2	2	START	an die Stelle setzen	CHEDCHY_BEFORE_TARGET_SET_ELSE_CURRENT_CHD	5e8441397e7c0faf042b	5e8441397e7c0faf042b	chedchy	PASS
+E241	B3	B3-S006	2	an die Stelle setzen	1	1	dies umsetzen	weiterführen; Schluss	UNIQUE_VALUE	308e8ea2d5d190c498e8	308e8ea2d5d190c498e8	okal|qokal	PASS
+E242	B3	B3-S006	3	weiterführen; Schluss	1	1	an die Stelle setzen	END	UNIQUE_VALUE	28ffbc88b97772a75f1e	28ffbc88b97772a75f1e	olchedy|qolchedy	PASS
+E243	B3	B3-S007	1	bemessen	1	1	START	dies umsetzen	UNIQUE_VALUE	b5fcea1eaed06b2f2291	b5fcea1eaed06b2f2291	okaiin|qokaiin	PASS
+E244	B3	B3-S007	2	dies umsetzen	2	2	bemessen	länger ansetzen; Schluss	CHEDCHY_BEFORE_TARGET_SET_ELSE_CURRENT_CHD	6f7ff8287eddf4da9fdb	6f7ff8287eddf4da9fdb	chdy|chedy	PASS
+E245	B3	B3-S007	3	länger ansetzen; Schluss	1	1	dies umsetzen	END	UNIQUE_VALUE	7d25241b0e56c836372a	7d25241b0e56c836372a	qokeedy	PASS
+E246	B3	B3-S008	1	hinausführen; Schluss	1	1	START	END	UNIQUE_VALUE	de7321bface5628e35d6	de7321bface5628e35d6	lchedy	PASS
+E247	B3	B3-S009	1	verwende dies	1	1	START	END	UNIQUE_VALUE	276a7c2d74d1143446f4	276a7c2d74d1143446f4	qoky	PASS
+E248	B3	B3-S010	1	an der Stelle hineinführen	1	1	START	kurzer Folgeschritt; Schluss	UNIQUE_VALUE	ba540da978ea132f6da5	ba540da978ea132f6da5	pchedal	PASS
+E249	B3	B3-S010	2	kurzer Folgeschritt; Schluss	1	1	an der Stelle hineinführen	END	UNIQUE_VALUE	c45ebac60774620561e2	c45ebac60774620561e2	otedy	PASS
+E250	B3	B3-S011	1	dies kurz bereit umsetzen	1	1	START	verwende dies	UNIQUE_VALUE	348e81ba084c5acdb32b	348e81ba084c5acdb32b	shecthedchy	PASS
+E251	B3	B3-S011	2	verwende dies	1	1	dies kurz bereit umsetzen	dies umsetzen	UNIQUE_VALUE	276a7c2d74d1143446f4	276a7c2d74d1143446f4	qoky	PASS
+E252	B3	B3-S011	3	dies umsetzen	2	2	verwende dies	dies aus der Quelle nehmen	CHEDCHY_BEFORE_TARGET_SET_ELSE_CURRENT_CHD	6f7ff8287eddf4da9fdb	6f7ff8287eddf4da9fdb	chdy|chedy	PASS
+E253	B3	B3-S011	4	dies aus der Quelle nehmen	1	1	dies umsetzen	END	UNIQUE_VALUE	0bdc8b6db811b4e67a63	0bdc8b6db811b4e67a63	chary	PASS
+E254	B3	B3-S012	1	Ansatz	1	1	START	absetzen; Schluss	UNIQUE_VALUE	7a4bb8136330ee4e6e56	7a4bb8136330ee4e6e56	or|sor	PASS
+E255	B3	B3-S012	2	absetzen; Schluss	1	1	Ansatz	END	UNIQUE_VALUE	bc4f1f5c006c74a4d26d	bc4f1f5c006c74a4d26d	cheedy|shedy|tedy	PASS
+E256	B3	B3-S013	1	bemessen	1	1	START	eine Portion	UNIQUE_VALUE	b5fcea1eaed06b2f2291	b5fcea1eaed06b2f2291	okaiin|qokaiin	PASS
+E257	B3	B3-S013	2	eine Portion	1	1	bemessen	dies kurz bereithalten	UNIQUE_VALUE	9da1b6ac2c929daea697	9da1b6ac2c929daea697	chkain|kain	PASS
+E258	B3	B3-S013	3	dies kurz bereithalten	1	1	eine Portion	kurz ansetzen; Schluss	UNIQUE_VALUE	6b89d6dd70635bc60fe0	6b89d6dd70635bc60fe0	qcthey|shcthey	PASS
+E259	B3	B3-S013	4	kurz ansetzen; Schluss	1	1	dies kurz bereithalten	END	UNIQUE_VALUE	7db18b2f0fb7ed0fcfd3	7db18b2f0fb7ed0fcfd3	qokedy	PASS
+E260	B3	B3-S014	1	Wasser in Gang setzen	1	1	START	länger absetzen; Schluss	UNIQUE_VALUE	7d2404c835b10a2c06af	7d2404c835b10a2c06af	okair	PASS
+E261	B3	B3-S014	2	länger absetzen; Schluss	1	1	Wasser in Gang setzen	END	UNIQUE_VALUE	03626ca94cb17800d767	03626ca94cb17800d767	sheedy	PASS
+E262	B3	B3-S015	1	hinausführen; Schluss	1	1	START	END	UNIQUE_VALUE	de7321bface5628e35d6	de7321bface5628e35d6	lchedy	PASS
+E263	B3	B3-S016	1	hinausfuehren	1	1	START	Ansatz umsetzen; Schluss	UNIQUE_VALUE	2b7fa918d1b2f5c656e3	2b7fa918d1b2f5c656e3	lo	PASS
+E264	B3	B3-S016	2	Ansatz umsetzen; Schluss	2	2	hinausfuehren	END	STATEMENT_INITIAL_SHORT_ELSE_EXPANDED	07913ef9b1fb773cd325	07913ef9b1fb773cd325	okchedy|qokchedy	PASS
+E265	B3	B3-S017	1	länger ansetzen; Schluss	1	1	START	END	UNIQUE_VALUE	7d25241b0e56c836372a	7d25241b0e56c836372a	qokeedy	PASS
+E266	B3	B3-S018	1	absetzen; Schluss	1	1	START	END	UNIQUE_VALUE	bc4f1f5c006c74a4d26d	bc4f1f5c006c74a4d26d	cheedy|shedy|tedy	PASS
+E267	B3	B3-S019	1	kurz absetzen; Schluss	1	1	START	END	UNIQUE_VALUE	db167f8e9b53eefb58f8	db167f8e9b53eefb58f8	qokshedy	PASS
+E268	B3	B3-S020	1	Stelle	1	1	START	hinausführen; Schluss	UNIQUE_VALUE	dd0ecaf5e27d81befffc	dd0ecaf5e27d81befffc	al|chal|cheal|dal|sal|tal	PASS
+E269	B3	B3-S020	2	hinausführen; Schluss	1	1	Stelle	END	UNIQUE_VALUE	de7321bface5628e35d6	de7321bface5628e35d6	lchedy	PASS
+E270	B3	B3-S021	1	bemessen	1	1	START	bereit	UNIQUE_VALUE	b5fcea1eaed06b2f2291	b5fcea1eaed06b2f2291	okaiin|qokaiin	PASS
+E271	B3	B3-S021	2	bereit	1	1	bemessen	Stelle	UNIQUE_VALUE	e0b630cb1b5df5e7105b	e0b630cb1b5df5e7105b	checthy|shcthy	PASS
+E272	B3	B3-S021	3	Stelle	1	1	bereit	dies	UNIQUE_VALUE	dd0ecaf5e27d81befffc	dd0ecaf5e27d81befffc	al|chal|cheal|dal|sal|tal	PASS
+E273	B3	B3-S021	4	dies	1	1	Stelle	Mass	UNIQUE_VALUE	b921a237be883a820352	b921a237be883a820352	chey|dy|sy	PASS
+E274	B3	B3-S021	5	Mass	1	1	dies	an der Stelle absetzen	UNIQUE_VALUE	2f1c5e56e8f0ff459065	2f1c5e56e8f0ff459065	aiin|daiin|saiin	PASS
+E275	B3	B3-S021	6	an der Stelle absetzen	1	1	Mass	dies kurz bereit halten	UNIQUE_VALUE	abb23e5e6936b4147f76	abb23e5e6936b4147f76	shedal	PASS
+E276	B3	B3-S021	7	dies kurz bereit halten	1	1	an der Stelle absetzen	dies	UNIQUE_VALUE	cb57b696b815fdef9cb7	cb57b696b815fdef9cb7	shecthy	PASS
+E277	B3	B3-S021	8	dies	1	1	dies kurz bereit halten	Stelle	UNIQUE_VALUE	b921a237be883a820352	b921a237be883a820352	chey|dy|sy	PASS
+E278	B3	B3-S021	9	Stelle	1	1	dies	bereit	UNIQUE_VALUE	dd0ecaf5e27d81befffc	dd0ecaf5e27d81befffc	al|chal|cheal|dal|sal|tal	PASS
+E279	B3	B3-S021	10	bereit	1	1	Stelle	an der Stelle überführen; Schluss	UNIQUE_VALUE	e0b630cb1b5df5e7105b	e0b630cb1b5df5e7105b	checthy|shcthy	PASS
+E280	B3	B3-S021	11	an der Stelle überführen; Schluss	1	1	bereit	END	UNIQUE_VALUE	2bc2ed2630dbdaaa6b59	2bc2ed2630dbdaaa6b59	dalchdy	PASS
+E281	B3	B3-S022	1	danach umsetzen; Schluss	2	1	START	END	RECORD_NAMESPACE	4de12cf322dfb76ded1e	4de12cf322dfb76ded1e	otchedy|qotchedy	PASS
+E282	B3	B3-S023	1	hinausführen; Schluss	1	1	START	END	UNIQUE_VALUE	de7321bface5628e35d6	de7321bface5628e35d6	lchedy	PASS
+E283	B3	B3-S024	1	umsetzen; Schluss	2	1	START	END	RECORD_NAMESPACE	259b2b3b0bf859882e2c	259b2b3b0bf859882e2c	dchedy|schedy|tchedy	PASS
+E284	B3	B3-S025	1	Ansatz umsetzen; Schluss	2	2	START	END	STATEMENT_INITIAL_SHORT_ELSE_EXPANDED	87411f84689b4f93a303	87411f84689b4f93a303	qokchdy	PASS
+E285	B3	B3-S026	1	laenger aus der Quelle fuehren	1	1	START	Abfuehrmass	UNIQUE_VALUE	342c3f0777337648f4b3	342c3f0777337648f4b3	cheedar	PASS
+E286	B3	B3-S026	2	Abfuehrmass	1	1	laenger aus der Quelle fuehren	dies umsetzen	UNIQUE_VALUE	d72f71baff01cd0a0406	d72f71baff01cd0a0406	chldaiin	PASS
+E287	B3	B3-S026	3	dies umsetzen	2	2	Abfuehrmass	eine Portion zugeben	CHEDCHY_BEFORE_TARGET_SET_ELSE_CURRENT_CHD	6f7ff8287eddf4da9fdb	6f7ff8287eddf4da9fdb	chdy|chedy	PASS
+E288	B3	B3-S026	4	eine Portion zugeben	1	1	dies umsetzen	bereit	UNIQUE_VALUE	1645e612504fcef59ced	1645e612504fcef59ced	okain|qokain	PASS
+E289	B3	B3-S026	5	bereit	1	1	eine Portion zugeben	Ansatz an der Stelle abkuehlen	UNIQUE_VALUE	e0b630cb1b5df5e7105b	e0b630cb1b5df5e7105b	checthy|shcthy	PASS
+E290	B3	B3-S026	6	Ansatz an der Stelle abkuehlen	1	1	bereit	länger auffangen; Schluss	UNIQUE_VALUE	d788d8d72d41b25a3c71	d788d8d72d41b25a3c71	chealror	PASS
+E291	B3	B3-S026	7	länger auffangen; Schluss	1	1	Ansatz an der Stelle abkuehlen	END	UNIQUE_VALUE	3b70942557b3a40e8030	3b70942557b3a40e8030	olkeedy|solkeedy	PASS
+E292	B3	B3-S027	1	nächsten Schritt länger halten; Schluss	1	1	START	END	UNIQUE_VALUE	ff178343c18e287ce3b7	ff178343c18e287ce3b7	qoteedy	PASS
+E293	B3	B3-S028	1	länger ansetzen	1	1	START	kurz ansetzen; Schluss	UNIQUE_VALUE	0275fbf14e07935b0a45	0275fbf14e07935b0a45	okeey|qokeey	PASS
+E294	B3	B3-S028	2	kurz ansetzen; Schluss	1	1	länger ansetzen	END	UNIQUE_VALUE	7db18b2f0fb7ed0fcfd3	7db18b2f0fb7ed0fcfd3	qokedy	PASS
+E295	B3	B3-S029	1	fortsetzen	1	1	START	dies vollstaendig fuellen	UNIQUE_VALUE	dcda95c81a5460feb191	dcda95c81a5460feb191	cheol|ol|qol|sol|tol	PASS
+E296	B3	B3-S029	2	dies vollstaendig fuellen	1	1	fortsetzen	kurz ansetzen; Schluss	UNIQUE_VALUE	9247e38d29c79a0d2fa5	9247e38d29c79a0d2fa5	cheeety	PASS
+E297	B3	B3-S029	3	kurz ansetzen; Schluss	1	1	dies vollstaendig fuellen	END	UNIQUE_VALUE	7db18b2f0fb7ed0fcfd3	7db18b2f0fb7ed0fcfd3	qokedy	PASS
+E298	B3	B3-S030	1	verwende dies	1	1	START	Mass	UNIQUE_VALUE	276a7c2d74d1143446f4	276a7c2d74d1143446f4	qoky	PASS
+E299	B3	B3-S030	2	Mass	1	1	verwende dies	Wasser weiterfuehren	UNIQUE_VALUE	2f1c5e56e8f0ff459065	2f1c5e56e8f0ff459065	aiin|daiin|saiin	PASS
+E300	B3	B3-S030	3	Wasser weiterfuehren	1	1	Mass	danach umsetzen; Schluss	UNIQUE_VALUE	b154ff779abe5f196c80	b154ff779abe5f196c80	schedair	PASS
+E301	B3	B3-S030	4	danach umsetzen; Schluss	2	1	Wasser weiterfuehren	END	RECORD_NAMESPACE	4de12cf322dfb76ded1e	4de12cf322dfb76ded1e	otchedy|qotchedy	PASS
+E302	B3	B3-S031	1	länger ansetzen; Schluss	1	1	START	END	UNIQUE_VALUE	7d25241b0e56c836372a	7d25241b0e56c836372a	qokeedy	PASS
+E303	B3	B3-S032	1	eine Portion überführen	1	1	START	dies umsetzen	UNIQUE_VALUE	d784b2abcaf1a3703de2	d784b2abcaf1a3703de2	chedain	PASS
+E304	B3	B3-S032	2	dies umsetzen	2	2	eine Portion überführen	kurzes Folgemaß	CHEDCHY_BEFORE_TARGET_SET_ELSE_CURRENT_CHD	6f7ff8287eddf4da9fdb	6f7ff8287eddf4da9fdb	chdy|chedy	PASS
+E305	B3	B3-S032	3	kurzes Folgemaß	1	1	dies umsetzen	nächstes Maß	UNIQUE_VALUE	1779decef17481ec2853	1779decef17481ec2853	qotedaiin	PASS
+E306	B3	B3-S032	4	nächstes Maß	1	1	kurzes Folgemaß	kurzer Folgeschritt; Schluss	UNIQUE_VALUE	54d0e228ca346110af05	54d0e228ca346110af05	otaiin|sotaiin	PASS
+E307	B3	B3-S032	5	kurzer Folgeschritt; Schluss	1	1	nächstes Maß	END	UNIQUE_VALUE	c45ebac60774620561e2	c45ebac60774620561e2	otedy	PASS
+E308	B3	B3-S033	1	abführen; Schluss	1	1	START	END	UNIQUE_VALUE	04a3877f0fc81b7597c9	04a3877f0fc81b7597c9	ldy	PASS
+E309	B3	B3-S034	1	Sollstand	1	1	START	bereit	UNIQUE_VALUE	2c82523794dcb7d2b343	2c82523794dcb7d2b343	oiiin|soiiin	PASS
+E310	B3	B3-S034	2	bereit	1	1	Sollstand	dies fuellen	UNIQUE_VALUE	e0b630cb1b5df5e7105b	e0b630cb1b5df5e7105b	checthy|shcthy	PASS
+E311	B3	B3-S034	3	dies fuellen	1	1	bereit	nächstes Maß	UNIQUE_VALUE	80ebbbbf238eee9f0aef	80ebbbbf238eee9f0aef	chety	PASS
+E312	B3	B3-S034	4	nächstes Maß	1	1	dies fuellen	dies an der Stelle fortsetzen	UNIQUE_VALUE	54d0e228ca346110af05	54d0e228ca346110af05	otaiin|sotaiin	PASS
+E313	B3	B3-S034	5	dies an der Stelle fortsetzen	1	1	nächstes Maß	absetzen; Schluss	UNIQUE_VALUE	7811a7daff25d476e28d	7811a7daff25d476e28d	olsaly	PASS
+E314	B3	B3-S034	6	absetzen; Schluss	1	1	dies an der Stelle fortsetzen	END	UNIQUE_VALUE	bc4f1f5c006c74a4d26d	bc4f1f5c006c74a4d26d	cheedy|shedy|tedy	PASS
+E315	B4	B4-S001	1	länger ansetzen; Schluss	1	1	START	END	UNIQUE_VALUE	7d25241b0e56c836372a	7d25241b0e56c836372a	qokeedy	PASS
+E316	B4	B4-S002	1	dies weiterführen	1	1	START	länger ansetzen	UNIQUE_VALUE	e2eb77ca9d9e1a8ba29a	e2eb77ca9d9e1a8ba29a	qolchey	PASS
+E317	B4	B4-S002	2	länger ansetzen	1	1	dies weiterführen	kurz ansetzen; Schluss	UNIQUE_VALUE	0275fbf14e07935b0a45	0275fbf14e07935b0a45	okeey|qokeey	PASS
+E318	B4	B4-S002	3	kurz ansetzen; Schluss	1	1	länger ansetzen	END	UNIQUE_VALUE	7db18b2f0fb7ed0fcfd3	7db18b2f0fb7ed0fcfd3	qokedy	PASS
+E319	B4	B4-S003	1	dies umsetzen	2	1	START	Folgestelle	RECORD_NAMESPACE	6f7ff8287eddf4da9fdb	6f7ff8287eddf4da9fdb	chdy|chedy	PASS
+E320	B4	B4-S003	2	Folgestelle	1	1	dies umsetzen	nächster Posten	UNIQUE_VALUE	90bcf0a9ec0ef56399e6	90bcf0a9ec0ef56399e6	otal|qotal	PASS
+E321	B4	B4-S003	3	nächster Posten	1	1	Folgestelle	länger ansetzen	UNIQUE_VALUE	faf321940aed922846a9	faf321940aed922846a9	otchey	PASS
+E322	B4	B4-S003	4	länger ansetzen	1	1	nächster Posten	verwende dies	UNIQUE_VALUE	0275fbf14e07935b0a45	0275fbf14e07935b0a45	okeey|qokeey	PASS
+E323	B4	B4-S003	5	verwende dies	1	1	länger ansetzen	fortsetzen	UNIQUE_VALUE	276a7c2d74d1143446f4	276a7c2d74d1143446f4	qoky	PASS
+E324	B4	B4-S003	6	fortsetzen	1	1	verwende dies	absetzen; Schluss	UNIQUE_VALUE	dcda95c81a5460feb191	dcda95c81a5460feb191	cheol|ol|qol|sol|tol	PASS
+E325	B4	B4-S003	7	absetzen; Schluss	1	1	fortsetzen	END	UNIQUE_VALUE	bc4f1f5c006c74a4d26d	bc4f1f5c006c74a4d26d	cheedy|shedy|tedy	PASS
+E326	B4	B4-S004	1	dies befestigen; Schluss	1	1	START	END	UNIQUE_VALUE	eb2e4bc143f623ee03ac	eb2e4bc143f623ee03ac	qokylddy	PASS
+E327	B4	B4-S005	1	Tuch	1	1	START	dies umsetzen	UNIQUE_VALUE	53cd0637c6820ba5e91f	53cd0637c6820ba5e91f	dain	PASS
+E328	B4	B4-S005	2	dies umsetzen	2	1	Tuch	länger ansetzen; Schluss	RECORD_NAMESPACE	6f7ff8287eddf4da9fdb	6f7ff8287eddf4da9fdb	chdy|chedy	PASS
+E329	B4	B4-S005	3	länger ansetzen; Schluss	1	1	dies umsetzen	END	UNIQUE_VALUE	7d25241b0e56c836372a	7d25241b0e56c836372a	qokeedy	PASS
+E330	B4	B4-S006	1	seihen; Schluss	1	1	START	END	UNIQUE_VALUE	d68bc8de3bcee09db23c	d68bc8de3bcee09db23c	shckhedy	PASS
+E331	B4	B4-S007	1	seihen; Schluss	1	1	START	END	UNIQUE_VALUE	d68bc8de3bcee09db23c	d68bc8de3bcee09db23c	shckhedy	PASS
+E332	B4	B4-S008	1	Mass	1	1	START	dies länger wärmen	UNIQUE_VALUE	2f1c5e56e8f0ff459065	2f1c5e56e8f0ff459065	aiin|daiin|saiin	PASS
+E333	B4	B4-S008	2	dies länger wärmen	2	1	Mass	dies länger halten	RECORD_NAMESPACE	2c1a5fd92b9e3c762242	2c1a5fd92b9e3c762242	cheeky	PASS
+E334	B4	B4-S008	3	dies länger halten	1	1	dies länger wärmen	kurz ansetzen; Schluss	UNIQUE_VALUE	92e43836d82f98bf02d3	92e43836d82f98bf02d3	sheey	PASS
+E335	B4	B4-S008	4	kurz ansetzen; Schluss	1	1	dies länger halten	END	UNIQUE_VALUE	7db18b2f0fb7ed0fcfd3	7db18b2f0fb7ed0fcfd3	qokedy	PASS
+E336	B4	B4-S009	1	absetzen; Schluss	1	1	START	END	UNIQUE_VALUE	bc4f1f5c006c74a4d26d	bc4f1f5c006c74a4d26d	cheedy|shedy|tedy	PASS
+E337	B4	B4-S010	1	fortsetzen; Schluss	1	1	START	END	UNIQUE_VALUE	1b1ffdd869fb1429ad03	1b1ffdd869fb1429ad03	oldy	PASS
+E338	B4	B4-S011	1	Mass	1	1	START	kurz wärmen	UNIQUE_VALUE	2f1c5e56e8f0ff459065	2f1c5e56e8f0ff459065	aiin|daiin|saiin	PASS
+E339	B4	B4-S011	2	kurz wärmen	1	1	Mass	länger fortsetzen	UNIQUE_VALUE	d904bf7b044dd3922781	d904bf7b044dd3922781	cheky	PASS
+E340	B4	B4-S011	3	länger fortsetzen	1	1	kurz wärmen	eine Portion zugeben	UNIQUE_VALUE	daf32e6db9e04413ce7f	daf32e6db9e04413ce7f	okeeol	PASS
+E341	B4	B4-S011	4	eine Portion zugeben	1	1	länger fortsetzen	dies umsetzen	UNIQUE_VALUE	1645e612504fcef59ced	1645e612504fcef59ced	okain|qokain	PASS
+E342	B4	B4-S011	5	dies umsetzen	2	1	eine Portion zugeben	fortsetzen	RECORD_NAMESPACE	6f7ff8287eddf4da9fdb	6f7ff8287eddf4da9fdb	chdy|chedy	PASS
+E343	B4	B4-S011	6	fortsetzen	1	1	dies umsetzen	kurz abführen; Schluss	UNIQUE_VALUE	dcda95c81a5460feb191	dcda95c81a5460feb191	cheol|ol|qol|sol|tol	PASS
+E344	B4	B4-S011	7	kurz abführen; Schluss	1	1	fortsetzen	END	UNIQUE_VALUE	b958a512ca6a3559e86e	b958a512ca6a3559e86e	lkedy	PASS
+E345	B4	B4-S012	1	hinausführen; Schluss	1	1	START	END	UNIQUE_VALUE	de7321bface5628e35d6	de7321bface5628e35d6	lchedy	PASS
+E346	B4	B4-S013	1	Fortsetzung einsetzen	1	1	START	absetzen; Schluss	UNIQUE_VALUE	232195d6ff2f326322f7	232195d6ff2f326322f7	qokol	PASS
+E347	B4	B4-S013	2	absetzen; Schluss	1	1	Fortsetzung einsetzen	END	UNIQUE_VALUE	bc4f1f5c006c74a4d26d	bc4f1f5c006c74a4d26d	cheedy|shedy|tedy	PASS
+E348	B4	B4-S014	1	Ansatz	1	1	START	dies	UNIQUE_VALUE	7a4bb8136330ee4e6e56	7a4bb8136330ee4e6e56	or|sor	PASS
+E349	B4	B4-S014	2	dies	1	1	Ansatz	dies kurz durchführen	UNIQUE_VALUE	b921a237be883a820352	b921a237be883a820352	chey|dy|sy	PASS
+E350	B4	B4-S014	3	dies kurz durchführen	1	1	dies	Wasserlauf schliessen	UNIQUE_VALUE	ecce30bc8dcc400bf2c8	ecce30bc8dcc400bf2c8	qockhey	PASS
+E351	B4	B4-S014	4	Wasserlauf schliessen	1	1	dies kurz durchführen	END	UNIQUE_VALUE	8aedd154964a78e555d6	8aedd154964a78e555d6	dairydy	PASS
+E352	B4	B4-S015	1	eine Portion zugeben	1	1	START	Klarauszug	UNIQUE_VALUE	1645e612504fcef59ced	1645e612504fcef59ced	okain|qokain	PASS
+E353	B4	B4-S015	2	Klarauszug	1	1	eine Portion zugeben	eine Portion	UNIQUE_VALUE	b5df9126607030b95175	b5df9126607030b95175	cheey|shey	PASS
+E354	B4	B4-S015	3	eine Portion	1	1	Klarauszug	Durchlassstelle	UNIQUE_VALUE	9da1b6ac2c929daea697	9da1b6ac2c929daea697	chkain|kain	PASS
+E355	B4	B4-S015	4	Durchlassstelle	1	1	eine Portion	kurz auffangen	UNIQUE_VALUE	21ed2873b71e57269c08	21ed2873b71e57269c08	chckhal	PASS
+E356	B4	B4-S015	5	kurz auffangen	1	1	Durchlassstelle	hinausführen; Schluss	UNIQUE_VALUE	42cdc187d5b9ffc60063	42cdc187d5b9ffc60063	solkey	PASS
+E357	B4	B4-S015	6	hinausführen; Schluss	1	1	kurz auffangen	END	UNIQUE_VALUE	de7321bface5628e35d6	de7321bface5628e35d6	lchedy	PASS
+E358	B4	B4-S016	1	weitere Portion	1	1	START	Stelle	UNIQUE_VALUE	94df4847b7b16c98394a	94df4847b7b16c98394a	olkain|qolkain	PASS
+E359	B4	B4-S016	2	Stelle	1	1	weitere Portion	aus dem Vorrat zufuehren	UNIQUE_VALUE	dd0ecaf5e27d81befffc	dd0ecaf5e27d81befffc	al|chal|cheal|dal|sal|tal	PASS
+E360	B4	B4-S016	3	aus dem Vorrat zufuehren	1	1	Stelle	absetzen; Schluss	UNIQUE_VALUE	883a6708116c342cb10b	883a6708116c342cb10b	skar	PASS
+E361	B4	B4-S016	4	absetzen; Schluss	1	1	aus dem Vorrat zufuehren	END	UNIQUE_VALUE	bc4f1f5c006c74a4d26d	bc4f1f5c006c74a4d26d	cheedy|shedy|tedy	PASS
+E362	B5	B5-S001	1	danach umsetzen; Schluss	2	1	START	END	RECORD_NAMESPACE	601b77449028deed39de	601b77449028deed39de	otchdy	PASS
+E363	B5	B5-S002	1	Ansatz umsetzen; Schluss	2	1	START	END	RECORD_NAMESPACE	87411f84689b4f93a303	87411f84689b4f93a303	qokchdy	PASS
+E364	B5	B5-S003	1	an der Stelle absetzen	1	1	START	Stelle	UNIQUE_VALUE	abb23e5e6936b4147f76	abb23e5e6936b4147f76	shedal	PASS
+E365	B5	B5-S003	2	Stelle	1	1	an der Stelle absetzen	fortsetzen	UNIQUE_VALUE	dd0ecaf5e27d81befffc	dd0ecaf5e27d81befffc	al|chal|cheal|dal|sal|tal	PASS
+E366	B5	B5-S003	3	fortsetzen	1	1	Stelle	warm	UNIQUE_VALUE	dcda95c81a5460feb191	dcda95c81a5460feb191	cheol|ol|qol|sol|tol	PASS
+E367	B5	B5-S003	4	warm	1	1	fortsetzen	an der Stelle umsetzen	UNIQUE_VALUE	8c97dfde96fbc78e3355	8c97dfde96fbc78e3355	lol	PASS
+E368	B5	B5-S003	5	an der Stelle umsetzen	1	1	warm	Mass	UNIQUE_VALUE	00d8ebe3c68294eeac39	00d8ebe3c68294eeac39	chdal	PASS
+E369	B5	B5-S003	6	Mass	1	1	an der Stelle umsetzen	fortsetzen	UNIQUE_VALUE	2f1c5e56e8f0ff459065	2f1c5e56e8f0ff459065	aiin|daiin|saiin	PASS
+E370	B5	B5-S003	7	fortsetzen	1	1	Mass	zweite Stufe	UNIQUE_VALUE	dcda95c81a5460feb191	dcda95c81a5460feb191	cheol|ol|qol|sol|tol	PASS
+E371	B5	B5-S003	8	zweite Stufe	1	1	fortsetzen	dies umsetzen	UNIQUE_VALUE	fcc1deda9e24ec268eb0	fcc1deda9e24ec268eb0	daiiin	PASS
+E372	B5	B5-S003	9	dies umsetzen	2	1	zweite Stufe	END	RECORD_NAMESPACE	6f7ff8287eddf4da9fdb	6f7ff8287eddf4da9fdb	chdy|chedy	PASS
+E373	B6	B6-S001	1	laenger auffangen	1	1	START	roh	UNIQUE_VALUE	1bfd786e6b8b63734a59	1bfd786e6b8b63734a59	solkeey	PASS
+E374	B6	B6-S001	2	roh	1	1	laenger auffangen	dies abkuehlen	UNIQUE_VALUE	43eb9aa12959b4d5cdc9	43eb9aa12959b4d5cdc9	qekey	PASS
+E375	B6	B6-S001	3	dies abkuehlen	1	1	roh	fortsetzen	UNIQUE_VALUE	3e9c7f217843b588489d	3e9c7f217843b588489d	raly	PASS
+E376	B6	B6-S001	4	fortsetzen	1	1	dies abkuehlen	Mass	UNIQUE_VALUE	dcda95c81a5460feb191	dcda95c81a5460feb191	cheol|ol|qol|sol|tol	PASS
+E377	B6	B6-S001	5	Mass	1	1	fortsetzen	fortsetzen	UNIQUE_VALUE	2f1c5e56e8f0ff459065	2f1c5e56e8f0ff459065	aiin|daiin|saiin	PASS
+E378	B6	B6-S001	6	fortsetzen	1	1	Mass	Tuch	UNIQUE_VALUE	dcda95c81a5460feb191	dcda95c81a5460feb191	cheol|ol|qol|sol|tol	PASS
+E379	B6	B6-S001	7	Tuch	1	1	fortsetzen	dies	UNIQUE_VALUE	53cd0637c6820ba5e91f	53cd0637c6820ba5e91f	dain	PASS
+E380	B6	B6-S001	8	dies	1	1	Tuch	Ansatz zur Stelle fuehren	UNIQUE_VALUE	b921a237be883a820352	b921a237be883a820352	chey|dy|sy	PASS
+E381	B6	B6-S001	9	Ansatz zur Stelle fuehren	1	1	dies	END	UNIQUE_VALUE	97ddca78c9ebcc956d04	97ddca78c9ebcc956d04	ldalor	PASS

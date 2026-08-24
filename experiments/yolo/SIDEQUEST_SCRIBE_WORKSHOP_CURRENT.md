@@ -8608,10 +8608,17 @@ manual also repairs CHEEETY to FULLY FILL, makes AIR uniformly WATER, and
 unifies equal CHD transfer parses. See
 `sidequest_semantic_biological_apprentice_manual_four_hundred_fiftieth/FOUR_HUNDRED_FIFTIETH_APPRENTICE_MANUAL.md`.
 
-Next, test the manual in reverse on every Biological statement: start from the
-German workshop instruction, select components in slot order, recover the exact
-registered card and report where two cards express the same instruction or one
-instruction still needs an arbitrary card choice.
+Pass 451 runs the manual backward over all 281 events. Three vague synonyms are
+split, leaving five exact alias families. Meaning alone selects 255 events,
+record namespace selects fifteen, and three immediate-neighbor rules select the
+last eleven. All 281 expected exact cards are recovered. See
+`sidequest_semantic_biological_reverse_compiler_four_hundred_fifty_first/FOUR_HUNDRED_FIFTY_FIRST_REPORT.md`.
+
+Next, translate all six Biological records anew from the reverse-compiler
+edition as continuous workshop prose. Preserve 97 statement boundaries but
+group them into larger procedures where state and owner continue; do not let a
+physical line end a sentence, and mark only the seven visible owner changes as
+hard scene transitions.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
