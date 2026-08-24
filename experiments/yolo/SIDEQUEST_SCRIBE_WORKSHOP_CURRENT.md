@@ -7596,8 +7596,16 @@ Productive composition covers 264/281 events and 111/124 Bio card types; only
 17 events on 13 types remain learned whole/micro signs. See
 `sidequest_semantic_stem_mode_crosswalk_three_hundred_ninth/THREE_HUNDRED_NINTH_STEM_OPERATING_MANUAL.md`.
 
-Next, compile the ten mode-bearing stems, direction/address frames, grade and
-endpoint frames, plus 13 whole-card exceptions into a minimal Bio dictionary.
+Pass 310 compresses the whole Biological teaching inventory to 39 entries: 26
+productive families actually used on the pages plus 13 learned whole/micro
+signs. They generate all 124 Bio card types and 281 events. Six whole signs are
+reclassified at the operating level without changing their meanings: addition,
+transfer, small part, fresh rinse liquid and insert belong to charge; division
+belongs to measure. The correction affects eight events. See
+`sidequest_semantic_minimal_bio_dictionary_three_hundred_tenth/THREE_HUNDRED_TENTH_MINIMAL_BIO_APPRENTICE_DICTIONARY.md`.
+
+Next, run the 39-entry deck forward and backward over complete Biological
+Records, preserving card identities, statement scope and image-owner resets.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
