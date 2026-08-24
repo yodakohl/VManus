@@ -8716,11 +8716,18 @@ frames; seventy-seven remain local, with eighty-nine loci fully read,
 thirty-three mixed and twenty local-only. See
 `sidequest_semantic_astro_label_frames_four_hundred_sixty_fifth/FOUR_HUNDRED_SIXTY_FIFTH_REPORT.md`.
 
-Next, test the remaining seventy-seven groups for a second Astro affix layer:
-initial D, D after O, and initial/final A behave like address wrappers, while F,
-AM, CPH and CFH recur as plausible local relation or object-class cores. Add
-only a small inventory that predicts several whole groups each, then rebuild
-the three diagram readings and the unified ledger.
+Pass 466 promotes eight diagram address cores: D Teiladresse, S Sternbezug, A
+Nebenadresse, F Aussenbezug, AM Gegenfeld, CPH Sternfigur, CFH Sternhaufen and
+G Strahlmarke. They compose sixty-five further groups, leaving only twelve
+whole Himmelsnames; 383 of 395 groups and 133 of 142 loci are now fully read.
+See
+`sidequest_semantic_astro_address_cores_four_hundred_sixty_sixth/FOUR_HUNDRED_SIXTY_SIXTH_REPORT.md`.
+
+Next, close the twelve-name nomenclator by comparing their internal recurrences:
+AIIR/IIR, AN, AZA and the long I-O-EE-OR pattern. Either promote a short core
+that explains several names or keep the item as one learned name; do not split
+a singleton merely to reach complete composition. Then typeset the first
+genuinely complete ten-page apprentice dictionary.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
