@@ -9175,8 +9175,15 @@ Four locus tables disappear, leaving 34 conscious loads and 347 automatic
 cards. See
 `sidequest_semantic_context_wrapper_rules_five_hundred_twenty_third/FIVE_HUNDRED_TWENTY_THIRD_REPORT.md`.
 
-Next, organize the 34 residual locus tables into record-level renderer sheets
-so a scribe can load one sheet per record without copying regular surfaces.
+Pass 524 bundles the 59 residual wrapper assignments into eleven record-level
+renderer sheets addressed by locus and input surface. Herbal sheets contain
+2/7/2/4/2 entries; Bio sheets 14/6/15/4/2/1. Regular forms are not copied. One
+sheet load at each record start replaces 34 locus loads, leaving eleven setup
+moments and 370 automatic cards. See
+`sidequest_semantic_record_renderer_sheets_five_hundred_twenty_fourth/FIVE_HUNDRED_TWENTY_FOURTH_REPORT.md`.
+
+Next, merge the eleven record sheets into seven page sheets while preserving
+record and locus addresses exactly.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
