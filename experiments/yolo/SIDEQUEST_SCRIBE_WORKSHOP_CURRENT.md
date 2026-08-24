@@ -9839,10 +9839,18 @@ licensed card. All 381 events/116 statements inherit the same short defaults.
 See
 `sidequest_semantic_short_workshop_dictionary_six_hundred_sixth/SIX_HUNDRED_SIXTH_REPORT.md`.
 
-Next, stress the four five-component cards and the hardest multi-card
-statements. Keep left-to-right composition where it produces natural workshop
-order; otherwise allow one explicit learned ordering or whole-card idiom rather
-than inflating the component meanings.
+Pass 607 stresses all four five-component and 21 four-component cards plus the
+twelve densest statements. All 25 long cards keep visible component order and
+add zero semantic values. Twenty are plain telegraph chains; PROC007 uses a
+DANACH...FORTSETZEN bracket, PROC033 co-refers its two DIES positions, PROC057
+pauses before SCHLUSS, PROC136 treats BEREIT as a state threshold, and PROC171
+retains a double-KURZ cadence. Dense statements are merely spoken in four-card
+chunks without reordering. See
+`sidequest_semantic_long_card_scope_six_hundred_seventh/SIX_HUNDRED_SEVENTH_REPORT.md`.
+
+Next, inspect the fourteen one-component cards and the learned specialist
+atoms. Decide which are true standalone workshop words and which are merely
+graphic abbreviations/allographs of an already shared component.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
