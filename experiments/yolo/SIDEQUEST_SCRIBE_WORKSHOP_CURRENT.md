@@ -8456,9 +8456,15 @@ weakest local sequence is B1-S018, where DSHEOL=EINREIBEN sits awkwardly
 between EMPFANGSGEFÄSS and SOLLSTAND. See
 `sidequest_semantic_b1_pool_article_four_hundred_twenty_ninth/FOUR_HUNDRED_TWENTY_NINTH_COMPLETE_B1.md`.
 
-Next, audit DSHEOL and its neighbouring application/preparation cards. Decide
-whether its compact value is EINREIBEN, AUSSTREICHEN, BESCHICHTEN or
-VORBEREITEN, then rewrite B1-S018 without changing the ten transferred cards.
+Pass 430 removes the awkward DSHEOL=EINREIBEN overreading. In B1-S018 the card
+sits between EMPFANGSGEFÄSS and SOLLSTAND, and its visible SH+E+OL structure
+reads economically as HALTEN+KURZ+FORTSETZEN. DSHEOL is now KURZ HALTEN, so the
+cell needs no invisible jump from vessel to body and back to collection. See
+`sidequest_semantic_dsheol_short_hold_four_hundred_thirtieth/FOUR_HUNDRED_THIRTIETH_REVISED_CELL.md`.
+
+Next, inspect the rest of B1's short hold, settle, warm and collect cards as a
+single process ladder. Test whether its repeated E/EE contrast predicts short
+versus longer residence at a pool station and rewrite every affected B1 cell.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
