@@ -10422,8 +10422,16 @@ operation. The final116 readings contain0 detected nominal fragments,0 doubled
 unchanged. See
 `sidequest_semantic_short_fragment_cleanup_six_hundred_seventy_fifth/SIX_HUNDRED_SEVENTY_FIFTH_REPORT.md`.
 
-Next, derive a compact medieval apprentice manual from the39-entry tablet:
-teaching order, composition rules, copy exceptions, and predictable new cards.
+Pass 676 derives a compact apprentice manual:9 lessons,16 rules,39 root entries,
+108 observed recipe signatures,3 memorized whole commands, and12 absent but
+readable compositions. The apprentice decides a semantic recipe, then copies
+the exact whole card from the master tablet; components are not freely spelled.
+The manual explicitly preserves picture ownership, Y-versus-DY, line
+continuation, and local q/s rendering. See
+`sidequest_semantic_apprentice_manual_six_hundred_seventy_sixth/SIX_HUNDRED_SEVENTY_SIXTH_REPORT.md`.
+
+Next, reverse the manual on representative Herbal and Bio instructions: start
+from German workshop intent, select components and exact card, then read back.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
