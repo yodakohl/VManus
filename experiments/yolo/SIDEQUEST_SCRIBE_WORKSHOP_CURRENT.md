@@ -9136,9 +9136,16 @@ next card through the five-state automaton generates every path directly. The
 entries remain: 71 decisions on 67 events, with 314 automatic cards. See
 `sidequest_semantic_emergent_programs_five_hundred_eighteenth/FIVE_HUNDRED_EIGHTEENTH_REPORT.md`.
 
-Next, split the 21 owner resets into automatic record-start initialization and
-genuine internal visible scene changes. Only the latter should remain a master
-decision.
+Pass 519 splits the 21 owner transitions into eleven automatic record-start
+initializations and ten internal visible scene shifts. The latter occur only in
+the complex Bio records: four in B2, four in B3 and two in B4. The master now
+makes fifty allograph-block entries and ten scene shifts: sixty decision
+instances on 57 events, leaving 324 automatic cards. See
+`sidequest_semantic_owner_initialization_five_hundred_nineteenth/FIVE_HUNDRED_NINETEENTH_REPORT.md`.
+
+Next, derive deterministic visual-entry cues for the ten internal Bio scene
+shifts. If every shift follows a visible threshold, remove free owner choice
+entirely and teach only the threshold rule.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
