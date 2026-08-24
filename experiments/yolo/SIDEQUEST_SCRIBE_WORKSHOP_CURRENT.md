@@ -8190,9 +8190,16 @@ requires no spelling similarity. This is the concrete mixed architecture:
 productive outer grammar plus learned specialist signs. See
 `sidequest_semantic_functional_nomenclator_deck_three_hundred_ninetieth/THREE_HUNDRED_NINETIETH_NOMENCLATOR_MANUAL.md`.
 
-Next, align the genuine H3 separation chain with the revised H4 practice chain
-by functional drawer. Mark shared stages, different cards and any H4 stage that
-has no real ten-page analogue.
+Pass 391 separates the genuine H3 chain, genuine H4 chain and the deliberately
+mixed teaching page. Only 2/7 upper cards are H4-native and 5/7 lower cards are
+B3-native; the apparent H3/teaching CPHY match was reused by design, not an
+independent discovery. The page is retained as a cross-register lesson, not a
+translation. See
+`sidequest_semantic_h3_h4_practice_provenance_three_hundred_ninety_first/THREE_HUNDRED_NINETY_FIRST_CORRECTION_NOTE.md`.
+
+Next, build an owner-faithful two-image copy using only genuine H4 statements
+above and one genuine B3 statement below. Permit registered renderer variation
+and line reflow, but no cross-register card borrowing.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
