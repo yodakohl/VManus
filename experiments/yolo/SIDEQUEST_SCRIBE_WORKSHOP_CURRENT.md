@@ -8692,10 +8692,19 @@ exposes five narrow prose words under Astro pressure: WATER, INGREDIENT,
 VESSEL, FILL and CLEAR EXTRACT. See
 `sidequest_semantic_astro_instruction_grammar_four_hundred_sixty_second/FOUR_HUNDRED_SIXTY_SECOND_REPORT.md`.
 
-Next, revise those five defaults across all ten pages to common atomic values:
-AIR=LAUF, HO=GABE, OS=FACH, T=EINTRAGEN and CHEEY/SHEY=ERGEBNIS. Keep water,
-ingredient, vessel, filling and clear extract only as wet-context expansions.
-Rebuild the full 776-group ten-page ledger and all prose/Astro readings.
+Pass 463 applies those five repairs across all ten pages. AIR is now LAUF,
+HO GABE, OS FACH, T EINTRAGEN and CHEEY/SHEY ERGEBNIS; watercourse,
+ingredient, vessel, filling and clear extract survive only as wet-context
+expansions. Twenty-one card types, twenty-eight prose events and thirty-six
+Astro groups change, while the complete 173-card/381-prose/395-Astro and
+776-group edition remains intact. See
+`sidequest_semantic_ten_page_common_roots_four_hundred_sixty_third/FOUR_HUNDRED_SIXTY_THIRD_REPORT.md`.
+
+Next, resolve the forty-one ambiguous Astro component sequences by visible
+within-locus position and the established component inventory. In particular,
+test Y versus DY as current item versus licensed endpoint, prefer a known
+multi-atom workshop component only where it yields one consistent composition,
+and leave genuinely local labels local rather than forcing a reading.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
