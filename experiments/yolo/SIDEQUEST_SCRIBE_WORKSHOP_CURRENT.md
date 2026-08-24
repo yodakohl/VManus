@@ -9555,8 +9555,17 @@ plant matter and forms a preparation batch. The other 364 events/112
 statements are unchanged, and all profiles/transitions are rebuilt. See
 `sidequest_semantic_plant_owner_case_correction_five_hundred_seventieth/FIVE_HUNDRED_SEVENTIETH_REPORT.md`.
 
-Next, use the corrected flows to write eleven natural record summaries with
-explicit starting material, transformations, and end product/open rest.
+Pass 571 writes eleven corrected start–process–end profiles: five open Herbal
+articles, four local Biological cell registers, and two technical appendices.
+H1–H5 start from pictured plant matter and end in an open preparation or
+application portion. B1–B4 close 83/93 cells and therefore represent adjacent
+station variants rather than four linear recipes or one global machine. B5–B6
+remain short open station notes. See
+`sidequest_semantic_natural_record_summaries_five_hundred_seventy_first/FIVE_HUNDRED_SEVENTY_FIRST_COMPLETE_RECORD_EDITION.md`.
+
+Next, align the five Herbal articles by internal article position—material,
+preparation, measure, application, and open continuation—to derive one shared
+Herbal article schema.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
