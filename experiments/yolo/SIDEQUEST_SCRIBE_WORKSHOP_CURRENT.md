@@ -8520,10 +8520,17 @@ Klarauszug card, not evidence that EY alone means clear. B2 now has eighteen
 new productive cards and thirteen local wholes. See
 `sidequest_semantic_b2_liquid_application_four_hundred_thirty_eighth/FOUR_HUNDRED_THIRTY_EIGHTH_SEQUENCE_CARD.md`.
 
-Next, close the last thirteen B2 whole cards. Test LDY, SOTAIIN, QOKAR,
-SOLSHEDY and LCHEDY compositionally; retain Seihtuch, same-setting, water,
-openings, equal portions and washing as whole cards where no clean prediction
-exists. Then publish the finished B2 apprentice deck.
+Pass 439 closes B2's dictionary. LDY, SOTAIIN, QOKAR, SOLSHEDY and LCHEDY join
+the productive layer, leaving four drawers: fourteen B1 transfers, twenty-three
+B2 compositions, one portable Klarauszug whole card and eight local whole
+cards. The local list is now exactly cloth, same setting, fresh/rinse water,
+first/second opening, equal portions and washing. See
+`sidequest_semantic_b2_apprentice_dictionary_four_hundred_thirty_ninth/FOUR_HUNDRED_THIRTY_NINTH_POCKET_MANUAL.md`.
+
+Next, transfer the combined B1+B2 deck into B3, the long f83r record. Preserve
+every shared exact value and all productive component rules, split real local
+image owners where needed, and complete every B3 event and statement before
+revising its new local cards.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
