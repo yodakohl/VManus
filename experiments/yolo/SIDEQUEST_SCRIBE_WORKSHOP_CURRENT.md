@@ -10493,9 +10493,16 @@ commands FACH and VERWAHREN remain pure memorization. Every rare card has an
 explicit KEEP/ADD/DROP/REPLACE lesson. See
 `sidequest_semantic_rare_recipe_teaching_six_hundred_eighty_fourth/SIX_HUNDRED_EIGHTY_FOURTH_REPORT.md`.
 
-Next, estimate the actual training schedule for a new scribe and produce a
-seven-day progression from the39 roots through common families rare variants
-and complete-record copying.
+Pass 685 gives a seven-day/42-hour supervised curriculum. Days1-4 introduce
+all39 short entries exactly once; days5-6 drill the common families,34 tabs,
+ten double rows and rare-card edits; day7 copies and reads H3, B1 and B6,92
+events across plant, shared basin and local station owners. Graduation means
+reliable open-copybook literacy, not memorizing230 surfaces. See
+`sidequest_semantic_seven_day_curriculum_six_hundred_eighty_fifth/SIX_HUNDRED_EIGHTY_FIFTH_REPORT.md`.
+
+Next, simulate the first complete commission given to a newly trained scribe:
+copy one Herbal and one Biological record from master dictation while logging
+every lookup, variant choice, owner carry and likely correction.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
