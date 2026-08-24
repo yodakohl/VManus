@@ -9685,9 +9685,15 @@ put in, steep again, enter the extract); H4 is measure/application heavy and H5
 is the longest gift/transfer sequence. All five remain open articles. See
 `sidequest_semantic_complete_herbal_articles_five_hundred_eighty_eighth/FIVE_HUNDRED_EIGHTY_EIGHTH_COMPLETE_HERBAL_PROSE.md`.
 
-Next, smooth B1–B6 as local station/application entries, not one global pipe
-system: B1–B4 remain adjacent closed-cell registers and B5–B6 short technical
-appendices, with all 281 events retained.
+Pass 589 resets B1–B6 as 97 local station/application entries with all 281
+events bound. Eighty-five entries close locally, including 83 in B1–B4; twelve
+remain open. B1–B4 are adjacent cell registers and B5–B6 technical appendices,
+with no global flow direction added. See
+`sidequest_semantic_complete_biological_station_register_five_hundred_eighty_ninth/FIVE_HUNDRED_EIGHTY_NINTH_COMPLETE_BIOLOGICAL_REGISTER.md`.
+
+Next, compare the five Herbal articles and six Biological records directly:
+test whether they form a shared WHAT/HOW workflow or merely reuse the same
+workshop grammar for independent pictured subjects.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
