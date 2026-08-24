@@ -10117,9 +10117,17 @@ Every card parse uses only these 39 words, so no additional independent card
 meaning is required. See
 `sidequest_semantic_learning_burden_six_hundred_thirty_sixth/SIX_HUNDRED_THIRTY_SIXTH_REPORT.md`.
 
-Next, extend the surface renderer from the 372 main-case events to all 381
-prose events including C6, then combine semantic and graphic burden into one
-complete apprentice curriculum.
+Pass 637 extends the surface writer to all 381 prose events. The complete
+curriculum writes 198 forms directly from card/desk rules, 161 through the
+body-wrapper renderer, three through compact supplementary rules, and nineteen
+events through seventeen local exception entries. C6 adds five direct forms,
+three renderer forms, and only one new local exception: E377 `daiin` at its
+second field opening. Every visible form round-trips exactly. See
+`sidequest_semantic_complete_surface_curriculum_six_hundred_thirty_seventh/SIX_HUNDRED_THIRTY_SEVENTH_REPORT.md`.
+
+Next, add the three Astro pages as a strictly separate copied lookup layer of
+395 groups, 142 loci, and 13 namespaces. Produce one ten-page apprentice
+handbook without importing Prose words, orientation, or an f68-f69 key.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
