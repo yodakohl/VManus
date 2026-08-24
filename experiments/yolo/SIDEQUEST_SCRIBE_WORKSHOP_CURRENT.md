@@ -9787,10 +9787,19 @@ liquid charges. No written folio pointer or one-to-one product/station pair is
 needed: this is a many-to-many product-class-to-workstation grammar. See
 `sidequest_semantic_product_station_compatibility_six_hundred_first/SIX_HUNDRED_FIRST_REPORT.md`.
 
-Next, write all six Biological records as concrete station programs with
-compatible Herbal products as interchangeable inputs, and compare the
-therapeutic bath/application reading with the practical bathhouse/washer
-reading without changing the card dictionary.
+Pass 602 writes all six Biological records as concrete station programs while
+preserving all 97 statements/281 events and sixteen local stations. B1, B2,
+and B4 lead as therapeutic bath/wash/poultice programs; B3 is a genuine mixed
+immersion/settling/application series; B5 and B6 are technical transfer,
+settling, collection, cooling, and feed appendices. Every step has both a
+therapeutic and bathhouse reading, but the best whole is a therapeutic
+bath/application core with a necessary technical workshop layer. See
+`sidequest_semantic_biological_station_programs_six_hundred_second/SIX_HUNDRED_SECOND_REPORT.md`.
+
+Next, combine the five Herbal product recipes and six Biological station
+programs into a small set of complete workshop cases: prepare product, choose
+a compatible station, apply or process it, and handle the residual charge.
+Keep the links class-based and many-to-many rather than inventing folio keys.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
