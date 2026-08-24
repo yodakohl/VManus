@@ -10644,10 +10644,19 @@ is retained, no new card or surface is invented, and semantic productivity is
 separated cleanly from licensed word formation. See
 `sidequest_semantic_multicard_paraphrase_seven_hundred_third/SEVEN_HUNDRED_THIRD_REPORT.md`.
 
-Next, mine the116 existing statements for recurrent two-/three-card phrases,
-group them by compact workshop reading, and rewrite the seven new paraphrases
-with the closest genuinely attested statement templates rather than merely
-concatenating individually known cards.
+Pass 704 mines the actual116 statements. Their265 inner card boundaries form55
+role bigrams;37 recurrent role templates cover247 boundaries, whereas only14
+exact card pairs recur and cover34. Thirty-three recurrent role trigrams cover
+111 positions, while only one exact card trigram repeats. All seven new
+two-card paraphrases now follow an attested role template. P19 is revised to
+BOUND_RESULT>QUANTITY and P21 to QUANTITY>FLOW, matching existing statement
+shapes without inventing a surface. See
+`sidequest_semantic_statement_phrasebook_seven_hundred_fourth/SEVEN_HUNDRED_FOURTH_REPORT.md`.
+
+Next, convert the five most frequent role templates into fillable workshop
+forms. Select several existing cards per slot, generate a small set of fresh
+plant/bath/apparatus instructions, and roundtrip each from plain German prompt
+to card roles to existing surface families and back.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these

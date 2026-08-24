@@ -1,0 +1,56 @@
+left_role	right_role	token_count	statement_count	record_count	page_count	recurrent	example_transitions
+QUANTITY_STAGE	CURRENT_ITEM	29	24	10	6	YES	H1-S001:daiin>etyd | H2-S001:cthaiin>qoctholy | H2-S001:taiin>shy | H2-S003:kaiiin>dy | H3-S001:shfydaiin>cphy
+CURRENT_ITEM	CURRENT_ITEM	28	19	8	6	YES	H2-S001:qoctholy>dy | H2-S001:dy>chy | H3-S001:cphy>shey | H3-S003:chy>kchy | H3-S003:kchy>dy
+CURRENT_ITEM	CLOSE_STEP	25	25	7	6	YES	H3-S001:shey>tchody | H4-S003:cheeky>oldy | H5-S002:choky>cheeckhody | B1-S002:chckhy>schedy | B1-S012:qokey>lshedy
+CURRENT_ITEM	QUANTITY_STAGE	19	17	8	6	YES	H1-S001:oky>daiin | H2-S001:chy>taiin | H2-S003:chy>kaiiin | H2-S003:dy>chodaiin | H3-S001:cfhy>shfydaiin
+CURRENT_ITEM	CONTINUE	13	11	7	6	YES	H1-S002:qokchy>qotchol | H3-S004:qotchy>okchol | H5-S006:otchey>keol | B1-S004:chedy>ol | B1-S008:chey>ol
+TARGET	CURRENT_ITEM	10	8	6	5	YES	H3-S001:schoal>cfhy | H4-S004:okal>oltchy | B1-S016:qokal>okeey | B2-S004:qokal>lcheckhy | B2-S006:qokal>sheckhy
+CONTINUE	CLOSE_STEP	8	8	2	2	YES	B1-S003:qol>sshkchdy | B1-S004:ol>shedy | B1-S008:ol>shedy | B1-S016:qol>cheedy | B1-S017:teol>dchdy
+CONTINUE	QUANTITY_STAGE	8	7	6	4	YES	H2-S002:chol>daiin | H5-S006:keol>daiin | B1-S002:ol>kain | B1-S018:dsheol>oiiin | B4-S011:okeeol>okain
+CONTINUE	CURRENT_ITEM	7	7	5	5	YES	H1-S001:otytchol>oky | H1-S002:chol>cthy | H3-S004:okchol>cthy | B1-S008:ol>cheky | B2-S005:octheol>chkeey
+CURRENT_ITEM	TARGET	7	6	5	4	YES	H5-S001:choky>dal | B1-S014:qolky>lchedal | B2-S006:oteey>qokal | B3-S006:chedchy>qokal | B3-S021:shcthy>dal
+QUANTITY_STAGE	QUANTITY_STAGE	7	5	4	4	YES	H4-S001:qokaiin>chaiin | H4-S001:chaiin>ykain | H4-S001:ykain>ykan | B1-S002:kain>olkain | B2-S005:qokaiin>qokaiin
+QUANTITY_STAGE	TARGET	7	6	4	3	YES	H4-S004:aiin>okal | B1-S002:olkain>al | B1-S002:daiin>qokeedal | B3-S004:qokaiin>qotal | B3-S021:saiin>shedal
+CURRENT_ITEM	PREPARATION	5	5	5	3	YES	H1-S001:dchey>cthoor | H2-S001:cthy>chor | H4-S004:oltchy>or | B3-S026:checthy>chealror | B6-S001:chey>ldalor
+OPEN_ACTION	CURRENT_ITEM	5	5	3	3	YES	H5-S001:cho>chodaly | H5-S003:cho>kchey | H5-S005:sho>chokchy | B1-S012:lsho>qokey | B2-S004:lched>qokeey
+PREPARATION	CURRENT_ITEM	5	5	4	4	YES	H2-S001:ycheor>cthy | H2-S003:chor>chy | H4-S004:or>y | H5-S001:otchor>choky | B4-S014:or>chey
+TARGET	CLOSE_STEP	5	5	2	2	YES	B2-S017:rsheal>daldy | B3-S002:qotal>chkeedy | B3-S006:qokal>olchedy | B3-S010:pchedal>otedy | B3-S020:dal>lchedy
+CONTINUE	CONTINUE	4	4	4	3	YES	H1-S002:qotchol>chol | H2-S002:otol>chol | B1-S002:ol>rol | B5-S003:cheol>lol
+QUANTITY_STAGE	CLOSE_STEP	4	4	4	4	YES	H4-S001:ykan>ody | B1-S018:oiiin>olkeedy | B2-S011:okain>qokeedy | B3-S032:otaiin>otedy
+QUANTITY_STAGE	SOURCE	4	4	3	3	YES	H2-S002:daiin>dar | H4-S003:ykaiin>cheoar | B2-S008:sotaiin>qokar | B2-S011:okain>char
+TARGET	CONTINUE	4	4	2	2	YES	B1-S002:al>ol | B1-S014:lchedal>qol | B1-S017:sal>teol | B5-S003:dal>cheol
+TARGET	SOURCE	4	4	4	3	YES	B1-S002:okal>sar | B2-S016:cheal>lchedar | B3-S004:qotal>dar | B4-S016:dal>skar
+CONTINUE	TARGET	3	3	3	3	YES	H3-S001:tshol>schoal | B1-S002:ol>sheckhal | B5-S003:lol>chdal
+CURRENT_ITEM	OPEN_ACTION	3	3	3	3	YES	H5-S004:okchy>chokcheo | B1-S006:shckhy>dl | B2-S004:lcheckhy>lched
+PREPARATION	CONTINUE	3	2	2	2	YES	H2-S002:chor>otol | H2-S002:cholor>chol | B1-S002:olor>ol
+PREPARATION	PREPARATION	3	2	1	1	YES	H2-S002:qotchor>chor | H2-S003:oykchor>shor | H2-S003:shor>chor
+QUANTITY_STAGE	CONTINUE	3	3	3	2	YES	B2-S005:qokaiin>octheol | B5-S003:aiin>sol | B6-S001:daiin>ol
+SOURCE	QUANTITY_STAGE	3	3	3	3	YES	H5-S005:kchoar>sotodan | B2-S011:char>okain | B3-S026:cheedar>chldaiin
+TARGET	QUANTITY_STAGE	3	2	2	2	YES	B1-S002:sheckhal>daiin | B1-S002:qokeedal>daiin | B5-S003:chdal>aiin
+CONTINUE	PREPARATION	2	2	2	2	YES	H2-S002:chol>cholor | H5-S001:kchol>otchor
+CURRENT_ITEM	WHOLE_COMMAND	2	2	2	2	YES	H1-S001:chty>os | H4-S002:chedy>talam
+FLOW	CLOSE_STEP	2	2	1	1	YES	B3-S014:okair>sheedy | B3-S030:schedair>otchedy
+OPEN_ACTION	TARGET	2	2	2	2	YES	H5-S004:chokcheo>kchal | B1-S006:dl>ral
+PREPARATION	CLOSE_STEP	2	2	1	1	YES	B3-S012:sor>shedy | B3-S026:chealror>solkeedy
+QUANTITY_STAGE	FLOW	2	2	2	2	YES	B1-S002:okaiin>kair | B3-S030:saiin>schedair
+SOURCE	CLOSE_STEP	2	2	2	2	YES	B2-S008:qokar>shedy | B4-S016:skar>shedy
+SOURCE	CURRENT_ITEM	2	2	2	2	YES	H1-S001:char>chty | H4-S003:cheoar>cheeky
+WHOLE_COMMAND	CURRENT_ITEM	2	2	2	2	YES	H3-S003:dchol>chy | H5-S002:schol>choy
+BOUND_RESULT	QUANTITY_STAGE	1	1	1	1	NO	B2-S016:ches>aiin
+CONTINUE	OPEN_ACTION	1	1	1	1	NO	B1-S002:rol>dl
+CONTINUE	SOURCE	1	1	1	1	NO	B1-S014:qol>otar
+CURRENT_ITEM	SOURCE	1	1	1	1	NO	H5-S005:chokchy>kchoar
+FLOW	CONTINUE	1	1	1	1	NO	H1-S001:chair>otytchol
+FLOW	TARGET	1	1	1	1	NO	B1-S002:kair>okal
+OPEN_ACTION	CLOSE_STEP	1	1	1	1	NO	B3-S016:lo>qokchedy
+OPEN_ACTION	CONTINUE	1	1	1	1	NO	H5-S001:sho>kchol
+OPEN_ACTION	OPEN_ACTION	1	1	1	1	NO	H5-S003:sh>cho
+OPEN_ACTION	PREPARATION	1	1	1	1	NO	B1-S002:dl>olor
+PREPARATION	OPEN_ACTION	1	1	1	1	NO	H5-S001:chochor>cho
+PREPARATION	QUANTITY_STAGE	1	1	1	1	NO	H2-S001:chor>cthaiin
+PREPARATION	SOURCE	1	1	1	1	NO	H1-S001:cthoor>char
+QUANTITY_STAGE	OPEN_ACTION	1	1	1	1	NO	H5-S001:daiin>sho
+SOURCE	BOUND_RESULT	1	1	1	1	NO	B2-S016:lchedar>ches
+SOURCE	CONTINUE	1	1	1	1	NO	B1-S002:sar>ol
+TARGET	TARGET	1	1	1	1	NO	B5-S003:shedal>dal
+WHOLE_COMMAND	FLOW	1	1	1	1	NO	H1-S001:os>chair
