@@ -9672,10 +9672,16 @@ four cards and cut early at a close when possible; fourteen end directly at a
 close. No event is omitted. See
 `sidequest_semantic_breath_group_masterbook_five_hundred_eighty_sixth/FIVE_HUNDRED_EIGHTY_SIXTH_LONG_STATEMENT_MASTERBOOK.md`.
 
-Next, reset the entire eleven-record readable edition using one uniform
-three-line layout per statement: visible cards, compact component speech, and
-the complete owner-filled instruction. Short formulas and long breath groups
-must use the same convention.
+Pass 587 resets all 116 statements in a uniform three-line edition: exact
+visible cards, their 37-value component speech, and the corrected complete
+owner-filled instruction. All 381 events are indexed once; short formulas use
+one group and the 22 long statements retain 45 breath groups. See
+`sidequest_semantic_uniform_three_line_edition_five_hundred_eighty_seventh/FIVE_HUNDRED_EIGHTY_SEVENTH_COMPLETE_THREE_LINE_EDITION.md`.
+
+Next, smooth the five Herbal records into continuous article prose using only
+this complete edition, preserving every card/action/argument in a companion
+interlinear. Then treat the six Biological records separately as station and
+application entries.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
