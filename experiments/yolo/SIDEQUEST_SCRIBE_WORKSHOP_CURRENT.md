@@ -10261,10 +10261,17 @@ events, while100 remain concrete local card stretches: small productive order
 grammar plus a majority exemplar layer. See
 `sidequest_semantic_motif_sentence_skeletons_six_hundred_fifty_third/SIX_HUNDRED_FIFTY_THIRD_REPORT.md`.
 
-Next, compare the local blocks around the three common skeleton families.
-Test whether pre-binder, post-binder, and pre-close slots prefer different
-concrete semantic classes, then rewrite only the slot contrasts that survive
-across source statements.
+Pass 654 classifies25 immediate source slots around the four open binders and
+two closing motifs. Six of8 pre-binder neighbours carry transition/operation,
+10/12 post-binder neighbours carry a material/quantity/address/state payload,
+and5/5 pre-close neighbours anchor a work item, target, or amount. The binder
+is best read as a process hand-off rather than UND; M04 is an anchored settling
+close and M07 an anchored transfer/long close. See
+`sidequest_semantic_slot_polarity_six_hundred_fifty_fourth/SIX_HUNDRED_FIFTY_FOURTH_REPORT.md`.
+
+Next, separate all motif occurrences at statement end by whether an exact
+close card is actually present. Split M09 into its open continuation and short
+closed branch; never turn a terminal M01 measure frame into punctuation.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
