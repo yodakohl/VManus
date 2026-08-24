@@ -8197,9 +8197,15 @@ independent discovery. The page is retained as a cross-register lesson, not a
 translation. See
 `sidequest_semantic_h3_h4_practice_provenance_three_hundred_ninety_first/THREE_HUNDRED_NINETY_FIRST_CORRECTION_NOTE.md`.
 
-Next, build an owner-faithful two-image copy using only genuine H4 statements
-above and one genuine B3 statement below. Permit registered renderer variation
-and line reflow, but no cross-register card borrowing.
+Pass 392 makes the owner-faithful replacement: all 18 cards of the four genuine
+H4 statements plus all seven cards of genuine B3-S026. Twelve surfaces change
+within registered palettes, one B3 statement crosses a line, and all 25 card
+identities reconstruct exactly with zero cross-register borrowing. See
+`sidequest_semantic_owner_faithful_copy_three_hundred_ninety_second/THREE_HUNDRED_NINETY_SECOND_OWNER_FAITHFUL_PAGE.md`.
+
+Next, decompose these 25 genuine cards with the current component and
+nomenclator manuals. Compare direct component coverage against the artificial
+four-cycle page and give a complete readable edition of all five statements.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
