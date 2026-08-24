@@ -9866,9 +9866,20 @@ long, until what state, and finished—while image and active case fill omission
 See
 `sidequest_semantic_eight_slot_paradigm_six_hundred_ninth/SIX_HUNDRED_NINTH_REPORT.md`.
 
-Next, use the common slot signatures to generate a small set of genuinely new
-component combinations, then search only the fixed ten pages for already
-present exact cards or close surface families. Keep failed predictions visible.
+Pass 610 generates twelve legal but absent semantic compounds from five
+productive grade grids and guesses their likely surfaces. Eleven guessed
+surfaces are absent; `lchedy` collides with the already existing L+CHD+DY card
+rather than the predicted L+E+DY. No card is promoted. Thus semantic composition
+is productive, but card surfaces cannot be freely concatenated: their
+realization remains codebook/allograph-bound. The missing rows also show that
+full-grade, target-grade, heating, and transfer paradigms are deliberately
+incomplete on these pages. See
+`sidequest_semantic_composition_predictions_six_hundred_tenth/SIX_HUNDRED_TENTH_REPORT.md`.
+
+Next, turn the incomplete grade grids into a concrete operations doctrine:
+which actions sensibly allow KURZ, LANG, or VOLL; which naturally demand a
+close; and which missing grades are practically unnecessary rather than lexical
+gaps.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
