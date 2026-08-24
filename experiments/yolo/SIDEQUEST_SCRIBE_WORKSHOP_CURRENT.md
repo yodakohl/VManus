@@ -9351,8 +9351,16 @@ E180/E181 remains two visible copies but executes once. All 173 card phrases
 retain the revised component values. See
 `sidequest_semantic_fluent_cross_line_edition_five_hundred_forty_fifth/FIVE_HUNDRED_FORTY_FIFTH_REPORT.md`.
 
-Next, turn the97 instructions into eleven continuous record articles using
-explicit anaphora for the inherited owner and current work item.
+Pass 546 turns the 97 instructions into eleven continuous record articles.
+Repeated explicit mentions of the current work item are shortened 268 times to
+anaphoric pronouns after the first mention in each record. All 381 visible
+events and instruction IDs remain present; eight record endings stay open and
+three remain closed. No component value changes. See
+`sidequest_semantic_anaphoric_record_articles_five_hundred_forty_sixth/FIVE_HUNDRED_FORTY_SIXTH_REPORT.md`.
+
+Next, mine recurrent multi-card sequences across records and pages, and test
+whether they can be taught as short workshop formulas without changing their
+component values.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
