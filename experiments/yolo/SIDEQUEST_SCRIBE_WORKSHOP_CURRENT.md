@@ -10059,10 +10059,20 @@ to the intended six commands. This is the first practical generative use of
 the current working deck beyond a verbatim source statement. See
 `sidequest_semantic_novel_apprentice_order_six_hundred_thirtieth/SIX_HUNDRED_THIRTIETH_REPORT.md`.
 
-Next, compose one new in-deck order for each C1-C5 branch, using its distinctive
-marker plus the common core. Check backward readability and whether the early
-case selector still identifies the intended branch outside the original
-openings. Add no word, card, surface, page, or Astro label.
+Pass 631 composes one new six-card exercise for each complete case branch.
+Every one of the thirty surfaces uniquely recovers its existing card and
+command; all five complete orders are absent from the source, and 24/25 card
+bigrams are also new. Despite that novelty, the early selector identifies C1
+through OS/ARBEITSFACH, C2 through three CTH/BEREIT cores, C3 through
+CFH/AUSWRINGEN, C4 through AN/NACHPORTION, and C5 through HO/ZUTAT. Thus the
+shared deck can generate new readable orders while preserving five distinct
+case identities. See
+`sidequest_semantic_five_branch_composition_six_hundred_thirty_first/SIX_HUNDRED_THIRTY_FIRST_REPORT.md`.
+
+Next, move each branch cue through the first five positions while holding the
+other cards fixed. Determine which moves preserve the intended reading and
+which reveal a position-bound construction. Add no word, card, surface, page,
+or Astro label.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
