@@ -8405,9 +8405,16 @@ share a general plant-preparation layer; H4 specializes in making/storing and
 H5 adds wash/apply/use. See
 `sidequest_semantic_h4_complete_preparation_four_hundred_twenty_second/FOUR_HUNDRED_TWENTY_SECOND_COMPLETE_H4.md`.
 
-Next, rebuild the actual H3 filtration record completely. Use its cloth,
-squeeze, settle, re-strain and clear-extract cards, then compare H3/H4/H5 as
-separation, preparation/storage and application articles.
+Pass 423 rebuilds all 17 H3 events. Its first statement is the complete chain
+BLÜTENKRAUT→SUD→AUSWRINGEN→STANDZEIT→NACHSEIHEN→KLARAUSZUG→ABKÜHLEN;
+WEINSUD is shortened to SUD. SHOYTY/QOTCHY become the learned pair RESERVE
+SETZEN/NEHMEN. H3/H4/H5 now specialize in filtration, preparation/storage and
+application on one shared grammar. See
+`sidequest_semantic_h3_complete_filtration_four_hundred_twenty_third/FOUR_HUNDRED_TWENTY_THIRD_COMPLETE_H3.md`.
+
+Next, rebuild H2 completely and compare its press split/rejoin with H3's
+reserve set/recall. Decide whether both use a portable multi-product register
+or only locally memorized article structure.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
