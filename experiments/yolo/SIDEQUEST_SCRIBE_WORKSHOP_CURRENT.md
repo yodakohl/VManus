@@ -8795,11 +8795,19 @@ The result contains 116 concise prose statements, 142 owner-addressed Astro
 loci and fourteen continuous unit editions, still totaling 776 groups. See
 `sidequest_semantic_readable_compression_four_hundred_seventy_fifth/FOUR_HUNDRED_SEVENTY_FIFTH_REPORT.md`.
 
-Next, classify every prose event into a small practical phase—SELECT, PREPARE,
-MEASURE, MOVE, APPLY, HOLD, CHECK, COLLECT or CLOSE—and segment the eleven prose
-records only where the phase genuinely changes. Compare Herbal and Biological
-phase order, then use recurrent phase transitions to improve whole-workflow
-translations without inventing new nouns.
+Pass 476 classifies all 381 prose events into eight action phases plus terminal
+CLOSE and yields 327 contiguous phase segments. MEASURE→MOVE is the strongest
+shared transition (18), followed by MOVE→PREPARE (11), MOVE→MEASURE (10) and
+PREPARE→MEASURE (9). Twenty-four transition types cross registers, covering
+57.1% of Herbal but only 34.3% of Biological types: a common workshop skeleton
+exists, but no rigid universal recipe order. Astro remains independent
+LOCATE→READ→RECORD per locus. See
+`sidequest_semantic_workflow_phases_four_hundred_seventy_sixth/FOUR_HUNDRED_SEVENTY_SIXTH_REPORT.md`.
+
+Next, turn the strongest shared two- and three-phase motifs into reusable
+sentence templates. Locate every exact occurrence, preserve its concrete
+referents, and compare the resulting Herbal and Bio sentences. This should
+distinguish genuine learned syntax from merely frequent isolated actions.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
