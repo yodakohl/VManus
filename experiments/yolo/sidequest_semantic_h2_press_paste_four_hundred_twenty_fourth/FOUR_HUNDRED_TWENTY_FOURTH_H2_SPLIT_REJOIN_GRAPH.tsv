@@ -1,0 +1,8 @@
+step	node_or_edge	value	from	to
+1	INPUT	Spitzen	picture owner	Ansatz
+2	OPERATION	zerstoßen	Ansatz	crushed material
+3	SPLIT	abpressen	crushed material	PRODUCT_A|PRODUCT_B
+4	BRANCH_A	dies A; Mass	PRODUCT_A	PREPARATION_A
+5	BRANCH_B	dies B; Fortsetzung	PRODUCT_B	PREPARATION_B
+6	REJOIN	Ansatz A + Ansatz B	PREPARATION_A|PREPARATION_B	glazed vessel mixture
+7	SETTING	weicher Sollstand	glazed vessel mixture	Paste

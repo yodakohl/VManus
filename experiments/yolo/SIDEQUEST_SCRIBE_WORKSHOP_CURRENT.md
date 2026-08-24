@@ -8412,9 +8412,18 @@ SETZEN/NEHMEN. H3/H4/H5 now specialize in filtration, preparation/storage and
 application on one shared grammar. See
 `sidequest_semantic_h3_complete_filtration_four_hundred_twenty_third/FOUR_HUNDRED_TWENTY_THIRD_COMPLETE_H3.md`.
 
-Next, rebuild H2 completely and compare its press split/rejoin with H3's
-reserve set/recall. Decide whether both use a portable multi-product register
-or only locally memorized article structure.
+Pass 424 rebuilds all 24 H2 events. ZERSTOSSEN→ABPRESSEN opens two anonymous
+Y products, locally press liquid and residue; parallel continuation keeps both
+alive, and two adjacent OR/ANSATZ cards rejoin them in the glazed vessel.
+WEICHER SOLLSTAND leads to the final learned product PASTE, replacing the old
+sentence-sized Geschwür gloss. H2 and H3 share a multiproduct register but use
+different branch cards. See
+`sidequest_semantic_h2_press_paste_four_hundred_twenty_fourth/FOUR_HUNDRED_TWENTY_FOURTH_COMPLETE_H2.md`.
+
+Next, combine H1-H5 into one complete Herbal article grammar. Publish the five
+translations side by side, separate common productive slots from local learned
+nouns, and identify the weakest remaining card in each article for the next
+revision.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
