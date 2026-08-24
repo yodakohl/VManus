@@ -9638,9 +9638,15 @@ vocabulary, while the pictured plant, basin, figure, device, or station remains
 a separate silent owner. See
 `sidequest_semantic_spoken_core_dictionary_five_hundred_eighty_first/FIVE_HUNDRED_EIGHTY_FIRST_THIRTY_EIGHT_SPOKEN_CORE_DICTIONARY.tsv`.
 
-Next, test likely synonym pairs (LS/OL, K/P, CH/CHD, AIIN/IIN, AL/OS) by their
-compositions and contexts. Merge only speech values that preserve a distinct
-graphic or grammatical use; otherwise write a minimal contrast pair.
+Pass 582 reduces the spoken inventory to 37 distinct values. LS and OL both
+mean “fort,” with LS as a free continuation signal and OL as a bound connector.
+Four minimal contrasts remain necessary: K/P = add/add into, CH/CHD = draw
+off/transfer, AIIN/IIN = measure/grade, and AL/OS = destination/compartment.
+The 38 graphic components remain distinct. See
+`sidequest_semantic_minimal_contrast_pairs_five_hundred_eighty_second/FIVE_HUNDRED_EIGHTY_SECOND_FIVE_MINIMAL_CONTRAST_DECISIONS.tsv`.
+
+Next, collect recurrent two- and three-component speech formulas and turn them
+into a compact apprentice phrasebook for generating the 116 instructions.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
