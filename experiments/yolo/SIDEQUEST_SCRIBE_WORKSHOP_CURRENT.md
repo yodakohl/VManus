@@ -8055,9 +8055,16 @@ three pair decisions. These are teaching palettes, not historical hand labels.
 See
 `sidequest_semantic_two_palette_crossread_three_hundred_seventieth/THREE_HUNDRED_SEVENTIETH_TWO_PALETTE_EDITION.md`.
 
-Next, fit the two palettes into different residual widths. Give each exactly one
-intra-cycle anticipation copy, forbid copying at the real cycle boundary and
-recover eight source cards from nine visible forms per layout.
+Pass 371 fits the compact palette into width 20 and the expanded one into width
+30. Each has three lines, one real cycle boundary and one intra-cycle
+anticipation copy: `cheky` in A and `qokeey` in B. Eighteen visible forms reduce
+to sixteen source cards, while the slot drop from target 5 to measure 2 always
+forbids copying. See
+`sidequest_semantic_two_residual_layouts_three_hundred_seventy_first/THREE_HUNDRED_SEVENTY_FIRST_TWO_LAYOUTS.md`.
+
+Next, hide the SOURCE/ANTICIPATION labels and boundary decisions. Let a
+corrector recover both eight-card sources using only identity, owner, slot
+sequence and the visible line margins.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
