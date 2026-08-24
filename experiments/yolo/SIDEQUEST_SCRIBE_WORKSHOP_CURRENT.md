@@ -8550,9 +8550,16 @@ joins the productive deck. B3 finishes with 26 transfers, 18 compositions and
 eight local whole cards. See
 `sidequest_semantic_b3_local_tournament_four_hundred_forty_second/FOUR_HUNDRED_FORTY_SECOND_FINAL_B3_READING.md`.
 
-Next, transfer the combined B1/B2/B3 dictionary into B4. Preserve every exact
-value, keep the real f83r local owner connections, complete every B4 event and
-statement, and isolate only the genuinely new B4 cards before revising them.
+Pass 443 transfers nineteen known types into 32 of B4's 47 events and completes
+all sixteen statements. Fifteen new singleton types remain. B4 is split at the
+visible E356 reset into two local owner zones; S015 continues across that image
+change without implying a global pipe network. See
+`sidequest_semantic_b4_station_article_four_hundred_forty_third/FOUR_HUNDRED_FORTY_THIRD_COMPLETE_B4.md`.
+
+Next, attack all fifteen B4 singleton cards. Test graded warmth, follow-item,
+fasten, cloth, opening, continuation, passage, flowing-liquid and collection
+compositions; remove unsupported first/second/lower/warm labels wherever the
+known components supply a simpler concrete instruction.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
