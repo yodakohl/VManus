@@ -9876,10 +9876,18 @@ full-grade, target-grade, heating, and transfer paradigms are deliberately
 incomplete on these pages. See
 `sidequest_semantic_composition_predictions_six_hundred_tenth/SIX_HUNDRED_TENTH_REPORT.md`.
 
-Next, turn the incomplete grade grids into a concrete operations doctrine:
-which actions sensibly allow KURZ, LANG, or VOLL; which naturally demand a
-close; and which missing grades are practically unnecessary rather than lexical
-gaps.
+Pass 611 turns those gaps into an action-specific doctrine. Nine of seventeen
+actions take grades: OK/ANSETZEN has KURZ/LANG/VOLL; CH, CHK, L, SH and SOLK
+take KURZ/LANG; T takes KURZ/VOLL; K and LSH take only KURZ. Eight actions are
+point/result operations needing no own grade: CFH, CHD, LD, P, R, S, SHED and
+TALAM. Fifty-four grade tokens on 53 card types receive a scope; the nearest
+action owns the grade, with the preceding action winning ties. No permitted
+action-grade cell remains unobserved. See
+`sidequest_semantic_action_grade_doctrine_six_hundred_eleventh/SIX_HUNDRED_ELEVENTH_REPORT.md`.
+
+Next, compile action+grade+endpoint into one small command table and substitute
+the exact same short command everywhere in the six cases, leaving objects and
+locations to the case layer.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
