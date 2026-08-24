@@ -8169,9 +8169,17 @@ valid marked `cheky` carry, a valid image-owner handoff and an invalid
 carry once, resets the owner once and changes exactly the endpoint card. See
 `sidequest_semantic_owner_carry_component_correction_three_hundred_eighty_seventh/THREE_HUNDRED_EIGHTY_SEVENTH_CORRECTED_PAGE.md`.
 
-Next, remove the board calls and give a reader only the corrected page, image
-owners, carry mark and compact component manual. Inventory what can be read
-directly, what needs a learned whole card and what still depends on the picture.
+Pass 388 removes every board call. Nine of fourteen cards backread through the
+compact component manual, five require learned whole-card values, and all
+fourteen require H4/B3 picture arguments for concrete nouns. The readable
+pipeline is surface → card/components → atomic workshop value → image argument.
+See
+`sidequest_semantic_boardless_layered_reading_three_hundred_eighty_eighth/THREE_HUNDRED_EIGHTY_EIGHTH_BOARDLESS_EDITION.md`.
+
+Next, attack the five learned cards as a local process chain: CHEOAR,
+CHEKY, LCHEEY, CPHY and TALAM. Look for transferable cores in the ten-page
+dictionary, but retain a whole card wherever the decomposition changes its
+short value.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
