@@ -7965,9 +7965,16 @@ owner. The sole carry collapses two visible forms to one source card, giving 380
 source positions without treating line ends as sentences. See
 `sidequest_semantic_seven_page_continuous_reading_three_hundred_fifty_eighth/THREE_HUNDRED_FIFTY_EIGHTH_ELEVEN_CONTINUOUS_RECORDS.md`.
 
-Next, turn the 57-line continuous edition into a full master dictation: for each
-line state owner and incoming material, speak one concrete German instruction,
-then show its surfaces and whether the next physical line continues or resets.
+Pass 359 turns all 57 lines into a full master dictation. Each line now states
+visible owner, incoming material, concrete slot instructions, surface cards,
+outgoing material and next-line action. It covers 381 visible cards, 380 spoken
+source cards, 116 statements and eleven records; 21 lines alter the material
+state. E180 is written only as anticipation and spoken at E181. See
+`sidequest_semantic_full_master_dictation_three_hundred_fifty_ninth/THREE_HUNDRED_FIFTY_NINTH_COMPLETE_MASTER_DICTATION.md`.
+
+Next, compress the dictation into eleven fluent modern German record readings,
+each followed by the literal card sequence and an explicit list of which nouns
+come from picture/owner rather than from a card.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
