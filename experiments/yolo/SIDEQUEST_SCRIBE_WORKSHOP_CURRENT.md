@@ -9609,9 +9609,16 @@ is portable for 162 cards; eleven require the visible owner/slot to select the
 concrete verb. See
 `sidequest_semantic_gloss_free_reconstruction_five_hundred_seventy_seventh/FIVE_HUNDRED_SEVENTY_SEVENTH_REPORT.md`.
 
-Next, resolve those eleven context-dependent cards into one invariant abstract
-operation plus a small owner-conditioned fill, without introducing new whole
-words.
+Pass 578 resolves all eleven context-dependent cards and their seventy events
+without new whole meanings. Each card keeps one invariant abstract operation;
+nine owner/slot fills select concrete wording such as enter versus flow in,
+transfer versus measure-and-transfer, or hold active versus apply. Forty events
+use the base operation unchanged and thirty use a visible fill. See
+`sidequest_semantic_context_card_resolution_five_hundred_seventy_eighth/FIVE_HUNDRED_SEVENTY_EIGHTH_REPORT.md`.
+
+Next, integrate the 38 components, 56 frames, and nine owner/slot fills into one
+compact parser that produces both the abstract card reading and a natural
+statement reading for all 381 prose events.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
