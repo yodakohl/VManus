@@ -10245,9 +10245,17 @@ frame, visible as `chey daiin chey` and `chy taiin shy`; it licenses a two-sided
 Sollmass frame, not equality or an *ana* gloss. See
 `sidequest_semantic_source_motifs_six_hundred_fifty_first/SIX_HUNDRED_FIFTY_FIRST_REPORT.md`.
 
-Next, map the immediate source predecessor and successor around all28 selected
-motif instances. Classify each motif as entry, medial frame, branch, or close
-and retain only attachment rules seen in the actual25 statements.
+Pass 652 maps the exact left and right source neighbour around all28 motif
+instances. Their positions are6 entry,13 medial,8 close,1 whole statement. M04
+continue-close is3/3 final and M07 transfer-long-close2/2 final; M05 is2/2
+medial. M02/M03/M06/M08 occur12 times and always pass into a right neighbour.
+M01 is a mobile measure frame, while M09 alone occurs at entry, medial, close,
+and as a whole statement. See
+`sidequest_semantic_motif_attachment_grammar_six_hundred_fifty_second/SIX_HUNDRED_FIFTY_SECOND_REPORT.md`.
+
+Next, reduce the25 source statements to role skeletons. Preserve individual
+card stretches as counted local inserts and ask for the smallest teachable
+binder-frame-bridge-close template that round-trips every source order.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these

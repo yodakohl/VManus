@@ -1,0 +1,88 @@
+# Anschlussgrammatik der neun Quellmotive
+
+Die Motive werden hier nicht verlängert. Kartiert werden nur ihre direkt sichtbaren linken und rechten Nachbarn in den 25 echten Aussagen.
+
+## M01_ITEM_MEASURE_FRAME — MOBILE_MEASURE_FRAME
+
+darf am Anfang, in der Mitte oder am Ende stehen; keine feste Nachbarkarte.
+
+Positionen: ENTRY 1, MEDIAL 2, CLOSE 2, WHOLE 0.
+
+## M02_SET_ITEM_MEASURE — OPEN_MEASURE_SETUP
+
+beginnt oder erweitert eine Aussage und gibt stets nach rechts weiter.
+
+Positionen: ENTRY 1, MEDIAL 1, CLOSE 0, WHOLE 0.
+
+## M03_PREPARATION_ITEM — OPEN_PREPARATION_BINDER
+
+bindet den Ansatz an den Posten und gibt stets nach rechts weiter.
+
+Positionen: ENTRY 1, MEDIAL 2, CLOSE 0, WHOLE 0.
+
+## M04_CONTINUE_CLOSE — CLOSING_TAIL
+
+steht in allen drei Quellen am Aussageende und nimmt nur links Anschluss.
+
+Positionen: ENTRY 0, MEDIAL 0, CLOSE 3, WHOLE 0.
+
+## M05_MEASURE_CONTINUATION — MEDIAL_BRIDGE
+
+steht in beiden Quellen zwischen einer linken und rechten Karte.
+
+Positionen: ENTRY 0, MEDIAL 2, CLOSE 0, WHOLE 0.
+
+## M06_FEED_CONTINUATION — CONTINUATION_FEEDER
+
+beginnt oder erweitert eine Aussage und führt stets in eine rechte Fortsetzung.
+
+Positionen: ENTRY 1, MEDIAL 4, CLOSE 0, WHOLE 0.
+
+## M07_TRANSFER_LONG_CLOSE — CLOSING_TAIL
+
+steht in beiden Quellen am Aussageende und nimmt nur links Anschluss.
+
+Positionen: ENTRY 0, MEDIAL 0, CLOSE 2, WHOLE 0.
+
+## M08_PORTION_TARGET — OPEN_TARGET_BINDER
+
+beginnt oder erweitert eine Aussage und gibt stets nach rechts weiter.
+
+Positionen: ENTRY 1, MEDIAL 1, CLOSE 0, WHOLE 0.
+
+## M09_LONG_SET_BRANCH — MOBILE_BRANCH_CAPSULE
+
+ist als ganze Aussage sowie am Anfang, in der Mitte und am Ende belegt.
+
+Positionen: ENTRY 1, MEDIAL 1, CLOSE 1, WHOLE 1.
+
+# 28 Quellanschlüsse
+
+- **H1-S001 MEDIAL**: `otytchol` → `oky daiin` → `etyd` — DANACH [ARBEITSPOSTEN EINTRAGEN · ABNEHMEN] FORTSETZEN → **POSTEN ANSETZEN, DANN SOLLMASS** → KURZ · EINTRAGEN · ARBEITSPOSTEN
+- **H2-S001 CLOSE**: `dy` → `chy taiin shy` → `EOF` — ARBEITSPOSTEN → **LAUFENDER POSTEN IM SOLLMASS-RAHMEN** → AUSSAGEENDE
+- **H2-S002 MEDIAL**: `chol` → `cholor chol` → `daiin` — FORTSETZEN → **VORLAUF, ZIEL ODER UMSETZUNG IN DIE FORTSETZUNG FUEHREN** → SOLLMASS
+- **H2-S003 MEDIAL**: `shor` → `chor chy` → `kaiiin` — ANSATZ → **ANSATZ AUF DEN LAUFENDEN POSTEN BEZIEHEN** → ZUDOSIEREN · ARBEITSSTUFE
+- **H3-S003 CLOSE**: `kchy` → `dy daiin` → `EOF` — ZUDOSIEREN · ARBEITSPOSTEN → **LAUFENDER POSTEN IM SOLLMASS-RAHMEN** → AUSSAGEENDE
+- **H4-S004 MEDIAL**: `oltchy` → `or y` → `orain` — FORTSETZEN · EINTRAGEN · ARBEITSPOSTEN → **ANSATZ AUF DEN LAUFENDEN POSTEN BEZIEHEN** → ANSATZ · PORTION
+- **B1-S002 MEDIAL**: `kain` → `olkain al` → `ol` — ZUDOSIEREN · PORTION → **PORTION ZUDOSIEREN UND AN DIE ZIELSTELLE GEBEN** → FORTSETZEN
+- **B1-S002 MEDIAL**: `dl` → `olor ol` → `sheckhal` — WEITERLEITEN → **VORLAUF, ZIEL ODER UMSETZUNG IN DIE FORTSETZUNG FUEHREN** → HALTEN · KURZ · DURCHLASSKANAL · ZIELSTELLE
+- **B1-S004 ENTRY**: `BOF` → `chedy ol` → `shedy` — AUSSAGEANFANG → **VORLAUF, ZIEL ODER UMSETZUNG IN DIE FORTSETZUNG FUEHREN** → ABSETZEN; SCHLUSS
+- **B1-S008 CLOSE**: `cheky` → `ol shedy` → `EOF` — WAERMEN · KURZ · ARBEITSPOSTEN → **FORTSETZEN, ABSETZEN UND SCHLIESSEN** → AUSSAGEENDE
+- **B1-S016 CLOSE**: `okeey` → `qol cheedy` → `EOF` — ANSETZEN · LANG · ARBEITSPOSTEN → **FORTSETZEN, ABSETZEN UND SCHLIESSEN** → AUSSAGEENDE
+- **B2-S010 ENTRY**: `BOF` → `qokeey qoky` → `ls` — AUSSAGEANFANG → **NACH LANGEM ANSETZEN WEITERSETZEN ODER KURZ SCHLIESSEN** → FORTSETZEN
+- **B2-S012 MEDIAL**: `lcheey` → `daiin chey` → `qokeeedy` — WEITERLEITEN · LANG · ARBEITSPOSTEN → **LAUFENDER POSTEN IM SOLLMASS-RAHMEN** → ANSETZEN · VOLL; SCHLUSS
+- **B3-S003 ENTRY**: `BOF` → `chey daiin chey` → `lchedy` — AUSSAGEANFANG → **LAUFENDER POSTEN IM SOLLMASS-RAHMEN** → WEITERLEITEN · UMSETZEN; SCHLUSS
+- **B3-S007 CLOSE**: `qokaiin` → `chedy qokeedy` → `EOF` — ANSETZEN · SOLLMASS → **POSTEN UMSETZEN UND LANG ANSETZEN; SCHLUSS** → AUSSAGEENDE
+- **B3-S021 MEDIAL**: `dal` → `sy saiin` → `shedal` — ZIELSTELLE → **LAUFENDER POSTEN IM SOLLMASS-RAHMEN** → ABSETZEN · ZIELSTELLE
+- **B3-S028 WHOLE_STATEMENT**: `BOF` → `qokeey qokedy` → `EOF` — AUSSAGEANFANG → **NACH LANGEM ANSETZEN WEITERSETZEN ODER KURZ SCHLIESSEN** → AUSSAGEENDE
+- **B3-S030 ENTRY**: `BOF` → `qoky saiin` → `schedair` — AUSSAGEANFANG → **POSTEN ANSETZEN, DANN SOLLMASS** → UMSETZEN · FLUESSIGKEITSLAUF
+- **B4-S002 CLOSE**: `qolchey` → `qokeey qokedy` → `EOF` — FORTSETZEN · ARBEITSPOSTEN → **NACH LANGEM ANSETZEN WEITERSETZEN ODER KURZ SCHLIESSEN** → AUSSAGEENDE
+- **B4-S003 MEDIAL**: `otchey` → `qokeey qoky` → `tol` — DANACH · ARBEITSPOSTEN → **NACH LANGEM ANSETZEN WEITERSETZEN ODER KURZ SCHLIESSEN** → FORTSETZEN
+- **B4-S003 CLOSE**: `qoky` → `tol shedy` → `EOF` — ANSETZEN · ARBEITSPOSTEN → **FORTSETZEN, ABSETZEN UND SCHLIESSEN** → AUSSAGEENDE
+- **B4-S005 CLOSE**: `dain` → `chedy qokeedy` → `EOF` — PORTION → **POSTEN UMSETZEN UND LANG ANSETZEN; SCHLUSS** → AUSSAGEENDE
+- **B4-S011 MEDIAL**: `okain` → `chdy sol` → `lkedy` — ANSETZEN · PORTION → **VORLAUF, ZIEL ODER UMSETZUNG IN DIE FORTSETZUNG FUEHREN** → WEITERLEITEN · ZUDOSIEREN · KURZ; SCHLUSS
+- **B4-S014 ENTRY**: `BOF` → `or chey` → `qockhey` — AUSSAGEANFANG → **ANSATZ AUF DEN LAUFENDEN POSTEN BEZIEHEN** → ARBEITSGANG · DURCHLASSKANAL · KURZ · ARBEITSPOSTEN
+- **B4-S016 ENTRY**: `BOF` → `qolkain dal` → `skar` — AUSSAGEANFANG → **PORTION ZUDOSIEREN UND AN DIE ZIELSTELLE GEBEN** → ZUDOSIEREN · VORRAT
+- **B5-S003 MEDIAL**: `shedal` → `dal cheol` → `lol` — ABSETZEN · ZIELSTELLE → **VORLAUF, ZIEL ODER UMSETZUNG IN DIE FORTSETZUNG FUEHREN** → WEITERLEITEN · FORTSETZEN
+- **B5-S003 MEDIAL**: `chdal` → `aiin sol` → `daiiin` — UMSETZEN · ZIELSTELLE → **SOLLMASS UND FORTSETZUNG DIREKT KOPPELN** → ZWEITMARKER · ARBEITSSTUFE
+- **B6-S001 MEDIAL**: `raly` → `ol daiin` → `ol` — KUEHLEN · ZIELSTELLE · ARBEITSPOSTEN → **SOLLMASS UND FORTSETZUNG DIREKT KOPPELN** → FORTSETZEN
