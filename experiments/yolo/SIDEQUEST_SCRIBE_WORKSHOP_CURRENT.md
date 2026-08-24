@@ -8685,10 +8685,17 @@ and 113 remain local labels. Fifty of 142 loci read fully, forty-four mix
 operators and local names, and forty-eight are local-only. See
 `sidequest_semantic_astro_component_transfer_four_hundred_sixty_first/FOUR_HUNDRED_SIXTY_FIRST_REPORT.md`.
 
-Next, turn those 142 loci into an Astro instruction grammar. Classify each as
-operation, parameter/address, mixed local-name instruction or local-name only;
-then write one controlled reading for each of the three instruments without
-inventing orientation, celestial proper names or an f68-f69 key.
+Pass 462 classifies all Astro loci: thirty-five complete operations,
+twenty-eight mixed name-plus-operation, fifteen complete parameter/address,
+sixteen mixed name-plus-parameter and forty-eight local-name-only. It also
+exposes five narrow prose words under Astro pressure: WATER, INGREDIENT,
+VESSEL, FILL and CLEAR EXTRACT. See
+`sidequest_semantic_astro_instruction_grammar_four_hundred_sixty_second/FOUR_HUNDRED_SIXTY_SECOND_REPORT.md`.
+
+Next, revise those five defaults across all ten pages to common atomic values:
+AIR=LAUF, HO=GABE, OS=FACH, T=EINTRAGEN and CHEEY/SHEY=ERGEBNIS. Keep water,
+ingredient, vessel, filling and clear extract only as wet-context expansions.
+Rebuild the full 776-group ten-page ledger and all prose/Astro readings.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
