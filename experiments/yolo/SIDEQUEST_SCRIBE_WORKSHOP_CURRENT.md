@@ -9981,9 +9981,19 @@ C2's one. The text therefore carries a useful mild wash/ground-extract versus
 divided full-treatment follow-up distinction without a new word. See
 `sidequest_semantic_c1_c2_contrast_six_hundred_twenty_second/SIX_HUNDRED_TWENTY_SECOND_REPORT.md`.
 
-Next, compare C5 and C6. C6 has no dedicated Herbal preparation; test whether
-its short B6 text is a genuine continuation of C5's prepared stock or a
-separate technical appendix that merely reuses common modules.
+Pass 623 compares C5 and C6. C5 has nine statements/38 events; C6 only one
+open statement/nine events. They share ten components but only two exact cards;
+C6 is neither a component nor card subset of C5. C5 prepares, transfers, holds,
+and closes. C6 alone introduces R/KUEHLEN and SOLK/AUFFANGEN, then doses and
+continues without closure. C6 is therefore revised from a fixed inherited-C5
+stock to an optional open cooling/collecting/dosing appendix: compatible with
+C5 material, but not visibly bound to it. See
+`sidequest_semantic_c5_c6_contrast_six_hundred_twenty_third/SIX_HUNDRED_TWENTY_THIRD_REPORT.md`.
+
+Next, order the six corrected cases into complete preparation/application
+pairs, variants, and optional appendices. Then reattach the three Astro pages
+only as separate choice/address instruments, without translating their labels
+or inventing a cross-page key.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
