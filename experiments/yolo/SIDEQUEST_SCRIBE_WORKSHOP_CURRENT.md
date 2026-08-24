@@ -8371,9 +8371,16 @@ again, or denselben Posten. The B2 pattern OKAIN→DASSELBE→OKAIN is the clear
 ditto-like use; surface variation does not change the card. See
 `sidequest_semantic_same_card_four_hundred_seventeenth/FOUR_HUNDRED_SEVENTEENTH_POCKET_RULE.md`.
 
-Next, audit the B2 double OKAIN construction around DASSELBE. Decide whether
-AIN is one portion, a fill, or one part of a pair, and determine whether the
-sequence repeats one addition or joins two distinct ingredients.
+Pass 418 confirms AIN=PORTION across sixteen events and seven exact cards:
+OK+AIN adds one portion, OL+AIN another, OR+AIN an Ansatzportion, CHED+AIN
+transfers one and Y+AIN selects this portion. B2-S011 therefore gives two equal
+portions from the same source sequentially, then holds longer and closes. AIN,
+AIIN and IIN are now PORTION, MASS and SOLLSTAND respectively. See
+`sidequest_semantic_ain_double_portion_four_hundred_eighteenth/FOUR_HUNDRED_EIGHTEENTH_POCKET_RULE.md`.
+
+Next, use B2-S003 and all productive Y/CHY cases to check whether Y simply
+inherits the just-created item. Rewrite the shortest complete
+PORTION→Y→long-hold cell and identify any case where Y needs a noun of its own.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
