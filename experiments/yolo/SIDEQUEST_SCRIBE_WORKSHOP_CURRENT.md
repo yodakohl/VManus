@@ -10731,10 +10731,18 @@ on an exception list. This is a renderer/copying preference, not a meaning
 split, so all four semantic merges and the163-family inventory stand. See
 `sidequest_semantic_boundary_carrier_seven_hundred_thirteenth/SEVEN_HUNDRED_THIRTEENTH_REPORT.md`.
 
-Next, integrate the boundary-carrier preference with the existing owner trays,
-surface renderer and five older local surface overrides over all381 events.
-Keep semantic-family selection, exact-card selection and visible-allograph
-selection as separate layers, then count whether any exception events overlap.
+Pass 714 integrates meaning, exact-copy-card and surface rendering over all381
+events. The163 semantic families choose a unique exact card at310 events, a
+fixed owner/record subfamily at36, and the boundary-carrier default at30; five
+card-subfamily slips remain. Once the exact card is known, seven renderer rules
+and18 owner trays select376/381 surfaces, with five other surface slips. The two
+five-item exception sets do not overlap: the unassisted full chain matches
+371/381 and ten local notes restore381/381. See
+`sidequest_semantic_integrated_copy_manual_seven_hundred_fourteenth/SEVEN_HUNDRED_FOURTEENTH_REPORT.md`.
+
+Next, compare the ten exception slips against local line pressure, repeated
+neighbor, immediate close, owner restart and hand-style carry. Seek at most two
+or three short corrector rules; preserve any remainder as true exemplar notes.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
