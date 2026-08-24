@@ -9481,9 +9481,17 @@ record melody; it reproduces 381/381 surfaces without an event/locus choice
 table. See
 `sidequest_semantic_record_wrapper_melodies_five_hundred_sixty_first/FIVE_HUNDRED_SIXTY_FIRST_REPORT.md`.
 
-Next, merge meaning composition, exact-card allographs, formula cadences, and
-record melodies into one compact apprentice manual, then regenerate the
-continuous German working translation from that executable system.
+Pass 562 merges the complete system into 22 apprentice rules in six lessons:
+visible owner, sentence slots, 38 components and 56 action frames, 173 atomic
+cards, eleven allograph rules, eleven formula cadences, nine record melodies,
+and eight wrapper stamps. All 381 events traverse owner→clause→components→card
+→surface; exact card and surface both round-trip 381/381 across 116 statements
+and eleven records. See
+`sidequest_semantic_integrated_apprentice_manual_five_hundred_sixty_second/FIVE_HUNDRED_SIXTY_SECOND_REPORT.md`.
+
+Next, regenerate a continuous German working translation of all eleven prose
+records from this integrated manual, keeping card meanings short and letting
+silent owners and sentence frames supply the readable expansion.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these

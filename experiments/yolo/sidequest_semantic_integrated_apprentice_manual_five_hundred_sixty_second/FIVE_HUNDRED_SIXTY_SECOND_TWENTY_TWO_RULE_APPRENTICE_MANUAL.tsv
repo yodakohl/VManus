@@ -1,0 +1,23 @@
+rule_no	lesson	layer	rule_key	instruction_de
+R01	L01	BILD	OWNER	Lies zuerst den sichtbaren Pflanzen-, Becken-, Gefäß- oder Stationsbesitzer; er bleibt meist stumm.
+R02	L01	BILD	RESET	Bei einem sichtbaren Besitzerwechsel setze den Arbeitsgegenstand neu, auch mitten in einer geschriebenen Aussage.
+R03	L02	SATZ	ACTION	Wähle den kleinsten konkreten Handlungskern aus dem Komponentenlexikon.
+R04	L02	SATZ	SOURCE	Setze AR für Quelle, AIR für laufende Flüssigkeit und L+CHED für Abführung.
+R05	L02	SATZ	TARGET	Setze AL für Zielstelle und P+CHED für Zuführung in einen Empfänger.
+R06	L02	SATZ	QUANTITY	Setze AIIN für Sollmaß oder AIN für eine abgeteilte Portion.
+R07	L02	SATZ	ITEM	Setze Y oder CHY, wenn der laufende Posten ausdrücklich wieder aufgenommen wird.
+R08	L02	SATZ	ORDER	Setze OT für Folge und OL für Fortsetzung oder Rückgriff.
+R09	L02	SATZ	GRADE	Setze E, EE oder EEE für kurz, länger oder vollständig.
+R10	L02	SATZ	STATE	Setze gelernte Zustände wie CTH bereit, SHED absetzen oder CHK wärmen.
+R11	L02	SATZ	CLOSE	Schließe nur mit einer lizenzierten terminalen Kartenkonstruktion; sichtbares dy allein ist kein sicherer Schluss.
+R12	L03	KARTE	COMPOSE	Lies die Komponenten in Werkstattreihenfolge und rufe den atomaren Wert der ganzen Karte ab.
+R13	L03	KARTE	FRAME	Benutze die 56 kurzen Aktionsrahmen, um breite Kerne im jeweiligen Quellen-, Ziel- und Zustandsrahmen zu konkretisieren.
+R14	L03	KARTE	WHOLE	Bleibt eine Karte gelernt, verwende ihren kurzen Ganzwert; er darf die Komponentenregel nicht rückwirkend verändern.
+R15	L04	ALLOGRAPH	DIRECT	Hat die Komponentenfolge nur eine Karte, nimm diese direkt.
+R16	L04	ALLOGRAPH	CHOICE	Bei den elf geteilten Folgen wende Nachbar-, Record- oder die eine Drei-Lokus-Regel an.
+R17	L05	OBERFLAECHE	GLOBAL	Schreibe die globale Kartenform, wenn keine Oberflächenregel anspringt.
+R18	L05	OBERFLAECHE	CONTEXT	Wende einen der vier unmittelbaren Wrapperwechsel an, wenn sein Kartenkontext sichtbar ist.
+R19	L05	OBERFLAECHE	CADENCE	Bei einer der elf gelehrten Formeln rezitiere ihre Wrapperkadenz.
+R20	L05	OBERFLAECHE	MELODY	Sonst nimm den nächsten Platz der am Recordanfang geladenen Wrappermelodie.
+R21	L06	LAYOUT	LINE	Breche an der freien Bildkante um; ein Zeilenende beendet die Aussage nicht.
+R22	L06	LAYOUT	READBACK	Lies Bildbesitzer, Komponenten, atomare Karte und Oberfläche rückwärts; jede Stufe muss wieder erreichbar sein.
