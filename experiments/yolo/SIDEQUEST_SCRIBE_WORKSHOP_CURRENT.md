@@ -8678,11 +8678,17 @@ the displayed text contains none of the superseded same, cloth, warm or raw
 readings. See
 `sidequest_semantic_current_prose_edition_four_hundred_sixtieth/FOUR_HUNDRED_SIXTIETH_CURRENT_SEVEN_PAGE_PROSE.md`.
 
-Next, return to the three fixed Astro pages. Compare all 395 local groups with
-the final thirty-five prose components by exact visible card or unambiguous
-component sequence. Preserve every Astro namespace and do not force a prose
-meaning where only a diagram-local label exists. Produce a three-instrument
-reading showing exactly what transfers and what remains a local name.
+Pass 461 transfers the prose deck onto the three Astro pages. Eighty-nine of
+395 groups match one unique full prose surface and 152 more have one shortest
+component parse. Thus 241 groups transfer; forty-one stay component-ambiguous
+and 113 remain local labels. Fifty of 142 loci read fully, forty-four mix
+operators and local names, and forty-eight are local-only. See
+`sidequest_semantic_astro_component_transfer_four_hundred_sixty_first/FOUR_HUNDRED_SIXTY_FIRST_REPORT.md`.
+
+Next, turn those 142 loci into an Astro instruction grammar. Classify each as
+operation, parameter/address, mixed local-name instruction or local-name only;
+then write one controlled reading for each of the three instruments without
+inventing orientation, celestial proper names or an f68-f69 key.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
