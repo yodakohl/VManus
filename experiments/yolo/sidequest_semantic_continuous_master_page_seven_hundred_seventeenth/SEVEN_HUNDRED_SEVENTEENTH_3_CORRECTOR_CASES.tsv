@@ -1,0 +1,4 @@
+error_id	location	error_kind	bad_reading	visible_or_docket_cue	correction	meaning_change
+ME1	FD03/MP012	MISSED_OWNER_HANDOFF	PLANT bleibt Besitzer	expliziter BASIN-Besitzer vor FD03	BASIN als aktiven Besitzer setzen	NO__OWNER_BINDING_ONLY
+ME2	FD12/MP022	PREMATURE_OWNER_HANDOFF	APPARATUS beginnt schon bei FD12	APPARATUS-Handoff steht erst vor FD07	FD12 bei BASIN lassen; erst FD07 auf APPARATUS wechseln	NO__OWNER_BINDING_ONLY
+ME3	LINE1_END/MP004	FALSE_LINE_CLOSE	physische Zeile schliesst FD02 nach OK+Y	FD02 verlangt danach noch K+HO+AR und hat keine Schlusskarte	offenen Zustand ueber die Zeile tragen	NO__BOUNDARY_ONLY

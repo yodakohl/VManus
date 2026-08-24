@@ -10758,10 +10758,17 @@ therefore usable for forward composition, not only retrospective description.
 See
 `sidequest_semantic_fresh_docket_copy_seven_hundred_sixteenth/SEVEN_HUNDRED_SIXTEENTH_REPORT.md`.
 
-Next, arrange the twelve dockets as one continuous master-page exercise with
-two explicit picture-owner handoffs and physical line breaks inside clauses.
-Track current owner and open/closed work so that the corrector can locate any
-bad handoff without changing meanings.
+Pass 717 arranges those twelve dockets as one continuous five-line master page.
+The27 events retain the silent owner order PLANT→BASIN→APPARATUS with exactly2
+handoffs. Four statements cross a physical line boundary. A corrector repairs
+three deliberate errors—a missed handoff, a premature handoff and a false
+line-end close—using only the visible owner cue and still-open docket. No card,
+surface or meaning changes. See
+`sidequest_semantic_continuous_master_page_seven_hundred_seventeenth/SEVEN_HUNDRED_SEVENTEENTH_REPORT.md`.
+
+Next, recopy the five-line master page in a second attested scribal surface
+style. Change only licensed allographs; require all27 exact cards,12 statement
+boundaries,2 owner handoffs and4 cross-line continuations to backread unchanged.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these

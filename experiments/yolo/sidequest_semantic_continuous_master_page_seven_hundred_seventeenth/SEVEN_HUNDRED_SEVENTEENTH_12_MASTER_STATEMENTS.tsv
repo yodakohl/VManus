@@ -1,0 +1,13 @@
+master_statement_no	docket_id	owner	owner_handoff_before	docket_de	lines_used	crosses_line	component_sequence	card_sequence	surface_sequence	backreading_de
+1	FD01	PLANT	NO	Locus beginnt: aktuellen Posten ansetzen; vorgeschriebenes Mass nennen.	1	NO	OK+Y > AIIN	PROC011 > PROC009	okchy aiin	ANSETZEN · DIES; MASS
+2	FD02	PLANT	NO	Neue Zutat nennen; diesen Posten ansetzen; aus der Zutatquelle nehmen.	1|2	YES	HO > OK+Y > K+HO+AR	PROC052 > PROC011 > PROC063	cho okchy kchoar	ZUTAT; ANSETZEN · DIES; ZUDOSIEREN · ZUTAT · QUELLE
+3	FD05	PLANT	NO	Mass nennen; Posten umsetzen; im Gefaess verwahren.	2	NO	AIIN > CHD+Y > TALAM	PROC009 > PROC042 > PROC043	aiin chdy talam	MASS; UMSETZEN · DIES; VERWAHREN
+4	FD08	PLANT	NO	Mass nennen; Umsetzung kompakt schliessen; Ansatz nennen.	2|3	YES	AIIN > CHD+DY > OR	PROC009 > PROC094 > PROC016	aiin dchdy or	MASS; UMSETZEN · SCHLUSS; ANSATZ
+5	FD03	BASIN	YES	Mass nennen; aktuellen Posten ansetzen; Zielstelle nennen.	3	NO	AIIN > OK+Y > AL	PROC009 > PROC008 > PROC055	aiin oky al	MASS; ANSETZEN · DIES; ZIEL
+6	FD04	BASIN	NO	Schritt schliessen; Posten wieder aufnehmen; an Zielstelle ansetzen.	3|4	YES	CHD+DY > CHD+Y > OK+AL	PROC076 > PROC133 > PROC048	dchedy chedchy okal	UMSETZEN · SCHLUSS; UMSETZEN · DIES; ANSETZEN · ZIEL
+7	FD06	BASIN	NO	Am neuen Locus den Umsetzungsschritt schliessen.	4	NO	CHD+DY	PROC076	dchedy	UMSETZEN · SCHLUSS
+8	FD09	BASIN	NO	Posten kurz eintragen; laufenden Ansatz-Umsetzungsschritt schliessen.	4	NO	T+E+Y > OK+CHD+DY	PROC090 > PROC091	ytey okchedy	EINTRAGEN · KURZ · DIES; ANSETZEN · UMSETZEN · SCHLUSS
+9	FD10	BASIN	NO	Selbstaendige geschlossene Ansatz-Umsetzungskarte.	4	NO	OK+CHD+DY	PROC082	qokchdy	ANSETZEN · UMSETZEN · SCHLUSS
+10	FD12	BASIN	NO	Schritt am Locusanfang schliessen; umsetzen; Mass nennen, aber kein Ziel folgt.	4|5	YES	CHD+DY > CHD+Y > AIIN	PROC076 > PROC042 > PROC009	dchedy chdy aiin	UMSETZEN · SCHLUSS; UMSETZEN · DIES; MASS
+11	FD07	APPARATUS	YES	Durchlass am Posten; danach Umsetzung schliessen.	5	NO	CKH+Y > CHD+DY	PROC075 > PROC076	chckhy dchedy	DURCHLASS · DIES; UMSETZEN · SCHLUSS
+12	FD11	APPARATUS	NO	Selbstaendige geschlossene Ansatz-Umsetzungskarte am Locusanfang.	5	NO	OK+CHD+DY	PROC082	qokchdy	ANSETZEN · UMSETZEN · SCHLUSS
