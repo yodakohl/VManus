@@ -8650,11 +8650,17 @@ cross-register cards cover 44 Herbal and 92 Biological events with no value
 collision. Only HO and CHEO are Herbal-exclusive content signs. See
 `sidequest_semantic_combined_prose_manual_four_hundred_fifty_sixth/FOUR_HUNDRED_FIFTY_SIXTH_REPORT.md`.
 
-Next, resolve the nine exact-card alias families. Keep their shared small
-meaning, but find the shortest record, position, endpoint or neighbor rule that
-tells an apprentice which exact card to write. If no visible rule separates a
-pair, retain it honestly as a memorized allograph instead of inventing a second
-meaning.
+Pass 457 resolves all nine same-value exact-card families. Small meaning alone
+chooses 325 events; four immediate-context rules choose twenty-four, a
+statement-entry resumption rule chooses twenty-one, and four learned record
+allographs choose eleven. The reverse writer therefore recovers all 381 exact
+card IDs without adding a second meaning. See
+`sidequest_semantic_alias_selection_four_hundred_fifty_seventh/FOUR_HUNDRED_FIFTY_SEVENTH_APPRENTICE_RULES.md`.
+
+Next, attack the ten memorized whole cards as the remaining lexical core.
+Enumerate all eighteen occurrences, compare honest component parses and one
+concrete rival meaning for each, and retain a whole word only when composition
+would leave an unexplained sign or break its contexts.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
