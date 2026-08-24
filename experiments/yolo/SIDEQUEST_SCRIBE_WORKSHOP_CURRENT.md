@@ -9747,10 +9747,18 @@ surface, and local use. A unified 776-row trace has no empty line and keeps
 Astro free of Prose-value imports. See
 `sidequest_semantic_interleaved_teaching_edition_five_hundred_ninety_sixth/FIVE_HUNDRED_NINETY_SIXTH_REPORT.md`.
 
-Next, run the edition backwards as a workshop corrector: from image owner and
-surface recover card, spoken value, and local instruction, and inventory the
-remaining ambiguities rather than hiding them behind the successful forward
-copy routine.
+Pass 597 runs the edition backward. Prose surfaces recover 381/381 cards and
+spoken values; 92 statement sequences are unique, seventeen need the visible
+owner, and seven are harmless repeats of the same owner/instruction, leaving
+zero functional ambiguity after the owner is read. Astro differs: 140/395
+fragments collide, but 137 full loci are surface-unique, two need namespace,
+and three need image owner, resolving all 142 addresses. See
+`sidequest_semantic_backward_corrector_five_hundred_ninety_seventh/FIVE_HUNDRED_NINETY_SEVENTH_REPORT.md`.
+
+Next, trace the current material/state through all eleven Prose records: retain
+it across genuine continuations, reset it at visible owner changes, and write
+complete practical process chains without turning adjacent stations into one
+imaginary global pipe network.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these

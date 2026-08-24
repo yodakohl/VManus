@@ -1,0 +1,13 @@
+step	operation	instruction_de
+1	DECLARE_REGISTER	Prosa oder Astro vor dem Lesen ausrufen
+2	PROSE_SURFACE_LOOKUP	sichtbare Prosaform in der 230er Palette suchen
+3	RECOVER_CARD	eine eindeutige Kartenidentitaet und Komponentenfolge ausgeben
+4	SPEAK_VALUE	den invarianten kurzen Werkstattwert sprechen
+5	GROUP_STATEMENT	Karten bis zur lokalen Aussagegrenze sammeln; Zeilenrand ignorieren
+6	SHOW_OWNER	Pflanze, Figur, Becken oder Station zeigen
+7	EXPAND_INSTRUCTION	Sprechwerte mit dem sichtbaren Besitzer zur lokalen Handlung erweitern
+8	ALLOW_RECURRENCE	gleiche Karte am gleichen Besitzer darf dieselbe Anweisung mehrfach setzen
+9	ASTRO_GROUP	Astrofragmente nicht einzeln lesen; vollstaendigen Locus bilden
+10	ASTRO_NAMESPACE	lokalen Rad-/Paneelnamensraum ausrufen
+11	ASTRO_OWNER	bei verbleibender Kollision den exakten Bildort zeigen
+12	MASTER_VALUE	konkreten Himmelswert aus dem lokalen Exemplar holen, nicht aus der Oberflaeche erfinden
