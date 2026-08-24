@@ -9498,10 +9498,17 @@ values remain short; silent visual owners supply the nouns, and line endings
 remain mere spatial wraps. See
 `sidequest_semantic_continuous_working_translation_five_hundred_sixty_third/FIVE_HUNDRED_SIXTY_THIRD_COMPLETE_GERMAN_WORKING_TRANSLATION.md`.
 
-Next, mine the eleven translations for recurrent historical recipe and
-bathhouse formulae, replacing the remaining generic `Posten`,
-`Arbeitsflüssigkeit`, `einsetzen`, and `umsetzen` only where repeated card
-sequences force a more concrete action.
+Pass 564 corrects over-smoothing in that readable edition. It speaks all 237
+action events and all 144 argument/state events in order across all 116
+statements. Fifty-four generic frames are narrowed: OK+AIIN becomes fill to
+the prescribed measure, OK+AIN fill one portion, Herbal OK+Y put plant matter
+into the preparation, CHD+Y ladle/transfer within a station, CHD+DY pass to the
+next station, and Herbal SH let steep. See
+`sidequest_semantic_action_complete_translation_five_hundred_sixty_fourth/FIVE_HUNDRED_SIXTY_FOURTH_COMPLETE_ACTION_TRANSLATION.md`.
+
+Next, bundle the 116 complete action strings into a small set of recurring
+workshop recipes such as CHARGE–ROUTE–CLOSE and HOLD–SETTLE–DRAIN, while
+preserving every constituent action.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
