@@ -8955,8 +8955,16 @@ flower-herb/wine/restrain/clear-extract story is retained only as an optional
 expansion, not card content. The manual falls from 169 to 168 items. See
 `sidequest_semantic_h3_wring_receive_four_hundred_ninety_fourth/FOUR_HUNDRED_NINETY_FOURTH_REPORT.md`.
 
-Next, reconstruct seven-card B3-S026 and test whether source measure, addition,
-readiness and long collection also eliminate a learned local form.
+Pass 495 removes B3-S026 from the local deck as well. E285–E290 compose at the
+margin station as source conduction, discharge measure, transfer, portion,
+readiness and local cooling. After the large visible gap, E291 starts a fresh
+local object at the arch-pair station and says only longer collect/close.
+Workflow syntax crosses the gap; owner and material do not. The manual falls
+from 168 to 167 items without inventing a hidden pipe. See
+`sidequest_semantic_b3_two_station_decomposition_four_hundred_ninety_fifth/FOUR_HUNDRED_NINETY_FIFTH_REPORT.md`.
+
+Next, reconstruct six-card H4-S004 and test full decomposition through plant
+preparation, portion, warmth and target.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
