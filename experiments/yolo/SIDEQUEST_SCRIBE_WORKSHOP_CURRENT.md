@@ -9316,8 +9316,18 @@ composition. The workflow is image owner -> component cards -> grade/endpoint
 -> licensed wrapper -> reverse readback. See
 `sidequest_semantic_executable_workshop_manual_five_hundred_forty_first/FIVE_HUNDRED_FORTY_FIRST_REPORT.md`.
 
-Next, expand the twelve instructions under the two surviving book purposes and
-compare which purpose requires fewer silent content insertions.
+Pass 542 expands the twelve new instructions under both surviving purposes.
+Herbal is tied. Biological needs fewer silent additions under the practical
+material/bathhouse reading. Overall the technical expansion uses nineteen
+unsupplied content terms versus twenty-three for medical: five local technical
+wins, one medical win (the fastening/application cell), six ties. The working
+prose lead becomes a wet-workshop book with medically usable plant/body
+applications, not an exclusively therapeutic codex. Card values do not change.
+See
+`sidequest_semantic_dual_purpose_expansion_five_hundred_forty_second/FIVE_HUNDRED_FORTY_SECOND_REPORT.md`.
+
+Next, reconnect the three Astro pages and compare medical election tables with
+a general work/bathhouse almanac without importing prose card values.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
