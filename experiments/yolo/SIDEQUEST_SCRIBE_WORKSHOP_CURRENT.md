@@ -8297,9 +8297,16 @@ SHECTHY remains a learned one-event state card. Bath and vessel expansions now
 share identical small card values. See
 `sidequest_semantic_b3_phase_b_lexicon_four_hundred_sixth/FOUR_HUNDRED_SIXTH_REVISED_HANDOFF.md`.
 
-Next, read all of B5-S003 as a second tempering station around SHEDAL, LOL,
-CHDAL and AIIN. Decide whether it confirms Absetzstelle as a portable workshop
-term and whether its final DAIIN-CHEDY is a second stage of the same charge.
+Pass 407 reads all nine B5-S003 events at the visible left open fringe station.
+SHEDAL starts a warm settling/holding step; AL/OL/LOL/CHDAL/AIIN work the charge
+at a target and measure; DAIIIN selects a second opening; nonterminal CHEDY
+works the charge onward. B5 therefore confirms the station grammar but hands
+the item forward instead of closing it. See
+`sidequest_semantic_b5_settling_station_four_hundred_seventh/FOUR_HUNDRED_SEVENTH_CONTINUOUS_B5_READING.md`.
+
+Next, isolate IIN-bearing station cards, especially DAIIIN, DAIIN, IIN and the
+K/SH variants. Build a small paradigm that separates work stage or opening from
+AIIN/Sollmaß and decide whether B5's second-opening reading is teachable.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
