@@ -8489,10 +8489,17 @@ All 43 exact cards, 66 events and 21 cells are covered, and no card value is
 longer than five words. See
 `sidequest_semantic_b1_apprentice_dictionary_four_hundred_thirty_fourth/FOUR_HUNDRED_THIRTY_FOURTH_POCKET_MANUAL.md`.
 
-Next, transfer the complete B1 apprentice deck to B2. Keep every shared exact
-card and component value fixed, let f82r supply only new local station nouns,
-and produce a full event/cell/statement reading of B2 before revising any
-portable value.
+Pass 435 transfers fourteen exact B1 cards unchanged into 24 of B2's 62
+events and completes all 22 B2 statements over five image-local station zones.
+The remaining 32 exact cards form the f82r deck. SHECKHY is the first new value
+predicted directly from the grammar: SH+E+CKH+Y=DIES KURZ DURCHFUEHREN, replacing
+the vague UEBER DER STELLE. See
+`sidequest_semantic_b2_station_article_four_hundred_thirty_fifth/FOUR_HUNDRED_THIRTY_FIFTH_COMPLETE_B2.md`.
+
+Next, attack the B2-only transfer families LCHECKHY, LCHED, LCHECKHEDY,
+QOKALY, LCHEDAR, PCHEDY and LOCHEDY. Extend the B1 source-path-target grammar
+only where the visible pieces predict a concrete value, and shrink the B2
+local deck accordingly.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
