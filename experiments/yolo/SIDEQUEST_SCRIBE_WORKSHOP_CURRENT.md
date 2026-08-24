@@ -10359,8 +10359,16 @@ SH+EE+Y = longer hold the current item, not inherently clear extract or water.
 Expanded coverage is93 cards/212 events. See
 `sidequest_semantic_sh_hold_grid_six_hundred_sixty_seventh/SIX_HUNDRED_SIXTY_SEVENTH_REPORT.md`.
 
-Next, close the compact wet-process sequence around LSH washing, CFH wringing,
-P filling, and their hold/draw-off neighbours.
+Pass 668 closes three short wet-process verbs across6 cards/7 events:
+P=EINFUELLEN, LSH=WASCHEN, CFH=AUSWRINGEN. P composes with current item,
+transfer-close, and transfer-target; LSH has open and short-closed cells; CFH is
+a one-card operation. The repaired f11r chain is wring, hold to measure, fill
+the receiver, hold longer, draw off/close—no invisible second filter or
+inherent clarity word. Four new cards/five events raise coverage to97/217. See
+`sidequest_semantic_wet_process_verbs_six_hundred_sixty_eighth/SIX_HUNDRED_SIXTY_EIGHTH_REPORT.md`.
+
+Next, consolidate the direction and address layer (L, OL, OT, AL, AR, AIR) so
+every process verb uses the same source-path-target grammar.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
