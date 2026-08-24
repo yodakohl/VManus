@@ -8657,10 +8657,16 @@ allographs choose eleven. The reverse writer therefore recovers all 381 exact
 card IDs without adding a second meaning. See
 `sidequest_semantic_alias_selection_four_hundred_fifty_seventh/FOUR_HUNDRED_FIFTY_SEVENTH_APPRENTICE_RULES.md`.
 
-Next, attack the ten memorized whole cards as the remaining lexical core.
-Enumerate all eighteen occurrences, compare honest component parses and one
-concrete rival meaning for each, and retain a whole word only when composition
-would leave an unexplained sign or break its contexts.
+Pass 458 attacks all ten memorized whole cards. CHAR/DAR/SAR becomes free
+AR=VON DORT; DAIN becomes free AIN=PORTION instead of invisible cloth; LOL
+becomes L+OL=WEITERFUEHREN instead of invisible warmth; QEKY becomes
+E+K+E+Y=DIES KURZ ZUFUEHREN instead of invisible rawness. Thus 167 card types
+and 372 events compose; six whole cards cover nine events. See
+`sidequest_semantic_whole_card_reduction_four_hundred_fifty_eighth/FOUR_HUNDRED_FIFTY_EIGHTH_REPORT.md`.
+
+Next, fold the two new alias pairs, DL/LOL and KCHEY/QEKY, into the reverse
+writer. Recompute the exact selection partition over all 381 events and retain
+the two pairs as record allographs unless a shorter neighboring rule appears.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
