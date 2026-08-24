@@ -9658,9 +9658,17 @@ composition. Thus fifteen formulas plus sixteen small insertion/substitution
 rules directly cover 94/116 statements. See
 `sidequest_semantic_formula_variant_absorption_five_hundred_eighty_fourth/FIVE_HUNDRED_EIGHTY_FOURTH_REVISED_ONE_HUNDRED_SIXTEEN_FORMULA_MAP.tsv`.
 
-Next, write the twelve genuinely free statements as complete master examples
-and decide whether they reveal two or three useful new formulas or remain
-deliberately article-/station-specific long instructions.
+Pass 585 corrects Pass 579/580's readable-statement bug: that column had copied
+only the first event's paraphrase, so Pass 580's 552-word/all-slots claim is
+withdrawn. The corrected edition speaks all 237 action and 144 argument/state
+events across all 116 statements and binds all 381 events. The component,
+phrase, and 73/21/10/12 formula results are unaffected because they used the
+complete event and phase tables. See
+`sidequest_semantic_full_statement_correction_five_hundred_eighty_fifth/FIVE_HUNDRED_EIGHTY_FIFTH_ELEVEN_RECORD_FULL_COMPACT_EDITION.md`.
+
+Next, split the ten two-edit variants and twelve free master examples into
+readable breath groups while preserving every action and argument; do not
+compress them by dropping cards.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
