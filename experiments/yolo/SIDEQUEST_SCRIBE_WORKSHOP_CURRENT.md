@@ -9424,9 +9424,18 @@ eleven have two observed senses and three have three. This is the strongest
 current fit to a mixed productive-abbreviation plus learned-card system. See
 `sidequest_semantic_canonical_working_dictionary_five_hundred_fifty_fourth/FIVE_HUNDRED_FIFTY_FOURTH_REPORT.md`.
 
-Next, inspect the eleven context-sensitive cards occurrence by occurrence and
-decide whether each sense split is genuinely useful or whether one still more
-atomic verb can cover all of its frames.
+Pass 555 shows that the eleven moving cards are atomically stable after all.
+Each has one teachable workshop value, while the sentence frame supplies local
+verbs at seventy visible events. Thus all 173 cards are atomic-context-stable;
+eleven retain multiple useful context expansions. Examples are OK+Y “bring
+the current item into use” -> apply/insert/start-flow, and L+CHD+DY
+“forward, transfer, close” -> drain/route/decant by frame. See
+`sidequest_semantic_atomic_card_unification_five_hundred_fifty_fifth/FIVE_HUNDRED_FIFTY_FIFTH_REPORT.md`.
+
+Next, test the revised dictionary as a scribe-training system: teach the 38
+components, three whole cards, five formulas and attachment rules, then encode
+and decode representative Herbal and Biological instructions without looking
+up exact-card prose.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
