@@ -9227,8 +9227,16 @@ card, and H1's `ready this` leads into H2's `this draw-short preparation`.
 Thirty-eight events form five statements and eight article stages. See
 `sidequest_semantic_f10_two_section_article_five_hundred_thirtieth/FIVE_HUNDRED_THIRTIETH_REPORT.md`.
 
-Next, publish a complete five-record Herbal working edition with one invariant
-interlinear value per exact card and fluent article readings.
+Pass 531 publishes the complete Herbal working edition: four pictured-plant
+articles, five records, nineteen statements, one hundred events and 66 exact
+card types. Each exact card has one invariant reading; ten card types cross
+record boundaries unchanged. PROC009/AIIN=`measure` occurs nine times across
+all five records. All events have concrete source clauses and no plant species,
+disease, body part or unmarked liquid is inserted. See
+`sidequest_semantic_complete_herbal_edition_five_hundred_thirty_first/FIVE_HUNDRED_THIRTY_FIRST_REPORT.md`.
+
+Next, build a complete B1/f81v basin/application process using the same fixed
+card values and only local Bio whole-card additions.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
