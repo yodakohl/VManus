@@ -9819,10 +9819,19 @@ ten-page purpose is now WHAT (Herbal), HOW/WHERE (Biological), and optional
 WHEN/UNDER-WHAT-CONDITION (Astro). See
 `sidequest_semantic_astro_case_interface_six_hundred_fourth/SIX_HUNDRED_FOURTH_REPORT.md`.
 
-Next, write a full apprentice working-day trace through product preparation,
-station operation, optional celestial lookup, and residual-stock handling;
-then shorten any dictionary values that are too sentence-like for a reusable
-workshop card.
+Pass 605 runs a full three-person apprentice workday. A master/corrector sets
+the case, image owner, and optional celestial place; a preparation-scribe and
+an application-scribe alternate execution and correction. Fifteen rules cover
+122 steps: nineteen preparation statements, six optional Astro choices, and
+97 station statements; all 116 Prose statements/381 groups retain their exact
+order. Twelve common errors form the short curriculum, especially owner loss,
+line-end splitting, global-dy closure, global-o water, invented pipe joins, and
+decomposing local Astro labels. See
+`sidequest_semantic_apprentice_workday_six_hundred_fifth/SIX_HUNDRED_FIFTH_REPORT.md`.
+
+Next, audit the active 173-card dictionary for sentence-sized or compound
+glosses. Give every card a short workshop word/action while keeping its longer
+case expansion separate, and preserve shared component contributions.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
