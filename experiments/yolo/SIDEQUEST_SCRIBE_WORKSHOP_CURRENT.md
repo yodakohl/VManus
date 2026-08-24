@@ -10414,8 +10414,16 @@ and statement boundaries are byte-for-byte unchanged;0 dense/workable labels
 remain. See
 `sidequest_semantic_polished_long_statements_six_hundred_seventy_fourth/SIX_HUNDRED_SEVENTY_FOURTH_REPORT.md`.
 
-Next, inspect the91 short statements for hidden fragment problems and promote
-only those that still read as dangling labels rather than executable clauses.
+Pass 675 inspects all91 short readings. Seventy-one need only capitalization
+and word-order normalization;20 contain genuine dangling source/target/measure/
+portion/ingredient/item fragments and are hand-bound to their neighbouring
+operation. The final116 readings contain0 detected nominal fragments,0 doubled
+`danach`, and0 known word-order breaks; all card/component/event traces remain
+unchanged. See
+`sidequest_semantic_short_fragment_cleanup_six_hundred_seventy_fifth/SIX_HUNDRED_SEVENTY_FIFTH_REPORT.md`.
+
+Next, derive a compact medieval apprentice manual from the39-entry tablet:
+teaching order, composition rules, copy exceptions, and predictable new cards.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
