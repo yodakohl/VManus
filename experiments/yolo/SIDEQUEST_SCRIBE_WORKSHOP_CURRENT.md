@@ -10002,10 +10002,18 @@ key. The complete edition retains 39 words, 163 invariant commands, 173 cards,
 381 Prose events/116 statements, and 395 Astro groups = 776. See
 `sidequest_semantic_six_case_astro_architecture_six_hundred_twenty_fourth/SIX_HUNDRED_TWENTY_FOURTH_REPORT.md`.
 
-Next, align the five complete case pairs by shared workshop phase rather than
-page order: take material, form the preparation, dose, address/transfer,
-hold by grade, settle/collect, and close. Identify exactly where each case
-branches from the common base procedure without adding a new word.
+Pass 625 aligns the five complete case pairs by workshop phase. Six modules
+are universal: dosing, start/treat, address/transfer, hold/settle, continue,
+and close. Collect is absent only from C5; an explicit ready-gate occurs only
+in C1-C3. Nineteen components occur in every complete case, while nine are
+genuine single-case branch cues: C1 LSH/OS, C2 S, C3 CFH, C4 AN/LD/TALAM, and
+C5 DA/HO. Thus one six-module base procedure plus a short case supplement is
+enough to teach all five pairs; no new word is needed. See
+`sidequest_semantic_five_case_phase_alignment_six_hundred_twenty_fifth/SIX_HUNDRED_TWENTY_FIFTH_REPORT.md`.
+
+Next, build a minimal early case selector from the nine single-case cues and
+test how soon each record becomes distinguishable. Then use later cues as
+corrections and identify any record that appears to switch branch midstream.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
