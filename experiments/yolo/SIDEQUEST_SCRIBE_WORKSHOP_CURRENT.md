@@ -12549,6 +12549,20 @@ separate statement-entry, medial and terminal choices from page/register habits,
 and see how many of the102 surfaces a new scribe can generate instead of
 memorizing as independent cards.
 
+Pass 879 deduplicates repeated order copies to230 physical core occurrences and
+finds168 events in29 variable identities. Their renderer uses eight wrappers
+plus the bare form. q is entry-biased25/40, sh is exit/only-biased12/15, and the
+bare form is medial23/36. Yet identity+position needs67 rules and still leaves45
+exceptions; adding page raises this to113 rules for22 exceptions. The teachable
+solution is one house surface per identity, with q/sh/bare as preferences and
+local variants copied when desired. See
+`sidequest_semantic_positional_renderer_rules_eight_hundred_seventy_ninth/EIGHT_HUNDRED_SEVENTY_NINTH_RENDERER_HANDBOOK.md`.
+
+Next, produce a complete fifth-hand edition of all six orders: normalize every
+portable core card to its house surface, preserve all local-model identities
+exactly, and verify that438 meanings,119 units,16 owners and six condition loci
+survive while the visible renderer inventory becomes smaller.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
