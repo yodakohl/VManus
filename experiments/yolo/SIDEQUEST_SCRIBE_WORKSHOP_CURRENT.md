@@ -12157,6 +12157,17 @@ five new quantity/grade cells remain a separate supplement. See
 Next, test learnability directly by encoding and decoding twenty short German
 workshop commands with the manual alone and no page owner.
 
+Pass 847 round-trips20 owner-free commands:14 productive recipes,3 bound
+frames and3 memorized whole cards. Seventeen use attested surfaces; three use
+predicted surfaces (`lair`, `qokaiiin`, `cheeeky`) and still return to the same
+component sequence and command. Five explicit apprentice traps cover visible
+dy, AIR versus AR, separate E slots, bound values and whole words. See
+`sidequest_semantic_apprentice_roundtrip_eight_hundred_forty_seventh/EIGHT_HUNDRED_FORTY_SEVENTH_REPORT.md`.
+
+Next, model four workshop scribes choosing different registered surface
+variants for the same cards and verify that all renderings return to one recipe
+and meaning.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
