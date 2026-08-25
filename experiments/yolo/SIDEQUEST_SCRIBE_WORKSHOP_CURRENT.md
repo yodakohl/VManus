@@ -12068,6 +12068,19 @@ amount. New creative predictions are `aiiin`, `qokaiiin`, and `ykaiiin`. See
 Next, build the analogous E/EE/EEE grade grid and check whether longer E grades
 consistently yield short, long and full operations across recurring frames.
 
+Pass 839 retains `E=KURZ`, `EE=LANG`, and `EEE=VOLL`. The slice has53 unique
+grade cards/91 events (54/92 grade memberships because `qekey=E+K+E+Y` places
+two separate short modifiers). Eight operator rows have at least two attested
+grades; `qokedy/qokeedy/qokeeedy` supplies the fully attested short/long/full
+close row. Seven missing strong-row cells are already in the prediction deck;
+five are active, with `cheeeky` and `solkeeey` newly prioritized. No recurring
+row reverses the grade order. See
+`sidequest_semantic_grade_composition_eight_hundred_thirty_ninth/EIGHT_HUNDRED_THIRTY_NINTH_REPORT.md`.
+
+Next, combine address, quantity and grade into one compact card-construction
+manual and use it to reparse the highest-frequency exact cards without adding
+page-specific meanings.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
