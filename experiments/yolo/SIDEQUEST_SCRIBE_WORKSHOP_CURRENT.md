@@ -11028,9 +11028,19 @@ Their repeated occurrences must belong to learned whole-card or multi-card
 formulas. See
 `sidequest_semantic_copy_axis_competition_seven_hundred_forty_sixth/SEVEN_HUNDRED_FORTY_SIXTH_REPORT.md`.
 
-Next, mine recurring two- and three-card formulas only inside the32 residual
-errors, using recipe identities rather than raw spelling. Test whole-formula
-completion on top of fixed Y valency; do not reopen atom-copy axes.
+Pass 747 finds14 recurring mini-formulas inside the32 residual errors:12
+bigrams and2 trigrams, covering18 residual statements. The two complete
+teaching formulas are `Y | AIIN | Y` = DIES | SOLLMASS | DIES and
+`OK+EE+Y | OK+Y | OL` = DIES LANG ANSETZEN | DIES ANSETZEN | WEITER. A
+longest-formula teaching sheet compresses205 visible residual cards to181
+units, saving24 card positions over20 macro uses. This supports a small learned
+phrase layer rather than new free copy axes. See
+`sidequest_semantic_multicard_formula_inventory_seven_hundred_forty_seventh/SEVEN_HUNDRED_FORTY_SEVENTH_REPORT.md`.
+
+Next, test the two complete trigrams as active output rules on top of fixed Y
+valency. Require their whole semantic environment so that the useful measured-
+item bracket does not fire at every adjacent AIIN/Y mention; leave the twelve
+short fragments as teaching clues until a safe trigger exists.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
