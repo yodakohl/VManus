@@ -12535,6 +12535,20 @@ copying, grade, closure, owner-switch and local-model errors, then determine the
 smallest correction marks and teaching rules that let several scribes reproduce
 the six orders without changing their meanings.
 
+Pass 878 finds102 observed surfaces for the56 portable core identities. Twenty-
+nine identities vary in their renderer and27 remain fixed;68 of261 core events
+use a licensed local alternate rather than the most common house surface, with
+identity and working meaning unchanged. A four-hand division of labour therefore
+works if five checks protect local model identity, E/EE/EEE grade, licensed
+Y/DY closure, ten Biological owner switches and six complete condition loci.
+See
+`sidequest_semantic_multihand_renderer_drill_eight_hundred_seventy_eighth/EIGHT_HUNDRED_SEVENTY_EIGHTH_MULTIHAND_DRILL.md`.
+
+Next, turn the29 variable renderer families into explicit positional rules:
+separate statement-entry, medial and terminal choices from page/register habits,
+and see how many of the102 surfaces a new scribe can generate instead of
+memorizing as independent cards.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
