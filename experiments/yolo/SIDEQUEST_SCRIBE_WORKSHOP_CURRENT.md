@@ -12520,6 +12520,21 @@ minimum cards, product handles, owner switches, condition handles and
 calibrations that must be memorized before a fifth hypothetical scribe can copy
 all six orders without assistance.
 
+Pass 877 reduces that training load to a mixed memory-and-model curriculum.
+Fifty-six exact cards recur across at least two orders and account for261 of365
+prose marks; their readings use29 shared components. Ninety-nine local prose
+cards and73 local condition identities remain on model leaves instead of being
+memorized. The apprentice additionally learns four internal product handles,
+ten owner-switch cues, six condition handles and six unchanged house
+calibrations. This replaces an implausible228-card/119-unit memory burden with
+an eight-lesson workshop course while preserving all438 marks. See
+`sidequest_semantic_fifth_scribe_curriculum_eight_hundred_seventy_seventh/EIGHT_HUNDRED_SEVENTY_SEVENTH_APPRENTICE_MANUAL.md`.
+
+Next, run a multi-hand apprentice production drill: introduce only realistic
+copying, grade, closure, owner-switch and local-model errors, then determine the
+smallest correction marks and teaching rules that let several scribes reproduce
+the six orders without changing their meanings.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
