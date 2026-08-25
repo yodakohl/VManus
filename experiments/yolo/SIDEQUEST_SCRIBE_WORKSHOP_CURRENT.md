@@ -11248,10 +11248,18 @@ statements. All German defaults stay unchanged; a simple top27 vocabulary would
 lose four handgrips. See
 `sidequest_semantic_component_memory_optimization_seven_hundred_seventy_second/SEVEN_HUNDRED_SEVENTY_SECOND_REPORT.md`.
 
-Next, revise the hours for12 oral+21 wall+6 model values and write out the seven
-model-dependent statements as concrete master-sheet exercises. Test covered-
-model recall: the learner should reproduce the full registered card only after
-seeing its owner and model cue, never by inventing a new component rule.
+Pass 773 turns the six rare values into a seven-card master sheet and seven
+owner+neighbor-cued exercises covering8 occurrences. With the sheet hidden the
+correct action is stop/request-model; after one view every surface is recalled
+exactly and no new rare-component rule is invented. Component teaching becomes
+8h fast+6h wall+2h model, reducing total loads to master110h, Herbal69h,
+Bio80h, Astro24h. See
+`sidequest_semantic_master_model_exercises_seven_hundred_seventy_third/SEVEN_HUNDRED_SEVENTY_THIRD_REPORT.md`.
+
+Next, test the one plausible promotion inside the rare sheet: LSH occurs in two
+cards and three events, unlike five single-use rare values. Compare learning
+LSH=WASCHEN plus O/E/DY composition against memorizing both LSH cards; promote
+only if it shortens the sheet and predicts both cards without changing context.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
