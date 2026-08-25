@@ -10986,11 +10986,22 @@ layer plus learned card-packing layer, especially for compact Bio cells; long
 Herbal needs register/ellipsis rules. See
 `sidequest_semantic_attested_card_packer_seven_hundred_forty_second/SEVEN_HUNDRED_FORTY_SECOND_REPORT.md`.
 
-Next, repair only the48 packing failures with two bounded workshop conventions:
-register-specific pack preference (compact Biological versus chained Herbal)
-and a small list of fluent helper cues that do not receive cards. Preserve the
-39 meanings and173-card deck; quantify which failures remain true memorized
-packing exceptions.
+Pass 743 separates nine German helper-cue conventions from actual cards while
+keeping all39 meanings and173 deck cards unchanged. Hidden real cues add
+Ansatzportion→AIN and naechst→OT; helper rules suppress redundant SH after
+`bereitet`/SAMMELSTELLE/one workflow-DURCHLASS, redundant CTH after ZUTAT,
+and a small fixed set of connective OT/OL/OR expansions. Over31 uses this raises
+exact component sets93→113/116, exact recipe sequences68→74, and equal card
+counts85→91; predicted cards fall402→368 versus381 observed. Herbal exact
+rises2→4/19 and Biological66→70/97. Only H1-S001(OS),H2-S001(O),and H3-S001
+(O/T/Y) still omit real values from the fluent instruction. See
+`sidequest_semantic_helper_cue_packer_seven_hundred_forty_third/SEVEN_HUNDRED_FORTY_THIRD_REPORT.md`.
+
+Next, classify the42 remaining packing failures by competing attested
+segmentation. Build a small priority table for Herbal chaining, Biological
+single-cell compression, terminal-card absorption, repeated values and
+address-head versus operation-head choice. Do not alter the component meanings
+or invent cards.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
