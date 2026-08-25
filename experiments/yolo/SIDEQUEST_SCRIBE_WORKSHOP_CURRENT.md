@@ -11613,6 +11613,19 @@ Next, compare SHED, CHK, P and LSH under shared grade and endpoint tails. Seek
 another compact verb-choice deck; do not force cards with different argument
 or closure structures into one paradigm.
 
+Pass 801 finds no four-way verb deck, but CHK has its own productive
+grade/endpoint board. `cheky` is CHK+E+Y (kurz wärmen), `cheeky/chkeey` is
+CHK+EE+Y (länger wärmen), and `chkeedy` is CHK+EE+DY (länger wärmen;
+Schluss). Three missing cells receive collision-free prediction forms, with the
+full open grade retaining two renderer candidates. CHK therefore joins core19.
+SHED=ABSETZEN, P=FÜLLEN and LSH=WASCHEN remain learned strip values because
+their 21 events do not share a controlled tail. See
+`sidequest_semantic_process_grade_eight_hundred_first/EIGHT_HUNDRED_FIRST_REPORT.md`.
+
+Next, insert the three predicted CHK cells into full statements, then test
+whether SHED is better read as the result state ABGESETZT than as the command
+ABSETZEN. Compare its endpoint-heavy cells with the surrounding process order.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
