@@ -1,0 +1,402 @@
+phase_id	ranked_clause	clause_id	physical_page	register	phase_order	phase_type	instruction_ids	instructions	start_event	end_event	component_sequence	natural_phase_de
+P925-P001	1	P915-C013	f55v	HERBAL	1	TRANSFER	P917-I0171	1	P912-E0264	P912-E0265	AIIN | CHD+Y	Nimm den aktuellen Posten nach Sollmaß in Arbeit: setze um.
+P925-P002	1	P915-C013	f55v	HERBAL	2	EXECUTE	P917-I0172	1	P912-E0266	P912-E0266	T+AL+AM_ADDR	Dann nimm den bezeichneten Arbeitsgang in Arbeit: stelle ein. Führe ihn zur Ziel- oder Anschlussstelle und zur Innenstelle.
+P925-P003	1	P915-C013	f55v	HERBAL	3	PREPARE	P917-I0173|P917-I0174	2	P912-E0267	P912-E0269	Y+K+AIIN | AIIN | Y+K+AIR	Dann nimm den aktuellen Posten nach Sollmaß in Arbeit: gib zu (2×). Führe ihn entlang des Laufs.
+P925-P004	1	P915-C013	f55v	HERBAL	4	CONDITION	P917-I0175	1	P912-E0270	P912-E0270	CHK+E+Y	Dann nimm den aktuellen Posten in Arbeit: behandle. Arbeite kurz.
+P925-P005	1	P915-C013	f55v	HERBAL	5	TRANSFER	P917-I0176	1	P912-E0271	P912-E0272	D_ADDR+AIIN+Y | OK+CHD	Dann nimm den aktuellen Posten aus dem bezeichneten Teil nach Sollmaß in Arbeit: setze an und setze um.
+P925-P006	1	P915-C013	f55v	HERBAL	6	PREPARE	P917-I0177	1	P912-E0273	P912-E0273	Y+K+AIN	Dann nimm den aktuellen Posten als Portion in Arbeit: gib zu.
+P925-P007	1	P915-C013	f55v	HERBAL	7	CONDITION	P917-I0178	1	P912-E0274	P912-E0274	SH+E+OK+E+Y	Dann nimm den aktuellen Posten in Arbeit: halte und setze an. Arbeite kurz.
+P925-P008	1	P915-C013	f55v	HERBAL	8	SELECT	P917-I0179	1	P912-E0275	P912-E0277	OR | AIN | CH	Dann nimm den Ansatz als Portion in Arbeit: entnimm.
+P925-P009	1	P915-C013	f55v	HERBAL	9	TRANSFER	P917-I0180	1	P912-E0278	P912-E0278	K+CHD+Y	Dann nimm den aktuellen Posten in Arbeit: gib zu und setze um.
+P925-P010	1	P915-C013	f55v	HERBAL	10	PREPARE	P917-I0181	1	P912-E0279	P912-E0279	P+CH+AL	Dann nimm den bezeichneten Arbeitsgang in Arbeit: setze ein und entnimm. Führe ihn zur Ziel- oder Anschlussstelle.
+P925-P011	1	P915-C013	f55v	HERBAL	11	CONDITION	P917-I0182	1	P912-E0280	P912-E0282	AR | AL+D_ADDR+Y | DA+R+Y	Dann nimm den aktuellen Posten von der Entnahmestelle aus dem bezeichneten Teil auf der zweiten Stufe in Arbeit: kennzeichne. Führe ihn zur Ziel- oder Anschlussstelle.
+P925-P012	1	P915-C013	f55v	HERBAL	12	EXECUTE	P917-I0183	1	P912-E0283	P912-E0283	T+AR	Dann nimm den bezeichneten Arbeitsgang von der Entnahmestelle in Arbeit: stelle ein.
+P925-P013	1	P915-C013	f55v	HERBAL	13	TRANSFER	P917-I0184	1	P912-E0284	P912-E0284	CHD+Y	Dann nimm den aktuellen Posten in Arbeit: setze um.
+P925-P014	1	P915-C013	f55v	HERBAL	14	PREPARE	P917-I0185|P917-I0186	2	P912-E0285	P912-E0286	OK+AIIN | OK+AR	Dann nimm den bezeichneten Arbeitsgang von der Entnahmestelle nach Sollmaß in Arbeit: setze an (2×).
+P925-P015	1	P915-C013	f55v	HERBAL	15	EXECUTE	P917-I0187	1	P912-E0287	P912-E0291	OL | OT+AR | HO | AR | T+AL+O+D_ADDR+Y	Dann nimm den Teil und den aktuellen Posten von der Entnahmestelle aus dem bezeichneten Teil in Arbeit: stelle ein und führe den Gang aus. Führe ihn zur Ziel- oder Anschlussstelle.
+P925-P016	1	P915-C013	f55v	HERBAL	16	PREPARE	P917-I0188|P917-I0189|P917-I0190|P917-I0191	4	P912-E0292	P912-E0296	OK+AR | Y | Y+K+A_ADDR+K+Y | OK+Y | OK+AL	Dann nimm den aktuellen Posten von der Entnahmestelle von der lokalen Stelle in Arbeit: setze an (3×) und gib zu (2×). Führe ihn zur Ziel- oder Anschlussstelle.
+P925-P017	1	P915-C013	f55v	HERBAL	17	PREPARE	P917-I0192|P917-I0193|P917-I0194	3	P912-E0297	P912-E0303	Y | OR | OR | AIIN | OK+AIIN | Y+K+AIN | OT+A_ADDR+K+Y	Dann nimm den aktuellen Posten und den Ansatz von der lokalen Stelle nach Sollmaß als Portion in Arbeit: setze an und gib zu (2×).
+P925-P018	1	P915-C013	f55v	HERBAL	18	EXECUTE	P917-I0195	1	P912-E0304	P912-E0304	O+AIIN	Dann nimm den bezeichneten Arbeitsgang nach Sollmaß in Arbeit: führe den Gang aus.
+P925-P019	1	P915-C013	f55v	HERBAL	19	SELECT	P917-I0196	1	P912-E0305	P912-E0306	OL | S	Dann nimm den bezeichneten Arbeitsgang in Arbeit: wähle aus.
+P925-P020	1	P915-C013	f55v	HERBAL	20	PREPARE	P917-I0197|P917-I0198	2	P912-E0307	P912-E0309	AIIN | OK+AIIN | OK+Y	Dann nimm den aktuellen Posten nach Sollmaß in Arbeit: setze an (2×).
+P925-P021	1	P915-C013	f55v	HERBAL	21	EXECUTE	P917-I0199	1	P912-E0310	P912-E0310	Y+T+AIIN	Dann nimm den aktuellen Posten nach Sollmaß in Arbeit: stelle ein.
+P925-P022	1	P915-C013	f55v	HERBAL	22	PREPARE	P917-I0200|P917-I0201|P917-I0202	3	P912-E0311	P912-E0316	OT+AR | Y | K+AL | Y+K+AR | OL | Y+K+AIIN	Dann nimm den aktuellen Posten von der Entnahmestelle nach Sollmaß in Arbeit: gib zu (3×). Führe ihn zur Ziel- oder Anschlussstelle.
+P925-P023	1	P915-C013	f55v	HERBAL	23	EXECUTE	P917-I0203	1	P912-E0317	P912-E0317	CH+E+O+AR	Dann nimm den bezeichneten Arbeitsgang von der Entnahmestelle in Arbeit: entnimm und führe den Gang aus. Arbeite kurz.
+P925-P024	1	P915-C013	f55v	HERBAL	24	CONDITION	P917-I0204	1	P912-E0318	P912-E0318	CHK+EE+Y	Dann nimm den aktuellen Posten in Arbeit: behandle. Arbeite länger.
+P925-P025	1	P915-C013	f55v	HERBAL	25	CONTEXT	P917-I0205	1	P912-E0319	P912-E0319	OL+DY	Dann nimm den bezeichneten Arbeitsgang in Arbeit: arbeite damit weiter. Schließe den Schritt.
+P925-P026	2	P915-C017	f56r	HERBAL	1	PREPARE	P917-I0244|P917-I0245	2	P912-E0386	P912-E0387	T+OK+Y | K+OL	Dann nimm den aktuellen Posten in Arbeit: stelle ein, setze an und gib zu.
+P925-P027	2	P915-C017	f56r	HERBAL	2	CONDITION	P917-I0246	1	P912-E0388	P912-E0388	SH+OL	Dann nimm den bezeichneten Arbeitsgang in Arbeit: halte.
+P925-P028	2	P915-C017	f56r	HERBAL	3	SELECT	P917-I0247	1	P912-E0389	P912-E0389	CH+OT+CH+E+Y	Dann nimm den aktuellen Posten in Arbeit: entnimm (2×). Arbeite kurz.
+P925-P029	2	P915-C017	f56r	HERBAL	4	EXECUTE	P917-I0248|P917-I0249	2	P912-E0390	P912-E0391	T+OL | Y+T	Dann nimm den aktuellen Posten in Arbeit: stelle ein (2×).
+P925-P030	2	P915-C017	f56r	HERBAL	5	SELECT	P917-I0250|P917-I0251	2	P912-E0392	P912-E0393	CH+OR | OT+CH+Y	Dann nimm den Ansatz und den aktuellen Posten in Arbeit: entnimm (2×).
+P925-P031	2	P915-C017	f56r	HERBAL	6	PREPARE	P917-I0252	1	P912-E0394	P912-E0394	OK	Dann nimm den bezeichneten Arbeitsgang in Arbeit: setze an.
+P925-P032	2	P915-C017	f56r	HERBAL	7	EXECUTE	P917-I0253	1	P912-E0395	P912-E0396	Y | T	Dann nimm den aktuellen Posten in Arbeit: stelle ein.
+P925-P033	2	P915-C017	f56r	HERBAL	8	CONDITION	P917-I0254	1	P912-E0397	P912-E0398	Y | R	Dann nimm den aktuellen Posten in Arbeit: kennzeichne.
+P925-P034	2	P915-C017	f56r	HERBAL	9	PREPARE	P917-I0255|P917-I0256	2	P912-E0399	P912-E0401	OK+AIIN | Y | K+CH+EE+Y	Dann nimm den aktuellen Posten nach Sollmaß in Arbeit: setze an, gib zu und entnimm. Arbeite länger.
+P925-P035	2	P915-C017	f56r	HERBAL	10	CONDITION	P917-I0257	1	P912-E0402	P912-E0403	AIIN | CTH+OL	Dann nimm den bezeichneten Arbeitsgang nach Sollmaß in Arbeit: stelle bereit.
+P925-P036	2	P915-C017	f56r	HERBAL	11	EXECUTE	P917-I0258	1	P912-E0404	P912-E0404	CH+O+S	Dann nimm den bezeichneten Arbeitsgang in Arbeit: entnimm, führe den Gang aus und wähle aus.
+P925-P037	2	P915-C017	f56r	HERBAL	12	PREPARE	P917-I0259	1	P912-E0405	P912-E0405	OK+OR	Dann nimm den Ansatz in Arbeit: setze an.
+P925-P038	2	P915-C017	f56r	HERBAL	13	CONDITION	P917-I0260	1	P912-E0406	P912-E0406	SH	Dann nimm den bezeichneten Arbeitsgang in Arbeit: halte.
+P925-P039	2	P915-C017	f56r	HERBAL	14	PREPARE	P917-I0261|P917-I0262|P917-I0263|P917-I0264	4	P912-E0407	P912-E0411	HO | K+CH+E+Y | OK+OK+CH+Y | OK+Y | OK+CHEO	Dann nimm den Teil, den aktuellen Posten und den Auszug in Arbeit: gib zu, entnimm (2×) und setze an (4×). Arbeite kurz.
+P925-P040	2	P915-C017	f56r	HERBAL	15	PREPARE	P917-I0265	1	P912-E0412	P912-E0412	K+CH+AL	Dann nimm den bezeichneten Arbeitsgang in Arbeit: gib zu und entnimm. Führe ihn zur Ziel- oder Anschlussstelle.
+P925-P041	2	P915-C017	f56r	HERBAL	16	SELECT	P917-I0266|P917-I0267	2	P912-E0413	P912-E0415	S | OL | CH+OT+OL	Dann nimm den bezeichneten Arbeitsgang in Arbeit: wähle aus und entnimm.
+P925-P042	2	P915-C017	f56r	HERBAL	17	EXECUTE	P917-I0268|P917-I0269	2	P912-E0416	P912-E0418	OT+Y | T+CH+O | T+OL	Dann nimm den aktuellen Posten in Arbeit: stelle ein (2×), entnimm und führe den Gang aus.
+P925-P043	2	P915-C017	f56r	HERBAL	18	CONDITION	P917-I0270	1	P912-E0419	P912-E0420	OL | CTH+Y	Dann nimm den aktuellen Posten in Arbeit: stelle bereit.
+P925-P044	2	P915-C017	f56r	HERBAL	19	EXECUTE	P917-I0271	1	P912-E0421	P912-E0422	OT+Y | CH+O+D_ADDR+Y	Dann nimm den aktuellen Posten aus dem bezeichneten Teil in Arbeit: entnimm und führe den Gang aus.
+P925-P045	2	P915-C017	f56r	HERBAL	20	CONDITION	P917-I0272|P917-I0273	2	P912-E0423	P912-E0424	CTH+O | R	Dann nimm den bezeichneten Arbeitsgang in Arbeit: stelle bereit, führe den Gang aus und kennzeichne.
+P925-P046	2	P915-C017	f56r	HERBAL	21	PREPARE	P917-I0274|P917-I0275|P917-I0276	3	P912-E0425	P912-E0428	Y | K+CH+AR+LOCAL_CHAR_G | OK+EE+Y | OK+CH+EE+Y	Dann nimm den aktuellen Posten von der Entnahmestelle in Arbeit: gib zu, entnimm (2×) und setze an (2×). Arbeite länger.
+P925-P047	2	P915-C017	f56r	HERBAL	22	SELECT	P917-I0277	1	P912-E0429	P912-E0429	S+CH+E+Y	Dann nimm den aktuellen Posten in Arbeit: wähle aus und entnimm. Arbeite kurz.
+P925-P048	2	P915-C017	f56r	HERBAL	23	CONDITION	P917-I0278	1	P912-E0430	P912-E0433	D_ADDR | AIIN | Y | SH+O	Dann nimm den aktuellen Posten aus dem bezeichneten Teil nach Sollmaß in Arbeit: halte und führe den Gang aus.
+P925-P049	2	P915-C017	f56r	HERBAL	24	PREPARE	P917-I0279|P917-I0280	2	P912-E0434	P912-E0435	OK+CH+Y | K+CH+O+AR	Dann nimm den aktuellen Posten von der Entnahmestelle in Arbeit: setze an, entnimm (2×), gib zu und führe den Gang aus.
+P925-P050	2	P915-C017	f56r	HERBAL	25	EXECUTE	P917-I0281	1	P912-E0436	P912-E0436	S+OT+O+D_ADDR+AN	Dann nimm den bezeichneten Arbeitsgang aus dem bezeichneten Teil in Arbeit: wähle aus und führe den Gang aus.
+P925-P051	2	P915-C017	f56r	HERBAL	26	PREPARE	P917-I0282	1	P912-E0437	P912-E0438	OT+Y | K+E+OL	Dann nimm den aktuellen Posten in Arbeit: gib zu. Arbeite kurz.
+P925-P052	2	P915-C017	f56r	HERBAL	27	CONTEXT	P917-I0283	1	P912-E0439	P912-E0439	AIIN	Dann nimm den bezeichneten Arbeitsgang nach Sollmaß in Arbeit: arbeite damit weiter.
+P925-P053	3	P915-C002	f10r	HERBAL	1	PREPARE	P917-I0027	1	P912-E0040	P912-E0040	OK+Y	Nimm den aktuellen Posten in Arbeit: setze an.
+P925-P054	3	P915-C002	f10r	HERBAL	2	SELECT	P917-I0028	1	P912-E0041	P912-E0041	OT+CH+OL	Dann nimm den bezeichneten Arbeitsgang in Arbeit: entnimm.
+P925-P055	3	P915-C002	f10r	HERBAL	3	CONDITION	P917-I0029|P917-I0030|P917-I0031	3	P912-E0042	P912-E0045	OL | CTH+Y | Y+CHEO+R | CTH+Y	Dann nimm den aktuellen Posten und den Auszug in Arbeit: stelle bereit (2×) und kennzeichne.
+P925-P056	3	P915-C002	f10r	HERBAL	4	SELECT	P917-I0032	1	P912-E0046	P912-E0046	CH+OR	Dann nimm den Ansatz in Arbeit: entnimm.
+P925-P057	3	P915-C002	f10r	HERBAL	5	CONDITION	P917-I0033|P917-I0034	2	P912-E0047	P912-E0048	CTH+AIIN | CARRIER_Q+O+CTH+OL+Y	Dann nimm den aktuellen Posten nach Sollmaß in Arbeit: stelle bereit (2×) und führe den Gang aus.
+P925-P058	3	P915-C002	f10r	HERBAL	6	EXECUTE	P917-I0035	1	P912-E0049	P912-E0051	Y | Y | T+AIIN	Dann nimm den aktuellen Posten nach Sollmaß in Arbeit: stelle ein.
+P925-P059	3	P915-C002	f10r	HERBAL	7	PREPARE	P917-I0036|P917-I0037	2	P912-E0052	P912-E0056	Y | D_ADDR+Y | OK+OL | Y | K+CH+AIIN	Dann nimm den aktuellen Posten aus dem bezeichneten Teil nach Sollmaß in Arbeit: setze an, gib zu und entnimm.
+P925-P060	3	P915-C002	f10r	HERBAL	8	EXECUTE	P917-I0038	1	P912-E0057	P912-E0057	Y+T+Y	Dann nimm den aktuellen Posten in Arbeit: stelle ein.
+P925-P061	3	P915-C002	f10r	HERBAL	9	CONDITION	P917-I0039	1	P912-E0058	P912-E0059	AIIN | CTH	Dann nimm den bezeichneten Arbeitsgang nach Sollmaß in Arbeit: stelle bereit.
+P925-P062	3	P915-C002	f10r	HERBAL	10	SELECT	P917-I0040|P917-I0041	2	P912-E0060	P912-E0064	AIN | D_ADDR+AIR | AM_ADDR | OT+CH+OR | CH+OR	Dann nimm den Ansatz aus dem bezeichneten Teil als Portion in Arbeit: entnimm (2×). Führe ihn entlang des Laufs und zur Innenstelle.
+P925-P063	3	P915-C002	f10r	HERBAL	11	PREPARE	P917-I0042	1	P912-E0065	P912-E0071	OT+OL | OL | OL+OR | OL | AIIN | D_ADDR+AR | O+Y+K+CH+OR	Dann nimm den Ansatz und den aktuellen Posten aus dem bezeichneten Teil von der Entnahmestelle nach Sollmaß in Arbeit: führe den Gang aus, gib zu und entnimm.
+P925-P064	3	P915-C002	f10r	HERBAL	12	CONDITION	P917-I0043	1	P912-E0072	P912-E0072	SH+OR	Dann nimm den Ansatz in Arbeit: halte.
+P925-P065	3	P915-C002	f10r	HERBAL	13	SELECT	P917-I0044	1	P912-E0073	P912-E0073	CH+OR	Dann nimm den Ansatz in Arbeit: entnimm.
+P925-P066	3	P915-C002	f10r	HERBAL	14	PREPARE	P917-I0045	1	P912-E0074	P912-E0075	Y | K+A_ADDR+LOCAL_CHAR_I+IIN	Dann nimm den aktuellen Posten von der lokalen Stelle auf der angegebenen Stufe in Arbeit: gib zu.
+P925-P067	3	P915-C002	f10r	HERBAL	15	EXECUTE	P917-I0046|P917-I0047	2	P912-E0076	P912-E0078	Y | CH+O+D_ADDR+AIIN | O+OT+OR	Dann nimm den aktuellen Posten und den Ansatz aus dem bezeichneten Teil nach Sollmaß in Arbeit: entnimm und führe den Gang aus (2×).
+P925-P068	3	P915-C002	f10r	HERBAL	16	TRANSFER	P917-I0048	1	P912-E0079	P912-E0080	OT+OR | CFH+Y	Dann nimm den Ansatz und den aktuellen Posten in Arbeit: trenne.
+P925-P069	3	P915-C002	f10r	HERBAL	17	CONDITION	P917-I0049	1	P912-E0081	P912-E0081	CTH+OR	Dann nimm den Ansatz in Arbeit: stelle bereit.
+P925-P070	3	P915-C002	f10r	HERBAL	18	EXECUTE	P917-I0050|P917-I0051	2	P912-E0082	P912-E0083	O+S+AIN | Y+T+O+IIN	Dann nimm den aktuellen Posten als Portion auf der angegebenen Stufe in Arbeit: führe den Gang aus (2×), wähle aus und stelle ein.
+P925-P071	3	P915-C002	f10r	HERBAL	19	CONDITION	P917-I0052|P917-I0053	2	P912-E0084	P912-E0087	OT+CH+O+SH+OR | OT+Y | OT+OR | CTH+Y+D_ADDR	Dann nimm den Ansatz und den aktuellen Posten aus dem bezeichneten Teil in Arbeit: entnimm, führe den Gang aus, halte und stelle bereit.
+P925-P072	3	P915-C002	f10r	HERBAL	20	EXECUTE	P917-I0054	1	P912-E0088	P912-E0089	OT+AR | O+D_ADDR+AIIN	Dann nimm den bezeichneten Arbeitsgang von der Entnahmestelle aus dem bezeichneten Teil nach Sollmaß in Arbeit: führe den Gang aus.
+P925-P073	3	P915-C002	f10r	HERBAL	21	CONTEXT	P917-I0055	1	P912-E0090	P912-E0092	AIIN | OT+Y | OT+OR	Dann nimm den aktuellen Posten und den Ansatz nach Sollmaß in Arbeit: arbeite damit weiter.
+P925-P074	4	P915-C004	f11r	HERBAL	1	CONDITION	P917-I0063|P917-I0064	2	P912-E0100	P912-E0101	SH+O+Y+T+Y | S+O+CTH+O+D_ADDR+Y	Nimm den aktuellen Posten aus dem bezeichneten Teil in Arbeit: halte, führe den Gang aus (3×), stelle ein, wähle aus und stelle bereit.
+P925-P075	4	P915-C004	f11r	HERBAL	2	EXECUTE	P917-I0065	1	P912-E0102	P912-E0102	CARRIER_Q+O+D_ADDR+OR	Dann nimm den Ansatz aus dem bezeichneten Teil in Arbeit: führe den Gang aus.
+P925-P076	4	P915-C004	f11r	HERBAL	3	CONDITION	P917-I0066	1	P912-E0103	P912-E0104	Y | K+SH+Y	Dann nimm den aktuellen Posten in Arbeit: gib zu und halte.
+P925-P077	4	P915-C004	f11r	HERBAL	4	EXECUTE	P917-I0067	1	P912-E0105	P912-E0106	AIIN | Y+T+Y	Dann nimm den aktuellen Posten nach Sollmaß in Arbeit: stelle ein.
+P925-P078	4	P915-C004	f11r	HERBAL	5	PREPARE	P917-I0068|P917-I0069	2	P912-E0107	P912-E0108	Y+T+OK+Y | K+OL	Dann nimm den aktuellen Posten in Arbeit: stelle ein, setze an und gib zu.
+P925-P079	4	P915-C004	f11r	HERBAL	6	CONDITION	P917-I0070	1	P912-E0109	P912-E0112	AIIN | OT+Y | OL | CTH+Y	Dann nimm den aktuellen Posten nach Sollmaß in Arbeit: stelle bereit.
+P925-P080	4	P915-C004	f11r	HERBAL	7	PREPARE	P917-I0071	1	P912-E0113	P912-E0114	D_ADDR+OR | Y+K+Y+CH+Y	Dann nimm den Ansatz und den aktuellen Posten aus dem bezeichneten Teil in Arbeit: gib zu und entnimm.
+P925-P081	4	P915-C004	f11r	HERBAL	8	SELECT	P917-I0072|P917-I0073	2	P912-E0115	P912-E0117	CH+OT+Y | AIN | CH+AIIN	Dann nimm den aktuellen Posten als Portion nach Sollmaß in Arbeit: entnimm (2×).
+P925-P082	4	P915-C004	f11r	HERBAL	9	EXECUTE	P917-I0074	1	P912-E0118	P912-E0119	AIIN | D_ADDR+O+D_ADDR	Dann nimm den bezeichneten Arbeitsgang aus dem bezeichneten Teil nach Sollmaß in Arbeit: führe den Gang aus.
+P925-P083	4	P915-C004	f11r	HERBAL	10	PREPARE	P917-I0075	1	P912-E0120	P912-E0122	D_ADDR+OL | Y | K+Y	Dann nimm den aktuellen Posten aus dem bezeichneten Teil in Arbeit: gib zu.
+P925-P084	4	P915-C004	f11r	HERBAL	11	EXECUTE	P917-I0076	1	P912-E0123	P912-E0125	Y | AIIN | T+OL	Dann nimm den aktuellen Posten nach Sollmaß in Arbeit: stelle ein.
+P925-P085	4	P915-C004	f11r	HERBAL	12	CONDITION	P917-I0077|P917-I0078	2	P912-E0126	P912-E0127	SH+OR | SH+OR	Dann nimm den Ansatz in Arbeit: halte (2×).
+P925-P086	4	P915-C004	f11r	HERBAL	13	PREPARE	P917-I0079	1	P912-E0128	P912-E0128	D_ADDR+K+Y	Dann nimm den aktuellen Posten aus dem bezeichneten Teil in Arbeit: gib zu.
+P925-P087	4	P915-C004	f11r	HERBAL	14	CONDITION	P917-I0080	1	P912-E0129	P912-E0131	Y | AIIN | CTH+Y	Dann nimm den aktuellen Posten nach Sollmaß in Arbeit: stelle bereit.
+P925-P088	4	P915-C004	f11r	HERBAL	15	EXECUTE	P917-I0081|P917-I0082	2	P912-E0132	P912-E0136	D_ADDR | Y | CH+O+D_ADDR+L | AIIN | O+D_ADDR+L	Dann nimm den aktuellen Posten aus dem bezeichneten Teil nach Sollmaß in Arbeit: entnimm und führe den Gang aus (2×). Führe ihn in den nächsten Lauf.
+P925-P089	4	P915-C004	f11r	HERBAL	16	SELECT	P917-I0083|P917-I0084	2	P912-E0137	P912-E0141	D_ADDR | S | Y | OT+OL | CH+AIIN	Dann nimm den aktuellen Posten aus dem bezeichneten Teil nach Sollmaß in Arbeit: wähle aus und entnimm.
+P925-P090	4	P915-C004	f11r	HERBAL	17	PREPARE	P917-I0085	1	P912-E0142	P912-E0142	Y+K+CH+OR	Dann nimm den aktuellen Posten und den Ansatz in Arbeit: gib zu und entnimm.
+P925-P091	4	P915-C004	f11r	HERBAL	18	EXECUTE	P917-I0086	1	P912-E0143	P912-E0144	D_ADDR+AIR | CH+O+D_ADDR+Y	Dann nimm den aktuellen Posten aus dem bezeichneten Teil in Arbeit: entnimm und führe den Gang aus. Führe ihn entlang des Laufs.
+P925-P092	4	P915-C004	f11r	HERBAL	19	CONDITION	P917-I0087	1	P912-E0145	P912-E0145	CTH+Y	Dann nimm den aktuellen Posten in Arbeit: stelle bereit.
+P925-P093	4	P915-C004	f11r	HERBAL	20	SELECT	P917-I0088	1	P912-E0146	P912-E0146	S	Dann nimm den bezeichneten Arbeitsgang in Arbeit: wähle aus.
+P925-P094	4	P915-C004	f11r	HERBAL	21	PREPARE	P917-I0089	1	P912-E0147	P912-E0149	AIIN | OT+Y | OK+OL	Dann nimm den aktuellen Posten nach Sollmaß in Arbeit: setze an.
+P925-P095	4	P915-C004	f11r	HERBAL	22	CONDITION	P917-I0090	1	P912-E0150	P912-E0150	CTH+Y	Dann nimm den aktuellen Posten in Arbeit: stelle bereit.
+P925-P096	4	P915-C004	f11r	HERBAL	23	CONTEXT	P917-I0091	1	P912-E0151	P912-E0151	Y	Dann nimm den aktuellen Posten in Arbeit: arbeite damit weiter.
+P925-P097	5	P915-C055	f75r	BIOLOGICAL	1	CONDITION	P917-I0407	1	P912-E0606	P912-E0607	OL | SH+E+Y	Dann nimm den aktuellen Posten in Arbeit: halte. Arbeite kurz.
+P925-P098	5	P915-C055	f75r	BIOLOGICAL	2	PREPARE	P917-I0408	1	P912-E0608	P912-E0608	OK+Y	Dann nimm den aktuellen Posten in Arbeit: setze an.
+P925-P099	5	P915-C055	f75r	BIOLOGICAL	3	CONDITION	P917-I0409	1	P912-E0609	P912-E0609	SH+E+Y	Dann nimm den aktuellen Posten in Arbeit: halte. Arbeite kurz.
+P925-P100	5	P915-C055	f75r	BIOLOGICAL	4	PREPARE	P917-I0410	1	P912-E0610	P912-E0611	E+Y | OK+AIN	Dann nimm den aktuellen Posten als Portion in Arbeit: setze an. Arbeite kurz.
+P925-P101	5	P915-C055	f75r	BIOLOGICAL	5	CONDITION	P917-I0411|P917-I0412	2	P912-E0612	P912-E0614	AR | R+Y | SH+E+Y	Dann nimm den aktuellen Posten von der Entnahmestelle in Arbeit: kennzeichne und halte. Arbeite kurz.
+P925-P102	5	P915-C055	f75r	BIOLOGICAL	6	EXECUTE	P917-I0413	1	P912-E0615	P912-E0618	OR | Y | L+Y | L+O	Dann nimm den Ansatz und den aktuellen Posten in Arbeit: führe den Gang aus. Führe ihn in den nächsten Lauf.
+P925-P103	5	P915-C055	f75r	BIOLOGICAL	7	CONDITION	P917-I0414	1	P912-E0619	P912-E0620	Y+AIN | SH+E+Y	Dann nimm den aktuellen Posten als Portion in Arbeit: halte. Arbeite kurz.
+P925-P104	5	P915-C055	f75r	BIOLOGICAL	8	PREPARE	P917-I0415|P917-I0416	2	P912-E0621	P912-E0622	OK+AIN | O+OK+AIN	Dann nimm den bezeichneten Arbeitsgang als Portion in Arbeit: setze an (2×) und führe den Gang aus.
+P925-P105	5	P915-C055	f75r	BIOLOGICAL	9	CONDITION	P917-I0417	1	P912-E0623	P912-E0626	Y | CKH+Y | OR | Y+SH+E+OR	Dann nimm den aktuellen Posten und den Ansatz in Arbeit: halte. Führe ihn durch den Durchlass. Arbeite kurz.
+P925-P106	5	P915-C055	f75r	BIOLOGICAL	10	EXECUTE	P917-I0418	1	P912-E0627	P912-E0630	OL | L+OR | AM_ADDR | O+D_ADDR+AR	Dann nimm den Ansatz aus dem bezeichneten Teil von der Entnahmestelle in Arbeit: führe den Gang aus. Führe ihn in den nächsten Lauf und zur Innenstelle.
+P925-P107	5	P915-C055	f75r	BIOLOGICAL	11	CONDITION	P917-I0419	1	P912-E0631	P912-E0631	SH+E+Y	Dann nimm den aktuellen Posten in Arbeit: halte. Arbeite kurz.
+P925-P108	5	P915-C055	f75r	BIOLOGICAL	12	PREPARE	P917-I0420	1	P912-E0632	P912-E0632	OK+AIN	Dann nimm den bezeichneten Arbeitsgang als Portion in Arbeit: setze an.
+P925-P109	5	P915-C055	f75r	BIOLOGICAL	13	TRANSFER	P917-I0421	1	P912-E0633	P912-E0633	CHD+Y	Dann nimm den aktuellen Posten in Arbeit: setze um.
+P925-P110	5	P915-C055	f75r	BIOLOGICAL	14	CONDITION	P917-I0422	1	P912-E0634	P912-E0635	OR | SH+E+Y	Dann nimm den Ansatz und den aktuellen Posten in Arbeit: halte. Arbeite kurz.
+P925-P111	5	P915-C055	f75r	BIOLOGICAL	15	PREPARE	P917-I0423	1	P912-E0636	P912-E0636	K+AR	Dann nimm den bezeichneten Arbeitsgang von der Entnahmestelle in Arbeit: gib zu.
+P925-P112	5	P915-C055	f75r	BIOLOGICAL	16	TRANSFER	P917-I0424	1	P912-E0637	P912-E0637	CHD+Y	Dann nimm den aktuellen Posten in Arbeit: setze um.
+P925-P113	5	P915-C055	f75r	BIOLOGICAL	17	SELECT	P917-I0425	1	P912-E0638	P912-E0638	S+AR	Dann nimm den bezeichneten Arbeitsgang von der Entnahmestelle in Arbeit: wähle aus.
+P925-P114	5	P915-C055	f75r	BIOLOGICAL	18	PREPARE	P917-I0426	1	P912-E0639	P912-E0639	P+Y	Dann nimm den aktuellen Posten in Arbeit: setze ein.
+P925-P115	5	P915-C055	f75r	BIOLOGICAL	19	CONDITION	P917-I0427	1	P912-E0640	P912-E0640	K+SH+E+Y	Dann nimm den aktuellen Posten in Arbeit: gib zu und halte. Arbeite kurz.
+P925-P116	5	P915-C055	f75r	BIOLOGICAL	20	PREPARE	P917-I0428|P917-I0429	2	P912-E0641	P912-E0642	OK+EE+Y | OK+AL	Dann nimm den aktuellen Posten in Arbeit: setze an (2×). Führe ihn zur Ziel- oder Anschlussstelle. Arbeite länger.
+P925-P117	5	P915-C055	f75r	BIOLOGICAL	21	CONDITION	P917-I0430	1	P912-E0643	P912-E0643	S+SH+E+Y	Dann nimm den aktuellen Posten in Arbeit: wähle aus und halte. Arbeite kurz.
+P925-P118	5	P915-C055	f75r	BIOLOGICAL	22	TRANSFER	P917-I0431	1	P912-E0644	P912-E0645	OL | CHD+Y+OK+AM_ADDR	Dann nimm den aktuellen Posten in Arbeit: setze um und setze an. Führe ihn zur Innenstelle.
+P925-P119	5	P915-C055	f75r	BIOLOGICAL	23	PREPARE	P917-I0432	1	P912-E0646	P912-E0646	OK+AIN	Dann nimm den bezeichneten Arbeitsgang als Portion in Arbeit: setze an.
+P925-P120	5	P915-C055	f75r	BIOLOGICAL	24	TRANSFER	P917-I0433|P917-I0434	2	P912-E0647	P912-E0648	SOLK+EE+Y | SOLK+AR+Y	Dann nimm den aktuellen Posten von der Entnahmestelle in Arbeit: fange auf (2×). Arbeite länger.
+P925-P121	5	P915-C055	f75r	BIOLOGICAL	25	SELECT	P917-I0435	1	P912-E0649	P912-E0649	S+AIN	Dann nimm den bezeichneten Arbeitsgang als Portion in Arbeit: wähle aus.
+P925-P122	5	P915-C055	f75r	BIOLOGICAL	26	CONDITION	P917-I0436	1	P912-E0650	P912-E0650	CTH+Y	Dann nimm den aktuellen Posten in Arbeit: stelle bereit.
+P925-P123	5	P915-C055	f75r	BIOLOGICAL	27	SELECT	P917-I0437	1	P912-E0651	P912-E0653	L+OR | OL | S+AIN	Dann nimm den Ansatz als Portion in Arbeit: wähle aus. Führe ihn in den nächsten Lauf.
+P925-P124	5	P915-C055	f75r	BIOLOGICAL	28	CONDITION	P917-I0438	1	P912-E0654	P912-E0654	SH+CKH+Y	Dann nimm den aktuellen Posten in Arbeit: halte. Führe ihn durch den Durchlass.
+P925-P125	5	P915-C055	f75r	BIOLOGICAL	29	PREPARE	P917-I0439	1	P912-E0655	P912-E0655	OK+EE+DY	Dann nimm den bezeichneten Arbeitsgang in Arbeit: setze an. Arbeite länger. Schließe den Schritt.
+P925-P126	6	P915-C350	f88r	PHARMA	1	CONDITION	P917-I1349|P917-I1350	2	P912-E2368	P912-E2369	D_ADDR+OR+SH+E+O+Y | CTH+E+OL	Dann nimm den Ansatz und den aktuellen Posten aus dem bezeichneten Teil in Arbeit: halte, führe den Gang aus und stelle bereit. Arbeite kurz.
+P925-P127	6	P915-C350	f88r	PHARMA	2	EXECUTE	P917-I1351	1	P912-E2370	P912-E2370	O+CKH+E+Y	Dann nimm den aktuellen Posten in Arbeit: führe den Gang aus. Führe ihn durch den Durchlass. Arbeite kurz.
+P925-P128	6	P915-C350	f88r	PHARMA	3	CONDITION	P917-I1352|P917-I1353|P917-I1354|P917-I1355	4	P912-E2371	P912-E2376	D_ADDR+OR+Y | SH+E+OR | SH+OL+LOCAL_CHAR_F+CH+OR | AL | CH+CTH+OL | R+AL	Dann nimm den Ansatz und den aktuellen Posten aus dem bezeichneten Teil in Arbeit: halte (2×), entnimm (2×), stelle bereit und kennzeichne. Führe ihn zur Ziel- oder Anschlussstelle. Arbeite kurz.
+P925-P129	6	P915-C350	f88r	PHARMA	4	CONDITION	P917-I1356	1	P912-E2377	P912-E2377	SH+E+O+AM_ADDR	Dann nimm den bezeichneten Arbeitsgang in Arbeit: halte und führe den Gang aus. Führe ihn zur Innenstelle. Arbeite kurz.
+P925-P130	6	P915-C350	f88r	PHARMA	5	PREPARE	P917-I1357	1	P912-E2378	P912-E2378	K+E+OL	Dann nimm den bezeichneten Arbeitsgang in Arbeit: gib zu. Arbeite kurz.
+P925-P131	6	P915-C350	f88r	PHARMA	6	SELECT	P917-I1358	1	P912-E2379	P912-E2379	CH+E+AR	Dann nimm den bezeichneten Arbeitsgang von der Entnahmestelle in Arbeit: entnimm. Arbeite kurz.
+P925-P132	6	P915-C350	f88r	PHARMA	7	CONDITION	P917-I1359	1	P912-E2380	P912-E2380	SH+E+K+OR	Dann nimm den Ansatz in Arbeit: halte und gib zu. Arbeite kurz.
+P925-P133	6	P915-C350	f88r	PHARMA	8	PREPARE	P917-I1360	1	P912-E2381	P912-E2381	OK+OR	Dann nimm den Ansatz in Arbeit: setze an.
+P925-P134	6	P915-C350	f88r	PHARMA	9	SELECT	P917-I1361|P917-I1362	2	P912-E2382	P912-E2384	AIIN | S+AR | S	Dann nimm den bezeichneten Arbeitsgang von der Entnahmestelle nach Sollmaß in Arbeit: wähle aus (2×).
+P925-P135	6	P915-C350	f88r	PHARMA	10	PREPARE	P917-I1363	1	P912-E2385	P912-E2386	AIIN | OK+Y	Dann nimm den aktuellen Posten nach Sollmaß in Arbeit: setze an.
+P925-P136	6	P915-C350	f88r	PHARMA	11	SELECT	P917-I1364	1	P912-E2387	P912-E2387	S+AM_ADDR	Dann nimm den bezeichneten Arbeitsgang in Arbeit: wähle aus. Führe ihn zur Innenstelle.
+P925-P137	6	P915-C350	f88r	PHARMA	12	EXECUTE	P917-I1365|P917-I1366	2	P912-E2388	P912-E2390	O+AIN | OR | O+AM_ADDR	Dann nimm den Ansatz als Portion in Arbeit: führe den Gang aus (2×). Führe ihn zur Innenstelle.
+P925-P138	6	P915-C350	f88r	PHARMA	13	PREPARE	P917-I1367	1	P912-E2391	P912-E2392	OT+AM_ADDR | OK+E+O+AM_ADDR	Dann nimm den bezeichneten Arbeitsgang in Arbeit: setze an und führe den Gang aus. Führe ihn zur Innenstelle. Arbeite kurz.
+P925-P139	6	P915-C350	f88r	PHARMA	14	SELECT	P917-I1368	1	P912-E2393	P912-E2393	CH+EE+OR	Dann nimm den Ansatz in Arbeit: entnimm. Arbeite länger.
+P925-P140	6	P915-C350	f88r	PHARMA	15	PREPARE	P917-I1369	1	P912-E2394	P912-E2394	OK+E+O+D_ADDR+Y	Dann nimm den aktuellen Posten aus dem bezeichneten Teil in Arbeit: setze an und führe den Gang aus. Arbeite kurz.
+P925-P141	6	P915-C350	f88r	PHARMA	16	EXECUTE	P917-I1370	1	P912-E2395	P912-E2397	D_ADDR+AR | OR | O+AM_ADDR	Dann nimm den Ansatz aus dem bezeichneten Teil von der Entnahmestelle in Arbeit: führe den Gang aus. Führe ihn zur Innenstelle.
+P925-P142	6	P915-C350	f88r	PHARMA	17	PREPARE	P917-I1371	1	P912-E2398	P912-E2399	CHEO+Y | OK+E+OL	Dann nimm den Auszug und den aktuellen Posten in Arbeit: setze an. Arbeite kurz.
+P925-P143	6	P915-C350	f88r	PHARMA	18	SELECT	P917-I1372|P917-I1373	2	P912-E2400	P912-E2402	CHEO+L | S+AIIN | CHEO+S	Dann nimm den Auszug nach Sollmaß in Arbeit: wähle aus (2×). Führe ihn in den nächsten Lauf.
+P925-P144	6	P915-C350	f88r	PHARMA	19	PREPARE	P917-I1374	1	P912-E2403	P912-E2408	CHEO+L | D_ADDR+OL+EEE+Y | OR | CHEO+AM_ADDR | CHEO+LOCAL_CHAR_J+A_ADDR+AM_ADDR | Y+OK+E+O+D_ADDR+Y	Dann nimm den Auszug, den aktuellen Posten und den Ansatz aus dem bezeichneten Teil von der lokalen Stelle in Arbeit: setze an und führe den Gang aus. Führe ihn in den nächsten Lauf und zur Innenstelle. Arbeite vollständig und kurz.
+P925-P145	6	P915-C350	f88r	PHARMA	20	EXECUTE	P917-I1375	1	P912-E2409	P912-E2410	CHEO+AM_ADDR | CARRIER_Q+O+OR	Dann nimm den Auszug und den Ansatz in Arbeit: führe den Gang aus. Führe ihn zur Innenstelle.
+P925-P146	6	P915-C350	f88r	PHARMA	21	SELECT	P917-I1376	1	P912-E2411	P912-E2411	CH+EE+LOCAL_CHAR_B	Dann nimm den bezeichneten Arbeitsgang in Arbeit: entnimm. Arbeite länger.
+P925-P147	6	P915-C350	f88r	PHARMA	22	PREPARE	P917-I1377	1	P912-E2412	P912-E2412	Y+K+E+OR	Dann nimm den aktuellen Posten und den Ansatz in Arbeit: gib zu. Arbeite kurz.
+P925-P148	6	P915-C350	f88r	PHARMA	23	SELECT	P917-I1378	1	P912-E2413	P912-E2414	Y | S+AM_ADDR	Dann nimm den aktuellen Posten in Arbeit: wähle aus. Führe ihn zur Innenstelle.
+P925-P149	7	P915-C016	f56r	HERBAL	1	TRANSFER	P917-I0216	1	P912-E0341	P912-E0342	Y | Y+CH+O+CPH+Y	Nimm den aktuellen Posten in Arbeit: entnimm, führe den Gang aus und leite um.
+P925-P150	7	P915-C016	f56r	HERBAL	2	SELECT	P917-I0217	1	P912-E0343	P912-E0343	CH+OR+CH+Y	Dann nimm den Ansatz und den aktuellen Posten in Arbeit: entnimm (2×).
+P925-P151	7	P915-C016	f56r	HERBAL	3	PREPARE	P917-I0218|P917-I0219|P917-I0220	3	P912-E0344	P912-E0349	Y | OK+CH+E+Y | OL | OL+Y | K+OR+CH+Y | CH+Y+K+E+Y	Dann nimm den aktuellen Posten und den Ansatz in Arbeit: setze an, entnimm (3×) und gib zu (2×). Arbeite kurz.
+P925-P152	7	P915-C016	f56r	HERBAL	4	SELECT	P917-I0221	1	P912-E0350	P912-E0350	CH+OT+Y	Dann nimm den aktuellen Posten in Arbeit: entnimm.
+P925-P153	7	P915-C016	f56r	HERBAL	5	CONDITION	P917-I0222	1	P912-E0351	P912-E0351	SH+OK+AIIN	Dann nimm den bezeichneten Arbeitsgang nach Sollmaß in Arbeit: halte und setze an.
+P925-P154	7	P915-C016	f56r	HERBAL	6	PREPARE	P917-I0223|P917-I0224|P917-I0225|P917-I0226	4	P912-E0352	P912-E0357	OL+Y | OK+OL | Y | K+EE+Y | OK+EE+Y | OK+EE+Y	Dann nimm den aktuellen Posten in Arbeit: setze an (3×) und gib zu. Arbeite länger.
+P925-P155	7	P915-C016	f56r	HERBAL	7	PREPARE	P917-I0227	1	P912-E0358	P912-E0358	OK+S+Y	Dann nimm den aktuellen Posten in Arbeit: setze an und wähle aus.
+P925-P156	7	P915-C016	f56r	HERBAL	8	SELECT	P917-I0228|P917-I0229	2	P912-E0359	P912-E0361	OT | CH+OR | CH+OR	Dann nimm den Ansatz in Arbeit: entnimm (2×).
+P925-P157	7	P915-C016	f56r	HERBAL	9	PREPARE	P917-I0230	1	P912-E0362	P912-E0362	OK+OR	Dann nimm den Ansatz in Arbeit: setze an.
+P925-P158	7	P915-C016	f56r	HERBAL	10	CONDITION	P917-I0231	1	P912-E0363	P912-E0363	CHK+OR	Dann nimm den Ansatz in Arbeit: behandle.
+P925-P159	7	P915-C016	f56r	HERBAL	11	PREPARE	P917-I0232	1	P912-E0364	P912-E0365	Y | OK+AR	Dann nimm den aktuellen Posten von der Entnahmestelle in Arbeit: setze an.
+P925-P160	7	P915-C016	f56r	HERBAL	12	TRANSFER	P917-I0233	1	P912-E0366	P912-E0366	CHD+Y	Dann nimm den aktuellen Posten in Arbeit: setze um.
+P925-P161	7	P915-C016	f56r	HERBAL	13	SELECT	P917-I0234	1	P912-E0367	P912-E0367	HO+CH+OR	Dann nimm den Teil und den Ansatz in Arbeit: entnimm.
+P925-P162	7	P915-C016	f56r	HERBAL	14	PREPARE	P917-I0235	1	P912-E0368	P912-E0371	HO | HO+AL+Y | AIIN | Y+K+CH+O	Dann nimm den Teil und den aktuellen Posten nach Sollmaß in Arbeit: gib zu, entnimm und führe den Gang aus. Führe ihn zur Ziel- oder Anschlussstelle.
+P925-P163	7	P915-C016	f56r	HERBAL	15	SELECT	P917-I0236	1	P912-E0372	P912-E0373	Y | CH+E+Y	Dann nimm den aktuellen Posten in Arbeit: entnimm. Arbeite kurz.
+P925-P164	7	P915-C016	f56r	HERBAL	16	PREPARE	P917-I0237	1	P912-E0374	P912-E0374	K+EE+Y	Dann nimm den aktuellen Posten in Arbeit: gib zu. Arbeite länger.
+P925-P165	7	P915-C016	f56r	HERBAL	17	CONDITION	P917-I0238	1	P912-E0375	P912-E0377	AIIN | Y | SH+O	Dann nimm den aktuellen Posten nach Sollmaß in Arbeit: halte und führe den Gang aus.
+P925-P166	7	P915-C016	f56r	HERBAL	18	PREPARE	P917-I0239	1	P912-E0378	P912-E0378	K+OL	Dann nimm den bezeichneten Arbeitsgang in Arbeit: gib zu.
+P925-P167	7	P915-C016	f56r	HERBAL	19	SELECT	P917-I0240	1	P912-E0379	P912-E0379	OT+CH+OR	Dann nimm den Ansatz in Arbeit: entnimm.
+P925-P168	7	P915-C016	f56r	HERBAL	20	PREPARE	P917-I0241|P917-I0242	2	P912-E0380	P912-E0384	OK+Y | AL | RESUME_CARD | HO+Y | OK+Y	Dann nimm den aktuellen Posten und den Teil in Arbeit: setze an (2×). Führe ihn zur Ziel- oder Anschlussstelle.
+P925-P169	7	P915-C016	f56r	HERBAL	21	EXECUTE	P917-I0243	1	P912-E0385	P912-E0385	CH+EE+CKH+O+DY	Dann nimm den bezeichneten Arbeitsgang in Arbeit: entnimm und führe den Gang aus. Führe ihn durch den Durchlass. Arbeite länger. Schließe den Schritt.
+P925-P170	8	P915-C005	f13r	HERBAL	1	CONDITION	P917-I0092	1	P912-E0152	P912-E0152	T+OR+SH+OR	Nimm den Ansatz in Arbeit: stelle ein und halte.
+P925-P171	8	P915-C005	f13r	HERBAL	2	PREPARE	P917-I0093	1	P912-E0153	P912-E0153	O+P+Y	Dann nimm den aktuellen Posten in Arbeit: führe den Gang aus und setze ein.
+P925-P172	8	P915-C005	f13r	HERBAL	3	CONDITION	P917-I0094	1	P912-E0154	P912-E0154	SH+OL	Dann nimm den bezeichneten Arbeitsgang in Arbeit: halte.
+P925-P173	8	P915-C005	f13r	HERBAL	4	PREPARE	P917-I0095	1	P912-E0155	P912-E0156	Y | O+P+Y	Dann nimm den aktuellen Posten in Arbeit: führe den Gang aus und setze ein.
+P925-P174	8	P915-C005	f13r	HERBAL	5	CONDITION	P917-I0096	1	P912-E0157	P912-E0157	SH+OL	Dann nimm den bezeichneten Arbeitsgang in Arbeit: halte.
+P925-P175	8	P915-C005	f13r	HERBAL	6	PREPARE	P917-I0097|P917-I0098	2	P912-E0158	P912-E0159	O+P+CH+OR | D_ADDR+Y+P+Y	Dann nimm den Ansatz und den aktuellen Posten aus dem bezeichneten Teil in Arbeit: führe den Gang aus, setze ein (2×) und entnimm.
+P925-P176	8	P915-C005	f13r	HERBAL	7	SELECT	P917-I0099	1	P912-E0160	P912-E0160	D_ADDR+CH+LOCAL_CHAR_G	Dann nimm den bezeichneten Arbeitsgang aus dem bezeichneten Teil in Arbeit: entnimm.
+P925-P177	8	P915-C005	f13r	HERBAL	8	CONDITION	P917-I0100	1	P912-E0161	P912-E0164	D_ADDR+OL | OL | D_ADDR+OL | SH+K+Y	Dann nimm den aktuellen Posten aus dem bezeichneten Teil in Arbeit: halte und gib zu.
+P925-P178	8	P915-C005	f13r	HERBAL	9	PREPARE	P917-I0101	1	P912-E0165	P912-E0167	Y+AL | Y | Y+K+Y	Dann nimm den aktuellen Posten in Arbeit: gib zu. Führe ihn zur Ziel- oder Anschlussstelle.
+P925-P179	8	P915-C005	f13r	HERBAL	10	SELECT	P917-I0102|P917-I0103|P917-I0104	3	P912-E0168	P912-E0174	OT+Y | AIIN | S | Y | S | Y | D_ADDR+CH+OR	Dann nimm den aktuellen Posten und den Ansatz aus dem bezeichneten Teil nach Sollmaß in Arbeit: wähle aus (2×) und entnimm.
+P925-P180	8	P915-C005	f13r	HERBAL	11	CONDITION	P917-I0105	1	P912-E0175	P912-E0175	SH+AIIN	Dann nimm den bezeichneten Arbeitsgang nach Sollmaß in Arbeit: halte.
+P925-P181	8	P915-C005	f13r	HERBAL	12	EXECUTE	P917-I0106	1	P912-E0176	P912-E0176	O+EEE+S	Dann nimm den bezeichneten Arbeitsgang in Arbeit: führe den Gang aus und wähle aus. Arbeite vollständig.
+P925-P182	8	P915-C005	f13r	HERBAL	13	PREPARE	P917-I0107	1	P912-E0177	P912-E0177	Y+K+OR	Dann nimm den aktuellen Posten und den Ansatz in Arbeit: gib zu.
+P925-P183	8	P915-C005	f13r	HERBAL	14	SELECT	P917-I0108	1	P912-E0178	P912-E0178	CH+OR	Dann nimm den Ansatz in Arbeit: entnimm.
+P925-P184	8	P915-C005	f13r	HERBAL	15	EXECUTE	P917-I0109	1	P912-E0179	P912-E0179	Y+T+Y	Dann nimm den aktuellen Posten in Arbeit: stelle ein.
+P925-P185	8	P915-C005	f13r	HERBAL	16	PREPARE	P917-I0110|P917-I0111	2	P912-E0180	P912-E0181	Y+K+Y | K+Y	Dann nimm den aktuellen Posten in Arbeit: gib zu (2×).
+P925-P186	8	P915-C005	f13r	HERBAL	17	EXECUTE	P917-I0112|P917-I0113	2	P912-E0182	P912-E0184	D_ADDR+AR | O+D_ADDR+Y | Y+T+Y	Dann nimm den aktuellen Posten aus dem bezeichneten Teil von der Entnahmestelle in Arbeit: führe den Gang aus und stelle ein.
+P925-P187	8	P915-C005	f13r	HERBAL	18	SELECT	P917-I0114	1	P912-E0185	P912-E0185	OT+CH+OR	Dann nimm den Ansatz in Arbeit: entnimm.
+P925-P188	8	P915-C005	f13r	HERBAL	19	CONDITION	P917-I0115	1	P912-E0186	P912-E0186	SH+OR+O+D_ADDR+O	Dann nimm den Ansatz aus dem bezeichneten Teil in Arbeit: halte und führe den Gang aus (2×).
+P925-P189	8	P915-C005	f13r	HERBAL	20	EXECUTE	P917-I0116	1	P912-E0187	P912-E0188	Y | T+Y	Dann nimm den aktuellen Posten in Arbeit: stelle ein.
+P925-P190	8	P915-C005	f13r	HERBAL	21	PREPARE	P917-I0117|P917-I0118|P917-I0119	3	P912-E0189	P912-E0191	K+OL | D_ADDR+P+Y | O+P+Y	Dann nimm den aktuellen Posten aus dem bezeichneten Teil in Arbeit: gib zu, setze ein (2×) und führe den Gang aus.
+P925-P191	8	P915-C005	f13r	HERBAL	22	SELECT	P917-I0120	1	P912-E0192	P912-E0192	OT+CH+OL	Dann nimm den bezeichneten Arbeitsgang in Arbeit: entnimm.
+P925-P192	8	P915-C005	f13r	HERBAL	23	TRANSFER	P917-I0121	1	P912-E0193	P912-E0193	CFH+OL+DY	Dann nimm den bezeichneten Arbeitsgang in Arbeit: trenne. Schließe den Schritt.
+P925-P193	9	P915-C354	f88r	PHARMA	1	PREPARE	P917-I1414|P917-I1415|P917-I1416	3	P912-E2471	P912-E2474	OK+OL | OL | OK+OL | OK+OL	Dann nimm den bezeichneten Arbeitsgang in Arbeit: setze an (3×).
+P925-P194	9	P915-C354	f88r	PHARMA	2	CONDITION	P917-I1417	1	P912-E2475	P912-E2476	OL | SH+EE+Y	Dann nimm den aktuellen Posten in Arbeit: halte. Arbeite länger.
+P925-P195	9	P915-C354	f88r	PHARMA	3	PREPARE	P917-I1418	1	P912-E2477	P912-E2480	OR | AIIN | OL+DA+L | Y+K+AR	Dann nimm den Ansatz und den aktuellen Posten von der Entnahmestelle nach Sollmaß auf der zweiten Stufe in Arbeit: gib zu. Führe ihn in den nächsten Lauf.
+P925-P196	9	P915-C354	f88r	PHARMA	4	SELECT	P917-I1419	1	P912-E2481	P912-E2485	CHEO+L | OL | Y | CKH+E+Y | S	Dann nimm den Auszug und den aktuellen Posten in Arbeit: wähle aus. Führe ihn in den nächsten Lauf und durch den Durchlass. Arbeite kurz.
+P925-P197	9	P915-C354	f88r	PHARMA	5	CONDITION	P917-I1420	1	P912-E2486	P912-E2487	OR | SH+E+AR	Dann nimm den Ansatz von der Entnahmestelle in Arbeit: halte. Arbeite kurz.
+P925-P198	9	P915-C354	f88r	PHARMA	6	SELECT	P917-I1421	1	P912-E2488	P912-E2489	AR | AL+S+Y	Dann nimm den aktuellen Posten von der Entnahmestelle in Arbeit: wähle aus. Führe ihn zur Ziel- oder Anschlussstelle.
+P925-P199	9	P915-C354	f88r	PHARMA	7	PREPARE	P917-I1422|P917-I1423	2	P912-E2490	P912-E2492	K+OR | Y | OK+OL	Dann nimm den Ansatz und den aktuellen Posten in Arbeit: gib zu und setze an.
+P925-P200	9	P915-C354	f88r	PHARMA	8	EXECUTE	P917-I1424	1	P912-E2493	P912-E2494	CHEO+L | CH+O+D_ADDR+Y	Dann nimm den Auszug und den aktuellen Posten aus dem bezeichneten Teil in Arbeit: entnimm und führe den Gang aus. Führe ihn in den nächsten Lauf.
+P925-P201	9	P915-C354	f88r	PHARMA	9	PREPARE	P917-I1425|P917-I1426|P917-I1427	3	P912-E2495	P912-E2499	OK+OL | K+CH+OR | OL | AL | Y+K+EEE+Y	Dann nimm den Ansatz und den aktuellen Posten in Arbeit: setze an, gib zu (2×) und entnimm. Führe ihn zur Ziel- oder Anschlussstelle. Arbeite vollständig.
+P925-P202	9	P915-C354	f88r	PHARMA	10	CONDITION	P917-I1428	1	P912-E2500	P912-E2500	CHEO+R	Dann nimm den Auszug in Arbeit: kennzeichne.
+P925-P203	9	P915-C354	f88r	PHARMA	11	EXECUTE	P917-I1429	1	P912-E2501	P912-E2501	CHEO+T+E+Y	Dann nimm den Auszug und den aktuellen Posten in Arbeit: stelle ein. Arbeite kurz.
+P925-P204	9	P915-C354	f88r	PHARMA	12	PREPARE	P917-I1430	1	P912-E2502	P912-E2503	CHEO+L | OK+E+OR	Dann nimm den Auszug und den Ansatz in Arbeit: setze an. Führe ihn in den nächsten Lauf. Arbeite kurz.
+P925-P205	9	P915-C354	f88r	PHARMA	13	EXECUTE	P917-I1431|P917-I1432	2	P912-E2504	P912-E2505	CH+E+T+CH+Y | O+LOCAL_CHAR_F+AL	Dann nimm den aktuellen Posten in Arbeit: entnimm (2×), stelle ein und führe den Gang aus. Führe ihn zur Ziel- oder Anschlussstelle. Arbeite kurz.
+P925-P206	9	P915-C354	f88r	PHARMA	14	SELECT	P917-I1433	1	P912-E2506	P912-E2507	D_ADDR+AR | CH+E+AR	Dann nimm den bezeichneten Arbeitsgang aus dem bezeichneten Teil von der Entnahmestelle in Arbeit: entnimm. Arbeite kurz.
+P925-P207	9	P915-C354	f88r	PHARMA	15	PREPARE	P917-I1434	1	P912-E2508	P912-E2510	OL | D_ADDR+OL | CARRIER_Q+O+E+K+E+OR	Dann nimm den Ansatz aus dem bezeichneten Teil in Arbeit: führe den Gang aus und gib zu. Arbeite kurz.
+P925-P208	9	P915-C354	f88r	PHARMA	16	CONTEXT	P917-I1435	1	P912-E2511	P912-E2511	CHEO+AM_ADDR	Dann nimm den Auszug in Arbeit: arbeite damit weiter. Führe ihn zur Innenstelle.
+P925-P209	10	P915-C001	f10r	HERBAL	1	CONDITION	P917-I0001|P917-I0002|P917-I0003	3	P912-E0001	P912-E0003	P+CH+O+CTH+Y | SH+OR | O+CTH+O+D_ADDR+Y	Nimm den aktuellen Posten und den Ansatz aus dem bezeichneten Teil in Arbeit: setze ein, entnimm, führe den Gang aus (3×), stelle bereit (2×) und halte.
+P925-P210	10	P915-C001	f10r	HERBAL	2	SELECT	P917-I0004	1	P912-E0004	P912-E0004	CH+OR+CH+Y	Dann nimm den Ansatz und den aktuellen Posten in Arbeit: entnimm (2×).
+P925-P211	10	P915-C001	f10r	HERBAL	3	PREPARE	P917-I0005|P917-I0006|P917-I0007|P917-I0008	4	P912-E0005	P912-E0008	P+CH+O+D_ADDR+OL | CH+O+P+CH+AL | Y+P+CH | K+O+M_LOCAL	Dann nimm den aktuellen Posten aus dem bezeichneten Teil in Arbeit: setze ein (3×), entnimm (4×), führe den Gang aus (3×) und gib zu. Führe ihn zur Ziel- oder Anschlussstelle.
+P925-P212	10	P915-C001	f10r	HERBAL	4	SELECT	P917-I0009	1	P912-E0009	P912-E0009	CH+E+Y	Dann nimm den aktuellen Posten in Arbeit: entnimm. Arbeite kurz.
+P925-P213	10	P915-C001	f10r	HERBAL	5	CONDITION	P917-I0010	1	P912-E0010	P912-E0010	CTH+O+OR	Dann nimm den Ansatz in Arbeit: stelle bereit und führe den Gang aus.
+P925-P214	10	P915-C001	f10r	HERBAL	6	EXECUTE	P917-I0011	1	P912-E0011	P912-E0012	AR | CH+T+Y	Dann nimm den aktuellen Posten von der Entnahmestelle in Arbeit: entnimm und stelle ein.
+P925-P215	10	P915-C001	f10r	HERBAL	7	SELECT	P917-I0012	1	P912-E0013	P912-E0014	OS | CH+AIR	Dann nimm den bezeichneten Arbeitsgang in Arbeit: entnimm. Führe ihn entlang des Laufs.
+P925-P216	10	P915-C001	f10r	HERBAL	8	EXECUTE	P917-I0013	1	P912-E0015	P912-E0015	OT+Y+T+CH+OL	Dann nimm den aktuellen Posten in Arbeit: stelle ein und entnimm.
+P925-P217	10	P915-C001	f10r	HERBAL	9	PREPARE	P917-I0014	1	P912-E0016	P912-E0016	OK+Y	Dann nimm den aktuellen Posten in Arbeit: setze an.
+P925-P218	10	P915-C001	f10r	HERBAL	10	EXECUTE	P917-I0015|P917-I0016|P917-I0017	3	P912-E0017	P912-E0021	AIIN | E+T+Y | OT+OR | O | T+Y	Dann nimm den aktuellen Posten und den Ansatz nach Sollmaß in Arbeit: stelle ein (2×) und führe den Gang aus. Arbeite kurz.
+P925-P219	10	P915-C001	f10r	HERBAL	11	CONDITION	P917-I0018	1	P912-E0022	P912-E0023	AIIN | CH+O+CTH+Y	Dann nimm den aktuellen Posten nach Sollmaß in Arbeit: entnimm, führe den Gang aus und stelle bereit.
+P925-P220	10	P915-C001	f10r	HERBAL	12	EXECUTE	P917-I0019	1	P912-E0024	P912-E0027	OT+Y | OL | OR | Y+T+Y	Dann nimm den aktuellen Posten und den Ansatz in Arbeit: stelle ein.
+P925-P221	10	P915-C001	f10r	HERBAL	13	SELECT	P917-I0020|P917-I0021	2	P912-E0028	P912-E0031	Y | Y | S+OR | CH+AIIN	Dann nimm den aktuellen Posten und den Ansatz nach Sollmaß in Arbeit: wähle aus und entnimm.
+P925-P222	10	P915-C001	f10r	HERBAL	14	CONDITION	P917-I0022|P917-I0023	2	P912-E0032	P912-E0033	CH+CTH+Y | CTH+O	Dann nimm den aktuellen Posten in Arbeit: entnimm, stelle bereit (2×) und führe den Gang aus.
+P925-P223	10	P915-C001	f10r	HERBAL	15	EXECUTE	P917-I0024	1	P912-E0034	P912-E0037	CKH+Y | OR | AIIN | CH+T+CH+OR	Dann nimm den aktuellen Posten und den Ansatz nach Sollmaß in Arbeit: entnimm (2×) und stelle ein. Führe ihn durch den Durchlass.
+P925-P224	10	P915-C001	f10r	HERBAL	16	CONDITION	P917-I0025	1	P912-E0038	P912-E0038	D_ADDR+O+IIN+R	Dann nimm den bezeichneten Arbeitsgang aus dem bezeichneten Teil auf der angegebenen Stufe in Arbeit: führe den Gang aus und kennzeichne.
+P925-P225	10	P915-C001	f10r	HERBAL	17	EXECUTE	P917-I0026	1	P912-E0039	P912-E0039	O+DY	Dann nimm den bezeichneten Arbeitsgang in Arbeit: führe den Gang aus. Schließe den Schritt.
+P925-P226	11	P915-C346	f67r2	ZODIAC	1	PREPARE	P917-I1296	1	P912-E1903	P912-E1906	D_ADDR+AR | AL+D_ADDR+AIIN | Y+D_ADDR+AIIN | CARRIER_Q+K+O+Y	Nimm den aktuellen Posten aus dem bezeichneten Teil von der Entnahmestelle nach Sollmaß in Arbeit: gib zu und führe den Gang aus. Führe ihn zur Ziel- oder Anschlussstelle.
+P925-P227	11	P915-C346	f67r2	ZODIAC	2	EXECUTE	P917-I1297	1	P912-E1907	P912-E1908	Y+D_ADDR+AIIN | CARRIER_Q+O+LOCAL_CHAR_F+AIR	Dann nimm den aktuellen Posten aus dem bezeichneten Teil nach Sollmaß in Arbeit: führe den Gang aus. Führe ihn entlang des Laufs.
+P925-P228	11	P915-C346	f67r2	ZODIAC	3	PREPARE	P917-I1298|P917-I1299	2	P912-E1909	P912-E1910	Y+P+AIR | Y+K+O+AIIN	Dann nimm den aktuellen Posten nach Sollmaß in Arbeit: setze ein, gib zu und führe den Gang aus. Führe ihn entlang des Laufs.
+P925-P229	11	P915-C346	f67r2	ZODIAC	4	EXECUTE	P917-I1300	1	P912-E1911	P912-E1912	Y+D_ADDR+OL+Y | Y+T+AL+CH+O+S	Dann nimm den aktuellen Posten aus dem bezeichneten Teil in Arbeit: stelle ein, entnimm, führe den Gang aus und wähle aus. Führe ihn zur Ziel- oder Anschlussstelle.
+P925-P230	11	P915-C346	f67r2	ZODIAC	5	PREPARE	P917-I1301	1	P912-E1913	P912-E1914	OL+Y | OK+E+Y	Dann nimm den aktuellen Posten in Arbeit: setze an. Arbeite kurz.
+P925-P231	11	P915-C346	f67r2	ZODIAC	6	CONDITION	P917-I1302|P917-I1303	2	P912-E1915	P912-E1917	S+SH+E+Y | Y | SH+EE+S	Dann nimm den aktuellen Posten in Arbeit: wähle aus (2×) und halte (2×). Arbeite kurz und länger.
+P925-P232	11	P915-C346	f67r2	ZODIAC	7	PREPARE	P917-I1304|P917-I1305|P917-I1306|P917-I1307	4	P912-E1918	P912-E1921	CARRIER_Q+E+Y+K+EE+Y | Y+K+CH+E+Y | Y+K+CH+E+Y | OK+E+O+CH+Y	Dann nimm den aktuellen Posten in Arbeit: gib zu (3×), entnimm (3×), setze an und führe den Gang aus. Arbeite kurz und länger.
+P925-P233	11	P915-C346	f67r2	ZODIAC	8	EXECUTE	P917-I1308	1	P912-E1922	P912-E1922	O+AIIN	Dann nimm den bezeichneten Arbeitsgang nach Sollmaß in Arbeit: führe den Gang aus.
+P925-P234	11	P915-C346	f67r2	ZODIAC	9	PREPARE	P917-I1309	1	P912-E1923	P912-E1923	OK+OL	Dann nimm den bezeichneten Arbeitsgang in Arbeit: setze an.
+P925-P235	11	P915-C346	f67r2	ZODIAC	10	CONDITION	P917-I1310	1	P912-E1924	P912-E1926	AR | OL+AR | Y+SH+E+Y	Dann nimm den aktuellen Posten von der Entnahmestelle in Arbeit: halte. Arbeite kurz.
+P925-P236	11	P915-C346	f67r2	ZODIAC	11	PREPARE	P917-I1311	1	P912-E1927	P912-E1927	OK+EE+O+D_ADDR+Y	Dann nimm den aktuellen Posten aus dem bezeichneten Teil in Arbeit: setze an und führe den Gang aus. Arbeite länger.
+P925-P237	11	P915-C346	f67r2	ZODIAC	12	SELECT	P917-I1312	1	P912-E1928	P912-E1928	CHEO+S	Dann nimm den Auszug in Arbeit: wähle aus.
+P925-P238	11	P915-C346	f67r2	ZODIAC	13	EXECUTE	P917-I1313|P917-I1314|P917-I1315	3	P912-E1929	P912-E1931	O+EE+O+S | CARRIER_Q+O+CKH+Y | CH+O+S	Dann nimm den aktuellen Posten in Arbeit: führe den Gang aus (4×), wähle aus (2×) und entnimm. Führe ihn durch den Durchlass. Arbeite länger.
+P925-P239	11	P915-C346	f67r2	ZODIAC	14	PREPARE	P917-I1316|P917-I1317	2	P912-E1932	P912-E1934	AIIN | OK+EE+O+D_ADDR+Y | OK+O+AIIN	Dann nimm den aktuellen Posten aus dem bezeichneten Teil nach Sollmaß in Arbeit: setze an (2×) und führe den Gang aus (2×). Arbeite länger.
+P925-P240	11	P915-C346	f67r2	ZODIAC	15	EXECUTE	P917-I1318	1	P912-E1935	P912-E1935	O+D_ADDR+AIN	Dann nimm den bezeichneten Arbeitsgang aus dem bezeichneten Teil als Portion in Arbeit: führe den Gang aus.
+P925-P241	11	P915-C346	f67r2	ZODIAC	16	CONTEXT	P917-I1319	1	P912-E1936	P912-E1938	AR | AIR | A_ADDR+Y	Dann nimm den aktuellen Posten von der Entnahmestelle von der lokalen Stelle in Arbeit: arbeite damit weiter. Führe ihn entlang des Laufs.
+P925-P242	12	P915-C352	f88r	PHARMA	1	SELECT	P917-I1385|P917-I1386	2	P912-E2427	P912-E2428	S+AL+S+AL+Y | CH+E+Y	Nimm den aktuellen Posten in Arbeit: wähle aus (2×) und entnimm. Führe ihn zur Ziel- oder Anschlussstelle. Arbeite kurz.
+P925-P243	12	P915-C352	f88r	PHARMA	2	PREPARE	P917-I1387|P917-I1388|P917-I1389	3	P912-E2429	P912-E2432	OK+OL | AIIN | CARRIER_Q+O+E+K+OL | CARRIER_Q+O+E+K+OL	Dann nimm den bezeichneten Arbeitsgang nach Sollmaß in Arbeit: setze an, führe den Gang aus (2×) und gib zu (2×). Arbeite kurz.
+P925-P244	12	P915-C352	f88r	PHARMA	3	EXECUTE	P917-I1390	1	P912-E2433	P912-E2433	CARRIER_Q+O+CKH+OL	Dann nimm den bezeichneten Arbeitsgang in Arbeit: führe den Gang aus. Führe ihn durch den Durchlass.
+P925-P245	12	P915-C352	f88r	PHARMA	4	PREPARE	P917-I1391	1	P912-E2434	P912-E2434	OK+OL	Dann nimm den bezeichneten Arbeitsgang in Arbeit: setze an.
+P925-P246	12	P915-C352	f88r	PHARMA	5	CONDITION	P917-I1392	1	P912-E2435	P912-E2436	CHEO+L | SH+E+OL	Dann nimm den Auszug in Arbeit: halte. Führe ihn in den nächsten Lauf. Arbeite kurz.
+P925-P247	12	P915-C352	f88r	PHARMA	6	PREPARE	P917-I1393	1	P912-E2437	P912-E2437	OK+EE+Y	Dann nimm den aktuellen Posten in Arbeit: setze an. Arbeite länger.
+P925-P248	12	P915-C352	f88r	PHARMA	7	SELECT	P917-I1394|P917-I1395|P917-I1396	3	P912-E2438	P912-E2442	S | Y | S | AIIN | CH+OR	Dann nimm den aktuellen Posten und den Ansatz nach Sollmaß in Arbeit: wähle aus (2×) und entnimm.
+P925-P249	12	P915-C352	f88r	PHARMA	8	EXECUTE	P917-I1397	1	P912-E2443	P912-E2445	OT+E+OR | AIIN | CH+O+S+AL+S	Dann nimm den Ansatz nach Sollmaß in Arbeit: entnimm, führe den Gang aus und wähle aus (2×). Führe ihn zur Ziel- oder Anschlussstelle. Arbeite kurz.
+P925-P250	12	P915-C352	f88r	PHARMA	9	SELECT	P917-I1398	1	P912-E2446	P912-E2447	E+OL | CH+OR	Dann nimm den Ansatz in Arbeit: entnimm. Arbeite kurz.
+P925-P251	12	P915-C352	f88r	PHARMA	10	TRANSFER	P917-I1399	1	P912-E2448	P912-E2448	O+LSH+E+O+D_ADDR+Y	Dann nimm den aktuellen Posten aus dem bezeichneten Teil in Arbeit: führe den Gang aus (2×) und spüle. Arbeite kurz.
+P925-P252	12	P915-C352	f88r	PHARMA	11	PREPARE	P917-I1400	1	P912-E2449	P912-E2449	OK+E+OL	Dann nimm den bezeichneten Arbeitsgang in Arbeit: setze an. Arbeite kurz.
+P925-P253	12	P915-C352	f88r	PHARMA	12	CONDITION	P917-I1401|P917-I1402|P917-I1403	3	P912-E2450	P912-E2453	SH+O+Y | OL | SH+EE+OL | SH+E+OL+D_ADDR+LOCAL_CHAR_G	Dann nimm den aktuellen Posten aus dem bezeichneten Teil in Arbeit: halte (3×) und führe den Gang aus. Arbeite länger und kurz.
+P925-P254	12	P915-C352	f88r	PHARMA	13	PREPARE	P917-I1404	1	P912-E2454	P912-E2455	Y+Y | OK+AIIN	Dann nimm den aktuellen Posten nach Sollmaß in Arbeit: setze an.
+P925-P255	12	P915-C352	f88r	PHARMA	14	CONDITION	P917-I1405	1	P912-E2456	P912-E2457	OL | CHEO+R	Dann nimm den Auszug in Arbeit: kennzeichne.
+P925-P256	12	P915-C352	f88r	PHARMA	15	SELECT	P917-I1406	1	P912-E2458	P912-E2459	OL | CH+OR+OL+S+AL	Dann nimm den Ansatz in Arbeit: entnimm und wähle aus. Führe ihn zur Ziel- oder Anschlussstelle.
+P925-P257	13	P915-C219	f82r	BIOLOGICAL	1	TRANSFER	P917-I0884|P917-I0885	2	P912-E1278	P912-E1282	S+A_ADDR+LSH+E+Y | AIIN | Y | OL | CHD+Y	Dann nimm den aktuellen Posten von der lokalen Stelle nach Sollmaß in Arbeit: wähle aus, spüle und setze um. Arbeite kurz.
+P925-P258	13	P915-C219	f82r	BIOLOGICAL	2	PREPARE	P917-I0886|P917-I0887	2	P912-E1283	P912-E1285	OK+EE+Y | AL | OK+AIIN	Dann nimm den aktuellen Posten nach Sollmaß in Arbeit: setze an (2×). Führe ihn zur Ziel- oder Anschlussstelle. Arbeite länger.
+P925-P259	13	P915-C219	f82r	BIOLOGICAL	3	CONDITION	P917-I0888|P917-I0889	2	P912-E1286	P912-E1287	CHEO+R | SH+EE+Y	Dann nimm den Auszug und den aktuellen Posten in Arbeit: kennzeichne und halte. Arbeite länger.
+P925-P260	13	P915-C219	f82r	BIOLOGICAL	4	PREPARE	P917-I0890	1	P912-E1288	P912-E1288	OK+AIIN	Dann nimm den bezeichneten Arbeitsgang nach Sollmaß in Arbeit: setze an.
+P925-P261	13	P915-C219	f82r	BIOLOGICAL	5	CONDITION	P917-I0891	1	P912-E1289	P912-E1289	SH+CKH+E+Y	Dann nimm den aktuellen Posten in Arbeit: halte. Führe ihn durch den Durchlass. Arbeite kurz.
+P925-P262	13	P915-C219	f82r	BIOLOGICAL	6	PREPARE	P917-I0892|P917-I0893	2	P912-E1290	P912-E1292	OL | K+EEE+D_ADDR+Y | OK+EEE+Y	Dann nimm den aktuellen Posten aus dem bezeichneten Teil in Arbeit: gib zu und setze an. Arbeite vollständig.
+P925-P263	13	P915-C219	f82r	BIOLOGICAL	7	CONDITION	P917-I0894|P917-I0895|P917-I0896	3	P912-E1293	P912-E1295	R+A_ADDR+S+Y | SH+EE+Y | CTH+E+Y	Dann nimm den aktuellen Posten von der lokalen Stelle in Arbeit: kennzeichne, wähle aus, halte und stelle bereit. Arbeite länger und kurz.
+P925-P264	13	P915-C219	f82r	BIOLOGICAL	8	PREPARE	P917-I0897|P917-I0898	2	P912-E1296	P912-E1300	OK+EE+Y | L+EE+Y | AIIN | Y | OK+EEE+DY	Dann nimm den aktuellen Posten nach Sollmaß in Arbeit: setze an (2×). Führe ihn in den nächsten Lauf. Arbeite länger und vollständig. Schließe den Schritt.
+P925-P265	14	P915-C011	f55v	HERBAL	1	EXECUTE	P917-I0152	1	P912-E0237	P912-E0237	CARRIER_Q+O+AIIN	Nimm den bezeichneten Arbeitsgang nach Sollmaß in Arbeit: führe den Gang aus.
+P925-P266	14	P915-C011	f55v	HERBAL	2	PREPARE	P917-I0153|P917-I0154|P917-I0155	3	P912-E0238	P912-E0240	OK+E+O+D_ADDR+Y | Y+K+EE+S+AN | OK+EEE+Y	Dann nimm den aktuellen Posten aus dem bezeichneten Teil in Arbeit: setze an (2×), führe den Gang aus, gib zu und wähle aus. Arbeite kurz, länger und vollständig.
+P925-P267	14	P915-C011	f55v	HERBAL	3	EXECUTE	P917-I0156	1	P912-E0241	P912-E0243	OS | AIN | CARRIER_Q+O+OL	Dann nimm den bezeichneten Arbeitsgang als Portion in Arbeit: führe den Gang aus.
+P925-P268	14	P915-C011	f55v	HERBAL	4	TRANSFER	P917-I0157	1	P912-E0244	P912-E0245	AL | CHD+Y	Dann nimm den aktuellen Posten in Arbeit: setze um. Führe ihn zur Ziel- oder Anschlussstelle.
+P925-P269	14	P915-C011	f55v	HERBAL	5	SELECT	P917-I0158	1	P912-E0246	P912-E0246	S+AR	Dann nimm den bezeichneten Arbeitsgang von der Entnahmestelle in Arbeit: wähle aus.
+P925-P270	14	P915-C011	f55v	HERBAL	6	PREPARE	P917-I0159|P917-I0160	2	P912-E0247	P912-E0251	AIIN | OL | K+AR | AM_ADDR | OK+AR	Dann nimm den bezeichneten Arbeitsgang von der Entnahmestelle nach Sollmaß in Arbeit: gib zu und setze an. Führe ihn zur Innenstelle.
+P925-P271	14	P915-C011	f55v	HERBAL	7	SELECT	P917-I0161	1	P912-E0252	P912-E0252	CH+CKH+D_ADDR+Y	Dann nimm den aktuellen Posten aus dem bezeichneten Teil in Arbeit: entnimm. Führe ihn durch den Durchlass.
+P925-P272	14	P915-C011	f55v	HERBAL	8	PREPARE	P917-I0162	1	P912-E0253	P912-E0254	CHEO+Y | K+EE+Y+LOCAL_CHAR_F+AR	Dann nimm den Auszug und den aktuellen Posten von der Entnahmestelle in Arbeit: gib zu. Arbeite länger.
+P925-P273	14	P915-C011	f55v	HERBAL	9	TRANSFER	P917-I0163	1	P912-E0255	P912-E0256	AL | O+CHD+Y	Dann nimm den aktuellen Posten in Arbeit: führe den Gang aus und setze um. Führe ihn zur Ziel- oder Anschlussstelle.
+P925-P274	14	P915-C011	f55v	HERBAL	10	PREPARE	P917-I0164	1	P912-E0257	P912-E0257	OK+AIN	Dann nimm den bezeichneten Arbeitsgang als Portion in Arbeit: setze an.
+P925-P275	14	P915-C011	f55v	HERBAL	11	EXECUTE	P917-I0165	1	P912-E0258	P912-E0258	O+DY	Dann nimm den bezeichneten Arbeitsgang in Arbeit: führe den Gang aus. Schließe den Schritt.
+P925-P276	15	P915-C021	f75r	BIOLOGICAL	1	CONDITION	P917-I0295	1	P912-E0454	P912-E0454	R+OR	Nimm den Ansatz in Arbeit: kennzeichne.
+P925-P277	15	P915-C021	f75r	BIOLOGICAL	2	PREPARE	P917-I0296	1	P912-E0455	P912-E0455	OK+AIN	Dann nimm den bezeichneten Arbeitsgang als Portion in Arbeit: setze an.
+P925-P278	15	P915-C021	f75r	BIOLOGICAL	3	SELECT	P917-I0297	1	P912-E0456	P912-E0456	CH+AL	Dann nimm den bezeichneten Arbeitsgang in Arbeit: entnimm. Führe ihn zur Ziel- oder Anschlussstelle.
+P925-P279	15	P915-C021	f75r	BIOLOGICAL	4	PREPARE	P917-I0298	1	P912-E0457	P912-E0459	OR+Y | E+Y | K+AIN	Dann nimm den Ansatz und den aktuellen Posten als Portion in Arbeit: gib zu. Arbeite kurz.
+P925-P280	15	P915-C021	f75r	BIOLOGICAL	5	CONDITION	P917-I0299	1	P912-E0460	P912-E0460	SH+EE+K+Y	Dann nimm den aktuellen Posten in Arbeit: halte und gib zu. Arbeite länger.
+P925-P281	15	P915-C021	f75r	BIOLOGICAL	6	EXECUTE	P917-I0300	1	P912-E0461	P912-E0461	L+T+AIN	Dann nimm den bezeichneten Arbeitsgang als Portion in Arbeit: stelle ein. Führe ihn in den nächsten Lauf.
+P925-P282	15	P915-C021	f75r	BIOLOGICAL	7	TRANSFER	P917-I0301	1	P912-E0462	P912-E0462	SOLK+AR	Dann nimm den bezeichneten Arbeitsgang von der Entnahmestelle in Arbeit: fange auf.
+P925-P283	15	P915-C021	f75r	BIOLOGICAL	8	PREPARE	P917-I0302|P917-I0303	2	P912-E0463	P912-E0466	OR | DA+CKH+Y | L+K+AM_ADDR+O | Y+K+EE+Y	Dann nimm den Ansatz und den aktuellen Posten auf der zweiten Stufe in Arbeit: gib zu (2×) und führe den Gang aus. Führe ihn durch den Durchlass, in den nächsten Lauf und zur Innenstelle. Arbeite länger.
+P925-P284	15	P915-C021	f75r	BIOLOGICAL	9	CONDITION	P917-I0304	1	P912-E0467	P912-E0467	L+SH+E+Y	Dann nimm den aktuellen Posten in Arbeit: halte. Führe ihn in den nächsten Lauf. Arbeite kurz.
+P925-P285	15	P915-C021	f75r	BIOLOGICAL	10	PREPARE	P917-I0305	1	P912-E0468	P912-E0468	K+AL	Dann nimm den bezeichneten Arbeitsgang in Arbeit: gib zu. Führe ihn zur Ziel- oder Anschlussstelle.
+P925-P286	15	P915-C021	f75r	BIOLOGICAL	11	CONDITION	P917-I0306	1	P912-E0469	P912-E0470	Y | SH+E+Y	Dann nimm den aktuellen Posten in Arbeit: halte. Arbeite kurz.
+P925-P287	15	P915-C021	f75r	BIOLOGICAL	12	PREPARE	P917-I0307	1	P912-E0471	P912-E0471	OK	Dann nimm den bezeichneten Arbeitsgang in Arbeit: setze an.
+P925-P288	15	P915-C021	f75r	BIOLOGICAL	13	CONDITION	P917-I0308	1	P912-E0472	P912-E0472	SH+E+Y	Dann nimm den aktuellen Posten in Arbeit: halte. Arbeite kurz.
+P925-P289	15	P915-C021	f75r	BIOLOGICAL	14	PREPARE	P917-I0309	1	P912-E0473	P912-E0473	OK+EE+DY	Dann nimm den bezeichneten Arbeitsgang in Arbeit: setze an. Arbeite länger. Schließe den Schritt.
+P925-P290	16	P915-C244	f82r	BIOLOGICAL	1	SELECT	P917-I0952	1	P912-E1372	P912-E1373	OT+Y | L+CH+EE+OR	Dann nimm den aktuellen Posten und den Ansatz in Arbeit: entnimm. Führe ihn in den nächsten Lauf. Arbeite länger.
+P925-P291	16	P915-C244	f82r	BIOLOGICAL	2	PREPARE	P917-I0953	1	P912-E1374	P912-E1374	OK+AIN	Dann nimm den bezeichneten Arbeitsgang als Portion in Arbeit: setze an.
+P925-P292	16	P915-C244	f82r	BIOLOGICAL	3	SELECT	P917-I0954	1	P912-E1375	P912-E1375	CH+EE+D_ADDR+Y	Dann nimm den aktuellen Posten aus dem bezeichneten Teil in Arbeit: entnimm. Arbeite länger.
+P925-P293	16	P915-C244	f82r	BIOLOGICAL	4	TRANSFER	P917-I0955	1	P912-E1376	P912-E1376	L+CHD	Dann nimm den bezeichneten Arbeitsgang in Arbeit: setze um. Führe ihn in den nächsten Lauf.
+P925-P294	16	P915-C244	f82r	BIOLOGICAL	5	EXECUTE	P917-I0956	1	P912-E1377	P912-E1377	T+AIIN	Dann nimm den bezeichneten Arbeitsgang nach Sollmaß in Arbeit: stelle ein.
+P925-P295	16	P915-C244	f82r	BIOLOGICAL	6	CONDITION	P917-I0957	1	P912-E1378	P912-E1378	SHED+AIIN	Dann nimm den bezeichneten Arbeitsgang nach Sollmaß in Arbeit: lass absetzen.
+P925-P296	16	P915-C244	f82r	BIOLOGICAL	7	SELECT	P917-I0958	1	P912-E1379	P912-E1379	CH+CKH+E+Y	Dann nimm den aktuellen Posten in Arbeit: entnimm. Führe ihn durch den Durchlass. Arbeite kurz.
+P925-P297	16	P915-C244	f82r	BIOLOGICAL	8	CONDITION	P917-I0959|P917-I0960|P917-I0961	3	P912-E1380	P912-E1385	L+Y | L+CKH+Y | SH+EE+Y | L+R | Y | R+AIN	Dann nimm den aktuellen Posten als Portion in Arbeit: halte und kennzeichne (2×). Führe ihn in den nächsten Lauf und durch den Durchlass. Arbeite länger.
+P925-P298	16	P915-C244	f82r	BIOLOGICAL	9	SELECT	P917-I0962	1	P912-E1386	P912-E1386	S+AIN	Dann nimm den bezeichneten Arbeitsgang als Portion in Arbeit: wähle aus.
+P925-P299	16	P915-C244	f82r	BIOLOGICAL	10	CONDITION	P917-I0963	1	P912-E1387	P912-E1390	OL | CHEO+L | E+Y | CHEO+R	Dann nimm den Auszug und den aktuellen Posten in Arbeit: kennzeichne. Führe ihn in den nächsten Lauf. Arbeite kurz.
+P925-P300	16	P915-C244	f82r	BIOLOGICAL	11	CONTEXT	P917-I0964	1	P912-E1391	P912-E1391	Y	Dann nimm den aktuellen Posten in Arbeit: arbeite damit weiter.
+P925-P301	17	P915-C267	f83r	BIOLOGICAL	1	CONDITION	P917-I1026|P917-I1027|P917-I1028	3	P912-E1481	P912-E1483	R | SHED+K+E+D_ADDR+Y | CARRIER_Q+O+P+SH+D_ADDR+Y	Nimm den aktuellen Posten aus dem bezeichneten Teil in Arbeit: kennzeichne, lass absetzen, gib zu, führe den Gang aus, setze ein und halte. Arbeite kurz.
+P925-P302	17	P915-C267	f83r	BIOLOGICAL	2	PREPARE	P917-I1029	1	P912-E1484	P912-E1484	CARRIER_Q+O+P+Y	Dann nimm den aktuellen Posten in Arbeit: führe den Gang aus und setze ein.
+P925-P303	17	P915-C267	f83r	BIOLOGICAL	3	TRANSFER	P917-I1030	1	P912-E1485	P912-E1485	SOLK+EE+Y	Dann nimm den aktuellen Posten in Arbeit: fange auf. Arbeite länger.
+P925-P304	17	P915-C267	f83r	BIOLOGICAL	4	CONDITION	P917-I1031	1	P912-E1486	P912-E1486	R+CH+S	Dann nimm den bezeichneten Arbeitsgang in Arbeit: kennzeichne, entnimm und wähle aus.
+P925-P305	17	P915-C267	f83r	BIOLOGICAL	5	SELECT	P917-I1032|P917-I1033	2	P912-E1487	P912-E1488	CH+EE+LOCAL_CHAR_B | OL+S	Dann nimm den bezeichneten Arbeitsgang in Arbeit: entnimm und wähle aus. Arbeite länger.
+P925-P306	17	P915-C267	f83r	BIOLOGICAL	6	PREPARE	P917-I1034	1	P912-E1489	P912-E1490	AIIN | S+K+AL	Dann nimm den bezeichneten Arbeitsgang nach Sollmaß in Arbeit: wähle aus und gib zu. Führe ihn zur Ziel- oder Anschlussstelle.
+P925-P307	17	P915-C267	f83r	BIOLOGICAL	7	CONDITION	P917-I1035	1	P912-E1491	P912-E1492	AIN | CTH+AL	Dann nimm den bezeichneten Arbeitsgang als Portion in Arbeit: stelle bereit. Führe ihn zur Ziel- oder Anschlussstelle.
+P925-P308	17	P915-C267	f83r	BIOLOGICAL	8	SELECT	P917-I1036	1	P912-E1493	P912-E1493	S	Dann nimm den bezeichneten Arbeitsgang in Arbeit: wähle aus.
+P925-P309	17	P915-C267	f83r	BIOLOGICAL	9	CONDITION	P917-I1037	1	P912-E1494	P912-E1495	AIIN | CHK+Y	Dann nimm den aktuellen Posten nach Sollmaß in Arbeit: behandle.
+P925-P310	17	P915-C267	f83r	BIOLOGICAL	10	SELECT	P917-I1038|P917-I1039	2	P912-E1496	P912-E1498	L+AL | S+AM_ADDR | S+OR	Dann nimm den Ansatz in Arbeit: wähle aus (2×). Führe ihn in den nächsten Lauf, zur Ziel- oder Anschlussstelle und zur Innenstelle.
+P925-P311	17	P915-C267	f83r	BIOLOGICAL	11	CONDITION	P917-I1040	1	P912-E1499	P912-E1499	SHED+DY	Dann nimm den bezeichneten Arbeitsgang in Arbeit: lass absetzen. Schließe den Schritt.
+P925-P312	18	P915-C337	f67r2	ZODIAC	1	EXECUTE	P917-I1240	1	P912-E1785	P912-E1785	O+DA+E+IIN	Nimm den bezeichneten Arbeitsgang auf der zweiten Stufe auf der angegebenen Stufe in Arbeit: führe den Gang aus. Arbeite kurz.
+P925-P313	18	P915-C337	f67r2	ZODIAC	2	PREPARE	P917-I1241|P917-I1242	2	P912-E1786	P912-E1787	OK+O+E+S | O+E+K+AIN	Dann nimm den bezeichneten Arbeitsgang als Portion in Arbeit: setze an, führe den Gang aus (2×), wähle aus und gib zu. Arbeite kurz.
+P925-P314	18	P915-C337	f67r2	ZODIAC	3	CONDITION	P917-I1243	1	P912-E1788	P912-E1790	Y | OT+Y | S+OR+AIIN+R	Dann nimm den aktuellen Posten und den Ansatz nach Sollmaß in Arbeit: wähle aus und kennzeichne.
+P925-P315	18	P915-C337	f67r2	ZODIAC	4	PREPARE	P917-I1244	1	P912-E1791	P912-E1792	Y | O+P+Y	Dann nimm den aktuellen Posten in Arbeit: führe den Gang aus und setze ein.
+P925-P316	18	P915-C337	f67r2	ZODIAC	5	EXECUTE	P917-I1245	1	P912-E1793	P912-E1795	AIIN | AL | Y+D_ADDR+CH+O+S	Dann nimm den aktuellen Posten aus dem bezeichneten Teil nach Sollmaß in Arbeit: entnimm, führe den Gang aus und wähle aus. Führe ihn zur Ziel- oder Anschlussstelle.
+P925-P317	18	P915-C337	f67r2	ZODIAC	6	TRANSFER	P917-I1246	1	P912-E1796	P912-E1799	AIN | AR | AM_ADDR+Y | CH+O+CFH+Y	Dann nimm den aktuellen Posten von der Entnahmestelle als Portion in Arbeit: entnimm, führe den Gang aus und trenne. Führe ihn zur Innenstelle.
+P925-P318	18	P915-C337	f67r2	ZODIAC	7	SELECT	P917-I1247|P917-I1248	2	P912-E1800	P912-E1801	S+AR+AL | S+AIN	Dann nimm den bezeichneten Arbeitsgang von der Entnahmestelle als Portion in Arbeit: wähle aus (2×). Führe ihn zur Ziel- oder Anschlussstelle.
+P925-P319	18	P915-C337	f67r2	ZODIAC	8	CONTEXT	P917-I1249	1	P912-E1802	P912-E1803	AM_ADDR | AR	Dann nimm den bezeichneten Arbeitsgang von der Entnahmestelle in Arbeit: arbeite damit weiter. Führe ihn zur Innenstelle.
+P925-P320	19	P915-C343	f67r2	ZODIAC	1	EXECUTE	P917-I1272	1	P912-E1841	P912-E1841	OT+OL+D_ADDR+O+S	Dann nimm den bezeichneten Arbeitsgang aus dem bezeichneten Teil in Arbeit: führe den Gang aus und wähle aus.
+P925-P321	19	P915-C343	f67r2	ZODIAC	2	CONDITION	P917-I1273	1	P912-E1842	P912-E1842	O+CTH+OL+E	Dann nimm den bezeichneten Arbeitsgang in Arbeit: führe den Gang aus und stelle bereit. Arbeite kurz.
+P925-P322	19	P915-C343	f67r2	ZODIAC	3	SELECT	P917-I1274	1	P912-E1843	P912-E1843	S+OR	Dann nimm den Ansatz in Arbeit: wähle aus.
+P925-P323	19	P915-C343	f67r2	ZODIAC	4	TRANSFER	P917-I1275	1	P912-E1844	P912-E1844	CHD+AIIN	Dann nimm den bezeichneten Arbeitsgang nach Sollmaß in Arbeit: setze um.
+P925-P324	19	P915-C343	f67r2	ZODIAC	5	EXECUTE	P917-I1276|P917-I1277|P917-I1278	3	P912-E1845	P912-E1848	Y | Y+T+E+O+S_ADDR | O+IIN | O+G_LABEL	Dann nimm den aktuellen Posten auf der angegebenen Stufe in Arbeit: stelle ein und führe den Gang aus (3×). Führe ihn zur bezeichneten s-Stelle. Arbeite kurz.
+P925-P325	19	P915-C343	f67r2	ZODIAC	6	PREPARE	P917-I1279	1	P912-E1849	P912-E1849	Y+T+O+E+O+P+CH+E+Y	Dann nimm den aktuellen Posten in Arbeit: stelle ein, führe den Gang aus (2×), setze ein und entnimm. Arbeite kurz.
+P925-P326	19	P915-C343	f67r2	ZODIAC	7	CONDITION	P917-I1280|P917-I1281	2	P912-E1850	P912-E1851	CHK+O+D_ADDR+Y | S+O+SH+O	Dann nimm den aktuellen Posten aus dem bezeichneten Teil in Arbeit: behandle, führe den Gang aus (3×), wähle aus und halte.
+P925-P327	19	P915-C343	f67r2	ZODIAC	8	EXECUTE	P917-I1282|P917-I1283	2	P912-E1852	P912-E1853	CH+O+S | O+CKH+Y	Dann nimm den aktuellen Posten in Arbeit: entnimm, führe den Gang aus (2×) und wähle aus. Führe ihn durch den Durchlass.
+P925-P328	19	P915-C343	f67r2	ZODIAC	9	SELECT	P917-I1284	1	P912-E1854	P912-E1857	AIIN | AIIN | OS | CARRIER_Q+S+G_LABEL	Dann nimm den bezeichneten Arbeitsgang nach Sollmaß in Arbeit: wähle aus.
+P925-P329	19	P915-C343	f67r2	ZODIAC	10	EXECUTE	P917-I1285	1	P912-E1858	P912-E1858	O+LOCAL_CHAR_F+Y+DY	Dann nimm den aktuellen Posten in Arbeit: führe den Gang aus. Schließe den Schritt.
+P925-P330	20	P915-C146	f81v	BIOLOGICAL	1	CONDITION	P917-I0633	1	P912-E0952	P912-E0954	OT+Y | D_ADDR+AIR+A_ADDR+AM_ADDR | Y+SH+E+Y	Dann nimm den aktuellen Posten aus dem bezeichneten Teil von der lokalen Stelle in Arbeit: halte. Führe ihn entlang des Laufs und zur Innenstelle. Arbeite kurz.
+P925-P331	20	P915-C146	f81v	BIOLOGICAL	2	PREPARE	P917-I0634|P917-I0635|P917-I0636|P917-I0637	4	P912-E0955	P912-E0958	OK+EE+Y | OK+EE+Y | OK+Y | Y+K+EE+Y	Dann nimm den aktuellen Posten in Arbeit: setze an (3×) und gib zu. Arbeite länger.
+P925-P332	20	P915-C146	f81v	BIOLOGICAL	3	PREPARE	P917-I0638|P917-I0639|P917-I0640	3	P912-E0959	P912-E0961	OK+Y | OK+Y | L+K+Y	Dann nimm den aktuellen Posten in Arbeit: setze an (2×) und gib zu. Führe ihn in den nächsten Lauf.
+P925-P333	20	P915-C146	f81v	BIOLOGICAL	4	SELECT	P917-I0641	1	P912-E0962	P912-E0962	OL+CH+Y	Dann nimm den aktuellen Posten in Arbeit: entnimm.
+P925-P334	20	P915-C146	f81v	BIOLOGICAL	5	PREPARE	P917-I0642	1	P912-E0963	P912-E0963	K+Y	Dann nimm den aktuellen Posten in Arbeit: gib zu.
+P925-P335	20	P915-C146	f81v	BIOLOGICAL	6	CONDITION	P917-I0643	1	P912-E0964	P912-E0964	D_ADDR+SH+OL+Y+D_ADDR	Dann nimm den aktuellen Posten aus dem bezeichneten Teil in Arbeit: halte.
+P925-P336	20	P915-C146	f81v	BIOLOGICAL	7	TRANSFER	P917-I0644	1	P912-E0965	P912-E0967	OL | OL | CHD+Y	Dann nimm den aktuellen Posten in Arbeit: setze um.
+P925-P337	20	P915-C146	f81v	BIOLOGICAL	8	CONDITION	P917-I0645	1	P912-E0968	P912-E0968	SHED+DY	Dann nimm den bezeichneten Arbeitsgang in Arbeit: lass absetzen. Schließe den Schritt.
+P925-P338	21	P915-C006	f13r	HERBAL	1	EXECUTE	P917-I0122	1	P912-E0194	P912-E0194	T+CH+OR	Nimm den Ansatz in Arbeit: stelle ein und entnimm.
+P925-P339	21	P915-C006	f13r	HERBAL	2	SELECT	P917-I0123	1	P912-E0195	P912-E0197	D_ADDR+OR | AIIN | OT+CH+OL	Dann nimm den Ansatz aus dem bezeichneten Teil nach Sollmaß in Arbeit: entnimm.
+P925-P340	21	P915-C006	f13r	HERBAL	3	PREPARE	P917-I0124|P917-I0125	2	P912-E0198	P912-E0199	OK+Y | OK+CH+OR	Dann nimm den aktuellen Posten und den Ansatz in Arbeit: setze an (2×) und entnimm.
+P925-P341	21	P915-C006	f13r	HERBAL	4	EXECUTE	P917-I0126	1	P912-E0200	P912-E0200	O+IIN	Dann nimm den bezeichneten Arbeitsgang auf der angegebenen Stufe in Arbeit: führe den Gang aus.
+P925-P342	21	P915-C006	f13r	HERBAL	5	PREPARE	P917-I0127	1	P912-E0201	P912-E0204	CKH+Y | D_ADDR | D_ADDR+Y | OK+Y	Dann nimm den aktuellen Posten aus dem bezeichneten Teil in Arbeit: setze an. Führe ihn durch den Durchlass.
+P925-P343	21	P915-C006	f13r	HERBAL	6	EXECUTE	P917-I0128	1	P912-E0205	P912-E0207	OL | Y | O+Y	Dann nimm den aktuellen Posten in Arbeit: führe den Gang aus.
+P925-P344	21	P915-C006	f13r	HERBAL	7	CONTEXT	P917-I0129	1	P912-E0208	P912-E0209	D_ADDR | OL+DY	Dann nimm den bezeichneten Arbeitsgang aus dem bezeichneten Teil in Arbeit: arbeite damit weiter. Schließe den Schritt.
+P925-P345	22	P915-C335	f83r	BIOLOGICAL	1	TRANSFER	P917-I1229	1	P912-E1733	P912-E1733	SOLK+EE+Y	Nimm den aktuellen Posten in Arbeit: fange auf. Arbeite länger.
+P925-P346	22	P915-C335	f83r	BIOLOGICAL	2	PREPARE	P917-I1230	1	P912-E1734	P912-E1734	E+K+E+Y	Dann nimm den aktuellen Posten in Arbeit: gib zu. Arbeite kurz.
+P925-P347	22	P915-C335	f83r	BIOLOGICAL	3	CONDITION	P917-I1231|P917-I1232|P917-I1233|P917-I1234	4	P912-E1735	P912-E1748	R+AL+Y | OL | S+OL+CHK+AL | CHEO+L | OT+AR | OL | AIIN | OL | AIN | Y | L+AL+OR | OL | R+T+AIN | CTH+AL	Dann nimm den aktuellen Posten, den Auszug und den Ansatz von der Entnahmestelle nach Sollmaß als Portion in Arbeit: kennzeichne (2×), wähle aus, behandle, stelle ein und stelle bereit. Führe ihn zur Ziel- oder Anschlussstelle und in den nächsten Lauf.
+P925-P348	23	P915-C349	f68r1	ZODIAC	1	PREPARE	P917-I1334|P917-I1335	2	P912-E1954	P912-E1955	CH+P+OR | CHEO+K+OR+CH+E+Y	Nimm den Ansatz, den Auszug und den aktuellen Posten in Arbeit: entnimm (2×), setze ein und gib zu. Arbeite kurz.
+P925-P349	23	P915-C349	f68r1	ZODIAC	2	EXECUTE	P917-I1336	1	P912-E1956	P912-E1956	CH+O+D_ADDR	Dann nimm den bezeichneten Arbeitsgang aus dem bezeichneten Teil in Arbeit: entnimm und führe den Gang aus.
+P925-P350	23	P915-C349	f68r1	ZODIAC	3	PREPARE	P917-I1337	1	P912-E1957	P912-E1957	Y+K+OR	Dann nimm den aktuellen Posten und den Ansatz in Arbeit: gib zu.
+P925-P351	23	P915-C349	f68r1	ZODIAC	4	CONDITION	P917-I1338	1	P912-E1958	P912-E1958	SH+E+Y	Dann nimm den aktuellen Posten in Arbeit: halte. Arbeite kurz.
+P925-P352	23	P915-C349	f68r1	ZODIAC	5	EXECUTE	P917-I1339	1	P912-E1959	P912-E1959	CARRIER_Q+O+CH+EE+Y	Dann nimm den aktuellen Posten in Arbeit: führe den Gang aus und entnimm. Arbeite länger.
+P925-P353	23	P915-C349	f68r1	ZODIAC	6	PREPARE	P917-I1340|P917-I1341	2	P912-E1960	P912-E1961	OK+AL | OK+EE+Y	Dann nimm den aktuellen Posten in Arbeit: setze an (2×). Führe ihn zur Ziel- oder Anschlussstelle. Arbeite länger.
+P925-P354	23	P915-C349	f68r1	ZODIAC	7	CONDITION	P917-I1342|P917-I1343	2	P912-E1962	P912-E1964	R+OR | E+CKH+E+AR | DA+R+A_ADDR+AM_ADDR	Dann nimm den Ansatz von der Entnahmestelle von der lokalen Stelle auf der zweiten Stufe in Arbeit: kennzeichne (2×). Führe ihn durch den Durchlass und zur Innenstelle. Arbeite kurz.
+P925-P355	23	P915-C349	f68r1	ZODIAC	8	SELECT	P917-I1344	1	P912-E1965	P912-E1965	D_ADDR+CH+OR	Dann nimm den Ansatz aus dem bezeichneten Teil in Arbeit: entnimm.
+P925-P356	23	P915-C349	f68r1	ZODIAC	9	PREPARE	P917-I1345|P917-I1346	2	P912-E1966	P912-E1967	OK+A_ADDR+LOCAL_CHAR_I+IIN | Y+K+Y	Dann nimm den aktuellen Posten von der lokalen Stelle auf der angegebenen Stufe in Arbeit: setze an und gib zu.
+P925-P357	23	P915-C349	f68r1	ZODIAC	10	CONDITION	P917-I1347|P917-I1348	2	P912-E1968	P912-E1969	DA+R+Y | CHK+CH+Y+K+OL+Y	Dann nimm den aktuellen Posten auf der zweiten Stufe in Arbeit: kennzeichne, behandle, entnimm und gib zu.
+P925-P358	24	P915-C014	f55v	HERBAL	1	PREPARE	P917-I0206	1	P912-E0320	P912-E0321	AIIN | OK+AL	Nimm den bezeichneten Arbeitsgang nach Sollmaß in Arbeit: setze an. Führe ihn zur Ziel- oder Anschlussstelle.
+P925-P359	24	P915-C014	f55v	HERBAL	2	EXECUTE	P917-I0207	1	P912-E0322	P912-E0322	OL+T+Y	Dann nimm den aktuellen Posten in Arbeit: stelle ein.
+P925-P360	24	P915-C014	f55v	HERBAL	3	CONDITION	P917-I0208	1	P912-E0323	P912-E0328	OR | Y | OR+AIN | AIIN | AR | CHK+E+Y	Dann nimm den Ansatz und den aktuellen Posten von der Entnahmestelle als Portion nach Sollmaß in Arbeit: behandle. Arbeite kurz.
+P925-P361	24	P915-C014	f55v	HERBAL	4	PREPARE	P917-I0209	1	P912-E0329	P912-E0329	OL+K+EE+CH+Y	Dann nimm den aktuellen Posten in Arbeit: gib zu und entnimm. Arbeite länger.
+P925-P362	24	P915-C014	f55v	HERBAL	5	SELECT	P917-I0210	1	P912-E0330	P912-E0330	S+L	Dann nimm den bezeichneten Arbeitsgang in Arbeit: wähle aus. Führe ihn in den nächsten Lauf.
+P925-P363	24	P915-C014	f55v	HERBAL	6	CONTEXT	P917-I0211	1	P912-E0331	P912-E0334	AR | AIIN | AIIN | OT+AM_ADDR	Dann nimm den bezeichneten Arbeitsgang von der Entnahmestelle nach Sollmaß in Arbeit: arbeite damit weiter. Führe ihn zur Innenstelle.
+P925-P364	25	P915-C135	f81v	BIOLOGICAL	1	PREPARE	P917-I0596|P917-I0597	2	P912-E0890	P912-E0891	OK+AIIN | OK+AIN	Nimm den bezeichneten Arbeitsgang nach Sollmaß als Portion in Arbeit: setze an (2×).
+P925-P365	25	P915-C135	f81v	BIOLOGICAL	2	CONDITION	P917-I0598	1	P912-E0892	P912-E0892	CHK+EE+Y	Dann nimm den aktuellen Posten in Arbeit: behandle. Arbeite länger.
+P925-P366	25	P915-C135	f81v	BIOLOGICAL	3	PREPARE	P917-I0599	1	P912-E0893	P912-E0895	Y | OL | K+AIIN	Dann nimm den aktuellen Posten nach Sollmaß in Arbeit: gib zu.
+P925-P367	25	P915-C135	f81v	BIOLOGICAL	4	CONDITION	P917-I0600	1	P912-E0896	P912-E0899	AIN | Y | AIIN | CH+CTH+Y	Dann nimm den aktuellen Posten als Portion nach Sollmaß in Arbeit: entnimm und stelle bereit.
+P925-P368	25	P915-C135	f81v	BIOLOGICAL	5	PREPARE	P917-I0601|P917-I0602	2	P912-E0900	P912-E0904	OK+AIIN | AIIN | OT+AIN | CKH+Y | OK+EE+DY	Dann nimm den aktuellen Posten nach Sollmaß als Portion in Arbeit: setze an (2×). Führe ihn durch den Durchlass. Arbeite länger. Schließe den Schritt.
+P925-P369	26	P915-C136	f81v	BIOLOGICAL	1	PREPARE	P917-I0603|P917-I0604|P917-I0605|P917-I0606	4	P912-E0905	P912-E0909	OK+Y | K+AR | AIIN | OK+AR | OK+AIN	Nimm den aktuellen Posten von der Entnahmestelle nach Sollmaß als Portion in Arbeit: setze an (3×) und gib zu.
+P925-P370	26	P915-C136	f81v	BIOLOGICAL	2	PREPARE	P917-I0607	1	P912-E0910	P912-E0910	OK+AIIN	Dann nimm den bezeichneten Arbeitsgang nach Sollmaß in Arbeit: setze an.
+P925-P371	26	P915-C136	f81v	BIOLOGICAL	3	TRANSFER	P917-I0608	1	P912-E0911	P912-E0912	OL | CHD+Y	Dann nimm den aktuellen Posten in Arbeit: setze um.
+P925-P372	26	P915-C136	f81v	BIOLOGICAL	4	PREPARE	P917-I0609	1	P912-E0913	P912-E0914	CHEO+L | L+K+Y	Dann nimm den Auszug und den aktuellen Posten in Arbeit: gib zu. Führe ihn in den nächsten Lauf.
+P925-P373	26	P915-C136	f81v	BIOLOGICAL	5	SELECT	P917-I0610	1	P912-E0915	P912-E0916	L | S	Dann nimm den bezeichneten Arbeitsgang in Arbeit: wähle aus. Führe ihn in den nächsten Lauf.
+P925-P374	26	P915-C136	f81v	BIOLOGICAL	6	PREPARE	P917-I0611	1	P912-E0917	P912-E0918	AIIN | OK+AIN	Dann nimm den bezeichneten Arbeitsgang nach Sollmaß als Portion in Arbeit: setze an.
+P925-P375	26	P915-C136	f81v	BIOLOGICAL	7	CONTEXT	P917-I0612	1	P912-E0919	P912-E0919	AL+DY	Dann nimm den bezeichneten Arbeitsgang in Arbeit: arbeite damit weiter. Führe ihn zur Ziel- oder Anschlussstelle. Schließe den Schritt.
+P925-P376	27	P915-C331	f83r	BIOLOGICAL	1	TRANSFER	P917-I1215	1	P912-E1703	P912-E1703	SOLK+AIN	Nimm den bezeichneten Arbeitsgang als Portion in Arbeit: fange auf.
+P925-P377	27	P915-C331	f83r	BIOLOGICAL	2	CONDITION	P917-I1216	1	P912-E1704	P912-E1707	AL | OL | OL | CH+CTH+D_ADDR+Y	Dann nimm den aktuellen Posten aus dem bezeichneten Teil in Arbeit: entnimm und stelle bereit. Führe ihn zur Ziel- oder Anschlussstelle.
+P925-P378	27	P915-C331	f83r	BIOLOGICAL	3	TRANSFER	P917-I1217|P917-I1218	2	P912-E1708	P912-E1710	L | CHD+Y | L+CHD+Y	Dann nimm den aktuellen Posten in Arbeit: setze um (2×). Führe ihn in den nächsten Lauf.
+P925-P379	27	P915-C331	f83r	BIOLOGICAL	4	CONDITION	P917-I1219	1	P912-E1711	P912-E1712	AIIN | SH+E+OL	Dann nimm den bezeichneten Arbeitsgang nach Sollmaß in Arbeit: halte. Arbeite kurz.
+P925-P380	27	P915-C331	f83r	BIOLOGICAL	5	TRANSFER	P917-I1220	1	P912-E1713	P912-E1713	CHD+Y	Dann nimm den aktuellen Posten in Arbeit: setze um.
+P925-P381	27	P915-C331	f83r	BIOLOGICAL	6	SELECT	P917-I1221	1	P912-E1714	P912-E1715	OT+AL | S+AR	Dann nimm den bezeichneten Arbeitsgang von der Entnahmestelle in Arbeit: wähle aus. Führe ihn zur Ziel- oder Anschlussstelle.
+P925-P382	27	P915-C331	f83r	BIOLOGICAL	7	PREPARE	P917-I1222	1	P912-E1716	P912-E1716	K+AR	Dann nimm den bezeichneten Arbeitsgang von der Entnahmestelle in Arbeit: gib zu.
+P925-P383	27	P915-C331	f83r	BIOLOGICAL	8	CONDITION	P917-I1223	1	P912-E1717	P912-E1717	SHED+DY	Dann nimm den bezeichneten Arbeitsgang in Arbeit: lass absetzen. Schließe den Schritt.
+P925-P384	28	P915-C058	f75r	BIOLOGICAL	1	CONDITION	P917-I0442|P917-I0443|P917-I0444|P917-I0445	4	P912-E0660	P912-E0670	R+AM_ADDR | AIN | OL | SH+E+OL | AIN | OL | OL+Y | D_ADDR+AR | A_ADDR+Y | P+D_ADDR+AL+SH+OR | SH+T+OL	Dann nimm den aktuellen Posten und den Ansatz aus dem bezeichneten Teil von der Entnahmestelle von der lokalen Stelle als Portion in Arbeit: kennzeichne, halte (3×), setze ein und stelle ein. Führe ihn zur Innenstelle und zur Ziel- oder Anschlussstelle. Arbeite kurz.
+P925-P385	28	P915-C058	f75r	BIOLOGICAL	2	CONDITION	P917-I0446|P917-I0447	2	P912-E0671	P912-E0673	OT+Y | P+SH+AR | SHED+DY	Dann nimm den aktuellen Posten von der Entnahmestelle in Arbeit: setze ein, halte und lass absetzen. Schließe den Schritt.
+P925-P386	29	P915-C066	f75r	BIOLOGICAL	1	TRANSFER	P917-I0463	1	P912-E0701	P912-E0701	CHD+Y	Nimm den aktuellen Posten in Arbeit: setze um.
+P925-P387	29	P915-C066	f75r	BIOLOGICAL	2	EXECUTE	P917-I0464	1	P912-E0702	P912-E0703	OT+AN | O	Dann nimm den bezeichneten Arbeitsgang in Arbeit: führe den Gang aus.
+P925-P388	29	P915-C066	f75r	BIOLOGICAL	3	CONDITION	P917-I0465	1	P912-E0704	P912-E0705	AIN | CHK+EE+Y	Dann nimm den aktuellen Posten als Portion in Arbeit: behandle. Arbeite länger.
+P925-P389	29	P915-C066	f75r	BIOLOGICAL	4	PREPARE	P917-I0466|P917-I0467	2	P912-E0706	P912-E0707	OK+E+Y | OK+AIN	Dann nimm den aktuellen Posten als Portion in Arbeit: setze an (2×). Arbeite kurz.
+P925-P390	29	P915-C066	f75r	BIOLOGICAL	5	CONDITION	P917-I0468	1	P912-E0708	P912-E0708	CHK+E+Y	Dann nimm den aktuellen Posten in Arbeit: behandle. Arbeite kurz.
+P925-P391	29	P915-C066	f75r	BIOLOGICAL	6	PREPARE	P917-I0469	1	P912-E0709	P912-E0709	OK+AL	Dann nimm den bezeichneten Arbeitsgang in Arbeit: setze an. Führe ihn zur Ziel- oder Anschlussstelle.
+P925-P392	29	P915-C066	f75r	BIOLOGICAL	7	TRANSFER	P917-I0470	1	P912-E0710	P912-E0711	AIN | CHD+Y	Dann nimm den aktuellen Posten als Portion in Arbeit: setze um.
+P925-P393	29	P915-C066	f75r	BIOLOGICAL	8	EXECUTE	P917-I0471	1	P912-E0712	P912-E0712	O	Dann nimm den bezeichneten Arbeitsgang in Arbeit: führe den Gang aus.
+P925-P394	29	P915-C066	f75r	BIOLOGICAL	9	PREPARE	P917-I0472	1	P912-E0713	P912-E0713	K+AL+OL	Dann nimm den bezeichneten Arbeitsgang in Arbeit: gib zu. Führe ihn zur Ziel- oder Anschlussstelle.
+P925-P395	29	P915-C066	f75r	BIOLOGICAL	10	CONDITION	P917-I0473	1	P912-E0714	P912-E0714	SHED+DY	Dann nimm den bezeichneten Arbeitsgang in Arbeit: lass absetzen. Schließe den Schritt.
+P925-P396	30	P915-C132	f81v	BIOLOGICAL	1	PREPARE	P917-I0582|P917-I0583|P917-I0584	3	P912-E0870	P912-E0872	OK+AIIN | K+AIR | OK+AL	Nimm den bezeichneten Arbeitsgang nach Sollmaß in Arbeit: setze an (2×) und gib zu. Führe ihn entlang des Laufs und zur Ziel- oder Anschlussstelle.
+P925-P397	30	P915-C132	f81v	BIOLOGICAL	2	SELECT	P917-I0585	1	P912-E0873	P912-E0873	S+AR	Dann nimm den bezeichneten Arbeitsgang von der Entnahmestelle in Arbeit: wähle aus.
+P925-P398	30	P915-C132	f81v	BIOLOGICAL	3	PREPARE	P917-I0586|P917-I0587	2	P912-E0874	P912-E0876	OL | K+AIN | OL+K+AIN	Dann nimm den bezeichneten Arbeitsgang als Portion in Arbeit: gib zu (2×).
+P925-P399	30	P915-C132	f81v	BIOLOGICAL	4	CONDITION	P917-I0588	1	P912-E0877	P912-E0879	AL | OL | R+OL	Dann nimm den bezeichneten Arbeitsgang in Arbeit: kennzeichne. Führe ihn zur Ziel- oder Anschlussstelle.
+P925-P400	30	P915-C132	f81v	BIOLOGICAL	5	SELECT	P917-I0589	1	P912-E0880	P912-E0881	L | S+AIIN	Dann nimm den bezeichneten Arbeitsgang nach Sollmaß in Arbeit: wähle aus. Führe ihn in den nächsten Lauf.
+P925-P401	30	P915-C132	f81v	BIOLOGICAL	6	TRANSFER	P917-I0590	1	P912-E0882	P912-E0883	AIIN | SOLK+EE+DY	Dann nimm den bezeichneten Arbeitsgang nach Sollmaß in Arbeit: fange auf. Arbeite länger. Schließe den Schritt.

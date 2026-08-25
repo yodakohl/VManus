@@ -1,12 +1,12 @@
 # Voynich current route
-
 Updated: 2026-08-25. Use `experiments/EXPERIMENT_INDEX.tsv` for primary reports; consult the active state and ledger only for claim-detail audits or historical reconstruction.
 Noncanonical fourteen-page sidequest: `experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_CURRENT.md`.
-Its current creative working layer is Pass 924: 2,511 groups/1,384 cards/464
-loci, 56 components, 17 prose verbs, 44 phrases, 1,435 work instructions and a
-separate owner/address reading for 501 image/diagram groups. It mixes productive
-technical abbreviations, learned phrases, positional `q` entry allographs and
-locally copied names/classes; segmentation does not decode the local name.
+Its current creative working layer is Pass 934: Pass 924 binds 2,511 groups,
+1,384 cards and 464 loci; Passes 925–934 add 354 process maps, 22 reusable
+handgrips, 28 multi-step fragments, twelve concrete page readings, ten diagram
+readings, a 56-core two-register dictionary, 1,384 recomposed cards, 70 forward
+paradigm predictions and a 16-rule apprentice manual. This remains a creative
+workshop reading, not a confirmed translation or decoded local name.
 
 ## Scientific ceiling
 
