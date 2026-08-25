@@ -12168,6 +12168,20 @@ Next, model four workshop scribes choosing different registered surface
 variants for the same cards and verify that all renderings return to one recipe
 and meaning.
 
+Pass 848 gives four hypothetical workshop scribes different surface habits
+over twelve common cards. All48 assignments use registered variants and return
+to the same recipe and meaning. The deck supplies34 distinct card-surface
+choices;14 assignments necessarily reuse a form because some cards have fewer
+than four variants. Y/POSTEN and AL/ZIELSTELLE each permit four distinct choices
+in this simulation, whereas OL/WEITER and CHD+DY/UMSETZEN-SCHLUSS each have only
+one registered fixed-page surface. This is a learnability model, not an
+attribution of actual manuscript hands. See
+`sidequest_semantic_four_scribe_renderers_eight_hundred_forty_eighth/EIGHT_HUNDRED_FORTY_EIGHTH_REPORT.md`.
+
+Next, rewrite one complete continuous record in all four workshop styles while
+preserving exact card order, statement boundaries and the decoded command
+sequence.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
