@@ -12057,6 +12057,17 @@ Next, pressure-test the quantity system as a compositional grid: AIN portion,
 AIIN prescribed measure and IIN stage should combine with recurring operators
 in different but predictable ways.
 
+Pass 838 retains the concrete scale AIN=PORTION (8 cards/18 events),
+AIIN=SOLLMASS (10/39), and IIN=STUFE (3/4). AIN and AIIN occupy the same
+operator frame in14 rows when existing predictions are included. K supplies
+the first three-cell family: attested `kain=K+AIN`, predicted `kaiin=K+AIIN`,
+and attested `kaiiin=K+IIN`. IIN remains a work-stage, not merely a larger
+amount. New creative predictions are `aiiin`, `qokaiiin`, and `ykaiiin`. See
+`sidequest_semantic_quantity_composition_eight_hundred_thirty_eighth/EIGHT_HUNDRED_THIRTY_EIGHTH_REPORT.md`.
+
+Next, build the analogous E/EE/EEE grade grid and check whether longer E grades
+consistently yield short, long and full operations across recurring frames.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
