@@ -11901,6 +11901,16 @@ a whole connector rather than a rare OT renderer. See
 Next, pressure-test the quantity ladder S=PROBE, AIN=PORTION, AIIN=SOLLMASS and
 IIN=STUFE, beginning with singleton S.
 
+Pass 825 retains a four-level quantity ladder over62 memberships: S=PROBE (1),
+AIN=PORTION (18), AIIN=SOLLMASS (39), and IIN=STUFE (4). Singleton S remains
+explicitly creative but useful: CH+E+S takes a small item immediately before an
+independent AIIN prescribed-value card, so PROBE preserves a real check-versus-
+amount distinction instead of collapsing into AIN. See
+`sidequest_semantic_quantity_ladder_eight_hundred_twenty_fifth/EIGHT_HUNDRED_TWENTY_FIFTH_REPORT.md`.
+
+Next, pressure-test AR=QUELLE, CKH=DURCHLASS, AL=ZIELSTELLE and
+SOLK=SAMMELSTELLE, especially whether SOLK is portable or owner-local.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
