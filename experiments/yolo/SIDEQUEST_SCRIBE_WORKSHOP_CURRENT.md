@@ -11495,6 +11495,19 @@ Next, inventory AL and AR as a possible Ziel-/Quellachse. Search for identical
 surrounding recipes with only AL↔AR changed, then test whether their complete
 instruction reverses destination and source without changing the operation.
 
+Pass 792 finds53 address events/32 cards/32 recipes:39 AL and14 AR, all with a
+visible address string. Five paired recipe families cover30 events and keep the
+operation fixed while changing ZIELSTELLE↔QUELLE. Six surface pairs expose the
+swap directly: `dal/dar`, `sal/sar`, `chal/char`, `qokal/qokar`, `otal/otar`
+and `lchedal/lchedar`. The22 unpaired recipes yield22 unseen counterpart
+surfaces with no collision. The lone tempting false split is `talam`, retained
+as the whole card TALAM=VERWAHREN. See
+`sidequest_semantic_address_axis_seven_hundred_ninety_second/SEVEN_HUNDRED_NINETY_SECOND_REPORT.md`.
+
+Next, place the22 AL/AR counterparts into their full source statements and
+draw the local source→operation→target path before and after substitution. The
+operation, amount, grade and endpoint must remain unchanged.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
