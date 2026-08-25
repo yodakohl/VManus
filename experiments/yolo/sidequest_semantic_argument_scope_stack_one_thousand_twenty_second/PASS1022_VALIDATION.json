@@ -1,0 +1,183 @@
+{
+  "result": "PASS",
+  "checks_passed": 25,
+  "checks_total": 25,
+  "checks": [
+    {
+      "check": "deterministic_rebuild",
+      "pass": true,
+      "detail": {
+        "PASS1022_3888_EVENT_SCOPE_BINDINGS.tsv": "2a1b81f7c6462068fdcb78579bf034bc8169638178e096ef5139dcca9bc26208",
+        "PASS1022_627_STATEMENT_SCOPE_EDITION.tsv": "375ed504af20d9c8cfd06502241208ce5b14f549cd779df598d6f0dbeb7a15f5",
+        "PASS1022_EIGHT_SCOPE_RULES.tsv": "6289ea615af201dfb692fe94339ea554ebb630f7399eab159f8c559efb13a87f",
+        "PASS1022_BUILD_SUMMARY.json": "e6ed600e7da8575ed26776e69510ef6dbd4b89c8bf43e792b62e6d32d122b512"
+      }
+    },
+    {
+      "check": "event_count",
+      "pass": true,
+      "detail": 3888
+    },
+    {
+      "check": "event_ordinals",
+      "pass": true,
+      "detail": "1..3888"
+    },
+    {
+      "check": "event_ids_unique",
+      "pass": true,
+      "detail": 3888
+    },
+    {
+      "check": "statement_count",
+      "pass": true,
+      "detail": 627
+    },
+    {
+      "check": "statement_ids_unique",
+      "pass": true,
+      "detail": 627
+    },
+    {
+      "check": "statement_event_sum",
+      "pass": true,
+      "detail": 3888
+    },
+    {
+      "check": "eight_rules",
+      "pass": true,
+      "detail": [
+        "OWNER_FORWARD",
+        "GANG_BOUNDARY",
+        "PACKAGE_FIRST",
+        "ACTION_HEAD",
+        "LOCAL_INHERITANCE",
+        "ARGUMENT_ATTACHMENT",
+        "RELATION_SIDE",
+        "GRADE_ATTACHMENT"
+      ]
+    },
+    {
+      "check": "all_statements_complete",
+      "pass": true,
+      "detail": {
+        "COMPLETE_SCOPE_READING": 627
+      }
+    },
+    {
+      "check": "all_events_scoped",
+      "pass": true,
+      "detail": {
+        "SELF_CONTAINED": 2322,
+        "CARRIED_SCOPE": 1566
+      }
+    },
+    {
+      "check": "no_pending_trace",
+      "pass": true,
+      "detail": "none"
+    },
+    {
+      "check": "surface_and_recipe_present",
+      "pass": true,
+      "detail": "3888/3888"
+    },
+    {
+      "check": "focus_attachment_count",
+      "pass": true,
+      "detail": 4345
+    },
+    {
+      "check": "focus_event_inventory",
+      "pass": true,
+      "detail": 3285
+    },
+    {
+      "check": "ambiguity_rows",
+      "pass": true,
+      "detail": 329
+    },
+    {
+      "check": "ambiguous_focus_occurrences",
+      "pass": true,
+      "detail": 328
+    },
+    {
+      "check": "ambiguity_classes",
+      "pass": true,
+      "detail": {
+        "EQUAL_DISTANCE_TWO_HEADS": 120,
+        "OWNER_OR_NEXT_CARD_ACTION": 146,
+        "R_HEAD_OR_TAIL": 63
+      }
+    },
+    {
+      "check": "manual_context_count",
+      "pass": true,
+      "detail": 12
+    },
+    {
+      "check": "manual_page_balance",
+      "pass": true,
+      "detail": {
+        "f75r": 4,
+        "f67r2": 4,
+        "f88r": 4
+      }
+    },
+    {
+      "check": "manual_event_sum",
+      "pass": true,
+      "detail": 306
+    },
+    {
+      "check": "duplicate_inventory",
+      "pass": true,
+      "detail": 40
+    },
+    {
+      "check": "duplicate_annotations",
+      "pass": true,
+      "detail": 40
+    },
+    {
+      "check": "register_coverage",
+      "pass": true,
+      "detail": {
+        "HERBAL": 601,
+        "CELESTIAL": 523,
+        "BIOLOGICAL": 2161,
+        "PHARMA": 603
+      }
+    },
+    {
+      "check": "owner_always_present",
+      "pass": true,
+      "detail": "3888/3888"
+    },
+    {
+      "check": "no_sealed_page_token",
+      "pass": true,
+      "detail": "none"
+    }
+  ],
+  "output_hashes": {
+    "HISTORICAL_SCOPE_WORKSHOP_RULES.md": "0be1c51dc0dd1b8178652d92cb3077fbff47606ca184a92a0d07d96b3444f9f3",
+    "MANUAL_SCOPE_12_STATEMENT_AUDIT.tsv": "c356ff50126952ddf7d855c1ba701138f8f66ab1b5bccdb512ed8d2e70e2a93d",
+    "MANUAL_SCOPE_REPORT.md": "9f3764c59cdbf50bcae6c6edf54caca1ba08a5a496ac083fd4c463cb6e53f1bc",
+    "PASS1022_3888_EVENT_SCOPE_BINDINGS.tsv": "2a1b81f7c6462068fdcb78579bf034bc8169638178e096ef5139dcca9bc26208",
+    "PASS1022_627_STATEMENT_SCOPE_EDITION.tsv": "375ed504af20d9c8cfd06502241208ce5b14f549cd779df598d6f0dbeb7a15f5",
+    "PASS1022_BUILD_SUMMARY.json": "e6ed600e7da8575ed26776e69510ef6dbd4b89c8bf43e792b62e6d32d122b512",
+    "PASS1022_CURRENT_SCOPE_SHEET.md": "324712e6a36d299f878a843d162e7990bfb4d273af326a8dd0bfcc3642bca304",
+    "PASS1022_EIGHT_SCOPE_RULES.tsv": "6289ea615af201dfb692fe94339ea554ebb630f7399eab159f8c559efb13a87f",
+    "PASS1022_REPORT.md": "6b43c5704fc496f8deaf22c47d6c9cc51fa20cda1d9925689b126d3f426136d3",
+    "SCOPE_STACK_AMBIGUITIES.tsv": "49473c62ac794ca078705fd75c8c9763989a9db705d60d599c01188293c9cc61",
+    "SCOPE_STACK_ATTACHMENTS.tsv": "e32d376ba42834b9f60e370aa9d3d9d971fa84c4049595c075f52670f5bbca58",
+    "SCOPE_STACK_BUILD.py": "1db5cf1e6ef2f95ce7f84fc3592068f536542b4803898da67d50871270f1404a",
+    "SCOPE_STACK_REPORT.md": "8db0e6aa97dcd5e5bd8891f0289945bd76eefda7368cd206cb3cfa275f35c1d9",
+    "SCOPE_STACK_SUMMARY.json": "f9c01ccfc74758256f923eeb31a2454d82591ede66df8c2d3f1b9b23dc03010c",
+    "SCOPE_STACK_SUMMARY.tsv": "0682af0874fb2083b1f4ccfe9a8c1559ae4d7d1f9fc6d42c40bdb47276843494",
+    "build_pass1022.py": "6f2846226ca35d19de3561744e833001f46e19a17fc181899e180b1a4c9c952b",
+    "validate_pass1022.py": "441a1c4d22243ff9f61c2916374cb0bab0173d6026c964eb251f2e563d7c894f"
+  }
+}

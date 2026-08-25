@@ -1,0 +1,9 @@
+rule	name	instruction_de
+1	OWNER_FORWARD	Bild, Gefäß, Station oder Rad trägt den Besitzer bis zur nächsten echten Besitzer-/Proseblockgrenze; Zeilen- und bloßer Bildumbruch ändern nichts.
+2	GANG_BOUNDARY	CARRIER_Q eröffnet den lokalen Gang; nur lizenziertes DY schließt den Gang, nicht den Bildbesitzer.
+3	PACKAGE_FIRST	Längste Form zuerst; CHK/CKH und gleiche Doppelkerne vor jeder Nachbarschaftsbindung öffnen.
+4	ACTION_HEAD	OK CH SH K S T CHD R P eröffnet oder ersetzt die laufende Handlung.
+5	LOCAL_INHERITANCE	Fehlt ein Kopf, übernimmt die Kurzform die laufende Handlung desselben Besitzers und Gangs; OT wechselt zum Geschwisterschritt, OL führt fort, OS/VORBEZUG stellt den vorherigen Besitzerrahmen wieder her.
+6	ARGUMENT_ATTACHMENT	Y AIIN AIN OR binden zuerst im eigenen Paket an den nächsten Handlungskopf, sonst rückwärts an die laufende Handlung.
+7	RELATION_SIDE	AR/AL bevorzugen die Handlung links; L/AIR rahmen die Handlung rechts, jeweils mit örtlichem Rückfall statt erfundener Richtung.
+8	GRADE_ATTACHMENT	E EE EEE IIN DA O verändern nur die nächste kompatible oder bereits laufende Handlung und reichen nie über DY/Besitzergrenze.

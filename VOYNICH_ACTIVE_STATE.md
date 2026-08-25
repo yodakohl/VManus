@@ -6,7 +6,7 @@ Updated: 2026-08-26. This is the full claim registry. For routine work, read
 
 ## Outcome
 
-### Noncanonical twenty-two-page sidequest (Pass 1021)
+### Noncanonical twenty-two-page sidequest (Pass 1022)
 
 The creative workshop sidequest covers twenty-two admitted physical pages with
 4,581 visible groups: 3,888 running prose/ring-text groups plus 693 local
@@ -240,6 +240,18 @@ as multiple things or a repeated action (`OL+OL`, `AR+AR`, `AL+AL`, `Y+Y`,
 `OK+OK`). The f13r ending is now outer plant-article EINHEIT containing the
 selected inner-part EINHEIT. The apprentice sheet gains this eleventh opening
 rule; no duplicate is deleted as empty ditto.
+
+Pass 1022 adds the missing owner/action scope stack without changing a root.
+All 3,888 running cards / 10,252 component atoms now have an executable trace
+through 627 statements, with zero unbound modifiers. A multi-head card is a
+nested package; Q pushes, OT changes sibling step, OL continues, VORBEZUG
+restores and licensed DY closes. A physical line or picture-induced text wrap
+does not reset by itself. The focused inventory contains 4,345 argument/grade/
+relation occurrences and retains 328 explicit attachment alternatives (120
+equidistant heads, 146 owner-versus-next-card cases, 63 R head/tail, one
+overlap). Twelve manual hard readings on f75r/f67r2/f88r require this stack in
+11/12 cases but no new core value. Future pages must preserve the 19 cores;
+only owner filling and one of the listed scope choices may vary.
 
 - The manuscript is **not translated**. There are zero confirmed English
   lexemes, zero plaintext clauses, and no established language, phonetic

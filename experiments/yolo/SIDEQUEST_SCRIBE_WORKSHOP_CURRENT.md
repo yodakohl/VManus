@@ -1,11 +1,12 @@
 # Current twenty-two-page scribe-workshop theory
 
-Updated: 2026-08-26, after Pass 1021.
+Updated: 2026-08-26, after Pass 1022.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
-translation**. This is the compact handoff for the sidequest. Pass 1021 gives
-all 627 statements a complete owner-plus-core reading, four local channels,
-a forward compiler, and 19 core values that each occur in all four registers.
+translation**. This is the compact handoff for the sidequest. Pass 1022 gives
+all 627 statements a complete owner–package–action–argument scope reading,
+four local channels, a forward compiler, and 19 core values that each occur in
+all four registers.
 
 ## Fixed scope
 
@@ -279,6 +280,24 @@ boundary read outer and inner levels; when free, read both equal-level cores.
 Thus f13r ends by setting the selected plant part as an inner unit within the
 outer plant article. No core value changes and the second sign is never erased
 as an empty ditto.
+
+Pass 1022 supplies the missing scope stack. Across 3,888 running cards and
+10,252 component atoms, all 627 statements now have an executable owner,
+package, action, argument, relation, grade and endpoint trace with zero
+unbound modifiers. Multi-head cards are nested packages, so
+`CH+K+Y=NEHMEN[GEBEN[POSTEN]]` and the outer head survives the card. `Q`
+pushes a local package, `OT` changes to a sibling step, `OL` continues,
+`VORBEZUG` restores an earlier owner frame, and licensed `DY` closes. A line
+or a gap caused by an already drawn image does not reset the stack.
+
+The complete focus inventory covers 4,345 occurrences of Y/AIIN/AIN/OR,
+grades and relations. It leaves 328 attachment alternatives visible: 120
+equidistant heads, 146 owner-versus-next-card cases and 63 R-head/tail cases,
+with one overlap. Twelve manually inspected hard statements on f75r, f67r2
+and f88r show that eleven need bounded look-ahead, owner scope or package
+nesting, but none needs a new portable meaning. The current prediction for a
+future page is therefore stronger: roots may not move; only local owner and
+one of these explicit attachment choices may be supplied.
 
 ## Constrained semantic pocket dictionary
 
