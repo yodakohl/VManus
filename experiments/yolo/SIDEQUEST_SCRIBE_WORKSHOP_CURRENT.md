@@ -12192,6 +12192,17 @@ continuous German workshop reading. See
 Next, repeat the four-style rewrite on a longer Biological record with frequent
 closures, repeated cards and local image-owner changes.
 
+Pass 850 renders f82r record B2 in all four workshop styles. The source has62
+event positions,46 exact cards,22 statements, five image-owner blocks and19
+closing cards. Twenty-eight positions permit multiple registered surfaces and34
+are fixed. The profiles change71/248 visible assignments while preserving every
+card, statement boundary, owner transition and decoded instruction. See
+`sidequest_semantic_four_scribe_biological_record_eight_hundred_fiftieth/EIGHT_HUNDRED_FIFTIETH_FOUR_COMPLETE_VERSIONS.md`.
+
+Next, turn the four profiles into a minimal orthographic lesson: predict the
+preferred registered surface from a shared card plus one small scribe habit,
+without memorizing a separate variant list for every occurrence.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
