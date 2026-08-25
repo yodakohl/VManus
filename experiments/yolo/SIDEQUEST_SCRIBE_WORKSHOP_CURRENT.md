@@ -12246,6 +12246,17 @@ Next, invert the exercise: starting only from the six German commands, make
 four apprentices choose the same exact-card sequence before they render their
 individual surfaces.
 
+Pass 855 inverts the exercise. Six German commands yield fifteen shared
+semantic prompts; four apprentices independently select the same fifteen exact
+cards in60/60 decisions and only then produce four distinct registered-surface
+sequences. Five traps enforce whole `DAVON/DAZU`, source versus water, measure
+versus measured action and licensed closing cards. See
+`sidequest_semantic_inverse_apprentice_encoding_eight_hundred_fifty_fifth/EIGHT_HUNDRED_FIFTY_FIFTH_REPORT.md`.
+
+Next, shorten the six German commands into a plausible ca.1420 recipe-language
+skeleton and show how the same fifteen semantic prompts survive scribal
+abbreviation before card encoding.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
