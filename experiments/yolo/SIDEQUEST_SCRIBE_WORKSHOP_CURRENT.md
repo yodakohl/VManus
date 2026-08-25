@@ -10818,10 +10818,16 @@ instruction; four Biological cases have basin/run owners. AIR=WASSER therefore
 stays, with ARBEITSFLÜSSIGKEIT only as a future fallback. See
 `sidequest_semantic_concrete_medium_revision_seven_hundred_twenty_fourth/SEVEN_HUNDRED_TWENTY_FOURTH_REPORT.md`.
 
-Next, rewrite all five Herbal records as complete fluent articles from the new
-atomic traces. Keep pictured plant as silent subject, mention WATER only where
-AIR occurs, and do not invent named species, diseases or ingredients for
-unanchored whole cards.
+Pass 725 rewrites all5 Herbal records/19 statements/100 events as continuous
+articles. Event counts are H1=14,H2=24,H3=17,H4=18,H5=27. Water appears only in
+H1-S001 at the sole Herbal AIR card `chair`; no named species, disease, wine,
+oil, honey or unanchored ingredient is added. The visible plant remains the
+silent subject, while every card/surface/boundary stays fixed. See
+`sidequest_semantic_five_herbal_articles_seven_hundred_twenty_fifth/SEVEN_HUNDRED_TWENTY_FIFTH_REPORT.md`.
+
+Next, rewrite all6 Biological records/97 statements/281 events with the same
+atoms. Keep four AIR water readings local to their actual basin/run owner,
+retain every owner reset and explicitly avoid a global closed water circuit.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
