@@ -11170,10 +11170,19 @@ with register specialization rather than requiring every hand to memorize all
 173 cards. See
 `sidequest_semantic_workshop_curriculum_seven_hundred_sixty_third/SEVEN_HUNDRED_SIXTY_THIRD_REPORT.md`.
 
-Next, make role-specific practical examinations with planted apprentice errors:
-one Herbal clause, one Bio cell, one master correction exercise and one Astro
-layout-copy exercise. Test whether the curriculum catches wrong grade, missing
-current-item carry, wrong close, wrong local tail and false diagram ordering.
+Pass 764 gives the four roles practical examinations. Five planted errors are
+all caught and repaired exactly: a missing Herbal close, wrong Bio E/EE grade,
+missing current-item carry, a true but wrong local Herbal tail strip, and an
+Astro label copied from the next editorial slot by assuming a false rotation.
+The first three are repaired from common rules, the tail requires the master's
+layout memory, and Astro correction returns to the visible local owner rather
+than predicting a sequence. See
+`sidequest_semantic_role_exams_seven_hundred_sixty_fourth/SEVEN_HUNDRED_SIXTY_FOURTH_REPORT.md`.
+
+Next, design the smallest plausible correction-mark vocabulary for a1420
+master: marks for delete, insert, transpose, repeat/current-item carry, grade,
+close, wrong local tail and wrong picture owner. Apply them to the four exams
+without rewriting whole lines, and test whether every correction is unambiguous.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
