@@ -11572,6 +11572,19 @@ Next, insert the six operation counterparts into complete statements and turn
 the14 stacked cards into an input→guide/add→transfer state machine tied to the
 local picture owner.
 
+Pass 798 inserts all six operation counterparts with every other statement
+event fixed, then expands the14 genuinely stacked cards into42 transitions over
+eight workshop states. K leads to MATERIAL_ADDED, L to PATH_ENGAGED and CHD to
+ITEM_TRANSFERRED; DY closes, AL ends at the owner-local target, AR at the
+owner-local source and Y keeps the item active. The dominant12-event L→CHD
+pattern literally guides first and transfers second. See
+`sidequest_semantic_transfer_automaton_seven_hundred_ninety_eighth/SEVEN_HUNDRED_NINETY_EIGHTH_REPORT.md`.
+
+Next, publish one consolidated second workshop grammar: all productive cores,
+slot axes, learned whole cards, hand/allograph rules and unattested predictions.
+Reparse the full381-event prose against it and flag every card whose reading is
+still supplied only by a memorized whole-card entry.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
