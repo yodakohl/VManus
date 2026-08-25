@@ -1,11 +1,11 @@
 # Current twenty-two-page scribe-workshop theory
 
-Updated: 2026-08-25, after Pass 1015.
+Updated: 2026-08-25, after Pass 1016.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
-translation**. This is the compact handoff for the sidequest. Pass 1015 gives
-all 627 statements a complete owner-plus-core reading under the Pass-1013
-46-sign contract and needs no independent specialist root.
+translation**. This is the compact handoff for the sidequest. Pass 1016 gives
+all 627 statements a complete owner-plus-core reading and compresses the 19
+local sign forms into four learned channels.
 
 ## Fixed scope
 
@@ -212,6 +212,17 @@ is removed. The most common were *bearbeiten* (110 statements), *absetzen*
 (71), *Durchlass* (59), *Auszug* (34), and *bereit* (19). No surface, owner,
 statement boundary, action core, grade, or ending is changed.
 
+Pass 1016 removes the last inflated part of the apprentice vocabulary. The 19
+local graphical signs do not need 19 separate meanings: they implement four
+channels, `HIER`, `VARIANTE`, `KLASSE`, and `VORBEZUG`. `HIER` alone accounts
+for 473/527 local-sign mentions; its D/A/AM/S/F/M/Z forms select different
+local positions without becoming words such as *Teil, innen, außen* or
+*Mitte*. The rarer G/I/B/J/Z marks all select local variants. `HO` marks KLASSE
+at the event start in 16/16 cases, while `AN` marks it at the end in 7/7.
+`OS` and the one resume card carry VORBEZUG. Thus the page still uses 46
+visible sign forms, but the semantic teaching sheet now contains only 19
+portable cores, eight controls, and four local channels: 31 categories.
+
 ## Constrained semantic pocket dictionary
 
 The twelve content/action cores are:
@@ -343,6 +354,9 @@ comparison set.
 
 ## Primary artifacts
 
+- Current Pass-1016 four-channel compression of all nineteen local signs,
+  complete 627-statement channel edition, builder, and validator:
+  `sidequest_semantic_local_channel_compression_one_thousand_sixteenth/`;
 - Current Pass-1015 complete 627-statement owner/core edition, nine-drawer
   summary, builder, and validator:
   `sidequest_semantic_627_core_owner_edition_one_thousand_fifteenth/`;

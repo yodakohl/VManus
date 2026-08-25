@@ -6,7 +6,7 @@ Updated: 2026-08-25. This is the full claim registry. For routine work, read
 
 ## Outcome
 
-### Noncanonical twenty-two-page sidequest (Pass 1015)
+### Noncanonical twenty-two-page sidequest (Pass 1016)
 
 The creative workshop sidequest covers twenty-two admitted physical pages with
 4,581 visible groups: 3,888 running prose/ring-text groups plus 693 local
@@ -177,6 +177,16 @@ deterministically composed from the same contract. This removes automatic
 specialist wording from 255 old statements—most often *bearbeiten* (110),
 *absetzen* (71), *Durchlass* (59), *Auszug* (34), and *bereit* (19)—without
 changing any surface, statement, owner, grade, boundary or root value.
+
+Pass 1016 compresses the nineteen local signs into four teaching channels:
+`LOCAL_PLACE=HIER`, `LOCAL_INDEX=VARIANTE`, `LOCAL_CLASS=KLASSE`, and
+`LOCAL_REFERENCE=VORBEZUG`. Place selection dominates with 473/527 local-sign
+mentions; all four registers use that channel. The edge syntax is reusable:
+`HO` is class-initial in 16/16 events, while `AN` is class-final in 7/7.
+Three forms have no running-text occurrence and remain dormant exemplar signs.
+All 627 statements and 3,888 events keep their Pass-1015 readings. The graphic
+inventory remains 46 signs, but the apprentice now learns only 19 portable
+cores + 8 controls + 4 local channels = 31 semantic categories.
 
 - The manuscript is **not translated**. There are zero confirmed English
   lexemes, zero plaintext clauses, and no established language, phonetic
