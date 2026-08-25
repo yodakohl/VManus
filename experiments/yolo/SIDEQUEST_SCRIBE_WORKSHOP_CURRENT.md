@@ -11199,10 +11199,19 @@ owner resets are retained, not silently corrected. Thus381 visible cards encode
 380 logical source cards because of exactly one local layout copy. See
 `sidequest_semantic_actual_error_audit_seven_hundred_sixty_sixth/SEVEN_HUNDRED_SIXTY_SIXTH_REPORT.md`.
 
-Next, refactor the forward compiler into two explicit stages: generate380
-logical source cards, then render the one licensed E180 edge copy to recover381
-visible cards. The renderer must not duplicate E020/E021 or E033/E034, insert
-closes into27 open statements, or carry across four visible owner resets.
+Pass 767 makes that distinction executable. Stage one emits380 logical source
+cards in116 statements. Stage two inserts only the licensed anticipatory E180
+copy before its E181 main card and exactly recovers381 visible cards. E020/E021
+and E033/E034 retain distinct source identities;27 open statements stay open;
+no copy fires at owner-reset events E203,E264,E291,E356. This cleanly separates
+the planned card stream from physical-page rendering. See
+`sidequest_semantic_source_render_compiler_seven_hundred_sixty_seventh/SEVEN_HUNDRED_SIXTY_SEVENTH_REPORT.md`.
+
+Next, build a bounded physical-line packer for all known intra-statement line
+transitions. Use card widths, remaining line space, owner continuity and close
+status to explain why only E180 receives an anticipatory copy. If space alone
+cannot select it, keep a local master-layout instruction instead of inventing a
+universal catchword rule.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
