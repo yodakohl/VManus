@@ -1,0 +1,32 @@
+category_id	category_type	graphic_signs	short_value_de	syntax_role	apprentice_rule_de	forbidden_overreading_de	running_atom_mentions	teaching_order
+CORE_01	PORTABLE_CORE	Y	AKTIVER POSTEN	REFERENT	den aktuell gemeinten Bild-, Stations- oder Eintragsposten weitertragen	kein Schlusszeichen	1390	I_DAILY
+CORE_02	PORTABLE_CORE	OK	SETZEN	HANDLUNG	den rechts folgenden Posten, Anteil, Wert oder Ort in den Gang setzen	kein bestimmter Stoffprozess	690	I_DAILY
+CORE_03	PORTABLE_CORE	OL	FORTSETZEN	FOLGE	den laufenden Gang oder die folgende Handlung fortsetzen	kein Stoffwort	573	I_DAILY
+CORE_04	PORTABLE_CORE	OT	DANACH	FOLGE	die rechts folgende Handlung, Adresse oder Stufe als nächsten Schritt lesen	kein eigenes Aktionsverb	306	I_DAILY
+CORE_05	PORTABLE_CORE	AL	ZIELORT	RELATION	die Handlung an den bezeichneten Zielort binden	kein bestimmtes Körperteil oder Gefäß	315	I_DAILY
+CORE_06	PORTABLE_CORE	CH	NEHMEN	HANDLUNG	den bezeichneten Posten, Anteil, Wert oder Ort nehmen	kein bestimmtes Material	709	I_DAILY
+CORE_07	PORTABLE_CORE	SH	HALTEN	HANDLUNG	den bezeichneten Posten in der folgenden Stufe halten	kein universelles Ruhen oder Absetzen	503	I_DAILY
+CORE_08	PORTABLE_CORE	AR	AUSGANG	RELATION	die Handlung an den bezeichneten Ausgang binden	keine Richtung und kein Vorratsstoff	257	II_COMMON
+CORE_09	PORTABLE_CORE	K	GEBEN	HANDLUNG	den Posten weitergeben oder zwei Handlungsteile durch Übergabe verbinden	kein bestimmtes Ziel	415	I_DAILY
+CORE_10	PORTABLE_CORE	AIIN	WERT	ARGUMENT	den vorgegebenen Mengen-, Arbeits-, Positions- oder Tabellenwert einsetzen	nicht überall Maß oder Dosis	371	I_DAILY
+CORE_11	PORTABLE_CORE	S	WÄHLEN	HANDLUNG	den rechts bezeichneten Posten, Anteil, Wert oder Ort wählen	kein bestimmtes Auswahlkriterium	240	II_COMMON
+CORE_12	PORTABLE_CORE	CHD	UMSETZEN	HANDLUNG	den aktiven Posten in den nächsten lokalen Arbeitszustand umsetzen	kein bestimmter technischer Prozess	256	II_COMMON
+CORE_13	PORTABLE_CORE	OR	EINHEIT	ARGUMENT	die Handlung auf die laufende Artikel-, Stations-, Eintrags- oder Arbeitsgruppe beziehen	nicht überall Ansatz oder Mischung	228	II_COMMON
+CORE_14	PORTABLE_CORE	L	VERBINDUNG	RELATION	die eingeschlossene oder folgende Handlung über eine lokale Verbindung lesen	keine Richtung	238	II_COMMON
+CORE_15	PORTABLE_CORE	T	EINSTELLEN	HANDLUNG	Posten, Anteil, Wert, Grad oder Ort einstellen	kein bestimmtes Gerät	227	II_COMMON
+CORE_16	PORTABLE_CORE	AIN	ANTEIL	ARGUMENT	einen Pflanzen-, Stations-, Sektor- oder Zutatenanteil verwenden	nicht überall Portion	187	II_COMMON
+CORE_17	PORTABLE_CORE	R	MARKIEREN	HANDLUNG	den folgenden Wert oder den gesetzten lokalen Platz markieren	kein bestimmtes Schriftzeichen	103	II_COMMON
+CORE_18	PORTABLE_CORE	P	EINSETZEN	HANDLUNG	den bezeichneten Posten oder Anteil in den laufenden Gang einsetzen	kein bestimmter Empfänger	123	II_COMMON
+CORE_19	PORTABLE_CORE	AIR	LAUF	RELATION	die Handlung an den bezeichneten Lauf binden	nicht automatisch Wasser oder Richtung	38	III_RARE
+CONTROL_01	FORMAL_CONTROL	E	GRAD I	STEUERUNG	erste oder niedrige Stufe der aktiven Handlung	kein universelles kurz, kalt oder leicht	832	I_DAILY
+CONTROL_02	FORMAL_CONTROL	EE	GRAD II	STEUERUNG	zweite oder höhere Stufe derselben Handlung	kein universelles lang, warm oder stark	466	I_DAILY
+CONTROL_03	FORMAL_CONTROL	EEE	GRAD III	STEUERUNG	dritte oder volle Stufe derselben Handlung	kein automatischer Schluss	23	III_RARE
+CONTROL_04	FORMAL_CONTROL	DY	SCHLUSS	STEUERUNG	nur in einer lizenzierten Endkarte den Teilgang schließen	sichtbares dy nicht global als Schluss zerlegen	568	I_DAILY
+CONTROL_05	FORMAL_CONTROL	O	AUSFÜHRUNG	STEUERUNG	die lokal aktive Handlung ausführen	kein eigenes Stoff- oder Aktionswort	536	I_DAILY
+CONTROL_06	FORMAL_CONTROL	CARRIER_Q	BEGINNMARKER	STEUERUNG	einen neuen lokalen Eintrag oder Gang eröffnen	kein Laut- oder Inhaltswert	60	II_COMMON
+CONTROL_07	FORMAL_CONTROL	IIN	STUFE	STEUERUNG	eine benannte Arbeits- oder Diagrammstufe wählen	nicht mit AIIN=WERT verschmelzen	37	III_RARE
+CONTROL_08	FORMAL_CONTROL	DA	ZWEITE STUFE	STEUERUNG	einen zweiten lokalen Gang oder Platz anzeigen	nicht automatisch danach oder Gefäß	34	III_RARE
+CHANNEL_01	LOCAL_CHANNEL	D_ADDR|AM_ADDR|A_ADDR|S_ADDR|LOCAL_CHAR_F|D_LABEL|S_LABEL|M_LOCAL|Z_ADDR	HIER	LOCAL_PLACE	den lokal bezeichneten Bild-, Tabellen-, Rand- oder Nebenplatz nehmen	kein portables Nomen aus der lokalen Zeichenform erzeugen	473	I_DAILY
+CHANNEL_02	LOCAL_CHANNEL	G_LABEL|LOCAL_CHAR_G|LOCAL_CHAR_I|LOCAL_CHAR_B|LOCAL_CHAR_J|LOCAL_CHAR_Z	VARIANTE	LOCAL_INDEX	die lokal markierte Variante, Paarung oder Unterstufe nehmen	kein portables Nomen aus der lokalen Zeichenform erzeugen	24	III_RARE
+CHANNEL_03	LOCAL_CHANNEL	HO|AN	KLASSE	LOCAL_CLASS	die lokale Stoff-, Zusatz- oder Eintragsklasse übernehmen	kein portables Nomen aus der lokalen Zeichenform erzeugen	23	III_RARE
+CHANNEL_04	LOCAL_CHANNEL	OS|RESUME_CARD	VORBEZUG	LOCAL_REFERENCE	den vorausgesetzten Besitzer oder laufenden Gang wieder aufnehmen	kein portables Nomen aus der lokalen Zeichenform erzeugen	7	III_RARE

@@ -1,9 +1,9 @@
 # Current twenty-two-page scribe-workshop theory
 
-Updated: 2026-08-26, after Pass 1019.
+Updated: 2026-08-26, after Pass 1020.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
-translation**. This is the compact handoff for the sidequest. Pass 1019 gives
+translation**. This is the compact handoff for the sidequest. Pass 1020 gives
 all 627 statements a complete owner-plus-core reading, four local channels,
 a forward compiler, and 19 core values that each occur in all four registers.
 
@@ -258,6 +258,17 @@ station, celestial entry group, or local vessel/preparation unit without
 forcing *Ansatz* everywhere. P1009-S075 also loses the inherited phrase *nach
 Maß*, because that statement contains no `AIIN`.
 
+Pass 1020 compresses the entire machine onto one historical-style apprentice
+sheet: nineteen portable cores, eight controls, four local channels, and ten
+rules for opening embedded or linear packages. These 31 categories cover all
+46 graphic sign families and every component in all 627 statements / 3,888
+running events. A complete f13r roundtrip opens 77/77 cards across five
+statements; a complete f67r2 roundtrip opens 126/126 running cards across eleven
+statements while leaving its 64 celestial labels as local names. Neither needs
+a restored specialist root. The sheet therefore transports from a pictured
+plant article to a two-wheel celestial register; concrete referents, values,
+and long-range scope still come from the image/master exemplar.
+
 ## Constrained semantic pocket dictionary
 
 The twelve content/action cores are:
@@ -389,6 +400,9 @@ comparison set.
 
 ## Primary artifacts
 
+- Current Pass-1020 one-page apprentice sheet, 31-category lexicon, complete
+  627-statement coverage, full f13r and f67r2 roundtrips, builder, and validator:
+  `sidequest_semantic_apprentice_sheet_roundtrip_one_thousand_twentieth/`;
 - Current Pass-1019 four-image/28-context audit of WERT, ANTEIL and EINHEIT,
   with twelve central readings, sixteen independent counterreadings, builder,
   and validator:

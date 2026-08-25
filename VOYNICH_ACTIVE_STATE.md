@@ -6,7 +6,7 @@ Updated: 2026-08-26. This is the full claim registry. For routine work, read
 
 ## Outcome
 
-### Noncanonical twenty-two-page sidequest (Pass 1019)
+### Noncanonical twenty-two-page sidequest (Pass 1020)
 
 The creative workshop sidequest covers twenty-two admitted physical pages with
 4,581 visible groups: 3,888 running prose/ring-text groups plus 693 local
@@ -219,6 +219,17 @@ safe portable top value even where neither a number nor a physical measure is
 drawn. The images supply local arguments, not a second dictionary. No new
 root is added. P1009-S075 is specifically repaired by removing *nach Maß*,
 because its component sequence contains no AIIN.
+
+Pass 1020 reduces the live teaching system to one apprentice sheet: 19
+portable cores, 8 controls, 4 local channels, and 10 opening rules for embedded
+or linear packages. Its 31 semantic categories cover all 46 graphic sign
+families and every component in 627 statements / 3,888 running events. Two
+complete roundtrips use the same sheet without extra roots: f13r has 5
+statements and 77 cards; f67r2 has 11 statements and 126 running cards, while
+64 celestial labels remain local names. Card composition is therefore fully
+readable at the current layer in both a plant article and a celestial wheel;
+specific plant organs, diagram entries, values, and long-range reference scope
+remain image- or master-exemplar supplied.
 
 - The manuscript is **not translated**. There are zero confirmed English
   lexemes, zero plaintext clauses, and no established language, phonetic
