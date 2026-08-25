@@ -12407,6 +12407,20 @@ Next, combine WHAT, HOW and CONDITION into one ten-page scribal production
 manual, then execute a complete sample order forward and backward to locate the
 remaining practical ambiguities.
 
+Pass 869 publishes one twelve-step production manual over all776 visible
+groups:100 WHAT,281 HOW and395 CONDITION. A complete example uses f56r/P4,
+f82r/B2 and the single f69v.12 label `otody`, for90 visible marks. Backward
+reading recovers every mark plus preparation, application and condition class.
+Five practical values still require the master: product identity, numeric
+measure, numeric duration, material result, and external condition value. This
+is now a concrete workshop notation with a small memorized payload, not a vague
+claim of general opacity. See
+`sidequest_semantic_ten_page_production_manual_eight_hundred_sixty_ninth/EIGHT_HUNDRED_SIXTY_NINTH_COMPLETE_SAMPLE_ORDER.md`.
+
+Next, attack the five missing master values one by one using only the ten pages:
+look first for whether repeated card/owner patterns can supply a relative rather
+than numeric measure and duration scale without inventing new words.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
