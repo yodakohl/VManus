@@ -12678,6 +12678,20 @@ the card back, and make a front-side checklist of MATERIAL, MEASURE, SOURCE,
 TARGET, OPERATION, RESULT and CONDITION. Decide how many of the 118 units can be
 executed from the shared workshop vocabulary without reopening a local model.
 
+Pass 889 produces six front/back job cards with42 filled checklist slots and all
+437 exact marks on the backs. The current231-identity deck contains53 portable
+identities covering251 marks. Of118 units,53 are shared-core executable,43 mix
+core and local cards,16 are entirely local, and six are condition-model leaves.
+Nineteen units reuse at least one of the fourteen exact recurrent phrases. See
+`sidequest_semantic_apprentice_job_deck_eight_hundred_eighty_ninth/EIGHT_HUNDRED_EIGHTY_NINTH_APPRENTICE_FRONT_BACK_DECK.md`.
+
+Next, attack the remaining local prose burden directly. Rank the recurrent
+COPY_LOCAL_MODEL identities inside the43 mixed and16 local-only units, then give
+the twelve highest-yield cards short concrete whole-word readings from their
+core-card neighbours and visible owner. Propagate the best coherent readings
+through all occurrences and measure how many apprentice units become fully
+readable without the local prose leaf.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
