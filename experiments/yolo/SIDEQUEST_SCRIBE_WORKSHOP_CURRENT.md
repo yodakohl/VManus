@@ -11748,6 +11748,17 @@ Next, resolve S in `ches=CH+E+S` against TEIL, MENGE, REST and ABGETRENNTER
 ANTEIL. Keep it distinct from AIN=PORTION only if the full sentence needs that
 distinction.
 
+Pass 812 revises S from TEIL to `PROBE` and promotes it to specialist core33.
+`ches=CH+E+S` now says "kurz eine Probe entnehmen" immediately before AIIN
+SOLLMASS on f82r. This distinguishes three roles: S is a diagnostic sample,
+AIN a working portion, and AIIN the prescribed measure/setting. TEIL/MENGE and
+ANTEIL duplicated AIN; REST required an unseen depletion. Four new semantic
+recipes are kept without invented surface spellings. See
+`sidequest_semantic_s_sample_eight_hundred_twelfth/EIGHT_HUNDRED_TWELFTH_REPORT.md`.
+
+Next, resolve DA in `daiiin=DA+IIN`: compare ZWEIT, ERNEUT, NAECHST and a
+numbered stage marker against its complete B5 sequence.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
