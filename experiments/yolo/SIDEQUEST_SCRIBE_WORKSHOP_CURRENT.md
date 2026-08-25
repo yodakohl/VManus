@@ -12839,6 +12839,20 @@ E/EE/EEE grades, AIIN/AIN/AL/AR/AIR arguments, L/R onsets and Y/DY endpoints.
 Use it to render the ten worked root recipes forward into their observed surface
 families and identify only the irreducible memorized spellings.
 
+Pass 901 gives every symbol a visible cue and maps all231 identities/all437 marks
+with15 renderer rules. There are190 component recipes;174 have one surface and16
+have multiple learned allographs. The identity split is175 compositional single
+renderings,48 members of multi-allograph families and8 memorized exact forms.
+Nine of ten worked recipes render to one exact surface; OT+CHD+DY predicts the
+two-form family otchdy|qotchedy. See
+`sidequest_semantic_allograph_renderer_nine_hundred_first/NINE_HUNDRED_FIRST_ALLOGRAPH_MANUAL.md`.
+
+Next, attack the16 multi-allograph families. List every occurrence with order,
+register, page, unit position and left/right neighbour; test whether q-carrier,
+frame and endpoint choice can be selected by a short apprentice rule using only
+those visible/workflow contexts. Prefer a small selector shared across families;
+leave only genuine hand-specific choices memorized.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
