@@ -11108,10 +11108,18 @@ already had the right length. Exactly seven large formulas remain:
 H1-S001,H2-S001,H3-S001,H5-S001,B1-S002,B3-S021,B6-S001. See
 `sidequest_semantic_small_phrase_reorder_seven_hundred_fifty_sixth/SEVEN_HUNDRED_FIFTY_SIXTH_REPORT.md`.
 
-Next, inspect those seven large formulas for shared inner motifs before making
-seven sentence-sized exceptions. Search repeated cards, owner/material echoes,
-and shared address/continuation blocks across the seven; build the smallest
-large-formula teaching deck possible.
+Pass 757 finds strong reuse inside those seven formulas. Y and AIIN occur in
+all seven, OL in six, AL and OR in five. Eight exact shared cards occupy31/74
+formula positions;43 positions remain local. The formulas collapse to three
+teaching shells: three Herbal owner/material echoes, one Herbal wet-process
+cadence, and three Bio address/continuation echoes. Their gap is36 missing
+components versus2 extra, led by Y9,AL4,OL4. See
+`sidequest_semantic_large_formula_motifs_seven_hundred_fifty_seventh/SEVEN_HUNDRED_FIFTY_SEVENTH_REPORT.md`.
+
+Next, build a final large-formula deck with exactly three family shells, the
+eight shared exact-card motifs, and seven bound exemplar sequences. Integrate
+it after all productive and small-phrase rules; require exact shell context and
+then confirm full116/116 recipe reconstruction.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
