@@ -11687,6 +11687,18 @@ material nouns and O/IIN/SOLK as procedure/place nouns. Promote only meanings
 that remain atomic inside their compounds; do not make visible o or i a
 universal letter-morpheme.
 
+Pass 807 promotes three distinct material roots to core25: AIR=WASSER (5
+cards/5 events), OR=ANSATZ (10/18), and HO=ZUTAT (5/8). Their union is19 cards
+and30 events because `chochor=HO+CH+OR` contains both an input ingredient and
+the current preparation; that co-occurrence rules out one vague O-material
+stem. Each value combines independently with operations, quantity, address or
+endpoint values. See
+`sidequest_semantic_material_roots_eight_hundred_seventh/EIGHT_HUNDRED_SEVENTH_REPORT.md`.
+
+Next, test O=VORGANG, IIN=ARBEITSSTUFE and SOLK=SAMMELSTELLE. Build SOLK's
+grade/endpoint board, and demand independent portable compositions before
+promoting O or IIN.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
