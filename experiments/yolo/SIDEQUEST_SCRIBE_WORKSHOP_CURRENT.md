@@ -11264,9 +11264,20 @@ Bio (LD,DA). Productive access rises to168/173 cards,376/381 events and111/116
 statements; each specialist now needs36 prose components, the master39. See
 `sidequest_semantic_lsh_mini_paradigm_seven_hundred_seventy_fourth/SEVEN_HUNDRED_SEVENTY_FOURTH_REPORT.md`.
 
-Next, split the rare master sheet into three Herbal and two Bio boxes plus the
-two-card LSH strip. Test full specialist training with no access to the other
-register's rare box; the master alone keeps all five boxes and all39 values.
+Pass 775 splits the residual master sheet into a three-card Herbal box
+(`os/cfhy/talam`), a two-card Bio box (`qokylddy/daiiin`) and the separate
+two-card LSH washing strip. With no access to the other register's box, the
+Herbal specialist still reproduces all100 events/19 statements and the Bio
+specialist all281 events/97 statements; the foreign box is never needed. The
+master retains both boxes, the LSH strip and all39 values and reproduces381/381
+events. The resulting17-lesson loads are master111h, Herbal68h, Bio80h and
+Astro24h. See
+`sidequest_semantic_register_rare_boxes_seven_hundred_seventy_fifth/SEVEN_HUNDRED_SEVENTY_FIFTH_REPORT.md`.
+
+Next, compare these practical roles with the hands actually recorded on the
+seven prose pages. A hand spanning both registers should be treated as a
+dual-trained worker, not forced into a false specialist split; page-local hands
+should reveal whether the two-box architecture is genuinely economical.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
