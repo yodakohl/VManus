@@ -11388,6 +11388,19 @@ Next, apply only CHED↔CHD and Y↔CHY across all163 recipes and list unatteste
 but mechanically predicted partner surfaces. Check whether any already occur
 elsewhere on the ten pages with the same recipe, a different recipe or nowhere.
 
+Pass 784 produces95 directed partner predictions:18 hit an attested surface of
+the same recipe,75 are unseen on the fixed pages, and2 are cross-recipe
+collisions. CHED↔CHD gives27 predictions with8 same-recipe hits and no semantic
+collision. Global Y↔CHY fails on `ly=L+Y=LEITEN·DIES` versus
+`lchy=L+CH+Y=LEITEN·ENTNEHMEN·DIES`; it is now restricted to the licensed OK+Y
+and CHD+Y paradigms. Five strong unseen surface predictions remain:
+`chdchy, schdy, tchdy, okchdy, qotchdy`. See
+`sidequest_semantic_allograph_predictions_seven_hundred_eighty_fourth/SEVEN_HUNDRED_EIGHTY_FOURTH_REPORT.md`.
+
+Next, inspect all CHED/CHD occurrences with their hand, page, statement role,
+open/closed endpoint and position. Try to derive the long-versus-short selection
+rule rather than merely predicting that both forms may exist.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
