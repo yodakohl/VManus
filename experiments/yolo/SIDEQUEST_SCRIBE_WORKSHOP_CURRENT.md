@@ -11216,10 +11216,19 @@ forward rule. The honest forward mechanism remains one non-general Bio model-
 sheet license for f82r.3→f82r.4. See
 `sidequest_semantic_line_packer_seven_hundred_sixty_eighth/SEVEN_HUNDRED_SIXTY_EIGHTH_REPORT.md`.
 
-Next, add the single local edge-copy license to the Bio curriculum, update
-scribe hours and build a revised pocket manual. Keep it out of the Herbal and
-Astro modules. Then retest all four practical exams and the380→381 renderer
-under the revised role permissions.
+Pass 769 incorporates that one exception as a one-hour Bio/master-only lesson.
+The revised loads are master115h, Herbal74h, Bio85h and Astro24h. Four role
+exams plus the380→381 renderer pass exactly; four deliberately cross-specialty
+tasks are blocked (Herbal cannot use the f82r edge license, Bio cannot use
+Herbal layouts, Astro cannot use prose rules, Herbal cannot use Bio layouts).
+The common grammar stays unchanged. See
+`sidequest_semantic_revised_role_manual_seven_hundred_sixty_ninth/SEVEN_HUNDRED_SIXTY_NINTH_REPORT.md`
+and `SEVEN_HUNDRED_SIXTY_NINTH_REVISED_POCKET_MANUAL.md`.
+
+Next, optimize the17-card common recognition deck as a practical teaching set.
+Compare nested cores of5,8,12 and17 cards by event coverage, cross-register
+presence, component diversity and copy-drill burden. Choose the smallest core
+that does not make both specialists repeatedly consult their local decks.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
