@@ -1,14 +1,13 @@
 # Voynich current route
 Updated: 2026-08-25. Use `experiments/EXPERIMENT_INDEX.tsv` for primary reports; consult the active state and ledger only for claim-detail audits or historical reconstruction.
 Noncanonical twenty-two-page sidequest: `experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_CURRENT.md`.
-Its creative Pass-1010 release binds 4,581 groups (3,888 running, 693 local) in one physically ordered 627-statement edition.
+Its creative Pass-1011 release binds 4,581 groups (3,888 running, 693 local) in one physically ordered 627-statement edition.
 The 175-line codebook has 53 roots, 30 formula ligatures, 72 contextual compositions, 16 local drug labels, and one address-copy rule.
-Pass 1010 resolves the 24 `OT+Grad` action ellipses: 13 retain their prior
-grade, six lower it, three raise it, and two introduce it, while the inherited
-verb stays fixed. `E/EE/EEE` are now GRAD I/II/III rather than universal time
-words; Y/DY independently keeps the referent active or closes the part-step.
-Two concept reviews favor four interoperable registers in an illustrated
-workshop breviary, not a mandatory linear pipeline or 53 proven lexemes.
+Pass 1011 manually checks 35 passages on 12 original page images with two
+different workshop readers: 4 strong, 15 plausible, 14 strained and 2 direct
+image contradictions. The repaired rule is visible owner/local station first;
+do not invent apparatus on Herbal pages, direction from an unarrowed link, or
+a page-wide Biological pipe network. All 627 statements remain bound.
 ## Scientific ceiling
 
 - The manuscript is **not translated**.

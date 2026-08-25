@@ -1,11 +1,11 @@
 # Current twenty-two-page scribe-workshop theory
 
-Updated: 2026-08-25, after Pass 1010.
+Updated: 2026-08-25, after Pass 1011.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
-translation**. This is the compact handoff for the sidequest. Pass 1010 makes
-operation, grade, and endpoint independent and incorporates two parallel
-reviews of the complete workshop architecture.
+translation**. This is the compact handoff for the sidequest. Pass 1011 adds
+two independent manual image readings and repairs the passages that had grown
+more concrete than the drawings permit.
 
 ## Fixed scope
 
@@ -114,6 +114,24 @@ cores, rare specialist variants, thirty common ligatures, pattern examples,
 and exemplar-copied local names. The nine sentence drawers remain useful
 modern labels for expansions of one sentence spine rather than nine historical
 grammars.
+
+Pass 1011 then manually inspects 35 translated passages on twelve original
+page images. A herbal/apothecary reader checks fourteen passages on seven
+Herbal pages; a bathhouse master/technical draughtsman checks twenty-one
+different passages on five Biological pages. The combined result is four
+strong fits, fifteen plausible fits, fourteen strained readings, and two
+direct image contradictions. All 35 are rewritten in a complete 627-statement
+edition; the other 592 statements remain explicitly unreviewed and unchanged.
+
+The shared correction is **visible owner or local station first, invisible
+machine never by default**. Herbal images reliably contribute whole-plant
+ownership and sometimes distinct roots, leaves, crowns or heads, but not the
+previously supplied vessel, filter, coolant, product or pipe vocabulary.
+Biological drawings do show local baths, vessels, contacts and links, but a
+link without an arrow does not fix direction, and separated local apparatuses
+do not form a page-wide circuit. In particular, f81v is one commonly enclosed
+two-row bath rather than a chain of basins, and the lower f82r pool has no
+visible link to the middle apparatus.
 
 Beyond the 30 common formula cards, 70 recurrent compositions form a second
 apprentice drawer. They cover 287 events; 63 recur across multiple pages and
@@ -238,6 +256,13 @@ as a second portable meaning inside `shey`, `cfhy`, or `cphy`.
   than universal `WASSER`;
 - Biological drawings support local pools, vessels, conduits, and contact
   stations, but not a single directed hydraulic machine.
+- f81v is one shared two-row bath field; its several figures are positions or
+  users, not serial basins;
+- f82r contains separated upper, middle, and lower apparatus groups; the lower
+  pool is not piped to the middle group;
+- unarrowed drawn contacts support local connection but not source-to-target
+  direction, and Herbal picture silence cannot support filters, heat or named
+  products.
 
 ## Historical analogue
 
@@ -252,6 +277,10 @@ comparison set.
 
 ## Primary artifacts
 
+- Current Pass-1011 two-role manual optical audit, all 35 repaired passages,
+  twelve-page summary, complete 627-statement repaired edition, builder, and
+  validator:
+  `sidequest_semantic_manual_optical_passage_audit_one_thousand_eleventh/`;
 - Current Pass-1010 OT-grade chains, operation matrix, endpoint grid, revised
   175-line codebook and 627-statement edition, plus two independent complete
   concept reviews and their synthesis:
@@ -305,7 +334,8 @@ comparison set.
 
 ## Next work
 
-Map the 53 visible teaching signs onto approximately 15–20 semantic core
-functions plus explicitly named specialist variants. Preserve all surfaces,
-ligatures, page owners, nine drawer assignments and 627 statements. The target
-is one compact apprentice core sheet, not another expansion of German glosses.
+Apply the eight Pass-1011 optical writing rules to the remaining 592 statements
+without pretending they were individually image-verified. First remove only
+the recurring high-risk expansions—unseen Herbal apparatus, direction without
+an arrow, cross-owner pipelines, and image-supplied heat/filter/clarity—then
+compress the 53 visible signs into the proposed 15–20 apprentice cores.

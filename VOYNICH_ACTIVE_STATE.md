@@ -6,7 +6,7 @@ Updated: 2026-08-25. This is the full claim registry. For routine work, read
 
 ## Outcome
 
-### Noncanonical twenty-two-page sidequest (Pass 1010)
+### Noncanonical twenty-two-page sidequest (Pass 1011)
 
 The creative workshop sidequest covers twenty-two admitted physical pages with
 4,581 visible groups: 3,888 running prose/ring-text groups plus 693 local
@@ -117,6 +117,19 @@ organizing them as roughly 15–20 semantic cores plus specialist variants,
 ligatures, and exemplar-copied local names. The creative book model is now
 four interoperable registers of an illustrated medical-alchemical workshop
 breviary, not a compulsory page-by-page production pipeline.
+
+Pass 1011 adds a manual optical reading by two different workshop roles over
+35 nonoverlapping passages on twelve original page images. The Herbal reader
+finds 3 strong, 6 plausible and 5 strained fits; the Biological technical
+reader finds 1 strong, 9 plausible, 9 strained and 2 direct image
+contradictions. The two contradictions are concrete: f81v is one commonly
+bounded two-row bath rather than serial basins, and f82r's lower pool is not
+connected to its middle apparatus. The repaired creative rule keeps visible
+whole plants, plant parts, local baths, vessels and real contacts while
+removing image-supplied apparatus on Herbal pages, direction from unarrowed
+links, page-wide pipe networks, and unpictured heat/filter/clarity claims. A
+complete 627-statement output carries the 35 manual repairs and labels the
+remaining 592 statements as not manually reviewed in this pass.
 
 - The manuscript is **not translated**. There are zero confirmed English
   lexemes, zero plaintext clauses, and no established language, phonetic
