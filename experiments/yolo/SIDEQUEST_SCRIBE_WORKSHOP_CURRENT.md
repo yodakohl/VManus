@@ -11521,6 +11521,20 @@ card compiler. It should read every attested multi-axis recipe and form only
 new cards whose individual substitutions are already licensed by these three
 paradigms.
 
+Pass 794 finds only six attested multi-axis events/cards: five combine
+GRADE+ADDRESS and one GRADE+QUANTITY; QUANTITY+ADDRESS and the full triple are
+absent. The bounded compiler therefore makes exactly six one-axis neighbours:
+`cheoal,sheckhar,qokeedar,rshear,cheedal,qotedain`. All preserve the second
+axis and the remaining recipe, and12/12 attested/predicted cards read back. It
+never inserts a new axis. This supports productive slots inside learned whole
+cards rather than a freely generated grid. See
+`sidequest_semantic_multi_axis_compiler_seven_hundred_ninety_fourth/SEVEN_HUNDRED_NINETY_FOURTH_COMPILER_DECK.md`.
+
+Next, test the left-edge control family OK/OT/OL. Remove only the control token,
+group identical tails, and ask whether changing OK→OT→OL consistently changes
+ANSETZEN→DANACH→FORTSETZEN while leaving quantities, addresses, grades and
+endpoints fixed.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
