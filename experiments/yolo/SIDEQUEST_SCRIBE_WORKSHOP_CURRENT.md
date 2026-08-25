@@ -12940,6 +12940,22 @@ contract this to "an die Neben-/Gegenstelle setzen", the existing fluent
 BEISEITESTELLEN. If that one exact composition works, close the learned whole-
 root drawer entirely and keep AM as an address sign rather than a new word.
 
+Pass 908 reads `talam` exactly as T+AL+AM_ADDR = BEARBEITEN+ZIELSTELLE+
+GEGENFELD and revises the f55v sentence to "an der Gegenstelle weiterbearbeiten".
+TALAM, WHOLE_LEXICON and MEMORIZED_WHOLE_FORM therefore leave the grammar. The
+active machine has35 semantic roots,11 helper signs,7 card patterns and14
+renderer rules;179 identity/293 mark renderings are single,50/142 use functional
+allograph families and2/2 use local contractions. Zero whole roots remain. See
+`sidequest_semantic_zero_learned_whole_roots_nine_hundred_eighth/NINE_HUNDRED_EIGHTH_REPORT.md`.
+
+Next, expand beyond the current437-mark six-job selection to the complete776-
+group inventory already exposed on the same ten fixed pages. Bind the existing
+487 surface types and258 units, reuse the35-root grammar wherever a known surface
+or component recipe transfers, and give every one of the339 remaining groups a
+concrete short default. This is completion of the existing ten pages, not page
+expansion; preserve the explicit distinction between generated root readings and
+locally supplied owner expansions.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
