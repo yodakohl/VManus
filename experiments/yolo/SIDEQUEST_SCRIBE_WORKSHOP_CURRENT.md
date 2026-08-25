@@ -11759,6 +11759,17 @@ recipes are kept without invented surface spellings. See
 Next, resolve DA in `daiiin=DA+IIN`: compare ZWEIT, ERNEUT, NAECHST and a
 numbered stage marker against its complete B5 sequence.
 
+Pass 813 selects bound `DA=ZWEI`, so `daiiin=DA+IIN` reads simply "zweite
+Stufe" and the B5 sentence becomes "bis zur zweiten Stufe führen". DA is not
+promoted: naive DA+AIN=`dain` and DA+AIIN=`daiin` collide with the ordinary
+PORTION and SOLLMASS surfaces. ERNEUT overlaps repetition machinery and NAECHST
+overlaps OT. The inventory remains core33 with2 bound values and1 local
+singleton. See
+`sidequest_semantic_da_two_eight_hundred_thirteenth/EIGHT_HUNDRED_THIRTEENTH_REPORT.md`.
+
+Next, resolve LD inside `qokylddy`: compare BINDEN, BEFESTIGEN, VERSCHLIESSEN
+and a graphic double-close reading in its complete statement and visible owner.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
