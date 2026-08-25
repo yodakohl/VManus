@@ -12421,6 +12421,20 @@ Next, attack the five missing master values one by one using only the ten pages:
 look first for whether repeated card/owner patterns can supply a relative rather
 than numeric measure and duration scale without inventing new words.
 
+Pass 870 recovers a relative two-axis scale from151 events/73 exact cards/78
+statements: AIN=PORTION, AIIN=SOLLMASS, IIN=EINSTELLSTUFE, and E/EE/EEE=
+KURZ/LAENGER/VOLL. The P4→B2 sample alone contains43 scale-bearing cards:4
+portions,9 prescribed measures,13 short,16 longer and1 complete operation.
+Measure and duration therefore no longer come wholly from the master; only the
+absolute house vessel/notch/time calibration remains external. Three fully
+missing values remain: product identity, concrete material result and external
+Astro condition. See
+`sidequest_semantic_relative_measure_duration_scale_eight_hundred_seventieth/EIGHT_HUNDRED_SEVENTIETH_RELATIVE_SAMPLE_READING.md`.
+
+Next, attack the material-result slot: combine CTH ready-state, filtration
+Klarlauf, SHED settling, SOLK collection and licensed closes into a small result
+vocabulary, then reread every result-bearing statement.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
