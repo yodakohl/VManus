@@ -11736,6 +11736,18 @@ Next, attack the four singleton components in order: CFH in `cfhy`, S in
 role inside its full sentence; promote or absorb only when the reading becomes
 simpler.
 
+Pass 811 revises the lone `cfhy=CFH+Y` from AUSWRINGEN to the simpler
+`AUSPRESSEN · DIES`. It sits between holding the plant preparation at the
+target and measured holding plus inward filling. AUSPRESSEN needs no invisible
+cloth/twisting, remains distinct from CH=ENTNEHMEN, and supports seven
+collision-free grade/endpoint prediction cells. CFH joins specialist core32.
+See
+`sidequest_semantic_cfh_press_eight_hundred_eleventh/EIGHT_HUNDRED_ELEVENTH_REPORT.md`.
+
+Next, resolve S in `ches=CH+E+S` against TEIL, MENGE, REST and ABGETRENNTER
+ANTEIL. Keep it distinct from AIN=PORTION only if the full sentence needs that
+distinction.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
