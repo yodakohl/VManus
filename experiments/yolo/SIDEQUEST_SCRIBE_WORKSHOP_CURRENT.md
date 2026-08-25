@@ -11321,6 +11321,20 @@ Next, perform a practical cross-hand recopy: render f55v with Hand-1 preferred
 surfaces and a f10r passage with Hand-2 preferred surfaces while keeping every
 card, component recipe and German reading fixed.
 
+Pass 779 executes that cross-hand recopy over all18 f55v and38 f10r events.
+Five f55v events have a Hand-1 model and4 change surface;22 f10r events have a
+Hand-2 model and19 change. All56 retain their exact card ID, component recipe
+and German reading; local cards without an other-hand model are copied
+unchanged. For example f55v `aiin okal oltchy or y orain` becomes Hand-1-style
+`daiin okal oltchy chor dy orain`, while the working reading stays identical.
+This makes the three layers executable: shared components, learned local card,
+hand-specific surface. See
+`sidequest_semantic_cross_hand_recopy_seven_hundred_seventy_ninth/SEVEN_HUNDRED_SEVENTY_NINTH_CROSS_HAND_READABLE_RECOPY.md`.
+
+Next, extend the renderer table across all twelve shared cards and estimate how
+much of the complete381-event prose can be copied by either hand with the
+common renderer plus local model cards.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
