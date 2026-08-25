@@ -12956,7 +12956,29 @@ concrete short default. This is completion of the existing ten pages, not page
 expansion; preserve the explicit distinction between generated root readings and
 locally supplied owner expansions.
 
-Continue only inside the ten-page creative workshop sidequest when the user
+The user instead released four new physical pages for a direct reality check:
+f13r, f75r, f70v and f88r. Pass 909 covers their complete exposed ZL3b content:
+144 loci,863 groups and472 surfaces. Only325 groups/37.7% are exact Pass-908
+surface transfers. f13r and especially f75r support the small process, order,
+address and endpoint grammar; f70v shows that the same forms become ring and
+figure notation rather than literal workshop verbs; f88r combines transferable
+preparation prose with16/16 previously unseen ingredient labels. Therefore the
+zero-whole-root claim is withdrawn. The new base is a three-layer system:
+portable short grammar, register-specific technical expansion and a learned
+local nomenclator for pictured plants, ingredients, figures and table places.
+AIR is now LAUF/BAHN rather than WATER; AL is an Aufnahme-/Anschlussstelle; AR
+an Ausgangs-/Entnahmestelle; P is BEGINNEN/EINSETZEN; CHEO and S are explicitly
+register-bound. See
+`sidequest_semantic_four_page_reality_check_nine_hundred_ninth/NINE_HUNDRED_NINTH_REALITY_CHECK_REPORT.md`.
+
+Next, rebuild the compact apprentice handbook around exactly those three layers.
+Do not force the f88r ingredient labels or f70v figure labels into literal
+operation sentences. Keep a small portable grammar, give each register its own
+short expansion table, and add a bounded copied-name drawer tied to visible
+owners. Retranslate the fourteen admitted physical pages with the revised
+AIR/AL/AR/P/CHEO/S values before admitting any further page.
+
+Continue only inside the fourteen-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
 iteration over preregistration, blinding, freezes, or confirmation language.
