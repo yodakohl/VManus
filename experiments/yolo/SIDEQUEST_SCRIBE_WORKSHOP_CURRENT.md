@@ -11306,6 +11306,21 @@ Next, extract every component recipe used by both hands and compare the exact
 cards chosen for it. This should yield a compact Hand-1/Hand-2 realization
 lexicon and reveal whether the two scribes have systematic preferred variants.
 
+Pass 778 finds13 shared component recipes/114 events and12 shared exact cards/
+106 events. Six of the12 shared cards have disjoint visible surface sets. After
+excluding line-entry and post-close positions, Hand 1 uses a bare wrapper in
+4/33 common-card events and Hand 2 in13/48. The direct Herbal crossover is more
+pointed: Hand 1 writes OR as `chor/shor` and Y as `dy/chy/shy`, whereas Hand 2
+writes internal bare `or` and `y` on f55v; AIIN retains portable `daiin` beside
+extra Hand-2 variants. Thus Hand 2 has a plausible bare-short style over the
+same cards. Only recipe OK+OL uses fully disjoint exact cards (`okchol` versus
+`qokol`). See
+`sidequest_semantic_hand_variant_lexicon_seven_hundred_seventy_eighth/SEVEN_HUNDRED_SEVENTY_EIGHTH_REPORT.md`.
+
+Next, perform a practical cross-hand recopy: render f55v with Hand-1 preferred
+surfaces and a f10r passage with Hand-2 preferred surfaces while keeping every
+card, component recipe and German reading fixed.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
