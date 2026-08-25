@@ -11455,6 +11455,20 @@ Next, turn those six predictions into a compact apprentice writing board. Test
 forward formation and backward reading with both hand wrappers, while keeping
 the predicted cards visibly separate from manuscript-attested cards.
 
+Pass 789 makes that board executable. Six predicted recipes are written by two
+hands in12 forward/backward exercises; every recipe and spoken prompt survives
+the round trip. Only two exploit an observed lower-grade hand contrast:
+`OK+EEE+Y` is Hand 1 `chokeeey` versus Hand 2 `qokeeey`, and `SH+EEE+Y` is
+`sheeey` versus `cheeey`. The other four use a shared master form because no
+hand pair exists. The board produces eight distinct, still-unattested surfaces
+with zero collision against the fixed-page inventory. See
+`sidequest_semantic_apprentice_grade_board_seven_hundred_eighty_ninth/SEVEN_HUNDRED_EIGHTY_NINTH_APPRENTICE_BOARD.md`.
+
+Next, apply this component-first method to AIIN versus AIN. Inventory every
+quantity-bearing recipe, find real recurring core+quantity+outcome patterns,
+and separate the productive amount slot from whole cards that merely contain
+the same visible letters.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
