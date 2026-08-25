@@ -12146,6 +12146,17 @@ Next, publish a complete tenth-edition173-card/381-event dictionary with an
 explicit learning mode on every card and the four AIR wording repairs carried
 into all116 statements.
 
+Pass 846 publishes the integrated tenth workshop edition:39 components,173
+cards,381 events,116 statements and11 records. Learning modes are167/374
+COMPOSE_COMPONENTS,3/3 MEMORIZE_BOUND_FRAME, and3/4 MEMORIZE_WHOLE_CARD. The
+complete prose now carries O=ARBEITSGANG, Y=POSTEN, AIR=WASSER and all four
+water wording repairs. The compact prediction deck stays24 recipes/30 surfaces;
+five new quantity/grade cells remain a separate supplement. See
+`sidequest_semantic_tenth_workshop_edition_eight_hundred_forty_sixth/EIGHT_HUNDRED_FORTY_SIXTH_REPORT.md`.
+
+Next, test learnability directly by encoding and decoding twenty short German
+workshop commands with the manual alone and no page owner.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
