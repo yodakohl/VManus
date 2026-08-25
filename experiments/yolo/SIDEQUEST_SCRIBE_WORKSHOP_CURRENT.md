@@ -12625,6 +12625,18 @@ features already assigned to each batch history and Biological record. Select
 the strongest stock for each HOW record, allow reuse, and revise the six orders
 only where another ready batch fits the visible operation chain better.
 
+Pass 885 compares all60 stock/application pairs through existing process
+features. The revised supply map is B1<-A.G2, B2<-B.X4, B3<-A.G2, B4<-C.W2,
+B5<-B.X1 and B6<-D.P1: four of six old links change. B2 and B5 receive complete
+feature matches; B6 still lacks a pre-collected Herbal stock, so collection is
+performed inside the Biological record. No card meaning changes. See
+`sidequest_semantic_stock_application_matching_eight_hundred_eighty_fifth/EIGHT_HUNDRED_EIGHTY_FIFTH_STOCK_APPLICATION_BOOK.md`.
+
+Next, rebuild the complete six-order book with those revised supplies. Include
+each chosen stock's entire predecessor chain, all281 Biological events and the
+same six complete condition loci, then publish corrected mark/unit/payload totals
+under the fifth-hand surfaces and unchanged calibrations.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
