@@ -11674,6 +11674,19 @@ Next, integrate CH/SH/CTH/CHK/SHED/P/LSH into a third compact grammar and
 recalculate full173-card/381-event/116-statement core coverage. Keep every
 remaining strip value and whole card explicit.
 
+Pass 806 publishes the third grammar:22 productive cores,9 recurrent strip
+values,1 bound value,4 local singletons and3 whole commands. It rebuilds all
+173 cards,381 events and116 statements. Core touch rises from161/358 to
+166/363, while fully core-composed material rises much more—from76 cards/237
+events to105/292. Sixty-five source proposals deduplicate to64 unique unseen
+surfaces; `cheeeky` is the one independently repeated proposal. See
+`sidequest_semantic_third_workshop_grammar_eight_hundred_sixth/EIGHT_HUNDRED_SIXTH_ONE_PAGE_GRAMMAR.md`.
+
+Next, attack the remaining nine values in grammatical pairs: AIR/OR/HO as
+material nouns and O/IIN/SOLK as procedure/place nouns. Promote only meanings
+that remain atomic inside their compounds; do not make visible o or i a
+universal letter-morpheme.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
