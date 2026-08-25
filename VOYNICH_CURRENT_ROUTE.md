@@ -1,13 +1,13 @@
 # Voynich current route
 Updated: 2026-08-25. Use `experiments/EXPERIMENT_INDEX.tsv` for primary reports; consult the active state and ledger only for claim-detail audits or historical reconstruction.
 Noncanonical fourteen-page sidequest: `experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_CURRENT.md`.
-Its current creative working layer is Pass 947: 2,511 groups split into 1,008
-productive abbreviation readings, 1,002 learned-formula readings and 501 local
-nomenclator/address readings. The deck has 56 short values and 47 learned card
-families with 97 surfaces; all 354 prose clauses and 14 pages have complete
-readings. The leading book model is plant material → vessel preparation →
-bath/application → celestial selection. This remains a creative workshop
-reading, not a confirmed translation or decoded local name.
+Its creative Pass-996 layer has 2,511 groups: 2,010 running-text groups in 354 natural clauses plus 501 local addresses.
+The 159-unit codebook has 53 roots, 30 formula cards, 51 specialist cards, 24 page-local cards/signs, and one address-copy rule.
+Biological has 1,280 groups/318 local clauses; f88r has 16 labels in rows 6+6+4 under three silent vessels.
+A second drawer adds 70 recurrent combinations/287 events without new roots; six atomic words shorten to MASS, PORTION,
+ANSATZ, STELLEN, MERKEN, and BEGINN. The creative book model is material → preparation → local application → celestial
+lookup, not a confirmed translation or decoded local name.
+
 ## Scientific ceiling
 
 - The manuscript is **not translated**.

@@ -1,0 +1,62 @@
+# Konkretes 56-Stämme-Wörterbuch
+
+Jeder Stamm hat genau ein kurzes Lemma. Eine komplexe Anweisung darf nur aus mehreren Stämmen oder aus einer der 79 ausdrücklich gelernten Formelkarten entstehen.
+
+- `Y` = **DIES**
+- `OK` = **ANSETZEN**
+- `E` = **KURZ**
+- `DY` = **SCHLIESSEN**
+- `O` = **AUSFÜHREN**
+- `OL` = **FORTSETZEN**
+- `EE` = **LÄNGER**
+- `OT` = **DANACH**
+- `AL` = **ZIEL**
+- `CH` = **ENTNEHMEN**
+- `D_ADDR` = **TEIL**
+- `SH` = **HALTEN**
+- `AR` = **QUELLE**
+- `K` = **ZUGEBEN**
+- `AIIN` = **SOLLMASS**
+- `S` = **AUSWÄHLEN**
+- `CHD` = **UMSETZEN**
+- `OR` = **ANSATZ**
+- `L` = **LEITEN**
+- `T` = **EINSTELLEN**
+- `AIN` = **PORTION**
+- `R` = **MARKIEREN**
+- `P` = **EINSETZEN**
+- `CTH` = **BEREIT**
+- `SHED` = **ABSETZEN**
+- `CKH` = **DURCHLASS**
+- `AM_ADDR` = **INNEN**
+- `CHEO` = **AUSZUG**
+- `DA` = **ZWEIT**
+- `CARRIER_Q` = **BEGINNEN**
+- `A_ADDR` = **ORT**
+- `AIR` = **LAUF**
+- `CHK` = **BEHANDELN**
+- `IIN` = **STUFE**
+- `S_ADDR` = **STERNORT**
+- `SOLK` = **AUFFANGEN**
+- `EEE` = **VOLL**
+- `LSH` = **SPÜLEN**
+- `LOCAL_CHAR_F` = **NEBENWEG**
+- `CPH` = **UMLEITEN**
+- `HO` = **TEILSTOFF**
+- `AN` = **ZUSATZ**
+- `G_LABEL` = **PRÜFEN**
+- `CFH` = **TRENNEN**
+- `LOCAL_CHAR_G` = **EINMAL**
+- `LOCAL_CHAR_I` = **UNTERSTUFE**
+- `OS` = **DAZU**
+- `D_LABEL` = **RAND**
+- `S_LABEL` = **RAHMEN**
+- `LOCAL_CHAR_B` = **PAAR**
+- `M_LOCAL` = **MITTE**
+- `Z_ADDR` = **AUSSEN**
+- `LD` = **BEFESTIGEN**
+- `LOCAL_CHAR_J` = **VERBINDEN**
+- `LOCAL_CHAR_Z` = **ZWISCHEN**
+- `RESUME_CARD` = **WIEDER**
+
+Beispiel: `OK+SH+E+DY` ist wörtlich ANSETZEN · HALTEN · KURZ · SCHLIESSEN und wird als gelernte Karte „ANSETZEN, KURZ HALTEN; ENDE“ gesprochen. Kein einzelner Stamm trägt diesen ganzen Satz.

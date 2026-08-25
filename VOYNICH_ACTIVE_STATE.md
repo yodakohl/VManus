@@ -1,25 +1,34 @@
 # Voynich active state — structural reset baseline
 
-Updated: 2026-08-19. This is the full claim registry. For routine work, read
+Updated: 2026-08-25. This is the full claim registry. For routine work, read
 `VOYNICH_CURRENT_ROUTE.md` first and open only the relevant sections here and in
 `experiments/semantic_assumptions/ACTIVE_EXPERIMENT_LEDGER.tsv`.
 
 ## Outcome
 
-### Noncanonical fourteen-page sidequest (Pass 947)
+### Noncanonical fourteen-page sidequest (Pass 996)
 
 The creative workshop sidequest covers fourteen fixed physical pages with
-2,511 groups, 1,078 surfaces and 1,384 exact cards. Its current three-layer
-codebook assigns 1,008 events to productive 56-value abbreviation composition,
-1,002 prose events to 47 learned formula-card families with 97 surfaces, and
-501 events to local image nomenclature or addresses. All 2,010 prose events
-remain bound to 1,435 instructions and 354 clauses. Direct f88r image reading
-adds three vessel/preparation heads and thirteen local ingredient labels. The
-leading creative book model is now a practical sequence of pictured simple
-materials, vessel preparations, bath/application stations and separate
-celestial-selection tables: *Liber simplicium, compositionum, balneorum et
-temporum caelestium*. These readings remain speculative and license no
-scientific lexeme or plaintext claim.
+2,511 visible groups: 2,010 running-text groups in 354 naturally phrased
+clauses plus 501 local image, station, and ring addresses. Its current mixed
+codebook has 159 taught units: 53 portable semantic roots, three local diagram
+signs, 30 frequent formula cards, 51 specialist whole-card entries, five f13r
+image-part cards, sixteen f88r ingredient labels, and one rule for copying a
+complete local address. The root dictionary and codebook now use exactly the
+same atomic values; the register-portable address root is `SONDERORT`, expanded
+locally as Sonderstelle or Sternstelle. All 1,280 Biological running-text
+groups have been rewritten into 318 local station clauses without inventing a
+global hydraulic network. Direct image work reads f88r as sixteen ingredient
+labels in rows of six, six, and four under three silent vessel owners; no plant
+species is forced. Seventy recurrent root compositions now form a second
+apprentice drawer covering 287 events without enlarging the root inventory.
+Six inflated or modern atomic glosses have been shortened to MASS, PORTION,
+ANSATZ, STELLEN, MERKEN, and BEGINN. The leading creative book model remains a
+practical
+sequence of pictured simple materials, vessel preparations, bath/application
+stations, and separate celestial lookup tables: *Liber simplicium,
+compositionum, balneorum et temporum caelestium*. These readings remain
+speculative and license no scientific lexeme or plaintext claim.
 
 - The manuscript is **not translated**. There are zero confirmed English
   lexemes, zero plaintext clauses, and no established language, phonetic
