@@ -11890,6 +11890,17 @@ transitive instruction; ABSTELLEN is ambiguous. See
 Next, pressure-test OL=WEITER, OT=DANACH and OS=DAZU in all memberships,
 especially whether the singleton OS is really additive rather than successive.
 
+Pass 824 retains the three order words across75 memberships/72 events:
+OL=WEITER continues the same operation (48), OT=DANACH advances (26), and
+OS=DAZU adds linked material without forcing order (1). The decisive local
+detail is H1-S001, where OS links work to water-taking and a separate OT card
+appears two events later for the actual next-step move. DAZU therefore remains
+a whole connector rather than a rare OT renderer. See
+`sidequest_semantic_order_words_eight_hundred_twenty_fourth/EIGHT_HUNDRED_TWENTY_FOURTH_REPORT.md`.
+
+Next, pressure-test the quantity ladder S=PROBE, AIN=PORTION, AIIN=SOLLMASS and
+IIN=STUFE, beginning with singleton S.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
