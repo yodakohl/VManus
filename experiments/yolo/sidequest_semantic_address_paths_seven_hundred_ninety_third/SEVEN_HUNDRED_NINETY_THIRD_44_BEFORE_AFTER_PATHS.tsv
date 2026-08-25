@@ -1,0 +1,45 @@
+exercise	phase	page	owner_de	address	address_reading_de	operation_components	surface	card_reading_de	directed_path
+S01	BEFORE	f83r	unverbundener Zwischenbereich	AL	ZIELSTELLE	CHD · DY	dalchdy	ZIELSTELLE · UMSETZEN · SCHLUSS	AKTIVER_POSTEN --[CHD · DY]--> unverbundener Zwischenbereich::ZIEL
+S01	AFTER	f83r	unverbundener Zwischenbereich	AR	QUELLE	CHD · DY	darchdy	QUELLE · UMSETZEN · SCHLUSS	unverbundener Zwischenbereich::QUELLE --[CHD · DY]--> AKTIVER_POSTEN
+S02	BEFORE	f82r	kleine Randstationen des unteren Beckens	AL	ZIELSTELLE	DY	daldy	ZIELSTELLE · SCHLUSS	AKTIVER_POSTEN --[DY]--> kleine Randstationen des unteren Beckens::ZIEL
+S02	AFTER	f82r	kleine Randstationen des unteren Beckens	AR	QUELLE	DY	dardy	QUELLE · SCHLUSS	kleine Randstationen des unteren Beckens::QUELLE --[DY]--> AKTIVER_POSTEN
+S03	BEFORE	f83r	unverbundener Zwischenbereich	AL	ZIELSTELLE	R · OR	chealror	ZIELSTELLE · KUEHLEN · ANSATZ	AKTIVER_POSTEN --[R · OR]--> unverbundener Zwischenbereich::ZIEL
+S03	AFTER	f83r	unverbundener Zwischenbereich	AR	QUELLE	R · OR	chearror	QUELLE · KUEHLEN · ANSATZ	unverbundener Zwischenbereich::QUELLE --[R · OR]--> AKTIVER_POSTEN
+S04	BEFORE	f83r	untere Randfigur im korbartigen Gefäß	AR	QUELLE	Y	chary	QUELLE · DIES	untere Randfigur im korbartigen Gefäß::QUELLE --[Y]--> AKTIVER_POSTEN
+S04	AFTER	f83r	untere Randfigur im korbartigen Gefäß	AL	ZIELSTELLE	Y	chaly	ZIELSTELLE · DIES	AKTIVER_POSTEN --[Y]--> untere Randfigur im korbartigen Gefäß::ZIEL
+S05	BEFORE	f83r	linke Hauptstation mit offenem Fransenlauf	AL	ZIELSTELLE	CH · CKH	chckhal	ENTNEHMEN · DURCHLASS · ZIELSTELLE	AKTIVER_POSTEN --[CH · CKH]--> linke Hauptstation mit offenem Fransenlauf::ZIEL
+S05	AFTER	f83r	linke Hauptstation mit offenem Fransenlauf	AR	QUELLE	CH · CKH	chckhar	ENTNEHMEN · DURCHLASS · QUELLE	linke Hauptstation mit offenem Fransenlauf::QUELLE --[CH · CKH]--> AKTIVER_POSTEN
+S06	BEFORE	f55v	abgebildete breitblättrige rispige Pflanze	AR	QUELLE	CH · E · O	cheoar	ENTNEHMEN · KURZ · ARBEITSGANG · QUELLE	abgebildete breitblättrige rispige Pflanze::QUELLE --[CH · E · O]--> AKTIVER_POSTEN
+S06	AFTER	f55v	abgebildete breitblättrige rispige Pflanze	AL	ZIELSTELLE	CH · E · O	cheoal	ENTNEHMEN · KURZ · ARBEITSGANG · ZIELSTELLE	AKTIVER_POSTEN --[CH · E · O]--> abgebildete breitblättrige rispige Pflanze::ZIEL
+S07	BEFORE	f83r	linke Fransenstation im B5-Nachtrag	AL	ZIELSTELLE	CHD	chdal	UMSETZEN · ZIELSTELLE	AKTIVER_POSTEN --[CHD]--> linke Fransenstation im B5-Nachtrag::ZIEL
+S07	AFTER	f83r	linke Fransenstation im B5-Nachtrag	AR	QUELLE	CHD	chdar	UMSETZEN · QUELLE	linke Fransenstation im B5-Nachtrag::QUELLE --[CHD]--> AKTIVER_POSTEN
+S08	BEFORE	f83r	unverbundener Zwischenbereich	AR	QUELLE	EE	cheedar	LANG · QUELLE	unverbundener Zwischenbereich::QUELLE --[EE]--> AKTIVER_POSTEN
+S08	AFTER	f83r	unverbundener Zwischenbereich	AL	ZIELSTELLE	EE	cheedal	LANG · ZIELSTELLE	AKTIVER_POSTEN --[EE]--> unverbundener Zwischenbereich::ZIEL
+S09	BEFORE	f56r	abgebildete mehrköpfige stachelige Pflanze	AL	ZIELSTELLE	HO · Y	chodaly	ZUTAT · ZIELSTELLE · DIES	AKTIVER_POSTEN --[HO · Y]--> abgebildete mehrköpfige stachelige Pflanze::ZIEL
+S09	AFTER	f56r	abgebildete mehrköpfige stachelige Pflanze	AR	QUELLE	HO · Y	chodary	ZUTAT · QUELLE · DIES	abgebildete mehrköpfige stachelige Pflanze::QUELLE --[HO · Y]--> AKTIVER_POSTEN
+S10	BEFORE	f56r	abgebildete mehrköpfige stachelige Pflanze	AR	QUELLE	K · HO	kchoar	ZUGEBEN · ZUTAT · QUELLE	abgebildete mehrköpfige stachelige Pflanze::QUELLE --[K · HO]--> AKTIVER_POSTEN
+S10	AFTER	f56r	abgebildete mehrköpfige stachelige Pflanze	AL	ZIELSTELLE	K · HO	kchoal	ZUGEBEN · ZUTAT · ZIELSTELLE	AKTIVER_POSTEN --[K · HO]--> abgebildete mehrköpfige stachelige Pflanze::ZIEL
+S11	BEFORE	f83r	rechter S-Lauf im B6-Nachtrag	AL	ZIELSTELLE	L · OR	ldalor	LEITEN · ZIELSTELLE · ANSATZ	AKTIVER_POSTEN --[L · OR]--> rechter S-Lauf im B6-Nachtrag::ZIEL
+S11	AFTER	f83r	rechter S-Lauf im B6-Nachtrag	AR	QUELLE	L · OR	ldaror	LEITEN · QUELLE · ANSATZ	rechter S-Lauf im B6-Nachtrag::QUELLE --[L · OR]--> AKTIVER_POSTEN
+S12	BEFORE	f82r	unteres grünes Mehrfigurenbecken	AR	QUELLE	L	lar	LEITEN · QUELLE	unteres grünes Mehrfigurenbecken::QUELLE --[L]--> AKTIVER_POSTEN
+S12	AFTER	f82r	unteres grünes Mehrfigurenbecken	AL	ZIELSTELLE	L	lal	LEITEN · ZIELSTELLE	AKTIVER_POSTEN --[L]--> unteres grünes Mehrfigurenbecken::ZIEL
+S13	BEFORE	f82r	oberes Beckenpaar mit Zylinder	AL	ZIELSTELLE	OK · Y	qokaly	ANSETZEN · ZIELSTELLE · DIES	AKTIVER_POSTEN --[OK · Y]--> oberes Beckenpaar mit Zylinder::ZIEL
+S13	AFTER	f82r	oberes Beckenpaar mit Zylinder	AR	QUELLE	OK · Y	qokary	ANSETZEN · QUELLE · DIES	oberes Beckenpaar mit Zylinder::QUELLE --[OK · Y]--> AKTIVER_POSTEN
+S14	BEFORE	f81v	gemeinsame zweireihige Figuren-/Beckenstation	AL	ZIELSTELLE	OK · EE	qokeedal	ANSETZEN · LANG · ZIELSTELLE	AKTIVER_POSTEN --[OK · EE]--> gemeinsame zweireihige Figuren-/Beckenstation::ZIEL
+S14	AFTER	f81v	gemeinsame zweireihige Figuren-/Beckenstation	AR	QUELLE	OK · EE	qokeedar	ANSETZEN · LANG · QUELLE	gemeinsame zweireihige Figuren-/Beckenstation::QUELLE --[OK · EE]--> AKTIVER_POSTEN
+S15	BEFORE	f83r	sichtbares Figurenpaar mit gemeinsamem Bogen in B3	AL	ZIELSTELLE	OL · Y	olsaly	WEITER · ZIELSTELLE · DIES	AKTIVER_POSTEN --[OL · Y]--> sichtbares Figurenpaar mit gemeinsamem Bogen in B3::ZIEL
+S15	AFTER	f83r	sichtbares Figurenpaar mit gemeinsamem Bogen in B3	AR	QUELLE	OL · Y	olsary	WEITER · QUELLE · DIES	sichtbares Figurenpaar mit gemeinsamem Bogen in B3::QUELLE --[OL · Y]--> AKTIVER_POSTEN
+S16	BEFORE	f83r	untere Randfigur im korbartigen Gefäß	AL	ZIELSTELLE	P · CHD	pchedal	FUELLEN · UMSETZEN · ZIELSTELLE	AKTIVER_POSTEN --[P · CHD]--> untere Randfigur im korbartigen Gefäß::ZIEL
+S16	AFTER	f83r	untere Randfigur im korbartigen Gefäß	AR	QUELLE	P · CHD	pchedar	FUELLEN · UMSETZEN · QUELLE	untere Randfigur im korbartigen Gefäß::QUELLE --[P · CHD]--> AKTIVER_POSTEN
+S17	BEFORE	f81v	gemeinsame zweireihige Figuren-/Beckenstation	AL	ZIELSTELLE	R	ral	KUEHLEN · ZIELSTELLE	AKTIVER_POSTEN --[R]--> gemeinsame zweireihige Figuren-/Beckenstation::ZIEL
+S17	AFTER	f81v	gemeinsame zweireihige Figuren-/Beckenstation	AR	QUELLE	R	rar	KUEHLEN · QUELLE	gemeinsame zweireihige Figuren-/Beckenstation::QUELLE --[R]--> AKTIVER_POSTEN
+S18	BEFORE	f83r	rechter S-Lauf im B6-Nachtrag	AL	ZIELSTELLE	R · Y	raly	KUEHLEN · ZIELSTELLE · DIES	AKTIVER_POSTEN --[R · Y]--> rechter S-Lauf im B6-Nachtrag::ZIEL
+S18	AFTER	f83r	rechter S-Lauf im B6-Nachtrag	AR	QUELLE	R · Y	rary	KUEHLEN · QUELLE · DIES	rechter S-Lauf im B6-Nachtrag::QUELLE --[R · Y]--> AKTIVER_POSTEN
+S19	BEFORE	f82r	kleine Randstationen des unteren Beckens	AL	ZIELSTELLE	R · SH · E	rsheal	KUEHLEN · HALTEN · KURZ · ZIELSTELLE	AKTIVER_POSTEN --[R · SH · E]--> kleine Randstationen des unteren Beckens::ZIEL
+S19	AFTER	f82r	kleine Randstationen des unteren Beckens	AR	QUELLE	R · SH · E	rshear	KUEHLEN · HALTEN · KURZ · QUELLE	kleine Randstationen des unteren Beckens::QUELLE --[R · SH · E]--> AKTIVER_POSTEN
+S20	BEFORE	f81v	gemeinsame zweireihige Figuren-/Beckenstation	AL	ZIELSTELLE	SH · E · CKH	sheckhal	HALTEN · KURZ · DURCHLASS · ZIELSTELLE	AKTIVER_POSTEN --[SH · E · CKH]--> gemeinsame zweireihige Figuren-/Beckenstation::ZIEL
+S20	AFTER	f81v	gemeinsame zweireihige Figuren-/Beckenstation	AR	QUELLE	SH · E · CKH	sheckhar	HALTEN · KURZ · DURCHLASS · QUELLE	gemeinsame zweireihige Figuren-/Beckenstation::QUELLE --[SH · E · CKH]--> AKTIVER_POSTEN
+S21	BEFORE	f11r	abgebildete dicht blau blühende Kronenpflanze	AL	ZIELSTELLE	SH · O	schoal	HALTEN · ARBEITSGANG · ZIELSTELLE	AKTIVER_POSTEN --[SH · O]--> abgebildete dicht blau blühende Kronenpflanze::ZIEL
+S21	AFTER	f11r	abgebildete dicht blau blühende Kronenpflanze	AR	QUELLE	SH · O	schoar	HALTEN · ARBEITSGANG · QUELLE	abgebildete dicht blau blühende Kronenpflanze::QUELLE --[SH · O]--> AKTIVER_POSTEN
+S22	BEFORE	f83r	unverbundener Zwischenbereich	AL	ZIELSTELLE	SHED	shedal	ABSETZEN · ZIELSTELLE	AKTIVER_POSTEN --[SHED]--> unverbundener Zwischenbereich::ZIEL
+S22	AFTER	f83r	unverbundener Zwischenbereich	AR	QUELLE	SHED	shedar	ABSETZEN · QUELLE	unverbundener Zwischenbereich::QUELLE --[SHED]--> AKTIVER_POSTEN

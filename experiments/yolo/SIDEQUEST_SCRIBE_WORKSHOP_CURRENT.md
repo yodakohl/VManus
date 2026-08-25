@@ -11508,6 +11508,19 @@ Next, place the22 AL/AR counterparts into their full source statements and
 draw the local source→operation→target path before and after substitution. The
 operation, amount, grade and endpoint must remain unchanged.
 
+Pass 793 executes all22 substitutions and records44 before/after paths. AL is
+read as `ACTIVE_ITEM → operation → OWNER::TARGET`; AR reverses the local address
+to `OWNER::SOURCE → operation → ACTIVE_ITEM`. Every nonaddress component stays
+identical in22/22 cases, as do all other statement events. Thus the address is
+owner-local—plant part, vessel, basin or pictured station—rather than a global
+geometric arrow. See
+`sidequest_semantic_address_paths_seven_hundred_ninety_third/SEVEN_HUNDRED_NINETY_THIRD_ADDRESS_PATHS.md`.
+
+Next, combine the productive grade, quantity and address axes in one bounded
+card compiler. It should read every attested multi-axis recipe and form only
+new cards whose individual substitutions are already licensed by these three
+paradigms.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
