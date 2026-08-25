@@ -32,6 +32,7 @@ def main() -> None:
         "air_current_split": sum(row["revision"] == "FLUESSIGKEIT_TO_WASSER" for row in air) == 4 and sum(row["revision"] == "NONE" for row in air) == 1,
         "air_proposed_water": all("wasser" in row["proposed_working_reading_de"].lower() for row in air),
         "air_no_proposed_fluid": all("fluessigkeit" not in row["proposed_working_reading_de"].lower() for row in air),
+        "air_proposed_grammar": all("die laufendes wasser" not in row["proposed_working_reading_de"].lower() and "das laufende wasser" in row["proposed_working_reading_de"].lower() for row in air if row["revision"] != "NONE"),
         "no_component_revision": summary["new_component_revision"] == "NONE",
         "allowed_pages": {row["page"] for row in air + dy} <= {"f10r", "f11r", "f55v", "f56r", "f81v", "f82r", "f83r"},
         "sealed_pages": summary["sealed_pages"] == ["f84", "f84r"],

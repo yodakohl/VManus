@@ -98,8 +98,8 @@ def main() -> None:
         statement = by_statement[event["statement_id"]]
         current = statement["working_reading_de"]
         if occurrences(current, "fluessigkeit"):
-            proposed = re.sub(r"\blaufende Fluessigkeit\b", "laufendes Wasser", current)
-            proposed = re.sub(r"\blaufenden Fluessigkeit\b", "laufenden Wasser", proposed)
+            proposed = current.replace("die laufende Fluessigkeit", "das laufende Wasser")
+            proposed = proposed.replace("Die laufende Fluessigkeit", "Das laufende Wasser")
             revision = "FLUESSIGKEIT_TO_WASSER"
         else:
             proposed = current

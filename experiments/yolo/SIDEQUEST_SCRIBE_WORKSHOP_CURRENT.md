@@ -12012,6 +12012,9 @@ that to “laufende Fluessigkeit”. The concrete workshop bet is retained and
 exactly those four fluent readings are nominated for `laufendes Wasser`. See
 `sidequest_semantic_third_hidden_word_audit_eight_hundred_thirty_fourth/EIGHT_HUNDRED_THIRTY_FOURTH_REPORT.md`.
 
+The proposal table was immediately corrected from an automatic article error
+to the grammatical phrase `das laufende Wasser`; no card value changed.
+
 Next, apply the four AIR wording repairs through the complete statement edition
 and inspect the five-card water mini-paradigm as source/take, add, start, move
 and close operations.
