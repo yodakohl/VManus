@@ -10877,9 +10877,18 @@ statements: `cholor`=`WEITER·ANSATZ`, `otol`=`DANACH·WEITER`, and
 `qolchedy`=`WEITER·UMSETZEN·SCHLUSS`. See
 `sidequest_semantic_workflow_memory_seven_hundred_thirty_first/SEVEN_HUNDRED_THIRTY_FIRST_REPORT.md`.
 
-Next, contrast the four principal operations OK, K, CH and CHD across every
-fixed context. Seek minimal pairs for ANSETZEN, ZUGEBEN, ENTNEHMEN and UMSETZEN,
-and reduce any whole-card operation that is merely a compositional variant.
+Pass 732 forms a four-operation cross: OK=ANSETZEN (23 cards/79 events),
+K=ZUGEBEN (18/21), CH=ENTNEHMEN (15/16), CHD=UMSETZEN (22/48). Their union is
+74 cards/157 events. Seven shared argument frames yield20 populated cells;
+AIR=WASSER is the only complete4/4 frame: water can be taken, added, set and
+transferred by changing only the operation root. AIN, AL, AR, E+Y, OL and Y
+form coherent partial crosses. Three multi-operation cards remain sequential,
+not new giant verbs. See
+`sidequest_semantic_operation_cross_seven_hundred_thirty_second/SEVEN_HUNDRED_THIRTY_SECOND_REPORT.md`.
+
+Next, overlay E/EE/EEE and Y/licensed-DY on the four-operation cross. Test the
+small grammar short/long/full × current-item/closed-step, while preserving the
+known fact that visible `dy` is not globally a close.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
