@@ -1,11 +1,11 @@
 # Current twenty-two-page scribe-workshop theory
 
-Updated: 2026-08-25, after Pass 1011.
+Updated: 2026-08-25, after Pass 1012.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
-translation**. This is the compact handoff for the sidequest. Pass 1011 adds
-two independent manual image readings and repairs the passages that had grown
-more concrete than the drawings permit.
+translation**. This is the compact handoff for the sidequest. Pass 1012 turns
+the former broad root inventory into a constrained semantic contract and
+withdraws the concrete local glosses that were not predictable from roots.
 
 ## Fixed scope
 
@@ -133,6 +133,24 @@ do not form a page-wide circuit. In particular, f81v is one commonly enclosed
 two-row bath rather than a chain of basins, and the lower f82r pool has no
 visible link to the middle apparatus.
 
+Pass 1012 stops treating all 56 root/local-sign entries as equal words. The
+new apprentice inventory contains twelve content/action cores, six referent-
+sequence-relation cores, eight formal controls, eleven specialist meaning
+candidates, and nineteen local signs or addresses. Every entry has one short
+value, one allowed contextual realization, and an explicit forbidden rescue.
+The 72 contextual compositions keep their visible surfaces and root recipes,
+but all 72 concrete German additions lose portable status. Thus `ody` is
+Ausführung+Schluss rather than automatically *kühlen*, `cfhy` is
+Trennen+Posten rather than automatically *auswringen*, and `dain` is Portion
+rather than automatically *Tuch*.
+
+Across the complete running layer, 2,851 events are portable-core
+compositions, 498 depend on a specialist candidate, 484 on a local sign, and
+55 are control-only. At statement level the corresponding pressure classes
+are 274/144/208/1. This does not prove the eighteen portable meanings; it
+makes them costly to change. A conflicting new composition must be treated as
+a learned whole card or as a failure, not repaired by stretching a root.
+
 Beyond the 30 common formula cards, 70 recurrent compositions form a second
 apprentice drawer. They cover 287 events; 63 recur across multiple pages and
 27 have multiple visible surface forms. They add no root and do not change the
@@ -149,31 +167,28 @@ first the local name of that figure or position. It may remind the scribe of a
 portable root, but it does not force the corresponding workshop meaning. This
 corrects the earlier overreading of label `cheody` as the prose word AUSZUG.
 
-## Portable root pocket dictionary
+## Constrained semantic pocket dictionary
 
-The 53 roots use short, reusable values. The most important current entries
-are:
+The twelve content/action cores are:
 
-- `Y = AKTUELLER REFERENT/POSTEN`; a deictic carrier, not punctuation;
-- licensed `DY = ABSCHLUSSMARKE`; only learned closing constructions close;
-- `OK = SETZEN`, `O = AUSFÜHREN`, `OL = FORTSETZEN`, `OT = DANACH`;
-- `CH = NEHMEN`, `S = AUSWÄHLEN`, `K = GEBEN`;
-- `AR = QUELLE`, `AL = ZIEL`, `L = LEITEN`, `AIR = LAUF`;
-- `AIN = PORTION`, `AIIN = MASS`, `IIN = STUFE`;
-- `E = GRAD I`, `EE = GRAD II`, `EEE = GRAD III`;
-- `OR = ANSATZ`, `CHEO = AUSZUG`, `HO = TEILSTOFF`;
-- `T = STELLEN`, `R = MERKEN`, `CARRIER_Q = BEGINN`;
-- `CTH = BEREIT`, `SHED = ABSETZEN`, `CHK = BEHANDELN`;
-- `LSH = SPÜLEN`, `CKH = DURCHLASS`, `CFH = TRENNEN`,
-  `CPH = UMLEITEN`, `SOLK = AUFFANGEN`, `LD = BEFESTIGEN`.
-- `S_ADDR = SONDERORT`; in station text this becomes Sonderstelle, in
-  celestial text Sternstelle.
+- `OK=SETZEN`, `CH=NEHMEN`, `SH=HALTEN`, `K=GEBEN`;
+- `AIIN=MASS`, `AIN=PORTION`, `S=WÄHLEN`, `T=EINSTELLEN`;
+- `CHD=UMSETZEN`, `OR=ANSATZ`, `R=MARKIEREN`, `P=EINSETZEN`.
 
-These are workshop meanings, not proposed sounds. A short root may expand to a
-natural phrase in a sentence, but no individual card receives a sentence-sized
-dictionary gloss.
+Six further portable values carry reference, sequence, or relation:
 
-## Useful rooted cards
+- `Y=AKTIVER POSTEN`, `OL=FORTSETZEN`, `OT=DANACH`;
+- `AL=ZIELORT`, `AR=AUSGANG`, `L=VERBINDUNG`.
+
+Eight signs are controls rather than content words: `E/EE/EEE=GRAD I/II/III`,
+licensed `DY=SCHLUSS`, `O=AUSFÜHRUNG`, `CARRIER_Q=BEGINNMARKER`, `IIN=STUFE`,
+and `DA=ZWEITE STUFE`. The eleven specialist candidates remain `CTH=BEREIT`,
+`SHED=ABSETZEN`, `CKH=DURCHLASS`, `CHEO=AUSZUG`, `AIR=LAUF`,
+`CHK=BEARBEITEN`, `SOLK=AUFFANGEN`, `LSH=SPÜLEN`, `CPH=UMLEITEN`,
+`CFH=TRENNEN`, and `LD=BEFESTIGEN`. Nineteen other signs are local addresses
+or memorized marks and may not generate portable words.
+
+## Useful rooted cards under the contract
 
 The current deck includes the following stable working readings:
 
@@ -187,10 +202,11 @@ The current deck includes the following stable working readings:
 - `qokain/okain/chokain` → **EINE PORTION ANSETZEN**;
 - `qokaiin/okaiin` → **NACH MASS ANSETZEN**;
 - `lchedy` → **WEITER UMSETZEN; SCHLUSS**;
-- `cfhy` → **TRENNEN · POSTEN**; local in f11r: auswringen;
-- `cphy` → **UMLEITEN · POSTEN**; local in f11r: nachseihen;
-- `shey/cheey` → **HALTEN · KURZ/LÄNGER · POSTEN**; local in some wet scenes: Klarlauf;
-- `qokylddy` → **DIESEN POSTEN ANLEGEN UND BEFESTIGEN; SCHLUSS**.
+- `cfhy` → **TRENNEN · AKTIVER POSTEN**; *auswringen* is not portable;
+- `cphy` → **UMLEITEN · AKTIVER POSTEN**; *nachseihen* is not portable;
+- `shey/cheey` → **HALTEN · GRAD I/II · AKTIVER POSTEN**; *Klarlauf* is not portable;
+- `qokylddy` contains the one-event specialist candidate `LD=BEFESTIGEN` and
+  is not yet a core formula.
 
 `E/EE/EEE` form a duration or intensity grade only in licensed families.
 Visible `dy` is not automatically a close: the current-item card can itself
@@ -228,14 +244,14 @@ Portable sequence:
 > HALTEN · POSTEN · MASS | UMLEITEN · POSTEN | HALTEN · GRAD I · POSTEN |
 > STELLEN · NEHMEN · AUSFÜHREN · SCHLUSS
 
-Local f11r expansion:
+Current image-repaired f11r expansion:
 
-> Vom gezeigten Blütenkraut einen Ansatz bilden, auswringen, nach dem
-> vorgegebenen Maß stehen lassen, nachseihen, den erhaltenen Lauf kurz halten
-> und den Teilgang schließen.
+> Vom gezeigten Blütenkraut einen Teil abtrennen, nach Maß halten und
+> weiterführen; den Teilgang schließen.
 
-The pictured owner supplies Kraut, Auszug, and local equipment; none is hidden
-as a second portable meaning inside `shey`, `cfhy`, or `cphy`.
+The pictured owner supplies only the plant and visible parts. Auswringen,
+Nachseihen, Klarlauf and equipment are no longer dictionary meanings of
+`cfhy`, `cphy`, or `shey`.
 
 ## Image findings retained
 
@@ -277,6 +293,10 @@ comparison set.
 
 ## Primary artifacts
 
+- Current Pass-1012 56-entry semantic contract, 102 composition contracts,
+  complete 627-statement pressure map, apprentice core sheet, builder, and
+  validator:
+  `sidequest_semantic_core_contract_one_thousand_twelfth/`;
 - Current Pass-1011 two-role manual optical audit, all 35 repaired passages,
   twelve-page summary, complete 627-statement repaired edition, builder, and
   validator:
@@ -334,8 +354,8 @@ comparison set.
 
 ## Next work
 
-Apply the eight Pass-1011 optical writing rules to the remaining 592 statements
-without pretending they were individually image-verified. First remove only
-the recurring high-risk expansions—unseen Herbal apparatus, direction without
-an arrow, cross-owner pipelines, and image-supplied heat/filter/clarity—then
-compress the 53 visible signs into the proposed 15–20 apprentice cores.
+Resolve the eleven specialist candidates without adding pages. First audit the
+cross-register families `CTH`, `CKH`, `CHEO`, `AIR`, `CHK`, and `CPH`; any that
+cannot retain one concrete operation become formal controls or whole-card
+material. Then inspect the narrower `SHED`, `SOLK`, `LSH`, `CFH`, and `LD`
+families. No portable core may change during this work.

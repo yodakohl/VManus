@@ -6,13 +6,13 @@ Updated: 2026-08-25. This is the full claim registry. For routine work, read
 
 ## Outcome
 
-### Noncanonical twenty-two-page sidequest (Pass 1011)
+### Noncanonical twenty-two-page sidequest (Pass 1012)
 
 The creative workshop sidequest covers twenty-two admitted physical pages with
 4,581 visible groups: 3,888 running prose/ring-text groups plus 693 local
 image, station, vessel, celestial addresses/labels, and section markers. Its current
-mixed codebook has 175 lines: 53 portable roots represented in 56 root/local-
-sign entries, 30 frequent formula ligatures, 72 long contextual compositions,
+mixed codebook has 175 lines: 56 root/local-sign entries, 30 frequent formula
+ligatures, 72 long contextual compositions,
 sixteen f88r ingredient labels, and one rule for copying a complete local
 address. Formula ligatures and contextual compositions are read from their
 roots; the image/master exemplar supplies their concrete local expansion.
@@ -130,6 +130,19 @@ removing image-supplied apparatus on Herbal pages, direction from unarrowed
 links, page-wide pipe networks, and unpictured heat/filter/clarity claims. A
 complete 627-statement output carries the 35 manual repairs and labels the
 remaining 592 statements as not manually reviewed in this pass.
+
+Pass 1012 partitions the 56 entries into twelve content/action cores, six
+referent-sequence-relation cores, eight formal controls, eleven specialist
+meaning candidates, and nineteen local signs or addresses. It withdraws all
+72 concrete contextual glosses as portable meanings while keeping their
+surfaces, component recipes, and explicitly owner-bound paraphrases. The
+complete 3,888-event running layer now contains 2,851 portable-core events,
+498 specialist-dependent events, 484 local-sign events, and 55 control-only
+events. The corresponding 627-statement classes are 274/144/208/1. Each sign
+has one short value plus a forbidden rescue: notably `L=VERBINDUNG` supplies no
+direction, `AR=AUSGANG` is no substance source, and `O` plus `E/EE/EEE` are
+controls rather than concrete words. Conflicting future compositions must be
+whole-card exceptions or failures; roots may not be stretched to absorb them.
 
 - The manuscript is **not translated**. There are zero confirmed English
   lexemes, zero plaintext clauses, and no established language, phonetic
