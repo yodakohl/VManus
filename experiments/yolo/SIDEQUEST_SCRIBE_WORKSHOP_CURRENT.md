@@ -12182,6 +12182,16 @@ Next, rewrite one complete continuous record in all four workshop styles while
 preserving exact card order, statement boundaries and the decoded command
 sequence.
 
+Pass 849 rewrites the fourteen-card H1 article on f10r in all four hypothetical
+styles. Seven positions are renderer-sensitive and seven fixed;18/56 visible
+assignments differ from the source surface. Nevertheless all four versions
+preserve the same14 exact cards, the same two statement boundaries and the same
+continuous German workshop reading. See
+`sidequest_semantic_four_scribe_record_eight_hundred_forty_ninth/EIGHT_HUNDRED_FORTY_NINTH_FOUR_VERSIONS.md`.
+
+Next, repeat the four-style rewrite on a longer Biological record with frequent
+closures, repeated cards and local image-owner changes.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
