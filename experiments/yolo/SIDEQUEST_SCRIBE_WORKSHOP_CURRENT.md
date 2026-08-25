@@ -12031,6 +12031,19 @@ Next, find another compact material/address stem with several stable operators;
 prefer a paradigm that predicts one concrete missing cell rather than a new
 isolated whole-word gloss.
 
+Pass 836 identifies `AR=QUELLE` and `AL=ZIELSTELLE` as a paired address
+vocabulary. Five operator frames are attested on both sides (bare, K, OK, OT,
+L+CHD), while22 further one-sided frames have their exact swapped counterpart
+in the existing prediction inventory. The best searches are `chdar=CHD+AR`
+(from source move), `lal=L+AL` (to target lead), and `kchoal=K+HO+AL` (add
+ingredient at target), already present in the active deck. AIR remains the
+separate WASSER stem despite containing the letters AR. See
+`sidequest_semantic_source_target_paradigm_eight_hundred_thirty_sixth/EIGHT_HUNDRED_THIRTY_SIXTH_REPORT.md`.
+
+Next, integrate the strongest AR/AL swaps into the compact active prediction
+deck and test whether CKH=DURCHLASS behaves as a genuine middle address between
+source and target.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
