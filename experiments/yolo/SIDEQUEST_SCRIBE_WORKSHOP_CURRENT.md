@@ -12794,6 +12794,21 @@ condition-place, MASS under working measure and moisture measure, and CURRENT
 under prose item and current condition. Revise the condition lexicon where this
 creates a more coherent ten-page grammar, but keep genuinely local whole words.
 
+Pass 898 unifies eight exact surfaces across prose and conditions: cheey=LANG
+HALTEN, chey=POSTEN, cho=TEIL, dal=ZIELSTELLE, ody=ARBEITSGANG SCHLIESSEN,
+ol=FORTSETZEN, oteey=DANACH LANG HALTEN and sheey=LANG HALTEN. Twenty-two
+components now carry one root in both registers; AIR is LAUF while the page
+supplies water or light. Of the73 condition marks,58 read directly by component,
+13 by exact cross-register surface and only2 remain local whole words. See
+`sidequest_semantic_cross_register_stem_unification_eight_hundred_ninety_eighth/EIGHT_HUNDRED_NINETY_EIGHTH_PORTABLE_GRAMMAR_BOOK.md`.
+
+Next, attack the105 identities/113 marks still taught as whole cards. Extend the
+22 cross-register roots only with the small prose-only workshop roots actually
+needed by their frozen component recipes (for example AIN=PORTION, CHK=WAERMEN,
+L=LEITEN, LSH=SPUELEN, SHED=RUHEN, SOLK=SAMMELN, TALAM=BEISEITESTELLEN). Rewrite
+each taught card as a mechanical root sequence while retaining its fluent local
+expansion. Correct R from generic BEZUG to KUEHL if the full family supports it.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
