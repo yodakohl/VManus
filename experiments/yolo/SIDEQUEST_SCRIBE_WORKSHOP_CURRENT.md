@@ -10886,9 +10886,18 @@ form coherent partial crosses. Three multi-operation cards remain sequential,
 not new giant verbs. See
 `sidequest_semantic_operation_cross_seven_hundred_thirty_second/SEVEN_HUNDRED_THIRTY_SECOND_REPORT.md`.
 
-Next, overlay E/EE/EEE and Y/licensed-DY on the four-operation cross. Test the
-small grammar short/long/full × current-item/closed-step, while preserving the
-known fact that visible `dy` is not globally a close.
+Pass 733 overlays E=KURZ (34 cards/49 events), EE=LANG (17/40), EEE=VOLL
+(2/2), Y=DIES/current item (60/124), and licensed DY=SCHLUSS (37/89). The
+four-operation cross occupies26 grade×endpoint cells; the pure OK series has6
+clear forms from OK+Y through OK+EEE+DY. A surface firewall finds105 visible
+`…dy` events but only89 real closes:5 bare `dy` allographs are Y and11
+`chdy/chedy` allographs are open CHD+Y. Thus close belongs to exact-card
+identity, never the visible suffix alone. See
+`sidequest_semantic_grade_endpoint_seven_hundred_thirty_third/SEVEN_HUNDRED_THIRTY_THIRD_REPORT.md`.
+
+Next, order the material/station inventory O, OR, AIR, CKH, SOLK and HO into a
+compact process chain: work step, preparation, water, passage, collecting
+station and ingredient. Do not introduce wine, oil, honey or species names.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
