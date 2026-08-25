@@ -12898,6 +12898,20 @@ job cards. Give each fixed page a continuous readable section and each mark its
 surface,root recipe,atomic reading,fluent expansion and renderer choice. This is
 a compact new working base, not another theory branch.
 
+Pass 905 consolidates those layers into one working base:48 symbols,8 card
+patterns,15 renderer rules,38 allograph entries,231 exact identities,437 marks,
+118 order-specific units and115 unique page-units. The handbook gives a twelve-
+step write/read procedure; the page edition shows every selected unit as surface,
+atomic root chain and fluent workshop reading. Three physical units recur in two
+orders; the two f11r H3-S001 owner assignments remain explicit. See
+`sidequest_semantic_complete_scribe_handbook_nine_hundred_fifth/NINE_HUNDRED_FIFTH_COMPLETE_SCRIBE_HANDBOOK.md`.
+
+Next, attack only the two remaining local whole condition words, `iokeeor`
+(WETTERZEICHEN) and `daiial` (FEUCHTESTUFE). Compare their visible chunks against
+the36-root dictionary and the renderer without inventing new letter values.
+Promote a composition only if it produces a short useful reading in its actual
+ring context; otherwise keep the forms as the tiny honest learned nomenclator.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
