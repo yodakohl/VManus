@@ -12575,6 +12575,19 @@ that recur across distinct statements and pages. Build a compact phrasebook and
 use it to replace word-by-word paraphrase with longer concrete action chunks
 where the same sequence genuinely recurs.
 
+Pass 881 finds ten cross-page workshop phrases in334 distinct prose events and
+107 physical statements: nine bigrams and one trigram, with22 overlapping
+occurrences touching35 events. The strongest is WEITER -> STEHENLASSEN+SCHLUSS
+four times; the sole portable trigram is longer-ANSETZEN -> ANSETZEN -> WEITER.
+No four- or five-card phrase recurs across pages, so long clauses remain freely
+composed rather than copied as complete formulas. See
+`sidequest_semantic_recurrent_phrasebook_eight_hundred_eighty_first/EIGHT_HUNDRED_EIGHTY_FIRST_WORKSHOP_PHRASEBOOK.md`.
+
+Next, use the ten recurrent phrases as fixed anchors and inspect every immediate
+left and right neighbour. Assign those boundary cards to concrete material,
+quantity, source, target, apparatus, result or discourse slots, and revise weak
+local whole-card meanings where the same slot relation supplies a better reading.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
