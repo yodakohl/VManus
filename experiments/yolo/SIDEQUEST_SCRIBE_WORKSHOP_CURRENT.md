@@ -11415,6 +11415,19 @@ Next, map every Y/CHY ending into two bins: licensed referent allography versus
 semantic CH+Y composition. Build the shortest rule that never collapses
 `ly/lchy` or another semantic pair.
 
+Pass 786 maps122 open-Y events/58 cards/53 recipes. Thirteen surfaces end in
+`chy`;12 have no standalone CH in the registered recipe and therefore keep Y's
+`DIES` without adding a meaning for CH. The lone semantic terminal case is
+`lchy=L+CH+Y=LEITEN·ENTNEHMEN·DIES`, distinct from `ly=L+Y`. Three other Y
+recipes contain semantic CH elsewhere. The exact rule is recipe-governed:
+registered CH means ENTNEHMEN; terminal CH before Y without a CH component is
+a nonsemantic referent allograph. See
+`sidequest_semantic_y_chy_boundary_seven_hundred_eighty_sixth/SEVEN_HUNDRED_EIGHTY_SIXTH_REPORT.md`.
+
+Next, separate productive E/EE/EEE duration grades from e-marks embedded in
+whole cores. Inventory every graded recipe and every tempting false split, then
+rewrite the short grade rule without treating every visible e as a morpheme.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
