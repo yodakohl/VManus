@@ -12729,6 +12729,18 @@ larger-card gaps. Group residual cards that perform the same visible operation
 into compact learned families, then close the complete two-gap layer with short
 continuous readings before approaching the longest passages.
 
+Pass 893 closes all eleven two-gap units with22 learned cards. The new compact
+calls include POSTEN LEITEN, KURZ BEREITHALTEN, ANSATZPORTION, LAENGER
+WEITERANSETZEN, WASSERPOSTEN SCHLIESSEN, KURZ SAMMELN and ZUTAT WEITERFUEHREN.
+The executable layer rises from90 to101 units; the residual prose burden is seven
+three-gap, three four-gap and one five-gap unit, plus six WHEN leaves. See
+`sidequest_semantic_two_gap_unit_closure_eight_hundred_ninety_third/EIGHT_HUNDRED_NINETY_THIRD_TWO_GAP_LESSON.md`.
+
+Next, close all seven three-gap units. Treat each three-card local island as a
+small memorized operation phrase, but still give each exact card its own short
+default so the phrase can be copied or spoken card by card. Preserve visible
+owner switches and the current continuous sentence reading.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
