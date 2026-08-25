@@ -12705,6 +12705,18 @@ Give every such unit a short concrete workshop reading, choose the smallest set
 of additional learned whole cards that unlocks all ten, and rewrite the affected
 order passages as continuous actions. Do not touch the six Astro model leaves.
 
+Pass 891 closes all ten remaining local-only prose units with twelve additional
+single-mark whole cards. They include AUS DER QUELLE LEITEN, WASSER ANSETZEN,
+LAENGER HALTEN UND SCHLIESSEN, ANSETZEN UND FESTBINDEN and DANACH UMSETZEN UND
+SCHLIESSEN. The unit inventory is now69 executable,43 core-plus-local and six
+condition leaves, with zero wholly local prose units. See
+`sidequest_semantic_local_only_unit_closure_eight_hundred_ninety_first/EIGHT_HUNDRED_NINETY_FIRST_LOCAL_ONLY_CLOSURE_LESSON.md`.
+
+Next, split the43 mixed prose units by residual burden. Start with every unit
+that contains exactly one remaining COPY_LOCAL_MODEL mark, assign that card a
+short concrete whole-word reading from its surrounding shared cards, and free
+the entire single-gap layer before attempting harder multi-gap passages.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
