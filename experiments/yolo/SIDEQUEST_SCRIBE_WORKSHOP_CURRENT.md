@@ -12465,6 +12465,21 @@ label components within each of the six condition shelves and build a relative
 condition vocabulary (next/same/short/long/complete/source/target) without
 forcing external planet, sign, month or mansion names.
 
+Pass 873 gives Astro a relative internal condition language. Twelve recurring
+operators—OT/OL/AR/AL, AIN/AIIN/IIN, E/EE/EEE, Y and DY—occur in329/395 groups;
+the other66 remain learned shelflocal whole labels. All142 loci receive unique
+handles such as `C4@f69v.12`. The sample `otody=OT+O+DY` reads FOLGEND + local
+condition core + LOCAL CLOSE. This does not name a planet, sign, month or
+mansion, but it lets a second scribe operate the local label after the master
+selects its handle. For book-internal use no wholly master-dependent payload
+remains; external names, absolute calibrations and all crosspage keys remain
+open. See
+`sidequest_semantic_relative_astro_condition_vocabulary_eight_hundred_seventy_third/EIGHT_HUNDRED_SEVENTY_THIRD_RELATIVE_ASTRO_HANDBOOK.md`.
+
+Next, publish a revised complete P4→B2→C4 sample in which every visible mark has
+a default meaning, every missing value is expressed as an explicit calibration,
+and no opaque placeholder survives in the readable workshop instruction.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
