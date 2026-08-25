@@ -11945,6 +11945,17 @@ Next, rebuild all11 prose records as a literal-plus-owner edition: exactly one
 short German value per component, with every picture-/owner-supplied expansion
 kept visibly separate from the card reading.
 
+Pass 829 publishes all11 prose records as literal-plus-owner readings. The381
+events contain850 component atoms, each emitting exactly one of39 fixed German
+values. All116 statements then show the owner address and fluent workshop
+expansion separately, so picture nouns, pronouns, case and local objects no
+longer masquerade as stem meanings. See
+`sidequest_semantic_layered_record_edition_eight_hundred_twenty_ninth/EIGHT_HUNDRED_TWENTY_NINTH_ELEVEN_COMPLETE_RECORDS.md`.
+
+Next, mine recurrent fluent words that lack a literal component source.
+Repeated hidden content may expose a missing/incorrect component value; one-off
+German glue can remain editorial.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
