@@ -10913,9 +10913,18 @@ Flüssigkeit klar abläuft` is retired; `cheey|shey` and `sheey` are simply
 SH+EE+Y, “diesen Posten lange halten”. See
 `sidequest_semantic_process_verbs_seven_hundred_thirty_fifth/SEVEN_HUNDRED_THIRTY_FIFTH_REPORT.md`.
 
-Next, build the transfer/application cross L, P, R and T: weiterleiten,
-einfüllen, kühlen and anwenden. Test them against source, target site, current
-item and close, and shorten any remaining sentence-sized gloss.
+Pass 736 builds the second verb cross: L=LEITEN (18 cards/27 events),
+P=FUELLEN (3/3), R=KUEHLEN (6/6), T=ANWENDEN (9/10), a disjoint36-card/
+46-event union. Five shared argument frames yield11 cells: Y links L/P/T;
+CHD+DY and CHD+AL link L/P; AL+OR and OL link L/R. L is shortened from
+WEITERLEITEN to LEITEN, so only L+OL means “weiterleiten”; P is shortened from
+EINFUELLEN to FUELLEN. Twenty-one cards/30 events/26 statements simplify. See
+`sidequest_semantic_transfer_application_seven_hundred_thirty_sixth/SEVEN_HUNDRED_THIRTY_SIXTH_REPORT.md`.
+
+Next, consolidate all currently selected short roots into one component
+dictionary and rederive all173 exact cards,381 events,116 statements and11
+records. Count how many cards are now fully compositional and isolate the true
+memorized remainders without giving them sentence-sized defaults.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
