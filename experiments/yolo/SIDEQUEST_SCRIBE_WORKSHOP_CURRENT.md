@@ -12563,6 +12563,18 @@ portable core card to its house surface, preserve all local-model identities
 exactly, and verify that438 meanings,119 units,16 owners and six condition loci
 survive while the visible renderer inventory becomes smaller.
 
+Pass 880 produces that complete fifth-hand edition. Sixty-eight of438 marks are
+rewritten to the single house surface of their unchanged portable identity;
+all177 local-model marks remain exact. The visible inventory contracts from247
+to208 surface types while228 identities,119 units, six order paths, owner
+bindings, conditions and every concrete default stay unchanged. See
+`sidequest_semantic_fifth_hand_normalized_edition_eight_hundred_eightieth/EIGHT_HUNDRED_EIGHTIETH_COMPLETE_FIFTH_HAND_BOOK.md`.
+
+Next, mine the normalized prose for reusable two- to five-card workshop phrases
+that recur across distinct statements and pages. Build a compact phrasebook and
+use it to replace word-by-word paraphrase with longer concrete action chunks
+where the same sequence genuinely recurs.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
