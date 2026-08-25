@@ -1,14 +1,14 @@
 # Voynich current route
 Updated: 2026-08-25. Use `experiments/EXPERIMENT_INDEX.tsv` for primary reports; consult the active state and ledger only for claim-detail audits or historical reconstruction.
 Noncanonical twenty-two-page sidequest: `experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_CURRENT.md`.
-Its creative Pass-1017 release binds 4,581 groups (3,888 running, 693 local) in one physically ordered 627-statement edition.
+Its creative Pass-1018 release binds 4,581 groups (3,888 running, 693 local) in one physically ordered 627-statement edition.
 The semantic pocket dictionary now has 46 signs: 12 content/action cores, 7
 relation cores, 8 formal controls and 19 local signs. Ten former specialist
 candidates resegment into existing components; `AIR=LAUF` becomes the seventh
 relation core. Of 3,888 running events, 3,343 use the portable core, 490
 require a local sign and 55 are control-only. A new composition must keep the
 fixed core sum; conflicts cannot be rescued by redefining roots.
-All 627 statements now have an owner–quantity–action–relation–grade–endpoint reading under that contract; the 19 local signs reduce to HIER, VARIANTE, KLASSE and VORBEZUG, yielding 31 semantic categories over 46 graphic forms. The forward compiler records all 19 core valencies and 361 ordered pairs; fixed future readings include `chain=CH+AIN`, `pain=P+AIN`, `paiin=P+AIIN`, and `lair=L+AIR`.
+All 627 statements now have an owner–quantity–action–relation–grade–endpoint reading; the 19 local signs reduce to HIER, VARIANTE, KLASSE and VORBEZUG. Every portable core occurs in all four registers; cross-register rereading narrows `AIIN=WERT`, `AIN=ANTEIL`, and `OR=EINHEIT`, while the other 16 values remain. Fixed future readings are `chain=Anteil nehmen`, `pain=Anteil einsetzen`, `paiin=Wert einsetzen`, and `lair=Verbindung im Lauf`.
 ## Scientific ceiling
 
 - The manuscript is **not translated**.

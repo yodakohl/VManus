@@ -1,11 +1,11 @@
 # Current twenty-two-page scribe-workshop theory
 
-Updated: 2026-08-26, after Pass 1017.
+Updated: 2026-08-26, after Pass 1018.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
-translation**. This is the compact handoff for the sidequest. Pass 1017 gives
+translation**. This is the compact handoff for the sidequest. Pass 1018 gives
 all 627 statements a complete owner-plus-core reading, four local channels,
-and a forward compiler for the 19 portable cores.
+a forward compiler, and 19 core values that each occur in all four registers.
 
 ## Fixed scope
 
@@ -235,6 +235,17 @@ einsetzen*, `paiin` = *nach Maß einsetzen*, and `lair` = *Verbindung im Lauf*.
 The first and third already occur with an intervening component, but none of
 the four direct surfaces occurs on the current pages.
 
+Pass 1018 then reads every portable core once in each of Herbal, Biological,
+Celestial and Pharma. All nineteen occur in all four. Sixteen short values
+remain unchanged, while three old material-biased words broaden: `AIIN` is
+WERT rather than MASS, `AIN` is ANTEIL rather than PORTION, and `OR` is EINHEIT
+rather than ANSATZ. WERT can locally be a dose, setting, table value or amount;
+ANTEIL can be plant quantity, part-post, sector share or ingredient share;
+EINHEIT can be preparation, station block, entry group or batch. The fluent
+owner reading may still use those local nouns, but the portable dictionary no
+longer forces them into every register. The four future compounds update to
+*Anteil nehmen*, *Anteil einsetzen*, *Wert einsetzen*, and *Verbindung im Lauf*.
+
 ## Constrained semantic pocket dictionary
 
 The twelve content/action cores are:
@@ -366,6 +377,10 @@ comparison set.
 
 ## Primary artifacts
 
+- Current Pass-1018 76-context cross-register audit, revised 19-core
+  dictionary, complete revised 627-statement literal edition, updated future
+  predictions, builder, and validator:
+  `sidequest_semantic_cross_register_core_revision_one_thousand_eighteenth/`;
 - Current Pass-1017 forward compiler, 19-core valency table, complete 361-pair
   inventory, four fixed future predictions, builder, and validator:
   `sidequest_semantic_forward_composition_compiler_one_thousand_seventeenth/`;

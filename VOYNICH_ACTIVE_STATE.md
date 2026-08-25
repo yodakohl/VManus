@@ -6,7 +6,7 @@ Updated: 2026-08-25. This is the full claim registry. For routine work, read
 
 ## Outcome
 
-### Noncanonical twenty-two-page sidequest (Pass 1017)
+### Noncanonical twenty-two-page sidequest (Pass 1018)
 
 The creative workshop sidequest covers twenty-two admitted physical pages with
 4,581 visible groups: 3,888 running prose/ring-text groups plus 693 local
@@ -198,6 +198,17 @@ einsetzen`, `paiin=P+AIIN=nach Maß einsetzen`, and `lair=L+AIR=Verbindung im
 bezeichneten Lauf`. `CH…AIN` already has three gapped supports and `P…AIIN`
 one; the direct forms are all absent. A conflict must become a local/whole-card
 exception or invalidate the pairing, never silently redefine a core.
+
+Pass 1018 rereads every portable core in Herbal, Biological, Celestial and
+Pharma, yielding 76 representative cross-register contexts. Sixteen values
+remain unchanged. Three portable glosses broaden without adding a function:
+`AIIN=MASS` becomes `WERT`, `AIN=PORTION` becomes `ANTEIL`, and `OR=ANSATZ`
+becomes `EINHEIT`. Their local realizations may still be measure/dose,
+portion/fill share, or preparation/batch, while celestial occurrences become
+table value, sector share, and entry group without metaphorical apparatus.
+All 627 statements and 3,888 events retain surfaces, components, owners,
+channels, grades and endings. The four future direct forms update accordingly
+to Anteil nehmen/einsetzen, Wert einsetzen, and Verbindung im Lauf.
 
 - The manuscript is **not translated**. There are zero confirmed English
   lexemes, zero plaintext clauses, and no established language, phonetic
