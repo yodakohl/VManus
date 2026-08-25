@@ -11190,10 +11190,19 @@ scribal analogues; the grade, close and owner variants are our workshop
 adaptation. See
 `sidequest_semantic_correction_marks_seven_hundred_sixty_fifth/SEVEN_HUNDRED_SIXTY_FIFTH_REPORT.md`.
 
-Next, apply this error vocabulary to actual awkward forms in the ten pages:
-adjacent duplicate cards, the one known margin/read-once repetition, unusual
-grade choices, open statements, and visible owner resets. Separate plausible
-copying/correction artifacts from forms that must remain intended content.
+Pass 766 applies those error ideas to the actual ten-page prose. There are only
+three adjacent identical exact-card pairs. E180/E181 alone satisfies the known
+physical-line edge-copy rule and is read once; E020/E021 and E033/E034 lack the
+edge cue and remain deliberate or local-formula repetition. All27 open
+statements (15 Herbal,12 Bio),8 multi-grade paradigms and4 mid-statement visible
+owner resets are retained, not silently corrected. Thus381 visible cards encode
+380 logical source cards because of exactly one local layout copy. See
+`sidequest_semantic_actual_error_audit_seven_hundred_sixty_sixth/SEVEN_HUNDRED_SIXTY_SIXTH_REPORT.md`.
+
+Next, refactor the forward compiler into two explicit stages: generate380
+logical source cards, then render the one licensed E180 edge copy to recover381
+visible cards. The renderer must not duplicate E020/E021 or E033/E034, insert
+closes into27 open statements, or carry across four visible owner resets.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
