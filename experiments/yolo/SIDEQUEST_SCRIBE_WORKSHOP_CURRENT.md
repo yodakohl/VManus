@@ -11482,6 +11482,19 @@ Next, put the eleven formable AIIN/AIN counterpart recipes on a two-hand
 quantity board. Use already known wrapper preferences where available, copy a
 neutral master form elsewhere, and run forward/backward meaning checks.
 
+Pass 791 inserts all14 formable counterpart surfaces into their actual source
+statements. Each substitution changes exactly one surface and its quantity
+value while preserving owner, card order and closure. Both hands copy the same
+new master card because no unpaired quantity compound has a learned two-hand
+allograph;28/28 forward/backward exercises recover the intended recipe and
+meaning. Examples include `chodaiin→chodain` (Sollmaß→Portion),
+`chedain→chedaiin` (Portion→Sollmaß) and `qotedaiin→qotedain`. See
+`sidequest_semantic_quantity_board_seven_hundred_ninety_first/SEVEN_HUNDRED_NINETY_FIRST_QUANTITY_BOARD.md`.
+
+Next, inventory AL and AR as a possible Ziel-/Quellachse. Search for identical
+surrounding recipes with only AL↔AR changed, then test whether their complete
+instruction reverses destination and source without changing the operation.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
