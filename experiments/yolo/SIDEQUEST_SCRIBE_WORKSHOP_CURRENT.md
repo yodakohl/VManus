@@ -11070,9 +11070,18 @@ output cards353→357/381. Three full-context triggers fix three statements with
 no harm. See
 `sidequest_semantic_measure_address_formula_seven_hundred_fifty_first/SEVEN_HUNDRED_FIFTY_FIRST_REPORT.md`.
 
-Next, close the continuation family. Derive full contexts for `AL | OL`,
-`OL | SHED+DY`, `OL+K+AIN | AL`, and `OL+OR | OL`; distinguish address
-bridges, preparation bridges, and terminal continuation cadence.
+Pass 752 makes OL a learned continuation bridge in four full contexts: a
+preparation bridge in H2-S002, a current-item/terminal cadence in B1-S008, a
+portion-target-source bridge in B4-S016, and a target/transfer bridge in
+B5-S003. Exact recipes rise93→97/116, equal card counts103→106, and output
+cards357→362/381. Four triggers fix four statements with no harm; OL remains
+WEITER rather than a free copy register. See
+`sidequest_semantic_continuation_bridge_formula_seven_hundred_fifty_second/SEVEN_HUNDRED_FIFTY_SECOND_REPORT.md`.
+
+Next, reclassify the19 residual statements from scratch after the phrase
+layer. Separate true recipe-order mistakes, single-card packing choices,
+remaining contextual omissions, and large learned Herbal formulas. Use that
+inventory to choose the next smallest repair family.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
