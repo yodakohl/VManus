@@ -10974,11 +10974,23 @@ Thus semantic-family recoding is nearly complete, while card packing is the
 remaining learned layer. See
 `sidequest_semantic_apprentice_recoding_seven_hundred_forty_first/SEVEN_HUNDRED_FORTY_FIRST_REPORT.md`.
 
-Next, build the small card packer implied by Pass741. Starting from recoded
-component families, prefer attested multi-component recipes from the173-card
-deck, learn explicit operation-head versus address-head packaging, and retain
-whole-card commands. Compare the resulting recipe/card-family sequence to all
-116 statements without adding meanings.
+Pass 742 implements the mixed codebook packer. The173-card deck has163 ordered
+recipes but162 component bags; only E+T+Y versus T+E+Y is order-ambiguous. A
+dynamic packer consumes only Pass741 recoded families, joins up to five adjacent
+cues by component bag, and emits the most recurrent canonical learned recipe.
+It reproduces68/116 exact recipe sequences and85/116 exact card counts, writing
+402 predicted versus381 observed cards;334 predicted steps are attested deck
+cards and68 are explicit fallbacks. Register asymmetry is large:2/19 Herbal
+but66/97 Biological statements are exact. This supports a productive semantic
+layer plus learned card-packing layer, especially for compact Bio cells; long
+Herbal needs register/ellipsis rules. See
+`sidequest_semantic_attested_card_packer_seven_hundred_forty_second/SEVEN_HUNDRED_FORTY_SECOND_REPORT.md`.
+
+Next, repair only the48 packing failures with two bounded workshop conventions:
+register-specific pack preference (compact Biological versus chained Herbal)
+and a small list of fluent helper cues that do not receive cards. Preserve the
+39 meanings and173-card deck; quantify which failures remain true memorized
+packing exceptions.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
