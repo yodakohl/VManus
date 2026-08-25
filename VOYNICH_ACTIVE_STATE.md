@@ -6,7 +6,7 @@ Updated: 2026-08-25. This is the full claim registry. For routine work, read
 
 ## Outcome
 
-### Noncanonical eighteen-page sidequest (Pass 1003)
+### Noncanonical eighteen-page sidequest (Pass 1004)
 
 The creative workshop sidequest covers eighteen admitted physical pages with
 3,168 visible groups: 2,618 running prose/ring-text groups plus 550 local
@@ -46,7 +46,11 @@ events and 354 clauses. Pass 1003 then transfers that reading machine to f17r,
 f77r, f88v, and f71v: 657/657 fresh groups receive a short root/default layer
 and a visible-owner expansion without adding a portable root. The fresh pages
 contain 411 exact registered surfaces, 150 visibly composed forms, 34 one-edit
-allographs, 13 tentative rooted variants, and 49 owner-bound labels. The image
+allographs, 13 subsequently resolved rooted variants, and 49 owner-bound
+labels. Pass 1004 resolves all thirteen residues with the same 53 roots, then
+joins all 608 running groups into 110 continuous workshop statements: 103 end
+on a licensed close, seven remain owner-/page-final open, and 40 cross at
+least one physical line. The image
 pass retains one whole-plant owner on f17r, local body/basin/outlet scenes on
 f77r, multiple vessel/ingredient batches on f88v, and three independent local
 ring namespaces on f71v. Its dense `AL=ZIEL`/`AR=QUELLE` use reinforces the

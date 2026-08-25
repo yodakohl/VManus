@@ -1,11 +1,11 @@
 # Current eighteen-page scribe-workshop theory
 
-Updated: 2026-08-25, after Pass 1003.
+Updated: 2026-08-25, after Pass 1004.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
-translation**. This is the compact handoff for the sidequest. Pass 1003 keeps
-the corrected root/context grammar and adds four newly admitted pages without
-adding a portable semantic root.
+translation**. This is the compact handoff for the sidequest. Pass 1004 keeps
+the corrected root/context grammar, closes the thirteen residual forms on the
+four newly admitted pages, and reads their running text across physical lines.
 
 ## Fixed scope
 
@@ -19,8 +19,9 @@ Eighteen page units are in scope:
 Together they contain 3,168 visible groups. Of these, 2,618 belong to running
 prose or ring text and 550 are image labels, station addresses, vessel labels,
 or celestial ring positions. The older fourteen-page base retains its 354
-complete clauses; the 111 fresh loci are kept as readings rather than falsely
-equating physical lines with sentences. `f84` and `f84r` remain sealed.
+complete clauses. The 111 fresh loci contain 110 continuous statements; forty
+cross physical lines, so a line is not treated as a sentence.
+`f84` and `f84r` remain sealed.
 
 ## Best current mechanism
 
@@ -47,10 +48,13 @@ The 2,511-event Pass-1002 base routes as follows:
 - 485 other local image, station, and ring addresses;
 - 16 f88r ingredient labels.
 
-Pass 1003 adds 657 events from the four new pages: 411 exact registered
+Pass 1003 added 657 events from the four new pages: 411 exact registered
 surfaces, 150 visibly rooted new compositions, 34 one-edit allographs, 13
-tentative rooted variants, and 49 owner-bound labels. The combined edition has
-3,168 events. No new portable root or codebook line was needed.
+residual rooted variants, and 49 owner-bound labels. Pass 1004 decomposes all
+thirteen residues with the existing roots. Its 608 running groups form 110
+statements: 103 licensed closed, seven owner-/page-final open, and forty
+cross-line. The combined edition has 3,168 events. No new portable root or
+codebook line was needed.
 
 Beyond the 30 common formula cards, 70 recurrent compositions form a second
 apprentice drawer. They cover 287 events; 63 recur across multiple pages and
@@ -188,8 +192,11 @@ comparison set.
 
 ## Primary artifacts
 
-- Four-page Pass-1003 transfer, 657-event interlinear, 111 locus readings,
-  image-owner map, combined 3,168-event edition, and working translations:
+- Current Pass-1004 four-page continuous edition, thirteen repaired variants,
+  657-event interlinear, 110 statements, combined 3,168-event edition, and
+  complete readings:
+  `sidequest_semantic_fresh_page_continuous_edition_one_thousand_fourth/`;
+- Pass-1003 image-owner map and original four-page transfer:
   `sidequest_semantic_four_fresh_page_transfer_one_thousand_third/`;
 - Current dual-layer theory, manifest, codebook, interlinear, and manual:
   `sidequest_semantic_dual_layer_release_one_thousand_second/`;
@@ -218,8 +225,8 @@ comparison set.
 
 ## Next work
 
-Stay on the four fresh pages. First hand-reconcile the thirteen tentative
-rooted variants; then join their 608 running groups into statements that may
-cross physical lines. Concentrate on f17r and f88v, where exact surface reuse
-is lower, and preserve all f71v/f88v labels as owner-bound local names. Do not
-add another page until these four have a readable continuous edition.
+Keep the four fresh pages fixed for one more lexical pass. Reconcile the 34
+one-edit allographs against their complete statement contexts and replace the
+seven open statement tails with explicit carry, owner-reset, or true open-end
+readings where the visible layout allows it. Preserve all f71v/f88v labels as
+owner-bound local names; no additional page is needed for that pass.
