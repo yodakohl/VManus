@@ -11293,6 +11293,19 @@ Next, compare the seven pages by their card and component inventories. The
 useful question is whether f55v's vocabulary really resembles Hand 2's Bio
 work, or whether handwriting and subject vocabulary are two independent layers.
 
+Pass 777 identifies f55v as a genuine bridge. Its exact-card inventory is on
+average closer to Hand 2's Bio pages (.0845 versus .0586 to Hand 1 Herbal), and
+its nearest exact-card neighbour is f81v. Its component-frequency profile is
+nevertheless closer to Herbal (.7546 versus .6898 to Bio), with f10r the
+nearest component neighbour. The current reading is therefore two-layered:
+subject/register selects the semantic components, while the individual hand
+helps select learned whole-card realizations. See
+`sidequest_semantic_hand_register_bridge_seven_hundred_seventy_seventh/SEVEN_HUNDRED_SEVENTY_SEVENTH_REPORT.md`.
+
+Next, extract every component recipe used by both hands and compare the exact
+cards chosen for it. This should yield a compact Hand-1/Hand-2 realization
+lexicon and reveal whether the two scribes have systematic preferred variants.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
