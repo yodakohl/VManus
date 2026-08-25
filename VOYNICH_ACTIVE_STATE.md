@@ -6,11 +6,11 @@ Updated: 2026-08-25. This is the full claim registry. For routine work, read
 
 ## Outcome
 
-### Noncanonical eighteen-page sidequest (Pass 1007)
+### Noncanonical twenty-two-page sidequest (Pass 1008)
 
-The creative workshop sidequest covers eighteen admitted physical pages with
-3,168 visible groups: 2,618 running prose/ring-text groups plus 550 local
-image, station, vessel, and celestial addresses/labels. Its current
+The creative workshop sidequest covers twenty-two admitted physical pages with
+4,581 visible groups: 3,888 running prose/ring-text groups plus 693 local
+image, station, vessel, celestial addresses/labels, and section markers. Its current
 mixed codebook has 175 lines: 53 portable roots represented in 56 root/local-
 sign entries, 30 frequent formula ligatures, 72 long contextual compositions,
 sixteen f88r ingredient labels, and one rule for copying a complete local
@@ -77,6 +77,19 @@ Every one of the 2,618 running groups retains its Pass-1006 statement and
 reading; the templates add no root or card meaning. The ending remains an
 independent switch: 432 licensed closes, 20 visible boundaries, and ten open
 ends. The 550 image/ring addresses remain outside sentence grammar.
+
+Pass 1008 applies the same nine drawers to four further physical pages: f18r,
+all three f72r panels, f76r, and both f89r panels. Their 1,413 groups divide
+into 1,270 running groups and 143 local addresses or section markers. The 165
+new statements use all nine drawers; 134 end on a licensed close, 31 at a
+visible paragraph/owner/ring boundary, and 39 cross physical lines. Eight
+short statements carry no explicit action root and inherit the active section
+operation. No new root is added. The image pass retains one whole-plant owner
+on f18r, ten local zodiac-ring namespaces on f72r, seven material/vessel
+batches on f89r, and thirteen textual/rubric sections on f76r. Crucially, f76r
+has no local figure or apparatus: the formal clause grammar transfers there,
+but a bath, body part, vessel, or machine noun cannot be supplied by the page
+image.
 
 - The manuscript is **not translated**. There are zero confirmed English
   lexemes, zero plaintext clauses, and no established language, phonetic

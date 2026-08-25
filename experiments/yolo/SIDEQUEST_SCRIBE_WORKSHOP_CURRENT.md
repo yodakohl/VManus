@@ -1,27 +1,27 @@
-# Current eighteen-page scribe-workshop theory
+# Current twenty-two-page scribe-workshop theory
 
-Updated: 2026-08-25, after Pass 1007.
+Updated: 2026-08-25, after Pass 1008.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
-translation**. This is the compact handoff for the sidequest. Pass 1007 keeps
-the unified eighteen-page edition and adds nine reusable apprentice sentence
-drawers between the root dictionary and the fluent readings.
+translation**. This is the compact handoff for the sidequest. Pass 1008 keeps
+the nine reusable apprentice sentence drawers and transfers them to four more
+physical pages without adding a portable root.
 
 ## Fixed scope
 
-Eighteen page units are in scope:
+Twenty-two physical pages are in scope:
 
-- Herbal: `f10r`, `f11r`, `f13r`, `f17r`, `f55v`, `f56r`;
-- Biological: `f75r`, `f77r`, `f81v`, `f82r`, `f83r`;
-- celestial: `f67r2`, `f68r1`, `f69v`, `f70v1`, `f70v2`, `f71v`;
-- Pharma: `f88r`, `f88v`.
+- Herbal: `f10r`, `f11r`, `f13r`, `f17r`, `f18r`, `f55v`, `f56r`;
+- Biological: `f75r`, `f76r`, `f77r`, `f81v`, `f82r`, `f83r`;
+- celestial: `f67r2`, `f68r1`, `f69v`, `f70v1`, `f70v2`, `f71v`, and the three panels `f72r1`–`f72r3`;
+- Pharma: `f88r`, `f88v`, and the two panels `f89r1`–`f89r2`.
 
-Together they contain 3,168 visible groups. Of these, 2,618 belong to running
-prose or ring text and 550 are image labels, station addresses, vessel labels,
-or celestial ring positions. All running text is now assigned to 462
-continuous statements: 354 inherited clauses plus 108 statements from the four
-new pages. Of these, 432 end on a licensed close, 30 at a visible boundary or
-open page edge, and 160 cross physical lines. A line is therefore never treated
+Together they contain 4,581 visible groups. Of these, 3,888 belong to running
+prose or ring text and 693 are image labels, station addresses, vessel labels,
+celestial ring positions, or section markers. The first eighteen pages retain
+their 462 statements; the four Pass-1008 pages add 165, for 627 total. Their
+combined endings are 566 licensed closes, 51 visible boundaries, and ten open
+ends; 199 statements cross physical lines. A line is therefore never treated
 as a sentence by default.
 `f84` and `f84r` remain sealed.
 
@@ -75,6 +75,16 @@ path transfer 101, full multistep chain 76, and celestial entry 19. The ending
 is filled independently as licensed close, visible owner/diagram boundary, or
 open continuation. Thus the apprentice need not memorize 462 sentences, while
 all original statement and event bindings remain unchanged.
+
+Pass 1008 adds f18r, f72r, f76r, and f89r. Its 1,413 new groups contain 896
+exact registered running surfaces, 271 one-edit allographs, 74 two-edit rooted
+variants, 29 directly visible new compositions, and 143 local addresses or
+section markers. They form 165 statements in the same nine drawers: 134
+licensed closes, 31 visible boundaries, and 39 line crossings. Eight short
+statements omit an action card and inherit the active section operation. The
+strongest correction comes from f76r: it is a dense text-only page, not a
+picture-owned station sheet. Its clause architecture transfers, but concrete
+bath, body, basin, or apparatus nouns cannot be read from an absent image.
 
 Beyond the 30 common formula cards, 70 recurrent compositions form a second
 apprentice drawer. They cover 287 events; 63 recur across multiple pages and
@@ -143,15 +153,16 @@ surface as `dy`, and `chdy/chedy` is often nonterminal.
 
 The eighteen page units form a practical four-stage book:
 
-1. **STOFF** — six pictured plant articles. The plant picture silently owns
+1. **STOFF** — seven pictured plant articles. The plant picture silently owns
    the text; the cards select parts, portions, preparation paths, and uses.
 2. **ZUBEREITUNG** — f88r contains sixteen local ingredient labels in rows of
    six, six, and four under three silent vessel owners. f88v adds three more
    vessel-/ingredient batches with fourteen label groups and productive prose.
-   No species name is currently forced.
-3. **ANWENDUNG** — f75r, f77r and the Biological pages contain local bath, basin,
+   f89r adds seven more local vessel-/plant-part batches. No species name is currently forced.
+3. **ANWENDUNG** — f75r, f77r and the illustrated Biological pages contain local bath, basin,
    conduit, washing, holding, fastening, and transfer stations. They do not
-   form one global pipe network.
+   form one global pipe network. f76r is unillustrated and therefore supplies
+   only section-owned clause structure, not a visible station noun.
 4. **ZEIT / AUSWAHL** — the celestial pages are separate lookup instruments.
    Their ring labels are local addresses, not workshop verbs and not one joined
    f68↔f69 sequence.
@@ -212,6 +223,9 @@ comparison set.
 
 ## Primary artifacts
 
+- Current Pass-1008 four-page event transfer, all 165 statement assignments,
+  owner map, image manifest, complete readable edition, and 4,581-event ledger:
+  `sidequest_semantic_four_page_template_transfer_one_thousand_eighth/`;
 - Current Pass-1007 nine-template drawer, all 462 assignments, eighteen-page
   profile, and clause manual:
   `sidequest_semantic_recurring_clause_template_drawer_one_thousand_seventh/`;
@@ -254,7 +268,7 @@ comparison set.
 
 ## Next work
 
-Use the nine drawers as the admission grammar for the next page batch. First
-assign owner, address zone, execution zone, and ending; only afterward expand
-the sentence naturally. Do not enlarge the 53-root inventory merely to make a
-new page look fluent.
+Merge the 462 old and 165 new statements into one ordered 627-statement
+twenty-two-page edition, then inspect the eight inherited-action clauses as a
+small ellipsis/section-marker problem. Keep the nine drawers and 53 roots fixed;
+do not add a root merely to make those clauses look fluent.

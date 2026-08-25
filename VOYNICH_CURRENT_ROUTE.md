@@ -1,10 +1,11 @@
 # Voynich current route
 Updated: 2026-08-25. Use `experiments/EXPERIMENT_INDEX.tsv` for primary reports; consult the active state and ledger only for claim-detail audits or historical reconstruction.
-Noncanonical eighteen-page sidequest: `experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_CURRENT.md`.
-Its creative Pass-1007 release binds all 3,168 groups in one edition: 2,618 running prose/ring-text groups plus 550 local addresses/labels.
+Noncanonical twenty-two-page sidequest: `experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_CURRENT.md`.
+Its creative Pass-1008 release binds all 4,581 groups in one event edition: 3,888 running prose/ring-text groups plus 693 local addresses, labels, and section markers.
 The 175-line codebook has 53 roots, 30 formula ligatures, 72 contextual compositions, 16 local drug labels, and one address-copy rule.
 Of 25 apparently empty two-root cells, 18 occur inside longer cards; `chain` = “eine Portion nehmen” is the strongest new-form prediction.
 Pass 1007 compresses the 462 statements into nine apprentice templates: basic action, item, continuation, measure, preparation, target, path, full chain, and celestial entry. They retain 432 licensed closes, 20 visible boundaries, 10 open ends, and 160 line crossings without a new root.
+Pass 1008 transfers those drawers to f18r, the complete f72r and f89r foldouts, and f76r: 1,413 new groups/165 statements, 134 licensed closes, 31 visible boundaries, 39 line crossings, and no new root. Eight short clauses inherit their action from the active section. f76r is text-only, so its formal grammar transfers but no bath/apparatus noun may be supplied from an absent image.
 The creative model is material → preparation → local application → celestial lookup, not a confirmed translation.
 
 ## Scientific ceiling
