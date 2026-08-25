@@ -11008,9 +11008,20 @@ each Y-valent learned recipe even when fluent prose uses a pronoun or ellipsis.
 See
 `sidequest_semantic_packing_error_taxonomy_seven_hundred_forty_fourth/SEVEN_HUNDRED_FORTY_FOURTH_REPORT.md`.
 
-Next, derive Y valency from the unchanged173-card deck and add active-item copy
-to the packer. Test which of the30 Y-driven errors disappear before touching
-other repetition or the three true segmentation cases.
+Pass 745 makes Y-copy executable from the unchanged deck. Sixty exact cards/
+124 events contain125 written Y slots and collapse to55 bases without Y;48
+bases are attested only with Y and7 have both variants. The packer may copy up
+to2 Y only when the result is one of these learned cards. It changes26
+statements and copies38 Y, raising exact recipe sequences74→84/116 and equal
+card counts91→95;10 errors are fixed and0 prior exact cases harmed. It emits345
+cards versus381 observed, leaving32 errors. Residual missing counts start Y24
+(plus2 extra),OL6,AL5,AIIN4,OK4. Thus Y=CURRENT WORK ITEM/DIES now has a
+concrete local valency-copy rule, not a new lexical value. See
+`sidequest_semantic_active_y_valency_seven_hundred_forty_fifth/SEVEN_HUNDRED_FORTY_FIFTH_REPORT.md`.
+
+Next, extend the same attested-only valency mechanism one component at a time
+to OL,AL,AIIN and OK. Compare each axis separately, retain only rules that fix
+recipes without harming an already exact statement, and keep Y fixed.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
