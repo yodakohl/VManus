@@ -10803,10 +10803,17 @@ CH ABNEHMEN→ENTNEHMEN and K ZUDOSIEREN→ZUGEBEN. O GANG→ARBEITSGANG,
 AIR LAUF→WASSER, CTH BEREIT→BEREITEN and S TEILEN→TEIL remain queued. See
 `sidequest_semantic_gloss_pressure_seven_hundred_twenty_second/SEVEN_HUNDRED_TWENTY_SECOND_REPORT.md`.
 
-Next, apply T/CH/K globally to the39-entry sheet,163 recipes,173 cards and all
-381 events/116 statements. Rephrase every affected statement once; keep all
-card IDs, surfaces, owners and boundaries unchanged and compare readability in
-each of the eleven records.
+Pass 723 propagates T=ANWENDEN, CH=ENTNEHMEN and K=ZUGEBEN through the complete
+edition:40/163 recipes,40/173 cards,45/381 events,29/116 statements and10/11
+records change semantically. The former bureaucratic verbs disappear from all
+revised continuous readings. Card IDs, surfaces, owners, statements and line
+relations remain unchanged. B5 contains none of the three components. See
+`sidequest_semantic_verb_revision_seven_hundred_twenty_third/SEVEN_HUNDRED_TWENTY_THIRD_REPORT.md`.
+
+Next, apply the queued small wave S=TEIL, CTH=BEREITEN and O=ARBEITSGANG, and
+try AIR=WASSER explicitly across its five cards CH+AIR, K+AIR, OK+AIR, CHD+AIR
+and AIR+Y+DY. Produce concrete sentence expansions for all five; broaden only
+AIR if one cannot be made coherent.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
