@@ -1,9 +1,9 @@
 # Current twenty-two-page scribe-workshop theory
 
-Updated: 2026-08-26, after Pass 1018.
+Updated: 2026-08-26, after Pass 1019.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
-translation**. This is the compact handoff for the sidequest. Pass 1018 gives
+translation**. This is the compact handoff for the sidequest. Pass 1019 gives
 all 627 statements a complete owner-plus-core reading, four local channels,
 a forward compiler, and 19 core values that each occur in all four registers.
 
@@ -230,8 +230,8 @@ unseen orders. Each core now has a fixed head/tail/frame role and a forward
 rule. The reader recognizes the longest graphic package, expands embedded
 cores, reads the fixed atoms left-to-right, adds one of the four local channels,
 and only then applies grade and endpoint. Four direct forms receive fixed
-future readings: `chain` = *eine Portion nehmen*, `pain` = *eine Portion
-einsetzen*, `paiin` = *nach Maß einsetzen*, and `lair` = *Verbindung im Lauf*.
+future readings: `chain` = *einen Anteil nehmen*, `pain` = *einen Anteil
+einsetzen*, `paiin` = *einen Wert einsetzen*, and `lair` = *Verbindung im Lauf*.
 The first and third already occur with an intervening component, but none of
 the four direct surfaces occurs on the current pages.
 
@@ -246,13 +246,25 @@ owner reading may still use those local nouns, but the portable dictionary no
 longer forces them into every register. The four future compounds update to
 *Anteil nehmen*, *Anteil einsetzen*, *Wert einsetzen*, and *Verbindung im Lauf*.
 
+Pass 1019 then opens four already admitted original images one by one: f13r,
+f75r, f67r2, and f88r. Twelve central readings plus sixteen independent
+counterreadings agree that the three broad words are better than their old
+material-biased predecessors. f13r supplies visible plant parts but no scale
+or vessel; f75r supplies local station groups but no global measure or flow;
+f67r2 supplies positive sector/value/entry-group expansions; and f88r supplies
+separate ingredient posts and vessel groups without fixing a recipe sequence.
+The strongest correction is `OR=EINHEIT`: it can become an article block,
+station, celestial entry group, or local vessel/preparation unit without
+forcing *Ansatz* everywhere. P1009-S075 also loses the inherited phrase *nach
+Maß*, because that statement contains no `AIIN`.
+
 ## Constrained semantic pocket dictionary
 
 The twelve content/action cores are:
 
 - `OK=SETZEN`, `CH=NEHMEN`, `SH=HALTEN`, `K=GEBEN`;
-- `AIIN=MASS`, `AIN=PORTION`, `S=WÄHLEN`, `T=EINSTELLEN`;
-- `CHD=UMSETZEN`, `OR=ANSATZ`, `R=MARKIEREN`, `P=EINSETZEN`.
+- `AIIN=WERT`, `AIN=ANTEIL`, `S=WÄHLEN`, `T=EINSTELLEN`;
+- `CHD=UMSETZEN`, `OR=EINHEIT`, `R=MARKIEREN`, `P=EINSETZEN`.
 
 Seven further portable values carry reference, sequence, or relation:
 
@@ -277,13 +289,13 @@ The current deck includes the following stable working readings:
 
 - `dy/chey/y/chy/shy/sy` → **DIESER POSTEN**;
 - `ol/chol/qol/sol/ls` → **DAMIT FORTFAHREN**;
-- `daiin/aiin` → **NACH MASS**;
+- `daiin/aiin` → **DER WERT**;
 - `chedy/chdy/chedchy` → **DEN POSTEN UMSETZEN**;
 - `shedy` → **HALTEN · GRAD I; SCHLUSS**;
 - `qokedy/okedy` → **KURZ ANSETZEN; SCHLUSS**;
 - `qokeedy/okeedy` → **LÄNGER ANSETZEN; SCHLUSS**;
-- `qokain/okain/chokain` → **EINE PORTION ANSETZEN**;
-- `qokaiin/okaiin` → **NACH MASS ANSETZEN**;
+- `qokain/okain/chokain` → **EINEN ANTEIL SETZEN**;
+- `qokaiin/okaiin` → **EINEN WERT SETZEN**;
 - `lchedy` → **WEITER UMSETZEN; SCHLUSS**;
 - `cfhy` → **NEHMEN · NEBENADRESSE · AKTIVER POSTEN**; *auswringen* is local;
 - `cphy` → **NEHMEN · EINSETZEN · AKTIVER POSTEN**; *nachseihen* is local;
@@ -324,7 +336,7 @@ balneorum et temporum caelestium*.
 Portable sequence:
 
 > STELLEN · HALTEN · FORTSETZEN | HALTEN · AUSFÜHREN · ZIEL |
-> NEHMEN · NEBENADRESSE · POSTEN | HALTEN · POSTEN · MASS |
+> NEHMEN · NEBENADRESSE · POSTEN | HALTEN · POSTEN · WERT |
 > NEHMEN · EINSETZEN · POSTEN | HALTEN · GRAD I · POSTEN |
 > STELLEN · NEHMEN · AUSFÜHREN · SCHLUSS
 
@@ -377,6 +389,10 @@ comparison set.
 
 ## Primary artifacts
 
+- Current Pass-1019 four-image/28-context audit of WERT, ANTEIL and EINHEIT,
+  with twelve central readings, sixteen independent counterreadings, builder,
+  and validator:
+  `sidequest_semantic_four_register_visual_core_check_one_thousand_nineteenth/`;
 - Current Pass-1018 76-context cross-register audit, revised 19-core
   dictionary, complete revised 627-statement literal edition, updated future
   predictions, builder, and validator:

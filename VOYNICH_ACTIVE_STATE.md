@@ -1,12 +1,12 @@
 # Voynich active state — structural reset baseline
 
-Updated: 2026-08-25. This is the full claim registry. For routine work, read
+Updated: 2026-08-26. This is the full claim registry. For routine work, read
 `VOYNICH_CURRENT_ROUTE.md` first and open only the relevant sections here and in
 `experiments/semantic_assumptions/ACTIVE_EXPERIMENT_LEDGER.tsv`.
 
 ## Outcome
 
-### Noncanonical twenty-two-page sidequest (Pass 1018)
+### Noncanonical twenty-two-page sidequest (Pass 1019)
 
 The creative workshop sidequest covers twenty-two admitted physical pages with
 4,581 visible groups: 3,888 running prose/ring-text groups plus 693 local
@@ -27,8 +27,8 @@ global hydraulic network. Direct image work reads f88r as sixteen ingredient
 labels in rows of six, six, and four under three silent vessel owners; no plant
 species is forced. Seventy recurrent root compositions now form a second
 apprentice drawer covering 287 events without enlarging the root inventory.
-Six inflated or modern atomic glosses have been shortened to MASS, PORTION,
-ANSATZ, STELLEN, MERKEN, and BEGINN. The leading creative book model remains a
+The portable core now uses WERT, ANTEIL, EINHEIT, STELLEN, MERKEN, and BEGINN
+rather than forcing material-specific measures, portions, or preparations. The leading creative book model remains a
 practical sequence of pictured simple materials, vessel preparations, bath/application
 stations, and separate celestial lookup tables: *Liber simplicium,
 compositionum, balneorum et temporum caelestium*. These readings remain
@@ -193,8 +193,8 @@ publishes left/right valencies for all 19 portable cores and the complete
 19×19 ordered-pair inventory over 3,888 events and 912 component recipes:
 190 pairs are directly adjacent, 57 occur only with an intervening component,
 and 114 remain unseen. Four direct forms now have fixed first readings for
-future pages: `chain=CH+AIN=eine Portion nehmen`, `pain=P+AIN=eine Portion
-einsetzen`, `paiin=P+AIIN=nach Maß einsetzen`, and `lair=L+AIR=Verbindung im
+future pages: `chain=CH+AIN=einen Anteil nehmen`, `pain=P+AIN=einen Anteil
+einsetzen`, `paiin=P+AIIN=einen Wert einsetzen`, and `lair=L+AIR=Verbindung im
 bezeichneten Lauf`. `CH…AIN` already has three gapped supports and `P…AIIN`
 one; the direct forms are all absent. A conflict must become a local/whole-card
 exception or invalidate the pairing, never silently redefine a core.
@@ -209,6 +209,16 @@ table value, sector share, and entry group without metaphorical apparatus.
 All 627 statements and 3,888 events retain surfaces, components, owners,
 channels, grades and endings. The four future direct forms update accordingly
 to Anteil nehmen/einsetzen, Wert einsetzen, and Verbindung im Lauf.
+
+Pass 1019 manually checks those three revised cores against four already
+admitted original images: f13r, f75r, f67r2, and f88r. Twelve central contexts
+and sixteen independent counterreadings converge. `OR=EINHEIT` is clearly
+better than universal *Ansatz*; `AIN=ANTEIL` expands naturally to plant part,
+station share, celestial sector, or ingredient post; and `AIIN=WERT` remains a
+safe portable top value even where neither a number nor a physical measure is
+drawn. The images supply local arguments, not a second dictionary. No new
+root is added. P1009-S075 is specifically repaired by removing *nach Maß*,
+because its component sequence contains no AIIN.
 
 - The manuscript is **not translated**. There are zero confirmed English
   lexemes, zero plaintext clauses, and no established language, phonetic
