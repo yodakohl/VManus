@@ -10904,9 +10904,18 @@ or long at that station. The six roles are a default toolkit, not a fixed
 global machine; no wine, oil, honey or species is added. See
 `sidequest_semantic_workshop_inventory_seven_hundred_thirty_fourth/SEVEN_HUNDRED_THIRTY_FOURTH_REPORT.md`.
 
-Next, place CTH, SH/SHED, CHK and LSH into the toolkit as prepare, rest/settle,
-warm and wash. Prefer one-word roots and preserve whole-card exceptions where
-the apparent spelling family cannot carry one operation.
+Pass 735 consolidates five distinct short process roots: CTH=BEREITEN (8
+cards/15 events), SH=HALTEN (20/25), SHED=ABSETZEN (3/15), CHK=WAERMEN (4/7),
+LSH=WASCHEN (2/3), for35 cards/63 events. Fifteen canonical grade/endpoint
+cells compose directly; only2 cards combine SH+CTH sequentially. Similar forms
+are not merged: SH≠SHED and CHK≠CKH. The old sentence-sized `shey = bis die
+Flüssigkeit klar abläuft` is retired; `cheey|shey` and `sheey` are simply
+SH+EE+Y, “diesen Posten lange halten”. See
+`sidequest_semantic_process_verbs_seven_hundred_thirty_fifth/SEVEN_HUNDRED_THIRTY_FIFTH_REPORT.md`.
+
+Next, build the transfer/application cross L, P, R and T: weiterleiten,
+einfüllen, kühlen and anwenden. Test them against source, target site, current
+item and close, and shorten any remaining sentence-sized gloss.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
