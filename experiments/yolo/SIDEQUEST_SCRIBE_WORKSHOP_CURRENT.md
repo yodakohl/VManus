@@ -11626,6 +11626,18 @@ Next, insert the three predicted CHK cells into full statements, then test
 whether SHED is better read as the result state ABGESETZT than as the command
 ABSETZEN. Compare its endpoint-heavy cells with the surrounding process order.
 
+Pass 802 inserts all three missing CHK cells into two real statement frames.
+`chkedy` yields "kurz wärmen; Schluss" on f83r; `chkeeey` (alternate
+`cheeeky`) yields "vollständig wärmen" while keeping the item active on f55v;
+and `chkeeedy` yields "vollständig wärmen; Schluss" on f83r. The four proposed
+surfaces are absent from the fixed pages, and every owner, surrounding event
+and endpoint remains fixed. See
+`sidequest_semantic_warming_insertions_eight_hundred_second/EIGHT_HUNDRED_SECOND_READABLE_INSERTIONS.md`.
+
+Next, re-read all15 SHED events as action ABSETZEN versus result-state
+ABGESETZT/STEHENGELASSEN. Prefer the version that makes the surrounding
+instruction order simpler, and keep a single short dictionary value.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
