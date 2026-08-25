@@ -11911,6 +11911,17 @@ amount distinction instead of collapsing into AIN. See
 Next, pressure-test AR=QUELLE, CKH=DURCHLASS, AL=ZIELSTELLE and
 SOLK=SAMMELSTELLE, especially whether SOLK is portable or owner-local.
 
+Pass 826 revises `SOLK` from the place noun SAMMELSTELLE to the operation
+`SAMMELN`. The noun forced every fluent reading to insert an invisible HALTEN;
+the verb directly composes all five recipes/seven events: dies sammeln, kurz
+sammeln, laenger sammeln, bis zum Sollmass sammeln, and laenger sammeln plus
+close. AR/CKH/AL remain origin/path/target; SOLK leaves the place ladder and
+joins the operation inventory. See
+`sidequest_semantic_solk_collect_eight_hundred_twenty_sixth/EIGHT_HUNDRED_TWENTY_SIXTH_REPORT.md`.
+
+Next, integrate T=BEARBEITEN, P=EINBRINGEN and SOLK=SAMMELN into a seventh
+complete grammar, including all affected statements and unseen predictions.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
