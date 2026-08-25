@@ -11093,9 +11093,16 @@ output cards362→364/381. Seven triggers fix seven statements with no harm and
 no semantic/deck change. See
 `sidequest_semantic_minimal_local_packing_seven_hundred_fifty_fourth/SEVEN_HUNDRED_FIFTY_FOURTH_REPORT.md`.
 
-Next, resolve only the two segmentation/redistribution cases: B1-S006 must
-split `L+CKH+Y` as `CKH+Y | L`; B4-S002 must move OL and the active Y slot
-between neighboring cards. Then attack the three small phrase reorders.
+Pass 755 resolves the two segmentation cases without a new meaning. B1-S006
+splits `L+CKH+Y` into `CKH+Y | L` with identical components; B4-S002 moves OL
+onto the current-item card and fills the long activation with the established
+Y slot. Exact recipes rise104→106/116, equal card counts108→109, and output
+cards364→365/381. See
+`sidequest_semantic_segmentation_redistribution_seven_hundred_fifty_fifth/SEVEN_HUNDRED_FIFTY_FIFTH_REPORT.md`.
+
+Next, resolve the three small phrase reorders H4-S001,H5-S003,B3-S032 as
+complete local constructions. After that, only the seven large learned
+formulas should remain.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
