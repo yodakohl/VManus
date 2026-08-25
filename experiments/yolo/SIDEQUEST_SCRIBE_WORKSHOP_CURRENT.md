@@ -12111,7 +12111,18 @@ the deterministic frequency/surface ordering is rank35,
 `sidequest_semantic_third_frequency_tier_eight_hundred_forty_second/EIGHT_HUNDRED_FORTY_SECOND_REPORT.md`.
 
 Next, read ranks31–40 as the first mixed tier and verify that DAVON performs the
-same anaphoric resumption in both its Herbal and Biological occurrences.
+same anaphoric resumption in both Herbal occurrences, f11r and f56r. The earlier
+Herbal/Biological wording was a planning error.
+
+Pass 843 finds nine composed cards and one memorized whole card in ranks31–40.
+Their20 events span18 statements,10 records and all7 prose pages; top40
+cumulative coverage is237/381 (62.2%). `dchol/schol=DAVON` resumes the current
+prepared material in both distinct Herbal records H3 and H5. It is therefore a
+useful learned anaphor inside the productive system. See
+`sidequest_semantic_first_mixed_tier_eight_hundred_forty_third/EIGHT_HUNDRED_FORTY_THIRD_REPORT.md`.
+
+Next, inspect ranks41–60, record the composed/bound/whole proportions, and keep
+every whole-card value short and invariant.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
