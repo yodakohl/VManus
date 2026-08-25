@@ -323,7 +323,7 @@ def main() -> None:
         {
             "rule_id": "P1023-5",
             "name": "AR_AL_OWNER_DEFAULT",
-            "instruction_de": "Nacktes AR/AL ohne linken Kopf und ohne Q/OT/L/AIR-Lizenz bleibt Ausgang/Zielort des sichtbaren Besitzers.",
+            "instruction_de": "Nacktes AR/AL ohne linken, laufenden oder gleichkarten-rechten Kopf und ohne Q/OT/L/AIR-Lizenz bleibt Ausgang/Zielort des sichtbaren Besitzers.",
             "selected_occurrences": 19,
         },
         {

@@ -1,0 +1,80 @@
+{
+  "result": "PASS_ALL_TWELVE_PAGES_REPLAY_WITH_OTHER_PAGE_RULE_SUPPORT",
+  "scope": {
+    "biological_pages": [
+      "f75r",
+      "f76r",
+      "f77r",
+      "f81v",
+      "f82r",
+      "f83r"
+    ],
+    "celestial_pages": [
+      "f67r2",
+      "f68r1",
+      "f69v",
+      "f70v",
+      "f71v",
+      "f72r"
+    ]
+  },
+  "counts": {
+    "pages": 12,
+    "running_pages": 10,
+    "label_only_pages": 2,
+    "running_events": 2684,
+    "statements": 559,
+    "scope_attachments": 3096,
+    "resolved_attachments": 270,
+    "changed_attachments": 125,
+    "label_address_rows": 358,
+    "full_replay_rows": 3454,
+    "new_rule_required_rows": 0,
+    "page_private_exact_attachment_signatures": 6,
+    "page_private_atomic_attachment_rules": 5,
+    "page_private_rule_families": 0
+  },
+  "page_verdicts": {
+    "f75r": "PASS_WITHIN_PANEL_SHARED_RULES",
+    "f76r": "PASS_WITHIN_PANEL_SHARED_RULES",
+    "f77r": "PASS_WITHIN_PANEL_SHARED_RULES",
+    "f81v": "PASS_WITHIN_PANEL_SHARED_RULES",
+    "f82r": "PASS_WITHIN_PANEL_SHARED_RULES",
+    "f83r": "PASS_WITH_OTHER_PANEL_RULE_SUPPORT",
+    "f67r2": "PASS_WITHIN_PANEL_SHARED_RULES",
+    "f68r1": "PASS_WITHIN_PANEL_SHARED_RULES",
+    "f69v": "PASS_OWNER_ADDRESS_ONLY_GATE",
+    "f70v": "PASS_OWNER_ADDRESS_ONLY_GATE",
+    "f71v": "PASS_WITHIN_PANEL_SHARED_RULES",
+    "f72r": "PASS_WITH_OTHER_PANEL_RULE_SUPPORT"
+  },
+  "same_panel_exceptions": {
+    "f83r": "TRUE_OPEN_END",
+    "f72r": "OWNER_ADDRESS_FALLBACK"
+  },
+  "page_private_exact_attachment_signatures": {
+    "GRADE_TO_NEXT_COMPATIBLE_HEAD": "f67r2",
+    "OPENING_ARGUMENT_TO_NEXT_Q_PACKET": "f67r2",
+    "FORWARD_RELATION_FRAME": "f77r",
+    "R4_TAIL_BEFORE_OL": "f81v",
+    "CLOSE_OPEN_HEAD_BEFORE_NEXT_HEAD+R1_HEAD_WITH_LOCAL_RIGHT": "f82r",
+    "R1_HEAD_IN_RIGHT_FRAME": "f82r"
+  },
+  "guards": {
+    "attachments": "GUARD_STATS {\"selected\": 3096, \"skipped_forbidden\": 0, \"skipped_not_allowed\": 1249}",
+    "statements": "GUARD_STATS {\"selected\": 559, \"skipped_forbidden\": 0, \"skipped_not_allowed\": 68}",
+    "events": "GUARD_STATS {\"selected\": 2684, \"skipped_forbidden\": 0, \"skipped_not_allowed\": 1204}",
+    "labels": "GUARD_STATS {\"selected\": 358, \"skipped_forbidden\": 0, \"skipped_not_allowed\": 192}"
+  },
+  "selected_input_hashes": {
+    "attachments": "8bf4885f55219c7aeca5bc9dca651b68c529b253af979525d010221cd4281a2a",
+    "statements": "b5f9799c5cd36aeab354dab0b7079e14765cd4ae791eee5ed230e3f9f23ab66b",
+    "events": "aefbe4309ce7baa04fd263cae673f4d7a0ce3181f15e8aead3f0a1ef9a31a826",
+    "labels": "077c2c9b3b98e0a432deba135948327f4af6f2c53c0a5e9c25a9e0f88e8cbbc6"
+  },
+  "output_hashes": {
+    "BIO_CELESTIAL_REPLAY_FULL.tsv": "c43dfff04260e295dd0e6c484f384d5d9b2a716be3aa9caa41197de65eb956c8",
+    "BIO_CELESTIAL_REPLAY_PAGE_SUMMARY.tsv": "cd68fd808891388de1a5662de82496d41434c9e82fbff4f22d146444661b23b1",
+    "BIO_CELESTIAL_REPLAY_RULE_SUPPORT.tsv": "b4df836022939bcf9ae9dbd5ce1f557e9aeee55b3e742ef68963ac69c2fca9ed"
+  }
+}

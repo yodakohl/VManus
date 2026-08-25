@@ -41,7 +41,8 @@ BESITZER
 1. Längste gelernte Karte und Doppelpaket zuerst öffnen.
 2. Mehrere Köpfe verschachteln; der äußere Kopf bleibt nach Kartenende offen.
 3. Argument oder Grad nimmt den nächsten Kopf; bei gleicher Entfernung links.
-4. `AL/AR` nimmt links, sonst den Besitzer. `L/AIR` nimmt rechts, sonst den
+4. `AL/AR` nimmt links, dann laufend, dann den einzigen Kopf derselben Karte
+   rechts und erst danach den Besitzer. `L/AIR` nimmt rechts, sonst den
    linken/laufenden Kopf oder genau eine folgende Karte.
 5. Fehlt am Paketanfang ein Kopf, höchstens bis zur unmittelbar nächsten Karte
    im selben Besitzersegment vorauslesen.

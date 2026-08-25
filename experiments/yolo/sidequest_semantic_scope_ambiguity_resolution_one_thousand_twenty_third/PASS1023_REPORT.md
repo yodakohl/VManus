@@ -33,8 +33,9 @@ Das wäre zu grob und scheitert im Vollinventar viermal klar:
 Die haltbare Regel ist kleiner:
 
 > Argument und Grad nehmen den nächsten Kopf; nur bei Gleichstand gewinnt
-> links. `AL/AR` bevorzugen links beziehungsweise den offenen Besitzer.
-> `L/AIR` bevorzugen rechts und fallen nur ohne rechten Kopf zurück.
+> links. `AL/AR` nehmen zuerst links, dann den laufenden Kopf, dann den
+> einzigen Kopf derselben Karte rechts und erst danach den Besitzer. `L/AIR`
+> bevorzugen rechts und fallen nur ohne rechten Kopf zurück.
 
 Auf allen 4.345 Fokusanschlüssen stimmt diese örtliche Regel in 3.100/3.100
 direkt prüfbaren Fällen. 1.245 kopflose Fälle sind keine Gegenbeispiele,
@@ -78,9 +79,11 @@ aufgenommen hat.
 
 ## Griff 3 — `AR/AL` können am Bildbesitzer hängen
 
-Die 19 Gegenfälle sind genau nackte `AR/AL`-Adressen ohne linken oder
-geerbten Kopf und ohne `Q/OT/L/AIR` als Rechtsrahmen. Sie bleiben beim
-sichtbaren Besitzer.
+Die 19 Gegenfälle sind genau nackte `AR/AL`-Adressen ohne linken, geerbten
+oder gleichkarten-rechten Kopf und ohne `Q/OT/L/AIR` als Rechtsrahmen. Sie
+bleiben beim sichtbaren Besitzer. Der Vollcheck ergänzt genau einen anderen
+Fall: `AL+CHD+DY` besitzt links und im Eintrittsstapel keinen Kopf; deshalb
+nimmt der einzige Kopf derselben Karte rechts das `AL` auf.
 
 Das lässt sich sogar innerhalb einer Karte sehen:
 
@@ -119,7 +122,8 @@ ist eine Scope-Korrektur, keine Umdeutung von `R`.
 
 1. Längstes Kartenpaket und Pass-1021-Doppelung zuerst öffnen.
 2. Argument/Grad an den nächsten Kopf; bei Gleichstand links.
-3. `AL/AR` links oder beim Besitzer; `L/AIR` rechts, sonst Rückfall.
+3. `AL/AR` links, laufend, gleichkarten-rechts oder beim Besitzer; `L/AIR`
+   rechts, sonst Rückfall.
 4. Kopflose Pakete höchstens eine Karte im selben Besitzersegment vorauslesen.
 5. `Q` pusht, `OT` wechselt Geschwister, `OL` führt fort,
    `VORBEZUG` restauriert und lizenziertes `DY` schließt.
@@ -133,8 +137,8 @@ mehrere Karten oder über eine echte Besitzergrenze verlangen.
 ## Woran die Fassung auf einer neuen Seite scheitern würde
 
 - bekannte Argumente brauchen regelmäßig mehr als eine Karte Vorgriff;
-- `AR/AL` müssen ohne Rahmen systematisch an einen rechten Kopf statt an den
-  Besitzer;
+- `AR/AL` müssen systematisch die Reihenfolge links → laufend →
+  gleichkarten-rechts → Besitzer verletzen;
 - `L/AIR` müssen trotz vorhandenem rechten Kopf systematisch links hängen;
 - `R` verlangt eine vierte, nicht positionsabhängige Funktion;
 - eine echte Bild-/Proseblockgrenze wird von der Klammerung überlaufen;

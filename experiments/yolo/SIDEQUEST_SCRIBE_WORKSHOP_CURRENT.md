@@ -1,12 +1,13 @@
 # Current twenty-two-page scribe-workshop theory
 
-Updated: 2026-08-26, after Pass 1023.
+Updated: 2026-08-26, after Pass 1024.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
-translation**. This is the compact handoff for the sidequest. Pass 1023 gives
-all 627 statements a selected owner–package–action–argument scope reading,
-four local channels, a forward compiler, and 19 fixed working core values that
-each occur in all four registers.
+translation**. This is the compact handoff for the sidequest. Pass 1024 replays
+every admitted page as a new workshop leaf and finds no page-private coarse
+scope rule. All 627 statements retain their selected owner–package–action–
+argument reading, four local channels, forward compiler, and 19 fixed working
+core values that each occur in all four registers.
 
 ## Fixed scope
 
@@ -309,10 +310,27 @@ Pass-1022 attachments but no surface, root value, owner or statement.
 
 A whole-inventory reread prevents overcompression: the tempting rule “every
 non-L/AIR addition goes left” fails at four cards whose right head is closer.
-The retained rule is **nearest head, left only on a tie**; `AL/AR` prefer left
-or owner, while `L/AIR` prefer right and otherwise fall back. It agrees with
-all 3,100 locally testable attachments. The remaining 1,245 headless positions
-use the owner/package stack, with a maximum forward reach of one card.
+The retained rule is **nearest head, left only on a tie**; `AL/AR` use left,
+active, same-card-right, then owner in that order, while `L/AIR` prefer right
+and otherwise fall back. It agrees with all 3,100 locally testable attachments.
+The remaining 1,245 headless positions use the owner/package stack, with a
+maximum forward reach of one card.
+
+Pass 1024 now removes each of the twenty-two admitted pages from its own
+teaching support in turn. All nine coarse scope families survive: none of the
+twenty pages with running text needs a private family. Four exact microforms
+occur only once—nested R on f18r, equal-right and headless AL/AR-right fallback
+on f77r, and equal-left plus R-head on f82r—but all are combinations of
+portable parents. The f77r `AL+CHD+DY` case supplies one real wording repair:
+AL/AR now binds left, then active, then to the only same-card-right head, and
+only then to the owner. No meaning changes.
+
+The replay also shows what novelty actually looks like. Of 3,888 running
+events, 1,029 have no exact surface twin on another page and 548 have a
+page-private component recipe. All still use atoms on the fixed sheet. A new
+surface or new rooted composition is therefore expected on the next pages; a
+new meaning for a known core or a new coarse attachment rule is not. f69v and
+f70v remain address-only even where their labels contain action-like atoms.
 
 ## Constrained semantic pocket dictionary
 
@@ -445,6 +463,10 @@ comparison set.
 
 ## Primary artifacts
 
+- Current Pass-1024 twenty-two-door replay, all 4,345 attachment holdouts,
+  3,888 event replays, page/rule/microform tables, two independent panel
+  reports, the next-four-page admission sheet, builder and validator:
+  `sidequest_semantic_leave_one_page_apprentice_replay_one_thousand_twenty_fourth/`;
 - Current Pass-1023 complete resolution of all 328 former scope alternatives,
   4,345-attachment edition, 627-statement edition, six-rule sheet, full
   generalization audit, three independent branch reports, builder and
@@ -545,9 +567,8 @@ comparison set.
 
 ## Next work
 
-Run a leave-one-page-out apprentice replay: treat each of the twenty-two
-admitted pages once as if it were the next new page, use only the fixed
-19-core/8-control/4-channel sheet plus the six Pass-1023 scope rules, and count
-where a page still needs its local owner or learned whole card. No core may be
-retuned during that replay. The result becomes the admission sheet for the
-next four pages; no additional page is needed yet.
+Wait for the user to release the next four pages, then apply
+`PASS1024_NEXT_FOUR_PAGE_ADMISSION_SHEET.md` unchanged to all four before any
+dictionary repair. Count exact transfers, new rooted surfaces, local addresses,
+isolated `NEW_LOCAL_CARD` cases and red failures separately. Do not alter the
+sheet until the whole four-page batch has been read.

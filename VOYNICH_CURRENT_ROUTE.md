@@ -8,7 +8,7 @@ HIER, VARIANTE, KLASSE and VORBEZUG. Of 3,888 running events, 3,343 use the
 portable core, 490 require a local sign and 55 are control-only. A new
 composition must keep the fixed core sum; conflicts cannot be rescued by
 redefining roots.
-Pass 1023 operationally selects all 328 formerly open owner–package–action–argument attachments without changing a core: 127 bounded one-card forward bindings, 19 owner-bound AR/AL addresses, 120 equal-distance choices and 63 positional R choices with one overlap. A whole-inventory check rejects the tempting blanket-left rule at four counterexamples; the surviving rule is nearest head, left only on ties, while L/AIR frame right. Multi-head cards nest, Q pushes, OT switches, VORBEZUG restores and licensed DY closes; line/image wrap alone does not reset. Cross-register and four-image rereading still keep `AIIN=WERT`, `AIN=ANTEIL`, and `OR=EINHEIT`; pictures supply the local expansion.
+Pass 1024 replays every admitted page as the next workshop leaf. All nine coarse scope families survive every page holdout and no running page needs a private family; four single-occurrence microforms combine already portable parents. The replay also corrects AL/AR to left→active→same-card-right→owner. Exact surface novelty is normal (1,029/3,888 events) and 548 events use a page-private recipe, but every atom remains on the fixed sheet. f69v/f70v stay address-only. The next four real pages must keep all 19 core values and these scope rules; new local names and rooted surfaces are allowed, semantic retuning is not.
 ## Scientific ceiling
 
 - The manuscript is **not translated**.

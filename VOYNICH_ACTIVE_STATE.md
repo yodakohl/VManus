@@ -6,7 +6,7 @@ Updated: 2026-08-26. This is the full claim registry. For routine work, read
 
 ## Outcome
 
-### Noncanonical twenty-two-page sidequest (Pass 1023)
+### Noncanonical twenty-two-page sidequest (Pass 1024)
 
 The creative workshop sidequest covers twenty-two admitted physical pages with
 4,581 visible groups: 3,888 running prose/ring-text groups plus 693 local
@@ -264,11 +264,24 @@ Altogether 143 attachments change from the provisional Pass-1022 default.
 The full 4,345-attachment audit also rejects an initially tempting blanket
 rule: attaching every non-L/AIR focus to the left contradicts four cards whose
 right head is nearer. The retained apprentice rule is therefore nearest head,
-left only on a tie; `AL/AR` prefer left or visible owner, while `L/AIR` prefer
-right and otherwise fall back. It matches all 3,100 locally testable
+left only on a tie; `AL/AR` use left, active, same-card-right, then owner in
+that order, while `L/AIR` prefer right and otherwise fall back. It matches all 3,100 locally testable
 attachments; 1,245 headless positions are handled by the owner/package stack.
 No later page may require a known core to change meaning, a headless package to
 look ahead more than one card, or a scope jump across a true owner boundary.
+
+Pass 1024 then treats each admitted page once as the next workshop leaf. All
+nine coarse attachment families have support on at least one other page; none
+of the twenty running pages requires a private coarse rule. Four single
+microforms are page-private—f18r nested R, f77r equal-right and the headless
+AL/AR same-card-right fallback, and f82r equal-left plus R-head—but each is a
+composition of otherwise portable parents. The f77r case corrects the short
+AL/AR rule to left → active → only same-card-right → owner without changing a
+core value. Of 3,888 running events, 1,029 have a page-private exact surface
+and 548 a page-private atom recipe, yet every atom stays on the apprentice
+sheet. Thus future-page admission must allow new rooted forms while refusing
+new meanings for known roots or new coarse scope rules. f69v/f70v remain pure
+address copying and do not open a prose stack.
 
 - The manuscript is **not translated**. There are zero confirmed English
   lexemes, zero plaintext clauses, and no established language, phonetic
