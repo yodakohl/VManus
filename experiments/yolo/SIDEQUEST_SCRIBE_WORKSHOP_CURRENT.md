@@ -11818,6 +11818,19 @@ Next, resolve the final singleton whole card `talam` in its complete context.
 Compare AUFBEWAHREN, BEISEITESTELLEN, IN DAS GEFAESS, RUHEN LASSEN and a copied
 source label, then publish the sixth compact grammar.
 
+Pass 818 revises the single `talam` from long-term VERWAHREN to the shorter
+whole operation `BEISEITESTELLEN`. Its complete f55v sequence is now
+`SOLLMASS · UMSETZEN · BEISEITESTELLEN`, after which a new addition/extraction
+statement begins under the same plant owner. AUFBEWAHREN assumes a longer time
+horizon, RUHEN duplicates SHED, a container is not shown, and BEENDEN merely
+duplicates the attached close. The tempting surface split T+AL+AM is rejected
+because AM has no independent dictionary entry. See
+`sidequest_semantic_talam_set_aside_eight_hundred_eighteenth/EIGHT_HUNDRED_EIGHTEENTH_REPORT.md`.
+
+Next, integrate OS=DAZU, RESUME=DAVON and TALAM=BEISEITESTELLEN into a sixth
+complete 173-card/381-event/116-statement grammar and print the remaining
+exception inventory explicitly.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
