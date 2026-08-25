@@ -12780,6 +12780,20 @@ to name phase, aspect, direct-place, numbered-place, moisture/weather and
 light/body-quality roles without importing planet, sign or month names. Retain
 the complete six surface sequences and make every condition mark speakable.
 
+Pass 897 gives all73 WHEN marks short local words. C1 now speaks in phase
+entries, C2 in an aspect path, C3 in a direct star-place, C4 in a marked 28-slot,
+C5 in moisture/weather states and C6 in light/body qualities. All437 marks and
+all118 units are now speakable; no model-copy action remains. See
+`sidequest_semantic_speakable_condition_lexicon_eight_hundred_ninety_seventh/EIGHT_HUNDRED_NINETY_SEVENTH_SPEAKABLE_CONDITION_BOOK.md`.
+
+Next, compare every repeated surface and visible component shared between the
+364 prose marks and the73 condition marks. Prefer one portable short root where
+the two local readings can be reduced without losing their useful specialization:
+for example LAUF under water-flow and light-flow, STELLE under work-place and
+condition-place, MASS under working measure and moisture measure, and CURRENT
+under prose item and current condition. Revise the condition lexicon where this
+creates a more coherent ten-page grammar, but keep genuinely local whole words.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
