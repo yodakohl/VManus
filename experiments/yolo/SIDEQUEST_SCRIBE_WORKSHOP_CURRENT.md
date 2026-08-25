@@ -11599,6 +11599,20 @@ Next, attack the16-value recurrent rule strip. Compare CH/SH/CTH and O/OR/HO
 over shared tails to find the next real multi-member paradigm; retain any value
 whose apparent family does not preserve a short atomic meaning.
 
+Pass 800 separates the two tempting groups. CH/SH/CTH forms one complete
+action-choice paradigm under the identical `E+Y` tail: `dchey` = kurz dies
+entnehmen, `tshey` = kurz dies halten, and `qcthey/shcthey` = kurz dies
+bereiten. Four source events give twelve owner-preserving readbacks, so these
+three values join the productive core18. O/OR/HO does not form the same kind of
+paradigm: O=VORGANG, OR=ANSATZ and HO=ZUTAT co-occur inside three cards and
+therefore occupy distinct grammatical levels. They remain separate strip
+values. See
+`sidequest_semantic_recurrent_strip_eight_hundredth/EIGHT_HUNDREDTH_REPORT.md`.
+
+Next, compare SHED, CHK, P and LSH under shared grade and endpoint tails. Seek
+another compact verb-choice deck; do not force cards with different argument
+or closure structures into one paradigm.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
