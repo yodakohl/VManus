@@ -11585,6 +11585,20 @@ slot axes, learned whole cards, hand/allograph rules and unattested predictions.
 Reparse the full381-event prose against it and flag every card whose reading is
 still supplied only by a memorized whole-card entry.
 
+Pass 799 publishes that second grammar:39 components split into15 paradigm
+cores,16 recurrent rule-strip values,1 bound variant,4 local singletons and3
+whole commands. All173 cards,381 events and116 statements rebuild exactly.
+Productive/bound composition supplies166 cards/373 events; the core15 touches
+161 cards/358 events and fully composes76/237. Only `os`, `dchol/schol` and
+`talam` remain whole memorized commands (3 cards/4 events). Eight renderer
+rules and56 unique unattested prediction surfaces are kept separate from the
+observed edition. See
+`sidequest_semantic_second_workshop_grammar_seven_hundred_ninety_ninth/SEVEN_HUNDRED_NINETY_NINTH_ONE_PAGE_GRAMMAR.md`.
+
+Next, attack the16-value recurrent rule strip. Compare CH/SH/CTH and O/OR/HO
+over shared tails to find the next real multi-member paradigm; retain any value
+whose apparent family does not preserve a short atomic meaning.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
