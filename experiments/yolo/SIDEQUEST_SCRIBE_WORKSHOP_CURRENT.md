@@ -11062,10 +11062,17 @@ triggers give three whole-statement fixes and no harm; no meaning or deck card
 changes. See
 `sidequest_semantic_current_preparation_formula_seven_hundred_fiftieth/SEVEN_HUNDRED_FIFTIETH_REPORT.md`.
 
-Next, complete the measure/address family. Separate three functions before
-writing rules: measured-item brackets, activation-followed-by-measure, and
-continuation-around-measure. Use full neighboring recipe context so AIIN is
-never copied as a free register.
+Pass 751 completes three measure/address phrases while keeping AIIN=SOLLMASS.
+H3-S003 expands a resumed measured addition into a Y-bracket; B2-S012 restates
+the measured item before a full close; B3-S030 uses operation-first
+`OK+Y | AIIN`. Exact recipes rise90→93/116, equal card counts101→103, and
+output cards353→357/381. Three full-context triggers fix three statements with
+no harm. See
+`sidequest_semantic_measure_address_formula_seven_hundred_fifty_first/SEVEN_HUNDRED_FIFTY_FIRST_REPORT.md`.
+
+Next, close the continuation family. Derive full contexts for `AL | OL`,
+`OL | SHED+DY`, `OL+K+AIN | AL`, and `OL+OR | OL`; distinguish address
+bridges, preparation bridges, and terminal continuation cadence.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these

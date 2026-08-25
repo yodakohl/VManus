@@ -1,0 +1,4 @@
+rule_id	function	trigger_recipe_sequence	replacement_recipe_sequence	reading_de	explanation	trigger_count	statement_ids	newly_fixed	newly_harmed	retain_rule
+R1_RESUMED_MEASURED_ADDITION	MEASURED_ITEM_BRACKET	RESUME_CARD | Y+K+AIIN	RESUME_CARD | Y | K+Y | Y | AIIN	WIEDERAUFNEHMEN | DIES | DIES ZUGEBEN | DIES | SOLLMASS	the resumed item is written before, inside and after the addition command	1	H3-S003	1	0	YES
+R2_MEASURED_ITEM_BEFORE_FULL_CLOSE	MEASURED_ITEM_BRACKET	AIIN | OK+EEE+DY	AIIN | Y | OK+EEE+DY	SOLLMASS | DIES | VOLL ANSETZEN; SCHLUSS	the measured item is restated before the fully closed activation	1	B2-S012	1	0	YES
+R3_ACTIVATE_THEN_MEASURE_BEFORE_WATER_TRANSFER	ACTIVATION_FOLLOWED_BY_MEASURE	Y | OK+AIIN | CHD+AIR | OT+CHD+DY	OK+Y | AIIN | CHD+AIR | OT+CHD+DY	DIES ANSETZEN | SOLLMASS | WASSER UMSETZEN | DANACH UMSETZEN; SCHLUSS	operation-headed packing places the item with OK and writes the measure separately	1	B3-S030	1	0	YES
