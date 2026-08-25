@@ -11207,11 +11207,19 @@ no copy fires at owner-reset events E203,E264,E291,E356. This cleanly separates
 the planned card stream from physical-page rendering. See
 `sidequest_semantic_source_render_compiler_seven_hundred_sixty_seventh/SEVEN_HUNDRED_SIXTY_SEVENTH_REPORT.md`.
 
-Next, build a bounded physical-line packer for all known intra-statement line
-transitions. Use card widths, remaining line space, owner continuity and close
-status to explain why only E180 receives an anticipatory copy. If space alone
-cannot select it, keep a local master-layout instruction instead of inventing a
-universal catchword rule.
+Pass 768 tests whether ordinary line space can generate that edge copy. Using a
+simple visible-character width proxy across all19 intra-statement line
+transitions, the next card would fit at9 boundaries. Space alone therefore
+produces8 false copies; adding same-owner/no-close still leaves6. Same-card
+identity diagnoses LT06 only after the page exists, so it is circular as a
+forward rule. The honest forward mechanism remains one non-general Bio model-
+sheet license for f82r.3→f82r.4. See
+`sidequest_semantic_line_packer_seven_hundred_sixty_eighth/SEVEN_HUNDRED_SIXTY_EIGHTH_REPORT.md`.
+
+Next, add the single local edge-copy license to the Bio curriculum, update
+scribe hours and build a revised pocket manual. Keep it out of the Herbal and
+Astro modules. Then retest all four practical exams and the380→381 renderer
+under the revised role permissions.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
