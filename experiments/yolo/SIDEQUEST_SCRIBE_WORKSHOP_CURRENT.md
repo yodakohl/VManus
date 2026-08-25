@@ -11723,6 +11723,19 @@ Next, publish the fourth full grammar, quantify complete core composition, and
 then attack the four owner-local singleton values CFH, S, DA and LD one at a
 time.
 
+Pass 810 publishes the fourth grammar. Its39 components are31 productive
+cores,1 bound value,4 local singletons and3 whole commands. All173 cards,381
+events and116 statements rebuild; core31 touches170 cards/377 events and fully
+composes165/372. The remainder is exactly8 cards/9 events. Seventy prediction
+input rows deduplicate to69 unseen surfaces because `solkeeey` already had an
+older grade-board proposal. See
+`sidequest_semantic_fourth_workshop_grammar_eight_hundred_tenth/EIGHT_HUNDRED_TENTH_ONE_PAGE_GRAMMAR.md`.
+
+Next, attack the four singleton components in order: CFH in `cfhy`, S in
+`ches`, DA in `daiiin`, and LD in `qokylddy`. Compare each to an existing core
+role inside its full sentence; promote or absorb only when the reading becomes
+simpler.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
