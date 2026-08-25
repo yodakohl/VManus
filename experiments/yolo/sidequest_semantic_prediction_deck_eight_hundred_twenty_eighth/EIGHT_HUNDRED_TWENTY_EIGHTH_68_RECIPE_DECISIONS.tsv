@@ -1,0 +1,69 @@
+component_recipe	reading_de	surface_candidates	surface_candidates_n	selection_status	recipe_rank	selection_reason	source_passes
+CFH+DY	AUSPRESSEN · SCHLUSS	cfhdy	1	HIGH_VALUE_DECK	1	close the observed pressing operation	PASS811_CFH_GRID
+CFH+E+Y	AUSPRESSEN · KURZ · DIES	cfhey	1	HIGH_VALUE_DECK	2	nearest short open pressing cell	PASS811_CFH_GRID
+CFH+E+DY	AUSPRESSEN · KURZ · SCHLUSS	cfhedy	1	HIGH_VALUE_DECK	3	nearest short closed pressing cell	PASS811_CFH_GRID
+CHK+E+DY	WAERMEN · KURZ · SCHLUSS	chkedy	1	HIGH_VALUE_DECK	4	missing short closed warming cell	PASS801_CHK_GRID
+OK+EEE+Y	ANSETZEN · VOLL · DIES	chokeeey|qokeeey	2	HIGH_VALUE_DECK	5	missing open counterpart to full activation	PASS789_GRADE_HAND_BOARD
+SH+EEE+Y	HALTEN · VOLL · DIES	cheeey|sheeey	2	HIGH_VALUE_DECK	6	full open hold counterpart	PASS789_GRADE_HAND_BOARD
+SH+EEE+DY	HALTEN · VOLL · SCHLUSS	sheeedy	1	HIGH_VALUE_DECK	7	full closed hold counterpart	PASS789_GRADE_HAND_BOARD
+EE+T+Y	LANG · BEARBEITEN · DIES	cheety|teey	2	HIGH_VALUE_DECK	8	fills middle work grade between short and full	PASS809_T_GRADE
+LSH+E+Y	SPUELEN · KURZ · DIES	lshey	1	HIGH_VALUE_DECK	9	short open rinse counterpart	PASS805_LSH_GRID
+LSH+EE+DY	SPUELEN · LANG · SCHLUSS	lsheedy	1	HIGH_VALUE_DECK	10	long closed rinse counterpart	PASS805_LSH_GRID
+SOLK+E+DY	SAMMELN · KURZ · SCHLUSS	solkedy	1	HIGH_VALUE_DECK	11	short closed collect counterpart	PASS808_SOLK_GRID
+OT+EEE+DY	DANACH · VOLL · SCHLUSS	qoteeedy	1	HIGH_VALUE_DECK	12	full next-step close counterpart	PASS789_GRADE_HAND_BOARD
+CHD+AIIN	UMSETZEN · SOLLMASS	chedaiin	1	HIGH_VALUE_DECK	13	transfer to prescribed measure	PASS790_QUANTITY
+K+AIIN	ZUGEBEN · SOLLMASS	chkaiin|kaiin	2	HIGH_VALUE_DECK	14	add to prescribed measure	PASS790_QUANTITY
+L+AIN	LEITEN · PORTION	chldain|lain	2	HIGH_VALUE_DECK	15	guide one working portion	PASS790_QUANTITY,PASS797_TRANSFER
+CH+O+AIN	ENTNEHMEN · VORGANG · PORTION	chodain	1	HIGH_VALUE_DECK	16	take a process portion	PASS790_QUANTITY
+CTH+AIN	BEREITEN · PORTION	cthain	1	HIGH_VALUE_DECK	17	prepare one portion	PASS790_QUANTITY
+OR+AIIN	ANSATZ · SOLLMASS	oraiin	1	HIGH_VALUE_DECK	18	batch with prescribed measure	PASS790_QUANTITY
+SOLK+AIN	SAMMELN · PORTION	solkain	1	HIGH_VALUE_DECK	19	collect one portion	PASS790_QUANTITY
+OL+K+AIIN	WEITER · ZUGEBEN · SOLLMASS	olkaiin|qolkaiin	2	HIGH_VALUE_DECK	20	continue adding to prescribed measure	PASS790_QUANTITY
+CHD+AR	UMSETZEN · QUELLE	chdar	1	HIGH_VALUE_DECK	21	transfer from source	PASS792_ADDRESS,PASS797_TRANSFER
+L+AL	LEITEN · ZIELSTELLE	lal	1	HIGH_VALUE_DECK	22	guide to target	PASS792_ADDRESS,PASS797_TRANSFER
+L+AIR	LEITEN · WASSER	lair	1	HIGH_VALUE_DECK	23	guide water	PASS797_TRANSFER
+K+HO+AL	ZUGEBEN · ZUTAT · ZIELSTELLE	kchoal	1	HIGH_VALUE_DECK	24	add ingredient at target	PASS792_ADDRESS
+AL+Y	ZIELSTELLE · DIES	chaly	1	PARKED_ADDRESS_STACK	NONE	address order is harder to read than selected directional recipes	PASS792_ADDRESS
+AR+CHD+DY	QUELLE · UMSETZEN · SCHLUSS	darchdy	1	PARKED_ADDRESS_STACK	NONE	address order is harder to read than selected directional recipes	PASS792_ADDRESS
+AR+DY	QUELLE · SCHLUSS	dardy	1	PARKED_ADDRESS_STACK	NONE	address order is harder to read than selected directional recipes	PASS792_ADDRESS
+AR+R+OR	QUELLE · KUEHLEN · ANSATZ	chearror	1	PARKED_ADDRESS_STACK	NONE	address order is harder to read than selected directional recipes	PASS792_ADDRESS
+CFH+EE+DY	AUSPRESSEN · LANG · SCHLUSS	cfheedy	1	PARKED_REDUNDANT_GRID	NONE	useful grid completion but lower value than selected nearest gaps	PASS811_CFH_GRID
+CFH+EE+Y	AUSPRESSEN · LANG · DIES	cfheey	1	PARKED_REDUNDANT_GRID	NONE	useful grid completion but lower value than selected nearest gaps	PASS811_CFH_GRID
+CFH+EEE+DY	AUSPRESSEN · VOLL · SCHLUSS	cfheeedy	1	PARKED_GRADE_LEAP	NONE	full-grade extrapolation without enough neighboring cells	PASS811_CFH_GRID
+CFH+EEE+Y	AUSPRESSEN · VOLL · DIES	cfheeey	1	PARKED_GRADE_LEAP	NONE	full-grade extrapolation without enough neighboring cells	PASS811_CFH_GRID
+CH+CKH+AR	ENTNEHMEN · DURCHLASS · QUELLE	chckhar	1	PARKED_ADDRESS_STACK	NONE	address order is harder to read than selected directional recipes	PASS792_ADDRESS
+CH+E+O+AL	ENTNEHMEN · KURZ · VORGANG · ZIELSTELLE	cheoal	1	PARKED_ADDRESS_STACK	NONE	address order is harder to read than selected directional recipes	PASS792_ADDRESS
+CHD+OL	UMSETZEN · WEITER	chedol	1	PARKED_LOW_VALUE	NONE	formally composable but not needed in compact teaching deck	PASS797_TRANSFER
+CHK+EEE+DY	WAERMEN · VOLL · SCHLUSS	chkeeedy	1	PARKED_GRADE_LEAP	NONE	full-grade extrapolation without enough neighboring cells	PASS801_CHK_GRID
+CHK+EEE+Y	WAERMEN · VOLL · DIES	cheeeky|chkeeey	2	PARKED_GRADE_LEAP	NONE	full-grade extrapolation without enough neighboring cells	PASS789_GRADE_HAND_BOARD,PASS801_CHK_GRID
+EE+AL	LANG · ZIELSTELLE	cheedal	1	PARKED_ADDRESS_STACK	NONE	address order is harder to read than selected directional recipes	PASS792_ADDRESS
+HO+AR+Y	ZUTAT · QUELLE · DIES	chodary	1	PARKED_ADDRESS_STACK	NONE	address order is harder to read than selected directional recipes	PASS792_ADDRESS
+K+DY	ZUGEBEN · SCHLUSS	kdy	1	PARKED_LOW_VALUE	NONE	formally composable but not needed in compact teaching deck	PASS797_TRANSFER
+L+AR+OR	LEITEN · QUELLE · ANSATZ	ldaror	1	PARKED_ADDRESS_STACK	NONE	address order is harder to read than selected directional recipes	PASS792_ADDRESS
+LSH+EE+Y	SPUELEN · LANG · DIES	lsheey	1	PARKED_REDUNDANT_GRID	NONE	useful grid completion but lower value than selected nearest gaps	PASS805_LSH_GRID
+LSH+EEE+DY	SPUELEN · VOLL · SCHLUSS	lsheeedy	1	PARKED_GRADE_LEAP	NONE	full-grade extrapolation without enough neighboring cells	PASS805_LSH_GRID
+LSH+EEE+Y	SPUELEN · VOLL · DIES	lsheeey	1	PARKED_GRADE_LEAP	NONE	full-grade extrapolation without enough neighboring cells	PASS805_LSH_GRID
+OK+AR+Y	ANSETZEN · QUELLE · DIES	qokary	1	PARKED_ADDRESS_STACK	NONE	address order is harder to read than selected directional recipes	PASS792_ADDRESS
+OK+EE+AR	ANSETZEN · LANG · QUELLE	qokeedar	1	PARKED_ADDRESS_STACK	NONE	address order is harder to read than selected directional recipes	PASS792_ADDRESS
+OL+AIIN	WEITER · SOLLMASS	qolaiin	1	PARKED_LOW_VALUE	NONE	formally composable but not needed in compact teaching deck	PASS795_CONTROL
+OL+AL	WEITER · ZIELSTELLE	qolal	1	PARKED_ADDRESS_STACK	NONE	address order is harder to read than selected directional recipes	PASS795_CONTROL
+OL+AR	WEITER · QUELLE	qolar	1	PARKED_ADDRESS_STACK	NONE	address order is harder to read than selected directional recipes	PASS795_CONTROL
+OL+AR+Y	WEITER · QUELLE · DIES	olsary	1	PARKED_ADDRESS_STACK	NONE	address order is harder to read than selected directional recipes	PASS792_ADDRESS
+OL+E+DY	WEITER · KURZ · SCHLUSS	qoledy	1	PARKED_REDUNDANT_GRID	NONE	useful grid completion but lower value than selected nearest gaps	PASS795_CONTROL
+OL+EE+DY	WEITER · LANG · SCHLUSS	qoleedy	1	PARKED_REDUNDANT_GRID	NONE	useful grid completion but lower value than selected nearest gaps	PASS795_CONTROL
+OL+EE+Y	WEITER · LANG · DIES	qoleey	1	PARKED_REDUNDANT_GRID	NONE	useful grid completion but lower value than selected nearest gaps	PASS795_CONTROL
+OT+AIN	DANACH · PORTION	otain|sotain	2	PARKED_LOW_VALUE	NONE	formally composable but not needed in compact teaching deck	PASS790_QUANTITY
+OT+AL+Y	DANACH · ZIELSTELLE · DIES	qotaly	1	PARKED_ADDRESS_STACK	NONE	address order is harder to read than selected directional recipes	PASS795_CONTROL
+OT+E+AIN	DANACH · KURZ · PORTION	qotedain	1	PARKED_REDUNDANT_GRID	NONE	useful grid completion but lower value than selected nearest gaps	PASS790_QUANTITY
+OT+SH+E+DY	DANACH · HALTEN · KURZ · SCHLUSS	qotshedy	1	PARKED_REDUNDANT_GRID	NONE	useful grid completion but lower value than selected nearest gaps	PASS795_CONTROL
+P+CHD+AR	EINBRINGEN · UMSETZEN · QUELLE	pchedar	1	PARKED_ADDRESS_STACK	NONE	address order is harder to read than selected directional recipes	PASS792_ADDRESS
+R+AR	KUEHLEN · QUELLE	rar	1	PARKED_ADDRESS_STACK	NONE	address order is harder to read than selected directional recipes	PASS792_ADDRESS
+R+AR+Y	KUEHLEN · QUELLE · DIES	rary	1	PARKED_ADDRESS_STACK	NONE	address order is harder to read than selected directional recipes	PASS792_ADDRESS
+R+SH+E+AR	KUEHLEN · HALTEN · KURZ · QUELLE	rshear	1	PARKED_ADDRESS_STACK	NONE	address order is harder to read than selected directional recipes	PASS792_ADDRESS
+SH+E+CKH+AR	HALTEN · KURZ · DURCHLASS · QUELLE	sheckhar	1	PARKED_ADDRESS_STACK	NONE	address order is harder to read than selected directional recipes	PASS792_ADDRESS
+SH+O+AR	HALTEN · VORGANG · QUELLE	schoar	1	PARKED_ADDRESS_STACK	NONE	address order is harder to read than selected directional recipes	PASS792_ADDRESS
+SH+Y+AIN	HALTEN · DIES · PORTION	shfydain	1	PARKED_LOW_VALUE	NONE	formally composable but not needed in compact teaching deck	PASS790_QUANTITY
+SHED+AR	STEHENLASSEN · QUELLE	shedar	1	PARKED_ADDRESS_STACK	NONE	address order is harder to read than selected directional recipes	PASS792_ADDRESS
+SOLK+DY	SAMMELN · SCHLUSS	qolkdy	1	PARKED_LOW_VALUE	NONE	formally composable but not needed in compact teaching deck	PASS808_SOLK_GRID
+SOLK+EEE+DY	SAMMELN · VOLL · SCHLUSS	solkeeedy	1	PARKED_GRADE_LEAP	NONE	full-grade extrapolation without enough neighboring cells	PASS808_SOLK_GRID
+SOLK+EEE+Y	SAMMELN · VOLL · DIES	solkeeey	1	PARKED_GRADE_LEAP	NONE	full-grade extrapolation without enough neighboring cells	PASS789_GRADE_HAND_BOARD,PASS808_SOLK_GRID

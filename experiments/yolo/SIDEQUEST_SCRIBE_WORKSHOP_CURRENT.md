@@ -11933,6 +11933,18 @@ Next, inspect all76 predicted recipes for practical usefulness and reduce them
 to a small high-value workshop prediction deck; formal composability alone is
 not enough.
 
+Pass 828 reduces76 unattested surfaces/68 recipes to an active high-value deck
+of24 recipes/30 possible surfaces. It keeps nearest grade/endpoint gaps, direct
+quantity operations and simple source/path/target moves. Forty-four recipes/46
+surfaces are parked as large grade leaps, redundant cells or awkward address
+stacks; they are not declared impossible. No existing dictionary value changes.
+See
+`sidequest_semantic_prediction_deck_eight_hundred_twenty_eighth/EIGHT_HUNDRED_TWENTY_EIGHTH_REPORT.md`.
+
+Next, rebuild all11 prose records as a literal-plus-owner edition: exactly one
+short German value per component, with every picture-/owner-supplied expansion
+kept visibly separate from the card reading.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
