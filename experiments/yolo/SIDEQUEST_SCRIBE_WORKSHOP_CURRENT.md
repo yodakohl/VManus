@@ -10961,11 +10961,24 @@ closed. One codebook therefore supports running plant-article instructions and
 compressed station cells. See
 `sidequest_semantic_apprentice_syntax_seven_hundred_fortieth/SEVEN_HUNDRED_FORTIETH_REPORT.md`.
 
-Next, perform a creative apprentice recoding trial: regenerate each statement's
-template and likely card-family sequence from owner plus clean instruction,
-without copying its observed surface sequence into the generation step. Score
-where the eight rules recover the family plan and isolate the memorized-card
-gaps; do not change meanings merely to improve recovery.
+Pass 741 gives an apprentice only the owner, clean German instruction and39
+meaning cues, never the observed surface/card sequence. It recovers the exact
+component set in93/116 statements, with mean set recall .994458 and precision
+.976697; every statement reaches recall>=.70. Coarse template recovery is
+89/116. Of27 order mismatches,25 expose the same mixed-codebook mechanism:
+German fronts an address (`nach Sollmass ansetzen`) while the learned card is
+operation-headed (`OK+AIIN`);2 fluent readings overtly say HALTEN where the
+card inherits that action elliptically. Only6 observed components are omitted
+over the whole edition; extra cues mainly come from grammatical `halten`.
+Thus semantic-family recoding is nearly complete, while card packing is the
+remaining learned layer. See
+`sidequest_semantic_apprentice_recoding_seven_hundred_forty_first/SEVEN_HUNDRED_FORTY_FIRST_REPORT.md`.
+
+Next, build the small card packer implied by Pass741. Starting from recoded
+component families, prefer attested multi-component recipes from the173-card
+deck, learn explicit operation-head versus address-head packaging, and retain
+whole-card commands. Compare the resulting recipe/card-family sequence to all
+116 statements without adding meanings.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
