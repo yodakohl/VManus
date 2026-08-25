@@ -12214,6 +12214,16 @@ Next, inspect the ten unselected surfaces and decide whether one supplementary
 renderer rule can generate them or whether they are best learned as a tiny
 exception strip.
 
+Pass 852 reduces all ten leftover surfaces to three secondary switches:
+`CHE→CH` generates `chol/chy/chal`; the short S/SH branch generates
+`sol/sor/sy/shcthey`; and `D→T` generates `taiin/tal/tchedy`. The seven core
+rules plus these three switches now cover all230 registered card-surface pairs
+with no residual spelling exception and no meaning change. See
+`sidequest_semantic_scribe_secondary_switches_eight_hundred_fifty_second/EIGHT_HUNDRED_FIFTY_SECOND_REPORT.md`.
+
+Next, turn the complete lesson into a compact model-book page: exemplar cards,
+their permitted variants and one concrete workshop command per family.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
