@@ -12289,6 +12289,16 @@ rather than receiving invented punctuation. See
 Next, reconstruct all three H2 statements and determine where the active
 preparation continues, branches or resets within the same pictured plant page.
 
+Pass 859 reads H2 as an open derived branch of H1's active preparation. Its24
+cards/42 atoms form three phases: take a small portion, continue that branch,
+then add to and draw from it. There are no owner resets or closes. Within H2 the
+same exact Y/POSTEN card is rendered five times as `dy→chy→shy→chy→dy`, a direct
+fixed-page illustration of surface variation without meaning change. See
+`sidequest_semantic_h2_branch_reconstruction_eight_hundred_fifty_ninth/EIGHT_HUNDRED_FIFTY_NINTH_CONTINUOUS_H2_READING.md`.
+
+Next, combine H1 and H2 into one complete f10r source edition and separate what
+the picture, persistent registers and visible cards contribute.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
