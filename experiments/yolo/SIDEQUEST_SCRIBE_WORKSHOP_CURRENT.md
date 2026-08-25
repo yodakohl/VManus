@@ -12650,6 +12650,20 @@ and unordered where required, but decide whether each order's current WHEN link
 fits water/moisture, passage/numbered place, work/aspect, heat/light, target/star
 or collection/phase better than the five alternatives.
 
+Pass 887 gives all six handles short, concrete workshop readings: marked phase
+place, aspect place, direct star place, local 28-place, moisture/weather state,
+and light/body quality. A complete36-cell comparison retains every existing
+WHEN link at its maximum fit, so no order changes. All73 condition groups remain
+copied, locally addressed and free of invented starts, directions or external
+celestial names. See
+`sidequest_semantic_concrete_condition_matching_eight_hundred_eighty_seventh/EIGHT_HUNDRED_EIGHTY_SEVENTH_CONCRETE_WHEN_BOOK.md`.
+
+Next, fuse each revised Herbal predecessor chain, complete Biological record and
+concrete Astro condition into one master order card. Give each order a short
+German workshop heading, preserve all437 marks and118 units, show every visible
+owner/station switch, and make the WHAT -> HOW -> WHEN path readable without
+consulting separate pass reports.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
