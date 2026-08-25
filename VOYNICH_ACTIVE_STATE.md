@@ -6,7 +6,7 @@ Updated: 2026-08-25. This is the full claim registry. For routine work, read
 
 ## Outcome
 
-### Noncanonical twenty-two-page sidequest (Pass 1016)
+### Noncanonical twenty-two-page sidequest (Pass 1017)
 
 The creative workshop sidequest covers twenty-two admitted physical pages with
 4,581 visible groups: 3,888 running prose/ring-text groups plus 693 local
@@ -187,6 +187,17 @@ Three forms have no running-text occurrence and remain dormant exemplar signs.
 All 627 statements and 3,888 events keep their Pass-1015 readings. The graphic
 inventory remains 46 signs, but the apprentice now learns only 19 portable
 cores + 8 controls + 4 local channels = 31 semantic categories.
+
+Pass 1017 turns those categories into a forward composition compiler. It
+publishes left/right valencies for all 19 portable cores and the complete
+19×19 ordered-pair inventory over 3,888 events and 912 component recipes:
+190 pairs are directly adjacent, 57 occur only with an intervening component,
+and 114 remain unseen. Four direct forms now have fixed first readings for
+future pages: `chain=CH+AIN=eine Portion nehmen`, `pain=P+AIN=eine Portion
+einsetzen`, `paiin=P+AIIN=nach Maß einsetzen`, and `lair=L+AIR=Verbindung im
+bezeichneten Lauf`. `CH…AIN` already has three gapped supports and `P…AIIN`
+one; the direct forms are all absent. A conflict must become a local/whole-card
+exception or invalidate the pairing, never silently redefine a core.
 
 - The manuscript is **not translated**. There are zero confirmed English
   lexemes, zero plaintext clauses, and no established language, phonetic

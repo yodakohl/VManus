@@ -1,11 +1,11 @@
 # Current twenty-two-page scribe-workshop theory
 
-Updated: 2026-08-25, after Pass 1016.
+Updated: 2026-08-26, after Pass 1017.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
-translation**. This is the compact handoff for the sidequest. Pass 1016 gives
-all 627 statements a complete owner-plus-core reading and compresses the 19
-local sign forms into four learned channels.
+translation**. This is the compact handoff for the sidequest. Pass 1017 gives
+all 627 statements a complete owner-plus-core reading, four local channels,
+and a forward compiler for the 19 portable cores.
 
 ## Fixed scope
 
@@ -223,6 +223,18 @@ at the event start in 16/16 cases, while `AN` marks it at the end in 7/7.
 visible sign forms, but the semantic teaching sheet now contains only 19
 portable cores, eight controls, and four local channels: 31 categories.
 
+Pass 1017 specifies how those categories compose before another page is read.
+The complete 19×19 ordered-pair table over 3,888 events contains 190 directly
+adjacent pairs, 57 pairs attested only with an intervening component, and 114
+unseen orders. Each core now has a fixed head/tail/frame role and a forward
+rule. The reader recognizes the longest graphic package, expands embedded
+cores, reads the fixed atoms left-to-right, adds one of the four local channels,
+and only then applies grade and endpoint. Four direct forms receive fixed
+future readings: `chain` = *eine Portion nehmen*, `pain` = *eine Portion
+einsetzen*, `paiin` = *nach Maß einsetzen*, and `lair` = *Verbindung im Lauf*.
+The first and third already occur with an intervening component, but none of
+the four direct surfaces occurs on the current pages.
+
 ## Constrained semantic pocket dictionary
 
 The twelve content/action cores are:
@@ -354,6 +366,9 @@ comparison set.
 
 ## Primary artifacts
 
+- Current Pass-1017 forward compiler, 19-core valency table, complete 361-pair
+  inventory, four fixed future predictions, builder, and validator:
+  `sidequest_semantic_forward_composition_compiler_one_thousand_seventeenth/`;
 - Current Pass-1016 four-channel compression of all nineteen local signs,
   complete 627-statement channel edition, builder, and validator:
   `sidequest_semantic_local_channel_compression_one_thousand_sixteenth/`;
