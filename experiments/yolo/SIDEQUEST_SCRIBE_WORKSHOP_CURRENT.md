@@ -11638,6 +11638,18 @@ Next, re-read all15 SHED events as action ABSETZEN versus result-state
 ABGESETZT/STEHENGELASSEN. Prefer the version that makes the surrounding
 instruction order simpler, and keep a single short dictionary value.
 
+Pass 803 revises SHED from the too narrow ABSETZEN to `STEHENLASSEN` and adds
+it to core20. All15 events now take one imperative:12 SHED+DY cards mean
+"stehen lassen; Schluss", one R+SHED+DY means "abkühlen und stehen lassen;
+Schluss", and two SHED+AL cards mean "an der Zielstelle stehen lassen". The
+pure result reading ABGESETZT is rejected because it breaks the imperative
+syntax, while the old reading invented sediment where none is shown. See
+`sidequest_semantic_shed_state_eight_hundred_third/EIGHT_HUNDRED_THIRD_REPORT.md`.
+
+Next, resolve P=FÜLLEN against the rival EMPFAENGER/HINEIN. Read `P+Y`,
+`P+CHD+DY` and `P+CHD+AL` as a single coherent instruction family and choose
+the smallest portable value.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
