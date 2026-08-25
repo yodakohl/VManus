@@ -12600,6 +12600,19 @@ through all107 physical Prose statements and publish one continuous eleven-
 record German workshop edition, preserving exact fifth-hand surfaces and every
 visible owner change while removing word-by-word translation stiffness.
 
+Pass 883 corrects the hidden scope omission in that route: the six-order source
+had excluded all of H2 and the unused H3/H5 continuations. Restoring those nine
+statements and47 cards yields the complete381-event/116-statement/11-record
+edition. The phrasebook grows to12 bigrams and two trigrams with34 occurrences.
+The recovered Y-AIIN-Y frame is read minimally as DEN AKTUELLEN POSTEN NACH
+SOLLMASS WEITERFUEHREN, not as grounded equality. See
+`sidequest_semantic_complete_phrase_first_edition_eight_hundred_eighty_third/EIGHT_HUNDRED_EIGHTY_THIRD_COMPLETE_ELEVEN_RECORD_EDITION.md`.
+
+Next, revisit the full Herbal continuation structure now visible again. Map all
+nineteen Herbal statements into consecutive batch states and decide whether H2
+and the restored H3/H5 tails create additional reusable internal products beyond
+the four handles used in the six-order book.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
