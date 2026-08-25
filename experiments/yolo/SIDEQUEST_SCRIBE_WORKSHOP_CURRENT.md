@@ -11159,10 +11159,21 @@ to74 cards; the entire output stays exactly116 statements and381 cards. The
 builder contains no full memorized/observed sentence-output field. See
 `sidequest_semantic_motif_tail_forward_compiler_seven_hundred_sixty_second/SEVEN_HUNDRED_SIXTY_SECOND_REPORT.md`.
 
-Next, turn the whole system into a plausible 1420 workshop curriculum. Order
-the39 meanings,9 parameterized rules,173-card recognition deck,8 M-motifs and
-19 T-strips into lessons; estimate copy drills and identify which material each
-of the multiple scribes must share versus may specialize in.
+Pass 763 turns that executable system into a small multi-scribe workshop
+curriculum. Every prose scribe learns39 short values,9 packing handgrips and17
+common exact cards carrying136/381 events. The Herbal extension adds49 cards,
+4 layouts and14 relevant motif/tail tokens (66 cards total;74 hours); the Bio
+extension adds107 cards,3 layouts and18 tokens (124 cards total;84 hours).
+Astro remains a separate24-hour diagram-copy module; the master/corrector's
+combined course is114 hours. This makes shared handwriting practice compatible
+with register specialization rather than requiring every hand to memorize all
+173 cards. See
+`sidequest_semantic_workshop_curriculum_seven_hundred_sixty_third/SEVEN_HUNDRED_SIXTY_THIRD_REPORT.md`.
+
+Next, make role-specific practical examinations with planted apprentice errors:
+one Herbal clause, one Bio cell, one master correction exercise and one Astro
+layout-copy exercise. Test whether the curriculum catches wrong grade, missing
+current-item carry, wrong close, wrong local tail and false diagram ordering.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
