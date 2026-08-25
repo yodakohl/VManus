@@ -12124,6 +12124,17 @@ useful learned anaphor inside the productive system. See
 Next, inspect ranks41–60, record the composed/bound/whole proportions, and keep
 every whole-card value short and invariant.
 
+Pass 844 finds all20 cards at ranks41–60 fully compositional. They add31
+events/28 statements across10 records and all7 pages; even
+`cheeckhody=CH+EE+CKH+O+DY` reads from five known atoms rather than a memorized
+sentence. Top60 cumulative coverage reaches268/381 (70.3%), with DAVON still
+the only whole card among those60. See
+`sidequest_semantic_fourth_frequency_tier_eight_hundred_forty_fourth/EIGHT_HUNDRED_FORTY_FOURTH_REPORT.md`.
+
+Next, publish the complete six-card exception deck: three bound constructions
+and three memorized whole cards, all seven occurrences and their short learning
+rules.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
