@@ -12299,6 +12299,17 @@ fixed-page illustration of surface variation without meaning change. See
 Next, combine H1 and H2 into one complete f10r source edition and separate what
 the picture, persistent registers and visible cards contribute.
 
+Pass 860 publishes complete f10r as one picture-owned article with two record
+blocks, five statements,38 cards and73 semantic atoms. The picture supplies one
+plant owner; five persistent registers carry main preparation, current item,
+source/water and derived branch; visible cards supply operations and order. H1
+initializes/continues the main batch, H2 derives/continues/modifies a branch.
+No close is inserted. See
+`sidequest_semantic_f10r_complete_source_edition_eight_hundred_sixtieth/EIGHT_HUNDRED_SIXTIETH_COMPLETE_F10R_EDITION.md`.
+
+Next, build the same complete source edition for f11r and test whether it uses
+the same picture/register/card architecture for a filtration sequence.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
