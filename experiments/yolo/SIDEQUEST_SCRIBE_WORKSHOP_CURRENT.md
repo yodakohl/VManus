@@ -12637,6 +12637,19 @@ each chosen stock's entire predecessor chain, all281 Biological events and the
 same six complete condition loci, then publish corrected mark/unit/payload totals
 under the fifth-hand surfaces and unchanged calibrations.
 
+Pass 886 rebuilds all six orders with the revised stock map. The new book has437
+marks:83 complete predecessor-chain preparation marks, all281 Biological events
+and the unchanged73 condition groups;118 units and30 filled payloads. Order sizes
+are118,80,101,94,19 and25. All ten pages, fifth-hand surfaces and six
+calibrations remain fixed, with no empty or changed meaning. See
+`sidequest_semantic_revised_six_order_book_eight_hundred_eighty_sixth/EIGHT_HUNDRED_EIGHTY_SIXTH_REVISED_SIX_ORDER_WORKSHOP_BOOK.md`.
+
+Next, turn the six local Astro handles into short concrete workshop conditions
+and compare them with the six application profiles. Keep every locus complete
+and unordered where required, but decide whether each order's current WHEN link
+fits water/moisture, passage/numbered place, work/aspect, heat/light, target/star
+or collection/phase better than the five alternatives.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
