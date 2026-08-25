@@ -11019,9 +11019,18 @@ cards versus381 observed, leaving32 errors. Residual missing counts start Y24
 concrete local valency-copy rule, not a new lexical value. See
 `sidequest_semantic_active_y_valency_seven_hundred_forty_fifth/SEVEN_HUNDRED_FORTY_FIFTH_REPORT.md`.
 
-Next, extend the same attested-only valency mechanism one component at a time
-to OL,AL,AIIN and OK. Compare each axis separately, retain only rules that fix
-recipes without harming an already exact statement, and keep Y fixed.
+Pass 746 tests OL,AL,AIIN and OK separately as a second copied register while
+keeping Y. None fixes an additional exact recipe. OL copies3 and OK1 with no
+gain or harm; AL copies4 but breaks B2-S006;AIIN copies1 but breaks B1-S014.
+No axis is retained. Thus Y is the unique active-item slot in this working
+system; WEITER,ZIELSTELLE,SOLLMASS and ANSETZEN do not propagate atomically.
+Their repeated occurrences must belong to learned whole-card or multi-card
+formulas. See
+`sidequest_semantic_copy_axis_competition_seven_hundred_forty_sixth/SEVEN_HUNDRED_FORTY_SIXTH_REPORT.md`.
+
+Next, mine recurring two- and three-card formulas only inside the32 residual
+errors, using recipe identities rather than raw spelling. Test whole-formula
+completion on top of fixed Y valency; do not reopen atom-copy axes.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
