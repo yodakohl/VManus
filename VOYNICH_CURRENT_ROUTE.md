@@ -1,10 +1,10 @@
 # Voynich current route
 Updated: 2026-08-25. Use `experiments/EXPERIMENT_INDEX.tsv` for primary reports; consult the active state and ledger only for claim-detail audits or historical reconstruction.
 Noncanonical eighteen-page sidequest: `experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_CURRENT.md`.
-Its creative Pass-1004 release binds 3,168 groups: 2,618 running prose/ring-text groups plus 550 local addresses/labels.
+Its creative Pass-1005 release binds 3,168 groups: 2,618 running prose/ring-text groups plus 550 local addresses/labels.
 The 175-line codebook has 53 roots, 30 formula ligatures, 72 contextual compositions, 16 local drug labels, and one address-copy rule.
 Of 25 apparently empty two-root cells, 18 occur inside longer cards; `chain` = “eine Portion nehmen” is the strongest new-form prediction.
-The new f17r/f77r/f88v/f71v add 657 groups without a root; all 13 former residual variants are now visibly decomposed, and their 608 running groups form 110 statements, 40 crossing physical lines.
+The new f17r/f77r/f88v/f71v add 657 groups without a root; all 34 nearest forms are reconciled as 29 visible compositions plus five scribe allographs, and their 608 running groups form 108 statements, 39 crossing physical lines.
 The creative model is material → preparation → local application → celestial lookup, not a confirmed translation.
 
 ## Scientific ceiling
