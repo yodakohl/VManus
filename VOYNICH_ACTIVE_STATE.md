@@ -6,7 +6,7 @@ Updated: 2026-08-25. This is the full claim registry. For routine work, read
 
 ## Outcome
 
-### Noncanonical eighteen-page sidequest (Pass 1006)
+### Noncanonical eighteen-page sidequest (Pass 1007)
 
 The creative workshop sidequest covers eighteen admitted physical pages with
 3,168 visible groups: 2,618 running prose/ring-text groups plus 550 local
@@ -67,6 +67,16 @@ statements, 432 have a licensed close, 30 end at a visible boundary or remain
 open, and 160 cross at least one physical line. The 175-line codebook is
 byte-identical to Pass 1002; the five allograph rules and 29 newly explicit
 root sums sit in separate apprentice appendices and add no portable root.
+
+Pass 1007 supplies the missing middle layer between roots and fluent readings.
+The 462 statements contain 117 exact combinations of working zones, but all
+are assigned to nine flexible apprentice drawers: basic action, item action,
+continuation, measured action, preparation, target application, path transfer,
+full multistep chain, and celestial entry. Counts are 78/19/62/30/6/71/101/76/19.
+Every one of the 2,618 running groups retains its Pass-1006 statement and
+reading; the templates add no root or card meaning. The ending remains an
+independent switch: 432 licensed closes, 20 visible boundaries, and ten open
+ends. The 550 image/ring addresses remain outside sentence grammar.
 
 - The manuscript is **not translated**. There are zero confirmed English
   lexemes, zero plaintext clauses, and no established language, phonetic

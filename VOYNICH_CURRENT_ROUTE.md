@@ -1,10 +1,10 @@
 # Voynich current route
 Updated: 2026-08-25. Use `experiments/EXPERIMENT_INDEX.tsv` for primary reports; consult the active state and ledger only for claim-detail audits or historical reconstruction.
 Noncanonical eighteen-page sidequest: `experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_CURRENT.md`.
-Its creative Pass-1006 release binds all 3,168 groups in one edition: 2,618 running prose/ring-text groups plus 550 local addresses/labels.
+Its creative Pass-1007 release binds all 3,168 groups in one edition: 2,618 running prose/ring-text groups plus 550 local addresses/labels.
 The 175-line codebook has 53 roots, 30 formula ligatures, 72 contextual compositions, 16 local drug labels, and one address-copy rule.
 Of 25 apparently empty two-root cells, 18 occur inside longer cards; `chain` = “eine Portion nehmen” is the strongest new-form prediction.
-Pass 1006 joins the older 354 clauses and 108 fresh statements into 462 continuous statements: 432 licensed closes, 30 visible/open ends, and 160 line-crossing statements. The five scribe allographs and 29 fresh root sums require no new root.
+Pass 1007 compresses the 462 statements into nine apprentice templates: basic action, item, continuation, measure, preparation, target, path, full chain, and celestial entry. They retain 432 licensed closes, 20 visible boundaries, 10 open ends, and 160 line crossings without a new root.
 The creative model is material → preparation → local application → celestial lookup, not a confirmed translation.
 
 ## Scientific ceiling

@@ -1,11 +1,11 @@
 # Current eighteen-page scribe-workshop theory
 
-Updated: 2026-08-25, after Pass 1006.
+Updated: 2026-08-25, after Pass 1007.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
-translation**. This is the compact handoff for the sidequest. Pass 1006 keeps
-the corrected root/context grammar and unifies all eighteen pages in one
-continuous workshop edition.
+translation**. This is the compact handoff for the sidequest. Pass 1007 keeps
+the unified eighteen-page edition and adds nine reusable apprentice sentence
+drawers between the root dictionary and the fluent readings.
 
 ## Fixed scope
 
@@ -67,6 +67,14 @@ group to exactly one local-address row. The 175-line codebook remains
 byte-identical to Pass 1002. The five true allograph rules and 29 newly visible
 root sums are separate apprentice appendices rather than extra words. f69v and
 f70v remain pure local celestial registers; no prose was invented for them.
+
+Pass 1007 reduces 117 exact slot combinations to nine flexible teaching
+patterns. Their statement counts are: simple action 78, item action 19,
+continuation 62, measured action 30, preparation 6, target application 71,
+path transfer 101, full multistep chain 76, and celestial entry 19. The ending
+is filled independently as licensed close, visible owner/diagram boundary, or
+open continuation. Thus the apprentice need not memorize 462 sentences, while
+all original statement and event bindings remain unchanged.
 
 Beyond the 30 common formula cards, 70 recurrent compositions form a second
 apprentice drawer. They cover 287 events; 63 recur across multiple pages and
@@ -204,7 +212,10 @@ comparison set.
 
 ## Primary artifacts
 
-- Current Pass-1006 unified 462-statement edition, complete 3,168-event ledger,
+- Current Pass-1007 nine-template drawer, all 462 assignments, eighteen-page
+  profile, and clause manual:
+  `sidequest_semantic_recurring_clause_template_drawer_one_thousand_seventh/`;
+- Pass-1006 unified 462-statement edition, complete 3,168-event ledger,
   550-address ledger, apprentice manual, five allograph rules, and 29 new root
   sums:
   `sidequest_semantic_eighteen_page_unified_workshop_edition_one_thousand_sixth/`;
@@ -243,7 +254,7 @@ comparison set.
 
 ## Next work
 
-The eighteen-page merge is complete. Before admitting another page batch,
-compress the 462 statements into a small recurring clause-template drawer and
-use that drawer as the reading grammar for the next transfer. Do not enlarge
-the 53-root inventory merely to make a new page look fluent.
+Use the nine drawers as the admission grammar for the next page batch. First
+assign owner, address zone, execution zone, and ending; only afterward expand
+the sentence naturally. Do not enlarge the 53-root inventory merely to make a
+new page look fluent.
