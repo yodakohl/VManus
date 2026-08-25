@@ -12912,6 +12912,20 @@ the36-root dictionary and the renderer without inventing new letter values.
 Promote a composition only if it produces a short useful reading in its actual
 ring context; otherwise keep the forms as the tiny honest learned nomenclator.
 
+Pass 906 decomposes both without adding a semantic root. `iokeeor` is the local
+i-carried spelling of OK+EE+OR, read LANGANSATZ and locally an anhaltende Lage;
+`daiial` is DA+IIN+AL, read ZWEITE ZIELSTUFE, with n-elision in IIN before AL.
+The active grammar therefore has36 meaning roots,11 helper signs,36 functional
+allographs,2 local compositional contractions and zero local condition whole
+words. All231 identities/437 marks retain their exact surface. See
+`sidequest_semantic_last_whole_word_composition_nine_hundred_sixth/NINE_HUNDRED_SIXTH_REPORT.md`.
+
+Next, remove five redundant memorized renderer entries. The same spellings
+`cheey`, `ody`, `cho`, `oteey` and `sheey` already occur elsewhere with stable
+SH+EE+Y, O+DY, HO and OT+EE+Y parses. Apply those recipes to the five currently
+memorized identities too, rebuild their affected units and leave only TALAM as
+the genuinely learned whole workshop root.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
