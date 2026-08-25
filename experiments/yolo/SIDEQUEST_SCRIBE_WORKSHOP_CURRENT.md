@@ -12135,6 +12135,17 @@ Next, publish the complete six-card exception deck: three bound constructions
 and three memorized whole cards, all seven occurrences and their short learning
 rules.
 
+Pass 845 closes the exception inventory. The productive grammar covers167/173
+cards and374/381 events. The remaining six cards/seven events are exactly three
+whole cards (`OS=DAZU`, `dchol/schol=DAVON`, `TALAM=BEISEITESTELLEN`) and three
+bound frames (`Y+K+AN`, `OK+Y+LD+DY`, `DA+IIN`). AN, LD and DA are not freed as
+general stems. See
+`sidequest_semantic_exception_deck_eight_hundred_forty_fifth/EIGHT_HUNDRED_FORTY_FIFTH_REPORT.md`.
+
+Next, publish a complete tenth-edition173-card/381-event dictionary with an
+explicit learning mode on every card and the four AIR wording repairs carried
+into all116 statements.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
