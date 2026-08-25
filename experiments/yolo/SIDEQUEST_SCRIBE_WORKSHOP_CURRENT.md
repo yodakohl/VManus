@@ -11125,10 +11125,20 @@ sequences require a bound exemplar. See
 `sidequest_semantic_complete_mixed_codebook_packer_seven_hundred_fifty_eighth/SEVEN_HUNDRED_FIFTY_EIGHTH_REPORT.md`
 and `SEVEN_HUNDRED_FIFTY_EIGHTH_COMPLETE_WORKSHOP_PACKER.md`.
 
-Next, make the system genuinely teachable: derive one compact forward sheet
-from these eight layers and regenerate all116 statements without consulting
-the final observed-sequence column. Record which decisions come from productive
-rules, small phrases, or one of the seven bound exemplars.
+Pass 759 makes the packer genuinely forward executable. Its builder sees only
+116 owner/instruction component inputs, the173-card deck, Y valency,25 listed
+context rules and seven memorized exemplar outputs; it contains no final target
+sequence reference. It emits345 cards after Y packing,365 after the small
+phrases and381 after seven exemplars. The separate validator then confirms all
+116 statement sequences and381 card rows byte-for-field against Pass758; every
+small rule fires once. See
+`sidequest_semantic_forward_teaching_compiler_seven_hundred_fifty_ninth/SEVEN_HUNDRED_FIFTY_NINTH_REPORT.md`
+and `SEVEN_HUNDRED_FIFTY_NINTH_FORWARD_TEACHING_SHEET.md`.
+
+Next, reduce teaching burden rather than add fit. Merge equivalent context
+rules where a single parameterized workshop rule can reproduce the same25
+uses; keep exact output fixed. Target the measure/posten, continuation, and
+neighbor-packing groups first.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
