@@ -12320,6 +12320,16 @@ in process shape: f10r remains open and branches, f11r closes then resumes. See
 Next, apply the complete page method to f55v and look for the strongest
 plant-to-wash-or-filter transition in the fixed Herbal set.
 
+Pass 862 corrects f55v away from primary filtration. Its18 cards/37 atoms form
+four measured-batch phases with eight quantity cards, one heat card and two
+closes, but zero AIR/water, CFH/press or CKH/passage cards. The better sequence
+is measure/add/close; transfer/set aside; add from source/heat/close; then carry
+an open portion at the target. f11r remains the stronger extraction page. See
+`sidequest_semantic_f55v_measured_batch_source_edition_eight_hundred_sixty_second/EIGHT_HUNDRED_SIXTY_SECOND_COMPLETE_F55V_EDITION.md`.
+
+Next, build f56r and decide whether its repeated page-local card resumes the
+pictured plant, repeats a preparation operation or does both contextually.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
