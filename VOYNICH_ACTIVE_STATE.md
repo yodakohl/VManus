@@ -6,7 +6,7 @@ Updated: 2026-08-26. This is the full claim registry. For routine work, read
 
 ## Outcome
 
-### Noncanonical twenty-two-page sidequest (Pass 1020)
+### Noncanonical twenty-two-page sidequest (Pass 1021)
 
 The creative workshop sidequest covers twenty-two admitted physical pages with
 4,581 visible groups: 3,888 running prose/ring-text groups plus 693 local
@@ -230,6 +230,16 @@ statements and 77 cards; f67r2 has 11 statements and 126 running cards, while
 readable at the current layer in both a plant article and a celestial wheel;
 specific plant organs, diagram entries, values, and long-range reference scope
 remain image- or master-exemplar supplied.
+
+Pass 1021 inventories all immediate equal-core duplications in the 3,888-event
+running layer: 40 cards in 38 statements / 16 pages, with no triple. The
+selected teaching grammar uses two position-sensitive readings without new
+core values. Twenty-eight package-bound cases descend one owner level: 27
+`CH+CH` packages before T/K/P/S plus f13r `OK+OR+OR+Y`; twelve free cases read
+as multiple things or a repeated action (`OL+OL`, `AR+AR`, `AL+AL`, `Y+Y`,
+`OK+OK`). The f13r ending is now outer plant-article EINHEIT containing the
+selected inner-part EINHEIT. The apprentice sheet gains this eleventh opening
+rule; no duplicate is deleted as empty ditto.
 
 - The manuscript is **not translated**. There are zero confirmed English
   lexemes, zero plaintext clauses, and no established language, phonetic

@@ -1,9 +1,9 @@
 # Current twenty-two-page scribe-workshop theory
 
-Updated: 2026-08-26, after Pass 1020.
+Updated: 2026-08-26, after Pass 1021.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
-translation**. This is the compact handoff for the sidequest. Pass 1020 gives
+translation**. This is the compact handoff for the sidequest. Pass 1021 gives
 all 627 statements a complete owner-plus-core reading, four local channels,
 a forward compiler, and 19 core values that each occur in all four registers.
 
@@ -269,6 +269,17 @@ a restored specialist root. The sheet therefore transports from a pictured
 plant article to a two-wheel celestial register; concrete referents, values,
 and long-range scope still come from the image/master exemplar.
 
+Pass 1021 resolves the f13r `OR+OR` remainder by inventorying every immediate
+duplicate core in the complete running layer. There are only 40: CH 27, OL 5,
+AR/AL/Y two each, and OR/OK one each; no triple occurs. Twenty-eight are
+package-bound scope descents—27 `CH+CH` before T/K/P/S and the one
+`OK+OR+OR+Y`. Twelve are free doubles and read as multiple things or repeated
+actions. The apprentice sheet gains one two-branch rule: at an opened package
+boundary read outer and inner levels; when free, read both equal-level cores.
+Thus f13r ends by setting the selected plant part as an inner unit within the
+outer plant article. No core value changes and the second sign is never erased
+as an empty ditto.
+
 ## Constrained semantic pocket dictionary
 
 The twelve content/action cores are:
@@ -400,6 +411,10 @@ comparison set.
 
 ## Primary artifacts
 
+- Current Pass-1021 complete 40-occurrence duplicate-core inventory,
+  historical doubling note, two-rule adjudication, revised apprentice sheet,
+  builder, and validator:
+  `sidequest_semantic_repeated_core_operator_one_thousand_twenty_first/`;
 - Current Pass-1020 one-page apprentice sheet, 31-category lexicon, complete
   627-statement coverage, full f13r and f67r2 roundtrips, builder, and validator:
   `sidequest_semantic_apprentice_sheet_roundtrip_one_thousand_twentieth/`;
