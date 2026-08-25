@@ -6,7 +6,7 @@ Updated: 2026-08-25. This is the full claim registry. For routine work, read
 
 ## Outcome
 
-### Noncanonical twenty-two-page sidequest (Pass 1013)
+### Noncanonical twenty-two-page sidequest (Pass 1014)
 
 The creative workshop sidequest covers twenty-two admitted physical pages with
 4,581 visible groups: 3,888 running prose/ring-text groups plus 693 local
@@ -156,6 +156,18 @@ promoted to the seventh relation core. The complete running layer now contains
 statement classes are 416/210/1. Former glosses such as *bereit, Durchlass,
 Auszug, absetzen, spülen, auffangen* and *befestigen* may survive only as local
 owner-bound executions, not dictionary stems.
+
+Pass 1014 rereads all 35 Pass-1011 original-image passages using only the
+Pass-1013 core contract plus the visible owner and actually drawn local
+geometry. The full set remains readable without reinstating any specialist
+root: 4 strong, 15 plausible, 14 strained and 2 image-contradiction statuses
+are preserved, while the contradictory f81v serial-basin and f82r connected-
+lower-pool readings remain repaired. The main new teaching rule separates
+meaning from packaging. Both linear `CHK` and embedded `C<K>H` contribute
+`CH+K=NEHMEN+GEBEN`; 43/46 CHK events begin with that core, while only 33/104
+CKH events do, because CKH is commonly enclosed by a larger O/SH/CH/L frame.
+Thus local *zugeben* versus *am Anschluss weitergeben* is syntax and owner
+expansion, not evidence for two roots *Wärme* and *Durchlass*.
 
 - The manuscript is **not translated**. There are zero confirmed English
   lexemes, zero plaintext clauses, and no established language, phonetic

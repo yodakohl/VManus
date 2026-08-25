@@ -1,11 +1,11 @@
 # Current twenty-two-page scribe-workshop theory
 
-Updated: 2026-08-25, after Pass 1013.
+Updated: 2026-08-25, after Pass 1014.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
-translation**. This is the compact handoff for the sidequest. Pass 1013
-resegments ten former specialist candidates into already known components,
-leaving a smaller 46-sign contract and no independent specialist root.
+translation**. This is the compact handoff for the sidequest. Pass 1014
+confirms on all 35 already image-inspected passages that the Pass-1013
+46-sign contract needs no independent specialist root.
 
 ## Fixed scope
 
@@ -185,6 +185,23 @@ first the local name of that figure or position. It may remind the scribe of a
 portable root, but it does not force the corresponding workshop meaning. This
 corrects the earlier overreading of label `cheody` as the prose word AUSZUG.
 
+Pass 1014 then rereads the 35 manually image-inspected passages with this
+smaller contract. Every passage receives a complete visible-owner plus core-
+chain reading without restoring *Auszug, Durchlass, Absetzen, Trennen* or a
+similar specialist stem. The two earlier geometry corrections remain active:
+f81v is one shared two-row bath and the lower f82r pool is a separate owner.
+The smaller dictionary therefore survives the hardest already inspected
+passages rather than merely fitting uninspected text.
+
+It also resolves the apparent CHK/CKH conflict. Both families contribute the
+same atomic sequence `CH+K=NEHMEN+GEBEN`, but their graphic topology predicts
+different syntax. Linear CHK is event-initial in 43/46 occurrences and usually
+takes a following grade, referent, or address. Embedded `C<K>H` is event-
+initial in only 33/104 occurrences and is normally packaged inside an outer
+O-, SH-, CH-, or L-frame. A local reader may therefore expand the former as
+*zugeben* and the latter as *am Anschluss weitergeben*, but those are not two
+portable word meanings.
+
 ## Constrained semantic pocket dictionary
 
 The twelve content/action cores are:
@@ -316,6 +333,9 @@ comparison set.
 
 ## Primary artifacts
 
+- Current Pass-1014 core-only retranslations of all 35 manually inspected
+  passages, CHK/CKH topology comparison, builder, and validator:
+  `sidequest_semantic_optical_core_retranslation_one_thousand_fourteenth/`;
 - Current Pass-1013 46-sign contract, ten resegmentations, 102 composition
   contracts, complete 627-statement pressure map, builder, and validator:
   `sidequest_semantic_embedded_stem_resegmentation_one_thousand_thirteenth/`;
