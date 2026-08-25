@@ -10895,9 +10895,18 @@ clear forms from OK+Y through OK+EEE+DY. A surface firewall finds105 visible
 identity, never the visible suffix alone. See
 `sidequest_semantic_grade_endpoint_seven_hundred_thirty_third/SEVEN_HUNDRED_THIRTY_THIRD_REPORT.md`.
 
-Next, order the material/station inventory O, OR, AIR, CKH, SOLK and HO into a
-compact process chain: work step, preparation, water, passage, collecting
-station and ingredient. Do not introduce wine, oil, honey or species names.
+Pass 734 orders six concrete inventory roots: HO=ZUTAT (5 cards/8 events),
+OR=ANSATZ (10/18), O=ARBEITSGANG (18/19), AIR=WASSER (5/5), CKH=DURCHLASS
+(9/14), SOLK=SAMMELSTELLE (5/7). Their union is47 cards/66 events, with13
+multi-root statements. SOLK is reduced from verb-like AUFFANGEN to the noun
+SAMMELSTELLE across5 cards/7 events: `solkey`/`solkeey` now mean holding briefly
+or long at that station. The six roles are a default toolkit, not a fixed
+global machine; no wine, oil, honey or species is added. See
+`sidequest_semantic_workshop_inventory_seven_hundred_thirty_fourth/SEVEN_HUNDRED_THIRTY_FOURTH_REPORT.md`.
+
+Next, place CTH, SH/SHED, CHK and LSH into the toolkit as prepare, rest/settle,
+warm and wash. Prefer one-word roots and preserve whole-card exceptions where
+the apparent spelling family cannot carry one operation.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
