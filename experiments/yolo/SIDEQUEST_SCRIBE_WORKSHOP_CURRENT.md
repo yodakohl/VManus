@@ -12741,6 +12741,19 @@ small memorized operation phrase, but still give each exact card its own short
 default so the phrase can be copied or spoken card by card. Preserve visible
 owner switches and the current continuous sentence reading.
 
+Pass 894 closes all seven three-gap units with21 individual card values and
+seven spoken phrase blocks. Examples include POSTEN SAMMELN -> ZUR ZIELSTELLE
+LEITEN UND UMSETZEN -> DANACH ZUR QUELLE, and AUS DER QUELLE LEITEN UND
+UMSETZEN -> KURZE PROBE ENTNEHMEN -> EINBRINGEN UMSETZEN UND SCHLIESSEN. The
+executable layer reaches108 units; only three four-gap and one five-gap prose
+unit remain, plus six WHEN leaves. See
+`sidequest_semantic_three_gap_phrase_closure_eight_hundred_ninety_fourth/EIGHT_HUNDRED_NINETY_FOURTH_THREE_GAP_PHRASEBOOK.md`.
+
+Next, close the three four-gap units as four-step workshop recipes. Give each of
+their twelve exact cards a short default and preserve the entire four-card local
+island as a memorized action chain. Leave the single five-gap master passage for
+its own final prose pass.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
