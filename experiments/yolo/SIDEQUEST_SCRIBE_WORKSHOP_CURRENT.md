@@ -12203,6 +12203,17 @@ Next, turn the four profiles into a minimal orthographic lesson: predict the
 preferred registered surface from a shared card plus one small scribe habit,
 without memorizing a separate variant list for every occurrence.
 
+Pass 851 compresses surface choice into a seven-line workshop lesson. Of173
+cards,139 are copied in one fixed form and34 admit multiple registered forms;
+33 actually split under the four habits. The four profiles choose220/230
+registered card-surface pairs (95.7%) while retaining one card meaning in all692
+assignments. Only ten additional surfaces remain to be memorized. See
+`sidequest_semantic_scribe_surface_lesson_eight_hundred_fifty_first/EIGHT_HUNDRED_FIFTY_FIRST_REPORT.md`.
+
+Next, inspect the ten unselected surfaces and decide whether one supplementary
+renderer rule can generate them or whether they are best learned as a tiny
+exception strip.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
