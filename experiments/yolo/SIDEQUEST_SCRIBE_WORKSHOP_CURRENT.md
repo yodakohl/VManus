@@ -10825,9 +10825,17 @@ oil, honey or unanchored ingredient is added. The visible plant remains the
 silent subject, while every card/surface/boundary stays fixed. See
 `sidequest_semantic_five_herbal_articles_seven_hundred_twenty_fifth/SEVEN_HUNDRED_TWENTY_FIFTH_REPORT.md`.
 
-Next, rewrite all6 Biological records/97 statements/281 events with the same
-atoms. Keep four AIR water readings local to their actual basin/run owner,
-retain every owner reset and explicitly avoid a global closed water circuit.
+Pass 726 rewrites all6 Biological records/97 statements/281 events as local
+station protocols. Counts are B1=21/66,B2=22/62,B3=34/86,B4=16/47,B5=3/11,
+B6=1/9. Four AIR events name water only within their own basin/run owner. Six
+between-statement and4 internal owner resets are explicit; every row keeps
+global_flow=NONE, so no closed page circuit is invented. See
+`sidequest_semantic_six_biological_stations_seven_hundred_twenty_sixth/SEVEN_HUNDRED_TWENTY_SIXTH_REPORT.md`.
+
+Next, bind the five Herbal articles and six Biological protocols into one
+WHAT/HOW workshop edition. Search the fixed card sequences for actual portable
+handoff motifs; if none links a plant record to a station record, keep the
+registers thematic rather than inventing cross-references.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
