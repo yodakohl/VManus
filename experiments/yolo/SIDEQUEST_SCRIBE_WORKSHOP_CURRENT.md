@@ -11711,6 +11711,18 @@ Next, attack the final recurrent strip values T=ANWENDEN, CKH=DURCHLASS and
 R=KUEHLEN. Resolve whether each is a verb, noun or directional operator, then
 rebuild a fourth grammar.
 
+Pass 809 eliminates the recurrent strip. T=ANWENDEN is a portable action verb
+(9 cards/10 events) with a missing long-grade prediction `cheety|teey`;
+CKH=DURCHLASS is a path noun (9/14) embedded under seven holding, guiding,
+taking and procedure constructions; and R=KUEHLEN is a state-change verb (6/6)
+with target, continuation, holding, standing and batch arguments. All join
+core31, leaving0 recurrent strip values. See
+`sidequest_semantic_final_strip_eight_hundred_ninth/EIGHT_HUNDRED_NINTH_REPORT.md`.
+
+Next, publish the fourth full grammar, quantify complete core composition, and
+then attack the four owner-local singleton values CFH, S, DA and LD one at a
+time.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
