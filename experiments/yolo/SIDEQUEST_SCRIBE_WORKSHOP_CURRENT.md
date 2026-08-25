@@ -12330,6 +12330,16 @@ an open portion at the target. f11r remains the stronger extraction page. See
 Next, build f56r and decide whether its repeated page-local card resumes the
 pictured plant, repeats a preparation operation or does both contextually.
 
+Pass 863 gives f56r27 cards/58 atoms in six ingredient/application phases with
+one closed passage product. Exact card `PROC052` appears four times as
+`cho→sho→cho→sho` and retains portable value ZUTAT. It is neither picture owner
+nor operation; the page owner can contextually fill its ingredient slot with
+material of the pictured plant. See
+`sidequest_semantic_f56r_ingredient_source_edition_eight_hundred_sixty_third/EIGHT_HUNDRED_SIXTY_THIRD_COMPLETE_F56R_EDITION.md`.
+
+Next, synthesize all four Herbal pages into one process atlas and compare their
+distinct page recipes under the shared card vocabulary.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
