@@ -12234,6 +12234,18 @@ Next, use only the sixteen-row model leaf to compose a new six-step herbal
 preparation, render it in all four styles and read all versions back to the same
 commands.
 
+Pass 854 uses fifteen of the sixteen model-leaf cards to compose a new six-step
+exercise: take the ingredient; draw water to the prescribed measure; add it to
+the batch and set the item; prepare and hold it; take a measured continuation;
+leave it at the target and close. Four styles yield60 registered event
+renderings and24 step renderings with one identical command sequence. No new
+card or meaning is introduced. See
+`sidequest_semantic_productive_herbal_composition_eight_hundred_fifty_fourth/EIGHT_HUNDRED_FIFTY_FOURTH_FOUR_STYLE_EXERCISE.md`.
+
+Next, invert the exercise: starting only from the six German commands, make
+four apprentices choose the same exact-card sequence before they render their
+individual surfaces.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
