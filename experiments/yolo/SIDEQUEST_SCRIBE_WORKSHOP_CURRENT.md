@@ -12506,6 +12506,20 @@ Next, compose the remaining four WHAT→HOW jobs into equally complete orders an
 publish one six-order workshop book, so every Biological record is paired with
 an exact internal product and one concrete local condition handle.
 
+Pass 876 publishes all six complete orders under one unchanged dictionary and
+six shared calibrations. The book contains438 marks:84 repeated preparation
+marks, all281 Biological application events exactly once, and73 groups from six
+complete local Astro loci. All ten fixed pages contribute. Order sizes are118,
+76,95,94,25 and30 marks; larger Astro ring loci are copied in full rather than
+reduced to one convenient word. Thirty payload cells are filled, with zero
+empty defaults, calibration changes or dictionary changes. See
+`sidequest_semantic_six_order_workshop_book_eight_hundred_seventy_sixth/EIGHT_HUNDRED_SEVENTY_SIXTH_SIX_ORDER_WORKSHOP_BOOK.md`.
+
+Next, turn the six orders into a compact apprentice curriculum: determine the
+minimum cards, product handles, owner switches, condition handles and
+calibrations that must be memorized before a fifth hypothetical scribe can copy
+all six orders without assistance.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
