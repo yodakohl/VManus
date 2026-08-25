@@ -11770,6 +11770,17 @@ singleton. See
 Next, resolve LD inside `qokylddy`: compare BINDEN, BEFESTIGEN, VERSCHLIESSEN
 and a graphic double-close reading in its complete statement and visible owner.
 
+Pass 814 keeps `LD=BEFESTIGEN` but reclassifies it as bound immediately before
+DY. `qokylddy` remains "den laufenden Posten ansetzen und befestigen; Schluss"
+at the bow-connected B4 pair. BINDEN invents a cord, VERSCHLIESSEN and
+DOPPELSCHLUSS duplicate DY, and ANLEGEN overlaps OK. Free LD is blocked by the
+naive `ldy` surface already carrying L+DY=LEITEN+SCHLUSS. The local-singleton
+class is now empty:33 cores,3 bound values,3 whole commands. See
+`sidequest_semantic_ld_fastening_eight_hundred_fourteenth/EIGHT_HUNDRED_FOURTEENTH_REPORT.md`.
+
+Next, publish the fifth full grammar, then attack the three whole commands
+`os`, `dchol/schol` and `talam` separately.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
