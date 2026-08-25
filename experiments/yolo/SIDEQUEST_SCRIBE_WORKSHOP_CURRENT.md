@@ -12257,6 +12257,17 @@ Next, shorten the six German commands into a plausible ca.1420 recipe-language
 skeleton and show how the same fifteen semantic prompts survive scribal
 abbreviation before card encoding.
 
+Pass 856 adds a plausible source layer: six Latin-like formulary clauses become
+mixed workshop shorthand while retaining all fifteen semantic prompts and the
+same fifteen exact cards. Official manuscript analogues include a multi-hand
+North-East Italian Latin receptarium, a Latin/Occitan medicinal-water
+collection and a first-quarter fifteenth-century English/Latin recipe book.
+No Voynich language identification is claimed. See
+`sidequest_semantic_c1420_recipe_source_skeleton_eight_hundred_fifty_sixth/EIGHT_HUNDRED_FIFTY_SIXTH_RECIPE_SOURCE_LEAF.md`.
+
+Next, reconstruct a source skeleton for the actual complete H1-S001 statement
+and compare it card by card with the current literal and fluent readings.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
