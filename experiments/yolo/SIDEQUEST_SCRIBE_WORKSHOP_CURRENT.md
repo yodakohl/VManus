@@ -11793,6 +11793,18 @@ Next, resolve `os` in H1-S001 against FACH, ORT, WERKZEUG, TRENNSCHRITT and a
 copied source label. Choose the meaning that makes the whole plant instruction
 more coherent.
 
+Pass 816 revises the sole whole form `os` from the silently omitted FACH to
+`DAZU`. It occurs exactly between `cthy` (den laufenden Posten anwenden) and
+`chair` (Wasser entnehmen), giving the fluent clause "aus der Quelle anwenden;
+dazu Wasser entnehmen". ORT duplicates the picture owner, WERKZEUG has no
+visible support, and TRENNSCHRITT is meta-language. OS remains a memorized whole
+connector. See
+`sidequest_semantic_os_connector_eight_hundred_sixteenth/EIGHT_HUNDRED_SIXTEENTH_REPORT.md`.
+
+Next, resolve the twice-used exact card `dchol/schol` with one invariant value:
+compare WIEDERAUFNEHMEN, DAVON, GLEICHER_ANSATZ and a paragraph/topic marker in
+both complete contexts.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
