@@ -11979,6 +11979,16 @@ Next, repeat the hidden-word audit on the eighth grammar. With POSTEN now
 literal, attack the next recurrent content addition that cannot be explained as
 ordinary German syntax or a synonym of an existing component.
 
+Pass 832 finds ARBEITSGANG as the next hidden dictionary noun:15 tokens in14
+statements across9 records; all14 contain O and no statement without O uses it.
+Only3 of17 O-bearing statements omit the noun through editorial compression.
+This nominates the concrete revision `O: VORGANG -> ARBEITSGANG`; SCHRITT,
+FLUESSIGKEIT, FUEHREN and NEHMEN remain contextual objects or synonyms. See
+`sidequest_semantic_second_hidden_word_audit_eight_hundred_thirty_second/EIGHT_HUNDRED_THIRTY_SECOND_REPORT.md`.
+
+Next, apply O=ARBEITSGANG across18 cards/19 events and make it explicit in all17
+O-bearing statements.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
