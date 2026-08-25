@@ -12279,6 +12279,16 @@ instruction rather than one ordinary word. See
 Next, reconstruct H1-S002 as the short continuation and test whether it inherits
 the picture owner and active preparation without restating either.
 
+Pass 858 maps H1-S002's four cards to eight semantic atoms while inheriting the
+pictured plant, active preparation and current-item context from H1-S001. The
+complete H1 article now has14 cards/31 atoms. Y carries the current work item,
+not the plant owner. Neither statement has a closing card, so H1 remains open
+rather than receiving invented punctuation. See
+`sidequest_semantic_h1_continuation_eight_hundred_fifty_eighth/EIGHT_HUNDRED_FIFTY_EIGHTH_CONTINUOUS_H1_READING.md`.
+
+Next, reconstruct all three H2 statements and determine where the active
+preparation continues, branches or resets within the same pictured plant page.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
