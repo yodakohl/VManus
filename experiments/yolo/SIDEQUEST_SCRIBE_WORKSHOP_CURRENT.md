@@ -11135,10 +11135,19 @@ small rule fires once. See
 `sidequest_semantic_forward_teaching_compiler_seven_hundred_fifty_ninth/SEVEN_HUNDRED_FIFTY_NINTH_REPORT.md`
 and `SEVEN_HUNDRED_FIFTY_NINTH_FORWARD_TEACHING_SHEET.md`.
 
-Next, reduce teaching burden rather than add fit. Merge equivalent context
-rules where a single parameterized workshop rule can reproduce the same25
-uses; keep exact output fixed. Target the measure/posten, continuation, and
-neighbor-packing groups first.
+Pass 760 reduces the25 exact context variants to nine apprentice handgrips:
+5 reactivation variants,2 grade shifts,4 measure frames,3 continuation
+bridges,5 neighbor packings,1 internal-order choice,1 card repetition,2
+boundary redistributions and2 fixed cadences. The25 finite variants still fire
+once each, but the learner needs only nine concepts. All116 statements and381
+cards remain identical to Pass759. See
+`sidequest_semantic_parameterized_apprentice_rules_seven_hundred_sixtieth/SEVEN_HUNDRED_SIXTIETH_REPORT.md`
+and `SEVEN_HUNDRED_SIXTIETH_NINE_RULE_APPRENTICE_SHEET.md`.
+
+Next, test whether the seven bound large exemplars can likewise be reduced to
+family parameters rather than exact statement triggers. Attempt owner/material
+slot substitution inside the three shells while preserving all seven outputs;
+if not, keep the irreducible exemplar tails explicit.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
