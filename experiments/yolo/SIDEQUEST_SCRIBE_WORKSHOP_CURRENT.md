@@ -12809,6 +12809,22 @@ L=LEITEN, LSH=SPUELEN, SHED=RUHEN, SOLK=SAMMELN, TALAM=BEISEITESTELLEN). Rewrite
 each taught card as a mechanical root sequence while retaining its fluent local
 expansion. Correct R from generic BEZUG to KUEHL if the full family supports it.
 
+Pass 899 builds a mixed 36-root codebook:22 cross-register abbreviations plus14
+learned workshop roots. Of105 formerly taught identities,100 are now direct root
+compositions, four are fused cross-register whole forms (ody,cho,oteey,sheey)
+and TALAM is the sole learned whole root BEISEITESTELLEN. Their113 marks become
+106 compositional reads,6 fused whole-form reads and1 whole-root read. R is
+corrected to KUEHL, including both affected condition marks. See
+`sidequest_semantic_mixed_root_codebook_eight_hundred_ninety_ninth/EIGHT_HUNDRED_NINETY_NINTH_MIXED_CODEBOOK_MANUAL.md`.
+
+Next, turn the36 roots into a simple scribe's slot grammar. Assign each root a
+role such as ORDER,OPERATION,GRADE,MATERIAL,ADDRESS/PATH,STATE,REFERENT or CLOSE;
+parse all231 identities and all437 marks into those slots. Derive a small set of
+teachable card patterns that predicts the current compounds while leaving the
+four fused forms and TALAM as learned lexicon entries. Then give worked forward
+examples from intended instruction to root string and backward examples from
+surface to workshop reading.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
