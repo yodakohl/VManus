@@ -12883,6 +12883,21 @@ production vs application OK+OL; default/article-initial/condition OK+Y; and the
 corresponding OL+Y,OT+CHD+DY,OT+Y register functions. The goal is zero selectors
 that merely memorize order,page,stage or position.
 
+Pass 904 adds23 functional allographs for the remaining10 families/70 marks.
+The complete renderer now has36 functional forms plus two local whole words for
+all16 multi-allograph families/all143 such marks;294 other marks need no choice.
+No order,page,stage,position,identity or unit selector remains. Examples include
+daiin=operational vs aiin=bare condition measure,char=active vs ar=bare source,
+and qoky/qokchy/choky=default/article-initial/condition current start. See
+`sidequest_semantic_complete_functional_renderer_nine_hundred_fourth/NINE_HUNDRED_FOURTH_COMPLETE_FUNCTIONAL_RENDERER.md`.
+
+Next, consolidate one complete scribe handbook and ten-page reading from the
+current layers:36 roots,12 helper signs,8 card patterns,15 renderer rules,38
+allograph entries,231 identities,437 marks,118 units and6 complete WHAT/HOW/WHEN
+job cards. Give each fixed page a continuous readable section and each mark its
+surface,root recipe,atomic reading,fluent expansion and renderer choice. This is
+a compact new working base, not another theory branch.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
