@@ -1,11 +1,11 @@
 # Current twenty-two-page scribe-workshop theory
 
-Updated: 2026-08-25, after Pass 1009.
+Updated: 2026-08-25, after Pass 1010.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
-translation**. This is the compact handoff for the sidequest. Pass 1009 joins
-all twenty-two pages into one ordered 627-statement edition and resolves the
-remaining local action ellipses without adding a portable root.
+translation**. This is the compact handoff for the sidequest. Pass 1010 makes
+operation, grade, and endpoint independent and incorporates two parallel
+reviews of the complete workshop architecture.
 
 ## Fixed scope
 
@@ -34,9 +34,9 @@ do not automatically carry extra meanings: their portable reading is still the
 sum of their roots. Context then supplies the pictured substance, vessel,
 station, or celestial position.
 
-The apprentice inventory has 175 unambiguous codebook lines:
+The apprentice inventory has 175 unambiguous index lines:
 
-- 53 portable semantic roots represented in 56 root/local-sign entries;
+- 53 visible teaching roots/signs represented in 56 root/local-sign entries;
 - 30 frequent formula ligatures with exact root-sum meanings;
 - 72 longer contextual compositions, also root-readable;
 - 16 local ingredient labels in the three f88r batches;
@@ -97,6 +97,24 @@ gloss: it means “danach die laufende Handlung kurz ausführen”, becoming for
 example **danach kurz setzen**, **geben**, or **umsetzen** in its local chain.
 This is a compact apprentice anaphora rule, not a new word.
 
+Pass 1010 inspects all 24 `OT+Grad` action inheritances. Thirteen keep the
+source grade, six lower it, three raise it, and two introduce a grade where the
+source operation was ungraded. The verb itself remains the active verb in all
+24. Consequently `E/EE/EEE` no longer mean the universal time words
+**kurz/länger/voll**, but the more portable **GRAD I/GRAD II/GRAD III**.
+Depending on the active operation, those grades may become short/light/once,
+longer/stronger/further, or complete. The running-text grid independently
+contains 12/29 open/closed Grad-I cells, 23/26 open/closed Grad-II cells, and
+one closed Grad-III cell, so grade and endpoint are separate switches.
+
+Two parallel concept reviews further simplify the whole model. The 53 visible
+signs remain in the complete index but are not treated as 53 equally certain
+lexemes. A historical apprentice more plausibly learns roughly 15–20 semantic
+cores, rare specialist variants, thirty common ligatures, pattern examples,
+and exemplar-copied local names. The nine sentence drawers remain useful
+modern labels for expansions of one sentence spine rather than nine historical
+grammars.
+
 Beyond the 30 common formula cards, 70 recurrent compositions form a second
 apprentice drawer. They cover 287 events; 63 recur across multiple pages and
 27 have multiple visible surface forms. They add no root and do not change the
@@ -118,13 +136,13 @@ corrects the earlier overreading of label `cheody` as the prose word AUSZUG.
 The 53 roots use short, reusable values. The most important current entries
 are:
 
-- `Y = POSTEN`; a currently active item, not punctuation;
-- licensed `DY = SCHLUSS`; only learned closing constructions close;
+- `Y = AKTUELLER REFERENT/POSTEN`; a deictic carrier, not punctuation;
+- licensed `DY = ABSCHLUSSMARKE`; only learned closing constructions close;
 - `OK = SETZEN`, `O = AUSFÜHREN`, `OL = FORTSETZEN`, `OT = DANACH`;
 - `CH = NEHMEN`, `S = AUSWÄHLEN`, `K = GEBEN`;
 - `AR = QUELLE`, `AL = ZIEL`, `L = LEITEN`, `AIR = LAUF`;
 - `AIN = PORTION`, `AIIN = MASS`, `IIN = STUFE`;
-- `E = KURZ`, `EE = LÄNGER`, `EEE = VOLL`;
+- `E = GRAD I`, `EE = GRAD II`, `EEE = GRAD III`;
 - `OR = ANSATZ`, `CHEO = AUSZUG`, `HO = TEILSTOFF`;
 - `T = STELLEN`, `R = MERKEN`, `CARRIER_Q = BEGINN`;
 - `CTH = BEREIT`, `SHED = ABSETZEN`, `CHK = BEHANDELN`;
@@ -189,7 +207,7 @@ balneorum et temporum caelestium*.
 Portable sequence:
 
 > STELLEN · HALTEN · FORTSETZEN | HALTEN · AUSFÜHREN · ZIEL | TRENNEN · POSTEN |
-> HALTEN · POSTEN · MASS | UMLEITEN · POSTEN | HALTEN · KURZ · POSTEN |
+> HALTEN · POSTEN · MASS | UMLEITEN · POSTEN | HALTEN · GRAD I · POSTEN |
 > STELLEN · NEHMEN · AUSFÜHREN · SCHLUSS
 
 Local f11r expansion:
@@ -234,6 +252,10 @@ comparison set.
 
 ## Primary artifacts
 
+- Current Pass-1010 OT-grade chains, operation matrix, endpoint grid, revised
+  175-line codebook and 627-statement edition, plus two independent complete
+  concept reviews and their synthesis:
+  `sidequest_semantic_ot_grade_and_concept_review_one_thousand_tenth/`;
 - Current Pass-1009 ordered 627-statement edition, 4,581-event ledger, complete
   page profile, all 27 ellipsis resolutions, predicate profile, readable
   edition, builder, and validator:
@@ -283,8 +305,7 @@ comparison set.
 
 ## Next work
 
-Inspect the 24 `OT+Grad` action-inheritance chains as a compact short/long/full
-paradigm. Compare only repeated active operations within the same owner block:
-does `E/EE/EEE` consistently alter duration or completeness while leaving the
-inherited verb unchanged? Keep the nine drawers and 53 roots fixed, and revise
-the grade reading only if the local chains demand it.
+Map the 53 visible teaching signs onto approximately 15–20 semantic core
+functions plus explicitly named specialist variants. Preserve all surfaces,
+ligatures, page owners, nine drawer assignments and 627 statements. The target
+is one compact apprentice core sheet, not another expansion of German glosses.

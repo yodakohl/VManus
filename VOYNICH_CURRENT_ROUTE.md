@@ -1,14 +1,14 @@
 # Voynich current route
 Updated: 2026-08-25. Use `experiments/EXPERIMENT_INDEX.tsv` for primary reports; consult the active state and ledger only for claim-detail audits or historical reconstruction.
 Noncanonical twenty-two-page sidequest: `experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_CURRENT.md`.
-Its creative Pass-1009 release binds 4,581 groups (3,888 running, 693 local) in one physically ordered 627-statement edition.
+Its creative Pass-1010 release binds 4,581 groups (3,888 running, 693 local) in one physically ordered 627-statement edition.
 The 175-line codebook has 53 roots, 30 formula ligatures, 72 contextual compositions, 16 local drug labels, and one address-copy rule.
-Pass 1007 compresses the 462 statements into nine apprentice templates: basic action, item, continuation, measure, preparation, target, path, full chain, and celestial entry. They retain 432 licensed closes, 20 visible boundaries, 10 open ends, and 160 line crossings without a new root.
-Pass 1009 corrects the ACTION audit: 588 explicit operations, nine fused
-path-operations, three self-predicating continuations, and 27 genuine ellipses,
-all resolved in the same page-owner block. It retains nine drawers, 566 closes,
-51 boundaries, ten open ends, 199 line crossings, and zero new roots.
-The creative model is material → preparation → local application → celestial lookup, not a confirmed translation.
+Pass 1010 resolves the 24 `OT+Grad` action ellipses: 13 retain their prior
+grade, six lower it, three raise it, and two introduce it, while the inherited
+verb stays fixed. `E/EE/EEE` are now GRAD I/II/III rather than universal time
+words; Y/DY independently keeps the referent active or closes the part-step.
+Two concept reviews favor four interoperable registers in an illustrated
+workshop breviary, not a mandatory linear pipeline or 53 proven lexemes.
 ## Scientific ceiling
 
 - The manuscript is **not translated**.

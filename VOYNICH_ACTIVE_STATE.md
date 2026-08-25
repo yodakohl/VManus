@@ -6,7 +6,7 @@ Updated: 2026-08-25. This is the full claim registry. For routine work, read
 
 ## Outcome
 
-### Noncanonical twenty-two-page sidequest (Pass 1009)
+### Noncanonical twenty-two-page sidequest (Pass 1010)
 
 The creative workshop sidequest covers twenty-two admitted physical pages with
 4,581 visible groups: 3,888 running prose/ring-text groups plus 693 local
@@ -102,6 +102,21 @@ block; none requires a new portable root. Thus forms such as `otedy` are read
 contextually as “danach [laufende Handlung] kurz”, rather than as a memorized
 global verb. The unified ending inventory is 566 licensed closes, 51 visible
 boundaries, ten open ends, and 199 physical-line crossings.
+
+Pass 1010 separates the active operation from its following grade. Across all
+24 `OT+Grad` action-inheritance chains, 13 preserve the source grade, six lower
+it, three raise it, and two add a first grade; the inherited operation remains
+unchanged. The portable dictionary therefore replaces the overly temporal
+`KURZ/LÄNGER/VOLL` with `GRAD I/GRAD II/GRAD III`. Local processes may still
+realize these as short/light/once, longer/stronger/further, or complete, but
+those expansions are no longer atomic word meanings. The visible grid also
+separates grade from endpoint: running text contains 12/29 open/closed Grad-I
+cells, 23/26 open/closed Grad-II cells, and one closed Grad-III cell. Two
+parallel concept reviews retain the 53 visible teaching signs but recommend
+organizing them as roughly 15–20 semantic cores plus specialist variants,
+ligatures, and exemplar-copied local names. The creative book model is now
+four interoperable registers of an illustrated medical-alchemical workshop
+breviary, not a compulsory page-by-page production pipeline.
 
 - The manuscript is **not translated**. There are zero confirmed English
   lexemes, zero plaintext clauses, and no established language, phonetic
