@@ -11054,10 +11054,18 @@ fragment occurrences in15 residual statements. No new meaning or deck card is
 introduced. See
 `sidequest_semantic_formula_family_clustering_seven_hundred_forty_ninth/SEVEN_HUNDRED_FORTY_NINTH_REPORT.md`.
 
-Next, complete the three `OR | Y` environments first. Treat Y as reactivation
-of the current preparation, derive full left/right recipe triggers, and retain
-only whole-statement repairs. Then use the same method on measure/address and
-continuation bridges.
+Pass 750 completes all three `OR | Y` environments as variants of one learned
+phrase: ANSATZ | DIES, where Y reactivates the named preparation as the current
+work item. Full-context rules repair H2-S003,H4-S004 and B4-S014. Exact recipes
+rise87→90/116, equal card counts98→101, and output cards348→353/381. Three
+triggers give three whole-statement fixes and no harm; no meaning or deck card
+changes. See
+`sidequest_semantic_current_preparation_formula_seven_hundred_fiftieth/SEVEN_HUNDRED_FIFTIETH_REPORT.md`.
+
+Next, complete the measure/address family. Separate three functions before
+writing rules: measured-item brackets, activation-followed-by-measure, and
+continuation-around-measure. Use full neighboring recipe context so AIIN is
+never copied as a free register.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
