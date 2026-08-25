@@ -12379,6 +12379,20 @@ Next, turn these six pairings into a compact WHAT→HOW workshop leaf with an
 explicit unnamed-product slot, and see which information a second scribe must
 receive orally or from the picture.
 
+Pass 867 turns the pairing into an executable WHAT→HOW leaf. Four unnamed
+product slots P1–P4 feed six Biological jobs covering all281 cards and97
+statements. A six-step apprentice routine divides evenly between picture,
+cards, and master/memory: pictures identify plant and station, cards supply
+process class and order, and the master supplies the concrete product,
+body/object referent, numeric measure/duration, and desired material result.
+This makes a small workshop learnable without pretending that the ten pages are
+self-reading prose. See
+`sidequest_semantic_what_how_workshop_leaf_eight_hundred_sixty_seventh/EIGHT_HUNDRED_SIXTY_SEVENTH_WHAT_HOW_WORKSHOP_LEAF.md`.
+
+Next, integrate the three Astro pages as a separate WHEN/CONDITION shelf while
+preserving their real multi-instrument layouts: no single 7x12 table, no linear
+28-rule wheel, no orientation, and no f68↔f69 key.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
