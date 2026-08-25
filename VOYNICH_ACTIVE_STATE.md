@@ -6,13 +6,15 @@ Updated: 2026-08-25. This is the full claim registry. For routine work, read
 
 ## Outcome
 
-### Noncanonical twenty-two-page sidequest (Pass 1012)
+### Noncanonical twenty-two-page sidequest (Pass 1013)
 
 The creative workshop sidequest covers twenty-two admitted physical pages with
 4,581 visible groups: 3,888 running prose/ring-text groups plus 693 local
 image, station, vessel, celestial addresses/labels, and section markers. Its current
-mixed codebook has 175 lines: 56 root/local-sign entries, 30 frequent formula
-ligatures, 72 long contextual compositions,
+mixed codebook retains 175 historical surface lines, but its semantic pocket
+dictionary now has 46 signs: 19 portable cores, eight controls and nineteen
+local signs. The remaining index contains 30 frequent formula ligatures, 72
+long contextual compositions,
 sixteen f88r ingredient labels, and one rule for copying a complete local
 address. Formula ligatures and contextual compositions are read from their
 roots; the image/master exemplar supplies their concrete local expansion.
@@ -143,6 +145,17 @@ has one short value plus a forbidden rescue: notably `L=VERBINDUNG` supplies no
 direction, `AR=AUSGANG` is no substance source, and `O` plus `E/EE/EEE` are
 controls rather than concrete words. Conflicting future compositions must be
 whole-card exceptions or failures; roots may not be stretched to absorb them.
+
+Pass 1013 removes the remaining specialist layer by resegmenting ten candidates
+into already licensed components. The embedded family is `C<T>H=CH+T`,
+`C<K>H=CH+K`, `C<P>H=CH+P`, and `C<F>H=CH+LOCAL_F`; the linear families are
+`CHEO=CH+E+O`, `CHK=CH+K`, `SHED=SH+E`, `LSH=L+SH`, `SOLK=OL+K`, and the
+one-event `LD=L+D_ADDR`. Only `AIR=LAUF` remains as a distinct sign and is
+promoted to the seventh relation core. The complete running layer now contains
+3,343 portable-core events, 490 local-sign events and 55 control-only events;
+statement classes are 416/210/1. Former glosses such as *bereit, Durchlass,
+Auszug, absetzen, spülen, auffangen* and *befestigen* may survive only as local
+owner-bound executions, not dictionary stems.
 
 - The manuscript is **not translated**. There are zero confirmed English
   lexemes, zero plaintext clauses, and no established language, phonetic

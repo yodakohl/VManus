@@ -1,13 +1,13 @@
 # Voynich current route
 Updated: 2026-08-25. Use `experiments/EXPERIMENT_INDEX.tsv` for primary reports; consult the active state and ledger only for claim-detail audits or historical reconstruction.
 Noncanonical twenty-two-page sidequest: `experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_CURRENT.md`.
-Its creative Pass-1012 release binds 4,581 groups (3,888 running, 693 local) in one physically ordered 627-statement edition.
-The 56 root/local-sign entries are now 12 content/action cores, 6 relation cores, 8 formal controls, 11 specialist candidates and 19 local signs.
-Pass 1012 removes all 72 old concrete contextual glosses from the portable
-dictionary while preserving their surfaces and owner-bound paraphrases. Of
-3,888 running events, 2,851 use the portable core, 498 require a specialist
-candidate, 484 require a local sign and 55 are control-only. A new composition
-must keep the fixed core sum; conflicts cannot be rescued by redefining roots.
+Its creative Pass-1013 release binds 4,581 groups (3,888 running, 693 local) in one physically ordered 627-statement edition.
+The semantic pocket dictionary now has 46 signs: 12 content/action cores, 7
+relation cores, 8 formal controls and 19 local signs. Ten former specialist
+candidates resegment into existing components; `AIR=LAUF` becomes the seventh
+relation core. Of 3,888 running events, 3,343 use the portable core, 490
+require a local sign and 55 are control-only. A new composition must keep the
+fixed core sum; conflicts cannot be rescued by redefining roots.
 ## Scientific ceiling
 
 - The manuscript is **not translated**.

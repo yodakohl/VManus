@@ -1,11 +1,11 @@
 # Current twenty-two-page scribe-workshop theory
 
-Updated: 2026-08-25, after Pass 1012.
+Updated: 2026-08-25, after Pass 1013.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
-translation**. This is the compact handoff for the sidequest. Pass 1012 turns
-the former broad root inventory into a constrained semantic contract and
-withdraws the concrete local glosses that were not predictable from roots.
+translation**. This is the compact handoff for the sidequest. Pass 1013
+resegments ten former specialist candidates into already known components,
+leaving a smaller 46-sign contract and no independent specialist root.
 
 ## Fixed scope
 
@@ -34,9 +34,11 @@ do not automatically carry extra meanings: their portable reading is still the
 sum of their roots. Context then supplies the pictured substance, vessel,
 station, or celestial position.
 
-The apprentice inventory has 175 unambiguous index lines:
+The historical 175-line apprentice index remains the surface inventory, but
+its semantic pocket dictionary now needs only 46 signs:
 
-- 53 visible teaching roots/signs represented in 56 root/local-sign entries;
+- 19 portable content/relation cores, eight controls and nineteen local signs;
+- 10 resegmentation rules for the former specialist frames;
 - 30 frequent formula ligatures with exact root-sum meanings;
 - 72 longer contextual compositions, also root-readable;
 - 16 local ingredient labels in the three f88r batches;
@@ -162,6 +164,22 @@ former 56 specialist-headword groups split into 72 distinct spellings, and all
 72 likewise have complete root recipes. Their concrete nouns and procedures
 are local image-/exemplar expansions, not additional portable words.
 
+Pass 1013 then finds that ten of the eleven specialist candidates are not
+additional roots at all. Four form one embedded `C_H` family:
+`C<T>H=CH+T`, `C<K>H=CH+K`, `C<P>H=CH+P`, and
+`C<F>H=CH+LOCAL_F`. Six others are ordinary combinations:
+`CHEO=CH+E+O`, `CHK=CH+K`, `SHED=SH+E`, `LSH=L+SH`,
+`SOLK=OL+K`, and the single `LD=L+D_ADDR`. Only `AIR=LAUF` survives,
+now as a seventh portable relation core rather than a concrete fluid word.
+
+This reduces the semantic inventory from 56 to 46 signs: twelve action/content
+cores, seven relation cores, eight controls, nineteen local signs, and zero
+specialist roots. Of the 3,888 running events, 3,343 are core-readable, 490
+need a local owner/sign and 55 are control-only. The corresponding statement
+classes are 416/210/1. The old words *bereit, Durchlass, Auszug, bearbeiten,
+umleiten, absetzen, auffangen, spülen, trennen* and *befestigen* remain possible
+local executions, not portable stem meanings.
+
 The address rule is essential. A spelling inside a zodiac or star label is
 first the local name of that figure or position. It may remind the scribe of a
 portable root, but it does not force the corresponding workshop meaning. This
@@ -175,18 +193,22 @@ The twelve content/action cores are:
 - `AIIN=MASS`, `AIN=PORTION`, `S=WÄHLEN`, `T=EINSTELLEN`;
 - `CHD=UMSETZEN`, `OR=ANSATZ`, `R=MARKIEREN`, `P=EINSETZEN`.
 
-Six further portable values carry reference, sequence, or relation:
+Seven further portable values carry reference, sequence, or relation:
 
 - `Y=AKTIVER POSTEN`, `OL=FORTSETZEN`, `OT=DANACH`;
-- `AL=ZIELORT`, `AR=AUSGANG`, `L=VERBINDUNG`.
+- `AL=ZIELORT`, `AR=AUSGANG`, `L=VERBINDUNG`, `AIR=LAUF`.
 
 Eight signs are controls rather than content words: `E/EE/EEE=GRAD I/II/III`,
 licensed `DY=SCHLUSS`, `O=AUSFÜHRUNG`, `CARRIER_Q=BEGINNMARKER`, `IIN=STUFE`,
-and `DA=ZWEITE STUFE`. The eleven specialist candidates remain `CTH=BEREIT`,
-`SHED=ABSETZEN`, `CKH=DURCHLASS`, `CHEO=AUSZUG`, `AIR=LAUF`,
-`CHK=BEARBEITEN`, `SOLK=AUFFANGEN`, `LSH=SPÜLEN`, `CPH=UMLEITEN`,
-`CFH=TRENNEN`, and `LD=BEFESTIGEN`. Nineteen other signs are local addresses
-or memorized marks and may not generate portable words.
+and `DA=ZWEITE STUFE`. Nineteen other signs are local addresses or memorized
+marks and may not generate portable words.
+
+The embedded and linear recipes replacing the specialist layer are:
+
+- `C<T>H=CH+T`, `C<K>H=CH+K`, `C<P>H=CH+P`,
+  `C<F>H=CH+LOCAL_F`;
+- `CHEO=CH+E+O`, `CHK=CH+K`, `SHED=SH+E`;
+- `LSH=L+SH`, `SOLK=OL+K`, `LD=L+D_ADDR`.
 
 ## Useful rooted cards under the contract
 
@@ -196,17 +218,17 @@ The current deck includes the following stable working readings:
 - `ol/chol/qol/sol/ls` → **DAMIT FORTFAHREN**;
 - `daiin/aiin` → **NACH MASS**;
 - `chedy/chdy/chedchy` → **DEN POSTEN UMSETZEN**;
-- `shedy` → **ABSETZEN; SCHLUSS**;
+- `shedy` → **HALTEN · GRAD I; SCHLUSS**;
 - `qokedy/okedy` → **KURZ ANSETZEN; SCHLUSS**;
 - `qokeedy/okeedy` → **LÄNGER ANSETZEN; SCHLUSS**;
 - `qokain/okain/chokain` → **EINE PORTION ANSETZEN**;
 - `qokaiin/okaiin` → **NACH MASS ANSETZEN**;
 - `lchedy` → **WEITER UMSETZEN; SCHLUSS**;
-- `cfhy` → **TRENNEN · AKTIVER POSTEN**; *auswringen* is not portable;
-- `cphy` → **UMLEITEN · AKTIVER POSTEN**; *nachseihen* is not portable;
+- `cfhy` → **NEHMEN · NEBENADRESSE · AKTIVER POSTEN**; *auswringen* is local;
+- `cphy` → **NEHMEN · EINSETZEN · AKTIVER POSTEN**; *nachseihen* is local;
 - `shey/cheey` → **HALTEN · GRAD I/II · AKTIVER POSTEN**; *Klarlauf* is not portable;
-- `qokylddy` contains the one-event specialist candidate `LD=BEFESTIGEN` and
-  is not yet a core formula.
+- `qokylddy` → **SETZEN · POSTEN · VERBINDUNG · TEILADRESSE; SCHLUSS**;
+  *befestigen* is only its old local expansion.
 
 `E/EE/EEE` form a duration or intensity grade only in licensed families.
 Visible `dy` is not automatically a close: the current-item card can itself
@@ -240,8 +262,9 @@ balneorum et temporum caelestium*.
 
 Portable sequence:
 
-> STELLEN · HALTEN · FORTSETZEN | HALTEN · AUSFÜHREN · ZIEL | TRENNEN · POSTEN |
-> HALTEN · POSTEN · MASS | UMLEITEN · POSTEN | HALTEN · GRAD I · POSTEN |
+> STELLEN · HALTEN · FORTSETZEN | HALTEN · AUSFÜHREN · ZIEL |
+> NEHMEN · NEBENADRESSE · POSTEN | HALTEN · POSTEN · MASS |
+> NEHMEN · EINSETZEN · POSTEN | HALTEN · GRAD I · POSTEN |
 > STELLEN · NEHMEN · AUSFÜHREN · SCHLUSS
 
 Current image-repaired f11r expansion:
@@ -293,6 +316,9 @@ comparison set.
 
 ## Primary artifacts
 
+- Current Pass-1013 46-sign contract, ten resegmentations, 102 composition
+  contracts, complete 627-statement pressure map, builder, and validator:
+  `sidequest_semantic_embedded_stem_resegmentation_one_thousand_thirteenth/`;
 - Current Pass-1012 56-entry semantic contract, 102 composition contracts,
   complete 627-statement pressure map, apprentice core sheet, builder, and
   validator:
@@ -354,8 +380,8 @@ comparison set.
 
 ## Next work
 
-Resolve the eleven specialist candidates without adding pages. First audit the
-cross-register families `CTH`, `CKH`, `CHEO`, `AIR`, `CHK`, and `CPH`; any that
-cannot retain one concrete operation become formal controls or whole-card
-material. Then inspect the narrower `SHED`, `SOLK`, `LSH`, `CFH`, and `LD`
-families. No portable core may change during this work.
+Propagate the 46-sign reading into the manually inspected passages and compare
+linear `CH+K` against embedded `C<K>H` without inventing different dictionary
+words. Then inspect the nineteen local signs: a local sign may become a
+portable core only if the same small value survives several existing owner
+types. No additional page is needed for that work.
