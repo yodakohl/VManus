@@ -12340,6 +12340,17 @@ material of the pictured plant. See
 Next, synthesize all four Herbal pages into one process atlas and compare their
 distinct page recipes under the shared card vocabulary.
 
+Pass 864 combines all four Herbal pages:100 cards,19 statements,206 semantic
+atoms, four picture owners and four distinct recipes under one card grammar.
+Eight exact card types cross page boundaries and cover36 events;64 events use
+page-local exact cards. `PROC009=AIIN=SOLLMASS` is the sole exact card on all
+four pages. The result is shared measured workshop syntax, not one repeated
+recipe or four unrelated languages. See
+`sidequest_semantic_four_herbal_process_atlas_eight_hundred_sixty_fourth/EIGHT_HUNDRED_SIXTY_FOURTH_FOUR_HERBAL_ATLAS.md`.
+
+Next, build an equally concrete three-page Biological process atlas and test
+whether its short closed cells look like applications of Herbal products.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
