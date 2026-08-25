@@ -12393,6 +12393,20 @@ Next, integrate the three Astro pages as a separate WHEN/CONDITION shelf while
 preserving their real multi-instrument layouts: no single 7x12 table, no linear
 28-rule wheel, no orientation, and no f68↔f69 key.
 
+Pass 868 integrates all142 Astro loci/395 groups as six usable local condition
+shelves plus one unresolved f67 legend: right f67 sector/phase, left f67
+star/aspect, f68 multipanel star-place, left f69 local28-place, middle f69
+weather/moisture, and right f69 light/body-quality. A36-row menu permits the
+master to add one of these condition families to each WHAT→HOW job, with six
+illustrative choices. Actual values remain local master entries: there is no
+automatic join, orientation, common 28-cycle, f68↔f69 mapping, or Astro word
+translation. See
+`sidequest_semantic_when_condition_shelf_eight_hundred_sixty_eighth/EIGHT_HUNDRED_SIXTY_EIGHTH_WHEN_CONDITION_WORKSHOP_SHELF.md`.
+
+Next, combine WHAT, HOW and CONDITION into one ten-page scribal production
+manual, then execute a complete sample order forward and backward to locate the
+remaining practical ambiguities.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
