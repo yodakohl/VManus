@@ -11240,10 +11240,18 @@ four exams plus the edge renderer remain exact, so rare reference values no
 longer masquerade as productive memory. See
 `sidequest_semantic_memory_lookup_curriculum_seven_hundred_seventy_first/SEVEN_HUNDRED_SEVENTY_FIRST_REPORT.md`.
 
-Next, optimize the39-component vocabulary the same way. Rank components by
-event use and indispensability to the nine rules; divide them into fast oral
-core, wall strip and model-only rare values. Retest whether every card recipe
-can still be composed or looked up without changing any German default.
+Pass 772 similarly tiers the39 components into12 fast oral values,21 values on
+a rule wall-strip and6 model-only rare values (LSH,CFH,DA,LD,OS,TALAM). The33
+rule values preserve all9 handgrips and compose166/173 cards,373/381 events and
+109/116 whole statements. The6 model values affect only7 cards,8 events and7
+statements. All German defaults stay unchanged; a simple top27 vocabulary would
+lose four handgrips. See
+`sidequest_semantic_component_memory_optimization_seven_hundred_seventy_second/SEVEN_HUNDRED_SEVENTY_SECOND_REPORT.md`.
+
+Next, revise the hours for12 oral+21 wall+6 model values and write out the seven
+model-dependent statements as concrete master-sheet exercises. Test covered-
+model recall: the learner should reproduce the full registered card only after
+seeing its owner and model cue, never by inventing a new component rule.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
