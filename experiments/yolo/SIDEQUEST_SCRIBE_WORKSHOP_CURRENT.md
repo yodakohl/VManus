@@ -11547,6 +11547,19 @@ Next, substitute those eight missing control cards into their full statements.
 The tail, owner and every noncontrol value must stay fixed while only the
 instruction mode changes among execute, next and continue.
 
+Pass 796 performs eight full-statement substitutions: six OK→OL and two OK→OT.
+All eight preserve the complete tail, picture owner, other events and any
+quantity, address, grade or endpoint. Only the flow mode changes: OK starts or
+executes the named step, OT takes it next, OL continues it from the prior
+operation. The readable contrasts include `qokaiin→qolaiin`,
+`qokeedy→qoleedy`, `qokaly→qotaly` and `qokshedy→qotshedy`. See
+`sidequest_semantic_control_substitutions_seven_hundred_ninety_sixth/SEVEN_HUNDRED_NINETY_SIXTH_READABLE_SUBSTITUTIONS.md`.
+
+Next, inventory K, L and CHD as transfer-operation components. Group recipes by
+the other components and identify whether add/insert, guide and transfer form
+real substitutable operation families or must remain partly nested whole-card
+values.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
