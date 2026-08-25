@@ -11078,10 +11078,17 @@ cards357→362/381. Four triggers fix four statements with no harm; OL remains
 WEITER rather than a free copy register. See
 `sidequest_semantic_continuation_bridge_formula_seven_hundred_fifty_second/SEVEN_HUNDRED_FIFTY_SECOND_REPORT.md`.
 
-Next, reclassify the19 residual statements from scratch after the phrase
-layer. Separate true recipe-order mistakes, single-card packing choices,
-remaining contextual omissions, and large learned Herbal formulas. Use that
-inventory to choose the next smallest repair family.
+Pass 753 reclassifies the19 remaining statements after the phrase layer. Seven
+are one-edit local pack choices, two are segmentation/redistribution only,
+three are small coordinated phrase reorders, and seven are large learned
+formulas. The seven minimal cases each have card edit distance1; the large
+formula set is H1-S001,H2-S001,H3-S001,H5-S001,B1-S002,B3-S021,B6-S001.
+See
+`sidequest_semantic_post_formula_residual_taxonomy_seven_hundred_fifty_third/SEVEN_HUNDRED_FIFTY_THIRD_REPORT.md`.
+
+Next, implement exactly the seven one-edit contexts: append Y after CTH+Y,
+pack HO/AR/CKH/AIIN with their neighbor, duplicate OK+AIIN once, and select the
+attested T+E+Y order. Leave the other12 classes untouched.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
