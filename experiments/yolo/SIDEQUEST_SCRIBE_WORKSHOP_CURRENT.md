@@ -11037,10 +11037,19 @@ units, saving24 card positions over20 macro uses. This supports a small learned
 phrase layer rather than new free copy axes. See
 `sidequest_semantic_multicard_formula_inventory_seven_hundred_forty_seventh/SEVEN_HUNDRED_FORTY_SEVENTH_REPORT.md`.
 
-Next, test the two complete trigrams as active output rules on top of fixed Y
-valency. Require their whole semantic environment so that the useful measured-
-item bracket does not fire at every adjacent AIIN/Y mention; leave the twelve
-short fragments as teaching clues until a safe trigger exists.
+Pass 748 activates those two trigrams through three complete recipe-context
+rules, never through a bare AIIN/Y or OK/Y trigger. The measured-item bracket
+repairs B3-S003; two staged-activation environments repair B2-S010 and
+B4-S003. Exact recipe sequences rise84→87/116, equal card counts95→98, and
+predicted cards345→348/381. All three triggers occur once, all three fix their
+statement and none harms an earlier exact result. Meanings and deck stay fixed.
+See
+`sidequest_semantic_context_bound_formula_completion_seven_hundred_forty_eighth/SEVEN_HUNDRED_FORTY_EIGHTH_REPORT.md`.
+
+Next, cluster the twelve recurrent bigram fragments into a few larger phrase
+families. Search the29 residual statements for complete left/right contexts
+around `OL | SHED+DY`, `OL+OR | OL`, `OL+K+AIN | AL`, `OR | Y`, and the
+measure fragments; promote only context rules that repair a whole recipe.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
