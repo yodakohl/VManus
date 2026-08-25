@@ -12081,6 +12081,17 @@ Next, combine address, quantity and grade into one compact card-construction
 manual and use it to reparse the highest-frequency exact cards without adding
 page-specific meanings.
 
+Pass 840 publishes a12-rule apprentice manual over all39 components. The ten
+most frequent exact cards cover127/381 events,68 statements, all11 records and
+all7 prose pages with one owner-independent paraphrase per card. No picture noun
+is smuggled into these portable readings. A critical mixed-system rule is now
+explicit: the exact Y card can be visibly rendered `dy`, so whole-card identity
+is recognized before licensed closing DY is parsed. See
+`sidequest_semantic_card_construction_manual_eight_hundred_fortieth/EIGHT_HUNDRED_FORTIETH_ONE_PAGE_MANUAL.md`.
+
+Next, apply the same portable-reading test to frequency ranks11–20. Extend the
+productive manual only if those cards need no new page-specific values.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
