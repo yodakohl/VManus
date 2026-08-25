@@ -10930,9 +10930,19 @@ cards,163 recipes,381 events,116 statements and11 records rebuild exactly with
 no empty or sentence-sized card gloss. See
 `sidequest_semantic_consolidated_codebook_seven_hundred_thirty_seventh/SEVEN_HUNDRED_THIRTY_SEVENTH_REPORT.md`.
 
-Next, attack the eight remainder cards in full local context. Try to attach a
-singleton component to an existing recurrent family or confirm it as a learned
-whole command, without changing the31-root productive core.
+Pass 738 audits all8 remainder cards/9 occurrences. The consecutive H4 pair
+`ykain ykan` holds Y+K fixed and changes only AIN→AN, so AN is promoted to a
+bound AIN variant: ordinary PORTION versus NACHGABE/another portion. Thus166
+cards/373 events are recurrently or pairwise compositional. Four contextual
+singletons remain (CFH AUSWRINGEN,S TEIL,LD BEFESTIGEN,DA ZWEIT) and three
+whole commands remain (OS FACH,RESUME_CARD WIEDERAUFNEHMEN,TALAM VERWAHREN).
+The31-root core and all semantic values/forms remain fixed. See
+`sidequest_semantic_remainder_closure_seven_hundred_thirty_eighth/SEVEN_HUNDRED_THIRTY_EIGHTH_REPORT.md`.
+
+Next, regenerate all116 statements and11 records as a clean fluent edition from
+the consolidated39-entry codebook. Remove superseded wording (Mass,Ziel,
+Fortsetzen,Weiterleiten,Auffangen and complex shey) while preserving every
+surface, card, owner and statement boundary.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
