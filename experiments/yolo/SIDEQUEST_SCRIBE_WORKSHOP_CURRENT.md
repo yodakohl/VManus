@@ -11535,6 +11535,18 @@ group identical tails, and ask whether changing OK→OT→OL consistently change
 ANSETZEN→DANACH→FORTSETZEN while leaving quantities, addresses, grades and
 endpoints fixed.
 
+Pass 795 inventories138 control-led events/49 cards/43 recipes: OK79, OT26 and
+OL33. Their first meaning is invariant in138/138 cases—ANSETZEN, DANACH and
+WEITER—and137 surfaces show the core directly; `ls` is the sole learned opaque
+OL allograph. Eleven tails/89 events recur under at least two controls; Y and
+CHD+DY have all three. Eight nonrecursive gaps yield unseen cards
+`qolaiin,qolal,qoledy,qolar,qoleey,qoleedy,qotaly,qotshedy`; OL+OL is withheld.
+See `sidequest_semantic_control_axis_seven_hundred_ninety_fifth/SEVEN_HUNDRED_NINETY_FIFTH_REPORT.md`.
+
+Next, substitute those eight missing control cards into their full statements.
+The tail, owner and every noncontrol value must stay fixed while only the
+instruction mode changes among execute, next and continue.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
