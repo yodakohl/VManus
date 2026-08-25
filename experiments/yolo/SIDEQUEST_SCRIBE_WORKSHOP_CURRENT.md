@@ -12978,6 +12978,28 @@ short expansion table, and add a bounded copied-name drawer tied to visible
 owners. Retranslate the fourteen admitted physical pages with the revised
 AIR/AL/AR/P/CHEO/S values before admitting any further page.
 
+Pass 910 performs that complete rebuild. The earlier776 groups were only a
+selected ten-page job-card edition; the full guarded ZL3b content of the same
+ten pages plus the four new pages is2511 groups in464 loci and1078 surface
+types. Every group now has a decomposition or whole-card identity, a portable
+default, a register-specific value and a fluent token reading; all fourteen
+physical pages also have a continuous workshop translation that does not turn
+line endings into sentence endings. The dictionary has1384 register/use/recipe
+entries. The three-layer accounting is1737 events with already learned
+component recipes,492 new complete compositions,21 compositions with one local
+sign,198 pictured names/classes and63 copied whole workshop cards. Fifteen
+portable cores remain; the four register tables contain49 component/sign rows.
+The bounded local drawer has240 entries. See
+`sidequest_semantic_three_layer_master_handbook_nine_hundred_tenth/PASS910_REPORT.md`
+and the complete `PASS910_FOURTEEN_PAGE_EDITION.md`.
+
+Next, inspect only the240 local-drawer entries, beginning with recurrent cards
+inside the same register and cards that recur under two visibly different
+owners. Try to replace a whole card only with one short register-specific root
+that improves both readings. Do not promote a root merely because its letters
+can be segmented, and do not add another page until this local drawer has been
+ordered.
+
 Continue only inside the fourteen-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
