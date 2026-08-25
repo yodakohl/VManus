@@ -10939,10 +10939,20 @@ whole commands remain (OS FACH,RESUME_CARD WIEDERAUFNEHMEN,TALAM VERWAHREN).
 The31-root core and all semantic values/forms remain fixed. See
 `sidequest_semantic_remainder_closure_seven_hundred_thirty_eighth/SEVEN_HUNDRED_THIRTY_EIGHTH_REPORT.md`.
 
-Next, regenerate all116 statements and11 records as a clean fluent edition from
-the consolidated39-entry codebook. Remove superseded wording (Mass,Ziel,
-Fortsetzen,Weiterleiten,Auffangen and complex shey) while preserving every
-surface, card, owner and statement boundary.
+Pass 739 publishes the first single clean prose edition from that codebook:
+39 entries,173 cards,381 events,116 statements and11 records. Every statement
+has an exact atomic trace plus a fluent owner-addressed workshop reading.
+Sixty legacy wording residues were purged without changing a meaning or form:
+11 bare MASS→SOLLMASS,17 FORTSETZEN→WEITERARBEITEN,26
+WEITERLEITEN→LEITEN,2 EINFUELLEN→FUELLEN,2 bare ZIEL→ZIELSTELLE and two
+minor repairs. No bare Mass/Ziel/Fortsetzen/Weiterleiten/Auffangen/Einfuellen
+or complex `shey` gloss remains. See
+`sidequest_semantic_clean_fluent_edition_seven_hundred_thirty_ninth/SEVEN_HUNDRED_THIRTY_NINTH_REPORT.md`.
+
+Next, sort all116 statements into a small set of recurring workshop sentence
+plans. Derive a compact apprentice sheet for OWNER, SOURCE, SOLLMASS,
+ZIELSTELLE, OPERATION, GRADE and SCHLUSS, while keeping genuinely elliptical
+or order-exception statements explicit.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these

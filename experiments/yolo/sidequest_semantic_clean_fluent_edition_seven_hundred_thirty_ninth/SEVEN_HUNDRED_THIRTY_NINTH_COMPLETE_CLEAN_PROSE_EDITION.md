@@ -1,0 +1,384 @@
+# Pass 739 — bereinigte Werkstattausgabe
+
+Jede Aussage hat zwei Schichten: erst die exakte Folge der 39 kurzen Codebook-Werte, dann eine flüssige deutsche Werkstattanweisung. Bildbesitzer, Karten, Reihenfolge und Aussagegrenzen bleiben unverändert.
+
+## H1 — f10r
+
+- **H1-S001** `dchey cthoor char chty os chair otytchol oky daiin etyd`
+  - Codebook: ENTNEHMEN · KURZ · DIES | BEREITEN · ARBEITSGANG · ANSATZ | QUELLE | ANWENDEN · DIES | FACH | ENTNEHMEN · WASSER | DANACH · DIES · ANWENDEN · ENTNEHMEN · WEITER | ANSETZEN · DIES | SOLLMASS | KURZ · ANWENDEN · DIES
+  - Lesung: Bei der breiten gezahnten Bluetenpflanze: Den laufenden Posten kurz entnehmen; den Ansatz im Arbeitsgang bereiten und aus der Quelle anwenden; Wasser entnehmen, danach den Posten weiterfuehren, nach Sollmass ansetzen und kurz anwenden.
+- **H1-S002** `qokchy qotchol chol cthy`
+  - Codebook: ANSETZEN · DIES | DANACH · ENTNEHMEN · WEITER | WEITER | BEREITEN · DIES
+  - Lesung: Bei der breiten gezahnten Bluetenpflanze: Den laufenden Posten ansetzen, danach entnehmen und weiterfuehren, weiterarbeiten und ihn bereitet halten.
+
+## H2 — f10r
+
+- **H2-S001** `ycheor cthy chor cthaiin qoctholy dy chy taiin shy`
+  - Codebook: DIES · ENTNEHMEN · KURZ · ANSATZ | BEREITEN · DIES | ANSATZ | BEREITEN · SOLLMASS | ARBEITSGANG · BEREITEN · WEITER · DIES | DIES | DIES | SOLLMASS | DIES
+  - Lesung: Bei der breiten gezahnten Bluetenpflanze: Vom laufenden Ansatz kurz entnehmen; den Posten bereitet halten, den Ansatz nach Sollmass weiterbearbeiten und als aktuellen Posten verfuegbar lassen.
+- **H2-S002** `qotchor chor otol chol cholor chol daiin dar`
+  - Codebook: DANACH · ENTNEHMEN · ANSATZ | ANSATZ | DANACH · WEITER | WEITER | WEITER · ANSATZ | WEITER | SOLLMASS | QUELLE
+  - Lesung: Bei der breiten gezahnten Bluetenpflanze: Danach vom Ansatz entnehmen; denselben Ansatz in mehreren weiteren Arbeitsschritten nach Sollmass aus der Quelle weiterfuehren.
+- **H2-S003** `oykchor shor chor chy kaiiin dy chodaiin`
+  - Codebook: ARBEITSGANG · DIES · ZUGEBEN · ANSATZ | ANSATZ | ANSATZ | DIES | ZUGEBEN · ARBEITSSTUFE | DIES | ENTNEHMEN · ARBEITSGANG · SOLLMASS
+  - Lesung: Bei der breiten gezahnten Bluetenpflanze: Im Arbeitsgang den aktuellen Ansatz zugeben; denselben Ansatz als laufenden Posten beibehalten, bis zur Arbeitsstufe weiter zugeben und anschliessend im Arbeitsgang nach Sollmass entnehmen.
+
+## H3 — f11r
+
+- **H3-S001** `tshol schoal cfhy shfydaiin cphy shey tchody`
+  - Codebook: ANWENDEN · HALTEN · WEITER | HALTEN · ARBEITSGANG · ZIELSTELLE | AUSWRINGEN · DIES | HALTEN · DIES · SOLLMASS | FUELLEN · DIES | HALTEN · LANG · DIES | ANWENDEN · ENTNEHMEN · ARBEITSGANG · SCHLUSS
+  - Lesung: Bei der dicht bluehenden Kronenpflanze: Den Ansatz an der Zielstelle weiter halten; auswringen, bis zum Sollmass halten, in den Empfaenger fuellen, laenger halten, entnehmen und den Schritt schliessen.
+- **H3-S002** `shoyty`
+  - Codebook: HALTEN · ARBEITSGANG · DIES · ANWENDEN · DIES
+  - Lesung: Bei der dicht bluehenden Kronenpflanze: Den laufenden Posten im Arbeitsgang halten und anwenden.
+- **H3-S003** `dchol chy kchy dy daiin`
+  - Codebook: WIEDERAUFNEHMEN | DIES | ZUGEBEN · DIES | DIES | SOLLMASS
+  - Lesung: Bei der dicht bluehenden Kronenpflanze: Den vorigen Vorgang wiederaufnehmen, den aktuellen Posten beibehalten, ihm zugeben und ihn bis zum Sollmass weiterfuehren.
+- **H3-S004** `qotchy okchol cthy dy`
+  - Codebook: DANACH · DIES | ANSETZEN · WEITER | BEREITEN · DIES | DIES
+  - Lesung: Bei der dicht bluehenden Kronenpflanze: Danach den laufenden Posten; dann weiter ansetzen; dann ihn bereitet halten; dann ihn beibehalten.
+
+## H4 — f55v
+
+- **H4-S001** `qokaiin chaiin ykain ykan ody`
+  - Codebook: ANSETZEN · SOLLMASS | SOLLMASS | DIES · ZUGEBEN · PORTION | DIES · ZUGEBEN · NACHGABE | ARBEITSGANG · SCHLUSS
+  - Lesung: Bei der breitblaettrigen rispigen Pflanze: Nach Sollmass ansetzen; dem laufenden Posten eine Portion und danach eine Nachgabe zugeben; den Arbeitsgang schliessen.
+- **H4-S002** `daiin chedy talam`
+  - Codebook: SOLLMASS | UMSETZEN · DIES | VERWAHREN
+  - Lesung: Bei der breitblaettrigen rispigen Pflanze: Nach Sollmass den laufenden Posten umsetzen und anschliessend verwahren.
+- **H4-S003** `ykaiin cheoar cheeky oldy`
+  - Codebook: DIES · ZUGEBEN · SOLLMASS | ENTNEHMEN · KURZ · ARBEITSGANG · QUELLE | WAERMEN · LANG · DIES | WEITER · SCHLUSS
+  - Lesung: Bei der breitblaettrigen rispigen Pflanze: Den laufenden Posten nach Sollmass zugeben; dann kurz im Arbeitsgang aus der Quelle entnehmen; dann ihn laenger erwaermen; dann weiterarbeiten; den Schritt schliessen.
+- **H4-S004** `aiin okal oltchy or y orain`
+  - Codebook: SOLLMASS | ANSETZEN · ZIELSTELLE | WEITER · ANWENDEN · DIES | ANSATZ | DIES | ANSATZ · PORTION
+  - Lesung: Bei der breitblaettrigen rispigen Pflanze: Nach Sollmass an der Zielstelle ansetzen, den laufenden Posten weiter anwenden, als Ansatz beibehalten und als Ansatzportion fuehren.
+
+## H5 — f56r
+
+- **H5-S001** `chochor cho chodaly daiin sho kchol otchor choky dal`
+  - Codebook: ZUTAT · ENTNEHMEN · ANSATZ | ZUTAT | ZUTAT · ZIELSTELLE · DIES | SOLLMASS | ZUTAT | ZUGEBEN · WEITER | DANACH · ENTNEHMEN · ANSATZ | ANSETZEN · DIES | ZIELSTELLE
+  - Lesung: Bei der mehrkoepfigen stacheligen Pflanze: Eine Zutat fuer den Ansatz entnehmen, zur Zielstelle bringen und nach Sollmass weiter zugeben; danach vom Ansatz entnehmen und den Posten an der Zielstelle ansetzen.
+- **H5-S002** `schol choy choky cheeckhody`
+  - Codebook: WIEDERAUFNEHMEN | ZUTAT · DIES | ANSETZEN · DIES | ENTNEHMEN · LANG · DURCHLASS · ARBEITSGANG · SCHLUSS
+  - Lesung: Bei der mehrkoepfigen stacheligen Pflanze: Den vorigen Vorgang wiederaufnehmen, die Zutat als laufenden Posten fuehren und ansetzen; laenger im Arbeitsgang durch den Durchlass entnehmen und schliessen.
+- **H5-S003** `sh cho kchey qokokchy`
+  - Codebook: HALTEN | ZUTAT | ZUGEBEN · KURZ · DIES | ANSETZEN · ANSETZEN · DIES
+  - Lesung: Bei der mehrkoepfigen stacheligen Pflanze: Die Zutat halten, dem laufenden Posten kurz zugeben und ihn zweimal ansetzen.
+- **H5-S004** `okchy chokcheo kchal`
+  - Codebook: ANSETZEN · DIES | ANSETZEN · ENTNEHMEN · KURZ · ARBEITSGANG | ZUGEBEN · ZIELSTELLE
+  - Lesung: Bei der mehrkoepfigen stacheligen Pflanze: Den laufenden Posten ansetzen; dann kurz im Arbeitsgang ansetzen und entnehmen; dann zur Zielstelle zugeben.
+- **H5-S005** `sho chokchy kchoar sotodan`
+  - Codebook: ZUTAT | ANSETZEN · DIES | ZUGEBEN · ZUTAT · QUELLE | DANACH · ARBEITSGANG · PORTION
+  - Lesung: Bei der mehrkoepfigen stacheligen Pflanze: Die Zutat bereiten, den laufenden Posten ansetzen und die Zutat aus der Quelle zugeben; danach eine Portion in den Arbeitsgang nehmen.
+- **H5-S006** `otchey keol daiin`
+  - Codebook: DANACH · DIES | ZUGEBEN · KURZ · WEITER | SOLLMASS
+  - Lesung: Bei der mehrkoepfigen stacheligen Pflanze: Danach den laufenden Posten kurz weiter zugeben, bis das Sollmass erreicht ist.
+
+## B1 — f81v
+
+- **B1-S001** `qokedy`
+  - Codebook: ANSETZEN · KURZ · SCHLUSS
+  - Lesung: Am gemeinsamen zweireihigen Becken: Kurz ansetzen und den Schritt schliessen.
+- **B1-S002** `okaiin kair okal sar ol kain olkain al ol rol dl olor ol sheckhal daiin qokeedal daiin chckhy schedy`
+  - Codebook: ANSETZEN · SOLLMASS | ZUGEBEN · WASSER | ANSETZEN · ZIELSTELLE | QUELLE | WEITER | ZUGEBEN · PORTION | WEITER · ZUGEBEN · PORTION | ZIELSTELLE | WEITER | KUEHLEN · WEITER | LEITEN | WEITER · ANSATZ | WEITER | HALTEN · KURZ · DURCHLASS · ZIELSTELLE | SOLLMASS | ANSETZEN · LANG · ZIELSTELLE | SOLLMASS | DURCHLASS · DIES | UMSETZEN · SCHLUSS
+  - Lesung: Am gemeinsamen zweireihigen Becken: Nach Sollmass ansetzen und die laufende Fluessigkeit zugeben. An der Zielstelle aus der Quelle weiterarbeiten: eine Portion und dann eine weitere Portion zugeben, weiter kuehlen und leiten. Den Ansatz weiterarbeiten, kurz am Durchlass der Zielstelle halten, erneut nach Sollmass laenger ansetzen, den Posten durch den Durchlass umsetzen und schliessen.
+- **B1-S003** `qol sshkchdy`
+  - Codebook: WEITER | HALTEN · ZUGEBEN · UMSETZEN · SCHLUSS
+  - Lesung: Am gemeinsamen zweireihigen Becken: Weiterarbeiten; dann halten, zugeben und umsetzen; den Schritt schliessen.
+- **B1-S004** `chedy ol shedy`
+  - Codebook: UMSETZEN · DIES | WEITER | ABSETZEN · SCHLUSS
+  - Lesung: Am gemeinsamen zweireihigen Becken: Den laufenden Posten umsetzen; dann weiterarbeiten; dann absetzen lassen; den Schritt schliessen.
+- **B1-S005** `qolchedy`
+  - Codebook: WEITER · UMSETZEN · SCHLUSS
+  - Lesung: Am gemeinsamen zweireihigen Becken: Weiter umsetzen; den Schritt schliessen.
+- **B1-S006** `qokain shckhy dl ral`
+  - Codebook: ANSETZEN · PORTION | DURCHLASS · DIES | LEITEN | KUEHLEN · ZIELSTELLE
+  - Lesung: Am gemeinsamen zweireihigen Becken: Als Portion ansetzen; dann den laufenden Posten durch den Durchlass; dann leiten; dann zur Zielstelle kuehlen.
+- **B1-S007** `qokchdy`
+  - Codebook: ANSETZEN · UMSETZEN · SCHLUSS
+  - Lesung: Am gemeinsamen zweireihigen Becken: Ansetzen und umsetzen; den Schritt schliessen.
+- **B1-S008** `chey ol cheky ol shedy`
+  - Codebook: DIES | WEITER | WAERMEN · KURZ · DIES | WEITER | ABSETZEN · SCHLUSS
+  - Lesung: Am gemeinsamen zweireihigen Becken: Den Posten beibehalten und weiterarbeiten, kurz erwaermen, weiterfuehren, absetzen lassen und den Schritt schliessen.
+- **B1-S009** `qokedy`
+  - Codebook: ANSETZEN · KURZ · SCHLUSS
+  - Lesung: Am gemeinsamen zweireihigen Becken: Kurz ansetzen; den Schritt schliessen.
+- **B1-S010** `qokedy`
+  - Codebook: ANSETZEN · KURZ · SCHLUSS
+  - Lesung: Am gemeinsamen zweireihigen Becken: Kurz ansetzen; den Schritt schliessen.
+- **B1-S011** `chckhy qoky`
+  - Codebook: DURCHLASS · DIES | ANSETZEN · DIES
+  - Lesung: Am gemeinsamen zweireihigen Becken: Den laufenden Posten durch den Durchlass; dann ihn ansetzen.
+- **B1-S012** `lsho qokey lshedy`
+  - Codebook: WASCHEN · ARBEITSGANG | ANSETZEN · KURZ · DIES | WASCHEN · KURZ · SCHLUSS
+  - Lesung: Am gemeinsamen zweireihigen Becken: Den Arbeitsgang waschen, den Posten kurz ansetzen, nochmals kurz waschen und den Schritt schliessen.
+- **B1-S013** `lshedy`
+  - Codebook: WASCHEN · KURZ · SCHLUSS
+  - Lesung: Am gemeinsamen zweireihigen Becken: Kurz waschen und den Schritt schliessen.
+- **B1-S014** `chedy qolky lchedal qol otar`
+  - Codebook: UMSETZEN · DIES | SAMMELSTELLE · DIES | LEITEN · UMSETZEN · ZIELSTELLE | WEITER | DANACH · QUELLE
+  - Lesung: Am gemeinsamen zweireihigen Becken: Den Posten umsetzen und an der Sammelstelle halten; zur Zielstelle leiten und umsetzen, dort weiterarbeiten und danach zur Quelle wechseln.
+- **B1-S015** `ytey okchedy`
+  - Codebook: ANWENDEN · KURZ · DIES | ANSETZEN · UMSETZEN · SCHLUSS
+  - Lesung: Am gemeinsamen zweireihigen Becken: Kurz den laufenden Posten anwenden; dann ansetzen und umsetzen; den Schritt schliessen.
+- **B1-S016** `qokal okeey qol cheedy`
+  - Codebook: ANSETZEN · ZIELSTELLE | ANSETZEN · LANG · DIES | WEITER | ABSETZEN · SCHLUSS
+  - Lesung: Am gemeinsamen zweireihigen Becken: Zur Zielstelle ansetzen; dann laenger den laufenden Posten ansetzen; dann weiterarbeiten; dann absetzen lassen; den Schritt schliessen.
+- **B1-S017** `sal teol dchdy`
+  - Codebook: ZIELSTELLE | KURZ · WEITER | UMSETZEN · SCHLUSS
+  - Lesung: Am gemeinsamen zweireihigen Becken: An der Zielstelle kurz weiterarbeiten, umsetzen und den Schritt schliessen.
+- **B1-S018** `ly dsheol oiiin olkeedy`
+  - Codebook: LEITEN · DIES | HALTEN · KURZ · WEITER | ARBEITSGANG · ARBEITSSTUFE | SAMMELSTELLE · LANG · SCHLUSS
+  - Lesung: Am gemeinsamen zweireihigen Becken: Den laufenden Posten leiten; dann kurz weiter halten; dann im Arbeitsgang bis zur Arbeitsstufe; dann laenger an der Sammelstelle halten; den Schritt schliessen.
+- **B1-S019** `tedy`
+  - Codebook: ABSETZEN · SCHLUSS
+  - Lesung: Am gemeinsamen zweireihigen Becken: Absetzen lassen; den Schritt schliessen.
+- **B1-S020** `cheky shckhedy`
+  - Codebook: WAERMEN · KURZ · DIES | HALTEN · DURCHLASS · KURZ · SCHLUSS
+  - Lesung: Am gemeinsamen zweireihigen Becken: Kurz den laufenden Posten erwaermen; dann kurz durch den Durchlass halten; den Schritt schliessen.
+- **B1-S021** `chal`
+  - Codebook: ZIELSTELLE
+  - Lesung: Am gemeinsamen zweireihigen Becken: Die Zielstelle festlegen.
+
+## B2 — f82r
+
+- **B2-S001** `dchedy`
+  - Codebook: UMSETZEN · SCHLUSS
+  - Lesung: An den oberen Paarbecken mit Zylinder: Umsetzen und den Schritt schliessen.
+- **B2-S002** `qolchedy`
+  - Codebook: WEITER · UMSETZEN · SCHLUSS
+  - Lesung: An den oberen Paarbecken mit Zylinder: Weiter umsetzen; den Schritt schliessen.
+- **B2-S003** `qokain dy qokeedy`
+  - Codebook: ANSETZEN · PORTION | DIES | ANSETZEN · LANG · SCHLUSS
+  - Lesung: An den oberen Paarbecken mit Zylinder: Als Portion ansetzen; dann den laufenden Posten beibehalten; dann laenger ansetzen; den Schritt schliessen.
+- **B2-S004** `qokal lcheckhy lched qokeey lcheckhedy`
+  - Codebook: ANSETZEN · ZIELSTELLE | LEITEN · DURCHLASS · DIES | LEITEN · UMSETZEN | ANSETZEN · LANG · DIES | LEITEN · DURCHLASS · KURZ · SCHLUSS
+  - Lesung: An den oberen Paarbecken mit Zylinder: An der Zielstelle ansetzen; den Posten durch den Durchlass leiten und umsetzen, laenger ansetzen, danach kurz durch den Durchlass leiten und schliessen.
+- **B2-S005** `qokaly solkaiin chckhy qokaiin qokaiin octheol chkeey ldy`
+  - Codebook: ANSETZEN · ZIELSTELLE · DIES | SAMMELSTELLE · SOLLMASS | DURCHLASS · DIES | ANSETZEN · SOLLMASS | ANSETZEN · SOLLMASS | ARBEITSGANG · BEREITEN · KURZ · WEITER | WAERMEN · LANG · DIES | LEITEN · SCHLUSS
+  - Lesung: An den oberen Paarbecken mit Zylinder: Den Posten an der Zielstelle ansetzen und bis zum Sollmass an der Sammelstelle halten. Ihn durch den Durchlass fuehren, zweimal nach Sollmass ansetzen, im Arbeitsgang kurz bis zur Bereitschaft weiterarbeiten, laenger erwaermen, leiten und schliessen.
+- **B2-S006** `oteey qokal sheckhy qoky`
+  - Codebook: DANACH · LANG · DIES | ANSETZEN · ZIELSTELLE | HALTEN · KURZ · DURCHLASS · DIES | ANSETZEN · DIES
+  - Lesung: An den oberen Paarbecken mit Zylinder: Danach laenger den laufenden Posten; dann zur Zielstelle ansetzen; dann ihn kurz durch den Durchlass halten; dann ihn ansetzen.
+- **B2-S007** `dshedy`
+  - Codebook: HALTEN · KURZ · SCHLUSS
+  - Lesung: An der linken Mittelstation mit Zwischenknoten: Kurz halten; den Schritt schliessen.
+- **B2-S008** `sotaiin qokar shedy`
+  - Codebook: DANACH · SOLLMASS | ANSETZEN · QUELLE | ABSETZEN · SCHLUSS
+  - Lesung: An der linken Mittelstation mit Zwischenknoten: Danach nach Sollmass; dann aus der Quelle ansetzen; dann absetzen lassen; den Schritt schliessen.
+- **B2-S009** `solshedy`
+  - Codebook: WEITER · HALTEN · KURZ · SCHLUSS
+  - Lesung: An der linken Mittelstation mit Zwischenknoten: Kurz weiter halten; den Schritt schliessen.
+- **B2-S010** `qokeey qoky ls cheey`
+  - Codebook: ANSETZEN · LANG · DIES | ANSETZEN · DIES | WEITER | HALTEN · LANG · DIES
+  - Lesung: An der linken Mittelstation mit Zwischenknoten: Laenger den laufenden Posten ansetzen; dann ihn ansetzen; dann weiterarbeiten; dann ihn laenger halten.
+- **B2-S011** `okain char okain qokeedy`
+  - Codebook: ANSETZEN · PORTION | QUELLE | ANSETZEN · PORTION | ANSETZEN · LANG · SCHLUSS
+  - Lesung: An der rechten unklaren Mittelstation: Eine Portion ansetzen, aus der Quelle eine zweite Portion ansetzen, laenger ansetzen und schliessen.
+- **B2-S012** `lchy cheey qcthey qokeey lcheey daiin chey qokeeedy`
+  - Codebook: LEITEN · ENTNEHMEN · DIES | HALTEN · LANG · DIES | BEREITEN · KURZ · DIES | ANSETZEN · LANG · DIES | LEITEN · LANG · DIES | SOLLMASS | DIES | ANSETZEN · VOLL · SCHLUSS
+  - Lesung: An der rechten unklaren Mittelstation und am unteren gruenen Figurenbecken: Den Posten leiten und entnehmen; laenger halten, kurz bereitet halten, laenger ansetzen und laenger leiten; nach Sollmass beibehalten, vollstaendig ansetzen und schliessen.
+- **B2-S013** `lchedy`
+  - Codebook: LEITEN · UMSETZEN · SCHLUSS
+  - Lesung: Am unteren gruenen Figurenbecken: Leiten und umsetzen; den Schritt schliessen.
+- **B2-S014** `lar`
+  - Codebook: LEITEN · QUELLE
+  - Lesung: Am unteren gruenen Figurenbecken: Aus der Quelle leiten.
+- **B2-S015** `tshey qokeedy`
+  - Codebook: HALTEN · KURZ · DIES | ANSETZEN · LANG · SCHLUSS
+  - Lesung: An den Randstationen des unteren Beckens: Kurz den laufenden Posten halten; dann laenger ansetzen; den Schritt schliessen.
+- **B2-S016** `cheal lchedar ches aiin oteey qokaiin okey pchedy`
+  - Codebook: ZIELSTELLE | LEITEN · UMSETZEN · QUELLE | ENTNEHMEN · KURZ · TEIL | SOLLMASS | DANACH · LANG · DIES | ANSETZEN · SOLLMASS | ANSETZEN · KURZ · DIES | FUELLEN · UMSETZEN · SCHLUSS
+  - Lesung: An den Randstationen des unteren Beckens: An der Zielstelle aus der Quelle leiten und umsetzen. Kurz entnehmen und teilen; nach Sollmass den naechsten Posten laenger fuehren, nach Sollmass und kurz ansetzen, fuellen, umsetzen und schliessen.
+- **B2-S017** `rsheal daldy`
+  - Codebook: KUEHLEN · HALTEN · KURZ · ZIELSTELLE | ZIELSTELLE · SCHLUSS
+  - Lesung: An den Randstationen des unteren Beckens: An der Zielstelle kurz kuehlen und halten, dann den Schritt an der Zielstelle schliessen.
+- **B2-S018** `qokeedy`
+  - Codebook: ANSETZEN · LANG · SCHLUSS
+  - Lesung: An den Randstationen des unteren Beckens: Laenger ansetzen; den Schritt schliessen.
+- **B2-S019** `rshedy`
+  - Codebook: KUEHLEN · ABSETZEN · SCHLUSS
+  - Lesung: An den Randstationen des unteren Beckens: Kuehlen und absetzen lassen; den Schritt schliessen.
+- **B2-S020** `qoteedy`
+  - Codebook: DANACH · LANG · SCHLUSS
+  - Lesung: An den Randstationen des unteren Beckens: Danach laenger; den Schritt schliessen.
+- **B2-S021** `qokeedy`
+  - Codebook: ANSETZEN · LANG · SCHLUSS
+  - Lesung: An den Randstationen des unteren Beckens: Laenger ansetzen; den Schritt schliessen.
+- **B2-S022** `lochedy`
+  - Codebook: LEITEN · ARBEITSGANG · UMSETZEN · SCHLUSS
+  - Lesung: An den Randstationen des unteren Beckens: Im Arbeitsgang leiten und umsetzen; den Schritt schliessen.
+
+## B3 — f83r
+
+- **B3-S001** `olkeedy`
+  - Codebook: SAMMELSTELLE · LANG · SCHLUSS
+  - Lesung: An der oberen offenen Faecherstation: Laenger an der Sammelstelle halten und den Schritt schliessen.
+- **B3-S002** `qotal chkeedy`
+  - Codebook: DANACH · ZIELSTELLE | WAERMEN · LANG · SCHLUSS
+  - Lesung: An der oberen offenen Faecherstation: Danach zur Zielstelle; dann laenger erwaermen; den Schritt schliessen.
+- **B3-S003** `chey daiin chey lchedy`
+  - Codebook: DIES | SOLLMASS | DIES | LEITEN · UMSETZEN · SCHLUSS
+  - Lesung: An der oberen offenen Faecherstation: Den laufenden Posten nach Sollmass beibehalten, anschliessend leiten und umsetzen, dann schliessen.
+- **B3-S004** `qokaiin qotal dar`
+  - Codebook: ANSETZEN · SOLLMASS | DANACH · ZIELSTELLE | QUELLE
+  - Lesung: An der oberen offenen Faecherstation: Nach Sollmass ansetzen; danach zur Zielstelle wechseln und aus der Quelle weiterarbeiten.
+- **B3-S005** `schedy`
+  - Codebook: UMSETZEN · SCHLUSS
+  - Lesung: Am runden Mittelgefaess: Umsetzen; den Schritt schliessen.
+- **B3-S006** `chedchy qokal olchedy`
+  - Codebook: UMSETZEN · DIES | ANSETZEN · ZIELSTELLE | WEITER · UMSETZEN · SCHLUSS
+  - Lesung: Am runden Mittelgefaess: Den laufenden Posten umsetzen; dann zur Zielstelle ansetzen; dann weiter umsetzen; den Schritt schliessen.
+- **B3-S007** `qokaiin chedy qokeedy`
+  - Codebook: ANSETZEN · SOLLMASS | UMSETZEN · DIES | ANSETZEN · LANG · SCHLUSS
+  - Lesung: Am runden Mittelgefaess: Nach Sollmass ansetzen; dann den laufenden Posten umsetzen; dann laenger ansetzen; den Schritt schliessen.
+- **B3-S008** `lchedy`
+  - Codebook: LEITEN · UMSETZEN · SCHLUSS
+  - Lesung: Am runden Mittelgefaess: Leiten und umsetzen; den Schritt schliessen.
+- **B3-S009** `qoky`
+  - Codebook: ANSETZEN · DIES
+  - Lesung: Am runden Mittelgefaess: Den laufenden Posten ansetzen.
+- **B3-S010** `pchedal otedy`
+  - Codebook: FUELLEN · UMSETZEN · ZIELSTELLE | DANACH · KURZ · SCHLUSS
+  - Lesung: Am unteren Korbgefaess: An der Zielstelle fuellen und umsetzen; danach den kurzen Folgeschritt schliessen.
+- **B3-S011** `shecthedchy qoky chedy chary`
+  - Codebook: HALTEN · KURZ · BEREITEN · UMSETZEN · DIES | ANSETZEN · DIES | UMSETZEN · DIES | QUELLE · DIES
+  - Lesung: Am unteren Korbgefaess: Kurz bis bereit den laufenden Posten halten und umsetzen; dann ihn ansetzen; dann ihn umsetzen; dann ihn aus der Quelle.
+- **B3-S012** `sor shedy`
+  - Codebook: ANSATZ | ABSETZEN · SCHLUSS
+  - Lesung: Am unteren Korbgefaess: Den Ansatz absetzen lassen und den Schritt schliessen.
+- **B3-S013** `qokaiin chkain shcthey qokedy`
+  - Codebook: ANSETZEN · SOLLMASS | ZUGEBEN · PORTION | BEREITEN · KURZ · DIES | ANSETZEN · KURZ · SCHLUSS
+  - Lesung: Am unteren Korbgefaess: Nach Sollmass ansetzen; dann als Portion zugeben; dann kurz den laufenden Posten bereitet halten; dann kurz ansetzen; den Schritt schliessen.
+- **B3-S014** `okair sheedy`
+  - Codebook: ANSETZEN · WASSER | HALTEN · LANG · SCHLUSS
+  - Lesung: Am unteren Korbgefaess: Die laufende Fluessigkeit ansetzen; dann laenger halten; den Schritt schliessen.
+- **B3-S015** `lchedy`
+  - Codebook: LEITEN · UMSETZEN · SCHLUSS
+  - Lesung: Am unteren Korbgefaess: Leiten und umsetzen; den Schritt schliessen.
+- **B3-S016** `lo qokchedy`
+  - Codebook: LEITEN · ARBEITSGANG | ANSETZEN · UMSETZEN · SCHLUSS
+  - Lesung: Am unteren Korbgefaess und im bildlich unverbundenen Zwischenabschnitt: Im Arbeitsgang leiten; dann ansetzen und umsetzen; den Schritt schliessen.
+- **B3-S017** `qokeedy`
+  - Codebook: ANSETZEN · LANG · SCHLUSS
+  - Lesung: Im bildlich unverbundenen Zwischenabschnitt: Laenger ansetzen; den Schritt schliessen.
+- **B3-S018** `shedy`
+  - Codebook: ABSETZEN · SCHLUSS
+  - Lesung: Im bildlich unverbundenen Zwischenabschnitt: Absetzen lassen; den Schritt schliessen.
+- **B3-S019** `qokshedy`
+  - Codebook: ANSETZEN · HALTEN · KURZ · SCHLUSS
+  - Lesung: Im bildlich unverbundenen Zwischenabschnitt: Kurz ansetzen und halten; den Schritt schliessen.
+- **B3-S020** `dal lchedy`
+  - Codebook: ZIELSTELLE | LEITEN · UMSETZEN · SCHLUSS
+  - Lesung: Im bildlich unverbundenen Zwischenabschnitt: An der Zielstelle leiten, umsetzen und den Schritt schliessen.
+- **B3-S021** `qokaiin shcthy dal sy saiin shedal shecthy chey tal shcthy dalchdy`
+  - Codebook: ANSETZEN · SOLLMASS | BEREITEN · DIES | ZIELSTELLE | DIES | SOLLMASS | ABSETZEN · ZIELSTELLE | HALTEN · KURZ · BEREITEN · DIES | DIES | ZIELSTELLE | BEREITEN · DIES | ZIELSTELLE · UMSETZEN · SCHLUSS
+  - Lesung: Im bildlich unverbundenen Zwischenabschnitt: Nach Sollmass ansetzen und den Posten bereitet halten. An der Zielstelle nach Sollmass absetzen und kurz bis zur Bereitschaft halten. Den Posten beibehalten, an der Zielstelle erneut bereitet halten, umsetzen und schliessen.
+- **B3-S022** `qotchedy`
+  - Codebook: DANACH · UMSETZEN · SCHLUSS
+  - Lesung: Im bildlich unverbundenen Zwischenabschnitt: Danach umsetzen; den Schritt schliessen.
+- **B3-S023** `lchedy`
+  - Codebook: LEITEN · UMSETZEN · SCHLUSS
+  - Lesung: Im bildlich unverbundenen Zwischenabschnitt: Leiten und umsetzen; den Schritt schliessen.
+- **B3-S024** `tchedy`
+  - Codebook: UMSETZEN · SCHLUSS
+  - Lesung: Im bildlich unverbundenen Zwischenabschnitt: Umsetzen; den Schritt schliessen.
+- **B3-S025** `qokchdy`
+  - Codebook: ANSETZEN · UMSETZEN · SCHLUSS
+  - Lesung: Im bildlich unverbundenen Zwischenabschnitt: Ansetzen und umsetzen; den Schritt schliessen.
+- **B3-S026** `cheedar chldaiin chedy qokain checthy chealror solkeedy`
+  - Codebook: LANG · QUELLE | LEITEN · SOLLMASS | UMSETZEN · DIES | ANSETZEN · PORTION | BEREITEN · DIES | ZIELSTELLE · KUEHLEN · ANSATZ | SAMMELSTELLE · LANG · SCHLUSS
+  - Lesung: Im bildlich unverbundenen Zwischenabschnitt und am durch den Bogen verbundenen Hauptpaar: Laenger aus der Quelle arbeiten; nach Sollmass leiten, den Posten umsetzen, eine Portion ansetzen und bereitet halten; den Ansatz an der Zielstelle kuehlen, laenger an der Sammelstelle halten und schliessen.
+- **B3-S027** `qoteedy`
+  - Codebook: DANACH · LANG · SCHLUSS
+  - Lesung: Am durch den Bogen verbundenen Hauptpaar: Danach laenger; den Schritt schliessen.
+- **B3-S028** `qokeey qokedy`
+  - Codebook: ANSETZEN · LANG · DIES | ANSETZEN · KURZ · SCHLUSS
+  - Lesung: Am durch den Bogen verbundenen Hauptpaar: Laenger den laufenden Posten ansetzen; dann kurz ansetzen; den Schritt schliessen.
+- **B3-S029** `sol cheeety qokedy`
+  - Codebook: WEITER | VOLL · ANWENDEN · DIES | ANSETZEN · KURZ · SCHLUSS
+  - Lesung: Am durch den Bogen verbundenen Hauptpaar: Weiterarbeiten; dann vollstaendig den laufenden Posten anwenden; dann kurz ansetzen; den Schritt schliessen.
+- **B3-S030** `qoky saiin schedair otchedy`
+  - Codebook: ANSETZEN · DIES | SOLLMASS | UMSETZEN · WASSER | DANACH · UMSETZEN · SCHLUSS
+  - Lesung: Am durch den Bogen verbundenen Hauptpaar: Den Posten nach Sollmass ansetzen, die laufende Fluessigkeit umsetzen; danach nochmals umsetzen und schliessen.
+- **B3-S031** `qokeedy`
+  - Codebook: ANSETZEN · LANG · SCHLUSS
+  - Lesung: Am durch den Bogen verbundenen Hauptpaar: Laenger ansetzen; den Schritt schliessen.
+- **B3-S032** `chedain chedy qotedaiin otaiin otedy`
+  - Codebook: UMSETZEN · PORTION | UMSETZEN · DIES | DANACH · KURZ · SOLLMASS | DANACH · SOLLMASS | DANACH · KURZ · SCHLUSS
+  - Lesung: Am durch den Bogen verbundenen Hauptpaar: Eine Portion und dann den laufenden Posten umsetzen; danach kurz nach Sollmass, anschliessend nochmals nach Sollmass und den folgenden Kurzschritt schliessen.
+- **B3-S033** `ldy`
+  - Codebook: LEITEN · SCHLUSS
+  - Lesung: Am durch den Bogen verbundenen Hauptpaar: Leiten; den Schritt schliessen.
+- **B3-S034** `soiiin checthy chety otaiin olsaly shedy`
+  - Codebook: ARBEITSGANG · ARBEITSSTUFE | BEREITEN · DIES | ANWENDEN · DIES | DANACH · SOLLMASS | WEITER · ZIELSTELLE · DIES | ABSETZEN · SCHLUSS
+  - Lesung: Am durch den Bogen verbundenen Hauptpaar: Den Arbeitsgang bis zur Arbeitsstufe fuehren; den Posten bereitet halten und anwenden; danach nach Sollmass an der Zielstelle weiterfuehren, absetzen und schliessen.
+
+## B4 — f83r
+
+- **B4-S001** `qokeedy`
+  - Codebook: ANSETZEN · LANG · SCHLUSS
+  - Lesung: Am zweiten durch den Bogen verbundenen Hauptpaar: Laenger ansetzen und den Schritt schliessen.
+- **B4-S002** `qolchey qokeey qokedy`
+  - Codebook: WEITER · DIES | ANSETZEN · LANG · DIES | ANSETZEN · KURZ · SCHLUSS
+  - Lesung: Am zweiten durch den Bogen verbundenen Hauptpaar: Den laufenden Posten weiterarbeiten; dann ihn laenger ansetzen; dann kurz ansetzen; den Schritt schliessen.
+- **B4-S003** `chedy otal otchey qokeey qoky tol shedy`
+  - Codebook: UMSETZEN · DIES | DANACH · ZIELSTELLE | DANACH · DIES | ANSETZEN · LANG · DIES | ANSETZEN · DIES | WEITER | ABSETZEN · SCHLUSS
+  - Lesung: Am zweiten durch den Bogen verbundenen Hauptpaar: Den Posten umsetzen; danach zur Zielstelle und zum naechsten Posten wechseln; diesen laenger ansetzen, weiter ansetzen, weiterarbeiten, absetzen und schliessen.
+- **B4-S004** `qokylddy`
+  - Codebook: ANSETZEN · DIES · BEFESTIGEN · SCHLUSS
+  - Lesung: Am zweiten durch den Bogen verbundenen Hauptpaar: Den laufenden Posten ansetzen und befestigen; den Schritt schliessen.
+- **B4-S005** `dain chedy qokeedy`
+  - Codebook: PORTION | UMSETZEN · DIES | ANSETZEN · LANG · SCHLUSS
+  - Lesung: Am zweiten durch den Bogen verbundenen Hauptpaar: Eine Portion als laufenden Posten umsetzen, laenger ansetzen und den Schritt schliessen.
+- **B4-S006** `shckhedy`
+  - Codebook: HALTEN · DURCHLASS · KURZ · SCHLUSS
+  - Lesung: Am zweiten durch den Bogen verbundenen Hauptpaar: Kurz durch den Durchlass halten; den Schritt schliessen.
+- **B4-S007** `shckhedy`
+  - Codebook: HALTEN · DURCHLASS · KURZ · SCHLUSS
+  - Lesung: Am zweiten durch den Bogen verbundenen Hauptpaar: Kurz durch den Durchlass halten; den Schritt schliessen.
+- **B4-S008** `saiin cheeky sheey qokedy`
+  - Codebook: SOLLMASS | WAERMEN · LANG · DIES | HALTEN · LANG · DIES | ANSETZEN · KURZ · SCHLUSS
+  - Lesung: Am zweiten durch den Bogen verbundenen Hauptpaar: Nach Sollmass den Posten laenger erwaermen, laenger halten, kurz ansetzen und schliessen.
+- **B4-S009** `shedy`
+  - Codebook: ABSETZEN · SCHLUSS
+  - Lesung: Am zweiten durch den Bogen verbundenen Hauptpaar: Absetzen lassen; den Schritt schliessen.
+- **B4-S010** `oldy`
+  - Codebook: WEITER · SCHLUSS
+  - Lesung: Am zweiten durch den Bogen verbundenen Hauptpaar: Weiterarbeiten; den Schritt schliessen.
+- **B4-S011** `saiin cheky okeeol okain chdy sol lkedy`
+  - Codebook: SOLLMASS | WAERMEN · KURZ · DIES | ANSETZEN · LANG · WEITER | ANSETZEN · PORTION | UMSETZEN · DIES | WEITER | LEITEN · ZUGEBEN · KURZ · SCHLUSS
+  - Lesung: An der linken offenen Randstation: Nach Sollmass den Posten kurz erwaermen, laenger weiter ansetzen, eine Portion ansetzen, den Posten umsetzen, weiterarbeiten, kurz leiten und zugeben, dann schliessen.
+- **B4-S012** `lchedy`
+  - Codebook: LEITEN · UMSETZEN · SCHLUSS
+  - Lesung: An der linken offenen Randstation: Leiten und umsetzen; den Schritt schliessen.
+- **B4-S013** `qokol shedy`
+  - Codebook: ANSETZEN · WEITER | ABSETZEN · SCHLUSS
+  - Lesung: An der linken offenen Randstation: Weiter ansetzen; dann absetzen lassen; den Schritt schliessen.
+- **B4-S014** `or chey qockhey dairydy`
+  - Codebook: ANSATZ | DIES | ARBEITSGANG · DURCHLASS · KURZ · DIES | WASSER · DIES · SCHLUSS
+  - Lesung: An der linken offenen Randstation: Den Ansatz als laufenden Posten fuehren; ihn kurz im Arbeitsgang am Durchlass halten, die laufende Fluessigkeit als aktuellen Posten fuehren und schliessen.
+- **B4-S015** `qokain shey kain chckhal solkey lchedy`
+  - Codebook: ANSETZEN · PORTION | HALTEN · LANG · DIES | ZUGEBEN · PORTION | ENTNEHMEN · DURCHLASS · ZIELSTELLE | SAMMELSTELLE · KURZ · DIES | LEITEN · UMSETZEN · SCHLUSS
+  - Lesung: An der linken offenen Randstation und an der rechten S-Lauf-Mehrfachstation: Eine Portion ansetzen, den Posten laenger halten, eine Portion zugeben, durch den Durchlass an der Zielstelle entnehmen, kurz an der Sammelstelle halten, leiten, umsetzen und schliessen.
+- **B4-S016** `qolkain dal skar shedy`
+  - Codebook: WEITER · ZUGEBEN · PORTION | ZIELSTELLE | ZUGEBEN · QUELLE | ABSETZEN · SCHLUSS
+  - Lesung: An der rechten S-Lauf-Mehrfachstation: Eine Portion weiter zugeben, an der Zielstelle aus der Quelle nachzugeben, absetzen lassen und schliessen.
+
+## B5 — f83r
+
+- **B5-S001** `otchdy`
+  - Codebook: DANACH · UMSETZEN · SCHLUSS
+  - Lesung: An der linken offenen Nebenstation: Danach umsetzen und den Schritt schliessen.
+- **B5-S002** `qokchdy`
+  - Codebook: ANSETZEN · UMSETZEN · SCHLUSS
+  - Lesung: An der linken offenen Nebenstation: Ansetzen und umsetzen; den Schritt schliessen.
+- **B5-S003** `shedal dal cheol lol chdal aiin sol daiiin chedy`
+  - Codebook: ABSETZEN · ZIELSTELLE | ZIELSTELLE | WEITER | LEITEN · WEITER | UMSETZEN · ZIELSTELLE | SOLLMASS | WEITER | ZWEIT · ARBEITSSTUFE | UMSETZEN · DIES
+  - Lesung: An der linken offenen Nebenstation: An der Zielstelle absetzen und dort weiterarbeiten; leiten und weiterarbeiten, an der Zielstelle umsetzen, nach Sollmass weiterarbeiten, fuer den zweiten Durchgang bis zur Arbeitsstufe fuehren und den Posten umsetzen.
+
+## B6 — f83r
+
+- **B6-S001** `solkeey qekey raly ol daiin ol dain chey ldalor`
+  - Codebook: SAMMELSTELLE · LANG · DIES | KURZ · ZUGEBEN · KURZ · DIES | KUEHLEN · ZIELSTELLE · DIES | WEITER | SOLLMASS | WEITER | PORTION | DIES | LEITEN · ZIELSTELLE · ANSATZ
+  - Lesung: An der rechten S-Lauf-Nebenstation: Den Posten laenger an der Sammelstelle halten, kurz zugeben, an der Zielstelle kuehlen, nach Sollmass weiterarbeiten, eine Portion nehmen und den Ansatz zur Zielstelle leiten.
