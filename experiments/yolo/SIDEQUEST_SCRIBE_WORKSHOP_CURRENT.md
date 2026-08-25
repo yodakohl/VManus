@@ -10869,9 +10869,17 @@ ZIEL to ZIELSTELLE across22 cards/39 events/28 statements; form stays fixed.
 See
 `sidequest_semantic_source_target_seven_hundred_thirtieth/SEVEN_HUNDRED_THIRTIETH_REPORT.md`.
 
-Next, close the OR/OL/OT anaphoric and order machine. Test OR=Ansatz,
-OL=Fortsetzung/same chain, and OT=Folge/danach in every fixed context, including
-their overlaps, without treating similar surface strings as automatic roots.
+Pass 731 makes OR/OL/OT a three-card workflow memory: OR=ANSATZ (10 cards/18
+events), OL=WEITER (25/48), OT=DANACH (16/26). Their union is46 cards/85
+events because five overlap constructions compose directly. OL is shortened
+from the sentence-like FORTSETZEN to atomic WEITER across25 cards/48 events/34
+statements: `cholor`=`WEITER·ANSATZ`, `otol`=`DANACH·WEITER`, and
+`qolchedy`=`WEITER·UMSETZEN·SCHLUSS`. See
+`sidequest_semantic_workflow_memory_seven_hundred_thirty_first/SEVEN_HUNDRED_THIRTY_FIRST_REPORT.md`.
+
+Next, contrast the four principal operations OK, K, CH and CHD across every
+fixed context. Seek minimal pairs for ANSETZEN, ZUGEBEN, ENTNEHMEN and UMSETZEN,
+and reduce any whole-card operation that is merely a compositional variant.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
