@@ -12310,6 +12310,16 @@ No close is inserted. See
 Next, build the same complete source edition for f11r and test whether it uses
 the same picture/register/card architecture for a filtration sequence.
 
+Pass 861 gives f11r one plant owner,17 cards, four statements and38 atoms. Its
+first seven-card phase works, presses/receives and closes a first extract; one
+short statement works that product; learned whole `DAVON` then resumes a
+portion for two open continuations. This matches f10r's three layers but differs
+in process shape: f10r remains open and branches, f11r closes then resumes. See
+`sidequest_semantic_f11r_extraction_source_edition_eight_hundred_sixty_first/EIGHT_HUNDRED_SIXTY_FIRST_COMPLETE_F11R_EDITION.md`.
+
+Next, apply the complete page method to f55v and look for the strongest
+plant-to-wash-or-filter transition in the fixed Herbal set.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
