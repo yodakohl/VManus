@@ -12092,6 +12092,17 @@ is recognized before licensed closing DY is parsed. See
 Next, apply the same portable-reading test to frequency ranks11–20. Extend the
 productive manual only if those cards need no new page-specific values.
 
+Pass 841 extends the owner-independent manual through frequency ranks11–20.
+These ten cards add59 events/40 statements across all7 prose pages and9
+records without a new local value. Their readings include short set-and-close,
+prepare item, batch, portion setting, long setting, source, target, ingredient,
+and the deliberately elliptical `CKH+Y=Durchlass fuer den Posten`. The top20
+cards cumulatively cover186/381 events (48.8%). See
+`sidequest_semantic_second_frequency_tier_eight_hundred_forty_first/EIGHT_HUNDRED_FORTY_FIRST_REPORT.md`.
+
+Next, test frequency ranks21–30 and mark the first point where a learned
+whole-card reading is genuinely needed beside the productive components.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
