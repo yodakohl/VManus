@@ -12588,6 +12588,18 @@ left and right neighbour. Assign those boundary cards to concrete material,
 quantity, source, target, apparatus, result or discourse slots, and revise weak
 local whole-card meanings where the same slot relation supplies a better reading.
 
+Pass 882 expands22 anchored phrase windows into31 unique boundary events:19
+portable and12 local-model cards. The local cards receive sentence-ready values
+such as DEN GANZEN POSTEN ANSETZEN UND SCHLIESSEN, VON DORT WEITERLEITEN, DAS
+WASSER UMSETZEN and AUS DER QUELLE ZUGEBEN. These are word-order and ellipsis
+repairs only; every semantic atom and stem remains unchanged. See
+`sidequest_semantic_phrase_boundary_lexicon_eight_hundred_eighty_second/EIGHT_HUNDRED_EIGHTY_SECOND_BOUNDARY_LEXICON.md`.
+
+Next, propagate the ten phrase chunks and twelve compact boundary readings
+through all107 physical Prose statements and publish one continuous eleven-
+record German workshop edition, preserving exact fifth-hand surfaces and every
+visible owner change while removing word-by-word translation stiffness.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
