@@ -11989,6 +11989,21 @@ FLUESSIGKEIT, FUEHREN and NEHMEN remain contextual objects or synonyms. See
 Next, apply O=ARBEITSGANG across18 cards/19 events and make it explicit in all17
 O-bearing statements.
 
+Pass 833 publishes the ninth compact grammar with `O=ARBEITSGANG`. The revision
+touches18 exact cards and19 events; all17 O-bearing statements now speak the
+workshop noun explicitly. H2-S001, H3-S001 and B1-S012 required fluent wording
+repairs. In particular `LSH+O` now reads directly as “SPUELEN · ARBEITSGANG”,
+instead of hiding the noun behind a vague VORGANG. All39 components,173 cards,
+381 events and116 statements rebuild;3 of76 predicted surfaces change while
+the active24-recipe/30-surface deck and six learned exceptions remain intact.
+See
+`sidequest_semantic_ninth_workshop_grammar_eight_hundred_thirty_third/EIGHT_HUNDRED_THIRTY_THIRD_ONE_PAGE_GRAMMAR.md`.
+
+Next, repeat the hidden-word audit on the ninth grammar. Inspect SCHRITT around
+licensed DY closes and FLUESSIGKEIT around AIR first, but keep them contextual
+unless one short replacement improves every occurrence without erasing the
+concrete water reading on the plant page.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
