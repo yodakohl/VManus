@@ -11232,10 +11232,18 @@ cards form a shared reference strip with only5 Herbal and5 Bio uses (5.0% and
 1.8% of their respective events); no card or reading is discarded. See
 `sidequest_semantic_common_deck_optimization_seven_hundred_seventieth/SEVEN_HUNDRED_SEVENTIETH_REPORT.md`.
 
-Next, revise the curriculum around the12-card active board plus5-card reference
-strip. Recalculate drill hours and run every role exam with an explicit
-memory-versus-lookup trace, so rare reference cards never masquerade as active
-productive knowledge.
+Pass 771 rebuilds the curriculum around12 active+5 reference cards. The active
+lesson drops from8h to6h and the reference strip costs1h, yielding master114h,
+Herbal73h, Bio84h, Astro24h. The four exams contain21 units:7 active-common,
+11 specialist-memory,1 shared lookup (PROC004) and2 Astro-model lookups. All
+four exams plus the edge renderer remain exact, so rare reference values no
+longer masquerade as productive memory. See
+`sidequest_semantic_memory_lookup_curriculum_seven_hundred_seventy_first/SEVEN_HUNDRED_SEVENTY_FIRST_REPORT.md`.
+
+Next, optimize the39-component vocabulary the same way. Rank components by
+event use and indispensability to the nine rules; divide them into fast oral
+core, wall strip and model-only rare values. Retest whether every card recipe
+can still be composed or looked up without changing any German default.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
