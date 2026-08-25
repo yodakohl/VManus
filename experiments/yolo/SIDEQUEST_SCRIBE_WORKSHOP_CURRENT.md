@@ -12853,6 +12853,21 @@ frame and endpoint choice can be selected by a short apprentice rule using only
 those visible/workflow contexts. Prefer a small selector shared across families;
 leave only genuine hand-specific choices memorized.
 
+Pass 902 inventories143 marks in the16 multi-allograph families and gives every
+one an exact selector. Seven families use shared register/position rules, two use
+order/page, one stage, two a local mini-deck and four still the learned identity.
+Across the six q/non-q families q wins at HOW-FIRST/MIDDLE/ONLY and WHAT-FIRST/
+MIDDLE; non-q wins HOW-LAST and WHEN-MIDDLE. See
+`sidequest_semantic_contextual_allograph_selector_nine_hundred_second/NINE_HUNDRED_SECOND_CONTEXT_SELECTOR_MANUAL.md`.
+
+Next, reinterpret the six stubborn families as functional allographs rather
+than arbitrary spellings. Try dal/cheal as default vs embedded target, ol/chol/ls
+as general vs condition-ring vs transfer continuation, y/dy/chey/chy as bare,
+echoed, material/quality and state referents, schedy/dchdy as two close modes and
+cheey/sheey as default vs marked long hold. Keep iokeeor/daiial as the two local
+whole condition words if no smaller reading helps. Use these intended subroles
+as the forward renderer choice.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
