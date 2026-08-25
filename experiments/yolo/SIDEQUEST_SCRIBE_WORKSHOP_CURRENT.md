@@ -11831,6 +11831,20 @@ Next, integrate OS=DAZU, RESUME=DAVON and TALAM=BEISEITESTELLEN into a sixth
 complete 173-card/381-event/116-statement grammar and print the remaining
 exception inventory explicitly.
 
+Pass 819 publishes the sixth compact grammar. All173 exact cards,381 events and
+116 statements rebuild after integrating OS=DAZU, DCHOL/SCHOL=DAVON and
+TALAM=BEISEITESTELLEN. The33-core inventory still touches170 cards/377 events
+and fully composes167/374. The remaining six cards/seven events are now a fully
+read exception inventory rather than a semantic gap: three bound constructions
+(AN, DA, LD) and three short whole words (DAZU, DAVON, BEISEITESTELLEN). The76
+unseen recipes remain predictions only. See
+`sidequest_semantic_sixth_workshop_grammar_eight_hundred_nineteenth/EIGHT_HUNDRED_NINETEENTH_ONE_PAGE_GRAMMAR.md`.
+
+Next, audit the largest exact-card meaning collisions in the sixth dictionary.
+For every German default shared by distinct recipes, inspect all full contexts
+and decide whether it is genuine workshop synonymy or a missing concrete
+distinction.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
