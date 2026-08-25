@@ -10921,10 +10921,18 @@ WEITERLEITEN to LEITEN, so only L+OL means “weiterleiten”; P is shortened fr
 EINFUELLEN to FUELLEN. Twenty-one cards/30 events/26 statements simplify. See
 `sidequest_semantic_transfer_application_seven_hundred_thirty_sixth/SEVEN_HUNDRED_THIRTY_SIXTH_REPORT.md`.
 
-Next, consolidate all currently selected short roots into one component
-dictionary and rederive all173 exact cards,381 events,116 statements and11
-records. Count how many cards are now fully compositional and isolate the true
-memorized remainders without giving them sentence-sized defaults.
+Pass 737 consolidates one executable39-entry codebook. Thirty-one recurrent
+productive roots rebuild165/173 cards and372/381 events. Five one-event short
+guesses (CFH AUSWRINGEN, S TEIL, AN NACHGABE, DA ZWEIT, LD BEFESTIGEN) cover5
+cards/events but are not generalized. Three learned whole commands (OS FACH,
+RESUME_CARD WIEDERAUFNEHMEN, TALAM VERWAHREN) cover3 cards/4 events. All173
+cards,163 recipes,381 events,116 statements and11 records rebuild exactly with
+no empty or sentence-sized card gloss. See
+`sidequest_semantic_consolidated_codebook_seven_hundred_thirty_seventh/SEVEN_HUNDRED_THIRTY_SEVENTH_REPORT.md`.
+
+Next, attack the eight remainder cards in full local context. Try to attach a
+singleton component to an existing recurrent family or confirm it as a learned
+whole command, without changing the31-root productive core.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
