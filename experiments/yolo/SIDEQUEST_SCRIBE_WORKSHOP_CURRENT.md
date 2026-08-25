@@ -12431,9 +12431,24 @@ missing values remain: product identity, concrete material result and external
 Astro condition. See
 `sidequest_semantic_relative_measure_duration_scale_eight_hundred_seventieth/EIGHT_HUNDRED_SEVENTIETH_RELATIVE_SAMPLE_READING.md`.
 
-Next, attack the material-result slot: combine CTH ready-state, filtration
-Klarlauf, SHED settling, SOLK collection and licensed closes into a small result
+Next, attack the material-result slot: combine CTH ready-state, CKH passage,
+SHED settling, SOLK collection and licensed closes into a small result
 vocabulary, then reread every result-bearing statement.
+
+Pass 871 builds six broad material-result classes across59 events/30 exact
+cards/43 statements: BEREIT, ABGESETZT, GESAMMELT, DURCHGELAUFEN, ERWAERMT and
+VOLLSTAENDIG_ANGELEGT. The P4→B2 example has12 result events and reads as a
+state chain from passed preparation through collection, warming, settling and
+full application. A licensed cell close remains bookkeeping, not a material
+result. The master now supplies only the precise acceptance test for each
+state. Two fully external payloads remain: product identity and the external
+Astro value. See
+`sidequest_semantic_material_result_vocabulary_eight_hundred_seventy_first/EIGHT_HUNDRED_SEVENTY_FIRST_SAMPLE_RESULT_READING.md`.
+
+Next, attack product identity without guessing plant species: look for a
+portable internal product-name grammar built from picture owner + preparation
+class + source/portion/result qualifiers, and assign every Herbal product a
+short workshop name that a second scribe can actually use.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
