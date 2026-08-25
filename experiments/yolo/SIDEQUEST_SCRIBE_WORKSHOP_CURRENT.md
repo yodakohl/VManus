@@ -12019,6 +12019,18 @@ Next, apply the four AIR wording repairs through the complete statement edition
 and inspect the five-card water mini-paradigm as source/take, add, start, move
 and close operations.
 
+Pass 835 aligns all five AIR events to the concrete noun WASSER. Exactly four
+Bio statements change from “laufende Fluessigkeit” to `das laufende Wasser`;
+the f10r Herbal statement already said water. The compact paradigm is now
+`CH+AIR` take water, `K+AIR` add water, `OK+AIR` start/set water,
+`CHD+AIR` move water, and `AIR+Y+DY` close the water item. The existing unseen
+cell `L+AIR`, surface prediction `lair`, reads directly as “Wasser leiten”. See
+`sidequest_semantic_water_paradigm_eight_hundred_thirty_fifth/EIGHT_HUNDRED_THIRTY_FIFTH_REPORT.md`.
+
+Next, find another compact material/address stem with several stable operators;
+prefer a paradigm that predicts one concrete missing cell rather than a new
+isolated whole-word gloss.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
