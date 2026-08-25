@@ -10832,10 +10832,20 @@ between-statement and4 internal owner resets are explicit; every row keeps
 global_flow=NONE, so no closed page circuit is invented. See
 `sidequest_semantic_six_biological_stations_seven_hundred_twenty_sixth/SEVEN_HUNDRED_TWENTY_SIXTH_REPORT.md`.
 
-Next, bind the five Herbal articles and six Biological protocols into one
-WHAT/HOW workshop edition. Search the fixed card sequences for actual portable
-handoff motifs; if none links a plant record to a station record, keep the
-registers thematic rather than inventing cross-references.
+Pass 727 binds the five Herbal WHAT articles to the six Biological HOW
+protocols without inventing links. The registers share17 exact cards,6
+statement-internal bigrams and exactly one trigram, `Y–AIIN–Y`, occurring in
+H2-S001 (`chy taiin shy`) and B3-S003 (`chey daiin chey`). It reads as a
+portable frame, “den aktuell gemeinten Posten unter dem vorgegebenen Maß
+beibehalten”. No four-card sequence is shared, and all30 H×B pairings lack a
+specific plant/station pointer. The thematic WHAT→HOW architecture survives;
+direct cross-references do not. See
+`sidequest_semantic_what_how_bridge_seven_hundred_twenty_seventh/SEVEN_HUNDRED_TWENTY_SEVENTH_REPORT.md`.
+
+Next, expand the six shared bigrams in all their sentence environments and
+choose the smallest portable teaching templates. Keep `Y–AIIN–Y` as a measure
+frame, not a cross-reference, unless a longer fixed-page construction supplies
+a concrete referent.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
