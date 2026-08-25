@@ -11560,6 +11560,18 @@ the other components and identify whether add/insert, guide and transfer form
 real substitutable operation families or must remain partly nested whole-card
 values.
 
+Pass 797 finds82 transfer events/51 cards/47 recipes. K occurs21 times as
+ZUGEBEN, L27 times as LEITEN and CHD48 times as UMSETZEN; every event retains
+all named operation meanings. Seven shared end families cover33 events, with
+OP+Y complete under all three operations. Six missing operations yield unseen
+`chedol,lal,lair,lain,kdy,chdar`. Fourteen events stack operations rather than
+substitute them: K→CHD once, L→CHD twelve times and L→K once. See
+`sidequest_semantic_transfer_axis_seven_hundred_ninety_seventh/SEVEN_HUNDRED_NINETY_SEVENTH_REPORT.md`.
+
+Next, insert the six operation counterparts into complete statements and turn
+the14 stacked cards into an input→guide/add→transfer state machine tied to the
+local picture owner.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
