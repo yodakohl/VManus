@@ -13000,6 +13000,36 @@ that improves both readings. Do not promote a root merely because its letters
 can be segmented, and do not add another page until this local drawer has been
 ordered.
 
+Pass 911 orders all240 entries/261 events. All57 copied workshop-card types
+(63 events) receive explicit compositions:49 use only existing components and
+eight share the new register root CPH. Across the full edition CPH has12 events/
+11 surfaces in all four registers and reads GEGEN-/EMPFANGSGANG, expanded as
+Nachlauf, Becken-Rücklauf, Ring-Gegenstelle or Auffangen. The183 image-label
+types remain owner-bound names/classes; their visible forms are segmented only
+as possible address/classifier forms, not as decoded names. See
+`sidequest_semantic_local_drawer_ordering_nine_hundred_eleventh/PASS911_REPORT.md`.
+
+Pass 912 writes that repair through the complete fourteen-page edition:
+2511 events,1384 dictionary entries,464 loci,14 physical pages/15 selectors.
+All63 old workshop whole-card events are compositional, the older cphy joins
+CPH, and all198 label events retain a concrete visible owner plus a separate
+component hypothesis. There is no WHOLE recipe left at the formal layer, but
+local proper-name/class content remains learned. See
+`sidequest_semantic_fourteen_page_revised_handbook_nine_hundred_twelfth/PASS912_REPORT.md`.
+
+Pass 913 binds those198 label groups/153 loci to visible spatial roles and
+extracts an eight-slot label grammar: OWNER→ORDER→CLASS/ACTION→ADDRESS→
+INDEX/AMOUNT→GRADE→TOPOLOGY→REFERENT/BOUNDARY. The strongest bridge is OT+AL
+on18 label events across f70 and f88, read NAECHSTER ZIEL-/LISTENPLATZ; it
+connects star-figure and ingredient-list addressing without calling either
+surface a decoded name. See
+`sidequest_semantic_owner_address_syntax_nine_hundred_thirteenth/PASS913_REPORT.md`.
+
+Next, write the eight label slots back into the full handbook and give f70/f88
+continuous list readings with the visible name first and the classifier layer
+second. Then distinguish O/OK/CH/K as label classifiers from their prose
+actions. Do not add another page yet.
+
 Continue only inside the fourteen-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete

@@ -2,6 +2,11 @@
 
 Updated: 2026-08-25. Use `experiments/EXPERIMENT_INDEX.tsv` for primary reports; consult the active state and ledger only for claim-detail audits or historical reconstruction.
 Noncanonical fourteen-page sidequest: `experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_CURRENT.md`.
+Its current creative working layer is Pass 913: 15 portable cores plus the
+register root `CPH`, 63 former workshop whole-card events rebuilt as
+compositions, and an eight-slot owner/address syntax over 198 image labels.
+The concrete label name/class remains image- or exemplar-owned; component
+segmentation is not itself a decoded proper name.
 
 ## Scientific ceiling
 
