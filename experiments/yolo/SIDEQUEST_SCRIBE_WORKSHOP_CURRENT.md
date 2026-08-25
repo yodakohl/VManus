@@ -10860,9 +10860,18 @@ portion while `K+IIN` reaches a process stage. Thirteen cards/43 events/31
 statements are sharpened, with all forms fixed. See
 `sidequest_semantic_quantity_split_seven_hundred_twenty_ninth/SEVEN_HUNDRED_TWENTY_NINTH_REPORT.md`.
 
-Next, close the AR/AL direction pair across every fixed context. Test the
-simple workshop opposition AR=aus/von einer Quelle against AL=an/zu einer
-Zielstelle, keeping AIR=WASSER separate from AR.
+Pass 730 closes the direction roots: AR=QUELLE (10 cards/14 events),
+AL=ZIELSTELLE (22/39), AIR=WASSER (5/5, atomic and never split as AR).
+Four paired constructions differ only in their address: AR/AL,
+OK+AR/OK+AL, L+CHD+AR/L+CHD+AL and OT+AR/OT+AL. Thus `lchedar` leads from the
+source while `lchedal` leads to the target site. AL is sharpened from abstract
+ZIEL to ZIELSTELLE across22 cards/39 events/28 statements; form stays fixed.
+See
+`sidequest_semantic_source_target_seven_hundred_thirtieth/SEVEN_HUNDRED_THIRTIETH_REPORT.md`.
+
+Next, close the OR/OL/OT anaphoric and order machine. Test OR=Ansatz,
+OL=Fortsetzung/same chain, and OT=Folge/danach in every fixed context, including
+their overlaps, without treating similar surface strings as automatic roots.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
