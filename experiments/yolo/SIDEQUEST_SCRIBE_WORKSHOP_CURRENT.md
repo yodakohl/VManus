@@ -10949,10 +10949,23 @@ minor repairs. No bare Mass/Ziel/Fortsetzen/Weiterleiten/Auffangen/Einfuellen
 or complex `shey` gloss remains. See
 `sidequest_semantic_clean_fluent_edition_seven_hundred_thirty_ninth/SEVEN_HUNDRED_THIRTY_NINTH_REPORT.md`.
 
-Next, sort all116 statements into a small set of recurring workshop sentence
-plans. Derive a compact apprentice sheet for OWNER, SOURCE, SOLLMASS,
-ZIELSTELLE, OPERATION, GRADE and SCHLUSS, while keeping genuinely elliptical
-or order-exception statements explicit.
+Pass 740 reduces all116 statements to eight apprentice patterns. T1–T8 counts
+are47/26/11/5/16/4/6/1: action-first closed, action-address closed,
+address-action closed, closed ellipsis, their three open counterparts, and one
+open address-only ellipsis. Overall95 statements are action-leading,15
+address-leading and6 inherit their action entirely;20 start with OT/OL/resume
+memory. All89 licensed closes are final. The strongest workshop simplification
+is register mode: Herbal has19 statements/100 cards, mean5.263, only1
+single-card and4 closed; Biological has97/281, mean2.897,43 single-card and85
+closed. One codebook therefore supports running plant-article instructions and
+compressed station cells. See
+`sidequest_semantic_apprentice_syntax_seven_hundred_fortieth/SEVEN_HUNDRED_FORTIETH_REPORT.md`.
+
+Next, perform a creative apprentice recoding trial: regenerate each statement's
+template and likely card-family sequence from owner plus clean instruction,
+without copying its observed surface sequence into the generation step. Score
+where the eight rules recover the family plan and isolate the memorized-card
+gaps; do not change meanings merely to improve recovery.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
