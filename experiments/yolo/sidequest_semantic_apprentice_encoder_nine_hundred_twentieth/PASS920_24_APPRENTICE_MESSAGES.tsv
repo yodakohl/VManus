@@ -1,0 +1,25 @@
+message_id	source_intention_de	macro_sequence	component_recipes	internal_card_sequence	post_close_entry_sequence	roundtrip_reading_de	cards	all_cards_observed
+A01	nach Sollmaß ansetzen und kurz schließen	M21>M02	OK+AIIN | OK+E+DY	okaiin okedy	qokaiin okedy	nach Sollmaß ansetzen; kurz ansetzen; fertig	2	YES
+A02	aus dem bezeichneten Teil eine Portion nehmen, an der Zielstelle ansetzen und kurz schließen	M20>M22>M23>M02	D_ADDR+AR | OK+AIN | OK+AL | OK+E+DY	dar okain okal okedy	dar okain okal okedy	aus diesem Teil entnehmen; eine Portion ansetzen; an der Zielstelle ansetzen; kurz ansetzen; fertig	4	YES
+A03	vom Ansatz entnehmen, nach Sollmaß ansetzen und länger schließen	M31>M21>M01	CH+OR | OK+AIIN | OK+EE+DY	chor okaiin okeedy	chor okaiin okeedy	vom Ansatz entnehmen; nach Sollmaß ansetzen; länger ansetzen; fertig	3	YES
+A04	den Auszug durch den Durchlass weiterleiten und den Schritt schließen	M19>M18>M25	CHEO+L | CKH+Y | OL+DY	cheol chckhy oldy	cheol chckhy oldy	den Auszug weiterleiten; dies durch den Durchlass; fortsetzen; fertig	3	YES
+A05	das Sollmaß prüfen, danach entsprechend ansetzen und kurz schließen	M28>M21>M02	S+AIIN | OK+AIIN | OK+E+DY	saiin okaiin okedy	saiin okaiin okedy	das Sollmaß prüfen; nach Sollmaß ansetzen; kurz ansetzen; fertig	3	YES
+A06	die Portion prüfen, ansetzen und länger schließen	M29>M22>M01	S+AIN | OK+AIN | OK+EE+DY	sain okain okeedy	sain okain okeedy	die Portion prüfen; eine Portion ansetzen; länger ansetzen; fertig	3	YES
+A07	die Entnahmestelle prüfen und diesen Posten von dort länger ansetzen	M30>M24>M03	S+AR | OK+AR | OK+EE+Y	sar okar okeey	sar okar okeey	die Entnahmestelle prüfen; von der Entnahmestelle ansetzen; dies länger ansetzen	3	YES
+A08	danach diesen Posten umsetzen, fortsetzen und schließen	M27>M17>M25	OT+Y | CHD+Y | OL+DY	oty chedy oldy	qoty chedy oldy	danach diesen Posten; dies umsetzen; fortsetzen; fertig	3	YES
+A09	den Gang beginnen, den Auszug weiterleiten, abführen und schließen	M36>M19>M12	OK+OL | CHEO+L | L+CHD+DY	okol cheol lchedy	qokol cheol lchedy	den Gang beginnen und fortsetzen; den Auszug weiterleiten; abführen und umsetzen; fertig	3	YES
+A10	diesen Posten einsetzen, kurz halten und schließen	M39>M08>M06	O+P+Y | SH+E+Y | SH+E+DY	opchy shey dshedy	qopchy shey dshedy	dies in den Arbeitsgang einsetzen; dies kurz halten; kurz halten; fertig	3	YES
+A11	diesen Posten kurz behandeln, kurz ansetzen und schließen	M33>M02	CHK+E+Y | OK+E+DY	cheky okedy	cheky okedy	dies kurz behandeln; kurz ansetzen; fertig	2	YES
+A12	diesen Posten länger behandeln und länger halten; schließen	M34>M05	CHK+EE+Y | SH+EE+DY	cheeky sheedy	cheeky sheedy	dies länger behandeln; länger halten; fertig	2	YES
+A13	an der Sammelstelle länger halten, dann schließen	M35>M25	SOLK+EE+Y | OL+DY	olkeey oldy	olkeey oldy	dies länger an der Sammelstelle halten; fortsetzen; fertig	2	YES
+A14	den Ansatz halten, diesen Posten kurz halten und schließen	M43>M08>M06	SH+OR | SH+E+Y | SH+E+DY	shor shey dshedy	shor shey dshedy	den Ansatz halten; dies kurz halten; kurz halten; fertig	3	YES
+A15	mit dem Ansatz fortsetzen, nach Sollmaß ansetzen und kurz schließen	M44>M21>M02	OL+OR | OK+AIIN | OK+E+DY	olor okaiin okedy	olor okaiin okedy	mit dem Ansatz fortsetzen; nach Sollmaß ansetzen; kurz ansetzen; fertig	3	YES
+A16	danach vom Ansatz entnehmen, eine Portion ansetzen, umsetzen und schließen	M37>M31>M22>M14	OT+OR | CH+OR | OK+AIN | OK+CHD+DY	otor chor okain okchdy	qotor chor okain okchdy	danach mit dem Ansatz; vom Ansatz entnehmen; eine Portion ansetzen; ansetzen und umsetzen; fertig	4	YES
+A17	in diesem Teil fortsetzen, den Posten umsetzen und schließen	M38>M17>M13	D_ADDR+OL | CHD+Y | OL+CHD+DY	dol chedy olchedy	dol chedy olchedy	in diesem Teil fortsetzen; dies umsetzen; weiter umsetzen; fertig	3	YES
+A18	an der Zielstelle ansetzen, dort länger halten und schließen	M23>M07>M05	OK+AL | SH+EE+Y | SH+EE+DY	okal cheey sheedy	qokal cheey sheedy	an der Zielstelle ansetzen; dies länger halten; länger halten; fertig	3	YES
+A19	der Zielstelle zuordnen, länger ansetzen und schließen	M42>M03>M01	K+AL | OK+EE+Y | OK+EE+DY	kal okeey okeedy	kal okeey okeedy	der Zielstelle zuordnen; dies länger ansetzen; länger ansetzen; fertig	3	YES
+A20	eine Portion zugeben, kurz ansetzen und schließen	M41>M04>M02	K+AIN | OK+E+Y | OK+E+DY	kain okey okedy	kain okey okedy	eine Portion zuordnen; dies kurz ansetzen; kurz ansetzen; fertig	3	YES
+A21	nach Sollmaß zugeben, ansetzen und länger schließen	M40>M21>M01	K+AIIN | OK+AIIN | OK+EE+DY	kaiin okaiin okeedy	kaiin okaiin okeedy	nach Sollmaß zuordnen; nach Sollmaß ansetzen; länger ansetzen; fertig	3	YES
+A22	kurz spülen, danach ruhen lassen und schließen	M16>M11	LSH+E+DY | SHED+DY	lshedy shedy	lshedy shedy	kurz spülen; fertig; ruhen lassen; fertig	2	YES
+A23	einsetzen, umsetzen, abführen und schließen	M15>M12	P+CHD+DY | L+CHD+DY	pchedy lchedy	pchedy lchedy	einsetzen und umsetzen; fertig; abführen und umsetzen; fertig	2	YES
+A24	danach länger arbeiten, den Posten umsetzen und schließen	M09>M17>M25	OT+EE+DY | CHD+Y | OL+DY	oteedy chedy oldy	qoteedy chedy oldy	danach länger; fertig; dies umsetzen; fortsetzen; fertig	3	YES

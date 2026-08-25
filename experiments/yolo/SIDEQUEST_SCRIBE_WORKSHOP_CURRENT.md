@@ -13030,6 +13030,76 @@ continuous list readings with the visible name first and the classifier layer
 second. Then distinguish O/OK/CH/K as label classifiers from their prose
 actions. Do not add another page yet.
 
+Pass 914 makes that channel split explicit. Seven frequent forms now have one
+prose action and one label/list function: O executes a work cycle or calls a
+series; OK starts a work operation or activates a place; CH takes a part or
+reads a class; K adds a post or assigns a value; T adjusts or marks; S selects
+or classifies; OR is a preparation or entry class. The full contextual ledger
+contains all2511 groups, including continuous f70/f88 list readings. See
+`sidequest_semantic_classifier_action_split_nine_hundred_fourteenth/PASS914_REPORT.md`.
+
+Pass 915 stops treating physical lines as sentence ends. The2010 prose groups
+form354 work clauses:331 end with a licensed DY-close,15 at a genuine
+nonprose/owner boundary and8 remain open at page end. Exactly121 clauses cross
+at least one physical line. Their spoken slot order is CALL→OWNER→SOURCE→
+QUANTITY→ACTION→TARGET→GRADE→CLOSE→LOCAL. See
+`sidequest_semantic_clause_word_order_nine_hundred_fifteenth/PASS915_REPORT.md`.
+
+Pass 916 adds44 short taught phrases over53 prose components. They compress
+1930/5027 component atoms in816/2010 prose groups; typical forms are
+OK+E/EE+DY short/long start-and-close, SH+E/EE+Y short/long hold, D_ADDR+AR
+take-from-this-part and L+CHD+DY transfer-and-close. See
+`sidequest_semantic_workshop_phrasebook_nine_hundred_sixteenth/PASS916_REPORT.md`.
+
+Pass 917 turns all2010 prose groups into1435 fluent spoken instructions inside
+the same354 clauses. Pure Y/AIIN/OL/AR cards carry forward to the next action,
+and residual clause-final bundles read as an explicit workshop ellipsis rather
+than as isolated fake words. See
+`sidequest_semantic_fluent_prose_nine_hundred_seventeenth/PASS917_REPORT.md`.
+
+Pass 918 fixes exactly17 invariant prose verbs: P insert, OK start, CH take,
+K add, O execute, T set, S choose, CTH ready, R mark, CHK treat, CHD transfer,
+SH hold, SHED settle, CFH separate, LSH rinse, CPH divert and SOLK collect.
+This replaces the old undifferentiated bearbeiten/pruefen bundle throughout all
+1435 instructions. See
+`sidequest_semantic_minimal_verb_deck_nine_hundred_eighteenth/PASS918_REPORT.md`.
+
+Pass 919 rereads the four new pages with that grammar:863 groups/144 loci,
+619 prose groups and244 owner/address groups. The crucial revision is that all
+f70 ring text uses the address/list channel rather than literal workshop prose;
+no new long meaning is needed. See
+`sidequest_semantic_four_new_pages_second_reading_nine_hundred_nineteenth/PASS919_REPORT.md`.
+
+Pass 920 makes the mixed system writable in reverse. All44 taught phrases have
+an observed internal surface;19 also have an observed q-entry surface. Twenty-
+four concrete German work messages encode into observed card sequences and
+round-trip phrase by phrase. See
+`sidequest_semantic_apprentice_encoder_nine_hundred_twentieth/PASS920_REPORT.md`.
+
+Pass 921 publishes25 one-change/one-meaning contrasts. The strongest cube is
+OK/SH/CHK × E/EE × Y/DY:11/12 cells are visible. The single missing creative
+prediction is `chekedy`=briefly treat; close (CHK+E+DY). Nineteen q/base pairs
+explicitly change position, not meaning. See
+`sidequest_semantic_meaning_cube_nine_hundred_twenty_first/PASS921_REPORT.md`.
+
+Pass 922 shelves the full56-component inventory as30 productive contrast cores,
+10 learned workshop roots,5 address signs and11 local/renderer signs. Pass 923
+then reads all141 occurrences of the learned roots and shortens three defaults:
+CPH=UMLEITEN, HO=TEIL, CFH=TRENNEN. See
+`sidequest_semantic_component_shelves_nine_hundred_twenty_second/PASS922_REPORT.md`
+and `sidequest_semantic_learned_root_readings_nine_hundred_twenty_third/PASS923_REPORT.md`.
+
+Pass 924 is the new consolidated base:2511 groups,1384 cards,464 loci,1435 prose
+instructions,354 clauses,56 components,17 verbs and44 phrases. It separates
+2010 work-prose groups from501 owner/address/diagram groups and propagates the
+CPH/HO/CFH corrections everywhere. See
+`sidequest_semantic_consolidated_fourteen_page_edition_nine_hundred_twenty_fourth/PASS924_REPORT.md`
+and `PASS924_COMPACT_SCRIBAL_HANDBOOK.md`.
+
+Next, rewrite the longest30 clauses into genuinely natural German while retaining
+an exact component/event binding. Prefer coherent process paragraphs over more
+tables. Do not add pages until those long clauses are human-readable.
+
 Continue only inside the fourteen-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete

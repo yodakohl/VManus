@@ -1,0 +1,391 @@
+# Pass 918 — Prosafassung mit 17 eindeutigen Verben
+
+## f10r
+
+- **P915-C001** Diesen Posten einsetzen, entnehmen, ausführen und bereitstellen. Den Ansatz halten. Aus diesem Teil diesen Posten ausführen, bereitstellen und ausführen. Den Ansatz und diesen Posten entnehmen. Weiter aus diesem Teil einsetzen, entnehmen und ausführen. Entnehmen, ausführen, einsetzen und entnehmen zur Ziel- oder Anschlussstelle. Diesen Posten einsetzen und entnehmen. Zugeben und ausführen mit m-Zeichen. Diesen Posten kurz entnehmen. Den Ansatz bereitstellen und ausführen. Von der Entnahmestelle diesen Posten entnehmen und einstellen. Auch entnehmen entlang des Laufs. Danach weiter diesen Posten einstellen und entnehmen. Diesen Posten ansetzen. Nach Sollmaß diesen Posten kurz einstellen. Danach den Ansatz ausführen. Diesen Posten einstellen. Nach Sollmaß diesen Posten entnehmen, ausführen und bereitstellen. Danach weiter diesen Posten und den Ansatz einstellen. Diesen Posten und den Ansatz wählen. Nach Sollmaß entnehmen. Diesen Posten entnehmen und bereitstellen. Bereitstellen und ausführen. Nach Sollmaß diesen Posten und den Ansatz entnehmen, einstellen und entnehmen durch den Durchlass. Aus diesem Teil auf der angegebenen Stufe ausführen und kennzeichnen. Ausführen; fertig.
+- **P915-C002** Diesen Posten ansetzen. Danach weiter entnehmen. Weiter diesen Posten bereitstellen. Diesen Posten und den Auszug kennzeichnen. Diesen Posten bereitstellen. Den Ansatz entnehmen. Nach Sollmaß bereitstellen. Weiter diesen Posten ausführen und bereitstellen unter q-Träger. Nach Sollmaß diesen Posten einstellen. Weiter aus diesem Teil diesen Posten ansetzen. Nach Sollmaß diesen Posten zugeben und entnehmen. Diesen Posten einstellen. Nach Sollmaß bereitstellen. Danach aus diesem Teil als eine Portion den Ansatz entnehmen entlang des Laufs zur Innenstelle. Den Ansatz entnehmen. Danach weiter aus diesem Teil von der Entnahmestelle nach Sollmaß den Ansatz und diesen Posten ausführen, zugeben und entnehmen. Den Ansatz halten. Den Ansatz entnehmen. Von der lokalen Stelle auf der angegebenen Stufe diesen Posten zugeben mit i-Zeichen. Aus diesem Teil nach Sollmaß diesen Posten entnehmen und ausführen. Danach den Ansatz ausführen. Danach den Ansatz und diesen Posten pressen. Den Ansatz bereitstellen. Als eine Portion ausführen und wählen. Auf der angegebenen Stufe diesen Posten einstellen und ausführen. Danach den Ansatz entnehmen, ausführen und halten. Danach aus diesem Teil diesen Posten und den Ansatz bereitstellen. Danach von der Entnahmestelle aus diesem Teil nach Sollmaß ausführen. Danach nach Sollmaß diesen Posten und den Ansatz weiterarbeiten.
+
+## f11r
+
+- **P915-C003** Weiter einstellen und halten. Halten und ausführen zur Ziel- oder Anschlussstelle. Diesen Posten pressen. Nach Sollmaß diesen Posten halten. Diesen Posten rückführen. Diesen Posten kurz halten. Einstellen, entnehmen und ausführen; fertig.
+- **P915-C004** Diesen Posten halten, ausführen und einstellen. Aus diesem Teil diesen Posten wählen, ausführen, bereitstellen und ausführen. Aus diesem Teil den Ansatz ausführen unter q-Träger. Diesen Posten zugeben und halten. Nach Sollmaß diesen Posten einstellen. Diesen Posten einstellen und ansetzen. Weiter zugeben. Danach weiter nach Sollmaß diesen Posten bereitstellen. Aus diesem Teil den Ansatz und diesen Posten zugeben und entnehmen. Danach diesen Posten entnehmen. Als eine Portion nach Sollmaß entnehmen. Aus diesem Teil nach Sollmaß ausführen. Weiter aus diesem Teil diesen Posten zugeben. Weiter nach Sollmaß diesen Posten einstellen. Den Ansatz halten. Den Ansatz halten. Aus diesem Teil diesen Posten zugeben. Nach Sollmaß diesen Posten bereitstellen. Aus diesem Teil diesen Posten entnehmen und ausführen in den nächsten Lauf. Aus diesem Teil nach Sollmaß ausführen in den nächsten Lauf. Aus diesem Teil wählen. Danach weiter nach Sollmaß diesen Posten entnehmen. Diesen Posten und den Ansatz zugeben und entnehmen. Aus diesem Teil diesen Posten entnehmen und ausführen entlang des Laufs. Diesen Posten bereitstellen. Wählen. Danach weiter nach Sollmaß diesen Posten ansetzen. Diesen Posten bereitstellen. Diesen Posten weiterarbeiten.
+
+## f13r
+
+- **P915-C005** Den Ansatz einstellen und halten. Diesen Posten ausführen und einsetzen. Weiter halten. Diesen Posten ausführen und einsetzen. Weiter halten. Den Ansatz ausführen, einsetzen und entnehmen. Aus diesem Teil diesen Posten einsetzen. Aus diesem Teil entnehmen mit g-Zeichen. Weiter aus diesem Teil diesen Posten halten und zugeben. Diesen Posten zugeben zur Ziel- oder Anschlussstelle. Danach nach Sollmaß diesen Posten wählen. Diesen Posten wählen. Aus diesem Teil diesen Posten und den Ansatz entnehmen. Nach Sollmaß halten. Vollständig ausführen und wählen. Diesen Posten und den Ansatz zugeben. Den Ansatz entnehmen. Diesen Posten einstellen. Diesen Posten zugeben. Diesen Posten zugeben. Aus diesem Teil von der Entnahmestelle diesen Posten ausführen. Diesen Posten einstellen. Danach den Ansatz entnehmen. Aus diesem Teil den Ansatz halten und ausführen. Diesen Posten einstellen. Weiter zugeben. Aus diesem Teil diesen Posten einsetzen. Diesen Posten ausführen und einsetzen. Danach weiter entnehmen. Weiter pressen; fertig.
+- **P915-C006** Den Ansatz einstellen und entnehmen. Danach weiter aus diesem Teil nach Sollmaß den Ansatz entnehmen. Diesen Posten ansetzen. Den Ansatz ansetzen und entnehmen. Auf der angegebenen Stufe ausführen. Aus diesem Teil diesen Posten ansetzen durch den Durchlass. Weiter diesen Posten ausführen. Weiter aus diesem Teil weiterarbeiten; fertig.
+- **P915-C007** Den Ansatz ansetzen und entnehmen. Aus diesem Teil nach Sollmaß ausführen. Den Stoffteil und diesen Posten ansetzen. Den Ansatz und diesen Posten einstellen. Zugeben. Wählen. Diesen Posten ansetzen. Weiter nach Sollmaß weiterarbeiten; fertig.
+- **P915-C008** Diesen Posten kurz halten. Weiter aus diesem Teil auf der angegebenen Stufe ausführen. Weiter diesen Posten zugeben. Ansetzen und entnehmen zur Ziel- oder Anschlussstelle. Zur Ziel- oder Anschlussstelle weiterarbeiten; fertig.
+- **P915-C009** Danach diesen Posten wählen. Diesen Posten zugeben. Den Ansatz und diesen Posten ansetzen.
+
+## f55v
+
+- **P915-C010** Aus diesem Teil diesen Posten länger zugeben, entnehmen und umsetzen. Aus diesem Teil als eine Portion kurz ausführen. Danach weiter aus diesem Teil nach Sollmaß diesen Posten ausführen durch den Durchlass mit d-Zeichen; fertig. Aus diesem Teil vollständig ausführen. Diesen Posten länger einstellen. Länger ansetzen; fertig.
+- **P915-C011** Nach Sollmaß ausführen unter q-Träger. Aus diesem Teil diesen Posten kurz ansetzen und ausführen. Diesen Posten länger zugeben und wählen. Diesen Posten vollständig ansetzen. Auch weiter als eine Portion ausführen unter q-Träger. Diesen Posten umsetzen zur Ziel- oder Anschlussstelle. Von der Entnahmestelle wählen. Weiter von der Entnahmestelle nach Sollmaß zugeben. Von der Entnahmestelle ansetzen zur Innenstelle. Aus diesem Teil diesen Posten entnehmen durch den Durchlass. Von der Entnahmestelle den Auszug und diesen Posten länger zugeben mit f-Zeichen. Diesen Posten ausführen und umsetzen zur Ziel- oder Anschlussstelle. Als eine Portion ansetzen. Ausführen; fertig.
+- **P915-C012** Nach Sollmaß ansetzen. Nach Sollmaß entnehmen. Als eine Portion diesen Posten zugeben. Diesen Posten zugeben. Ausführen; fertig.
+- **P915-C013** Nach Sollmaß diesen Posten umsetzen. Einstellen zur Ziel- oder Anschlussstelle zur Innenstelle. Nach Sollmaß diesen Posten zugeben. Nach Sollmaß diesen Posten zugeben entlang des Laufs. Diesen Posten kurz behandeln. Aus diesem Teil nach Sollmaß diesen Posten ansetzen und umsetzen. Als eine Portion diesen Posten zugeben. Diesen Posten kurz halten und ansetzen. Als eine Portion den Ansatz entnehmen. Diesen Posten zugeben und umsetzen. Einsetzen und entnehmen zur Ziel- oder Anschlussstelle. Von der Entnahmestelle aus diesem Teil auf der zweiten Stufe diesen Posten kennzeichnen zur Ziel- oder Anschlussstelle. Von der Entnahmestelle einstellen. Diesen Posten umsetzen. Nach Sollmaß ansetzen. Von der Entnahmestelle ansetzen. Weiter danach von der Entnahmestelle aus diesem Teil den Stoffteil und diesen Posten einstellen und ausführen zur Ziel- oder Anschlussstelle. Von der Entnahmestelle ansetzen. Von der lokalen Stelle diesen Posten zugeben. Diesen Posten ansetzen. Ansetzen zur Ziel- oder Anschlussstelle. Nach Sollmaß diesen Posten und den Ansatz ansetzen. Als eine Portion diesen Posten zugeben. Danach von der lokalen Stelle diesen Posten zugeben. Nach Sollmaß ausführen. Weiter wählen. Nach Sollmaß ansetzen. Diesen Posten ansetzen. Nach Sollmaß diesen Posten einstellen. Danach von der Entnahmestelle diesen Posten zugeben zur Ziel- oder Anschlussstelle. Von der Entnahmestelle diesen Posten zugeben. Weiter nach Sollmaß diesen Posten zugeben. Von der Entnahmestelle kurz entnehmen und ausführen. Diesen Posten länger behandeln. Weiter weiterarbeiten; fertig.
+- **P915-C014** Nach Sollmaß ansetzen zur Ziel- oder Anschlussstelle. Weiter diesen Posten einstellen. Von der Entnahmestelle als eine Portion nach Sollmaß den Ansatz und diesen Posten kurz behandeln. Weiter diesen Posten länger zugeben und entnehmen. Wählen in den nächsten Lauf. Danach von der Entnahmestelle nach Sollmaß zur Innenstelle weiterarbeiten.
+
+## f56r
+
+- **P915-C015** Ausführen. Entnehmen zur Ziel- oder Anschlussstelle. Entnehmen und wählen. Danach diesen Posten kurz wählen; fertig.
+- **P915-C016** Diesen Posten entnehmen, ausführen und rückführen. Den Ansatz und diesen Posten entnehmen. Diesen Posten kurz ansetzen und entnehmen. Weiter diesen Posten und den Ansatz zugeben und entnehmen. Diesen Posten kurz entnehmen und zugeben. Danach diesen Posten entnehmen. Nach Sollmaß halten und ansetzen. Weiter diesen Posten ansetzen. Diesen Posten länger zugeben. Diesen Posten länger ansetzen. Diesen Posten länger ansetzen. Diesen Posten ansetzen und wählen. Danach den Ansatz entnehmen. Den Ansatz entnehmen. Den Ansatz ansetzen. Den Ansatz behandeln. Von der Entnahmestelle diesen Posten ansetzen. Diesen Posten umsetzen. Den Stoffteil und den Ansatz entnehmen. Nach Sollmaß den Stoffteil und diesen Posten zugeben, entnehmen und ausführen zur Ziel- oder Anschlussstelle. Diesen Posten kurz entnehmen. Diesen Posten länger zugeben. Nach Sollmaß diesen Posten halten und ausführen. Weiter zugeben. Danach den Ansatz entnehmen. Diesen Posten ansetzen. Davon ausgehend den Stoffteil und diesen Posten ansetzen zur Ziel- oder Anschlussstelle. Länger entnehmen und ausführen durch den Durchlass; fertig.
+- **P915-C017** Diesen Posten einstellen und ansetzen. Weiter zugeben. Weiter halten. Danach diesen Posten kurz entnehmen. Weiter einstellen. Diesen Posten einstellen. Den Ansatz entnehmen. Danach diesen Posten entnehmen. Ansetzen. Diesen Posten einstellen. Diesen Posten kennzeichnen. Nach Sollmaß ansetzen. Diesen Posten länger zugeben und entnehmen. Weiter nach Sollmaß bereitstellen. Entnehmen, ausführen und wählen. Den Ansatz ansetzen. Halten. Den Stoffteil und diesen Posten kurz zugeben und entnehmen. Diesen Posten ansetzen und entnehmen. Diesen Posten ansetzen. Den Auszug ansetzen. Zugeben und entnehmen zur Ziel- oder Anschlussstelle. Wählen. Weiter danach entnehmen. Danach diesen Posten einstellen, entnehmen und ausführen. Weiter einstellen. Weiter diesen Posten bereitstellen. Danach aus diesem Teil diesen Posten entnehmen und ausführen. Bereitstellen und ausführen. Kennzeichnen. Von der Entnahmestelle diesen Posten zugeben und entnehmen mit g-Zeichen. Diesen Posten länger ansetzen. Diesen Posten länger ansetzen und entnehmen. Diesen Posten kurz wählen und entnehmen. Aus diesem Teil nach Sollmaß diesen Posten halten und ausführen. Diesen Posten ansetzen und entnehmen. Von der Entnahmestelle zugeben, entnehmen und ausführen. Danach aus diesem Teil wählen und ausführen. Danach weiter diesen Posten kurz zugeben. Nach Sollmaß weiterarbeiten.
+
+## f75r
+
+- **P915-C018** Von der Entnahmestelle diesen Posten zugeben, umsetzen und zugeben. Diesen Posten länger ansetzen. Von der Entnahmestelle ansetzen. Diesen Posten zugeben. Diesen Posten umsetzen. Danach von der Entnahmestelle absetzen; fertig.
+- **P915-C019** Als eine Portion diesen Posten kurz halten. Weiter diesen Posten kurz wählen und halten in den nächsten Lauf. Weiter weiterarbeiten; fertig.
+- **P915-C020** Von der Entnahmestelle diesen Posten umsetzen und zugeben. Länger behandeln; fertig.
+- **P915-C021** Den Ansatz kennzeichnen. Als eine Portion ansetzen. Entnehmen zur Ziel- oder Anschlussstelle. Als eine Portion den Ansatz und diesen Posten kurz zugeben. Diesen Posten länger halten und zugeben. Als eine Portion einstellen in den nächsten Lauf. Von der Entnahmestelle auffangen. Auf der zweiten Stufe den Ansatz und diesen Posten zugeben und ausführen durch den Durchlass in den nächsten Lauf zur Innenstelle. Diesen Posten länger zugeben. Diesen Posten kurz halten in den nächsten Lauf. Zugeben zur Ziel- oder Anschlussstelle. Diesen Posten kurz halten. Ansetzen. Diesen Posten kurz halten. Länger ansetzen; fertig.
+- **P915-C022** Diesen Posten kurz halten. Von der Entnahmestelle zugeben. Diesen Posten kurz kennzeichnen durch den Durchlass. Weiter als eine Portion länger halten; fertig.
+- **P915-C023** Diesen Posten länger ansetzen. Diesen Posten ansetzen. Diesen Posten und den Ansatz länger einsetzen und zugeben. Diesen Posten auffangen. Aus diesem Teil von der Entnahmestelle diesen Posten kurz ansetzen. Als eine Portion ansetzen. Diesen Posten entnehmen und bereitstellen. Länger ansetzen; fertig.
+- **P915-C024** Diesen Posten ansetzen. Einsetzen und umsetzen; fertig.
+- **P915-C025** Ansetzen und halten; fertig.
+- **P915-C026** Als eine Portion diesen Posten einstellen. Diesen Posten umsetzen. Von der Entnahmestelle ansetzen. Weiter diesen Posten umsetzen in den nächsten Lauf. Diesen Posten ansetzen. Den Ansatz wählen. Von der Entnahmestelle diesen Posten ansetzen; fertig.
+- **P915-C027** Aus diesem Teil diesen Posten kurz halten durch den Durchlass. Als eine Portion ansetzen. Diesen Posten kurz spülen durch den Durchlass; fertig.
+- **P915-C028** Länger ansetzen; fertig.
+- **P915-C029** Ansetzen und umsetzen; fertig.
+- **P915-C030** Diesen Posten entnehmen und bereitstellen. Ausführen in den nächsten Lauf. Kurz ansetzen; fertig.
+- **P915-C031** Ansetzen. Diesen Posten kurz entnehmen durch den Durchlass. Von der Entnahmestelle ansetzen. Weiter umsetzen; fertig.
+- **P915-C032** Wählen zur Ziel- oder Anschlussstelle. Aus diesem Teil den Ansatz halten. Danach von der Entnahmestelle diesen Posten umsetzen. Diesen Posten kurz halten. Als eine Portion ansetzen. Danach diesen Posten kurz einstellen durch den Durchlass; fertig.
+- **P915-C033** Umsetzen in den nächsten Lauf; fertig.
+- **P915-C034** Länger ansetzen; fertig.
+- **P915-C035** Ansetzen entlang des Laufs. Weiter diesen Posten länger ansetzen; fertig.
+- **P915-C036** Diesen Posten ansetzen zur Ziel- oder Anschlussstelle. Von der Entnahmestelle ansetzen. Absetzen; fertig.
+- **P915-C037** Aus diesem Teil den Ansatz behandeln zur Innenstelle. Diesen Posten kurz wählen und halten durch den Durchlass. Ansetzen zur Ziel- oder Anschlussstelle. Weiter diesen Posten kurz halten. Kennzeichnen. Weiter diesen Posten länger halten. Diesen Posten kurz halten. Weiter diesen Posten kurz halten; fertig.
+- **P915-C038** Diesen Posten ansetzen. Einsetzen und umsetzen; fertig.
+- **P915-C039** Länger zugeben; fertig.
+- **P915-C040** Kurz ansetzen; fertig.
+- **P915-C041** Kurz ansetzen; fertig.
+- **P915-C042** Kurz ansetzen; fertig.
+- **P915-C043** Kurz ansetzen; fertig.
+- **P915-C044** Als eine Portion ansetzen. Weiter kurz halten; fertig.
+- **P915-C045** Als eine Portion wählen. Diesen Posten kurz zugeben und halten zur Ziel- oder Anschlussstelle. Als eine Portion ansetzen. Weiter diesen Posten kurz halten; fertig.
+- **P915-C046** Als eine Portion ansetzen. Als eine Portion diesen Posten ansetzen durch den Durchlass. Danach von der Entnahmestelle als eine Portion diesen Posten wählen zur Ziel- oder Anschlussstelle. Als eine Portion ansetzen. Weiter diesen Posten länger auffangen. Nach Sollmaß wählen. Diesen Posten umsetzen. Weiter den Ansatz absetzen; fertig.
+- **P915-C047** Ansetzen und umsetzen; fertig.
+- **P915-C048** Diesen Posten ansetzen. Kurz halten; fertig.
+- **P915-C049** Von der Entnahmestelle ansetzen. Länger halten; fertig.
+- **P915-C050** Entnehmen in den nächsten Lauf. Als eine Portion halten und ansetzen. Diesen Posten kurz ansetzen und halten; fertig.
+- **P915-C051** Als eine Portion ansetzen. Diesen Posten umsetzen. Von der Entnahmestelle einsetzen und umsetzen. Diesen Posten kurz halten und einsetzen. Aus diesem Teil von der Entnahmestelle diesen Posten kurz halten in den nächsten Lauf. Halten zur Ziel- oder Anschlussstelle. Weiter diesen Posten zugeben. Absetzen; fertig.
+- **P915-C052** Ansetzen zur Innenstelle. Weiter länger halten; fertig.
+- **P915-C053** Weiter absetzen; fertig.
+- **P915-C054** Weiter danach von der Entnahmestelle als eine Portion wählen. Weiter diesen Posten kurz ansetzen und halten; fertig.
+- **P915-C055** Weiter diesen Posten kurz halten. Diesen Posten ansetzen. Diesen Posten kurz halten. Als eine Portion diesen Posten kurz ansetzen. Von der Entnahmestelle diesen Posten kennzeichnen. Diesen Posten kurz halten. Den Ansatz und diesen Posten ausführen in den nächsten Lauf. Als eine Portion diesen Posten kurz halten. Als eine Portion ansetzen. Als eine Portion ausführen und ansetzen. Diesen Posten und den Ansatz kurz halten durch den Durchlass. Weiter aus diesem Teil von der Entnahmestelle den Ansatz ausführen in den nächsten Lauf zur Innenstelle. Diesen Posten kurz halten. Als eine Portion ansetzen. Diesen Posten umsetzen. Den Ansatz und diesen Posten kurz halten. Von der Entnahmestelle zugeben. Diesen Posten umsetzen. Von der Entnahmestelle wählen. Diesen Posten einsetzen. Diesen Posten kurz zugeben und halten. Diesen Posten länger ansetzen. Ansetzen zur Ziel- oder Anschlussstelle. Diesen Posten kurz wählen und halten. Weiter diesen Posten umsetzen und ansetzen zur Innenstelle. Als eine Portion ansetzen. Diesen Posten länger auffangen. Von der Entnahmestelle diesen Posten auffangen. Als eine Portion wählen. Diesen Posten bereitstellen. Weiter als eine Portion den Ansatz wählen in den nächsten Lauf. Diesen Posten halten durch den Durchlass. Länger ansetzen; fertig.
+- **P915-C056** Diesen Posten länger ansetzen; fertig.
+- **P915-C057** Umsetzen in den nächsten Lauf; fertig.
+- **P915-C058** Kennzeichnen zur Innenstelle. Weiter als eine Portion kurz halten. Weiter aus diesem Teil von der Entnahmestelle von der lokalen Stelle als eine Portion diesen Posten und den Ansatz einsetzen und halten zur Ziel- oder Anschlussstelle. Weiter halten und einstellen. Danach von der Entnahmestelle diesen Posten einsetzen und halten. Absetzen; fertig.
+- **P915-C059** Ansetzen zur Ziel- oder Anschlussstelle; fertig.
+- **P915-C060** Danach aus diesem Teil von der Entnahmestelle ausführen; fertig.
+- **P915-C061** Weiter diesen Posten kennzeichnen. Diesen Posten einstellen und umsetzen. Einsetzen und umsetzen; fertig.
+- **P915-C062** Diesen Posten länger ansetzen. Weiter aus diesem Teil diesen Posten kurz halten und bereitstellen entlang des Laufs. Weiter länger halten in den nächsten Lauf; fertig.
+- **P915-C063** Länger ansetzen; fertig.
+- **P915-C064** Weiter umsetzen in den nächsten Lauf; fertig.
+- **P915-C065** Als eine Portion behandeln zur Ziel- oder Anschlussstelle. Diesen Posten ausführen in den nächsten Lauf. Nach Sollmaß zugeben in den nächsten Lauf. Weiter länger ansetzen; fertig. Weiter als eine Portion diesen Posten länger ansetzen; fertig.
+- **P915-C066** Diesen Posten umsetzen. Danach ausführen. Als eine Portion diesen Posten länger behandeln. Diesen Posten kurz ansetzen. Als eine Portion ansetzen. Diesen Posten kurz behandeln. Ansetzen zur Ziel- oder Anschlussstelle. Als eine Portion diesen Posten umsetzen. Ausführen. Weiter zugeben zur Ziel- oder Anschlussstelle. Absetzen; fertig.
+- **P915-C067** Von der Entnahmestelle ansetzen. Weiter ausführen zur Innenstelle. Kurz halten; fertig.
+- **P915-C068** Diesen Posten kurz ansetzen. Von der Entnahmestelle diesen Posten ansetzen durch den Durchlass. Absetzen; fertig.
+- **P915-C069** Aus diesem Teil diesen Posten kurz ansetzen. Kurz ansetzen; fertig.
+- **P915-C070** Zur Ziel- oder Anschlussstelle weiterarbeiten; fertig.
+- **P915-C071** Weiter diesen Posten einsetzen und halten. Absetzen zur Ziel- oder Anschlussstelle; fertig.
+- **P915-C072** Als eine Portion ansetzen. Aus diesem Teil von der Entnahmestelle entnehmen und wählen; fertig.
+- **P915-C073** Absetzen; fertig.
+- **P915-C074** Danach von der Entnahmestelle absetzen; fertig.
+- **P915-C075** In den nächsten Lauf weiterarbeiten; fertig.
+- **P915-C076** Diesen Posten länger ansetzen. Absetzen in den nächsten Lauf; fertig.
+- **P915-C077** Ausführen. Diesen Posten umsetzen in den nächsten Lauf. Als eine Portion ansetzen. Kurz entnehmen und bereitstellen; fertig.
+- **P915-C078** Kurz einstellen in den nächsten Lauf; fertig.
+- **P915-C079** Aus diesem Teil von der Entnahmestelle ausführen zur Innenstelle. Wählen. Kurz auffangen; fertig.
+- **P915-C080** Ansetzen zur Ziel- oder Anschlussstelle. Danach aus diesem Teil von der Entnahmestelle diesen Posten ansetzen. Danach weiter von der Entnahmestelle als eine Portion zugeben. Weiter kurz einstellen; fertig.
+- **P915-C081** Als eine Portion ansetzen. Diesen Posten länger halten und einstellen. Als eine Portion ansetzen. Aus diesem Teil von der Entnahmestelle absetzen; fertig.
+- **P915-C082** Als eine Portion ansetzen. Weiter weiterarbeiten; fertig.
+- **P915-C083** Weiter länger zugeben; fertig.
+- **P915-C084** Länger ansetzen; fertig.
+- **P915-C085** Diesen Posten kurz ansetzen. Von der Entnahmestelle ansetzen. Danach von der Entnahmestelle aus diesem Teil weiterarbeiten; fertig.
+- **P915-C086** Kurz ansetzen; fertig.
+- **P915-C087** Diesen Posten länger halten und einstellen. Kurz ansetzen; fertig.
+- **P915-C088** Länger ansetzen; fertig.
+- **P915-C089** Kurz ansetzen und umsetzen; fertig.
+- **P915-C090** Weiter länger ansetzen in den nächsten Lauf; fertig.
+- **P915-C091** Länger ansetzen; fertig.
+- **P915-C092** Kurz ansetzen; fertig.
+- **P915-C093** Kurz ansetzen; fertig.
+- **P915-C094** Länger ansetzen; fertig.
+- **P915-C095** In den nächsten Lauf weiterarbeiten; fertig.
+- **P915-C096** Diesen Posten kurz halten; fertig.
+- **P915-C097** Länger ansetzen; fertig.
+- **P915-C098** Länger ansetzen; fertig.
+- **P915-C099** Länger auffangen; fertig.
+- **P915-C100** Danach weiter diesen Posten kurz zugeben; fertig.
+- **P915-C101** Aus diesem Teil von der Entnahmestelle absetzen; fertig.
+- **P915-C102** Als eine Portion ansetzen. Absetzen; fertig.
+- **P915-C103** Länger zugeben zur Ziel- oder Anschlussstelle; fertig.
+- **P915-C104** Kennzeichnen und absetzen; fertig.
+- **P915-C105** Länger wählen und ansetzen; fertig.
+- **P915-C106** Länger ansetzen; fertig.
+- **P915-C107** Danach länger weiterarbeiten; fertig.
+- **P915-C108** Diesen Posten ansetzen. Diesen Posten länger zugeben; fertig.
+- **P915-C109** Diesen Posten kurz halten; fertig.
+- **P915-C110** Kurz ansetzen; fertig.
+- **P915-C111** Länger ansetzen; fertig.
+- **P915-C112** Danach diesen Posten länger weiterarbeiten; fertig.
+- **P915-C113** Aus diesem Teil den Ansatz und diesen Posten kurz halten; fertig.
+- **P915-C114** Von der Entnahmestelle behandeln. Weiter weiterarbeiten; fertig.
+- **P915-C115** Als eine Portion ansetzen. Von der Entnahmestelle behandeln. Danach weiter von der Entnahmestelle weiterarbeiten; fertig.
+- **P915-C116** Aus diesem Teil diesen Posten umsetzen. Als eine Portion wählen. Kurz ansetzen; fertig.
+- **P915-C117** Kurz ansetzen; fertig.
+- **P915-C118** Danach kurz weiterarbeiten; fertig.
+- **P915-C119** Weiter ansetzen; fertig.
+- **P915-C120** Danach weiter von der Entnahmestelle nach Sollmaß entnehmen zur Innenstelle. Aus diesem Teil von der Entnahmestelle diesen Posten kurz wählen und halten; fertig.
+- **P915-C121** Diesen Posten halten durch den Durchlass. Diesen Posten kurz ansetzen. Kurz ansetzen; fertig.
+- **P915-C122** Weiter von der Entnahmestelle wählen. Danach diesen Posten kurz weiterarbeiten; fertig.
+- **P915-C123** Danach kurz weiterarbeiten; fertig.
+- **P915-C124** Danach kurz weiterarbeiten; fertig.
+- **P915-C125** Nach Sollmaß ansetzen. Diesen Posten kurz ansetzen. Kurz ansetzen; fertig.
+- **P915-C126** Weiter kurz halten. Kurz ansetzen; fertig.
+- **P915-C127** Als eine Portion absetzen; fertig.
+- **P915-C128** Danach weiter diesen Posten umsetzen. Weiter den Ansatz weiterarbeiten.
+
+## f81v
+
+- **P915-C129** Von der Entnahmestelle einsetzen. Diesen Posten kurz halten. Länger zugeben; fertig.
+- **P915-C130** Kurz halten und zugeben zur Ziel- oder Anschlussstelle. Weiter aus diesem Teil von der Entnahmestelle einsetzen und umsetzen zur Ziel- oder Anschlussstelle; fertig.
+- **P915-C131** Kurz halten und zugeben. Von der lokalen Stelle als eine Portion diesen Posten kurz ausführen, spülen und zugeben mit f-Zeichen. Kurz ansetzen; fertig.
+- **P915-C132** Nach Sollmaß ansetzen. Zugeben entlang des Laufs. Ansetzen zur Ziel- oder Anschlussstelle. Von der Entnahmestelle wählen. Weiter als eine Portion zugeben. Weiter als eine Portion zugeben. Weiter kennzeichnen zur Ziel- oder Anschlussstelle. Nach Sollmaß wählen in den nächsten Lauf. Nach Sollmaß länger auffangen; fertig.
+- **P915-C133** Kurz ansetzen; fertig.
+- **P915-C134** Aus diesem Teil als eine Portion diesen Posten zugeben. Kurz halten und zugeben. Diesen Posten umsetzen. Weiter zur Ziel- oder Anschlussstelle weiterarbeiten; fertig.
+- **P915-C135** Nach Sollmaß ansetzen. Als eine Portion ansetzen. Diesen Posten länger behandeln. Weiter nach Sollmaß diesen Posten zugeben. Als eine Portion nach Sollmaß diesen Posten entnehmen und bereitstellen. Nach Sollmaß ansetzen. Danach nach Sollmaß als eine Portion diesen Posten länger ansetzen durch den Durchlass; fertig.
+- **P915-C136** Diesen Posten ansetzen. Von der Entnahmestelle zugeben. Von der Entnahmestelle nach Sollmaß ansetzen. Als eine Portion ansetzen. Nach Sollmaß ansetzen. Weiter diesen Posten umsetzen. Den Auszug und diesen Posten zugeben in den nächsten Lauf. Wählen in den nächsten Lauf. Nach Sollmaß als eine Portion ansetzen. Zur Ziel- oder Anschlussstelle weiterarbeiten; fertig.
+- **P915-C137** Weiter den Ansatz kurz halten durch den Durchlass zur Ziel- oder Anschlussstelle. Nach Sollmaß länger ansetzen zur Ziel- oder Anschlussstelle. Nach Sollmaß diesen Posten umsetzen durch den Durchlass; fertig.
+- **P915-C138** Weiter diesen Posten zugeben. Den Ansatz absetzen; fertig.
+- **P915-C139** Länger halten; fertig.
+- **P915-C140** Aus diesem Teil diesen Posten länger auffangen. Aus diesem Teil nach Sollmaß als eine Portion zugeben. Kurz rückführen; fertig.
+- **P915-C141** Weiter weiterarbeiten; fertig.
+- **P915-C142** Weiter von der Entnahmestelle nach Sollmaß diesen Posten zugeben. Diesen Posten länger ansetzen. Weiter nach Sollmaß den Ansatz und diesen Posten kurz entnehmen durch den Durchlass. Auf der zweiten Stufe auf der angegebenen Stufe weiterarbeiten; fertig.
+- **P915-C143** Weiter diesen Posten einsetzen und halten. Von der lokalen Stelle aus diesem Teil diesen Posten länger halten und einstellen. Ausführen und einsetzen unter q-Träger. Länger ansetzen; fertig.
+- **P915-C144** Danach kurz weiterarbeiten; fertig.
+- **P915-C145** Kurz ansetzen und halten; fertig.
+- **P915-C146** Danach aus diesem Teil von der lokalen Stelle diesen Posten kurz halten entlang des Laufs zur Innenstelle. Diesen Posten länger ansetzen. Diesen Posten länger ansetzen. Diesen Posten ansetzen. Diesen Posten länger zugeben. Diesen Posten ansetzen. Diesen Posten ansetzen. Diesen Posten zugeben in den nächsten Lauf. Weiter diesen Posten entnehmen. Diesen Posten zugeben. Weiter aus diesem Teil diesen Posten halten. Weiter diesen Posten umsetzen. Absetzen; fertig.
+- **P915-C147** Kurz ansetzen; fertig.
+- **P915-C148** Diesen Posten kurz einstellen; fertig.
+- **P915-C149** Aus diesem Teil diesen Posten kurz entnehmen und einstellen. Aus diesem Teil diesen Posten kurz zugeben in den nächsten Lauf. Diesen Posten kurz einstellen; fertig.
+- **P915-C150** Diesen Posten kurz zugeben und halten. Aus diesem Teil kurz entnehmen und wählen. Diesen Posten kurz einstellen; fertig.
+- **P915-C151** Diesen Posten kurz einstellen; fertig.
+- **P915-C152** Aus diesem Teil von der Entnahmestelle auf der zweiten Stufe diesen Posten kurz zugeben. Danach diesen Posten kurz zugeben; fertig.
+- **P915-C153** Ansetzen zur Ziel- oder Anschlussstelle. Kurz halten; fertig.
+- **P915-C154** Aus diesem Teil diesen Posten länger zugeben. Diesen Posten länger halten und zugeben. Nach Sollmaß kurz ansetzen; fertig.
+- **P915-C155** Aus diesem Teil länger ansetzen. Kurz ansetzen; fertig.
+- **P915-C156** Diesen Posten entnehmen, einsetzen und umsetzen in den nächsten Lauf. Ansetzen zur Ziel- oder Anschlussstelle. Diesen Posten umsetzen. Weiter diesen Posten länger halten. Von der lokalen Stelle aus diesem Teil diesen Posten wählen, spülen und bereitstellen. Diesen Posten ausführen und umsetzen unter q-Träger mit f-Zeichen. Kennzeichnen. Diesen Posten umsetzen. Von der Entnahmestelle diesen Posten einstellen in den nächsten Lauf. Den Ansatz absetzen in den nächsten Lauf; fertig.
+- **P915-C157** Aus diesem Teil diesen Posten länger ausführen unter q-Träger. Weiter aus diesem Teil diesen Posten kennzeichnen und halten. Kurz spülen; fertig.
+- **P915-C158** Aus diesem Teil von der Entnahmestelle diesen Posten umsetzen. Diesen Posten einsetzen und umsetzen. Halten, zugeben und umsetzen; fertig.
+- **P915-C159** Diesen Posten umsetzen. Weiter absetzen; fertig.
+- **P915-C160** Weiter umsetzen; fertig.
+- **P915-C161** Als eine Portion ansetzen. Diesen Posten kennzeichnen durch den Durchlass in den nächsten Lauf zur Ziel- oder Anschlussstelle. Ansetzen und umsetzen; fertig.
+- **P915-C162** Weiter diesen Posten kurz behandeln. Weiter absetzen; fertig.
+- **P915-C163** Kurz ansetzen; fertig.
+- **P915-C164** Kurz ansetzen; fertig.
+- **P915-C165** Diesen Posten ansetzen durch den Durchlass. Diesen Posten länger auffangen. Weiter absetzen; fertig.
+- **P915-C166** Von der Entnahmestelle ansetzen. Diesen Posten halten durch den Durchlass. Aus diesem Teil kurz weiterarbeiten; fertig.
+- **P915-C167** Von der Entnahmestelle ansetzen. Ansetzen zur Ziel- oder Anschlussstelle. Weiter aus diesem Teil diesen Posten kurz ausführen und bereitstellen unter q-Träger. Behandeln zur Ziel- oder Anschlussstelle. Diesen Posten umsetzen. Kurz ansetzen; fertig.
+- **P915-C168** Diesen Posten kurz spülen und einstellen. Weiter weiterarbeiten; fertig.
+- **P915-C169** Kurz einstellen in den nächsten Lauf; fertig.
+- **P915-C170** Danach als eine Portion spülen und ausführen. Diesen Posten kurz ansetzen. Kurz spülen; fertig.
+- **P915-C171** Kurz spülen; fertig.
+- **P915-C172** Diesen Posten umsetzen. Diesen Posten auffangen. Umsetzen in den nächsten Lauf zur Ziel- oder Anschlussstelle. Weiter danach von der Entnahmestelle ansetzen zur Ziel- oder Anschlussstelle. Weiter auf der angegebenen Stufe ausführen. Diesen Posten länger halten. Umsetzen zur Ziel- oder Anschlussstelle in den nächsten Lauf; fertig.
+- **P915-C173** Diesen Posten umsetzen. Aus diesem Teil von der Entnahmestelle diesen Posten kurz wählen, entnehmen und einstellen zur Ziel- oder Anschlussstelle. Weiter halten. Diesen Posten kurz einstellen und entnehmen unter q-Träger. Nach Sollmaß diesen Posten zugeben. Weiter als eine Portion zugeben. Absetzen; fertig.
+- **P915-C174** Diesen Posten ansetzen. Aus diesem Teil diesen Posten umsetzen. Weiter kennzeichnen. Weiter aus diesem Teil diesen Posten bereitstellen. Diesen Posten kurz einstellen. Ansetzen und umsetzen; fertig.
+- **P915-C175** Ansetzen zur Ziel- oder Anschlussstelle. Diesen Posten länger ansetzen. Weiter aus diesem Teil diesen Posten länger entnehmen. Wählen zur Ziel- oder Anschlussstelle. Weiter kurz umsetzen; fertig.
+- **P915-C176** Diesen Posten ausführen und absetzen in den nächsten Lauf. Danach kurz weiterarbeiten; fertig.
+- **P915-C177** Weiter halten. Diesen Posten umsetzen. Diesen Posten halten. Weiter diesen Posten umsetzen. Einstellen und umsetzen. Diesen Posten ansetzen. Weiter von der Entnahmestelle kurz entnehmen und einstellen. Auf der angegebenen Stufe ausführen. Kurz ansetzen; fertig.
+- **P915-C178** Diesen Posten kurz halten zur Ziel- oder Anschlussstelle. Weiter kurz zugeben. Länger auffangen; fertig.
+- **P915-C179** Weiter kurz ansetzen. Weiter kurz halten. Auf der angegebenen Stufe ausführen. Länger auffangen; fertig.
+- **P915-C180** Kurz einstellen; fertig.
+- **P915-C181** Diesen Posten kurz behandeln. Kurz halten durch den Durchlass; fertig.
+- **P915-C182** Entnehmen zur Ziel- oder Anschlussstelle.
+
+## f82r
+
+- **P915-C183** Aus diesem Teil diesen Posten länger ausführen und halten unter q-Träger. Weiter kurz ansetzen. Nach Sollmaß diesen Posten halten durch den Durchlass. Den Ansatz länger ansetzen. Diesen Posten länger halten. Nach Sollmaß diesen Posten kurz halten. Aus diesem Teil diesen Posten umsetzen. Weiter umsetzen; fertig.
+- **P915-C184** Als eine Portion ansetzen. Diesen Posten länger ansetzen; fertig.
+- **P915-C185** Ansetzen zur Ziel- oder Anschlussstelle. Diesen Posten umsetzen in den nächsten Lauf durch den Durchlass. Diesen Posten länger ansetzen. Kurz in den nächsten Lauf durch den Durchlass weiterarbeiten; fertig.
+- **P915-C186** Diesen Posten ansetzen zur Ziel- oder Anschlussstelle. Nach Sollmaß auffangen. Nach Sollmaß diesen Posten ansetzen durch den Durchlass. Nach Sollmaß ansetzen. Weiter kurz ausführen und bereitstellen. Diesen Posten länger behandeln. In den nächsten Lauf weiterarbeiten; fertig.
+- **P915-C187** Danach diesen Posten länger ansetzen zur Ziel- oder Anschlussstelle. Diesen Posten kurz halten durch den Durchlass. Diesen Posten ansetzen. Weiter diesen Posten zugeben und umsetzen in den nächsten Lauf. Länger ansetzen; fertig.
+- **P915-C188** Ansetzen zur Ziel- oder Anschlussstelle. Weiter bereitstellen. Diesen Posten umsetzen. Danach länger weiterarbeiten; fertig.
+- **P915-C189** Ansetzen zur Ziel- oder Anschlussstelle. Von der Entnahmestelle wählen. Absetzen; fertig.
+- **P915-C190** Weiter nach Sollmaß absetzen. Diesen Posten kurz halten durch den Durchlass. Ansetzen zur Ziel- oder Anschlussstelle. Diesen Posten kurz halten und zugeben. Danach weiter nach Sollmaß umsetzen. Kurz halten; fertig.
+- **P915-C191** Danach nach Sollmaß wählen. Von der Entnahmestelle ansetzen. Absetzen; fertig.
+- **P915-C192** Weiter kurz halten; fertig.
+- **P915-C193** Diesen Posten länger ansetzen. Diesen Posten ansetzen. Weiter diesen Posten länger halten. Diesen Posten kurz länger zugeben unter q-Träger. Länger halten; fertig.
+- **P915-C194** Kurz ansetzen; fertig.
+- **P915-C195** Entnehmen und ausführen in den nächsten Lauf. Kennzeichnen. Diesen Posten länger halten. Diesen Posten kurz ansetzen. Danach diesen Posten umsetzen zur Ziel- oder Anschlussstelle. Danach den Ansatz und diesen Posten kurz wählen, halten, ausführen, spülen und bereitstellen. Nach Sollmaß ansetzen. Aus diesem Teil diesen Posten kurz behandeln. Diesen Posten kurz kennzeichnen und entnehmen. Aus diesem Teil diesen Posten kurz entnehmen entlang des Laufs. Nach Sollmaß ansetzen.
+- **P915-C196** Weiter diesen Posten zugeben und umsetzen. Kurz ansetzen; fertig.
+- **P915-C197** Weiter ausführen und einsetzen unter q-Träger. Danach aus diesem Teil den Ansatz und diesen Posten kurz entnehmen, ausführen, einsetzen und umsetzen. Danach diesen Posten umsetzen zur Ziel- oder Anschlussstelle. Zugeben zur Innenstelle. Danach kurz weiterarbeiten; fertig.
+- **P915-C198** Aus diesem Teil ausführen und umsetzen unter q-Träger. Weiter ausführen unter q-Träger. Aus diesem Teil von der Entnahmestelle kurz entnehmen und ausführen durch den Durchlass. Weiter ansetzen in den nächsten Lauf zur Ziel- oder Anschlussstelle. Von der Entnahmestelle diesen Posten ansetzen und umsetzen. Den Auszug einstellen in den nächsten Lauf. Weiter umsetzen; fertig.
+- **P915-C199** Länger ansetzen; fertig.
+- **P915-C200** Danach kurz weiterarbeiten; fertig.
+- **P915-C201** Von der Entnahmestelle umsetzen. Diesen Posten länger halten. Weiter von der Entnahmestelle diesen Posten wählen in den nächsten Lauf. Kennzeichnen. Weiter diesen Posten entnehmen. Ansetzen zur Ziel- oder Anschlussstelle. Als eine Portion diesen Posten ansetzen. Aus diesem Teil diesen Posten vollständig länger ansetzen. Nach Sollmaß ansetzen. Weiter umsetzen; fertig.
+- **P915-C202** Kurz zugeben; fertig.
+- **P915-C203** Umsetzen in den nächsten Lauf; fertig.
+- **P915-C204** Kurz ansetzen; fertig.
+- **P915-C205** Länger ansetzen; fertig.
+- **P915-C206** Aus diesem Teil diesen Posten länger zugeben in den nächsten Lauf. Nach Sollmaß ansetzen. Nach Sollmaß diesen Posten umsetzen. Diesen Posten länger ansetzen; fertig.
+- **P915-C207** Umsetzen in den nächsten Lauf; fertig.
+- **P915-C208** Länger ansetzen; fertig.
+- **P915-C209** Diesen Posten länger halten. Kennzeichnen. Weiter den Ansatz wählen. Von der lokalen Stelle nach Sollmaß diesen Posten kennzeichnen. Auf der zweiten Stufe kurz halten zur Innenstelle; fertig.
+- **P915-C210** Danach diesen Posten länger umsetzen. Diesen Posten vollständig ansetzen. Kurz ansetzen; fertig.
+- **P915-C211** Aus diesem Teil diesen Posten länger einstellen in den nächsten Lauf. Länger ansetzen; fertig.
+- **P915-C212** Diesen Posten kurz kennzeichnen und entnehmen zur Ziel- oder Anschlussstelle. Weiter einsetzen und umsetzen. Danach als eine Portion absetzen; fertig.
+- **P915-C213** Absetzen; fertig.
+- **P915-C214** Von der Entnahmestelle umsetzen zur Ziel- oder Anschlussstelle. Diesen Posten länger ansetzen. Diesen Posten länger zugeben. Wählen in den nächsten Lauf. Von der Entnahmestelle nach Sollmaß als eine Portion den Ansatz und diesen Posten ansetzen. Von der Entnahmestelle als eine Portion ansetzen. Länger ansetzen; fertig.
+- **P915-C215** Diesen Posten entnehmen in den nächsten Lauf. Von der lokalen Stelle diesen Posten einsetzen, ausführen, wählen und spülen. Kurz ansetzen; fertig.
+- **P915-C216** Rückführen zur Ziel- oder Anschlussstelle. Absetzen; fertig.
+- **P915-C217** Weiter kurz halten. Aus diesem Teil diesen Posten vollständig zugeben. Nach Sollmaß zugeben in den nächsten Lauf. Absetzen; fertig.
+- **P915-C218** Weiter nach Sollmaß diesen Posten und den Auszug zugeben. Kurz zugeben in den nächsten Lauf; fertig.
+- **P915-C219** Von der lokalen Stelle diesen Posten kurz wählen und spülen. Weiter nach Sollmaß diesen Posten umsetzen. Diesen Posten länger ansetzen. Nach Sollmaß ansetzen zur Ziel- oder Anschlussstelle. Den Auszug kennzeichnen. Diesen Posten länger halten. Nach Sollmaß ansetzen. Diesen Posten kurz halten durch den Durchlass. Weiter aus diesem Teil diesen Posten vollständig zugeben. Diesen Posten vollständig ansetzen. Von der lokalen Stelle diesen Posten kennzeichnen und wählen. Diesen Posten länger halten. Diesen Posten kurz bereitstellen. Diesen Posten länger ansetzen. Nach Sollmaß diesen Posten länger vollständig ansetzen in den nächsten Lauf; fertig.
+- **P915-C220** Umsetzen in den nächsten Lauf; fertig.
+- **P915-C221** Von der Entnahmestelle länger ansetzen in den nächsten Lauf; fertig.
+- **P915-C222** Aus diesem Teil diesen Posten länger entnehmen in den nächsten Lauf. Diesen Posten kurz ansetzen und ausführen. Wählen zur Ziel- oder Anschlussstelle. Nach Sollmaß kennzeichnen. Diesen Posten länger ansetzen. Diesen Posten länger zugeben in den nächsten Lauf. Diesen Posten länger ansetzen. Nach Sollmaß kennzeichnen. Diesen Posten weiterarbeiten; fertig.
+- **P915-C223** Weiter aus diesem Teil kurz ausführen und wählen unter q-Träger; fertig.
+- **P915-C224** Länger halten zur Ziel- oder Anschlussstelle. Länger halten; fertig.
+- **P915-C225** Absetzen in den nächsten Lauf. Diesen Posten kurz ausführen durch den Durchlass. Umsetzen in den nächsten Lauf; fertig.
+- **P915-C226** Von der Entnahmestelle diesen Posten länger halten in den nächsten Lauf. Diesen Posten kennzeichnen. Diesen Posten kurz halten. Länger ansetzen; fertig.
+- **P915-C227** Von der Entnahmestelle umsetzen zur Ziel- oder Anschlussstelle in den nächsten Lauf. Kurz entnehmen und wählen. Danach nach Sollmaß diesen Posten länger ansetzen. Diesen Posten kurz ansetzen. Einsetzen und umsetzen; fertig.
+- **P915-C228** Kurz kennzeichnen und halten zur Ziel- oder Anschlussstelle. Zur Ziel- oder Anschlussstelle weiterarbeiten; fertig.
+- **P915-C229** Länger ansetzen; fertig.
+- **P915-C230** Kennzeichnen und absetzen; fertig.
+- **P915-C231** Danach länger weiterarbeiten; fertig.
+- **P915-C232** Länger ansetzen; fertig.
+- **P915-C233** Ausführen und umsetzen in den nächsten Lauf; fertig.
+- **P915-C234** Auf der angegebenen Stufe ansetzen und ausführen. Absetzen; fertig.
+- **P915-C235** Länger ansetzen; fertig.
+- **P915-C236** Danach nach Sollmaß diesen Posten kurz entnehmen und bereitstellen. Danach weiter nach Sollmaß diesen Posten länger ansetzen. Weiter aus diesem Teil diesen Posten länger halten. Umsetzen in den nächsten Lauf; fertig.
+- **P915-C237** Länger ansetzen; fertig.
+- **P915-C238** Umsetzen in den nächsten Lauf; fertig.
+- **P915-C239** Diesen Posten kennzeichnen und umsetzen. Diesen Posten ansetzen. Danach kurz weiterarbeiten; fertig.
+- **P915-C240** Danach nach Sollmaß diesen Posten länger kennzeichnen. Danach den Auszug und diesen Posten länger absetzen in den nächsten Lauf; fertig.
+- **P915-C241** Diesen Posten länger ansetzen. Kurz spülen; fertig.
+- **P915-C242** Länger ansetzen; fertig.
+- **P915-C243** Von der lokalen Stelle kennzeichnen. Weiter aus diesem Teil den Auszug und diesen Posten länger kennzeichnen und halten in den nächsten Lauf. Umsetzen in den nächsten Lauf; fertig.
+- **P915-C244** Danach diesen Posten und den Ansatz länger entnehmen in den nächsten Lauf. Als eine Portion ansetzen. Aus diesem Teil diesen Posten länger entnehmen. Umsetzen in den nächsten Lauf. Nach Sollmaß einstellen. Nach Sollmaß absetzen. Diesen Posten kurz entnehmen durch den Durchlass. Diesen Posten länger halten in den nächsten Lauf durch den Durchlass. Kennzeichnen in den nächsten Lauf. Als eine Portion diesen Posten kennzeichnen. Als eine Portion wählen. Weiter den Auszug und diesen Posten kurz kennzeichnen in den nächsten Lauf. Diesen Posten weiterarbeiten.
+
+## f83r
+
+- **P915-C245** Diesen Posten einstellen und umsetzen. Diesen Posten einsetzen und umsetzen in den nächsten Lauf. Kurz ausführen und einsetzen; fertig.
+- **P915-C246** Weiter kurz entnehmen und einsetzen. Von der Entnahmestelle einsetzen und umsetzen. Absetzen; fertig.
+- **P915-C247** Diesen Posten ausführen, einsetzen und umsetzen unter q-Träger. Weiter diesen Posten länger halten. Nach Sollmaß ansetzen. Weiter halten. Entnehmen und wählen in den nächsten Lauf. Diesen Posten kurz halten. Danach länger weiterarbeiten; fertig.
+- **P915-C248** Kurz kennzeichnen, entnehmen und wählen. Von der Entnahmestelle diesen Posten umsetzen. Aus diesem Teil den Ansatz länger auffangen; fertig.
+- **P915-C249** Danach länger behandeln zur Ziel- oder Anschlussstelle; fertig.
+- **P915-C250** Nach Sollmaß diesen Posten umsetzen in den nächsten Lauf; fertig.
+- **P915-C251** Nach Sollmaß ansetzen. Danach aus diesem Teil von der Entnahmestelle kurz ansetzen und halten zur Ziel- oder Anschlussstelle; fertig.
+- **P915-C252** Diesen Posten umsetzen. Kurz ansetzen; fertig.
+- **P915-C253** Aus diesem Teil diesen Posten kurz behandeln. Von der Entnahmestelle nach Sollmaß kurz halten und einstellen. Absetzen; fertig.
+- **P915-C254** Nach Sollmaß kurz zugeben unter q-Träger. Diesen Posten umsetzen. Danach aus diesem Teil nach Sollmaß diesen Posten länger kurz entnehmen durch den Durchlass. Danach diesen Posten kurz entnehmen mit g-Zeichen. Absetzen; fertig.
+- **P915-C255** Diesen Posten länger ansetzen. Diesen Posten kennzeichnen und umsetzen. Danach länger weiterarbeiten; fertig.
+- **P915-C256** Ausführen in den nächsten Lauf. Umsetzen; fertig.
+- **P915-C257** Diesen Posten umsetzen. Ansetzen zur Ziel- oder Anschlussstelle. Weiter umsetzen; fertig.
+- **P915-C258** Nach Sollmaß ansetzen. Diesen Posten umsetzen. Länger ansetzen; fertig.
+- **P915-C259** Umsetzen in den nächsten Lauf; fertig.
+- **P915-C260** Diesen Posten ansetzen. Weiter wählen und absetzen. Aus diesem Teil diesen Posten länger spülen. Aus diesem Teil diesen Posten vollständig ansetzen unter q-Träger. Ausführen. Weiter aus diesem Teil diesen Posten länger kennzeichnen und halten. Kurz ansetzen; fertig.
+- **P915-C261** Danach länger weiterarbeiten; fertig.
+- **P915-C262** Danach länger weiterarbeiten; fertig.
+- **P915-C263** Einsetzen und umsetzen zur Ziel- oder Anschlussstelle. Danach kurz weiterarbeiten; fertig.
+- **P915-C264** Diesen Posten kurz halten, bereitstellen und umsetzen. Diesen Posten ansetzen. Diesen Posten umsetzen. Von der Entnahmestelle diesen Posten und den Ansatz einsetzen und entnehmen. Kurz entnehmen und rückführen; fertig.
+- **P915-C265** Kurz ansetzen; fertig.
+- **P915-C266** Aus diesem Teil diesen Posten länger spülen. Ansetzen und umsetzen; fertig.
+- **P915-C267** Kennzeichnen. Aus diesem Teil diesen Posten kurz absetzen und zugeben. Aus diesem Teil diesen Posten ausführen, einsetzen und halten unter q-Träger. Diesen Posten ausführen und einsetzen unter q-Träger. Diesen Posten länger auffangen. Kennzeichnen, entnehmen und wählen. Länger entnehmen mit b-Zeichen. Weiter wählen. Nach Sollmaß wählen und zugeben zur Ziel- oder Anschlussstelle. Als eine Portion bereitstellen zur Ziel- oder Anschlussstelle. Wählen. Nach Sollmaß diesen Posten behandeln. Wählen in den nächsten Lauf zur Ziel- oder Anschlussstelle zur Innenstelle. Den Ansatz wählen. Absetzen; fertig.
+- **P915-C268** Nach Sollmaß ansetzen. Als eine Portion behandeln. Diesen Posten kurz halten und bereitstellen. Kurz ansetzen; fertig.
+- **P915-C269** Ansetzen entlang des Laufs. Länger halten; fertig.
+- **P915-C270** Umsetzen in den nächsten Lauf; fertig.
+- **P915-C271** Ausführen in den nächsten Lauf. Weiter ausführen durch den Durchlass unter q-Träger. Diesen Posten kurz halten durch den Durchlass. Danach kurz ansetzen zur Ziel- oder Anschlussstelle. Aus diesem Teil diesen Posten kurz halten durch den Durchlass. Kurz ansetzen zur Ziel- oder Anschlussstelle; fertig.
+- **P915-C272** Kurz ansetzen; fertig.
+- **P915-C273** Ansetzen zur Ziel- oder Anschlussstelle. Den Auszug wählen zur Ziel- oder Anschlussstelle in den nächsten Lauf. Von der Entnahmestelle einstellen. Absetzen; fertig.
+- **P915-C274** Wählen. Aus diesem Teil diesen Posten kurz einstellen zur Ziel- oder Anschlussstelle. Wählen entlang des Laufs. Kurz ansetzen; fertig.
+- **P915-C275** Kurz unter q-Träger weiterarbeiten; fertig.
+- **P915-C276** Kurz entnehmen und rückführen in den nächsten Lauf; fertig.
+- **P915-C277** Auf der zweiten Stufe kennzeichnen in den nächsten Lauf. Diesen Posten ansetzen und umsetzen. Länger ansetzen; fertig.
+- **P915-C278** Absetzen; fertig.
+- **P915-C279** Kurz ansetzen und halten; fertig.
+- **P915-C280** Umsetzen zur Ziel- oder Anschlussstelle in den nächsten Lauf; fertig.
+- **P915-C281** Nach Sollmaß ansetzen. Diesen Posten halten und bereitstellen. Nach Sollmaß diesen Posten wählen zur Ziel- oder Anschlussstelle. Absetzen zur Ziel- oder Anschlussstelle. Diesen Posten kurz halten und bereitstellen. Diesen Posten einstellen zur Ziel- oder Anschlussstelle. Diesen Posten halten und bereitstellen. Umsetzen zur Ziel- oder Anschlussstelle; fertig.
+- **P915-C282** Danach umsetzen; fertig.
+- **P915-C283** Umsetzen in den nächsten Lauf; fertig.
+- **P915-C284** Diesen Posten einstellen und umsetzen. Ansetzen und umsetzen; fertig.
+- **P915-C285** Von der Entnahmestelle nach Sollmaß diesen Posten länger umsetzen in den nächsten Lauf. Als eine Portion ansetzen. Diesen Posten bereitstellen. Den Ansatz kennzeichnen zur Ziel- oder Anschlussstelle. Aus diesem Teil den Auszug und diesen Posten kurz zugeben. Aus diesem Teil länger zugeben in den nächsten Lauf. Diesen Posten kurz halten durch den Durchlass. Nach Sollmaß diesen Posten einstellen. Diesen Posten kurz halten und entnehmen. Diesen Posten kurz wählen, entnehmen und einstellen. Aus diesem Teil auf der zweiten Stufe diesen Posten einsetzen und spülen. Kurz halten, ausführen und rückführen; fertig.
+- **P915-C286** Danach den Ansatz absetzen; fertig.
+- **P915-C287** Diesen Posten ausführen, einsetzen und absetzen. Danach aus diesem Teil diesen Posten halten. Weiter aus diesem Teil kurz ansetzen. Aus diesem Teil diesen Posten halten. Weiter aus diesem Teil diesen Posten wählen. Von der Entnahmestelle wählen. Nach Sollmaß absetzen. Diesen Posten kurz ausführen durch den Durchlass. Als eine Portion wählen. Umsetzen. Absetzen; fertig.
+- **P915-C288** Kurz einstellen zur Ziel- oder Anschlussstelle unter q-Träger. Absetzen zur Ziel- oder Anschlussstelle; fertig.
+- **P915-C289** Diesen Posten kurz halten. Umsetzen in den nächsten Lauf; fertig.
+- **P915-C290** Aus diesem Teil diesen Posten länger auffangen. Danach länger weiterarbeiten; fertig.
+- **P915-C291** Diesen Posten länger ansetzen. Kurz ansetzen; fertig.
+- **P915-C292** Weiter diesen Posten vollständig einstellen. Kurz ansetzen; fertig.
+- **P915-C293** Diesen Posten ansetzen. Nach Sollmaß wählen. Aus diesem Teil diesen Posten länger auffangen. Kurz ansetzen; fertig.
+- **P915-C294** Danach kurz weiterarbeiten; fertig.
+- **P915-C295** Weiter diesen Posten umsetzen. Kurz zugeben in den nächsten Lauf; fertig.
+- **P915-C296** Diesen Posten ansetzen und umsetzen. Kurz ansetzen; fertig.
+- **P915-C297** Aus diesem Teil diesen Posten entnehmen durch den Durchlass. Von der Entnahmestelle wählen. Umsetzen entlang des Laufs. Danach umsetzen; fertig.
+- **P915-C298** Länger ansetzen; fertig.
+- **P915-C299** Als eine Portion umsetzen. Diesen Posten umsetzen. Danach nach Sollmaß kurz weiterarbeiten; fertig.
+- **P915-C300** In den nächsten Lauf weiterarbeiten; fertig.
+- **P915-C301** Diesen Posten einstellen und umsetzen. Danach kurz weiterarbeiten; fertig.
+- **P915-C302** Ansetzen zur Ziel- oder Anschlussstelle. Absetzen; fertig.
+- **P915-C303** Kurz ansetzen; fertig.
+- **P915-C304** Aus diesem Teil diesen Posten kurz halten und bereitstellen. Diesen Posten kurz halten und bereitstellen. Danach den Ansatz und diesen Posten umsetzen. Auf der angegebenen Stufe wählen und ausführen mit i-Zeichen. Diesen Posten bereitstellen. Diesen Posten einstellen. Danach weiter nach Sollmaß diesen Posten absetzen zur Ziel- oder Anschlussstelle; fertig.
+- **P915-C305** Länger ansetzen; fertig.
+- **P915-C306** Weiter diesen Posten länger ansetzen. Kurz ansetzen; fertig.
+- **P915-C307** Diesen Posten umsetzen. Danach diesen Posten länger ansetzen zur Ziel- oder Anschlussstelle. Diesen Posten ansetzen. Weiter einstellen. Absetzen; fertig.
+- **P915-C308** Diesen Posten ansetzen; fertig.
+- **P915-C309** Als eine Portion diesen Posten umsetzen. Länger ansetzen; fertig.
+- **P915-C310** Kurz halten durch den Durchlass; fertig.
+- **P915-C311** Kurz halten durch den Durchlass; fertig.
+- **P915-C312** Nach Sollmaß wählen. Diesen Posten länger behandeln. Diesen Posten länger halten. Kurz ansetzen; fertig.
+- **P915-C313** Absetzen; fertig.
+- **P915-C314** Weiter weiterarbeiten; fertig.
+- **P915-C315** Diesen Posten wählen und umsetzen zur Ziel- oder Anschlussstelle. Diesen Posten länger halten. Ausführen unter q-Träger; fertig.
+- **P915-C316** Aus diesem Teil kurz zugeben zur bezeichneten s-Stelle. Weiter weiterarbeiten; fertig.
+- **P915-C317** Wählen. Länger ansetzen; fertig.
+- **P915-C318** Länger ansetzen; fertig.
+- **P915-C319** Diesen Posten ansetzen. Nach Sollmaß wählen. Diesen Posten kurz einstellen und umsetzen. Danach umsetzen; fertig.
+- **P915-C320** Länger ansetzen; fertig.
+- **P915-C321** In den nächsten Lauf weiterarbeiten; fertig.
+- **P915-C322** Den Auszug und diesen Posten ansetzen und umsetzen in den nächsten Lauf. Umsetzen in den nächsten Lauf; fertig.
+- **P915-C323** Diesen Posten kurz ansetzen. Diesen Posten wählen. Nach Sollmaß diesen Posten länger halten, zugeben und entnehmen. Diesen Posten kurz ansetzen. Als eine Portion wählen. Diesen Posten halten und zugeben. Umsetzen in den nächsten Lauf; fertig.
+- **P915-C324** Weiter aus diesem Teil absetzen. Diesen Posten ansetzen. Nach Sollmaß wählen. Diesen Posten kurz behandeln. Weiter länger ansetzen. Als eine Portion ansetzen. Diesen Posten umsetzen. Den Ansatz wählen. Nach Sollmaß diesen Posten kurz halten. Kurz spülen; fertig.
+- **P915-C325** Diesen Posten ansetzen. Weiter kurz zugeben in den nächsten Lauf; fertig.
+- **P915-C326** Umsetzen in den nächsten Lauf; fertig.
+- **P915-C327** Weiter ansetzen. Absetzen; fertig.
+- **P915-C328** Den Ansatz und diesen Posten kurz ausführen durch den Durchlass. Diesen Posten entlang des Laufs weiterarbeiten; fertig.
+- **P915-C329** Als eine Portion ansetzen. Diesen Posten kurz halten. Als eine Portion zugeben. Entnehmen durch den Durchlass zur Ziel- oder Anschlussstelle. Weiter diesen Posten wählen und umsetzen. Weiter umsetzen; fertig.
+- **P915-C330** Nach Sollmaß umsetzen. Diesen Posten kurz auffangen. Umsetzen in den nächsten Lauf; fertig.
+- **P915-C331** Als eine Portion auffangen. Weiter aus diesem Teil diesen Posten entnehmen und bereitstellen zur Ziel- oder Anschlussstelle. Diesen Posten umsetzen in den nächsten Lauf. Diesen Posten umsetzen in den nächsten Lauf. Weiter nach Sollmaß kurz halten. Diesen Posten umsetzen. Danach von der Entnahmestelle wählen zur Ziel- oder Anschlussstelle. Von der Entnahmestelle zugeben. Absetzen; fertig.
+- **P915-C332** Danach umsetzen; fertig.
+- **P915-C333** Ansetzen und umsetzen; fertig.
+- **P915-C334** Absetzen zur Ziel- oder Anschlussstelle. Weiter den Auszug umsetzen zur Ziel- oder Anschlussstelle in den nächsten Lauf. Weiter nach Sollmaß auf der zweiten Stufe auf der angegebenen Stufe diesen Posten umsetzen.
+- **P915-C335** Diesen Posten länger auffangen. Diesen Posten kurz zugeben. Diesen Posten kennzeichnen zur Ziel- oder Anschlussstelle. Weiter wählen und behandeln zur Ziel- oder Anschlussstelle. Danach weiter von der Entnahmestelle nach Sollmaß als eine Portion den Auszug, diesen Posten und den Ansatz kennzeichnen und einstellen in den nächsten Lauf zur Ziel- oder Anschlussstelle. Bereitstellen zur Ziel- oder Anschlussstelle.
+
+## f67r2
+
+- **P915-C336** Weiter aus diesem Teil ausführen, einsetzen und ausführen. Wählen. Aus diesem Teil als eine Portion diesen Posten länger wählen und ausführen zur Ziel- oder Anschlussstelle. Aus diesem Teil auf der angegebenen Stufe ausführen. Weiter weiterarbeiten; fertig.
+- **P915-C337** Auf der zweiten Stufe auf der angegebenen Stufe kurz ausführen. Kurz ansetzen, ausführen und wählen. Als eine Portion kurz ausführen und zugeben. Danach nach Sollmaß diesen Posten und den Ansatz wählen und kennzeichnen. Diesen Posten ausführen und einsetzen. Aus diesem Teil nach Sollmaß diesen Posten entnehmen, ausführen und wählen zur Ziel- oder Anschlussstelle. Von der Entnahmestelle als eine Portion diesen Posten entnehmen, ausführen und pressen zur Innenstelle. Von der Entnahmestelle wählen zur Ziel- oder Anschlussstelle. Als eine Portion wählen. Von der Entnahmestelle zur Innenstelle weiterarbeiten.
+- **P915-C338** Von der Entnahmestelle diesen Posten ausführen, einsetzen und entnehmen. Als eine Portion wählen zur Ziel- oder Anschlussstelle. Auf der zweiten Stufe wählen, ausführen und kennzeichnen. Von der Entnahmestelle ausführen mit f-Zeichen. Von der Entnahmestelle auf der zweiten Stufe diesen Posten und den Ansatz kurz einstellen und ausführen zur Innenstelle. Diesen Posten einstellen und ausführen. Diesen Posten und den Ansatz zugeben. Kurz ansetzen und ausführen. Kennzeichnen. Nach Sollmaß zur Innenstelle weiterarbeiten.
+- **P915-C339** Diesen Posten einstellen und ausführen; fertig.
+- **P915-C340** Nach Sollmaß wählen. Weiter ausführen. Weiter weiterarbeiten.
+- **P915-C341** Aus diesem Teil von der Entnahmestelle ausführen und wählen. Auf der zweiten Stufe ausführen und wählen. Aus diesem Teil nach Sollmaß ansetzen entlang des Laufs zur Ziel- oder Anschlussstelle. Von der Entnahmestelle kurz ausführen. Auf der zweiten Stufe ausführen in den nächsten Lauf.
+- **P915-C342** Weiter auf der angegebenen Stufe ansetzen mit g-Zeichen. Diesen Posten und den Ansatz einstellen. Nach Sollmaß den Ansatz weiterarbeiten.
+- **P915-C343** Danach weiter aus diesem Teil ausführen und wählen. Weiter kurz ausführen und bereitstellen. Den Ansatz wählen. Nach Sollmaß umsetzen. Diesen Posten kurz einstellen und ausführen zur bezeichneten s-Stelle. Auf der angegebenen Stufe ausführen. Ausführen. Diesen Posten kurz einstellen, ausführen, einsetzen und entnehmen. Aus diesem Teil diesen Posten behandeln und ausführen. Wählen, ausführen, halten und ausführen. Entnehmen, ausführen und wählen. Diesen Posten ausführen durch den Durchlass. Auch nach Sollmaß wählen unter q-Träger. Diesen Posten ausführen mit f-Zeichen; fertig.
+- **P915-C344** Aus diesem Teil diesen Posten kurz halten und ausführen. Aus diesem Teil nach Sollmaß diesen Posten und den Auszug kurz wählen. Auf der zweiten Stufe auf der angegebenen Stufe ausführen mit i-Zeichen. Diesen Posten kurz länger zugeben und wählen. Den Ansatz und diesen Posten zur Ziel- oder Anschlussstelle weiterarbeiten.
+- **P915-C345** Nach Sollmaß einstellen und ausführen. Auch als eine Portion diesen Posten kurz entnehmen, ausführen und kennzeichnen. Von der lokalen Stelle nach Sollmaß länger entnehmen und ausführen. Wählen zur Ziel- oder Anschlussstelle. Aus diesem Teil auf der zweiten Stufe nach Sollmaß weiterarbeiten.
+- **P915-C346** Aus diesem Teil von der Entnahmestelle nach Sollmaß diesen Posten zugeben und ausführen zur Ziel- oder Anschlussstelle unter q-Träger. Aus diesem Teil nach Sollmaß diesen Posten ausführen entlang des Laufs unter q-Träger mit f-Zeichen. Diesen Posten einsetzen entlang des Laufs. Nach Sollmaß diesen Posten zugeben und ausführen. Weiter aus diesem Teil diesen Posten einstellen, entnehmen, ausführen und wählen zur Ziel- oder Anschlussstelle. Weiter diesen Posten kurz ansetzen. Diesen Posten kurz wählen und halten. Diesen Posten länger halten und wählen. Diesen Posten kurz länger zugeben unter q-Träger. Diesen Posten kurz zugeben und entnehmen. Diesen Posten kurz zugeben und entnehmen. Diesen Posten kurz ansetzen, ausführen und entnehmen. Nach Sollmaß ausführen. Weiter ansetzen. Weiter von der Entnahmestelle diesen Posten kurz halten. Aus diesem Teil diesen Posten länger ansetzen und ausführen. Den Auszug wählen. Länger ausführen und wählen. Diesen Posten ausführen durch den Durchlass unter q-Träger. Entnehmen, ausführen und wählen. Aus diesem Teil nach Sollmaß diesen Posten länger ansetzen und ausführen. Nach Sollmaß ansetzen und ausführen. Aus diesem Teil als eine Portion ausführen. Von der Entnahmestelle von der lokalen Stelle diesen Posten entlang des Laufs weiterarbeiten.
+
+## f68r1
+
+- **P915-C347** Diesen Posten halten, ansetzen und entnehmen. Diesen Posten länger entnehmen und einstellen. Danach diesen Posten länger entnehmen. Weiter rückführen. Den Auszug kennzeichnen. Weiter länger ausführen, einsetzen und entnehmen. Danach den Ansatz und diesen Posten vollständig entnehmen, ausführen und bereitstellen. Ansetzen, entnehmen und ausführen zur Ziel- oder Anschlussstelle. Einstellen, ausführen, entnehmen, wählen und ausführen. Danach entnehmen in den nächsten Lauf. Vollständig ansetzen; fertig.
+- **P915-C348** Diesen Posten länger halten. Diesen Posten länger entnehmen und einstellen. Diesen Posten kurz einstellen und ausführen; fertig.
+- **P915-C349** Den Ansatz entnehmen und einsetzen. Den Auszug, den Ansatz und diesen Posten kurz zugeben und entnehmen. Aus diesem Teil entnehmen und ausführen. Diesen Posten und den Ansatz zugeben. Diesen Posten kurz halten. Diesen Posten länger ausführen und entnehmen unter q-Träger. Ansetzen zur Ziel- oder Anschlussstelle. Diesen Posten länger ansetzen. Den Ansatz kennzeichnen. Von der Entnahmestelle von der lokalen Stelle auf der zweiten Stufe kurz kennzeichnen durch den Durchlass zur Innenstelle. Aus diesem Teil den Ansatz entnehmen. Von der lokalen Stelle auf der angegebenen Stufe ansetzen mit i-Zeichen. Diesen Posten zugeben. Auf der zweiten Stufe diesen Posten kennzeichnen. Weiter diesen Posten behandeln, entnehmen und zugeben.
+
+## f88r
+
+- **P915-C350** Aus diesem Teil den Ansatz und diesen Posten kurz halten und ausführen. Weiter kurz bereitstellen. Diesen Posten kurz ausführen durch den Durchlass. Aus diesem Teil den Ansatz und diesen Posten kurz halten. Weiter den Ansatz halten und entnehmen mit f-Zeichen. Weiter entnehmen und bereitstellen zur Ziel- oder Anschlussstelle. Kennzeichnen zur Ziel- oder Anschlussstelle. Kurz halten und ausführen zur Innenstelle. Weiter kurz zugeben. Von der Entnahmestelle kurz entnehmen. Den Ansatz kurz halten und zugeben. Den Ansatz ansetzen. Von der Entnahmestelle nach Sollmaß wählen. Wählen. Nach Sollmaß diesen Posten ansetzen. Wählen zur Innenstelle. Als eine Portion ausführen. Den Ansatz ausführen zur Innenstelle. Danach kurz ansetzen und ausführen zur Innenstelle. Den Ansatz länger entnehmen. Aus diesem Teil diesen Posten kurz ansetzen und ausführen. Aus diesem Teil von der Entnahmestelle den Ansatz ausführen zur Innenstelle. Weiter den Auszug und diesen Posten kurz ansetzen. Nach Sollmaß den Auszug wählen in den nächsten Lauf. Den Auszug wählen. Weiter aus diesem Teil von der lokalen Stelle den Auszug, diesen Posten und den Ansatz vollständig kurz ansetzen und ausführen in den nächsten Lauf zur Innenstelle mit j-Zeichen. Den Auszug und den Ansatz ausführen zur Innenstelle unter q-Träger. Länger entnehmen mit b-Zeichen. Diesen Posten und den Ansatz kurz zugeben. Diesen Posten wählen zur Innenstelle.
+- **P915-C351** Von der lokalen Stelle diesen Posten zugeben und ausführen. Weiter rückführen. Den Ansatz entnehmen. Den Auszug und diesen Posten einsetzen in den nächsten Lauf. Danach weiter entnehmen. Weiter weiterarbeiten; fertig.
+- **P915-C352** Diesen Posten wählen zur Ziel- oder Anschlussstelle. Diesen Posten kurz entnehmen. Weiter ansetzen. Weiter nach Sollmaß kurz ausführen und zugeben unter q-Träger. Weiter kurz ausführen und zugeben unter q-Träger. Weiter ausführen durch den Durchlass unter q-Träger. Weiter ansetzen. Weiter den Auszug kurz halten in den nächsten Lauf. Diesen Posten länger ansetzen. Wählen. Diesen Posten wählen. Nach Sollmaß den Ansatz entnehmen. Danach nach Sollmaß den Ansatz kurz entnehmen, ausführen und wählen zur Ziel- oder Anschlussstelle. Weiter den Ansatz kurz entnehmen. Aus diesem Teil diesen Posten kurz ausführen, spülen und ausführen. Weiter kurz ansetzen. Diesen Posten halten und ausführen. Weiter länger halten. Weiter aus diesem Teil kurz halten mit g-Zeichen. Nach Sollmaß diesen Posten ansetzen. Weiter den Auszug kennzeichnen. Weiter den Ansatz entnehmen und wählen zur Ziel- oder Anschlussstelle.
+- **P915-C353** Von der Entnahmestelle länger einsetzen und ausführen. Diesen Posten kurz halten und ansetzen. Diesen Posten länger auffangen. Weiter bereitstellen. Weiter aus diesem Teil diesen Posten einsetzen. Wählen. Weiter ansetzen; fertig.
+- **P915-C354** Weiter ansetzen. Weiter ansetzen. Weiter ansetzen. Weiter diesen Posten länger halten. Weiter von der Entnahmestelle nach Sollmaß auf der zweiten Stufe den Ansatz und diesen Posten zugeben in den nächsten Lauf. Weiter den Auszug und diesen Posten kurz wählen in den nächsten Lauf durch den Durchlass. Von der Entnahmestelle den Ansatz kurz halten. Von der Entnahmestelle diesen Posten wählen zur Ziel- oder Anschlussstelle. Den Ansatz zugeben. Weiter diesen Posten ansetzen. Aus diesem Teil den Auszug und diesen Posten entnehmen und ausführen in den nächsten Lauf. Weiter ansetzen. Den Ansatz zugeben und entnehmen. Weiter diesen Posten vollständig zugeben zur Ziel- oder Anschlussstelle. Den Auszug kennzeichnen. Den Auszug und diesen Posten kurz einstellen. Den Auszug und den Ansatz kurz ansetzen in den nächsten Lauf. Diesen Posten kurz entnehmen, einstellen und entnehmen. Ausführen zur Ziel- oder Anschlussstelle mit f-Zeichen. Aus diesem Teil von der Entnahmestelle kurz entnehmen. Weiter aus diesem Teil den Ansatz kurz ausführen und zugeben unter q-Träger. Den Auszug zur Innenstelle weiterarbeiten.

@@ -1,0 +1,391 @@
+# Pass 916 — kompaktes Werkstattphrasenbuch
+
+## f10r
+
+- **P915-C001** (zeilenübergreifend): einsetzen; entnehmen; Arbeitsgang; die Bereitschaft dieses Postens prüfen · den Ansatz halten · Arbeitsgang; Bereitschaft; Arbeitsgang; Teilstelle; dies · vom Ansatz entnehmen; entnehmen; dies · einsetzen; entnehmen; Arbeitsgang; in diesem Teil fortsetzen · entnehmen; Arbeitsgang; einsetzen; entnehmen; Zielstelle · dies; einsetzen; entnehmen · zuordnen; Arbeitsgang; m-Zeichen · entnehmen; kurz; dies · Bereitschaft; Arbeitsgang; Ansatz · Entnahmestelle · entnehmen; bearbeiten; dies · dazu · entnehmen; Lauf · danach diesen Posten; bearbeiten; entnehmen; fortsetzen · ansetzen; dies · Sollmaß · kurz; bearbeiten; dies · danach mit dem Ansatz · Arbeitsgang · bearbeiten; dies · Sollmaß · entnehmen; Arbeitsgang; die Bereitschaft dieses Postens prüfen · danach diesen Posten · fortsetzen · Ansatz · dies; bearbeiten; dies · dies · dies · prüfen; Ansatz · entnehmen; Sollmaß · entnehmen; die Bereitschaft dieses Postens prüfen · Bereitschaft; Arbeitsgang · dies durch den Durchlass · Ansatz · Sollmaß · entnehmen; bearbeiten; vom Ansatz entnehmen · Teilstelle; Arbeitsgang; Stufe; Zustand · Arbeitsgang; Schluss
+- **P915-C002** (zeilenübergreifend): ansetzen; dies · danach; entnehmen; fortsetzen · fortsetzen · die Bereitschaft dieses Postens prüfen · dies; Auszug; Zustand · die Bereitschaft dieses Postens prüfen · vom Ansatz entnehmen · Bereitschaft; Sollmaß · q-Träger; Arbeitsgang; Bereitschaft; mit diesem fortsetzen · dies · dies · bearbeiten; Sollmaß · dies · Teilstelle; dies · den Gang beginnen und fortsetzen · dies · zuordnen; entnehmen; Sollmaß · dies; bearbeiten; dies · Sollmaß · Bereitschaft · Portion · Teilstelle; Lauf · Innenstelle · danach; vom Ansatz entnehmen · vom Ansatz entnehmen · danach; fortsetzen · fortsetzen · mit dem Ansatz fortsetzen · fortsetzen · Sollmaß · aus diesem Teil entnehmen · Arbeitsgang; dies; zuordnen; vom Ansatz entnehmen · den Ansatz halten · vom Ansatz entnehmen · dies · zuordnen; Adresse; i-Zeichen; Stufe · dies · entnehmen; Arbeitsgang; Teilstelle; Sollmaß · Arbeitsgang; danach mit dem Ansatz · danach mit dem Ansatz · pressen/trennen; dies · Bereitschaft; Ansatz · Arbeitsgang; die Portion prüfen · dies; bearbeiten; Arbeitsgang; Stufe · danach; entnehmen; Arbeitsgang; den Ansatz halten · danach diesen Posten · danach mit dem Ansatz · die Bereitschaft dieses Postens prüfen; Teilstelle · danach; Entnahmestelle · Arbeitsgang; Teilstelle; Sollmaß · Sollmaß · danach diesen Posten · danach mit dem Ansatz
+
+## f11r
+
+- **P915-C003** (lokal): bearbeiten; halten; fortsetzen · halten; Arbeitsgang; Zielstelle · pressen/trennen; dies · halten; dies; Sollmaß · Gegen-/Empfangsgang; dies · dies kurz halten · bearbeiten; entnehmen; Arbeitsgang; Schluss
+- **P915-C004** (zeilenübergreifend): halten; Arbeitsgang; dies; bearbeiten; dies · prüfen; Arbeitsgang; Bereitschaft; Arbeitsgang; Teilstelle; dies · q-Träger; Arbeitsgang; Teilstelle; Ansatz · dies · zuordnen; halten; dies · Sollmaß · dies; bearbeiten; dies · dies; bearbeiten; ansetzen; dies · zuordnen; fortsetzen · Sollmaß · danach diesen Posten · fortsetzen · die Bereitschaft dieses Postens prüfen · Teilstelle; Ansatz · dies; zuordnen; dies; entnehmen; dies · entnehmen; danach diesen Posten · Portion · entnehmen; Sollmaß · Sollmaß · Teilstelle; Arbeitsgang; Teilstelle · in diesem Teil fortsetzen · dies · zuordnen; dies · dies · Sollmaß · bearbeiten; fortsetzen · den Ansatz halten · den Ansatz halten · Teilstelle; zuordnen; dies · dies · Sollmaß · die Bereitschaft dieses Postens prüfen · Teilstelle · dies · entnehmen; Arbeitsgang; Teilstelle; leiten · Sollmaß · Arbeitsgang; Teilstelle; leiten · Teilstelle · prüfen · dies · danach; fortsetzen · entnehmen; Sollmaß · dies; zuordnen; vom Ansatz entnehmen · Teilstelle; Lauf · entnehmen; Arbeitsgang; Teilstelle; dies · die Bereitschaft dieses Postens prüfen · prüfen · Sollmaß · danach diesen Posten · den Gang beginnen und fortsetzen · die Bereitschaft dieses Postens prüfen · dies
+
+## f13r
+
+- **P915-C005** (zeilenübergreifend): bearbeiten; Ansatz; den Ansatz halten · dies in den Arbeitsgang einsetzen · halten; fortsetzen · dies · dies in den Arbeitsgang einsetzen · halten; fortsetzen · Arbeitsgang; einsetzen; vom Ansatz entnehmen · Teilstelle; dies; einsetzen; dies · Teilstelle; entnehmen; g-Zeichen · in diesem Teil fortsetzen · fortsetzen · in diesem Teil fortsetzen · halten; zuordnen; dies · dies; Zielstelle · dies · dies; zuordnen; dies · danach diesen Posten · Sollmaß · prüfen · dies · prüfen · dies · Teilstelle; vom Ansatz entnehmen · halten; Sollmaß · Arbeitsgang; vollständig; prüfen · dies; zuordnen; Ansatz · vom Ansatz entnehmen · dies; bearbeiten; dies · dies; zuordnen; dies · zuordnen; dies · aus diesem Teil entnehmen · Arbeitsgang; Teilstelle; dies · dies; bearbeiten; dies · danach; vom Ansatz entnehmen · den Ansatz halten; Arbeitsgang; Teilstelle; Arbeitsgang · dies · bearbeiten; dies · zuordnen; fortsetzen · Teilstelle; einsetzen; dies · dies in den Arbeitsgang einsetzen · danach; entnehmen; fortsetzen · pressen/trennen; fortsetzen; fertig
+- **P915-C006** (zeilenübergreifend): bearbeiten; vom Ansatz entnehmen · Teilstelle; Ansatz · Sollmaß · danach; entnehmen; fortsetzen · ansetzen; dies · ansetzen; vom Ansatz entnehmen · Arbeitsgang; Stufe · dies durch den Durchlass · Teilstelle · Teilstelle; dies · ansetzen; dies · fortsetzen · dies · Arbeitsgang; dies · Teilstelle · fortsetzen; fertig
+- **P915-C007** (zeilenübergreifend): ansetzen; vom Ansatz entnehmen · Teilstelle; Arbeitsgang; Sollmaß · Stoffteil; dies · ansetzen; dies · bearbeiten; Ansatz; dies · zuordnen · prüfen · ansetzen; dies · Sollmaß · fortsetzen; fertig
+- **P915-C008** (lokal): dies kurz halten · fortsetzen · Teilstelle; Arbeitsgang; Stufe · dies; zuordnen; mit diesem fortsetzen · ansetzen; entnehmen; Zielstelle · Zielstelle; Schluss
+- **P915-C009** (lokal): prüfen; danach diesen Posten · zuordnen; dies · ansetzen; Ansatz; Ansatz; dies
+
+## f55v
+
+- **P915-C010** (zeilenübergreifend): zuordnen; entnehmen; länger; Teilstelle; dies umsetzen · Arbeitsgang; kurz; Teilstelle; Portion · dies durch den Durchlass · danach; fortsetzen; Teilstelle; Sollmaß · Teilstelle; Arbeitsgang; Schluss; d-Zeichen · Arbeitsgang; vollständig; Teilstelle · dies; bearbeiten; länger; dies · länger ansetzen; fertig
+- **P915-C011** (zeilenübergreifend): q-Träger; Arbeitsgang; Sollmaß · ansetzen; kurz; Arbeitsgang; Teilstelle; dies · dies; zuordnen; länger; prüfen; Zusatz · ansetzen; vollständig; dies · dazu · Portion · q-Träger; Arbeitsgang; fortsetzen · Zielstelle · dies umsetzen · die Entnahmestelle prüfen · Sollmaß · fortsetzen · zuordnen; Entnahmestelle · Innenstelle · von der Entnahmestelle ansetzen · entnehmen; Durchlass; Teilstelle; dies · Auszug; dies · zuordnen; länger; dies; f-Zeichen; Entnahmestelle · Zielstelle · Arbeitsgang; dies umsetzen · eine Portion ansetzen · Arbeitsgang; Schluss
+- **P915-C012** (lokal): nach Sollmaß ansetzen · entnehmen; Sollmaß · dies; eine Portion zuordnen · dies; zuordnen; Zusatz · Arbeitsgang; Schluss
+- **P915-C013** (zeilenübergreifend): Sollmaß · dies umsetzen · bearbeiten; Zielstelle; Innenstelle · dies; nach Sollmaß zuordnen · Sollmaß · dies; zuordnen; Lauf · dies kurz behandeln · Teilstelle; Sollmaß; dies · ansetzen; umsetzen · dies; eine Portion zuordnen · halten; kurz; dies kurz ansetzen · Ansatz · Portion · entnehmen · zuordnen; dies umsetzen · einsetzen; entnehmen; Zielstelle · Entnahmestelle · Zielstelle; Teilstelle; dies · zweite Stufe; Zustand; dies · bearbeiten; Entnahmestelle · dies umsetzen · nach Sollmaß ansetzen · von der Entnahmestelle ansetzen · fortsetzen · danach; Entnahmestelle · Stoffteil · Entnahmestelle · bearbeiten; Zielstelle; Arbeitsgang; Teilstelle; dies · von der Entnahmestelle ansetzen · dies · dies; zuordnen; Adresse; zuordnen; dies · ansetzen; dies · an der Zielstelle ansetzen · dies · Ansatz · Ansatz · Sollmaß · nach Sollmaß ansetzen · dies; eine Portion zuordnen · danach; Adresse; zuordnen; dies · Arbeitsgang; Sollmaß · fortsetzen · prüfen · Sollmaß · nach Sollmaß ansetzen · ansetzen; dies · dies; bearbeiten; Sollmaß · danach; Entnahmestelle · dies · der Zielstelle zuordnen · dies; zuordnen; Entnahmestelle · fortsetzen · dies; nach Sollmaß zuordnen · entnehmen; kurz; Arbeitsgang; Entnahmestelle · dies länger behandeln · fortsetzen; fertig
+- **P915-C014** (zeilenübergreifend): Sollmaß · an der Zielstelle ansetzen · fortsetzen; bearbeiten; dies · Ansatz · dies · Ansatz; Portion · Sollmaß · Entnahmestelle · dies kurz behandeln · fortsetzen; zuordnen; länger; entnehmen; dies · prüfen; leiten · Entnahmestelle · Sollmaß · Sollmaß · danach; Innenstelle
+
+## f56r
+
+- **P915-C015** (lokal): Arbeitsgang · entnehmen; Zielstelle · entnehmen; entnehmen; prüfen · dies · danach diesen Posten · kurz; prüfen; kurz; Schluss
+- **P915-C016** (zeilenübergreifend): dies · dies; entnehmen; Arbeitsgang; Gegen-/Empfangsgang; dies · vom Ansatz entnehmen; entnehmen; dies · dies · ansetzen; entnehmen; kurz; dies · fortsetzen · mit diesem fortsetzen · zuordnen; Ansatz; entnehmen; dies · entnehmen; dies; zuordnen; kurz; dies · entnehmen; danach diesen Posten · halten; nach Sollmaß ansetzen · mit diesem fortsetzen · den Gang beginnen und fortsetzen · dies · zuordnen; länger; dies · dies länger ansetzen · dies länger ansetzen · ansetzen; prüfen; dies · danach · vom Ansatz entnehmen · vom Ansatz entnehmen · ansetzen; Ansatz · behandeln; Ansatz · dies · von der Entnahmestelle ansetzen · dies umsetzen · Stoffteil; vom Ansatz entnehmen · Stoffteil · Stoffteil; Zielstelle; dies · Sollmaß · dies; zuordnen; entnehmen; Arbeitsgang · dies · entnehmen; kurz; dies · zuordnen; länger; dies · Sollmaß · dies · halten; Arbeitsgang · zuordnen; fortsetzen · danach; vom Ansatz entnehmen · ansetzen; dies · Zielstelle · wiederaufnehmen · Stoffteil; dies · ansetzen; dies · entnehmen; länger; Durchlass; Arbeitsgang; Schluss
+- **P915-C017** (zeilenübergreifend): bearbeiten; ansetzen; dies · zuordnen; fortsetzen · halten; fortsetzen · entnehmen; danach; entnehmen; kurz; dies · bearbeiten; fortsetzen · dies; bearbeiten · vom Ansatz entnehmen · danach; entnehmen; dies · ansetzen · dies · bearbeiten · dies · Zustand · nach Sollmaß ansetzen · dies · zuordnen; entnehmen; länger; dies · Sollmaß · Bereitschaft; fortsetzen · entnehmen; Arbeitsgang; prüfen · ansetzen; Ansatz · halten · Stoffteil · zuordnen; entnehmen; kurz; dies · ansetzen; ansetzen; entnehmen; dies · ansetzen; dies · ansetzen; Auszug · zuordnen; entnehmen; Zielstelle · prüfen · fortsetzen · entnehmen; danach; fortsetzen · danach diesen Posten · bearbeiten; entnehmen; Arbeitsgang · bearbeiten; fortsetzen · fortsetzen · die Bereitschaft dieses Postens prüfen · danach diesen Posten · entnehmen; Arbeitsgang; Teilstelle; dies · Bereitschaft; Arbeitsgang · Zustand · dies · zuordnen; entnehmen; Entnahmestelle; g-Zeichen · dies länger ansetzen · ansetzen; entnehmen; länger; dies · prüfen; entnehmen; kurz; dies · Teilstelle · Sollmaß · dies · halten; Arbeitsgang · ansetzen; entnehmen; dies · zuordnen; entnehmen; Arbeitsgang; Entnahmestelle · prüfen; danach; Arbeitsgang; Teilstelle; Zusatz · danach diesen Posten · zuordnen; kurz; fortsetzen · Sollmaß
+
+## f75r
+
+- **P915-C018** (lokal): zuordnen; dies umsetzen; zuordnen; Entnahmestelle; dies · dies länger ansetzen · von der Entnahmestelle ansetzen · dies; zuordnen · dies umsetzen · danach; Entnahmestelle · ruhen lassen; fertig
+- **P915-C019** (lokal): Portion · dies kurz halten · leiten; dies · prüfen; halten; kurz; fortsetzen · fortsetzen; fertig
+- **P915-C020** (lokal): dies umsetzen; zuordnen; Entnahmestelle · behandeln; länger; Schluss
+- **P915-C021** (zeilenübergreifend): Zustand; Ansatz · eine Portion ansetzen · entnehmen; Zielstelle · Ansatz; dies · kurz; dies · eine Portion zuordnen · halten; länger; zuordnen; dies · leiten; bearbeiten; Portion · Sammelstelle; Entnahmestelle · Ansatz · zweite Stufe; dies durch den Durchlass · leiten; zuordnen; Innenstelle; Arbeitsgang · dies; zuordnen; länger; dies · leiten; dies kurz halten · der Zielstelle zuordnen · dies · dies kurz halten · ansetzen · dies kurz halten · länger ansetzen; fertig
+- **P915-C022** (lokal): dies kurz halten · zuordnen; Entnahmestelle · dies · Durchlass; kurz; dies · Zustand · Portion · fortsetzen · fortsetzen; länger halten; fertig
+- **P915-C023** (zeilenübergreifend): dies länger ansetzen · ansetzen; dies · einsetzen; dies; zuordnen; länger; Ansatz · Sammelstelle; dies · aus diesem Teil entnehmen · dies kurz ansetzen · eine Portion ansetzen · entnehmen; die Bereitschaft dieses Postens prüfen · länger ansetzen; fertig
+- **P915-C024** (zeilenübergreifend): ansetzen; dies · einsetzen und umsetzen; fertig
+- **P915-C025** (lokal): ansetzen; halten; Schluss
+- **P915-C026** (zeilenübergreifend): dies; bearbeiten; Portion · dies umsetzen · von der Entnahmestelle ansetzen · dies · leiten; fortsetzen · dies umsetzen · ansetzen; dies · prüfen; Ansatz · dies · von der Entnahmestelle ansetzen; Schluss
+- **P915-C027** (lokal): Teilstelle; halten; kurz; dies durch den Durchlass · eine Portion ansetzen · dies durch den Durchlass · kurz spülen; fertig
+- **P915-C028** (lokal): länger ansetzen; fertig
+- **P915-C029** (lokal): ansetzen und umsetzen; fertig
+- **P915-C030** (lokal): entnehmen; die Bereitschaft dieses Postens prüfen · leiten; Arbeitsgang · kurz ansetzen; fertig
+- **P915-C031** (lokal): ansetzen; Zusatz · entnehmen; kurz; dies durch den Durchlass · von der Entnahmestelle ansetzen · weiter umsetzen; fertig
+- **P915-C032** (zeilenübergreifend): prüfen; Zielstelle · Teilstelle; den Ansatz halten · danach; Entnahmestelle · dies umsetzen · dies kurz halten · eine Portion ansetzen · dies durch den Durchlass · dies · danach; kurz; dies · bearbeiten; kurz; Schluss
+- **P915-C033** (lokal): abführen und umsetzen; fertig
+- **P915-C034** (lokal): länger ansetzen; fertig
+- **P915-C035** (lokal): ansetzen; Lauf · mit diesem fortsetzen · länger ansetzen; fertig
+- **P915-C036** (lokal): dies · an der Zielstelle ansetzen · von der Entnahmestelle ansetzen · ruhen lassen; fertig
+- **P915-C037** (zeilenübergreifend): Teilstelle; Ansatz · behandeln; Innenstelle · prüfen; halten; kurz; dies durch den Durchlass · an der Zielstelle ansetzen · mit diesem fortsetzen · dies kurz halten · Zustand · fortsetzen · dies länger halten · dies kurz halten · dies · fortsetzen; kurz halten; fertig
+- **P915-C038** (zeilenübergreifend): ansetzen; dies · einsetzen und umsetzen; fertig
+- **P915-C039** (lokal): zuordnen; länger; Schluss
+- **P915-C040** (lokal): kurz ansetzen; fertig
+- **P915-C041** (lokal): kurz ansetzen; fertig
+- **P915-C042** (lokal): kurz ansetzen; fertig
+- **P915-C043** (lokal): kurz ansetzen; fertig
+- **P915-C044** (lokal): eine Portion ansetzen · fortsetzen; kurz halten; fertig
+- **P915-C045** (lokal): die Portion prüfen · Zielstelle · zuordnen; kurz; halten; dies · eine Portion ansetzen · dies · fortsetzen; kurz halten; fertig
+- **P915-C046** (zeilenübergreifend): eine Portion ansetzen · dies durch den Durchlass · eine Portion ansetzen · danach; Entnahmestelle · Zielstelle; dies · die Portion prüfen · eine Portion ansetzen · Sammelstelle; länger; mit diesem fortsetzen · das Sollmaß prüfen · dies umsetzen · fortsetzen · Ansatz · ruhen lassen; fertig
+- **P915-C047** (lokal): ansetzen und umsetzen; fertig
+- **P915-C048** (zeilenübergreifend): ansetzen; dies · kurz halten; fertig
+- **P915-C049** (lokal): von der Entnahmestelle ansetzen · länger halten; fertig
+- **P915-C050** (lokal): leiten; entnehmen · halten; eine Portion ansetzen · dies · ansetzen; kurz halten; fertig
+- **P915-C051** (zeilenübergreifend): eine Portion ansetzen · dies umsetzen · einsetzen; umsetzen; Entnahmestelle · halten; kurz; einsetzen; dies · leiten; halten; kurz; aus diesem Teil entnehmen; dies · Zielstelle · halten; Zielstelle · dies · zuordnen; fortsetzen · ruhen lassen; fertig
+- **P915-C052** (zeilenübergreifend): ansetzen; Innenstelle · fortsetzen · länger halten; fertig
+- **P915-C053** (lokal): fortsetzen · ruhen lassen; fertig
+- **P915-C054** (zeilenübergreifend): fortsetzen · danach; Portion · Entnahmestelle · die Entnahmestelle prüfen · mit diesem fortsetzen · ansetzen; kurz halten; fertig
+- **P915-C055** (zeilenübergreifend): fortsetzen · dies kurz halten · ansetzen; dies · dies kurz halten · kurz; dies · eine Portion ansetzen · Entnahmestelle · Zustand; dies · dies kurz halten · Ansatz · dies · leiten; dies · leiten; Arbeitsgang · dies; Portion · dies kurz halten · eine Portion ansetzen · Arbeitsgang; eine Portion ansetzen · dies · dies durch den Durchlass · Ansatz · dies; halten; kurz; Ansatz · fortsetzen · leiten; Ansatz · Innenstelle · Arbeitsgang; aus diesem Teil entnehmen · dies kurz halten · eine Portion ansetzen · dies umsetzen · Ansatz · dies kurz halten · zuordnen; Entnahmestelle · dies umsetzen · die Entnahmestelle prüfen · einsetzen; dies · zuordnen; dies kurz halten · dies länger ansetzen · an der Zielstelle ansetzen · prüfen; dies kurz halten · fortsetzen · dies umsetzen; ansetzen; Innenstelle · eine Portion ansetzen · dies länger an der Sammelstelle halten · Sammelstelle; Entnahmestelle; dies · die Portion prüfen · die Bereitschaft dieses Postens prüfen · leiten; Ansatz · fortsetzen · die Portion prüfen · halten; dies durch den Durchlass · länger ansetzen; fertig
+- **P915-C056** (lokal): dies · dies · länger ansetzen; fertig
+- **P915-C057** (lokal): abführen und umsetzen; fertig
+- **P915-C058** (zeilenübergreifend): Zustand; Innenstelle · Portion · fortsetzen · halten; kurz; fortsetzen · Portion · fortsetzen · mit diesem fortsetzen · aus diesem Teil entnehmen · Adresse; dies · einsetzen; Teilstelle; Zielstelle; den Ansatz halten · halten; bearbeiten; fortsetzen · danach diesen Posten · einsetzen; halten; Entnahmestelle · ruhen lassen; fertig
+- **P915-C059** (lokal): an der Zielstelle ansetzen; Schluss
+- **P915-C060** (lokal): aus diesem Teil entnehmen · danach; Entnahmestelle · danach; Arbeitsgang; Schluss
+- **P915-C061** (zeilenübergreifend): dies · Zustand; fortsetzen · bearbeiten; dies umsetzen · einsetzen und umsetzen; fertig
+- **P915-C062** (lokal): dies länger ansetzen · fortsetzen · fortsetzen; Teilstelle; Lauf · halten; kurz; die Bereitschaft dieses Postens prüfen · fortsetzen · leiten · länger halten; fertig
+- **P915-C063** (lokal): länger ansetzen; fertig
+- **P915-C064** (lokal): leiten; weiter umsetzen; fertig
+- **P915-C065** (lokal): Portion · behandeln; Zielstelle · dies · leiten; Arbeitsgang · leiten; nach Sollmaß zuordnen · fortsetzen · länger ansetzen; fertig; fortsetzen · Portion · mit diesem fortsetzen · länger ansetzen; fertig
+- **P915-C066** (zeilenübergreifend): dies umsetzen · danach; Zusatz · Arbeitsgang · Portion · dies länger behandeln · dies kurz ansetzen · eine Portion ansetzen · dies kurz behandeln · an der Zielstelle ansetzen · Portion · dies umsetzen · Arbeitsgang · der Zielstelle zuordnen; fortsetzen · ruhen lassen; fertig
+- **P915-C067** (zeilenübergreifend): von der Entnahmestelle ansetzen · fortsetzen; Arbeitsgang; Innenstelle · kurz halten; fertig
+- **P915-C068** (lokal): dies kurz ansetzen · dies durch den Durchlass · von der Entnahmestelle ansetzen · ruhen lassen; fertig
+- **P915-C069** (lokal): dies · ansetzen; kurz; Teilstelle · kurz ansetzen; fertig
+- **P915-C070** (lokal): Zielstelle; Schluss
+- **P915-C071** (lokal): einsetzen; fortsetzen; halten; dies · Zielstelle · ruhen lassen; fertig
+- **P915-C072** (lokal): eine Portion ansetzen · aus diesem Teil entnehmen · entnehmen; prüfen; Schluss
+- **P915-C073** (lokal): ruhen lassen; fertig
+- **P915-C074** (lokal): danach; Entnahmestelle · ruhen lassen; fertig
+- **P915-C075** (lokal): leiten; Schluss
+- **P915-C076** (lokal): dies länger ansetzen · leiten · ruhen lassen; fertig
+- **P915-C077** (lokal): Arbeitsgang · leiten · dies umsetzen · eine Portion ansetzen · entnehmen; Bereitschaft; kurz; Schluss
+- **P915-C078** (lokal): leiten; bearbeiten; kurz; Schluss
+- **P915-C079** (zeilenübergreifend): aus diesem Teil entnehmen; Arbeitsgang; Innenstelle · prüfen · Sammelstelle; kurz; Schluss
+- **P915-C080** (lokal): an der Zielstelle ansetzen · aus diesem Teil entnehmen · danach diesen Posten · von der Entnahmestelle ansetzen · danach; Entnahmestelle · fortsetzen · eine Portion zuordnen · fortsetzen; bearbeiten; kurz; Schluss
+- **P915-C081** (lokal): eine Portion ansetzen · halten; länger; bearbeiten; dies · eine Portion ansetzen · aus diesem Teil entnehmen · aus diesem Teil entnehmen · ruhen lassen; fertig
+- **P915-C082** (lokal): eine Portion ansetzen · fortsetzen; fertig
+- **P915-C083** (lokal): fortsetzen · zuordnen; länger; Schluss
+- **P915-C084** (lokal): länger ansetzen; fertig
+- **P915-C085** (lokal): dies kurz ansetzen · von der Entnahmestelle ansetzen · danach; Entnahmestelle · aus diesem Teil entnehmen; aus diesem Teil entnehmen; Schluss
+- **P915-C086** (lokal): kurz ansetzen; fertig
+- **P915-C087** (lokal): dies · halten; länger; bearbeiten; dies · kurz ansetzen; fertig
+- **P915-C088** (lokal): länger ansetzen; fertig
+- **P915-C089** (lokal): ansetzen; kurz; umsetzen; Schluss
+- **P915-C090** (zeilenübergreifend): leiten; fortsetzen · länger ansetzen; fertig
+- **P915-C091** (lokal): länger ansetzen; fertig
+- **P915-C092** (lokal): kurz ansetzen; fertig
+- **P915-C093** (lokal): kurz ansetzen; fertig
+- **P915-C094** (lokal): länger ansetzen; fertig
+- **P915-C095** (lokal): leiten; Schluss
+- **P915-C096** (lokal): dies; kurz halten; fertig
+- **P915-C097** (lokal): länger ansetzen; fertig
+- **P915-C098** (lokal): länger ansetzen; fertig
+- **P915-C099** (lokal): Sammelstelle; länger; Schluss
+- **P915-C100** (lokal): danach; kurz; dies · zuordnen; fortsetzen; fertig
+- **P915-C101** (lokal): aus diesem Teil entnehmen · ruhen lassen; fertig
+- **P915-C102** (lokal): eine Portion ansetzen · ruhen lassen; fertig
+- **P915-C103** (lokal): Zielstelle · zuordnen; länger; Schluss
+- **P915-C104** (lokal): Zustand; ruhen lassen; fertig
+- **P915-C105** (lokal): prüfen; länger ansetzen; fertig
+- **P915-C106** (lokal): länger ansetzen; fertig
+- **P915-C107** (lokal): danach länger; fertig
+- **P915-C108** (lokal): ansetzen; dies · dies · zuordnen; länger; Schluss
+- **P915-C109** (zeilenübergreifend): dies · kurz halten; fertig
+- **P915-C110** (lokal): kurz ansetzen; fertig
+- **P915-C111** (lokal): länger ansetzen; fertig
+- **P915-C112** (lokal): danach; länger; dies · danach länger; fertig
+- **P915-C113** (zeilenübergreifend): Teilstelle; Ansatz · dies; kurz halten; fertig
+- **P915-C114** (lokal): behandeln; Entnahmestelle · fortsetzen; fertig
+- **P915-C115** (lokal): eine Portion ansetzen · behandeln; Entnahmestelle · danach; Entnahmestelle · fortsetzen; fertig
+- **P915-C116** (lokal): Teilstelle; dies umsetzen · die Portion prüfen · kurz ansetzen; fertig
+- **P915-C117** (lokal): kurz ansetzen; fertig
+- **P915-C118** (lokal): danach kurz; fertig
+- **P915-C119** (lokal): den Gang beginnen und fortsetzen; Schluss
+- **P915-C120** (zeilenübergreifend): danach; Entnahmestelle · danach; Innenstelle · fortsetzen; Sollmaß · entnehmen · aus diesem Teil entnehmen · dies · prüfen; kurz halten; fertig
+- **P915-C121** (lokal): halten; dies durch den Durchlass · dies kurz ansetzen · kurz ansetzen; fertig
+- **P915-C122** (lokal): die Entnahmestelle prüfen; fortsetzen · danach diesen Posten · danach kurz; fertig
+- **P915-C123** (lokal): danach kurz; fertig
+- **P915-C124** (lokal): danach kurz; fertig
+- **P915-C125** (zeilenübergreifend): nach Sollmaß ansetzen · dies kurz ansetzen · kurz ansetzen; fertig
+- **P915-C126** (lokal): halten; kurz; fortsetzen · kurz ansetzen; fertig
+- **P915-C127** (lokal): Portion · ruhen lassen; fertig
+- **P915-C128** (lokal): danach; fortsetzen · dies umsetzen · mit dem Ansatz fortsetzen
+
+## f81v
+
+- **P915-C129** (lokal): einsetzen; Entnahmestelle · dies kurz halten · zuordnen; länger; Schluss
+- **P915-C130** (lokal): halten; kurz; der Zielstelle zuordnen · Zielstelle · aus diesem Teil entnehmen · fortsetzen · einsetzen und umsetzen; fertig
+- **P915-C131** (zeilenübergreifend): halten; kurz; zuordnen · Portion · Arbeitsgang; f-Zeichen; Adresse; spülen; kurz; zuordnen; dies · kurz ansetzen; fertig
+- **P915-C132** (zeilenübergreifend): nach Sollmaß ansetzen · zuordnen; Lauf · an der Zielstelle ansetzen · die Entnahmestelle prüfen · fortsetzen · eine Portion zuordnen · fortsetzen; eine Portion zuordnen · Zielstelle · fortsetzen · Zustand; fortsetzen · leiten · das Sollmaß prüfen · Sollmaß · Sammelstelle; länger; Schluss
+- **P915-C133** (lokal): kurz ansetzen; fertig
+- **P915-C134** (lokal): Teilstelle; dies; eine Portion zuordnen · halten; kurz; zuordnen · dies umsetzen · Zielstelle; Zielstelle · fortsetzen; fertig
+- **P915-C135** (zeilenübergreifend): nach Sollmaß ansetzen · eine Portion ansetzen · dies länger behandeln · dies · fortsetzen · nach Sollmaß zuordnen · Portion · dies · Sollmaß · entnehmen; die Bereitschaft dieses Postens prüfen · nach Sollmaß ansetzen · Sollmaß · danach; Portion · dies durch den Durchlass · länger ansetzen; fertig
+- **P915-C136** (zeilenübergreifend): ansetzen; dies · zuordnen; Entnahmestelle · Sollmaß · von der Entnahmestelle ansetzen · eine Portion ansetzen · nach Sollmaß ansetzen · fortsetzen · dies umsetzen · den Auszug weiterleiten · leiten; zuordnen; dies · leiten · prüfen · Sollmaß · eine Portion ansetzen · Zielstelle; Schluss
+- **P915-C137** (lokal): mit dem Ansatz fortsetzen · fortsetzen · halten; kurz; Durchlass; Zielstelle · Sollmaß · ansetzen; länger; Zielstelle · Sollmaß · dies durch den Durchlass · umsetzen; Schluss
+- **P915-C138** (zeilenübergreifend): fortsetzen · dies; zuordnen; fortsetzen · Ansatz · ruhen lassen; fertig
+- **P915-C139** (lokal): länger halten; fertig
+- **P915-C140** (lokal): Sammelstelle; länger; Teilstelle; dies · Sollmaß · Teilstelle; eine Portion zuordnen · Gegen-/Empfangsgang; kurz; Schluss
+- **P915-C141** (lokal): fortsetzen; fertig
+- **P915-C142** (lokal): dies; Entnahmestelle · mit diesem fortsetzen · nach Sollmaß zuordnen · dies länger ansetzen · Sollmaß · mit dem Ansatz fortsetzen · entnehmen; kurz; dies durch den Durchlass · zweite Stufe; Stufe; Schluss
+- **P915-C143** (lokal): einsetzen; fortsetzen; halten; dies · Adresse; halten; dies; bearbeiten; länger; Teilstelle · q-Träger; Arbeitsgang; einsetzen · länger ansetzen; fertig
+- **P915-C144** (lokal): danach kurz; fertig
+- **P915-C145** (lokal): ansetzen; kurz halten; fertig
+- **P915-C146** (zeilenübergreifend): danach diesen Posten · Teilstelle; Lauf; Adresse; Innenstelle · dies; dies kurz halten · dies länger ansetzen · dies länger ansetzen · ansetzen; dies · dies; zuordnen; länger; dies · ansetzen; dies · ansetzen; dies · leiten; zuordnen; dies · fortsetzen; entnehmen; dies · zuordnen; dies · Teilstelle; halten; mit diesem fortsetzen; Teilstelle · fortsetzen · fortsetzen · dies umsetzen · ruhen lassen; fertig
+- **P915-C147** (lokal): kurz ansetzen; fertig
+- **P915-C148** (lokal): dies; bearbeiten; kurz; Schluss
+- **P915-C149** (lokal): entnehmen; kurz; bearbeiten; kurz; Teilstelle; dies · leiten; zuordnen; kurz; Teilstelle; kurz; dies · dies; bearbeiten; kurz; Schluss
+- **P915-C150** (lokal): dies; zuordnen; kurz; dies kurz halten · Teilstelle; entnehmen; prüfen; kurz; Teilstelle · dies; bearbeiten; kurz; Schluss
+- **P915-C151** (lokal): dies; bearbeiten; kurz; Schluss
+- **P915-C152** (lokal): aus diesem Teil entnehmen · dies; zuordnen; kurz; zweite Stufe; dies · danach diesen Posten · dies; zuordnen; kurz; Schluss
+- **P915-C153** (zeilenübergreifend): an der Zielstelle ansetzen · kurz halten; fertig
+- **P915-C154** (lokal): dies; zuordnen; länger; Teilstelle; dies · halten; länger; zuordnen; dies · Sollmaß · kurz ansetzen; fertig
+- **P915-C155** (lokal): ansetzen; länger; Teilstelle · kurz ansetzen; fertig
+- **P915-C156** (zeilenübergreifend): leiten; entnehmen; einsetzen; dies umsetzen · an der Zielstelle ansetzen · dies umsetzen · fortsetzen · dies länger halten · prüfen; Adresse; spülen; Bereitschaft; Teilstelle; dies · q-Träger; Arbeitsgang; f-Zeichen; dies umsetzen · Zustand · dies umsetzen · leiten; bearbeiten; Entnahmestelle; dies · leiten; Ansatz · ruhen lassen; fertig
+- **P915-C157** (lokal): q-Träger; Arbeitsgang; länger; Teilstelle; dies · fortsetzen · dies · Zustand; halten; Teilstelle; dies · kurz spülen; fertig
+- **P915-C158** (zeilenübergreifend): aus diesem Teil entnehmen · dies umsetzen · einsetzen; dies umsetzen · halten; zuordnen; umsetzen; Schluss
+- **P915-C159** (lokal): dies umsetzen · fortsetzen · ruhen lassen; fertig
+- **P915-C160** (lokal): weiter umsetzen; fertig
+- **P915-C161** (zeilenübergreifend): eine Portion ansetzen · dies durch den Durchlass · leiten · Zustand; Zielstelle · ansetzen und umsetzen; fertig
+- **P915-C162** (lokal): dies · fortsetzen · dies kurz behandeln · fortsetzen · ruhen lassen; fertig
+- **P915-C163** (lokal): kurz ansetzen; fertig
+- **P915-C164** (lokal): kurz ansetzen; fertig
+- **P915-C165** (zeilenübergreifend): dies durch den Durchlass · ansetzen; dies · dies länger an der Sammelstelle halten · fortsetzen · ruhen lassen; fertig
+- **P915-C166** (lokal): von der Entnahmestelle ansetzen · halten; dies durch den Durchlass · Teilstelle; kurz; Schluss
+- **P915-C167** (zeilenübergreifend): von der Entnahmestelle ansetzen · an der Zielstelle ansetzen · in diesem Teil fortsetzen · dies · q-Träger; Arbeitsgang; Bereitschaft; kurz; dies · behandeln; Zielstelle · dies umsetzen · kurz ansetzen; fertig
+- **P915-C168** (lokal): spülen; kurz; bearbeiten; dies · fortsetzen; fertig
+- **P915-C169** (lokal): leiten; bearbeiten; kurz; Schluss
+- **P915-C170** (zeilenübergreifend): danach; Portion · spülen; Arbeitsgang · dies kurz ansetzen · kurz spülen; fertig
+- **P915-C171** (lokal): kurz spülen; fertig
+- **P915-C172** (zeilenübergreifend): dies umsetzen · Sammelstelle; dies · leiten; umsetzen; Zielstelle · fortsetzen · danach; Entnahmestelle · an der Zielstelle ansetzen · fortsetzen · Arbeitsgang; Stufe · dies länger halten · Zielstelle · abführen und umsetzen; fertig
+- **P915-C173** (zeilenübergreifend): dies umsetzen · prüfen; Zielstelle; entnehmen; bearbeiten; kurz; Teilstelle; dies; bearbeiten; Entnahmestelle · halten; fortsetzen · q-Träger; kurz; bearbeiten; entnehmen; dies · dies; nach Sollmaß zuordnen · fortsetzen; eine Portion zuordnen · ruhen lassen; fertig
+- **P915-C174** (zeilenübergreifend): ansetzen; dies · Teilstelle; dies umsetzen · Zustand; fortsetzen · fortsetzen; Bereitschaft; Teilstelle; dies · bearbeiten; kurz; dies · ansetzen und umsetzen; fertig
+- **P915-C175** (lokal): an der Zielstelle ansetzen · dies länger ansetzen · fortsetzen · entnehmen; länger; Teilstelle; dies · prüfen; Zielstelle · kurz; fortsetzen · umsetzen; Schluss
+- **P915-C176** (zeilenübergreifend): leiten; dies · Arbeitsgang; absetzen; dies · danach kurz; fertig
+- **P915-C177** (zeilenübergreifend): halten; fortsetzen · dies umsetzen · dies · halten; dies · fortsetzen · dies · fortsetzen · dies umsetzen · bearbeiten; umsetzen · ansetzen; dies · fortsetzen · entnehmen; kurz; fortsetzen; bearbeiten; Entnahmestelle · Arbeitsgang; Stufe · kurz ansetzen; fertig
+- **P915-C178** (lokal): Zielstelle · dies kurz halten · fortsetzen; zuordnen; kurz; fortsetzen · Sammelstelle; länger; Schluss
+- **P915-C179** (zeilenübergreifend): ansetzen; kurz; fortsetzen · halten; kurz; fortsetzen · Arbeitsgang; Stufe · Sammelstelle; länger; Schluss
+- **P915-C180** (lokal): bearbeiten; kurz; Schluss
+- **P915-C181** (lokal): dies kurz behandeln · halten; Durchlass; kurz; Schluss
+- **P915-C182** (lokal): entnehmen; Zielstelle
+
+## f82r
+
+- **P915-C183** (zeilenübergreifend): q-Träger; Arbeitsgang; halten; länger; Teilstelle; dies · ansetzen; kurz; fortsetzen · Sollmaß · halten; dies durch den Durchlass · ansetzen; länger; Ansatz · dies länger halten · Sollmaß · dies kurz halten · Teilstelle; dies umsetzen · weiter umsetzen; fertig
+- **P915-C184** (lokal): eine Portion ansetzen · dies · länger ansetzen; fertig
+- **P915-C185** (zeilenübergreifend): an der Zielstelle ansetzen · leiten; dies durch den Durchlass · leiten; umsetzen · dies länger ansetzen · leiten; Durchlass; kurz; Schluss
+- **P915-C186** (zeilenübergreifend): an der Zielstelle ansetzen; dies · Sammelstelle; Sollmaß · dies durch den Durchlass · nach Sollmaß ansetzen · nach Sollmaß ansetzen · Arbeitsgang; Bereitschaft; kurz; fortsetzen · dies länger behandeln · leiten; Schluss
+- **P915-C187** (zeilenübergreifend): danach; länger; dies · an der Zielstelle ansetzen · halten; kurz; dies durch den Durchlass · ansetzen; dies · fortsetzen · leiten; zuordnen; dies umsetzen · länger ansetzen; fertig
+- **P915-C188** (lokal): an der Zielstelle ansetzen · Bereitschaft; fortsetzen · dies umsetzen · danach länger; fertig
+- **P915-C189** (zeilenübergreifend): an der Zielstelle ansetzen · die Entnahmestelle prüfen · ruhen lassen; fertig
+- **P915-C190** (zeilenübergreifend): fortsetzen · absetzen; Sollmaß · halten; kurz; dies durch den Durchlass · an der Zielstelle ansetzen · halten; kurz; zuordnen; dies · danach; Sollmaß · umsetzen; fortsetzen · kurz halten; fertig
+- **P915-C191** (lokal): prüfen; danach; Sollmaß · von der Entnahmestelle ansetzen · ruhen lassen; fertig
+- **P915-C192** (lokal): fortsetzen; kurz halten; fertig
+- **P915-C193** (zeilenübergreifend): dies länger ansetzen · ansetzen; dies · fortsetzen · dies länger halten · q-Träger; kurz; zuordnen; länger; dies · länger halten; fertig
+- **P915-C194** (lokal): kurz ansetzen; fertig
+- **P915-C195** (zeilenübergreifend): leiten; entnehmen; Arbeitsgang · Zustand · dies länger halten · dies kurz ansetzen · danach; Zielstelle · dies umsetzen · danach; kurz; Ansatz · prüfen; halten; Arbeitsgang; spülen; kurz; die Bereitschaft dieses Postens prüfen · nach Sollmaß ansetzen · behandeln; kurz; Teilstelle; dies · Zustand; entnehmen; kurz; dies · Teilstelle; Lauf; entnehmen; kurz; dies · nach Sollmaß ansetzen
+- **P915-C196** (lokal): zuordnen; fortsetzen; dies umsetzen · kurz ansetzen; fertig
+- **P915-C197** (zeilenübergreifend): q-Träger; Arbeitsgang; einsetzen; fortsetzen · danach; kurz; Teilstelle; Ansatz · entnehmen; Arbeitsgang; einsetzen; dies umsetzen · danach; Zielstelle · dies umsetzen · zuordnen; Innenstelle · danach kurz; fertig
+- **P915-C198** (zeilenübergreifend): q-Träger; Arbeitsgang; Teilstelle; umsetzen · fortsetzen; q-Träger; Arbeitsgang · aus diesem Teil entnehmen · entnehmen; kurz; Durchlass; Arbeitsgang · leiten; fortsetzen; fortsetzen · an der Zielstelle ansetzen · von der Entnahmestelle ansetzen; dies umsetzen · bearbeiten; den Auszug weiterleiten · weiter umsetzen; fertig
+- **P915-C199** (lokal): länger ansetzen; fertig
+- **P915-C200** (lokal): danach kurz; fertig
+- **P915-C201** (zeilenübergreifend): umsetzen; Entnahmestelle · dies länger halten · leiten; dies · prüfen; fortsetzen; Entnahmestelle; fortsetzen · Zustand · fortsetzen; entnehmen; dies · an der Zielstelle ansetzen · dies · eine Portion ansetzen · Teilstelle; vollständig; Teilstelle; dies · dies länger ansetzen · nach Sollmaß ansetzen · weiter umsetzen; fertig
+- **P915-C202** (lokal): zuordnen; kurz; Schluss
+- **P915-C203** (lokal): abführen und umsetzen; fertig
+- **P915-C204** (lokal): kurz ansetzen; fertig
+- **P915-C205** (lokal): länger ansetzen; fertig
+- **P915-C206** (zeilenübergreifend): leiten; zuordnen; länger; Teilstelle; dies · nach Sollmaß ansetzen · dies · Sollmaß · dies umsetzen · dies · länger ansetzen; fertig
+- **P915-C207** (lokal): abführen und umsetzen; fertig
+- **P915-C208** (lokal): länger ansetzen; fertig
+- **P915-C209** (zeilenübergreifend): dies länger halten · Zustand · Ansatz · fortsetzen · prüfen · Sollmaß · dies · Zustand; Adresse · zweite Stufe; Innenstelle · kurz halten; fertig
+- **P915-C210** (lokal): danach; länger; dies · dies umsetzen · ansetzen; vollständig; dies · kurz ansetzen; fertig
+- **P915-C211** (lokal): leiten; bearbeiten; länger; Teilstelle; dies · länger ansetzen; fertig
+- **P915-C212** (zeilenübergreifend): Zustand; Zielstelle; entnehmen; kurz; dies · einsetzen; fortsetzen; umsetzen · danach; Portion · ruhen lassen; fertig
+- **P915-C213** (lokal): ruhen lassen; fertig
+- **P915-C214** (zeilenübergreifend): Zielstelle · umsetzen; Entnahmestelle · dies länger ansetzen · dies; zuordnen; länger; dies · leiten · prüfen · Entnahmestelle; Sollmaß · Ansatz; dies · eine Portion ansetzen · Entnahmestelle · eine Portion ansetzen · länger ansetzen; fertig
+- **P915-C215** (zeilenübergreifend): leiten; entnehmen; dies · einsetzen; Arbeitsgang; prüfen; Adresse; spülen; dies · kurz ansetzen; fertig
+- **P915-C216** (lokal): Gegen-/Empfangsgang; Zielstelle · ruhen lassen; fertig
+- **P915-C217** (lokal): halten; kurz; fortsetzen · zuordnen; vollständig; Teilstelle; dies · leiten; nach Sollmaß zuordnen · ruhen lassen; fertig
+- **P915-C218** (zeilenübergreifend): mit diesem fortsetzen · Sollmaß · Auszug; zuordnen; dies · leiten; zuordnen; kurz; Schluss
+- **P915-C219** (zeilenübergreifend): prüfen; Adresse; spülen; kurz; dies · Sollmaß · dies · fortsetzen · dies umsetzen · dies länger ansetzen · Zielstelle · nach Sollmaß ansetzen · Auszug; Zustand · dies länger halten · nach Sollmaß ansetzen · halten; Durchlass; kurz; dies · fortsetzen · zuordnen; vollständig; Teilstelle; dies · ansetzen; vollständig; dies · Zustand; Adresse; prüfen; dies · dies länger halten · Bereitschaft; kurz; dies · dies länger ansetzen · leiten; länger; dies · Sollmaß · dies · ansetzen; vollständig; Schluss
+- **P915-C220** (lokal): abführen und umsetzen; fertig
+- **P915-C221** (zeilenübergreifend): leiten; Entnahmestelle · länger ansetzen; fertig
+- **P915-C222** (lokal): leiten; entnehmen; länger; Teilstelle; dies · ansetzen; kurz; Arbeitsgang; dies · prüfen; Zielstelle · Zustand; Sollmaß · dies länger ansetzen · leiten; zuordnen; länger; dies · dies länger ansetzen · Zustand; Sollmaß · dies; Schluss
+- **P915-C223** (lokal): in diesem Teil fortsetzen · q-Träger; Arbeitsgang; kurz; prüfen; kurz; Schluss
+- **P915-C224** (lokal): halten; länger; Zielstelle · länger halten; fertig
+- **P915-C225** (lokal): leiten; absetzen · Arbeitsgang; Durchlass; kurz; dies · abführen und umsetzen; fertig
+- **P915-C226** (zeilenübergreifend): leiten; Entnahmestelle · dies länger halten · Zustand; dies · dies kurz halten · länger ansetzen; fertig
+- **P915-C227** (zeilenübergreifend): Zielstelle · leiten; umsetzen; Entnahmestelle · entnehmen; kurz; prüfen · Sollmaß · danach; länger; dies · nach Sollmaß ansetzen · dies kurz ansetzen · einsetzen und umsetzen; fertig
+- **P915-C228** (lokal): Zustand; halten; kurz; Zielstelle · Zielstelle; Schluss
+- **P915-C229** (lokal): länger ansetzen; fertig
+- **P915-C230** (lokal): Zustand; ruhen lassen; fertig
+- **P915-C231** (lokal): danach länger; fertig
+- **P915-C232** (lokal): länger ansetzen; fertig
+- **P915-C233** (lokal): leiten; Arbeitsgang; umsetzen; Schluss
+- **P915-C234** (lokal): ansetzen; Arbeitsgang; Stufe · ruhen lassen; fertig
+- **P915-C235** (lokal): länger ansetzen; fertig
+- **P915-C236** (zeilenübergreifend): danach; Sollmaß · entnehmen; Bereitschaft; kurz; dies · danach; länger; fortsetzen · dies · nach Sollmaß ansetzen · mit diesem fortsetzen · Teilstelle · dies länger halten · abführen und umsetzen; fertig
+- **P915-C237** (lokal): länger ansetzen; fertig
+- **P915-C238** (lokal): abführen und umsetzen; fertig
+- **P915-C239** (lokal): Zustand; dies umsetzen · ansetzen; dies · danach kurz; fertig
+- **P915-C240** (zeilenübergreifend): danach diesen Posten · danach diesen Posten · danach; länger; dies · Zustand; Sollmaß · den Auszug weiterleiten · danach; länger; dies · ruhen lassen; fertig
+- **P915-C241** (lokal): dies länger ansetzen · kurz spülen; fertig
+- **P915-C242** (lokal): länger ansetzen; fertig
+- **P915-C243** (zeilenübergreifend): Zustand; Adresse; g-Zeichen · den Auszug weiterleiten · fortsetzen · Zustand; halten; länger; Teilstelle; dies · abführen und umsetzen; fertig
+- **P915-C244** (zeilenübergreifend): danach diesen Posten · leiten; entnehmen; länger; Ansatz · eine Portion ansetzen · entnehmen; länger; Teilstelle; dies · leiten; umsetzen · bearbeiten; Sollmaß · absetzen; Sollmaß · entnehmen; Durchlass; kurz; dies · leiten; dies · leiten; dies durch den Durchlass · dies länger halten · leiten; Zustand · dies · Zustand; Portion · die Portion prüfen · fortsetzen · den Auszug weiterleiten · kurz; dies · Auszug; Zustand · dies
+
+## f83r
+
+- **P915-C245** (lokal): bearbeiten; dies umsetzen · leiten; einsetzen; dies umsetzen · Arbeitsgang; einsetzen; kurz; Schluss
+- **P915-C246** (lokal): entnehmen; kurz; einsetzen; fortsetzen · einsetzen; umsetzen; Entnahmestelle · ruhen lassen; fertig
+- **P915-C247** (zeilenübergreifend): q-Träger; Arbeitsgang; einsetzen; dies umsetzen · fortsetzen · dies länger halten · nach Sollmaß ansetzen · halten; fortsetzen · leiten; entnehmen; prüfen · dies kurz halten · danach länger; fertig
+- **P915-C248** (zeilenübergreifend): Zustand; entnehmen; kurz; prüfen · Entnahmestelle · dies umsetzen · Teilstelle; Ansatz · Sammelstelle; länger; Schluss
+- **P915-C249** (lokal): danach; Zielstelle · behandeln; länger; Schluss
+- **P915-C250** (lokal): dies · Sollmaß · dies · abführen und umsetzen; fertig
+- **P915-C251** (zeilenübergreifend): nach Sollmaß ansetzen · danach; Zielstelle · aus diesem Teil entnehmen · ansetzen; kurz halten; fertig
+- **P915-C252** (lokal): dies umsetzen · kurz ansetzen; fertig
+- **P915-C253** (lokal): behandeln; kurz; Teilstelle; dies · Sollmaß · halten; kurz; bearbeiten; Entnahmestelle · ruhen lassen; fertig
+- **P915-C254** (zeilenübergreifend): q-Träger; kurz; nach Sollmaß zuordnen · dies umsetzen · Teilstelle; länger; dies · danach; Sollmaß · entnehmen; kurz; dies durch den Durchlass · danach diesen Posten · entnehmen; kurz; g-Zeichen · ruhen lassen; fertig
+- **P915-C255** (lokal): dies länger ansetzen · Zustand; dies umsetzen · danach länger; fertig
+- **P915-C256** (zeilenübergreifend): leiten; Arbeitsgang · umsetzen; Schluss
+- **P915-C257** (lokal): dies umsetzen · an der Zielstelle ansetzen · weiter umsetzen; fertig
+- **P915-C258** (lokal): nach Sollmaß ansetzen · dies umsetzen · länger ansetzen; fertig
+- **P915-C259** (lokal): abführen und umsetzen; fertig
+- **P915-C260** (zeilenübergreifend): ansetzen; dies · prüfen; fortsetzen; absetzen · spülen; länger; Teilstelle; dies · q-Träger; vollständig; Teilstelle; dies · ansetzen; dies · Arbeitsgang · fortsetzen · Zustand; halten; länger; Teilstelle; dies · kurz ansetzen; fertig
+- **P915-C261** (lokal): danach länger; fertig
+- **P915-C262** (lokal): danach länger; fertig
+- **P915-C263** (lokal): einsetzen; umsetzen; Zielstelle · danach kurz; fertig
+- **P915-C264** (zeilenübergreifend): halten; kurz; Bereitschaft; dies umsetzen · ansetzen; dies · dies umsetzen · Entnahmestelle; dies · einsetzen; vom Ansatz entnehmen · entnehmen; kurz; Gegen-/Empfangsgang; kurz; Schluss
+- **P915-C265** (lokal): kurz ansetzen; fertig
+- **P915-C266** (lokal): spülen; länger; Teilstelle; dies · ansetzen und umsetzen; fertig
+- **P915-C267** (zeilenübergreifend): Zustand · absetzen; zuordnen; kurz; Teilstelle; dies · q-Träger; Arbeitsgang; einsetzen; halten; Teilstelle; dies · q-Träger; dies in den Arbeitsgang einsetzen · dies länger an der Sammelstelle halten · Zustand; entnehmen; prüfen · entnehmen; länger; b-Zeichen · fortsetzen; prüfen · Sollmaß · prüfen; der Zielstelle zuordnen · Portion · Bereitschaft; Zielstelle · prüfen · Sollmaß · behandeln; dies · leiten; Zielstelle · prüfen; Innenstelle · prüfen; Ansatz · ruhen lassen; fertig
+- **P915-C268** (lokal): nach Sollmaß ansetzen · behandeln; Portion · halten; Bereitschaft; kurz; dies · kurz ansetzen; fertig
+- **P915-C269** (lokal): ansetzen; Lauf · länger halten; fertig
+- **P915-C270** (lokal): abführen und umsetzen; fertig
+- **P915-C271** (zeilenübergreifend): leiten; Arbeitsgang · q-Träger; Arbeitsgang; Durchlass; fortsetzen · halten; kurz; dies durch den Durchlass · danach; Zielstelle · ansetzen; kurz; Zielstelle · halten; kurz; Durchlass; Teilstelle; dies · Zielstelle · kurz ansetzen; fertig
+- **P915-C272** (lokal): kurz ansetzen; fertig
+- **P915-C273** (zeilenübergreifend): an der Zielstelle ansetzen · prüfen; Zielstelle; den Auszug weiterleiten · bearbeiten; Entnahmestelle · ruhen lassen; fertig
+- **P915-C274** (lokal): prüfen · Zielstelle; bearbeiten; kurz; Teilstelle; dies · prüfen; Lauf · kurz ansetzen; fertig
+- **P915-C275** (lokal): q-Träger; kurz; Schluss
+- **P915-C276** (lokal): leiten; entnehmen; Gegen-/Empfangsgang; kurz; Schluss
+- **P915-C277** (zeilenübergreifend): leiten; zweite Stufe; Zustand · ansetzen; dies umsetzen · länger ansetzen; fertig
+- **P915-C278** (lokal): ruhen lassen; fertig
+- **P915-C279** (lokal): ansetzen; kurz halten; fertig
+- **P915-C280** (lokal): Zielstelle · abführen und umsetzen; fertig
+- **P915-C281** (zeilenübergreifend): nach Sollmaß ansetzen · halten; die Bereitschaft dieses Postens prüfen · Zielstelle · dies · das Sollmaß prüfen · absetzen; Zielstelle · halten; kurz; die Bereitschaft dieses Postens prüfen · dies · bearbeiten; Zielstelle · halten; die Bereitschaft dieses Postens prüfen · Zielstelle; umsetzen; Schluss
+- **P915-C282** (lokal): danach; umsetzen; Schluss
+- **P915-C283** (lokal): abführen und umsetzen; fertig
+- **P915-C284** (lokal): bearbeiten; dies umsetzen · ansetzen und umsetzen; fertig
+- **P915-C285** (zeilenübergreifend): länger; Entnahmestelle · leiten; Sollmaß · dies umsetzen · eine Portion ansetzen · die Bereitschaft dieses Postens prüfen · Zielstelle; Zustand; Ansatz · Teilstelle; Auszug; zuordnen; kurz; Teilstelle; dies · leiten; zuordnen; länger; Teilstelle · halten; Durchlass; kurz; dies · dies; bearbeiten; Sollmaß · halten; kurz; entnehmen; dies · prüfen; entnehmen; kurz; bearbeiten; dies · einsetzen; zweite Stufe; spülen; Teilstelle; dies · halten; Arbeitsgang; Gegen-/Empfangsgang; kurz; Schluss
+- **P915-C286** (lokal): danach mit dem Ansatz · ruhen lassen; fertig
+- **P915-C287** (zeilenübergreifend): Arbeitsgang; einsetzen; absetzen; dies · danach; halten; Teilstelle; dies · ansetzen; kurz; in diesem Teil fortsetzen · halten; Teilstelle; dies · prüfen; fortsetzen; Teilstelle; dies · die Entnahmestelle prüfen · absetzen; Sollmaß · Arbeitsgang; Durchlass; kurz; dies · die Portion prüfen · umsetzen · ruhen lassen; fertig
+- **P915-C288** (lokal): q-Träger; kurz; bearbeiten; Zielstelle · Zielstelle · ruhen lassen; fertig
+- **P915-C289** (lokal): dies kurz halten · abführen und umsetzen; fertig
+- **P915-C290** (lokal): Sammelstelle; länger; Teilstelle; dies · danach länger; fertig
+- **P915-C291** (lokal): dies länger ansetzen · kurz ansetzen; fertig
+- **P915-C292** (lokal): fortsetzen · vollständig; bearbeiten; dies · kurz ansetzen; fertig
+- **P915-C293** (zeilenübergreifend): ansetzen; dies · das Sollmaß prüfen · Sammelstelle; länger; Teilstelle; dies · kurz ansetzen; fertig
+- **P915-C294** (lokal): danach kurz; fertig
+- **P915-C295** (lokal): fortsetzen · dies umsetzen · leiten; zuordnen; kurz; Schluss
+- **P915-C296** (lokal): ansetzen; dies umsetzen · kurz ansetzen; fertig
+- **P915-C297** (zeilenübergreifend): entnehmen; Durchlass; Teilstelle; dies · die Entnahmestelle prüfen · umsetzen; Lauf · danach; umsetzen; Schluss
+- **P915-C298** (lokal): länger ansetzen; fertig
+- **P915-C299** (lokal): umsetzen; Portion · dies umsetzen · danach; kurz; Sollmaß · danach; Sollmaß · danach kurz; fertig
+- **P915-C300** (lokal): leiten; Schluss
+- **P915-C301** (lokal): bearbeiten; dies umsetzen · danach kurz; fertig
+- **P915-C302** (lokal): an der Zielstelle ansetzen · ruhen lassen; fertig
+- **P915-C303** (lokal): kurz ansetzen; fertig
+- **P915-C304** (zeilenübergreifend): halten; kurz; Bereitschaft; kurz; Teilstelle; dies · halten; kurz; die Bereitschaft dieses Postens prüfen · danach mit dem Ansatz · dies umsetzen · prüfen; Arbeitsgang; i-Zeichen; Stufe · die Bereitschaft dieses Postens prüfen · bearbeiten; dies · danach; Sollmaß · fortsetzen; Zielstelle; dies · ruhen lassen; fertig
+- **P915-C305** (lokal): länger ansetzen; fertig
+- **P915-C306** (lokal): mit diesem fortsetzen · dies länger ansetzen · kurz ansetzen; fertig
+- **P915-C307** (zeilenübergreifend): dies umsetzen · danach; Zielstelle · danach diesen Posten · dies länger ansetzen · ansetzen; dies · bearbeiten; fortsetzen · ruhen lassen; fertig
+- **P915-C308** (lokal): ansetzen; dies; befestigen; Schluss
+- **P915-C309** (lokal): Portion · dies umsetzen · länger ansetzen; fertig
+- **P915-C310** (lokal): halten; Durchlass; kurz; Schluss
+- **P915-C311** (lokal): halten; Durchlass; kurz; Schluss
+- **P915-C312** (lokal): das Sollmaß prüfen · dies länger behandeln · dies länger halten · kurz ansetzen; fertig
+- **P915-C313** (lokal): ruhen lassen; fertig
+- **P915-C314** (lokal): fortsetzen; fertig
+- **P915-C315** (lokal): prüfen; Zielstelle; dies umsetzen · dies länger halten · q-Träger; Arbeitsgang; Schluss
+- **P915-C316** (lokal): zuordnen; kurz; s-Stelle; Teilstelle · fortsetzen; fertig
+- **P915-C317** (lokal): prüfen · länger ansetzen; fertig
+- **P915-C318** (lokal): länger ansetzen; fertig
+- **P915-C319** (zeilenübergreifend): ansetzen; dies · das Sollmaß prüfen · bearbeiten; kurz; dies umsetzen · danach; umsetzen; Schluss
+- **P915-C320** (lokal): länger ansetzen; fertig
+- **P915-C321** (lokal): leiten; Schluss
+- **P915-C322** (lokal): den Auszug weiterleiten · ansetzen; dies umsetzen · abführen und umsetzen; fertig
+- **P915-C323** (zeilenübergreifend): dies kurz ansetzen · dies · prüfen · Sollmaß · halten; länger; zuordnen; entnehmen; dies · dies kurz ansetzen · die Portion prüfen · halten; zuordnen; dies · abführen und umsetzen; fertig
+- **P915-C324** (zeilenübergreifend): in diesem Teil fortsetzen; absetzen · ansetzen; dies · das Sollmaß prüfen · dies kurz behandeln · ansetzen; länger; fortsetzen · eine Portion ansetzen · dies umsetzen · prüfen; Ansatz · Sollmaß · dies · dies kurz halten · kurz spülen; fertig
+- **P915-C325** (zeilenübergreifend): ansetzen; dies · fortsetzen · leiten; zuordnen; kurz; Schluss
+- **P915-C326** (lokal): abführen und umsetzen; fertig
+- **P915-C327** (lokal): den Gang beginnen und fortsetzen · ruhen lassen; fertig
+- **P915-C328** (lokal): Ansatz · dies · Arbeitsgang; Durchlass; kurz; dies · Lauf; dies; Schluss
+- **P915-C329** (zeilenübergreifend): eine Portion ansetzen · dies kurz halten · eine Portion zuordnen · entnehmen; Durchlass; Zielstelle · prüfen; fortsetzen; dies umsetzen · weiter umsetzen; fertig
+- **P915-C330** (zeilenübergreifend): umsetzen; Sollmaß · Sammelstelle; kurz; dies · abführen und umsetzen; fertig
+- **P915-C331** (zeilenübergreifend): Sammelstelle; Portion · Zielstelle · fortsetzen · fortsetzen · entnehmen; Bereitschaft; Teilstelle; dies · leiten · dies umsetzen · leiten; dies umsetzen · Sollmaß · halten; kurz; fortsetzen · dies umsetzen · danach; Zielstelle · die Entnahmestelle prüfen · zuordnen; Entnahmestelle · ruhen lassen; fertig
+- **P915-C332** (lokal): danach; umsetzen; Schluss
+- **P915-C333** (lokal): ansetzen und umsetzen; fertig
+- **P915-C334** (zeilenübergreifend): absetzen; Zielstelle · Zielstelle · den Auszug weiterleiten · leiten; fortsetzen · umsetzen; Zielstelle · Sollmaß · fortsetzen · zweite Stufe; Stufe · dies umsetzen
+- **P915-C335** (zeilenübergreifend): dies länger an der Sammelstelle halten · kurz; zuordnen; kurz; dies · Zustand; Zielstelle; dies · fortsetzen · prüfen; fortsetzen; behandeln; Zielstelle · den Auszug weiterleiten · danach; Entnahmestelle · fortsetzen · Sollmaß · fortsetzen · Portion · dies · leiten; Zielstelle; Ansatz · fortsetzen · Zustand; bearbeiten; Portion · Bereitschaft; Zielstelle
+
+## f67r2
+
+- **P915-C336** (zeilenübergreifend): Arbeitsgang; einsetzen; Arbeitsgang; in diesem Teil fortsetzen · prüfen · Portion · Zielstelle; Teilstelle; dies · prüfen; Arbeitsgang; länger; dies · Teilstelle; Arbeitsgang; Stufe · fortsetzen; fertig
+- **P915-C337** (zeilenübergreifend): Arbeitsgang; zweite Stufe; kurz; Stufe · ansetzen; Arbeitsgang; kurz; prüfen · Arbeitsgang; kurz; eine Portion zuordnen · dies · danach diesen Posten · prüfen; Ansatz; Sollmaß; Zustand · dies · dies in den Arbeitsgang einsetzen · Sollmaß · Zielstelle · dies; Teilstelle; entnehmen; Arbeitsgang; prüfen · Portion · Entnahmestelle · Innenstelle; dies · entnehmen; Arbeitsgang; pressen/trennen; dies · die Entnahmestelle prüfen; Zielstelle · die Portion prüfen · Innenstelle · Entnahmestelle
+- **P915-C338** (zeilenübergreifend): Arbeitsgang; einsetzen; Entnahmestelle; entnehmen; dies · prüfen; Zielstelle; die Portion prüfen · prüfen; Arbeitsgang; zweite Stufe; Zustand · Arbeitsgang; f-Zeichen; Entnahmestelle · Entnahmestelle · dies; zweite Stufe; Innenstelle · dies; bearbeiten; kurz; Arbeitsgang; Ansatz · dies; bearbeiten; Arbeitsgang · dies; zuordnen; Ansatz · ansetzen; kurz; Arbeitsgang · Zustand · Sollmaß · Innenstelle
+- **P915-C339** (lokal): dies; bearbeiten; Arbeitsgang; Schluss
+- **P915-C340** (zeilenübergreifend): das Sollmaß prüfen · Arbeitsgang; fortsetzen · fortsetzen; fortsetzen
+- **P915-C341** (zeilenübergreifend): Teilstelle; Arbeitsgang; die Entnahmestelle prüfen · Arbeitsgang; zweite Stufe; prüfen · Lauf · Zielstelle; Sollmaß · Teilstelle; ansetzen; Zusatz · Arbeitsgang; kurz; Entnahmestelle · Arbeitsgang; zweite Stufe; leiten
+- **P915-C342** (zeilenübergreifend): fortsetzen · g-Zeichen; Stufe · den Gang beginnen und fortsetzen · dies; bearbeiten; Ansatz · Sollmaß · Ansatz
+- **P915-C343** (zeilenübergreifend): danach; fortsetzen; Teilstelle; Arbeitsgang; prüfen · Arbeitsgang; Bereitschaft; fortsetzen; kurz · prüfen; Ansatz · umsetzen; Sollmaß · dies · dies; bearbeiten; kurz; Arbeitsgang; s-Stelle · Arbeitsgang; Stufe · Arbeitsgang; g-Zeichen · dies; bearbeiten; Arbeitsgang; kurz; Arbeitsgang; einsetzen; entnehmen; kurz; dies · behandeln; Arbeitsgang; Teilstelle; dies · prüfen; Arbeitsgang; halten; Arbeitsgang · entnehmen; Arbeitsgang; prüfen · Arbeitsgang; dies durch den Durchlass · Sollmaß · Sollmaß · dazu · q-Träger; prüfen; g-Zeichen · Arbeitsgang; f-Zeichen; dies; Schluss
+- **P915-C344** (zeilenübergreifend): halten; kurz; Arbeitsgang; Teilstelle; dies · Sollmaß · dies; Auszug; Teilstelle; dies · kurz; prüfen · Arbeitsgang; zweite Stufe; i-Zeichen; Stufe · dies; kurz; zuordnen; länger; prüfen · Ansatz; Zielstelle; dies
+- **P915-C345** (zeilenübergreifend): bearbeiten; Arbeitsgang; Sollmaß · Portion · dies · dazu · entnehmen; Arbeitsgang; kurz; Zustand · Sollmaß · entnehmen; Arbeitsgang; länger; Adresse · prüfen; Zielstelle · zweite Stufe; Teilstelle; Sollmaß
+- **P915-C346** (zeilenübergreifend): aus diesem Teil entnehmen · Zielstelle; Teilstelle; Sollmaß · dies; Teilstelle; Sollmaß · q-Träger; zuordnen; Arbeitsgang; dies · dies; Teilstelle; Sollmaß · q-Träger; Arbeitsgang; f-Zeichen; Lauf · dies; einsetzen; Lauf · dies; zuordnen; Arbeitsgang; Sollmaß · dies; in diesem Teil fortsetzen; dies · dies; bearbeiten; Zielstelle; entnehmen; Arbeitsgang; prüfen · mit diesem fortsetzen · dies kurz ansetzen · prüfen; dies kurz halten · dies · halten; länger; prüfen · q-Träger; kurz; dies; zuordnen; länger; dies · dies; zuordnen; entnehmen; kurz; dies · dies; zuordnen; entnehmen; kurz; dies · ansetzen; kurz; Arbeitsgang; entnehmen; dies · Arbeitsgang; Sollmaß · den Gang beginnen und fortsetzen · Entnahmestelle · fortsetzen; Entnahmestelle · dies; dies kurz halten · ansetzen; länger; Arbeitsgang; Teilstelle; dies · Auszug; prüfen · Arbeitsgang; länger; Arbeitsgang; prüfen · q-Träger; Arbeitsgang; dies durch den Durchlass · entnehmen; Arbeitsgang; prüfen · Sollmaß · ansetzen; länger; Arbeitsgang; Teilstelle; dies · ansetzen; Arbeitsgang; Sollmaß · Arbeitsgang; Teilstelle; Portion · Entnahmestelle · Lauf · Adresse; dies
+
+## f68r1
+
+- **P915-C347** (zeilenübergreifend): halten; ansetzen; entnehmen; dies · entnehmen; bearbeiten; länger; dies · entnehmen; danach; länger; dies · Gegen-/Empfangsgang; fortsetzen · Auszug; Zustand · Arbeitsgang; einsetzen; entnehmen; länger; fortsetzen · danach mit dem Ansatz · entnehmen; Arbeitsgang; Bereitschaft; vollständig; dies · ansetzen; entnehmen; Arbeitsgang; Zielstelle · bearbeiten; Arbeitsgang; entnehmen; prüfen; Arbeitsgang · danach; entnehmen; leiten · ansetzen; vollständig; Schluss
+- **P915-C348** (lokal): dies länger halten · entnehmen; länger; bearbeiten; länger; dies · dies; bearbeiten; kurz; Arbeitsgang; Schluss
+- **P915-C349** (zeilenübergreifend): entnehmen; einsetzen; Ansatz · Auszug; zuordnen; Ansatz; entnehmen; kurz; dies · entnehmen; Arbeitsgang; Teilstelle · dies; zuordnen; Ansatz · dies kurz halten · q-Träger; Arbeitsgang; entnehmen; länger; dies · an der Zielstelle ansetzen · dies länger ansetzen · Zustand; Ansatz · kurz; Durchlass; kurz; Entnahmestelle · zweite Stufe; Zustand; Adresse; Innenstelle · Teilstelle; vom Ansatz entnehmen · ansetzen; Adresse; i-Zeichen; Stufe · dies; zuordnen; dies · zweite Stufe; Zustand; dies · behandeln; entnehmen; dies; zuordnen; mit diesem fortsetzen
+
+## f88r
+
+- **P915-C350** (zeilenübergreifend): Teilstelle; Ansatz; halten; kurz; Arbeitsgang; dies · Bereitschaft; kurz; fortsetzen · Arbeitsgang; Durchlass; kurz; dies · Teilstelle; Ansatz; dies · halten; kurz; Ansatz · halten; fortsetzen; f-Zeichen; vom Ansatz entnehmen · Zielstelle · entnehmen; Bereitschaft; fortsetzen · Zustand; Zielstelle · halten; kurz; Arbeitsgang; Innenstelle · zuordnen; kurz; fortsetzen · entnehmen; kurz; Entnahmestelle · halten; kurz; zuordnen; Ansatz · ansetzen; Ansatz · Sollmaß · die Entnahmestelle prüfen · prüfen · Sollmaß · ansetzen; dies · prüfen; Innenstelle · Arbeitsgang; Portion · Ansatz · Arbeitsgang; Innenstelle · danach; Innenstelle · ansetzen; kurz; Arbeitsgang; Innenstelle · entnehmen; länger; Ansatz · ansetzen; kurz; Arbeitsgang; Teilstelle; dies · aus diesem Teil entnehmen · Ansatz · Arbeitsgang; Innenstelle · Auszug; dies · ansetzen; kurz; fortsetzen · den Auszug weiterleiten · das Sollmaß prüfen · Auszug; prüfen · den Auszug weiterleiten · in diesem Teil fortsetzen; vollständig; dies · Ansatz · Auszug; Innenstelle · Auszug; j-Zeichen; Adresse; Innenstelle · dies; ansetzen; kurz; Arbeitsgang; Teilstelle; dies · Auszug; Innenstelle · q-Träger; Arbeitsgang; Ansatz · entnehmen; länger; b-Zeichen · dies; zuordnen; kurz; Ansatz · dies · prüfen; Innenstelle
+- **P915-C351** (lokal): zuordnen; Arbeitsgang; Adresse; dies · Gegen-/Empfangsgang; fortsetzen · Ansatz; vom Ansatz entnehmen · einsetzen; den Auszug weiterleiten; dies · danach; entnehmen; fortsetzen · fortsetzen; fertig
+- **P915-C352** (zeilenübergreifend): prüfen; Zielstelle; prüfen; Zielstelle; dies · entnehmen; kurz; dies · den Gang beginnen und fortsetzen · Sollmaß · q-Träger; Arbeitsgang; kurz; zuordnen; fortsetzen · q-Träger; Arbeitsgang; kurz; zuordnen; fortsetzen · q-Träger; Arbeitsgang; Durchlass; fortsetzen · den Gang beginnen und fortsetzen · den Auszug weiterleiten · halten; kurz; fortsetzen · dies länger ansetzen · prüfen · dies · prüfen · Sollmaß · vom Ansatz entnehmen · danach; kurz; Ansatz · Sollmaß · entnehmen; Arbeitsgang; prüfen; Zielstelle; prüfen · kurz; fortsetzen · vom Ansatz entnehmen · Arbeitsgang; spülen; kurz; Arbeitsgang; Teilstelle; dies · ansetzen; kurz; fortsetzen · halten; Arbeitsgang; dies · fortsetzen · halten; länger; fortsetzen · halten; kurz; fortsetzen; Teilstelle; g-Zeichen · dies; dies · nach Sollmaß ansetzen · fortsetzen · Auszug; Zustand · fortsetzen · vom Ansatz entnehmen; fortsetzen; prüfen; Zielstelle
+- **P915-C353** (lokal): einsetzen; Arbeitsgang; länger; Entnahmestelle · halten; kurz; ansetzen; dies · dies länger an der Sammelstelle halten · Bereitschaft; fortsetzen · einsetzen; fortsetzen; Teilstelle; dies · prüfen · den Gang beginnen und fortsetzen; Schluss
+- **P915-C354** (zeilenübergreifend): den Gang beginnen und fortsetzen · fortsetzen · den Gang beginnen und fortsetzen · den Gang beginnen und fortsetzen · fortsetzen · dies länger halten · Ansatz · Sollmaß · fortsetzen; zweite Stufe; leiten · dies; zuordnen; Entnahmestelle · den Auszug weiterleiten · fortsetzen · dies · Durchlass; kurz; dies · prüfen · Ansatz · halten; kurz; Entnahmestelle · Entnahmestelle · Zielstelle; prüfen; dies · zuordnen; Ansatz · dies · den Gang beginnen und fortsetzen · den Auszug weiterleiten · entnehmen; Arbeitsgang; Teilstelle; dies · den Gang beginnen und fortsetzen · zuordnen; vom Ansatz entnehmen · fortsetzen · Zielstelle · dies; zuordnen; vollständig; dies · Auszug; Zustand · Auszug; bearbeiten; kurz; dies · den Auszug weiterleiten · ansetzen; kurz; Ansatz · entnehmen; kurz; bearbeiten; entnehmen; dies · Arbeitsgang; f-Zeichen; Zielstelle · aus diesem Teil entnehmen · entnehmen; kurz; Entnahmestelle · fortsetzen · in diesem Teil fortsetzen · q-Träger; Arbeitsgang; kurz; zuordnen; kurz; Ansatz · Auszug; Innenstelle

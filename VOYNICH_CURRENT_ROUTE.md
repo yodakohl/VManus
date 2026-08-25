@@ -2,11 +2,11 @@
 
 Updated: 2026-08-25. Use `experiments/EXPERIMENT_INDEX.tsv` for primary reports; consult the active state and ledger only for claim-detail audits or historical reconstruction.
 Noncanonical fourteen-page sidequest: `experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_CURRENT.md`.
-Its current creative working layer is Pass 913: 15 portable cores plus the
-register root `CPH`, 63 former workshop whole-card events rebuilt as
-compositions, and an eight-slot owner/address syntax over 198 image labels.
-The concrete label name/class remains image- or exemplar-owned; component
-segmentation is not itself a decoded proper name.
+Its current creative working layer is Pass 924: 2,511 groups/1,384 cards/464
+loci, 56 components, 17 prose verbs, 44 phrases, 1,435 work instructions and a
+separate owner/address reading for 501 image/diagram groups. It mixes productive
+technical abbreviations, learned phrases, positional `q` entry allographs and
+locally copied names/classes; segmentation does not decode the local name.
 
 ## Scientific ceiling
 
@@ -283,22 +283,17 @@ ledger. Use those files for a proposed-route duplicate audit, not on every turn.
 
 ## Next useful route
 
-No experiment follows automatically. The free latent-tuple route is closed;
-the separately calibrated backward-edge route still requires explicit authority.
-
-GDT386–393 supply zero score-ready connector edges. Do not substitute
-proximity, radial order, OPEN/BODY, or cross-page similarity.
+No experiment follows automatically. The free latent-tuple route is closed and
+the calibrated backward-edge route still requires explicit authority. GDT386–393
+supply zero score-ready edges; do not substitute proximity or radial order.
 
 ## Primary routing references
 
 - `experiments/semantic_assumptions/grammar/CONFIRMED_GRAMMAR.md`
 - `GDT327_JOINT_TUPLE_INTERLINEAR_REPORT.md`
-- `experiments/yolo/gdt386_independent_relation_edge_capacity/REPORT.md`
-- `experiments/yolo/gdt387_cross_domain_parent_link_calibration/REPORT.md`
-- `experiments/yolo/gdt388_acquisition_ready_relation_edge_protocol/REPORT.md`
-- `experiments/yolo/gdt389_connector_edge_census/REPORT.md`
+- GDT386–389 reports: `experiments/yolo/gdt386_independent_relation_edge_capacity/REPORT.md`, `experiments/yolo/gdt387_cross_domain_parent_link_calibration/REPORT.md`, `experiments/yolo/gdt388_acquisition_ready_relation_edge_protocol/REPORT.md`, `experiments/yolo/gdt389_connector_edge_census/REPORT.md`
 - `experiments/yolo/gdt395_adversarial_synthetic_identifiability_benchmark/GDT395_ADVERSARIAL_SYNTHETIC_IDENTIFIABILITY_REPORT.md`
 - GDT390–392 reports: `experiments/yolo/gdt390_q20_inter_record_pointer_census/REPORT.md`, `experiments/yolo/gdt391_local_object_relation_normalization/REPORT.md`, `experiments/yolo/gdt392_special_circle_start_direction_census/REPORT.md`
 - `GDT330_F84R_METADATA_ACCESS_CORRECTION.md`
 
-Use `experiments/EXPERIMENT_INDEX.tsv` for exact paths, dependencies, runners, validators, and compact artifacts.
+Use `experiments/EXPERIMENT_INDEX.tsv` for paths, dependencies and validators.
