@@ -11349,6 +11349,18 @@ Next, replace the tables with a period-plausible teaching object: twelve
 two-sided sample cards, one short margin rule and a page exemplar. Run a full
 f56r and f82r apprentice production trace from that kit.
 
+Pass 781 turns the renderer into a plausible small-workshop kit: twelve
+two-sided Musterkarten, a six-rule margin strip and the page exemplar. A Hand-2
+apprentice copies all27 f56r events/6 statements using6 turned common cards and
+21 local model copies;2 surfaces change. A Hand-1 apprentice copies all62 f82r
+events/22 statements using10 common turns and52 local copies;7 surfaces change.
+Both retain every card, recipe and spoken workshop prompt. See
+`sidequest_semantic_period_teaching_kit_seven_hundred_eighty_first/SEVEN_HUNDRED_EIGHTY_FIRST_TEACHING_BOOKLET.md`.
+
+Next, model the natural apprentice mistake of treating a shared component
+recipe as permission to substitute any card from that recipe. Inventory the
+false substitutions and add the smallest possible warning to the margin strip.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
