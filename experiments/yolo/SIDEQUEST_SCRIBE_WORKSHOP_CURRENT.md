@@ -11225,10 +11225,17 @@ The common grammar stays unchanged. See
 `sidequest_semantic_revised_role_manual_seven_hundred_sixty_ninth/SEVEN_HUNDRED_SIXTY_NINTH_REPORT.md`
 and `SEVEN_HUNDRED_SIXTY_NINTH_REVISED_POCKET_MANUAL.md`.
 
-Next, optimize the17-card common recognition deck as a practical teaching set.
-Compare nested cores of5,8,12 and17 cards by event coverage, cross-register
-presence, component diversity and copy-drill burden. Choose the smallest core
-that does not make both specialists repeatedly consult their local decks.
+Pass 770 optimizes the17-card shared recognition deck. Nested cores of5,8,12
+and17 cover78,104,126 and136 events. The12-card core retains92.6% of common-
+deck use and11 components while shrinking the active board29%. The remaining5
+cards form a shared reference strip with only5 Herbal and5 Bio uses (5.0% and
+1.8% of their respective events); no card or reading is discarded. See
+`sidequest_semantic_common_deck_optimization_seven_hundred_seventieth/SEVEN_HUNDRED_SEVENTIETH_REPORT.md`.
+
+Next, revise the curriculum around the12-card active board plus5-card reference
+strip. Recalculate drill hours and run every role exam with an explicit
+memory-versus-lookup trace, so rare reference cards never masquerade as active
+productive knowledge.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
