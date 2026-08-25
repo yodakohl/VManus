@@ -12480,6 +12480,19 @@ Next, publish a revised complete P4→B2→C4 sample in which every visible mark
 a default meaning, every missing value is expressed as an explicit calibration,
 and no opaque placeholder survives in the readable workshop instruction.
 
+Pass 874 corrects Pass 869's sample scope. P4 is now exact internal product
+`D.P1`, which closes after H5-S002; the remaining14 f56r events create D.I2,
+D.A1, D.P2 and D.P3 and do not belong in this order. The corrected complete
+sample has76 marks:13 MAKE D.P1 +62 APPLY B2 +1 CONDITION C4@f69v.12. Every
+mark has one concrete default, all five payload slots are filled, and six
+explicit workshop conventions calibrate house measure, portion, short/long/full
+grade and result criterion. Pass 869's90-mark count is superseded. See
+`sidequest_semantic_fully_readable_corrected_sample_eight_hundred_seventy_fourth/EIGHT_HUNDRED_SEVENTY_FOURTH_COMPLETE_READABLE_ORDER.md`.
+
+Next, test the corrected system by composing a second complete order from a
+different Herbal product, Biological record and Astro shelf, reusing the same
+six calibrations without changing the dictionary.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
