@@ -12103,6 +12103,16 @@ cards cumulatively cover186/381 events (48.8%). See
 Next, test frequency ranks21–30 and mark the first point where a learned
 whole-card reading is genuinely needed beside the productive components.
 
+Pass 842 finds ranks21–30 fully compositional:10 cards/31 events/29 statements,
+with no page-specific value. The top30 cards cumulatively cover217/381 events
+(57.0%). Ranks31–34 also remain compositional; the first learned whole card in
+the deterministic frequency/surface ordering is rank35,
+`dchol/schol=RESUME_CARD=DAVON`, with two occurrences. See
+`sidequest_semantic_third_frequency_tier_eight_hundred_forty_second/EIGHT_HUNDRED_FORTY_SECOND_REPORT.md`.
+
+Next, read ranks31–40 as the first mixed tier and verify that DAVON performs the
+same anaphoric resumption in both its Herbal and Biological occurrences.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
