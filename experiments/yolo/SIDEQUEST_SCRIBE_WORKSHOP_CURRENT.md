@@ -12351,6 +12351,21 @@ recipe or four unrelated languages. See
 Next, build an equally concrete three-page Biological process atlas and test
 whether its short closed cells look like applications of Herbal products.
 
+Pass 865 combines the three Biological pages into281 cards,97 statements, six
+records,16 local image owners and644 semantic atoms. Eighty-five statements
+close and12 remain open, versus only4/19 closes in Herbal. Seventeen exact
+cards cross from Herbal into Biological and cover92 Biological events; their
+current values include source, target, measure, batch, item, set, prepare,
+transfer, hold and continue. The strongest workshop reading is therefore long
+Herbal preparation articles followed by short picture-owned application cells.
+No direct Herbal-product reference is visible, so the bridge is a shared
+process vocabulary, not an identified product key. See
+`sidequest_semantic_three_biological_process_atlas_eight_hundred_sixty_fifth/EIGHT_HUNDRED_SIXTY_FIFTH_THREE_BIOLOGICAL_ATLAS.md`.
+
+Next, pair the four Herbal process types with the six Biological application
+records by shared operations and required inputs, without pretending to know an
+exact product name or direct page reference.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
