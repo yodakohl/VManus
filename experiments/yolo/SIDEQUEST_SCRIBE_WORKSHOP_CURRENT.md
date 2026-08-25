@@ -12868,6 +12868,21 @@ cheey/sheey as default vs marked long hold. Keep iokeeor/daiial as the two local
 whole condition words if no smaller reading helps. Use these intended subroles
 as the forward renderer choice.
 
+Pass 903 replaces identity/mini-deck selection in six families and73 marks with
+13 functional allographs plus two local whole words. Examples: ol=general,
+chol=attached/ring and ls=transfer continuation; y=bare,dy=echoed,chey=material/
+quality and chy=state/body referent; schedy=default and dchdy=direct-target close.
+iokeeor and daiial remain WEATHER-CLASS and MOISTURE-STAGE whole words. Ten
+context families/70 marks remain, with zero identity or unit selectors. See
+`sidequest_semantic_functional_allograph_microlexicon_nine_hundred_third/NINE_HUNDRED_THIRD_FUNCTIONAL_ALLOGRAPH_MANUAL.md`.
+
+Next, convert the remaining ten context families into intentional renderer
+subroles too: bare vs operational AIIN/AR; default, marked-station and condition
+CHD+Y; material vs apparatus CHK+EE+Y; standalone vs chain-final OK+CHD+DY;
+production vs application OK+OL; default/article-initial/condition OK+Y; and the
+corresponding OL+Y,OT+CHD+DY,OT+Y register functions. The goal is zero selectors
+that merely memorize order,page,stage or position.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
