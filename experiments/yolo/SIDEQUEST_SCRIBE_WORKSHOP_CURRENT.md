@@ -1,11 +1,11 @@
 # Current fourteen-page scribe-workshop theory
 
-Updated: 2026-08-25, after Pass 999.
+Updated: 2026-08-25, after Pass 1002.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
-translation**. This is the compact handoff for the sidequest. Pass 999 binds
-the Pass-996 full edition to the mandatory Pass-997 grid correction and the
-Pass-998 formula-card correction.
+translation**. This is the compact handoff for the sidequest. Pass 1002 binds
+the complete fourteen-page edition to the corrected embedded-pair grammar and
+the root/context separation for every card and clause.
 
 ## Fixed scope
 
@@ -23,27 +23,25 @@ celestial ring positions. `f84` and `f84r` remain sealed.
 ## Best current mechanism
 
 The writing system is reconstructed as a mixed ca. 1420 workshop codebook. A
-scribe learns productive abbreviations for common operations, memorized whole
-cards for specialist operations, and local names copied from a page exemplar.
-The longest learned card wins; otherwise short roots are read from left to
-right. Context selects the expansion, but does not silently change the root.
+scribe learns productive abbreviations for common operations, memorizes common
+whole spellings, and copies local names from a page exemplar. Whole spellings
+do not automatically carry extra meanings: their portable reading is still the
+sum of their roots. Context then supplies the pictured substance, vessel,
+station, or celestial position.
 
-The apprentice inventory has 159 taught units:
+The apprentice inventory has 175 unambiguous codebook lines:
 
-- 53 portable semantic roots;
-- 3 local diagram signs;
-- 30 frequent formula cards;
-- 51 older specialist whole-card entries;
-- 5 image-part cards local to the f13r plant article;
+- 53 portable semantic roots represented in 56 root/local-sign entries;
+- 30 frequent formula ligatures with exact root-sum meanings;
+- 72 longer contextual compositions, also root-readable;
 - 16 local ingredient labels in the three f88r batches;
 - 1 rule for copying a complete local image or ring address.
 
 The 2,511 events route as follows:
 
-- 1,315 productive root compositions;
+- 1,319 productive root compositions;
 - 595 common formula-card events;
-- 95 specialist whole-card events;
-- 5 f13r image-part cards;
+- 96 long contextual-composition events;
 - 485 other local image, station, and ring addresses;
 - 16 f88r ingredient labels.
 
@@ -54,7 +52,9 @@ apprentice drawer. They cover 287 events; 63 recur across multiple pages and
 
 The 30 formula cards are graphically learned ligatures, not extra semantic
 words: all 30 have exactly the meaning obtained by composing their roots. The
-actual learned semantic exceptions reside in specialist and image-owned cards.
+former 56 specialist-headword groups split into 72 distinct spellings, and all
+72 likewise have complete root recipes. Their concrete nouns and procedures
+are local image-/exemplar expansions, not additional portable words.
 
 The address rule is essential. A spelling inside a zodiac or star label is
 first the local name of that figure or position. It may remind the scribe of a
@@ -85,7 +85,7 @@ These are workshop meanings, not proposed sounds. A short root may expand to a
 natural phrase in a sentence, but no individual card receives a sentence-sized
 dictionary gloss.
 
-## Useful learned cards
+## Useful rooted cards
 
 The current deck includes the following stable working readings:
 
@@ -99,9 +99,9 @@ The current deck includes the following stable working readings:
 - `qokain/okain/chokain` → **EINE PORTION ANSETZEN**;
 - `qokaiin/okaiin` → **NACH MASS ANSETZEN**;
 - `lchedy` → **WEITER UMSETZEN; SCHLUSS**;
-- `cfhy` → **AUSWRINGEN**;
-- `cphy` → **NACHSEIHEN**;
-- `shey/cheey` → **KLARLAUF**;
+- `cfhy` → **TRENNEN · POSTEN**; local in f11r: auswringen;
+- `cphy` → **UMLEITEN · POSTEN**; local in f11r: nachseihen;
+- `shey/cheey` → **HALTEN · KURZ/LÄNGER · POSTEN**; local in some wet scenes: Klarlauf;
 - `qokylddy` → **DIESEN POSTEN ANLEGEN UND BEFESTIGEN; SCHLUSS**.
 
 `E/EE/EEE` form a duration or intensity grade only in licensed families.
@@ -128,15 +128,24 @@ The creative working title remains **Arbeitsbuch der einfachen Stoffe,
 Zubereitungen, Bäder und Himmelszeiten** — *Liber simplicium, compositionum,
 balneorum et temporum caelestium*.
 
-## Strongest continuous excerpt
+## Strongest dual-layer excerpt
 
 `tshol schoal cfhy shfydaiin cphy shey tchody`
 
-> Vom Blütenkraut einen Sudansatz bilden, auswringen, die vorgeschriebene
-> Stehzeit abwarten, nachseihen, den Klarlauf abnehmen und kalt stellen;
-> den Teilgang schließen.
+Portable sequence:
 
-Here `shey` means only **KLARLAUF**. The surrounding cards supply the actions.
+> STELLEN · HALTEN · FORTSETZEN | HALTEN · AUSFÜHREN · ZIEL | TRENNEN · POSTEN |
+> HALTEN · POSTEN · MASS | UMLEITEN · POSTEN | HALTEN · KURZ · POSTEN |
+> STELLEN · NEHMEN · AUSFÜHREN · SCHLUSS
+
+Local f11r expansion:
+
+> Vom gezeigten Blütenkraut einen Ansatz bilden, auswringen, nach dem
+> vorgegebenen Maß stehen lassen, nachseihen, den erhaltenen Lauf kurz halten
+> und den Teilgang schließen.
+
+The pictured owner supplies Kraut, Auszug, and local equipment; none is hidden
+as a second portable meaning inside `shey`, `cfhy`, or `cphy`.
 
 ## Image findings retained
 
@@ -163,10 +172,15 @@ comparison set.
 
 ## Primary artifacts
 
-- Current bound theory, manifest, and one-page manual:
-  `sidequest_semantic_bound_composite_release_nine_hundred_ninety_ninth/`;
-- corrected 159-unit codebook:
-  `sidequest_semantic_formula_ligature_reconciliation_nine_hundred_ninety_eighth/PASS998_159_RECONCILED_CODEBOOK.tsv`;
+- Current dual-layer theory, manifest, codebook, interlinear, and manual:
+  `sidequest_semantic_dual_layer_release_one_thousand_second/`;
+- 175-line current codebook: `PASS1002_175_CURRENT_CODEBOOK.tsv`;
+- 2,511-event dual interlinear: `PASS1002_2511_DUAL_EVENT_INTERLINEAR.tsv`;
+- 354 root-default/local-expansion clauses: `PASS1002_354_DUAL_CLAUSE_EDITION.tsv`;
+- embedded-pair grammar and seven real gaps:
+  `sidequest_semantic_embedded_pair_grammar_one_thousandth/`;
+- 72 contextual compositions and 13 split old headwords:
+  `sidequest_semantic_contextual_composition_reconciliation_one_thousand_first/`;
 - full data base directory:
   `sidequest_semantic_canonical_scribe_workshop_sixth_edition_nine_hundred_ninety_sixth/`;
 - full 2,511-event interlinear: `PASS996_2511_EVENT_INTERLINEAR.tsv`;
@@ -185,8 +199,8 @@ comparison set.
 
 ## Next work
 
-Do not add pages yet. Work through the 25 truly unused cells: 22 have a free
-naive surface, while `S+Y`, `CH+Y`, and `CH+AR` require an alternative spelling
-because their shortest forms are occupied. Prefer a concrete renderer repair
-over adding a root. Preserve the sixteen f88r labels as local whole cards until
-a visible shape supports a narrower ingredient class.
+Do not add pages yet. Work through the seven genuinely absent pairs. Test
+`chain = eine Portion nehmen` first; it is the only high-priority free short
+surface. Treat `pain/paiin` as medium-priority predictions and the other four
+as likely role restrictions or redundancy. Preserve the sixteen f88r labels as
+local whole cards until a visible shape supports a narrower ingredient class.

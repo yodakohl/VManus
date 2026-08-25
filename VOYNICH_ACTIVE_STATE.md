@@ -6,17 +6,20 @@ Updated: 2026-08-25. This is the full claim registry. For routine work, read
 
 ## Outcome
 
-### Noncanonical fourteen-page sidequest (Pass 999)
+### Noncanonical fourteen-page sidequest (Pass 1002)
 
 The creative workshop sidequest covers fourteen fixed physical pages with
 2,511 visible groups: 2,010 running-text groups in 354 naturally phrased
-clauses plus 501 local image, station, and ring addresses. Its current mixed
-codebook has 159 taught units: 53 portable semantic roots, three local diagram
-signs, 30 frequent formula cards, 51 specialist whole-card entries, five f13r
-image-part cards, sixteen f88r ingredient labels, and one rule for copying a
-complete local address. The root dictionary and codebook now use exactly the
-same atomic values; the register-portable address root is `SONDERORT`, expanded
-locally as Sonderstelle or Sternstelle. All 1,280 Biological running-text
+clauses plus 501 local image, station, and ring addresses/labels. Its current
+mixed codebook has 175 lines: 53 portable roots represented in 56 root/local-
+sign entries, 30 frequent formula ligatures, 72 long contextual compositions,
+sixteen f88r ingredient labels, and one rule for copying a complete local
+address. Formula ligatures and contextual compositions are read from their
+roots; the image/master exemplar supplies their concrete local expansion.
+No former specialist card requires an extra portable word meaning. The root
+dictionary and codebook use exactly the same atomic values; the register-
+portable address root is `SONDERORT`, expanded locally as Sonderstelle or
+Sternstelle. All 1,280 Biological running-text
 groups have been rewritten into 318 local station clauses without inventing a
 global hydraulic network. Direct image work reads f88r as sixteen ingredient
 labels in rows of six, six, and four under three silent vessel owners; no plant
@@ -29,13 +32,17 @@ stations, and separate celestial lookup tables: *Liber simplicium,
 compositionum, balneorum et temporum caelestium*. These readings remain
 speculative and license no scientific lexeme or plaintext claim.
 
-Pass 997 corrects the composition grid: 24 cells are productive, 12 are
-learned formula ligatures, one is specialist-only, two are address-only, and
-25 are unused. `S+Y`, `CH+Y`, and `CH+AR` cannot use their naive surfaces
-because `sy`, `chy`, and `char` are already assigned. Pass 998 then reconciles
-four stale formula heads and shows that all 30 formula cards have exactly their
-root-composed meanings across 595 events. Pass 999 binds the Pass-996 base and
-both corrections in one current release manifest.
+Pass 997 corrects the exact two-card grid, and Pass 1000 then finds that 18 of
+its 25 empty cells already occur inside longer cards: twelve directly and six
+with an intervening root. The three colliding pairs `S+Y`, `CH+Y`, and `CH+AR`
+are all realized in expanded cards; only their naive short surfaces are
+blocked. Seven root pairs remain genuinely unused, led by the concrete
+prediction `chain = eine Portion nehmen`. Pass 998 reconciles four stale
+formula heads and shows that all 30 formula cards have exactly their root sums
+across 595 events. Pass 1001 splits 56 old specialist-headword groups into 72
+surface-specific rooted compositions, and Pass 1002 propagates the separation
+between portable root default and local contextual expansion through all 2,511
+events and 354 clauses.
 
 - The manuscript is **not translated**. There are zero confirmed English
   lexemes, zero plaintext clauses, and no established language, phonetic
