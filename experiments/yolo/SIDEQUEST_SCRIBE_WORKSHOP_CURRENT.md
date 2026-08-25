@@ -11805,6 +11805,19 @@ Next, resolve the twice-used exact card `dchol/schol` with one invariant value:
 compare WIEDERAUFNEHMEN, DAVON, GLEICHER_ANSATZ and a paragraph/topic marker in
 both complete contexts.
 
+Pass 817 revises the twice-used whole card `dchol/schol` from the meta-command
+WIEDERAUFNEHMEN to the shorter anaphor `DAVON`. Both occurrences begin a clause
+under an already active pictured plant owner: f11r continues with the current
+post and prescribed measure, while f56r continues with an ingredient and
+application sequence. DAVON resolves locally to the pictured plant or its
+active material without inventing a previous operation or repeating the whole
+owner noun. The exact card remains indivisible. See
+`sidequest_semantic_resume_davon_eight_hundred_seventeenth/EIGHT_HUNDRED_SEVENTEENTH_REPORT.md`.
+
+Next, resolve the final singleton whole card `talam` in its complete context.
+Compare AUFBEWAHREN, BEISEITESTELLEN, IN DAS GEFAESS, RUHEN LASSEN and a copied
+source label, then publish the sixth compact grammar.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
