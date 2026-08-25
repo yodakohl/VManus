@@ -11956,6 +11956,17 @@ Next, mine recurrent fluent words that lack a literal component source.
 Repeated hidden content may expose a missing/incorrect component value; one-off
 German glue can remain editorial.
 
+Pass 830 finds one dominant hidden content word: POSTEN occurs65 times in59
+statements across all11 records; all59 contain Y, and no statement without Y
+uses POSTEN. Only one of60 Y-bearing statements lacks the noun, using ANSATZ in
+the same current-item slot. Other recurrent hidden words are transparent
+expansions of DY/O/L/owner syntax. This nominates the simplification
+`Y: DIES -> POSTEN`. See
+`sidequest_semantic_hidden_word_audit_eight_hundred_thirtieth/EIGHT_HUNDRED_THIRTIETH_REPORT.md`.
+
+Next, apply Y=POSTEN across all61 cards/125 events, revise the sole remaining
+ANSATZ sentence, and recompute the compact prediction deck.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
