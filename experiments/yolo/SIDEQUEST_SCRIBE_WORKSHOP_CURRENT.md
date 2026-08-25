@@ -11401,6 +11401,20 @@ Next, inspect all CHED/CHD occurrences with their hand, page, statement role,
 open/closed endpoint and position. Try to derive the long-versus-short selection
 rule rather than merely predicting that both forms may exist.
 
+Pass 785 audits48 CHD-recipe events/22 cards, all belonging to Hand 2 in this
+slice:38 long CHED,9 short CHD,1 complex interleaving. Endpoint, line and field
+position do not select the form. The exact teaching rule is nevertheless small:
+long CHED is default; PROC042 uses `che→chedy` versus `ch→chdy`; six exact cards
+form a short strip (`sshkchdy,qokchdy,dchdy,dalchdy,otchdy,chdal`); one complex
+`shecthedchy` model is copied whole. This reproduces48/48 versus38 for always-
+long and40 for wrapper alone. No speed/duration meaning is assigned to the
+contraction. See
+`sidequest_semantic_chd_variant_selection_seven_hundred_eighty_fifth/SEVEN_HUNDRED_EIGHTY_FIFTH_REPORT.md`.
+
+Next, map every Y/CHY ending into two bins: licensed referent allography versus
+semantic CH+Y composition. Build the shortest rule that never collapses
+`ly/lchy` or another semantic pair.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
