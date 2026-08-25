@@ -11279,6 +11279,20 @@ seven prose pages. A hand spanning both registers should be treated as a
 dual-trained worker, not forced into a false specialist split; page-local hands
 should reveal whether the two-box architecture is genuinely economical.
 
+Pass 776 performs that guarded hand comparison. Hand 1 writes f10r, f11r and
+f56r (all Herbal-A):82 events/15 statements. Hand 2 writes f55v plus f81v,
+f82r and f83r (Herbal-B plus all Bio):299 events/101 statements. Only12 exact
+card types occur in both hands, although the compositional wall remains shared.
+The rare inventory follows hands without a crossing: Hand 1 needs OS+CFH
+(35/39 components total); Hand 2 needs TALAM+LD+DA+LSH (37/39). Thus the live
+model is asymmetric: one Herbal specialist and one Bio-primary scribe with a
+small Herbal crossover, under a master who knows all39 values. See
+`sidequest_semantic_actual_hand_specialization_seven_hundred_seventy_sixth/SEVEN_HUNDRED_SEVENTY_SIXTH_REPORT.md`.
+
+Next, compare the seven pages by their card and component inventories. The
+useful question is whether f55v's vocabulary really resembles Hand 2's Bio
+work, or whether handwriting and subject vocabulary are two independent layers.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
