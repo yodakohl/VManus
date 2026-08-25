@@ -11046,10 +11046,18 @@ statement and none harms an earlier exact result. Meanings and deck stay fixed.
 See
 `sidequest_semantic_context_bound_formula_completion_seven_hundred_forty_eighth/SEVEN_HUNDRED_FORTY_EIGHTH_REPORT.md`.
 
-Next, cluster the twelve recurrent bigram fragments into a few larger phrase
-families. Search the29 residual statements for complete left/right contexts
-around `OL | SHED+DY`, `OL+OR | OL`, `OL+K+AIN | AL`, `OR | Y`, and the
-measure fragments; promote only context rules that repair a whole recipe.
+Pass 749 collapses the12 bigram fragments into four phrase families. The
+measure/address family has11 remaining occurrences, current-preparation
+`OR | Y` has3, continuation bridges have7, and staged activation has0 because
+Pass748 already closes both of its contexts. The three active families cover21
+fragment occurrences in15 residual statements. No new meaning or deck card is
+introduced. See
+`sidequest_semantic_formula_family_clustering_seven_hundred_forty_ninth/SEVEN_HUNDRED_FORTY_NINTH_REPORT.md`.
+
+Next, complete the three `OR | Y` environments first. Treat Y as reactivation
+of the current preparation, derive full left/right recipe triggers, and retain
+only whole-statement repairs. Then use the same method on measure/address and
+continuation bridges.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
