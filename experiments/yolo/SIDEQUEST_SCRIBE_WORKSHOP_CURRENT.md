@@ -1,11 +1,11 @@
 # Current twenty-two-page scribe-workshop theory
 
-Updated: 2026-08-25, after Pass 1014.
+Updated: 2026-08-25, after Pass 1015.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
-translation**. This is the compact handoff for the sidequest. Pass 1014
-confirms on all 35 already image-inspected passages that the Pass-1013
-46-sign contract needs no independent specialist root.
+translation**. This is the compact handoff for the sidequest. Pass 1015 gives
+all 627 statements a complete owner-plus-core reading under the Pass-1013
+46-sign contract and needs no independent specialist root.
 
 ## Fixed scope
 
@@ -202,6 +202,16 @@ O-, SH-, CH-, or L-frame. A local reader may therefore expand the former as
 *zugeben* and the latter as *am Anschluss weitergeben*, but those are not two
 portable word meanings.
 
+Pass 1015 applies this economy to the complete running edition. Every one of
+the 627 statements now exposes the same six readable layers: owner, post or
+quantity, ordered action cores, relation/address, grade/stage, and endpoint.
+The 35 image-reviewed statements retain their manual Pass-1014 wording; the
+remaining 592 are directly composed from the same dictionary and nine sentence
+drawers. In 255 old readings, at least one no-longer-portable specialist word
+is removed. The most common were *bearbeiten* (110 statements), *absetzen*
+(71), *Durchlass* (59), *Auszug* (34), and *bereit* (19). No surface, owner,
+statement boundary, action core, grade, or ending is changed.
+
 ## Constrained semantic pocket dictionary
 
 The twelve content/action cores are:
@@ -333,6 +343,9 @@ comparison set.
 
 ## Primary artifacts
 
+- Current Pass-1015 complete 627-statement owner/core edition, nine-drawer
+  summary, builder, and validator:
+  `sidequest_semantic_627_core_owner_edition_one_thousand_fifteenth/`;
 - Current Pass-1014 core-only retranslations of all 35 manually inspected
   passages, CHK/CKH topology comparison, builder, and validator:
   `sidequest_semantic_optical_core_retranslation_one_thousand_fourteenth/`;

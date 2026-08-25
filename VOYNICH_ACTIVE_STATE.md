@@ -6,7 +6,7 @@ Updated: 2026-08-25. This is the full claim registry. For routine work, read
 
 ## Outcome
 
-### Noncanonical twenty-two-page sidequest (Pass 1014)
+### Noncanonical twenty-two-page sidequest (Pass 1015)
 
 The creative workshop sidequest covers twenty-two admitted physical pages with
 4,581 visible groups: 3,888 running prose/ring-text groups plus 693 local
@@ -168,6 +168,15 @@ meaning from packaging. Both linear `CHK` and embedded `C<K>H` contribute
 CKH events do, because CKH is commonly enclosed by a larger O/SH/CH/L frame.
 Thus local *zugeben* versus *am Anschluss weitergeben* is syntax and owner
 expansion, not evidence for two roots *Wärme* and *Durchlass*.
+
+Pass 1015 propagates the smaller reading across all 627 statements. Every row
+now has an explicit owner, item/quantity, ordered core action chain, relation,
+grade/stage, local-sign channel and endpoint, covering all 3,888 running groups.
+The 35 image-reviewed Pass-1014 translations remain manual; the other 592 are
+deterministically composed from the same contract. This removes automatic
+specialist wording from 255 old statements—most often *bearbeiten* (110),
+*absetzen* (71), *Durchlass* (59), *Auszug* (34), and *bereit* (19)—without
+changing any surface, statement, owner, grade, boundary or root value.
 
 - The manuscript is **not translated**. There are zero confirmed English
   lexemes, zero plaintext clauses, and no established language, phonetic
