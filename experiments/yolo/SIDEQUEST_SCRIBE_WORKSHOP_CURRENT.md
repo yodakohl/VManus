@@ -10810,10 +10810,18 @@ revised continuous readings. Card IDs, surfaces, owners, statements and line
 relations remain unchanged. B5 contains none of the three components. See
 `sidequest_semantic_verb_revision_seven_hundred_twenty_third/SEVEN_HUNDRED_TWENTY_THIRD_REPORT.md`.
 
-Next, apply the queued small wave S=TEIL, CTH=BEREITEN and O=ARBEITSGANG, and
-try AIR=WASSER explicitly across its five cards CH+AIR, K+AIR, OK+AIR, CHD+AIR
-and AIR+Y+DY. Produce concrete sentence expansions for all five; broaden only
-AIR if one cannot be made coherent.
+Pass 724 applies S=TEIL, CTH=BEREITEN, O=ARBEITSGANG and AIR=WASSER across29
+recipes/37 events/28 statements/9 records, bringing total revised recipes to59.
+All five AIR cards now read coherently: Wasser entnehmen, zugeben, ansetzen,
+umsetzen and dieses Wasser abstellen/close. The Herbal case is a textual water
+instruction; four Biological cases have basin/run owners. AIR=WASSER therefore
+stays, with ARBEITSFLÜSSIGKEIT only as a future fallback. See
+`sidequest_semantic_concrete_medium_revision_seven_hundred_twenty_fourth/SEVEN_HUNDRED_TWENTY_FOURTH_REPORT.md`.
+
+Next, rewrite all five Herbal records as complete fluent articles from the new
+atomic traces. Keep pictured plant as silent subject, mention WATER only where
+AIR occurs, and do not invent named species, diseases or ingredients for
+unanchored whole cards.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
