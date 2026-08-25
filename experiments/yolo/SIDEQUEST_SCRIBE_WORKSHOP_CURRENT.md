@@ -11152,10 +11152,17 @@ shells alone cannot replace the seven layouts; each exact layout remains
 necessary. See
 `sidequest_semantic_large_formula_parameterization_seven_hundred_sixty_first/SEVEN_HUNDRED_SIXTY_FIRST_REPORT.md`.
 
-Next, replace the seven memorized full-sequence outputs in the forward compiler
-with the seven M/T layout lines plus8 motif and19 tail dictionaries. Confirm
-the complete116/381 output remains unchanged while the bound layer stores no
-74-card sentence sequence directly.
+Pass 762 removes the seven stored full-sequence outputs from the forward
+compiler. The bound layer now contains only a27-token M/T dictionary (8 shared
+motifs+19 local strips) and7 layout lines/50 expansions. Those layouts expand
+to74 cards; the entire output stays exactly116 statements and381 cards. The
+builder contains no full memorized/observed sentence-output field. See
+`sidequest_semantic_motif_tail_forward_compiler_seven_hundred_sixty_second/SEVEN_HUNDRED_SIXTY_SECOND_REPORT.md`.
+
+Next, turn the whole system into a plausible 1420 workshop curriculum. Order
+the39 meanings,9 parameterized rules,173-card recognition deck,8 M-motifs and
+19 T-strips into lessons; estimate copy drills and identify which material each
+of the multiple scribes must share versus may specialize in.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
