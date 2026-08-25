@@ -11663,6 +11663,17 @@ Next, resolve LSH=WASCHEN against SPUELEN and AUSWASCHEN from its two card
 families and full neighbouring process chains. Keep one short portable value
 or leave it on the strip.
 
+Pass 805 revises LSH to `SPÜLEN` and promotes it to core22. On f81v, `lsho`
+(LSH+O) becomes the compound SPÜLVORGANG and both `lshedy` events become "kurz
+spülen; Schluss". WASCHEN was less specific, while AUSWASCHEN would invent an
+extracted substrate. The observed short/closed cell predicts five unused
+E/EE/EEE×Y/DY surfaces without collision. See
+`sidequest_semantic_lsh_rinse_eight_hundred_fifth/EIGHT_HUNDRED_FIFTH_REPORT.md`.
+
+Next, integrate CH/SH/CTH/CHK/SHED/P/LSH into a third compact grammar and
+recalculate full173-card/381-event/116-statement core coverage. Keep every
+remaining strip value and whole card explicit.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
