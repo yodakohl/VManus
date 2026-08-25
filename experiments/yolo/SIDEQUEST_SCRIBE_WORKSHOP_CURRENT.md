@@ -11100,9 +11100,18 @@ Y slot. Exact recipes rise104→106/116, equal card counts108→109, and output
 cards364→365/381. See
 `sidequest_semantic_segmentation_redistribution_seven_hundred_fifty_fifth/SEVEN_HUNDRED_FIFTY_FIFTH_REPORT.md`.
 
-Next, resolve the three small phrase reorders H4-S001,H5-S003,B3-S032 as
-complete local constructions. After that, only the seven large learned
-formulas should remain.
+Pass 756 learns the three small multi-card phrases: the measured
+portion/Nachgabe series H4-S001, the hold-ingredient-repeat activation H5-S003,
+and the five-card transfer/measure/close series B3-S032. Exact recipes rise
+106→109/116 while card counts remain109/116 and365/381 because all three
+already had the right length. Exactly seven large formulas remain:
+H1-S001,H2-S001,H3-S001,H5-S001,B1-S002,B3-S021,B6-S001. See
+`sidequest_semantic_small_phrase_reorder_seven_hundred_fifty_sixth/SEVEN_HUNDRED_FIFTY_SIXTH_REPORT.md`.
+
+Next, inspect those seven large formulas for shared inner motifs before making
+seven sentence-sized exceptions. Search repeated cards, owner/material echoes,
+and shared address/continuation blocks across the seven; build the smallest
+large-formula teaching deck possible.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
