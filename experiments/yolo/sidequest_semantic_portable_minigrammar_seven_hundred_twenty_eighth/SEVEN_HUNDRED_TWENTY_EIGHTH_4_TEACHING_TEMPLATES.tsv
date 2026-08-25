@@ -1,0 +1,5 @@
+template_id	name	licensed_bigrams	abstract_form	apprentice_rule_de	short_reading_de	semantic_load	counter_rule
+PT1	POSTFIX_MEASURE	PROC008>PROC009 | PROC013>PROC009 | PROC019>PROC009	X + AIIN	Führe X bis zum vorgeschriebenen Maß oder Arbeitsgrad.	X BIS ZUM MASS	AIIN=Mass; X liefert Handlung oder aktuellen Posten	AIIN benennt weder Stoff noch Gleichheit.
+PT2	PREFIX_MEASURED_ITEM	PROC009>PROC019	AIIN + Y	Halte den aktuell gemeinten Posten im vorgeschriebenen Maß bereit.	DIESEN POSTEN NACH MASS	AIIN=Mass; Y=dieser aktuelle Posten	Kein zweiter Operand und kein Gleichheitszeichen.
+PT3	CURRENT_PREPARATION	PROC016>PROC019	OR + Y	Behandle den laufenden Posten als den gegenwärtigen Ansatz.	DIESER ANSATZ	OR=Ansatz; Y=aktuell gemeinter Posten	Kein bestimmter Pflanzenname und kein bestimmtes Becken.
+PT4	CONTINUE_PREPARATION	PROC022>PROC013	OL+OR + OL	Arbeite mit demselben Ansatz weiter.	DENSELBEN ANSATZ FORTSETZEN	OL+OR=fortgesetzter Ansatz; OL=weiter	Keine neue Charge und kein Seitenverweis.

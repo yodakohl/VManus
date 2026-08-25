@@ -10842,10 +10842,18 @@ specific plant/station pointer. The thematic WHAT→HOW architecture survives;
 direct cross-references do not. See
 `sidequest_semantic_what_how_bridge_seven_hundred_twenty_seventh/SEVEN_HUNDRED_TWENTY_SEVENTH_REPORT.md`.
 
-Next, expand the six shared bigrams in all their sentence environments and
-choose the smallest portable teaching templates. Keep `Y–AIIN–Y` as a measure
-frame, not a cross-reference, unless a longer fixed-page construction supplies
-a concrete referent.
+Pass 728 reduces the6 shared bigrams/16 occurrences to4 apprentice templates:
+`X AIIN`=X bis zum Maß, `AIIN Y`=diesen Posten nach Maß, `OR Y`=dieser Ansatz,
+and `OL+OR OL`=denselben Ansatz fortsetzen. Herbal and Bio contribute8
+occurrences each, across9/11 records. This revises the old attractive
+`Y–AIIN–Y` equal-parts/equality guess: without two independent operands, the
+better reading is “diesen Posten bis zum Maß führen und mit demselben
+weiterarbeiten”. See
+`sidequest_semantic_portable_minigrammar_seven_hundred_twenty_eighth/SEVEN_HUNDRED_TWENTY_EIGHTH_REPORT.md`.
+
+Next, audit every AIIN and AIN context separately. Preserve AIIN=Sollmaß and
+test whether AIN=Portion yields a distinct, practical composition throughout
+the fixed prose; revise any compound that cannot keep the split.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
