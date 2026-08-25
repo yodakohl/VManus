@@ -11428,6 +11428,19 @@ Next, separate productive E/EE/EEE duration grades from e-marks embedded in
 whole cores. Inventory every graded recipe and every tempting false split, then
 rewrite the short grade rule without treating every visible e as a morpheme.
 
+Pass 787 finds a sharply bounded grade device. Ninety-one events in51 recipes
+carry an explicit E, EE or EEE component: E=KURZ has49/49 one-e surfaces,
+EE=LANG has38/40 two-e surfaces plus two registered `shey` contractions, and
+EEE=VOLL has2/2 three-e surfaces. Another70 visible-e events have no grade
+component at all:38 embed e inside CHED,15 inside SHED and17 inside a wrapper or
+another whole core. Thus `cheedy` is ABSETZEN·SCHLUSS rather than a long grade.
+The teachable rule is: count e only in a registered grade slot. See
+`sidequest_semantic_e_grade_boundary_seven_hundred_eighty_seventh/SEVEN_HUNDRED_EIGHTY_SEVENTH_REPORT.md`.
+
+Next, build the complete grade ladders for OK, OT, SH, CHK and SOLK. List the
+attested rungs and predict only the missing surfaces implied by a repeated
+ladder; do not silently insert those predictions into the fixed-page reading.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
