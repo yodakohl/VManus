@@ -12754,6 +12754,19 @@ their twelve exact cards a short default and preserve the entire four-card local
 island as a memorized action chain. Leave the single five-gap master passage for
 its own final prose pass.
 
+Pass 895 closes all three four-gap units with twelve card values and three
+four-step recipes. H5 now reads PFLANZENZUTAT FUER DEN ANSATZ ENTNEHMEN -> ZUR
+ZIELSTELLE BRINGEN -> WEITER ZUGEBEN -> DANACH VOM ANSATZ ENTNEHMEN; B6 reads
+LANG SAMMELN -> KURZ ZUGEBEN -> AN DER ZIELSTELLE KUEHLEN -> ANSATZ ZUR
+ZIELSTELLE LEITEN. The executable layer reaches111 units. See
+`sidequest_semantic_four_gap_recipe_closure_eight_hundred_ninety_fifth/EIGHT_HUNDRED_NINETY_FIFTH_FOUR_STEP_RECIPEBOOK.md`.
+
+Next, close the sole remaining prose gap, B1-S002. Give its five residual cards
+short defaults for water addition, cool continuation, batch continuation, target
+hold and longer target setting; retain their exact positions among the fourteen
+already shared cards. Then publish a prose-complete 112-unit workshop edition,
+keeping the six Astro condition leaves separate.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
