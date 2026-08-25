@@ -12450,6 +12450,21 @@ portable internal product-name grammar built from picture owner + preparation
 class + source/portion/result qualifiers, and assign every Herbal product a
 short workshop name that a second scribe can actually use.
 
+Pass 872 creates a three-part internal product nomenclator: picture-owner sigil
+A–D, preparation-family letter, and local ordinal. All19 Herbal statements and
+all100 Herbal events now have a unique internal product handle. The four WHAT
+slots resolve to P1=`A.G2`, P2=`B.X2`, P3=`C.W2`, and P4=`D.P1`, allowing six
+exact internal supply links to Biological jobs. No external species is named,
+but none is needed for book-internal workshop use: the picture and handle are
+sufficient. The only wholly master-dependent payload now left is the external
+value of an Astro condition label. See
+`sidequest_semantic_internal_product_nomenclator_eight_hundred_seventy_second/EIGHT_HUNDRED_SEVENTY_SECOND_INTERNAL_PRODUCT_HANDBOOK.md`.
+
+Next, attack the remaining Astro payload creatively: compare repeated local
+label components within each of the six condition shelves and build a relative
+condition vocabulary (next/same/short/long/complete/source/target) without
+forcing external planet, sign, month or mansion names.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
