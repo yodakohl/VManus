@@ -1,24 +1,26 @@
-# Current fourteen-page scribe-workshop theory
+# Current eighteen-page scribe-workshop theory
 
-Updated: 2026-08-25, after Pass 1002.
+Updated: 2026-08-25, after Pass 1003.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
-translation**. This is the compact handoff for the sidequest. Pass 1002 binds
-the complete fourteen-page edition to the corrected embedded-pair grammar and
-the root/context separation for every card and clause.
+translation**. This is the compact handoff for the sidequest. Pass 1003 keeps
+the corrected root/context grammar and adds four newly admitted pages without
+adding a portable semantic root.
 
 ## Fixed scope
 
-Fourteen physical pages are in scope:
+Eighteen page units are in scope:
 
-- Herbal: `f10r`, `f11r`, `f13r`, `f55v`, `f56r`;
-- Biological: `f75r`, `f81v`, `f82r`, `f83r`;
-- celestial: `f67r2`, `f68r1`, `f69v`, `f70v1`, `f70v2`;
-- Pharma: `f88r`.
+- Herbal: `f10r`, `f11r`, `f13r`, `f17r`, `f55v`, `f56r`;
+- Biological: `f75r`, `f77r`, `f81v`, `f82r`, `f83r`;
+- celestial: `f67r2`, `f68r1`, `f69v`, `f70v1`, `f70v2`, `f71v`;
+- Pharma: `f88r`, `f88v`.
 
-Together they contain 2,511 visible groups. Of these, 2,010 belong to running
-text in 354 complete clauses and 501 are image labels, station addresses, or
-celestial ring positions. `f84` and `f84r` remain sealed.
+Together they contain 3,168 visible groups. Of these, 2,618 belong to running
+prose or ring text and 550 are image labels, station addresses, vessel labels,
+or celestial ring positions. The older fourteen-page base retains its 354
+complete clauses; the 111 fresh loci are kept as readings rather than falsely
+equating physical lines with sentences. `f84` and `f84r` remain sealed.
 
 ## Best current mechanism
 
@@ -37,13 +39,18 @@ The apprentice inventory has 175 unambiguous codebook lines:
 - 16 local ingredient labels in the three f88r batches;
 - 1 rule for copying a complete local image or ring address.
 
-The 2,511 events route as follows:
+The 2,511-event Pass-1002 base routes as follows:
 
 - 1,319 productive root compositions;
 - 595 common formula-card events;
 - 96 long contextual-composition events;
 - 485 other local image, station, and ring addresses;
 - 16 f88r ingredient labels.
+
+Pass 1003 adds 657 events from the four new pages: 411 exact registered
+surfaces, 150 visibly rooted new compositions, 34 one-edit allographs, 13
+tentative rooted variants, and 49 owner-bound labels. The combined edition has
+3,168 events. No new portable root or codebook line was needed.
 
 Beyond the 30 common formula cards, 70 recurrent compositions form a second
 apprentice drawer. They cover 287 events; 63 recur across multiple pages and
@@ -110,14 +117,15 @@ surface as `dy`, and `chdy/chedy` is often nonterminal.
 
 ## Current page reading
 
-The fourteen pages form a practical four-stage book:
+The eighteen page units form a practical four-stage book:
 
-1. **STOFF** — five pictured plant articles. The plant picture silently owns
+1. **STOFF** — six pictured plant articles. The plant picture silently owns
    the text; the cards select parts, portions, preparation paths, and uses.
 2. **ZUBEREITUNG** — f88r contains sixteen local ingredient labels in rows of
-   six, six, and four under three silent vessel owners, followed by productive
-   preparation prose. No species name is currently forced.
-3. **ANWENDUNG** — f75r and the Biological pages contain local bath, basin,
+   six, six, and four under three silent vessel owners. f88v adds three more
+   vessel-/ingredient batches with fourteen label groups and productive prose.
+   No species name is currently forced.
+3. **ANWENDUNG** — f75r, f77r and the Biological pages contain local bath, basin,
    conduit, washing, holding, fastening, and transfer stations. They do not
    form one global pipe network.
 4. **ZEIT / AUSWAHL** — the celestial pages are separate lookup instruments.
@@ -156,6 +164,14 @@ as a second portable meaning inside `shey`, `cfhy`, or `cphy`.
   the three jars are silent batch owners, not textual headings;
 - f75r is a repetitive station form and does not require a new vocabulary;
 - f70v1 and f70v2 are Aries and Pisces address rings;
+- f17r shows one whole flowering plant and no visible water, oil, or vessel;
+- f77r shows real local jets, contacts, basins, and outlets, but not one closed
+  page-wide hydraulic circuit;
+- f88v separates several vessel-/ingredient batches rather than one page owner;
+- f71v contains three local ring namespaces; its 22 label groups are celestial
+  addresses, and its dense `AL=ZIEL`/`AR=QUELLE` use reinforces the general
+  celestial relational layer; together with f70v this keeps `AIR=LAUF` rather
+  than universal `WASSER`;
 - Biological drawings support local pools, vessels, conduits, and contact
   stations, but not a single directed hydraulic machine.
 
@@ -172,6 +188,9 @@ comparison set.
 
 ## Primary artifacts
 
+- Four-page Pass-1003 transfer, 657-event interlinear, 111 locus readings,
+  image-owner map, combined 3,168-event edition, and working translations:
+  `sidequest_semantic_four_fresh_page_transfer_one_thousand_third/`;
 - Current dual-layer theory, manifest, codebook, interlinear, and manual:
   `sidequest_semantic_dual_layer_release_one_thousand_second/`;
 - 175-line current codebook: `PASS1002_175_CURRENT_CODEBOOK.tsv`;
@@ -199,8 +218,8 @@ comparison set.
 
 ## Next work
 
-Do not add pages yet. Work through the seven genuinely absent pairs. Test
-`chain = eine Portion nehmen` first; it is the only high-priority free short
-surface. Treat `pain/paiin` as medium-priority predictions and the other four
-as likely role restrictions or redundancy. Preserve the sixteen f88r labels as
-local whole cards until a visible shape supports a narrower ingredient class.
+Stay on the four fresh pages. First hand-reconcile the thirteen tentative
+rooted variants; then join their 608 running groups into statements that may
+cross physical lines. Concentrate on f17r and f88v, where exact surface reuse
+is lower, and preserve all f71v/f88v labels as owner-bound local names. Do not
+add another page until these four have a readable continuous edition.

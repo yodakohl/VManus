@@ -6,11 +6,11 @@ Updated: 2026-08-25. This is the full claim registry. For routine work, read
 
 ## Outcome
 
-### Noncanonical fourteen-page sidequest (Pass 1002)
+### Noncanonical eighteen-page sidequest (Pass 1003)
 
-The creative workshop sidequest covers fourteen fixed physical pages with
-2,511 visible groups: 2,010 running-text groups in 354 naturally phrased
-clauses plus 501 local image, station, and ring addresses/labels. Its current
+The creative workshop sidequest covers eighteen admitted physical pages with
+3,168 visible groups: 2,618 running prose/ring-text groups plus 550 local
+image, station, vessel, and celestial addresses/labels. Its current
 mixed codebook has 175 lines: 53 portable roots represented in 56 root/local-
 sign entries, 30 frequent formula ligatures, 72 long contextual compositions,
 sixteen f88r ingredient labels, and one rule for copying a complete local
@@ -42,7 +42,16 @@ formula heads and shows that all 30 formula cards have exactly their root sums
 across 595 events. Pass 1001 splits 56 old specialist-headword groups into 72
 surface-specific rooted compositions, and Pass 1002 propagates the separation
 between portable root default and local contextual expansion through all 2,511
-events and 354 clauses.
+events and 354 clauses. Pass 1003 then transfers that reading machine to f17r,
+f77r, f88v, and f71v: 657/657 fresh groups receive a short root/default layer
+and a visible-owner expansion without adding a portable root. The fresh pages
+contain 411 exact registered surfaces, 150 visibly composed forms, 34 one-edit
+allographs, 13 tentative rooted variants, and 49 owner-bound labels. The image
+pass retains one whole-plant owner on f17r, local body/basin/outlet scenes on
+f77r, multiple vessel/ingredient batches on f88v, and three independent local
+ring namespaces on f71v. Its dense `AL=ZIEL`/`AR=QUELLE` use reinforces the
+celestial relational layer; together with the earlier f70v result this keeps
+`AIR=LAUF` rather than `WASSER` and blocks universal material water.
 
 - The manuscript is **not translated**. There are zero confirmed English
   lexemes, zero plaintext clauses, and no established language, phonetic

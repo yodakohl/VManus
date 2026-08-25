@@ -1,12 +1,11 @@
 # Voynich current route
 Updated: 2026-08-25. Use `experiments/EXPERIMENT_INDEX.tsv` for primary reports; consult the active state and ledger only for claim-detail audits or historical reconstruction.
-Noncanonical fourteen-page sidequest: `experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_CURRENT.md`.
-Its creative Pass-1002 release binds 2,511 groups: 2,010 running-text groups in 354 natural clauses plus 501 local addresses/labels.
-The 175-line codebook has 53 roots in 56 root/local-sign entries, 30 root-readable formula ligatures, 72 root-readable contextual
-compositions, 16 local drug labels, and one address-copy rule. The former 56 specialist headwords required no new portable meaning.
-Of 25 apparently empty two-root cells, 18 already occur inside longer cards and only seven are genuinely unused; `chain` =
-“eine Portion nehmen” is the strongest new-form prediction. Biological has 1,280 groups/318 clauses; f88r has 16 labels in rows
-6+6+4 under three silent vessels. The creative model is material → preparation → local application → celestial lookup, not a confirmed translation.
+Noncanonical eighteen-page sidequest: `experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_CURRENT.md`.
+Its creative Pass-1003 release binds 3,168 groups: 2,618 running prose/ring-text groups plus 550 local addresses/labels.
+The 175-line codebook has 53 roots, 30 formula ligatures, 72 contextual compositions, 16 local drug labels, and one address-copy rule.
+Of 25 apparently empty two-root cells, 18 occur inside longer cards; `chain` = “eine Portion nehmen” is the strongest new-form prediction.
+The new f17r/f77r/f88v/f71v add 657 groups without a root: 411 exact forms, 150 compositions, 34 one-edit forms, 13 tentative variants, and 49 labels.
+The creative model is material → preparation → local application → celestial lookup, not a confirmed translation.
 
 ## Scientific ceiling
 
