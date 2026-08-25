@@ -12004,6 +12004,18 @@ licensed DY closes and FLUESSIGKEIT around AIR first, but keep them contextual
 unless one short replacement improves every occurrence without erasing the
 concrete water reading on the plant page.
 
+Pass 834 keeps `DY=SCHLUSS` and `AIR=WASSER`. SCHRITT appears in68 of89
+DY-bearing statements but is absent from21 equally ordinary closes; it is the
+fluent object of the close, not a better atom. AIR has the reverse editorial
+problem: all five literal cards already say WASSER, but four Bio readings soften
+that to “laufende Fluessigkeit”. The concrete workshop bet is retained and
+exactly those four fluent readings are nominated for `laufendes Wasser`. See
+`sidequest_semantic_third_hidden_word_audit_eight_hundred_thirty_fourth/EIGHT_HUNDRED_THIRTY_FOURTH_REPORT.md`.
+
+Next, apply the four AIR wording repairs through the complete statement edition
+and inspect the five-card water mini-paradigm as source/take, add, start, move
+and close operations.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
