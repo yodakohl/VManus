@@ -12926,6 +12926,20 @@ SH+EE+Y, O+DY, HO and OT+EE+Y parses. Apply those recipes to the five currently
 memorized identities too, rebuild their affected units and leave only TALAM as
 the genuinely learned whole workshop root.
 
+Pass 907 applies those existing recipes to all five duplicate identities. Seven
+marks leave the fused-word drawer: `cheey/sheey` are SH+EE+Y, `ody` is O+DY,
+`cho` is HO and `oteey` is OT+EE+Y. The active inventory is now178 single
+compositions,50 functional-family identities,2 local contractions and1 learned
+whole root; at mark level292+142+2+1=437. Only `talam`=BEISEITESTELLEN remains
+memorized. See
+`sidequest_semantic_single_learned_whole_root_nine_hundred_seventh/NINE_HUNDRED_SEVENTH_REPORT.md`.
+
+Next, test the now obvious exact split of `talam`: T+AL+AM_ADDR. Read it first
+as BEARBEITEN + ZIELSTELLE + GEGENFELD and ask whether the f55v instruction can
+contract this to "an die Neben-/Gegenstelle setzen", the existing fluent
+BEISEITESTELLEN. If that one exact composition works, close the learned whole-
+root drawer entirely and keep AM as an address sign rather than a new word.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
