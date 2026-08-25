@@ -11441,6 +11441,20 @@ Next, build the complete grade ladders for OK, OT, SH, CHK and SOLK. List the
 attested rungs and predict only the missing surfaces implied by a repeated
 ladder; do not silently insert those predictions into the fixed-page reading.
 
+Pass 788 groups the51 graded recipes into eight repeated ladders/17 attested
+rungs. `OK+DY` is complete: `qokedy → qokeedy → qokeeedy` reads ANSETZEN ·
+KURZ/LANG/VOLL · SCHLUSS. Six missing rungs have mechanically formable surfaces
+with no collision on the ten pages: `cheeeky`, `okeeey/qokeeey`, `qoteeedy`,
+`sheeedy`, `sheeey` and `solkeeey`. The T+Y family has E and EEE but switches
+hulls (`etyd/ytey` versus `cheeety`), so its missing EE meaning is LANG while
+its surface is deliberately left unformed. The five-core×five-endpoint×three-
+grade table contains22 attested cells and6 narrowly formable ones. See
+`sidequest_semantic_grade_ladders_seven_hundred_eighty_eighth/SEVEN_HUNDRED_EIGHTY_EIGHTH_REPORT.md`.
+
+Next, turn those six predictions into a compact apprentice writing board. Test
+forward formation and backward reading with both hand wrappers, while keeping
+the predicted cards visibly separate from manuscript-attested cards.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
