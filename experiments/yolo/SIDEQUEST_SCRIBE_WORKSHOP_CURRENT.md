@@ -12664,6 +12664,20 @@ German workshop heading, preserve all437 marks and118 units, show every visible
 owner/station switch, and make the WHAT -> HOW -> WHEN path readable without
 consulting separate pass reports.
 
+Pass 888 publishes six complete WHAT -> HOW -> WHEN master cards. They preserve
+all437 marks and118 units while exposing16 consecutive visible HOW stations and
+all ten owner switches in the prose instead of smoothing them away. Each card
+has a concrete title, its complete predecessor chain, every application
+statement, its full condition locus and five filled use fields; no dictionary or
+calibration changes. See
+`sidequest_semantic_six_master_order_cards_eight_hundred_eighty_eighth/EIGHT_HUNDRED_EIGHTY_EIGHTH_SIX_MASTER_ORDER_CARDS.md`.
+
+Next, use the six master cards as an apprentice's daily job deck. Compress only
+instructions that are exact recurrent phrases, retain every surface sequence on
+the card back, and make a front-side checklist of MATERIAL, MEASURE, SOURCE,
+TARGET, OPERATION, RESULT and CONDITION. Decide how many of the 118 units can be
+executed from the shared workshop vocabulary without reopening a local model.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
