@@ -11781,6 +11781,18 @@ class is now empty:33 cores,3 bound values,3 whole commands. See
 Next, publish the fifth full grammar, then attack the three whole commands
 `os`, `dchol/schol` and `talam` separately.
 
+Pass 815 publishes the fifth grammar. Its39 components are33 productive cores,
+3 bound values and3 whole commands; no recurrent strip or local-singleton class
+remains. All173 cards/381 events/116 statements rebuild. Core33 touches170
+cards/377 events and fully composes167/374. The six-card/seven-event remainder
+is three semantically read bound cards plus `os`, `dchol/schol`, and `talam`.
+Seventy-six unseen predictions remain outside the edition. See
+`sidequest_semantic_fifth_workshop_grammar_eight_hundred_fifteenth/EIGHT_HUNDRED_FIFTEENTH_ONE_PAGE_GRAMMAR.md`.
+
+Next, resolve `os` in H1-S001 against FACH, ORT, WERKZEUG, TRENNSCHRITT and a
+copied source label. Choose the meaning that makes the whole plant instruction
+more coherent.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
