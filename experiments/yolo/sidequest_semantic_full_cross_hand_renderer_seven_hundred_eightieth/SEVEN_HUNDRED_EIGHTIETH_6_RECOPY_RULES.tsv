@@ -1,0 +1,7 @@
+step	rule	instruction
+1	KEEP_CARD	retain the exact learned card identity
+2	KEEP_RECIPE	retain its component recipe and working reading
+3	COMMON_LOOKUP	if card is on the common twelve-card table, select the target hand
+4	CONTEXT_LOOKUP	use matching line-entry and prior-close row when attested
+5	DEFAULT_LOOKUP	otherwise use the target hand's card default
+6	LOCAL_COPY	if card is local, copy it unchanged from the page model

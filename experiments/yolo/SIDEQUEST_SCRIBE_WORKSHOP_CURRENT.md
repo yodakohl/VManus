@@ -11335,6 +11335,20 @@ Next, extend the renderer table across all twelve shared cards and estimate how
 much of the complete381-event prose can be copied by either hand with the
 common renderer plus local model cards.
 
+Pass 780 supplies24 hand-card defaults (twelve cards × two hands),34 observed
+context rows and a six-step recopy rule. Across all381 prose events,106 common-
+card events are actively rendered and275 local cards are copied from the page
+model. Recopying Hand 1 as Hand 2 changes26/82 surfaces; Hand 2 as Hand 1 changes
+58/299, for84 visible changes total. Every exact card, component recipe and
+working reading remains fixed. The practical system is therefore: actively
+translate twelve common cards between hand styles, copy every rare card from
+the local exemplar. See
+`sidequest_semantic_full_cross_hand_renderer_seven_hundred_eightieth/SEVEN_HUNDRED_EIGHTIETH_REPORT.md`.
+
+Next, replace the tables with a period-plausible teaching object: twelve
+two-sided sample cards, one short margin rule and a page exemplar. Run a full
+f56r and f82r apprentice production trace from that kit.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
