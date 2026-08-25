@@ -1,0 +1,20 @@
+group_id	group_name	component	short_value_de	exact_cards	events	component_tokens	pages	top_partners	role_boundary	decision
+G01	START_USE_TRANSFER	OK	ANSETZEN	23	79	80	f10r:2;f11r:1;f55v:2;f56r:6;f81v:13;f82r:22;f83r:33	DY:26;Y:25;EE:19;E:12;AIIN:9;AL:8	activate the current work step	KEEP_DISTINCT
+G01	START_USE_TRANSFER	T	ANWENDEN	9	10	10	f10r:3;f11r:3;f55v:1;f81v:1;f83r:2	Y:9;OL:3;CH:2;E:2;SH:2;O:2	use the current item on or for its owner	KEEP_DISTINCT
+G01	START_USE_TRANSFER	CHD	UMSETZEN	22	48	48	f55v:1;f81v:9;f82r:7;f83r:31	DY:28;Y:13;L:12;OK:5;AL:4;OL:3	move or convert the item within the work chain	KEEP_DISTINCT
+G02	ADD_FILL_GUIDE	K	ZUGEBEN	18	21	21	f10r:2;f11r:1;f55v:3;f56r:5;f81v:4;f83r:6	Y:7;AIN:6;E:5;OL:4;AR:2;DY:2	add material to the active mixture	KEEP_DISTINCT
+G02	ADD_FILL_GUIDE	P	EINFUELLEN	3	3	3	f11r:1;f82r:1;f83r:1	CHD:2;Y:1;DY:1;AL:1	put material into a receiving place	KEEP_DISTINCT
+G02	ADD_FILL_GUIDE	L	LEITEN	18	27	27	f81v:4;f82r:10;f83r:13	DY:13;CHD:12;Y:4;AL:2;CKH:2;E:2	conduct the item along a path	KEEP_DISTINCT
+G03	HOLD_WAIT	SH	HALTEN	20	25	25	f11r:5;f56r:1;f81v:4;f82r:7;f83r:8	E:13;Y:12;DY:8;EE:6;CKH:5;OL:3	actively keep the item in place or state	KEEP_DISTINCT
+G03	HOLD_WAIT	SHED	STEHENLASSEN	3	15	15	f81v:4;f82r:2;f83r:9	DY:13;AL:2;R:1	leave the item without active handling	KEEP_DISTINCT
+G04	CONTINUE_NEXT_ADD	OL	WEITER	25	48	48	f10r:8;f11r:2;f55v:2;f56r:2;f81v:15;f82r:4;f83r:15	DY:6;Y:5;E:5;K:4;OT:3;T:3	continue the same operation or relation	KEEP_DISTINCT
+G04	CONTINUE_NEXT_ADD	OT	DANACH	16	26	26	f10r:4;f11r:1;f56r:3;f81v:1;f82r:4;f83r:13	DY:7;Y:6;CH:4;EE:4;AIIN:4;OL:3	advance to the next operation	KEEP_DISTINCT
+G04	CONTINUE_NEXT_ADD	OS	DAZU	1	1	1	f10r:1	NONE	add a linked clause without asserting succession	KEEP_DISTINCT
+G05	QUANTITY_PARAMETER	S	PROBE	1	1	1	f82r:1	CH:1;E:1	small diagnostic sample	KEEP_DISTINCT
+G05	QUANTITY_PARAMETER	AIN	PORTION	8	18	18	f55v:2;f56r:1;f81v:3;f82r:3;f83r:9	OK:7;K:6;OL:2;Y:1;OR:1;OT:1	working amount of material	KEEP_DISTINCT
+G05	QUANTITY_PARAMETER	AIIN	SOLLMASS	10	39	39	f10r:5;f11r:2;f55v:5;f56r:2;f81v:3;f82r:7;f83r:15	OK:9;OT:4;Y:2;CTH:1;CH:1;O:1	prescribed value or measure	KEEP_DISTINCT
+G05	QUANTITY_PARAMETER	IIN	STUFE	3	4	4	f10r:1;f81v:1;f83r:2	O:2;K:1;DA:1	process setting or stage	KEEP_DISTINCT
+G06	SOURCE_PATH_TARGET	AR	QUELLE	10	14	14	f10r:2;f55v:1;f56r:1;f81v:2;f82r:4;f83r:4	K:2;L:2;CH:1;E:1;O:1;HO:1	origin from which material is taken	KEEP_DISTINCT
+G06	SOURCE_PATH_TARGET	CKH	DURCHLASS	9	14	14	f56r:1;f81v:5;f82r:4;f83r:4	E:7;Y:7;DY:5;SH:5;CH:2;O:2	passage through which material travels	KEEP_DISTINCT
+G06	SOURCE_PATH_TARGET	AL	ZIELSTELLE	22	39	39	f11r:1;f55v:1;f56r:3;f81v:9;f82r:6;f83r:19	OK:8;Y:4;R:4;CHD:4;SH:3;OT:3	destination at which an operation is performed	KEEP_DISTINCT
+G06	SOURCE_PATH_TARGET	SOLK	SAMMELSTELLE	5	7	7	f81v:2;f82r:1;f83r:4	EE:4;Y:3;DY:3;AIIN:1;E:1	place that receives and retains output	KEEP_DISTINCT

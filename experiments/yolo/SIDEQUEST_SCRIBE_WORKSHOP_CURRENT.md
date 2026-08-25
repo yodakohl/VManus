@@ -11845,6 +11845,19 @@ For every German default shared by distinct recipes, inspect all full contexts
 and decide whether it is genuine workshop synonymy or a missing concrete
 distinction.
 
+Pass 820 audits six collision neighborhoods spanning19 components and321 of381
+events (439 component-event memberships). None needs merging. The central
+contrasts are operational: OK starts a work step, T uses the item, CHD moves it;
+K adds to a mixture, P fills a receiver, L guides along a path; SH actively
+holds while SHED leaves standing; OL continues, OT advances, OS adds a clause;
+S/AIN/AIIN/IIN are sample/portion/prescribed value/stage; and AR/CKH/AL/SOLK
+are origin/passage/target/receiving place. See
+`sidequest_semantic_collision_atlas_eight_hundred_twentieth/EIGHT_HUNDRED_TWENTIETH_REPORT.md`.
+
+Next, pressure-test OK=ANSETZEN against T=ANWENDEN in all ten T-bearing events.
+Every ANWENDEN must acquire a natural local object or owner; otherwise revise T
+to a better single action value.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
