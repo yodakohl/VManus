@@ -12268,6 +12268,17 @@ No Voynich language identification is claimed. See
 Next, reconstruct a source skeleton for the actual complete H1-S001 statement
 and compare it card by card with the current literal and fluent readings.
 
+Pass 857 reconstructs the actual ten-card H1-S001 statement from pictured plant
+owner through Latin-like source phrase, workshop shorthand, card components and
+current fluent German. All ten cards map without a new meaning. They carry23
+short semantic atoms: three one-atom, three two-atom, three three-atom and one
+five-atom card. The dense `OT+Y+T+CH+OL` reads naturally as a compressed chained
+instruction rather than one ordinary word. See
+`sidequest_semantic_h1_source_reconstruction_eight_hundred_fifty_seventh/EIGHT_HUNDRED_FIFTY_SEVENTH_CONTINUOUS_RECONSTRUCTION.md`.
+
+Next, reconstruct H1-S002 as the short continuation and test whether it inherits
+the picture owner and active preparation without restating either.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
