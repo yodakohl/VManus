@@ -11361,6 +11361,20 @@ Next, model the natural apprentice mistake of treating a shared component
 recipe as permission to substitute any card from that recipe. Inventory the
 false substitutions and add the smallest possible warning to the margin strip.
 
+Pass 782 turns that error into a useful two-level identity. The173 exact cards
+encode163 distinct component recipes. Ten recipes have two exact-card
+realizations; the resulting20 cards cover71 events and already have exactly the
+same short working reading within each pair. Therefore the spoken semantic
+lexicon is163 recipes, while exact copying still preserves173 card models. The
+new seventh rule is `SPRICH NACH REZEPT; KOPIERE NACH KARTE`. OK+OL is the sole
+fully hand-exclusive pair (`okchol` Hand 1, `qokol` Hand 2); it is the strongest
+true hand-allograph lead. See
+`sidequest_semantic_recipe_identity_seven_hundred_eighty_second/SEVEN_HUNDRED_EIGHTY_SECOND_REPORT.md`.
+
+Next, factor the ten paired realizations into a few concrete surface operations
+(CHD~CHED expansion, Y~CHY insertion and entry-wrapper change). Promote only
+operations that explain more than one pair without changing the recipe value.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
