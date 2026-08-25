@@ -6,7 +6,7 @@ Updated: 2026-08-26. This is the full claim registry. For routine work, read
 
 ## Outcome
 
-### Noncanonical twenty-two-page sidequest (Pass 1022)
+### Noncanonical twenty-two-page sidequest (Pass 1023)
 
 The creative workshop sidequest covers twenty-two admitted physical pages with
 4,581 visible groups: 3,888 running prose/ring-text groups plus 693 local
@@ -252,6 +252,23 @@ equidistant heads, 146 owner-versus-next-card cases, 63 R head/tail, one
 overlap). Twelve manual hard readings on f75r/f67r2/f88r require this stack in
 11/12 cases but no new core value. Future pages must preserve the 19 cores;
 only owner filling and one of the listed scope choices may vary.
+
+Pass 1023 selects one operational reading for all 328 remaining attachment
+alternatives while preserving every core value, surface, owner and statement.
+The 329 source alternatives comprise 120 equal-distance rows, 146
+owner-versus-next-card rows and 63 R-head/tail rows with one overlap. Their
+working choices are 119 equal-distance left / one `L` right, 127 bounded
+one-card forward / 19 owner-only, and 46 R-head / 16 R-tail / one nested R.
+Altogether 143 attachments change from the provisional Pass-1022 default.
+
+The full 4,345-attachment audit also rejects an initially tempting blanket
+rule: attaching every non-L/AIR focus to the left contradicts four cards whose
+right head is nearer. The retained apprentice rule is therefore nearest head,
+left only on a tie; `AL/AR` prefer left or visible owner, while `L/AIR` prefer
+right and otherwise fall back. It matches all 3,100 locally testable
+attachments; 1,245 headless positions are handled by the owner/package stack.
+No later page may require a known core to change meaning, a headless package to
+look ahead more than one card, or a scope jump across a true owner boundary.
 
 - The manuscript is **not translated**. There are zero confirmed English
   lexemes, zero plaintext clauses, and no established language, phonetic

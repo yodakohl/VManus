@@ -1,12 +1,12 @@
 # Current twenty-two-page scribe-workshop theory
 
-Updated: 2026-08-26, after Pass 1022.
+Updated: 2026-08-26, after Pass 1023.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
-translation**. This is the compact handoff for the sidequest. Pass 1022 gives
-all 627 statements a complete owner–package–action–argument scope reading,
-four local channels, a forward compiler, and 19 core values that each occur in
-all four registers.
+translation**. This is the compact handoff for the sidequest. Pass 1023 gives
+all 627 statements a selected owner–package–action–argument scope reading,
+four local channels, a forward compiler, and 19 fixed working core values that
+each occur in all four registers.
 
 ## Fixed scope
 
@@ -299,6 +299,21 @@ nesting, but none needs a new portable meaning. The current prediction for a
 future page is therefore stronger: roots may not move; only local owner and
 one of these explicit attachment choices may be supplied.
 
+Pass 1023 resolves those 328 alternatives as a working writer's convention.
+Equal-distance additions bind 119 times left and only the single `L` frame
+right. Of 146 owner-versus-next-card cases, 127 bind exactly one card forward
+inside the same owner segment and 19 naked `AR/AL` addresses remain with the
+visible owner. The 63 R rows become 46 heads, 16 tails and one nested inner
+head, with one overlap between inventories. This changes 143 provisional
+Pass-1022 attachments but no surface, root value, owner or statement.
+
+A whole-inventory reread prevents overcompression: the tempting rule “every
+non-L/AIR addition goes left” fails at four cards whose right head is closer.
+The retained rule is **nearest head, left only on a tie**; `AL/AR` prefer left
+or owner, while `L/AIR` prefer right and otherwise fall back. It agrees with
+all 3,100 locally testable attachments. The remaining 1,245 headless positions
+use the owner/package stack, with a maximum forward reach of one card.
+
 ## Constrained semantic pocket dictionary
 
 The twelve content/action cores are:
@@ -430,6 +445,15 @@ comparison set.
 
 ## Primary artifacts
 
+- Current Pass-1023 complete resolution of all 328 former scope alternatives,
+  4,345-attachment edition, 627-statement edition, six-rule sheet, full
+  generalization audit, three independent branch reports, builder and
+  validator:
+  `sidequest_semantic_scope_ambiguity_resolution_one_thousand_twenty_third/`;
+- Current Pass-1022 complete owner/package/action/argument trace, 4,345 focus
+  attachments, 328 explicit alternatives, twelve hard manual readings,
+  apprentice scope sheet, builder and validator:
+  `sidequest_semantic_argument_scope_stack_one_thousand_twenty_second/`;
 - Current Pass-1021 complete 40-occurrence duplicate-core inventory,
   historical doubling note, two-rule adjudication, revised apprentice sheet,
   builder, and validator:
@@ -521,8 +545,9 @@ comparison set.
 
 ## Next work
 
-Propagate the 46-sign reading into the manually inspected passages and compare
-linear `CH+K` against embedded `C<K>H` without inventing different dictionary
-words. Then inspect the nineteen local signs: a local sign may become a
-portable core only if the same small value survives several existing owner
-types. No additional page is needed for that work.
+Run a leave-one-page-out apprentice replay: treat each of the twenty-two
+admitted pages once as if it were the next new page, use only the fixed
+19-core/8-control/4-channel sheet plus the six Pass-1023 scope rules, and count
+where a page still needs its local owner or learned whole card. No core may be
+retuned during that replay. The result becomes the admission sheet for the
+next four pages; no additional page is needed yet.

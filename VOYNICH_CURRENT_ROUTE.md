@@ -1,14 +1,14 @@
 # Voynich current route
 Updated: 2026-08-26. Use `experiments/EXPERIMENT_INDEX.tsv` for primary reports; consult the active state and ledger only for claim-detail audits or historical reconstruction.
 Noncanonical twenty-two-page sidequest: `experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_CURRENT.md`.
-Its creative Pass-1022 release binds 4,581 groups (3,888 running, 693 local) in one physically ordered 627-statement edition.
-The semantic pocket dictionary now has 46 signs: 12 content/action cores, 7
-relation cores, 8 formal controls and 19 local signs. Ten former specialist
-candidates resegment into existing components; `AIR=LAUF` becomes the seventh
-relation core. Of 3,888 running events, 3,343 use the portable core, 490
-require a local sign and 55 are control-only. A new composition must keep the
-fixed core sum; conflicts cannot be rescued by redefining roots.
-All 627 statements now have an owner–package–action–argument scope reading; the 19 local signs reduce to HIER, VARIANTE, KLASSE and VORBEZUG. One apprentice sheet of 19 cores, 8 controls, 4 local channels, 11 opening rules and 8 scope rules covers all 3,888 running events. Multi-head cards nest, Q pushes, OT switches, VORBEZUG restores and licensed DY closes; line/image wrap alone does not reset. A complete 10,252-atom trace leaves zero unbound modifiers, while 328 attachment alternatives remain explicit. Twelve hard image readings need this small stack but no new core value. Cross-register and four-image rereading still keep `AIIN=WERT`, `AIN=ANTEIL`, and `OR=EINHEIT`; pictures supply the local expansion.
+Its creative Pass-1023 release binds 4,581 groups (3,888 running, 693 local) in one physically ordered 627-statement edition.
+The semantic pocket dictionary has 46 signs: 12 content/action cores, 7
+relation cores, 8 formal controls and 19 local signs; the latter reduce to
+HIER, VARIANTE, KLASSE and VORBEZUG. Of 3,888 running events, 3,343 use the
+portable core, 490 require a local sign and 55 are control-only. A new
+composition must keep the fixed core sum; conflicts cannot be rescued by
+redefining roots.
+Pass 1023 operationally selects all 328 formerly open owner–package–action–argument attachments without changing a core: 127 bounded one-card forward bindings, 19 owner-bound AR/AL addresses, 120 equal-distance choices and 63 positional R choices with one overlap. A whole-inventory check rejects the tempting blanket-left rule at four counterexamples; the surviving rule is nearest head, left only on ties, while L/AIR frame right. Multi-head cards nest, Q pushes, OT switches, VORBEZUG restores and licensed DY closes; line/image wrap alone does not reset. Cross-register and four-image rereading still keep `AIIN=WERT`, `AIN=ANTEIL`, and `OR=EINHEIT`; pictures supply the local expansion.
 ## Scientific ceiling
 
 - The manuscript is **not translated**.
