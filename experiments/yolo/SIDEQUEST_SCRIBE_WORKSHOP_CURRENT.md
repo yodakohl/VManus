@@ -12717,6 +12717,18 @@ that contains exactly one remaining COPY_LOCAL_MODEL mark, assign that card a
 short concrete whole-word reading from its surrounding shared cards, and free
 the entire single-gap layer before attempting harder multi-gap passages.
 
+Pass 892 closes all21 single-gap units with21 short learned cards. Concrete new
+calls include ZIELKUEHLEN, SPUELEN, AUS DER QUELLE ANSETZEN, KURZ HALTEN,
+VOLLSTAENDIG DURCHARBEITEN, WASSER UMSETZEN and AUS DER QUELLE ZUGEBEN. Fully
+executable units rise from69 to90;22 multi-gap prose units and six local WHEN
+leaves remain. See
+`sidequest_semantic_single_gap_unit_closure_eight_hundred_ninety_second/EIGHT_HUNDRED_NINETY_SECOND_SINGLE_GAP_LESSON.md`.
+
+Next, inventory all22 multi-gap prose units by their remaining two-, three- or
+larger-card gaps. Group residual cards that perform the same visible operation
+into compact learned families, then close the complete two-gap layer with short
+continuous readings before approaching the longest passages.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
