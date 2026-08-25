@@ -11144,10 +11144,18 @@ cards remain identical to Pass759. See
 `sidequest_semantic_parameterized_apprentice_rules_seven_hundred_sixtieth/SEVEN_HUNDRED_SIXTIETH_REPORT.md`
 and `SEVEN_HUNDRED_SIXTIETH_NINE_RULE_APPRENTICE_SHEET.md`.
 
-Next, test whether the seven bound large exemplars can likewise be reduced to
-family parameters rather than exact statement triggers. Attempt owner/material
-slot substitution inside the three shells while preserving all seven outputs;
-if not, keep the irreducible exemplar tails explicit.
+Pass 761 parameterizes the seven large exemplars as eight shared M-motifs plus
+19 local T-tail strips and seven short layout lines inside three shells. The74
+cards rebuild from50 layout units:31 shared motif tokens and19 tail tokens,
+saving24 individual learning positions. All19 tails are unique, so the three
+shells alone cannot replace the seven layouts; each exact layout remains
+necessary. See
+`sidequest_semantic_large_formula_parameterization_seven_hundred_sixty_first/SEVEN_HUNDRED_SIXTY_FIRST_REPORT.md`.
+
+Next, replace the seven memorized full-sequence outputs in the forward compiler
+with the seven M/T layout lines plus8 motif and19 tail dictionaries. Confirm
+the complete116/381 output remains unchanged while the bound layer stores no
+74-card sentence sequence directly.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
