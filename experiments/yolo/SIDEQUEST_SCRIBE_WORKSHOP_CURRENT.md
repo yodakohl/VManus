@@ -11256,10 +11256,17 @@ exactly and no new rare-component rule is invented. Component teaching becomes
 Bio80h, Astro24h. See
 `sidequest_semantic_master_model_exercises_seven_hundred_seventy_third/SEVEN_HUNDRED_SEVENTY_THIRD_REPORT.md`.
 
-Next, test the one plausible promotion inside the rare sheet: LSH occurs in two
-cards and three events, unlike five single-use rare values. Compare learning
-LSH=WASCHEN plus O/E/DY composition against memorizing both LSH cards; promote
-only if it shortens the sheet and predicts both cards without changing context.
+Pass 774 promotes the only genuine multi-card rare pattern: Bio-local
+LSH=WASCHEN predicts both lsho=LSH+O and lshedy=LSH+E+DY exactly across3 events.
+It remains a register-local mini-paradigm because all evidence is at the f81v
+pool owner. Five one-use model cards remain, split3 Herbal (OS,CFH,TALAM) and2
+Bio (LD,DA). Productive access rises to168/173 cards,376/381 events and111/116
+statements; each specialist now needs36 prose components, the master39. See
+`sidequest_semantic_lsh_mini_paradigm_seven_hundred_seventy_fourth/SEVEN_HUNDRED_SEVENTY_FOURTH_REPORT.md`.
+
+Next, split the rare master sheet into three Herbal and two Bio boxes plus the
+two-card LSH strip. Test full specialist training with no access to the other
+register's rare box; the master alone keeps all five boxes and all39 values.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
