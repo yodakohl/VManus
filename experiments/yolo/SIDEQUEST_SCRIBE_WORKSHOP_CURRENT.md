@@ -10851,9 +10851,18 @@ better reading is “diesen Posten bis zum Maß führen und mit demselben
 weiterarbeiten”. See
 `sidequest_semantic_portable_minigrammar_seven_hundred_twenty_eighth/SEVEN_HUNDRED_TWENTY_EIGHTH_REPORT.md`.
 
-Next, audit every AIIN and AIN context separately. Preserve AIIN=Sollmaß and
-test whether AIN=Portion yields a distinct, practical composition throughout
-the fixed prose; revise any compound that cannot keep the split.
+Pass 729 separates the similar quantity strings across the entire fixed prose:
+AIIN=SOLLMASS (10 cards/39 events;20 bare/19 composed), AIN=PORTION (8/18;
+2 bare/16 composed), and IIN=ARBEITSSTUFE (3/4; all composed). The decisive
+practical pair is `OK+AIIN` nine times “bis zum Sollmaß ansetzen” versus
+`OK+AIN` seven times “eine Portion ansetzen”; likewise `K+AIN` handles a
+portion while `K+IIN` reaches a process stage. Thirteen cards/43 events/31
+statements are sharpened, with all forms fixed. See
+`sidequest_semantic_quantity_split_seven_hundred_twenty_ninth/SEVEN_HUNDRED_TWENTY_NINTH_REPORT.md`.
+
+Next, close the AR/AL direction pair across every fixed context. Test the
+simple workshop opposition AR=aus/von einer Quelle against AL=an/zu einer
+Zielstelle, keeping AIR=WASSER separate from AR.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
