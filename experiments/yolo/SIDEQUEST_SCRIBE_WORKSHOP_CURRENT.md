@@ -11179,10 +11179,21 @@ layout memory, and Astro correction returns to the visible local owner rather
 than predicting a sequence. See
 `sidequest_semantic_role_exams_seven_hundred_sixty_fourth/SEVEN_HUNDRED_SIXTY_FOURTH_REPORT.md`.
 
-Next, design the smallest plausible correction-mark vocabulary for a1420
-master: marks for delete, insert, transpose, repeat/current-item carry, grade,
-close, wrong local tail and wrong picture owner. Apply them to the four exams
-without rewriting whole lines, and test whether every correction is unambiguous.
+Pass 765 reduces workshop correction to six pen gestures: expunction dots,
+caret/renvoi insertion, a transposition arc, one-to-three grade ticks, a close
+hook and a leader to picture owner or model strip. They cover eight functions,
+including repetition as an insertion and tail replacement as delete+insert+
+model renvoi. Across the four exams only6 of17 local working units are touched;
+no whole line is recopied and all five readings become exact. Expunction,
+carets, marginal supplements and transposition signs have genuine medieval
+scribal analogues; the grade, close and owner variants are our workshop
+adaptation. See
+`sidequest_semantic_correction_marks_seven_hundred_sixty_fifth/SEVEN_HUNDRED_SIXTY_FIFTH_REPORT.md`.
+
+Next, apply this error vocabulary to actual awkward forms in the ten pages:
+adjacent duplicate cards, the one known margin/read-once repetition, unusual
+grade choices, open statements, and visible owner resets. Separate plausible
+copying/correction artifacts from forms that must remain intended content.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these

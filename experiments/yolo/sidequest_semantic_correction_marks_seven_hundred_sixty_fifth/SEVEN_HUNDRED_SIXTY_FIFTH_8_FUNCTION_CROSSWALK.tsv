@@ -1,0 +1,9 @@
+correction_function	mark_recipe	example
+DELETE	K1	falsche Karte punktieren
+INSERT	K2	fehlende Karte am Haken nachtragen
+TRANSPOSE	K3	zwei vertauschte Karten mit Bogen ordnen
+REPEAT_OR_CURRENT_ITEM_CARRY	K2+same-card-in-margin	PROC008 am Haken wiederholen
+GRADE	K4	zwei Striche machen aus Kurzgrad Langgrad
+CLOSE	K5+K2_if_missing	Schlusshaken pruefen und fehlende Endkarte einsetzen
+LOCAL_TAIL	K1+K2+K6	falschen Tail loeschen und richtigen Modellstreifen heranziehen
+PICTURE_OWNER	K6	Etikett auf richtigen sichtbaren Besitzer zurueckfuehren
