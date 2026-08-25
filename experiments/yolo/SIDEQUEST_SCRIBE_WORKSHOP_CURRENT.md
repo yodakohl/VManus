@@ -12044,6 +12044,19 @@ Next, integrate the strongest AR/AL swaps into the compact active prediction
 deck and test whether CKH=DURCHLASS behaves as a genuine middle address between
 source and target.
 
+Pass 837 keeps the active deck at24 recipes/30 surfaces but promotes
+`chdar`, `lal`, and `kchoal` to its first three searches. `CKH=DURCHLASS`
+survives as a path object:9 cards/14 events/12 statements, six statements also
+contain an AL target, and B1-S002 alone gives the full local sequence AR source
++ CKH passage + AL target. CKH is therefore not a third endpoint. The next
+source-path swaps are `chckhar=CH+CKH+AR` and
+`sheckhar=SH+E+CKH+AR`. See
+`sidequest_semantic_address_path_deck_eight_hundred_thirty_seventh/EIGHT_HUNDRED_THIRTY_SEVENTH_REPORT.md`.
+
+Next, pressure-test the quantity system as a compositional grid: AIN portion,
+AIIN prescribed measure and IIN stage should combine with recurring operators
+in different but predictable ways.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
