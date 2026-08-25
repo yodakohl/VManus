@@ -11375,6 +11375,19 @@ Next, factor the ten paired realizations into a few concrete surface operations
 (CHD~CHED expansion, Y~CHY insertion and entry-wrapper change). Promote only
 operations that explain more than one pair without changing the recipe value.
 
+Pass 783 factors7/10 paired recipes (43/71 events) with three reusable variant
+lessons. CHED↔CHD exactly generates three families/13 events; final Y↔CHY
+generates two families/25 events; a learned Q-front versus CH-inside template
+covers two families/5 events. Three families/28 events remain whole variants
+(`OL↔ls`, CHK/EE order, SH/EE wrapper). The page model still selects the
+variant; the operation teaches how to form and read it without learning a new
+meaning. See
+`sidequest_semantic_allograph_operations_seven_hundred_eighty_third/SEVEN_HUNDRED_EIGHTY_THIRD_REPORT.md`.
+
+Next, apply only CHED↔CHD and Y↔CHY across all163 recipes and list unattested
+but mechanically predicted partner surfaces. Check whether any already occur
+elsewhere on the ten pages with the same recipe, a different recipe or nowhere.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
