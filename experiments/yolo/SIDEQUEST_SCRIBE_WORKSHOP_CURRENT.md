@@ -10997,11 +10997,20 @@ rises2→4/19 and Biological66→70/97. Only H1-S001(OS),H2-S001(O),and H3-S001
 (O/T/Y) still omit real values from the fluent instruction. See
 `sidequest_semantic_helper_cue_packer_seven_hundred_forty_third/SEVEN_HUNDRED_FORTY_THIRD_REPORT.md`.
 
-Next, classify the42 remaining packing failures by competing attested
-segmentation. Build a small priority table for Herbal chaining, Biological
-single-cell compression, terminal-card absorption, repeated values and
-address-head versus operation-head choice. Do not alter the component meanings
-or invent cards.
+Pass 744 reclassifies the42 remaining packer errors by full component
+multiplicity. Only3 (B1-S006,B1-S015,B3-S030) are pure segmentation with the
+same components. Twenty are Y-copy only,10 are Y plus other missing copies,5
+are non-Y repetition,3 are fluent semantic omissions, and1 is mixed. Across
+the errors104 component occurrences are missing but only1 extra; Y alone is60,
+then OL6,AL5,AIIN4,OK4. Y therefore retains CURRENT WORK ITEM/DIES but gains a
+concrete scribal rule: it is a card-internal active-argument slot copied into
+each Y-valent learned recipe even when fluent prose uses a pronoun or ellipsis.
+See
+`sidequest_semantic_packing_error_taxonomy_seven_hundred_forty_fourth/SEVEN_HUNDRED_FORTY_FOURTH_REPORT.md`.
+
+Next, derive Y valency from the unchanged173-card deck and add active-item copy
+to the packer. Test which of the30 Y-driven errors disappear before touching
+other repetition or the three true segmentation cases.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
