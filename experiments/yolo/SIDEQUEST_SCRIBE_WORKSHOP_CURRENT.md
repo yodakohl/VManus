@@ -12613,6 +12613,18 @@ nineteen Herbal statements into consecutive batch states and decide whether H2
 and the restored H3/H5 tails create additional reusable internal products beyond
 the four handles used in the six-order book.
 
+Pass 884 turns all19 Herbal statements into four owner-specific batch chains
+with15 transitions. Ten states are stock-ready: four explicitly close, while six
+end a record or feed a DAVON resumption. Four old predecessor gaps are repaired.
+The existing six-order supplies remain sensible checkpoints: A.G2 ends H1, B.X2
+feeds DAVON, C.W2 ends H4 and D.P1 explicitly closes. See
+`sidequest_semantic_herbal_batch_chain_eight_hundred_eighty_fourth/EIGHT_HUNDRED_EIGHTY_FOURTH_HERBAL_BATCH_MANUAL.md`.
+
+Next, build a10-stock x6-application matching table from the concrete process
+features already assigned to each batch history and Biological record. Select
+the strongest stock for each HOW record, allow reuse, and revise the six orders
+only where another ready batch fits the visible operation chain better.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
