@@ -11086,9 +11086,16 @@ formula set is H1-S001,H2-S001,H3-S001,H5-S001,B1-S002,B3-S021,B6-S001.
 See
 `sidequest_semantic_post_formula_residual_taxonomy_seven_hundred_fifty_third/SEVEN_HUNDRED_FIFTY_THIRD_REPORT.md`.
 
-Next, implement exactly the seven one-edit contexts: append Y after CTH+Y,
-pack HO/AR/CKH/AIIN with their neighbor, duplicate OK+AIIN once, and select the
-attested T+E+Y order. Leave the other12 classes untouched.
+Pass 754 implements exactly the seven one-edit contexts: one Y echo, HO/AR Y
+valency, the T+E+Y order, L+CKH and OK+AIIN neighbor packing, and one repeated
+OK+AIIN card. Exact recipes rise97→104/116, equal card counts106→108, and
+output cards362→364/381. Seven triggers fix seven statements with no harm and
+no semantic/deck change. See
+`sidequest_semantic_minimal_local_packing_seven_hundred_fifty_fourth/SEVEN_HUNDRED_FIFTY_FOURTH_REPORT.md`.
+
+Next, resolve only the two segmentation/redistribution cases: B1-S006 must
+split `L+CKH+Y` as `CKH+Y | L`; B4-S002 must move OL and the active Y slot
+between neighboring cards. Then attack the three small phrase reorders.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
