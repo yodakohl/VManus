@@ -11699,6 +11699,18 @@ Next, test O=VORGANG, IIN=ARBEITSSTUFE and SOLK=SAMMELSTELLE. Build SOLK's
 grade/endpoint board, and demand independent portable compositions before
 promoting O or IIN.
 
+Pass 808 promotes O=VORGANG (18 cards/19 events), IIN=STUFE (3/4), and
+SOLK=SAMMELSTELLE (5/7) to core28. O composes with fifteen other operation,
+argument and endpoint values; O+IIN occurs twice as "Vorgang auf Stufe"; and
+SOLK fills four cells of an eight-cell place×grade×endpoint board. The four
+missing SOLK forms `qolkdy,solkedy,solkeeey,solkeeedy` have no fixed-page
+collision. All readings remain limited to registered recipes. See
+`sidequest_semantic_procedure_place_eight_hundred_eighth/EIGHT_HUNDRED_EIGHTH_REPORT.md`.
+
+Next, attack the final recurrent strip values T=ANWENDEN, CKH=DURCHLASS and
+R=KUEHLEN. Resolve whether each is a verb, noun or directional operator, then
+rebuild a fourth grammar.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
