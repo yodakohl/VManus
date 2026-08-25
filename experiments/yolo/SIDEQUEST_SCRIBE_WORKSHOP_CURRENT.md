@@ -1,11 +1,11 @@
 # Current eighteen-page scribe-workshop theory
 
-Updated: 2026-08-25, after Pass 1005.
+Updated: 2026-08-25, after Pass 1006.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
-translation**. This is the compact handoff for the sidequest. Pass 1005 keeps
-the corrected root/context grammar, reconciles every near form on the four new
-pages, and gives their running text a consolidated fluent workshop edition.
+translation**. This is the compact handoff for the sidequest. Pass 1006 keeps
+the corrected root/context grammar and unifies all eighteen pages in one
+continuous workshop edition.
 
 ## Fixed scope
 
@@ -18,9 +18,11 @@ Eighteen page units are in scope:
 
 Together they contain 3,168 visible groups. Of these, 2,618 belong to running
 prose or ring text and 550 are image labels, station addresses, vessel labels,
-or celestial ring positions. The older fourteen-page base retains its 354
-complete clauses. The 111 fresh loci contain 108 continuous statements;
-thirty-nine cross physical lines, so a line is not treated as a sentence.
+or celestial ring positions. All running text is now assigned to 462
+continuous statements: 354 inherited clauses plus 108 statements from the four
+new pages. Of these, 432 end on a licensed close, 30 at a visible boundary or
+open page edge, and 160 cross physical lines. A line is therefore never treated
+as a sentence by default.
 `f84` and `f84r` remain sealed.
 
 ## Best current mechanism
@@ -58,6 +60,13 @@ CPH+E+Y. Its 608 running groups therefore form 108 statements: 101 licensed
 closed, seven explicitly owner-/ring-/page-final, and thirty-nine cross-line.
 The combined edition has 3,168 events. No new portable root or codebook line
 was needed.
+
+Pass 1006 replaces the split old/new presentation with a single ordered
+edition. Every running group belongs to exactly one statement and every other
+group to exactly one local-address row. The 175-line codebook remains
+byte-identical to Pass 1002. The five true allograph rules and 29 newly visible
+root sums are separate apprentice appendices rather than extra words. f69v and
+f70v remain pure local celestial registers; no prose was invented for them.
 
 Beyond the 30 common formula cards, 70 recurrent compositions form a second
 apprentice drawer. They cover 287 events; 63 recur across multiple pages and
@@ -195,7 +204,11 @@ comparison set.
 
 ## Primary artifacts
 
-- Current Pass-1005 four-page consolidated edition, 34 near-form decisions,
+- Current Pass-1006 unified 462-statement edition, complete 3,168-event ledger,
+  550-address ledger, apprentice manual, five allograph rules, and 29 new root
+  sums:
+  `sidequest_semantic_eighteen_page_unified_workshop_edition_one_thousand_sixth/`;
+- Pass-1005 four-page consolidated edition, 34 near-form decisions,
   seven tail decisions, 108 fluent statements, and combined 3,168-event
   edition:
   `sidequest_semantic_allograph_and_open_tail_consolidation_one_thousand_fifth/`;
@@ -230,8 +243,7 @@ comparison set.
 
 ## Next work
 
-Build one unified eighteen-page workshop edition by joining the older 354
-clauses with the 108 Pass-1005 statements. Add the five scribe-allograph rules
-to the apprentice manual and carry the 29 newly explicit compositions as root
-sums, not new words. Once the resulting 462-statement edition reads
-consistently, the next four pages can be admitted.
+The eighteen-page merge is complete. Before admitting another page batch,
+compress the 462 statements into a small recurring clause-template drawer and
+use that drawer as the reading grammar for the next transfer. Do not enlarge
+the 53-root inventory merely to make a new page look fluent.

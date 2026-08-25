@@ -6,7 +6,7 @@ Updated: 2026-08-25. This is the full claim registry. For routine work, read
 
 ## Outcome
 
-### Noncanonical eighteen-page sidequest (Pass 1005)
+### Noncanonical eighteen-page sidequest (Pass 1006)
 
 The creative workshop sidequest covers eighteen admitted physical pages with
 3,168 visible groups: 2,618 running prose/ring-text groups plus 550 local
@@ -59,6 +59,14 @@ f77r, multiple vessel/ingredient batches on f88v, and three independent local
 ring namespaces on f71v. Its dense `AL=ZIEL`/`AR=QUELLE` use reinforces the
 celestial relational layer; together with the earlier f70v result this keeps
 `AIR=LAUF` rather than `WASSER` and blocks universal material water.
+
+Pass 1006 joins those 108 statements to the older 354 clauses. The resulting
+single eighteen-page edition contains 462 statements over all 2,618 running
+groups, plus 550 separately retained local addresses and labels. Of the 462
+statements, 432 have a licensed close, 30 end at a visible boundary or remain
+open, and 160 cross at least one physical line. The 175-line codebook is
+byte-identical to Pass 1002; the five allograph rules and 29 newly explicit
+root sums sit in separate apprentice appendices and add no portable root.
 
 - The manuscript is **not translated**. There are zero confirmed English
   lexemes, zero plaintext clauses, and no established language, phonetic
