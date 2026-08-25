@@ -11469,6 +11469,19 @@ quantity-bearing recipe, find real recurring core+quantity+outcome patterns,
 and separate the productive amount slot from whole cards that merely contain
 the same visible letters.
 
+Pass 790 finds57 quantity events/18 cards/18 recipes:39 AIIN and18 AIN. In
+56/57 events the quantity element is visible directly; only learned `sotodan`
+encodes OT+O+AIN without an `ain` string. Three genuine minimal paradigms cover
+40 events: bare AIIN/AIN, OK+AIIN/OK+AIN and Y+K+AIIN/Y+K+AIN. Across all three,
+AIIN consistently gives SOLLMASS and AIN PORTION. Of12 one-sided recipes,11
+permit14 direct counterpart surfaces with no fixed-page collision; the opaque
+`sotodan` partner is withheld. See
+`sidequest_semantic_quantity_axis_seven_hundred_ninetieth/SEVEN_HUNDRED_NINETIETH_REPORT.md`.
+
+Next, put the eleven formable AIIN/AIN counterpart recipes on a two-hand
+quantity board. Use already known wrapper preferences where available, copy a
+neutral master form elsewhere, and run forward/backward meaning checks.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
