@@ -11922,6 +11922,17 @@ joins the operation inventory. See
 Next, integrate T=BEARBEITEN, P=EINBRINGEN and SOLK=SAMMELN into a seventh
 complete grammar, including all affected statements and unseen predictions.
 
+Pass 827 publishes the seventh compact grammar with T=BEARBEITEN,
+P=EINBRINGEN and SOLK=SAMMELN integrated. The complete39-component,
+173-card,381-event and116-statement inventory rebuilds;17 cards/20 events/16
+statements change. Twelve of76 unseen predictions are also recomputed, while
+the six bound/whole exceptions remain concretely read. See
+`sidequest_semantic_seventh_workshop_grammar_eight_hundred_twenty_seventh/EIGHT_HUNDRED_TWENTY_SEVENTH_ONE_PAGE_GRAMMAR.md`.
+
+Next, inspect all76 predicted recipes for practical usefulness and reduce them
+to a small high-value workshop prediction deck; formal composability alone is
+not enough.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
