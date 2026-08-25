@@ -1,12 +1,12 @@
 # Voynich current route
 Updated: 2026-08-25. Use `experiments/EXPERIMENT_INDEX.tsv` for primary reports; consult the active state and ledger only for claim-detail audits or historical reconstruction.
 Noncanonical fourteen-page sidequest: `experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_CURRENT.md`.
-Its creative Pass-996 layer has 2,511 groups: 2,010 running-text groups in 354 natural clauses plus 501 local addresses.
+Its creative Pass-999 release binds 2,511 groups: 2,010 running-text groups in 354 natural clauses plus 501 local addresses.
 The 159-unit codebook has 53 roots, 30 formula cards, 51 specialist cards, 24 page-local cards/signs, and one address-copy rule.
 Biological has 1,280 groups/318 local clauses; f88r has 16 labels in rows 6+6+4 under three silent vessels.
-A second drawer adds 70 recurrent combinations/287 events without new roots; six atomic words shorten to MASS, PORTION,
-ANSATZ, STELLEN, MERKEN, and BEGINN. The creative book model is material → preparation → local application → celestial
-lookup, not a confirmed translation or decoded local name.
+A second drawer adds 70 recurrent combinations/287 events without new roots. In the corrected 8×8 grid, 24 cells are productive,
+12 are learned ligatures, one is specialist-only, two are address-only, and 25 are unused; three naive surfaces collide. All 30
+formula cards retain exact root-sum meanings. The creative model is material → preparation → local application → celestial lookup, not a confirmed translation.
 
 ## Scientific ceiling
 

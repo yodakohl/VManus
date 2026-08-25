@@ -6,7 +6,7 @@ Updated: 2026-08-25. This is the full claim registry. For routine work, read
 
 ## Outcome
 
-### Noncanonical fourteen-page sidequest (Pass 996)
+### Noncanonical fourteen-page sidequest (Pass 999)
 
 The creative workshop sidequest covers fourteen fixed physical pages with
 2,511 visible groups: 2,010 running-text groups in 354 naturally phrased
@@ -24,11 +24,18 @@ species is forced. Seventy recurrent root compositions now form a second
 apprentice drawer covering 287 events without enlarging the root inventory.
 Six inflated or modern atomic glosses have been shortened to MASS, PORTION,
 ANSATZ, STELLEN, MERKEN, and BEGINN. The leading creative book model remains a
-practical
-sequence of pictured simple materials, vessel preparations, bath/application
+practical sequence of pictured simple materials, vessel preparations, bath/application
 stations, and separate celestial lookup tables: *Liber simplicium,
 compositionum, balneorum et temporum caelestium*. These readings remain
 speculative and license no scientific lexeme or plaintext claim.
+
+Pass 997 corrects the composition grid: 24 cells are productive, 12 are
+learned formula ligatures, one is specialist-only, two are address-only, and
+25 are unused. `S+Y`, `CH+Y`, and `CH+AR` cannot use their naive surfaces
+because `sy`, `chy`, and `char` are already assigned. Pass 998 then reconciles
+four stale formula heads and shows that all 30 formula cards have exactly their
+root-composed meanings across 595 events. Pass 999 binds the Pass-996 base and
+both corrections in one current release manifest.
 
 - The manuscript is **not translated**. There are zero confirmed English
   lexemes, zero plaintext clauses, and no established language, phonetic

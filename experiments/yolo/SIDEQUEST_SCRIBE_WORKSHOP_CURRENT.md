@@ -1,10 +1,11 @@
 # Current fourteen-page scribe-workshop theory
 
-Updated: 2026-08-25, after Pass 996.
+Updated: 2026-08-25, after Pass 999.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
-translation**. This is the compact handoff for the sidequest. The complete
-current event, clause, address, page, and codebook edition is Pass 996.
+translation**. This is the compact handoff for the sidequest. Pass 999 binds
+the Pass-996 full edition to the mandatory Pass-997 grid correction and the
+Pass-998 formula-card correction.
 
 ## Fixed scope
 
@@ -50,6 +51,10 @@ Beyond the 30 common formula cards, 70 recurrent compositions form a second
 apprentice drawer. They cover 287 events; 63 recur across multiple pages and
 27 have multiple visible surface forms. They add no root and do not change the
 159-unit inventory.
+
+The 30 formula cards are graphically learned ligatures, not extra semantic
+words: all 30 have exactly the meaning obtained by composing their roots. The
+actual learned semantic exceptions reside in specialist and image-owned cards.
 
 The address rule is essential. A spelling inside a zodiac or star label is
 first the local name of that figure or position. It may remind the scribe of a
@@ -158,9 +163,12 @@ comparison set.
 
 ## Primary artifacts
 
-- Current theory and release:
+- Current bound theory, manifest, and one-page manual:
+  `sidequest_semantic_bound_composite_release_nine_hundred_ninety_ninth/`;
+- corrected 159-unit codebook:
+  `sidequest_semantic_formula_ligature_reconciliation_nine_hundred_ninety_eighth/PASS998_159_RECONCILED_CODEBOOK.tsv`;
+- full data base directory:
   `sidequest_semantic_canonical_scribe_workshop_sixth_edition_nine_hundred_ninety_sixth/`;
-- full 159-unit codebook: `PASS996_159_COMPLETE_CODEBOOK.tsv`;
 - full 2,511-event interlinear: `PASS996_2511_EVENT_INTERLINEAR.tsv`;
 - 53-root pocket dictionary: `PASS996_53_PORTABLE_ROOTS.tsv`;
 - 354 natural clauses: `PASS996_354_NATURAL_CLAUSE_EDITION.tsv`;
@@ -168,6 +176,8 @@ comparison set.
 - fourteen-page readable edition: `PASS996_14_PAGE_READABLE_EDITION.tsv`;
 - sixteen f88r ingredient labels: `PASS996_16_F88R_INGREDIENT_LABELS.tsv`;
 - second composition drawer: `PASS996_70_SECOND_DRAWER_COMPOSITIONS.tsv`;
+- corrected layered grid:
+  `sidequest_semantic_layered_composition_grid_correction_nine_hundred_ninety_seventh/PASS997_CORRECTED_LAYERED_EIGHT_BY_EIGHT_GRID.tsv`;
 - forward composition rules:
   `sidequest_semantic_forward_composition_handbook_nine_hundred_eighty_second/`;
 - historical workshop comparison:
@@ -175,8 +185,8 @@ comparison set.
 
 ## Next work
 
-Do not add pages yet. Use the 24 filled and 40 empty cells of the 8×8
-composition grid to distinguish normal unused combinations from genuine
-collisions in the present pages. Prefer a concrete counterexample or a shorter
-headword over adding a root. Preserve the sixteen f88r labels as local whole
-cards until a visible shape supports a narrower ingredient class.
+Do not add pages yet. Work through the 25 truly unused cells: 22 have a free
+naive surface, while `S+Y`, `CH+Y`, and `CH+AR` require an alternative spelling
+because their shortest forms are occupied. Prefer a concrete renderer repair
+over adding a root. Preserve the sixteen f88r labels as local whole cards until
+a visible shape supports a narrower ingredient class.
