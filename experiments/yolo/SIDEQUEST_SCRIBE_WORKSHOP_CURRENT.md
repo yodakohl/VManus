@@ -11967,6 +11967,18 @@ expansions of DY/O/L/owner syntax. This nominates the simplification
 Next, apply Y=POSTEN across all61 cards/125 events, revise the sole remaining
 ANSATZ sentence, and recompute the compact prediction deck.
 
+Pass 831 publishes the eighth compact grammar with `Y=POSTEN`. An explicit
+recipe recount corrects the previous planning figure: Y occurs in60 exact cards
+and124 events, not61/125; DY remains a separate licensed close. All60 Y-bearing
+statements now name a POSTEN, with only H3-S001 revised from ANSATZ. Twenty-three
+of76 predictions change their literal reading; the active24-recipe/30-surface
+deck remains intact. See
+`sidequest_semantic_eighth_workshop_grammar_eight_hundred_thirty_first/EIGHT_HUNDRED_THIRTY_FIRST_ONE_PAGE_GRAMMAR.md`.
+
+Next, repeat the hidden-word audit on the eighth grammar. With POSTEN now
+literal, attack the next recurrent content addition that cannot be explained as
+ordinary German syntax or a synonym of an existing component.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
