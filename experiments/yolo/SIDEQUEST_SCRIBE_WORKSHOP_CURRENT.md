@@ -12692,6 +12692,19 @@ core-card neighbours and visible owner. Propagate the best coherent readings
 through all occurrences and measure how many apprentice units become fully
 readable without the local prose leaf.
 
+Pass 890 teaches twelve short local whole words across20 marks: eight recurrent
+cards plus the four-card H3 chain DURCHARBEITEN -> ZUGEBEN -> FOLGEPOSTEN ->
+WEITERANSETZEN. Other examples are WARMHALTEN, PFLANZENZUTAT, WEITERLEITEN,
+KURZSPUELEN UND SCHLIESSEN and NACHHALTEN. Six additional units become free of
+the local prose leaf, raising fully readable units from53 to59; stems and all
+six condition leaves remain unchanged. See
+`sidequest_semantic_twelve_local_whole_words_eight_hundred_ninetieth/EIGHT_HUNDRED_NINETIETH_WHOLE_WORD_LESSON.md`.
+
+Next, inspect the ten units that remain LOCAL_MODEL_ONLY after those promotions.
+Give every such unit a short concrete workshop reading, choose the smallest set
+of additional learned whole cards that unlocks all ten, and rewrite the affected
+order passages as continuous actions. Do not touch the six Astro model leaves.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
