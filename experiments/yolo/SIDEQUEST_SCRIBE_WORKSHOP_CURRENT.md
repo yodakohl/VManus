@@ -11869,6 +11869,17 @@ OK activates, T works on, CHD moves or converts. See
 Next, pressure-test K=ZUGEBEN, P=EINFUELLEN and L=LEITEN across every event,
 especially whether the three rare P cards consistently require a receiver.
 
+Pass 822 revises `P` from EINFUELLEN to the broader directional operation
+`EINBRINGEN`. Two of three P cards address visible basin/vessel receivers, but
+the f11r card has only a local plant/work owner; EINBRINGEN works for all three
+without inventing a vessel. The full transfer contrast now reads K=material
+joins the active mixture (21 events), P=moves inward to receiver/work site (3),
+and L=travels along a path (27). See
+`sidequest_semantic_p_bring_in_eight_hundred_twenty_second/EIGHT_HUNDRED_TWENTY_SECOND_REPORT.md`.
+
+Next, pressure-test SH=HALTEN against SHED=STEHENLASSEN across all events,
+especially the two nonterminal SHED+AL cards.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
