@@ -11880,6 +11880,16 @@ and L=travels along a path (27). See
 Next, pressure-test SH=HALTEN against SHED=STEHENLASSEN across all events,
 especially the two nonterminal SHED+AL cards.
 
+Pass 823 retains SH=HALTEN and SHED=STEHENLASSEN after all40 memberships. SH
+keeps an item under active control in25 events. SHED releases active handling:
+12 SHED+DY and1 R+SHED+DY uses close a step, while2 SHED+AL uses leave the item
+at a target for subsequent work. ABSETZEN overfits sediment; RUHEN loses the
+transitive instruction; ABSTELLEN is ambiguous. See
+`sidequest_semantic_hold_wait_eight_hundred_twenty_third/EIGHT_HUNDRED_TWENTY_THIRD_REPORT.md`.
+
+Next, pressure-test OL=WEITER, OT=DANACH and OS=DAZU in all memberships,
+especially whether the singleton OS is really additive rather than successive.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
