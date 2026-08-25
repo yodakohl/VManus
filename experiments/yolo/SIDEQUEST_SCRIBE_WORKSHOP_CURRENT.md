@@ -12825,6 +12825,20 @@ four fused forms and TALAM as learned lexicon entries. Then give worked forward
 examples from intended instruction to root string and backward examples from
 surface to workshop reading.
 
+Pass 900 adds twelve local/technical signs to the36 semantic roots and parses
+all231 identities/all437 marks with eight teachable patterns: whole lexicon,
+closing instruction, ordered instruction, operation, transfer/path, state/grade,
+argument/address and referent/label. Ten worked roundtrips include Y+K+AIIN ->
+ykaiin, OK+EE+AL -> qokeedal, OT+CHD+DY -> qotchedy and R+SHED+DY -> rshedy.
+See `sidequest_semantic_scribe_slot_grammar_nine_hundredth/NINE_HUNDREDTH_SCRIBE_SLOT_GRAMMAR.md`.
+
+Next, make the renderer itself teachable. For every one of the48 symbols collect
+its visible realizations by card position and hand/register. Infer a small
+allograph manual for q/qo carriers, OK/OT/OL frames, CH/CHD operations,
+E/EE/EEE grades, AIIN/AIN/AL/AR/AIR arguments, L/R onsets and Y/DY endpoints.
+Use it to render the ten worked root recipes forward into their observed surface
+families and identify only the irreducible memorized spellings.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
