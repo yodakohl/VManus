@@ -11116,10 +11116,19 @@ cadence, and three Bio address/continuation echoes. Their gap is36 missing
 components versus2 extra, led by Y9,AL4,OL4. See
 `sidequest_semantic_large_formula_motifs_seven_hundred_fifty_seventh/SEVEN_HUNDRED_FIFTY_SEVENTH_REPORT.md`.
 
-Next, build a final large-formula deck with exactly three family shells, the
-eight shared exact-card motifs, and seven bound exemplar sequences. Integrate
-it after all productive and small-phrase rules; require exact shell context and
-then confirm full116/116 recipe reconstruction.
+Pass 758 integrates a final eight-layer mixed packer:39 short values,173 exact
+cards,9 helper conventions,55 Y-valency bases,25 small context phrases,3 large
+formula shells,8 shared large-formula cards and7 bound exemplars. It now
+reconstructs116/116 statements,381/381 cards and11/11 records exactly. The
+productive/small-phrase layer alone supplies109 statements; only seven long
+sequences require a bound exemplar. See
+`sidequest_semantic_complete_mixed_codebook_packer_seven_hundred_fifty_eighth/SEVEN_HUNDRED_FIFTY_EIGHTH_REPORT.md`
+and `SEVEN_HUNDRED_FIFTY_EIGHTH_COMPLETE_WORKSHOP_PACKER.md`.
+
+Next, make the system genuinely teachable: derive one compact forward sheet
+from these eight layers and regenerate all116 statements without consulting
+the final observed-sequence column. Record which decisions come from productive
+rules, small phrases, or one of the seven bound exemplars.
 
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
