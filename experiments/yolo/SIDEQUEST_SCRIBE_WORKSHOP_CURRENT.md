@@ -12767,6 +12767,19 @@ hold and longer target setting; retain their exact positions among the fourteen
 already shared cards. Then publish a prose-complete 112-unit workshop edition,
 keeping the six Astro condition leaves separate.
 
+Pass 896 closes B1-S002 with WASSER ZUGEBEN, KUEHL WEITERARBEITEN, ANSATZ
+WEITERFUEHREN, KURZ AM ZIELDURCHLASS HALTEN and LAENGER AN DER ZIELSTELLE
+ANSETZEN. All112 WHAT/HOW units and all364 prose marks are now readable from251
+shared-core marks plus113 learned whole-card marks. Only the73 marks of the six
+complete local WHEN leaves remain model-copy actions. See
+`sidequest_semantic_prose_complete_workshop_edition_eight_hundred_ninety_sixth/EIGHT_HUNDRED_NINETY_SIXTH_PROSE_COMPLETE_WORKSHOP_BOOK.md`.
+
+Next, replace the generic BEDINGUNGSTEIL labels on all73 WHEN marks with short
+local condition words. Use the visible component parse and the six handle themes
+to name phase, aspect, direct-place, numbered-place, moisture/weather and
+light/body-quality roles without importing planet, sign or month names. Retain
+the complete six surface sequences and make every condition mark speakable.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
