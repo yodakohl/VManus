@@ -12366,6 +12366,19 @@ Next, pair the four Herbal process types with the six Biological application
 records by shared operations and required inputs, without pretending to know an
 exact product name or direct page reference.
 
+Pass 866 pairs four Herbal preparation archetypes against six Biological
+application records in a compact24-cell workshop matrix. B1 selects the watery
+open base; B2 and B5 select the ingredient-rich passage preparation; B3 selects
+the expressed/received extract; B4 and B6 select the measured warm batch. All
+four preparation types are used as a primary match, and each choice also has a
+live secondary preparation. The bridge is now concrete at the process-type
+level, but no card identifies an exact product or points to an Herbal page. See
+`sidequest_semantic_herbal_biological_process_pairing_eight_hundred_sixty_sixth/EIGHT_HUNDRED_SIXTY_SIXTH_WORKSHOP_PAIRING_READING.md`.
+
+Next, turn these six pairings into a compact WHAT→HOW workshop leaf with an
+explicit unnamed-product slot, and see which information a second scribe must
+receive orally or from the picture.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
