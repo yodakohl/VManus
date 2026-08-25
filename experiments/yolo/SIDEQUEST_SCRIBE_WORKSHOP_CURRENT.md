@@ -12224,6 +12224,16 @@ with no residual spelling exception and no meaning change. See
 Next, turn the complete lesson into a compact model-book page: exemplar cards,
 their permitted variants and one concrete workshop command per family.
 
+Pass 853 publishes a sixteen-row workshop model leaf covering eight practical
+families and52 registered surfaces. Fourteen cards compose from shared pieces;
+`DAVON` and `DAZU` remain learned whole cards. Every row pairs its permitted
+forms with one short invariant meaning and one concrete German exercise. See
+`sidequest_semantic_model_book_leaf_eight_hundred_fifty_third/EIGHT_HUNDRED_FIFTY_THIRD_MODEL_BOOK_LEAF.md`.
+
+Next, use only the sixteen-row model leaf to compose a new six-step herbal
+preparation, render it in all four styles and read all versions back to the same
+commands.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
