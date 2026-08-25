@@ -1,11 +1,11 @@
 # Current twenty-two-page scribe-workshop theory
 
-Updated: 2026-08-25, after Pass 1008.
+Updated: 2026-08-25, after Pass 1009.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
-translation**. This is the compact handoff for the sidequest. Pass 1008 keeps
-the nine reusable apprentice sentence drawers and transfers them to four more
-physical pages without adding a portable root.
+translation**. This is the compact handoff for the sidequest. Pass 1009 joins
+all twenty-two pages into one ordered 627-statement edition and resolves the
+remaining local action ellipses without adding a portable root.
 
 ## Fixed scope
 
@@ -18,11 +18,11 @@ Twenty-two physical pages are in scope:
 
 Together they contain 4,581 visible groups. Of these, 3,888 belong to running
 prose or ring text and 693 are image labels, station addresses, vessel labels,
-celestial ring positions, or section markers. The first eighteen pages retain
-their 462 statements; the four Pass-1008 pages add 165, for 627 total. Their
-combined endings are 566 licensed closes, 51 visible boundaries, and ten open
-ends; 199 statements cross physical lines. A line is therefore never treated
-as a sentence by default.
+celestial ring positions, or section markers. The running layer is now one
+physically ordered edition of 627 statements. Its endings comprise 566
+licensed closes, 51 visible boundaries, and ten open ends; 199 statements
+cross physical lines. A line is therefore never treated as a sentence by
+default.
 `f84` and `f84r` remain sealed.
 
 ## Best current mechanism
@@ -85,6 +85,17 @@ statements omit an action card and inherit the active section operation. The
 strongest correction comes from f76r: it is a dense text-only page, not a
 picture-owned station sheet. Its clause architecture transfers, but concrete
 bath, body, basin, or apparatus nouns cannot be read from an absent image.
+
+Pass 1009 joins the former 462+165 statements and corrects the old ACTION
+classification. Of the 627 statements, 588 carry an explicit operation root,
+nine fuse path and operation (`L=LEITEN`, `SOLK=AUFFANGEN`), and three are
+self-predicated by `OL=FORTSETZEN`. Only 27 are true action ellipses: 24
+follow-up grade cells, two target lists, and one preparation continuation.
+Every one points back to a concrete earlier operation inside the same page and
+visible-owner block. Therefore `otedy` is not assigned a sentence-sized fixed
+gloss: it means “danach die laufende Handlung kurz ausführen”, becoming for
+example **danach kurz setzen**, **geben**, or **umsetzen** in its local chain.
+This is a compact apprentice anaphora rule, not a new word.
 
 Beyond the 30 common formula cards, 70 recurrent compositions form a second
 apprentice drawer. They cover 287 events; 63 recur across multiple pages and
@@ -223,6 +234,10 @@ comparison set.
 
 ## Primary artifacts
 
+- Current Pass-1009 ordered 627-statement edition, 4,581-event ledger, complete
+  page profile, all 27 ellipsis resolutions, predicate profile, readable
+  edition, builder, and validator:
+  `sidequest_semantic_twenty_two_page_statement_consolidation_one_thousand_ninth/`;
 - Current Pass-1008 four-page event transfer, all 165 statement assignments,
   owner map, image manifest, complete readable edition, and 4,581-event ledger:
   `sidequest_semantic_four_page_template_transfer_one_thousand_eighth/`;
@@ -268,7 +283,8 @@ comparison set.
 
 ## Next work
 
-Merge the 462 old and 165 new statements into one ordered 627-statement
-twenty-two-page edition, then inspect the eight inherited-action clauses as a
-small ellipsis/section-marker problem. Keep the nine drawers and 53 roots fixed;
-do not add a root merely to make those clauses look fluent.
+Inspect the 24 `OT+Grad` action-inheritance chains as a compact short/long/full
+paradigm. Compare only repeated active operations within the same owner block:
+does `E/EE/EEE` consistently alter duration or completeness while leaving the
+inherited verb unchanged? Keep the nine drawers and 53 roots fixed, and revise
+the grade reading only if the local chains demand it.

@@ -6,7 +6,7 @@ Updated: 2026-08-25. This is the full claim registry. For routine work, read
 
 ## Outcome
 
-### Noncanonical twenty-two-page sidequest (Pass 1008)
+### Noncanonical twenty-two-page sidequest (Pass 1009)
 
 The creative workshop sidequest covers twenty-two admitted physical pages with
 4,581 visible groups: 3,888 running prose/ring-text groups plus 693 local
@@ -90,6 +90,18 @@ batches on f89r, and thirteen textual/rubric sections on f76r. Crucially, f76r
 has no local figure or apparatus: the formal clause grammar transfers there,
 but a bath, body part, vessel, or machine noun cannot be supplied by the page
 image.
+
+Pass 1009 replaces the split 462+165 presentation with one physically ordered
+627-statement edition over all 4,581 visible groups. It also repairs the narrow
+ACTION-role audit: 588 statements contain an explicit operation root, nine
+fuse operation with a path root, and three are self-predicated by
+`OL=FORTSETZEN`. The remaining 27 are genuine local ellipses: 24 follow-up
+grade cells, two target lists, and one preparation continuation. Every one
+inherits a concrete earlier operation within the same page and visible-owner
+block; none requires a new portable root. Thus forms such as `otedy` are read
+contextually as “danach [laufende Handlung] kurz”, rather than as a memorized
+global verb. The unified ending inventory is 566 licensed closes, 51 visible
+boundaries, ten open ends, and 199 physical-line crossings.
 
 - The manuscript is **not translated**. There are zero confirmed English
   lexemes, zero plaintext clauses, and no established language, phonetic
