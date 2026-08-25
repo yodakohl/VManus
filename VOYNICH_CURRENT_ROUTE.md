@@ -1,13 +1,13 @@
 # Voynich current route
 Updated: 2026-08-25. Use `experiments/EXPERIMENT_INDEX.tsv` for primary reports; consult the active state and ledger only for claim-detail audits or historical reconstruction.
 Noncanonical fourteen-page sidequest: `experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_CURRENT.md`.
-Its current creative working layer is Pass 934: Pass 924 binds 2,511 groups,
-1,384 cards and 464 loci; Passes 925–934 add 354 process maps, 22 reusable
-handgrips, 28 multi-step fragments, twelve concrete page readings, ten diagram
-readings, a 56-core two-register dictionary, 1,384 recomposed cards, 70 forward
-paradigm predictions and a 16-rule apprentice manual. This remains a creative
-workshop reading, not a confirmed translation or decoded local name.
-
+Its current creative working layer is Pass 947: 2,511 groups split into 1,008
+productive abbreviation readings, 1,002 learned-formula readings and 501 local
+nomenclator/address readings. The deck has 56 short values and 47 learned card
+families with 97 surfaces; all 354 prose clauses and 14 pages have complete
+readings. The leading book model is plant material → vessel preparation →
+bath/application → celestial selection. This remains a creative workshop
+reading, not a confirmed translation or decoded local name.
 ## Scientific ceiling
 
 - The manuscript is **not translated**.

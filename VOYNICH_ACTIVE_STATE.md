@@ -6,22 +6,20 @@ Updated: 2026-08-19. This is the full claim registry. For routine work, read
 
 ## Outcome
 
-### Noncanonical fourteen-page sidequest (Pass 934)
+### Noncanonical fourteen-page sidequest (Pass 947)
 
-The creative workshop sidequest now covers fourteen fixed physical pages with
-2,511 groups and 1,384 exact cards. It separates 2,010 workshop-prose groups
-from 501 owner/address/diagram groups, maps the prose to 1,435 work instructions
-and 354 clauses, and assigns all 6,513 component atoms to a 56-entry two-level
-dictionary. The strongest creative mechanism is one shared abstract card
-grammar with register expansion: for example `O=LAUF` becomes execute a work
-run or call an image row, `K=ZUORDNUNG` becomes add material or assign a value,
-and `AIR=LAUFWEG` becomes a liquid/station path or celestial ring path. All
-1,384 cards are re-composed without a new whole-card gloss; 107 surfaces occur
-in both channels with the same recipe. The concrete working book is a
-picture-led plant-preparation, bath/application and celestial-lookup compendium,
-with a practical material/bathhouse/atlas miscellany as close rival. These are
-deliberately speculative readings and license no scientific lexeme or
-plaintext claim.
+The creative workshop sidequest covers fourteen fixed physical pages with
+2,511 groups, 1,078 surfaces and 1,384 exact cards. Its current three-layer
+codebook assigns 1,008 events to productive 56-value abbreviation composition,
+1,002 prose events to 47 learned formula-card families with 97 surfaces, and
+501 events to local image nomenclature or addresses. All 2,010 prose events
+remain bound to 1,435 instructions and 354 clauses. Direct f88r image reading
+adds three vessel/preparation heads and thirteen local ingredient labels. The
+leading creative book model is now a practical sequence of pictured simple
+materials, vessel preparations, bath/application stations and separate
+celestial-selection tables: *Liber simplicium, compositionum, balneorum et
+temporum caelestium*. These readings remain speculative and license no
+scientific lexeme or plaintext claim.
 
 - The manuscript is **not translated**. There are zero confirmed English
   lexemes, zero plaintext clauses, and no established language, phonetic
