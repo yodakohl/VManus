@@ -11858,6 +11858,17 @@ Next, pressure-test OK=ANSETZEN against T=ANWENDEN in all ten T-bearing events.
 Every ANWENDEN must acquire a natural local object or owner; otherwise revise T
 to a better single action value.
 
+Pass 821 revises `T` globally from ANWENDEN to `BEARBEITEN`. ANWENDEN was
+silently omitted in two f11r readings and became unnecessarily body-/target-
+specific in the basin records. BEARBEITEN is spoken naturally in all10 events,
+9 exact cards and7 affected statements: short/full work, work while holding,
+and work before extraction/closure. The main action contrast is now explicit:
+OK activates, T works on, CHD moves or converts. See
+`sidequest_semantic_t_work_eight_hundred_twenty_first/EIGHT_HUNDRED_TWENTY_FIRST_REPORT.md`.
+
+Next, pressure-test K=ZUGEBEN, P=EINFUELLEN and L=LEITEN across every event,
+especially whether the three rare P cards consistently require a receiver.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
