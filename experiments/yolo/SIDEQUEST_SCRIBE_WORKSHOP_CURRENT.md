@@ -12493,6 +12493,19 @@ Next, test the corrected system by composing a second complete order from a
 different Herbal product, Biological record and Astro shelf, reusing the same
 six calibrations without changing the dictionary.
 
+Pass 875 composes a genuinely different95-mark order:8 marks make internal
+product `B.X2` from f11r,86 execute B3's34 cells at five f83r owners, and one
+f67r2 mark `dolchsody` supplies condition `C2@f67r2.15`. All six Pass874
+calibrations are reused unchanged, all five payloads are filled, and no
+dictionary meaning changes. Nineteen exact prose-card identities overlap the
+first order even though product, application record and Astro shelf differ.
+See
+`sidequest_semantic_second_complete_order_eight_hundred_seventy_fifth/EIGHT_HUNDRED_SEVENTY_FIFTH_SECOND_COMPLETE_ORDER.md`.
+
+Next, compose the remaining four WHAT→HOW jobs into equally complete orders and
+publish one six-order workshop book, so every Biological record is paired with
+an exact internal product and one concrete local condition handle.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
