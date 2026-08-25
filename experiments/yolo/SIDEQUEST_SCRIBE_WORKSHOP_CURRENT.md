@@ -11650,6 +11650,19 @@ Next, resolve P=FÜLLEN against the rival EMPFAENGER/HINEIN. Read `P+Y`,
 `P+CHD+DY` and `P+CHD+AL` as a single coherent instruction family and choose
 the smallest portable value.
 
+Pass 804 revises P to `EINFÜLLEN` and promotes it to core21. `P+Y` says "dies
+einfüllen" after the plant preparation is wrung out; `P+CHD+DY` says
+"einfüllen, umsetzen; Schluss" at the small basin stations; and `P+CHD+AL`
+says "an der Zielstelle einfüllen und umsetzen" at the basket-like vessel.
+Plain HINEIN lacks a verb, EMPFAENGER creates noun piles, and FUELLEN loses the
+shared inward direction. The receiver remains supplied by the local picture
+owner. See
+`sidequest_semantic_p_recipient_eight_hundred_fourth/EIGHT_HUNDRED_FOURTH_REPORT.md`.
+
+Next, resolve LSH=WASCHEN against SPUELEN and AUSWASCHEN from its two card
+families and full neighbouring process chains. Keep one short portable value
+or leave it on the strip.
+
 Continue only inside the ten-page creative workshop sidequest when the user
 asks. Do not add pages automatically, score Voynich semantics, or turn these
 working meanings into canonical claims. The active task values fast concrete
