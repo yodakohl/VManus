@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **423**
-- Experiment-associated tracked files: **6,068** (672.5 MiB)
-- Structured GDT337+ experiments: **88**
+- Experiments indexed: **424**
+- Experiment-associated tracked files: **6,085** (674.6 MiB)
+- Structured GDT337+ experiments: **89**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT425 | GDT425_complete_factorized_action_portability | `COMPLETE_FACTORIZED_ACTION_REPLAY_WITH_NINE_LOCAL_CARDS` | [report](../experiments/yolo/gdt425_complete_factorized_action_portability/REPORT.md) | 17 | 2.2 MiB | 3 | STRUCTURED_YOLO |
 | GDT424 | GDT424_page_private_slot_exception_compression | `FIFTY_OF_FIFTY_SEVEN_RED_CELLS_RESOLVED__SEVEN_LOCAL_RULES` | [report](../experiments/yolo/gdt424_page_private_slot_exception_compression/REPORT.md) | 16 | 77.4 KiB | 2 | STRUCTURED_YOLO |
 | GDT423 | GDT423_leave_one_page_action_grammar_replay | `LEAVE_ONE_PAGE_REPLAY_97_78_PERCENT_GREEN_OR_AMBER` | [report](../experiments/yolo/gdt423_leave_one_page_action_grammar_replay/REPORT.md) | 14 | 1.2 MiB | 2 | STRUCTURED_YOLO |
 | GDT422 | GDT422_multi_action_chain_pair_reduction | `ALL_LONG_ACTION_CHAINS_REDUCED_WITHOUT_NEW_CARD` | [report](../experiments/yolo/gdt422_multi_action_chain_pair_reduction/REPORT.md) | 14 | 87.2 KiB | 3 | STRUCTURED_YOLO |

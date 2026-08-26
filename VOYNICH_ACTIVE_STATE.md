@@ -128,6 +128,17 @@ are fully old-rule readable. The residue is a seven-card local appendix on six
 pages: five adjacent pairs, one `S<-EEE` focus edge, and one combined
 `R<-AIR+CLOSE` package. None adds a root or changes a working meaning.
 
+GDT425 repeats the factor replay over all 4,576 running events rather than only
+the GDT423 red queue. Of 4,558 action-bearing events, 4,549 (99.80%) use only
+cross-page action factors and nine need one local appendix card. Exact
+cross-page support covers 5,047/5,051 focus edges, 641/649 immediately adjacent
+action-pair occurrences, and 639/639 action-bound closes. Of the eight locally
+unique adjacent pairs, one is an old R-tail and one an old repetition; six
+remain local. Three local action-focus edges complete the nine-card appendix.
+The full corpus also corrects the provisional GDT424 deck: `T>OK`, `R>CH` and
+`S>K` already recur on other pages inside complex cards, while four different
+local pairs and `R<-EE` become visible. No root or working value changes.
+
 Pass 1032/GDT404 applies the frozen GDT403 intake contract to a one-shot random
 draw of f1r, f24v, f81r and f95v. The 95 guarded lines add 688 events, 88
 statements and 677 focus attachments. Exactly 470 events retain an old surface
