@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-27, after GDT506.
+Updated: 2026-08-27, after GDT507.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -1423,12 +1423,17 @@ carriers of `P>CH`, `S>CHD`, `CH>P`, `CH>CH` and `CH>SH`; the five neutral
 German handgrips retain their action order in 34 adjacent and 21 visibly
 separated clauses.
 
-GDT506 now ranks the complete eleven target frames. Three have a local
-argument-compatible old reduction and four have one in another register. The
-only unresolved mechanism is narrow: source/pharmaceutical `CH+CH` and
-`CH+SH` inherit “das zuvor Genannte”, while all ten exact old carriers state an
-argument explicitly. Their action readings stay in place as exploratory
-defaults. Next search the 65 broader old `CH>CH` chains and sibling
-`CH>@ACTION` handgrips for an inherited-argument bridge. Do not open new pages,
-invent a new root, or change any current sentence merely to close these four
-cards.
+GDT506 ranks the complete eleven target frames: three have local and four have
+cross-register argument-compatible reductions. GDT507 supplies concrete
+bridges for the remaining four. The 65 broader `CH>CH` carriers contain eleven
+inherited-argument and one argument-free event; four additional immediate
+`CH→CH` card sequences carry one inherited argument. For `CH>SH`, nine
+immediate same-statement `CH→SH` sequences retain the same inherited argument
+across the card boundary, on seven pages and in all five registers.
+
+Pharmaceutical `CH+CH` and both source/pharmaceutical `CH+SH` cards are now
+locally `CONTEXT_BRIDGED_WORKING`. Source `CH+CH` has concrete within-event and
+adjacent-event bridges only in other registers. Next search only for its local
+same-owner analogue with at most one visible intervening card. The four bare
+target recipes remain unobserved, all current phrases remain fixed, and no new
+page is opened.

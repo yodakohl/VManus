@@ -12233,3 +12233,27 @@ not rejected or promoted. All eleven phrases and nineteen root meanings remain
 unchanged; no surface or occurrence is predicted. Validation passes 508/508.
 Next inspect only broader old `CH>CH` chains and sibling `CH>@ACTION` carriers
 with inherited arguments for that four-card bridge; keep all pages closed.
+
+## GDT507 contextual pair-argument bridge atlas
+
+GDT507 expands only the comparison scope behind GDT506's four Tier-C cards.
+The full action sequence contains 65 `CH>CH` events rather than the seven
+exact-two-head carriers: 53 state an argument, eleven inherit one and one is
+argument-free. Four additional same-statement `CH→CH` card sequences retain
+one inherited argument across the card boundary.
+
+The three within-event `CH>SH` carriers remain explicit-argument clauses, but
+nine immediate `CH→SH` card sequences inherit the same argument on both cards.
+They span seven pages and all five registers. Source has three local examples,
+including `G407-E0117→G407-E0118` with `OR`; Pharma has
+`G407-E3857→G407-E3858` with `AIIN`. GDT436 retains the live argument through
+all thirteen chains and GDT425 factorizes every participating event with old
+cross-page factors.
+
+All four former Tier-C targets therefore become concrete
+`CONTEXT_BRIDGED_WORKING` assumptions: pharmaceutical `CH+CH` and both
+`CH+SH` cards are locally bridged; source `CH+CH` remains the sole
+cross-register bridge. The bare target recipes remain unobserved and all four
+phrases, roots, surfaces and occurrence claims stay unchanged. Validation
+passes 1,197/1,197. Next search only source `CH→CH` same-owner sequences with
+at most one visible intervening card; keep all pages closed.
