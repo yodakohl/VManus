@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT432.
+Updated: 2026-08-26, after GDT433.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -106,6 +106,14 @@ every local target reading returns byte-for-byte to GDT431. The deck uses 30
 directed root changes, all already covered by GDT428/GDT429 frames. Of the 725
 local comparisons, 275 have the source recipe attested in that exact register;
 450 are marked counterfactual expansions, not extra evidence.
+
+GDT433 adds a deliberately smaller second ring. Two different atom positions
+of an observed base must each lead to a strong GDT431 card, and both strong
+cards must then meet at the same opposite corner. The complete graph contains
+21 squares and fourteen targets. Only `AIR+AIN` = BAHN · ANTEIL and `P+L` =
+EINSETZEN · VERBINDUNG have four observed bases plus four distinct strong arms;
+they become weaker Amber-II cards. `AIR+OR` merely gains support at its old
+narrow rank, while eight one-square targets remain unpromoted.
 
 ## Fixed scope
 
@@ -835,9 +843,8 @@ comparison set.
 
 ## Next work
 
-Keep the current 26 pages closed. The phrase deck is now internally reversible;
-the next pressure point is its *coverage*: combine two licensed one-root moves
-and ask which still-missing recipes are reached by multiple independent
-two-step paths without admitting the 4,273 weak one-neighbour fantasies. That
-test may rank a small second-ring queue but may not invent surfaces or values.
-Only after that should the unchanged deck meet the next user-released pages.
+Keep the current 26 pages closed. Merge the 47 first-ring and two Amber-II
+cards into one 49-card intake sheet with an exact visible-component matcher,
+fixed tier order and explicit failure output. The 246 narrow cards remain a
+separate lookup appendix rather than silently entering the main deck. Only
+after this single reader exists should the unchanged deck meet later pages.

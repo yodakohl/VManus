@@ -213,6 +213,15 @@ observed in that precise register for 275 rows; the other 450 are labelled
 counterfactual register expansions. This is an internal reversibility result,
 not independent confirmation of any root meaning.
 
+GDT433 explores exactly one bounded layer beyond the 47-card ring. Among all
+pairs of strong one-step arms from an observed recipe, only 21 complete squares
+and 14 opposite-corner targets exist. Two targets outside GDT430 have four
+different observed bases and four different strong arms: `AIR+AIN` = BAHN ·
+ANTEIL and `P+L` = EINSETZEN · VERBINDUNG. They are retained only as weaker
+second-ring amber readings. Two other outside targets have one square and are
+rejected; `AIR+OR` keeps its prior narrow rank. No surface, value or page is
+added.
+
 Pass 1032/GDT404 applies the frozen GDT403 intake contract to a one-shot random
 draw of f1r, f24v, f81r and f95v. The 95 guarded lines add 688 events, 88
 statements and 677 focus attachments. Exactly 470 events retain an old surface
