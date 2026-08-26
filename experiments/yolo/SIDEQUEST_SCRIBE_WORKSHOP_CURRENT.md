@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT485.
+Updated: 2026-08-26, after GDT486.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -221,6 +221,18 @@ order comments, 67 numbered markers, 52 arrows and 35 smaller artifacts—while
 deleting none from the backprojection. Apparent awkwardness was therefore
 mostly an edition problem; remaining tension can now be assigned to actual
 component combinations rather than to the old display format.
+
+GDT486 now tests those readable meanings against one another instead of merely
+printing them. Holding register, active model, readable sentence class,
+Eventform and every surrounding component fixed gives 33 same-page pairs and
+48 pairs after the same-register extension. They collapse to 29
+model-conditioned contrasts: twelve recurrent exact wording rules, sixteen
+single witnesses and one recurrent contextual realization. The lone two-form
+case is POSTEN versus ZIELORT, where two ZIELORT cards become “zweifache
+Zielzuordnung” but a mixed pair becomes “Zielzuordnung und Postenangabe”. This
+is visible German counting, so none of the current meanings needs repair. The
+deck covers thirteen values, including the secondary actions EINSTELLEN,
+FORTSETZEN and HALTEN.
 
 GDT428 now supplies the missing semantic contrast deck. Six within-class
 comparisons contain 104 exact frames where only the action root changes. The
@@ -1010,6 +1022,10 @@ comparison set.
 
 ## Primary artifacts
 
+- Current GDT486 same-frame component contrast deck, 33 same-page/48
+  same-register pairs, 29 wording rules, one contextual realization and zero
+  dictionary-pressure cases:
+  `gdt486_fluent_frame_component_contrast_deck/`;
 - Current GDT485 fluent 135-record/two-channel edition, 183 literal event
   backprojections, 69 retained order slots and the complete transformation and
   readability inventories:
@@ -1231,10 +1247,10 @@ comparison set.
 
 ## Next work
 
-Keep the current 26 pages closed. Group all 135 GDT485 Werkstattfassungen by
-their readable sentence frames and align minimal pairs that change one
-component while keeping owner, model and surrounding frame fixed. Compile the
-observed phrase change for each component substitution. A stable change becomes
-a forward wording rule; an inconsistent one is marked as real dictionary
-pressure. Do not repair either case by changing a root, model, boundary, page
-or learned name.
+Keep the current 26 pages closed. Invert the 29 GDT486 contrasts into one
+model-conditioned German realization lexicon: for each of the thirteen covered
+values list its catalogue, coordinate and instruction forms and the exact
+frames that license them. Use shared values to triangulate the sixteen
+single-witness rules through neighbouring frame classes, prioritizing
+EINSTELLEN, FORTSETZEN and HALTEN. Preserve every GDT485 reading and mark absent
+forms as open rather than inventing them.

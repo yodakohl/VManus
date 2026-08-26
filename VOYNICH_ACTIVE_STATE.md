@@ -11698,3 +11698,29 @@ Next group the fluent records by sentence frame and test minimal
 one-component substitutions for stable readable phrase changes. This should
 separate genuine dictionary pressure from artifacts of the former mechanical
 German display without reopening a page or changing a current root meaning.
+
+## GDT486 fluent-frame component contrast deck
+
+GDT486 fixes register, active model sequence, readable sentence class, Event
+boundary shape and every surrounding component, then admits only Record pairs
+with one non-name component difference. The strict same-page deck contains 33
+pairs/32 Records. Allowing a second page only inside the same register adds
+fifteen pairs, for 48 pairs/47 Records across f71v, f72r, f88v and f89r. f17r
+and f77r have no eligible partner in the current 135-Record edition.
+
+The pairs form 29 model- and frame-conditioned contrast groups. Twelve
+recurrent groups use exactly one German phrase-change signature; sixteen
+single-witness groups are likewise unambiguous. Only catalogue POSTEN versus
+ZIELORT has two signatures across five pairs. Its complete explanation is
+visible: two ZIELORT components contract to “zweifache Zielzuordnung”, whereas
+replacing one with POSTEN yields “Zielzuordnung und Postenangabe”. Both values
+remain explicit, so this is number/coordination grammar and not dictionary
+pressure. All 48 pairs display the expected cue on both sides; dictionary
+pressure count is zero.
+
+The deck covers thirteen current values. Ten are arguments, relations or order
+values; three are secondary actions newly visible through cross-page
+same-register pairing: EINSTELLEN, FORTSETZEN and HALTEN. No meaning, model,
+boundary, surface, recipe, Event or page changes; validation passes 97/97.
+Next invert the 29 contrasts into a model-conditioned German realization
+lexicon and use shared values to triangulate the sixteen single witnesses.
