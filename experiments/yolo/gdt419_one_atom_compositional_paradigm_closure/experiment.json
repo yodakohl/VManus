@@ -1,0 +1,53 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Exploratory compositional closure of seven working recipes only; no confirmed lexeme, morphology, plaintext, language, or source identification.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt419_one_atom_compositional_paradigm_closure/src/run.py",
+    "validate": "python3 experiments/yolo/gdt419_one_atom_compositional_paradigm_closure/src/validate.py"
+  },
+  "created": "2026-08-26",
+  "dependencies": [
+    "GDT413",
+    "GDT416",
+    "GDT417",
+    "GDT418"
+  ],
+  "experiment_id": "GDT419",
+  "inputs": [
+    {"path": "experiments/yolo/gdt416_owner_local_imperative_sentence_compiler/artifacts/gdt416_4576_imperative_clauses.tsv", "role": "upstream reproducible input", "sha256": "cffae521ba93d96446537584e35fa9a4fe4b6e34330ebf7e955ad725f7c70561"},
+    {"path": "experiments/yolo/gdt413_twenty_six_page_semantic_working_edition/artifacts/gdt413_46_component_working_dictionary.tsv", "role": "fixed component dictionary", "sha256": "728113b051828ad7e8cdf46369832f3a81a4792bc104f3ef1f23644af5fa120e"}
+  ],
+  "outputs": [
+    {"path": "experiments/yolo/gdt419_one_atom_compositional_paradigm_closure/README.md", "role": "entry point", "sha256": "a42c874e31a1777188d8ead3c6075fda09457d20b28d3aa8ffa8166922f6c494"},
+    {"path": "experiments/yolo/gdt419_one_atom_compositional_paradigm_closure/METHOD.md", "role": "reproducible method", "sha256": "5949f08a6d3528e23716f160cd74e3d733f0ad37993a344e9dffdfd3c17d7837"},
+    {"path": "experiments/yolo/gdt419_one_atom_compositional_paradigm_closure/REPORT.md", "role": "primary report", "sha256": "c82df8876e218331dbb3e4af14ead866faba14e43ae98513a27a50e3dfbca988"},
+    {"path": "experiments/yolo/gdt419_one_atom_compositional_paradigm_closure/src/run.py", "role": "deterministic builder", "sha256": "35ff6dbfdd46f92928eca2d09ecd29684d8ef6cb6e6e8d79048d7e5d5ad24aa4"},
+    {"path": "experiments/yolo/gdt419_one_atom_compositional_paradigm_closure/src/validate.py", "role": "validator", "sha256": "9b5d1834d4f404e055fbccf296b013ca17ad13864e43874bfcb97c58d43ba5ad"},
+    {"path": "experiments/yolo/gdt419_one_atom_compositional_paradigm_closure/artifacts/README.md", "role": "artifact guide", "sha256": "7877cde7213ba1bf8020a51bf9b9aae89758f79547fb4a91f84fc6f9382acbf6"},
+    {"path": "experiments/yolo/gdt419_one_atom_compositional_paradigm_closure/artifacts/TWENTY_MISSING_COMPOSITION_PREDICTIONS.md", "role": "future prediction cards", "sha256": "3e2c6f548272b2f4158fc5935a8423c87b9d77178741e1c301dbf49d3b8ebb1a"},
+    {"path": "experiments/yolo/gdt419_one_atom_compositional_paradigm_closure/artifacts/gdt419_120_role_safe_paradigm_cells.tsv", "role": "controlled paradigm cells", "sha256": "f324cacc1d2c16fe4a60a878004dbf2663c0a393a728cfa90cb8af597a762387"},
+    {"path": "experiments/yolo/gdt419_one_atom_compositional_paradigm_closure/artifacts/gdt419_199_attested_one_atom_neighbors.tsv", "role": "attested neighbor inventory", "sha256": "8dca0878c1b6996ce236e21a2b80eeed7b596f6fd46f8bab342e6113d5039642"},
+    {"path": "experiments/yolo/gdt419_one_atom_compositional_paradigm_closure/artifacts/gdt419_52_unique_missing_predictions.tsv", "role": "unique missing predictions", "sha256": "06e53d280d87b33e1c84e551c007dbd502ec1e7b54759c09f3d7dcee97d38766"},
+    {"path": "experiments/yolo/gdt419_one_atom_compositional_paradigm_closure/artifacts/gdt419_6_change_family_summary.tsv", "role": "change family summary", "sha256": "6a7b78cef406043d88ca8bf77239e70f86b8809a661b09aa7bf743408b2b040b"},
+    {"path": "experiments/yolo/gdt419_one_atom_compositional_paradigm_closure/artifacts/gdt419_7_anchor_paradigm_summary.tsv", "role": "anchor summary", "sha256": "0a4490e1f15eb72fa87c63752c6ea08d61c4c08a1989be2487611d231af9d15b"},
+    {"path": "experiments/yolo/gdt419_one_atom_compositional_paradigm_closure/artifacts/gdt419_result.json", "role": "compact result", "sha256": "385cc14f916a6bb0f2988c1cb77b799e2d8d93b00c57d5ba125c82775be39b4e"},
+    {"path": "experiments/yolo/gdt419_one_atom_compositional_paradigm_closure/artifacts/gdt419_validation.json", "role": "validation report", "sha256": "755e01927650dbd973aadbfa74378cc192bfc55d3930e18cea5297acadf66c10"}
+  ],
+  "question": "Do the seven strongest cross-register recipes form productive one-atom action, argument, grade, and endpoint paradigms?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "one_atom_compositional_paradigm_closure",
+  "status": "SEVEN_ANCHOR_ONE_ATOM_PARADIGMS_COMPLETE",
+  "title": "one atom compositional paradigm closure",
+  "updated": "2026-08-26",
+  "validation": {
+    "artifact": "experiments/yolo/gdt419_one_atom_compositional_paradigm_closure/artifacts/gdt419_validation.json",
+    "status": "PASS"
+  }
+}

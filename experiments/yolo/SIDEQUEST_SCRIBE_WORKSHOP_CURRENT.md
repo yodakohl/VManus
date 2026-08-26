@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT418.
+Updated: 2026-08-26, after GDT419.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -25,7 +25,11 @@ audits the two weakest exact-recipe cores without changing them:
 recipes, and `L=VERBINDUNG` remains a broad context-bearing relation across
 270 mentions/110 recipes, never by itself a pipe or direction. The current
 basis retains 5,051 resolved focus attachments, four local channels and
-nineteen broad working values. Concrete substances, objects, body parts and
+nineteen broad working values. GDT419 gives the seven strongest recipes 120
+controlled one-atom paradigm cells: 55 already exist, 45 under the same
+owner. Grade deletion is 5/5 and grade change 6/10, while free grade insertion
+is 0/6; E/EE/EEE therefore occupies a licensed slot rather than behaving as a
+freely attachable suffix. Concrete substances, objects, body parts and
 celestial names are still owner-local.
 
 ## Fixed scope
@@ -756,13 +760,11 @@ comparison set.
 
 ## Next work
 
-Before opening another page, test the seven fully self-contained
-five-register recipes from GDT417 as small compositional paradigms: find every
-attested one-atom neighbour and ask whether action, argument or E/EE/EEE grade
-changes exactly as the nineteen-core dictionary predicts. Missing neighbours
-become explicit future-page predictions rather than invented present forms.
-After that, use the GDT414 error deck and the GDT418 P/L cards on the next
-user-released four-page group. Exact old forms must replay without editing;
+Before opening another page, turn GDT419's one-atom result into complete
+licensed slot tables: determine which action heads permit grade, argument and
+endpoint alternation, and which apparent combinations must remain absent or
+whole-card exceptions. Then use the GDT414 error deck and the GDT418 P/L cards
+on the next user-released four-page group. Exact old forms must replay without editing;
 genuinely new surfaces may use only visible old factors. Invisible atoms,
 unlicensed one-edit recipe copying, owner jumps, lookahead beyond one card, a
 ninth selector, an eleventh head and silent retuning of a core remain hard

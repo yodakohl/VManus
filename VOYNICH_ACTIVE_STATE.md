@@ -74,6 +74,16 @@ are initial and 184 co-occur with an action. This retains the broad relation
 `L=VERBINDUNG`, while explicitly forbidding an automatic pipe, direction or
 physical connection. No dictionary row changes.
 
+GDT419 expands GDT417's seven self-contained all-register recipes into their
+one-atom neighbourhoods. The exhaustive neighbourhood has 199 anchor-pairs and
+171 distinct attested recipes. A role-safe grid has 120 action, argument, grade
+and endpoint cells; 55 exist, 45 share a page-owner with their anchor and 38
+span registers. The strongest new constraint is asymmetric: grade deletion is
+5/5 and grade substitution 6/10, but inserting a grade into an ungraded anchor
+is 0/6. Treat E/EE/EEE as a licensed paradigm slot, not a freely attachable
+suffix. The 52 unique missing forms are conditional readings, not occurrence
+predictions.
+
 Pass 1032/GDT404 applies the frozen GDT403 intake contract to a one-shot random
 draw of f1r, f24v, f81r and f95v. The 95 guarded lines add 688 events, 88
 statements and 677 focus attachments. Exactly 470 events retain an old surface
