@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT494.
+Updated: 2026-08-26, after GDT495.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -317,6 +317,15 @@ and 267 events; 51 have some local frame-family support, while all 73 retain
 the target action and frame across registers. All 23 state warnings remain
 visible. This is a priority order for exploration, not evidence that a
 composed phrase occurs on a page.
+
+GDT495 opens those 27 Tier-A cards into a readable comparison sheet. Every
+working phrase, component trace, owner-local slot, local alternate action,
+observed clause and old support page is now visible. The deck contains 86
+same-register non-T/R cells/219 events, nine opposite-T/R cells/23 events and
+43 cross-register anchors/87 events: 138 support cells, 329 events and 24 old
+pages altogether. Eighteen cards name their argument directly; nine retain an
+active-context warning. All 27 remain `COMPOSED_WORKING` and make no surface
+or occurrence prediction.
 
 GDT428 now supplies the missing semantic contrast deck. Six within-class
 comparisons contain 104 exact frames where only the action root changes. The
@@ -1106,6 +1115,10 @@ comparison set.
 
 ## Primary artifacts
 
+- Current GDT495 complete Tier-A future-comparison sheet, 27 concrete working
+  phrases, 138 visible support cells/329 events/24 old pages, with eighteen
+  self-contained and nine state-dependent cards:
+  `gdt495_tier_a_future_comparison_sheet/`;
 - Current GDT494 support ranking of all 73 composed cells, with 27 multihead
   Tier A cards, nineteen single-head Tier B cards, five opposite-T/R Tier C
   cards, 22 cross-register-only Tier D cards and complete support provenance:
@@ -1362,9 +1375,10 @@ comparison set.
 
 ## Next work
 
-Keep the current 26 pages closed. Publish the 27 GDT494 Tier A cards as a
-compact future-comparison sheet containing the exact component trace, current
-owner-dependent phrase, every same-register alternate head and old page,
-cross-register anchors, any active-argument warning, and the literal label
-`KEINE OBERFLÄCHENVORHERSAGE`. Do not promote a composed reading merely because
-its formal family is dense.
+Keep the current 26 pages closed. Read the 27 GDT495 cards horizontally as
+semantic sentence families. For each frame/register, mark whether the old
+alternate-head clauses preserve the same object, relation and order strongly
+enough that the T/R phrase follows by a natural action substitution. Keep the
+eighteen self-contained cards separate from the nine active-context cards and
+retain every current phrase as the default unless the visible family supplies
+a simpler one.

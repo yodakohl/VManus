@@ -11927,3 +11927,32 @@ makes no occurrence or surface prediction and upgrades no composed reading;
 validation passes 88/88. Next publish the 27 Tier A cards in one compact
 future-comparison sheet with full support heads/pages and the literal warning
 `KEINE OBERFLÄCHENVORHERSAGE`, while keeping the 26 pages closed.
+
+## GDT495 Tier-A future-comparison sheet
+
+GDT495 turns the 27 GDT494 Tier-A cells into complete readable cards without
+changing their order or interpretation. Each card prints its fixed German
+working phrase, portable component trace, owner-local slots, evidence label,
+state warning, every local non-T/R head and observed clause, any local T/R
+counterpart, every same-action cross-register anchor and the union of all old
+support pages.
+
+The selected deck contains 86 same-register non-T/R support cells with 219
+events, nine opposite-T/R cells with 23 events and 43 cross-register anchors
+with 87 events. Thus all 138 support cells/329 events are visible rather than
+hidden behind aggregate scores, spanning 24 old pages. Register coverage is
+eight source, eight herbal, five celestial, four pharma and two biological
+cards.
+
+Eighteen cards carry a self-contained argument. Nine cards—including bare
+action, continuation and target-only forms—retain an active-context warning;
+dense family support does not select the inherited object. Every card still
+has at least two local non-T/R heads, an observed cross-register anchor, old
+slot values, `COMPOSED_WORKING`, zero occurrence prediction and zero surface
+prediction. Validation passes 231/231.
+
+Next read all 27 cards horizontally as semantic sentence families and classify
+whether their observed alternate-head clauses preserve object, relation and
+order closely enough for a natural T/R action substitution. Keep the eighteen
+self-contained and nine state-dependent sets separate and keep all 26 pages
+closed.

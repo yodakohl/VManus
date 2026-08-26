@@ -1,0 +1,122 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "A complete readable comparison sheet for the 27 fixed GDT494 Tier-A COMPOSED_WORKING cells, preserving every phrase, component, support cell, observed clause, old page and state warning; it makes no occurrence or surface prediction and changes no meaning, frame, recipe, event, page or evidence label.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt495_tier_a_future_comparison_sheet/src/run.py",
+    "validate": "python3 experiments/yolo/gdt495_tier_a_future_comparison_sheet/src/validate.py"
+  },
+  "created": "2026-08-26",
+  "dependencies": ["GDT494"],
+  "experiment_id": "GDT495",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt494_composed_cell_family_support_ranking/artifacts/gdt494_27_tier_a_multihead_cards.tsv",
+      "role": "fixed ordered 27-card Tier-A deck",
+      "sha256": "4968e0cd3e80ed234da4b21d62ec2629f9e301a24e7b19a2e6470085a8d06845"
+    },
+    {
+      "path": "experiments/yolo/gdt494_composed_cell_family_support_ranking/artifacts/gdt494_105_same_register_nontr_support_cells.tsv",
+      "role": "complete local non-T-R support-cell inventory",
+      "sha256": "58db2bdbd90d762f3360266d33beedcee015a521e2970b305d29dbb822541dca"
+    },
+    {
+      "path": "experiments/yolo/gdt494_composed_cell_family_support_ranking/artifacts/gdt494_21_same_register_opposite_tr_cells.tsv",
+      "role": "complete local opposite-T-R support inventory",
+      "sha256": "b8c9069319c567df4e8cca5f70ef3cf7ad9d8275a91c46479717518bcbab7bcb"
+    },
+    {
+      "path": "experiments/yolo/gdt494_composed_cell_family_support_ranking/artifacts/gdt494_98_same_action_cross_register_cells.tsv",
+      "role": "complete same-action cross-register anchor inventory",
+      "sha256": "6f640cf8f67ab60f0baea71d0b93ec6bedbee21fdd07bc6f2565c23989601c24"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt495_tier_a_future_comparison_sheet/README.md",
+      "role": "entry point",
+      "sha256": "8c8499c4cde0df4bf4764c2035fc16322f1be162425a05a9f9af528a1b878210"
+    },
+    {
+      "path": "experiments/yolo/gdt495_tier_a_future_comparison_sheet/METHOD.md",
+      "role": "deterministic card-building method",
+      "sha256": "7bd8771205cebff6e6ad019f7bcf3d5fdd92889038fc96948f48dc4ea24b645d"
+    },
+    {
+      "path": "experiments/yolo/gdt495_tier_a_future_comparison_sheet/REPORT.md",
+      "role": "primary report",
+      "sha256": "d2bc9ae64e6248f14dc41a47ea545e0ddc4a8ea183b575349f15f9b745dfddae"
+    },
+    {
+      "path": "experiments/yolo/gdt495_tier_a_future_comparison_sheet/src/run.py",
+      "role": "deterministic comparison-sheet builder",
+      "sha256": "efe4b8bce59edc7574f7fec3ba9af2ce02dfa1e1aedf4da334ff68c7eb9c3a7a"
+    },
+    {
+      "path": "experiments/yolo/gdt495_tier_a_future_comparison_sheet/src/validate.py",
+      "role": "deterministic support and presentation validator",
+      "sha256": "025c0c05c53f6d5602f15b96df028ebe6e41255694e0c87f0d71d17bbd1b8ee4"
+    },
+    {
+      "path": "experiments/yolo/gdt495_tier_a_future_comparison_sheet/artifacts/README.md",
+      "role": "artifact guide",
+      "sha256": "4a131627f0a87c6a045c315c516e9c58629bcbc2c93419772fcbff925750bf69"
+    },
+    {
+      "path": "experiments/yolo/gdt495_tier_a_future_comparison_sheet/artifacts/GDT495_27_TIER_A_FUTURE_COMPARISON_SHEET.md",
+      "role": "complete readable 27-card deck",
+      "sha256": "fc017d63f977b402f07e3a132bfefd6214aecbb27ae60ecda838320b2302a584"
+    },
+    {
+      "path": "experiments/yolo/gdt495_tier_a_future_comparison_sheet/artifacts/gdt495_27_tier_a_future_cards.tsv",
+      "role": "self-contained machine-readable card deck",
+      "sha256": "072c0ad601d38283432b04c86c6b4319864a5193e02543ad3a51af8769c13a07"
+    },
+    {
+      "path": "experiments/yolo/gdt495_tier_a_future_comparison_sheet/artifacts/gdt495_86_local_nontr_support_cells.tsv",
+      "role": "exact selected local non-T-R support cells",
+      "sha256": "1ee9989197841c11eb66b71212c0f170274ab61831b748320c668f3541cc568a"
+    },
+    {
+      "path": "experiments/yolo/gdt495_tier_a_future_comparison_sheet/artifacts/gdt495_9_opposite_tr_support_cells.tsv",
+      "role": "exact selected opposite-T-R support cells",
+      "sha256": "1509641ec383ac041a5958e2e9fb8cb13a3183a35a17e9e78f31d7083930c7fe"
+    },
+    {
+      "path": "experiments/yolo/gdt495_tier_a_future_comparison_sheet/artifacts/gdt495_43_cross_register_anchor_cells.tsv",
+      "role": "exact selected cross-register anchor cells",
+      "sha256": "dd2001d88616d6c91fbffcaaa5b9acc202daec422b6d7b641533c83260a44ef0"
+    },
+    {
+      "path": "experiments/yolo/gdt495_tier_a_future_comparison_sheet/artifacts/gdt495_5_register_card_coverage.tsv",
+      "role": "register-level card and witness coverage",
+      "sha256": "a9eb3e360d09c61d8cb05a1d1431a76de91fb8e242e8728cb2c4ac25df647a4f"
+    },
+    {
+      "path": "experiments/yolo/gdt495_tier_a_future_comparison_sheet/artifacts/gdt495_result.json",
+      "role": "compact result",
+      "sha256": "53d5e33c0f6723ec522afd4fb7de004dd1e6cfa35254e9e0d0dea9be6a7b2d43"
+    },
+    {
+      "path": "experiments/yolo/gdt495_tier_a_future_comparison_sheet/artifacts/gdt495_validation.json",
+      "role": "231-check validation record",
+      "sha256": "4abb01fca784da9d832b7b8cf763bf2e7dcf66d7d9dd254256a6eb4fc671b5bc"
+    }
+  ],
+  "question": "Can the 27 GDT494 Tier-A composed cells be published as a complete card-by-card comparison sheet preserving every phrase, component, support witness, old page and state warning?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "tier_a_future_comparison_sheet",
+  "status": "TWENTY_SEVEN_TIER_A_CARDS_READY__ONE_HUNDRED_THIRTY_EIGHT_SUPPORT_CELLS_VISIBLE__ZERO_SURFACE_PREDICTIONS",
+  "title": "Tier-A future comparison sheet",
+  "updated": "2026-08-26",
+  "validation": {
+    "artifact": "experiments/yolo/gdt495_tier_a_future_comparison_sheet/artifacts/gdt495_validation.json",
+    "status": "PASS"
+  }
+}
