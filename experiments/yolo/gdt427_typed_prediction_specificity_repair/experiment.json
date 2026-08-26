@@ -1,0 +1,53 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Creative specificity repair for the current working action dictionary only; no confirmed class, lexeme, plaintext, language, or source identification.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt427_typed_prediction_specificity_repair/src/run.py",
+    "validate": "python3 experiments/yolo/gdt427_typed_prediction_specificity_repair/src/validate.py"
+  },
+  "created": "2026-08-26",
+  "dependencies": [
+    "GDT416",
+    "GDT425",
+    "GDT426"
+  ],
+  "experiment_id": "GDT427",
+  "inputs": [
+    {"path": "experiments/yolo/gdt416_owner_local_imperative_sentence_compiler/artifacts/gdt416_4576_imperative_clauses.tsv", "role": "complete component recipes", "sha256": "cffae521ba93d96446537584e35fa9a4fe4b6e34330ebf7e955ad725f7c70561"},
+    {"path": "experiments/yolo/gdt425_complete_factorized_action_portability/artifacts/gdt425_5051_focus_edge_portability.tsv", "role": "complete focus edges", "sha256": "b7cd0107ec9c9f79da5649f954a4f35d32c3dc4d5d9340de6c653e1430ff9482"},
+    {"path": "experiments/yolo/gdt425_complete_factorized_action_portability/artifacts/gdt425_9_local_action_appendix.tsv", "role": "nine local action cards", "sha256": "1373138101dd9d7c38ac72fa5a44d327a925435f4e4aaedd5316d0ef70bac81c"}
+  ],
+  "outputs": [
+    {"path": "experiments/yolo/gdt427_typed_prediction_specificity_repair/README.md", "role": "entry point", "sha256": "3425fb1fce1dec754d16e2fe70e6219895a10ad8f2ce0a772c3d043bb05e8564"},
+    {"path": "experiments/yolo/gdt427_typed_prediction_specificity_repair/METHOD.md", "role": "reproducible method", "sha256": "95eb31775cd37b4cf657425379206069a7095c3613948233e3087bac69d5e841"},
+    {"path": "experiments/yolo/gdt427_typed_prediction_specificity_repair/REPORT.md", "role": "primary report", "sha256": "7125603c7cafb565f9c1a2d380b18d5f30575066c8bd5d3923abb8bcd3974deb"},
+    {"path": "experiments/yolo/gdt427_typed_prediction_specificity_repair/src/run.py", "role": "deterministic builder", "sha256": "77d76e2333111720a71ebf90ab35138d7c216d79d5b8f0e014eb32cc6712aac8"},
+    {"path": "experiments/yolo/gdt427_typed_prediction_specificity_repair/src/validate.py", "role": "validator", "sha256": "8870a4e00af46c0b5e960a9c5aa420500afa8586833b5c8d44056ec3ae0d4493"},
+    {"path": "experiments/yolo/gdt427_typed_prediction_specificity_repair/artifacts/README.md", "role": "artifact guide", "sha256": "9285514cca88d660dfe1d85c8348e7f0fc6dd75ba37a0f633734ede21a8349fa"},
+    {"path": "experiments/yolo/gdt427_typed_prediction_specificity_repair/artifacts/SELECTED_FIVE_CLASS_GATE.md", "role": "selected prediction card", "sha256": "e1d6b544e67fcf99f2c0aa7f500b69c6593234167fd681cbc5d419024dc7d5a9"},
+    {"path": "experiments/yolo/gdt427_typed_prediction_specificity_repair/artifacts/gdt427_7_model_specificity_comparison.tsv", "role": "model comparison", "sha256": "986f267c381464e0cb7755d3c06d0ed89a2fc95be51fd07825d720ef2ac6f5b5"},
+    {"path": "experiments/yolo/gdt427_typed_prediction_specificity_repair/artifacts/gdt427_15_singleton_pair_leaveout.tsv", "role": "positive leaveout pairs", "sha256": "665db7380a2641e563292d0c5088d586e20dc06e52a3bd4bbacb8a15d8c36004"},
+    {"path": "experiments/yolo/gdt427_typed_prediction_specificity_repair/artifacts/gdt427_17_absent_pair_negative_controls.tsv", "role": "absent pair controls", "sha256": "74bf5ff382b5b0efda7397c167859c0c64e12067da384bf9b05810244ca52252"},
+    {"path": "experiments/yolo/gdt427_typed_prediction_specificity_repair/artifacts/gdt427_9_local_rule_reclassification.tsv", "role": "local-card reclassification", "sha256": "ec19e24e71575a2ea9fcfaff35fec784696417ccad5494d6e34d2c72c15c1e38"},
+    {"path": "experiments/yolo/gdt427_typed_prediction_specificity_repair/artifacts/gdt427_25_selected_transition_atlas.tsv", "role": "selected transition atlas", "sha256": "d829fc5ab07db0c43318e81ec797de64c20639a08b268a1b579d333c84ac90c9"},
+    {"path": "experiments/yolo/gdt427_typed_prediction_specificity_repair/artifacts/gdt427_result.json", "role": "compact result", "sha256": "266b3c6d378f717e1b92c07abfc323bf7d442ecdf325815a2ce83a4bfd7ea347"},
+    {"path": "experiments/yolo/gdt427_typed_prediction_specificity_repair/artifacts/gdt427_validation.json", "role": "validation report", "sha256": "d713a3ad86bf8b0edbe8c1d0cd43daa588e73ccf427438e685ab6b50d4d750fe"}
+  ],
+  "question": "Can the broad GDT426 typed action prediction gate retain most local-card forecasts while rejecting some genuinely absent ordered pairs?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "typed_prediction_specificity_repair",
+  "status": "FIVE_CLASS_SPECIFICITY_GATE_SELECTED__SEVEN_AMBER_TWO_LOCAL",
+  "title": "typed prediction specificity repair",
+  "updated": "2026-08-26",
+  "validation": {
+    "artifact": "experiments/yolo/gdt427_typed_prediction_specificity_repair/artifacts/gdt427_validation.json",
+    "status": "PASS"
+  }
+}

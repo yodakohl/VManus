@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **425**
-- Experiment-associated tracked files: **6,099** (674.7 MiB)
-- Structured GDT337+ experiments: **90**
+- Experiments indexed: **426**
+- Experiment-associated tracked files: **6,114** (674.7 MiB)
+- Structured GDT337+ experiments: **91**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT427 | GDT427_typed_prediction_specificity_repair | `FIVE_CLASS_SPECIFICITY_GATE_SELECTED__SEVEN_AMBER_TWO_LOCAL` | [report](../experiments/yolo/gdt427_typed_prediction_specificity_repair/REPORT.md) | 15 | 37.0 KiB | 3 | STRUCTURED_YOLO |
 | GDT426 | GDT426_typed_action_family_prediction | `NINE_LOCAL_ACTION_CARDS_TYPED_AS_AMBER_PREDICTIONS` | [report](../experiments/yolo/gdt426_typed_action_family_prediction/REPORT.md) | 14 | 42.5 KiB | 2 | STRUCTURED_YOLO |
 | GDT425 | GDT425_complete_factorized_action_portability | `COMPLETE_FACTORIZED_ACTION_REPLAY_WITH_NINE_LOCAL_CARDS` | [report](../experiments/yolo/gdt425_complete_factorized_action_portability/REPORT.md) | 17 | 2.2 MiB | 3 | STRUCTURED_YOLO |
 | GDT424 | GDT424_page_private_slot_exception_compression | `FIFTY_OF_FIFTY_SEVEN_RED_CELLS_RESOLVED__SEVEN_LOCAL_RULES` | [report](../experiments/yolo/gdt424_page_private_slot_exception_compression/REPORT.md) | 16 | 77.4 KiB | 2 | STRUCTURED_YOLO |

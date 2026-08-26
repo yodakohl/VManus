@@ -150,6 +150,17 @@ class×focus cells are occupied in the current edition. This yields nine amber
 predictions and zero untyped local cards, but no exact card is promoted and the
 classes remain creative teaching abstractions, not confirmed morphology.
 
+GDT427 corrects the weakness hidden by that perfect coverage: the four GDT426
+classes occupy 16/16 possible transitions and therefore block none of the
+seventeen never-observed exact pairs. Seven small partitions were compared on
+fifteen leave-one-page singleton pairs and those seventeen negative controls.
+Splitting CONTROL into `T=EINSTELLEN` and `R=MARKIEREN` performs best: it keeps
+12/15 singleton positives, blocks 7/17 absent pairs, and raises balanced
+accuracy from .500000 to .605882. Its five classes occupy 22/25 transitions.
+Seven of the nine GDT425 local cards remain amber; `R>T` and `R<-EE` return to
+red-local. Focus rectangles remain a weak descriptive bridge rather than a
+negative gate. No root, working value, exact card, or page is added.
+
 Pass 1032/GDT404 applies the frozen GDT403 intake contract to a one-shot random
 draw of f1r, f24v, f81r and f95v. The 95 guarded lines add 688 events, 88
 statements and 677 focus attachments. Exactly 470 events retain an old surface

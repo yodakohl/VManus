@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT426.
+Updated: 2026-08-26, after GDT427.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -57,7 +57,13 @@ cards, not new roots. GDT426 makes those nine cards prospective rather than
 blind exceptions. Four action classes and three focus families type every one:
 2 are old exact pairs with intervening slots, 4 old class transitions, 2
 head×focus rectangles and 1 CONTROL×GRADE analogy. They remain amber exact
-forms; zero is unexplained and zero is silently promoted.
+forms; zero is unexplained and zero is silently promoted. GDT427 then repairs
+the fact that this four-class model permits every possible transition. Splitting
+CONTROL into `T=EINSTELLEN` and `R=MARKIEREN` creates a five-class gate with
+22/25 occupied transitions: 12/15 page-held-out singleton pairs survive and
+7/17 never-seen pairs are now blocked. Seven of the nine local cards remain
+amber; `R>T` and `R<-EE` remain red-local. The internal meanings of the broad
+classes are not collapsed.
 
 ## Fixed scope
 
