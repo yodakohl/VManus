@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT486.
+Updated: 2026-08-26, after GDT487.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -233,6 +233,16 @@ Zielzuordnung” but a mixed pair becomes “Zielzuordnung und Postenangabe”. 
 is visible German counting, so none of the current meanings needs repair. The
 deck covers thirteen values, including the secondary actions EINSTELLEN,
 FORTSETZEN and HALTEN.
+
+GDT487 turns those contrasts into a lookup from meaning to wording. Its
+thirteen values occupy 25 of 39 catalogue/coordinate/instruction cells and
+have 29 observed German forms from 56 Record×Wert witnesses; fourteen cells
+remain honestly open. Thirteen of the sixteen single-witness rules already
+close through the recurrent local contrast network. `DANACH ↔ EINHEIT` closes
+through GDT429's `DANACH ↔ FORTSETZEN` bridge, bringing the total to fourteen
+complete alternate cycles. `EINSTELLEN` and `HALTEN` are the only remaining
+local endpoints; both retain strong GDT428 action anchors, so no rule is
+unanchored and no wording or meaning needs invention.
 
 GDT428 now supplies the missing semantic contrast deck. Six within-class
 comparisons contain 104 exact frames where only the action root changes. The
@@ -1022,6 +1032,10 @@ comparison set.
 
 ## Primary artifacts
 
+- Current GDT487 thirteen-value realization lexicon, 25/39 observed model
+  cells, 29 observed forms, fourteen closed singleton cycles and two anchored
+  action endpoints:
+  `gdt487_model_conditioned_realization_lexicon/`;
 - Current GDT486 same-frame component contrast deck, 33 same-page/48
   same-register pairs, 29 wording rules, one contextual realization and zero
   dictionary-pressure cases:
@@ -1247,10 +1261,9 @@ comparison set.
 
 ## Next work
 
-Keep the current 26 pages closed. Invert the 29 GDT486 contrasts into one
-model-conditioned German realization lexicon: for each of the thirteen covered
-values list its catalogue, coordinate and instruction forms and the exact
-frames that license them. Use shared values to triangulate the sixteen
-single-witness rules through neighbouring frame classes, prioritizing
-EINSTELLEN, FORTSETZEN and HALTEN. Preserve every GDT485 reading and mark absent
-forms as open rather than inventing them.
+Keep the current 26 pages closed. Search the fixed 135 Records for one second,
+slightly relaxed local frame each for `EINSTELLEN` and `HALTEN`: relax exactly
+one framing condition at a time while retaining register, model, event shape
+and the visible action cue. All other fourteen singleton contrasts already
+have an alternate cycle. Preserve every GDT485 reading and every GDT487 `OPEN`
+cell; do not expand the search into a global reinterpretation.

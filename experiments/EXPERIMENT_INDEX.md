@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **485**
-- Experiment-associated tracked files: **7,015** (790.2 MiB)
-- Structured GDT337+ experiments: **150**
+- Experiments indexed: **486**
+- Experiment-associated tracked files: **7,032** (790.3 MiB)
+- Structured GDT337+ experiments: **151**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT487 | GDT487_model_conditioned_realization_lexicon | `THIRTEEN_VALUE_REALIZATION_LEXICON__FOURTEEN_SINGLETON_CYCLES__TWO_ENDPOINT_ANCHORS` | [report](../experiments/yolo/gdt487_model_conditioned_realization_lexicon/REPORT.md) | 17 | 97.5 KiB | 3 | STRUCTURED_YOLO |
 | GDT486 | GDT486_fluent_frame_component_contrast_deck | `TWENTY_NINE_FLUENT_COMPONENT_CONTRASTS__ONE_CONTEXTUAL_VARIANT__ZERO_DICTIONARY_PRESSURE` | [report](../experiments/yolo/gdt486_fluent_frame_component_contrast_deck/REPORT.md) | 17 | 180.5 KiB | 1 | STRUCTURED_YOLO |
 | GDT485 | GDT485_fluent_reversible_microrecord_edition | `ALL_135_HAVE_FLUENT_REVERSIBLE_GERMAN__183_EVENT_BACKPROJECTIONS_EXACT` | [report](../experiments/yolo/gdt485_fluent_reversible_microrecord_edition/REPORT.md) | 16 | 311.4 KiB | 4 | STRUCTURED_YOLO |
 | GDT484 | GDT484_complete_microrecord_provenance_edition | `ALL_135_MICRORECORDS_HAVE_READINGS_AND_SUPPORT_PROVENANCE__ZERO_FUNCTIONAL_RESIDUE` | [report](../experiments/yolo/gdt484_complete_microrecord_provenance_edition/REPORT.md) | 16 | 265.0 KiB | 5 | STRUCTURED_YOLO |

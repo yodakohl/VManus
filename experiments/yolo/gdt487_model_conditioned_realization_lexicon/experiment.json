@@ -1,0 +1,137 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Model-conditioned German realization lexicon and contrast-network routing over fixed GDT486/GDT428/GDT429 working meanings; no independent semantic confirmation, invented form, new meaning, model, boundary, surface, recipe, event, or page.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt487_model_conditioned_realization_lexicon/src/run.py",
+    "validate": "python3 experiments/yolo/gdt487_model_conditioned_realization_lexicon/src/validate.py"
+  },
+  "created": "2026-08-26",
+  "dependencies": ["GDT486", "GDT428", "GDT429"],
+  "experiment_id": "GDT487",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt486_fluent_frame_component_contrast_deck/artifacts/gdt486_48_register_minimal_pairs.tsv",
+      "role": "fixed same-register one-component contrast deck",
+      "sha256": "0ad37b61b8c4c84889c5ad99db482c856a371009a665142b59c14b49688af0b7"
+    },
+    {
+      "path": "experiments/yolo/gdt486_fluent_frame_component_contrast_deck/artifacts/gdt486_29_model_conditioned_contrast_rules.tsv",
+      "role": "fixed model-conditioned contrast rules",
+      "sha256": "84ced0e1601c3101d2890b2e25b0ddec625c59f639baf9b4913ea9456d722047"
+    },
+    {
+      "path": "experiments/yolo/gdt486_fluent_frame_component_contrast_deck/artifacts/gdt486_135_fluent_frame_assignments.tsv",
+      "role": "fixed fluent frame and observed wording assignments",
+      "sha256": "5373ff1d6a9bbf1b905cfa58014254f5d5bcaac0816508df137b040c49d19120"
+    },
+    {
+      "path": "experiments/yolo/gdt428_within_class_action_semantic_contrasts/artifacts/gdt428_6_within_class_contrasts.tsv",
+      "role": "fixed external action contrast anchors",
+      "sha256": "97eda02ac64241059d9b02a4b1ce33b90c906952dddbc304af0fe28789f78822"
+    },
+    {
+      "path": "experiments/yolo/gdt429_nonaction_core_semantic_contrasts/artifacts/gdt429_13_nonaction_core_contrasts.tsv",
+      "role": "fixed external order-control contrast anchor",
+      "sha256": "eb39bef9cfe34086103f8f897ce0c75e70450efd12a5904a562cb8fcdf1c7cce"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt487_model_conditioned_realization_lexicon/README.md",
+      "role": "entry point",
+      "sha256": "e5eb85757e77032ccc828d59d929ef4550fb29b6ce5ff946e6c645bc536bb3a9"
+    },
+    {
+      "path": "experiments/yolo/gdt487_model_conditioned_realization_lexicon/METHOD.md",
+      "role": "realization extraction and graph triangulation method",
+      "sha256": "6f9b83d726bdaa9029967f793b6f6753af45cd8ecc7a706f078bf681424ccf3e"
+    },
+    {
+      "path": "experiments/yolo/gdt487_model_conditioned_realization_lexicon/REPORT.md",
+      "role": "primary report",
+      "sha256": "a390a3729a09d8186d2a03cfdba2ae60f34930a0b0d76dc31ed6f74321b437ed"
+    },
+    {
+      "path": "experiments/yolo/gdt487_model_conditioned_realization_lexicon/src/run.py",
+      "role": "deterministic lexicon and triangulation builder",
+      "sha256": "7c2474f90e242f56ddab6df3be2b9004312bd2c9f2b5cd5c94b8b03f85c4d92e"
+    },
+    {
+      "path": "experiments/yolo/gdt487_model_conditioned_realization_lexicon/src/validate.py",
+      "role": "deterministic source and graph validator",
+      "sha256": "d76bf205d8a892950c219fe064fe7dbbc283a0f39c39455ea60bf1744fd72168"
+    },
+    {
+      "path": "experiments/yolo/gdt487_model_conditioned_realization_lexicon/artifacts/README.md",
+      "role": "artifact guide",
+      "sha256": "b726199b722616b7d59389b783cd1676d0fcf43880dc02ca698d488f4c02ef6e"
+    },
+    {
+      "path": "experiments/yolo/gdt487_model_conditioned_realization_lexicon/artifacts/GDT487_MODEL_CONDITIONED_REALIZATION_LEXICON.md",
+      "role": "complete readable realization lexicon and singleton routing",
+      "sha256": "05c98b77841f087c1d543833a69e9b9422d6492fef70ca588212cf12c8787d95"
+    },
+    {
+      "path": "experiments/yolo/gdt487_model_conditioned_realization_lexicon/artifacts/gdt487_13_component_realization_lexicon.tsv",
+      "role": "component-level realization lexicon",
+      "sha256": "88b1a2afb37d9cf92e6a992414d3dee11eff85a41fbd0a59da3a0580a0008d34"
+    },
+    {
+      "path": "experiments/yolo/gdt487_model_conditioned_realization_lexicon/artifacts/gdt487_39_component_model_cells.tsv",
+      "role": "complete observed and open component-model matrix",
+      "sha256": "cd7b3784db6bc5624831137ebe15dd999fc9c7bf9725fbade0fce94b6858901d"
+    },
+    {
+      "path": "experiments/yolo/gdt487_model_conditioned_realization_lexicon/artifacts/gdt487_29_observed_realization_forms.tsv",
+      "role": "observed German forms with source witnesses",
+      "sha256": "75522dbd3bbbbef976ed30614c5551bef54a57a96aaf3378a44d34a9f1f0e241"
+    },
+    {
+      "path": "experiments/yolo/gdt487_model_conditioned_realization_lexicon/artifacts/gdt487_16_singleton_triangulations.tsv",
+      "role": "alternate paths and endpoint anchors for singleton rules",
+      "sha256": "38ad1e1ba5ed7b3420bc761811196beec525e27e0a0e6f5f647a5811daf40eb9"
+    },
+    {
+      "path": "experiments/yolo/gdt487_model_conditioned_realization_lexicon/artifacts/gdt487_3_external_contrast_anchors.tsv",
+      "role": "inherited contrast anchors",
+      "sha256": "45513816ea5b080a9209e1354feea85d399ab1b6210de016460c1ebaea8d43f1"
+    },
+    {
+      "path": "experiments/yolo/gdt487_model_conditioned_realization_lexicon/artifacts/gdt487_13_local_recurrent_edges.tsv",
+      "role": "local recurrent contrast graph",
+      "sha256": "dda6fd32796721aa24063a4fbd3e86cc3e6183033bf90d27cb4f80b703d7b090"
+    },
+    {
+      "path": "experiments/yolo/gdt487_model_conditioned_realization_lexicon/artifacts/gdt487_6_page_realization_support.tsv",
+      "role": "pagewise realization isolation capacity",
+      "sha256": "dd41e01e35d6ccebcb171d580f68ef866414bafb083566eb7d5e2f4d54ead23f"
+    },
+    {
+      "path": "experiments/yolo/gdt487_model_conditioned_realization_lexicon/artifacts/gdt487_result.json",
+      "role": "compact result",
+      "sha256": "265105da8e88bf302a11873f4c7c11e9dabebbe5d4451485714a808f7a0f7b53"
+    },
+    {
+      "path": "experiments/yolo/gdt487_model_conditioned_realization_lexicon/artifacts/gdt487_validation.json",
+      "role": "92-check validation report",
+      "sha256": "fdfc37d8797c1bc5ba8cfc74243d4c8b72f87787cffa6dd8188480f9cea04855"
+    }
+  ],
+  "question": "What observed German forms realize each fixed GDT486 component value in catalogue, coordinate, and instruction models, and which singleton contrast rules acquire an alternate contrast path?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "model_conditioned_realization_lexicon",
+  "status": "THIRTEEN_VALUE_REALIZATION_LEXICON__FOURTEEN_SINGLETON_CYCLES__TWO_ENDPOINT_ANCHORS",
+  "title": "Model-conditioned realization lexicon",
+  "updated": "2026-08-26",
+  "validation": {
+    "artifact": "experiments/yolo/gdt487_model_conditioned_realization_lexicon/artifacts/gdt487_validation.json",
+    "status": "PASS"
+  }
+}

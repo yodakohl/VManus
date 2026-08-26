@@ -11724,3 +11724,25 @@ same-register pairing: EINSTELLEN, FORTSETZEN and HALTEN. No meaning, model,
 boundary, surface, recipe, Event or page changes; validation passes 97/97.
 Next invert the 29 contrasts into a model-conditioned German realization
 lexicon and use shared values to triangulate the sixteen single witnesses.
+
+## GDT487 model-conditioned realization lexicon
+
+GDT487 reverses the 29 GDT486 contrast rules into a value-first lookup. The
+thirteen fixed components produce 39 catalogue/coordinate/instruction cells:
+25 are observed and fourteen remain `OPEN`. Fifty-six Record×Wert witnesses
+in 47 Records supply 29 distinct German realization forms; every form is
+copied from a fixed GDT486 reading and none is analogically invented.
+
+The thirteen recurrent GDT486 rules form a local contrast graph. Thirteen of
+the sixteen singleton rules have an alternate path inside it. `DANACH ↔
+EINHEIT` gains a complete four-edge path through GDT429's fourteen-frame
+`DANACH ↔ FORTSETZEN` contrast and the local graph. Thus fourteen singleton
+rules are cycle-triangulated. `EINSTELLEN ↔ HIER` and `HALTEN ↔ ZIELORT` remain
+local endpoints, but their action values are independently connected to
+GDT428's eleven `T~R` and fourteen `SH~CHD` exact frames. No singleton is
+unanchored.
+
+No meaning, model, boundary, surface, recipe, Event or page changes;
+validation passes 92/92. Next seek only a second lightly relaxed local frame
+for each of EINSTELLEN and HALTEN inside the fixed 135 Records. The other
+fourteen singleton rules require no further broad search.
