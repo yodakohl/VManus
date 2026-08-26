@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT450.
+Updated: 2026-08-26, after GDT464.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -64,6 +64,17 @@ CONTROL into `T=EINSTELLEN` and `R=MARKIEREN` creates a five-class gate with
 7/17 never-seen pairs are now blocked. Seven of the nine local cards remain
 amber; `R>T` and `R<-EE` remain red-local. The internal meanings of the broad
 classes are not collapsed.
+
+GDT459–GDT464 now resolve the formerly opaque local-address tail as the mixed
+codebook architecture anticipated by the sidequest: portable function cards
+surround memorized owner-bound name cores. Of 107 learned address labels,
+eighteen are now complete function formulas, 87 are function-shell/name-core
+hybrids, one carries only a replicated owner-family marker, and only `oiil`
+remains a wholly learned label. The decisive late repair is `of=O+LOCAL_CHAR_F`
+(`AUSFÜHRUNG · HIER`): exact `qof` plus 6/6 bare running extensions makes it a
+technical card across celestial and pharmaceutical owners, not a star name.
+The other final bridges are `ainy=AIN+Y`, terminal `eey=EE+Y`, and
+`yddy=Y+D_ADDR+Y`. These are working component values, not plaintext words.
 
 GDT428 now supplies the missing semantic contrast deck. Six within-class
 comparisons contain 104 exact frames where only the action root changes. The
@@ -1061,9 +1072,9 @@ comparison set.
 
 ## Next work
 
-Keep the current 26 pages closed. Publish one integrated intake command that
-shows exact identity, the GDT449 advisory history and the GDT446 live-context
-decision in separate fields. Implement precedence so neither catalog identity
-nor robustness history can technically turn a live stop into a read. Add the
-eight GDT450 cases as fixed regression probes. Do not generate a surface,
-occurrence or new meaning.
+Keep the current 26 pages closed. Audit only the sole remaining whole label
+`oiil` against its ZL3b/IT2a/RF1b manual readings and the already known exact
+IIN/L renderer families. A split is allowed only if an alternate reading or a
+complete old package independently licenses it; visual resemblance to
+`O+IIN+L` is not enough. Do not reopen any other label, page, core meaning, or
+long-horizon fault route.

@@ -11251,3 +11251,16 @@ Status is `APPARENT_EQUIVALENCE_EXPLAINED_BY_EXISTING_STRUCTURE`. This closes
 free predictive clustering of exact joint tuples under the registered stop
 rule. It establishes no latent lexicon, tuple merge, morphology, semantics, or
 translation. f84/f84r were excluded by the guarded source boundary.
+
+## GDT464 residual exact-package bridge
+
+GDT459–GDT464 split the 107 local address labels into a productive function
+shell plus an owner-bound nomenclator. GDT464 closes six of the seven remaining
+whole labels without adding a core: `of=O+LOCAL_CHAR_F` is supported by exact
+`qof` and 6/6 running prefixes; `ainy=AIN+Y` by the 53/53 `-ain` channel,
+exact cards and held `korainy`; terminal `eey=EE+Y` by 45/46 boundary matches;
+and `yddy=Y+D_ADDR+Y` by the old green three-card parse plus 13/66 populated
+arms. The deck now contains 18 full formulas, 87 function/name hybrids, one
+family-only label and one whole label (`oiil`), with 440/713 characters assigned
+to existing functions. These remain working structural meanings, not confirmed
+lexemes, object names or plaintext.
