@@ -1,0 +1,122 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Observed GDT416 phrase atlas for exact GDT428 T carriers; all defaults are existing owner-local workshop paraphrases, with no invented phrase, new meaning, model, boundary, surface, recipe, event, or page.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt490_einstellen_observed_phrase_atlas/src/run.py",
+    "validate": "python3 experiments/yolo/gdt490_einstellen_observed_phrase_atlas/src/validate.py"
+  },
+  "created": "2026-08-26",
+  "dependencies": ["GDT416", "GDT428", "GDT489"],
+  "experiment_id": "GDT490",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt416_owner_local_imperative_sentence_compiler/artifacts/gdt416_4576_imperative_clauses.tsv",
+      "role": "complete observed owner-local imperative clauses",
+      "sha256": "cffae521ba93d96446537584e35fa9a4fe4b6e34330ebf7e955ad725f7c70561"
+    },
+    {
+      "path": "experiments/yolo/gdt428_within_class_action_semantic_contrasts/artifacts/gdt428_104_direct_substitution_frames.tsv",
+      "role": "exact T-R frame and carrier inventory",
+      "sha256": "824e8a75eceb9dcf9c93a6c6f36ad2d4b27a2eedb750f4d00483ae16804b24f7"
+    },
+    {
+      "path": "experiments/yolo/gdt489_einstellen_typed_composition_neighbourhood/artifacts/gdt489_11_tr_composition_frames.tsv",
+      "role": "local context and T-contact status",
+      "sha256": "df97ffe38bc4dba1090e6caad5a9416b6f7ad63861ce8ce88194ea1fa173ebca"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt490_einstellen_observed_phrase_atlas/README.md",
+      "role": "entry point",
+      "sha256": "aec0d0da5bbd19a70a1b75610ed43e407f6a0c70b6b9b0df078754d29ecfcdca"
+    },
+    {
+      "path": "experiments/yolo/gdt490_einstellen_observed_phrase_atlas/METHOD.md",
+      "role": "exact observed phrase-selection method",
+      "sha256": "046e2137b0b31850e0cd8808183ff29bd11e2ad43a73ae565c9295fdfbd12cfa"
+    },
+    {
+      "path": "experiments/yolo/gdt490_einstellen_observed_phrase_atlas/REPORT.md",
+      "role": "primary report",
+      "sha256": "4be58dc442befab958e5884f2d28f642a1bb1d97c89b18240e69a5892d390ae0"
+    },
+    {
+      "path": "experiments/yolo/gdt490_einstellen_observed_phrase_atlas/src/run.py",
+      "role": "deterministic phrase-atlas builder",
+      "sha256": "51ed1f3e023d420d2d349b014e757f2093013f93493ba52d094554f8a47cc2e3"
+    },
+    {
+      "path": "experiments/yolo/gdt490_einstellen_observed_phrase_atlas/src/validate.py",
+      "role": "deterministic source, phrase and default validator",
+      "sha256": "461a600d9def1733fc8c68895bf76339866800edfe015cf8cc2d90bd0b5e5721"
+    },
+    {
+      "path": "experiments/yolo/gdt490_einstellen_observed_phrase_atlas/artifacts/README.md",
+      "role": "artifact guide",
+      "sha256": "f2fa11d7ab2bf559f885a9a5e867671d5876c8704a33c43bd836f3a687d32092"
+    },
+    {
+      "path": "experiments/yolo/gdt490_einstellen_observed_phrase_atlas/artifacts/GDT490_EINSTELLEN_OBSERVED_PHRASE_ATLAS.md",
+      "role": "complete readable observed phrase atlas",
+      "sha256": "f8dc72095f00c08f36801ef6e0397dde6cc3befa4d8aee6dbbc34219f17f3979"
+    },
+    {
+      "path": "experiments/yolo/gdt490_einstellen_observed_phrase_atlas/artifacts/gdt490_30_readable_t_carriers.tsv",
+      "role": "all exact readable T carriers",
+      "sha256": "2635b9590962e648f395754f7fea051c7c99b514301f64194e4cfa0a5b41e511"
+    },
+    {
+      "path": "experiments/yolo/gdt490_einstellen_observed_phrase_atlas/artifacts/gdt490_22_observed_t_clause_forms.tsv",
+      "role": "all observed T clause forms",
+      "sha256": "943e0807b995f3eacca93cdf2bd87eb7777a7cef0f9744d0ea1d5a2993f8f444"
+    },
+    {
+      "path": "experiments/yolo/gdt490_einstellen_observed_phrase_atlas/artifacts/gdt490_11_t_frame_phrase_cells.tsv",
+      "role": "frame-level observed phrase cells",
+      "sha256": "df192dcdaf09cae471d46c1caacedfeee52cf7d03da9b98f1f22178fded5b756"
+    },
+    {
+      "path": "experiments/yolo/gdt490_einstellen_observed_phrase_atlas/artifacts/gdt490_11_observed_default_phrases.tsv",
+      "role": "compact observed default phrasebook",
+      "sha256": "34716909fa2627c94ef6de31761e25b63c45f81d456471f192c820827638d358"
+    },
+    {
+      "path": "experiments/yolo/gdt490_einstellen_observed_phrase_atlas/artifacts/gdt490_5_register_phrase_support.tsv",
+      "role": "registerwise phrase coverage",
+      "sha256": "4751214efcbf53f97e33921999199ff0865e6eb11fbd2a17a50e27acc8b02417"
+    },
+    {
+      "path": "experiments/yolo/gdt490_einstellen_observed_phrase_atlas/artifacts/gdt490_1_absent_local_context_recovery.tsv",
+      "role": "admitted-page phrase recovery for the absent local context",
+      "sha256": "0f6261cf4d9f4b1326cc9e967478514f84402cc67ca5288aeecc58381bb9534c"
+    },
+    {
+      "path": "experiments/yolo/gdt490_einstellen_observed_phrase_atlas/artifacts/gdt490_result.json",
+      "role": "compact result",
+      "sha256": "30a46f5d7a46456398f0cd0208c502a3065bb4bf65677eeeb5f81d6a85733e48"
+    },
+    {
+      "path": "experiments/yolo/gdt490_einstellen_observed_phrase_atlas/artifacts/gdt490_validation.json",
+      "role": "89-check validation report",
+      "sha256": "70d3895685cbb3764b927cabfa512a8047d5204f76585ab7927284139e971167"
+    }
+  ],
+  "question": "Which existing GDT416 German clauses realize the eleven T-side GDT428 frames, and can each frame receive an observed default without inventing prose?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "einstellen_observed_phrase_atlas",
+  "status": "ALL_ELEVEN_T_FRAMES_HAVE_OBSERVED_PHRASES__TWENTY_TWO_FORMS__ZERO_INVENTED",
+  "title": "EINSTELLEN observed phrase atlas",
+  "updated": "2026-08-26",
+  "validation": {
+    "artifact": "experiments/yolo/gdt490_einstellen_observed_phrase_atlas/artifacts/gdt490_validation.json",
+    "status": "PASS"
+  }
+}

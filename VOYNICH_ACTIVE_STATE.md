@@ -11798,3 +11798,26 @@ one has this explicit composition/replacement path; all sixteen are connected.
 No meaning, wording, model, boundary, surface, recipe, Event or page changes;
 validation passes 98/98. Next recover further concrete T wording only from
 readable old GDT428 T carriers; context recurrence alone may not invent prose.
+
+## GDT490 EINSTELLEN observed phrase atlas
+
+GDT490 joins every T-instantiated GDT428 frame to exact GDT416 imperative
+clauses. All eleven frames have readable T carriers: thirty events on fifteen
+admitted pages, across all five registers and nine owner classes. They yield
+22 distinct observed German clauses, all with exact component roundtrip.
+
+One existing clause is selected per frame by carrier count, then sentence
+length and lexical order. The eleven defaults are therefore observations, not
+generated templates. The five targeted forms are concrete: `T+AIIN` “Stelle
+den Arbeitswert ein”, `T+AIN` “Stelle den Drogenanteil ein”, `T+AL` “Stelle
+den Stationsposten [wie zuvor] ein; zur Zielstation”, `T+OL` “Weiter stelle
+den Pflanzenposten [wie zuvor] ein” and `T+Y` “Stelle den Pflanzenposten ein”.
+
+GDT489's six-page absence of `CHD+Y` is retained locally, but the admitted
+26-page set contains five exact `T+CHD+Y` carriers on three pages and two
+observed clauses: plants or stations are first set and then processed. Thus
+all eleven T frames now have concrete wording without analogical invention.
+
+No meaning, wording, model, boundary, surface, recipe, Event or page changes;
+validation passes 89/89. Next build the same atlas for 46 R=MARKIEREN carriers
+and publish eleven side-by-side observed T/R sentence contrasts.

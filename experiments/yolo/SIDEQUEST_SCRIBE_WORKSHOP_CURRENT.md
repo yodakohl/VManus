@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT489.
+Updated: 2026-08-26, after GDT490.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -265,6 +265,16 @@ Because POSTEN/HIER is a twice recurrent replacement edge, the last singleton
 has the mixed route `EINSTELLEN → POSTEN → HIER`. Replacement and composition
 remain distinct: the final inventory is fifteen pure replacement cycles and
 one explicit mixed path, with all sixteen singletons connected.
+
+GDT490 returns to the complete already admitted 26-page imperative edition
+and joins every one of the eleven T frames to its exact old clauses. Thirty
+T-side carriers span fifteen pages, all five registers and nine owner classes;
+they supply 22 observed German forms and one observed default per frame.
+Concrete cards now include “Stelle den Arbeitswert ein”, “Stelle den
+Drogenanteil ein”, “Stelle den Pflanzenposten ein” and “Weiter stelle den
+Pflanzenposten [wie zuvor] ein”. Even GDT489's locally absent `CHD+Y` context
+has five admitted `T+CHD+Y` carriers and the direct wording “stelle … ein und
+bearbeite …”. No phrase was composed by analogy.
 
 GDT428 now supplies the missing semantic contrast deck. Six within-class
 comparisons contain 104 exact frames where only the action root changes. The
@@ -1054,6 +1064,9 @@ comparison set.
 
 ## Primary artifacts
 
+- Current GDT490 observed EINSTELLEN phrase atlas, thirty exact T carriers,
+  22 German clause forms, eleven observed defaults and all-register coverage:
+  `gdt490_einstellen_observed_phrase_atlas/`;
 - Current GDT489 typed EINSTELLEN neighbourhood, eleven T/R frames, 168 local
   context witnesses, three local T contacts, two composition edges and the
   mixed path connecting the sixteenth singleton:
@@ -1291,9 +1304,8 @@ comparison set.
 
 ## Next work
 
-Keep the current 26 pages closed. Use the actual T-side carriers behind the
-eleven GDT428 frames to recover concrete existing wording for EINSTELLEN with
-WERT, ANTEIL, ZIELORT, FORTSETZEN and POSTEN. Promote a German phrase only
-when a readable old carrier supplies it; do not manufacture a phrase from the
-mere 168 context witnesses. Keep the absent local `CHD+Y` context open and
-retain the composition/replacement edge distinction.
+Keep the current 26 pages closed. Build the identical observed phrase atlas
+for `R=MARKIEREN` from the 46 old R-side carriers. Then place the selected T
+and R defaults beside one another in each of the eleven shared frames, with
+the unchanged remainder explicitly highlighted. Retain every owner-specific
+variant; do not normalize two observed sentences into a new synthetic one.
