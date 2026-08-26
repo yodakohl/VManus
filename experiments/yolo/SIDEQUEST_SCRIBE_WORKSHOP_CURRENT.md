@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT491.
+Updated: 2026-08-26, after GDT492.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -286,6 +286,17 @@ the action-only Pflanzenposten card. Four frames remain owner variants rather
 than failures: `AL+Y`, `CH+E+Y`, `OR+Y` and `CH+@ACTION` have the same formal
 component rest, but their observed German object words come from different
 owners. They are not normalized into synthetic sentences.
+
+GDT492 opens those four variants at the slot level. Their twelve positions use
+only T, R, AL, Y, CH, E and OR; every value already has carriers in all five
+registers, giving 35/35 observed root×register cells and zero undefined slots.
+Seven of eight nonaction differences are exactly the old owner vocabulary
+(Position/Station, Pflanzen-/Stationsposten, Arbeits-/Stationseinheit and the
+register-specific NEHMEN form); `E=GRAD I` is identical. The four exact frame
+families also contain 23 old events, 17 action cells and nineteen clauses.
+Nine cells use other actions. `OK+AL+Y` directly bridges celestial/biological
+and `CH+AL+Y` biological/pharma while keeping both action and formal frame.
+Thus owner wording is a productive register layer, not four new lexemes.
 
 GDT428 now supplies the missing semantic contrast deck. Six within-class
 comparisons contain 104 exact frames where only the action root changes. The
@@ -1075,6 +1086,10 @@ comparison set.
 
 ## Primary artifacts
 
+- Current GDT492 owner-slot bridge atlas, twelve decomposed positions, 35/35
+  old register cells, 23 family carriers, nine non-T/R action cells and two
+  direct same-action register bridges:
+  `gdt492_owner_variant_slot_bridge_atlas/`;
 - Current GDT491 observed MARKIEREN and T/R contrast atlas, 46 exact R
   carriers, 22 R clause forms, eleven R defaults, seven exact German
   remainder pairs and four explicit owner variants:
@@ -1319,9 +1334,8 @@ comparison set.
 
 ## Next work
 
-Keep the current 26 pages closed. Decompose only the four GDT491 owner
-variants (`AL+Y`, `CH+E+Y`, `OR+Y`, `CH+@ACTION`) into observed slots for
-action, object, relation, grade and following action. Search the old GDT416
-clauses for cross-owner carriers of each slot value. The target is a shared
-slotwise sentence pattern, not a newly normalized sentence; retain every
-observed phrase verbatim.
+Keep the current 26 pages closed. Compile an owner-dependent realization deck
+for all eleven T/R frames across all five registers. Every cell must say either
+`OBSERVED_CLAUSE` when an exact GDT416 clause exists or `COMPOSED_WORKING`
+when only old GDT492 slot cells are combined. Preserve the exact component
+trace and never present a composed workshop sentence as an observed witness.

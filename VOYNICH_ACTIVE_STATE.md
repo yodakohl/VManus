@@ -11847,3 +11847,31 @@ No meaning, wording, model, boundary, surface, recipe, Event or page changes;
 validation passes 97/97. Next decompose only the four owner variants into
 observed action/object/relation/grade/follow-up slots and seek cross-owner old
 carriers for those slots, keeping all twenty-six pages closed.
+
+## GDT492 owner-variant slot bridge atlas
+
+GDT492 decomposes GDT491's four owner variants into twelve formal positions.
+They use seven values—T, R, AL, Y, CH, E and OR—and every value has old support
+in every register. The resulting root×register atlas is complete at 35/35
+observed cells; no slot requires a new value.
+
+Of eight nonaction positions, seven keep the same portable value while using
+the already fixed owner vocabulary: Zielposition/Zielstation,
+Positions-/Stationsposten, laufender Eintrag/Stationsposten,
+Arbeits-/Stationseinheit and the register-specific realizations of CH. The
+remaining position is literally stable: E reads GRAD I in both Source and
+Biological. The four action positions remain the intended
+EINSTELLEN/MARKIEREN contrast.
+
+The exact four frame families contain 23 old GDT416 events on eleven pages,
+seventeen frame×action cells and nineteen observed clauses across all five
+registers. Nine action cells lie outside T/R. Two retain even the action while
+crossing register: `OK+AL+Y` connects celestial Positionsposten/Zielposition
+to biological Stationsposten/Zielstation; `CH+AL+Y` connects biological to
+pharmaceutical Drogenposten/Zielgefäß. Owner wording therefore behaves as an
+existing realization layer, not as four additional portable lexemes.
+
+No phrase, value, meaning, wording, model, boundary, surface, recipe, Event or
+page changes; validation passes 105/105. Next compile all eleven T/R frames
+over all five registers with an explicit OBSERVED_CLAUSE versus
+COMPOSED_WORKING label and an unchanged component trace.
