@@ -12214,3 +12214,22 @@ evidence label, frame value or root changes. Validation passes 532/532. Next
 rank the eleven target frames by old removable context and argument-mode
 compatibility rather than treating all handgrips as equally complete; keep all
 pages closed.
+
+## GDT506 target pair-frame compatibility rank
+
+GDT506 tests the complete target frame rather than treating pair existence as
+sufficient. All eleven targets are ordered subsequences of old GDT505 carriers,
+yielding 84 concrete reductions. Forty preserve the target's explicit or
+contextual argument policy. Three targets have such a reduction in their own
+register: pharmaceutical `P+CH+E+Y`, pharmaceutical `CH+P`, and source
+`CH+P`. Four more are compatible only across registers: celestial
+`P+CH+E+Y` and the celestial/pharmaceutical/source `S+CHD+Y` targets.
+
+The remaining four cards are the source/pharmaceutical `CH+CH` and `CH+SH`
+frames. Their action handgrips remain old and ordered, but all ten exact old
+carriers state an argument explicitly, whereas the targets use the inherited
+reading “das zuvor Genannte”. They are retained as open contextual transfers,
+not rejected or promoted. All eleven phrases and nineteen root meanings remain
+unchanged; no surface or occurrence is predicted. Validation passes 508/508.
+Next inspect only broader old `CH>CH` chains and sibling `CH>@ACTION` carriers
+with inherited arguments for that four-card bridge; keep all pages closed.

@@ -1,0 +1,125 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "The eleven existing pair-handgrip targets are ranked only by exact ordered reduction from the 55 old pair carriers and by explicit/inherited argument compatibility. Seven targets have compatible reductions (three in-register and four cross-register); four CH+CH/CH+SH targets retain their action handgrips but remain open because all old exact carriers use explicit arguments while the targets inherit context. No working root, phrase, surface, occurrence, page, or foreign carrier-frame meaning is changed or predicted.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt506_target_pair_frame_compatibility_rank/src/run.py",
+    "validate": "python3 experiments/yolo/gdt506_target_pair_frame_compatibility_rank/src/validate.py"
+  },
+  "created": "2026-08-27",
+  "dependencies": [
+    "GDT413",
+    "GDT505"
+  ],
+  "experiment_id": "GDT506",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt413_twenty_six_page_semantic_working_edition/artifacts/gdt413_46_component_working_dictionary.tsv",
+      "role": "fixed component families and working values",
+      "sha256": "728113b051828ad7e8cdf46369832f3a81a4792bc104f3ef1f23644af5fa120e"
+    },
+    {
+      "path": "experiments/yolo/gdt505_carrier_neutral_pair_handgrip_atlas/artifacts/gdt505_55_exact_pair_carriers.tsv",
+      "role": "complete old exact carriers of the five target action pairs",
+      "sha256": "4440df1dee96b98a3175ce852a1244dcb091baa671510eb68a38b756f0c32a20"
+    },
+    {
+      "path": "experiments/yolo/gdt505_carrier_neutral_pair_handgrip_atlas/artifacts/gdt505_5_carrier_neutral_handgrips.tsv",
+      "role": "fixed five carrier-neutral action handgrips",
+      "sha256": "0e51284a85d74513b0d0523c1753ce79bf7869dbdf464a7702ee46d13200c847"
+    },
+    {
+      "path": "experiments/yolo/gdt505_carrier_neutral_pair_handgrip_atlas/artifacts/gdt505_11_target_pair_handgrip_cards.tsv",
+      "role": "fixed eleven target frames and phrases",
+      "sha256": "0175d6a9e514cdf98c284b8c38bcb9993d37e67b036afa40cf7eb8518024f860"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt506_target_pair_frame_compatibility_rank/README.md",
+      "role": "entry point",
+      "sha256": "e6c20cf0d833d55377f2744d731cf2a11299e555d5f1c7cfbc503d2c99b2c5bd"
+    },
+    {
+      "path": "experiments/yolo/gdt506_target_pair_frame_compatibility_rank/METHOD.md",
+      "role": "ordered-reduction and argument-compatibility method",
+      "sha256": "44412e32c3db4262fb1a2b1cf4604b638b330f451ce3d2666586486ff96e4bed"
+    },
+    {
+      "path": "experiments/yolo/gdt506_target_pair_frame_compatibility_rank/REPORT.md",
+      "role": "primary report",
+      "sha256": "3f4110eb936e335b9bd2de124fc4f583ca9f1df769667b4bace876518c5d8eda"
+    },
+    {
+      "path": "experiments/yolo/gdt506_target_pair_frame_compatibility_rank/src/run.py",
+      "role": "deterministic target-frame compatibility ranker",
+      "sha256": "50c8b97fa9cf2f39943d56913f1c73e18179062f74e7f4ddaa2c8ccbb1c4de80"
+    },
+    {
+      "path": "experiments/yolo/gdt506_target_pair_frame_compatibility_rank/src/validate.py",
+      "role": "independent candidate, tier, argument-policy and invariant validator",
+      "sha256": "432fa1be27561daf4faecdb390802b3d34475ebaf3bd4f008114287ca6e15b3b"
+    },
+    {
+      "path": "experiments/yolo/gdt506_target_pair_frame_compatibility_rank/artifacts/README.md",
+      "role": "artifact guide",
+      "sha256": "cadd63a05126ed51fdd3304fedb6564c4697c9fd6677e7573de3ba341b6f1005"
+    },
+    {
+      "path": "experiments/yolo/gdt506_target_pair_frame_compatibility_rank/artifacts/GDT506_TARGET_PAIR_FRAME_COMPATIBILITY_RANK.md",
+      "role": "readable eleven-target compatibility atlas",
+      "sha256": "94935ff66498a54f37dd8762ab4da551a205eecba09b14ed3b61d6e2cd49b19d"
+    },
+    {
+      "path": "experiments/yolo/gdt506_target_pair_frame_compatibility_rank/artifacts/gdt506_11_target_frame_compatibility_cards.tsv",
+      "role": "complete target-frame rank",
+      "sha256": "9feac2733ba2ab9d8fb1a4ab24f4b991b400037d30cdcac223729a642ad8baea"
+    },
+    {
+      "path": "experiments/yolo/gdt506_target_pair_frame_compatibility_rank/artifacts/gdt506_84_ordered_reduction_candidates.tsv",
+      "role": "all exact ordered old-carrier reductions",
+      "sha256": "5f0e526018df23513cf4ba3b550ea53cdbdd9e53c866ce42960bad4000ee6c57"
+    },
+    {
+      "path": "experiments/yolo/gdt506_target_pair_frame_compatibility_rank/artifacts/gdt506_3_frame_compatibility_tier_summary.tsv",
+      "role": "three-tier target summary",
+      "sha256": "189f63021e9c653c1a0b9fd276159c4d2a55ed153f312c09aa216b75f375b64c"
+    },
+    {
+      "path": "experiments/yolo/gdt506_target_pair_frame_compatibility_rank/artifacts/gdt506_5_pair_frame_profile.tsv",
+      "role": "pair-level reduction profile",
+      "sha256": "8cf3137ecf1a1b0dda6298ee774944b55e15d1e7bacfbcc2fef63e2aa62ffcfc"
+    },
+    {
+      "path": "experiments/yolo/gdt506_target_pair_frame_compatibility_rank/artifacts/gdt506_2_target_argument_policy_summary.tsv",
+      "role": "explicit versus contextual target policy summary",
+      "sha256": "47f0bd94a7ce34c871c926ad2f55260128a8ee51619f2a1d0a3191eae4a35cd0"
+    },
+    {
+      "path": "experiments/yolo/gdt506_target_pair_frame_compatibility_rank/artifacts/gdt506_result.json",
+      "role": "compact result",
+      "sha256": "2ee17f761e8939e6c6823dc1b37a9cf09a20f3ea86e5c11689b73813dcf57555"
+    },
+    {
+      "path": "experiments/yolo/gdt506_target_pair_frame_compatibility_rank/artifacts/gdt506_validation.json",
+      "role": "508-check validation record",
+      "sha256": "fd64cb01b676434cd9116571f548627bc94f9076fca56badf0f6f1551a009bd0"
+    }
+  ],
+  "question": "Which of the eleven current pair-handgrip target frames are exact ordered reductions of old carriers with a compatible explicit or inherited argument mode?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "target_pair_frame_compatibility_rank",
+  "status": "SEVEN_TARGET_FRAMES_HAVE_ARGUMENT_COMPATIBLE_REDUCTIONS__FOUR_CONTEXTUAL_TRANSFERS_REMAIN_OPEN",
+  "title": "Target pair-frame compatibility rank",
+  "updated": "2026-08-27",
+  "validation": {
+    "artifact": "experiments/yolo/gdt506_target_pair_frame_compatibility_rank/artifacts/gdt506_validation.json",
+    "status": "PASS"
+  }
+}

@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **504**
-- Experiment-associated tracked files: **7,338** (795.0 MiB)
-- Structured GDT337+ experiments: **169**
+- Experiments indexed: **505**
+- Experiment-associated tracked files: **7,353** (795.1 MiB)
+- Structured GDT337+ experiments: **170**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT506 | GDT506_target_pair_frame_compatibility_rank | `SEVEN_TARGET_FRAMES_HAVE_ARGUMENT_COMPATIBLE_REDUCTIONS__FOUR_CONTEXTUAL_TRANSFERS_REMAIN_OPEN` | [report](../experiments/yolo/gdt506_target_pair_frame_compatibility_rank/REPORT.md) | 15 | 97.6 KiB | 2 | STRUCTURED_YOLO |
 | GDT505 | GDT505_carrier_neutral_pair_handgrip_atlas | `FIVE_HANDGRIPS_SURVIVE_ALL_FIFTY_FIVE_OLD_CARRIERS__ELEVEN_TARGETS_MAPPED` | [report](../experiments/yolo/gdt505_carrier_neutral_pair_handgrip_atlas/REPORT.md) | 16 | 96.8 KiB | 5 | STRUCTURED_YOLO |
 | GDT504 | GDT504_semantic_delta_phrase_consistency_atlas | `FORTY_SIX_PHRASE_DELTAS_RESOLVE_WITH_FIXED_VALUES__PAIR_FRAME_EDITS_REMAIN_SEPARATE` | [report](../experiments/yolo/gdt504_semantic_delta_phrase_consistency_atlas/REPORT.md) | 16 | 128.2 KiB | 4 | STRUCTURED_YOLO |
 | GDT503 | GDT503_four_open_edge_long_chain_recovery | `BOTH_OPEN_RECIPES_HAVE_ONE_OLD_DIRECTIONAL_CHAIN__DIRECT_AND_SEPARATOR_SUPPORT_DISTINGUISHED` | [report](../experiments/yolo/gdt503_four_open_edge_long_chain_recovery/REPORT.md) | 16 | 66.5 KiB | 8 | STRUCTURED_YOLO |

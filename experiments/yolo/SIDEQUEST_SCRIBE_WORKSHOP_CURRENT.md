@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-27, after GDT504.
+Updated: 2026-08-27, after GDT506.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -1415,28 +1415,20 @@ comparison set.
 
 ## Next work
 
-Keep the current 26 pages closed. GDT499–GDT500 retain a complete current
-495-cell deck. GDT501 breaks the former fifty old-values-only cells into 46
-partially supported cases and four cells that were atomic-only only inside its
-proper-subrecipe/exact-two-head scope. GDT502 gives every supported cell one
-exact old comparison clause: 112 selected carrier uses, 75 different events,
-22 pages and exact GDT416 roundtrip on all 46 cards. GDT503 recovers one older
-long-chain occurrence for each remaining direction: `CH>OK` is directly
-adjacent inside `P+OT+CH+OK+OR`, while `CH>CHD` occurs in order with
-`EE+D_ADDR` visibly between. Neither is an observed standalone two-head recipe,
-so all four source/pharma target phrases and `COMPOSED_WORKING` labels remain
-fixed. GDT504 then reads the 46 concrete cards as small component deltas: 35
-are exact partial-recipe extensions (22 local and
-thirteen register-normalized), while eleven transfer only an ordered action
-pair and visibly remove or replace foreign carrier context. All 40 target
-additions and 19 carrier removals have the expected phrase effect; no current
-sentence or root changes. Next consolidate all old carriers of `P>CH`,
-`S>CHD`, `CH>P`, `CH>CH` and `CH>SH` into five carrier-neutral handgrips before
-trusting the eleven pair cards as broadly as the 35 proper extensions. GDT505
-does that over all 55 exact old carriers: the five handgrips keep their German
-action order in 34 directly adjacent and 21 visibly separated clauses across
-twenty pages. All eleven current targets retain the handgrip; four pairs are
-old in the target register and seven only elsewhere. Next split those eleven
-by target-frame compatibility, especially because `CH+CH` and `CH+SH` have
-only explicit-argument old carriers while their current Source/Pharma phrases
-use a contextual pronoun.
+Keep the current 26 pages closed. GDT499–GDT500 retain the complete 495-cell
+deck. GDT501–GDT504 turn its weak fifty-cell front into fixed component deltas:
+35 exact partial extensions, eleven pair-frame edits, and four longer-chain
+directional recoveries. GDT505 then replaces one-off examples with all 55 old
+carriers of `P>CH`, `S>CHD`, `CH>P`, `CH>CH` and `CH>SH`; the five neutral
+German handgrips retain their action order in 34 adjacent and 21 visibly
+separated clauses.
+
+GDT506 now ranks the complete eleven target frames. Three have a local
+argument-compatible old reduction and four have one in another register. The
+only unresolved mechanism is narrow: source/pharmaceutical `CH+CH` and
+`CH+SH` inherit “das zuvor Genannte”, while all ten exact old carriers state an
+argument explicitly. Their action readings stay in place as exploratory
+defaults. Next search the 65 broader old `CH>CH` chains and sibling
+`CH>@ACTION` handgrips for an inherited-argument bridge. Do not open new pages,
+invent a new root, or change any current sentence merely to close these four
+cards.
