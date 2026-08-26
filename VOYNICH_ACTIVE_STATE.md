@@ -471,6 +471,19 @@ bank boundary. Validation passes 29/29; no identity, meaning, surface,
 occurrence or page change. Next test increasing contiguous unknown-island
 lengths to find the actual recovery horizon beyond two-card bursts.
 
+GDT457 holds both statement and start position fixed while growing 55 matched
+visible islands from one through sixteen cards. The anchors cover all five
+running registers and 23 current pages. Across 73,216 full-stream events, 880
+islands and 7,480 nonempty replacements, the stop curve rises from five at
+length one to 32 at length sixteen, but all 276 stops remain inside the fault
+island and preserve state. Every available immediate untouched follower reads;
+there are zero untouched stop cascades. Of 880 islands, 869 regain baseline
+state before the next island, five meet it first and six end at a bank boundary.
+All 912 isolated owner-bank runs match globally. Validation passes 28/28; no
+identity, meaning, surface, occurrence or page change. The safe lower bound is
+therefore sixteen cards, not infinity. Next repeat the matched-prefix test to
+length thirty-two on the thirteen cross-register statements that support it.
+
 Pass 1032/GDT404 applies the frozen GDT403 intake contract to a one-shot random
 draw of f1r, f24v, f81r and f95v. The 95 guarded lines add 688 events, 88
 statements and 677 focus attachments. Exactly 470 events retain an old surface
