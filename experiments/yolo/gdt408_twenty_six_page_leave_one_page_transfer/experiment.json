@@ -1,0 +1,125 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "Complete event and attachment leave-one-page tables are required to identify every page-private core or parser factor without sampling.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Held-page transfer of the selected formal working system only; no confirmation of German values, plaintext, language, morphemes, or genre.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt408_twenty_six_page_leave_one_page_transfer/src/run.py",
+    "validate": "python3 experiments/yolo/gdt408_twenty_six_page_leave_one_page_transfer/src/validate.py"
+  },
+  "created": "2026-08-26",
+  "dependencies": [
+    "GDT405",
+    "GDT407"
+  ],
+  "experiment_id": "GDT408",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt407_unified_twenty_six_page_workshop_edition/artifacts/gdt407_4576_running_event_edition.tsv",
+      "role": "upstream reproducible input",
+      "sha256": "b4a8b8c3fe8c5cc3ac2cd33979b71ce4721199bef124e866df2456d2dfbb87f4"
+    },
+    {
+      "path": "experiments/yolo/gdt407_unified_twenty_six_page_workshop_edition/artifacts/gdt407_693_local_group_edition.tsv",
+      "role": "upstream reproducible input",
+      "sha256": "f4eccefd2024acc503e5e904b1eed68fcc631c3f3283a155326f294701f3f734"
+    },
+    {
+      "path": "experiments/yolo/gdt407_unified_twenty_six_page_workshop_edition/artifacts/gdt407_5051_attachment_edition.tsv",
+      "role": "upstream reproducible input",
+      "sha256": "7aa578194bef07f066f0aeb5e9c560d8592641163772d8c8bdb5e38cf30a64a7"
+    },
+    {
+      "path": "experiments/yolo/gdt407_unified_twenty_six_page_workshop_edition/artifacts/gdt407_26_page_summary.tsv",
+      "role": "upstream reproducible input",
+      "sha256": "c8257651a9fa173f454ead90cc5aa02df085ba1a657e1a1885448b63c69ea565"
+    },
+    {
+      "path": "experiments/yolo/gdt405_second_random_batch_recipe_lock/artifacts/gdt405_46_locked_atom_dictionary.tsv",
+      "role": "upstream reproducible input",
+      "sha256": "3d328cad47c2fa378dbe67af88f67b776496dbea91f2d2b9cb4debf4a99130d9"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt408_twenty_six_page_leave_one_page_transfer/README.md",
+      "role": "entry point",
+      "sha256": "fef73ce4279d19570a5ea39dc2d9a17a7d0434e30c3250d9f2e9ae27be8dddac"
+    },
+    {
+      "path": "experiments/yolo/gdt408_twenty_six_page_leave_one_page_transfer/METHOD.md",
+      "role": "reproducible method",
+      "sha256": "3f7052091b3944d2892191e5536f6a3ee47a5642589fab5b10ed04437674cc6c"
+    },
+    {
+      "path": "experiments/yolo/gdt408_twenty_six_page_leave_one_page_transfer/REPORT.md",
+      "role": "primary compact report",
+      "sha256": "a0c9e2a2135057d026903c5730e447b599785e28607d35bf146a39b8975a5477"
+    },
+    {
+      "path": "experiments/yolo/gdt408_twenty_six_page_leave_one_page_transfer/src/run.py",
+      "role": "deterministic builder",
+      "sha256": "4e3a411fe894aa0110ce20dd78821a1f84aa8440de7a58252b4078d5ece797c2"
+    },
+    {
+      "path": "experiments/yolo/gdt408_twenty_six_page_leave_one_page_transfer/src/validate.py",
+      "role": "independent validator",
+      "sha256": "7b1db4e583d5de25f0a1011e860231095d4058b431c03ccbeaddc18d117f5b24"
+    },
+    {
+      "path": "experiments/yolo/gdt408_twenty_six_page_leave_one_page_transfer/artifacts/README.md",
+      "role": "artifact guide",
+      "sha256": "5e7a4be8b45b1c8536a55ed86bac6e886f0e56979a60004314e41277914037d5"
+    },
+    {
+      "path": "experiments/yolo/gdt408_twenty_six_page_leave_one_page_transfer/artifacts/gdt408_4576_event_leaveout.tsv",
+      "role": "reproducible output artifact",
+      "sha256": "dcac960ac50fa0d5967e0799ed6178f60ab816fe0ce9ac8fb8cc5e6a9cc6910c"
+    },
+    {
+      "path": "experiments/yolo/gdt408_twenty_six_page_leave_one_page_transfer/artifacts/gdt408_693_local_leaveout.tsv",
+      "role": "reproducible output artifact",
+      "sha256": "cf2dec597ec541bf9201a0475850eee17261fdd918e1a44a33945c30e4c4fee7"
+    },
+    {
+      "path": "experiments/yolo/gdt408_twenty_six_page_leave_one_page_transfer/artifacts/gdt408_5051_attachment_leaveout.tsv",
+      "role": "reproducible output artifact",
+      "sha256": "65a9a3044d29b9a564bc50c153c9911fe3177c380f6d746dba5c030ab060f70e"
+    },
+    {
+      "path": "experiments/yolo/gdt408_twenty_six_page_leave_one_page_transfer/artifacts/gdt408_surface_recipe_leaveout.tsv",
+      "role": "reproducible output artifact",
+      "sha256": "30d0c0937847440882d8a49c0d888a9c5d7cd430faa8c60555c9c6b93a4622f9"
+    },
+    {
+      "path": "experiments/yolo/gdt408_twenty_six_page_leave_one_page_transfer/artifacts/gdt408_26_page_leaveout_summary.tsv",
+      "role": "reproducible output artifact",
+      "sha256": "cd65e93688f46c516465eb8570a73335071a55eeb4765eac551b61beecbbbd35"
+    },
+    {
+      "path": "experiments/yolo/gdt408_twenty_six_page_leave_one_page_transfer/artifacts/gdt408_result.json",
+      "role": "compact result",
+      "sha256": "a340b4af5e74d1323c36ee17bbc57c5ba446198f0149f5b99f34a958f2cb0cab"
+    },
+    {
+      "path": "experiments/yolo/gdt408_twenty_six_page_leave_one_page_transfer/artifacts/gdt408_validation.json",
+      "role": "validation report",
+      "sha256": "715d184aa848e225737f8beaeeef9a3136e637fcf619accf69373a1a6fb033c7"
+    }
+  ],
+  "question": "Can every admitted page be replayed from the other 25 without a page-private portable atom or parser factor?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "twenty_six_page_leave_one_page_transfer",
+  "status": "TWENTY_SIX_OF_TWENTY_SIX_PAGE_FACTOR_REPLAY_COMPLETE",
+  "title": "Twenty-six-page leave-one-page transfer",
+  "updated": "2026-08-26",
+  "validation": {
+    "artifact": "experiments/yolo/gdt408_twenty_six_page_leave_one_page_transfer/artifacts/gdt408_validation.json",
+    "status": "PASS"
+  }
+}

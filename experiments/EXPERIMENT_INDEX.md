@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **404**
-- Experiment-associated tracked files: **5,792** (650.8 MiB)
-- Structured GDT337+ experiments: **69**
+- Experiments indexed: **412**
+- Experiment-associated tracked files: **5,907** (661.2 MiB)
+- Structured GDT337+ experiments: **77**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,14 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT413 | GDT413_twenty_six_page_semantic_working_edition | `COMPLETE_TWENTY_SIX_PAGE_SEMANTIC_WORKING_EDITION` | [report](../experiments/yolo/gdt413_twenty_six_page_semantic_working_edition/REPORT.md) | 15 | 3.1 MiB | 3 | STRUCTURED_YOLO |
+| GDT412 | GDT412_chd_process_core_completion | `NINETEEN_BROAD_WORKING_VALUES_COMPLETE__CHD_IS_PROCESS_NOT_CLOSE` | [report](../experiments/yolo/gdt412_chd_process_core_completion/REPORT.md) | 15 | 118.9 KiB | 3 | STRUCTURED_YOLO |
+| GDT411 | GDT411_provisional_core_process_position | `FOUR_MORE_CORES_STABILIZED__CHD_REMAINS_PROVISIONAL` | [report](../experiments/yolo/gdt411_provisional_core_process_position/REPORT.md) | 14 | 51.9 KiB | 3 | STRUCTURED_YOLO |
+| GDT410 | GDT410_provisional_core_rival_tournament | `FIVE_PROVISIONAL_VALUES_REMAIN__FIVE_PROMOTED_BY_FULL_STATEMENT_RIVALS` | [report](../experiments/yolo/gdt410_provisional_core_rival_tournament/REPORT.md) | 13 | 183.3 KiB | 3 | STRUCTURED_YOLO |
+| GDT409 | GDT409_nineteen_core_semantic_drift_audit | `NINETEEN_MINIMAL_VALUES_RETAINED__TEN_PROVISIONAL_VERBS_OR_RELATIONS` | [report](../experiments/yolo/gdt409_nineteen_core_semantic_drift_audit/REPORT.md) | 14 | 208.6 KiB | 2 | STRUCTURED_YOLO |
+| GDT408 | GDT408_twenty_six_page_leave_one_page_transfer | `TWENTY_SIX_OF_TWENTY_SIX_PAGE_FACTOR_REPLAY_COMPLETE` | [report](../experiments/yolo/gdt408_twenty_six_page_leave_one_page_transfer/REPORT.md) | 14 | 1.9 MiB | 2 | STRUCTURED_YOLO |
+| GDT407 | GDT407_unified_twenty_six_page_workshop_edition | `UNIFIED_TWENTY_SIX_PAGE_EDITION_COMPLETE` | [report](../experiments/yolo/gdt407_unified_twenty_six_page_workshop_edition/REPORT.md) | 16 | 4.7 MiB | 4 | STRUCTURED_YOLO |
+| GDT406 | GDT406_amber_microform_existing_page_closure | `AMBER_RISK_STRATIFIED__NO_PROMOTIONS_WITHOUT_RECURRENCE` | [report](../experiments/yolo/gdt406_amber_microform_existing_page_closure/REPORT.md) | 14 | 88.5 KiB | 2 | STRUCTURED_YOLO |
 | GDT405 | GDT405_second_random_batch_recipe_lock | `SECOND_RANDOM_BATCH_LOCK_READY` | [report](../experiments/yolo/gdt405_second_random_batch_recipe_lock/REPORT.md) | 15 | 140.8 KiB | 3 | STRUCTURED_YOLO |
 | GDT404 | GDT404_random_four_page_factorized_admission | `PASS_WITH_AMBER_MICROFORMS` | [report](../experiments/yolo/gdt404_random_four_page_factorized_admission/REPORT.md) | 23 | 703.2 KiB | 3 | STRUCTURED_YOLO |
 | GDT403 | GDT403_four_page_factorized_admission_worksheet | `FOUR_PAGE_WORKSHEET_READY__WAITING_FOR_USER_RELEASE` | [report](../experiments/yolo/gdt403_four_page_factorized_admission_worksheet/REPORT.md) | 15 | 45.9 KiB | 2 | STRUCTURED_YOLO |

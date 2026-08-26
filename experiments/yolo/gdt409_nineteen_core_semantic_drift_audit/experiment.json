@@ -1,0 +1,120 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Creative minimal working meanings and rival control only; no confirmed lexeme, plaintext, language, or historical source identification.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt409_nineteen_core_semantic_drift_audit/src/run.py",
+    "validate": "python3 experiments/yolo/gdt409_nineteen_core_semantic_drift_audit/src/validate.py"
+  },
+  "created": "2026-08-26",
+  "dependencies": [
+    "GDT405",
+    "GDT407"
+  ],
+  "experiment_id": "GDT409",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt407_unified_twenty_six_page_workshop_edition/artifacts/gdt407_4576_running_event_edition.tsv",
+      "role": "upstream reproducible input",
+      "sha256": "b4a8b8c3fe8c5cc3ac2cd33979b71ce4721199bef124e866df2456d2dfbb87f4"
+    },
+    {
+      "path": "experiments/yolo/gdt407_unified_twenty_six_page_workshop_edition/artifacts/gdt407_715_statement_edition.tsv",
+      "role": "upstream reproducible input",
+      "sha256": "4f530dc3c4adafc278d720e53b367ba76cd8b96762cada9cccc9544eaf032a73"
+    },
+    {
+      "path": "experiments/yolo/gdt407_unified_twenty_six_page_workshop_edition/artifacts/gdt407_5051_attachment_edition.tsv",
+      "role": "upstream reproducible input",
+      "sha256": "7aa578194bef07f066f0aeb5e9c560d8592641163772d8c8bdb5e38cf30a64a7"
+    },
+    {
+      "path": "experiments/yolo/gdt405_second_random_batch_recipe_lock/artifacts/gdt405_46_locked_atom_dictionary.tsv",
+      "role": "upstream reproducible input",
+      "sha256": "3d328cad47c2fa378dbe67af88f67b776496dbea91f2d2b9cb4debf4a99130d9"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt409_nineteen_core_semantic_drift_audit/README.md",
+      "role": "entry point",
+      "sha256": "943412ff9750243a1c7b70938b09e3ef26e6d3fd9d4f0a190ebeafbafaa5693c"
+    },
+    {
+      "path": "experiments/yolo/gdt409_nineteen_core_semantic_drift_audit/METHOD.md",
+      "role": "reproducible method",
+      "sha256": "a3443f95478da8b195364815efb9b25d3cc4a6850c672d7b367ff47f719445c8"
+    },
+    {
+      "path": "experiments/yolo/gdt409_nineteen_core_semantic_drift_audit/REPORT.md",
+      "role": "primary compact report",
+      "sha256": "d9315dc142103c095dbb6fb46901dd2d93f825e8d750c8a200606461c4e732e6"
+    },
+    {
+      "path": "experiments/yolo/gdt409_nineteen_core_semantic_drift_audit/src/run.py",
+      "role": "deterministic builder",
+      "sha256": "0bd77d87185335f1334394bc958b3e426cc3a22042223a1f1da7501540596f57"
+    },
+    {
+      "path": "experiments/yolo/gdt409_nineteen_core_semantic_drift_audit/src/validate.py",
+      "role": "independent validator",
+      "sha256": "d92df3443add01c21201d62fb89f92369805e05535a3e5b050019aabae046735"
+    },
+    {
+      "path": "experiments/yolo/gdt409_nineteen_core_semantic_drift_audit/artifacts/README.md",
+      "role": "artifact guide",
+      "sha256": "1a220165b6f02e18d6b479dbbac7b97f10c29131289737aac2d924b1fb02feaf"
+    },
+    {
+      "path": "experiments/yolo/gdt409_nineteen_core_semantic_drift_audit/artifacts/gdt409_19_core_semantic_audit.tsv",
+      "role": "reproducible output artifact",
+      "sha256": "983062c01f73b1d992b511e858df29a055a8ed51553e266bc0193f91d22d56ad"
+    },
+    {
+      "path": "experiments/yolo/gdt409_nineteen_core_semantic_drift_audit/artifacts/gdt409_19_by_register.tsv",
+      "role": "reproducible output artifact",
+      "sha256": "abaf6209a34fe5ba3326f1bcc863307d663cede8c0a957b73c95dc7269040abf"
+    },
+    {
+      "path": "experiments/yolo/gdt409_nineteen_core_semantic_drift_audit/artifacts/gdt409_substitution_frame_pairs.tsv",
+      "role": "reproducible output artifact",
+      "sha256": "bb41bcc650132a59efcf7c1134a73950d0d6cb22e6fd63abb03892416b221abb"
+    },
+    {
+      "path": "experiments/yolo/gdt409_nineteen_core_semantic_drift_audit/artifacts/gdt409_cross_register_examples.tsv",
+      "role": "reproducible output artifact",
+      "sha256": "1f84510f6f9169a02ed2beb633f04654065940a98fa7e13935cd942b763c9e01"
+    },
+    {
+      "path": "experiments/yolo/gdt409_nineteen_core_semantic_drift_audit/artifacts/gdt409_selected_minimal_dictionary.tsv",
+      "role": "reproducible output artifact",
+      "sha256": "cc638c5fb69f7e7938400687aeed362934e9dbab4c5707dcab5cdd52eb64b2bf"
+    },
+    {
+      "path": "experiments/yolo/gdt409_nineteen_core_semantic_drift_audit/artifacts/gdt409_result.json",
+      "role": "compact result",
+      "sha256": "86a7f1d00f6e547a52de885ce3d1c610e0f213c84169d44ff28fd23ad57ae64f"
+    },
+    {
+      "path": "experiments/yolo/gdt409_nineteen_core_semantic_drift_audit/artifacts/gdt409_validation.json",
+      "role": "validation report",
+      "sha256": "862ea096439e8a7e4468f5b4b820fab322a8a0b7203ed927df4dcb148384a412"
+    }
+  ],
+  "question": "Which of the nineteen portable working meanings stay compact across all admitted running registers, and which exact German glosses remain provisional?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "nineteen_core_semantic_drift_audit",
+  "status": "NINETEEN_MINIMAL_VALUES_RETAINED__TEN_PROVISIONAL_VERBS_OR_RELATIONS",
+  "title": "Nineteen-core semantic-drift audit",
+  "updated": "2026-08-26",
+  "validation": {
+    "artifact": "experiments/yolo/gdt409_nineteen_core_semantic_drift_audit/artifacts/gdt409_validation.json",
+    "status": "PASS"
+  }
+}

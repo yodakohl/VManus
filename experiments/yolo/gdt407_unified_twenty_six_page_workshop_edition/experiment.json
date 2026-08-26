@@ -1,0 +1,152 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "The exhaustive normalized event and attachment tables are the compact reproducible basis for all subsequent 26-page leave-one-page tests.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Deterministic consolidation of the selected creative edition only; no new lexical, semantic, linguistic, or historical claim.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt407_unified_twenty_six_page_workshop_edition/src/run.py",
+    "validate": "python3 experiments/yolo/gdt407_unified_twenty_six_page_workshop_edition/src/validate.py"
+  },
+  "created": "2026-08-26",
+  "dependencies": [
+    "GDT399",
+    "GDT402",
+    "GDT404",
+    "GDT405"
+  ],
+  "experiment_id": "GDT407",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt399_creative_scope_rebuild_after_visible_resegmentation/artifacts/gdt399_3888_event_replay.tsv",
+      "role": "upstream reproducible input",
+      "sha256": "a821119af3bad90744370aae617e6fb9c6cf41340d862bcd3002baa130293310"
+    },
+    {
+      "path": "experiments/yolo/gdt399_creative_scope_rebuild_after_visible_resegmentation/artifacts/gdt399_627_statement_scope_edition.tsv",
+      "role": "upstream reproducible input",
+      "sha256": "ac912ff711f1693df4f86b10929f931b258a2bbed379be01a6b4eb073e1705e7"
+    },
+    {
+      "path": "experiments/yolo/gdt402_factorized_scope_selector_head_license/artifacts/gdt402_4374_factorized_replay.tsv",
+      "role": "upstream reproducible input",
+      "sha256": "9e9a915dc5deadfdad048a9df02e045ab6a5d4f6d0d82f0db9981cda24449d02"
+    },
+    {
+      "path": "experiments/yolo/sidequest_semantic_twenty_two_page_statement_consolidation_one_thousand_ninth/PASS1009_4581_EVENT_LEDGER.tsv",
+      "role": "upstream reproducible input",
+      "sha256": "7b4e512968be9b74428ea0435e6917c7db67af204ea2fed169a1aabdc7583e71"
+    },
+    {
+      "path": "experiments/yolo/gdt404_random_four_page_factorized_admission/artifacts/gdt404_688_event_first_pass.tsv",
+      "role": "upstream reproducible input",
+      "sha256": "3de397794b906f111f5b95087b1c007d3d914026193d5731e839d96d73ecd5c1"
+    },
+    {
+      "path": "experiments/yolo/gdt404_random_four_page_factorized_admission/artifacts/gdt404_statement_edition.tsv",
+      "role": "upstream reproducible input",
+      "sha256": "93fe5bbbe2c13ce753363c02bbef06a7d17ad690b156e7235225b3342603337c"
+    },
+    {
+      "path": "experiments/yolo/gdt404_random_four_page_factorized_admission/artifacts/gdt404_factorized_attachments.tsv",
+      "role": "upstream reproducible input",
+      "sha256": "7c68e63d94fc144a324253d5f51f1f4c4206fd82c0e1a4e17470061ee4d2b412"
+    },
+    {
+      "path": "experiments/yolo/gdt405_second_random_batch_recipe_lock/artifacts/gdt405_46_locked_atom_dictionary.tsv",
+      "role": "upstream reproducible input",
+      "sha256": "3d328cad47c2fa378dbe67af88f67b776496dbea91f2d2b9cb4debf4a99130d9"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt407_unified_twenty_six_page_workshop_edition/README.md",
+      "role": "entry point",
+      "sha256": "06f0ff7cb62c913eae39c2ff7533ab1e2fbc7cd42529fa7c66ded1ba139edbbb"
+    },
+    {
+      "path": "experiments/yolo/gdt407_unified_twenty_six_page_workshop_edition/METHOD.md",
+      "role": "reproducible method",
+      "sha256": "168f52ab4c0d2402bcce08fad0c818af2cb7c448f5e0cfe52accd361922e5bcd"
+    },
+    {
+      "path": "experiments/yolo/gdt407_unified_twenty_six_page_workshop_edition/REPORT.md",
+      "role": "primary compact report",
+      "sha256": "2d534fca1d6931d29d4b6627fad3138715dad8b678ae507c330f95990d38cc53"
+    },
+    {
+      "path": "experiments/yolo/gdt407_unified_twenty_six_page_workshop_edition/src/run.py",
+      "role": "deterministic builder",
+      "sha256": "fd1a522ed4d28959d42b7265311f32a499cb583c66f0ac269f2d760fc84dae30"
+    },
+    {
+      "path": "experiments/yolo/gdt407_unified_twenty_six_page_workshop_edition/src/validate.py",
+      "role": "independent validator",
+      "sha256": "9312aa44ce4c46eb5205eff41c365962e66f0338454727e5868f2324a3fd3ff8"
+    },
+    {
+      "path": "experiments/yolo/gdt407_unified_twenty_six_page_workshop_edition/artifacts/README.md",
+      "role": "artifact guide",
+      "sha256": "3e9b678e129db2926a95069e377349653f47a4d3aa8f2ba94beb9f26f6c0c61d"
+    },
+    {
+      "path": "experiments/yolo/gdt407_unified_twenty_six_page_workshop_edition/artifacts/gdt407_5269_unified_group_ledger.tsv",
+      "role": "reproducible output artifact",
+      "sha256": "f873cdf44936120bf42261ecb590e3216d4ffa8326888bc783cd7fdb3cdc7b82"
+    },
+    {
+      "path": "experiments/yolo/gdt407_unified_twenty_six_page_workshop_edition/artifacts/gdt407_4576_running_event_edition.tsv",
+      "role": "reproducible output artifact",
+      "sha256": "b4a8b8c3fe8c5cc3ac2cd33979b71ce4721199bef124e866df2456d2dfbb87f4"
+    },
+    {
+      "path": "experiments/yolo/gdt407_unified_twenty_six_page_workshop_edition/artifacts/gdt407_693_local_group_edition.tsv",
+      "role": "reproducible output artifact",
+      "sha256": "f4eccefd2024acc503e5e904b1eed68fcc631c3f3283a155326f294701f3f734"
+    },
+    {
+      "path": "experiments/yolo/gdt407_unified_twenty_six_page_workshop_edition/artifacts/gdt407_715_statement_edition.tsv",
+      "role": "reproducible output artifact",
+      "sha256": "4f530dc3c4adafc278d720e53b367ba76cd8b96762cada9cccc9544eaf032a73"
+    },
+    {
+      "path": "experiments/yolo/gdt407_unified_twenty_six_page_workshop_edition/artifacts/gdt407_5051_attachment_edition.tsv",
+      "role": "reproducible output artifact",
+      "sha256": "7aa578194bef07f066f0aeb5e9c560d8592641163772d8c8bdb5e38cf30a64a7"
+    },
+    {
+      "path": "experiments/yolo/gdt407_unified_twenty_six_page_workshop_edition/artifacts/gdt407_26_page_summary.tsv",
+      "role": "reproducible output artifact",
+      "sha256": "c8257651a9fa173f454ead90cc5aa02df085ba1a657e1a1885448b63c69ea565"
+    },
+    {
+      "path": "experiments/yolo/gdt407_unified_twenty_six_page_workshop_edition/TWENTY_SIX_PAGE_READABLE_CORE_EDITION.md",
+      "role": "reproducible output artifact",
+      "sha256": "4f3275144ab651c36b498e54382fd179c828938a1c45088744fa57514de030b2"
+    },
+    {
+      "path": "experiments/yolo/gdt407_unified_twenty_six_page_workshop_edition/artifacts/gdt407_result.json",
+      "role": "compact result",
+      "sha256": "a2fb25fff6074dda00b1c5a7166d05aececbf61366ad8e461e73d84af623599d"
+    },
+    {
+      "path": "experiments/yolo/gdt407_unified_twenty_six_page_workshop_edition/artifacts/gdt407_validation.json",
+      "role": "validation report",
+      "sha256": "8c0ff865e53250d48ed470c7ac0da04ec1d9ec5e708373d129f179755b6d01bd"
+    }
+  ],
+  "question": "Can all selected layers be consolidated into one deterministic 26-page edition without changing any selected recipe, statement, owner, or attachment?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "unified_twenty_six_page_workshop_edition",
+  "status": "UNIFIED_TWENTY_SIX_PAGE_EDITION_COMPLETE",
+  "title": "Unified twenty-six-page workshop edition",
+  "updated": "2026-08-26",
+  "validation": {
+    "artifact": "experiments/yolo/gdt407_unified_twenty_six_page_workshop_edition/artifacts/gdt407_validation.json",
+    "status": "PASS"
+  }
+}

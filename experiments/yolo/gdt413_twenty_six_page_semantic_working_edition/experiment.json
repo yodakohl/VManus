@@ -1,0 +1,136 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Complete creative working-meaning edition with owner-local content; no confirmed plaintext, language, lexeme, or source identification.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt413_twenty_six_page_semantic_working_edition/src/run.py",
+    "validate": "python3 experiments/yolo/gdt413_twenty_six_page_semantic_working_edition/src/validate.py"
+  },
+  "created": "2026-08-26",
+  "dependencies": [
+    "GDT405",
+    "GDT407",
+    "GDT412"
+  ],
+  "experiment_id": "GDT413",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt407_unified_twenty_six_page_workshop_edition/artifacts/gdt407_5269_unified_group_ledger.tsv",
+      "role": "upstream reproducible input",
+      "sha256": "f873cdf44936120bf42261ecb590e3216d4ffa8326888bc783cd7fdb3cdc7b82"
+    },
+    {
+      "path": "experiments/yolo/gdt407_unified_twenty_six_page_workshop_edition/artifacts/gdt407_4576_running_event_edition.tsv",
+      "role": "upstream reproducible input",
+      "sha256": "b4a8b8c3fe8c5cc3ac2cd33979b71ce4721199bef124e866df2456d2dfbb87f4"
+    },
+    {
+      "path": "experiments/yolo/gdt407_unified_twenty_six_page_workshop_edition/artifacts/gdt407_715_statement_edition.tsv",
+      "role": "upstream reproducible input",
+      "sha256": "4f530dc3c4adafc278d720e53b367ba76cd8b96762cada9cccc9544eaf032a73"
+    },
+    {
+      "path": "experiments/yolo/gdt407_unified_twenty_six_page_workshop_edition/artifacts/gdt407_26_page_summary.tsv",
+      "role": "upstream reproducible input",
+      "sha256": "c8257651a9fa173f454ead90cc5aa02df085ba1a657e1a1885448b63c69ea565"
+    },
+    {
+      "path": "experiments/yolo/gdt405_second_random_batch_recipe_lock/artifacts/gdt405_46_locked_atom_dictionary.tsv",
+      "role": "upstream reproducible input",
+      "sha256": "3d328cad47c2fa378dbe67af88f67b776496dbea91f2d2b9cb4debf4a99130d9"
+    },
+    {
+      "path": "experiments/yolo/gdt412_chd_process_core_completion/artifacts/gdt412_final_19_core_dictionary.tsv",
+      "role": "upstream reproducible input",
+      "sha256": "ca2d880c3d74668a6bbfcd61a2228b968b12ca791fbe185da3a76dbb35230602"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt413_twenty_six_page_semantic_working_edition/README.md",
+      "role": "entry point",
+      "sha256": "17f84434d22d46cf8d515d401af488cd69d4f53d12b53fdf34f45b065c7a4178"
+    },
+    {
+      "path": "experiments/yolo/gdt413_twenty_six_page_semantic_working_edition/METHOD.md",
+      "role": "reproducible method",
+      "sha256": "4f3387e34bf524980fb6bafab42ceb7e51a0da620ba6cf19f73478279d562224"
+    },
+    {
+      "path": "experiments/yolo/gdt413_twenty_six_page_semantic_working_edition/REPORT.md",
+      "role": "primary compact report",
+      "sha256": "204806766156c2b1fd769d0944c7a8a217e82b8e6470ced6b8f0d054a34ec908"
+    },
+    {
+      "path": "experiments/yolo/gdt413_twenty_six_page_semantic_working_edition/src/run.py",
+      "role": "deterministic builder",
+      "sha256": "013567aaf45d8c6388ac45f9683eeb95cc5667daa4e48c756a0a12b73558be08"
+    },
+    {
+      "path": "experiments/yolo/gdt413_twenty_six_page_semantic_working_edition/src/validate.py",
+      "role": "independent validator",
+      "sha256": "1a53cca45ab64a4252993e18c58b3c3f463269c2223b70f160ac4c9467dc12e0"
+    },
+    {
+      "path": "experiments/yolo/gdt413_twenty_six_page_semantic_working_edition/artifacts/README.md",
+      "role": "artifact guide",
+      "sha256": "24a3c25c9430d5f0ab6df57313a99ce8ad509c50be0562883111651c5aed8e9f"
+    },
+    {
+      "path": "experiments/yolo/gdt413_twenty_six_page_semantic_working_edition/artifacts/gdt413_46_component_working_dictionary.tsv",
+      "role": "reproducible output artifact",
+      "sha256": "728113b051828ad7e8cdf46369832f3a81a4792bc104f3ef1f23644af5fa120e"
+    },
+    {
+      "path": "experiments/yolo/gdt413_twenty_six_page_semantic_working_edition/artifacts/gdt413_5269_group_semantic_edition.tsv",
+      "role": "reproducible output artifact",
+      "sha256": "2220b7ec900eba42084540e8c5ed31f9dce920bd653eb98222ae689542df31dc"
+    },
+    {
+      "path": "experiments/yolo/gdt413_twenty_six_page_semantic_working_edition/artifacts/gdt413_4576_event_semantic_edition.tsv",
+      "role": "reproducible output artifact",
+      "sha256": "4daa0e85e2da43ed41ec7323688b6c82a2cfedea71c078c9e8079dcbbdd2f960"
+    },
+    {
+      "path": "experiments/yolo/gdt413_twenty_six_page_semantic_working_edition/artifacts/gdt413_715_statement_semantic_edition.tsv",
+      "role": "reproducible output artifact",
+      "sha256": "9e87ceaaf31937e3c08ae4d0cdea95d2db98ceb1b1abe02e11cb8e33fc2999e1"
+    },
+    {
+      "path": "experiments/yolo/gdt413_twenty_six_page_semantic_working_edition/artifacts/gdt413_26_page_semantic_summary.tsv",
+      "role": "reproducible output artifact",
+      "sha256": "1def99180bbffb2f93a1f33ac5093d3a7d2bcf507e66434ede84ab748b863729"
+    },
+    {
+      "path": "experiments/yolo/gdt413_twenty_six_page_semantic_working_edition/artifacts/TWENTY_SIX_PAGE_WORKING_READING.md",
+      "role": "reproducible output artifact",
+      "sha256": "fbb4b4e84732a7749f75ad3a07de677cf91fd406617b904e619e8a3d8463b2e2"
+    },
+    {
+      "path": "experiments/yolo/gdt413_twenty_six_page_semantic_working_edition/artifacts/gdt413_result.json",
+      "role": "compact result",
+      "sha256": "5834fe44392807c01a4c84292d7fd9560b4cb8cafcff08bbaafc2deaea999e22"
+    },
+    {
+      "path": "experiments/yolo/gdt413_twenty_six_page_semantic_working_edition/artifacts/gdt413_validation.json",
+      "role": "validation report",
+      "sha256": "0be17002973a0a71dbbcaefe4b1c08081bcefbc8dc06c74ddb3b3c8f4f99ccd0"
+    }
+  ],
+  "question": "Can the final nineteen-core working dictionary be propagated through all current pages without gaps or local-label overreading?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "twenty_six_page_semantic_working_edition",
+  "status": "COMPLETE_TWENTY_SIX_PAGE_SEMANTIC_WORKING_EDITION",
+  "title": "Twenty-six-page semantic working edition",
+  "updated": "2026-08-26",
+  "validation": {
+    "artifact": "experiments/yolo/gdt413_twenty_six_page_semantic_working_edition/artifacts/gdt413_validation.json",
+    "status": "PASS"
+  }
+}

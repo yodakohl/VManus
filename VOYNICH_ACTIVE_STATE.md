@@ -6,33 +6,35 @@ Updated: 2026-08-26. This is the full claim registry. For routine work, read
 
 ## Outcome
 
-### Noncanonical twenty-six-page sidequest (Pass 1033 / GDT405)
+### Noncanonical twenty-six-page sidequest (GDT413)
 
 The creative workshop sidequest covers twenty-six admitted physical pages with
-5,269 visible groups: 4,576 running prose/ring-text groups plus 693 local
-image, station, vessel, celestial addresses/labels, and section markers. Its current
-mixed codebook retains 175 historical surface lines, but its semantic pocket
-dictionary now has 46 signs: 19 portable cores, eight controls and nineteen
-local signs. The remaining index contains 30 frequent formula ligatures, 72
-long contextual compositions,
-sixteen f88r ingredient labels, and one rule for copying a complete local
-address. Formula ligatures and contextual compositions are read from their
-roots; the image/master exemplar supplies their concrete local expansion.
-No former specialist card requires an extra portable word meaning. The root
-dictionary and codebook use exactly the same atomic values; the register-
-portable address root is `SONDERORT`, expanded locally as Sonderstelle or
-Sternstelle. All 1,280 Biological running-text
-groups have been rewritten into 318 local station clauses without inventing a
-global hydraulic network. Direct image work reads f88r as sixteen ingredient
-labels in rows of six, six, and four under three silent vessel owners; no plant
-species is forced. Seventy recurrent root compositions now form a second
-apprentice drawer covering 287 events without enlarging the root inventory.
-The portable core now uses WERT, ANTEIL, EINHEIT, STELLEN, MERKEN, and BEGINN
-rather than forcing material-specific measures, portions, or preparations. The leading creative book model remains a
-practical sequence of pictured simple materials, vessel preparations, bath/application
-stations, and separate celestial lookup tables: *Liber simplicium,
-compositionum, balneorum et temporum caelestium*. These readings remain
-speculative and license no scientific lexeme or plaintext claim.
+5,269 visible groups: 4,576 running prose/ring-text groups plus 693 local image,
+station, vessel, celestial-address/label, and section-marker groups. GDT407
+binds them into 715 statements and 5,051 focus attachments. GDT408 replays each
+page from the other 25: every attachment retains old factor values, no portable
+atom is page-private, and only two already-local signs are needed outside old
+portable atoms. GDT406 separately keeps all 49 formerly amber singleton
+microforms within old package boundaries without promoting a new root.
+
+GDT409–GDT412 replace accumulated narrow local glosses with nineteen short
+portable defaults: `Y=POSTEN`, `OK=SETZEN`, `OL=FORTSETZEN`, `OT=DANACH`,
+`AL=ZIELORT`, `AR=AUSGANG`, `AIIN=WERT`, `AIN=ANTEIL`, `OR=EINHEIT`,
+`L=VERBINDUNG`, `AIR=BAHN`, `CH=NEHMEN`, `SH=HALTEN`, `K=GEBEN`,
+`S=WÄHLEN`, `CHD=BEARBEITEN`, `T=EINSTELLEN`, `R=MARKIEREN`, and
+`P=EINSETZEN`. The strongest final repair is `CHD`: 207/301 events are open
+and only 94 terminal, so closure cannot be its core meaning. GDT413 propagates
+the same nineteen values through all 4,576 events and 715 statements while
+leaving all 693 local groups as addresses/identifiers rather than invented
+words. The leading creative book model remains a practical sequence of
+pictured simple materials, vessel preparations, bath/application stations,
+and separate celestial lookup tables: *Liber simplicium, compositionum,
+balneorum et temporum caelestium*. These readings remain speculative and
+license no scientific lexeme or plaintext claim.
+
+GDT413 is now the semantic working edition; GDT405 remains the frozen surface
+and parser lock for a future user-released page batch. Exact forms may not be
+resegmented, and local owner expansions may not silently retune a core.
 
 Pass 1032/GDT404 applies the frozen GDT403 intake contract to a one-shot random
 draw of f1r, f24v, f81r and f95v. The 95 guarded lines add 688 events, 88
@@ -78,7 +80,7 @@ pass retains one whole-plant owner on f17r, local body/basin/outlet scenes on
 f77r, multiple vessel/ingredient batches on f88v, and three independent local
 ring namespaces on f71v. Its dense `AL=ZIEL`/`AR=QUELLE` use reinforces the
 celestial relational layer; together with the earlier f70v result this keeps
-`AIR=LAUF` rather than `WASSER` and blocks universal material water.
+`AIR=BAHN` rather than `WASSER` and blocks universal material water.
 
 Pass 1006 joins those 108 statements to the older 354 clauses. The resulting
 single eighteen-page edition contains 462 statements over all 2,618 running
@@ -168,7 +170,7 @@ Pass 1013 removes the remaining specialist layer by resegmenting ten candidates
 into already licensed components. The embedded family is `C<T>H=CH+T`,
 `C<K>H=CH+K`, `C<P>H=CH+P`, and `C<F>H=CH+LOCAL_F`; the linear families are
 `CHEO=CH+E+O`, `CHK=CH+K`, `SHED=SH+E`, `LSH=L+SH`, `SOLK=OL+K`, and the
-one-event `LD=L+D_ADDR`. Only `AIR=LAUF` remains as a distinct sign and is
+one-event `LD=L+D_ADDR`. Only `AIR=BAHN` remains as a distinct sign and is
 promoted to the seventh relation core. The complete running layer now contains
 3,343 portable-core events, 490 local-sign events and 55 control-only events;
 statement classes are 416/210/1. Former glosses such as *bereit, Durchlass,

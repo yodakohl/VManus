@@ -1,20 +1,18 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after Pass 1033 / GDT405.
+Updated: 2026-08-26, after GDT413.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
-translation**. This is the compact handoff for the sidequest. Pass 1026 audits
-every old one-edit neighbour transfer and resegments 203 surfaces visibly;
-Pass 1027/GDT399 rebuilds the scope layer from those recipes; Pass 1028/GDT400
-turns it into a hierarchical future-page error deck; Pass 1029/GDT401 closes
-its four amber Scope rows as three ordinary forward-to-R card transitions;
-Pass 1030/GDT402 separates Scope-Selector, target-head license and local
-topology across all rows; Pass 1031/GDT403 turns that machine into the fixed
-blank four-page intake sheet; Pass 1032/GDT404 applies it to one genuine random
-draw of f1r, f24v, f81r and f95v; Pass 1033/GDT405 locks all resulting recipes
-before another page is opened. The current basis is 715 statements, 5,051
-resolved focus attachments, four local channels and 19 unchanged working core
-values.
+translation**. This is the compact handoff for the sidequest. GDT406 resolves
+the 49 amber microforms by old-package support without inventing a root. GDT407
+publishes the first single 26-page edition; GDT408 replays every page from the
+other 25 and finds no private portable atom or parser factor. GDT409–GDT412
+then compress the semantic layer to nineteen short cross-register defaults,
+ending with the repair `AIR=BAHN` and `CHD=BEARBEITEN`. GDT413 propagates that
+dictionary through all 5,269 groups, 4,576 running events and 715 statements.
+The current basis retains 5,051 resolved focus attachments, four local
+channels and nineteen broad working values. Concrete substances, objects,
+body parts and celestial names are still owner-local.
 
 ## Fixed scope
 
@@ -179,7 +177,7 @@ additional roots at all. Four form one embedded `C_H` family:
 `C<T>H=CH+T`, `C<K>H=CH+K`, `C<P>H=CH+P`, and
 `C<F>H=CH+LOCAL_F`. Six others are ordinary combinations:
 `CHEO=CH+E+O`, `CHK=CH+K`, `SHED=SH+E`, `LSH=L+SH`,
-`SOLK=OL+K`, and the single `LD=L+D_ADDR`. Only `AIR=LAUF` survives,
+`SOLK=OL+K`, and the single `LD=L+D_ADDR`. Only `AIR=BAHN` survives,
 now as a seventh portable relation core rather than a concrete fluid word.
 
 This reduces the semantic inventory from 56 to 46 signs: twelve action/content
@@ -459,12 +457,12 @@ The twelve content/action cores are:
 
 - `OK=SETZEN`, `CH=NEHMEN`, `SH=HALTEN`, `K=GEBEN`;
 - `AIIN=WERT`, `AIN=ANTEIL`, `S=WÄHLEN`, `T=EINSTELLEN`;
-- `CHD=UMSETZEN`, `OR=EINHEIT`, `R=MARKIEREN`, `P=EINSETZEN`.
+- `CHD=BEARBEITEN`, `OR=EINHEIT`, `R=MARKIEREN`, `P=EINSETZEN`.
 
 Seven further portable values carry reference, sequence, or relation:
 
-- `Y=AKTIVER POSTEN`, `OL=FORTSETZEN`, `OT=DANACH`;
-- `AL=ZIELORT`, `AR=AUSGANG`, `L=VERBINDUNG`, `AIR=LAUF`.
+- `Y=POSTEN`, `OL=FORTSETZEN`, `OT=DANACH`;
+- `AL=ZIELORT`, `AR=AUSGANG`, `L=VERBINDUNG`, `AIR=BAHN`.
 
 Eight signs are controls rather than content words: `E/EE/EEE=GRAD I/II/III`,
 licensed `DY=SCHLUSS`, `O=AUSFÜHRUNG`, `CARRIER_Q=BEGINNMARKER`, `IIN=STUFE`,
@@ -485,13 +483,13 @@ The current deck includes the following stable working readings:
 - `dy/chey/y/chy/shy/sy` → **DIESER POSTEN**;
 - `ol/chol/qol/sol/ls` → **DAMIT FORTFAHREN**;
 - `daiin/aiin` → **DER WERT**;
-- `chedy/chdy/chedchy` → **DEN POSTEN UMSETZEN**;
+- `chedy/chdy/chedchy` → **DEN POSTEN BEARBEITEN**;
 - `shedy` → **HALTEN · GRAD I; SCHLUSS**;
 - `qokedy/okedy` → **KURZ ANSETZEN; SCHLUSS**;
 - `qokeedy/okeedy` → **LÄNGER ANSETZEN; SCHLUSS**;
 - `qokain/okain/chokain` → **EINEN ANTEIL SETZEN**;
 - `qokaiin/okaiin` → **EINEN WERT SETZEN**;
-- `lchedy` → **WEITER UMSETZEN; SCHLUSS**;
+- `lchedy` → **ÜBER DIE VERBINDUNG BEARBEITEN; SCHLUSS**;
 - `cfhy` → **NEHMEN · NEBENADRESSE · AKTIVER POSTEN**; *auswringen* is local;
 - `cphy` → **NEHMEN · EINSETZEN · AKTIVER POSTEN**; *nachseihen* is local;
 - `shey/cheey` → **HALTEN · GRAD I/II · AKTIVER POSTEN**; *Klarlauf* is not portable;
@@ -561,7 +559,7 @@ Nachseihen, Klarlauf and equipment are no longer dictionary meanings of
 - f88v separates several vessel-/ingredient batches rather than one page owner;
 - f71v contains three local ring namespaces; its 22 label groups are celestial
   addresses, and its dense `AL=ZIEL`/`AR=QUELLE` use reinforces the general
-  celestial relational layer; together with f70v this keeps `AIR=LAUF` rather
+  celestial relational layer; together with f70v this keeps `AIR=BAHN` rather
   than universal `WASSER`;
 - Biological drawings support local pools, vessels, conduits, and contact
   stations, but not a single directed hydraulic machine.
@@ -586,6 +584,24 @@ comparison set.
 
 ## Primary artifacts
 
+- Current GDT413 complete semantic working edition: 46-component dictionary,
+  5,269-group ledger, 4,576 running-event readings, 715 complete statements,
+  26-page summary, readable compact edition, runner and validator:
+  `gdt413_twenty_six_page_semantic_working_edition/`;
+- GDT412 final `CHD` completion: 301 occurrence comparisons, 78 exact recipe
+  families, register matrix, fifteen complete contexts and the nineteen-core
+  dictionary with `CHD=BEARBEITEN`:
+  `gdt412_chd_process_core_completion/`;
+- GDT411 process-position refinement: full 9×9 action transition matrix,
+  five remaining-core profiles, 25 cross-register statement readings and the
+  repair `AIR=BAHN`:
+  `gdt411_provisional_core_process_position/`;
+- GDT408 leave-one-page transfer: all 26 page holdouts, 4,576 event decisions,
+  5,051 attachment decisions and zero page-private portable factor values:
+  `gdt408_twenty_six_page_leave_one_page_transfer/`;
+- GDT407 unified physical base: complete group, event, statement, attachment
+  and page ledgers:
+  `gdt407_unified_twenty_six_page_workshop_edition/`;
 - Current Pass-1033/GDT405 prospective second-batch lock: 426 surface recipes,
   46 atom values, 49 amber boundary records, 31 parser factors, four empty page
   slots, twelve-step protocol, runner and validator:
@@ -726,10 +742,11 @@ comparison set.
 
 ## Next work
 
-Use the frozen GDT405 package when the user releases or requests the second
-four-page group. Exact GDT404 forms must replay without editing; genuinely new
-surfaces may use only visible old factors. The 49 amber microforms may be
-resolved by recurrence, but not by changing a core.
-Invisible atoms, unlicensed one-edit recipe copying, owner jumps, lookahead
-beyond one card, a ninth selector, an eleventh head and retuned core values
-remain hard failures.
+Before opening another page, turn GDT413 into a compact semantic failure deck:
+the nineteen defaults, allowed owner-local expansions, and the smallest
+existing counterexamples that distinguish a genuine core failure from a new
+local noun. Then use that deck together with GDT405 on the next user-released
+four-page group. Exact old forms must replay without editing; genuinely new
+surfaces may use only visible old factors. Invisible atoms, unlicensed one-edit
+recipe copying, owner jumps, lookahead beyond one card, a ninth selector, an
+eleventh head and silent retuning of a core remain hard failures.
