@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT431.
+Updated: 2026-08-26, after GDT432.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -98,6 +98,14 @@ recipes. Phrase order remains reversible: `AIR+Y` is “Entlang der Bahn:
 Posten”, while `Y+AIR` is “Posten entlang der Bahn”. No two generic cards and
 no two cards within a register collapse to the same phrase. No surface form or
 new component meaning is invented.
+
+GDT432 then makes every one-root contrast explicit. The 47 cards have 145
+observed source-neighbour routes and 725 five-register comparisons. Every route
+changes exactly one value slot, every portable phrase remains different and
+every local target reading returns byte-for-byte to GDT431. The deck uses 30
+directed root changes, all already covered by GDT428/GDT429 frames. Of the 725
+local comparisons, 275 have the source recipe attested in that exact register;
+450 are marked counterfactual expansions, not extra evidence.
 
 ## Fixed scope
 
@@ -827,11 +835,9 @@ comparison set.
 
 ## Next work
 
-Keep the current 26 pages closed and pressure-test the GDT431 phrasebook before
-another page is admitted. The next useful check is not another meaning search:
-it is a reversible neighbour-contrast audit asking whether each of the 47
-phrases changes exactly the intended noun, verb or relation when compared with
-its 145 source neighbours. After that, the deck can be used unchanged on the
-next user-released four-page group. Exact old forms must replay without editing;
-new surfaces may use only visible old factors. Invisible atoms, owner jumps,
-lookahead beyond one card and silent retuning of a core remain hard failures.
+Keep the current 26 pages closed. The phrase deck is now internally reversible;
+the next pressure point is its *coverage*: combine two licensed one-root moves
+and ask which still-missing recipes are reached by multiple independent
+two-step paths without admitting the 4,273 weak one-neighbour fantasies. That
+test may rank a small second-ring queue but may not invent surfaces or values.
+Only after that should the unchanged deck meet the next user-released pages.

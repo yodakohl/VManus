@@ -1,0 +1,47 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Internal phrasebook reversibility audit only; no confirmation of component meanings, manuscript words, surface spellings, plaintext, language, or source identification.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt432_reversible_neighbor_phrase_contrast_audit/src/run.py",
+    "validate": "python3 experiments/yolo/gdt432_reversible_neighbor_phrase_contrast_audit/src/validate.py"
+  },
+  "created": "2026-08-26",
+  "dependencies": ["GDT413", "GDT415", "GDT416", "GDT428", "GDT429", "GDT431"],
+  "experiment_id": "GDT432",
+  "inputs": [
+    {"path": "experiments/yolo/gdt431_strong_prediction_reading_phrasebook/artifacts/gdt431_47_strong_prediction_phrasebook.tsv", "role": "fixed future cards and generic phrases", "sha256": "61d9ea08969f2c807475cb0573898c8ead75e1cae268cbd9e430ea1f313c5855"},
+    {"path": "experiments/yolo/gdt431_strong_prediction_reading_phrasebook/artifacts/gdt431_235_register_expansion_cards.tsv", "role": "fixed five-register target readings", "sha256": "b47def242db5390f4a3c3400ceaca325dd6392a65401f7b0a651d40e2e237637"},
+    {"path": "experiments/yolo/gdt431_strong_prediction_reading_phrasebook/artifacts/gdt431_145_neighbor_exemplars.tsv", "role": "complete one-root neighbor routes", "sha256": "7e18f38fe9befa1b698a0febcaf5b8119d1c217f547f3949b5027de2ebe82bd2"},
+    {"path": "experiments/yolo/gdt431_strong_prediction_reading_phrasebook/src/run.py", "role": "frozen short-phrase renderer", "sha256": "d33dc2bef4973fb848e1f26e003b40c2c5005853f806054e60c3761eb24e530e"},
+    {"path": "experiments/yolo/gdt413_twenty_six_page_semantic_working_edition/artifacts/gdt413_46_component_working_dictionary.tsv", "role": "component values and families", "sha256": "728113b051828ad7e8cdf46369832f3a81a4792bc104f3ef1f23644af5fa120e"},
+    {"path": "experiments/yolo/gdt415_owner_local_semantic_expansion_atlas/artifacts/gdt415_95_register_expansion_atlas.tsv", "role": "five-register core expansions", "sha256": "2f2e508244c8f14b9d41f622f7f19c61afbfac467963356ce49b94743beb77c4"},
+    {"path": "experiments/yolo/gdt416_owner_local_imperative_sentence_compiler/artifacts/gdt416_4576_imperative_clauses.tsv", "role": "observed source recipe registers", "sha256": "cffae521ba93d96446537584e35fa9a4fe4b6e34330ebf7e955ad725f7c70561"},
+    {"path": "experiments/yolo/gdt428_within_class_action_semantic_contrasts/artifacts/gdt428_6_within_class_contrasts.tsv", "role": "action pair direct-frame distinctions", "sha256": "97eda02ac64241059d9b02a4b1ce33b90c906952dddbc304af0fe28789f78822"},
+    {"path": "experiments/yolo/gdt429_nonaction_core_semantic_contrasts/artifacts/gdt429_13_nonaction_core_contrasts.tsv", "role": "nonaction pair direct-frame distinctions", "sha256": "eb39bef9cfe34086103f8f897ce0c75e70450efd12a5904a562cb8fcdf1c7cce"}
+  ],
+  "outputs": [
+    {"path": "experiments/yolo/gdt432_reversible_neighbor_phrase_contrast_audit/README.md", "role": "entry point", "sha256": "72dd6acb28806d1485512cc0cd816d98866b2a0f225a0f85414d72f1a34ff459"},
+    {"path": "experiments/yolo/gdt432_reversible_neighbor_phrase_contrast_audit/METHOD.md", "role": "reproducible method", "sha256": "654efe6575e5e410818922bb6268cda0c724a7ce05fdb5ec2db6d0d983146f47"},
+    {"path": "experiments/yolo/gdt432_reversible_neighbor_phrase_contrast_audit/REPORT.md", "role": "primary report", "sha256": "e7c772355f16ebdbe61db37cb61379c39af87871d07dd00a795c489899e9a2e7"},
+    {"path": "experiments/yolo/gdt432_reversible_neighbor_phrase_contrast_audit/src/run.py", "role": "deterministic builder", "sha256": "56c4e265f91848d0858ea5b3e930210779274f6057fae20836e65663aba9547c"},
+    {"path": "experiments/yolo/gdt432_reversible_neighbor_phrase_contrast_audit/src/validate.py", "role": "validator", "sha256": "32dd20e3499638fe23174a01e3f8638a5c06c0533c6183ed320018b630222d18"},
+    {"path": "experiments/yolo/gdt432_reversible_neighbor_phrase_contrast_audit/artifacts/README.md", "role": "artifact guide", "sha256": "6d1a3a52e810d9ce39971a89ef5ef98a501f8c48353e07e75b7ea59c9e59004c"},
+    {"path": "experiments/yolo/gdt432_reversible_neighbor_phrase_contrast_audit/artifacts/gdt432_145_generic_neighbor_contrasts.tsv", "role": "generic reversible contrast audit", "sha256": "e7626e79c6fb2deeef311804371905dbcfa2013a4772f4ae38157a14bde667f6"},
+    {"path": "experiments/yolo/gdt432_reversible_neighbor_phrase_contrast_audit/artifacts/gdt432_725_register_neighbor_contrasts.tsv", "role": "five-register contrast audit", "sha256": "985e0d7b4523e41ac20c4bffd4e179b92a4d0e2c15424ad54dcbee25af9cc2d1"},
+    {"path": "experiments/yolo/gdt432_reversible_neighbor_phrase_contrast_audit/artifacts/gdt432_directed_root_pair_summary.tsv", "role": "directed root-pair summary", "sha256": "03b9a06f6256aeb280f1daf91fcac989f5abe43617706d0389ddc750fb2621be"},
+    {"path": "experiments/yolo/gdt432_reversible_neighbor_phrase_contrast_audit/artifacts/gdt432_47_card_reversibility.tsv", "role": "card-level reversibility", "sha256": "a7fb8eaf18accf3c86e5ffb2621ab6cfa7c11fa591f1960c4f641b92e4fe6535"},
+    {"path": "experiments/yolo/gdt432_reversible_neighbor_phrase_contrast_audit/artifacts/gdt432_result.json", "role": "compact result", "sha256": "3d2af08e491fd4d5375dcfa4751cc71f206ae7dbce3e0abbb49d1488712106c2"},
+    {"path": "experiments/yolo/gdt432_reversible_neighbor_phrase_contrast_audit/artifacts/gdt432_validation.json", "role": "validation report", "sha256": "83be1cb484de79c9e184e2944efcff3ed4ecc0d965330d54a16353fdd2b92f8c"}
+  ],
+  "question": "Does every GDT431 future card remain audibly and slotwise distinct from all of its observed one-root neighbors in the generic and five register-local readings?",
+  "schema_version": 1,
+  "sealed_data": {"f84": "FORBIDDEN", "f84r": "FORBIDDEN"},
+  "slug": "reversible_neighbor_phrase_contrast_audit",
+  "status": "ALL_145_NEIGHBOR_ROUTES_AND_725_REGISTER_CONTRASTS_REVERSIBLE",
+  "title": "reversible neighbor phrase contrast audit",
+  "updated": "2026-08-26",
+  "validation": {"artifact": "experiments/yolo/gdt432_reversible_neighbor_phrase_contrast_audit/artifacts/gdt432_validation.json", "status": "PASS"}
+}

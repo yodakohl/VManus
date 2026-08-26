@@ -204,6 +204,15 @@ deck has zero generic or within-register phrase collisions. The builder adds no
 root value, page or surface prediction. Treat these as prospective readings of
 future visibly matching component recipes, not as confirmed words.
 
+GDT432 checks that the readable layer has not silently merged neighbouring
+recipes. Across 145 observed one-root source routes, every positions-aligned
+trace changes exactly one value and every generic phrase changes. Repeating the
+same comparison in five registers gives 725/725 audible local contrasts; all
+47 cards and 30 directed root changes pass. The source recipe is actually
+observed in that precise register for 275 rows; the other 450 are labelled
+counterfactual register expansions. This is an internal reversibility result,
+not independent confirmation of any root meaning.
+
 Pass 1032/GDT404 applies the frozen GDT403 intake contract to a one-shot random
 draw of f1r, f24v, f81r and f95v. The 95 guarded lines add 688 events, 88
 statements and 677 focus attachments. Exactly 470 events retain an old surface
