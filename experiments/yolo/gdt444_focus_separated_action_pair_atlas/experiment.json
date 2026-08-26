@@ -1,0 +1,47 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Conditional readability of visibly focus-separated action chains under existing factors. Direct red pairs remain unlicensed; no invented separator, pair promotion, new meaning, surface, occurrence prediction, plaintext, language, or page evidence.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt444_focus_separated_action_pair_atlas/src/run.py",
+    "validate": "python3 experiments/yolo/gdt444_focus_separated_action_pair_atlas/src/validate.py"
+  },
+  "created": "2026-08-26",
+  "dependencies": ["GDT421", "GDT422", "GDT441", "GDT442"],
+  "experiment_id": "GDT444",
+  "inputs": [
+    {"path": "experiments/yolo/gdt441_factor_gated_unseen_recipe_reader/src/factor_gate_stream_read.py", "role": "executable factor gate", "sha256": "b3704429ece4cbc8b6aeeded06231963a03158cb3078f13024e221eacee41981"},
+    {"path": "experiments/yolo/gdt441_factor_gated_unseen_recipe_reader/artifacts/gdt441_4576_factor_reader_replay.tsv", "role": "current observed separated-chain search space", "sha256": "ade6ef986a0a10a5999a0876f577b44c1583d4d5594e319da39efdabb7221218"},
+    {"path": "experiments/yolo/gdt442_forbidden_factor_stop_deck/artifacts/gdt442_47_stop_rule_deck.tsv", "role": "44 red direct action pairs", "sha256": "bfe68545312621d8bc9b6625a7183a53aea6839e154eac5d215b1c5c31bc76a9"}
+  ],
+  "outputs": [
+    {"path": "experiments/yolo/gdt444_focus_separated_action_pair_atlas/README.md", "role": "entry point", "sha256": "f6b6c6eb0aead626aa0cfbaaefe3ad68106da055b75745f71da217ca595f62f4"},
+    {"path": "experiments/yolo/gdt444_focus_separated_action_pair_atlas/METHOD.md", "role": "focus-separator method", "sha256": "ab28a96a0affd147fcfc93d1288fc11fd7461872579eb93fbc132fa718005421"},
+    {"path": "experiments/yolo/gdt444_focus_separated_action_pair_atlas/REPORT.md", "role": "primary report", "sha256": "b7dc954235cdc6d681195da7b9f81718b8d2dae578c067aaf692f76c7e967af5"},
+    {"path": "experiments/yolo/gdt444_focus_separated_action_pair_atlas/src/run.py", "role": "deterministic builder", "sha256": "a0a78f5edceb2ee960d1a0ae01c1b33491257a7a981633e3868f2e59624163b6"},
+    {"path": "experiments/yolo/gdt444_focus_separated_action_pair_atlas/src/validate.py", "role": "validator", "sha256": "e5ecd3a2f09fe70d9fbd00c0874e400e357249ca553a96606a77a716100f7f5d"},
+    {"path": "experiments/yolo/gdt444_focus_separated_action_pair_atlas/artifacts/README.md", "role": "artifact guide", "sha256": "6b8ea6649ffbb50b8822efd22d0381bae7a26d5201b6801215b6122fce319006"},
+    {"path": "experiments/yolo/gdt444_focus_separated_action_pair_atlas/artifacts/gdt444_484_focus_separated_pair_matrix.tsv", "role": "complete focus-separated pair matrix", "sha256": "fe0a1817e3d8b66dbe518aa09c797a6193208a53d4b4be9b5ab24da5c9288dba"},
+    {"path": "experiments/yolo/gdt444_focus_separated_action_pair_atlas/artifacts/gdt444_44_pair_separator_summary.tsv", "role": "per-pair summary", "sha256": "1d7e372fd48df744545855e43b4786ec84df0379c7a5b9a7aee9b0337e87b86e"},
+    {"path": "experiments/yolo/gdt444_focus_separated_action_pair_atlas/artifacts/gdt444_11_focus_separator_summary.tsv", "role": "per-focus summary", "sha256": "994bba335f37451e529f5440e10e7567a58992898e232c993121f43b607e92dd"},
+    {"path": "experiments/yolo/gdt444_focus_separated_action_pair_atlas/artifacts/gdt444_28_observed_separated_pair_occurrences.tsv", "role": "all current exact separated-pair triples", "sha256": "f1966fa1e70dce43e5aa388c4a6083eb76edb2bda5bf216e7b085d7cdbfdc0e3"},
+    {"path": "experiments/yolo/gdt444_focus_separated_action_pair_atlas/artifacts/gdt444_result.json", "role": "compact result", "sha256": "f8aafb1c484798da5375fc53806a7d0cc881b3eeff15a6e7608ba5be219ac108"},
+    {"path": "experiments/yolo/gdt444_focus_separated_action_pair_atlas/artifacts/gdt444_validation.json", "role": "validation report", "sha256": "8b375777dc11721ff38b43186fc732b7dc3e289b5182a173e17b52019cfef258"}
+  ],
+  "question": "Can each currently unlicensed direct action pair be read as a visibly focus-separated two-action chain without licensing the direct pair?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "focus_separated_action_pair_atlas",
+  "status": "ALL_FORTY_FOUR_RED_DIRECT_PAIRS_HAVE_AT_LEAST_TEN_READABLE_FOCUS_SEPARATORS",
+  "title": "focus separated action pair atlas",
+  "updated": "2026-08-26",
+  "validation": {
+    "artifact": "experiments/yolo/gdt444_focus_separated_action_pair_atlas/artifacts/gdt444_validation.json",
+    "status": "PASS"
+  }
+}

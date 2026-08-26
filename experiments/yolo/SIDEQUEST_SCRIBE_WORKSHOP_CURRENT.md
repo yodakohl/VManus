@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT443.
+Updated: 2026-08-26, after GDT444.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -214,6 +214,15 @@ only two stop. Every owner-scope-reset cell works; the two same-scope stops are
 one recipes work in all eighteen contexts. The six already observed recipe
 types have seventeen real occurrences across eight pages, all green under
 their actual incoming heads.
+
+GDT444 resolves the other major red shape without loosening it. Each of the 44
+unlicensed direct action pairs is tested with each of eleven visible focus
+cores between the heads. Of 484 separated chains, 460 are green, eleven amber
+and thirteen stop. Every pair has at least ten valid separators; 31 accept all
+eleven. All thirteen stops are `EEE` after left `CHD` or `R`, again the two old
+Grade-III gaps. The direct pairs remain red. The current edition already has
+28 exact separated triples in 27 recipes, representing eighteen pair×focus
+patterns, sixteen of the red pairs and thirteen pages; all 28 are green.
 
 ## Fixed scope
 
@@ -785,6 +794,9 @@ comparison set.
 
 ## Primary artifacts
 
+- Current GDT444 484-cell focus-separated pair atlas, 44-pair and eleven-focus
+  summaries, and all 28 current exact separated-chain occurrences:
+  `gdt444_focus_separated_action_pair_atlas/`;
 - Current GDT443 936-cell close-context rescue atlas, 52-recipe and nine-head
   summaries, plus all 17 actual observed close contexts:
   `gdt443_close_context_rescue_atlas/`;
@@ -968,8 +980,8 @@ comparison set.
 
 ## Next work
 
-Keep the current 26 pages closed. Insert each of the eleven focus cores between
-each of GDT442's 44 red direct action pairs and replay all 484 visible-slot
-chains. The inserted focus may separate actions but may not promote the direct
-pair. Record green, amber and any remaining focus-edge stop without changing a
-meaning, surface, page or scope rule.
+Keep the current 26 pages closed. Merge GDT441–GDT444 into one prospective
+intake certificate: exact key, factor composition, inherited-head rescue,
+visible-slot-separated chain, or named stop. Run fixed synthetic examples of
+every route and prove that all stops preserve state. Do not add a meaning,
+surface, page or inferred invisible separator.

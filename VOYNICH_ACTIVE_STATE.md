@@ -326,6 +326,15 @@ work in all eighteen contexts. All seventeen real occurrences of the six
 observed recipe types are green across eight pages. Validation passes 31/31;
 no meaning, surface or page changes.
 
+GDT444 tests all 44 red direct action pairs with each of the eleven visible
+focus cores inserted between them. This produces 484 separated chains: 460
+green, eleven amber and thirteen stopped. All 44 pairs have at least ten
+readable separators; 31 accept all eleven and thirteen accept ten. The only
+remaining stops are `EEE` after left `CHD` or `R`; direct pairs are never
+promoted. The current stream already contains 28 exact green separated triples
+in 27 recipes, spanning eighteen pair×focus patterns, sixteen red pairs and
+thirteen pages. Validation passes 32/32; no meaning, surface or page changes.
+
 Pass 1032/GDT404 applies the frozen GDT403 intake contract to a one-shot random
 draw of f1r, f24v, f81r and f95v. The 95 guarded lines add 688 events, 88
 statements and 677 focus attachments. Exactly 470 events retain an old surface
