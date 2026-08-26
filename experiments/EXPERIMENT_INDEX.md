@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **412**
-- Experiment-associated tracked files: **5,907** (661.2 MiB)
-- Structured GDT337+ experiments: **77**
+- Experiments indexed: **413**
+- Experiment-associated tracked files: **5,922** (663.6 MiB)
+- Structured GDT337+ experiments: **78**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT414 | GDT414_next_page_semantic_failure_deck | `NEXT_PAGE_SEMANTIC_FAILURE_DECK_READY` | [report](../experiments/yolo/gdt414_next_page_semantic_failure_deck/REPORT.md) | 15 | 2.4 MiB | 3 | STRUCTURED_YOLO |
 | GDT413 | GDT413_twenty_six_page_semantic_working_edition | `COMPLETE_TWENTY_SIX_PAGE_SEMANTIC_WORKING_EDITION` | [report](../experiments/yolo/gdt413_twenty_six_page_semantic_working_edition/REPORT.md) | 15 | 3.1 MiB | 3 | STRUCTURED_YOLO |
 | GDT412 | GDT412_chd_process_core_completion | `NINETEEN_BROAD_WORKING_VALUES_COMPLETE__CHD_IS_PROCESS_NOT_CLOSE` | [report](../experiments/yolo/gdt412_chd_process_core_completion/REPORT.md) | 15 | 118.9 KiB | 3 | STRUCTURED_YOLO |
 | GDT411 | GDT411_provisional_core_process_position | `FOUR_MORE_CORES_STABILIZED__CHD_REMAINS_PROVISIONAL` | [report](../experiments/yolo/gdt411_provisional_core_process_position/REPORT.md) | 14 | 51.9 KiB | 3 | STRUCTURED_YOLO |

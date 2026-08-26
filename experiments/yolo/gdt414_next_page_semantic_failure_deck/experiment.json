@@ -1,0 +1,122 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Creative next-page semantic consistency deck only; no confirmed lexeme, plaintext, language, or source identification.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt414_next_page_semantic_failure_deck/src/run.py",
+    "validate": "python3 experiments/yolo/gdt414_next_page_semantic_failure_deck/src/validate.py"
+  },
+  "created": "2026-08-26",
+  "dependencies": ["GDT408", "GDT412", "GDT413"],
+  "experiment_id": "GDT414",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt413_twenty_six_page_semantic_working_edition/artifacts/gdt413_4576_event_semantic_edition.tsv",
+      "role": "upstream reproducible input",
+      "sha256": "4daa0e85e2da43ed41ec7323688b6c82a2cfedea71c078c9e8079dcbbdd2f960"
+    },
+    {
+      "path": "experiments/yolo/gdt408_twenty_six_page_leave_one_page_transfer/artifacts/gdt408_4576_event_leaveout.tsv",
+      "role": "upstream reproducible input",
+      "sha256": "dcac960ac50fa0d5967e0799ed6178f60ab816fe0ce9ac8fb8cc5e6a9cc6910c"
+    },
+    {
+      "path": "experiments/yolo/gdt412_chd_process_core_completion/artifacts/gdt412_final_19_core_dictionary.tsv",
+      "role": "upstream reproducible input",
+      "sha256": "ca2d880c3d74668a6bbfcd61a2228b968b12ca791fbe185da3a76dbb35230602"
+    },
+    {
+      "path": "experiments/yolo/gdt413_twenty_six_page_semantic_working_edition/artifacts/gdt413_46_component_working_dictionary.tsv",
+      "role": "upstream reproducible input",
+      "sha256": "728113b051828ad7e8cdf46369832f3a81a4792bc104f3ef1f23644af5fa120e"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt414_next_page_semantic_failure_deck/README.md",
+      "role": "entry point",
+      "sha256": "58cb34a10fbae8d1602b5c34da211e1720677aabeea0b84cf38ddb515519ef4a"
+    },
+    {
+      "path": "experiments/yolo/gdt414_next_page_semantic_failure_deck/METHOD.md",
+      "role": "reproducible method",
+      "sha256": "25c0b0267e655b54cbaebfa20a60eefc0a55696ab9406953b05aa0a443b45d92"
+    },
+    {
+      "path": "experiments/yolo/gdt414_next_page_semantic_failure_deck/REPORT.md",
+      "role": "primary compact report",
+      "sha256": "4ffd0d5204c87ae87e879ea2224d42500477cdbad38ea3b4dbf6f8c77eb94069"
+    },
+    {
+      "path": "experiments/yolo/gdt414_next_page_semantic_failure_deck/src/run.py",
+      "role": "deterministic builder",
+      "sha256": "30c299d4ab85f9505ef638adfedbee8ba96722992b6080d19a548b71b6f7da84"
+    },
+    {
+      "path": "experiments/yolo/gdt414_next_page_semantic_failure_deck/src/validate.py",
+      "role": "independent validator",
+      "sha256": "9848411d9b6c3c048b1ae13f376be49ad5b667419c8313d489851b7df3468de7"
+    },
+    {
+      "path": "experiments/yolo/gdt414_next_page_semantic_failure_deck/artifacts/README.md",
+      "role": "artifact guide",
+      "sha256": "76e2ae0b56bd1987a3f7630c3e2c28303aa7352e7afd276ec4b278b9884100e4"
+    },
+    {
+      "path": "experiments/yolo/gdt414_next_page_semantic_failure_deck/artifacts/gdt414_19_core_semantic_failure_deck.tsv",
+      "role": "reproducible output artifact",
+      "sha256": "cfe8227abb36fb2c8a3fee107a3834ff44620f6a80e4bfcdfa86c9432da40b7a"
+    },
+    {
+      "path": "experiments/yolo/gdt414_next_page_semantic_failure_deck/artifacts/gdt414_8505_root_mention_pressure_ledger.tsv",
+      "role": "reproducible output artifact",
+      "sha256": "a6456ecf5f6347eb3c4c932f137776aa0665c63079e63449242c23e5d78dcdf3"
+    },
+    {
+      "path": "experiments/yolo/gdt414_next_page_semantic_failure_deck/artifacts/gdt414_95_root_register_guardrails.tsv",
+      "role": "reproducible output artifact",
+      "sha256": "ef9be2652b32fba545c28cdc154945c18758869ecd42b989d0abf9e6f31f55a8"
+    },
+    {
+      "path": "experiments/yolo/gdt414_next_page_semantic_failure_deck/artifacts/gdt414_19_weakest_existing_contexts.tsv",
+      "role": "reproducible output artifact",
+      "sha256": "6958147d782ffad992247860d2fafdc43591a655e125d9e6719c4fd480ad6520"
+    },
+    {
+      "path": "experiments/yolo/gdt414_next_page_semantic_failure_deck/artifacts/gdt414_eight_next_page_decisions.tsv",
+      "role": "reproducible output artifact",
+      "sha256": "9055ba59106f57f6bde10b357295b319d24d08d6c100625aa5d5a378568f3dc8"
+    },
+    {
+      "path": "experiments/yolo/gdt414_next_page_semantic_failure_deck/artifacts/NEXT_FOUR_PAGE_SEMANTIC_ERROR_DECK.md",
+      "role": "reproducible output artifact",
+      "sha256": "67ff94da6f34d88276a55f87930d77c8da1f7aa0bd3cdd2b82ccd04ce3e1df5c"
+    },
+    {
+      "path": "experiments/yolo/gdt414_next_page_semantic_failure_deck/artifacts/gdt414_result.json",
+      "role": "compact result",
+      "sha256": "4ac6b329b6f13dd29f013afcd93e931e10ebb984a41e75772dc8805e3f4471ec"
+    },
+    {
+      "path": "experiments/yolo/gdt414_next_page_semantic_failure_deck/artifacts/gdt414_validation.json",
+      "role": "validation report",
+      "sha256": "7f037bacd85d87171acc92395398c6dd53050e13453eb18ef7ff36bf2e3e58dd"
+    }
+  ],
+  "question": "Can owner-local expansion be separated from a true portable-meaning failure before the next page batch?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "next_page_semantic_failure_deck",
+  "status": "NEXT_PAGE_SEMANTIC_FAILURE_DECK_READY",
+  "title": "Next-page semantic failure deck",
+  "updated": "2026-08-26",
+  "validation": {
+    "artifact": "experiments/yolo/gdt414_next_page_semantic_failure_deck/artifacts/gdt414_validation.json",
+    "status": "PASS"
+  }
+}

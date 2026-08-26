@@ -6,7 +6,7 @@ Updated: 2026-08-26. This is the full claim registry. For routine work, read
 
 ## Outcome
 
-### Noncanonical twenty-six-page sidequest (GDT413)
+### Noncanonical twenty-six-page sidequest (GDT414)
 
 The creative workshop sidequest covers twenty-six admitted physical pages with
 5,269 visible groups: 4,576 running prose/ring-text groups plus 693 local image,
@@ -32,9 +32,15 @@ and separate celestial lookup tables: *Liber simplicium, compositionum,
 balneorum et temporum caelestium*. These readings remain speculative and
 license no scientific lexeme or plaintext claim.
 
-GDT413 is now the semantic working edition; GDT405 remains the frozen surface
-and parser lock for a future user-released page batch. Exact forms may not be
-resegmented, and local owner expansions may not silently retune a core.
+GDT413 is now the semantic working edition. GDT414 adds the operational error
+deck for its next transfer: all nineteen values are checked against 8,505
+current root mentions and all five registers, each has an allowed local
+expansion, an overreading warning, its weakest old context, and explicit
+green/amber/red outcomes. A new pictured object may refine the owner-local
+paraphrase, but a structural-role change, second portable sense, local-label
+lexicalization, unseen atom, or scope-crossing rescue is a dictionary failure.
+GDT405 remains the frozen surface/parser lock; exact forms may not be
+resegmented and local owners may not silently retune a core.
 
 Pass 1032/GDT404 applies the frozen GDT403 intake contract to a one-shot random
 draw of f1r, f24v, f81r and f95v. The 95 guarded lines add 688 events, 88
