@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT439.
+Updated: 2026-08-26, after GDT440.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -174,6 +174,15 @@ VORBEZUG. Five main cards touch an external catalog card, never another main
 card. Four are clean top-level order repairs; one is a genuine co-valued local
 channel. Exact component keys therefore remain mandatory even when the German
 clause is identical.
+
+GDT440 keeps both layers instead of forcing the fluent sentence to carry every
+distinction. Each result now exposes the exact ordered portable trace and the
+state-aware clause—for example `BAHN · FORTSETZEN` versus `FORTSETZEN · BAHN`
+even where both clauses sound alike. Of GDT439's 104 groups, 87 dissolve
+completely and six split; all same-atom order collisions and all five main-card
+contacts disappear. Only 18 groups/38 recipes remain, all different learned
+local channels with the same ordered HIER or VORBEZUG values. All 4,576 current
+events replay with unchanged state and clause while gaining the ordered trace.
 
 ## Fixed scope
 
@@ -745,6 +754,10 @@ comparison set.
 
 ## Primary artifacts
 
+- Current GDT440 dual-channel reader, complete 1,563-signature edition,
+  resolution of all 104 GDT439 groups, 18 co-valued local-channel groups and
+  4,576-event stream replay:
+  `gdt440_dual_channel_order_trace_reader/`;
 - Current GDT439 full-catalog transition audit, 1,563 signatures, 104 complete
   collision groups, 155 same-multiset pairs, tier summary and five main-deck
   external contacts:
@@ -914,7 +927,8 @@ comparison set.
 
 ## Next work
 
-Keep the current 26 pages closed. Replace the remaining fixed semantic-bucket
-order with a top-level package-order renderer and replay the 76 same-multiset
-collision groups. Preserve the 28 genuinely co-valued local-channel groups as
-literal-channel distinctions; do not invent meanings, surfaces or pages.
+Keep the current 26 pages closed. Stress the dual-channel reader by hiding each
+current page's exact recipes in turn and asking which events still receive an
+ordered root trace and fluent clause from cross-page recipes or the frozen
+future deck. Preserve exact local-channel IDs and stop rather than retune a
+meaning, surface or page.

@@ -286,6 +286,15 @@ four are top-level order-repair candidates and one is an intentional local-
 channel equivalence. Exact recipes remain the matching key. No meaning,
 surface or page changes; 33/33 checks pass.
 
+GDT440 resolves fluent order collapse by keeping the already-published ordered
+portable meaning trace beside the state-aware clause. Dual signatures increase
+from 1,449 to 1,543: 87 of GDT439's 104 groups resolve completely and six
+partly. No same-multiset order collision or main-card contact remains. The
+remaining 18 groups/38 recipes are different exact local channels with the
+same ordered HIER or VORBEZUG values, so their literal IDs remain visible
+instead of receiving invented word contrasts. All 4,576 current states and
+clauses replay unchanged with the added trace; 29/29 checks pass.
+
 Pass 1032/GDT404 applies the frozen GDT403 intake contract to a one-shot random
 draw of f1r, f24v, f81r and f95v. The 95 guarded lines add 688 events, 88
 statements and 677 focus attachments. Exactly 470 events retain an old surface

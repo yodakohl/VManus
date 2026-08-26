@@ -1,0 +1,53 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Internal dual-channel readability under the current working meanings only; no independent confirmation, plaintext, language, new meaning, surface prediction, or new page evidence.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt440_dual_channel_order_trace_reader/src/run.py",
+    "validate": "python3 experiments/yolo/gdt440_dual_channel_order_trace_reader/src/validate.py"
+  },
+  "created": "2026-08-26",
+  "dependencies": ["GDT413", "GDT415", "GDT434", "GDT438", "GDT439"],
+  "experiment_id": "GDT440",
+  "inputs": [
+    {"path": "experiments/yolo/gdt434_forty_nine_card_intake_reader/artifacts/gdt434_1563_recipe_intake_catalog.tsv", "role": "exact ordered literal readings and intake tiers", "sha256": "51c87782c36cce812394feb593bf5afb952c2542bb174679e3a17f4deb0401d6"},
+    {"path": "experiments/yolo/gdt439_full_catalog_transition_collision_audit/artifacts/gdt439_1563_transition_signatures.tsv", "role": "complete fluent transition signatures", "sha256": "ec5ad648ec3557153bba0bdef6f139258c029ebcdf672f057475ccb63304ef9d"},
+    {"path": "experiments/yolo/gdt439_full_catalog_transition_collision_audit/artifacts/gdt439_collision_groups.tsv", "role": "104 fluent collision groups", "sha256": "6f50e8199ae6901715c0a42889f62acb181d3b9012c5f3e6657669c8dc249a1f"},
+    {"path": "experiments/yolo/gdt439_full_catalog_transition_collision_audit/artifacts/gdt439_main_deck_external_collisions.tsv", "role": "five main-card external contacts", "sha256": "85598e47c0cc3581a516364b8a58873f79c79d9a2cd8c8c40e1ec1927d15845e"},
+    {"path": "experiments/yolo/gdt415_owner_local_semantic_expansion_atlas/artifacts/gdt415_4576_event_owner_local_edition.tsv", "role": "ordered current event stream", "sha256": "5229fa53ff862f88fad9c1888d6651ff1f413c1c75a56ba7e1042c4472d4a7d3"},
+    {"path": "experiments/yolo/gdt438_order_safe_streaming_reader/artifacts/gdt438_4576_order_safe_stream_readings.tsv", "role": "current order-safe state and clause target", "sha256": "5eb05099196c7e97de133da2868ec32db7a9e45d9eac773fcbb73ba142ac9617"},
+    {"path": "experiments/yolo/gdt438_order_safe_streaming_reader/src/order_safe_stream_read.py", "role": "order-safe stream command", "sha256": "ec75aa3b5d0787a87998b4c62058b2199b199c9a341bfe6e39d73c4814cb96be"}
+  ],
+  "outputs": [
+    {"path": "experiments/yolo/gdt440_dual_channel_order_trace_reader/README.md", "role": "entry point and command", "sha256": "749ec6187b77d74fb1fb6f3ebae763f850ffe3362e33c121de14ff9c3c9467c0"},
+    {"path": "experiments/yolo/gdt440_dual_channel_order_trace_reader/METHOD.md", "role": "dual-channel method", "sha256": "f0f6003dae5a7c587657fc569a6a42a0cf4fe36cc47d06a7c51d78f43f34aab9"},
+    {"path": "experiments/yolo/gdt440_dual_channel_order_trace_reader/REPORT.md", "role": "primary report", "sha256": "844dcc34dafbfc66927eb901da7ff32731560ffb2c09f433d60b29e06569368c"},
+    {"path": "experiments/yolo/gdt440_dual_channel_order_trace_reader/src/dual_channel_stream_read.py", "role": "prospective dual-channel command", "sha256": "0167a2d3ee047a59e88f3fa3acaf0c2be1dd8b7eef255a9deda3b48274c5c8aa"},
+    {"path": "experiments/yolo/gdt440_dual_channel_order_trace_reader/src/run.py", "role": "deterministic builder", "sha256": "ab9eb72d5a08b7fc6c017dd77b6e34383d365d6b1ae3a5c716cc795035326768"},
+    {"path": "experiments/yolo/gdt440_dual_channel_order_trace_reader/src/validate.py", "role": "validator", "sha256": "2ff9d2b28cbd714ac5a12e084416b25f40154fe533c23243de93706abeab998f"},
+    {"path": "experiments/yolo/gdt440_dual_channel_order_trace_reader/artifacts/README.md", "role": "artifact guide", "sha256": "4627af8f2b460927b98a60faffcbf3de84f74d22ac598564babee47d19ee7871"},
+    {"path": "experiments/yolo/gdt440_dual_channel_order_trace_reader/artifacts/gdt440_1563_dual_channel_signatures.tsv", "role": "complete dual signatures", "sha256": "554c097c5de781cd6840a43db54ab63da83f20bb135206fa8da235681d1db5da"},
+    {"path": "experiments/yolo/gdt440_dual_channel_order_trace_reader/artifacts/gdt440_remaining_co_valued_channel_groups.tsv", "role": "18 intentional residual groups", "sha256": "f032d0a4f319cd4459ad77e465e79739b216e5e06f03134004783890365b0214"},
+    {"path": "experiments/yolo/gdt440_dual_channel_order_trace_reader/artifacts/gdt440_104_collision_resolutions.tsv", "role": "resolution of every GDT439 group", "sha256": "d98bd96377843b3046c42a0ec9cf1e2f443e51ea6160a28425515736a1ca94c1"},
+    {"path": "experiments/yolo/gdt440_dual_channel_order_trace_reader/artifacts/gdt440_five_main_collision_resolutions.tsv", "role": "all main-card contact resolutions", "sha256": "e15cc126680fbb4fa2b9489ec208a4f466934925858da6af2b4d61d376c71035"},
+    {"path": "experiments/yolo/gdt440_dual_channel_order_trace_reader/artifacts/gdt440_4576_dual_channel_stream_readings.tsv", "role": "complete current dual-channel replay", "sha256": "0b43f5f1ab427549ba9e1a020be919b1bc4b783de38c8bee1c6053a9b7466032"},
+    {"path": "experiments/yolo/gdt440_dual_channel_order_trace_reader/artifacts/gdt440_result.json", "role": "compact result", "sha256": "6fbf25091b52623802883121558c799dc846133910066b3ba766d954aa97f937"},
+    {"path": "experiments/yolo/gdt440_dual_channel_order_trace_reader/artifacts/gdt440_validation.json", "role": "validation report", "sha256": "d87893543a098794dd36a583b01c739ffc76b474f3d48e71227fb349141307ce"}
+  ],
+  "question": "Does combining the exact ordered portable meaning trace with the fluent state-aware clause resolve full-catalog order collisions without inventing meanings for co-valued local channels?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "dual_channel_order_trace_reader",
+  "status": "ORDER_COLLISIONS_RESOLVED__CO_VALUED_LOCAL_CHANNELS_RETAINED",
+  "title": "dual channel order trace reader",
+  "updated": "2026-08-26",
+  "validation": {
+    "artifact": "experiments/yolo/gdt440_dual_channel_order_trace_reader/artifacts/gdt440_validation.json",
+    "status": "PASS"
+  }
+}
