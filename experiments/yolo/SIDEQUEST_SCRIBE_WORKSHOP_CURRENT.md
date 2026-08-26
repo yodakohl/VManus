@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT498.
+Updated: 2026-08-26, after GDT499.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -1415,9 +1415,12 @@ comparison set.
 
 ## Next work
 
-Keep the current 26 pages closed. Rank all 352 GDT498 compositions inside their
-four visible support classes and publish the 165 local-multihead cases as the
-main productive layer. Audit the fifty old-values-only cells against old
-partial frames and adjacent action pairs. Separately compress mechanically
-repeated actions such as `CH+CH` or `CHD+CHD+Y` into fluent but
-meaning-equivalent German, without changing a recipe or promoting a cell.
+Keep the current 26 pages closed. GDT499 has ranked all 352 GDT498
+compositions: 165 local-multihead cells are now the productive main layer, 88
+have one local head, 49 only cross-register support and fifty only old values.
+The atlas exposes every one of 646 local and 288 cross-register support links
+and isolates fifteen mechanically repeated-action clauses. Apply one fixed,
+reversible fluency rule to those fifteen without changing their recipes or
+component traces. Then rank the fifty-cell frontier against old partial frames
+and adjacent action pairs; no cell may be promoted merely because it reads
+smoothly.

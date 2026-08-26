@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **497**
-- Experiment-associated tracked files: **7,221** (792.9 MiB)
-- Structured GDT337+ experiments: **162**
+- Experiments indexed: **498**
+- Experiment-associated tracked files: **7,241** (793.5 MiB)
+- Structured GDT337+ experiments: **163**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT499 | GDT499_nine_action_composition_priority_atlas | `ONE_HUNDRED_SIXTY_FIVE_PRODUCTIVE_MULTIHEAD_COMPOSITIONS__FIFTY_OLD_VALUES_ONLY_FRONTIER` | [report](../experiments/yolo/gdt499_nine_action_composition_priority_atlas/REPORT.md) | 20 | 633.2 KiB | 1 | STRUCTURED_YOLO |
 | GDT498 | GDT498_nine_action_frame_register_matrix | `ALL_FOUR_HUNDRED_NINETY_FIVE_CELLS_READABLE__ZERO_UNAVAILABLE__OBSERVED_AND_COMPOSED_VISIBLE` | [report](../experiments/yolo/gdt498_nine_action_frame_register_matrix/REPORT.md) | 18 | 977.4 KiB | 4 | STRUCTURED_YOLO |
 | GDT497 | GDT497_complete_context_safe_tr_default_deck | `ONE_HUNDRED_TEN_CURRENT_DEFAULTS__TWENTY_THREE_CONTEXT_GENERALIZED__THIRTY_SEVEN_OBSERVED_RETAINED` | [report](../experiments/yolo/gdt497_complete_context_safe_tr_default_deck/REPORT.md) | 16 | 276.0 KiB | 2 | STRUCTURED_YOLO |
 | GDT496 | GDT496_semantic_action_substitution_atlas | `EIGHTEEN_DIRECT_AND_NINE_CONTEXT_SAFE_DEFAULTS__ALL_242_OBSERVED_REMAINDERS_MATCH` | [report](../experiments/yolo/gdt496_semantic_action_substitution_atlas/REPORT.md) | 16 | 358.2 KiB | 2 | STRUCTURED_YOLO |

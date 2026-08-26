@@ -12039,3 +12039,28 @@ unchanged; validation passes 3064/3064. Next rank all 352 compositions, publish
 the 165 multihead layer, audit the fifty old-values-only cases with partial
 frames/action pairs and smooth repeated-action wording without changing a
 recipe. Keep all 26 pages closed.
+
+## GDT499 nine-action composition priority atlas
+
+GDT499 ranks every one of the 352 fixed GDT498 `COMPOSED_WORKING` cells while
+retaining its recipe, current phrase, old component values and evidence label.
+The four support tiers contain 165 local-multihead, 88 local-single-head, 49
+cross-register same-action and fifty old-values-only cells. Two hundred
+fifty-three cells therefore have at least one exact whole-cell neighbour in the
+same frame and register; the 165-cell main layer has 558 such neighbours with
+2,172 source events.
+
+The complete witness inventory contains 646 local relations carrying 2,276
+events and 288 cross-register relations carrying 719 events. These are repeated
+target-to-source links, not independent observations. The fifty-cell weak front
+is confined to five complex frames; the six simple frames contain zero
+old-values-only cells. T and R have zero Tier-D cells, while CHD carries eleven,
+CH and SH nine each, P eight, S five, and K/OK four each.
+
+Fifteen cells mechanically repeat an action root: ten CH and five CHD. Four are
+Tier A, four Tier B and seven Tier D. They retain their literal working phrase
+for now and form a finite fluency queue. No cell is promoted, no root meaning,
+event or page changes, and no surface or occurrence is predicted. Validation
+passes 2487/2487. Next apply a fixed reversible editorial compression to those
+fifteen clauses, then rank the fifty Tier-D cells by old partial-frame and
+action-pair support. Keep all 26 pages closed.
