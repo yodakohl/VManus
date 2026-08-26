@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT500.
+Updated: 2026-08-26, after GDT501.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -1416,11 +1416,12 @@ comparison set.
 ## Next work
 
 Keep the current 26 pages closed. GDT499 has ranked all 352 GDT498
-compositions: 165 local-multihead cells are now the productive main layer, 88
-have one local head, 49 only cross-register support and fifty only old values.
-GDT500 has removed the finite wording problem: all fifteen doubled-action
-compositions now say `zweimal`, retain both action slots and expand exactly to
-their old two-clause phrase. All 143 observed and 337 other composed defaults
-remain byte-identical in the complete current 495-cell deck. Next rank only the
-fifty-cell frontier against old partial frames and adjacent action pairs; no
-cell may be promoted merely because it reads smoothly.
+compositions, and GDT500 has removed the fifteen-cell wording artifact while
+retaining the full current 495-cell deck. GDT501 now breaks the former fifty
+old-values-only cells into 16 exact same-register N−1 cases, three other local
+action-partial cases, 27 structurally supported cases and only four atomic-only
+edges. The four are `CH+CHD` and `CH+OK` in source and pharma; both directed
+pairs have zero old GDT421 events but remain open working assumptions. Next
+publish compact old-clause cards for the 46 supported cells and seek reverse-
+order or peer-action analogies only for the four, without promoting or
+discarding them.

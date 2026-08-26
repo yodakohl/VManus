@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **499**
-- Experiment-associated tracked files: **7,258** (794.4 MiB)
-- Structured GDT337+ experiments: **164**
+- Experiments indexed: **500**
+- Experiment-associated tracked files: **7,275** (794.6 MiB)
+- Structured GDT337+ experiments: **165**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT501 | GDT501_old_value_frontier_partial_support_atlas | `FIFTY_CELL_FRONTIER_STRATIFIED_BY_OLD_PARTIAL_FRAMES_AND_ACTION_PAIRS` | [report](../experiments/yolo/gdt501_old_value_frontier_partial_support_atlas/REPORT.md) | 17 | 233.1 KiB | 4 | STRUCTURED_YOLO |
 | GDT500 | GDT500_repeated_action_fluency_matrix | `FIFTEEN_REPEATED_ACTIONS_FLUENT_AND_REVERSIBLE__FOUR_HUNDRED_EIGHTY_UNCHANGED` | [report](../experiments/yolo/gdt500_repeated_action_fluency_matrix/REPORT.md) | 17 | 851.1 KiB | 2 | STRUCTURED_YOLO |
 | GDT499 | GDT499_nine_action_composition_priority_atlas | `ONE_HUNDRED_SIXTY_FIVE_PRODUCTIVE_MULTIHEAD_COMPOSITIONS__FIFTY_OLD_VALUES_ONLY_FRONTIER` | [report](../experiments/yolo/gdt499_nine_action_composition_priority_atlas/REPORT.md) | 20 | 633.2 KiB | 1 | STRUCTURED_YOLO |
 | GDT498 | GDT498_nine_action_frame_register_matrix | `ALL_FOUR_HUNDRED_NINETY_FIVE_CELLS_READABLE__ZERO_UNAVAILABLE__OBSERVED_AND_COMPOSED_VISIBLE` | [report](../experiments/yolo/gdt498_nine_action_frame_register_matrix/REPORT.md) | 18 | 977.4 KiB | 4 | STRUCTURED_YOLO |

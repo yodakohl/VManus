@@ -12086,3 +12086,29 @@ The current phrase layer is therefore complete and no longer contains the
 mechanical doubled-imperative artifact. Next rank only the fifty GDT499 Tier-D
 cells using old partial-frame and adjacent action-pair support, without changing
 their now-current GDT500 wording or opening a page.
+
+## GDT501 old-value frontier partial-support atlas
+
+GDT501 enumerates every order-preserving proper multi-atom subrecipe of the
+fifty fixed GDT499 old-values-only cells and matches it to all 4,576 exact
+GDT416 clauses. It also joins every two-action target to the full GDT421
+ordered-pair atlas. The resulting 167 partial candidates have 285 exact
+candidate×register witnesses: 47 in the target register and 238 across other
+registers, with exact events, clauses, surfaces and pages retained.
+
+The flat frontier divides into sixteen cells with an exact action-retaining
+N−1 recipe in the same register, three with another exact local action partial,
+27 with a cross-register partial, local action-neutral backbone or attested
+ordered pair, and four with only atomic values. Nineteen cells have local
+action partials, 34 cross-register action partials and 21 local frame
+backbones. Fifteen of thirty two-action cells use an attested ordered pair; six
+have that pair in the target register.
+
+The last four are exactly `CH+CHD` and `CH+OK` in SOURCE_SECTION_T and PHARMA.
+Both ordered pairs have zero events in GDT421. This is retained as an open
+support gap, not an impossibility or rejection; all four current readings stay
+available. All fifty GDT500 phrases and `COMPOSED_WORKING` labels remain
+unchanged, with zero root, surface or occurrence change. Validation passes
+800/800. Next make compact old-clause cards for the 46 supported cells and seek
+directed reverse-order/peer-action analogies only for the four, keeping all
+pages closed.
