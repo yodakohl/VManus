@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT501.
+Updated: 2026-08-27, after GDT502.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -1415,13 +1415,12 @@ comparison set.
 
 ## Next work
 
-Keep the current 26 pages closed. GDT499 has ranked all 352 GDT498
-compositions, and GDT500 has removed the fifteen-cell wording artifact while
-retaining the full current 495-cell deck. GDT501 now breaks the former fifty
-old-values-only cells into 16 exact same-register N−1 cases, three other local
-action-partial cases, 27 structurally supported cases and only four atomic-only
-edges. The four are `CH+CHD` and `CH+OK` in source and pharma; both directed
-pairs have zero old GDT421 events but remain open working assumptions. Next
-publish compact old-clause cards for the 46 supported cells and seek reverse-
-order or peer-action analogies only for the four, without promoting or
-discarding them.
+Keep the current 26 pages closed. GDT499–GDT500 retain a complete current
+495-cell deck. GDT501 breaks the former fifty old-values-only cells into 46
+partially supported cases and four atomic-only edges. GDT502 now gives every
+supported cell one exact old comparison clause: 112 selected carrier uses, 75
+different events, 22 pages and exact GDT416 roundtrip on all 46 cards. All
+target phrases and `COMPOSED_WORKING` labels remain fixed. The four open edges
+are still `CH+CHD` and `CH+OK` in source and pharma. Next read all 46 cards as
+component deltas for semantic consistency and seek reverse-order or peer-action
+analogies only for the four, without promoting or discarding them.

@@ -1,0 +1,130 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "A concrete comparison deck for the 46 structurally supported GDT501 compositions. Each chosen source is an exact old GDT416 clause; a pair-only source transfers only its attested action order while extra carrier slots remain visible. Targets remain composed and current phrases stay fixed. Four unsupported assumptions remain open; no surface or occurrence is predicted.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt502_supported_frontier_comparison_cards/src/run.py",
+    "validate": "python3 experiments/yolo/gdt502_supported_frontier_comparison_cards/src/validate.py"
+  },
+  "created": "2026-08-26",
+  "dependencies": [
+    "GDT416",
+    "GDT501"
+  ],
+  "experiment_id": "GDT502",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt416_owner_local_imperative_sentence_compiler/artifacts/gdt416_4576_imperative_clauses.tsv",
+      "role": "complete old clause inventory and concrete pair carriers",
+      "sha256": "cffae521ba93d96446537584e35fa9a4fe4b6e34330ebf7e955ad725f7c70561"
+    },
+    {
+      "path": "experiments/yolo/gdt501_old_value_frontier_partial_support_atlas/artifacts/gdt501_50_ranked_frontier_cells.tsv",
+      "role": "fixed supported and open target rank",
+      "sha256": "5ef5290cee3ee1b1aafb3415d91944c767e5396449c9b23f6957046eff34b564"
+    },
+    {
+      "path": "experiments/yolo/gdt501_old_value_frontier_partial_support_atlas/artifacts/gdt501_partial_subrecipe_candidates.tsv",
+      "role": "complete partial candidate inventory",
+      "sha256": "16ae7e77e7f438f333092a06ab8d5f44cc3d1ccbd1408f74eafedee423783e1c"
+    },
+    {
+      "path": "experiments/yolo/gdt501_old_value_frontier_partial_support_atlas/artifacts/gdt501_exact_partial_recipe_witnesses.tsv",
+      "role": "complete exact partial witness inventory",
+      "sha256": "8b2ce80eddbfc7a77c45d59d41b01db3a3ad5a52cb78afa9bb8e36e1d28f6a79"
+    },
+    {
+      "path": "experiments/yolo/gdt501_old_value_frontier_partial_support_atlas/artifacts/gdt501_ordered_action_pair_support.tsv",
+      "role": "ordered pair support for two-action targets",
+      "sha256": "15d3fa5cf987382f8f340b8499e34c61fde97855e8e57c6fc11c823cc8e726c6"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt502_supported_frontier_comparison_cards/README.md",
+      "role": "entry point",
+      "sha256": "3ffdf506952fabbc70be667ee536405ac004f2445d6d43d88acbda585a46b01c"
+    },
+    {
+      "path": "experiments/yolo/gdt502_supported_frontier_comparison_cards/METHOD.md",
+      "role": "deterministic comparison-card method",
+      "sha256": "ecf4e79d4b1434c63fc8149a4af2895d3d9397868ad8015dcd23c15b4975cab0"
+    },
+    {
+      "path": "experiments/yolo/gdt502_supported_frontier_comparison_cards/REPORT.md",
+      "role": "primary report",
+      "sha256": "f0dc20c1b12887f46f53cd7e1eed678416032277986d7cc02c0e7b7c60e22eb4"
+    },
+    {
+      "path": "experiments/yolo/gdt502_supported_frontier_comparison_cards/src/run.py",
+      "role": "deterministic support selector and card builder",
+      "sha256": "7e5ce0de448402069290d2e3fbd67a9cb1cef2dcb2cf0a4415a3ab5be401d01b"
+    },
+    {
+      "path": "experiments/yolo/gdt502_supported_frontier_comparison_cards/src/validate.py",
+      "role": "independent selection and clause validator",
+      "sha256": "e374e016efd25e90da8bf8379362c389951821ae31f3dd6a2dce3cd48b250d57"
+    },
+    {
+      "path": "experiments/yolo/gdt502_supported_frontier_comparison_cards/artifacts/README.md",
+      "role": "artifact guide",
+      "sha256": "fd7eea5bea7618c2a3bedfc28eec02faaeae0ffb13a389614983a472d59aa48d"
+    },
+    {
+      "path": "experiments/yolo/gdt502_supported_frontier_comparison_cards/artifacts/GDT502_FORTY_SIX_SUPPORTED_FRONTIER_COMPARISON_CARDS.md",
+      "role": "complete readable card deck",
+      "sha256": "74dd318eb1681001ec9d22ed583a4a8a9611967402b7190c76cc6dc52bf068a8"
+    },
+    {
+      "path": "experiments/yolo/gdt502_supported_frontier_comparison_cards/artifacts/gdt502_46_supported_frontier_cards.tsv",
+      "role": "complete machine-readable comparison cards",
+      "sha256": "c2b13eee1e9b90a81a5676a1c13ff76257c00ef87619c5ac166023e583a90d9a"
+    },
+    {
+      "path": "experiments/yolo/gdt502_supported_frontier_comparison_cards/artifacts/gdt502_46_selected_old_clause_witnesses.tsv",
+      "role": "selected exact old clause sources",
+      "sha256": "87ffab88428c5e965760f285305e0d60380a11030625eb772014f43129505c1c"
+    },
+    {
+      "path": "experiments/yolo/gdt502_supported_frontier_comparison_cards/artifacts/gdt502_4_open_frontier_cards.tsv",
+      "role": "retained unsupported assumptions",
+      "sha256": "cc0a950d5ebd9fd648e885cb9037d9dca9b80122583457ae1f53d865f54960cd"
+    },
+    {
+      "path": "experiments/yolo/gdt502_supported_frontier_comparison_cards/artifacts/gdt502_support_channel_coverage.tsv",
+      "role": "selected support-channel coverage",
+      "sha256": "fb051839fc1b58edd670614642c699fb74831d09869c99d1636e9c990eeb4e9c"
+    },
+    {
+      "path": "experiments/yolo/gdt502_supported_frontier_comparison_cards/artifacts/gdt502_5_frame_card_coverage.tsv",
+      "role": "frame-level card coverage",
+      "sha256": "f7c45ad6bfed1ee0b20d8bc3a0997d81eccbdb5ef4d3ef32ca16eacadf755ab8"
+    },
+    {
+      "path": "experiments/yolo/gdt502_supported_frontier_comparison_cards/artifacts/gdt502_result.json",
+      "role": "compact result",
+      "sha256": "2cf66e0207a9b6da61523411018e6d5e5c5940ebd04a4335d0f8272eaab496e9"
+    },
+    {
+      "path": "experiments/yolo/gdt502_supported_frontier_comparison_cards/artifacts/gdt502_validation.json",
+      "role": "297-check validation record",
+      "sha256": "9cf56ef5c85ba8dc3401e7696dc897fcd36181ca8378615a0b4677204c924a9c"
+    }
+  ],
+  "question": "Can each of the 46 structurally supported frontier cells be paired with one concrete exact old clause while four unsupported assumptions remain explicit?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "supported_frontier_comparison_cards",
+  "status": "FORTY_SIX_SUPPORTED_FRONTIER_CARDS_HAVE_CONCRETE_OLD_CLAUSES__FOUR_OPEN_EDGES_RETAINED",
+  "title": "Supported-frontier comparison cards",
+  "updated": "2026-08-27",
+  "validation": {
+    "artifact": "experiments/yolo/gdt502_supported_frontier_comparison_cards/artifacts/gdt502_validation.json",
+    "status": "PASS"
+  }
+}

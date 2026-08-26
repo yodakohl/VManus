@@ -12112,3 +12112,25 @@ unchanged, with zero root, surface or occurrence change. Validation passes
 800/800. Next make compact old-clause cards for the 46 supported cells and seek
 directed reverse-order/peer-action analogies only for the four, keeping all
 pages closed.
+
+## GDT502 supported-frontier comparison cards
+
+GDT502 turns every one of the 46 structurally supported GDT501 frontier cells
+into a direct reading card. Each card preserves the current GDT500 target
+phrase and places beside it one deterministically selected exact GDT416 clause,
+with support recipe, register relation, event IDs, pages, surfaces and target
+component delta. Pair-only cards retain all extra slots of their concrete old
+carrier rather than transferring them silently.
+
+The selected deck has sixteen local action-retaining N−1 cards, three other
+local action-partial cards, four ordered-pair cards in the target register,
+thirteen cross-register N−1 cards, seven ordered-pair cards in another register
+and three local frame-backbone cards. Its 112 carrier uses resolve to 75 unique
+old events across 22 pages; all 46 selected clause groups roundtrip exactly.
+
+The four `CH+CHD`/`CH+OK` source/pharma assumptions remain separate open cards
+with no fabricated comparison clause. All fifty target phrases and composed
+labels remain unchanged, with zero root, surface or occurrence changes.
+Validation passes 297/297. Next read the 46 cards as semantic component deltas
+and seek directed reverse-order or peer-action analogies only for the four open
+edges, keeping all pages closed.
