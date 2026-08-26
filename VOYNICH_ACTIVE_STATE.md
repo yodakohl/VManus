@@ -335,6 +335,17 @@ promoted. The current stream already contains 28 exact green separated triples
 in 27 recipes, spanning eighteen pair×focus patterns, sixteen red pairs and
 thirteen pages. Validation passes 32/32; no meaning, surface or page changes.
 
+GDT445 integrates exact-catalog precedence, the GDT441 factor gate, GDT443
+inherited-head close rescue, GDT444 visible-slot separation and GDT442 named
+stops into one executable certificate. All 4,576 current action/argument state
+transitions match, and all 1,468 fixed mechanism probes reproduce their source
+result. Of 4,566 formerly absent one-edit candidates, 295 are already learned
+exact keys, 3,852 take a green factor route, 161 take an amber route and 258
+stop. Five exact keys override a red free-factor diagnostic only as memorized
+whole entries; no factor is promoted. All stops preserve state. No new meaning,
+surface, occurrence, invisible separator or page is added. Validation passes
+42/42.
+
 Pass 1032/GDT404 applies the frozen GDT403 intake contract to a one-shot random
 draw of f1r, f24v, f81r and f95v. The 95 guarded lines add 688 events, 88
 statements and 677 focus attachments. Exactly 470 events retain an old surface

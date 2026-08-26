@@ -1,0 +1,14 @@
+decision_rank	primary_intake_route	observed_audit_row_count	instruction_de	may_mutate_state	may_invent_surface	may_predict_occurrence	may_revise_meaning
+1	EXACT_CATALOG	849	Bekannten exakten Kartenschluessel lesen; Faktoren bleiben sichtbar.	YES	NO	NO	NO
+2	KNOWN_FACTOR_COMPOSITION_GREEN	3649	Neue sichtbare Karte nur aus seitenuebergreifend belegten Faktoren lesen.	YES	NO	NO	NO
+3	KNOWN_FACTOR_COMPOSITION_AMBER	160	Neue sichtbare Karte mit genau ausgewiesener lokaler Altkante lesen.	YES	NO	NO	NO
+4	INHERITED_HEAD_CLOSE_GREEN	681	Sichtbare Schlusskarte mit dem bereits aktiven Handlungskopf lesen.	YES	NO	NO	NO
+5	INHERITED_HEAD_CLOSE_AMBER	73	Sichtbare Schlusskarte mit aktivem Kopf und ausgewiesener lokaler Altkante lesen.	YES	NO	NO	NO
+6	VISIBLE_SLOT_SEPARATED_CHAIN_GREEN	661	Sichtbarer Fokus trennt zwei Handlungen; das rote Direktpaar bleibt verboten.	YES	NO	NO	NO
+7	VISIBLE_SLOT_SEPARATED_CHAIN_AMBER	12	Sichtbarer Fokus trennt zwei Handlungen; eine lokale Altkante bleibt gelb.	YES	NO	NO	NO
+8	STOP_UNSEEN_ATOM	1	Mindestens ein sichtbarer Kern fehlt im Lehrdeck; Zustand nicht aendern.	NO	NO	NO	NO
+9	STOP_UNLICENSED_DIRECT_PAIR	254	Ein sichtbar direktes Handlungspaar fehlt im Paar-Deck; Zustand nicht aendern.	NO	NO	NO	NO
+10	STOP_UNLICENSED_FOCUS_EDGE	17	Eine Kopf-Fokus-Kante fehlt im Deck; Zustand nicht aendern.	NO	NO	NO	NO
+11	STOP_CLOSE_NEEDS_ACTIVE_HEAD	43	Schlusskarte besitzt weder sichtbaren noch geerbten Handlungskopf.	NO	NO	NO	NO
+12	STOP_MULTIPLE_UNLICENSED_FACTORS	6	Mehrere sichtbare Faktorregeln fehlen; Zustand nicht aendern.	NO	NO	NO	NO
+13	STOP_UNLICENSED_FACTOR	0	Mindestens eine sichtbare Faktorregel fehlt; Zustand nicht aendern.	NO	NO	NO	NO

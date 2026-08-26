@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT444.
+Updated: 2026-08-26, after GDT445.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -223,6 +223,19 @@ eleven. All thirteen stops are `EEE` after left `CHD` or `R`, again the two old
 Grade-III gaps. The direct pairs remain red. The current edition already has
 28 exact separated triples in 27 recipes, representing eighteen pair×focus
 patterns, sixteen of the red pairs and thirteen pages; all 28 are green.
+
+GDT445 folds GDT441–GDT444 into one executable intake certificate. Every
+visibly supplied, already segmented recipe now receives one primary route:
+exact catalog key, ordinary known-factor composition, inherited-head close,
+visible-slot-separated action chain, or a named stop. The complete current
+stream retains 4,576/4,576 action and argument transitions. All 1,468 fixed
+mechanism probes reproduce their source result. In the 4,566 formerly absent
+candidate recipes, the integrated precedence reads 295 already learned exact
+keys, 3,852 green factor routes and 161 amber factor routes; 258 stop. Five of
+the exact keys would stop as free factor compositions, which correctly
+preserves the distinction between a memorized whole entry and a productive
+rule. All stops preserve state. No direct pair is promoted and no invisible
+slot, surface, occurrence, page or meaning is invented.
 
 ## Fixed scope
 
@@ -794,6 +807,10 @@ comparison set.
 
 ## Primary artifacts
 
+- Current GDT445 single-recipe certificate command, 4,576 current-event
+  certificates, 4,938 candidate certificates, 1,468 mechanism probes and
+  thirteen-route manual:
+  `gdt445_prospective_intake_certificate/`;
 - Current GDT444 484-cell focus-separated pair atlas, 44-pair and eleven-focus
   summaries, and all 28 current exact separated-chain occurrences:
   `gdt444_focus_separated_action_pair_atlas/`;
@@ -980,8 +997,9 @@ comparison set.
 
 ## Next work
 
-Keep the current 26 pages closed. Merge GDT441–GDT444 into one prospective
-intake certificate: exact key, factor composition, inherited-head rescue,
-visible-slot-separated chain, or named stop. Run fixed synthetic examples of
-every route and prove that all stops preserve state. Do not add a meaning,
-surface, page or inferred invisible separator.
+Keep the current 26 pages closed. Stress GDT445 with route-changing one-step
+transformations: delete a visible separator, remove an inherited head, mutate
+an exact whole entry by one atom, reverse an ordered pair, and insert an unseen
+atom. Each transformation must either retain its old licensed route for an
+explicit reason or move to the exact named stop while preserving state. Do not
+add a meaning, surface, page or inferred invisible separator.

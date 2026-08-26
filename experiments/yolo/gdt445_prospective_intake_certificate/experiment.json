@@ -1,0 +1,52 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "The two exhaustive certificate tables retain one row per current event and one row per fixed candidate recipe so state, route precedence, and named stop reasons remain independently auditable.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Operational routing of visibly supplied, already segmented recipes through the frozen exact catalog and GDT441-GDT444 factor rules. No segmentation, surface generation, occurrence prediction, invisible separator, direct-pair promotion, new meaning, plaintext, language, or new-page evidence.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt445_prospective_intake_certificate/src/run.py",
+    "validate": "python3 experiments/yolo/gdt445_prospective_intake_certificate/src/validate.py"
+  },
+  "created": "2026-08-26",
+  "dependencies": ["GDT434", "GDT441", "GDT442", "GDT443", "GDT444"],
+  "experiment_id": "GDT445",
+  "inputs": [
+    {"path": "experiments/yolo/gdt441_factor_gated_unseen_recipe_reader/src/factor_gate_stream_read.py", "role": "executable factor gate", "sha256": "b3704429ece4cbc8b6aeeded06231963a03158cb3078f13024e221eacee41981"},
+    {"path": "experiments/yolo/gdt441_factor_gated_unseen_recipe_reader/artifacts/gdt441_4576_factor_reader_replay.tsv", "role": "current stream replay", "sha256": "ade6ef986a0a10a5999a0876f577b44c1583d4d5594e319da39efdabb7221218"},
+    {"path": "experiments/yolo/gdt441_factor_gated_unseen_recipe_reader/artifacts/gdt441_4938_candidate_factor_gate.tsv", "role": "fixed candidate space", "sha256": "d541bfb329989adf1660639109567770f9d273b5eae9e46618e6c66cd97c04fe"},
+    {"path": "experiments/yolo/gdt442_forbidden_factor_stop_deck/artifacts/gdt442_47_stop_rule_deck.tsv", "role": "complete named stop deck", "sha256": "bfe68545312621d8bc9b6625a7183a53aea6839e154eac5d215b1c5c31bc76a9"},
+    {"path": "experiments/yolo/gdt442_forbidden_factor_stop_deck/artifacts/gdt442_47_stop_state_probes.tsv", "role": "state-safe stop probes", "sha256": "19daa1301fb0e95bdc1623b989ec70605a0700b2af1f9e170f4f668fe607d46c"},
+    {"path": "experiments/yolo/gdt443_close_context_rescue_atlas/artifacts/gdt443_936_close_context_rescue_matrix.tsv", "role": "inherited-head close contexts", "sha256": "151a1c040951d090e25641fa6e95d2914d2bbdfb3b366b2189a749e1ffdf69f3"},
+    {"path": "experiments/yolo/gdt444_focus_separated_action_pair_atlas/artifacts/gdt444_484_focus_separated_pair_matrix.tsv", "role": "visible focus-separated chains", "sha256": "fe0a1817e3d8b66dbe518aa09c797a6193208a53d4b4be9b5ab24da5c9288dba"}
+  ],
+  "outputs": [
+    {"path": "experiments/yolo/gdt445_prospective_intake_certificate/README.md", "role": "entry point", "sha256": "5fe06a363aab79a6654fb9c0d3bcd3530e7a38e8647629529137151c21a15003"},
+    {"path": "experiments/yolo/gdt445_prospective_intake_certificate/METHOD.md", "role": "integrated decision method", "sha256": "b18919c7dcaa75928f877ceb771fc67138e2546f1aec1041349923dbb277ce53"},
+    {"path": "experiments/yolo/gdt445_prospective_intake_certificate/REPORT.md", "role": "primary report", "sha256": "060e28512c392cbe26207c4850a83c0a16ac1eee657c8b5545d24b2591fc9ceb"},
+    {"path": "experiments/yolo/gdt445_prospective_intake_certificate/src/intake_certificate.py", "role": "single-recipe certificate command", "sha256": "19162a1552314d3c993f9a41bc92ec9543034ffbd44672c6d6386f2fa8027243"},
+    {"path": "experiments/yolo/gdt445_prospective_intake_certificate/src/run.py", "role": "deterministic builder", "sha256": "6a88fbd0339cbbb5f35c81992f2a3b3e7d442fd9289179a4dc6d99936d1f411b"},
+    {"path": "experiments/yolo/gdt445_prospective_intake_certificate/src/validate.py", "role": "validator", "sha256": "0fb1afd564f4ef426de298430185447acae29e551e2a94cf0e2b594a20fb24c8"},
+    {"path": "experiments/yolo/gdt445_prospective_intake_certificate/artifacts/README.md", "role": "artifact guide", "sha256": "4ce92ba333168fb364edd75b99bdc890e2c650d4fb039521eb53ac6d06672a43"},
+    {"path": "experiments/yolo/gdt445_prospective_intake_certificate/artifacts/gdt445_4576_current_intake_certificates.tsv", "role": "current event certificates", "sha256": "b3460d18788331e570ad6401c09c4edba7e5606b9b60191f281ce0b849577408"},
+    {"path": "experiments/yolo/gdt445_prospective_intake_certificate/artifacts/gdt445_4938_candidate_intake_certificates.tsv", "role": "candidate-space certificates", "sha256": "8a6a77ad7ee3d27dd3dde54ca662900f9e2342905a02683af98365efd60af153"},
+    {"path": "experiments/yolo/gdt445_prospective_intake_certificate/artifacts/gdt445_1468_mechanism_probe_certificates.tsv", "role": "integrated mechanism probes", "sha256": "fd80d3a78f07a839bdc7ed575ab636819f5a4a468840e7c1a6e91fe863a81eec"},
+    {"path": "experiments/yolo/gdt445_prospective_intake_certificate/artifacts/gdt445_13_route_intake_manual.tsv", "role": "route manual", "sha256": "f238556407f299465e2d607d3a8a6555b714ef37d9e218a48cd02af8004fd3eb"},
+    {"path": "experiments/yolo/gdt445_prospective_intake_certificate/artifacts/gdt445_result.json", "role": "compact result", "sha256": "acf25a38eacad174cf0a5254f393fd0e44492c3cbc76ba3b899eb5ad7b48bd34"},
+    {"path": "experiments/yolo/gdt445_prospective_intake_certificate/artifacts/gdt445_validation.json", "role": "validation report", "sha256": "802b4f7c1dc599af49599633d4920ee2a329e3a914d324221ff8adac7a3e5672"}
+  ],
+  "question": "Can one executable certificate integrate exact-catalog, known-factor, inherited-head close, visible-slot separation, and named state-safe stop routes for every visibly supplied recipe?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "prospective_intake_certificate",
+  "status": "ONE_EXECUTABLE_CERTIFICATE_INTEGRATES_EXACT_FACTOR_CONTEXT_SLOT_AND_STOP_ROUTES",
+  "title": "prospective intake certificate",
+  "updated": "2026-08-26",
+  "validation": {
+    "artifact": "experiments/yolo/gdt445_prospective_intake_certificate/artifacts/gdt445_validation.json",
+    "status": "PASS"
+  }
+}
