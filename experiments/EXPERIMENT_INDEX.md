@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **448**
-- Experiment-associated tracked files: **6,439** (737.0 MiB)
-- Structured GDT337+ experiments: **113**
+- Experiments indexed: **449**
+- Experiment-associated tracked files: **6,458** (743.3 MiB)
+- Structured GDT337+ experiments: **114**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT450 | GDT450_target_robustness_page_holdout | `PAGE_HOLDOUT_REJECTS_ROBUSTNESS_SHORTCUT_AS_EXECUTION_OVERRIDE` | [report](../experiments/yolo/gdt450_target_robustness_page_holdout/REPORT.md) | 19 | 6.4 MiB | 3 | STRUCTURED_YOLO |
 | GDT449 | GDT449_context_robust_neighbor_deck | `CONTEXT_ROBUSTNESS_DECK_SEPARATES_STABLE_AND_CONTEXT_DEPENDENT_NEIGHBORS` | [report](../experiments/yolo/gdt449_context_robust_neighbor_deck/REPORT.md) | 15 | 9.3 MiB | 2 | STRUCTURED_YOLO |
 | GDT448 | GDT448_context_conditioned_neighbor_replay | `ACTUAL_CONTEXT_REPLAYS_CATALOG_NEIGHBORS_WITHOUT_IDENTITY_DRIFT` | [report](../experiments/yolo/gdt448_context_conditioned_neighbor_replay/REPORT.md) | 25 | 18.7 MiB | 3 | STRUCTURED_YOLO |
 | GDT447 | GDT447_catalog_near_neighbor_identity_atlas | `EXACT_IDENTITY_NEVER_LEAKS_TO_THIRTY_THOUSAND_SEVEN_HUNDRED_SIXTY_THREE_NEAR_NEIGHBORS` | [report](../experiments/yolo/gdt447_catalog_near_neighbor_identity_atlas/REPORT.md) | 15 | 8.4 MiB | 3 | STRUCTURED_YOLO |

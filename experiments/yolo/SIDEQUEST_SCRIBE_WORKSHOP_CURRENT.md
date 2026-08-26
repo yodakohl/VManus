@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT449.
+Updated: 2026-08-26, after GDT450.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -274,6 +274,14 @@ mixed. Combining all sources that reach the same target gives 18,381 targets:
 mixed. The ten warnings are only missing inherited heads or the old
 `CHD<-EEE`/`R<-EEE` gaps. A classmate substitution is not automatically safe;
 the real context certificate remains mandatory.
+
+GDT450 holds out every stored physical-page key before learning that target
+shortcut. In 35,577 Ziel×Seite-Folds it finds 20,052 correct readable calls,
+2,400 correct stops, 53 mixed abstentions, 13,062 targets without training,
+two harmless false stops and eight dangerous false frees. The eight are all
+new operational contexts: five `CHD<-EEE` and three Schluss-ohne-Kopf. Hence
+the shortcut can rank or warn, but never execute; the visible live context
+always wins.
 
 ## Fixed scope
 
@@ -845,6 +853,9 @@ comparison set.
 
 ## Primary artifacts
 
+- Current GDT450 35,577-fold page-holdout audit, eight critical false-safe
+  cases and 24-page summary:
+  `gdt450_target_robustness_page_holdout/`;
 - Current GDT449 25,576-edge and 18,381-target context-robustness decks, 641
   mutation-operator summaries and 98-cell failure deck:
   `gdt449_context_robust_neighbor_deck/`;
@@ -1050,9 +1061,9 @@ comparison set.
 
 ## Next work
 
-Keep the current 26 pages closed. Leave each physical page out of the GDT449
-target-context deck, learn the shortcut from the other pages and replay the
-held page. Count false-safe cases separately from harmless false stops and
-abstentions. The shortcut may become a prefilter only if it never overrides
-the live context certificate. Do not generate a surface, occurrence or new
-meaning.
+Keep the current 26 pages closed. Publish one integrated intake command that
+shows exact identity, the GDT449 advisory history and the GDT446 live-context
+decision in separate fields. Implement precedence so neither catalog identity
+nor robustness history can technically turn a live stop into a read. Add the
+eight GDT450 cases as fixed regression probes. Do not generate a surface,
+occurrence or new meaning.

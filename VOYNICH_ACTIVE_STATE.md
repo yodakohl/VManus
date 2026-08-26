@@ -390,6 +390,17 @@ so no mutation family becomes a blanket authorial rule. Validation passes
 Next test the target shortcut under leave-one-physical-page-out replay before
 using it as a new-page prefilter.
 
+GDT450 tests that prefilter by leaving each of 24 stored physical-page keys out
+in turn. Its 35,577 target×page folds yield 20,052 correct readable calls,
+2,400 correct stops, 53 mixed-training abstentions, 13,062 targets without
+other-page training, two false stops and eight critical false-safe calls. All
+eight false-safe cases are unseen operational contexts: five `CHD<-EEE` and
+three close-without-head. The target robustness class is therefore a useful
+priority/warning channel but is rejected as an execution override; the live
+GDT446 context certificate always wins. Validation passes 24/24; no identity,
+meaning, surface, occurrence or page change. Next integrate the advisory prior
+and authoritative certificate in one command with irreversible precedence.
+
 Pass 1032/GDT404 applies the frozen GDT403 intake contract to a one-shot random
 draw of f1r, f24v, f81r and f95v. The 95 guarded lines add 688 events, 88
 statements and 677 focus attachments. Exactly 470 events retain an old surface
