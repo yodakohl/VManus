@@ -1,0 +1,130 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Creative four-page intake workflow only; no new page, word, morpheme, language, plaintext, translation, or historical code is admitted by this blank template.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt403_four_page_factorized_admission_worksheet/src/run.py",
+    "validate": "python3 experiments/yolo/gdt403_four_page_factorized_admission_worksheet/src/validate.py"
+  },
+  "created": "2026-08-26",
+  "dependencies": [
+    "GDT401",
+    "GDT402"
+  ],
+  "experiment_id": "GDT403",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt402_factorized_scope_selector_head_license/artifacts/gdt402_axis_inventory.tsv",
+      "role": "complete allowed factor-axis inventory",
+      "sha256": "3cac5e10955eee6a026086107a8ebc2b89e040e174e13ff90580ef9aed40aa1c"
+    },
+    {
+      "path": "experiments/yolo/gdt402_factorized_scope_selector_head_license/artifacts/gdt402_result.json",
+      "role": "complete factorized parser result",
+      "sha256": "bb20453dadf58861374a1613706dac975d9f2e1b50f9adf5a934815bd07f783f"
+    },
+    {
+      "path": "experiments/yolo/gdt402_factorized_scope_selector_head_license/DETERMINISTIC_NEXT_PAGE_PARSER.md",
+      "role": "operator-facing parser order and stop rules",
+      "sha256": "2d355e1fe48909c9b3cd796e9d532158bfa8f54bf4c46994f6b4c576396a31d3"
+    },
+    {
+      "path": "experiments/yolo/gdt401_amber_forward_r_composition_closure/artifacts/gdt401_error_deck_v2.tsv",
+      "role": "machine-readable future-page error deck",
+      "sha256": "0791202a08c87667215d3f0c24eaea97c391a0d92156fa1ba71056a24848474d"
+    },
+    {
+      "path": "experiments/yolo/gdt401_amber_forward_r_composition_closure/NEXT_FOUR_PAGE_ERROR_DECK_V2.md",
+      "role": "human-readable future-page error guide",
+      "sha256": "77cf649e6dcf2f1ba8aa819e7f529bc6749be4b9e00c4a161d4c00d2df7cec8a"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt403_four_page_factorized_admission_worksheet/README.md",
+      "role": "experiment entry point",
+      "sha256": "5efe3b3542603180e6cd37080c4ce230812df503bd7ad38c17c92049254b834b"
+    },
+    {
+      "path": "experiments/yolo/gdt403_four_page_factorized_admission_worksheet/METHOD.md",
+      "role": "intake method and hard contract",
+      "sha256": "4ea1e65e1c67d6e00d427dd7fe3f3d7b0e78393a434b1aedc51472d08fe38171"
+    },
+    {
+      "path": "experiments/yolo/gdt403_four_page_factorized_admission_worksheet/REPORT.md",
+      "role": "primary compact readiness report",
+      "sha256": "cf7698c2d402aa078273525690631fe99710181640a867860885a24ad830ca4d"
+    },
+    {
+      "path": "experiments/yolo/gdt403_four_page_factorized_admission_worksheet/FOUR_PAGE_ADMISSION_WORKSHEET.md",
+      "role": "operator-facing blank four-page worksheet",
+      "sha256": "78edf65231d025dd271993562eb67298fe7ef73b949546c23597c1654c62ec52"
+    },
+    {
+      "path": "experiments/yolo/gdt403_four_page_factorized_admission_worksheet/artifacts/README.md",
+      "role": "artifact guide",
+      "sha256": "4b77eb6dda2a0a85611326d5e32ea90abb0f57e9ba4c05e4c4bbeff85fb9e67e"
+    },
+    {
+      "path": "experiments/yolo/gdt403_four_page_factorized_admission_worksheet/src/run.py",
+      "role": "deterministic blank worksheet builder",
+      "sha256": "7b01837a3ead28d577fbe630c14915fba916f85770b203e5a1fdbce2b186d301"
+    },
+    {
+      "path": "experiments/yolo/gdt403_four_page_factorized_admission_worksheet/src/validate.py",
+      "role": "independent worksheet validator",
+      "sha256": "7cc51621ccce32a108d0cc638efbe6c4ebbadd1dfd04e6df816539de2044da76"
+    },
+    {
+      "path": "experiments/yolo/gdt403_four_page_factorized_admission_worksheet/artifacts/gdt403_parser_axis_catalog.tsv",
+      "role": "all thirty-one allowed parser factors",
+      "sha256": "951fc428f0d9c473a9fdb66bb7855c2d6c95fb1c59166a4c2d16efdefe3ae3f5"
+    },
+    {
+      "path": "experiments/yolo/gdt403_four_page_factorized_admission_worksheet/artifacts/gdt403_four_page_slots.tsv",
+      "role": "four unreleased page slots",
+      "sha256": "e2efbd6d665fcbd1824a84330abbdd95e3c856a2e4ccc503180f764763a0ecfa"
+    },
+    {
+      "path": "experiments/yolo/gdt403_four_page_factorized_admission_worksheet/artifacts/gdt403_event_admission_template.tsv",
+      "role": "empty thirty-three-column event intake schema",
+      "sha256": "2aef65aa34f0630986d33c5821d81c452f242aa0a0ac952614b83ab58fbfb8ef"
+    },
+    {
+      "path": "experiments/yolo/gdt403_four_page_factorized_admission_worksheet/artifacts/gdt403_decision_catalog.tsv",
+      "role": "green amber and red decision catalog",
+      "sha256": "fb578728f73b6bcc0b921e10877bc8e83725f0253e46e370fe6a340f37219cef"
+    },
+    {
+      "path": "experiments/yolo/gdt403_four_page_factorized_admission_worksheet/artifacts/gdt403_operator_checklist.tsv",
+      "role": "fourteen-step operator checklist",
+      "sha256": "816ac129592c1072e120e5d7bd1ee070a3674163502cf53ec902cbf27289454c"
+    },
+    {
+      "path": "experiments/yolo/gdt403_four_page_factorized_admission_worksheet/artifacts/gdt403_result.json",
+      "role": "compact readiness result and hash bindings",
+      "sha256": "e2cff9d4bf49c2fd1cf660e616a69802da0eba5309b67b12514bb46e88b0f831"
+    },
+    {
+      "path": "experiments/yolo/gdt403_four_page_factorized_admission_worksheet/artifacts/gdt403_validation.json",
+      "role": "thirty-six-check validation",
+      "sha256": "5db162468bd4174d607dbcff0cdaad319e9e8dfed25a281cbe30e3d9ee72cc47"
+    }
+  ],
+  "question": "Can the complete GDT402 factorized parser and GDT401 error deck be converted into a fixed, empty four-page intake sheet that permits visible compositional growth while stopping invisible atoms, boundary jumps, new coarse scope, and retuned core values?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "four_page_factorized_admission_worksheet",
+  "status": "FOUR_PAGE_WORKSHEET_READY__WAITING_FOR_USER_RELEASE",
+  "title": "four-page factorized admission worksheet",
+  "updated": "2026-08-26",
+  "validation": {
+    "artifact": "experiments/yolo/gdt403_four_page_factorized_admission_worksheet/artifacts/gdt403_validation.json",
+    "status": "PASS"
+  }
+}

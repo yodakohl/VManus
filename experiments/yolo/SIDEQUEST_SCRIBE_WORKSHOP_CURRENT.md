@@ -1,6 +1,6 @@
 # Current twenty-two-page scribe-workshop theory
 
-Updated: 2026-08-26, after Pass 1030 / GDT402.
+Updated: 2026-08-26, after Pass 1031 / GDT403.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. Pass 1026 audits
@@ -9,8 +9,10 @@ Pass 1027/GDT399 rebuilds the scope layer from those recipes; Pass 1028/GDT400
 turns it into a hierarchical future-page error deck; Pass 1029/GDT401 closes
 its four amber Scope rows as three ordinary forward-to-R card transitions;
 Pass 1030/GDT402 separates Scope-Selector, target-head license and local
-topology across all rows. The current basis is 627 statements, 4,374 resolved
-focus attachments, four local channels and 19 unchanged working core values.
+topology across all rows; Pass 1031/GDT403 turns that machine into the fixed
+blank four-page intake sheet. The current basis is 627 statements, 4,374
+resolved focus attachments, four local channels and 19 unchanged working core
+values.
 
 ## Fixed scope
 
@@ -410,6 +412,17 @@ GDT400 warnings are exact on the selector axis and direct on the R-head axis.
 The single nested-R example on f18r and two focus rows in the f13r double-
 EINHEIT package remain visible local topology examples, not extra grammar.
 
+Pass 1031/GDT403 turns the factorized parser into the actual admission sheet
+for the next batch. Four page slots are present but remain unreleased; the
+33-column event table is deliberately empty. Its catalog contains all eight
+selectors, six geometries, ten target heads, four R modes and three duplicate
+modes. Six green decisions permit visible old-core composition and local
+addresses, three amber decisions retain genuinely new microforms or local
+expansions without moving a core value, and ten red decisions stop the batch
+on recipe conflict, invisible atom, long lookahead, owner/statement jump, new
+selector/head/coarse scope or core retuning. No future-page content was used to
+construct the sheet.
+
 ## Constrained semantic pocket dictionary
 
 The twelve content/action cores are:
@@ -671,9 +684,8 @@ comparison set.
 
 ## Next work
 
-Compile one blank four-page admission worksheet from the factorized parser and
-the V2 error deck, including explicit fields for surface recipe, owner, selector,
-target head, R/duplicate topology and stop reason. Then hold it unchanged until
-the user releases the next four-page batch. New rooted surfaces and local
+Wait for the user to name and release the next four-page batch, then populate
+the unchanged GDT403 worksheet in physical order. New rooted surfaces and local
 addresses remain allowed; invisible atoms, unlicensed one-edit recipe copying,
-owner jumps and a ninth selector do not.
+owner jumps, lookahead beyond one card, a ninth selector, an eleventh head and
+retuned core values do not.

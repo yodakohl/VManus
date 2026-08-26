@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **401**
-- Experiment-associated tracked files: **5,739** (650.0 MiB)
-- Structured GDT337+ experiments: **66**
+- Experiments indexed: **402**
+- Experiment-associated tracked files: **5,754** (650.0 MiB)
+- Structured GDT337+ experiments: **67**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT403 | GDT403_four_page_factorized_admission_worksheet | `FOUR_PAGE_WORKSHEET_READY__WAITING_FOR_USER_RELEASE` | [report](../experiments/yolo/gdt403_four_page_factorized_admission_worksheet/REPORT.md) | 15 | 45.9 KiB | 2 | STRUCTURED_YOLO |
 | GDT402 | GDT402_factorized_scope_selector_head_license | `COMPLETE_FACTORIZED_SCOPE_PARSER__NO_FALSE_AMBER` | [report](../experiments/yolo/gdt402_factorized_scope_selector_head_license/REPORT.md) | 14 | 1.3 MiB | 2 | STRUCTURED_YOLO |
 | GDT401 | GDT401_amber_forward_r_composition_closure | `AMBER_SCOPE_CLOSED__ONE_SEMANTIC_CAUTION_RETAINED` | [report](../experiments/yolo/gdt401_amber_forward_r_composition_closure/REPORT.md) | 16 | 54.8 KiB | 2 | STRUCTURED_YOLO |
 | GDT400 | GDT400_future_page_scope_error_deck | `FUTURE_PAGE_ERROR_DECK_READY` | [report](../experiments/yolo/gdt400_future_page_scope_error_deck/REPORT.md) | 16 | 2.0 MiB | 1 | STRUCTURED_YOLO |

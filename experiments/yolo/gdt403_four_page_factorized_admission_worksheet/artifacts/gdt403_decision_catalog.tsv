@@ -1,0 +1,20 @@
+priority	color	code	trigger	decision	allowed_repair
+1	GREEN	EXACT_SURFACE_ONE_RECIPE	known surface with identical visible recipe	READ_WITH_EXISTING_RECIPE	NONE
+2	GREEN	KNOWN_RECIPE_NEW_SURFACE	new rendering licensed by a named package rule	READ_AS_LICENSED_RENDERING	NONE
+3	GREEN	NEW_VISIBLE_COMPOSITION	new surface composed only of visible fixed cores	COMPOSE_FROM_FIXED_CORE_VALUES	NONE
+4	GREEN	FACTORIZED_SCOPE_MATCH	one old selector plus one old geometry and licensed head	PARSE_FACTORS_IN_ORDER	NONE
+5	GREEN	OWNER_ELLIPSIS	no action head and visible owner is available	BIND_TO_OWNER	NONE
+6	GREEN	NEW_LOCAL_ADDRESS	new local name or address confined to its visible owner	KEEP_LOCAL_WITHOUT_PORTABLE_WORD	NONE
+7	AMBER	NEW_MICROFORM_OLD_FACTORS	new microform but all selector, geometry and head factors are old	KEEP_FACTORIZED_AND_RECORD_NEW_MICROFORM	VISIBLE_FACTORIZATION_ONLY
+8	AMBER	NEW_R_OR_DUPLICATE_SHAPE	new visible R or duplicate arrangement compatible with existing topology logic	RECORD_SHAPE_AND_CHECK_WITHOUT_NEW_MEANING	VISIBLE_TOPOLOGY_ONLY
+9	AMBER	SEMANTIC_EXPANSION_ONLY	structure parses but local concrete expansion is new	KEEP_CORE_READING_AND_MARK_LOCAL_EXPANSION	LOCAL_GLOSS_ONLY
+10	RED	SAME_SURFACE_DIFFERENT_RECIPE	known surface requires a second recipe	STOP_PAGE	VISIBLE_RESEGMENTATION_ONLY
+11	RED	INVISIBLE_ATOM_IMPORT	an atom is copied from an edit-neighbour but is not visible	STOP_PAGE	REMOVE_IMPORTED_ATOM
+12	RED	LOOKAHEAD_OVER_ONE_CARD	target head is more than one card ahead	STOP_BATCH	NONE
+13	RED	OWNER_BOUNDARY_CROSS	attachment crosses a visible owner boundary	STOP_BATCH	NONE
+14	RED	STATEMENT_BOUNDARY_CROSS	attachment crosses a real statement boundary	STOP_BATCH	NONE
+15	RED	UNKNOWN_SELECTOR	a ninth scope selector is required	STOP_BATCH	NONE
+16	RED	UNKNOWN_HEAD	an eleventh target-head class is required	STOP_BATCH	NONE
+17	RED	NEW_COARSE_SCOPE	case cannot be expressed by the factorized axes	STOP_BATCH	NONE
+18	RED	KNOWN_CORE_RETUNED	a known core needs a different portable value	STOP_BATCH_BEFORE_DICTIONARY_CHANGE	NONE
+19	RED	LABEL_OPENS_PROSE_WITHOUT_LAYOUT	an image label is treated as running prose without a layout signal	KEEP_AS_ADDRESS_AND_STOP_CLAIM	ADDRESS_ONLY
