@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT445.
+Updated: 2026-08-26, after GDT446.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -230,12 +230,23 @@ exact catalog key, ordinary known-factor composition, inherited-head close,
 visible-slot-separated action chain, or a named stop. The complete current
 stream retains 4,576/4,576 action and argument transitions. All 1,468 fixed
 mechanism probes reproduce their source result. In the 4,566 formerly absent
-candidate recipes, the integrated precedence reads 295 already learned exact
-keys, 3,852 green factor routes and 161 amber factor routes; 258 stop. Five of
-the exact keys would stop as free factor compositions, which correctly
-preserves the distinction between a memorized whole entry and a productive
-rule. All stops preserve state. No direct pair is promoted and no invisible
-slot, surface, occurrence, page or meaning is invented.
+candidate recipes, its first integrated precedence reads 295 catalog keys,
+3,852 green factor routes and 161 amber factor routes; 258 stop. Five catalog
+keys would stop as free factor compositions. Treating their identity as an
+execution override was the over-eager part corrected immediately by GDT446
+below. All explicit GDT445 stops preserve state; no direct pair, invisible
+slot, surface, occurrence, page or meaning was added.
+
+GDT446 corrects one over-eager precedence in that first integrated release.
+Exact catalog identity now answers only which entry was matched; the factor and
+left-context channel alone decides whether it may execute. The real stream is
+unchanged at 4,566 green, ten amber and zero stops with 4,576/4,576 state
+matches. In neutral context the split exposes 36 catalog keys that are
+identifiable but not executable: 35 need a head and narrow `S+P+AL` contains
+the red pair `S>P`. Deleting every accepted visible separator forces 471/471
+pair stops; removing every accepted inherited head forces 934/934 missing-head
+stops. All preserve state. The GDT445 audit receives 62 READ→AMBER and eleven
+READ→STOP corrections; none removes a real-context occurrence.
 
 ## Fixed scope
 
@@ -807,6 +818,10 @@ comparison set.
 
 ## Primary artifacts
 
+- Current GDT446 identity/execution split, corrected command, complete catalog,
+  current/candidate/probe editions, 1,405 route-changing transformations and
+  73-row GDT445 correction ledger:
+  `gdt446_identity_execution_intake_split/`;
 - Current GDT445 single-recipe certificate command, 4,576 current-event
   certificates, 4,938 candidate certificates, 1,468 mechanism probes and
   thirteen-route manual:
@@ -997,9 +1012,9 @@ comparison set.
 
 ## Next work
 
-Keep the current 26 pages closed. Stress GDT445 with route-changing one-step
-transformations: delete a visible separator, remove an inherited head, mutate
-an exact whole entry by one atom, reverse an ordered pair, and insert an unseen
-atom. Each transformation must either retain its old licensed route for an
-explicit reason or move to the exact named stop while preserving state. Do not
-add a meaning, surface, page or inferred invisible separator.
+Keep the current 26 pages closed. Generate bounded deletion, adjacent-swap and
+same-class one-atom neighbours for all 1,563 catalog keys. Exact identity must
+survive only when the transformed ordered recipe is itself a catalog key;
+otherwise only the independent factor/context channel may read it. Publish the
+full collision and stop map. Do not add a meaning, surface, page or inferred
+allograph.

@@ -346,6 +346,17 @@ whole entries; no factor is promoted. All stops preserve state. No new meaning,
 surface, occurrence, invisible separator or page is added. Validation passes
 42/42.
 
+GDT446 supersedes GDT445's execution precedence by separating exact identity
+from factor/context execution. All 4,576 real events still execute (4,566
+green, ten amber, zero stops) and retain state. In neutral context, however, 31
+observed exact close recipes and four narrow close predictions correctly stop
+for a missing head; narrow `S+P+AL` stops on `S>P`. Exact identity remains
+visible but may not override those stops. Deleting the focus from 471 accepted
+slot chains and removing the head from 934 accepted close contexts yields
+1,405/1,405 exact state-safe stops. GDT445's audit tables receive 62
+READ→AMBER and eleven READ→STOP corrections. Validation passes 42/42; no
+meaning, surface, occurrence or page changes.
+
 Pass 1032/GDT404 applies the frozen GDT403 intake contract to a one-shot random
 draw of f1r, f24v, f81r and f95v. The 95 guarded lines add 688 events, 88
 statements and 677 focus attachments. Exactly 470 events retain an old surface
