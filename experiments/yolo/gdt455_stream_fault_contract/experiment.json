@@ -1,0 +1,48 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Stateful execution, stop preservation, owner-bank isolation and bounded state recovery under a synthetic dense visible fault schedule. No meaning, identity, surface, occurrence, plaintext, language, generation or page claim is licensed.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt455_stream_fault_contract/src/run.py",
+    "validate": "python3 experiments/yolo/gdt455_stream_fault_contract/src/validate.py"
+  },
+  "created": "2026-08-26",
+  "dependencies": ["GDT441", "GDT451", "GDT454"],
+  "experiment_id": "GDT455",
+  "inputs": [
+    {"path": "experiments/yolo/gdt441_factor_gated_unseen_recipe_reader/artifacts/gdt441_4576_factor_reader_replay.tsv", "role": "ordered current stream and authoritative state transitions", "sha256": "ade6ef986a0a10a5999a0876f577b44c1583d4d5594e319da39efdabb7221218"},
+    {"path": "experiments/yolo/gdt454_two_card_neighbor_burst_stress/artifacts/gdt454_selected_neighbor_variants.tsv", "role": "fixed one-edit neighbour pool", "sha256": "b842bd917e0a98104d090dd0d5d6678193588f02bc5a91213faf76808cf461e9"},
+    {"path": "experiments/yolo/gdt451_integrated_context_safe_intake/src/intake_command.py", "role": "authoritative live-context intake", "sha256": "15b5a07323fe339b6701979bf78fb486d0bffa798e6cae5cd9eac3a72acf0adb"}
+  ],
+  "outputs": [
+    {"path": "experiments/yolo/gdt455_stream_fault_contract/README.md", "role": "entry point", "sha256": "ebcef5776dcaa3a0ee75d2e8ef142dbeb77f18080c191dec3ed629b99a1219c6"},
+    {"path": "experiments/yolo/gdt455_stream_fault_contract/METHOD.md", "role": "fault schedule and contract", "sha256": "17cb60de16cc7fd1ce232559b1a9ed7f2b56bcbe0d18a59291311a6647088b8c"},
+    {"path": "experiments/yolo/gdt455_stream_fault_contract/REPORT.md", "role": "primary report", "sha256": "7fb6576a07bf8efa009d90de629d0ed79374b3a7ea10708dafec9b2807ea9174"},
+    {"path": "experiments/yolo/gdt455_stream_fault_contract/src/run.py", "role": "deterministic dense schedule builder", "sha256": "e87f823658266202373a73140848c812f6dd567b3a9fd1f8a84d1bfdce013488"},
+    {"path": "experiments/yolo/gdt455_stream_fault_contract/src/stream_fault_driver.py", "role": "reusable stateful stream driver", "sha256": "a34882cdb06274bcdaf032ceed0a60b86dc6547df1e9449b11b7f2032e844083"},
+    {"path": "experiments/yolo/gdt455_stream_fault_contract/src/validate.py", "role": "validator", "sha256": "f7800ee63fbb617d7ad17f31a72c6a6fcb830407c2dfa75085829507b46c0599"},
+    {"path": "experiments/yolo/gdt455_stream_fault_contract/artifacts/README.md", "role": "artifact guide", "sha256": "e95734c632d9c080cbfb2bb9e5aee337cf1a586a91530a420004e2f2dbc0db44"},
+    {"path": "experiments/yolo/gdt455_stream_fault_contract/artifacts/gdt455_dense_fault_schedule.tsv", "role": "1026-card visible fault schedule", "sha256": "822b5f7c8f3b8aa33afa5dbf3dc96e406cf49554539048e8db02e2e50c67a499"},
+    {"path": "experiments/yolo/gdt455_stream_fault_contract/artifacts/gdt455_dense_stream_replay.tsv", "role": "complete 4576-event dense replay", "sha256": "477a44b0b4fbf9042cd667a8b4e805a6ebeda53ff476c53e496b678895aab47a"},
+    {"path": "experiments/yolo/gdt455_stream_fault_contract/artifacts/gdt455_owner_bank_isolation.tsv", "role": "57 isolated-bank comparisons", "sha256": "23271c3c15264d2671b5f4ac0c9506f5174a930c5693bc620855f536bc826108"},
+    {"path": "experiments/yolo/gdt455_stream_fault_contract/artifacts/gdt455_burst_recovery.tsv", "role": "513 burst recovery traces", "sha256": "263ff9ace61ddbfa13cf6e37b840a1f9879cdcdf2bef6a615cc510418c29ed89"},
+    {"path": "experiments/yolo/gdt455_stream_fault_contract/artifacts/gdt455_result.json", "role": "compact result", "sha256": "e9d42569ded05cac4c9cd706b81f4b7ff5bbd0bc09f12ee64f1095b14cbbc499"},
+    {"path": "experiments/yolo/gdt455_stream_fault_contract/artifacts/gdt455_validation.json", "role": "validation report", "sha256": "c368fd09974f7df4abad04a2b9721461775648df65842b37c3c9b850c7ae7ac7"}
+  ],
+  "question": "Can one stateful reader survive one nonempty two-card neighbour burst in almost every multi-card statement of the same full stream without poisoning unchanged cards or leaking state across owner banks?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "stream_fault_contract",
+  "status": "DENSE_VISIBLE_STREAM_FAULT_CONTRACT_PRESERVES_STOPS_AND_OWNER_BANK_ISOLATION",
+  "title": "stream fault contract",
+  "updated": "2026-08-26",
+  "validation": {
+    "artifact": "experiments/yolo/gdt455_stream_fault_contract/artifacts/gdt455_validation.json",
+    "status": "PASS"
+  }
+}

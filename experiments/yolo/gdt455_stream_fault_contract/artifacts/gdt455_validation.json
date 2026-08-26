@@ -1,0 +1,202 @@
+{
+  "status": "PASS",
+  "check_count": 39,
+  "failure_count": 0,
+  "checks": [
+    {
+      "name": "source_count",
+      "pass": true,
+      "detail": "observed=4576"
+    },
+    {
+      "name": "source_ordinals",
+      "pass": true,
+      "detail": "1..4576"
+    },
+    {
+      "name": "statement_count",
+      "pass": true,
+      "detail": "expected=715"
+    },
+    {
+      "name": "schedule_rows",
+      "pass": true,
+      "detail": "observed=1026"
+    },
+    {
+      "name": "schedule_bursts",
+      "pass": true,
+      "detail": "expected=513"
+    },
+    {
+      "name": "replay_count",
+      "pass": true,
+      "detail": "observed=4576"
+    },
+    {
+      "name": "recovery_count",
+      "pass": true,
+      "detail": "observed=513"
+    },
+    {
+      "name": "bank_count",
+      "pass": true,
+      "detail": "observed=57"
+    },
+    {
+      "name": "nonempty_variant_coverage",
+      "pass": true,
+      "detail": "sources=1554; nine one-atom sources lack a visible neighbour"
+    },
+    {
+      "name": "schedule_event_unique",
+      "pass": true,
+      "detail": "no duplicate event replacement"
+    },
+    {
+      "name": "scheduled_variant_exact",
+      "pass": true,
+      "detail": "all replacements use fixed source-wise adversarial minimum"
+    },
+    {
+      "name": "one_burst_per_eligible_statement",
+      "pass": true,
+      "detail": "covered=513"
+    },
+    {
+      "name": "one_ineligible_multi_statement",
+      "pass": true,
+      "detail": "['G404-S004']"
+    },
+    {
+      "name": "no_single_statement_fault",
+      "pass": true,
+      "detail": "single=201"
+    },
+    {
+      "name": "adjacent_pair_contract",
+      "pass": true,
+      "detail": "two adjacent events inside each statement and owner"
+    },
+    {
+      "name": "max_stop_earliest_pair",
+      "pass": true,
+      "detail": "maximum neutral-stop score, earliest tie"
+    },
+    {
+      "name": "baseline_decisions",
+      "pass": true,
+      "detail": "4576 authoritative decisions"
+    },
+    {
+      "name": "baseline_states",
+      "pass": true,
+      "detail": "4576 incoming/outgoing state transitions"
+    },
+    {
+      "name": "replay_event_order",
+      "pass": true,
+      "detail": "exact source order"
+    },
+    {
+      "name": "replacement_binding",
+      "pass": true,
+      "detail": "scheduled and untouched recipes exact"
+    },
+    {
+      "name": "replacement_flags",
+      "pass": true,
+      "detail": "expected=1026"
+    },
+    {
+      "name": "no_empty_visible_recipe",
+      "pass": true,
+      "detail": "all replacements remain visible nonempty recipes"
+    },
+    {
+      "name": "visible_one_card_lookahead",
+      "pass": true,
+      "detail": "never crosses statement/page/owner"
+    },
+    {
+      "name": "dense_decision_counts",
+      "pass": true,
+      "detail": "Counter({'READ': 4234, 'STOP': 322, 'READ_AMBER': 20})"
+    },
+    {
+      "name": "all_stops_state_safe",
+      "pass": true,
+      "detail": "stops=322"
+    },
+    {
+      "name": "no_other_bank_writes",
+      "pass": true,
+      "detail": "all rows"
+    },
+    {
+      "name": "owner_bank_isolation",
+      "pass": true,
+      "detail": "57/57 isolated bank replays exact"
+    },
+    {
+      "name": "owner_bank_event_sum",
+      "pass": true,
+      "detail": "expected=4576"
+    },
+    {
+      "name": "burst_classes",
+      "pass": true,
+      "detail": "Counter({'FIRST_READABLE__SECOND_READABLE': 246, 'FIRST_READABLE__SECOND_STOP': 126, 'FIRST_STOP__SECOND_READABLE': 86, 'FIRST_STOP__SECOND_STOP': 55})"
+    },
+    {
+      "name": "recovery_classes",
+      "pass": true,
+      "detail": "Counter({'STATE_PARITY_BEFORE_NEXT_FAULT': 383, 'NEXT_FAULT_BEFORE_PARITY': 123, 'BANK_END_RESET_ISOLATES_DIVERGENCE': 7})"
+    },
+    {
+      "name": "bank_end_isolation",
+      "pass": true,
+      "detail": "all seven end at an independent bank or stream end"
+    },
+    {
+      "name": "burst_stop_flags",
+      "pass": true,
+      "detail": "all burst-position stops safe"
+    },
+    {
+      "name": "identity_no_override",
+      "pass": true,
+      "detail": "4576/4576"
+    },
+    {
+      "name": "advisory_no_override",
+      "pass": true,
+      "detail": "4576/4576"
+    },
+    {
+      "name": "no_sealed_pages",
+      "pass": true,
+      "detail": "fixed current pages only"
+    },
+    {
+      "name": "claim_ceiling_zeros",
+      "pass": true,
+      "detail": "all forbidden promotions zero"
+    },
+    {
+      "name": "result_counts",
+      "pass": true,
+      "detail": "compact result matches ledgers"
+    },
+    {
+      "name": "deterministic_rebuild",
+      "pass": true,
+      "detail": "all five generated artifacts byte-identical"
+    },
+    {
+      "name": "artifact_size_limit",
+      "pass": true,
+      "detail": "all generated files <=5MB"
+    }
+  ]
+}

@@ -445,6 +445,18 @@ statement's `CH+E`. Validation passes 32/32; no identity, meaning, surface,
 occurrence or page change. Next consolidate GDT451--GDT454 into one executable
 stream fault contract rather than extending burst length combinatorially.
 
+GDT455 supplies that executable contract. It excludes `EMPTY_RECIPE`, chooses
+one nonempty adversarial neighbour per source, and injects one adjacent pair in
+513/514 multi-card statements. The resulting single 4,576-event stream changes
+1,026 cards (22.42%): 4,234 read green, 20 amber and 322 stop. All 322 stops are
+mutated cards and preserve action, argument and statement scope; all 3,550
+untouched cards continue to read. Each of the 57 owner banks replayed alone is
+event-exact with the global run. Of 513 bursts, 383 regain baseline state in at
+most six untouched cards, 123 meet the next planned fault first and seven end
+at an isolated owner boundary. Validation passes 39/39; no identity, meaning,
+surface, occurrence or page change. Next replay an outcome-blind ensemble of
+visible schedules to remove dependence on this stop-prioritized selection.
+
 Pass 1032/GDT404 applies the frozen GDT403 intake contract to a one-shot random
 draw of f1r, f24v, f81r and f95v. The 95 guarded lines add 688 events, 88
 statements and 677 focus attachments. Exactly 470 events retain an old surface
