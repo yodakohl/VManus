@@ -12295,3 +12295,27 @@ are zero target observations, phrase/root changes or surface/occurrence
 predictions. Validation passes 285/285. Next inspect only local multi-card
 analogues for the four cross-register frame cards: celestial `P+CH+E+Y` and
 `S+CHD+Y` in Celestial, Pharma and Source; keep all pages closed.
+
+## GDT510 four cross-frame local factor bridges
+
+GDT510 finds target-register material for all four GDT509 cards that previously
+had only a complete frame carrier elsewhere. Celestial `P+CH+E+Y` occurs as an
+exact contiguous suffix at positions 6–9 of `G407-E0966 =
+Y+T+O+E+O+P+CH+E+Y`; only the visible prefix is removed. The naked target
+recipe remains absent.
+
+For `S+CHD+Y`, Celestial has six local S-on-Y and four CHD-on-Y events, Pharma
+17 and two, and Source four and one. Their complete Cartesian rectangles have
+24, 34 and four pairs respectively. The selected witnesses lie on the same
+page in all three registers; Pharma and Source also share an owner, and Source
+shares a statement. All selected `S` events precede their `CHD` partner, all
+six replay as `CROSS_PAGE_ACTION_FACTORS_COMPLETE`, and all stream states match
+the reference. The directed pair itself still comes from Biological
+`G407-E1883`, so separate local heads are not promoted to an observed pair.
+
+All eleven GDT509 pair targets now have some target-register factor support.
+The four phrases, nineteen root values, `COMPOSED_WORKING` labels and all
+surface/occurrence claims remain unchanged; every bare target is still
+unobserved. Validation passes 189/189. Next adapt GDT507's proximity hierarchy
+only to the three `S+CHD+Y` registers and distinguish same-statement, same-owner
+and same-page linkage without opening a page or changing a meaning.

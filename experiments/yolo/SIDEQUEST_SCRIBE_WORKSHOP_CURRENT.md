@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-27, after GDT509.
+Updated: 2026-08-27, after GDT510.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -1446,7 +1446,18 @@ target-register support; the remaining four are celestial `P+CH+E+Y` and
 `S+CHD+Y` in Celestial, Pharma and Source. All five handgrips and all eleven
 working translations remain fixed.
 
-Next search only for local same-argument multi-card sequences corresponding to
-those four cross-register frames. Do not reopen the other seven cards, change
-a meaning, or open a new page. Every bare target recipe remains an unobserved
-composition.
+GDT510 finds target-register factors for those four. Celestial `P+CH+E+Y` is
+the exact contiguous suffix of `G407-E0966 = Y+T+O+E+O+P+CH+E+Y`. The three
+`S+CHD+Y` target registers contain 27 local S-on-Y and seven CHD-on-Y events,
+forming 62 possible rectangles. The selected Celestial, Pharma and Source
+pairs lie on the same page; Pharma and Source also share an owner, and Source
+shares one statement. Their directed `S>CHD` pair order nevertheless remains
+anchored by Biological `G407-E1883`, because two separate local heads are not
+the naked target recipe.
+
+All eleven pair cards now have some target-register factor support, while all
+eleven working translations, all root values and every `COMPOSED_WORKING`
+label remain fixed. Next apply the already understood same-statement/owner/page
+proximity hierarchy only to the three `S+CHD+Y` registers. Do not collect more
+unranked rectangles, reopen another card, change a meaning, or open a new page.
+Every bare target recipe remains an unobserved composition.
