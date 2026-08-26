@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **429**
-- Experiment-associated tracked files: **6,155** (675.8 MiB)
-- Structured GDT337+ experiments: **94**
+- Experiments indexed: **430**
+- Experiment-associated tracked files: **6,168** (675.9 MiB)
+- Structured GDT337+ experiments: **95**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT431 | GDT431_strong_prediction_reading_phrasebook | `FORTY_SEVEN_STRONG_PREDICTIONS_HAVE_FIXED_READABLE_PHRASES` | [report](../experiments/yolo/gdt431_strong_prediction_reading_phrasebook/REPORT.md) | 13 | 152.8 KiB | 4 | STRUCTURED_YOLO |
 | GDT430 | GDT430_nineteen_core_paradigm_prediction_deck | `FOUR_HIGH_AND_FORTY_THREE_STRONG_COMPONENT_PREDICTIONS_FIXED` | [report](../experiments/yolo/gdt430_nineteen_core_paradigm_prediction_deck/REPORT.md) | 15 | 952.6 KiB | 5 | STRUCTURED_YOLO |
 | GDT429 | GDT429_nonaction_core_semantic_contrasts | `TEN_NONACTION_MEANINGS_RETAINED_WITH_DIRECT_CONTRAST_RULES` | [report](../experiments/yolo/gdt429_nonaction_core_semantic_contrasts/REPORT.md) | 13 | 93.5 KiB | 4 | STRUCTURED_YOLO |
 | GDT428 | GDT428_within_class_action_semantic_contrasts | `NINE_ACTION_MEANINGS_RETAINED_WITH_DIRECT_CONTRAST_RULES` | [report](../experiments/yolo/gdt428_within_class_action_semantic_contrasts/REPORT.md) | 13 | 59.6 KiB | 4 | STRUCTURED_YOLO |

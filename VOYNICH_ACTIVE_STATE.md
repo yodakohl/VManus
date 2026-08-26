@@ -194,6 +194,16 @@ Leave-one-page replay reaches 149/861 private recipes at all, 55 with multiple
 neighbours and 16 at strong-or-high level, so the deck is intentionally local
 to dense paradigm gaps.
 
+GDT431 supplies the missing readable layer for the top 47 GDT430 predictions.
+The unchanged component traces are rendered as 47 short workshop phrases and
+235 owner-register expansions, each bound to all three or four observed
+one-root sources in a 145-row exemplar table. Those rows reference 118 distinct
+observed recipes and 809 source occurrences, with reuse explicitly counted.
+The phrases retain order: `AIR+Y` and `Y+AIR` no longer collapse, and the final
+deck has zero generic or within-register phrase collisions. The builder adds no
+root value, page or surface prediction. Treat these as prospective readings of
+future visibly matching component recipes, not as confirmed words.
+
 Pass 1032/GDT404 applies the frozen GDT403 intake contract to a one-shot random
 draw of f1r, f24v, f81r and f95v. The 95 guarded lines add 688 events, 88
 statements and 677 focus attachments. Exactly 470 events retain an old surface

@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT430.
+Updated: 2026-08-26, after GDT431.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -88,6 +88,16 @@ high priority. The four strongest absent recipes are `AL+AIN` = ZIELORT ·
 ANTEIL, `AR+OR` = AUSGANG · EINHEIT, `CH+AR` = NEHMEN · AUSGANG and `SH+AIN`
 = HALTEN · ANTEIL. Forty-three more three-neighbour recipes are frozen as
 strong. This predicts component readings only, never a surface spelling.
+
+GDT431 converts those 47 strongest recipes into a pocket phrasebook rather
+than leaving them as dot-separated atoms. Every card has one short portable
+Werkstattphrase, five owner-local readings and all three or four observed
+one-root neighbours. The deck therefore includes 47 portable cards, 235
+register readings and 145 neighbour exemplars tied to 118 observed source
+recipes. Phrase order remains reversible: `AIR+Y` is “Entlang der Bahn:
+Posten”, while `Y+AIR` is “Posten entlang der Bahn”. No two generic cards and
+no two cards within a register collapse to the same phrase. No surface form or
+new component meaning is invented.
 
 ## Fixed scope
 
@@ -817,11 +827,11 @@ comparison set.
 
 ## Next work
 
-Before opening another page, run a leave-one-page apprentice replay of the new
-GDT420–GDT422 head, pair and long-chain cards: every page must be read using
-licenses learned from the other 25. Then use the GDT414 error deck and
-GDT418/GDT420/GDT421 cards on the next user-released four-page group. Exact old forms must replay without editing;
-genuinely new surfaces may use only visible old factors. Invisible atoms,
-unlicensed one-edit recipe copying, owner jumps, lookahead beyond one card, a
-ninth selector, an eleventh head and silent retuning of a core remain hard
-failures.
+Keep the current 26 pages closed and pressure-test the GDT431 phrasebook before
+another page is admitted. The next useful check is not another meaning search:
+it is a reversible neighbour-contrast audit asking whether each of the 47
+phrases changes exactly the intended noun, verb or relation when compared with
+its 145 source neighbours. After that, the deck can be used unchanged on the
+next user-released four-page group. Exact old forms must replay without editing;
+new surfaces may use only visible old factors. Invisible atoms, owner jumps,
+lookahead beyond one card and silent retuning of a core remain hard failures.
