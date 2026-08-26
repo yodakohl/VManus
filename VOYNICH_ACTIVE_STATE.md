@@ -11746,3 +11746,30 @@ No meaning, model, boundary, surface, recipe, Event or page changes;
 validation passes 92/92. Next seek only a second lightly relaxed local frame
 for each of EINSTELLEN and HALTEN inside the fixed 135 Records. The other
 fourteen singleton rules require no further broad search.
+
+## GDT488 action-endpoint single-relaxation closure
+
+GDT488 exhausts two one-condition relaxations around the remaining action
+endpoints. Register-only comparison keeps active model, readable frame,
+Eventform, component positions and every other component fixed; Eventprojection
+keeps register, model, separators and positions fixed while dropping only the
+larger Record context.
+
+Exactly one register-only endpoint pair appears: G475-R035/G475-R129 realizes
+`SETZEN · BAHN · {N1}` against `SETZEN · HALTEN · {N1}`. The twice recurrent
+GDT486 BAHN/ZIELORT edge therefore closes the old HALTEN/ZIELORT singleton by
+`HALTEN → BAHN → ZIELORT`. Five event-level endpoint pairs include two old
+GDT486 shadows and three new same-page contrasts: DANACH/HALTEN and two
+HALTEN/SETZEN frames. HALTEN now has BAHN, DANACH and SETZEN as additional
+visible neighbours.
+
+EINSTELLEN occurs in exactly two local Events, `CH+T` on f72r and `CH+T+Y` on
+f88v. Both retain explicit “einstellen” readings; the former matches GDT428's
+exact `CH+@ACTION` T/R frame and the latter carries GDT486's EINSTELLEN/HIER
+contrast. Neither single relaxation creates another local replacement edge.
+EINSTELLEN therefore remains capacity-limited, not reinterpreted.
+
+No meaning, model, boundary, surface, recipe, Event or page changes;
+validation passes 93/93. Next map the eleven GDT428 T/R frames into a typed
+EINSTELLEN composition neighbourhood and seek their unchanged partial frames
+inside the fixed 183 Events; do not widen replacement matching again.

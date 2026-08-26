@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT487.
+Updated: 2026-08-26, after GDT488.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -243,6 +243,17 @@ through GDT429's `DANACH ↔ FORTSETZEN` bridge, bringing the total to fourteen
 complete alternate cycles. `EINSTELLEN` and `HALTEN` are the only remaining
 local endpoints; both retain strong GDT428 action anchors, so no rule is
 unanchored and no wording or meaning needs invention.
+
+GDT488 applies exactly one relaxation to those two endpoints. The complete
+Recordrahmen `SETZEN · * · {Name}` recurs across celestial and pharmaceutical
+material as `BAHN ↔ HALTEN`; only Register/Besitzerart wechseln. Together with
+the twice recurrent `BAHN ↔ ZIELORT` edge this closes HALTEN by the alternate
+path `HALTEN → BAHN → ZIELORT`. Event projection adds same-page HALTEN
+contrasts against DANACH and twice against SETZEN. EINSTELLEN remains the sole
+capacity-limited replacement endpoint: its two local carriers `CH+T` and
+`CH+T+Y` both say “einstellen”, and `CH+T` meets GDT428's exact
+`CH+@ACTION` T/R frame, but neither relaxation creates a second local
+replacement edge.
 
 GDT428 now supplies the missing semantic contrast deck. Six within-class
 comparisons contain 104 exact frames where only the action root changes. The
@@ -1032,6 +1043,10 @@ comparison set.
 
 ## Primary artifacts
 
+- Current GDT488 single-relaxation endpoint deck, one closed HALTEN cycle,
+  three new same-page Eventkontraste and the two-carrier EINSTELLEN capacity
+  diagnosis:
+  `gdt488_action_endpoint_single_relaxation_closure/`;
 - Current GDT487 thirteen-value realization lexicon, 25/39 observed model
   cells, 29 observed forms, fourteen closed singleton cycles and two anchored
   action endpoints:
@@ -1261,9 +1276,10 @@ comparison set.
 
 ## Next work
 
-Keep the current 26 pages closed. Search the fixed 135 Records for one second,
-slightly relaxed local frame each for `EINSTELLEN` and `HALTEN`: relax exactly
-one framing condition at a time while retaining register, model, event shape
-and the visible action cue. All other fourteen singleton contrasts already
-have an alternate cycle. Preserve every GDT485 reading and every GDT487 `OPEN`
-cell; do not expand the search into a global reinterpretation.
+Keep the current 26 pages closed. Stop widening the replacement search:
+`HALTEN` is closed and `EINSTELLEN` has no second local replacement partner at
+this capacity. Instead invert the eleven exact GDT428 T/R frames into an
+EINSTELLEN composition neighbourhood. Track which stable neighbours—especially
+WERT, ANTEIL, ZIELORT, FORTSETZEN and POSTEN—already recur as unchanged
+partial frames in the fixed 183 Events. Keep composition edges visibly
+different from replacement edges and preserve both local T readings.
