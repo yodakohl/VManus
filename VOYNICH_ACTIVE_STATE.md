@@ -6,10 +6,10 @@ Updated: 2026-08-26. This is the full claim registry. For routine work, read
 
 ## Outcome
 
-### Noncanonical twenty-two-page sidequest (Pass 1031 / GDT403)
+### Noncanonical twenty-six-page sidequest (Pass 1032 / GDT404)
 
-The creative workshop sidequest covers twenty-two admitted physical pages with
-4,581 visible groups: 3,888 running prose/ring-text groups plus 693 local
+The creative workshop sidequest covers twenty-six admitted physical pages with
+5,269 visible groups: 4,576 running prose/ring-text groups plus 693 local
 image, station, vessel, celestial addresses/labels, and section markers. Its current
 mixed codebook retains 175 historical surface lines, but its semantic pocket
 dictionary now has 46 signs: 19 portable cores, eight controls and nineteen
@@ -33,6 +33,16 @@ practical sequence of pictured simple materials, vessel preparations, bath/appli
 stations, and separate celestial lookup tables: *Liber simplicium,
 compositionum, balneorum et temporum caelestium*. These readings remain
 speculative and license no scientific lexeme or plaintext claim.
+
+Pass 1032/GDT404 applies the frozen GDT403 intake contract to a one-shot random
+draw of f1r, f24v, f81r and f95v. The 95 guarded lines add 688 events, 88
+statements and 677 focus attachments. Exactly 470 events retain an old surface
+and recipe; 169 events use 162 clear new old-factor compositions; 49 singleton
+microforms remain amber. All attachments stay inside the eight selectors, six
+geometries, ten heads, four R modes and three duplicate modes with one-card
+maximum lookahead and zero owner/statement crossings. Removing the two amber
+closes changes two bindings but introduces no new factor. The pages are now in
+the creative basis; no portable value was changed.
 
 Pass 997 corrects the exact two-card grid, and Pass 1000 then finds that 18 of
 its 25 empty cells already occur inside longer cards: twelve directly and six

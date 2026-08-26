@@ -1,6 +1,6 @@
-# Current twenty-two-page scribe-workshop theory
+# Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after Pass 1031 / GDT403.
+Updated: 2026-08-26, after Pass 1032 / GDT404.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. Pass 1026 audits
@@ -10,24 +10,26 @@ turns it into a hierarchical future-page error deck; Pass 1029/GDT401 closes
 its four amber Scope rows as three ordinary forward-to-R card transitions;
 Pass 1030/GDT402 separates Scope-Selector, target-head license and local
 topology across all rows; Pass 1031/GDT403 turns that machine into the fixed
-blank four-page intake sheet. The current basis is 627 statements, 4,374
+blank four-page intake sheet; Pass 1032/GDT404 applies it to one genuine random
+draw of f1r, f24v, f81r and f95v. The current basis is 715 statements, 5,051
 resolved focus attachments, four local channels and 19 unchanged working core
 values.
 
 ## Fixed scope
 
-Twenty-two physical pages are in scope:
+Twenty-six physical pages are in scope:
 
-- Herbal: `f10r`, `f11r`, `f13r`, `f17r`, `f18r`, `f55v`, `f56r`;
-- Biological: `f75r`, `f76r`, `f77r`, `f81v`, `f82r`, `f83r`;
+- source-section T: `f1r`;
+- Herbal: `f10r`, `f11r`, `f13r`, `f17r`, `f18r`, `f24v`, `f55v`, `f56r`, `f95v`;
+- Biological: `f75r`, `f76r`, `f77r`, `f81r`, `f81v`, `f82r`, `f83r`;
 - celestial: `f67r2`, `f68r1`, `f69v`, `f70v1`, `f70v2`, `f71v`, and the three panels `f72r1`–`f72r3`;
 - Pharma: `f88r`, `f88v`, and the two panels `f89r1`–`f89r2`.
 
-Together they contain 4,581 visible groups. Of these, 3,888 belong to running
+Together they contain 5,269 visible groups. Of these, 4,576 belong to running
 prose or ring text and 693 are image labels, station addresses, vessel labels,
 celestial ring positions, or section markers. The running layer is now one
-physically ordered edition of 627 statements. Its endings comprise 566
-licensed closes, 51 visible boundaries, and ten open ends; 199 statements
+physically ordered edition of 715 statements. Its endings comprise 644
+licensed closes, 51 visible boundaries, and twenty open ends; 236 statements
 cross physical lines. A line is therefore never treated as a sentence by
 default.
 `f84` and `f84r` remain sealed.
@@ -423,6 +425,25 @@ on recipe conflict, invisible atom, long lookahead, owner/statement jump, new
 selector/head/coarse scope or core retuning. No future-page content was used to
 construct the sheet.
 
+Pass 1032/GDT404 uses that sheet on a one-shot random draw from 178 allowed
+physical pages outside the existing twenty-two. Seed
+`2c3b94fccfaa6aa88e557bbd03730d9a` yields f1r, f24v, f81r and f95v with no
+resampling. Their 95 guarded source lines contain 688 running cards and 426
+surfaces. Of these, 470 events/215 surfaces transfer by exact old identity. The
+remaining 218 events contain 211 new surfaces: 162 surfaces/169 events are
+clear new combinations of the old factors, while 49 singleton microforms keep
+an amber internal boundary. No 47th sign or new working value is introduced.
+
+The pages add 88 statements and 677 focus attachments. The replay uses exactly
+the existing eight selectors, six geometries, ten heads, four R positions and
+three duplication modes; maximum lookahead is one card and no owner or
+statement boundary is crossed. Seventy surfaces recur between random pages
+with one recipe, including four new compositions (`shod`, `soiin`, `shos`,
+`olkaiin`). Two amber forms supply provisional closes. Removing both reduces
+the edition to 86 statements and changes only two K-head bindings; the full
+factorized replay still passes. The four pages therefore enter the creative
+basis, but their 49 microform boundaries stay visibly provisional.
+
 ## Constrained semantic pocket dictionary
 
 The twelve content/action cores are:
@@ -474,15 +495,17 @@ surface as `dy`, and `chdy/chedy` is often nonterminal.
 
 ## Current page reading
 
-The eighteen page units form a practical four-stage book:
+The twenty-six physical pages form one text prologue plus a practical
+four-stage book. f1r is retained as a rubrically divided source-section-T
+prologue with no forced object owner. The illustrated stages are:
 
-1. **STOFF** — seven pictured plant articles. The plant picture silently owns
+1. **STOFF** — nine pictured plant articles, now including f24v and f95v. The plant picture silently owns
    the text; the cards select parts, portions, preparation paths, and uses.
 2. **ZUBEREITUNG** — f88r contains sixteen local ingredient labels in rows of
    six, six, and four under three silent vessel owners. f88v adds three more
    vessel-/ingredient batches with fourteen label groups and productive prose.
    f89r adds seven more local vessel-/plant-part batches. No species name is currently forced.
-3. **ANWENDUNG** — f75r, f77r and the illustrated Biological pages contain local bath, basin,
+3. **ANWENDUNG** — f75r, f77r, f81r and the illustrated Biological pages contain local bath, basin,
    conduit, washing, holding, fastening, and transfer stations. They do not
    form one global pipe network. f76r is unillustrated and therefore supplies
    only section-owned clause structure, not a visible station noun.
@@ -554,6 +577,12 @@ comparison set.
 
 ## Primary artifacts
 
+- Current Pass-1032/GDT404 random four-page admission: one-shot seed and page
+  draw, four image-owner freezes, 95 guarded lines, 688-event edition, all 211
+  new-surface decisions, 88 statements, 677 factorized attachments, ambiguous-
+  close sensitivity, 46-sign transfer table, readable edition, runner and
+  validator:
+  `gdt404_random_four_page_factorized_admission/`;
 - Current Pass-1030/GDT402 factorized parser over all 4,374 attachments, full
   31-value axis inventory, twenty-two-page/four-register replay, deterministic
   next-page parser, runner and 31-check validator:
@@ -684,8 +713,10 @@ comparison set.
 
 ## Next work
 
-Wait for the user to name and release the next four-page batch, then populate
-the unchanged GDT403 worksheet in physical order. New rooted surfaces and local
-addresses remain allowed; invisible atoms, unlicensed one-edit recipe copying,
-owner jumps, lookahead beyond one card, a ninth selector, an eleventh head and
-retuned core values do not.
+Freeze GDT404's 426-surface recipe dictionary before opening the next batch,
+then draw or accept a second four-page group. Exact GDT404 forms must replay
+without editing; genuinely new surfaces may use only visible old factors. The
+49 amber microforms may be resolved by recurrence, but not by changing a core.
+Invisible atoms, unlicensed one-edit recipe copying, owner jumps, lookahead
+beyond one card, a ninth selector, an eleventh head and retuned core values
+remain hard failures.
