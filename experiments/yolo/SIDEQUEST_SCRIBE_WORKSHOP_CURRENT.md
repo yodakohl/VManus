@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT495.
+Updated: 2026-08-26, after GDT496.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -326,6 +326,15 @@ same-register non-T/R cells/219 events, nine opposite-T/R cells/23 events and
 pages altogether. Eighteen cards name their argument directly; nine retain an
 active-context warning. All 27 remain `COMPOSED_WORKING` and make no surface
 or occurrence prediction.
+
+GDT496 reads those 27 cards horizontally. Removing only the changing action
+from 95 old head cells/242 events leaves the complete portable remainder,
+owner-local remainder and component order unchanged in 242/242 cases. Eighteen
+target sentences are therefore direct self-contained substitutions. Each of
+the nine state-dependent families actually inherits multiple roots among
+AIIN, AIN, OR and Y. Their better default now says `das zuvor Genannte`
+instead of falsely choosing one Posten noun; action, relation, order and every
+working root meaning remain unchanged.
 
 GDT428 now supplies the missing semantic contrast deck. Six within-class
 comparisons contain 104 exact frames where only the action root changes. The
@@ -1115,6 +1124,10 @@ comparison set.
 
 ## Primary artifacts
 
+- Current GDT496 semantic action-substitution atlas, 27 horizontal families,
+  95 observed head cells/242 events, eighteen direct defaults, nine
+  context-safe defaults and zero remainder conflicts:
+  `gdt496_semantic_action_substitution_atlas/`;
 - Current GDT495 complete Tier-A future-comparison sheet, 27 concrete working
   phrases, 138 visible support cells/329 events/24 old pages, with eighteen
   self-contained and nine state-dependent cards:
@@ -1375,10 +1388,9 @@ comparison set.
 
 ## Next work
 
-Keep the current 26 pages closed. Read the 27 GDT495 cards horizontally as
-semantic sentence families. For each frame/register, mark whether the old
-alternate-head clauses preserve the same object, relation and order strongly
-enough that the T/R phrase follows by a natural action substitution. Keep the
-eighteen self-contained cards separate from the nine active-context cards and
-retain every current phrase as the default unless the visible family supplies
-a simpler one.
+Keep the current 26 pages closed. Recompile all 110 GDT493 T/R cells into one
+current default deck: preserve all 37 observed clauses, preserve every
+self-contained composed clause, and replace the fixed Y noun only in all 23
+state-dependent composed cells with `das zuvor Genannte`. Print the seventeen
+observed state-dependent cells beside them as concrete examples of what the
+active context can supply; change no root meaning or formal frame.

@@ -11956,3 +11956,31 @@ whether their observed alternate-head clauses preserve object, relation and
 order closely enough for a natural T/R action substitution. Keep the eighteen
 self-contained and nine state-dependent sets separate and keep all 26 pages
 closed.
+
+## GDT496 semantic action-substitution atlas
+
+GDT496 joins the 27 GDT495 target cards back to all 95 same-register observed
+action-head cells and their 242 GDT416 events. In every target and event it
+removes only the component aligned to `@ACTION`, then compares the remaining
+portable meanings, owner-local meanings and order. All 242 portable remainders,
+all 242 owner-local remainders, all 242 orders and all 242 source roundtrips
+match exactly. There is no remainder conflict.
+
+Eighteen target cards have self-contained arguments and keep their concrete
+phrase unchanged. Nine need an inherited argument. Every one of those nine
+observed families draws on multiple argument roots: biological bare T spans
+AIIN/AIN/OR/Y; the herbal and celestial continuation or target families span
+two or three of AIIN/OR/Y. Therefore a fixed Stations-, Pflanzen-, Positions-
+or Eintragsposten is too narrow when the target event itself is not observed.
+
+The nine editorial defaults now say `das zuvor Genannte`: for example `Stelle
+das zuvor Genannte ein`, `Markiere das zuvor Genannte; zur Zielposition` and
+`Weiter markiere das zuvor Genannte`. This changes no action, root meaning,
+relation or evidence label; it realizes the existing inheritance rule without
+guessing its noun. No occurrence or surface is predicted. Validation passes
+1340/1340.
+
+Next apply the same context-safe editorial rule to all 23 state-dependent
+`COMPOSED_WORKING` cells in the complete 110-card GDT493 deck, while preserving
+the 37 observed clauses and using the seventeen observed state-dependent cells
+as concrete argument examples. Keep all 26 pages closed.
