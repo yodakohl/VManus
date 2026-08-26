@@ -1,0 +1,127 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Definitive creative six-page local working edition integrating existing GDT474-GDT478 readings; no plaintext, confirmed syntax, lexeme, object identity, new component meaning, learned name, surface, recipe, event, or page.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt479_definitive_local_microrecord_edition/src/run.py",
+    "validate": "python3 experiments/yolo/gdt479_definitive_local_microrecord_edition/src/validate.py"
+  },
+  "created": "2026-08-26",
+  "dependencies": ["GDT474", "GDT475", "GDT476", "GDT478"],
+  "experiment_id": "GDT479",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt474_locus_bundle_meaning_triptych/artifacts/gdt474_146_locus_bundle_meaning_triptych.tsv",
+      "role": "complete bundle triptychs and GDT474 defaults",
+      "sha256": "267950d50bff412be1ecc9be8f17b7438a2b1dca144186d749e06f034c99eb15"
+    },
+    {
+      "path": "experiments/yolo/gdt474_locus_bundle_meaning_triptych/artifacts/gdt474_183_event_meaning_triptych.tsv",
+      "role": "complete event triptychs and literal traces",
+      "sha256": "a221ab715e7af5b2f680f37eb09273b1240e02fe176ad81d1e13b5e0f4d1d052"
+    },
+    {
+      "path": "experiments/yolo/gdt475_ot_ol_page_microrecord_itineraries/artifacts/gdt475_146_bundle_boundary_roles.tsv",
+      "role": "fixed bundle boundary and record assignments",
+      "sha256": "462ef1b26402881b4924391c30602d517cc80bd3e8314c667d273f27673ce9dc"
+    },
+    {
+      "path": "experiments/yolo/gdt475_ot_ol_page_microrecord_itineraries/artifacts/gdt475_135_page_microrecords.tsv",
+      "role": "complete six-page microrecord stream",
+      "sha256": "32f4a403ea40ec6527fe38bd14d43df2dbaafe8262c2e71d73fb014738fe08e2"
+    },
+    {
+      "path": "experiments/yolo/gdt476_boundary_context_tie_resolution/artifacts/gdt476_64_tie_context_decisions.tsv",
+      "role": "contextual active model choices for tied bundles",
+      "sha256": "a40109a0ad37a751bde6f1bad2e6a2e9203240c7f1dfab089ef7fd4957edfe53"
+    },
+    {
+      "path": "experiments/yolo/gdt478_paired_ot_ol_order_grammar/artifacts/gdt478_69_paired_order_scope_occurrences.tsv",
+      "role": "complete directional OT and OL scope traces",
+      "sha256": "5b4550e2d8e9e9a968a9bb5283415fcf5de61c5e97fb6d584eb9b34ff3672e31"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt479_definitive_local_microrecord_edition/README.md",
+      "role": "entry point",
+      "sha256": "1314591a9dbb8ad4ae51bb17bb1daf161ce5da05256e0768212e6aad72899feb"
+    },
+    {
+      "path": "experiments/yolo/gdt479_definitive_local_microrecord_edition/METHOD.md",
+      "role": "integration method",
+      "sha256": "60d85ce19c89d54cb657cea9e48de15d9c628e2b80f3f56355b7e145156fdcd4"
+    },
+    {
+      "path": "experiments/yolo/gdt479_definitive_local_microrecord_edition/REPORT.md",
+      "role": "primary report",
+      "sha256": "5c56bc1abeacb6a1f9b0093c57345ce860e9dd3cda761433e953599771d5f258"
+    },
+    {
+      "path": "experiments/yolo/gdt479_definitive_local_microrecord_edition/src/run.py",
+      "role": "deterministic edition builder",
+      "sha256": "b91d97b47804779682c2eebe750fc2a944e154bb4b79ee572c46e621035e82d9"
+    },
+    {
+      "path": "experiments/yolo/gdt479_definitive_local_microrecord_edition/src/validate.py",
+      "role": "validator and deterministic rebuild check",
+      "sha256": "8039b1fe59273cd33c8479741d19414d5b7382364ea605fc2d727c839d35e3a6"
+    },
+    {
+      "path": "experiments/yolo/gdt479_definitive_local_microrecord_edition/artifacts/README.md",
+      "role": "artifact guide",
+      "sha256": "463e1ade63228aee02f727eecdb073c38aaa544b8f77bfd0f9109d994b5fabb3"
+    },
+    {
+      "path": "experiments/yolo/gdt479_definitive_local_microrecord_edition/artifacts/GDT479_DEFINITIVE_SIX_PAGE_LOCAL_EDITION.md",
+      "role": "complete readable six-page edition",
+      "sha256": "d5156d7afab5646c296c1bf58609e0915893a14fbfc4f7c6522faa7c7af3b2b6"
+    },
+    {
+      "path": "experiments/yolo/gdt479_definitive_local_microrecord_edition/artifacts/gdt479_183_definitive_local_events.tsv",
+      "role": "complete definitive event table",
+      "sha256": "1827be00bcedf800d4d91344c85d890df7367811413c17adeba0fc4ccf37187a"
+    },
+    {
+      "path": "experiments/yolo/gdt479_definitive_local_microrecord_edition/artifacts/gdt479_146_definitive_local_bundles.tsv",
+      "role": "complete definitive bundle table",
+      "sha256": "311cfbe31d90bbd8fe08462918ca7c7f6382b36b23978c42f24aed3da1cff2f3"
+    },
+    {
+      "path": "experiments/yolo/gdt479_definitive_local_microrecord_edition/artifacts/gdt479_135_definitive_microrecords.tsv",
+      "role": "complete definitive microrecord table",
+      "sha256": "3b2637f3569a62443809eb2aaeb1c8bb64b070175518de3734adc26907dae75f"
+    },
+    {
+      "path": "experiments/yolo/gdt479_definitive_local_microrecord_edition/artifacts/gdt479_6_page_edition_summary.tsv",
+      "role": "page edition summary",
+      "sha256": "7ca9759a82f49c2e6ee2af44cf85425cc83db2b0bb100484df37e70dcae19a22"
+    },
+    {
+      "path": "experiments/yolo/gdt479_definitive_local_microrecord_edition/artifacts/gdt479_result.json",
+      "role": "compact result",
+      "sha256": "87a8b1da43d1cd647701358392cc5df24b0be604e52c7348ec3026db2756cc15"
+    },
+    {
+      "path": "experiments/yolo/gdt479_definitive_local_microrecord_edition/artifacts/gdt479_validation.json",
+      "role": "83-check validation report",
+      "sha256": "b77f688b1bc5faec537a6e5abdc819d57c77f79676304cfdd83fd7ad6672c6db"
+    }
+  ],
+  "question": "Can GDT476's contextual choices, GDT475's fixed microrecords, and GDT478's directional OT/OL grammar be integrated into one complete 183-event six-page working edition with no missing default?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "definitive_local_microrecord_edition",
+  "status": "DEFINITIVE_183_EVENT_135_MICRORECORD_LOCAL_WORKING_EDITION_COMPLETE",
+  "title": "Definitive local microrecord working edition",
+  "updated": "2026-08-26",
+  "validation": {
+    "artifact": "experiments/yolo/gdt479_definitive_local_microrecord_edition/artifacts/gdt479_validation.json",
+    "status": "PASS"
+  }
+}

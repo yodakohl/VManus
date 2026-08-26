@@ -11514,3 +11514,27 @@ lexeme. Validation passes 83/83. No root, name, surface, recipe, selected model,
 event, page, object identity, plaintext, language or confirmed syntax changes.
 Next integrate GDT476 and GDT478 into one complete 183-event/135-record
 six-page local working edition without opening another page.
+
+## GDT479 definitive local microrecord working edition
+
+GDT479 performs that integration. All 183 source events remain in order inside
+146 exact locus bundles and 135 GDT475 microrecords. Every event now has one
+active default; every bundle retains its complete coordinate, instruction and
+catalogue alternatives. GDT476 changes exactly six bundle choices/seven event
+readings, producing the active mix 28 coordinate, 59 instruction and 59
+catalogue bundles. The other 140 bundle models remain unchanged.
+
+All 69 GDT478 order slots are attached to their source events: 41 OT slots
+start or bridge to the next right-hand unit, and 28 OL slots keep the current
+unit active through forward, bridge or backward scope. Sixty events carry an
+explicit order phrase and 123 retain an ordinary reading. Eight multi-locus
+records are printed as complete continuations; the f89r opening record, for
+example, reads as one operation followed by two OL-carried drug entries.
+
+The readable edition prints every record, bundle ID, event ID and surface. The
+exact-only `ykyd` and `yddy` packages remain exact-only. No root value, learned
+name, spelling, recipe, event, owner or page changes. The initial traceability
+check caught missing bundle IDs in the readable rendering; after adding them,
+the deterministic validator passes 83/83. Next collapse these 135 complete
+readings into recurrent microrecord templates and look for stable cross-owner
+compositions without opening another page or changing the dictionary.
