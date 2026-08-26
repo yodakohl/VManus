@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT448.
+Updated: 2026-08-26, after GDT449.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -265,6 +265,15 @@ missing-head closes are rescued, 443 amber cases turn green, 36 green cases
 turn amber and only nine cases newly stop. Those nine are exactly eight
 `CHD<-EEE` and one `R<-EEE` binding. No direct red pair is rescued by context,
 identity never changes and every stop preserves state.
+
+GDT449 compresses the 61,878 probes into a usable warning deck. At the level
+of 25,576 directed edges, 21,970 are always green in their observed contexts,
+694 always readable with amber, 2,902 always stopped and only ten genuinely
+mixed. Combining all sources that reach the same target gives 18,381 targets:
+15,467 all-green, 532 readable-with-amber, 2,372 all-stop and again exactly ten
+mixed. The ten warnings are only missing inherited heads or the old
+`CHD<-EEE`/`R<-EEE` gaps. A classmate substitution is not automatically safe;
+the real context certificate remains mandatory.
 
 ## Fixed scope
 
@@ -836,6 +845,9 @@ comparison set.
 
 ## Primary artifacts
 
+- Current GDT449 25,576-edge and 18,381-target context-robustness decks, 641
+  mutation-operator summaries and 98-cell failure deck:
+  `gdt449_context_robust_neighbor_deck/`;
 - Current GDT448 4,275-context/61,878-probe real-context neighbour replay,
   thirteen exhaustive shards, all 1,245 decision changes and transition
   summary:
@@ -1038,9 +1050,9 @@ comparison set.
 
 ## Next work
 
-Keep the current 26 pages closed. Collapse the 61,878 GDT448 probes to one
-robustness record per eligible neighbour edge. Distinguish universally green,
-universally readable with amber, genuinely context-dependent and universally
-stopped mutations; preserve the exact failing contexts and never treat a
-single favourable placement as a general license. Do not generate a surface,
-occurrence or new meaning.
+Keep the current 26 pages closed. Leave each physical page out of the GDT449
+target-context deck, learn the shortcut from the other pages and replay the
+held page. Count false-safe cases separately from harmless false stops and
+abstentions. The shortcut may become a prefilter only if it never overrides
+the live context certificate. Do not generate a surface, occurrence or new
+meaning.

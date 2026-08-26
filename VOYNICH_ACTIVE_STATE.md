@@ -379,6 +379,17 @@ page changes. The next bounded route aggregates each neighbour across all of
 its real source contexts and separates universally readable, context-dependent
 and universally stopped mutations.
 
+GDT449 performs that aggregation twice: first over 25,576 directed source
+edges, then over 18,381 distinct target recipes. Edge robustness is 21,970
+all-green, 694 always readable with amber, ten mixed and 2,902 all-stop; target
+robustness is 15,467/532/10/2,372 respectively. The ten mixed edge and target
+warnings contain only missing inherited heads and the existing `CHD<-EEE` or
+`R<-EEE` gaps. Same-class substitution is less robust than deletion or swap,
+so no mutation family becomes a blanket authorial rule. Validation passes
+29/29; no identity promotion, meaning, surface, occurrence or page change.
+Next test the target shortcut under leave-one-physical-page-out replay before
+using it as a new-page prefilter.
+
 Pass 1032/GDT404 applies the frozen GDT403 intake contract to a one-shot random
 draw of f1r, f24v, f81r and f95v. The 95 guarded lines add 688 events, 88
 statements and 677 focus attachments. Exactly 470 events retain an old surface
