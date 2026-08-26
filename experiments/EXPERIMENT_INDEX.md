@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **501**
-- Experiment-associated tracked files: **7,290** (794.7 MiB)
-- Structured GDT337+ experiments: **166**
+- Experiments indexed: **502**
+- Experiment-associated tracked files: **7,306** (794.8 MiB)
+- Structured GDT337+ experiments: **167**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT503 | GDT503_four_open_edge_long_chain_recovery | `BOTH_OPEN_RECIPES_HAVE_ONE_OLD_DIRECTIONAL_CHAIN__DIRECT_AND_SEPARATOR_SUPPORT_DISTINGUISHED` | [report](../experiments/yolo/gdt503_four_open_edge_long_chain_recovery/REPORT.md) | 16 | 66.5 KiB | 8 | STRUCTURED_YOLO |
 | GDT502 | GDT502_supported_frontier_comparison_cards | `FORTY_SIX_SUPPORTED_FRONTIER_CARDS_HAVE_CONCRETE_OLD_CLAUSES__FOUR_OPEN_EDGES_RETAINED` | [report](../experiments/yolo/gdt502_supported_frontier_comparison_cards/REPORT.md) | 15 | 113.6 KiB | 3 | STRUCTURED_YOLO |
 | GDT501 | GDT501_old_value_frontier_partial_support_atlas | `FIFTY_CELL_FRONTIER_STRATIFIED_BY_OLD_PARTIAL_FRAMES_AND_ACTION_PAIRS` | [report](../experiments/yolo/gdt501_old_value_frontier_partial_support_atlas/REPORT.md) | 17 | 233.1 KiB | 4 | STRUCTURED_YOLO |
 | GDT500 | GDT500_repeated_action_fluency_matrix | `FIFTEEN_REPEATED_ACTIONS_FLUENT_AND_REVERSIBLE__FOUR_HUNDRED_EIGHTY_UNCHANGED` | [report](../experiments/yolo/gdt500_repeated_action_fluency_matrix/REPORT.md) | 17 | 851.1 KiB | 2 | STRUCTURED_YOLO |

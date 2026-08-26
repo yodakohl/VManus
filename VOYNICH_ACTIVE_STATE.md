@@ -1,6 +1,6 @@
 # Voynich active state — structural reset baseline
 
-Updated: 2026-08-26. This is the full claim registry. For routine work, read
+Updated: 2026-08-27. This is the full claim registry. For routine work, read
 `VOYNICH_CURRENT_ROUTE.md` first and open only the relevant sections here and in
 `experiments/semantic_assumptions/ACTIVE_EXPERIMENT_LEDGER.tsv`.
 
@@ -12134,3 +12134,28 @@ labels remain unchanged, with zero root, surface or occurrence changes.
 Validation passes 297/297. Next read the 46 cards as semantic component deltas
 and seek directed reverse-order or peer-action analogies only for the four open
 edges, keeping all pages closed.
+
+## GDT503 four-open-edge long-chain recovery
+
+GDT503 corrects the overly broad live reading of GDT501's four “atomic-only”
+cells. That label was valid only inside GDT501's proper-subrecipe and GDT421
+exact-two-head scope. Neither `CH+CHD` nor `CH+OK` occurs as an exact recipe
+with exactly those two action heads, but the broader old action-chain inventory
+contains each directed pair once.
+
+`CH>OK` occurs as direct component adjacency inside `P+OT+CH+OK+OR` at f76r
+(`G407-E1833`). `CH>CHD` occurs in the right action-head order inside
+`K+CH+EE+D_ADDR+CHD+Y` at f55v (`G407-E0691`), with `EE+D_ADDR` visibly between
+the heads. Both concrete clauses roundtrip exactly through GDT416. The proper
+live classes are therefore `EMBEDDED_DIRECT_COMPONENT_ADJACENCY` for `CH>OK`
+and `ORDERED_ACTION_CHAIN_WITH_VISIBLE_SEPARATOR` for `CH>CHD`, not a shared
+atomic-only class.
+
+The wider context retains direction rather than collapsing order: `CHD>CH` has
+zero old chain events, whereas `OK>CH` has 29. Eight same-transition peer pairs
+supply 251 events, and all eleven accepted GDT444 `CH>CHD` one-focus separator
+routes keep the direct pair unpromoted. Consequently all four source/pharma
+target phrases remain unchanged `COMPOSED_WORKING` assumptions; no target
+two-head recipe, surface or occurrence is claimed. Validation passes 54/54.
+Next audit the 46 GDT502 cards as semantic component deltas across registers,
+keeping all 26 pages closed.
