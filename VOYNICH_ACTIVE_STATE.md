@@ -11618,3 +11618,31 @@ of the 183 events. Every one of the 45 events still has a concrete default.
 No meaning, model, surface, recipe, event or page changes; validation passes
 95/95. Next inspect only the visible `S+O+DA+R` recipe and `DA`/`R` analogues,
 without reopening the other 44 events or adding a page.
+
+## GDT483 `sodar` exact running-carrier closure
+
+GDT483 shows that GDT482's sole functional residue was created by its narrow
+183-local-event donor pool. The f89r target `P1008-E1297`, surface `sodar`, is
+already a GDT473 full formula with explicit evidence
+`EXACT_SURFACE_HAS_ONE_RUNNING_RECIPE`. In the guarded GDT413 running edition,
+the exact same surface and recipe `S+O+DA+R` occur at `G407-E0930` on f67r2
+and `G407-E2712` on f77r. All three carriers have the literal reading
+`WÄHLEN · AUSFÜHRUNG · ZWEITE STUFE · MARKIEREN`, across celestial,
+biological and pharmaceutical registers, with zero recipe or reading conflict.
+
+Both running GDT416 clauses roundtrip exactly. The celestial card inherits
+`AIN` and selects/marks a sector share; the biological card inherits `Y` and
+selects/marks a station post. The current compact f89r reading is: “Wähle den
+Eintrag und markiere ihn – als Ausführung auf der zweiten Stufe.” This smooths
+one paraphrase without changing its component back-projection.
+
+The surrounding pieces are independently common: `S` occurs in 300 running
+events, `O` in 683, `DA` in 35 and `R` in 114; adjacent `S+O` occurs thirteen
+times, `O+DA` six and `DA+R` ten times in four recipes on seven pages/three
+registers. The GDT482 tail now consists of 42 locally recurrent component
+structures, one exact running-carrier closure and two expected learned lexical
+slots (`cheo` family label and a third drug-name slot). All 45 retain defaults
+and zero unexplained functional residue remains. No root, atom value, model,
+surface, recipe, event or page changes; validation passes 92/92. Next compile
+all 135 records into one provenance-graded readable edition showing their
+strongest record, event, component, running-carrier or learned-slot support.

@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT482.
+Updated: 2026-08-26, after GDT483.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -65,7 +65,7 @@ CONTROL into `T=EINSTELLEN` and `R=MARKIEREN` creates a five-class gate with
 amber; `R>T` and `R<-EE` remain red-local. The internal meanings of the broad
 classes are not collapsed.
 
-GDT459–GDT482 now resolve the formerly opaque local-address tail as the mixed
+GDT459–GDT483 now resolve the formerly opaque local-address tail as the mixed
 codebook architecture anticipated by the sidequest: portable function cards
 surround memorized owner-bound name cores. Of 107 learned address labels,
 eighteen are now complete function formulas, 87 are function-shell/name-core
@@ -194,6 +194,15 @@ functional matter: `S+O+DA+R = WÄHLEN · AUSFÜHRUNG · ZWEITE STUFE ·
 MARKIEREN`, with the last two components unique in the current 183-event pool.
 The supposed 45-word unknown tail has therefore narrowed to two expected
 lexical slots and one four-root card; all 45 concrete default readings remain.
+GDT483 recognizes that four-root card outside the deliberately narrow local
+donor pool. Exact running `sodar=S+O+DA+R` cards already occur on f67r2 and
+f77r, with the same literal reading and exact GDT416 back-projection. Together
+with f89r, the card spans celestial, biological and pharmaceutical registers.
+`DA+R` itself occurs ten times in four recipe families. The compact f89r
+reading is now “Wähle den Eintrag und markiere ihn – als Ausführung auf der
+zweiten Stufe.” The 45-event tail is closed as 42 locally recurrent structures,
+one exact running carrier and two learned lexical slots; no functional unknown
+remains.
 
 GDT428 now supplies the missing semantic contrast deck. Six within-class
 comparisons contain 104 exact frames where only the action root changes. The
@@ -983,6 +992,9 @@ comparison set.
 
 ## Primary artifacts
 
+- Current GDT483 guarded 26-page `sodar` closure, three exact carriers, all 35
+  DA contexts, ten DA+R contexts and the zero-functional-residue ledger:
+  `gdt483_sodar_exact_running_carrier_closure/`;
 - Current GDT482 complete 183-event component atlas, all 45 residual tilings,
   207 donor-backed tile segments and the isolated `sodar` functional residue:
   `gdt482_residual_event_component_tiles/`;
@@ -1194,9 +1206,9 @@ comparison set.
 
 ## Next work
 
-Keep the current 26 pages closed. Inspect only `sodar` and its visible
-`S+O+DA+R` recipe against exact surface-component analogues already present in
-the 183-event pool and the wider admitted running deck. Ask whether `DA` and
-terminal `R` behave as the already assigned `ZWEITE STUFE` and `MARKIEREN`
-inside comparable cards, and render the best complete local reading. Do not
-reopen the other 44 residual events, add a root, or change a dictionary value.
+Keep the current 26 pages closed. Compile the 135 fixed GDT479 microrecords into
+one readable provenance edition. For every record, retain its concrete text and
+show the strongest available support tier: recurrent whole-record template,
+recurrent strict/role event, recurrent internal component tile, exact running
+surface+recipe carrier, or typed learned lexical slot. This is consolidation,
+not another reinterpretation: add no root, model, page, or dictionary value.
