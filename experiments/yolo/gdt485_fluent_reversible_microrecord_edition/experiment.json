@@ -1,0 +1,132 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Fluent editorial layer over the fixed GDT484 working readings; no new root, component meaning, name identity, syntax, plaintext, language, model, boundary, surface, recipe, event, or page.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt485_fluent_reversible_microrecord_edition/src/run.py",
+    "validate": "python3 experiments/yolo/gdt485_fluent_reversible_microrecord_edition/src/validate.py"
+  },
+  "created": "2026-08-26",
+  "dependencies": ["GDT479", "GDT482", "GDT484"],
+  "experiment_id": "GDT485",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt479_definitive_local_microrecord_edition/artifacts/gdt479_135_definitive_microrecords.tsv",
+      "role": "fixed microrecord order and OT/OL traces",
+      "sha256": "3b2637f3569a62443809eb2aaeb1c8bb64b070175518de3734adc26907dae75f"
+    },
+    {
+      "path": "experiments/yolo/gdt479_definitive_local_microrecord_edition/artifacts/gdt479_183_definitive_local_events.tsv",
+      "role": "fixed event order, literal readings, and order state traces",
+      "sha256": "1827be00bcedf800d4d91344c85d890df7367811413c17adeba0fc4ccf37187a"
+    },
+    {
+      "path": "experiments/yolo/gdt482_residual_event_component_tiles/artifacts/gdt482_183_event_component_sequences.tsv",
+      "role": "normalized component sequence for every fixed event",
+      "sha256": "4a34b8f897d33bd99838bc6697fee3fa504a013aaccdd98a0f79960faf24f2db"
+    },
+    {
+      "path": "experiments/yolo/gdt484_complete_microrecord_provenance_edition/artifacts/gdt484_135_record_provenance_edition.tsv",
+      "role": "current technical readings and record provenance",
+      "sha256": "513b4434083a8d762b5a99939a8f143779a82954cdf3bd77a2b16b37f3a8119f"
+    },
+    {
+      "path": "experiments/yolo/gdt484_complete_microrecord_provenance_edition/artifacts/gdt484_183_event_support_assignments.tsv",
+      "role": "current event readings and support provenance",
+      "sha256": "6ca9ca5dfaa02fe856f017d801435b4040e1e536b49b449eddd1ad7e50f13d88"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt485_fluent_reversible_microrecord_edition/README.md",
+      "role": "entry point",
+      "sha256": "bd115d14730ff39c1bd11ed2fa81d02a25675c289f4446d43294c8fbdbf047f2"
+    },
+    {
+      "path": "experiments/yolo/gdt485_fluent_reversible_microrecord_edition/METHOD.md",
+      "role": "two-channel editorial method and completion rule",
+      "sha256": "15b3b9290384176f7e8805663ebbb5d2e70df64ee64a0e7fb401215e09c5c617"
+    },
+    {
+      "path": "experiments/yolo/gdt485_fluent_reversible_microrecord_edition/REPORT.md",
+      "role": "primary report",
+      "sha256": "3a2f9c313eb0dbdee6dd1158dff8c9b105d83952e6e476540c3c28f9180c8dec"
+    },
+    {
+      "path": "experiments/yolo/gdt485_fluent_reversible_microrecord_edition/src/run.py",
+      "role": "deterministic fluent-edition builder",
+      "sha256": "3080dcd67f6612d4f607642cdd0b5978760adb21e9284a1b00b7fc87b32dfde3"
+    },
+    {
+      "path": "experiments/yolo/gdt485_fluent_reversible_microrecord_edition/src/validate.py",
+      "role": "deterministic preservation and readability validator",
+      "sha256": "1f871737f004ab1fef8ffeca7b85eee55f183cc740fa6191662340761c7ab06b"
+    },
+    {
+      "path": "experiments/yolo/gdt485_fluent_reversible_microrecord_edition/src/fluent_readings.tsv",
+      "role": "explicit recordwise fluent German curation",
+      "sha256": "6eaad2fb73f80c56d98d24573ad8f652028e69dbcf723c50f626cd91db3c6dfa"
+    },
+    {
+      "path": "experiments/yolo/gdt485_fluent_reversible_microrecord_edition/artifacts/README.md",
+      "role": "artifact guide",
+      "sha256": "66a6e7cdf48b2904c8c4d1d276c2dc438f2121dd1de1f385f7730a31eae6ec49"
+    },
+    {
+      "path": "experiments/yolo/gdt485_fluent_reversible_microrecord_edition/artifacts/GDT485_FLUENT_135_MICRORECORD_EDITION.md",
+      "role": "complete readable two-channel edition",
+      "sha256": "3df87d3e189762facc73360aa9545796805a011a787e732aa2a9eac817bdc97f"
+    },
+    {
+      "path": "experiments/yolo/gdt485_fluent_reversible_microrecord_edition/artifacts/gdt485_135_fluent_reversible_records.tsv",
+      "role": "complete machine-readable fluent and technical record edition",
+      "sha256": "8f4c6651585a446fd671f0e8295b28b56c8cdfb539acc8ab5a4bce0bd764b0d9"
+    },
+    {
+      "path": "experiments/yolo/gdt485_fluent_reversible_microrecord_edition/artifacts/gdt485_183_literal_backprojection_events.tsv",
+      "role": "complete event-level literal and order backprojection",
+      "sha256": "6773ba0ae98011274a464dc2734f9a482b13d2775ae796d57bc8a0f863a2fffd"
+    },
+    {
+      "path": "experiments/yolo/gdt485_fluent_reversible_microrecord_edition/artifacts/gdt485_13_transformation_summary.tsv",
+      "role": "editorial transformation inventory",
+      "sha256": "e099e8c685a3950d5d49cf35269c0d98413006b1a147e3bd26bec109ff6973ae"
+    },
+    {
+      "path": "experiments/yolo/gdt485_fluent_reversible_microrecord_edition/artifacts/gdt485_readability_marker_summary.tsv",
+      "role": "before and after mechanical readability markers",
+      "sha256": "15bebafd6e226f1378c771ae541cba6882798150373731efba3f847f5f3373cc"
+    },
+    {
+      "path": "experiments/yolo/gdt485_fluent_reversible_microrecord_edition/artifacts/gdt485_6_page_summary.tsv",
+      "role": "pagewise fluent-edition preservation summary",
+      "sha256": "19ca51a815aa505421e06fd8505146558a752b77a177920df995a835cfb8140c"
+    },
+    {
+      "path": "experiments/yolo/gdt485_fluent_reversible_microrecord_edition/artifacts/gdt485_result.json",
+      "role": "compact result",
+      "sha256": "000c7e87177bf5a3f014c99cf69e462de5ce53b1933d4c962fd58c0e12c4c0ed"
+    },
+    {
+      "path": "experiments/yolo/gdt485_fluent_reversible_microrecord_edition/artifacts/gdt485_validation.json",
+      "role": "89-check validation report",
+      "sha256": "bcb47313ead3388004b764c72ac0c680ae32f2806a2a7ed4d918bf579331ebf3"
+    }
+  ],
+  "question": "Can all 135 fixed GDT484 working readings be rendered as concise natural German while retaining exact technical, component, event, name, order, and provenance backprojection?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "fluent_reversible_microrecord_edition",
+  "status": "ALL_135_HAVE_FLUENT_REVERSIBLE_GERMAN__183_EVENT_BACKPROJECTIONS_EXACT",
+  "title": "Fluent reversible microrecord edition",
+  "updated": "2026-08-26",
+  "validation": {
+    "artifact": "experiments/yolo/gdt485_fluent_reversible_microrecord_edition/artifacts/gdt485_validation.json",
+    "status": "PASS"
+  }
+}

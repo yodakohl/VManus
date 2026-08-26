@@ -11674,3 +11674,27 @@ published smoother `sodar` paraphrase. No atom, model, boundary, surface,
 recipe, event or page changes; validation passes 103/103. Next add a fluent,
 reversible German paraphrase layer to all 135 records while retaining their
 literal component traces and GDT484 support tiers.
+
+## GDT485 fluent reversible microrecord edition
+
+GDT485 gives every fixed GDT484 record a short German Werkstattfassung without
+replacing its technical channel. Fourteen of 135 readings remain byte-identical
+because they were already fluent; 121 receive 263 applications of thirteen
+controlled editorial operations. Pronouns and plural forms remove repeated
+objects, numbered lists become clauses, continuation is expressed by
+`fortführen`, and address arrows become ordered German coordinate prose.
+
+The exact reverse path stays complete. All 135 technical readings remain
+byte-identical; 183/183 events retain surface, recipe, active model, literal and
+normalized component sequences, current event reading and support tier. All 54
+records with order control retain their 69 exact OT/OL occurrences, and every
+distinct quoted name/value in the technical reading still appears in the
+Werkstattfassung. The nine targeted mechanical marker classes fall from 211
+occurrences to zero in the reading channel, but remain recoverable in the
+technical/order fields. No meaning, model, boundary, surface, recipe, event or
+page changes; validation passes 89/89.
+
+Next group the fluent records by sentence frame and test minimal
+one-component substitutions for stable readable phrase changes. This should
+separate genuine dictionary pressure from artifacts of the former mechanical
+German display without reopening a page or changing a current root meaning.

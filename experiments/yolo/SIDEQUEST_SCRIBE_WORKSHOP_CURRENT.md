@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT484.
+Updated: 2026-08-26, after GDT485.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -210,6 +210,17 @@ records. The three multi-event tails omitted from GDT482 contain seven events
 and 20/20 same-model recurrent components. Thus every record has a concrete
 default and an explicit internal support route; only the already published
 `sodar` phrase is smoothed, and no functional residue remains.
+
+GDT485 separates that reader into a natural front and an exact back. Every one
+of the 135 records now has a short German Werkstattfassung, while all 183
+technical Eventspuren, 69 OT/OL occurrences, learned values and GDT484 support
+tiers remain beside it. Fourteen readings were already usable; 121 required
+pronouns, compacted lists, natural continuation phrases or coordinate prose.
+This removes 211 mechanical intrusions from the reading channel—57 embedded
+order comments, 67 numbered markers, 52 arrows and 35 smaller artifacts—while
+deleting none from the backprojection. Apparent awkwardness was therefore
+mostly an edition problem; remaining tension can now be assigned to actual
+component combinations rather than to the old display format.
 
 GDT428 now supplies the missing semantic contrast deck. Six within-class
 comparisons contain 104 exact frames where only the action root changes. The
@@ -999,6 +1010,10 @@ comparison set.
 
 ## Primary artifacts
 
+- Current GDT485 fluent 135-record/two-channel edition, 183 literal event
+  backprojections, 69 retained order slots and the complete transformation and
+  readability inventories:
+  `gdt485_fluent_reversible_microrecord_edition/`;
 - Current GDT484 complete 135-record/183-event support-provenance edition, ten
   tier deck and 20/20 closure of the three multi-event tails:
   `gdt484_complete_microrecord_provenance_edition/`;
@@ -1216,9 +1231,10 @@ comparison set.
 
 ## Next work
 
-Keep the current 26 pages closed. Add a fluent German paraphrase to every one
-of the 135 GDT484 records, removing mechanical repetition and “beziehe” where a
-clearer owner-local sentence is available. Every paraphrase must retain its
-literal component sequence, OT/OL order phrase, learned names and GDT484 support
-tier beside it, so the reader can reverse it without changing a root, model,
-boundary, page, or dictionary value.
+Keep the current 26 pages closed. Group all 135 GDT485 Werkstattfassungen by
+their readable sentence frames and align minimal pairs that change one
+component while keeping owner, model and surrounding frame fixed. Compile the
+observed phrase change for each component substitution. A stable change becomes
+a forward wording rule; an inconsistent one is marked as real dictionary
+pressure. Do not repair either case by changing a root, model, boundary, page
+or learned name.
