@@ -258,6 +258,16 @@ streaming command stops on an unknown atom or unlicensed recipe before state
 mutation. This is executable integration, not independent meaning evidence;
 33/33 checks pass with no value, surface or page change.
 
+GDT437 audits all 49 main future cards as state transitions over every one of
+the 49 action/argument states reached by GDT436 and all five registers. The old
+renderer has exactly one universal collision: `AIR+Y` and `Y+AIR` share the
+same outgoing state and clause in all 245 cells because relation and argument
+were printed from fixed semantic buckets. An order-preserving renderer places
+a written leading relation first and removes all collision cells; all 49
+transition signatures become unique. Replaying the rule over the current
+edition changes only clause order for 68 events in 59 statements. No root
+meaning, state transition, surface or page changes; 28/28 checks pass.
+
 Pass 1032/GDT404 applies the frozen GDT403 intake contract to a one-shot random
 draw of f1r, f24v, f81r and f95v. The 95 guarded lines add 688 events, 88
 statements and 677 focus attachments. Exactly 470 events retain an old surface

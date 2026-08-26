@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT436.
+Updated: 2026-08-26, after GDT437.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -145,6 +145,16 @@ carry both their own action and argument; fourteen need the incoming action,
 thirteen the incoming argument and `AIR+OL` both. The prospective command now
 supplies that state automatically and stops before an unknown recipe can alter
 it.
+
+GDT437 checks whether that state machine still preserves the written order of
+the 49 cards. Across 49 reachable action/argument states and five registers,
+the old renderer has exactly one universal collision: `AIR+Y` and `Y+AIR`
+produce the same outgoing state and clause in all 245 cells. The repaired
+renderer prints a leading relation first—“Entlang der Ringbahn: …”—while the
+reversed card remains “…; entlang der Ringbahn.” All 49 repaired transition
+signatures are unique. Applying the same narrow rule to the current edition
+reorders 68 clauses in 59 statements without changing a root value, state,
+surface or page.
 
 ## Fixed scope
 
@@ -716,6 +726,10 @@ comparison set.
 
 ## Primary artifacts
 
+- Current GDT437 49-card transition audit, 12,005-cell state matrix, complete
+  collision inventory, 49 repaired signatures, 1,176 pair audit and 68-event
+  order-only repair:
+  `gdt437_future_card_state_transition_order_repair/`;
 - Current GDT413 complete semantic working edition: 46-component dictionary,
   5,269-group ledger, 4,576 running-event readings, 715 complete statements,
   26-page summary, readable compact edition, runner and validator:
@@ -874,8 +888,7 @@ comparison set.
 
 ## Next work
 
-Keep the current 26 pages closed. Turn each of the 49 future cards into an
-explicit state transition over every currently reachable action/argument
-state, then check that distinct ordered cards do not collapse to the same
-incoming-state, outgoing-state and clause signature. Do not change a meaning,
-surface or page.
+Keep the current 26 pages closed. Put the GDT437 order-safe renderer into the
+prospective streaming command, replay the complete 4,576-event edition, and
+then extend collision detection from the 49-card main deck to the complete
+1,563 exact-key intake catalog. Do not change a meaning, surface or page.
