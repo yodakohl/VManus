@@ -1,0 +1,152 @@
+{
+  "status": "PASS",
+  "check_count": 29,
+  "failure_count": 0,
+  "checks": [
+    {
+      "name": "schedule_manifest",
+      "pass": true,
+      "detail": "['LEX_FIRST', 'LEX_LAST', 'HASH_MIN', 'DELETION_FIRST', 'SWAP_FIRST', 'SUBSTITUTION_FIRST']"
+    },
+    {
+      "name": "schedule_count",
+      "pass": true,
+      "detail": "six fixed schedules"
+    },
+    {
+      "name": "source_count",
+      "pass": true,
+      "detail": "observed=4576"
+    },
+    {
+      "name": "schedule_row_count",
+      "pass": true,
+      "detail": "observed=6156"
+    },
+    {
+      "name": "burst_recovery_count",
+      "pass": true,
+      "detail": "observed=3078"
+    },
+    {
+      "name": "bank_row_count",
+      "pass": true,
+      "detail": "observed=342"
+    },
+    {
+      "name": "nonempty_variant_pool",
+      "pass": true,
+      "detail": "nine one-atom sources excluded"
+    },
+    {
+      "name": "selection_declares_no_outcomes",
+      "pass": true,
+      "detail": "6156/6156"
+    },
+    {
+      "name": "variant_selection_reproduces",
+      "pass": true,
+      "detail": "selection ignores neutral decision and blocked-rule columns"
+    },
+    {
+      "name": "no_empty_replacement",
+      "pass": true,
+      "detail": "visible recipes only"
+    },
+    {
+      "name": "one_pair_per_eligible_statement",
+      "pass": true,
+      "detail": "513 per schedule; one ineligible statement"
+    },
+    {
+      "name": "pair_hash_reproduces",
+      "pass": true,
+      "detail": "outcome-blind hashed pair position"
+    },
+    {
+      "name": "baseline_roundtrip",
+      "pass": true,
+      "detail": "4576/4576"
+    },
+    {
+      "name": "replay_contract",
+      "pass": true,
+      "detail": "six complete 4576-event replays"
+    },
+    {
+      "name": "lookahead_contract",
+      "pass": true,
+      "detail": "one card, same statement/page/owner"
+    },
+    {
+      "name": "all_stop_state_safe",
+      "pass": true,
+      "detail": "213/213"
+    },
+    {
+      "name": "total_replay_count",
+      "pass": true,
+      "detail": "observed=27456"
+    },
+    {
+      "name": "only_two_unmutated_stops",
+      "pass": true,
+      "detail": "Counter({('LEX_FIRST', 'G407-E1391'): 1, ('DELETION_FIRST', 'G407-E1391'): 1})"
+    },
+    {
+      "name": "unmutated_stop_recovery",
+      "pass": true,
+      "detail": "known f72r dependent close, one-card recovery"
+    },
+    {
+      "name": "owner_bank_isolation",
+      "pass": true,
+      "detail": "342/342 banks"
+    },
+    {
+      "name": "owner_bank_event_count",
+      "pass": true,
+      "detail": "six times 4576"
+    },
+    {
+      "name": "burst_recovery_totals",
+      "pass": true,
+      "detail": "Counter({'STATE_PARITY_BEFORE_NEXT_FAULT': 2554, 'NEXT_FAULT_BEFORE_PARITY': 460, 'BANK_END_RESET_ISOLATES_DIVERGENCE': 64})"
+    },
+    {
+      "name": "burst_position_stop_safe",
+      "pass": true,
+      "detail": "all 3078 bursts"
+    },
+    {
+      "name": "summary_no_selection_outcome",
+      "pass": true,
+      "detail": "six summaries"
+    },
+    {
+      "name": "no_sealed_pages",
+      "pass": true,
+      "detail": "fixed current pages only"
+    },
+    {
+      "name": "result_counts",
+      "pass": true,
+      "detail": "compact result matches all ledgers"
+    },
+    {
+      "name": "claim_ceiling_zeros",
+      "pass": true,
+      "detail": "no forbidden promotions"
+    },
+    {
+      "name": "deterministic_rebuild",
+      "pass": true,
+      "detail": "all 13 generated artifacts byte-identical"
+    },
+    {
+      "name": "artifact_size_limit",
+      "pass": true,
+      "detail": "all generated files <=5MB"
+    }
+  ]
+}

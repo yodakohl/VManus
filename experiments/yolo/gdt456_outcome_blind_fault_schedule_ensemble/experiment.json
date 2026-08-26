@@ -1,0 +1,55 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Outcome-independent schedule robustness, stop preservation, owner-bank isolation and bounded recovery under six synthetic visible fault streams. No meaning, identity, surface, occurrence, plaintext, language, generation or page claim is licensed.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt456_outcome_blind_fault_schedule_ensemble/src/run.py",
+    "validate": "python3 experiments/yolo/gdt456_outcome_blind_fault_schedule_ensemble/src/validate.py"
+  },
+  "created": "2026-08-26",
+  "dependencies": ["GDT441", "GDT454", "GDT455"],
+  "experiment_id": "GDT456",
+  "inputs": [
+    {"path": "experiments/yolo/gdt441_factor_gated_unseen_recipe_reader/artifacts/gdt441_4576_factor_reader_replay.tsv", "role": "ordered current stream and authoritative states", "sha256": "ade6ef986a0a10a5999a0876f577b44c1583d4d5594e319da39efdabb7221218"},
+    {"path": "experiments/yolo/gdt454_two_card_neighbor_burst_stress/artifacts/gdt454_selected_neighbor_variants.tsv", "role": "fixed one-edit neighbour pool", "sha256": "b842bd917e0a98104d090dd0d5d6678193588f02bc5a91213faf76808cf461e9"},
+    {"path": "experiments/yolo/gdt455_stream_fault_contract/src/stream_fault_driver.py", "role": "stateful owner-bank stream driver", "sha256": "a34882cdb06274bcdaf032ceed0a60b86dc6547df1e9449b11b7f2032e844083"}
+  ],
+  "outputs": [
+    {"path": "experiments/yolo/gdt456_outcome_blind_fault_schedule_ensemble/README.md", "role": "entry point", "sha256": "c168b33dfa8113ba5fdaf942252d6eae061fe8d003f249ee1ef9fe968210ca1e"},
+    {"path": "experiments/yolo/gdt456_outcome_blind_fault_schedule_ensemble/METHOD.md", "role": "outcome-blind method", "sha256": "d1da6359c6fce0290370e3ea0572ee5c67bb2282b262e9607cf398a2acf2b90b"},
+    {"path": "experiments/yolo/gdt456_outcome_blind_fault_schedule_ensemble/REPORT.md", "role": "primary report", "sha256": "7da3d5c98b9abc44bddcc8dba1b51b822abca5f1c97617131248e27146bf8220"},
+    {"path": "experiments/yolo/gdt456_outcome_blind_fault_schedule_ensemble/src/run.py", "role": "deterministic ensemble builder", "sha256": "4012432411732ccd8d7be48fb9cec383005f210d7988b7be07b8fcb4f12fc0a4"},
+    {"path": "experiments/yolo/gdt456_outcome_blind_fault_schedule_ensemble/src/validate.py", "role": "validator", "sha256": "a458de0e87c9dd25dda728c18b4d6a0e9c60c2cc28813d1a365a5ece899f80c6"},
+    {"path": "experiments/yolo/gdt456_outcome_blind_fault_schedule_ensemble/artifacts/README.md", "role": "artifact guide", "sha256": "b0b2cf8437982a6437694424824e054903fb2e4fe9989444de1e952bacd2a251"},
+    {"path": "experiments/yolo/gdt456_outcome_blind_fault_schedule_ensemble/artifacts/gdt456_schedule_manifest.tsv", "role": "six schedule definitions", "sha256": "f62f350a17cb0bd845ed5bfe5ae57c5978b4fe008e7180198718f25abd406c76"},
+    {"path": "experiments/yolo/gdt456_outcome_blind_fault_schedule_ensemble/artifacts/gdt456_all_fault_schedules.tsv", "role": "6156 visible replacements", "sha256": "d72c609c860d3a2590b321d4eb139d64f881783ff3d709ba5cac3c988a9140e4"},
+    {"path": "experiments/yolo/gdt456_outcome_blind_fault_schedule_ensemble/artifacts/gdt456_schedule_summary.tsv", "role": "per-schedule outcomes", "sha256": "1a95613b3e84c55537a296e0704177ac0240a9a6899b835f93fff8c0b12ab029"},
+    {"path": "experiments/yolo/gdt456_outcome_blind_fault_schedule_ensemble/artifacts/gdt456_burst_recovery.tsv", "role": "3078 burst recovery traces", "sha256": "cd9c8159c0fd5a52b36c98bcb4cda67aeefcb5f2aaebf3a62f9bb9123ab6746b"},
+    {"path": "experiments/yolo/gdt456_outcome_blind_fault_schedule_ensemble/artifacts/gdt456_owner_bank_isolation.tsv", "role": "342 isolated-bank comparisons", "sha256": "cec3ce436947bc8c17fc8ebfce9e81dc23e1c606b413cd819092df3d38ffa30e"},
+    {"path": "experiments/yolo/gdt456_outcome_blind_fault_schedule_ensemble/artifacts/gdt456_unmutated_stop_recovery.tsv", "role": "two dependent close recoveries", "sha256": "47368e145ab9057a94997bcc9c306feda2742c7689c7883d32c0ad252b73b41e"},
+    {"path": "experiments/yolo/gdt456_outcome_blind_fault_schedule_ensemble/artifacts/gdt456_replay_lex_first.tsv", "role": "lex-first full replay", "sha256": "1f029715181ea962dc339e797b334cb290d884349c8dc5942fd3a3c9cff56ed9"},
+    {"path": "experiments/yolo/gdt456_outcome_blind_fault_schedule_ensemble/artifacts/gdt456_replay_lex_last.tsv", "role": "lex-last full replay", "sha256": "2f2d82b6d6fd91b3c80e6acce1ec20bcfa7ff8627743e8ca47042311ae0b37ad"},
+    {"path": "experiments/yolo/gdt456_outcome_blind_fault_schedule_ensemble/artifacts/gdt456_replay_hash_min.tsv", "role": "hash-ranked full replay", "sha256": "543a65b92a9c21d11c3ecfe5af4c7b33725dd611f08e983c5ab188fa67ebf6a8"},
+    {"path": "experiments/yolo/gdt456_outcome_blind_fault_schedule_ensemble/artifacts/gdt456_replay_deletion_first.tsv", "role": "deletion-first full replay", "sha256": "9b7524a4da71cbb48fa9946672d7f3c0fbb6eeeb35f0648ce7577825a35cca46"},
+    {"path": "experiments/yolo/gdt456_outcome_blind_fault_schedule_ensemble/artifacts/gdt456_replay_swap_first.tsv", "role": "swap-first full replay", "sha256": "00a3430ff22b788f67032c0ed12bd9d9e2ca88c893de266b408c122b65a63df8"},
+    {"path": "experiments/yolo/gdt456_outcome_blind_fault_schedule_ensemble/artifacts/gdt456_replay_substitution_first.tsv", "role": "substitution-first full replay", "sha256": "38d5eef834fa41d54218e00774854f91c54d5bcbc6de273b8f8e1fd1f03167da"},
+    {"path": "experiments/yolo/gdt456_outcome_blind_fault_schedule_ensemble/artifacts/gdt456_result.json", "role": "compact result", "sha256": "c69ad35f6c8a8b53c0db0ce8c3110fb4f02dec146eac299063a119f8ca55305b"},
+    {"path": "experiments/yolo/gdt456_outcome_blind_fault_schedule_ensemble/artifacts/gdt456_validation.json", "role": "validation report", "sha256": "49ba3bfed2f8c9be57e9fece97f2c47f88f304487828afcce64f22bc70f0408d"}
+  ],
+  "question": "Does the dense stateful fault contract remain safe across six nonempty neighbour schedules chosen without using any prior read, stop or blocked-factor outcome?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "outcome_blind_fault_schedule_ensemble",
+  "status": "OUTCOME_BLIND_SCHEDULE_ENSEMBLE_PRESERVES_STOPS_AND_OWNER_BANKS",
+  "title": "outcome blind fault schedule ensemble",
+  "updated": "2026-08-26",
+  "validation": {
+    "artifact": "experiments/yolo/gdt456_outcome_blind_fault_schedule_ensemble/artifacts/gdt456_validation.json",
+    "status": "PASS"
+  }
+}

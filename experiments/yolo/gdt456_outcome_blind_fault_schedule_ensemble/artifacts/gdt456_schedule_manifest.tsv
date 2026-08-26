@@ -1,0 +1,7 @@
+schedule_ordinal	schedule_id	variant_selection_rule	pair_selection_rule	eligible_statement_count	replacement_count	uses_neutral_decision	uses_blocked_factor_rule	uses_live_outcome
+1	LEX_FIRST	lexicographically first target and neighbour	SHA256(SCHEDULE_ID|STATEMENT_ID)_MOD_ELIGIBLE_ADJACENT_PAIRS	513	1026	NO	NO	NO
+2	LEX_LAST	lexicographically last target and neighbour	SHA256(SCHEDULE_ID|STATEMENT_ID)_MOD_ELIGIBLE_ADJACENT_PAIRS	513	1026	NO	NO	NO
+3	HASH_MIN	smallest source-bound SHA-256 rank	SHA256(SCHEDULE_ID|STATEMENT_ID)_MOD_ELIGIBLE_ADJACENT_PAIRS	513	1026	NO	NO	NO
+4	DELETION_FIRST	atom deletion, then swap, then substitution	SHA256(SCHEDULE_ID|STATEMENT_ID)_MOD_ELIGIBLE_ADJACENT_PAIRS	513	1026	NO	NO	NO
+5	SWAP_FIRST	adjacent swap, then substitution, then deletion	SHA256(SCHEDULE_ID|STATEMENT_ID)_MOD_ELIGIBLE_ADJACENT_PAIRS	513	1026	NO	NO	NO
+6	SUBSTITUTION_FIRST	same-class substitution, then swap, then deletion	SHA256(SCHEDULE_ID|STATEMENT_ID)_MOD_ELIGIBLE_ADJACENT_PAIRS	513	1026	NO	NO	NO

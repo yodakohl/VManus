@@ -457,6 +457,20 @@ at an isolated owner boundary. Validation passes 39/39; no identity, meaning,
 surface, occurrence or page change. Next replay an outcome-blind ensemble of
 visible schedules to remove dependence on this stop-prioritized selection.
 
+GDT456 performs six such replays. Lex-first, lex-last, source-hash,
+deletion-first, swap-first and substitution-first choose only from source,
+mutation family, target recipe, neighbour ID and statement hash; no prior
+read/stop or blocked-rule column is consulted. Each schedule injects 1,026
+nonempty replacements into 513 statements, for 27,456 total stream events and
+6,156 replacements. Stop totals vary honestly from four to 50, but all 213
+stops preserve state and all 342 isolated owner-bank runs match globally. The
+only two stops on untouched cards are the same f72r `EEE+DY` after a removed
+head; both recover on `G407-E1392` one card later. Across 3,078 bursts, 2,554
+regain parity before the next fault, 460 meet that fault first and 64 end at a
+bank boundary. Validation passes 29/29; no identity, meaning, surface,
+occurrence or page change. Next test increasing contiguous unknown-island
+lengths to find the actual recovery horizon beyond two-card bursts.
+
 Pass 1032/GDT404 applies the frozen GDT403 intake contract to a one-shot random
 draw of f1r, f24v, f81r and f95v. The 95 guarded lines add 688 events, 88
 statements and 677 focus attachments. Exactly 470 events retain an old surface

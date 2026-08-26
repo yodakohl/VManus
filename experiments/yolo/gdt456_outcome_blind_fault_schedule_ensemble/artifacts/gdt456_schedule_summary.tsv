@@ -1,0 +1,7 @@
+schedule_id	variant_selection_rule	burst_count	replacement_count	deletion_count	swap_count	substitution_count	green_count	amber_count	stop_count	mutated_stop_count	unmutated_stop_count	untouched_readable_count	stop_state_failure_count	owner_bank_exact_count	owner_bank_event_exact_count	parity_before_next_fault_count	next_fault_before_parity_count	bank_end_isolation_count	identity_override_count	advisory_override_count
+LEX_FIRST	lexicographically first target and neighbour	513	1026	304	46	676	4518	20	38	37	1	3549	0	57	4576	419	83	11	0	0
+LEX_LAST	lexicographically last target and neighbour	513	1026	251	332	443	4519	16	41	41	0	3550	0	57	4576	431	71	11	0	0
+HASH_MIN	smallest source-bound SHA-256 rank	513	1026	317	305	404	4512	20	44	44	0	3550	0	57	4576	428	73	12	0	0
+DELETION_FIRST	atom deletion, then swap, then substitution	513	1026	862	0	164	4554	18	4	3	1	3549	0	57	4576	424	79	10	0	0
+SWAP_FIRST	adjacent swap, then substitution, then deletion	513	1026	0	852	174	4500	26	50	50	0	3550	0	57	4576	437	69	7	0	0
+SUBSTITUTION_FIRST	same-class substitution, then swap, then deletion	513	1026	0	9	1017	4521	19	36	36	0	3550	0	57	4576	415	85	13	0	0
