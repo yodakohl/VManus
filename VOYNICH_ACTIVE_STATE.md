@@ -411,6 +411,18 @@ path. Validation passes 35/35; no meaning, surface, occurrence or page change.
 Next replay the actual following source card after all context-conditioned
 stops to test full recovery beyond GDT442's 47 minimal probes.
 
+GDT452 expands the 5,911 stopped probe rows to 6,008 actual source-event
+occurrences and feeds the genuine following source card after the preserved
+state. All 6,008 first stops remain state-safe. Of 5,243 occurrences with a
+same-statement following card, 5,231 recover green and nine amber. The only
+three second stops are mutations of one f89r card: rejecting its red `P>R`
+pair correctly leaves the following `Y+O+DY` without the required head. All
+three recover green on `OT+E+OL` at the next statement. The remaining 765
+stops end their statement and have no immediate recovery card. Validation
+passes 38/38; no meaning, surface, occurrence or page change. Next test the
+first card beyond all 765 terminal stops, separating same-owner carry from
+owner/page reset.
+
 Pass 1032/GDT404 applies the frozen GDT403 intake contract to a one-shot random
 draw of f1r, f24v, f81r and f95v. The 95 guarded lines add 688 events, 88
 statements and 677 focus attachments. Exactly 470 events retain an old surface

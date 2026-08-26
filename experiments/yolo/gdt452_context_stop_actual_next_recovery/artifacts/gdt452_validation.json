@@ -1,0 +1,256 @@
+{
+  "status": "PASS",
+  "check_count": 38,
+  "failure_count": 0,
+  "checks": [
+    {
+      "name": "builder_exit_zero",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "name": "deterministic_rebuild",
+      "passed": true,
+      "detail": {
+        "before": {
+          "gdt452_stop_occurrence_recovery.tsv": "9f9bbe978f6abd80e5888b9981a925264763f889878c0fe9fcbe82336006deb3",
+          "gdt452_recovery_summary.tsv": "78f1e3aceb35eef4592af07d1bf2aee3fce2d79d1a0d7eab021ed686372c2139",
+          "gdt452_recovery_exceptions.tsv": "6d4b52a448348f2dbfa19c0a340b19245b79d546dc4709768025f361836237c7",
+          "gdt452_result.json": "55368303fac4e004d2ba35bf718722927b4eb8a03f9bc6fbb9e1d571a0631667"
+        },
+        "after": {
+          "gdt452_stop_occurrence_recovery.tsv": "9f9bbe978f6abd80e5888b9981a925264763f889878c0fe9fcbe82336006deb3",
+          "gdt452_recovery_summary.tsv": "78f1e3aceb35eef4592af07d1bf2aee3fce2d79d1a0d7eab021ed686372c2139",
+          "gdt452_recovery_exceptions.tsv": "6d4b52a448348f2dbfa19c0a340b19245b79d546dc4709768025f361836237c7",
+          "gdt452_result.json": "55368303fac4e004d2ba35bf718722927b4eb8a03f9bc6fbb9e1d571a0631667"
+        }
+      }
+    },
+    {
+      "name": "occurrence_rows_6008",
+      "passed": true,
+      "detail": 6008
+    },
+    {
+      "name": "unique_recovery_ids",
+      "passed": true,
+      "detail": 6008
+    },
+    {
+      "name": "unique_stop_scenarios",
+      "passed": true,
+      "detail": "6008"
+    },
+    {
+      "name": "all_source_events_known",
+      "passed": true,
+      "detail": "all known"
+    },
+    {
+      "name": "all_stop_reissues_stop",
+      "passed": true,
+      "detail": {
+        "STOP": 6008
+      }
+    },
+    {
+      "name": "all_stops_state_safe",
+      "passed": true,
+      "detail": {
+        "YES": 6008
+      }
+    },
+    {
+      "name": "all_next_align",
+      "passed": true,
+      "detail": {
+        "YES": 6008
+      }
+    },
+    {
+      "name": "no_identity_override",
+      "passed": true,
+      "detail": "all NO"
+    },
+    {
+      "name": "no_advisory_override",
+      "passed": true,
+      "detail": "all NO"
+    },
+    {
+      "name": "no_new_claims",
+      "passed": true,
+      "detail": "all NO"
+    },
+    {
+      "name": "recovery_counts_exact",
+      "passed": true,
+      "detail": {
+        "RECOVERED_GREEN": 5231,
+        "NO_FOLLOWING_CARD": 765,
+        "RECOVERED_AMBER": 9,
+        "RECOVERY_STOP": 3
+      }
+    },
+    {
+      "name": "available_count_5243",
+      "passed": true,
+      "detail": 5243
+    },
+    {
+      "name": "readable_recovery_5240",
+      "passed": true,
+      "detail": 5240
+    },
+    {
+      "name": "no_card_rows_consistent",
+      "passed": true,
+      "detail": "all consistent"
+    },
+    {
+      "name": "baseline_to_recovery_transitions",
+      "passed": true,
+      "detail": {
+        "READ|READ": 5231,
+        "READ_AMBER|READ_AMBER": 1,
+        "READ|STOP": 3,
+        "READ|READ_AMBER": 8
+      }
+    },
+    {
+      "name": "cascade_count_3",
+      "passed": true,
+      "detail": 3
+    },
+    {
+      "name": "cascade_one_source_event",
+      "passed": true,
+      "detail": [
+        "G407-E4231"
+      ]
+    },
+    {
+      "name": "cascade_one_following_close",
+      "passed": true,
+      "detail": [
+        "Y+O+DY"
+      ]
+    },
+    {
+      "name": "cascade_reason_headless_close",
+      "passed": true,
+      "detail": [
+        "CLOSE:NO_ACTIVE_ACTION"
+      ]
+    },
+    {
+      "name": "cascade_statement_terminal",
+      "passed": true,
+      "detail": {
+        "NONE": 3
+      }
+    },
+    {
+      "name": "cascade_target_pair_pr",
+      "passed": true,
+      "detail": [
+        "PAIR:P>R",
+        "PAIR:P>R",
+        "PAIR:P>R"
+      ]
+    },
+    {
+      "name": "cascade_boundary_event_exact",
+      "passed": true,
+      "detail": [
+        "OT+E+OL"
+      ]
+    },
+    {
+      "name": "cascade_recovers_at_next_statement",
+      "passed": true,
+      "detail": {
+        "RECOVERED_AT_NEXT_STATEMENT": 3
+      }
+    },
+    {
+      "name": "all_6008_two_step_reissues_match",
+      "passed": true,
+      "detail": 6008
+    },
+    {
+      "name": "summary_nonempty",
+      "passed": true,
+      "detail": 219
+    },
+    {
+      "name": "summary_occurrences_6008",
+      "passed": true,
+      "detail": 6008
+    },
+    {
+      "name": "exception_rows_768",
+      "passed": true,
+      "detail": 768
+    },
+    {
+      "name": "exception_statuses_exact",
+      "passed": true,
+      "detail": {
+        "NO_FOLLOWING_CARD": 765,
+        "RECOVERY_STOP": 3
+      }
+    },
+    {
+      "name": "result_status",
+      "passed": true,
+      "detail": "ACTUAL_NEXT_CARD_RECOVERY_AUDITED_AFTER_ALL_CONTEXT_STOPS"
+    },
+    {
+      "name": "result_stop_probes_5911",
+      "passed": true,
+      "detail": 5911
+    },
+    {
+      "name": "result_occurrences_6008",
+      "passed": true,
+      "detail": 6008
+    },
+    {
+      "name": "result_all_stop_safe",
+      "passed": true,
+      "detail": {
+        "match": 6008,
+        "safe": 6008
+      }
+    },
+    {
+      "name": "result_next_alignment",
+      "passed": true,
+      "detail": 6008
+    },
+    {
+      "name": "result_three_cascades_recover",
+      "passed": true,
+      "detail": {
+        "cascade": 3,
+        "recovered": 3
+      }
+    },
+    {
+      "name": "result_no_new_claims",
+      "passed": true,
+      "detail": {
+        "meaning_revisions": 0,
+        "surface_predictions": 0,
+        "occurrence_predictions": 0,
+        "new_pages": 0
+      }
+    },
+    {
+      "name": "sealed_tokens_absent",
+      "passed": true,
+      "detail": []
+    }
+  ]
+}

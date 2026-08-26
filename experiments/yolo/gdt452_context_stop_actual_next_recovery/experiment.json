@@ -1,0 +1,58 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "The 6,008-row recovery ledger is retained so every synthetic stop remains bound to its actual following source event and preserved state; it remains below the configured inline limit.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Recovery behavior of the existing executable reader after synthetic context-conditioned stops. No new meaning, identity, surface, occurrence, plaintext, language, or page claim is licensed.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt452_context_stop_actual_next_recovery/src/run.py",
+    "validate": "python3 experiments/yolo/gdt452_context_stop_actual_next_recovery/src/validate.py"
+  },
+  "created": "2026-08-26",
+  "dependencies": ["GDT441", "GDT448", "GDT451"],
+  "experiment_id": "GDT452",
+  "inputs": [
+    {"path": "experiments/yolo/gdt451_integrated_context_safe_intake/src/intake_command.py", "role": "integrated authoritative intake command", "sha256": "15b5a07323fe339b6701979bf78fb486d0bffa798e6cae5cd9eac3a72acf0adb"},
+    {"path": "experiments/yolo/gdt441_factor_gated_unseen_recipe_reader/artifacts/gdt441_4576_factor_reader_replay.tsv", "role": "ordered current stream and actual following cards", "sha256": "ade6ef986a0a10a5999a0876f577b44c1583d4d5594e319da39efdabb7221218"},
+    {"path": "experiments/yolo/gdt448_context_conditioned_neighbor_replay/artifacts/gdt448_context_neighbor_replay_part01.tsv", "role": "context replay shard 1", "sha256": "2a19025e62e3b06e9a8ba190415049958999941ef1cfb9193048b06484ddbfc9"},
+    {"path": "experiments/yolo/gdt448_context_conditioned_neighbor_replay/artifacts/gdt448_context_neighbor_replay_part02.tsv", "role": "context replay shard 2", "sha256": "a57d5f6e14d7ce2ad8610c89f7bc3f90599b4904c9fbb175702783bfe8afdf23"},
+    {"path": "experiments/yolo/gdt448_context_conditioned_neighbor_replay/artifacts/gdt448_context_neighbor_replay_part03.tsv", "role": "context replay shard 3", "sha256": "b1891ae0029919fbd70b5df8d55865c63177be3777c614260e3693dbd3d41854"},
+    {"path": "experiments/yolo/gdt448_context_conditioned_neighbor_replay/artifacts/gdt448_context_neighbor_replay_part04.tsv", "role": "context replay shard 4", "sha256": "c749197c92a23ba52449fbdb3b76c53e207427d00a1eaa43fdce3d53bb02571d"},
+    {"path": "experiments/yolo/gdt448_context_conditioned_neighbor_replay/artifacts/gdt448_context_neighbor_replay_part05.tsv", "role": "context replay shard 5", "sha256": "6d34e96b8664168c031b762f9c6d922a89b14e56deff1d53e49dff25006858ac"},
+    {"path": "experiments/yolo/gdt448_context_conditioned_neighbor_replay/artifacts/gdt448_context_neighbor_replay_part06.tsv", "role": "context replay shard 6", "sha256": "2f0c56dff9442e1f3429bbecd8ebe8961cd4b0a885cb5d5e492d8146fd468226"},
+    {"path": "experiments/yolo/gdt448_context_conditioned_neighbor_replay/artifacts/gdt448_context_neighbor_replay_part07.tsv", "role": "context replay shard 7", "sha256": "a979addf3bd6ad1e1d10be49703dc664c0275d6fe6eeaf289f93efc6742eaef9"},
+    {"path": "experiments/yolo/gdt448_context_conditioned_neighbor_replay/artifacts/gdt448_context_neighbor_replay_part08.tsv", "role": "context replay shard 8", "sha256": "a8358dfd425327e0b0b57118fb1a69585c5e84f11983a69429855789d3f99b26"},
+    {"path": "experiments/yolo/gdt448_context_conditioned_neighbor_replay/artifacts/gdt448_context_neighbor_replay_part09.tsv", "role": "context replay shard 9", "sha256": "471cd4dfff171e216e076f7d34280122a7aae12f5af4291442b8052eb9ae48fc"},
+    {"path": "experiments/yolo/gdt448_context_conditioned_neighbor_replay/artifacts/gdt448_context_neighbor_replay_part10.tsv", "role": "context replay shard 10", "sha256": "0307877409447642eb6cf84aa04df5037f2d20ab0dbfb8927cad8e5166befe92"},
+    {"path": "experiments/yolo/gdt448_context_conditioned_neighbor_replay/artifacts/gdt448_context_neighbor_replay_part11.tsv", "role": "context replay shard 11", "sha256": "f288daf593a4d830bf238102b01a5a5b79bcd3492c86c48bd5905fbcf3965bcf"},
+    {"path": "experiments/yolo/gdt448_context_conditioned_neighbor_replay/artifacts/gdt448_context_neighbor_replay_part12.tsv", "role": "context replay shard 12", "sha256": "5aa88dd4a6bc1e7e1006ed55af157222852df906100e4e7a89653fa0d36ff8cc"},
+    {"path": "experiments/yolo/gdt448_context_conditioned_neighbor_replay/artifacts/gdt448_context_neighbor_replay_part13.tsv", "role": "context replay shard 13", "sha256": "28de8bfd8d4cc73e7e75a014a952932b83302dabeb78568d65704264cd645376"}
+  ],
+  "outputs": [
+    {"path": "experiments/yolo/gdt452_context_stop_actual_next_recovery/README.md", "role": "entry point", "sha256": "223207f13df6584d24ba21c7b6356bc2f7307afa746d562cb73518514aefcb25"},
+    {"path": "experiments/yolo/gdt452_context_stop_actual_next_recovery/METHOD.md", "role": "recovery method", "sha256": "0b34002e73850ade81a8cc273865b6c7083545cf2b6620eca756b0eaa05207db"},
+    {"path": "experiments/yolo/gdt452_context_stop_actual_next_recovery/REPORT.md", "role": "primary report", "sha256": "ebc18fe0a82e4c51ad59c5788e3ce7f4a315e577ddb6d8d7588b0883f04808b3"},
+    {"path": "experiments/yolo/gdt452_context_stop_actual_next_recovery/src/run.py", "role": "deterministic builder", "sha256": "7f3acec3f917f20b3d576ae42d508ca4142894d8e6068c745ebf250edaa30272"},
+    {"path": "experiments/yolo/gdt452_context_stop_actual_next_recovery/src/validate.py", "role": "validator", "sha256": "060396c5fa39d216348df05e2bb1e73460dd45e0befa240ae35205f43545fdcc"},
+    {"path": "experiments/yolo/gdt452_context_stop_actual_next_recovery/artifacts/README.md", "role": "artifact guide", "sha256": "8960a8a545d5498bf80919354315affa1d9e94a806dc7018195e218bbdf1a4b8"},
+    {"path": "experiments/yolo/gdt452_context_stop_actual_next_recovery/artifacts/gdt452_stop_occurrence_recovery.tsv", "role": "complete stop-to-next occurrence replay", "sha256": "9f9bbe978f6abd80e5888b9981a925264763f889878c0fe9fcbe82336006deb3"},
+    {"path": "experiments/yolo/gdt452_context_stop_actual_next_recovery/artifacts/gdt452_recovery_summary.tsv", "role": "factor and mutation summary", "sha256": "78f1e3aceb35eef4592af07d1bf2aee3fce2d79d1a0d7eab021ed686372c2139"},
+    {"path": "experiments/yolo/gdt452_context_stop_actual_next_recovery/artifacts/gdt452_recovery_exceptions.tsv", "role": "terminal and dependent-close cases", "sha256": "6d4b52a448348f2dbfa19c0a340b19245b79d546dc4709768025f361836237c7"},
+    {"path": "experiments/yolo/gdt452_context_stop_actual_next_recovery/artifacts/gdt452_result.json", "role": "compact result", "sha256": "55368303fac4e004d2ba35bf718722927b4eb8a03f9bc6fbb9e1d571a0631667"},
+    {"path": "experiments/yolo/gdt452_context_stop_actual_next_recovery/artifacts/gdt452_validation.json", "role": "validation report", "sha256": "108dd88758bab324eca1fa8326ec18a58dcf3245bc16ecc305c61a262bf183a7"}
+  ],
+  "question": "After every context-conditioned stop, does the actual following source card recover under the preserved state, and do any dependent cascades resynchronize at the next statement?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "context_stop_actual_next_recovery",
+  "status": "ACTUAL_NEXT_CARD_RECOVERY_WITH_THREE_SAFE_DEPENDENT_CLOSE_CASCADES",
+  "title": "context stop actual next recovery",
+  "updated": "2026-08-26",
+  "validation": {
+    "artifact": "experiments/yolo/gdt452_context_stop_actual_next_recovery/artifacts/gdt452_validation.json",
+    "status": "PASS"
+  }
+}
