@@ -11773,3 +11773,28 @@ No meaning, model, boundary, surface, recipe, Event or page changes;
 validation passes 93/93. Next map the eleven GDT428 T/R frames into a typed
 EINSTELLEN composition neighbourhood and seek their unchanged partial frames
 inside the fixed 183 Events; do not widen replacement matching again.
+
+## GDT489 EINSTELLEN typed composition neighbourhood
+
+GDT489 inverts GDT428's eleven exact T/R replacement frames. Their T and R
+sides carry 30 and 46 external events. Ten frames have a nonempty ordered
+neighbour context; nine contexts recur in the fixed local material as 168
+frame×Event witnesses/175 positions over 121 distinct Events. Only
+`CHD+Y=BEARBEITEN+POSTEN` is locally absent.
+
+Context recurrence alone creates no EINSTELLEN edge. The two actual local T
+Events do make three full T-frame contacts: `CH+T` is one complete f72r Event
+and a prefix of f88v `CH+T+Y`; that second Event also carries `T+Y` as a
+suffix. These yield exactly two typed composition edges, NEHMEN before
+EINSTELLEN and POSTEN after EINSTELLEN, while retaining all observed wording.
+
+The POSTEN edge joins GDT487's twice recurrent POSTEN/HIER replacement edge.
+The last GDT486 singleton therefore has the alternate typed path
+`EINSTELLEN → POSTEN → HIER`. It remains a capacity-limited replacement
+endpoint rather than being mislabeled a pure replacement cycle. Across the
+sixteen former singleton rules, fifteen now have pure replacement cycles and
+one has this explicit composition/replacement path; all sixteen are connected.
+
+No meaning, wording, model, boundary, surface, recipe, Event or page changes;
+validation passes 98/98. Next recover further concrete T wording only from
+readable old GDT428 T carriers; context recurrence alone may not invent prose.

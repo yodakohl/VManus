@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT488.
+Updated: 2026-08-26, after GDT489.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -254,6 +254,17 @@ capacity-limited replacement endpoint: its two local carriers `CH+T` and
 `CH+T+Y` both say “einstellen”, and `CH+T` meets GDT428's exact
 `CH+@ACTION` T/R frame, but neither relaxation creates a second local
 replacement edge.
+
+GDT489 stops treating that absence as a reason to broaden replacement. The
+eleven exact GDT428 T/R frames contain ten nonempty neighbour contexts; nine
+already recur locally in 168 frame×Event witnesses across 121 Events. More
+importantly, the two actual T carriers make three nontrivial contacts:
+`CH+T` once as a whole Event and once as a prefix, plus `T+Y` once as a
+suffix. Thus EINSTELLEN has typed composition edges from NEHMEN and to POSTEN.
+Because POSTEN/HIER is a twice recurrent replacement edge, the last singleton
+has the mixed route `EINSTELLEN → POSTEN → HIER`. Replacement and composition
+remain distinct: the final inventory is fifteen pure replacement cycles and
+one explicit mixed path, with all sixteen singletons connected.
 
 GDT428 now supplies the missing semantic contrast deck. Six within-class
 comparisons contain 104 exact frames where only the action root changes. The
@@ -1043,6 +1054,10 @@ comparison set.
 
 ## Primary artifacts
 
+- Current GDT489 typed EINSTELLEN neighbourhood, eleven T/R frames, 168 local
+  context witnesses, three local T contacts, two composition edges and the
+  mixed path connecting the sixteenth singleton:
+  `gdt489_einstellen_typed_composition_neighbourhood/`;
 - Current GDT488 single-relaxation endpoint deck, one closed HALTEN cycle,
   three new same-page Eventkontraste and the two-carrier EINSTELLEN capacity
   diagnosis:
@@ -1276,10 +1291,9 @@ comparison set.
 
 ## Next work
 
-Keep the current 26 pages closed. Stop widening the replacement search:
-`HALTEN` is closed and `EINSTELLEN` has no second local replacement partner at
-this capacity. Instead invert the eleven exact GDT428 T/R frames into an
-EINSTELLEN composition neighbourhood. Track which stable neighbours—especially
-WERT, ANTEIL, ZIELORT, FORTSETZEN and POSTEN—already recur as unchanged
-partial frames in the fixed 183 Events. Keep composition edges visibly
-different from replacement edges and preserve both local T readings.
+Keep the current 26 pages closed. Use the actual T-side carriers behind the
+eleven GDT428 frames to recover concrete existing wording for EINSTELLEN with
+WERT, ANTEIL, ZIELORT, FORTSETZEN and POSTEN. Promote a German phrase only
+when a readable old carrier supplies it; do not manufacture a phrase from the
+mere 168 context witnesses. Keep the absent local `CHD+Y` context open and
+retain the composition/replacement edge distinction.
