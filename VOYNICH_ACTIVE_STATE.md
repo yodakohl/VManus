@@ -563,6 +563,23 @@ separately: suffix `oin` (3/3), prefix `kor` (2/2), prefix `yky` (1/1), and
 suffix `cfhy` (1/1); require independent package or paradigm support rather
 than counting perfect precision on one to three examples as sufficient.
 
+GDT463 supplies that independent support. All four thin edges retain their
+exact recipe in every observed extension, and each complete recipe sequence
+occurs on at least four running-text pages: `oin=O+IIN` has 16 carrier surfaces
+and 28 events on thirteen pages; `kor=K+OR` has ten/14 on nine; `yky=Y+K+Y`
+has three/five on four; and `cfhy=CH+LOCAL_CHAR_F+Y` has three/four on four.
+The `oin` bridge also sits beside completely filled `ain=AIN` (53/53) and
+`aiin=AIIN` (89/89) suffix axes. Two targets close fully from exact chunks:
+`korainy = korain|y = GEBEN · EINHEIT · ANTEIL · POSTEN` and `ykyd = yky|d =
+POSTEN · GEBEN · POSTEN · HIER`; both reproduce GDT459's old green minimal
+recipes. `opoiiinoin` gains only suffix `oin`, while `ykocfhy` gains only suffix
+`cfhy`, preserving their left name cores. The deck now has fourteen full
+formulas, 85 function-shell/name-core hybrids, one family-only label and seven
+whole labels. Functional material covers 413/713 characters and 99 labels;
+100/107 have some structure. Next inspect only the seven remaining wholes for
+exact multi-card chunks or replicated owner families, not for another relaxed
+single-edge threshold.
+
 Pass 1032/GDT404 applies the frozen GDT403 intake contract to a one-shot random
 draw of f1r, f24v, f81r and f95v. The 95 guarded lines add 688 events, 88
 statements and 677 focus attachments. Exactly 470 events retain an old surface

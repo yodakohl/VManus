@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **461**
-- Experiment-associated tracked files: **6,640** (779.6 MiB)
-- Structured GDT337+ experiments: **126**
+- Experiments indexed: **462**
+- Experiment-associated tracked files: **6,655** (779.7 MiB)
+- Structured GDT337+ experiments: **127**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT463 | GDT463_low_support_exact_card_edge_bridges | `FOUR_LOW_SUPPORT_EXACT_CARD_BRIDGES_REDUCE_WHOLE_LABEL_TAIL_TO_SEVEN` | [report](../experiments/yolo/gdt463_low_support_exact_card_edge_bridges/REPORT.md) | 15 | 99.9 KiB | 4 | STRUCTURED_YOLO |
 | GDT462 | GDT462_near_threshold_ar_edge_exception_audit | `NEAR_THRESHOLD_AR_PREFIX_PROMOTED_BY_EXACT_REPEATED_RELATION_PACKAGE` | [report](../experiments/yolo/gdt462_near_threshold_ar_edge_exception_audit/REPORT.md) | 15 | 93.8 KiB | 3 | STRUCTURED_YOLO |
 | GDT461 | GDT461_internal_stem_residual_bridge | `INTERNAL_FUNCTION_STEMS_REDUCE_WHOLE_LABEL_TAIL_TO_THIRTEEN` | [report](../experiments/yolo/gdt461_internal_stem_residual_bridge/REPORT.md) | 15 | 112.1 KiB | 4 | STRUCTURED_YOLO |
 | GDT460 | GDT460_learned_label_edge_stem_atlas | `HYBRID_FUNCTION_EDGES_AND_LEARNED_NAME_CORES` | [report](../experiments/yolo/gdt460_learned_label_edge_stem_atlas/REPORT.md) | 13 | 102.3 KiB | 3 | STRUCTURED_YOLO |
