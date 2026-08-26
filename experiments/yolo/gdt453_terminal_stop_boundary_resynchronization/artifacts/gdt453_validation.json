@@ -1,0 +1,195 @@
+{
+  "status": "PASS",
+  "check_count": 26,
+  "failure_count": 0,
+  "checks": [
+    {
+      "name": "builder_exit_zero",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "name": "deterministic_rebuild",
+      "passed": true,
+      "detail": {
+        "before": {
+          "gdt453_765_terminal_boundary_recovery.tsv": "5dd3900f5a6b232aa55ac625e1bf9f6eb84d55acb33acc468ff6479a2a90ebba",
+          "gdt453_boundary_summary.tsv": "fea25b891a528b128c365511d974ae1999e1cb6a24e01a1193fa91eb7f788c17",
+          "gdt453_boundary_warnings.tsv": "f74a3bfc1d76874faed39ef3489e949db75815de2cd98cb942138490db769df4",
+          "gdt453_result.json": "91e47a9a2c0dee9cf5990dcb8b734a785822656701e1231c4961cde32d984931"
+        },
+        "after": {
+          "gdt453_765_terminal_boundary_recovery.tsv": "5dd3900f5a6b232aa55ac625e1bf9f6eb84d55acb33acc468ff6479a2a90ebba",
+          "gdt453_boundary_summary.tsv": "fea25b891a528b128c365511d974ae1999e1cb6a24e01a1193fa91eb7f788c17",
+          "gdt453_boundary_warnings.tsv": "f74a3bfc1d76874faed39ef3489e949db75815de2cd98cb942138490db769df4",
+          "gdt453_result.json": "91e47a9a2c0dee9cf5990dcb8b734a785822656701e1231c4961cde32d984931"
+        }
+      }
+    },
+    {
+      "name": "rows_765",
+      "passed": true,
+      "detail": 765
+    },
+    {
+      "name": "unique_ids",
+      "passed": true,
+      "detail": 765
+    },
+    {
+      "name": "all_initial_stops",
+      "passed": true,
+      "detail": {
+        "STOP": 765
+      }
+    },
+    {
+      "name": "all_initial_stops_safe",
+      "passed": true,
+      "detail": {
+        "YES": 765
+      }
+    },
+    {
+      "name": "boundary_classes_exact",
+      "passed": true,
+      "detail": {
+        "SAME_PAGE_NEW_OWNER_BANK": 29,
+        "SAME_OWNER_NEXT_STATEMENT": 695,
+        "NEW_PAGE_OWNER_BANK": 31,
+        "END_OF_STREAM": 10
+      }
+    },
+    {
+      "name": "boundary_status_exact",
+      "passed": true,
+      "detail": {
+        "BOUNDARY_RECOVERED_GREEN": 755,
+        "NO_BOUNDARY_CARD": 10
+      }
+    },
+    {
+      "name": "all_available_green",
+      "passed": true,
+      "detail": "755 READ"
+    },
+    {
+      "name": "end_rows_no_card",
+      "passed": true,
+      "detail": "10 no-card"
+    },
+    {
+      "name": "end_rows_one_source_event",
+      "passed": true,
+      "detail": [
+        "G407-E4576"
+      ]
+    },
+    {
+      "name": "same_owner_uses_preserved_state",
+      "passed": true,
+      "detail": "695"
+    },
+    {
+      "name": "owner_page_resets_use_independent_bank",
+      "passed": true,
+      "detail": "60"
+    },
+    {
+      "name": "no_cross_owner_state_leak",
+      "passed": true,
+      "detail": {
+        "NO": 60,
+        "NOT_APPLICABLE": 705
+      }
+    },
+    {
+      "name": "scope_resets_at_boundaries",
+      "passed": true,
+      "detail": "all NONE"
+    },
+    {
+      "name": "no_overclaim_rows",
+      "passed": true,
+      "detail": "all NO"
+    },
+    {
+      "name": "all_boundary_reissues_match",
+      "passed": true,
+      "detail": 765
+    },
+    {
+      "name": "summary_rows_4",
+      "passed": true,
+      "detail": 4
+    },
+    {
+      "name": "summary_total_765",
+      "passed": true,
+      "detail": 765
+    },
+    {
+      "name": "warning_rows_10",
+      "passed": true,
+      "detail": 10
+    },
+    {
+      "name": "warnings_only_end_of_stream",
+      "passed": true,
+      "detail": {
+        "END_OF_STREAM": 10
+      }
+    },
+    {
+      "name": "result_status",
+      "passed": true,
+      "detail": "TERMINAL_STOPS_RESYNCHRONIZE_AT_NEXT_AVAILABLE_BOUNDARY"
+    },
+    {
+      "name": "result_counts",
+      "passed": true,
+      "detail": {
+        "status": "TERMINAL_STOPS_RESYNCHRONIZE_AT_NEXT_AVAILABLE_BOUNDARY",
+        "terminal_stop_occurrence_count": 765,
+        "boundary_class_counts": {
+          "END_OF_STREAM": 10,
+          "NEW_PAGE_OWNER_BANK": 31,
+          "SAME_OWNER_NEXT_STATEMENT": 695,
+          "SAME_PAGE_NEW_OWNER_BANK": 29
+        },
+        "boundary_recovery_counts": {
+          "BOUNDARY_RECOVERED_GREEN": 755,
+          "NO_BOUNDARY_CARD": 10
+        },
+        "available_boundary_count": 755,
+        "readable_boundary_count": 755,
+        "boundary_stop_count": 0,
+        "cross_owner_state_leak_count": 0,
+        "meaning_revisions": 0,
+        "surface_predictions": 0,
+        "occurrence_predictions": 0,
+        "new_pages": 0
+      }
+    },
+    {
+      "name": "result_no_state_leak",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "name": "result_no_new_claims",
+      "passed": true,
+      "detail": {
+        "meaning_revisions": 0,
+        "surface_predictions": 0,
+        "occurrence_predictions": 0,
+        "new_pages": 0
+      }
+    },
+    {
+      "name": "sealed_tokens_absent",
+      "passed": true,
+      "detail": []
+    }
+  ]
+}

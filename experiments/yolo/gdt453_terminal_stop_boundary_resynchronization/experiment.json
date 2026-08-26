@@ -1,0 +1,46 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Boundary resynchronization and owner-bank isolation after existing synthetic terminal stops. No meaning, identity, surface, occurrence, plaintext, language, or page claim is licensed.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt453_terminal_stop_boundary_resynchronization/src/run.py",
+    "validate": "python3 experiments/yolo/gdt453_terminal_stop_boundary_resynchronization/src/validate.py"
+  },
+  "created": "2026-08-26",
+  "dependencies": ["GDT441", "GDT451", "GDT452"],
+  "experiment_id": "GDT453",
+  "inputs": [
+    {"path": "experiments/yolo/gdt452_context_stop_actual_next_recovery/artifacts/gdt452_stop_occurrence_recovery.tsv", "role": "terminal stop occurrence set", "sha256": "9f9bbe978f6abd80e5888b9981a925264763f889878c0fe9fcbe82336006deb3"},
+    {"path": "experiments/yolo/gdt441_factor_gated_unseen_recipe_reader/artifacts/gdt441_4576_factor_reader_replay.tsv", "role": "ordered stream and owner-local state banks", "sha256": "ade6ef986a0a10a5999a0876f577b44c1583d4d5594e319da39efdabb7221218"},
+    {"path": "experiments/yolo/gdt451_integrated_context_safe_intake/src/intake_command.py", "role": "integrated intake command", "sha256": "15b5a07323fe339b6701979bf78fb486d0bffa798e6cae5cd9eac3a72acf0adb"}
+  ],
+  "outputs": [
+    {"path": "experiments/yolo/gdt453_terminal_stop_boundary_resynchronization/README.md", "role": "entry point", "sha256": "c969f129f642d58a812268e5bbea5c9a7ab81efecb2d1f46a552196bd7fcb654"},
+    {"path": "experiments/yolo/gdt453_terminal_stop_boundary_resynchronization/METHOD.md", "role": "boundary method", "sha256": "fcbcebe9e34d50348899d2b542577186f1c23bac41ce4c43a40ccdb78633cb7f"},
+    {"path": "experiments/yolo/gdt453_terminal_stop_boundary_resynchronization/REPORT.md", "role": "primary report", "sha256": "cc278c471243e8add855dbad16e6be4a8a11691c59137969dde5fa6dc0f0a783"},
+    {"path": "experiments/yolo/gdt453_terminal_stop_boundary_resynchronization/src/run.py", "role": "deterministic builder", "sha256": "39bd377d31e84e3c31998385618302d75e56b612876e8f250c452b3055b9e1f5"},
+    {"path": "experiments/yolo/gdt453_terminal_stop_boundary_resynchronization/src/validate.py", "role": "validator", "sha256": "c6ddebe3b9d254257b3ec753adcdef7dd44e54fe9594f2eb0ecdedfd0da9850a"},
+    {"path": "experiments/yolo/gdt453_terminal_stop_boundary_resynchronization/artifacts/README.md", "role": "artifact guide", "sha256": "0d5d10dc9d3c93f533d7b0427bd1468de81c069bbb14fa4ab9a5d16ffcf8e13a"},
+    {"path": "experiments/yolo/gdt453_terminal_stop_boundary_resynchronization/artifacts/gdt453_765_terminal_boundary_recovery.tsv", "role": "complete boundary recovery ledger", "sha256": "5dd3900f5a6b232aa55ac625e1bf9f6eb84d55acb33acc468ff6479a2a90ebba"},
+    {"path": "experiments/yolo/gdt453_terminal_stop_boundary_resynchronization/artifacts/gdt453_boundary_summary.tsv", "role": "boundary-class summary", "sha256": "fea25b891a528b128c365511d974ae1999e1cb6a24e01a1193fa91eb7f788c17"},
+    {"path": "experiments/yolo/gdt453_terminal_stop_boundary_resynchronization/artifacts/gdt453_boundary_warnings.tsv", "role": "end-of-stream cases", "sha256": "f74a3bfc1d76874faed39ef3489e949db75815de2cd98cb942138490db769df4"},
+    {"path": "experiments/yolo/gdt453_terminal_stop_boundary_resynchronization/artifacts/gdt453_result.json", "role": "compact result", "sha256": "91e47a9a2c0dee9cf5990dcb8b734a785822656701e1231c4961cde32d984931"},
+    {"path": "experiments/yolo/gdt453_terminal_stop_boundary_resynchronization/artifacts/gdt453_validation.json", "role": "validation report", "sha256": "ad32af1d3d82fe973906dc2d7aa238bf878c4b1c0ddd86b918b158110e3eb494"}
+  ],
+  "question": "Does every available first card beyond a statement-terminal stop resynchronize under the preserved same-owner state or the independent new-owner bank?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "terminal_stop_boundary_resynchronization",
+  "status": "TERMINAL_STOPS_RESYNCHRONIZE_AT_ALL_AVAILABLE_BOUNDARIES",
+  "title": "terminal stop boundary resynchronization",
+  "updated": "2026-08-26",
+  "validation": {
+    "artifact": "experiments/yolo/gdt453_terminal_stop_boundary_resynchronization/artifacts/gdt453_validation.json",
+    "status": "PASS"
+  }
+}

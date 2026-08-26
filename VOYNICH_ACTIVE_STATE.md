@@ -423,6 +423,15 @@ passes 38/38; no meaning, surface, occurrence or page change. Next test the
 first card beyond all 765 terminal stops, separating same-owner carry from
 owner/page reset.
 
+GDT453 tests those 765 terminal cases at the next global stream boundary. The
+695 same-owner next statements all read green from the state preserved by the
+stop. Twenty-nine same-page owner changes and 31 page changes all read green
+from their independent owner banks, with zero stopped-state leakage. The only
+ten cases without a boundary card are ten target variants of the final stream
+event `G407-E4576`. Validation passes 26/26; no meaning, surface, occurrence or
+page change. Next stress the 57-bank streaming reader with bounded two-card
+mutation bursts rather than another isolated-card replay.
+
 Pass 1032/GDT404 applies the frozen GDT403 intake contract to a one-shot random
 draw of f1r, f24v, f81r and f95v. The 95 guarded lines add 688 events, 88
 statements and 677 focus attachments. Exactly 470 events retain an old surface
