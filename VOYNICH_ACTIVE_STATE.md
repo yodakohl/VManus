@@ -11358,3 +11358,22 @@ Four future-page slots remain `UNRELEASED`; the empty fixed-schema item table,
 seven default actions and executable row preparer are ready. Validation passes
 70/70. Next replace only the learned spans in these 89 patterns with named slots
 and rank the resulting empirical templates by recurrence and owner transfer.
+
+## GDT471 empirical address shell phrasebook
+
+Replacing only the learned spans in the 89 source labels yields 71 exact
+surface templates, 69 component/meaning templates and sixteen name-slot
+topologies. Fourteen surface templates recur over 32 labels, fifteen component
+templates over 35, and thirteen topologies over 86. Four exact function frames
+cross owner classes over eleven labels: `ot{NAME}` alone covers five labels,
+four owners and four pages. Seven functional frames cross pages over eighteen
+labels. Only two component templates merge different calibrated surfaces:
+`{NAME}+AIIN` via `aiin/daiin` and `{NAME}+O+IIN` via `oin/oiin`. All 89
+function templates survive core insertion. Owner-family markers are less
+portable: thirty source probes carry one, nineteen mutations retain any, only
+fifteen retain the exact trace, and fifteen traces change. `cheosdy` is the one
+route change, from family-plus-name to whole drug-name default; its function
+template is unchanged. The ranked worksheet now reports empirical familiarity
+0–8 without allowing a family marker to promote a function frame. Validation
+passes 88/88. Next incorporate the eighteen full-function address cards as
+zero-name templates while preserving exact-package-only dependencies.

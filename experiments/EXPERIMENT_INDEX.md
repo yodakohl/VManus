@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **469**
-- Experiment-associated tracked files: **6,764** (786.7 MiB)
-- Structured GDT337+ experiments: **134**
+- Experiments indexed: **470**
+- Experiment-associated tracked files: **6,783** (786.9 MiB)
+- Structured GDT337+ experiments: **135**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT471 | GDT471_empirical_address_shell_phrasebook | `EMPIRICAL_FUNCTION_TEMPLATES_READY__FAMILY_MARKERS_REMAIN_CORE_SENSITIVE` | [report](../experiments/yolo/gdt471_empirical_address_shell_phrasebook/REPORT.md) | 19 | 209.3 KiB | 4 | STRUCTURED_YOLO |
 | GDT470 | GDT470_future_address_intake_worksheet | `MUTATED_NAME_CORES_PRESERVE_READING_AND_PROVENANCE__WORKSHEET_READY` | [report](../experiments/yolo/gdt470_future_address_intake_worksheet/REPORT.md) | 18 | 111.6 KiB | 3 | STRUCTURED_YOLO |
 | GDT469 | GDT469_provenance_aware_address_reader | `PROVENANCE_AWARE_ADDRESS_INTAKE_READY` | [report](../experiments/yolo/gdt469_provenance_aware_address_reader/REPORT.md) | 15 | 2.0 MiB | 3 | STRUCTURED_YOLO |
 | GDT468 | GDT468_shell_recipe_carrier_support_atlas | `SHELL_RECIPES_SEPARATED_INTO_OLD_CARRIER_AND_COMPOSITION_TIERS` | [report](../experiments/yolo/gdt468_shell_recipe_carrier_support_atlas/REPORT.md) | 13 | 1.5 MiB | 3 | STRUCTURED_YOLO |

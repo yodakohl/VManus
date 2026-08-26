@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT470.
+Updated: 2026-08-26, after GDT471.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -65,7 +65,7 @@ CONTROL into `T=EINSTELLEN` and `R=MARKIEREN` creates a five-class gate with
 amber; `R>T` and `R<-EE` remain red-local. The internal meanings of the broad
 classes are not collapsed.
 
-GDT459–GDT470 now resolve the formerly opaque local-address tail as the mixed
+GDT459–GDT471 now resolve the formerly opaque local-address tail as the mixed
 codebook architecture anticipated by the sidequest: portable function cards
 surround memorized owner-bound name cores. Of 107 learned address labels,
 eighteen are now complete function formulas, 87 are function-shell/name-core
@@ -103,6 +103,12 @@ reading. Forty-two recipes have old carriers; all seventeen exact bounded-shell
 matches are old-backed and none of these label-like changes is composition-only.
 The four future-page slots and executable address-row worksheet are ready but
 remain empty.
+GDT471 turns the same source forms into 71 literal function/name templates, 69
+component templates and only sixteen slot topologies. `ot{NAME}` crosses four
+owner classes; three other exact function frames cross two. Function templates
+survive all 89 core changes, while owner-family substrings lose or change their
+trace in fifteen cases. They now sit explicitly in the learned name layer rather
+than masquerading as productive function cards.
 
 GDT428 now supplies the missing semantic contrast deck. Six within-class
 comparisons contain 104 exact frames where only the action root changes. The
@@ -1100,8 +1106,8 @@ comparison set.
 
 ## Next work
 
-Keep the current 26 pages closed. Convert the 89 label-like replays into a small
-empirical shell phrasebook by replacing only learned spans with named slots.
-Group repeated function signatures, count which templates cross owner classes,
-and attach that familiarity rank to the GDT470 worksheet command. Do not resume
-broad Cartesian growth, generate a spelling, add a meaning, or use a new page.
+Keep the current 26 pages closed. Add the eighteen complete-function address
+cards to the empirical phrasebook as zero-name templates, but preserve any
+whole-package dependency instead of treating it as a free channel sequence.
+Then publish one complete 107-label familiarity deck. Do not resume broad
+Cartesian growth, generate a spelling, add a meaning, or use a new page.

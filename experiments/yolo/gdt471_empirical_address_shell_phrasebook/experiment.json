@@ -1,0 +1,60 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Empirical learned-slot templates and familiarity ranks over frozen address readings; no new page, channel, component meaning, spelling prediction, object name, plaintext, language, or confirmed lexeme.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt471_empirical_address_shell_phrasebook/src/run.py",
+    "validate": "python3 experiments/yolo/gdt471_empirical_address_shell_phrasebook/src/validate.py"
+  },
+  "created": "2026-08-26",
+  "dependencies": ["GDT466", "GDT468", "GDT469", "GDT470"],
+  "experiment_id": "GDT471",
+  "inputs": [
+    {"path": "experiments/yolo/gdt466_future_address_mixed_dictionary_intake/artifacts/gdt466_44_function_channel_deck.tsv", "role": "frozen function channels", "sha256": "7cbe831bd286b36b6c624c41713a8975f5a2c623c96e85396c5b8b900fc65469"},
+    {"path": "experiments/yolo/gdt466_future_address_mixed_dictionary_intake/artifacts/gdt466_18_owner_family_channel_deck.tsv", "role": "owner-family marker deck kept separate from function templates", "sha256": "a9472b8fc7ab00e3fa1a0e741cf59ae77c0ff915114b7bc3496888fcfbeede21"},
+    {"path": "experiments/yolo/gdt466_future_address_mixed_dictionary_intake/artifacts/gdt466_107_intake_dictionary.tsv", "role": "exact labels and source metadata", "sha256": "f5b4e35065c4545bf85cf90e2a376728ec261af7426756f24747b50d9d5c9b59"},
+    {"path": "experiments/yolo/gdt466_future_address_mixed_dictionary_intake/artifacts/gdt466_89_unseen_core_insertion_probes.tsv", "role": "label-derived learned-core source and mutation pairs", "sha256": "02456bf262ecac66b55210e67650c7e667701dcb37d553cde015a5351c926594"},
+    {"path": "experiments/yolo/gdt466_future_address_mixed_dictionary_intake/src/intake_lib.py", "role": "unchanged channel and family selector", "sha256": "7bf0b0d42394181f3bbcedf59534b5fe156b0e543de42352decaf3c9b09d7c83"},
+    {"path": "experiments/yolo/gdt468_shell_recipe_carrier_support_atlas/artifacts/gdt468_2300_recipe_support_atlas.tsv", "role": "recipe provenance for ranked row command", "sha256": "a636d1891d70fc8db85d9a1b5dedbf1ede8c81384f843445e1e79a0dc891f3b1"},
+    {"path": "experiments/yolo/gdt468_shell_recipe_carrier_support_atlas/artifacts/gdt468_2760_supported_shell_phrasebook.tsv", "role": "bounded-shell provenance for ranked row command", "sha256": "5baf8c57cb529fb73454e466bf583367fabe493e2e91f9d45eae71ba19fc91a1"},
+    {"path": "experiments/yolo/gdt469_provenance_aware_address_reader/src/support_lib.py", "role": "unchanged supported intake wrapper", "sha256": "55e4b50a92bb5aca415dfe93c1d93a199c162e552162d653b3a5177ef701f42f"},
+    {"path": "experiments/yolo/gdt470_future_address_intake_worksheet/artifacts/gdt470_89_supported_unseen_core_replay.tsv", "role": "complete supported mutation replay", "sha256": "79be044c127fa5e9ea3ea5003fae0b59890a6c7ef6c57a0ae86959993295b0b6"},
+    {"path": "experiments/yolo/gdt470_future_address_intake_worksheet/src/worksheet_lib.py", "role": "unchanged future-page worksheet row builder", "sha256": "54c2f35d1d1e9f5d77fdccc432c6e9a8e59d25721c0d5c0413ff4acffb2e78b3"}
+  ],
+  "outputs": [
+    {"path": "experiments/yolo/gdt471_empirical_address_shell_phrasebook/README.md", "role": "entry point and ranked CLI", "sha256": "8997493d19abdacfef982e8230146285095af65dc5fe94ebf888ce2f8bc0dc28"},
+    {"path": "experiments/yolo/gdt471_empirical_address_shell_phrasebook/METHOD.md", "role": "empirical template method", "sha256": "84c66896c3b0f375abb09c79347b35192796b790f27ace503713400fea674677"},
+    {"path": "experiments/yolo/gdt471_empirical_address_shell_phrasebook/REPORT.md", "role": "primary report", "sha256": "1221275329001d3743e12d14d310558d4cd030f8d96d7ead955aefe76351c440"},
+    {"path": "experiments/yolo/gdt471_empirical_address_shell_phrasebook/src/prepare_ranked_future_address.py", "role": "ranked GDT470 worksheet row command", "sha256": "42fef4825c700adfd7adb17814a6095608f882f38f93fdade1f41b4df0f47cbb"},
+    {"path": "experiments/yolo/gdt471_empirical_address_shell_phrasebook/src/run.py", "role": "deterministic empirical phrasebook builder", "sha256": "5f788de865579d410b6b8717cf82ac7a9b94d75138626c8abd234f8f3af24b22"},
+    {"path": "experiments/yolo/gdt471_empirical_address_shell_phrasebook/src/template_lib.py", "role": "template derivation and familiarity library", "sha256": "05da0a7f0542928ecb2e2d46429017b96c733b7e07a0092860403187c5bda2c3"},
+    {"path": "experiments/yolo/gdt471_empirical_address_shell_phrasebook/src/validate.py", "role": "validator, CLI audit, and deterministic rebuild check", "sha256": "5243b3be508226f8ed94f665238343aed04aee5d71e6993437feabff23cc7235"},
+    {"path": "experiments/yolo/gdt471_empirical_address_shell_phrasebook/artifacts/README.md", "role": "artifact guide", "sha256": "978c2b6b6ae7f87d88776bd084bc069818130feb9c4ee9afe55614fcdf172b8a"},
+    {"path": "experiments/yolo/gdt471_empirical_address_shell_phrasebook/artifacts/gdt471_89_template_assignments.tsv", "role": "source label learned-slot assignments", "sha256": "e201da880c5dbdc2b6df0f5d601719ad7e0b2d4d109fc3c57877a74ae006c1dd"},
+    {"path": "experiments/yolo/gdt471_empirical_address_shell_phrasebook/artifacts/gdt471_71_empirical_surface_templates.tsv", "role": "exact empirical surface-template deck", "sha256": "739f673d58e352a991a682ac6aa861cd1cb4a8ed624317d493d23a3ffa985b35"},
+    {"path": "experiments/yolo/gdt471_empirical_address_shell_phrasebook/artifacts/gdt471_69_component_templates.tsv", "role": "component and meaning template deck", "sha256": "84b1e4ca2f6d1f165b6caa129aa42652d2604ead09388d628f7b423c3e32ef3b"},
+    {"path": "experiments/yolo/gdt471_empirical_address_shell_phrasebook/artifacts/gdt471_16_slot_topologies.tsv", "role": "empirical name-slot topology deck", "sha256": "7051f0d9c90711063c772b17662d78253f9d0414b801cf553af36f9dc6c08fa7"},
+    {"path": "experiments/yolo/gdt471_empirical_address_shell_phrasebook/artifacts/gdt471_89_mutation_template_replay.tsv", "role": "function-template and family-marker mutation replay", "sha256": "55f6d4d4f30d738587f07b452084a2477030c51fdaab29291c7f5e754e0ef15f"},
+    {"path": "experiments/yolo/gdt471_empirical_address_shell_phrasebook/artifacts/gdt471_18_family_marker_core_change_sensitivity.tsv", "role": "owner-family marker retention deck", "sha256": "da936b74606383844646b603258fbb01fd231553ee82fac092189c000fa9caf5"},
+    {"path": "experiments/yolo/gdt471_empirical_address_shell_phrasebook/artifacts/gdt471_ranked_address_item_template.tsv", "role": "empty ranked future-address item table", "sha256": "90b0ff62681a1969953391730323ff61785fd693be8514f56d9f2f115764eeb5"},
+    {"path": "experiments/yolo/gdt471_empirical_address_shell_phrasebook/artifacts/gdt471_familiarity_contract.json", "role": "empirical familiarity rank contract", "sha256": "c213eb71b5be5489b3ac5841a1b8faa8abe15ef3ea57ac16f48bca95f6c7257e"},
+    {"path": "experiments/yolo/gdt471_empirical_address_shell_phrasebook/artifacts/gdt471_result.json", "role": "compact result", "sha256": "a4273f0a9731b7868cffa62117a2ec9e148e21216996e789d1ce9507fbe247c2"},
+    {"path": "experiments/yolo/gdt471_empirical_address_shell_phrasebook/artifacts/gdt471_validation.json", "role": "88-check validation report", "sha256": "177c412e7a5a44659b50fb83af40cba3e22603e04f12da0ddf50b2ed4d7665b2"}
+  ],
+  "question": "Can 89 label-derived address patterns be reduced to empirical learned-slot templates, ranked by recurrence and owner transfer, while keeping owner-family substrings separate from productive function frames?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "empirical_address_shell_phrasebook",
+  "status": "EMPIRICAL_FUNCTION_TEMPLATES_READY__FAMILY_MARKERS_REMAIN_CORE_SENSITIVE",
+  "title": "Empirical address shell phrasebook",
+  "updated": "2026-08-26",
+  "validation": {
+    "artifact": "experiments/yolo/gdt471_empirical_address_shell_phrasebook/artifacts/gdt471_validation.json",
+    "status": "PASS"
+  }
+}

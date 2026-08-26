@@ -1,0 +1,47 @@
+{
+  "status": "EMPIRICAL_ADDRESS_SHELL_PHRASEBOOK_READY",
+  "familiarity_order": [
+    {
+      "rank": 0,
+      "state": "EXACT_LABEL_CARD"
+    },
+    {
+      "rank": 1,
+      "state": "CROSS_OWNER_RECURRENT_EXACT_FUNCTION_TEMPLATE"
+    },
+    {
+      "rank": 2,
+      "state": "MULTI_PAGE_RECURRENT_EXACT_FUNCTION_TEMPLATE"
+    },
+    {
+      "rank": 3,
+      "state": "RECURRENT_EXACT_FUNCTION_TEMPLATE"
+    },
+    {
+      "rank": 4,
+      "state": "SINGLETON_EXACT_FUNCTION_TEMPLATE"
+    },
+    {
+      "rank": 5,
+      "state": "KNOWN_COMPONENT_TEMPLATE_ALTERNATE_RENDERING"
+    },
+    {
+      "rank": 6,
+      "state": "KNOWN_SLOT_TOPOLOGY_ONLY"
+    },
+    {
+      "rank": 7,
+      "state": "WHOLE_NAME_DEFAULT"
+    },
+    {
+      "rank": 8,
+      "state": "UNSEEN_SLOT_TOPOLOGY"
+    }
+  ],
+  "template_derivation": "Replace only uncovered spans with ordered NAME slots; preserve every selected channel stem and its order.",
+  "family_marker_policy": "Owner-family substrings remain a separate lexical clue and never increase function-template familiarity.",
+  "reader_command": "python3 experiments/yolo/gdt471_empirical_address_shell_phrasebook/src/prepare_ranked_future_address.py SURFACE CONTENT_CLASS [metadata options]",
+  "page_slots": 4,
+  "page_slot_state": "UNRELEASED",
+  "claim_boundary": "Familiarity ranks already supplied forms; it predicts no spelling, occurrence, individual name, plaintext, language, or confirmed lexeme."
+}
