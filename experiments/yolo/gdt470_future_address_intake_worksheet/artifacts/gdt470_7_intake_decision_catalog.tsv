@@ -1,0 +1,8 @@
+priority	working_state	trigger	default_action	meaning_policy	provenance_policy
+1	EXACT_KNOWN_LABEL	visible surface has an exact label card	REUSE_EXACT_LABEL_CARD	return its complete old working reading	report recipe tier but do not rematch the card as a shell
+2	SUPPORTED_FULL_FUNCTION_FORMULA	all characters are function channels and recipe has an old carrier	READ_SUPPORTED_FULL_FUNCTION_FORMULA	compose all frozen component values	report the strongest old carrier tier
+3	SUPPORTED_FUNCTION_SHELL	visible function channels surround a learned core and recipe has an old carrier	READ_SUPPORTED_FUNCTION_SHELL_KEEP_NAME_CORE	read functions and retain the core as owner-class name	report the strongest old carrier tier
+4	COMPOSITION_ONLY	visible channels form a bounded atlas recipe without an old whole-recipe carrier	READ_COMPOSED_FUNCTION_SHELL_KEEP_NAME_CORE	compose functions and retain any core as owner-class name	mark composition-only explicitly
+5	VISIBLE_FUNCTIONS_OUTSIDE_ATLAS	one-sided or other visible function channel shape is outside the bounded atlas	READ_VISIBLE_FUNCTION_SHELL_KEEP_NAME_CORE	read visible functions and retain the remainder as owner-class name	mark outside-atlas; do not erase visible functions
+6	STRICT_OWNER_FAMILY	no function channel but an owner-class family marker matches	KEEP_OWNER_FAMILY_AND_LEARN_NAME	retain family marker and default the whole item to its owner class	do not invent a recipe
+7	WHOLE_OWNER_NAME	no exact card, function channel or owner-family marker matches	LEARN_WHOLE_OWNER_BOUND_NAME	every character remains inside one owner-class name	mark outside-atlas with zero carrier counts

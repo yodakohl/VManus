@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT469.
+Updated: 2026-08-26, after GDT470.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -65,7 +65,7 @@ CONTROL into `T=EINSTELLEN` and `R=MARKIEREN` creates a five-class gate with
 amber; `R>T` and `R<-EE` remain red-local. The internal meanings of the broad
 classes are not collapsed.
 
-GDT459–GDT469 now resolve the formerly opaque local-address tail as the mixed
+GDT459–GDT470 now resolve the formerly opaque local-address tail as the mixed
 codebook architecture anticipated by the sidequest: portable function cards
 surround memorized owner-bound name cores. Of 107 learned address labels,
 eighteen are now complete function formulas, 87 are function-shell/name-core
@@ -97,6 +97,12 @@ GDT469 puts that label directly into the reader output. A visible form now
 returns meaning, exact channel trace, learned core, recipe tier, carrier counts
 and bounded shell identity together; 8,468 replay cases preserve every old
 reading.
+GDT470 then changes one opaque character inside each of 89 learned cores. All
+89 keep the same channels, recipe, provenance rank, shell identity and working
+reading. Forty-two recipes have old carriers; all seventeen exact bounded-shell
+matches are old-backed and none of these label-like changes is composition-only.
+The four future-page slots and executable address-row worksheet are ready but
+remain empty.
 
 GDT428 now supplies the missing semantic contrast deck. Six within-class
 comparisons contain 104 exact frames where only the action root changes. The
@@ -1094,8 +1100,8 @@ comparison set.
 
 ## Next work
 
-Keep the current 26 pages closed. Replay the 89 label-like unseen-core mutations
-through the GDT469 supported reader, summarize provenance by content class and
-shell shape, and publish a compact future-page worksheet showing the exact
-fields to record for each new address. Stop broad Cartesian growth. Do not
-generate a spelling, add a meaning, or use a new page.
+Keep the current 26 pages closed. Convert the 89 label-like replays into a small
+empirical shell phrasebook by replacing only learned spans with named slots.
+Group repeated function signatures, count which templates cross owner classes,
+and attach that familiarity rank to the GDT470 worksheet command. Do not resume
+broad Cartesian growth, generate a spelling, add a meaning, or use a new page.

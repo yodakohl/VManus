@@ -11342,3 +11342,19 @@ address-full-only rank 86; `zxqv` remains a whole learned plant name outside
 the atlas. Validation passes 47/47. Next run the 89 label-like unseen-core
 mutations through this supported reader and release a compact future-page
 worksheet rather than expanding the Cartesian synthetic space again.
+
+## GDT470 future address intake worksheet
+
+The 89 label-derived synthetic core insertions now replay through the complete
+supported reader. Every form retains its exact function-channel signature,
+ordered recipe, provenance tier/rank, bounded-shell ID or absence, and GDT466
+working reading. The routes remain 87 function-shell/name-core and two whole
+learned names. Support divides into 25 running-backed, one full-address-only,
+sixteen hybrid-only and 47 outside-atlas recipes: 42/89 have an old carrier.
+All seventeen full bounded-shell matches are old-carrier backed and zero probe
+is composition-only, sharply narrowing the practical label-like region of the
+GDT467 atlas. Eleven ordered channel shapes occur across four owner classes.
+Four future-page slots remain `UNRELEASED`; the empty fixed-schema item table,
+seven default actions and executable row preparer are ready. Validation passes
+70/70. Next replace only the learned spans in these 89 patterns with named slots
+and rank the resulting empirical templates by recurrence and owner transfer.

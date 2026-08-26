@@ -1,0 +1,57 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Replay and future-page worksheet over frozen address functions and provenance; no new page, channel, component meaning, surface prediction, object name, plaintext, language, or confirmed lexeme.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt470_future_address_intake_worksheet/src/run.py",
+    "validate": "python3 experiments/yolo/gdt470_future_address_intake_worksheet/src/validate.py"
+  },
+  "created": "2026-08-26",
+  "dependencies": ["GDT466", "GDT468", "GDT469"],
+  "experiment_id": "GDT470",
+  "inputs": [
+    {"path": "experiments/yolo/gdt466_future_address_mixed_dictionary_intake/artifacts/gdt466_44_function_channel_deck.tsv", "role": "frozen function channels", "sha256": "7cbe831bd286b36b6c624c41713a8975f5a2c623c96e85396c5b8b900fc65469"},
+    {"path": "experiments/yolo/gdt466_future_address_mixed_dictionary_intake/artifacts/gdt466_18_owner_family_channel_deck.tsv", "role": "frozen owner-family markers", "sha256": "a9472b8fc7ab00e3fa1a0e741cf59ae77c0ff915114b7bc3496888fcfbeede21"},
+    {"path": "experiments/yolo/gdt466_future_address_mixed_dictionary_intake/artifacts/gdt466_107_intake_dictionary.tsv", "role": "exact label deck for production row preparation", "sha256": "f5b4e35065c4545bf85cf90e2a376728ec261af7426756f24747b50d9d5c9b59"},
+    {"path": "experiments/yolo/gdt466_future_address_mixed_dictionary_intake/artifacts/gdt466_89_unseen_core_insertion_probes.tsv", "role": "label-derived unseen-core replay source", "sha256": "02456bf262ecac66b55210e67650c7e667701dcb37d553cde015a5351c926594"},
+    {"path": "experiments/yolo/gdt466_future_address_mixed_dictionary_intake/src/intake_lib.py", "role": "unchanged base intake implementation", "sha256": "7bf0b0d42394181f3bbcedf59534b5fe156b0e543de42352decaf3c9b09d7c83"},
+    {"path": "experiments/yolo/gdt468_shell_recipe_carrier_support_atlas/artifacts/gdt468_2300_recipe_support_atlas.tsv", "role": "recipe provenance tiers and ranks", "sha256": "a636d1891d70fc8db85d9a1b5dedbf1ede8c81384f843445e1e79a0dc891f3b1"},
+    {"path": "experiments/yolo/gdt468_shell_recipe_carrier_support_atlas/artifacts/gdt468_2760_supported_shell_phrasebook.tsv", "role": "exact channel-signature to bounded-shell join", "sha256": "5baf8c57cb529fb73454e466bf583367fabe493e2e91f9d45eae71ba19fc91a1"},
+    {"path": "experiments/yolo/gdt469_provenance_aware_address_reader/src/support_lib.py", "role": "unchanged provenance-aware reader wrapper", "sha256": "55e4b50a92bb5aca415dfe93c1d93a199c162e552162d653b3a5177ef701f42f"}
+  ],
+  "outputs": [
+    {"path": "experiments/yolo/gdt470_future_address_intake_worksheet/README.md", "role": "entry point and CLI", "sha256": "f555297cb1cab1c2392a6e9adc885844dd673ef7e8ae6625fd1c82966a732630"},
+    {"path": "experiments/yolo/gdt470_future_address_intake_worksheet/METHOD.md", "role": "replay and worksheet method", "sha256": "bbcc10accb20285d8b125421033d05bd7999953645aded00b27e5638c921ed7c"},
+    {"path": "experiments/yolo/gdt470_future_address_intake_worksheet/REPORT.md", "role": "primary report", "sha256": "c22e70427dfe4759763247b2e8d0d56e23c0231afbf53363aa2c1915b6ccb3ef"},
+    {"path": "experiments/yolo/gdt470_future_address_intake_worksheet/src/prepare_future_address.py", "role": "one-surface worksheet row command", "sha256": "cb46bbe706638380aba593dd8d8527eb0b9380d0aa240162bb1b7545d40765ab"},
+    {"path": "experiments/yolo/gdt470_future_address_intake_worksheet/src/run.py", "role": "deterministic replay and worksheet builder", "sha256": "0ca178999213eaf5f97be52a04aeb94ed079b2f40bb6e229a323bdc207bd8682"},
+    {"path": "experiments/yolo/gdt470_future_address_intake_worksheet/src/validate.py", "role": "validator, CLI audit, and deterministic rebuild check", "sha256": "ad0887b3c41d510f545afb0440217b316379fca6031d53f18b5bfd80de59252f"},
+    {"path": "experiments/yolo/gdt470_future_address_intake_worksheet/src/worksheet_lib.py", "role": "worksheet action and row library", "sha256": "54c2f35d1d1e9f5d77fdccc432c6e9a8e59d25721c0d5c0413ff4acffb2e78b3"},
+    {"path": "experiments/yolo/gdt470_future_address_intake_worksheet/artifacts/README.md", "role": "artifact guide", "sha256": "5e354ddbea501ec6da4387e75e17fe56c56158c4c5709730c0a5925efeafdf42"},
+    {"path": "experiments/yolo/gdt470_future_address_intake_worksheet/artifacts/gdt470_89_supported_unseen_core_replay.tsv", "role": "complete source-versus-mutated replay", "sha256": "79be044c127fa5e9ea3ea5003fae0b59890a6c7ef6c57a0ae86959993295b0b6"},
+    {"path": "experiments/yolo/gdt470_future_address_intake_worksheet/artifacts/gdt470_4_content_class_stability.tsv", "role": "owner-class stability summary", "sha256": "d298fe8ddfcf58052ae1c6a901ecfad5510628ac5c79143ec698bdaa5d46a5d0"},
+    {"path": "experiments/yolo/gdt470_future_address_intake_worksheet/artifacts/gdt470_11_shell_shape_stability.tsv", "role": "ordered channel-shape stability summary", "sha256": "60646d7b7394dbfec02fd4ca2b66c6e839ff393cf8d162929db584dfd5818b47"},
+    {"path": "experiments/yolo/gdt470_future_address_intake_worksheet/artifacts/gdt470_7_intake_decision_catalog.tsv", "role": "complete default-action catalog", "sha256": "f858b88c6522352b2dca6e6daf41ca7ddf9a90db5d8bb9962a57af1f7591a545"},
+    {"path": "experiments/yolo/gdt470_future_address_intake_worksheet/artifacts/gdt470_four_page_address_slots.tsv", "role": "four unopened future-page slots", "sha256": "cb129e591c562f098f9c86e491a713359d60cf1e5c9971d05d3cef23304cd437"},
+    {"path": "experiments/yolo/gdt470_future_address_intake_worksheet/artifacts/gdt470_address_item_template.tsv", "role": "empty fixed-schema address item table", "sha256": "a3d39de16bd482de15131a0bfbbb6cb6125eccc7dd62ac343cc68e2f3317bee7"},
+    {"path": "experiments/yolo/gdt470_future_address_intake_worksheet/artifacts/gdt470_future_address_intake_contract.json", "role": "future-page address intake contract", "sha256": "e2fb7ecca2c03ecde261f80205fc56c196f5ae34c48ee1eff11b935d32048a58"},
+    {"path": "experiments/yolo/gdt470_future_address_intake_worksheet/artifacts/gdt470_result.json", "role": "compact result", "sha256": "f80e6af727b61aef12fe044c60f1e709628dd78c6c0cb714e8990a8ada9b3a58"},
+    {"path": "experiments/yolo/gdt470_future_address_intake_worksheet/artifacts/gdt470_validation.json", "role": "70-check validation report", "sha256": "f8b1ba9a4822614907ae90eaec325c970f5004d9889bd6d33dcbe3b2bdefe002"}
+  ],
+  "question": "Do 89 label-derived unseen name-core mutations preserve the complete supported address reading, and can that stable contract be published as an empty four-page intake worksheet?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "future_address_intake_worksheet",
+  "status": "MUTATED_NAME_CORES_PRESERVE_READING_AND_PROVENANCE__WORKSHEET_READY",
+  "title": "Future address intake worksheet",
+  "updated": "2026-08-26",
+  "validation": {
+    "artifact": "experiments/yolo/gdt470_future_address_intake_worksheet/artifacts/gdt470_validation.json",
+    "status": "PASS"
+  }
+}

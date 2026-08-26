@@ -1,0 +1,19 @@
+{
+  "status": "FUTURE_ADDRESS_INTAKE_WORKSHEET_READY",
+  "page_slots": 4,
+  "page_slot_state": "UNRELEASED",
+  "base_precedence": "EXACT_LABEL_THEN_FUNCTION_CHANNELS_THEN_OWNER_FAMILY_THEN_WHOLE_OWNER_NAME",
+  "provenance_is_annotation_only": true,
+  "all_visible_sequences_receive_a_default": true,
+  "opaque_default_form": "[OWNER_CLASS_NAME:VISIBLE_REMAINDER]",
+  "required_manual_capture": [
+    "page_id",
+    "locus_id",
+    "owner_description",
+    "content_class",
+    "selected_surface",
+    "available_ZL3b_IT2a_RF1b_readings"
+  ],
+  "reader_command": "python3 experiments/yolo/gdt470_future_address_intake_worksheet/src/prepare_future_address.py SURFACE CONTENT_CLASS [metadata options]",
+  "claim_boundary": "The worksheet records a working meaning and recipe provenance after a form is supplied; it predicts neither a new surface nor an individual object name."
+}
