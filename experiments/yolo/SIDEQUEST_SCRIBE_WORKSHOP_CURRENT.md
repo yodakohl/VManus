@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT499.
+Updated: 2026-08-26, after GDT500.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -1418,9 +1418,9 @@ comparison set.
 Keep the current 26 pages closed. GDT499 has ranked all 352 GDT498
 compositions: 165 local-multihead cells are now the productive main layer, 88
 have one local head, 49 only cross-register support and fifty only old values.
-The atlas exposes every one of 646 local and 288 cross-register support links
-and isolates fifteen mechanically repeated-action clauses. Apply one fixed,
-reversible fluency rule to those fifteen without changing their recipes or
-component traces. Then rank the fifty-cell frontier against old partial frames
-and adjacent action pairs; no cell may be promoted merely because it reads
-smoothly.
+GDT500 has removed the finite wording problem: all fifteen doubled-action
+compositions now say `zweimal`, retain both action slots and expand exactly to
+their old two-clause phrase. All 143 observed and 337 other composed defaults
+remain byte-identical in the complete current 495-cell deck. Next rank only the
+fifty-cell frontier against old partial frames and adjacent action pairs; no
+cell may be promoted merely because it reads smoothly.

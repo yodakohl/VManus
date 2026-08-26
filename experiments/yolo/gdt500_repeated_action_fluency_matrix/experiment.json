@@ -1,0 +1,130 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "A complete editorial German default deck in which exactly fifteen already doubled technical action traces use the count word zweimal and retain exact source-clause roundtrips. This changes no recipe, root value, evidence class, manuscript surface or occurrence.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt500_repeated_action_fluency_matrix/src/run.py",
+    "validate": "python3 experiments/yolo/gdt500_repeated_action_fluency_matrix/src/validate.py"
+  },
+  "created": "2026-08-26",
+  "dependencies": [
+    "GDT498",
+    "GDT499"
+  ],
+  "experiment_id": "GDT500",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt498_nine_action_frame_register_matrix/artifacts/gdt498_495_action_frame_register_cells.tsv",
+      "role": "complete source matrix and prior defaults",
+      "sha256": "f18aefd02b71f1c95f6ce51cd8258cfeffb71bcd24598a3b50833f4ae80756ce"
+    },
+    {
+      "path": "experiments/yolo/gdt499_nine_action_composition_priority_atlas/artifacts/gdt499_352_ranked_compositions.tsv",
+      "role": "composition priority labels",
+      "sha256": "4d341436a08cf6b3bc22ae72346147d5e7eb877ed1de121c0802a2a6b6b26131"
+    },
+    {
+      "path": "experiments/yolo/gdt499_nine_action_composition_priority_atlas/artifacts/gdt499_repeated_action_compositions.tsv",
+      "role": "exact fifteen-cell editorial queue",
+      "sha256": "1ee796e3eb8a5128cbb98cdebee705a1d760564b0c815e541e5a4e592ecee5da"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt500_repeated_action_fluency_matrix/README.md",
+      "role": "entry point",
+      "sha256": "89f89f97e93d7f23a98acb942befbb921e3ded404259072628bc6c8e831b021f"
+    },
+    {
+      "path": "experiments/yolo/gdt500_repeated_action_fluency_matrix/METHOD.md",
+      "role": "reversible compression method",
+      "sha256": "b01a0920fbd3f2e6a917b80ec94edd31eb588ee360f85fbc3c167c2cb363f435"
+    },
+    {
+      "path": "experiments/yolo/gdt500_repeated_action_fluency_matrix/REPORT.md",
+      "role": "primary report",
+      "sha256": "90efbc965fdbfb1a0a71f522575c4f494cba0a11192064b1a6668d67d7bdd331"
+    },
+    {
+      "path": "experiments/yolo/gdt500_repeated_action_fluency_matrix/src/run.py",
+      "role": "deterministic complete-deck builder",
+      "sha256": "2fac4f198b54e2c971b28dcff93c5462097f5209ee8735856fbc8be21f56421c"
+    },
+    {
+      "path": "experiments/yolo/gdt500_repeated_action_fluency_matrix/src/validate.py",
+      "role": "independent compression and retention validator",
+      "sha256": "df0ad02b1936bdf9994b69fa0f7002302a447c7a420fc064b1a74cea64c8a01c"
+    },
+    {
+      "path": "experiments/yolo/gdt500_repeated_action_fluency_matrix/artifacts/README.md",
+      "role": "artifact guide",
+      "sha256": "1cf591b08d6dc4fc438b4d4049c6af58b89de60bdb8ba821e7f8c03b0d26b2d2"
+    },
+    {
+      "path": "experiments/yolo/gdt500_repeated_action_fluency_matrix/artifacts/GDT500_COMPLETE_495_FLUENT_DEFAULT_DECK.md",
+      "role": "complete readable current edition",
+      "sha256": "d3f61bfe22ef69ac79c1be5300c4928101ae56e0c66fd01348c82cecbc1cb210"
+    },
+    {
+      "path": "experiments/yolo/gdt500_repeated_action_fluency_matrix/artifacts/gdt500_495_current_fluent_cells.tsv",
+      "role": "complete machine-readable current deck",
+      "sha256": "5f6f0bd7044ab56279a7f642dbd922cdf527d1faa5d4133a534e023c4e778c32"
+    },
+    {
+      "path": "experiments/yolo/gdt500_repeated_action_fluency_matrix/artifacts/gdt500_15_repeated_action_fluency_cards.tsv",
+      "role": "edited cells with exact source segments",
+      "sha256": "e7106c47c8c110f9b2986f1f7df3a158270ace7f442c03da120403abadbe27a8"
+    },
+    {
+      "path": "experiments/yolo/gdt500_repeated_action_fluency_matrix/artifacts/gdt500_480_unchanged_cells.tsv",
+      "role": "byte-retained default subset",
+      "sha256": "e458c3905f882682cb39d40a3b2a59f1c02a1211a92b88974f3873b6026f9deb"
+    },
+    {
+      "path": "experiments/yolo/gdt500_repeated_action_fluency_matrix/artifacts/gdt500_143_observed_phrase_retention.tsv",
+      "role": "observed phrase retention subset",
+      "sha256": "3933df03cd907aa5affe1e9294dbf64e1c0f6911aa82df9b7086f298041e06c6"
+    },
+    {
+      "path": "experiments/yolo/gdt500_repeated_action_fluency_matrix/artifacts/gdt500_352_composed_current_defaults.tsv",
+      "role": "complete composed-current subset",
+      "sha256": "6c02f0628736647f15c1a08747829a112c5f52094524a7674366627debf5407e"
+    },
+    {
+      "path": "experiments/yolo/gdt500_repeated_action_fluency_matrix/artifacts/gdt500_5_register_fluency_coverage.tsv",
+      "role": "register coverage",
+      "sha256": "bbeee46c4ef7843d1469cde6cd3224d59ac611721c03a91608118687567e7814"
+    },
+    {
+      "path": "experiments/yolo/gdt500_repeated_action_fluency_matrix/artifacts/gdt500_3_compression_rule_coverage.tsv",
+      "role": "compression-rule coverage",
+      "sha256": "6f19dc68d3ad1ddf4b866c0a2e5d2d0c7068dcf5d87deca1497aeeb248ac18af"
+    },
+    {
+      "path": "experiments/yolo/gdt500_repeated_action_fluency_matrix/artifacts/gdt500_result.json",
+      "role": "compact result",
+      "sha256": "f8e096e9b139eb8c09d265bd8163f0d30becc3ee639efc4d1846feb53a1ec718"
+    },
+    {
+      "path": "experiments/yolo/gdt500_repeated_action_fluency_matrix/artifacts/gdt500_validation.json",
+      "role": "2521-check validation record",
+      "sha256": "dd316d410b36c685c9284b19198ca3eda1cf0946a4fb4c62487f869b1c67b200"
+    }
+  ],
+  "question": "Can the fifteen repeated-action compositions receive concise German defaults while retaining both action slots, exact source expansion and the complete 495-cell evidence deck?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "repeated_action_fluency_matrix",
+  "status": "FIFTEEN_REPEATED_ACTIONS_FLUENT_AND_REVERSIBLE__FOUR_HUNDRED_EIGHTY_UNCHANGED",
+  "title": "Repeated-action fluency matrix",
+  "updated": "2026-08-26",
+  "validation": {
+    "artifact": "experiments/yolo/gdt500_repeated_action_fluency_matrix/artifacts/gdt500_validation.json",
+    "status": "PASS"
+  }
+}

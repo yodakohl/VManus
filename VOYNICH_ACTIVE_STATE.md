@@ -12064,3 +12064,25 @@ event or page changes, and no surface or occurrence is predicted. Validation
 passes 2487/2487. Next apply a fixed reversible editorial compression to those
 fifteen clauses, then rank the fifty Tier-D cells by old partial-frame and
 action-pair support. Keep all 26 pages closed.
+
+## GDT500 repeated-action fluency matrix
+
+GDT500 returns the GDT499 editorial queue to one complete current 495-cell
+German default deck. The fifteen `COMPOSED_WORKING` cells containing two
+identical action slots now express that trace once with the explicit count word
+`zweimal`: five `CH+CH`, five `CHD+CHD+Y` and five
+`CH+CH+E+Y`, one of each per register. Celestial separable `aufnehmen` retains
+natural word order.
+
+Every edited row stores both original action clauses and its sentence/grade
+tail. All fifteen compact phrases expand exactly to the previous source phrase,
+and all fifteen retain two technical action slots. The other 480 phrases are
+byte-identical: all 143 exact observations and all 337 nonrepeated
+compositions. Component traces, recipes, evidence classes and root meanings
+change zero times. No surface or occurrence is predicted; validation passes
+2521/2521.
+
+The current phrase layer is therefore complete and no longer contains the
+mechanical doubled-imperative artifact. Next rank only the fifty GDT499 Tier-D
+cells using old partial-frame and adjacent action-pair support, without changing
+their now-current GDT500 wording or opening a page.
