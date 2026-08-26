@@ -6,7 +6,7 @@ Updated: 2026-08-26. This is the full claim registry. For routine work, read
 
 ## Outcome
 
-### Noncanonical twenty-two-page sidequest (Pass 1029 / GDT401)
+### Noncanonical twenty-two-page sidequest (Pass 1030 / GDT402)
 
 The creative workshop sidequest covers twenty-two admitted physical pages with
 4,581 visible groups: 3,888 running prose/ring-text groups plus 693 local
@@ -341,6 +341,17 @@ factorizes into an existing forward selector followed by the existing R-head
 license; all four scope rows become green and no tenth family is added. The
 semantic restriction is deliberately narrower: `EE` remains internal to the
 f82r OT packet and does not acquire the new gloss “longer/stronger MARKIEREN”.
+
+Pass 1030/GDT402 factorizes the complete 4,374-row parser so that Scope-
+Selector, visible attachment geometry, target-head license, R topology and
+duplication are no longer concatenated into one pseudo-rule. The result uses
+eight selectors, six geometries and ten target heads. Every current attachment
+replays outside page and register: register transfer stays at exact payload-
+selector level for 4,295 rows, typed payload-selector for 78, and the known
+f77r `dalchedy` case alone falls to the base AL/AR selector. The four former
+amber rows all retain exact selector support and direct R-head support. One
+f18r nested-R example and the two f13r double-EINHEIT focus rows remain visible
+local topology examples, not new scope or word values.
 
 - The manuscript is **not translated**. There are zero confirmed English
   lexemes, zero plaintext clauses, and no established language, phonetic

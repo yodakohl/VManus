@@ -1,15 +1,16 @@
 # Current twenty-two-page scribe-workshop theory
 
-Updated: 2026-08-26, after Pass 1029 / GDT401.
+Updated: 2026-08-26, after Pass 1030 / GDT402.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. Pass 1026 audits
 every old one-edit neighbour transfer and resegments 203 surfaces visibly;
 Pass 1027/GDT399 rebuilds the scope layer from those recipes; Pass 1028/GDT400
 turns it into a hierarchical future-page error deck; Pass 1029/GDT401 closes
-its four amber Scope rows as three ordinary forward-to-R card transitions. The
-current basis is 627 statements, 4,374 resolved focus attachments, four local
-channels and 19 unchanged working core values.
+its four amber Scope rows as three ordinary forward-to-R card transitions;
+Pass 1030/GDT402 separates Scope-Selector, target-head license and local
+topology across all rows. The current basis is 627 statements, 4,374 resolved
+focus attachments, four local channels and 19 unchanged working core values.
 
 ## Fixed scope
 
@@ -397,6 +398,18 @@ coarse construction. All four scope rows are green in the V2 deck. Only one
 semantic caution remains: `EE` stays inside the OT packet and must not be
 expanded as the duration or intensity of MARKIEREN.
 
+Pass 1030/GDT402 removes the source of that false amber classification from
+the full inventory. Each attachment now has separate axes for payload,
+Scope-Selector, visible attachment geometry, action head, R position and
+duplication. The resulting machine has eight selectors, six geometries and ten
+heads. All 4,374 attachments have outside-page and outside-register support on
+the selector and head axes. Across registers, 4,295 keep an exact payload-
+selector signature, 78 fall only to payload type, and the already known f77r
+`dalchedy` rightward AL case alone falls to the base AL/AR rule. The four former
+GDT400 warnings are exact on the selector axis and direct on the R-head axis.
+The single nested-R example on f18r and two focus rows in the f13r double-
+EINHEIT package remain visible local topology examples, not extra grammar.
+
 ## Constrained semantic pocket dictionary
 
 The twelve content/action cores are:
@@ -528,6 +541,10 @@ comparison set.
 
 ## Primary artifacts
 
+- Current Pass-1030/GDT402 factorized parser over all 4,374 attachments, full
+  31-value axis inventory, twenty-two-page/four-register replay, deterministic
+  next-page parser, runner and 31-check validator:
+  `gdt402_factorized_scope_selector_head_license/`;
 - Current Pass-1029/GDT401 manual closure of the three forward-to-R
   transitions, four attachment decisions, thirteen parent examples, revised
   V2 error deck, runner and 33-check validator:
@@ -654,9 +671,9 @@ comparison set.
 
 ## Next work
 
-Factor the complete 4,374-row replay into a scope-selector axis and a separate
-head-license axis so that GDT400's concatenated signatures cannot create more
-false amber cases. Then apply `NEXT_FOUR_PAGE_ERROR_DECK_V2.md` unchanged to the
-next four-page batch when the user releases it. New rooted surfaces and local
+Compile one blank four-page admission worksheet from the factorized parser and
+the V2 error deck, including explicit fields for surface recipe, owner, selector,
+target head, R/duplicate topology and stop reason. Then hold it unchanged until
+the user releases the next four-page batch. New rooted surfaces and local
 addresses remain allowed; invisible atoms, unlicensed one-edit recipe copying,
-owner jumps and a tenth coarse scope family do not.
+owner jumps and a ninth selector do not.

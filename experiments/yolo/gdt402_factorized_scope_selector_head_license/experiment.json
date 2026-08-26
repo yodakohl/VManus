@@ -1,0 +1,120 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Creative deterministic scope parser only; no confirmed word, morpheme, language, plaintext, translation, or historical code.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt402_factorized_scope_selector_head_license/src/run.py",
+    "validate": "python3 experiments/yolo/gdt402_factorized_scope_selector_head_license/src/validate.py"
+  },
+  "created": "2026-08-26",
+  "dependencies": [
+    "GDT399",
+    "GDT401"
+  ],
+  "experiment_id": "GDT402",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt399_creative_scope_rebuild_after_visible_resegmentation/artifacts/gdt399_4374_scope_attachments.tsv",
+      "role": "complete corrected attachment inventory",
+      "sha256": "ec4de6ce786ef6bc287dcf469025afaadbddbf0c5d039c0389234077772981a6"
+    },
+    {
+      "path": "experiments/yolo/gdt399_creative_scope_rebuild_after_visible_resegmentation/artifacts/gdt399_22_page_replay.tsv",
+      "role": "complete admitted page inventory",
+      "sha256": "3e0097f382753f1b67e851a49f417d6a82ddec69e88976fac11206b847536a8d"
+    },
+    {
+      "path": "experiments/yolo/gdt399_creative_scope_rebuild_after_visible_resegmentation/artifacts/gdt399_rule_support.tsv",
+      "role": "prior nine-rule inventory before factorization",
+      "sha256": "2ee16f90378dd864412a3f19c6517c388de54ba47780196419f004df4ad3994d"
+    },
+    {
+      "path": "experiments/yolo/gdt401_amber_forward_r_composition_closure/artifacts/gdt401_four_attachment_resolution.tsv",
+      "role": "manual resolution of the four former amber rows",
+      "sha256": "8975ccaf5fbdda27c46b0df63709c9475ca375422f3e0acf88cdb4743259f71a"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt402_factorized_scope_selector_head_license/README.md",
+      "role": "experiment entry point",
+      "sha256": "cafc092186d532b9e2e0c3542271df285c900f21a6cc43a6ab3e0002a4b8b149"
+    },
+    {
+      "path": "experiments/yolo/gdt402_factorized_scope_selector_head_license/METHOD.md",
+      "role": "factorized replay method",
+      "sha256": "62f77f888e4fb17adcda3640ddc4274a3d05e5c9deff1c4ae3ade77e773a76e5"
+    },
+    {
+      "path": "experiments/yolo/gdt402_factorized_scope_selector_head_license/REPORT.md",
+      "role": "primary compact report",
+      "sha256": "ba34e5f1eaa4e1e528e1b1a46c2a05ebbd0637934f0c3bf4069a155cfd6d24e8"
+    },
+    {
+      "path": "experiments/yolo/gdt402_factorized_scope_selector_head_license/DETERMINISTIC_NEXT_PAGE_PARSER.md",
+      "role": "operator-facing deterministic parser",
+      "sha256": "2d355e1fe48909c9b3cd796e9d532158bfa8f54bf4c46994f6b4c576396a31d3"
+    },
+    {
+      "path": "experiments/yolo/gdt402_factorized_scope_selector_head_license/artifacts/README.md",
+      "role": "artifact guide",
+      "sha256": "b2819726a499317363200c8b1ad0cd410aa963921bf0fa4ec4ef0353ab5e96c2"
+    },
+    {
+      "path": "experiments/yolo/gdt402_factorized_scope_selector_head_license/src/run.py",
+      "role": "deterministic factorized replay builder",
+      "sha256": "01d19cbc1babf9dd1db0b6c181fbecd451a813402f140936b7cdb51b701b2726"
+    },
+    {
+      "path": "experiments/yolo/gdt402_factorized_scope_selector_head_license/src/validate.py",
+      "role": "independent factorized replay validator",
+      "sha256": "5b3617f2c4efb5da31827af95787c5cdbae00d50f174591062a81f1b4c6e01e7"
+    },
+    {
+      "path": "experiments/yolo/gdt402_factorized_scope_selector_head_license/artifacts/gdt402_4374_factorized_replay.tsv",
+      "role": "complete factorized attachment replay",
+      "sha256": "9e9a915dc5deadfdad048a9df02e045ab6a5d4f6d0d82f0db9981cda24449d02"
+    },
+    {
+      "path": "experiments/yolo/gdt402_factorized_scope_selector_head_license/artifacts/gdt402_axis_inventory.tsv",
+      "role": "complete factor axis inventory",
+      "sha256": "3cac5e10955eee6a026086107a8ebc2b89e040e174e13ff90580ef9aed40aa1c"
+    },
+    {
+      "path": "experiments/yolo/gdt402_factorized_scope_selector_head_license/artifacts/gdt402_four_former_amber.tsv",
+      "role": "former amber rows under factorized parser",
+      "sha256": "cc559f8ae51fc9487602dbe5872803c06e5f0040484fe542c16f4263eae8ea21"
+    },
+    {
+      "path": "experiments/yolo/gdt402_factorized_scope_selector_head_license/artifacts/gdt402_22_page_4_register_replay.tsv",
+      "role": "page and register replay summary",
+      "sha256": "234be2270c437fd42758b4eb21e9f39f918e477f5c7788a35be229e3b0ccf1d4"
+    },
+    {
+      "path": "experiments/yolo/gdt402_factorized_scope_selector_head_license/artifacts/gdt402_result.json",
+      "role": "compact result and hashes",
+      "sha256": "bb20453dadf58861374a1613706dac975d9f2e1b50f9adf5a934815bd07f783f"
+    },
+    {
+      "path": "experiments/yolo/gdt402_factorized_scope_selector_head_license/artifacts/gdt402_validation.json",
+      "role": "thirty-one-check validation",
+      "sha256": "d78e5e9fa8addc9aec41117a81b3f392d7c6d7656b66ab64ac4b99b8a929e871"
+    }
+  ],
+  "question": "Can all 4,374 current focus attachments be reconstructed by separating the scope selector from the action-head license and local R/duplicate topology, eliminating concatenation-induced false amber cases?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "factorized_scope_selector_head_license",
+  "status": "COMPLETE_FACTORIZED_SCOPE_PARSER__NO_FALSE_AMBER",
+  "title": "factorized scope selector head license",
+  "updated": "2026-08-26",
+  "validation": {
+    "artifact": "experiments/yolo/gdt402_factorized_scope_selector_head_license/artifacts/gdt402_validation.json",
+    "status": "PASS"
+  }
+}
