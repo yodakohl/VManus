@@ -11431,3 +11431,22 @@ identify a learned headword plus qualifiers. This fluency measure is not a
 historical syntax claim. No component meaning, name, spelling, event, page,
 object identity, plaintext, language or confirmed lexeme changes. Next trace
 `OT`/`OL` over successive locus bundles and produce six page-level itineraries.
+
+## GDT475 OT/OL page microrecord itineraries
+
+GDT475 locates every `OT=DANACH` and `OL=FORTSETZEN` atom in the 146-bundle
+local stream. OT occurs 41 times and always opens an event: forty times at the
+bundle boundary and once at the start of a later card, never internally. OL
+occurs 28 times: eleven times at a bundle boundary, once at a later-card start
+and sixteen times inside an event. Thirty-nine noninitial leading OT bundles
+therefore open explicit next siblings. Eleven leading OL bundles attach to the
+preceding locus record, compiling 146 bundles into 135 page microrecords: 127
+singletons, five two-locus and three three-locus chains. Eight nontrivial chains
+contain nineteen bundles and eleven OL joins. Six complete page itineraries
+retain every GDT474 selected reading. Validation passes 60/60.
+
+The refined working distinction is scope-sensitive without a new meaning: OT
+opens the next equal-rank event/record; OL continues the active card or record.
+No component meaning, name, selected model, recipe, spelling, event, page,
+object identity, plaintext, language or confirmed syntax changes. Next use
+these boundary cues only to revisit the 64 GDT474 grammatical ties.
