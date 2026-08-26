@@ -232,6 +232,19 @@ same short German phrase. Eight end-to-end probes cover every tier and both
 stop cases; all 27 checks pass. The command consumes an already segmented
 component recipe and predicts no surface, component value or page.
 
+GDT435 shadow-replays all 4,576 observed events and removes an unsafe sentence
+shortcut from that command. Recipe+register alone has multiple known full
+clauses for 276/1,766 keys, covering 2,162 events; selecting the first clause
+would mismatch 1,401 events. The minimal sufficient state is not the pictured
+owner: recipe+register+inherited action+inherited argument gives 2,465 keys and
+zero clause conflicts. The context-safe reader now returns only the portable
+core phrase unless those state fields, a unique scope, or a known event ID are
+available. The 1,563-key catalog contains 121 natural-phrase collision groups
+covering 261 ordered recipes, reinforcing exact-key matching. A one-event
+jackknife leaves 3,740 events exactly known; only 14/836 singleton recipes
+regenerate at high/strong rank and another 36 at narrow rank. No card, value,
+surface or page changes; 35/35 checks pass.
+
 Pass 1032/GDT404 applies the frozen GDT403 intake contract to a one-shot random
 draw of f1r, f24v, f81r and f95v. The 95 guarded lines add 688 events, 88
 statements and 677 focus attachments. Exactly 470 events retain an old surface

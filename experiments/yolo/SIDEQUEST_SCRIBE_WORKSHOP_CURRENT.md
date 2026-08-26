@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT434.
+Updated: 2026-08-26, after GDT435.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -123,6 +123,17 @@ silently become a new card: the reader prints the literal trace and stops.
 Four pairs in the narrow appendix share a fluent German phrase despite a
 different component order, so matching is always by the exact component key.
 All eight end-to-end probes and 27 validator checks pass.
+
+GDT435 corrects the reader before it reaches another page. An exact recipe and
+register do identify the card, but 276 of 1,766 such keys carry several full
+sentence variants because the current verb or object is inherited. Choosing
+the first stored clause would be wrong for 1,401 of 4,576 known events. The
+minimal sufficient input is recipe + register + inherited action + inherited
+argument: 2,465 resulting keys are all clause-unique. The pictured owner is
+still the local referent but is not needed to choose the sentence. The new
+command therefore prints only the safe core when state is absent. It also
+records 121 German-phrase collision groups across the full catalog, so exact
+component order remains the sole matcher key. The 49-card deck is unchanged.
 
 ## Fixed scope
 
@@ -852,8 +863,8 @@ comparison set.
 
 ## Next work
 
-Keep the current 26 pages closed. Shadow-replay the intake reader over every
-observed recipe to prove that T0 always outranks predictions, then remove each
-observed key in simulation and record whether the fixed 49-card deck, the
-narrow appendix or the stop boundary catches it. Do not change a meaning,
-surface or page during that replay.
+Keep the current 26 pages closed. Build one left-to-right state driver that
+supplies inherited action and argument to the GDT435 reader from the preceding
+event stream. It must reproduce all 4,576 current clauses without an event-ID
+oracle and stop at every real owner/statement reset. Do not change a meaning,
+surface or page.
