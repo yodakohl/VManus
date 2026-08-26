@@ -1,0 +1,112 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "One complete source-ordered working edition over the already admitted 183 local-address events; no new page, component meaning, surface spelling, occurrence, individual object identity, plaintext, language, or confirmed lexeme.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt473_unified_local_address_working_edition/src/run.py",
+    "validate": "python3 experiments/yolo/gdt473_unified_local_address_working_edition/src/validate.py"
+  },
+  "created": "2026-08-26",
+  "dependencies": ["GDT459", "GDT466", "GDT472"],
+  "experiment_id": "GDT473",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt459_local_nomenclator_content_atlas/artifacts/gdt459_183_address_interlinear.tsv",
+      "role": "source-ordered 183-event local-address interlinear",
+      "sha256": "1668013305dc419fa29c77087248685711e25bb74086a7a592704cb5ffae77ec"
+    },
+    {
+      "path": "experiments/yolo/gdt466_future_address_mixed_dictionary_intake/artifacts/gdt466_107_intake_dictionary.tsv",
+      "role": "final 107-label character accounting",
+      "sha256": "f5b4e35065c4545bf85cf90e2a376728ec261af7426756f24747b50d9d5c9b59"
+    },
+    {
+      "path": "experiments/yolo/gdt472_complete_address_template_dictionary/artifacts/gdt472_107_complete_template_assignments.tsv",
+      "role": "complete 107-label readings and template assignments",
+      "sha256": "6ebd16bf39df288e4e9c6dfdd71e09c292aa3861793936bf07562977bfb48d87"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt473_unified_local_address_working_edition/README.md",
+      "role": "entry point",
+      "sha256": "e0e817dbb593b6b7dd30caa390217427e944fcae67c37aa55e280ef946eb6cac"
+    },
+    {
+      "path": "experiments/yolo/gdt473_unified_local_address_working_edition/METHOD.md",
+      "role": "join and consistency method",
+      "sha256": "3721b8742e4c939d0fa088543a44cc0e0e45f8f6be8a5e8478ff71787fc1adef"
+    },
+    {
+      "path": "experiments/yolo/gdt473_unified_local_address_working_edition/REPORT.md",
+      "role": "primary report",
+      "sha256": "ac5d3ac11220bc66e111ebdd254190d2346e7ef4e25a86db6a26c1ff473cabc6"
+    },
+    {
+      "path": "experiments/yolo/gdt473_unified_local_address_working_edition/src/run.py",
+      "role": "deterministic edition builder",
+      "sha256": "87b553e8275f34e97e073390b2af9e15ddf18fd3ac999c7a7d9b36fabffede53"
+    },
+    {
+      "path": "experiments/yolo/gdt473_unified_local_address_working_edition/src/validate.py",
+      "role": "validator and deterministic rebuild check",
+      "sha256": "f28c5fd1c53a409e6d31ace03f2021ecbc22d6eb5e5aaf0ad275169e5c80d485"
+    },
+    {
+      "path": "experiments/yolo/gdt473_unified_local_address_working_edition/artifacts/README.md",
+      "role": "artifact guide",
+      "sha256": "e02c65d342a9b2cf84afa8969ae06cf0c51d68cc524b09da107c15b01f028fc6"
+    },
+    {
+      "path": "experiments/yolo/gdt473_unified_local_address_working_edition/artifacts/GDT473_COMPLETE_WORKING_EDITION.md",
+      "role": "complete human-readable working edition",
+      "sha256": "55fafa5703506d80a28c1ae1bec5be30c8881cc3e7f84bc90ee559e71d0b8306"
+    },
+    {
+      "path": "experiments/yolo/gdt473_unified_local_address_working_edition/artifacts/gdt473_183_unified_address_working_edition.tsv",
+      "role": "complete machine-readable event edition",
+      "sha256": "f8031225ef0d4f88f49a79c1f2b0b03eb2dcdbc3b3643c7fb081089268e2d454"
+    },
+    {
+      "path": "experiments/yolo/gdt473_unified_local_address_working_edition/artifacts/gdt473_162_surface_consistency.tsv",
+      "role": "distinct-surface consistency deck",
+      "sha256": "50dca504de153a345a05935e296482ad5b15a31e673e78cd6a4244acc62bce6f"
+    },
+    {
+      "path": "experiments/yolo/gdt473_unified_local_address_working_edition/artifacts/gdt473_6_page_summary.tsv",
+      "role": "page-level architecture summary",
+      "sha256": "a560e489b611261443d73b01f6597db2fa64a6d32dd118c73da5f1a1b4555df0"
+    },
+    {
+      "path": "experiments/yolo/gdt473_unified_local_address_working_edition/artifacts/gdt473_4_coverage_class_summary.tsv",
+      "role": "four-way coverage summary",
+      "sha256": "ac26737c525ecd67fe224ad0e289240beae78ec259dc9983487c397a74250cad"
+    },
+    {
+      "path": "experiments/yolo/gdt473_unified_local_address_working_edition/artifacts/gdt473_result.json",
+      "role": "compact result",
+      "sha256": "bc2203e36cca323c2ced0a616fa006c8187db4183cf77c6b5366b0569e43c988"
+    },
+    {
+      "path": "experiments/yolo/gdt473_unified_local_address_working_edition/artifacts/gdt473_validation.json",
+      "role": "48-check validation report",
+      "sha256": "a14d8b998d82e4823343fa0f6de5bc80176fb7528a1f8e8d242b2eda70b9b22d"
+    }
+  ],
+  "question": "Can the 76 formula-side GDT459 events and 107 completed GDT472 label readings be returned to one source-ordered local-address edition with invariant repeated-surface readings?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "unified_local_address_working_edition",
+  "status": "COMPLETE_183_EVENT_LOCAL_ADDRESS_WORKING_EDITION__94_FULL_FORMULAS_87_HYBRIDS_2_LEARNED_ONLY",
+  "title": "Unified local address working edition",
+  "updated": "2026-08-26",
+  "validation": {
+    "artifact": "experiments/yolo/gdt473_unified_local_address_working_edition/artifacts/gdt473_validation.json",
+    "status": "PASS"
+  }
+}

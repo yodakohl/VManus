@@ -11393,3 +11393,22 @@ is supplied, and the complete decks contain 87 surface templates, 85 component
 templates and twenty topologies. Fifteen topologies cover 100/105 transferable
 labels. Validation passes 73/73. Next replay all 183 GDT459 local-address events
 through this complete reader and publish one ordered working address edition.
+
+## GDT473 unified local address working edition
+
+GDT473 returns all later label decompositions to the original GDT459 stream.
+The 76 formula-side events retain their recipes and readings byte-for-byte; the
+107 old tier-D entries receive their exact GDT472 readings in the same source
+positions. The resulting 183-event/162-surface edition has 94 complete function
+formulae, 87 function-shell/learned-name hybrids, one owner-family/name card
+(`cheosdy`) and one whole learned name (`oiil`). Working function channels cover
+774/1,045 visible characters; the remaining 271 characters stay explicit
+learned name material. Sixteen surfaces recur across 37 events and all keep one
+recipe, reading and coverage class. `ykyd` and `yddy` remain the only
+nontransferable exact-package readings. Validation passes 48/48.
+
+No page, component meaning, surface spelling, occurrence, object identity,
+plaintext, language or confirmed lexeme is added. Next collapse adjacent
+events into visible locus/owner bundles and compare coordinate,
+ordered-instruction and catalogue-qualifier renderings without changing a root
+or learned core.

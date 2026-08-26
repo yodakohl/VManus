@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT472.
+Updated: 2026-08-26, after GDT473.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -65,7 +65,7 @@ CONTROL into `T=EINSTELLEN` and `R=MARKIEREN` creates a five-class gate with
 amber; `R>T` and `R<-EE` remain red-local. The internal meanings of the broad
 classes are not collapsed.
 
-GDT459–GDT472 now resolve the formerly opaque local-address tail as the mixed
+GDT459–GDT473 now resolve the formerly opaque local-address tail as the mixed
 codebook architecture anticipated by the sidequest: portable function cards
 surround memorized owner-bound name cores. Of 107 learned address labels,
 eighteen are now complete function formulas, 87 are function-shell/name-core
@@ -113,6 +113,12 @@ GDT472 adds the eighteen complete-function labels. Sixteen are freely replayed
 as zero-name function templates; `ykyd` and `yddy` remain exact packages whose
 full readings cannot be inherited by another surface. The complete 107-label
 reader now exposes assignment mode and transferability beside every reading.
+GDT473 returns that dictionary to the complete local-address stream. All 183
+events now have one source-ordered default: 94 full formulas, 87
+function/name hybrids, one owner-family/name card and one whole name. Function
+channels cover 774/1,045 visible characters. Sixteen surfaces recur over 37
+events and none changes recipe or reading. The page-grouped readable edition is
+now the compact answer to what the current address translation actually says.
 
 GDT428 now supplies the missing semantic contrast deck. Six within-class
 comparisons contain 104 exact frames where only the action root changes. The
@@ -1110,7 +1116,9 @@ comparison set.
 
 ## Next work
 
-Keep the current 26 pages closed. Apply the complete GDT472 reader to all 183
-GDT459 local-address events, including the 76 formula-side events, and publish
-one ordered working edition with duplicate-surface consistency and one reader
-route per event. Do not generate a spelling, add a meaning, or use a new page.
+Keep the current 26 pages closed. Group the complete GDT473 edition into visible
+locus/owner bundles and try three fluent readings of every bundle: coordinate,
+ordered instruction and catalogue qualifier. Preserve all nineteen roots,
+learned cores, spellings and exact-package restrictions. The point is to decide
+what kind of sentence the local addresses most resemble, not to mine another
+substring or open a page.
