@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT417.
+Updated: 2026-08-26, after GDT418.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -19,10 +19,14 @@ statements. GDT416 renders the same material as 4,576 imperative clauses and
 715 readable statements with eleven small templates; carried actions and
 arguments remain explicit same-owner state. GDT417 finds 298 exact recipes
 shared across registers (3,317 events), including twenty recipes in all five
-registers and seven fully self-contained five-register compositions. The
-current basis retains 5,051 resolved focus attachments, four local channels
-and nineteen broad working values. Concrete substances, objects, body parts
-and celestial names are still owner-local.
+registers and seven fully self-contained five-register compositions. GDT418
+audits the two weakest exact-recipe cores without changing them:
+`P=EINSETZEN` remains an often medial action across 160 occurrences/121
+recipes, and `L=VERBINDUNG` remains a broad context-bearing relation across
+270 mentions/110 recipes, never by itself a pipe or direction. The current
+basis retains 5,051 resolved focus attachments, four local channels and
+nineteen broad working values. Concrete substances, objects, body parts and
+celestial names are still owner-local.
 
 ## Fixed scope
 
@@ -752,11 +756,14 @@ comparison set.
 
 ## Next work
 
-Before opening another page, turn GDT413 into a compact semantic failure deck:
-the nineteen defaults, allowed owner-local expansions, and the smallest
-existing counterexamples that distinguish a genuine core failure from a new
-local noun. Then use that deck together with GDT405 on the next user-released
-four-page group. Exact old forms must replay without editing; genuinely new
-surfaces may use only visible old factors. Invisible atoms, unlicensed one-edit
-recipe copying, owner jumps, lookahead beyond one card, a ninth selector, an
-eleventh head and silent retuning of a core remain hard failures.
+Before opening another page, test the seven fully self-contained
+five-register recipes from GDT417 as small compositional paradigms: find every
+attested one-atom neighbour and ask whether action, argument or E/EE/EEE grade
+changes exactly as the nineteen-core dictionary predicts. Missing neighbours
+become explicit future-page predictions rather than invented present forms.
+After that, use the GDT414 error deck and the GDT418 P/L cards on the next
+user-released four-page group. Exact old forms must replay without editing;
+genuinely new surfaces may use only visible old factors. Invisible atoms,
+unlicensed one-edit recipe copying, owner jumps, lookahead beyond one card, a
+ninth selector, an eleventh head and silent retuning of a core remain hard
+failures.

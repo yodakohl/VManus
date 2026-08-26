@@ -1,0 +1,50 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Exploratory closure of two working core meanings only; no confirmed lexeme, morphology, plaintext, language, or source identification.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt418_p_l_weak_core_compositional_closure/src/run.py",
+    "validate": "python3 experiments/yolo/gdt418_p_l_weak_core_compositional_closure/src/validate.py"
+  },
+  "created": "2026-08-26",
+  "dependencies": [
+    "GDT416",
+    "GDT417"
+  ],
+  "experiment_id": "GDT418",
+  "inputs": [
+    {"path": "experiments/yolo/gdt416_owner_local_imperative_sentence_compiler/artifacts/gdt416_4576_imperative_clauses.tsv", "role": "upstream reproducible input", "sha256": "cffae521ba93d96446537584e35fa9a4fe4b6e34330ebf7e955ad725f7c70561"},
+    {"path": "experiments/yolo/gdt417_cross_register_semantic_parallel_phrasebook/artifacts/gdt417_298_cross_register_recipes.tsv", "role": "upstream reproducible input", "sha256": "ef14803293398f641c2264e1267333302189d7a5a56fb7ca2dabf563501ff9bf"}
+  ],
+  "outputs": [
+    {"path": "experiments/yolo/gdt418_p_l_weak_core_compositional_closure/README.md", "role": "entry point", "sha256": "577b8255e5c8a4b1e18f026972945873478ac812237b57750ff3f1ce0cede42c"},
+    {"path": "experiments/yolo/gdt418_p_l_weak_core_compositional_closure/METHOD.md", "role": "reproducible method", "sha256": "324c9e0801613963cab7eec4dd148bb7b3a9b37da1ee01052a4c4372ccc0f256"},
+    {"path": "experiments/yolo/gdt418_p_l_weak_core_compositional_closure/REPORT.md", "role": "primary compact report", "sha256": "3f6030f6fa2c05491f86037a7d69909be0749600e9370cab9d97505c059a0124"},
+    {"path": "experiments/yolo/gdt418_p_l_weak_core_compositional_closure/src/run.py", "role": "deterministic builder", "sha256": "a7965fdb09d43851a727a83e13c3b0bca77a3de508e3915eae18826306726e46"},
+    {"path": "experiments/yolo/gdt418_p_l_weak_core_compositional_closure/src/validate.py", "role": "independent validator", "sha256": "ea044a1deef2024e34f553f7ddcc6c5a03279e7753bd41b8c2ae5e2c2ef4def6"},
+    {"path": "experiments/yolo/gdt418_p_l_weak_core_compositional_closure/artifacts/README.md", "role": "artifact guide", "sha256": "41de9891aafaeffcd1c1c89408b245f648e6ec110e286560a62f255642c4ea34"},
+    {"path": "experiments/yolo/gdt418_p_l_weak_core_compositional_closure/artifacts/P_L_NEXT_PAGE_COMPOSITION_CARDS.md", "role": "readable prediction cards", "sha256": "897ca75babcc487b94399378d9270d97d10209f5063d8e9e60fc3e6ba310e154"},
+    {"path": "experiments/yolo/gdt418_p_l_weak_core_compositional_closure/artifacts/gdt418_430_p_l_occurrence_audit.tsv", "role": "reproducible output artifact", "sha256": "2ae10630656d6e6252d126a8521526cb75f4e6576d6ade66ff372c76b63e84e2"},
+    {"path": "experiments/yolo/gdt418_p_l_weak_core_compositional_closure/artifacts/gdt418_231_p_l_recipe_inventory.tsv", "role": "reproducible output artifact", "sha256": "edc0564ddd2dbbcc59cb8118ef075b05b89e7bea6462f462cc0f75df1ed97eec"},
+    {"path": "experiments/yolo/gdt418_p_l_weak_core_compositional_closure/artifacts/gdt418_p_l_profiles.tsv", "role": "reproducible output artifact", "sha256": "a5979a8656037e990d38e89c2e357910ada87d353b57c0c5e7aec4da2cc2ea3c"},
+    {"path": "experiments/yolo/gdt418_p_l_weak_core_compositional_closure/artifacts/gdt418_p_l_candidate_scorecard.tsv", "role": "reproducible output artifact", "sha256": "23d1b3e98586377cd39753b542c395adb2cfc19cd227678753b42f4860eb83d2"},
+    {"path": "experiments/yolo/gdt418_p_l_weak_core_compositional_closure/artifacts/gdt418_result.json", "role": "compact result", "sha256": "18eeea494ebb38ba8eea46833b24781b0683c01a2ca5bb61c6b3167ed2cb3373"},
+    {"path": "experiments/yolo/gdt418_p_l_weak_core_compositional_closure/artifacts/gdt418_validation.json", "role": "validation report", "sha256": "d69edf874524efc7ca807f54291be2efeba1db35163cd37763c59dd38e409821"}
+  ],
+  "question": "Do P=EINSETZEN and L=VERBINDUNG survive complete positional, companion, and shared-recipe audit?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "p_l_weak_core_compositional_closure",
+  "status": "P_AND_L_RETAINED_WITH_EXPLICIT_COMPOSITION_RULES",
+  "title": "P/L weak-core compositional closure",
+  "updated": "2026-08-26",
+  "validation": {
+    "artifact": "experiments/yolo/gdt418_p_l_weak_core_compositional_closure/artifacts/gdt418_validation.json",
+    "status": "PASS"
+  }
+}

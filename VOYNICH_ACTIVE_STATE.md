@@ -66,6 +66,14 @@ five registers. Seven are both five-register and fully self-contained:
 cores are the first semantic weak points to watch rather than pre-emptively
 retune.
 
+GDT418 audits those two weak points over every current occurrence. `P` occurs
+160 times in 121 recipes and is medial 107 times; 126 occurrences share a card
+with another action. This keeps `P=EINSETZEN` ahead of BEGINNEN, VERWENDEN and
+EINBRINGEN. `L` has 270 mentions in 268 events and 110 recipes; 179 mentions
+are initial and 184 co-occur with an action. This retains the broad relation
+`L=VERBINDUNG`, while explicitly forbidding an automatic pipe, direction or
+physical connection. No dictionary row changes.
+
 Pass 1032/GDT404 applies the frozen GDT403 intake contract to a one-shot random
 draw of f1r, f24v, f81r and f95v. The 95 guarded lines add 688 events, 88
 statements and 677 focus attachments. Exactly 470 events retain an old surface
