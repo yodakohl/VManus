@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT493.
+Updated: 2026-08-26, after GDT494.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -307,6 +307,16 @@ direct T/R register pairs remain verbally distinct. Four argumentless frames
 use Y=POSTEN only as a visible working state default. Three observed clauses
 correct it to OR or AIIN; observation always wins and no composed sentence is
 reported as a witness.
+
+GDT494 ranks the 73 fixed `COMPOSED_WORKING` cells without changing any
+reading or evidence label. Twenty-seven Tier A cards have at least two exact
+same-register non-T/R heads, nineteen Tier B cards have one, five Tier C cards
+have only the opposite T/R action, and 22 Tier D cards have only the target
+action in another register. Forty-six targets draw on 105 local non-T/R cells
+and 267 events; 51 have some local frame-family support, while all 73 retain
+the target action and frame across registers. All 23 state warnings remain
+visible. This is a priority order for exploration, not evidence that a
+composed phrase occurs on a page.
 
 GDT428 now supplies the missing semantic contrast deck. Six within-class
 comparisons contain 104 exact frames where only the action root changes. The
@@ -1096,6 +1106,10 @@ comparison set.
 
 ## Primary artifacts
 
+- Current GDT494 support ranking of all 73 composed cells, with 27 multihead
+  Tier A cards, nineteen single-head Tier B cards, five opposite-T/R Tier C
+  cards, 22 cross-register-only Tier D cards and complete support provenance:
+  `gdt494_composed_cell_family_support_ranking/`;
 - Current GDT493 complete owner-dependent T/R realization deck, 110 cards,
   37 observed cells, 73 visibly composed cells, 55 distinct direct T/R pairs
   and three observed inherited-argument overrides:
@@ -1348,8 +1362,9 @@ comparison set.
 
 ## Next work
 
-Keep the current 26 pages closed. Rank the 73 GDT493 `COMPOSED_WORKING` cells
-by exact same-register support from other action roots in the same formal
-frame. Keep the composed label. The strongest future cards should have at
-least two observed alternate heads in that register plus fully old slot cells;
-state-dependent frames must retain their active-argument warning.
+Keep the current 26 pages closed. Publish the 27 GDT494 Tier A cards as a
+compact future-comparison sheet containing the exact component trace, current
+owner-dependent phrase, every same-register alternate head and old page,
+cross-register anchors, any active-argument warning, and the literal label
+`KEINE OBERFLÄCHENVORHERSAGE`. Do not promote a composed reading merely because
+its formal family is dense.

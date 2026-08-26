@@ -11903,3 +11903,27 @@ No meaning, source wording, model, boundary, surface, recipe, Event or page
 changes; validation passes 109/109. Next rank the 73 composed cells by exact
 same-register carriers of other action roots in the same frame, preserving the
 COMPOSED_WORKING label and all state warnings.
+
+## GDT494 composed-cell frame-family support ranking
+
+GDT494 ranks all 73 fixed GDT493 `COMPOSED_WORKING` cells without changing a
+component, phrase, label or warning. Tier A contains 27 cards with at least two
+exact same-register non-T/R action heads in the same formal frame; Tier B
+contains nineteen with exactly one; Tier C contains five with only the
+opposite T/R action in that register; Tier D contains 22 with no local action
+alternate and support only from the same target action and frame elsewhere.
+
+Forty-six target cards have exact non-T/R support in their register, supplied
+by 105 distinct action×frame×register cells and 267 events. Fifty-one have some
+same-register frame-family support once the opposite T/R action is included.
+All 73 have the same target action and frame in another register, represented
+by 98 support cells and 166 events. The strongest cards include bare T in the
+biological register (OK, CH, SH, S and CHD heads) and R+AL in the celestial
+register (OK, CH, K, S and CHD heads). Ranking within each tier is transparent
+and lexicographic; it is not a probability score.
+
+All 23 state-dependent cards retain their active-argument warning. GDT494
+makes no occurrence or surface prediction and upgrades no composed reading;
+validation passes 88/88. Next publish the 27 Tier A cards in one compact
+future-comparison sheet with full support heads/pages and the literal warning
+`KEINE OBERFLÄCHENVORHERSAGE`, while keeping the 26 pages closed.
