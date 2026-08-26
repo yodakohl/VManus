@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT492.
+Updated: 2026-08-26, after GDT493.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -297,6 +297,16 @@ families also contain 23 old events, 17 action cells and nineteen clauses.
 Nine cells use other actions. `OK+AL+Y` directly bridges celestial/biological
 and `CH+AL+Y` biological/pharma while keeping both action and formal frame.
 Thus owner wording is a productive register layer, not four new lexemes.
+
+GDT493 compiles the resulting owner-dependent deck across all eleven T/R
+frames, both actions and all five registers. Every one of 110 cells now has a
+concrete reading and an explicit evidence label. Thirty-seven are exact old
+GDT416 clauses with 76 carriers/44 forms; 73 are `COMPOSED_WORKING` outputs of
+the unchanged renderer using only 55/55 old value×register cells. All 55
+direct T/R register pairs remain verbally distinct. Four argumentless frames
+use Y=POSTEN only as a visible working state default. Three observed clauses
+correct it to OR or AIIN; observation always wins and no composed sentence is
+reported as a witness.
 
 GDT428 now supplies the missing semantic contrast deck. Six within-class
 comparisons contain 104 exact frames where only the action root changes. The
@@ -1086,6 +1096,10 @@ comparison set.
 
 ## Primary artifacts
 
+- Current GDT493 complete owner-dependent T/R realization deck, 110 cards,
+  37 observed cells, 73 visibly composed cells, 55 distinct direct T/R pairs
+  and three observed inherited-argument overrides:
+  `gdt493_owner_dependent_tr_realization_deck/`;
 - Current GDT492 owner-slot bridge atlas, twelve decomposed positions, 35/35
   old register cells, 23 family carriers, nine non-T/R action cells and two
   direct same-action register bridges:
@@ -1334,8 +1348,8 @@ comparison set.
 
 ## Next work
 
-Keep the current 26 pages closed. Compile an owner-dependent realization deck
-for all eleven T/R frames across all five registers. Every cell must say either
-`OBSERVED_CLAUSE` when an exact GDT416 clause exists or `COMPOSED_WORKING`
-when only old GDT492 slot cells are combined. Preserve the exact component
-trace and never present a composed workshop sentence as an observed witness.
+Keep the current 26 pages closed. Rank the 73 GDT493 `COMPOSED_WORKING` cells
+by exact same-register support from other action roots in the same formal
+frame. Keep the composed label. The strongest future cards should have at
+least two observed alternate heads in that register plus fully old slot cells;
+state-dependent frames must retain their active-argument warning.

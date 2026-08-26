@@ -11875,3 +11875,31 @@ No phrase, value, meaning, wording, model, boundary, surface, recipe, Event or
 page changes; validation passes 105/105. Next compile all eleven T/R frames
 over all five registers with an explicit OBSERVED_CLAUSE versus
 COMPOSED_WORKING label and an unchanged component trace.
+
+## GDT493 owner-dependent T/R realization deck
+
+GDT493 expands the eleven fixed T/R frames over both actions and all five
+registers. All 110 cells receive a concrete phrase and unchanged portable plus
+owner-local component trace. Thirty-seven cells are exact GDT416
+recipe×register observations with 76 event carriers and 44 clause forms.
+Seventy-three cells are explicitly labelled COMPOSED_WORKING and use only the
+unchanged GDT416 renderer and old register values. No composed output is
+claimed as observed.
+
+The eleven involved values occupy all 55 required value×register cells. All 55
+direct frame×register T/R pairs have different displayed phrases while their
+formal remainder stays fixed: eight pairs are observed on both sides, 21 mix
+observation and composition, and 26 are composed on both sides.
+
+Four frames have no explicit argument and therefore require live owner state:
+bare action, action+target, action+continuation and CH+action. The composed
+deck uses Y=POSTEN [wie zuvor] as a visible default only. In 34/37 observed
+cells that renderer phrase is itself attested. Three observations instead
+inherit OR or AIIN—pharmaceutical R+AL marks the Ansatzeinheit, herbal CH+T
+uses Arbeitswert and biological CH+R uses Stationswert—and correctly override
+the working default without changing a meaning.
+
+No meaning, source wording, model, boundary, surface, recipe, Event or page
+changes; validation passes 109/109. Next rank the 73 composed cells by exact
+same-register carriers of other action roots in the same frame, preserving the
+COMPOSED_WORKING label and all state warnings.

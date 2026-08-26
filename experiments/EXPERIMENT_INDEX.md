@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **491**
-- Experiment-associated tracked files: **7,117** (790.8 MiB)
-- Structured GDT337+ experiments: **156**
+- Experiments indexed: **492**
+- Experiment-associated tracked files: **7,136** (791.0 MiB)
+- Structured GDT337+ experiments: **157**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT493 | GDT493_owner_dependent_tr_realization_deck | `ONE_HUNDRED_TEN_OWNER_REALIZATIONS__THIRTY_SEVEN_OBSERVED__SEVENTY_THREE_COMPOSED_WORKING` | [report](../experiments/yolo/gdt493_owner_dependent_tr_realization_deck/REPORT.md) | 19 | 218.8 KiB | 5 | STRUCTURED_YOLO |
 | GDT492 | GDT492_owner_variant_slot_bridge_atlas | `FOUR_OWNER_VARIANTS_DECOMPOSED__THIRTY_FIVE_SLOT_CELLS_OBSERVED__NINE_ALTERNATE_ACTION_CELLS` | [report](../experiments/yolo/gdt492_owner_variant_slot_bridge_atlas/REPORT.md) | 18 | 102.6 KiB | 4 | STRUCTURED_YOLO |
 | GDT491 | GDT491_markierungen_observed_phrase_contrast_atlas | `ALL_ELEVEN_R_FRAMES_HAVE_OBSERVED_PHRASES__SEVEN_EXACT_GERMAN_REMAINDERS__FOUR_OWNER_VARIANTS` | [report](../experiments/yolo/gdt491_markierungen_observed_phrase_contrast_atlas/REPORT.md) | 18 | 117.7 KiB | 3 | STRUCTURED_YOLO |
 | GDT490 | GDT490_einstellen_observed_phrase_atlas | `ALL_ELEVEN_T_FRAMES_HAVE_OBSERVED_PHRASES__TWENTY_TWO_FORMS__ZERO_INVENTED` | [report](../experiments/yolo/gdt490_einstellen_observed_phrase_atlas/REPORT.md) | 16 | 87.0 KiB | 3 | STRUCTURED_YOLO |
