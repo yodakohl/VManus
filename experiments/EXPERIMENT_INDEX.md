@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **465**
-- Experiment-associated tracked files: **6,705** (780.2 MiB)
-- Structured GDT337+ experiments: **130**
+- Experiments indexed: **466**
+- Experiment-associated tracked files: **6,718** (783.1 MiB)
+- Structured GDT337+ experiments: **131**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT467 | GDT467_bounded_shell_composition_atlas | `ALL_BOUNDED_SHELL_COMPOSITIONS_PRESERVE_INTENDED_CHANNELS` | [report](../experiments/yolo/gdt467_bounded_shell_composition_atlas/REPORT.md) | 13 | 3.0 MiB | 1 | STRUCTURED_YOLO |
 | GDT466 | GDT466_future_address_mixed_dictionary_intake | `FROZEN_MIXED_DICTIONARY_INTAKE_READY` | [report](../experiments/yolo/gdt466_future_address_mixed_dictionary_intake/REPORT.md) | 20 | 235.2 KiB | 6 | STRUCTURED_YOLO |
 | GDT465 | GDT465_oiil_cross_reading_renderer_closure | `OIIL_REMAINS_SINGLE_WHOLE_LABEL__NOMENCLATOR_TAIL_CLOSED` | [report](../experiments/yolo/gdt465_oiil_cross_reading_renderer_closure/REPORT.md) | 14 | 105.6 KiB | 3 | STRUCTURED_YOLO |
 | GDT464 | GDT464_residual_exact_package_bridge | `FOUR_BOUNDED_BRIDGES_REDUCE_WHOLE_LABEL_TAIL_TO_ONE` | [report](../experiments/yolo/gdt464_residual_exact_package_bridge/REPORT.md) | 16 | 131.9 KiB | 5 | STRUCTURED_YOLO |

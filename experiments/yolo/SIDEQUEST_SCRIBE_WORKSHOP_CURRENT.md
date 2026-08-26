@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT466.
+Updated: 2026-08-26, after GDT467.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -65,7 +65,7 @@ CONTROL into `T=EINSTELLEN` and `R=MARKIEREN` creates a five-class gate with
 amber; `R>T` and `R<-EE` remain red-local. The internal meanings of the broad
 classes are not collapsed.
 
-GDT459–GDT466 now resolve the formerly opaque local-address tail as the mixed
+GDT459–GDT467 now resolve the formerly opaque local-address tail as the mixed
 codebook architecture anticipated by the sidequest: portable function cards
 surround memorized owner-bound name cores. Of 107 learned address labels,
 eighteen are now complete function formulas, 87 are function-shell/name-core
@@ -84,6 +84,11 @@ exact label, then 44 calibrated function channels, then eighteen class-bound
 family markers, then a learned owner-class name. All 89 synthetic changed name
 cores retain their shells. The compiler also repairs one missed application of
 the old `ar-` prefix in `ararchodaiin`, bringing function coverage to 442/713.
+GDT467 then proves that the function shells really compose under the same
+reader: all 2,760 bounded pair/triple templates and 8,280 core variants retain
+their intended channels. Four hundred twenty-three groups share a flat recipe
+through different visible card boundaries, so every reading must keep its exact
+channel trace beside the broad meaning.
 
 GDT428 now supplies the missing semantic contrast deck. Six within-class
 comparisons contain 104 exact frames where only the action root changes. The
@@ -1081,9 +1086,9 @@ comparison set.
 
 ## Next work
 
-Keep the current 26 pages closed. Exercise every bounded prefix×suffix and
-prefix×internal×suffix combination around an opaque synthetic core through the
-GDT466 reader. Record which intended shells survive the longest-match order and
-which combinations collide; keep collisions explicit instead of adding a
-channel. Do not infer a new core meaning, generate a manuscript spelling, or
-use a new page.
+Keep the current 26 pages closed. Join the 2,300 GDT467 flat shell recipes to
+the existing running and address recipe catalogs. Mark which shell meanings
+already have old carrier surfaces/pages, which are known only through an exact
+address card, and which are newly readable combinations of old channels. Rank
+the 423 factorization families by that support without generating a spelling,
+adding a meaning, or using a new page.

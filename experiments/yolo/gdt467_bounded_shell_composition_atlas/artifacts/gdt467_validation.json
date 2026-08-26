@@ -1,0 +1,278 @@
+{
+  "status": "PASS",
+  "check_count": 54,
+  "passed": 54,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "rule_count",
+      "status": "PASS",
+      "detail": "observed=44"
+    },
+    {
+      "name": "rule_kind_counts",
+      "status": "PASS",
+      "detail": "Counter({'SUFFIX': 23, 'PREFIX': 12, 'INTERNAL': 9})"
+    },
+    {
+      "name": "core_marker_safety",
+      "status": "PASS",
+      "detail": "no marker contains internal stem"
+    },
+    {
+      "name": "phrasebook_count",
+      "status": "PASS",
+      "detail": "observed=2760"
+    },
+    {
+      "name": "phrasebook_ids",
+      "status": "PASS",
+      "detail": "S0001-S2760"
+    },
+    {
+      "name": "phrasebook_shape_counts",
+      "status": "PASS",
+      "detail": "Counter({'PREFIX_CORE_INTERNAL_CORE_SUFFIX': 2484, 'PREFIX_CORE_SUFFIX': 276})"
+    },
+    {
+      "name": "phrasebook_unique_templates",
+      "status": "PASS",
+      "detail": "all templates unique"
+    },
+    {
+      "name": "phrasebook_unique_channel_signatures",
+      "status": "PASS",
+      "detail": "all exact traces unique"
+    },
+    {
+      "name": "phrasebook_recipe_signature_count",
+      "status": "PASS",
+      "detail": "observed=2300"
+    },
+    {
+      "name": "phrasebook_literal_signature_count",
+      "status": "PASS",
+      "detail": "observed=2400"
+    },
+    {
+      "name": "phrasebook_owner_placeholders",
+      "status": "PASS",
+      "detail": "all preserve opaque core"
+    },
+    {
+      "name": "pair_cartesian_complete",
+      "status": "PASS",
+      "detail": "12x23"
+    },
+    {
+      "name": "triple_cartesian_complete",
+      "status": "PASS",
+      "detail": "12x9x23"
+    },
+    {
+      "name": "phrasebook_flat_recipes",
+      "status": "PASS",
+      "detail": "all recipes flatten source channels"
+    },
+    {
+      "name": "phrasebook_channel_traces",
+      "status": "PASS",
+      "detail": "all traces exact"
+    },
+    {
+      "name": "phrasebook_templates",
+      "status": "PASS",
+      "detail": "all templates exact"
+    },
+    {
+      "name": "probe_count",
+      "status": "PASS",
+      "detail": "observed=8280"
+    },
+    {
+      "name": "probe_ids",
+      "status": "PASS",
+      "detail": "P00001-P08280"
+    },
+    {
+      "name": "probe_core_counts",
+      "status": "PASS",
+      "detail": "Counter({'x': 2760, 'zx': 2760, 'xvz': 2760})"
+    },
+    {
+      "name": "probe_shape_counts",
+      "status": "PASS",
+      "detail": "Counter({'PREFIX_CORE_INTERNAL_CORE_SUFFIX': 7452, 'PREFIX_CORE_SUFFIX': 828})"
+    },
+    {
+      "name": "probe_shell_counts",
+      "status": "PASS",
+      "detail": "three markers per shell"
+    },
+    {
+      "name": "probe_routes",
+      "status": "PASS",
+      "detail": "8280 shell routes"
+    },
+    {
+      "name": "probe_channels",
+      "status": "PASS",
+      "detail": "8280 intended traces"
+    },
+    {
+      "name": "probe_character_counts",
+      "status": "PASS",
+      "detail": "all counts exact"
+    },
+    {
+      "name": "probe_no_precedence_collision",
+      "status": "PASS",
+      "detail": "0/8280"
+    },
+    {
+      "name": "probe_all_pass",
+      "status": "PASS",
+      "detail": "8280/8280"
+    },
+    {
+      "name": "coverage_count",
+      "status": "PASS",
+      "detail": "observed=44"
+    },
+    {
+      "name": "coverage_prefix_counts",
+      "status": "PASS",
+      "detail": "69 pair + 621 triple each"
+    },
+    {
+      "name": "coverage_suffix_counts",
+      "status": "PASS",
+      "detail": "36 pair + 324 triple each"
+    },
+    {
+      "name": "coverage_internal_counts",
+      "status": "PASS",
+      "detail": "828 triple each"
+    },
+    {
+      "name": "coverage_selected_counts",
+      "status": "PASS",
+      "detail": "all selected"
+    },
+    {
+      "name": "coverage_status",
+      "status": "PASS",
+      "detail": "44/44"
+    },
+    {
+      "name": "coverage_source_values",
+      "status": "PASS",
+      "detail": "all source values exact"
+    },
+    {
+      "name": "collision_count",
+      "status": "PASS",
+      "detail": "observed=423"
+    },
+    {
+      "name": "collision_kind",
+      "status": "PASS",
+      "detail": "recipe factorizations only"
+    },
+    {
+      "name": "collision_signature_set",
+      "status": "PASS",
+      "detail": "all repeated recipes once"
+    },
+    {
+      "name": "collision_member_counts",
+      "status": "PASS",
+      "detail": "all group sizes exact"
+    },
+    {
+      "name": "collision_shell_members",
+      "status": "PASS",
+      "detail": "all shell lists exact"
+    },
+    {
+      "name": "collision_size_distribution",
+      "status": "PASS",
+      "detail": "Counter({2: 395, 3: 20, 4: 7, 5: 1})"
+    },
+    {
+      "name": "collision_member_total",
+      "status": "PASS",
+      "detail": "883 shells in repeated recipes"
+    },
+    {
+      "name": "collision_max_group",
+      "status": "PASS",
+      "detail": "OT+OL+AIIN has five factorizations"
+    },
+    {
+      "name": "collision_cross_shape",
+      "status": "PASS",
+      "detail": "observed=86"
+    },
+    {
+      "name": "no_literal_different_recipe",
+      "status": "PASS",
+      "detail": "observed=0"
+    },
+    {
+      "name": "collision_disposition",
+      "status": "PASS",
+      "detail": "exact trace retained"
+    },
+    {
+      "name": "result_status",
+      "status": "PASS",
+      "detail": "ALL_BOUNDED_SHELL_COMPOSITIONS_PRESERVE_INTENDED_CHANNELS"
+    },
+    {
+      "name": "result_channel_counts",
+      "status": "PASS",
+      "detail": "{'status': 'ALL_BOUNDED_SHELL_COMPOSITIONS_PRESERVE_INTENDED_CHANNELS', 'prefix_channel_count': 12, 'suffix_channel_count': 23, 'internal_channel_count': 9, 'pair_shell_count': 276, 'triple_shell_count': 2484, 'base_shell_count': 2760, 'opaque_core_marker_count': 3, 'precedence_probe_count': 8280, 'precedence_probe_pass_count': 8280, 'precedence_collision_count': 0, 'complete_channel_coverage_count': 44, 'exact_channel_signature_count': 2760, 'duplicate_exact_channel_signature_count': 0, 'flattened_recipe_signature_count': 2300, 'same_recipe_factorization_group_count': 423, 'same_recipe_factorization_member_count': 883, 'same_recipe_factorization_max_group_size': 5, 'same_recipe_factorization_group_size_distribution': {'2': 395, '3': 20, '4': 7, '5': 1}, 'cross_shape_same_recipe_group_count': 86, 'literal_working_reading_signature_count': 2400, 'same_literal_different_recipe_group_count': 0, 'collision_atlas_row_count': 423, 'new_pages': 0, 'new_channels': 0, 'new_component_meanings': 0, 'surface_predictions': 0, 'confirmed_lexemes': 0}"
+    },
+    {
+      "name": "result_shell_counts",
+      "status": "PASS",
+      "detail": "{'status': 'ALL_BOUNDED_SHELL_COMPOSITIONS_PRESERVE_INTENDED_CHANNELS', 'prefix_channel_count': 12, 'suffix_channel_count': 23, 'internal_channel_count': 9, 'pair_shell_count': 276, 'triple_shell_count': 2484, 'base_shell_count': 2760, 'opaque_core_marker_count': 3, 'precedence_probe_count': 8280, 'precedence_probe_pass_count': 8280, 'precedence_collision_count': 0, 'complete_channel_coverage_count': 44, 'exact_channel_signature_count': 2760, 'duplicate_exact_channel_signature_count': 0, 'flattened_recipe_signature_count': 2300, 'same_recipe_factorization_group_count': 423, 'same_recipe_factorization_member_count': 883, 'same_recipe_factorization_max_group_size': 5, 'same_recipe_factorization_group_size_distribution': {'2': 395, '3': 20, '4': 7, '5': 1}, 'cross_shape_same_recipe_group_count': 86, 'literal_working_reading_signature_count': 2400, 'same_literal_different_recipe_group_count': 0, 'collision_atlas_row_count': 423, 'new_pages': 0, 'new_channels': 0, 'new_component_meanings': 0, 'surface_predictions': 0, 'confirmed_lexemes': 0}"
+    },
+    {
+      "name": "result_probe_counts",
+      "status": "PASS",
+      "detail": "{'status': 'ALL_BOUNDED_SHELL_COMPOSITIONS_PRESERVE_INTENDED_CHANNELS', 'prefix_channel_count': 12, 'suffix_channel_count': 23, 'internal_channel_count': 9, 'pair_shell_count': 276, 'triple_shell_count': 2484, 'base_shell_count': 2760, 'opaque_core_marker_count': 3, 'precedence_probe_count': 8280, 'precedence_probe_pass_count': 8280, 'precedence_collision_count': 0, 'complete_channel_coverage_count': 44, 'exact_channel_signature_count': 2760, 'duplicate_exact_channel_signature_count': 0, 'flattened_recipe_signature_count': 2300, 'same_recipe_factorization_group_count': 423, 'same_recipe_factorization_member_count': 883, 'same_recipe_factorization_max_group_size': 5, 'same_recipe_factorization_group_size_distribution': {'2': 395, '3': 20, '4': 7, '5': 1}, 'cross_shape_same_recipe_group_count': 86, 'literal_working_reading_signature_count': 2400, 'same_literal_different_recipe_group_count': 0, 'collision_atlas_row_count': 423, 'new_pages': 0, 'new_channels': 0, 'new_component_meanings': 0, 'surface_predictions': 0, 'confirmed_lexemes': 0}"
+    },
+    {
+      "name": "result_signature_counts",
+      "status": "PASS",
+      "detail": "{'status': 'ALL_BOUNDED_SHELL_COMPOSITIONS_PRESERVE_INTENDED_CHANNELS', 'prefix_channel_count': 12, 'suffix_channel_count': 23, 'internal_channel_count': 9, 'pair_shell_count': 276, 'triple_shell_count': 2484, 'base_shell_count': 2760, 'opaque_core_marker_count': 3, 'precedence_probe_count': 8280, 'precedence_probe_pass_count': 8280, 'precedence_collision_count': 0, 'complete_channel_coverage_count': 44, 'exact_channel_signature_count': 2760, 'duplicate_exact_channel_signature_count': 0, 'flattened_recipe_signature_count': 2300, 'same_recipe_factorization_group_count': 423, 'same_recipe_factorization_member_count': 883, 'same_recipe_factorization_max_group_size': 5, 'same_recipe_factorization_group_size_distribution': {'2': 395, '3': 20, '4': 7, '5': 1}, 'cross_shape_same_recipe_group_count': 86, 'literal_working_reading_signature_count': 2400, 'same_literal_different_recipe_group_count': 0, 'collision_atlas_row_count': 423, 'new_pages': 0, 'new_channels': 0, 'new_component_meanings': 0, 'surface_predictions': 0, 'confirmed_lexemes': 0}"
+    },
+    {
+      "name": "result_collision_counts",
+      "status": "PASS",
+      "detail": "{'status': 'ALL_BOUNDED_SHELL_COMPOSITIONS_PRESERVE_INTENDED_CHANNELS', 'prefix_channel_count': 12, 'suffix_channel_count': 23, 'internal_channel_count': 9, 'pair_shell_count': 276, 'triple_shell_count': 2484, 'base_shell_count': 2760, 'opaque_core_marker_count': 3, 'precedence_probe_count': 8280, 'precedence_probe_pass_count': 8280, 'precedence_collision_count': 0, 'complete_channel_coverage_count': 44, 'exact_channel_signature_count': 2760, 'duplicate_exact_channel_signature_count': 0, 'flattened_recipe_signature_count': 2300, 'same_recipe_factorization_group_count': 423, 'same_recipe_factorization_member_count': 883, 'same_recipe_factorization_max_group_size': 5, 'same_recipe_factorization_group_size_distribution': {'2': 395, '3': 20, '4': 7, '5': 1}, 'cross_shape_same_recipe_group_count': 86, 'literal_working_reading_signature_count': 2400, 'same_literal_different_recipe_group_count': 0, 'collision_atlas_row_count': 423, 'new_pages': 0, 'new_channels': 0, 'new_component_meanings': 0, 'surface_predictions': 0, 'confirmed_lexemes': 0}"
+    },
+    {
+      "name": "result_channel_coverage",
+      "status": "PASS",
+      "detail": "44"
+    },
+    {
+      "name": "result_claim_ceiling",
+      "status": "PASS",
+      "detail": "no expanded claim"
+    },
+    {
+      "name": "deterministic_rebuild_exit",
+      "status": "PASS",
+      "detail": "exit 0"
+    },
+    {
+      "name": "deterministic_rebuild_bytes",
+      "status": "PASS",
+      "detail": "all generated artifact hashes unchanged"
+    }
+  ]
+}

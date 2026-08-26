@@ -11296,3 +11296,19 @@ one real propagation omission: GDT462's accepted prefix `ar=AR` also applies to
 raising coverage from 440 to 442/713. No new value is introduced. Validation
 passes 77/77. Next enumerate bounded two- and three-channel synthetic shells to
 locate precedence collisions before any new page is admitted.
+
+## GDT467 bounded shell composition atlas
+
+The complete GDT466 directional product is executable: 276 prefix/core/suffix
+and 2,484 prefix/core/internal/core/suffix templates, each replayed with three
+opaque core markers. All 8,280 probes select exactly the intended ordered
+channels, all 44 channels receive full Cartesian exposure, and there are zero
+precedence collisions. The 2,760 exact channel signatures flatten to 2,300
+component recipes. Four hundred twenty-three repeated-recipe groups contain
+883 shells (395 size two, twenty size three, seven size four, one size five),
+including 86 groups that cross pair/triple shape. The five-way maximum is
+`OT+OL+AIIN`. No literal German working template maps to different component
+recipes, so the collapse is visible factorization rather than semantic
+ambiguity; retain the exact channel trace. Validation passes 54/54. Next join
+all 2,300 recipes to old running/address carriers and separate attested from
+newly readable compositions without opening a page or predicting a spelling.
