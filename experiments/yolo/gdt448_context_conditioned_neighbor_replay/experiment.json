@@ -1,0 +1,62 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "The exhaustive context replay is split into thirteen bounded shards because the same target neighbour can receive different execution decisions under different real incoming statement contexts.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Local execution of bounded GDT447 neighbours under the actual incoming contexts of their observed source recipes. No full-stream counterfactual, occurrence or surface prediction, new meaning, plaintext, language, or new-page evidence.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt448_context_conditioned_neighbor_replay/src/run.py",
+    "validate": "python3 experiments/yolo/gdt448_context_conditioned_neighbor_replay/src/validate.py"
+  },
+  "created": "2026-08-26",
+  "dependencies": ["GDT441", "GDT446", "GDT447"],
+  "experiment_id": "GDT448",
+  "inputs": [
+    {"path": "experiments/yolo/gdt441_factor_gated_unseen_recipe_reader/artifacts/gdt441_4576_factor_reader_replay.tsv", "role": "actual ordered source contexts", "sha256": "ade6ef986a0a10a5999a0876f577b44c1583d4d5594e319da39efdabb7221218"},
+    {"path": "experiments/yolo/gdt446_identity_execution_intake_split/src/intake_certificate_v2.py", "role": "split identity and execution certifier", "sha256": "d8822283be8cba71bbea95ccf2ae9c7f65bee17181ef80420c86d4455616b3d1"},
+    {"path": "experiments/yolo/gdt447_catalog_near_neighbor_identity_atlas/artifacts/gdt447_5499_atom_deletion_neighbors.tsv", "role": "deletion neighbours", "sha256": "fc14214af84be41b9f679ff4a70a8547258728b66e83fbdb3956bc07307f0e5a"},
+    {"path": "experiments/yolo/gdt447_catalog_near_neighbor_identity_atlas/artifacts/gdt447_3936_adjacent_swap_neighbors.tsv", "role": "adjacent-swap neighbours", "sha256": "3b078a70f2f64e7527c9111f2e211ba5231d01ebedf3e9f0e1a1444345de34ac"},
+    {"path": "experiments/yolo/gdt447_catalog_near_neighbor_identity_atlas/artifacts/gdt447_action_substitution_neighbors.tsv", "role": "action substitutions", "sha256": "1d524d3bb5f34efbd5bdc8484c36cd3c05115a40f5efd89381b47f983f015021"},
+    {"path": "experiments/yolo/gdt447_catalog_near_neighbor_identity_atlas/artifacts/gdt447_nonaction_substitution_neighbors.tsv", "role": "nonaction substitutions", "sha256": "ce0fc011edfafa1296a1110cf9774f8e5b8e16a7986b2fa6858e750c297fb74d"}
+  ],
+  "outputs": [
+    {"path": "experiments/yolo/gdt448_context_conditioned_neighbor_replay/README.md", "role": "entry point", "sha256": "0262896bd45a9cf1cd5541b4d60106bf09db0a31bf6828a6d22716e090645bb5"},
+    {"path": "experiments/yolo/gdt448_context_conditioned_neighbor_replay/METHOD.md", "role": "context replay method", "sha256": "b79045069d2614ef7e1c5bf4793f12d88ff082f3958945680fddec54c107ad13"},
+    {"path": "experiments/yolo/gdt448_context_conditioned_neighbor_replay/REPORT.md", "role": "primary report", "sha256": "e9b3e9057f98b0b4fa0102f8f55f2ac8eac95984aa2d072d11375756314425c3"},
+    {"path": "experiments/yolo/gdt448_context_conditioned_neighbor_replay/src/run.py", "role": "deterministic builder", "sha256": "fddb6fa96ef12db4e6529ec0aca5becad4d79c2e778caa3d430879bc9612013c"},
+    {"path": "experiments/yolo/gdt448_context_conditioned_neighbor_replay/src/validate.py", "role": "validator", "sha256": "82690e92d8f05b444e610273f5eff9338bb688837f48e8524b195bbf5b305ccd"},
+    {"path": "experiments/yolo/gdt448_context_conditioned_neighbor_replay/artifacts/README.md", "role": "artifact guide", "sha256": "b2ace8ac7b4be548ac2004bd5f7cfedffbc61594681d27c3070a02fb1b8ad78f"},
+    {"path": "experiments/yolo/gdt448_context_conditioned_neighbor_replay/artifacts/gdt448_source_recipe_contexts.tsv", "role": "actual context signatures", "sha256": "d75ba05483ff9d5dee1c01ed68f0b5be52d2f6d4d7bb3c9ba3e48f09924a1510"},
+    {"path": "experiments/yolo/gdt448_context_conditioned_neighbor_replay/artifacts/gdt448_context_neighbor_replay_part01.tsv", "role": "context replay shard 1", "sha256": "2a19025e62e3b06e9a8ba190415049958999941ef1cfb9193048b06484ddbfc9"},
+    {"path": "experiments/yolo/gdt448_context_conditioned_neighbor_replay/artifacts/gdt448_context_neighbor_replay_part02.tsv", "role": "context replay shard 2", "sha256": "a57d5f6e14d7ce2ad8610c89f7bc3f90599b4904c9fbb175702783bfe8afdf23"},
+    {"path": "experiments/yolo/gdt448_context_conditioned_neighbor_replay/artifacts/gdt448_context_neighbor_replay_part03.tsv", "role": "context replay shard 3", "sha256": "b1891ae0029919fbd70b5df8d55865c63177be3777c614260e3693dbd3d41854"},
+    {"path": "experiments/yolo/gdt448_context_conditioned_neighbor_replay/artifacts/gdt448_context_neighbor_replay_part04.tsv", "role": "context replay shard 4", "sha256": "c749197c92a23ba52449fbdb3b76c53e207427d00a1eaa43fdce3d53bb02571d"},
+    {"path": "experiments/yolo/gdt448_context_conditioned_neighbor_replay/artifacts/gdt448_context_neighbor_replay_part05.tsv", "role": "context replay shard 5", "sha256": "6d34e96b8664168c031b762f9c6d922a89b14e56deff1d53e49dff25006858ac"},
+    {"path": "experiments/yolo/gdt448_context_conditioned_neighbor_replay/artifacts/gdt448_context_neighbor_replay_part06.tsv", "role": "context replay shard 6", "sha256": "2f0c56dff9442e1f3429bbecd8ebe8961cd4b0a885cb5d5e492d8146fd468226"},
+    {"path": "experiments/yolo/gdt448_context_conditioned_neighbor_replay/artifacts/gdt448_context_neighbor_replay_part07.tsv", "role": "context replay shard 7", "sha256": "a979addf3bd6ad1e1d10be49703dc664c0275d6fe6eeaf289f93efc6742eaef9"},
+    {"path": "experiments/yolo/gdt448_context_conditioned_neighbor_replay/artifacts/gdt448_context_neighbor_replay_part08.tsv", "role": "context replay shard 8", "sha256": "a8358dfd425327e0b0b57118fb1a69585c5e84f11983a69429855789d3f99b26"},
+    {"path": "experiments/yolo/gdt448_context_conditioned_neighbor_replay/artifacts/gdt448_context_neighbor_replay_part09.tsv", "role": "context replay shard 9", "sha256": "471cd4dfff171e216e076f7d34280122a7aae12f5af4291442b8052eb9ae48fc"},
+    {"path": "experiments/yolo/gdt448_context_conditioned_neighbor_replay/artifacts/gdt448_context_neighbor_replay_part10.tsv", "role": "context replay shard 10", "sha256": "0307877409447642eb6cf84aa04df5037f2d20ab0dbfb8927cad8e5166befe92"},
+    {"path": "experiments/yolo/gdt448_context_conditioned_neighbor_replay/artifacts/gdt448_context_neighbor_replay_part11.tsv", "role": "context replay shard 11", "sha256": "f288daf593a4d830bf238102b01a5a5b79bcd3492c86c48bd5905fbcf3965bcf"},
+    {"path": "experiments/yolo/gdt448_context_conditioned_neighbor_replay/artifacts/gdt448_context_neighbor_replay_part12.tsv", "role": "context replay shard 12", "sha256": "5aa88dd4a6bc1e7e1006ed55af157222852df906100e4e7a89653fa0d36ff8cc"},
+    {"path": "experiments/yolo/gdt448_context_conditioned_neighbor_replay/artifacts/gdt448_context_neighbor_replay_part13.tsv", "role": "context replay shard 13", "sha256": "28de8bfd8d4cc73e7e75a014a952932b83302dabeb78568d65704264cd645376"},
+    {"path": "experiments/yolo/gdt448_context_conditioned_neighbor_replay/artifacts/gdt448_context_changed_cases.tsv", "role": "all decision changes", "sha256": "3d770a016d2d33edc58ccac36c54fdc7f76518de57eebb01983328a481cdd97f"},
+    {"path": "experiments/yolo/gdt448_context_conditioned_neighbor_replay/artifacts/gdt448_transition_summary.tsv", "role": "transition summary", "sha256": "4424036694d7ba9ab863cd19832e7e775edcd4b92f443a0a77c9dc5e790de13e"},
+    {"path": "experiments/yolo/gdt448_context_conditioned_neighbor_replay/artifacts/gdt448_result.json", "role": "compact result", "sha256": "26bccd1c67b18310a5aaa73f17da47dc6f2bbd773de0254c934d229896e0b003"},
+    {"path": "experiments/yolo/gdt448_context_conditioned_neighbor_replay/artifacts/gdt448_validation.json", "role": "validation report", "sha256": "3d85104bd68611c1a307cf53ba5b1364e01d3a5e0a45c21dc06a0f22651b2679"}
+  ],
+  "question": "How do all bounded GDT447 neighbours change execution status when replayed under the actual incoming action, argument, statement scope, and one-card lookahead contexts of their observed source recipes?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "context_conditioned_neighbor_replay",
+  "status": "ACTUAL_CONTEXT_REPLAYS_CATALOG_NEIGHBORS_WITHOUT_IDENTITY_DRIFT",
+  "title": "context conditioned neighbor replay",
+  "updated": "2026-08-26",
+  "validation": {
+    "artifact": "experiments/yolo/gdt448_context_conditioned_neighbor_replay/artifacts/gdt448_validation.json",
+    "status": "PASS"
+  }
+}

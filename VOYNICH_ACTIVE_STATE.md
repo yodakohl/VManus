@@ -367,6 +367,18 @@ targets 19,792 green and 941 amber, with 3,658 stops, so readability remains
 strictly post-occurrence. Validation passes 34/34; no meaning, surface,
 occurrence or page changes.
 
+GDT448 injects the 25,576 neighbours whose source recipe is observed into all
+4,275 distinct real incoming source contexts. The resulting 61,878 local
+probes retain 60,633 neutral decisions and change 1,245: 757 neutral stops are
+rescued, 443 amber cases become green, 36 green cases become amber and nine
+formerly readable cases stop. Every rescue is a close receiving an inherited
+head; every new stop is one of the existing `CHD<-EEE` or `R<-EEE` gaps.
+Identity changes in 0/61,878, no source identity is carried, and every stop
+preserves state. Validation passes 30/30; no meaning, surface, occurrence or
+page changes. The next bounded route aggregates each neighbour across all of
+its real source contexts and separates universally readable, context-dependent
+and universally stopped mutations.
+
 Pass 1032/GDT404 applies the frozen GDT403 intake contract to a one-shot random
 draw of f1r, f24v, f81r and f95v. The 95 guarded lines add 688 events, 88
 statements and 677 focus attachments. Exactly 470 events retain an old surface

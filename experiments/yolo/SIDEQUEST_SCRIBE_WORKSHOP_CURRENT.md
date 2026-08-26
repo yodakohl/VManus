@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT447.
+Updated: 2026-08-26, after GDT448.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -256,6 +256,15 @@ source carry or fuzzy match. Only 198 swaps hit an exact key, so order remains
 strongly identity-bearing. The independent factor channel reads 19,792 of the
 new targets green, 941 amber and stops 3,658. This breadth is useful only after
 visibility and remains explicitly nonpredictive.
+
+GDT448 supplies the missing real context. The 25,576 neighbour edges whose
+source recipe occurs are replayed under all distinct incoming action,
+argument, statement-scope and next-card configurations of that source. This
+creates 61,878 local probes. Of them, 60,633 keep the neutral decision; 757
+missing-head closes are rescued, 443 amber cases turn green, 36 green cases
+turn amber and only nine cases newly stop. Those nine are exactly eight
+`CHD<-EEE` and one `R<-EEE` binding. No direct red pair is rescued by context,
+identity never changes and every stop preserves state.
 
 ## Fixed scope
 
@@ -827,6 +836,10 @@ comparison set.
 
 ## Primary artifacts
 
+- Current GDT448 4,275-context/61,878-probe real-context neighbour replay,
+  thirteen exhaustive shards, all 1,245 decision changes and transition
+  summary:
+  `gdt448_context_conditioned_neighbor_replay/`;
 - Current GDT447 30,763-edge exact-identity near-neighbour atlas, split
   deletion/swap/action/nonaction tables, 19,807-target collision map and family
   summary:
@@ -1025,8 +1038,9 @@ comparison set.
 
 ## Next work
 
-Keep the current 26 pages closed. Inject the bounded GDT447 neighbours into the
-actual incoming action, argument and statement-scope states of the 4,576
-current events. Deduplicate identical context×target cases, keep identity exact,
-and map which neutral stops are rescued or created by real context. Do not
-generate a surface, occurrence or new meaning.
+Keep the current 26 pages closed. Collapse the 61,878 GDT448 probes to one
+robustness record per eligible neighbour edge. Distinguish universally green,
+universally readable with amber, genuinely context-dependent and universally
+stopped mutations; preserve the exact failing contexts and never treat a
+single favourable placement as a general license. Do not generate a surface,
+occurrence or new meaning.
