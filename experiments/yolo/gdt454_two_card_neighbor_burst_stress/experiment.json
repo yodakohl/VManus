@@ -1,0 +1,58 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "The 34,205 sequential burst rows are split into eight deterministic shards below the five-megabyte inline limit.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Sequential state preservation, stop safety and bounded recovery under synthetic two-card mutation bursts. No meaning, identity, surface, occurrence, plaintext, language, generation or page claim is licensed.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt454_two_card_neighbor_burst_stress/src/run.py",
+    "validate": "python3 experiments/yolo/gdt454_two_card_neighbor_burst_stress/src/validate.py"
+  },
+  "created": "2026-08-26",
+  "dependencies": ["GDT441", "GDT447", "GDT448", "GDT451"],
+  "experiment_id": "GDT454",
+  "inputs": [
+    {"path": "experiments/yolo/gdt441_factor_gated_unseen_recipe_reader/artifacts/gdt441_4576_factor_reader_replay.tsv", "role": "ordered current stream and real states", "sha256": "ade6ef986a0a10a5999a0876f577b44c1583d4d5594e319da39efdabb7221218"},
+    {"path": "experiments/yolo/gdt448_context_conditioned_neighbor_replay/artifacts/gdt448_source_recipe_contexts.tsv", "role": "real incoming source contexts", "sha256": "d75ba05483ff9d5dee1c01ed68f0b5be52d2f6d4d7bb3c9ba3e48f09924a1510"},
+    {"path": "experiments/yolo/gdt447_catalog_near_neighbor_identity_atlas/artifacts/gdt447_5499_atom_deletion_neighbors.tsv", "role": "deletion neighbours", "sha256": "fc14214af84be41b9f679ff4a70a8547258728b66e83fbdb3956bc07307f0e5a"},
+    {"path": "experiments/yolo/gdt447_catalog_near_neighbor_identity_atlas/artifacts/gdt447_3936_adjacent_swap_neighbors.tsv", "role": "adjacent-swap neighbours", "sha256": "3b078a70f2f64e7527c9111f2e211ba5231d01ebedf3e9f0e1a1444345de34ac"},
+    {"path": "experiments/yolo/gdt447_catalog_near_neighbor_identity_atlas/artifacts/gdt447_action_substitution_neighbors.tsv", "role": "action substitutions", "sha256": "1d524d3bb5f34efbd5bdc8484c36cd3c05115a40f5efd89381b47f983f015021"},
+    {"path": "experiments/yolo/gdt447_catalog_near_neighbor_identity_atlas/artifacts/gdt447_nonaction_substitution_neighbors.tsv", "role": "non-action substitutions", "sha256": "ce0fc011edfafa1296a1110cf9774f8e5b8e16a7986b2fa6858e750c297fb74d"},
+    {"path": "experiments/yolo/gdt451_integrated_context_safe_intake/src/intake_command.py", "role": "authoritative live-context intake", "sha256": "15b5a07323fe339b6701979bf78fb486d0bffa798e6cae5cd9eac3a72acf0adb"}
+  ],
+  "outputs": [
+    {"path": "experiments/yolo/gdt454_two_card_neighbor_burst_stress/README.md", "role": "entry point", "sha256": "a9be146d507e71ba64f47946b3ad8fff05e3313f361ab37e04b2bd8b40101e80"},
+    {"path": "experiments/yolo/gdt454_two_card_neighbor_burst_stress/METHOD.md", "role": "burst method", "sha256": "7d12b6559fcd73218e21ca836be5fa227ddbf00a6a88ed4a37258c0650f52135"},
+    {"path": "experiments/yolo/gdt454_two_card_neighbor_burst_stress/REPORT.md", "role": "primary report", "sha256": "e2fa51c03cbf9b24b843f5bb70dee146f4cf7c36af2b3ec31946e6ebfb30234d"},
+    {"path": "experiments/yolo/gdt454_two_card_neighbor_burst_stress/src/run.py", "role": "deterministic builder", "sha256": "8f6a9e27c612066757930fdac489f152d6ed0e3ea7284e0779e48f306d262748"},
+    {"path": "experiments/yolo/gdt454_two_card_neighbor_burst_stress/src/validate.py", "role": "validator", "sha256": "403a58071f125ff6c84cd634ed5dd38ac2d6b8fe4f722aae3e2b420c3a6587e9"},
+    {"path": "experiments/yolo/gdt454_two_card_neighbor_burst_stress/artifacts/README.md", "role": "artifact guide", "sha256": "53f3e72902d1df1ad79c902f2acaa6e0fc3ba6c913e18bce177d3d07331af590"},
+    {"path": "experiments/yolo/gdt454_two_card_neighbor_burst_stress/artifacts/gdt454_selected_neighbor_variants.tsv", "role": "fixed neighbour selection", "sha256": "b842bd917e0a98104d090dd0d5d6678193588f02bc5a91213faf76808cf461e9"},
+    {"path": "experiments/yolo/gdt454_two_card_neighbor_burst_stress/artifacts/gdt454_two_card_bursts_part01.tsv", "role": "burst ledger shard 1", "sha256": "e0af4f44899a43de7a746fcf2d9469c4006d30494f85e15d693744a68f5d23be"},
+    {"path": "experiments/yolo/gdt454_two_card_neighbor_burst_stress/artifacts/gdt454_two_card_bursts_part02.tsv", "role": "burst ledger shard 2", "sha256": "ba4001f99ec5cd7ed32b8737195ec77e2f9faf97bd2a2de09d9bfd1c0288b0cf"},
+    {"path": "experiments/yolo/gdt454_two_card_neighbor_burst_stress/artifacts/gdt454_two_card_bursts_part03.tsv", "role": "burst ledger shard 3", "sha256": "824d0a41ffd681bb7e7aa508ddcd7454583b7c0d3ecc03d46323adf2610b44e1"},
+    {"path": "experiments/yolo/gdt454_two_card_neighbor_burst_stress/artifacts/gdt454_two_card_bursts_part04.tsv", "role": "burst ledger shard 4", "sha256": "e45a988f9762464ac07c5968f9bc340c72d8c74bae20c9b86744dff3d23f9dae"},
+    {"path": "experiments/yolo/gdt454_two_card_neighbor_burst_stress/artifacts/gdt454_two_card_bursts_part05.tsv", "role": "burst ledger shard 5", "sha256": "4d950d0adfb4a29d7515675ffd448ed9f78fc1b980ccc0f4f91311a72ebaa9f1"},
+    {"path": "experiments/yolo/gdt454_two_card_neighbor_burst_stress/artifacts/gdt454_two_card_bursts_part06.tsv", "role": "burst ledger shard 6", "sha256": "23c305f0b803eda6fb0ff1d11ed1a8a825f734536a4412c642ef04314aea9afe"},
+    {"path": "experiments/yolo/gdt454_two_card_neighbor_burst_stress/artifacts/gdt454_two_card_bursts_part07.tsv", "role": "burst ledger shard 7", "sha256": "9bf30cbb1df74cfdac0ca274becbfa8c1d29372d01591bf1608c6dc3612a9ba1"},
+    {"path": "experiments/yolo/gdt454_two_card_neighbor_burst_stress/artifacts/gdt454_two_card_bursts_part08.tsv", "role": "burst ledger shard 8", "sha256": "b49ef69f95235e6290c8fbf2d9d610051e601f0a72448bc3ca6d09b1746908d4"},
+    {"path": "experiments/yolo/gdt454_two_card_neighbor_burst_stress/artifacts/gdt454_burst_summary.tsv", "role": "burst and recovery summary", "sha256": "522ccbb9ed6914b6ad65b1787a7bf611f253867f00457b24d8d258ce866dda03"},
+    {"path": "experiments/yolo/gdt454_two_card_neighbor_burst_stress/artifacts/gdt454_third_card_recovery_stops.tsv", "role": "three dependent-close cascades", "sha256": "2b426e8b12b9cd6432ceb66fc995549fbb3d4cac74951b44e80ff8dd9a022938"},
+    {"path": "experiments/yolo/gdt454_two_card_neighbor_burst_stress/artifacts/gdt454_result.json", "role": "compact result", "sha256": "da828be559c4d4a313721e0136a3cfcb927140e80c41ce38d4f3d48663ee807d"},
+    {"path": "experiments/yolo/gdt454_two_card_neighbor_burst_stress/artifacts/gdt454_validation.json", "role": "validation report", "sha256": "924178c9e2bae0f4addca602a3803cf01e600b1ff59512651d39d6e8659d1696"}
+  ],
+  "question": "Does the stateful reader preserve stops, scope and recovery when both cards of a real adjacent pair are replaced by deterministic one-edit neighbours?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "two_card_neighbor_burst_stress",
+  "status": "TWO_CARD_MUTATION_BURSTS_PRESERVE_STATE_AND_RECOVER_AFTER_ONLY_THREE_DEPENDENT_CLOSE_CASCADES",
+  "title": "two card neighbor burst stress",
+  "updated": "2026-08-26",
+  "validation": {
+    "artifact": "experiments/yolo/gdt454_two_card_neighbor_burst_stress/artifacts/gdt454_validation.json",
+    "status": "PASS"
+  }
+}

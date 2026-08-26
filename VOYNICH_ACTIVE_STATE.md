@@ -432,6 +432,19 @@ event `G407-E4576`. Validation passes 26/26; no meaning, surface, occurrence or
 page change. Next stress the 57-bank streaming reader with bounded two-card
 mutation bursts rather than another isolated-card replay.
 
+GDT454 performs that sequential stress test. A deterministic selection keeps
+one lexicographically first neighbour per source recipe, mutation family and
+neutral readable/stop class, producing 5,283 variants for all 1,563 catalog
+sources. Their cartesian application to 3,861 real adjacent event pairs yields
+34,205 two-card bursts: 25,754 read/read, 3,719 read/stop, 4,095 stop/read and
+637 stop/stop. Every stop at either position preserves action and argument.
+Among 28,243 available real third cards, 28,190 recover green and 50 amber. The
+only three stops are variants of one f72r pair in which both mutations remove
+the active `P` head before `EEE+DY`; all three correctly recover at the next
+statement's `CH+E`. Validation passes 32/32; no identity, meaning, surface,
+occurrence or page change. Next consolidate GDT451--GDT454 into one executable
+stream fault contract rather than extending burst length combinatorially.
+
 Pass 1032/GDT404 applies the frozen GDT403 intake contract to a one-shot random
 draw of f1r, f24v, f81r and f95v. The 95 guarded lines add 688 events, 88
 statements and 677 focus attachments. Exactly 470 events retain an old surface

@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **452**
-- Experiment-associated tracked files: **6,497** (749.6 MiB)
-- Structured GDT337+ experiments: **117**
+- Experiments indexed: **453**
+- Experiment-associated tracked files: **6,517** (764.2 MiB)
+- Structured GDT337+ experiments: **118**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT454 | GDT454_two_card_neighbor_burst_stress | `TWO_CARD_MUTATION_BURSTS_PRESERVE_STATE_AND_RECOVER_AFTER_ONLY_THREE_DEPENDENT_CLOSE_CASCADES` | [report](../experiments/yolo/gdt454_two_card_neighbor_burst_stress/REPORT.md) | 20 | 14.6 MiB | 4 | STRUCTURED_YOLO |
 | GDT453 | GDT453_terminal_stop_boundary_resynchronization | `TERMINAL_STOPS_RESYNCHRONIZE_AT_ALL_AVAILABLE_BOUNDARIES` | [report](../experiments/yolo/gdt453_terminal_stop_boundary_resynchronization/REPORT.md) | 12 | 259.3 KiB | 3 | STRUCTURED_YOLO |
 | GDT452 | GDT452_context_stop_actual_next_recovery | `ACTUAL_NEXT_CARD_RECOVERY_WITH_THREE_SAFE_DEPENDENT_CLOSE_CASCADES` | [report](../experiments/yolo/gdt452_context_stop_actual_next_recovery/REPORT.md) | 12 | 2.5 MiB | 3 | STRUCTURED_YOLO |
 | GDT451 | GDT451_integrated_context_safe_intake | `INTEGRATED_INTAKE_ENFORCES_LIVE_CONTEXT_PRECEDENCE` | [report](../experiments/yolo/gdt451_integrated_context_safe_intake/REPORT.md) | 15 | 3.6 MiB | 5 | STRUCTURED_YOLO |
