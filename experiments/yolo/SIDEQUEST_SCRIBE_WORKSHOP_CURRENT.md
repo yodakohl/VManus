@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT473.
+Updated: 2026-08-26, after GDT474.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -65,7 +65,7 @@ CONTROL into `T=EINSTELLEN` and `R=MARKIEREN` creates a five-class gate with
 amber; `R>T` and `R<-EE` remain red-local. The internal meanings of the broad
 classes are not collapsed.
 
-GDT459–GDT473 now resolve the formerly opaque local-address tail as the mixed
+GDT459–GDT474 now resolve the formerly opaque local-address tail as the mixed
 codebook architecture anticipated by the sidequest: portable function cards
 surround memorized owner-bound name cores. Of 107 learned address labels,
 eighteen are now complete function formulas, 87 are function-shell/name-core
@@ -119,6 +119,12 @@ function/name hybrids, one owner-family/name card and one whole name. Function
 channels cover 774/1,045 visible characters. Sixteen surfaces recur over 37
 events and none changes recipe or reading. The page-grouped readable edition is
 now the compact answer to what the current address translation actually says.
+GDT474 then stops forcing those readings into one grammar. All 146 exact
+page+locus+owner bundles receive coordinate, instruction and catalogue
+paraphrases. Address is the best universal fallback at 89 visible grammatical
+repairs, but a structure-led mixture needs only fourteen: 27 address, 54
+instruction and 65 catalogue bundles. The sidequest's current object is thus a
+micro-record language with address, action and learned-headword cards.
 
 GDT428 now supplies the missing semantic contrast deck. Six within-class
 comparisons contain 104 exact frames where only the action root changes. The
@@ -1116,9 +1122,8 @@ comparison set.
 
 ## Next work
 
-Keep the current 26 pages closed. Group the complete GDT473 edition into visible
-locus/owner bundles and try three fluent readings of every bundle: coordinate,
-ordered instruction and catalogue qualifier. Preserve all nineteen roots,
-learned cores, spellings and exact-package restrictions. The point is to decide
-what kind of sentence the local addresses most resemble, not to mine another
-substring or open a page.
+Keep the current 26 pages closed. Trace `OT=DANACH` and `OL=FORTSETZEN` across
+successive GDT474 locus bundles, distinguishing a new sibling record, a
+continuation of the previous record and a merely local qualifier. Publish six
+page-level itineraries while retaining every three-way alternative, root,
+learned core, spelling and exact-package restriction.

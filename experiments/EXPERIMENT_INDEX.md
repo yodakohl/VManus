@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **472**
-- Experiment-associated tracked files: **6,816** (787.3 MiB)
-- Structured GDT337+ experiments: **137**
+- Experiments indexed: **473**
+- Experiment-associated tracked files: **6,831** (787.5 MiB)
+- Structured GDT337+ experiments: **138**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT474 | GDT474_locus_bundle_meaning_triptych | `MIXED_LOCUS_GRAMMAR_REQUIRES_FEWEST_WORKING_REPAIRS__COORDINATE_BEST_SINGLE_DEFAULT` | [report](../experiments/yolo/gdt474_locus_bundle_meaning_triptych/REPORT.md) | 15 | 279.3 KiB | 4 | STRUCTURED_YOLO |
 | GDT473 | GDT473_unified_local_address_working_edition | `COMPLETE_183_EVENT_LOCAL_ADDRESS_WORKING_EDITION__94_FULL_FORMULAS_87_HYBRIDS_2_LEARNED_ONLY` | [report](../experiments/yolo/gdt473_unified_local_address_working_edition/REPORT.md) | 14 | 192.7 KiB | 3 | STRUCTURED_YOLO |
 | GDT472 | GDT472_complete_address_template_dictionary | `ALL_107_LABELS_HAVE_COMPLETE_TEMPLATE_ASSIGNMENTS__TWO_EXACT_PACKAGES_REMAIN_NONTRANSFERABLE` | [report](../experiments/yolo/gdt472_complete_address_template_dictionary/REPORT.md) | 19 | 191.6 KiB | 7 | STRUCTURED_YOLO |
 | GDT471 | GDT471_empirical_address_shell_phrasebook | `EMPIRICAL_FUNCTION_TEMPLATES_READY__FAMILY_MARKERS_REMAIN_CORE_SENSITIVE` | [report](../experiments/yolo/gdt471_empirical_address_shell_phrasebook/REPORT.md) | 19 | 209.3 KiB | 4 | STRUCTURED_YOLO |

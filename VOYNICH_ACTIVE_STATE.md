@@ -11412,3 +11412,22 @@ plaintext, language or confirmed lexeme is added. Next collapse adjacent
 events into visible locus/owner bundles and compare coordinate,
 ordered-instruction and catalogue-qualifier renderings without changing a root
 or learned core.
+
+## GDT474 locus-bundle meaning triptych
+
+The complete GDT473 edition forms 146 exact physical-page+locus+owner bundles:
+116 singletons, 23 pairs and seven triples. GDT474 renders all 146 as
+coordinate/address traces, owner-local instructions and catalogue entries with
+qualifiers while replaying every root, name, recipe and event unchanged. As one
+universal grammar, coordinate needs 89 visible grammatical recasts, instruction
+120 and catalogue 146. The visible mixed selector needs only fourteen and uses
+27 coordinate, 54 instruction and 65 catalogue bundles. Unique minima are
+25/52/5; 64 ties remain visible, dominated by 58 name-bearing
+coordinate/catalogue ties. Validation passes 55/55.
+
+The current working theory is therefore a mixed micro-record language: address
+cards locate/order a value, action cards operate on it, and catalogue cards
+identify a learned headword plus qualifiers. This fluency measure is not a
+historical syntax claim. No component meaning, name, spelling, event, page,
+object identity, plaintext, language or confirmed lexeme changes. Next trace
+`OT`/`OL` over successive locus bundles and produce six page-level itineraries.
