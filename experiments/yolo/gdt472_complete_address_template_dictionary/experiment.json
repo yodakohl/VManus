@@ -1,0 +1,63 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Complete 107-label template assignments and an exact-package-safe ranked reader; no new page, channel, component meaning, spelling prediction, occurrence, object identity, plaintext, language, or confirmed lexeme.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt472_complete_address_template_dictionary/src/run.py",
+    "validate": "python3 experiments/yolo/gdt472_complete_address_template_dictionary/src/validate.py"
+  },
+  "created": "2026-08-26",
+  "dependencies": ["GDT463", "GDT464", "GDT466", "GDT468", "GDT469", "GDT470", "GDT471"],
+  "experiment_id": "GDT472",
+  "inputs": [
+    {"path": "experiments/yolo/gdt463_low_support_exact_card_edge_bridges/artifacts/gdt463_4_target_reconstructions.tsv", "role": "ykyd exact-package reconstruction", "sha256": "323a68b89f1bc0181fac209572f9ef4a2b020361b3d6d7950628b62486245184"},
+    {"path": "experiments/yolo/gdt464_residual_exact_package_bridge/artifacts/gdt464_10_target_revisions.tsv", "role": "yddy overlapping-package reconstruction", "sha256": "078104f1a564703ccfb5442213b2395918d0f7bb8db179bafac03e8f0899a234"},
+    {"path": "experiments/yolo/gdt466_future_address_mixed_dictionary_intake/artifacts/gdt466_44_function_channel_deck.tsv", "role": "frozen function channels", "sha256": "7cbe831bd286b36b6c624c41713a8975f5a2c623c96e85396c5b8b900fc65469"},
+    {"path": "experiments/yolo/gdt466_future_address_mixed_dictionary_intake/artifacts/gdt466_18_owner_family_channel_deck.tsv", "role": "frozen owner-family markers", "sha256": "a9472b8fc7ab00e3fa1a0e741cf59ae77c0ff915114b7bc3496888fcfbeede21"},
+    {"path": "experiments/yolo/gdt466_future_address_mixed_dictionary_intake/artifacts/gdt466_107_intake_dictionary.tsv", "role": "complete final label dictionary", "sha256": "f5b4e35065c4545bf85cf90e2a376728ec261af7426756f24747b50d9d5c9b59"},
+    {"path": "experiments/yolo/gdt466_future_address_mixed_dictionary_intake/src/intake_lib.py", "role": "unchanged base intake implementation", "sha256": "7bf0b0d42394181f3bbcedf59534b5fe156b0e543de42352decaf3c9b09d7c83"},
+    {"path": "experiments/yolo/gdt468_shell_recipe_carrier_support_atlas/artifacts/gdt468_2300_recipe_support_atlas.tsv", "role": "recipe provenance for complete reader", "sha256": "a636d1891d70fc8db85d9a1b5dedbf1ede8c81384f843445e1e79a0dc891f3b1"},
+    {"path": "experiments/yolo/gdt468_shell_recipe_carrier_support_atlas/artifacts/gdt468_2760_supported_shell_phrasebook.tsv", "role": "bounded-shell provenance for complete reader", "sha256": "5baf8c57cb529fb73454e466bf583367fabe493e2e91f9d45eae71ba19fc91a1"},
+    {"path": "experiments/yolo/gdt469_provenance_aware_address_reader/artifacts/gdt469_107_exact_supported_replay.tsv", "role": "exact label provenance deck", "sha256": "a5bb69ed5f3916f7c93be828a0cce82468a5f21ba2c37f12b692be0474d46e75"},
+    {"path": "experiments/yolo/gdt469_provenance_aware_address_reader/src/support_lib.py", "role": "unchanged supported intake wrapper", "sha256": "55e4b50a92bb5aca415dfe93c1d93a199c162e552162d653b3a5177ef701f42f"},
+    {"path": "experiments/yolo/gdt470_future_address_intake_worksheet/src/worksheet_lib.py", "role": "unchanged worksheet row builder", "sha256": "54c2f35d1d1e9f5d77fdccc432c6e9a8e59d25721c0d5c0413ff4acffb2e78b3"},
+    {"path": "experiments/yolo/gdt471_empirical_address_shell_phrasebook/artifacts/gdt471_89_template_assignments.tsv", "role": "learned-slot template assignments", "sha256": "e201da880c5dbdc2b6df0f5d601719ad7e0b2d4d109fc3c57877a74ae006c1dd"},
+    {"path": "experiments/yolo/gdt471_empirical_address_shell_phrasebook/src/template_lib.py", "role": "template derivation and familiarity library", "sha256": "05da0a7f0542928ecb2e2d46429017b96c733b7e07a0092860403187c5bda2c3"}
+  ],
+  "outputs": [
+    {"path": "experiments/yolo/gdt472_complete_address_template_dictionary/README.md", "role": "entry point and complete CLI", "sha256": "ef3d821ce785c1097462b09f1f79764c89b148f837b441eda77b21172ecfb4ef"},
+    {"path": "experiments/yolo/gdt472_complete_address_template_dictionary/METHOD.md", "role": "full-formula and complete-deck method", "sha256": "0f1993ca58f14e3bb528dbd282d9497fd36b1de171dcfa4dabe89afd6e1829e7"},
+    {"path": "experiments/yolo/gdt472_complete_address_template_dictionary/REPORT.md", "role": "primary report", "sha256": "c8eb4d26c350cb423560e89450431969aebeecf09592534fd8162720a14cff61"},
+    {"path": "experiments/yolo/gdt472_complete_address_template_dictionary/src/complete_lib.py", "role": "complete assignment metadata library", "sha256": "d5e762745821635d945c4564adb226824fb089c4dae0d72ba85eeb3a7344a4e2"},
+    {"path": "experiments/yolo/gdt472_complete_address_template_dictionary/src/prepare_complete_future_address.py", "role": "complete ranked worksheet row command", "sha256": "2b64f2aa718670d113a4a24c7371b58a8d2df9aff3c8a6dbce2a7ccda037a9e6"},
+    {"path": "experiments/yolo/gdt472_complete_address_template_dictionary/src/run.py", "role": "deterministic complete dictionary builder", "sha256": "a8639a6349550b692c8ab1b9ca9720bdff395d75fbbbdcafe083e055002073f6"},
+    {"path": "experiments/yolo/gdt472_complete_address_template_dictionary/src/validate.py", "role": "validator, CLI audit, and deterministic rebuild check", "sha256": "5cbf7fc82f5c447aafb8fe0d3a32c0bbd63c23efa4c4a1acc67fd6112e5aa1fc"},
+    {"path": "experiments/yolo/gdt472_complete_address_template_dictionary/artifacts/README.md", "role": "artifact guide", "sha256": "b1577ec26722fc16274c3309bb307a62cdc910607730bc41c7bc030a9860f1e5"},
+    {"path": "experiments/yolo/gdt472_complete_address_template_dictionary/artifacts/gdt472_18_full_formula_cold_replay.tsv", "role": "full-formula cold replay", "sha256": "e7af65f11f4711d45be8fb793d34e050082ad90f74a246927e07e3a4a1edd838"},
+    {"path": "experiments/yolo/gdt472_complete_address_template_dictionary/artifacts/gdt472_107_complete_template_assignments.tsv", "role": "complete label assignment deck", "sha256": "6ebd16bf39df288e4e9c6dfdd71e09c292aa3861793936bf07562977bfb48d87"},
+    {"path": "experiments/yolo/gdt472_complete_address_template_dictionary/artifacts/gdt472_87_transferable_surface_templates.tsv", "role": "complete transferable surface-template deck", "sha256": "11717c5f7a18c8aa2577faf80b19e57838346b7423c58410954f8c7c557d02f0"},
+    {"path": "experiments/yolo/gdt472_complete_address_template_dictionary/artifacts/gdt472_85_transferable_component_templates.tsv", "role": "complete transferable component-template deck", "sha256": "48ddef935d9c6d1a5a7a5ccfc7292fe461a14f047d75086133abc3cfbdcb1974"},
+    {"path": "experiments/yolo/gdt472_complete_address_template_dictionary/artifacts/gdt472_20_transferable_topologies.tsv", "role": "complete transferable topology deck", "sha256": "0c2e1b2df0614788b59de2b24724de166b8aeb2203da4455182272bffe7a7e21"},
+    {"path": "experiments/yolo/gdt472_complete_address_template_dictionary/artifacts/gdt472_2_exact_package_cards.tsv", "role": "nontransferable exact package cards", "sha256": "2cd059b7ccd53a918fccb7db442bc9cdbefd2bff355d3f32f3f09050b3b86dcc"},
+    {"path": "experiments/yolo/gdt472_complete_address_template_dictionary/artifacts/gdt472_complete_ranked_address_item_template.tsv", "role": "empty complete ranked worksheet table", "sha256": "48494c2ff25706bf95ae2425638a2f842ea172105ee75a573ca68da50469a13a"},
+    {"path": "experiments/yolo/gdt472_complete_address_template_dictionary/artifacts/gdt472_complete_dictionary_contract.json", "role": "complete reader contract", "sha256": "360fdd9d42bb303d811350aa14116810a202e1c6973907151be55b3893814184"},
+    {"path": "experiments/yolo/gdt472_complete_address_template_dictionary/artifacts/gdt472_result.json", "role": "compact result", "sha256": "3783163dabac1f2691730e7575e53b35ac5ac4c286b4e1166bb88552501c226a"},
+    {"path": "experiments/yolo/gdt472_complete_address_template_dictionary/artifacts/gdt472_validation.json", "role": "73-check validation report", "sha256": "c6b2e65c30dfb41a89569c2b1f7230f38ac97012b1d5d541498cb1e17af611ed"}
+  ],
+  "question": "Can all 107 final address labels receive one complete empirical template assignment while keeping full-formula cards that fail cold channel replay exact-package-only?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "complete_address_template_dictionary",
+  "status": "ALL_107_LABELS_HAVE_COMPLETE_TEMPLATE_ASSIGNMENTS__TWO_EXACT_PACKAGES_REMAIN_NONTRANSFERABLE",
+  "title": "Complete address template dictionary",
+  "updated": "2026-08-26",
+  "validation": {
+    "artifact": "experiments/yolo/gdt472_complete_address_template_dictionary/artifacts/gdt472_validation.json",
+    "status": "PASS"
+  }
+}

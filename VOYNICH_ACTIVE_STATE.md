@@ -11377,3 +11377,19 @@ template is unchanged. The ranked worksheet now reports empirical familiarity
 0–8 without allowing a family marker to promote a function frame. Validation
 passes 88/88. Next incorporate the eighteen full-function address cards as
 zero-name templates while preserving exact-package-only dependencies.
+
+## GDT472 complete address template dictionary
+
+All eighteen final full-function address labels now have a cold-channel audit.
+Sixteen replay completely without exact identity and become general zero-name
+function templates. `ykyd` cold-recovers only `Y+K+Y`, leaving final `d` inside
+the exact `yky|d = Y+K+Y+D_ADDR` package; `yddy` cold-recovers no channel and
+retains only the overlapping exact `y|d|dy = Y+D_ADDR+Y` package. Both exact
+cards keep their complete rank-0 working readings but are excluded from all
+surface, component and topology transfer maps. The full partition is 89
+learned-slot + sixteen general zero-name + two exact-package-only assignments.
+Thus 107/107 labels have one template mode, 105 are transferable after a form
+is supplied, and the complete decks contain 87 surface templates, 85 component
+templates and twenty topologies. Fifteen topologies cover 100/105 transferable
+labels. Validation passes 73/73. Next replay all 183 GDT459 local-address events
+through this complete reader and publish one ordered working address edition.

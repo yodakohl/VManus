@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT471.
+Updated: 2026-08-26, after GDT472.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -65,7 +65,7 @@ CONTROL into `T=EINSTELLEN` and `R=MARKIEREN` creates a five-class gate with
 amber; `R>T` and `R<-EE` remain red-local. The internal meanings of the broad
 classes are not collapsed.
 
-GDT459–GDT471 now resolve the formerly opaque local-address tail as the mixed
+GDT459–GDT472 now resolve the formerly opaque local-address tail as the mixed
 codebook architecture anticipated by the sidequest: portable function cards
 surround memorized owner-bound name cores. Of 107 learned address labels,
 eighteen are now complete function formulas, 87 are function-shell/name-core
@@ -109,6 +109,10 @@ owner classes; three other exact function frames cross two. Function templates
 survive all 89 core changes, while owner-family substrings lose or change their
 trace in fifteen cases. They now sit explicitly in the learned name layer rather
 than masquerading as productive function cards.
+GDT472 adds the eighteen complete-function labels. Sixteen are freely replayed
+as zero-name function templates; `ykyd` and `yddy` remain exact packages whose
+full readings cannot be inherited by another surface. The complete 107-label
+reader now exposes assignment mode and transferability beside every reading.
 
 GDT428 now supplies the missing semantic contrast deck. Six within-class
 comparisons contain 104 exact frames where only the action root changes. The
@@ -1106,8 +1110,7 @@ comparison set.
 
 ## Next work
 
-Keep the current 26 pages closed. Add the eighteen complete-function address
-cards to the empirical phrasebook as zero-name templates, but preserve any
-whole-package dependency instead of treating it as a free channel sequence.
-Then publish one complete 107-label familiarity deck. Do not resume broad
-Cartesian growth, generate a spelling, add a meaning, or use a new page.
+Keep the current 26 pages closed. Apply the complete GDT472 reader to all 183
+GDT459 local-address events, including the 76 formula-side events, and publish
+one ordered working edition with duplicate-surface consistency and one reader
+route per event. Do not generate a spelling, add a meaning, or use a new page.

@@ -1,0 +1,373 @@
+{
+  "status": "PASS",
+  "check_count": 73,
+  "passed": 73,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "label_source_count",
+      "status": "PASS",
+      "detail": "observed=107"
+    },
+    {
+      "name": "old_slot_assignment_count",
+      "status": "PASS",
+      "detail": "observed=89"
+    },
+    {
+      "name": "full_source_count",
+      "status": "PASS",
+      "detail": "observed=18"
+    },
+    {
+      "name": "source_partition",
+      "status": "PASS",
+      "detail": "89+18 disjoint"
+    },
+    {
+      "name": "full_replay_count",
+      "status": "PASS",
+      "detail": "observed=18"
+    },
+    {
+      "name": "full_replay_order",
+      "status": "PASS",
+      "detail": "source order exact"
+    },
+    {
+      "name": "full_exact_replay",
+      "status": "PASS",
+      "detail": "18/18"
+    },
+    {
+      "name": "full_replay_classes",
+      "status": "PASS",
+      "detail": "Counter({'GENERAL_ZERO_NAME_FUNCTION_TEMPLATE': 16, 'EXACT_PACKAGE_ONLY_ZERO_NAME_CARD': 2})"
+    },
+    {
+      "name": "general_full_cold_match",
+      "status": "PASS",
+      "detail": "16/16"
+    },
+    {
+      "name": "exact_package_surface_set",
+      "status": "PASS",
+      "detail": "['yddy', 'ykyd']"
+    },
+    {
+      "name": "ykyd_cold_partial",
+      "status": "PASS",
+      "detail": "{'replay_id': 'G472-F15', 'label_id': 'G466-L089', 'surface': 'ykyd', 'content_class': 'DRUG_OR_INGREDIENT_OBJECT', 'physical_page': 'f89r', 'source_recipe': 'Y+K+Y+D_ADDR', 'source_reading_de': 'POSTEN · GEBEN · POSTEN · HIER', 'cold_route': 'CALIBRATED_FUNCTION_SHELL_PLUS_LEARNED_CORE', 'cold_recipe': 'Y+K+Y', 'cold_reading_de': 'POSTEN · GEBEN · POSTEN · [DROGENNAME:d]', 'cold_known_character_count': '3', 'surface_character_count': '4', 'cold_complete_recipe_match': 'NO', 'replay_class': 'EXACT_PACKAGE_ONLY_ZERO_NAME_CARD', 'exact_label_reading_pass': 'YES', 'replay_pass': 'YES'}"
+    },
+    {
+      "name": "yddy_cold_whole",
+      "status": "PASS",
+      "detail": "{'replay_id': 'G472-F16', 'label_id': 'G466-L094', 'surface': 'yddy', 'content_class': 'DRUG_OR_INGREDIENT_OBJECT', 'physical_page': 'f89r', 'source_recipe': 'Y+D_ADDR+Y', 'source_reading_de': 'POSTEN · HIER · POSTEN', 'cold_route': 'WHOLE_LEARNED_OWNER_NAME', 'cold_recipe': 'NONE', 'cold_reading_de': '[DROGENNAME:yddy]', 'cold_known_character_count': '0', 'surface_character_count': '4', 'cold_complete_recipe_match': 'NO', 'replay_class': 'EXACT_PACKAGE_ONLY_ZERO_NAME_CARD', 'exact_label_reading_pass': 'YES', 'replay_pass': 'YES'}"
+    },
+    {
+      "name": "assignment_count",
+      "status": "PASS",
+      "detail": "observed=107"
+    },
+    {
+      "name": "assignment_order",
+      "status": "PASS",
+      "detail": "source order exact"
+    },
+    {
+      "name": "assignment_ids_unique",
+      "status": "PASS",
+      "detail": "107 unique"
+    },
+    {
+      "name": "assignment_modes",
+      "status": "PASS",
+      "detail": "Counter({'LEARNED_SLOT_TEMPLATE': 89, 'GENERAL_ZERO_NAME_FUNCTION_TEMPLATE': 16, 'EXACT_PACKAGE_ONLY_ZERO_NAME_CARD': 2})"
+    },
+    {
+      "name": "assignment_transferability",
+      "status": "PASS",
+      "detail": "105 transferable; 2 exact only"
+    },
+    {
+      "name": "assignment_exact_runtime_rank",
+      "status": "PASS",
+      "detail": "107/107"
+    },
+    {
+      "name": "package_assignments",
+      "status": "PASS",
+      "detail": "[{'complete_assignment_id': 'G472-A089', 'label_id': 'G466-L089', 'source_event_id': 'P1008-E1090', 'physical_page': 'f89r', 'locus': 'f89r1.11', 'surface': 'ykyd', 'content_class': 'DRUG_OR_INGREDIENT_OBJECT', 'gdt466_hybrid_status': 'FULL_FUNCTION_FORMULA', 'assignment_mode': 'EXACT_PACKAGE_ONLY_ZERO_NAME_CARD', 'transferable': 'NO', 'complete_template_id': 'G472-X01', 'surface_template_id': 'NONE', 'component_template_id': 'NONE', 'topology_id': 'NONE', 'surface_template': 'EXACT_PACKAGE[ykyd]', 'component_template': 'Y+K+Y+D_ADDR', 'meaning_template_de': 'POSTEN · GEBEN · POSTEN · HIER', 'slot_topology': 'EXACT_PACKAGE_ONLY', 'source_recipe': 'Y+K+Y+D_ADDR', 'source_reading_de': 'POSTEN · GEBEN · POSTEN · HIER', 'cold_route': 'CALIBRATED_FUNCTION_SHELL_PLUS_LEARNED_CORE', 'cold_recipe': 'Y+K+Y', 'template_familiarity_state': 'EXACT_PACKAGE_ONLY', 'template_familiarity_rank': '0', 'runtime_exact_label_rank': '0', 'exact_package_dependency': 'GENERAL_READER_RECOVERS_YKY_BUT_FINAL_D_BELONGS_TO_THE_EXACT_YKY_PLUS_D_PACKAGE'}, {'complete_assignment_id': 'G472-A094', 'label_id': 'G466-L094', 'source_event_id': 'P1008-E1178', 'physical_page': 'f89r', 'locus': 'f89r1.27', 'surface': 'yddy', 'content_class': 'DRUG_OR_INGREDIENT_OBJECT', 'gdt466_hybrid_status': 'FULL_FUNCTION_FORMULA', 'assignment_mode': 'EXACT_PACKAGE_ONLY_ZERO_NAME_CARD', 'transferable': 'NO', 'complete_template_id': 'G472-X02', 'surface_template_id': 'NONE', 'component_template_id': 'NONE', 'topology_id': 'NONE', 'surface_template': 'EXACT_PACKAGE[yddy]', 'component_template': 'Y+D_ADDR+Y', 'meaning_template_de': 'POSTEN · HIER · POSTEN', 'slot_topology': 'EXACT_PACKAGE_ONLY', 'source_recipe': 'Y+D_ADDR+Y', 'source_reading_de': 'POSTEN · HIER · POSTEN', 'cold_route': 'WHOLE_LEARNED_OWNER_NAME', 'cold_recipe': 'NONE', 'template_familiarity_state': 'EXACT_PACKAGE_ONLY', 'template_familiarity_rank': '0', 'runtime_exact_label_rank': '0', 'exact_package_dependency': 'OVERLAPPING_Y_PLUS_D_PLUS_DY_ARMS_ARE_AN_EXACT_WHOLE_PACKAGE_NOT_FREE_DIRECTIONAL_CHANNELS'}]"
+    },
+    {
+      "name": "zero_assignments_no_name_slots",
+      "status": "PASS",
+      "detail": "16/16"
+    },
+    {
+      "name": "slot_assignments_keep_name_slots",
+      "status": "PASS",
+      "detail": "89/89"
+    },
+    {
+      "name": "slot_assignment_replay",
+      "status": "PASS",
+      "detail": "89/89"
+    },
+    {
+      "name": "assignment_no_sealed_pages",
+      "status": "PASS",
+      "detail": "107/107"
+    },
+    {
+      "name": "surface_template_count",
+      "status": "PASS",
+      "detail": "observed=87"
+    },
+    {
+      "name": "surface_ids_unique",
+      "status": "PASS",
+      "detail": "87 unique"
+    },
+    {
+      "name": "surface_source_total",
+      "status": "PASS",
+      "detail": "total=105"
+    },
+    {
+      "name": "surface_state_counts",
+      "status": "PASS",
+      "detail": "Counter({'SINGLETON_EXACT_FUNCTION_TEMPLATE': 73, 'RECURRENT_EXACT_FUNCTION_TEMPLATE': 6, 'CROSS_OWNER_RECURRENT_EXACT_FUNCTION_TEMPLATE': 4, 'MULTI_PAGE_RECURRENT_EXACT_FUNCTION_TEMPLATE': 3, 'WHOLE_NAME_DEFAULT': 1})"
+    },
+    {
+      "name": "surface_recurrence",
+      "status": "PASS",
+      "detail": "14 templates/32 sources"
+    },
+    {
+      "name": "zero_surface_templates",
+      "status": "PASS",
+      "detail": "16 singleton zero-name templates"
+    },
+    {
+      "name": "component_template_count",
+      "status": "PASS",
+      "detail": "observed=85"
+    },
+    {
+      "name": "component_ids_unique",
+      "status": "PASS",
+      "detail": "85 unique"
+    },
+    {
+      "name": "component_source_total",
+      "status": "PASS",
+      "detail": "total=105"
+    },
+    {
+      "name": "component_recurrence",
+      "status": "PASS",
+      "detail": "15 templates/35 sources"
+    },
+    {
+      "name": "component_alternate_renderings",
+      "status": "PASS",
+      "detail": "['{NAME_1} · AIIN', '{NAME_1} · O+IIN']"
+    },
+    {
+      "name": "topology_count",
+      "status": "PASS",
+      "detail": "observed=20"
+    },
+    {
+      "name": "topology_ids_unique",
+      "status": "PASS",
+      "detail": "20 unique"
+    },
+    {
+      "name": "topology_source_total",
+      "status": "PASS",
+      "detail": "total=105"
+    },
+    {
+      "name": "topology_recurrence",
+      "status": "PASS",
+      "detail": "15 topologies/100 sources"
+    },
+    {
+      "name": "zero_topology_set",
+      "status": "PASS",
+      "detail": "['PREFIX', 'PREFIX · INTERNAL · INTERNAL · SUFFIX', 'PREFIX · INTERNAL · SUFFIX', 'PREFIX · SUFFIX']"
+    },
+    {
+      "name": "zero_topology_counts",
+      "status": "PASS",
+      "detail": "{'PREFIX': 1, 'PREFIX · INTERNAL · INTERNAL · SUFFIX': 1, 'PREFIX · INTERNAL · SUFFIX': 7, 'PREFIX · SUFFIX': 7}"
+    },
+    {
+      "name": "package_count",
+      "status": "PASS",
+      "detail": "observed=2"
+    },
+    {
+      "name": "package_order",
+      "status": "PASS",
+      "detail": "['ykyd', 'yddy']"
+    },
+    {
+      "name": "package_nontransferable",
+      "status": "PASS",
+      "detail": "2/2"
+    },
+    {
+      "name": "ykyd_evidence",
+      "status": "PASS",
+      "detail": "{'exact_package_card_id': 'G472-X01', 'surface': 'ykyd', 'content_class': 'DRUG_OR_INGREDIENT_OBJECT', 'physical_page': 'f89r', 'source_experiment': 'GDT463', 'source_evidence_id': 'G463-T03', 'exact_segmentation': 'yky|d', 'exact_recipe': 'Y+K+Y+D_ADDR', 'exact_reading_de': 'POSTEN · GEBEN · POSTEN · HIER', 'cold_route': 'CALIBRATED_FUNCTION_SHELL_PLUS_LEARNED_CORE', 'cold_recipe': 'Y+K+Y', 'cold_known_character_count': '3', 'dependency_reason': 'GENERAL_READER_RECOVERS_YKY_BUT_FINAL_D_BELONGS_TO_THE_EXACT_YKY_PLUS_D_PACKAGE', 'transferable': 'NO', 'reader_policy': 'EXACT_SURFACE_ONLY__NEVER_GENERATE_OR_COMPONENT_MATCH'}"
+    },
+    {
+      "name": "yddy_evidence",
+      "status": "PASS",
+      "detail": "{'exact_package_card_id': 'G472-X02', 'surface': 'yddy', 'content_class': 'DRUG_OR_INGREDIENT_OBJECT', 'physical_page': 'f89r', 'source_experiment': 'GDT464', 'source_evidence_id': 'G464-T09', 'exact_segmentation': 'y|d|dy', 'exact_recipe': 'Y+D_ADDR+Y', 'exact_reading_de': 'POSTEN · HIER · POSTEN', 'cold_route': 'WHOLE_LEARNED_OWNER_NAME', 'cold_recipe': 'NONE', 'cold_known_character_count': '0', 'dependency_reason': 'OVERLAPPING_Y_PLUS_D_PLUS_DY_ARMS_ARE_AN_EXACT_WHOLE_PACKAGE_NOT_FREE_DIRECTIONAL_CHANNELS', 'transferable': 'NO', 'reader_policy': 'EXACT_SURFACE_ONLY__NEVER_GENERATE_OR_COMPONENT_MATCH'}"
+    },
+    {
+      "name": "ranked_template_empty",
+      "status": "PASS",
+      "detail": "rows=0"
+    },
+    {
+      "name": "ranked_template_schema",
+      "status": "PASS",
+      "detail": "columns=56"
+    },
+    {
+      "name": "contract_status",
+      "status": "PASS",
+      "detail": "COMPLETE_107_LABEL_TEMPLATE_DICTIONARY_READY"
+    },
+    {
+      "name": "contract_partition",
+      "status": "PASS",
+      "detail": "{'status': 'COMPLETE_107_LABEL_TEMPLATE_DICTIONARY_READY', 'known_label_count': 107, 'learned_slot_label_count': 89, 'general_zero_name_formula_count': 16, 'exact_package_only_count': 2, 'transferable_surface_template_count': 87, 'transferable_component_template_count': 85, 'transferable_topology_count': 20, 'exact_package_cards': ['ykyd', 'yddy'], 'exact_package_policy': 'Exact identity may replay the whole package; no unseen surface may inherit it through component or topology matching.', 'reader_command': 'python3 experiments/yolo/gdt472_complete_address_template_dictionary/src/prepare_complete_future_address.py SURFACE CONTENT_CLASS [metadata options]', 'page_slots': 4, 'page_slot_state': 'UNRELEASED', 'claim_boundary': 'The dictionary ranks an already supplied address and gives an owner-bound default; it predicts no surface, occurrence, object identity, plaintext, language, or confirmed lexeme.'}"
+    },
+    {
+      "name": "contract_decks",
+      "status": "PASS",
+      "detail": "{'status': 'COMPLETE_107_LABEL_TEMPLATE_DICTIONARY_READY', 'known_label_count': 107, 'learned_slot_label_count': 89, 'general_zero_name_formula_count': 16, 'exact_package_only_count': 2, 'transferable_surface_template_count': 87, 'transferable_component_template_count': 85, 'transferable_topology_count': 20, 'exact_package_cards': ['ykyd', 'yddy'], 'exact_package_policy': 'Exact identity may replay the whole package; no unseen surface may inherit it through component or topology matching.', 'reader_command': 'python3 experiments/yolo/gdt472_complete_address_template_dictionary/src/prepare_complete_future_address.py SURFACE CONTENT_CLASS [metadata options]', 'page_slots': 4, 'page_slot_state': 'UNRELEASED', 'claim_boundary': 'The dictionary ranks an already supplied address and gives an owner-bound default; it predicts no surface, occurrence, object identity, plaintext, language, or confirmed lexeme.'}"
+    },
+    {
+      "name": "contract_packages",
+      "status": "PASS",
+      "detail": "{'status': 'COMPLETE_107_LABEL_TEMPLATE_DICTIONARY_READY', 'known_label_count': 107, 'learned_slot_label_count': 89, 'general_zero_name_formula_count': 16, 'exact_package_only_count': 2, 'transferable_surface_template_count': 87, 'transferable_component_template_count': 85, 'transferable_topology_count': 20, 'exact_package_cards': ['ykyd', 'yddy'], 'exact_package_policy': 'Exact identity may replay the whole package; no unseen surface may inherit it through component or topology matching.', 'reader_command': 'python3 experiments/yolo/gdt472_complete_address_template_dictionary/src/prepare_complete_future_address.py SURFACE CONTENT_CLASS [metadata options]', 'page_slots': 4, 'page_slot_state': 'UNRELEASED', 'claim_boundary': 'The dictionary ranks an already supplied address and gives an owner-bound default; it predicts no surface, occurrence, object identity, plaintext, language, or confirmed lexeme.'}"
+    },
+    {
+      "name": "cli_ykyd_exit",
+      "status": "PASS",
+      "detail": "exit 0"
+    },
+    {
+      "name": "cli_ykyd_exact_package",
+      "status": "PASS",
+      "detail": "{'batch_id': 'FUTURE_BATCH', 'page_slot': 'UNASSIGNED', 'item_slot': 'UNASSIGNED', 'page_id': 'UNRELEASED', 'locus_id': 'UNASSIGNED', 'owner_description': 'UNRECORDED', 'content_class': 'DRUG_OR_INGREDIENT_OBJECT', 'surface_zl3b': '', 'surface_it2a': '', 'surface_rf1b': '', 'selected_surface': 'ykyd', 'transcription_agreement': 'NO_MANUAL_READING_RECORDED', 'reader_route': 'EXACT_KNOWN_LABEL', 'working_reading_de': 'POSTEN · GEBEN · POSTEN · HIER', 'exact_channel_signature': 'EXACT_LABEL_CARD:ykyd', 'ordered_recipe_trace': 'Y+K+Y+D_ADDR', 'bounded_shell_id': 'NONE', 'bounded_surface_template': 'NONE', 'recipe_support_tier': 'OUTSIDE_BOUNDED_SHELL_ATLAS', 'recipe_support_rank': 0, 'running_event_count': 0, 'running_page_count': 0, 'address_full_formula_count': 0, 'address_hybrid_shell_count': 0, 'known_function_character_count': 4, 'learned_character_count': 0, 'family_markers': 'NONE', 'intake_action': 'REUSE_EXACT_LABEL_CARD', 'retroactive_core_change': 'NO', 'notes': '', 'empirical_familiarity_state': 'EXACT_LABEL_CARD', 'empirical_familiarity_rank': 0, 'empirical_match_level': 'EXACT_LABEL_CARD', 'empirical_surface_template_id': 'NONE', 'empirical_component_template_id': 'NONE', 'empirical_topology_id': 'G472-P08', 'empirical_surface_template': 'yky{NAME_1}', 'empirical_component_template': 'Y+K+Y · {NAME_1}', 'empirical_meaning_template_de': 'POSTEN · GEBEN · POSTEN · {NAME_1}', 'empirical_slot_topology': 'PREFIX · {NAME_1}', 'empirical_learned_span_trace': '3:4:d', 'empirical_source_count': 17, 'empirical_content_class_count': 4, 'empirical_page_count': 6, 'empirical_observed_content_classes': 'BATH_OR_OUTLET_STATION|DRUG_OR_INGREDIENT_OBJECT|PICTURED_PLANT|STAR_BEARING_RING_POSITION', 'empirical_observed_pages': 'f17r|f71v|f72r|f77r|f88v|f89r', 'empirical_source_surfaces': 'alif|arody|arom|ofaom|ofchdamy|okyd|olay|olkchs|otalef|otalody|otchody|otdordy|oteeeon|otold|otoldy|otora|otork', 'empirical_owner_relation': 'EXACT_LABEL_OWNER', 'family_marker_policy': 'REPORT_SEPARATELY__NEVER_PROMOTE_TO_FUNCTION_TEMPLATE', 'complete_dictionary_status': 'COMPLETE_107_LABEL_TEMPLATE_DICTIONARY_READY', 'complete_assignment_mode': 'EXACT_PACKAGE_ONLY_ZERO_NAME_CARD', 'complete_template_id': 'G472-X01', 'complete_transferability': 'NO', 'complete_exact_package_card_id': 'G472-X01', 'complete_exact_package_dependency': 'GENERAL_READER_RECOVERS_YKY_BUT_FINAL_D_BELONGS_TO_THE_EXACT_YKY_PLUS_D_PACKAGE', 'complete_reader_policy': 'EXACT_LABEL_CARD_FIRST__THEN_REPORT_ITS_COMPLETE_TEMPLATE_MODE'}"
+    },
+    {
+      "name": "cli_yddy_exit",
+      "status": "PASS",
+      "detail": "exit 0"
+    },
+    {
+      "name": "cli_yddy_exact_package",
+      "status": "PASS",
+      "detail": "{'batch_id': 'FUTURE_BATCH', 'page_slot': 'UNASSIGNED', 'item_slot': 'UNASSIGNED', 'page_id': 'UNRELEASED', 'locus_id': 'UNASSIGNED', 'owner_description': 'UNRECORDED', 'content_class': 'DRUG_OR_INGREDIENT_OBJECT', 'surface_zl3b': '', 'surface_it2a': '', 'surface_rf1b': '', 'selected_surface': 'yddy', 'transcription_agreement': 'NO_MANUAL_READING_RECORDED', 'reader_route': 'EXACT_KNOWN_LABEL', 'working_reading_de': 'POSTEN · HIER · POSTEN', 'exact_channel_signature': 'EXACT_LABEL_CARD:yddy', 'ordered_recipe_trace': 'Y+D_ADDR+Y', 'bounded_shell_id': 'NONE', 'bounded_surface_template': 'NONE', 'recipe_support_tier': 'OUTSIDE_BOUNDED_SHELL_ATLAS', 'recipe_support_rank': 0, 'running_event_count': 0, 'running_page_count': 0, 'address_full_formula_count': 0, 'address_hybrid_shell_count': 0, 'known_function_character_count': 4, 'learned_character_count': 0, 'family_markers': 'NONE', 'intake_action': 'REUSE_EXACT_LABEL_CARD', 'retroactive_core_change': 'NO', 'notes': '', 'empirical_familiarity_state': 'EXACT_LABEL_CARD', 'empirical_familiarity_rank': 0, 'empirical_match_level': 'EXACT_LABEL_CARD', 'empirical_surface_template_id': 'G472-T051', 'empirical_component_template_id': 'G472-C051', 'empirical_topology_id': 'G472-P13', 'empirical_surface_template': '{NAME_1}', 'empirical_component_template': '{NAME_1}', 'empirical_meaning_template_de': '{NAME_1}', 'empirical_slot_topology': '{NAME_1}', 'empirical_learned_span_trace': '0:4:yddy', 'empirical_source_count': 2, 'empirical_content_class_count': 2, 'empirical_page_count': 2, 'empirical_observed_content_classes': 'DRUG_OR_INGREDIENT_OBJECT|PICTURED_PLANT', 'empirical_observed_pages': 'f17r|f88v', 'empirical_source_surfaces': 'cheosdy|oiil', 'empirical_owner_relation': 'EXACT_LABEL_OWNER', 'family_marker_policy': 'REPORT_SEPARATELY__NEVER_PROMOTE_TO_FUNCTION_TEMPLATE', 'complete_dictionary_status': 'COMPLETE_107_LABEL_TEMPLATE_DICTIONARY_READY', 'complete_assignment_mode': 'EXACT_PACKAGE_ONLY_ZERO_NAME_CARD', 'complete_template_id': 'G472-X02', 'complete_transferability': 'NO', 'complete_exact_package_card_id': 'G472-X02', 'complete_exact_package_dependency': 'OVERLAPPING_Y_PLUS_D_PLUS_DY_ARMS_ARE_AN_EXACT_WHOLE_PACKAGE_NOT_FREE_DIRECTIONAL_CHANNELS', 'complete_reader_policy': 'EXACT_LABEL_CARD_FIRST__THEN_REPORT_ITS_COMPLETE_TEMPLATE_MODE'}"
+    },
+    {
+      "name": "cli_zero_name_exit",
+      "status": "PASS",
+      "detail": "exit 0"
+    },
+    {
+      "name": "cli_zero_name_template",
+      "status": "PASS",
+      "detail": "{'batch_id': 'FUTURE_BATCH', 'page_slot': 'UNASSIGNED', 'item_slot': 'UNASSIGNED', 'page_id': 'UNRELEASED', 'locus_id': 'UNASSIGNED', 'owner_description': 'UNRECORDED', 'content_class': 'STAR_BEARING_RING_POSITION', 'surface_zl3b': '', 'surface_it2a': '', 'surface_rf1b': '', 'selected_surface': 'otainy', 'transcription_agreement': 'NO_MANUAL_READING_RECORDED', 'reader_route': 'EXACT_KNOWN_LABEL', 'working_reading_de': 'DANACH · ANTEIL · POSTEN', 'exact_channel_signature': 'EXACT_LABEL_CARD:otainy', 'ordered_recipe_trace': 'OT+AIN+Y', 'bounded_shell_id': 'NONE', 'bounded_surface_template': 'NONE', 'recipe_support_tier': 'ADDRESS_FULL_FORMULA_ONLY', 'recipe_support_rank': 86, 'running_event_count': 0, 'running_page_count': 0, 'address_full_formula_count': 1, 'address_hybrid_shell_count': 0, 'known_function_character_count': 6, 'learned_character_count': 0, 'family_markers': 'ota=STERNSTELLENFAMILIE', 'intake_action': 'REUSE_EXACT_LABEL_CARD', 'retroactive_core_change': 'NO', 'notes': '', 'empirical_familiarity_state': 'EXACT_LABEL_CARD', 'empirical_familiarity_rank': 0, 'empirical_match_level': 'EXACT_LABEL_CARD', 'empirical_surface_template_id': 'G472-T034', 'empirical_component_template_id': 'G472-C034', 'empirical_topology_id': 'G472-P07', 'empirical_surface_template': 'otainy', 'empirical_component_template': 'OT · AIN+Y', 'empirical_meaning_template_de': 'DANACH · ANTEIL · POSTEN', 'empirical_slot_topology': 'PREFIX · SUFFIX', 'empirical_learned_span_trace': '', 'empirical_source_count': 1, 'empirical_content_class_count': 1, 'empirical_page_count': 1, 'empirical_observed_content_classes': 'STAR_BEARING_RING_POSITION', 'empirical_observed_pages': 'f72r', 'empirical_source_surfaces': 'otainy', 'empirical_owner_relation': 'EXACT_LABEL_OWNER', 'family_marker_policy': 'REPORT_SEPARATELY__NEVER_PROMOTE_TO_FUNCTION_TEMPLATE', 'complete_dictionary_status': 'COMPLETE_107_LABEL_TEMPLATE_DICTIONARY_READY', 'complete_assignment_mode': 'GENERAL_ZERO_NAME_FUNCTION_TEMPLATE', 'complete_template_id': 'G472-T034', 'complete_transferability': 'YES', 'complete_exact_package_card_id': 'NONE', 'complete_exact_package_dependency': 'NONE', 'complete_reader_policy': 'EXACT_LABEL_CARD_FIRST__THEN_REPORT_ITS_COMPLETE_TEMPLATE_MODE'}"
+    },
+    {
+      "name": "cli_unseen_slot_exit",
+      "status": "PASS",
+      "detail": "exit 0"
+    },
+    {
+      "name": "cli_unseen_slot_rank",
+      "status": "PASS",
+      "detail": "{'batch_id': 'FUTURE_BATCH', 'page_slot': 'UNASSIGNED', 'item_slot': 'UNASSIGNED', 'page_id': 'UNRELEASED', 'locus_id': 'UNASSIGNED', 'owner_description': 'UNRECORDED', 'content_class': 'PICTURED_PLANT', 'surface_zl3b': '', 'surface_it2a': '', 'surface_rf1b': '', 'selected_surface': 'otexeeon', 'transcription_agreement': 'NO_MANUAL_READING_RECORDED', 'reader_route': 'CALIBRATED_FUNCTION_SHELL_PLUS_LEARNED_CORE', 'working_reading_de': 'DANACH · [PFLANZENNAME:exeeon]', 'exact_channel_signature': 'G466-C11', 'ordered_recipe_trace': 'OT', 'bounded_shell_id': 'NONE', 'bounded_surface_template': 'NONE', 'recipe_support_tier': 'OUTSIDE_BOUNDED_SHELL_ATLAS', 'recipe_support_rank': 0, 'running_event_count': 0, 'running_page_count': 0, 'address_full_formula_count': 0, 'address_hybrid_shell_count': 0, 'known_function_character_count': 2, 'learned_character_count': 6, 'family_markers': 'NONE', 'intake_action': 'READ_VISIBLE_FUNCTION_SHELL_KEEP_NAME_CORE', 'retroactive_core_change': 'NO', 'notes': '', 'empirical_familiarity_state': 'CROSS_OWNER_RECURRENT_EXACT_FUNCTION_TEMPLATE', 'empirical_familiarity_rank': 1, 'empirical_match_level': 'EXACT_EMPIRICAL_SURFACE_TEMPLATE', 'empirical_surface_template_id': 'G472-T042', 'empirical_component_template_id': 'G472-C036', 'empirical_topology_id': 'G472-P08', 'empirical_surface_template': 'ot{NAME_1}', 'empirical_component_template': 'OT · {NAME_1}', 'empirical_meaning_template_de': 'DANACH · {NAME_1}', 'empirical_slot_topology': 'PREFIX · {NAME_1}', 'empirical_learned_span_trace': '2:8:exeeon', 'empirical_source_count': 5, 'empirical_content_class_count': 4, 'empirical_page_count': 4, 'empirical_observed_content_classes': 'BATH_OR_OUTLET_STATION|DRUG_OR_INGREDIENT_OBJECT|PICTURED_PLANT|STAR_BEARING_RING_POSITION', 'empirical_observed_pages': 'f17r|f71v|f77r|f88v', 'empirical_source_surfaces': 'otchody|otdordy|oteeeon|otora|otork', 'empirical_owner_relation': 'OWNER_CLASS_ATTESTED_FOR_MATCH', 'family_marker_policy': 'REPORT_SEPARATELY__NEVER_PROMOTE_TO_FUNCTION_TEMPLATE', 'complete_dictionary_status': 'COMPLETE_107_LABEL_TEMPLATE_DICTIONARY_READY', 'complete_assignment_mode': 'UNSEEN_FORM_RANKED_BY_TRANSFERABLE_TEMPLATE', 'complete_template_id': 'G472-T042', 'complete_transferability': 'POST_SURFACE_READING_ONLY', 'complete_exact_package_card_id': 'NONE', 'complete_exact_package_dependency': 'NONE', 'complete_reader_policy': 'USE_VISIBLE_CHANNELS__KEEP_NAME_SLOTS__ANNOTATE_EMPIRICAL_FAMILIARITY'}"
+    },
+    {
+      "name": "cli_component_exit",
+      "status": "PASS",
+      "detail": "exit 0"
+    },
+    {
+      "name": "cli_component_rank",
+      "status": "PASS",
+      "detail": "{'batch_id': 'FUTURE_BATCH', 'page_slot': 'UNASSIGNED', 'item_slot': 'UNASSIGNED', 'page_id': 'UNRELEASED', 'locus_id': 'UNASSIGNED', 'owner_description': 'UNRECORDED', 'content_class': 'STAR_BEARING_RING_POSITION', 'surface_zl3b': '', 'surface_it2a': '', 'surface_rf1b': '', 'selected_surface': 'otxal', 'transcription_agreement': 'NO_MANUAL_READING_RECORDED', 'reader_route': 'CALIBRATED_FUNCTION_SHELL_PLUS_LEARNED_CORE', 'working_reading_de': 'DANACH · [STERNSTELLENNAME:x] · ZIELORT', 'exact_channel_signature': 'G466-C11+G466-C31', 'ordered_recipe_trace': 'OT+AL', 'bounded_shell_id': 'G467-S0249', 'bounded_surface_template': 'ot{NAME_CORE}al', 'recipe_support_tier': 'RUNNING_EXACT_RECIPE', 'recipe_support_rank': 16, 'running_event_count': 16, 'running_page_count': 8, 'address_full_formula_count': 0, 'address_hybrid_shell_count': 3, 'known_function_character_count': 4, 'learned_character_count': 1, 'family_markers': 'NONE', 'intake_action': 'READ_SUPPORTED_FUNCTION_SHELL_KEEP_NAME_CORE', 'retroactive_core_change': 'NO', 'notes': '', 'empirical_familiarity_state': 'KNOWN_COMPONENT_TEMPLATE_ALTERNATE_RENDERING', 'empirical_familiarity_rank': 5, 'empirical_match_level': 'COMPONENT_TEMPLATE', 'empirical_surface_template_id': 'NONE', 'empirical_component_template_id': 'G472-C038', 'empirical_topology_id': 'G472-P12', 'empirical_surface_template': 'ot{NAME_1}al', 'empirical_component_template': 'OT · {NAME_1} · AL', 'empirical_meaning_template_de': 'DANACH · {NAME_1} · ZIELORT', 'empirical_slot_topology': 'PREFIX · {NAME_1} · SUFFIX', 'empirical_learned_span_trace': '2:3:x', 'empirical_source_count': 1, 'empirical_content_class_count': 1, 'empirical_page_count': 1, 'empirical_observed_content_classes': 'STAR_BEARING_RING_POSITION', 'empirical_observed_pages': 'f72r', 'empirical_source_surfaces': 'otchdal', 'empirical_owner_relation': 'OWNER_CLASS_ATTESTED_FOR_MATCH', 'family_marker_policy': 'REPORT_SEPARATELY__NEVER_PROMOTE_TO_FUNCTION_TEMPLATE', 'complete_dictionary_status': 'COMPLETE_107_LABEL_TEMPLATE_DICTIONARY_READY', 'complete_assignment_mode': 'UNSEEN_FORM_RANKED_BY_TRANSFERABLE_TEMPLATE', 'complete_template_id': 'G472-C038', 'complete_transferability': 'POST_SURFACE_READING_ONLY', 'complete_exact_package_card_id': 'NONE', 'complete_exact_package_dependency': 'NONE', 'complete_reader_policy': 'USE_VISIBLE_CHANNELS__KEEP_NAME_SLOTS__ANNOTATE_EMPIRICAL_FAMILIARITY'}"
+    },
+    {
+      "name": "cli_whole_exit",
+      "status": "PASS",
+      "detail": "exit 0"
+    },
+    {
+      "name": "cli_whole_default",
+      "status": "PASS",
+      "detail": "{'batch_id': 'FUTURE_BATCH', 'page_slot': 'UNASSIGNED', 'item_slot': 'UNASSIGNED', 'page_id': 'UNRELEASED', 'locus_id': 'UNASSIGNED', 'owner_description': 'UNRECORDED', 'content_class': 'PICTURED_PLANT', 'surface_zl3b': '', 'surface_it2a': '', 'surface_rf1b': '', 'selected_surface': 'zxqv', 'transcription_agreement': 'NO_MANUAL_READING_RECORDED', 'reader_route': 'WHOLE_LEARNED_OWNER_NAME', 'working_reading_de': '[PFLANZENNAME:zxqv]', 'exact_channel_signature': 'NONE', 'ordered_recipe_trace': 'NONE', 'bounded_shell_id': 'NONE', 'bounded_surface_template': 'NONE', 'recipe_support_tier': 'OUTSIDE_BOUNDED_SHELL_ATLAS', 'recipe_support_rank': 0, 'running_event_count': 0, 'running_page_count': 0, 'address_full_formula_count': 0, 'address_hybrid_shell_count': 0, 'known_function_character_count': 0, 'learned_character_count': 4, 'family_markers': 'NONE', 'intake_action': 'LEARN_WHOLE_OWNER_BOUND_NAME', 'retroactive_core_change': 'NO', 'notes': '', 'empirical_familiarity_state': 'WHOLE_NAME_DEFAULT', 'empirical_familiarity_rank': 7, 'empirical_match_level': 'WHOLE_NAME_DEFAULT', 'empirical_surface_template_id': 'G472-T051', 'empirical_component_template_id': 'G472-C051', 'empirical_topology_id': 'G472-P13', 'empirical_surface_template': '{NAME_1}', 'empirical_component_template': '{NAME_1}', 'empirical_meaning_template_de': '{NAME_1}', 'empirical_slot_topology': '{NAME_1}', 'empirical_learned_span_trace': '0:4:zxqv', 'empirical_source_count': 2, 'empirical_content_class_count': 2, 'empirical_page_count': 2, 'empirical_observed_content_classes': 'DRUG_OR_INGREDIENT_OBJECT|PICTURED_PLANT', 'empirical_observed_pages': 'f17r|f88v', 'empirical_source_surfaces': 'cheosdy|oiil', 'empirical_owner_relation': 'OWNER_CLASS_ATTESTED_FOR_MATCH', 'family_marker_policy': 'REPORT_SEPARATELY__NEVER_PROMOTE_TO_FUNCTION_TEMPLATE', 'complete_dictionary_status': 'COMPLETE_107_LABEL_TEMPLATE_DICTIONARY_READY', 'complete_assignment_mode': 'UNSEEN_FORM_RANKED_BY_TRANSFERABLE_TEMPLATE', 'complete_template_id': 'G472-T051', 'complete_transferability': 'POST_SURFACE_READING_ONLY', 'complete_exact_package_card_id': 'NONE', 'complete_exact_package_dependency': 'NONE', 'complete_reader_policy': 'USE_VISIBLE_CHANNELS__KEEP_NAME_SLOTS__ANNOTATE_EMPIRICAL_FAMILIARITY'}"
+    },
+    {
+      "name": "result_status",
+      "status": "PASS",
+      "detail": "ALL_107_LABELS_HAVE_COMPLETE_TEMPLATE_ASSIGNMENTS__TWO_EXACT_PACKAGES_REMAIN_NONTRANSFERABLE"
+    },
+    {
+      "name": "result_full",
+      "status": "PASS",
+      "detail": "{'status': 'ALL_107_LABELS_HAVE_COMPLETE_TEMPLATE_ASSIGNMENTS__TWO_EXACT_PACKAGES_REMAIN_NONTRANSFERABLE', 'full_formula_count': 18, 'general_zero_name_formula_count': 16, 'exact_package_only_formula_count': 2, 'full_formula_replay_pass_count': 18, 'complete_assignment_count': 107, 'assignment_mode_counts': {'EXACT_PACKAGE_ONLY_ZERO_NAME_CARD': 2, 'GENERAL_ZERO_NAME_FUNCTION_TEMPLATE': 16, 'LEARNED_SLOT_TEMPLATE': 89}, 'transferable_assignment_count': 105, 'nontransferable_assignment_count': 2, 'transferable_surface_template_count': 87, 'surface_template_state_counts': {'CROSS_OWNER_RECURRENT_EXACT_FUNCTION_TEMPLATE': 4, 'MULTI_PAGE_RECURRENT_EXACT_FUNCTION_TEMPLATE': 3, 'RECURRENT_EXACT_FUNCTION_TEMPLATE': 6, 'SINGLETON_EXACT_FUNCTION_TEMPLATE': 73, 'WHOLE_NAME_DEFAULT': 1}, 'recurrent_surface_template_count': 14, 'recurrent_surface_template_source_count': 32, 'transferable_component_template_count': 85, 'recurrent_component_template_count': 15, 'recurrent_component_template_source_count': 35, 'transferable_topology_count': 20, 'recurrent_topology_count': 15, 'recurrent_topology_source_count': 100, 'future_page_slots': 4, 'released_page_slots': 0, 'new_pages': 0, 'new_channels': 0, 'new_component_meanings': 0, 'new_surface_predictions': 0, 'confirmed_lexemes': 0}"
+    },
+    {
+      "name": "result_assignments",
+      "status": "PASS",
+      "detail": "{'status': 'ALL_107_LABELS_HAVE_COMPLETE_TEMPLATE_ASSIGNMENTS__TWO_EXACT_PACKAGES_REMAIN_NONTRANSFERABLE', 'full_formula_count': 18, 'general_zero_name_formula_count': 16, 'exact_package_only_formula_count': 2, 'full_formula_replay_pass_count': 18, 'complete_assignment_count': 107, 'assignment_mode_counts': {'EXACT_PACKAGE_ONLY_ZERO_NAME_CARD': 2, 'GENERAL_ZERO_NAME_FUNCTION_TEMPLATE': 16, 'LEARNED_SLOT_TEMPLATE': 89}, 'transferable_assignment_count': 105, 'nontransferable_assignment_count': 2, 'transferable_surface_template_count': 87, 'surface_template_state_counts': {'CROSS_OWNER_RECURRENT_EXACT_FUNCTION_TEMPLATE': 4, 'MULTI_PAGE_RECURRENT_EXACT_FUNCTION_TEMPLATE': 3, 'RECURRENT_EXACT_FUNCTION_TEMPLATE': 6, 'SINGLETON_EXACT_FUNCTION_TEMPLATE': 73, 'WHOLE_NAME_DEFAULT': 1}, 'recurrent_surface_template_count': 14, 'recurrent_surface_template_source_count': 32, 'transferable_component_template_count': 85, 'recurrent_component_template_count': 15, 'recurrent_component_template_source_count': 35, 'transferable_topology_count': 20, 'recurrent_topology_count': 15, 'recurrent_topology_source_count': 100, 'future_page_slots': 4, 'released_page_slots': 0, 'new_pages': 0, 'new_channels': 0, 'new_component_meanings': 0, 'new_surface_predictions': 0, 'confirmed_lexemes': 0}"
+    },
+    {
+      "name": "result_surface",
+      "status": "PASS",
+      "detail": "{'status': 'ALL_107_LABELS_HAVE_COMPLETE_TEMPLATE_ASSIGNMENTS__TWO_EXACT_PACKAGES_REMAIN_NONTRANSFERABLE', 'full_formula_count': 18, 'general_zero_name_formula_count': 16, 'exact_package_only_formula_count': 2, 'full_formula_replay_pass_count': 18, 'complete_assignment_count': 107, 'assignment_mode_counts': {'EXACT_PACKAGE_ONLY_ZERO_NAME_CARD': 2, 'GENERAL_ZERO_NAME_FUNCTION_TEMPLATE': 16, 'LEARNED_SLOT_TEMPLATE': 89}, 'transferable_assignment_count': 105, 'nontransferable_assignment_count': 2, 'transferable_surface_template_count': 87, 'surface_template_state_counts': {'CROSS_OWNER_RECURRENT_EXACT_FUNCTION_TEMPLATE': 4, 'MULTI_PAGE_RECURRENT_EXACT_FUNCTION_TEMPLATE': 3, 'RECURRENT_EXACT_FUNCTION_TEMPLATE': 6, 'SINGLETON_EXACT_FUNCTION_TEMPLATE': 73, 'WHOLE_NAME_DEFAULT': 1}, 'recurrent_surface_template_count': 14, 'recurrent_surface_template_source_count': 32, 'transferable_component_template_count': 85, 'recurrent_component_template_count': 15, 'recurrent_component_template_source_count': 35, 'transferable_topology_count': 20, 'recurrent_topology_count': 15, 'recurrent_topology_source_count': 100, 'future_page_slots': 4, 'released_page_slots': 0, 'new_pages': 0, 'new_channels': 0, 'new_component_meanings': 0, 'new_surface_predictions': 0, 'confirmed_lexemes': 0}"
+    },
+    {
+      "name": "result_components",
+      "status": "PASS",
+      "detail": "{'status': 'ALL_107_LABELS_HAVE_COMPLETE_TEMPLATE_ASSIGNMENTS__TWO_EXACT_PACKAGES_REMAIN_NONTRANSFERABLE', 'full_formula_count': 18, 'general_zero_name_formula_count': 16, 'exact_package_only_formula_count': 2, 'full_formula_replay_pass_count': 18, 'complete_assignment_count': 107, 'assignment_mode_counts': {'EXACT_PACKAGE_ONLY_ZERO_NAME_CARD': 2, 'GENERAL_ZERO_NAME_FUNCTION_TEMPLATE': 16, 'LEARNED_SLOT_TEMPLATE': 89}, 'transferable_assignment_count': 105, 'nontransferable_assignment_count': 2, 'transferable_surface_template_count': 87, 'surface_template_state_counts': {'CROSS_OWNER_RECURRENT_EXACT_FUNCTION_TEMPLATE': 4, 'MULTI_PAGE_RECURRENT_EXACT_FUNCTION_TEMPLATE': 3, 'RECURRENT_EXACT_FUNCTION_TEMPLATE': 6, 'SINGLETON_EXACT_FUNCTION_TEMPLATE': 73, 'WHOLE_NAME_DEFAULT': 1}, 'recurrent_surface_template_count': 14, 'recurrent_surface_template_source_count': 32, 'transferable_component_template_count': 85, 'recurrent_component_template_count': 15, 'recurrent_component_template_source_count': 35, 'transferable_topology_count': 20, 'recurrent_topology_count': 15, 'recurrent_topology_source_count': 100, 'future_page_slots': 4, 'released_page_slots': 0, 'new_pages': 0, 'new_channels': 0, 'new_component_meanings': 0, 'new_surface_predictions': 0, 'confirmed_lexemes': 0}"
+    },
+    {
+      "name": "result_topologies",
+      "status": "PASS",
+      "detail": "{'status': 'ALL_107_LABELS_HAVE_COMPLETE_TEMPLATE_ASSIGNMENTS__TWO_EXACT_PACKAGES_REMAIN_NONTRANSFERABLE', 'full_formula_count': 18, 'general_zero_name_formula_count': 16, 'exact_package_only_formula_count': 2, 'full_formula_replay_pass_count': 18, 'complete_assignment_count': 107, 'assignment_mode_counts': {'EXACT_PACKAGE_ONLY_ZERO_NAME_CARD': 2, 'GENERAL_ZERO_NAME_FUNCTION_TEMPLATE': 16, 'LEARNED_SLOT_TEMPLATE': 89}, 'transferable_assignment_count': 105, 'nontransferable_assignment_count': 2, 'transferable_surface_template_count': 87, 'surface_template_state_counts': {'CROSS_OWNER_RECURRENT_EXACT_FUNCTION_TEMPLATE': 4, 'MULTI_PAGE_RECURRENT_EXACT_FUNCTION_TEMPLATE': 3, 'RECURRENT_EXACT_FUNCTION_TEMPLATE': 6, 'SINGLETON_EXACT_FUNCTION_TEMPLATE': 73, 'WHOLE_NAME_DEFAULT': 1}, 'recurrent_surface_template_count': 14, 'recurrent_surface_template_source_count': 32, 'transferable_component_template_count': 85, 'recurrent_component_template_count': 15, 'recurrent_component_template_source_count': 35, 'transferable_topology_count': 20, 'recurrent_topology_count': 15, 'recurrent_topology_source_count': 100, 'future_page_slots': 4, 'released_page_slots': 0, 'new_pages': 0, 'new_channels': 0, 'new_component_meanings': 0, 'new_surface_predictions': 0, 'confirmed_lexemes': 0}"
+    },
+    {
+      "name": "result_slots",
+      "status": "PASS",
+      "detail": "{'status': 'ALL_107_LABELS_HAVE_COMPLETE_TEMPLATE_ASSIGNMENTS__TWO_EXACT_PACKAGES_REMAIN_NONTRANSFERABLE', 'full_formula_count': 18, 'general_zero_name_formula_count': 16, 'exact_package_only_formula_count': 2, 'full_formula_replay_pass_count': 18, 'complete_assignment_count': 107, 'assignment_mode_counts': {'EXACT_PACKAGE_ONLY_ZERO_NAME_CARD': 2, 'GENERAL_ZERO_NAME_FUNCTION_TEMPLATE': 16, 'LEARNED_SLOT_TEMPLATE': 89}, 'transferable_assignment_count': 105, 'nontransferable_assignment_count': 2, 'transferable_surface_template_count': 87, 'surface_template_state_counts': {'CROSS_OWNER_RECURRENT_EXACT_FUNCTION_TEMPLATE': 4, 'MULTI_PAGE_RECURRENT_EXACT_FUNCTION_TEMPLATE': 3, 'RECURRENT_EXACT_FUNCTION_TEMPLATE': 6, 'SINGLETON_EXACT_FUNCTION_TEMPLATE': 73, 'WHOLE_NAME_DEFAULT': 1}, 'recurrent_surface_template_count': 14, 'recurrent_surface_template_source_count': 32, 'transferable_component_template_count': 85, 'recurrent_component_template_count': 15, 'recurrent_component_template_source_count': 35, 'transferable_topology_count': 20, 'recurrent_topology_count': 15, 'recurrent_topology_source_count': 100, 'future_page_slots': 4, 'released_page_slots': 0, 'new_pages': 0, 'new_channels': 0, 'new_component_meanings': 0, 'new_surface_predictions': 0, 'confirmed_lexemes': 0}"
+    },
+    {
+      "name": "result_claim_ceiling",
+      "status": "PASS",
+      "detail": "no expanded claim"
+    },
+    {
+      "name": "deterministic_rebuild_exit",
+      "status": "PASS",
+      "detail": "exit 0"
+    },
+    {
+      "name": "deterministic_rebuild_bytes",
+      "status": "PASS",
+      "detail": "all generated artifact hashes unchanged"
+    }
+  ]
+}
