@@ -1,0 +1,187 @@
+{
+  "status": "PASS",
+  "checks_passed": 36,
+  "checks_total": 36,
+  "checks": [
+    {
+      "name": "source_running_count",
+      "passed": true,
+      "detail": "observed=4576 expected=4576"
+    },
+    {
+      "name": "source_local_count",
+      "passed": true,
+      "detail": "observed=693 expected=693"
+    },
+    {
+      "name": "source_address_count",
+      "passed": true,
+      "detail": "observed=183 expected=183"
+    },
+    {
+      "name": "event_output_count",
+      "passed": true,
+      "detail": "observed=183 expected=183"
+    },
+    {
+      "name": "surface_output_count",
+      "passed": true,
+      "detail": "observed=162 expected=162"
+    },
+    {
+      "name": "owner_output_count",
+      "passed": true,
+      "detail": "observed=22 expected=22"
+    },
+    {
+      "name": "event_ids_unique",
+      "passed": true,
+      "detail": "183 unique GDT459 IDs"
+    },
+    {
+      "name": "source_event_ids_unique",
+      "passed": true,
+      "detail": "183 unique source IDs"
+    },
+    {
+      "name": "source_order_exact",
+      "passed": true,
+      "detail": "output preserves every LOCAL_ADDRESS in source order"
+    },
+    {
+      "name": "source_surface_exact",
+      "passed": true,
+      "detail": "output surface sequence equals source"
+    },
+    {
+      "name": "source_context_exact",
+      "passed": true,
+      "detail": "page/register/locus/order/owner retained"
+    },
+    {
+      "name": "tier_counts",
+      "passed": true,
+      "detail": "observed={'D_OWNER_LEARNED_WHOLE_LABEL': 107, 'A_EXACT_RUNNING_FORMULA': 61, 'B_ATTESTED_RECIPE_NEW_SURFACE': 7, 'C_SHORT_OR_REPEATED_COMPOSITION': 8}"
+    },
+    {
+      "name": "formula_event_count",
+      "passed": true,
+      "detail": "76 formula events"
+    },
+    {
+      "name": "whole_event_count",
+      "passed": true,
+      "detail": "107 learned whole-label events"
+    },
+    {
+      "name": "formula_surface_count",
+      "passed": true,
+      "detail": "55 formula surfaces"
+    },
+    {
+      "name": "whole_surface_count",
+      "passed": true,
+      "detail": "107 learned whole-label surfaces"
+    },
+    {
+      "name": "whole_content_counts",
+      "passed": true,
+      "detail": "observed={'PICTURED_PLANT': 2, 'STAR_BEARING_RING_POSITION': 64, 'BATH_OR_OUTLET_STATION': 6, 'DRUG_OR_INGREDIENT_OBJECT': 35}"
+    },
+    {
+      "name": "whole_labels_are_singletons",
+      "passed": true,
+      "detail": "all 107 retained whole labels occur once in the selected address set"
+    },
+    {
+      "name": "tier_a_exact_running",
+      "passed": true,
+      "detail": "every A row has one invariant running recipe"
+    },
+    {
+      "name": "tier_b_attested_recipe",
+      "passed": true,
+      "detail": "every B recipe occurs in running prose under another surface"
+    },
+    {
+      "name": "tier_c_bounded",
+      "passed": true,
+      "detail": "every C row is a short or repeated non-stop composition"
+    },
+    {
+      "name": "tier_d_is_complement",
+      "passed": true,
+      "detail": "D rows remain owner-bound learned labels"
+    },
+    {
+      "name": "surface_dictionary_keyset",
+      "passed": true,
+      "detail": "surface dictionary covers exactly the 162 event surfaces"
+    },
+    {
+      "name": "surface_dictionary_invariant",
+      "passed": true,
+      "detail": "one tier, recipe/class and short default per surface"
+    },
+    {
+      "name": "owner_totals",
+      "passed": true,
+      "detail": "owner clusters reconcile to event totals"
+    },
+    {
+      "name": "allowed_pages_exact",
+      "passed": true,
+      "detail": "exact six already admitted pages"
+    },
+    {
+      "name": "image_bindings_exact",
+      "passed": true,
+      "detail": "official image object IDs and reviewed hashes match page bindings"
+    },
+    {
+      "name": "defaults_concrete_nonempty",
+      "passed": true,
+      "detail": "183/183 short defaults are nonempty and concrete"
+    },
+    {
+      "name": "calibration_anchor",
+      "passed": true,
+      "detail": "segmenter calibration anchors retained"
+    },
+    {
+      "name": "result_status",
+      "passed": true,
+      "detail": "MIXED_PORTABLE_ADDRESS_FORMULAS_AND_LEARNED_LOCAL_NOMENCLATOR"
+    },
+    {
+      "name": "result_counts",
+      "passed": true,
+      "detail": "result JSON reconciles with release tables"
+    },
+    {
+      "name": "claim_ceiling_zeroes",
+      "passed": true,
+      "detail": "no core revision, new page, surface prediction, or confirmed lexeme"
+    },
+    {
+      "name": "sealed_pages_absent",
+      "passed": true,
+      "detail": "no sealed folio token in release artifacts"
+    },
+    {
+      "name": "artifact_size_gate",
+      "passed": true,
+      "detail": "all release artifacts are below 5 MB"
+    },
+    {
+      "name": "deterministic_rebuild_exit",
+      "passed": true,
+      "detail": "returncode=0"
+    },
+    {
+      "name": "deterministic_rebuild_bytes",
+      "passed": true,
+      "detail": "all five generated artifacts are byte-identical after rebuild"
+    }
+  ]
+}

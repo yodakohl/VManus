@@ -495,6 +495,22 @@ for these thirteen windows. Do not extend the horizon again merely by shrinking
 the eligible sample; return to a genuinely new semantic endpoint rather than
 repeat the complete GDT409–GDT417 core audits.
 
+GDT459 supplies that endpoint by reopening only GDT407's 183 formerly opaque
+`LOCAL_ADDRESS` events on six already admitted pages. Sixty-one use an exact
+surface with one invariant running-text recipe; seven new surfaces reduce to an
+already attested recipe; eight short or repeated new compositions remain
+provisional. The remaining 107 events are 107 singleton learned labels. Their
+visible owners license only a class default: 64 stellar-position names, 35
+drug/ingredient names, six bath/outlet-station names and two pictured-plant
+names. Thus the working system is explicitly mixed: 76 address-formula events
+over 55 surfaces plus a learned nomenclator tail. The unrestricted minimal
+segmenter recovers only 442/761 known running recipes, and even predictions
+whose recipe has another surface recover 185/253, so long opportunistic parses
+are not promoted. No individual name, new core value, page, surface prediction
+or confirmed lexeme follows. The next semantic route is a bounded search for
+internal subfamilies within the 107 learned labels that predict visible owner
+class without reusing the nineteen-core decomposition as its own evidence.
+
 Pass 1032/GDT404 applies the frozen GDT403 intake contract to a one-shot random
 draw of f1r, f24v, f81r and f95v. The 95 guarded lines add 688 events, 88
 statements and 677 focus attachments. Exactly 470 events retain an old surface
