@@ -1,0 +1,162 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Support-provenance consolidation of the fixed GDT479 135-record edition using GDT480-GDT483; no new root, component meaning, syntax, plaintext, language, model, boundary, surface, recipe, event, or page.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt484_complete_microrecord_provenance_edition/src/run.py",
+    "validate": "python3 experiments/yolo/gdt484_complete_microrecord_provenance_edition/src/validate.py"
+  },
+  "created": "2026-08-26",
+  "dependencies": ["GDT479", "GDT480", "GDT481", "GDT482", "GDT483"],
+  "experiment_id": "GDT484",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt479_definitive_local_microrecord_edition/artifacts/gdt479_135_definitive_microrecords.tsv",
+      "role": "fixed complete microrecord edition",
+      "sha256": "3b2637f3569a62443809eb2aaeb1c8bb64b070175518de3734adc26907dae75f"
+    },
+    {
+      "path": "experiments/yolo/gdt479_definitive_local_microrecord_edition/artifacts/gdt479_183_definitive_local_events.tsv",
+      "role": "fixed complete event edition",
+      "sha256": "1827be00bcedf800d4d91344c85d890df7367811413c17adeba0fc4ccf37187a"
+    },
+    {
+      "path": "experiments/yolo/gdt480_microrecord_template_atlas/artifacts/gdt480_135_record_template_assignments.tsv",
+      "role": "whole-record strict and role recurrence",
+      "sha256": "fe475fb1fe789a2a0065c4ca0f25e23e89c633d52af1a1f28ca844a8ee7a1ca0"
+    },
+    {
+      "path": "experiments/yolo/gdt481_microrecord_fragment_grammar/artifacts/gdt481_135_record_fragment_coverage.tsv",
+      "role": "record-level event and pair coverage",
+      "sha256": "808654fc85123ddcbac717fa86a82b27a15acd709fd29dcb8d2eca46a9e22f6c"
+    },
+    {
+      "path": "experiments/yolo/gdt481_microrecord_fragment_grammar/artifacts/gdt481_183_event_fragment_assignments.tsv",
+      "role": "event strict and role recurrence assignments",
+      "sha256": "0a8edc80a05719ffbe8f28e8e986882915c89cc7a9e7724e4c9be325521d0a3e"
+    },
+    {
+      "path": "experiments/yolo/gdt482_residual_event_component_tiles/artifacts/gdt482_183_event_component_sequences.tsv",
+      "role": "complete normalized event component sequences",
+      "sha256": "4a34b8f897d33bd99838bc6697fee3fa504a013aaccdd98a0f79960faf24f2db"
+    },
+    {
+      "path": "experiments/yolo/gdt482_residual_event_component_tiles/artifacts/gdt482_model_conditioned_component_fragment_atlas.tsv",
+      "role": "same-model component donor atlas",
+      "sha256": "72755cb27a65c60e5c38d9a109376e80e95b2cbb827a308258ed2bff08a80214"
+    },
+    {
+      "path": "experiments/yolo/gdt482_residual_event_component_tiles/artifacts/gdt482_model_free_component_fragment_atlas.tsv",
+      "role": "model-free component donor atlas",
+      "sha256": "6cc54f2414f0ab3b4dcb189bc8077446f4b4302b7c9eff1fcf994d7a29756f8d"
+    },
+    {
+      "path": "experiments/yolo/gdt482_residual_event_component_tiles/artifacts/gdt482_45_residual_event_internal_tiles.tsv",
+      "role": "single-event tail component tilings",
+      "sha256": "64f6ebda345f5ac69440090a3f7bd90e63e70868347206b57c7ff4745f1eb4f6"
+    },
+    {
+      "path": "experiments/yolo/gdt483_sodar_exact_running_carrier_closure/artifacts/gdt483_45_residual_closure.tsv",
+      "role": "closed single-event residual ledger",
+      "sha256": "e720e7bda19fdde85489c7aef8557e9f33ae1c364c005d000333dd640947b2ae"
+    },
+    {
+      "path": "experiments/yolo/gdt483_sodar_exact_running_carrier_closure/artifacts/gdt483_result.json",
+      "role": "preferred sodar reading and closure summary",
+      "sha256": "5b55cf29ab44b0a0317fd0e6d6640a3da25c05708372f0a733e305d954f01a5d"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt484_complete_microrecord_provenance_edition/README.md",
+      "role": "entry point",
+      "sha256": "d3af9a2f050643feba5d0e26d7379d2908e2f672a16f097c819b9f1a08e8db3c"
+    },
+    {
+      "path": "experiments/yolo/gdt484_complete_microrecord_provenance_edition/METHOD.md",
+      "role": "support hierarchy and component tiling method",
+      "sha256": "75dea377ed1cb7fe041bcdb7366ac26fa2359fc69055ba0072a36c948c610f7f"
+    },
+    {
+      "path": "experiments/yolo/gdt484_complete_microrecord_provenance_edition/REPORT.md",
+      "role": "primary report",
+      "sha256": "244bc3d05c6cb7cc55a7dd4f5a25180b165ac51fb12c348a7024a3bf0b1ae788"
+    },
+    {
+      "path": "experiments/yolo/gdt484_complete_microrecord_provenance_edition/src/run.py",
+      "role": "deterministic provenance edition builder",
+      "sha256": "911917a5b183eeda6b3e941ea7c714806ed1c0ab5d2b18b8ccd465119ccec8a4"
+    },
+    {
+      "path": "experiments/yolo/gdt484_complete_microrecord_provenance_edition/src/validate.py",
+      "role": "validator and deterministic rebuild check",
+      "sha256": "f0f1daf31fc6ef3a02b90c7d8bf7868036c81ea1dd150dd723ad1c7856f18e8a"
+    },
+    {
+      "path": "experiments/yolo/gdt484_complete_microrecord_provenance_edition/artifacts/README.md",
+      "role": "artifact guide",
+      "sha256": "8d04a09591dfc03169b9544affdccea33996487f22c05604f0d38421b0fd42c8"
+    },
+    {
+      "path": "experiments/yolo/gdt484_complete_microrecord_provenance_edition/artifacts/GDT484_COMPLETE_135_RECORD_PROVENANCE_EDITION.md",
+      "role": "complete readable 135-record edition",
+      "sha256": "edbbeedc7a932b3702b66b16ae8a01f342dcaf603be2c3ba30f98ab60352e591"
+    },
+    {
+      "path": "experiments/yolo/gdt484_complete_microrecord_provenance_edition/artifacts/gdt484_183_event_support_assignments.tsv",
+      "role": "complete event support assignments",
+      "sha256": "6ca9ca5dfaa02fe856f017d801435b4040e1e536b49b449eddd1ad7e50f13d88"
+    },
+    {
+      "path": "experiments/yolo/gdt484_complete_microrecord_provenance_edition/artifacts/gdt484_7_multi_event_tail_component_tiles.tsv",
+      "role": "component tiles for seven omitted tail events",
+      "sha256": "5707842404b48890aee314accdbcb29da329a4296f024ccf772e2fb31a739f17"
+    },
+    {
+      "path": "experiments/yolo/gdt484_complete_microrecord_provenance_edition/artifacts/gdt484_3_multi_event_tail_closure.tsv",
+      "role": "closure of three multi-event tails",
+      "sha256": "555a4cd3bafc5f322906c592d6d586aec3837098cb5c3085168fdcaaa66b06a3"
+    },
+    {
+      "path": "experiments/yolo/gdt484_complete_microrecord_provenance_edition/artifacts/gdt484_135_record_provenance_edition.tsv",
+      "role": "complete machine-readable record edition",
+      "sha256": "513b4434083a8d762b5a99939a8f143779a82954cdf3bd77a2b16b37f3a8119f"
+    },
+    {
+      "path": "experiments/yolo/gdt484_complete_microrecord_provenance_edition/artifacts/gdt484_10_provenance_tier_summary.tsv",
+      "role": "support tier summary",
+      "sha256": "cee0e8046f0324e2c4b562c9b08aae453320cdee89d6f860d0500f42af399795"
+    },
+    {
+      "path": "experiments/yolo/gdt484_complete_microrecord_provenance_edition/artifacts/gdt484_6_page_summary.tsv",
+      "role": "page support profiles",
+      "sha256": "569ffb0626b9b055875f9b4edb3eb2dc6449a23dd85e075ff99668a25e5edc4a"
+    },
+    {
+      "path": "experiments/yolo/gdt484_complete_microrecord_provenance_edition/artifacts/gdt484_result.json",
+      "role": "compact result",
+      "sha256": "4c282ad8d9ed0b263d1f5ec8a6eac2cb67fd85cbca99f80004a6a06943723d56"
+    },
+    {
+      "path": "experiments/yolo/gdt484_complete_microrecord_provenance_edition/artifacts/gdt484_validation.json",
+      "role": "103-check validation report",
+      "sha256": "0e6e550f89d10093f1f9d8dba7f8607b65feedc88844d807c6246f42d1cac89c"
+    }
+  ],
+  "question": "Can all 135 fixed microrecords be printed with one concrete reading and their strongest available whole-record, event, component, running-carrier, or learned-slot support route?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "complete_microrecord_provenance_edition",
+  "status": "ALL_135_MICRORECORDS_HAVE_READINGS_AND_SUPPORT_PROVENANCE__ZERO_FUNCTIONAL_RESIDUE",
+  "title": "Complete microrecord support-provenance edition",
+  "updated": "2026-08-26",
+  "validation": {
+    "artifact": "experiments/yolo/gdt484_complete_microrecord_provenance_edition/artifacts/gdt484_validation.json",
+    "status": "PASS"
+  }
+}

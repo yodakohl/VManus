@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **482**
-- Experiment-associated tracked files: **6,966** (789.5 MiB)
-- Structured GDT337+ experiments: **147**
+- Experiments indexed: **483**
+- Experiment-associated tracked files: **6,982** (789.7 MiB)
+- Structured GDT337+ experiments: **148**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT484 | GDT484_complete_microrecord_provenance_edition | `ALL_135_MICRORECORDS_HAVE_READINGS_AND_SUPPORT_PROVENANCE__ZERO_FUNCTIONAL_RESIDUE` | [report](../experiments/yolo/gdt484_complete_microrecord_provenance_edition/REPORT.md) | 16 | 265.0 KiB | 5 | STRUCTURED_YOLO |
 | GDT483 | GDT483_sodar_exact_running_carrier_closure | `SODAR_HAS_TWO_EXACT_RUNNING_CARRIERS__FINAL_FUNCTIONAL_RESIDUAL_CLOSED` | [report](../experiments/yolo/gdt483_sodar_exact_running_carrier_closure/REPORT.md) | 16 | 102.4 KiB | 5 | STRUCTURED_YOLO |
 | GDT482 | GDT482_residual_event_component_tiles | `FORTY_TWO_OF_45_TILE_FROM_RECURRENT_COMPONENTS__TWO_LEARNED_SLOTS__ONE_FUNCTIONAL_OUTLIER` | [report](../experiments/yolo/gdt482_residual_event_component_tiles/REPORT.md) | 16 | 341.9 KiB | 2 | STRUCTURED_YOLO |
 | GDT481 | GDT481_microrecord_fragment_grammar | `EVENT_FRAGMENTS_REACH_59_OF_107_SINGLETON_RECORDS__ADJACENT_PAIRS_REMAIN_SPARSE` | [report](../experiments/yolo/gdt481_microrecord_fragment_grammar/REPORT.md) | 18 | 377.3 KiB | 2 | STRUCTURED_YOLO |

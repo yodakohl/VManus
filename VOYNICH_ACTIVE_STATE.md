@@ -11646,3 +11646,31 @@ and zero unexplained functional residue remains. No root, atom value, model,
 surface, recipe, event or page changes; validation passes 92/92. Next compile
 all 135 records into one provenance-graded readable edition showing their
 strongest record, event, component, running-carrier or learned-slot support.
+
+## GDT484 complete microrecord support-provenance edition
+
+GDT484 returns GDT480–GDT483's separate recurrence layers to the fixed GDT479
+source order. Every one of 135 microrecords now prints its concrete current
+reading beside one mutually exclusive strongest-support tier. Twenty-eight
+records recur as strict whole meanings and 23 more as whole role shapes.
+Another four have only strict-recurrent events, nineteen have at least one
+strict-recurrent event, six have all events role-recurrent and seven have at
+least one role-recurrent event. Thus 51 records have whole-record support and
+36 more have event-fragment support.
+
+The remaining 48 are now completely accounted for. Forty-two use components
+recurrent in the same active model, three use marked model-free component
+backoff, `G475-R125/sodar` has its two exact GDT483 running carriers, and
+`G475-R101/cheosdy` plus `G475-R119/saloiinsheol` retain only learned lexical
+slots. The three multi-event tails excluded from GDT482 are explicitly tiled:
+`ochey|fydy` has 7/7, `aral|oletal` 5/5 and
+`okchshy|qkol|oldam` 8/8 components with other donors in the same model.
+Together their seven events close 20/20 components, ten inside recurrent
+multi-component fragments and ten as recurrent atoms.
+
+All 135 records and all 183 events retain defaults and support provenance;
+zero functional residue remains. Only `G475-R125` displays GDT483's already
+published smoother `sodar` paraphrase. No atom, model, boundary, surface,
+recipe, event or page changes; validation passes 103/103. Next add a fluent,
+reversible German paraphrase layer to all 135 records while retaining their
+literal component traces and GDT484 support tiers.

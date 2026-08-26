@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT483.
+Updated: 2026-08-26, after GDT484.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -65,7 +65,7 @@ CONTROL into `T=EINSTELLEN` and `R=MARKIEREN` creates a five-class gate with
 amber; `R>T` and `R<-EE` remain red-local. The internal meanings of the broad
 classes are not collapsed.
 
-GDT459–GDT483 now resolve the formerly opaque local-address tail as the mixed
+GDT459–GDT484 now resolve the formerly opaque local-address tail as the mixed
 codebook architecture anticipated by the sidequest: portable function cards
 surround memorized owner-bound name cores. Of 107 learned address labels,
 eighteen are now complete function formulas, 87 are function-shell/name-core
@@ -203,6 +203,13 @@ reading is now “Wähle den Eintrag und markiere ihn – als Ausführung auf de
 zweiten Stufe.” The 45-event tail is closed as 42 locally recurrent structures,
 one exact running carrier and two learned lexical slots; no functional unknown
 remains.
+GDT484 makes that closure usable as one complete reader. All 135 records keep
+their current text and receive a strongest support tier: 51 whole-record, 36
+event-fragment, 45 component, one exact-running-carrier and two learned-slot
+records. The three multi-event tails omitted from GDT482 contain seven events
+and 20/20 same-model recurrent components. Thus every record has a concrete
+default and an explicit internal support route; only the already published
+`sodar` phrase is smoothed, and no functional residue remains.
 
 GDT428 now supplies the missing semantic contrast deck. Six within-class
 comparisons contain 104 exact frames where only the action root changes. The
@@ -992,6 +999,9 @@ comparison set.
 
 ## Primary artifacts
 
+- Current GDT484 complete 135-record/183-event support-provenance edition, ten
+  tier deck and 20/20 closure of the three multi-event tails:
+  `gdt484_complete_microrecord_provenance_edition/`;
 - Current GDT483 guarded 26-page `sodar` closure, three exact carriers, all 35
   DA contexts, ten DA+R contexts and the zero-functional-residue ledger:
   `gdt483_sodar_exact_running_carrier_closure/`;
@@ -1206,9 +1216,9 @@ comparison set.
 
 ## Next work
 
-Keep the current 26 pages closed. Compile the 135 fixed GDT479 microrecords into
-one readable provenance edition. For every record, retain its concrete text and
-show the strongest available support tier: recurrent whole-record template,
-recurrent strict/role event, recurrent internal component tile, exact running
-surface+recipe carrier, or typed learned lexical slot. This is consolidation,
-not another reinterpretation: add no root, model, page, or dictionary value.
+Keep the current 26 pages closed. Add a fluent German paraphrase to every one
+of the 135 GDT484 records, removing mechanical repetition and “beziehe” where a
+clearer owner-local sentence is available. Every paraphrase must retain its
+literal component sequence, OT/OL order phrase, learned names and GDT484 support
+tier beside it, so the reader can reverse it without changing a root, model,
+boundary, page, or dictionary value.
