@@ -11264,3 +11264,19 @@ arms. The deck now contains 18 full formulas, 87 function/name hybrids, one
 family-only label and one whole label (`oiil`), with 440/713 characters assigned
 to existing functions. These remain working structural meanings, not confirmed
 lexemes, object names or plaintext.
+
+## GDT465 `oiil` cross-reading and renderer closure
+
+The sole remaining whole label stays `[PFLANZENNAME:oiil]`. At f17r.13, ZL3b
+and RF1b agree exactly on `oteeeon oiil`; IT2a is absent, so there are two
+available readings but no third vote or internal boundary. Exact-package
+replay finds 16 `O+IIN` carrier types/28 events/13 pages, but zero `IIN+L` and
+zero `O+IIN+L`; exact `oii`, `iil` and `oiil` cards are absent. The sole running
+surface containing `iil` carries `AIIN+L` inside a longer singleton and does
+not license the split. The admitted image has one pictured flowering-plant
+owner with no visible inner label mapping. The final deck remains 18 full
+formulas, 87 function/name hybrids, one family-only and one whole label, with
+440/713 function characters. Validation passes 66/66. Close post-hoc
+nomenclator decomposition; next compile this frozen mixed dictionary into an
+executable future-address intake gate without opening a new page or assigning a
+new core meaning.

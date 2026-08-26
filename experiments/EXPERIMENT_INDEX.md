@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **463**
-- Experiment-associated tracked files: **6,671** (779.8 MiB)
-- Structured GDT337+ experiments: **128**
+- Experiments indexed: **464**
+- Experiment-associated tracked files: **6,685** (779.9 MiB)
+- Structured GDT337+ experiments: **129**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT465 | GDT465_oiil_cross_reading_renderer_closure | `OIIL_REMAINS_SINGLE_WHOLE_LABEL__NOMENCLATOR_TAIL_CLOSED` | [report](../experiments/yolo/gdt465_oiil_cross_reading_renderer_closure/REPORT.md) | 14 | 105.6 KiB | 3 | STRUCTURED_YOLO |
 | GDT464 | GDT464_residual_exact_package_bridge | `FOUR_BOUNDED_BRIDGES_REDUCE_WHOLE_LABEL_TAIL_TO_ONE` | [report](../experiments/yolo/gdt464_residual_exact_package_bridge/REPORT.md) | 16 | 131.9 KiB | 5 | STRUCTURED_YOLO |
 | GDT463 | GDT463_low_support_exact_card_edge_bridges | `FOUR_LOW_SUPPORT_EXACT_CARD_BRIDGES_REDUCE_WHOLE_LABEL_TAIL_TO_SEVEN` | [report](../experiments/yolo/gdt463_low_support_exact_card_edge_bridges/REPORT.md) | 15 | 99.9 KiB | 4 | STRUCTURED_YOLO |
 | GDT462 | GDT462_near_threshold_ar_edge_exception_audit | `NEAR_THRESHOLD_AR_PREFIX_PROMOTED_BY_EXACT_REPEATED_RELATION_PACKAGE` | [report](../experiments/yolo/gdt462_near_threshold_ar_edge_exception_audit/REPORT.md) | 15 | 93.8 KiB | 3 | STRUCTURED_YOLO |

@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT464.
+Updated: 2026-08-26, after GDT465.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -65,7 +65,7 @@ CONTROL into `T=EINSTELLEN` and `R=MARKIEREN` creates a five-class gate with
 amber; `R>T` and `R<-EE` remain red-local. The internal meanings of the broad
 classes are not collapsed.
 
-GDT459–GDT464 now resolve the formerly opaque local-address tail as the mixed
+GDT459–GDT465 now resolve the formerly opaque local-address tail as the mixed
 codebook architecture anticipated by the sidequest: portable function cards
 surround memorized owner-bound name cores. Of 107 learned address labels,
 eighteen are now complete function formulas, 87 are function-shell/name-core
@@ -75,6 +75,10 @@ remains a wholly learned label. The decisive late repair is `of=O+LOCAL_CHAR_F`
 technical card across celestial and pharmaceutical owners, not a star name.
 The other final bridges are `ainy=AIN+Y`, terminal `eey=EE+Y`, and
 `yddy=Y+D_ADDR+Y`. These are working component values, not plaintext words.
+GDT465 audits rather than forces the last form: two available readings agree on
+`oiil`, but `IIN+L` and `O+IIN+L` have zero running carriers and the middle has
+no exact card. The pictured plant licenses a local name class, not an internal
+split. One memorized whole label is therefore part of the model, not a defect.
 
 GDT428 now supplies the missing semantic contrast deck. Six within-class
 comparisons contain 104 exact frames where only the action root changes. The
@@ -1072,9 +1076,9 @@ comparison set.
 
 ## Next work
 
-Keep the current 26 pages closed. Audit only the sole remaining whole label
-`oiil` against its ZL3b/IT2a/RF1b manual readings and the already known exact
-IIN/L renderer families. A split is allowed only if an alternate reading or a
-complete old package independently licenses it; visual resemblance to
-`O+IIN+L` is not enough. Do not reopen any other label, page, core meaning, or
-long-horizon fault route.
+Keep the current 26 pages closed. Compile the frozen 107-label mixed dictionary
+into an executable intake order for a future address: exact known label first,
+then already calibrated function shells, then a strict owner-family marker,
+otherwise the whole surface as a learned owner-class name. Replay that order on
+the current deck and make every fallback explicit. Do not reopen a completed
+label, infer a new core meaning, or use a new page.

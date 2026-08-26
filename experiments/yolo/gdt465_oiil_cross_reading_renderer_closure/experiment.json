@@ -1,0 +1,48 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "One bounded audit of the sole GDT464 whole label; no new component meaning, object identity, plaintext, generated surface, language, or confirmed lexeme.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt465_oiil_cross_reading_renderer_closure/src/run.py",
+    "validate": "python3 experiments/yolo/gdt465_oiil_cross_reading_renderer_closure/src/validate.py"
+  },
+  "created": "2026-08-26",
+  "dependencies": ["GDT407", "GDT459", "GDT464"],
+  "experiment_id": "GDT465",
+  "inputs": [
+    {"path": "experiments/yolo/gdt407_unified_twenty_six_page_workshop_edition/artifacts/gdt407_4576_running_event_edition.tsv", "role": "running exact-card and ordered-package inventory", "sha256": "b4a8b8c3fe8c5cc3ac2cd33979b71ce4721199bef124e866df2456d2dfbb87f4"},
+    {"path": "transcription/voynich_cross_transcription_lines.tsv", "role": "mixed manual-reading source accessed only through guarded f17r query", "sha256": "ff3a4559004a29764c60102326de154b29fbba06a2a206bdd76d7feda432e16c"},
+    {"path": "experiments/yolo/gdt464_residual_exact_package_bridge/artifacts/gdt464_107_revised_hybrid_dictionary.tsv", "role": "frozen source dictionary, target identity, and admitted image provenance", "sha256": "7a24464be56f3fa73124f2d6eab0c320c8502f2c5c32df499d02195acbcf6e58"}
+  ],
+  "outputs": [
+    {"path": "experiments/yolo/gdt465_oiil_cross_reading_renderer_closure/README.md", "role": "entry point", "sha256": "7e0183c795a516e52f0936613b0d36443de87c5ca4bce2e44314f154af3df62b"},
+    {"path": "experiments/yolo/gdt465_oiil_cross_reading_renderer_closure/METHOD.md", "role": "bounded audit method", "sha256": "49b9d3581c810b27da7a11895b66742ae96cd4f7eb537f67dd20bad74574321a"},
+    {"path": "experiments/yolo/gdt465_oiil_cross_reading_renderer_closure/REPORT.md", "role": "primary report", "sha256": "13bc091afa2569a53e0436f603c82d803c0b06828ce0f7afb75ad88339e35f0a"},
+    {"path": "experiments/yolo/gdt465_oiil_cross_reading_renderer_closure/src/run.py", "role": "deterministic builder", "sha256": "cd8896b69d979ca20b91c30cefb300ee70d5609c8e5bd96cf0e356289d9cc260"},
+    {"path": "experiments/yolo/gdt465_oiil_cross_reading_renderer_closure/src/validate.py", "role": "validator, guarded requery, and deterministic rebuild check", "sha256": "4ce8a69fd3e39ee4658f38cf77368b2cef6701f4f7734d37fe31d20d61afc571"},
+    {"path": "experiments/yolo/gdt465_oiil_cross_reading_renderer_closure/artifacts/README.md", "role": "artifact guide", "sha256": "1e8ba6ab90111214062d08aa2c0d33082363707e39783b3439eeabafe843fc99"},
+    {"path": "experiments/yolo/gdt465_oiil_cross_reading_renderer_closure/artifacts/gdt465_cross_reading_target.tsv", "role": "guarded target and manual-reading audit", "sha256": "95ea85388118baf6964f1ff74fc48e213d79cb902c7cd0508308fced7db1542b"},
+    {"path": "experiments/yolo/gdt465_oiil_cross_reading_renderer_closure/artifacts/gdt465_6_component_sequence_tests.tsv", "role": "ordered-package carrier tests", "sha256": "189b72a448c5af53ad45c6eca8928e0a484bc20aecd686847f50a1655a01a1fe"},
+    {"path": "experiments/yolo/gdt465_oiil_cross_reading_renderer_closure/artifacts/gdt465_13_renderer_neighbours.tsv", "role": "visible oii and iil running neighbours", "sha256": "b358b7970979671209ed4dde920042b92940033638ce1338e107f000a0e9048b"},
+    {"path": "experiments/yolo/gdt465_oiil_cross_reading_renderer_closure/artifacts/gdt465_oiil_segmentation_decision.tsv", "role": "explicit target decision", "sha256": "e9330a18abecd9a0c4bd37fa6c3c398d88335fd6f1b9eeda230c0e0c23161167"},
+    {"path": "experiments/yolo/gdt465_oiil_cross_reading_renderer_closure/artifacts/gdt465_107_final_hybrid_dictionary.tsv", "role": "complete closed hybrid dictionary", "sha256": "e4bbedb2a1c67c2f8033c88a061e303afe4e887933ef2a6417ddb13ef0a8d93a"},
+    {"path": "experiments/yolo/gdt465_oiil_cross_reading_renderer_closure/artifacts/gdt465_result.json", "role": "compact result", "sha256": "d106fc61849c6fb9c6d6c9d4ee14b6299ca8716bca6924adb4e06aa7de932529"},
+    {"path": "experiments/yolo/gdt465_oiil_cross_reading_renderer_closure/artifacts/gdt465_validation.json", "role": "66-check validation report", "sha256": "ea792af09340c1767d0126184befaa95e8a24c36c659fb314e22e02e239c44ff"}
+  ],
+  "question": "Can the sole GDT464 whole label oiil be reduced through the available manual readings and exact IIN/L package families without inferring O+IIN+L from resemblance alone?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "oiil_cross_reading_renderer_closure",
+  "status": "OIIL_REMAINS_SINGLE_WHOLE_LABEL__NOMENCLATOR_TAIL_CLOSED",
+  "title": "oiil cross-reading and renderer closure",
+  "updated": "2026-08-26",
+  "validation": {
+    "artifact": "experiments/yolo/gdt465_oiil_cross_reading_renderer_closure/artifacts/gdt465_validation.json",
+    "status": "PASS"
+  }
+}
