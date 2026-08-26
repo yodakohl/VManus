@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT475.
+Updated: 2026-08-26, after GDT476.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -65,7 +65,7 @@ CONTROL into `T=EINSTELLEN` and `R=MARKIEREN` creates a five-class gate with
 amber; `R>T` and `R<-EE` remain red-local. The internal meanings of the broad
 classes are not collapsed.
 
-GDT459–GDT475 now resolve the formerly opaque local-address tail as the mixed
+GDT459–GDT476 now resolve the formerly opaque local-address tail as the mixed
 codebook architecture anticipated by the sidequest: portable function cards
 surround memorized owner-bound name cores. Of 107 learned address labels,
 eighteen are now complete function formulas, 87 are function-shell/name-core
@@ -131,6 +131,15 @@ OL instead has eleven bundle-leading, one later-card-leading and sixteen
 card-internal occurrences. Leading OL attaches eleven bundles to their
 predecessors, producing 135 microrecords and eight explicit cross-locus
 continuation chains. OT is the next-sibling opener; OL keeps the active unit.
+GDT476 uses those eight chains to improve the old grammatical defaults. Twelve
+of GDT474's 64 ties occur inside a multi-locus record; six selections change.
+`olkalaiin`, `ykolairol`, `qkol` and `oldam` become carried instruction
+constituents because the preceding action head supplies the one verb that their
+isolated instruction reading had lacked. `opoeey / okaiin` becomes the visible
+action head itself, and `oletal` continues a coordinate trace. All 52
+single-locus ties retain their local defaults, and all alternatives remain
+printed. OL is a record relation rather than a mandatory surface prefix:
+learned name material precedes it in `ykolairol`, `qkol` and `doly`.
 
 GDT428 now supplies the missing semantic contrast deck. Six within-class
 comparisons contain 104 exact frames where only the action root changes. The
@@ -1128,8 +1137,9 @@ comparison set.
 
 ## Next work
 
-Keep the current 26 pages closed. Revisit only the 64 GDT474 model ties using
-the GDT475 boundary roles: a leading OL may inherit the previous record's
-headword or action, a leading OT must open a fresh sibling, and an internal OL
-cannot choose the page boundary. Retain unresolved ties and every root, name,
-surface, selected exact package and three-way source reading.
+Keep the current 26 pages closed. Inspect all 28 OL occurrences in literal
+function/name order and compare pre-name, post-name and name-free placements.
+Ask whether these positions separate continued action, address and catalogue
+jobs strongly enough to refine the working German phrase—not whether OL is one
+universal prefix. Retain all roots, names, surfaces, exact packages and the
+complete GDT476 defaults.

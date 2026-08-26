@@ -1,0 +1,112 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Creative record-context selection among existing GDT474 readings; no plaintext, confirmed syntax, lexeme, object identity, new stem meaning, learned name, surface, recipe, event, or page.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt476_boundary_context_tie_resolution/src/run.py",
+    "validate": "python3 experiments/yolo/gdt476_boundary_context_tie_resolution/src/validate.py"
+  },
+  "created": "2026-08-26",
+  "dependencies": ["GDT474", "GDT475"],
+  "experiment_id": "GDT476",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt474_locus_bundle_meaning_triptych/artifacts/gdt474_146_locus_bundle_meaning_triptych.tsv",
+      "role": "complete local bundle triptych and 64 tied readings",
+      "sha256": "267950d50bff412be1ecc9be8f17b7438a2b1dca144186d749e06f034c99eb15"
+    },
+    {
+      "path": "experiments/yolo/gdt475_ot_ol_page_microrecord_itineraries/artifacts/gdt475_146_bundle_boundary_roles.tsv",
+      "role": "complete boundary and record assignments",
+      "sha256": "462ef1b26402881b4924391c30602d517cc80bd3e8314c667d273f27673ce9dc"
+    },
+    {
+      "path": "experiments/yolo/gdt475_ot_ol_page_microrecord_itineraries/artifacts/gdt475_135_page_microrecords.tsv",
+      "role": "complete page microrecord membership",
+      "sha256": "32f4a403ea40ec6527fe38bd14d43df2dbaafe8262c2e71d73fb014738fe08e2"
+    },
+    {
+      "path": "experiments/yolo/gdt475_ot_ol_page_microrecord_itineraries/artifacts/gdt475_8_cross_locus_continuation_chains.tsv",
+      "role": "all multi-locus continuation chains",
+      "sha256": "b0ff0dddf2f7499558b39e02c1a9aaae52ec2dd5d13c85d80a1917641dc55b8a"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt476_boundary_context_tie_resolution/README.md",
+      "role": "entry point",
+      "sha256": "99d0232c1d76ea833d1df0e4ea3fb62bcf56100f709649c3688986202bedc352"
+    },
+    {
+      "path": "experiments/yolo/gdt476_boundary_context_tie_resolution/METHOD.md",
+      "role": "record-context selection method",
+      "sha256": "c0698a69b9e499ed4c54d78b275039f1ffc7f400028496f992fa248e2a39985a"
+    },
+    {
+      "path": "experiments/yolo/gdt476_boundary_context_tie_resolution/REPORT.md",
+      "role": "primary report",
+      "sha256": "d56612a7bf117bc85b62e904e5a6ebbbdbded13cc361d11c541a8bf8fb5974ee"
+    },
+    {
+      "path": "experiments/yolo/gdt476_boundary_context_tie_resolution/src/run.py",
+      "role": "deterministic contextual edition builder",
+      "sha256": "9c4d999792e9dd75f9be3e3537e85215f50450d131302beceb1844d438f8232d"
+    },
+    {
+      "path": "experiments/yolo/gdt476_boundary_context_tie_resolution/src/validate.py",
+      "role": "validator and deterministic rebuild check",
+      "sha256": "2ac2693ecdf000469dca33c28042c8f585a76d94f481228b2494607af3c18616"
+    },
+    {
+      "path": "experiments/yolo/gdt476_boundary_context_tie_resolution/artifacts/README.md",
+      "role": "artifact guide",
+      "sha256": "0e0c8334c275390885e79909e2cd90b8954ea4d14678cfd2543ab7a5684e2261"
+    },
+    {
+      "path": "experiments/yolo/gdt476_boundary_context_tie_resolution/artifacts/GDT476_CONTEXTUAL_TIE_WORKING_EDITION.md",
+      "role": "complete readable contextual tie edition",
+      "sha256": "00647bfcac1fc48c072ca6d7549b75a8891927ad2a07e21101595396ee32dba8"
+    },
+    {
+      "path": "experiments/yolo/gdt476_boundary_context_tie_resolution/artifacts/gdt476_64_tie_context_decisions.tsv",
+      "role": "complete tie decision ledger",
+      "sha256": "a40109a0ad37a751bde6f1bad2e6a2e9203240c7f1dfab089ef7fd4957edfe53"
+    },
+    {
+      "path": "experiments/yolo/gdt476_boundary_context_tie_resolution/artifacts/gdt476_8_contextual_record_readings.tsv",
+      "role": "all integrated multi-locus readings",
+      "sha256": "6a92b968ac57b4eba8de9dc6155e7299f47174fbf4ed5c494fb21f79ddc2406b"
+    },
+    {
+      "path": "experiments/yolo/gdt476_boundary_context_tie_resolution/artifacts/gdt476_6_page_tie_summary.tsv",
+      "role": "page tie summary",
+      "sha256": "e1df87d8f4973f877813457f2ddd8df0fe7c7c5f3974b184342c3c075f79b1c5"
+    },
+    {
+      "path": "experiments/yolo/gdt476_boundary_context_tie_resolution/artifacts/gdt476_result.json",
+      "role": "compact result",
+      "sha256": "a154a727ab03ea4cee0a571c909b125dfbbbae54234b5d14900c44a61950b44f"
+    },
+    {
+      "path": "experiments/yolo/gdt476_boundary_context_tie_resolution/artifacts/gdt476_validation.json",
+      "role": "65-check validation report",
+      "sha256": "ca91d818568dd05a8aee725e3a72cc034619597c8d9bdb2d6b4fdf723c51752d"
+    }
+  ],
+  "question": "How many of GDT474's 64 locally tied coordinate/instruction/catalogue bundles gain a better concrete default when GDT475's eight multi-locus records are read as whole units?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "boundary_context_tie_resolution",
+  "status": "TWELVE_TIES_GAIN_RECORD_CONTEXT__SIX_WORKING_MODELS_CHANGE",
+  "title": "Boundary-context tie resolution",
+  "updated": "2026-08-26",
+  "validation": {
+    "artifact": "experiments/yolo/gdt476_boundary_context_tie_resolution/artifacts/gdt476_validation.json",
+    "status": "PASS"
+  }
+}

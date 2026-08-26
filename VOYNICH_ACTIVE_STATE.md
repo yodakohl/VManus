@@ -11450,3 +11450,24 @@ opens the next equal-rank event/record; OL continues the active card or record.
 No component meaning, name, selected model, recipe, spelling, event, page,
 object identity, plaintext, language or confirmed syntax changes. Next use
 these boundary cues only to revisit the 64 GDT474 grammatical ties.
+
+## GDT476 boundary-context tie resolution
+
+GDT476 joins all 64 GDT474 model ties to the fixed GDT475 record map. Twelve
+ties occur inside the eight multi-locus records; the other 52 retain their
+complete local defaults. Six working selections change: `olkalaiin`,
+`opoeey / okaiin`, `ykolairol`, `oletal`, `qkol`, and `oldam`. The first,
+third, fifth and sixth take an instruction reading that had cost one implicit
+verb in isolation; the visible record action plus OL continuation supplies
+exactly that verb. `oletal` instead inherits the unique preceding coordinate.
+The tied-deck distribution changes from 60 catalogue/2 instruction/2
+coordinate to 54/7/3. All 64 still have a nonempty default and retain their
+other local readings. Validation passes 65/65.
+
+The pass also makes the needed placement distinction explicit. GDT475's OL
+boundary role is functional, not necessarily surface-initial: learned name
+material precedes OL in `ykolairol`, `qkol`, and `doly`. No root, learned name,
+surface, recipe, event, owner, page, object identity, plaintext, language or
+confirmed syntax changes. Next inspect all 28 OL occurrences in literal
+function/name order and compare pre-name, post-name and name-free continuation
+jobs without opening another page.
