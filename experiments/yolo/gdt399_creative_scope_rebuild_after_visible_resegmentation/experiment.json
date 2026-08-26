@@ -1,0 +1,137 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Creative sidequest consistency only; no confirmed word, morpheme, language, plaintext, translation, or historical code.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt399_creative_scope_rebuild_after_visible_resegmentation/src/run.py",
+    "validate": "python3 experiments/yolo/gdt399_creative_scope_rebuild_after_visible_resegmentation/src/validate.py"
+  },
+  "created": "2026-08-26",
+  "dependencies": [],
+  "experiment_id": "GDT399",
+  "inputs": [
+    {
+      "path": "experiments/yolo/sidequest_semantic_twenty_two_page_statement_consolidation_one_thousand_ninth/PASS1009_4581_EVENT_LEDGER.tsv",
+      "role": "fixed twenty-two-page physical event inventory",
+      "sha256": "7b4e512968be9b74428ea0435e6917c7db67af204ea2fed169a1aabdc7583e71"
+    },
+    {
+      "path": "experiments/yolo/sidequest_semantic_cross_register_core_revision_one_thousand_eighteenth/PASS1018_627_REVISED_CORE_EDITION.tsv",
+      "role": "fixed statement boundaries and visible owners",
+      "sha256": "ca58e4669f4bdf406ee64899bcbdc6a46e131debc6f34692999d6dd678f6f35e"
+    },
+    {
+      "path": "experiments/yolo/sidequest_semantic_apprentice_sheet_roundtrip_one_thousand_twentieth/PASS1020_31_CATEGORY_LEXICON.tsv",
+      "role": "fixed atom categories and working values",
+      "sha256": "49e3b0142c9020e9fe4df1e85de77ce53a022c97087f9eca36528b88c8ce20f2"
+    },
+    {
+      "path": "experiments/yolo/sidequest_semantic_leave_one_register_replay_one_thousand_twenty_fifth/PASS1025_3888_REGISTER_EVENT_REPLAY.tsv",
+      "role": "superseded event baseline used only for statement deltas",
+      "sha256": "2185bcd1f106f6e92de02063035104d9f6dce4efe38018c3ee20da556d88a8bf"
+    },
+    {
+      "path": "experiments/yolo/sidequest_semantic_leave_one_register_replay_one_thousand_twenty_fifth/PASS1025_4342_CORRECTED_ATTACHMENTS.tsv",
+      "role": "superseded focus baseline used only for deltas",
+      "sha256": "42cd94d5e82d3263072dbef145944064588383deddd2e400ded447d9dcc5bc0d"
+    },
+    {
+      "path": "experiments/yolo/sidequest_semantic_visible_allograph_resegmentation_one_thousand_twenty_sixth/PASS1026_3888_CORRECTED_EVENT_LEDGER.tsv",
+      "role": "authoritative visible recipe sequence",
+      "sha256": "7e7f404754d70ba70427f2050e6b254c081ed09555fe992effd097b027b7fd63"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt399_creative_scope_rebuild_after_visible_resegmentation/README.md",
+      "role": "experiment entry point",
+      "sha256": "92abb015717bdcbef2a4562f08cae6d9a6b9e7c761261d3726809ec37bd4c6c6"
+    },
+    {
+      "path": "experiments/yolo/gdt399_creative_scope_rebuild_after_visible_resegmentation/METHOD.md",
+      "role": "fixed creative compiler rules",
+      "sha256": "964609bf1d15d956d270534343a573b96a37836f8bd97ab24ae5ee4d898658b3"
+    },
+    {
+      "path": "experiments/yolo/gdt399_creative_scope_rebuild_after_visible_resegmentation/REPORT.md",
+      "role": "primary compact report",
+      "sha256": "7b18322a534081aecc74b7ddc019871e2ca8fa1060cadd822b0066f040d2109f"
+    },
+    {
+      "path": "experiments/yolo/gdt399_creative_scope_rebuild_after_visible_resegmentation/artifacts/README.md",
+      "role": "artifact guide",
+      "sha256": "b9174449572369494b2412f0fd5ca39cd8995efe08b1fe1bf0b07fe935148e04"
+    },
+    {
+      "path": "experiments/yolo/gdt399_creative_scope_rebuild_after_visible_resegmentation/src/run.py",
+      "role": "deterministic scope compiler",
+      "sha256": "8029924ff4578ef9aacf794837d3a270dfb48825cba37a6ecc4d3269f68fdae3"
+    },
+    {
+      "path": "experiments/yolo/gdt399_creative_scope_rebuild_after_visible_resegmentation/src/validate.py",
+      "role": "independent inventory and geometry validator",
+      "sha256": "e171e7f02af528fe2e999f9e9efaf8ed4d4cace6096156f8ada973f35bfc37dd"
+    },
+    {
+      "path": "experiments/yolo/gdt399_creative_scope_rebuild_after_visible_resegmentation/artifacts/gdt399_4374_scope_attachments.tsv",
+      "role": "complete rebuilt focus inventory",
+      "sha256": "ec4de6ce786ef6bc287dcf469025afaadbddbf0c5d039c0389234077772981a6"
+    },
+    {
+      "path": "experiments/yolo/gdt399_creative_scope_rebuild_after_visible_resegmentation/artifacts/gdt399_627_statement_scope_edition.tsv",
+      "role": "complete rebuilt statement edition",
+      "sha256": "ac912ff711f1693df4f86b10929f931b258a2bbed379be01a6b4eb073e1705e7"
+    },
+    {
+      "path": "experiments/yolo/gdt399_creative_scope_rebuild_after_visible_resegmentation/artifacts/gdt399_3888_event_replay.tsv",
+      "role": "event page and register replay",
+      "sha256": "a821119af3bad90744370aae617e6fb9c6cf41340d862bcd3002baa130293310"
+    },
+    {
+      "path": "experiments/yolo/gdt399_creative_scope_rebuild_after_visible_resegmentation/artifacts/gdt399_22_page_replay.tsv",
+      "role": "complete page holdout table",
+      "sha256": "3e0097f382753f1b67e851a49f417d6a82ddec69e88976fac11206b847536a8d"
+    },
+    {
+      "path": "experiments/yolo/gdt399_creative_scope_rebuild_after_visible_resegmentation/artifacts/gdt399_four_register_replay.tsv",
+      "role": "complete register holdout table",
+      "sha256": "7834a4ec9ba961899753506a2915727bcc9ca94c8da1e8b743fb95cb50691df9"
+    },
+    {
+      "path": "experiments/yolo/gdt399_creative_scope_rebuild_after_visible_resegmentation/artifacts/gdt399_rule_support.tsv",
+      "role": "nine-rule cross-page and cross-register support",
+      "sha256": "2ee16f90378dd864412a3f19c6517c388de54ba47780196419f004df4ad3994d"
+    },
+    {
+      "path": "experiments/yolo/gdt399_creative_scope_rebuild_after_visible_resegmentation/artifacts/gdt399_96_statement_change_audit.tsv",
+      "role": "all affected statement deltas",
+      "sha256": "79737883c1dd914d624228c271287e8cfa477d88a57aac705181a47954cfcbb7"
+    },
+    {
+      "path": "experiments/yolo/gdt399_creative_scope_rebuild_after_visible_resegmentation/artifacts/gdt399_result.json",
+      "role": "compact result and hashes",
+      "sha256": "49daced2e4d3d5584a8224a64011b71e094cfb8bc9a8992caf796a828765140e"
+    },
+    {
+      "path": "experiments/yolo/gdt399_creative_scope_rebuild_after_visible_resegmentation/artifacts/gdt399_validation.json",
+      "role": "35-check independent validation",
+      "sha256": "19c02c2ddc8067a25c9dc5fc8d426cdb0cd98ea272e692b0e8ecfdd92d3d86e1"
+    }
+  ],
+  "question": "Can all 627 creative workshop statements be rebuilt from the Pass-1026 visible recipes without changing a core value, looking ahead more than one card, crossing an owner boundary, or adding a coarse scope family?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "creative_scope_rebuild_after_visible_resegmentation",
+  "status": "COMPLETE_CREATIVE_SCOPE_REBUILD",
+  "title": "creative scope rebuild after visible resegmentation",
+  "updated": "2026-08-26",
+  "validation": {
+    "artifact": "experiments/yolo/gdt399_creative_scope_rebuild_after_visible_resegmentation/artifacts/gdt399_validation.json",
+    "status": "PASS"
+  }
+}

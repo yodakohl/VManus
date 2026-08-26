@@ -1,14 +1,14 @@
 # Voynich current route
 Updated: 2026-08-26. Use `experiments/EXPERIMENT_INDEX.tsv` for primary reports; consult the active state and ledger only for claim-detail audits or historical reconstruction.
 Noncanonical twenty-two-page sidequest: `experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_CURRENT.md`.
-Its creative Pass-1026 release binds 4,581 groups (3,888 running, 693 local) in one physically ordered 627-statement edition.
+Its creative Pass-1027/GDT399 release binds 4,581 groups (3,888 running, 693 local) in one physically ordered 627-statement edition with 4,374 rebuilt focus attachments.
 The semantic pocket dictionary has 46 signs: 12 content/action cores, 7
 relation cores, 8 formal controls and 19 local signs; the latter reduce to
 HIER, VARIANTE, KLASSE and VORBEZUG. Of 3,888 running events, 3,343 use the
 portable core, 490 require a local sign and 55 are control-only. A new
 composition must keep the fixed core sum; conflicts cannot be rescued by
 redefining roots.
-Pass 1026 audits every one of the 271 events that Pass 1008 had flattened onto a one-edit neighbour. Only 23 events/21 surfaces retain the same recipe under a named package rule; 239 events/203 surfaces require a visibly different recipe, while `cheo` and `okeor` were already repaired in Pass 1025. The corrected 3,888-event ledger remains one-surface/one-recipe and changes 96 of 627 statements without renaming a core. The Pass-1025 count of 4,342 scope attachments is therefore superseded pending a complete scope rebuild. Future pages may add rooted forms and local names, but an edit is never an allograph unless an explicit wrapper rule licenses it; absent atoms, alternate recipes, retuned cores and new coarse scope remain forbidden.
+Pass 1026 audits every one of the 271 events that Pass 1008 had flattened onto a one-edit neighbour. Only 23 events/21 surfaces retain the same recipe under a named package rule; 239 events/203 surfaces require a visibly different recipe, while `cheo` and `okeor` were already repaired in Pass 1025. Pass 1027/GDT399 then rebuilds scope from those recipes rather than patching old attachments: all 3,888 events, 627 statements and 4,374 focus atoms resolve, net +32 attachments; 127 bounded forward links look exactly one card ahead, no owner boundary is crossed, all nine coarse rules have cross-page and cross-register support, and all four register replays pass. Future pages may add rooted forms and local names, but an edit is never an allograph unless an explicit wrapper rule licenses it; absent atoms, alternate recipes, retuned cores, owner jumps and new coarse scope remain forbidden.
 ## Scientific ceiling
 
 - The manuscript is **not translated**.

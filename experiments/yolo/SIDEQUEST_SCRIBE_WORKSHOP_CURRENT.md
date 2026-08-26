@@ -1,13 +1,13 @@
 # Current twenty-two-page scribe-workshop theory
 
-Updated: 2026-08-26, after Pass 1026.
+Updated: 2026-08-26, after Pass 1027 / GDT399.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. Pass 1026 audits
-every old one-edit neighbour transfer, keeps only named package variants and
-resegments 203 surfaces visibly. The physical 627-statement edition, four local
-channels and 19 fixed working core values remain; the Pass-1025 attachment
-layer must now be rebuilt from the corrected event ledger.
+every old one-edit neighbour transfer and resegments 203 surfaces visibly;
+Pass 1027/GDT399 rebuilds the scope layer from those recipes. The current basis
+is 627 statements, 4,374 resolved focus attachments, four local channels and
+19 unchanged working core values.
 
 ## Fixed scope
 
@@ -362,6 +362,16 @@ until scope is recomputed. The stronger rule is now: **one edit is not an
 allograph**; only a named wrapper or package rule may erase the semantic effect
 of a changed sign.
 
+Pass 1027/GDT399 recompiles all focus occurrences instead of modifying the old
+attachment rows. The visible recipes contain 4,374 WERT-/ANTEIL-/EINHEIT-/
+POSTEN-/GRAD-/RELATIONSfoci, net 32 more than Pass 1025. Every focus receives
+one visible or bounded governor; 127 headless packages look exactly one card
+ahead, none crosses a true owner boundary, and no statement remains open. All
+nine coarse scope families have support on multiple pages and in multiple
+registers. All twenty running pages and all four registers replay; the two
+remaining pages stay local-address-only. Pass-1025's 4,342 rows and the older
+attachment IDs are now historical, not a valid current input.
+
 ## Constrained semantic pocket dictionary
 
 The twelve content/action cores are:
@@ -493,6 +503,11 @@ comparison set.
 
 ## Primary artifacts
 
+- Current Pass-1027/GDT399 complete scope rebuild: 4,374 focus attachments,
+  627 statement edition, 3,888 event replay, twenty-two page and four register
+  holdouts, nine-rule support, all 96 changed statements, runner and 35-check
+  validator:
+  `gdt399_creative_scope_rebuild_after_visible_resegmentation/`;
 - Current Pass-1026 complete audit of 271 old one-edit events, 226 surface
   decisions, corrected surface-deterministic 3,888-event ledger, 96 affected
   statements, next replay sheet, builder and validator:
@@ -606,9 +621,9 @@ comparison set.
 
 ## Next work
 
-Rebuild the complete 627-statement focus/scope layer and the four-register
-replay from `PASS1026_3888_CORRECTED_EVENT_LEDGER.tsv`. Do not admit another
-page until all attachments are regenerated, surface determinism remains exact,
-and the holdouts still transfer. Then use `PASS1026_NEXT_REPLAY_SHEET.md` for
-the next four-page batch; new rooted surfaces and local addresses remain
-allowed, but invisible atoms and unlicensed one-edit recipe copying do not.
+Turn the GDT399 rebuild into a compact future-page error deck: replay the rare
+micro-signatures, all 127 one-card forward cases and all owner-only cases, then
+derive the next-four-page admission sheet from the surviving examples. Do not
+admit another page before that compact deck is complete. New rooted surfaces
+and local addresses remain allowed; invisible atoms, unlicensed one-edit
+recipe copying, owner jumps and a tenth coarse scope family do not.

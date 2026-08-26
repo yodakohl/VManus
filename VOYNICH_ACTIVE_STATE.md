@@ -6,7 +6,7 @@ Updated: 2026-08-26. This is the full claim registry. For routine work, read
 
 ## Outcome
 
-### Noncanonical twenty-two-page sidequest (Pass 1026)
+### Noncanonical twenty-two-page sidequest (Pass 1027 / GDT399)
 
 The creative workshop sidequest covers twenty-two admitted physical pages with
 4,581 visible groups: 3,888 running prose/ring-text groups plus 693 local
@@ -310,6 +310,16 @@ ledger is still surface-deterministic. The old 4,342-attachment scope layer is
 now historical rather than current and must be rebuilt from Pass 1026 before
 new pages are admitted. The operative rule is: one edit is not an allograph;
 only an explicit package rule may make a changed sign semantically neutral.
+
+Pass 1027/GDT399 rebuilds the entire scope layer from the corrected recipes
+rather than editing the obsolete Pass-1025 rows. It yields 4,374 focus
+attachments, a net gain of 32, and complete readings for all 627 statements.
+The 127 bounded forward attachments look exactly one card ahead; none of the
+4,374 crosses an owner boundary. All nine existing coarse scope families occur
+on multiple pages and in multiple registers, all twenty running pages replay,
+the two remaining pages stay address-only, and all four register replays pass.
+This is now the current attachment basis; Pass-1025's 4,342 count and all
+Pass-1023/1024 attachment identifiers are historical only.
 
 - The manuscript is **not translated**. There are zero confirmed English
   lexemes, zero plaintext clauses, and no established language, phonetic
