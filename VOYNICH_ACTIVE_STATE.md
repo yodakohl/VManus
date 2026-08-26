@@ -109,6 +109,15 @@ slot boundaries, two R topologies, two repeated-action scopes and two peer
 action-package breaks. No irreducible three-, four- or five-action card is
 needed; long German readings are sentence paraphrases, not long word meanings.
 
+GDT423 tests that grammar without allowing a page to teach itself. Each of the
+24 stored physical-page keys is hidden in turn. Among 2,662 clean single- or
+ordered-pair events, 2,553 (95.91%) reproduce an exact slot skeleton from
+another page, 50 combine otherwise old head-specific margins, and 59 (2.22%)
+need a page-private head or slot. The 59 events occupy 57 of 1,129 page×slot
+cells. These red cells are a finite local-exception queue; they are neither
+silently licensed compositions nor evidence that the whole action grammar
+failed. Long chains retain GDT422 reduction and no dictionary row changes.
+
 Pass 1032/GDT404 applies the frozen GDT403 intake contract to a one-shot random
 draw of f1r, f24v, f81r and f95v. The 95 guarded lines add 688 events, 88
 statements and 677 focus attachments. Exactly 470 events retain an old surface

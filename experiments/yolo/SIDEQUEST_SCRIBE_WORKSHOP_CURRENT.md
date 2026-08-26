@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT422.
+Updated: 2026-08-26, after GDT423.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -37,8 +37,13 @@ only E/EE with POSTEN/WERT. Of 360 possible clean slot cells, 108 are attested,
 against `K+CH` 21. Of the 31 GDT419 multi-head gaps, nineteen are now blocked,
 six structurally old and six genuinely open. GDT422 reduces all 110 recipes
 with three to five actions to old pairs, visible slots, R topology, repetition
-or peer packages; no long learned action word remains. Concrete substances,
-objects, body parts and celestial names are still owner-local.
+or peer packages; no long learned action word remains. GDT423 hides every page
+key once and recovers 2,553/2,662 clean action events from an exact slot on a
+different page; another 50 use old margins in a new combination. Only 59
+events/57 page×slot cells remain red, so the current cross-page reading reaches
+97.78% without retuning. Those 57 cells now form a finite local appendix rather
+than a reason to loosen the dictionary. Concrete substances, objects, body
+parts and celestial names are still owner-local.
 
 ## Fixed scope
 

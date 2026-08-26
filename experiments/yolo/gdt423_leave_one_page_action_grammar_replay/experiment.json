@@ -1,0 +1,50 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Exploratory portability test of the current action-slot grammar only; no confirmed lexeme, plaintext, language, or source identification.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt423_leave_one_page_action_grammar_replay/src/run.py",
+    "validate": "python3 experiments/yolo/gdt423_leave_one_page_action_grammar_replay/src/validate.py"
+  },
+  "created": "2026-08-26",
+  "dependencies": [
+    "GDT416",
+    "GDT422"
+  ],
+  "experiment_id": "GDT423",
+  "inputs": [
+    {"path": "experiments/yolo/gdt416_owner_local_imperative_sentence_compiler/artifacts/gdt416_4576_imperative_clauses.tsv", "role": "exact recipe, owner, and clause input", "sha256": "cffae521ba93d96446537584e35fa9a4fe4b6e34330ebf7e955ad725f7c70561"},
+    {"path": "experiments/yolo/gdt422_multi_action_chain_pair_reduction/artifacts/gdt422_110_long_action_chain_inventory.tsv", "role": "long action chain reductions", "sha256": "30e33e67866640f9df14faea84e93dd3de6daf88833e804a8ca060087f3dfda7"}
+  ],
+  "outputs": [
+    {"path": "experiments/yolo/gdt423_leave_one_page_action_grammar_replay/README.md", "role": "entry point", "sha256": "85018923266bb6d6350e07a16ae2bdead8a8f4dfc37518a262f74135c90821dd"},
+    {"path": "experiments/yolo/gdt423_leave_one_page_action_grammar_replay/METHOD.md", "role": "reproducible method", "sha256": "b8d2fe511626ab95d98e36eccfb3c9b519051d154294e4b878450a4bdfcca788"},
+    {"path": "experiments/yolo/gdt423_leave_one_page_action_grammar_replay/REPORT.md", "role": "primary report", "sha256": "cbca25213f9fa3426a77c9bbb622006df79872aeadfc5d658465e28722ca93d7"},
+    {"path": "experiments/yolo/gdt423_leave_one_page_action_grammar_replay/src/run.py", "role": "deterministic builder", "sha256": "a6cea360d2eab7cd9e0efefe800dcd5bb6c358b902efa523fceb279310df816e"},
+    {"path": "experiments/yolo/gdt423_leave_one_page_action_grammar_replay/src/validate.py", "role": "validator", "sha256": "814368d389bcc6fa2d5fb7a15d79aed3b0d481bb1c339e610c0480cc39d73dcc"},
+    {"path": "experiments/yolo/gdt423_leave_one_page_action_grammar_replay/artifacts/README.md", "role": "artifact guide", "sha256": "4fd747a34c5d34bc3039233503346c241c5a30a0405e70af248e001c975f26c3"},
+    {"path": "experiments/yolo/gdt423_leave_one_page_action_grammar_replay/artifacts/NEXT_PAGE_ACTION_GRAMMAR_CARD.md", "role": "future-page intake rule", "sha256": "b916411004642b3205f1ac43800711290f61975bf242e375650bcddb040bb922"},
+    {"path": "experiments/yolo/gdt423_leave_one_page_action_grammar_replay/artifacts/gdt423_4576_event_leave_page_replay.tsv", "role": "complete event replay", "sha256": "2cc944dc298b684127c7f3b64783e0cbdffb90bbf27f4d900429b9aee38f7bb6"},
+    {"path": "experiments/yolo/gdt423_leave_one_page_action_grammar_replay/artifacts/gdt423_1129_page_slot_cell_replay.tsv", "role": "page slot cell replay", "sha256": "6939643f3d84dfbdf2e2e48bd79d68860171aec3039c24ed27e77a847207858f"},
+    {"path": "experiments/yolo/gdt423_leave_one_page_action_grammar_replay/artifacts/gdt423_24_page_key_summary.tsv", "role": "held-out page summary", "sha256": "a9024c7ef1f6cdb6b54420b0629d4f305c603f062d6718a3ba9e962ae9f043d8"},
+    {"path": "experiments/yolo/gdt423_leave_one_page_action_grammar_replay/artifacts/gdt423_57_red_page_slot_cells.tsv", "role": "local exception queue", "sha256": "be014e626ba28df98eb22fc40933b76532a30564798e7729bcba9998e5f1586f"},
+    {"path": "experiments/yolo/gdt423_leave_one_page_action_grammar_replay/artifacts/gdt423_result.json", "role": "compact result", "sha256": "6dfc910c15e926d2ebbfe804092d127e4737bbfe306156523cc621b910284a87"},
+    {"path": "experiments/yolo/gdt423_leave_one_page_action_grammar_replay/artifacts/gdt423_validation.json", "role": "validation report", "sha256": "2fbb356ffc6cec44b212f2a03cc9f3241fc7466c3828f6ee52d7a3b872cd35fa"}
+  ],
+  "question": "Can the action-slot grammar learned from all other admitted pages replay each held-out page without local adjustment?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "leave_one_page_action_grammar_replay",
+  "status": "LEAVE_ONE_PAGE_REPLAY_97_78_PERCENT_GREEN_OR_AMBER",
+  "title": "leave one page action grammar replay",
+  "updated": "2026-08-26",
+  "validation": {
+    "artifact": "experiments/yolo/gdt423_leave_one_page_action_grammar_replay/artifacts/gdt423_validation.json",
+    "status": "PASS"
+  }
+}
