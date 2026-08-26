@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT435.
+Updated: 2026-08-26, after GDT436.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -134,6 +134,17 @@ still the local referent but is not needed to choose the sentence. The new
 command therefore prints only the safe core when state is absent. It also
 records 121 German-phrase collision groups across the full catalog, so exact
 component order remains the sole matcher key. The 49-card deck is unchanged.
+
+GDT436 automates the missing context. It reads the ordered event stream and
+keeps 57 small page-owner banks, each containing only the latest explicit
+action and argument. Switching owners switches banks; returning restores the
+old bank, and a physical statement boundary is not automatically a reset.
+Without any inherited-state column or event-ID oracle, the driver reproduces
+all 4,576 event clauses and all 715 statements. Only 21 of the 49 future cards
+carry both their own action and argument; fourteen need the incoming action,
+thirteen the incoming argument and `AIR+OL` both. The prospective command now
+supplies that state automatically and stops before an unknown recipe can alter
+it.
 
 ## Fixed scope
 
@@ -863,8 +874,8 @@ comparison set.
 
 ## Next work
 
-Keep the current 26 pages closed. Build one left-to-right state driver that
-supplies inherited action and argument to the GDT435 reader from the preceding
-event stream. It must reproduce all 4,576 current clauses without an event-ID
-oracle and stop at every real owner/statement reset. Do not change a meaning,
+Keep the current 26 pages closed. Turn each of the 49 future cards into an
+explicit state transition over every currently reachable action/argument
+state, then check that distinct ordered cards do not collapse to the same
+incoming-state, outgoing-state and clause signature. Do not change a meaning,
 surface or page.

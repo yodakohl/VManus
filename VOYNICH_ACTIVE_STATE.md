@@ -245,6 +245,19 @@ jackknife leaves 3,740 events exactly known; only 14/836 singleton recipes
 regenerate at high/strong rank and another 36 at narrow rank. No card, value,
 surface or page changes; 35/35 checks pass.
 
+GDT436 supplies the two required context fields directly from the ordered
+event stream. It uses 57 `(page, owner)` state banks, each holding only the
+last explicit action and argument. A new owner starts empty; a returning owner
+restores its bank, while a physical statement boundary alone does not erase
+it. From GDT415 input containing no inherited-state columns, the driver matches
+all 4,576 GDT416 states and clauses plus all 715 statements; the inherited
+counts are exactly 1,598 actions and 2,096 arguments. The future deck contains
+21 self-contained action+argument cards, fourteen cards needing an incoming
+action, thirteen needing an incoming argument and one needing both. The
+streaming command stops on an unknown atom or unlicensed recipe before state
+mutation. This is executable integration, not independent meaning evidence;
+33/33 checks pass with no value, surface or page change.
+
 Pass 1032/GDT404 applies the frozen GDT403 intake contract to a one-shot random
 draw of f1r, f24v, f81r and f95v. The 95 guarded lines add 688 events, 88
 statements and 677 focus attachments. Exactly 470 events retain an old surface

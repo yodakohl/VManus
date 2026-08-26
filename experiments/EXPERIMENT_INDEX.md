@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **434**
-- Experiment-associated tracked files: **6,225** (678.6 MiB)
-- Structured GDT337+ experiments: **99**
+- Experiments indexed: **435**
+- Experiment-associated tracked files: **6,239** (680.6 MiB)
+- Structured GDT337+ experiments: **100**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT436 | GDT436_streaming_context_intake_driver | `ORACLE_FREE_STREAMING_CONTEXT_DRIVER_COMPLETE` | [report](../experiments/yolo/gdt436_streaming_context_intake_driver/REPORT.md) | 14 | 2.0 MiB | 5 | STRUCTURED_YOLO |
 | GDT435 | GDT435_observed_recipe_shadow_fallback | `CONTEXT_SAFE_READER_REQUIRED__49_CARD_DECK_UNCHANGED` | [report](../experiments/yolo/gdt435_observed_recipe_shadow_fallback/REPORT.md) | 16 | 1.7 MiB | 4 | STRUCTURED_YOLO |
 | GDT434 | GDT434_forty_nine_card_intake_reader | `EXECUTABLE_49_CARD_INTAKE_READER_WITH_SEPARATE_NARROW_APPENDIX` | [report](../experiments/yolo/gdt434_forty_nine_card_intake_reader/REPORT.md) | 15 | 640.3 KiB | 5 | STRUCTURED_YOLO |
 | GDT433 | GDT433_two_arm_second_ring_prediction_squares | `TWO_NEW_SECOND_RING_AMBER_CARDS_FROM_FOUR_BY_FOUR_SQUARES` | [report](../experiments/yolo/gdt433_two_arm_second_ring_prediction_squares/REPORT.md) | 13 | 42.2 KiB | 5 | STRUCTURED_YOLO |
