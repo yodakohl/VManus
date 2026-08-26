@@ -139,6 +139,17 @@ The full corpus also corrects the provisional GDT424 deck: `T>OK`, `R>CH` and
 `S>K` already recur on other pages inside complex cards, while four different
 local pairs and `R<-EE` become visible. No root or working value changes.
 
+GDT426 gives those nine exact local cards a fixed amber prediction layer rather
+than either memorizing them blindly or calling them portable. Four working
+action classes (`SELECT`, `MOVE_SET`, `HOLD_PROCESS`, `CONTROL`) and three
+focus families (`GRADE`, `ITEM`, `RELATION`) explain all nine: two exact pairs
+already recur cross-page with intervening slots, four occupy old class
+transitions, two complete same-head focus-family rectangles, and `R<-EE`
+inherits the existing CONTROL×GRADE cell. All 16 class transitions and all 12
+class×focus cells are occupied in the current edition. This yields nine amber
+predictions and zero untyped local cards, but no exact card is promoted and the
+classes remain creative teaching abstractions, not confirmed morphology.
+
 Pass 1032/GDT404 applies the frozen GDT403 intake contract to a one-shot random
 draw of f1r, f24v, f81r and f95v. The 95 guarded lines add 688 events, 88
 statements and 677 focus attachments. Exactly 470 events retain an old surface

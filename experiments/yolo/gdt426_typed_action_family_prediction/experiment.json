@@ -1,0 +1,51 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Creative typed prediction layer over current working meanings only; no confirmed class, lexeme, plaintext, language, or source identification.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt426_typed_action_family_prediction/src/run.py",
+    "validate": "python3 experiments/yolo/gdt426_typed_action_family_prediction/src/validate.py"
+  },
+  "created": "2026-08-26",
+  "dependencies": [
+    "GDT416",
+    "GDT425"
+  ],
+  "experiment_id": "GDT426",
+  "inputs": [
+    {"path": "experiments/yolo/gdt416_owner_local_imperative_sentence_compiler/artifacts/gdt416_4576_imperative_clauses.tsv", "role": "complete component recipes", "sha256": "cffae521ba93d96446537584e35fa9a4fe4b6e34330ebf7e955ad725f7c70561"},
+    {"path": "experiments/yolo/gdt425_complete_factorized_action_portability/artifacts/gdt425_5051_focus_edge_portability.tsv", "role": "complete focus edges", "sha256": "b7cd0107ec9c9f79da5649f954a4f35d32c3dc4d5d9340de6c653e1430ff9482"},
+    {"path": "experiments/yolo/gdt425_complete_factorized_action_portability/artifacts/gdt425_9_local_action_appendix.tsv", "role": "local action appendix", "sha256": "1373138101dd9d7c38ac72fa5a44d327a925435f4e4aaedd5316d0ef70bac81c"}
+  ],
+  "outputs": [
+    {"path": "experiments/yolo/gdt426_typed_action_family_prediction/README.md", "role": "entry point", "sha256": "b43e5b8338dee1604bbef8cdac18174e69038729e6d3f420004a55e9dfaba013"},
+    {"path": "experiments/yolo/gdt426_typed_action_family_prediction/METHOD.md", "role": "reproducible method", "sha256": "f9f8b8eaa75bc19e796cb308e68cc24ad0845a782a76b51945cdc2dfc6231c9b"},
+    {"path": "experiments/yolo/gdt426_typed_action_family_prediction/REPORT.md", "role": "primary report", "sha256": "fc93c5fb5d4a4150bd7d26a04ac442e63c78aa8c83c1897691eae26b84cac8a8"},
+    {"path": "experiments/yolo/gdt426_typed_action_family_prediction/src/run.py", "role": "deterministic builder", "sha256": "be34b6346c5e19c2610d705969ba2bea775c78a7bcb81c5205407f0b01d24b61"},
+    {"path": "experiments/yolo/gdt426_typed_action_family_prediction/src/validate.py", "role": "validator", "sha256": "f31d17638db2b717faf098c66c7ce1eefdff9b852a8aa84e77ef0a421b28b5ef"},
+    {"path": "experiments/yolo/gdt426_typed_action_family_prediction/artifacts/README.md", "role": "artifact guide", "sha256": "837950d9aea21deabf9b5953e70c105f5b3106f97b53dcc9dee7d63163893e42"},
+    {"path": "experiments/yolo/gdt426_typed_action_family_prediction/artifacts/TYPED_LOCAL_PREDICTION_CARD.md", "role": "future-page prediction card", "sha256": "f9b383519ce16617dc51af2e78b8153a78776c0f51d48c45e295d4361e273882"},
+    {"path": "experiments/yolo/gdt426_typed_action_family_prediction/artifacts/gdt426_9_typed_local_predictions.tsv", "role": "typed local predictions", "sha256": "a001d390fff792fe5974d0f177252b3c06e9f7a2bb6fe89fddc001ef82b3f488"},
+    {"path": "experiments/yolo/gdt426_typed_action_family_prediction/artifacts/gdt426_16_action_class_transition_atlas.tsv", "role": "action class transition atlas", "sha256": "10c13a748cc35ce33eab88f48f0ae009f7a655dc41907cb6dc8062e69eec70bf"},
+    {"path": "experiments/yolo/gdt426_typed_action_family_prediction/artifacts/gdt426_12_action_class_focus_family_atlas.tsv", "role": "action class focus atlas", "sha256": "b09b43254cc9d6005bae57f7da690085e8be776f9d5a7a9cf33c91f7fb7264ae"},
+    {"path": "experiments/yolo/gdt426_typed_action_family_prediction/artifacts/gdt426_81_exact_action_pair_status.tsv", "role": "exact pair status atlas", "sha256": "b2187b669bbf5c7808dd29c9aa57a335fc8ad8d555c0c7cc70e8b4eb4de5e80f"},
+    {"path": "experiments/yolo/gdt426_typed_action_family_prediction/artifacts/gdt426_result.json", "role": "compact result", "sha256": "549beb7334540e51da95b40e35d4b41d963a8f5662d4c7b680a085af85240911"},
+    {"path": "experiments/yolo/gdt426_typed_action_family_prediction/artifacts/gdt426_validation.json", "role": "validation report", "sha256": "9a9ec02c3b10dca0a8ca0d1ca871a90d8dc9773eb905cf258e3f58399318598d"}
+  ],
+  "question": "Can the nine GDT425 local action cards be predicted in advance from fixed action classes and focus families without promoting them to exact portable rules?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "typed_action_family_prediction",
+  "status": "NINE_LOCAL_ACTION_CARDS_TYPED_AS_AMBER_PREDICTIONS",
+  "title": "typed action family prediction",
+  "updated": "2026-08-26",
+  "validation": {
+    "artifact": "experiments/yolo/gdt426_typed_action_family_prediction/artifacts/gdt426_validation.json",
+    "status": "PASS"
+  }
+}

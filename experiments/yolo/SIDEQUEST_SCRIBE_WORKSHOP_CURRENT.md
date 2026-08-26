@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT425.
+Updated: 2026-08-26, after GDT426.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -53,7 +53,11 @@ factors already present on another page. The complete inventory has 5,047/5,051
 cross-page focus edges, 641/649 cross-page adjacent-pair occurrences and
 639/639 cross-page closes. After one R-tail and one repetition are removed,
 the final local appendix contains six pairs and three focus edges: nine old-core
-cards, not new roots.
+cards, not new roots. GDT426 makes those nine cards prospective rather than
+blind exceptions. Four action classes and three focus families type every one:
+2 are old exact pairs with intervening slots, 4 old class transitions, 2
+head×focus rectangles and 1 CONTROL×GRADE analogy. They remain amber exact
+forms; zero is unexplained and zero is silently promoted.
 
 ## Fixed scope
 
