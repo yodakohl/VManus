@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **459**
-- Experiment-associated tracked files: **6,610** (779.4 MiB)
-- Structured GDT337+ experiments: **124**
+- Experiments indexed: **460**
+- Experiment-associated tracked files: **6,625** (779.5 MiB)
+- Structured GDT337+ experiments: **125**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT461 | GDT461_internal_stem_residual_bridge | `INTERNAL_FUNCTION_STEMS_REDUCE_WHOLE_LABEL_TAIL_TO_THIRTEEN` | [report](../experiments/yolo/gdt461_internal_stem_residual_bridge/REPORT.md) | 15 | 112.1 KiB | 4 | STRUCTURED_YOLO |
 | GDT460 | GDT460_learned_label_edge_stem_atlas | `HYBRID_FUNCTION_EDGES_AND_LEARNED_NAME_CORES` | [report](../experiments/yolo/gdt460_learned_label_edge_stem_atlas/REPORT.md) | 13 | 102.3 KiB | 3 | STRUCTURED_YOLO |
 | GDT459 | GDT459_local_nomenclator_content_atlas | `MIXED_PORTABLE_ADDRESS_FORMULAS_AND_LEARNED_LOCAL_NOMENCLATOR` | [report](../experiments/yolo/gdt459_local_nomenclator_content_atlas/REPORT.md) | 13 | 180.2 KiB | 3 | STRUCTURED_YOLO |
 | GDT458 | GDT458_deep_contiguous_unknown_island_horizon | `NO_UNTOUCHED_FOLLOWER_FAILURE_THROUGH_THIRTY_TWO_CARD_ISLANDS` | [report](../experiments/yolo/gdt458_deep_contiguous_unknown_island_horizon/REPORT.md) | 16 | 1.8 MiB | 4 | STRUCTURED_YOLO |

@@ -529,6 +529,23 @@ generated surface or confirmed lexeme follows. Next test the nineteen residual
 whole labels against broader already admitted surface families without
 weakening the direction-specific edge calibration.
 
+GDT461 extends the same rule strictly inside the old learned center. Nine
+surface stems have at least four strict-internal running extension types and at
+least 90% contiguous recipe retention: `air=AIR`, `cth=CH+T`, `dar=D_ADDR+AR`,
+`al=AL`, `ar=AR`, `ok=OK`, `ol=OL`, `ot=OT`, and `sh=SH`. Longest-first,
+leftmost nonoverlap assigns 53 occurrences in 44 labels and another 114
+characters. Together with GDT460, 93 labels contain a calibrated function and
+391/713 characters are assigned. Seven more labels close completely, yielding
+twelve full formulas, 81 function-shell/name-core hybrids, one family-only
+label and thirteen whole labels. A separate complete-address search adds only
+`cheo=DROGENFAMILIE`: `cheocthy`, `cheody`, `cheosdy`, and `opcheor` occur on
+both pharmaceutical pages, moving `cheosdy` out of the whole tail. The thirteen
+remaining whole forms are explicitly listed in the report. No individual name,
+core value, page, generated surface or confirmed lexeme follows. Next audit
+only near-threshold direction channels that actually touch those thirteen,
+starting with prefix `ar`; promotion requires a concrete explanation of every
+running mismatch rather than a lower global threshold.
+
 Pass 1032/GDT404 applies the frozen GDT403 intake contract to a one-shot random
 draw of f1r, f24v, f81r and f95v. The 95 guarded lines add 688 events, 88
 statements and 677 focus attachments. Exactly 470 events retain an old surface
