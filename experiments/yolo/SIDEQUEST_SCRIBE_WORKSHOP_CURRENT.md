@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT480.
+Updated: 2026-08-26, after GDT481.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -65,7 +65,7 @@ CONTROL into `T=EINSTELLEN` and `R=MARKIEREN` creates a five-class gate with
 amber; `R>T` and `R<-EE` remain red-local. The internal meanings of the broad
 classes are not collapsed.
 
-GDT459–GDT480 now resolve the formerly opaque local-address tail as the mixed
+GDT459–GDT481 now resolve the formerly opaque local-address tail as the mixed
 codebook architecture anticipated by the sidequest: portable function cards
 surround memorized owner-bound name cores. Of 107 learned address labels,
 eighteen are now complete function formulas, 87 are function-shell/name-core
@@ -175,6 +175,16 @@ are catalogue `DANACH·NAME`, coordinate `DANACH·ZIELORT·POSTEN`, and catalogu
 51 records and eight crossing registers. But 107 strict whole-record forms
 remain singletons: the next reusable grammar must therefore be mined from
 shorter event fragments, not obtained by merging distinct complete records.
+GDT481 performs that split. The 183 events form 149 strict templates; 27 recur
+over 61 events, including eight cross-register templates and sixteen families
+whose 38 events have different visible surfaces. The strongest exact frame is
+catalogue `DANACH·NAME`, carried by five surfaces across four registers. Role
+backoff reaches 104 events. Fixed adjacent phrases are almost absent: the 48
+real pairs yield 47 strict templates, only identical `okeey|ary` repeats, and
+all eleven OL-bound cross-bundle pairs are unique. Of 107 unique whole records,
+59 touch a recurrent role event and 48 do not; 45 of those 48 are themselves
+single-event records. Reuse therefore sits inside composed events, not in a
+hidden two-event sentence list.
 
 GDT428 now supplies the missing semantic contrast deck. Six within-class
 comparisons contain 104 exact frames where only the action root changes. The
@@ -1172,9 +1182,9 @@ comparison set.
 
 ## Next work
 
-Keep the current 26 pages closed. Mine recurrent one-event and adjacent-event
-fragments inside the 135 GDT479 records. Preserve model, component order,
-name-slot equality, bundle boundary and OT/OL scope; distinguish different
-surfaces carrying the same strict fragment from literal repeats. Use the
-fragment atlas to cover the 107 singleton whole-record templates without
-merging their distinct tails or changing the dictionary.
+Keep the current 26 pages closed. Decompose the 45 single-event residual tails
+from GDT481 into ordered contiguous component fragments, preserving name-slot
+positions and OT/OL scope. Measure which residuals are fully tiled by old
+cross-event subfragments, which require only a new combination of old pieces,
+and which contain an owner-local indivisible name/package. Do not widen the
+record window or change a dictionary value.

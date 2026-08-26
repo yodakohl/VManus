@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **479**
-- Experiment-associated tracked files: **6,916** (788.7 MiB)
-- Structured GDT337+ experiments: **144**
+- Experiments indexed: **480**
+- Experiment-associated tracked files: **6,934** (789.0 MiB)
+- Structured GDT337+ experiments: **145**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT481 | GDT481_microrecord_fragment_grammar | `EVENT_FRAGMENTS_REACH_59_OF_107_SINGLETON_RECORDS__ADJACENT_PAIRS_REMAIN_SPARSE` | [report](../experiments/yolo/gdt481_microrecord_fragment_grammar/REPORT.md) | 18 | 377.3 KiB | 2 | STRUCTURED_YOLO |
 | GDT480 | GDT480_microrecord_template_atlas | `ALL_135_RECORDS_HAVE_TEMPLATES__RECURRENT_MICRORECORD_GRAMMAR_ATLAS_COMPLETE` | [report](../experiments/yolo/gdt480_microrecord_template_atlas/REPORT.md) | 14 | 233.1 KiB | 1 | STRUCTURED_YOLO |
 | GDT479 | GDT479_definitive_local_microrecord_edition | `DEFINITIVE_183_EVENT_135_MICRORECORD_LOCAL_WORKING_EDITION_COMPLETE` | [report](../experiments/yolo/gdt479_definitive_local_microrecord_edition/REPORT.md) | 14 | 379.0 KiB | 4 | STRUCTURED_YOLO |
 | GDT478 | GDT478_paired_ot_ol_order_grammar | `OT_STARTS_NEXT_UNIT__OL_KEEPS_CURRENT_UNIT__PAIRED_ORDER_GRAMMAR_COMPLETE` | [report](../experiments/yolo/gdt478_paired_ot_ol_order_grammar/REPORT.md) | 15 | 145.1 KiB | 6 | STRUCTURED_YOLO |

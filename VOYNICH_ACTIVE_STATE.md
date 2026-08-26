@@ -11565,3 +11565,29 @@ remain singletons, so whole-record compression has reached its useful limit.
 No meaning, model, boundary, name, surface, recipe, record or page changes;
 validation passes 84/84. Next mine recurrent event and adjacent-event fragments
 inside the 135 records rather than forcing the singleton whole records together.
+
+## GDT481 microrecord fragment grammar
+
+GDT481 splits the fixed edition into all 183 one-event fragments and all 48
+true within-record adjacent pairs, eleven of which cross an OL-bound bundle
+boundary. The event layer has 149 strict meaning templates: 27 recur over 61
+events, fourteen cross pages, eight cross registers over twenty events, and
+sixteen multi-surface families cover 38 events. The broad layer has 118 role
+shapes; 39 recur over 104 events and sixteen cross registers.
+
+The strongest strict event is catalogue `DANACH·NAME`: `oteeeon`, `otchody`,
+`otork`, `otora`, and `otdordy` carry the same OT-opened following-entry frame
+across four registers. Other exact cross-register frames include
+`AUSGANG·NAME`, `POSTEN·WÄHLEN`, `DANACH·ZIELORT·POSTEN`,
+`FORTSETZEN·NAME`, and `NAME·AUSGANG·NAME`.
+
+Longer local idioms do not carry. The 48 pairs form 47 strict templates and 45
+role shapes. Only identical f72r `okeey|ary` repeats strictly; no strict pair
+crosses a page or register, none helps a GDT480 singleton, and all eleven
+cross-bundle pairs are unique. Among 107 singleton whole records, 28 touch a
+recurrent strict event/eight are fully strict-covered; role backoff reaches
+59/39. Forty-eight retain no recurrent fragment, and 45 of them are already
+single-event records. Thus the next useful unit is an ordered subfragment
+inside those 45 events, not a wider record window. No source meaning, model,
+boundary, name, surface, recipe, record or page changes; validation passes
+118/118.

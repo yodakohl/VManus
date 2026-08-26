@@ -1,0 +1,137 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Recurrent event and adjacent-event fragment grammar over fixed GDT479/GDT480 readings; no new meaning, syntax, plaintext, name, surface, recipe, boundary, record, or page.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt481_microrecord_fragment_grammar/src/run.py",
+    "validate": "python3 experiments/yolo/gdt481_microrecord_fragment_grammar/src/validate.py"
+  },
+  "created": "2026-08-26",
+  "dependencies": ["GDT479", "GDT480"],
+  "experiment_id": "GDT481",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt479_definitive_local_microrecord_edition/artifacts/gdt479_183_definitive_local_events.tsv",
+      "role": "complete event readings and order traces",
+      "sha256": "1827be00bcedf800d4d91344c85d890df7367811413c17adeba0fc4ccf37187a"
+    },
+    {
+      "path": "experiments/yolo/gdt479_definitive_local_microrecord_edition/artifacts/gdt479_146_definitive_local_bundles.tsv",
+      "role": "fixed models, record links, and bundle boundaries",
+      "sha256": "311cfbe31d90bbd8fe08462918ca7c7f6382b36b23978c42f24aed3da1cff2f3"
+    },
+    {
+      "path": "experiments/yolo/gdt479_definitive_local_microrecord_edition/artifacts/gdt479_135_definitive_microrecords.tsv",
+      "role": "complete record sequence",
+      "sha256": "3b2637f3569a62443809eb2aaeb1c8bb64b070175518de3734adc26907dae75f"
+    },
+    {
+      "path": "experiments/yolo/gdt480_microrecord_template_atlas/artifacts/gdt480_135_record_template_assignments.tsv",
+      "role": "whole-record singleton and recurrence assignments",
+      "sha256": "fe475fb1fe789a2a0065c4ca0f25e23e89c633d52af1a1f28ca844a8ee7a1ca0"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt481_microrecord_fragment_grammar/README.md",
+      "role": "entry point",
+      "sha256": "199496407405b542252d95e0a00ecc1a871c5107391dc5abefd0989035846a95"
+    },
+    {
+      "path": "experiments/yolo/gdt481_microrecord_fragment_grammar/METHOD.md",
+      "role": "fragment construction method",
+      "sha256": "da36a46f4841491a6b82a480385818ac5bf66cfa1e458a36844e285207b87947"
+    },
+    {
+      "path": "experiments/yolo/gdt481_microrecord_fragment_grammar/REPORT.md",
+      "role": "primary report",
+      "sha256": "461608ef455822aa392f6eb17a3271f26188642a884f8c868830f9128cee8306"
+    },
+    {
+      "path": "experiments/yolo/gdt481_microrecord_fragment_grammar/src/run.py",
+      "role": "deterministic fragment builder",
+      "sha256": "767dcdaa1d0f914c63389c5b20341ca0f385690c471da45a091d7320690b2560"
+    },
+    {
+      "path": "experiments/yolo/gdt481_microrecord_fragment_grammar/src/validate.py",
+      "role": "validator and deterministic rebuild check",
+      "sha256": "79d6c8513287868ef74875fb5b3b81aa31b9f7d3b94e38dfc9b0bdff168c79c5"
+    },
+    {
+      "path": "experiments/yolo/gdt481_microrecord_fragment_grammar/artifacts/README.md",
+      "role": "artifact guide",
+      "sha256": "93ebe698cb3a6cd026e8b1daee2881d57b85ed06d1cce5871b9d8bb0d0c55902"
+    },
+    {
+      "path": "experiments/yolo/gdt481_microrecord_fragment_grammar/artifacts/GDT481_MICRORECORD_FRAGMENT_GRAMMAR.md",
+      "role": "readable recurrent fragment grammar",
+      "sha256": "93897c9bc620c02b828fdf5ab9462d085019e63171ee25ba973b2508551f028b"
+    },
+    {
+      "path": "experiments/yolo/gdt481_microrecord_fragment_grammar/artifacts/gdt481_183_event_fragment_assignments.tsv",
+      "role": "all event fragment assignments",
+      "sha256": "0a8edc80a05719ffbe8f28e8e986882915c89cc7a9e7724e4c9be325521d0a3e"
+    },
+    {
+      "path": "experiments/yolo/gdt481_microrecord_fragment_grammar/artifacts/gdt481_event_strict_templates.tsv",
+      "role": "strict event templates",
+      "sha256": "5b6fa2dd53dfc318ac952126eea8c4cd893a907214c9d2950b2bef019ff819e6"
+    },
+    {
+      "path": "experiments/yolo/gdt481_microrecord_fragment_grammar/artifacts/gdt481_event_role_shapes.tsv",
+      "role": "event role shapes",
+      "sha256": "ad72b38a2a131f6d69a2d6d142a8607829bc9d8a85e23fb9779b156d8f79d599"
+    },
+    {
+      "path": "experiments/yolo/gdt481_microrecord_fragment_grammar/artifacts/gdt481_48_adjacent_pair_assignments.tsv",
+      "role": "all adjacent event pairs",
+      "sha256": "77cd7cf41e67546ab30e7dd832d2a7e51ef197ec1ef9b20e227d45914a734fb0"
+    },
+    {
+      "path": "experiments/yolo/gdt481_microrecord_fragment_grammar/artifacts/gdt481_pair_strict_templates.tsv",
+      "role": "strict adjacent-pair templates",
+      "sha256": "c04da9c589a0988b80fb3c4041353293797387f8569133a7e77885a6dd9d65e4"
+    },
+    {
+      "path": "experiments/yolo/gdt481_microrecord_fragment_grammar/artifacts/gdt481_pair_role_shapes.tsv",
+      "role": "adjacent-pair role shapes",
+      "sha256": "bb832285f53d2f80396d5181d4f7ee59d865a5a64e0927f1e085c4e559bfc997"
+    },
+    {
+      "path": "experiments/yolo/gdt481_microrecord_fragment_grammar/artifacts/gdt481_135_record_fragment_coverage.tsv",
+      "role": "record-level fragment coverage",
+      "sha256": "808654fc85123ddcbac717fa86a82b27a15acd709fd29dcb8d2eca46a9e22f6c"
+    },
+    {
+      "path": "experiments/yolo/gdt481_microrecord_fragment_grammar/artifacts/gdt481_fragment_coverage_summary.tsv",
+      "role": "all-record and singleton coverage summary",
+      "sha256": "00ff5f6ccc43a9cf160a935f2eb6a1d33974642b5f4e8e91f3808e7b476fa5cd"
+    },
+    {
+      "path": "experiments/yolo/gdt481_microrecord_fragment_grammar/artifacts/gdt481_result.json",
+      "role": "compact result",
+      "sha256": "b11c8786d5299a0773ec44243d02e2e8d4a2ab24baad5218d2673020a8e0c72e"
+    },
+    {
+      "path": "experiments/yolo/gdt481_microrecord_fragment_grammar/artifacts/gdt481_validation.json",
+      "role": "118-check validation report",
+      "sha256": "851d25dea0465c1aa30b689c12a50d947dd4799b690bdb4838ab813464899892"
+    }
+  ],
+  "question": "Do recurrent one-event or adjacent-event fragments explain GDT480's singleton whole-record diversity, and which strict fragments cross surfaces, pages, or registers?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "microrecord_fragment_grammar",
+  "status": "EVENT_FRAGMENTS_REACH_59_OF_107_SINGLETON_RECORDS__ADJACENT_PAIRS_REMAIN_SPARSE",
+  "title": "Microrecord fragment grammar",
+  "updated": "2026-08-26",
+  "validation": {
+    "artifact": "experiments/yolo/gdt481_microrecord_fragment_grammar/artifacts/gdt481_validation.json",
+    "status": "PASS"
+  }
+}
