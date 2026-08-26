@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT433.
+Updated: 2026-08-26, after GDT434.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -114,6 +114,15 @@ cards must then meet at the same opposite corner. The complete graph contains
 EINSETZEN · VERBINDUNG have four observed bases plus four distinct strong arms;
 they become weaker Amber-II cards. `AIR+OR` merely gains support at its old
 narrow rank, while eight one-square targets remain unpromoted.
+
+GDT434 makes this future deck operational. The reader first checks all 1,268
+observed recipes, then four high, 43 strong, two Amber-II and finally 246
+narrow exact-key cards. Only the middle 49 form the main deck; their 245 local
+readings cover all five registers. Known atoms in an unlisted order do not
+silently become a new card: the reader prints the literal trace and stops.
+Four pairs in the narrow appendix share a fluent German phrase despite a
+different component order, so matching is always by the exact component key.
+All eight end-to-end probes and 27 validator checks pass.
 
 ## Fixed scope
 
@@ -843,8 +852,8 @@ comparison set.
 
 ## Next work
 
-Keep the current 26 pages closed. Merge the 47 first-ring and two Amber-II
-cards into one 49-card intake sheet with an exact visible-component matcher,
-fixed tier order and explicit failure output. The 246 narrow cards remain a
-separate lookup appendix rather than silently entering the main deck. Only
-after this single reader exists should the unchanged deck meet later pages.
+Keep the current 26 pages closed. Shadow-replay the intake reader over every
+observed recipe to prove that T0 always outranks predictions, then remove each
+observed key in simulation and record whether the fixed 49-card deck, the
+narrow appendix or the stop boundary catches it. Do not change a meaning,
+surface or page during that replay.

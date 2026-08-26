@@ -1,0 +1,92 @@
+{
+  "status": "PASS",
+  "check_count": 27,
+  "failure_count": 0,
+  "checks": {
+    "catalog_rows_1563": true,
+    "catalog_recipe_keys_unique": true,
+    "tier_counts_exact": true,
+    "tiers_pairwise_disjoint": true,
+    "t0_matches_observed_inventory": true,
+    "t4_matches_narrow_source": true,
+    "main_card_count_49": true,
+    "main_register_rows_245": true,
+    "five_registers_per_main_card": true,
+    "main_register_names_exact": true,
+    "main_generic_phrases_unique": true,
+    "main_local_phrases_unique_within_register": true,
+    "narrow_rows_246": true,
+    "narrow_exact_key_rule_everywhere": true,
+    "narrow_collision_recipes_8": true,
+    "narrow_collision_groups_4": true,
+    "matcher_test_rows_8": true,
+    "matcher_tiers_exact": true,
+    "matcher_never_predicts_surface": true,
+    "t5_tests_stop": true,
+    "result_status_exact": true,
+    "result_counts_exact": true,
+    "result_collision_count_exact": true,
+    "no_new_values_pages_surfaces": true,
+    "all_surface_rules_refuse_invention": true,
+    "no_forbidden_page_in_outputs": true,
+    "deterministic_rebuild": true
+  },
+  "matcher_tests": [
+    {
+      "test_id": "M01",
+      "expected": "T0_EXACT_OBSERVED",
+      "actual": "T0_EXACT_OBSERVED",
+      "status": "EXACT_OBSERVED_REGISTER",
+      "surface_prediction": "NONE"
+    },
+    {
+      "test_id": "M02",
+      "expected": "T1_FUTURE_HIGH",
+      "actual": "T1_FUTURE_HIGH",
+      "status": "EXACT_MAIN_FUTURE_CARD",
+      "surface_prediction": "NONE"
+    },
+    {
+      "test_id": "M03",
+      "expected": "T2_FUTURE_STRONG",
+      "actual": "T2_FUTURE_STRONG",
+      "status": "EXACT_MAIN_FUTURE_CARD",
+      "surface_prediction": "NONE"
+    },
+    {
+      "test_id": "M04",
+      "expected": "T3_SECOND_RING_AMBER",
+      "actual": "T3_SECOND_RING_AMBER",
+      "status": "EXACT_MAIN_FUTURE_CARD",
+      "surface_prediction": "NONE"
+    },
+    {
+      "test_id": "M05",
+      "expected": "T3_SECOND_RING_AMBER",
+      "actual": "T3_SECOND_RING_AMBER",
+      "status": "EXACT_MAIN_FUTURE_CARD",
+      "surface_prediction": "NONE"
+    },
+    {
+      "test_id": "M06",
+      "expected": "T4_NARROW_APPENDIX",
+      "actual": "T4_NARROW_APPENDIX",
+      "status": "NARROW_APPENDIX__EXACT_RECIPE_REQUIRED",
+      "surface_prediction": "NONE"
+    },
+    {
+      "test_id": "M07",
+      "expected": "T5_NO_LICENSED_RECIPE",
+      "actual": "T5_NO_LICENSED_RECIPE",
+      "status": "KNOWN_ATOMS_BUT_UNLICENSED_RECIPE__STOP",
+      "surface_prediction": "NONE"
+    },
+    {
+      "test_id": "M08",
+      "expected": "T5_NO_LICENSED_RECIPE",
+      "actual": "T5_NO_LICENSED_RECIPE",
+      "status": "KNOWN_ATOMS_BUT_UNLICENSED_RECIPE__STOP",
+      "surface_prediction": "NONE"
+    }
+  ]
+}

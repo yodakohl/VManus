@@ -222,6 +222,16 @@ second-ring amber readings. Two other outside targets have one square and are
 rejected; `AIR+OR` keeps its prior narrow rank. No surface, value or page is
 added.
 
+GDT434 turns that hierarchy into one executable intake reader. Its exact-key
+catalog contains 1,268 observed recipes, four high cards, 43 strong cards, two
+Amber-II cards and 246 narrow appendix cards: 1,563 pairwise-disjoint recipes
+in fixed priority order. Only the 49 high/strong/Amber-II cards enter the main
+future deck, with five owner-register readings each. The narrow appendix is
+lookup-only because four pairs of distinct ordered recipes collapse to the
+same short German phrase. Eight end-to-end probes cover every tier and both
+stop cases; all 27 checks pass. The command consumes an already segmented
+component recipe and predicts no surface, component value or page.
+
 Pass 1032/GDT404 applies the frozen GDT403 intake contract to a one-shot random
 draw of f1r, f24v, f81r and f95v. The 95 guarded lines add 688 events, 88
 statements and 677 focus attachments. Exactly 470 events retain an old surface
