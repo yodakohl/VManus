@@ -12257,3 +12257,24 @@ cross-register bridge. The bare target recipes remain unobserved and all four
 phrases, roots, surfaces and occurrence claims stay unchanged. Validation
 passes 1,197/1,197. Next search only source `CH→CH` same-owner sequences with
 at most one visible intervening card; keep all pages closed.
+
+## GDT508 Source CH+CH repeated-package bridge
+
+GDT508 finds two and only two Source same-owner CH-bearing package pairs under
+the zero/one-intervening-card rule. `G407-E0019→G407-E0020` is an exact
+adjacent duplicate: both cards are `cthar = CH+T+AR`, inherit `AIIN` and render
+the same clause. Retaining one `CH` from each package and listing the two
+identical `T+AR` removals gives the fixed two-slot `CH+CH` comparison.
+
+`G407-E0187→G407-E0188→G407-E0189` supplies a second local family. Its outer
+cards share `CH+T+OL`, both inherit `AIIN`, and the middle `AIIN` card
+reasserts the same argument; the right arm adds only `D_ADDR+AR`. All four
+projection arms replay with old factors and preserve the live argument.
+
+Source `CH+CH` therefore gains `LOCAL_SOURCE_PACKAGE_LEVEL` support while its
+direct pair witness remains cross-register. All four GDT507 context targets now
+have some local support, but the bare Source `CH+CH` recipe remains unobserved.
+The GDT500 phrase, two action slots, roots, evidence status, surfaces and
+occurrence claims remain unchanged. Validation passes 113/113. Next unify all
+eleven weak pair targets into one compact evidence-strength deck; keep all
+pages closed.

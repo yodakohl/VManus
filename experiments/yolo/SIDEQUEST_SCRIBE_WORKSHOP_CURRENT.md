@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-27, after GDT507.
+Updated: 2026-08-27, after GDT508.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -1432,8 +1432,15 @@ immediate same-statement `CH→SH` sequences retain the same inherited argument
 across the card boundary, on seven pages and in all five registers.
 
 Pharmaceutical `CH+CH` and both source/pharmaceutical `CH+SH` cards are now
-locally `CONTEXT_BRIDGED_WORKING`. Source `CH+CH` has concrete within-event and
-adjacent-event bridges only in other registers. Next search only for its local
-same-owner analogue with at most one visible intervening card. The four bare
-target recipes remain unobserved, all current phrases remain fixed, and no new
-page is opened.
+locally `CONTEXT_BRIDGED_WORKING`. GDT508 gives source `CH+CH` the last local
+mechanism at package level: `G407-E0019→G407-E0020` repeats `CH+T+AR` exactly
+on inherited `AIIN`, and `G407-E0187→G407-E0188→G407-E0189` repeats the
+`CH+T+OL` prefix around a visible `AIIN` card. Keeping one CH slot from each
+outer package yields the already fixed “Entnimm das zuvor Genannte zweimal”
+comparison without transferring the T/relation frames.
+
+All eleven former pair-front targets now have concrete old mechanics. Next
+publish one compact eleven-card evidence-strength deck so local direct,
+cross-register direct, adjacent-context and local-package support cannot be
+confused. The bare targets remain unobserved, all current phrases remain
+fixed, and no new page is opened.

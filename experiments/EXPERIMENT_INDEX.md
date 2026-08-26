@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **506**
-- Experiment-associated tracked files: **7,367** (795.2 MiB)
-- Structured GDT337+ experiments: **171**
+- Experiments indexed: **507**
+- Experiment-associated tracked files: **7,380** (795.2 MiB)
+- Structured GDT337+ experiments: **172**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT508 | GDT508_source_chch_repeated_package_bridge | `SOURCE_CHCH_GAINS_LOCAL_REPEATED_PACKAGE_BRIDGE__ALL_FOUR_CONTEXT_TARGETS_HAVE_LOCAL_SUPPORT` | [report](../experiments/yolo/gdt508_source_chch_repeated_package_bridge/REPORT.md) | 13 | 51.0 KiB | 6 | STRUCTURED_YOLO |
 | GDT507 | GDT507_contextual_pair_argument_bridge_atlas | `FOUR_CONTEXTUAL_TARGETS_HAVE_CONCRETE_BRIDGES__THREE_LOCAL_ONE_CROSS` | [report](../experiments/yolo/gdt507_contextual_pair_argument_bridge_atlas/REPORT.md) | 14 | 102.4 KiB | 5 | STRUCTURED_YOLO |
 | GDT506 | GDT506_target_pair_frame_compatibility_rank | `SEVEN_TARGET_FRAMES_HAVE_ARGUMENT_COMPATIBLE_REDUCTIONS__FOUR_CONTEXTUAL_TRANSFERS_REMAIN_OPEN` | [report](../experiments/yolo/gdt506_target_pair_frame_compatibility_rank/REPORT.md) | 15 | 97.6 KiB | 2 | STRUCTURED_YOLO |
 | GDT505 | GDT505_carrier_neutral_pair_handgrip_atlas | `FIVE_HANDGRIPS_SURVIVE_ALL_FIFTY_FIVE_OLD_CARRIERS__ELEVEN_TARGETS_MAPPED` | [report](../experiments/yolo/gdt505_carrier_neutral_pair_handgrip_atlas/REPORT.md) | 16 | 96.8 KiB | 5 | STRUCTURED_YOLO |
