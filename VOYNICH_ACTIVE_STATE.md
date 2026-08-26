@@ -11984,3 +11984,30 @@ Next apply the same context-safe editorial rule to all 23 state-dependent
 `COMPOSED_WORKING` cells in the complete 110-card GDT493 deck, while preserving
 the 37 observed clauses and using the seventeen observed state-dependent cells
 as concrete argument examples. Keep all 26 pages closed.
+
+## GDT497 complete context-safe T/R default deck
+
+GDT497 recompiles all eleven frames, both T/R actions and all five registers
+into one current 110-cell default deck. All 37 observed clauses retain their
+exact phrase, provenance, event IDs, pages and inherited arguments. All fifty
+self-contained `COMPOSED_WORKING` cells retain their concrete phrase. Only the
+23 unobserved active-argument cells change editorial realization.
+
+Those 23 cells replace the fixed owner-Y noun by `das zuvor Genannte`. The
+eight CH+T/R cells contain two inherited noun positions, so the second becomes
+`es`; altogether 31 nominal sites are generalized. Five composed OL clauses
+also replace the awkward initial `Weiter` construction with `Fahre fort, ...
+einzustellen/zu markieren/zu kennzeichnen`. OL remains FORTSETZEN and no root
+meaning changes.
+
+The four active frames contain seventeen exact observed state examples. Every
+generalized cell has observed examples in the same frame and with the same
+target action; eleven also have an exact state cell in the same register. All
+55 current T/R pairs remain phrase-distinct. Meanings, frames and evidence
+statuses change zero times; validation passes 756/756.
+
+Next inventory all nine short actions over the eleven established frames and
+five registers (495 cells). Distinguish exact observed cells, compositions
+using only old owner-local values and genuinely unavailable action/register
+realizations; use the GDT497 context-safe ellipse policy and keep all 26 pages
+closed.

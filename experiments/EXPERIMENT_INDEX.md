@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **495**
-- Experiment-associated tracked files: **7,187** (791.7 MiB)
-- Structured GDT337+ experiments: **160**
+- Experiments indexed: **496**
+- Experiment-associated tracked files: **7,203** (792.0 MiB)
+- Structured GDT337+ experiments: **161**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT497 | GDT497_complete_context_safe_tr_default_deck | `ONE_HUNDRED_TEN_CURRENT_DEFAULTS__TWENTY_THREE_CONTEXT_GENERALIZED__THIRTY_SEVEN_OBSERVED_RETAINED` | [report](../experiments/yolo/gdt497_complete_context_safe_tr_default_deck/REPORT.md) | 16 | 276.0 KiB | 2 | STRUCTURED_YOLO |
 | GDT496 | GDT496_semantic_action_substitution_atlas | `EIGHTEEN_DIRECT_AND_NINE_CONTEXT_SAFE_DEFAULTS__ALL_242_OBSERVED_REMAINDERS_MATCH` | [report](../experiments/yolo/gdt496_semantic_action_substitution_atlas/REPORT.md) | 16 | 358.2 KiB | 2 | STRUCTURED_YOLO |
 | GDT495 | GDT495_tier_a_future_comparison_sheet | `TWENTY_SEVEN_TIER_A_CARDS_READY__ONE_HUNDRED_THIRTY_EIGHT_SUPPORT_CELLS_VISIBLE__ZERO_SURFACE_PREDICTIONS` | [report](../experiments/yolo/gdt495_tier_a_future_comparison_sheet/REPORT.md) | 15 | 159.5 KiB | 1 | STRUCTURED_YOLO |
 | GDT494 | GDT494_composed_cell_family_support_ranking | `TWENTY_SEVEN_MULTIHEAD_PRIORITY_CARDS__FORTY_SIX_NONTR_SUPPORTED__ALL_SEVENTY_THREE_CROSS_REGISTER_ANCHORED` | [report](../experiments/yolo/gdt494_composed_cell_family_support_ranking/REPORT.md) | 20 | 165.6 KiB | 2 | STRUCTURED_YOLO |

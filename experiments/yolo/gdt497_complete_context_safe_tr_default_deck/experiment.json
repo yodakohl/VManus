@@ -1,0 +1,122 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "One current editorial default for all 110 fixed GDT493 T/R cells: all 37 observed clauses and 50 self-contained compositions remain byte-identical, while 23 unobserved inherited-argument compositions receive context-safe German wording. No root meaning, frame, evidence status, source event, page, occurrence or surface is changed or predicted.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt497_complete_context_safe_tr_default_deck/src/run.py",
+    "validate": "python3 experiments/yolo/gdt497_complete_context_safe_tr_default_deck/src/validate.py"
+  },
+  "created": "2026-08-26",
+  "dependencies": ["GDT493", "GDT496"],
+  "experiment_id": "GDT497",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt493_owner_dependent_tr_realization_deck/artifacts/gdt493_110_owner_frame_realization_cells.tsv",
+      "role": "complete fixed T-R owner-realization deck",
+      "sha256": "3ffe874a4a8a56587955c4d39ca57148c929b92d172e8af85b65593c56dfcb2f"
+    },
+    {
+      "path": "experiments/yolo/gdt493_owner_dependent_tr_realization_deck/artifacts/gdt493_4_state_dependent_frames.tsv",
+      "role": "fixed active-argument frame inventory",
+      "sha256": "e67fb30e574a8d3eb8447fa6b683b205d30fd5391c84cf583b539cc9d2b425c6"
+    },
+    {
+      "path": "experiments/yolo/gdt496_semantic_action_substitution_atlas/artifacts/gdt496_9_context_safe_defaults.tsv",
+      "role": "demonstrated Tier-A context-safe default layer",
+      "sha256": "5e6e80ee4f3f69329f1fdc73e392a2ba177f887041cac1a53223e668f8a37bb1"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt497_complete_context_safe_tr_default_deck/README.md",
+      "role": "entry point",
+      "sha256": "f5d709c8170078f9473942e7090341f1b331a2bdb6fbf5e981d34020c318b22e"
+    },
+    {
+      "path": "experiments/yolo/gdt497_complete_context_safe_tr_default_deck/METHOD.md",
+      "role": "complete-deck editorial method",
+      "sha256": "6091124465889f513db461b6c065e51540b0a645490b45073665f19503328247"
+    },
+    {
+      "path": "experiments/yolo/gdt497_complete_context_safe_tr_default_deck/REPORT.md",
+      "role": "primary report",
+      "sha256": "eeb328fe90403420e13a70fdac1fca86ab720f5b4a5fc8dc681c01ca8e5e3187"
+    },
+    {
+      "path": "experiments/yolo/gdt497_complete_context_safe_tr_default_deck/src/run.py",
+      "role": "deterministic default-deck compiler",
+      "sha256": "eefa19db6c5d202a448e80c82c541bea85db4cae0b84c6391727cbbcd0d8dc86"
+    },
+    {
+      "path": "experiments/yolo/gdt497_complete_context_safe_tr_default_deck/src/validate.py",
+      "role": "deterministic deck and provenance validator",
+      "sha256": "0954d4fd6d75af741edfd8e8f43d2d25242805ba4f835e2bda3e24a5fcecb1db"
+    },
+    {
+      "path": "experiments/yolo/gdt497_complete_context_safe_tr_default_deck/artifacts/README.md",
+      "role": "artifact guide",
+      "sha256": "4b7089490472d3de4b8084cfdf34d65941071d5a136bc8e2acb628cb0bc4bd46"
+    },
+    {
+      "path": "experiments/yolo/gdt497_complete_context_safe_tr_default_deck/artifacts/GDT497_COMPLETE_CONTEXT_SAFE_TR_DEFAULT_DECK.md",
+      "role": "complete readable 110-cell deck",
+      "sha256": "970ed62c6373abc39ee4a46efacdf747644a69e14cb8bee6740b644568024914"
+    },
+    {
+      "path": "experiments/yolo/gdt497_complete_context_safe_tr_default_deck/artifacts/gdt497_110_current_default_cells.tsv",
+      "role": "authoritative current machine-readable defaults",
+      "sha256": "2a5994221e86fe238193507a449c082d07086ea90ee7fe123ce01d806c3a0656"
+    },
+    {
+      "path": "experiments/yolo/gdt497_complete_context_safe_tr_default_deck/artifacts/gdt497_23_context_generalized_composed_cells.tsv",
+      "role": "context-generalized composed cells and examples",
+      "sha256": "a468928d091d1101456f6e68f8443285b99b6c90fbd23a49353ca9c98af592fc"
+    },
+    {
+      "path": "experiments/yolo/gdt497_complete_context_safe_tr_default_deck/artifacts/gdt497_17_observed_state_examples.tsv",
+      "role": "exact retained observed active-argument examples",
+      "sha256": "4ea9dd3b46168ab3947fd0051a87e4fc8ce7c5b379dd014a1a18382313ad5ffb"
+    },
+    {
+      "path": "experiments/yolo/gdt497_complete_context_safe_tr_default_deck/artifacts/gdt497_55_current_tr_pairs.tsv",
+      "role": "complete current direct T-R pair deck",
+      "sha256": "604ebe64548991673b4a9c424400ff95d9dc9f67426a4d6b92ff1f3afd24b14c"
+    },
+    {
+      "path": "experiments/yolo/gdt497_complete_context_safe_tr_default_deck/artifacts/gdt497_11_frame_default_coverage.tsv",
+      "role": "frame-level current-default coverage",
+      "sha256": "68d436b2d036523471a337f7147c4e85360d16a2e1ec265eb9f3e18aa4147b41"
+    },
+    {
+      "path": "experiments/yolo/gdt497_complete_context_safe_tr_default_deck/artifacts/gdt497_5_register_default_coverage.tsv",
+      "role": "register-level current-default coverage",
+      "sha256": "b4be8ea2d7729bca208e32e0c8387e857e6878f20029fe976770dd046dc58bc4"
+    },
+    {
+      "path": "experiments/yolo/gdt497_complete_context_safe_tr_default_deck/artifacts/gdt497_result.json",
+      "role": "compact result",
+      "sha256": "378ccf46b36e305ef75a1401f6795803f73ebc3b66daafd5f945174bb269e1d0"
+    },
+    {
+      "path": "experiments/yolo/gdt497_complete_context_safe_tr_default_deck/artifacts/gdt497_validation.json",
+      "role": "756-check validation record",
+      "sha256": "d5d2b9a8b3128bd724849b4a1c7f6cc22921e3f324085f7c2c14c97b4a98148c"
+    }
+  ],
+  "question": "Can all 110 fixed T-R owner-realization cells receive one current default policy that retains every observation and explicit composition while replacing unobserved inherited POSTEN guesses with context-safe wording?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "complete_context_safe_tr_default_deck",
+  "status": "ONE_HUNDRED_TEN_CURRENT_DEFAULTS__TWENTY_THREE_CONTEXT_GENERALIZED__THIRTY_SEVEN_OBSERVED_RETAINED",
+  "title": "Complete context-safe T-R default deck",
+  "updated": "2026-08-26",
+  "validation": {
+    "artifact": "experiments/yolo/gdt497_complete_context_safe_tr_default_deck/artifacts/gdt497_validation.json",
+    "status": "PASS"
+  }
+}

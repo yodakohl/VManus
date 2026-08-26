@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT496.
+Updated: 2026-08-26, after GDT497.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -335,6 +335,15 @@ the nine state-dependent families actually inherits multiple roots among
 AIIN, AIN, OR and Y. Their better default now says `das zuvor Genannte`
 instead of falsely choosing one Posten noun; action, relation, order and every
 working root meaning remain unchanged.
+
+GDT497 carries that improvement through the complete 110-card T/R deck.
+Thirty-seven observed phrases and fifty self-contained compositions remain
+word-for-word unchanged. Twenty-three unobserved ellipses now use `das zuvor
+Genannte`; eight CH+T/R cards replace the second repeated noun by `es`, and
+five OL cards use fluent `Fahre fort, ...` syntax. This generalizes 31 inherited
+noun positions while changing zero roots or frames. All 55 T/R pairs remain
+distinct, and every generalized cell has observed same-frame and same-action
+state examples.
 
 GDT428 now supplies the missing semantic contrast deck. Six within-class
 comparisons contain 104 exact frames where only the action root changes. The
@@ -1124,6 +1133,10 @@ comparison set.
 
 ## Primary artifacts
 
+- Current GDT497 complete context-safe T/R default deck, all 110 cells, 37
+  observed clauses, fifty explicit compositions, 23 generalized ellipses and
+  55 distinct T/R pairs:
+  `gdt497_complete_context_safe_tr_default_deck/`;
 - Current GDT496 semantic action-substitution atlas, 27 horizontal families,
   95 observed head cells/242 events, eighteen direct defaults, nine
   context-safe defaults and zero remainder conflicts:
@@ -1388,9 +1401,10 @@ comparison set.
 
 ## Next work
 
-Keep the current 26 pages closed. Recompile all 110 GDT493 T/R cells into one
-current default deck: preserve all 37 observed clauses, preserve every
-self-contained composed clause, and replace the fixed Y noun only in all 23
-state-dependent composed cells with `das zuvor Genannte`. Print the seventeen
-observed state-dependent cells beside them as concrete examples of what the
-active context can supply; change no root meaning or formal frame.
+Keep the current 26 pages closed. Expand the same readable-default machinery
+from T/R to all nine short action roots over the eleven established frames and
+five registers. First inventory the 495 action×frame×register cells as exact
+observations, old-value compositions or genuinely unavailable cells. Use only
+the old owner-local action/value tables, preserve observations, apply the same
+context-safe ellipse wording and leave any missing action/register realization
+explicit rather than inventing it.
