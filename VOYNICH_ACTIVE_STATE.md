@@ -50,6 +50,13 @@ Verarbeitungs-, Stations-, Ring-, Transfer- or Lesebahn, but all five reverse
 to BAHN. The same round-trip holds for every event and statement; no new page
 or portable meaning is introduced.
 
+GDT416 turns the atomwise edition into 4,576 concise imperative clauses and a
+complete 715-statement reading using eleven small templates. It carries an
+active action 1,598 times and an active argument 2,096 times, always inside the
+same physical page and frozen visible owner and always in an explicit audit.
+Every clause retains its component recipe and exact GDT413 back-projection;
+the fluent German remains a working paraphrase rather than recovered syntax.
+
 Pass 1032/GDT404 applies the frozen GDT403 intake contract to a one-shot random
 draw of f1r, f24v, f81r and f95v. The 95 guarded lines add 688 events, 88
 statements and 677 focus attachments. Exactly 470 events retain an old surface

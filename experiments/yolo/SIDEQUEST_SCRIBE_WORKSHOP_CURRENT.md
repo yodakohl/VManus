@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT415.
+Updated: 2026-08-26, after GDT416.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -15,9 +15,12 @@ mentions: owner-local expansions may grow, but a second portable meaning or
 structural-role change counts as failure. GDT415 now gives all nineteen roots
 one reversible reading in all five registers: 95 register expansions, 906
 attested root×owner pairs, and concrete readings for all 4,576 events and 715
-statements. The current basis retains 5,051 resolved focus attachments, four
-local channels and nineteen broad working values. Concrete substances,
-objects, body parts and celestial names are still owner-local.
+statements. GDT416 renders the same material as 4,576 imperative clauses and
+715 readable statements with eleven small templates; carried actions and
+arguments remain explicit same-owner state. The current basis retains 5,051
+resolved focus attachments, four local channels and nineteen broad working
+values. Concrete substances, objects, body parts and celestial names are
+still owner-local.
 
 ## Fixed scope
 

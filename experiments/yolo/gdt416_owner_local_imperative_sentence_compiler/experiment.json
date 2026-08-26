@@ -1,0 +1,54 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Complete owner-local imperative working paraphrase only; no recovered syntax, confirmed lexeme, plaintext, language, or source identification.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt416_owner_local_imperative_sentence_compiler/src/run.py",
+    "validate": "python3 experiments/yolo/gdt416_owner_local_imperative_sentence_compiler/src/validate.py"
+  },
+  "created": "2026-08-26",
+  "dependencies": [
+    "GDT412",
+    "GDT413",
+    "GDT415"
+  ],
+  "experiment_id": "GDT416",
+  "inputs": [
+    {"path": "experiments/yolo/gdt415_owner_local_semantic_expansion_atlas/artifacts/gdt415_4576_event_owner_local_edition.tsv", "role": "upstream reproducible input", "sha256": "5229fa53ff862f88fad9c1888d6651ff1f413c1c75a56ba7e1042c4472d4a7d3"},
+    {"path": "experiments/yolo/gdt415_owner_local_semantic_expansion_atlas/artifacts/gdt415_715_statement_owner_local_edition.tsv", "role": "upstream reproducible input", "sha256": "b30ab18edd493168c689ede62e94ae098ad888917aa174098cffc46f6f5ea990"},
+    {"path": "experiments/yolo/gdt412_chd_process_core_completion/artifacts/gdt412_final_19_core_dictionary.tsv", "role": "upstream reproducible input", "sha256": "ca2d880c3d74668a6bbfcd61a2228b968b12ca791fbe185da3a76dbb35230602"},
+    {"path": "experiments/yolo/gdt413_twenty_six_page_semantic_working_edition/artifacts/gdt413_46_component_working_dictionary.tsv", "role": "upstream reproducible input", "sha256": "728113b051828ad7e8cdf46369832f3a81a4792bc104f3ef1f23644af5fa120e"}
+  ],
+  "outputs": [
+    {"path": "experiments/yolo/gdt416_owner_local_imperative_sentence_compiler/README.md", "role": "entry point", "sha256": "6ad08017cba8c5ee406d8469dfcc5d69a9ac022339e77c21df52db0158497e63"},
+    {"path": "experiments/yolo/gdt416_owner_local_imperative_sentence_compiler/METHOD.md", "role": "reproducible method", "sha256": "774ce90e9d8ea1d54e0bcb89bad1253c6a2f7cfc8db683a6831e2cc43019a823"},
+    {"path": "experiments/yolo/gdt416_owner_local_imperative_sentence_compiler/REPORT.md", "role": "primary compact report", "sha256": "5372b714dcff8a00d59ead47d04466ed3399dd45d09c417e588a2e8e0be55e44"},
+    {"path": "experiments/yolo/gdt416_owner_local_imperative_sentence_compiler/src/run.py", "role": "deterministic builder", "sha256": "dc3cf53d532cc75c0dfe924a86acf42957f1e6c51485a1975801fd0c7e646f0d"},
+    {"path": "experiments/yolo/gdt416_owner_local_imperative_sentence_compiler/src/validate.py", "role": "independent validator", "sha256": "a8424618cabaa722316fdbbacf62ed57271fe298f9348e349d3f49cb23bfdc6e"},
+    {"path": "experiments/yolo/gdt416_owner_local_imperative_sentence_compiler/artifacts/README.md", "role": "artifact guide", "sha256": "6fe4f5d5aafc26249d147351c208d0b2dd12e04301dc936fa6a2b05003074a5e"},
+    {"path": "experiments/yolo/gdt416_owner_local_imperative_sentence_compiler/artifacts/COMPLETE_26_PAGE_IMPERATIVE_WORKING_READING.md", "role": "complete readable edition", "sha256": "aa914b0c1c6d6d061aa865721f3b447fb7e9acdb2b69f88719cb7f84e5ac2312"},
+    {"path": "experiments/yolo/gdt416_owner_local_imperative_sentence_compiler/artifacts/gdt416_4576_imperative_clauses.tsv", "role": "reproducible output artifact", "sha256": "cffae521ba93d96446537584e35fa9a4fe4b6e34330ebf7e955ad725f7c70561"},
+    {"path": "experiments/yolo/gdt416_owner_local_imperative_sentence_compiler/artifacts/gdt416_715_imperative_statements.tsv", "role": "reproducible output artifact", "sha256": "8c42b9955bf86a6d871c2ddcde4951bb6c3f42d7bcc34a029bda8e617c63494f"},
+    {"path": "experiments/yolo/gdt416_owner_local_imperative_sentence_compiler/artifacts/gdt416_template_inventory.tsv", "role": "reproducible output artifact", "sha256": "dbf230d43c30404aae956074443d06ac4be6dd1a6fd06c4e1868d150b68b5f2c"},
+    {"path": "experiments/yolo/gdt416_owner_local_imperative_sentence_compiler/artifacts/gdt416_inherited_action_audit.tsv", "role": "reproducible output artifact", "sha256": "f80228bfbe6b0ba5749eb4073c98372609f4002d0e70f60e89f12b9119ec6500"},
+    {"path": "experiments/yolo/gdt416_owner_local_imperative_sentence_compiler/artifacts/gdt416_inherited_argument_audit.tsv", "role": "reproducible output artifact", "sha256": "67943cff1964352196bcd01f798c51c564c518d93debfd23a563950143628f7c"},
+    {"path": "experiments/yolo/gdt416_owner_local_imperative_sentence_compiler/artifacts/gdt416_result.json", "role": "compact result", "sha256": "fb733df8262e3207bb96c24b1e01870a78f76fee2f74f7a9bcba1d5e219e39b8"},
+    {"path": "experiments/yolo/gdt416_owner_local_imperative_sentence_compiler/artifacts/gdt416_validation.json", "role": "validation report", "sha256": "e19e0cc66b1a697d408ff377353ad0ab400d62ddfa71dcf51fb1d8edcc986371"}
+  ],
+  "question": "Can all owner-local register readings be compiled into fluent imperative clauses without new meanings?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "owner_local_imperative_sentence_compiler",
+  "status": "OWNER_LOCAL_IMPERATIVE_EDITION_COMPLETE",
+  "title": "Owner-local imperative sentence compiler",
+  "updated": "2026-08-26",
+  "validation": {
+    "artifact": "experiments/yolo/gdt416_owner_local_imperative_sentence_compiler/artifacts/gdt416_validation.json",
+    "status": "PASS"
+  }
+}
