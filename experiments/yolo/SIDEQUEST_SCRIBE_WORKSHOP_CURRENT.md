@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT479.
+Updated: 2026-08-26, after GDT480.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -65,7 +65,7 @@ CONTROL into `T=EINSTELLEN` and `R=MARKIEREN` creates a five-class gate with
 amber; `R>T` and `R<-EE` remain red-local. The internal meanings of the broad
 classes are not collapsed.
 
-GDT459–GDT479 now resolve the formerly opaque local-address tail as the mixed
+GDT459–GDT480 now resolve the formerly opaque local-address tail as the mixed
 codebook architecture anticipated by the sidequest: portable function cards
 surround memorized owner-bound name cores. Of 107 learned address labels,
 eighteen are now complete function formulas, 87 are function-shell/name-core
@@ -166,6 +166,15 @@ catalogue mixture. All 69 OT/OL slots are printed in place. The eight
 multi-locus records now read as complete units rather than detached local
 fragments. Every record, bundle and event remains traceable in the readable
 book, and the corrected build passes 83/83 checks.
+GDT480 compresses those complete readings without losing their defaults. The
+strict owner-neutral layer has 120 templates; thirteen recur over 28 records,
+including five cross-page and three cross-register forms. Eight of those
+families connect eighteen different surfaces. The exact cross-register cards
+are catalogue `DANACH·NAME`, coordinate `DANACH·ZIELORT·POSTEN`, and catalogue
+`NAME·AUSGANG·NAME`. A broader role layer has 105 shapes, with 21 recurring over
+51 records and eight crossing registers. But 107 strict whole-record forms
+remain singletons: the next reusable grammar must therefore be mined from
+shorter event fragments, not obtained by merging distinct complete records.
 
 GDT428 now supplies the missing semantic contrast deck. Six within-class
 comparisons contain 104 exact frames where only the action root changes. The
@@ -1163,10 +1172,9 @@ comparison set.
 
 ## Next work
 
-Keep the current 26 pages closed. Collapse the 135 complete GDT479 readings
-into recurrent microrecord templates. Group by ordered active model, component
-recipe, continuation shape and owner-neutral name slots; then identify which
-templates recur across pages and owner classes. Preserve the exact surface,
-root order, learned names and all alternatives. The goal is a smaller,
-predictive phrase grammar for the existing edition, not another dictionary
-rewrite.
+Keep the current 26 pages closed. Mine recurrent one-event and adjacent-event
+fragments inside the 135 GDT479 records. Preserve model, component order,
+name-slot equality, bundle boundary and OT/OL scope; distinguish different
+surfaces carrying the same strict fragment from literal repeats. Use the
+fragment atlas to cover the 107 singleton whole-record templates without
+merging their distinct tails or changing the dictionary.

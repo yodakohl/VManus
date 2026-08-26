@@ -1,0 +1,112 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Owner-neutral recurrent template atlas over the fixed GDT479 working edition; role shapes are backoff forms only, with no new meaning, syntax, plaintext, name, surface, recipe, record, or page.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt480_microrecord_template_atlas/src/run.py",
+    "validate": "python3 experiments/yolo/gdt480_microrecord_template_atlas/src/validate.py"
+  },
+  "created": "2026-08-26",
+  "dependencies": ["GDT479"],
+  "experiment_id": "GDT480",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt479_definitive_local_microrecord_edition/artifacts/gdt479_183_definitive_local_events.tsv",
+      "role": "complete definitive event readings and order traces",
+      "sha256": "1827be00bcedf800d4d91344c85d890df7367811413c17adeba0fc4ccf37187a"
+    },
+    {
+      "path": "experiments/yolo/gdt479_definitive_local_microrecord_edition/artifacts/gdt479_146_definitive_local_bundles.tsv",
+      "role": "active grammatical models and fixed bundle topology",
+      "sha256": "311cfbe31d90bbd8fe08462918ca7c7f6382b36b23978c42f24aed3da1cff2f3"
+    },
+    {
+      "path": "experiments/yolo/gdt479_definitive_local_microrecord_edition/artifacts/gdt479_135_definitive_microrecords.tsv",
+      "role": "complete source-ordered microrecord readings",
+      "sha256": "3b2637f3569a62443809eb2aaeb1c8bb64b070175518de3734adc26907dae75f"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt480_microrecord_template_atlas/README.md",
+      "role": "entry point",
+      "sha256": "53fd657c76d67f4e0bac617de5120be1f5ef60a9ca052ed2405fb8594988b07b"
+    },
+    {
+      "path": "experiments/yolo/gdt480_microrecord_template_atlas/METHOD.md",
+      "role": "template normalization method",
+      "sha256": "33663b78c7cae87be9ddfdbc26558d8357d52ac0be3e33fd4932cf9b10813ba4"
+    },
+    {
+      "path": "experiments/yolo/gdt480_microrecord_template_atlas/REPORT.md",
+      "role": "primary report",
+      "sha256": "4d69a8a9d68d76a95999029383db97c5a8e34c8eb50507a3796637d008907e32"
+    },
+    {
+      "path": "experiments/yolo/gdt480_microrecord_template_atlas/src/run.py",
+      "role": "deterministic template builder",
+      "sha256": "2263f0b05fab57b4310c163295ff2a4733a77beafc9fdda6b49d00d016188afa"
+    },
+    {
+      "path": "experiments/yolo/gdt480_microrecord_template_atlas/src/validate.py",
+      "role": "validator and deterministic rebuild check",
+      "sha256": "a9efcb4ef4f7fbb7931befa84dc068c67ea5902462abc0986ef3664c03893cea"
+    },
+    {
+      "path": "experiments/yolo/gdt480_microrecord_template_atlas/artifacts/README.md",
+      "role": "artifact guide",
+      "sha256": "8546be869063ff2dcde85be056b81bf1474018be027817075d147d86a4c5650a"
+    },
+    {
+      "path": "experiments/yolo/gdt480_microrecord_template_atlas/artifacts/GDT480_MICRORECORD_TEMPLATE_ATLAS.md",
+      "role": "readable recurrent template atlas",
+      "sha256": "95dae97d85b533c511ab389ac789e635a306d16767d1586b64ae5dc140c168f0"
+    },
+    {
+      "path": "experiments/yolo/gdt480_microrecord_template_atlas/artifacts/gdt480_135_record_template_assignments.tsv",
+      "role": "complete record template assignments",
+      "sha256": "fe475fb1fe789a2a0065c4ca0f25e23e89c633d52af1a1f28ca844a8ee7a1ca0"
+    },
+    {
+      "path": "experiments/yolo/gdt480_microrecord_template_atlas/artifacts/gdt480_strict_semantic_templates.tsv",
+      "role": "strict owner-neutral meaning templates",
+      "sha256": "7a8d01c608b12cf9843336357d27625f70d74b392c72b40d4feab33d19a55d41"
+    },
+    {
+      "path": "experiments/yolo/gdt480_microrecord_template_atlas/artifacts/gdt480_role_shape_templates.tsv",
+      "role": "broad role-shape templates",
+      "sha256": "5558c80766be8fda8c618440a4172ccbd93d05a2e27eac5fde14d3dff638fe25"
+    },
+    {
+      "path": "experiments/yolo/gdt480_microrecord_template_atlas/artifacts/gdt480_template_coverage_summary.tsv",
+      "role": "template recurrence and coverage summary",
+      "sha256": "b95e90e245410f0a6b80fe719d3d0726e40009cae85b68aa6775357e3ca12e66"
+    },
+    {
+      "path": "experiments/yolo/gdt480_microrecord_template_atlas/artifacts/gdt480_result.json",
+      "role": "compact result",
+      "sha256": "a689f94d02e5eb20849e8e0633f10f5bab2d24bc7d22567a7529793a9f735684"
+    },
+    {
+      "path": "experiments/yolo/gdt480_microrecord_template_atlas/artifacts/gdt480_validation.json",
+      "role": "84-check validation report",
+      "sha256": "91cecd9b4ebdb22a3896e0c4353b3283c190cdbb1e6ff703ce4709bbff4e5bcf"
+    }
+  ],
+  "question": "How much of the complete GDT479 edition reduces to recurrent owner-neutral microrecord templates, and which exact compositions recur across pages or registers?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "microrecord_template_atlas",
+  "status": "ALL_135_RECORDS_HAVE_TEMPLATES__RECURRENT_MICRORECORD_GRAMMAR_ATLAS_COMPLETE",
+  "title": "Microrecord template atlas",
+  "updated": "2026-08-26",
+  "validation": {
+    "artifact": "experiments/yolo/gdt480_microrecord_template_atlas/artifacts/gdt480_validation.json",
+    "status": "PASS"
+  }
+}

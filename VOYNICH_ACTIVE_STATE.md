@@ -11538,3 +11538,30 @@ check caught missing bundle IDs in the readable rendering; after adding them,
 the deterministic validator passes 83/83. Next collapse these 135 complete
 readings into recurrent microrecord templates and look for stable cross-owner
 compositions without opening another page or changing the dictionary.
+
+## GDT480 microrecord template atlas
+
+GDT480 gives every GDT479 record two owner-neutral defaults. The strict key
+preserves its coordinate/instruction/catalogue model, complete ordered
+component meaning, name-slot equality, event and bundle boundaries, and OT/OL
+scope. It produces 120 templates: thirteen recur over 28 records, five cross
+pages and three cross registers. Eight recurrent templates join eighteen
+different visible surfaces; five are exact surface repeats. All thirteen have
+one stable neutral German phrase.
+
+The three cross-register strict families are concrete: catalogue
+`DANACH·NAME` appears four times across celestial, biological and
+pharmaceutical pages; coordinate `DANACH·ZIELORT·POSTEN` bridges f72r and f89r;
+catalogue `NAME·AUSGANG·NAME` bridges the same registers with different name
+cores. These retain exact model, component order and scope, not merely a broad
+shape.
+
+The backoff layer reduces exact meanings to ACTION, ARG, REL, ORDER, NAME and
+MOD. It has 105 shapes; 21 recur over 51 records, thirteen cross pages and eight
+cross registers. Thirteen recurrent shapes join more than one strict meaning
+and cover 33 records. This exposes a reusable card grammar without pretending
+that different roots are synonyms. Conversely, 107 strict and 84 role forms
+remain singletons, so whole-record compression has reached its useful limit.
+No meaning, model, boundary, name, surface, recipe, record or page changes;
+validation passes 84/84. Next mine recurrent event and adjacent-event fragments
+inside the 135 records rather than forcing the singleton whole records together.
