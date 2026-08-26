@@ -1,0 +1,52 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Exploratory working-deck slot licenses only; no confirmed lexeme, morphology, plaintext, language, or source identification.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt420_action_head_slot_license_atlas/src/run.py",
+    "validate": "python3 experiments/yolo/gdt420_action_head_slot_license_atlas/src/validate.py"
+  },
+  "created": "2026-08-26",
+  "dependencies": [
+    "GDT413",
+    "GDT416",
+    "GDT419"
+  ],
+  "experiment_id": "GDT420",
+  "inputs": [
+    {"path": "experiments/yolo/gdt416_owner_local_imperative_sentence_compiler/artifacts/gdt416_4576_imperative_clauses.tsv", "role": "exact recipe input", "sha256": "cffae521ba93d96446537584e35fa9a4fe4b6e34330ebf7e955ad725f7c70561"},
+    {"path": "experiments/yolo/gdt413_twenty_six_page_semantic_working_edition/artifacts/gdt413_46_component_working_dictionary.tsv", "role": "fixed component dictionary", "sha256": "728113b051828ad7e8cdf46369832f3a81a4792bc104f3ef1f23644af5fa120e"},
+    {"path": "experiments/yolo/gdt419_one_atom_compositional_paradigm_closure/artifacts/gdt419_52_unique_missing_predictions.tsv", "role": "predictions to gate", "sha256": "06e53d280d87b33e1c84e551c007dbd502ec1e7b54759c09f3d7dcee97d38766"}
+  ],
+  "outputs": [
+    {"path": "experiments/yolo/gdt420_action_head_slot_license_atlas/README.md", "role": "entry point", "sha256": "85dc3b0172b775d833ea7a184878db5f49ceda2948ef0499bc5a56e0d4de9bd3"},
+    {"path": "experiments/yolo/gdt420_action_head_slot_license_atlas/METHOD.md", "role": "reproducible method", "sha256": "4f25535315639ee81189c23242d3a0e1c71aca97cd8e5cb8abf2faa1fdf139bb"},
+    {"path": "experiments/yolo/gdt420_action_head_slot_license_atlas/REPORT.md", "role": "primary report", "sha256": "67559ae568933f517d5b2d52553795e3db80db6df8320fc264a7f8649dcac1d8"},
+    {"path": "experiments/yolo/gdt420_action_head_slot_license_atlas/src/run.py", "role": "deterministic builder", "sha256": "493ada1191038e88e1c9de4a262c7460ddc900b7ec18e9922f5dd5c67cbdcf71"},
+    {"path": "experiments/yolo/gdt420_action_head_slot_license_atlas/src/validate.py", "role": "validator", "sha256": "96b9981d690cc6bca0094fb0a7c2d9d405cf24fd68debcd0076d6c13ddd9db47"},
+    {"path": "experiments/yolo/gdt420_action_head_slot_license_atlas/artifacts/README.md", "role": "artifact guide", "sha256": "21fc07f4011268b93d99500d880dde917dad54b19564ba9549c148308c31712c"},
+    {"path": "experiments/yolo/gdt420_action_head_slot_license_atlas/artifacts/NINE_ACTION_HEAD_CARDS.md", "role": "readable head cards", "sha256": "1cf8900a73eebf77929dab27ec7077bcc1dc619d7708adacc5630a189efb0643"},
+    {"path": "experiments/yolo/gdt420_action_head_slot_license_atlas/artifacts/gdt420_360_action_slot_atlas.tsv", "role": "complete slot atlas", "sha256": "af8569666d1414003ec5d267be177c01a1ab51f5663a7d2ae5fd6a799fe11e9e"},
+    {"path": "experiments/yolo/gdt420_action_head_slot_license_atlas/artifacts/gdt420_52_gdt419_prediction_gates.tsv", "role": "prediction gates", "sha256": "75c2687efefd9120da595882bc05af44237d8d8b7dd08c1f264182c54e4d2ac2"},
+    {"path": "experiments/yolo/gdt420_action_head_slot_license_atlas/artifacts/gdt420_547_single_head_recipe_inventory.tsv", "role": "single-head inventory", "sha256": "398562a62d096e8ddf9aa8690017e3a250796f0a23fc22500fe7aea761190569"},
+    {"path": "experiments/yolo/gdt420_action_head_slot_license_atlas/artifacts/gdt420_9_action_head_profiles.tsv", "role": "head profiles", "sha256": "6852ab9598814448af449f949273eea208b6fea87732739645a8f03f8dd008cd"},
+    {"path": "experiments/yolo/gdt420_action_head_slot_license_atlas/artifacts/gdt420_result.json", "role": "compact result", "sha256": "16c926b289ad350dcfd9bbe141d9f54111a0b051624d69a22f97ff46836de11a"},
+    {"path": "experiments/yolo/gdt420_action_head_slot_license_atlas/artifacts/gdt420_validation.json", "role": "validation report", "sha256": "292925638236153156d50fdd2b10bb24b0892429dd17e9b158af8824f2ad134d"}
+  ],
+  "question": "Which grade, argument, and endpoint slots are licensed by each working action head?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "action_head_slot_license_atlas",
+  "status": "ACTION_HEAD_SLOT_LICENSE_ATLAS_COMPLETE",
+  "title": "action head slot license atlas",
+  "updated": "2026-08-26",
+  "validation": {
+    "artifact": "experiments/yolo/gdt420_action_head_slot_license_atlas/artifacts/gdt420_validation.json",
+    "status": "PASS"
+  }
+}

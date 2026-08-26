@@ -84,6 +84,15 @@ is 0/6. Treat E/EE/EEE as a licensed paradigm slot, not a freely attachable
 suffix. The 52 unique missing forms are conditional readings, not occurrence
 predictions.
 
+GDT420 replaces free composition with nine action-head cards. Across 547
+single-head recipes/2,184 events, 495 recipes/2,099 events support a clean
+action×grade×argument×endpoint skeleton. Of all 360 cells, 108 are attested,
+145 remain open gaps and 107 are blocked by the current head inventory. `CHD`
+and `R` never license a grade; `R` also never licenses close; `P` has only the
+narrow E/EE and Y/AIIN inventory. Six GDT419 missing forms are therefore no
+longer regular future predictions. A later occurrence must trigger an explicit
+segmentation or head-license revision rather than silent acceptance.
+
 Pass 1032/GDT404 applies the frozen GDT403 intake contract to a one-shot random
 draw of f1r, f24v, f81r and f95v. The 95 guarded lines add 688 events, 88
 statements and 677 focus attachments. Exactly 470 events retain an old surface
