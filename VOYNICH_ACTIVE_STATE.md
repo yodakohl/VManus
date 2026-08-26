@@ -546,6 +546,23 @@ only near-threshold direction channels that actually touch those thirteen,
 starting with prefix `ar`; promotion requires a concrete explanation of every
 running mismatch rather than a lower global threshold.
 
+GDT462 performs that complete edge audit. Eleven running-text edge channels
+touch at least one of the thirteen residual labels, but only prefix `ar=AR`
+falls in the fixed 0.75-to-below-0.90 review band. Six of seven longer running
+surfaces begin with the same `AR` recipe. The sole mismatch, `arary`, is not a
+second value: it shares exact recipe `P+AR+AR` with `parar` on another page,
+and both cards contain two peer `AR` attachments to one `P` head under the
+existing repeated-relation package. GDT462 therefore licenses this named
+package exception without lowering the global edge threshold. `arom` now reads
+`AUSGANG + [learned stellar name core om]` and `arody` reads `AUSGANG +
+[learned drug name core ody]`. The deck becomes twelve full formulas, 83
+function-shell/name-core hybrids, one family-only label and eleven whole
+labels; 395/713 characters and 95/107 labels carry a calibrated function. No
+other channel is promoted. Next audit the four exact but low-support channels
+separately: suffix `oin` (3/3), prefix `kor` (2/2), prefix `yky` (1/1), and
+suffix `cfhy` (1/1); require independent package or paradigm support rather
+than counting perfect precision on one to three examples as sufficient.
+
 Pass 1032/GDT404 applies the frozen GDT403 intake contract to a one-shot random
 draw of f1r, f24v, f81r and f95v. The 95 guarded lines add 688 events, 88
 statements and 677 focus attachments. Exactly 470 events retain an old surface
