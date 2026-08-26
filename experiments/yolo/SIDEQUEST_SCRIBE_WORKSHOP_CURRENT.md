@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT446.
+Updated: 2026-08-26, after GDT447.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -247,6 +247,15 @@ the red pair `S>P`. Deleting every accepted visible separator forces 471/471
 pair stops; removing every accepted inherited head forces 934/934 missing-head
 stops. All preserve state. The GDT445 audit receives 62 READ→AMBER and eleven
 READ→STOP corrections; none removes a real-context occurrence.
+
+GDT447 attacks fuzzy identity directly. All 1,563 catalog keys generate 30,763
+bounded neighbours: 5,499 atom deletions, 3,936 adjacent swaps and 21,328
+same-portable-class substitutions. Exactly 6,372 directed neighbours land on
+an actually cataloged target; all other 24,391 retain new identity, with zero
+source carry or fuzzy match. Only 198 swaps hit an exact key, so order remains
+strongly identity-bearing. The independent factor channel reads 19,792 of the
+new targets green, 941 amber and stops 3,658. This breadth is useful only after
+visibility and remains explicitly nonpredictive.
 
 ## Fixed scope
 
@@ -818,6 +827,10 @@ comparison set.
 
 ## Primary artifacts
 
+- Current GDT447 30,763-edge exact-identity near-neighbour atlas, split
+  deletion/swap/action/nonaction tables, 19,807-target collision map and family
+  summary:
+  `gdt447_catalog_near_neighbor_identity_atlas/`;
 - Current GDT446 identity/execution split, corrected command, complete catalog,
   current/candidate/probe editions, 1,405 route-changing transformations and
   73-row GDT445 correction ledger:
@@ -1012,9 +1025,8 @@ comparison set.
 
 ## Next work
 
-Keep the current 26 pages closed. Generate bounded deletion, adjacent-swap and
-same-class one-atom neighbours for all 1,563 catalog keys. Exact identity must
-survive only when the transformed ordered recipe is itself a catalog key;
-otherwise only the independent factor/context channel may read it. Publish the
-full collision and stop map. Do not add a meaning, surface, page or inferred
-allograph.
+Keep the current 26 pages closed. Inject the bounded GDT447 neighbours into the
+actual incoming action, argument and statement-scope states of the 4,576
+current events. Deduplicate identical context×target cases, keep identity exact,
+and map which neutral stops are rescued or created by real context. Do not
+generate a surface, occurrence or new meaning.

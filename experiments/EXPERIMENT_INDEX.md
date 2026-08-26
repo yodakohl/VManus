@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **445**
-- Experiment-associated tracked files: **6,384** (700.6 MiB)
-- Structured GDT337+ experiments: **110**
+- Experiments indexed: **446**
+- Experiment-associated tracked files: **6,399** (709.0 MiB)
+- Structured GDT337+ experiments: **111**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT447 | GDT447_catalog_near_neighbor_identity_atlas | `EXACT_IDENTITY_NEVER_LEAKS_TO_THIRTY_THOUSAND_SEVEN_HUNDRED_SIXTY_THREE_NEAR_NEIGHBORS` | [report](../experiments/yolo/gdt447_catalog_near_neighbor_identity_atlas/REPORT.md) | 15 | 8.4 MiB | 3 | STRUCTURED_YOLO |
 | GDT446 | GDT446_identity_execution_intake_split | `IDENTITY_AND_EXECUTION_SPLIT__ELEVEN_FALSE_EXECUTIONS_STOPPED` | [report](../experiments/yolo/gdt446_identity_execution_intake_split/REPORT.md) | 16 | 4.1 MiB | 5 | STRUCTURED_YOLO |
 | GDT445 | GDT445_prospective_intake_certificate | `ONE_EXECUTABLE_CERTIFICATE_INTEGRATES_EXACT_FACTOR_CONTEXT_SLOT_AND_STOP_ROUTES` | [report](../experiments/yolo/gdt445_prospective_intake_certificate/REPORT.md) | 14 | 4.4 MiB | 5 | STRUCTURED_YOLO |
 | GDT444 | GDT444_focus_separated_action_pair_atlas | `ALL_FORTY_FOUR_RED_DIRECT_PAIRS_HAVE_AT_LEAST_TEN_READABLE_FOCUS_SEPARATORS` | [report](../experiments/yolo/gdt444_focus_separated_action_pair_atlas/REPORT.md) | 13 | 113.6 KiB | 4 | STRUCTURED_YOLO |

@@ -357,6 +357,16 @@ slot chains and removing the head from 934 accepted close contexts yields
 READ→AMBER and eleven READ→STOP corrections. Validation passes 42/42; no
 meaning, surface, occurrence or page changes.
 
+GDT447 tests exact identity against 30,763 bounded neighbours of all 1,563
+catalog keys: 5,499 deletions, 3,936 adjacent swaps and 21,328 substitutions
+within the five portable core classes. Exactly 6,372 directed edges reach a
+genuine catalog target; 24,391 remain new identities. There are zero fuzzy
+identity leaks, source-identity carries or fuzzy matcher uses. Only 198 swaps
+reach a catalog key. The independent neutral-context factor channel reads new
+targets 19,792 green and 941 amber, with 3,658 stops, so readability remains
+strictly post-occurrence. Validation passes 34/34; no meaning, surface,
+occurrence or page changes.
+
 Pass 1032/GDT404 applies the frozen GDT403 intake contract to a one-shot random
 draw of f1r, f24v, f81r and f95v. The 95 guarded lines add 688 events, 88
 statements and 677 focus attachments. Exactly 470 events retain an old surface
