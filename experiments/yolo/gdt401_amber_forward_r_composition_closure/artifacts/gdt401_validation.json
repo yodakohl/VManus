@@ -1,0 +1,221 @@
+{
+  "status": "PASS",
+  "check_count": 33,
+  "failed_checks": [],
+  "checks": {
+    "source_count": {
+      "pass": true,
+      "observed": 4374
+    },
+    "transition_count": {
+      "pass": true,
+      "observed": 3
+    },
+    "resolution_count": {
+      "pass": true,
+      "observed": 4
+    },
+    "resolution_identity": {
+      "pass": true,
+      "observed": [
+        "G399-A01468",
+        "G399-A02820",
+        "G399-A03234",
+        "G399-A03235"
+      ]
+    },
+    "transition_partition": {
+      "pass": true,
+      "observed": [
+        "1",
+        "1",
+        "2"
+      ]
+    },
+    "f82_is_one_two_focus_transition": {
+      "pass": true,
+      "observed": [
+        "2"
+      ]
+    },
+    "all_scope_green": {
+      "pass": true,
+      "observed": {
+        "GREEN_EXISTING_TWO_STAGE_PARSE": 4
+      }
+    },
+    "one_semantic_caution": {
+      "pass": true,
+      "observed": {
+        "UNCHANGED_CORE_VALUE": 3,
+        "AMBER_KEEP_EE_INSIDE_OT_PACKET": 1
+      }
+    },
+    "all_target_r": {
+      "pass": true,
+      "observed": [
+        [
+          "R",
+          "1"
+        ],
+        [
+          "R",
+          "1"
+        ],
+        [
+          "R",
+          "1"
+        ],
+        [
+          "R",
+          "1"
+        ]
+      ]
+    },
+    "all_one_card": {
+      "pass": true,
+      "observed": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    "no_owner_cross": {
+      "pass": true,
+      "observed": [
+        "NO",
+        "NO",
+        "NO",
+        "NO"
+      ]
+    },
+    "target_recipe_starts_r": {
+      "pass": true,
+      "observed": [
+        "R+OL",
+        "R+SH+D_ADDR+Y",
+        "R+AIIN",
+        "R+AIIN"
+      ]
+    },
+    "source_rows_agree": {
+      "pass": true,
+      "observed": 4
+    },
+    "three_distinct_statements": {
+      "pass": true,
+      "observed": [
+        "P1009-S115",
+        "P1009-S411",
+        "P1009-S494"
+      ]
+    },
+    "no_locus_crossing": {
+      "pass": true,
+      "observed": [
+        "NO",
+        "NO",
+        "NO"
+      ]
+    },
+    "parent_count": {
+      "pass": true,
+      "observed": 13
+    },
+    "outside_parents_nonbio": {
+      "pass": true,
+      "observed": {
+        "HERBAL": 2,
+        "CELESTIAL": 7,
+        "PHARMA": 3
+      }
+    },
+    "parent_register_coverage": {
+      "pass": true,
+      "observed": [
+        "CELESTIAL",
+        "HERBAL",
+        "PHARMA"
+      ]
+    },
+    "same_register_control": {
+      "pass": true,
+      "observed": [
+        "G399-A02584"
+      ]
+    },
+    "factor_count": {
+      "pass": true,
+      "observed": 5
+    },
+    "forward_count": {
+      "pass": true,
+      "observed": "127"
+    },
+    "r_head_count": {
+      "pass": true,
+      "observed": "60"
+    },
+    "r_head_all_registers": {
+      "pass": true,
+      "observed": "BIOLOGICAL|CELESTIAL|HERBAL|PHARMA"
+    },
+    "r_head_multiple_scope_classes": {
+      "pass": true,
+      "observed": "BOUNDED_NEXT_CARD_ACTION|INHERITED_ACTION|PREVIOUS_CARD_ACTION|SAME_CARD_LEFT_ACTION|SAME_CARD_RIGHT_ACTION"
+    },
+    "forward_multiple_heads": {
+      "pass": true,
+      "observed": "CH|CHD|K|OK|P|R|S|SH|T"
+    },
+    "forward_to_r_five_attachments": {
+      "pass": true,
+      "observed": "5"
+    },
+    "deck_count": {
+      "pass": true,
+      "observed": 14
+    },
+    "deck_forward_addition": {
+      "pass": true,
+      "observed": [
+        "KNOWN_FORWARD_TO_R_IS_GREEN_WHEN_R_IS_FIRST_VISIBLE_HEAD"
+      ]
+    },
+    "result_status": {
+      "pass": true,
+      "observed": "AMBER_SCOPE_CLOSED__ONE_SEMANTIC_CAUTION_RETAINED"
+    },
+    "no_new_scope_family": {
+      "pass": true,
+      "observed": 0
+    },
+    "sealed_pages_absent": {
+      "pass": true,
+      "observed": []
+    },
+    "result_hashes": {
+      "pass": true,
+      "observed": 5
+    },
+    "deterministic_rebuild": {
+      "pass": true,
+      "observed": {
+        "returncode": 0,
+        "hashes_equal": true
+      }
+    }
+  },
+  "validated_hashes": {
+    "gdt401_three_transition_adjudication.tsv": "d4e0eafbe834b0c0d74f199e278f5418b3c5a1e8fefb577de3ce049a0a56d43d",
+    "gdt401_four_attachment_resolution.tsv": "8975ccaf5fbdda27c46b0df63709c9475ca375422f3e0acf88cdb4743259f71a",
+    "gdt401_parent_examples.tsv": "16e0cf8bca636358eb3b2a068b40bf7cfb7ba386e2de6aa905f52866977c06f7",
+    "gdt401_factor_support.tsv": "58db6976ed25669b3c71c8521ab7b8f3fc23aae38e8d4dceccd3749c4f1385a5",
+    "gdt401_error_deck_v2.tsv": "0791202a08c87667215d3f0c24eaea97c391a0d92156fa1ba71056a24848474d",
+    "gdt401_result.json": "65f6a59f76263c6e73035030c771474f231ccf93cf476e765bfb59b8b382c327",
+    "REPORT.md": "372ed79a6a3439e3ae0cbbfd2ce71d665534c10d9fdfb3bd137176a9bb1e07d5",
+    "MANUAL_THREE_TRANSITIONS.md": "d0e698b71843fd546adac3af1c73f32d4945b001d6007ec6065470dcd4ab25b7",
+    "NEXT_FOUR_PAGE_ERROR_DECK_V2.md": "77cf649e6dcf2f1ba8aa819e7f529bc6749be4b9e00c4a161d4c00d2df7cec8a"
+  }
+}

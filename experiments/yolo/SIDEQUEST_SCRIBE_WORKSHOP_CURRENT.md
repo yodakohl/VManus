@@ -1,14 +1,15 @@
 # Current twenty-two-page scribe-workshop theory
 
-Updated: 2026-08-26, after Pass 1028 / GDT400.
+Updated: 2026-08-26, after Pass 1029 / GDT401.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. Pass 1026 audits
 every old one-edit neighbour transfer and resegments 203 surfaces visibly;
 Pass 1027/GDT399 rebuilds the scope layer from those recipes; Pass 1028/GDT400
-turns it into a hierarchical future-page error deck. The current basis is 627
-statements, 4,374 resolved focus attachments, four local channels and 19
-unchanged working core values.
+turns it into a hierarchical future-page error deck; Pass 1029/GDT401 closes
+its four amber Scope rows as three ordinary forward-to-R card transitions. The
+current basis is 627 statements, 4,374 resolved focus attachments, four local
+channels and 19 unchanged working core values.
 
 ## Fixed scope
 
@@ -386,6 +387,16 @@ to AL/AR owner fallback, L/AIR owner fallback, current close, or visible-owner
 ellipsis. The next-page sheet now has four green, three amber and seven red
 rules rather than a vague instruction to “see whether it fits.”
 
+Pass 1029/GDT401 rereads those four amber rows in their full statements. They
+are only three card transitions: `Y | R+OL`, `Y | R+SH+D_ADDR+Y`, and one
+`OT+EE+Y | R+AIIN` packet whose two focus atoms produced two audit rows. In all
+three, the source and target share owner and statement, the target is exactly
+one card later, and `R` is its first action atom. The parser therefore applies
+the old forward rule first and the old R-head license second. This is not a new
+coarse construction. All four scope rows are green in the V2 deck. Only one
+semantic caution remains: `EE` stays inside the OT packet and must not be
+expanded as the duration or intensity of MARKIEREN.
+
 ## Constrained semantic pocket dictionary
 
 The twelve content/action cores are:
@@ -517,6 +528,10 @@ comparison set.
 
 ## Primary artifacts
 
+- Current Pass-1029/GDT401 manual closure of the three forward-to-R
+  transitions, four attachment decisions, thirteen parent examples, revised
+  V2 error deck, runner and 33-check validator:
+  `gdt401_amber_forward_r_composition_closure/`;
 - Current Pass-1028/GDT400 hierarchical replay of all 4,374 attachments, 544
   signatures, complete 127-forward and 126-owner audits, twenty-two-page
   rehearsal, fourteen-rule error deck, runner and thirty-check validator:
@@ -639,10 +654,9 @@ comparison set.
 
 ## Next work
 
-Manually inspect the four amber Biological forward-to-R cases and their nearest
-outside-register parent examples. Either reduce them to an already taught
-single parent construction or retain them as explicit compound examples. Then
-the current `NEXT_FOUR_PAGE_ERROR_DECK.md` is ready to apply unchanged to the
-next four-page batch. New rooted surfaces and local addresses remain allowed;
-invisible atoms, unlicensed one-edit recipe copying, owner jumps and a tenth
-coarse scope family do not.
+Factor the complete 4,374-row replay into a scope-selector axis and a separate
+head-license axis so that GDT400's concatenated signatures cannot create more
+false amber cases. Then apply `NEXT_FOUR_PAGE_ERROR_DECK_V2.md` unchanged to the
+next four-page batch when the user releases it. New rooted surfaces and local
+addresses remain allowed; invisible atoms, unlicensed one-edit recipe copying,
+owner jumps and a tenth coarse scope family do not.

@@ -6,7 +6,7 @@ Updated: 2026-08-26. This is the full claim registry. For routine work, read
 
 ## Outcome
 
-### Noncanonical twenty-two-page sidequest (Pass 1028 / GDT400)
+### Noncanonical twenty-two-page sidequest (Pass 1029 / GDT401)
 
 The creative workshop sidequest covers twenty-two admitted physical pages with
 4,581 visible groups: 3,888 running prose/ring-text groups plus 693 local
@@ -331,6 +331,16 @@ cross-register microform. The complete 127 forward cases all reach a visible
 head exactly one card later, and all 126 owner ellipses have a named reason.
 The operational deck contains four green transfers, three amber fallbacks and
 seven red stopping conditions.
+
+Pass 1029/GDT401 manually rereads the four amber rows as complete statements.
+They are only three visible card transitions: one on f75r, one on f81v, and one
+f82r `OT+EE+Y | R+AIIN` packet whose `EE` and `Y` had been counted separately.
+Every transition stays within one owner and statement, advances exactly one
+card, and meets `R` as the first visible action atom. The scope therefore
+factorizes into an existing forward selector followed by the existing R-head
+license; all four scope rows become green and no tenth family is added. The
+semantic restriction is deliberately narrower: `EE` remains internal to the
+f82r OT packet and does not acquire the new gloss “longer/stronger MARKIEREN”.
 
 - The manuscript is **not translated**. There are zero confirmed English
   lexemes, zero plaintext clauses, and no established language, phonetic
