@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **509**
-- Experiment-associated tracked files: **7,407** (795.3 MiB)
-- Structured GDT337+ experiments: **174**
+- Experiments indexed: **510**
+- Experiment-associated tracked files: **7,421** (795.4 MiB)
+- Structured GDT337+ experiments: **175**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT511 | GDT511_schd_local_linkage_strength_atlas | `SOURCE_SAME_STATEMENT__PHARMA_SAME_OWNER_PAGE__CELESTIAL_SAME_PAGE__ZERO_IMMEDIATE_OR_Y_CONTINUOUS` | [report](../experiments/yolo/gdt511_schd_local_linkage_strength_atlas/REPORT.md) | 14 | 112.4 KiB | 5 | STRUCTURED_YOLO |
 | GDT510 | GDT510_four_cross_frame_local_factor_bridges | `CELESTIAL_PCH_HAS_LOCAL_SUFFIX__THREE_SCHD_TARGETS_HAVE_LOCAL_HEAD_ARGUMENT_RECTANGLES` | [report](../experiments/yolo/gdt510_four_cross_frame_local_factor_bridges/REPORT.md) | 14 | 62.4 KiB | 5 | STRUCTURED_YOLO |
 | GDT509 | GDT509_eleven_pair_target_evidence_strength_deck | `ELEVEN_PAIR_TARGETS_UNIFIED_IN_FOUR_EVIDENCE_ROUTES__ALL_DEFAULTS_RETAINED` | [report](../experiments/yolo/gdt509_eleven_pair_target_evidence_strength_deck/REPORT.md) | 13 | 53.5 KiB | 4 | STRUCTURED_YOLO |
 | GDT508 | GDT508_source_chch_repeated_package_bridge | `SOURCE_CHCH_GAINS_LOCAL_REPEATED_PACKAGE_BRIDGE__ALL_FOUR_CONTEXT_TARGETS_HAVE_LOCAL_SUPPORT` | [report](../experiments/yolo/gdt508_source_chch_repeated_package_bridge/REPORT.md) | 13 | 51.0 KiB | 6 | STRUCTURED_YOLO |

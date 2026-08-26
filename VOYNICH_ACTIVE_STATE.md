@@ -12319,3 +12319,26 @@ surface/occurrence claims remain unchanged; every bare target is still
 unobserved. Validation passes 189/189. Next adapt GDT507's proximity hierarchy
 only to the three `S+CHD+Y` registers and distinguish same-statement, same-owner
 and same-page linkage without opening a page or changing a meaning.
+
+## GDT511 S+CHD local linkage-strength atlas
+
+GDT511 expands all 62 GDT510 S-on-Y × CHD-on-Y rectangles rather than reading
+three selected witnesses as if they were equivalent. Forty-six have `S` before
+`CHD`, but only twelve share a page, two share an owner and one shares a
+statement. No ordered candidate is immediate or zero/one-gap, no interval
+keeps active `Y` throughout, and no target register contains `S>CHD` inside a
+single event. Thus zero reaches GDT507's immediate same-statement
+shared-inherited-argument bridge level.
+
+The strongest Source link is `E0079→E0102` in one statement with 22 intervening
+events. Pharma's `E3999→E4028` stays with one f88v owner across four statements
+and 28 intervening events. Celestial's nearest page-local link
+`E1243→E1276` crosses owners and has 32 intervening events. Their active
+argument traces repeatedly switch between `Y` and `AIIN`/`AIN`.
+
+GDT510's local-head inventory remains useful but is not a local pair witness.
+The three phrases and meanings are retained as exploratory compositions; pair
+order remains sourced from Biological `E1883`, and every exact target remains
+unobserved. Validation passes 1,700/1,700. Next revise GDT509's eleven-card deck
+with the GDT510 suffix and GDT511 linkage tiers, then close this pair front
+without another page or meaning change.

@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-27, after GDT510.
+Updated: 2026-08-27, after GDT511.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -1457,7 +1457,17 @@ the naked target recipe.
 
 All eleven pair cards now have some target-register factor support, while all
 eleven working translations, all root values and every `COMPOSED_WORKING`
-label remain fixed. Next apply the already understood same-statement/owner/page
-proximity hierarchy only to the three `S+CHD+Y` registers. Do not collect more
-unranked rectangles, reopen another card, change a meaning, or open a new page.
-Every bare target recipe remains an unobserved composition.
+label remain fixed.
+
+GDT511 expands all 62 `S`-on-`Y` × `CHD`-on-`Y` combinations. Forty-six have
+the required order, but only twelve remain on one page, two at one owner and
+one in one statement. None is immediate, zero/one-gap, uninterrupted in active
+`Y`, or present inside one target-register event. Source therefore supplies a
+long same-statement head inventory, Pharma a long same-owner/page inventory and
+Celestial a same-page cross-owner inventory. None is a local pair witness;
+Biological `G407-E1883` still supplies directed `S>CHD` order.
+
+Next revise the complete eleven-card sheet once so its mechanism and linkage
+tiers include GDT510–511, then stop this pair route. Do not collect more distant
+rectangles, reopen a meaning, or open a new page. Every bare target recipe
+remains an unobserved composition.
