@@ -6,7 +6,7 @@ Updated: 2026-08-26. This is the full claim registry. For routine work, read
 
 ## Outcome
 
-### Noncanonical twenty-two-page sidequest (Pass 1024)
+### Noncanonical twenty-two-page sidequest (Pass 1025)
 
 The creative workshop sidequest covers twenty-two admitted physical pages with
 4,581 visible groups: 3,888 running prose/ring-text groups plus 693 local
@@ -282,6 +282,23 @@ and 548 a page-private atom recipe, yet every atom stays on the apprentice
 sheet. Thus future-page admission must allow new rooted forms while refusing
 new meanings for known roots or new coarse scope rules. f69v/f70v remain pure
 address copying and do not open a prose stack.
+
+Pass 1025 withholds whole registers and catches a real surface-level defect
+before scoring. The same visible `cheo` had inherited either R from `cheor` or
+L from `cheol`, while `okeor` had inherited zero or two E-grades from `okor`
+and `okeeor`. These one-edit imports are removed: `cheo=CH+E+O` and
+`okeor=OK+E+OR` now hold at all nine affected events. Eight statements change,
+four invisible L foci disappear, one visible E focus is restored, and the
+current focus inventory is 4,342. The new rule is strict surface determinism:
+similar spellings may be allographs but may not import absent semantic atoms.
+
+After that repair, all four complete registers replay with outside-register
+support for every category and coarse rule they use. Thirty of 31 teaching
+categories occur in all four; only VORBEZUG is limited to Herbal+Celestial,
+which support each other. Of 3,888 running events, 2,261 have an exact surface
+outside their register, 594 only a known outside-register recipe, and 1,033 a
+register-new recipe built wholly from fixed atoms. This supersedes the
+Pass-1024 admission sheet with the added one-surface/one-recipe rule.
 
 - The manuscript is **not translated**. There are zero confirmed English
   lexemes, zero plaintext clauses, and no established language, phonetic

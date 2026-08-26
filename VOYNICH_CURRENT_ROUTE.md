@@ -1,14 +1,14 @@
 # Voynich current route
 Updated: 2026-08-26. Use `experiments/EXPERIMENT_INDEX.tsv` for primary reports; consult the active state and ledger only for claim-detail audits or historical reconstruction.
 Noncanonical twenty-two-page sidequest: `experiments/yolo/SIDEQUEST_SCRIBE_WORKSHOP_CURRENT.md`.
-Its creative Pass-1023 release binds 4,581 groups (3,888 running, 693 local) in one physically ordered 627-statement edition.
+Its creative Pass-1025 release binds 4,581 groups (3,888 running, 693 local) in one physically ordered 627-statement edition.
 The semantic pocket dictionary has 46 signs: 12 content/action cores, 7
 relation cores, 8 formal controls and 19 local signs; the latter reduce to
 HIER, VARIANTE, KLASSE and VORBEZUG. Of 3,888 running events, 3,343 use the
 portable core, 490 require a local sign and 55 are control-only. A new
 composition must keep the fixed core sum; conflicts cannot be rescued by
 redefining roots.
-Pass 1024 replays every admitted page as the next workshop leaf. All nine coarse scope families survive every page holdout and no running page needs a private family; four single-occurrence microforms combine already portable parents. The replay also corrects AL/AR to left→active→same-card-right→owner. Exact surface novelty is normal (1,029/3,888 events) and 548 events use a page-private recipe, but every atom remains on the fixed sheet. f69v/f70v stay address-only. The next four real pages must keep all 19 core values and these scope rules; new local names and rooted surfaces are allowed, semantic retuning is not.
+Pass 1025 withholds each complete register and first repairs two surface conflicts inherited from one-edit matching: `cheo=CH+E+O` and `okeor=OK+E+OR` now hold identically at all nine occurrences, leaving 4,342 real focus attachments. Thirty of 31 categories occur in all four registers; VORBEZUG occurs in Herbal+Celestial, and every category and all nine scope families have outside-register support wherever used. Cross-register replay gives 2,261 exact surfaces, 594 known recipes and 1,033 new recipes from fixed atoms. Future pages may add rooted forms and local names, but not invisible atoms from a similar spelling, alternate recipes for one surface, retuned cores or new coarse scope.
 ## Scientific ceiling
 
 - The manuscript is **not translated**.

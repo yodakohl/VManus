@@ -1,13 +1,13 @@
 # Current twenty-two-page scribe-workshop theory
 
-Updated: 2026-08-26, after Pass 1024.
+Updated: 2026-08-26, after Pass 1025.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
-translation**. This is the compact handoff for the sidequest. Pass 1024 replays
-every admitted page as a new workshop leaf and finds no page-private coarse
-scope rule. All 627 statements retain their selected owner–package–action–
-argument reading, four local channels, forward compiler, and 19 fixed working
-core values that each occur in all four registers.
+translation**. This is the compact handoff for the sidequest. Pass 1025
+withholds complete registers, repairs two same-surface/different-recipe defects,
+and finds no register-private category or coarse scope rule where one is used.
+All 627 statements retain their owner–package–action–argument reading, four
+local channels, forward compiler, and 19 fixed working core values.
 
 ## Fixed scope
 
@@ -332,6 +332,23 @@ surface or new rooted composition is therefore expected on the next pages; a
 new meaning for a known core or a new coarse attachment rule is not. f69v and
 f70v remain address-only even where their labels contain action-like atoms.
 
+Pass 1025 makes the replay register-wide and immediately exposes an older
+one-edit error. The exact surface `cheo` had been expanded from `cheor` on
+f72r but from `cheol` on f76r/f89r; `okeor` had similarly borrowed either
+`okor` or `okeeor`. The visible repair is invariant: `cheo=CH+E+O` and
+`okeor=OK+E+OR`. Nine events in eight statements change, four invisible
+L-focus rows disappear, one visible E focus is added and two EE grades become
+E. The current focus count is 4,342. Henceforth an allograph may signal
+graphic kinship but cannot import a missing semantic atom.
+
+With each entire register excluded in turn, every category and all nine coarse
+rules used by that register remain taught outside it. Thirty of 31 categories
+occur in all four registers; only VORBEZUG is confined to Herbal+Celestial,
+which teach it to each other. Cross-register event replay yields 2,261 exact
+surface transfers, 594 additional known recipes and 1,033 register-new recipes
+whose atoms are all fixed. New composition remains normal; alternate recipes
+for one exact surface are now forbidden.
+
 ## Constrained semantic pocket dictionary
 
 The twelve content/action cores are:
@@ -463,6 +480,11 @@ comparison set.
 
 ## Primary artifacts
 
+- Current Pass-1025 whole-register replay, surface-deterministic 3,888-event
+  edition, corrected 4,342-attachment inventory, all 18 repair operations,
+  eight corrected statements, category/rule support, current next-four-page
+  admission sheet, builder and validator:
+  `sidequest_semantic_leave_one_register_replay_one_thousand_twenty_fifth/`;
 - Current Pass-1024 twenty-two-door replay, all 4,345 attachment holdouts,
   3,888 event replays, page/rule/microform tables, two independent panel
   reports, the next-four-page admission sheet, builder and validator:
@@ -568,7 +590,7 @@ comparison set.
 ## Next work
 
 Wait for the user to release the next four pages, then apply
-`PASS1024_NEXT_FOUR_PAGE_ADMISSION_SHEET.md` unchanged to all four before any
+`PASS1025_NEXT_FOUR_PAGE_ADMISSION_SHEET.md` unchanged to all four before any
 dictionary repair. Count exact transfers, new rooted surfaces, local addresses,
 isolated `NEW_LOCAL_CARD` cases and red failures separately. Do not alter the
 sheet until the whole four-page batch has been read.
