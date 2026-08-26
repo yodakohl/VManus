@@ -1,13 +1,13 @@
 # Current twenty-two-page scribe-workshop theory
 
-Updated: 2026-08-26, after Pass 1025.
+Updated: 2026-08-26, after Pass 1026.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
-translation**. This is the compact handoff for the sidequest. Pass 1025
-withholds complete registers, repairs two same-surface/different-recipe defects,
-and finds no register-private category or coarse scope rule where one is used.
-All 627 statements retain their owner–package–action–argument reading, four
-local channels, forward compiler, and 19 fixed working core values.
+translation**. This is the compact handoff for the sidequest. Pass 1026 audits
+every old one-edit neighbour transfer, keeps only named package variants and
+resegments 203 surfaces visibly. The physical 627-statement edition, four local
+channels and 19 fixed working core values remain; the Pass-1025 attachment
+layer must now be rebuilt from the corrected event ledger.
 
 ## Fixed scope
 
@@ -338,7 +338,7 @@ f72r but from `cheol` on f76r/f89r; `okeor` had similarly borrowed either
 `okor` or `okeeor`. The visible repair is invariant: `cheo=CH+E+O` and
 `okeor=OK+E+OR`. Nine events in eight statements change, four invisible
 L-focus rows disappear, one visible E focus is added and two EE grades become
-E. The current focus count is 4,342. Henceforth an allograph may signal
+E. The Pass-1025 focus count was 4,342. Henceforth an allograph may signal
 graphic kinship but cannot import a missing semantic atom.
 
 With each entire register excluded in turn, every category and all nine coarse
@@ -348,6 +348,19 @@ which teach it to each other. Cross-register event replay yields 2,261 exact
 surface transfers, 594 additional known recipes and 1,033 register-new recipes
 whose atoms are all fixed. New composition remains normal; alternate recipes
 for one exact surface are now forbidden.
+
+Pass 1026 expands that spot repair to every one of the 271 old one-edit
+assignments. Only 23 events on 21 surfaces keep the same recipe under a named
+package rule; nine events on `cheo` and `okeor` were already repaired; 239
+events on 203 surfaces receive new visible recipes. The changes touch 96 of
+627 statements while leaving every German core value unchanged and preserving
+one-surface/one-recipe over all 3,888 running events. Typical repairs include
+`aiiny=AIIN+Y`, `olain=OL+AIN`, `otees=OT+EE+S`,
+`chokaiin=OK+AIIN`, `chekaiin=CH+K+AIIN` and
+`qokas=OK+A_ADDR+S`. The old 4,342-focus inventory is therefore superseded
+until scope is recomputed. The stronger rule is now: **one edit is not an
+allograph**; only a named wrapper or package rule may erase the semantic effect
+of a changed sign.
 
 ## Constrained semantic pocket dictionary
 
@@ -480,8 +493,12 @@ comparison set.
 
 ## Primary artifacts
 
+- Current Pass-1026 complete audit of 271 old one-edit events, 226 surface
+  decisions, corrected surface-deterministic 3,888-event ledger, 96 affected
+  statements, next replay sheet, builder and validator:
+  `sidequest_semantic_visible_allograph_resegmentation_one_thousand_twenty_sixth/`;
 - Current Pass-1025 whole-register replay, surface-deterministic 3,888-event
-  edition, corrected 4,342-attachment inventory, all 18 repair operations,
+  edition and now-superseded 4,342-attachment inventory, all 18 repair operations,
   eight corrected statements, category/rule support, current next-four-page
   admission sheet, builder and validator:
   `sidequest_semantic_leave_one_register_replay_one_thousand_twenty_fifth/`;
@@ -589,8 +606,9 @@ comparison set.
 
 ## Next work
 
-Wait for the user to release the next four pages, then apply
-`PASS1025_NEXT_FOUR_PAGE_ADMISSION_SHEET.md` unchanged to all four before any
-dictionary repair. Count exact transfers, new rooted surfaces, local addresses,
-isolated `NEW_LOCAL_CARD` cases and red failures separately. Do not alter the
-sheet until the whole four-page batch has been read.
+Rebuild the complete 627-statement focus/scope layer and the four-register
+replay from `PASS1026_3888_CORRECTED_EVENT_LEDGER.tsv`. Do not admit another
+page until all attachments are regenerated, surface determinism remains exact,
+and the holdouts still transfer. Then use `PASS1026_NEXT_REPLAY_SHEET.md` for
+the next four-page batch; new rooted surfaces and local addresses remain
+allowed, but invisible atoms and unlicensed one-edit recipe copying do not.

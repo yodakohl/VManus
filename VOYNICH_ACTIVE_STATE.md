@@ -6,7 +6,7 @@ Updated: 2026-08-26. This is the full claim registry. For routine work, read
 
 ## Outcome
 
-### Noncanonical twenty-two-page sidequest (Pass 1025)
+### Noncanonical twenty-two-page sidequest (Pass 1026)
 
 The creative workshop sidequest covers twenty-two admitted physical pages with
 4,581 visible groups: 3,888 running prose/ring-text groups plus 693 local
@@ -289,7 +289,7 @@ L from `cheol`, while `okeor` had inherited zero or two E-grades from `okor`
 and `okeeor`. These one-edit imports are removed: `cheo=CH+E+O` and
 `okeor=OK+E+OR` now hold at all nine affected events. Eight statements change,
 four invisible L foci disappear, one visible E focus is restored, and the
-current focus inventory is 4,342. The new rule is strict surface determinism:
+Pass-1025 focus inventory was 4,342. The new rule is strict surface determinism:
 similar spellings may be allographs but may not import absent semantic atoms.
 
 After that repair, all four complete registers replay with outside-register
@@ -299,6 +299,17 @@ which support each other. Of 3,888 running events, 2,261 have an exact surface
 outside their register, 594 only a known outside-register recipe, and 1,033 a
 register-new recipe built wholly from fixed atoms. This supersedes the
 Pass-1024 admission sheet with the added one-surface/one-recipe rule.
+
+Pass 1026 then audits all 271 events to which Pass 1008 had assigned a whole
+neighbour recipe solely because the visible surface was one edit away. Only
+23 events on 21 surfaces survive under a specifically named wrapper or package
+rule. Two surfaces with nine events were already repaired in Pass 1025; the
+remaining 203 surfaces and 239 events are visibly resegmented, changing 96 of
+627 statements without changing any core value. The corrected 3,888-event
+ledger is still surface-deterministic. The old 4,342-attachment scope layer is
+now historical rather than current and must be rebuilt from Pass 1026 before
+new pages are admitted. The operative rule is: one edit is not an allograph;
+only an explicit package rule may make a changed sign semantically neutral.
 
 - The manuscript is **not translated**. There are zero confirmed English
   lexemes, zero plaintext clauses, and no established language, phonetic
