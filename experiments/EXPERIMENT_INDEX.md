@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **420**
-- Experiment-associated tracked files: **6,024** (671.1 MiB)
-- Structured GDT337+ experiments: **85**
+- Experiments indexed: **421**
+- Experiment-associated tracked files: **6,038** (671.2 MiB)
+- Structured GDT337+ experiments: **86**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT422 | GDT422_multi_action_chain_pair_reduction | `ALL_LONG_ACTION_CHAINS_REDUCED_WITHOUT_NEW_CARD` | [report](../experiments/yolo/gdt422_multi_action_chain_pair_reduction/REPORT.md) | 14 | 87.2 KiB | 3 | STRUCTURED_YOLO |
 | GDT421 | GDT421_ordered_action_pair_slot_license | `ORDERED_ACTION_PAIR_SLOT_LICENSE_COMPLETE` | [report](../experiments/yolo/gdt421_ordered_action_pair_slot_license/REPORT.md) | 15 | 582.9 KiB | 4 | STRUCTURED_YOLO |
 | GDT420 | GDT420_action_head_slot_license_atlas | `ACTION_HEAD_SLOT_LICENSE_ATLAS_COMPLETE` | [report](../experiments/yolo/gdt420_action_head_slot_license_atlas/REPORT.md) | 14 | 157.3 KiB | 3 | STRUCTURED_YOLO |
 | GDT419 | GDT419_one_atom_compositional_paradigm_closure | `SEVEN_ANCHOR_ONE_ATOM_PARADIGMS_COMPLETE` | [report](../experiments/yolo/gdt419_one_atom_compositional_paradigm_closure/REPORT.md) | 15 | 104.9 KiB | 4 | STRUCTURED_YOLO |

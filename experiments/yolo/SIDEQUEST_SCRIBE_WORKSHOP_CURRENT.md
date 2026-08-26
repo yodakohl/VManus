@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT421.
+Updated: 2026-08-26, after GDT422.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -35,8 +35,10 @@ only E/EE with POSTEN/WERT. Of 360 possible clean slot cells, 108 are attested,
 145 open and 107 blocked. GDT421 adds 81 ordered two-action cards: 54 pairs and
 170 pair-slot cells occur, with strong order asymmetries such as `CH+K` 119
 against `K+CH` 21. Of the 31 GDT419 multi-head gaps, nineteen are now blocked,
-six structurally old and six genuinely open. Concrete substances, objects,
-body parts and celestial names are still owner-local.
+six structurally old and six genuinely open. GDT422 reduces all 110 recipes
+with three to five actions to old pairs, visible slots, R topology, repetition
+or peer packages; no long learned action word remains. Concrete substances,
+objects, body parts and celestial names are still owner-local.
 
 ## Fixed scope
 
@@ -766,10 +768,10 @@ comparison set.
 
 ## Next work
 
-Before opening another page, reduce the remaining three-or-more-head recipes
-to licensed ordered pairs and determine whether any irreducible action-chain
-card remains. Then use the GDT414 error deck and GDT418/GDT420/GDT421 cards on the next
-user-released four-page group. Exact old forms must replay without editing;
+Before opening another page, run a leave-one-page apprentice replay of the new
+GDT420–GDT422 head, pair and long-chain cards: every page must be read using
+licenses learned from the other 25. Then use the GDT414 error deck and
+GDT418/GDT420/GDT421 cards on the next user-released four-page group. Exact old forms must replay without editing;
 genuinely new surfaces may use only visible old factors. Invisible atoms,
 unlicensed one-edit recipe copying, owner jumps, lookahead beyond one card, a
 ninth selector, an eleventh head and silent retuning of a core remain hard

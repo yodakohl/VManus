@@ -102,6 +102,13 @@ endpoint license. Of GDT419's 31 multi-head gaps, six have an already attested
 skeleton, six remain open conditional gaps and nineteen are blocked. Known
 individual heads never license an absent ordered pair by themselves.
 
+GDT422 closes the longer action chains. There are 110 exact recipes/168 events
+with three to five action heads. Ninety-nine recipe types use only attested
+adjacent pairs. The eleven remaining singleton gaps reduce through five visible
+slot boundaries, two R topologies, two repeated-action scopes and two peer
+action-package breaks. No irreducible three-, four- or five-action card is
+needed; long German readings are sentence paraphrases, not long word meanings.
+
 Pass 1032/GDT404 applies the frozen GDT403 intake contract to a one-shot random
 draw of f1r, f24v, f81r and f95v. The 95 guarded lines add 688 events, 88
 statements and 677 focus attachments. Exactly 470 events retain an old surface

@@ -1,0 +1,52 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Exploratory reduction of long working action recipes only; no confirmed lexeme, morphology, plaintext, language, or source identification.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt422_multi_action_chain_pair_reduction/src/run.py",
+    "validate": "python3 experiments/yolo/gdt422_multi_action_chain_pair_reduction/src/validate.py"
+  },
+  "created": "2026-08-26",
+  "dependencies": [
+    "GDT407",
+    "GDT416",
+    "GDT421"
+  ],
+  "experiment_id": "GDT422",
+  "inputs": [
+    {"path": "experiments/yolo/gdt416_owner_local_imperative_sentence_compiler/artifacts/gdt416_4576_imperative_clauses.tsv", "role": "exact recipe input", "sha256": "cffae521ba93d96446537584e35fa9a4fe4b6e34330ebf7e955ad725f7c70561"},
+    {"path": "experiments/yolo/gdt421_ordered_action_pair_slot_license/artifacts/gdt421_81_ordered_pair_profiles.tsv", "role": "ordered pair inventory", "sha256": "299368a6c51949dfbca6c3f1f8410acfea3ed72b604f373ebe5504d6ed9bfa5d"},
+    {"path": "experiments/yolo/gdt407_unified_twenty_six_page_workshop_edition/artifacts/gdt407_5051_attachment_edition.tsv", "role": "R topology input", "sha256": "7aa578194bef07f066f0aeb5e9c560d8592641163772d8c8bdb5e38cf30a64a7"}
+  ],
+  "outputs": [
+    {"path": "experiments/yolo/gdt422_multi_action_chain_pair_reduction/README.md", "role": "entry point", "sha256": "83ebddc3c44c55ebb0727a280d376b921ad9f89f575a0d40d480e80d9c56be94"},
+    {"path": "experiments/yolo/gdt422_multi_action_chain_pair_reduction/METHOD.md", "role": "reproducible method", "sha256": "778104e9a54990cf298636aef90d7009419b1eedeac869ff374631efdb6be50f"},
+    {"path": "experiments/yolo/gdt422_multi_action_chain_pair_reduction/REPORT.md", "role": "primary report", "sha256": "b62fa0b7ef09823538619a7bda74f96d6d8cf8c699ab30d4a0af63276b53af98"},
+    {"path": "experiments/yolo/gdt422_multi_action_chain_pair_reduction/src/run.py", "role": "deterministic builder", "sha256": "5bbc694ae4315bfcd332b745aea0942352e2f714a1c7eec8be34f9887c88ed7c"},
+    {"path": "experiments/yolo/gdt422_multi_action_chain_pair_reduction/src/validate.py", "role": "validator", "sha256": "5ae9d509af8f84feee920ed29a24aeb5d433d529db11dcfca4385d41bbd952f1"},
+    {"path": "experiments/yolo/gdt422_multi_action_chain_pair_reduction/artifacts/README.md", "role": "artifact guide", "sha256": "959fbefcf8ba465ee4b4d688fe10309471cf55cc90485766e045eb741c7aa6b5"},
+    {"path": "experiments/yolo/gdt422_multi_action_chain_pair_reduction/artifacts/LONG_ACTION_CHAIN_WORKSHOP_RULES.md", "role": "readable rules", "sha256": "f1320e5479ea959576ea44d2173d67a126ee726a349e004f93f86e4a13307736"},
+    {"path": "experiments/yolo/gdt422_multi_action_chain_pair_reduction/artifacts/gdt422_110_long_action_chain_inventory.tsv", "role": "long chain inventory", "sha256": "30e33e67866640f9df14faea84e93dd3de6daf88833e804a8ca060087f3dfda7"},
+    {"path": "experiments/yolo/gdt422_multi_action_chain_pair_reduction/artifacts/gdt422_11_pair_gap_adjudications.tsv", "role": "gap decisions", "sha256": "668fcbf7aed95a219e4c171062e80ca11ef7304aeb022cc7f0b69112572f6a43"},
+    {"path": "experiments/yolo/gdt422_multi_action_chain_pair_reduction/artifacts/gdt422_168_long_chain_occurrences.tsv", "role": "occurrence audit", "sha256": "0c3ab9cdc31a95dd789246c7a7d5675c320c435295eb4cf0cf31551cab84ff9e"},
+    {"path": "experiments/yolo/gdt422_multi_action_chain_pair_reduction/artifacts/gdt422_3_chain_length_summary.tsv", "role": "length summary", "sha256": "700dbc56c6315a496b40918324bcbc8d8cba09ce31f55ddcf0d502f4f7a13098"},
+    {"path": "experiments/yolo/gdt422_multi_action_chain_pair_reduction/artifacts/gdt422_result.json", "role": "compact result", "sha256": "83f3972f886d46f15532484e3b5965a615f254f8f079d35766c7168d02637cb0"},
+    {"path": "experiments/yolo/gdt422_multi_action_chain_pair_reduction/artifacts/gdt422_validation.json", "role": "validation report", "sha256": "14cd53ce477438352b893735094cae00d74ed688f9c0ea64a38956c45c20b172"}
+  ],
+  "question": "Do any recipes with three or more action heads require an irreducible learned long-action card?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "multi_action_chain_pair_reduction",
+  "status": "ALL_LONG_ACTION_CHAINS_REDUCED_WITHOUT_NEW_CARD",
+  "title": "multi action chain pair reduction",
+  "updated": "2026-08-26",
+  "validation": {
+    "artifact": "experiments/yolo/gdt422_multi_action_chain_pair_reduction/artifacts/gdt422_validation.json",
+    "status": "PASS"
+  }
+}
