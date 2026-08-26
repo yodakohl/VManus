@@ -11591,3 +11591,30 @@ single-event records. Thus the next useful unit is an ordered subfragment
 inside those 45 events, not a wider record window. No source meaning, model,
 boundary, name, surface, recipe, record or page changes; validation passes
 118/118.
+
+## GDT482 residual-event component tiles
+
+GDT482 opens the 45 single-event tails left by GDT481 without changing their
+readings. The complete 183-event donor pool is split at its existing ordered
+semantic boundaries, with learned names replaced by encounter-ordered slots.
+All contiguous component fragments of length one to three are inventoried.
+A fragment can tile a target only when at least one other event carries it.
+
+The 45 targets contain 160 semantic components. Under the target's active
+coordinate/instruction/catalogue model, 152/160 recur elsewhere: fourteen
+events are covered wholly by recurrent multi-component fragments, 21 by a mix
+of recurrent fragments and atoms, and four by recurrent atoms only. Thus
+39/45 are completely tiled inside their own model. A marked model-free backoff
+raises coverage to 156/160 and 42/45 events; it rescues `ory`, `otedy`, and
+`opchoroiin` without changing their active models.
+
+The remaining three have different jobs. `cheosdy` retains the learned family
+label `cheo`, and `saloiinsheol` retains its third learned drug-name slot;
+these are lexical individuality, not missing functional grammar. Only `sodar`
+has a genuinely unique functional residue. Its fixed recipe reads
+`S+O+DA+R = WÄHLEN · AUSFÜHRUNG · ZWEITE STUFE · MARKIEREN`; `WÄHLEN` and
+`AUSFÜHRUNG` recur, while `ZWEITE STUFE` and `MARKIEREN` occur in no other one
+of the 183 events. Every one of the 45 events still has a concrete default.
+No meaning, model, surface, recipe, event or page changes; validation passes
+95/95. Next inspect only the visible `S+O+DA+R` recipe and `DA`/`R` analogues,
+without reopening the other 44 events or adding a page.

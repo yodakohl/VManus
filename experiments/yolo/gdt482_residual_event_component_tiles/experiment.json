@@ -1,0 +1,122 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Internal contiguous component tiling of the fixed 45 GDT481 single-event residuals using other admitted events; no new meaning, syntax, plaintext, name identity, surface, recipe, event, or page.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt482_residual_event_component_tiles/src/run.py",
+    "validate": "python3 experiments/yolo/gdt482_residual_event_component_tiles/src/validate.py"
+  },
+  "created": "2026-08-26",
+  "dependencies": ["GDT479", "GDT481"],
+  "experiment_id": "GDT482",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt479_definitive_local_microrecord_edition/artifacts/gdt479_183_definitive_local_events.tsv",
+      "role": "complete fixed event meanings and component sequences",
+      "sha256": "1827be00bcedf800d4d91344c85d890df7367811413c17adeba0fc4ccf37187a"
+    },
+    {
+      "path": "experiments/yolo/gdt479_definitive_local_microrecord_edition/artifacts/gdt479_146_definitive_local_bundles.tsv",
+      "role": "fixed active models and bundle links",
+      "sha256": "311cfbe31d90bbd8fe08462918ca7c7f6382b36b23978c42f24aed3da1cff2f3"
+    },
+    {
+      "path": "experiments/yolo/gdt481_microrecord_fragment_grammar/artifacts/gdt481_135_record_fragment_coverage.tsv",
+      "role": "selection of the 45 one-event residual records",
+      "sha256": "808654fc85123ddcbac717fa86a82b27a15acd709fd29dcb8d2eca46a9e22f6c"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt482_residual_event_component_tiles/README.md",
+      "role": "entry point",
+      "sha256": "92e375b8a3f37f28699c6de7679f7335d4dd224c06172ea23f7759ef04856925"
+    },
+    {
+      "path": "experiments/yolo/gdt482_residual_event_component_tiles/METHOD.md",
+      "role": "component tiling method",
+      "sha256": "5c586534eac5e0b13ceba09da31c71b0270be81539b670c47003d2e68085107e"
+    },
+    {
+      "path": "experiments/yolo/gdt482_residual_event_component_tiles/REPORT.md",
+      "role": "primary report",
+      "sha256": "c33250456617b6e8996e3d8b119da3fe997862e0898a2d445fe3abe7c2f0a1ea"
+    },
+    {
+      "path": "experiments/yolo/gdt482_residual_event_component_tiles/src/run.py",
+      "role": "deterministic component atlas and tiling builder",
+      "sha256": "a57c72594c7c7cdcb0b2eeba712a7e35d5704ca948a4f7a225fd3d4bb94b52c9"
+    },
+    {
+      "path": "experiments/yolo/gdt482_residual_event_component_tiles/src/validate.py",
+      "role": "validator and deterministic rebuild check",
+      "sha256": "09c63ff3dc139f7d407a52dc284b69bb607b51d6fab4d0933b911429fa9076db"
+    },
+    {
+      "path": "experiments/yolo/gdt482_residual_event_component_tiles/artifacts/README.md",
+      "role": "artifact guide",
+      "sha256": "fbcab9d3ac22e11dfa8de6d70711a165023abbd2af0c41ed2abcd763845b2ecc"
+    },
+    {
+      "path": "experiments/yolo/gdt482_residual_event_component_tiles/artifacts/GDT482_RESIDUAL_EVENT_COMPONENT_TILES.md",
+      "role": "readable edition of all 45 residual tilings",
+      "sha256": "234189603d404765ea8e5aebc031d734c67fd20b86d48f4639b3bc622a038427"
+    },
+    {
+      "path": "experiments/yolo/gdt482_residual_event_component_tiles/artifacts/gdt482_183_event_component_sequences.tsv",
+      "role": "complete normalized component sequence pool",
+      "sha256": "4a34b8f897d33bd99838bc6697fee3fa504a013aaccdd98a0f79960faf24f2db"
+    },
+    {
+      "path": "experiments/yolo/gdt482_residual_event_component_tiles/artifacts/gdt482_model_conditioned_component_fragment_atlas.tsv",
+      "role": "active-model component fragment atlas",
+      "sha256": "72755cb27a65c60e5c38d9a109376e80e95b2cbb827a308258ed2bff08a80214"
+    },
+    {
+      "path": "experiments/yolo/gdt482_residual_event_component_tiles/artifacts/gdt482_model_free_component_fragment_atlas.tsv",
+      "role": "model-free component fragment backoff atlas",
+      "sha256": "6cc54f2414f0ab3b4dcb189bc8077446f4b4302b7c9eff1fcf994d7a29756f8d"
+    },
+    {
+      "path": "experiments/yolo/gdt482_residual_event_component_tiles/artifacts/gdt482_45_residual_event_internal_tiles.tsv",
+      "role": "all residual event tiling summaries",
+      "sha256": "64f6ebda345f5ac69440090a3f7bd90e63e70868347206b57c7ff4745f1eb4f6"
+    },
+    {
+      "path": "experiments/yolo/gdt482_residual_event_component_tiles/artifacts/gdt482_residual_tile_segments.tsv",
+      "role": "selected tile segments and donor events",
+      "sha256": "19b1c51ee8219c022f029dccb0b62573f11e50e7a2807c4196e5fcac881689ed"
+    },
+    {
+      "path": "experiments/yolo/gdt482_residual_event_component_tiles/artifacts/gdt482_residual_tile_summary.tsv",
+      "role": "tile class summary",
+      "sha256": "425b53175d052ba859d398bbba514b6f66a69488c7fd1b5df6bd7d62e4ffa839"
+    },
+    {
+      "path": "experiments/yolo/gdt482_residual_event_component_tiles/artifacts/gdt482_result.json",
+      "role": "compact result",
+      "sha256": "1a4fe082ce36b390c25a5048cc51a7482cfcfd788eff85c43bfda1587db0c25f"
+    },
+    {
+      "path": "experiments/yolo/gdt482_residual_event_component_tiles/artifacts/gdt482_validation.json",
+      "role": "95-check validation report",
+      "sha256": "37601129ceded4dc226ad4c22a2666489618f1f705b3508775335b02a30a7d57"
+    }
+  ],
+  "question": "Are GDT481's 45 single-event residuals composed from recurrent one- to three-component meaning fragments, and what genuinely local content remains?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "residual_event_component_tiles",
+  "status": "FORTY_TWO_OF_45_TILE_FROM_RECURRENT_COMPONENTS__TWO_LEARNED_SLOTS__ONE_FUNCTIONAL_OUTLIER",
+  "title": "Residual event component tiles",
+  "updated": "2026-08-26",
+  "validation": {
+    "artifact": "experiments/yolo/gdt482_residual_event_component_tiles/artifacts/gdt482_validation.json",
+    "status": "PASS"
+  }
+}

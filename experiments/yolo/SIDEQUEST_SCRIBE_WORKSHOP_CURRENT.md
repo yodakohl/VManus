@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT481.
+Updated: 2026-08-26, after GDT482.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -65,7 +65,7 @@ CONTROL into `T=EINSTELLEN` and `R=MARKIEREN` creates a five-class gate with
 amber; `R>T` and `R<-EE` remain red-local. The internal meanings of the broad
 classes are not collapsed.
 
-GDT459–GDT481 now resolve the formerly opaque local-address tail as the mixed
+GDT459–GDT482 now resolve the formerly opaque local-address tail as the mixed
 codebook architecture anticipated by the sidequest: portable function cards
 surround memorized owner-bound name cores. Of 107 learned address labels,
 eighteen are now complete function formulas, 87 are function-shell/name-core
@@ -185,6 +185,15 @@ all eleven OL-bound cross-bundle pairs are unique. Of 107 unique whole records,
 59 touch a recurrent role event and 48 do not; 45 of those 48 are themselves
 single-event records. Reuse therefore sits inside composed events, not in a
 hidden two-event sentence list.
+GDT482 goes inside those 45 single-event tails. Their fixed readings contain
+160 ordered semantic components; 152 recur in another event under the same
+model and fully tile 39/45 events. Model-free backoff reaches 156/160 and
+42/45. Of the final three, `cheosdy` retains the learned family label `cheo`
+and `saloiinsheol` a third learned drug-name slot. Only `sodar` retains unique
+functional matter: `S+O+DA+R = WÄHLEN · AUSFÜHRUNG · ZWEITE STUFE ·
+MARKIEREN`, with the last two components unique in the current 183-event pool.
+The supposed 45-word unknown tail has therefore narrowed to two expected
+lexical slots and one four-root card; all 45 concrete default readings remain.
 
 GDT428 now supplies the missing semantic contrast deck. Six within-class
 comparisons contain 104 exact frames where only the action root changes. The
@@ -974,6 +983,9 @@ comparison set.
 
 ## Primary artifacts
 
+- Current GDT482 complete 183-event component atlas, all 45 residual tilings,
+  207 donor-backed tile segments and the isolated `sodar` functional residue:
+  `gdt482_residual_event_component_tiles/`;
 - Current GDT450 35,577-fold page-holdout audit, eight critical false-safe
   cases and 24-page summary:
   `gdt450_target_robustness_page_holdout/`;
@@ -1182,9 +1194,9 @@ comparison set.
 
 ## Next work
 
-Keep the current 26 pages closed. Decompose the 45 single-event residual tails
-from GDT481 into ordered contiguous component fragments, preserving name-slot
-positions and OT/OL scope. Measure which residuals are fully tiled by old
-cross-event subfragments, which require only a new combination of old pieces,
-and which contain an owner-local indivisible name/package. Do not widen the
-record window or change a dictionary value.
+Keep the current 26 pages closed. Inspect only `sodar` and its visible
+`S+O+DA+R` recipe against exact surface-component analogues already present in
+the 183-event pool and the wider admitted running deck. Ask whether `DA` and
+terminal `R` behave as the already assigned `ZWEITE STUFE` and `MARKIEREN`
+inside comparable cards, and render the best complete local reading. Do not
+reopen the other 44 residual events, add a root, or change a dictionary value.
