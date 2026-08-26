@@ -1,0 +1,57 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Conditional reading of an already visible new recipe made only from current working atoms and previously licensed factors. No occurrence or surface prediction, new meaning, plaintext, language identification, or new-page evidence.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt441_factor_gated_unseen_recipe_reader/src/run.py",
+    "validate": "python3 experiments/yolo/gdt441_factor_gated_unseen_recipe_reader/src/validate.py"
+  },
+  "created": "2026-08-26",
+  "dependencies": ["GDT404", "GDT413", "GDT415", "GDT425", "GDT430", "GDT434", "GDT437", "GDT438", "GDT440"],
+  "experiment_id": "GDT441",
+  "inputs": [
+    {"path": "experiments/yolo/gdt404_random_four_page_factorized_admission/src/run.py", "role": "eight-selector scope parser", "sha256": "d7e42b822308f4e58abc9a790d5afb89e8404530336720f14ceea46b7d567b0f"},
+    {"path": "experiments/yolo/gdt413_twenty_six_page_semantic_working_edition/artifacts/gdt413_46_component_working_dictionary.tsv", "role": "known atoms and ordered working values", "sha256": "728113b051828ad7e8cdf46369832f3a81a4792bc104f3ef1f23644af5fa120e"},
+    {"path": "experiments/yolo/gdt415_owner_local_semantic_expansion_atlas/artifacts/gdt415_4576_event_owner_local_edition.tsv", "role": "ordered current event stream", "sha256": "5229fa53ff862f88fad9c1888d6651ff1f413c1c75a56ba7e1042c4472d4a7d3"},
+    {"path": "experiments/yolo/gdt425_complete_factorized_action_portability/artifacts/gdt425_5051_focus_edge_portability.tsv", "role": "portable and local focus edges", "sha256": "b7cd0107ec9c9f79da5649f954a4f35d32c3dc4d5d9340de6c653e1430ff9482"},
+    {"path": "experiments/yolo/gdt425_complete_factorized_action_portability/artifacts/gdt425_649_adjacent_pair_portability.tsv", "role": "portable and local adjacent action pairs", "sha256": "ccba6a63ddb9ca5a696d47251aa3552f515d0ab9d0e7df85411848d3ee83cd69"},
+    {"path": "experiments/yolo/gdt425_complete_factorized_action_portability/artifacts/gdt425_639_close_edge_portability.tsv", "role": "portable close targets", "sha256": "6748b415e89d4b25866955c8deb8f0d34cd12cbda44b9b6514da5a5d5feb09a5"},
+    {"path": "experiments/yolo/gdt430_nineteen_core_paradigm_prediction_deck/artifacts/gdt430_861_page_private_recipe_replay.tsv", "role": "page-private recipe stress set", "sha256": "a3b58420c06576385e0012031dce69fa9e188c6d63c0baab9d21c4cb85f704a4"},
+    {"path": "experiments/yolo/gdt430_nineteen_core_paradigm_prediction_deck/artifacts/gdt430_4938_candidate_density.tsv", "role": "candidate-space breadth control", "sha256": "cd3422dc963885c4f7d995b21d9df30638bb8773529b073cb26d374fbd8e4d79"},
+    {"path": "experiments/yolo/gdt434_forty_nine_card_intake_reader/artifacts/gdt434_1563_recipe_intake_catalog.tsv", "role": "exact recipe catalog", "sha256": "51c87782c36cce812394feb593bf5afb952c2542bb174679e3a17f4deb0401d6"},
+    {"path": "experiments/yolo/gdt437_future_card_state_transition_order_repair/src/ordered_renderer.py", "role": "order-safe fluent renderer", "sha256": "027134a0b05a7195cf714fc2ae5a6f221b0de7205562f25850258f3c829ec4b7"},
+    {"path": "experiments/yolo/gdt438_order_safe_streaming_reader/artifacts/gdt438_4576_order_safe_stream_readings.tsv", "role": "state and clause replay target", "sha256": "5eb05099196c7e97de133da2868ec32db7a9e45d9eac773fcbb73ba142ac9617"},
+    {"path": "experiments/yolo/gdt440_dual_channel_order_trace_reader/artifacts/gdt440_4576_dual_channel_stream_readings.tsv", "role": "dual-channel replay target", "sha256": "0b43f5f1ab427549ba9e1a020be919b1bc4b783de38c8bee1c6053a9b7466032"}
+  ],
+  "outputs": [
+    {"path": "experiments/yolo/gdt441_factor_gated_unseen_recipe_reader/README.md", "role": "entry point and command", "sha256": "dabd089363a755daeb36421920f7c8a2d34db0f50efa869ed2fbf3e508d5efbe"},
+    {"path": "experiments/yolo/gdt441_factor_gated_unseen_recipe_reader/METHOD.md", "role": "factor-gate method", "sha256": "aa66196ded50a0bfe0fc7aa93332dbfce3a2440fa134e03322c4390aaba86b15"},
+    {"path": "experiments/yolo/gdt441_factor_gated_unseen_recipe_reader/REPORT.md", "role": "primary report", "sha256": "015d48204aa3c6ebb9eac2d3415c70a476bcf7b6508b7e41655c0fbed45f9be4"},
+    {"path": "experiments/yolo/gdt441_factor_gated_unseen_recipe_reader/src/factor_gate_stream_read.py", "role": "prospective factor-gated stream command", "sha256": "b3704429ece4cbc8b6aeeded06231963a03158cb3078f13024e221eacee41981"},
+    {"path": "experiments/yolo/gdt441_factor_gated_unseen_recipe_reader/src/run.py", "role": "deterministic builder", "sha256": "e78d3c41bae02b2a2141d958fc16e91a8e00479224b3fed21b200864e9abc563"},
+    {"path": "experiments/yolo/gdt441_factor_gated_unseen_recipe_reader/src/validate.py", "role": "validator", "sha256": "b4705bf74051adca45d58055cae4e5ff76bbab73f88105caa908f93796937ab7"},
+    {"path": "experiments/yolo/gdt441_factor_gated_unseen_recipe_reader/artifacts/README.md", "role": "artifact guide", "sha256": "a5f9670a785b372d47a3db3c00344c73fa5d1fe8be8bcfc7b82858b65fd98843"},
+    {"path": "experiments/yolo/gdt441_factor_gated_unseen_recipe_reader/artifacts/gdt441_4576_factor_reader_replay.tsv", "role": "complete current replay", "sha256": "ade6ef986a0a10a5999a0876f577b44c1583d4d5594e319da39efdabb7221218"},
+    {"path": "experiments/yolo/gdt441_factor_gated_unseen_recipe_reader/artifacts/gdt441_861_page_private_factor_replay.tsv", "role": "page-private factor replay", "sha256": "d260008a240bdb79dfcdcee0f0e3b8c064f457204527c8e956e449afdb5a0de2"},
+    {"path": "experiments/yolo/gdt441_factor_gated_unseen_recipe_reader/artifacts/gdt441_4938_candidate_factor_gate.tsv", "role": "candidate-space breadth control", "sha256": "d541bfb329989adf1660639109567770f9d273b5eae9e46618e6c66cd97c04fe"},
+    {"path": "experiments/yolo/gdt441_factor_gated_unseen_recipe_reader/artifacts/gdt441_factor_gate_inventory.tsv", "role": "complete factor inventory", "sha256": "10cc90c371d7b04ae9e166b04248f70cc85b8106ab16e4f75891ecf7374b5852"},
+    {"path": "experiments/yolo/gdt441_factor_gated_unseen_recipe_reader/artifacts/gdt441_result.json", "role": "compact result", "sha256": "f73a3d937da895455264c91a94f6bd5b894af24201ed84d2991c1b7c9c07db51"},
+    {"path": "experiments/yolo/gdt441_factor_gated_unseen_recipe_reader/artifacts/gdt441_validation.json", "role": "validation report", "sha256": "b55e0b4573467279bcbf9593564c6ebfbc9ada69ff90b281eb0b550763d59834"}
+  ],
+  "question": "Can the streaming reader interpret a newly visible recipe composed only of known atoms and licensed factors without inventing a new whole-card entry?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "factor_gated_unseen_recipe_reader",
+  "status": "ALL_PAGE_PRIVATE_RECIPES_CONDITIONALLY_READABLE__NOT_OCCURRENCE_PREDICTION",
+  "title": "factor gated unseen recipe reader",
+  "updated": "2026-08-26",
+  "validation": {
+    "artifact": "experiments/yolo/gdt441_factor_gated_unseen_recipe_reader/artifacts/gdt441_validation.json",
+    "status": "PASS"
+  }
+}

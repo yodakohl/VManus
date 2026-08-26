@@ -295,6 +295,17 @@ same ordered HIER or VORBEZUG values, so their literal IDs remain visible
 instead of receiving invented word contrasts. All 4,576 current states and
 clauses replay unchanged with the added trace; 29/29 checks pass.
 
+GDT441 adds a factor-gated fallback after the exact 1,563-recipe catalog. A
+visible new recipe made only of known atoms is read when the unchanged
+eight-selector scope parser yields only one of 103 portable focus edges, four
+fixed local focus edges, 31 portable or six fixed local adjacent action pairs,
+and one of nine licensed close heads. All 861 page-private recipes replay
+conditionally (853 green, eight amber, zero stops), while all 4,576 current
+states, ordered traces and clauses remain unchanged. The gate accepts 4,303 of
+4,566 absent one-edit candidates in neutral context, so it is a post-occurrence
+reader and explicitly not an occurrence or surface predictor. Validation passes
+38/38; no meaning, surface or page changes.
+
 Pass 1032/GDT404 applies the frozen GDT403 intake contract to a one-shot random
 draw of f1r, f24v, f81r and f95v. The 95 guarded lines add 688 events, 88
 statements and 677 focus attachments. Exactly 470 events retain an old surface

@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT440.
+Updated: 2026-08-26, after GDT441.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -183,6 +183,17 @@ completely and six split; all same-atom order collisions and all five main-card
 contacts disappear. Only 18 groups/38 recipes remain, all different learned
 local channels with the same ordered HIER or VORBEZUG values. All 4,576 current
 events replay with unchanged state and clause while gaining the ordered trace.
+
+GDT441 removes the remaining exact-key bottleneck without turning the grammar
+into a surface generator. After a new card has actually been seen and given a
+visible recipe, the reader tries the exact 1,563-key catalog and then the old
+factors: the unchanged eight Scope-Selectoren, 103 cross-page plus four local
+focus edges, 31 cross-page plus six local adjacent action pairs and nine close
+heads. This conditionally reads all 861 recipes that were private to one old
+page: 853 green, eight through the fixed local appendix and zero stops. The
+4,576 current events retain their GDT440 state, ordered trace and clause. The
+same gate accepts 4,303/4,566 absent one-edit candidates, which makes it useful
+for reading after occurrence but explicitly too broad for predicting a form.
 
 ## Fixed scope
 
@@ -754,6 +765,10 @@ comparison set.
 
 ## Primary artifacts
 
+- Current GDT441 factor-gated prospective reader, complete 4,576-event replay,
+  861 page-private recipe replay, 4,938-candidate breadth control and executable
+  stop-safe command:
+  `gdt441_factor_gated_unseen_recipe_reader/`;
 - Current GDT440 dual-channel reader, complete 1,563-signature edition,
   resolution of all 104 GDT439 groups, 18 co-valued local-channel groups and
   4,576-event stream replay:
@@ -927,8 +942,8 @@ comparison set.
 
 ## Next work
 
-Keep the current 26 pages closed. Stress the dual-channel reader by hiding each
-current page's exact recipes in turn and asking which events still receive an
-ordered root trace and fluent clause from cross-page recipes or the frozen
-future deck. Preserve exact local-channel IDs and stop rather than retune a
-meaning, surface or page.
+Keep the current 26 pages closed. Turn GDT441's 269 neutral-context red
+candidates into the smallest forbidden-factor deck: separate missing direct
+action pairs, focus edges and close-without-head cases, then feed one example
+of each through the command and verify that every stop preserves state. Do not
+add a meaning, surface, page or broader class escape.
