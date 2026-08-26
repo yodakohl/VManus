@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-27, after GDT503.
+Updated: 2026-08-27, after GDT504.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -1425,5 +1425,11 @@ long-chain occurrence for each remaining direction: `CH>OK` is directly
 adjacent inside `P+OT+CH+OK+OR`, while `CH>CHD` occurs in order with
 `EE+D_ADDR` visibly between. Neither is an observed standalone two-head recipe,
 so all four source/pharma target phrases and `COMPOSED_WORKING` labels remain
-fixed. Next read the 46 concrete cards as small component deltas and check that
-each added atom contributes a stable cross-register meaning.
+fixed. GDT504 then reads the 46 concrete cards as small component deltas: 35
+are exact partial-recipe extensions (22 local and
+thirteen register-normalized), while eleven transfer only an ordered action
+pair and visibly remove or replace foreign carrier context. All 40 target
+additions and 19 carrier removals have the expected phrase effect; no current
+sentence or root changes. Next consolidate all old carriers of `P>CH`,
+`S>CHD`, `CH>P`, `CH>CH` and `CH>SH` into five carrier-neutral handgrips before
+trusting the eleven pair cards as broadly as the 35 proper extensions.

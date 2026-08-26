@@ -12159,3 +12159,31 @@ target phrases remain unchanged `COMPOSED_WORKING` assumptions; no target
 two-head recipe, surface or occurrence is claimed. Validation passes 54/54.
 Next audit the 46 GDT502 cards as semantic component deltas across registers,
 keeping all 26 pages closed.
+
+## GDT504 semantic-delta phrase consistency atlas
+
+GDT504 aligns every GDT502 target recipe with its selected exact old carrier
+and reads the difference through the unchanged GDT413/GDT415 values. The 46
+cards separate into 22 direct same-register deltas, thirteen exact
+cross-register partial-recipe deltas and eleven ordered-pair carrier-frame
+edits. Thus 35 cards are proper recipe extensions; the pair drawer is no longer
+allowed to borrow a whole foreign carrier sentence.
+
+The alignments retain 100 shared components. Forty target-only components use
+six fixed families: `AL` 6, `CH` 9, `CHD` 6, `E` 3, `OR` 6 and `Y` 10. The
+proper extensions reduce to eight small phrase operations: add destination,
+unit, second post, explicit inherited post, serial action, serial action plus
+grade, or counted repetition with/without explicit post. Five cards turn an
+inherited `Y` into an explicit recipe argument and five render a repeated
+action as `zweimal`.
+
+The eleven pair carriers contribute nineteen components that must not transfer:
+`O` 2, `OL` 7, `AR` 2, `OR` 2, `Y` 4 and `D_ADDR` 2. Nine cards only strip
+carrier context; two replace it with target `Y` or `E`. All 59 addition/removal
+markers have the expected source/target distribution, all 46 source clauses
+roundtrip exactly and all 46 current phrases remain unchanged. This is an
+editorial consistency result for the working language, not a target
+observation. Validation passes 509/509. Next combine every old carrier of the
+five pair backbones into carrier-neutral handgrips and test whether the short
+action reading survives changing arguments and relations; keep all pages
+closed.
