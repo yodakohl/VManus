@@ -276,6 +276,16 @@ word order. An unseen atom and an unlicensed known-atom recipe both stop before
 mutating the page-owner state bank. No meaning, surface or page changes; 29/29
 checks pass.
 
+GDT439 executes all 1,563 exact catalog keys across the 49 reachable states
+and five registers: 382,935 transitions. The 49 main future cards are mutually
+unique, but the whole catalog has 1,449 full signatures; 218 recipes occupy
+104 collision groups. Seventy-six groups contain the same atoms in a different
+order and 28 contain different local-control atoms with the same current HIER
+or VORBEZUG value. Five main cards collide only with an external catalog card:
+four are top-level order-repair candidates and one is an intentional local-
+channel equivalence. Exact recipes remain the matching key. No meaning,
+surface or page changes; 33/33 checks pass.
+
 Pass 1032/GDT404 applies the frozen GDT403 intake contract to a one-shot random
 draw of f1r, f24v, f81r and f95v. The 95 guarded lines add 688 events, 88
 statements and 677 focus attachments. Exactly 470 events retain an old surface

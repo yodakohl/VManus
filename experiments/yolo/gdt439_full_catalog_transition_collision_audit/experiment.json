@@ -1,0 +1,51 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Internal transition-signature distinctness and collision localization under the current working renderer only; no independent confirmation, plaintext, language, surface prediction, new meaning, or new page evidence.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt439_full_catalog_transition_collision_audit/src/run.py",
+    "validate": "python3 experiments/yolo/gdt439_full_catalog_transition_collision_audit/src/validate.py"
+  },
+  "created": "2026-08-26",
+  "dependencies": ["GDT413", "GDT416", "GDT434", "GDT436", "GDT437", "GDT438"],
+  "experiment_id": "GDT439",
+  "inputs": [
+    {"path": "experiments/yolo/gdt434_forty_nine_card_intake_reader/artifacts/gdt434_1563_recipe_intake_catalog.tsv", "role": "complete disjoint exact-key intake catalog", "sha256": "51c87782c36cce812394feb593bf5afb952c2542bb174679e3a17f4deb0401d6"},
+    {"path": "experiments/yolo/gdt436_streaming_context_intake_driver/artifacts/gdt436_4576_oracle_free_stream_readings.tsv", "role": "49 actually reachable action-argument states", "sha256": "585562da0d3be7534e29729d990b20f7d95a0a037e4db066df751f38624539e6"},
+    {"path": "experiments/yolo/gdt437_future_card_state_transition_order_repair/src/run.py", "role": "state-transition engine", "sha256": "a82e3ec7c300c9cb6dc5189671bb54a1260e0f93e6c8325b5b296a392f0f283d"},
+    {"path": "experiments/yolo/gdt437_future_card_state_transition_order_repair/src/ordered_renderer.py", "role": "selected order-safe renderer", "sha256": "027134a0b05a7195cf714fc2ae5a6f221b0de7205562f25850258f3c829ec4b7"}
+  ],
+  "outputs": [
+    {"path": "experiments/yolo/gdt439_full_catalog_transition_collision_audit/README.md", "role": "entry point", "sha256": "4c1dea9dea29afada12fce300bab8a03d6ff691bac7a35466153af1b181621af"},
+    {"path": "experiments/yolo/gdt439_full_catalog_transition_collision_audit/METHOD.md", "role": "full-catalog audit method", "sha256": "e88524ee047374de1cb91bf9f28092ed7f65708e0cc808a78f0119b413060c16"},
+    {"path": "experiments/yolo/gdt439_full_catalog_transition_collision_audit/REPORT.md", "role": "primary report", "sha256": "ba23c99c1934e382447c90147e0804e05944c0f6ecd5e9faff989a88cc60670a"},
+    {"path": "experiments/yolo/gdt439_full_catalog_transition_collision_audit/src/run.py", "role": "deterministic exhaustive builder", "sha256": "4a36a38a6abea9dfb487033d6d169dcc4cc20fb32e81f72e74b2e03c29822609"},
+    {"path": "experiments/yolo/gdt439_full_catalog_transition_collision_audit/src/validate.py", "role": "validator", "sha256": "01be3ead374c95c2ff8dd987f8b62ace088a7eff5e9e6d760cb265eafbf9da52"},
+    {"path": "experiments/yolo/gdt439_full_catalog_transition_collision_audit/artifacts/README.md", "role": "artifact guide", "sha256": "fe661a9032cc2924ccb01cc29fea849a475e50b1a7c63be82f54ba8aa7270467"},
+    {"path": "experiments/yolo/gdt439_full_catalog_transition_collision_audit/artifacts/gdt439_1563_transition_signatures.tsv", "role": "one exhaustive signature per recipe", "sha256": "ec5ad648ec3557153bba0bdef6f139258c029ebcdf672f057475ccb63304ef9d"},
+    {"path": "experiments/yolo/gdt439_full_catalog_transition_collision_audit/artifacts/gdt439_collision_groups.tsv", "role": "all full transition collision groups", "sha256": "6f50e8199ae6901715c0a42889f62acb181d3b9012c5f3e6657669c8dc249a1f"},
+    {"path": "experiments/yolo/gdt439_full_catalog_transition_collision_audit/artifacts/gdt439_collision_members.tsv", "role": "collision recipe membership", "sha256": "c638aaa5744c7ac73e7070f608342b3413a1a85ab4a760a30e42fac776f2cda1"},
+    {"path": "experiments/yolo/gdt439_full_catalog_transition_collision_audit/artifacts/gdt439_collision_register_samples.tsv", "role": "five-register collision samples", "sha256": "7af4fa965b79201bc5a4a8e6c7cd9b8e9ff764118620b0eede2e9c9c3c6012f7"},
+    {"path": "experiments/yolo/gdt439_full_catalog_transition_collision_audit/artifacts/gdt439_main_deck_external_collisions.tsv", "role": "five main-deck external contacts", "sha256": "85598e47c0cc3581a516364b8a58873f79c79d9a2cd8c8c40e1ec1927d15845e"},
+    {"path": "experiments/yolo/gdt439_full_catalog_transition_collision_audit/artifacts/gdt439_order_permutation_pairs.tsv", "role": "all same-multiset order pairs", "sha256": "0e7a52aa833f0c95bc7900b9931e2bd6ab35406a09ff9060c5d1f9d6b148e185"},
+    {"path": "experiments/yolo/gdt439_full_catalog_transition_collision_audit/artifacts/gdt439_tier_summary.tsv", "role": "tier collision summary", "sha256": "342b648693d84e27966ef253e0143fe903f9aa2f30ae37547bf3a1f3a18f0203"},
+    {"path": "experiments/yolo/gdt439_full_catalog_transition_collision_audit/artifacts/gdt439_result.json", "role": "compact result", "sha256": "b0c2ea102cbb05c164664933296613ce54c2aee446b2b66e00ab69de3718ccdc"},
+    {"path": "experiments/yolo/gdt439_full_catalog_transition_collision_audit/artifacts/gdt439_validation.json", "role": "validation report", "sha256": "8abda9c29b369622b33bb23e990cee5c76475d8a84cffbbddb040d91b709c1ce"}
+  ],
+  "question": "Do all 1,563 exact intake recipes retain distinct order-safe transition signatures across every reachable state and register?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "full_catalog_transition_collision_audit",
+  "status": "MAIN_DECK_UNIQUE__FULL_CATALOG_COLLISIONS_LOCALIZED",
+  "title": "full catalog transition collision audit",
+  "updated": "2026-08-26",
+  "validation": {
+    "artifact": "experiments/yolo/gdt439_full_catalog_transition_collision_audit/artifacts/gdt439_validation.json",
+    "status": "PASS"
+  }
+}

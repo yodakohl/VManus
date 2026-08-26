@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT438.
+Updated: 2026-08-26, after GDT439.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -164,6 +164,16 @@ clauses, rebuilds all 715 statements, and reproduces all 245 future-card
 register probes. Unseen-atom and unlicensed-known-atom stops both leave the
 active action and argument untouched. The reader is now the operational entry
 point for a later admitted page.
+
+GDT439 expands transition signatures from the main 49 cards to all 1,563 exact
+catalog keys: 382,935 state/register cells. The main deck is internally
+collision-free, but 218 catalog cards occupy 104 equal-signature groups.
+Seventy-six groups are the same atoms in an order still erased by the fluent
+renderer; 28 use different local controls that intentionally share HIER or
+VORBEZUG. Five main cards touch an external catalog card, never another main
+card. Four are clean top-level order repairs; one is a genuine co-valued local
+channel. Exact component keys therefore remain mandatory even when the German
+clause is identical.
 
 ## Fixed scope
 
@@ -735,6 +745,10 @@ comparison set.
 
 ## Primary artifacts
 
+- Current GDT439 full-catalog transition audit, 1,563 signatures, 104 complete
+  collision groups, 155 same-multiset pairs, tier summary and five main-deck
+  external contacts:
+  `gdt439_full_catalog_transition_collision_audit/`;
 - Current GDT438 order-safe prospective reader, complete 4,576-event and
   715-statement replay, 245 future-card command probes and stop-state tests:
   `gdt438_order_safe_streaming_reader/`;
@@ -900,7 +914,7 @@ comparison set.
 
 ## Next work
 
-Keep the current 26 pages closed. Extend the order-safe transition-signature
-audit from the 49-card main deck to all 1,563 exact intake keys, retaining tier
-and exact component order. Localize every remaining collision instead of
-changing a meaning, surface or page.
+Keep the current 26 pages closed. Replace the remaining fixed semantic-bucket
+order with a top-level package-order renderer and replay the 76 same-multiset
+collision groups. Preserve the 28 genuinely co-valued local-channel groups as
+literal-channel distinctions; do not invent meanings, surfaces or pages.

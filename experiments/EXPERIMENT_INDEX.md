@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **437**
-- Experiment-associated tracked files: **6,269** (686.2 MiB)
-- Structured GDT337+ experiments: **102**
+- Experiments indexed: **438**
+- Experiment-associated tracked files: **6,285** (686.7 MiB)
+- Structured GDT337+ experiments: **103**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT439 | GDT439_full_catalog_transition_collision_audit | `MAIN_DECK_UNIQUE__FULL_CATALOG_COLLISIONS_LOCALIZED` | [report](../experiments/yolo/gdt439_full_catalog_transition_collision_audit/REPORT.md) | 16 | 532.0 KiB | 6 | STRUCTURED_YOLO |
 | GDT438 | GDT438_order_safe_streaming_reader | `ORDER_SAFE_ORACLE_FREE_STREAMING_READER_COMPLETE` | [report](../experiments/yolo/gdt438_order_safe_streaming_reader/REPORT.md) | 14 | 2.8 MiB | 6 | STRUCTURED_YOLO |
 | GDT437 | GDT437_future_card_state_transition_order_repair | `RELATION_ARGUMENT_ORDER_COLLISION_REPAIRED` | [report](../experiments/yolo/gdt437_future_card_state_transition_order_repair/REPORT.md) | 16 | 2.8 MiB | 5 | STRUCTURED_YOLO |
 | GDT436 | GDT436_streaming_context_intake_driver | `ORACLE_FREE_STREAMING_CONTEXT_DRIVER_COMPLETE` | [report](../experiments/yolo/gdt436_streaming_context_intake_driver/REPORT.md) | 14 | 2.0 MiB | 5 | STRUCTURED_YOLO |
