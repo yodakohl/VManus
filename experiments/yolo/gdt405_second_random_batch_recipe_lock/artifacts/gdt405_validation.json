@@ -1,0 +1,197 @@
+{
+  "check_count": 31,
+  "checks": [
+    {
+      "check": "deterministic_rebuild",
+      "detail": 7,
+      "pass": true
+    },
+    {
+      "check": "all_outputs_exist",
+      "detail": 7,
+      "pass": true
+    },
+    {
+      "check": "surface_dictionary_count",
+      "detail": 426,
+      "pass": true
+    },
+    {
+      "check": "surface_lock_ids",
+      "detail": "G405-W0426",
+      "pass": true
+    },
+    {
+      "check": "surface_inventory_exact",
+      "detail": 426,
+      "pass": true
+    },
+    {
+      "check": "surface_recipes_exact",
+      "detail": 426,
+      "pass": true
+    },
+    {
+      "check": "surface_recipe_determinism",
+      "detail": 426,
+      "pass": true
+    },
+    {
+      "check": "surface_counts_exact",
+      "detail": 688,
+      "pass": true
+    },
+    {
+      "check": "surface_event_sum",
+      "detail": 688,
+      "pass": true
+    },
+    {
+      "check": "amber_dictionary_count",
+      "detail": 49,
+      "pass": true
+    },
+    {
+      "check": "nonamber_changes_forbidden",
+      "detail": 377,
+      "pass": true
+    },
+    {
+      "check": "all_core_retuning_forbidden",
+      "detail": 426,
+      "pass": true
+    },
+    {
+      "check": "atom_dictionary_count",
+      "detail": 46,
+      "pass": true
+    },
+    {
+      "check": "atom_inventory_exact",
+      "detail": 46,
+      "pass": true
+    },
+    {
+      "check": "atom_values_byte_locked",
+      "detail": 46,
+      "pass": true
+    },
+    {
+      "check": "atom_retuning_forbidden",
+      "detail": 46,
+      "pass": true
+    },
+    {
+      "check": "amber_lock_count",
+      "detail": 49,
+      "pass": true
+    },
+    {
+      "check": "amber_surface_match",
+      "detail": 49,
+      "pass": true
+    },
+    {
+      "check": "amber_primary_recipe_locked",
+      "detail": 49,
+      "pass": true
+    },
+    {
+      "check": "amber_no_new_atom_gate",
+      "detail": 49,
+      "pass": true
+    },
+    {
+      "check": "axis_lock_count",
+      "detail": 31,
+      "pass": true
+    },
+    {
+      "check": "axis_partition",
+      "detail": [
+        "ACTION_HEAD",
+        "ATTACHMENT_GEOMETRY",
+        "DUPLICATE_MODE",
+        "R_TOPOLOGY",
+        "SCOPE_SELECTOR"
+      ],
+      "pass": true
+    },
+    {
+      "check": "axis_new_values_forbidden",
+      "detail": 31,
+      "pass": true
+    },
+    {
+      "check": "slot_count",
+      "detail": 4,
+      "pass": true
+    },
+    {
+      "check": "protocol_count",
+      "detail": 12,
+      "pass": true
+    },
+    {
+      "check": "protocol_has_hard_stops",
+      "detail": [
+        "AMBER_EXACT_SURFACE",
+        "EXACT_SURFACE_FIRST",
+        "FREEZE_IMAGE_OWNER",
+        "GUARD_SOURCE",
+        "MAX_LOOKAHEAD_ONE",
+        "NEW_SURFACE",
+        "NO_ONE_EDIT_IMPORT",
+        "RUN_FACTORIZED_SCOPE",
+        "SEGMENT_STATEMENTS",
+        "SELECT_ONCE",
+        "STOP_ON_BOUNDARY",
+        "STOP_ON_RETUNE"
+      ],
+      "pass": true
+    },
+    {
+      "check": "result_status",
+      "detail": "SECOND_RANDOM_BATCH_LOCK_READY",
+      "pass": true
+    },
+    {
+      "check": "result_counts",
+      "detail": [
+        426,
+        46,
+        31,
+        49
+      ],
+      "pass": true
+    },
+    {
+      "check": "input_hashes_bound",
+      "detail": 5,
+      "pass": true
+    },
+    {
+      "check": "no_sealed_page_token",
+      "detail": "0 expected",
+      "pass": true
+    },
+    {
+      "check": "no_private_absolute_path",
+      "detail": "0 expected",
+      "pass": true
+    }
+  ],
+  "deterministic_hashes": {
+    "gdt405_31_locked_parser_factors.tsv": "2972edae71844e2ba931f57435ae761865014f0b70154f2bc3c676f817bf79f6",
+    "gdt405_426_locked_surface_dictionary.tsv": "612a6beb976d12b9e69b617924da40c2576ba769a63c493ae06e53d88d01df35",
+    "gdt405_46_locked_atom_dictionary.tsv": "3d328cad47c2fa378dbe67af88f67b776496dbea91f2d2b9cb4debf4a99130d9",
+    "gdt405_49_amber_microform_lock.tsv": "a13930f4c173a8e170728c6de6f4ebf63533afbd126f7a2f41e9af20742c7491",
+    "gdt405_result.json": "baf6e9451532a2a69c25b1b07fe2fdc46471b09bcac2cc8e8ed98550af53e245",
+    "gdt405_second_batch_protocol.tsv": "f7df217c90e87a9f19ebef46b865d548c4f069c6c46efa8ff813032da4148023",
+    "gdt405_second_batch_slots.tsv": "1920d38e2b819da109e6ff4a3ff082013f6b9295a2bd5e7f74d4e4274713d880"
+  },
+  "experiment_id": "GDT405",
+  "failed_count": 0,
+  "passed_count": 31,
+  "status": "PASS"
+}

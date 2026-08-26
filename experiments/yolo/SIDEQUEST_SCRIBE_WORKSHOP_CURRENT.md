@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after Pass 1032 / GDT404.
+Updated: 2026-08-26, after Pass 1033 / GDT405.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. Pass 1026 audits
@@ -11,7 +11,8 @@ its four amber Scope rows as three ordinary forward-to-R card transitions;
 Pass 1030/GDT402 separates Scope-Selector, target-head license and local
 topology across all rows; Pass 1031/GDT403 turns that machine into the fixed
 blank four-page intake sheet; Pass 1032/GDT404 applies it to one genuine random
-draw of f1r, f24v, f81r and f95v. The current basis is 715 statements, 5,051
+draw of f1r, f24v, f81r and f95v; Pass 1033/GDT405 locks all resulting recipes
+before another page is opened. The current basis is 715 statements, 5,051
 resolved focus attachments, four local channels and 19 unchanged working core
 values.
 
@@ -444,6 +445,14 @@ the edition to 86 statements and changes only two K-head bindings; the full
 factorized replay still passes. The four pages therefore enter the creative
 basis, but their 49 microform boundaries stay visibly provisional.
 
+Pass 1033/GDT405 converts that result into a prospective lock before any second
+batch is visible. All 426 GDT404 surfaces receive one frozen primary recipe;
+all 46 sign values and 31 parser factors are byte-bound. The 49 amber forms
+keep separate boundary rows: an exact future recurrence starts from the frozen
+primary recipe and may only confirm its visible boundary, never change a core.
+Four page slots remain empty and a twelve-step protocol stops new atoms,
+post-hoc resegmentation, boundary crossings, long lookahead and core retuning.
+
 ## Constrained semantic pocket dictionary
 
 The twelve content/action cores are:
@@ -577,6 +586,10 @@ comparison set.
 
 ## Primary artifacts
 
+- Current Pass-1033/GDT405 prospective second-batch lock: 426 surface recipes,
+  46 atom values, 49 amber boundary records, 31 parser factors, four empty page
+  slots, twelve-step protocol, runner and validator:
+  `gdt405_second_random_batch_recipe_lock/`;
 - Current Pass-1032/GDT404 random four-page admission: one-shot seed and page
   draw, four image-owner freezes, 95 guarded lines, 688-event edition, all 211
   new-surface decisions, 88 statements, 677 factorized attachments, ambiguous-
@@ -713,10 +726,10 @@ comparison set.
 
 ## Next work
 
-Freeze GDT404's 426-surface recipe dictionary before opening the next batch,
-then draw or accept a second four-page group. Exact GDT404 forms must replay
-without editing; genuinely new surfaces may use only visible old factors. The
-49 amber microforms may be resolved by recurrence, but not by changing a core.
+Use the frozen GDT405 package when the user releases or requests the second
+four-page group. Exact GDT404 forms must replay without editing; genuinely new
+surfaces may use only visible old factors. The 49 amber microforms may be
+resolved by recurrence, but not by changing a core.
 Invisible atoms, unlicensed one-edit recipe copying, owner jumps, lookahead
 beyond one card, a ninth selector, an eleventh head and retuned core values
 remain hard failures.

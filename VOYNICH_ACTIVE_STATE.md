@@ -6,7 +6,7 @@ Updated: 2026-08-26. This is the full claim registry. For routine work, read
 
 ## Outcome
 
-### Noncanonical twenty-six-page sidequest (Pass 1032 / GDT404)
+### Noncanonical twenty-six-page sidequest (Pass 1033 / GDT405)
 
 The creative workshop sidequest covers twenty-six admitted physical pages with
 5,269 visible groups: 4,576 running prose/ring-text groups plus 693 local
@@ -43,6 +43,14 @@ geometries, ten heads, four R modes and three duplicate modes with one-card
 maximum lookahead and zero owner/statement crossings. Removing the two amber
 closes changes two bindings but introduces no new factor. The pages are now in
 the creative basis; no portable value was changed.
+
+Pass 1033/GDT405 freezes the complete prospective interface before another
+page is opened: 426 primary surface recipes, 46 unchanged working values, 49
+separate amber-boundary rows, 31 parser factors, four empty page slots and a
+twelve-step protocol. Exact recurrence must replay the frozen recipe; amber
+may only be promoted by a matching visible boundary. New atoms, core retuning,
+post-hoc exact-form resegmentation, boundary jumps and lookahead beyond one card
+remain stops.
 
 Pass 997 corrects the exact two-card grid, and Pass 1000 then finds that 18 of
 its 25 empty cells already occur inside longer cards: twelve directly and six

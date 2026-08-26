@@ -1,0 +1,74 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Prospective creative recipe and parser lock only; no manuscript page, word, morpheme, plaintext, translation, language, or historical code is established.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt405_second_random_batch_recipe_lock/src/run.py",
+    "validate": "python3 experiments/yolo/gdt405_second_random_batch_recipe_lock/src/validate.py"
+  },
+  "created": "2026-08-26",
+  "dependencies": [
+    "GDT402",
+    "GDT403",
+    "GDT404"
+  ],
+  "experiment_id": "GDT405",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt404_random_four_page_factorized_admission/artifacts/gdt404_688_event_first_pass.tsv",
+      "role": "complete GDT404 event and recipe edition",
+      "sha256": "3de397794b906f111f5b95087b1c007d3d914026193d5731e839d96d73ecd5c1"
+    },
+    {
+      "path": "experiments/yolo/gdt404_random_four_page_factorized_admission/artifacts/gdt404_211_new_surface_audit.tsv",
+      "role": "complete GDT404 new-surface and amber audit",
+      "sha256": "8e241cd73fce4fbc717f7f0a5f136707af816e715ce52eec5b3405a1aef6c681"
+    },
+    {
+      "path": "experiments/yolo/gdt404_random_four_page_factorized_admission/artifacts/gdt404_core_transfer_summary.tsv",
+      "role": "complete forty-six-sign value inventory",
+      "sha256": "d554f54949cc43360fefe42e98131ca0d93a2023c03218f078a4379898ee61a4"
+    },
+    {
+      "path": "experiments/yolo/gdt402_factorized_scope_selector_head_license/artifacts/gdt402_axis_inventory.tsv",
+      "role": "complete thirty-one-value parser-factor inventory",
+      "sha256": "3cac5e10955eee6a026086107a8ebc2b89e040e174e13ff90580ef9aed40aa1c"
+    },
+    {
+      "path": "experiments/yolo/gdt403_four_page_factorized_admission_worksheet/artifacts/gdt403_decision_catalog.tsv",
+      "role": "frozen intake decisions",
+      "sha256": "fb578728f73b6bcc0b921e10877bc8e83725f0253e46e370fe6a340f37219cef"
+    }
+  ],
+  "outputs": [
+    {"path": "experiments/yolo/gdt405_second_random_batch_recipe_lock/README.md", "role": "entry point", "sha256": "bf908d0dc6527879e0c5ef085961fbc0d99026d2faad0440134c14d9df44a915"},
+    {"path": "experiments/yolo/gdt405_second_random_batch_recipe_lock/METHOD.md", "role": "prospective lock method", "sha256": "dbb528f9d235b36081f033a7d6e5a75b9547643a54273389ec657e17abbec9b4"},
+    {"path": "experiments/yolo/gdt405_second_random_batch_recipe_lock/REPORT.md", "role": "primary compact result", "sha256": "bc7c4bd64720299b5bbb3f69c57d3509ac109828b060cfc9a81c1d8bd2b5fbbf"},
+    {"path": "experiments/yolo/gdt405_second_random_batch_recipe_lock/src/run.py", "role": "deterministic lock builder", "sha256": "1ad0baf548b9a2d4a43e47be49b7978e651c87a71e1b4159344d060e7619d2f5"},
+    {"path": "experiments/yolo/gdt405_second_random_batch_recipe_lock/src/validate.py", "role": "independent validator", "sha256": "df10306dfd59ee27d63a0d667e92d577791c31cc245187d30e34130fbfb914bf"},
+    {"path": "experiments/yolo/gdt405_second_random_batch_recipe_lock/artifacts/gdt405_426_locked_surface_dictionary.tsv", "role": "complete frozen surface dictionary", "sha256": "612a6beb976d12b9e69b617924da40c2576ba769a63c493ae06e53d88d01df35"},
+    {"path": "experiments/yolo/gdt405_second_random_batch_recipe_lock/artifacts/gdt405_46_locked_atom_dictionary.tsv", "role": "complete frozen atom dictionary", "sha256": "3d328cad47c2fa378dbe67af88f67b776496dbea91f2d2b9cb4debf4a99130d9"},
+    {"path": "experiments/yolo/gdt405_second_random_batch_recipe_lock/artifacts/gdt405_49_amber_microform_lock.tsv", "role": "all amber boundary locks", "sha256": "a13930f4c173a8e170728c6de6f4ebf63533afbd126f7a2f41e9af20742c7491"},
+    {"path": "experiments/yolo/gdt405_second_random_batch_recipe_lock/artifacts/gdt405_31_locked_parser_factors.tsv", "role": "all allowed parser factors", "sha256": "2972edae71844e2ba931f57435ae761865014f0b70154f2bc3c676f817bf79f6"},
+    {"path": "experiments/yolo/gdt405_second_random_batch_recipe_lock/artifacts/gdt405_second_batch_slots.tsv", "role": "four empty prospective page slots", "sha256": "1920d38e2b819da109e6ff4a3ff082013f6b9295a2bd5e7f74d4e4274713d880"},
+    {"path": "experiments/yolo/gdt405_second_random_batch_recipe_lock/artifacts/gdt405_second_batch_protocol.tsv", "role": "twelve-step prospective protocol", "sha256": "f7df217c90e87a9f19ebef46b865d548c4f069c6c46efa8ff813032da4148023"},
+    {"path": "experiments/yolo/gdt405_second_random_batch_recipe_lock/artifacts/gdt405_result.json", "role": "compact hash-bound result", "sha256": "baf6e9451532a2a69c25b1b07fe2fdc46471b09bcac2cc8e8ed98550af53e245"},
+    {"path": "experiments/yolo/gdt405_second_random_batch_recipe_lock/artifacts/gdt405_validation.json", "role": "thirty-one-check validation", "sha256": "a2121e58b19de6b55acb7d59b3fce2528fa316294b7f3edfdfc831058368a6ab"}
+  ],
+  "question": "Can the complete GDT404 surface dictionary, atom values, amber boundaries, and GDT402 parser factors be frozen before any second random four-page batch is opened?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "second_random_batch_recipe_lock",
+  "status": "SECOND_RANDOM_BATCH_LOCK_READY",
+  "title": "second random batch recipe lock",
+  "updated": "2026-08-26",
+  "validation": {
+    "artifact": "experiments/yolo/gdt405_second_random_batch_recipe_lock/artifacts/gdt405_validation.json",
+    "status": "PASS"
+  }
+}

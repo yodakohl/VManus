@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **403**
-- Experiment-associated tracked files: **5,777** (650.7 MiB)
-- Structured GDT337+ experiments: **68**
+- Experiments indexed: **404**
+- Experiment-associated tracked files: **5,792** (650.8 MiB)
+- Structured GDT337+ experiments: **69**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT405 | GDT405_second_random_batch_recipe_lock | `SECOND_RANDOM_BATCH_LOCK_READY` | [report](../experiments/yolo/gdt405_second_random_batch_recipe_lock/REPORT.md) | 15 | 140.8 KiB | 3 | STRUCTURED_YOLO |
 | GDT404 | GDT404_random_four_page_factorized_admission | `PASS_WITH_AMBER_MICROFORMS` | [report](../experiments/yolo/gdt404_random_four_page_factorized_admission/REPORT.md) | 23 | 703.2 KiB | 3 | STRUCTURED_YOLO |
 | GDT403 | GDT403_four_page_factorized_admission_worksheet | `FOUR_PAGE_WORKSHEET_READY__WAITING_FOR_USER_RELEASE` | [report](../experiments/yolo/gdt403_four_page_factorized_admission_worksheet/REPORT.md) | 15 | 45.9 KiB | 2 | STRUCTURED_YOLO |
 | GDT402 | GDT402_factorized_scope_selector_head_license | `COMPLETE_FACTORIZED_SCOPE_PARSER__NO_FALSE_AMBER` | [report](../experiments/yolo/gdt402_factorized_scope_selector_head_license/REPORT.md) | 14 | 1.3 MiB | 2 | STRUCTURED_YOLO |
