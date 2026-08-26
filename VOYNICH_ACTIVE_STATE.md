@@ -12011,3 +12011,31 @@ five registers (495 cells). Distinguish exact observed cells, compositions
 using only old owner-local values and genuinely unavailable action/register
 realizations; use the GDT497 context-safe ellipse policy and keep all 26 pages
 closed.
+
+## GDT498 nine-action frame/register matrix
+
+GDT498 expands the eleven fixed T/R frames to all nine short action roots and
+all five owner registers. The Cartesian matrix has 495/495 readable cells.
+One hundred forty-three recipe×register cells are exact GDT416 observations
+with 660 events; 352 remain explicitly `COMPOSED_WORKING`; zero is unavailable.
+
+Every component uses an old register value. The GDT415 95-cell atlas supplies
+the nineteen portable cores; the already old GDT493 55-cell frame atlas adds
+`E=GRAD I`, which is why all 45 `@ACTION+CH+E+Y` cells also close. No value was
+created to fill the matrix. All 110 T/R cells reproduce the current GDT497
+phrases exactly.
+
+The 352 compositions partition into 165 with at least two observed alternate
+heads in the same frame/register, 88 with one, 49 with only the same action and
+frame in another register, and fifty with old component values but no observed
+complete-cell neighbour. Two hundred fifty-three compositions therefore have
+a local whole-frame family. The fifty weakest cells concentrate in five
+multi-component frames rather than the simple action, WERT, ANTEIL, ZIELORT,
+FORTSETZEN or POSTEN frames.
+
+One hundred fifteen unobserved state cells generalize 156 inherited noun
+positions with the GDT497 context policy. Meanings, events and pages remain
+unchanged; validation passes 3064/3064. Next rank all 352 compositions, publish
+the 165 multihead layer, audit the fifty old-values-only cases with partial
+frames/action pairs and smooth repeated-action wording without changing a
+recipe. Keep all 26 pages closed.

@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT497.
+Updated: 2026-08-26, after GDT498.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -344,6 +344,16 @@ five OL cards use fluent `Fahre fort, ...` syntax. This generalizes 31 inherited
 noun positions while changing zero roots or frames. All 55 T/R pairs remain
 distinct, and every generalized cell has observed same-frame and same-action
 state examples.
+
+GDT498 expands the same machinery to all nine short actions across eleven
+frames and five registers. The complete 495-cell matrix contains 143 exact
+observed cells/660 events and 352 visibly composed cells; zero is unavailable.
+All component values are old after joining the GDT415 core atlas with the old
+GDT493 `E=GRAD I` cells, and all 110 T/R defaults reproduce GDT497 exactly.
+Among the compositions, 165 have two or more observed local heads, 88 have one,
+49 have only a cross-register same-action anchor and fifty currently have only
+old component values. Thus the weak frontier is a finite list, not an unnamed
+gap in the whole dictionary.
 
 GDT428 now supplies the missing semantic contrast deck. Six within-class
 comparisons contain 104 exact frames where only the action root changes. The
@@ -1133,6 +1143,10 @@ comparison set.
 
 ## Primary artifacts
 
+- Current GDT498 complete nine-action matrix, 495 readable cells, 143 observed
+  cells/660 events, 352 labelled compositions and four transparent support
+  classes:
+  `gdt498_nine_action_frame_register_matrix/`;
 - Current GDT497 complete context-safe T/R default deck, all 110 cells, 37
   observed clauses, fifty explicit compositions, 23 generalized ellipses and
   55 distinct T/R pairs:
@@ -1401,10 +1415,9 @@ comparison set.
 
 ## Next work
 
-Keep the current 26 pages closed. Expand the same readable-default machinery
-from T/R to all nine short action roots over the eleven established frames and
-five registers. First inventory the 495 action×frame×register cells as exact
-observations, old-value compositions or genuinely unavailable cells. Use only
-the old owner-local action/value tables, preserve observations, apply the same
-context-safe ellipse wording and leave any missing action/register realization
-explicit rather than inventing it.
+Keep the current 26 pages closed. Rank all 352 GDT498 compositions inside their
+four visible support classes and publish the 165 local-multihead cases as the
+main productive layer. Audit the fifty old-values-only cells against old
+partial frames and adjacent action pairs. Separately compress mechanically
+repeated actions such as `CH+CH` or `CHD+CHD+Y` into fluent but
+meaning-equivalent German, without changing a recipe or promoting a cell.
