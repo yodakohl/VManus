@@ -511,6 +511,24 @@ or confirmed lexeme follows. The next semantic route is a bounded search for
 internal subfamilies within the 107 learned labels that predict visible owner
 class without reusing the nineteen-core decomposition as its own evidence.
 
+GDT460 performs that bounded search and finds a more useful hybrid than 107
+indivisible entries. Twenty-four unique running surfaces produce 27 separately
+calibrated edge channels: eight prefixes and nineteen suffixes, each supported
+by at least four running extension types with at least 90% recipe-edge
+precision. Eighty-three learned labels carry a calibrated edge, which accounts
+for 277/713 written characters; five (`alcphy`, `otalaiin`, `otolam`, `alaly`,
+`otolaiin`) become complete formulas. Seventeen length-two-to-five substrings
+also recur in at least three pure-class labels on both current pages of that
+class, touching 35 labels as stellar-position or drug-family markers. The
+working split is five full formulas, 78 known-edge-plus-learned-core labels,
+five family-only labels and nineteen wholly learned labels. The usable reading
+rule is therefore functional prefix + learned name core + functional suffix,
+with whole-form memorization only when no channel applies. Family markers name
+only a visible owner class, never an individual object. No core value, page,
+generated surface or confirmed lexeme follows. Next test the nineteen residual
+whole labels against broader already admitted surface families without
+weakening the direction-specific edge calibration.
+
 Pass 1032/GDT404 applies the frozen GDT403 intake contract to a one-shot random
 draw of f1r, f24v, f81r and f95v. The 95 guarded lines add 688 events, 88
 statements and 677 focus attachments. Exactly 470 events retain an old surface
