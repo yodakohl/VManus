@@ -11493,3 +11493,24 @@ is not equated with raw character morphology. No root, learned name, surface,
 recipe, selected model, event, page, object identity, plaintext, language or
 confirmed syntax changes. Next audit the 41 OT slots with the same renderer and
 compile a paired order grammar without opening a page.
+
+## GDT478 paired OT/OL order grammar
+
+GDT478 applies GDT477's positional renderer to all 41 `OT=DANACH` slots and
+then merges them with the 28 OL slots. OT has forty forward openings, one
+left-to-right bridge and zero backward holds. Every OT has a right successor.
+The one bridge is f77r.8 `dotedy`: `[BADSTATIONSNAME:d] · DANACH ·
+[BADSTATIONSNAME:edy]`, read as “nach Badstation d folgt Badstation edy.” OT
+name position is 25 name-free, fifteen pre-name and one between-name, with no
+post-name or terminal OT. Prefix `ot-` has 66/66 running extension types/211
+events/24 pages; strict-internal `ot` has 55/56 types/150 events/nineteen pages.
+
+The complete paired deck has 69 slots in sixty events and five observed
+root×direction cells. OT performs `START_FRESH_SIBLING` 41 times; OL performs
+`KEEP_ACTIVE_UNIT` 28 times. Seven events contain both roots. Six have `OT|OL`
+and `otolarol` has `OT|OL|OL`; OT precedes every OL in 7/7. Thus `otol` has the
+working state reading “next unit; continue that unit,” not a learned complex
+lexeme. Validation passes 83/83. No root, name, surface, recipe, selected model,
+event, page, object identity, plaintext, language or confirmed syntax changes.
+Next integrate GDT476 and GDT478 into one complete 183-event/135-record
+six-page local working edition without opening another page.

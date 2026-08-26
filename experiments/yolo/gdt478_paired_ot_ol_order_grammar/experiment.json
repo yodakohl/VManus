@@ -1,0 +1,142 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Paired directional working renderer for the unchanged OT=DANACH and OL=FORTSETZEN roots over 69 admitted local occurrences; no plaintext, confirmed syntax, lexeme, object identity, new component meaning, name, surface, recipe, model, event, or page.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt478_paired_ot_ol_order_grammar/src/run.py",
+    "validate": "python3 experiments/yolo/gdt478_paired_ot_ol_order_grammar/src/validate.py"
+  },
+  "created": "2026-08-26",
+  "dependencies": ["GDT460", "GDT461", "GDT474", "GDT475", "GDT476", "GDT477"],
+  "experiment_id": "GDT478",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt460_learned_label_edge_stem_atlas/artifacts/gdt460_27_calibrated_edge_stems.tsv",
+      "role": "calibrated prefix OT channel",
+      "sha256": "c2cc466324464a4f51728381a533bf77a955d5c4a5bd19619a5644fc47964ed5"
+    },
+    {
+      "path": "experiments/yolo/gdt461_internal_stem_residual_bridge/artifacts/gdt461_9_calibrated_internal_stems.tsv",
+      "role": "calibrated internal OT channel",
+      "sha256": "8650c79a6b641f9169e111a7b600be9982982cde9032eaf26651bf80bdf8078f"
+    },
+    {
+      "path": "experiments/yolo/gdt474_locus_bundle_meaning_triptych/artifacts/gdt474_183_event_meaning_triptych.tsv",
+      "role": "complete literal event traces and grammatical readings",
+      "sha256": "a221ab715e7af5b2f680f37eb09273b1240e02fe176ad81d1e13b5e0f4d1d052"
+    },
+    {
+      "path": "experiments/yolo/gdt475_ot_ol_page_microrecord_itineraries/artifacts/gdt475_69_order_occurrence_positions.tsv",
+      "role": "complete OT and OL occurrence stream",
+      "sha256": "45b5778b7ece92a948ee27f3bfe8e73a76fe8346b2e8f500ea8d7bacd076e189"
+    },
+    {
+      "path": "experiments/yolo/gdt475_ot_ol_page_microrecord_itineraries/artifacts/gdt475_146_bundle_boundary_roles.tsv",
+      "role": "bundle and record boundary roles",
+      "sha256": "462ef1b26402881b4924391c30602d517cc80bd3e8314c667d273f27673ce9dc"
+    },
+    {
+      "path": "experiments/yolo/gdt476_boundary_context_tie_resolution/artifacts/gdt476_64_tie_context_decisions.tsv",
+      "role": "active contextual model defaults",
+      "sha256": "a40109a0ad37a751bde6f1bad2e6a2e9203240c7f1dfab089ef7fd4957edfe53"
+    },
+    {
+      "path": "experiments/yolo/gdt477_ol_directional_scope_phrasebook/artifacts/gdt477_28_ol_directional_scope_occurrences.tsv",
+      "role": "complete OL directional scope edition",
+      "sha256": "3f8b403c6647190d35ff4f11ca5d7a873a5879daa920eedc224b2e495030dbe9"
+    },
+    {
+      "path": "experiments/yolo/gdt477_ol_directional_scope_phrasebook/artifacts/gdt477_3_directional_scope_rules.tsv",
+      "role": "three fixed OL scope rules",
+      "sha256": "cb00e2b5b5c307a473704532dafd019ce22ca17480e5faf3c5050e79114fcb17"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt478_paired_ot_ol_order_grammar/README.md",
+      "role": "entry point",
+      "sha256": "71e3756811ae64f6c25d2687facac0932a4c07e40c2084018a01e367362b7c41"
+    },
+    {
+      "path": "experiments/yolo/gdt478_paired_ot_ol_order_grammar/METHOD.md",
+      "role": "paired order method",
+      "sha256": "58acd76c21d8919956f362d2aa32b31254612b5eea3de1daacf6312cb109e474"
+    },
+    {
+      "path": "experiments/yolo/gdt478_paired_ot_ol_order_grammar/REPORT.md",
+      "role": "primary report",
+      "sha256": "aa2a3dfbc6ceafb3e7d3ee442fc18627610c0d5a1cf074c23fd1efc703dcd226"
+    },
+    {
+      "path": "experiments/yolo/gdt478_paired_ot_ol_order_grammar/src/run.py",
+      "role": "deterministic paired grammar builder",
+      "sha256": "e5ac3473418d1486664c18d0f426ddf0b4d05c3969fe1b30c7ed15f04b9040c0"
+    },
+    {
+      "path": "experiments/yolo/gdt478_paired_ot_ol_order_grammar/src/validate.py",
+      "role": "validator and deterministic rebuild check",
+      "sha256": "275ccc234f565e09f915217794debc902a95ea42cd5e61f5fbb2f6cb9dc185ec"
+    },
+    {
+      "path": "experiments/yolo/gdt478_paired_ot_ol_order_grammar/artifacts/README.md",
+      "role": "artifact guide",
+      "sha256": "9362fc44d520846332791a2b17013ccf6cfc49e00ec3a199b4cb2b874e78dd02"
+    },
+    {
+      "path": "experiments/yolo/gdt478_paired_ot_ol_order_grammar/artifacts/GDT478_PAIRED_OT_OL_ORDER_GRAMMAR.md",
+      "role": "complete readable paired grammar",
+      "sha256": "eaf7341d4a6187b591aff6b1d1ca0f1b57cca4bb0afeb5d2e91e9b99602e046a"
+    },
+    {
+      "path": "experiments/yolo/gdt478_paired_ot_ol_order_grammar/artifacts/gdt478_69_paired_order_scope_occurrences.tsv",
+      "role": "all paired order scope slots",
+      "sha256": "5b4550e2d8e9e9a968a9bb5283415fcf5de61c5e97fb6d584eb9b34ff3672e31"
+    },
+    {
+      "path": "experiments/yolo/gdt478_paired_ot_ol_order_grammar/artifacts/gdt478_60_paired_order_event_editions.tsv",
+      "role": "complete order-bearing event edition",
+      "sha256": "15cc0da7c803fb14c1c2a2212492001f2a32e1994b1a162eba8c99c15d626d30"
+    },
+    {
+      "path": "experiments/yolo/gdt478_paired_ot_ol_order_grammar/artifacts/gdt478_5_paired_order_scope_rules.tsv",
+      "role": "five observed root-direction rules",
+      "sha256": "aca0ecad89c648d989c5aedc1f05f64a8351193c70dcf8eb58b3a2ea0e367999"
+    },
+    {
+      "path": "experiments/yolo/gdt478_paired_ot_ol_order_grammar/artifacts/gdt478_7_ot_ol_joint_events.tsv",
+      "role": "all joint OT and OL events",
+      "sha256": "0ae872283d17c4f7404fde6ef8ca7af8ac5097ced7f6429ed35cd82ac094af67"
+    },
+    {
+      "path": "experiments/yolo/gdt478_paired_ot_ol_order_grammar/artifacts/gdt478_6_page_order_summary.tsv",
+      "role": "page order summary",
+      "sha256": "d30ed75f71b0a22a655f8857fab851e748d9d4a2a58c618c4771f51146acdb61"
+    },
+    {
+      "path": "experiments/yolo/gdt478_paired_ot_ol_order_grammar/artifacts/gdt478_result.json",
+      "role": "compact result",
+      "sha256": "88714d00601a717a33ff67a7e2851a1eecd413f11a98d9b56b5a0a633f19ebe5"
+    },
+    {
+      "path": "experiments/yolo/gdt478_paired_ot_ol_order_grammar/artifacts/gdt478_validation.json",
+      "role": "83-check validation report",
+      "sha256": "cf5c14c68d33cca310bfd2c9252e219c6ebc62d920276fe39287bc78e326e711"
+    }
+  ],
+  "question": "Does the GDT477 directional audit leave OT=DANACH as a pure next-unit operator, and can all 41 OT plus 28 OL slots be compiled into one paired order grammar?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "paired_ot_ol_order_grammar",
+  "status": "OT_STARTS_NEXT_UNIT__OL_KEEPS_CURRENT_UNIT__PAIRED_ORDER_GRAMMAR_COMPLETE",
+  "title": "Paired OT/OL order grammar",
+  "updated": "2026-08-26",
+  "validation": {
+    "artifact": "experiments/yolo/gdt478_paired_ot_ol_order_grammar/artifacts/gdt478_validation.json",
+    "status": "PASS"
+  }
+}

@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT477.
+Updated: 2026-08-26, after GDT478.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -65,7 +65,7 @@ CONTROL into `T=EINSTELLEN` and `R=MARKIEREN` creates a five-class gate with
 amber; `R>T` and `R<-EE` remain red-local. The internal meanings of the broad
 classes are not collapsed.
 
-GDT459–GDT477 now resolve the formerly opaque local-address tail as the mixed
+GDT459–GDT478 now resolve the formerly opaque local-address tail as the mixed
 codebook architecture anticipated by the sidequest: portable function cards
 surround memorized owner-bound name cores. Of 107 learned address labels,
 eighteen are now complete function formulas, 87 are function-shell/name-core
@@ -149,6 +149,15 @@ five follow one and thirteen are name-free; pre-name OL is never backward and
 post-name OL never forward. Prefix and suffix `ol` already have independent
 running-carrier support, so one `FORTSETZEN` root now predicts three positional
 phrases instead of accumulating three dictionary meanings.
+GDT478 completes the paired order grammar. OT has forty forward openings, one
+between-name bridge (`Badstation d · DANACH · Badstation edy`) and no backward
+form; all 41 OT slots have a right-hand successor. OL keeps its 9/10/9 split.
+The resulting five observed cells are two OT next-unit rules and three OL
+keep-active rules. Seven events contain both roots, and all seven put OT before
+every OL: first open the next unit, then keep that unit active. Prefix `ot-` is
+already 66/66 over running extension types; strict-internal `ot` is 55/56.
+Forms such as `otol` therefore reduce to two state operations rather than a
+memorized complex word.
 
 GDT428 now supplies the missing semantic contrast deck. Six within-class
 comparisons contain 104 exact frames where only the action root changes. The
@@ -1146,8 +1155,8 @@ comparison set.
 
 ## Next work
 
-Keep the current 26 pages closed. Apply GDT477's literal left/right audit to all
-41 `OT=DANACH` occurrences. Determine whether OT also has forward, bridge and
-backward phrasing around learned names or whether every position remains only a
-fresh-sibling marker. Then compile one paired OT/OL order grammar while
-retaining every root, name, surface, exact package and GDT477 default.
+Keep the current 26 pages closed. Compile one definitive local microrecord
+edition over all 183 events and all 135 GDT475 records. Use GDT476's active
+coordinate/instruction/catalogue choice and insert GDT478's exact directional
+OT/OL phrases in source order. Retain every alternative reading, root, name,
+surface and exact package; this is integration, not another reinterpretation.
