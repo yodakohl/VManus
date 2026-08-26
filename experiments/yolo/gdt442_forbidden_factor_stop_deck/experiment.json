@@ -1,0 +1,47 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Complete current reader-stop lattice under GDT441's working factors. STOP means unlicensed by the current reader, not historically impossible; no new meaning, surface, occurrence prediction, plaintext, language, or page evidence.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt442_forbidden_factor_stop_deck/src/run.py",
+    "validate": "python3 experiments/yolo/gdt442_forbidden_factor_stop_deck/src/validate.py"
+  },
+  "created": "2026-08-26",
+  "dependencies": ["GDT425", "GDT441"],
+  "experiment_id": "GDT442",
+  "inputs": [
+    {"path": "experiments/yolo/gdt441_factor_gated_unseen_recipe_reader/src/factor_gate_stream_read.py", "role": "executable factor gate and state-safe reader", "sha256": "b3704429ece4cbc8b6aeeded06231963a03158cb3078f13024e221eacee41981"},
+    {"path": "experiments/yolo/gdt441_factor_gated_unseen_recipe_reader/artifacts/gdt441_4938_candidate_factor_gate.tsv", "role": "complete neutral-context candidate gate", "sha256": "d541bfb329989adf1660639109567770f9d273b5eae9e46618e6c66cd97c04fe"}
+  ],
+  "outputs": [
+    {"path": "experiments/yolo/gdt442_forbidden_factor_stop_deck/README.md", "role": "entry point and explainer command", "sha256": "838272331f5425919682796e85c2f16ca2da3918697ff78c5c98b442927ce2ea"},
+    {"path": "experiments/yolo/gdt442_forbidden_factor_stop_deck/METHOD.md", "role": "stop-deck method", "sha256": "02b5828d5c4182dbedd97ecc009815286f79d58090e7acd6ba5d6a473f1cc1d5"},
+    {"path": "experiments/yolo/gdt442_forbidden_factor_stop_deck/REPORT.md", "role": "primary report", "sha256": "781491c2ef2d1fce601888037c79b82c98d224a3cf1d716c2f2c186d09999c76"},
+    {"path": "experiments/yolo/gdt442_forbidden_factor_stop_deck/src/explain_stop.py", "role": "prospective stop explainer", "sha256": "efdafea7397d981ca157cdab6eb5b98d2a46ce79c8cdf15941726e50f29f6c42"},
+    {"path": "experiments/yolo/gdt442_forbidden_factor_stop_deck/src/run.py", "role": "deterministic builder", "sha256": "0d606f6f15c16024361a5b6d5f3e8ecb7221f86f3209fd04062d8ee09fbb29cc"},
+    {"path": "experiments/yolo/gdt442_forbidden_factor_stop_deck/src/validate.py", "role": "validator", "sha256": "9414d703b7dec96442fa587af444c33061050f52597674b099c8a76884563fa6"},
+    {"path": "experiments/yolo/gdt442_forbidden_factor_stop_deck/artifacts/README.md", "role": "artifact guide", "sha256": "53a6fd02d56932aa72947e89b528f644699a4dcbce640db1040338fc7db09e08"},
+    {"path": "experiments/yolo/gdt442_forbidden_factor_stop_deck/artifacts/gdt442_269_stop_candidate_audit.tsv", "role": "all neutral-context stop candidates", "sha256": "43c312bdb955acae3a25c36408f94d4d0468fef78a0b6b8ae6865f4790c6e51f"},
+    {"path": "experiments/yolo/gdt442_forbidden_factor_stop_deck/artifacts/gdt442_complete_201_factor_lattice.tsv", "role": "complete pair focus and close lattice", "sha256": "76f55e20a06f0b17bad7ae121bde47dd0abeb316304da4501c7b209a5afb644e"},
+    {"path": "experiments/yolo/gdt442_forbidden_factor_stop_deck/artifacts/gdt442_47_stop_rule_deck.tsv", "role": "complete elementary stop deck", "sha256": "bfe68545312621d8bc9b6625a7183a53aea6839e154eac5d215b1c5c31bc76a9"},
+    {"path": "experiments/yolo/gdt442_forbidden_factor_stop_deck/artifacts/gdt442_47_stop_state_probes.tsv", "role": "state preservation and recovery probes", "sha256": "19daa1301fb0e95bdc1623b989ec70605a0700b2af1f9e170f4f668fe607d46c"},
+    {"path": "experiments/yolo/gdt442_forbidden_factor_stop_deck/artifacts/gdt442_result.json", "role": "compact result", "sha256": "5d445c52ae6d7036c5c2c52dfe2d790c256d642e378d3f5f938bcd4669229fdc"},
+    {"path": "experiments/yolo/gdt442_forbidden_factor_stop_deck/artifacts/gdt442_validation.json", "role": "validation report", "sha256": "c281c306787517bdf807a6fcfd60e6af11c31637c543829dc2cf6cd9910e5eae"}
+  ],
+  "question": "Can every neutral-context GDT441 stop be reduced to a complete finite deck of elementary pair, focus, or missing-head rules whose executable stops preserve state?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "forbidden_factor_stop_deck",
+  "status": "COMPLETE_47_RULE_STOP_DECK__ALL_STOPS_STATE_SAFE",
+  "title": "forbidden factor stop deck",
+  "updated": "2026-08-26",
+  "validation": {
+    "artifact": "experiments/yolo/gdt442_forbidden_factor_stop_deck/artifacts/gdt442_validation.json",
+    "status": "PASS"
+  }
+}

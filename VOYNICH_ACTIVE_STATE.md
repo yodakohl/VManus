@@ -306,6 +306,16 @@ states, ordered traces and clauses remain unchanged. The gate accepts 4,303 of
 reader and explicitly not an occurrence or surface predictor. Validation passes
 38/38; no meaning, surface or page changes.
 
+GDT442 enumerates the entire factor decision surface: 81 direct action pairs,
+110 head–focus edges and ten close/context cells. Its 47 current stop rules are
+44 unlicensed direct pairs, `CHD<-EEE`, `R<-EEE`, and close without an active
+head. The 269 neutral-context candidate stops reduce to 24 of these rules
+(217 pair-bearing rows, 52 missing-head rows, six with two pair blocks). All 47
+minimal stop probes preserve action and argument and all 47 recover on the next
+valid card. Six currently observed neutral stops are close cards rescued by
+their real inherited head. Validation passes 35/35; no meaning, surface or page
+changes.
+
 Pass 1032/GDT404 applies the frozen GDT403 intake contract to a one-shot random
 draw of f1r, f24v, f81r and f95v. The 95 guarded lines add 688 events, 88
 statements and 677 focus attachments. Exactly 470 events retain an old surface

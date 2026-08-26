@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **440**
-- Experiment-associated tracked files: **6,314** (691.6 MiB)
-- Structured GDT337+ experiments: **105**
+- Experiments indexed: **441**
+- Experiment-associated tracked files: **6,328** (691.7 MiB)
+- Structured GDT337+ experiments: **106**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT442 | GDT442_forbidden_factor_stop_deck | `COMPLETE_47_RULE_STOP_DECK__ALL_STOPS_STATE_SAFE` | [report](../experiments/yolo/gdt442_forbidden_factor_stop_deck/REPORT.md) | 14 | 81.7 KiB | 2 | STRUCTURED_YOLO |
 | GDT441 | GDT441_factor_gated_unseen_recipe_reader | `ALL_PAGE_PRIVATE_RECIPES_CONDITIONALLY_READABLE__NOT_OCCURRENCE_PREDICTION` | [report](../experiments/yolo/gdt441_factor_gated_unseen_recipe_reader/REPORT.md) | 14 | 3.1 MiB | 10 | STRUCTURED_YOLO |
 | GDT440 | GDT440_dual_channel_order_trace_reader | `ORDER_COLLISIONS_RESOLVED__CO_VALUED_LOCAL_CHANNELS_RETAINED` | [report](../experiments/yolo/gdt440_dual_channel_order_trace_reader/REPORT.md) | 15 | 1.8 MiB | 5 | STRUCTURED_YOLO |
 | GDT439 | GDT439_full_catalog_transition_collision_audit | `MAIN_DECK_UNIQUE__FULL_CATALOG_COLLISIONS_LOCALIZED` | [report](../experiments/yolo/gdt439_full_catalog_transition_collision_audit/REPORT.md) | 16 | 532.0 KiB | 6 | STRUCTURED_YOLO |

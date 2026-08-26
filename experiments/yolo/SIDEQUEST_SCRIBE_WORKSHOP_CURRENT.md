@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT441.
+Updated: 2026-08-26, after GDT442.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -194,6 +194,16 @@ page: 853 green, eight through the fixed local appendix and zero stops. The
 4,576 current events retain their GDT440 state, ordered trace and clause. The
 same gate accepts 4,303/4,566 absent one-edit candidates, which makes it useful
 for reading after occurrence but explicitly too broad for predicting a form.
+
+GDT442 turns every red GDT441 factor into a pocket error card. The complete
+finite lattice has 81 direct action-pair cells, 110 head–focus cells and ten
+close/context cells. Forty-seven are current stops: 44 unlicensed direct
+action pairs, the two focus gaps `CHD<-EEE` and `R<-EEE`, and `DY` without an
+active head. The 269 neutral candidate stops touch only 24 of those rules.
+Every one of the 47 minimal probes stops without mutating state and every next
+valid card resumes normally. The six observed recipes that stop in neutral
+context are all real close cards whose manuscript occurrence inherits a left
+head; they do not contradict the reader.
 
 ## Fixed scope
 
@@ -765,6 +775,9 @@ comparison set.
 
 ## Primary artifacts
 
+- Current GDT442 complete 201-cell factor lattice, 47-rule stop deck, 269
+  candidate audit, executable stop explainer and 47 state-safe recovery probes:
+  `gdt442_forbidden_factor_stop_deck/`;
 - Current GDT441 factor-gated prospective reader, complete 4,576-event replay,
   861 page-private recipe replay, 4,938-candidate breadth control and executable
   stop-safe command:
@@ -942,8 +955,8 @@ comparison set.
 
 ## Next work
 
-Keep the current 26 pages closed. Turn GDT441's 269 neutral-context red
-candidates into the smallest forbidden-factor deck: separate missing direct
-action pairs, focus edges and close-without-head cases, then feed one example
-of each through the command and verify that every stop preserves state. Do not
-add a meaning, surface, page or broader class escape.
+Keep the current 26 pages closed. Replay the 52 neutral close-without-head
+candidates under each of the nine possible incoming action heads. Record which
+become green, amber or remain stopped because one of the two focus gaps still
+intervenes. This is a context-rescue atlas only; do not invent a head, meaning,
+surface, page or broader class escape.
