@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT437.
+Updated: 2026-08-26, after GDT438.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -155,6 +155,15 @@ reversed card remains “…; entlang der Ringbahn.” All 49 repaired transitio
 signatures are unique. Applying the same narrow rule to the current edition
 reorders 68 clauses in 59 statements without changing a root value, state,
 surface or page.
+
+GDT438 puts that narrow repair into the actual streaming command. Its input
+still contains only page, register, visible owner and ordered component recipe;
+neither an event ID nor inherited-state fields are supplied. The complete
+replay keeps all 4,576 GDT436 state transitions, matches all 4,576 GDT437
+clauses, rebuilds all 715 statements, and reproduces all 245 future-card
+register probes. Unseen-atom and unlicensed-known-atom stops both leave the
+active action and argument untouched. The reader is now the operational entry
+point for a later admitted page.
 
 ## Fixed scope
 
@@ -726,6 +735,9 @@ comparison set.
 
 ## Primary artifacts
 
+- Current GDT438 order-safe prospective reader, complete 4,576-event and
+  715-statement replay, 245 future-card command probes and stop-state tests:
+  `gdt438_order_safe_streaming_reader/`;
 - Current GDT437 49-card transition audit, 12,005-cell state matrix, complete
   collision inventory, 49 repaired signatures, 1,176 pair audit and 68-event
   order-only repair:
@@ -888,7 +900,7 @@ comparison set.
 
 ## Next work
 
-Keep the current 26 pages closed. Put the GDT437 order-safe renderer into the
-prospective streaming command, replay the complete 4,576-event edition, and
-then extend collision detection from the 49-card main deck to the complete
-1,563 exact-key intake catalog. Do not change a meaning, surface or page.
+Keep the current 26 pages closed. Extend the order-safe transition-signature
+audit from the 49-card main deck to all 1,563 exact intake keys, retaining tier
+and exact component order. Localize every remaining collision instead of
+changing a meaning, surface or page.

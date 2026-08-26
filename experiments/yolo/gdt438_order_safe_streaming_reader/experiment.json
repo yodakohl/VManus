@@ -1,0 +1,54 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "The complete event and statement replays are retained because they prove exact state preservation and localize every order-only wording change; both remain below the inline size ceiling.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Executable integration of the current state and order model only; no independent confirmation, plaintext, language, surface prediction, new component meaning, or new page evidence.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt438_order_safe_streaming_reader/src/run.py",
+    "validate": "python3 experiments/yolo/gdt438_order_safe_streaming_reader/src/validate.py"
+  },
+  "created": "2026-08-26",
+  "dependencies": ["GDT413", "GDT415", "GDT416", "GDT434", "GDT436", "GDT437"],
+  "experiment_id": "GDT438",
+  "inputs": [
+    {"path": "experiments/yolo/gdt415_owner_local_semantic_expansion_atlas/artifacts/gdt415_4576_event_owner_local_edition.tsv", "role": "ordered oracle-free current event stream", "sha256": "5229fa53ff862f88fad9c1888d6651ff1f413c1c75a56ba7e1042c4472d4a7d3"},
+    {"path": "experiments/yolo/gdt415_owner_local_semantic_expansion_atlas/artifacts/gdt415_715_statement_owner_local_edition.tsv", "role": "statement order and event membership", "sha256": "b30ab18edd493168c689ede62e94ae098ad888917aa174098cffc46f6f5ea990"},
+    {"path": "experiments/yolo/gdt436_streaming_context_intake_driver/src/stream_read.py", "role": "frozen two-slot page-owner state driver", "sha256": "19fe735f1f7be8bfdafb9be7b8239317e25a3994a3f2264d0ddb0a45ba242781"},
+    {"path": "experiments/yolo/gdt436_streaming_context_intake_driver/artifacts/gdt436_4576_oracle_free_stream_readings.tsv", "role": "baseline state and event replay", "sha256": "585562da0d3be7534e29729d990b20f7d95a0a037e4db066df751f38624539e6"},
+    {"path": "experiments/yolo/gdt436_streaming_context_intake_driver/artifacts/gdt436_715_oracle_free_statement_readings.tsv", "role": "baseline statement replay", "sha256": "92598bb92fc392dd802eeb0db7a9617ea0922734d5f1758b0e89c6750cef15ab"},
+    {"path": "experiments/yolo/gdt437_future_card_state_transition_order_repair/src/ordered_renderer.py", "role": "order-preserving clause renderer", "sha256": "027134a0b05a7195cf714fc2ae5a6f221b0de7205562f25850258f3c829ec4b7"},
+    {"path": "experiments/yolo/gdt437_future_card_state_transition_order_repair/artifacts/gdt437_68_current_order_repairs.tsv", "role": "expected current event repair set", "sha256": "1685722d70c94a507e29fb4f21bbf714a4872e84d520cd2fc0efb599605e8080"},
+    {"path": "experiments/yolo/gdt437_future_card_state_transition_order_repair/artifacts/gdt437_12005_state_transition_matrix.tsv", "role": "expected future-card transitions", "sha256": "9bcccfb1b0439dde87a0cd394f9e29da061e8e5f63a92089ae15b9028c816baf"},
+    {"path": "experiments/yolo/gdt434_forty_nine_card_intake_reader/artifacts/gdt434_1563_recipe_intake_catalog.tsv", "role": "exact intake tiers and future deck", "sha256": "51c87782c36cce812394feb593bf5afb952c2542bb174679e3a17f4deb0401d6"}
+  ],
+  "outputs": [
+    {"path": "experiments/yolo/gdt438_order_safe_streaming_reader/README.md", "role": "entry point and command", "sha256": "9847a69dc8fadb0e09e1779694dbdac27083b61d0d9b08ba03bcf4bcd991415b"},
+    {"path": "experiments/yolo/gdt438_order_safe_streaming_reader/METHOD.md", "role": "integration method", "sha256": "6b4944ed42f84d5584782572a6eeaa09c8529aeffb3d949e393a332aac83277b"},
+    {"path": "experiments/yolo/gdt438_order_safe_streaming_reader/REPORT.md", "role": "primary report", "sha256": "4e4f0f43bdcb6f17c7cdd544749b09dd2d30ee2ccd2e17eb78d0d15a836a5852"},
+    {"path": "experiments/yolo/gdt438_order_safe_streaming_reader/src/order_safe_stream_read.py", "role": "prospective order-safe streaming command", "sha256": "ec75aa3b5d0787a87998b4c62058b2199b199c9a341bfe6e39d73c4814cb96be"},
+    {"path": "experiments/yolo/gdt438_order_safe_streaming_reader/src/run.py", "role": "deterministic builder", "sha256": "ea5c59cf82953cd0afe437296e1634a79e5f37de15a6af24e8a382bb352680fc"},
+    {"path": "experiments/yolo/gdt438_order_safe_streaming_reader/src/validate.py", "role": "validator", "sha256": "3025bdbe67c7667a7e47772e412d063f2b11d9cc9789e8777da2d7edff1a4a52"},
+    {"path": "experiments/yolo/gdt438_order_safe_streaming_reader/artifacts/README.md", "role": "artifact guide", "sha256": "084873567d5a2e748ea2575a725ebd782ed0bff06daa7524e742de2580f67a8d"},
+    {"path": "experiments/yolo/gdt438_order_safe_streaming_reader/artifacts/gdt438_4576_order_safe_stream_readings.tsv", "role": "complete current event replay", "sha256": "5eb05099196c7e97de133da2868ec32db7a9e45d9eac773fcbb73ba142ac9617"},
+    {"path": "experiments/yolo/gdt438_order_safe_streaming_reader/artifacts/gdt438_715_order_safe_statement_readings.tsv", "role": "complete current statement replay", "sha256": "cf209e661bc589aaec505e2bf152cdc22bf4cd7bb24a0ff662fd8e175cd62be4"},
+    {"path": "experiments/yolo/gdt438_order_safe_streaming_reader/artifacts/gdt438_245_oracle_free_future_card_probes.tsv", "role": "all future cards in five registers", "sha256": "33a500e09d7bec93363c54c6ce06dd0c998de3a895501aa8fbdfa992b9bb673a"},
+    {"path": "experiments/yolo/gdt438_order_safe_streaming_reader/artifacts/gdt438_stop_state_integrity_probes.tsv", "role": "stop-state integrity probes", "sha256": "3c38d1da22457bc5c5682e0e2ce8d4361248c053b22fba22f44dcef7d1aabca9"},
+    {"path": "experiments/yolo/gdt438_order_safe_streaming_reader/artifacts/gdt438_result.json", "role": "compact result", "sha256": "c561ccd3cb9f5c6c104c65daf6b5167ff8d8b094459cdc154168f277e6ed0db4"},
+    {"path": "experiments/yolo/gdt438_order_safe_streaming_reader/artifacts/gdt438_validation.json", "role": "validation report", "sha256": "5ee4f99fda7acb0a16a95323a7243062f06145dc9c7a7fdd654c7efd69351eeb"}
+  ],
+  "question": "Can the GDT437 order repair operate inside the oracle-free streaming reader while preserving every state transition and stop behavior?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "order_safe_streaming_reader",
+  "status": "ORDER_SAFE_ORACLE_FREE_STREAMING_READER_COMPLETE",
+  "title": "order safe streaming reader",
+  "updated": "2026-08-26",
+  "validation": {
+    "artifact": "experiments/yolo/gdt438_order_safe_streaming_reader/artifacts/gdt438_validation.json",
+    "status": "PASS"
+  }
+}

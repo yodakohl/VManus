@@ -268,6 +268,14 @@ transition signatures become unique. Replaying the rule over the current
 edition changes only clause order for 68 events in 59 statements. No root
 meaning, state transition, surface or page changes; 28/28 checks pass.
 
+GDT438 integrates the GDT437 renderer into the oracle-free prospective stream
+command. It preserves all 4,576 GDT436 states, matches all 4,576 repaired
+clauses, rebuilds all 715 statements and reproduces all 245 main-card/register
+probes from input with no event ID. Exactly 68 events in 59 statements change
+word order. An unseen atom and an unlicensed known-atom recipe both stop before
+mutating the page-owner state bank. No meaning, surface or page changes; 29/29
+checks pass.
+
 Pass 1032/GDT404 applies the frozen GDT403 intake contract to a one-shot random
 draw of f1r, f24v, f81r and f95v. The 95 guarded lines add 688 events, 88
 statements and 677 focus attachments. Exactly 470 events retain an old surface
