@@ -183,6 +183,17 @@ ANTEIL, EINHEIT, ZIELORT, AUSGANG, VERBINDUNG, BAHN, FORTSETZEN and DANACH.
 Together GDT428–GDT429 provide 360 exact replacement frames for all nineteen
 working cores without changing a dictionary row.
 
+GDT430 expands every observed recipe by exactly one within-family root
+replacement and calibrates the resulting 4,938 candidates by distinct source
+neighbour count. Current occupancy rises from 185/4,458 with one neighbour to
+88/334 with two, 64/107 with three, 30/34 with four and 5/5 with five. Reject
+all 4,273 absent one-neighbour variants. Freeze four high-priority absent
+recipes (`AL+AIN`, `AR+OR`, `CH+AR`, `SH+AIN`), 43 strong three-neighbour
+recipes and 246 narrow two-neighbour recipes. No surface spelling is predicted.
+Leave-one-page replay reaches 149/861 private recipes at all, 55 with multiple
+neighbours and 16 at strong-or-high level, so the deck is intentionally local
+to dense paradigm gaps.
+
 Pass 1032/GDT404 applies the frozen GDT403 intake contract to a one-shot random
 draw of f1r, f24v, f81r and f95v. The 95 guarded lines add 688 events, 88
 statements and 677 focus attachments. Exactly 470 events retain an old surface

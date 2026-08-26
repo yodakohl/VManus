@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT429.
+Updated: 2026-08-26, after GDT430.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -81,6 +81,13 @@ bundles content; ZIELORT receives, AUSGANG supplies, VERBINDUNG opens an
 attachment and BAHN carries its course; FORTSETZEN stays in the active gang and
 DANACH opens the next. Across GDT428–GDT429 all nineteen roots now share 360
 direct substitution frames and one replacement rule.
+
+GDT430 turns this mechanism into a future deck without allowing every possible
+replacement. One neighbour is rejected; two are narrow, three strong and four
+high priority. The four strongest absent recipes are `AL+AIN` = ZIELORT ·
+ANTEIL, `AR+OR` = AUSGANG · EINHEIT, `CH+AR` = NEHMEN · AUSGANG and `SH+AIN`
+= HALTEN · ANTEIL. Forty-three more three-neighbour recipes are frozen as
+strong. This predicts component readings only, never a surface spelling.
 
 ## Fixed scope
 
