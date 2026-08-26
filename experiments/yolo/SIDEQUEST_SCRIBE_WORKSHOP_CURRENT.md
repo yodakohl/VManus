@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT442.
+Updated: 2026-08-26, after GDT443.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -204,6 +204,16 @@ Every one of the 47 minimal probes stops without mutating state and every next
 valid card resumes normally. The six observed recipes that stop in neutral
 context are all real close cards whose manuscript occurrence inherits a left
 head; they do not contradict the reader.
+
+GDT443 resolves that context channel exhaustively. Each of the 52 neutral
+close-without-head recipes is combined with all nine incoming action heads in
+two states: owner bank carried with new statement scope, and the same head
+carried inside the current statement. Of 936 cells, 841 are green, 93 amber and
+only two stop. Every owner-scope-reset cell works; the two same-scope stops are
+`OL+EEE+DY` after `CHD` or `R`, exactly the two old Grade-III focus gaps. Fifty-
+one recipes work in all eighteen contexts. The six already observed recipe
+types have seventeen real occurrences across eight pages, all green under
+their actual incoming heads.
 
 ## Fixed scope
 
@@ -775,6 +785,9 @@ comparison set.
 
 ## Primary artifacts
 
+- Current GDT443 936-cell close-context rescue atlas, 52-recipe and nine-head
+  summaries, plus all 17 actual observed close contexts:
+  `gdt443_close_context_rescue_atlas/`;
 - Current GDT442 complete 201-cell factor lattice, 47-rule stop deck, 269
   candidate audit, executable stop explainer and 47 state-safe recovery probes:
   `gdt442_forbidden_factor_stop_deck/`;
@@ -955,8 +968,8 @@ comparison set.
 
 ## Next work
 
-Keep the current 26 pages closed. Replay the 52 neutral close-without-head
-candidates under each of the nine possible incoming action heads. Record which
-become green, amber or remain stopped because one of the two focus gaps still
-intervenes. This is a context-rescue atlas only; do not invent a head, meaning,
-surface, page or broader class escape.
+Keep the current 26 pages closed. Insert each of the eleven focus cores between
+each of GDT442's 44 red direct action pairs and replay all 484 visible-slot
+chains. The inserted focus may separate actions but may not promote the direct
+pair. Record green, amber and any remaining focus-edge stop without changing a
+meaning, surface, page or scope rule.

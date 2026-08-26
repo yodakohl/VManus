@@ -316,6 +316,16 @@ valid card. Six currently observed neutral stops are close cards rescued by
 their real inherited head. Validation passes 35/35; no meaning, surface or page
 changes.
 
+GDT443 crosses the 52 neutral close-without-head candidates with all nine
+incoming actions and both relevant scope states. The 936-cell atlas yields 841
+green, 93 amber and two stops. Owner-local action carried across a statement-
+scope reset rescues all 468 cells; same-statement scope rescues 466/468. The
+only failures are `OL+EEE+DY` after `CHD` and after `R`, caused exactly by the
+existing `CHD<-EEE` and `R<-EEE` gaps rather than by close. Fifty-one recipes
+work in all eighteen contexts. All seventeen real occurrences of the six
+observed recipe types are green across eight pages. Validation passes 31/31;
+no meaning, surface or page changes.
+
 Pass 1032/GDT404 applies the frozen GDT403 intake contract to a one-shot random
 draw of f1r, f24v, f81r and f95v. The 95 guarded lines add 688 events, 88
 statements and 677 focus attachments. Exactly 470 events retain an old surface

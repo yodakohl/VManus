@@ -1,0 +1,47 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Conditional close-card readability under the existing nine action heads and two existing scope states. No inferred hidden head, new factor, meaning, surface, occurrence prediction, plaintext, language, or new-page evidence.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt443_close_context_rescue_atlas/src/run.py",
+    "validate": "python3 experiments/yolo/gdt443_close_context_rescue_atlas/src/validate.py"
+  },
+  "created": "2026-08-26",
+  "dependencies": ["GDT441", "GDT442"],
+  "experiment_id": "GDT443",
+  "inputs": [
+    {"path": "experiments/yolo/gdt441_factor_gated_unseen_recipe_reader/src/factor_gate_stream_read.py", "role": "executable context-sensitive factor gate", "sha256": "b3704429ece4cbc8b6aeeded06231963a03158cb3078f13024e221eacee41981"},
+    {"path": "experiments/yolo/gdt441_factor_gated_unseen_recipe_reader/artifacts/gdt441_4576_factor_reader_replay.tsv", "role": "actual observed close-card contexts", "sha256": "ade6ef986a0a10a5999a0876f577b44c1583d4d5594e319da39efdabb7221218"},
+    {"path": "experiments/yolo/gdt442_forbidden_factor_stop_deck/artifacts/gdt442_269_stop_candidate_audit.tsv", "role": "52 neutral close-context stops", "sha256": "43c312bdb955acae3a25c36408f94d4d0468fef78a0b6b8ae6865f4790c6e51f"}
+  ],
+  "outputs": [
+    {"path": "experiments/yolo/gdt443_close_context_rescue_atlas/README.md", "role": "entry point", "sha256": "3e96384a44fb1082d25529281e9502da32d7fd48afe7ec6c9a8aa85eba35536c"},
+    {"path": "experiments/yolo/gdt443_close_context_rescue_atlas/METHOD.md", "role": "context-rescue method", "sha256": "9e2b032c90f9d603a2c895cca5d771eef31ff55ecfa22302ec90c65e37c68030"},
+    {"path": "experiments/yolo/gdt443_close_context_rescue_atlas/REPORT.md", "role": "primary report", "sha256": "3ada6e1e84a706280f2105d6bd9dc572e0da458d943efd76a2592955bf99940f"},
+    {"path": "experiments/yolo/gdt443_close_context_rescue_atlas/src/run.py", "role": "deterministic builder", "sha256": "0f614dd34b919efdd5065efebd64fcec4324858ed52bce94cc8cb88a2799dbdd"},
+    {"path": "experiments/yolo/gdt443_close_context_rescue_atlas/src/validate.py", "role": "validator", "sha256": "87eb6df965c4995fc4df590abcc6f4dc18e4c9dba06b3ea4ceda73bb1946323c"},
+    {"path": "experiments/yolo/gdt443_close_context_rescue_atlas/artifacts/README.md", "role": "artifact guide", "sha256": "a0b38266a9eac12f6733061b08c79eb6888c7e0e14358103352b45f214ec5f3b"},
+    {"path": "experiments/yolo/gdt443_close_context_rescue_atlas/artifacts/gdt443_936_close_context_rescue_matrix.tsv", "role": "complete close-context matrix", "sha256": "151a1c040951d090e25641fa6e95d2914d2bbdfb3b366b2189a749e1ffdf69f3"},
+    {"path": "experiments/yolo/gdt443_close_context_rescue_atlas/artifacts/gdt443_52_close_candidate_summary.tsv", "role": "per-recipe summary", "sha256": "0d4e71d976f7bbd51c98195562930799f4f4ba0ce18e0ec99e545e470e4afc95"},
+    {"path": "experiments/yolo/gdt443_close_context_rescue_atlas/artifacts/gdt443_9_incoming_head_summary.tsv", "role": "per-head summary", "sha256": "46dd888a200ded35780bcc8fafcbe513d3633fc4330eae303656345730cff0a4"},
+    {"path": "experiments/yolo/gdt443_close_context_rescue_atlas/artifacts/gdt443_17_observed_close_context_replay.tsv", "role": "all actual observed close contexts", "sha256": "7ef69f225fb0e62390fc5e51dd15949275755b994617795e47b872d9204aadb2"},
+    {"path": "experiments/yolo/gdt443_close_context_rescue_atlas/artifacts/gdt443_result.json", "role": "compact result", "sha256": "c255b92201bd01adfab45f4813c57eb292b71b4adcc99966e48ad3c698272314"},
+    {"path": "experiments/yolo/gdt443_close_context_rescue_atlas/artifacts/gdt443_validation.json", "role": "validation report", "sha256": "44c87e3bd5f33c69643914c43b33ea547a5b62cdf44255a231eaef6c90c6ac4a"}
+  ],
+  "question": "Do the 52 neutral close-without-head candidates become readable under each existing incoming action when owner-local semantic state and statement-local scope are varied separately?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "close_context_rescue_atlas",
+  "status": "FIFTY_ONE_OF_FIFTY_TWO_CLOSE_RECIPES_RESOLVE_IN_ALL_CONTEXTS__TWO_GRADE_III_STOPS_REMAIN",
+  "title": "close context rescue atlas",
+  "updated": "2026-08-26",
+  "validation": {
+    "artifact": "experiments/yolo/gdt443_close_context_rescue_atlas/artifacts/gdt443_validation.json",
+    "status": "PASS"
+  }
+}
