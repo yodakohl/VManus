@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **475**
-- Experiment-associated tracked files: **6,859** (787.8 MiB)
-- Structured GDT337+ experiments: **140**
+- Experiments indexed: **476**
+- Experiment-associated tracked files: **6,873** (787.9 MiB)
+- Structured GDT337+ experiments: **141**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT477 | GDT477_ol_directional_scope_phrasebook | `OL_HAS_THREE_POSITIONAL_SCOPE_REALIZATIONS__ONE_ROOT_MEANING` | [report](../experiments/yolo/gdt477_ol_directional_scope_phrasebook/REPORT.md) | 14 | 97.6 KiB | 4 | STRUCTURED_YOLO |
 | GDT476 | GDT476_boundary_context_tie_resolution | `TWELVE_TIES_GAIN_RECORD_CONTEXT__SIX_WORKING_MODELS_CHANGE` | [report](../experiments/yolo/gdt476_boundary_context_tie_resolution/REPORT.md) | 13 | 116.4 KiB | 2 | STRUCTURED_YOLO |
 | GDT475 | GDT475_ot_ol_page_microrecord_itineraries | `OT_OPENS_EVENTS_AND_NEXT_SIBLINGS__OL_CONTINUES_RECORDS_OR_STAYS_INTERNAL` | [report](../experiments/yolo/gdt475_ot_ol_page_microrecord_itineraries/REPORT.md) | 15 | 192.7 KiB | 2 | STRUCTURED_YOLO |
 | GDT474 | GDT474_locus_bundle_meaning_triptych | `MIXED_LOCUS_GRAMMAR_REQUIRES_FEWEST_WORKING_REPAIRS__COORDINATE_BEST_SINGLE_DEFAULT` | [report](../experiments/yolo/gdt474_locus_bundle_meaning_triptych/REPORT.md) | 15 | 279.3 KiB | 4 | STRUCTURED_YOLO |

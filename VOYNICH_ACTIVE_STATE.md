@@ -11471,3 +11471,25 @@ surface, recipe, event, owner, page, object identity, plaintext, language or
 confirmed syntax changes. Next inspect all 28 OL occurrences in literal
 function/name order and compare pre-name, post-name and name-free continuation
 jobs without opening another page.
+
+## GDT477 OL directional scope phrasebook
+
+GDT477 marks each of the 28 admitted local `OL=FORTSETZEN` slots inside its
+complete GDT474 function/name trace. Nine first-position slots become forward
+openings (`OL · X`: “weiter mit X”), ten medial slots become left-to-right
+bridges (`X · OL · Y`: “X in Y weiterführen”), and nine final slots become
+backward holds (`X · OL`: “X weiterführen”). All nine forward forms open an
+event (eight bundles and one later card). All sixteen event-internal forms are
+exactly eight bridges and eight backward holds. The eleven bundle-leading
+record binders divide 8/2/1 over those directions. Validation passes 77/77.
+
+Name placement supports the same renderer: thirteen OL slots are name-free,
+ten precede a learned name and five follow one; no pre-name OL is backward and
+no post-name OL is forward. GDT460 already supplies both surface-edge channels:
+prefix `ol-` matches 54/56 running extension types/138 events/twenty pages,
+suffix `-ol` 102/111 types/338 events/24 pages. This retains one OL meaning
+rather than adding positional dictionary senses. Literal function/name order
+is not equated with raw character morphology. No root, learned name, surface,
+recipe, selected model, event, page, object identity, plaintext, language or
+confirmed syntax changes. Next audit the 41 OT slots with the same renderer and
+compile a paired order grammar without opening a page.

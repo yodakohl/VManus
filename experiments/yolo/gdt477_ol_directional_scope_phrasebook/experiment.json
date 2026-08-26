@@ -1,0 +1,122 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Directional German scope rendering of the unchanged OL=FORTSETZEN root in 28 admitted local occurrences; no plaintext, confirmed syntax, lexeme, object identity, new component meaning, name, surface, recipe, model, event, or page.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt477_ol_directional_scope_phrasebook/src/run.py",
+    "validate": "python3 experiments/yolo/gdt477_ol_directional_scope_phrasebook/src/validate.py"
+  },
+  "created": "2026-08-26",
+  "dependencies": ["GDT460", "GDT474", "GDT475", "GDT476"],
+  "experiment_id": "GDT477",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt460_learned_label_edge_stem_atlas/artifacts/gdt460_27_calibrated_edge_stems.tsv",
+      "role": "calibrated left and right OL edge support",
+      "sha256": "c2cc466324464a4f51728381a533bf77a955d5c4a5bd19619a5644fc47964ed5"
+    },
+    {
+      "path": "experiments/yolo/gdt474_locus_bundle_meaning_triptych/artifacts/gdt474_183_event_meaning_triptych.tsv",
+      "role": "complete literal function-name traces and three readings",
+      "sha256": "a221ab715e7af5b2f680f37eb09273b1240e02fe176ad81d1e13b5e0f4d1d052"
+    },
+    {
+      "path": "experiments/yolo/gdt475_ot_ol_page_microrecord_itineraries/artifacts/gdt475_69_order_occurrence_positions.tsv",
+      "role": "complete OT and OL functional positions",
+      "sha256": "45b5778b7ece92a948ee27f3bfe8e73a76fe8346b2e8f500ea8d7bacd076e189"
+    },
+    {
+      "path": "experiments/yolo/gdt475_ot_ol_page_microrecord_itineraries/artifacts/gdt475_146_bundle_boundary_roles.tsv",
+      "role": "bundle and record boundary roles",
+      "sha256": "462ef1b26402881b4924391c30602d517cc80bd3e8314c667d273f27673ce9dc"
+    },
+    {
+      "path": "experiments/yolo/gdt476_boundary_context_tie_resolution/artifacts/gdt476_64_tie_context_decisions.tsv",
+      "role": "active contextual model defaults",
+      "sha256": "a40109a0ad37a751bde6f1bad2e6a2e9203240c7f1dfab089ef7fd4957edfe53"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt477_ol_directional_scope_phrasebook/README.md",
+      "role": "entry point",
+      "sha256": "dcbb6e7f11014234459eb8ca3a94b5dd8f3f64f185245d6cbcef54ca08944dca"
+    },
+    {
+      "path": "experiments/yolo/gdt477_ol_directional_scope_phrasebook/METHOD.md",
+      "role": "directional scope method",
+      "sha256": "1a7d035fd5774df58e33a54fbade080f58082e1bf015883597499e2452fe8e74"
+    },
+    {
+      "path": "experiments/yolo/gdt477_ol_directional_scope_phrasebook/REPORT.md",
+      "role": "primary report",
+      "sha256": "f3c3c4f1cbb43cefbebc485746153b1afe9c562c58acca70e547a6022e2b2f2c"
+    },
+    {
+      "path": "experiments/yolo/gdt477_ol_directional_scope_phrasebook/src/run.py",
+      "role": "deterministic directional scope builder",
+      "sha256": "7342c2e917466e1ba714250d4c30e91d6faae418f7d5c728a5170bba54b4dd48"
+    },
+    {
+      "path": "experiments/yolo/gdt477_ol_directional_scope_phrasebook/src/validate.py",
+      "role": "validator and deterministic rebuild check",
+      "sha256": "b57536201cc6e0da6f71379e42796e81b4fcba23acfe18395b55d5c5445811fb"
+    },
+    {
+      "path": "experiments/yolo/gdt477_ol_directional_scope_phrasebook/artifacts/README.md",
+      "role": "artifact guide",
+      "sha256": "977149b245f0cca4b76e7799d22eed4fef2fae1618ef6f981fd8218fcae0e453"
+    },
+    {
+      "path": "experiments/yolo/gdt477_ol_directional_scope_phrasebook/artifacts/GDT477_OL_DIRECTIONAL_SCOPE_PHRASEBOOK.md",
+      "role": "complete readable OL phrasebook",
+      "sha256": "9c0390fbf461fb57e8696b0e8aceff490cf08fc707a3d460b09995699071689c"
+    },
+    {
+      "path": "experiments/yolo/gdt477_ol_directional_scope_phrasebook/artifacts/gdt477_28_ol_directional_scope_occurrences.tsv",
+      "role": "all directional OL scope slots",
+      "sha256": "3f8b403c6647190d35ff4f11ca5d7a873a5879daa920eedc224b2e495030dbe9"
+    },
+    {
+      "path": "experiments/yolo/gdt477_ol_directional_scope_phrasebook/artifacts/gdt477_26_ol_event_scope_editions.tsv",
+      "role": "event-level directional edition",
+      "sha256": "44135f4b2484b5f0991642f11670ba5cc22a82230d70ea2c677f1ac710ecc7a5"
+    },
+    {
+      "path": "experiments/yolo/gdt477_ol_directional_scope_phrasebook/artifacts/gdt477_3_directional_scope_rules.tsv",
+      "role": "three positional OL renderers",
+      "sha256": "cb00e2b5b5c307a473704532dafd019ce22ca17480e5faf3c5050e79114fcb17"
+    },
+    {
+      "path": "experiments/yolo/gdt477_ol_directional_scope_phrasebook/artifacts/gdt477_5_page_scope_summary.tsv",
+      "role": "page scope summary",
+      "sha256": "4af2bb8abeeec1dda8774f387212a46449612e81cb9795cf638a207a49b6effc"
+    },
+    {
+      "path": "experiments/yolo/gdt477_ol_directional_scope_phrasebook/artifacts/gdt477_result.json",
+      "role": "compact result",
+      "sha256": "ec15c3af9ff4b4b69a6e68f5a72d1cea71a18bba1a6eda35c22dccb3cb58ecac"
+    },
+    {
+      "path": "experiments/yolo/gdt477_ol_directional_scope_phrasebook/artifacts/gdt477_validation.json",
+      "role": "77-check validation report",
+      "sha256": "b3e2f95170dc61c18d6be285be7e68bdc328b95c6d9eff8015240d1445769e24"
+    }
+  ],
+  "question": "Can all 28 admitted local OL=FORTSETZEN occurrences be rendered through one positional scope rule while preserving GDT476's complete defaults and every function/name trace?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "ol_directional_scope_phrasebook",
+  "status": "OL_HAS_THREE_POSITIONAL_SCOPE_REALIZATIONS__ONE_ROOT_MEANING",
+  "title": "OL directional scope phrasebook",
+  "updated": "2026-08-26",
+  "validation": {
+    "artifact": "experiments/yolo/gdt477_ol_directional_scope_phrasebook/artifacts/gdt477_validation.json",
+    "status": "PASS"
+  }
+}
