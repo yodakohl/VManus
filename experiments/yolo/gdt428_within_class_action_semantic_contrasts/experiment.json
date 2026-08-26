@@ -1,0 +1,45 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Creative operational contrasts for the current action dictionary only; no confirmed lexeme, plaintext, language, or source identification.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt428_within_class_action_semantic_contrasts/src/run.py",
+    "validate": "python3 experiments/yolo/gdt428_within_class_action_semantic_contrasts/src/validate.py"
+  },
+  "created": "2026-08-26",
+  "dependencies": ["GDT413", "GDT416", "GDT425", "GDT427"],
+  "experiment_id": "GDT428",
+  "inputs": [
+    {"path": "experiments/yolo/gdt416_owner_local_imperative_sentence_compiler/artifacts/gdt416_4576_imperative_clauses.tsv", "role": "complete component recipes", "sha256": "cffae521ba93d96446537584e35fa9a4fe4b6e34330ebf7e955ad725f7c70561"},
+    {"path": "experiments/yolo/gdt425_complete_factorized_action_portability/artifacts/gdt425_5051_focus_edge_portability.tsv", "role": "complete focus attachments", "sha256": "b7cd0107ec9c9f79da5649f954a4f35d32c3dc4d5d9340de6c653e1430ff9482"},
+    {"path": "experiments/yolo/gdt425_complete_factorized_action_portability/artifacts/gdt425_639_close_edge_portability.tsv", "role": "complete action-bound closes", "sha256": "6748b415e89d4b25866955c8deb8f0d34cd12cbda44b9b6514da5a5d5feb09a5"},
+    {"path": "experiments/yolo/gdt413_twenty_six_page_semantic_working_edition/artifacts/gdt413_46_component_working_dictionary.tsv", "role": "current component meanings", "sha256": "728113b051828ad7e8cdf46369832f3a81a4792bc104f3ef1f23644af5fa120e"}
+  ],
+  "outputs": [
+    {"path": "experiments/yolo/gdt428_within_class_action_semantic_contrasts/README.md", "role": "entry point", "sha256": "63c727a1d6c11b756a75e5dceef419933354c69cbb769ab4a8ef17f7f0ca0593"},
+    {"path": "experiments/yolo/gdt428_within_class_action_semantic_contrasts/METHOD.md", "role": "reproducible method", "sha256": "18c46ff6f73bff90e6f9e410091e8650cb48d93400470e776ea25b26ea8899ff"},
+    {"path": "experiments/yolo/gdt428_within_class_action_semantic_contrasts/REPORT.md", "role": "primary report", "sha256": "82df1791157e0c43181e372369b486182d275cfceaffec6bfbb2bffbf5674b33"},
+    {"path": "experiments/yolo/gdt428_within_class_action_semantic_contrasts/src/run.py", "role": "deterministic builder", "sha256": "adc3a312c51bb05845b69f49b1fad8a245d4dcee3d6f7642ee0149e304014d5e"},
+    {"path": "experiments/yolo/gdt428_within_class_action_semantic_contrasts/src/validate.py", "role": "validator", "sha256": "5b621775962549df458d92327e82dd9a59b1466d041a488468252e04927041ad"},
+    {"path": "experiments/yolo/gdt428_within_class_action_semantic_contrasts/artifacts/README.md", "role": "artifact guide", "sha256": "a9c9732820253da49ca8bcf6d0a14e22afeae05740404ac669b019327871b603"},
+    {"path": "experiments/yolo/gdt428_within_class_action_semantic_contrasts/artifacts/ACTION_MEANING_CONTRAST_DECK.md", "role": "apprentice contrast card", "sha256": "ae5deef87c904edd2a3cabee19f1ccbf036d198e0e470c709833000eed148c61"},
+    {"path": "experiments/yolo/gdt428_within_class_action_semantic_contrasts/artifacts/gdt428_9_action_semantic_profiles.tsv", "role": "action semantic profiles", "sha256": "197734c274a2c2ded52481c76608620290bbd3cf730d5e5f766efc3e4133166d"},
+    {"path": "experiments/yolo/gdt428_within_class_action_semantic_contrasts/artifacts/gdt428_6_within_class_contrasts.tsv", "role": "six direct contrasts", "sha256": "97eda02ac64241059d9b02a4b1ce33b90c906952dddbc304af0fe28789f78822"},
+    {"path": "experiments/yolo/gdt428_within_class_action_semantic_contrasts/artifacts/gdt428_104_direct_substitution_frames.tsv", "role": "exact substitution frames", "sha256": "824e8a75eceb9dcf9c93a6c6f36ad2d4b27a2eedb750f4d00483ae16804b24f7"},
+    {"path": "experiments/yolo/gdt428_within_class_action_semantic_contrasts/artifacts/gdt428_result.json", "role": "compact result", "sha256": "96f67d7b1f8e0d11f0ce3561a41ed4d35e4023d6ff238e5aee73cfbfb51093b3"},
+    {"path": "experiments/yolo/gdt428_within_class_action_semantic_contrasts/artifacts/gdt428_validation.json", "role": "validation report", "sha256": "044c7b6b07f672301eea243ac80470d73267e8da59a2e5e0ee75bd305c3864f8"}
+  ],
+  "question": "Do action roots grouped by the GDT427 prediction gate remain operationally distinct in exact shared compositional frames?",
+  "schema_version": 1,
+  "sealed_data": {"f84": "FORBIDDEN", "f84r": "FORBIDDEN"},
+  "slug": "within_class_action_semantic_contrasts",
+  "status": "NINE_ACTION_MEANINGS_RETAINED_WITH_DIRECT_CONTRAST_RULES",
+  "title": "within class action semantic contrasts",
+  "updated": "2026-08-26",
+  "validation": {
+    "artifact": "experiments/yolo/gdt428_within_class_action_semantic_contrasts/artifacts/gdt428_validation.json",
+    "status": "PASS"
+  }
+}

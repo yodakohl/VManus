@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT427.
+Updated: 2026-08-26, after GDT428.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -64,6 +64,15 @@ CONTROL into `T=EINSTELLEN` and `R=MARKIEREN` creates a five-class gate with
 7/17 never-seen pairs are now blocked. Seven of the nine local cards remain
 amber; `R>T` and `R<-EE` remain red-local. The internal meanings of the broad
 classes are not collapsed.
+
+GDT428 now supplies the missing semantic contrast deck. Six within-class
+comparisons contain 104 exact frames where only the action root changes. The
+shared frames confirm a productive slot; their different process profiles
+confirm that the roots are not synonyms or allographs. Keep the nine short
+verbs separately: CH opens a taking/transfer chain, S selects an option, K
+hands onward, OK establishes a setting, P inserts into a following operation,
+SH holds under a grade, CHD continues processing without its own grade, T sets
+a grade/value, and R marks the value as a reference.
 
 ## Fixed scope
 

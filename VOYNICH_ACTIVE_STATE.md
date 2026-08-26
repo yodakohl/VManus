@@ -161,6 +161,17 @@ Seven of the nine GDT425 local cards remain amber; `R>T` and `R<-EE` return to
 red-local. Focus rectangles remain a weak descriptive bridge rather than a
 negative gate. No root, working value, exact card, or page is added.
 
+GDT428 separates prediction class from root meaning. Six comparisons among
+the still-grouped roots expose 104 exact substitution frames in which one
+action changes while every other atom and position remains fixed: CH~S 12,
+K~OK 34, K~P 23, OK~P 10, SH~CHD 14 and T~R 11. The roots nevertheless retain
+distinct process signatures. CH leads directly to K/T/P in 364/843 mentions
+against 3/306 for S; K follows CH 177 times while OK does so once; P opens a
+following CH/SH/CHD in 76/160 cases; SH carries 463 grade attachments against
+16 for CHD; T carries 95 against one for R. Keep all nine short working
+meanings and treat the GDT427 classes as prediction grammar only. No dictionary
+row or page changes.
+
 Pass 1032/GDT404 applies the frozen GDT403 intake contract to a one-shot random
 draw of f1r, f24v, f81r and f95v. The 95 guarded lines add 688 events, 88
 statements and 677 focus attachments. Exactly 470 events retain an old surface
