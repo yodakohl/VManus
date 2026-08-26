@@ -93,6 +93,15 @@ narrow E/EE and Y/AIIN inventory. Six GDT419 missing forms are therefore no
 longer regular future predictions. A later occurrence must trigger an explicit
 segmentation or head-license revision rather than silent acceptance.
 
+GDT421 gives the same treatment to ordered action pairs. The current edition
+has 356 exact two-head recipes/608 events, 54 of 81 possible ordered pairs and
+170 attested pair-slot cells. Order is strongly noncommutative: `CH+K` occurs
+119 times against `K+CH` 21, `CH+T` 83 against `T+CH` 17, and `OK+CH` 23
+against `CH+OK` zero. Each pair therefore carries its own grade, argument and
+endpoint license. Of GDT419's 31 multi-head gaps, six have an already attested
+skeleton, six remain open conditional gaps and nineteen are blocked. Known
+individual heads never license an absent ordered pair by themselves.
+
 Pass 1032/GDT404 applies the frozen GDT403 intake contract to a one-shot random
 draw of f1r, f24v, f81r and f95v. The 95 guarded lines add 688 events, 88
 statements and 677 focus attachments. Exactly 470 events retain an old surface
