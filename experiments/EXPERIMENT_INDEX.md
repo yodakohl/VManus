@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **427**
-- Experiment-associated tracked files: **6,127** (674.8 MiB)
-- Structured GDT337+ experiments: **92**
+- Experiments indexed: **428**
+- Experiment-associated tracked files: **6,140** (674.9 MiB)
+- Structured GDT337+ experiments: **93**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT429 | GDT429_nonaction_core_semantic_contrasts | `TEN_NONACTION_MEANINGS_RETAINED_WITH_DIRECT_CONTRAST_RULES` | [report](../experiments/yolo/gdt429_nonaction_core_semantic_contrasts/REPORT.md) | 13 | 93.5 KiB | 4 | STRUCTURED_YOLO |
 | GDT428 | GDT428_within_class_action_semantic_contrasts | `NINE_ACTION_MEANINGS_RETAINED_WITH_DIRECT_CONTRAST_RULES` | [report](../experiments/yolo/gdt428_within_class_action_semantic_contrasts/REPORT.md) | 13 | 59.6 KiB | 4 | STRUCTURED_YOLO |
 | GDT427 | GDT427_typed_prediction_specificity_repair | `FIVE_CLASS_SPECIFICITY_GATE_SELECTED__SEVEN_AMBER_TWO_LOCAL` | [report](../experiments/yolo/gdt427_typed_prediction_specificity_repair/REPORT.md) | 15 | 37.0 KiB | 3 | STRUCTURED_YOLO |
 | GDT426 | GDT426_typed_action_family_prediction | `NINE_LOCAL_ACTION_CARDS_TYPED_AS_AMBER_PREDICTIONS` | [report](../experiments/yolo/gdt426_typed_action_family_prediction/REPORT.md) | 14 | 42.5 KiB | 2 | STRUCTURED_YOLO |

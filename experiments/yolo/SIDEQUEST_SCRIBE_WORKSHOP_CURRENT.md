@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT428.
+Updated: 2026-08-26, after GDT429.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -73,6 +73,14 @@ verbs separately: CH opens a taking/transfer chain, S selects an option, K
 hands onward, OK establishes a setting, P inserts into a following operation,
 SH holds under a grade, CHD continues processing without its own grade, T sets
 a grade/value, and R marks the value as a reference.
+
+GDT429 closes the same loop for the ten non-action cores. Thirteen argument,
+relation and order comparisons yield another 256 exact replacement frames.
+POSTEN remains carryable, WERT fills an entry, ANTEIL bounds a part and EINHEIT
+bundles content; ZIELORT receives, AUSGANG supplies, VERBINDUNG opens an
+attachment and BAHN carries its course; FORTSETZEN stays in the active gang and
+DANACH opens the next. Across GDT428–GDT429 all nineteen roots now share 360
+direct substitution frames and one replacement rule.
 
 ## Fixed scope
 

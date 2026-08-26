@@ -1,0 +1,41 @@
+{
+  "artifact_policy": {"large_artifact_justification": "", "max_inline_bytes": 5000000},
+  "claim_ceiling": "Creative operational contrasts for the current non-action dictionary only; no confirmed lexeme, plaintext, language, or source identification.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt429_nonaction_core_semantic_contrasts/src/run.py",
+    "validate": "python3 experiments/yolo/gdt429_nonaction_core_semantic_contrasts/src/validate.py"
+  },
+  "created": "2026-08-26",
+  "dependencies": ["GDT413", "GDT416", "GDT425", "GDT428"],
+  "experiment_id": "GDT429",
+  "inputs": [
+    {"path": "experiments/yolo/gdt416_owner_local_imperative_sentence_compiler/artifacts/gdt416_4576_imperative_clauses.tsv", "role": "complete component recipes", "sha256": "cffae521ba93d96446537584e35fa9a4fe4b6e34330ebf7e955ad725f7c70561"},
+    {"path": "experiments/yolo/gdt425_complete_factorized_action_portability/artifacts/gdt425_5051_focus_edge_portability.tsv", "role": "complete focus attachments", "sha256": "b7cd0107ec9c9f79da5649f954a4f35d32c3dc4d5d9340de6c653e1430ff9482"},
+    {"path": "experiments/yolo/gdt413_twenty_six_page_semantic_working_edition/artifacts/gdt413_46_component_working_dictionary.tsv", "role": "current component meanings", "sha256": "728113b051828ad7e8cdf46369832f3a81a4792bc104f3ef1f23644af5fa120e"}
+  ],
+  "outputs": [
+    {"path": "experiments/yolo/gdt429_nonaction_core_semantic_contrasts/README.md", "role": "entry point", "sha256": "0b9dc111930facc6ec76104735be676752681f14f579db16c5ef0bf0c32819e2"},
+    {"path": "experiments/yolo/gdt429_nonaction_core_semantic_contrasts/METHOD.md", "role": "reproducible method", "sha256": "0192bbf2b8a83ffdfc736ad34911c31c9edf2b1479b510c89e0bfa1a7fb7c3d3"},
+    {"path": "experiments/yolo/gdt429_nonaction_core_semantic_contrasts/REPORT.md", "role": "primary report", "sha256": "4712ddfda427bb1ce18bc72a85f8cc3c57e85f5a2b9f3bd3270a6ae999626e03"},
+    {"path": "experiments/yolo/gdt429_nonaction_core_semantic_contrasts/src/run.py", "role": "deterministic builder", "sha256": "c00db1efba75013a71ce4cb6b1878f336370dc547778bb7b03519ad48b8bc8fc"},
+    {"path": "experiments/yolo/gdt429_nonaction_core_semantic_contrasts/src/validate.py", "role": "validator", "sha256": "4cb68cd943f954b73c7de78519538c4fb08e5760b749159ad3400c56dcd746e1"},
+    {"path": "experiments/yolo/gdt429_nonaction_core_semantic_contrasts/artifacts/README.md", "role": "artifact guide", "sha256": "207537b95c316175c3dd8f1f66c1b4471cba280c553bfccaa56d69e5b99e5fc7"},
+    {"path": "experiments/yolo/gdt429_nonaction_core_semantic_contrasts/artifacts/NONACTION_MEANING_CONTRAST_DECK.md", "role": "apprentice contrast card", "sha256": "06aeabe886246cb3adb6133ba93ada41db0123bde263ede62008a8749b297f2d"},
+    {"path": "experiments/yolo/gdt429_nonaction_core_semantic_contrasts/artifacts/gdt429_10_nonaction_semantic_profiles.tsv", "role": "non-action semantic profiles", "sha256": "9366101c79f00c7eb16677f54666acdcb801d02cfcc209cdb304a4c1e6575fe5"},
+    {"path": "experiments/yolo/gdt429_nonaction_core_semantic_contrasts/artifacts/gdt429_13_nonaction_core_contrasts.tsv", "role": "thirteen direct contrasts", "sha256": "eb39bef9cfe34086103f8f897ce0c75e70450efd12a5904a562cb8fcdf1c7cce"},
+    {"path": "experiments/yolo/gdt429_nonaction_core_semantic_contrasts/artifacts/gdt429_256_direct_substitution_frames.tsv", "role": "exact substitution frames", "sha256": "0bb7c9a12333a6473726c8287890226ca871693ff9bc94f33ec84a2055f25807"},
+    {"path": "experiments/yolo/gdt429_nonaction_core_semantic_contrasts/artifacts/gdt429_result.json", "role": "compact result", "sha256": "09024cc5292c2d17941113e15f0133e9cd0182f80a5eb83b8f7b9d3adfba7dda"},
+    {"path": "experiments/yolo/gdt429_nonaction_core_semantic_contrasts/artifacts/gdt429_validation.json", "role": "validation report", "sha256": "5b14a27987c102839403b97ccc868f50b7cc2169c9d471d59ac3b98628e85bfa"}
+  ],
+  "question": "Do the ten non-action roots retain operationally distinct meanings inside exact shared compositional frames?",
+  "schema_version": 1,
+  "sealed_data": {"f84": "FORBIDDEN", "f84r": "FORBIDDEN"},
+  "slug": "nonaction_core_semantic_contrasts",
+  "status": "TEN_NONACTION_MEANINGS_RETAINED_WITH_DIRECT_CONTRAST_RULES",
+  "title": "nonaction core semantic contrasts",
+  "updated": "2026-08-26",
+  "validation": {
+    "artifact": "experiments/yolo/gdt429_nonaction_core_semantic_contrasts/artifacts/gdt429_validation.json",
+    "status": "PASS"
+  }
+}

@@ -172,6 +172,17 @@ following CH/SH/CHD in 76/160 cases; SH carries 463 grade attachments against
 meanings and treat the GDT427 classes as prediction grammar only. No dictionary
 row or page changes.
 
+GDT429 gives the ten remaining portable cores the same exact-frame treatment.
+All thirteen within-family pairs share at least one frozen substitution frame,
+for 256 frame rows total. Y can carry into 152 later actions while AIIN/AIN
+almost always end their value slot; AIIN is far more celestial than AIN and AIN
+far more Biological; OR can itself carry another argument. AL opens more
+package material than AR, L opens 127 later actions while AIR usually ends, and
+OT is card-initial 338/363 times against 193/688 for OL. Keep POSTEN, WERT,
+ANTEIL, EINHEIT, ZIELORT, AUSGANG, VERBINDUNG, BAHN, FORTSETZEN and DANACH.
+Together GDT428–GDT429 provide 360 exact replacement frames for all nineteen
+working cores without changing a dictionary row.
+
 Pass 1032/GDT404 applies the frozen GDT403 intake contract to a one-shot random
 draw of f1r, f24v, f81r and f95v. The 95 guarded lines add 688 events, 88
 statements and 677 focus attachments. Exactly 470 events retain an old surface
