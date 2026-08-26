@@ -1432,4 +1432,11 @@ pair and visibly remove or replace foreign carrier context. All 40 target
 additions and 19 carrier removals have the expected phrase effect; no current
 sentence or root changes. Next consolidate all old carriers of `P>CH`,
 `S>CHD`, `CH>P`, `CH>CH` and `CH>SH` into five carrier-neutral handgrips before
-trusting the eleven pair cards as broadly as the 35 proper extensions.
+trusting the eleven pair cards as broadly as the 35 proper extensions. GDT505
+does that over all 55 exact old carriers: the five handgrips keep their German
+action order in 34 directly adjacent and 21 visibly separated clauses across
+twenty pages. All eleven current targets retain the handgrip; four pairs are
+old in the target register and seven only elsewhere. Next split those eleven
+by target-frame compatibility, especially because `CH+CH` and `CH+SH` have
+only explicit-argument old carriers while their current Source/Pharma phrases
+use a contextual pronoun.

@@ -12187,3 +12187,30 @@ observation. Validation passes 509/509. Next combine every old carrier of the
 five pair backbones into carrier-neutral handgrips and test whether the short
 action reading survives changing arguments and relations; keep all pages
 closed.
+
+## GDT505 carrier-neutral pair-handgrip atlas
+
+GDT505 replaces the single selected carrier behind each of GDT504's eleven
+pair-frame cards with all exact GDT416 clauses carrying the five relevant
+ordered pairs. The old base has 55 events, 45 recipes, 50 clause forms, 48
+surfaces, twenty pages, all five registers and thirteen owner classes. The
+portable handgrips are `P>CH` “Setze das zuvor Genannte ein und nimm es,”
+`S>CHD` “Wähle … und bearbeite es,” `CH>P` “Nimm … und setze es ein,”
+`CH>CH` “Nimm … zweimal,” and `CH>SH` “Nimm … und halte es.”
+
+All 55 old clauses preserve both German action markers in the expected order
+and roundtrip exactly. This is not reducible to component adjacency: only 34
+are direct, while 21 retain the handgrip across fifteen pair-specific
+intervening patterns. Their frames use sixteen nonaction atom families, none
+of which enters the neutral phrase. Argument modes divide into 37 explicit,
+sixteen inherited and two argument-free events.
+
+All eleven GDT504 target phrases visibly retain their handgrip. Four have the
+pair in the target register and seven only cross-register. `CH>P` is strongest
+at 25 events/all five registers; `P>CH` has sixteen/four. `CH>CH` and `CH>SH`
+retain the action reading but have only explicit-argument old carriers, while
+their Source/Pharma targets use a contextual pronoun. No target phrase,
+evidence label, frame value or root changes. Validation passes 532/532. Next
+rank the eleven target frames by old removable context and argument-mode
+compatibility rather than treating all handgrips as equally complete; keep all
+pages closed.

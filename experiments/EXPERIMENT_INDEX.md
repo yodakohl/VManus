@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **503**
-- Experiment-associated tracked files: **7,322** (794.9 MiB)
-- Structured GDT337+ experiments: **168**
+- Experiments indexed: **504**
+- Experiment-associated tracked files: **7,338** (795.0 MiB)
+- Structured GDT337+ experiments: **169**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT505 | GDT505_carrier_neutral_pair_handgrip_atlas | `FIVE_HANDGRIPS_SURVIVE_ALL_FIFTY_FIVE_OLD_CARRIERS__ELEVEN_TARGETS_MAPPED` | [report](../experiments/yolo/gdt505_carrier_neutral_pair_handgrip_atlas/REPORT.md) | 16 | 96.8 KiB | 5 | STRUCTURED_YOLO |
 | GDT504 | GDT504_semantic_delta_phrase_consistency_atlas | `FORTY_SIX_PHRASE_DELTAS_RESOLVE_WITH_FIXED_VALUES__PAIR_FRAME_EDITS_REMAIN_SEPARATE` | [report](../experiments/yolo/gdt504_semantic_delta_phrase_consistency_atlas/REPORT.md) | 16 | 128.2 KiB | 4 | STRUCTURED_YOLO |
 | GDT503 | GDT503_four_open_edge_long_chain_recovery | `BOTH_OPEN_RECIPES_HAVE_ONE_OLD_DIRECTIONAL_CHAIN__DIRECT_AND_SEPARATOR_SUPPORT_DISTINGUISHED` | [report](../experiments/yolo/gdt503_four_open_edge_long_chain_recovery/REPORT.md) | 16 | 66.5 KiB | 8 | STRUCTURED_YOLO |
 | GDT502 | GDT502_supported_frontier_comparison_cards | `FORTY_SIX_SUPPORTED_FRONTIER_CARDS_HAVE_CONCRETE_OLD_CLAUSES__FOUR_OPEN_EDGES_RETAINED` | [report](../experiments/yolo/gdt502_supported_frontier_comparison_cards/REPORT.md) | 15 | 113.6 KiB | 3 | STRUCTURED_YOLO |
