@@ -401,6 +401,16 @@ GDT446 context certificate always wins. Validation passes 24/24; no identity,
 meaning, surface, occurrence or page change. Next integrate the advisory prior
 and authoritative certificate in one command with irreversible precedence.
 
+GDT451 publishes that integrated command. It exposes exact identity, GDT449
+target history and local GDT446 execution as separate channels, then assigns
+the final result only from live execution. All 4,576 current events retain
+their GDT441 decisions (4,566 green, ten amber), and all 61,878 GDT448 probes
+replay exactly, including 5,911 state-safe stops. All eight GDT450 false-safe
+regressions now end in `STOP`; identity and advisory history have no override
+path. Validation passes 35/35; no meaning, surface, occurrence or page change.
+Next replay the actual following source card after all context-conditioned
+stops to test full recovery beyond GDT442's 47 minimal probes.
+
 Pass 1032/GDT404 applies the frozen GDT403 intake contract to a one-shot random
 draw of f1r, f24v, f81r and f95v. The 95 guarded lines add 688 events, 88
 statements and 677 focus attachments. Exactly 470 events retain an old surface

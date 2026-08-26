@@ -1,0 +1,235 @@
+{
+  "status": "PASS",
+  "check_count": 35,
+  "failure_count": 0,
+  "checks": [
+    {
+      "name": "builder_exit_zero",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "name": "deterministic_rebuild",
+      "passed": true,
+      "detail": {
+        "before": {
+          "gdt451_18381_advisory_index.tsv": "be484677d651860833f352505fe65a1df5ca5207e023fb23a12e7e80a223b863",
+          "gdt451_4576_current_intake_replay.tsv": "34dfbe39fd56ac90ba423d1fbf663e2621467cdcb5a7f23a0a4e12538324e3d2",
+          "gdt451_61878_precedence_summary.tsv": "84e05af8600ad0aa3b30fbb79cbba09534b5b2e087d8d23834db3c5ba4e3801a",
+          "gdt451_8_false_safe_regressions.tsv": "84db3b80e48e83348dc42778b958393bb26db082618c233dfd31abd5e007c5f6",
+          "gdt451_10_context_warning_targets.tsv": "20682371da06fbf2ad2a08a6d792e01b068f2d01ce36060197c0ceb262f27811",
+          "gdt451_result.json": "8c7dd26985dec6478d08f7aaaf6940b6502300168671a967d4834cef56f12542"
+        },
+        "after": {
+          "gdt451_18381_advisory_index.tsv": "be484677d651860833f352505fe65a1df5ca5207e023fb23a12e7e80a223b863",
+          "gdt451_4576_current_intake_replay.tsv": "34dfbe39fd56ac90ba423d1fbf663e2621467cdcb5a7f23a0a4e12538324e3d2",
+          "gdt451_61878_precedence_summary.tsv": "84e05af8600ad0aa3b30fbb79cbba09534b5b2e087d8d23834db3c5ba4e3801a",
+          "gdt451_8_false_safe_regressions.tsv": "84db3b80e48e83348dc42778b958393bb26db082618c233dfd31abd5e007c5f6",
+          "gdt451_10_context_warning_targets.tsv": "20682371da06fbf2ad2a08a6d792e01b068f2d01ce36060197c0ceb262f27811",
+          "gdt451_result.json": "8c7dd26985dec6478d08f7aaaf6940b6502300168671a967d4834cef56f12542"
+        }
+      }
+    },
+    {
+      "name": "advisory_rows_18381",
+      "passed": true,
+      "detail": 18381
+    },
+    {
+      "name": "advisory_unique_targets",
+      "passed": true,
+      "detail": 18381
+    },
+    {
+      "name": "advisory_never_overrides",
+      "passed": true,
+      "detail": "all NO"
+    },
+    {
+      "name": "current_rows_4576",
+      "passed": true,
+      "detail": 4576
+    },
+    {
+      "name": "current_unique_events",
+      "passed": true,
+      "detail": 4576
+    },
+    {
+      "name": "current_all_match_gdt441",
+      "passed": true,
+      "detail": {
+        "YES": 4576
+      }
+    },
+    {
+      "name": "current_live_equals_final",
+      "passed": true,
+      "detail": "all equal"
+    },
+    {
+      "name": "current_decisions_4566_10",
+      "passed": true,
+      "detail": {
+        "READ": 4566,
+        "READ_AMBER": 10
+      }
+    },
+    {
+      "name": "current_precedence_locked",
+      "passed": true,
+      "detail": "all locked"
+    },
+    {
+      "name": "precedence_cells_7",
+      "passed": true,
+      "detail": 7
+    },
+    {
+      "name": "precedence_cases_61878",
+      "passed": true,
+      "detail": 61878
+    },
+    {
+      "name": "precedence_stops_5911",
+      "passed": true,
+      "detail": 5911
+    },
+    {
+      "name": "precedence_source_locked",
+      "passed": true,
+      "detail": "all locked"
+    },
+    {
+      "name": "warning_rows_10",
+      "passed": true,
+      "detail": 10
+    },
+    {
+      "name": "warning_set_exact",
+      "passed": true,
+      "detail": [
+        "D_ADDR+EEE+Y",
+        "E+DY",
+        "EE+DY",
+        "EEE+Y",
+        "OT+EEE+AIIN",
+        "OT+EEE+DY",
+        "OT+EEE+O",
+        "OT+EEE+OR",
+        "OT+EEE+Y",
+        "OT+O+DY"
+      ]
+    },
+    {
+      "name": "warning_instruction_live",
+      "passed": true,
+      "detail": "all live"
+    },
+    {
+      "name": "regression_rows_8",
+      "passed": true,
+      "detail": 8
+    },
+    {
+      "name": "regression_ids_exact",
+      "passed": true,
+      "detail": [
+        "G450-C0001",
+        "G450-C0002",
+        "G450-C0003",
+        "G450-C0004",
+        "G450-C0005",
+        "G450-C0006",
+        "G450-C0007",
+        "G450-C0008"
+      ]
+    },
+    {
+      "name": "regressions_all_stop",
+      "passed": true,
+      "detail": {
+        "STOP": 8
+      }
+    },
+    {
+      "name": "regressions_all_pass",
+      "passed": true,
+      "detail": {
+        "YES": 8
+      }
+    },
+    {
+      "name": "regressions_warning_visible",
+      "passed": true,
+      "detail": "all YES"
+    },
+    {
+      "name": "regressions_live_source",
+      "passed": true,
+      "detail": "all live"
+    },
+    {
+      "name": "context_replay_rows_61878",
+      "passed": true,
+      "detail": 61878
+    },
+    {
+      "name": "context_replay_exact_match",
+      "passed": true,
+      "detail": 61878
+    },
+    {
+      "name": "context_replay_stops_5911",
+      "passed": true,
+      "detail": 5911
+    },
+    {
+      "name": "context_replay_all_stops_state_safe",
+      "passed": true,
+      "detail": 5911
+    },
+    {
+      "name": "probe_grade_three_gap_stops",
+      "passed": true,
+      "detail": "STOP"
+    },
+    {
+      "name": "probe_headless_close_stops",
+      "passed": true,
+      "detail": "STOP"
+    },
+    {
+      "name": "probe_same_close_reads_with_head",
+      "passed": true,
+      "detail": "READ"
+    },
+    {
+      "name": "all_final_sources_live",
+      "passed": true,
+      "detail": "all live"
+    },
+    {
+      "name": "result_status",
+      "passed": true,
+      "detail": "INTEGRATED_INTAKE_ENFORCES_LIVE_CONTEXT_PRECEDENCE"
+    },
+    {
+      "name": "result_no_new_claims",
+      "passed": true,
+      "detail": {
+        "identity_overrides_allowed": 0,
+        "advisory_overrides_allowed": 0,
+        "meaning_revisions": 0,
+        "surface_predictions": 0,
+        "occurrence_predictions": 0,
+        "new_pages": 0
+      }
+    },
+    {
+      "name": "sealed_tokens_absent",
+      "passed": true,
+      "detail": []
+    }
+  ]
+}
