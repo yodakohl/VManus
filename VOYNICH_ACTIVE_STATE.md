@@ -11327,3 +11327,18 @@ Composition-only remains an available reading after a form is supplied, not an
 occurrence or spelling prediction. Validation passes 50/50. Next make the live
 intake command return this provenance tier beside its meaning and exact channel
 trace.
+
+## GDT469 provenance-aware address reader
+
+The live address command now returns the unchanged GDT466 reading together
+with exact channel signature, bounded shell ID, flat recipe, GDT468 support
+tier/rank and old carrier counts. All 107 exact labels, 8,280 bounded shells
+and 81 base function/family/fallback probes replay exactly. Exact labels carry
+25 running-backed, fifteen complete-address-only, sixteen hybrid-only and 51
+outside-atlas recipe labels while exact-card precedence remains untouched.
+Bounded shell probes divide into 315 running, 72 full-address, 54 hybrid and
+7,839 composition-only. `otxainy` demonstrates the full joined output at
+address-full-only rank 86; `zxqv` remains a whole learned plant name outside
+the atlas. Validation passes 47/47. Next run the 89 label-like unseen-core
+mutations through this supported reader and release a compact future-page
+worksheet rather than expanding the Cartesian synthetic space again.

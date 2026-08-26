@@ -1,0 +1,22 @@
+{
+  "status": "PROVENANCE_AWARE_ADDRESS_INTAKE_READY",
+  "base_precedence": "GDT466_EXACT_THEN_FUNCTION_THEN_FAMILY_THEN_WHOLE_NAME",
+  "provenance_order": [
+    "RUNNING_EXACT_RECIPE",
+    "ADDRESS_FULL_FORMULA_ONLY",
+    "ADDRESS_HYBRID_SHELL_ONLY",
+    "COMPOSITION_ONLY",
+    "OUTSIDE_BOUNDED_SHELL_ATLAS"
+  ],
+  "returned_identity_channels": [
+    "surface",
+    "route",
+    "reading_de",
+    "exact_channel_signature",
+    "ordered_recipe_trace",
+    "recipe_support_tier",
+    "bounded_shell_id"
+  ],
+  "cli": "python3 experiments/yolo/gdt469_provenance_aware_address_reader/src/read_supported_address.py SURFACE CONTENT_CLASS",
+  "claim_boundary": "Support provenance changes confidence labels only; it never changes the GDT466 working reading or predicts a surface occurrence."
+}

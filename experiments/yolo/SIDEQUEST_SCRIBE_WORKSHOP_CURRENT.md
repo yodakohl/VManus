@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT468.
+Updated: 2026-08-26, after GDT469.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -65,7 +65,7 @@ CONTROL into `T=EINSTELLEN` and `R=MARKIEREN` creates a five-class gate with
 amber; `R>T` and `R<-EE` remain red-local. The internal meanings of the broad
 classes are not collapsed.
 
-GDT459–GDT468 now resolve the formerly opaque local-address tail as the mixed
+GDT459–GDT469 now resolve the formerly opaque local-address tail as the mixed
 codebook architecture anticipated by the sidequest: portable function cards
 surround memorized owner-bound name cores. Of 107 learned address labels,
 eighteen are now complete function formulas, 87 are function-shell/name-core
@@ -93,6 +93,10 @@ GDT468 separates evidence from compositional reach: 103 of 2,300 recipes have
 old running/address carriers, while 2,197 remain exploratory but readable.
 Running-backed recipes span 757 events, 154 surfaces and 24 pages. We keep both
 drawers instead of pretending that every possible shell is equally familiar.
+GDT469 puts that label directly into the reader output. A visible form now
+returns meaning, exact channel trace, learned core, recipe tier, carrier counts
+and bounded shell identity together; 8,468 replay cases preserve every old
+reading.
 
 GDT428 now supplies the missing semantic contrast deck. Six within-class
 comparisons contain 104 exact frames where only the action root changes. The
@@ -1090,9 +1094,8 @@ comparison set.
 
 ## Next work
 
-Keep the current 26 pages closed. Integrate GDT468 support into the executable
-address reader. Every supplied surface must return its working reading, exact
-channel trace and one provenance label: running-backed, complete-address-only,
-hybrid-shell-only, composition-only, or outside the bounded shell atlas. Test
-all existing reader branches without generating a spelling, adding a meaning,
-or using a new page.
+Keep the current 26 pages closed. Replay the 89 label-like unseen-core mutations
+through the GDT469 supported reader, summarize provenance by content class and
+shell shape, and publish a compact future-page worksheet showing the exact
+fields to record for each new address. Stop broad Cartesian growth. Do not
+generate a spelling, add a meaning, or use a new page.

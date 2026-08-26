@@ -1,0 +1,54 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Provenance wrapper over unchanged GDT466 readings and GDT468 tiers; no new page, channel, component meaning, surface prediction, occurrence, name, plaintext, language, or confirmed lexeme.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt469_provenance_aware_address_reader/src/run.py",
+    "validate": "python3 experiments/yolo/gdt469_provenance_aware_address_reader/src/validate.py"
+  },
+  "created": "2026-08-26",
+  "dependencies": ["GDT466", "GDT467", "GDT468"],
+  "experiment_id": "GDT469",
+  "inputs": [
+    {"path": "experiments/yolo/gdt466_future_address_mixed_dictionary_intake/artifacts/gdt466_44_function_channel_deck.tsv", "role": "frozen function channels", "sha256": "7cbe831bd286b36b6c624c41713a8975f5a2c623c96e85396c5b8b900fc65469"},
+    {"path": "experiments/yolo/gdt466_future_address_mixed_dictionary_intake/artifacts/gdt466_18_owner_family_channel_deck.tsv", "role": "frozen owner-family markers", "sha256": "a9472b8fc7ab00e3fa1a0e741cf59ae77c0ff915114b7bc3496888fcfbeede21"},
+    {"path": "experiments/yolo/gdt466_future_address_mixed_dictionary_intake/artifacts/gdt466_107_intake_dictionary.tsv", "role": "exact label deck", "sha256": "f5b4e35065c4545bf85cf90e2a376728ec261af7426756f24747b50d9d5c9b59"},
+    {"path": "experiments/yolo/gdt466_future_address_mixed_dictionary_intake/artifacts/gdt466_81_channel_and_fallback_probes.tsv", "role": "complete base branch probes", "sha256": "b7b8615d6712b74d069fdb866466acef909629124f0690d1b01f553330e714ce"},
+    {"path": "experiments/yolo/gdt466_future_address_mixed_dictionary_intake/src/intake_lib.py", "role": "unchanged base intake implementation", "sha256": "7bf0b0d42394181f3bbcedf59534b5fe156b0e543de42352decaf3c9b09d7c83"},
+    {"path": "experiments/yolo/gdt467_bounded_shell_composition_atlas/artifacts/gdt467_8280_multicore_precedence_probes.tsv", "role": "bounded shell reading replay source", "sha256": "92a514512a5c082002a61ab3f34e841292b2f1b36344257414942b1875f37b92"},
+    {"path": "experiments/yolo/gdt468_shell_recipe_carrier_support_atlas/artifacts/gdt468_2300_recipe_support_atlas.tsv", "role": "recipe provenance tiers and ranks", "sha256": "a636d1891d70fc8db85d9a1b5dedbf1ede8c81384f843445e1e79a0dc891f3b1"},
+    {"path": "experiments/yolo/gdt468_shell_recipe_carrier_support_atlas/artifacts/gdt468_2760_supported_shell_phrasebook.tsv", "role": "exact channel-signature to shell join", "sha256": "5baf8c57cb529fb73454e466bf583367fabe493e2e91f9d45eae71ba19fc91a1"}
+  ],
+  "outputs": [
+    {"path": "experiments/yolo/gdt469_provenance_aware_address_reader/README.md", "role": "entry point and CLI", "sha256": "f1c98f6b3d8aad23c9a26766de6bf5d92c926d7e7a2ab4bc1608a23807143783"},
+    {"path": "experiments/yolo/gdt469_provenance_aware_address_reader/METHOD.md", "role": "provenance integration method", "sha256": "f34099964b7046acebdce2e54005d7a352b5d4a5cad080b8f0fdf6f9489ea9b2"},
+    {"path": "experiments/yolo/gdt469_provenance_aware_address_reader/REPORT.md", "role": "primary report", "sha256": "87dab1e15782dfdf1b40a77599abd2a5e91d79678dec90bf7ba5b7c96819a55c"},
+    {"path": "experiments/yolo/gdt469_provenance_aware_address_reader/src/support_lib.py", "role": "recipe and shell provenance wrapper", "sha256": "55e4b50a92bb5aca415dfe93c1d93a199c162e552162d653b3a5177ef701f42f"},
+    {"path": "experiments/yolo/gdt469_provenance_aware_address_reader/src/read_supported_address.py", "role": "one-surface executable supported reader", "sha256": "5413f8d6635d5e3cf28e64d6c4d18ddfe66c6fb3220dd9d8a70d930a403c423f"},
+    {"path": "experiments/yolo/gdt469_provenance_aware_address_reader/src/run.py", "role": "deterministic replay builder", "sha256": "9fd516e4686d49a47bf16c98adb195988873e0b3b3f3eb345a60b79b16421a16"},
+    {"path": "experiments/yolo/gdt469_provenance_aware_address_reader/src/validate.py", "role": "validator, CLI audit, and deterministic rebuild check", "sha256": "b27db1ad420ce16999ba5a39c41bc7aff3f63c14fb59434562717c37ff716c2d"},
+    {"path": "experiments/yolo/gdt469_provenance_aware_address_reader/artifacts/README.md", "role": "artifact guide", "sha256": "a3ebc1c0c7b17699968889f066d1aed9a3483827c54fc7c6c32c632154c6ce13"},
+    {"path": "experiments/yolo/gdt469_provenance_aware_address_reader/artifacts/gdt469_107_exact_supported_replay.tsv", "role": "exact label provenance replay", "sha256": "a5bb69ed5f3916f7c93be828a0cce82468a5f21ba2c37f12b692be0474d46e75"},
+    {"path": "experiments/yolo/gdt469_provenance_aware_address_reader/artifacts/gdt469_8280_supported_shell_replay.tsv", "role": "bounded shell provenance replay", "sha256": "f5ab0b5bd66b7a5823f73645f781f20df179008ded35c5ec40fdf3745bf3919e"},
+    {"path": "experiments/yolo/gdt469_provenance_aware_address_reader/artifacts/gdt469_81_supported_branch_replay.tsv", "role": "base branch provenance replay", "sha256": "47e28fb4d8a4c3464ff2ac57708012d8d8eee6ccb6e96afac50d93341de88893"},
+    {"path": "experiments/yolo/gdt469_provenance_aware_address_reader/artifacts/gdt469_supported_intake_contract.json", "role": "returned provenance contract", "sha256": "2fc224dccf10895f1865e2d52c156735182d326b3ed8478827b07dc3e393f4c6"},
+    {"path": "experiments/yolo/gdt469_provenance_aware_address_reader/artifacts/gdt469_result.json", "role": "compact result", "sha256": "2d9c9c8676d67a05de8ea71dea2db2e96e650f44a4fb5cf52919c74c11533b11"},
+    {"path": "experiments/yolo/gdt469_provenance_aware_address_reader/artifacts/gdt469_validation.json", "role": "47-check validation report", "sha256": "5d620b6ef13c47bce7efbd6fe47d0cf42247e62ce7f5883fc4f13c41ec1d2498"}
+  ],
+  "question": "Can GDT468 recipe provenance be attached to every GDT466 intake result without changing the selected channels, learned cores, family route, or working reading?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "provenance_aware_address_reader",
+  "status": "PROVENANCE_AWARE_ADDRESS_INTAKE_READY",
+  "title": "Provenance-aware address reader",
+  "updated": "2026-08-26",
+  "validation": {
+    "artifact": "experiments/yolo/gdt469_provenance_aware_address_reader/artifacts/gdt469_validation.json",
+    "status": "PASS"
+  }
+}
