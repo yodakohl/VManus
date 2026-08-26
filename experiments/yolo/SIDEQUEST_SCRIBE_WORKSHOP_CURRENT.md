@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT490.
+Updated: 2026-08-26, after GDT491.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -275,6 +275,17 @@ Drogenanteil ein”, “Stelle den Pflanzenposten ein” and “Weiter stelle de
 Pflanzenposten [wie zuvor] ein”. Even GDT489's locally absent `CHD+Y` context
 has five admitted `T+CHD+Y` carriers and the direct wording “stelle … ein und
 bearbeite …”. No phrase was composed by analogy.
+
+GDT491 fills the mirror side from 46 exact R carriers on sixteen pages. All
+eleven frames now have observed MARKIEREN wording; again there are 22 clause
+forms and eleven defaults, with zero invented phrases. More importantly, seven
+frames admit a pair of old T/R clauses whose entire German remainder is
+letter-identical once only the action realization is replaced: Stationswert,
+Stationsanteil, Zielstation, followed BEARBEITEN, FORTSETZEN, bare POSTEN and
+the action-only Pflanzenposten card. Four frames remain owner variants rather
+than failures: `AL+Y`, `CH+E+Y`, `OR+Y` and `CH+@ACTION` have the same formal
+component rest, but their observed German object words come from different
+owners. They are not normalized into synthetic sentences.
 
 GDT428 now supplies the missing semantic contrast deck. Six within-class
 comparisons contain 104 exact frames where only the action root changes. The
@@ -1064,6 +1075,10 @@ comparison set.
 
 ## Primary artifacts
 
+- Current GDT491 observed MARKIEREN and T/R contrast atlas, 46 exact R
+  carriers, 22 R clause forms, eleven R defaults, seven exact German
+  remainder pairs and four explicit owner variants:
+  `gdt491_markierungen_observed_phrase_contrast_atlas/`;
 - Current GDT490 observed EINSTELLEN phrase atlas, thirty exact T carriers,
   22 German clause forms, eleven observed defaults and all-register coverage:
   `gdt490_einstellen_observed_phrase_atlas/`;
@@ -1304,8 +1319,9 @@ comparison set.
 
 ## Next work
 
-Keep the current 26 pages closed. Build the identical observed phrase atlas
-for `R=MARKIEREN` from the 46 old R-side carriers. Then place the selected T
-and R defaults beside one another in each of the eleven shared frames, with
-the unchanged remainder explicitly highlighted. Retain every owner-specific
-variant; do not normalize two observed sentences into a new synthetic one.
+Keep the current 26 pages closed. Decompose only the four GDT491 owner
+variants (`AL+Y`, `CH+E+Y`, `OR+Y`, `CH+@ACTION`) into observed slots for
+action, object, relation, grade and following action. Search the old GDT416
+clauses for cross-owner carriers of each slot value. The target is a shared
+slotwise sentence pattern, not a newly normalized sentence; retain every
+observed phrase verbatim.

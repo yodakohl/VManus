@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **489**
-- Experiment-associated tracked files: **7,081** (790.6 MiB)
-- Structured GDT337+ experiments: **154**
+- Experiments indexed: **490**
+- Experiment-associated tracked files: **7,099** (790.7 MiB)
+- Structured GDT337+ experiments: **155**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT491 | GDT491_markierungen_observed_phrase_contrast_atlas | `ALL_ELEVEN_R_FRAMES_HAVE_OBSERVED_PHRASES__SEVEN_EXACT_GERMAN_REMAINDERS__FOUR_OWNER_VARIANTS` | [report](../experiments/yolo/gdt491_markierungen_observed_phrase_contrast_atlas/REPORT.md) | 18 | 117.7 KiB | 3 | STRUCTURED_YOLO |
 | GDT490 | GDT490_einstellen_observed_phrase_atlas | `ALL_ELEVEN_T_FRAMES_HAVE_OBSERVED_PHRASES__TWENTY_TWO_FORMS__ZERO_INVENTED` | [report](../experiments/yolo/gdt490_einstellen_observed_phrase_atlas/REPORT.md) | 16 | 87.0 KiB | 3 | STRUCTURED_YOLO |
 | GDT489 | GDT489_einstellen_typed_composition_neighbourhood | `EINSTELLEN_HAS_TWO_TYPED_COMPOSITION_EDGES__ALL_SIXTEEN_SINGLETONS_CONNECTED` | [report](../experiments/yolo/gdt489_einstellen_typed_composition_neighbourhood/REPORT.md) | 16 | 112.3 KiB | 5 | STRUCTURED_YOLO |
 | GDT488 | GDT488_action_endpoint_single_relaxation_closure | `HALTEN_CYCLE_CLOSED__EINSTELLEN_REMAINS_CAPACITY_LIMITED` | [report](../experiments/yolo/gdt488_action_endpoint_single_relaxation_closure/REPORT.md) | 17 | 83.2 KiB | 4 | STRUCTURED_YOLO |

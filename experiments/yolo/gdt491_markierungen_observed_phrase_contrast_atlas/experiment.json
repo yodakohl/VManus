@@ -1,0 +1,137 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Observed GDT416 R phrase atlas and T/R contrast cards in exact GDT428 frames; seven cards share an exact German remainder and four retain owner-local wording, with no invented phrase, new meaning, model, boundary, surface, recipe, event, or page.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt491_markierungen_observed_phrase_contrast_atlas/src/run.py",
+    "validate": "python3 experiments/yolo/gdt491_markierungen_observed_phrase_contrast_atlas/src/validate.py"
+  },
+  "created": "2026-08-26",
+  "dependencies": ["GDT416", "GDT428", "GDT490"],
+  "experiment_id": "GDT491",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt416_owner_local_imperative_sentence_compiler/artifacts/gdt416_4576_imperative_clauses.tsv",
+      "role": "complete observed owner-local imperative clauses",
+      "sha256": "cffae521ba93d96446537584e35fa9a4fe4b6e34330ebf7e955ad725f7c70561"
+    },
+    {
+      "path": "experiments/yolo/gdt428_within_class_action_semantic_contrasts/artifacts/gdt428_104_direct_substitution_frames.tsv",
+      "role": "exact T-R frame and carrier inventory",
+      "sha256": "824e8a75eceb9dcf9c93a6c6f36ad2d4b27a2eedb750f4d00483ae16804b24f7"
+    },
+    {
+      "path": "experiments/yolo/gdt490_einstellen_observed_phrase_atlas/artifacts/gdt490_22_observed_t_clause_forms.tsv",
+      "role": "all observed T clause forms",
+      "sha256": "943e0807b995f3eacca93cdf2bd87eb7777a7cef0f9744d0ea1d5a2993f8f444"
+    },
+    {
+      "path": "experiments/yolo/gdt490_einstellen_observed_phrase_atlas/artifacts/gdt490_11_observed_default_phrases.tsv",
+      "role": "observed T defaults for unmatched owner variants",
+      "sha256": "34716909fa2627c94ef6de31761e25b63c45f81d456471f192c820827638d358"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt491_markierungen_observed_phrase_contrast_atlas/README.md",
+      "role": "entry point",
+      "sha256": "c3a119cc034e3ae1d9cbb058545b4237b68b394a1fc7c4a55f15561ddee93098"
+    },
+    {
+      "path": "experiments/yolo/gdt491_markierungen_observed_phrase_contrast_atlas/METHOD.md",
+      "role": "exact observed phrase and contrast selection method",
+      "sha256": "d1abae83f6baa7fe2b09794ad9474d4d4e40c9f52192885a2080759b2d52684d"
+    },
+    {
+      "path": "experiments/yolo/gdt491_markierungen_observed_phrase_contrast_atlas/REPORT.md",
+      "role": "primary report",
+      "sha256": "ad80e34c9e060ff50047a1576d6b0e3c80208e3a48a21998b61313a934d3ad75"
+    },
+    {
+      "path": "experiments/yolo/gdt491_markierungen_observed_phrase_contrast_atlas/src/run.py",
+      "role": "deterministic R atlas and T-R contrast builder",
+      "sha256": "4fc94181bbcd8bdb828e69ae01928641cd82013b4198bfff83b7defbb5528101"
+    },
+    {
+      "path": "experiments/yolo/gdt491_markierungen_observed_phrase_contrast_atlas/src/validate.py",
+      "role": "deterministic provenance and contrast validator",
+      "sha256": "eb07a5ae4e62d89aeaa514d258235ec968331e1ee4f993f8f3d3825bcbc168ab"
+    },
+    {
+      "path": "experiments/yolo/gdt491_markierungen_observed_phrase_contrast_atlas/artifacts/README.md",
+      "role": "artifact guide",
+      "sha256": "0274138465d60f1640e424c6b66c6472f43b4598a43d2b7f01b0af37d804da3d"
+    },
+    {
+      "path": "experiments/yolo/gdt491_markierungen_observed_phrase_contrast_atlas/artifacts/GDT491_MARKIEREN_OBSERVED_PHRASE_CONTRAST_ATLAS.md",
+      "role": "complete readable R phrase and T-R contrast atlas",
+      "sha256": "3e40217d443522465211e223bf3f9dc827f3fb64738fc5b7c923dfa2c57bd261"
+    },
+    {
+      "path": "experiments/yolo/gdt491_markierungen_observed_phrase_contrast_atlas/artifacts/gdt491_46_readable_r_carriers.tsv",
+      "role": "all exact readable R carriers",
+      "sha256": "87aaba1c8630753827034a3c686b12311acf955ee0914dceb112d4351c2f9f9b"
+    },
+    {
+      "path": "experiments/yolo/gdt491_markierungen_observed_phrase_contrast_atlas/artifacts/gdt491_22_observed_r_clause_forms.tsv",
+      "role": "all observed R clause forms",
+      "sha256": "3af7697aba5fe43d474280ee95a96cfbc61b7ec4c8c67d5efd4c444b99487148"
+    },
+    {
+      "path": "experiments/yolo/gdt491_markierungen_observed_phrase_contrast_atlas/artifacts/gdt491_11_r_frame_phrase_cells.tsv",
+      "role": "R frame-level observed phrase cells",
+      "sha256": "34e4b4faea6f57025a4167ece17b2306d178b7f9ac54baed8232c6bcff2b0f8c"
+    },
+    {
+      "path": "experiments/yolo/gdt491_markierungen_observed_phrase_contrast_atlas/artifacts/gdt491_11_observed_r_default_phrases.tsv",
+      "role": "compact observed R default phrasebook",
+      "sha256": "e2483b461586a6e6c7b9f05abcb22dc8fc5c0651132d16547330e28d2f2df209"
+    },
+    {
+      "path": "experiments/yolo/gdt491_markierungen_observed_phrase_contrast_atlas/artifacts/gdt491_11_observed_tr_contrast_cards.tsv",
+      "role": "all observed T-R phrase contrast cards",
+      "sha256": "0f96f8725917dbf321930b98653fc41cfd27e6e6c1c3f595410d658c8e0e1732"
+    },
+    {
+      "path": "experiments/yolo/gdt491_markierungen_observed_phrase_contrast_atlas/artifacts/gdt491_7_exact_german_remainder_pairs.tsv",
+      "role": "seven exact action-neutral German remainder pairs",
+      "sha256": "c9a064a9d12c60844e3f57b82a8363e52337c1a1f0506b03e4b02e0c149d8324"
+    },
+    {
+      "path": "experiments/yolo/gdt491_markierungen_observed_phrase_contrast_atlas/artifacts/gdt491_4_owner_variant_contrast_cards.tsv",
+      "role": "four formal contrasts with owner-local wording differences",
+      "sha256": "02a95c46f4bd7d938f72a8dad4021eb5ecc95101b737cd6afa6734a842a69895"
+    },
+    {
+      "path": "experiments/yolo/gdt491_markierungen_observed_phrase_contrast_atlas/artifacts/gdt491_5_register_phrase_support.tsv",
+      "role": "registerwise R phrase coverage",
+      "sha256": "64fb7c234871d77f9f997f5ac0c6420900f5996a230925cd0f4f6d65e661d414"
+    },
+    {
+      "path": "experiments/yolo/gdt491_markierungen_observed_phrase_contrast_atlas/artifacts/gdt491_result.json",
+      "role": "compact result",
+      "sha256": "e513512e39897287a39e8f54ed6c9b0eda158fb126d76b8cb51f2569875a9358"
+    },
+    {
+      "path": "experiments/yolo/gdt491_markierungen_observed_phrase_contrast_atlas/artifacts/gdt491_validation.json",
+      "role": "97-check validation report",
+      "sha256": "7adc09be177ca5d8171fd48a20543b72a0d66d18f827c70696fe911c6d2636fe"
+    }
+  ],
+  "question": "Which existing GDT416 German clauses realize the eleven R-side GDT428 frames, and how many frames have an observed T-R phrase pair with an exact action-neutral German remainder?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "markierungen_observed_phrase_contrast_atlas",
+  "status": "ALL_ELEVEN_R_FRAMES_HAVE_OBSERVED_PHRASES__SEVEN_EXACT_GERMAN_REMAINDERS__FOUR_OWNER_VARIANTS",
+  "title": "MARKIEREN observed phrase and T-R contrast atlas",
+  "updated": "2026-08-26",
+  "validation": {
+    "artifact": "experiments/yolo/gdt491_markierungen_observed_phrase_contrast_atlas/artifacts/gdt491_validation.json",
+    "status": "PASS"
+  }
+}

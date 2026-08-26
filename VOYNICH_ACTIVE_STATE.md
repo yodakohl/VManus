@@ -11821,3 +11821,29 @@ all eleven T frames now have concrete wording without analogical invention.
 No meaning, wording, model, boundary, surface, recipe, Event or page changes;
 validation passes 89/89. Next build the same atlas for 46 R=MARKIEREN carriers
 and publish eleven side-by-side observed T/R sentence contrasts.
+
+## GDT491 MARKIEREN observed phrase and T/R contrast atlas
+
+GDT491 joins every R-instantiated GDT428 frame to exact GDT416 imperative
+clauses. All eleven frames have readable R carriers: 46 events on sixteen
+admitted pages, across all five registers and ten owner classes. They yield 22
+distinct observed German clauses and eleven observed defaults, all with exact
+component roundtrip and zero invented phrases.
+
+The direct T/R atlas then selects observed phrases on both sides. Seven of the
+eleven frames have at least one pair whose complete German remainder is
+letter-identical after replacing only the fixed action realization. Examples
+are “Stelle den Stationswert ein” versus “Markiere den Stationswert” and the
+longer station pair with the unchanged Zielstation. For these pairs the action
+root is the only changed German slot.
+
+Four frames have no such literal German pair: `@ACTION+AL+Y`,
+`@ACTION+CH+E+Y`, `@ACTION+OR+Y` and `CH+@ACTION`. Both sides remain observed
+and the formal GDT428 remainder is unchanged, but owner-local nouns or the
+owner-local realization of CH differ. They remain explicit OWNER-VARIANTEN;
+no synthetic common sentence is introduced.
+
+No meaning, wording, model, boundary, surface, recipe, Event or page changes;
+validation passes 97/97. Next decompose only the four owner variants into
+observed action/object/relation/grade/follow-up slots and seek cross-owner old
+carriers for those slots, keeping all twenty-six pages closed.
