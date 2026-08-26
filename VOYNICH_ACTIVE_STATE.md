@@ -11280,3 +11280,19 @@ formulas, 87 function/name hybrids, one family-only and one whole label, with
 nomenclator decomposition; next compile this frozen mixed dictionary into an
 executable future-address intake gate without opening a new page or assigning a
 new core meaning.
+
+## GDT466 future-address mixed-dictionary intake
+
+The closed label architecture is now executable: exact known label first, then
+44 frozen directional/internal function channels, then eighteen strict
+owner-family markers, then an owner-class learned-name fallback. Exact replay
+is 107/107. Suppressing exact identity reproduces 105/107 complete function
+masks with zero overread; only `ykyd` and `yddy` retain their intended exact
+whole-package dependency. Inserting a synthetic `x` inside each of 89 learned
+cores preserves the expected shell in 89/89 cases, and all 81 individual
+channel, right/wrong-family-class and fallback probes pass. Compilation finds
+one real propagation omission: GDT462's accepted prefix `ar=AR` also applies to
+`ararchodaiin`, yielding `AUSGANG · AUSGANG · [DROGENNAME:cho] · WERT` and
+raising coverage from 440 to 442/713. No new value is introduced. Validation
+passes 77/77. Next enumerate bounded two- and three-channel synthetic shells to
+locate precedence collisions before any new page is admitted.

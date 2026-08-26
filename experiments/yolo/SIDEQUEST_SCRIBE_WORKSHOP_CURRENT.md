@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT465.
+Updated: 2026-08-26, after GDT466.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -65,7 +65,7 @@ CONTROL into `T=EINSTELLEN` and `R=MARKIEREN` creates a five-class gate with
 amber; `R>T` and `R<-EE` remain red-local. The internal meanings of the broad
 classes are not collapsed.
 
-GDT459–GDT465 now resolve the formerly opaque local-address tail as the mixed
+GDT459–GDT466 now resolve the formerly opaque local-address tail as the mixed
 codebook architecture anticipated by the sidequest: portable function cards
 surround memorized owner-bound name cores. Of 107 learned address labels,
 eighteen are now complete function formulas, 87 are function-shell/name-core
@@ -79,6 +79,11 @@ GDT465 audits rather than forces the last form: two available readings agree on
 `oiil`, but `IIN+L` and `O+IIN+L` have zero running carriers and the middle has
 no exact card. The pictured plant licenses a local name class, not an internal
 split. One memorized whole label is therefore part of the model, not a defect.
+GDT466 makes that architecture operational. A supplied new form is read by
+exact label, then 44 calibrated function channels, then eighteen class-bound
+family markers, then a learned owner-class name. All 89 synthetic changed name
+cores retain their shells. The compiler also repairs one missed application of
+the old `ar-` prefix in `ararchodaiin`, bringing function coverage to 442/713.
 
 GDT428 now supplies the missing semantic contrast deck. Six within-class
 comparisons contain 104 exact frames where only the action root changes. The
@@ -1076,9 +1081,9 @@ comparison set.
 
 ## Next work
 
-Keep the current 26 pages closed. Compile the frozen 107-label mixed dictionary
-into an executable intake order for a future address: exact known label first,
-then already calibrated function shells, then a strict owner-family marker,
-otherwise the whole surface as a learned owner-class name. Replay that order on
-the current deck and make every fallback explicit. Do not reopen a completed
-label, infer a new core meaning, or use a new page.
+Keep the current 26 pages closed. Exercise every bounded prefix×suffix and
+prefix×internal×suffix combination around an opaque synthetic core through the
+GDT466 reader. Record which intended shells survive the longest-match order and
+which combinations collide; keep collisions explicit instead of adding a
+channel. Do not infer a new core meaning, generate a manuscript spelling, or
+use a new page.

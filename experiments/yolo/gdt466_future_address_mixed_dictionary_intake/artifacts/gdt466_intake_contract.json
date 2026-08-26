@@ -1,0 +1,43 @@
+{
+  "status": "FROZEN_MIXED_DICTIONARY_INTAKE_READY",
+  "precedence": [
+    {
+      "order": 1,
+      "route": "EXACT_KNOWN_LABEL",
+      "rule": "Return the frozen GDT465 label reading."
+    },
+    {
+      "order": 2,
+      "route": "CALIBRATED_FUNCTION_CHANNELS",
+      "rule": "Longest prefix, longest nonoverlapping suffix, then longest nonoverlapping strict-internal channels."
+    },
+    {
+      "order": 3,
+      "route": "STRICT_OWNER_FAMILY",
+      "rule": "Expose only markers whose frozen content class matches the supplied owner class."
+    },
+    {
+      "order": 4,
+      "route": "WHOLE_LEARNED_OWNER_NAME",
+      "rule": "Preserve every otherwise unread surface character inside an owner-class name placeholder."
+    }
+  ],
+  "known_label_count": 107,
+  "function_channel_count": 44,
+  "owner_family_channel_count": 18,
+  "propagation_correction_count": 1,
+  "accepted_content_classes": [
+    "STAR_BEARING_RING_POSITION",
+    "DRUG_OR_INGREDIENT_OBJECT",
+    "BATH_OR_OUTLET_STATION",
+    "PICTURED_PLANT",
+    "UNKNOWN_LOCAL_ADDRESS"
+  ],
+  "forbidden_outputs": [
+    "NEW_COMPONENT_MEANING",
+    "INDIVIDUAL_OBJECT_IDENTITY",
+    "SURFACE_PREDICTION",
+    "CROSS_OWNER_FAMILY_TRANSFER"
+  ],
+  "cli": "python3 experiments/yolo/gdt466_future_address_mixed_dictionary_intake/src/read_address.py SURFACE CONTENT_CLASS"
+}

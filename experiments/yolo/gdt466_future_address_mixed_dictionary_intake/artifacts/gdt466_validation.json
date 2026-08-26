@@ -1,0 +1,393 @@
+{
+  "status": "PASS",
+  "check_count": 77,
+  "passed": 77,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "source_label_count",
+      "status": "PASS",
+      "detail": "observed=107"
+    },
+    {
+      "name": "edge_source_count",
+      "status": "PASS",
+      "detail": "observed=27"
+    },
+    {
+      "name": "internal_source_count",
+      "status": "PASS",
+      "detail": "observed=9"
+    },
+    {
+      "name": "family_source_count",
+      "status": "PASS",
+      "detail": "observed=17"
+    },
+    {
+      "name": "cheo_source_count",
+      "status": "PASS",
+      "detail": "[{'residual_family_bridge_id': 'G461-F01', 'surface_substring': 'cheo', 'working_family_value_de': 'DROGENFAMILIE', 'content_class': 'DRUG_OR_INGREDIENT_OBJECT', 'unique_address_surface_count': '4', 'pages': 'f88v|f89r', 'address_surfaces': 'cheocthy|cheody|cheosdy|opcheor', 'gdt460_target_surfaces': 'cheocthy|cheosdy', 'old_whole_target_surfaces': 'cheosdy', 'selection_rule': 'COMPLETE_ADDRESS_DECK__3PLUS_UNIQUE_SURFACES__PURE_CLASS__BOTH_CLASS_PAGES__TOUCHES_OLD_WHOLE', 'claim_status': 'RESIDUAL_OWNER_FAMILY_BRIDGE__NOT_OBJECT_NAME'}]"
+    },
+    {
+      "name": "ar_source_single_promotion",
+      "status": "PASS",
+      "detail": "[{'edge': 'PREFIX', 'surface_stem': 'ar', 'component_recipe': 'AR', 'literal_working_value_de': 'AUSGANG', 'running_extension_type_count': '7', 'running_matching_type_count': '6', 'running_type_precision': '0.857143', 'residual_hit_count': '2', 'residual_surfaces': 'arom|arody', 'audit_band': 'NEAR_THRESHOLD_REVIEW', 'decision': 'PROMOTE_AFTER_PACKAGE_EXCEPTION', 'decision_reason': 'sole mismatch is a two-page exact P+AR+AR repeated-relation package'}]"
+    },
+    {
+      "name": "thin_source_count",
+      "status": "PASS",
+      "detail": "four thin bridges"
+    },
+    {
+      "name": "bridge_source_general_count",
+      "status": "PASS",
+      "detail": "['PREFIX_of', 'SUFFIX_ainy', 'SUFFIX_eey']"
+    },
+    {
+      "name": "function_rule_count",
+      "status": "PASS",
+      "detail": "observed=44"
+    },
+    {
+      "name": "function_rule_ids",
+      "status": "PASS",
+      "detail": "C01-C44"
+    },
+    {
+      "name": "function_rule_lineage",
+      "status": "PASS",
+      "detail": "Counter({'GDT460': 27, 'GDT461': 9, 'GDT463': 4, 'GDT464': 3, 'GDT462': 1})"
+    },
+    {
+      "name": "function_rule_kinds",
+      "status": "PASS",
+      "detail": "Counter({'SUFFIX': 23, 'PREFIX': 12, 'INTERNAL': 9})"
+    },
+    {
+      "name": "function_rule_unique_keys",
+      "status": "PASS",
+      "detail": "direction/stem unique"
+    },
+    {
+      "name": "function_rule_source_ids",
+      "status": "PASS",
+      "detail": "observed=44"
+    },
+    {
+      "name": "function_rule_values_present",
+      "status": "PASS",
+      "detail": "no empty recipe or value"
+    },
+    {
+      "name": "family_rule_count",
+      "status": "PASS",
+      "detail": "observed=18"
+    },
+    {
+      "name": "family_rule_ids",
+      "status": "PASS",
+      "detail": "F01-F18"
+    },
+    {
+      "name": "family_rule_lineage",
+      "status": "PASS",
+      "detail": "Counter({'GDT460': 17, 'GDT461': 1})"
+    },
+    {
+      "name": "family_rule_classes",
+      "status": "PASS",
+      "detail": "Counter({'STAR_BEARING_RING_POSITION': 14, 'DRUG_OR_INGREDIENT_OBJECT': 4})"
+    },
+    {
+      "name": "family_rule_cheo",
+      "status": "PASS",
+      "detail": "cheo drug family"
+    },
+    {
+      "name": "family_rule_unique_keys",
+      "status": "PASS",
+      "detail": "class/stem unique"
+    },
+    {
+      "name": "correction_count",
+      "status": "PASS",
+      "detail": "[{'surface': 'ararchodaiin', 'source_event_id': 'P1008-E1042', 'physical_page': 'f89r', 'content_class': 'DRUG_OR_INGREDIENT_OBJECT', 'accepted_channel': 'PREFIX ar=AR', 'old_known_function_character_count': '7', 'new_known_function_character_count': '9', 'old_segmentation': 'UNCHANGED_FROM_GDT462', 'new_segmentation': 'ar|ar|[DROGENNAME:cho]|daiin', 'old_default_de': '[DROGENNAME:ar] · AUSGANG · [DROGENNAME:cho] · WERT', 'new_default_de': 'AUSGANG · AUSGANG · [DROGENNAME:cho] · WERT', 'correction_kind': 'MISSED_PROPAGATION_OF_ALREADY_ACCEPTED_GDT462_CHANNEL__NO_NEW_MEANING'}]"
+    },
+    {
+      "name": "correction_counts",
+      "status": "PASS",
+      "detail": "{'surface': 'ararchodaiin', 'source_event_id': 'P1008-E1042', 'physical_page': 'f89r', 'content_class': 'DRUG_OR_INGREDIENT_OBJECT', 'accepted_channel': 'PREFIX ar=AR', 'old_known_function_character_count': '7', 'new_known_function_character_count': '9', 'old_segmentation': 'UNCHANGED_FROM_GDT462', 'new_segmentation': 'ar|ar|[DROGENNAME:cho]|daiin', 'old_default_de': '[DROGENNAME:ar] · AUSGANG · [DROGENNAME:cho] · WERT', 'new_default_de': 'AUSGANG · AUSGANG · [DROGENNAME:cho] · WERT', 'correction_kind': 'MISSED_PROPAGATION_OF_ALREADY_ACCEPTED_GDT462_CHANNEL__NO_NEW_MEANING'}"
+    },
+    {
+      "name": "correction_channel",
+      "status": "PASS",
+      "detail": "{'surface': 'ararchodaiin', 'source_event_id': 'P1008-E1042', 'physical_page': 'f89r', 'content_class': 'DRUG_OR_INGREDIENT_OBJECT', 'accepted_channel': 'PREFIX ar=AR', 'old_known_function_character_count': '7', 'new_known_function_character_count': '9', 'old_segmentation': 'UNCHANGED_FROM_GDT462', 'new_segmentation': 'ar|ar|[DROGENNAME:cho]|daiin', 'old_default_de': '[DROGENNAME:ar] · AUSGANG · [DROGENNAME:cho] · WERT', 'new_default_de': 'AUSGANG · AUSGANG · [DROGENNAME:cho] · WERT', 'correction_kind': 'MISSED_PROPAGATION_OF_ALREADY_ACCEPTED_GDT462_CHANNEL__NO_NEW_MEANING'}"
+    },
+    {
+      "name": "dictionary_count",
+      "status": "PASS",
+      "detail": "observed=107"
+    },
+    {
+      "name": "dictionary_order",
+      "status": "PASS",
+      "detail": "source order exact"
+    },
+    {
+      "name": "dictionary_surfaces",
+      "status": "PASS",
+      "detail": "surface order exact"
+    },
+    {
+      "name": "dictionary_one_change",
+      "status": "PASS",
+      "detail": "[('ararchodaiin', 'GDT462_AR_PREFIX_PROPAGATION_COMPLETED')]"
+    },
+    {
+      "name": "dictionary_unchanged_source_fields",
+      "status": "PASS",
+      "detail": "106 rows field-identical"
+    },
+    {
+      "name": "dictionary_corrected_field_scope",
+      "status": "PASS",
+      "detail": "only eight old fields revised"
+    },
+    {
+      "name": "dictionary_corrected_parse",
+      "status": "PASS",
+      "detail": "{'gdt466_label_id': 'G466-L088', 'gdt465_label_id': 'G465-L088', 'gdt464_label_id': 'G464-L088', 'gdt463_label_id': 'G463-L088', 'source_event_id': 'P1008-E1042', 'physical_page': 'f89r', 'register': 'PHARMA', 'locus': 'f89r1.5', 'owner_de': 'lokale Kennung für Gefäß-/Pflanzenteilgruppe A', 'surface': 'ararchodaiin', 'content_class': 'DRUG_OR_INGREDIENT_OBJECT', 'gdt463_hybrid_status': 'FUNCTION_SHELL_PLUS_LEARNED_CORE', 'gdt464_hybrid_status': 'FUNCTION_SHELL_PLUS_LEARNED_CORE', 'surface_segmentation': 'ar|ar|[DROGENNAME:cho]|daiin', 'prefix_stem': 'ar', 'prefix_recipe': 'AR', 'internal_stem_trace': '2:ar=AR', 'suffix_stem': 'daiin', 'suffix_recipe': 'AIIN', 'owner_family_stem_trace': 'arar=DROGENFAMILIE', 'known_function_character_count': '9', 'remaining_learned_character_count': '3', 'surface_character_count': '12', 'known_function_fraction': '0.750000', 'ordered_function_recipe_trace': 'AR+AR+AIIN', 'revised_short_default_de': 'AUSGANG · AUSGANG · [DROGENNAME:cho] · WERT', 'gdt464_change': 'UNCHANGED', 'strongest_rival': 'INTERNAL_RENDERER_COINCIDENCE', 'image_object_id': '1006233', 'review_image_sha256': 'e146c6ff04664783f8e9a5d2cadcf7eb653498320ab431a11ba9cd47d8efe30c', 'gdt465_hybrid_status': 'FUNCTION_SHELL_PLUS_LEARNED_CORE', 'gdt465_change': 'UNCHANGED_FROM_GDT464', 'gdt465_decision_evidence': 'NOT_IN_SCOPE', 'gdt466_hybrid_status': 'FUNCTION_SHELL_PLUS_LEARNED_CORE', 'gdt466_change': 'GDT462_AR_PREFIX_PROPAGATION_COMPLETED', 'gdt466_decision_evidence': 'FROZEN_PREFIX_ar_APPLIES_BEFORE_OLD_INTERNAL_ar_AND_SUFFIX_daiin'}"
+    },
+    {
+      "name": "dictionary_corrected_reading",
+      "status": "PASS",
+      "detail": "AUSGANG · AUSGANG · [DROGENNAME:cho] · WERT"
+    },
+    {
+      "name": "dictionary_status_counts",
+      "status": "PASS",
+      "detail": "Counter({'FUNCTION_SHELL_PLUS_LEARNED_CORE': 87, 'FULL_FUNCTION_FORMULA': 18, 'WHOLE_LEARNED_LABEL': 1, 'OWNER_FAMILY_STEM_ONLY': 1})"
+    },
+    {
+      "name": "dictionary_character_totals",
+      "status": "PASS",
+      "detail": "442/713"
+    },
+    {
+      "name": "dictionary_character_reconciliation",
+      "status": "PASS",
+      "detail": "all rows reconcile"
+    },
+    {
+      "name": "dictionary_whole_tail",
+      "status": "PASS",
+      "detail": "oiil only"
+    },
+    {
+      "name": "exact_replay_count",
+      "status": "PASS",
+      "detail": "observed=107"
+    },
+    {
+      "name": "exact_replay_all_pass",
+      "status": "PASS",
+      "detail": "107/107"
+    },
+    {
+      "name": "exact_replay_readings",
+      "status": "PASS",
+      "detail": "all revised readings exact"
+    },
+    {
+      "name": "cold_replay_count",
+      "status": "PASS",
+      "detail": "observed=107"
+    },
+    {
+      "name": "cold_relation_counts",
+      "status": "PASS",
+      "detail": "Counter({'EXACT': 105, 'UNDER': 2})"
+    },
+    {
+      "name": "cold_exact_package_only",
+      "status": "PASS",
+      "detail": "[('ykyd', 'EXACT_PACKAGE_ONLY'), ('yddy', 'EXACT_PACKAGE_ONLY')]"
+    },
+    {
+      "name": "cold_under_counts",
+      "status": "PASS",
+      "detail": "[('ykyd', '1'), ('yddy', '4')]"
+    },
+    {
+      "name": "cold_no_overread",
+      "status": "PASS",
+      "detail": "zero extra characters"
+    },
+    {
+      "name": "cold_totals",
+      "status": "PASS",
+      "detail": "437 recovered / 5 exact-package-only"
+    },
+    {
+      "name": "cold_ar_correction_exact",
+      "status": "PASS",
+      "detail": "propagation closes old overread"
+    },
+    {
+      "name": "core_probe_count",
+      "status": "PASS",
+      "detail": "observed=89"
+    },
+    {
+      "name": "core_probe_source_set",
+      "status": "PASS",
+      "detail": "every learned-core label once"
+    },
+    {
+      "name": "core_probe_surfaces_novel",
+      "status": "PASS",
+      "detail": "all exact identities absent"
+    },
+    {
+      "name": "core_probe_exact_route_blocked",
+      "status": "PASS",
+      "detail": "89/89"
+    },
+    {
+      "name": "core_probe_masks",
+      "status": "PASS",
+      "detail": "89/89"
+    },
+    {
+      "name": "core_probe_pass",
+      "status": "PASS",
+      "detail": "89/89"
+    },
+    {
+      "name": "probe_count",
+      "status": "PASS",
+      "detail": "observed=81"
+    },
+    {
+      "name": "probe_kind_counts",
+      "status": "PASS",
+      "detail": "Counter({'FUNCTION_CHANNEL': 44, 'OWNER_FAMILY_CORRECT_CLASS': 18, 'OWNER_FAMILY_WRONG_CLASS': 18, 'WHOLE_NAME_FALLBACK': 1})"
+    },
+    {
+      "name": "probe_all_pass",
+      "status": "PASS",
+      "detail": "81/81"
+    },
+    {
+      "name": "probe_function_coverage",
+      "status": "PASS",
+      "detail": "all 44 rules"
+    },
+    {
+      "name": "probe_family_coverage",
+      "status": "PASS",
+      "detail": "all 18 positive and negative"
+    },
+    {
+      "name": "probe_fallback",
+      "status": "PASS",
+      "detail": "[{'probe_id': 'G466-P081', 'probe_kind': 'WHOLE_NAME_FALLBACK', 'source_rule_id': 'NONE', 'surface': 'zxqv', 'content_class': 'PICTURED_PLANT', 'expected': 'WHOLE_LEARNED_OWNER_NAME', 'observed_route': 'WHOLE_LEARNED_OWNER_NAME', 'observed_function_ids': 'NONE', 'observed_family_ids': 'NONE', 'probe_pass': 'YES'}]"
+    },
+    {
+      "name": "contract_status",
+      "status": "PASS",
+      "detail": "FROZEN_MIXED_DICTIONARY_INTAKE_READY"
+    },
+    {
+      "name": "contract_precedence",
+      "status": "PASS",
+      "detail": "[{'order': 1, 'route': 'EXACT_KNOWN_LABEL', 'rule': 'Return the frozen GDT465 label reading.'}, {'order': 2, 'route': 'CALIBRATED_FUNCTION_CHANNELS', 'rule': 'Longest prefix, longest nonoverlapping suffix, then longest nonoverlapping strict-internal channels.'}, {'order': 3, 'route': 'STRICT_OWNER_FAMILY', 'rule': 'Expose only markers whose frozen content class matches the supplied owner class.'}, {'order': 4, 'route': 'WHOLE_LEARNED_OWNER_NAME', 'rule': 'Preserve every otherwise unread surface character inside an owner-class name placeholder.'}]"
+    },
+    {
+      "name": "contract_counts",
+      "status": "PASS",
+      "detail": "{'status': 'FROZEN_MIXED_DICTIONARY_INTAKE_READY', 'precedence': [{'order': 1, 'route': 'EXACT_KNOWN_LABEL', 'rule': 'Return the frozen GDT465 label reading.'}, {'order': 2, 'route': 'CALIBRATED_FUNCTION_CHANNELS', 'rule': 'Longest prefix, longest nonoverlapping suffix, then longest nonoverlapping strict-internal channels.'}, {'order': 3, 'route': 'STRICT_OWNER_FAMILY', 'rule': 'Expose only markers whose frozen content class matches the supplied owner class.'}, {'order': 4, 'route': 'WHOLE_LEARNED_OWNER_NAME', 'rule': 'Preserve every otherwise unread surface character inside an owner-class name placeholder.'}], 'known_label_count': 107, 'function_channel_count': 44, 'owner_family_channel_count': 18, 'propagation_correction_count': 1, 'accepted_content_classes': ['STAR_BEARING_RING_POSITION', 'DRUG_OR_INGREDIENT_OBJECT', 'BATH_OR_OUTLET_STATION', 'PICTURED_PLANT', 'UNKNOWN_LOCAL_ADDRESS'], 'forbidden_outputs': ['NEW_COMPONENT_MEANING', 'INDIVIDUAL_OBJECT_IDENTITY', 'SURFACE_PREDICTION', 'CROSS_OWNER_FAMILY_TRANSFER'], 'cli': 'python3 experiments/yolo/gdt466_future_address_mixed_dictionary_intake/src/read_address.py SURFACE CONTENT_CLASS'}"
+    },
+    {
+      "name": "contract_forbidden_outputs",
+      "status": "PASS",
+      "detail": "['NEW_COMPONENT_MEANING', 'INDIVIDUAL_OBJECT_IDENTITY', 'SURFACE_PREDICTION', 'CROSS_OWNER_FAMILY_TRANSFER']"
+    },
+    {
+      "name": "cli_exact_exit",
+      "status": "PASS",
+      "detail": "exit 0"
+    },
+    {
+      "name": "cli_exact_correction",
+      "status": "PASS",
+      "detail": "{'surface': 'ararchodaiin', 'content_class': 'DRUG_OR_INGREDIENT_OBJECT', 'route': 'EXACT_KNOWN_LABEL', 'known_label': 'YES', 'hybrid_status': 'FUNCTION_SHELL_PLUS_LEARNED_CORE', 'selected_function_channels': 'AR+AR+AIIN', 'known_function_character_count': 9, 'learned_character_count': 3, 'family_markers': 'arar=DROGENFAMILIE', 'ordered_recipe_trace': 'AR+AR+AIIN', 'reading_de': 'AUSGANG · AUSGANG · [DROGENNAME:cho] · WERT'}"
+    },
+    {
+      "name": "cli_unknown_shell_exit",
+      "status": "PASS",
+      "detail": "exit 0"
+    },
+    {
+      "name": "cli_unknown_shell",
+      "status": "PASS",
+      "detail": "{'surface': 'otxainy', 'content_class': 'STAR_BEARING_RING_POSITION', 'route': 'CALIBRATED_FUNCTION_SHELL_PLUS_LEARNED_CORE', 'known_label': 'NO', 'hybrid_status': 'FUNCTION_SHELL_PLUS_LEARNED_CORE', 'selected_function_channels': '0:2:ot=OT|3:7:ainy=AIN+Y', 'known_function_character_count': 6, 'learned_character_count': 1, 'family_markers': 'NONE', 'ordered_recipe_trace': 'OT+AIN+Y', 'reading_de': 'DANACH · [STERNSTELLENNAME:x] · ANTEIL · POSTEN'}"
+    },
+    {
+      "name": "cli_fallback_exit",
+      "status": "PASS",
+      "detail": "exit 0"
+    },
+    {
+      "name": "cli_fallback",
+      "status": "PASS",
+      "detail": "{'surface': 'zxqv', 'content_class': 'PICTURED_PLANT', 'route': 'WHOLE_LEARNED_OWNER_NAME', 'known_label': 'NO', 'hybrid_status': 'WHOLE_LEARNED_LABEL', 'selected_function_channels': 'NONE', 'known_function_character_count': 0, 'learned_character_count': 4, 'family_markers': 'NONE', 'ordered_recipe_trace': 'NONE', 'reading_de': '[PFLANZENNAME:zxqv]'}"
+    },
+    {
+      "name": "result_status",
+      "status": "PASS",
+      "detail": "FROZEN_MIXED_DICTIONARY_INTAKE_READY"
+    },
+    {
+      "name": "result_counts",
+      "status": "PASS",
+      "detail": "{'status': 'FROZEN_MIXED_DICTIONARY_INTAKE_READY', 'known_label_count': 107, 'function_channel_count': 44, 'owner_family_channel_count': 18, 'propagation_correction_count': 1, 'propagation_corrected_surface': 'ararchodaiin', 'exact_label_replay_pass_count': 107, 'cold_shell_mask_relations': {'EXACT': 105, 'UNDER': 2}, 'cold_recovered_function_character_count': 437, 'cold_missing_function_character_count': 5, 'cold_extra_function_character_count': 0, 'revised_known_function_character_count': 442, 'surface_character_count': 713, 'unseen_core_insertion_probe_count': 89, 'unseen_core_insertion_pass_count': 89, 'channel_and_fallback_probe_count': 81, 'channel_and_fallback_pass_count': 81, 'new_pages': 0, 'new_component_meanings': 0, 'surface_predictions': 0, 'confirmed_lexemes': 0}"
+    },
+    {
+      "name": "result_exact_and_cold",
+      "status": "PASS",
+      "detail": "{'status': 'FROZEN_MIXED_DICTIONARY_INTAKE_READY', 'known_label_count': 107, 'function_channel_count': 44, 'owner_family_channel_count': 18, 'propagation_correction_count': 1, 'propagation_corrected_surface': 'ararchodaiin', 'exact_label_replay_pass_count': 107, 'cold_shell_mask_relations': {'EXACT': 105, 'UNDER': 2}, 'cold_recovered_function_character_count': 437, 'cold_missing_function_character_count': 5, 'cold_extra_function_character_count': 0, 'revised_known_function_character_count': 442, 'surface_character_count': 713, 'unseen_core_insertion_probe_count': 89, 'unseen_core_insertion_pass_count': 89, 'channel_and_fallback_probe_count': 81, 'channel_and_fallback_pass_count': 81, 'new_pages': 0, 'new_component_meanings': 0, 'surface_predictions': 0, 'confirmed_lexemes': 0}"
+    },
+    {
+      "name": "result_dictionary_totals",
+      "status": "PASS",
+      "detail": "442/713"
+    },
+    {
+      "name": "result_probe_counts",
+      "status": "PASS",
+      "detail": "{'status': 'FROZEN_MIXED_DICTIONARY_INTAKE_READY', 'known_label_count': 107, 'function_channel_count': 44, 'owner_family_channel_count': 18, 'propagation_correction_count': 1, 'propagation_corrected_surface': 'ararchodaiin', 'exact_label_replay_pass_count': 107, 'cold_shell_mask_relations': {'EXACT': 105, 'UNDER': 2}, 'cold_recovered_function_character_count': 437, 'cold_missing_function_character_count': 5, 'cold_extra_function_character_count': 0, 'revised_known_function_character_count': 442, 'surface_character_count': 713, 'unseen_core_insertion_probe_count': 89, 'unseen_core_insertion_pass_count': 89, 'channel_and_fallback_probe_count': 81, 'channel_and_fallback_pass_count': 81, 'new_pages': 0, 'new_component_meanings': 0, 'surface_predictions': 0, 'confirmed_lexemes': 0}"
+    },
+    {
+      "name": "result_claim_ceiling",
+      "status": "PASS",
+      "detail": "no expanded claim"
+    },
+    {
+      "name": "sealed_pages_absent",
+      "status": "PASS",
+      "detail": "no sealed page rows"
+    },
+    {
+      "name": "deterministic_rebuild_exit",
+      "status": "PASS",
+      "detail": "exit 0"
+    },
+    {
+      "name": "deterministic_rebuild_bytes",
+      "status": "PASS",
+      "detail": "all generated artifact hashes unchanged"
+    }
+  ]
+}
