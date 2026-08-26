@@ -118,6 +118,16 @@ cells. These red cells are a finite local-exception queue; they are neither
 silently licensed compositions nor evidence that the whole action grammar
 failed. Long chains retain GDT422 reduction and no dictionary row changes.
 
+GDT424 shows that most of that red queue was created by GDT423's deliberately
+coarse pair-level slot. Replaying the same 59 events through GDT407's older
+individual-head attachments transfers 90/92 focus edges across pages. Nine of
+14 page-private pair events split at an intervening package atom or fixed R
+topology; five adjacent pairs remain local. Eight of nine closes already occur
+with the same terminal action elsewhere. In total 52/59 events and 50/57 cells
+are fully old-rule readable. The residue is a seven-card local appendix on six
+pages: five adjacent pairs, one `S<-EEE` focus edge, and one combined
+`R<-AIR+CLOSE` package. None adds a root or changes a working meaning.
+
 Pass 1032/GDT404 applies the frozen GDT403 intake contract to a one-shot random
 draw of f1r, f24v, f81r and f95v. The 95 guarded lines add 688 events, 88
 statements and 677 focus attachments. Exactly 470 events retain an old surface

@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT423.
+Updated: 2026-08-26, after GDT424.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -41,8 +41,12 @@ or peer packages; no long learned action word remains. GDT423 hides every page
 key once and recovers 2,553/2,662 clean action events from an exact slot on a
 different page; another 50 use old margins in a new combination. Only 59
 events/57 page×slot cells remain red, so the current cross-page reading reaches
-97.78% without retuning. Those 57 cells now form a finite local appendix rather
-than a reason to loosen the dictionary. Concrete substances, objects, body
+97.78% without retuning. GDT424 then restores the older, finer attachment map:
+50 of those 57 cells dissolve because their grade, argument or close belongs
+to an individually licensed head or because a visible package boundary splits
+the apparent pair. The true appendix has only seven local cards on six pages:
+five adjacent action pairs, one local focus edge and one combined local
+focus-plus-close package. None adds a root. Concrete substances, objects, body
 parts and celestial names are still owner-local.
 
 ## Fixed scope

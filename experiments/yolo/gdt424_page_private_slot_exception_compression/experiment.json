@@ -1,0 +1,53 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Exploratory compression of page-private action-slot exceptions only; no confirmed lexeme, plaintext, language, or source identification.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt424_page_private_slot_exception_compression/src/run.py",
+    "validate": "python3 experiments/yolo/gdt424_page_private_slot_exception_compression/src/validate.py"
+  },
+  "created": "2026-08-26",
+  "dependencies": [
+    "GDT407",
+    "GDT423"
+  ],
+  "experiment_id": "GDT424",
+  "inputs": [
+    {"path": "experiments/yolo/gdt423_leave_one_page_action_grammar_replay/artifacts/gdt423_4576_event_leave_page_replay.tsv", "role": "complete held-page replay", "sha256": "2cc944dc298b684127c7f3b64783e0cbdffb90bbf27f4d900429b9aee38f7bb6"},
+    {"path": "experiments/yolo/gdt423_leave_one_page_action_grammar_replay/artifacts/gdt423_57_red_page_slot_cells.tsv", "role": "red cell queue", "sha256": "be014e626ba28df98eb22fc40933b76532a30564798e7729bcba9998e5f1586f"},
+    {"path": "experiments/yolo/gdt407_unified_twenty_six_page_workshop_edition/artifacts/gdt407_5051_attachment_edition.tsv", "role": "pre-existing factorized focus attachments", "sha256": "7aa578194bef07f066f0aeb5e9c560d8592641163772d8c8bdb5e38cf30a64a7"}
+  ],
+  "outputs": [
+    {"path": "experiments/yolo/gdt424_page_private_slot_exception_compression/README.md", "role": "entry point", "sha256": "2aec20af0b2b40389b4a3258ec3c9957bfb31cddc018418733ca1b33a0a3f8df"},
+    {"path": "experiments/yolo/gdt424_page_private_slot_exception_compression/METHOD.md", "role": "reproducible method", "sha256": "a76d19b90f4d9ccd6e5a84a16ec0700bd3afda4ca4875eb9050b2b436cdffec8"},
+    {"path": "experiments/yolo/gdt424_page_private_slot_exception_compression/REPORT.md", "role": "primary report", "sha256": "614a6dda1c65fe54e4c9a57f94dcf886d86696978c803ba2b6a6038c959ca336"},
+    {"path": "experiments/yolo/gdt424_page_private_slot_exception_compression/src/run.py", "role": "deterministic builder", "sha256": "c7c420ba0b682a4040ae6fc9bd769ffdba10b450ab85a110f60526fe0c5af100"},
+    {"path": "experiments/yolo/gdt424_page_private_slot_exception_compression/src/validate.py", "role": "validator", "sha256": "da7f360aa69f12e6e31172725be8b602613df662f55abc2aa40cbd11381dd834"},
+    {"path": "experiments/yolo/gdt424_page_private_slot_exception_compression/artifacts/README.md", "role": "artifact guide", "sha256": "8d67541d5b39bab960655a6da83c04e8dc412a077e42f2e74eb85ed468af1e9d"},
+    {"path": "experiments/yolo/gdt424_page_private_slot_exception_compression/artifacts/MINIMAL_LOCAL_ACTION_APPENDIX.md", "role": "apprentice local appendix", "sha256": "08cb55e87fc50a4e182e2c4be799dc6f16fdf22c2ee45463a1bc7c44d9dffde4"},
+    {"path": "experiments/yolo/gdt424_page_private_slot_exception_compression/artifacts/gdt424_59_red_event_factorization.tsv", "role": "red event factorization", "sha256": "381077918f30e29f3ac00cd832bd9d9e0b5b05cebb11faa1e38032ea20bea87d"},
+    {"path": "experiments/yolo/gdt424_page_private_slot_exception_compression/artifacts/gdt424_92_focus_edge_replay.tsv", "role": "focus-edge replay", "sha256": "dbc4444785908121f0ff4354ea974f979c4e7dc210861aa06797efbc7eee5ffa"},
+    {"path": "experiments/yolo/gdt424_page_private_slot_exception_compression/artifacts/gdt424_14_private_pair_event_adjudications.tsv", "role": "private-pair adjudications", "sha256": "84887ab02fd87ce5743aa4a5e56a54484308aa122a99003e577b6c2c66d94904"},
+    {"path": "experiments/yolo/gdt424_page_private_slot_exception_compression/artifacts/gdt424_9_close_edge_replay.tsv", "role": "close-edge replay", "sha256": "f955de96b1a97238c82bc2f172d77ce9d877748432c7809ab37cfb432ea1c95d"},
+    {"path": "experiments/yolo/gdt424_page_private_slot_exception_compression/artifacts/gdt424_57_red_cell_compression.tsv", "role": "cell compression", "sha256": "c8e733f23a3d267e85bfdc753a8762818453d32694d5ad54c83417f060e47375"},
+    {"path": "experiments/yolo/gdt424_page_private_slot_exception_compression/artifacts/gdt424_7_local_appendix_rules.tsv", "role": "minimal local rule deck", "sha256": "d44d0cca5492a6986d8d1160dd998e58eb0855193133605c54cfcb25f6418cd3"},
+    {"path": "experiments/yolo/gdt424_page_private_slot_exception_compression/artifacts/gdt424_result.json", "role": "compact result", "sha256": "0a0f552b8cb2535732559c6259b8956062f608afec19b1bff6ce07d303568fa9"},
+    {"path": "experiments/yolo/gdt424_page_private_slot_exception_compression/artifacts/gdt424_validation.json", "role": "validation report", "sha256": "db6cd9891540023c1044b201da8704edf75ada03a55c167fafa5e211d1e00b9e"}
+  ],
+  "question": "How many GDT423 red page-slot cells survive after restoring pre-existing individual-head focus attachments and visible package boundaries?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "page_private_slot_exception_compression",
+  "status": "FIFTY_OF_FIFTY_SEVEN_RED_CELLS_RESOLVED__SEVEN_LOCAL_RULES",
+  "title": "page private slot exception compression",
+  "updated": "2026-08-26",
+  "validation": {
+    "artifact": "experiments/yolo/gdt424_page_private_slot_exception_compression/artifacts/gdt424_validation.json",
+    "status": "PASS"
+  }
+}
