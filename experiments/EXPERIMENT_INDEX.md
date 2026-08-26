@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **415**
-- Experiment-associated tracked files: **5,951** (669.3 MiB)
-- Structured GDT337+ experiments: **80**
+- Experiments indexed: **416**
+- Experiment-associated tracked files: **5,966** (670.1 MiB)
+- Structured GDT337+ experiments: **81**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT417 | GDT417_cross_register_semantic_parallel_phrasebook | `CROSS_REGISTER_SEMANTIC_PARALLEL_PHRASEBOOK_COMPLETE` | [report](../experiments/yolo/gdt417_cross_register_semantic_parallel_phrasebook/REPORT.md) | 15 | 797.2 KiB | 2 | STRUCTURED_YOLO |
 | GDT416 | GDT416_owner_local_imperative_sentence_compiler | `OWNER_LOCAL_IMPERATIVE_EDITION_COMPLETE` | [report](../experiments/yolo/gdt416_owner_local_imperative_sentence_compiler/REPORT.md) | 15 | 2.9 MiB | 3 | STRUCTURED_YOLO |
 | GDT415 | GDT415_owner_local_semantic_expansion_atlas | `OWNER_LOCAL_EXPANSION_ATLAS_COMPLETE` | [report](../experiments/yolo/gdt415_owner_local_semantic_expansion_atlas/REPORT.md) | 14 | 2.8 MiB | 3 | STRUCTURED_YOLO |
 | GDT414 | GDT414_next_page_semantic_failure_deck | `NEXT_PAGE_SEMANTIC_FAILURE_DECK_READY` | [report](../experiments/yolo/gdt414_next_page_semantic_failure_deck/REPORT.md) | 15 | 2.4 MiB | 3 | STRUCTURED_YOLO |

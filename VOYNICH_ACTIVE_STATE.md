@@ -57,6 +57,15 @@ same physical page and frozen visible owner and always in an explicit audit.
 Every clause retains its component recipe and exact GDT413 back-projection;
 the fluent German remains a working paraphrase rather than recovered syntax.
 
+GDT417 isolates the strongest actual compositions. Of 1,268 exact component
+recipes, 298 recur across registers and cover 3,317 events; twenty occur in all
+five registers. Seven are both five-register and fully self-contained:
+`CHD+Y`, `OK+EE+Y`, `OK+AIIN`, `SH+E+Y`, `CH+K+E+Y`, `K+EE+Y`, and
+`CH+T+E+Y`. They are the current best future-page predictions. `P` has only
+16.25% and `L` 31.48% of mentions inside shared exact recipes, so these two
+cores are the first semantic weak points to watch rather than pre-emptively
+retune.
+
 Pass 1032/GDT404 applies the frozen GDT403 intake contract to a one-shot random
 draw of f1r, f24v, f81r and f95v. The 95 guarded lines add 688 events, 88
 statements and 677 focus attachments. Exactly 470 events retain an old surface

@@ -1,0 +1,52 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Cross-register working-composition phrasebook only; no confirmed morphology, lexeme, plaintext, language, or source identification.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt417_cross_register_semantic_parallel_phrasebook/src/run.py",
+    "validate": "python3 experiments/yolo/gdt417_cross_register_semantic_parallel_phrasebook/src/validate.py"
+  },
+  "created": "2026-08-26",
+  "dependencies": [
+    "GDT412",
+    "GDT416"
+  ],
+  "experiment_id": "GDT417",
+  "inputs": [
+    {"path": "experiments/yolo/gdt416_owner_local_imperative_sentence_compiler/artifacts/gdt416_4576_imperative_clauses.tsv", "role": "upstream reproducible input", "sha256": "cffae521ba93d96446537584e35fa9a4fe4b6e34330ebf7e955ad725f7c70561"},
+    {"path": "experiments/yolo/gdt416_owner_local_imperative_sentence_compiler/artifacts/gdt416_715_imperative_statements.tsv", "role": "upstream reproducible input", "sha256": "8c42b9955bf86a6d871c2ddcde4951bb6c3f42d7bcc34a029bda8e617c63494f"},
+    {"path": "experiments/yolo/gdt412_chd_process_core_completion/artifacts/gdt412_final_19_core_dictionary.tsv", "role": "upstream reproducible input", "sha256": "ca2d880c3d74668a6bbfcd61a2228b968b12ca791fbe185da3a76dbb35230602"}
+  ],
+  "outputs": [
+    {"path": "experiments/yolo/gdt417_cross_register_semantic_parallel_phrasebook/README.md", "role": "entry point", "sha256": "5b04fb1098db6cec0720a2db10bfc90bb888781bdb4bea621694e35adb0427d5"},
+    {"path": "experiments/yolo/gdt417_cross_register_semantic_parallel_phrasebook/METHOD.md", "role": "reproducible method", "sha256": "b4696e1e38e4596ba8d74b8ad347cdae96fb6bb0b6c53f36c12ffd2eacefeba7"},
+    {"path": "experiments/yolo/gdt417_cross_register_semantic_parallel_phrasebook/REPORT.md", "role": "primary compact report", "sha256": "a3fac2294888598f2947d14432ad045a29cc2f9bb501dfb89bbd0b88ac1dcda8"},
+    {"path": "experiments/yolo/gdt417_cross_register_semantic_parallel_phrasebook/src/run.py", "role": "deterministic builder", "sha256": "23edfd526d1249639ae9e83708e0f1139ca6f677b87147d2d1fa098d3a97ab34"},
+    {"path": "experiments/yolo/gdt417_cross_register_semantic_parallel_phrasebook/src/validate.py", "role": "independent validator", "sha256": "44fb9dad8aabcc300de6cec151dde197cb78e6da3dd2bf3c1dc95b249ffef0bd"},
+    {"path": "experiments/yolo/gdt417_cross_register_semantic_parallel_phrasebook/artifacts/README.md", "role": "artifact guide", "sha256": "2789abc7eeea44c670c577c3bdcd36936a4f5319a15b725dcdcc5cab77747e45"},
+    {"path": "experiments/yolo/gdt417_cross_register_semantic_parallel_phrasebook/artifacts/ALL_FIVE_REGISTER_PARALLEL_PHRASEBOOK.md", "role": "readable parallel phrasebook", "sha256": "bf7537856bb25eb58d996293e10da1cf619feba932f20838c132fa993a3f52ac"},
+    {"path": "experiments/yolo/gdt417_cross_register_semantic_parallel_phrasebook/artifacts/gdt417_298_cross_register_recipes.tsv", "role": "reproducible output artifact", "sha256": "ef14803293398f641c2264e1267333302189d7a5a56fb7ca2dabf563501ff9bf"},
+    {"path": "experiments/yolo/gdt417_cross_register_semantic_parallel_phrasebook/artifacts/gdt417_3317_cross_register_events.tsv", "role": "reproducible output artifact", "sha256": "186796d19e95436c311c022ef257572a05472b1c1638afc63a330fecc68af17e"},
+    {"path": "experiments/yolo/gdt417_cross_register_semantic_parallel_phrasebook/artifacts/gdt417_45_exact_statement_parallels.tsv", "role": "reproducible output artifact", "sha256": "a457b4caa7353ed1deda91007f3ca8b19413dbd14c3721b924ae7469c048371e"},
+    {"path": "experiments/yolo/gdt417_cross_register_semantic_parallel_phrasebook/artifacts/gdt417_168_template_statement_parallels.tsv", "role": "reproducible output artifact", "sha256": "c2016cf3db2e0f2a5b821f4c9c81909740ce1367b2c3c5cc1b7d6cd9f472a71c"},
+    {"path": "experiments/yolo/gdt417_cross_register_semantic_parallel_phrasebook/artifacts/gdt417_19_root_portability.tsv", "role": "reproducible output artifact", "sha256": "6caf1a631408e051453aa0b6256d65ab1f9994f0b43cc1ea213006dbe954e8cd"},
+    {"path": "experiments/yolo/gdt417_cross_register_semantic_parallel_phrasebook/artifacts/gdt417_result.json", "role": "compact result", "sha256": "f7cd6b4d192af8b639226c8b9b44fa025047ae1e998c556f9fec0f6cca9bad04"},
+    {"path": "experiments/yolo/gdt417_cross_register_semantic_parallel_phrasebook/artifacts/gdt417_validation.json", "role": "validation report", "sha256": "a81dcf715bb6ce5e56eac1d79c3390bdabd3866b304adf7cf1a9c7bbf84c664b"}
+  ],
+  "question": "Which exact component recipes recur across registers with one semantic skeleton?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "cross_register_semantic_parallel_phrasebook",
+  "status": "CROSS_REGISTER_SEMANTIC_PARALLEL_PHRASEBOOK_COMPLETE",
+  "title": "Cross-register semantic parallel phrasebook",
+  "updated": "2026-08-26",
+  "validation": {
+    "artifact": "experiments/yolo/gdt417_cross_register_semantic_parallel_phrasebook/artifacts/gdt417_validation.json",
+    "status": "PASS"
+  }
+}
