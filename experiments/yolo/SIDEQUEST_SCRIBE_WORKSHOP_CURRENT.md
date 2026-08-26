@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT414.
+Updated: 2026-08-26, after GDT415.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -12,10 +12,12 @@ ending with the repair `AIR=BAHN` and `CHD=BEARBEITEN`. GDT413 propagates that
 dictionary through all 5,269 groups, 4,576 running events and 715 statements.
 GDT414 converts the nineteen defaults into an error deck over all 8,505 root
 mentions: owner-local expansions may grow, but a second portable meaning or
-structural-role change counts as failure. The current basis retains 5,051
-resolved focus attachments, four local channels and nineteen broad working
-values. Concrete substances, objects, body parts and celestial names are
-still owner-local.
+structural-role change counts as failure. GDT415 now gives all nineteen roots
+one reversible reading in all five registers: 95 register expansions, 906
+attested root×owner pairs, and concrete readings for all 4,576 events and 715
+statements. The current basis retains 5,051 resolved focus attachments, four
+local channels and nineteen broad working values. Concrete substances,
+objects, body parts and celestial names are still owner-local.
 
 ## Fixed scope
 

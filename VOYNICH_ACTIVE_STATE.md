@@ -42,6 +42,14 @@ lexicalization, unseen atom, or scope-crossing rescue is a dictionary failure.
 GDT405 remains the frozen surface/parser lock; exact forms may not be
 resegmented and local owners may not silently retune a core.
 
+GDT415 makes that separation readable rather than merely defensive. It gives
+each root exactly one concrete expansion in each of the five running registers
+(95 total), inventories 906 actually attested root×owner pairs, and rewrites
+all 4,576 events and 715 statements. Thus `AIR=BAHN` becomes locally
+Verarbeitungs-, Stations-, Ring-, Transfer- or Lesebahn, but all five reverse
+to BAHN. The same round-trip holds for every event and statement; no new page
+or portable meaning is introduced.
+
 Pass 1032/GDT404 applies the frozen GDT403 intake contract to a one-shot random
 draw of f1r, f24v, f81r and f95v. The 95 guarded lines add 688 events, 88
 statements and 677 focus attachments. Exactly 470 events retain an old surface
