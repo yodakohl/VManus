@@ -11312,3 +11312,18 @@ recipes, so the collapse is visible factorization rather than semantic
 ambiguity; retain the exact channel trace. Validation passes 54/54. Next join
 all 2,300 recipes to old running/address carriers and separate attested from
 newly readable compositions without opening a page or predicting a spelling.
+
+## GDT468 shell-recipe carrier support atlas
+
+The 2,300 GDT467 recipes now have four explicit support tiers. Seventy-five
+recipes/105 shell templates match exact GDT407 running recipes; fourteen/24
+have only complete-address formula support; fourteen/18 have only hybrid
+address function-trace support; and 2,197/2,613 are composition-only. The 103
+old-carrier recipes cover 757 running events, 154 surface types, 24 pages,
+fourteen full labels and 42 hybrid labels. `OK+Y` ranks first with 59 events on
+eighteen pages. Among 423 repeated-recipe renderer families, 29 are
+running-backed, five full-address-only, four hybrid-only and 385 exploratory.
+Composition-only remains an available reading after a form is supplied, not an
+occurrence or spelling prediction. Validation passes 50/50. Next make the live
+intake command return this provenance tier beside its meaning and exact channel
+trace.

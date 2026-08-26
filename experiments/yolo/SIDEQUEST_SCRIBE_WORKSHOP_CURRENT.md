@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-26, after GDT467.
+Updated: 2026-08-26, after GDT468.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -65,7 +65,7 @@ CONTROL into `T=EINSTELLEN` and `R=MARKIEREN` creates a five-class gate with
 amber; `R>T` and `R<-EE` remain red-local. The internal meanings of the broad
 classes are not collapsed.
 
-GDT459–GDT467 now resolve the formerly opaque local-address tail as the mixed
+GDT459–GDT468 now resolve the formerly opaque local-address tail as the mixed
 codebook architecture anticipated by the sidequest: portable function cards
 surround memorized owner-bound name cores. Of 107 learned address labels,
 eighteen are now complete function formulas, 87 are function-shell/name-core
@@ -89,6 +89,10 @@ reader: all 2,760 bounded pair/triple templates and 8,280 core variants retain
 their intended channels. Four hundred twenty-three groups share a flat recipe
 through different visible card boundaries, so every reading must keep its exact
 channel trace beside the broad meaning.
+GDT468 separates evidence from compositional reach: 103 of 2,300 recipes have
+old running/address carriers, while 2,197 remain exploratory but readable.
+Running-backed recipes span 757 events, 154 surfaces and 24 pages. We keep both
+drawers instead of pretending that every possible shell is equally familiar.
 
 GDT428 now supplies the missing semantic contrast deck. Six within-class
 comparisons contain 104 exact frames where only the action root changes. The
@@ -1086,9 +1090,9 @@ comparison set.
 
 ## Next work
 
-Keep the current 26 pages closed. Join the 2,300 GDT467 flat shell recipes to
-the existing running and address recipe catalogs. Mark which shell meanings
-already have old carrier surfaces/pages, which are known only through an exact
-address card, and which are newly readable combinations of old channels. Rank
-the 423 factorization families by that support without generating a spelling,
-adding a meaning, or using a new page.
+Keep the current 26 pages closed. Integrate GDT468 support into the executable
+address reader. Every supplied surface must return its working reading, exact
+channel trace and one provenance label: running-backed, complete-address-only,
+hybrid-shell-only, composition-only, or outside the bounded shell atlas. Test
+all existing reader branches without generating a spelling, adding a meaning,
+or using a new page.

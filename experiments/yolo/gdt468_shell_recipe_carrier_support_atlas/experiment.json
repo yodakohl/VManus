@@ -1,0 +1,47 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Carrier support tiers for frozen shell recipes; no new page, channel, component meaning, surface prediction, occurrence, name, plaintext, language, or confirmed lexeme.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt468_shell_recipe_carrier_support_atlas/src/run.py",
+    "validate": "python3 experiments/yolo/gdt468_shell_recipe_carrier_support_atlas/src/validate.py"
+  },
+  "created": "2026-08-26",
+  "dependencies": ["GDT407", "GDT466", "GDT467"],
+  "experiment_id": "GDT468",
+  "inputs": [
+    {"path": "experiments/yolo/gdt467_bounded_shell_composition_atlas/artifacts/gdt467_2760_shell_phrasebook.tsv", "role": "2,760 shell factorizations over 2,300 flat recipes", "sha256": "2cff5efbd3a5e04146b579b5c27ecafddaf501f2cb1d766947ca0a540b21f566"},
+    {"path": "experiments/yolo/gdt407_unified_twenty_six_page_workshop_edition/artifacts/gdt407_4576_running_event_edition.tsv", "role": "exact running recipe carriers", "sha256": "b4a8b8c3fe8c5cc3ac2cd33979b71ce4721199bef124e866df2456d2dfbb87f4"},
+    {"path": "experiments/yolo/gdt466_future_address_mixed_dictionary_intake/artifacts/gdt466_107_intake_dictionary.tsv", "role": "complete and hybrid address function traces", "sha256": "f5b4e35065c4545bf85cf90e2a376728ec261af7426756f24747b50d9d5c9b59"}
+  ],
+  "outputs": [
+    {"path": "experiments/yolo/gdt468_shell_recipe_carrier_support_atlas/README.md", "role": "entry point", "sha256": "0cf3fe42ecc121b34bbc30ba1481b2604c404404ac519651f3b051167e9185ed"},
+    {"path": "experiments/yolo/gdt468_shell_recipe_carrier_support_atlas/METHOD.md", "role": "carrier join and tier method", "sha256": "d97b8ae00c7b2a87fca3bb5928ebd7f080149a17c69e3732ae3decf1a0cf3d78"},
+    {"path": "experiments/yolo/gdt468_shell_recipe_carrier_support_atlas/REPORT.md", "role": "primary report", "sha256": "38af30767e35d98adbfa3429df7f2b67432776d9e78b0c90b0b5d70bfa3557a8"},
+    {"path": "experiments/yolo/gdt468_shell_recipe_carrier_support_atlas/src/run.py", "role": "deterministic carrier join builder", "sha256": "ce7b41e0805f1fc3334bb8aaef6d34e3b76879c94115b6d728c0dda977af1cdb"},
+    {"path": "experiments/yolo/gdt468_shell_recipe_carrier_support_atlas/src/validate.py", "role": "validator and deterministic rebuild check", "sha256": "d56f739174ad84216533070d196435a9dd573325dba2ff9d9dcb212ecafbec52"},
+    {"path": "experiments/yolo/gdt468_shell_recipe_carrier_support_atlas/artifacts/README.md", "role": "artifact guide", "sha256": "95f94533bc936b1b9be60874defe13aeb4bfc42a7d816fc04859863cc355493e"},
+    {"path": "experiments/yolo/gdt468_shell_recipe_carrier_support_atlas/artifacts/gdt468_2300_recipe_support_atlas.tsv", "role": "recipe support tiers and ranks", "sha256": "a636d1891d70fc8db85d9a1b5dedbf1ede8c81384f843445e1e79a0dc891f3b1"},
+    {"path": "experiments/yolo/gdt468_shell_recipe_carrier_support_atlas/artifacts/gdt468_old_recipe_carriers.tsv", "role": "old running and address carrier inventory", "sha256": "851b6f42da132e1820abf8cee62e826c9193790e2792c4dbe68f1e094c9fa268"},
+    {"path": "experiments/yolo/gdt468_shell_recipe_carrier_support_atlas/artifacts/gdt468_2760_supported_shell_phrasebook.tsv", "role": "shell phrasebook with recipe support", "sha256": "5baf8c57cb529fb73454e466bf583367fabe493e2e91f9d45eae71ba19fc91a1"},
+    {"path": "experiments/yolo/gdt468_shell_recipe_carrier_support_atlas/artifacts/gdt468_423_factorization_family_support.tsv", "role": "factorization families ranked by shared recipe support", "sha256": "7e484fd0e4d757fdbd71dec852c579507affeaf2bccb20b5a582c0d139648ece"},
+    {"path": "experiments/yolo/gdt468_shell_recipe_carrier_support_atlas/artifacts/gdt468_result.json", "role": "compact result", "sha256": "ed9e76faa78baf2bdf43d9ef549797ed6eed1bb6941824001f09b4700e066462"},
+    {"path": "experiments/yolo/gdt468_shell_recipe_carrier_support_atlas/artifacts/gdt468_validation.json", "role": "50-check validation report", "sha256": "5dfe196dbf43e6868ab9d57c8cbc09c828ddf518ca82e918c2b33e4341005ca9"}
+  ],
+  "question": "Which GDT467 shell recipes already have carriers in the admitted running or address material, and which are currently only readable compositions of old channels?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "shell_recipe_carrier_support_atlas",
+  "status": "SHELL_RECIPES_SEPARATED_INTO_OLD_CARRIER_AND_COMPOSITION_TIERS",
+  "title": "Shell-recipe carrier support atlas",
+  "updated": "2026-08-26",
+  "validation": {
+    "artifact": "experiments/yolo/gdt468_shell_recipe_carrier_support_atlas/artifacts/gdt468_validation.json",
+    "status": "PASS"
+  }
+}
