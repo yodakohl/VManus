@@ -12278,3 +12278,20 @@ The GDT500 phrase, two action slots, roots, evidence status, surfaces and
 occurrence claims remain unchanged. Validation passes 113/113. Next unify all
 eleven weak pair targets into one compact evidence-strength deck; keep all
 pages closed.
+
+## GDT509 eleven-pair evidence-strength deck
+
+GDT509 consolidates the complete pair front without changing a phrase. Its
+eleven cards occupy four mechanism routes: three local argument-compatible
+frame reductions, four cross-register frame reductions, three local context
+bridges and one local repeated-package projection. Seven cards therefore have
+some target-register support and four remain cross-register only.
+
+The five neutral handgrips cover every target, and every card publishes its
+fixed literal component trace, current German working translation, concrete
+witness IDs and residual weakness. Mechanism routes are not treated as a
+single probability score. All eleven targets retain `COMPOSED_WORKING`; there
+are zero target observations, phrase/root changes or surface/occurrence
+predictions. Validation passes 285/285. Next inspect only local multi-card
+analogues for the four cross-register frame cards: celestial `P+CH+E+Y` and
+`S+CHD+Y` in Celestial, Pharma and Source; keep all pages closed.

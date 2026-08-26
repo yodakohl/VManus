@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-27, after GDT508.
+Updated: 2026-08-27, after GDT509.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -1439,8 +1439,14 @@ on inherited `AIIN`, and `G407-E0187→G407-E0188→G407-E0189` repeats the
 outer package yields the already fixed “Entnimm das zuvor Genannte zweimal”
 comparison without transferring the T/relation frames.
 
-All eleven former pair-front targets now have concrete old mechanics. Next
-publish one compact eleven-card evidence-strength deck so local direct,
-cross-register direct, adjacent-context and local-package support cannot be
-confused. The bare targets remain unobserved, all current phrases remain
-fixed, and no new page is opened.
+GDT509 now publishes those eleven cards together. The deck has three local
+frame reductions, four cross-register frame reductions, three local context
+bridges and one local repeated-package projection. Seven cards have some
+target-register support; the remaining four are celestial `P+CH+E+Y` and
+`S+CHD+Y` in Celestial, Pharma and Source. All five handgrips and all eleven
+working translations remain fixed.
+
+Next search only for local same-argument multi-card sequences corresponding to
+those four cross-register frames. Do not reopen the other seven cards, change
+a meaning, or open a new page. Every bare target recipe remains an unobserved
+composition.
