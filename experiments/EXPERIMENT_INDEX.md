@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **456**
-- Experiment-associated tracked files: **6,568** (777.3 MiB)
-- Structured GDT337+ experiments: **121**
+- Experiments indexed: **457**
+- Experiment-associated tracked files: **6,584** (779.1 MiB)
+- Structured GDT337+ experiments: **122**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT458 | GDT458_deep_contiguous_unknown_island_horizon | `NO_UNTOUCHED_FOLLOWER_FAILURE_THROUGH_THIRTY_TWO_CARD_ISLANDS` | [report](../experiments/yolo/gdt458_deep_contiguous_unknown_island_horizon/REPORT.md) | 16 | 1.8 MiB | 4 | STRUCTURED_YOLO |
 | GDT457 | GDT457_contiguous_unknown_island_horizon | `NO_UNTOUCHED_FOLLOWER_FAILURE_THROUGH_SIXTEEN_CARD_ISLANDS` | [report](../experiments/yolo/gdt457_contiguous_unknown_island_horizon/REPORT.md) | 16 | 1.9 MiB | 3 | STRUCTURED_YOLO |
 | GDT456 | GDT456_outcome_blind_fault_schedule_ensemble | `OUTCOME_BLIND_SCHEDULE_ENSEMBLE_PRESERVES_STOPS_AND_OWNER_BANKS` | [report](../experiments/yolo/gdt456_outcome_blind_fault_schedule_ensemble/REPORT.md) | 21 | 9.6 MiB | 3 | STRUCTURED_YOLO |
 | GDT455 | GDT455_stream_fault_contract | `DENSE_VISIBLE_STREAM_FAULT_CONTRACT_PRESERVES_STOPS_AND_OWNER_BANK_ISOLATION` | [report](../experiments/yolo/gdt455_stream_fault_contract/REPORT.md) | 14 | 1.6 MiB | 3 | STRUCTURED_YOLO |

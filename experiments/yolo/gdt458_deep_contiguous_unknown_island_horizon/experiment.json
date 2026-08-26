@@ -1,0 +1,51 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Matched synthetic recovery horizon for contiguous nonempty visible neighbour islands of length one through thirty-two on thirteen eligible statements. No meaning, identity, surface, occurrence, plaintext, language, generation or page claim is licensed.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt458_deep_contiguous_unknown_island_horizon/src/run.py",
+    "validate": "python3 experiments/yolo/gdt458_deep_contiguous_unknown_island_horizon/src/validate.py"
+  },
+  "created": "2026-08-26",
+  "dependencies": ["GDT441", "GDT454", "GDT455", "GDT457"],
+  "experiment_id": "GDT458",
+  "inputs": [
+    {"path": "experiments/yolo/gdt441_factor_gated_unseen_recipe_reader/artifacts/gdt441_4576_factor_reader_replay.tsv", "role": "ordered current stream and authoritative states", "sha256": "ade6ef986a0a10a5999a0876f577b44c1583d4d5594e319da39efdabb7221218"},
+    {"path": "experiments/yolo/gdt454_two_card_neighbor_burst_stress/artifacts/gdt454_selected_neighbor_variants.tsv", "role": "fixed nonempty one-edit neighbour pool", "sha256": "b842bd917e0a98104d090dd0d5d6678193588f02bc5a91213faf76808cf461e9"},
+    {"path": "experiments/yolo/gdt455_stream_fault_contract/src/stream_fault_driver.py", "role": "stateful owner-bank stream driver", "sha256": "a34882cdb06274bcdaf032ceed0a60b86dc6547df1e9449b11b7f2032e844083"},
+    {"path": "experiments/yolo/gdt457_contiguous_unknown_island_horizon/src/run.py", "role": "source-bound neighbour, bank and replay helpers", "sha256": "2604d9d9801fc5d8eab3ddfac167a40e62d571bad3eb0888b0a87031ef121abc"}
+  ],
+  "outputs": [
+    {"path": "experiments/yolo/gdt458_deep_contiguous_unknown_island_horizon/README.md", "role": "entry point", "sha256": "cbddf40f70de88114f14fd753dc4b5cc8ec46063b99a8b1c0a73efe3d4269c3d"},
+    {"path": "experiments/yolo/gdt458_deep_contiguous_unknown_island_horizon/METHOD.md", "role": "matched nested deep-horizon method", "sha256": "ad8cacc55d9744710b249268210501c9eaa8a01221a996d3bbc5080fc6f63613"},
+    {"path": "experiments/yolo/gdt458_deep_contiguous_unknown_island_horizon/REPORT.md", "role": "primary report", "sha256": "c9f09421f85645eecf28ce942fe3922ca1aa20b1789a61db4994621cdbb0d21e"},
+    {"path": "experiments/yolo/gdt458_deep_contiguous_unknown_island_horizon/src/run.py", "role": "deterministic horizon builder", "sha256": "dd584efb7b86f1379efd5e48ef72ed98f2a9a095fb86d594ef4f99e84fc12b74"},
+    {"path": "experiments/yolo/gdt458_deep_contiguous_unknown_island_horizon/src/validate.py", "role": "validator", "sha256": "26577a4bcce5e9ebfda271125ab327da4dd317a199cfcb4f729850daa54791c7"},
+    {"path": "experiments/yolo/gdt458_deep_contiguous_unknown_island_horizon/artifacts/README.md", "role": "artifact guide", "sha256": "2590fa5a162e799bb08858889ddf05f1f36c8356ff1ab3f50c074b52e08a6ba2"},
+    {"path": "experiments/yolo/gdt458_deep_contiguous_unknown_island_horizon/artifacts/gdt458_matched_32_card_anchors.tsv", "role": "13 fixed thirty-two-card windows", "sha256": "b5a06adf420b9f3456ee0b96dd5ffa478d2d4af4b1897765f0672904aceede82"},
+    {"path": "experiments/yolo/gdt458_deep_contiguous_unknown_island_horizon/artifacts/gdt458_nested_fault_schedule.tsv", "role": "6864 nested replacements", "sha256": "e2b52e7b54528407d7071e26a2d91ab67a32db3f98228721714e0ee8ff2c140e"},
+    {"path": "experiments/yolo/gdt458_deep_contiguous_unknown_island_horizon/artifacts/gdt458_island_recovery.tsv", "role": "416 island recovery traces", "sha256": "35ab079f7554b4e905b0d30de029654ec84a0416cfe0bbb61548824cdb30cb52"},
+    {"path": "experiments/yolo/gdt458_deep_contiguous_unknown_island_horizon/artifacts/gdt458_owner_bank_isolation.tsv", "role": "1824 isolated-bank comparisons", "sha256": "f699a54c6e8607be4fa9ea74ac0a6d6f278ecd0621cea2592dbac9a1322320b6"},
+    {"path": "experiments/yolo/gdt458_deep_contiguous_unknown_island_horizon/artifacts/gdt458_stream_digests.tsv", "role": "thirty-two full-replay digests", "sha256": "693c5a59428c88477bae0b8b5138ec064e11ffaeeca3b07718780edce9987466"},
+    {"path": "experiments/yolo/gdt458_deep_contiguous_unknown_island_horizon/artifacts/gdt458_length_summary.tsv", "role": "length one through thirty-two summary", "sha256": "943cb58a6bdbd3644a14ade3e0c825c9f1d8f4dbd56d555bd9a46ae51984fed3"},
+    {"path": "experiments/yolo/gdt458_deep_contiguous_unknown_island_horizon/artifacts/gdt458_unmutated_stop_recovery.tsv", "role": "header-only zero-cascade table", "sha256": "13bce5f3ec1a0c2b77b080551164dfce3fe16f9ced00fd6b92a063c06c7c6d16"},
+    {"path": "experiments/yolo/gdt458_deep_contiguous_unknown_island_horizon/artifacts/gdt458_result.json", "role": "compact result", "sha256": "f23c03151038a9f2225848b763eb4ae8f76dac7f8adab307147d7bfe5ec89746"},
+    {"path": "experiments/yolo/gdt458_deep_contiguous_unknown_island_horizon/artifacts/gdt458_validation.json", "role": "validation report", "sha256": "e62bbefe81a51bbc3d141b6a283381237d1144c7a6215fe5d69d65158e2b70d1"}
+  ],
+  "question": "On the same thirteen statements and start positions, can a contiguous outcome-blind visible neighbour island grow through thirty-two cards without stopping an untouched follower or leaking owner-bank state?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "deep_contiguous_unknown_island_horizon",
+  "status": "NO_UNTOUCHED_FOLLOWER_FAILURE_THROUGH_THIRTY_TWO_CARD_ISLANDS",
+  "title": "deep contiguous unknown island horizon",
+  "updated": "2026-08-26",
+  "validation": {
+    "artifact": "experiments/yolo/gdt458_deep_contiguous_unknown_island_horizon/artifacts/gdt458_validation.json",
+    "status": "PASS"
+  }
+}

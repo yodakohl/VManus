@@ -484,6 +484,17 @@ identity, meaning, surface, occurrence or page change. The safe lower bound is
 therefore sixteen cards, not infinity. Next repeat the matched-prefix test to
 length thirty-two on the thirteen cross-register statements that support it.
 
+GDT458 fixes one 32-card window on each of those thirteen eligible statements,
+still covering all five running registers. Its 32 prefix lengths produce
+146,432 full-stream decisions, 416 islands and 6,864 replacements. All 259
+stops occur on replaced cards and preserve state; 415/415 available immediate
+untouched followers read, zero untouched stop cascades occur and all 416
+islands return to reference state before another fault. All 1,824 isolated
+owner-bank replays are exact. Thirty-two is therefore a tested lower bound only
+for these thirteen windows. Do not extend the horizon again merely by shrinking
+the eligible sample; return to a genuinely new semantic endpoint rather than
+repeat the complete GDT409–GDT417 core audits.
+
 Pass 1032/GDT404 applies the frozen GDT403 intake contract to a one-shot random
 draw of f1r, f24v, f81r and f95v. The 95 guarded lines add 688 events, 88
 statements and 677 focus attachments. Exactly 470 events retain an old surface

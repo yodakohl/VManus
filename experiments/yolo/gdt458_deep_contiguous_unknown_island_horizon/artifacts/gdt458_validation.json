@@ -1,0 +1,147 @@
+{
+  "status": "PASS",
+  "check_count": 28,
+  "failure_count": 0,
+  "checks": [
+    {
+      "name": "source_count",
+      "pass": true,
+      "detail": "observed=4576"
+    },
+    {
+      "name": "anchor_count",
+      "pass": true,
+      "detail": "observed=13"
+    },
+    {
+      "name": "length_count",
+      "pass": true,
+      "detail": "1..32"
+    },
+    {
+      "name": "schedule_count",
+      "pass": true,
+      "detail": "observed=6864"
+    },
+    {
+      "name": "island_count",
+      "pass": true,
+      "detail": "observed=416"
+    },
+    {
+      "name": "bank_count",
+      "pass": true,
+      "detail": "observed=1824"
+    },
+    {
+      "name": "digest_count",
+      "pass": true,
+      "detail": "observed=32"
+    },
+    {
+      "name": "unmutated_stop_table_empty",
+      "pass": true,
+      "detail": "header only"
+    },
+    {
+      "name": "matched_anchor_contract",
+      "pass": true,
+      "detail": "13 fixed 32-card windows"
+    },
+    {
+      "name": "anchor_register_coverage",
+      "pass": true,
+      "detail": "all five running registers"
+    },
+    {
+      "name": "nested_prefix_schedule",
+      "pass": true,
+      "detail": "same 13 anchors; strict prefixes 1..32"
+    },
+    {
+      "name": "schedule_outcome_blind",
+      "pass": true,
+      "detail": "6864/6864"
+    },
+    {
+      "name": "baseline_roundtrip",
+      "pass": true,
+      "detail": "4576/4576"
+    },
+    {
+      "name": "stop_curve",
+      "pass": true,
+      "detail": "[1, 1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 5, 6, 7, 7, 8, 9, 10, 10, 10, 10, 11, 13, 13, 13, 13, 13, 13, 14, 14, 14, 15]"
+    },
+    {
+      "name": "thirty_two_stream_replays",
+      "pass": true,
+      "detail": "146432 event decisions summarized"
+    },
+    {
+      "name": "stream_digests",
+      "pass": true,
+      "detail": "32 canonical SHA-256 replays"
+    },
+    {
+      "name": "all_stop_state_safe",
+      "pass": true,
+      "detail": "259/259"
+    },
+    {
+      "name": "no_untouched_stops",
+      "pass": true,
+      "detail": "all 259 stops inside fault islands"
+    },
+    {
+      "name": "immediate_followers",
+      "pass": true,
+      "detail": "415/415 available immediate untouched followers read"
+    },
+    {
+      "name": "zero_stop_cascade",
+      "pass": true,
+      "detail": "lengths 1..32"
+    },
+    {
+      "name": "island_recovery_total",
+      "pass": true,
+      "detail": "Counter({'STATE_PARITY_BEFORE_NEXT_ISLAND': 416})"
+    },
+    {
+      "name": "owner_bank_isolation",
+      "pass": true,
+      "detail": "1824/1824"
+    },
+    {
+      "name": "owner_bank_event_sum",
+      "pass": true,
+      "detail": "32 times 4576"
+    },
+    {
+      "name": "no_sealed_pages",
+      "pass": true,
+      "detail": "fixed current pages only"
+    },
+    {
+      "name": "result_counts",
+      "pass": true,
+      "detail": "compact result matches all ledgers"
+    },
+    {
+      "name": "claim_ceiling_zeros",
+      "pass": true,
+      "detail": "no forbidden promotions"
+    },
+    {
+      "name": "deterministic_rebuild",
+      "pass": true,
+      "detail": "all eight generated artifacts byte-identical"
+    },
+    {
+      "name": "artifact_size_limit",
+      "pass": true,
+      "detail": "all generated files <=5MB"
+    }
+  ]
+}
