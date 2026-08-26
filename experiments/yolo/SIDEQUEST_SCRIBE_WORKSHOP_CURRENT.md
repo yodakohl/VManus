@@ -1,13 +1,14 @@
 # Current twenty-two-page scribe-workshop theory
 
-Updated: 2026-08-26, after Pass 1027 / GDT399.
+Updated: 2026-08-26, after Pass 1028 / GDT400.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. Pass 1026 audits
 every old one-edit neighbour transfer and resegments 203 surfaces visibly;
-Pass 1027/GDT399 rebuilds the scope layer from those recipes. The current basis
-is 627 statements, 4,374 resolved focus attachments, four local channels and
-19 unchanged working core values.
+Pass 1027/GDT399 rebuilds the scope layer from those recipes; Pass 1028/GDT400
+turns it into a hierarchical future-page error deck. The current basis is 627
+statements, 4,374 resolved focus attachments, four local channels and 19
+unchanged working core values.
 
 ## Fixed scope
 
@@ -372,6 +373,19 @@ registers. All twenty running pages and all four registers replay; the two
 remaining pages stay local-address-only. Pass-1025's 4,342 rows and the older
 attachment IDs are now historical, not a valid current input.
 
+Pass 1028/GDT400 tests every current attachment at five teaching levels:
+exact typed head, typed microform, untyped microform, complete coarse-rule
+combination and separately portable rule components. All 4,374 have support
+outside their own page. Across registers, 4,370 transfer before component
+decomposition. Four Biological cases—two `Y→R` one-card forwards and one
+`EE+Y→R` Q/OT-forward package—combine forward binding with positional R in a
+way not seen as a unit outside Biological; both ingredients nevertheless occur
+in all other registers. They are explicitly amber. All 127 forward cases show
+their action head exactly one card later, and all 126 owner-only cases reduce
+to AL/AR owner fallback, L/AIR owner fallback, current close, or visible-owner
+ellipsis. The next-page sheet now has four green, three amber and seven red
+rules rather than a vague instruction to “see whether it fits.”
+
 ## Constrained semantic pocket dictionary
 
 The twelve content/action cores are:
@@ -503,6 +517,10 @@ comparison set.
 
 ## Primary artifacts
 
+- Current Pass-1028/GDT400 hierarchical replay of all 4,374 attachments, 544
+  signatures, complete 127-forward and 126-owner audits, twenty-two-page
+  rehearsal, fourteen-rule error deck, runner and thirty-check validator:
+  `gdt400_future_page_scope_error_deck/`;
 - Current Pass-1027/GDT399 complete scope rebuild: 4,374 focus attachments,
   627 statement edition, 3,888 event replay, twenty-two page and four register
   holdouts, nine-rule support, all 96 changed statements, runner and 35-check
@@ -621,9 +639,10 @@ comparison set.
 
 ## Next work
 
-Turn the GDT399 rebuild into a compact future-page error deck: replay the rare
-micro-signatures, all 127 one-card forward cases and all owner-only cases, then
-derive the next-four-page admission sheet from the surviving examples. Do not
-admit another page before that compact deck is complete. New rooted surfaces
-and local addresses remain allowed; invisible atoms, unlicensed one-edit
-recipe copying, owner jumps and a tenth coarse scope family do not.
+Manually inspect the four amber Biological forward-to-R cases and their nearest
+outside-register parent examples. Either reduce them to an already taught
+single parent construction or retain them as explicit compound examples. Then
+the current `NEXT_FOUR_PAGE_ERROR_DECK.md` is ready to apply unchanged to the
+next four-page batch. New rooted surfaces and local addresses remain allowed;
+invisible atoms, unlicensed one-edit recipe copying, owner jumps and a tenth
+coarse scope family do not.

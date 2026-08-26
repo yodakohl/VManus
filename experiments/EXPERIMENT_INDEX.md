@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **398**
-- Experiment-associated tracked files: **5,693** (646.6 MiB)
-- Structured GDT337+ experiments: **63**
+- Experiments indexed: **399**
+- Experiment-associated tracked files: **5,709** (648.6 MiB)
+- Structured GDT337+ experiments: **64**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT400 | GDT400_future_page_scope_error_deck | `FUTURE_PAGE_ERROR_DECK_READY` | [report](../experiments/yolo/gdt400_future_page_scope_error_deck/REPORT.md) | 16 | 2.0 MiB | 1 | STRUCTURED_YOLO |
 | GDT399 | GDT399_creative_scope_rebuild_after_visible_resegmentation | `COMPLETE_CREATIVE_SCOPE_REBUILD` | [report](../experiments/yolo/gdt399_creative_scope_rebuild_after_visible_resegmentation/REPORT.md) | 16 | 2.9 MiB | 0 | STRUCTURED_YOLO |
 | GDT398 | GDT398_opaque_joint_tuple_predictive_equivalence_preflight | `APPARENT_EQUIVALENCE_EXPLAINED_BY_EXISTING_STRUCTURE` | [report](../experiments/yolo/gdt398_opaque_joint_tuple_predictive_equivalence_preflight/REPORT.md) | 14 | 791.5 KiB | 10 | STRUCTURED_YOLO |
 | GDT397 | GDT397_bounded_observability_ontology_audit | `ONE_CONDITIONAL_FORMAL_EDGE_CEILING_PASSES` | [report](../experiments/yolo/gdt397_bounded_observability_ontology_audit/GDT397_BOUNDED_OBSERVABILITY_REPORT.md) | 9 | 115.4 KiB | 1 | STRUCTURED_YOLO |

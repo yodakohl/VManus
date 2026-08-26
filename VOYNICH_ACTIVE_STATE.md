@@ -6,7 +6,7 @@ Updated: 2026-08-26. This is the full claim registry. For routine work, read
 
 ## Outcome
 
-### Noncanonical twenty-two-page sidequest (Pass 1027 / GDT399)
+### Noncanonical twenty-two-page sidequest (Pass 1028 / GDT400)
 
 The creative workshop sidequest covers twenty-two admitted physical pages with
 4,581 visible groups: 3,888 running prose/ring-text groups plus 693 local
@@ -320,6 +320,17 @@ on multiple pages and in multiple registers, all twenty running pages replay,
 the two remaining pages stay address-only, and all four register replays pass.
 This is now the current attachment basis; Pass-1025's 4,342 count and all
 Pass-1023/1024 attachment identifiers are historical only.
+
+Pass 1028/GDT400 turns that basis into a future-page error deck. All 4,374
+attachments find outside-page support. Across register holdouts, 4,370 transfer
+as an exact typed head, typed or untyped microform, or full coarse-rule
+combination. Four Biological forward-to-R attachments require the composition
+of two rule components that are separately present in every other register;
+they are retained as amber, not promoted to an independently demonstrated
+cross-register microform. The complete 127 forward cases all reach a visible
+head exactly one card later, and all 126 owner ellipses have a named reason.
+The operational deck contains four green transfers, three amber fallbacks and
+seven red stopping conditions.
 
 - The manuscript is **not translated**. There are zero confirmed English
   lexemes, zero plaintext clauses, and no established language, phonetic

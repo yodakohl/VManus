@@ -1,0 +1,134 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Creative future-page consistency deck only; no confirmed word, morpheme, language, plaintext, translation, or historical code.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt400_future_page_scope_error_deck/src/run.py",
+    "validate": "python3 experiments/yolo/gdt400_future_page_scope_error_deck/src/validate.py"
+  },
+  "created": "2026-08-26",
+  "dependencies": [
+    "GDT399"
+  ],
+  "experiment_id": "GDT400",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt399_creative_scope_rebuild_after_visible_resegmentation/artifacts/gdt399_4374_scope_attachments.tsv",
+      "role": "complete corrected scope inventory",
+      "sha256": "ec4de6ce786ef6bc287dcf469025afaadbddbf0c5d039c0389234077772981a6"
+    },
+    {
+      "path": "experiments/yolo/gdt399_creative_scope_rebuild_after_visible_resegmentation/artifacts/gdt399_3888_event_replay.tsv",
+      "role": "event-level page and register transfer inventory",
+      "sha256": "a821119af3bad90744370aae617e6fb9c6cf41340d862bcd3002baa130293310"
+    },
+    {
+      "path": "experiments/yolo/gdt399_creative_scope_rebuild_after_visible_resegmentation/artifacts/gdt399_627_statement_scope_edition.tsv",
+      "role": "complete statement boundaries",
+      "sha256": "ac912ff711f1693df4f86b10929f931b258a2bbed379be01a6b4eb073e1705e7"
+    },
+    {
+      "path": "experiments/yolo/gdt399_creative_scope_rebuild_after_visible_resegmentation/artifacts/gdt399_22_page_replay.tsv",
+      "role": "complete admitted-page frame",
+      "sha256": "3e0097f382753f1b67e851a49f417d6a82ddec69e88976fac11206b847536a8d"
+    },
+    {
+      "path": "experiments/yolo/gdt399_creative_scope_rebuild_after_visible_resegmentation/artifacts/gdt399_rule_support.tsv",
+      "role": "nine coarse rule components",
+      "sha256": "2ee16f90378dd864412a3f19c6517c388de54ba47780196419f004df4ad3994d"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt400_future_page_scope_error_deck/README.md",
+      "role": "experiment entry point",
+      "sha256": "416c74f969536e8945731a676fd49814327eb24928c1eae92b02478cfdc2accf"
+    },
+    {
+      "path": "experiments/yolo/gdt400_future_page_scope_error_deck/METHOD.md",
+      "role": "hierarchical replay method",
+      "sha256": "f3dcaed196a16173223e930b593136f1c0c520be2aff7045d1c92f027677c713"
+    },
+    {
+      "path": "experiments/yolo/gdt400_future_page_scope_error_deck/REPORT.md",
+      "role": "primary compact report",
+      "sha256": "817da99faeb9313587c8c6ce73f69d3138b6056e6df9dae79fdb51eba5007ab8"
+    },
+    {
+      "path": "experiments/yolo/gdt400_future_page_scope_error_deck/NEXT_FOUR_PAGE_ERROR_DECK.md",
+      "role": "operator-facing admission sheet",
+      "sha256": "21738059951e69eea0307b9ecd0184490c9ef343148937c1ea44d1d9a1b20895"
+    },
+    {
+      "path": "experiments/yolo/gdt400_future_page_scope_error_deck/artifacts/README.md",
+      "role": "artifact guide",
+      "sha256": "260b0ed16d494679e9e84c639646d17d47a29d8cfe400dc704b9ba28e9d91866"
+    },
+    {
+      "path": "experiments/yolo/gdt400_future_page_scope_error_deck/src/run.py",
+      "role": "deterministic hierarchical replay builder",
+      "sha256": "93ee6f806e15fb5c630db9c28d95e4268432c45aae50873b65b40f7fdd0ebee0"
+    },
+    {
+      "path": "experiments/yolo/gdt400_future_page_scope_error_deck/src/validate.py",
+      "role": "independent deck validator",
+      "sha256": "2d415a896e5633f2a4454748c8129dc9cc76b55ad7a6b23b6136b4a25a0771b9"
+    },
+    {
+      "path": "experiments/yolo/gdt400_future_page_scope_error_deck/artifacts/gdt400_4374_hierarchical_replay.tsv",
+      "role": "support level for every focus attachment",
+      "sha256": "214400197d1d278d4c7bc247dd5c3143d13dfc9a9b302cfc1482882ad7e91784"
+    },
+    {
+      "path": "experiments/yolo/gdt400_future_page_scope_error_deck/artifacts/gdt400_signature_support.tsv",
+      "role": "five-level signature inventory",
+      "sha256": "33beb64e835a6afcf9bfe9ab5a7d05591ce3a670dc2a05fbf5a6d94036595c9e"
+    },
+    {
+      "path": "experiments/yolo/gdt400_future_page_scope_error_deck/artifacts/gdt400_127_forward_cases.tsv",
+      "role": "complete one-card forward audit",
+      "sha256": "6296a2ab047062ee28985f6c367812367de1b2f9b96de4bf7c69dbc08faf2525"
+    },
+    {
+      "path": "experiments/yolo/gdt400_future_page_scope_error_deck/artifacts/gdt400_126_owner_cases.tsv",
+      "role": "complete owner-fallback audit",
+      "sha256": "63fb7287f23d215e3eccc06e59c8365d1107df97dc627b28421a133784f4aa0b"
+    },
+    {
+      "path": "experiments/yolo/gdt400_future_page_scope_error_deck/artifacts/gdt400_22_page_admission_rehearsal.tsv",
+      "role": "full admitted-page rehearsal",
+      "sha256": "6f05c466e31197d5f45585e9d967fda622e03236ea6a79381b6a1accf6f27d09"
+    },
+    {
+      "path": "experiments/yolo/gdt400_future_page_scope_error_deck/artifacts/gdt400_error_deck.tsv",
+      "role": "fourteen ordered admission rules",
+      "sha256": "207562b0703bf935866e16f259d28529d6ff712f1d83e5e7976c9a6dc2da4f60"
+    },
+    {
+      "path": "experiments/yolo/gdt400_future_page_scope_error_deck/artifacts/gdt400_result.json",
+      "role": "compact result and hashes",
+      "sha256": "12c526a488788091a60a5c2eee4ee77cdc5e77a2c4be9ee6f73c97b9f9dffe02"
+    },
+    {
+      "path": "experiments/yolo/gdt400_future_page_scope_error_deck/artifacts/gdt400_validation.json",
+      "role": "thirty-check independent validation",
+      "sha256": "f87a2f65b7b44729e990df0fb76cb25aeba3840d19bf687be6a115ff0fb1b170"
+    }
+  ],
+  "question": "Can every current scope attachment be taught from another page and register at an existing hierarchical level, while reducing all forward and owner edge cases to a compact future-page error deck?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "future_page_scope_error_deck",
+  "status": "FUTURE_PAGE_ERROR_DECK_READY",
+  "title": "future page scope error deck",
+  "updated": "2026-08-26",
+  "validation": {
+    "artifact": "experiments/yolo/gdt400_future_page_scope_error_deck/artifacts/gdt400_validation.json",
+    "status": "PASS"
+  }
+}

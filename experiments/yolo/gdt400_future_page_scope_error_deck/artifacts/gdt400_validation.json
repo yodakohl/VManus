@@ -1,0 +1,214 @@
+{
+  "status": "PASS",
+  "check_count": 30,
+  "failed_checks": [],
+  "checks": {
+    "replay_count": {
+      "pass": true,
+      "observed": 4374
+    },
+    "signature_count": {
+      "pass": true,
+      "observed": 544
+    },
+    "forward_count": {
+      "pass": true,
+      "observed": 127
+    },
+    "owner_count": {
+      "pass": true,
+      "observed": 126
+    },
+    "page_count": {
+      "pass": true,
+      "observed": 22
+    },
+    "deck_count": {
+      "pass": true,
+      "observed": 14
+    },
+    "source_attachment_alignment": {
+      "pass": true,
+      "observed": 4374
+    },
+    "unique_replay_ids": {
+      "pass": true,
+      "observed": 4374
+    },
+    "no_page_private_attachment": {
+      "pass": true,
+      "observed": {
+        "EXACT_TYPED_HEAD": 4242,
+        "TYPED_MICRO": 95,
+        "COARSE_RULE": 13,
+        "UNTYPED_MICRO": 24
+      }
+    },
+    "no_register_private_attachment": {
+      "pass": true,
+      "observed": {
+        "EXACT_TYPED_HEAD": 4057,
+        "TYPED_MICRO": 188,
+        "COARSE_RULE": 25,
+        "UNTYPED_MICRO": 100,
+        "COMPOSED_RULE_COMPONENTS": 4
+      }
+    },
+    "four_composed_register_fallbacks": {
+      "pass": true,
+      "observed": [
+        "G399-A01468",
+        "G399-A02820",
+        "G399-A03234",
+        "G399-A03235"
+      ]
+    },
+    "composed_cases_biological": {
+      "pass": true,
+      "observed": {
+        "BIOLOGICAL": 4
+      }
+    },
+    "composed_cases_disclosed_as_support": {
+      "pass": true,
+      "observed": [
+        "ONE_CARD_FORWARD:CELESTIAL|HERBAL|PHARMA | R_POSITIONAL_MARKING:CELESTIAL|HERBAL|PHARMA",
+        "ONE_CARD_FORWARD:CELESTIAL|HERBAL|PHARMA | R_POSITIONAL_MARKING:CELESTIAL|HERBAL|PHARMA",
+        "Q_OT_PACKAGE_FORWARD:CELESTIAL|HERBAL|PHARMA | R_POSITIONAL_MARKING:CELESTIAL|HERBAL|PHARMA",
+        "Q_OT_PACKAGE_FORWARD:CELESTIAL|HERBAL|PHARMA | R_POSITIONAL_MARKING:CELESTIAL|HERBAL|PHARMA"
+      ]
+    },
+    "signature_level_counts": {
+      "pass": true,
+      "observed": {
+        "EXACT_TYPED_HEAD": 372,
+        "TYPED_MICRO": 108,
+        "UNTYPED_MICRO": 40,
+        "COARSE_RULE": 15,
+        "RULE_COMPONENT": 9
+      }
+    },
+    "nine_rule_components_cross_page": {
+      "pass": true,
+      "observed": 9
+    },
+    "nine_rule_components_cross_register": {
+      "pass": true,
+      "observed": 9
+    },
+    "all_forward_heads_visible_next_card": {
+      "pass": true,
+      "observed": {
+        "HEADLESS_OPENING_PACKAGE_TO_NEXT_HEAD": 54,
+        "L_OR_AIR_FRAMES_NEXT_HEAD": 25,
+        "Q_OR_OT_OPENS_NEXT_PACKET": 48
+      }
+    },
+    "owner_identity_complete": {
+      "pass": true,
+      "observed": 126
+    },
+    "owner_reasons_complete": {
+      "pass": true,
+      "observed": {
+        "AL_AR_OWNER_FALLBACK": 35,
+        "NO_VISIBLE_ACTION_HEAD_OWNER_ELLIPSIS": 50,
+        "L_AIR_OWNER_FALLBACK": 11,
+        "CURRENT_PACKAGE_CLOSED": 29,
+        "STATEMENT_FINAL_OWNER_ELLIPSIS": 1
+      }
+    },
+    "all_running_pages_pass": {
+      "pass": true,
+      "observed": {
+        "PASS_HIERARCHICAL_DECK": 20,
+        "ADDRESS_ONLY": 2
+      }
+    },
+    "page_event_partition": {
+      "pass": true,
+      "observed": 3888
+    },
+    "page_focus_partition": {
+      "pass": true,
+      "observed": 4374
+    },
+    "deck_priorities": {
+      "pass": true,
+      "observed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    "deck_color_partition": {
+      "pass": true,
+      "observed": {
+        "GREEN": 4,
+        "AMBER": 3,
+        "RED": 7
+      }
+    },
+    "all_red_failures_present": {
+      "pass": true,
+      "observed": [
+        "ACTION_LIKE_LABEL_OPENS_PROSE_STACK",
+        "INVISIBLE_ATOM_FROM_EDIT_NEIGHBOR",
+        "KNOWN_CORE_REQUIRES_NEW_VALUE",
+        "LOOKAHEAD_OVER_ONE_CARD",
+        "OWNER_OR_STATEMENT_BOUNDARY_CROSSING",
+        "SAME_SURFACE_DIFFERENT_RECIPE",
+        "TENTH_COARSE_SCOPE_FAMILY"
+      ]
+    },
+    "result_private_count_zero": {
+      "pass": true,
+      "observed": 0
+    },
+    "result_counts": {
+      "pass": true,
+      "observed": {
+        "forward_case_count": 127,
+        "owner_case_count": 126,
+        "deck_rule_count": 14
+      }
+    },
+    "sealed_pages_absent": {
+      "pass": true,
+      "observed": []
+    },
+    "result_hashes": {
+      "pass": true,
+      "observed": 6
+    },
+    "deterministic_rebuild": {
+      "pass": true,
+      "observed": {
+        "returncode": 0,
+        "hashes_equal": true
+      }
+    }
+  },
+  "validated_hashes": {
+    "gdt400_4374_hierarchical_replay.tsv": "214400197d1d278d4c7bc247dd5c3143d13dfc9a9b302cfc1482882ad7e91784",
+    "gdt400_signature_support.tsv": "33beb64e835a6afcf9bfe9ab5a7d05591ce3a670dc2a05fbf5a6d94036595c9e",
+    "gdt400_127_forward_cases.tsv": "6296a2ab047062ee28985f6c367812367de1b2f9b96de4bf7c69dbc08faf2525",
+    "gdt400_126_owner_cases.tsv": "63fb7287f23d215e3eccc06e59c8365d1107df97dc627b28421a133784f4aa0b",
+    "gdt400_22_page_admission_rehearsal.tsv": "6f05c466e31197d5f45585e9d967fda622e03236ea6a79381b6a1accf6f27d09",
+    "gdt400_error_deck.tsv": "207562b0703bf935866e16f259d28529d6ff712f1d83e5e7976c9a6dc2da4f60",
+    "gdt400_result.json": "12c526a488788091a60a5c2eee4ee77cdc5e77a2c4be9ee6f73c97b9f9dffe02",
+    "NEXT_FOUR_PAGE_ERROR_DECK.md": "21738059951e69eea0307b9ecd0184490c9ef343148937c1ea44d1d9a1b20895",
+    "REPORT.md": "817da99faeb9313587c8c6ce73f69d3138b6056e6df9dae79fdb51eba5007ab8"
+  }
+}
