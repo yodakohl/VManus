@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **550**
-- Experiment-associated tracked files: **8,128** (816.3 MiB)
-- Structured GDT337+ experiments: **215**
+- Experiments indexed: **551**
+- Experiment-associated tracked files: **8,145** (816.4 MiB)
+- Structured GDT337+ experiments: **216**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT552 | GDT552_interface_boundary_family_bridges | `PASS_FIVE_BOUNDED_INTERFACE_BRIDGES__ZERO_SUPPORT_RESTS` | [report](../experiments/yolo/gdt552_interface_boundary_family_bridges/REPORT.md) | 17 | 93.8 KiB | 6 | STRUCTURED_YOLO |
 | GDT551 | GDT551_context_contract_normalization | `PASS_ALL_12_INSTANCE_MODE_DISJOINTS_NORMALIZED__FOUR_CONTEXT_RESTS_CLOSED__FIVE_INTERFACES_REMAIN` | [report](../experiments/yolo/gdt551_context_contract_normalization/REPORT.md) | 17 | 127.3 KiB | 6 | STRUCTURED_YOLO |
 | GDT550 | GDT550_recurrent_sequence_frame_bridges | `PASS_FIVE_RECURRENT_FRAMES_BRIDGE_ALL_10_SEQUENCE_DEFAULTS__NINE_SUPPORT_RESTS` | [report](../experiments/yolo/gdt550_recurrent_sequence_frame_bridges/REPORT.md) | 17 | 99.5 KiB | 3 | STRUCTURED_YOLO |
 | GDT549 | GDT549_default_queue_visible_peer_bridges | `PASS_ALL_23_DEFAULTS_EXACTLY_VISIBLE__4_CURRENT_PEER_PROMOTIONS__19_SUPPORT_RESTS` | [report](../experiments/yolo/gdt549_default_queue_visible_peer_bridges/REPORT.md) | 17 | 128.9 KiB | 5 | STRUCTURED_YOLO |

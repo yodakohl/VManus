@@ -2069,10 +2069,23 @@ This closes the four active context rests without changing a route or meaning:
 and `shokaiir` are visible-action/open-argument both before and after. Their
 different old and target modes merely record different sentence input states.
 
+## GDT552 boundary and family bridges close the final five
+
+The old within-card direct pairs remain absent, but every observed target now
+has a bounded ordered route. `aiicthy` gains70 old `AIIN|CH` statement-card
+boundaries, including the exact tile path `AIIN | CH+T+Y`. `chap` combines two
+old `A_ADDR+LOCAL_CHAR_I+P` chains with GDT526's old learned `cha=CH+A_ADDR`
+plus licensed `p→P` route. `ofaram` has four visible `...ar|am...` boundaries
+and one `AR+O+AM_ADDR` card. `rotaiin` has one visible `...r|ot...` boundary
+and `R+OL+OT`. `shso` has one `sh|s` boundary and seven old `SH+X+S` chains,
+including all five GDT444 focus witnesses.
+
+The 23-card GDT548 improvement queue is now empty. This does not turn any
+missing old direct pair into a universal law.
+
 ## Next work
 
-Only five direct interfaces remain: `aiicthy:AIIN>CH`, `chap:A_ADDR>P`,
-`ofaram:AR>AM_ADDR`, `rotaiin:R>OT`, and `shso:SH>S`. Search first for the
-same ordered roots with a visible separator, then for shared left/right root
-families and learned whole cards carrying the boundary. Retain every current
-meaning and do not promote a card into a universal adjacency law.
+Compile one zero-rest 145-card edition that retains, for each exact key, its
+visible route, recipe, context slots, full neutral/context meaning and strongest
+bounded provenance. Then read the resulting statements horizontally for
+recurrent templates and concrete semantic contradictions; open no new page.

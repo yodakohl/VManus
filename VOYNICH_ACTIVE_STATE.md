@@ -13296,3 +13296,20 @@ neutral/context readings unchanged. The active support queue is now exactly
 five direct interfaces: `AIIN>CH`, `A_ADDR>P`, `AR>AM_ADDR`, `R>OT` and
 `SH>S`. All29 checks pass. Next seek separated occurrences and bounded family
 bridges for those five pairs; no page, recipe, root value or meaning changed.
+
+## GDT552 closes all five direct-interface support rests
+
+All five old within-card direct pairs remain absent. A bounded census instead
+finds76 exact old same-statement card boundaries supporting four pairs and11
+old one-visible-atom chains supporting four. `aiicthy` has70 `AIIN|CH`
+boundaries, including one exact `AIIN | CH+T+Y` target-tile path. `chap` has two
+`A_ADDR+LOCAL_CHAR_I+P` carriers plus GDT526's rank-one `cha+p` 2/2 suffix
+license. `ofaram` has four visible `...ar|am...` boundaries plus
+`AR+O+AM_ADDR`; `rotaiin` has visible `...r|ot...` plus `R+OL+OT`; `shso` has
+visible `sh|s`, seven `SH+X+S` carriers and all five GDT444 focus witnesses.
+
+All five exact routes and complete meanings remain unchanged, while no direct
+pair becomes a universal rule. Ten current non-target events reinforce two
+mechanisms. All32 checks pass. The GDT548 23-card improvement queue is now
+empty. Next compile one zero-rest145-card working edition and audit its
+statement templates; no page, recipe, root value or meaning changed.

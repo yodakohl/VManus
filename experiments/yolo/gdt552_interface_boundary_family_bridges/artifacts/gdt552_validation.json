@@ -1,0 +1,298 @@
+{
+  "artifact_sha256": {
+    "GDT552_INTERFACE_BRIDGE_BOOK.md": "e15fab780d3913e5a66b38fe0c55acec1d00defbb7c24bb9b8a1c061c0871597",
+    "gdt552_10_current_reinforcement_witnesses.tsv": "ef731844878a8ad1936b968b72fb5a3244c8525ac0775c390c18ccc06ed01bac",
+    "gdt552_11_old_one_gap_witnesses.tsv": "23b2a1219154e98d4c5645dd8304d64fc79fdf49437cf9438cc23f7b4da0a12f",
+    "gdt552_5_interface_pair_census.tsv": "7957971025c943ab6a84e6ca7ce2878a4407f0d529fc0ade34606a4b0327a2a6",
+    "gdt552_5_selected_interface_bridges.tsv": "43abc1466a074415bb7be941bd4a3365f693a9b47712ab83ff1c1f86d638f5ef",
+    "gdt552_76_old_card_boundary_witnesses.tsv": "317702e444e1edb0501c1b59b9d07695f5e93eb5e20cfd6df2e37c85d32d4840",
+    "gdt552_interface_bridge_summary.tsv": "9211e4a7c36f41fcfd120fa313e015b67065da47fba4c99639d2e833287ea1c9",
+    "gdt552_result.json": "bb1f302bbc0f429225d97b03686fb979a075ea0e2d2fd6742fc20ccf8f4eb51c",
+    "gdt552_support_queue_status.tsv": "e2081a4d6c2b57ce95873f5d674896423f7dcc21bc653cdff8b6312988dd5194"
+  },
+  "check_count": 32,
+  "checks": [
+    {
+      "check": "source_row_counts",
+      "detail": [
+        4576,
+        28,
+        546,
+        23,
+        5
+      ],
+      "passed": true
+    },
+    {
+      "check": "five_target_set_exact",
+      "detail": [
+        "aiicthy",
+        "chap",
+        "ofaram",
+        "rotaiin",
+        "shso"
+      ],
+      "passed": true
+    },
+    {
+      "check": "five_pair_labels_exact",
+      "detail": {
+        "aiicthy": "AIIN>CH",
+        "chap": "A_ADDR>P",
+        "ofaram": "AR>AM_ADDR",
+        "rotaiin": "R>OT",
+        "shso": "SH>S"
+      },
+      "passed": true
+    },
+    {
+      "check": "zero_old_direct_target_pair_events",
+      "detail": {
+        "aiicthy": [],
+        "chap": [],
+        "ofaram": [],
+        "rotaiin": [],
+        "shso": []
+      },
+      "passed": true
+    },
+    {
+      "check": "zero_current_non_target_direct_pair_events",
+      "detail": {
+        "aiicthy": [],
+        "chap": [],
+        "ofaram": [],
+        "rotaiin": [],
+        "shso": []
+      },
+      "passed": true
+    },
+    {
+      "check": "old_gap_count_profile",
+      "detail": {
+        "aiicthy": 0,
+        "chap": 2,
+        "ofaram": 1,
+        "rotaiin": 1,
+        "shso": 7
+      },
+      "passed": true
+    },
+    {
+      "check": "eleven_old_gap_rows",
+      "detail": 11,
+      "passed": true
+    },
+    {
+      "check": "old_gap_witness_set_exact",
+      "detail": {},
+      "passed": true
+    },
+    {
+      "check": "five_gdt444_shs_witnesses_exact",
+      "detail": [],
+      "passed": true
+    },
+    {
+      "check": "old_boundary_count_profile",
+      "detail": {
+        "aiicthy": 70,
+        "chap": 0,
+        "ofaram": 4,
+        "rotaiin": 1,
+        "shso": 1
+      },
+      "passed": true
+    },
+    {
+      "check": "seventy_six_old_boundary_rows",
+      "detail": 76,
+      "passed": true
+    },
+    {
+      "check": "old_boundary_witness_set_exact",
+      "detail": {},
+      "passed": true
+    },
+    {
+      "check": "six_visible_seam_boundaries_profile",
+      "detail": {
+        "aiicthy": 0,
+        "chap": 0,
+        "ofaram": 4,
+        "rotaiin": 1,
+        "shso": 1
+      },
+      "passed": true
+    },
+    {
+      "check": "one_exact_aiicthy_tile_boundary",
+      "detail": [
+        [
+          "aiicthy",
+          [
+            "G407-E0344",
+            "G407-E0345",
+            false,
+            true
+          ]
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "check": "current_gap_profile",
+      "detail": {
+        "aiicthy": 0,
+        "chap": 0,
+        "ofaram": 0,
+        "rotaiin": 0,
+        "shso": 2
+      },
+      "passed": true
+    },
+    {
+      "check": "current_boundary_profile",
+      "detail": {
+        "aiicthy": 8,
+        "chap": 0,
+        "ofaram": 0,
+        "rotaiin": 0,
+        "shso": 0
+      },
+      "passed": true
+    },
+    {
+      "check": "ten_current_reinforcement_rows",
+      "detail": 10,
+      "passed": true
+    },
+    {
+      "check": "current_reinforcement_set_exact",
+      "detail": [],
+      "passed": true
+    },
+    {
+      "check": "gdt526_chap_family_license_exact",
+      "detail": [
+        {
+          "atom_insert": "P",
+          "base_recipe": "CH+A_ADDR",
+          "base_surface": "cha",
+          "candidate_is_truth": "YES",
+          "candidate_recipe": "CH+A_ADDR+P",
+          "cha_feature": "1.550000000",
+          "gdt525_rank": "2",
+          "gdt526_rank": "1",
+          "license_bonus": "0.550000000",
+          "signature_support": "2",
+          "suffix": "p",
+          "surface": "chap",
+          "trace": "cha=CH+A_ADDR+p=>P@RIGHT/RIGHT;n=2/2;b=0.550000",
+          "visible_condition_total": "2"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "check": "five_census_rows",
+      "detail": [
+        "aiicthy",
+        "chap",
+        "ofaram",
+        "rotaiin",
+        "shso"
+      ],
+      "passed": true
+    },
+    {
+      "check": "census_counts_and_finite_gates_exact",
+      "detail": [],
+      "passed": true
+    },
+    {
+      "check": "five_selected_bridges",
+      "detail": [
+        "aiicthy",
+        "chap",
+        "ofaram",
+        "rotaiin",
+        "shso"
+      ],
+      "passed": true
+    },
+    {
+      "check": "bridge_routes_meanings_classes_and_guards_exact",
+      "detail": [],
+      "passed": true
+    },
+    {
+      "check": "four_distinct_bridge_classes",
+      "detail": {
+        "EXACT_TARGET_TILES_AT_OLD_CARD_BOUNDARY": 1,
+        "LEARNED_CHA_SUFFIX_PLUS_TWO_ONE_GAP_CARRIERS": 1,
+        "VISIBLE_OLD_CARD_BOUNDARY_PLUS_ONE_GAP_CARRIER": 2,
+        "VISIBLE_OLD_CARD_BOUNDARY_PLUS_RECURRENT_SEPARATED_CHAIN": 1
+      },
+      "passed": true
+    },
+    {
+      "check": "single_queue_status_row",
+      "detail": 1,
+      "passed": true
+    },
+    {
+      "check": "support_queue_empty",
+      "detail": {
+        "guard": "EMPTY_SUPPORT_QUEUE_DOES_NOT_MEAN_DECIPHERMENT",
+        "next_route": "CONSOLIDATE_ZERO_REST_145_CARD_WORKING_EDITION",
+        "promoted_interface_card_count": "5",
+        "residual_support_rest_count": "0",
+        "residual_surfaces": "NONE",
+        "source_support_rest_count": "5"
+      },
+      "passed": true
+    },
+    {
+      "check": "result_metrics_exact",
+      "detail": {},
+      "passed": true
+    },
+    {
+      "check": "summary_matches_result",
+      "detail": 22,
+      "passed": true
+    },
+    {
+      "check": "book_names_all_five_targets",
+      "detail": 3078,
+      "passed": true
+    },
+    {
+      "check": "book_preserves_no_universal_pair_rule",
+      "detail": 3078,
+      "passed": true
+    },
+    {
+      "check": "deterministic_replay_exit",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "deterministic_artifact_hashes",
+      "detail": {},
+      "passed": true
+    }
+  ],
+  "failed_count": 0,
+  "input_sha256": {
+    "gdt407_4576_running_event_edition.tsv": "b4a8b8c3fe8c5cc3ac2cd33979b71ce4721199bef124e866df2456d2dfbb87f4",
+    "gdt444_28_observed_separated_pair_occurrences.tsv": "f1966fa1e70dce43e5aa388c4a6083eb76edb2bda5bf216e7b085d7cdbfdc0e3",
+    "gdt526_cha_route_atlas.tsv": "392ab45ca4756b858746d554bd56a35f812ff38e7e930bbebbbf756f7de02434",
+    "gdt539_546_contextual_prose_events.tsv": "4554b8b4cb1697c8f6f544a75505a8a695b4d2043aeceeb9f5922eb21f73843d",
+    "gdt549_23_exact_visible_default_cards.tsv": "1a21a53fc1f87bd826339b2619f7527370a97c22bbbc243f07e8dcfef29d4a67",
+    "gdt551_5_residual_interface_queue.tsv": "98f72158c2c763925f7a30a117bbaa8def81607764bf139d5070fb51156dcf3c"
+  },
+  "passed_count": 32,
+  "status": "PASS"
+}
