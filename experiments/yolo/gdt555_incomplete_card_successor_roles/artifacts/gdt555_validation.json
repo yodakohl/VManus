@@ -1,0 +1,216 @@
+{
+  "status": "PASS",
+  "check_count": 30,
+  "passed_count": 30,
+  "failed_count": 0,
+  "input_sha256": {
+    "gdt539_546_contextual_prose_events.tsv": "4554b8b4cb1697c8f6f544a75505a8a695b4d2043aeceeb9f5922eb21f73843d",
+    "gdt554_546_event_semantic_templates.tsv": "9779ea9b15c31767737f9b2fe06f0e1049b3d7fdf4d9ad8450ff04b33fe93cdc",
+    "gdt554_78_statement_template_atlas.tsv": "c1f65ed0464dead877f210dff137b4e99a76a41e46350e60d14cf64236dc18b0"
+  },
+  "artifact_sha256": {
+    "gdt555_64_unique_gap_events.tsv": "fba2dedd1035f2a5c050b47477e298cb669dbfe67f3f441436c0342ce94ec534",
+    "gdt555_16_actionless_successor_roles.tsv": "a109be371c79daec09307e545e77f42d3b617f185d5317eff09cb44d60b2e47b",
+    "gdt555_57_argumentless_successor_roles.tsv": "5e1143347898eba7c5dc3c634cd2552da926db694a33cb88650a927a60ce11d4",
+    "gdt555_exact_initializer_links.tsv": "4ee3d1eded4f4624521262c31d74c7a3800b6a8433bf1a3f3c79563bc2a7b3e7",
+    "gdt555_gap_surface_role_profiles.tsv": "1116f380b1c7f9687f58e858ef3e9d48be8942bf0e39583fc63937e8d2c53226",
+    "gdt555_role_summary.tsv": "8e0c804daf9455912bfdd45a49df21e65f5d49f2e8d176f0cf3aa04ba801eccb",
+    "GDT555_GAP_ROLE_BOOK.md": "c58f21c88fc82e64408990552424945ea74b90879c4205f6b2cb8b03e5d4d61b",
+    "gdt555_result.json": "ac370ec4735a197c0db4cc6c3445f469be263ac003b65b78ecf02cec2b8a8e28"
+  },
+  "checks": [
+    {
+      "check": "input_counts",
+      "passed": true,
+      "detail": [
+        546,
+        546,
+        78
+      ]
+    },
+    {
+      "check": "input_event_identity_exact",
+      "passed": true,
+      "detail": 546
+    },
+    {
+      "check": "gap_partition_recomputed",
+      "passed": true,
+      "detail": [
+        16,
+        57,
+        9,
+        64
+      ]
+    },
+    {
+      "check": "output_gap_counts",
+      "passed": true,
+      "detail": [
+        64,
+        16,
+        57
+      ]
+    },
+    {
+      "check": "union_set_exact",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "actionless_set_exact",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "argumentless_set_exact",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "overlap_flags_exact",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "all_recipes_macros_clauses_retained",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "all_gap_roles_populated",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "all_retention_guards_exact",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "all_initializer_links_exact_source_pointers",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "initializer_link_counts",
+      "passed": true,
+      "detail": [
+        22,
+        11,
+        11
+      ]
+    },
+    {
+      "check": "initializer_dimension_counts",
+      "passed": true,
+      "detail": {
+        "ACTION_STATE": 15,
+        "ARGUMENT_STATE": 7
+      }
+    },
+    {
+      "check": "initializer_max_distance_five",
+      "passed": true,
+      "detail": 5
+    },
+    {
+      "check": "all_links_same_statement",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "paired_readings_only_join_existing_clauses",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "initializer_source_partition",
+      "passed": true,
+      "detail": [
+        11,
+        8,
+        3
+      ]
+    },
+    {
+      "check": "initializer_event_counts",
+      "passed": true,
+      "detail": [
+        8,
+        3
+      ]
+    },
+    {
+      "check": "every_initializer_has_immediate_consumer",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "unique_role_distribution_exact",
+      "passed": true,
+      "detail": {
+        "ACTION_INITIALIZER": 8,
+        "CARRIED_ACTION_OBJECTLESS_CONTROL": 4,
+        "NOMINAL_CONTROL_PROLOGUE": 2,
+        "OBJECTLESS_ACTION_BEFORE_EXPLICIT_RESET": 17,
+        "CLOSURE_BOUNDARY": 3,
+        "OBJECTLESS_CLOSURE_OR_STATEMENT_BOUNDARY": 19,
+        "PRE_ACTION_SCOPE_PROLOGUE": 7,
+        "ARGUMENT_INITIALIZER": 3,
+        "CONTINUATION_PROLOGUE": 1
+      }
+    },
+    {
+      "check": "role_summary_partitions",
+      "passed": true,
+      "detail": [
+        64,
+        16,
+        57
+      ]
+    },
+    {
+      "check": "surface_profile_count",
+      "passed": true,
+      "detail": 50
+    },
+    {
+      "check": "only_ol_has_context_role_variation",
+      "passed": true,
+      "detail": [
+        "ol"
+      ]
+    },
+    {
+      "check": "profile_event_counts_sum",
+      "passed": true,
+      "detail": 64
+    },
+    {
+      "check": "result_metrics_exact",
+      "passed": true,
+      "detail": {}
+    },
+    {
+      "check": "book_contains_all_gap_events",
+      "passed": true,
+      "detail": 15041
+    },
+    {
+      "check": "book_states_overlap_and_scope",
+      "passed": true,
+      "detail": 15041
+    },
+    {
+      "check": "deterministic_replay_exit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "deterministic_artifact_hashes",
+      "passed": true,
+      "detail": {}
+    }
+  ]
+}

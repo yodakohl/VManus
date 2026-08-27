@@ -1,6 +1,6 @@
 # Current thirty-page scribe-workshop theory
 
-Updated: 2026-08-27, after GDT554.
+Updated: 2026-08-27, after GDT555.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -2105,8 +2105,19 @@ Across142 repeated exact context families no portable meaning conflicts.
 `qokees` alone has two admitted incoming states. Sixteen events remain
 deliberately actionless,14 at statement start;57 events remain argumentless.
 
+## GDT555 incomplete cards are state setters or visible boundaries
+
+The16 actionless and57 argumentless sets overlap in9 events, leaving64 unique
+gaps. Eleven are exact state starters:8 set an action and3 set an argument.
+Every one is consumed immediately by the next card; another11 later consumers
+carry those states as far as five cards. Examples include `s → aiin`,
+`qotey → kol`, `daly → saiir` and `tshol → folchol`.
+
+The remaining53 cards now have explicit objectless, prologue, carried-control
+or boundary roles. Only `ol` changes role with incoming state, while retaining
+the same `FORTSETZEN` value.
+
 ## Next work
 
-Follow those16 actionless and57 argumentless cards into their immediate
-same-statement successor. Separate argument/action initializers from genuine
-objectless boundary and closure cards; open no new page.
+Test `DY=ABSCHLIESSEN` at every already admitted event and statement boundary.
+Separate local step closure from whole-statement closure; open no new page.

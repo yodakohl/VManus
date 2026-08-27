@@ -13353,3 +13353,21 @@ remain deliberately actionless,14 statement-initial, while57 lack an argument.
 All40 checks pass. Next test these incomplete-looking cards as state
 initializers and boundaries; no page, recipe, root value or German reading
 changed.
+
+## GDT555 gives every incomplete-looking event a successor role
+
+The16 actionless and57 argumentless GDT554 sets overlap in9 events, so the
+complete union contains64 unique events on50 surfaces. Eleven are exact state
+initializers under GDT539's own source IDs:8 action initializers across all4
+pages/both registers and3 argument initializers on f66r. Every source is used
+by its immediate successor. Eleven further consumers retain the state, giving
+22 links total and a maximum distance of5 cards.
+
+The remaining53 events retain one of seven visible roles:19 objectless
+closure/statement boundaries,17 objectless actions before explicit reset,7
+relation/address prologues,4 carried-action control cards,3 actionless closure
+boundaries,2 nominal/control prologues and1 continuation prologue. Only
+`ol=OL` varies across observed gap roles, between an empty-state continuation
+prologue and a filled-action control card. All30 checks pass. No recipe, macro,
+clause or meaning changed. Next test `DY=ABSCHLIESSEN` across all admitted
+event and statement boundaries; no new page.
