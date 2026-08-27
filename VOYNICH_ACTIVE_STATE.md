@@ -13155,8 +13155,25 @@ unused equal-length anchor and no same-length reranking can move a card.
 
 The23 unused candidates are real but belong entirely to20 clean targets:
 17 have two longest anchors and3 have three. None owns a context or interface
-flag. Preserve every GDT543 selection. Next enumerate shorter complete old
-recipe stems only for the16 flagged cards. An alternative must have nonworse
-exact visible direction and a concrete context or interface gain; otherwise
-the longer stem remains the working default. No new page, fuzzy match, recipe
-or root change.
+flag. Preserve every GDT543 selection.
+
+## GDT545 shorter secondary fragment bridges
+
+Only7/16 flagged cards contain any shorter exact old multi-atom recipe,
+yielding12 candidates. Six candidates on4 targets keep visible rank, context
+rank and interface fraction nonworse while repairing a flag. Add four
+secondary bridges without replacing a primary anchor:
+
+- `chckhedy`: `CH+K` repairs context and adds exact but direction-mismatched
+  visible `chckh` containment;
+- `chepakeo`: direction-aligned `E+O~eo` routes around the new `P>A_ADDR`
+  primary interface;
+- `chepos`: direction-aligned `CH+E~che` repeats the exact target mode;
+- `tosheo`: direction-aligned `SH+E~she` repeats the exact target mode.
+
+All four secondary routes have the exact target context-mode set and only old
+interfaces. Twelve flagged defaults remain:9 have no shorter multi-atom anchor
+and3 only lose another support dimension. Next compile primary anchor,
+secondary bridge, visible channel, context and German reading into one81-card
+reader; then process the24 atom/factor forms. No page, recipe, primary anchor,
+meaning or root changes.

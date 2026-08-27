@@ -1953,11 +1953,32 @@ All23 alternatives belong to20 already clean cards:17 have two longest
 choices and3 have three. We therefore keep all81 selected stems unchanged
 instead of manufacturing a reranking result.
 
+## GDT545 shorter secondary stems
+
+Only seven of the16 flagged cards contain any shorter old multi-atom recipe.
+Their twelve candidates produce four useful secondary routes:
+
+```text
+chckhedy  primary K+E+DY      secondary CH+K    repairs context
+chepakeo  primary CH+E+P      secondary E+O     repairs interface route
+chepos    primary CH+E+P      secondary CH+E    repairs context
+tosheo    primary O+SH+E+O    secondary SH+E    repairs context
+```
+
+All four secondary stems have the exact target context set and only old
+interfaces. `eo`, `che`, and `she` are exact direction-aligned visible
+carriers. `chckh` is exact containment but direction-mismatched, so that bridge
+stays visibly weaker. The longer GDT543 anchors remain primary and all German
+readings remain unchanged.
+
+Twelve flagged cards keep their current defaults: nine have no shorter old
+multi-atom stem and three have only candidates that lose another support
+dimension.
+
 ## Next work
 
-For the16 flagged cards only, enumerate shorter complete old-recipe stems.
-Keep exact surface containment and direction explicit. A shorter stem may
-become the preferred repair only if it does not weaken visible support and it
-adds the missing context mode or removes a new atom interface. Otherwise the
-longest GDT543 stem stays preferred. After that, consolidate the81-card reader
-before opening the24 atom/factor-only tier.
+Compile one executable81-card reader that reports the primary stem, optional
+secondary bridge, visible suffix/prefix channel, context requirement and
+German working reading together. Once that deck is internally complete, apply
+the visible-channel vocabulary to the final24 atom/factor-only forms rather
+than inventing long whole-word meanings.
