@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **524**
-- Experiment-associated tracked files: **7,680** (810.4 MiB)
-- Structured GDT337+ experiments: **189**
+- Experiments indexed: **525**
+- Experiment-associated tracked files: **7,698** (810.7 MiB)
+- Structured GDT337+ experiments: **190**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT526 | GDT526_cha_intermediate_stem_extension | `PASS_CHA_STEM_UNSEEN_RIGHT_EXTENSION_LICENSE` | [report](../experiments/yolo/gdt526_cha_intermediate_stem_extension/REPORT.md) | 18 | 319.2 KiB | 10 | STRUCTURED_YOLO |
 | GDT525 | GDT525_two_hop_intermediate_stem_analogy | `PASS_K_BASE_Y_THEN_E_STEM_CLOSURE` | [report](../experiments/yolo/gdt525_two_hop_intermediate_stem_analogy/REPORT.md) | 19 | 436.0 KiB | 9 | STRUCTURED_YOLO |
 | GDT524 | GDT524_multi_base_analogy_consensus | `PASS_TWO_INDEPENDENT_BASE_ANALOGY_CONSENSUS` | [report](../experiments/yolo/gdt524_multi_base_analogy_consensus/REPORT.md) | 18 | 451.0 KiB | 8 | STRUCTURED_YOLO |
 | GDT523 | GDT523_path_local_null_renderer_license | `PASS_PATH_LOCAL_DOMINANT_NULL_LICENSE` | [report](../experiments/yolo/gdt523_path_local_null_renderer_license/REPORT.md) | 20 | 431.9 KiB | 8 | STRUCTURED_YOLO |
