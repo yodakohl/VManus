@@ -1,6 +1,6 @@
 # Current thirty-page scribe-workshop theory
 
-Updated: 2026-08-27, after GDT555.
+Updated: 2026-08-27, after GDT556.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -2117,7 +2117,19 @@ The remaining53 cards now have explicit objectless, prologue, carried-control
 or boundary roles. Only `ol` changes role with incoming state, while retaining
 the same `FORTSETZEN` value.
 
+## GDT556 DY closes the current step
+
+Across all30 admitted pages, `DY` appears705 times. 702 occurrences end their
+statement; only3 close an internal step, and all66 current-page occurrences
+end their statements. By contrast only2.06% of non-DY cards are final. Within
+the card recipe,700/705 `DY` are terminal. The five post-closure tails are
+`D_LABEL` twice, `L` twice and `OL` once.
+
+The compact reader rule is now: `DY` closes the current step; if the card is
+statement-final, it also closes the statement. The internal `OK+EE+DY+OL`
+literally supports “close, then continue.” No root value changed.
+
 ## Next work
 
-Test `DY=ABSCHLIESSEN` at every already admitted event and statement boundary.
-Separate local step closure from whole-statement closure; open no new page.
+Test `OL=FORTSETZEN` and `OT=DANACH` as the complementary continuation and
+ordering positions around this closure system; open no new page.

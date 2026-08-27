@@ -1,0 +1,273 @@
+{
+  "status": "PASS",
+  "check_count": 29,
+  "passed_count": 29,
+  "failed_count": 0,
+  "input_sha256": {
+    "gdt407_4576_running_event_edition.tsv": "b4a8b8c3fe8c5cc3ac2cd33979b71ce4721199bef124e866df2456d2dfbb87f4",
+    "gdt407_715_statement_edition.tsv": "4f530dc3c4adafc278d720e53b367ba76cd8b96762cada9cccc9544eaf032a73",
+    "gdt539_546_contextual_prose_events.tsv": "4554b8b4cb1697c8f6f544a75505a8a695b4d2043aeceeb9f5922eb21f73843d",
+    "gdt539_78_contextual_statements.tsv": "3ffe285c3a0ae00903fba06cba3cacecbb998585a67d9c7b88708a4a7e6325c7"
+  },
+  "artifact_sha256": {
+    "gdt556_all_dy_occurrences.tsv": "c205d3e1e883dc1a26bf65c6c2f0c85fc4d63bae71713e58ef4efd24c9b70457",
+    "gdt556_dy_statement_profiles.tsv": "204ccc04051521125c477ffe9c8d38b3afc1979418e2a9267c2757706783fdef",
+    "gdt556_marker_finality_comparison.tsv": "f75969bbea7c7c5c5c65e460e5ac489e6f42008376c0f82c2854562c27800b23",
+    "gdt556_dy_recipe_scope_profiles.tsv": "6b29ce542f32c23dbd61899ff8e7115b776de758bb74599fd7594d0996ace12e",
+    "gdt556_nonterminal_dy_tail_profiles.tsv": "7b17a9f79061cc9dd2a5abe80cb757c84b6a406f0d9dbad921bc4e853cf40ccb",
+    "gdt556_cohort_closure_summary.tsv": "555d6f5eecfdaf0e765c6daf7362eb93fd7302e885054bf229ce3dc7545b2a42",
+    "GDT556_DY_CLOSURE_BOOK.md": "732b8b8018fa7ab089f6e41d517899650479b7944a4fb440bb67e0daae343497",
+    "gdt556_result.json": "3a291196fe494b91c1bcc0875b2bc0c8702f9afcd4648f91e6f29b31898c9c78"
+  },
+  "checks": [
+    {
+      "check": "guarded_input_counts",
+      "passed": true,
+      "detail": [
+        4576,
+        715,
+        546,
+        78
+      ]
+    },
+    {
+      "check": "old_event_guard_exact",
+      "passed": true,
+      "detail": {
+        "selected": 4576,
+        "skipped_forbidden": 0,
+        "skipped_not_allowed": 0
+      }
+    },
+    {
+      "check": "old_statement_guard_exact",
+      "passed": true,
+      "detail": {
+        "selected": 715,
+        "skipped_forbidden": 0,
+        "skipped_not_allowed": 0
+      }
+    },
+    {
+      "check": "no_forbidden_selector_materialized",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "page_sets_disjoint",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "running_page_counts",
+      "passed": true,
+      "detail": [
+        24,
+        4
+      ]
+    },
+    {
+      "check": "artifact_row_counts",
+      "passed": true,
+      "detail": [
+        705,
+        703,
+        24,
+        151,
+        3,
+        3
+      ]
+    },
+    {
+      "check": "every_dy_row_contains_one_dy",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "dy_atom_positions_exact",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "closure_scope_counts",
+      "passed": true,
+      "detail": {
+        "STATEMENT_FINAL_STEP_CLOSURE": 487,
+        "INTERNAL_LOCAL_STEP_CLOSURE": 3,
+        "SINGLETON_STATEMENT_CLOSURE": 215
+      }
+    },
+    {
+      "check": "all_current_dy_statement_final",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "three_exact_internal_events",
+      "passed": true,
+      "detail": [
+        "G407-E0133",
+        "G407-E0695",
+        "G407-E1682"
+      ]
+    },
+    {
+      "check": "internal_events_have_successors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "recipe_terminal_counts",
+      "passed": true,
+      "detail": [
+        700,
+        5
+      ]
+    },
+    {
+      "check": "five_exact_nonterminal_events",
+      "passed": true,
+      "detail": [
+        "G407-E0133",
+        "G407-E0695",
+        "G407-E1682",
+        "G407-E2009",
+        "G407-E2236"
+      ]
+    },
+    {
+      "check": "post_dy_tail_counts",
+      "passed": true,
+      "detail": {
+        "D_LABEL": 2,
+        "L": 2,
+        "OL": 1
+      }
+    },
+    {
+      "check": "combined_marker_inventory",
+      "passed": true,
+      "detail": [
+        "DA",
+        "DY",
+        "E",
+        "EE",
+        "EEE",
+        "O",
+        "OL",
+        "OT"
+      ]
+    },
+    {
+      "check": "dy_marker_metrics",
+      "passed": true,
+      "detail": {
+        "comparison_ordinal": "17",
+        "cohort": "COMBINED30",
+        "marker": "DY",
+        "event_count": "705",
+        "statement_count": "703",
+        "statement_final_event_count": "702",
+        "statement_final_percent": "99.574468",
+        "statement_internal_event_count": "3",
+        "singleton_statement_event_count": "215",
+        "recipe_terminal_event_count": "700",
+        "recipe_terminal_percent": "99.290780",
+        "physical_page_count": "28"
+      }
+    },
+    {
+      "check": "dy_highest_finality_marker",
+      "passed": true,
+      "detail": {
+        "DY": "99.574468",
+        "OL": "11.914324",
+        "OT": "22.524752",
+        "E": "31.283906",
+        "EE": "30.855019",
+        "EEE": "23.333333",
+        "O": "9.987358",
+        "DA": "9.523810"
+      }
+    },
+    {
+      "check": "non_dy_final_rate",
+      "passed": true,
+      "detail": "2.060222"
+    },
+    {
+      "check": "cohort_totals",
+      "passed": true,
+      "detail": [
+        [
+          "OLD26_GDT407",
+          "4576",
+          "639"
+        ],
+        [
+          "CURRENT4_GDT539",
+          "546",
+          "66"
+        ],
+        [
+          "COMBINED30",
+          "5122",
+          "705"
+        ]
+      ]
+    },
+    {
+      "check": "three_unique_internal_recipes",
+      "passed": true,
+      "detail": [
+        [
+          "D_ADDR+O+DY+D_LABEL",
+          "1"
+        ],
+        [
+          "OK+EE+DY+OL",
+          "1"
+        ],
+        [
+          "Y+DY+D_LABEL",
+          "1"
+        ]
+      ]
+    },
+    {
+      "check": "no_recipe_switches_local_and_statement_scope",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "statement_profile_counts",
+      "passed": true,
+      "detail": 703
+    },
+    {
+      "check": "result_metrics_exact",
+      "passed": true,
+      "detail": {}
+    },
+    {
+      "check": "book_contains_internal_events",
+      "passed": true,
+      "detail": 1535
+    },
+    {
+      "check": "book_states_scope_limit",
+      "passed": true,
+      "detail": 1535
+    },
+    {
+      "check": "deterministic_replay_exit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "deterministic_artifact_hashes",
+      "passed": true,
+      "detail": {}
+    }
+  ]
+}

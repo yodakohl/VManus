@@ -13371,3 +13371,22 @@ boundaries,2 nominal/control prologues and1 continuation prologue. Only
 prologue and a filled-action control card. All30 checks pass. No recipe, macro,
 clause or meaning changed. Next test `DY=ABSCHLIESSEN` across all admitted
 event and statement boundaries; no new page.
+
+## GDT556 fixes the scope of DY=ABSCHLIESSEN
+
+A guarded census joins the4,576 old and546 current running events into5,122
+events/793 statements across30 admitted physical pages. `DY` occurs705 times
+in703 statements:215 singleton statements,487 final cards of longer statements
+and only3 internal cards. Thus702/705 (99.574468%) end a statement, compared
+with2.060222% of4,417 non-DY events. The old cohort gives636/639 final and the
+current pages66/66 final.
+
+Within recipes,700/705 `DY` are terminal. The five tails are2×`D_LABEL`,2×`L`
+and1×`OL`. The two label tails and `DY+OL` are exactly the3 internal cases;
+each is a unique recipe and none of151 exact DY recipes switches between local
+and statement closure. The working scope is therefore: close the current step;
+at statement end also close the statement, while an internal extended recipe
+may close a local step before continuation. All29 checks pass through explicit
+26-page selector guards. Next test complementary `OL=FORTSETZEN` and
+`OT=DANACH` positions; no page, recipe, root meaning, clause or boundary
+changed.
