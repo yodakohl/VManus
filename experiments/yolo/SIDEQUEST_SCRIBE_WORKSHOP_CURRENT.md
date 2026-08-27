@@ -1,6 +1,6 @@
 # Current thirty-page scribe-workshop theory
 
-Updated: 2026-08-27, after GDT518.
+Updated: 2026-08-27, after GDT519.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -126,6 +126,20 @@ favours the mixed whole-card plus compositional-short-code theory: visible
 internal form supplies almost all of the gain, while context adds only one
 case. The next no-new-page route is a monotone visible-stem anchor transducer
 for `dy`, `ol/O+L`, swallowed `a/d/q`, `CH/SH/CHD` and local-character cases.
+
+GDT519 supplies that transducer and clarifies the mixed-codebook architecture.
+The full old deck yields 45 canonical one-atom spelling anchors and 287 learned
+two-/three-atom renderer sequences: 332 sequences with 473 surface options.
+Thus `CH~ch` and `A_ADDR~a` coexist with short whole renderers such as
+`chek~CH+K`; a visible `e` is not forced to be a grade whenever an old renderer
+licenses the whole span. Four rotating old-form rehearsals improve the 1,441
+generated targets from 1,054 to 1,082 rank-one and 1,395 to 1,418 top-five,
+while rank sum falls 2,374→2,152. On the current 159 forms GDT519 reaches 138
+rank-one, 153 top-two, 157 top-three, 158 top-five, rank sum 192 and deepest
+rank 8. Eight GDT518 errors are corrected and four hits are lost. The next
+closed-page route is positional renderer licensing for the 21 residuals,
+especially `dy`, `ol/O+L`, local signs and the four over-splits
+`chekeey|dsholdaiir|okedals|saiis`.
 
 GDT459–GDT484 now resolve the formerly opaque local-address tail as the mixed
 codebook architecture anticipated by the sidequest: portable function cards

@@ -12558,9 +12558,39 @@ five old hits, changes four errors without yet solving them and leaves sixteen
 old errors unchanged. Fourteen non-prose surfaces receive zero context cost.
 Validation passes 40/40.
 
-The live lookup order is now exact event > unique known surface/domain option >
-GDT518-reranked finite compiler candidate. The result is an exploratory
-structural default, not a word meaning. The next closed-page route is a
-monotone visible stem-anchor/alignment model for the concentrated `dy`,
-`ol/O+L`, swallowed `a/d/q`, `CH/SH/CHD` and local-character residuals. Rehearse
-that model on old compositional forms before adopting it; open no new page.
+The GDT518 lookup order is exact event > unique known surface/domain option >
+reranked finite compiler candidate. The result is an exploratory structural
+default, not a word meaning.
+
+## GDT519 visible stem-anchor transducer
+
+GDT519 adds a monotone surface-to-atom alignment without opening a page. The
+full old model contains 45 canonical spelling anchors (`CH~ch`, `OL~ol`,
+`A_ADDR~a`, `D_ADDR~d`, etc.) and 287 learned two-/three-atom renderer
+sequences. Together these make 332 atom sequences and 473 surface options.
+Short whole renderers such as `chek~CH+K` coexist with productive individual
+stems; a visible character is therefore not forced to become a separate atom
+when an old compact renderer licenses the span.
+
+One-atom aliases require support >=10 and share >=0.70; two-/three-atom
+renderers require support >=10 and share >=0.60. Each sequence keeps at most
+five aliases. Monotone dynamic programming assigns the complete surface to
+renderer spans. Extra visible characters cost 1, claimed but missing anchor
+characters cost 2, substitutions cost 1, and the selected anchor weight is
+1.0 on top of GDT518.
+
+A four-fold rotating rehearsal removes each old surface group from compiler
+and form-decoder training. The compiler generates 1,441/1,558 targets. Over
+those finite spaces, the form decoder gives 1,054 top-one, 1,395 top-five,
+rank sum 2,374 and deepest rank 35; GDT519 gives 1,082 top-one, 1,418 top-five,
+rank sum 2,152 and deepest rank 23. On the current 159 forms, GDT518's
+134/147/155/158 top-one/two/three/five, rank sum 212 and deepest rank 14 become
+138/153/157/158, rank sum 192 and deepest rank 8. Eight GDT518 errors are
+corrected, four hits are lost and one wrong top choice changes. Validation
+passes 54/54.
+
+The live lookup order is exact event > unique known surface/domain option >
+GDT519 stem-aligned finite candidate. Anchors are visible structural handles,
+not translations. The next closed-page route is positional renderer licensing
+for the 21 residuals, especially `dy`, `ol/O+L`, local characters and the four
+over-splits `chekeey`, `dsholdaiir`, `okedals`, `saiis`.
