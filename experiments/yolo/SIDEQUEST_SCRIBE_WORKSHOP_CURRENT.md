@@ -1,6 +1,6 @@
 # Current thirty-page scribe-workshop theory
 
-Updated: 2026-08-27, after GDT560.
+Updated: 2026-08-27, after GDT561.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -2229,8 +2229,37 @@ without DY close. Only16 relations share a control block with an explicit
 argument. Two visible `DY+L` tails read in written order as
 `ABSCHLIESSEN · VERBINDUNG`.
 
+## GDT561 every state card now has a complete typed reading
+
+The action, grade, relation, argument and control layers now coexist in one
+reader. Across all1,656 cards it maps4,684/4,684 atom positions,36 short
+values,402 exact recipes and213 ordered role patterns. Every recipe has a
+complete default and none needs a learned whole-card meaning.
+
+```text
+typed trace   OT{STATE=DANACH} > AL{RELATION=ZIELORT} > Y{ARGUMENT=POSTEN}
+short default danach; zum Zielort; den Posten
+context line  Danach ... halte den Positionsposten; zur Zielposition.
+```
+
+The three lines deliberately stay separate. The atom trace is the compact
+codebook hypothesis; the short default makes every component visible; the
+context line supplies owner nouns and inherited operations. A longer German
+sentence must never be pushed back into one stem meaning.
+
+All939 specialized assignments join at the same written position:333 grade,
+390 argument and216 relation links on787 cards. Written order also remains a
+meaning-bearing channel. Eighteen equal-atom families contain37 different
+recipes/102 events, such as `OL+Y` “continue; item” versus `Y+OL` “item;
+continue.” Sorting roots would erase an observed distinction.
+
+The coverage problem is now closed. The remaining difficulty is fluency:706
+cards have no visible action,274 have no action/grade/argument/relation and222
+contain state controls alone.
+
 ## Next work
 
-Combine the now-fixed action, grade, relation, argument and control layers into
-one typed short reading for every one of the1,656 state cards. Keep the same30
+Classify the actionless/contentless cards as initializer, continuation, close,
+reference or transition, then give all213 ordered role patterns fluent
+microphrases while preserving every one of the36 short values. Keep the same30
 pages and open no new page.

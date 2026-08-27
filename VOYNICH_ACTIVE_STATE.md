@@ -13488,3 +13488,28 @@ explicit binary noun relation. The two final tails `OT+E+DY+L` and
 All216 assignments and both projection books have defaults; all37 checks pass.
 Next synthesize action, grade, relation, argument and control over all1,656
 state cards, using no new page and changing no root.
+
+## GDT561 gives every state card a complete ordered default
+
+GDT561 compiles all1,656 cards containing `OT`, `OL` or `DY` into one typed
+reader. All4,684 atom positions are covered by36 existing working values in
+seven roles; all402 exact recipes and213 ordered role patterns receive a
+default. No whole-card value is learned. The old/current context join is exact
+for1,494 GDT416 and162 GDT539 cards.
+
+The reader retains three separate channels: an exact
+`ATOM{ROLLE=WERT}` trace, a short left-to-right German fragment and the existing
+owner-bound contextual clause. All333 grade,390 argument and216 relation
+assignments join at the same atom positions:939 specialized links on787
+cards. Their values and envelopes refine the card but never overwrite or sort
+its atom trace.
+
+Order remains substantive. The402 recipes collapse to383 atom multisets, but
+18 multisets carry37 different written recipes/102 events, including `OL+Y`
+versus `Y+OL`, `AL+OL` versus `OL+AL` and `CH+OT+Y` versus `OT+CH+Y`.
+Every variant keeps its own reading. The remaining problem is compositional
+fluency:706 cards have no visible action,274 have none of action, grade,
+argument or relation, and222 are pure state-control cards. Next classify these
+as initialization, continuation, close, reference or transition and turn the
+213 ordered role patterns into fluent microphrases without changing a root or
+opening a page. All51 checks pass.
