@@ -13954,3 +13954,28 @@ four prior GDT578 changes inside three overlap statements. All48 independent
 checks pass. Use GDT579 as the current readable edition. Next treat only the
 three raw-adjacent identical relation pairs;first resolve whether G515-E0379's
 AL+AL remains bound to its preceding T context rather than the visible SH.
+
+## GDT580 repeats an explicit modifier rather than an action
+
+The three remaining PLAIN, same-root, raw-adjacent relation/modifier pairs are
+O+O at G407-E0152,D_ADDR+D_ADDR at G407-E1846 and AL+AL at G515-E0379. One
+two-slot modifier-resumption operator voices them through three explicit label
+heads: `dieselbe Ausführungsangabe`, `dieselbe Stellenangabe` and `dieselbe
+Zielangabe nochmals`. Both written positions and a full two-phrase expansion
+remain present;no OO,DD or ALAL whole word and no numerical value is added.
+
+The first short `nochmals ebenso/dort/dorthin` draft was withdrawn after manual
+audit because a reader could hear it as repetition of the visible action. The
+repaired E0379 now says `Beim vorangehenden Festlegen` before its two AL
+realizations,then begins a new sentence with SH/Halten. This audibly matches
+G515-A00356/357:both AL peers point to G515-E0378/T rather than current SH.
+
+Exactly three events,three statements and three pages change against GDT579;
+one is nonstate and two are state cards. The cumulative GDT574 delta becomes
+764 events,309 statements and28 pages. The43 inherited `zweimal` readings stay
+fixed while `nochmals` rises from one to four. All5,122 events and793 statements
+recover GDT579 exactly;all57 independent checks and the repaired manual prose
+audit pass. Use GDT580 as the current readable edition. Next run one bounded
+grammar-to-content boundary audit:each future content carrier must have one
+audible host before any concrete substance,plant part,process or ailment is
+inserted. Open no page and add no root.
