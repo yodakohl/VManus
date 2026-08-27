@@ -1,0 +1,128 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Complete editorial German phrase layer over the fixed GDT537 159-surface working dictionary. No recipe, root meaning, plaintext claim, language identification, object identity, page, surface, or occurrence prediction follows.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt538_final_159_phrase_consistency_edition/src/run.py",
+    "validate": "python3 experiments/yolo/gdt538_final_159_phrase_consistency_edition/src/validate.py"
+  },
+  "created": "2026-08-27",
+  "dependencies": [
+    "GDT413",
+    "GDT416",
+    "GDT485",
+    "GDT500",
+    "GDT537"
+  ],
+  "experiment_id": "GDT538",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt537_seven_route_final_intake_supplement/artifacts/gdt537_159_final_surface_dictionary.tsv",
+      "role": "final 159 exact recipes and inherited phrase layer",
+      "sha256": "84cacfcf03923c164ceb7c55eede5a058bc5c80f8b9bdadf6e1ce5823e33455c"
+    },
+    {
+      "path": "experiments/yolo/gdt413_twenty_six_page_semantic_working_edition/artifacts/gdt413_46_component_working_dictionary.tsv",
+      "role": "fixed portable values and structural classifications",
+      "sha256": "728113b051828ad7e8cdf46369832f3a81a4792bc104f3ef1f23644af5fa120e"
+    },
+    {
+      "path": "experiments/yolo/gdt537_seven_route_final_intake_supplement/src/intake_surface.py",
+      "role": "final-recipe and role-aware fallback reader",
+      "sha256": "e17da10d0d1050b2368820929588340f57bd1179a233cdbf0760038cf0af494d"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt538_final_159_phrase_consistency_edition/METHOD.md",
+      "role": "phrase normalization method and scope",
+      "sha256": "c32eff08508372ee89c08450f84427c83329b2e8b3e401015f1bcb6be0c0b352"
+    },
+    {
+      "path": "experiments/yolo/gdt538_final_159_phrase_consistency_edition/README.md",
+      "role": "experiment entry point",
+      "sha256": "62ffed384efc4899bc6f3a6834c4caee42272d4f744caa0006698665258fe4ce"
+    },
+    {
+      "path": "experiments/yolo/gdt538_final_159_phrase_consistency_edition/REPORT.md",
+      "role": "primary result and Y-role wording correction",
+      "sha256": "1cedd5f35cd4717474799a30676878044b53154793b7419039ee9f0639cc605f"
+    },
+    {
+      "path": "experiments/yolo/gdt538_final_159_phrase_consistency_edition/artifacts/README.md",
+      "role": "artifact guide",
+      "sha256": "31b5acf0443c668c2e8324f934fa0e1590df78c8c0e10c7b12fddb88594a225e"
+    },
+    {
+      "path": "experiments/yolo/gdt538_final_159_phrase_consistency_edition/artifacts/GDT538_COMPLETE_159_WORKING_PHRASEBOOK.md",
+      "role": "complete human-readable phrasebook",
+      "sha256": "8ce8f27a25d03db4bf15e220a15224d8a70553131aad160421b2be894f19950f"
+    },
+    {
+      "path": "experiments/yolo/gdt538_final_159_phrase_consistency_edition/artifacts/gdt538_159_complete_phrase_dictionary.tsv",
+      "role": "complete exact-order and workshop phrase dictionary",
+      "sha256": "f4b87404a013a456f90f4df44c39e4ebf2fd5437000b0a1cc95d6299744c1ab5"
+    },
+    {
+      "path": "experiments/yolo/gdt538_final_159_phrase_consistency_edition/artifacts/gdt538_34_atom_phrase_lexicon.tsv",
+      "role": "stable atom realization lexicon",
+      "sha256": "ac3b5eec6409f085566800307180b0c7bfb52ef38421320270aa62d04ba457cc"
+    },
+    {
+      "path": "experiments/yolo/gdt538_final_159_phrase_consistency_edition/artifacts/gdt538_7_special_phrase_normalization.tsv",
+      "role": "seven special phrase comparisons",
+      "sha256": "829c0c6c39f9d7753b30b014bb7ed9bb5463b4ce70995e325d6a1c05c8c64dcd"
+    },
+    {
+      "path": "experiments/yolo/gdt538_final_159_phrase_consistency_edition/artifacts/gdt538_one_atom_delta_audit.tsv",
+      "role": "complete current one-atom phrase delta audit",
+      "sha256": "f5afaef817f07770d4e4ddb1981107957ae54bdcb4ed65ecca50cc3c429cc46e"
+    },
+    {
+      "path": "experiments/yolo/gdt538_final_159_phrase_consistency_edition/artifacts/gdt538_phrase_template_summary.tsv",
+      "role": "eight-template coverage summary",
+      "sha256": "1829ccffce39e05b21c7625d9b794023b0f0a7a38b00b7c201757e5d576bbb44"
+    },
+    {
+      "path": "experiments/yolo/gdt538_final_159_phrase_consistency_edition/artifacts/gdt538_result.json",
+      "role": "compact phrase-completion metrics",
+      "sha256": "ba251ae514483754d30f2f9792176ec332be6e2a0743fd36a6896021d2b07dc6"
+    },
+    {
+      "path": "experiments/yolo/gdt538_final_159_phrase_consistency_edition/artifacts/gdt538_validation.json",
+      "role": "independent 51-check validation record",
+      "sha256": "dc6ec2fb6b30b9122f8fdb39e08e991ae2375420abfc525e191cd537c47404fc"
+    },
+    {
+      "path": "experiments/yolo/gdt538_final_159_phrase_consistency_edition/src/phrase_surface.py",
+      "role": "executable phrase-complete overlay reader",
+      "sha256": "aa89f693a0ac016e3c293e7a66e7fd35e756c87b44bd853ae15ff5f7dfb4efeb"
+    },
+    {
+      "path": "experiments/yolo/gdt538_final_159_phrase_consistency_edition/src/run.py",
+      "role": "reproducible phrasebook compiler",
+      "sha256": "0ec9671d68d8841d05a22f630aa73260637eeece5a4b02591b7f9a2776754173"
+    },
+    {
+      "path": "experiments/yolo/gdt538_final_159_phrase_consistency_edition/src/validate.py",
+      "role": "independent phrase and reader validator",
+      "sha256": "57ca32a106a40e02faac14e15f196d10e6ab425835b40954a8150c5a3e12f45e"
+    }
+  ],
+  "question": "Can all 159 final GDT537 surface locks receive one short, consistent German working phrase without changing a recipe, fixed atom value, or special resolution route?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "final_159_phrase_consistency_edition",
+  "status": "PASS_ALL_159_HAVE_CANONICAL_PHRASES__Y_RESTORED_AS_ARGUMENT",
+  "title": "Final 159 phrase consistency edition",
+  "updated": "2026-08-27",
+  "validation": {
+    "artifact": "experiments/yolo/gdt538_final_159_phrase_consistency_edition/artifacts/gdt538_validation.json",
+    "status": "PASS"
+  }
+}

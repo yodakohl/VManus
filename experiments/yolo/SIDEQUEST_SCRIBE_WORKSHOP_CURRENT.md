@@ -1,6 +1,6 @@
 # Current thirty-page scribe-workshop theory
 
-Updated: 2026-08-27, after GDT537.
+Updated: 2026-08-27, after GDT538.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -1796,10 +1796,37 @@ change recipe; `qef` only closes an ambiguity. Old, unseen and `LOCAL_RECORD`
 surfaces still delegate to the role-aware base, so the overlay neither blocks
 productive intake nor converts learned names into prose.
 
+## GDT538 complete 159-phrase edition
+
+GDT538 finds that the surface deck contains159 different recipes, so there is
+no literal same-recipe phrase collision to compare. The actual gap is more
+basic:152 of the159 short-phrase fields still say only `INHERITED`. A common
+renderer now gives every card two readings. The controlled channel preserves
+all640 ordered slots with one invariant realization per atom; the readable
+channel uses eight neutral German patterns. All nineteen portable word values
+remain unbracketed, while all fifteen structural, address, sign and learned
+local types remain bracketed and visibly nonlexical.
+
+Four old free phrasings—`aiicthy`, `chekchy`, `dairykodas`, and
+`dalcheeeky`—had turned the argument `Y=POSTEN` into the verb “posten”. The
+common renderer removes that role slip without changing Y or a recipe. Thus:
+
+```text
+chekchy = nehmen → geben → Posten
+         Den Posten nehmen und geben.
+
+aiicthy = Wert → nehmen → einstellen → Posten
+          Den Wert und den Posten nehmen und einstellen.
+```
+
+All62 current one-atom recipe neighbours retain every unchanged phrase slot
+and expose exactly one edited slot. The executable reader returns all159 new
+phrases before GDT537 and still delegates local, old and unseen forms.
+
 ## Next work
 
-Keep pages closed for a phrase-consistency pass. Group all159 final cards by
-identical recipe and repeated suffix/prefix recipe family, then find places
-where the German short reading changes wording despite identical ordered
-roots. Improve fluent phrasing only; never change a recipe, root value, owner,
-structural tag, or one of the seven route cards.
+Keep pages closed and insert the168 concrete occurrences back into their78
+statements. Resolve only verbs or arguments already active in the same
+statement, and publish both the complete statement reading and the exact card
+backprojection. Do not change a surface recipe, root value, structural tag,
+owner, or special route.

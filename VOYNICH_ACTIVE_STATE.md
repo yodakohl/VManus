@@ -13028,3 +13028,20 @@ and no special route extrapolates silently.
 Next keep pages closed for a phrase-consistency pass over repeated final
 recipes. Normalize only fluent German wording; recipe order, nineteen roots,
 seven revision routes, owners, and structural tags remain fixed.
+
+## GDT538 complete final phrase layer
+
+GDT538 shows that the159 final surface recipes are all distinct; the immediate
+problem was instead152 literal `INHERITED` placeholders. Every surface now has
+an exact ordered phrase chain and a neutral workshop sentence. The deck covers
+640/640 atom slots from34 types; all nineteen portable word values keep one
+unbracketed realization and all fifteen structural/local types stay bracketed.
+All62 one-atom recipe neighbours expose exactly one corresponding phrase-slot
+change.
+
+Four handwritten special phrases had used argument `Y=POSTEN` as the verb
+“posten”. The common renderer restores its noun role in `aiicthy`, `chekchy`,
+`dairykodas`, and `dalcheeeky`; recipes and root meanings do not change. The
+new executable overlay returns159/159 phrases and delegates local, old, and
+unknown surfaces. Next put the168 concrete occurrences into their78 statements
+and resolve only same-statement inherited verbs/arguments.
