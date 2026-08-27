@@ -1,6 +1,6 @@
 # Current thirty-page scribe-workshop theory
 
-Updated: 2026-08-27, after GDT559.
+Updated: 2026-08-27, after GDT560.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -2206,9 +2206,31 @@ state.
 both. In all28 joint cards Y precedes the separate close operator;27 close the
 statement and `Y+DY+D_LABEL` closes a local step before its label tail.
 
+## GDT560 relations have direction, not one generic slot
+
+All216 `AL/AR/L/AIR` occurrences now have one of8 short state readings. Their
+one-word values remain unchanged, but their placement separates them:
+
+```text
+AR  AUSGANG      mostly the right endpoint of a current/next carrier
+L   VERBINDUNG   mostly opens toward a following action
+AL  ZIELORT      hinge between endpoint and forward-target geometry
+AIR BAHN         sparse separate path value
+```
+
+AR ends its local block50/58 times and follows OT/OL47 times. L begins86/92
+blocks, has58 right-hand actions and leads into DY/OL85 times. AL participates
+in8 AL↔AR and4 AL↔L state families; AIR participates in none of the12 families.
+This is the first current root group where forcing a four-way substitution
+would make the grammar worse.
+
+DY remains the independent closer:67/67 DY-bearing family cards close and0/77
+without DY close. Only16 relations share a control block with an explicit
+argument. Two visible `DY+L` tails read in written order as
+`ABSCHLIESSEN · VERBINDUNG`.
+
 ## Next work
 
-Hold controls, grades and the four argument values fixed. Put
-`AL/AR/L/AIR` through the same envelope and substitution reader. Ask whether
-they are carried values like arguments or directed links between two carriers.
-Use the same30 pages and open no new page.
+Combine the now-fixed action, grade, relation, argument and control layers into
+one typed short reading for every one of the1,656 state cards. Keep the same30
+pages and open no new page.

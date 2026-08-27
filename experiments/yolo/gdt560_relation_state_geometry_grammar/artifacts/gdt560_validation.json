@@ -1,0 +1,467 @@
+{
+  "status": "PASS",
+  "check_count": 37,
+  "passed_count": 37,
+  "failed_count": 0,
+  "input_sha256": {
+    "gdt557_all_state_marker_occurrences.tsv": "b6797a19937e74b22cd7068b99bce9cc1ac1b302054cf3bdbd88868bf152cb22",
+    "gdt429_13_nonaction_core_contrasts.tsv": "eb39bef9cfe34086103f8f897ce0c75e70450efd12a5904a562cb8fcdf1c7cce"
+  },
+  "artifact_sha256": {
+    "gdt560_216_relation_state_assignments.tsv": "01e2e694018da80819644c3b6bde9b12de24cfb337055c4fb9c126d75f27ff5e",
+    "gdt560_4_relation_geometry_profiles.tsv": "977710d713f6f9a10920e103bf1574649f9e4babbef63030c974cf9fc621565f",
+    "gdt560_8_relation_control_envelopes.tsv": "05d75672728315bd6c5807f41822d6e04faa226113c5c44919aa5ed1c5c6b692",
+    "gdt560_28_relation_state_projections.tsv": "52df17fa2b4f372e017a9d4e0518ccf55bf7da0e090fcd25d5604c8003be042e",
+    "gdt560_44_relation_argument_state_projections.tsv": "bbccc471024d3fb3fb3999d96a85d152bf09ae176e48b3f54b05a63c62f3229b",
+    "gdt560_12_multiroot_relation_families.tsv": "69b47495f0044ef8fdf9f7cf536743ae9735d6bc322be58bd628e8253f4b2e60",
+    "gdt560_6_relation_pair_bridges.tsv": "6415c2d2dc8747737fd8f0638ec5d636df66b3746ed800dd375fe37f273e7587",
+    "gdt560_16_explicit_argument_contacts.tsv": "070bcf67d33b0140e6cb6f98a9583f5136cb58d2d30f997e835fc46ba44fd77b",
+    "gdt560_2_post_dy_l_tails.tsv": "3965ec8dd736969afa727eb7c90a93c2e9db2ff561091f49831a0c20d79d59a4",
+    "GDT560_RELATION_GEOMETRY_BOOK.md": "ec09b8bcbcb66a39475f8912f395362b852d602ffdf575d7ffd12616bc678db2",
+    "gdt560_result.json": "eda72d16b8bb2378071328eba74a914a572e1d0cbd8bd99d34786e67c0e7c9b5"
+  },
+  "checks": [
+    {
+      "check": "input_counts",
+      "passed": true,
+      "detail": [
+        1870,
+        13
+      ]
+    },
+    {
+      "check": "source_pages_exclude_f84",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "source_event_deduplication",
+      "passed": true,
+      "detail": 1656
+    },
+    {
+      "check": "artifact_row_counts",
+      "passed": true,
+      "detail": [
+        216,
+        4,
+        8,
+        28,
+        44,
+        12,
+        6,
+        16,
+        2
+      ]
+    },
+    {
+      "check": "assignment_keys_unique",
+      "passed": true,
+      "detail": 216
+    },
+    {
+      "check": "assignment_ordinals",
+      "passed": true,
+      "detail": [
+        "1",
+        "216"
+      ]
+    },
+    {
+      "check": "relation_counts",
+      "passed": true,
+      "detail": {
+        "AIR": 6,
+        "AR": 58,
+        "AL": 60,
+        "L": 92
+      }
+    },
+    {
+      "check": "relation_multiplicity",
+      "passed": true,
+      "detail": {
+        "1": 208,
+        "2": 8
+      }
+    },
+    {
+      "check": "selected_event_partition",
+      "passed": true,
+      "detail": [
+        212,
+        {
+          "1": 208,
+          "2": 4
+        }
+      ]
+    },
+    {
+      "check": "eight_envelopes_exact",
+      "passed": true,
+      "detail": {
+        "START>R<DY": [
+          91,
+          19,
+          5,
+          64,
+          3
+        ],
+        "OT>R<END": [
+          62,
+          26,
+          34,
+          1,
+          1
+        ],
+        "START>R<OL": [
+          31,
+          4,
+          6,
+          21,
+          0
+        ],
+        "OL>R<END": [
+          26,
+          9,
+          11,
+          4,
+          2
+        ],
+        "DY>R<END": [
+          2,
+          0,
+          0,
+          2,
+          0
+        ],
+        "OT>R<DY": [
+          2,
+          1,
+          1,
+          0,
+          0
+        ],
+        "OL>R<DY": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "OL>R<OL": [
+          1,
+          0,
+          1,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "check": "all_assignments_have_defaults",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "all_envelope_defaults_present",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "four_root_geometries_exact",
+      "passed": true,
+      "detail": {
+        "AL": [
+          60,
+          45,
+          39,
+          10,
+          37,
+          25
+        ],
+        "AR": [
+          58,
+          35,
+          50,
+          2,
+          47,
+          13
+        ],
+        "L": [
+          92,
+          86,
+          33,
+          58,
+          5,
+          85
+        ],
+        "AIR": [
+          6,
+          2,
+          3,
+          0,
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "check": "geometry_defaults_distinct",
+      "passed": true,
+      "detail": [
+        "TARGET_HINGE__MAY_POINT_FORWARD_OR_CLOSE_A_TARGET",
+        "SOURCE_OUTPUT_ENDPOINT__MOSTLY_RIGHT_EDGE",
+        "FORWARD_CONNECTION_OPENER__MOSTLY_LEFT_EDGE",
+        "SPARSE_PATH_DESCRIPTOR__NO_STATE_SUBSTITUTION"
+      ]
+    },
+    {
+      "check": "twenty_eight_state_projections",
+      "passed": true,
+      "detail": [
+        28,
+        212,
+        216
+      ]
+    },
+    {
+      "check": "dominant_projection_counts",
+      "passed": true,
+      "detail": {
+        "L+DY": 64,
+        "OT+AR": 33,
+        "OT+AL": 25,
+        "L+OL": 18,
+        "AL+DY": 17
+      }
+    },
+    {
+      "check": "forty_four_rich_projections",
+      "passed": true,
+      "detail": [
+        44,
+        212
+      ]
+    },
+    {
+      "check": "all_projection_defaults_present",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "twelve_families_exact",
+      "passed": true,
+      "detail": {
+        "REL+OL": [
+          3,
+          18
+        ],
+        "OT+REL": [
+          2,
+          41
+        ],
+        "REL+CHD+DY": [
+          2,
+          40
+        ],
+        "REL+DY": [
+          2,
+          12
+        ],
+        "REL+SH+E+DY": [
+          2,
+          11
+        ],
+        "OL+K+REL": [
+          2,
+          4
+        ],
+        "OL+REL": [
+          2,
+          4
+        ],
+        "OT+REL+Y": [
+          2,
+          4
+        ],
+        "REL+OL+Y": [
+          2,
+          4
+        ],
+        "OK+REL+DY": [
+          2,
+          2
+        ],
+        "OT+E+REL": [
+          2,
+          2
+        ],
+        "OT+REL+DY": [
+          2,
+          2
+        ]
+      }
+    },
+    {
+      "check": "family_event_coverage",
+      "passed": true,
+      "detail": [
+        144,
+        72
+      ]
+    },
+    {
+      "check": "one_three_root_family",
+      "passed": true,
+      "detail": [
+        [
+          "REL+OL",
+          "AL|AR|L"
+        ]
+      ]
+    },
+    {
+      "check": "air_absent_from_state_families",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "family_scope_fixed",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "six_pair_bridge_counts",
+      "passed": true,
+      "detail": {
+        "AL~AR": 8,
+        "AL~L": 4,
+        "AL~AIR": 0,
+        "AR~L": 2,
+        "AR~AIR": 0,
+        "L~AIR": 0
+      }
+    },
+    {
+      "check": "gdt429_relation_crosswalk_complete",
+      "passed": true,
+      "detail": [
+        6,
+        6
+      ]
+    },
+    {
+      "check": "air_pair_decisions",
+      "passed": true,
+      "detail": [
+        [
+          "AL~AIR",
+          "NO_STATE_SUBSTITUTION_BRIDGE__KEEP_AIR_SEPARATE"
+        ],
+        [
+          "AR~AIR",
+          "NO_STATE_SUBSTITUTION_BRIDGE__KEEP_AIR_SEPARATE"
+        ],
+        [
+          "L~AIR",
+          "NO_STATE_SUBSTITUTION_BRIDGE__KEEP_AIR_SEPARATE"
+        ]
+      ]
+    },
+    {
+      "check": "family_dy_scope_switch",
+      "passed": true,
+      "detail": [
+        67,
+        67,
+        77,
+        0
+      ]
+    },
+    {
+      "check": "all_right_dy_relations_close",
+      "passed": true,
+      "detail": [
+        94,
+        94
+      ]
+    },
+    {
+      "check": "sixteen_argument_contacts",
+      "passed": true,
+      "detail": {
+        "RELATION_PRECEDES_VISIBLE_ARGUMENT": 12,
+        "RELATION_FOLLOWS_VISIBLE_ARGUMENT": 4
+      }
+    },
+    {
+      "check": "argument_contact_defaults",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "two_post_dy_l_tails",
+      "passed": true,
+      "detail": [
+        "G407-E2009",
+        "G407-E2236"
+      ]
+    },
+    {
+      "check": "post_dy_written_order",
+      "passed": true,
+      "detail": [
+        "ABSCHLIESSEN · VERBINDUNG",
+        "ABSCHLIESSEN · VERBINDUNG"
+      ]
+    },
+    {
+      "check": "result_metrics_exact",
+      "passed": true,
+      "detail": {
+        "relation_state_event_count": 212,
+        "relation_occurrence_count": 216,
+        "carrier_envelope_count": 8,
+        "relation_state_projection_count": 28,
+        "relation_argument_state_projection_count": 44,
+        "multiroot_relation_family_count": 12,
+        "multiroot_family_event_count": 144,
+        "air_state_substitution_family_count": 0,
+        "dy_family_event_count": 67,
+        "dy_family_statement_final_count": 67,
+        "non_dy_family_event_count": 77,
+        "non_dy_family_statement_final_count": 0,
+        "right_dy_relation_occurrence_count": 94,
+        "right_dy_relation_statement_final_count": 94,
+        "explicit_argument_contact_count": 16,
+        "post_dy_l_tail_count": 2
+      }
+    },
+    {
+      "check": "zero_scope_mutation",
+      "passed": true,
+      "detail": {
+        "new_pages": 0,
+        "recipe_changes": 0,
+        "root_meaning_changes": 0,
+        "statement_boundary_changes": 0
+      }
+    },
+    {
+      "check": "book_contains_core_findings",
+      "passed": true,
+      "detail": 5021
+    },
+    {
+      "check": "deterministic_replay_exit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "deterministic_artifact_hashes",
+      "passed": true,
+      "detail": {}
+    }
+  ]
+}

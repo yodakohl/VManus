@@ -13463,3 +13463,28 @@ it visibly and11 end the statement. There are no wrong inheritances. `Y` and
 27 close the statement and `Y+DY+D_LABEL` closes only a local step. All390
 occurrences and24 sequences have defaults and all38 checks pass. Next apply
 the same carrier test to `AL/AR/L/AIR`; no page or root value changed.
+
+## GDT560 splits relation geometry without lengthening the dictionary
+
+Among the1,656 state cards,212 contain216 exact relation atoms:60 `AL`,58
+`AR`,92 `L` and6 `AIR`, across184 statements/24 pages. Every occurrence has
+one of8 control envelopes;28 relation-state and44 relation-argument-state
+sequences give every written order a default.
+
+The roots do not form the argument-like four-value slot. `AR=AUSGANG` is the
+right endpoint:50/58 occurrences end their local block and47 follow OT/OL.
+`L=VERBINDUNG` is the forward opener:86/92 begin their block,58 have a visible
+right action and85 lead into DY/OL. `AL=ZIELORT` occupies both geometries and
+is their hinge. `AIR=BAHN` has only6 state occurrences and participates in0
+exact state-substitution families, so it stays a separate sparse path value.
+
+Twelve exact families cover144 cards. AL↔AR share8, AL↔L4 and AR↔L2 state
+frames. All67 family cards containing DY are statement-final;0/77 without DY
+are final. Only16/216 relation occurrences touch an explicit argument inside
+the same envelope, so the default is usually a contextual link rather than an
+explicit binary noun relation. The two final tails `OT+E+DY+L` and
+`OK+CHD+DY+L` remain written-order `ABSCHLIESSEN · VERBINDUNG`.
+
+All216 assignments and both projection books have defaults; all37 checks pass.
+Next synthesize action, grade, relation, argument and control over all1,656
+state cards, using no new page and changing no root.
