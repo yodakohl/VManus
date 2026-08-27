@@ -13602,3 +13602,29 @@ Posten”. Both Y atoms, K, D_ADDR, OL and every root value are unchanged. This
 is the sole named German editorial normalization; zero unexpected drift and
 all40 checks pass. Next insert the generated state lines into a complete
 5,122-event/793-statement thirty-page edition beside the3,466 nonstate cards.
+
+## GDT566 publishes one complete current thirty-page edition
+
+GDT566 follows the fixed GDT515 spine through all5,122 running events and793
+statements. Exactly1,656 state cards use the GDT565 generator. The remaining
+3,466 cards preserve their owner-bound context clause byte-for-byte:3,082 from
+the old GDT416 cohort and384 from the current GDT539 cohort. Every event keeps
+both the selected and owner-bound control channels.
+
+The statement partition is247 all-state,528 mixed and18 without a state card;
+775 statements are touched by the generator. Rejoining the control clauses
+reproduces all715 GDT416 and78 GDT539 source statements byte-for-byte. The
+selected/control clauses differ at exactly the1,656 state cards and are equal
+at all3,466 nonstate cards.
+
+All30 admitted pages remain in the edition. Twenty-eight carry running events;
+f69v and f70v retain their explicit zero-running status. Exactly ten GDT515
+navigation recipes differ from the later authoritative context recipes and are
+published in a named repair deck rather than silently hidden. The one GDT565
+double-Posten normalization remains the sole editorial change. No event,
+statement, page, surface or root value is added; all45 checks pass.
+
+Use GDT566 as the complete readable working text and event-level dual-channel
+edition. Next inspect every within-statement transition where a generated state
+line meets an owner-bound nonstate line. Seek small German bridge rules for hard
+joins while preserving every event meaning, source boundary and root.

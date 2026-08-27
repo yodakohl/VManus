@@ -1,0 +1,435 @@
+{
+  "status": "PASS",
+  "check_count": 45,
+  "passed_count": 45,
+  "failed_count": 0,
+  "input_sha256": {
+    "navigation_events": "6615c3874d09a2e0043e56ac9d71317d138b8fb675cc56f4ab3d866f5b8fa346",
+    "page_summary": "93b26fe7e296e0e4cbdfba464f2fd9435eb65f8eb50bebd48ec5fc25ca1120fd",
+    "old_clauses": "cffae521ba93d96446537584e35fa9a4fe4b6e34330ebf7e955ad725f7c70561",
+    "old_statements": "8c42b9955bf86a6d871c2ddcde4951bb6c3f42d7bcc34a029bda8e617c63494f",
+    "current_clauses": "4554b8b4cb1697c8f6f544a75505a8a695b4d2043aeceeb9f5922eb21f73843d",
+    "current_statements": "3ffe285c3a0ae00903fba06cba3cacecbb998585a67d9c7b88708a4a7e6325c7",
+    "state_generator": "e2ad7b35667aa4bc562549198561cb96c6fb0545a9729c795e973020d659c39a"
+  },
+  "artifact_sha256": {
+    "events": "f77bf9b0fab880c6d2b4f88bd9cd4530980d2edd460af69970a9ca7c7ac8a6da",
+    "statements": "872a74921496ba12f8200504bd4d41d76e29a8fb9f36a5b8f1e67173925db9c2",
+    "pages": "99e7121751c928403619393c7428bf70a17f55922854c5b922fe2b2f6ecfccf5",
+    "modes": "052a37defb1617ac607934e52a963a63b3ac5de9ef8cf7709f374523760afdf7",
+    "layers": "a0d6f57deab2b068a9c518a685fca72aa795642153bc7cc69b2d0c936257a09e",
+    "repairs": "2c84b1d90806e603fa7eee9b7fc544e5cdf8e40ea09ec7c890976bc5f766684a",
+    "book": "d8a06221aea73ce928621c1e4e11de2d4295c812e75b074835bae8fb6ad2407c",
+    "result": "9f234d60b03d7f3372c38b84a0c9c07bedc9392e318966b2fa4c63e8236f8187"
+  },
+  "checks": [
+    {
+      "check": "input_counts_exact",
+      "passed": true,
+      "detail": [
+        5122,
+        30,
+        4576,
+        715,
+        546,
+        78,
+        1656
+      ]
+    },
+    {
+      "check": "artifact_counts_exact",
+      "passed": true,
+      "detail": [
+        5122,
+        793,
+        30,
+        3,
+        3,
+        10
+      ]
+    },
+    {
+      "check": "sealed_pages_absent",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "navigation_ordinals_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "edition_event_ordinals_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "edition_statement_ordinals_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "page_ordinals_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "all_input_keys_unique",
+      "passed": true,
+      "detail": [
+        4576,
+        546,
+        1656,
+        715,
+        78
+      ]
+    },
+    {
+      "check": "edition_keys_unique",
+      "passed": true,
+      "detail": [
+        5122,
+        793
+      ]
+    },
+    {
+      "check": "navigation_identity_exact",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "source_context_fields_exact",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "event_id_order_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "statement_id_order_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "cohort_partition_exact",
+      "passed": true,
+      "detail": {
+        "OLD26_GDT416": 4576,
+        "CURRENT4_GDT539": 546
+      }
+    },
+    {
+      "check": "all_source_events_used_once",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "state_partition_exact",
+      "passed": true,
+      "detail": 1656
+    },
+    {
+      "check": "all_state_generator_fields_exact",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "all_nonstate_clauses_unchanged",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "selected_owner_equality_partition",
+      "passed": true,
+      "detail": {
+        "YES": 3466,
+        "NO": 1656
+      }
+    },
+    {
+      "check": "single_named_normalization",
+      "passed": true,
+      "detail": [
+        "G407-E1000"
+      ]
+    },
+    {
+      "check": "ten_later_recipe_repairs_exact",
+      "passed": true,
+      "detail": [
+        "G515-E0182",
+        "G515-E0243",
+        "G515-E0253",
+        "G515-E0364",
+        "G515-E0366",
+        "G515-E0410",
+        "G515-E0423",
+        "G515-E0426",
+        "G515-E0437",
+        "G515-E0438"
+      ]
+    },
+    {
+      "check": "recipe_repair_deck_exact",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "all_793_statements_reconstructed",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "all_source_statements_used_once",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "statement_mode_partition",
+      "passed": true,
+      "detail": {
+        "MIXED_STATE_AND_NONSTATE": 528,
+        "ALL_STATE": 247,
+        "NO_STATE": 18
+      }
+    },
+    {
+      "check": "state_touched_statements",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "statement_event_totals",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "all_30_page_profiles_exact",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "two_zero_running_pages_retained",
+      "passed": true,
+      "detail": [
+        "f69v",
+        "f70v"
+      ]
+    },
+    {
+      "check": "running_page_partition",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "mode_profiles_exact",
+      "passed": true,
+      "detail": {
+        "ALL_STATE": {
+          "statement_mode": "ALL_STATE",
+          "statement_mode_de": "Aussage vollständig aus GDT565-Zustandskarten",
+          "statement_count": "247",
+          "event_count": "280",
+          "state_card_count": "280",
+          "nonstate_card_count": "0",
+          "physical_page_count": "16",
+          "register_count": "5"
+        },
+        "MIXED_STATE_AND_NONSTATE": {
+          "statement_mode": "MIXED_STATE_AND_NONSTATE",
+          "statement_mode_de": "GDT565-Zustandskarten und ownergebundene Nichtzustandskarten gemischt",
+          "statement_count": "528",
+          "event_count": "4768",
+          "state_card_count": "1376",
+          "nonstate_card_count": "3392",
+          "physical_page_count": "28",
+          "register_count": "5"
+        },
+        "NO_STATE": {
+          "statement_mode": "NO_STATE",
+          "statement_mode_de": "keine Zustandskarte; ownergebundene Quellausgabe unverändert",
+          "statement_count": "18",
+          "event_count": "74",
+          "state_card_count": "0",
+          "nonstate_card_count": "74",
+          "physical_page_count": "8",
+          "register_count": "5"
+        }
+      }
+    },
+    {
+      "check": "layer_profiles_exact",
+      "passed": true,
+      "detail": [
+        {
+          "GDT416_OWNER_CONTEXT_NONSTATE": 3082,
+          "GDT565_STATE_GENERATOR": 1656,
+          "GDT539_OWNER_CONTEXT_NONSTATE": 384
+        },
+        {
+          "GDT565_STATE_GENERATOR": {
+            "selected_reading_layer": "GDT565_STATE_GENERATOR",
+            "event_count": "1656",
+            "statement_count": "775",
+            "physical_page_count": "28",
+            "register_count": "5",
+            "distinct_recipe_count": "402",
+            "distinct_clause_count": "607"
+          },
+          "GDT416_OWNER_CONTEXT_NONSTATE": {
+            "selected_reading_layer": "GDT416_OWNER_CONTEXT_NONSTATE",
+            "event_count": "3082",
+            "statement_count": "489",
+            "physical_page_count": "24",
+            "register_count": "5",
+            "distinct_recipe_count": "904",
+            "distinct_clause_count": "1617"
+          },
+          "GDT539_OWNER_CONTEXT_NONSTATE": {
+            "selected_reading_layer": "GDT539_OWNER_CONTEXT_NONSTATE",
+            "event_count": "384",
+            "statement_count": "57",
+            "physical_page_count": "4",
+            "register_count": "2",
+            "distinct_recipe_count": "221",
+            "distinct_clause_count": "291"
+          }
+        }
+      ]
+    },
+    {
+      "check": "all_selected_and_control_clauses_nonempty",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "all_event_guards_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "all_statement_guards_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "result_metrics_exact",
+      "passed": true,
+      "detail": {
+        "admitted_page_count": 30,
+        "running_page_count": 28,
+        "zero_running_page_count": 2,
+        "complete_event_count": 5122,
+        "complete_statement_count": 793,
+        "state_generator_event_count": 1656,
+        "nonstate_owner_context_event_count": 3466,
+        "old_nonstate_event_count": 3082,
+        "current_nonstate_event_count": 384,
+        "all_state_statement_count": 247,
+        "mixed_statement_count": 528,
+        "no_state_statement_count": 18,
+        "state_touched_statement_count": 775,
+        "owner_bound_statement_byte_exact_count": 793,
+        "selected_clause_equals_owner_bound_count": 3466,
+        "selected_clause_differs_owner_bound_count": 1656,
+        "gdt565_editorial_normalization_count": 1,
+        "later_context_recipe_repair_count": 10,
+        "new_pages": 0,
+        "new_events": 0,
+        "new_statements": 0,
+        "new_surfaces": 0,
+        "new_root_values": 0
+      }
+    },
+    {
+      "check": "result_status_exact",
+      "passed": true,
+      "detail": "PASS_COMPLETE_5122_EVENT__793_STATEMENT__30_PAGE_WORKING_EDITION__1656_GENERATED_STATE__3466_OWNER_CONTEXT_NONSTATE__ZERO_REST"
+    },
+    {
+      "check": "result_boolean_guards",
+      "passed": true,
+      "detail": {
+        "all_events_have_selected_clause": true,
+        "all_events_have_owner_bound_control": true,
+        "all_page_counts_match_gdt515": true
+      }
+    },
+    {
+      "check": "input_hashes_exact",
+      "passed": true,
+      "detail": {
+        "navigation_events": "6615c3874d09a2e0043e56ac9d71317d138b8fb675cc56f4ab3d866f5b8fa346",
+        "page_summary": "93b26fe7e296e0e4cbdfba464f2fd9435eb65f8eb50bebd48ec5fc25ca1120fd",
+        "old_clauses": "cffae521ba93d96446537584e35fa9a4fe4b6e34330ebf7e955ad725f7c70561",
+        "old_statements": "8c42b9955bf86a6d871c2ddcde4951bb6c3f42d7bcc34a029bda8e617c63494f",
+        "current_clauses": "4554b8b4cb1697c8f6f544a75505a8a695b4d2043aeceeb9f5922eb21f73843d",
+        "current_statements": "3ffe285c3a0ae00903fba06cba3cacecbb998585a67d9c7b88708a4a7e6325c7",
+        "state_generator": "e2ad7b35667aa4bc562549198561cb96c6fb0545a9729c795e973020d659c39a"
+      }
+    },
+    {
+      "check": "book_core_metrics_present",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "book_contains_all_pages_once",
+      "passed": true,
+      "detail": [
+        "f1r",
+        "f10r",
+        "f11r",
+        "f13r",
+        "f17r",
+        "f18r",
+        "f24v",
+        "f55v",
+        "f56r",
+        "f67r2",
+        "f68r1",
+        "f69v",
+        "f70v",
+        "f71v",
+        "f72r",
+        "f75r",
+        "f76r",
+        "f77r",
+        "f81r",
+        "f81v",
+        "f82r",
+        "f83r",
+        "f88r",
+        "f88v",
+        "f89r",
+        "f95v",
+        "f31r",
+        "f66r",
+        "f20v",
+        "f4r"
+      ]
+    },
+    {
+      "check": "book_retains_zero_page_notice",
+      "passed": true,
+      "detail": 2
+    },
+    {
+      "check": "book_contains_all_statement_ids",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "deterministic_replay_exit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "deterministic_artifact_hashes",
+      "passed": true,
+      "detail": {}
+    }
+  ]
+}

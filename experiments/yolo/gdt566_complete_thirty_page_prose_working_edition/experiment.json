@@ -1,0 +1,148 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "The complete 5,122-event and 793-statement editions are necessary to expose omissions, statement-boundary drift, layer substitutions and divergence between selected and owner-bound control channels; sampled output cannot establish zero-rest coverage.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "A complete German edition of the current exploratory working interpretation for all 5,122 running events and 793 statements on the 30 already admitted pages. It may select GDT565-generated microphrases for exactly 1,656 state cards, retain GDT416/GDT539 owner-bound clauses for exactly 3,466 nonstate cards, reconstruct every owner-bound source statement byte-exactly, and expose ten later context-recipe repairs. Completeness refers only to this working edition; it confirms no historical lexeme, plaintext, language, syntax, genre, object identity or codebook identity and licenses no new page, event, statement, surface, recipe atom or root value.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt566_complete_thirty_page_prose_working_edition/src/run.py",
+    "validate": "python3 experiments/yolo/gdt566_complete_thirty_page_prose_working_edition/src/validate.py"
+  },
+  "created": "2026-08-27",
+  "dependencies": [
+    "GDT407",
+    "GDT416",
+    "GDT515",
+    "GDT539",
+    "GDT565"
+  ],
+  "experiment_id": "GDT566",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt515_second_random_four_page_full_admission/artifacts/gdt515_5122_running_event_edition.tsv",
+      "role": "fixed 5,122-event navigation spine",
+      "sha256": "6615c3874d09a2e0043e56ac9d71317d138b8fb675cc56f4ab3d866f5b8fa346"
+    },
+    {
+      "path": "experiments/yolo/gdt515_second_random_four_page_full_admission/artifacts/gdt515_30_page_summary.tsv",
+      "role": "authoritative 30-page accounting",
+      "sha256": "93b26fe7e296e0e4cbdfba464f2fd9435eb65f8eb50bebd48ec5fc25ca1120fd"
+    },
+    {
+      "path": "experiments/yolo/gdt416_owner_local_imperative_sentence_compiler/artifacts/gdt416_4576_imperative_clauses.tsv",
+      "role": "older 26-page owner-bound event clauses",
+      "sha256": "cffae521ba93d96446537584e35fa9a4fe4b6e34330ebf7e955ad725f7c70561"
+    },
+    {
+      "path": "experiments/yolo/gdt416_owner_local_imperative_sentence_compiler/artifacts/gdt416_715_imperative_statements.tsv",
+      "role": "older 26-page owner-bound statements",
+      "sha256": "8c42b9955bf86a6d871c2ddcde4951bb6c3f42d7bcc34a029bda8e617c63494f"
+    },
+    {
+      "path": "experiments/yolo/gdt539_four_page_contextual_statement_edition/artifacts/gdt539_546_contextual_prose_events.tsv",
+      "role": "current four-page owner-bound event clauses",
+      "sha256": "4554b8b4cb1697c8f6f544a75505a8a695b4d2043aeceeb9f5922eb21f73843d"
+    },
+    {
+      "path": "experiments/yolo/gdt539_four_page_contextual_statement_edition/artifacts/gdt539_78_contextual_statements.tsv",
+      "role": "current four-page owner-bound statements",
+      "sha256": "3ffe285c3a0ae00903fba06cba3cacecbb998585a67d9c7b88708a4a7e6325c7"
+    },
+    {
+      "path": "experiments/yolo/gdt565_state_microphrase_template_generator/artifacts/gdt565_1656_template_replay.tsv",
+      "role": "complete generated state-card reading layer",
+      "sha256": "e2ad7b35667aa4bc562549198561cb96c6fb0545a9729c795e973020d659c39a"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt566_complete_thirty_page_prose_working_edition/METHOD.md",
+      "role": "edition assembly method",
+      "sha256": "9f1e6e28f570e5f6ef223e775b50a6f651ab3694e36ee2219c4ce620f1f06115"
+    },
+    {
+      "path": "experiments/yolo/gdt566_complete_thirty_page_prose_working_edition/README.md",
+      "role": "experiment entry point",
+      "sha256": "d2da9f8df77a01acda5739dc54f033c80f3bcf7c93b1da87b9c80a482ad527c1"
+    },
+    {
+      "path": "experiments/yolo/gdt566_complete_thirty_page_prose_working_edition/REPORT.md",
+      "role": "primary result report",
+      "sha256": "2ff009c490e2f0f8036f4f31c422547e82b50df0b134dc7fb7ae26ef84743ab0"
+    },
+    {
+      "path": "experiments/yolo/gdt566_complete_thirty_page_prose_working_edition/artifacts/GDT566_COMPLETE_THIRTY_PAGE_PROSE_EDITION.md",
+      "role": "complete human-readable 30-page selected edition",
+      "sha256": "d8a06221aea73ce928621c1e4e11de2d4295c812e75b074835bae8fb6ad2407c"
+    },
+    {
+      "path": "experiments/yolo/gdt566_complete_thirty_page_prose_working_edition/artifacts/README.md",
+      "role": "artifact guide",
+      "sha256": "6ed638ec536652649bbb14e064eef4cc26e4754d05a7966365e27a70751a9d35"
+    },
+    {
+      "path": "experiments/yolo/gdt566_complete_thirty_page_prose_working_edition/artifacts/gdt566_10_later_context_recipe_repairs.tsv",
+      "role": "explicit later context-recipe repair deck",
+      "sha256": "2c84b1d90806e603fa7eee9b7fc544e5cdf8e40ea09ec7c890976bc5f766684a"
+    },
+    {
+      "path": "experiments/yolo/gdt566_complete_thirty_page_prose_working_edition/artifacts/gdt566_30_page_edition_profiles.tsv",
+      "role": "complete page accounting",
+      "sha256": "99e7121751c928403619393c7428bf70a17f55922854c5b922fe2b2f6ecfccf5"
+    },
+    {
+      "path": "experiments/yolo/gdt566_complete_thirty_page_prose_working_edition/artifacts/gdt566_3_reading_layer_profiles.tsv",
+      "role": "reading-layer partition",
+      "sha256": "a0d6f57deab2b068a9c518a685fca72aa795642153bc7cc69b2d0c936257a09e"
+    },
+    {
+      "path": "experiments/yolo/gdt566_complete_thirty_page_prose_working_edition/artifacts/gdt566_3_statement_mode_profiles.tsv",
+      "role": "statement-mode partition",
+      "sha256": "052a37defb1617ac607934e52a963a63b3ac5de9ef8cf7709f374523760afdf7"
+    },
+    {
+      "path": "experiments/yolo/gdt566_complete_thirty_page_prose_working_edition/artifacts/gdt566_5122_complete_prose_event_edition.tsv",
+      "role": "complete event-level selected and control edition",
+      "sha256": "f77bf9b0fab880c6d2b4f88bd9cd4530980d2edd460af69970a9ca7c7ac8a6da"
+    },
+    {
+      "path": "experiments/yolo/gdt566_complete_thirty_page_prose_working_edition/artifacts/gdt566_793_complete_statement_edition.tsv",
+      "role": "complete statement-level selected and control edition",
+      "sha256": "872a74921496ba12f8200504bd4d41d76e29a8fb9f36a5b8f1e67173925db9c2"
+    },
+    {
+      "path": "experiments/yolo/gdt566_complete_thirty_page_prose_working_edition/artifacts/gdt566_result.json",
+      "role": "compact result object",
+      "sha256": "9f234d60b03d7f3372c38b84a0c9c07bedc9392e318966b2fa4c63e8236f8187"
+    },
+    {
+      "path": "experiments/yolo/gdt566_complete_thirty_page_prose_working_edition/artifacts/gdt566_validation.json",
+      "role": "independent 45-check validation record",
+      "sha256": "8035e042306f2c243902c413c2180c32dbba6ba46c04c59772d4c9d790915496"
+    },
+    {
+      "path": "experiments/yolo/gdt566_complete_thirty_page_prose_working_edition/src/run.py",
+      "role": "reproducible edition compiler",
+      "sha256": "0fc2ef2baa935b119a2ad440b37a495a0a238dc0b024840a71c6707ee297f235"
+    },
+    {
+      "path": "experiments/yolo/gdt566_complete_thirty_page_prose_working_edition/src/validate.py",
+      "role": "independent source validator",
+      "sha256": "c2b2a1d33acaa59ea4ba48e094465777c0a355f986f0a8dfcea6cbf9225edce7"
+    }
+  ],
+  "question": "Can all 5,122 running events and 793 statements on the 30 already admitted pages be assembled into one current working German edition by selecting GDT565 for state cards and preserving all nonstate contextual clauses unchanged?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "complete_thirty_page_prose_working_edition",
+  "status": "PASS_COMPLETE_5122_EVENT__793_STATEMENT__30_PAGE_WORKING_EDITION__1656_GENERATED_STATE__3466_OWNER_CONTEXT_NONSTATE__ZERO_REST",
+  "title": "complete thirty page prose working edition",
+  "updated": "2026-08-27",
+  "validation": {
+    "artifact": "experiments/yolo/gdt566_complete_thirty_page_prose_working_edition/artifacts/gdt566_validation.json",
+    "status": "PASS"
+  }
+}

@@ -2340,10 +2340,31 @@ neu  Weiter: gib die beiden Posten; hier.
 
 No semantic value changes; this is a German coordination cleanup.
 
+## GDT566 one current book contains every admitted running card
+
+The complete working edition now contains all5,122 running cards and all793
+statements. Its selected channel uses the GDT565 renderer for1,656 state cards,
+then retains3,082 old and384 current owner-bound nonstate clauses unchanged.
+Every event keeps the owner-bound line beside the selected line, so no context
+information disappears behind the fluent state renderer.
+
+```text
+247 all-state statements
+528 mixed state/nonstate statements
+ 18 statements without a state card
+───────────────────────────────────
+793 complete statements
+```
+
+The control channel reconstructs715/715 GDT416 and78/78 GDT539 statements
+byte-for-byte. All30 admitted pages remain visible, including f69v and f70v
+with zero running events. A separate ten-row deck preserves every recipe that
+was refined after the GDT515 navigation snapshot.
+
 ## Next work
 
-Build one full30-page prose edition over all5,122 running events and793
-statements. Replace the1,656 state-card lines with GDT565 generator output and
-retain the current owner-bound readings for the3,466 nonstate cards. Every
-event, statement boundary and source layer must remain visible. Open no page
-and change no root.
+Use the complete GDT566 text to inspect every adjacent boundary inside a
+statement, especially state→nonstate and nonstate→state joins. Find recurring
+hard German seams and repair only their rendering with small bridge cards.
+Keep event boundaries, roots, recipes and both reading channels unchanged; do
+not open another page.
