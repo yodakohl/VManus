@@ -13807,3 +13807,24 @@ remain fixed; all54 checks pass. Use GDT573 as the current readable edition.
 Next inventory repeated actions and repeated relation/modifier phrases and
 compress only those admitting small reversible count or coordination rules;
 open no page and add no root value.
+
+## GDT574 counts only raw-adjacent identical actions
+
+The complete edition has105 cards in which an action root occurs at least
+twice. Only43 contain an identical pair adjacent in the raw recipe;42 are
+CH+CH and one is OK+OK. The other62 are interrupted or nonadjacent repeats and
+remain byte-identical so that ABA/ABCA order is not flattened into a count.
+
+Five owner-frame cards realize the eligible pairs as `Entnimm X zweimal`,
+`Nimm X zweimal`, celestial `Nimm X zweimal auf`, objectless `Nimm zweimal`
+and `Setze X im Arbeitsgang zweimal an`. Seven state clauses already used the
+GDT500 voice;36 nonstate clauses now join them. The result contains exactly43
+`zweimal` occurrences.
+
+Every assignment retains both raw action-atom positions and a two-action-slot
+expansion. A separate backchannel reconstructs all5,122 GDT573 clauses
+byte-exactly. The36 changes occupy33 statements/17 pages;all state clauses,
+all62 interrupted repeats,recipes,roots and page order remain fixed. All55
+checks pass. Use GDT574 as the current readable edition. Next inventory exact
+relation/modifier phrase repetitions and distinguish identical neighbours from
+outer/inner or other scope contrasts;open no page and add no root value.

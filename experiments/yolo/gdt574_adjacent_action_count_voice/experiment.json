@@ -1,0 +1,146 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "The complete event and statement editions are required to prove that all 62 interrupted repeats remain byte-identical, all 43 adjacent pairs retain two action slots, and all 5,122 GDT573 clauses roundtrip exactly; samples cannot establish those invariants.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "A five-card German count voice for the 43 current events whose recipes contain a raw-adjacent identical action pair. It may newly compress 36 clauses with zweimal, retain seven existing twice clauses and preserve a two-slot expansion while leaving 62 interrupted or nonadjacent action repetitions explicit. It adds no Voynich root value, page, surface, recipe or event and confirms no numeral, lexeme, plaintext, language, syntax, genre, historical codebook or object identity.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt574_adjacent_action_count_voice/src/run.py",
+    "validate": "python3 experiments/yolo/gdt574_adjacent_action_count_voice/src/validate.py"
+  },
+  "created": "2026-08-27",
+  "dependencies": [
+    "GDT500",
+    "GDT568",
+    "GDT573"
+  ],
+  "experiment_id": "GDT574",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt573_intra_clause_argument_pronoun_voice/artifacts/gdt573_5122_pronoun_voice_event_edition.tsv",
+      "role": "complete current event edition",
+      "sha256": "a97cbb526ca6580ebc880912be7808979c50d65c66e0c9124581f28e631c2cd6"
+    },
+    {
+      "path": "experiments/yolo/gdt573_intra_clause_argument_pronoun_voice/artifacts/gdt573_793_pronoun_voice_statement_edition.tsv",
+      "role": "complete current statement order and wording",
+      "sha256": "cef3946b5544344f86b825959c7b762ee15fceb7f89bf07e04759e541ff688bd"
+    },
+    {
+      "path": "experiments/yolo/gdt573_intra_clause_argument_pronoun_voice/artifacts/gdt573_30_page_pronoun_voice_profiles.tsv",
+      "role": "complete admitted-page order",
+      "sha256": "b2211201ff92a5935fb6eb3ebf49801cc1edcd09b765e76c72ca71647c45e6e9"
+    },
+    {
+      "path": "experiments/yolo/gdt568_twenty_owner_action_voice_frames/artifacts/gdt568_20_owner_action_voice_cards.tsv",
+      "role": "owner action frames for counted realization",
+      "sha256": "474f0288f55e81cba703c5e800fe1b03211d3b0bccb3bcc0164d7e3959f953ab"
+    },
+    {
+      "path": "experiments/yolo/gdt500_repeated_action_fluency_matrix/artifacts/gdt500_15_repeated_action_fluency_cards.tsv",
+      "role": "reversible zweimal precedent cards",
+      "sha256": "e7106c47c8c110f9b2986f1f7df3a158270ace7f442c03da120403abadbe27a8"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt574_adjacent_action_count_voice/METHOD.md",
+      "role": "complete adjacent-action count method",
+      "sha256": "2c19d9cc5dfd271098904d620fc0c8847185a06ad4835c6563dfb76b27eb7f16"
+    },
+    {
+      "path": "experiments/yolo/gdt574_adjacent_action_count_voice/README.md",
+      "role": "experiment entry point",
+      "sha256": "798fc55222636df675e8f8f7dcc4e0ec35e12d2eabee4d26b908ce8b8eb92d34"
+    },
+    {
+      "path": "experiments/yolo/gdt574_adjacent_action_count_voice/REPORT.md",
+      "role": "primary result report",
+      "sha256": "ff51ab2fcc03c69e01d3b86b6ce478ea99b7fa0e0483ba7ff35a7310fa57f690"
+    },
+    {
+      "path": "experiments/yolo/gdt574_adjacent_action_count_voice/artifacts/README.md",
+      "role": "artifact guide",
+      "sha256": "a7d411c681a7bb08b963cf57c53c1230f22f250543627231772a8478f02c68bd"
+    },
+    {
+      "path": "experiments/yolo/gdt574_adjacent_action_count_voice/artifacts/GDT574_ACTION_COUNT_VOICE_THIRTY_PAGE_EDITION.md",
+      "role": "complete readable action-count edition",
+      "sha256": "09db48c09698ca121be864ba764dcfbc10d0f948778f3452f8f9e785cfba0af8"
+    },
+    {
+      "path": "experiments/yolo/gdt574_adjacent_action_count_voice/artifacts/gdt574_105_repeated_action_events.tsv",
+      "role": "exhaustive repeated-action event inventory",
+      "sha256": "88754c15405e9f53ca2617ee91a7f9098d17a3828174938037eee953781e8eb2"
+    },
+    {
+      "path": "experiments/yolo/gdt574_adjacent_action_count_voice/artifacts/gdt574_28_repeated_action_sequence_profiles.tsv",
+      "role": "complete action-sequence and adjacency profiles",
+      "sha256": "4f744cc608ff77ba8efa07a529692b86d727767e7fef35b9ebb985766fcd3fe9"
+    },
+    {
+      "path": "experiments/yolo/gdt574_adjacent_action_count_voice/artifacts/gdt574_5_action_count_cards.tsv",
+      "role": "five owner/action count voice cards",
+      "sha256": "ad2d165d7b795af043952f7d9d523767675fa8b97d167e0442996c87cf4b2b99"
+    },
+    {
+      "path": "experiments/yolo/gdt574_adjacent_action_count_voice/artifacts/gdt574_43_adjacent_action_pair_assignments.tsv",
+      "role": "all eligible pair spans atom positions and two-slot expansions",
+      "sha256": "b059b4a9c4a5e9499d180b64fcb40fa56eb1e0e3372222b275c0595fbb63aae9"
+    },
+    {
+      "path": "experiments/yolo/gdt574_adjacent_action_count_voice/artifacts/gdt574_36_changed_action_clauses.tsv",
+      "role": "complete changed-clause before after and roundtrip audit",
+      "sha256": "de07e3f9bc566fafeb0945c5b40a9787af9b4c5cb8cbf1a08c223ea46212589f"
+    },
+    {
+      "path": "experiments/yolo/gdt574_adjacent_action_count_voice/artifacts/gdt574_5122_action_count_event_edition.tsv",
+      "role": "complete event edition with source and slot expansion channels",
+      "sha256": "50cef33579bdd57aab81e8b14003e29bd0ff39e6c60ae343f3463b1d5874e4e2"
+    },
+    {
+      "path": "experiments/yolo/gdt574_adjacent_action_count_voice/artifacts/gdt574_793_action_count_statement_edition.tsv",
+      "role": "complete statement edition with source and slot expansion channels",
+      "sha256": "42eea1286c5d893f66a35c0574c609dc51361b9b5c17c4cc6f5313b88125b9d7"
+    },
+    {
+      "path": "experiments/yolo/gdt574_adjacent_action_count_voice/artifacts/gdt574_30_page_action_count_profiles.tsv",
+      "role": "thirty page-level action-count profiles",
+      "sha256": "90bf19689875020ee71baafc80ad7b1fad0dfa8191eb395444544715e03a08ea"
+    },
+    {
+      "path": "experiments/yolo/gdt574_adjacent_action_count_voice/artifacts/gdt574_result.json",
+      "role": "compact result object",
+      "sha256": "f246b52346bfc0630e03561e85d5ab9e84bb5a9f850ac7d2e9d1969ba986a252"
+    },
+    {
+      "path": "experiments/yolo/gdt574_adjacent_action_count_voice/artifacts/gdt574_validation.json",
+      "role": "independent 55-check validation record",
+      "sha256": "ff3768f083f29f2191bd87ba54400f62afec04b1c2208adf97a5dd09b149069c"
+    },
+    {
+      "path": "experiments/yolo/gdt574_adjacent_action_count_voice/src/run.py",
+      "role": "reproducible adjacent-action compiler",
+      "sha256": "da085469b53f90cec55628d5f6b719ddf0cbce6d68ca71b29101dbbc40602508"
+    },
+    {
+      "path": "experiments/yolo/gdt574_adjacent_action_count_voice/src/validate.py",
+      "role": "independent source validator",
+      "sha256": "3733d7482b9c42e7a2b874d1896dc7225e430710ed9f13076e14f9227767680e"
+    }
+  ],
+  "question": "Which repeated actions in the complete GDT573 edition are genuine adjacent double slots that can be rendered with zweimal, and can this be done without collapsing interrupted action order or losing either written slot?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "adjacent_action_count_voice",
+  "status": "PASS_105_REPEAT_ACTION_EVENTS__43_RAW_ADJACENT_PAIRS__5_COUNT_CARDS__36_NEW_PLUS_7_RETAINED_TWICE__62_INTERRUPTED_ORDER_EXPLICIT__5122_EXACT_ROUNDTRIPS__ZERO_ROOT_CHANGE",
+  "title": "adjacent action count voice",
+  "updated": "2026-08-27",
+  "validation": {
+    "artifact": "experiments/yolo/gdt574_adjacent_action_count_voice/artifacts/gdt574_validation.json",
+    "status": "PASS"
+  }
+}

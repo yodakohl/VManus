@@ -2522,8 +2522,27 @@ fragment backchannel, and expanding it reconstructs all5,122 previous clauses
 exactly. This changes no written slot or working root; it removes verbosity
 created by our explicit German renderer.
 
+## GDT574 only real action neighbours become „zweimal“
+
+There are105 cards with a repeated action root, but just43 have the identical
+atoms side by side in the raw recipe. Five small voice cards cover all43:
+
+```text
+Entnimm X zweimal
+Nimm X zweimal
+Nimm X zweimal auf
+Nimm zweimal
+Setze X im Arbeitsgang zweimal an
+```
+
+Seven cards already had this voice;36 more now receive it. Every count keeps a
+two-slot expansion and all5,122 GDT573 clauses remain exactly recoverable.
+The other62 repeated-action cards stay explicit because an intervening atom or
+action makes their order informative.
+
 ## Next work
 
-Inventory repeated action clauses and repeated relation/modifier phrases in the
-GDT573 edition. Prefer small reversible `zweimal` or coordination rules, retain
-every source slot in the expansion channel, and open no page or root.
+Inventory exact relation and modifier repetitions in the GDT574 edition.
+Separate true identical neighbours from outer/inner and other scope contrasts;
+compress only the former through reversible count or coordination voice. Open
+no page or root.
