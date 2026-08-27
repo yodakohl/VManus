@@ -13851,3 +13851,25 @@ so GDT574 remains the readable edition. Next give the colliding local
 address/variant sigla short distinct learned voices, then reconnect interrupted
 grades/formal controls to their local action heads;open no page and add no
 portable root value.
+
+## GDT576 turns flattened local markers into a learned-sigla layer
+
+The seven address atoms and five local variant/label atoms now use four common
+German function frames plus twelve learned short heads. The address side says
+`D-/A-/AM-/S-Stelle`, `f-Kennmarke`, `m-Ortsmarke` or `d-Vermerk`; the other
+side says `i-/g-/b-/j-Variante` or `G-Vermerk`. These are analytical codebook
+labels for existing atoms, not claimed pronunciations or new portable roots.
+
+All773 eligible slots are covered:736 address and37 variant/label occurrences.
+The voice changes715 clauses(123 state+592 nonstate),294 statements and28 pages.
+All31 GDT575 different-root phrase collisions become pairwise distinct;the65
+same-root duplicate groups remain explicit. One outer and one inner D_ADDR use
+retain their scope suffixes.
+
+Every assignment retains source/target spans and the fixed recipe position.
+All5,122 GDT574 clauses expand byte-exactly;statement/page order is unchanged
+and all54 checks pass. Use GDT576 as the current readable edition. Next restore
+the62 interrupted same-root modifier/relation occurrences to their local action
+or sequence positions before applying any `wieder`,count or coordination voice;
+then factor the17 outer/inner pairs while retaining both scopes. Open no page
+and add no portable root value.
