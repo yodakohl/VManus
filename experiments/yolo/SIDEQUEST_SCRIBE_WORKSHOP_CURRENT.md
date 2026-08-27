@@ -1,6 +1,6 @@
 # Current thirty-page scribe-workshop theory
 
-Updated: 2026-08-27, after GDT515.
+Updated: 2026-08-27, after GDT517.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -91,6 +91,30 @@ singleton `x` and `c` remain margin-sign tags. The unchanged parser resolves
 all 621 new focus attachments. The current base is 30 pages, 5,122 prose
 events, 744 local cards, 793 statements, 5,672 focus attachments and 5,866
 unified groups.
+
+GDT516 consolidates the 159 new surfaces without adding a portable value. Ten
+carry an exact old complete recipe, 120 more contain a proper old complete
+recipe and 29 use factors alone; old multi-atom cards cover 426/643 component
+positions. Twenty portable skeleton families cover 48 new forms. Ten
+old-local/new-context contacts become three exact agreements, two common
+visible recipes, one learned-name shell and four explicit label/prose
+homographs. `LOCAL_X` unifies standalone/embedded f66r x, while `LOCAL_C` stays
+a local sign. Visible `dy` remains contextual: among 287 ending types, 174 end
+in recipe DY, 111 in Y and two otherwise.
+
+GDT517 is now the default intake route. From the old 26-page running deck it
+learns 4,403 visible chunks/5,555 mappings and compiles all 159 new surfaces;
+the current recipe is generated 159/159, ranked first 117 times and in the top
+five 157 times. Clear learned stems include `q=CARRIER_Q` (147/150),
+`i=LOCAL_CHAR_I` (47/56) and `eee=EEE` (58/61), while `dy` keeps three major
+alternatives. After admission, the 30-page compiler has 4,783 chunks/5,999
+mappings and an exact dictionary for all 5,866 groups. GDT473's 183 packages
+plus GDT513's 510 cards replace the old local placeholders. Every prose
+surface/domain has one recipe; only nine local keys retain two finite choices.
+The 546-card selected stream resolves to 539 green, two amber, three address
+containers and two local shells, with zero stops. Future lookup precedence is
+exact event > known surface/role > compiler rank 1. Next improve the 42 old-base
+rank-1 disagreements from neighbours, owner and role before opening more pages.
 
 GDT459–GDT484 now resolve the formerly opaque local-address tail as the mixed
 codebook architecture anticipated by the sidequest: portable function cards

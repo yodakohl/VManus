@@ -12496,3 +12496,43 @@ the closed 30-page deck: exact complete carrier, compatible old recipe
 fragments, atom/factor composition, bounded local core, then the four explicit
 role homographs. Do not open another page until the compiler reproduces the
 current overlay and reports carrier provenance for every decision.
+
+## GDT517 thirty-page surface-recipe intake compiler
+
+GDT517 supplies that command and opens no page. Its old-base arm learns from
+4,576 invariant running events on the older 26 pages: 1,558 complete surface
+cards, direct aligned insertion residuals, and twelve rounds of high-confidence
+prefix/suffix residual closure produce 4,403 usable visible chunk forms and
+5,555 retained mappings. A full-surface dynamic program ranks recipes first by
+fewest chunks and then by mapping support/share. It parses all 159 GDT515-new
+surfaces and generates the current GDT516 recipe for all 159: 117 rank first,
+145 in the top two, 150 in the top three and 157 in the top five. Only
+`aiicthy` at rank 6 and `dalcheeeky` at rank 56 are deeper.
+
+This does not force false stem invariance. Learned residuals include
+`q=CARRIER_Q` at 147/150, `i=LOCAL_CHAR_I` at 47/56 and `eee=EEE` at 58/61.
+Visible `dy` retains `DY` 491/847, `D_ADDR+Y` 175/847 and `Y` 152/847; its
+leading route is not high-confidence and cannot recursively promote itself.
+`LOCAL_X` and `LOCAL_C` are explicitly f66r-local mappings, so a general prose
+query still allows `c=CH`.
+
+After recovery, the same builder consumes all 5,122 current running events:
+1,711 invariant surfaces produce 4,783 chunk forms and 5,999 mappings. An exact
+event dictionary covers all 5,866 current groups. The 693 old local events are
+resolved through the disjoint union of 183 GDT473 and 510 GDT513 cards rather
+than stale `LOCAL_ADDRESS` placeholders; learned whole labels remain named
+packages with separate function shells. The surface/domain index has 2,243
+recipe options. Every prose surface/domain key has one recipe; only nine local
+keys retain two finite options (`cheody`, `d`, `doly`, `l`, `o`, `okeal`,
+`okealar`, `r`, `s`). Owner-specific German renderings remain on exact event
+cards and do not multiply surface meanings.
+
+Sequential GDT451 replay of the 546 selected prose-source cards gives 539 raw
+green reads, one old amber and six raw stops. Role separation turns three
+headless itinerary/address closes into readable containers and `axor/chxar`
+into local shells that preserve stream state. Directly observed `shso=SH+S+O`
+receives one finite new amber pair license. The final stream has 539 green, two
+amber, three address containers, two local shells and zero stops. Validation
+passes 42/42. The live next route is to rerank the 42 old-base top-1
+disagreements from visible neighbours, owner and card role while retaining all
+current recipes and opening no new page.

@@ -1,0 +1,67 @@
+{
+  "experiment_id": "GDT517",
+  "status": "PASS_EXECUTABLE_SURFACE_TO_RECIPE_INTAKE",
+  "claim_ceiling": "EXPLORATORY_WORKING_COMPILER__NO_CONFIRMED_LEXEME_OR_PLAINTEXT",
+  "old26_training_events": 4576,
+  "old26_training_surfaces": 1558,
+  "current30_running_events": 5122,
+  "current30_running_surfaces": 1711,
+  "old26_retained_chunk_forms": 4403,
+  "old26_retained_mappings": 5555,
+  "current30_retained_chunk_forms": 4783,
+  "current30_retained_mappings": 5999,
+  "old26_closure_rounds": 12,
+  "current30_closure_rounds": 9,
+  "new_surface_recovery": {
+    "target_count": 159,
+    "parsed_count": 159,
+    "truth_generated_count": 159,
+    "top1_exact_count": 117,
+    "top2_exact_count": 145,
+    "top3_exact_count": 150,
+    "top5_exact_count": 157,
+    "deepest_truth_rank": 56,
+    "rank_sum": 281,
+    "median_candidate_count": 45,
+    "max_candidate_count": 2000
+  },
+  "top1_disagreement_count": 42,
+  "exact_event_dictionary_count": 5866,
+  "surface_role_option_count": 2243,
+  "local_old_coverage": {
+    "gdt407_local": 693,
+    "gdt473_complete": 183,
+    "gdt513_complete": 510,
+    "union_complete": 693
+  },
+  "selected_prose_replay_count": 546,
+  "raw_execution_decisions": {
+    "READ": 539,
+    "READ_AMBER": 1,
+    "STOP": 6
+  },
+  "final_execution_decisions": {
+    "READ": 539,
+    "READ_AMBER": 2,
+    "READ_ROLE_CONTAINER": 3,
+    "READ_LOCAL_SHELL": 2
+  },
+  "non_green_or_repair_count": 7,
+  "unresolved_final_stop_count": 0,
+  "dy_top_mapping_after_ambiguity_lock": {
+    "model": "OLD26_RUNNING",
+    "surface_chunk": "dy",
+    "mapping_rank": 1,
+    "recipe": "DY",
+    "recipe_atom_count": 1,
+    "support": 491,
+    "total_surface_support": 847,
+    "support_share": "0.579693",
+    "derivation_score": "5.007966",
+    "high_confidence_top_mapping": "NO",
+    "evidence_sources": "DIRECT_INSERTION_RESIDUAL:66 | ITERATIVE_EDGE_RESIDUAL:425",
+    "ambiguity_policy": "CONTEXT_SENSITIVE_DY_RETAIN_ALTERNATIVES",
+    "mapping_scope": "GENERAL_RUNNING_COMPILER"
+  },
+  "guard": "DEFAULT_TOP1_ALWAYS_EMITTED_WHEN_TILEABLE__FINITE_ALTERNATIVES_PRESERVED"
+}
