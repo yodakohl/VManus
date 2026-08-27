@@ -337,12 +337,23 @@ def main() -> int:
     portable_groups: dict[str, list[str]] = defaultdict(list)
     action_groups: dict[str, list[str]] = defaultdict(list)
     for row in new_rows:
+        event_material = new_event_rows[row["surface"]]
+        new_is_local = all(
+            event["content_role"] != "ORDERED_INSTRUCTION_CARD"
+            for event in event_material
+        )
         recipe, policy, basis = contextual_recipe(
             {
                 "surface": row["surface"],
                 "component_recipe": row["direct_visible_recipe"],
-                "source_layer": "GDT515_SECOND_RANDOM4_RUNNING",
-                "group_kind": "RUNNING_EVENT",
+                "source_layer": (
+                    "GDT515_SECOND_RANDOM4_LOCAL"
+                    if new_is_local
+                    else "GDT515_SECOND_RANDOM4_RUNNING"
+                ),
+                "group_kind": (
+                    "LOCAL_ADDRESS_OR_LABEL" if new_is_local else "RUNNING_EVENT"
+                ),
             }
         )
         sequence = atoms(recipe)
@@ -365,7 +376,6 @@ def main() -> int:
             tier = "OLD_COMPLETE_RECIPE_FRAGMENT_PLUS_ATOMS"
         else:
             tier = "ATOMS_AND_FACTORS_ONLY"
-        event_material = new_event_rows[row["surface"]]
         family_rows.append(
             {
                 "surface": row["surface"],
