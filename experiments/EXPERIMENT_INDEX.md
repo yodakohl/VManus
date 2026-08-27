@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **575**
-- Experiment-associated tracked files: **8,568** (875.8 MiB)
-- Structured GDT337+ experiments: **240**
+- Experiments indexed: **576**
+- Experiment-associated tracked files: **8,583** (876.0 MiB)
+- Structured GDT337+ experiments: **241**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT577 | GDT577_interrupted_modifier_attachment_topology | `PASS_62_INTERRUPTED_GROUPS__125_SLOTS__75_EXISTING_ATTACHMENTS_REPLAYED__50_EXPLORATORY_HEAD_CANDIDATES__5_TOPOLOGIES__ONE_RENDERER_HISTORY_CONFLICT__ZERO_SLOT_COLLAPSE` | [report](../experiments/yolo/gdt577_interrupted_modifier_attachment_topology/REPORT.md) | 15 | 182.4 KiB | 6 | STRUCTURED_YOLO |
 | GDT576 | GDT576_learned_local_sigla_voice | `PASS_4_FAMILY_FRAMES__12_LEARNED_SIGLA_CARDS__773_LOCAL_SLOTS__715_CLAUSES_DIFFERENTIATED__31_COLLISIONS_RESOLVED__5122_EXACT_ROUNDTRIPS__ZERO_ROOT_CHANGE` | [report](../experiments/yolo/gdt576_learned_local_sigla_voice/REPORT.md) | 18 | 4.4 MiB | 4 | STRUCTURED_YOLO |
 | GDT575 | GDT575_repeated_relation_modifier_scope_atlas | `PASS_4609_RELATION_MODIFIER_SLOTS__96_DUPLICATE_GROUPS_IN_90_EVENTS__3_SAME_ROOT_ADJACENT__62_SAME_ROOT_INTERRUPTED__31_SURFACE_COLLISIONS__17_OUTER_INNER_PAIRS__ZERO_SCOPE_COLLAPSE` | [report](../experiments/yolo/gdt575_repeated_relation_modifier_scope_atlas/REPORT.md) | 15 | 133.4 KiB | 4 | STRUCTURED_YOLO |
 | GDT574 | GDT574_adjacent_action_count_voice | `PASS_105_REPEAT_ACTION_EVENTS__43_RAW_ADJACENT_PAIRS__5_COUNT_CARDS__36_NEW_PLUS_7_RETAINED_TWICE__62_INTERRUPTED_ORDER_EXPLICIT__5122_EXACT_ROUNDTRIPS__ZERO_ROOT_CHANGE` | [report](../experiments/yolo/gdt574_adjacent_action_count_voice/REPORT.md) | 18 | 4.8 MiB | 3 | STRUCTURED_YOLO |

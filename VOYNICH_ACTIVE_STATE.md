@@ -13873,3 +13873,28 @@ the62 interrupted same-root modifier/relation occurrences to their local action
 or sequence positions before applying any `wieder`,count or coordination voice;
 then factor the17 outer/inner pairs while retaining both scopes. Open no page
 and add no portable root value.
+
+## GDT577 gives every interrupted modifier an explicit head topology
+
+The62 GDT575 interrupted same-root groups contain125 written slots in59 events.
+All75 existing E/EE/AR focus bindings replay exactly from GDT407/GDT515. The50
+previously unbound O/D_ADDR slots receive an explicitly exploratory editorial
+head:35 use the nearest visible action inside the same OT/OL/DY carrier,14 use
+the active action on the same page and owner, and one uses the written OL
+continuation carrier. These candidates organize German word order; they do not
+add an O or D_ADDR meaning.
+
+Only five attachment topologies are needed:35 groups use distinct action
+occurrences,15 bracket one head,three lie on the same side of one head,eight
+use one active context head,and one combines an action with a sequence carrier.
+Every slot retains root,scope,recipe position,head identity,placement and
+provenance. The resulting repeat-particle deck has52 later `erneut`,ten
+`wieder` and one third-mention `nochmals` candidates,never a blanket `zweimal`.
+
+One renderer-history conflict is isolated at G407-E1755. GDT416 automatically
+called its repeated AR outer/inner,whereas GDT565 later restored the plain
+written D_ADDR→AR→D_ADDR→AR order;both fixed AR focus rows are SINGLE/SINGLE.
+Keep the whole event unchanged rather than choosing either history silently.
+The other60 groups in58 events are renderer-ready,and all49 checks pass. GDT576
+remains the readable edition. Next render those58 events once at event level,
+then coordinate the17 disjoint outer/inner pairs. Open no page and add no root.
