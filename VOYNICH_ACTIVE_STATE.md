@@ -13440,3 +13440,26 @@ versus only2/141 in corresponding no-DY families. Thus grade changes the value,
 not the operator scope. All333 assignments have defaults and all31 checks pass.
 Next apply the same envelope reader to `Y/AIIN/AIN/OR`; no page, recipe, root
 value or statement boundary changed.
+
+## GDT559 makes the four arguments carrier values
+
+Among the1,656 state cards,382 contain390 exact argument atoms:268 `Y`,54
+`AIIN`,34 `AIN` and34 `OR`, across241 statements/28 running pages. Every
+occurrence falls in one of6 control envelopes and every complete written
+control projection falls in one of24 sequences. OT or OL is the visible left
+boundary of343/390 occurrences;31 arguments stand before DY and18 before OL.
+
+Eleven exact single-slot substitution families cover229 cards. The bare
+`OT+ARG` family has88 cards and `OL+ARG`59; both contain all4 roots. Every one
+of the6 argument pairs shares both bare frames plus at least one additional
+state-specific frame. Thus the dictionary entries remain one-word values:
+`Y=POSTEN`, `AIIN=WERT`, `AIN=ANTEIL`, `OR=EINHEIT`; the surrounding operator
+supplies DANACH/FORTSETZEN/ABSCHLIESSEN.
+
+For341 cards whose final argument lies after OT or OL,157/157 successors
+without a new visible argument inherit exactly that value,173 successors reset
+it visibly and11 end the statement. There are no wrong inheritances. `Y` and
+`DY` are also explicitly separate:28 cards contain both, always Y before DY;
+27 close the statement and `Y+DY+D_LABEL` closes only a local step. All390
+occurrences and24 sequences have defaults and all38 checks pass. Next apply
+the same carrier test to `AL/AR/L/AIR`; no page or root value changed.

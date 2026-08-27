@@ -1,6 +1,6 @@
 # Current thirty-page scribe-workshop theory
 
-Updated: 2026-08-27, after GDT558.
+Updated: 2026-08-27, after GDT559.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -2178,8 +2178,37 @@ OL         continues it from the left or retains it from the right
 DY         closes it
 ```
 
+## GDT559 the four arguments are values carried by the state machine
+
+All390 `Y/AIIN/AIN/OR` occurrences in state cards now have one of6 envelope
+readings. The roots stay short; the compound supplies the longer instruction:
+
+```text
+Y     POSTEN
+AIIN  WERT
+AIN   ANTEIL
+OR    EINHEIT
+
+OT + ARG  DANACH · ARG
+OL + ARG  FORTSETZEN · ARG
+ARG + OL  ARG · FORTSETZEN
+ARG + DY  ARG · ABSCHLIESSEN
+```
+
+The exact bare frames `OT+ARG`(88 cards) and `OL+ARG`(59) each contain all4
+values. Eleven exact exchange families cover229 cards and bridge all6 root
+pairs. For341 cards with a final argument after OT/OL, every one of157 implicit
+successors inherits the current value;173 visible arguments replace it and11
+cards end. This turns the carrier from a within-card gloss into a statement
+state.
+
+`Y` is not swallowed by `DY`:235 state cards have Y alone,677 DY alone and28
+both. In all28 joint cards Y precedes the separate close operator;27 close the
+statement and `Y+DY+D_LABEL` closes a local step before its label tail.
+
 ## Next work
 
-Hold these controls and grade values fixed. Apply the same envelope parsing to
-`Y/AIIN/AIN/OR` and look for exact argument-substitution families inside a
-fixed state frame. Use the same30 pages and open no new page.
+Hold controls, grades and the four argument values fixed. Put
+`AL/AR/L/AIR` through the same envelope and substitution reader. Ask whether
+they are carried values like arguments or directed links between two carriers.
+Use the same30 pages and open no new page.
