@@ -12367,3 +12367,28 @@ phrase, evidence label, surface, occurrence or page changes. Validation passes
 rectangles, and do not merely relabel the nineteen meanings already audited in
 GDT409/GDT428/GDT429; a next route needs a genuinely different semantic
 endpoint within the same 26 pages.
+
+## GDT513 remaining local-group semantic census
+
+GDT513 takes the exact complement of GDT473 inside GDT407's 693 local groups.
+The resulting 510 cards were semantically deferred by GDT413 but are not
+structureless: 501 carry inherited P912/Pass-1009 component recipes and nine
+are section markers. The current nineteen-root dictionary now gives every card
+a default while keeping all formal and local values bracketed as structure.
+
+The edition contains 254 instruction cards, 104 address/continuation cards,
+120 coordinate/catalogue cards, 23 local class/name cards and nine section
+markers. Two hundred fifty-two repeat an exact running surface+recipe and 22
+more use an old running recipe under another surface. Another 18 share a
+running surface but retain a local parse, six repeat a local surface, five a
+local recipe and 198 are visible page-private compositions. All eighteen parse
+collisions have a named local macro, class sign or scope/close explanation;
+none creates portable polysemy.
+
+The selected exploratory architecture is a mixed formula/record/nomenclator,
+with record cards as container and productive components inside them. This is
+not independent recovery of the inherited segmentations. Of 167 contacts with
+GDT405, 157 recipes agree, eight are role-bound section markers and two old
+local parses (`chcthy`, `cthey`) differ. GDT405 remains authoritative on any
+future occurrence. Validation passes 5,997/5,997. Next consume the authorized
+second random four-page batch against GDT405 and the five GDT513 expectations.

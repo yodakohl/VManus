@@ -1,0 +1,1069 @@
+# GDT513 — Vollständige Lesefassung der 510 übrigen Lokalgruppen
+
+Status: `ALL_510_REMAINING_LOCAL_GROUPS_RECEIVE_DEFAULTS__MIXED_RECORD_MODEL_SELECTED`
+
+Die 510 Karten waren in GDT413 semantisch zurückgestellt, aber nicht strukturlos: 501 besitzen bereits ein sichtbares Komponentenrezept, neun sind Abschnittsmarken. Portable Arbeitswerte stehen als normale Wörter; formale und lokale Werte bleiben eckig geklammerte Struktur-Tags.
+
+## Fünf Arbeitshypothesen
+
+| Rang | Hypothese | Entscheidung |
+|---:|---|---|
+| 1 | Ein gemischtes Mikroregister verbindet Formeln, Adressen, Katalogkarten, lokale Kennungen und Abschnittsmarken. | `SELECT_AS_BEST_CURRENT_ARCHITECTURE` |
+| 2 | Die lokalen Gruppen sind positionsgebundene Datensatzkarten und keine fortlaufenden Satzwörter. | `RETAIN_AS_CONTAINER_MODEL` |
+| 3 | Nichtmarker sind sichtbare Zusammensetzungen der bekannten Funktions- und Strukturkomponenten. | `RETAIN_AS_FUNCTION_LAYER__NOT_COMPLETE_CONTAINER` |
+| 4 | Alte Funktionsrezepte können in lokalen Registern unter anderen sichtbaren Oberflächen erscheinen. | `RETAIN_AS_BOUNDED_RENDERING_EFFECT` |
+| 5 | Jede lokale Oberfläche ist primär ein gelernter Eigenname oder Einzelbezeichner. | `REJECT_AS_SINGLE_GLOBAL_MODEL__KEEP_LOCAL_NAME_TAIL` |
+
+## f67r2
+
+- `f67r2.1` `ykshy` → ANWEISUNG BEI zwei lokale Himmelsraeder: POSTEN · GEBEN · POSTEN
+  - Rezept `Y+K+Y` · `B_RUNNING_RECIPE_NEW_SURFACE`
+- `f67r2.1` `s` → ANWEISUNG BEI zwei lokale Himmelsraeder: WÄHLEN
+  - Rezept `S` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f67r2.1` `aram` → KOORDINATE/KATALOGEINTRAG BEI zwei lokale Himmelsraeder: AUSGANG · [AM_ADDR:LOKALSTRUKTUR=HIER]
+  - Rezept `AR+AM_ADDR` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f67r2.2` `ykecho` → ANWEISUNG BEI zwei lokale Himmelsraeder: POSTEN · GEBEN · [E:STEUERUNG=GRAD I] · NEHMEN · [O:STEUERUNG=AUSFÜHRUNG]
+  - Rezept `Y+K+E+CH+O` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f67r2.2` `ols` → ANWEISUNG BEI zwei lokale Himmelsraeder: FORTSETZEN · WÄHLEN
+  - Rezept `OL+S` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f67r2.2` `eesydy` → ANWEISUNG BEI zwei lokale Himmelsraeder: [EE:STEUERUNG=GRAD II] · WÄHLEN · POSTEN · [D_ADDR:LOKALSTRUKTUR=HIER] · POSTEN
+  - Rezept `EE+S+Y+D_ADDR+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f67r2.3` `ey` → KOORDINATE/KATALOGEINTRAG BEI zwei lokale Himmelsraeder: [E:STEUERUNG=GRAD I] · POSTEN
+  - Rezept `E+Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f67r2.3` `shs` → ANWEISUNG BEI zwei lokale Himmelsraeder: HALTEN · WÄHLEN
+  - Rezept `SH+S` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f67r2.3` `okar` → ANWEISUNG BEI zwei lokale Himmelsraeder: SETZEN · AUSGANG
+  - Rezept `OK+AR` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f67r2.4` `shekchy` → ANWEISUNG BEI zwei lokale Himmelsraeder: HALTEN · [E:STEUERUNG=GRAD I] · GEBEN · NEHMEN · POSTEN
+  - Rezept `SH+E+K+CH+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f67r2.4` `sykos` → ANWEISUNG BEI zwei lokale Himmelsraeder: WÄHLEN · POSTEN · GEBEN · [O:STEUERUNG=AUSFÜHRUNG] · [S_ADDR:LOKALSTRUKTUR=HIER]
+  - Rezept `S+Y+K+O+S_ADDR` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f67r2.5` `ykeody` → ANWEISUNG BEI zwei lokale Himmelsraeder: POSTEN · GEBEN · [E:STEUERUNG=GRAD I] · [O:STEUERUNG=AUSFÜHRUNG] · [DY:STEUERUNG=SCHLUSS]
+  - Rezept `Y+K+E+O+DY` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f67r2.5` `okchy` → ANWEISUNG BEI zwei lokale Himmelsraeder: SETZEN · POSTEN
+  - Rezept `OK+Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f67r2.6` `dchetay` → ANWEISUNG BEI zwei lokale Himmelsraeder: [D_ADDR:LOKALSTRUKTUR=HIER] · NEHMEN · [E:STEUERUNG=GRAD I] · EINSTELLEN · [A_ADDR:LOKALSTRUKTUR=HIER] · POSTEN
+  - Rezept `D_ADDR+CH+E+T+A_ADDR+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f67r2.7` `ykchy` → ANWEISUNG BEI zwei lokale Himmelsraeder: POSTEN · GEBEN · POSTEN
+  - Rezept `Y+K+Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f67r2.7` `kchey` → ANWEISUNG BEI zwei lokale Himmelsraeder: GEBEN · NEHMEN · [E:STEUERUNG=GRAD I] · POSTEN
+  - Rezept `K+CH+E+Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f67r2.7` `ykchys` → ANWEISUNG BEI zwei lokale Himmelsraeder: POSTEN · GEBEN · NEHMEN · POSTEN · WÄHLEN
+  - Rezept `Y+K+CH+Y+S` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f67r2.8` `chkchdar` → ANWEISUNG BEI zwei lokale Himmelsraeder: [CHK:LOKALSTRUKTUR=BEDINGUNGSKLASSE] · BEARBEITEN · AUSGANG
+  - Rezept `CHK+CHD+AR` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f67r2.9` `ykar` → ANWEISUNG BEI zwei lokale Himmelsraeder: POSTEN · GEBEN · AUSGANG
+  - Rezept `Y+K+AR` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f67r2.9` `ykaly` → ANWEISUNG BEI zwei lokale Himmelsraeder: POSTEN · GEBEN · ZIELORT · POSTEN
+  - Rezept `Y+K+AL+Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f67r2.10` `lkshy` → ANWEISUNG BEI zwei lokale Himmelsraeder: VERBINDUNG · GEBEN · HALTEN · POSTEN
+  - Rezept `L+K+SH+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f67r2.10` `kchy` → ANWEISUNG BEI zwei lokale Himmelsraeder: GEBEN · POSTEN
+  - Rezept `K+Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f67r2.10` `okar` → ANWEISUNG BEI zwei lokale Himmelsraeder: SETZEN · AUSGANG
+  - Rezept `OK+AR` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f67r2.11` `chky` → KOORDINATE/KATALOGEINTRAG BEI zwei lokale Himmelsraeder: [CHK:LOKALSTRUKTUR=BEDINGUNGSKLASSE] · POSTEN
+  - Rezept `CHK+Y` · `C_RUNNING_SURFACE_DIFFERENT_LOCAL_PARSE`
+- `f67r2.11` `chykchs` → ANWEISUNG BEI zwei lokale Himmelsraeder: NEHMEN · POSTEN · GEBEN · NEHMEN · WÄHLEN
+  - Rezept `CH+Y+K+CH+S` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f67r2.11` `chy` → KOORDINATE/KATALOGEINTRAG BEI zwei lokale Himmelsraeder: POSTEN
+  - Rezept `Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f67r2.12` `ykees` → ANWEISUNG BEI zwei lokale Himmelsraeder: POSTEN · GEBEN · [EE:STEUERUNG=GRAD II] · WÄHLEN
+  - Rezept `Y+K+EE+S` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f67r2.12` `ykchos` → ANWEISUNG BEI zwei lokale Himmelsraeder: POSTEN · GEBEN · NEHMEN · [O:STEUERUNG=AUSFÜHRUNG] · WÄHLEN
+  - Rezept `Y+K+CH+O+S` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f67r2.15` `dolchsody` → ANWEISUNG BEI zwei lokale Himmelsraeder: [D_ADDR:LOKALSTRUKTUR=HIER] · FORTSETZEN · NEHMEN · [S_ADDR:LOKALSTRUKTUR=HIER] · [O:STEUERUNG=AUSFÜHRUNG] · [DY:STEUERUNG=SCHLUSS]
+  - Rezept `D_ADDR+OL+CH+S_ADDR+O+DY` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f67r2.22` `okal` → ANWEISUNG BEI zwei lokale Himmelsraeder: SETZEN · ZIELORT
+  - Rezept `OK+AL` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f67r2.28` `okain` → ANWEISUNG BEI zwei lokale Himmelsraeder: SETZEN · ANTEIL
+  - Rezept `OK+AIN` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f67r2.28` `am` → LOKALE KENNUNG BEI zwei lokale Himmelsraeder: [AM_ADDR:LOKALSTRUKTUR=HIER]
+  - Rezept `AM_ADDR` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f67r2.31` `opcholdy` → ANWEISUNG BEI zwei lokale Himmelsraeder: [O:STEUERUNG=AUSFÜHRUNG] · EINSETZEN · FORTSETZEN · [D_ADDR:LOKALSTRUKTUR=HIER] · POSTEN
+  - Rezept `O+P+OL+D_ADDR+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f67r2.34` `ofar` → KOORDINATE/KATALOGEINTRAG BEI zwei lokale Himmelsraeder: [O:STEUERUNG=AUSFÜHRUNG] · [LOCAL_CHAR_F:LOKALSTRUKTUR=HIER] · AUSGANG
+  - Rezept `O+LOCAL_CHAR_F+AR` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f67r2.34` `oeoldan` → ADRESSE/FORTSETZUNG BEI zwei lokale Himmelsraeder: [O:STEUERUNG=AUSFÜHRUNG] · [E:STEUERUNG=GRAD I] · FORTSETZEN · [D_ADDR:LOKALSTRUKTUR=HIER] · [AN:LOKALSTRUKTUR=KLASSE]
+  - Rezept `O+E+OL+D_ADDR+AN` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f67r2.37` `ytoaiin` → ANWEISUNG BEI zwei lokale Himmelsraeder: POSTEN · EINSTELLEN · [O:STEUERUNG=AUSFÜHRUNG] · WERT
+  - Rezept `Y+T+O+AIIN` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f67r2.47` `yfain` → KOORDINATE/KATALOGEINTRAG BEI zwei lokale Himmelsraeder: POSTEN · [LOCAL_CHAR_F:LOKALSTRUKTUR=HIER] · ANTEIL
+  - Rezept `Y+LOCAL_CHAR_F+AIN` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f67r2.52` `qotoear` → ADRESSE/FORTSETZUNG BEI zwei lokale Himmelsraeder: DANACH · [O:STEUERUNG=AUSFÜHRUNG] · [E:STEUERUNG=GRAD I] · AUSGANG
+  - Rezept `OT+O+E+AR` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f67r2.53` `dchdar` → ANWEISUNG BEI zwei lokale Himmelsraeder: [D_ADDR:LOKALSTRUKTUR=HIER] · BEARBEITEN · AUSGANG
+  - Rezept `D_ADDR+CHD+AR` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f67r2.54` `y` → KOORDINATE/KATALOGEINTRAG BEI zwei lokale Himmelsraeder: POSTEN
+  - Rezept `Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f67r2.54` `saldal` → ANWEISUNG BEI zwei lokale Himmelsraeder: WÄHLEN · ZIELORT · [DA:STEUERUNG=ZWEITE STUFE] · VERBINDUNG
+  - Rezept `S+AL+DA+L` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f67r2.55` `ytodal` → ANWEISUNG BEI zwei lokale Himmelsraeder: POSTEN · EINSTELLEN · [O:STEUERUNG=AUSFÜHRUNG] · [DA:STEUERUNG=ZWEITE STUFE] · VERBINDUNG
+  - Rezept `Y+T+O+DA+L` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f67r2.56` `tol` → ANWEISUNG BEI zwei lokale Himmelsraeder: EINSTELLEN · FORTSETZEN
+  - Rezept `T+OL` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f67r2.56` `daiin` → KOORDINATE/KATALOGEINTRAG BEI zwei lokale Himmelsraeder: WERT
+  - Rezept `AIIN` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f67r2.57` `otar` → ADRESSE/FORTSETZUNG BEI zwei lokale Himmelsraeder: DANACH · AUSGANG
+  - Rezept `OT+AR` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f67r2.57` `dy` → KOORDINATE/KATALOGEINTRAG BEI zwei lokale Himmelsraeder: POSTEN
+  - Rezept `Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f67r2.58` `cho` → LOKALE KENNUNG BEI zwei lokale Himmelsraeder: [HO:LOKALSTRUKTUR=KLASSE]
+  - Rezept `HO` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f67r2.58` `dal` → KOORDINATE/KATALOGEINTRAG BEI zwei lokale Himmelsraeder: ZIELORT
+  - Rezept `AL` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f67r2.58` `g` → LOKALE KENNUNG BEI zwei lokale Himmelsraeder: [G_LABEL:LOKALSTRUKTUR=VARIANTE]
+  - Rezept `G_LABEL` · `C_RUNNING_SURFACE_DIFFERENT_LOCAL_PARSE`
+- `f67r2.59` `ytchodly` → ANWEISUNG BEI zwei lokale Himmelsraeder: POSTEN · EINSTELLEN · NEHMEN · [O:STEUERUNG=AUSFÜHRUNG] · [D_ADDR:LOKALSTRUKTUR=HIER] · VERBINDUNG · POSTEN
+  - Rezept `Y+T+CH+O+D_ADDR+L+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f67r2.60` `octhys` → ANWEISUNG BEI zwei lokale Himmelsraeder: [O:STEUERUNG=AUSFÜHRUNG] · [CTH:LOKALSTRUKTUR=BEREITSCHAFTSKLASSE] · POSTEN · WÄHLEN
+  - Rezept `O+CTH+Y+S` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f67r2.61` `ytokar` → ANWEISUNG BEI zwei lokale Himmelsraeder: POSTEN · EINSTELLEN · SETZEN · AUSGANG
+  - Rezept `Y+T+OK+AR` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f67r2.62` `otolor` → ADRESSE/FORTSETZUNG BEI zwei lokale Himmelsraeder: DANACH · FORTSETZEN · EINHEIT
+  - Rezept `OT+OL+OR` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f67r2.63` `okodar` → ANWEISUNG BEI zwei lokale Himmelsraeder: SETZEN · [O:STEUERUNG=AUSFÜHRUNG] · [DA:STEUERUNG=ZWEITE STUFE] · MARKIEREN
+  - Rezept `OK+O+DA+R` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f67r2.64` `s` → ANWEISUNG BEI zwei lokale Himmelsraeder: WÄHLEN
+  - Rezept `S` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f67r2.64` `air` → KOORDINATE/KATALOGEINTRAG BEI zwei lokale Himmelsraeder: BAHN
+  - Rezept `AIR` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f67r2.65` `soear` → ANWEISUNG BEI zwei lokale Himmelsraeder: WÄHLEN · [O:STEUERUNG=AUSFÜHRUNG] · [E:STEUERUNG=GRAD I] · AUSGANG
+  - Rezept `S+O+E+AR` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f67r2.66` `cpheey` → KOORDINATE/KATALOGEINTRAG BEI zwei lokale Himmelsraeder: [CPH:LOKALSTRUKTUR=GEGENPLATZ] · [EE:STEUERUNG=GRAD II] · POSTEN
+  - Rezept `CPH+EE+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f67r2.67` `okodar` → ANWEISUNG BEI zwei lokale Himmelsraeder: SETZEN · [O:STEUERUNG=AUSFÜHRUNG] · [DA:STEUERUNG=ZWEITE STUFE] · MARKIEREN
+  - Rezept `OK+O+DA+R` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f67r2.68` `oepchod` → ANWEISUNG BEI zwei lokale Himmelsraeder: [O:STEUERUNG=AUSFÜHRUNG] · [E:STEUERUNG=GRAD I] · EINSETZEN · NEHMEN · [O:STEUERUNG=AUSFÜHRUNG] · [D_ADDR:LOKALSTRUKTUR=HIER]
+  - Rezept `O+E+P+CH+O+D_ADDR` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f67r2.69` `s` → ANWEISUNG BEI zwei lokale Himmelsraeder: WÄHLEN
+  - Rezept `S` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f67r2.69` `ay` → KOORDINATE/KATALOGEINTRAG BEI zwei lokale Himmelsraeder: [A_ADDR:LOKALSTRUKTUR=HIER] · POSTEN
+  - Rezept `A_ADDR+Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f67r2.70` `osar` → ANWEISUNG BEI zwei lokale Himmelsraeder: [O:STEUERUNG=AUSFÜHRUNG] · WÄHLEN · AUSGANG
+  - Rezept `O+S+AR` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f67r2.71` `oran` → KOORDINATE/KATALOGEINTRAG BEI zwei lokale Himmelsraeder: EINHEIT · [AN:LOKALSTRUKTUR=KLASSE]
+  - Rezept `OR+AN` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+
+## f68r1
+
+- `f68r1.8` `okodaly` → ANWEISUNG BEI mehrteiliger Sternatlas mit lokalen Zentren: SETZEN · [O:STEUERUNG=AUSFÜHRUNG] · [DA:STEUERUNG=ZWEITE STUFE] · VERBINDUNG · POSTEN
+  - Rezept `OK+O+DA+L+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f68r1.9` `odchecthy` → ANWEISUNG BEI mehrteiliger Sternatlas mit lokalen Zentren: [O:STEUERUNG=AUSFÜHRUNG] · [D_ADDR:LOKALSTRUKTUR=HIER] · NEHMEN · [E:STEUERUNG=GRAD I] · [CTH:LOKALSTRUKTUR=BEREITSCHAFTSKLASSE] · POSTEN
+  - Rezept `O+D_ADDR+CH+E+CTH+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f68r1.10` `otcheody` → ADRESSE/FORTSETZUNG BEI mehrteiliger Sternatlas mit lokalen Zentren: DANACH · [CHEO:LOKALSTRUKTUR=LOKALER EINTRAG] · [D_ADDR:LOKALSTRUKTUR=HIER] · POSTEN
+  - Rezept `OT+CHEO+D_ADDR+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f68r1.11` `okoaly` → ANWEISUNG BEI mehrteiliger Sternatlas mit lokalen Zentren: SETZEN · [O:STEUERUNG=AUSFÜHRUNG] · ZIELORT · POSTEN
+  - Rezept `OK+O+AL+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f68r1.12` `chocfhy` → ANWEISUNG BEI mehrteiliger Sternatlas mit lokalen Zentren: NEHMEN · [O:STEUERUNG=AUSFÜHRUNG] · [CFH:LOKALSTRUKTUR=TRENNKLASSE] · POSTEN
+  - Rezept `CH+O+CFH+Y` · `C_RUNNING_SURFACE_DIFFERENT_LOCAL_PARSE`
+- `f68r1.13` `octhey` → KOORDINATE/KATALOGEINTRAG BEI mehrteiliger Sternatlas mit lokalen Zentren: [O:STEUERUNG=AUSFÜHRUNG] · [CTH:LOKALSTRUKTUR=BEREITSCHAFTSKLASSE] · [E:STEUERUNG=GRAD I] · POSTEN
+  - Rezept `O+CTH+E+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f68r1.14` `otshey` → ANWEISUNG BEI mehrteiliger Sternatlas mit lokalen Zentren: DANACH · HALTEN · [E:STEUERUNG=GRAD I] · POSTEN
+  - Rezept `OT+SH+E+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f68r1.15` `otydy` → ADRESSE/FORTSETZUNG BEI mehrteiliger Sternatlas mit lokalen Zentren: DANACH · POSTEN · [D_ADDR:LOKALSTRUKTUR=HIER] · POSTEN
+  - Rezept `OT+Y+D_ADDR+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f68r1.16` `okear` → ANWEISUNG BEI mehrteiliger Sternatlas mit lokalen Zentren: SETZEN · [E:STEUERUNG=GRAD I] · AUSGANG
+  - Rezept `OK+E+AR` · `B_RUNNING_RECIPE_NEW_SURFACE`
+- `f68r1.17` `cphocthy` → KOORDINATE/KATALOGEINTRAG BEI mehrteiliger Sternatlas mit lokalen Zentren: [CPH:LOKALSTRUKTUR=GEGENPLATZ] · [O:STEUERUNG=AUSFÜHRUNG] · [CTH:LOKALSTRUKTUR=BEREITSCHAFTSKLASSE] · POSTEN
+  - Rezept `CPH+O+CTH+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f68r1.18` `ytchody` → ANWEISUNG BEI mehrteiliger Sternatlas mit lokalen Zentren: POSTEN · EINSTELLEN · NEHMEN · [O:STEUERUNG=AUSFÜHRUNG] · [D_ADDR:LOKALSTRUKTUR=HIER] · POSTEN
+  - Rezept `Y+T+CH+O+D_ADDR+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f68r1.19` `otys` → ANWEISUNG BEI mehrteiliger Sternatlas mit lokalen Zentren: DANACH · POSTEN · WÄHLEN
+  - Rezept `OT+Y+S` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f68r1.20` `olor` → ADRESSE/FORTSETZUNG BEI mehrteiliger Sternatlas mit lokalen Zentren: FORTSETZEN · EINHEIT
+  - Rezept `OL+OR` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f68r1.21` `ockhy` → KOORDINATE/KATALOGEINTRAG BEI mehrteiliger Sternatlas mit lokalen Zentren: [O:STEUERUNG=AUSFÜHRUNG] · [CKH:LOKALSTRUKTUR=VERBINDUNGSWEG] · POSTEN
+  - Rezept `O+CKH+Y` · `C_RUNNING_SURFACE_DIFFERENT_LOCAL_PARSE`
+- `f68r1.22` `ofcheor` → ANWEISUNG BEI mehrteiliger Sternatlas mit lokalen Zentren: [O:STEUERUNG=AUSFÜHRUNG] · [LOCAL_CHAR_F:LOKALSTRUKTUR=HIER] · [CHEO:LOKALSTRUKTUR=LOKALER EINTRAG] · MARKIEREN
+  - Rezept `O+LOCAL_CHAR_F+CHEO+R` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f68r1.23` `otchdy` → ANWEISUNG BEI mehrteiliger Sternatlas mit lokalen Zentren: DANACH · BEARBEITEN · [DY:STEUERUNG=SCHLUSS]
+  - Rezept `OT+CHD+DY` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f68r1.24` `otykchs` → ANWEISUNG BEI mehrteiliger Sternatlas mit lokalen Zentren: DANACH · POSTEN · GEBEN · NEHMEN · WÄHLEN
+  - Rezept `OT+Y+K+CH+S` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f68r1.25` `otol` → ADRESSE/FORTSETZUNG BEI mehrteiliger Sternatlas mit lokalen Zentren: DANACH · FORTSETZEN
+  - Rezept `OT+OL` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f68r1.26` `otor` → ADRESSE/FORTSETZUNG BEI mehrteiliger Sternatlas mit lokalen Zentren: DANACH · EINHEIT
+  - Rezept `OT+OR` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f68r1.27` `oiinar` → KOORDINATE/KATALOGEINTRAG BEI mehrteiliger Sternatlas mit lokalen Zentren: [O:STEUERUNG=AUSFÜHRUNG] · [IIN:STEUERUNG=STUFE] · AUSGANG
+  - Rezept `O+IIN+AR` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f68r1.28` `okoldy` → ANWEISUNG BEI mehrteiliger Sternatlas mit lokalen Zentren: SETZEN · FORTSETZEN · [DY:STEUERUNG=SCHLUSS]
+  - Rezept `OK+OL+DY` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f68r1.29` `ykchdy` → ANWEISUNG BEI mehrteiliger Sternatlas mit lokalen Zentren: POSTEN · GEBEN · BEARBEITEN · POSTEN
+  - Rezept `Y+K+CHD+Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f68r1.30` `oeeody` → KOORDINATE/KATALOGEINTRAG BEI mehrteiliger Sternatlas mit lokalen Zentren: [O:STEUERUNG=AUSFÜHRUNG] · [EE:STEUERUNG=GRAD II] · [O:STEUERUNG=AUSFÜHRUNG] · [D_ADDR:LOKALSTRUKTUR=HIER] · POSTEN
+  - Rezept `O+EE+O+D_ADDR+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f68r1.31` `ocphy` → KOORDINATE/KATALOGEINTRAG BEI mehrteiliger Sternatlas mit lokalen Zentren: [O:STEUERUNG=AUSFÜHRUNG] · [CPH:LOKALSTRUKTUR=GEGENPLATZ] · POSTEN
+  - Rezept `O+CPH+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f68r1.32` `okeeodal` → ANWEISUNG BEI mehrteiliger Sternatlas mit lokalen Zentren: SETZEN · [EE:STEUERUNG=GRAD II] · [O:STEUERUNG=AUSFÜHRUNG] · [DA:STEUERUNG=ZWEITE STUFE] · VERBINDUNG
+  - Rezept `OK+EE+O+DA+L` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f68r1.33` `okshor` → ANWEISUNG BEI mehrteiliger Sternatlas mit lokalen Zentren: SETZEN · HALTEN · EINHEIT
+  - Rezept `OK+SH+OR` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f68r1.34` `osdaiin` → ANWEISUNG BEI mehrteiliger Sternatlas mit lokalen Zentren: [O:STEUERUNG=AUSFÜHRUNG] · WÄHLEN · [D_ADDR:LOKALSTRUKTUR=HIER] · WERT
+  - Rezept `O+S+D_ADDR+AIIN` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f68r1.35` `otochedy` → ANWEISUNG BEI mehrteiliger Sternatlas mit lokalen Zentren: DANACH · [O:STEUERUNG=AUSFÜHRUNG] · BEARBEITEN · POSTEN
+  - Rezept `OT+O+CHD+Y` · `C_RUNNING_SURFACE_DIFFERENT_LOCAL_PARSE`
+- `f68r1.36` `dolchedy` → ANWEISUNG BEI mehrteiliger Sternatlas mit lokalen Zentren: [D_ADDR:LOKALSTRUKTUR=HIER] · FORTSETZEN · BEARBEITEN · POSTEN
+  - Rezept `D_ADDR+OL+CHD+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f68r1.37` `oky` → ANWEISUNG BEI mehrteiliger Sternatlas mit lokalen Zentren: SETZEN · POSTEN
+  - Rezept `OK+Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f68r1.37` `okchdy` → ANWEISUNG BEI mehrteiliger Sternatlas mit lokalen Zentren: SETZEN · BEARBEITEN · [DY:STEUERUNG=SCHLUSS]
+  - Rezept `OK+CHD+DY` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f68r1.37` `okardy` → ANWEISUNG BEI mehrteiliger Sternatlas mit lokalen Zentren: SETZEN · AUSGANG · [D_ADDR:LOKALSTRUKTUR=HIER] · POSTEN
+  - Rezept `OK+AR+D_ADDR+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f68r1.37` `qear` → KOORDINATE/KATALOGEINTRAG BEI mehrteiliger Sternatlas mit lokalen Zentren: [CARRIER_Q:STEUERUNG=BEGINNMARKER] · [E:STEUERUNG=GRAD I] · AUSGANG
+  - Rezept `CARRIER_Q+E+AR` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f68r1.37` `oygy` → KOORDINATE/KATALOGEINTRAG BEI mehrteiliger Sternatlas mit lokalen Zentren: [O:STEUERUNG=AUSFÜHRUNG] · POSTEN · [G_LABEL:LOKALSTRUKTUR=VARIANTE] · POSTEN
+  - Rezept `O+Y+G_LABEL+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+
+## f69v
+
+- `f69v.1` `dair` → KOORDINATE/KATALOGEINTRAG BEI drei getrennte heterogene Himmelsraeder: [D_ADDR:LOKALSTRUKTUR=HIER] · BAHN
+  - Rezept `D_ADDR+AIR` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.1` `cheyky` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: NEHMEN · [E:STEUERUNG=GRAD I] · POSTEN · GEBEN · POSTEN
+  - Rezept `CH+E+Y+K+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f69v.1` `otaza` → ADRESSE/FORTSETZUNG BEI drei getrennte heterogene Himmelsraeder: DANACH · [A_ADDR:LOKALSTRUKTUR=HIER] · [LOCAL_CHAR_Z:LOKALSTRUKTUR=VARIANTE] · [A_ADDR:LOKALSTRUKTUR=HIER]
+  - Rezept `OT+A_ADDR+LOCAL_CHAR_Z+A_ADDR` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f69v.1` `sar` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: WÄHLEN · AUSGANG
+  - Rezept `S+AR` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.1` `ar` → KOORDINATE/KATALOGEINTRAG BEI drei getrennte heterogene Himmelsraeder: AUSGANG
+  - Rezept `AR` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.1` `chykar` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: NEHMEN · POSTEN · GEBEN · AUSGANG
+  - Rezept `CH+Y+K+AR` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f69v.1` `okoirsh` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: SETZEN · [O:STEUERUNG=AUSFÜHRUNG] · [LOCAL_CHAR_I:LOKALSTRUKTUR=VARIANTE] · MARKIEREN · HALTEN
+  - Rezept `OK+O+LOCAL_CHAR_I+R+SH` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f69v.1` `ar` → KOORDINATE/KATALOGEINTRAG BEI drei getrennte heterogene Himmelsraeder: AUSGANG
+  - Rezept `AR` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.1` `chetody` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: NEHMEN · [E:STEUERUNG=GRAD I] · EINSTELLEN · [O:STEUERUNG=AUSFÜHRUNG] · [D_ADDR:LOKALSTRUKTUR=HIER] · POSTEN
+  - Rezept `CH+E+T+O+D_ADDR+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f69v.1` `okeeos` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: SETZEN · [EE:STEUERUNG=GRAD II] · [O:STEUERUNG=AUSFÜHRUNG] · WÄHLEN
+  - Rezept `OK+EE+O+S` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f69v.1` `o` → LOKALE KENNUNG BEI drei getrennte heterogene Himmelsraeder: [O:STEUERUNG=AUSFÜHRUNG]
+  - Rezept `O` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.1` `tey` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: EINSTELLEN · [E:STEUERUNG=GRAD I] · POSTEN
+  - Rezept `T+E+Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.1` `otokeeey` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: DANACH · SETZEN · [EEE:STEUERUNG=GRAD III] · POSTEN
+  - Rezept `OT+OK+EEE+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f69v.1` `okeeody` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: SETZEN · [EE:STEUERUNG=GRAD II] · [O:STEUERUNG=AUSFÜHRUNG] · [D_ADDR:LOKALSTRUKTUR=HIER] · POSTEN
+  - Rezept `OK+EE+O+D_ADDR+Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.1` `okeey` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: SETZEN · [EE:STEUERUNG=GRAD II] · POSTEN
+  - Rezept `OK+EE+Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.1` `doiir` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: [D_ADDR:LOKALSTRUKTUR=HIER] · [O:STEUERUNG=AUSFÜHRUNG] · [IIN:STEUERUNG=STUFE] · MARKIEREN
+  - Rezept `D_ADDR+O+IIN+R` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.1` `teeo` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: EINSTELLEN · [EE:STEUERUNG=GRAD II] · [O:STEUERUNG=AUSFÜHRUNG]
+  - Rezept `T+EE+O` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f69v.1` `y` → KOORDINATE/KATALOGEINTRAG BEI drei getrennte heterogene Himmelsraeder: POSTEN
+  - Rezept `Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.1` `chey` → KOORDINATE/KATALOGEINTRAG BEI drei getrennte heterogene Himmelsraeder: POSTEN
+  - Rezept `Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.1` `ot` → ADRESSE/FORTSETZUNG BEI drei getrennte heterogene Himmelsraeder: DANACH
+  - Rezept `OT` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.1` `y` → KOORDINATE/KATALOGEINTRAG BEI drei getrennte heterogene Himmelsraeder: POSTEN
+  - Rezept `Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.1` `okedy` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: SETZEN · [E:STEUERUNG=GRAD I] · [DY:STEUERUNG=SCHLUSS]
+  - Rezept `OK+E+DY` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.1` `chsdy` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: NEHMEN · WÄHLEN · [DY:STEUERUNG=SCHLUSS]
+  - Rezept `CH+S+DY` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.1` `okeod` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: SETZEN · [E:STEUERUNG=GRAD I] · [O:STEUERUNG=AUSFÜHRUNG] · [D_ADDR:LOKALSTRUKTUR=HIER]
+  - Rezept `OK+E+O+D_ADDR` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f69v.1` `y` → KOORDINATE/KATALOGEINTRAG BEI drei getrennte heterogene Himmelsraeder: POSTEN
+  - Rezept `Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.1` `dy` → KOORDINATE/KATALOGEINTRAG BEI drei getrennte heterogene Himmelsraeder: POSTEN
+  - Rezept `Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.1` `choaiin` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: NEHMEN · [O:STEUERUNG=AUSFÜHRUNG] · WERT
+  - Rezept `CH+O+AIIN` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f69v.1` `okar` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: SETZEN · AUSGANG
+  - Rezept `OK+AR` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.1` `okar` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: SETZEN · AUSGANG
+  - Rezept `OK+AR` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.1` `chol` → ADRESSE/FORTSETZUNG BEI drei getrennte heterogene Himmelsraeder: FORTSETZEN
+  - Rezept `OL` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.1` `chees` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: HALTEN · [EE:STEUERUNG=GRAD II] · [S_ADDR:LOKALSTRUKTUR=HIER]
+  - Rezept `SH+EE+S_ADDR` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.1` `yto` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: POSTEN · EINSTELLEN · [O:STEUERUNG=AUSFÜHRUNG]
+  - Rezept `Y+T+O` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.1` `odair` → KOORDINATE/KATALOGEINTRAG BEI drei getrennte heterogene Himmelsraeder: [O:STEUERUNG=AUSFÜHRUNG] · [D_ADDR:LOKALSTRUKTUR=HIER] · BAHN
+  - Rezept `O+D_ADDR+AIR` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f69v.1` `oty` → ADRESSE/FORTSETZUNG BEI drei getrennte heterogene Himmelsraeder: DANACH · POSTEN
+  - Rezept `OT+Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.1` `oteeo` → ADRESSE/FORTSETZUNG BEI drei getrennte heterogene Himmelsraeder: DANACH · [EE:STEUERUNG=GRAD II] · [O:STEUERUNG=AUSFÜHRUNG]
+  - Rezept `OT+EE+O` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.1` `dar` → KOORDINATE/KATALOGEINTRAG BEI drei getrennte heterogene Himmelsraeder: [D_ADDR:LOKALSTRUKTUR=HIER] · AUSGANG
+  - Rezept `D_ADDR+AR` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.1` `o` → LOKALE KENNUNG BEI drei getrennte heterogene Himmelsraeder: [O:STEUERUNG=AUSFÜHRUNG]
+  - Rezept `O` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.1` `eykeody` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: [E:STEUERUNG=GRAD I] · POSTEN · GEBEN · [E:STEUERUNG=GRAD I] · [O:STEUERUNG=AUSFÜHRUNG] · [DY:STEUERUNG=SCHLUSS]
+  - Rezept `E+Y+K+E+O+DY` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f69v.1` `dchor` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: [D_ADDR:LOKALSTRUKTUR=HIER] · NEHMEN · EINHEIT
+  - Rezept `D_ADDR+CH+OR` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.1` `char` → KOORDINATE/KATALOGEINTRAG BEI drei getrennte heterogene Himmelsraeder: AUSGANG
+  - Rezept `AR` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.2` `yka` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: POSTEN · GEBEN · [A_ADDR:LOKALSTRUKTUR=HIER]
+  - Rezept `Y+K+A_ADDR` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f69v.2` `chol` → ADRESSE/FORTSETZUNG BEI drei getrennte heterogene Himmelsraeder: FORTSETZEN
+  - Rezept `OL` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.2` `ykar` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: POSTEN · GEBEN · AUSGANG
+  - Rezept `Y+K+AR` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.2` `dal` → KOORDINATE/KATALOGEINTRAG BEI drei getrennte heterogene Himmelsraeder: ZIELORT
+  - Rezept `AL` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.2` `ykady` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: POSTEN · GEBEN · [A_ADDR:LOKALSTRUKTUR=HIER] · POSTEN
+  - Rezept `Y+K+A_ADDR+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f69v.2` `iokeeor` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: SETZEN · [EE:STEUERUNG=GRAD II] · EINHEIT
+  - Rezept `OK+EE+OR` · `B_RUNNING_RECIPE_NEW_SURFACE`
+- `f69v.2` `cheey` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: HALTEN · [EE:STEUERUNG=GRAD II] · POSTEN
+  - Rezept `SH+EE+Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.2` `choly` → ADRESSE/FORTSETZUNG BEI drei getrennte heterogene Himmelsraeder: FORTSETZEN · POSTEN
+  - Rezept `OL+Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.2` `ykeeal` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: POSTEN · GEBEN · [EE:STEUERUNG=GRAD II] · ZIELORT
+  - Rezept `Y+K+EE+AL` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f69v.2` `cheo` → LOKALE KENNUNG BEI drei getrennte heterogene Himmelsraeder: [CHEO:LOKALSTRUKTUR=LOKALER EINTRAG]
+  - Rezept `CHEO` · `C_RUNNING_SURFACE_DIFFERENT_LOCAL_PARSE`
+- `f69v.2` `oaram` → KOORDINATE/KATALOGEINTRAG BEI drei getrennte heterogene Himmelsraeder: [O:STEUERUNG=AUSFÜHRUNG] · AUSGANG · [AM_ADDR:LOKALSTRUKTUR=HIER]
+  - Rezept `O+AR+AM_ADDR` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f69v.2` `ockhy` → KOORDINATE/KATALOGEINTRAG BEI drei getrennte heterogene Himmelsraeder: [O:STEUERUNG=AUSFÜHRUNG] · [CKH:LOKALSTRUKTUR=VERBINDUNGSWEG] · POSTEN
+  - Rezept `O+CKH+Y` · `C_RUNNING_SURFACE_DIFFERENT_LOCAL_PARSE`
+- `f69v.2` `sheey` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: HALTEN · [EE:STEUERUNG=GRAD II] · POSTEN
+  - Rezept `SH+EE+Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.2` `aiin` → KOORDINATE/KATALOGEINTRAG BEI drei getrennte heterogene Himmelsraeder: WERT
+  - Rezept `AIIN` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.2` `y` → KOORDINATE/KATALOGEINTRAG BEI drei getrennte heterogene Himmelsraeder: POSTEN
+  - Rezept `Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.2` `daiial` → KOORDINATE/KATALOGEINTRAG BEI drei getrennte heterogene Himmelsraeder: [DA:STEUERUNG=ZWEITE STUFE] · [IIN:STEUERUNG=STUFE] · ZIELORT
+  - Rezept `DA+IIN+AL` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f69v.2` `cheody` → KOORDINATE/KATALOGEINTRAG BEI drei getrennte heterogene Himmelsraeder: [CHEO:LOKALSTRUKTUR=LOKALER EINTRAG] · POSTEN
+  - Rezept `CHEO+Y` · `C_RUNNING_SURFACE_DIFFERENT_LOCAL_PARSE`
+- `f69v.2` `cheal` → KOORDINATE/KATALOGEINTRAG BEI drei getrennte heterogene Himmelsraeder: ZIELORT
+  - Rezept `AL` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.2` `yetey` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: POSTEN · [E:STEUERUNG=GRAD I] · EINSTELLEN · [E:STEUERUNG=GRAD I] · POSTEN
+  - Rezept `Y+E+T+E+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f69v.2` `chear` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: NEHMEN · [E:STEUERUNG=GRAD I] · AUSGANG
+  - Rezept `CH+E+AR` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.2` `y` → KOORDINATE/KATALOGEINTRAG BEI drei getrennte heterogene Himmelsraeder: POSTEN
+  - Rezept `Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.2` `dy` → KOORDINATE/KATALOGEINTRAG BEI drei getrennte heterogene Himmelsraeder: POSTEN
+  - Rezept `Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.2` `ykey` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: POSTEN · GEBEN · [E:STEUERUNG=GRAD I] · POSTEN
+  - Rezept `Y+K+E+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f69v.2` `ch` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: NEHMEN
+  - Rezept `CH` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.2` `y` → KOORDINATE/KATALOGEINTRAG BEI drei getrennte heterogene Himmelsraeder: POSTEN
+  - Rezept `Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.2` `dy` → KOORDINATE/KATALOGEINTRAG BEI drei getrennte heterogene Himmelsraeder: POSTEN
+  - Rezept `Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.2` `chol` → ADRESSE/FORTSETZUNG BEI drei getrennte heterogene Himmelsraeder: FORTSETZEN
+  - Rezept `OL` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.2` `ykar` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: POSTEN · GEBEN · AUSGANG
+  - Rezept `Y+K+AR` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.2` `ol` → ADRESSE/FORTSETZUNG BEI drei getrennte heterogene Himmelsraeder: FORTSETZEN
+  - Rezept `OL` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.2` `y` → KOORDINATE/KATALOGEINTRAG BEI drei getrennte heterogene Himmelsraeder: POSTEN
+  - Rezept `Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.2` `ykeeody` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: POSTEN · GEBEN · [EE:STEUERUNG=GRAD II] · [O:STEUERUNG=AUSFÜHRUNG] · POSTEN
+  - Rezept `Y+K+EE+O+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f69v.2` `chey` → KOORDINATE/KATALOGEINTRAG BEI drei getrennte heterogene Himmelsraeder: POSTEN
+  - Rezept `Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.2` `dal` → KOORDINATE/KATALOGEINTRAG BEI drei getrennte heterogene Himmelsraeder: ZIELORT
+  - Rezept `AL` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.2` `ody` → LOKALE KENNUNG BEI drei getrennte heterogene Himmelsraeder: [O:STEUERUNG=AUSFÜHRUNG] · [DY:STEUERUNG=SCHLUSS]
+  - Rezept `O+DY` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.2` `airchy` → KOORDINATE/KATALOGEINTRAG BEI drei getrennte heterogene Himmelsraeder: BAHN · POSTEN
+  - Rezept `AIR+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f69v.2` `choky` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: SETZEN · POSTEN
+  - Rezept `OK+Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.2` `ychey` → KOORDINATE/KATALOGEINTRAG BEI drei getrennte heterogene Himmelsraeder: POSTEN · POSTEN
+  - Rezept `Y+Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.2` `chey` → KOORDINATE/KATALOGEINTRAG BEI drei getrennte heterogene Himmelsraeder: POSTEN
+  - Rezept `Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.3` `doair` → KOORDINATE/KATALOGEINTRAG BEI drei getrennte heterogene Himmelsraeder: [D_ADDR:LOKALSTRUKTUR=HIER] · [O:STEUERUNG=AUSFÜHRUNG] · BAHN
+  - Rezept `D_ADDR+O+AIR` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f69v.3` `otaldal` → ADRESSE/FORTSETZUNG BEI drei getrennte heterogene Himmelsraeder: DANACH · ZIELORT · ZIELORT
+  - Rezept `OT+AL+AL` · `E_LOCAL_RECIPE_OTHER_PAGE`
+- `f69v.3` `dair` → KOORDINATE/KATALOGEINTRAG BEI drei getrennte heterogene Himmelsraeder: [D_ADDR:LOKALSTRUKTUR=HIER] · BAHN
+  - Rezept `D_ADDR+AIR` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.3` `chdy` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: BEARBEITEN · POSTEN
+  - Rezept `CHD+Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.3` `otoar` → ADRESSE/FORTSETZUNG BEI drei getrennte heterogene Himmelsraeder: DANACH · [O:STEUERUNG=AUSFÜHRUNG] · AUSGANG
+  - Rezept `OT+O+AR` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.3` `ar` → KOORDINATE/KATALOGEINTRAG BEI drei getrennte heterogene Himmelsraeder: AUSGANG
+  - Rezept `AR` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.3` `chy` → KOORDINATE/KATALOGEINTRAG BEI drei getrennte heterogene Himmelsraeder: POSTEN
+  - Rezept `Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.3` `qoteor` → ADRESSE/FORTSETZUNG BEI drei getrennte heterogene Himmelsraeder: DANACH · [E:STEUERUNG=GRAD I] · EINHEIT
+  - Rezept `OT+E+OR` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.3` `cho` → LOKALE KENNUNG BEI drei getrennte heterogene Himmelsraeder: [HO:LOKALSTRUKTUR=KLASSE]
+  - Rezept `HO` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.3` `qotair` → ADRESSE/FORTSETZUNG BEI drei getrennte heterogene Himmelsraeder: DANACH · BAHN
+  - Rezept `OT+AIR` · `E_LOCAL_RECIPE_OTHER_PAGE`
+- `f69v.3` `chda` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: BEARBEITEN · [A_ADDR:LOKALSTRUKTUR=HIER]
+  - Rezept `CHD+A_ADDR` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f69v.3` `oteeal` → ADRESSE/FORTSETZUNG BEI drei getrennte heterogene Himmelsraeder: DANACH · [EE:STEUERUNG=GRAD II] · ZIELORT
+  - Rezept `OT+EE+AL` · `E_LOCAL_RECIPE_OTHER_PAGE`
+- `f69v.3` `cheor` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: [CHEO:LOKALSTRUKTUR=LOKALER EINTRAG] · MARKIEREN
+  - Rezept `CHEO+R` · `C_RUNNING_SURFACE_DIFFERENT_LOCAL_PARSE`
+- `f69v.3` `ar` → KOORDINATE/KATALOGEINTRAG BEI drei getrennte heterogene Himmelsraeder: AUSGANG
+  - Rezept `AR` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.3` `air` → KOORDINATE/KATALOGEINTRAG BEI drei getrennte heterogene Himmelsraeder: BAHN
+  - Rezept `AIR` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.3` `oteody` → ADRESSE/FORTSETZUNG BEI drei getrennte heterogene Himmelsraeder: DANACH · [E:STEUERUNG=GRAD I] · [O:STEUERUNG=AUSFÜHRUNG] · POSTEN
+  - Rezept `OT+E+O+Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.3` `ytyd` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: POSTEN · EINSTELLEN · POSTEN · [D_LABEL:LOKALSTRUKTUR=HIER]
+  - Rezept `Y+T+Y+D_LABEL` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f69v.3` `a` → LOKALE KENNUNG BEI drei getrennte heterogene Himmelsraeder: [A_ADDR:LOKALSTRUKTUR=HIER]
+  - Rezept `A_ADDR` · `B_RUNNING_RECIPE_NEW_SURFACE`
+- `f69v.3` `dchy` → KOORDINATE/KATALOGEINTRAG BEI drei getrennte heterogene Himmelsraeder: [D_ADDR:LOKALSTRUKTUR=HIER] · POSTEN
+  - Rezept `D_ADDR+Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.3` `otoly` → ADRESSE/FORTSETZUNG BEI drei getrennte heterogene Himmelsraeder: DANACH · FORTSETZEN · POSTEN
+  - Rezept `OT+OL+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f69v.3` `okeodal` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: SETZEN · [E:STEUERUNG=GRAD I] · [O:STEUERUNG=AUSFÜHRUNG] · ZIELORT
+  - Rezept `OK+E+O+AL` · `B_RUNNING_RECIPE_NEW_SURFACE`
+- `f69v.3` `oteoarar` → ADRESSE/FORTSETZUNG BEI drei getrennte heterogene Himmelsraeder: DANACH · [E:STEUERUNG=GRAD I] · [O:STEUERUNG=AUSFÜHRUNG] · AUSGANG · AUSGANG
+  - Rezept `OT+E+O+AR+AR` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f69v.3` `cheteeser` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: NEHMEN · [E:STEUERUNG=GRAD I] · EINSTELLEN · [EE:STEUERUNG=GRAD II] · [S_ADDR:LOKALSTRUKTUR=HIER] · [E:STEUERUNG=GRAD I] · MARKIEREN
+  - Rezept `CH+E+T+EE+S_ADDR+E+R` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f69v.3` `dair` → KOORDINATE/KATALOGEINTRAG BEI drei getrennte heterogene Himmelsraeder: [D_ADDR:LOKALSTRUKTUR=HIER] · BAHN
+  - Rezept `D_ADDR+AIR` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.3` `chey` → KOORDINATE/KATALOGEINTRAG BEI drei getrennte heterogene Himmelsraeder: POSTEN
+  - Rezept `Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.3` `okody` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: SETZEN · [O:STEUERUNG=AUSFÜHRUNG] · POSTEN
+  - Rezept `OK+O+Y` · `B_RUNNING_RECIPE_NEW_SURFACE`
+- `f69v.3` `dal` → KOORDINATE/KATALOGEINTRAG BEI drei getrennte heterogene Himmelsraeder: ZIELORT
+  - Rezept `AL` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.3` `oteey` → ADRESSE/FORTSETZUNG BEI drei getrennte heterogene Himmelsraeder: DANACH · [EE:STEUERUNG=GRAD II] · POSTEN
+  - Rezept `OT+EE+Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.3` `oteey` → ADRESSE/FORTSETZUNG BEI drei getrennte heterogene Himmelsraeder: DANACH · [EE:STEUERUNG=GRAD II] · POSTEN
+  - Rezept `OT+EE+Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.4` `okeey` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: SETZEN · [EE:STEUERUNG=GRAD II] · POSTEN
+  - Rezept `OK+EE+Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.4` `sar` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: WÄHLEN · AUSGANG
+  - Rezept `S+AR` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.5` `okeo` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: SETZEN · [E:STEUERUNG=GRAD I] · [O:STEUERUNG=AUSFÜHRUNG]
+  - Rezept `OK+E+O` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.5` `dy` → KOORDINATE/KATALOGEINTRAG BEI drei getrennte heterogene Himmelsraeder: POSTEN
+  - Rezept `Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.6` `ochoyk` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: [O:STEUERUNG=AUSFÜHRUNG] · NEHMEN · [O:STEUERUNG=AUSFÜHRUNG] · POSTEN · GEBEN
+  - Rezept `O+CH+O+Y+K` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f69v.7` `ykeey` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: POSTEN · GEBEN · [EE:STEUERUNG=GRAD II] · POSTEN
+  - Rezept `Y+K+EE+Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.8` `ytory` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: POSTEN · EINSTELLEN · EINHEIT · POSTEN
+  - Rezept `Y+T+OR+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f69v.9` `oeesy` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: [O:STEUERUNG=AUSFÜHRUNG] · [EE:STEUERUNG=GRAD II] · WÄHLEN · POSTEN
+  - Rezept `O+EE+S+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f69v.10` `ytody` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: POSTEN · EINSTELLEN · [O:STEUERUNG=AUSFÜHRUNG] · [DY:STEUERUNG=SCHLUSS]
+  - Rezept `Y+T+O+DY` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.11` `okody` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: SETZEN · [O:STEUERUNG=AUSFÜHRUNG] · POSTEN
+  - Rezept `OK+O+Y` · `B_RUNNING_RECIPE_NEW_SURFACE`
+- `f69v.12` `otody` → ADRESSE/FORTSETZUNG BEI drei getrennte heterogene Himmelsraeder: DANACH · [O:STEUERUNG=AUSFÜHRUNG] · [DY:STEUERUNG=SCHLUSS]
+  - Rezept `OT+O+DY` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.13` `okeal` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: SETZEN · [E:STEUERUNG=GRAD I] · ZIELORT
+  - Rezept `OK+E+AL` · `B_RUNNING_RECIPE_NEW_SURFACE`
+- `f69v.14` `okeod` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: SETZEN · [E:STEUERUNG=GRAD I] · [O:STEUERUNG=AUSFÜHRUNG] · [D_ADDR:LOKALSTRUKTUR=HIER]
+  - Rezept `OK+E+O+D_ADDR` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f69v.15` `oteeys` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: DANACH · [EE:STEUERUNG=GRAD II] · POSTEN · WÄHLEN
+  - Rezept `OT+EE+Y+S` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f69v.16` `oteol` → ADRESSE/FORTSETZUNG BEI drei getrennte heterogene Himmelsraeder: DANACH · [E:STEUERUNG=GRAD I] · FORTSETZEN
+  - Rezept `OT+E+OL` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.17` `ykeydy` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: POSTEN · GEBEN · [E:STEUERUNG=GRAD I] · POSTEN · [DY:STEUERUNG=SCHLUSS]
+  - Rezept `Y+K+E+Y+DY` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f69v.18` `okeod` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: SETZEN · [E:STEUERUNG=GRAD I] · [O:STEUERUNG=AUSFÜHRUNG] · [D_ADDR:LOKALSTRUKTUR=HIER]
+  - Rezept `OK+E+O+D_ADDR` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f69v.19` `saral` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: WÄHLEN · AUSGANG · ZIELORT
+  - Rezept `S+AR+AL` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.20` `saiir` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: WÄHLEN · WERT · MARKIEREN
+  - Rezept `S+AIIN+R` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f69v.21` `okolar` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: SETZEN · FORTSETZEN · AUSGANG
+  - Rezept `OK+OL+AR` · `D_EXACT_LOCAL_SURFACE_OTHER_PAGE`
+- `f69v.22` `ykeody` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: POSTEN · GEBEN · [E:STEUERUNG=GRAD I] · [O:STEUERUNG=AUSFÜHRUNG] · [DY:STEUERUNG=SCHLUSS]
+  - Rezept `Y+K+E+O+DY` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.23` `sarydy` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: WÄHLEN · AUSGANG · POSTEN · [D_ADDR:LOKALSTRUKTUR=HIER] · POSTEN
+  - Rezept `S+AR+Y+D_ADDR+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f69v.24` `otchy` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: DANACH · NEHMEN · POSTEN
+  - Rezept `OT+CH+Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.25` `okeey` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: SETZEN · [EE:STEUERUNG=GRAD II] · POSTEN
+  - Rezept `OK+EE+Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.25` `dy` → KOORDINATE/KATALOGEINTRAG BEI drei getrennte heterogene Himmelsraeder: POSTEN
+  - Rezept `Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.26` `okey` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: SETZEN · [E:STEUERUNG=GRAD I] · POSTEN
+  - Rezept `OK+E+Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.26` `d` → LOKALE KENNUNG BEI drei getrennte heterogene Himmelsraeder: [D_ADDR:LOKALSTRUKTUR=HIER]
+  - Rezept `D_ADDR` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.27` `okeod` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: SETZEN · [E:STEUERUNG=GRAD I] · [O:STEUERUNG=AUSFÜHRUNG] · [D_ADDR:LOKALSTRUKTUR=HIER]
+  - Rezept `OK+E+O+D_ADDR` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f69v.28` `okodchy` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: SETZEN · [O:STEUERUNG=AUSFÜHRUNG] · [D_ADDR:LOKALSTRUKTUR=HIER] · NEHMEN · POSTEN
+  - Rezept `OK+O+D_ADDR+CH+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f69v.29` `okeody` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: SETZEN · [E:STEUERUNG=GRAD I] · [O:STEUERUNG=AUSFÜHRUNG] · [D_ADDR:LOKALSTRUKTUR=HIER] · POSTEN
+  - Rezept `OK+E+O+D_ADDR+Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f69v.30` `okcheys` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: SETZEN · NEHMEN · [E:STEUERUNG=GRAD I] · POSTEN · WÄHLEN
+  - Rezept `OK+CH+E+Y+S` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f69v.31` `oar` → KOORDINATE/KATALOGEINTRAG BEI drei getrennte heterogene Himmelsraeder: [O:STEUERUNG=AUSFÜHRUNG] · AUSGANG
+  - Rezept `O+AR` · `B_RUNNING_RECIPE_NEW_SURFACE`
+- `f69v.31` `alys` → ANWEISUNG BEI drei getrennte heterogene Himmelsraeder: ZIELORT · POSTEN · WÄHLEN
+  - Rezept `AL+Y+S` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+
+## f70v
+
+- `f70v1.1` `dalalody` → KOORDINATE/KATALOGEINTRAG BEI Widderrad mit Stern tragenden Figuren: ZIELORT · ZIELORT · [O:STEUERUNG=AUSFÜHRUNG] · [DY:STEUERUNG=SCHLUSS]
+  - Rezept `AL+AL+O+DY` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v1.1` `oteoshey` → ANWEISUNG BEI Widderrad mit Stern tragenden Figuren: DANACH · [E:STEUERUNG=GRAD I] · [O:STEUERUNG=AUSFÜHRUNG] · HALTEN · [E:STEUERUNG=GRAD I] · POSTEN
+  - Rezept `OT+E+O+SH+E+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v1.1` `okoksheo` → ANWEISUNG BEI Widderrad mit Stern tragenden Figuren: SETZEN · SETZEN · HALTEN · [E:STEUERUNG=GRAD I] · [O:STEUERUNG=AUSFÜHRUNG]
+  - Rezept `OK+OK+SH+E+O` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v1.1` `shokey` → ANWEISUNG BEI Widderrad mit Stern tragenden Figuren: HALTEN · SETZEN · [E:STEUERUNG=GRAD I] · POSTEN
+  - Rezept `SH+OK+E+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v1.1` `raiin` → ANWEISUNG BEI Widderrad mit Stern tragenden Figuren: MARKIEREN · WERT
+  - Rezept `R+AIIN` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v1.1` `otor` → ADRESSE/FORTSETZUNG BEI Widderrad mit Stern tragenden Figuren: DANACH · EINHEIT
+  - Rezept `OT+OR` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v1.1` `ochy` → KOORDINATE/KATALOGEINTRAG BEI Widderrad mit Stern tragenden Figuren: [O:STEUERUNG=AUSFÜHRUNG] · POSTEN
+  - Rezept `O+Y` · `B_RUNNING_RECIPE_NEW_SURFACE`
+- `f70v1.1` `s` → ANWEISUNG BEI Widderrad mit Stern tragenden Figuren: WÄHLEN
+  - Rezept `S` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v1.1` `air` → KOORDINATE/KATALOGEINTRAG BEI Widderrad mit Stern tragenden Figuren: BAHN
+  - Rezept `AIR` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v1.1` `cheody` → KOORDINATE/KATALOGEINTRAG BEI Widderrad mit Stern tragenden Figuren: [CHEO:LOKALSTRUKTUR=LOKALER EINTRAG] · POSTEN
+  - Rezept `CHEO+Y` · `C_RUNNING_SURFACE_DIFFERENT_LOCAL_PARSE`
+- `f70v1.1` `cheey` → ANWEISUNG BEI Widderrad mit Stern tragenden Figuren: HALTEN · [EE:STEUERUNG=GRAD II] · POSTEN
+  - Rezept `SH+EE+Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v1.1` `oteo` → ADRESSE/FORTSETZUNG BEI Widderrad mit Stern tragenden Figuren: DANACH · [E:STEUERUNG=GRAD I] · [O:STEUERUNG=AUSFÜHRUNG]
+  - Rezept `OT+E+O` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v1.1` `chy` → KOORDINATE/KATALOGEINTRAG BEI Widderrad mit Stern tragenden Figuren: POSTEN
+  - Rezept `Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v1.1` `daiir` → ANWEISUNG BEI Widderrad mit Stern tragenden Figuren: [DA:STEUERUNG=ZWEITE STUFE] · [IIN:STEUERUNG=STUFE] · MARKIEREN
+  - Rezept `DA+IIN+R` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v1.1` `chcthy` → ANWEISUNG BEI Widderrad mit Stern tragenden Figuren: NEHMEN · [CTH:LOKALSTRUKTUR=BEREITSCHAFTSKLASSE] · POSTEN
+  - Rezept `CH+CTH+Y` · `C_RUNNING_SURFACE_DIFFERENT_LOCAL_PARSE`
+- `f70v1.1` `dlal` → KOORDINATE/KATALOGEINTRAG BEI Widderrad mit Stern tragenden Figuren: [D_ADDR:LOKALSTRUKTUR=HIER] · VERBINDUNG · ZIELORT
+  - Rezept `D_ADDR+L+AL` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v1.1` `oteodaiin` → ADRESSE/FORTSETZUNG BEI Widderrad mit Stern tragenden Figuren: DANACH · [E:STEUERUNG=GRAD I] · [O:STEUERUNG=AUSFÜHRUNG] · WERT
+  - Rezept `OT+E+O+AIIN` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v1.1` `ykeody` → ANWEISUNG BEI Widderrad mit Stern tragenden Figuren: POSTEN · GEBEN · [E:STEUERUNG=GRAD I] · [O:STEUERUNG=AUSFÜHRUNG] · [DY:STEUERUNG=SCHLUSS]
+  - Rezept `Y+K+E+O+DY` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v1.1` `oteody` → ADRESSE/FORTSETZUNG BEI Widderrad mit Stern tragenden Figuren: DANACH · [E:STEUERUNG=GRAD I] · [O:STEUERUNG=AUSFÜHRUNG] · POSTEN
+  - Rezept `OT+E+O+Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v1.1` `sheo` → ANWEISUNG BEI Widderrad mit Stern tragenden Figuren: HALTEN · [E:STEUERUNG=GRAD I] · [O:STEUERUNG=AUSFÜHRUNG]
+  - Rezept `SH+E+O` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v1.1` `daiin` → KOORDINATE/KATALOGEINTRAG BEI Widderrad mit Stern tragenden Figuren: WERT
+  - Rezept `AIIN` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v1.1` `oteedy` → ADRESSE/FORTSETZUNG BEI Widderrad mit Stern tragenden Figuren: DANACH · [EE:STEUERUNG=GRAD II] · [DY:STEUERUNG=SCHLUSS]
+  - Rezept `OT+EE+DY` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v1.1` `chetalchs` → ANWEISUNG BEI Widderrad mit Stern tragenden Figuren: NEHMEN · [E:STEUERUNG=GRAD I] · EINSTELLEN · ZIELORT · NEHMEN · [S_ADDR:LOKALSTRUKTUR=HIER]
+  - Rezept `CH+E+T+AL+CH+S_ADDR` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v1.1` `zar` → KOORDINATE/KATALOGEINTRAG BEI Widderrad mit Stern tragenden Figuren: [Z_ADDR:LOKALSTRUKTUR=HIER] · AUSGANG
+  - Rezept `Z_ADDR+AR` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v1.1` `shoteeody` → ANWEISUNG BEI Widderrad mit Stern tragenden Figuren: HALTEN · [O:STEUERUNG=AUSFÜHRUNG] · EINSTELLEN · [EE:STEUERUNG=GRAD II] · [O:STEUERUNG=AUSFÜHRUNG] · [DY:STEUERUNG=SCHLUSS]
+  - Rezept `SH+O+T+EE+O+DY` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v1.1` `okeeo` → ANWEISUNG BEI Widderrad mit Stern tragenden Figuren: SETZEN · [EE:STEUERUNG=GRAD II] · [O:STEUERUNG=AUSFÜHRUNG]
+  - Rezept `OK+EE+O` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v1.1` `dal` → KOORDINATE/KATALOGEINTRAG BEI Widderrad mit Stern tragenden Figuren: ZIELORT
+  - Rezept `AL` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v1.1` `cheody` → KOORDINATE/KATALOGEINTRAG BEI Widderrad mit Stern tragenden Figuren: [CHEO:LOKALSTRUKTUR=LOKALER EINTRAG] · POSTEN
+  - Rezept `CHEO+Y` · `C_RUNNING_SURFACE_DIFFERENT_LOCAL_PARSE`
+- `f70v1.1` `okchoteees` → ANWEISUNG BEI Widderrad mit Stern tragenden Figuren: SETZEN · NEHMEN · DANACH · [EEE:STEUERUNG=GRAD III] · [S_ADDR:LOKALSTRUKTUR=HIER]
+  - Rezept `OK+CH+OT+EEE+S_ADDR` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v1.1` `oteeody` → ADRESSE/FORTSETZUNG BEI Widderrad mit Stern tragenden Figuren: DANACH · [EE:STEUERUNG=GRAD II] · [O:STEUERUNG=AUSFÜHRUNG] · [DY:STEUERUNG=SCHLUSS]
+  - Rezept `OT+EE+O+DY` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v1.1` `cheokeo` → ANWEISUNG BEI Widderrad mit Stern tragenden Figuren: NEHMEN · [E:STEUERUNG=GRAD I] · SETZEN · [E:STEUERUNG=GRAD I] · [O:STEUERUNG=AUSFÜHRUNG]
+  - Rezept `CH+E+OK+E+O` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v1.1` `otaiin` → ADRESSE/FORTSETZUNG BEI Widderrad mit Stern tragenden Figuren: DANACH · WERT
+  - Rezept `OT+AIIN` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v1.1` `shes` → ANWEISUNG BEI Widderrad mit Stern tragenden Figuren: HALTEN · [E:STEUERUNG=GRAD I] · [S_ADDR:LOKALSTRUKTUR=HIER]
+  - Rezept `SH+E+S_ADDR` · `C_RUNNING_SURFACE_DIFFERENT_LOCAL_PARSE`
+- `f70v1.1` `to` → ANWEISUNG BEI Widderrad mit Stern tragenden Figuren: EINSTELLEN · [O:STEUERUNG=AUSFÜHRUNG]
+  - Rezept `T+O` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v1.1` `ar` → KOORDINATE/KATALOGEINTRAG BEI Widderrad mit Stern tragenden Figuren: AUSGANG
+  - Rezept `AR` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v1.1` `oly` → ADRESSE/FORTSETZUNG BEI Widderrad mit Stern tragenden Figuren: FORTSETZEN · POSTEN
+  - Rezept `OL+Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v1.1` `daly` → KOORDINATE/KATALOGEINTRAG BEI Widderrad mit Stern tragenden Figuren: ZIELORT · POSTEN
+  - Rezept `AL+Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v1.1` `sheal` → ANWEISUNG BEI Widderrad mit Stern tragenden Figuren: HALTEN · [E:STEUERUNG=GRAD I] · ZIELORT
+  - Rezept `SH+E+AL` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v1.2` `otalchy` → ADRESSE/FORTSETZUNG BEI Widderrad mit Stern tragenden Figuren: DANACH · ZIELORT · POSTEN
+  - Rezept `OT+AL+Y` · `B_RUNNING_RECIPE_NEW_SURFACE`
+- `f70v1.2` `tar` → ANWEISUNG BEI Widderrad mit Stern tragenden Figuren: EINSTELLEN · AUSGANG
+  - Rezept `T+AR` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v1.2` `am` → LOKALE KENNUNG BEI Widderrad mit Stern tragenden Figuren: [AM_ADDR:LOKALSTRUKTUR=HIER]
+  - Rezept `AM_ADDR` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v1.2` `dy` → KOORDINATE/KATALOGEINTRAG BEI Widderrad mit Stern tragenden Figuren: POSTEN
+  - Rezept `Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v1.3` `opchey` → ANWEISUNG BEI Widderrad mit Stern tragenden Figuren: [O:STEUERUNG=AUSFÜHRUNG] · EINSETZEN · POSTEN
+  - Rezept `O+P+Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v1.3` `sal` → ANWEISUNG BEI Widderrad mit Stern tragenden Figuren: WÄHLEN · ZIELORT
+  - Rezept `S+AL` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v1.4` `otakaizan` → ANWEISUNG BEI Widderrad mit Stern tragenden Figuren: DANACH · [A_ADDR:LOKALSTRUKTUR=HIER] · GEBEN · ANTEIL · [Z_ADDR:LOKALSTRUKTUR=HIER] · [AN:LOKALSTRUKTUR=KLASSE]
+  - Rezept `OT+A_ADDR+K+AIN+Z_ADDR+AN` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v1.5` `okalal` → ANWEISUNG BEI Widderrad mit Stern tragenden Figuren: SETZEN · ZIELORT · ZIELORT
+  - Rezept `OK+AL+AL` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v1.6` `otaly` → ADRESSE/FORTSETZUNG BEI Widderrad mit Stern tragenden Figuren: DANACH · ZIELORT · POSTEN
+  - Rezept `OT+AL+Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v1.7` `oalcheg` → ANWEISUNG BEI Widderrad mit Stern tragenden Figuren: [O:STEUERUNG=AUSFÜHRUNG] · ZIELORT · NEHMEN · [E:STEUERUNG=GRAD I] · [G_LABEL:LOKALSTRUKTUR=VARIANTE]
+  - Rezept `O+AL+CH+E+G_LABEL` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v1.8` `otchodals` → ANWEISUNG BEI Widderrad mit Stern tragenden Figuren: DANACH · NEHMEN · [O:STEUERUNG=AUSFÜHRUNG] · ZIELORT · [S_ADDR:LOKALSTRUKTUR=HIER]
+  - Rezept `OT+CH+O+AL+S_ADDR` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v1.9` `okolshy` → ANWEISUNG BEI Widderrad mit Stern tragenden Figuren: SETZEN · FORTSETZEN · HALTEN · POSTEN
+  - Rezept `OK+OL+SH+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v1.10` `otshshdy` → ANWEISUNG BEI Widderrad mit Stern tragenden Figuren: DANACH · HALTEN · HALTEN · [DY:STEUERUNG=SCHLUSS]
+  - Rezept `OT+SH+SH+DY` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v1.11` `otal` → ADRESSE/FORTSETZUNG BEI Widderrad mit Stern tragenden Figuren: DANACH · ZIELORT
+  - Rezept `OT+AL` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v1.11` `ypsharal` → ANWEISUNG BEI Widderrad mit Stern tragenden Figuren: POSTEN · EINSETZEN · HALTEN · AUSGANG · ZIELORT
+  - Rezept `Y+P+SH+AR+AL` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v1.12` `daiin` → KOORDINATE/KATALOGEINTRAG BEI Widderrad mit Stern tragenden Figuren: WERT
+  - Rezept `AIIN` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v1.12` `okey` → ANWEISUNG BEI Widderrad mit Stern tragenden Figuren: SETZEN · [E:STEUERUNG=GRAD I] · POSTEN
+  - Rezept `OK+E+Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v1.12` `otodal` → ADRESSE/FORTSETZUNG BEI Widderrad mit Stern tragenden Figuren: DANACH · [O:STEUERUNG=AUSFÜHRUNG] · ZIELORT
+  - Rezept `OT+O+AL` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v1.12` `cheokeeo` → ANWEISUNG BEI Widderrad mit Stern tragenden Figuren: NEHMEN · [E:STEUERUNG=GRAD I] · SETZEN · [EE:STEUERUNG=GRAD II] · [O:STEUERUNG=AUSFÜHRUNG]
+  - Rezept `CH+E+OK+EE+O` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v1.12` `okeodal` → ANWEISUNG BEI Widderrad mit Stern tragenden Figuren: SETZEN · [E:STEUERUNG=GRAD I] · [O:STEUERUNG=AUSFÜHRUNG] · ZIELORT
+  - Rezept `OK+E+O+AL` · `B_RUNNING_RECIPE_NEW_SURFACE`
+- `f70v1.12` `shol` → ANWEISUNG BEI Widderrad mit Stern tragenden Figuren: HALTEN · FORTSETZEN
+  - Rezept `SH+OL` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v1.12` `olaiin` → ADRESSE/FORTSETZUNG BEI Widderrad mit Stern tragenden Figuren: FORTSETZEN · WERT
+  - Rezept `OL+AIIN` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v1.12` `saiin` → ANWEISUNG BEI Widderrad mit Stern tragenden Figuren: WÄHLEN · WERT
+  - Rezept `S+AIIN` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v1.12` `sheo` → ANWEISUNG BEI Widderrad mit Stern tragenden Figuren: HALTEN · [E:STEUERUNG=GRAD I] · [O:STEUERUNG=AUSFÜHRUNG]
+  - Rezept `SH+E+O` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v1.12` `qokeeol` → ANWEISUNG BEI Widderrad mit Stern tragenden Figuren: SETZEN · [EE:STEUERUNG=GRAD II] · FORTSETZEN
+  - Rezept `OK+EE+OL` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v1.12` `otchykey` → ANWEISUNG BEI Widderrad mit Stern tragenden Figuren: DANACH · POSTEN · GEBEN · [E:STEUERUNG=GRAD I] · POSTEN
+  - Rezept `OT+Y+K+E+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v1.12` `chekeal` → KOORDINATE/KATALOGEINTRAG BEI Widderrad mit Stern tragenden Figuren: [CHK:LOKALSTRUKTUR=BEDINGUNGSKLASSE] · [E:STEUERUNG=GRAD I] · ZIELORT
+  - Rezept `CHK+E+AL` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v1.12` `oteosaiin` → ADRESSE/FORTSETZUNG BEI Widderrad mit Stern tragenden Figuren: DANACH · [E:STEUERUNG=GRAD I] · [O:STEUERUNG=AUSFÜHRUNG] · [S_ADDR:LOKALSTRUKTUR=HIER] · WERT
+  - Rezept `OT+E+O+S_ADDR+AIIN` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v1.12` `chekey` → KOORDINATE/KATALOGEINTRAG BEI Widderrad mit Stern tragenden Figuren: [CHK:LOKALSTRUKTUR=BEDINGUNGSKLASSE] · [E:STEUERUNG=GRAD I] · POSTEN
+  - Rezept `CHK+E+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v1.12` `okeolol` → ANWEISUNG BEI Widderrad mit Stern tragenden Figuren: SETZEN · [E:STEUERUNG=GRAD I] · FORTSETZEN · FORTSETZEN
+  - Rezept `OK+E+OL+OL` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v1.12` `chees` → ANWEISUNG BEI Widderrad mit Stern tragenden Figuren: HALTEN · [EE:STEUERUNG=GRAD II] · [S_ADDR:LOKALSTRUKTUR=HIER]
+  - Rezept `SH+EE+S_ADDR` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v1.12` `oeey` → KOORDINATE/KATALOGEINTRAG BEI Widderrad mit Stern tragenden Figuren: [O:STEUERUNG=AUSFÜHRUNG] · [EE:STEUERUNG=GRAD II] · POSTEN
+  - Rezept `O+EE+Y` · `B_RUNNING_RECIPE_NEW_SURFACE`
+- `f70v1.12` `opotey` → ANWEISUNG BEI Widderrad mit Stern tragenden Figuren: [O:STEUERUNG=AUSFÜHRUNG] · EINSETZEN · [O:STEUERUNG=AUSFÜHRUNG] · EINSTELLEN · [E:STEUERUNG=GRAD I] · POSTEN
+  - Rezept `O+P+O+T+E+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v1.12` `dal` → KOORDINATE/KATALOGEINTRAG BEI Widderrad mit Stern tragenden Figuren: ZIELORT
+  - Rezept `AL` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v1.12` `al` → KOORDINATE/KATALOGEINTRAG BEI Widderrad mit Stern tragenden Figuren: ZIELORT
+  - Rezept `AL` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v1.12` `s` → ANWEISUNG BEI Widderrad mit Stern tragenden Figuren: WÄHLEN
+  - Rezept `S` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v1.12` `otecheo` → ADRESSE/FORTSETZUNG BEI Widderrad mit Stern tragenden Figuren: DANACH · [E:STEUERUNG=GRAD I] · [CHEO:LOKALSTRUKTUR=LOKALER EINTRAG]
+  - Rezept `OT+E+CHEO` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v1.12` `dal` → KOORDINATE/KATALOGEINTRAG BEI Widderrad mit Stern tragenden Figuren: ZIELORT
+  - Rezept `AL` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v1.13` `okoly` → ANWEISUNG BEI Widderrad mit Stern tragenden Figuren: SETZEN · FORTSETZEN · POSTEN
+  - Rezept `OK+OL+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v1.14` `otalaiin` → ADRESSE/FORTSETZUNG BEI Widderrad mit Stern tragenden Figuren: DANACH · ZIELORT · WERT
+  - Rezept `OT+AL+AIIN` · `D_EXACT_LOCAL_SURFACE_OTHER_PAGE`
+- `f70v1.15` `oteo` → ADRESSE/FORTSETZUNG BEI Widderrad mit Stern tragenden Figuren: DANACH · [E:STEUERUNG=GRAD I] · [O:STEUERUNG=AUSFÜHRUNG]
+  - Rezept `OT+E+O` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v1.15` `alals` → KOORDINATE/KATALOGEINTRAG BEI Widderrad mit Stern tragenden Figuren: ZIELORT · ZIELORT · [S_ADDR:LOKALSTRUKTUR=HIER]
+  - Rezept `AL+AL+S_ADDR` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v1.15` `araly` → KOORDINATE/KATALOGEINTRAG BEI Widderrad mit Stern tragenden Figuren: AUSGANG · ZIELORT · POSTEN
+  - Rezept `AR+AL+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v1.16` `oteoeey` → ADRESSE/FORTSETZUNG BEI Widderrad mit Stern tragenden Figuren: DANACH · [E:STEUERUNG=GRAD I] · [O:STEUERUNG=AUSFÜHRUNG] · [EE:STEUERUNG=GRAD II] · POSTEN
+  - Rezept `OT+E+O+EE+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v1.16` `otal` → ADRESSE/FORTSETZUNG BEI Widderrad mit Stern tragenden Figuren: DANACH · ZIELORT
+  - Rezept `OT+AL` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v1.16` `okealar` → ANWEISUNG BEI Widderrad mit Stern tragenden Figuren: SETZEN · [E:STEUERUNG=GRAD I] · ZIELORT · AUSGANG
+  - Rezept `OK+E+AL+AR` · `D_EXACT_LOCAL_SURFACE_OTHER_PAGE`
+- `f70v1.17` `otear` → ADRESSE/FORTSETZUNG BEI Widderrad mit Stern tragenden Figuren: DANACH · [E:STEUERUNG=GRAD I] · AUSGANG
+  - Rezept `OT+E+AR` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v1.17` `araydy` → KOORDINATE/KATALOGEINTRAG BEI Widderrad mit Stern tragenden Figuren: AUSGANG · [A_ADDR:LOKALSTRUKTUR=HIER] · POSTEN · [DY:STEUERUNG=SCHLUSS]
+  - Rezept `AR+A_ADDR+Y+DY` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v2.1` `okcheo` → ANWEISUNG BEI Fischrad mit Stern tragenden Figuren: SETZEN · [CHEO:LOKALSTRUKTUR=LOKALER EINTRAG]
+  - Rezept `OK+CHEO` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v2.1` `dar` → KOORDINATE/KATALOGEINTRAG BEI Fischrad mit Stern tragenden Figuren: [D_ADDR:LOKALSTRUKTUR=HIER] · AUSGANG
+  - Rezept `D_ADDR+AR` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.1` `otey` → ADRESSE/FORTSETZUNG BEI Fischrad mit Stern tragenden Figuren: DANACH · [E:STEUERUNG=GRAD I] · POSTEN
+  - Rezept `OT+E+Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.1` `ykeey` → ANWEISUNG BEI Fischrad mit Stern tragenden Figuren: POSTEN · GEBEN · [EE:STEUERUNG=GRAD II] · POSTEN
+  - Rezept `Y+K+EE+Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.1` `tchy` → ANWEISUNG BEI Fischrad mit Stern tragenden Figuren: EINSTELLEN · POSTEN
+  - Rezept `T+Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.1` `otsheo` → ANWEISUNG BEI Fischrad mit Stern tragenden Figuren: DANACH · HALTEN · [E:STEUERUNG=GRAD I] · [O:STEUERUNG=AUSFÜHRUNG]
+  - Rezept `OT+SH+E+O` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v2.1` `oteotey` → ANWEISUNG BEI Fischrad mit Stern tragenden Figuren: DANACH · [E:STEUERUNG=GRAD I] · [O:STEUERUNG=AUSFÜHRUNG] · EINSTELLEN · [E:STEUERUNG=GRAD I] · POSTEN
+  - Rezept `OT+E+O+T+E+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v2.1` `shey` → ANWEISUNG BEI Fischrad mit Stern tragenden Figuren: HALTEN · [E:STEUERUNG=GRAD I] · POSTEN
+  - Rezept `SH+E+Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.1` `shecth` → ANWEISUNG BEI Fischrad mit Stern tragenden Figuren: HALTEN · [E:STEUERUNG=GRAD I] · [CTH:LOKALSTRUKTUR=BEREITSCHAFTSKLASSE]
+  - Rezept `SH+E+CTH` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v2.1` `opcheoldair` → ANWEISUNG BEI Fischrad mit Stern tragenden Figuren: [O:STEUERUNG=AUSFÜHRUNG] · EINSETZEN · NEHMEN · [E:STEUERUNG=GRAD I] · FORTSETZEN · [D_ADDR:LOKALSTRUKTUR=HIER] · BAHN
+  - Rezept `O+P+CH+E+OL+D_ADDR+AIR` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v2.1` `dateey` → ANWEISUNG BEI Fischrad mit Stern tragenden Figuren: [DA:STEUERUNG=ZWEITE STUFE] · EINSTELLEN · [EE:STEUERUNG=GRAD II] · POSTEN
+  - Rezept `DA+T+EE+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v2.1` `sal` → ANWEISUNG BEI Fischrad mit Stern tragenden Figuren: WÄHLEN · ZIELORT
+  - Rezept `S+AL` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.1` `ody` → LOKALE KENNUNG BEI Fischrad mit Stern tragenden Figuren: [O:STEUERUNG=AUSFÜHRUNG] · [DY:STEUERUNG=SCHLUSS]
+  - Rezept `O+DY` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.1` `choteey` → ANWEISUNG BEI Fischrad mit Stern tragenden Figuren: NEHMEN · DANACH · [EE:STEUERUNG=GRAD II] · POSTEN
+  - Rezept `CH+OT+EE+Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.1` `choeteedy` → ANWEISUNG BEI Fischrad mit Stern tragenden Figuren: [HO:LOKALSTRUKTUR=KLASSE] · [E:STEUERUNG=GRAD I] · EINSTELLEN · [EE:STEUERUNG=GRAD II] · [DY:STEUERUNG=SCHLUSS]
+  - Rezept `HO+E+T+EE+DY` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v2.1` `oteoteotsho` → ANWEISUNG BEI Fischrad mit Stern tragenden Figuren: DANACH · [E:STEUERUNG=GRAD I] · [O:STEUERUNG=AUSFÜHRUNG] · EINSTELLEN · [E:STEUERUNG=GRAD I] · [O:STEUERUNG=AUSFÜHRUNG] · EINSTELLEN · HALTEN · [O:STEUERUNG=AUSFÜHRUNG]
+  - Rezept `OT+E+O+T+E+O+T+SH+O` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v2.1` `yteos` → ANWEISUNG BEI Fischrad mit Stern tragenden Figuren: POSTEN · EINSTELLEN · [E:STEUERUNG=GRAD I] · [O:STEUERUNG=AUSFÜHRUNG] · [S_ADDR:LOKALSTRUKTUR=HIER]
+  - Rezept `Y+T+E+O+S_ADDR` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.1` `alain` → KOORDINATE/KATALOGEINTRAG BEI Fischrad mit Stern tragenden Figuren: ZIELORT · ANTEIL
+  - Rezept `AL+AIN` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v2.1` `sheodaly` → ANWEISUNG BEI Fischrad mit Stern tragenden Figuren: HALTEN · [E:STEUERUNG=GRAD I] · [O:STEUERUNG=AUSFÜHRUNG] · ZIELORT · POSTEN
+  - Rezept `SH+E+O+AL+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v2.1` `o` → LOKALE KENNUNG BEI Fischrad mit Stern tragenden Figuren: [O:STEUERUNG=AUSFÜHRUNG]
+  - Rezept `O` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.1` `aiin` → KOORDINATE/KATALOGEINTRAG BEI Fischrad mit Stern tragenden Figuren: WERT
+  - Rezept `AIIN` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.1` `cholkal` → ANWEISUNG BEI Fischrad mit Stern tragenden Figuren: FORTSETZEN · GEBEN · ZIELORT
+  - Rezept `OL+K+AL` · `B_RUNNING_RECIPE_NEW_SURFACE`
+- `f70v2.1` `chokear` → ANWEISUNG BEI Fischrad mit Stern tragenden Figuren: SETZEN · [E:STEUERUNG=GRAD I] · AUSGANG
+  - Rezept `OK+E+AR` · `B_RUNNING_RECIPE_NEW_SURFACE`
+- `f70v2.1` `oteody` → ADRESSE/FORTSETZUNG BEI Fischrad mit Stern tragenden Figuren: DANACH · [E:STEUERUNG=GRAD I] · [O:STEUERUNG=AUSFÜHRUNG] · POSTEN
+  - Rezept `OT+E+O+Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.1` `cholaiin` → ADRESSE/FORTSETZUNG BEI Fischrad mit Stern tragenden Figuren: FORTSETZEN · WERT
+  - Rezept `OL+AIIN` · `B_RUNNING_RECIPE_NEW_SURFACE`
+- `f70v2.1` `oteeoal` → ADRESSE/FORTSETZUNG BEI Fischrad mit Stern tragenden Figuren: DANACH · [EE:STEUERUNG=GRAD II] · [O:STEUERUNG=AUSFÜHRUNG] · ZIELORT
+  - Rezept `OT+EE+O+AL` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v2.1` `al` → KOORDINATE/KATALOGEINTRAG BEI Fischrad mit Stern tragenden Figuren: ZIELORT
+  - Rezept `AL` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.1` `sheeos` → ANWEISUNG BEI Fischrad mit Stern tragenden Figuren: HALTEN · [EE:STEUERUNG=GRAD II] · [O:STEUERUNG=AUSFÜHRUNG] · [S_ADDR:LOKALSTRUKTUR=HIER]
+  - Rezept `SH+EE+O+S_ADDR` · `C_RUNNING_SURFACE_DIFFERENT_LOCAL_PARSE`
+- `f70v2.1` `okey` → ANWEISUNG BEI Fischrad mit Stern tragenden Figuren: SETZEN · [E:STEUERUNG=GRAD I] · POSTEN
+  - Rezept `OK+E+Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.1` `chol` → ADRESSE/FORTSETZUNG BEI Fischrad mit Stern tragenden Figuren: FORTSETZEN
+  - Rezept `OL` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.1` `dy` → KOORDINATE/KATALOGEINTRAG BEI Fischrad mit Stern tragenden Figuren: POSTEN
+  - Rezept `Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.1` `otees` → ADRESSE/FORTSETZUNG BEI Fischrad mit Stern tragenden Figuren: DANACH · [EE:STEUERUNG=GRAD II] · [S_ADDR:LOKALSTRUKTUR=HIER]
+  - Rezept `OT+EE+S_ADDR` · `C_RUNNING_SURFACE_DIFFERENT_LOCAL_PARSE`
+- `f70v2.1` `cho` → LOKALE KENNUNG BEI Fischrad mit Stern tragenden Figuren: [HO:LOKALSTRUKTUR=KLASSE]
+  - Rezept `HO` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.1` `s` → ANWEISUNG BEI Fischrad mit Stern tragenden Figuren: WÄHLEN
+  - Rezept `S` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.1` `olar` → ADRESSE/FORTSETZUNG BEI Fischrad mit Stern tragenden Figuren: FORTSETZEN · AUSGANG
+  - Rezept `OL+AR` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.1` `otoaiin` → ADRESSE/FORTSETZUNG BEI Fischrad mit Stern tragenden Figuren: DANACH · [O:STEUERUNG=AUSFÜHRUNG] · WERT
+  - Rezept `OT+O+AIIN` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v2.1` `oteeody` → ADRESSE/FORTSETZUNG BEI Fischrad mit Stern tragenden Figuren: DANACH · [EE:STEUERUNG=GRAD II] · [O:STEUERUNG=AUSFÜHRUNG] · [DY:STEUERUNG=SCHLUSS]
+  - Rezept `OT+EE+O+DY` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.1` `sos` → LOKALE KENNUNG BEI Fischrad mit Stern tragenden Figuren: [S_ADDR:LOKALSTRUKTUR=HIER] · [O:STEUERUNG=AUSFÜHRUNG] · [S_ADDR:LOKALSTRUKTUR=HIER]
+  - Rezept `S_ADDR+O+S_ADDR` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v2.1` `todaiin` → ANWEISUNG BEI Fischrad mit Stern tragenden Figuren: EINSTELLEN · [O:STEUERUNG=AUSFÜHRUNG] · WERT
+  - Rezept `T+O+AIIN` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.1` `chokain` → ANWEISUNG BEI Fischrad mit Stern tragenden Figuren: SETZEN · ANTEIL
+  - Rezept `OK+AIN` · `B_RUNNING_RECIPE_NEW_SURFACE`
+- `f70v2.1` `otalal` → ADRESSE/FORTSETZUNG BEI Fischrad mit Stern tragenden Figuren: DANACH · ZIELORT · ZIELORT
+  - Rezept `OT+AL+AL` · `E_LOCAL_RECIPE_OTHER_PAGE`
+- `f70v2.1` `oteeam` → ADRESSE/FORTSETZUNG BEI Fischrad mit Stern tragenden Figuren: DANACH · [EE:STEUERUNG=GRAD II] · [AM_ADDR:LOKALSTRUKTUR=HIER]
+  - Rezept `OT+EE+AM_ADDR` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v2.2` `otalalg` → ADRESSE/FORTSETZUNG BEI Fischrad mit Stern tragenden Figuren: DANACH · ZIELORT · ZIELORT · [G_LABEL:LOKALSTRUKTUR=VARIANTE]
+  - Rezept `OT+AL+AL+G_LABEL` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v2.3` `ykary` → ANWEISUNG BEI Fischrad mit Stern tragenden Figuren: POSTEN · GEBEN · AUSGANG · POSTEN
+  - Rezept `Y+K+AR+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v2.4` `otar` → ADRESSE/FORTSETZUNG BEI Fischrad mit Stern tragenden Figuren: DANACH · AUSGANG
+  - Rezept `OT+AR` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.5` `oty` → ADRESSE/FORTSETZUNG BEI Fischrad mit Stern tragenden Figuren: DANACH · POSTEN
+  - Rezept `OT+Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.6` `oky` → ANWEISUNG BEI Fischrad mit Stern tragenden Figuren: SETZEN · POSTEN
+  - Rezept `OK+Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.6` `ody` → LOKALE KENNUNG BEI Fischrad mit Stern tragenden Figuren: [O:STEUERUNG=AUSFÜHRUNG] · [DY:STEUERUNG=SCHLUSS]
+  - Rezept `O+DY` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.7` `oty` → ADRESSE/FORTSETZUNG BEI Fischrad mit Stern tragenden Figuren: DANACH · POSTEN
+  - Rezept `OT+Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.7` `ar` → KOORDINATE/KATALOGEINTRAG BEI Fischrad mit Stern tragenden Figuren: AUSGANG
+  - Rezept `AR` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.8` `okala` → ANWEISUNG BEI Fischrad mit Stern tragenden Figuren: SETZEN · ZIELORT · [A_ADDR:LOKALSTRUKTUR=HIER]
+  - Rezept `OK+AL+A_ADDR` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v2.9` `otody` → ADRESSE/FORTSETZUNG BEI Fischrad mit Stern tragenden Figuren: DANACH · [O:STEUERUNG=AUSFÜHRUNG] · [DY:STEUERUNG=SCHLUSS]
+  - Rezept `OT+O+DY` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.10` `otald` → ADRESSE/FORTSETZUNG BEI Fischrad mit Stern tragenden Figuren: DANACH · ZIELORT · [D_LABEL:LOKALSTRUKTUR=HIER]
+  - Rezept `OT+AL+D_LABEL` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v2.11` `otaldar` → ADRESSE/FORTSETZUNG BEI Fischrad mit Stern tragenden Figuren: DANACH · ZIELORT · [D_ADDR:LOKALSTRUKTUR=HIER] · AUSGANG
+  - Rezept `OT+AL+D_ADDR+AR` · `B_RUNNING_RECIPE_NEW_SURFACE`
+- `f70v2.12` `okody` → ANWEISUNG BEI Fischrad mit Stern tragenden Figuren: SETZEN · [O:STEUERUNG=AUSFÜHRUNG] · POSTEN
+  - Rezept `OK+O+Y` · `B_RUNNING_RECIPE_NEW_SURFACE`
+- `f70v2.13` `opysam` → ANWEISUNG BEI Fischrad mit Stern tragenden Figuren: [O:STEUERUNG=AUSFÜHRUNG] · EINSETZEN · POSTEN · [S_ADDR:LOKALSTRUKTUR=HIER] · [AM_ADDR:LOKALSTRUKTUR=HIER]
+  - Rezept `O+P+Y+S_ADDR+AM_ADDR` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v2.14` `chy` → KOORDINATE/KATALOGEINTRAG BEI Fischrad mit Stern tragenden Figuren: POSTEN
+  - Rezept `Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.15` `otaly` → ADRESSE/FORTSETZUNG BEI Fischrad mit Stern tragenden Figuren: DANACH · ZIELORT · POSTEN
+  - Rezept `OT+AL+Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.16` `otal` → ADRESSE/FORTSETZUNG BEI Fischrad mit Stern tragenden Figuren: DANACH · ZIELORT
+  - Rezept `OT+AL` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.16` `arar` → KOORDINATE/KATALOGEINTRAG BEI Fischrad mit Stern tragenden Figuren: AUSGANG · AUSGANG
+  - Rezept `AR+AR` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v2.17` `otaldy` → ADRESSE/FORTSETZUNG BEI Fischrad mit Stern tragenden Figuren: DANACH · ZIELORT · [DY:STEUERUNG=SCHLUSS]
+  - Rezept `OT+AL+DY` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.18` `okeoly` → ANWEISUNG BEI Fischrad mit Stern tragenden Figuren: SETZEN · [E:STEUERUNG=GRAD I] · FORTSETZEN · POSTEN
+  - Rezept `OK+E+OL+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v2.19` `okydy` → ANWEISUNG BEI Fischrad mit Stern tragenden Figuren: SETZEN · POSTEN · [DY:STEUERUNG=SCHLUSS]
+  - Rezept `OK+Y+DY` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v2.20` `okees` → ANWEISUNG BEI Fischrad mit Stern tragenden Figuren: SETZEN · [EE:STEUERUNG=GRAD II] · [S_LABEL:LOKALSTRUKTUR=HIER]
+  - Rezept `OK+EE+S_LABEL` · `C_RUNNING_SURFACE_DIFFERENT_LOCAL_PARSE`
+- `f70v2.21` `daii` → LOKALE KENNUNG BEI Fischrad mit Stern tragenden Figuren: [DA:STEUERUNG=ZWEITE STUFE] · [IIN:STEUERUNG=STUFE]
+  - Rezept `DA+IIN` · `B_RUNNING_RECIPE_NEW_SURFACE`
+- `f70v2.21` `amdy` → LOKALE KENNUNG BEI Fischrad mit Stern tragenden Figuren: [AM_ADDR:LOKALSTRUKTUR=HIER] · [DY:STEUERUNG=SCHLUSS]
+  - Rezept `AM_ADDR+DY` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v2.21` `otar` → ADRESSE/FORTSETZUNG BEI Fischrad mit Stern tragenden Figuren: DANACH · AUSGANG
+  - Rezept `OT+AR` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.21` `am` → LOKALE KENNUNG BEI Fischrad mit Stern tragenden Figuren: [AM_ADDR:LOKALSTRUKTUR=HIER]
+  - Rezept `AM_ADDR` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.21` `aral` → KOORDINATE/KATALOGEINTRAG BEI Fischrad mit Stern tragenden Figuren: AUSGANG · ZIELORT
+  - Rezept `AR+AL` · `D_EXACT_LOCAL_SURFACE_OTHER_PAGE`
+- `f70v2.21` `otair` → ADRESSE/FORTSETZUNG BEI Fischrad mit Stern tragenden Figuren: DANACH · BAHN
+  - Rezept `OT+AIR` · `D_EXACT_LOCAL_SURFACE_OTHER_PAGE`
+- `f70v2.21` `chedaiin` → ANWEISUNG BEI Fischrad mit Stern tragenden Figuren: BEARBEITEN · WERT
+  - Rezept `CHD+AIIN` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.21` `oteey` → ADRESSE/FORTSETZUNG BEI Fischrad mit Stern tragenden Figuren: DANACH · [EE:STEUERUNG=GRAD II] · POSTEN
+  - Rezept `OT+EE+Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.21` `dair` → KOORDINATE/KATALOGEINTRAG BEI Fischrad mit Stern tragenden Figuren: [D_ADDR:LOKALSTRUKTUR=HIER] · BAHN
+  - Rezept `D_ADDR+AIR` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.21` `shchey` → ANWEISUNG BEI Fischrad mit Stern tragenden Figuren: HALTEN · POSTEN
+  - Rezept `SH+Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.21` `daiin` → KOORDINATE/KATALOGEINTRAG BEI Fischrad mit Stern tragenden Figuren: WERT
+  - Rezept `AIIN` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.21` `chalaly` → ANWEISUNG BEI Fischrad mit Stern tragenden Figuren: NEHMEN · ZIELORT · ZIELORT · POSTEN
+  - Rezept `CH+AL+AL+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v2.21` `oteody` → ADRESSE/FORTSETZUNG BEI Fischrad mit Stern tragenden Figuren: DANACH · [E:STEUERUNG=GRAD I] · [O:STEUERUNG=AUSFÜHRUNG] · POSTEN
+  - Rezept `OT+E+O+Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.21` `chotol` → ANWEISUNG BEI Fischrad mit Stern tragenden Figuren: NEHMEN · DANACH · FORTSETZEN
+  - Rezept `CH+OT+OL` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.21` `chedy` → ANWEISUNG BEI Fischrad mit Stern tragenden Figuren: BEARBEITEN · POSTEN
+  - Rezept `CHD+Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.21` `oteotey` → ANWEISUNG BEI Fischrad mit Stern tragenden Figuren: DANACH · [E:STEUERUNG=GRAD I] · [O:STEUERUNG=AUSFÜHRUNG] · EINSTELLEN · [E:STEUERUNG=GRAD I] · POSTEN
+  - Rezept `OT+E+O+T+E+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v2.21` `oteeeor` → ADRESSE/FORTSETZUNG BEI Fischrad mit Stern tragenden Figuren: DANACH · [EEE:STEUERUNG=GRAD III] · EINHEIT
+  - Rezept `OT+EEE+OR` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v2.21` `ar` → KOORDINATE/KATALOGEINTRAG BEI Fischrad mit Stern tragenden Figuren: AUSGANG
+  - Rezept `AR` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.21` `alody` → KOORDINATE/KATALOGEINTRAG BEI Fischrad mit Stern tragenden Figuren: ZIELORT · [O:STEUERUNG=AUSFÜHRUNG] · [DY:STEUERUNG=SCHLUSS]
+  - Rezept `AL+O+DY` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v2.21` `daiir` → ANWEISUNG BEI Fischrad mit Stern tragenden Figuren: [DA:STEUERUNG=ZWEITE STUFE] · [IIN:STEUERUNG=STUFE] · MARKIEREN
+  - Rezept `DA+IIN+R` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v2.21` `oteedar` → ADRESSE/FORTSETZUNG BEI Fischrad mit Stern tragenden Figuren: DANACH · [EE:STEUERUNG=GRAD II] · AUSGANG
+  - Rezept `OT+EE+AR` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v2.21` `oteey` → ADRESSE/FORTSETZUNG BEI Fischrad mit Stern tragenden Figuren: DANACH · [EE:STEUERUNG=GRAD II] · POSTEN
+  - Rezept `OT+EE+Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.21` `teey` → ANWEISUNG BEI Fischrad mit Stern tragenden Figuren: EINSTELLEN · [EE:STEUERUNG=GRAD II] · POSTEN
+  - Rezept `T+EE+Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.21` `dalal` → KOORDINATE/KATALOGEINTRAG BEI Fischrad mit Stern tragenden Figuren: ZIELORT · ZIELORT
+  - Rezept `AL+AL` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.21` `cheoltey` → ANWEISUNG BEI Fischrad mit Stern tragenden Figuren: NEHMEN · [E:STEUERUNG=GRAD I] · FORTSETZEN · EINSTELLEN · [E:STEUERUNG=GRAD I] · POSTEN
+  - Rezept `CH+E+OL+T+E+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v2.21` `oteedy` → ADRESSE/FORTSETZUNG BEI Fischrad mit Stern tragenden Figuren: DANACH · [EE:STEUERUNG=GRAD II] · [DY:STEUERUNG=SCHLUSS]
+  - Rezept `OT+EE+DY` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.21` `sheeteey` → ANWEISUNG BEI Fischrad mit Stern tragenden Figuren: HALTEN · [EE:STEUERUNG=GRAD II] · EINSTELLEN · [EE:STEUERUNG=GRAD II] · POSTEN
+  - Rezept `SH+EE+T+EE+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v2.21` `okeeol` → ANWEISUNG BEI Fischrad mit Stern tragenden Figuren: SETZEN · [EE:STEUERUNG=GRAD II] · FORTSETZEN
+  - Rezept `OK+EE+OL` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.21` `ykeeos` → ANWEISUNG BEI Fischrad mit Stern tragenden Figuren: POSTEN · GEBEN · [EE:STEUERUNG=GRAD II] · [O:STEUERUNG=AUSFÜHRUNG] · [S_ADDR:LOKALSTRUKTUR=HIER]
+  - Rezept `Y+K+EE+O+S_ADDR` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v2.21` `shey` → ANWEISUNG BEI Fischrad mit Stern tragenden Figuren: HALTEN · [E:STEUERUNG=GRAD I] · POSTEN
+  - Rezept `SH+E+Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.21` `ykair` → ANWEISUNG BEI Fischrad mit Stern tragenden Figuren: POSTEN · GEBEN · BAHN
+  - Rezept `Y+K+AIR` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.21` `arar` → KOORDINATE/KATALOGEINTRAG BEI Fischrad mit Stern tragenden Figuren: AUSGANG · AUSGANG
+  - Rezept `AR+AR` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v2.21` `alos` → KOORDINATE/KATALOGEINTRAG BEI Fischrad mit Stern tragenden Figuren: ZIELORT · [O:STEUERUNG=AUSFÜHRUNG] · [S_ADDR:LOKALSTRUKTUR=HIER]
+  - Rezept `AL+O+S_ADDR` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v2.22` `otar` → ADRESSE/FORTSETZUNG BEI Fischrad mit Stern tragenden Figuren: DANACH · AUSGANG
+  - Rezept `OT+AR` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.22` `am` → LOKALE KENNUNG BEI Fischrad mit Stern tragenden Figuren: [AM_ADDR:LOKALSTRUKTUR=HIER]
+  - Rezept `AM_ADDR` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.23` `otar` → ADRESSE/FORTSETZUNG BEI Fischrad mit Stern tragenden Figuren: DANACH · AUSGANG
+  - Rezept `OT+AR` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.23` `al` → KOORDINATE/KATALOGEINTRAG BEI Fischrad mit Stern tragenden Figuren: ZIELORT
+  - Rezept `AL` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.24` `otalar` → ADRESSE/FORTSETZUNG BEI Fischrad mit Stern tragenden Figuren: DANACH · ZIELORT · AUSGANG
+  - Rezept `OT+AL+AR` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v2.25` `otalam` → ADRESSE/FORTSETZUNG BEI Fischrad mit Stern tragenden Figuren: DANACH · ZIELORT · [AM_ADDR:LOKALSTRUKTUR=HIER]
+  - Rezept `OT+AL+AM_ADDR` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.26` `dolaram` → ADRESSE/FORTSETZUNG BEI Fischrad mit Stern tragenden Figuren: [D_ADDR:LOKALSTRUKTUR=HIER] · FORTSETZEN · AUSGANG · [AM_ADDR:LOKALSTRUKTUR=HIER]
+  - Rezept `D_ADDR+OL+AR+AM_ADDR` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v2.27` `okaram` → ANWEISUNG BEI Fischrad mit Stern tragenden Figuren: SETZEN · AUSGANG · [AM_ADDR:LOKALSTRUKTUR=HIER]
+  - Rezept `OK+AR+AM_ADDR` · `D_EXACT_LOCAL_SURFACE_OTHER_PAGE`
+- `f70v2.28` `oteosal` → ADRESSE/FORTSETZUNG BEI Fischrad mit Stern tragenden Figuren: DANACH · [E:STEUERUNG=GRAD I] · [O:STEUERUNG=AUSFÜHRUNG] · [S_ADDR:LOKALSTRUKTUR=HIER] · ZIELORT
+  - Rezept `OT+E+O+S_ADDR+AL` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v2.29` `salols` → ADRESSE/FORTSETZUNG BEI Fischrad mit Stern tragenden Figuren: [S_LABEL:LOKALSTRUKTUR=HIER] · ZIELORT · FORTSETZEN · [S_LABEL:LOKALSTRUKTUR=HIER]
+  - Rezept `S_LABEL+AL+OL+S_LABEL` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v2.30` `okaldal` → ANWEISUNG BEI Fischrad mit Stern tragenden Figuren: SETZEN · ZIELORT · ZIELORT
+  - Rezept `OK+AL+AL` · `B_RUNNING_RECIPE_NEW_SURFACE`
+- `f70v2.31` `ykolaiin` → ANWEISUNG BEI Fischrad mit Stern tragenden Figuren: POSTEN · GEBEN · FORTSETZEN · WERT
+  - Rezept `Y+K+OL+AIIN` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v2.32` `otal` → ADRESSE/FORTSETZUNG BEI Fischrad mit Stern tragenden Figuren: DANACH · ZIELORT
+  - Rezept `OT+AL` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.32` `daly` → KOORDINATE/KATALOGEINTRAG BEI Fischrad mit Stern tragenden Figuren: ZIELORT · POSTEN
+  - Rezept `AL+Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.32` `oteoal` → ADRESSE/FORTSETZUNG BEI Fischrad mit Stern tragenden Figuren: DANACH · [E:STEUERUNG=GRAD I] · [O:STEUERUNG=AUSFÜHRUNG] · ZIELORT
+  - Rezept `OT+E+O+AL` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v2.32` `dal` → KOORDINATE/KATALOGEINTRAG BEI Fischrad mit Stern tragenden Figuren: ZIELORT
+  - Rezept `AL` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.32` `aildy` → KOORDINATE/KATALOGEINTRAG BEI Fischrad mit Stern tragenden Figuren: [A_ADDR:LOKALSTRUKTUR=HIER] · [IIN:STEUERUNG=STUFE] · VERBINDUNG · [DY:STEUERUNG=SCHLUSS]
+  - Rezept `A_ADDR+IIN+L+DY` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v2.32` `otaiin` → ADRESSE/FORTSETZUNG BEI Fischrad mit Stern tragenden Figuren: DANACH · WERT
+  - Rezept `OT+AIIN` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.32` `ar` → KOORDINATE/KATALOGEINTRAG BEI Fischrad mit Stern tragenden Figuren: AUSGANG
+  - Rezept `AR` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.32` `oteey` → ADRESSE/FORTSETZUNG BEI Fischrad mit Stern tragenden Figuren: DANACH · [EE:STEUERUNG=GRAD II] · POSTEN
+  - Rezept `OT+EE+Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.32` `shal` → ANWEISUNG BEI Fischrad mit Stern tragenden Figuren: HALTEN · ZIELORT
+  - Rezept `SH+AL` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.32` `o` → LOKALE KENNUNG BEI Fischrad mit Stern tragenden Figuren: [O:STEUERUNG=AUSFÜHRUNG]
+  - Rezept `O` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.32` `qoteeal` → ADRESSE/FORTSETZUNG BEI Fischrad mit Stern tragenden Figuren: DANACH · [EE:STEUERUNG=GRAD II] · ZIELORT
+  - Rezept `OT+EE+AL` · `E_LOCAL_RECIPE_OTHER_PAGE`
+- `f70v2.32` `ar` → KOORDINATE/KATALOGEINTRAG BEI Fischrad mit Stern tragenden Figuren: AUSGANG
+  - Rezept `AR` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.32` `al` → KOORDINATE/KATALOGEINTRAG BEI Fischrad mit Stern tragenden Figuren: ZIELORT
+  - Rezept `AL` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.32` `otaiin` → ADRESSE/FORTSETZUNG BEI Fischrad mit Stern tragenden Figuren: DANACH · WERT
+  - Rezept `OT+AIIN` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.32` `al` → KOORDINATE/KATALOGEINTRAG BEI Fischrad mit Stern tragenden Figuren: ZIELORT
+  - Rezept `AL` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.32` `teodaiin` → ANWEISUNG BEI Fischrad mit Stern tragenden Figuren: EINSTELLEN · [E:STEUERUNG=GRAD I] · [O:STEUERUNG=AUSFÜHRUNG] · WERT
+  - Rezept `T+E+O+AIIN` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f70v2.32` `oteeo` → ADRESSE/FORTSETZUNG BEI Fischrad mit Stern tragenden Figuren: DANACH · [EE:STEUERUNG=GRAD II] · [O:STEUERUNG=AUSFÜHRUNG]
+  - Rezept `OT+EE+O` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.32` `cthey` → KOORDINATE/KATALOGEINTRAG BEI Fischrad mit Stern tragenden Figuren: [CTH:LOKALSTRUKTUR=BEREITSCHAFTSKLASSE] · [E:STEUERUNG=GRAD I] · POSTEN
+  - Rezept `CTH+E+Y` · `C_RUNNING_SURFACE_DIFFERENT_LOCAL_PARSE`
+- `f70v2.32` `oteeos` → ADRESSE/FORTSETZUNG BEI Fischrad mit Stern tragenden Figuren: DANACH · [EE:STEUERUNG=GRAD II] · [O:STEUERUNG=AUSFÜHRUNG] · [S_ADDR:LOKALSTRUKTUR=HIER]
+  - Rezept `OT+EE+O+S_ADDR` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.32` `oteos` → ADRESSE/FORTSETZUNG BEI Fischrad mit Stern tragenden Figuren: DANACH · [E:STEUERUNG=GRAD I] · [O:STEUERUNG=AUSFÜHRUNG] · [S_ADDR:LOKALSTRUKTUR=HIER]
+  - Rezept `OT+E+O+S_ADDR` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.32` `aiin` → KOORDINATE/KATALOGEINTRAG BEI Fischrad mit Stern tragenden Figuren: WERT
+  - Rezept `AIIN` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f70v2.32` `daim` → LOKALE KENNUNG BEI Fischrad mit Stern tragenden Figuren: [DA:STEUERUNG=ZWEITE STUFE] · [IIN:STEUERUNG=STUFE] · [M_LOCAL:LOKALSTRUKTUR=HIER]
+  - Rezept `DA+IIN+M_LOCAL` · `C_RUNNING_SURFACE_DIFFERENT_LOCAL_PARSE`
+- `f70v2.33` `otolal` → ADRESSE/FORTSETZUNG BEI Fischrad mit Stern tragenden Figuren: DANACH · FORTSETZEN · ZIELORT
+  - Rezept `OT+OL+AL` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+
+## f75r
+
+- `f75r.47` `sal` → ANWEISUNG BEI Zielklasse wählen; am zweiten Grad eintragen und schließen.: WÄHLEN · ZIELORT
+  - Rezept `S+AL` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f75r.47` `okeedy` → ANWEISUNG BEI Zielklasse wählen; am zweiten Grad eintragen und schließen.: SETZEN · [EE:STEUERUNG=GRAD II] · [DY:STEUERUNG=SCHLUSS]
+  - Rezept `OK+EE+DY` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f75r.48` `daly` → KOORDINATE/KATALOGEINTRAG BEI Diesen Zielplatz mit dem wiederholten Gegenplatz verbinden.: ZIELORT · POSTEN
+  - Rezept `AL+Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f75r.48` `ychey` → KOORDINATE/KATALOGEINTRAG BEI Diesen Zielplatz mit dem wiederholten Gegenplatz verbinden.: POSTEN · POSTEN
+  - Rezept `Y+Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f75r.49` `sols` → ANWEISUNG BEI Dieselbe Klasse an der unteren Quelladresse fortführen.: FORTSETZEN · WÄHLEN
+  - Rezept `OL+S` · `B_RUNNING_RECIPE_NEW_SURFACE`
+- `f75r.49` `dara` → KOORDINATE/KATALOGEINTRAG BEI Dieselbe Klasse an der unteren Quelladresse fortführen.: [D_ADDR:LOKALSTRUKTUR=HIER] · AUSGANG · [A_ADDR:LOKALSTRUKTUR=HIER]
+  - Rezept `D_ADDR+AR+A_ADDR` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f75r.50` `ychty` → ANWEISUNG BEI Diesen Platz auswählen, markieren und wieder als laufenden Platz setzen.: POSTEN · NEHMEN · EINSTELLEN · POSTEN
+  - Rezept `Y+CH+T+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f75r.51` `saino` → ANWEISUNG BEI Eine Einheit auswählen und ihren örtlichen Gang aufrufen.: WÄHLEN · ANTEIL · [O:STEUERUNG=AUSFÜHRUNG]
+  - Rezept `S+AIN+O` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f75r.52` `saldy` → ANWEISUNG BEI Den gewählten Zielplatz schließen.: WÄHLEN · ZIELORT · [DY:STEUERUNG=SCHLUSS]
+  - Rezept `S+AL+DY` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f75r.53` `dainy` → KOORDINATE/KATALOGEINTRAG BEI Eine Einheit gehört zu diesem Platz.: ANTEIL · POSTEN
+  - Rezept `AIN+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+
+## f76r
+
+- `f76r.4` `s` → ABSCHNITTSMARKE s
+  - Rezept `SECTION_MARKER` · `G_SECTION_MARKER`
+- `f76r.7` `d` → ABSCHNITTSMARKE d
+  - Rezept `SECTION_MARKER` · `G_SECTION_MARKER`
+- `f76r.10` `q` → ABSCHNITTSMARKE q
+  - Rezept `SECTION_MARKER` · `G_SECTION_MARKER`
+- `f76r.14` `s` → ABSCHNITTSMARKE s
+  - Rezept `SECTION_MARKER` · `G_SECTION_MARKER`
+- `f76r.18` `o` → ABSCHNITTSMARKE o
+  - Rezept `SECTION_MARKER` · `G_SECTION_MARKER`
+- `f76r.22` `l` → ABSCHNITTSMARKE l
+  - Rezept `SECTION_MARKER` · `G_SECTION_MARKER`
+- `f76r.27` `k` → ABSCHNITTSMARKE k
+  - Rezept `SECTION_MARKER` · `G_SECTION_MARKER`
+- `f76r.31` `r` → ABSCHNITTSMARKE r
+  - Rezept `SECTION_MARKER` · `G_SECTION_MARKER`
+- `f76r.37` `s` → ABSCHNITTSMARKE s
+  - Rezept `SECTION_MARKER` · `G_SECTION_MARKER`
+
+## f81v
+
+- `f81v.28` `otain` → ADRESSE/FORTSETZUNG BEI gemeinsames Bad- und Beckenfeld: DANACH · ANTEIL
+  - Rezept `OT+AIN` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f81v.28` `olkal` → ANWEISUNG BEI gemeinsames Bad- und Beckenfeld: FORTSETZEN · GEBEN · ZIELORT
+  - Rezept `OL+K+AL` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+
+## f82r
+
+- `f82r.10` `oroldair` → ADRESSE/FORTSETZUNG BEI mehrere lokale Bad- und Leitungsstationen: EINHEIT · FORTSETZEN · [D_ADDR:LOKALSTRUKTUR=HIER] · BAHN
+  - Rezept `OR+OL+D_ADDR+AIR` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f82r.34` `okor` → ANWEISUNG BEI mehrere lokale Bad- und Leitungsstationen: SETZEN · EINHEIT
+  - Rezept `OK+OR` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f82r.35` `darol` → ANWEISUNG BEI mehrere lokale Bad- und Leitungsstationen: [DA:STEUERUNG=ZWEITE STUFE] · MARKIEREN · FORTSETZEN
+  - Rezept `DA+R+OL` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f82r.36` `okal` → ANWEISUNG BEI mehrere lokale Bad- und Leitungsstationen: SETZEN · ZIELORT
+  - Rezept `OK+AL` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f82r.37` `okaldy` → ANWEISUNG BEI mehrere lokale Bad- und Leitungsstationen: SETZEN · ZIELORT · [DY:STEUERUNG=SCHLUSS]
+  - Rezept `OK+AL+DY` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f82r.38` `darary` → ANWEISUNG BEI mehrere lokale Bad- und Leitungsstationen: [DA:STEUERUNG=ZWEITE STUFE] · MARKIEREN · AUSGANG · POSTEN
+  - Rezept `DA+R+AR+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f82r.39` `okairady` → ANWEISUNG BEI mehrere lokale Bad- und Leitungsstationen: SETZEN · BAHN · [A_ADDR:LOKALSTRUKTUR=HIER] · [D_ADDR:LOKALSTRUKTUR=HIER] · POSTEN
+  - Rezept `OK+AIR+A_ADDR+D_ADDR+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f82r.40` `sororl` → ANWEISUNG BEI mehrere lokale Bad- und Leitungsstationen: WÄHLEN · EINHEIT · EINHEIT · VERBINDUNG
+  - Rezept `S+OR+OR+L` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f82r.41` `olkoky` → ANWEISUNG BEI mehrere lokale Bad- und Leitungsstationen: FORTSETZEN · GEBEN · SETZEN · POSTEN
+  - Rezept `OL+K+OK+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f82r.42` `sokoly` → ANWEISUNG BEI mehrere lokale Bad- und Leitungsstationen: WÄHLEN · SETZEN · FORTSETZEN · POSTEN
+  - Rezept `S+OK+OL+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f82r.43` `dolol` → ADRESSE/FORTSETZUNG BEI mehrere lokale Bad- und Leitungsstationen: [D_ADDR:LOKALSTRUKTUR=HIER] · FORTSETZEN · FORTSETZEN
+  - Rezept `D_ADDR+OL+OL` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f82r.44` `olaiin` → ADRESSE/FORTSETZUNG BEI mehrere lokale Bad- und Leitungsstationen: FORTSETZEN · WERT
+  - Rezept `OL+AIIN` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f82r.45` `okeear` → ANWEISUNG BEI mehrere lokale Bad- und Leitungsstationen: SETZEN · [EE:STEUERUNG=GRAD II] · AUSGANG
+  - Rezept `OK+EE+AR` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+
+## f83r
+
+- `f83r.45` `chtorol` → ANWEISUNG BEI lokale Becken-, Figuren- und Verbindungsstationen: NEHMEN · EINSTELLEN · EINHEIT · FORTSETZEN
+  - Rezept `CH+T+OR+OL` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f83r.46` `olsaiin` → ANWEISUNG BEI lokale Becken-, Figuren- und Verbindungsstationen: FORTSETZEN · WÄHLEN · WERT
+  - Rezept `OL+S+AIIN` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f83r.50` `sasoldal` → ANWEISUNG BEI lokale Becken-, Figuren- und Verbindungsstationen: WÄHLEN · [A_ADDR:LOKALSTRUKTUR=HIER] · WÄHLEN · FORTSETZEN · [DA:STEUERUNG=ZWEITE STUFE] · VERBINDUNG
+  - Rezept `S+A_ADDR+S+OL+DA+L` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f83r.51` `darolsy` → ANWEISUNG BEI lokale Becken-, Figuren- und Verbindungsstationen: [DA:STEUERUNG=ZWEITE STUFE] · MARKIEREN · FORTSETZEN · WÄHLEN · POSTEN
+  - Rezept `DA+R+OL+S+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+
+## f88r
+
+- `f88r.1` `otorchety` → ANWEISUNG BEI WURZELBÜNDEL: DANACH · EINHEIT · NEHMEN · [E:STEUERUNG=GRAD I] · EINSTELLEN · POSTEN
+  - Rezept `OT+OR+CH+E+T+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f88r.2` `osal` → ANWEISUNG BEI SPINDELWURZEL: [O:STEUERUNG=AUSFÜHRUNG] · WÄHLEN · ZIELORT
+  - Rezept `O+S+AL` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f88r.3` `orald` → KOORDINATE/KATALOGEINTRAG BEI FASERWURZELBÜNDEL: EINHEIT · ZIELORT · [D_ADDR:LOKALSTRUKTUR=HIER]
+  - Rezept `OR+AL+D_ADDR` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f88r.4` `oldar` → ANWEISUNG BEI KNOLLENWURZEL: FORTSETZEN · [DA:STEUERUNG=ZWEITE STUFE] · MARKIEREN
+  - Rezept `OL+DA+R` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f88r.5` `otoky` → ANWEISUNG BEI SCHLINGWURZEL: DANACH · SETZEN · POSTEN
+  - Rezept `OT+OK+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f88r.6` `otaly` → ADRESSE/FORTSETZUNG BEI LANZETTBLATT: DANACH · ZIELORT · POSTEN
+  - Rezept `OT+AL+Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f88r.12` `otaldy` → ADRESSE/FORTSETZUNG BEI GABELWURZELSTOCK: DANACH · ZIELORT · [DY:STEUERUNG=SCHLUSS]
+  - Rezept `OT+AL+DY` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f88r.13` `oram` → KOORDINATE/KATALOGEINTRAG BEI HÄNGEWURZEL: EINHEIT · [A_ADDR:LOKALSTRUKTUR=HIER] · [AM_ADDR:LOKALSTRUKTUR=HIER]
+  - Rezept `OR+A_ADDR+AM_ADDR` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f88r.14` `dary` → ANWEISUNG BEI ZAHNKÖRPER: [DA:STEUERUNG=ZWEITE STUFE] · MARKIEREN · POSTEN
+  - Rezept `DA+R+Y` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f88r.15` `okol` → ANWEISUNG BEI FASERWURZELSTOCK: SETZEN · FORTSETZEN
+  - Rezept `OK+OL` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f88r.16` `sorory` → ANWEISUNG BEI FLECKKNOLLE: WÄHLEN · EINHEIT · EINHEIT · POSTEN
+  - Rezept `S+OR+OR+Y` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f88r.17` `otyda` → ADRESSE/FORTSETZUNG BEI BLATTZWEIG: DANACH · POSTEN · [DA:STEUERUNG=ZWEITE STUFE]
+  - Rezept `OT+Y+DA` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f88r.23` `ofyskydal` → ANWEISUNG BEI WURZELKRONE: [O:STEUERUNG=AUSFÜHRUNG] · [LOCAL_CHAR_F:LOKALSTRUKTUR=HIER] · POSTEN · WÄHLEN · GEBEN · POSTEN · [DA:STEUERUNG=ZWEITE STUFE] · VERBINDUNG
+  - Rezept `O+LOCAL_CHAR_F+Y+S+K+Y+DA+L` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+- `f88r.24` `otor` → ADRESSE/FORTSETZUNG BEI KRIECHSTOCK: DANACH · EINHEIT
+  - Rezept `OT+OR` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f88r.24` `am` → LOKALE KENNUNG BEI SCHNITTKÖRPER: [AM_ADDR:LOKALSTRUKTUR=HIER]
+  - Rezept `AM_ADDR` · `A_EXACT_RUNNING_SURFACE_RECIPE`
+- `f88r.25` `ofaldo` → KOORDINATE/KATALOGEINTRAG BEI SPEICHERTEIL: [O:STEUERUNG=AUSFÜHRUNG] · [LOCAL_CHAR_F:LOKALSTRUKTUR=HIER] · ZIELORT · [D_ADDR:LOKALSTRUKTUR=HIER] · [O:STEUERUNG=AUSFÜHRUNG]
+  - Rezept `O+LOCAL_CHAR_F+AL+D_ADDR+O` · `F_PAGE_PRIVATE_VISIBLE_COMPOSITION`
+
+## Grenze
+
+Dies ist eine vollständige Default-Lesung innerhalb des kreativen Mischmodells. Die sechs alten Lokalmakros und alle Formalkontrollen bleiben Struktur-Tags. Keine Zeile bestätigt ein deutsches Wort, einen Eigennamen, eine Sprache oder Klartext.

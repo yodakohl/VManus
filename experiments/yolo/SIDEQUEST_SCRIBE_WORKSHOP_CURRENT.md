@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-27, after GDT512.
+Updated: 2026-08-27, after GDT513.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -64,6 +64,16 @@ CONTROL into `T=EINSTELLEN` and `R=MARKIEREN` creates a five-class gate with
 7/17 never-seen pairs are now blocked. Seven of the nine local cards remain
 amber; `R>T` and `R<-EE` remain red-local. The internal meanings of the broad
 classes are not collapsed.
+
+GDT513 closes the other large local gap. The 510 groups outside GDT473's
+183-event address edition contain 501 inherited component recipes and nine
+section markers. Under the current dictionary they divide into 254 instruction,
+104 address/continuation, 120 coordinate/catalogue, 23 local-key and nine
+marker cards. Two hundred seventy-four have a complete running-recipe contact;
+all eighteen same-surface parse conflicts retain an explicit local structural
+cause. The best intake architecture is therefore a mixed formula/record/
+nomenclator, while GDT405 remains authoritative for exact surfaces on the next
+four pages.
 
 GDT459–GDT484 now resolve the formerly opaque local-address tail as the mixed
 codebook architecture anticipated by the sidequest: portable function cards
