@@ -1995,10 +1995,31 @@ For example, `chepakeo` prints both `[CH+E+P]+A_ADDR+K+E+O` and
 geben; auf Grad I; hier; erneut auf Grad I; zur Ausführung.” Unknown surfaces
 stop rather than inheriting a near spelling.
 
+## GDT547 visible atom/factor reader
+
+The last24 prose surfaces now have the same concrete card format. Twenty-one
+are exact concatenations from the old visible renderer deck:16 entirely
+canonical and five mixing in a learned short renderer. This is the clearest
+current instance of the workshop model “technical atoms plus learned short
+pieces.”
+
+The remaining three are not opaque whole words:
+
+```text
+chedaiir  ched→CHD | aiir→IIN+R       (dominant 17/20 channel)
+faiis     f→LOCAL_CHAR_F | aiis→IIN+S (F/QO-conditioned branch)
+qef       q→NULL_Q | e→E | f→LOCAL_CHAR_F
+```
+
+All24 retain a complete German reading. Of52 adjacent recipe seams,40 are
+already old and12 on nine cards remain current compositions. Only
+`shso=SH+S+O` still depends on a raw new direct action pair, `SH>S`; its
+default is kept openly rather than hidden in a long gloss.
+
 ## Next work
 
-Give the final24 atom/factor-only forms the same concrete card format. For each
-surface, prefer visible atomic or factor channels already learned elsewhere;
-retain a complete default meaning even where the visible route is only a
-single-card assignment. Open no new page and do not manufacture a long learned
-whole-word gloss merely to hide a missing atom channel.
+Compile all145 prose target surfaces into one reader with a single output
+contract across the11 exact,29 tiled,81 fragment and24 atom/factor tiers.
+Then rank the genuinely weak cards—twelve fragment defaults, ten weaker tile
+cards, `shso`, and any overlaps—so the next improvement attacks a small named
+queue instead of reopening all meanings.

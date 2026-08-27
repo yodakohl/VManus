@@ -13197,3 +13197,25 @@ and inherits no similar card. All33 checks pass after correcting the validator
 to treat display `+` separators as separators rather than manuscript
 characters. Next apply this complete-card contract to the final24 atom/factor
 forms; no new page, recipe, anchor, root value or meaning was added.
+
+## GDT547 visible reader for the final 24 atom/factor cards
+
+All24 `ATOMS_AND_FACTORS_ONLY` surfaces now reconstruct exactly from visible
+working channels and retain both GDT540 German readings. Twenty-one have44
+exact old GDT519 alias-deck paths:16 use only canonical atom spellings and5
+use old learned short renderers (`chcph`, `cph`, `daiin`, `qot`, `dal`).
+
+The three bounded residual routes are concrete. `chedaiir` uses
+`ched→CHD | aiir→IIN+R`, with `aiir` dominant17/20; `faiis` uses
+`f→LOCAL_CHAR_F | aiis→IIN+S`, while four complete cards split `aiis` by
+prefix2×`IIN+S` after F/QO versus2×`A_ADDR+IIN+S` after S; `qef` uses local
+`q→NULL_Q | e→E | f→LOCAL_CHAR_F` under the old75/84 and same-statement6/6
+noncarrier evidence.
+
+Forty of52 direct atom seams are old;12 new seams touch9 cards. GDT446 in the
+observed contexts yields20 green,1 amber (`shtchy`, local `SH>T`) and3 stops.
+Two stops (`axor`,`chxar`) are only the older deck's missing later `LOCAL_X`
+overlay. `shso=SH+S+O` remains the sole raw observed pair default at new
+`SH>S`; its full reading stays “Halten und wählen; zur Ausführung.” All38
+checks pass. Next compile the11/29/81/24 support ladder into one145-surface
+reader; no page, recipe, root value, or meaning changed.

@@ -1,0 +1,368 @@
+{
+  "status": "PASS",
+  "check_count": 38,
+  "passed_count": 38,
+  "failed_count": 0,
+  "checks": [
+    {
+      "check": "source_tier_count",
+      "passed": true,
+      "detail": 24
+    },
+    {
+      "check": "reader_card_count",
+      "passed": true,
+      "detail": [
+        24,
+        24
+      ]
+    },
+    {
+      "check": "reader_surface_set_exact",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "old_cover_path_count",
+      "passed": true,
+      "detail": 44
+    },
+    {
+      "check": "seam_count",
+      "passed": true,
+      "detail": 52
+    },
+    {
+      "check": "special_route_count",
+      "passed": true,
+      "detail": 3
+    },
+    {
+      "check": "aiis_conditioning_count",
+      "passed": true,
+      "detail": 4
+    },
+    {
+      "check": "tier_and_context_fields_exact",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "all_24_visible_surfaces_reconstruct",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "all_24_visible_traces_reconstruct_recipe",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "segment_partition_exact",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "visible_route_distribution",
+      "passed": true,
+      "detail": {
+        "OLD26_ALL_CANONICAL_VISIBLE_ATOMS": 16,
+        "OLD26_MIXED_CANONICAL_AND_LEARNED_RENDERERS": 5,
+        "CURRENT30_DOMINANT_SHORT_RENDERER": 1,
+        "PREFIX_CONDITIONED_CURRENT_AIIS_CHANNEL": 1,
+        "GDT535_LOCAL_Q_NULL_PLUS_CANONICAL_ATOMS": 1
+      }
+    },
+    {
+      "check": "special_route_inventory",
+      "passed": true,
+      "detail": [
+        "chedaiir",
+        "faiis",
+        "qef"
+      ]
+    },
+    {
+      "check": "selected_old_covers_replay",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "old_cover_missing_set",
+      "passed": true,
+      "detail": [
+        "chedaiir",
+        "faiis",
+        "qef"
+      ]
+    },
+    {
+      "check": "aiir_dominant_mapping_replay",
+      "passed": true,
+      "detail": [
+        {
+          "model": "CURRENT30_RUNNING",
+          "surface_chunk": "aiir",
+          "mapping_rank": "1",
+          "recipe": "IIN+R",
+          "recipe_atom_count": "2",
+          "support": "17",
+          "total_surface_support": "20",
+          "support_share": "0.850000",
+          "derivation_score": "2.365334",
+          "high_confidence_top_mapping": "YES",
+          "evidence_sources": "DIRECT_INSERTION_RESIDUAL:6 | ITERATIVE_EDGE_RESIDUAL:11",
+          "ambiguity_policy": "NONE",
+          "mapping_scope": "GENERAL_RUNNING_COMPILER"
+        }
+      ]
+    },
+    {
+      "check": "aiis_prefix_split_replay",
+      "passed": true,
+      "detail": {
+        "IIN+S": 2,
+        "A_ADDR+IIN+S": 2
+      }
+    },
+    {
+      "check": "qef_local_q_null_replay",
+      "passed": true,
+      "detail": "same-statement q vote 6/6 noncarrier; old visible q-null 75/84"
+    },
+    {
+      "check": "all_atomic_pair_rows_replay",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "seam_status_distribution",
+      "passed": true,
+      "detail": {
+        "NEW_DIRECT_INTERFACE": 12,
+        "OLD26_DIRECT_INTERFACE": 40
+      }
+    },
+    {
+      "check": "nine_new_seam_targets",
+      "passed": true,
+      "detail": [
+        "axor",
+        "cheda",
+        "chedaiir",
+        "chpady",
+        "chxar",
+        "faiis",
+        "shain",
+        "shso",
+        "tocpheey"
+      ]
+    },
+    {
+      "check": "gdt446_decision_distribution",
+      "passed": true,
+      "detail": {
+        "STOP": 3,
+        "READ": 20,
+        "READ_AMBER": 1
+      }
+    },
+    {
+      "check": "current_execution_overlay_distribution",
+      "passed": true,
+      "detail": {
+        "READ_CURRENT_LOCAL_X_OVERLAY": 2,
+        "READ_FACTOR_GREEN": 20,
+        "READ_EXPLICIT_OBSERVED_PAIR_DEFAULT": 1,
+        "READ_FACTOR_AMBER_LOCAL_APPENDIX": 1
+      }
+    },
+    {
+      "check": "gdt446_stop_inventory",
+      "passed": true,
+      "detail": [
+        "axor",
+        "chxar",
+        "shso"
+      ]
+    },
+    {
+      "check": "amber_inventory",
+      "passed": true,
+      "detail": [
+        "shtchy"
+      ]
+    },
+    {
+      "check": "all_cards_have_meaning",
+      "passed": true,
+      "detail": 24
+    },
+    {
+      "check": "reader_decision_and_guard",
+      "passed": true,
+      "detail": [
+        [
+          "READ_KNOWN_ATOMIC_FACTOR_WORKING_CARD"
+        ],
+        [
+          "EXACT_KNOWN_SURFACE_ONLY__NO_UNKNOWN_SURFACE_OR_NEW_MEANING"
+        ]
+      ]
+    },
+    {
+      "check": "core_metric_replay",
+      "passed": true,
+      "detail": {
+        "target_card_count": 24,
+        "exact_surface_reconstruction_count": 24,
+        "old26_exact_cover_target_count": 21,
+        "old26_exact_cover_path_count": 44,
+        "old26_all_canonical_target_count": 16,
+        "old26_mixed_learned_renderer_target_count": 5,
+        "bounded_special_route_count": 3,
+        "current30_dominant_aiir_route_count": 1,
+        "prefix_conditioned_aiis_route_count": 1,
+        "local_q_null_route_count": 1,
+        "direct_interface_count": 52,
+        "old26_direct_interface_count": 40,
+        "new_direct_interface_count": 12,
+        "target_with_new_direct_interface_count": 9,
+        "gdt446_factor_green_count": 20,
+        "gdt446_factor_amber_count": 1,
+        "gdt446_factor_stop_count": 3,
+        "current_local_x_overlay_count": 2,
+        "current_explicit_pair_default_count": 1,
+        "current_readable_card_count": 24,
+        "self_contained_card_count": 11,
+        "active_action_card_count": 1,
+        "active_argument_card_count": 8,
+        "active_action_and_argument_card_count": 4
+      }
+    },
+    {
+      "check": "summary_core_metric_replay",
+      "passed": true,
+      "detail": {
+        "target_card_count": "24",
+        "exact_surface_reconstruction_count": "24",
+        "old26_exact_cover_target_count": "21",
+        "old26_exact_cover_path_count": "44",
+        "old26_all_canonical_target_count": "16",
+        "old26_mixed_learned_renderer_target_count": "5",
+        "bounded_special_route_count": "3",
+        "current30_dominant_aiir_route_count": "1",
+        "prefix_conditioned_aiis_route_count": "1",
+        "local_q_null_route_count": "1",
+        "direct_interface_count": "52",
+        "old26_direct_interface_count": "40",
+        "new_direct_interface_count": "12",
+        "target_with_new_direct_interface_count": "9",
+        "gdt446_factor_green_count": "20",
+        "gdt446_factor_amber_count": "1",
+        "gdt446_factor_stop_count": "3",
+        "current_local_x_overlay_count": "2",
+        "current_explicit_pair_default_count": "1",
+        "current_readable_card_count": "24",
+        "self_contained_card_count": "11",
+        "active_action_card_count": "1",
+        "active_argument_card_count": "8",
+        "active_action_and_argument_card_count": "4"
+      }
+    },
+    {
+      "check": "result_exact",
+      "passed": true,
+      "detail": {
+        "active_action_and_argument_card_count": 4,
+        "active_action_card_count": 1,
+        "active_argument_card_count": 8,
+        "bounded_special_route_count": 3,
+        "current30_dominant_aiir_route_count": 1,
+        "current_explicit_pair_default_count": 1,
+        "current_local_x_overlay_count": 2,
+        "current_readable_card_count": 24,
+        "direct_interface_count": 52,
+        "exact_surface_reconstruction_count": 24,
+        "gdt446_factor_amber_count": 1,
+        "gdt446_factor_green_count": 20,
+        "gdt446_factor_stop_count": 3,
+        "local_q_null_route_count": 1,
+        "new_direct_interface_count": 12,
+        "new_pages": 0,
+        "old26_all_canonical_target_count": 16,
+        "old26_direct_interface_count": 40,
+        "old26_exact_cover_path_count": 44,
+        "old26_exact_cover_target_count": 21,
+        "old26_mixed_learned_renderer_target_count": 5,
+        "prefix_conditioned_aiis_route_count": 1,
+        "recipe_changes": 0,
+        "root_meaning_changes": 0,
+        "self_contained_card_count": 11,
+        "status": "PASS_24_ATOM_FACTOR_CARDS_VISIBLE__21_OLD_DECK_COVERS__3_SPECIAL_ROUTES",
+        "target_card_count": 24,
+        "target_with_new_direct_interface_count": 9
+      }
+    },
+    {
+      "check": "known_cli_probe",
+      "passed": true,
+      "detail": {
+        "returncode": 0,
+        "route": "PREFIX_CONDITIONED_CURRENT_AIIS_CHANNEL"
+      }
+    },
+    {
+      "check": "unknown_cli_stops",
+      "passed": true,
+      "detail": {
+        "returncode": 2,
+        "payload": {
+          "guard": "EXACT_SURFACE_KEY_ONLY__NO_FUZZY_INHERITANCE",
+          "known_surface_count": 24,
+          "status": "STOP_UNKNOWN_ATOMIC_FACTOR_SURFACE",
+          "surface": "unknown_atomic_card"
+        }
+      }
+    },
+    {
+      "check": "cli_lists_exact_24",
+      "passed": true,
+      "detail": 24
+    },
+    {
+      "check": "book_status",
+      "passed": true,
+      "detail": "PASS_24_ATOM_FACTOR_CARDS_VISIBLE__21_OLD_DECK_COVERS__3_SPECIAL_ROUTES"
+    },
+    {
+      "check": "book_all_surface_inventory",
+      "passed": true,
+      "detail": 24
+    },
+    {
+      "check": "book_names_shso_default",
+      "passed": true,
+      "detail": "SH>S"
+    },
+    {
+      "check": "generator_rerun_exit",
+      "passed": true,
+      "detail": "{\n  \"active_action_and_argument_card_count\": 4,\n  \"active_action_card_count\": 1,\n  \"active_argument_card_count\": 8,\n  \"bounded_special_route_count\": 3,\n  \"current30_dominant_aiir_route_count\": 1,\n  \"current_explicit_pair_default_count\": 1,\n  \"current_local_x_overlay_count\": 2,\n  \"current_readable_card_count\": 24,\n  \"direct_interface_count\": 52,\n  \"exact_surface_reconstruction_count\": 24,\n  \"gdt446_factor_amber_count\": 1,\n  \"gdt446_factor_green_count\": 20,\n  \"gdt446_factor_stop_count\": 3,\n  \"local_q_null_route_count\": 1,\n  \"new_direct_interface_count\": 12,\n  \"new_pages\": 0,\n  \"old26_all_canonical_target_count\": 16,\n  \"old26_direct_interface_count\": 40,\n  \"old26_exact_cover_path_count\": 44,\n  \"old26_exact_cover_target_count\": 21,\n  \"old26_mixed_learned_renderer_target_count\": 5,\n  \"prefix_conditioned_aiis_route_count\": 1,\n  \"recipe_changes\": 0,\n  \"root_meaning_changes\": 0,\n  \"self_contained_card_count\": 11,\n  \"status\": \"PASS_24_ATOM_FACTOR_CARDS_VISIBLE__21_OLD_DECK_COVERS__3_SPECIAL_ROUTES\",\n  \"target_card_count\": 24,\n  \"target_with_new_direct_interface_count\": 9\n}\n"
+    },
+    {
+      "check": "generator_byte_determinism",
+      "passed": true,
+      "detail": {
+        "gdt547_24_atomic_factor_reader_cards.tsv": "034d8dca52e32f744311f851e0979cfbe0d8de124f3e7070f24643c325042a39",
+        "gdt547_44_old26_exact_cover_paths.tsv": "4160c536d0ae24799e15f52ac119409048ba2680da2059ba238340ba7a6a3856",
+        "gdt547_52_atomic_pair_interfaces.tsv": "d32619db1a8712b6f4ed7c78549678664cbca192413030576837d427a5f84510",
+        "gdt547_3_special_visible_routes.tsv": "594555888c569f65e2bdee1bd03a1fe40d4d004bd1425f2ece4b44b915b701bb",
+        "gdt547_4_aiis_prefix_conditioning_cards.tsv": "3f8d77ff4225982189f97e2490dd2def7d9ed91b56bccc6f40a4b48e50d2edb0",
+        "gdt547_atomic_factor_reader_summary.tsv": "6db7984590eead149f46c851eda4396d5a23459ec44f33b31d3ed0a24dfdd903",
+        "GDT547_24_ATOMIC_FACTOR_READER.md": "e308c0c04741031ae373d39b3f388b8ff762eb89049b028a9f246ad8b78af005",
+        "gdt547_result.json": "c8b8c9d06c7de915c50c754dfd29676013020ba001e56bd8da0d80842364b61c"
+      }
+    }
+  ]
+}
