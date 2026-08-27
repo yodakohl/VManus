@@ -1,0 +1,72 @@
+{
+  "experiment_id": "GDT535",
+  "status": "PASS_SAME_STATEMENT_Q_NULL_qef_CLOSURE",
+  "claim_ceiling": "EXPLORATORY_SAME_STATEMENT_Q_ROLE_CLOSURE__NO_GLOBAL_Q_NULL_OR_CONFIRMED_PLAINTEXT",
+  "old_statement_q_metrics": {
+    "q_event_count": 768,
+    "q_statement_count": 430,
+    "multi_q_statement_count": 166,
+    "fully_unanimous_multi_q_statement_count": 125,
+    "neighbour_vote_scored_event_count": 383,
+    "neighbour_vote_correct_event_count": 339,
+    "neighbour_vote_accuracy": 0.8851174934725848,
+    "role_counts": {
+      "CARRIER_Q": 67,
+      "NONCARRIER_Q": 701
+    }
+  },
+  "current_statement_q_metrics": {
+    "q_event_count": 78,
+    "q_statement_count": 42,
+    "multi_q_statement_count": 17,
+    "fully_unanimous_multi_q_statement_count": 13,
+    "neighbour_vote_scored_event_count": 47,
+    "neighbour_vote_correct_event_count": 41,
+    "neighbour_vote_accuracy": 0.8723404255319149,
+    "role_counts": {
+      "CARRIER_Q": 6,
+      "NONCARRIER_Q": 72
+    }
+  },
+  "selected_resolution_count": 1,
+  "selected_resolution": {
+    "surface": "qef",
+    "event_id": "G515-E0165",
+    "statement_id": "G515-S010",
+    "recipe": "E+LOCAL_CHAR_F",
+    "global_candidate_rank": 2,
+    "same_statement_context_rank": 1,
+    "rival_recipe": "CARRIER_Q+E+LOCAL_CHAR_F",
+    "other_q_event_count": 6,
+    "other_q_role_vote": "NONCARRIER_Q",
+    "other_q_surfaces": [
+      "qokees",
+      "qokeey",
+      "qokeey",
+      "qotar",
+      "qokey",
+      "qokeor"
+    ],
+    "old_global_q_null_signature": "75/84",
+    "old_E_edge_q_null_context": "1/1",
+    "path_trace": "qe=>e~E",
+    "working_literal_de": "[E:STEUERUNG=GRAD I] · [LOCAL_CHAR_F:STEUERUNG=HIER]",
+    "working_phrase_de": "Hier auf Grad I."
+  },
+  "inherited_candidate_metrics_unchanged": {
+    "target_count": 159,
+    "truth_generated_count": 159,
+    "top1_exact_count": 155,
+    "top2_exact_count": 157,
+    "top3_exact_count": 157,
+    "top5_exact_count": 157,
+    "rank_sum": 174,
+    "deepest_truth_rank": 9
+  },
+  "working_resolved_surface_count": 158,
+  "remaining_unresolved_surface_count": 1,
+  "remaining_unresolved_surfaces": [
+    "aiicthy"
+  ],
+  "guard": "USE_UNANIMOUS_OTHER_Q_ROLES_IN_THE_EXACT_STATEMENT_ONLY__KEEP_GLOBAL_q_AMBIGUITY__NO_RECIPE_CHANGE_OUTSIDE_qef__NO_NEW_PAGES"
+}

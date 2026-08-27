@@ -12961,3 +12961,22 @@ inside that space are155 rank one/rank sum172. Old `cheeety=EEE+T+Y` remains
 a contrary context control, so no global `cheee` parse follows. The working
 layer resolves157/159 forms; next compare `aiicthy` and `qef` through their
 separate old families without opening a page.
+
+## GDT535 same-statement q-null `qef` closure
+
+GDT535 resolves the recipe-role ambiguity of `qef` without changing its
+components. Exact statement G515-S010 has seven q-initial cards. Excluding
+`qef`, all six others—`qokees`, two `qokeey`, `qotar`, `qokey`, and
+`qokeor`—omit `CARRIER_Q`. The same local role habit is recurrent: a unanimous
+other-q sentence vote predicts339/383 old and41/47 current scored q events.
+Old initial-q null support is75/84; the first-atom-E context is1/1; GDT523's
+target renderer path is `qe→e~E`. `E+LOCAL_CHAR_F` is the only one of four
+finite candidates with the locally predicted noncarrier role.
+
+Keep `qef=E+LOCAL_CHAR_F`, now with context rank one and the working phrase
+**“Hier auf Grad I.”** Candidate metrics remain155/159 rank one/rank sum174
+because the provisional recipe itself does not change. Working status rises to
+158/159 resolved. q remains globally ambiguous; the same owner block contains
+real carrier-q cards. Only `aiicthy` remains: compare its `aii` prefix as
+`AIIN`, `A_ADDR+IIN`, and visible local characters before exact
+`cthy=CH+T+Y`, without opening a page.

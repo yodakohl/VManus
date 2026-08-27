@@ -1,6 +1,6 @@
 # Current thirty-page scribe-workshop theory
 
-Updated: 2026-08-27, after GDT534.
+Updated: 2026-08-27, after GDT535.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -1595,7 +1595,7 @@ typed f89r carrier. `SH→S` is newly direct in `shso`, but its ordered relation
 was already old. No twentieth portable value is needed. The complete 597-event
 and 5,866-group contextual overlays are in GDT516; validation passes 36/36.
 
-## GDT517–GDT534 executable intake update
+## GDT517–GDT535 executable intake update
 
 The finite reader now reaches family-revised rank one148/159 with rank sum180.
 The important change is architectural, not merely numerical. GDT525 closes the
@@ -1752,9 +1752,18 @@ receiving a fictional rank. The local frame matters: old
 `cheeety=EEE+T+Y` still shows that `cheee` can collapse to grade III in another
 construction.
 
+GDT535 closes `qef` without changing its atoms. In exact sentence G515-S010,
+the six other q-initial cards are all noncarrier q. The old visible-q null
+relation is75/84, the old E-edge q context is1/1, and GDT523 already supplies
+the renderer path `qe→e~E`. Among the four finite candidates, only
+`E+LOCAL_CHAR_F` matches all three layers. The working phrase is **“Hier auf
+Grad I.”** Across the decks, unanimous sentence-neighbour votes get339/383 old
+and41/47 current q roles right; this is useful local context, not a global
+q-null rule.
+
 ## Next work
 
-Keep every further page closed. The unresolved queue is now `aiicthy` and
-`qef`. Test them separately: `aii|cthy` against recurrent value/action frames,
-and `qef` against q-rendered grade/local-character frames. Advance whichever
-has a real old compositional family; do not force one rule onto both.
+Keep every further page closed. Only `aiicthy` remains. Its exact right card is
+`cthy=CH+T+Y`; compare the visible `aii` prefix as `AIIN`, `A_ADDR+IIN`, and
+`A_ADDR+LOCAL_CHAR_I+LOCAL_CHAR_I` through old complete carriers and the f31r
+block. Prefer a recurring whole family over character-by-character residue.
