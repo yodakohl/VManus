@@ -1,6 +1,6 @@
 # Current thirty-page scribe-workshop theory
 
-Updated: 2026-08-27, after GDT517.
+Updated: 2026-08-27, after GDT518.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -113,8 +113,19 @@ plus GDT513's 510 cards replace the old local placeholders. Every prose
 surface/domain has one recipe; only nine local keys retain two finite choices.
 The 546-card selected stream resolves to 539 green, two amber, three address
 containers and two local shells, with zero stops. Future lookup precedence is
-exact event > known surface/role > compiler rank 1. Next improve the 42 old-base
-rank-1 disagreements from neighbours, owner and role before opening more pages.
+exact event > known surface/role > compiler rank 1.
+
+GDT518 improves that last default without touching a known card. A visible-form
+ridge decoder predicts component counts and ordered component pairs from
+character uni-/bi-/trigrams; the old compiler rank remains a prior and the
+immediate card neighbours receive only a small tie-breaking weight. On the 159
+forms new to the old 26-page base, rank-one recovery rises 117→134, top-five
+157→158, rank sum falls 281→212 and the deepest current recipe moves 56→14.
+Twenty-two old errors are corrected, five old hits are lost. The result strongly
+favours the mixed whole-card plus compositional-short-code theory: visible
+internal form supplies almost all of the gain, while context adds only one
+case. The next no-new-page route is a monotone visible-stem anchor transducer
+for `dy`, `ol/O+L`, swallowed `a/d/q`, `CH/SH/CHD` and local-character cases.
 
 GDT459–GDT484 now resolve the formerly opaque local-address tail as the mixed
 codebook architecture anticipated by the sidequest: portable function cards

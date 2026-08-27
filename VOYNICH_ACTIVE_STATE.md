@@ -12533,6 +12533,34 @@ headless itinerary/address closes into readable containers and `axor/chxar`
 into local shells that preserve stream state. Directly observed `shso=SH+S+O`
 receives one finite new amber pair license. The final stream has 539 green, two
 amber, three address containers, two local shells and zero stops. Validation
-passes 42/42. The live next route is to rerank the 42 old-base top-1
-disagreements from visible neighbours, owner and card role while retaining all
-current recipes and opening no new page.
+passes 42/42.
+
+## GDT518 context-aware surface-recipe reranker
+
+GDT518 keeps every current exact card and works only on the ordering of finite
+GDT517 candidates for a future unknown surface. Its old-base surface decoder
+uses visible length and character uni-/bi-/trigram counts to predict recipe
+atom counts and ordered adjacent-atom-pair counts over 1,558 invariant surface
+types. Ridge alpha is 10. Candidate cost is squared signature distance plus
+`log(1+i)` for the zero-based old compiler rank.
+
+Old recipe statements additionally supply add-10 bigram and trigram models
+with explicit statement/card boundaries. Only ngrams touching the candidate
+card are scored, and their mean enters with positive weight 0.05. This context
+term changes one additional top decision; visible form carries almost all of
+the improvement.
+
+Across the 159 surfaces new to the older 26-page base, all current recipes
+remain generated. The GDT517 order gives 117 top-one, 157 top-five, rank sum
+281 and deepest rank 56. The selected GDT518 order gives 134 top-one, 158
+top-five, rank sum 212 and deepest rank 14. It corrects 22 old errors, loses
+five old hits, changes four errors without yet solving them and leaves sixteen
+old errors unchanged. Fourteen non-prose surfaces receive zero context cost.
+Validation passes 40/40.
+
+The live lookup order is now exact event > unique known surface/domain option >
+GDT518-reranked finite compiler candidate. The result is an exploratory
+structural default, not a word meaning. The next closed-page route is a
+monotone visible stem-anchor/alignment model for the concentrated `dy`,
+`ol/O+L`, swallowed `a/d/q`, `CH/SH/CHD` and local-character residuals. Rehearse
+that model on old compositional forms before adopting it; open no new page.
