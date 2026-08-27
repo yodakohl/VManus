@@ -13661,3 +13661,30 @@ Use the GDT567 edition as the current readable voice layer. Next compare the
 nine action roots with their owner-bound verb realizations by register and
 extract only repeated small action frames; do not reinterpret a root or open a
 page.
+
+## GDT568 compresses all action realizations to20 owner frames
+
+The45 already present register×action cells for the nine fixed action roots
+collapse to20 distinct German frames. The portable action remains broad while
+the register selects its technical realization: K=GEBEN becomes `ordne ... zu`
+in Text/Celestial, `gib ... zu` in Herbal/Pharma and `führe ... zu` in
+Biological; OK uses five frames, CH three, SH two, T two, R two, and S/CHD/P
+one each. This is a compact mixed-codebook realization layer rather than45
+independent long meanings.
+
+The deck reaches all1,643 action-bearing state cards and all1,834 distinct
+state-event×root uses; every target verb head is already present in the
+applicable owner-bound control. It changes763/1,656 state clauses,479/793
+statements and27 pages. All3,466 nonstate clauses remain byte-identical; f4r's
+state prose already needs no action-frame change.
+
+Across854 mixed seams there are866 shared-action-root contacts. Exact full
+frames rise517→866 and exact verb heads730→866. K supplies the largest
+repair:0/114 full frames and33/114 heads become114/114. OK full frames rise
+31→169 and CH97→160, while S/CHD/P were already exact. No root, atom,
+recipe, event, statement, surface or page changes; all49 checks pass.
+
+Use GDT568 as the current complete readable edition. Next audit the remaining
+small context/scope voice—especially `[wie zuvor]`, `im laufenden Gang`,
+`Weiter:` and `Danach:`—for a reusable sentence-frame deck without opening a
+page or retuning a root.

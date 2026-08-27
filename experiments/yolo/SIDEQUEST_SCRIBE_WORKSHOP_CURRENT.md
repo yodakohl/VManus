@@ -1,6 +1,6 @@
 # Current thirty-page scribe-workshop theory
 
-Updated: 2026-08-27, after GDT563.
+Updated: 2026-08-27, after GDT568.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -2386,10 +2386,33 @@ clauses but zero nonstate clauses. Shared argument heads rise0→1,209 and share
 relation heads3→20. Whole-word matching removed ten false substring contacts
 from the preliminary count.
 
+## GDT568 the action vocabulary is nine cores plus20 learned frames
+
+All45 register×action cells already present in the working dictionary collapse
+to20 distinct German verb frames. This is the clearest current example of the
+mixed system we have been looking for:
+
+```text
+K = broad GEBEN core
+Text/Himmel       ordne ... zu
+Pflanzen/Pharma   gib ... zu
+Stationen         führe ... zu
+```
+
+The same principle gives five OK frames, three CH, two SH, two T, two R and
+one each for S, CHD and P. These are not long meanings assigned to the written
+root; they are learned register realizations around a constant short action.
+
+The20-card deck changes763 of1,656 state clauses and no nonstate clause. At866
+mixed-seam contacts carrying the same action root, full verb-frame agreement
+rises517→866 and verb-head agreement730→866. K is the strongest repair:
+0→114 full matching frames. Every one of1,834 applied event×root cells has
+its target head in the old owner-bound control.
+
 ## Next work
 
-The remaining audible split is mostly verbal: generic gib/nimm/setze beside
-owner forms such as ordne zu/entnimm/setze im Stationsgang an. Build an
-observed register×action frame table for the nine fixed action roots, then
-apply only recurrent small frames. Keep recipes, event boundaries and root
-values fixed; open no page.
+Nouns, relations, place, close and actions now share one technical voice. The
+remaining audible differences are small context and scope shells: `[wie
+zuvor]`, `im laufenden Gang`, `Weiter:` and `Danach:`. Factor those into a
+minimal reusable sentence-frame deck while keeping the19 roots,20 action
+frames,39 other voice cards, recipes and boundaries fixed. Open no page.
