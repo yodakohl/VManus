@@ -1,6 +1,6 @@
 # Current thirty-page scribe-workshop theory
 
-Updated: 2026-08-27, after GDT561.
+Updated: 2026-08-27, after GDT562.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -2257,9 +2257,30 @@ The coverage problem is now closed. The remaining difficulty is fluency:706
 cards have no visible action,274 have no action/grade/argument/relation and222
 contain state controls alone.
 
+## GDT562 actionless cards carry sentence state
+
+The706 cards without a written action are no longer a semantic hole. 693 have
+an active contextual action and692 an effective argument;687 therefore read
+as full operations. The hidden-looking material has exact editorial provenance:
+
+```text
+action   544 prior visible same-statement card +149 owner defaults
+argument 233 visible here +355 prior visible card +104 owner defaults
+```
+
+The same-statement memory reaches up to8 cards for actions and5 for arguments.
+All54 current GDT539 source pointers replay exactly. Each of the nine action
+roots is inherited somewhere, so this is a general state mechanism rather than
+a special OL gloss.
+
+The remaining19 cards are already readable:6 objectless inherited actions,5
+argument references,4 formal/relation prologues,3 graded closes and1 pure
+continuation. `OL` still means only CONTINUE; “continue: hold the portion”
+comes from OL plus the active SH and AIN states, not a new OL meaning.
+
 ## Next work
 
-Classify the actionless/contentless cards as initializer, continuation, close,
-reference or transition, then give all213 ordered role patterns fluent
-microphrases while preserving every one of the36 short values. Keep the same30
-pages and open no new page.
+Join the706 GDT562 ellipsis phrases to the950 cards with visible actions and
+publish one fluent microphrase for every GDT561 state card. Preserve exact atom
+trace, ownerfree working sentence and owner-bound context as separate channels.
+Keep the same30 pages and open no new page.

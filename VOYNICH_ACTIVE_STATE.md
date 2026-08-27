@@ -13513,3 +13513,26 @@ argument or relation, and222 are pure state-control cards. Next classify these
 as initialization, continuation, close, reference or transition and turn the
 213 ordered role patterns into fluent microphrases without changing a root or
 opening a page. All51 checks pass.
+
+## GDT562 resolves the actionless cards as state ellipses
+
+All706 GDT561 cards with zero visible action atoms now have a provenance-aware
+ownerfree microphrase. 693 carry an active action:544 from the last visible
+same-statement action and149 from GDT416's explicit owner-context default.
+692 cards also possess an effective argument:233 visible,355 inherited from a
+same-statement card and104 from an owner default. Consequently687/706(97.31%)
+resolve to a full action-plus-argument operation.
+
+The state is not merely immediate. Of544 visible action sources,376 are the
+previous card and168 lie two to eight cards back;238/355 visible argument
+sources are immediate and117 lie two to five cards back. All54 current cards'
+stored GDT539 action/argument pointers match the independent reconstruction.
+All nine actions participate, led by OK166 and SH131.
+
+Only19 cards lack a full action-plus-argument pair. They partition into6
+objectless inherited actions,5 argument-reference initializers,4
+formal/relation prologues,3 standalone graded closes and1 pure continuation.
+Each retains its exact written atom alignment and receives a concrete
+microphrase; none requires a new stem. Next combine these706 ellipsis readings
+with the950 visible-action cards into one fluent1,656-card edition. All39 checks
+pass; no page, root, recipe or boundary changed.

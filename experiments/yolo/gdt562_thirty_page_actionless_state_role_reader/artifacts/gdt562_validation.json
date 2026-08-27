@@ -1,0 +1,367 @@
+{
+  "status": "PASS",
+  "check_count": 39,
+  "passed_count": 39,
+  "failed_count": 0,
+  "input_sha256": {
+    "old_context": "cffae521ba93d96446537584e35fa9a4fe4b6e34330ebf7e955ad725f7c70561",
+    "current_context": "4554b8b4cb1697c8f6f544a75505a8a695b4d2043aeceeb9f5922eb21f73843d",
+    "typed_cards": "62c06034b99a0bd15a6da7895842efe1ce8237eda1d56a45719b416945350cd7",
+    "state_dictionary": "05e5e090e7e8088408503f030a79896d11cf71d5cb43aa6e2bdde6479bb9609a"
+  },
+  "artifact_sha256": {
+    "gdt562_706_actionless_state_reader.tsv": "50d4dc69ebecc191bbe7277eae565cc11dc891b2418ec89d653c13b4b452f796",
+    "gdt562_693_action_provenance.tsv": "b44c91f791ee6d03c6e4c30cdf0045ac53e22dbc9c03ce12ce9403fab20222e8",
+    "gdt562_459_inherited_argument_provenance.tsv": "79e8b1f8217010c0839e42bb17312ce2c5ecd8476cbd5662dee8cf2a34904a6d",
+    "gdt562_19_nonfull_operation_cards.tsv": "b3541aaa1affbe46a2c08d9f087442984d1be42248e0db0332787f6dddc9f3b7",
+    "gdt562_6_completeness_roles.tsv": "e8999d18c6348acc1cbacc91c83fb3db37fe3593c3122df8ad704075e1e19bd9",
+    "gdt562_7_state_sequence_roles.tsv": "bdec6e0a36a7dbc48c517bac3bf5fa53dd48d0086da691cf4b07f9a499c21cbb",
+    "gdt562_9_inherited_action_profiles.tsv": "acea1bedc1829b4ae5a1765d7a8dbde4337c29629737df5474d3adeb38dcde66",
+    "GDT562_ACTIONLESS_STATE_BOOK.md": "f4bf2c8ee4814c44203c38a36826ae074fed6f955b5a6fdbfd2334493c2ca76d",
+    "gdt562_result.json": "b9e09668fb761775df2465ab82c8f45c4c15eb3a6c79248654544d70a9c4a540"
+  },
+  "checks": [
+    {
+      "check": "input_counts",
+      "passed": true,
+      "detail": [
+        4576,
+        546,
+        1656,
+        36
+      ]
+    },
+    {
+      "check": "source_actionless_count",
+      "passed": true,
+      "detail": 706
+    },
+    {
+      "check": "source_pages_exclude_f84",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "artifact_row_counts",
+      "passed": true,
+      "detail": [
+        706,
+        693,
+        459,
+        19,
+        6,
+        7,
+        9
+      ]
+    },
+    {
+      "check": "card_ids_unique_and_complete",
+      "passed": true,
+      "detail": [
+        706,
+        0
+      ]
+    },
+    {
+      "check": "actionless_ordinals",
+      "passed": true,
+      "detail": [
+        "1",
+        "706"
+      ]
+    },
+    {
+      "check": "recipes_unchanged",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "surfaces_unchanged",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "source_has_no_explicit_actions",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "all_atom_alignments_exact",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "all_microphrases_nonempty",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "context_clauses_retained",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "all_provenance_reconstructed",
+      "passed": true,
+      "detail": [
+        706,
+        []
+      ]
+    },
+    {
+      "check": "action_source_partition",
+      "passed": true,
+      "detail": {
+        "SAME_STATEMENT_VISIBLE_ACTION": 544,
+        "OWNER_CONTEXT_DEFAULT_ACTION": 149,
+        "NO_ACTIVE_ACTION": 13
+      }
+    },
+    {
+      "check": "action_distance_profile",
+      "passed": true,
+      "detail": [
+        376,
+        168,
+        8
+      ]
+    },
+    {
+      "check": "action_provenance_rows_exact",
+      "passed": true,
+      "detail": [
+        693,
+        693
+      ]
+    },
+    {
+      "check": "argument_source_partition",
+      "passed": true,
+      "detail": {
+        "VISIBLE_ARGUMENT_IN_CARD": 233,
+        "SAME_STATEMENT_VISIBLE_ARGUMENT": 355,
+        "OWNER_CONTEXT_DEFAULT_ARGUMENT": 104,
+        "NO_ACTIVE_ARGUMENT": 14
+      }
+    },
+    {
+      "check": "argument_distance_profile",
+      "passed": true,
+      "detail": [
+        238,
+        117,
+        5
+      ]
+    },
+    {
+      "check": "argument_provenance_rows_exact",
+      "passed": true,
+      "detail": [
+        459,
+        459
+      ]
+    },
+    {
+      "check": "current_context_partition",
+      "passed": true,
+      "detail": {
+        "OLD26_GDT407": 652,
+        "CURRENT4_GDT539": 54
+      }
+    },
+    {
+      "check": "all_current_source_pointers_match",
+      "passed": true,
+      "detail": [
+        54,
+        54
+      ]
+    },
+    {
+      "check": "old_pointer_absence_explicit",
+      "passed": true,
+      "detail": 652
+    },
+    {
+      "check": "six_completeness_roles_exact",
+      "passed": true,
+      "detail": {
+        "FULL_INHERITED_OPERATION": 687,
+        "OBJECTLESS_INHERITED_OPERATION": 6,
+        "FORMAL_RELATION_PROLOGUE": 4,
+        "ARGUMENT_REFERENCE_INITIALIZER": 5,
+        "STANDALONE_GRADED_CLOSE": 3,
+        "PURE_CONTINUATION": 1
+      }
+    },
+    {
+      "check": "role_summary_exact",
+      "passed": true,
+      "detail": {
+        "FULL_INHERITED_OPERATION": 687,
+        "OBJECTLESS_INHERITED_OPERATION": 6,
+        "ARGUMENT_REFERENCE_INITIALIZER": 5,
+        "FORMAL_RELATION_PROLOGUE": 4,
+        "STANDALONE_GRADED_CLOSE": 3,
+        "PURE_CONTINUATION": 1
+      }
+    },
+    {
+      "check": "full_operation_flags",
+      "passed": true,
+      "detail": 687
+    },
+    {
+      "check": "nineteen_residual_ids_exact",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "residual_roles_complete",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "seven_state_sequences_exact",
+      "passed": true,
+      "detail": {
+        "OT": 230,
+        "OT+OL": 21,
+        "OL": 317,
+        "DY": 38,
+        "OL+DY": 19,
+        "OL+OL": 5,
+        "OT+DY": 76
+      }
+    },
+    {
+      "check": "sequence_summary_exact",
+      "passed": true,
+      "detail": {
+        "OL": 317,
+        "OT": 230,
+        "OT+DY": 76,
+        "DY": 38,
+        "OT+OL": 21,
+        "OL+DY": 19,
+        "OL+OL": 5
+      }
+    },
+    {
+      "check": "sequence_roles_distinct",
+      "passed": true,
+      "detail": {
+        "OL": "CONTINUE_CURRENT_OPERATION",
+        "OT": "ADVANCE_TO_NEXT_OPERATION",
+        "OT+DY": "ADVANCE_THEN_CLOSE",
+        "DY": "CLOSE_CURRENT_OPERATION",
+        "OT+OL": "ADVANCE_THEN_CONTINUE",
+        "OL+DY": "CONTINUE_THEN_CLOSE",
+        "OL+OL": "DOUBLE_CONTINUATION_BRIDGE"
+      }
+    },
+    {
+      "check": "nine_inherited_action_roots_exact",
+      "passed": true,
+      "detail": {
+        "S": 71,
+        "SH": 131,
+        "K": 85,
+        "CH": 83,
+        "R": 16,
+        "OK": 166,
+        "T": 52,
+        "P": 18,
+        "CHD": 71
+      }
+    },
+    {
+      "check": "root_profile_summary_exact",
+      "passed": true,
+      "detail": {
+        "OK": 166,
+        "SH": 131,
+        "K": 85,
+        "CH": 83,
+        "CHD": 71,
+        "S": 71,
+        "T": 52,
+        "P": 18,
+        "R": 16
+      }
+    },
+    {
+      "check": "effective_argument_count",
+      "passed": true,
+      "detail": 692
+    },
+    {
+      "check": "result_metrics_exact",
+      "passed": true,
+      "detail": {
+        "source_typed_state_card_count": 1656,
+        "actionless_state_card_count": 706,
+        "inherited_action_card_count": 693,
+        "same_statement_visible_action_source_count": 544,
+        "immediate_visible_action_source_count": 376,
+        "delayed_visible_action_source_count": 168,
+        "maximum_visible_action_source_distance": 8,
+        "owner_context_default_action_source_count": 149,
+        "no_active_action_count": 13,
+        "visible_argument_in_card_count": 233,
+        "inherited_argument_card_count": 459,
+        "same_statement_visible_argument_source_count": 355,
+        "immediate_visible_argument_source_count": 238,
+        "delayed_visible_argument_source_count": 117,
+        "maximum_visible_argument_source_distance": 5,
+        "owner_context_default_argument_source_count": 104,
+        "no_active_argument_count": 14,
+        "cards_with_effective_argument_count": 692,
+        "full_inherited_operation_count": 687,
+        "nonfull_operation_count": 19,
+        "completeness_role_count": 6,
+        "residual_role_count": 5,
+        "state_sequence_role_count": 7,
+        "inherited_action_root_count": 9,
+        "current_pointer_checked_card_count": 54,
+        "current_pointer_match_count": 54
+      }
+    },
+    {
+      "check": "result_completion_flags",
+      "passed": true,
+      "detail": {
+        "all_action_sources_resolved": true,
+        "all_argument_sources_resolved": true,
+        "all_cards_have_microphrase": true,
+        "all_written_atoms_retained": true
+      }
+    },
+    {
+      "check": "zero_scope_mutation",
+      "passed": true,
+      "detail": {
+        "new_pages": 0,
+        "new_surfaces": 0,
+        "new_recipes": 0,
+        "new_root_values": 0,
+        "new_written_atoms": 0
+      }
+    },
+    {
+      "check": "book_core_findings_present",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "deterministic_replay_exit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "deterministic_artifact_hashes",
+      "passed": true,
+      "detail": {}
+    }
+  ]
+}
