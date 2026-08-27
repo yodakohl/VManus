@@ -2028,10 +2028,23 @@ old complete skeleton or ordered path, twelve fragment cards retain a named
 edge/context rest, and `shso` retains the new `SH>S` pair. The other122 need
 not be reopened merely because their old evidence has a different form.
 
+## GDT549 visible routes and peer repair
+
+All23 former defaults are now visibly compositional. Twenty have96 complete
+old alias-deck covers; the other three use the already bounded `aii+cthy`,
+S-conditioned `s+aiis`, and `sh+okaiir` routes. Compact examples include
+`chor|aly`, `qoe|kedy`, `qot|eeod`, `shek|air`, and `yp|ches`. No long opaque
+gloss is needed.
+
+Current exact peers repair five of nine context mismatches and one of six new
+interfaces. Four cards leave the default queue completely: `chady`, `kody`,
+`qoekedy`, `qokshd`. The remaining19 cautions are now dimension-specific:
+10 sequence,4 context and5 interface.
+
 ## Next work
 
-Factor the23-card queue by repeated missing atom interfaces, context
-mismatches, visible chunks and shared recipe subpaths. Prefer a bridge that
-repairs several cards at once. Retain every current default while searching;
-open no new page and do not solve a missing bridge with an invented long
-whole-word gloss.
+Start with the ten sequence cards and test recurrent visible recipe frames,
+especially `shek→SH+E+K`, `shy→SH+Y`, and `ko→K+O`, against stronger cards in
+the same admitted deck and the old alias support. A frame should repair several
+cards at once. Keep the four context and five interface cases as separate
+secondary queues; open no new page and retain every current meaning.

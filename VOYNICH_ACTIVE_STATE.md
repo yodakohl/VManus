@@ -13238,3 +13238,23 @@ fragment defaults with named context/edge rests, and `shso` with the raw new
 `SH>S` pair. The other122 remain outside this focused queue. All34 checks pass.
 Next factor the23 cards by shared missing bridge and prioritize multi-card
 repairs; no page, surface, recipe, root value or meaning was changed.
+
+## GDT549 exact visible routes and current peer repair of the default queue
+
+All23 GDT548 defaults now have a complete exact visible composition. Twenty
+admit96 monotone full covers in the old GDT519 alias deck; compact selected
+routes use two segments on10 of those cards, three on8 and four on2. The three
+old-cover residuals use already bounded routes: `aii→AIIN | cthy→CH+T+Y`,
+S-prefix-conditioned `s→S | aiis→A_ADDR+IIN+S`, and
+`sh→SH | okaiir→OK+IIN+R`. Thus zero card retains an opaque whole-gloss
+fallback; all23 neutral/context meanings remain exact.
+
+The old default label conflated dimensions. Among9 anchor-context warnings,
+five gain8 exact target-mode peer events in the admitted current prose deck.
+Among the5 zero-old fragment interfaces plus `SH>S`, only `A_ADDR>DY` gains
+current peers: `chpady` and `ykady`. Consequently `chady`, `kody`, `qoekedy`
+and `qokshd` lose every named default dimension. The current residual queue is
+19 disjoint cards:10 higher-order sequence/context,4 anchor-context and5
+direct-interface cautions. All38 checks pass. Next group the10 sequence cards
+by recurrent visible recipe frame; no page, recipe, root value or meaning
+changed.
