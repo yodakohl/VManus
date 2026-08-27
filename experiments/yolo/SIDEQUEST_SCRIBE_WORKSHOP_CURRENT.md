@@ -1942,11 +1942,22 @@ Eight complete target sequences occur inside19 longer old cards. The selected
 old-anchor environments contain the target context mode for69/81 targets; the
 other12 remain readable GDT540 defaults, not rejected forms.
 
+## GDT544 equal-length replacement check
+
+The apparent18 repair dimensions belong to16 cards because `chady` and `chap`
+carry both a context difference and a new interface. Every one of these16 has
+only one longest old-recipe anchor. None of GDT543's23 unused equal-length
+candidates can repair them.
+
+All23 alternatives belong to20 already clean cards:17 have two longest
+choices and3 have three. We therefore keep all81 selected stems unchanged
+instead of manufacturing a reranking result.
+
 ## Next work
 
-Use the23 unselected equal-length anchors only on the12 context differences
-and six new interfaces. An alternative may replace the current stem only if it
-keeps an exact direction-aligned visible carrier and concretely improves the
-context or interface; otherwise preserve the current card. Then consolidate
-the repaired 81-card reader before moving to the24 atom/factor-only forms. No
-new page or fuzzy spelling match.
+For the16 flagged cards only, enumerate shorter complete old-recipe stems.
+Keep exact surface containment and direction explicit. A shorter stem may
+become the preferred repair only if it does not weaken visible support and it
+adds the missing context mode or removes a new atom interface. Otherwise the
+longest GDT543 stem stays preferred. After that, consolidate the81-card reader
+before opening the24 atom/factor-only tier.

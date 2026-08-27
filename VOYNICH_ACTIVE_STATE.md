@@ -13146,7 +13146,17 @@ in19 longer old cards. Anchor-context modes equal the target for53 cards and
 include it for16 more;12 differ. Four of the eight supercard targets also
 match context. None of the12 or the six new interfaces is rejected.
 
-Next compare only those18 flagged dimensions with the23 unused equal-length
-anchor candidates. Preserve an exact aligned visible stem and switch only for
-a concrete context or interface gain. Otherwise keep the GDT543 default. No
-new page, fuzzy match, recipe or root change.
+## GDT544 equal-length anchor availability correction
+
+The12 anchor-context differences and6 new-interface targets overlap at
+`chady` and `chap`, leaving16 distinct flagged cards. All16 have candidate
+multiplicity one at GDT543's longest-fragment length. Therefore zero has an
+unused equal-length anchor and no same-length reranking can move a card.
+
+The23 unused candidates are real but belong entirely to20 clean targets:
+17 have two longest anchors and3 have three. None owns a context or interface
+flag. Preserve every GDT543 selection. Next enumerate shorter complete old
+recipe stems only for the16 flagged cards. An alternative must have nonworse
+exact visible direction and a concrete context or interface gain; otherwise
+the longer stem remains the working default. No new page, fuzzy match, recipe
+or root change.

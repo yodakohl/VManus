@@ -1,0 +1,109 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Availability audit over GDT543's already enumerated equal-length anchor candidates. It changes no selected anchor, surface, recipe, working meaning, context contract, page, or root value and makes no lexical or plaintext claim.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt544_flagged_equal_length_anchor_availability/src/run.py",
+    "validate": "python3 experiments/yolo/gdt544_flagged_equal_length_anchor_availability/src/validate.py"
+  },
+  "created": "2026-08-27",
+  "dependencies": [
+    "GDT543"
+  ],
+  "experiment_id": "GDT544",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt543_fragment_directional_extension_frames/artifacts/gdt543_81_fragment_extension_cards.tsv",
+      "role": "selected anchors and context-difference flags",
+      "sha256": "a216277940cf3ab04878b3b6e2766d7396d76de15577147da83a617154fa8c13"
+    },
+    {
+      "path": "experiments/yolo/gdt543_fragment_directional_extension_frames/artifacts/gdt543_104_longest_anchor_candidates.tsv",
+      "role": "complete selected and unselected equal-length anchor inventory",
+      "sha256": "bf614c81b526c4d4e28e08998e6ca431f9e1ac0ff7ceebccd96f6bc099d3e87d"
+    },
+    {
+      "path": "experiments/yolo/gdt543_fragment_directional_extension_frames/artifacts/gdt543_93_directional_extension_arms.tsv",
+      "role": "new-interface flags",
+      "sha256": "1ad85521aed8f12eb247066296484df3cb209f675d251cab51e63f75a4574f3c"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt544_flagged_equal_length_anchor_availability/METHOD.md",
+      "role": "equal-length availability method",
+      "sha256": "94b205f998e83b02f11276661bf26954701b69ffc9af000484947d33038bdff8"
+    },
+    {
+      "path": "experiments/yolo/gdt544_flagged_equal_length_anchor_availability/README.md",
+      "role": "experiment entry point",
+      "sha256": "830784517dd77ce34e315c4790a637c80cc29592c7f79735e255aaaa37406eb1"
+    },
+    {
+      "path": "experiments/yolo/gdt544_flagged_equal_length_anchor_availability/REPORT.md",
+      "role": "primary result report",
+      "sha256": "4090f82fd058dc0acf33a0aca8824a12f8c08c822d1419bbd72389b8e969df95"
+    },
+    {
+      "path": "experiments/yolo/gdt544_flagged_equal_length_anchor_availability/artifacts/README.md",
+      "role": "artifact guide",
+      "sha256": "2286149a247fd814004df5ef3c836bc9fe8f978076375e9a8bc2476304184c0b"
+    },
+    {
+      "path": "experiments/yolo/gdt544_flagged_equal_length_anchor_availability/artifacts/GDT544_EQUAL_LENGTH_ANCHOR_AVAILABILITY.md",
+      "role": "readable availability correction",
+      "sha256": "601127bb9993ee049eb52f725248ef7a2d4d72a0310979ede0df70a3241fb7b6"
+    },
+    {
+      "path": "experiments/yolo/gdt544_flagged_equal_length_anchor_availability/artifacts/gdt544_16_flagged_target_anchor_availability.tsv",
+      "role": "complete flagged target inventory",
+      "sha256": "145cfe3b3519f2cb83e8ff7c100f887cacc6de8c166ce172b8378f7964696917"
+    },
+    {
+      "path": "experiments/yolo/gdt544_flagged_equal_length_anchor_availability/artifacts/gdt544_23_unused_candidate_owners.tsv",
+      "role": "all unused equal-length candidates and owners",
+      "sha256": "fc1af9e027a2115b3522c2f5e581a6ac35bd4877cd8d5e77ddf6b588227b1ddc"
+    },
+    {
+      "path": "experiments/yolo/gdt544_flagged_equal_length_anchor_availability/artifacts/gdt544_anchor_availability_summary.tsv",
+      "role": "compact availability counts",
+      "sha256": "7046b42467512138ed1237feef3515a7d4a6b176b85c044c360f6eb729a69026"
+    },
+    {
+      "path": "experiments/yolo/gdt544_flagged_equal_length_anchor_availability/artifacts/gdt544_result.json",
+      "role": "compact result object",
+      "sha256": "cfc3b53f0c518b8581dea5e397ad6e7d9da2f5932f48e1fe2f8fc3ce4dd28f24"
+    },
+    {
+      "path": "experiments/yolo/gdt544_flagged_equal_length_anchor_availability/artifacts/gdt544_validation.json",
+      "role": "independent 25-check validation record",
+      "sha256": "c18ecbcef7a004fde78957e9f09ea83460942a50d2391c2f33039bd0858d86fe"
+    },
+    {
+      "path": "experiments/yolo/gdt544_flagged_equal_length_anchor_availability/src/run.py",
+      "role": "reproducible availability compiler",
+      "sha256": "5f3660519323bce1fcaad331734f4bb675058801effee096f757828678f8ca41"
+    },
+    {
+      "path": "experiments/yolo/gdt544_flagged_equal_length_anchor_availability/src/validate.py",
+      "role": "independent availability validator",
+      "sha256": "53e2431137d34f6158852415c0f1c2eaa0d2681ea7093f6e6bd81272517cd9aa"
+    }
+  ],
+  "question": "Do any of GDT543's targets with an anchor-context difference or a new atom interface possess an unselected equal-length old complete-recipe anchor, and where do all 23 unused longest-anchor candidates actually reside?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "flagged_equal_length_anchor_availability",
+  "status": "ZERO_FLAGGED_TARGETS_HAVE_ALTERNATIVE_LONGEST_ANCHOR__23_UNUSED_BELONG_TO_20_CLEAN_TARGETS",
+  "title": "Flagged equal-length anchor availability",
+  "updated": "2026-08-27",
+  "validation": {
+    "artifact": "experiments/yolo/gdt544_flagged_equal_length_anchor_availability/artifacts/gdt544_validation.json",
+    "status": "PASS"
+  }
+}
