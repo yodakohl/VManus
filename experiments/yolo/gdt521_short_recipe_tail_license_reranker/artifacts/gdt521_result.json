@@ -1,0 +1,67 @@
+{
+  "experiment_id": "GDT521",
+  "status": "PASS_SHORT_RECIPE_TAIL_LICENSE_RERANKER",
+  "claim_ceiling": "EXPLORATORY_SHORT_ATOM_HISTORY_COMPOSITION_DEFAULT__NO_CONFIRMED_LEXEME_OR_PLAINTEXT",
+  "selected_policy": {
+    "order": 5,
+    "history_atom_count": 4,
+    "alpha": 0.5,
+    "weight": 0.5,
+    "normalization": "MEAN_NLL_PER_RECIPE_ATOM_PLUS_END",
+    "training_unit": "INVARIANT_SURFACE_TYPE",
+    "old26_training_surface_count": 1558,
+    "history_count": 1993,
+    "observed_transition_count": 3284,
+    "vocabulary_count": 44
+  },
+  "old26_four_fold_gdt520_metrics": {
+    "target_count": 1558,
+    "truth_generated_count": 1441,
+    "top1_exact_count": 1089,
+    "top2_exact_count": 1321,
+    "top3_exact_count": 1381,
+    "top5_exact_count": 1416,
+    "rank_sum": 2139,
+    "deepest_truth_rank": 22
+  },
+  "old26_four_fold_gdt521_metrics": {
+    "target_count": 1558,
+    "truth_generated_count": 1441,
+    "top1_exact_count": 1090,
+    "top2_exact_count": 1325,
+    "top3_exact_count": 1387,
+    "top5_exact_count": 1418,
+    "rank_sum": 2118,
+    "deepest_truth_rank": 22
+  },
+  "current_gdt520_metrics": {
+    "target_count": 159,
+    "truth_generated_count": 159,
+    "top1_exact_count": 139,
+    "top2_exact_count": 154,
+    "top3_exact_count": 158,
+    "top5_exact_count": 158,
+    "rank_sum": 190,
+    "deepest_truth_rank": 9
+  },
+  "current_gdt521_metrics": {
+    "target_count": 159,
+    "truth_generated_count": 159,
+    "top1_exact_count": 140,
+    "top2_exact_count": 154,
+    "top3_exact_count": 158,
+    "top5_exact_count": 158,
+    "rank_sum": 189,
+    "deepest_truth_rank": 9
+  },
+  "current_net_top1_gain": 1,
+  "current_rank_sum_reduction": 1,
+  "current_decision_change_classes": {
+    "ERROR_CHANGED_STILL_WRONG": 1,
+    "GDT520_CORRECT_PRESERVED": 139,
+    "GDT520_ERROR_CORRECTED": 1,
+    "GDT520_ERROR_UNCHANGED": 18
+  },
+  "remaining_top1_error_count": 19,
+  "guard": "SHORT_RECIPE_HISTORY_IS_A_COMPOSITION_PRIOR_ONLY__KNOWN_EVENT_AND_SURFACE_CARDS_KEEP_PRECEDENCE"
+}

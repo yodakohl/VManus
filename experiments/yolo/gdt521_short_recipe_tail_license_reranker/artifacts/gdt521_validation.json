@@ -1,0 +1,392 @@
+{
+  "experiment_id": "GDT521",
+  "status": "PASS",
+  "check_count": 63,
+  "failed_count": 0,
+  "checks": [
+    {
+      "check": "result_status",
+      "pass": true,
+      "detail": "PASS_SHORT_RECIPE_TAIL_LICENSE_RERANKER"
+    },
+    {
+      "check": "claim_ceiling_exploratory",
+      "pass": true,
+      "detail": "EXPLORATORY_SHORT_ATOM_HISTORY_COMPOSITION_DEFAULT__NO_CONFIRMED_LEXEME_OR_PLAINTEXT"
+    },
+    {
+      "check": "selected_policy",
+      "pass": true,
+      "detail": {
+        "order": 5,
+        "history_atom_count": 4,
+        "alpha": 0.5,
+        "weight": 0.5,
+        "normalization": "MEAN_NLL_PER_RECIPE_ATOM_PLUS_END",
+        "training_unit": "INVARIANT_SURFACE_TYPE",
+        "old26_training_surface_count": 1558,
+        "history_count": 1993,
+        "observed_transition_count": 3284,
+        "vocabulary_count": 44
+      }
+    },
+    {
+      "check": "training_unit",
+      "pass": true,
+      "detail": "INVARIANT_SURFACE_TYPE"
+    },
+    {
+      "check": "rehearsal_count",
+      "pass": true,
+      "detail": 1558
+    },
+    {
+      "check": "rehearsal_surface_unique",
+      "pass": true,
+      "detail": 1558
+    },
+    {
+      "check": "fold_counts",
+      "pass": true,
+      "detail": {
+        "0": 373,
+        "1": 402,
+        "2": 421,
+        "3": 362
+      }
+    },
+    {
+      "check": "fold_hash_assignment",
+      "pass": true,
+      "detail": "all rows"
+    },
+    {
+      "check": "generated_count",
+      "pass": true,
+      "detail": 1441
+    },
+    {
+      "check": "old_base_exact",
+      "pass": true,
+      "detail": {
+        "target_count": 1558,
+        "truth_generated_count": 1441,
+        "top1_exact_count": 1089,
+        "top2_exact_count": 1321,
+        "top3_exact_count": 1381,
+        "top5_exact_count": 1416,
+        "rank_sum": 2139,
+        "deepest_truth_rank": 22
+      }
+    },
+    {
+      "check": "old_selected_exact",
+      "pass": true,
+      "detail": {
+        "target_count": 1558,
+        "truth_generated_count": 1441,
+        "top1_exact_count": 1090,
+        "top2_exact_count": 1325,
+        "top3_exact_count": 1387,
+        "top5_exact_count": 1418,
+        "rank_sum": 2118,
+        "deepest_truth_rank": 22
+      }
+    },
+    {
+      "check": "old_base_top1",
+      "pass": true,
+      "detail": 1089
+    },
+    {
+      "check": "old_selected_top1",
+      "pass": true,
+      "detail": 1090
+    },
+    {
+      "check": "old_selected_top2",
+      "pass": true,
+      "detail": 1325
+    },
+    {
+      "check": "old_selected_top3",
+      "pass": true,
+      "detail": 1387
+    },
+    {
+      "check": "old_selected_top5",
+      "pass": true,
+      "detail": 1418
+    },
+    {
+      "check": "old_selected_rank_sum",
+      "pass": true,
+      "detail": 2118
+    },
+    {
+      "check": "old_selected_deepest",
+      "pass": true,
+      "detail": 22
+    },
+    {
+      "check": "current_count",
+      "pass": true,
+      "detail": 159
+    },
+    {
+      "check": "current_surface_unique",
+      "pass": true,
+      "detail": 159
+    },
+    {
+      "check": "current_base_exact",
+      "pass": true,
+      "detail": {
+        "target_count": 159,
+        "truth_generated_count": 159,
+        "top1_exact_count": 139,
+        "top2_exact_count": 154,
+        "top3_exact_count": 158,
+        "top5_exact_count": 158,
+        "rank_sum": 190,
+        "deepest_truth_rank": 9
+      }
+    },
+    {
+      "check": "current_selected_exact",
+      "pass": true,
+      "detail": {
+        "target_count": 159,
+        "truth_generated_count": 159,
+        "top1_exact_count": 140,
+        "top2_exact_count": 154,
+        "top3_exact_count": 158,
+        "top5_exact_count": 158,
+        "rank_sum": 189,
+        "deepest_truth_rank": 9
+      }
+    },
+    {
+      "check": "current_base_top1",
+      "pass": true,
+      "detail": 139
+    },
+    {
+      "check": "current_selected_top1",
+      "pass": true,
+      "detail": 140
+    },
+    {
+      "check": "current_selected_top2",
+      "pass": true,
+      "detail": 154
+    },
+    {
+      "check": "current_selected_top3",
+      "pass": true,
+      "detail": 158
+    },
+    {
+      "check": "current_selected_top5",
+      "pass": true,
+      "detail": 158
+    },
+    {
+      "check": "current_selected_rank_sum",
+      "pass": true,
+      "detail": 189
+    },
+    {
+      "check": "current_selected_deepest",
+      "pass": true,
+      "detail": 9
+    },
+    {
+      "check": "decision_classes",
+      "pass": true,
+      "detail": {
+        "GDT520_ERROR_UNCHANGED": 18,
+        "GDT520_CORRECT_PRESERVED": 139,
+        "ERROR_CHANGED_STILL_WRONG": 1,
+        "GDT520_ERROR_CORRECTED": 1
+      }
+    },
+    {
+      "check": "corrected_count",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "check": "lost_count",
+      "pass": true,
+      "detail": 0
+    },
+    {
+      "check": "changed_wrong_count",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "check": "changed_surfaces",
+      "pass": true,
+      "detail": [
+        "dyky",
+        "psheody"
+      ]
+    },
+    {
+      "check": "psheody_corrected",
+      "pass": true,
+      "detail": "P+SH+E+O+D_ADDR+Y"
+    },
+    {
+      "check": "remaining_count",
+      "pass": true,
+      "detail": 19
+    },
+    {
+      "check": "remaining_exact",
+      "pass": true,
+      "detail": 19
+    },
+    {
+      "check": "top1_matches_top5",
+      "pass": true,
+      "detail": "all rows"
+    },
+    {
+      "check": "truth_top1_consistency",
+      "pass": true,
+      "detail": "all rows"
+    },
+    {
+      "check": "score_formula_truth",
+      "pass": true,
+      "detail": "weight 0.5"
+    },
+    {
+      "check": "score_formula_top",
+      "pass": true,
+      "detail": "weight 0.5"
+    },
+    {
+      "check": "scores_finite",
+      "pass": true,
+      "detail": 954
+    },
+    {
+      "check": "scores_nonnegative",
+      "pass": true,
+      "detail": 0.152938389
+    },
+    {
+      "check": "alignment_traces_present",
+      "pass": true,
+      "detail": "all rows"
+    },
+    {
+      "check": "history_row_count",
+      "pass": true,
+      "detail": 3284
+    },
+    {
+      "check": "history_count",
+      "pass": true,
+      "detail": 1993
+    },
+    {
+      "check": "history_order",
+      "pass": true,
+      "detail": "all rows"
+    },
+    {
+      "check": "history_alpha",
+      "pass": true,
+      "detail": "all rows"
+    },
+    {
+      "check": "history_vocabulary",
+      "pass": true,
+      "detail": "all rows"
+    },
+    {
+      "check": "history_probability_unit_interval",
+      "pass": true,
+      "detail": [
+        0.000949367,
+        0.492857143
+      ]
+    },
+    {
+      "check": "family_row_count",
+      "pass": true,
+      "detail": 10
+    },
+    {
+      "check": "o_dy_types",
+      "pass": true,
+      "detail": 30
+    },
+    {
+      "check": "o_dy_split_types",
+      "pass": true,
+      "detail": 17
+    },
+    {
+      "check": "ol_types",
+      "pass": true,
+      "detail": 107
+    },
+    {
+      "check": "o_l_types",
+      "pass": true,
+      "detail": 6
+    },
+    {
+      "check": "iin_exact_old_absence",
+      "pass": true,
+      "detail": 0
+    },
+    {
+      "check": "candidate_count",
+      "pass": true,
+      "detail": 214
+    },
+    {
+      "check": "candidate_truth_coverage",
+      "pass": true,
+      "detail": 20
+    },
+    {
+      "check": "ladder_count",
+      "pass": true,
+      "detail": 18
+    },
+    {
+      "check": "ladder_selected_old",
+      "pass": true,
+      "detail": [
+        "1090",
+        "2118"
+      ]
+    },
+    {
+      "check": "ladder_selected_current",
+      "pass": true,
+      "detail": [
+        "140",
+        "189"
+      ]
+    },
+    {
+      "check": "known_precedence",
+      "pass": true,
+      "detail": "all rows"
+    },
+    {
+      "check": "sealed_pages_absent",
+      "pass": true,
+      "detail": "all current page fields"
+    }
+  ]
+}
