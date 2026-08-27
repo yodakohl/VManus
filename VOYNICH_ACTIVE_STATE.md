@@ -12617,3 +12617,25 @@ the identical `...eody` tail supports both `O+DY` and `O+D_ADDR+Y` in the
 working deck. Next learn short recipe-tail licenses for this family, `OL/O+L`
 and IIN/address/local-character alternatives; do not add full-form exceptions
 or open another page.
+
+## GDT521 short recipe-tail license reranker
+
+GDT521 adds a type-balanced add-0.5 order-five component model after GDT520.
+It uses at most four preceding atoms and mean per-component/end NLL, weighted
+0.50. The full old model has 1,993 histories, 3,284 observed transitions and a
+44-token atom/end vocabulary. It stores no surface identity.
+
+Across the four rotating old folds, GDT520's 1,089/1,321/1,381/1,416
+top-one/two/three/five become 1,090/1,325/1,387/1,418; rank sum drops
+2,139→2,118 and deepest rank stays22. The current159 move 139→140 rank-one and
+rank sum190→189, with top-two/three/five unchanged at154/158/158. `psheody`
+is corrected to `P+SH+E+O+D_ADDR+Y`, no GDT520 hit is lost, and `dyky` changes
+wrong-to-wrong from `DY+K+Y` to `Y+K+Y` instead of the working truth
+`D_ADDR+Y+K+Y`.
+
+The old terminal deck contains `O+DY` on30 types/45 events,
+`O+D_ADDR+Y` on17/37, `O+Y` on20/36, `OL` on107/420 and `O+L` on6/35. Exact
+old terminal `D_ADDR+IIN+R`, `D_ADDR+AIIN+R`, `S+IIN+S`,
+`S+A_ADDR+IIN+S` and `S+AIIN+S` are absent. Next build reusable one-local-change
+surface↔recipe analogue families for the19 residuals; do not add full-form
+exceptions, fabricate absent tail counts or open another page.

@@ -154,6 +154,20 @@ the same visible `...eody` tail genuinely carries both `O+DY` and
 `O+D_ADDR+Y`, so the next closed-page layer must use short preceding recipe
 tails rather than merely strengthening visible boundary preferences.
 
+GDT521 supplies that short component context. Its type-balanced add-0.5
+order-five model sees at most four preceding atoms, never a complete surface
+identity. The old deck contributes 1,993 histories and 3,284 observed
+history-to-next contacts. Four-fold rank one moves 1,089→1,090, top three
+1,381→1,387, top five 1,416→1,418 and rank sum 2,139→2,118. On the current 159
+forms it reaches 140 rank one and rank sum 189. It restores
+`psheody=P+SH+E+O+D_ADDR+Y` while keeping
+`shckheody=SH+CH+K+E+O+DY`, so identical visible tails can now be selected by
+the preceding operation package. `dyky` merely changes from one wrong close to
+another. Nineteen errors remain; exact old tails for `D_ADDR+IIN+R` and
+`S+IIN+S` are absent. The next closed-page route must therefore find reusable
+one-change surface/recipe analogies, not fabricate those tails or add nineteen
+whole-form exceptions.
+
 GDT459–GDT484 now resolve the formerly opaque local-address tail as the mixed
 codebook architecture anticipated by the sidequest: portable function cards
 surround memorized owner-bound name cores. Of 107 learned address labels,
