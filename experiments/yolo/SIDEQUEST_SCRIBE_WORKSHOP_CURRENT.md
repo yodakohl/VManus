@@ -1,6 +1,6 @@
 # Current thirty-page scribe-workshop theory
 
-Updated: 2026-08-27, after GDT529.
+Updated: 2026-08-27, after GDT530.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -1658,9 +1658,31 @@ zero losses. The same family rule licenses absent `ckhom=CH+K+O+M_LOCAL` and
 `cphom=CH+P+O+M_LOCAL`; `tshom` remains unresolved because no one-edit pair
 certifies it.
 
+GDT530 removes the unsupported repeated action from `chekchy`. Instead of
+inventing another internal `CH`, it starts from the exact old larger form:
+
+```text
+ychekchy = Y+CH+K+Y
+chekchy  =   CH+K+Y
+```
+
+Initial visible `y` and initial recipe `Y` peel away together. That left-edge
+pair has 54/59 old support, and the surviving `CH+K+Y` recipe independently
+occurs twice as exact old `ckhy`. The current working reading is now
+**“nehmen, geben und posten”**, not “nehmen, geben, nehmen, posten”. Across all
+159 current forms the same search finds 25 licensed routes over 14 forms: 24
+only confirm the current rank-one recipe, and this is the sole revision.
+
+The tail must still be read from its larger composition. Among old invariant
+forms ending in visible `chy`, 28 types/69 events end in `Y` without a
+preceding `CH`, and 26 types/34 events end in `CH+Y`. The current seven forms
+likewise use both. There is no global `chy` card. The accumulated working
+score is now153 rank-one with rank sum173.
+
 ## Next work
 
-Keep every further page closed. The remaining queue is `aiicthy`, `chekchy`,
-`dairykodas`, `dalcheeeky`, `dsholdaiir`, `qef`, and `saiis`. Inspect
-`chekchy` first through its missing internal `CH`, old `...chy/...y` pairs and
-repeated-action families.
+Keep every further page closed. The remaining queue is `aiicthy`,
+`dairykodas`, `dalcheeeky`, `dsholdaiir`, `qef`, and `saiis`. The exact
+one-character-superform route has no carrier for these six. Inspect
+`dsholdaiir` next through the stable `SH+OL` package, its address/value tail
+and the surrounding f66r instruction cards.

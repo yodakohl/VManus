@@ -12831,3 +12831,30 @@ exact right-slot triad: `ckh`, `cph`, `cth`, and `tsh`. The same certificate
 licenses absent `ckhom=CH+K+O+M_LOCAL` and `cphom=CH+P+O+M_LOCAL`, while
 `tshom` stays unresolved. Next inspect `chekchy` through internal `CH` and
 repeated-action families; open no page.
+
+## GDT530 exact-old-superform peel revision
+
+GDT530 compares both the current working recipe and GDT529 rank one with every
+invariant old surface exactly one visible character longer. The old recipe
+must be exactly one atom longer, both deletions must align as left/inner/right,
+and their joint edit signature must already recur in GDT522. Across all 159
+current forms this yields 25 routes over 14 surfaces: 24 reconfirm an existing
+rank-one working recipe and only one supports a different candidate.
+
+That route is exact: old `ychekchy=Y+CH+K+Y` on f17r loses initial visible `y`
+and initial recipe `Y`, leaving current `chekchy=CH+K+Y`. The old
+`y/Y@LEFT/LEFT` signature has 54/59 support, probability .886178862 and
+reliability .964285714; exact old `ckhy=CH+K+Y` independently occurs twice.
+No equivalent peel supports the previous `CH+K+CH+Y`. Revise the current
+working phrase from “nehmen, geben, nehmen, posten” to **“nehmen, geben und
+posten.”** Repeated `CH` remains available elsewhere; it is not required here.
+
+Visible `chy` is not a global card. Among 54 invariant old ending types, 28
+types/69 events end in recipe `Y` without `CH`, while 26 types/34 events end in
+`CH+Y`. After revision the seven current `...chy` forms divide one versus six
+the same way. The accumulated working top-one count rises152→153 and rank sum
+falls174→173, with zero losses. Six discrepancies remain: `aiicthy`,
+`dairykodas`, `dalcheeeky`, `dsholdaiir`, `qef`, and `saiis`. The exact
+one-character-superform route is exhausted; next inspect `dsholdaiir` through
+stable `SH+OL`, address/value tails and its local neighbours without opening a
+page.
