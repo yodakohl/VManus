@@ -13828,3 +13828,26 @@ all62 interrupted repeats,recipes,roots and page order remain fixed. All55
 checks pass. Use GDT574 as the current readable edition. Next inventory exact
 relation/modifier phrase repetitions and distinguish identical neighbours from
 outer/inner or other scope contrasts;open no page and add no root value.
+
+## GDT575 separates true repeats from German voice collisions
+
+All4,609 current relation/modifier slots align exactly to33 German phrase
+forms:4,575 plain plus17 outer and17 inner. The complete exact-phrase scan
+finds96 duplicate groups in90 events/98 later mentions. Only three are both
+the same atom and raw-adjacent: `O+O` at G407-E0152, `D_ADDR+D_ADDR` at
+G407-E1846 and `AL+AL` at G515-E0379.
+
+Another62 groups repeat one root around intervening atoms and therefore retain
+their order. Thirty-one groups are more important collisions in the German
+voice:30 make distinct local-address atoms sound like `an der bezeichneten
+Stelle`, and G407-E4353 makes `LOCAL_CHAR_I` and `G_LABEL` both sound like
+`mit der lokalen Variante`. They must be differentiated before any count rule.
+
+Seventeen further cards pair the same base root once in the outer and once in
+the inner branch. They are not exact duplicates; a later coordination may say
+`im äußeren und im inneren Zweig` only while retaining both source positions
+and both scope values. All43 independent checks pass. GDT575 is an inventory,
+so GDT574 remains the readable edition. Next give the colliding local
+address/variant sigla short distinct learned voices, then reconnect interrupted
+grades/formal controls to their local action heads;open no page and add no
+portable root value.
