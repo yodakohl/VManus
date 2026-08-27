@@ -13332,3 +13332,24 @@ checks pass. Zero rest is a bookkeeping claim about admitted support, not
 plaintext or license for a new form. Next audit the78 current statements for
 recurrent semantic templates and concrete contradictions; no new page,
 recipe, segmentation, root value or meaning changed.
+
+## GDT554 audits all 78 statements horizontally
+
+All149 GDT553 target events reinsert into the78 GDT539 statements with exact
+recipes and one of their retained contextual readings, including all23 later
+repair events. The546 events use18 action/argument slot movements;16 are
+cross-register. After retaining the ordered control layer there are243 event
+shapes. Seventy-one recur across statements and cover370 events, with44
+cross-register shapes.
+
+Only12 contiguous multi-card frames recur:4 exact-portable and8 abstract, and
+all are two-card frames. The78 statements have69 abstract whole-statement
+templates; only5 repeat across14 statements and the longest repeated whole
+template is two cards. Thus the current portable unit is a card or short state
+transition rather than a long universal sentence macro. All142 repeated exact
+surface/context or recipe/context families keep one portable meaning; `qokees`
+is the sole target surface with two admitted incoming states. Sixteen events
+remain deliberately actionless,14 statement-initial, while57 lack an argument.
+All40 checks pass. Next test these incomplete-looking cards as state
+initializers and boundaries; no page, recipe, root value or German reading
+changed.

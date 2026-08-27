@@ -1,6 +1,6 @@
 # Current thirty-page scribe-workshop theory
 
-Updated: 2026-08-27, after GDT553.
+Updated: 2026-08-27, after GDT554.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -2092,9 +2092,21 @@ disjoint and equal the former23-card queue exactly. Every recipe, context rule,
 neutral reading and known contextual reading remains unchanged; every support
 rest is now `NONE`. Unknown spellings still stop.
 
+## GDT554 horizontal statement grammar
+
+All149 target events reinsert exactly into the78 statements. Their common
+state machine uses18 action/argument slot moves;71 recurrent event shapes
+cover370/546 events. But the longer grammar does not collapse: all12 repeated
+contiguous frames stop at two cards, and69 different whole-statement templates
+remain for78 statements. The useful portable unit is therefore a card or
+two-card state transition, not a long memorized sentence.
+
+Across142 repeated exact context families no portable meaning conflicts.
+`qokees` alone has two admitted incoming states. Sixteen events remain
+deliberately actionless,14 at statement start;57 events remain argumentless.
+
 ## Next work
 
-Read the78 already admitted statements horizontally. Cluster their recurrent
-action/argument/location templates, locate same-template meaning divergences
-and produce a small concrete contradiction ledger. Do not open a new page or
-change a root merely to make a sentence sound better.
+Follow those16 actionless and57 argumentless cards into their immediate
+same-statement successor. Separate argument/action initializers from genuine
+objectless boundary and closure cards; open no new page.

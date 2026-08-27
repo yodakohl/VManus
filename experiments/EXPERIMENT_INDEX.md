@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **552**
-- Experiment-associated tracked files: **8,160** (816.6 MiB)
-- Structured GDT337+ experiments: **217**
+- Experiments indexed: **553**
+- Experiment-associated tracked files: **8,180** (817.1 MiB)
+- Structured GDT337+ experiments: **218**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT554 | GDT554_statement_semantic_template_audit | `PASS_78_STATEMENT_TEMPLATE_ATLAS__ZERO_EXACT_CONTEXT_CONTRADICTIONS` | [report](../experiments/yolo/gdt554_statement_semantic_template_audit/REPORT.md) | 20 | 514.2 KiB | 3 | STRUCTURED_YOLO |
 | GDT553 | GDT553_zero_rest_145_reader | `PASS_ZERO_REST_145_CARD_READER__23_REPAIRS_PARTITION_EXACT` | [report](../experiments/yolo/gdt553_zero_rest_145_reader/REPORT.md) | 15 | 246.0 KiB | 6 | STRUCTURED_YOLO |
 | GDT552 | GDT552_interface_boundary_family_bridges | `PASS_FIVE_BOUNDED_INTERFACE_BRIDGES__ZERO_SUPPORT_RESTS` | [report](../experiments/yolo/gdt552_interface_boundary_family_bridges/REPORT.md) | 17 | 93.8 KiB | 6 | STRUCTURED_YOLO |
 | GDT551 | GDT551_context_contract_normalization | `PASS_ALL_12_INSTANCE_MODE_DISJOINTS_NORMALIZED__FOUR_CONTEXT_RESTS_CLOSED__FIVE_INTERFACES_REMAIN` | [report](../experiments/yolo/gdt551_context_contract_normalization/REPORT.md) | 17 | 127.3 KiB | 6 | STRUCTURED_YOLO |
