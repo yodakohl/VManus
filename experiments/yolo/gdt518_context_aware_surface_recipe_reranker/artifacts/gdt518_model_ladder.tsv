@@ -1,0 +1,7 @@
+model_stage	description	target_count	truth_generated_count	top1_exact_count	top2_exact_count	top3_exact_count	top5_exact_count	rank_sum	deepest_truth_rank	top1_changed_from_baseline
+GDT517_ORIGINAL	chunk count, evidence score, lexical tuple	159	159	117	145	150	157	281	56	0
+RIDGE_STRUCTURE_ONLY	visible character ngrams predict atom and atom-pair counts	159	159	102	129	140	151	314	21	-1
+RIDGE_PLUS_BASE_RANK	surface ridge plus logarithmic GDT517 rank prior	159	159	133	147	155	158	213	14	32
+PLUS_BIGRAM_CONTEXT	surface score plus positive bigram neighbor NLL	159	159	134	147	155	158	212	14	-1
+PLUS_TRIGRAM_CONTEXT	surface score plus positive trigram neighbor NLL	159	159	134	147	155	158	212	14	-1
+SELECTED_BIGRAM_TRIGRAM_MEAN	surface score plus mean bigram/trigram neighbor NLL	159	159	134	147	155	158	212	14	31

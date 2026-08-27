@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **516**
-- Experiment-associated tracked files: **7,530** (806.9 MiB)
-- Structured GDT337+ experiments: **181**
+- Experiments indexed: **517**
+- Experiment-associated tracked files: **7,547** (807.1 MiB)
+- Structured GDT337+ experiments: **182**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT518 | GDT518_context_aware_surface_recipe_reranker | `PASS_CONTEXT_AWARE_SURFACE_RECIPE_RERANKER` | [report](../experiments/yolo/gdt518_context_aware_surface_recipe_reranker/REPORT.md) | 17 | 219.2 KiB | 3 | STRUCTURED_YOLO |
 | GDT517 | GDT517_thirty_page_surface_recipe_intake_compiler | `PASS_EXECUTABLE_SURFACE_TO_RECIPE_INTAKE` | [report](../experiments/yolo/gdt517_thirty_page_surface_recipe_intake_compiler/REPORT.md) | 21 | 4.2 MiB | 6 | STRUCTURED_YOLO |
 | GDT516 | GDT516_local_c_family_context_correction | `PASS_CONTEXT_ROLE_PROPAGATED_TO_FAMILY_ATLAS` | [report](../experiments/yolo/gdt516_thirty_page_new_surface_family_consolidation/REPORT.md) | 22 | 2.9 MiB | 6 | STRUCTURED_YOLO |
 | GDT515 | GDT515_second_random_four_page_full_admission | `PASS_FOUR_PAGES_ADMITTED_WITH_TWO_LOCAL_X_CORES` | [report](../experiments/yolo/gdt515_second_random_four_page_full_admission/REPORT.md) | 25 | 3.7 MiB | 7 | STRUCTURED_YOLO |

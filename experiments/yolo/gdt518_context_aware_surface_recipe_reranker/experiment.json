@@ -1,0 +1,151 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Exploratory visible-form and neighboring-card reranker for finite GDT517 recipe candidates over the already admitted thirty pages. No confirmed lexeme, plaintext, language, historical codebook, English meaning, object identity, or unopened-page reading follows.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt518_context_aware_surface_recipe_reranker/src/run.py",
+    "validate": "python3 experiments/yolo/gdt518_context_aware_surface_recipe_reranker/src/validate.py"
+  },
+  "created": "2026-08-27",
+  "dependencies": [
+    "GDT407",
+    "GDT516",
+    "GDT517"
+  ],
+  "experiment_id": "GDT518",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt407_unified_twenty_six_page_workshop_edition/artifacts/gdt407_4576_running_event_edition.tsv",
+      "role": "older twenty-six-page invariant surface and statement training deck",
+      "sha256": "b4a8b8c3fe8c5cc3ac2cd33979b71ce4721199bef124e866df2456d2dfbb87f4"
+    },
+    {
+      "path": "experiments/yolo/gdt516_thirty_page_new_surface_family_consolidation/artifacts/gdt516_597_contextualized_event_edition.tsv",
+      "role": "selected-page prose contexts and current event recipes",
+      "sha256": "5e8e95194490960261649d7f99450725aaec4d2eaa87cc8c18ec45efc1e62c5b"
+    },
+    {
+      "path": "experiments/yolo/gdt516_thirty_page_new_surface_family_consolidation/artifacts/gdt516_159_new_surface_family_atlas.tsv",
+      "role": "new-to-old-base surface benchmark targets",
+      "sha256": "2df6250f9530659b03d48398cadfc2f89dbc144d75dc7888ba1553cdfb7f15e1"
+    },
+    {
+      "path": "experiments/yolo/gdt516_thirty_page_new_surface_family_consolidation/artifacts/gdt516_5866_contextualized_unified_group_ledger.tsv",
+      "role": "current thirty-page model source for executable future intake",
+      "sha256": "351623be9ff7e0f58c19516192fae88b82b398ee4bdb5ada212289d4ef452c99"
+    },
+    {
+      "path": "experiments/yolo/gdt517_thirty_page_surface_recipe_intake_compiler/src/run.py",
+      "role": "finite residual-closure compiler implementation",
+      "sha256": "c664bf8a283d287484d01da85098097602352774169482df41f5c4789676070a"
+    },
+    {
+      "path": "experiments/yolo/gdt517_thirty_page_surface_recipe_intake_compiler/artifacts/gdt517_5866_exact_event_dictionary.tsv",
+      "role": "exact event precedence for executable lookup",
+      "sha256": "b07d8e04649356e95096b317c27b02606846c78ec369b74826d4e4e9d323b31b"
+    },
+    {
+      "path": "experiments/yolo/gdt517_thirty_page_surface_recipe_intake_compiler/artifacts/gdt517_current30_surface_role_index.tsv",
+      "role": "known surface and domain precedence for executable lookup",
+      "sha256": "a765949daa3612d62c5ad315ced8dad50f27ae46e226b9384418e7fe9bff1dc7"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt518_context_aware_surface_recipe_reranker/METHOD.md",
+      "role": "method and score specification",
+      "sha256": "4d6b9b5e782dbe29780ee0658bf2034f0a1e156ebf3a1bca1c4fe2580a8ca065"
+    },
+    {
+      "path": "experiments/yolo/gdt518_context_aware_surface_recipe_reranker/README.md",
+      "role": "experiment entry point",
+      "sha256": "38d5ad21021e207738df8ab9c25115ac78557fdea07cc86205587528d64c5c9b"
+    },
+    {
+      "path": "experiments/yolo/gdt518_context_aware_surface_recipe_reranker/REPORT.md",
+      "role": "primary report",
+      "sha256": "d72fefcba25c5a27e9b8e61044a494c6f737bbeea1a9b1e8c45f3010672cce65"
+    },
+    {
+      "path": "experiments/yolo/gdt518_context_aware_surface_recipe_reranker/artifacts/GDT518_RERANKER_WORKING_BOOK.md",
+      "role": "compact continuation basis",
+      "sha256": "e62592354684ef9b292a04e94704954c4ea0d3e73e61344297c459d76f0487a8"
+    },
+    {
+      "path": "experiments/yolo/gdt518_context_aware_surface_recipe_reranker/artifacts/README.md",
+      "role": "artifact guide",
+      "sha256": "2accdad662028dd45ff10414fca009e55b4eb3f2e6c76bc70d0a3c4fa54e68da"
+    },
+    {
+      "path": "experiments/yolo/gdt518_context_aware_surface_recipe_reranker/artifacts/gdt518_159_context_rerank.tsv",
+      "role": "complete target-level rerank atlas",
+      "sha256": "29e344a662a9862deb07d75e94c4f5c70442e8ea11b105c3957d4ee827a2e60f"
+    },
+    {
+      "path": "experiments/yolo/gdt518_context_aware_surface_recipe_reranker/artifacts/gdt518_42_baseline_disagreement_atlas.tsv",
+      "role": "original GDT517 disagreement subset",
+      "sha256": "df31ea26ada2d961b19d618c743554d940e6a3d16bdc84a7df8455a496df1f15"
+    },
+    {
+      "path": "experiments/yolo/gdt518_context_aware_surface_recipe_reranker/artifacts/gdt518_candidate_cost_atlas.tsv",
+      "role": "candidate-level cost decomposition",
+      "sha256": "1463c40b3db20e5702f66a5fc5eeda0f5688caf39d12d4963a42705bfb7d7320"
+    },
+    {
+      "path": "experiments/yolo/gdt518_context_aware_surface_recipe_reranker/artifacts/gdt518_changed_decision_atlas.tsv",
+      "role": "changed top-choice atlas",
+      "sha256": "0d5f82719fb48787fb4084fe7dd5eb054962c25d1c668539b73386394837b85b"
+    },
+    {
+      "path": "experiments/yolo/gdt518_context_aware_surface_recipe_reranker/artifacts/gdt518_model_ladder.tsv",
+      "role": "six-stage model comparison",
+      "sha256": "67b8a976c71a3d9b894a041f214b86e57b370e15e9d4b78056bfdb3901300ed4"
+    },
+    {
+      "path": "experiments/yolo/gdt518_context_aware_surface_recipe_reranker/artifacts/gdt518_remaining_top1_error_atlas.tsv",
+      "role": "selected-model residual error atlas",
+      "sha256": "0a0fb2aae5b18a24e73f0790ad4c56d1d5a925a4ec129fc9a81ffbe2824fb2f2"
+    },
+    {
+      "path": "experiments/yolo/gdt518_context_aware_surface_recipe_reranker/artifacts/gdt518_result.json",
+      "role": "compact result",
+      "sha256": "6d930414c4e62c3fc275bfdcbcbff9578a7f81abfe7e9a5e5ea04ce4d1a5b6f6"
+    },
+    {
+      "path": "experiments/yolo/gdt518_context_aware_surface_recipe_reranker/artifacts/gdt518_validation.json",
+      "role": "40-check validation record",
+      "sha256": "d0f613e6babd7a2a007362dfbcfae2f23afe7d514153d1137629a4e566c31fe1"
+    },
+    {
+      "path": "experiments/yolo/gdt518_context_aware_surface_recipe_reranker/src/rerank_surface.py",
+      "role": "executable current-model reranker CLI",
+      "sha256": "04f9fa02de784a5ebdc91a28cf2e46662a197f3be830f2ed334bb7e6d7048fe5"
+    },
+    {
+      "path": "experiments/yolo/gdt518_context_aware_surface_recipe_reranker/src/run.py",
+      "role": "reproducible model builder and benchmark",
+      "sha256": "92565bebb142b65bbe272773e98cceeb81dd35c01fe556b195d81f7d0fdf5d89"
+    },
+    {
+      "path": "experiments/yolo/gdt518_context_aware_surface_recipe_reranker/src/validate.py",
+      "role": "independent artifact validator",
+      "sha256": "823103db358b08cecab6304a1a8c5abdd19f0e08e6f05067754bfeeb1f6df94d"
+    }
+  ],
+  "question": "Can visible surface structure and immediately neighboring recipe cards improve the ordering of GDT517's finite candidates without changing any already known thirty-page recipe?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "context_aware_surface_recipe_reranker",
+  "status": "PASS_CONTEXT_AWARE_SURFACE_RECIPE_RERANKER",
+  "title": "Context-aware surface recipe reranker",
+  "updated": "2026-08-27",
+  "validation": {
+    "artifact": "experiments/yolo/gdt518_context_aware_surface_recipe_reranker/artifacts/gdt518_validation.json",
+    "status": "PASS"
+  }
+}

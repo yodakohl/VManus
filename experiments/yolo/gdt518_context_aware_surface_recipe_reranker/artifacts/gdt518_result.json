@@ -1,0 +1,55 @@
+{
+  "experiment_id": "GDT518",
+  "status": "PASS_CONTEXT_AWARE_SURFACE_RECIPE_RERANKER",
+  "claim_ceiling": "EXPLORATORY_WORKING_RERANKER__NO_CONFIRMED_LEXEME_OR_PLAINTEXT",
+  "training": {
+    "old26_running_events": 4576,
+    "old26_invariant_surfaces": 1558,
+    "surface_feature_count": 873,
+    "recipe_feature_count": 546,
+    "ridge_alpha": 10.0,
+    "ridge_training_fit_mse": 0.00242812343521835,
+    "bigram_statement_count": 715,
+    "bigram_distinct_ngram_count": 616,
+    "trigram_distinct_ngram_count": 2439,
+    "context_vocabulary_count": 46,
+    "context_alpha": 10.0
+  },
+  "selection": {
+    "candidate_cap": 100,
+    "base_rank_weight": 1.0,
+    "context_weight": 0.05,
+    "context_formula": "0.05 * mean(bigram_touching_nll, trigram_touching_nll)"
+  },
+  "baseline_metrics": {
+    "target_count": 159,
+    "truth_generated_count": 159,
+    "top1_exact_count": 117,
+    "top2_exact_count": 145,
+    "top3_exact_count": 150,
+    "top5_exact_count": 157,
+    "rank_sum": 281,
+    "deepest_truth_rank": 56
+  },
+  "selected_metrics": {
+    "target_count": 159,
+    "truth_generated_count": 159,
+    "top1_exact_count": 134,
+    "top2_exact_count": 147,
+    "top3_exact_count": 155,
+    "top5_exact_count": 158,
+    "rank_sum": 212,
+    "deepest_truth_rank": 14
+  },
+  "net_top1_gain": 17,
+  "decision_change_classes": {
+    "BASELINE_CORRECT_LOST": 5,
+    "BASELINE_CORRECT_PRESERVED": 112,
+    "BASELINE_ERROR_CORRECTED": 22,
+    "BASELINE_ERROR_UNCHANGED": 16,
+    "ERROR_CHANGED_STILL_WRONG": 4
+  },
+  "selected_remaining_top1_error_count": 25,
+  "no_prose_context_surface_count": 14,
+  "guard": "KNOWN_EVENT_RECIPE_PRECEDENCE_UNCHANGED__RERANKER_ONLY_ORDERS_FINITE_UNKNOWN_SURFACE_CANDIDATES"
+}
