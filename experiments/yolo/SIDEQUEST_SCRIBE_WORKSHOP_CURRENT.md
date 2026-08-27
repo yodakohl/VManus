@@ -1,6 +1,6 @@
 # Current thirty-page scribe-workshop theory
 
-Updated: 2026-08-27, after GDT520.
+Updated: 2026-08-27, after GDT522.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -167,6 +167,20 @@ another. Nineteen errors remain; exact old tails for `D_ADDR+IIN+R` and
 `S+IIN+S` are absent. The next closed-page route must therefore find reusable
 one-change surface/recipe analogies, not fabricate those tails or add nineteen
 whole-form exceptions.
+
+GDT522 turns that idea into a reusable local-edit book. Across the 1,558 old
+forms it finds 1,081 visible-block/position → atom-block/position signatures
+from 3,493 unique pair relations. A visible insertion may carry zero atoms;
+49 such signatures include strong left `q→NULL` (75/84), left `ch→NULL`
+(29/88) and inner `d→NULL` (16/56). The selected light conditional license
+preserves all 140 current GDT521 hits and repairs two: `dcheol` now follows
+the 12/12 right-`l→L` family to `D_ADDR+CH+E+O+L`, and `dyky` follows the
+32/47 left-`d→D_ADDR` family to `D_ADDR+Y+K+Y`. Current rank one reaches142
+with rank sum187; old four-fold rank one reaches1,096 and rank sum2,113.
+`psheody` remains correct because left `p→P` is 15/15. Seventeen errors remain.
+The next closed-page move is to apply the null/edit inventory inside renderer
+alignment when the residual surface is unknown (`qef`), then compose two
+compatible edits without adding target whole-form cards.
 
 GDT459–GDT484 now resolve the formerly opaque local-address tail as the mixed
 codebook architecture anticipated by the sidequest: portable function cards

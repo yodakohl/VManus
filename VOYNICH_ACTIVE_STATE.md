@@ -12639,3 +12639,31 @@ old terminal `D_ADDR+IIN+R`, `D_ADDR+AIIN+R`, `S+IIN+S`,
 `S+A_ADDR+IIN+S` and `S+AIIN+S` are absent. Next build reusable one-local-change
 surface↔recipe analogue families for the19 residuals; do not add full-form
 exceptions, fabricate absent tail counts or open another page.
+
+## GDT522 nearest local-edit analogy license
+
+GDT522 learns reusable local changes between old surface pairs and their
+recipes. A big form may differ from an old base by one to three contiguous
+visible characters; its recipe may add zero to three contiguous atoms. Only
+the shortest target-to-base deletion is used, reverse routes are excluded and
+each big/small/signature relation counts once. Equal recipes yield an explicit
+visible-to-null edit. The full old model has 1,081 signatures over 3,493 pair
+relations and 585 visible conditions; 49 signatures insert no atom.
+
+The selected conditional bonus uses add-0.5 probability within the visible
+block/position condition, support reliability `n/(n+2)`, missing cost1.1 and
+weight0.40 after GDT521. In the old four-fold rehearsal rank one rises
+1,090→1,096, top two1,325→1,327 and rank sum2,118→2,113; top three loses one
+and top five stays1,418. Current rank one rises140→142 and rank sum189→187
+with two corrections and no lost hit: `dcheol=D_ADDR+CH+E+O+L` follows
+`dcheo+l→L` (12/12), and `dyky=D_ADDR+Y+K+Y` follows
+`yky+d→D_ADDR` (32/47). `psheody` remains correct because left `p→P` is
+15/15 rather than being outvoted by more frequent but less exclusive inner-o
+edits.
+
+The strongest null relations are left `q→NULL`75/84, left `ch→NULL`29/88,
+inner `ch→NULL`22/67, inner `e→NULL`19/117 and inner `d→NULL`16/56. They are
+renderer/composition licenses, not meanings. Seventeen current top-one errors
+remain. Next apply these edits inside renderer alignment even when the visible
+residual is not itself an old known surface (`qef`), then test compositions of
+two compatible edits; add no target full-form exceptions and open no page.
