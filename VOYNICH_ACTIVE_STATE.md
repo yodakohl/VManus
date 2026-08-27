@@ -13416,3 +13416,27 @@ the current carrier active, and DY closes the current step and, when final, the
 statement. Read all compound operations in written atom order. Next isolate
 the material carried immediately by OT/OL and test how `E/EE/EEE` modifies that
 carrier without opening a page or retuning a root.
+
+## GDT558 keeps grade inside the state-carrier envelope
+
+Among the1,656 GDT557 state cards,326 contain333 exact grade atoms:214 `E`,114
+`EE` and5 `EEE`, across222 statements/22 pages. Nearest OT/OL/DY controls reduce
+every grade to8 envelopes and25 written-order state+grade projections. OT is
+the left boundary of178/178 grades in its cards and never a right boundary. OL
+is a left boundary63 times, a right boundary107 times and both7 times; only
+`OK+EE+DY+OL` places DY between the grade block and OL.
+
+One hundred fifty-one grades have a visible action chain to their left inside
+the same envelope. Selecting the single head or last ordered pair reproduces
+an existing GDT420/GDT421 grade license in151/151. The other182 retain a short
+grade-carrier reading. Although152 have an older inherited action, blindly
+attaching across the control would create18 false head binds:15 CHD+E/EE and3
+CH/SH+EEE. Keep the inherited state as context but do not force it as the grade
+host across OT/OL/DY.
+
+Seventeen normalized multi-rung recipes cover235 cards. `OT+G+DY` is complete
+at all3 grades(37/28/1 events); all94 DY-family cards end their statement,
+versus only2/141 in corresponding no-DY families. Thus grade changes the value,
+not the operator scope. All333 assignments have defaults and all31 checks pass.
+Next apply the same envelope reader to `Y/AIIN/AIN/OR`; no page, recipe, root
+value or statement boundary changed.

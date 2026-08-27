@@ -1,0 +1,440 @@
+{
+  "status": "PASS",
+  "check_count": 31,
+  "passed_count": 31,
+  "failed_count": 0,
+  "input_sha256": {
+    "gdt557_all_state_marker_occurrences.tsv": "b6797a19937e74b22cd7068b99bce9cc1ac1b302054cf3bdbd88868bf152cb22",
+    "gdt416_4576_imperative_clauses.tsv": "cffae521ba93d96446537584e35fa9a4fe4b6e34330ebf7e955ad725f7c70561",
+    "gdt539_546_contextual_prose_events.tsv": "4554b8b4cb1697c8f6f544a75505a8a695b4d2043aeceeb9f5922eb21f73843d",
+    "gdt420_9_action_head_profiles.tsv": "6852ab9598814448af449f949273eea208b6fea87732739645a8f03f8dd008cd",
+    "gdt421_81_ordered_pair_profiles.tsv": "299368a6c51949dfbca6c3f1f8410acfea3ed72b604f373ebe5504d6ed9bfa5d"
+  },
+  "artifact_sha256": {
+    "gdt558_333_grade_carrier_assignments.tsv": "582567612c5cb447a57f45b3c67399468f8953ff34f1aa7a5fd2fddeb4e1a3a8",
+    "gdt558_8_grade_carrier_envelopes.tsv": "ff28738bae3ac123db36a580039c998eb0adaf141128fc3a3178c5793b5f4c04",
+    "gdt558_25_grade_state_projection_templates.tsv": "b2dce58359b49bb2fc4f61298284ccd0b8ce981bbd364ba58f0c67c1ef3d645b",
+    "gdt558_17_multirung_grade_families.tsv": "14a5f7f310bffe0bec55890ecac05af99ad32e5e74eb972f3f3c81a628900e40",
+    "gdt558_grade_operator_orientation.tsv": "9fe4c4c41046e4f0d538c9a1538e7ee2420c544ba2b36ce9fb16c72b317fcff6",
+    "gdt558_18_false_inheritance_hazards.tsv": "f5378d84e078e138fc352bde38955bdaa109003b3bd8853c2fdad5bc28b0da00",
+    "GDT558_GRADE_CARRIER_BOOK.md": "f3370125c7f240f1fe19f8b21c8829b37d901623ca54e5b89f90d8b44f305b05",
+    "gdt558_result.json": "3ab1df8f6941bff4e5fba1ee99740e02159b0bebe7cc4fcb0d9eca0e0e64078d"
+  },
+  "checks": [
+    {
+      "check": "input_counts",
+      "passed": true,
+      "detail": [
+        1870,
+        4576,
+        546,
+        9,
+        81
+      ]
+    },
+    {
+      "check": "source_pages_exclude_f84",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "source_event_deduplication",
+      "passed": true,
+      "detail": [
+        1656,
+        []
+      ]
+    },
+    {
+      "check": "context_join_complete",
+      "passed": true,
+      "detail": [
+        4576,
+        546,
+        0
+      ]
+    },
+    {
+      "check": "selected_population",
+      "passed": true,
+      "detail": [
+        326,
+        333,
+        {
+          "EE": 114,
+          "E": 214,
+          "EEE": 5
+        }
+      ]
+    },
+    {
+      "check": "selected_scope",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "selected_cohorts",
+      "passed": true,
+      "detail": {
+        "OLD26_GDT407": 295,
+        "CURRENT4_GDT539": 31
+      }
+    },
+    {
+      "check": "grade_multiplicity",
+      "passed": true,
+      "detail": {
+        "1": 319,
+        "2": 7
+      }
+    },
+    {
+      "check": "assignment_rows_exact",
+      "passed": true,
+      "detail": [
+        333,
+        333,
+        "NONE"
+      ]
+    },
+    {
+      "check": "eight_envelopes_exact",
+      "passed": true,
+      "detail": [
+        {
+          "OT>G<END": 97,
+          "OT>G<OL": 9,
+          "START>G<OL": 91,
+          "OL>G<END": 27,
+          "OL>G<DY": 29,
+          "OT>G<DY": 72,
+          "OL>G<OL": 7,
+          "START>G<DY": 1
+        },
+        {
+          "OT>G<END": 97,
+          "START>G<OL": 91,
+          "OT>G<DY": 72,
+          "OL>G<DY": 29,
+          "OL>G<END": 27,
+          "OT>G<OL": 9,
+          "OL>G<OL": 7,
+          "START>G<DY": 1
+        }
+      ]
+    },
+    {
+      "check": "visible_hosts_all_licensed",
+      "passed": true,
+      "detail": [
+        151,
+        151
+      ]
+    },
+    {
+      "check": "control_carried_count",
+      "passed": true,
+      "detail": 182
+    },
+    {
+      "check": "inheritance_partition",
+      "passed": true,
+      "detail": [
+        152,
+        134,
+        18,
+        30
+      ]
+    },
+    {
+      "check": "eighteen_hazard_ids",
+      "passed": true,
+      "detail": [
+        [
+          "G407-E1145",
+          "G407-E1349",
+          "G407-E1399",
+          "G407-E2009",
+          "G407-E2033",
+          "G407-E2543",
+          "G407-E2830",
+          "G407-E3213",
+          "G407-E3242",
+          "G407-E3500",
+          "G407-E3522",
+          "G407-E3655",
+          "G407-E3657",
+          "G407-E3660",
+          "G407-E3832",
+          "G407-E4404",
+          "G407-E4405",
+          "G515-E0332"
+        ],
+        [
+          "G407-E1145",
+          "G407-E1349",
+          "G407-E1399",
+          "G407-E2009",
+          "G407-E2033",
+          "G407-E2543",
+          "G407-E2830",
+          "G407-E3213",
+          "G407-E3242",
+          "G407-E3500",
+          "G407-E3522",
+          "G407-E3655",
+          "G407-E3657",
+          "G407-E3660",
+          "G407-E3832",
+          "G407-E4404",
+          "G407-E4405",
+          "G515-E0332"
+        ]
+      ]
+    },
+    {
+      "check": "hazard_head_grade_profile",
+      "passed": true,
+      "detail": {
+        "CHD+EE": 5,
+        "CHD+E": 10,
+        "CH+EEE": 2,
+        "SH+EEE": 1
+      }
+    },
+    {
+      "check": "hazard_envelope_profile",
+      "passed": true,
+      "detail": {
+        "OT>G<DY": 10,
+        "OT>G<END": 6,
+        "OL>G<END": 2
+      }
+    },
+    {
+      "check": "twenty_five_projections_exact",
+      "passed": true,
+      "detail": [
+        25,
+        {
+          "OT+EE": 36,
+          "OT+E": 54,
+          "OT+E+OL": 8,
+          "E+OL": 68,
+          "OL+EE": 14,
+          "OL+E": 9,
+          "EE+OL": 17,
+          "OT+E+EE": 2,
+          "OL+E+DY": 17,
+          "OT+EE+DY": 30,
+          "E+OL+E": 2,
+          "E+OL+OL": 1,
+          "OT+EEE": 1,
+          "OL+EE+DY": 12,
+          "OL+EE+OL": 1,
+          "EE+DY+OL": 1,
+          "OT+E+DY": 39,
+          "OT+E+E+DY": 1,
+          "OL+EEE": 2,
+          "OL+E+OL": 6,
+          "OT+EEE+DY": 1,
+          "OT+EE+OL": 1,
+          "E+E+OL": 1,
+          "EEE+OL": 1,
+          "OT+E+E": 1
+        },
+        {
+          "E+OL": 68,
+          "OT+E": 54,
+          "OT+E+DY": 39,
+          "OT+EE": 36,
+          "OT+EE+DY": 30,
+          "EE+OL": 17,
+          "OL+E+DY": 17,
+          "OL+EE": 14,
+          "OL+EE+DY": 12,
+          "OL+E": 9,
+          "OT+E+OL": 8,
+          "OL+E+OL": 6,
+          "E+OL+E": 2,
+          "OL+EEE": 2,
+          "OT+E+EE": 2,
+          "E+E+OL": 1,
+          "E+OL+OL": 1,
+          "EE+DY+OL": 1,
+          "EEE+OL": 1,
+          "OL+EE+OL": 1,
+          "OT+E+E": 1,
+          "OT+E+E+DY": 1,
+          "OT+EE+OL": 1,
+          "OT+EEE": 1,
+          "OT+EEE+DY": 1
+        }
+      ]
+    },
+    {
+      "check": "all_projection_defaults_present",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "multirung_family_counts",
+      "passed": true,
+      "detail": [
+        17,
+        235,
+        [
+          "OT+G+DY"
+        ]
+      ]
+    },
+    {
+      "check": "family_artifact_exact",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "multirung_scope_invariance",
+      "passed": true,
+      "detail": [
+        94,
+        94,
+        141,
+        2
+      ]
+    },
+    {
+      "check": "operator_orientation_exact",
+      "passed": true,
+      "detail": {
+        "OT+E": [
+          107,
+          107,
+          0,
+          0,
+          0
+        ],
+        "OT+EE": [
+          69,
+          69,
+          0,
+          0,
+          0
+        ],
+        "OT+EEE": [
+          2,
+          2,
+          0,
+          0,
+          0
+        ],
+        "OL+E": [
+          115,
+          34,
+          87,
+          6,
+          0
+        ],
+        "OL+EE": [
+          46,
+          27,
+          19,
+          1,
+          1
+        ],
+        "OL+EEE": [
+          3,
+          2,
+          1,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "check": "ot_never_right_boundary",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "ol_direction_counts",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "one_dy_separates_grade_from_ol",
+      "passed": true,
+      "detail": [
+        {
+          "assignment_ordinal": "91",
+          "cohort": "OLD26_GDT407",
+          "event_id": "G407-E1682",
+          "statement_id": "G407-S129",
+          "physical_page": "f75r",
+          "register": "BIOLOGICAL",
+          "surface": "okeedyqol",
+          "recipe": "OK+EE+DY+OL",
+          "event_marker_sequence": "DY+OL",
+          "grade_state_projection": "EE+DY+OL",
+          "grade_occurrence_in_recipe": "1",
+          "grade": "EE",
+          "grade_value_de": "GRAD II",
+          "grade_atom_position": "2",
+          "recipe_atom_count": "4",
+          "left_control": "START",
+          "right_control": "DY",
+          "carrier_envelope": "START>G<DY",
+          "content_block": "OK+EE",
+          "grade_position_in_block": "2",
+          "left_content_before_grade": "OK",
+          "right_content_after_grade": "NONE",
+          "visible_left_action_chain": "OK",
+          "visible_right_action_chain": "NONE",
+          "selected_visible_host_key": "OK",
+          "host_license_source": "GDT420_SINGLE_HEAD",
+          "visible_host_license_status": "LICENSED",
+          "inherited_action_root": "NONE",
+          "cross_boundary_inheritance_status": "NOT_NEEDED_VISIBLE_HOST",
+          "default_host_mode": "VISIBLE_SAME_BLOCK_ACTION_CHAIN",
+          "envelope_template_de": "X auf Grad n; X abschließen",
+          "complete_carrier_reading_de": "setzen auf Grad II; den Schritt abschließen",
+          "statement_position": "STATEMENT_INTERNAL",
+          "statement_final": "NO",
+          "current_reading_de": "SETZEN · GRAD II · SCHLUSS · FORTSETZEN",
+          "guard": "GRADE_STAYS_INSIDE_CONTROL_ENVELOPE__NO_ROOT_OR_RECIPE_CHANGE",
+          "multirung_family_id": "NONE"
+        }
+      ]
+    },
+    {
+      "check": "all_assignments_have_defaults",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "assignment_family_links",
+      "passed": true,
+      "detail": 235
+    },
+    {
+      "check": "result_metrics_exact",
+      "passed": true,
+      "detail": {}
+    },
+    {
+      "check": "book_contains_core_findings",
+      "passed": true,
+      "detail": 3608
+    },
+    {
+      "check": "deterministic_replay_exit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "deterministic_artifact_hashes",
+      "passed": true,
+      "detail": {}
+    }
+  ]
+}

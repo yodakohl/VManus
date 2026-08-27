@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **556**
-- Experiment-associated tracked files: **8,229** (818.3 MiB)
-- Structured GDT337+ experiments: **221**
+- Experiments indexed: **557**
+- Experiment-associated tracked files: **8,245** (818.6 MiB)
+- Structured GDT337+ experiments: **222**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT558 | GDT558_grade_carrier_envelope_grammar | `PASS_EIGHT_GRADE_ENVELOPES__151_VISIBLE_HOSTS_LICENSED__18_FALSE_CROSS_BOUNDARY_BINDS_AVOIDED` | [report](../experiments/yolo/gdt558_grade_carrier_envelope_grammar/REPORT.md) | 16 | 246.2 KiB | 6 | STRUCTURED_YOLO |
 | GDT557 | GDT557_thirty_page_ot_ol_dy_state_grammar | `PASS_OT_RIGHT_402_OF_404__OL_FLEXIBLE__DY_CLOSE_702_OF_705__TWO_REVERSE_COMPOSITIONS` | [report](../experiments/yolo/gdt557_thirty_page_ot_ol_dy_state_grammar/REPORT.md) | 17 | 778.1 KiB | 4 | STRUCTURED_YOLO |
 | GDT556 | GDT556_dy_closure_boundary_scope | `PASS_DY_702_OF_705_STATEMENT_FINAL__THREE_LOCAL_STEP_CLOSURES` | [report](../experiments/yolo/gdt556_dy_closure_boundary_scope/REPORT.md) | 16 | 353.0 KiB | 3 | STRUCTURED_YOLO |
 | GDT555 | GDT555_incomplete_card_successor_roles | `PASS_64_UNIQUE_GAPS_CLASSIFIED__EXACT_SOURCE_POINTERS_ONLY` | [report](../experiments/yolo/gdt555_incomplete_card_successor_roles/REPORT.md) | 16 | 143.6 KiB | 2 | STRUCTURED_YOLO |

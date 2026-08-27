@@ -1,6 +1,6 @@
 # Current thirty-page scribe-workshop theory
 
-Updated: 2026-08-27, after GDT557.
+Updated: 2026-08-27, after GDT558.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -2156,8 +2156,30 @@ DY  close the current step; if final, close the statement
 This replaces vague free connective wording but changes none of the three root
 values, recipes or existing readings.
 
+## GDT558 grades live inside the carrier envelope
+
+Every one of333 `E/EE/EEE` occurrences around OT/OL now has a compact default
+in one of8 exact envelopes. OT always opens the graded block on its right
+(178/178). OL can continue into a graded block(63), retain one on its left(107)
+or do both(7). DY closes the block; in `OK+EE+DY+OL` it visibly separates the
+grade-II step from the later continuation.
+
+When an action or ordered pair is visible before the grade inside that block,
+it carries the grade; all151 such hosts have an existing license. Otherwise
+say only “Träger auf Grad I/II/III.” Do not force the previous action through
+the control boundary: that would invent18 blocked bindings, especially CHD
+with Grad I/II. The17 exact rung families confirm the split:94/94 cards in
+DY-ending families close, while only2/141 without DY close.
+
+```text
+E/EE/EEE  Grad I/II/III within the current carrier
+OT         opens that carrier to the right
+OL         continues it from the left or retains it from the right
+DY         closes it
+```
+
 ## Next work
 
-Hold the three state operations fixed. Isolate the atoms carried immediately
-by OT and OL and test whether `E/EE/EEE` changes only the carried grade or the
-operator scope. Use the same30 pages and open no new page.
+Hold these controls and grade values fixed. Apply the same envelope parsing to
+`Y/AIIN/AIN/OR` and look for exact argument-substitution families inside a
+fixed state frame. Use the same30 pages and open no new page.
