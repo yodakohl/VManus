@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **534**
-- Experiment-associated tracked files: **7,870** (813.5 MiB)
-- Structured GDT337+ experiments: **199**
+- Experiments indexed: **535**
+- Experiment-associated tracked files: **7,890** (813.8 MiB)
+- Structured GDT337+ experiments: **200**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT536 | GDT536_aii_renderer_square_aiicthy_closure | `PASS_AII_RENDERER_SQUARE_aiicthy_CLOSURE` | [report](../experiments/yolo/gdt536_aii_renderer_square_aiicthy_closure/REPORT.md) | 20 | 357.9 KiB | 6 | STRUCTURED_YOLO |
 | GDT535 | GDT535_same_statement_q_null_qef_closure | `PASS_SAME_STATEMENT_Q_NULL_qef_CLOSURE` | [report](../experiments/yolo/gdt535_same_statement_q_null_qef_closure/REPORT.md) | 19 | 442.8 KiB | 9 | STRUCTURED_YOLO |
 | GDT534 | GDT534_third_rung_cheeeky_grade_ladder | `PASS_THIRD_RUNG_cheeeky_WORKING_REVISION` | [report](../experiments/yolo/gdt534_third_rung_cheeeky_grade_ladder/REPORT.md) | 21 | 337.9 KiB | 6 | STRUCTURED_YOLO |
 | GDT533 | GDT533_nested_odas_tail_revision | `PASS_NESTED_ODAS_TAIL_WORKING_REVISION` | [report](../experiments/yolo/gdt533_nested_odas_tail_revision/REPORT.md) | 19 | 288.7 KiB | 7 | STRUCTURED_YOLO |

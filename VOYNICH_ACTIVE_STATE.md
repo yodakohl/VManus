@@ -12980,3 +12980,29 @@ because the provisional recipe itself does not change. Working status rises to
 real carrier-q cards. Only `aiicthy` remains: compare its `aii` prefix as
 `AIIN`, `A_ADDR+IIN`, and visible local characters before exact
 `cthy=CH+T+Y`, without opening a page.
+
+## GDT536 `aii` renderer-square and `aiicthy` closure
+
+GDT536 completes one old analogue square. `aiin=AIIN` occurs55 times,
+`saiin=S+AIIN`20 times and `saii=S+AIIN` once. The missing fourth cell is the
+family-specific working card `aii=AIIN`: removing the leading `s` from `saii`
+removes matching atom `S`, while `saiin/saii` already keeps its recipe across
+the terminal-`n` difference. Exact old `cthy=CH+T+Y` occurs13 times on six
+pages, so:
+
+```text
+aiicthy = aii | cthy = AIIN | CH+T+Y
+```
+
+Use **“Den Wert nehmen, einstellen und posten.”** It is the unique one of
+twelve GDT529 candidates matching both blocks and was already global rank one.
+f31r independently contains four `aiin=AIIN` and four `daiin=AIIN` cards before
+the target.
+
+The license stays narrow. Only one of three old exact terminal-`n` neighbour
+pairs is same-recipe; only25/47 exact `X/sX` pairs literally add `S`; nineteen
+old plus seven current short-`aii` contexts retain diverse recipes. Do not
+globalize `aii`, `n` deletion, or initial `s`. All159 new surfaces now have
+working readings. Next freeze the four special mechanisms—rank2 `qef`, rank6
+`dsholdaiir`, ungenerated `dalcheeeky`, and rank1 `aiicthy`—into a compact
+intake supplement before admitting another page.

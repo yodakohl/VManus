@@ -1,6 +1,6 @@
 # Current thirty-page scribe-workshop theory
 
-Updated: 2026-08-27, after GDT535.
+Updated: 2026-08-27, after GDT536.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -1761,9 +1761,25 @@ Grad I.”** Across the decks, unanimous sentence-neighbour votes get339/383 old
 and41/47 current q roles right; this is useful local context, not a global
 q-null rule.
 
+GDT536 closes the final residual with a four-corner renderer family:
+
+```text
+aiin = AIIN          saiin = S+AIIN
+aii  = AIIN          saii  = S+AIIN
+```
+
+Three cells are exact old cards: `aiin`55 events, `saiin`20 and `saii`1. The
+missing `aii=AIIN` cell follows by removing the matched leading `s/S` block.
+Exact `cthy=CH+T+Y` then gives `aiicthy=AIIN+CH+T+Y`, **“Den Wert nehmen,
+einstellen und posten.”** It is the unique candidate matching both cards and
+was already GDT529 rank one. The rule is local: only one of three terminal-n
+neighbour pairs keeps its recipe, only25/47 `X/sX` pairs literally add `S`, and
+other `aii` contexts remain diverse.
+
 ## Next work
 
-Keep every further page closed. Only `aiicthy` remains. Its exact right card is
-`cthy=CH+T+Y`; compare the visible `aii` prefix as `AIIN`, `A_ADDR+IIN`, and
-`A_ADDR+LOCAL_CHAR_I+LOCAL_CHAR_I` through old complete carriers and the f31r
-block. Prefer a recurring whole family over character-by-character residue.
+All159 current new surfaces now have working readings. Keep further pages
+closed for one consolidation pass: compile the four surviving special
+selection mechanisms (`qef`, `dsholdaiir`, `dalcheeeky`, and `aiicthy`) into an
+explicit intake supplement. The next page batch must consume those cards
+unchanged rather than silently rediscovering or reinterpreting them.
