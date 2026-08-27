@@ -12688,3 +12688,24 @@ rank1/current143, while old rank one falls1,096→1,089 and rank sum worsens
 therefore renderer- and atom-conditioned, not universally null. Next compose
 two compatible GDT522 edits for the17 residuals; no target whole-form card or
 new page.
+
+## GDT524 two-independent-base analogy consensus
+
+GDT524 strengthens GDT522's reusable local edits only when two genuinely
+independent routes support the same finite candidate. The selected routes must
+use different old base surfaces and different normalized visible-to-atom edit
+channels; their two bonuses are then summed after the complete GDT523 score.
+This prevents two variants of one `k→K` relation from posing as independent
+evidence and preserves `kcheeky` as a concrete negative control.
+
+On the current159 deck rank one rises142→144 and rank sum falls187→185, with
+no lost hit. `kchody=K+CH+O+D_ADDR+Y` is jointly licensed by
+`kchod+y→Y`69/72 and `chody+k→K`32/34. `ld=L+D_ADDR` is jointly licensed by
+`d+l→L`43/45 and `l+d→D_ADDR`10/12. On the old four-fold deck rank one rises
+1,096→1,098, top two1,327→1,328 and rank sum2,111→2,109; top three falls by
+one and top five remains1,418. The two old corrections are `qoteody` and
+`shkchy`, with no top-one loss. Twenty-five current candidate recipes receive
+a valid two-route feature and fifteen current top-one errors remain. Next sort
+those residuals by one-route, weak compatible two-route and no-route support,
+then try an intermediate-base composition for the middle class. Do not add a
+target whole-form card or open another page.

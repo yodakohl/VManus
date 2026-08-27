@@ -1,6 +1,6 @@
 # Current thirty-page scribe-workshop theory
 
-Updated: 2026-08-27, after GDT523.
+Updated: 2026-08-27, after GDT524.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -191,6 +191,17 @@ sum187, and improves the old four-fold top-three by one/rank sum by two. A
 stronger setting would select `qef=E+LOCAL_CHAR_F` and current143, but costs
 seven old rank-one hits; it is recorded but not adopted. The next route is
 two compatible local edits, not a stronger universal q-null claim.
+
+GDT524 makes that composition usable without admitting noisy double-counting.
+A candidate receives the full consensus bonus only when two different old
+base surfaces and two different visible-to-atom edit channels support it.
+That raises current rank one142→144 without a loss: `kchody` combines the
+independent `+y→Y` and `+k→K` routes into `K+CH+O+D_ADDR+Y`, while `ld`
+combines `+l→L` and `+d→D_ADDR` into `L+D_ADDR`. Old four-fold rank one also
+rises1,096→1,098. Two apparent supports for `kcheeky` both repeat `k→K`, so
+they are deliberately one channel and its correct reading stays untouched.
+Fifteen errors remain; the next closed-page pass should separate single-route,
+weak two-route and route-less forms before trying one intermediate stem.
 
 GDT459–GDT484 now resolve the formerly opaque local-address tail as the mixed
 codebook architecture anticipated by the sidequest: portable function cards
