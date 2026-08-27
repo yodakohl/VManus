@@ -12938,3 +12938,26 @@ working rank one rises154→155 and rank sum falls175→174. Three forms remain
 unresolved: `aiicthy`, `dalcheeeky`, and `qef`. Next inspect `dalcheeeky`
 through retained `CH+EEE` versus the competing long `cheee→EEE` renderer and
 old grade-III/terminal `eky` families without opening a page.
+
+## GDT534 third-rung `cheeeky` grade-ladder revision
+
+GDT534 separates the isolated long-`e` renderer from the exact `...ky` family.
+Old whole cards give `cheky=CH+K+E+Y` nine times and
+`cheeky=CH+K+EE+Y` five times. Across the invariant old deck, one visible
+`e` plus one matching grade increment produces49 deduplicated `E→EE` pairs
+and8 `EE→EEE` pairs; five families contain all three rungs. The missing local
+third rung is therefore `cheeeky=CH+K+EEE+Y`. Exact old `dal=AL` occurs44
+times, giving the working composition:
+
+```text
+dalcheeeky = dal | cheeeky = AL | CH+K+EEE+Y
+```
+
+Revise the concrete reading to **“Am Zielort nehmen und geben; auf Grad III
+posten.”** This recipe was not among GDT529's twelve candidates, so it is
+recorded as `UNGENERATED`, not assigned a synthetic rank. The inherited
+159-target scorecard remains155 rank one/rank sum174; the 158 targets still
+inside that space are155 rank one/rank sum172. Old `cheeety=EEE+T+Y` remains
+a contrary context control, so no global `cheee` parse follows. The working
+layer resolves157/159 forms; next compare `aiicthy` and `qef` through their
+separate old families without opening a page.

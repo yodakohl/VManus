@@ -1,6 +1,6 @@
 # Current thirty-page scribe-workshop theory
 
-Updated: 2026-08-27, after GDT533.
+Updated: 2026-08-27, after GDT534.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -1595,7 +1595,7 @@ typed f89r carrier. `SH→S` is newly direct in `shso`, but its ordered relation
 was already old. No twentieth portable value is needed. The complete 597-event
 and 5,866-group contextual overlays are in GDT516; validation passes 36/36.
 
-## GDT517–GDT533 executable intake update
+## GDT517–GDT534 executable intake update
 
 The finite reader now reaches family-revised rank one148/159 with rank sum180.
 The important change is architectural, not merely numerical. GDT525 closes the
@@ -1733,11 +1733,28 @@ posten; zur Ausführung geben und Stufe II wählen.”** It moves candidate rank
 2→1; accumulated rank one is155 and rank sum174. Visible `...as` remains
 contextual rather than a global suffix.
 
+GDT534 resolves `dalcheeeky` by following its exact K-grade family rather than
+the isolated `cheee` substring:
+
+```text
+cheky     = CH+K+E+Y       (9 old events)
+cheeky    = CH+K+EE+Y      (5 old events)
+cheeeky   = CH+K+EEE+Y     (predicted embedded third rung)
+dalcheeeky = AL+CH+K+EEE+Y
+```
+
+The old deck contains49 deduplicated `E→EE` pairs,8 `EE→EEE` pairs and five
+complete three-rung ladders, so the third step is already part of the writing
+system. Exact `dal=AL` occurs44 times. The new workshop reading is **“Am
+Zielort nehmen und geben; auf Grad III posten.”** GDT529 never generated this
+recipe, so it remains explicitly outside that finite scorecard rather than
+receiving a fictional rank. The local frame matters: old
+`cheeety=EEE+T+Y` still shows that `cheee` can collapse to grade III in another
+construction.
+
 ## Next work
 
-Keep every further page closed. The unresolved queue is `aiicthy`,
-`dalcheeeky`, and `qef`. Inspect `dalcheeeky` next. Its live conflict is
-`AL+CH+EEE+K+Y` versus rank-one `AL+EEE+K+Y`: test whether visible `cheee`
-really functions as an `EEE` renderer or whether exact `CH` survives before
-grade III, using old `dal`, `cheee/heee`, and terminal `eky/eeky` families
-rather than another global reranker.
+Keep every further page closed. The unresolved queue is now `aiicthy` and
+`qef`. Test them separately: `aii|cthy` against recurrent value/action frames,
+and `qef` against q-rendered grade/local-character frames. Advance whichever
+has a real old compositional family; do not force one rule onto both.
