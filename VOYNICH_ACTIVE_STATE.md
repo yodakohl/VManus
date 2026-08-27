@@ -13558,3 +13558,25 @@ frame, not necessarily the whole sentence; effective action, argument and
 owner context select the event phrase. Next find the smallest context selector
 for the101 variable recurrent recipes without opening a page or retuning a
 root. All36 checks pass.
+
+## GDT564 reduces context variation to two live slots
+
+GDT564 turns GDT563's402 recipes into a complete716-cell selector atlas:301
+fixed recipe phrases plus415 observed context cells for the101 variable
+recipes/1,277 events. Exact recipe plus effective action and argument selects
+1,277/1,277 phrases with zero ambiguous cells. A recipe-only modal reading
+would cover only566 events; action alone932 and argument alone872.
+
+The portable rule is visible and three-way. Fifty-four recipes already write
+their action and need only the active argument;15 write an argument but no
+action and need the active action;32 write neither and use both state slots.
+This is deliberately safer than the empirical per-recipe shortcut(60 argument,
+26 action,15 pair), because it does not treat accidental action/argument
+co-variation as a new rule.
+
+The selector is reused:183/415 variable cells carry1,045/1,277 events,172
+cross pages,123 cross registers and47 cross old/current cohorts. Owner, page,
+register and sentence position are not part of the selected key. Use these
+four routes—301 fixed plus the three context routes—as the current executable
+reading contract. Next reduce the716 readings to a small sentence-template
+inventory; no page or root changes. All40 checks pass.

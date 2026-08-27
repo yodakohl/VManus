@@ -2297,10 +2297,30 @@ FORTSETZEN while the current action and argument come from memory. This is the
 working mixed-codebook architecture we were looking for: short learned values
 plus composition plus a small live state.
 
+## GDT564 only two live slots select every variable phrase
+
+The complete selector book has301 fixed recipe readings and415 observed cells
+for the101 variable recipes. Exact recipe plus effective action and argument
+selects all1,277 variable events with no ambiguous cell. Page, register, owner
+and statement position are unnecessary.
+
+The portable rule follows the visibly open slots:
+
+```text
+written action present             → insert active argument   (54 recipes)
+written argument but no action     → insert active action     (15 recipes)
+neither action nor argument written → insert both              (32 recipes)
+```
+
+This is better than attaching33 meanings to bare OL. OL supplies FORTSETZEN;
+the two-slot state chooses which of its33 observed operation phrases is active.
+Across all variable recipes,183/415 selector cells recur and carry1,045/1,277
+events;172 cells cross pages and123 cross registers.
+
 ## Next work
 
-Build a compact context selector for the101 recurrent variable recipes. Test
-whether active action, active argument, their provenance and state sequence—
-alone or in small combinations—are enough to choose the concrete microphrase.
-Keep every plausible selector until a simpler one covers the same cases. Use
-only the current30 pages and do not retune a root.
+Factor the301 fixed phrases and415 variable cells into a small reusable German
+sentence-template inventory: state frame, ordered action chain, argument frame
+and visible modifiers. The target is a generator, not716 learned long phrases,
+and it must leave every written atom aligned. Keep the same30 pages and all19
+root values.
