@@ -1825,8 +1825,9 @@ phrases before GDT537 and still delegates local, old and unseen forms.
 
 ## Next work
 
-Keep pages closed and insert the168 concrete occurrences back into their78
-statements. Resolve only verbs or arguments already active in the same
-statement, and publish both the complete statement reading and the exact card
-backprojection. Do not change a surface recipe, root value, structural tag,
-owner, or special route.
+Keep pages closed. Of168 occurrences,149 are prose cards spread across49 of
+the78 statements;19 belong to the local Rand-/Kennkartendeck. Insert only the
+149 prose cards into their statements and keep the local19 separate. Resolve
+only verbs or arguments already active in the same statement, and publish the
+complete statement reading plus exact card backprojection. Do not change a
+surface recipe, root value, structural tag, owner, or special route.

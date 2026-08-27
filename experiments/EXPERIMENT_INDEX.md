@@ -20,7 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT538 | GDT538_final_159_phrase_consistency_edition | `PASS_ALL_159_HAVE_CANONICAL_PHRASES__Y_RESTORED_AS_ARGUMENT` | [report](../experiments/yolo/gdt538_final_159_phrase_consistency_edition/REPORT.md) | 16 | 171.9 KiB | 6 | STRUCTURED_YOLO |
+| GDT538 | GDT538_phrase_scope_count_correction | `CORRECTED_TO_149_PROSE_PLUS_19_LOCAL_OCCURRENCES` | [report](../experiments/yolo/gdt538_final_159_phrase_consistency_edition/REPORT.md) | 16 | 171.9 KiB | 6 | STRUCTURED_YOLO |
 | GDT537 | GDT537_seven_route_final_intake_supplement | `PASS_SEVEN_ROUTE_FINAL_INTAKE_SUPPLEMENT` | [report](../experiments/yolo/gdt537_seven_route_final_intake_supplement/REPORT.md) | 17 | 129.1 KiB | 10 | STRUCTURED_YOLO |
 | GDT536 | GDT536_aii_renderer_square_aiicthy_closure | `PASS_AII_RENDERER_SQUARE_aiicthy_CLOSURE` | [report](../experiments/yolo/gdt536_aii_renderer_square_aiicthy_closure/REPORT.md) | 20 | 357.9 KiB | 6 | STRUCTURED_YOLO |
 | GDT535 | GDT535_same_statement_q_null_qef_closure | `PASS_SAME_STATEMENT_Q_NULL_qef_CLOSURE` | [report](../experiments/yolo/gdt535_same_statement_q_null_qef_closure/REPORT.md) | 19 | 442.8 KiB | 9 | STRUCTURED_YOLO |

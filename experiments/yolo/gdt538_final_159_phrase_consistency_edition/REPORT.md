@@ -62,9 +62,9 @@ rollenbewussten Leser. Der unabhängige Validator besteht 51/51 Prüfungen.
 
 ## Nächster Schritt
 
-Die Wortebene ist jetzt vollständig aussprechbar. Als Nächstes sollten die 168
-konkreten Vorkommen dieser 159 Oberflächen wieder in ihre 78 Aussagen eingesetzt
-werden. Dort lässt sich prüfen, wo ein Kartenfragment sein Verb oder Argument
-aus dem laufenden Satz erbt und ob die vollständige Aussage mit denselben
-Phrasen lesbar bleibt. Dafür bleiben die Seiten, Rezepte und Stammwerte weiter
-unverändert.
+Die Wortebene ist jetzt vollständig aussprechbar. Die genaue Rückbindung teilt
+die 168 Vorkommen in **149 Prosakarten über 49 der 78 Aussagen** und **19 lokale
+Rand-/Kennkarten**. Als Nächstes werden nur die 149 Prosavorkommen in ihre
+Aussagen eingesetzt; die 19 lokalen bleiben im lokalen Deck. Dort lässt sich
+prüfen, wo ein Kartenfragment sein Verb oder Argument aus dem laufenden Satz
+erbt. Seiten, Rezepte und Stammwerte bleiben unverändert.

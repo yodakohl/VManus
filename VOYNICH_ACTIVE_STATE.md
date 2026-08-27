@@ -13043,5 +13043,6 @@ Four handwritten special phrases had used argument `Y=POSTEN` as the verb
 “posten”. The common renderer restores its noun role in `aiicthy`, `chekchy`,
 `dairykodas`, and `dalcheeeky`; recipes and root meanings do not change. The
 new executable overlay returns159/159 phrases and delegates local, old, and
-unknown surfaces. Next put the168 concrete occurrences into their78 statements
-and resolve only same-statement inherited verbs/arguments.
+unknown surfaces. Exact role recount splits the168 occurrences into149 prose
+cards across49/78 statements and19 local Rand-/Kennkarten. Next contextualize
+only the149 prose cards and keep the local19 separate.
