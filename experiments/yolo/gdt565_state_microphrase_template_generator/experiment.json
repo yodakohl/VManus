@@ -1,0 +1,147 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "The complete 1,656-row replay and 716-cell generated edition are required to expose any event-level drift, preserve atom alignment and show that the compact renderer covers every current reading rather than only selected examples.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "An exploratory German realization grammar for the current GDT563/GDT564 working readings. It may generate all 1,656 state-card microphrases from 42 small renderer cards, retain 1,655 source phrases byte-identically, and normalize the one named Y|Y German coordination at G407-E1000. The normalization changes no written atom, state, recipe or root meaning. Compositional expressibility does not confirm the dictionary, language, syntax, genre, object identity, codebook identity or plaintext and licenses no new occurrence or surface.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt565_state_microphrase_template_generator/src/run.py",
+    "validate": "python3 experiments/yolo/gdt565_state_microphrase_template_generator/src/validate.py"
+  },
+  "created": "2026-08-27",
+  "dependencies": [
+    "GDT554",
+    "GDT561",
+    "GDT563",
+    "GDT564"
+  ],
+  "experiment_id": "GDT565",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt561_typed_state_card_composition_reader/artifacts/gdt561_36_state_atom_dictionary.tsv",
+      "role": "complete typed state-atom fragment dictionary",
+      "sha256": "05e5e090e7e8088408503f030a79896d11cf71d5cb43aa6e2bdde6479bb9609a"
+    },
+    {
+      "path": "experiments/yolo/gdt563_complete_state_microphrase_edition/artifacts/gdt563_1656_complete_state_microphrases.tsv",
+      "role": "complete source microphrase edition and replay target",
+      "sha256": "b95801abe968dd45ea18da3a43aa584ad9151487e5e443c0a76d1575f68bc719"
+    },
+    {
+      "path": "experiments/yolo/gdt564_state_context_selector_atlas/artifacts/gdt564_402_recipe_selector_routes.tsv",
+      "role": "complete recipe-to-open-slot route table",
+      "sha256": "c9a5749dd020a56abe2640a085b58f028b0042e5604fd5950a734fde69dded04"
+    },
+    {
+      "path": "experiments/yolo/gdt564_state_context_selector_atlas/artifacts/gdt564_415_observed_selector_cells.tsv",
+      "role": "complete variable-recipe selector-cell atlas",
+      "sha256": "387334b29e4549fa98c6de6b57ca2efc0fbe2e30bd9bb2b571edf661c98e5caa"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt565_state_microphrase_template_generator/METHOD.md",
+      "role": "template generator method",
+      "sha256": "b0e9250ac80af6f0ad1104d2ca06a552a8bf2105bc1eb9d07fd6e93114389d58"
+    },
+    {
+      "path": "experiments/yolo/gdt565_state_microphrase_template_generator/README.md",
+      "role": "experiment entry point",
+      "sha256": "39158d5a242057ebd556b02e087ca64e705a50f2429a08e1b8be24b277b922c1"
+    },
+    {
+      "path": "experiments/yolo/gdt565_state_microphrase_template_generator/REPORT.md",
+      "role": "primary result report",
+      "sha256": "fe02d92c073e00d352f3334dbf66540f6fa9aa0af1e1506239251e60f0ad244b"
+    },
+    {
+      "path": "experiments/yolo/gdt565_state_microphrase_template_generator/artifacts/GDT565_TEMPLATE_GENERATOR_BOOK.md",
+      "role": "human-readable generator overview",
+      "sha256": "a7f328d1b489149d6a32bd155b2d99aa4b87284264b5de0a13054c4c56cdfb86"
+    },
+    {
+      "path": "experiments/yolo/gdt565_state_microphrase_template_generator/artifacts/README.md",
+      "role": "artifact guide",
+      "sha256": "6e1ab23b277360d0706531592573e5087ad5de5d74e1fda73d6bae62c1d9cc19"
+    },
+    {
+      "path": "experiments/yolo/gdt565_state_microphrase_template_generator/artifacts/gdt565_11_outer_template_profiles.tsv",
+      "role": "eleven outer sentence skeletons",
+      "sha256": "d6692e9ce5391b9a394a561e5bfbf3c046463199b9d8319556fb396c0ada72b4"
+    },
+    {
+      "path": "experiments/yolo/gdt565_state_microphrase_template_generator/artifacts/gdt565_1656_template_replay.tsv",
+      "role": "complete event-level template replay",
+      "sha256": "e2ad7b35667aa4bc562549198561cb96c6fb0545a9729c795e973020d659c39a"
+    },
+    {
+      "path": "experiments/yolo/gdt565_state_microphrase_template_generator/artifacts/gdt565_168_structural_template_profiles.tsv",
+      "role": "complete abstract structural template inventory",
+      "sha256": "6b44af1dc21da0ea7f987d68b806d4a2c4bb667b11ad066b92fc0582b177572b"
+    },
+    {
+      "path": "experiments/yolo/gdt565_state_microphrase_template_generator/artifacts/gdt565_1_editorial_normalization.tsv",
+      "role": "one named German coordination normalization",
+      "sha256": "cc4606ec196822b572cbe1bb7d2e40c7727fddfce731bf5ff55a58c0d70af7f5"
+    },
+    {
+      "path": "experiments/yolo/gdt565_state_microphrase_template_generator/artifacts/gdt565_42_renderer_cards.tsv",
+      "role": "complete compact renderer kit",
+      "sha256": "5d75812b321d4aa7a9e1ad52e2927e853630ab606609253167763cebb1325c8c"
+    },
+    {
+      "path": "experiments/yolo/gdt565_state_microphrase_template_generator/artifacts/gdt565_46_modifier_type_profiles.tsv",
+      "role": "ordered modifier-type profile inventory",
+      "sha256": "196d3ea2babcbc84d2000f359559e61401080546cc73c9047578cb4a5a6fc569"
+    },
+    {
+      "path": "experiments/yolo/gdt565_state_microphrase_template_generator/artifacts/gdt565_4_argument_topology_profiles.tsv",
+      "role": "argument topology inventory",
+      "sha256": "3d72c737a6be38c229c1d218df89cd62b800f51d20a36acd80d8763caa2ded0b"
+    },
+    {
+      "path": "experiments/yolo/gdt565_state_microphrase_template_generator/artifacts/gdt565_716_recipe_context_template_cells.tsv",
+      "role": "complete generated recipe-context cell edition",
+      "sha256": "91b04c6841c26cc2b454bdefa68b7b697fc1334adc1250625e725da2eb64070b"
+    },
+    {
+      "path": "experiments/yolo/gdt565_state_microphrase_template_generator/artifacts/gdt565_7_action_topology_profiles.tsv",
+      "role": "action-chain topology inventory",
+      "sha256": "5479e86501b45eca07360bb755042b1e8a8bb9c4ba083097e6de05e8c16bec33"
+    },
+    {
+      "path": "experiments/yolo/gdt565_state_microphrase_template_generator/artifacts/gdt565_result.json",
+      "role": "compact result object",
+      "sha256": "f8e5f69a8e51e6483495468486eac398870ffe06b0167d99555a63d9f0ea87c8"
+    },
+    {
+      "path": "experiments/yolo/gdt565_state_microphrase_template_generator/artifacts/gdt565_validation.json",
+      "role": "independent 40-check validation record",
+      "sha256": "5d9c59e30a6804dc97a932c3faa6d7166651ce4db4d11a29eccd2c75de7c3eae"
+    },
+    {
+      "path": "experiments/yolo/gdt565_state_microphrase_template_generator/src/run.py",
+      "role": "reproducible template generator",
+      "sha256": "c61e00b688279fac6abad1919f6264d18025b9c15df98d78b4a0539c7fb9764c"
+    },
+    {
+      "path": "experiments/yolo/gdt565_state_microphrase_template_generator/src/validate.py",
+      "role": "independent source validator",
+      "sha256": "aadba1e07110ad40ccbab94b61f3a71ae5e06174e0521c3267c5ba7c4efb715a"
+    }
+  ],
+  "question": "Can all 716 state recipe-context readings and all 1,656 event microphrases be generated from a small reusable sentence kit, and does exact generation expose any editorial inconsistency in the current working edition?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "state_microphrase_template_generator",
+  "status": "PASS_1655_EXACT_REPLAYS__ONE_EDITORIAL_DOUBLE_ARGUMENT_NORMALIZATION__716_CELLS__42_RENDERER_CARDS__168_STRUCTURAL_TEMPLATES",
+  "title": "state microphrase template generator",
+  "updated": "2026-08-27",
+  "validation": {
+    "artifact": "experiments/yolo/gdt565_state_microphrase_template_generator/artifacts/gdt565_validation.json",
+    "status": "PASS"
+  }
+}

@@ -1,0 +1,358 @@
+{
+  "status": "PASS",
+  "check_count": 40,
+  "passed_count": 40,
+  "failed_count": 0,
+  "input_sha256": {
+    "state_dictionary": "05e5e090e7e8088408503f030a79896d11cf71d5cb43aa6e2bdde6479bb9609a",
+    "state_microphrases": "b95801abe968dd45ea18da3a43aa584ad9151487e5e443c0a76d1575f68bc719",
+    "recipe_routes": "c9a5749dd020a56abe2640a085b58f028b0042e5604fd5950a734fde69dded04",
+    "selector_cells": "387334b29e4549fa98c6de6b57ca2efc0fbe2e30bd9bb2b571edf661c98e5caa"
+  },
+  "artifact_sha256": {
+    "gdt565_1656_template_replay.tsv": "e2ad7b35667aa4bc562549198561cb96c6fb0545a9729c795e973020d659c39a",
+    "gdt565_716_recipe_context_template_cells.tsv": "91b04c6841c26cc2b454bdefa68b7b697fc1334adc1250625e725da2eb64070b",
+    "gdt565_42_renderer_cards.tsv": "5d75812b321d4aa7a9e1ad52e2927e853630ab606609253167763cebb1325c8c",
+    "gdt565_11_outer_template_profiles.tsv": "d6692e9ce5391b9a394a561e5bfbf3c046463199b9d8319556fb396c0ada72b4",
+    "gdt565_168_structural_template_profiles.tsv": "6b44af1dc21da0ea7f987d68b806d4a2c4bb667b11ad066b92fc0582b177572b",
+    "gdt565_7_action_topology_profiles.tsv": "5479e86501b45eca07360bb755042b1e8a8bb9c4ba083097e6de05e8c16bec33",
+    "gdt565_4_argument_topology_profiles.tsv": "3d72c737a6be38c229c1d218df89cd62b800f51d20a36acd80d8763caa2ded0b",
+    "gdt565_46_modifier_type_profiles.tsv": "196d3ea2babcbc84d2000f359559e61401080546cc73c9047578cb4a5a6fc569",
+    "gdt565_1_editorial_normalization.tsv": "cc4606ec196822b572cbe1bb7d2e40c7727fddfce731bf5ff55a58c0d70af7f5",
+    "GDT565_TEMPLATE_GENERATOR_BOOK.md": "a7f328d1b489149d6a32bd155b2d99aa4b87284264b5de0a13054c4c56cdfb86",
+    "gdt565_result.json": "f8e5f69a8e51e6483495468486eac398870ffe06b0167d99555a63d9f0ea87c8"
+  },
+  "checks": [
+    {
+      "check": "input_counts",
+      "passed": true,
+      "detail": [
+        36,
+        1656,
+        402,
+        415
+      ]
+    },
+    {
+      "check": "artifact_counts",
+      "passed": true,
+      "detail": [
+        1656,
+        716,
+        42,
+        11,
+        168,
+        7,
+        4,
+        46,
+        1
+      ]
+    },
+    {
+      "check": "sealed_pages_absent",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "event_keys_unique_and_exact",
+      "passed": true,
+      "detail": [
+        1656,
+        1656
+      ]
+    },
+    {
+      "check": "all_1656_template_rows_reconstructed",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "exact_replay_count",
+      "passed": true,
+      "detail": 1655
+    },
+    {
+      "check": "one_named_normalization",
+      "passed": true,
+      "detail": [
+        [
+          "G407-E1000",
+          "Weiter: gib den Posten und den Posten; hier.",
+          "Weiter: gib die beiden Posten; hier."
+        ]
+      ]
+    },
+    {
+      "check": "normalization_artifact_exact",
+      "passed": true,
+      "detail": [
+        {
+          "normalization_ordinal": "1",
+          "event_id": "G407-E1000",
+          "recipe": "Y+D_ADDR+OL+Y",
+          "effective_action_roots": "K",
+          "effective_argument_roots": "Y|Y",
+          "old_microphrase_de": "Weiter: gib den Posten und den Posten; hier.",
+          "normalized_microphrase_de": "Weiter: gib die beiden Posten; hier.",
+          "normalization_rule": "Y|Y_ALWAYS_RAISES_TO_DIE_BEIDEN_POSTEN",
+          "semantic_change": "NO__GERMAN_EDITORIAL_CONSISTENCY_ONLY",
+          "guard": "ONE_NAMED_NORMALIZATION__NO_ROOT_OR_ATOM_CHANGE"
+        }
+      ]
+    },
+    {
+      "check": "atom_alignment_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "template_ids_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "template_inventory_counts",
+      "passed": true,
+      "detail": [
+        11,
+        168
+      ]
+    },
+    {
+      "check": "recurrent_structural_counts",
+      "passed": true,
+      "detail": [
+        82,
+        1570
+      ]
+    },
+    {
+      "check": "topology_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exact_modifier_sequence_count",
+      "passed": true,
+      "detail": 93
+    },
+    {
+      "check": "renderer_class_counts",
+      "passed": true,
+      "detail": {
+        "STATE_FRAME": 9,
+        "ACTION_TEMPLATE": 9,
+        "ARGUMENT_CARD": 4,
+        "MODIFIER_FRAGMENT": 14,
+        "COMBINATOR": 6
+      }
+    },
+    {
+      "check": "renderer_ids_sequential",
+      "passed": true,
+      "detail": [
+        "GDT565-R01",
+        "GDT565-R42"
+      ]
+    },
+    {
+      "check": "all_renderer_cards_used",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "nine_state_cards_exact",
+      "passed": true,
+      "detail": {
+        "OL": "619",
+        "DY": "544",
+        "OT": "279",
+        "OT+DY": "86",
+        "OL+DY": "74",
+        "OT+OL": "38",
+        "OL+OL": "14",
+        "OL+OT": "1",
+        "DY+OL": "1"
+      }
+    },
+    {
+      "check": "nine_action_cards_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "four_argument_cards_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "fourteen_modifier_cards_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "six_combinators_exact",
+      "passed": true,
+      "detail": [
+        {
+          "ARGUMENT_COORDINATION": 1585,
+          "DOUBLE_POSTEN": 5,
+          "ACTION_CHAIN": 1643,
+          "ADJACENT_ACTION_REPEAT": 7,
+          "MODIFIER_SEQUENCE": 1042,
+          "SENTENCE_ASSEMBLY": 1656
+        },
+        {
+          "ARGUMENT_COORDINATION": 1585,
+          "DOUBLE_POSTEN": 5,
+          "ACTION_CHAIN": 1643,
+          "ADJACENT_ACTION_REPEAT": 7,
+          "MODIFIER_SEQUENCE": 1042,
+          "SENTENCE_ASSEMBLY": 1656
+        }
+      ]
+    },
+    {
+      "check": "generated_cell_count",
+      "passed": true,
+      "detail": 716
+    },
+    {
+      "check": "cell_keys_exact",
+      "passed": true,
+      "detail": [
+        716,
+        0
+      ]
+    },
+    {
+      "check": "all_716_cells_reconstructed",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "fixed_variable_cell_partition",
+      "passed": true,
+      "detail": [
+        301,
+        415
+      ]
+    },
+    {
+      "check": "gdt564_cell_links_exact",
+      "passed": true,
+      "detail": 415
+    },
+    {
+      "check": "outer_profiles_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "structural_profiles_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "action_profiles_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "argument_profiles_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "modifier_profiles_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "result_metrics_exact",
+      "passed": true,
+      "detail": {
+        "source_state_card_count": 1656,
+        "exact_replay_count": 1655,
+        "editorial_normalization_count": 1,
+        "unexpected_replay_drift_count": 0,
+        "distinct_owner_free_microphrase_count": 607,
+        "distinct_generated_microphrase_count": 607,
+        "recipe_context_cell_count": 716,
+        "fixed_recipe_context_cell_count": 301,
+        "variable_recipe_context_cell_count": 415,
+        "renderer_card_count": 42,
+        "state_frame_card_count": 9,
+        "action_template_card_count": 9,
+        "argument_card_count": 4,
+        "modifier_fragment_card_count": 14,
+        "combinator_card_count": 6,
+        "modifier_source_atom_count": 20,
+        "outer_template_count": 11,
+        "structural_template_count": 168,
+        "recurrent_structural_template_count": 82,
+        "recurrent_structural_template_event_count": 1570,
+        "action_topology_count": 7,
+        "argument_topology_count": 4,
+        "modifier_type_sequence_count": 46,
+        "exact_modifier_atom_sequence_count": 93,
+        "distinct_generated_action_chain_count": 133,
+        "distinct_generated_modifier_phrase_count": 80,
+        "visible_action_slot_count": 1158,
+        "effective_action_template_use_count": 1851,
+        "effective_argument_root_use_count": 1598,
+        "modifier_atom_use_count": 1266,
+        "editorial_microphrase_changes": 1,
+        "learned_long_phrase_templates": 0
+      }
+    },
+    {
+      "check": "result_status_exact",
+      "passed": true,
+      "detail": "PASS_1655_EXACT_REPLAYS__ONE_EDITORIAL_DOUBLE_ARGUMENT_NORMALIZATION__716_CELLS__42_RENDERER_CARDS__168_STRUCTURAL_TEMPLATES"
+    },
+    {
+      "check": "result_guards",
+      "passed": true,
+      "detail": [
+        true,
+        true
+      ]
+    },
+    {
+      "check": "zero_scope_mutation",
+      "passed": true,
+      "detail": {
+        "new_pages": 0,
+        "new_surfaces": 0,
+        "new_recipes": 0,
+        "new_root_values": 0
+      }
+    },
+    {
+      "check": "input_hashes_exact",
+      "passed": true,
+      "detail": {
+        "state_dictionary": "05e5e090e7e8088408503f030a79896d11cf71d5cb43aa6e2bdde6479bb9609a",
+        "state_microphrases": "b95801abe968dd45ea18da3a43aa584ad9151487e5e443c0a76d1575f68bc719",
+        "recipe_routes": "c9a5749dd020a56abe2640a085b58f028b0042e5604fd5950a734fde69dded04",
+        "selector_cells": "387334b29e4549fa98c6de6b57ca2efc0fbe2e30bd9bb2b571edf661c98e5caa"
+      }
+    },
+    {
+      "check": "book_core_findings_present",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "deterministic_replay_exit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "deterministic_artifact_hashes",
+      "passed": true,
+      "detail": {}
+    }
+  ]
+}

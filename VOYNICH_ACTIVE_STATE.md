@@ -13580,3 +13580,25 @@ register and sentence position are not part of the selected key. Use these
 four routes—301 fixed plus the three context routes—as the current executable
 reading contract. Next reduce the716 readings to a small sentence-template
 inventory; no page or root changes. All40 checks pass.
+
+## GDT565 replaces long phrases with a42-card generator
+
+GDT565 regenerates all1,656 state-card microphrases from9 state frames,9
+action templates,4 argument cards,14 distinct modifier fragments and6 generic
+combinators. These42 cards generate607 distinct German phrases and all716
+GDT564 recipe-context readings. They use all36 existing dictionary atoms; no
+long sentence is learned as one value.
+
+The outer sentence grammar has11 patterns. Keeping state sequence, base mode,
+action topology, argument topology and modifier-type order yields168 structural
+templates;82 recur and cover1,570/1,656 cards. Seven action and4 argument
+topologies suffice, while14 modifier fragments generate80 observed modifier
+phrases from1,266 written uses.
+
+Exact generation reproduces1,655 GDT563 lines byte-for-byte and exposes one
+old renderer inconsistency. G407-E1000 `Y+D_ADDR+OL+Y` formerly said “gib den
+Posten und den Posten”; the universal `Y|Y` rule now says “gib die beiden
+Posten”. Both Y atoms, K, D_ADDR, OL and every root value are unchanged. This
+is the sole named German editorial normalization; zero unexpected drift and
+all40 checks pass. Next insert the generated state lines into a complete
+5,122-event/793-statement thirty-page edition beside the3,466 nonstate cards.

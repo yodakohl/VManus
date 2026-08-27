@@ -2317,10 +2317,33 @@ the two-slot state chooses which of its33 observed operation phrases is active.
 Across all variable recipes,183/415 selector cells recur and carry1,045/1,277
 events;172 cells cross pages and123 cross registers.
 
+## GDT565 the716 readings come from42 small renderer cards
+
+The complete state phrasebook is now executable rather than learned line by
+line. Nine state frames,9 action templates,4 argument cards,14 modifier
+fragments and6 joining rules generate all1,656 event phrases and all716
+recipe-context cases. The607 distinct German lines therefore do not require607
+Voynich word meanings.
+
+Only11 outer sentence shells occur. A finer signature gives168 structures;
+82 repeat across1,570 cards and only86 cards use a singleton structure. The
+generator preserves action order, modifier order, every atom alignment and the
+GDT564 open-slot choice.
+
+It also found one harmless old wording split. G407-E1000 now uses the same
+`Y|Y` realization as the other four double-Posten cards:
+
+```text
+alt  Weiter: gib den Posten und den Posten; hier.
+neu  Weiter: gib die beiden Posten; hier.
+```
+
+No semantic value changes; this is a German coordination cleanup.
+
 ## Next work
 
-Factor the301 fixed phrases and415 variable cells into a small reusable German
-sentence-template inventory: state frame, ordered action chain, argument frame
-and visible modifiers. The target is a generator, not716 learned long phrases,
-and it must leave every written atom aligned. Keep the same30 pages and all19
-root values.
+Build one full30-page prose edition over all5,122 running events and793
+statements. Replace the1,656 state-card lines with GDT565 generator output and
+retain the current owner-bound readings for the3,466 nonstate cards. Every
+event, statement boundary and source layer must remain visible. Open no page
+and change no root.

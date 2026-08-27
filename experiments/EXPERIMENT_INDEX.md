@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **563**
-- Experiment-associated tracked files: **8,353** (823.9 MiB)
-- Structured GDT337+ experiments: **228**
+- Experiments indexed: **564**
+- Experiment-associated tracked files: **8,372** (825.1 MiB)
+- Structured GDT337+ experiments: **229**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT565 | GDT565_state_microphrase_template_generator | `PASS_1655_EXACT_REPLAYS__ONE_EDITORIAL_DOUBLE_ARGUMENT_NORMALIZATION__716_CELLS__42_RENDERER_CARDS__168_STRUCTURAL_TEMPLATES` | [report](../experiments/yolo/gdt565_state_microphrase_template_generator/REPORT.md) | 19 | 1.2 MiB | 4 | STRUCTURED_YOLO |
 | GDT564 | GDT564_state_context_selector_atlas | `PASS_402_RECIPE_SELECTOR_ATLAS__101_VARIABLE_RECIPES_RESOLVED__415_CONTEXT_CELLS__ZERO_AMBIGUITY__THREE_PORTABLE_ROUTES` | [report](../experiments/yolo/gdt564_state_context_selector_atlas/REPORT.md) | 16 | 401.6 KiB | 3 | STRUCTURED_YOLO |
 | GDT563 | GDT563_complete_state_microphrase_edition | `PASS_1656_COMPLETE_STATE_MICROPHRASES__706_ACTIONLESS_PLUS_950_VISIBLE__ALL_ACTION_SLOTS_RETAINED__402_CONTEXT_PROFILES__301_STABLE_101_CONTEXT_VARIABLE_RECIPES` | [report](../experiments/yolo/gdt563_complete_state_microphrase_edition/REPORT.md) | 18 | 1.9 MiB | 4 | STRUCTURED_YOLO |
 | GDT562 | GDT562_thirty_page_actionless_state_role_reader | `PASS_687_OF_706_FULL_OPERATIONS__693_ACTION_CARRIES__692_ARGUMENTS_AVAILABLE__19_RESIDUALS_CLOSED_BY_FIVE_ROLES` | [report](../experiments/yolo/gdt562_thirty_page_actionless_state_role_reader/REPORT.md) | 17 | 790.2 KiB | 5 | STRUCTURED_YOLO |

@@ -1,0 +1,47 @@
+modifier_type_sequence	event_count	distinct_modifier_atom_sequence_count	distinct_modifier_phrase_count	example_modifier_atom_sequences	example_modifier_phrases_de
+FORMAL_CONTROL	45	2	2	IIN || O	auf der Stufe || zur Ausführung
+FORMAL_CONTROL+FORMAL_CONTROL	17	4	4	CARRIER_Q+O || DA+IIN || O+IIN || O+O	am Beginn; zur Ausführung || auf der zweiten Stufe; auf der Stufe || zur Ausführung; auf der Stufe || zur Ausführung; zur Ausführung
+FORMAL_CONTROL+FORMAL_CONTROL+GRADE	2	1	1	CARRIER_Q+O+E	am Beginn; zur Ausführung; auf Grad I
+FORMAL_CONTROL+FORMAL_CONTROL+GRADE+GRADE	2	1	1	CARRIER_Q+O+E+E	am Beginn; zur Ausführung; auf Grad I; auf Grad I
+FORMAL_CONTROL+FORMAL_CONTROL+LOCAL_OR_CLASS_SIGN	1	1	1	O+O+D_ADDR	zur Ausführung; zur Ausführung; hier
+FORMAL_CONTROL+GRADE	9	4	4	CARRIER_Q+E || O+E || O+EE || O+EEE	am Beginn; auf Grad I || zur Ausführung; auf Grad I || zur Ausführung; auf Grad II || zur Ausführung; auf Grad III
+FORMAL_CONTROL+GRADE+GRADE	1	1	1	O+E+E	zur Ausführung; auf Grad I; auf Grad I
+FORMAL_CONTROL+GRADE+RELATION+RELATION	1	1	1	O+E+AR+L	zur Ausführung; auf Grad I; vom Ausgang; über die Verbindung
+FORMAL_CONTROL+LOCAL_OR_CLASS_SIGN	8	5	1	O+AM_ADDR || O+A_ADDR || O+D_ADDR || O+LOCAL_CHAR_F || O+M_LOCAL	zur Ausführung; hier
+FORMAL_CONTROL+LOCAL_OR_CLASS_SIGN+GRADE	1	1	1	O+D_ADDR+EE	zur Ausführung; hier; auf Grad II
+FORMAL_CONTROL+LOCAL_OR_CLASS_SIGN+LOCAL_OR_CLASS_SIGN	1	1	1	O+D_ADDR+AN	zur Ausführung; hier; als Klasse
+FORMAL_CONTROL+LOCAL_OR_CLASS_SIGN+RELATION	1	1	1	O+D_ADDR+AL	zur Ausführung; hier; zum Zielort
+FORMAL_CONTROL+RELATION	3	3	3	DA+L || O+AL || O+AR	auf der zweiten Stufe; über die Verbindung || zur Ausführung; vom Ausgang || zur Ausführung; zum Zielort
+GRADE	615	3	3	E || EE || EEE	auf Grad I || auf Grad II || auf Grad III
+GRADE+FORMAL_CONTROL	27	2	2	E+O || EE+O	auf Grad I; zur Ausführung || auf Grad II; zur Ausführung
+GRADE+FORMAL_CONTROL+GRADE	3	2	2	E+O+E || E+O+EE	auf Grad I; zur Ausführung; auf Grad I || auf Grad I; zur Ausführung; auf Grad II
+GRADE+FORMAL_CONTROL+LOCAL_OR_CLASS_SIGN	10	3	2	E+O+S_ADDR || EE+O+D_ADDR || EE+O+S_ADDR	auf Grad I; zur Ausführung; hier || auf Grad II; zur Ausführung; hier
+GRADE+FORMAL_CONTROL+LOCAL_OR_CLASS_SIGN+RELATION	4	2	2	E+O+D_ADDR+AL || E+O+D_ADDR+AR	auf Grad I; zur Ausführung; hier; vom Ausgang || auf Grad I; zur Ausführung; hier; zum Zielort
+GRADE+FORMAL_CONTROL+RELATION	1	1	1	E+O+AR	auf Grad I; zur Ausführung; vom Ausgang
+GRADE+GRADE	6	1	1	E+E	auf Grad I; auf Grad I
+GRADE+LOCAL_OR_CLASS_SIGN	9	4	3	E+D_ADDR || EE+D_ADDR || EEE+D_ADDR || EEE+S_ADDR	auf Grad I; hier || auf Grad II; hier || auf Grad III; hier
+GRADE+LOCAL_OR_CLASS_SIGN+GRADE	1	1	1	E+D_ADDR+E	auf Grad I; hier; auf Grad I
+GRADE+LOCAL_OR_CLASS_SIGN+LOCAL_OR_CLASS_SIGN	1	1	1	E+D_ADDR+LOCAL_CHAR_G	auf Grad I; hier; als Variante
+GRADE+LOCAL_OR_CLASS_SIGN+RELATION	1	1	1	E+D_ADDR+AR	auf Grad I; hier; vom Ausgang
+GRADE+LOCAL_OR_CLASS_SIGN+RELATION+LOCAL_OR_CLASS_SIGN	1	1	1	EE+D_ADDR+AR+AN	auf Grad II; hier; vom Ausgang; als Klasse
+GRADE+RELATION	5	3	3	E+AL || E+AR || E+L	auf Grad I; vom Ausgang || auf Grad I; zum Zielort || auf Grad I; über die Verbindung
+GRADE+RELATION+FORMAL_CONTROL	1	1	1	EE+AL+O	auf Grad II; zum Zielort; zur Ausführung
+LOCAL_OR_CLASS_SIGN	57	7	2	AM_ADDR || AN || A_ADDR || D_ADDR || D_LABEL || LOCAL_CHAR_F || M_LOCAL	als Klasse || hier
+LOCAL_OR_CLASS_SIGN+FORMAL_CONTROL	5	3	2	A_ADDR+IIN || D_ADDR+O || LOCAL_CHAR_F+O	hier; auf der Stufe || hier; zur Ausführung
+LOCAL_OR_CLASS_SIGN+FORMAL_CONTROL+FORMAL_CONTROL	1	1	1	D_ADDR+DA+IIN	hier; auf der zweiten Stufe; auf der Stufe
+LOCAL_OR_CLASS_SIGN+FORMAL_CONTROL+LOCAL_OR_CLASS_SIGN	1	1	1	D_ADDR+O+D_LABEL	hier; zur Ausführung; hier
+LOCAL_OR_CLASS_SIGN+GRADE	5	3	3	D_ADDR+E || D_ADDR+EE || D_ADDR+EEE	hier; auf Grad I || hier; auf Grad II || hier; auf Grad III
+LOCAL_OR_CLASS_SIGN+LOCAL_OR_CLASS_SIGN	2	2	1	D_ADDR+D_ADDR || LOCAL_CHAR_F+D_ADDR	hier; hier
+LOCAL_OR_CLASS_SIGN+LOCAL_OR_CLASS_SIGN+RELATION	1	1	1	D_ADDR+D_ADDR+AR	hier; hier; vom Ausgang
+LOCAL_OR_CLASS_SIGN+RELATION	7	4	4	D_ADDR+AIR || D_ADDR+AL || D_ADDR+AR || D_ADDR+L	hier; entlang der Bahn || hier; vom Ausgang || hier; zum Zielort || hier; über die Verbindung
+LOCAL_OR_CLASS_SIGN+RELATION+FORMAL_CONTROL	1	1	1	D_ADDR+AIR+O	hier; entlang der Bahn; zur Ausführung
+LOCAL_OR_CLASS_SIGN+RELATION+LOCAL_OR_CLASS_SIGN+FORMAL_CONTROL	1	1	1	D_ADDR+AR+A_ADDR+IIN	hier; vom Ausgang; hier; auf der Stufe
+LOCAL_OR_CLASS_SIGN+RELATION+LOCAL_OR_CLASS_SIGN+RELATION	1	1	1	D_ADDR+AR+D_ADDR+AR	hier; vom Ausgang; hier; vom Ausgang
+NONE	614	1	1	NONE	NONE
+RELATION	153	4	4	AIR || AL || AR || L	entlang der Bahn || vom Ausgang || zum Zielort || über die Verbindung
+RELATION+FORMAL_CONTROL	4	4	4	AIR+IIN || AL+O || AR+O || L+O	entlang der Bahn; auf der Stufe || vom Ausgang; zur Ausführung || zum Zielort; zur Ausführung || über die Verbindung; zur Ausführung
+RELATION+GRADE	21	2	2	AL+E || L+E	zum Zielort; auf Grad I || über die Verbindung; auf Grad I
+RELATION+GRADE+FORMAL_CONTROL	1	1	1	L+E+O	über die Verbindung; auf Grad I; zur Ausführung
+RELATION+LOCAL_OR_CLASS_SIGN	2	2	2	AL+AM_ADDR || L+D_ADDR	zum Zielort; hier || über die Verbindung; hier
+RELATION+LOCAL_OR_CLASS_SIGN+RELATION	1	1	1	AL+D_ADDR+AR	zum Zielort; hier; vom Ausgang
+RELATION+RELATION+GRADE	1	1	1	AL+AL+E	zum Zielort; zum Zielort; auf Grad I
