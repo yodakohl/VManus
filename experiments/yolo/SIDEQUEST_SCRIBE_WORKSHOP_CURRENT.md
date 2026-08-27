@@ -1,6 +1,6 @@
 # Current thirty-page scribe-workshop theory
 
-Updated: 2026-08-27, after GDT527.
+Updated: 2026-08-27, after GDT528.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -1595,7 +1595,7 @@ typed f89r carrier. `SH→S` is newly direct in `shso`, but its ordered relation
 was already old. No twentieth portable value is needed. The complete 597-event
 and 5,866-group contextual overlays are in GDT516; validation passes 36/36.
 
-## GDT517–GDT527 executable intake update
+## GDT517–GDT528 executable intake update
 
 The finite reader now reaches family-revised rank one148/159 with rank sum180.
 The important change is architectural, not merely numerical. GDT525 closes the
@@ -1624,10 +1624,26 @@ and only six carry `O+L`. The current default is therefore
 This is the most concrete version yet of the mixed codebook/composition idea.
 It still supplies working structural recipes, not proven word meanings.
 
+GDT528 adds a fourth layer: a bounded visible variant may inherit a whole
+recipe only when both its spelling family and its recipe family agree.
+`qocthey` and `qockhey` differ visibly by `t/k` and, after removing the
+structural q carrier, compositionally by the corresponding action root `T/K`.
+Because old `qockhey/qockhedy` have one exact recipe, the current default is:
+
+```text
+qocthedy = CARRIER_Q+O+CH+T+E+Y
+```
+
+Its workshop phrase is „unter q-Träger/Ausführung: nehmen, auf Grad I
+einstellen und posten“. The visible `d` adds no component only in this narrow
+construction. A visually similar neighbour without the action-root match was
+tried and rejected because it cost one old top-two slot. The old scorecard is
+unchanged; inherited current reaches149/rank sum177 and the working-revised
+edition151/rank sum175, with no loss.
+
 ## Next work
 
 Keep every further page closed. The remaining queue is `aiicthy`, `chekchy`,
-`cthom`, `dairykodas`, `dalcheeeky`, `dsholdaiir`, `qef`,
-`qocthedy`, and `saiis`. Test `qocthey→qocthedy` first because the old and
-new forms carry the same complete working recipe. Seek a bounded certified
-inner-`d` null channel; do not turn all `d` or `q` into null renderers.
+`cthom`, `dairykodas`, `dalcheeeky`, `dsholdaiir`, `qef`, and `saiis`.
+Inspect `cthom` first: compare its page-local `M_LOCAL` ending with the globally
+favoured `AM_ADDR` parse across old `...om/...am` surface and recipe families.

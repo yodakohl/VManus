@@ -12782,3 +12782,25 @@ current reaches148/rank sum179; the K- and `keeol`-revised edition reaches
 150/rank sum177, with zero losses and nine errors. Next test the exact-recipe
 `qocthey→qocthedy` relation as a bounded inner-`d` null insertion without
 reviving general `d→NULL` or opening a page.
+
+## GDT528 action-neighbour-certified terminal-`d` null variant
+
+GDT528 finds sixteen old exact equal-recipe inner-`d` pairs, nine in the narrow
+terminal frame `...y/...dy`. A merely visible one-substitution neighbour at
+weight1.15 repairs the current target but costs one old top-two slot and one
+rank-sum point. The live rule therefore also requires that, after removing
+only `CARRIER_Q`, target-base and certificate-base recipes differ in exactly
+one established action root.
+
+This admits one current route. `qocthey=CARRIER_Q+O+CH+T+E+Y` is one visible
+substitution from old `qockhey=O+CH+K+E+Y`; the normalized recipe change is
+the matching `T↔K`, and old `qockhey/qockhedy` carry the same recipe. Hence
+`qocthedy=CARRIER_Q+O+CH+T+E+Y`. The extra visible `d` contributes no atom in
+this bounded variant only; `chckhedy`, `cthdy` and `shddy` retain meaningful
+`d/DY` structure, and no general `d→NULL` or `q→NULL` follows.
+
+All old metrics remain1,098/1,328/1,386/1,418 with rank sum2,109; every one of
+the1,441 generated old individual ranks is unchanged. Inherited current rises
+148→149/rank sum179→177; the working-revised edition rises150→151/rank
+sum177→175, with zero losses and eight errors. Next inspect `cthom` through
+old visible `...om/...am` and `M_LOCAL/AM_ADDR` families without opening a page.
