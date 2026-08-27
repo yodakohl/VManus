@@ -1,6 +1,6 @@
 # Current thirty-page scribe-workshop theory
 
-Updated: 2026-08-27, after GDT522.
+Updated: 2026-08-27, after GDT523.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -181,6 +181,16 @@ with rank sum187; old four-fold rank one reaches1,096 and rank sum2,113.
 The next closed-page move is to apply the null/edit inventory inside renderer
 alignment when the residual surface is unknown (`qef`), then compose two
 compatible edits without adding target whole-form cards.
+
+GDT523 moves the null inventory into the renderer path, so `qe=>e~E` can
+explicitly expose the extra left `q` in `qef` even though `ef` is no known old
+whole form. Null activation is conditioned on the base first atom: old pair
+relations give q-before-OK33/1 and q-before-O4/7. The selected light
+edit-recovery feature changes no current decision, keeps rank one142 and rank
+sum187, and improves the old four-fold top-three by one/rank sum by two. A
+stronger setting would select `qef=E+LOCAL_CHAR_F` and current143, but costs
+seven old rank-one hits; it is recorded but not adopted. The next route is
+two compatible local edits, not a stronger universal q-null claim.
 
 GDT459–GDT484 now resolve the formerly opaque local-address tail as the mixed
 codebook architecture anticipated by the sidequest: portable function cards

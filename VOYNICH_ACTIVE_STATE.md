@@ -12667,3 +12667,24 @@ renderer/composition licenses, not meanings. Seventeen current top-one errors
 remain. Next apply these edits inside renderer alignment even when the visible
 residual is not itself an old known surface (`qef`), then test compositions of
 two compatible edits; add no target full-form exceptions and open no page.
+
+## GDT523 path-local null renderer license
+
+GDT523 applies GDT522's null signatures directly to the GDT520 renderer path,
+so a visible insertion no longer needs to leave a known old residual surface.
+It accepts only a pure one-to-three-character left insertion relative to the
+selected alias, with positive null odds both globally and under the first base
+recipe atom. The selected feature discounts `0.25*n/(n+2)*visible_width` after
+GDT522; log odds remain a diagnostic ladder option.
+
+The old four-fold deck keeps rank one1,096, top two1,327 and top five1,418,
+raises top three1,386→1,387 and lowers rank sum2,113→2,111. `qopchy` moves
+rank4→3 and `qopchey`9→8. Current159 decisions and metrics remain exactly
+142/154/158/158 with rank sum187 and17 errors. `qef` now has an explicit
+`qe=>e~E` path-null route using global left `q→NULL`75/84 and E-context1/1,
+but the selected light feature leaves it rank2. Combined weight0.85 makes it
+rank1/current143, while old rank one falls1,096→1,089 and rank sum worsens
+2,113→2,123; that setting is retained only in the trade-off atlas. `q` is
+therefore renderer- and atom-conditioned, not universally null. Next compose
+two compatible GDT522 edits for the17 residuals; no target whole-form card or
+new page.
