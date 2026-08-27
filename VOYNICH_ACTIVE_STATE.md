@@ -12884,3 +12884,34 @@ one rises153→154, top two157→158, and rank sum falls173→171 with zero loss
 Five discrepancies remain: `aiicthy`, `dairykodas`, `dalcheeeky`,
 `dsholdaiir`, and `qef`. Next test `dsholdaiir` as `d|shol|daiir`, with the
 same-owner f66r `daiir=DA+IIN+R` carrier, without opening a page.
+
+## GDT532 same-owner exact-card tiling revision
+
+GDT532 builds a 1,885-surface card inventory from invariant old running cards
+plus invariant local cards absent from old prose, then tiles each of GDT531's
+five residual forms. A route counts only when its concatenated recipe is
+already one of that surface's finite GDT529 candidates. Sixteen routes survive:
+twelve for `dairykodas`, supporting both ranks one and two, and four for
+`dsholdaiir`, all supporting the same rank-six recipe. `aiicthy`,
+`dalcheeeky`, and `qef` have none.
+
+The shortest `dsholdaiir` route is exact:
+
+```text
+d | shol | daiir = D_ADDR | SH+OL | DA+IIN+R
+```
+
+Old `d=D_ADDR` has eleven running events, `shol=SH+OL` eighteen, and
+`daiir=DA+IIN+R` two local f70v events. The tail crosses into current prose
+unchanged on f31r and f66r; the f66r carrier `G515-E0408` at f66r.62 lies four
+lines after target `G515-E0366` in the same `F66R_PROSE_02` owner block. That
+block also contains `sholdy=SH+OL+D_ADDR+Y`. Revise the semantic working
+recipe to `D_ADDR+SH+OL+DA+IIN+R`, approximately **“Hier halten und
+fortsetzen; Stufe II markieren.”**
+
+This is a deliberate exact-composition override of heuristic candidate rank
+two by rank six. Rank one stays154, top two falls158→157, and rank sum rises
+171→175; the cost remains explicit because the inherited recipe being scored
+is itself provisional. Four forms remain unresolved: `aiicthy`, `dairykodas`,
+`dalcheeeky`, and `qef`. Next compare `dairykodas`' two complete tilings through
+the old `odas` versus `kod|as` families and its f66r.57 block, with no new page.

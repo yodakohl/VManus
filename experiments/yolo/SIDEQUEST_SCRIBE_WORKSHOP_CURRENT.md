@@ -1,6 +1,6 @@
 # Current thirty-page scribe-workshop theory
 
-Updated: 2026-08-27, after GDT531.
+Updated: 2026-08-27, after GDT532.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -1595,7 +1595,7 @@ typed f89r carrier. `SH→S` is newly direct in `shso`, but its ordered relation
 was already old. No twentieth portable value is needed. The complete 597-event
 and 5,866-group contextual overlays are in GDT516; validation passes 36/36.
 
-## GDT517–GDT531 executable intake update
+## GDT517–GDT532 executable intake update
 
 The finite reader now reaches family-revised rank one148/159 with rank sum180.
 The important change is architectural, not merely numerical. GDT525 closes the
@@ -1696,11 +1696,32 @@ but it is less specific than the whole `saiisol` carrier. No global `ol`
 suffix follows. The accumulated working score is now154 rank-one,158 top-two,
 with rank sum171.
 
+GDT532 takes the next step from atoms and larger carriers to a complete string
+of learned cards:
+
+```text
+dsholdaiir = d | shol | daiir
+            D_ADDR | SH+OL | DA+IIN+R
+```
+
+Each card is old and exact. `d` occurs eleven times in running text, `shol`
+eighteen times, and `daiir` twice as a local f70v card. The whole tail then
+appears unchanged in current prose on f31r and f66r. On f66r it recurs at
+line62, in the same prose block as the target at line58; `sholdy` independently
+keeps `SH+OL` together at line60. The current workshop reading is therefore
+**“Hier halten und fortsetzen; Stufe II markieren.”**
+
+This choice is candidate rank six, not rank two. It is adopted because rank six
+is the only one of all twelve finite candidates that the exact old cards cover
+completely; the rank cost is kept visible. Across the other residuals,
+`dairykodas` has two competing fully tiled recipes and the other three have
+none, so no further form changes in this pass.
+
 ## Next work
 
-Keep every further page closed. The remaining queue is `aiicthy`,
-`dairykodas`, `dalcheeeky`, `dsholdaiir`, and `qef`. Inspect `dsholdaiir`
-next as the exact-card sequence `d|shol|daiir`; its right card
-`daiir=DA+IIN+R` occurs later in the same f66r prose block as well as in other
-old contexts. Compare that route against all five residuals so it stays a
-bounded composition rather than a license for arbitrary tiling.
+Keep every further page closed. The unresolved queue is `aiicthy`,
+`dairykodas`, `dalcheeeky`, and `qef`. Compare `dairykodas`' two complete
+recipes next. The useful contrast is terminal `odas=O+DA+S` versus the
+alternative `kod|as=K+O+D_ADDR | A_ADDR+S`, using old family carriers and the
+surrounding f66r.57/f66r.62 instruction block rather than another global
+reranker.
