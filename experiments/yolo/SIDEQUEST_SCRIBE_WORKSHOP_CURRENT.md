@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-27, after GDT513.
+Updated: 2026-08-27, after GDT514.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -74,6 +74,13 @@ all eighteen same-surface parse conflicts retain an explicit local structural
 cause. The best intake architecture is therefore a mixed formula/record/
 nomenclator, while GDT405 remains authoritative for exact surfaces on the next
 four pages.
+
+GDT514 has now selected those pages once from the 174 unused candidates:
+`f31r | f66r | f20v | f4r`. Image inspection precedes text intake. f31r,
+f20v and f4r each keep a single whole-plant owner; f66r keeps separate visible
+main-text blocks and excludes its margin material and late bottom addition from
+running statements. No selected-page text, recipe or meaning has yet entered
+the edition.
 
 GDT459–GDT484 now resolve the formerly opaque local-address tail as the mixed
 codebook architecture anticipated by the sidequest: portable function cards

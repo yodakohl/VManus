@@ -12392,3 +12392,29 @@ GDT405, 157 recipes agree, eight are role-bound section markers and two old
 local parses (`chcthy`, `cthey`) differ. GDT405 remains authoritative on any
 future occurrence. Validation passes 5,997/5,997. Next consume the authorized
 second random four-page batch against GDT405 and the five GDT513 expectations.
+
+## GDT514 second random four-page selection and owner map
+
+GDT514 reconstructs the page universe without opening a selected-page text
+field. An explicit non-f84 allow-list passed through `query-tsv` materializes
+only the source `page` column: 224 source selectors collapse to exactly 200
+physical pages. Normalizing and subtracting GDT407's 26 admitted pages leaves
+174 candidates.
+
+The seed derived from the prior GDT513 publication draws exactly once, without
+replacement or resampling:
+
+`f31r | f66r | f20v | f4r`
+
+Each selected page has one source selector. Original-resolution Yale images
+were then inspected before any text intake. f31r, f20v and f4r each have one
+visible whole-plant owner. f66r is text-dominant: its spatially separated main
+prose blocks remain separate text owners, and its marginal signs plus late
+bottom addition and animal drawing cannot extend a running main-text
+statement. Validation passes 28/28.
+
+Next load only those four exact selectors through the guarded query. Replay
+GDT405 exact surfaces first, compose genuinely new surfaces only from visible
+existing atoms, retain the GDT514 owner map, and evaluate all five GDT513
+new-page expectations. GDT514 itself admits no new text, recipe, root or
+meaning.

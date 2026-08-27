@@ -1,0 +1,111 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Selection and image-first owner constraints for four pages only. No selected-page text, plant identity, word, morpheme, plaintext, language, recipe change, root change, or semantic admission follows.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt514_second_random_four_page_selection_owner_map/src/run.py",
+    "validate": "python3 experiments/yolo/gdt514_second_random_four_page_selection_owner_map/src/validate.py"
+  },
+  "created": "2026-08-27",
+  "dependencies": [
+    "GDT405",
+    "GDT407",
+    "GDT513"
+  ],
+  "experiment_id": "GDT514",
+  "inputs": [
+    {
+      "path": "transcription/voynich_zl3b_lines.tsv",
+      "role": "guarded page-selector inventory; only the page column is materialized",
+      "sha256": "7520dd4c11f4d23c8492e4b2a52cc0fcbda6d9fc88a96ead8f1c31081a4d7ed2"
+    },
+    {
+      "path": "experiments/yolo/gdt407_unified_twenty_six_page_workshop_edition/artifacts/gdt407_26_page_summary.tsv",
+      "role": "previously admitted page list",
+      "sha256": "c8257651a9fa173f454ead90cc5aa02df085ba1a657e1a1885448b63c69ea565"
+    },
+    {
+      "path": "experiments/yolo/gdt405_second_random_batch_recipe_lock/artifacts/gdt405_second_batch_protocol.tsv",
+      "role": "second-batch selection and image-first protocol",
+      "sha256": "f7df217c90e87a9f19ebef46b865d548c4f069c6c46efa8ff813032da4148023"
+    },
+    {
+      "path": "experiments/yolo/gdt513_remaining_local_group_semantic_census/artifacts/gdt513_5_new_page_expectations.tsv",
+      "role": "working expectations reserved for the subsequent text intake",
+      "sha256": "98f8c0a9477bf41ab3397b2b618ce262d16b9610c5a271c8ffa605397d0cce1c"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt514_second_random_four_page_selection_owner_map/README.md",
+      "role": "entry point",
+      "sha256": "43a9d97eda8963f64f1965baa9cc1f5c8504a4b21f7f87d3c1e9e17fc45e4127"
+    },
+    {
+      "path": "experiments/yolo/gdt514_second_random_four_page_selection_owner_map/METHOD.md",
+      "role": "guarded universe, draw and image-first method",
+      "sha256": "e6541aeeee2d50f9ff5f1c6d8080fb4a91a8fb90d5da247065b72a7a51f9a0d0"
+    },
+    {
+      "path": "experiments/yolo/gdt514_second_random_four_page_selection_owner_map/REPORT.md",
+      "role": "primary report",
+      "sha256": "4eed75020ea5b0ed53116c53f6217b2c8773d7efbbce246205628ecee1851017"
+    },
+    {
+      "path": "experiments/yolo/gdt514_second_random_four_page_selection_owner_map/src/run.py",
+      "role": "guarded universe and selection builder",
+      "sha256": "91611bbc22d50f1fcb3cc097819100781a6d1a439725cde188148a1659779b50"
+    },
+    {
+      "path": "experiments/yolo/gdt514_second_random_four_page_selection_owner_map/src/validate.py",
+      "role": "byte-exact guarded-selection validator",
+      "sha256": "156db17de14792f0a548db72d2c61855ca9bed3b1484a285f8b7a97fdd907ac9"
+    },
+    {
+      "path": "experiments/yolo/gdt514_second_random_four_page_selection_owner_map/artifacts/README.md",
+      "role": "artifact guide",
+      "sha256": "b17ea7f8957cb4a8b8e7567c56d3eee76da578c99859c5764cf457b54d2d9fa8"
+    },
+    {
+      "path": "experiments/yolo/gdt514_second_random_four_page_selection_owner_map/artifacts/gdt514_174_candidate_universe.tsv",
+      "role": "complete safe candidate universe and draw flags",
+      "sha256": "34314cfd8faf3ce11b3f89fa197b50377b4867b680128dbac2bd2be1881e22b8"
+    },
+    {
+      "path": "experiments/yolo/gdt514_second_random_four_page_selection_owner_map/artifacts/gdt514_4_page_selection.tsv",
+      "role": "seed and one-time four-page selection",
+      "sha256": "03707c543db89a7d4674ad8f82ff7c6fee6d9c49887c0a00de1c7aa1b6192423"
+    },
+    {
+      "path": "experiments/yolo/gdt514_second_random_four_page_selection_owner_map/artifacts/gdt514_4_image_owner_map.tsv",
+      "role": "official-image provenance and visible owner constraints",
+      "sha256": "54bf92fe548617a7bce8463bbcf3315f608edf919d4ef2d3064ed82500459a77"
+    },
+    {
+      "path": "experiments/yolo/gdt514_second_random_four_page_selection_owner_map/artifacts/gdt514_result.json",
+      "role": "compact result",
+      "sha256": "5c5aa2052b3c21e98f0da0c2a8d8336ed60c7a13485200272191aefa40146a00"
+    },
+    {
+      "path": "experiments/yolo/gdt514_second_random_four_page_selection_owner_map/artifacts/gdt514_validation.json",
+      "role": "28-check validation record",
+      "sha256": "4e09e1b19eaef74b59ce44365e7063d09ec760545983e1a741b0d056824e561d"
+    }
+  ],
+  "question": "Which four previously unused pages form the second random batch, and what visible owner boundaries must be fixed before any selected-page text is read?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "second_random_four_page_selection_owner_map",
+  "status": "PASS_SELECTION_AND_OWNER_MAP_READY",
+  "title": "Second random four-page selection and owner map",
+  "updated": "2026-08-27",
+  "validation": {
+    "artifact": "experiments/yolo/gdt514_second_random_four_page_selection_owner_map/artifacts/gdt514_validation.json",
+    "status": "PASS"
+  }
+}
