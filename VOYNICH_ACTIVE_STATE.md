@@ -13898,3 +13898,33 @@ Keep the whole event unchanged rather than choosing either history silently.
 The other60 groups in58 events are renderer-ready,and all49 checks pass. GDT576
 remains the readable edition. Next render those58 events once at event level,
 then coordinate the17 disjoint outer/inner pairs. Open no page and add no root.
+
+## GDT578 voices interrupted modifiers without inventing chronology
+
+The60 conflict-free GDT577 groups now render once inside58 complete events,
+including the two overlapping-group events G407-E0966 and G407-E3605. All121
+written repeat slots survive. Five attachment classes reduce to three neutral
+German prose frames—`beim {Handlungskopf}:`, `beim fortgeführten
+{Handlungskopf}:` and `bei der Fortsetzung:`—plus twenty inherited GDT568
+action-head nominals. Repeated instances of one action root are named first,
+second,third or fourth occurrences where needed.
+
+The first manual half-audit caught an important overstatement: PRE_HEAD and
+POST_HEAD had initially been spoken as temporal `vor/nach der Handlung`.
+That wording was removed. Placement remains explicit in the structural slot
+table,while the prose states only the selected head and preserves modifier
+order. The final61 particles are32 `ebenfalls`,20 `erneut`,eight `wieder` and
+one `nochmals`;each particle span stays outside the root-expression span.
+
+The58 changes comprise44 nonstate and14 state events,48 statements and24
+pages. Their173 ordered modifier fragments split121 bound+52 unbound;35
+learned-sigla spans are recomputed and738 remain untouched. Event-ID cards
+roundtrip all5,122 GDT576 clauses and all793 statements exactly,including the
+two byte-identical source clauses at G407-E1955/E2638. G407-E1755,G407-S149
+and f75r remain byte-fixed;the17 outer/inner pairs and three raw-adjacent
+relation repeats remain outside the pass. All63 independent checks pass.
+
+Use GDT578 as the current readable edition. Next factor only the seven
+raw-adjacent outer/inner pairs. Keep the ten interrupted pairs as two explicit
+scope slots in raw modifier order because fifteen written intervening atoms
+would otherwise disappear from the prose trace. Open no page and add no root.
