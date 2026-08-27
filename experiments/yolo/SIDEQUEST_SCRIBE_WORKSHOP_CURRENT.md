@@ -1913,11 +1913,40 @@ tiled, `saiis` fragment-supported and revised `keeol` atom/factor-only. The ten
 weakest full-tile cards remain useful defaults: their whole tiles and every
 seam are old even though their entire skeleton/path is not.
 
+## GDT543 learned fragment stems and directional extensions
+
+The81 fragment-plus-atom recipes now read explicitly as:
+
+```text
+left technical extension + [old complete-recipe stem] + right extension
+```
+
+There are104 equal-length old-anchor choices. The selected81 cards use63
+different anchors;16 recur over34 targets. Most importantly,72 targets retain
+an exact old visible spelling of their selected recipe stem in the correct
+left/right position. Thus this layer is visibly a mixture of learned whole
+stems and short extensions, not only a semantic factorization.
+
+The visible residues produce53 channels from83 observations. Thirteen repeat
+with one recipe value:
+
+```text
+LEFT   ch→CH  d→D_ADDR  f→LOCAL_CHAR_F  k→K  l→L  p→P
+       sh→SH t→T       y→Y
+RIGHT  aiin→AIIN  chy→CH+Y  d→D_ADDR  y→Y
+```
+
+Right `dy` is the useful exception: five `DY` versus one `D_ADDR+Y`. It remains
+family-conditioned. Across93 atom arms,87 direct interfaces are already old.
+Eight complete target sequences occur inside19 longer old cards. The selected
+old-anchor environments contain the target context mode for69/81 targets; the
+other12 remain readable GDT540 defaults, not rejected forms.
+
 ## Next work
 
-Turn the81 fragment-plus-atom targets into directional extension cards. For
-each, keep the longest old whole fragment visible, say whether new atoms attach
-left, right or on both sides, count those exact boundaries in old complete
-cards, and carry the GDT540 context mode beside the frame. Repeated extension
-shapes should become reusable learned-stem templates; isolated shapes stay
-explicit one-card defaults. No new page or fuzzy spelling match.
+Use the23 unselected equal-length anchors only on the12 context differences
+and six new interfaces. An alternative may replace the current stem only if it
+keeps an exact direction-aligned visible carrier and concretely improves the
+context or interface; otherwise preserve the current card. Then consolidate
+the repaired 81-card reader before moving to the24 atom/factor-only forms. No
+new page or fuzzy spelling match.

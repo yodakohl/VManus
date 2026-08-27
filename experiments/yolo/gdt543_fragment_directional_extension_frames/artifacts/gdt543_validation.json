@@ -1,0 +1,437 @@
+{
+  "status": "PASS",
+  "check_count": 44,
+  "passed_count": 44,
+  "failed_count": 0,
+  "checks": [
+    {
+      "check": "old_event_count",
+      "passed": true,
+      "detail": 4576
+    },
+    {
+      "check": "old_statement_count",
+      "passed": true,
+      "detail": 715
+    },
+    {
+      "check": "contract_count",
+      "passed": true,
+      "detail": 145
+    },
+    {
+      "check": "tier_count",
+      "passed": true,
+      "detail": 145
+    },
+    {
+      "check": "fragment_target_count",
+      "passed": true,
+      "detail": 81
+    },
+    {
+      "check": "card_count",
+      "passed": true,
+      "detail": 81
+    },
+    {
+      "check": "candidate_count",
+      "passed": true,
+      "detail": 104
+    },
+    {
+      "check": "arm_count",
+      "passed": true,
+      "detail": 93
+    },
+    {
+      "check": "channel_count",
+      "passed": true,
+      "detail": 53
+    },
+    {
+      "check": "supercard_row_count",
+      "passed": true,
+      "detail": 19
+    },
+    {
+      "check": "family_count",
+      "passed": true,
+      "detail": 16
+    },
+    {
+      "check": "card_surface_set",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "candidate_inventory_exact",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "candidate_metric_replay",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "one_selected_candidate_per_target",
+      "passed": true,
+      "detail": 81
+    },
+    {
+      "check": "canonical_selection_replay",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "card_selected_anchor_replay",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "visible_stem_replay",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "visible_stem_distribution",
+      "passed": true,
+      "detail": {
+        "ALIGNED_EXACT_OLD_SURFACE_STEM": 72,
+        "NO_EXACT_OLD_SURFACE_STEM": 8,
+        "DIRECTION_MISMATCH_EXACT_OLD_SURFACE_STEM": 1
+      }
+    },
+    {
+      "check": "arm_and_interface_replay",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "card_arm_reconstruction",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "interface_support_count",
+      "passed": true,
+      "detail": 87
+    },
+    {
+      "check": "joint_extension_counts",
+      "passed": true,
+      "detail": [
+        28,
+        15
+      ]
+    },
+    {
+      "check": "channel_replay",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "channel_class_counts",
+      "passed": true,
+      "detail": {
+        "SINGLETON_VISIBLE_CHANNEL": 39,
+        "REPEATED_INVARIANT_VISIBLE_CHANNEL": 13,
+        "REPEATED_AMBIGUOUS_VISIBLE_CHANNEL": 1
+      }
+    },
+    {
+      "check": "right_dy_ambiguity",
+      "passed": true,
+      "detail": {
+        "channel_ordinal": "40",
+        "side": "RIGHT",
+        "visible_affix": "dy",
+        "observation_count": "6",
+        "target_count": "6",
+        "recipe_extension_variant_count": "2",
+        "recipe_extension_variants": "DY|D_ADDR+Y",
+        "recipe_extension_counts": "DY:5|D_ADDR+Y:1",
+        "dominant_recipe_extension": "DY",
+        "dominant_recipe_count": "5",
+        "channel_class": "REPEATED_AMBIGUOUS_VISIBLE_CHANNEL",
+        "target_surfaces": "chady|chekeody|cpholdy|kardy|kcheody|shckheody",
+        "anchor_recipes": "CH+A_ADDR|CH+E+O|CH+P+OL|E+O|K+AR",
+        "guard": "EXACT_VISIBLE_RESIDUE_AROUND_DIRECTION_ALIGNED_OLD_SURFACE_STEM"
+      }
+    },
+    {
+      "check": "repeated_channel_target_count",
+      "passed": true,
+      "detail": 34
+    },
+    {
+      "check": "anchor_context_replay",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "anchor_context_distribution",
+      "passed": true,
+      "detail": {
+        "TARGET_MODE_SET_EQUAL": 53,
+        "TARGET_MODE_SET_DISJOINT": 12,
+        "TARGET_MODE_SET_INCLUDED": 16
+      }
+    },
+    {
+      "check": "supercard_inventory_replay",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "supercard_target_and_context_counts",
+      "passed": true,
+      "detail": [
+        8,
+        4,
+        {
+          "TARGET_MODE_SET_DISJOINT": 4,
+          "TARGET_MODE_SET_INCLUDED": 3,
+          "TARGET_MODE_SET_EQUAL": 1
+        }
+      ]
+    },
+    {
+      "check": "recurrent_anchor_family_replay",
+      "passed": true,
+      "detail": 16
+    },
+    {
+      "check": "recurrent_anchor_target_count",
+      "passed": true,
+      "detail": 34
+    },
+    {
+      "check": "structural_support_distribution",
+      "passed": true,
+      "detail": {
+        "ALIGNED_VISIBLE_STEM_WITH_NEW_INTERFACE": 6,
+        "ALIGNED_VISIBLE_STEM_ALL_INTERFACES_OLD": 31,
+        "RECIPE_ANCHOR_ALL_INTERFACES_OLD": 7,
+        "REPEATED_INVARIANT_VISIBLE_EXTENSION_CHANNEL": 29,
+        "EXACT_TARGET_SEQUENCE_INSIDE_OLD_SUPERCARD": 8
+      }
+    },
+    {
+      "check": "summary_required_metrics",
+      "passed": true,
+      "detail": {
+        "target_count": "81",
+        "longest_anchor_candidate_count": "104",
+        "selected_anchor_count": "81",
+        "directional_arm_count": "93",
+        "visible_stem_status_counts": "{\"ALIGNED_EXACT_OLD_SURFACE_STEM\": 72, \"DIRECTION_MISMATCH_EXACT_OLD_SURFACE_STEM\": 1, \"NO_EXACT_OLD_SURFACE_STEM\": 8}",
+        "aligned_visible_stem_target_count": "72",
+        "old_supported_interface_count": "87",
+        "interface_count": "93",
+        "full_arm_joint_count": "15",
+        "arm_with_any_joint_extension_count": "28",
+        "anchor_context_relation_counts": "{\"TARGET_MODE_SET_DISJOINT\": 12, \"TARGET_MODE_SET_EQUAL\": 53, \"TARGET_MODE_SET_INCLUDED\": 16}",
+        "anchor_context_compatible_target_count": "69",
+        "visible_affix_observation_count": "83",
+        "visible_affix_channel_count": "53",
+        "repeated_invariant_visible_channel_count": "13",
+        "repeated_ambiguous_visible_channel_count": "1",
+        "targets_with_repeated_invariant_channel_count": "34",
+        "recurrent_anchor_family_count": "16",
+        "targets_in_recurrent_anchor_families": "34",
+        "old_supercard_target_count": "8",
+        "old_supercard_event_count": "19",
+        "old_supercard_context_compatible_target_count": "4",
+        "old_supercard_context_relation_counts": "{\"TARGET_MODE_SET_DISJOINT\": 4, \"TARGET_MODE_SET_EQUAL\": 1, \"TARGET_MODE_SET_INCLUDED\": 3}",
+        "structural_support_class_counts": "{\"ALIGNED_VISIBLE_STEM_ALL_INTERFACES_OLD\": 31, \"ALIGNED_VISIBLE_STEM_WITH_NEW_INTERFACE\": 6, \"EXACT_TARGET_SEQUENCE_INSIDE_OLD_SUPERCARD\": 8, \"RECIPE_ANCHOR_ALL_INTERFACES_OLD\": 7, \"REPEATED_INVARIANT_VISIBLE_EXTENSION_CHANNEL\": 29}",
+        "new_pages": "0",
+        "recipe_changes": "0",
+        "root_meaning_changes": "0"
+      }
+    },
+    {
+      "check": "book_status",
+      "passed": true,
+      "detail": "PASS_81_FRAGMENT_TARGETS_MAPPED__72_ALIGNED_STEMS__13_RECURRENT_CHANNELS"
+    },
+    {
+      "check": "book_complete_card_inventory",
+      "passed": true,
+      "detail": 81
+    },
+    {
+      "check": "book_dy_exception",
+      "passed": true,
+      "detail": "dy"
+    },
+    {
+      "check": "reader_chady",
+      "passed": true,
+      "detail": {
+        "status": "GDT543_FRAGMENT_EXTENSION_CARD",
+        "surface": "chady",
+        "recipe": "CH+A_ADDR+DY",
+        "observed_context_modes": "SELF_CONTAINED",
+        "anchor": {
+          "recipe": "CH+A_ADDR",
+          "old_event_count": 1,
+          "old_surfaces": "cha",
+          "context_modes": "REQUIRES_ACTIVE_ARGUMENT",
+          "context_relation": "TARGET_MODE_SET_DISJOINT"
+        },
+        "visible_stem": {
+          "status": "ALIGNED_EXACT_OLD_SURFACE_STEM",
+          "surface": "cha",
+          "left": "NONE",
+          "right": "dy"
+        },
+        "arms": [
+          {
+            "side": "RIGHT",
+            "recipe": "DY",
+            "visible_affix": "dy",
+            "interface": "A_ADDR>DY",
+            "old_interface_event_count": 0,
+            "visible_channel_class": "REPEATED_AMBIGUOUS_VISIBLE_CHANNEL",
+            "visible_channel_recipe_variants": "DY|D_ADDR+Y"
+          }
+        ],
+        "old_supercard": {
+          "event_count": 0,
+          "recipes": "NONE",
+          "context_relation": "NO_OLD_SUPERCARD"
+        },
+        "structural_support_class": "ALIGNED_VISIBLE_STEM_WITH_NEW_INTERFACE",
+        "neutral_phrase_de": "Nehmen; hier; abschließen.",
+        "contextual_reading_de": "Entnimm; an der bezeichneten Stelle; schließe den Schritt.",
+        "guard": "WORKING_EXTENSION_CARD__NO_WHOLE_WORD_OR_PLAINTEXT_CLAIM"
+      }
+    },
+    {
+      "check": "reader_qoteeod_supercard",
+      "passed": true,
+      "detail": {
+        "status": "GDT543_FRAGMENT_EXTENSION_CARD",
+        "surface": "qoteeod",
+        "recipe": "OT+EE+O+D_ADDR",
+        "observed_context_modes": "REQUIRES_ACTIVE_ACTION_AND_ARGUMENT",
+        "anchor": {
+          "recipe": "OT+EE+O",
+          "old_event_count": 1,
+          "old_surfaces": "oteeo",
+          "context_modes": "SELF_CONTAINED",
+          "context_relation": "TARGET_MODE_SET_DISJOINT"
+        },
+        "visible_stem": {
+          "status": "DIRECTION_MISMATCH_EXACT_OLD_SURFACE_STEM",
+          "surface": "oteeo",
+          "left": "q",
+          "right": "d"
+        },
+        "arms": [
+          {
+            "side": "RIGHT",
+            "recipe": "D_ADDR",
+            "visible_affix": "NONE",
+            "interface": "O>D_ADDR",
+            "old_interface_event_count": 114,
+            "visible_channel_class": "NO_ALIGNED_VISIBLE_CHANNEL",
+            "visible_channel_recipe_variants": "NONE"
+          }
+        ],
+        "old_supercard": {
+          "event_count": 1,
+          "recipes": "OT+EE+O+D_ADDR+AIIN",
+          "context_relation": "TARGET_MODE_SET_DISJOINT"
+        },
+        "structural_support_class": "EXACT_TARGET_SEQUENCE_INSIDE_OLD_SUPERCARD",
+        "neutral_phrase_de": "Danach; auf Grad II; zur Ausführung; hier.",
+        "contextual_reading_de": "Danach: im laufenden Satz halte den laufenden Eintrag [wie zuvor] fest; auf Grad II und zur Ausführung; an der bezeichneten Stelle.",
+        "guard": "WORKING_EXTENSION_CARD__NO_WHOLE_WORD_OR_PLAINTEXT_CLAIM"
+      }
+    },
+    {
+      "check": "reader_delegation",
+      "passed": true,
+      "detail": {
+        "status": "NO_GDT543_FRAGMENT_EXTENSION_CARD",
+        "surface": "qokees",
+        "delegation": "GDT542_FULL_TILE_OR_GDT541_EXACT_OR_GDT540_BASE_CONTRACT"
+      }
+    },
+    {
+      "check": "result_exact",
+      "passed": true,
+      "detail": {
+        "aligned_visible_stem_target_count": 72,
+        "anchor_context_compatible_target_count": 69,
+        "anchor_context_relation_counts": {
+          "TARGET_MODE_SET_DISJOINT": 12,
+          "TARGET_MODE_SET_EQUAL": 53,
+          "TARGET_MODE_SET_INCLUDED": 16
+        },
+        "arm_with_any_joint_extension_count": 28,
+        "directional_arm_count": 93,
+        "full_arm_joint_count": 15,
+        "interface_count": 93,
+        "longest_anchor_candidate_count": 104,
+        "new_pages": 0,
+        "old_supercard_context_compatible_target_count": 4,
+        "old_supercard_context_relation_counts": {
+          "TARGET_MODE_SET_DISJOINT": 4,
+          "TARGET_MODE_SET_EQUAL": 1,
+          "TARGET_MODE_SET_INCLUDED": 3
+        },
+        "old_supercard_event_count": 19,
+        "old_supercard_target_count": 8,
+        "old_supported_interface_count": 87,
+        "recipe_changes": 0,
+        "recurrent_anchor_family_count": 16,
+        "repeated_ambiguous_visible_channel_count": 1,
+        "repeated_invariant_visible_channel_count": 13,
+        "root_meaning_changes": 0,
+        "selected_anchor_count": 81,
+        "status": "PASS_81_FRAGMENT_TARGETS_MAPPED__72_ALIGNED_STEMS__13_RECURRENT_CHANNELS",
+        "structural_support_class_counts": {
+          "ALIGNED_VISIBLE_STEM_ALL_INTERFACES_OLD": 31,
+          "ALIGNED_VISIBLE_STEM_WITH_NEW_INTERFACE": 6,
+          "EXACT_TARGET_SEQUENCE_INSIDE_OLD_SUPERCARD": 8,
+          "RECIPE_ANCHOR_ALL_INTERFACES_OLD": 7,
+          "REPEATED_INVARIANT_VISIBLE_EXTENSION_CHANNEL": 29
+        },
+        "target_count": 81,
+        "targets_in_recurrent_anchor_families": 34,
+        "targets_with_repeated_invariant_channel_count": 34,
+        "visible_affix_channel_count": 53,
+        "visible_affix_observation_count": 83,
+        "visible_stem_status_counts": {
+          "ALIGNED_EXACT_OLD_SURFACE_STEM": 72,
+          "DIRECTION_MISMATCH_EXACT_OLD_SURFACE_STEM": 1,
+          "NO_EXACT_OLD_SURFACE_STEM": 8
+        }
+      }
+    },
+    {
+      "check": "generator_rerun_exit",
+      "passed": true,
+      "detail": "{\n  \"aligned_visible_stem_target_count\": 72,\n  \"anchor_context_compatible_target_count\": 69,\n  \"anchor_context_relation_counts\": {\n    \"TARGET_MODE_SET_DISJOINT\": 12,\n    \"TARGET_MODE_SET_EQUAL\": 53,\n    \"TARGET_MODE_SET_INCLUDED\": 16\n  },\n  \"arm_with_any_joint_extension_count\": 28,\n  \"directional_arm_count\": 93,\n  \"full_arm_joint_count\": 15,\n  \"interface_count\": 93,\n  \"longest_anchor_candidate_count\": 104,\n  \"new_pages\": 0,\n  \"old_supercard_context_compatible_target_count\": 4,\n  \"old_supercard_context_relation_counts\": {\n    \"TARGET_MODE_SET_DISJOINT\": 4,\n    \"TARGET_MODE_SET_EQUAL\": 1,\n    \"TARGET_MODE_SET_INCLUDED\": 3\n  },\n  \"old_supercard_event_count\": 19,\n  \"old_supercard_target_count\": 8,\n  \"old_supported_interface_count\": 87,\n  \"recipe_changes\": 0,\n  \"recurrent_anchor_family_count\": 16,\n  \"repeated_ambiguous_visible_channel_count\": 1,\n  \"repeated_invariant_visible_channel_count\": 13,\n  \"root_meaning_changes\": 0,\n  \"selected_anchor_count\": 81,\n  \"status\": \"PASS_81_FRAGMENT_TARGETS_MAPPED__72_ALIGNED_STEMS__13_RECURRENT_CHANNELS\",\n  \"structural_support_class_counts\": {\n    \"ALIGNED_VISIBLE_STEM_ALL_INTERFACES_OLD\": 31,\n    \"ALIGNED_VISIBLE_STEM_WITH_NEW_INTERFACE\": 6,\n    \"EXACT_TARGET_SEQUENCE_INSIDE_OLD_SUPERCARD\": 8,\n    \"RECIPE_ANCHOR_ALL_INTERFACES_OLD\": 7,\n    \"REPEATED_INVARIANT_VISIBLE_EXTENSION_CHANNEL\": 29\n  },\n  \"target_count\": 81,\n  \"targets_in_recurrent_anchor_families\": 34,\n  \"targets_with_repeated_invariant_channel_count\": 34,\n  \"visible_affix_channel_count\": 53,\n  \"visible_affix_observation_count\": 83,\n  \"visible_stem_status_counts\": {\n    \"ALIGNED_EXACT_OLD_SURFACE_STEM\": 72,\n    \"DIRECTION_MISMATCH_EXACT_OLD_SURFACE_STEM\": 1,\n    \"NO_EXACT_OLD_SURFACE_STEM\": 8\n  }\n}\n"
+    },
+    {
+      "check": "generator_byte_determinism",
+      "passed": true,
+      "detail": {
+        "gdt543_81_fragment_extension_cards.tsv": "a216277940cf3ab04878b3b6e2766d7396d76de15577147da83a617154fa8c13",
+        "gdt543_104_longest_anchor_candidates.tsv": "bf614c81b526c4d4e28e08998e6ca431f9e1ac0ff7ceebccd96f6bc099d3e87d",
+        "gdt543_93_directional_extension_arms.tsv": "1ad85521aed8f12eb247066296484df3cb209f675d251cab51e63f75a4574f3c",
+        "gdt543_53_visible_affix_channels.tsv": "52282bde76bd30c6cc8abab6cd0f233c239b74443011aca320cd2faa8846ab9f",
+        "gdt543_19_old_supercard_reductions.tsv": "9a6abcad11f8f4a369ac41f3844d2fa357e1c8d841bf57865fc4366d888c0aac",
+        "gdt543_16_recurrent_anchor_families.tsv": "81e17a6f721f83b542b7410a3c5fc9e11343ce384b33536bb3534cccf0e79ab3",
+        "gdt543_fragment_extension_summary.tsv": "2d3040c16916874c6293e5d06efbd01c47c49346abfcda22b80e753d8bce64a8",
+        "GDT543_FRAGMENT_EXTENSION_BOOK.md": "8add7774d89833efac9a27df503e0a529e8a537a6f66f8c97402c74c1c146af2",
+        "gdt543_result.json": "3876b9dabcaf4256b3f65711187eb3ed32b7539498342ef5f9b478e8ab9daec3"
+      }
+    }
+  ]
+}

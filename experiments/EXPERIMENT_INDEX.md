@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **541**
-- Experiment-associated tracked files: **7,988** (815.1 MiB)
-- Structured GDT337+ experiments: **206**
+- Experiments indexed: **542**
+- Experiment-associated tracked files: **8,006** (815.3 MiB)
+- Structured GDT337+ experiments: **207**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT543 | GDT543_fragment_directional_extension_frames | `PASS_81_FRAGMENT_TARGETS_MAPPED__72_ALIGNED_STEMS__13_RECURRENT_CHANNELS` | [report](../experiments/yolo/gdt543_fragment_directional_extension_frames/REPORT.md) | 18 | 221.8 KiB | 5 | STRUCTURED_YOLO |
 | GDT542 | GDT542_full_old_tile_context_bridge | `PASS_29_FULL_TILE_TARGETS_BRIDGED__17_CONTEXT_SHELLS_AND_30_OLD_SEAMS` | [report](../experiments/yolo/gdt542_full_old_tile_context_bridge/REPORT.md) | 18 | 155.4 KiB | 4 | STRUCTURED_YOLO |
 | GDT541 | GDT541_old_prefix_exact_recipe_context_replay | `PASS_11_EXACT_RECIPE_PROFILES_REPLAY__QOKEES_SWITCH_REPLICATED` | [report](../experiments/yolo/gdt541_old_prefix_exact_recipe_context_replay/REPORT.md) | 15 | 99.6 KiB | 5 | STRUCTURED_YOLO |
 | GDT540 | GDT540_target_surface_context_requirement_contract | `PASS_149_OCCURRENCES_CLASSIFIED__145_SURFACE_CONTRACTS__ONE_CONTEXT_SWITCH` | [report](../experiments/yolo/gdt540_target_surface_context_requirement_contract/REPORT.md) | 14 | 240.3 KiB | 4 | STRUCTURED_YOLO |

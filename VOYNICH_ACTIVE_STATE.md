@@ -13121,8 +13121,32 @@ Three targets have the full tile sequence in order within old statements:
 `ykshedy` have one ordered path each.
 
 Keep all29 compositions. The ten weakest have only complete old tiles plus old
-seams, but that is a useful explicit default rather than a rejection. Next
-process the81 fragment-plus-atom targets as directional extension frames:
-record the old whole fragment, left/right/both attachment sequence, old
-attachment carriers and target context mode. Do not use fuzzy surface matching,
-open a page or alter a root value.
+seams, but that is a useful explicit default rather than a rejection.
+
+## GDT543 directional fragment-extension frames
+
+Each of the81 fragment-plus-atom targets now has one selected complete old
+recipe anchor and all equal-length alternatives remain visible. The inventory
+contains104 candidates and63 selected anchor recipes;16 recurrent anchor
+families cover34 targets. Selection uses exact direction-aligned surface
+containment first, then old interfaces, old anchor frequency, visible length
+and fixed tie breaks.
+
+Seventy-two targets contain an exact old carrier spelling of the selected
+recipe at the expected left/right/internal position. Their83 visible extension
+observations form53 channels. Thirteen repeated channels are recipe-invariant
+and cover34 targets: left `ch,d,f,k,l,p,sh,t,y` and right `aiin,chy,d,y`.
+Right `dy` alone repeats ambiguously, five times as `DY` and once as
+`D_ADDR+Y`; retain family context rather than globalizing the suffix.
+
+The93 extension arms have87 old within-card interface pairs. Twenty-eight put
+at least one adjacent extension atom beside the whole anchor inside an old
+longer card and15 carry a complete arm. Eight complete target sequences embed
+in19 longer old cards. Anchor-context modes equal the target for53 cards and
+include it for16 more;12 differ. Four of the eight supercard targets also
+match context. None of the12 or the six new interfaces is rejected.
+
+Next compare only those18 flagged dimensions with the23 unused equal-length
+anchor candidates. Preserve an exact aligned visible stem and switch only for
+a concrete context or interface gain. Otherwise keep the GDT543 default. No
+new page, fuzzy match, recipe or root change.
