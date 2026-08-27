@@ -1975,10 +1975,30 @@ Twelve flagged cards keep their current defaults: nine have no shorter old
 multi-atom stem and three have only candidates that lose another support
 dimension.
 
+## GDT546 executable 81-card fragment reader
+
+The81 fragment cards now live in one exact-key reader. Every accepted surface
+returns the complete component recipe, neutral and contextual German working
+readings, primary structural formula, visible stem formula, both extension
+channels and interfaces, context relation, old-supercard contact and—on four
+cards—the shorter secondary derivation.
+
+The common view preserves the useful asymmetry instead of averaging it away:
+72 primary stems are exact and direction-aligned,69 have compatible old
+context,87/93 extension interfaces are old,34 cards use a recurrent invariant
+visible channel, and eight recipes embed inside an old longer card. The four
+secondary bridges remain additions; the other twelve flagged cards remain
+complete readings with named defaults.
+
+For example, `chepakeo` prints both `[CH+E+P]+A_ADDR+K+E+O` and
+`CH+E+P+A_ADDR+K+[E+O]`, beside its unchanged reading “Nehmen, einsetzen und
+geben; auf Grad I; hier; erneut auf Grad I; zur Ausführung.” Unknown surfaces
+stop rather than inheriting a near spelling.
+
 ## Next work
 
-Compile one executable81-card reader that reports the primary stem, optional
-secondary bridge, visible suffix/prefix channel, context requirement and
-German working reading together. Once that deck is internally complete, apply
-the visible-channel vocabulary to the final24 atom/factor-only forms rather
-than inventing long whole-word meanings.
+Give the final24 atom/factor-only forms the same concrete card format. For each
+surface, prefer visible atomic or factor channels already learned elsewhere;
+retain a complete default meaning even where the visible route is only a
+single-card assignment. Open no new page and do not manufacture a long learned
+whole-word gloss merely to hide a missing atom channel.

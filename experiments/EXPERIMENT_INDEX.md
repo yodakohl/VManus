@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **544**
-- Experiment-associated tracked files: **8,033** (815.4 MiB)
-- Structured GDT337+ experiments: **209**
+- Experiments indexed: **545**
+- Experiment-associated tracked files: **8,046** (815.6 MiB)
+- Structured GDT337+ experiments: **210**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT546 | GDT546_consolidated_fragment_reader | `PASS_81_CARD_FRAGMENT_READER__4_DUAL_BRIDGES__12_EXPLICIT_DEFAULTS` | [report](../experiments/yolo/gdt546_consolidated_fragment_reader/REPORT.md) | 13 | 129.2 KiB | 3 | STRUCTURED_YOLO |
 | GDT545 | GDT545_shorter_secondary_fragment_bridges | `FOUR_FLAGGED_TARGETS_GAIN_SHORTER_SECONDARY_BRIDGES__TWELVE_DEFAULTS_REMAIN` | [report](../experiments/yolo/gdt545_shorter_secondary_fragment_bridges/REPORT.md) | 14 | 70.4 KiB | 3 | STRUCTURED_YOLO |
 | GDT544 | GDT544_flagged_equal_length_anchor_availability | `ZERO_FLAGGED_TARGETS_HAVE_ALTERNATIVE_LONGEST_ANCHOR__23_UNUSED_BELONG_TO_20_CLEAN_TARGETS` | [report](../experiments/yolo/gdt544_flagged_equal_length_anchor_availability/REPORT.md) | 13 | 45.3 KiB | 1 | STRUCTURED_YOLO |
 | GDT543 | GDT543_fragment_directional_extension_frames | `PASS_81_FRAGMENT_TARGETS_MAPPED__72_ALIGNED_STEMS__13_RECURRENT_CHANNELS` | [report](../experiments/yolo/gdt543_fragment_directional_extension_frames/REPORT.md) | 18 | 221.8 KiB | 5 | STRUCTURED_YOLO |

@@ -13177,3 +13177,23 @@ and3 only lose another support dimension. Next compile primary anchor,
 secondary bridge, visible channel, context and German reading into one81-card
 reader; then process the24 atom/factor forms. No page, recipe, primary anchor,
 meaning or root changes.
+
+## GDT546 consolidated 81-card fragment reader
+
+GDT546 compiles every GDT543 fragment card, all93 directional arms, the16
+original warnings and GDT545's4/12 bridge/default partition into one exact
+surface-keyed reader. Each of81 cards now emits its complete recipe, neutral
+German component reading, known contextual reading, primary structural and
+visible formula, left/right channel and interface evidence, context relation,
+old supercard contact and optional secondary derivation.
+
+The inherited support counts remain72 aligned visible primary stems,69
+context-compatible primary anchors,87/93 old interfaces,34 targets in
+recurrent anchor families,34 with a recurrent invariant extension channel and
+eight old-supercard embeddings. `chckhedy`, `chepakeo`, `chepos`, and `tosheo`
+carry a second derivation; the twelve named residuals remain full readings with
+an explicit caution. An unknown key returns `STOP_UNKNOWN_FRAGMENT_SURFACE`
+and inherits no similar card. All33 checks pass after correcting the validator
+to treat display `+` separators as separators rather than manuscript
+characters. Next apply this complete-card contract to the final24 atom/factor
+forms; no new page, recipe, anchor, root value or meaning was added.
