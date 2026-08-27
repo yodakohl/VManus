@@ -1,0 +1,137 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Exact-recipe context-profile replay over the already admitted old 26-page prefix. Profile-set equality is not frequency equality, plaintext, a confirmed lexeme, a phonetic allograph relation, or an unseen-page prediction. No page, recipe, segmentation, or root value changes.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt541_old_prefix_exact_recipe_context_replay/src/run.py",
+    "validate": "python3 experiments/yolo/gdt541_old_prefix_exact_recipe_context_replay/src/validate.py"
+  },
+  "created": "2026-08-27",
+  "dependencies": [
+    "GDT407",
+    "GDT516",
+    "GDT539",
+    "GDT540"
+  ],
+  "experiment_id": "GDT541",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt407_unified_twenty_six_page_workshop_edition/artifacts/gdt407_4576_running_event_edition.tsv",
+      "role": "old 26-page running event recipes and source order",
+      "sha256": "b4a8b8c3fe8c5cc3ac2cd33979b71ce4721199bef124e866df2456d2dfbb87f4"
+    },
+    {
+      "path": "experiments/yolo/gdt407_unified_twenty_six_page_workshop_edition/artifacts/gdt407_715_statement_edition.tsv",
+      "role": "old fixed statement boundaries and exact sequences",
+      "sha256": "4f530dc3c4adafc278d720e53b367ba76cd8b96762cada9cccc9544eaf032a73"
+    },
+    {
+      "path": "experiments/yolo/gdt516_thirty_page_new_surface_family_consolidation/artifacts/gdt516_10_exact_old_recipe_carriers.tsv",
+      "role": "original ten exact target-to-old contacts before later recipe revisions",
+      "sha256": "c4ee3060223d3a8266467b4fb241047760275591cff7d88038cc0c91ac3df8b1"
+    },
+    {
+      "path": "experiments/yolo/gdt539_four_page_contextual_statement_edition/artifacts/gdt539_546_contextual_prose_events.tsv",
+      "role": "selected-page contextual events and complete OK+EE+S family",
+      "sha256": "4554b8b4cb1697c8f6f544a75505a8a695b4d2043aeceeb9f5922eb21f73843d"
+    },
+    {
+      "path": "experiments/yolo/gdt540_target_surface_context_requirement_contract/artifacts/gdt540_145_surface_context_contract.tsv",
+      "role": "final target recipes and observed surface profiles",
+      "sha256": "3248d53e85e472c290964157a564f8a7f06e804068dbaa55e0e8a394bd712fd4"
+    },
+    {
+      "path": "experiments/yolo/gdt540_target_surface_context_requirement_contract/artifacts/gdt540_149_occurrence_context_contract.tsv",
+      "role": "target occurrence mode counts",
+      "sha256": "28cf47f80df4a945bd6203f8afd43e1c74253896ddbc06514156cf7d03319381"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt541_old_prefix_exact_recipe_context_replay/METHOD.md",
+      "role": "old-prefix context replay method",
+      "sha256": "f8527d51a3a0c7a8c7155eb6ec74e2518552df75478c92e4f46fa8b75cb8f9ef"
+    },
+    {
+      "path": "experiments/yolo/gdt541_old_prefix_exact_recipe_context_replay/README.md",
+      "role": "experiment entry point",
+      "sha256": "8c515f2af9a48e013a48199ca36fea5449b9a8878172aaad1c29f314e312cf4f"
+    },
+    {
+      "path": "experiments/yolo/gdt541_old_prefix_exact_recipe_context_replay/REPORT.md",
+      "role": "primary result report",
+      "sha256": "7b08092c76329eb71776727864ceb31d399d35dc63ea09cf1050f3a0d2274ac1"
+    },
+    {
+      "path": "experiments/yolo/gdt541_old_prefix_exact_recipe_context_replay/artifacts/README.md",
+      "role": "artifact guide",
+      "sha256": "fce6a425a0aba88b67f6395b8ae4645d6141f26de937a239986d73493be1814d"
+    },
+    {
+      "path": "experiments/yolo/gdt541_old_prefix_exact_recipe_context_replay/artifacts/GDT541_OLD_PREFIX_CONTEXT_REPLAY_BOOK.md",
+      "role": "readable exact-profile comparison book",
+      "sha256": "6e30cc9f467d078e414020a863a7e0036f6bfbe38d8d086f880d76b8427da6a7"
+    },
+    {
+      "path": "experiments/yolo/gdt541_old_prefix_exact_recipe_context_replay/artifacts/gdt541_11_recipe_context_profile_transfer.tsv",
+      "role": "eleven target-to-old context profile comparisons",
+      "sha256": "7505face25b7306e198d01356de208c31b3d422d1d81f293300df062762dcae9"
+    },
+    {
+      "path": "experiments/yolo/gdt541_old_prefix_exact_recipe_context_replay/artifacts/gdt541_49_old_exact_recipe_context_events.tsv",
+      "role": "complete old exact-carrier state replay",
+      "sha256": "530fc2d79326aa816ffdec43e86880d20092c8d9c8a57d609feb90c6f372cdc1"
+    },
+    {
+      "path": "experiments/yolo/gdt541_old_prefix_exact_recipe_context_replay/artifacts/gdt541_7_ok_ee_s_cross_page_family.tsv",
+      "role": "complete contextual OK+EE+S family casebook",
+      "sha256": "7fbb9a08341807ba8d7fdb29508d42fafa8c9111b878bcbde019384afaa1775b"
+    },
+    {
+      "path": "experiments/yolo/gdt541_old_prefix_exact_recipe_context_replay/artifacts/gdt541_exact_recipe_context_summary.tsv",
+      "role": "compact coverage and mode summary",
+      "sha256": "ea6833cfea44e8aa9b77bafe8f198042ce237174a0a3dbe59aef80a4369941b0"
+    },
+    {
+      "path": "experiments/yolo/gdt541_old_prefix_exact_recipe_context_replay/artifacts/gdt541_result.json",
+      "role": "compact result metrics",
+      "sha256": "5c4bc1a9eeeab3e64d913bbc2309351c214b62a084d4dad2cbacb8b5c937ebc5"
+    },
+    {
+      "path": "experiments/yolo/gdt541_old_prefix_exact_recipe_context_replay/artifacts/gdt541_validation.json",
+      "role": "independent 57-check validation record",
+      "sha256": "b29e967e8c0c15c01257050920c92874e36ab494e3b0248435bcb1fe41ee538a"
+    },
+    {
+      "path": "experiments/yolo/gdt541_old_prefix_exact_recipe_context_replay/src/recipe_profile.py",
+      "role": "executable exact-profile lookup",
+      "sha256": "f7293ef6e9ca6c3a24109534e43a5530e21321d8b80ee4d38aaadfeeb8cb10b8"
+    },
+    {
+      "path": "experiments/yolo/gdt541_old_prefix_exact_recipe_context_replay/src/run.py",
+      "role": "reproducible old-prefix context compiler",
+      "sha256": "f490fdd500f052279ae5c217ed925979dc68979cbebf25b68e2f2b7d92edcfe2"
+    },
+    {
+      "path": "experiments/yolo/gdt541_old_prefix_exact_recipe_context_replay/src/validate.py",
+      "role": "independent context replay validator",
+      "sha256": "061ba36e83577521096025fc1d97a27a89ecc78751066ab5ff1dc135c93eca80"
+    }
+  ],
+  "question": "When each of the 145 final GDT540 recipes is looked up unchanged in GDT407's old 26-page running deck, which exact carriers exist and do their actual same-statement action/argument modes reproduce the new target profile?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "old_prefix_exact_recipe_context_replay",
+  "status": "PASS_11_EXACT_RECIPE_PROFILES_REPLAY__QOKEES_SWITCH_REPLICATED",
+  "title": "Old-prefix exact-recipe context replay",
+  "updated": "2026-08-27",
+  "validation": {
+    "artifact": "experiments/yolo/gdt541_old_prefix_exact_recipe_context_replay/artifacts/gdt541_validation.json",
+    "status": "PASS"
+  }
+}

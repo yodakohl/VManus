@@ -1,6 +1,6 @@
 # Current thirty-page scribe-workshop theory
 
-Updated: 2026-08-27, after GDT540.
+Updated: 2026-08-27, after GDT541.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -1866,11 +1866,33 @@ inside the same statement. The reader nevertheless stores the last visible
 action and argument until the statement boundary rather than imposing a hard
 three-card window.
 
+## GDT541 old exact-recipe replay
+
+Eleven target recipes have49 complete old carriers across17 pages,43
+statements and all five registers. All eleven reproduce the complete target
+mode set. The six context-bearing profiles are `dalol`, `doiiin`, `qokaiir`,
+`qokee`, `qokees`, and `shee`; none demands a new special rule.
+
+The strongest family is now:
+
+```text
+qokees / okees / chokees = OK + EE + S
+                              SETZEN + GRAD II + WÄHLEN
+```
+
+Across old and new material it occurs seven times. Five events take a
+same-statement `Y`, always from the immediately previous card; two stay
+objectless. The four old events already split3+1, exactly repeating the two
+new `qokees` modes. The object is therefore best treated as an open sentence
+slot, not baked into one long whole-word gloss.
+
+Final `chekchy=CH+K+Y` also gains29 old exact carriers under five spellings.
+This is the sole new exact contact created after GDT516's ten-card inventory.
+
 ## Next work
 
-Use the old26-page GDT407 prefix as immediate workshop material. Find every old
-running event whose complete recipe equals one of the145 GDT540 recipes and
-replay the same visible-slot context rule under the already present statement
-boundaries. Start with the four old `OK+EE+S` carriers (`okees`/`chokees`) to
-see whether they reproduce the objectless/context-filled switch. No new page,
-surface resegmentation, recipe, or stem meaning is needed.
+Move one rung outward, still without fuzzy surface matching. Take the29 target
+recipes that GDT516 marks as fully tileable by old complete recipes but not
+themselves old whole recipes. Keep each named tile visible and ask whether the
+assembled action shell and argument mode occur together in old context. Then
+advance to fragment-plus-atom forms; do not mix the tiers.

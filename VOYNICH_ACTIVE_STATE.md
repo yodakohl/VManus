@@ -13086,3 +13086,24 @@ Next replay the GDT540 rule on every exact-recipe carrier in GDT407's old
 26-page prefix. In particular, compare the four old `OK+EE+S` carriers with
 the two `qokees` modes. Use the existing recipes and statement boundaries;
 open no page and do not resegment a form.
+
+## GDT541 old-prefix exact-recipe context replay
+
+Eleven of the145 final prose recipes have49 complete carriers in GDT407's old
+prefix:17 old spellings on17 pages and43 statements, spanning all five
+registers. Every one of the eleven old observed context-mode sets equals the
+new target set. Six are context-bearing rather than visibly complete:
+`dalol`/`doiiin` take action plus argument, `qokaiir`/`qokee`/`shee` take the
+argument, and `qokees` has both objectless and argument-filled uses.
+
+The `OK+EE+S` family now has seven contextualized events across old and new
+material, four pages, four registers and the spellings `qokees`, `okees`, and
+`chokees`. Five take an immediately preceding `Y`; two are objectless. The
+four old events alone already show both modes (3+1), so GDT540's switch is not
+a peculiarity of the new form. Also, final `chekchy=CH+K+Y` supplies the only
+exact carrier contact added after GDT516:29 old events under five spellings.
+
+Next take the29 nonexact GDT516 targets that are nevertheless completely
+tileable by old full recipes. Preserve the named tiles and require their action
+shell and argument mode to transfer together. Only afterward expand to the91
+fragment-plus-atom and29 atom/factor targets. No new page or resegmentation.
