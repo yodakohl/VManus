@@ -1,6 +1,6 @@
 # Current thirty-page scribe-workshop theory
 
-Updated: 2026-08-27, after GDT536.
+Updated: 2026-08-27, after GDT537.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -1776,10 +1776,30 @@ was already GDT529 rank one. The rule is local: only one of three terminal-n
 neighbour pairs keeps its recipe, only25/47 `X/sX` pairs literally add `S`, and
 other `aii` contexts remain diverse.
 
+GDT537 corrects that short four-card plan: the full post-GDT516 revision deck
+has seven cards. `chekchy`, `saiis`, and `dairykodas` also need explicit
+retention even though their final recipes are rank one; otherwise the older
+exact-event reader restores their superseded recipes. The active overlay is:
+
+```text
+chekchy      CH+K+Y
+saiis        S+A_ADDR+IIN+S
+dsholdaiir   D_ADDR+SH+OL+DA+IIN+R
+dairykodas   D_ADDR+AIR+Y+K+O+DA+S
+dalcheeeky   AL+CH+K+EEE+Y
+qef          E+LOCAL_CHAR_F
+aiicthy      AIIN+CH+T+Y
+```
+
+All159 final prose surfaces now precede GDT517 and replay exactly. Six routes
+change recipe; `qef` only closes an ambiguity. Old, unseen and `LOCAL_RECORD`
+surfaces still delegate to the role-aware base, so the overlay neither blocks
+productive intake nor converts learned names into prose.
+
 ## Next work
 
-All159 current new surfaces now have working readings. Keep further pages
-closed for one consolidation pass: compile the four surviving special
-selection mechanisms (`qef`, `dsholdaiir`, `dalcheeeky`, and `aiicthy`) into an
-explicit intake supplement. The next page batch must consume those cards
-unchanged rather than silently rediscovering or reinterpreting them.
+Keep pages closed for a phrase-consistency pass. Group all159 final cards by
+identical recipe and repeated suffix/prefix recipe family, then find places
+where the German short reading changes wording despite identical ordered
+roots. Improve fluent phrasing only; never change a recipe, root value, owner,
+structural tag, or one of the seven route cards.

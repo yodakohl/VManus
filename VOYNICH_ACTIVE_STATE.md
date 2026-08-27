@@ -13006,3 +13006,25 @@ globalize `aii`, `n` deletion, or initial `s`. All159 new surfaces now have
 working readings. Next freeze the four special mechanisms—rank2 `qef`, rank6
 `dsholdaiir`, ungenerated `dalcheeeky`, and rank1 `aiicthy`—into a compact
 intake supplement before admitting another page.
+
+## GDT537 seven-route final intake supplement
+
+The short continuation note after GDT536 undercounted the final overlay as four
+special cards. The complete post-GDT516 set has seven: `chekchy`, `saiis`,
+`dsholdaiir`, `dairykodas`, `dalcheeeky`, `qef`, and `aiicthy`. The first three
+omitted by that note are rank-one revisions, but the older GDT517 exact-event
+lookup would still restore their superseded GDT516 recipes. GDT537 therefore
+freezes all159 final prose surfaces before the base compiler and attaches one
+named GDT530–GDT536 route to each special card.
+
+Six cards change recipe; `qef` is the sole resolution-only card. The compact
+rank distribution is156 rank one, one rank two, one rank six and one
+ungenerated grade-family completion. The executable overlay replays159/159
+recipes and159/159 route flags. It is prose-only: a `LOCAL_RECORD` request, an
+old surface outside the new159, or a genuinely unseen surface delegates
+unchanged to GDT517. Thus no learned name is coerced into a prose instruction
+and no special route extrapolates silently.
+
+Next keep pages closed for a phrase-consistency pass over repeated final
+recipes. Normalize only fluent German wording; recipe order, nineteen roots,
+seven revision routes, owners, and structural tags remain fixed.
