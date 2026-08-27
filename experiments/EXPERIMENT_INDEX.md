@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **548**
-- Experiment-associated tracked files: **8,094** (816.0 MiB)
-- Structured GDT337+ experiments: **213**
+- Experiments indexed: **549**
+- Experiment-associated tracked files: **8,111** (816.1 MiB)
+- Structured GDT337+ experiments: **214**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT550 | GDT550_recurrent_sequence_frame_bridges | `PASS_FIVE_RECURRENT_FRAMES_BRIDGE_ALL_10_SEQUENCE_DEFAULTS__NINE_SUPPORT_RESTS` | [report](../experiments/yolo/gdt550_recurrent_sequence_frame_bridges/REPORT.md) | 17 | 99.5 KiB | 3 | STRUCTURED_YOLO |
 | GDT549 | GDT549_default_queue_visible_peer_bridges | `PASS_ALL_23_DEFAULTS_EXACTLY_VISIBLE__4_CURRENT_PEER_PROMOTIONS__19_SUPPORT_RESTS` | [report](../experiments/yolo/gdt549_default_queue_visible_peer_bridges/REPORT.md) | 17 | 128.9 KiB | 5 | STRUCTURED_YOLO |
 | GDT548 | GDT548_unified_145_prose_reader | `PASS_ONE_EXACT_KEY_READER_FOR_145_PROSE_SURFACES__23_NAMED_DEFAULTS` | [report](../experiments/yolo/gdt548_unified_145_prose_reader/REPORT.md) | 14 | 242.0 KiB | 6 | STRUCTURED_YOLO |
 | GDT547 | GDT547_atomic_factor_visible_reader | `PASS_24_ATOM_FACTOR_CARDS_VISIBLE__21_OLD_DECK_COVERS__3_SPECIAL_ROUTES` | [report](../experiments/yolo/gdt547_atomic_factor_visible_reader/REPORT.md) | 17 | 127.5 KiB | 9 | STRUCTURED_YOLO |

@@ -2041,10 +2041,24 @@ interfaces. Four cards leave the default queue completely: `chady`, `kody`,
 `qoekedy`, `qokshd`. The remaining19 cautions are now dimension-specific:
 10 sequence,4 context and5 interface.
 
+## GDT550 five recurrent sequence frames
+
+A minimum five-frame bridge now covers all ten sequence cards:
+
+```text
+chor→CH+OR   ko→K+O   she→SH+E   shy→SH+Y   ches→CH+E+S
+```
+
+The frames touch21 stronger cards and provide27 same-context contacts. `she`
+alone carries four targets and14 stronger peers. Each target already had old
+tiles, old seams and an exact visible full route; the recurrent frame supplies
+the missing shared current paradigm. All ten leave the active default queue
+while retaining the explicit absence of an old whole-recipe carrier.
+
 ## Next work
 
-Start with the ten sequence cards and test recurrent visible recipe frames,
-especially `shek→SH+E+K`, `shy→SH+Y`, and `ko→K+O`, against stronger cards in
-the same admitted deck and the old alias support. A frame should repair several
-cards at once. Keep the four context and five interface cases as separate
-secondary queues; open no new page and retain every current meaning.
+The active queue is now only four context cards (`folchol`, `qoteeod`, `saiis`,
+`shokaiir`) and five interfaces (`aiicthy`, `chap`, `ofaram`, `rotaiin`,
+`shso`). Search the four contexts for a common visible/state switch first.
+Then search the five pairs for separated occurrences or a shared family frame;
+do not merge context and adjacency evidence, and retain every current meaning.

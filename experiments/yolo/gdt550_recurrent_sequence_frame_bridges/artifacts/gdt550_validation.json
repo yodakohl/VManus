@@ -1,0 +1,360 @@
+{
+  "status": "PASS",
+  "check_count": 34,
+  "passed_count": 34,
+  "failed_count": 0,
+  "checks": [
+    {
+      "check": "source_sequence_target_count",
+      "passed": true,
+      "detail": [
+        "choraly",
+        "dairykodas",
+        "dalalshedy",
+        "kodary",
+        "shekair",
+        "shekaly",
+        "shekol",
+        "shyshol",
+        "tolshy",
+        "ypches"
+      ]
+    },
+    {
+      "check": "all_ten_targets_have_old_exact_cover",
+      "passed": true,
+      "detail": {
+        "choraly": 4,
+        "dairykodas": 8,
+        "dalalshedy": 4,
+        "kodary": 6,
+        "shekair": 4,
+        "shekaly": 10,
+        "shekol": 6,
+        "shyshol": 3,
+        "tolshy": 1,
+        "ypches": 11
+      }
+    },
+    {
+      "check": "candidate_frame_count",
+      "passed": true,
+      "detail": 23
+    },
+    {
+      "check": "candidate_frame_set_exact",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "all_candidate_counts_and_modes_replay",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "context_compatible_candidate_count",
+      "passed": true,
+      "detail": 20
+    },
+    {
+      "check": "minimum_cover_is_five_with_six_solutions",
+      "passed": true,
+      "detail": [
+        6,
+        5
+      ]
+    },
+    {
+      "check": "all_six_minimum_solutions_exact",
+      "passed": true,
+      "detail": 6
+    },
+    {
+      "check": "one_selected_solution",
+      "passed": true,
+      "detail": [
+        {
+          "solution_rank": "1",
+          "selected_solution": "YES",
+          "frame_count": "5",
+          "frame_ids": "F001|F004|F005|F011|F017",
+          "frame_traces": "ches→CH+E+S | chor→CH+OR | ko→K+O | she→SH+E | shy→SH+Y",
+          "covered_target_count": "10",
+          "covered_targets": "choraly|dairykodas|dalalshedy|kodary|shekair|shekaly|shekol|shyshol|tolshy|ypches",
+          "total_mapped_atom_count": "11",
+          "total_same_mode_peer_contacts": "27",
+          "selection_priority": "MINIMUM_FRAME_COUNT__THEN_MAX_MAPPED_ATOMS_VISIBLE_LENGTH_AND_PEERS",
+          "guard": "FINITE_EXACT_SET_COVER_OVER_CONTEXT_COMPATIBLE_CANDIDATE_FRAMES"
+        }
+      ]
+    },
+    {
+      "check": "selected_frame_count",
+      "passed": true,
+      "detail": 5
+    },
+    {
+      "check": "selected_frame_set_exact",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "selected_frames_all_context_compatible",
+      "passed": true,
+      "detail": {
+        "('ches', 'CH+E+S')": true,
+        "('chor', 'CH+OR')": true,
+        "('ko', 'K+O')": true,
+        "('she', 'SH+E')": true,
+        "('shy', 'SH+Y')": true
+      }
+    },
+    {
+      "check": "selected_frames_cover_all_ten",
+      "passed": true,
+      "detail": [
+        "choraly",
+        "dairykodas",
+        "dalalshedy",
+        "kodary",
+        "shekair",
+        "shekaly",
+        "shekol",
+        "shyshol",
+        "tolshy",
+        "ypches"
+      ]
+    },
+    {
+      "check": "selected_strong_peer_union_count",
+      "passed": true,
+      "detail": [
+        "choraiin",
+        "chory",
+        "dolarshy",
+        "kodalchy",
+        "lsheody",
+        "olsheor",
+        "psheody",
+        "shedshey",
+        "shekeefy",
+        "shekeey",
+        "shekey",
+        "sheocthy",
+        "sheod",
+        "sheodaiin",
+        "sheoy",
+        "shytchy",
+        "tosheo",
+        "yches",
+        "ykoiin",
+        "ykshedy",
+        "yshedair"
+      ]
+    },
+    {
+      "check": "selected_same_mode_contact_count",
+      "passed": true,
+      "detail": 27
+    },
+    {
+      "check": "selected_frame_counts_exact",
+      "passed": true,
+      "detail": {
+        "('ches', 'CH+E+S')": [
+          "1",
+          "1",
+          "1"
+        ],
+        "('chor', 'CH+OR')": [
+          "1",
+          "2",
+          "2"
+        ],
+        "('ko', 'K+O')": [
+          "2",
+          "2",
+          "4"
+        ],
+        "('she', 'SH+E')": [
+          "4",
+          "14",
+          "16"
+        ],
+        "('shy', 'SH+Y')": [
+          "2",
+          "2",
+          "4"
+        ]
+      }
+    },
+    {
+      "check": "selected_occurrence_count",
+      "passed": true,
+      "detail": 31
+    },
+    {
+      "check": "selected_occurrence_set_exact",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "occurrence_roles_exact",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "promoted_sequence_count",
+      "passed": true,
+      "detail": 10
+    },
+    {
+      "check": "promoted_sequence_set_exact",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "all_ten_promotions_replay",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "all_promotions_keep_old_tile_evidence",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "post_bridge_residual_count",
+      "passed": true,
+      "detail": 9
+    },
+    {
+      "check": "post_bridge_residual_set_exact",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "post_bridge_residual_distribution_4_5",
+      "passed": true,
+      "detail": {
+        "ANCHOR_CONTEXT": 4,
+        "DIRECT_INTERFACE": 5
+      }
+    },
+    {
+      "check": "promoted_and_residual_are_disjoint",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "result_exact",
+      "passed": true,
+      "detail": {
+        "all_target_modes_peer_compatible_frame_count": 20,
+        "candidate_recurrent_frame_count": 23,
+        "complete_context_meaning_count": 10,
+        "complete_neutral_meaning_count": 10,
+        "minimum_frame_cover_size": 5,
+        "minimum_frame_cover_solution_count": 6,
+        "new_pages": 0,
+        "promoted_sequence_card_count": 10,
+        "recipe_changes": 0,
+        "residual_anchor_context_count": 4,
+        "residual_direct_interface_count": 5,
+        "residual_support_card_count": 9,
+        "root_meaning_changes": 0,
+        "selected_frame_count": 5,
+        "selected_frame_occurrence_count": 31,
+        "selected_frame_strong_peer_count": 21,
+        "selected_frame_target_count": 10,
+        "selected_same_mode_peer_contact_count": 27,
+        "source_sequence_card_count": 10,
+        "source_sequence_exact_old_cover_count": 10,
+        "status": "PASS_FIVE_RECURRENT_FRAMES_BRIDGE_ALL_10_SEQUENCE_DEFAULTS__NINE_SUPPORT_RESTS"
+      }
+    },
+    {
+      "check": "summary_replays_result",
+      "passed": true,
+      "detail": {
+        "status": "PASS_FIVE_RECURRENT_FRAMES_BRIDGE_ALL_10_SEQUENCE_DEFAULTS__NINE_SUPPORT_RESTS",
+        "source_sequence_card_count": "10",
+        "source_sequence_exact_old_cover_count": "10",
+        "candidate_recurrent_frame_count": "23",
+        "all_target_modes_peer_compatible_frame_count": "20",
+        "minimum_frame_cover_size": "5",
+        "minimum_frame_cover_solution_count": "6",
+        "selected_frame_count": "5",
+        "selected_frame_target_count": "10",
+        "selected_frame_strong_peer_count": "21",
+        "selected_same_mode_peer_contact_count": "27",
+        "selected_frame_occurrence_count": "31",
+        "promoted_sequence_card_count": "10",
+        "residual_support_card_count": "9",
+        "residual_anchor_context_count": "4",
+        "residual_direct_interface_count": "5",
+        "complete_neutral_meaning_count": "10",
+        "complete_context_meaning_count": "10",
+        "new_pages": "0",
+        "recipe_changes": "0",
+        "root_meaning_changes": "0"
+      }
+    },
+    {
+      "check": "book_status",
+      "passed": true,
+      "detail": "PASS_FIVE_RECURRENT_FRAMES_BRIDGE_ALL_10_SEQUENCE_DEFAULTS__NINE_SUPPORT_RESTS"
+    },
+    {
+      "check": "book_has_five_frames",
+      "passed": true,
+      "detail": 15
+    },
+    {
+      "check": "book_names_all_selected_frames",
+      "passed": true,
+      "detail": [
+        [
+          "ches",
+          "CH+E+S"
+        ],
+        [
+          "chor",
+          "CH+OR"
+        ],
+        [
+          "ko",
+          "K+O"
+        ],
+        [
+          "she",
+          "SH+E"
+        ],
+        [
+          "shy",
+          "SH+Y"
+        ]
+      ]
+    },
+    {
+      "check": "generator_rerun_exit",
+      "passed": true,
+      "detail": "{\n  \"all_target_modes_peer_compatible_frame_count\": 20,\n  \"candidate_recurrent_frame_count\": 23,\n  \"complete_context_meaning_count\": 10,\n  \"complete_neutral_meaning_count\": 10,\n  \"minimum_frame_cover_size\": 5,\n  \"minimum_frame_cover_solution_count\": 6,\n  \"new_pages\": 0,\n  \"promoted_sequence_card_count\": 10,\n  \"recipe_changes\": 0,\n  \"residual_anchor_context_count\": 4,\n  \"residual_direct_interface_count\": 5,\n  \"residual_support_card_count\": 9,\n  \"root_meaning_changes\": 0,\n  \"selected_frame_count\": 5,\n  \"selected_frame_occurrence_count\": 31,\n  \"selected_frame_strong_peer_count\": 21,\n  \"selected_frame_target_count\": 10,\n  \"selected_same_mode_peer_contact_count\": 27,\n  \"source_sequence_card_count\": 10,\n  \"source_sequence_exact_old_cover_count\": 10,\n  \"status\": \"PASS_FIVE_RECURRENT_FRAMES_BRIDGE_ALL_10_SEQUENCE_DEFAULTS__NINE_SUPPORT_RESTS\"\n}\n"
+    },
+    {
+      "check": "generator_byte_determinism",
+      "passed": true,
+      "detail": {
+        "gdt550_23_candidate_recurrent_frames.tsv": "dbea0357b36704dfa165e2e3afd486001f134ce4415ac1c6ba6d6c7e1d3f22a6",
+        "gdt550_6_minimum_five_frame_covers.tsv": "d0774f85b856a4e8dc06961d110907cb063b73e987bc320f0343ad7636a68c25",
+        "gdt550_5_selected_bridge_frames.tsv": "165becd5afe9ce7819c787d25b5351732bee4683441da2dd8aaae01a6c86b4aa",
+        "gdt550_31_selected_frame_occurrences.tsv": "718a8101ccaad93ef5b77f5e033df2d18eab9bf4cf3b085cc6a05cdd1507733b",
+        "gdt550_10_promoted_sequence_cards.tsv": "fb7b9f1f101dddc7900a982abf9b5d5f21f2c09fa47adcf24ce79acafbcb0b07",
+        "gdt550_9_residual_support_queue.tsv": "0f4f54f06fc074de2a0a37c77b1bf4cd241ddb245666c3424cd151a7db14bdff",
+        "gdt550_recurrent_frame_summary.tsv": "9ced3086ed2638d75c4e01f8d4c5281a998d8c5d92bb25660b33265dd314114a",
+        "GDT550_RECURRENT_SEQUENCE_FRAME_BOOK.md": "4d7bdb66826097f8158b137a17f79e85f44ea0a4fb0a74a581ead36b66097a10",
+        "gdt550_result.json": "6c6df44cdbeb35fb361956d28b1bad37af129eb2ea95607a65d8682fad08d810"
+      }
+    }
+  ]
+}
