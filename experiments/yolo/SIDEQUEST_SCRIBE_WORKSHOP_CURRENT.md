@@ -1,6 +1,6 @@
 # Current twenty-six-page scribe-workshop theory
 
-Updated: 2026-08-27, after GDT511.
+Updated: 2026-08-27, after GDT512.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -1467,7 +1467,16 @@ long same-statement head inventory, Pharma a long same-owner/page inventory and
 Celestial a same-page cross-owner inventory. None is a local pair witness;
 Biological `G407-E1883` still supplies directed `S>CHD` order.
 
-Next revise the complete eleven-card sheet once so its mechanism and linkage
-tiers include GDT510–511, then stop this pair route. Do not collect more distant
-rectangles, reopen a meaning, or open a new page. Every bare target recipe
-remains an unobserved composition.
+GDT512 now replaces the outdated GDT509 summary with one complete current
+edition. Its seven visible support forms contain three local frame reductions,
+three local context bridges, one package projection, one exact contiguous
+suffix and the three graded long head inventories. All eleven cards have local
+factors; eight have target-register order, interval or package projection.
+Only the three `S+CHD+Y` cards retain cross-register-only pair order.
+
+The five neutral handgrips and all eleven working translations remain exactly
+unchanged. Close this pair route: do not collect more distant rectangles or
+promote a bare target. The next useful pass must introduce a different
+semantic endpoint inside the same 26 pages, not merely reissue the nineteen
+already contrasted root meanings. Every bare target recipe remains an
+unobserved composition.

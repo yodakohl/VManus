@@ -12342,3 +12342,28 @@ order remains sourced from Biological `E1883`, and every exact target remains
 unobserved. Validation passes 1,700/1,700. Next revise GDT509's eleven-card deck
 with the GDT510 suffix and GDT511 linkage tiers, then close this pair front
 without another page or meaning change.
+
+## GDT512 complete eleven-pair linkage-tier deck
+
+GDT512 reissues all eleven GDT509 translations with the GDT510–511 evidence
+incorporated. The deck now has seven explicit support geometries: three local
+argument-compatible frame reductions, three local context bridges, one local
+repeated-package projection, one local exact contiguous suffix, and one each
+of long same-statement, same-owner/page and same-page/cross-owner head
+inventory.
+
+All eleven cards have some target-register factor support. Eight have local
+pair order, an exact ordered interval or a package-level ordered projection.
+Only the three `S+CHD+Y` cards retain cross-register-only directed pair order
+from `G407-E1883`; their local evidence remains separate-head inventory. The
+seven display buckets are not a probability scale: the first four are
+different mechanisms, while only the last three carry an internal proximity
+ordering.
+
+All five handgrips and all eleven German working translations are byte-retained
+from GDT509. Every naked target stays unobserved `COMPOSED_WORKING`; zero root,
+phrase, evidence label, surface, occurrence or page changes. Validation passes
+281/281. Close this pair front. Do not reopen it through more distant
+rectangles, and do not merely relabel the nineteen meanings already audited in
+GDT409/GDT428/GDT429; a next route needs a genuinely different semantic
+endpoint within the same 26 pages.
