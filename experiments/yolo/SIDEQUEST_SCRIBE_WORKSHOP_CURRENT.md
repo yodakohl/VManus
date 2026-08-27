@@ -1,6 +1,6 @@
 # Current thirty-page scribe-workshop theory
 
-Updated: 2026-08-27, after GDT569.
+Updated: 2026-08-27, after GDT570.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -2431,9 +2431,30 @@ values, owner noun/relation/action voice, and two live slots for current action
 and argument. A short OL card says FORTSETZEN; it does not itself mean the full
 rendered instruction.
 
+## GDT570 modifier sequences are typed compositions, not learned phrases
+
+Of1,656 state cards,1,042 carry modifiers and172 carry more than one. Their154
+observed register×sequence cells and94 German phrases reduce to five residual
+wording cards plus four joins. The five cards say `als Ausführung`, `auf der
+bezeichneten Stufe`, `als neuen Einsatz`, `in der bezeichneten Klasse` and
+`mit der lokalen Variante`; all other modifier words already come from the
+owner voice.
+
+Grade and formal-control fragments form one operational class. Contiguous
+members of that class coordinate, as do contiguous relation or local-sign
+members; every change of class keeps its semicolon. This covers all224 adjacent
+type transitions:103 coordinate and121 retain a class boundary. Nothing is
+sorted and no complete modifier sequence becomes a dictionary word.
+
+The refinement changes164 state lines and no nonstate line. The concrete
+architecture is now19 short roots + owner voice + two live context slots +
+typed ordered modifiers. O and CARRIER_Q still retain16 explicit alternate
+new-page wordings in the audit; uniform prose is a workshop voice choice, not
+a semantic overwrite.
+
 ## Next work
 
-Factor the remaining small modifier joins by written type and order: especially
-`zur` versus `als Ausführung`, grade conjunctions, stage wording and the two
-rare reversed OT/OL sequences. Retain all four context modes,20 action frames,
-39 other voice cards, roots, recipes and boundaries. Open no page.
+Factor the nine written OT/OL/DY outer sequences into a minimal natural voice,
+especially direct repetition, `OT+OL`, `OL+OT` and `DY+OL`. Retain all four
+context modes,20 action frames,39 other voice cards, five modifier fragments,
+four joins, roots, recipes and boundaries. Open no page.

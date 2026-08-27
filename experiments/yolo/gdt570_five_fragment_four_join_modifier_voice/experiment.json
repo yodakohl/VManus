@@ -1,0 +1,156 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "The complete state, event, statement and page editions are required to establish exact modifier reconstruction, written-order preservation and byte-identical nonstate text; sampled rows cannot prove those invariants.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "A five-card German modifier-fragment voice and four-card order-preserving join layer for the current exploratory edition. It may refine 164 of 1,656 state clauses, coordinate 103 within-class modifier transitions and retain 121 cross-class boundaries while leaving all 3,466 nonstate clauses byte-identical. It adds no written atom or root value and confirms no Voynich lexeme, plaintext, language, syntax, genre, historical codebook or object identity.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt570_five_fragment_four_join_modifier_voice/src/run.py",
+    "validate": "python3 experiments/yolo/gdt570_five_fragment_four_join_modifier_voice/src/validate.py"
+  },
+  "created": "2026-08-27",
+  "dependencies": [
+    "GDT565",
+    "GDT567",
+    "GDT569"
+  ],
+  "experiment_id": "GDT570",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt569_four_context_carry_voice_frames/artifacts/gdt569_5122_context_voice_event_edition.tsv",
+      "role": "complete context-visible event edition",
+      "sha256": "7d56e320522dbe357727a4985ac3900a04b0861f7efac77223b1e838fba77223"
+    },
+    {
+      "path": "experiments/yolo/gdt569_four_context_carry_voice_frames/artifacts/gdt569_793_context_voice_statement_edition.tsv",
+      "role": "complete context-visible statement order",
+      "sha256": "efd7a3cce05c087e47d7f4b253efe746166bfb189221518b79daffa10d72de51"
+    },
+    {
+      "path": "experiments/yolo/gdt569_four_context_carry_voice_frames/artifacts/gdt569_1656_context_voice_state_clauses.tsv",
+      "role": "complete context-visible state edition",
+      "sha256": "0971ba866bf9a3f03d735c9da65545e45b9fabae545ae9b921beecac64ff43bf"
+    },
+    {
+      "path": "experiments/yolo/gdt569_four_context_carry_voice_frames/artifacts/gdt569_30_page_context_voice_profiles.tsv",
+      "role": "complete admitted-page order",
+      "sha256": "16bd77cbbcbd61faedff55ffbf532ca1623d7fd8efe3b96412149be33986bddd"
+    },
+    {
+      "path": "experiments/yolo/gdt565_state_microphrase_template_generator/artifacts/gdt565_1656_template_replay.tsv",
+      "role": "ordered modifier atoms and four-type sequences",
+      "sha256": "e2ad7b35667aa4bc562549198561cb96c6fb0545a9729c795e973020d659c39a"
+    },
+    {
+      "path": "experiments/yolo/gdt567_owner_voice_seam_adapter/artifacts/gdt567_39_owner_voice_adapter_cards.tsv",
+      "role": "observed register-relation and place voice terms",
+      "sha256": "8e479eca1d85f64f84ccfce686c71af9bcaf7d4ce386f0e88d14e7a11b689dd4"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt570_five_fragment_four_join_modifier_voice/METHOD.md",
+      "role": "modifier-fragment and join method",
+      "sha256": "ab33f746d19c9b4cab2058df4ac5e2e6d8fc2bd2e2f56a41caf0dd356ffe1fe2"
+    },
+    {
+      "path": "experiments/yolo/gdt570_five_fragment_four_join_modifier_voice/README.md",
+      "role": "experiment entry point",
+      "sha256": "ed9776770ffeb3f84bffff5e63e6bb52b76a8b60f3e0ac6af7a7148820730c6f"
+    },
+    {
+      "path": "experiments/yolo/gdt570_five_fragment_four_join_modifier_voice/REPORT.md",
+      "role": "primary result report",
+      "sha256": "54c0cb38bb09673042935e29f338b387127e285b0bd78b7592ac23b844910efe"
+    },
+    {
+      "path": "experiments/yolo/gdt570_five_fragment_four_join_modifier_voice/artifacts/GDT570_MODIFIER_VOICE_THIRTY_PAGE_EDITION.md",
+      "role": "complete readable modifier-voice edition",
+      "sha256": "ea1826c849d2cf802f8b17a528c913a1030e8abfe22710b780e87ea803565e45"
+    },
+    {
+      "path": "experiments/yolo/gdt570_five_fragment_four_join_modifier_voice/artifacts/README.md",
+      "role": "artifact guide",
+      "sha256": "6912582a35980fd9a19455d17179ffaeb993d11f9c7e0627f8ff017e130b17bd"
+    },
+    {
+      "path": "experiments/yolo/gdt570_five_fragment_four_join_modifier_voice/artifacts/gdt570_154_register_modifier_cells.tsv",
+      "role": "complete observed register by modifier sequence cells",
+      "sha256": "0c0e1a662a77b1ecb04d8d1034dcbde6cf554047c1c5b52a6ac1bf34ed4ae06b"
+    },
+    {
+      "path": "experiments/yolo/gdt570_five_fragment_four_join_modifier_voice/artifacts/gdt570_164_changed_modifier_clauses.tsv",
+      "role": "compact before and after audit",
+      "sha256": "5d2d9ed18300cb7f930bd09080972de75caa0db919f67db8fff603f206f3f630"
+    },
+    {
+      "path": "experiments/yolo/gdt570_five_fragment_four_join_modifier_voice/artifacts/gdt570_1656_modifier_voice_state_clauses.tsv",
+      "role": "complete modifier-voice state edition",
+      "sha256": "80251cc8745d547f249f72c05e04de1587cfb40471c0a1c6012ecc428224efad"
+    },
+    {
+      "path": "experiments/yolo/gdt570_five_fragment_four_join_modifier_voice/artifacts/gdt570_16_modifier_type_transition_profiles.tsv",
+      "role": "complete four by four modifier-type transition matrix",
+      "sha256": "8878e76411bc7ed4c87125427b9e6f1f8c4ebd8b57e08a486b12b7356f8134bc"
+    },
+    {
+      "path": "experiments/yolo/gdt570_five_fragment_four_join_modifier_voice/artifacts/gdt570_30_page_modifier_voice_profiles.tsv",
+      "role": "thirty page-level modifier profiles",
+      "sha256": "855224f1f6cc6bbd52aa87a13cfa960c3d6534c051bb63b141af765821cb7340"
+    },
+    {
+      "path": "experiments/yolo/gdt570_five_fragment_four_join_modifier_voice/artifacts/gdt570_4_modifier_join_cards.tsv",
+      "role": "four order-preserving modifier join cards",
+      "sha256": "b5584af573b4e312ffaa9855981b999bc47dadeca8fa1d5331e4d3fdd91090dc"
+    },
+    {
+      "path": "experiments/yolo/gdt570_five_fragment_four_join_modifier_voice/artifacts/gdt570_5122_modifier_voice_event_edition.tsv",
+      "role": "complete modifier-voice event edition",
+      "sha256": "0f6fed810340997a6857efbd88baf31b61e1905d3afa3a0f162a5fd7619f0417"
+    },
+    {
+      "path": "experiments/yolo/gdt570_five_fragment_four_join_modifier_voice/artifacts/gdt570_5_modifier_fragment_voice_cards.tsv",
+      "role": "five remaining modifier fragment voice cards",
+      "sha256": "10287f5e921d07c356129f3fb378e8abc12429f9f7c1ba8d9d1b6e61259d2d55"
+    },
+    {
+      "path": "experiments/yolo/gdt570_five_fragment_four_join_modifier_voice/artifacts/gdt570_793_modifier_voice_statement_edition.tsv",
+      "role": "complete modifier-voice statement edition",
+      "sha256": "cd9e859a01e8aa1821c6ef516b57def763bfcabcff89e2d0db024aa1767bd2ea"
+    },
+    {
+      "path": "experiments/yolo/gdt570_five_fragment_four_join_modifier_voice/artifacts/gdt570_result.json",
+      "role": "compact result object",
+      "sha256": "2e670bd5222d43cb7dbb786f344a5fbde77ff0c78e771cb2447e08fccd238896"
+    },
+    {
+      "path": "experiments/yolo/gdt570_five_fragment_four_join_modifier_voice/artifacts/gdt570_validation.json",
+      "role": "independent 44-check validation record",
+      "sha256": "82304b508fafcbfb90c89eda95f6ca5771355d3854c74bf53ba0b1cb6ac03fd9"
+    },
+    {
+      "path": "experiments/yolo/gdt570_five_fragment_four_join_modifier_voice/src/run.py",
+      "role": "reproducible modifier voice compiler",
+      "sha256": "7caa844eaf6876e53226278e107a74a548f1fa3777a68b8dc469452bb54b0902"
+    },
+    {
+      "path": "experiments/yolo/gdt570_five_fragment_four_join_modifier_voice/src/validate.py",
+      "role": "independent source validator",
+      "sha256": "e523ca4abc885f367e4bf17e414f320420acf69e6bf19023357c65af1478b926"
+    }
+  ],
+  "question": "Can all modifier wording and joining in the complete GDT569 state edition be reduced to five small German fragment cards and four order-preserving join rules without learning any complete modifier sequence as a meaning?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "five_fragment_four_join_modifier_voice",
+  "status": "PASS_5_FRAGMENT_CARDS__4_JOIN_RULES__154_MODIFIER_CELLS__224_TRANSITIONS__103_WITHIN_CLASS_COORDINATED__164_STATE_CLAUSES_REFINED__ZERO_ROOT_CHANGE",
+  "title": "five fragment four join modifier voice",
+  "updated": "2026-08-27",
+  "validation": {
+    "artifact": "experiments/yolo/gdt570_five_fragment_four_join_modifier_voice/artifacts/gdt570_validation.json",
+    "status": "PASS"
+  }
+}

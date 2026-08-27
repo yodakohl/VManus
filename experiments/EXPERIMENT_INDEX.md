@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **568**
-- Experiment-associated tracked files: **8,443** (848.0 MiB)
-- Structured GDT337+ experiments: **233**
+- Experiments indexed: **569**
+- Experiment-associated tracked files: **8,462** (852.7 MiB)
+- Structured GDT337+ experiments: **234**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT570 | GDT570_five_fragment_four_join_modifier_voice | `PASS_5_FRAGMENT_CARDS__4_JOIN_RULES__154_MODIFIER_CELLS__224_TRANSITIONS__103_WITHIN_CLASS_COORDINATED__164_STATE_CLAUSES_REFINED__ZERO_ROOT_CHANGE` | [report](../experiments/yolo/gdt570_five_fragment_four_join_modifier_voice/REPORT.md) | 19 | 4.7 MiB | 5 | STRUCTURED_YOLO |
 | GDT569 | GDT569_four_context_carry_voice_frames | `PASS_4_CONTEXT_MODES__693_ACTION_CARRIES__1208_ARGUMENT_CARRIES__1348_PRIOR_ARGUMENT_REALIZATIONS__1442_STATE_CLAUSES_CONTEXT_EXPLICIT__19_CARRIED_ARGUMENT_CELLS__ZERO_ROOT_CHANGE` | [report](../experiments/yolo/gdt569_four_context_carry_voice_frames/REPORT.md) | 19 | 5.4 MiB | 9 | STRUCTURED_YOLO |
 | GDT568 | GDT568_twenty_owner_action_voice_frames | `PASS_20_OWNER_ACTION_FRAMES__45_REGISTER_CELLS__763_STATE_CLAUSES_HARMONIZED__866_SHARED_ACTION_CONTACTS__FULL_FRAME_517_TO_866__HEAD_730_TO_866__ZERO_ROOT_CHANGE` | [report](../experiments/yolo/gdt568_twenty_owner_action_voice_frames/REPORT.md) | 19 | 6.5 MiB | 7 | STRUCTURED_YOLO |
 | GDT567 | GDT567_owner_voice_seam_adapter | `PASS_39_CARD_OWNER_VOICE_ADAPTER__1639_STATE_CLAUSES_HARMONIZED__1209_ARGUMENT_SEAMS_0_TO_1209_EXACT__20_RELATION_SEAMS_3_TO_20_EXACT__ZERO_ROOT_CHANGE` | [report](../experiments/yolo/gdt567_owner_voice_seam_adapter/REPORT.md) | 17 | 6.3 MiB | 2 | STRUCTURED_YOLO |

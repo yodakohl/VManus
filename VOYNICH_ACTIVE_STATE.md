@@ -13712,3 +13712,26 @@ pages while214 local state clauses and all3,466 nonstate clauses remain
 byte-identical. All51 checks pass. Use GDT569 as the current readable edition.
 Next factor the residual modifier joins and rare reversed OT/OL surface frames;
 do not open a page or retune a root.
+
+## GDT570 reduces all modifier wording to five fragments and four joins
+
+The1,042 modifier-bearing state cards contain224 adjacent modifier-type
+transitions. GDT570 preserves every written atom and its order while replacing
+the last five generic German fragments with one compact workshop voice: O “als
+Ausführung”, IIN “auf der bezeichneten Stufe”, CARRIER_Q “als neuen Einsatz”,
+AN “in der bezeichneten Klasse” and LOCAL_CHAR_G “mit der lokalen Variante”.
+The O and CARRIER_Q choices follow the dominant old-page voice; all16 alternate
+new-page forms remain explicit in the card audit rather than being reinterpreted.
+
+Grade and formal-control fragments form one operational modifier class;
+relations and local/class signs remain separate. The resulting four join cards
+coordinate103 same-class transitions and retain semicolons at121 class
+boundaries. This covers all16 possible ordered type pairs without learning any
+complete modifier sequence as a meaning.
+
+Five fragment cards and four join cards change164 state clauses,126 statements
+and27 pages. The other1,492 state clauses and all3,466 nonstate clauses remain
+byte-identical. All5,122 events,793 statements and30 pages replay in order and
+all44 checks pass. Use GDT570 as the current complete readable edition. Next
+factor the nine OT/OL/DY outer frames, beginning with direct repetition,
+`OT+OL`, `OL+OT` and `DY+OL`; no new page, atom or root value.
