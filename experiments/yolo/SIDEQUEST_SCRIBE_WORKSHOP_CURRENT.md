@@ -1,6 +1,6 @@
 # Current thirty-page scribe-workshop theory
 
-Updated: 2026-08-27, after GDT519.
+Updated: 2026-08-27, after GDT520.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -140,6 +140,19 @@ rank 8. Eight GDT518 errors are corrected and four hits are lost. The next
 closed-page route is positional renderer licensing for the 21 residuals,
 especially `dy`, `ol/O+L`, local signs and the four over-splits
 `chekeey|dsholdaiir|okedals|saiis`.
+
+GDT520 adds the missing visible Fugenkarte. GDT519's true old alignments expose
+7,433 internal character positions, which collapse to 199 character-pair and
+2,037 four-character open/closed renderer cells. The selected default adds
+only `0.10` per renderer segment and `0.10` times the complete boundary cost.
+It therefore prefers the licensed whole `chek~CH+K` in `chekeey` without
+turning CH+K into an indivisible word. Four-fold old rank one rises
+1,082→1,089 and rank sum falls 2,152→2,139. The current 159 reach 139 rank one,
+154 top two, 158 top three/top five and rank sum 190. `chekeey` and
+`shckheody` are repaired; `psheody` is lost. The paired result is informative:
+the same visible `...eody` tail genuinely carries both `O+DY` and
+`O+D_ADDR+Y`, so the next closed-page layer must use short preceding recipe
+tails rather than merely strengthening visible boundary preferences.
 
 GDT459–GDT484 now resolve the formerly opaque local-address tail as the mixed
 codebook architecture anticipated by the sidequest: portable function cards

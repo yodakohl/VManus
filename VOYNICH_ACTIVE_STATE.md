@@ -12594,3 +12594,26 @@ GDT519 stem-aligned finite candidate. Anchors are visible structural handles,
 not translations. The next closed-page route is positional renderer licensing
 for the 21 residuals, especially `dy`, `ol/O+L`, local characters and the four
 over-splits `chekeey`, `dsholdaiir`, `okedals`, `saiis`.
+
+## GDT520 renderer boundary license lattice
+
+GDT520 learns whether each internal visible character position is normally
+open between renderer segments or closed inside one. GDT519's true alignments
+over the 1,558 old surface types supply 7,433 positions, 199 character-pair
+cells and 2,037 four-character windows. Pair probabilities back off by eight
+contacts to the global rate; windows back off by four to their pair. The live
+unknown-form score adds `0.10 * segment_count + 0.10 * boundary_NLL` to
+GDT519. Exact event and known surface/role cards retain precedence.
+
+In the four rotating old folds the selected model moves 1,082→1,089 rank-one,
+1,319→1,321 top-two, 1,377→1,381 top-three and rank sum 2,152→2,139; top-five
+moves 1,418→1,416 and deepest rank 23→22. On the current 159 it moves
+138→139 rank-one, 153→154 top-two, 157→158 top-three, keeps 158 top-five and
+lowers rank sum 192→190; deepest rank becomes nine. Two GDT519 errors are
+corrected (`chekeey`, `shckheody`) and one hit is lost (`psheody`).
+
+The `shckheody/psheody` contrast closes a purely visible strengthening route:
+the identical `...eody` tail supports both `O+DY` and `O+D_ADDR+Y` in the
+working deck. Next learn short recipe-tail licenses for this family, `OL/O+L`
+and IIN/address/local-character alternatives; do not add full-form exceptions
+or open another page.
