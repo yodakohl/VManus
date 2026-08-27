@@ -13928,3 +13928,29 @@ Use GDT578 as the current readable edition. Next factor only the seven
 raw-adjacent outer/inner pairs. Keep the ten interrupted pairs as two explicit
 scope slots in raw modifier order because fifteen written intervening atoms
 would otherwise disappear from the prose trace. Open no page and add no root.
+
+## GDT579 factors only physically adjacent scope twins
+
+All seventeen existing outer/inner relation pairs now have a concrete German
+voice, but only the seven roots that are neighbours in the raw recipe share a
+single base phrase: for example `von der Ausgangsposition im äußeren und im
+inneren Zweig`. Both written positions remain separate inverse slots. The ten
+interrupted pairs instead retain two complete locally headed phrases, because
+their interval contains fifteen visible atoms—ten actions and five modifiers
+or sigla—that must not disappear inside a remote coordination.
+
+The resulting 34 slot assignments reuse twenty GDT407 and eight GDT515 focus
+bindings. Four O slots use the GDT577 nearest-visible-action working choice;
+the two D_ADDR slots at G515-E0385 use the active R/Kennzeichnen context rather
+than the intervening AR. G407-E4142 retains its fixed visible-owner head. The
+ten interrupted events split into two same-head brackets, seven distinct-head
+routes and one active-context route. No count or repeat particle is used for a
+scope contrast.
+
+Exactly seventeen events, seventeen statements and ten pages change against
+GDT578. The cumulative delta against GDT574 is763 events,309 statements and28
+pages;all5,122 events and793 statements recover GDT578 byte-exactly,including
+four prior GDT578 changes inside three overlap statements. All48 independent
+checks pass. Use GDT579 as the current readable edition. Next treat only the
+three raw-adjacent identical relation pairs;first resolve whether G515-E0379's
+AL+AL remains bound to its preceding T context rather than the visible SH.
