@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **528**
-- Experiment-associated tracked files: **7,759** (811.8 MiB)
-- Structured GDT337+ experiments: **193**
+- Experiments indexed: **529**
+- Experiment-associated tracked files: **7,776** (811.9 MiB)
+- Structured GDT337+ experiments: **194**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT530 | GDT530_exact_superform_peel_revision | `PASS_EXACT_SUPERFORM_PEEL_WORKING_REVISION` | [report](../experiments/yolo/gdt530_exact_superform_peel_revision/REPORT.md) | 17 | 187.7 KiB | 5 | STRUCTURED_YOLO |
 | GDT529 | GDT529_nearest_terminal_m_square | `PASS_ACTION_SLOT_TERMINAL_M_SQUARE` | [report](../experiments/yolo/gdt529_nearest_terminal_m_square/REPORT.md) | 21 | 327.3 KiB | 13 | STRUCTURED_YOLO |
 | GDT528 | GDT528_neighbor_certified_inner_d_null | `PASS_NEIGHBOR_CERTIFIED_TERMINAL_D_NULL` | [report](../experiments/yolo/gdt528_neighbor_certified_inner_d_null/REPORT.md) | 20 | 437.7 KiB | 12 | STRUCTURED_YOLO |
 | GDT527 | GDT527_right_edge_learned_stem_extension | `PASS_CERTIFIED_S_STEM_AND_ATOMIC_OL_REVISION` | [report](../experiments/yolo/gdt527_right_edge_learned_stem_extension/REPORT.md) | 20 | 352.0 KiB | 11 | STRUCTURED_YOLO |

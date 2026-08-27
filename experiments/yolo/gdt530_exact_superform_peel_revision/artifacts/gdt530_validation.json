@@ -1,0 +1,587 @@
+{
+  "experiment_id": "GDT530",
+  "status": "PASS",
+  "check_count": 33,
+  "passed_count": 33,
+  "failed_count": 0,
+  "checks": [
+    {
+      "check": "result_status",
+      "pass": true,
+      "detail": "PASS_EXACT_SUPERFORM_PEEL_WORKING_REVISION"
+    },
+    {
+      "check": "claim_ceiling",
+      "pass": true,
+      "detail": "EXPLORATORY_EXACT_SUPERFORM_PEEL_WORKING_REVISION__NO_GLOBAL_CHY_RULE_OR_CONFIRMED_PLAINTEXT"
+    },
+    {
+      "check": "edition_count",
+      "pass": true,
+      "detail": 159
+    },
+    {
+      "check": "edition_unique",
+      "pass": true,
+      "detail": 159
+    },
+    {
+      "check": "one_working_change",
+      "pass": true,
+      "detail": [
+        "chekchy"
+      ]
+    },
+    {
+      "check": "chekchy_recipe",
+      "pass": true,
+      "detail": {
+        "surface": "chekchy",
+        "occurrence_count": "1",
+        "physical_pages": "f66r",
+        "truth_recipe": "CH+K+CH+Y",
+        "revised_working_recipe": "CH+K+CH+Y",
+        "gdt528_rank": "2",
+        "gdt528_revised_rank": "2",
+        "gdt528_top1": "CH+K+Y",
+        "gdt529_rank": "2",
+        "gdt529_revised_rank": "2",
+        "gdt529_top1": "CH+K+Y",
+        "gdt529_top5": "CH+K+Y | CH+K+CH+Y | CH+K+LOCAL_C+Y | CH+E+K+CH+Y | CH+E+K+Y",
+        "truth_gdt528_score": "5.952739492",
+        "truth_square_feature": "0.000000000",
+        "truth_gdt529_score": "5.952739492",
+        "truth_square_trace": "NO_TERMINAL_M",
+        "top1_gdt528_score": "4.646258486",
+        "top1_square_feature": "0.000000000",
+        "top1_gdt529_score": "4.646258486",
+        "top1_square_trace": "NO_TERMINAL_M",
+        "top1_alignment_trace": "chekc=>chek~CH+K@edit1+alias0.291 | hy=>hy~Y@edit0+alias0.254",
+        "decision_change_class": "GDT528_ERROR_UNCHANGED",
+        "working_policy": "ACTION_SLOT_TRIAD_PLUS_NEAREST_TERMINAL_M_EDIT_SQUARE",
+        "gdt530_working_recipe": "CH+K+Y",
+        "gdt530_working_rank": "1",
+        "gdt530_literal_reading_de": "NEHMEN · GEBEN · POSTEN",
+        "gdt530_short_phrase_de": "Nehmen, geben und posten.",
+        "gdt530_evidence": "ychekchy=Y+CH+K+Y; peel initial y/Y; old left y/Y signature 54/59; exact old ckhy=CH+K+Y",
+        "gdt530_policy": "GDT530_EXACT_SUPERFORM_PEEL_REVISION"
+      }
+    },
+    {
+      "check": "chekchy_reading",
+      "pass": true,
+      "detail": "Nehmen, geben und posten."
+    },
+    {
+      "check": "route_count",
+      "pass": true,
+      "detail": 25
+    },
+    {
+      "check": "route_surface_count",
+      "pass": true,
+      "detail": 14
+    },
+    {
+      "check": "route_classes",
+      "pass": true,
+      "detail": {
+        "SUPPORTS_TOP1_ALTERNATIVE": 1,
+        "SUPPORTS_EXISTING_WORKING_AND_TOP1": 24
+      }
+    },
+    {
+      "check": "single_selected_revision",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "check": "selected_exact_route",
+      "pass": true,
+      "detail": {
+        "surface": "chekchy",
+        "previous_working_recipe": "CH+K+CH+Y",
+        "gdt529_top1": "CH+K+Y",
+        "supported_candidate_recipe": "CH+K+Y",
+        "supported_candidate_roles": "TOP1",
+        "route_class": "SUPPORTS_TOP1_ALTERNATIVE",
+        "old_superform": "ychekchy",
+        "old_superform_recipe": "Y+CH+K+Y",
+        "removed_visible": "y",
+        "visible_index": "0",
+        "visible_position": "LEFT",
+        "removed_atom": "Y",
+        "atom_index": "0",
+        "atom_position": "LEFT",
+        "support_pair_count": "54",
+        "visible_condition_total": "59",
+        "visible_condition_option_count": "5",
+        "conditional_probability": "0.886178862",
+        "reliability": "0.964285714",
+        "signature_examples": "kal>ykal | kaiin>ykaiin | shey>yshey | dain>ydain | tain>ytain | cheey>ycheey | cheor>ycheor | tchy>ytchy",
+        "route_strength": "STRONG_OLD_EDIT_SIGNATURE",
+        "old_event_count": "1",
+        "old_pages": "f17r",
+        "old_registers": "HERBAL",
+        "old_event_ids": "P1003-E0036",
+        "old_loci": "f17r.5",
+        "gdt529_working_rank": "2",
+        "gdt530_working_rank": "1",
+        "gdt530_working_recipe": "CH+K+Y",
+        "working_literal_de": "NEHMEN · GEBEN · POSTEN",
+        "working_phrase_de": "Nehmen, geben und posten.",
+        "decision": "REVISE_WORKING_RECIPE_TO_SUPPORTED_TOP1"
+      }
+    },
+    {
+      "check": "selected_peel",
+      "pass": true,
+      "detail": {
+        "surface": "chekchy",
+        "previous_working_recipe": "CH+K+CH+Y",
+        "gdt529_top1": "CH+K+Y",
+        "supported_candidate_recipe": "CH+K+Y",
+        "supported_candidate_roles": "TOP1",
+        "route_class": "SUPPORTS_TOP1_ALTERNATIVE",
+        "old_superform": "ychekchy",
+        "old_superform_recipe": "Y+CH+K+Y",
+        "removed_visible": "y",
+        "visible_index": "0",
+        "visible_position": "LEFT",
+        "removed_atom": "Y",
+        "atom_index": "0",
+        "atom_position": "LEFT",
+        "support_pair_count": "54",
+        "visible_condition_total": "59",
+        "visible_condition_option_count": "5",
+        "conditional_probability": "0.886178862",
+        "reliability": "0.964285714",
+        "signature_examples": "kal>ykal | kaiin>ykaiin | shey>yshey | dain>ydain | tain>ytain | cheey>ycheey | cheor>ycheor | tchy>ytchy",
+        "route_strength": "STRONG_OLD_EDIT_SIGNATURE",
+        "old_event_count": "1",
+        "old_pages": "f17r",
+        "old_registers": "HERBAL",
+        "old_event_ids": "P1003-E0036",
+        "old_loci": "f17r.5",
+        "gdt529_working_rank": "2",
+        "gdt530_working_rank": "1",
+        "gdt530_working_recipe": "CH+K+Y",
+        "working_literal_de": "NEHMEN · GEBEN · POSTEN",
+        "working_phrase_de": "Nehmen, geben und posten.",
+        "decision": "REVISE_WORKING_RECIPE_TO_SUPPORTED_TOP1"
+      }
+    },
+    {
+      "check": "selected_signature",
+      "pass": true,
+      "detail": {
+        "surface": "chekchy",
+        "previous_working_recipe": "CH+K+CH+Y",
+        "gdt529_top1": "CH+K+Y",
+        "supported_candidate_recipe": "CH+K+Y",
+        "supported_candidate_roles": "TOP1",
+        "route_class": "SUPPORTS_TOP1_ALTERNATIVE",
+        "old_superform": "ychekchy",
+        "old_superform_recipe": "Y+CH+K+Y",
+        "removed_visible": "y",
+        "visible_index": "0",
+        "visible_position": "LEFT",
+        "removed_atom": "Y",
+        "atom_index": "0",
+        "atom_position": "LEFT",
+        "support_pair_count": "54",
+        "visible_condition_total": "59",
+        "visible_condition_option_count": "5",
+        "conditional_probability": "0.886178862",
+        "reliability": "0.964285714",
+        "signature_examples": "kal>ykal | kaiin>ykaiin | shey>yshey | dain>ydain | tain>ytain | cheey>ycheey | cheor>ycheor | tchy>ytchy",
+        "route_strength": "STRONG_OLD_EDIT_SIGNATURE",
+        "old_event_count": "1",
+        "old_pages": "f17r",
+        "old_registers": "HERBAL",
+        "old_event_ids": "P1003-E0036",
+        "old_loci": "f17r.5",
+        "gdt529_working_rank": "2",
+        "gdt530_working_rank": "1",
+        "gdt530_working_recipe": "CH+K+Y",
+        "working_literal_de": "NEHMEN · GEBEN · POSTEN",
+        "working_phrase_de": "Nehmen, geben und posten.",
+        "decision": "REVISE_WORKING_RECIPE_TO_SUPPORTED_TOP1"
+      }
+    },
+    {
+      "check": "old_superform_exact",
+      "pass": true,
+      "detail": {
+        "recipes": [
+          "Y+CH+K+Y"
+        ],
+        "events": 1
+      }
+    },
+    {
+      "check": "independent_ckhy_support",
+      "pass": true,
+      "detail": {
+        "recipes": [
+          "CH+K+Y"
+        ],
+        "events": 2
+      }
+    },
+    {
+      "check": "target_not_old_exact",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "source_signature_exact",
+      "pass": true,
+      "detail": {
+        "visible_insert": "y",
+        "visible_position": "LEFT",
+        "atom_insert": "Y",
+        "atom_position": "LEFT",
+        "support_pair_count": "54",
+        "visible_condition_total": "59",
+        "visible_condition_option_count": "5",
+        "conditional_probability": "0.886178862",
+        "reliability": "0.964285714",
+        "examples": "kal>ykal | kaiin>ykaiin | shey>yshey | dain>ydain | tain>ytain | cheey>ycheey | cheor>ycheor | tchy>ytchy"
+      }
+    },
+    {
+      "check": "all_route_deletions_exact",
+      "pass": true,
+      "detail": "25/25"
+    },
+    {
+      "check": "all_route_sources_invariant",
+      "pass": true,
+      "detail": "25/25"
+    },
+    {
+      "check": "all_route_signatures_exact",
+      "pass": true,
+      "detail": "25/25"
+    },
+    {
+      "check": "previous_metrics",
+      "pass": true,
+      "detail": {
+        "target_count": 159,
+        "truth_generated_count": 159,
+        "top1_exact_count": 152,
+        "top2_exact_count": 157,
+        "top3_exact_count": 158,
+        "top5_exact_count": 158,
+        "rank_sum": 174,
+        "deepest_truth_rank": 9
+      }
+    },
+    {
+      "check": "revised_metrics",
+      "pass": true,
+      "detail": {
+        "target_count": 159,
+        "truth_generated_count": 159,
+        "top1_exact_count": 153,
+        "top2_exact_count": 157,
+        "top3_exact_count": 158,
+        "top5_exact_count": 158,
+        "rank_sum": 173,
+        "deepest_truth_rank": 9
+      }
+    },
+    {
+      "check": "one_rank_improvement_no_loss",
+      "pass": true,
+      "detail": "one improved; zero worsened"
+    },
+    {
+      "check": "old_chy_type_count",
+      "pass": true,
+      "detail": 54
+    },
+    {
+      "check": "old_chy_type_split",
+      "pass": true,
+      "detail": {
+        "TAIL_Y_WITHOUT_CH": 28,
+        "TAIL_CH_PLUS_Y": 26
+      }
+    },
+    {
+      "check": "old_chy_event_split",
+      "pass": true,
+      "detail": {
+        "TAIL_Y_WITHOUT_CH": 69,
+        "TAIL_CH_PLUS_Y": 34
+      }
+    },
+    {
+      "check": "current_chy_count",
+      "pass": true,
+      "detail": 7
+    },
+    {
+      "check": "current_chy_split",
+      "pass": true,
+      "detail": {
+        "TAIL_CH_PLUS_Y": 6,
+        "TAIL_Y_WITHOUT_CH": 1
+      }
+    },
+    {
+      "check": "chy_context_guard",
+      "pass": true,
+      "detail": "CHY_IS_CONTEXT_DEPENDENT__EXACT_SUPERFORM_PEEL_IS_NOT_A_GLOBAL_SUFFIX_RULE__NO_NEW_PAGES"
+    },
+    {
+      "check": "remaining_queue",
+      "pass": true,
+      "detail": [
+        "aiicthy",
+        "dairykodas",
+        "dalcheeeky",
+        "dsholdaiir",
+        "qef",
+        "saiis"
+      ]
+    },
+    {
+      "check": "executable_default",
+      "pass": true,
+      "detail": {
+        "surface": "chekchy",
+        "context": {
+          "left_recipe": "NONE",
+          "right_recipe": "NONE",
+          "page": "f66r",
+          "domain": "AUTO"
+        },
+        "selected_stage": "DUAL_M_SQUARE_BIN_W125",
+        "selected_feature": "DUAL_SQUARE_BINARY",
+        "selected_weight": 1.25,
+        "family_certificate": "TWO_ACTION_STEM_WITH_EXACT_O_OL_OR_RIGHT_SLOT_TRIAD",
+        "edit_certificate": "UNANIMOUS_NEAREST_EXACT_TERMINAL_M_PAIR_AT_DISTANCE_ONE",
+        "exact_event_match_count": 1,
+        "known_surface_option_count": 1,
+        "working_revision": "CH+K+Y",
+        "reranked_candidates": [
+          {
+            "compiler_rank": 1,
+            "recipe": "CH+K+Y",
+            "gdt524_score": 4.633338557548945,
+            "nearest_analogy_trace": "NO_SUPPORTED_TRANSFORMATION;base=cheky",
+            "path_null_trace": "NO_DOMINANT_PATH_NULL",
+            "consensus_trace": "NO_TWO_DISTINCT_BASE_AND_EDIT_CHANNELS",
+            "independent_base_count": 0,
+            "alignment_trace": "chek=>chek~CH+K@edit0+alias0.295 | chy=>hy~Y@edit1+alias0.279",
+            "derivation": "chekchy=CH+K+Y@0.5000/2",
+            "chain_feature": 0.0,
+            "gdt525_score": 4.633338557548945,
+            "chain_trace": "NO_POSITIVE_DISTINCT_TWO_HOP_CHANNELS",
+            "ordered_pair_support": 0,
+            "cha_feature": 0.0,
+            "cha_trace": "NO_CHA_PREFIX",
+            "cha_suffix": "NONE",
+            "cha_atom_insert": "NONE",
+            "gdt526_score": 4.633338557548945,
+            "stem_feature": 0.0,
+            "stem_trace": "NO_TRANSPARENT_LS_SUFFIX",
+            "stem_base": "NONE",
+            "stem_certificate": "NONE",
+            "gdt527_score": 4.633338557548945,
+            "d_null_feature": 0.0,
+            "d_null_trace": "NO_ONE_SUBSTITUTION_EQUAL_RECIPE_D_NULL_NEIGHBOUR",
+            "d_null_base": "NONE",
+            "d_null_certificate": "NONE",
+            "d_null_action_change": "NONE",
+            "gdt528_score": 4.633338557548945,
+            "m_square_feature": 0.0,
+            "m_square_trace": "NO_TERMINAL_M",
+            "m_square_base": "NONE",
+            "m_square_family": "NONE",
+            "m_square_certificate": "NONE",
+            "m_square_terminal_atom": "NONE",
+            "gdt529_score": 4.633338557548945
+          },
+          {
+            "compiler_rank": 3,
+            "recipe": "CH+K+CH+Y",
+            "gdt524_score": 4.695101831775663,
+            "nearest_analogy_trace": "NO_SUPPORTED_TRANSFORMATION;base=cheky",
+            "path_null_trace": "NO_DOMINANT_PATH_NULL",
+            "consensus_trace": "NO_TWO_DISTINCT_BASE_AND_EDIT_CHANNELS",
+            "independent_base_count": 0,
+            "alignment_trace": "chek=>chek~CH+K@edit0+alias0.295 | ch=>ch~CH@edit0+alias0.000 | y=>y~Y@edit0+alias0.000",
+            "derivation": "chekchy=CH+K+CH+Y@0.2500/1",
+            "chain_feature": 0.0,
+            "gdt525_score": 4.695101831775663,
+            "chain_trace": "NO_POSITIVE_DISTINCT_TWO_HOP_CHANNELS",
+            "ordered_pair_support": 0,
+            "cha_feature": 0.0,
+            "cha_trace": "NO_CHA_PREFIX",
+            "cha_suffix": "NONE",
+            "cha_atom_insert": "NONE",
+            "gdt526_score": 4.695101831775663,
+            "stem_feature": 0.0,
+            "stem_trace": "NO_TRANSPARENT_LS_SUFFIX",
+            "stem_base": "NONE",
+            "stem_certificate": "NONE",
+            "gdt527_score": 4.695101831775663,
+            "d_null_feature": 0.0,
+            "d_null_trace": "NO_ONE_SUBSTITUTION_EQUAL_RECIPE_D_NULL_NEIGHBOUR",
+            "d_null_base": "NONE",
+            "d_null_certificate": "NONE",
+            "d_null_action_change": "NONE",
+            "gdt528_score": 4.695101831775663,
+            "m_square_feature": 0.0,
+            "m_square_trace": "NO_TERMINAL_M",
+            "m_square_base": "NONE",
+            "m_square_family": "NONE",
+            "m_square_certificate": "NONE",
+            "m_square_terminal_atom": "NONE",
+            "gdt529_score": 4.695101831775663
+          },
+          {
+            "compiler_rank": 7,
+            "recipe": "CH+E+K+CH+Y",
+            "gdt524_score": 7.917667133937084,
+            "nearest_analogy_trace": "NO_SUPPORTED_TRANSFORMATION;base=cheky",
+            "path_null_trace": "NO_DOMINANT_PATH_NULL",
+            "consensus_trace": "NO_TWO_DISTINCT_BASE_AND_EDIT_CHANNELS",
+            "independent_base_count": 0,
+            "alignment_trace": "ch=>ch~CH@edit0+alias0.000 | e=>e~E@edit0+alias0.000 | k=>k~K@edit0+alias0.000 | ch=>ch~CH@edit0+alias0.000 | y=>y~Y@edit0+alias0.000",
+            "derivation": "che=CH+E@0.6438/300 | kchy=K+CH+Y@0.2424/8",
+            "chain_feature": 0.0,
+            "gdt525_score": 7.917667133937084,
+            "chain_trace": "NO_REPEATED_K_BASE_Y_THEN_E_CHAIN",
+            "ordered_pair_support": 0,
+            "cha_feature": 0.0,
+            "cha_trace": "NO_CHA_PREFIX",
+            "cha_suffix": "NONE",
+            "cha_atom_insert": "NONE",
+            "gdt526_score": 7.917667133937084,
+            "stem_feature": 0.0,
+            "stem_trace": "NO_TRANSPARENT_LS_SUFFIX",
+            "stem_base": "NONE",
+            "stem_certificate": "NONE",
+            "gdt527_score": 7.917667133937084,
+            "d_null_feature": 0.0,
+            "d_null_trace": "NO_ONE_SUBSTITUTION_EQUAL_RECIPE_D_NULL_NEIGHBOUR",
+            "d_null_base": "NONE",
+            "d_null_certificate": "NONE",
+            "d_null_action_change": "NONE",
+            "gdt528_score": 7.917667133937084,
+            "m_square_feature": 0.0,
+            "m_square_trace": "NO_TERMINAL_M",
+            "m_square_base": "NONE",
+            "m_square_family": "NONE",
+            "m_square_certificate": "NONE",
+            "m_square_terminal_atom": "NONE",
+            "gdt529_score": 7.917667133937084
+          },
+          {
+            "compiler_rank": 4,
+            "recipe": "CH+E+K+Y",
+            "gdt524_score": 8.623755160668473,
+            "nearest_analogy_trace": "NO_SUPPORTED_TRANSFORMATION;base=cheky",
+            "path_null_trace": "NO_DOMINANT_PATH_NULL",
+            "consensus_trace": "NO_TWO_DISTINCT_BASE_AND_EDIT_CHANNELS",
+            "independent_base_count": 0,
+            "alignment_trace": "ch=>ch~CH@edit0+alias0.000 | e=>e~E@edit0+alias0.000 | kchy=>khy~K+Y@edit1+alias0.250",
+            "derivation": "che=CH+E@0.6438/300 | kchy=K+Y@0.5455/18",
+            "chain_feature": 0.0,
+            "gdt525_score": 8.623755160668473,
+            "chain_trace": "NO_REPEATED_K_BASE_Y_THEN_E_CHAIN",
+            "ordered_pair_support": 0,
+            "cha_feature": 0.0,
+            "cha_trace": "NO_CHA_PREFIX",
+            "cha_suffix": "NONE",
+            "cha_atom_insert": "NONE",
+            "gdt526_score": 8.623755160668473,
+            "stem_feature": 0.0,
+            "stem_trace": "NO_TRANSPARENT_LS_SUFFIX",
+            "stem_base": "NONE",
+            "stem_certificate": "NONE",
+            "gdt527_score": 8.623755160668473,
+            "d_null_feature": 0.0,
+            "d_null_trace": "NO_ONE_SUBSTITUTION_EQUAL_RECIPE_D_NULL_NEIGHBOUR",
+            "d_null_base": "NONE",
+            "d_null_certificate": "NONE",
+            "d_null_action_change": "NONE",
+            "gdt528_score": 8.623755160668473,
+            "m_square_feature": 0.0,
+            "m_square_trace": "NO_TERMINAL_M",
+            "m_square_base": "NONE",
+            "m_square_family": "NONE",
+            "m_square_certificate": "NONE",
+            "m_square_terminal_atom": "NONE",
+            "gdt529_score": 8.623755160668473
+          },
+          {
+            "compiler_rank": 6,
+            "recipe": "CH+K+E+Y",
+            "gdt524_score": 8.64988632836459,
+            "nearest_analogy_trace": "cheky+ch=>NULL@INNER/NULL;n=22/67;p=0.321429;r=0.916667;b=-0.032065",
+            "path_null_trace": "NO_DOMINANT_PATH_NULL",
+            "consensus_trace": "NO_TWO_DISTINCT_BASE_AND_EDIT_CHANNELS",
+            "independent_base_count": 0,
+            "alignment_trace": "chek=>chek~CH+K@edit0+alias0.295 | c=>e~E@edit1+alias0.000 | hy=>hy~Y@edit0+alias0.279",
+            "derivation": "chek=CH+K+E@0.3467/26 | chy=Y@0.4692/99",
+            "chain_feature": 0.0,
+            "gdt525_score": 8.64988632836459,
+            "chain_trace": "NO_REPEATED_K_BASE_Y_THEN_E_CHAIN",
+            "ordered_pair_support": 0,
+            "cha_feature": 0.0,
+            "cha_trace": "NO_CHA_PREFIX",
+            "cha_suffix": "NONE",
+            "cha_atom_insert": "NONE",
+            "gdt526_score": 8.64988632836459,
+            "stem_feature": 0.0,
+            "stem_trace": "NO_TRANSPARENT_LS_SUFFIX",
+            "stem_base": "NONE",
+            "stem_certificate": "NONE",
+            "gdt527_score": 8.64988632836459,
+            "d_null_feature": 0.0,
+            "d_null_trace": "NO_ONE_SUBSTITUTION_EQUAL_RECIPE_D_NULL_NEIGHBOUR",
+            "d_null_base": "NONE",
+            "d_null_certificate": "NONE",
+            "d_null_action_change": "NONE",
+            "gdt528_score": 8.64988632836459,
+            "m_square_feature": 0.0,
+            "m_square_trace": "NO_TERMINAL_M",
+            "m_square_base": "NONE",
+            "m_square_family": "NONE",
+            "m_square_certificate": "NONE",
+            "m_square_terminal_atom": "NONE",
+            "gdt529_score": 8.64988632836459
+          }
+        ],
+        "selection_precedence": "GDT530_WORKING_REVISION>GDT529_INTAKE_PRECEDENCE",
+        "default_selection": "CH+K+Y",
+        "guard": "EXACT_OLD_SUPERFORM_PEEL_WITH_MATCHING_EDIT_SIGNATURE__CHY_REMAINS_CONTEXT_DEPENDENT__NO_CONFIRMED_PLAINTEXT",
+        "selected_working_layer": "GDT530_EXACT_SUPERFORM_PEEL_REVISION",
+        "gdt529_default_selection": "CH+K+CH+Y",
+        "superform_certificate": {
+          "old_superform": "ychekchy",
+          "old_superform_recipe": "Y+CH+K+Y",
+          "peel": "initial y/Y@LEFT/LEFT",
+          "old_signature_support": "54/59",
+          "old_signature_probability": 0.886178862,
+          "old_signature_reliability": 0.964285714,
+          "independent_exact_old_recipe": "ckhy=CH+K+Y (2 events)"
+        },
+        "working_literal_de": "NEHMEN · GEBEN · POSTEN",
+        "working_phrase_de": "Nehmen, geben und posten."
+      }
+    },
+    {
+      "check": "no_new_page_guard",
+      "pass": true,
+      "detail": "CHY_IS_CONTEXT_DEPENDENT__EXACT_SUPERFORM_PEEL_IS_NOT_A_GLOBAL_SUFFIX_RULE__NO_NEW_PAGES"
+    }
+  ]
+}
