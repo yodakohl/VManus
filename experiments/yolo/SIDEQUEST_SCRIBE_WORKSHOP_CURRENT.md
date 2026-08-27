@@ -1,6 +1,6 @@
 # Current thirty-page scribe-workshop theory
 
-Updated: 2026-08-27, after GDT524.
+Updated: 2026-08-27, after GDT525.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -202,6 +202,17 @@ rises1,096→1,098. Two apparent supports for `kcheeky` both repeat `k→K`, so
 they are deliberately one channel and its correct reading stays untouched.
 Fifteen errors remain; the next closed-page pass should separate single-route,
 weak two-route and route-less forms before trying one intermediate stem.
+
+GDT525 supplies the first productive intermediate-stem closure. Broad two-hop
+composition is noisy, but one old six-carrier sequence holds when conditioned
+on a K-beginning base: right `y→Y`, then inner `e→E`. It leaves every old
+four-fold metric unchanged and closes the three current K forms as
+`kcheody=K+CH+E+O+D_ADDR+Y`, `kechody=K+E+CH+O+D_ADDR+Y` and
+`keody=K+E+O+D_ADDR+Y`. The `kcheody` change replaces a GDT515 default that was
+explicitly retained only until a better parse; it is not hidden as a benchmark
+loss. In the revised working edition GDT524 has143 and GDT525146 current
+rank-one recipes, with13 residuals. The rule stays K-local and does not flatten
+the known CH-/SH-context split of visible `eody` tails.
 
 GDT459–GDT484 now resolve the formerly opaque local-address tail as the mixed
 codebook architecture anticipated by the sidequest: portable function cards

@@ -12709,3 +12709,32 @@ a valid two-route feature and fifteen current top-one errors remain. Next sort
 those residuals by one-route, weak compatible two-route and no-route support,
 then try an intermediate-base composition for the middle class. Do not add a
 target whole-form card or open another page.
+
+## GDT525 K-base two-hop stem closure
+
+GDT525 first enumerates every two-edit route from an old base through one
+explicit intermediate surface/recipe to a finite target candidate. The old
+deck contains4,833 ordered edit-pair types over6,141 carriers, of which749
+repeat. Unrestricted positive-chain sums are too broad: current rank one falls
+144→136 and old fold rank one1,098→1,084. Repeated pair support alone also
+over-rewards visible over-segmentation. Keep those variants only in the model
+ladder.
+
+The selected card requires a K-initial base recipe, right `y→Y`, then inner
+`e→E`, and at least two old ordered-pair carriers. The pair has six old triples:
+`cth>cthy>cthey`, `ok>oky>okey`, `ot>oty>otey`, `qot>qoty>qotey`,
+`chcth>chcthy>chcthey`, and `k>ky>key`. Weight1 reaches only three current
+surfaces/four candidates and leaves all old four-fold metrics exactly at
+1,098/1,328/1,386/1,418, rank sum2,109.
+
+Against inherited GDT516 targets it changes `kechody` and `keody` from errors
+to rank one and moves144→145/rank sum185→184, while old
+`kcheody=K+CH+E+O+Y` counts as one loss. GDT515 had explicitly tagged that
+direct-visible default `RETAINED_UNTIL_BETTER_PARSE`; the productive chain via
+GDT524's `kchody=K+CH+O+D_ADDR+Y` is the better parse. The live working edition
+therefore adopts `kcheody=K+CH+E+O+D_ADDR+Y`. Under that one explicit revision,
+GDT524 is143/rank sum187 and GDT525 is146/rank sum183, leaving13 errors. The
+same rule yields `kechody=K+E+CH+O+D_ADDR+Y` and
+`keody=K+E+O+D_ADDR+Y`. Do not export it to CH-/SH-initial `eody` tails. Next
+inspect `chady` and `chap` through their shared `ch→cha` intermediate without
+opening another page.
