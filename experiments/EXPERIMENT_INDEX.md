@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **570**
-- Experiment-associated tracked files: **8,481** (857.5 MiB)
-- Structured GDT337+ experiments: **235**
+- Experiments indexed: **571**
+- Experiment-associated tracked files: **8,500** (861.9 MiB)
+- Structured GDT337+ experiments: **236**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT572 | GDT572_complete_nonstate_bracket_voice | `PASS_4_BRACKET_TYPES__1536_OCCURRENCES__20_CARRY_FORMS__5_SCOPE_CARDS__1156_NONSTATE_CLAUSES_NATURALIZED__ZERO_BRACKETS__ZERO_ROOT_CHANGE` | [report](../experiments/yolo/gdt572_complete_nonstate_bracket_voice/REPORT.md) | 19 | 4.4 MiB | 4 | STRUCTURED_YOLO |
 | GDT571 | GDT571_three_operator_two_slot_outer_voice | `PASS_3_OPERATOR_CARDS__5_POSITION_REALIZATIONS__2_SLOT_RULES__9_SEQUENCES__1870_MARKERS__54_FINITE_FOLLOWERS__ZERO_ROOT_CHANGE` | [report](../experiments/yolo/gdt571_three_operator_two_slot_outer_voice/REPORT.md) | 19 | 4.8 MiB | 3 | STRUCTURED_YOLO |
 | GDT570 | GDT570_five_fragment_four_join_modifier_voice | `PASS_5_FRAGMENT_CARDS__4_JOIN_RULES__154_MODIFIER_CELLS__224_TRANSITIONS__103_WITHIN_CLASS_COORDINATED__164_STATE_CLAUSES_REFINED__ZERO_ROOT_CHANGE` | [report](../experiments/yolo/gdt570_five_fragment_four_join_modifier_voice/REPORT.md) | 19 | 4.7 MiB | 5 | STRUCTURED_YOLO |
 | GDT569 | GDT569_four_context_carry_voice_frames | `PASS_4_CONTEXT_MODES__693_ACTION_CARRIES__1208_ARGUMENT_CARRIES__1348_PRIOR_ARGUMENT_REALIZATIONS__1442_STATE_CLAUSES_CONTEXT_EXPLICIT__19_CARRIED_ARGUMENT_CELLS__ZERO_ROOT_CHANGE` | [report](../experiments/yolo/gdt569_four_context_carry_voice_frames/REPORT.md) | 19 | 5.4 MiB | 9 | STRUCTURED_YOLO |

@@ -13758,3 +13758,29 @@ pages replay, and all50 checks pass. Use GDT571 as the current complete
 readable edition. Next inventory the bracketed carry/scope notation still
 present in nonstate clauses and replace only the forms licensed by the existing
 context and coordination cards; no new page, atom or root value.
+
+## GDT572 removes every bracket marker and completes the carry table
+
+The3,466 nonstate clauses contain exactly four audit markers:1,292 `[wie
+zuvor]`,121 `[außen]`,121 `[innen]` and2 `[Stufe 3]`. They form1,536
+occurrences in1,156 events and eleven within-clause signatures. Every one of
+the1,292 prior markers follows an exact owner argument phrase and agrees with
+the inherited Y/AIIN/AIN/OR root in the original context record.
+
+Nineteen carried forms transfer directly from GDT569. The remaining nine
+occurrences/eight events occupy the previously absent `CELESTIAL×AIN` cell:
+`den Sektoranteil` becomes `denselben Sektoranteil`. All twenty cells of the
+five-register×four-root carry table are now observed and used; AIN retains its
+broad value ANTEIL.
+
+Five scope cards realize the244 other markers. Nominal hosts take
+outer/inner adjective forms104+104 times;17+17 relation/control hosts say `im
+äußeren/inneren Zweig`; the two third-level uses say `auf Stufe drei`. These
+are scope voice choices, not new portable root values.
+
+GDT572 changes1,156 nonstate clauses/360 statements/all28 running pages while
+all1,656 state clauses and2,310 other nonstate clauses remain byte-identical.
+The complete5,122-event/793-statement/30-page edition now contains zero square
+brackets, and all55 checks pass. Use it as the current readable edition. Next
+compress repeated full German action and argument mentions with reversible
+pronoun/coordination cards; no new page, atom or root value.

@@ -1,6 +1,6 @@
 # Current thirty-page scribe-workshop theory
 
-Updated: 2026-08-27, after GDT571.
+Updated: 2026-08-27, after GDT572.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -2476,9 +2476,31 @@ tails. Nothing else is reinterpreted. The current compositional voice is19
 short roots + owner terms and verb frames + two live context slots + typed
 ordered modifiers + two outer operator slots.
 
+## GDT572 the whole current book is bracket-free
+
+The remaining technical notation was finite:1,292 `[wie zuvor]`,121 `[außen]`,
+121 `[innen]` and2 `[Stufe 3]` markers in1,156 nonstate cards. Every prior
+marker has a matching inherited Y/AIIN/AIN/OR root in the original context
+record. The same demonstrative-article rule used by GDT569 therefore applies
+without giving a surface a longer meaning.
+
+Nineteen old owner argument forms cover1,283 prior occurrences. The last nine
+uses fill the missing Celestial AIN voice cell:
+
+```text
+AIN = ANTEIL
+Himmelsstimme: Sektoranteil
+getragen: denselben Sektoranteil
+```
+
+The carry table is now a fully occupied5×4 grid. Five additional scope cards
+say outer/inner nominal form, outer/inner branch and third level. They preserve
+all244 scope distinctions while removing the audit brackets. All1,656 state
+lines remain exact; the complete5,122-card book now has zero bracket residue.
+
 ## Next work
 
-Count every bracketed audit form still present in the3,466 nonstate clauses,
-then naturalize only those whose action/argument/scope source is already
-carried by the existing sentence state. Retain all current roots, recipes,
-boundaries, voice cards and operator slots. Open no page.
+Compress repeated full German action and argument mentions inside individual
+cards with reversible pronoun and coordination forms. Preserve every written
+slot in a parallel expansion channel and retain all roots, recipes, boundaries,
+voice cards and operator slots. Open no page.
