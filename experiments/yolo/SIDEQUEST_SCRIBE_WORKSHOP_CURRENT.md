@@ -1,6 +1,6 @@
 # Current thirty-page scribe-workshop theory
 
-Updated: 2026-08-27, after GDT568.
+Updated: 2026-08-27, after GDT569.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -2409,10 +2409,31 @@ rises517→866 and verb-head agreement730→866. K is the strongest repair:
 0→114 full matching frames. Every one of1,834 applied event×root cells has
 its target head in the old owner-bound control.
 
+## GDT569 context is a two-slot state, not a long word meaning
+
+Every one of1,656 state cards now falls into one of four cases:
+
+```text
+214 action local   + argument local
+749 action local   + argument carried
+234 action carried + argument local
+459 action carried + argument carried
+```
+
+The1,208 argument carries use all19 owner argument cells and become natural
+`denselben/dieselbe` forms. The693 action carries keep544 earlier-card and149
+owner-default sources, then use only `Weiter im laufenden Gang`, `Danach im
+laufenden Gang` or bare `Im laufenden Gang`. This replaces audit notation such
+as `[wie zuvor]` without moving its meaning into a stem.
+
+The result is the most compact current semantic architecture:19 short root
+values, owner noun/relation/action voice, and two live slots for current action
+and argument. A short OL card says FORTSETZEN; it does not itself mean the full
+rendered instruction.
+
 ## Next work
 
-Nouns, relations, place, close and actions now share one technical voice. The
-remaining audible differences are small context and scope shells: `[wie
-zuvor]`, `im laufenden Gang`, `Weiter:` and `Danach:`. Factor those into a
-minimal reusable sentence-frame deck while keeping the19 roots,20 action
-frames,39 other voice cards, recipes and boundaries fixed. Open no page.
+Factor the remaining small modifier joins by written type and order: especially
+`zur` versus `als Ausführung`, grade conjunctions, stage wording and the two
+rare reversed OT/OL sequences. Retain all four context modes,20 action frames,
+39 other voice cards, roots, recipes and boundaries. Open no page.

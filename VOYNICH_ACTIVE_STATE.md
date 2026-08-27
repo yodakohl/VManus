@@ -13688,3 +13688,27 @@ Use GDT568 as the current complete readable edition. Next audit the remaining
 small context/scope voice—especially `[wie zuvor]`, `im laufenden Gang`,
 `Weiter:` and `Danach:`—for a reusable sentence-frame deck without opening a
 page or retuning a root.
+
+## GDT569 reduces context to four carry modes
+
+Two binary slots exhaust all1,656 state cards:214 have local action and
+argument,749 carry only the argument,234 carry only the action and459 carry
+both. The1,442 nonlocal cards therefore need no longer whole-card meaning;
+they reuse one or two active sentence values.
+
+All693 action carries retain the GDT562 source exactly:544 come from an earlier
+visible same-statement action and149 from the owner-context default. Three
+German scope frames render them—339 Weiter,316 Danach and38 bare running-scope
+cases. Every control has an old gang/sentence/continuation/closure witness.
+
+All1,208 argument-carry cards have `[wie zuvor]` in their controls and occupy
+all19 old register×argument cells. GDT569 renders the carry naturally as
+`denselben/dieselbe`;1,348 concise action-unit realizations replace1,354 old
+markers. The six-count difference consists exactly of six doubled actions for
+which the concise edition retains `zweimal` rather than repeating a clause.
+
+The context layer changes1,442 state clauses/711 statements/all28 running
+pages while214 local state clauses and all3,466 nonstate clauses remain
+byte-identical. All51 checks pass. Use GDT569 as the current readable edition.
+Next factor the residual modifier joins and rare reversed OT/OL surface frames;
+do not open a page or retune a root.

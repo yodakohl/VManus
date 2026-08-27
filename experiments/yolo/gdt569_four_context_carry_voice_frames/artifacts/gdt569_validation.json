@@ -1,0 +1,345 @@
+{
+  "status": "PASS",
+  "check_count": 51,
+  "passed_count": 51,
+  "failed_count": 0,
+  "input_sha256": {
+    "action_events": "1f1ab76e2c2f8fbcd7e07c2a032838249dfdc5a1b58732873bb3348365f0391c",
+    "action_statements": "1b12d30b8b053e12f1315d64b5597c5742485eb7e820c5415f386557cf6aa44b",
+    "page_profiles": "99e7121751c928403619393c7428bf70a17f55922854c5b922fe2b2f6ecfccf5",
+    "state_replay": "e2ad7b35667aa4bc562549198561cb96c6fb0545a9729c795e973020d659c39a",
+    "argument_cards": "8e479eca1d85f64f84ccfce686c71af9bcaf7d4ce386f0e88d14e7a11b689dd4",
+    "action_provenance": "b44c91f791ee6d03c6e4c30cdf0045ac53e22dbc9c03ce12ce9403fab20222e8",
+    "old_context": "cffae521ba93d96446537584e35fa9a4fe4b6e34330ebf7e955ad725f7c70561",
+    "current_context": "4554b8b4cb1697c8f6f544a75505a8a695b4d2043aeceeb9f5922eb21f73843d"
+  },
+  "artifact_sha256": {
+    "modes": "2cf83d2c8bd69de08cd745988f70c59c2fafb9286053636ba6ed924e8b811c0c",
+    "scopes": "4fe362cbbbca0fe8847332004a6900d4073efc2eb5ccccd953a76bf84c007a0c",
+    "argument_forms": "aa818e8489407da8263afa42bbcdec4ec7dcf4589fc5a6eaa0b28aec1eeea584",
+    "action_carries": "182ebffed9800cce1467c10078b15d37caabe5cee1006714378879969f848e06",
+    "argument_carries": "85b7995753d30330b5b33b494198b0250b9f6b499d98476c508191e45f8544e1",
+    "states": "0971ba866bf9a3f03d735c9da65545e45b9fabae545ae9b921beecac64ff43bf",
+    "events": "7d56e320522dbe357727a4985ac3900a04b0861f7efac77223b1e838fba77223",
+    "statements": "efd7a3cce05c087e47d7f4b253efe746166bfb189221518b79daffa10d72de51",
+    "pages": "16bd77cbbcbd61faedff55ffbf532ca1623d7fd8efe3b96412149be33986bddd",
+    "book": "5d80ea85ecacd5b9a097429f90c78272fdafbb0e2e6857eaeb013399da47c3c8",
+    "result": "45ff58c138259d9f55e4ce3821db0a2bf6e15360d13507f5f6abb91e707d6c26"
+  },
+  "checks": [
+    {
+      "check": "input_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "artifact_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "sealed_pages_absent",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "event_ordinals",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "state_ordinals",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "statement_ordinals",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "page_ordinals",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "event_keys_unique",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "state_keys_unique",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "state_partition_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "action_carry_ids_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "argument_carry_ids_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "carry_id_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "nineteen_argument_source_cards",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "all_state_transformations_exact",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "four_mode_counts_exact",
+      "passed": true,
+      "detail": {
+        "ARGUMENT_CARRY": 749,
+        "LOCAL_EXPLICIT": 214,
+        "ACTION_CARRY": 234,
+        "ACTION_AND_ARGUMENT_CARRY": 459
+      }
+    },
+    {
+      "check": "argument_realization_total",
+      "passed": true,
+      "detail": 1348
+    },
+    {
+      "check": "control_marker_totals",
+      "passed": true,
+      "detail": [
+        1208,
+        1354
+      ]
+    },
+    {
+      "check": "control_action_witness_total",
+      "passed": true,
+      "detail": 693
+    },
+    {
+      "check": "mode_cards_exact",
+      "passed": true,
+      "detail": {
+        "GDT569-C01|LOCAL_EXPLICIT": 214,
+        "GDT569-C02|ARGUMENT_CARRY": 749,
+        "GDT569-C03|ACTION_CARRY": 234,
+        "GDT569-C04|ACTION_AND_ARGUMENT_CARRY": 459
+      }
+    },
+    {
+      "check": "mode_card_guards",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "scope_frames_exact",
+      "passed": true,
+      "detail": {
+        "WEITER": [
+          "GDT569-S01",
+          339
+        ],
+        "DANACH": [
+          "GDT569-S02",
+          316
+        ],
+        "BARE": [
+          "GDT569-S03",
+          38
+        ]
+      }
+    },
+    {
+      "check": "scope_source_partition",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "scope_control_witnesses",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "carried_argument_cells_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "carried_argument_forms_exact",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "all_argument_cells_used",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "argument_form_totals",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "argument_control_support",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "action_provenance_byte_exact",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "action_source_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "all_action_controls_witnessed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "all_argument_controls_witnessed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "all_5122_events_reconstructed",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "nonstate_byte_unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "state_change_partition",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "all_793_statements_reconstructed",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "statement_change_partition",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "statement_event_order_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "page_order_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "page_count_parity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "changed_page_count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "zero_running_pages_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "result_metrics_exact",
+      "passed": true,
+      "detail": {
+        "context_mode_card_count": 4,
+        "local_explicit_state_event_count": 214,
+        "argument_only_carry_event_count": 749,
+        "action_only_carry_event_count": 234,
+        "action_and_argument_carry_event_count": 459,
+        "action_carry_event_count": 693,
+        "same_statement_visible_action_carry_count": 544,
+        "owner_context_default_action_carry_count": 149,
+        "action_scope_frame_count": 3,
+        "argument_carry_event_count": 1208,
+        "carried_argument_cell_count": 19,
+        "carried_argument_realization_count": 1348,
+        "control_prior_marker_event_count": 1208,
+        "control_prior_marker_occurrence_count": 1354,
+        "control_action_context_witness_count": 693,
+        "changed_state_event_count": 1442,
+        "unchanged_state_event_count": 214,
+        "changed_statement_count": 711,
+        "unchanged_statement_count": 82,
+        "changed_physical_page_count": 28,
+        "state_event_count": 1656,
+        "nonstate_event_count": 3466,
+        "nonstate_byte_unchanged_count": 3466,
+        "complete_event_count": 5122,
+        "complete_statement_count": 793,
+        "complete_page_count": 30,
+        "new_pages": 0,
+        "new_events": 0,
+        "new_statements": 0,
+        "new_surfaces": 0,
+        "new_recipes": 0,
+        "new_root_values": 0
+      }
+    },
+    {
+      "check": "result_status_exact",
+      "passed": true,
+      "detail": "PASS_4_CONTEXT_MODES__693_ACTION_CARRIES__1208_ARGUMENT_CARRIES__1348_PRIOR_ARGUMENT_REALIZATIONS__1442_STATE_CLAUSES_CONTEXT_EXPLICIT__19_CARRIED_ARGUMENT_CELLS__ZERO_ROOT_CHANGE"
+    },
+    {
+      "check": "input_hashes_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "book_metrics_present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "book_all_pages_once",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "book_all_statements",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "deterministic_replay_exit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "deterministic_artifact_hashes",
+      "passed": true,
+      "detail": {}
+    }
+  ]
+}
