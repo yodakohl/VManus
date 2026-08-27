@@ -1,0 +1,163 @@
+{
+  "checks": [
+    {
+      "check": "artifact_row_counts",
+      "detail": "{'source': 122, 'events': 597, 'surfaces': 377, 'running_absent': 169, 'genuinely_new': 159, 'labels': 51, 'pages': 4, 'expectations': 5, 'running30': 5122, 'local30': 744, 'unified30': 5866, 'pages30': 30}",
+      "passed": true
+    },
+    {
+      "check": "guarded_source_replay",
+      "detail": "rows=122",
+      "passed": true
+    },
+    {
+      "check": "selected_page_set",
+      "detail": "f20v|f31r|f4r|f66r",
+      "passed": true
+    },
+    {
+      "check": "forbidden_page_absent",
+      "detail": "no f84 selector materialised",
+      "passed": true
+    },
+    {
+      "check": "source_event_exactness",
+      "detail": "tokens=597",
+      "passed": true
+    },
+    {
+      "check": "event_ids_unique",
+      "detail": "ids=597",
+      "passed": true
+    },
+    {
+      "check": "all_events_have_recipe_and_default",
+      "detail": "complete=597",
+      "passed": true
+    },
+    {
+      "check": "no_portable_retune_or_word_promotion",
+      "detail": "597/597 preserve the component dictionary and structural tags",
+      "passed": true
+    },
+    {
+      "check": "one_selected_surface_one_recipe",
+      "detail": "surfaces=377 collisions=0",
+      "passed": true
+    },
+    {
+      "check": "surface_dictionary_exact",
+      "detail": "377 selected surfaces represented once",
+      "passed": true
+    },
+    {
+      "check": "gdt405_lock_replay",
+      "detail": "contacts=276 mismatches=0",
+      "passed": true
+    },
+    {
+      "check": "old_running_recipe_replay",
+      "detail": "contacts=416",
+      "passed": true
+    },
+    {
+      "check": "atom_inventory_bounded",
+      "detail": "used=39 outside46=['LOCAL_NAME_CORE_X', 'LOCAL_SIGN_C', 'LOCAL_SIGN_X']",
+      "passed": true
+    },
+    {
+      "check": "local_opaque_atoms_scoped",
+      "detail": "{\"LOCAL_NAME_CORE_X\": [\"axor\", \"chxar\"], \"LOCAL_SIGN_C\": [\"c\"], \"LOCAL_SIGN_X\": [\"x\"]}",
+      "passed": true
+    },
+    {
+      "check": "prose_local_split",
+      "detail": "prose=546 local=51",
+      "passed": true
+    },
+    {
+      "check": "local_material_excluded_from_statements",
+      "detail": "51 local cards separate; 546 prose cards assigned",
+      "passed": true
+    },
+    {
+      "check": "statement_owner_boundaries",
+      "detail": "statements=78 failures=[]",
+      "passed": true
+    },
+    {
+      "check": "factorized_parser_pass",
+      "detail": "attachments=621 maxlook=1",
+      "passed": true
+    },
+    {
+      "check": "amber_close_sensitivity_bounded",
+      "detail": "changed=3",
+      "passed": true
+    },
+    {
+      "check": "new_surface_census",
+      "detail": "169 running-absent; 159 absent from all old 26-page groups",
+      "passed": true
+    },
+    {
+      "check": "ten_old_local_contacts_visible",
+      "detail": "contacts=10",
+      "passed": true
+    },
+    {
+      "check": "all_five_expectations_seen",
+      "detail": "SEEN_STRONGLY|SEEN_WITH_LOCAL_TAIL|SEEN|SEEN_WITH_TEXT_PAGE_QUALIFICATION|SEEN",
+      "passed": true
+    },
+    {
+      "check": "extended_running_prefix_exact",
+      "detail": "old 4,576 rows unchanged; 546 appended",
+      "passed": true
+    },
+    {
+      "check": "extended_local_prefix_exact",
+      "detail": "old 693 rows unchanged; 51 appended",
+      "passed": true
+    },
+    {
+      "check": "extended_unified_prefix_exact",
+      "detail": "old 5,269 rows unchanged; 597 appended",
+      "passed": true
+    },
+    {
+      "check": "extended_group_split",
+      "detail": "Counter({'RUNNING_EVENT': 5122, 'LOCAL_ADDRESS_OR_LABEL': 744})",
+      "passed": true
+    },
+    {
+      "check": "thirty_page_inventory",
+      "detail": "pages=30",
+      "passed": true
+    },
+    {
+      "check": "page_defaults_complete",
+      "detail": "defaults=597",
+      "passed": true
+    },
+    {
+      "check": "result_summary_exact",
+      "detail": "{'event_count': 597, 'prose_event_count': 546, 'local_label_sign_event_count': 51, 'unique_surface_count': 377, 'gdt405_exact_event_count': 276, 'gdt405_lock_mismatch_count': 0, 'old_running_exact_event_count': 416, 'old_any_surface_event_count': 429, 'running_absent_surface_count': 169, 'genuinely_new_surface_count': 159, 'genuinely_new_event_count': 168, 'complete_default_count': 597, 'statement_count': 78, 'focus_attachment_count': 621, 'factorized_failure_count': 0, 'expectations_seen_count': 5, 'extended_unified_group_count': 5866}",
+      "passed": true
+    },
+    {
+      "check": "source_hash_exact",
+      "detail": "50861ed69d1ffbaed0b71af8b04147ef826746e42dc530426c9de73068a9142f",
+      "passed": true
+    },
+    {
+      "check": "reading_book_complete",
+      "detail": "bytes=146177",
+      "passed": true
+    }
+  ],
+  "experiment_id": "GDT515",
+  "passed_checks": 31,
+  "status": "PASS",
+  "total_checks": 31
+}

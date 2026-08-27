@@ -1,6 +1,6 @@
-# Current twenty-six-page scribe-workshop theory
+# Current thirty-page scribe-workshop theory
 
-Updated: 2026-08-27, after GDT514.
+Updated: 2026-08-27, after GDT515.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -75,12 +75,22 @@ cause. The best intake architecture is therefore a mixed formula/record/
 nomenclator, while GDT405 remains authoritative for exact surfaces on the next
 four pages.
 
-GDT514 has now selected those pages once from the 174 unused candidates:
+GDT514 selected the next pages once from the 174 unused candidates:
 `f31r | f66r | f20v | f4r`. Image inspection precedes text intake. f31r,
 f20v and f4r each keep a single whole-plant owner; f66r keeps separate visible
 main-text blocks and excludes its margin material and late bottom addition from
-running statements. No selected-page text, recipe or meaning has yet entered
-the edition.
+running statements.
+
+GDT515 has now admitted all four. Their 597 cards divide into 546 prose and 51
+f66r margin/late-addition cards; every card receives a default. Of 276 GDT405
+contacts, all 276 keep the old recipe. Four hundred sixteen cards repeat a
+running surface, while 168 events/159 surfaces are genuinely new against the
+complete old 26-page deck. No new portable root appears. `axor` and `chxar`
+retain one explicitly local X name core inside visible function shells;
+singleton `x` and `c` remain margin-sign tags. The unchanged parser resolves
+all 621 new focus attachments. The current base is 30 pages, 5,122 prose
+events, 744 local cards, 793 statements, 5,672 focus attachments and 5,866
+unified groups.
 
 GDT459–GDT484 now resolve the formerly opaque local-address tail as the mixed
 codebook architecture anticipated by the sidequest: portable function cards
@@ -1432,68 +1442,26 @@ comparison set.
 
 ## Next work
 
-Keep the current 26 pages closed. GDT499–GDT500 retain the complete 495-cell
-deck. GDT501–GDT504 turn its weak fifty-cell front into fixed component deltas:
-35 exact partial extensions, eleven pair-frame edits, and four longer-chain
-directional recoveries. GDT505 then replaces one-off examples with all 55 old
-carriers of `P>CH`, `S>CHD`, `CH>P`, `CH>CH` and `CH>SH`; the five neutral
-German handgrips retain their action order in 34 adjacent and 21 visibly
-separated clauses.
+Keep the current 30 pages closed for the next pass. GDT515 has supplied the
+new information we wanted: 159 genuinely new surfaces, ten contacts that were
+previously local-only, six explicitly open direct parses and two local X name
+cores. The next gain should come from compressing these new forms rather than
+immediately spending another four pages.
 
-GDT506 ranks the complete eleven target frames: three have local and four have
-cross-register argument-compatible reductions. GDT507 supplies concrete
-bridges for the remaining four. The 65 broader `CH>CH` carriers contain eleven
-inherited-argument and one argument-free event; four additional immediate
-`CH→CH` card sequences carry one inherited argument. For `CH>SH`, nine
-immediate same-statement `CH→SH` sequences retain the same inherited argument
-across the card boundary, on seven pages and in all five registers.
+Build a 30-page recipe-family atlas with three concrete jobs:
 
-Pharmaceutical `CH+CH` and both source/pharmaceutical `CH+SH` cards are now
-locally `CONTEXT_BRIDGED_WORKING`. GDT508 gives source `CH+CH` the last local
-mechanism at package level: `G407-E0019→G407-E0020` repeats `CH+T+AR` exactly
-on inherited `AIIN`, and `G407-E0187→G407-E0188→G407-E0189` repeats the
-`CH+T+OL` prefix around a visible `AIIN` card. Keeping one CH slot from each
-outer package yields the already fixed “Entnimm das zuvor Genannte zweimal”
-comparison without transferring the T/relation frames.
+1. group the 159 new surfaces by shared ordered component shell and identify
+   exact new-page recurrences rather than mere edit resemblance;
+2. inspect the seven old-local/new-context recipe disagreements, especially
+   `saiir`, `sos`, `ykady` and `ykeeody`, to decide whether owner role explains
+   their old parse or whether the new visible parse should become the common
+   working recipe;
+3. compare the six open forms (`axor`, `chxar`, `cthdy`, `okedam`,
+   `qocthedy`, `ykady`) against all 30-page component contexts. Preserve the X
+   content core unless a better repeated shell actually appears.
 
-GDT509 now publishes those eleven cards together. The deck has three local
-frame reductions, four cross-register frame reductions, three local context
-bridges and one local repeated-package projection. Seven cards have some
-target-register support; the remaining four are celestial `P+CH+E+Y` and
-`S+CHD+Y` in Celestial, Pharma and Source. All five handgrips and all eleven
-working translations remain fixed.
-
-GDT510 finds target-register factors for those four. Celestial `P+CH+E+Y` is
-the exact contiguous suffix of `G407-E0966 = Y+T+O+E+O+P+CH+E+Y`. The three
-`S+CHD+Y` target registers contain 27 local S-on-Y and seven CHD-on-Y events,
-forming 62 possible rectangles. The selected Celestial, Pharma and Source
-pairs lie on the same page; Pharma and Source also share an owner, and Source
-shares one statement. Their directed `S>CHD` pair order nevertheless remains
-anchored by Biological `G407-E1883`, because two separate local heads are not
-the naked target recipe.
-
-All eleven pair cards now have some target-register factor support, while all
-eleven working translations, all root values and every `COMPOSED_WORKING`
-label remain fixed.
-
-GDT511 expands all 62 `S`-on-`Y` × `CHD`-on-`Y` combinations. Forty-six have
-the required order, but only twelve remain on one page, two at one owner and
-one in one statement. None is immediate, zero/one-gap, uninterrupted in active
-`Y`, or present inside one target-register event. Source therefore supplies a
-long same-statement head inventory, Pharma a long same-owner/page inventory and
-Celestial a same-page cross-owner inventory. None is a local pair witness;
-Biological `G407-E1883` still supplies directed `S>CHD` order.
-
-GDT512 now replaces the outdated GDT509 summary with one complete current
-edition. Its seven visible support forms contain three local frame reductions,
-three local context bridges, one package projection, one exact contiguous
-suffix and the three graded long head inventories. All eleven cards have local
-factors; eight have target-register order, interval or package projection.
-Only the three `S+CHD+Y` cards retain cross-register-only pair order.
-
-The five neutral handgrips and all eleven working translations remain exactly
-unchanged. Close this pair route: do not collect more distant rectangles or
-promote a bare target. The next useful pass must introduce a different
-semantic endpoint inside the same 26 pages, not merely reissue the nineteen
-already contrasted root meanings. Every bare target recipe remains an
-unobserved composition.
+The intended output is a smaller predictive composition dictionary for a
+future third page batch. Do not add a twentieth portable meaning and do not
+turn f66r margin signs into prose words. New pages become useful again after
+the open families have a single best working default or an explicit finite
+alternative set.

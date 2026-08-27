@@ -12418,3 +12418,38 @@ GDT405 exact surfaces first, compose genuinely new surfaces only from visible
 existing atoms, retain the GDT514 owner map, and evaluate all five GDT513
 new-page expectations. GDT514 itself admits no new text, recipe, root or
 meaning.
+
+## GDT515 second random four-page full admission
+
+GDT515 opens exactly the four GDT514 selectors through the guarded loader. The
+122 source lines contain 597 cards and 377 surfaces. The image-first split is
+retained: 546 prose cards form 78 statements, while 46 marginal tokens and the
+five-token late addition on f66r remain 51 independent local cards. No local
+card enters a prose statement.
+
+Four hundred sixteen cards repeat an old running surface with the same unique
+recipe; 276 of these touch GDT405 and all 276 replay the locked recipe. In all,
+429 cards were already present somewhere in the old 26-page unified deck. The
+remaining 168 events occupy 159 genuinely new surfaces. Every card receives a
+default and every new form has a direct visible recipe. No current portable
+atom or meaning changes.
+
+Two prose surfaces contain a source `x` outside the 46-component inventory.
+They retain one explicitly local content core inside visible shells:
+`axor=A_ADDR+LOCAL_NAME_CORE_X+OR` and
+`chxar=CH+LOCAL_NAME_CORE_X+AR`. Singleton `x` and `c` on the f66r margin are
+local sign tags. None is promoted to a word or portable root. Of ten surfaces
+known previously only as local cards, three retain the same recipe and seven
+receive a visible new-context parse; all alternatives remain published.
+
+The old factorized parser resolves all 621 new focus attachments with maximum
+lookahead one and zero owner or statement boundary crossings. Six manual parses
+remain visibly open. Only `ykady` has an open DY close: suppressing that close
+changes three following bindings, and the alternate still uses only old parser
+factors. All five GDT513 expectations are seen. Validation passes 31/31.
+
+The current navigation base is therefore 30 pages, 5,122 running events, 744
+local groups, 793 statements, 5,672 focus attachments and 5,866 unified groups.
+Next group the 159 new surfaces into recurrent recipe/shell families and audit
+the seven old-local/new-context conflicts plus the six open parses. No further
+page is required for that pass.
