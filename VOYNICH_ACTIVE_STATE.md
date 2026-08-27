@@ -13313,3 +13313,22 @@ pair becomes a universal rule. Ten current non-target events reinforce two
 mechanisms. All32 checks pass. The GDT548 23-card improvement queue is now
 empty. Next compile one zero-rest145-card working edition and audit its
 statement templates; no page, recipe, root value or meaning changed.
+
+## GDT553 consolidates the zero-rest 145-card reader
+
+The complete working reader now contains exactly145 admitted surface keys in
+one executable table. Its provenance generations partition exactly as122
+unchanged GDT548 base cards plus4 GDT549 peer repairs,10 GDT550 recurrent-frame
+repairs,4 GDT551 slot-contract repairs and5 GDT552 boundary/family repairs.
+Their union is exactly the former23-card queue and every card has zero named
+support rests.
+
+All145 recipes, neutral German defaults, known contextual readings, visible
+action/argument roots and GDT540 input-slot contracts are retained exactly.
+Each row adds only its strongest current bounded provenance, visible route and
+scope limit. The executable reader returns only exact known keys, can resolve
+the same-statement action/argument state and stops on an unknown spelling. All30
+checks pass. Zero rest is a bookkeeping claim about admitted support, not
+plaintext or license for a new form. Next audit the78 current statements for
+recurrent semantic templates and concrete contradictions; no new page,
+recipe, segmentation, root value or meaning changed.

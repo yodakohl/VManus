@@ -1,6 +1,6 @@
 # Current thirty-page scribe-workshop theory
 
-Updated: 2026-08-27, after GDT541.
+Updated: 2026-08-27, after GDT553.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -2083,9 +2083,18 @@ including all five GDT444 focus witnesses.
 The 23-card GDT548 improvement queue is now empty. This does not turn any
 missing old direct pair into a universal law.
 
+## GDT553 zero-rest 145-card working edition
+
+The complete exact-key reader is now a single145-row deck. Its support history
+partitions as122 unchanged base cards plus4 current-peer,10 recurrent-frame,4
+slot-contract and5 boundary/family repairs. These four repair generations are
+disjoint and equal the former23-card queue exactly. Every recipe, context rule,
+neutral reading and known contextual reading remains unchanged; every support
+rest is now `NONE`. Unknown spellings still stop.
+
 ## Next work
 
-Compile one zero-rest 145-card edition that retains, for each exact key, its
-visible route, recipe, context slots, full neutral/context meaning and strongest
-bounded provenance. Then read the resulting statements horizontally for
-recurrent templates and concrete semantic contradictions; open no new page.
+Read the78 already admitted statements horizontally. Cluster their recurrent
+action/argument/location templates, locate same-template meaning divergences
+and produce a small concrete contradiction ledger. Do not open a new page or
+change a root merely to make a sentence sound better.
