@@ -2361,10 +2361,35 @@ byte-for-byte. All30 admitted pages remain visible, including f69v and f70v
 with zero running events. A separate ten-row deck preserves every recipe that
 was refined after the GDT515 navigation snapshot.
 
+## GDT567 the seam was a change of technical voice
+
+There are4,329 real card joins inside the793 statements;1,580 cross between a
+state and nonstate card. At1,209 of those mixed joins both cards expose the same
+argument category, yet the old selected text had zero exact shared whole-word
+heads because one side said Posten/Wert/Anteil/Einheit and the other said
+Stationsposten/Arbeitswert/Drogenanteil/Eintragseinheit.
+
+A39-card voice adapter fixes this without changing meanings:
+
+```text
+19 register×argument cards
+18 register×relation cards
+ 1 hier → an der bezeichneten Stelle
+ 1 abschließen → schließe den Schritt
+──────────────────────────────────────
+39 cards
+```
+
+All1,807 register-root uses and all828 universal uses already carry the target
+wording in their owner-bound control line. The adapter changes1,639 state
+clauses but zero nonstate clauses. Shared argument heads rise0→1,209 and shared
+relation heads3→20. Whole-word matching removed ten false substring contacts
+from the preliminary count.
+
 ## Next work
 
-Use the complete GDT566 text to inspect every adjacent boundary inside a
-statement, especially state→nonstate and nonstate→state joins. Find recurring
-hard German seams and repair only their rendering with small bridge cards.
-Keep event boundaries, roots, recipes and both reading channels unchanged; do
-not open another page.
+The remaining audible split is mostly verbal: generic gib/nimm/setze beside
+owner forms such as ordne zu/entnimm/setze im Stationsgang an. Build an
+observed register×action frame table for the nine fixed action roots, then
+apply only recurrent small frames. Keep recipes, event boundaries and root
+values fixed; open no page.

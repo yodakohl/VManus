@@ -1,0 +1,580 @@
+{
+  "status": "PASS",
+  "check_count": 43,
+  "passed_count": 43,
+  "failed_count": 0,
+  "input_sha256": {
+    "complete_events": "f77bf9b0fab880c6d2b4f88bd9cd4530980d2edd460af69970a9ca7c7ac8a6da",
+    "complete_statements": "872a74921496ba12f8200504bd4d41d76e29a8fb9f36a5b8f1e67173925db9c2",
+    "page_profiles": "99e7121751c928403619393c7428bf70a17f55922854c5b922fe2b2f6ecfccf5",
+    "state_replay": "e2ad7b35667aa4bc562549198561cb96c6fb0545a9729c795e973020d659c39a"
+  },
+  "artifact_sha256": {
+    "cards": "8e479eca1d85f64f84ccfce686c71af9bcaf7d4ce386f0e88d14e7a11b689dd4",
+    "states": "e7c2a1067a72f1f3be01e74d1dd853315e0f64e3afa7acc30edb26c0b0c77028",
+    "events": "e66ae0c959c073a643c4226fd8a449d4ae26b020f958b8278f852a6c0490d9d4",
+    "statements": "14ff485cb9317294bc90acbcefc6f5f7a0d4862a5c3a49000ac379903ed4ef7d",
+    "seams": "e686ea07690d111176e50eb3d33f973f42479130259456cb8c01dbef9945d8a7",
+    "directions": "2f376c37a1091ed9eeea2d0ac9f7efbd64eed954facf515df5075df279619e1c",
+    "registers": "b8f41121497c645e3b35613d811e2877e2a6bde3e6dd574c0ce1b706912ce987",
+    "book": "d6c1919033e342319fa603c72f819673e0b8d526f30da2623873573083fbf703",
+    "result": "5fd50c29a85f0a5ccf6a7649ed79f74e5f2dcb90cf303fb477b94fda907514e2"
+  },
+  "checks": [
+    {
+      "check": "input_counts",
+      "passed": true,
+      "detail": [
+        5122,
+        793,
+        30,
+        1656
+      ]
+    },
+    {
+      "check": "artifact_counts",
+      "passed": true,
+      "detail": [
+        39,
+        1656,
+        5122,
+        793,
+        4329,
+        4,
+        5
+      ]
+    },
+    {
+      "check": "sealed_pages_absent",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "event_ordinals",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "state_ordinals",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "statement_ordinals",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "seam_ordinals",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "keys_unique_exact",
+      "passed": true,
+      "detail": [
+        1656,
+        1656,
+        5122,
+        5122
+      ]
+    },
+    {
+      "check": "state_partition_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "card_ids_sequential",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "card_keys_exact",
+      "passed": true,
+      "detail": [
+        [
+          "ARGUMENT_OWNER_VOICE",
+          "SOURCE_SECTION_T",
+          "Y"
+        ],
+        [
+          "ARGUMENT_OWNER_VOICE",
+          "SOURCE_SECTION_T",
+          "AIIN"
+        ],
+        [
+          "ARGUMENT_OWNER_VOICE",
+          "SOURCE_SECTION_T",
+          "AIN"
+        ],
+        [
+          "ARGUMENT_OWNER_VOICE",
+          "SOURCE_SECTION_T",
+          "OR"
+        ],
+        [
+          "ARGUMENT_OWNER_VOICE",
+          "HERBAL",
+          "Y"
+        ],
+        [
+          "ARGUMENT_OWNER_VOICE",
+          "HERBAL",
+          "AIIN"
+        ],
+        [
+          "ARGUMENT_OWNER_VOICE",
+          "HERBAL",
+          "AIN"
+        ],
+        [
+          "ARGUMENT_OWNER_VOICE",
+          "HERBAL",
+          "OR"
+        ],
+        [
+          "ARGUMENT_OWNER_VOICE",
+          "CELESTIAL",
+          "Y"
+        ],
+        [
+          "ARGUMENT_OWNER_VOICE",
+          "CELESTIAL",
+          "AIIN"
+        ],
+        [
+          "ARGUMENT_OWNER_VOICE",
+          "CELESTIAL",
+          "OR"
+        ],
+        [
+          "ARGUMENT_OWNER_VOICE",
+          "BIOLOGICAL",
+          "Y"
+        ],
+        [
+          "ARGUMENT_OWNER_VOICE",
+          "BIOLOGICAL",
+          "AIIN"
+        ],
+        [
+          "ARGUMENT_OWNER_VOICE",
+          "BIOLOGICAL",
+          "AIN"
+        ],
+        [
+          "ARGUMENT_OWNER_VOICE",
+          "BIOLOGICAL",
+          "OR"
+        ],
+        [
+          "ARGUMENT_OWNER_VOICE",
+          "PHARMA",
+          "Y"
+        ],
+        [
+          "ARGUMENT_OWNER_VOICE",
+          "PHARMA",
+          "AIIN"
+        ],
+        [
+          "ARGUMENT_OWNER_VOICE",
+          "PHARMA",
+          "AIN"
+        ],
+        [
+          "ARGUMENT_OWNER_VOICE",
+          "PHARMA",
+          "OR"
+        ],
+        [
+          "RELATION_OWNER_VOICE",
+          "SOURCE_SECTION_T",
+          "AL"
+        ],
+        [
+          "RELATION_OWNER_VOICE",
+          "SOURCE_SECTION_T",
+          "AR"
+        ],
+        [
+          "RELATION_OWNER_VOICE",
+          "SOURCE_SECTION_T",
+          "L"
+        ],
+        [
+          "RELATION_OWNER_VOICE",
+          "SOURCE_SECTION_T",
+          "AIR"
+        ],
+        [
+          "RELATION_OWNER_VOICE",
+          "HERBAL",
+          "AL"
+        ],
+        [
+          "RELATION_OWNER_VOICE",
+          "HERBAL",
+          "AR"
+        ],
+        [
+          "RELATION_OWNER_VOICE",
+          "HERBAL",
+          "L"
+        ],
+        [
+          "RELATION_OWNER_VOICE",
+          "HERBAL",
+          "AIR"
+        ],
+        [
+          "RELATION_OWNER_VOICE",
+          "CELESTIAL",
+          "AL"
+        ],
+        [
+          "RELATION_OWNER_VOICE",
+          "CELESTIAL",
+          "AR"
+        ],
+        [
+          "RELATION_OWNER_VOICE",
+          "CELESTIAL",
+          "L"
+        ],
+        [
+          "RELATION_OWNER_VOICE",
+          "BIOLOGICAL",
+          "AL"
+        ],
+        [
+          "RELATION_OWNER_VOICE",
+          "BIOLOGICAL",
+          "AR"
+        ],
+        [
+          "RELATION_OWNER_VOICE",
+          "BIOLOGICAL",
+          "L"
+        ],
+        [
+          "RELATION_OWNER_VOICE",
+          "BIOLOGICAL",
+          "AIR"
+        ],
+        [
+          "RELATION_OWNER_VOICE",
+          "PHARMA",
+          "AL"
+        ],
+        [
+          "RELATION_OWNER_VOICE",
+          "PHARMA",
+          "AR"
+        ],
+        [
+          "RELATION_OWNER_VOICE",
+          "PHARMA",
+          "L"
+        ],
+        [
+          "UNIVERSAL_OWNER_VOICE",
+          "ALL_REGISTERS",
+          "HIER_FRAGMENT"
+        ],
+        [
+          "UNIVERSAL_OWNER_VOICE",
+          "ALL_REGISTERS",
+          "DY_CLOSURE_WORDING"
+        ]
+      ]
+    },
+    {
+      "check": "card_class_counts",
+      "passed": true,
+      "detail": {
+        "ARGUMENT_OWNER_VOICE": 19,
+        "RELATION_OWNER_VOICE": 18,
+        "UNIVERSAL_OWNER_VOICE": 2
+      }
+    },
+    {
+      "check": "all_cards_reconstructed",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "register_root_use_count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "universal_support_counts",
+      "passed": true,
+      "detail": [
+        {
+          "adapter_card_id": "GDT567-A38",
+          "card_class": "UNIVERSAL_OWNER_VOICE",
+          "register_scope": "ALL_REGISTERS",
+          "root_or_trigger": "HIER_FRAGMENT",
+          "generic_phrase_de": "hier",
+          "owner_voice_phrase_de": "an der bezeichneten Stelle",
+          "double_y_phrase_de": "NOT_APPLICABLE",
+          "source_state_event_count": "123",
+          "owner_bound_target_support_count": "123",
+          "support_rate": "1.000000000000",
+          "physical_page_count": "26",
+          "statement_count": "96",
+          "example_event_ids": "G407-E0010|G407-E0033|G407-E0067|G407-E0133|G407-E0189|G407-E0219|G407-E0334|G407-E0375",
+          "guard": "OWNER_VOICE_RENDERING_ONLY__ROOT_VALUE_UNCHANGED"
+        },
+        {
+          "adapter_card_id": "GDT567-A39",
+          "card_class": "UNIVERSAL_OWNER_VOICE",
+          "register_scope": "ALL_REGISTERS",
+          "root_or_trigger": "DY_CLOSURE_WORDING",
+          "generic_phrase_de": "abschließen",
+          "owner_voice_phrase_de": "schließe den Schritt",
+          "double_y_phrase_de": "NOT_APPLICABLE",
+          "source_state_event_count": "705",
+          "owner_bound_target_support_count": "705",
+          "support_rate": "1.000000000000",
+          "physical_page_count": "28",
+          "statement_count": "703",
+          "example_event_ids": "G407-E0056|G407-E0068|G407-E0071|G407-E0133|G407-E0200|G407-E0253|G407-E0313|G407-E0407",
+          "guard": "OWNER_VOICE_RENDERING_ONLY__ROOT_VALUE_UNCHANGED"
+        }
+      ]
+    },
+    {
+      "check": "all_5122_events_reconstructed",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "nonstate_events_byte_unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "state_change_partition",
+      "passed": true,
+      "detail": {
+        "YES": 1639,
+        "NO": 17
+      }
+    },
+    {
+      "check": "state_phrase_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "state_owner_exact_count",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "state_projection_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "event_guards_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "all_793_statements_reconstructed",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "statement_change_partition",
+      "passed": true,
+      "detail": {
+        "YES": 774,
+        "NO": 19
+      }
+    },
+    {
+      "check": "statement_guards_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "all_adjacencies_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "all_4329_seams_reconstructed",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "direction_counts_exact",
+      "passed": true,
+      "detail": {
+        "NONSTATE_TO_NONSTATE": 2426,
+        "NONSTATE_TO_STATE": 969,
+        "STATE_TO_NONSTATE": 611,
+        "STATE_TO_STATE": 323
+      }
+    },
+    {
+      "check": "mixed_seam_counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "argument_contact_gain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "relation_contact_gain",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "seam_guards_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "direction_profiles_exact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "register_profiles_cover_all",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "result_metrics_exact",
+      "passed": true,
+      "detail": {
+        "adapter_card_count": 39,
+        "argument_owner_voice_card_count": 19,
+        "relation_owner_voice_card_count": 18,
+        "universal_owner_voice_card_count": 2,
+        "register_root_cell_use_count": 1807,
+        "register_root_cell_supported_use_count": 1807,
+        "place_voice_event_count": 123,
+        "place_voice_supported_event_count": 123,
+        "close_voice_event_count": 705,
+        "close_voice_supported_event_count": 705,
+        "state_event_count": 1656,
+        "changed_state_event_count": 1639,
+        "unchanged_state_event_count": 17,
+        "owner_voice_equals_owner_bound_state_count": 20,
+        "distinct_gdt566_state_clause_count": 607,
+        "distinct_owner_voice_state_clause_count": 808,
+        "changed_statement_count": 774,
+        "unchanged_statement_count": 19,
+        "changed_physical_page_count": 28,
+        "complete_event_count": 5122,
+        "complete_statement_count": 793,
+        "within_statement_seam_count": 4329,
+        "nonstate_to_nonstate_seam_count": 2426,
+        "nonstate_to_state_seam_count": 969,
+        "state_to_nonstate_seam_count": 611,
+        "state_to_state_seam_count": 323,
+        "mixed_state_nonstate_seam_count": 1580,
+        "mixed_seam_statement_count": 528,
+        "changed_mixed_seam_endpoint_count": 1563,
+        "shared_argument_contact_seam_count": 1209,
+        "argument_head_exact_before": 0,
+        "argument_head_exact_after": 1209,
+        "shared_relation_contact_seam_count": 20,
+        "relation_head_exact_before": 3,
+        "relation_head_exact_after": 20,
+        "new_pages": 0,
+        "new_events": 0,
+        "new_statements": 0,
+        "new_surfaces": 0,
+        "new_recipes": 0,
+        "new_root_values": 0
+      }
+    },
+    {
+      "check": "result_status_exact",
+      "passed": true,
+      "detail": "PASS_39_CARD_OWNER_VOICE_ADAPTER__1639_STATE_CLAUSES_HARMONIZED__1209_ARGUMENT_SEAMS_0_TO_1209_EXACT__20_RELATION_SEAMS_3_TO_20_EXACT__ZERO_ROOT_CHANGE"
+    },
+    {
+      "check": "input_hashes_exact",
+      "passed": true,
+      "detail": {
+        "complete_events": "f77bf9b0fab880c6d2b4f88bd9cd4530980d2edd460af69970a9ca7c7ac8a6da",
+        "complete_statements": "872a74921496ba12f8200504bd4d41d76e29a8fb9f36a5b8f1e67173925db9c2",
+        "page_profiles": "99e7121751c928403619393c7428bf70a17f55922854c5b922fe2b2f6ecfccf5",
+        "state_replay": "e2ad7b35667aa4bc562549198561cb96c6fb0545a9729c795e973020d659c39a"
+      }
+    },
+    {
+      "check": "book_metrics_present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "book_all_pages_once",
+      "passed": true,
+      "detail": [
+        "f1r",
+        "f10r",
+        "f11r",
+        "f13r",
+        "f17r",
+        "f18r",
+        "f24v",
+        "f55v",
+        "f56r",
+        "f67r2",
+        "f68r1",
+        "f69v",
+        "f70v",
+        "f71v",
+        "f72r",
+        "f75r",
+        "f76r",
+        "f77r",
+        "f81r",
+        "f81v",
+        "f82r",
+        "f83r",
+        "f88r",
+        "f88v",
+        "f89r",
+        "f95v",
+        "f31r",
+        "f66r",
+        "f20v",
+        "f4r"
+      ]
+    },
+    {
+      "check": "book_zero_pages_retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "book_all_statements_present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "deterministic_replay_exit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "deterministic_artifact_hashes",
+      "passed": true,
+      "detail": {}
+    }
+  ]
+}

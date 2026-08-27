@@ -13628,3 +13628,36 @@ Use GDT566 as the complete readable working text and event-level dual-channel
 edition. Next inspect every within-statement transition where a generated state
 line meets an owner-bound nonstate line. Seek small German bridge rules for hard
 joins while preserving every event meaning, source boundary and root.
+
+## GDT567 removes the owner-voice seam with39 cards
+
+The complete GDT566 text has4,329 within-statement adjacencies:2,426
+nonstate→nonstate,969 nonstate→state,611 state→nonstate and323 state→state.
+Thus1,580 seams in528 mixed statements cross between the generic GDT565 voice
+and an owner-bound clause.
+
+GDT567 recovers19 actually used register×argument and18 register×relation
+renderings from the existing control channel. The argument table gives the
+same Y/AIIN/AIN/OR slots owner terms such as laufender Eintrag/Kennwert,
+Pflanzenposten/Arbeitswert, Positionsposten/Positionswert,
+Stationsposten/Stationswert and Drogenposten/Mengenwert. Missing cells remain
+absent. Two universal cards are fully observed: `hier`→“an der bezeichneten
+Stelle”123/123 and `abschließen`→“schließe den Schritt”705/705.
+
+All37 register-root cards cover1,807 state-event uses with1,807/1,807 target
+terms already present in their owner-bound controls. The39-card deck changes
+1,639/1,656 state clauses,774/793 statements and all28 running pages, while all
+3,466 nonstate clauses remain byte-identical. Only20 adapted state clauses
+become identical to the full control clause, so the concise GDT565 composition
+is not replaced wholesale.
+
+At1,209 mixed seams both endpoints expose the same argument category. Exact
+whole-word heads improve from0/1,209 to1,209/1,209. Twenty shared-relation seams
+improve from3 to20. A loose preliminary count of1,219 was corrected because ten
+matches were only substrings such as `Eintrag` inside `Eintragseinheit`. All
+4,329 event boundaries remain separate and all43 checks pass.
+
+Use the GDT567 edition as the current readable voice layer. Next compare the
+nine action roots with their owner-bound verb realizations by register and
+extract only repeated small action frames; do not reinterpret a root or open a
+page.
