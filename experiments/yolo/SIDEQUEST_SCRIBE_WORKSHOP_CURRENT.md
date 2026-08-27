@@ -1,6 +1,6 @@
 # Current thirty-page scribe-workshop theory
 
-Updated: 2026-08-27, after GDT539.
+Updated: 2026-08-27, after GDT540.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -1845,10 +1845,32 @@ fragments. All149 target prose occurrences have a visible or same-statement
 action context. Thus the new forms are not floating glosses: each already sits
 inside a complete local workflow reading.
 
+## GDT540 context-intake contract
+
+The149 target prose events split into92 self-contained readings,5 that use the
+active same-statement action,41 that use the active argument and11 that use
+both. Collapsed onto145 surfaces,88 are observed only self-contained,5 only
+action-dependent,40 only argument-dependent and11 only dependent on both.
+One surface has two modes.
+
+That surface is `qokees=OK+EE+S`. At the start of one statement it reads the
+two visible actions without an object. In another statement it follows a
+visible `Y` and takes that running entry as object. This supplies the practical
+rule: visible action/argument slots win; a missing action takes the current
+same-statement action or remains a fragment, while a missing argument takes the
+current same-statement argument when one exists and otherwise stays objectless.
+
+`keody` repeats three times and `shain` twice without changing mode. Every
+context source used by the149 events lies at most three cards to the left and
+inside the same statement. The reader nevertheless stores the last visible
+action and argument until the statement boundary rather than imposing a hard
+three-card window.
+
 ## Next work
 
-GDT539 now supplies the complete context layer. Before opening pages, extract a
-compact contract for the149 target prose events: whether each surface carries
-its own action/argument or requires one from the left, exactly which source
-card supplies it, and what state remains after the card. Keep the14 local-only
-surfaces outside this prose contract.
+Use the old26-page GDT407 prefix as immediate workshop material. Find every old
+running event whose complete recipe equals one of the145 GDT540 recipes and
+replay the same visible-slot context rule under the already present statement
+boundaries. Start with the four old `OK+EE+S` carriers (`okees`/`chokees`) to
+see whether they reproduce the objectless/context-filled switch. No new page,
+surface resegmentation, recipe, or stem meaning is needed.

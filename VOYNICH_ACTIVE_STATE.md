@@ -13062,3 +13062,27 @@ remain actionless fragments,14 at statement starts; all149 target prose events
 have explicit or same-statement action context. Next extract a compact
 per-surface action/argument requirement contract for future intake; keep the14
 local surfaces outside it.
+
+## GDT540 target-surface context requirement contract
+
+GDT540 turns those149 target prose events into an explicit intake deck. Their
+known readings divide into92 self-contained events,5 needing the active
+same-statement action,41 needing the active argument and11 needing both. On
+surface level the counts are88/5/40/11, plus one mixed form. All145 surfaces
+now state separately what their visible action and argument slots supply and
+what a future reader should take from the current statement.
+
+The only observed mode switch is informative rather than a conflict:
+`qokees=OK+EE+S` is objectless at one statement start and inherits `Y` after a
+visible argument in another statement. Thus a missing argument is filled when
+same-statement state exists and otherwise remains objectless. A missing action
+uses the active same-statement action; without one, only a nonverbal fragment
+is emitted. `keody` (three events) and `shain` (two) remain consistently
+self-contained. All16 action sources and52 argument sources lie at most three
+cards leftward in the same statement, though three is not imposed as a future
+limit.
+
+Next replay the GDT540 rule on every exact-recipe carrier in GDT407's old
+26-page prefix. In particular, compare the four old `OK+EE+S` carriers with
+the two `qokees` modes. Use the existing recipes and statement boundaries;
+open no page and do not resegment a form.
