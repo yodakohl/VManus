@@ -2016,10 +2016,22 @@ already old and12 on nine cards remain current compositions. Only
 `shso=SH+S+O` still depends on a raw new direct action pair, `SH>S`; its
 default is kept openly rather than hidden in a long gloss.
 
+## GDT548 unified 145-card prose reader
+
+The complete working edition is now one exact-key command rather than four
+separate decks. Every known prose surface returns its recipe, neutral default,
+known contextual German reading, action/argument state rule, tier-specific
+trace and exact residual caution. Unknown spellings stop.
+
+The common view isolates23 cards worth improving: ten full-tile cards lack an
+old complete skeleton or ordered path, twelve fragment cards retain a named
+edge/context rest, and `shso` retains the new `SH>S` pair. The other122 need
+not be reopened merely because their old evidence has a different form.
+
 ## Next work
 
-Compile all145 prose target surfaces into one reader with a single output
-contract across the11 exact,29 tiled,81 fragment and24 atom/factor tiers.
-Then rank the genuinely weak cards—twelve fragment defaults, ten weaker tile
-cards, `shso`, and any overlaps—so the next improvement attacks a small named
-queue instead of reopening all meanings.
+Factor the23-card queue by repeated missing atom interfaces, context
+mismatches, visible chunks and shared recipe subpaths. Prefer a bridge that
+repairs several cards at once. Retain every current default while searching;
+open no new page and do not solve a missing bridge with an invented long
+whole-word gloss.

@@ -13219,3 +13219,22 @@ overlay. `shso=SH+S+O` remains the sole raw observed pair default at new
 `SH>S`; its full reading stays “Halten und wählen; zur Ausführung.” All38
 checks pass. Next compile the11/29/81/24 support ladder into one145-surface
 reader; no page, recipe, root value, or meaning changed.
+
+## GDT548 unified exact-key reader for all 145 prose surfaces
+
+The final11/29/81/24 ladder is now one executable exact-key deck. Every known
+surface retains the unchanged GDT540 recipe, neutral German default, contextual
+working reading, visible action/argument roots and same-statement state rule;
+each also reports its tier-specific route, trace, evidence and caution. The
+reader resolves supplied same-statement action/argument state, preserves a
+neutral meaning when a verbal clause lacks its action, and stops on an unknown
+surface.
+
+The four source decks join exactly:11 complete old recipes,29 complete old-tile
+compositions,81 fragment cards and24 atom/factor cards. All145 have both
+meaning fields populated. A mechanical improvement queue contains exactly23
+cards:10 tile-only defaults without an old full skeleton/ordered path,12
+fragment defaults with named context/edge rests, and `shso` with the raw new
+`SH>S` pair. The other122 remain outside this focused queue. All34 checks pass.
+Next factor the23 cards by shared missing bridge and prioritize multi-card
+repairs; no page, surface, recipe, root value or meaning was changed.
