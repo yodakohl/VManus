@@ -1,0 +1,144 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Contextual editorial statement edition and observed-role correction for the four already admitted pages. No plaintext, language, syntax, object, historical codebook, new recipe, root value, future role, or unseen-page claim follows.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt539_four_page_contextual_statement_edition/src/run.py",
+    "validate": "python3 experiments/yolo/gdt539_four_page_contextual_statement_edition/src/validate.py"
+  },
+  "created": "2026-08-27",
+  "dependencies": [
+    "GDT415",
+    "GDT416",
+    "GDT515",
+    "GDT516",
+    "GDT517",
+    "GDT538"
+  ],
+  "experiment_id": "GDT539",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt516_thirty_page_new_surface_family_consolidation/artifacts/gdt516_597_contextualized_event_edition.tsv",
+      "role": "complete four-page event roles and contextual recipes",
+      "sha256": "5e8e95194490960261649d7f99450725aaec4d2eaa87cc8c18ec45efc1e62c5b"
+    },
+    {
+      "path": "experiments/yolo/gdt515_second_random_four_page_full_admission/artifacts/gdt515_prose_statement_edition.tsv",
+      "role": "fixed 78-statement boundaries and owners",
+      "sha256": "9bccb234149b627fd9329a4215d18afa0fa748ce6067cc1b15a5674c4536ed85"
+    },
+    {
+      "path": "experiments/yolo/gdt538_final_159_phrase_consistency_edition/artifacts/gdt538_159_complete_phrase_dictionary.tsv",
+      "role": "final recipes and complete surface phrases",
+      "sha256": "f4b87404a013a456f90f4df44c39e4ebf2fd5437000b0a1cc95d6299744c1ab5"
+    },
+    {
+      "path": "experiments/yolo/gdt538_final_159_phrase_consistency_edition/artifacts/gdt538_34_atom_phrase_lexicon.tsv",
+      "role": "stable controlled-order realizations",
+      "sha256": "ac3b5eec6409f085566800307180b0c7bfb52ef38421320270aa62d04ba457cc"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt539_four_page_contextual_statement_edition/METHOD.md",
+      "role": "context and role-scope method",
+      "sha256": "a8fcd38e1dbbd31188cfef7c2e6fcd79ac02e21b29433c7ee5b1b21044fea4af"
+    },
+    {
+      "path": "experiments/yolo/gdt539_four_page_contextual_statement_edition/README.md",
+      "role": "experiment entry point",
+      "sha256": "f003f1ef5503948b6ce5ce420c6dbbb15aa40e1f16c30bfc4fd01a63af42a768"
+    },
+    {
+      "path": "experiments/yolo/gdt539_four_page_contextual_statement_edition/REPORT.md",
+      "role": "primary statement and role correction report",
+      "sha256": "638618ea3a201bf2c659d2f91dc00f784b3b5944416678098da96ce1b02b9978"
+    },
+    {
+      "path": "experiments/yolo/gdt539_four_page_contextual_statement_edition/artifacts/README.md",
+      "role": "artifact guide",
+      "sha256": "4700fbe7729891e22b6e8d6494fac05689d5e177847073eb48e29ae796bb05ea"
+    },
+    {
+      "path": "experiments/yolo/gdt539_four_page_contextual_statement_edition/artifacts/GDT539_FOUR_PAGE_CONTEXTUAL_WORKING_EDITION.md",
+      "role": "complete readable four-page edition",
+      "sha256": "486dd9b2d56bd3bc3c2621424bf35df3f7aa760397302ca83363cf08853bfb83"
+    },
+    {
+      "path": "experiments/yolo/gdt539_four_page_contextual_statement_edition/artifacts/gdt539_14_local_surface_defaults.tsv",
+      "role": "local-only surface phrase deck",
+      "sha256": "e993731280e3be6a7c9cc9a8913b29b711cec6f8c4496bf6a5d65ddf804b5b7a"
+    },
+    {
+      "path": "experiments/yolo/gdt539_four_page_contextual_statement_edition/artifacts/gdt539_159_surface_role_scopes.tsv",
+      "role": "disjoint observed role-scope deck",
+      "sha256": "aef8ca750f3985db42f521cc63ba62c31dbd7db3b35bc427007743ea1df43fcd"
+    },
+    {
+      "path": "experiments/yolo/gdt539_four_page_contextual_statement_edition/artifacts/gdt539_4_page_summary.tsv",
+      "role": "page coverage summary",
+      "sha256": "7f2f91948fb5d372cc65456bddc7b80b864fe732d755d87a2b23aac2c109787e"
+    },
+    {
+      "path": "experiments/yolo/gdt539_four_page_contextual_statement_edition/artifacts/gdt539_51_local_role_retention.tsv",
+      "role": "complete local-card edition",
+      "sha256": "2c70cc789d1d67e804c96d2132d308d3bd74a7c5782e1ce18b012d350b615708"
+    },
+    {
+      "path": "experiments/yolo/gdt539_four_page_contextual_statement_edition/artifacts/gdt539_546_contextual_prose_events.tsv",
+      "role": "complete contextual event and backprojection deck",
+      "sha256": "4554b8b4cb1697c8f6f544a75505a8a695b4d2043aeceeb9f5922eb21f73843d"
+    },
+    {
+      "path": "experiments/yolo/gdt539_four_page_contextual_statement_edition/artifacts/gdt539_78_contextual_statements.tsv",
+      "role": "complete statement readings",
+      "sha256": "3ffe285c3a0ae00903fba06cba3cacecbb998585a67d9c7b88708a4a7e6325c7"
+    },
+    {
+      "path": "experiments/yolo/gdt539_four_page_contextual_statement_edition/artifacts/gdt539_ellipsis_summary.tsv",
+      "role": "same-statement inheritance summary",
+      "sha256": "8eaea3e0839ba3a3f252cf979961bda7b31f1942aea3cb4a1c801882b4d51bfc"
+    },
+    {
+      "path": "experiments/yolo/gdt539_four_page_contextual_statement_edition/artifacts/gdt539_result.json",
+      "role": "compact result metrics",
+      "sha256": "9c0be2cd609bda3db733c688c93e9e695944f944aa967491e4ac76c0ab289356"
+    },
+    {
+      "path": "experiments/yolo/gdt539_four_page_contextual_statement_edition/artifacts/gdt539_validation.json",
+      "role": "independent 86-check validation record",
+      "sha256": "e30ffde2a04658770b13c85b9222f1e5e46cc8b337740a10962433d3fc9c69e6"
+    },
+    {
+      "path": "experiments/yolo/gdt539_four_page_contextual_statement_edition/src/role_surface.py",
+      "role": "role-corrected executable surface reader",
+      "sha256": "f8d3ae16b2e31fbdbfcee2f68cafd2294b98c474196906936b28182e73a07765"
+    },
+    {
+      "path": "experiments/yolo/gdt539_four_page_contextual_statement_edition/src/run.py",
+      "role": "reproducible contextual statement compiler",
+      "sha256": "9331315d6e3717fc5560d627b3b2d08aa2a263534343d82c0b544b702a5a448d"
+    },
+    {
+      "path": "experiments/yolo/gdt539_four_page_contextual_statement_edition/src/validate.py",
+      "role": "independent context and role validator",
+      "sha256": "15f73ad0c664594abf178efa1a0b0d2cf3aa442f3f782863de7185dba7245dc9"
+    }
+  ],
+  "question": "Can the final GDT538 meanings be returned to all four admitted pages as complete contextual statements while keeping local margin/sign cards outside the prose reader and changing no recipe or root value?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "four_page_contextual_statement_edition",
+  "status": "PASS_78_STATEMENTS_COMPLETE__145_PROSE_AND_14_LOCAL_SURFACES_SEPARATED",
+  "title": "Four-page contextual statement edition",
+  "updated": "2026-08-27",
+  "validation": {
+    "artifact": "experiments/yolo/gdt539_four_page_contextual_statement_edition/artifacts/gdt539_validation.json",
+    "status": "PASS"
+  }
+}

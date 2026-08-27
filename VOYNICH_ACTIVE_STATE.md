@@ -13046,3 +13046,19 @@ new executable overlay returns159/159 phrases and delegates local, old, and
 unknown surfaces. Exact role recount splits the168 occurrences into149 prose
 cards across49/78 statements and19 local Rand-/Kennkarten. Next contextualize
 only the149 prose cards and keep the local19 separate.
+
+## GDT539 four-page contextual statement and role edition
+
+GDT539 compiles all597 selected-page events:546 prose cards in78 complete
+statements and51 local cards. All recipes and controlled chains backproject
+exactly. The159 target surfaces split without collision into145 prose-only
+surfaces/149 events and14 local-only surfaces/19 events. GDT539 corrects those
+fourteen exact scopes and bypasses GDT538's blanket prose overlay on a role
+mismatch.
+
+Same-statement context supplies143 actions and189 arguments, always from a
+leftward source and never across a statement boundary. Only16/546 prose cards
+remain actionless fragments,14 at statement starts; all149 target prose events
+have explicit or same-statement action context. Next extract a compact
+per-surface action/argument requirement contract for future intake; keep the14
+local surfaces outside it.

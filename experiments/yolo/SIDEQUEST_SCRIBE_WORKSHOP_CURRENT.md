@@ -1,6 +1,6 @@
 # Current thirty-page scribe-workshop theory
 
-Updated: 2026-08-27, after GDT538.
+Updated: 2026-08-27, after GDT539.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -1823,11 +1823,32 @@ All62 current one-atom recipe neighbours retain every unchanged phrase slot
 and expose exactly one edited slot. The executable reader returns all159 new
 phrases before GDT537 and still delegates local, old and unseen forms.
 
+## GDT539 four-page contextual statement edition
+
+All597 selected-page cards now return to their observed roles. The prose side
+has546 events in78 complete statements; the local side retains51 margin, sign,
+and late-addition cards. Every event preserves its exact recipe and controlled
+reading chain. Eight prose events use the final post-GDT516 recipe; no new
+recipe or root value is introduced.
+
+The159 new surfaces partition perfectly on these pages:145 surfaces/149 events
+are prose-only, while14 surfaces/19 events are local-only. No surface crosses
+the boundary. The local set is `c`, `f`, `fary`, `otcheo`, `p`, `qolsa`,
+`qotesy`, `rals`, `raral`, `rary`, `salf`, `saly`, `x`, and `ykeol`. The new
+reader corrects their scope and bypasses GDT538's old blanket prose overlay on
+a mismatched request.
+
+Within prose,143 cards inherit an action and189 inherit an argument, always
+from an earlier card in the same statement. Only16/546 have no visible or
+inherited verb;14 of those are statement-opening value/address/relation/close
+fragments. All149 target prose occurrences have a visible or same-statement
+action context. Thus the new forms are not floating glosses: each already sits
+inside a complete local workflow reading.
+
 ## Next work
 
-Keep pages closed. Of168 occurrences,149 are prose cards spread across49 of
-the78 statements;19 belong to the local Rand-/Kennkartendeck. Insert only the
-149 prose cards into their statements and keep the local19 separate. Resolve
-only verbs or arguments already active in the same statement, and publish the
-complete statement reading plus exact card backprojection. Do not change a
-surface recipe, root value, structural tag, owner, or special route.
+GDT539 now supplies the complete context layer. Before opening pages, extract a
+compact contract for the149 target prose events: whether each surface carries
+its own action/argument or requires one from the left, exactly which source
+card supplies it, and what state remains after the card. Keep the14 local-only
+surfaces outside this prose contract.

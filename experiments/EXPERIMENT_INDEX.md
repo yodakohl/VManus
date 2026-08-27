@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **537**
-- Experiment-associated tracked files: **7,923** (814.1 MiB)
-- Structured GDT337+ experiments: **202**
+- Experiments indexed: **538**
+- Experiment-associated tracked files: **7,941** (814.6 MiB)
+- Structured GDT337+ experiments: **203**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT539 | GDT539_four_page_contextual_statement_edition | `PASS_78_STATEMENTS_COMPLETE__145_PROSE_AND_14_LOCAL_SURFACES_SEPARATED` | [report](../experiments/yolo/gdt539_four_page_contextual_statement_edition/REPORT.md) | 18 | 522.1 KiB | 7 | STRUCTURED_YOLO |
 | GDT538 | GDT538_phrase_scope_count_correction | `CORRECTED_TO_149_PROSE_PLUS_19_LOCAL_OCCURRENCES` | [report](../experiments/yolo/gdt538_final_159_phrase_consistency_edition/REPORT.md) | 16 | 171.9 KiB | 6 | STRUCTURED_YOLO |
 | GDT537 | GDT537_seven_route_final_intake_supplement | `PASS_SEVEN_ROUTE_FINAL_INTAKE_SUPPLEMENT` | [report](../experiments/yolo/gdt537_seven_route_final_intake_supplement/REPORT.md) | 17 | 129.1 KiB | 10 | STRUCTURED_YOLO |
 | GDT536 | GDT536_aii_renderer_square_aiicthy_closure | `PASS_AII_RENDERER_SQUARE_aiicthy_CLOSURE` | [report](../experiments/yolo/gdt536_aii_renderer_square_aiicthy_closure/REPORT.md) | 20 | 357.9 KiB | 6 | STRUCTURED_YOLO |
