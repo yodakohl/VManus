@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **518**
-- Experiment-associated tracked files: **7,565** (807.7 MiB)
-- Structured GDT337+ experiments: **183**
+- Experiments indexed: **519**
+- Experiment-associated tracked files: **7,584** (808.1 MiB)
+- Structured GDT337+ experiments: **184**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT520 | GDT520_renderer_boundary_license_lattice | `PASS_RENDERER_BOUNDARY_LICENSE_LATTICE` | [report](../experiments/yolo/gdt520_renderer_boundary_license_lattice/REPORT.md) | 19 | 437.7 KiB | 5 | STRUCTURED_YOLO |
 | GDT519 | GDT519_visible_stem_anchor_transducer | `PASS_VISIBLE_STEM_ANCHOR_TRANSDUCER` | [report](../experiments/yolo/gdt519_visible_stem_anchor_transducer/REPORT.md) | 18 | 527.3 KiB | 7 | STRUCTURED_YOLO |
 | GDT518 | GDT518_context_aware_surface_recipe_reranker | `PASS_CONTEXT_AWARE_SURFACE_RECIPE_RERANKER` | [report](../experiments/yolo/gdt518_context_aware_surface_recipe_reranker/REPORT.md) | 17 | 219.2 KiB | 3 | STRUCTURED_YOLO |
 | GDT517 | GDT517_thirty_page_surface_recipe_intake_compiler | `PASS_EXECUTABLE_SURFACE_TO_RECIPE_INTAKE` | [report](../experiments/yolo/gdt517_thirty_page_surface_recipe_intake_compiler/REPORT.md) | 21 | 4.2 MiB | 6 | STRUCTURED_YOLO |

@@ -1,0 +1,67 @@
+{
+  "experiment_id": "GDT520",
+  "status": "PASS_RENDERER_BOUNDARY_LICENSE_LATTICE",
+  "claim_ceiling": "EXPLORATORY_VISIBLE_BOUNDARY_AND_COMPOSITION_DEFAULT__NO_CONFIRMED_LEXEME_OR_PLAINTEXT",
+  "selected_policy": {
+    "segment_count_weight": 0.1,
+    "boundary_weight": 0.1,
+    "pair_backoff": 8.0,
+    "window_backoff": 4.0,
+    "minimum_boundary_probability": 0.02,
+    "maximum_boundary_probability": 0.98,
+    "old26_training_surface_count": 1558,
+    "old26_boundary_slot_count": 7433,
+    "visible_pair_license_count": 199,
+    "visible_window_license_count": 2037
+  },
+  "old26_four_fold_gdt519_metrics": {
+    "target_count": 1558,
+    "truth_generated_count": 1441,
+    "top1_exact_count": 1082,
+    "top2_exact_count": 1319,
+    "top3_exact_count": 1377,
+    "top5_exact_count": 1418,
+    "rank_sum": 2152,
+    "deepest_truth_rank": 23
+  },
+  "old26_four_fold_gdt520_metrics": {
+    "target_count": 1558,
+    "truth_generated_count": 1441,
+    "top1_exact_count": 1089,
+    "top2_exact_count": 1321,
+    "top3_exact_count": 1381,
+    "top5_exact_count": 1416,
+    "rank_sum": 2139,
+    "deepest_truth_rank": 22
+  },
+  "current_gdt519_metrics": {
+    "target_count": 159,
+    "truth_generated_count": 159,
+    "top1_exact_count": 138,
+    "top2_exact_count": 153,
+    "top3_exact_count": 157,
+    "top5_exact_count": 158,
+    "rank_sum": 192,
+    "deepest_truth_rank": 8
+  },
+  "current_gdt520_metrics": {
+    "target_count": 159,
+    "truth_generated_count": 159,
+    "top1_exact_count": 139,
+    "top2_exact_count": 154,
+    "top3_exact_count": 158,
+    "top5_exact_count": 158,
+    "rank_sum": 190,
+    "deepest_truth_rank": 9
+  },
+  "current_net_top1_gain": 1,
+  "current_rank_sum_reduction": 2,
+  "current_decision_change_classes": {
+    "GDT519_CORRECT_LOST": 1,
+    "GDT519_CORRECT_PRESERVED": 137,
+    "GDT519_ERROR_CORRECTED": 2,
+    "GDT519_ERROR_UNCHANGED": 19
+  },
+  "remaining_top1_error_count": 20,
+  "guard": "VISIBLE_BOUNDARIES_LICENSE_RENDERER_SEGMENTATION_ONLY__KNOWN_EVENT_AND_SURFACE_CARDS_KEEP_PRECEDENCE"
+}
