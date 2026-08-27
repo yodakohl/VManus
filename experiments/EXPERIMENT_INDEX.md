@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **514**
-- Experiment-associated tracked files: **7,487** (799.8 MiB)
-- Structured GDT337+ experiments: **179**
+- Experiments indexed: **515**
+- Experiment-associated tracked files: **7,509** (802.7 MiB)
+- Structured GDT337+ experiments: **180**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT516 | GDT516_thirty_page_new_surface_family_consolidation | `PASS_NEW_FORMS_COMPRESSED_WITH_FINITE_CONTEXT_POLICY` | [report](../experiments/yolo/gdt516_thirty_page_new_surface_family_consolidation/REPORT.md) | 22 | 2.9 MiB | 6 | STRUCTURED_YOLO |
 | GDT515 | GDT515_second_random_four_page_full_admission | `PASS_FOUR_PAGES_ADMITTED_WITH_TWO_LOCAL_X_CORES` | [report](../experiments/yolo/gdt515_second_random_four_page_full_admission/REPORT.md) | 25 | 3.7 MiB | 7 | STRUCTURED_YOLO |
 | GDT514 | GDT514_second_random_four_page_selection_owner_map | `PASS_SELECTION_AND_OWNER_MAP_READY` | [report](../experiments/yolo/gdt514_second_random_four_page_selection_owner_map/REPORT.md) | 12 | 37.4 KiB | 3 | STRUCTURED_YOLO |
 | GDT513 | GDT513_remaining_local_group_semantic_census | `ALL_510_REMAINING_LOCAL_GROUPS_RECEIVE_DEFAULTS__MIXED_RECORD_MODEL_SELECTED` | [report](../experiments/yolo/gdt513_remaining_local_group_semantic_census/REPORT.md) | 16 | 568.4 KiB | 5 | STRUCTURED_YOLO |

@@ -1440,28 +1440,53 @@ comparison set.
 - historical workshop comparison:
   `sidequest_semantic_historical_herbal_workshop_match_nine_hundred_seventy_third/`.
 
+## GDT516 current family basis
+
+The 159 genuinely new running surfaces have now been compressed against the
+old 26-page complete-recipe inventory. Ten are full old recipe carriers under
+another surface; 120 more contain a proper complete old recipe fragment, and
+only 29 have atom/factor support alone. Disjoint old multi-atom recipes cover
+426/643 component positions. Twenty recurrent nonempty portable skeletons
+cover 48 new forms and 25 recurrent action skeletons cover 114. The three
+cross-new-page surface anchors are `keody`, `qokees`, and `shain`.
+
+The ten old-local/new-context contacts now have a finite policy: three exact
+agreements; common visible recipes for `chekey=CH+K+E+Y` and
+`saiir=S+IIN+R`; the existing learned-name shell
+`doly=LOCAL_NAME_CORE_D+OL+Y`; and four explicit label/prose homographs
+(`okyd`, `sos`, `ykady`, `ykeeody`). These role cases do not create portable
+polysemy. Standalone and embedded f66r x now share neutral `LOCAL_X`; it has no
+word value.
+
+The six GDT515 open forms are reduced to usable defaults. `cthdy` keeps visible
+`D_ADDR+Y` against 17 `cthy` carriers; `okedam` keeps its independently
+supported address chain; `qocthedy` shares an exact old recipe with
+`qocthey`; prose `ykady` keeps close `DY` while its old label keeps `Y`.
+Across the running deck, 287 visible `…dy` surface types split into 174
+recipe-DY, 111 recipe-Y and two other endings; only 11/110 exact `…dy/…y`
+pairs share a recipe. Visible spelling alone therefore never decides the
+close.
+
+The new forms add one previously absent ordered action transition:
+`CHD→R` occurs twice on f66r after GDT427 had already licensed it amber from a
+typed f89r carrier. `SH→S` is newly direct in `shso`, but its ordered relation
+was already old. No twentieth portable value is needed. The complete 597-event
+and 5,866-group contextual overlays are in GDT516; validation passes 36/36.
+
 ## Next work
 
-Keep the current 30 pages closed for the next pass. GDT515 has supplied the
-new information we wanted: 159 genuinely new surfaces, ten contacts that were
-previously local-only, six explicitly open direct parses and two local X name
-cores. The next gain should come from compressing these new forms rather than
-immediately spending another four pages.
+Keep all further pages closed for one compiler pass. Turn the GDT516 priority
+order into a single executable intake command:
 
-Build a 30-page recipe-family atlas with three concrete jobs:
+1. exact old complete recipe;
+2. longest compatible old complete-recipe fragments and portable skeleton;
+3. visible atom/factor composition;
+4. bounded local learned/sign core;
+5. explicit context-table split for the four known role homographs.
 
-1. group the 159 new surfaces by shared ordered component shell and identify
-   exact new-page recurrences rather than mere edit resemblance;
-2. inspect the seven old-local/new-context recipe disagreements, especially
-   `saiir`, `sos`, `ykady` and `ykeeody`, to decide whether owner role explains
-   their old parse or whether the new visible parse should become the common
-   working recipe;
-3. compare the six open forms (`axor`, `chxar`, `cthdy`, `okedam`,
-   `qocthedy`, `ykady`) against all 30-page component contexts. Preserve the X
-   content core unless a better repeated shell actually appears.
-
-The intended output is a smaller predictive composition dictionary for a
-future third page batch. Do not add a twentieth portable meaning and do not
-turn f66r margin signs into prose words. New pages become useful again after
-the open families have a single best working default or an explicit finite
-alternative set.
+Replay that command over all current 30 pages and publish a compact intake card
+for every support tier. The command must report its carrier surfaces/pages and
+must never silently choose a `dy/y` role or export `LOCAL_X/C` as a portable
+root. Once this compiler reproduces the current deck, a further four-page
+batch can test whether the finite policy holds without another retrospective
+meaning change.

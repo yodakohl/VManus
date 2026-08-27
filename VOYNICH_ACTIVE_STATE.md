@@ -12453,3 +12453,46 @@ local groups, 793 statements, 5,672 focus attachments and 5,866 unified groups.
 Next group the 159 new surfaces into recurrent recipe/shell families and audit
 the seven old-local/new-context conflicts plus the six open parses. No further
 page is required for that pass.
+
+## GDT516 thirty-page new-surface family consolidation
+
+GDT516 opens no new page. It compares the 159 genuinely new GDT515 running
+surfaces with all complete recipes in the frozen 26-page running deck. Ten new
+surfaces have an exact old complete-recipe carrier. Another 120 contain a
+proper contiguous fragment that was itself a complete old recipe; 29 have
+atom/factor support only. Of the 159, 39 are fully tileable by disjoint old
+multi-atom recipes. This stronger carrier tiling covers 426/643 component
+positions (66.25%). Twenty recurrent nonempty portable skeletons cover 48 new
+forms; 25 recurrent action-only skeletons cover 114. `keody`, `qokees`, and
+`shain` are the three new surfaces recurrent across selected pages.
+
+All ten old-local/new-context contacts receive an explicit finite decision.
+`daiir`, `odair`, and `ykees` agree exactly. `chekey=CH+K+E+Y` and
+`saiir=S+IIN+R` become common visible recipes across their old label and new
+prose contexts. `doly=LOCAL_NAME_CORE_D+OL+Y` replays GDT473's learned `d`
+plus portable `OL+Y` shell. `okyd`, `sos`, `ykady`, and `ykeeody` remain finite
+role homographs with separate label/prose recipes; this creates no portable
+polysemy. Standalone and embedded f66r x are unified as neutral `LOCAL_X` with
+no portable value; standalone c remains `LOCAL_C`.
+
+The six GDT515 open forms are retained or simplified under explicit evidence.
+`cthdy=CH+T+D_ADDR+Y` contrasts with 17 `cthy=CH+T+Y` events;
+`okedam=OK+E+D_ADDR+AM_ADDR` has independent prefix and suffix carriers;
+`qocthedy` shares its complete recipe with old `qocthey`; prose `ykady` keeps
+DY while the old celestial label keeps Y. `axor/chxar` share `LOCAL_X`.
+
+The corrected thirty-page census has 287 visible `…dy` surface types: 174 end
+in recipe DY, 111 in Y, and two otherwise. The 110 exact visible `…dy/…y`
+pairs split into eleven same-recipe and 99 different-recipe pairs, so spelling
+alone never decides the close. The new surfaces contain 90 neighbouring
+action-head occurrences in 31 ordered types. `CHD>R` is the only order absent
+from the old running deck; it now occurs twice on f66r after GDT427 had already
+classified it amber-allowed from typed f89r support. `SH>S` is newly direct but
+its order was already observed. No portable value changes. The reversible
+597-event and 5,866-group overlays validate 36/36.
+
+Next compile the GDT516 priority order into one executable intake command over
+the closed 30-page deck: exact complete carrier, compatible old recipe
+fragments, atom/factor composition, bounded local core, then the four explicit
+role homographs. Do not open another page until the compiler reproduces the
+current overlay and reports carrier provenance for every decision.
