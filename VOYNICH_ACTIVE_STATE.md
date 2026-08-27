@@ -13390,3 +13390,29 @@ may close a local step before continuation. All29 checks pass through explicit
 26-page selector guards. Next test complementary `OL=FORTSETZEN` and
 `OT=DANACH` positions; no page, recipe, root meaning, clause or boundary
 changed.
+
+## GDT557 compiles OT/OL/DY into one three-operation reader
+
+The guarded30-page union contains1,870 exact `OT/OL/DY` atoms in1,656 of5,122
+running cards. `OT=DANACH` is right-projecting in402/404 occurrences:377 are
+recipe-initial,25 internal bridges and only2 are bare context-carrier cards.
+`OL=FORTSETZEN` is the deliberately flexible middle operation:761 occurrences
+split into199 initial,85 bridge,288 terminal and189 single-atom slots;658/747
+OL-bearing cards are not statement-final. `DY=ABSCHLIESSEN` remains left- and
+closure-projecting, with705/705 left carriers and702/705 statement-final cards.
+
+The marker-only projection has exactly9 sequences. DY acts as the closure
+switch:702/704 sequences ending in DY close a statement versus20/951
+marker-bearing cards without DY; `OT+DY` closes86/86, `OL+DY`74/74 and
+`OT+OL`0/38. Pair order is OT→OL38/39, OT→DY86/86 and OL→DY74/75. The two
+reverse cards are retained compositionally: `R+OL+OT+Y` means continue the
+current marked carrier then open the next, and `OK+EE+DY+OL` closes the local
+grade-II step then continues. All28 pages with running cards contain all3
+operators; f69v/f70v remain explicit zero-running-card pages. Exact GDT556 DY
+parity and all37 checks pass.
+
+Adopt the current state operations: OT opens/advances the next carrier, OL keeps
+the current carrier active, and DY closes the current step and, when final, the
+statement. Read all compound operations in written atom order. Next isolate
+the material carried immediately by OT/OL and test how `E/EE/EEE` modifies that
+carrier without opening a page or retuning a root.

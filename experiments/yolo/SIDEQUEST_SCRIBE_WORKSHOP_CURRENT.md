@@ -1,6 +1,6 @@
 # Current thirty-page scribe-workshop theory
 
-Updated: 2026-08-27, after GDT556.
+Updated: 2026-08-27, after GDT557.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -2129,7 +2129,35 @@ The compact reader rule is now: `DY` closes the current step; if the card is
 statement-final, it also closes the statement. The internal `OK+EE+DY+OL`
 literally supports “close, then continue.” No root value changed.
 
+## GDT557 OT/OL/DY is one executable three-operation grammar
+
+The full30-page running edition contains1,870 exact state atoms in1,656 cards.
+OT is the right-projecting opener:402/404 occurrences have a right carrier.
+OL is the flexible continuation operator:199 occurrences open forward,85
+bridge two atoms,288 hold backward and189 retain a contextual carrier alone.
+DY is the closer: all705 have a left carrier and702 end their statement.
+
+The composition now predicts boundaries rather than merely paraphrasing them.
+Cards whose final state operator is DY end702/704 times, while marker-bearing
+cards without DY end only20/951 times. `OT+DY` closes86/86, `OL+DY`74/74 and
+`OT+OL`0/38. The dominant pair orders are OT→OL38/39, OT→DY86/86 and
+OL→DY74/75. The two reversals remain fully readable in their written order:
+`R+OL+OT+Y` continues then opens the next carrier, while `OK+EE+DY+OL` closes
+the local step then continues. Every running page contains all three.
+
+Use one default machine everywhere in the admitted material:
+
+```text
+OT  open or advance the next carrier
+OL  keep the current carrier active
+DY  close the current step; if final, close the statement
+```
+
+This replaces vague free connective wording but changes none of the three root
+values, recipes or existing readings.
+
 ## Next work
 
-Test `OL=FORTSETZEN` and `OT=DANACH` as the complementary continuation and
-ordering positions around this closure system; open no new page.
+Hold the three state operations fixed. Isolate the atoms carried immediately
+by OT and OL and test whether `E/EE/EEE` changes only the carried grade or the
+operator scope. Use the same30 pages and open no new page.

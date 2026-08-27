@@ -1,0 +1,10 @@
+profile_ordinal	marker_sequence	event_count	marker_occurrence_count	statement_count	running_physical_page_count	old_event_count	current_event_count	surface_count	exact_recipe_count	statement_final_event_count	statement_final_percent	state_operation_sequence	working_reading_de	order_class
+1	OL	619	619	301	28	559	60	209	157	14	2.261712	KEEP_CURRENT_CARRIER_ACTIVE	laufenden Träger fortsetzen	DOMINANT_START_CONTINUE_CLOSE_ORDER
+2	DY	544	544	543	27	488	56	131	117	542	99.632353	CLOSE_CURRENT_STEP	laufenden Schritt abschließen	DOMINANT_START_CONTINUE_CLOSE_ORDER
+3	OT	279	279	168	28	251	28	95	72	5	1.792115	START_OR_ADVANCE_NEXT_CARRIER	nächsten Träger eröffnen	DOMINANT_START_CONTINUE_CLOSE_ORDER
+4	OT+DY	86	172	86	12	78	8	18	12	86	100.000000	START_OR_ADVANCE_NEXT_CARRIER+CLOSE_CURRENT_STEP	nächsten Träger eröffnen; dann laufenden Schritt abschließen	DOMINANT_START_CONTINUE_CLOSE_ORDER
+5	OL+DY	74	148	74	18	72	2	34	21	74	100.000000	KEEP_CURRENT_CARRIER_ACTIVE+CLOSE_CURRENT_STEP	laufenden Träger fortsetzen; dann laufenden Schritt abschließen	DOMINANT_START_CONTINUE_CLOSE_ORDER
+6	OT+OL	38	76	30	21	33	5	16	13	0	0.000000	START_OR_ADVANCE_NEXT_CARRIER+KEEP_CURRENT_CARRIER_ACTIVE	nächsten Träger eröffnen; dann laufenden Träger fortsetzen	DOMINANT_START_CONTINUE_CLOSE_ORDER
+7	OL+OL	14	28	14	11	11	3	10	8	1	7.142857	KEEP_CURRENT_CARRIER_ACTIVE+KEEP_CURRENT_CARRIER_ACTIVE	laufenden Träger fortsetzen; dann laufenden Träger fortsetzen	DOMINANT_START_CONTINUE_CLOSE_ORDER
+8	DY+OL	1	2	1	1	1	0	1	1	0	0.000000	CLOSE_CURRENT_STEP+KEEP_CURRENT_CARRIER_ACTIVE	laufenden Schritt abschließen; dann laufenden Träger fortsetzen	REVERSE_LOCAL_COMPOSITION
+9	OL+OT	1	2	1	1	1	0	1	1	0	0.000000	KEEP_CURRENT_CARRIER_ACTIVE+START_OR_ADVANCE_NEXT_CARRIER	laufenden Träger fortsetzen; dann nächsten Träger eröffnen	REVERSE_LOCAL_COMPOSITION
