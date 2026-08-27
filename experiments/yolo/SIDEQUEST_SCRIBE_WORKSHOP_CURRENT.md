@@ -1889,10 +1889,35 @@ slot, not baked into one long whole-word gloss.
 Final `chekchy=CH+K+Y` also gains29 old exact carriers under five spellings.
 This is the sole new exact contact created after GDT516's ten-card inventory.
 
+## GDT542 full old-tile bridge
+
+The current support ladder for the145 prose surfaces is:
+
+```text
+11  complete old recipes
+29  fully composed from old multi-atom cards
+81  at least one old multi-atom fragment plus single atoms
+24  atoms and factors only
+```
+
+The29 full compositions contain59 old complete-card tile instances and30
+boundaries between tiles. Every boundary is already visible as the same
+adjacent atom pair inside an old complete card. Seventeen complete portable
+root skeletons recur in the old prefix with the target context mode; fifteen
+repeat exactly the same mode set. Three full tile sequences recur in order
+inside an old statement, and `okalchedy=OK+AL | CHD+Y` has two immediately
+adjacent old paths.
+
+Four cards change tier from GDT516: `chekchy` is now exact, `dairykodas` fully
+tiled, `saiis` fragment-supported and revised `keeol` atom/factor-only. The ten
+weakest full-tile cards remain useful defaults: their whole tiles and every
+seam are old even though their entire skeleton/path is not.
+
 ## Next work
 
-Move one rung outward, still without fuzzy surface matching. Take the29 target
-recipes that GDT516 marks as fully tileable by old complete recipes but not
-themselves old whole recipes. Keep each named tile visible and ask whether the
-assembled action shell and argument mode occur together in old context. Then
-advance to fragment-plus-atom forms; do not mix the tiers.
+Turn the81 fragment-plus-atom targets into directional extension cards. For
+each, keep the longest old whole fragment visible, say whether new atoms attach
+left, right or on both sides, count those exact boundaries in old complete
+cards, and carry the GDT540 context mode beside the frame. Repeated extension
+shapes should become reusable learned-stem templates; isolated shapes stay
+explicit one-card defaults. No new page or fuzzy spelling match.

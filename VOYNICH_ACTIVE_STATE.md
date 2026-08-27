@@ -13103,7 +13103,26 @@ four old events alone already show both modes (3+1), so GDT540's switch is not
 a peculiarity of the new form. Also, final `chekchy=CH+K+Y` supplies the only
 exact carrier contact added after GDT516:29 old events under five spellings.
 
-Next take the29 nonexact GDT516 targets that are nevertheless completely
-tileable by old full recipes. Preserve the named tiles and require their action
-shell and argument mode to transfer together. Only afterward expand to the91
-fragment-plus-atom and29 atom/factor targets. No new page or resegmentation.
+## GDT542 full old-tile context bridge
+
+The final145 prose targets now divide into11 exact old recipe carriers,29
+fully tiled targets,81 old-fragment-plus-atom targets and24 atom/factor-only
+targets. This corrects GDT516's earlier10/28/83/24 count through four named
+migrations: `chekchy` becomes exact, `dairykodas` becomes fully tiled,
+`saiis` gains an old multi-atom fragment and revised `keeol` loses one.
+
+The29 full-tile targets use59 old complete-card instances from42 distinct
+recipes. All30 boundaries between their chosen tiles already occur as the same
+adjacent atom pair inside an old complete card. Seventeen targets also have an
+exact old portable-root skeleton whose observed context set contains the
+target mode:15 match exactly and `dairody`/`qokeedar` merely add old modes.
+Three targets have the full tile sequence in order within old statements:
+`okalchedy` has11 paths including two adjacent ones, while `shekeey` and
+`ykshedy` have one ordered path each.
+
+Keep all29 compositions. The ten weakest have only complete old tiles plus old
+seams, but that is a useful explicit default rather than a rejection. Next
+process the81 fragment-plus-atom targets as directional extension frames:
+record the old whole fragment, left/right/both attachment sequence, old
+attachment carriers and target context mode. Do not use fuzzy surface matching,
+open a page or alter a root value.
