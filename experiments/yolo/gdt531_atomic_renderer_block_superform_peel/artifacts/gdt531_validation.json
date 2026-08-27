@@ -1,0 +1,610 @@
+{
+  "experiment_id": "GDT531",
+  "status": "PASS",
+  "check_count": 33,
+  "passed_count": 33,
+  "failed_count": 0,
+  "checks": [
+    {
+      "check": "result_status",
+      "pass": true,
+      "detail": "PASS_ATOMIC_RENDERER_BLOCK_SUPERFORM_PEEL"
+    },
+    {
+      "check": "claim_ceiling",
+      "pass": true,
+      "detail": "EXPLORATORY_ATOMIC_RENDERER_BLOCK_SUPERFORM_PEEL__NO_GLOBAL_OL_SUFFIX_OR_CONFIRMED_PLAINTEXT"
+    },
+    {
+      "check": "selected_policy",
+      "pass": true,
+      "detail": {
+        "visible_block_widths": [
+          2,
+          3
+        ],
+        "atom_block_widths": [
+          1,
+          2,
+          3
+        ],
+        "surface_relation": "EXACT_OLD_SUPERFORM_MINUS_ONE_CONTIGUOUS_VISIBLE_BLOCK",
+        "recipe_relation": "EXACT_OLD_RECIPE_MINUS_ONE_CONTIGUOUS_ATOM_BLOCK",
+        "license": "GDT522_POSITION_MATCHED_SIGNATURE_SUPPORT_GE3_PROBABILITY_GE0.5_RELIABILITY_GE0.6",
+        "candidate_requirement": "EXISTING_GDT529_TOP1",
+        "conflict": "NO_STRONG_ROUTE_FOR_PREVIOUS_WORKING_AND_NO_EXACT_OLD_TARGET_CONFLICT"
+      }
+    },
+    {
+      "check": "edition_count",
+      "pass": true,
+      "detail": 159
+    },
+    {
+      "check": "edition_unique",
+      "pass": true,
+      "detail": 159
+    },
+    {
+      "check": "one_working_change",
+      "pass": true,
+      "detail": [
+        "saiis"
+      ]
+    },
+    {
+      "check": "saiis_recipe",
+      "pass": true,
+      "detail": {
+        "surface": "saiis",
+        "occurrence_count": "1",
+        "physical_pages": "f31r",
+        "truth_recipe": "S+IIN+S",
+        "revised_working_recipe": "S+IIN+S",
+        "gdt528_rank": "3",
+        "gdt528_revised_rank": "3",
+        "gdt528_top1": "S+A_ADDR+IIN+S",
+        "gdt529_rank": "3",
+        "gdt529_revised_rank": "3",
+        "gdt529_top1": "S+A_ADDR+IIN+S",
+        "gdt529_top5": "S+A_ADDR+IIN+S | S+AIIN+S | S+IIN+S | S+LOCAL_CHAR_I+S | S+A_ADDR+LOCAL_CHAR_I+S",
+        "truth_gdt528_score": "7.398819307",
+        "truth_square_feature": "0.000000000",
+        "truth_gdt529_score": "7.398819307",
+        "truth_square_trace": "NO_TERMINAL_M",
+        "top1_gdt528_score": "6.744438423",
+        "top1_square_feature": "0.000000000",
+        "top1_gdt529_score": "6.744438423",
+        "top1_square_trace": "NO_TERMINAL_M",
+        "top1_alignment_trace": "s=>s~S@edit0+alias0.000 | a=>a~A_ADDR@edit0+alias0.000 | ii=>in~IIN@edit1+alias0.534 | s=>s~S@edit0+alias0.000",
+        "decision_change_class": "GDT528_ERROR_UNCHANGED",
+        "working_policy": "ACTION_SLOT_TRIAD_PLUS_NEAREST_TERMINAL_M_EDIT_SQUARE",
+        "gdt530_working_recipe": "S+IIN+S",
+        "gdt530_working_rank": "3",
+        "gdt530_literal_reading_de": "WÄHLEN · [IIN:STEUERUNG=STUFE] · WÄHLEN",
+        "gdt530_short_phrase_de": "INHERITED",
+        "gdt530_evidence": "NO_SELECTED_SUPERFORM_PEEL_REVISION",
+        "gdt530_policy": "INHERIT_GDT529_WORKING_RECIPE",
+        "gdt531_working_recipe": "S+A_ADDR+IIN+S",
+        "gdt531_working_rank": "1",
+        "gdt531_literal_reading_de": "WÄHLEN · HIER · STUFE · WÄHLEN",
+        "gdt531_short_phrase_de": "Wählen; hier die Stufe wählen.",
+        "gdt531_evidence": "saiisol=S+A_ADDR+IIN+S+OL; peel terminal ol/OL; old right ol/OL signature 29/33",
+        "gdt531_policy": "GDT531_ATOMIC_RENDERER_BLOCK_SUPERFORM_PEEL"
+      }
+    },
+    {
+      "check": "saiis_reading",
+      "pass": true,
+      "detail": "Wählen; hier die Stufe wählen."
+    },
+    {
+      "check": "route_count",
+      "pass": true,
+      "detail": 29
+    },
+    {
+      "check": "route_surface_count",
+      "pass": true,
+      "detail": 15
+    },
+    {
+      "check": "route_classes",
+      "pass": true,
+      "detail": {
+        "SUPPORTS_EXISTING_WORKING_AND_TOP1": 28,
+        "SUPPORTS_TOP1_ALTERNATIVE": 1
+      }
+    },
+    {
+      "check": "single_selected_revision",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "check": "selected_exact_route",
+      "pass": true,
+      "detail": {
+        "surface": "saiis",
+        "previous_working_recipe": "S+IIN+S",
+        "gdt529_top1": "S+A_ADDR+IIN+S",
+        "supported_candidate_recipe": "S+A_ADDR+IIN+S",
+        "supported_candidate_roles": "TOP1",
+        "route_class": "SUPPORTS_TOP1_ALTERNATIVE",
+        "old_superform": "saiisol",
+        "old_superform_recipe": "S+A_ADDR+IIN+S+OL",
+        "removed_visible_block": "ol",
+        "visible_block_width": "2",
+        "visible_index": "5",
+        "visible_position": "RIGHT",
+        "removed_atom_block": "OL",
+        "atom_block_width": "1",
+        "atom_index": "4",
+        "atom_position": "RIGHT",
+        "support_pair_count": "29",
+        "visible_condition_total": "33",
+        "visible_condition_option_count": "5",
+        "conditional_probability": "0.830985915",
+        "reliability": "0.935483871",
+        "signature_examples": "sh>shol | k>kol | t>tol | ot>otol | ok>okol | cth>cthol | d>dol | yt>ytol",
+        "old_event_count": "1",
+        "old_pages": "f77r",
+        "old_registers": "BIOLOGICAL",
+        "old_event_ids": "P1003-E0402",
+        "old_loci": "f77r.47",
+        "gdt530_working_rank": "3",
+        "gdt531_working_rank": "1",
+        "gdt531_working_recipe": "S+A_ADDR+IIN+S",
+        "working_literal_de": "WÄHLEN · HIER · STUFE · WÄHLEN",
+        "working_phrase_de": "Wählen; hier die Stufe wählen.",
+        "decision": "REVISE_WORKING_RECIPE_TO_BLOCK_PEELED_TOP1"
+      }
+    },
+    {
+      "check": "selected_block_peel",
+      "pass": true,
+      "detail": {
+        "surface": "saiis",
+        "previous_working_recipe": "S+IIN+S",
+        "gdt529_top1": "S+A_ADDR+IIN+S",
+        "supported_candidate_recipe": "S+A_ADDR+IIN+S",
+        "supported_candidate_roles": "TOP1",
+        "route_class": "SUPPORTS_TOP1_ALTERNATIVE",
+        "old_superform": "saiisol",
+        "old_superform_recipe": "S+A_ADDR+IIN+S+OL",
+        "removed_visible_block": "ol",
+        "visible_block_width": "2",
+        "visible_index": "5",
+        "visible_position": "RIGHT",
+        "removed_atom_block": "OL",
+        "atom_block_width": "1",
+        "atom_index": "4",
+        "atom_position": "RIGHT",
+        "support_pair_count": "29",
+        "visible_condition_total": "33",
+        "visible_condition_option_count": "5",
+        "conditional_probability": "0.830985915",
+        "reliability": "0.935483871",
+        "signature_examples": "sh>shol | k>kol | t>tol | ot>otol | ok>okol | cth>cthol | d>dol | yt>ytol",
+        "old_event_count": "1",
+        "old_pages": "f77r",
+        "old_registers": "BIOLOGICAL",
+        "old_event_ids": "P1003-E0402",
+        "old_loci": "f77r.47",
+        "gdt530_working_rank": "3",
+        "gdt531_working_rank": "1",
+        "gdt531_working_recipe": "S+A_ADDR+IIN+S",
+        "working_literal_de": "WÄHLEN · HIER · STUFE · WÄHLEN",
+        "working_phrase_de": "Wählen; hier die Stufe wählen.",
+        "decision": "REVISE_WORKING_RECIPE_TO_BLOCK_PEELED_TOP1"
+      }
+    },
+    {
+      "check": "selected_signature",
+      "pass": true,
+      "detail": {
+        "surface": "saiis",
+        "previous_working_recipe": "S+IIN+S",
+        "gdt529_top1": "S+A_ADDR+IIN+S",
+        "supported_candidate_recipe": "S+A_ADDR+IIN+S",
+        "supported_candidate_roles": "TOP1",
+        "route_class": "SUPPORTS_TOP1_ALTERNATIVE",
+        "old_superform": "saiisol",
+        "old_superform_recipe": "S+A_ADDR+IIN+S+OL",
+        "removed_visible_block": "ol",
+        "visible_block_width": "2",
+        "visible_index": "5",
+        "visible_position": "RIGHT",
+        "removed_atom_block": "OL",
+        "atom_block_width": "1",
+        "atom_index": "4",
+        "atom_position": "RIGHT",
+        "support_pair_count": "29",
+        "visible_condition_total": "33",
+        "visible_condition_option_count": "5",
+        "conditional_probability": "0.830985915",
+        "reliability": "0.935483871",
+        "signature_examples": "sh>shol | k>kol | t>tol | ot>otol | ok>okol | cth>cthol | d>dol | yt>ytol",
+        "old_event_count": "1",
+        "old_pages": "f77r",
+        "old_registers": "BIOLOGICAL",
+        "old_event_ids": "P1003-E0402",
+        "old_loci": "f77r.47",
+        "gdt530_working_rank": "3",
+        "gdt531_working_rank": "1",
+        "gdt531_working_recipe": "S+A_ADDR+IIN+S",
+        "working_literal_de": "WÄHLEN · HIER · STUFE · WÄHLEN",
+        "working_phrase_de": "Wählen; hier die Stufe wählen.",
+        "decision": "REVISE_WORKING_RECIPE_TO_BLOCK_PEELED_TOP1"
+      }
+    },
+    {
+      "check": "old_superform_exact",
+      "pass": true,
+      "detail": {
+        "recipes": [
+          "S+A_ADDR+IIN+S+OL"
+        ],
+        "events": 1
+      }
+    },
+    {
+      "check": "target_not_old_exact",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "check": "source_signature_exact",
+      "pass": true,
+      "detail": {
+        "visible_insert": "ol",
+        "visible_position": "RIGHT",
+        "atom_insert": "OL",
+        "atom_position": "RIGHT",
+        "support_pair_count": "29",
+        "visible_condition_total": "33",
+        "visible_condition_option_count": "5",
+        "conditional_probability": "0.830985915",
+        "reliability": "0.935483871",
+        "examples": "sh>shol | k>kol | t>tol | ot>otol | ok>okol | cth>cthol | d>dol | yt>ytol"
+      }
+    },
+    {
+      "check": "all_route_deletions_exact",
+      "pass": true,
+      "detail": "29/29"
+    },
+    {
+      "check": "all_route_sources_invariant",
+      "pass": true,
+      "detail": "29/29"
+    },
+    {
+      "check": "all_route_signatures_exact",
+      "pass": true,
+      "detail": "29/29"
+    },
+    {
+      "check": "all_routes_strong",
+      "pass": true,
+      "detail": "29/29"
+    },
+    {
+      "check": "previous_metrics",
+      "pass": true,
+      "detail": {
+        "target_count": 159,
+        "truth_generated_count": 159,
+        "top1_exact_count": 153,
+        "top2_exact_count": 157,
+        "top3_exact_count": 158,
+        "top5_exact_count": 158,
+        "rank_sum": 173,
+        "deepest_truth_rank": 9
+      }
+    },
+    {
+      "check": "revised_metrics",
+      "pass": true,
+      "detail": {
+        "target_count": 159,
+        "truth_generated_count": 159,
+        "top1_exact_count": 154,
+        "top2_exact_count": 158,
+        "top3_exact_count": 158,
+        "top5_exact_count": 158,
+        "rank_sum": 171,
+        "deepest_truth_rank": 9
+      }
+    },
+    {
+      "check": "one_rank_improvement_no_loss",
+      "pass": true,
+      "detail": "one improved by two ranks; zero worsened"
+    },
+    {
+      "check": "competitor_count",
+      "pass": true,
+      "detail": 3
+    },
+    {
+      "check": "competitor_ranks",
+      "pass": true,
+      "detail": {
+        "S+A_ADDR+IIN+S": "1",
+        "S+AIIN+S": "2",
+        "S+IIN+S": "3"
+      }
+    },
+    {
+      "check": "specific_route_selected",
+      "pass": true,
+      "detail": {
+        "S+A_ADDR+IIN+S": "SELECTED",
+        "S+AIIN+S": "RUNNER_UP_LESS_SPECIFIC_THAN_EXACT_SUPERFORM",
+        "S+IIN+S": "REPLACED"
+      }
+    },
+    {
+      "check": "saii_family",
+      "pass": true,
+      "detail": {
+        "saii": 1,
+        "saiin": 20,
+        "saiisol": 1
+      }
+    },
+    {
+      "check": "remaining_queue",
+      "pass": true,
+      "detail": [
+        "aiicthy",
+        "dairykodas",
+        "dalcheeeky",
+        "dsholdaiir",
+        "qef"
+      ]
+    },
+    {
+      "check": "executable_saiis_default",
+      "pass": true,
+      "detail": {
+        "surface": "saiis",
+        "context": {
+          "left_recipe": "NONE",
+          "right_recipe": "NONE",
+          "page": "f31r",
+          "domain": "AUTO"
+        },
+        "selected_stage": "DUAL_M_SQUARE_BIN_W125",
+        "selected_feature": "DUAL_SQUARE_BINARY",
+        "selected_weight": 1.25,
+        "family_certificate": "TWO_ACTION_STEM_WITH_EXACT_O_OL_OR_RIGHT_SLOT_TRIAD",
+        "edit_certificate": "UNANIMOUS_NEAREST_EXACT_TERMINAL_M_PAIR_AT_DISTANCE_ONE",
+        "exact_event_match_count": 1,
+        "known_surface_option_count": 1,
+        "working_revision": "S+A_ADDR+IIN+S",
+        "reranked_candidates": [
+          {
+            "compiler_rank": 2,
+            "recipe": "S+IIN+S",
+            "gdt524_score": 6.169337579576316,
+            "nearest_analogy_trace": "NO_SUPPORTED_TRANSFORMATION;base=saii",
+            "path_null_trace": "NO_DOMINANT_PATH_NULL",
+            "consensus_trace": "NO_TWO_DISTINCT_BASE_AND_EDIT_CHANNELS",
+            "independent_base_count": 0,
+            "alignment_trace": "s=>s~S@edit0+alias0.000 | aii=>iin~IIN@edit2+alias0.000 | s=>s~S@edit0+alias0.000",
+            "derivation": "saiis=S+IIN+S@0.3333/1",
+            "chain_feature": 0.0,
+            "gdt525_score": 6.169337579576316,
+            "chain_trace": "NO_POSITIVE_DISTINCT_TWO_HOP_CHANNELS",
+            "ordered_pair_support": 0,
+            "cha_feature": 0.0,
+            "cha_trace": "NO_CHA_PREFIX",
+            "cha_suffix": "NONE",
+            "cha_atom_insert": "NONE",
+            "gdt526_score": 6.169337579576316,
+            "stem_feature": 0.0,
+            "stem_trace": "STEM_NOT_CERTIFIED",
+            "stem_base": "NONE",
+            "stem_certificate": "NONE",
+            "gdt527_score": 6.169337579576316,
+            "d_null_feature": 0.0,
+            "d_null_trace": "NO_ONE_SUBSTITUTION_EQUAL_RECIPE_D_NULL_NEIGHBOUR",
+            "d_null_base": "NONE",
+            "d_null_certificate": "NONE",
+            "d_null_action_change": "NONE",
+            "gdt528_score": 6.169337579576316,
+            "m_square_feature": 0.0,
+            "m_square_trace": "NO_TERMINAL_M",
+            "m_square_base": "NONE",
+            "m_square_family": "NONE",
+            "m_square_certificate": "NONE",
+            "m_square_terminal_atom": "NONE",
+            "gdt529_score": 6.169337579576316
+          },
+          {
+            "compiler_rank": 1,
+            "recipe": "S+A_ADDR+IIN+S",
+            "gdt524_score": 6.995511243815446,
+            "nearest_analogy_trace": "NO_SUPPORTED_TRANSFORMATION;base=saii",
+            "path_null_trace": "NO_DOMINANT_PATH_NULL",
+            "consensus_trace": "NO_TWO_DISTINCT_BASE_AND_EDIT_CHANNELS",
+            "independent_base_count": 0,
+            "alignment_trace": "s=>s~S@edit0+alias0.000 | a=>a~A_ADDR@edit0+alias0.000 | ii=>iin~IIN@edit2+alias0.000 | s=>s~S@edit0+alias0.000",
+            "derivation": "saiis=S+A_ADDR+IIN+S@0.6667/2",
+            "chain_feature": 0.0,
+            "gdt525_score": 6.995511243815446,
+            "chain_trace": "NO_POSITIVE_DISTINCT_TWO_HOP_CHANNELS",
+            "ordered_pair_support": 0,
+            "cha_feature": 0.0,
+            "cha_trace": "NO_CHA_PREFIX",
+            "cha_suffix": "NONE",
+            "cha_atom_insert": "NONE",
+            "gdt526_score": 6.995511243815446,
+            "stem_feature": 0.0,
+            "stem_trace": "STEM_NOT_CERTIFIED",
+            "stem_base": "NONE",
+            "stem_certificate": "NONE",
+            "gdt527_score": 6.995511243815446,
+            "d_null_feature": 0.0,
+            "d_null_trace": "NO_ONE_SUBSTITUTION_EQUAL_RECIPE_D_NULL_NEIGHBOUR",
+            "d_null_base": "NONE",
+            "d_null_certificate": "NONE",
+            "d_null_action_change": "NONE",
+            "gdt528_score": 6.995511243815446,
+            "m_square_feature": 0.0,
+            "m_square_trace": "NO_TERMINAL_M",
+            "m_square_base": "NONE",
+            "m_square_family": "NONE",
+            "m_square_certificate": "NONE",
+            "m_square_terminal_atom": "NONE",
+            "gdt529_score": 6.995511243815446
+          },
+          {
+            "compiler_rank": 4,
+            "recipe": "S+S+IIN",
+            "gdt524_score": 7.724651083068046,
+            "nearest_analogy_trace": "NO_SUPPORTED_TRANSFORMATION;base=saii",
+            "path_null_trace": "NO_DOMINANT_PATH_NULL",
+            "consensus_trace": "NO_TWO_DISTINCT_BASE_AND_EDIT_CHANNELS",
+            "independent_base_count": 0,
+            "alignment_trace": "s=>s~S@edit0+alias0.000 | a=>s~S@edit1+alias0.000 | iis=>iin~IIN@edit1+alias0.000",
+            "derivation": "s=S@0.8314/779 | aiis=S+IIN@0.1667/1",
+            "chain_feature": 0.0,
+            "gdt525_score": 7.724651083068046,
+            "chain_trace": "NO_POSITIVE_DISTINCT_TWO_HOP_CHANNELS",
+            "ordered_pair_support": 0,
+            "cha_feature": 0.0,
+            "cha_trace": "NO_CHA_PREFIX",
+            "cha_suffix": "NONE",
+            "cha_atom_insert": "NONE",
+            "gdt526_score": 7.724651083068046,
+            "stem_feature": 0.0,
+            "stem_trace": "STEM_NOT_CERTIFIED",
+            "stem_base": "NONE",
+            "stem_certificate": "NONE",
+            "gdt527_score": 7.724651083068046,
+            "d_null_feature": 0.0,
+            "d_null_trace": "NO_ONE_SUBSTITUTION_EQUAL_RECIPE_D_NULL_NEIGHBOUR",
+            "d_null_base": "NONE",
+            "d_null_certificate": "NONE",
+            "d_null_action_change": "NONE",
+            "gdt528_score": 7.724651083068046,
+            "m_square_feature": 0.0,
+            "m_square_trace": "NO_TERMINAL_M",
+            "m_square_base": "NONE",
+            "m_square_family": "NONE",
+            "m_square_certificate": "NONE",
+            "m_square_terminal_atom": "NONE",
+            "gdt529_score": 7.724651083068046
+          },
+          {
+            "compiler_rank": 7,
+            "recipe": "S+AIIN+S",
+            "gdt524_score": 8.267511648798683,
+            "nearest_analogy_trace": "saii+s=>S@RIGHT/RIGHT;n=20/23;p=0.854167;r=0.909091;b=0.856701",
+            "path_null_trace": "NO_DOMINANT_PATH_NULL",
+            "consensus_trace": "NO_TWO_DISTINCT_BASE_AND_EDIT_CHANNELS",
+            "independent_base_count": 0,
+            "alignment_trace": "s=>s~S@edit0+alias0.000 | aii=>aiin~AIIN@edit2+alias0.000 | s=>s~S@edit0+alias0.000",
+            "derivation": "saii=S+AIIN@0.1429/1 | s=S@0.8314/779",
+            "chain_feature": 0.0,
+            "gdt525_score": 8.267511648798683,
+            "chain_trace": "NO_REPEATED_K_BASE_Y_THEN_E_CHAIN",
+            "ordered_pair_support": 0,
+            "cha_feature": 0.0,
+            "cha_trace": "NO_CHA_PREFIX",
+            "cha_suffix": "NONE",
+            "cha_atom_insert": "NONE",
+            "gdt526_score": 8.267511648798683,
+            "stem_feature": 0.0,
+            "stem_trace": "STEM_NOT_CERTIFIED",
+            "stem_base": "NONE",
+            "stem_certificate": "NONE",
+            "gdt527_score": 8.267511648798683,
+            "d_null_feature": 0.0,
+            "d_null_trace": "NO_ONE_SUBSTITUTION_EQUAL_RECIPE_D_NULL_NEIGHBOUR",
+            "d_null_base": "NONE",
+            "d_null_certificate": "NONE",
+            "d_null_action_change": "NONE",
+            "gdt528_score": 8.267511648798683,
+            "m_square_feature": 0.0,
+            "m_square_trace": "NO_TERMINAL_M",
+            "m_square_base": "NONE",
+            "m_square_family": "NONE",
+            "m_square_certificate": "NONE",
+            "m_square_terminal_atom": "NONE",
+            "gdt529_score": 8.267511648798683
+          },
+          {
+            "compiler_rank": 17,
+            "recipe": "S+LOCAL_CHAR_I+S",
+            "gdt524_score": 9.759602346030448,
+            "nearest_analogy_trace": "NO_SUPPORTED_TRANSFORMATION;base=saii",
+            "path_null_trace": "NO_DOMINANT_PATH_NULL",
+            "consensus_trace": "NO_TWO_DISTINCT_BASE_AND_EDIT_CHANNELS",
+            "independent_base_count": 0,
+            "alignment_trace": "s=>s~S@edit0+alias0.000 | ai=>i~LOCAL_CHAR_I@edit1+alias0.000 | is=>s~S@edit1+alias0.000",
+            "derivation": "sai=S@1.0000/2 | i=LOCAL_CHAR_I@0.7105/54 | s=S@0.8314/779",
+            "chain_feature": 0.0,
+            "gdt525_score": 9.759602346030448,
+            "chain_trace": "NO_POSITIVE_DISTINCT_TWO_HOP_CHANNELS",
+            "ordered_pair_support": 0,
+            "cha_feature": 0.0,
+            "cha_trace": "NO_CHA_PREFIX",
+            "cha_suffix": "NONE",
+            "cha_atom_insert": "NONE",
+            "gdt526_score": 9.759602346030448,
+            "stem_feature": 0.0,
+            "stem_trace": "STEM_NOT_CERTIFIED",
+            "stem_base": "NONE",
+            "stem_certificate": "NONE",
+            "gdt527_score": 9.759602346030448,
+            "d_null_feature": 0.0,
+            "d_null_trace": "NO_ONE_SUBSTITUTION_EQUAL_RECIPE_D_NULL_NEIGHBOUR",
+            "d_null_base": "NONE",
+            "d_null_certificate": "NONE",
+            "d_null_action_change": "NONE",
+            "gdt528_score": 9.759602346030448,
+            "m_square_feature": 0.0,
+            "m_square_trace": "NO_TERMINAL_M",
+            "m_square_base": "NONE",
+            "m_square_family": "NONE",
+            "m_square_certificate": "NONE",
+            "m_square_terminal_atom": "NONE",
+            "gdt529_score": 9.759602346030448
+          }
+        ],
+        "selection_precedence": "GDT531_BLOCK_PEEL_REVISION>GDT530_WORKING_PRECEDENCE",
+        "default_selection": "S+A_ADDR+IIN+S",
+        "guard": "EXACT_OLD_SUPERFORM_ATOMIC_BLOCK_PEEL_WITH_MATCHING_POSITION_SIGNATURE__NO_GLOBAL_OL_SUFFIX__NO_CONFIRMED_PLAINTEXT",
+        "selected_working_layer": "GDT531_ATOMIC_RENDERER_BLOCK_SUPERFORM_PEEL",
+        "gdt529_default_selection": "S+IIN+S",
+        "superform_certificate": "NONE",
+        "working_literal_de": "WÄHLEN · HIER · STUFE · WÄHLEN",
+        "working_phrase_de": "Wählen; hier die Stufe wählen.",
+        "gdt530_default_selection": "S+IIN+S",
+        "gdt530_working_revision": "NONE",
+        "block_superform_certificate": {
+          "old_superform": "saiisol",
+          "old_superform_recipe": "S+A_ADDR+IIN+S+OL",
+          "peel": "terminal ol/OL@RIGHT/RIGHT",
+          "old_signature_support": "29/33",
+          "old_signature_probability": 0.830985915,
+          "old_signature_reliability": 0.935483871
+        }
+      }
+    },
+    {
+      "check": "gdt530_revision_preserved",
+      "pass": true,
+      "detail": "CH+K+Y"
+    },
+    {
+      "check": "no_new_page_guard",
+      "pass": true,
+      "detail": "ATOMIC_OL_BLOCK_PEEL_ONLY_WHERE_EXACT_SUPERFORM_AND_POSITION_SIGNATURE_AGREE__NO_GLOBAL_OL_SUFFIX__NO_NEW_PAGES"
+    }
+  ]
+}

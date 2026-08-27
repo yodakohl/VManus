@@ -1,6 +1,6 @@
 # Current thirty-page scribe-workshop theory
 
-Updated: 2026-08-27, after GDT530.
+Updated: 2026-08-27, after GDT531.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -1595,7 +1595,7 @@ typed f89r carrier. `SH→S` is newly direct in `shso`, but its ordered relation
 was already old. No twentieth portable value is needed. The complete 597-event
 and 5,866-group contextual overlays are in GDT516; validation passes 36/36.
 
-## GDT517–GDT529 executable intake update
+## GDT517–GDT531 executable intake update
 
 The finite reader now reaches family-revised rank one148/159 with rank sum180.
 The important change is architectural, not merely numerical. GDT525 closes the
@@ -1679,10 +1679,28 @@ preceding `CH`, and 26 types/34 events end in `CH+Y`. The current seven forms
 likewise use both. There is no global `chy` card. The accumulated working
 score is now153 rank-one with rank sum173.
 
+GDT531 resolves `saiis` from the exact larger old card rather than from its
+shortest visible split:
+
+```text
+saiisol = S+A_ADDR+IIN+S+OL
+saiis   = S+A_ADDR+IIN+S
+```
+
+Terminal visible `ol` and terminal recipe `OL` peel together. That exact old
+right-edge relation is independently common (29/33), and the same search over
+all 159 forms yields 28 confirmations plus only this revision. The current
+workshop reading is **“wählen; hier die Stufe wählen.”** The competing
+`saii|s=S+AIIN+S` remains rank two because `saii/saiin` is a real old family,
+but it is less specific than the whole `saiisol` carrier. No global `ol`
+suffix follows. The accumulated working score is now154 rank-one,158 top-two,
+with rank sum171.
+
 ## Next work
 
 Keep every further page closed. The remaining queue is `aiicthy`,
-`dairykodas`, `dalcheeeky`, `dsholdaiir`, `qef`, and `saiis`. The exact
-one-character-superform route has no carrier for these six. Inspect
-`dsholdaiir` next through the stable `SH+OL` package, its address/value tail
-and the surrounding f66r instruction cards.
+`dairykodas`, `dalcheeeky`, `dsholdaiir`, and `qef`. Inspect `dsholdaiir`
+next as the exact-card sequence `d|shol|daiir`; its right card
+`daiir=DA+IIN+R` occurs later in the same f66r prose block as well as in other
+old contexts. Compare that route against all five residuals so it stays a
+bounded composition rather than a license for arbitrary tiling.

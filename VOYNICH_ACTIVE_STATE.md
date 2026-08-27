@@ -12858,3 +12858,29 @@ falls174→173, with zero losses. Six discrepancies remain: `aiicthy`,
 one-character-superform route is exhausted; next inspect `dsholdaiir` through
 stable `SH+OL`, address/value tails and its local neighbours without opening a
 page.
+
+## GDT531 atomic renderer-block superform peel
+
+GDT531 extends the exact-superform idea from one visible character to one
+contiguous block of two or three characters, paired with removal of one to
+three contiguous recipe atoms. The removal must preserve the entire remainder
+and match a strong old GDT522 left/inner/right signature. Across all 159 current
+forms the search finds 29 licensed routes over 15 surfaces: 28 only reconfirm
+the existing rank-one working recipe, and exactly one changes a choice.
+
+The unique revision is `saiis`. Exact old
+`saiisol=S+A_ADDR+IIN+S+OL` on f77r loses terminal visible `ol` and terminal
+atom `OL`, leaving `saiis=S+A_ADDR+IIN+S`. The old
+`ol/OL@RIGHT/RIGHT` signature has 29/33 support, probability .830985915 and
+reliability .935483871. The working phrase becomes **“wählen; hier die Stufe
+wählen.”** This is a local whole-superform certificate, not a global `ol`
+suffix rule.
+
+The exact-card tiling `saii|s=S+AIIN+S` remains a real rank-two alternate:
+old `saii` occurs once and same-recipe `saiin` twenty times. It loses only
+because the selected route preserves the inside of one exact larger carrier.
+The previous `S+IIN+S` analysis falls to third place. Accumulated working rank
+one rises153→154, top two157→158, and rank sum falls173→171 with zero losses.
+Five discrepancies remain: `aiicthy`, `dairykodas`, `dalcheeeky`,
+`dsholdaiir`, and `qef`. Next test `dsholdaiir` as `d|shol|daiir`, with the
+same-owner f66r `daiir=DA+IIN+R` carrier, without opening a page.
