@@ -12915,3 +12915,26 @@ two by rank six. Rank one stays154, top two falls158→157, and rank sum rises
 is itself provisional. Four forms remain unresolved: `aiicthy`, `dairykodas`,
 `dalcheeeky`, and `qef`. Next compare `dairykodas`' two complete tilings through
 the old `odas` versus `kod|as` families and its f66r.57 block, with no new page.
+
+## GDT533 nested `odas` tail revision
+
+GDT533 compares the two complete exact-card recipes left for `dairykodas`.
+Rank one tiles as `dair|y|k|odas=D_ADDR+AIR|Y|K|O+DA+S`; the inherited rank
+two tiles as `dair|y|kod|as=D_ADDR+AIR|Y|K+O+D_ADDR|A_ADDR+S`. Both are real
+four-card routes, so the selection turns on which old hierarchy they preserve.
+
+Rank one keeps the target's exact terminal `odas=O+DA+S`. That card itself
+contains exact old `das=DA+S`; the relation `das→odas` adds initial visible
+`o` and initial atom `O`, whose old left-edge signature has31/37 support,
+probability .797468354 and reliability .939393939. Every adjacent pair of the
+rank-one recipe has support at least2. Rank two breaks the visible `odas`
+across `kod|as` and creates `D_ADDR+A_ADDR`, which occurs only once among4,576
+old events and never before `S`. Old visible `...as` types also split among
+four different recipe endings, so no global `as` suffix is used.
+
+Revise `dairykodas` to `D_ADDR+AIR+Y+K+O+DA+S`, approximately **“Hier entlang
+der Bahn posten; zur Ausführung geben und Stufe II wählen.”** Accumulated
+working rank one rises154→155 and rank sum falls175→174. Three forms remain
+unresolved: `aiicthy`, `dalcheeeky`, and `qef`. Next inspect `dalcheeeky`
+through retained `CH+EEE` versus the competing long `cheee→EEE` renderer and
+old grade-III/terminal `eky` families without opening a page.

@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **531**
-- Experiment-associated tracked files: **7,811** (812.4 MiB)
-- Structured GDT337+ experiments: **196**
+- Experiments indexed: **532**
+- Experiment-associated tracked files: **7,830** (812.7 MiB)
+- Structured GDT337+ experiments: **197**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT533 | GDT533_nested_odas_tail_revision | `PASS_NESTED_ODAS_TAIL_WORKING_REVISION` | [report](../experiments/yolo/gdt533_nested_odas_tail_revision/REPORT.md) | 19 | 288.7 KiB | 7 | STRUCTURED_YOLO |
 | GDT532 | GDT532_same_owner_exact_card_tiling_revision | `PASS_UNIQUE_SAME_OWNER_EXACT_CARD_TILING_REVISION` | [report](../experiments/yolo/gdt532_same_owner_exact_card_tiling_revision/REPORT.md) | 18 | 273.4 KiB | 8 | STRUCTURED_YOLO |
 | GDT531 | GDT531_atomic_renderer_block_superform_peel | `PASS_ATOMIC_RENDERER_BLOCK_SUPERFORM_PEEL` | [report](../experiments/yolo/gdt531_atomic_renderer_block_superform_peel/REPORT.md) | 17 | 211.6 KiB | 6 | STRUCTURED_YOLO |
 | GDT530 | GDT530_exact_superform_peel_revision | `PASS_EXACT_SUPERFORM_PEEL_WORKING_REVISION` | [report](../experiments/yolo/gdt530_exact_superform_peel_revision/REPORT.md) | 17 | 187.7 KiB | 5 | STRUCTURED_YOLO |

@@ -1,6 +1,6 @@
 # Current thirty-page scribe-workshop theory
 
-Updated: 2026-08-27, after GDT532.
+Updated: 2026-08-27, after GDT533.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -1595,7 +1595,7 @@ typed f89r carrier. `SH→S` is newly direct in `shso`, but its ordered relation
 was already old. No twentieth portable value is needed. The complete 597-event
 and 5,866-group contextual overlays are in GDT516; validation passes 36/36.
 
-## GDT517–GDT532 executable intake update
+## GDT517–GDT533 executable intake update
 
 The finite reader now reaches family-revised rank one148/159 with rank sum180.
 The important change is architectural, not merely numerical. GDT525 closes the
@@ -1717,11 +1717,27 @@ completely; the rank cost is kept visible. Across the other residuals,
 `dairykodas` has two competing fully tiled recipes and the other three have
 none, so no further form changes in this pass.
 
+GDT533 resolves the two remaining complete tilings of `dairykodas` by keeping
+the larger old terminal card intact:
+
+```text
+dairykodas = dair | y | k | odas
+             D_ADDR+AIR | Y | K | O+DA+S
+```
+
+Old `odas=O+DA+S` contains old `das=DA+S`, and the initial `o/O` expansion has
+31/37 old support. The previous `dair|y|kod|as` route uses real cards too, but
+it cuts across exact `odas` and creates the nearly singular
+`D_ADDR+A_ADDR` boundary. The revised reading is **“Hier entlang der Bahn
+posten; zur Ausführung geben und Stufe II wählen.”** It moves candidate rank
+2→1; accumulated rank one is155 and rank sum174. Visible `...as` remains
+contextual rather than a global suffix.
+
 ## Next work
 
 Keep every further page closed. The unresolved queue is `aiicthy`,
-`dairykodas`, `dalcheeeky`, and `qef`. Compare `dairykodas`' two complete
-recipes next. The useful contrast is terminal `odas=O+DA+S` versus the
-alternative `kod|as=K+O+D_ADDR | A_ADDR+S`, using old family carriers and the
-surrounding f66r.57/f66r.62 instruction block rather than another global
-reranker.
+`dalcheeeky`, and `qef`. Inspect `dalcheeeky` next. Its live conflict is
+`AL+CH+EEE+K+Y` versus rank-one `AL+EEE+K+Y`: test whether visible `cheee`
+really functions as an `EEE` renderer or whether exact `CH` survives before
+grade III, using old `dal`, `cheee/heee`, and terminal `eky/eeky` families
+rather than another global reranker.

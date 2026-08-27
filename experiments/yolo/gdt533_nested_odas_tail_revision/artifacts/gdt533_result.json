@@ -1,0 +1,64 @@
+{
+  "experiment_id": "GDT533",
+  "status": "PASS_NESTED_ODAS_TAIL_WORKING_REVISION",
+  "claim_ceiling": "EXPLORATORY_NESTED_EXACT_TERMINAL_WHOLE_CARD_REVISION__NO_GLOBAL_ODAS_OR_AS_SUFFIX",
+  "old_running_event_count": 4576,
+  "current_target_count": 159,
+  "dairykodas_exact_tiling_route_count": 12,
+  "tileable_candidate_recipe_count": 2,
+  "selected_revision_count": 1,
+  "selected_revision": {
+    "surface": "dairykodas",
+    "previous_working_recipe": "D_ADDR+AIR+Y+K+O+D_ADDR+A_ADDR+S",
+    "previous_candidate_rank": 2,
+    "new_working_recipe": "D_ADDR+AIR+Y+K+O+DA+S",
+    "new_candidate_rank": 1,
+    "surface_tiling": "dair|y|k|odas",
+    "recipe_tiling": "D_ADDR+AIR | Y | K | O+DA+S",
+    "nested_tail": "das=DA+S -> odas=O+DA+S",
+    "left_o_O_signature": "31/37",
+    "left_o_O_probability": 0.797468354,
+    "left_o_O_reliability": 0.939393939,
+    "working_literal_de": "[D_ADDR:STEUERUNG=HIER] · BAHN · POSTEN · GEBEN · [O:STEUERUNG=AUSFÜHRUNG] · [DA+S:STEUERUNG=STUFE II WÄHLEN]",
+    "working_phrase_de": "Hier entlang der Bahn posten; zur Ausführung geben und Stufe II wählen."
+  },
+  "selected_route_old_card_counts": {
+    "dair": 9,
+    "y": 39,
+    "k": 4,
+    "odas": 1
+  },
+  "selected_pair_minimum_support": 2,
+  "rival_pair_minimum_support": 1,
+  "critical_pair_support": {
+    "DA+S": 2,
+    "D_ADDR+A_ADDR": 1
+  },
+  "previous_candidate_agreement_metrics": {
+    "target_count": 159,
+    "truth_generated_count": 159,
+    "top1_exact_count": 154,
+    "top2_exact_count": 157,
+    "top3_exact_count": 157,
+    "top5_exact_count": 157,
+    "rank_sum": 175,
+    "deepest_truth_rank": 9
+  },
+  "gdt533_candidate_agreement_metrics": {
+    "target_count": 159,
+    "truth_generated_count": 159,
+    "top1_exact_count": 155,
+    "top2_exact_count": 157,
+    "top3_exact_count": 157,
+    "top5_exact_count": 157,
+    "rank_sum": 174,
+    "deepest_truth_rank": 9
+  },
+  "remaining_unresolved_surface_count": 3,
+  "remaining_unresolved_surfaces": [
+    "aiicthy",
+    "dalcheeeky",
+    "qef"
+  ],
+  "guard": "PRESERVE_EXACT_TERMINAL_ODAS_ONLY_WHERE_FULL_TARGET_CANDIDATE_AND_NESTED_DAS_SUPERFORM_AGREE__NO_GLOBAL_ODAS_OR_AS_SUFFIX__NO_NEW_PAGES"
+}
