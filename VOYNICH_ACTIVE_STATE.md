@@ -12760,3 +12760,25 @@ learned whole forms, and learned whole stems with bounded licensed extensions.
 Eleven current top-one errors remain. Next group them by an existing old stem
 plus exactly one licensed extension before inventing another family rule; do
 not open a new page.
+
+## GDT527 certified terminal-S stem and atomic-OL revision
+
+GDT527 generalizes learned stems only after an independent certificate: the
+base recipe must have at least three old surface carriers, or the exact base
+must already have another non-null one-character right child. The selected
+terminal `s→S` feature `1+bonus` at weight0.50 repairs
+`okedals=OK+AL+S`; `OK+AL` has five old carriers and `s→S` has20/23
+support. `rals` is the only other current activation and remains correctly
+rank one.
+
+The parallel productive `l→L` proposal is rejected. Among112 invariant old
+visible-`ol` surface types,103 end in atomic `OL`, only six in `O+L` and
+three otherwise. High L weight incorrectly splits `alol`, `cphol`,
+`okeol`, `qokeeol` and `shol`. The live working edition therefore
+revises `keeol` from `K+EE+O+L` to the already top-ranked `K+EE+OL`.
+
+All old metrics remain1,098/1,328/1,386/1,418 with rank sum2,109. Inherited
+current reaches148/rank sum179; the K- and `keeol`-revised edition reaches
+150/rank sum177, with zero losses and nine errors. Next test the exact-recipe
+`qocthey→qocthedy` relation as a bounded inner-`d` null insertion without
+reviving general `d→NULL` or opening a page.
