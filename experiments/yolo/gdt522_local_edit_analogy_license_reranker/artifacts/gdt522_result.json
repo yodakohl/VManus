@@ -1,0 +1,74 @@
+{
+  "experiment_id": "GDT522",
+  "status": "PASS_NEAREST_LOCAL_EDIT_ANALOGY_LICENSE",
+  "claim_ceiling": "EXPLORATORY_NEAREST_SURFACE_RECIPE_EDIT_LICENSE__NO_CONFIRMED_LEXEME_OR_PLAINTEXT",
+  "selected_policy": {
+    "stage": "COND_C110_W040",
+    "missing_relation_cost": 1.1,
+    "analogy_weight": 0.4,
+    "max_visible_insert": 3,
+    "max_atom_insert": 3,
+    "conditional_alpha": 0.5,
+    "reliability_prior": 2.0,
+    "target_orientation": "TARGET_IS_BIG_FORM_ONLY",
+    "base_selection": "MINIMUM_VISIBLE_DELETION_LENGTH",
+    "pair_counting": "UNIQUE_BIG_SMALL_SIGNATURE",
+    "equal_recipe_policy": "VISIBLE_INSERT_MAPS_TO_NULL_ATOM_INSERT"
+  },
+  "full_old26_model": {
+    "training_surface_count": 1558,
+    "analogy_signature_count": 1081,
+    "analogy_pair_signature_count": 3493,
+    "visible_condition_count": 585,
+    "nullable_signature_count": 49
+  },
+  "old26_four_fold_gdt521_metrics": {
+    "target_count": 1558,
+    "truth_generated_count": 1441,
+    "top1_exact_count": 1090,
+    "top2_exact_count": 1325,
+    "top3_exact_count": 1387,
+    "top5_exact_count": 1418,
+    "rank_sum": 2118,
+    "deepest_truth_rank": 22
+  },
+  "old26_four_fold_gdt522_metrics": {
+    "target_count": 1558,
+    "truth_generated_count": 1441,
+    "top1_exact_count": 1096,
+    "top2_exact_count": 1327,
+    "top3_exact_count": 1386,
+    "top5_exact_count": 1418,
+    "rank_sum": 2113,
+    "deepest_truth_rank": 22
+  },
+  "current_gdt521_metrics": {
+    "target_count": 159,
+    "truth_generated_count": 159,
+    "top1_exact_count": 140,
+    "top2_exact_count": 154,
+    "top3_exact_count": 158,
+    "top5_exact_count": 158,
+    "rank_sum": 189,
+    "deepest_truth_rank": 9
+  },
+  "current_gdt522_metrics": {
+    "target_count": 159,
+    "truth_generated_count": 159,
+    "top1_exact_count": 142,
+    "top2_exact_count": 154,
+    "top3_exact_count": 158,
+    "top5_exact_count": 158,
+    "rank_sum": 187,
+    "deepest_truth_rank": 9
+  },
+  "current_net_top1_gain": 2,
+  "current_rank_sum_reduction": 2,
+  "current_decision_change_classes": {
+    "GDT521_CORRECT_PRESERVED": 140,
+    "GDT521_ERROR_CORRECTED": 2,
+    "GDT521_ERROR_UNCHANGED": 17
+  },
+  "remaining_top1_error_count": 17,
+  "guard": "LOCAL_EDIT_ANALOGIES_ARE_RENDERER_COMPOSITION_LICENSES_ONLY__KNOWN_EVENT_AND_SURFACE_CARDS_KEEP_PRECEDENCE"
+}
