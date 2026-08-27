@@ -1,6 +1,6 @@
 # Current thirty-page scribe-workshop theory
 
-Updated: 2026-08-27, after GDT528.
+Updated: 2026-08-27, after GDT529.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -1595,7 +1595,7 @@ typed f89r carrier. `SH→S` is newly direct in `shso`, but its ordered relation
 was already old. No twentieth portable value is needed. The complete 597-event
 and 5,866-group contextual overlays are in GDT516; validation passes 36/36.
 
-## GDT517–GDT528 executable intake update
+## GDT517–GDT529 executable intake update
 
 The finite reader now reaches family-revised rank one148/159 with rank sum180.
 The important change is architectural, not merely numerical. GDT525 closes the
@@ -1641,9 +1641,26 @@ tried and rejected because it cost one old top-two slot. The old scorecard is
 unchanged; inherited current reaches149/rank sum177 and the working-revised
 edition151/rank sum175, with no loss.
 
+GDT529 corrects the first apparent evidence count: GDT515's weighted
+`CH+T+M_LOCAL+OL/OR` alternatives were recipes generated from one-edit
+neighbours, not old exact carriers. The real reusable route is a double
+surface/recipe square. Exact `ctho/cthol/cthor` preserve the two-action stem
+`cth=CH+T` across the `O/OL/OR` right slot; among eight old exact
+`BASE/BASEm` pairs, the nearest base is `cho`, and exact `cho/chom` adds
+`M_LOCAL`. Hence the selected fourth corner is
+`cthom=CH+T+O+M_LOCAL`, approximately „nehmen, einstellen und hier
+ausführen“. This is not global `m→M_LOCAL` or `om→O+M_LOCAL`.
+
+The selected weight1.25 moves only `cthom` rank2→1. The old four-fold
+scorecard stays1,098/1,328/1,386/1,418 with rank sum2,109; inherited current
+is150/rank sum176 and the accumulated revised edition152/rank sum174, with
+zero losses. The same family rule licenses absent `ckhom=CH+K+O+M_LOCAL` and
+`cphom=CH+P+O+M_LOCAL`; `tshom` remains unresolved because no one-edit pair
+certifies it.
+
 ## Next work
 
 Keep every further page closed. The remaining queue is `aiicthy`, `chekchy`,
-`cthom`, `dairykodas`, `dalcheeeky`, `dsholdaiir`, `qef`, and `saiis`.
-Inspect `cthom` first: compare its page-local `M_LOCAL` ending with the globally
-favoured `AM_ADDR` parse across old `...om/...am` surface and recipe families.
+`dairykodas`, `dalcheeeky`, `dsholdaiir`, `qef`, and `saiis`. Inspect
+`chekchy` first through its missing internal `CH`, old `...chy/...y` pairs and
+repeated-action families.

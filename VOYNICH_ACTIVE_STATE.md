@@ -12804,3 +12804,30 @@ the1,441 generated old individual ranks is unchanged. Inherited current rises
 148→149/rank sum179→177; the working-revised edition rises150→151/rank
 sum177→175, with zero losses and eight errors. Next inspect `cthom` through
 old visible `...om/...am` and `M_LOCAL/AM_ADDR` families without opening a page.
+
+## GDT529 action-slot-certified terminal-`m` square
+
+GDT529 first corrects the evidence interpretation inherited from GDT515. Its
+weighted `CH+T+M_LOCAL+OL/OR` alternatives were generated one-edit recipes,
+not exact old manuscript carriers. The real old deck has eight exact
+`BASE→BASEm` pairs: six add `AM_ADDR`, while `cho→chom` and `lo→lom` add
+`M_LOCAL`.
+
+The selected route requires two independent structures. The m-less base must
+belong to an exact two-action `O/OL/OR` right-slot triad, and the nearest exact
+old terminal-m pair must be one visible edit away and unanimous about the tag.
+`ctho/cthol/cthor=CH+T+(O/OL/OR)` supply the triad;
+`cho/chom=HO/(HO+M_LOCAL)` supplies the nearest edit. Therefore
+`cthom=CH+T+O+M_LOCAL`, approximately „nehmen, einstellen und hier
+ausführen“. This is a structural working reading, not global `m→M_LOCAL`,
+global `om→O+M_LOCAL`, or a confirmed word.
+
+At binary weight1.25, `cthom` alone moves rank2→1. All old metrics and all
+1,441 generated old individual ranks remain unchanged at
+1,098/1,328/1,386/1,418, rank sum2,109. Inherited current rises149→150/rank
+sum177→176; the accumulated working-revised edition rises151→152/rank
+sum175→174, with zero losses and seven errors. Four old action stems have the
+exact right-slot triad: `ckh`, `cph`, `cth`, and `tsh`. The same certificate
+licenses absent `ckhom=CH+K+O+M_LOCAL` and `cphom=CH+P+O+M_LOCAL`, while
+`tshom` stays unresolved. Next inspect `chekchy` through internal `CH` and
+repeated-action families; open no page.
