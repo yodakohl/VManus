@@ -405,7 +405,7 @@ def main() -> int:
                 "recipe_context_cell_count": len({(str(row["recipe"]), str(row["source_microphrase_de"])) for row in members}),
                 "physical_page_count": len({str(row["physical_page"]) for row in members}),
                 "register_count": len({str(row["register"]) for row in members}),
-                "example_microphrases_de": packed({str(row["source_microphrase_de"]) for row in members})[:1600],
+                "example_microphrases_de": packed({str(row["source_microphrase_de"]) for row in members})[:1600].rstrip(),
             })
         return output
 
@@ -419,7 +419,7 @@ def main() -> int:
             "event_count": len(members),
             "distinct_effective_action_signature_count": len({str(row["effective_action_roots"]) for row in members}),
             "distinct_rendered_action_chain_count": len({str(row["generated_action_chain_de"]) for row in members}),
-            "example_action_chains_de": packed({str(row["generated_action_chain_de"]) for row in members})[:1600],
+            "example_action_chains_de": packed({str(row["generated_action_chain_de"]) for row in members})[:1600].rstrip(),
         })
     argument_profile_rows: list[dict[str, object]] = []
     for topology in sorted({str(row["argument_topology"]) for row in replay_rows}):
@@ -440,8 +440,8 @@ def main() -> int:
             "event_count": len(members),
             "distinct_modifier_atom_sequence_count": len({str(row["modifier_atoms"]) for row in members}),
             "distinct_modifier_phrase_count": len({str(row["generated_modifier_phrase_de"]) for row in members}),
-            "example_modifier_atom_sequences": packed({str(row["modifier_atoms"]) for row in members})[:1400],
-            "example_modifier_phrases_de": packed({str(row["generated_modifier_phrase_de"]) for row in members})[:1400],
+            "example_modifier_atom_sequences": packed({str(row["modifier_atoms"]) for row in members})[:1400].rstrip(),
+            "example_modifier_phrases_de": packed({str(row["generated_modifier_phrase_de"]) for row in members})[:1400].rstrip(),
         })
 
     recurrent_structural = [row for row in structural_rows if int(row["event_count"]) > 1]
