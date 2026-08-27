@@ -1,6 +1,6 @@
 # Current thirty-page scribe-workshop theory
 
-Updated: 2026-08-27, after GDT570.
+Updated: 2026-08-27, after GDT571.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -2452,9 +2452,33 @@ typed ordered modifiers. O and CARRIER_Q still retain16 explicit alternate
 new-page wordings in the audit; uniform prose is a workshop voice choice, not
 a semantic overwrite.
 
+## GDT571 the nine outer sequences need only three cards and two slots
+
+The1,870 written OT/OL/DY markers occupy only two sentence positions. The
+first OT or OL opens the state line as `Danach` or `Weiter`; every DY and every
+later marker follows the operation. This leaves five occupied position forms:
+OT and OL can enter or follow, while DY only follows.
+
+```text
+OT follower  eröffne danach den nächsten Gang
+OL follower  führe den Gang weiter
+DY follower  schließe den Schritt
+```
+
+Those three finite fragments plus the two entry words generate all nine
+observed sequences. Direct repetition remains visible: `OL+OL` becomes
+`Weiter: …; führe den Gang weiter`. The two singleton reversals remain equally
+literal: `OL+OT` opens the next gang only after continuation; `DY+OL` closes
+the step before continuing.
+
+Only54 state lines change, all from removing sequence-specific infinitive
+tails. Nothing else is reinterpreted. The current compositional voice is19
+short roots + owner terms and verb frames + two live context slots + typed
+ordered modifiers + two outer operator slots.
+
 ## Next work
 
-Factor the nine written OT/OL/DY outer sequences into a minimal natural voice,
-especially direct repetition, `OT+OL`, `OL+OT` and `DY+OL`. Retain all four
-context modes,20 action frames,39 other voice cards, five modifier fragments,
-four joins, roots, recipes and boundaries. Open no page.
+Count every bracketed audit form still present in the3,466 nonstate clauses,
+then naturalize only those whose action/argument/scope source is already
+carried by the existing sentence state. Retain all current roots, recipes,
+boundaries, voice cards and operator slots. Open no page.

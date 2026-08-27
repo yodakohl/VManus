@@ -1,0 +1,161 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "The complete marker-assignment, state, event and statement editions are required to establish that all 1,870 operator occurrences keep identity and order while all nonstate text remains byte-identical; samples cannot prove those invariants.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "A three-card, five-position-realization, two-slot German outer-voice factorization for the nine observed OT/OL/DY sequences in the current exploratory edition. It may replace sequence-specific infinitive follower wording at 54 state cards while retaining all 1,870 marker identities and their order and leaving all 3,466 nonstate clauses byte-identical. It adds no written atom or root value and confirms no Voynich lexeme, plaintext, language, syntax, genre, historical codebook or object identity.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt571_three_operator_two_slot_outer_voice/src/run.py",
+    "validate": "python3 experiments/yolo/gdt571_three_operator_two_slot_outer_voice/src/validate.py"
+  },
+  "created": "2026-08-27",
+  "dependencies": [
+    "GDT557",
+    "GDT565",
+    "GDT570"
+  ],
+  "experiment_id": "GDT571",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt570_five_fragment_four_join_modifier_voice/artifacts/gdt570_1656_modifier_voice_state_clauses.tsv",
+      "role": "complete modifier-voice state edition",
+      "sha256": "80251cc8745d547f249f72c05e04de1587cfb40471c0a1c6012ecc428224efad"
+    },
+    {
+      "path": "experiments/yolo/gdt570_five_fragment_four_join_modifier_voice/artifacts/gdt570_5122_modifier_voice_event_edition.tsv",
+      "role": "complete modifier-voice event edition",
+      "sha256": "0f6fed810340997a6857efbd88baf31b61e1905d3afa3a0f162a5fd7619f0417"
+    },
+    {
+      "path": "experiments/yolo/gdt570_five_fragment_four_join_modifier_voice/artifacts/gdt570_793_modifier_voice_statement_edition.tsv",
+      "role": "complete modifier-voice statement order",
+      "sha256": "cd9e859a01e8aa1821c6ef516b57def763bfcabcff89e2d0db024aa1767bd2ea"
+    },
+    {
+      "path": "experiments/yolo/gdt570_five_fragment_four_join_modifier_voice/artifacts/gdt570_30_page_modifier_voice_profiles.tsv",
+      "role": "complete admitted-page order",
+      "sha256": "855224f1f6cc6bbd52aa87a13cfa960c3d6534c051bb63b141af765821cb7340"
+    },
+    {
+      "path": "experiments/yolo/gdt565_state_microphrase_template_generator/artifacts/gdt565_1656_template_replay.tsv",
+      "role": "authoritative marker sequence for every state card",
+      "sha256": "e2ad7b35667aa4bc562549198561cb96c6fb0545a9729c795e973020d659c39a"
+    },
+    {
+      "path": "experiments/yolo/gdt565_state_microphrase_template_generator/artifacts/gdt565_42_renderer_cards.tsv",
+      "role": "old nine state sequence frames",
+      "sha256": "5d75812b321d4aa7a9e1ad52e2927e853630ab606609253167763cebb1325c8c"
+    },
+    {
+      "path": "experiments/yolo/gdt557_thirty_page_ot_ol_dy_state_grammar/artifacts/gdt557_marker_sequence_profiles.tsv",
+      "role": "exhaustive nine-sequence counts and closure profiles",
+      "sha256": "c0da2198affb47a87797567b58c313775aed77cf560171610f8932ab6b14d6a8"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt571_three_operator_two_slot_outer_voice/METHOD.md",
+      "role": "three-operator two-slot method",
+      "sha256": "ad7540392267b3f62df8fefe39df249235e5001c352d19b7e071f4702e711d1f"
+    },
+    {
+      "path": "experiments/yolo/gdt571_three_operator_two_slot_outer_voice/README.md",
+      "role": "experiment entry point",
+      "sha256": "a74e5981f3a916307fb4ad91dd3f4c6b78e54f23f01ca5b5a8b8692a36bad1bb"
+    },
+    {
+      "path": "experiments/yolo/gdt571_three_operator_two_slot_outer_voice/REPORT.md",
+      "role": "primary result report",
+      "sha256": "5484c385aff9287a373d9d8d9124891d97d670a121ee30d267c44b7a67087c2c"
+    },
+    {
+      "path": "experiments/yolo/gdt571_three_operator_two_slot_outer_voice/artifacts/GDT571_OUTER_VOICE_THIRTY_PAGE_EDITION.md",
+      "role": "complete readable outer-voice edition",
+      "sha256": "a6c78b52a86b2ff8e058f595662eb8acfd98025ae00e01a49769e3750dd16588"
+    },
+    {
+      "path": "experiments/yolo/gdt571_three_operator_two_slot_outer_voice/artifacts/README.md",
+      "role": "artifact guide",
+      "sha256": "0aacc8bcbacb1aa9a48075a6f6d41b3efbfe331de8a9809f6510f38aa02be8f7"
+    },
+    {
+      "path": "experiments/yolo/gdt571_three_operator_two_slot_outer_voice/artifacts/gdt571_1656_outer_voice_state_clauses.tsv",
+      "role": "complete outer-voice state edition",
+      "sha256": "5cafcce42eae6760e49029aeeea68b395eeedb60bb15839c3c7a7d10370c9fd6"
+    },
+    {
+      "path": "experiments/yolo/gdt571_three_operator_two_slot_outer_voice/artifacts/gdt571_1870_marker_slot_assignments.tsv",
+      "role": "exhaustive occurrence-level marker slot assignments",
+      "sha256": "218d00c2b984e01e0fdb64b4aecacb55578250cf93c6c179984050dbf8e3f7ad"
+    },
+    {
+      "path": "experiments/yolo/gdt571_three_operator_two_slot_outer_voice/artifacts/gdt571_2_outer_slot_rules.tsv",
+      "role": "entry-prefix and follower-suffix rules",
+      "sha256": "23740cb4f19a73aace86c2b3a439e30c8c0cf2dabb554195bcef1adf871f10ad"
+    },
+    {
+      "path": "experiments/yolo/gdt571_three_operator_two_slot_outer_voice/artifacts/gdt571_30_page_outer_voice_profiles.tsv",
+      "role": "thirty page-level outer-voice profiles",
+      "sha256": "c550b3d9d5cd5504e0286c5d1f893b5f542d8a5a31b22f3ec1dd67826b5376d0"
+    },
+    {
+      "path": "experiments/yolo/gdt571_three_operator_two_slot_outer_voice/artifacts/gdt571_3_operator_voice_cards.tsv",
+      "role": "three operator cards with five occupied position forms",
+      "sha256": "6a35b7d4e5403e97f58d1a908a16bbce2e0523ec2a0317b6aa232c60054c009a"
+    },
+    {
+      "path": "experiments/yolo/gdt571_three_operator_two_slot_outer_voice/artifacts/gdt571_5122_outer_voice_event_edition.tsv",
+      "role": "complete outer-voice event edition",
+      "sha256": "2566402c2dc9c87a824b00d6bb174e1d5673035fb2dbae9b1d07bb5be82db933"
+    },
+    {
+      "path": "experiments/yolo/gdt571_three_operator_two_slot_outer_voice/artifacts/gdt571_54_changed_outer_clauses.tsv",
+      "role": "compact finite-follower before and after audit",
+      "sha256": "5bdbd673e13d4787545927c4963009274ec09878196b9fe7625ab98732a834c4"
+    },
+    {
+      "path": "experiments/yolo/gdt571_three_operator_two_slot_outer_voice/artifacts/gdt571_793_outer_voice_statement_edition.tsv",
+      "role": "complete outer-voice statement edition",
+      "sha256": "7a225f1d26fe6bc80492ba3179d240160a7d5f4f5e56cee80a182ab95c061849"
+    },
+    {
+      "path": "experiments/yolo/gdt571_three_operator_two_slot_outer_voice/artifacts/gdt571_9_sequence_factorizations.tsv",
+      "role": "all nine sequences factored through the two slots",
+      "sha256": "3fceea78e58a61657cab67252d7627238c49beb1af0f04cbc26e1a60bbd18eff"
+    },
+    {
+      "path": "experiments/yolo/gdt571_three_operator_two_slot_outer_voice/artifacts/gdt571_result.json",
+      "role": "compact result object",
+      "sha256": "576b391e6bc623f1d302fa9df844bc891081f37dc0238371204779e2c3980638"
+    },
+    {
+      "path": "experiments/yolo/gdt571_three_operator_two_slot_outer_voice/artifacts/gdt571_validation.json",
+      "role": "independent 50-check validation record",
+      "sha256": "15e473afb5ec959326c28d1806bd7ee47ff29f06c2a2324c0b1099ffd876c250"
+    },
+    {
+      "path": "experiments/yolo/gdt571_three_operator_two_slot_outer_voice/src/run.py",
+      "role": "reproducible two-slot outer-voice compiler",
+      "sha256": "5939d8fb0e49c0ea321f0fd8890de0e02a67ab2e27f83dad0854d915a114bef4"
+    },
+    {
+      "path": "experiments/yolo/gdt571_three_operator_two_slot_outer_voice/src/validate.py",
+      "role": "independent source validator",
+      "sha256": "8cbb05792a8dbd4515cf7914dead0af3798fc4fe7fc1804232cd160e19037dda"
+    }
+  ],
+  "question": "Can the nine observed OT/OL/DY state sequences be generated by the three unchanged operator roots and only two sentence slots while replacing sequence-specific German infinitives with finite compositional forms?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "three_operator_two_slot_outer_voice",
+  "status": "PASS_3_OPERATOR_CARDS__5_POSITION_REALIZATIONS__2_SLOT_RULES__9_SEQUENCES__1870_MARKERS__54_FINITE_FOLLOWERS__ZERO_ROOT_CHANGE",
+  "title": "three operator two slot outer voice",
+  "updated": "2026-08-27",
+  "validation": {
+    "artifact": "experiments/yolo/gdt571_three_operator_two_slot_outer_voice/artifacts/gdt571_validation.json",
+    "status": "PASS"
+  }
+}

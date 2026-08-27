@@ -13735,3 +13735,26 @@ byte-identical. All5,122 events,793 statements and30 pages replay in order and
 all44 checks pass. Use GDT570 as the current complete readable edition. Next
 factor the nine OT/OL/DY outer frames, beginning with direct repetition,
 `OT+OL`, `OL+OT` and `DY+OL`; no new page, atom or root value.
+
+## GDT571 reduces nine outer frames to three operators and two slots
+
+All1,870 OT/OL/DY occurrences in the1,656 state cards now receive one of two
+sentence slots. The first OT or OL occupies the entry prefix and realizes as
+`Danach` or `Weiter`; every DY and every later marker occupies the follower
+suffix. Five operator×position cells are observed: OT and OL in both slots,
+and DY only as a follower.
+
+This factors all nine observed marker sequences without a sequence-specific
+card. The three root cards retain OT=DANACH, OL=FORTSETZEN and
+DY=ABSCHLIESSEN. Follower OL says `führe den Gang weiter`, follower OT says
+`eröffne danach den nächsten Gang`, and DY says `schließe den Schritt`.
+Multiple followers remain in written order. Thus `OL+OL`, `OL+OT` and `DY+OL`
+all have direct compositions rather than exceptional whole-frame meanings.
+
+The finite follower voice changes53 OL clauses and one OT clause:54 state
+events,44 statements and24 pages. The other1,602 state clauses and all3,466
+nonstate clauses remain byte-identical. All5,122 events,793 statements and30
+pages replay, and all50 checks pass. Use GDT571 as the current complete
+readable edition. Next inventory the bracketed carry/scope notation still
+present in nonstate clauses and replace only the forms licensed by the existing
+context and coordination cards; no new page, atom or root value.
