@@ -1,0 +1,347 @@
+{
+  "status": "PASS",
+  "check_count": 36,
+  "passed_count": 36,
+  "failed_count": 0,
+  "input_sha256": {
+    "typed_cards": "62c06034b99a0bd15a6da7895842efe1ce8237eda1d56a45719b416945350cd7",
+    "state_dictionary": "05e5e090e7e8088408503f030a79896d11cf71d5cb43aa6e2bdde6479bb9609a",
+    "actionless_reader": "50d4dc69ebecc191bbe7277eae565cc11dc891b2418ec89d653c13b4b452f796"
+  },
+  "artifact_sha256": {
+    "gdt563_1656_complete_state_microphrases.tsv": "b95801abe968dd45ea18da3a43aa584ad9151487e5e443c0a76d1575f68bc719",
+    "gdt563_950_visible_action_microphrases.tsv": "c4a80ebb8c0f137b4702b4bfec3280c7a24b908fe1f097cf3463704dff2f5883",
+    "gdt563_706_actionless_source_links.tsv": "1b87a3c89b33d29a58d15555c470b5d735df5679849c7ca6911c07d884458ee3",
+    "gdt563_402_recipe_context_profiles.tsv": "fe74da5cc725ab9a858d35e014459486400e3c17835c44680fde497affa3af75",
+    "gdt563_9_state_sequence_profiles.tsv": "03bfe864d0edd92af752ce700bd315343432750a0e3396165af8387ac98002ea",
+    "gdt563_8_resolution_mode_profiles.tsv": "211cb36ec1639308a6eabcdc22da71014a163dd6ecda969cc8815f94045003ad",
+    "gdt563_16_repeated_action_cards.tsv": "a01fe3b98740d3e74b1561efbf2886dced6db26d343a3e67f6ed310e08e15f4d",
+    "gdt563_context_variability_summary.tsv": "b3c86702dc8365127e1e0f217a1c1b34b21edd304cb5b09ca81fd626f7fc0824",
+    "GDT563_COMPLETE_STATE_MICROPHRASE_BOOK.md": "410501bb4492649e57e5020b4204d19a6f073735f7be87ca482c420c134f0d44",
+    "gdt563_result.json": "9a8a603336a12cfb65d549be5d6b5dc19a5f1f65cbb3ce5a8856457e552c3fa0"
+  },
+  "checks": [
+    {
+      "check": "input_counts",
+      "passed": true,
+      "detail": [
+        1656,
+        36,
+        706
+      ]
+    },
+    {
+      "check": "source_pages_exclude_f84",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "artifact_row_counts",
+      "passed": true,
+      "detail": [
+        1656,
+        950,
+        706,
+        402,
+        9,
+        8,
+        16,
+        4
+      ]
+    },
+    {
+      "check": "card_ids_unique_and_complete",
+      "passed": true,
+      "detail": [
+        1656,
+        0
+      ]
+    },
+    {
+      "check": "card_ordinals",
+      "passed": true,
+      "detail": [
+        "1",
+        "1656"
+      ]
+    },
+    {
+      "check": "recipes_and_surfaces_unchanged",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "typed_traces_retained",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "owner_context_retained",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "all_atom_alignments_exact",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "all_completion_guards_positive",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "actionless_partition_exact",
+      "passed": true,
+      "detail": [
+        706,
+        706,
+        706
+      ]
+    },
+    {
+      "check": "actionless_phrases_byte_identical",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "actionless_modes_exact",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "visible_partition_exact",
+      "passed": true,
+      "detail": [
+        950,
+        0
+      ]
+    },
+    {
+      "check": "all_visible_action_renders_exact",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "all_1158_visible_action_slots_retained",
+      "passed": true,
+      "detail": [
+        1158,
+        1158
+      ]
+    },
+    {
+      "check": "eight_resolution_modes_exact",
+      "passed": true,
+      "detail": {
+        "VISIBLE_ACTION_FULL_OPERATION": 898,
+        "INHERITED_ACTION_FULL_OPERATION": 687,
+        "VISIBLE_ACTION_OBJECTLESS_OPERATION": 52,
+        "INHERITED_ACTION_OBJECTLESS_OPERATION": 6,
+        "FORMAL_RELATION_PROLOGUE": 4,
+        "ARGUMENT_REFERENCE_INITIALIZER": 5,
+        "STANDALONE_GRADED_CLOSE": 3,
+        "PURE_CONTINUATION": 1
+      }
+    },
+    {
+      "check": "mode_profiles_exact",
+      "passed": true,
+      "detail": {
+        "VISIBLE_ACTION_FULL_OPERATION": 898,
+        "INHERITED_ACTION_FULL_OPERATION": 687,
+        "VISIBLE_ACTION_OBJECTLESS_OPERATION": 52,
+        "INHERITED_ACTION_OBJECTLESS_OPERATION": 6,
+        "ARGUMENT_REFERENCE_INITIALIZER": 5,
+        "FORMAL_RELATION_PROLOGUE": 4,
+        "STANDALONE_GRADED_CLOSE": 3,
+        "PURE_CONTINUATION": 1
+      }
+    },
+    {
+      "check": "operation_partition",
+      "passed": true,
+      "detail": [
+        1585,
+        58
+      ]
+    },
+    {
+      "check": "nine_state_sequences_exact",
+      "passed": true,
+      "detail": {
+        "OL": 619,
+        "OT": 279,
+        "OL+OT": 1,
+        "DY": 544,
+        "OT+OL": 38,
+        "OL+DY": 74,
+        "OL+OL": 14,
+        "OT+DY": 86,
+        "DY+OL": 1
+      }
+    },
+    {
+      "check": "sequence_profiles_exact",
+      "passed": true,
+      "detail": {
+        "OL": 619,
+        "DY": 544,
+        "OT": 279,
+        "OT+DY": 86,
+        "OL+DY": 74,
+        "OT+OL": 38,
+        "OL+OL": 14,
+        "DY+OL": 1,
+        "OL+OT": 1
+      }
+    },
+    {
+      "check": "reverse_sequence_microphrases",
+      "passed": true,
+      "detail": {
+        "G407-E0034": "Weiter: markiere den Posten; danach nächsten Gang eröffnen.",
+        "G407-E1682": "Setze den Wert; auf Grad II; abschließen; danach weiterführen."
+      }
+    },
+    {
+      "check": "sixteen_repeated_cards_exact",
+      "passed": true,
+      "detail": [
+        16,
+        []
+      ]
+    },
+    {
+      "check": "seven_direct_compressions_exact",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "repeat_roundtrips",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "recipe_profile_keys_exact",
+      "passed": true,
+      "detail": [
+        402,
+        0
+      ]
+    },
+    {
+      "check": "all_recipe_profiles_reconstructed",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "recipe_variability_partition",
+      "passed": true,
+      "detail": [
+        301,
+        101,
+        1277,
+        262,
+        140,
+        39
+      ]
+    },
+    {
+      "check": "ol_maximum_variability",
+      "passed": true,
+      "detail": [
+        "33",
+        33
+      ]
+    },
+    {
+      "check": "variability_bands_exact",
+      "passed": true,
+      "detail": {
+        "ONE_MICROPHRASE": [
+          301,
+          379,
+          1
+        ],
+        "TWO_TO_FIVE": [
+          84,
+          757,
+          5
+        ],
+        "SIX_TO_TEN": [
+          12,
+          224,
+          9
+        ],
+        "OVER_TEN": [
+          5,
+          296,
+          33
+        ]
+      }
+    },
+    {
+      "check": "result_metrics_exact",
+      "passed": true,
+      "detail": {
+        "complete_state_card_count": 1656,
+        "visible_action_card_count": 950,
+        "actionless_source_link_count": 706,
+        "exact_recipe_profile_count": 402,
+        "state_sequence_profile_count": 9,
+        "resolution_mode_count": 8,
+        "repeated_action_card_count": 16,
+        "direct_adjacent_repeat_compression_count": 7,
+        "separated_repeat_retention_count": 9,
+        "stable_single_microphrase_recipe_count": 301,
+        "context_variable_recipe_count": 101,
+        "context_variable_recipe_event_count": 1277,
+        "singleton_recipe_count": 262,
+        "recurrent_recipe_count": 140,
+        "recurrent_stable_recipe_count": 39,
+        "recurrent_context_variable_recipe_count": 101,
+        "maximum_microphrase_count_for_one_recipe": 33,
+        "maximum_variability_recipe": "OL",
+        "full_operation_count": 1585,
+        "objectless_operation_count": 58
+      }
+    },
+    {
+      "check": "result_completion_flags",
+      "passed": true,
+      "detail": {
+        "all_cards_have_microphrase": true,
+        "all_written_atoms_retained": true,
+        "all_written_action_slots_retained": true,
+        "all_actionless_phrases_byte_identical": true
+      }
+    },
+    {
+      "check": "zero_scope_mutation",
+      "passed": true,
+      "detail": {
+        "new_pages": 0,
+        "new_surfaces": 0,
+        "new_recipes": 0,
+        "new_root_values": 0,
+        "new_written_atoms": 0
+      }
+    },
+    {
+      "check": "book_core_findings_present",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "deterministic_replay_exit",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "deterministic_artifact_hashes",
+      "passed": true,
+      "detail": {}
+    }
+  ]
+}

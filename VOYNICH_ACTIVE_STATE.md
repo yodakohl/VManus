@@ -13536,3 +13536,25 @@ Each retains its exact written atom alignment and receives a concrete
 microphrase; none requires a new stem. Next combine these706 ellipsis readings
 with the950 visible-action cards into one fluent1,656-card edition. All39 checks
 pass; no page, root, recipe or boundary changed.
+
+## GDT563 publishes one fluent edition for all state cards
+
+The950 state cards with visible actions and the706 GDT562 state ellipses now
+form one1,656-row edition. Every card retains three distinct channels: exact
+ordered atom trace, ownerfree event-context microphrase and the existing
+owner-bound context clause. All4,684 atoms and1,158 visible action slots remain
+explicit; all706 inherited microphrases are byte-identical to GDT562.
+
+The edition resolves1,585 cards as full action-plus-argument operations and58
+as objectless operations. The remaining13 have already named non-action roles.
+Among402 exact recipes,301 currently have one microphrase, but262 are
+singletons. Of140 genuinely recurrent recipes only39 are stable;101 vary with
+active context and cover1,277 cards. Bare `OL` reaches33 concrete phrases while
+retaining only its one-word value FORTSETZEN. Seven direct action repetitions
+compress to “twice”;9 separated repetitions retain both written slots.
+
+Use GDT563 as the complete state-card reading layer. Recipe is the written
+frame, not necessarily the whole sentence; effective action, argument and
+owner context select the event phrase. Next find the smallest context selector
+for the101 variable recurrent recipes without opening a page or retuning a
+root. All36 checks pass.

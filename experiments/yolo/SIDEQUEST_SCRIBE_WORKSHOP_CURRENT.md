@@ -1,6 +1,6 @@
 # Current thirty-page scribe-workshop theory
 
-Updated: 2026-08-27, after GDT562.
+Updated: 2026-08-27, after GDT563.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -2278,9 +2278,29 @@ argument references,4 formal/relation prologues,3 graded closes and1 pure
 continuation. `OL` still means only CONTINUE; “continue: hold the portion”
 comes from OL plus the active SH and AIN states, not a new OL meaning.
 
+## GDT563 all1,656 state cards now have a fluent microphrase
+
+The950 visible-action cards and706 GDT562 ellipses now live in one complete
+edition. Every row keeps the exact atom trace, ownerfree event-context phrase
+and owner-bound context line separate. All4,684 atom mentions and1,158 visible
+action slots survive; the inherited half is byte-identical to GDT562.
+
+The usable reading now covers1,585 full action-plus-argument operations and58
+objectless operations. The remaining13 cards are named references, prologues,
+closes or continuation rather than unknown words.
+
+The important correction is that an exact recipe need not be a whole sentence.
+Of402 recipes,301 currently yield one phrase, but262 are singletons. Among140
+recurrent recipes only39 remain one-phrase;101 vary with sentence state and
+cover1,277 cards. `OL` alone has33 concrete phrases because it contributes
+FORTSETZEN while the current action and argument come from memory. This is the
+working mixed-codebook architecture we were looking for: short learned values
+plus composition plus a small live state.
+
 ## Next work
 
-Join the706 GDT562 ellipsis phrases to the950 cards with visible actions and
-publish one fluent microphrase for every GDT561 state card. Preserve exact atom
-trace, ownerfree working sentence and owner-bound context as separate channels.
-Keep the same30 pages and open no new page.
+Build a compact context selector for the101 recurrent variable recipes. Test
+whether active action, active argument, their provenance and state sequence—
+alone or in small combinations—are enough to choose the concrete microphrase.
+Keep every plausible selector until a simpler one covers the same cases. Use
+only the current30 pages and do not retune a root.

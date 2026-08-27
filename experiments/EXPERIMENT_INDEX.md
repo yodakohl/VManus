@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **561**
-- Experiment-associated tracked files: **8,319** (821.7 MiB)
-- Structured GDT337+ experiments: **226**
+- Experiments indexed: **562**
+- Experiment-associated tracked files: **8,337** (823.5 MiB)
+- Structured GDT337+ experiments: **227**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT563 | GDT563_complete_state_microphrase_edition | `PASS_1656_COMPLETE_STATE_MICROPHRASES__706_ACTIONLESS_PLUS_950_VISIBLE__ALL_ACTION_SLOTS_RETAINED__402_CONTEXT_PROFILES__301_STABLE_101_CONTEXT_VARIABLE_RECIPES` | [report](../experiments/yolo/gdt563_complete_state_microphrase_edition/REPORT.md) | 18 | 1.9 MiB | 4 | STRUCTURED_YOLO |
 | GDT562 | GDT562_thirty_page_actionless_state_role_reader | `PASS_687_OF_706_FULL_OPERATIONS__693_ACTION_CARRIES__692_ARGUMENTS_AVAILABLE__19_RESIDUALS_CLOSED_BY_FIVE_ROLES` | [report](../experiments/yolo/gdt562_thirty_page_actionless_state_role_reader/REPORT.md) | 17 | 790.2 KiB | 5 | STRUCTURED_YOLO |
 | GDT561 | GDT561_typed_state_card_composition_reader | `PASS_1656_TYPED_STATE_CARDS__4684_OF_4684_ATOMS_MAPPED__402_RECIPES_DEFAULTED__939_CARRIER_LINKS_INTEGRATED__18_ORDER_FAMILIES_PRESERVED` | [report](../experiments/yolo/gdt561_typed_state_card_composition_reader/REPORT.md) | 18 | 1.7 MiB | 8 | STRUCTURED_YOLO |
 | GDT560 | GDT560_relation_state_geometry_grammar | `PASS_EIGHT_RELATION_ENVELOPES__AL_AR_L_SPLIT_GEOMETRY__AIR_ZERO_STATE_SUBSTITUTIONS__67_OF_67_DY_FAMILY_CARDS_CLOSE` | [report](../experiments/yolo/gdt560_relation_state_geometry_grammar/REPORT.md) | 19 | 193.5 KiB | 3 | STRUCTURED_YOLO |
