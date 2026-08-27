@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **522**
-- Experiment-associated tracked files: **7,643** (809.5 MiB)
-- Structured GDT337+ experiments: **187**
+- Experiments indexed: **523**
+- Experiment-associated tracked files: **7,661** (809.9 MiB)
+- Structured GDT337+ experiments: **188**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT524 | GDT524_multi_base_analogy_consensus | `PASS_TWO_INDEPENDENT_BASE_ANALOGY_CONSENSUS` | [report](../experiments/yolo/gdt524_multi_base_analogy_consensus/REPORT.md) | 18 | 451.0 KiB | 8 | STRUCTURED_YOLO |
 | GDT523 | GDT523_path_local_null_renderer_license | `PASS_PATH_LOCAL_DOMINANT_NULL_LICENSE` | [report](../experiments/yolo/gdt523_path_local_null_renderer_license/REPORT.md) | 20 | 431.9 KiB | 8 | STRUCTURED_YOLO |
 | GDT522 | GDT522_local_edit_analogy_license_reranker | `PASS_NEAREST_LOCAL_EDIT_ANALOGY_LICENSE` | [report](../experiments/yolo/gdt522_local_edit_analogy_license_reranker/REPORT.md) | 20 | 560.3 KiB | 7 | STRUCTURED_YOLO |
 | GDT521 | GDT521_short_recipe_tail_license_reranker | `PASS_SHORT_RECIPE_TAIL_LICENSE_RERANKER` | [report](../experiments/yolo/gdt521_short_recipe_tail_license_reranker/REPORT.md) | 19 | 460.4 KiB | 6 | STRUCTURED_YOLO |
