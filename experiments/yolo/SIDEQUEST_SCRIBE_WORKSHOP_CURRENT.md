@@ -1,6 +1,6 @@
 # Current thirty-page scribe-workshop theory
 
-Updated: 2026-08-27, after GDT525.
+Updated: 2026-08-27, after GDT526.
 
 Status: **creative working reconstruction, not a GDT result and not a confirmed
 translation**. This is the compact handoff for the sidequest. GDT406 resolves
@@ -1595,20 +1595,31 @@ typed f89r carrier. `SH→S` is newly direct in `shso`, but its ordered relation
 was already old. No twentieth portable value is needed. The complete 597-event
 and 5,866-group contextual overlays are in GDT516; validation passes 36/36.
 
+## GDT517–GDT526 executable intake update
+
+The finite reader now reaches family-revised rank one148/159 with rank sum180.
+The important change is architectural, not merely numerical. GDT525 closes the
+three-form K family through a recurrent two-edit chain. GDT526 then shows that
+the exact old whole card `cha=CH+A_ADDR` can serve as a productive stem:
+`chady=CH+A_ADDR+DY` inherits the independently licensed `dy→DY` channel,
+and `chap=CH+A_ADDR+P` inherits `p→P`. No target whole-form exception is
+used, no correct current decision is lost, and all old four-fold metrics remain
+unchanged.
+
+The best current workshop model therefore has three simultaneous inventories:
+
+1. productive structural atoms and short technical packages;
+2. learned complete forms whose exceptional reading wins on exact contact;
+3. learned complete stems that accept only separately licensed extensions.
+
+This is the most concrete version yet of the mixed codebook/composition idea.
+It still supplies working structural recipes, not proven word meanings.
+
 ## Next work
 
-Keep all further pages closed for one compiler pass. Turn the GDT516 priority
-order into a single executable intake command:
-
-1. exact old complete recipe;
-2. longest compatible old complete-recipe fragments and portable skeleton;
-3. visible atom/factor composition;
-4. bounded local learned/sign core;
-5. explicit context-table split for the four known role homographs.
-
-Replay that command over all current 30 pages and publish a compact intake card
-for every support tier. The command must report its carrier surfaces/pages and
-must never silently choose a `dy/y` role or export `LOCAL_X/C` as a portable
-root. Once this compiler reproduces the current deck, a further four-page
-batch can test whether the finite policy holds without another retrospective
-meaning change.
+Keep every further page closed. The remaining queue is `aiicthy`, `chekchy`,
+`cthom`, `dairykodas`, `dalcheeeky`, `dsholdaiir`, `keeol`, `okedals`,
+`qef`, `qocthedy`, and `saiis`. Search these first for an old learned stem
+plus exactly one positive licensed extension. Prefer a rule that closes a
+surface family over one that merely pushes a single candidate, and preserve
+the exact-card conflict rule learned from `cha...`.

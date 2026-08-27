@@ -12738,3 +12738,25 @@ same rule yields `kechody=K+E+CH+O+D_ADDR+Y` and
 `keody=K+E+O+D_ADDR+Y`. Do not export it to CH-/SH-initial `eody` tails. Next
 inspect `chady` and `chap` through their shared `ch→cha` intermediate without
 opening another page.
+
+## GDT526 learned `cha` stem with licensed right extensions
+
+GDT526 confirms the useful middle layer proposed by GDT525. The exact old card
+`cha=CH+A_ADDR` may act as one learned stem when a new right suffix already
+has a positive old right/right visible-to-atom edit license. An exact old
+`cha...` form with a conflicting recipe overrides the stem default, so this
+does not greedily reparse `chaiin`, `chair`, `chal`, `cham` or `char`.
+
+The selected `1+bonus` feature at weight0.80 repairs exactly two current
+decisions: `chady=CH+A_ADDR+DY` through `dy→DY` (32/52) and
+`chap=CH+A_ADDR+P` through `p→P` (2/2). All 1,558 old four-fold decisions
+retain metrics1,098/1,328/1,386/1,418 and rank sum2,109. Current inherited
+rank one rises145→147/rank sum184→181; with GDT525's K-family working revision
+it rises146→148/rank sum183→180. No correct current decision is lost, and all
+ten tested weights0.25–1.25 leave the old metrics unchanged.
+
+The live exploratory architecture now contains productive structural atoms,
+learned whole forms, and learned whole stems with bounded licensed extensions.
+Eleven current top-one errors remain. Next group them by an existing old stem
+plus exactly one licensed extension before inventing another family rule; do
+not open a new page.
