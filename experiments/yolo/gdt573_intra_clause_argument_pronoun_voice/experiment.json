@@ -1,0 +1,135 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "The complete replacement, event and statement tables are required to prove Unicode word-boundary safety, exhaustive coverage of all 1,046 later mentions and exact source expansion for all 5,122 cards; samples cannot establish those invariants.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "A reversible German anaphoric voice for repeated argument phrases inside the current complete working edition. It may retain the first full local mention and render all 1,046 later mentions through 1,043 instances of ihn, sie or coordinated beide, while preserving every source phrase in an exact expansion channel. It adds no Voynich root value, page, surface, recipe or event and confirms no lexeme, plaintext, language, syntax, genre, historical codebook or object identity.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt573_intra_clause_argument_pronoun_voice/src/run.py",
+    "validate": "python3 experiments/yolo/gdt573_intra_clause_argument_pronoun_voice/src/validate.py"
+  },
+  "created": "2026-08-27",
+  "dependencies": [
+    "GDT565",
+    "GDT572"
+  ],
+  "experiment_id": "GDT573",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt572_complete_nonstate_bracket_voice/artifacts/gdt572_5122_bracket_free_event_edition.tsv",
+      "role": "complete bracket-free source event edition",
+      "sha256": "06cc9d09e216aae7ab398c3d6c58afd0e4978bdcd724a3f638906ea24ff209c0"
+    },
+    {
+      "path": "experiments/yolo/gdt572_complete_nonstate_bracket_voice/artifacts/gdt572_793_bracket_free_statement_edition.tsv",
+      "role": "complete source statement order and wording",
+      "sha256": "de390c206502c0bba1d7e98372a0a73178cf0c5a71ce81e1dfeb57267f0d5db4"
+    },
+    {
+      "path": "experiments/yolo/gdt572_complete_nonstate_bracket_voice/artifacts/gdt572_30_page_bracket_voice_profiles.tsv",
+      "role": "complete admitted-page order",
+      "sha256": "d44b0b18758538f370d1bc16e06211f98d54c76c34041b77aa36cb5dc244ae14"
+    },
+    {
+      "path": "experiments/yolo/gdt572_complete_nonstate_bracket_voice/artifacts/gdt572_20_nonstate_carried_argument_forms.tsv",
+      "role": "complete twenty-cell owner argument-form inventory",
+      "sha256": "ecf11b2de52b05177928cb448b91fe22c4b0f9c04927558b484ebbbfe40b6745"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt573_intra_clause_argument_pronoun_voice/METHOD.md",
+      "role": "complete anaphor method",
+      "sha256": "bdd01e490d90837659371dfb7d52fa0ae40d00fad027294ffcba8141041e88dd"
+    },
+    {
+      "path": "experiments/yolo/gdt573_intra_clause_argument_pronoun_voice/README.md",
+      "role": "experiment entry point",
+      "sha256": "185641968e0971c0c7dbc48f2500d3ec2415afa85c486302dcbc1d9cab3e115c"
+    },
+    {
+      "path": "experiments/yolo/gdt573_intra_clause_argument_pronoun_voice/REPORT.md",
+      "role": "primary result report",
+      "sha256": "b93bf9c90da208426fd4e888c54310667ad4558e1be59ce10c27690d8c62661e"
+    },
+    {
+      "path": "experiments/yolo/gdt573_intra_clause_argument_pronoun_voice/artifacts/README.md",
+      "role": "artifact guide",
+      "sha256": "5e81bbcede60b21e969fd6f8dca0543f46fb450fb0b18fdb7ebb34239e5aad5c"
+    },
+    {
+      "path": "experiments/yolo/gdt573_intra_clause_argument_pronoun_voice/artifacts/GDT573_PRONOUN_VOICE_THIRTY_PAGE_EDITION.md",
+      "role": "complete readable pronoun-voice edition",
+      "sha256": "b9ecba21268ba369a5f88a0dd99324da007f4a9f6e5972d39d50301b2e52adc6"
+    },
+    {
+      "path": "experiments/yolo/gdt573_intra_clause_argument_pronoun_voice/artifacts/gdt573_22_anaphor_voice_cards.tsv",
+      "role": "twenty-two reusable owner, pair and coordinate anaphor cards",
+      "sha256": "5085d74f2ca8de0dad357c4850ec1dbf9cbea3735fa8c0edd9620e1cc0e0d6d2"
+    },
+    {
+      "path": "experiments/yolo/gdt573_intra_clause_argument_pronoun_voice/artifacts/gdt573_8_repeat_topology_profiles.tsv",
+      "role": "complete repeat-count topology inventory",
+      "sha256": "828ddbc234628cadb10619ec001ca1e5be820544818b8fe2a2a1333636395012"
+    },
+    {
+      "path": "experiments/yolo/gdt573_intra_clause_argument_pronoun_voice/artifacts/gdt573_1043_anaphor_replacements.tsv",
+      "role": "complete anaphor assignment and exact fragment backchannel",
+      "sha256": "d548a15e707c28931f84caf6a0531cbe97e370f7cd9737163cc211c31f132d74"
+    },
+    {
+      "path": "experiments/yolo/gdt573_intra_clause_argument_pronoun_voice/artifacts/gdt573_841_pronominalized_clauses.tsv",
+      "role": "complete changed-clause before after and expansion audit",
+      "sha256": "0e84406c1b0cc23e4a08b9a606f89be2bf6523ad2fc56be537c775694edfcbe8"
+    },
+    {
+      "path": "experiments/yolo/gdt573_intra_clause_argument_pronoun_voice/artifacts/gdt573_5122_pronoun_voice_event_edition.tsv",
+      "role": "complete event edition with exact expansion channel",
+      "sha256": "a97cbb526ca6580ebc880912be7808979c50d65c66e0c9124581f28e631c2cd6"
+    },
+    {
+      "path": "experiments/yolo/gdt573_intra_clause_argument_pronoun_voice/artifacts/gdt573_793_pronoun_voice_statement_edition.tsv",
+      "role": "complete statement edition with exact expansion channel",
+      "sha256": "cef3946b5544344f86b825959c7b762ee15fceb7f89bf07e04759e541ff688bd"
+    },
+    {
+      "path": "experiments/yolo/gdt573_intra_clause_argument_pronoun_voice/artifacts/gdt573_30_page_pronoun_voice_profiles.tsv",
+      "role": "thirty page-level coverage profiles",
+      "sha256": "b2211201ff92a5935fb6eb3ebf49801cc1edcd09b765e76c72ca71647c45e6e9"
+    },
+    {
+      "path": "experiments/yolo/gdt573_intra_clause_argument_pronoun_voice/artifacts/gdt573_result.json",
+      "role": "compact result object",
+      "sha256": "9d71fc1067a423fc79738abee6fb18f4355bc5b0d4009e50bd6f42215ea23c8c"
+    },
+    {
+      "path": "experiments/yolo/gdt573_intra_clause_argument_pronoun_voice/artifacts/gdt573_validation.json",
+      "role": "independent 54-check validation record",
+      "sha256": "9b59420f5e9815435e67032baf999299cbc7b7f15b12ba8b10caddbdbf30a4ec"
+    },
+    {
+      "path": "experiments/yolo/gdt573_intra_clause_argument_pronoun_voice/src/run.py",
+      "role": "reproducible anaphor compiler",
+      "sha256": "f2540cbf3b3c004dbe7046528e272504bb17454c8b22146f8103f39d98c97e4c"
+    },
+    {
+      "path": "experiments/yolo/gdt573_intra_clause_argument_pronoun_voice/src/validate.py",
+      "role": "independent source validator",
+      "sha256": "de0b04083aff796fdb2dea932834f2f8a19a866274f74406fd8c1fb432f124e5"
+    }
+  ],
+  "question": "Can every repeated full owner-argument phrase inside one current card receive a short, unambiguous German anaphoric voice while preserving the exact complete argument wording in a reversible expansion channel?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "intra_clause_argument_pronoun_voice",
+  "status": "PASS_22_ANAPHOR_CARDS__854_REPEAT_GROUPS__1046_LATER_ARGUMENT_MENTIONS_COVERED_BY_1043_ANAPHORS__841_CLAUSES__5122_EXACT_ROUNDTRIPS__ZERO_ROOT_CHANGE",
+  "title": "intra clause argument pronoun voice",
+  "updated": "2026-08-27",
+  "validation": {
+    "artifact": "experiments/yolo/gdt573_intra_clause_argument_pronoun_voice/artifacts/gdt573_validation.json",
+    "status": "PASS"
+  }
+}

@@ -2498,9 +2498,32 @@ say outer/inner nominal form, outer/inner branch and third level. They preserve
 all244 scope distinctions while removing the audit brackets. All1,656 state
 lines remain exact; the complete5,122-card book now has zero bracket residue.
 
+## GDT573 all repeated local arguments now have a short voice
+
+Across the complete book,854 argument groups repeat inside one card. Their
+1,046 later full mentions now reduce to1,043 local anaphors while the first
+full phrase remains visible:
+
+```text
+Entnimm den laufenden Eintrag und wähle ihn.
+Ordne dieselbe Eintragseinheit zu und wähle sie.
+```
+
+The twenty old owner-root forms supply every singular card. The old Celestial
+Y|Y phrase supplies one plural card. Three two-root masculine coordinates use
+`beide`, never the ambiguous `ihn und ihn`:
+
+```text
+Nimm den Pflanzenposten und den Arbeitswert und stelle beide ein.
+```
+
+All outer/inner/third-level wording stays present. Each short form has a full
+fragment backchannel, and expanding it reconstructs all5,122 previous clauses
+exactly. This changes no written slot or working root; it removes verbosity
+created by our explicit German renderer.
+
 ## Next work
 
-Compress repeated full German action and argument mentions inside individual
-cards with reversible pronoun and coordination forms. Preserve every written
-slot in a parallel expansion channel and retain all roots, recipes, boundaries,
-voice cards and operator slots. Open no page.
+Inventory repeated action clauses and repeated relation/modifier phrases in the
+GDT573 edition. Prefer small reversible `zweimal` or coordination rules, retain
+every source slot in the expansion channel, and open no page or root.

@@ -13784,3 +13784,26 @@ The complete5,122-event/793-statement/30-page edition now contains zero square
 brackets, and all55 checks pass. Use it as the current readable edition. Next
 compress repeated full German action and argument mentions with reversible
 pronoun/coordination cards; no new page, atom or root value.
+
+## GDT573 compresses every local argument repetition without ambiguity
+
+The complete edition contains854 within-card repeat groups. After the first
+full mention, these groups contribute1,046 further explicit, carried or paired
+argument mentions in841 cards. Unicode word boundaries keep singular `den
+Positionsposten` separate from plural `die beiden Positionsposten`.
+
+Twenty owner-root cards render masculine later mentions as `ihn` and feminine
+later mentions as `sie`. One old GDT565 Y|Y pair card uses plural `sie`. Three
+Herbal cards repeat two distinct masculine arguments together; a coordination
+card renders the second pair as `beide`, avoiding the ambiguous `ihn und ihn`.
+The final surface contains949 `ihn`,91 `sie` and3 `beide`:1,043 anaphors cover
+all1,046 later mentions.
+
+Every replacement retains its full source fragment, root, form class and
+source/target spans. Expanding that channel reproduces all5,122 GDT572 clauses
+byte-exactly. The pass changes162 state and679 nonstate cards across363
+statements and28 pages, while recipes, roots, event order, scopes and page set
+remain fixed; all54 checks pass. Use GDT573 as the current readable edition.
+Next inventory repeated actions and repeated relation/modifier phrases and
+compress only those admitting small reversible count or coordination rules;
+open no page and add no root value.

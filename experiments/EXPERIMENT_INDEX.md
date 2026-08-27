@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **571**
-- Experiment-associated tracked files: **8,500** (861.9 MiB)
-- Structured GDT337+ experiments: **236**
+- Experiments indexed: **572**
+- Experiment-associated tracked files: **8,517** (866.5 MiB)
+- Structured GDT337+ experiments: **237**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT573 | GDT573_intra_clause_argument_pronoun_voice | `PASS_22_ANAPHOR_CARDS__854_REPEAT_GROUPS__1046_LATER_ARGUMENT_MENTIONS_COVERED_BY_1043_ANAPHORS__841_CLAUSES__5122_EXACT_ROUNDTRIPS__ZERO_ROOT_CHANGE` | [report](../experiments/yolo/gdt573_intra_clause_argument_pronoun_voice/REPORT.md) | 17 | 4.6 MiB | 2 | STRUCTURED_YOLO |
 | GDT572 | GDT572_complete_nonstate_bracket_voice | `PASS_4_BRACKET_TYPES__1536_OCCURRENCES__20_CARRY_FORMS__5_SCOPE_CARDS__1156_NONSTATE_CLAUSES_NATURALIZED__ZERO_BRACKETS__ZERO_ROOT_CHANGE` | [report](../experiments/yolo/gdt572_complete_nonstate_bracket_voice/REPORT.md) | 19 | 4.4 MiB | 4 | STRUCTURED_YOLO |
 | GDT571 | GDT571_three_operator_two_slot_outer_voice | `PASS_3_OPERATOR_CARDS__5_POSITION_REALIZATIONS__2_SLOT_RULES__9_SEQUENCES__1870_MARKERS__54_FINITE_FOLLOWERS__ZERO_ROOT_CHANGE` | [report](../experiments/yolo/gdt571_three_operator_two_slot_outer_voice/REPORT.md) | 19 | 4.8 MiB | 3 | STRUCTURED_YOLO |
 | GDT570 | GDT570_five_fragment_four_join_modifier_voice | `PASS_5_FRAGMENT_CARDS__4_JOIN_RULES__154_MODIFIER_CELLS__224_TRANSITIONS__103_WITHIN_CLASS_COORDINATED__164_STATE_CLAUSES_REFINED__ZERO_ROOT_CHANGE` | [report](../experiments/yolo/gdt570_five_fragment_four_join_modifier_voice/REPORT.md) | 19 | 4.7 MiB | 5 | STRUCTURED_YOLO |
