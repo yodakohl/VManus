@@ -13277,3 +13277,22 @@ carrier. The active support queue therefore falls to9 cards:4 anchor-context
 and5 direct-interface rests. All34 checks pass. Next seek common context-switch
 frames among the four, then separated/family bridges for the five interfaces;
 no page, recipe, root value or meaning changed.
+
+## GDT551 normalizes instance modes to the existing two-slot contract
+
+GDT543's twelve disjoint target/anchor mode sets compared the concrete incoming
+states observed at different occurrences. Recomputing the GDT540 action and
+argument slot contract for all81 fragment targets and anchors shows that all81
+old and target mode sets are feasible. Eleven of the twelve disjoints retain an
+identical contract; `kody` alone narrows one because its visible `K` fills the
+anchor's open action slot. Thus all12 normalize without a lexical context
+switch.
+
+All nine GDT549 context warnings normalize by the same rule. The five existing
+current peers remain optional empirical support rather than a prerequisite for
+contract identity. `folchol`, `qoteeod`, `saiis` and `shokaiir` consequently
+leave the active queue with their exact visible routes, recipes and complete
+neutral/context readings unchanged. The active support queue is now exactly
+five direct interfaces: `AIIN>CH`, `A_ADDR>P`, `AR>AM_ADDR`, `R>OT` and
+`SH>S`. All29 checks pass. Next seek separated occurrences and bounded family
+bridges for those five pairs; no page, recipe, root value or meaning changed.

@@ -1,0 +1,257 @@
+{
+  "artifact_sha256": {
+    "GDT551_CONTEXT_CONTRACT_BOOK.md": "ce8ad11ba3d7cadd7f10027d7deacbf5d244c95f61264a6d521549800276b1c5",
+    "gdt551_12_disjoint_instance_mode_audit.tsv": "e445d9d658748a4eec9dc870f0f96033f1e93222bb198ea0e14722c562c2fb3d",
+    "gdt551_145_contract_class_profile.tsv": "642e7623fb81b0986c7510681de71579c3e448506277cae005c2be152b44ddd4",
+    "gdt551_4_promoted_context_cards.tsv": "f78e2553b051653b5b55b8651ce21ea75e15c569f55f25bfcefe5d960dd0b6aa",
+    "gdt551_5_residual_interface_queue.tsv": "98f72158c2c763925f7a30a117bbaa8def81607764bf139d5070fb51156dcf3c",
+    "gdt551_81_anchor_contract_audit.tsv": "3c13dabe4a9420550af8dc4dfff6937e2cdc005869feb29b1b6fc99d844cf42d",
+    "gdt551_9_previous_context_warning_audit.tsv": "f074caee9c192dfa3851e22928358c848c19df23699fd3da926e6b76199842e8",
+    "gdt551_context_normalization_summary.tsv": "c93d43295845f08657bb5d5ff3e757e6a2b4e93d44e195ad3587e3081f9a9104",
+    "gdt551_result.json": "94d26356532f0b25baedf0849596a5dccd1ebfc9a24a89f07e14419d6e4478e6"
+  },
+  "check_count": 29,
+  "checks": [
+    {
+      "check": "source_row_counts",
+      "detail": [
+        145,
+        81,
+        145,
+        9,
+        23,
+        9
+      ],
+      "passed": true
+    },
+    {
+      "check": "four_contract_classes",
+      "detail": [
+        "ACTION_OPEN/ARGUMENT_OPEN",
+        "ACTION_OPEN/ARGUMENT_VISIBLE",
+        "ACTION_VISIBLE/ARGUMENT_OPEN",
+        "ACTION_VISIBLE/ARGUMENT_VISIBLE"
+      ],
+      "passed": true
+    },
+    {
+      "check": "profile_metrics_exact",
+      "detail": [],
+      "passed": true
+    },
+    {
+      "check": "profile_surface_sum",
+      "detail": 145,
+      "passed": true
+    },
+    {
+      "check": "anchor_card_set_exact",
+      "detail": 81,
+      "passed": true
+    },
+    {
+      "check": "anchor_contract_reconstruction_exact",
+      "detail": [],
+      "passed": true
+    },
+    {
+      "check": "all_81_anchor_and_target_modes_feasible",
+      "detail": [],
+      "passed": true
+    },
+    {
+      "check": "all_81_recipes_and_meanings_preserved",
+      "detail": [],
+      "passed": true
+    },
+    {
+      "check": "twelve_disjoint_source_cards",
+      "detail": [
+        "chady",
+        "chap",
+        "chckhedy",
+        "chepos",
+        "folchol",
+        "kody",
+        "qoekedy",
+        "qokshd",
+        "qoteeod",
+        "saiis",
+        "shokaiir",
+        "tosheo"
+      ],
+      "passed": true
+    },
+    {
+      "check": "disjoint_output_set_exact",
+      "detail": [
+        "chady",
+        "chap",
+        "chckhedy",
+        "chepos",
+        "folchol",
+        "kody",
+        "qoekedy",
+        "qokshd",
+        "qoteeod",
+        "saiis",
+        "shokaiir",
+        "tosheo"
+      ],
+      "passed": true
+    },
+    {
+      "check": "eleven_disjoints_share_identical_contract",
+      "detail": {
+        "IDENTICAL_SLOT_CONTRACT": 11,
+        "TARGET_CONTRACT_NARROWER_BY_VISIBLE_EXTENSION": 1
+      },
+      "passed": true
+    },
+    {
+      "check": "kody_alone_fills_open_action_slot",
+      "detail": [
+        "kody"
+      ],
+      "passed": true
+    },
+    {
+      "check": "all_twelve_disjoints_normalized",
+      "detail": {
+        "NORMALIZED_EXTENSION_FILLS_OPEN_SLOT": 1,
+        "NORMALIZED_SAME_CONTRACT_DIFFERENT_INCOMING_STATE": 11
+      },
+      "passed": true
+    },
+    {
+      "check": "nine_warning_set_exact",
+      "detail": [
+        "chady",
+        "chap",
+        "folchol",
+        "kody",
+        "qoekedy",
+        "qokshd",
+        "qoteeod",
+        "saiis",
+        "shokaiir"
+      ],
+      "passed": true
+    },
+    {
+      "check": "all_nine_warnings_normalized_without_peer_requirement",
+      "detail": [],
+      "passed": true
+    },
+    {
+      "check": "five_warning_cards_retain_optional_peers",
+      "detail": {
+        "chady": "1",
+        "chap": "1",
+        "folchol": "0",
+        "kody": "3",
+        "qoekedy": "2",
+        "qokshd": "1",
+        "qoteeod": "0",
+        "saiis": "0",
+        "shokaiir": "0"
+      },
+      "passed": true
+    },
+    {
+      "check": "four_source_context_rests",
+      "detail": [
+        "folchol",
+        "qoteeod",
+        "saiis",
+        "shokaiir"
+      ],
+      "passed": true
+    },
+    {
+      "check": "four_promoted_context_cards_exact",
+      "detail": [
+        "folchol",
+        "qoteeod",
+        "saiis",
+        "shokaiir"
+      ],
+      "passed": true
+    },
+    {
+      "check": "promoted_routes_meanings_and_contracts_exact",
+      "detail": [],
+      "passed": true
+    },
+    {
+      "check": "promoted_contract_split_two_plus_two",
+      "detail": {
+        "ACTION_OPEN/ARGUMENT_OPEN": 2,
+        "ACTION_VISIBLE/ARGUMENT_OPEN": 2
+      },
+      "passed": true
+    },
+    {
+      "check": "five_interface_rests_exact",
+      "detail": [
+        "aiicthy",
+        "chap",
+        "ofaram",
+        "rotaiin",
+        "shso"
+      ],
+      "passed": true
+    },
+    {
+      "check": "interface_recipes_and_pairs_preserved",
+      "detail": [],
+      "passed": true
+    },
+    {
+      "check": "result_metrics_exact",
+      "detail": {},
+      "passed": true
+    },
+    {
+      "check": "summary_matches_result",
+      "detail": 22,
+      "passed": true
+    },
+    {
+      "check": "book_names_all_four_promotions",
+      "detail": 5488,
+      "passed": true
+    },
+    {
+      "check": "book_names_all_five_interfaces",
+      "detail": 5488,
+      "passed": true
+    },
+    {
+      "check": "book_states_no_lexical_switch",
+      "detail": 5488,
+      "passed": true
+    },
+    {
+      "check": "deterministic_replay_exit",
+      "detail": "",
+      "passed": true
+    },
+    {
+      "check": "deterministic_artifact_hashes",
+      "detail": {},
+      "passed": true
+    }
+  ],
+  "failed_count": 0,
+  "input_sha256": {
+    "gdt540_145_surface_context_contract.tsv": "3248d53e85e472c290964157a564f8a7f06e804068dbaa55e0e8a394bd712fd4",
+    "gdt546_81_consolidated_fragment_reader.tsv": "8dfe315ed2769820a0158082a51e51fc882dcfcb5c98692350378ea5169040eb",
+    "gdt548_145_unified_prose_reader.tsv": "fca2de2de21729aa8ba1a73f29e24fe628204826e44969ba2953ec4b06d922cc",
+    "gdt549_23_exact_visible_default_cards.tsv": "1a21a53fc1f87bd826339b2619f7527370a97c22bbbc243f07e8dcfef29d4a67",
+    "gdt549_9_context_mismatch_peer_audit.tsv": "bc5c4a87ef49f3d0a80147dd4a0e07eb8a9d8ad1796c86916410ad6f452d066d",
+    "gdt550_9_residual_support_queue.tsv": "0f4f54f06fc074de2a0a37c77b1bf4cd241ddb245666c3424cd151a7db14bdff"
+  },
+  "passed_count": 29,
+  "status": "PASS"
+}

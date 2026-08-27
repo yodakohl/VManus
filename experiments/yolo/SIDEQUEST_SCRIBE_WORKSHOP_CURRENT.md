@@ -2055,10 +2055,24 @@ tiles, old seams and an exact visible full route; the recurrent frame supplies
 the missing shared current paradigm. All ten leave the active default queue
 while retaining the explicit absence of an old whole-recipe carrier.
 
+## GDT551 context contracts, not lexical switches
+
+The twelve old target/anchor mode-set disjoints compare incoming states at
+individual occurrences, not lexical contracts. Under GDT540 every recipe has
+only two slots—visible/open action and visible/open argument. All81 fragment
+targets and anchors have feasible observed modes. Eleven of the twelve
+disjoints keep an identical slot contract; only `kody` narrows one because its
+added `K` visibly fills the action slot.
+
+This closes the four active context rests without changing a route or meaning:
+`folchol` and `qoteeod` are open/open both before and after extension; `saiis`
+and `shokaiir` are visible-action/open-argument both before and after. Their
+different old and target modes merely record different sentence input states.
+
 ## Next work
 
-The active queue is now only four context cards (`folchol`, `qoteeod`, `saiis`,
-`shokaiir`) and five interfaces (`aiicthy`, `chap`, `ofaram`, `rotaiin`,
-`shso`). Search the four contexts for a common visible/state switch first.
-Then search the five pairs for separated occurrences or a shared family frame;
-do not merge context and adjacency evidence, and retain every current meaning.
+Only five direct interfaces remain: `aiicthy:AIIN>CH`, `chap:A_ADDR>P`,
+`ofaram:AR>AM_ADDR`, `rotaiin:R>OT`, and `shso:SH>S`. Search first for the
+same ordered roots with a visible separator, then for shared left/right root
+families and learned whole cards carrying the boundary. Retain every current
+meaning and do not promote a card into a universal adjacency law.
