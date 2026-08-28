@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **610**
-- Experiment-associated tracked files: **9,433** (1.0 GiB)
-- Structured GDT337+ experiments: **275**
+- Experiments indexed: **611**
+- Experiment-associated tracked files: **9,440** (1.0 GiB)
+- Structured GDT337+ experiments: **276**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT613 | GDT613_observation_complete_fst34_recovery | `REGISTERED_UNSCORED` | [report](../experiments/yolo/gdt613_observation_complete_fst34_recovery/PREREGISTRATION.md) | 7 | 11.6 KiB | 3 | STRUCTURED_YOLO |
 | GDT612 | GDT612_historical_fst34_target_attack | `HEURISTIC_DECODER_INVALIDATED__ORACLE_TRUTH_RANKS_LAST__ZERO_STABLE_TARGET_OUTPUTS` | [report](../experiments/yolo/gdt612_historical_fst34_target_attack/REPORT.md) | 117 | 2.5 MiB | 5 | STRUCTURED_YOLO |
 | GDT611 | GDT611_lexical_slot_permutation_audit | `NO_STABLE_LEXICAL_OR_FAMILY_SLOT__FORMAL_FRAME_RELATIONS_ONLY` | [report](../experiments/yolo/gdt611_lexical_slot_permutation_audit/REPORT.md) | 30 | 314.3 KiB | 3 | STRUCTURED_YOLO |
 | GDT610 | GDT610_consensus_carrier_control_audit | `CONSENSUS_STABILITY_INCREASES__WHOLE_WORD_KEY_STABLE_BUT_WRONG` | [report](../experiments/yolo/gdt610_consensus_carrier_control_audit/REPORT.md) | 25 | 369.6 KiB | 4 | STRUCTURED_YOLO |
