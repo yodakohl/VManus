@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **593**
-- Experiment-associated tracked files: **8,943** (998.3 MiB)
-- Structured GDT337+ experiments: **258**
+- Experiments indexed: **594**
+- Experiment-associated tracked files: **8,963** (1005.0 MiB)
+- Structured GDT337+ experiments: **259**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT595 | GDT595_remaining_bath_default_source_atlas | `PASS_44_COLD_DEFAULTS_COMPLETED__20_AIIN_FILL_CONTEXTS__18_LATE_Y_PACKETS__6_BARE_CONTEXTS__HYBRID_16_BODY_23_STATION_3_PORTION_2_BATH_UNIT__2_DEPENDENT_CARRIES_PROPAGATED__254_SPECIFIC_OBJECTS__0_BATH_OBJECT_DEFAULTS_REMAIN` | [report](../experiments/yolo/gdt595_remaining_bath_default_source_atlas/REPORT.md) | 20 | 6.7 MiB | 7 | STRUCTURED_YOLO |
 | GDT594 | GDT594_gdt569_y_bath_occurrence_completion | `PASS_49_Y_OCCURRENCE_COMPLETIONS__17_LOCAL_STATION__2_LOCAL_FLOW__1_LOCAL_BODY__29_RESET_BODY_FIRST__20_ANAPHORIC__29_DEFINITE__254_OBJECTS__49_STATEMENTS_CHANGED__44_COLD_DEFAULTS_REMAIN` | [report](../experiments/yolo/gdt594_gdt569_y_bath_occurrence_completion/REPORT.md) | 18 | 6.1 MiB | 10 | STRUCTURED_YOLO |
 | GDT593 | GDT593_gdt569_bath_candidate_promotion | `PASS_12_STABLE_ROOT_PROMOTIONS__8_AIN_PORTION__4_OR_UNIT__5_ANAPHORIC_SAME_SCOPE__7_RESET_TYPE_DEFAULTS__254_OBJECTS__12_STATEMENTS_CHANGED__93_COLD_DEFAULTS_REMAIN` | [report](../experiments/yolo/gdt593_gdt569_bath_candidate_promotion/REPORT.md) | 16 | 5.3 MiB | 7 | STRUCTURED_YOLO |
 | GDT592 | GDT592_bath_object_completion | `PASS_254_BATH_ACTION_OBJECTS__149_OBJECTLESS_PLUS_5_FILL_ONLY_PATCHED__53_BODY__81_STATION__107_BATH_OBJECT__9_UNIT__4_PORTION__13_LOCAL_HANDOFFS__11_EPISODE_CARRIES__132_STATEMENTS__2_GDT569_DIVERGENCES_RETAINED` | [report](../experiments/yolo/gdt592_bath_object_completion/REPORT.md) | 22 | 5.2 MiB | 9 | STRUCTURED_YOLO |

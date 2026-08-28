@@ -14438,3 +14438,36 @@ portion and2 flow. Exactly44 cold defaults remain:17 AIIN fill-only and27 with
 no GDT569 state. Next classify those44 from already admitted target and episode
 context before assigning more occurrence defaults. Open no page,root,parser or
 substring. Validation is117/117.
+
+## GDT595 closes all forty-four cold bath defaults without globalizing AIIN or Y
+
+GDT595 gives every one of GDT594's44 neutral Badegut occurrences a concrete
+working object on the same six pages. Two independent descriptions are kept.
+The visible-frame partition is20 AIIN-fill contexts,18 same-event late-Y
+packets and6 bare contexts. The object-source partition is21 leftward
+anaphora,8 rightward shared complements,1 bidirectional packet tie and14
+definite Body defaults. AIIN remains fill/medium throughout and never alone
+chooses the patient.
+
+The selected hybrid assigns the44 direct targets as16 Körper,23
+Stationsansatz,3 Anwendungsportion and2 Badeinheit. It retains the useful
+workshop Portion/Unit distinctions but applies the simpler same-event
+right-edge complement rule at E2863,E3523,E3533 and E3664,which the first
+workshop model called Body. A separate close read keeps six narrower
+host-attachment alternatives visible at E2863,E3224,E3523,E3533,E3563 and
+E3664. These are live local rivals,not a reason to restore neutral Badegut.
+
+Two old neutral episode carries now inherit the newly concrete donor:E3219
+reads `denselben Körper` from E3218 and E3489 `denselben Stationsansatz` from
+E3488. Thus46 actions in42 statements change,while751/793 statements remain
+GDT594-byte-identical. The final254-action inventory is100 Körper,122
+Stationsansatz,15 Anwendungsportion,15 unit,2 operational Strom and0 neutral
+Badegut. All source cards,three model columns,patch occurrences and reader
+sentences validate112/112.
+
+Contemporary recipe parallels support coordinated actions sharing a late
+object,pronoun carry and a distinction between a portion phrase and its
+material. They justify the procedural syntax as a workshop analogy only;they
+do not prove a Voynich word meaning. The next no-new-page route is to compress
+the254 completed actions into a small predictive compound/scope phrasebook,
+with the six host rivals still visible. Open no page,root,parser or substring.
