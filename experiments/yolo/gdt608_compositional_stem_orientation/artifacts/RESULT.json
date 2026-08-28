@@ -1,0 +1,176 @@
+{
+  "aggregate_model_scores": {
+    "ATOMIC": {
+      "all_joint": 1.039772582991676,
+      "chunk_final": 0.36790478042668534,
+      "chunk_initial": 0.6140780783631354,
+      "currier": 0.7079487847425868,
+      "hand": 2.175520431750178,
+      "left": 3.046154877298321,
+      "line_final": 0.2496628322287812,
+      "line_initial": 0.1803819098635333,
+      "metadata_joint": 1.7141138800221472,
+      "paragraph_final": 0.09743545828878843,
+      "paragraph_initial": 0.022586824250747563,
+      "primary_joint": 0.8658858990317139,
+      "right": 2.3488824315337182,
+      "section": 2.2588724235736763,
+      "standalone": 0.40784216357995945
+    },
+    "DIRECT": {
+      "all_joint": 1.2441073452402724,
+      "chunk_final": 0.5237877391561705,
+      "chunk_initial": 0.8171371447463461,
+      "currier": 0.8252397808584194,
+      "hand": 2.2816399011020354,
+      "left": 3.6414630417333465,
+      "line_final": 0.3035088462171471,
+      "line_initial": 0.20643864695293848,
+      "metadata_joint": 1.8236343167372413,
+      "paragraph_final": 0.10001763958362814,
+      "paragraph_initial": 0.023750681611096943,
+      "primary_joint": 1.0592254284188403,
+      "right": 2.8576996873500495,
+      "section": 2.364023268251269,
+      "standalone": 0.9845817653208223
+    },
+    "GLOBAL": {
+      "all_joint": 1.3583923805060043,
+      "chunk_final": 1.0188783278700273,
+      "chunk_initial": 0.9962520581229314,
+      "currier": 0.8198570389364013,
+      "hand": 2.560917556560366,
+      "left": 3.843907664750327,
+      "line_final": 0.32401884315627416,
+      "line_initial": 0.22802695221036717,
+      "metadata_joint": 1.9173764355985068,
+      "paragraph_final": 0.10713590309598593,
+      "paragraph_initial": 0.03105038432964163,
+      "primary_joint": 1.2370399133839813,
+      "right": 3.3470491735362953,
+      "section": 2.3713547112987525,
+      "standalone": 0.6522599522046828
+    },
+    "SWAPPED": {
+      "all_joint": 1.884584329776221,
+      "chunk_final": 2.814031644415063,
+      "chunk_initial": 1.33212068865582,
+      "currier": 0.8252397808584194,
+      "hand": 2.2816399011020354,
+      "left": 5.365501036342003,
+      "line_final": 0.3820792584944677,
+      "line_initial": 0.2879831832568914,
+      "metadata_joint": 1.8236343167372413,
+      "paragraph_final": 0.13048564974579607,
+      "paragraph_initial": 0.042251886026632275,
+      "primary_joint": 2.0199409052227635,
+      "right": 5.805073894845433,
+      "section": 2.364023268251269,
+      "standalone": 0.9845817653208223
+    }
+  },
+  "claim_ceiling": "collapsed-unit structural composition only; no morphology, lexeme, sound, language, plaintext, or meaning",
+  "counts": {
+    "guarded_rows": 4165,
+    "held_events": 21679,
+    "inventory": 98,
+    "merge_output_held_events": 14390,
+    "merge_output_train_events": 28756,
+    "merge_rules": 64,
+    "stable_stem_side_families": 14,
+    "stem_side_families": 18,
+    "train_events": 43335
+  },
+  "decision": "PARTIAL_COMPOSITIONAL_BACKOFF",
+  "direct_minus_atomic_primary_bits": 0.1933395293871264,
+  "held_folio_stability": {
+    "atomic_beats_direct": 23,
+    "direct_beats_global": 23,
+    "direct_beats_swapped": 23,
+    "folios": 23,
+    "maximum_direct_gain_vs_global_bits": 0.25414294673019344,
+    "minimum_direct_gain_vs_global_bits": 0.05701786724243485
+  },
+  "input_hashes": {
+    "experiments/yolo/gdt605_multisymbol_unit_alphabet/artifacts/gdt605_bpe_merges.tsv": "4625c9389ead390907e4ac74e65bc158236f02b439c69cf3b09157f0cd6ca539",
+    "experiments/yolo/gdt605_multisymbol_unit_alphabet/artifacts/gdt605_unit_inventory.tsv": "ade74733200e941ddc66285988eb1498ac98e87ad374cad11ac412ce42893e82",
+    "experiments/yolo/gdt605_multisymbol_unit_alphabet/artifacts/gdt605_unit_result.json": "c2d293c121f1ee01fe0ddcbe4647c77f5f94796b4ecc4b1adc554cc2f740c3d9",
+    "experiments/yolo/gdt606_mixed_nomenclator_decoder/artifacts/category_stability_all_configs_latin.tsv": "2a43d309b78392781ab9111c00dcead82424d648ad820fd02f1479dbb33e7997",
+    "experiments/yolo/gdt606_mixed_nomenclator_decoder/artifacts/category_stability_all_configs_middle_high_german.tsv": "998a6f093584f26321bc4e4ef2f88171ff245383eecb786adde7fe98733e81b5",
+    "experiments/yolo/gdt606_mixed_nomenclator_decoder/artifacts/category_stability_all_configs_old_italian.tsv": "069023255a729b0918f7298ca5482f9bfa6fa1815541098f801db7ddc4704169",
+    "experiments/yolo/gdt606_mixed_nomenclator_decoder/artifacts/complete_mappings.tsv": "005ddec8e5b67763c9ccfd1d3244e44c1e68d8c0c6c46a2c7d7edcc36fa4aabe",
+    "experiments/yolo/gdt606_mixed_nomenclator_decoder/artifacts/guarded_rows.tsv": "d6674f3d54edc49590c884b5d703cb032b966c1abd4da6338093795ce1f31ef9",
+    "experiments/yolo/gdt606_mixed_nomenclator_decoder/artifacts/unit_sequences.json": "3ee0841e211314b72719acbbf79ed3a6dc7bfc3c157734f54dbdac92ac458fdf"
+  },
+  "known_held_exposure": "exploratory: prior GDT606 role attack exposed some requested-unit held profiles before this freeze",
+  "lomo_all_seven_rate_mae": {
+    "atomic": 0.022348329514525,
+    "direct": 0.10101196898469708,
+    "lomo": 0.07671986487085822
+  },
+  "lomo_binary_edge_logloss": {
+    "atomic": 0.25534164723694525,
+    "direct": 0.32910678304455454,
+    "lomo": 0.31594249293475973
+  },
+  "matched_frequency_control": {
+    "control_edge_mae_mean": 0.015813416146125286,
+    "control_neighbor_js_mean": 0.06538242624102186,
+    "edge_difference_signflip_p": 0.007999200079992,
+    "merge_edge_mae_mean": 0.02173670699794612,
+    "merge_neighbor_js_mean": 0.05844799046746403,
+    "neighbor_difference_signflip_p": 0.05629437056294371
+  },
+  "mobile_null": {
+    "empirical_p_null_le_real": 0.000999000999000999,
+    "maximum_primary_bits": 1.9807992545008364,
+    "mean_primary_bits": 1.7061001502997892,
+    "minimum_primary_bits": 1.4358592325926889,
+    "nearest_donors": 8,
+    "real_direct_primary_bits": 1.0592254284188403,
+    "replicates": 1000,
+    "sd_primary_bits": 0.08424720415160517,
+    "seed": 60560620260828
+  },
+  "schema": "gdt608-compositional-stem-orientation-v1",
+  "sealed_data": {
+    "f84": "FORBIDDEN_AND_ABSENT",
+    "f84r": "FORBIDDEN_AND_ABSENT"
+  },
+  "tree_depth_diagnostic": [
+    {
+      "direct_beats_atomic_types": 1,
+      "held_events": 8837,
+      "merge_types": 30,
+      "tree_depth": 1,
+      "weighted_atomic_gain_vs_direct_bits": 0.2438655144275695,
+      "weighted_direct_gain_vs_global_bits": 0.13232424860774786,
+      "weighted_direction_gain_vs_swapped_bits": 0.6893986729687106
+    },
+    {
+      "direct_beats_atomic_types": 6,
+      "held_events": 5065,
+      "merge_types": 28,
+      "tree_depth": 2,
+      "weighted_atomic_gain_vs_direct_bits": 0.12804896720709993,
+      "weighted_direct_gain_vs_global_bits": 0.23002812257462368,
+      "weighted_direction_gain_vs_swapped_bits": 1.200520326569812
+    },
+    {
+      "direct_beats_atomic_types": 6,
+      "held_events": 488,
+      "merge_types": 6,
+      "tree_depth": 3,
+      "weighted_atomic_gain_vs_direct_bits": -0.04395848774516973,
+      "weighted_direct_gain_vs_global_bits": 0.4596487968468035,
+      "weighted_direction_gain_vs_swapped_bits": 3.384926606778398
+    }
+  ],
+  "w_category_diagnostic": {
+    "composition_gain_vs_destroyed_W_residual_pearson_controlling_log_frequency": -0.11202660149126291,
+    "composition_gain_vs_destroyed_W_spearman": 0.23047118608380476,
+    "composition_gain_vs_real_W_residual_pearson_controlling_log_frequency": -0.23871580442992082,
+    "composition_gain_vs_real_W_spearman": 0.07777942024538148,
+    "frequency_vs_real_W_spearman": 0.6523128994525839
+  }
+}

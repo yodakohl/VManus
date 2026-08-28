@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **605**
-- Experiment-associated tracked files: **9,218** (1022.8 MiB)
-- Structured GDT337+ experiments: **270**
+- Experiments indexed: **606**
+- Experiment-associated tracked files: **9,247** (1023.3 MiB)
+- Structured GDT337+ experiments: **271**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT608 | GDT608_compositional_stem_orientation | `PARTIAL_COMPOSITIONAL_BACKOFF__ATOMIC_MERGE_IDENTITY_RETAINS_RESIDUAL_ROLE` | [report](../experiments/yolo/gdt608_compositional_stem_orientation/REPORT.md) | 29 | 568.1 KiB | 3 | STRUCTURED_YOLO |
 | GDT607 | GDT607_boundary_word_disentanglement | `W_BUCKET_CONFUND_CORRECTED__FIVE_DISTINCT_OUTPUT_BEARING_FORMAL_ROLES` | [report](../experiments/yolo/gdt607_boundary_word_disentanglement/REPORT.md) | 40 | 2.4 MiB | 3 | STRUCTURED_YOLO |
 | GDT606 | GDT606_mixed_nomenclator_decoder | `MIXED_CODEBOOK_UNSTABLE_PSEUDOTEXT__STRUCTURAL_WHOLE_WORD_CATEGORY_LEAD` | [report](../experiments/yolo/gdt606_mixed_nomenclator_decoder/REPORT.md) | 31 | 6.6 MiB | 3 | STRUCTURED_YOLO |
 | GDT605 | GDT605_multisymbol_unit_alphabet | `STABLE_98_UNIT_ALPHABET__ONE_LETTER_READING_REJECTED` | [report](../experiments/yolo/gdt605_multisymbol_unit_alphabet/REPORT.md) | 18 | 125.9 KiB | 4 | STRUCTURED_YOLO |
