@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **608**
-- Experiment-associated tracked files: **9,286** (1023.7 MiB)
-- Structured GDT337+ experiments: **273**
+- Experiments indexed: **609**
+- Experiment-associated tracked files: **9,316** (1.0 GiB)
+- Structured GDT337+ experiments: **274**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT611 | GDT611_lexical_slot_permutation_audit | `NO_STABLE_LEXICAL_OR_FAMILY_SLOT__FORMAL_FRAME_RELATIONS_ONLY` | [report](../experiments/yolo/gdt611_lexical_slot_permutation_audit/REPORT.md) | 30 | 314.3 KiB | 3 | STRUCTURED_YOLO |
 | GDT610 | GDT610_consensus_carrier_control_audit | `CONSENSUS_STABILITY_INCREASES__WHOLE_WORD_KEY_STABLE_BUT_WRONG` | [report](../experiments/yolo/gdt610_consensus_carrier_control_audit/REPORT.md) | 25 | 369.6 KiB | 4 | STRUCTURED_YOLO |
 | GDT609 | GDT609_historical_mixed_abbreviation_prior | `HISTORICAL_MIXED_ABBREVIATION_FST_34_V1_SELECTED` | [report](../experiments/yolo/gdt609_historical_mixed_abbreviation_prior/REPORT.md) | 14 | 68.4 KiB | 2 | STRUCTURED_YOLO |
 | GDT608 | GDT608_compositional_stem_orientation | `PARTIAL_COMPOSITIONAL_BACKOFF__ATOMIC_MERGE_IDENTITY_RETAINS_RESIDUAL_ROLE` | [report](../experiments/yolo/gdt608_compositional_stem_orientation/REPORT.md) | 29 | 568.1 KiB | 3 | STRUCTURED_YOLO |
