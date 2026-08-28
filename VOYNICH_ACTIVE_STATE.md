@@ -14204,3 +14204,43 @@ learned-value,plant-organ,stock,connection and multi-name roles to further
 user-released pages. Without such a release no further closed-page rewrite
 follows automatically;open no new page/root/parser and never segment contained
 substrings automatically.
+
+## GDT587 conditions carrier nouns on their exact action hosts
+
+The remaining Y/AIIN/AIN/OR population under the1,921 fixed GDT584 target
+actions is now complete:1,243 written carrier slots join953 unique T/SH/CHD/S
+hosts through unchanged `primary_governor_key`. The running layer contains1,163
+slots at883 hosts in379 statements;the local layer contains80 slots at70 cards.
+Exactly384 running carriers are written in another event than their action and
+therefore never join by adjacency. The observed population occupies136
+register×action-rule×root cells and1,111 host×root cells;no unobserved matrix
+cell is filled.
+
+The portable cores remain Y=POSTEN,AIIN=WERT,AIN=ANTEIL,OR=EINHEIT. GDT587
+stores an occurrence lemma,accusative form and genitive for each slot. Source
+AIIN separates working liquid under rest/sort from liquid quantity under fix;
+Herbal Y becomes plant material while wet/dry/warm state stays in the verb;
+Celestial OR becomes ring segment;Pharma separates drug material,medicinal
+extract,ingredient portion and held unit/batch. Biological uses body only in a
+clean bath/cool host and body+part only in the exact CHD+Y+AIN packet;relation,
+address,form or new-batch signals retain Stationsansatz. A first overbroad body
+rule was corrected after G407-S572/G407-S115 failed;both are now GDT586-exact.
+
+Reader packets replace artificial equal-object lists without deleting slots:
+G407-S047 becomes Ringposition des Ringsegments auf den Positionswert;
+G407-S440 composes quantity of basin content;G407-S621 composes Körperteil;
+G407-S667 strains extract from an ingredient portion. Of1,243 assignments632
+retain base,526 narrow by action and85 narrow by packet. Against GDT586,227/793
+statements and14/744 local cards change;all414 noncandidate statements and674
+noncandidate cards remain byte-exact. There is zero exact carrier/name slot or
+governor overlap. P1003-E0414 alone contains both as separate local slots and
+reads dark fibre-root drug plus independent drug material;88 other named cards
+remain exact. Heilmittel and Beschwerde retain their exact running slots.
+Validation passes69/69.
+
+Use GDT587 as the complete current thirty-page working reader. Its contextual
+nouns are editorial and partly circular with the action classifier,not
+confirmed lexemes or plaintext. A generic OK/CH/K/R/P noun pass would largely
+repeat GDT496/GDT567. The next informative step is transfer of the fixed model
+to further user-released pages;without that authorization open no page,root,
+parser or automatic contained-substring analysis.
