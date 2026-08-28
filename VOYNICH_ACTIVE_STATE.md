@@ -14350,3 +14350,40 @@ an explicit bath object:written GDT590 Body/Station first,then OR unit or AIN
 portion,then local blocker Station,then same-episode carry,and otherwise
 neutral Bath object. Keep AIIN as fill only and mark all carried/generic
 objects as editorial defaults;open no page,root,parser or new denotation.
+
+## GDT592 completes all bath-object slots and replaces long carries with local handoffs
+
+GDT592 assigns an explicit working object to all254 action-slot-unique
+`SH_BIO_BATHE` hosts in177 statements/190 reader-physical segments on the same
+six bath pages. The final class profile is53 Body,81 Stationsansatz,107
+Badegut,9 Bade-/Stationseinheit and4 Anwendungsportion. The selection ladder is
+92 written Y,6 written OR,2 written AIN,25 complete-host blocker defaults,13
+exact intervening object handoffs,11 remaining episode carries and105 cold
+Badegut defaults. AIIN never selects the object and remains Badfüllung.
+
+The first build's24 bath-only carries were too coarse. A complete manual scan
+finds13 nearer non-bath Y/OR/AIN hosts between the old donor and target. Nine
+change class:E1673/E3221/E3665 become Stationsansatz,E1746/E3625 become
+Anwendungsportion,E3067/E3550 preserve the donor wording Stationseinheit,and
+E3234/E3304 become Stationsansatz instead of Body. E2641/E2736/E3034/E3621
+retain Station but gain a nearer written donor. The11 true bath carries are
+all visible-distance0–2;9 carry a typed object and E3219/E3489 only reuse the
+neutral Badegut. No carry or handoff crosses statement,reader boundary or
+physical paragraph. Host ordinal distance and visible event/line distance are
+kept separate.
+
+GDT592 patches149 carrierless and5 AIIN-only clauses in132 statements by exact
+host-ordinal alignment;100 written-object clauses and661 unaffected statements
+remain byte-identical. The neutral prose is now `das zu badende Gut im Bad`,
+with anaphoric `dasselbe zu badende Gut` only on the two neutral reuses. E2652
+remains the unchanged written Body+fill clause with Station visible.
+
+The older GDT569 state joins117/254 action slots and is retained as a parallel
+argument channel,not silently equated with the new episode object. Only E1719
+(blocker Station vs AIN) and E2481 (episode Station vs OR) remain true typed
+conflicts. More usefully,61 cold Badegut defaults have a specific old
+candidate:49 Y,8 AIN and4 OR. The next no-new-page route should first turn the
+12 AIN/OR candidates into occurrence-level Portion/Unit readings,then resolve
+the49 Y candidates with the existing Body/Station blockers and local donors.
+Do not open a page,root,parser or substring segmentation. Validation is112/112
+including byte-identical rebuild and the E3243 two-slot/one-event guard.

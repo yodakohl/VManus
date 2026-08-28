@@ -1,0 +1,192 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "A no-new-page exploratory working completion of all 254 fixed SH_BIO_BATHE action slots on six already admitted bath pages. It assigns an editorial object role to every action, replaces 13 overly distant bath-only carries with exact nearer written Y/OR/AIN handoffs, retains 11 short episode carries, and preserves GDT569 as a separate argument-state trace. It changes no manuscript surface, root, slot attachment, parser, segmentation, page, or historical source. Badegut, body, station, unit, and portion are working roles, not confirmed Voynich lexemes or plaintext; no patient, anatomy, substance, illness, healing, language, codebook, or unseen-page prediction is confirmed.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt592_bath_object_completion/src/run.py",
+    "validate": "python3 experiments/yolo/gdt592_bath_object_completion/src/validate.py"
+  },
+  "created": "2026-08-28",
+  "dependencies": ["GDT515", "GDT569", "GDT581", "GDT583", "GDT584", "GDT587", "GDT590", "GDT591"],
+  "experiment_id": "GDT592",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt583_object_conditioned_verb_refinement/artifacts/gdt583_target_occurrence_assignments.tsv",
+      "role": "fixed 254 SH_BIO_BATHE target slots and object-conditioned action rules",
+      "sha256": "6cb32d00bcfe989d1d370731d2327bea28ea690ba7c0b79e2728b844fd890705"
+    },
+    {
+      "path": "experiments/yolo/gdt584_statement_collocation_polish/artifacts/gdt584_statement_wide_host_phrases.tsv",
+      "role": "fixed host order, action-slot identities, clauses, and reader boundaries",
+      "sha256": "b890858697b6dbbdd64fa4cbadff1a208ce57726c637f9e4a99f93472d4ba0e1"
+    },
+    {
+      "path": "experiments/yolo/gdt587_action_conditioned_carrier_nouns/artifacts/gdt587_candidate_statement_host_phrases.tsv",
+      "role": "action-conditioned carrier clauses and complete donor phrase trace",
+      "sha256": "530cd7db5f31b3f549f11dc186ee1a505b59e3ed75747a0ff77cd4e26d13a43c"
+    },
+    {
+      "path": "experiments/yolo/gdt581_grammar_content_boundary_audit/artifacts/gdt581_15889_complete_slot_ledger.tsv",
+      "role": "complete written-host slots, blockers, and exact handoff root sources",
+      "sha256": "3adb073e7a572e3f71876d156db9142e1ab324d455e11a797dc2bbd351496176"
+    },
+    {
+      "path": "experiments/yolo/gdt590_focused_bath_body_station_adjudication/artifacts/gdt590_1243_adjudicated_slot_replay.tsv",
+      "role": "fixed written carrier roots and GDT590 body/station slot readings",
+      "sha256": "0b7d034985de2f21ee82447151d4fcfe41fda299d813f52e99bf07c861a3d299"
+    },
+    {
+      "path": "experiments/yolo/gdt590_focused_bath_body_station_adjudication/artifacts/gdt590_793_body_adjudicated_statement_reader.tsv",
+      "role": "complete fail-closed upstream statement reader",
+      "sha256": "10d0270e2bbf731ed00365b44cdeab0ecd14c77e4ba1a027e7448e3c7dd95f90"
+    },
+    {
+      "path": "experiments/yolo/gdt590_focused_bath_body_station_adjudication/artifacts/gdt590_4_bath_fork_adjudications.tsv",
+      "role": "four body-first clause patches and retained station alternatives",
+      "sha256": "7e7542e9ca563edac6675a0e503dcd2ea5c8ac00079ad45ca7e3c5e24d9105d5"
+    },
+    {
+      "path": "experiments/yolo/gdt591_bath_episode_continuity/artifacts/gdt591_92_bath_y_host_continuity.tsv",
+      "role": "fixed body/station role for every written Y bath host",
+      "sha256": "ea231f24ccc524a07d2b49d7eac7c5bc85afa382d0f5d2d383338d0d3adfd3ef"
+    },
+    {
+      "path": "experiments/yolo/gdt569_four_context_carry_voice_frames/artifacts/gdt569_1656_context_voice_state_clauses.tsv",
+      "role": "guarded event-level parallel argument-state trace",
+      "sha256": "0971ba866bf9a3f03d735c9da65545e45b9fabae545ae9b921beecac64ff43bf"
+    },
+    {
+      "path": "experiments/yolo/gdt515_second_random_four_page_full_admission/artifacts/gdt515_5122_running_event_edition.tsv",
+      "role": "fixed event identities, loci, surfaces, recipes, and source order",
+      "sha256": "6615c3874d09a2e0043e56ac9d71317d138b8fb675cc56f4ab3d866f5b8fa346"
+    },
+    {
+      "path": "transcription/voynich_zl3b_lines.tsv",
+      "role": "guarded physical-line and paragraph boundaries on the six bath pages",
+      "sha256": "7520dd4c11f4d23c8492e4b2a52cc0fcbda6d9fc88a96ead8f1c31081a4d7ed2"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt592_bath_object_completion/METHOD.md",
+      "role": "fixed object precedence, handoff method, reader patch, and claim ceiling",
+      "sha256": "e0c4a81fb71b940016710a0a1ddd2fdf9b0b266537a407f6df29f24b803eb02f"
+    },
+    {
+      "path": "experiments/yolo/gdt592_bath_object_completion/README.md",
+      "role": "experiment entry point and commands",
+      "sha256": "ed51d4703eb88a7bdc9e2c19a1316e5eb16ddda460f5dd3501ced1b52d7d6155"
+    },
+    {
+      "path": "experiments/yolo/gdt592_bath_object_completion/REPORT.md",
+      "role": "primary complete bath-object and local-handoff report",
+      "sha256": "332b2fa75d0623d04f9f934ada0edfee70c35baac4acec9cee09e147360a0756"
+    },
+    {
+      "path": "experiments/yolo/gdt592_bath_object_completion/artifacts/README.md",
+      "role": "artifact guide",
+      "sha256": "91b23286a1fbfe4ae0c66f50ce02bc16e847b0f24f95622ba65ca28377e29f32"
+    },
+    {
+      "path": "experiments/yolo/gdt592_bath_object_completion/artifacts/GDT592_COMPLETE_BATH_OBJECT_READER.md",
+      "role": "complete 177-statement bath working reader with handoffs and parallel traces",
+      "sha256": "2e881b52fbec8be6a2686fef23ebd5266c8ca0136debe1fa03aa53dee3f66a75"
+    },
+    {
+      "path": "experiments/yolo/gdt592_bath_object_completion/artifacts/gdt592_254_bath_action_objects.tsv",
+      "role": "complete slot-grained object, provenance, reference, and GDT569 matrix",
+      "sha256": "c94dcb0ae45150e9faeaa3b203487447d678839740faa5010bba9b4eb5f79d41"
+    },
+    {
+      "path": "experiments/yolo/gdt592_bath_object_completion/artifacts/gdt592_190_bath_episode_segments.tsv",
+      "role": "all reader and physical-segment bath object sequences",
+      "sha256": "6a0dfba977ef2b9f4c0b946721b1261dd2612bfc919369b691be1b13ccb3e9c4"
+    },
+    {
+      "path": "experiments/yolo/gdt592_bath_object_completion/artifacts/gdt592_149_objectless_completions.tsv",
+      "role": "all previously carrierless object completions",
+      "sha256": "69d4d9d2d6a51bd843d9b9da23a4160309821d6cc53e9a4d05e6d56c139674ae"
+    },
+    {
+      "path": "experiments/yolo/gdt592_bath_object_completion/artifacts/gdt592_5_fill_only_compositions.tsv",
+      "role": "all AIIN-only fill plus separate object compositions",
+      "sha256": "0be21403864d1db2e6c8a01c4b33b8a1d95c64d4127f9edf54461e34f4c74cdc"
+    },
+    {
+      "path": "experiments/yolo/gdt592_bath_object_completion/artifacts/gdt592_13_local_object_handoffs.tsv",
+      "role": "all exact nearer written Y OR AIN object handoffs",
+      "sha256": "1f6c1f658025aa185a3f58968ca65dccda0eefc4bf751b2498c1b0199f4595bd"
+    },
+    {
+      "path": "experiments/yolo/gdt592_bath_object_completion/artifacts/gdt592_11_episode_carries.tsv",
+      "role": "all remaining short same-segment bath object carries",
+      "sha256": "d1b4a39e83301ee81d1656b1e0af26dc0394801377a50954035d2a17549a0d04"
+    },
+    {
+      "path": "experiments/yolo/gdt592_bath_object_completion/artifacts/gdt592_2_gdt569_object_divergences.tsv",
+      "role": "two retained episode-object versus old-argument class conflicts",
+      "sha256": "ea15b61bb151aa3c6b01fd92fe7c483a07e33e0b4dae7e71a45fa383750ff8dd"
+    },
+    {
+      "path": "experiments/yolo/gdt592_bath_object_completion/artifacts/gdt592_25_blocker_station_defaults.tsv",
+      "role": "all complete-host blocker-driven station defaults",
+      "sha256": "1233cfea971d5b8f4b1eda9aa846b6d2f5aaa559bb97bd55dcd892ea716b7c2f"
+    },
+    {
+      "path": "experiments/yolo/gdt592_bath_object_completion/artifacts/gdt592_6_bath_page_profiles.tsv",
+      "role": "six fixed bath-page action and object profiles",
+      "sha256": "de686d81328f5def536c3ecdcb97ddafbaf2720c790576c56879503666f59983"
+    },
+    {
+      "path": "experiments/yolo/gdt592_bath_object_completion/artifacts/gdt592_132_patched_statements.tsv",
+      "role": "all complete before and after patched statements",
+      "sha256": "50bb9deb3ac09caad84b8a29b1aaf9440e5b674e0fb0503d6b02686152082b83"
+    },
+    {
+      "path": "experiments/yolo/gdt592_bath_object_completion/artifacts/gdt592_793_bath_object_statement_reader.tsv",
+      "role": "complete statement reader with only 154 exact bath-object clause patches",
+      "sha256": "9a4125da4430c3d44a87de5f4bd169e80f1526beb8dc930a36026b865aaea449"
+    },
+    {
+      "path": "experiments/yolo/gdt592_bath_object_completion/artifacts/gdt592_result.json",
+      "role": "compact counts, profiles, rule, and input hashes",
+      "sha256": "7f82accced7e420a6e6a85b9c8848ed29a06a04ecb897ba4a4442188ca203422"
+    },
+    {
+      "path": "experiments/yolo/gdt592_bath_object_completion/artifacts/gdt592_validation.json",
+      "role": "112 executable population, handoff, carry, parallel-trace, and rebuild checks",
+      "sha256": "c2c4078880ce34d7f63d63e8283348e658b41ab119daa77fffcaa9fcb52fe416"
+    },
+    {
+      "path": "experiments/yolo/gdt592_bath_object_completion/src/object_model.py",
+      "role": "guarded object, handoff, carry, patch, and reader builder",
+      "sha256": "67ee30228d7449a85cbb57c4eeb9b3699deabf559c5bbc73fbbea1342eb536c5"
+    },
+    {
+      "path": "experiments/yolo/gdt592_bath_object_completion/src/run.py",
+      "role": "reproducible artifact compiler",
+      "sha256": "0b6e9b8be989736322f0a1d3ed080c62150ac5656db650fb6320748ac6a3b7bc"
+    },
+    {
+      "path": "experiments/yolo/gdt592_bath_object_completion/src/validate.py",
+      "role": "independent complete-population and byte-rebuild validator",
+      "sha256": "19d96fb262cf942a0cb232f7dc52598157fe34817472522e80de51f9ef1ff613"
+    }
+  ],
+  "question": "Can every fixed SH_BIO_BATHE action receive an explicit working object by preferring written carriers, complete-host blockers, nearer local handoffs, short bath-episode carry, and only then a neutral default while preserving the older GDT569 argument state as a separate trace?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "bath_object_completion",
+  "status": "PASS_254_BATH_ACTION_OBJECTS__149_OBJECTLESS_PLUS_5_FILL_ONLY_PATCHED__53_BODY__81_STATION__107_BATH_OBJECT__9_UNIT__4_PORTION__13_LOCAL_HANDOFFS__11_EPISODE_CARRIES__132_STATEMENTS__2_GDT569_DIVERGENCES_RETAINED",
+  "title": "Complete bath-object working edition with local handoffs",
+  "updated": "2026-08-28",
+  "validation": {
+    "artifact": "experiments/yolo/gdt592_bath_object_completion/artifacts/gdt592_validation.json",
+    "status": "PASS"
+  }
+}
