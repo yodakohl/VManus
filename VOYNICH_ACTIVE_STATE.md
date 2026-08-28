@@ -14245,39 +14245,53 @@ repeat GDT496/GDT567. The next informative step is transfer of the fixed model
 to further user-released pages;without that authorization open no page,root,
 parser or automatic contained-substring analysis.
 
-## GDT588 makes the carrier reader transferable and count-safe
+## GDT588–589 make the carrier intake transferable and expose every written repeat
 
-Every one of GDT587's1,243 carrier assignments now has an explicit off-page
-support route. The strict key(register,action rule,root,context family,lemma,
-packet rule,root-presence signature) recurs elsewhere for970 assignments;
-another146 retain the same lemma in the same action×root cell,121 fall to
-register×root support and only6 Source-AIN assignments lack even that. Thus
-1,116/1,243 occurrence choices retain their concrete action-cell noun across
-pages,while only103/268 strict signature types recur. Keeping running and local
-layers separate changes the profile to942/152/135/14. The136 cells divide into
-25 fully exact,48 partly exact,10 cross-page signature-only,51 single-page with
-register fallback and2 private Source-AIN cells.
+GDT588 gives all1,243 GDT587 carrier assignments an off-page support route:
+970 strict selections recur,146 retain the same action×root lemma,121 retain
+register×root support and6 Source-AIN slots stay private. Its38-card action
+gate has27 automatic context rules,9 explicit GDT584 manual refinements and2
+old source-ID rules. The automatic future matrix remains111 observed,53
+register-invariant and56 broad but nonempty cells. Names still route through
+GDT470/GDT586.
 
-The future intake is explicit rather than a free matrix lookup. Of38 action
-gate cards,27 fixed GDT583 rules run automatically from the complete host,2
-old source-ID rules fall through and9 carrier-active GDT584 refinements require
-a manual override. The27 automatic rules occupy55 register contexts;their220
-root cells divide into111 observed,53 register-invariant and56 broad but
-nonempty defaults. Names still route through GDT470/GDT586. Biological SH+Y
-must retain the complete blocker test:the clean host reads Körper,whereas
-relation,form or address keeps Stationsansatz.
+GDT589 reconstructs all953 carrier hosts from their complete GDT582 governor
+groups and runs the actual GDT588 full-host path over the whole population.
+All910 automatic hosts/1,186 slots reproduce action rule,slot order,root,
+context family,lemma,object/genitive forms and packet exactly. The41 manual
+hosts/53 slots remain on a visible old-rule path:39 change action wording under
+the parent,only2 hosts change a noun under the direct parent semantics,2 more
+change visibly only through a conservative broad runtime fallback,and4 other
+hosts change only packet. The explicit historical path reproduces all53. The2
+old SH bridge IDs are rejected as portable rules but fall through to
+SH_REST_HOLD with verb,all4 nouns,packet and order visibly unchanged. Broad
+defaults now expose their observed register×root alternatives.
 
-The8 special packet rules cover121 assignments at74 hosts. A matching packet
-rule×root multiset occurs off-page for55 hosts;19 remain local. Reconstruction
-from ordered assignment rows exposes13 repeated-root hosts that GDT587's
-presence-only signature could not count. Their exact ledger traces were always
-complete,but the fluent reader collapsed a repeat. GDT588 now writes explicit
-×2 in11/793 statements and2/744 local cards;all782 other statements and742
-other cards remain byte-exact. ×2 counts written carriers,not real objects.
-Validation passes79/79 with an exact rebuild.
+The complete reconstruction corrects GDT588's repeat scope. Thirteen was only
+the repeated-root count inside special packets. There are117 repeat hosts with
+295 carrier slots and132 extra written positions:13 special plus104 ordinary
+default compositions. They touch83 statements and7 local cards. Do not turn
+these mechanically into repeated real objects:forms such as Y–T–Y can mark
+framing or coreference. GDT589 therefore restores the fluent GDT587 relation
+channel and places beside it the complete ordinal trace and a multiset labelled
+as written positions. This also avoids the relation loss in9 of GDT588's13
+bracketed ×N rewrites. All117 traces are now visible without erasing order.
 
-Use GDT588 as the current thirty-page reader and as the fixed full-host intake
-contract when the user releases further pages. It is a portability/provenance
-layer,not independent semantic confirmation or plaintext. Do not auto-apply
-manual GDT584 overrides,discard carrier multiplicity,open an unreleased page,
-or create a contained-substring parser.
+Packet audit keeps three levels distinct:written slot nouns,compositional
+packet head and finished sentence. Two Source-Part hosts have slot Y=Arbeitsgut
+but packet material=Arbeitsmaterial;3 strain hosts introduce an un-written
+Auszug from the action;1 celestial short template omits a written Sektoranteil.
+The Biological-Y regression is exact at406 slots/361 hosts(338 Stationsansatz,
+61 Körper,7 Strom). Four blocker-free SH_BIO_BATHE Y+AIIN hosts nevertheless
+could never reach Körper under the old exact-{Y} condition although the packet
+card promised Stationsansatz/Körper. GDT589 keeps the historical station replay
+but promotes Körper-im-Bad as the first exploratory branch at G407-E2404,
+E2637,E2652 andE3182,with Stationsansatz retained visibly. Validation passes
+76/76 with a byte-identical rebuild.
+
+Use GDT589's three-level reader and gate as the current thirty-page basis. The
+next no-new-page route is a focused audit of only those4 bath forks against
+their already admitted visual and paragraph context,then either install the
+body-first branch or return it to an explicit alternative. Do not auto-apply a
+manual override,infer real-object counts from repeat roots,open an unreleased
+page or create a contained-substring parser.
