@@ -14244,3 +14244,40 @@ confirmed lexemes or plaintext. A generic OK/CH/K/R/P noun pass would largely
 repeat GDT496/GDT567. The next informative step is transfer of the fixed model
 to further user-released pages;without that authorization open no page,root,
 parser or automatic contained-substring analysis.
+
+## GDT588 makes the carrier reader transferable and count-safe
+
+Every one of GDT587's1,243 carrier assignments now has an explicit off-page
+support route. The strict key(register,action rule,root,context family,lemma,
+packet rule,root-presence signature) recurs elsewhere for970 assignments;
+another146 retain the same lemma in the same action×root cell,121 fall to
+register×root support and only6 Source-AIN assignments lack even that. Thus
+1,116/1,243 occurrence choices retain their concrete action-cell noun across
+pages,while only103/268 strict signature types recur. Keeping running and local
+layers separate changes the profile to942/152/135/14. The136 cells divide into
+25 fully exact,48 partly exact,10 cross-page signature-only,51 single-page with
+register fallback and2 private Source-AIN cells.
+
+The future intake is explicit rather than a free matrix lookup. Of38 action
+gate cards,27 fixed GDT583 rules run automatically from the complete host,2
+old source-ID rules fall through and9 carrier-active GDT584 refinements require
+a manual override. The27 automatic rules occupy55 register contexts;their220
+root cells divide into111 observed,53 register-invariant and56 broad but
+nonempty defaults. Names still route through GDT470/GDT586. Biological SH+Y
+must retain the complete blocker test:the clean host reads Körper,whereas
+relation,form or address keeps Stationsansatz.
+
+The8 special packet rules cover121 assignments at74 hosts. A matching packet
+rule×root multiset occurs off-page for55 hosts;19 remain local. Reconstruction
+from ordered assignment rows exposes13 repeated-root hosts that GDT587's
+presence-only signature could not count. Their exact ledger traces were always
+complete,but the fluent reader collapsed a repeat. GDT588 now writes explicit
+×2 in11/793 statements and2/744 local cards;all782 other statements and742
+other cards remain byte-exact. ×2 counts written carriers,not real objects.
+Validation passes79/79 with an exact rebuild.
+
+Use GDT588 as the current thirty-page reader and as the fixed full-host intake
+contract when the user releases further pages. It is a portability/provenance
+layer,not independent semantic confirmation or plaintext. Do not auto-apply
+manual GDT584 overrides,discard carrier multiplicity,open an unreleased page,
+or create a contained-substring parser.

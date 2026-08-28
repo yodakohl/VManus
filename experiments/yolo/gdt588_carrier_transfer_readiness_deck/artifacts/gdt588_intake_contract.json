@@ -1,0 +1,30 @@
+{
+  "commands": {
+    "complete_host": "python3 experiments/yolo/gdt588_carrier_transfer_readiness_deck/src/read_carrier_host.py --help",
+    "manual_fixed_rule": "python3 experiments/yolo/gdt588_carrier_transfer_readiness_deck/src/read_carrier.py --help"
+  },
+  "experiment_id": "GDT588",
+  "input_scope": "already segmented complete carrier host only",
+  "manual_override_policy": "nine GDT584 carrier-active overrides require an explicit manual flag",
+  "new_pages": "NONE",
+  "required_host_fields": [
+    "action_root",
+    "register",
+    "ordered carrier_roots",
+    "direct_tokens",
+    "host_tokens",
+    "previous_action",
+    "next_action"
+  ],
+  "routing_order": [
+    "route names and addresses to GDT470/GDT586",
+    "select one non-source-bound GDT583 rule from the complete host",
+    "apply one of eight known packet rules when its complete condition matches",
+    "use an observed action-root cell only for an observed lemma variant",
+    "otherwise use a register-invariant root noun",
+    "otherwise retain the broad register default",
+    "always retain every written carrier and print counts above one"
+  ],
+  "surface_parser": "NONE",
+  "unknown_policy": "unknown register or root returns portable POSTEN/WERT/ANTEIL/EINHEIT where available"
+}

@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **586**
-- Experiment-associated tracked files: **8,797** (964.1 MiB)
-- Structured GDT337+ experiments: **251**
+- Experiments indexed: **587**
+- Experiment-associated tracked files: **8,825** (969.6 MiB)
+- Structured GDT337+ experiments: **252**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT588 | GDT588_carrier_transfer_readiness_deck | `PASS_1243_SELECTION_MOBILITY__970_EXACT__146_SAME_CELL__121_REGISTER_ROOT__6_PAGE_PRIVATE__74_SPECIAL_PACKET_HOSTS__13_MULTIPLICITY_REPAIRS` | [report](../experiments/yolo/gdt588_carrier_transfer_readiness_deck/REPORT.md) | 28 | 5.5 MiB | 6 | STRUCTURED_YOLO |
 | GDT587 | GDT587_action_conditioned_carrier_nouns | `PASS_1243_ACTION_CONDITIONED_CARRIERS__953_EXACT_ACTION_HOSTS__136_OBSERVED_ACTION_ROOT_CELLS__793_STATEMENTS__744_LOCAL_CARDS__ZERO_GLOBAL_ROOT_CHANGE` | [report](../experiments/yolo/gdt587_action_conditioned_carrier_nouns/REPORT.md) | 21 | 8.7 MiB | 7 | STRUCTURED_YOLO |
 | GDT586 | GDT586_complete_name_layer_reader | `PASS_109_EXACT_NAME_OVERRIDES__793_RUNNING_STATEMENTS__744_LOCAL_CARDS__107_LOCAL_NAMES_PLUS_2_LOCAL_X__19_CONTEXT_REREADINGS__SOURCE_ORDER_AND_STAR_RIVAL_REPAIRS` | [report](../experiments/yolo/gdt586_complete_name_layer_reader/REPORT.md) | 16 | 2.8 MiB | 4 | STRUCTURED_YOLO |
 | GDT585 | GDT585_learned_name_compound_atlas | `PASS_80_CLASS_CORE_TYPES__109_OWNER_CONTENT_SLOTS__89_NAME_LABELS__18_CANONICAL_GROUPS_PLUS_1_VISUAL_CONTEXT_PAIR` | [report](../experiments/yolo/gdt585_learned_name_compound_atlas/REPORT.md) | 20 | 411.8 KiB | 8 | STRUCTURED_YOLO |
