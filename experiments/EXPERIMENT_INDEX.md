@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **580**
-- Experiment-associated tracked files: **8,673** (911.4 MiB)
-- Structured GDT337+ experiments: **245**
+- Experiments indexed: **581**
+- Experiment-associated tracked files: **8,699** (938.8 MiB)
+- Structured GDT337+ experiments: **246**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT582 | GDT582_concrete_stem_default_fill | `PASS_15889_COMPLETE_DEFAULTS__13593_PRODUCTIVE_FUNCTION_SLOTS__109_LEARNED_CONTENT_SLOTS__42_CORE_STEMS__181_REGISTER_CELLS__80_CLASS_NAME_TYPES__4026_ALIAS_DEFAULTS__5122_EVENTS__793_STATEMENTS__744_LOCAL_CARDS__25_EVENT_SENSE_CHECKS__20_COMPLETE_PASSAGE_CHECKS__ZERO_EMPTY_DEFAULTS` | [report](../experiments/yolo/gdt582_concrete_stem_default_fill/REPORT.md) | 26 | 27.4 MiB | 6 | STRUCTURED_YOLO |
 | GDT581 | GDT581_grammar_content_boundary_audit | `PASS_15889_COMPLETE_SLOTS__13702_CONTENT_CARRIERS__2187_CONTROL_SLOTS__4026_INHERITED_ALIASES__5672_FOCUS_HOSTS__8_FINAL_RECIPE_RECONCILIATIONS__269_FOCUS_VOICE_REPAIRS__232_EVENT_REPAIRS__2_SAFE_EXPLICIT_REMOTE_SLOTS__744_LOCAL_CARD_HOSTS__1973_LOCAL_COMPONENTS__107_NAME_SLOTS__ZERO_UNOWNED_SLOTS__5122_EXACT_ROUNDTRIPS` | [report](../experiments/yolo/gdt581_grammar_content_boundary_audit/REPORT.md) | 31 | 24.1 MiB | 15 | STRUCTURED_YOLO |
 | GDT580 | GDT580_adjacent_relation_resumption_voice | `PASS_3_RAW_ADJACENT_RELATION_PAIRS__1_MODIFIER_RESUMPTION_OPERATOR__3_EXPLICIT_FORMS__6_WRITTEN_SLOTS__3_EVENT_CARDS__5122_EXACT_ROUNDTRIPS` | [report](../experiments/yolo/gdt580_adjacent_relation_resumption_voice/REPORT.md) | 17 | 3.9 MiB | 5 | STRUCTURED_YOLO |
 | GDT579 | GDT579_mixed_outer_inner_scope_voice | `PASS_17_SCOPE_PAIRS__7_ADJACENT_FACTORIZED__10_INTERRUPTED_SLOT_EXPLICIT__34_SCOPE_SLOTS__15_INTERVENING_ATOMS__27_ORDERED_MODIFIER_FRAGMENTS__5122_EXACT_ROUNDTRIPS` | [report](../experiments/yolo/gdt579_mixed_outer_inner_scope_voice/REPORT.md) | 21 | 3.7 MiB | 8 | STRUCTURED_YOLO |

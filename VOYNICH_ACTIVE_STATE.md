@@ -14010,3 +14010,40 @@ defaults may be inserted only into the13,702 open carriers;start with
 high-frequency ACTION/OBJECT candidates and demand compositional reuse across
 their existing host frames before minting another stem. The German voice is
 still editorial structure,not a confirmed translation. Open no new page.
+
+## GDT582 fills every fixed slot with an exploratory concrete default
+
+The first complete content pass now covers all15,889 fixed GDT581 occurrences
+without changing a slot,host,event,statement,local card or page. Of13,702
+content carriers,13,593 reuse42 productive GDT581 `slot_value` analysis classes
+through181 actually occupied class×register cells;107 learned name spans and
+the two owner-bound running `LOCAL_X` slots remain learned. The2,187 controls
+receive structural defaults only,and all4,026 inherited values resolve to the
+same class×register card without becoming written slots. The42 entries include
+analytical normalizations such as D_ADDR,CARRIER_Q and LOCAL_CHAR_F and are not
+42 established manuscript words or linguistic stems.
+
+The selected house architecture is a register hybrid:one short invariant
+function,one register realization,and an owner/class name where an individual
+object is required. This prevents universal `AIIN=WATER`,`O=OIL`,`OR=VESSEL`,
+`T=HEAT`,`S=STRAIN` or `CHD=GRIND` from spilling into ring and station
+passages. The learned pharmaceutical palette now gives replaceable concrete
+defaults to water,wine,olive oil,salt,honey,vinegar and plant-part ingredients;
+all remain `DRUG_OR_INGREDIENT_OBJECT` class cards. Lowercase learned cores
+`dy/e/chd` stay distinct from productive DY/E/CHD. The two `LOCAL_X` cards are
+separately filled as illness/complaint and remedy/healing effect.
+
+The release contains complete15,889/content/control ledgers,5,122 event and793
+statement editions,744 local-card readings,25 complete event and20 complete
+statement inspection cards,and one full thirty-page book. Independent
+source-based validation passes32/32. A separate manual audit finds every slot
+exactly once,zero host drift and no substance-name spill;water/wine/oil/salt
+occur only in13 owner-bound Pharma name occurrences. The rival-pack scorecard
+is heuristic:only the hybrid is fully rendered. The exact physical refinements
+MILL/HEAT/COOL/DRY/SOAK/STRAIN remain unimplemented candidate subreadings of
+CHD/T/SH/S rather than new roots.
+
+Use GDT582 as the new exploratory default basis on the same thirty pages. Next
+improve the80 learned class×name types and then add only passage-coherent
+object×grade/owner subreadings for CHD,T,SH and S. There is no held-out
+new-surface parser or new-page transfer result;open no new page yet.
