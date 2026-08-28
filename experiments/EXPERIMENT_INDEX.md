@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **597**
-- Experiment-associated tracked files: **9,029** (1007.7 MiB)
-- Structured GDT337+ experiments: **262**
+- Experiments indexed: **598**
+- Experiment-associated tracked files: **9,061** (1010.7 MiB)
+- Structured GDT337+ experiments: **263**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT599 | GDT599_remaining_action_object_completion | `PASS_793_REMAINING_OBJECTS__1443_OF_1443_ACTIONS_COMPLETE__313_OF_313_STATEMENTS_COMPLETE__11_LOCAL_WORKSHOP_DECISIONS__46_AIIN_QUANTITY_BINDINGS__9_Q_CIRCULAR_TARGETS_BLOCKED__0_UNFILLED` | [report](../experiments/yolo/gdt599_remaining_action_object_completion/REPORT.md) | 32 | 3.0 MiB | 6 | STRUCTURED_YOLO |
 | GDT598 | GDT598_six_page_object_statement_integration | `PASS_313_STATEMENTS__2272_HOSTS__1443_ACTIONS__650_OBJECT_COMPLETE__793_GAPS__71_COMPLETE__229_MIXED__13_GAP_ONLY__298_PARTICIPANT_PACKET__46_AIIN_ONLY__449_CARRIERLESS__36_MULTI_EVENTS__10_STRING_HAZARDS__0_SLOT_COLLISIONS` | [report](../experiments/yolo/gdt598_six_page_object_statement_integration/REPORT.md) | 22 | 2.1 MiB | 5 | STRUCTURED_YOLO |
 | GDT597 | GDT597_nonsh_action_object_reference_phrasebook | `PASS_396_NONSH_ACTION_OBJECTS__219_WRITTEN__77_LEFT__4_RIGHT__96_DEFAULT__0_UNFILLED` | [report](../experiments/yolo/gdt597_nonsh_action_object_reference_phrasebook/REPORT.md) | 24 | 355.2 KiB | 7 | STRUCTURED_YOLO |
 | GDT596 | GDT596_bath_object_compound_scope_phrasebook | `PASS_254_EXACT_COMPOSITIONAL_REPLAYS__5_TYPING_CARDS__3_REFERENCE_SCOPE_CARDS__100_WRITTEN__25_BLOCKER__74_BOUND_REFERENCE__12_AIN_OR_TYPE__43_BODY_DEFAULT__70_LEFT_ANAPHORIC__9_RIGHT_OR_TIE_DEFINITE__175_LOCAL_OR_DEFAULT_DEFINITE__7_LEMMAS__11_OBJECT_FORMS__15_MODIFIER_FRAGMENTS__40_OBSERVED_SEQUENCES__184_DEFINITE__70_ANAPHORIC__247_SINGLE_7_MULTI_PARTICIPANT__0_EXCEPTIONS__23_WORKSHOP_REVIEWS__16_STYLE__6_OBJECT_RIVAL__1_BINDING_RIVAL__2_IMMEDIATE_OBJECT_FORKS` | [report](../experiments/yolo/gdt596_bath_object_compound_scope_phrasebook/REPORT.md) | 20 | 280.9 KiB | 7 | STRUCTURED_YOLO |
