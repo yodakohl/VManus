@@ -14566,3 +14566,42 @@ participant,nearest compatible left source after OT/DY,bounded right source,
 then Rootdefault. Keep participant and parameter histories separate. Treat
 CARRIER_Q as input-object→resulting-Station state. Open no new page,root,parser
 or substring,and keep all German nouns replaceable.
+
+## GDT599 completes every action object on the six-page working edition
+
+GDT599 closes the exact793-row GDT598 remainder without opening a page,
+transcription,root,parser or segment. All1,443 actions,2,272 hosts and313
+statements now have a complete German working reading. The new layer contains
+736 ordinary participant objects,46 AIIN measure arguments,10 condition
+parameters and one transient measured-quantity patient. Its object profile is
+573 Station,96 Portion,47 Measure,31 Body,22 Unit,13 Flow,10 Condition and one
+Body-Part.
+
+The source cascade is explicit:297 own written participants,46 AIIN-only
+parameters,2 exact CH→SH bridges,155 right same-event written participants,207
+nearest compatible left sources after OT/DY,21 bounded right sources,54
+replaceable Rootdefaults and11 local workshop decisions. Participant and
+parameter histories remain separate. All729 action pointers stay inside one
+statement and OT/DY cut;64 pseudo-sources have distance zero. Reference is210
+left-anaphoric versus583 definite. The source GDT598 clause column remains
+byte-identical under the unique global host ordinal.
+
+All24 action-Q clauses now read their input first and then commit a resulting
+Station;15 are new in GDT599. Nine circular right-Station candidates are
+blocked because they would be created by their own Q result. FRAME-Q changes
+no history. The46 AIIN-only packets are spoken as measured quantities or
+measure statements rather than as remote patients;38 use Station substrate,4
+Portion and4 R-measure readings. Eleven local decisions include7 path-flow
+readings,2 Q input corrections,one transient measure handoff andone
+Body-Part→Probe extraction. Three downstream clauses change accordingly. All
+103 validator checks pass.
+
+Use GDT599 as the live complete six-page object edition. The next no-new-page
+pass must preserve all object identities and state transitions while improving
+surface grammar:generalize the7 CH+CONTACT_OR_LINE cases to one FLOW rule;
+replace CONDITION source/target patches with two renderer rules;select CH/OK
+verbs by object class;order MODE/GRADE/WORKSITE/SOURCE/TARGET/PATH;distinguish
+`bei Grad` from true `auf Grad`;render Q results by input class;and mark first
+versus subsequent reference. Retain the125 review queue,especially the unique
+Probe reading,5 live-derived bounded-right sources and the broad Station
+class. Open no new page before this renderer pass.
