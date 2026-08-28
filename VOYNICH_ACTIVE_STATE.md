@@ -14539,3 +14539,30 @@ next no-new-page route is one combined six-page statement edition followed by
 an exact inventory of remaining CH/K/P/OK/R object gaps. Open no new page,root,
 parser or substring,and keep every German noun as a replaceable working
 meaning.
+
+## GDT598 joins both object phrasebooks into the complete six-page sentence stream
+
+GDT598 inserts GDT596's254 SH and GDT597's396 T/CHD/S clauses only through
+their exact Action-Slot IDs. The resulting six-page reader contains313
+statements,2,272 hosts and1,443 actions.650 actions are object-complete;71
+statements are complete,229 mix complete and open actions,and13 are gap-only.
+All829 structural hosts,all other clauses and every paragraph boundary remain
+unchanged.420 clauses in258 statements become visibly more concrete.
+
+The exact next population is793,not the broader GDT582 census:CH196,K159,
+OK285,P55,R52 and46 nonbath SH.298 carry a written Y/AIN/OR participant packet,
+46 are AIIN-only parameters and449 are carrierless. The first two groups have
+410 written slots. Forty local cards remain in a separate noninheriting
+appendix;the23+17 manual reviews receive namespaced IDs.
+
+Exact slot identity is necessary. The650 actions occupy only610 events;36
+events contain multiple complete actions and20 cross both phrasebooks. Ten of
+only154 old clause strings lead at240 slots to multiple final clauses. Event or
+string replacement would lose information;the exact join loses zero slots.
+
+Use GDT598 as the live six-page sentence basis. Next complete all793 actions in
+this order:own written packet,exact CH→SH bridge,right same-event written
+participant,nearest compatible left source after OT/DY,bounded right source,
+then Rootdefault. Keep participant and parameter histories separate. Treat
+CARRIER_Q as input-object→resulting-Station state. Open no new page,root,parser
+or substring,and keep all German nouns replaceable.
