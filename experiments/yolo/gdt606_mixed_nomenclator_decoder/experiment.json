@@ -1,0 +1,211 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "Complete 48-key mappings and six-start held decodes are retained to expose carrier switching and prevent cherry-picked plaintext fragments.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "May reject the tested historical-capacity mixed nomenclator as an exact Latin, Old Italian or Middle High German reading and identify a cross-model whole-word/formula-carrier category lead for o, y, ol, C and d. It may not assign any unit a word, sound, language or meaning.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt606_mixed_nomenclator_decoder/src/run.py",
+    "validate": "python3 experiments/yolo/gdt606_mixed_nomenclator_decoder/src/validate.py"
+  },
+  "created": "2026-08-28",
+  "dependencies": [
+    "GDT327",
+    "GDT604",
+    "GDT605"
+  ],
+  "experiment_id": "GDT606",
+  "inputs": [
+    {
+      "path": "gdt327_joint_tuple_interlinear.tsv",
+      "role": "f84-free 180-page and 91-folio allow-list source",
+      "sha256": "7eba46774be44992064cc114f67329723ac7bf589321b0d763fb7f7f748cc1e9"
+    },
+    {
+      "path": "transcription/voynich_zl3b_lines.tsv",
+      "role": "guarded EVA and IVTFF separator source; f84 and f84r forbidden",
+      "sha256": "7520dd4c11f4d23c8492e4b2a52cc0fcbda6d9fc88a96ead8f1c31081a4d7ed2"
+    },
+    {
+      "path": "experiments/yolo/gdt605_multisymbol_unit_alphabet/src/separator_crossing.py",
+      "role": "GDT605 composite collapse, separator parser and train-only BPE implementation",
+      "sha256": "921c6617615980ed41bf70c8cdf574aa2a15621832e7842dd9dd3621461bf8e8"
+    },
+    {
+      "path": "experiments/yolo/gdt605_multisymbol_unit_alphabet/artifacts/gdt605_bpe_merges.tsv",
+      "role": "published GDT605 64-merge binding",
+      "sha256": "4625c9389ead390907e4ac74e65bc158236f02b439c69cf3b09157f0cd6ca539"
+    },
+    {
+      "path": "experiments/yolo/gdt604_naibbe_frozen_target_attack/src/fetch_references.py",
+      "role": "hash-pinned public Latin, Old Italian and Middle High German reference fetcher",
+      "sha256": "ae1e84dd90db20c07987c06bff33c692637cf2eb1238fc5e7b1a03302bb44d26"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt606_mixed_nomenclator_decoder/README.md",
+      "role": "experiment entry point",
+      "sha256": "ee65259d8f55fd60dc5e269b4f7df6be234ce91a9d35b0d42835dc0f8e36b13f"
+    },
+    {
+      "path": "experiments/yolo/gdt606_mixed_nomenclator_decoder/METHOD.md",
+      "role": "mixed-codebook and carrier-audit method",
+      "sha256": "52d9d2acdd00a161c0bc03cd83b0a2db7a1905a7c586e13d5cdb5dbfdcc76c41"
+    },
+    {
+      "path": "experiments/yolo/gdt606_mixed_nomenclator_decoder/PREREGISTRATION.md",
+      "role": "exploratory full-run attack contract and determinism correction",
+      "sha256": "0de8a5f3a58c9886df8405ec13df0fbfcd7593a6dadf77eed8a2680b1845f0ab"
+    },
+    {
+      "path": "experiments/yolo/gdt606_mixed_nomenclator_decoder/REPORT.md",
+      "role": "primary report",
+      "sha256": "c0a5fbe49818c4dc6cdfa3fee4907a09ff7a3edf9ea5149b7e4143db80afa5e9"
+    },
+    {
+      "path": "experiments/yolo/gdt606_mixed_nomenclator_decoder/src/materialize.py",
+      "role": "guarded f84-free source materializer",
+      "sha256": "0492244e1367671cc0e93fd318e6999dab28fb719226edd0e7b6bc87183bfc6a"
+    },
+    {
+      "path": "experiments/yolo/gdt606_mixed_nomenclator_decoder/src/build_units.py",
+      "role": "boundary-aware unit sequence builder",
+      "sha256": "33317185ee45cf0b0bd6e334982410030fe191d9b975a408211c82e24aafb863"
+    },
+    {
+      "path": "experiments/yolo/gdt606_mixed_nomenclator_decoder/src/mixed_codebook_attack.py",
+      "role": "deterministic 48-key mixed-codebook solver",
+      "sha256": "bb49b82b5a69942b047a1cb887c53b457a1a1b2cd82d891fc26804aaa6edff03"
+    },
+    {
+      "path": "experiments/yolo/gdt606_mixed_nomenclator_decoder/src/carrier_stability_audit.py",
+      "role": "exact source-carrier word and fragment audit",
+      "sha256": "e79f09931e3fbf654a2cec897152d36e82ed6db30f115e4ef3d03c1c908a9118"
+    },
+    {
+      "path": "experiments/yolo/gdt606_mixed_nomenclator_decoder/src/run.py",
+      "role": "guarded end-to-end reproduction runner",
+      "sha256": "7e5927832022a74df9d848445ea0b1f99a717b8cb143078ca5993596444cb362"
+    },
+    {
+      "path": "experiments/yolo/gdt606_mixed_nomenclator_decoder/src/validate.py",
+      "role": "hash, capacity, carrier and category validator",
+      "sha256": "5ac2b38ac64c875eb9d8c6ff1aff067147a55767d368442e60e3faac00d6266c"
+    },
+    {
+      "path": "experiments/yolo/gdt606_mixed_nomenclator_decoder/artifacts/README.md",
+      "role": "artifact guide",
+      "sha256": "2935792ec3dddc9f2a1a6565dcec238624bd3cbbffa3cab98c77fb045898ad66"
+    },
+    {
+      "path": "experiments/yolo/gdt606_mixed_nomenclator_decoder/artifacts/binding_inventory.json",
+      "role": "source and artifact hash binding",
+      "sha256": "1362d75319fdb10324acccd66feaf096488602bf67ab78d09b9c7129ced3e811"
+    },
+    {
+      "path": "experiments/yolo/gdt606_mixed_nomenclator_decoder/artifacts/gdt606_validation.json",
+      "role": "247-check validation record",
+      "sha256": "94423cc52f7a2057cc654c51a99dd167cbd717dd8a02343e51990d8f9c791a83"
+    },
+    {
+      "path": "experiments/yolo/gdt606_mixed_nomenclator_decoder/artifacts/guarded_rows.tsv",
+      "role": "f84-free guarded 68/23 target rows",
+      "sha256": "d6674f3d54edc49590c884b5d703cb032b966c1abd4da6338093795ce1f31ef9"
+    },
+    {
+      "path": "experiments/yolo/gdt606_mixed_nomenclator_decoder/artifacts/unit_sequences.json",
+      "role": "complete train and held 98-unit chunk sequences",
+      "sha256": "3ee0841e211314b72719acbbf79ed3a6dc7bfc3c157734f54dbdac92ac458fdf"
+    },
+    {
+      "path": "experiments/yolo/gdt606_mixed_nomenclator_decoder/artifacts/mixed_attack_result.json",
+      "role": "complete solver metrics and decisions",
+      "sha256": "f93e47de35f483f3a42aecb7ede36668a5f15d8c545d97f8539976ef98b150d2"
+    },
+    {
+      "path": "experiments/yolo/gdt606_mixed_nomenclator_decoder/artifacts/carrier_stability_result.json",
+      "role": "carrier-aware stability decision",
+      "sha256": "4da4a6c9b713669704f6f9abac39907b014d566597acb89a612d5b2d826edfab"
+    },
+    {
+      "path": "experiments/yolo/gdt606_mixed_nomenclator_decoder/artifacts/complete_mappings.tsv",
+      "role": "all 4704 unit assignments",
+      "sha256": "005ddec8e5b67763c9ccfd1d3244e44c1e68d8c0c6c46a2c7d7edcc36fa4aabe"
+    },
+    {
+      "path": "experiments/yolo/gdt606_mixed_nomenclator_decoder/artifacts/primary_unit_stability.tsv",
+      "role": "primary restart category and exact-output stability",
+      "sha256": "f5d618e01efa2f327d199e5e67185a95295cfa237e8164e58fa7dffb39290818"
+    },
+    {
+      "path": "experiments/yolo/gdt606_mixed_nomenclator_decoder/artifacts/stable_held_words.tsv",
+      "role": "position-only apparent held words",
+      "sha256": "7b72a45b6be734fbe27dda56da44ab9ac223b2f7cc6df91c111908e0341603b5"
+    },
+    {
+      "path": "experiments/yolo/gdt606_mixed_nomenclator_decoder/artifacts/stable_held_fragments.tsv",
+      "role": "position-only held fragment candidates",
+      "sha256": "4f232d82dba06e63ac1f09c19f104f0c6175536b1d0df602aca4757f485a0436"
+    },
+    {
+      "path": "experiments/yolo/gdt606_mixed_nomenclator_decoder/artifacts/positional_word_carrier_audit.tsv",
+      "role": "all 90 apparent words with exact carrier counts",
+      "sha256": "d978b67f06f29e01c9b648c0a1723ecc225c5adede638a83396bb989093032c3"
+    },
+    {
+      "path": "experiments/yolo/gdt606_mixed_nomenclator_decoder/artifacts/carrier_stable_words.tsv",
+      "role": "exact carrier-stable words; header only",
+      "sha256": "a3d82f599e474c7e5a243b01f675b1c2b768abc85ab801e7a9322b1834364270"
+    },
+    {
+      "path": "experiments/yolo/gdt606_mixed_nomenclator_decoder/artifacts/carrier_stable_fragments.tsv",
+      "role": "597 MHG gesch-prefix diagnostics carried by o",
+      "sha256": "a510cf6196cfe969cfd030fbef29f258cb1a971ba870c456c0ea2e9654c7440e"
+    },
+    {
+      "path": "experiments/yolo/gdt606_mixed_nomenclator_decoder/artifacts/held_decodes_latin.tsv",
+      "role": "complete six-start Latin held decodes",
+      "sha256": "9f7dc9192b9c5c0c41244a4a4d635d77425b6c654740baee91a2013f18b05176"
+    },
+    {
+      "path": "experiments/yolo/gdt606_mixed_nomenclator_decoder/artifacts/held_decodes_old_italian.tsv",
+      "role": "complete six-start Old Italian held decodes",
+      "sha256": "dcc081aa3c1413cf1adaf0603280754ccf353723a98076c34e56fa1b4cb54207"
+    },
+    {
+      "path": "experiments/yolo/gdt606_mixed_nomenclator_decoder/artifacts/held_decodes_middle_high_german.tsv",
+      "role": "complete six-start Middle High German held decodes",
+      "sha256": "de74cfebe5f05d7388f5833f7cadf4a4d3a6b8d0f8b60b8c2a0bed5fb7ca3866"
+    },
+    {
+      "path": "experiments/yolo/gdt606_mixed_nomenclator_decoder/artifacts/category_stability_all_configs_latin.tsv",
+      "role": "all-grid Latin category audit",
+      "sha256": "2a43d309b78392781ab9111c00dcead82424d648ad820fd02f1479dbb33e7997"
+    },
+    {
+      "path": "experiments/yolo/gdt606_mixed_nomenclator_decoder/artifacts/category_stability_all_configs_old_italian.tsv",
+      "role": "all-grid Old Italian category audit",
+      "sha256": "069023255a729b0918f7298ca5482f9bfa6fa1815541098f801db7ddc4704169"
+    },
+    {
+      "path": "experiments/yolo/gdt606_mixed_nomenclator_decoder/artifacts/category_stability_all_configs_middle_high_german.tsv",
+      "role": "all-grid Middle High German category audit",
+      "sha256": "998a6f093584f26321bc4e4ef2f88171ff245383eecb786adde7fe98733e81b5"
+    }
+  ],
+  "question": "Can the stable GDT605 98-unit stream support one carrier-stable historical mixed nomenclator reading in Latin, Old Italian or Middle High German?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "mixed_nomenclator_decoder",
+  "status": "MIXED_CODEBOOK_UNSTABLE_PSEUDOTEXT__STRUCTURAL_WHOLE_WORD_CATEGORY_LEAD",
+  "title": "Historical-capacity mixed nomenclator decoder",
+  "updated": "2026-08-28",
+  "validation": {
+    "artifact": "experiments/yolo/gdt606_mixed_nomenclator_decoder/artifacts/gdt606_validation.json",
+    "status": "PASS"
+  }
+}

@@ -1,0 +1,1382 @@
+{
+  "artifacts": {
+    "complete_mappings.tsv": "005ddec8e5b67763c9ccfd1d3244e44c1e68d8c0c6c46a2c7d7edcc36fa4aabe",
+    "held_decodes_latin.tsv": "9f7dc9192b9c5c0c41244a4a4d635d77425b6c654740baee91a2013f18b05176",
+    "held_decodes_middle_high_german.tsv": "de74cfebe5f05d7388f5833f7cadf4a4d3a6b8d0f8b60b8c2a0bed5fb7ca3866",
+    "held_decodes_old_italian.tsv": "dcc081aa3c1413cf1adaf0603280754ccf353723a98076c34e56fa1b4cb54207",
+    "primary_unit_stability.tsv": "f5d618e01efa2f327d199e5e67185a95295cfa237e8164e58fa7dffb39290818",
+    "stable_held_fragments.tsv": "4f232d82dba06e63ac1f09c19f104f0c6175536b1d0df602aca4757f485a0436",
+    "stable_held_words.tsv": "7b72a45b6be734fbe27dda56da44ab9ac223b2f7cc6df91c111908e0341603b5"
+  },
+  "claim_ceiling": "Exploratory mixed nomenclator attack only. Stable strings are candidates, not translations, unless every frozen held and key-stability gate passes.",
+  "configuration_grid": {
+    "primary_42L_4D_34S_7N_11W": {
+      "D": 4,
+      "L": 42,
+      "N": 7,
+      "S": 34,
+      "W": 11
+    },
+    "sensitivity_36L_4D_40S_7N_11W": {
+      "D": 4,
+      "L": 36,
+      "N": 7,
+      "S": 40,
+      "W": 11
+    },
+    "sensitivity_46L_4D_30S_7N_11W": {
+      "D": 4,
+      "L": 46,
+      "N": 7,
+      "S": 30,
+      "W": 11
+    }
+  },
+  "decision": "MIXED_CODEBOOK_UNSTABLE_PSEUDOTEXT",
+  "decisions": {
+    "latin": {
+      "all_gates_pass": false,
+      "gates": {
+        "all_real_held_lr_ge_0_10": true,
+        "min_category_weighted_agreement_ge_0_70": false,
+        "min_exact_weighted_agreement_ge_0_50": false,
+        "real_median_lr_exceeds_null_by_0_10": true,
+        "stable_words_on_three_held_folios": false
+      }
+    },
+    "middle_high_german": {
+      "all_gates_pass": false,
+      "gates": {
+        "all_real_held_lr_ge_0_10": true,
+        "min_category_weighted_agreement_ge_0_70": false,
+        "min_exact_weighted_agreement_ge_0_50": false,
+        "real_median_lr_exceeds_null_by_0_10": true,
+        "stable_words_on_three_held_folios": true
+      }
+    },
+    "old_italian": {
+      "all_gates_pass": false,
+      "gates": {
+        "all_real_held_lr_ge_0_10": true,
+        "min_category_weighted_agreement_ge_0_70": false,
+        "min_exact_weighted_agreement_ge_0_50": false,
+        "real_median_lr_exceeds_null_by_0_10": true,
+        "stable_words_on_three_held_folios": true
+      }
+    }
+  },
+  "objective": "sqrt-type-weighted train chunk char-4 bits/decoded-char plus 0.35 known-reference-character fraction and fixed structural/MDL priors",
+  "passing_languages": [],
+  "primary_config": "primary_42L_4D_34S_7N_11W",
+  "reference_meta": {
+    "latin": {
+      "destroyed_text_sha256": "942cb2624847e3aadeab9abe867f2a4a32732a5586cafdd55a42b40656eb70ec",
+      "real_syllable_candidates": 256,
+      "real_text_sha256": "112768b942e500c96511164798f59d7c321a2d5d801a9f5470c49f60f74e1f3e",
+      "real_word_candidates": 256,
+      "train_chars": 123245,
+      "train_words": 20522
+    },
+    "middle_high_german": {
+      "destroyed_text_sha256": "ae04443ba6a8c2e52fae390e716ff21f83ab6d2757c27ccdbc136381732d1111",
+      "real_syllable_candidates": 256,
+      "real_text_sha256": "ccf41b30fd7bd1706c57fcc64bf08427eef7942ddd2b099f8c00a5ed4154fbaa",
+      "real_word_candidates": 256,
+      "train_chars": 194549,
+      "train_words": 45452
+    },
+    "old_italian": {
+      "destroyed_text_sha256": "65df0257b1c7c0191cc08c3640f95798a3cc0cf2fb6df360bfc303aa22c8f231",
+      "real_syllable_candidates": 256,
+      "real_text_sha256": "8489eb0fe0e4f7e5e68ae4f4d403f429f526a51f8090c8dad6995d840af79d4e",
+      "real_word_candidates": 256,
+      "train_chars": 191321,
+      "train_words": 48683
+    }
+  },
+  "reference_sources": {
+    "caesar_la.txt": "84ac8411841a4d8f5f4a49b6a2cd1f466917c6a5af72916d5e0b2b1ecb2f659c",
+    "divina_commedia.txt": "aafa15bbc0644dac7680ce3d0e4494b99775fbc83394cb7ad88145a0f8d6b31e",
+    "mhg/Erec-conll.txt": "367cc2e9d0b60aadee501c187864dea97c77af41303f216986cfa35575f43675",
+    "mhg/Iwein-conll.txt": "5b43f962da24d5b438ff93f64f30036087fe37d1cd5863c0bd29e764957b6a6f",
+    "mhg/Parzival-conll.txt": "9d7ef5fd1842f6197121b654eb3c57a307ff01a9698768e27be069732afdf5cf",
+    "mhg/Rolandslied-conll.txt": "46b078128c6932759d56a6a4bf13f9c3bf84d88f7a8d0e35fca31670cc0191fa",
+    "mhg/Willehalm-conll.txt": "abee7d5d1aee54fa944e0d311d4645455503d4fc0bbd9ef919c46a9cfd10e7fe"
+  },
+  "schema": "gdt606-historical-mixed-codebook-attack-v1",
+  "summaries": {
+    "latin": {
+      "primary_destroyed_runs": [
+        {
+          "accepted_moves": 791,
+          "config": "primary_42L_4D_34S_7N_11W",
+          "held_metrics": {
+            "decoded_characters": 53923,
+            "decoded_words": 15308,
+            "destroyed_bits_per_character": -3.6510211593816195,
+            "empty_chunks": 8,
+            "real_bits_per_character": -7.865447210296432,
+            "real_lexicon_character_fraction": 0.11303154498080596,
+            "real_minus_destroyed_bits_per_character": -4.214426050914813
+          },
+          "iterations": 8000,
+          "language": "latin",
+          "model_kind": "destroyed",
+          "seed": 211,
+          "train_objective": -3.566588486383323
+        },
+        {
+          "accepted_moves": 813,
+          "config": "primary_42L_4D_34S_7N_11W",
+          "held_metrics": {
+            "decoded_characters": 54757,
+            "decoded_words": 14136,
+            "destroyed_bits_per_character": -3.5671704222677594,
+            "empty_chunks": 7,
+            "real_bits_per_character": -6.7804056457948825,
+            "real_lexicon_character_fraction": 0.18530964077652173,
+            "real_minus_destroyed_bits_per_character": -3.213235223527123
+          },
+          "iterations": 8000,
+          "language": "latin",
+          "model_kind": "destroyed",
+          "seed": 229,
+          "train_objective": -3.5260702839778384
+        },
+        {
+          "accepted_moves": 755,
+          "config": "primary_42L_4D_34S_7N_11W",
+          "held_metrics": {
+            "decoded_characters": 53851,
+            "decoded_words": 14834,
+            "destroyed_bits_per_character": -3.6610043187877563,
+            "empty_chunks": 1,
+            "real_bits_per_character": -7.312817241354742,
+            "real_lexicon_character_fraction": 0.18079515700729792,
+            "real_minus_destroyed_bits_per_character": -3.651812922566986
+          },
+          "iterations": 8000,
+          "language": "latin",
+          "model_kind": "destroyed",
+          "seed": 247,
+          "train_objective": -3.591845089082641
+        },
+        {
+          "accepted_moves": 790,
+          "config": "primary_42L_4D_34S_7N_11W",
+          "held_metrics": {
+            "decoded_characters": 53566,
+            "decoded_words": 14457,
+            "destroyed_bits_per_character": -3.570500685929095,
+            "empty_chunks": 1,
+            "real_bits_per_character": -6.762806404403139,
+            "real_lexicon_character_fraction": 0.1870216181906433,
+            "real_minus_destroyed_bits_per_character": -3.192305718474044
+          },
+          "iterations": 8000,
+          "language": "latin",
+          "model_kind": "destroyed",
+          "seed": 271,
+          "train_objective": -3.5292600354241346
+        }
+      ],
+      "primary_pair_agreement": [
+        {
+          "category_held_weighted_agreement": 0.8278057105955072,
+          "category_type_agreement": 0.7653061224489796,
+          "exact_output_held_weighted_agreement": 0.1305410766179252,
+          "exact_output_type_agreement": 0.12244897959183673,
+          "left_seed": 11,
+          "right_seed": 29
+        },
+        {
+          "category_held_weighted_agreement": 0.650076110521703,
+          "category_type_agreement": 0.6530612244897959,
+          "exact_output_held_weighted_agreement": 0.07057521103371926,
+          "exact_output_type_agreement": 0.10204081632653061,
+          "left_seed": 11,
+          "right_seed": 47
+        },
+        {
+          "category_held_weighted_agreement": 0.7763734489598229,
+          "category_type_agreement": 0.7142857142857143,
+          "exact_output_held_weighted_agreement": 0.13146362839614373,
+          "exact_output_type_agreement": 0.17346938775510204,
+          "left_seed": 11,
+          "right_seed": 71
+        },
+        {
+          "category_held_weighted_agreement": 0.7809400802620047,
+          "category_type_agreement": 0.7244897959183674,
+          "exact_output_held_weighted_agreement": 0.1270815074496056,
+          "exact_output_type_agreement": 0.17346938775510204,
+          "left_seed": 11,
+          "right_seed": 89
+        },
+        {
+          "category_held_weighted_agreement": 0.8149361132893583,
+          "category_type_agreement": 0.7755102040816326,
+          "exact_output_held_weighted_agreement": 0.0948383228008672,
+          "exact_output_type_agreement": 0.11224489795918367,
+          "left_seed": 11,
+          "right_seed": 107
+        },
+        {
+          "category_held_weighted_agreement": 0.6625305595276535,
+          "category_type_agreement": 0.7040816326530612,
+          "exact_output_held_weighted_agreement": 0.11416578255454587,
+          "exact_output_type_agreement": 0.10204081632653061,
+          "left_seed": 29,
+          "right_seed": 47
+        },
+        {
+          "category_held_weighted_agreement": 0.8251764380275843,
+          "category_type_agreement": 0.8163265306122449,
+          "exact_output_held_weighted_agreement": 0.13077171456247982,
+          "exact_output_type_agreement": 0.14285714285714285,
+          "left_seed": 29,
+          "right_seed": 71
+        },
+        {
+          "category_held_weighted_agreement": 0.7938558051570644,
+          "category_type_agreement": 0.8061224489795918,
+          "exact_output_held_weighted_agreement": 0.1460860740809078,
+          "exact_output_type_agreement": 0.17346938775510204,
+          "left_seed": 29,
+          "right_seed": 89
+        },
+        {
+          "category_held_weighted_agreement": 0.8070482955855898,
+          "category_type_agreement": 0.826530612244898,
+          "exact_output_held_weighted_agreement": 0.18326491074311546,
+          "exact_output_type_agreement": 0.21428571428571427,
+          "left_seed": 29,
+          "right_seed": 107
+        },
+        {
+          "category_held_weighted_agreement": 0.6728170118547904,
+          "category_type_agreement": 0.673469387755102,
+          "exact_output_held_weighted_agreement": 0.1198856035795009,
+          "exact_output_type_agreement": 0.12244897959183673,
+          "left_seed": 47,
+          "right_seed": 71
+        },
+        {
+          "category_held_weighted_agreement": 0.664744683795378,
+          "category_type_agreement": 0.673469387755102,
+          "exact_output_held_weighted_agreement": 0.07011393514460999,
+          "exact_output_type_agreement": 0.061224489795918366,
+          "left_seed": 47,
+          "right_seed": 89
+        },
+        {
+          "category_held_weighted_agreement": 0.7103187416393745,
+          "category_type_agreement": 0.7142857142857143,
+          "exact_output_held_weighted_agreement": 0.06674662115411227,
+          "exact_output_type_agreement": 0.09183673469387756,
+          "left_seed": 47,
+          "right_seed": 107
+        },
+        {
+          "category_held_weighted_agreement": 0.8000369020711288,
+          "category_type_agreement": 0.7959183673469388,
+          "exact_output_held_weighted_agreement": 0.2070206190322432,
+          "exact_output_type_agreement": 0.25510204081632654,
+          "left_seed": 71,
+          "right_seed": 89
+        },
+        {
+          "category_held_weighted_agreement": 0.7695926933899165,
+          "category_type_agreement": 0.7244897959183674,
+          "exact_output_held_weighted_agreement": 0.1267124867383182,
+          "exact_output_type_agreement": 0.14285714285714285,
+          "left_seed": 71,
+          "right_seed": 107
+        },
+        {
+          "category_held_weighted_agreement": 0.7757737903039809,
+          "category_type_agreement": 0.7346938775510204,
+          "exact_output_held_weighted_agreement": 0.12717376262742747,
+          "exact_output_type_agreement": 0.1326530612244898,
+          "left_seed": 89,
+          "right_seed": 107
+        }
+      ],
+      "primary_real_runs": [
+        {
+          "accepted_moves": 706,
+          "config": "primary_42L_4D_34S_7N_11W",
+          "held_metrics": {
+            "decoded_characters": 78517,
+            "decoded_words": 15759,
+            "destroyed_bits_per_character": -4.768737868040356,
+            "empty_chunks": 26,
+            "real_bits_per_character": -2.560550556648571,
+            "real_lexicon_character_fraction": 0.7083306799801317,
+            "real_minus_destroyed_bits_per_character": 2.208187311391785
+          },
+          "iterations": 8000,
+          "language": "latin",
+          "model_kind": "real",
+          "seed": 11,
+          "train_objective": -2.7435396511517895
+        },
+        {
+          "accepted_moves": 703,
+          "config": "primary_42L_4D_34S_7N_11W",
+          "held_metrics": {
+            "decoded_characters": 78000,
+            "decoded_words": 15365,
+            "destroyed_bits_per_character": -4.619534614331751,
+            "empty_chunks": 30,
+            "real_bits_per_character": -2.5658872149480882,
+            "real_lexicon_character_fraction": 0.7386025641025641,
+            "real_minus_destroyed_bits_per_character": 2.053647399383663
+          },
+          "iterations": 8000,
+          "language": "latin",
+          "model_kind": "real",
+          "seed": 29,
+          "train_objective": -2.71766016244377
+        },
+        {
+          "accepted_moves": 629,
+          "config": "primary_42L_4D_34S_7N_11W",
+          "held_metrics": {
+            "decoded_characters": 79151,
+            "decoded_words": 15894,
+            "destroyed_bits_per_character": -4.469309642803818,
+            "empty_chunks": 8,
+            "real_bits_per_character": -2.5178655209814433,
+            "real_lexicon_character_fraction": 0.7494030397594471,
+            "real_minus_destroyed_bits_per_character": 1.9514441218223753
+          },
+          "iterations": 8000,
+          "language": "latin",
+          "model_kind": "real",
+          "seed": 47,
+          "train_objective": -2.7421771242952384
+        },
+        {
+          "accepted_moves": 703,
+          "config": "primary_42L_4D_34S_7N_11W",
+          "held_metrics": {
+            "decoded_characters": 78052,
+            "decoded_words": 15599,
+            "destroyed_bits_per_character": -4.464867689459405,
+            "empty_chunks": 5,
+            "real_bits_per_character": -2.562853458419405,
+            "real_lexicon_character_fraction": 0.710910674934659,
+            "real_minus_destroyed_bits_per_character": 1.90201423104
+          },
+          "iterations": 8000,
+          "language": "latin",
+          "model_kind": "real",
+          "seed": 71,
+          "train_objective": -2.7659134107044383
+        },
+        {
+          "accepted_moves": 680,
+          "config": "primary_42L_4D_34S_7N_11W",
+          "held_metrics": {
+            "decoded_characters": 77962,
+            "decoded_words": 15587,
+            "destroyed_bits_per_character": -4.4512014106021836,
+            "empty_chunks": 11,
+            "real_bits_per_character": -2.456830055470434,
+            "real_lexicon_character_fraction": 0.7415279238603422,
+            "real_minus_destroyed_bits_per_character": 1.9943713551317501
+          },
+          "iterations": 8000,
+          "language": "latin",
+          "model_kind": "real",
+          "seed": 89,
+          "train_objective": -2.687589185196656
+        },
+        {
+          "accepted_moves": 651,
+          "config": "primary_42L_4D_34S_7N_11W",
+          "held_metrics": {
+            "decoded_characters": 81294,
+            "decoded_words": 15741,
+            "destroyed_bits_per_character": -4.587460468605978,
+            "empty_chunks": 6,
+            "real_bits_per_character": -2.4870120626348142,
+            "real_lexicon_character_fraction": 0.7442615691194923,
+            "real_minus_destroyed_bits_per_character": 2.100448405971164
+          },
+          "iterations": 8000,
+          "language": "latin",
+          "model_kind": "real",
+          "seed": 107,
+          "train_objective": -2.6855290149782767
+        }
+      ],
+      "sensitivity_runs": [
+        {
+          "accepted_moves": 497,
+          "config": "sensitivity_36L_4D_40S_7N_11W",
+          "held_metrics": {
+            "decoded_characters": 77050,
+            "decoded_words": 15183,
+            "destroyed_bits_per_character": -4.434246620008821,
+            "empty_chunks": 11,
+            "real_bits_per_character": -2.5637896802184916,
+            "real_lexicon_character_fraction": 0.7122128487994809,
+            "real_minus_destroyed_bits_per_character": 1.870456939790329
+          },
+          "iterations": 4000,
+          "language": "latin",
+          "model_kind": "real",
+          "seed": 311,
+          "train_objective": -2.7901017887352624
+        },
+        {
+          "accepted_moves": 512,
+          "config": "sensitivity_36L_4D_40S_7N_11W",
+          "held_metrics": {
+            "decoded_characters": 78677,
+            "decoded_words": 15750,
+            "destroyed_bits_per_character": -4.641529971745539,
+            "empty_chunks": 4,
+            "real_bits_per_character": -2.6501764161251504,
+            "real_lexicon_character_fraction": 0.6766018023056294,
+            "real_minus_destroyed_bits_per_character": 1.991353555620389
+          },
+          "iterations": 4000,
+          "language": "latin",
+          "model_kind": "real",
+          "seed": 329,
+          "train_objective": -2.819824309535998
+        },
+        {
+          "accepted_moves": 468,
+          "config": "sensitivity_36L_4D_40S_7N_11W",
+          "held_metrics": {
+            "decoded_characters": 80654,
+            "decoded_words": 15845,
+            "destroyed_bits_per_character": -4.4889970454464505,
+            "empty_chunks": 8,
+            "real_bits_per_character": -2.631579722272108,
+            "real_lexicon_character_fraction": 0.7155751729610434,
+            "real_minus_destroyed_bits_per_character": 1.857417323174343
+          },
+          "iterations": 4000,
+          "language": "latin",
+          "model_kind": "real",
+          "seed": 347,
+          "train_objective": -2.882946260342931
+        },
+        {
+          "accepted_moves": 546,
+          "config": "sensitivity_46L_4D_30S_7N_11W",
+          "held_metrics": {
+            "decoded_characters": 72416,
+            "decoded_words": 15559,
+            "destroyed_bits_per_character": -4.554808551242227,
+            "empty_chunks": 28,
+            "real_bits_per_character": -2.7418499472805795,
+            "real_lexicon_character_fraction": 0.7154910517012815,
+            "real_minus_destroyed_bits_per_character": 1.8129586039616483
+          },
+          "iterations": 4000,
+          "language": "latin",
+          "model_kind": "real",
+          "seed": 311,
+          "train_objective": -3.0250055110999323
+        },
+        {
+          "accepted_moves": 501,
+          "config": "sensitivity_46L_4D_30S_7N_11W",
+          "held_metrics": {
+            "decoded_characters": 74380,
+            "decoded_words": 15656,
+            "destroyed_bits_per_character": -4.3938626839794175,
+            "empty_chunks": 6,
+            "real_bits_per_character": -2.705261469802013,
+            "real_lexicon_character_fraction": 0.7288652863673031,
+            "real_minus_destroyed_bits_per_character": 1.6886012141774047
+          },
+          "iterations": 4000,
+          "language": "latin",
+          "model_kind": "real",
+          "seed": 329,
+          "train_objective": -2.9977814948495656
+        },
+        {
+          "accepted_moves": 464,
+          "config": "sensitivity_46L_4D_30S_7N_11W",
+          "held_metrics": {
+            "decoded_characters": 78272,
+            "decoded_words": 15751,
+            "destroyed_bits_per_character": -4.5910787977876115,
+            "empty_chunks": 9,
+            "real_bits_per_character": -2.7156574249690917,
+            "real_lexicon_character_fraction": 0.7276165167620605,
+            "real_minus_destroyed_bits_per_character": 1.8754213728185196
+          },
+          "iterations": 4000,
+          "language": "latin",
+          "model_kind": "real",
+          "seed": 347,
+          "train_objective": -3.0530279318342273
+        }
+      ],
+      "stable_category_units_all_starts": 43,
+      "stable_exact_mapping_units_all_starts": 1,
+      "stable_held_fragment_folios": 6,
+      "stable_held_fragments_at_75pct": 7,
+      "stable_held_reference_word_folios": 0,
+      "stable_held_reference_words_at_75pct": 0
+    },
+    "middle_high_german": {
+      "primary_destroyed_runs": [
+        {
+          "accepted_moves": 781,
+          "config": "primary_42L_4D_34S_7N_11W",
+          "held_metrics": {
+            "decoded_characters": 54380,
+            "decoded_words": 14915,
+            "destroyed_bits_per_character": -3.4883312360520393,
+            "empty_chunks": 8,
+            "real_bits_per_character": -8.669358998707526,
+            "real_lexicon_character_fraction": 0.11851783744023538,
+            "real_minus_destroyed_bits_per_character": -5.181027762655488
+          },
+          "iterations": 8000,
+          "language": "middle_high_german",
+          "model_kind": "destroyed",
+          "seed": 211,
+          "train_objective": -3.493360862550271
+        },
+        {
+          "accepted_moves": 751,
+          "config": "primary_42L_4D_34S_7N_11W",
+          "held_metrics": {
+            "decoded_characters": 49439,
+            "decoded_words": 14125,
+            "destroyed_bits_per_character": -3.4735085511692922,
+            "empty_chunks": 17,
+            "real_bits_per_character": -8.689822046136284,
+            "real_lexicon_character_fraction": 0.12838042840672342,
+            "real_minus_destroyed_bits_per_character": -5.216313494966992
+          },
+          "iterations": 8000,
+          "language": "middle_high_german",
+          "model_kind": "destroyed",
+          "seed": 229,
+          "train_objective": -3.4641193861584
+        },
+        {
+          "accepted_moves": 795,
+          "config": "primary_42L_4D_34S_7N_11W",
+          "held_metrics": {
+            "decoded_characters": 50783,
+            "decoded_words": 14859,
+            "destroyed_bits_per_character": -3.47073970971859,
+            "empty_chunks": 4,
+            "real_bits_per_character": -7.926701754195706,
+            "real_lexicon_character_fraction": 0.13713250497213633,
+            "real_minus_destroyed_bits_per_character": -4.455962044477117
+          },
+          "iterations": 8000,
+          "language": "middle_high_german",
+          "model_kind": "destroyed",
+          "seed": 247,
+          "train_objective": -3.431482884377369
+        },
+        {
+          "accepted_moves": 823,
+          "config": "primary_42L_4D_34S_7N_11W",
+          "held_metrics": {
+            "decoded_characters": 49842,
+            "decoded_words": 14787,
+            "destroyed_bits_per_character": -3.453369047664179,
+            "empty_chunks": 7,
+            "real_bits_per_character": -8.842790860196796,
+            "real_lexicon_character_fraction": 0.05409092733036395,
+            "real_minus_destroyed_bits_per_character": -5.389421812532616
+          },
+          "iterations": 8000,
+          "language": "middle_high_german",
+          "model_kind": "destroyed",
+          "seed": 271,
+          "train_objective": -3.4134025326183792
+        }
+      ],
+      "primary_pair_agreement": [
+        {
+          "category_held_weighted_agreement": 0.6675123391300337,
+          "category_type_agreement": 0.7142857142857143,
+          "exact_output_held_weighted_agreement": 0.0959915125236404,
+          "exact_output_type_agreement": 0.14285714285714285,
+          "left_seed": 11,
+          "right_seed": 29
+        },
+        {
+          "category_held_weighted_agreement": 0.5701831265279764,
+          "category_type_agreement": 0.6530612244897959,
+          "exact_output_held_weighted_agreement": 0.10696987868444116,
+          "exact_output_type_agreement": 0.10204081632653061,
+          "left_seed": 11,
+          "right_seed": 47
+        },
+        {
+          "category_held_weighted_agreement": 0.7047834309700632,
+          "category_type_agreement": 0.7040816326530612,
+          "exact_output_held_weighted_agreement": 0.0500945615572674,
+          "exact_output_type_agreement": 0.10204081632653061,
+          "left_seed": 11,
+          "right_seed": 71
+        },
+        {
+          "category_held_weighted_agreement": 0.7308455187047374,
+          "category_type_agreement": 0.7244897959183674,
+          "exact_output_held_weighted_agreement": 0.1001891231145348,
+          "exact_output_type_agreement": 0.1326530612244898,
+          "left_seed": 11,
+          "right_seed": 89
+        },
+        {
+          "category_held_weighted_agreement": 0.6010886110982979,
+          "category_type_agreement": 0.673469387755102,
+          "exact_output_held_weighted_agreement": 0.0736196319018405,
+          "exact_output_type_agreement": 0.04081632653061224,
+          "left_seed": 11,
+          "right_seed": 107
+        },
+        {
+          "category_held_weighted_agreement": 0.7276627150698833,
+          "category_type_agreement": 0.7857142857142857,
+          "exact_output_held_weighted_agreement": 0.16061626458785,
+          "exact_output_type_agreement": 0.17346938775510204,
+          "left_seed": 29,
+          "right_seed": 47
+        },
+        {
+          "category_held_weighted_agreement": 0.7097652105724434,
+          "category_type_agreement": 0.7244897959183674,
+          "exact_output_held_weighted_agreement": 0.1360763872872365,
+          "exact_output_type_agreement": 0.12244897959183673,
+          "left_seed": 29,
+          "right_seed": 71
+        },
+        {
+          "category_held_weighted_agreement": 0.6870243092393561,
+          "category_type_agreement": 0.6428571428571429,
+          "exact_output_held_weighted_agreement": 0.047695926933899166,
+          "exact_output_type_agreement": 0.061224489795918366,
+          "left_seed": 29,
+          "right_seed": 89
+        },
+        {
+          "category_held_weighted_agreement": 0.7427464366437566,
+          "category_type_agreement": 0.7653061224489796,
+          "exact_output_held_weighted_agreement": 0.0661008349093593,
+          "exact_output_type_agreement": 0.09183673469387756,
+          "left_seed": 29,
+          "right_seed": 107
+        },
+        {
+          "category_held_weighted_agreement": 0.7209742146777988,
+          "category_type_agreement": 0.7857142857142857,
+          "exact_output_held_weighted_agreement": 0.07564924581392131,
+          "exact_output_type_agreement": 0.08163265306122448,
+          "left_seed": 47,
+          "right_seed": 71
+        },
+        {
+          "category_held_weighted_agreement": 0.5136768301120901,
+          "category_type_agreement": 0.5816326530612245,
+          "exact_output_held_weighted_agreement": 0.0565985515937082,
+          "exact_output_type_agreement": 0.07142857142857142,
+          "left_seed": 47,
+          "right_seed": 89
+        },
+        {
+          "category_held_weighted_agreement": 0.841321094146409,
+          "category_type_agreement": 0.8367346938775511,
+          "exact_output_held_weighted_agreement": 0.1763457724064763,
+          "exact_output_type_agreement": 0.17346938775510204,
+          "left_seed": 47,
+          "right_seed": 107
+        },
+        {
+          "category_held_weighted_agreement": 0.6880391161953965,
+          "category_type_agreement": 0.6836734693877551,
+          "exact_output_held_weighted_agreement": 0.09885142303611791,
+          "exact_output_type_agreement": 0.14285714285714285,
+          "left_seed": 71,
+          "right_seed": 89
+        },
+        {
+          "category_held_weighted_agreement": 0.748235619724157,
+          "category_type_agreement": 0.7653061224489796,
+          "exact_output_held_weighted_agreement": 0.07984685640481572,
+          "exact_output_type_agreement": 0.10204081632653061,
+          "left_seed": 71,
+          "right_seed": 107
+        },
+        {
+          "category_held_weighted_agreement": 0.5604040776788597,
+          "category_type_agreement": 0.6122448979591837,
+          "exact_output_held_weighted_agreement": 0.09797499884681028,
+          "exact_output_type_agreement": 0.10204081632653061,
+          "left_seed": 89,
+          "right_seed": 107
+        }
+      ],
+      "primary_real_runs": [
+        {
+          "accepted_moves": 670,
+          "config": "primary_42L_4D_34S_7N_11W",
+          "held_metrics": {
+            "decoded_characters": 76309,
+            "decoded_words": 15846,
+            "destroyed_bits_per_character": -4.309998201835407,
+            "empty_chunks": 2,
+            "real_bits_per_character": -2.6365290465863227,
+            "real_lexicon_character_fraction": 0.7595172260152799,
+            "real_minus_destroyed_bits_per_character": 1.673469155249085
+          },
+          "iterations": 8000,
+          "language": "middle_high_german",
+          "model_kind": "real",
+          "seed": 11,
+          "train_objective": -2.879150851543704
+        },
+        {
+          "accepted_moves": 725,
+          "config": "primary_42L_4D_34S_7N_11W",
+          "held_metrics": {
+            "decoded_characters": 76941,
+            "decoded_words": 16035,
+            "destroyed_bits_per_character": -4.381593080051927,
+            "empty_chunks": 16,
+            "real_bits_per_character": -2.6631687255042973,
+            "real_lexicon_character_fraction": 0.784471218206158,
+            "real_minus_destroyed_bits_per_character": 1.71842435454763
+          },
+          "iterations": 8000,
+          "language": "middle_high_german",
+          "model_kind": "real",
+          "seed": 29,
+          "train_objective": -2.9474098882511104
+        },
+        {
+          "accepted_moves": 700,
+          "config": "primary_42L_4D_34S_7N_11W",
+          "held_metrics": {
+            "decoded_characters": 74795,
+            "decoded_words": 15656,
+            "destroyed_bits_per_character": -4.267884503100623,
+            "empty_chunks": 12,
+            "real_bits_per_character": -2.6413371228304277,
+            "real_lexicon_character_fraction": 0.7878601510796176,
+            "real_minus_destroyed_bits_per_character": 1.626547380270195
+          },
+          "iterations": 8000,
+          "language": "middle_high_german",
+          "model_kind": "real",
+          "seed": 47,
+          "train_objective": -2.8629271898683313
+        },
+        {
+          "accepted_moves": 760,
+          "config": "primary_42L_4D_34S_7N_11W",
+          "held_metrics": {
+            "decoded_characters": 73684,
+            "decoded_words": 15586,
+            "destroyed_bits_per_character": -4.304606112985389,
+            "empty_chunks": 27,
+            "real_bits_per_character": -2.715786649983071,
+            "real_lexicon_character_fraction": 0.7472857065305901,
+            "real_minus_destroyed_bits_per_character": 1.5888194630023176
+          },
+          "iterations": 8000,
+          "language": "middle_high_german",
+          "model_kind": "real",
+          "seed": 71,
+          "train_objective": -2.9359154345583747
+        },
+        {
+          "accepted_moves": 703,
+          "config": "primary_42L_4D_34S_7N_11W",
+          "held_metrics": {
+            "decoded_characters": 73264,
+            "decoded_words": 15851,
+            "destroyed_bits_per_character": -4.328975347061307,
+            "empty_chunks": 27,
+            "real_bits_per_character": -2.6593537655380817,
+            "real_lexicon_character_fraction": 0.7783358811967679,
+            "real_minus_destroyed_bits_per_character": 1.6696215815232247
+          },
+          "iterations": 8000,
+          "language": "middle_high_german",
+          "model_kind": "real",
+          "seed": 89,
+          "train_objective": -2.9058338884637
+        },
+        {
+          "accepted_moves": 712,
+          "config": "primary_42L_4D_34S_7N_11W",
+          "held_metrics": {
+            "decoded_characters": 70909,
+            "decoded_words": 15661,
+            "destroyed_bits_per_character": -4.2275738636156435,
+            "empty_chunks": 9,
+            "real_bits_per_character": -2.7082721638999754,
+            "real_lexicon_character_fraction": 0.7755715071429579,
+            "real_minus_destroyed_bits_per_character": 1.5193016997156679
+          },
+          "iterations": 8000,
+          "language": "middle_high_german",
+          "model_kind": "real",
+          "seed": 107,
+          "train_objective": -2.8974887768314925
+        }
+      ],
+      "sensitivity_runs": [
+        {
+          "accepted_moves": 515,
+          "config": "sensitivity_36L_4D_40S_7N_11W",
+          "held_metrics": {
+            "decoded_characters": 71548,
+            "decoded_words": 15457,
+            "destroyed_bits_per_character": -4.317664413731697,
+            "empty_chunks": 36,
+            "real_bits_per_character": -2.819474767386883,
+            "real_lexicon_character_fraction": 0.7598395482752838,
+            "real_minus_destroyed_bits_per_character": 1.498189646344814
+          },
+          "iterations": 4000,
+          "language": "middle_high_german",
+          "model_kind": "real",
+          "seed": 311,
+          "train_objective": -2.9570239618883667
+        },
+        {
+          "accepted_moves": 506,
+          "config": "sensitivity_36L_4D_40S_7N_11W",
+          "held_metrics": {
+            "decoded_characters": 69487,
+            "decoded_words": 15752,
+            "destroyed_bits_per_character": -4.204972714336458,
+            "empty_chunks": 11,
+            "real_bits_per_character": -2.8376943541952655,
+            "real_lexicon_character_fraction": 0.7350727474203808,
+            "real_minus_destroyed_bits_per_character": 1.3672783601411924
+          },
+          "iterations": 4000,
+          "language": "middle_high_german",
+          "model_kind": "real",
+          "seed": 329,
+          "train_objective": -3.037402456661254
+        },
+        {
+          "accepted_moves": 505,
+          "config": "sensitivity_36L_4D_40S_7N_11W",
+          "held_metrics": {
+            "decoded_characters": 76040,
+            "decoded_words": 16148,
+            "destroyed_bits_per_character": -4.164893568790324,
+            "empty_chunks": 8,
+            "real_bits_per_character": -2.845676049743538,
+            "real_lexicon_character_fraction": 0.7337453971593898,
+            "real_minus_destroyed_bits_per_character": 1.319217519046787
+          },
+          "iterations": 4000,
+          "language": "middle_high_german",
+          "model_kind": "real",
+          "seed": 347,
+          "train_objective": -2.97959825767154
+        },
+        {
+          "accepted_moves": 470,
+          "config": "sensitivity_46L_4D_30S_7N_11W",
+          "held_metrics": {
+            "decoded_characters": 75098,
+            "decoded_words": 15770,
+            "destroyed_bits_per_character": -4.46356024328503,
+            "empty_chunks": 3,
+            "real_bits_per_character": -2.9962799609605377,
+            "real_lexicon_character_fraction": 0.704279741138246,
+            "real_minus_destroyed_bits_per_character": 1.467280282324492
+          },
+          "iterations": 4000,
+          "language": "middle_high_german",
+          "model_kind": "real",
+          "seed": 311,
+          "train_objective": -3.3060681213546794
+        },
+        {
+          "accepted_moves": 522,
+          "config": "sensitivity_46L_4D_30S_7N_11W",
+          "held_metrics": {
+            "decoded_characters": 69212,
+            "decoded_words": 15655,
+            "destroyed_bits_per_character": -4.304689110769153,
+            "empty_chunks": 3,
+            "real_bits_per_character": -2.9238120484368815,
+            "real_lexicon_character_fraction": 0.7128099173553719,
+            "real_minus_destroyed_bits_per_character": 1.3808770623322715
+          },
+          "iterations": 4000,
+          "language": "middle_high_german",
+          "model_kind": "real",
+          "seed": 329,
+          "train_objective": -3.1833342637265436
+        },
+        {
+          "accepted_moves": 487,
+          "config": "sensitivity_46L_4D_30S_7N_11W",
+          "held_metrics": {
+            "decoded_characters": 70497,
+            "decoded_words": 15950,
+            "destroyed_bits_per_character": -4.334252984613261,
+            "empty_chunks": 5,
+            "real_bits_per_character": -3.0111609051675794,
+            "real_lexicon_character_fraction": 0.7416769507922323,
+            "real_minus_destroyed_bits_per_character": 1.3230920794456815
+          },
+          "iterations": 4000,
+          "language": "middle_high_german",
+          "model_kind": "real",
+          "seed": 347,
+          "train_objective": -3.2414264526999568
+        }
+      ],
+      "stable_category_units_all_starts": 41,
+      "stable_exact_mapping_units_all_starts": 0,
+      "stable_held_fragment_folios": 23,
+      "stable_held_fragments_at_75pct": 608,
+      "stable_held_reference_word_folios": 11,
+      "stable_held_reference_words_at_75pct": 19
+    },
+    "old_italian": {
+      "primary_destroyed_runs": [
+        {
+          "accepted_moves": 811,
+          "config": "primary_42L_4D_34S_7N_11W",
+          "held_metrics": {
+            "decoded_characters": 46345,
+            "decoded_words": 15535,
+            "destroyed_bits_per_character": -3.4344948648639555,
+            "empty_chunks": 9,
+            "real_bits_per_character": -8.234765622939076,
+            "real_lexicon_character_fraction": 0.15958571582695005,
+            "real_minus_destroyed_bits_per_character": -4.80027075807512
+          },
+          "iterations": 8000,
+          "language": "old_italian",
+          "model_kind": "destroyed",
+          "seed": 211,
+          "train_objective": -3.2891359043114496
+        },
+        {
+          "accepted_moves": 793,
+          "config": "primary_42L_4D_34S_7N_11W",
+          "held_metrics": {
+            "decoded_characters": 48441,
+            "decoded_words": 15584,
+            "destroyed_bits_per_character": -3.446860268315776,
+            "empty_chunks": 11,
+            "real_bits_per_character": -8.143463063101077,
+            "real_lexicon_character_fraction": 0.18593753225573378,
+            "real_minus_destroyed_bits_per_character": -4.696602794785302
+          },
+          "iterations": 8000,
+          "language": "old_italian",
+          "model_kind": "destroyed",
+          "seed": 229,
+          "train_objective": -3.3153858959949862
+        },
+        {
+          "accepted_moves": 846,
+          "config": "primary_42L_4D_34S_7N_11W",
+          "held_metrics": {
+            "decoded_characters": 47212,
+            "decoded_words": 15871,
+            "destroyed_bits_per_character": -3.4957540515219923,
+            "empty_chunks": 5,
+            "real_bits_per_character": -8.0246936952015,
+            "real_lexicon_character_fraction": 0.14496314496314497,
+            "real_minus_destroyed_bits_per_character": -4.528939643679509
+          },
+          "iterations": 8000,
+          "language": "old_italian",
+          "model_kind": "destroyed",
+          "seed": 247,
+          "train_objective": -3.3671676923016904
+        },
+        {
+          "accepted_moves": 802,
+          "config": "primary_42L_4D_34S_7N_11W",
+          "held_metrics": {
+            "decoded_characters": 49174,
+            "decoded_words": 15951,
+            "destroyed_bits_per_character": -3.540384628827255,
+            "empty_chunks": 29,
+            "real_bits_per_character": -7.23028984057241,
+            "real_lexicon_character_fraction": 0.24673608004229877,
+            "real_minus_destroyed_bits_per_character": -3.6899052117451547
+          },
+          "iterations": 8000,
+          "language": "old_italian",
+          "model_kind": "destroyed",
+          "seed": 271,
+          "train_objective": -3.3988732501295
+        }
+      ],
+      "primary_pair_agreement": [
+        {
+          "category_held_weighted_agreement": 0.562110798468564,
+          "category_type_agreement": 0.4897959183673469,
+          "exact_output_held_weighted_agreement": 0.1374140873656534,
+          "exact_output_type_agreement": 0.10204081632653061,
+          "left_seed": 11,
+          "right_seed": 29
+        },
+        {
+          "category_held_weighted_agreement": 0.6482310069652659,
+          "category_type_agreement": 0.6224489795918368,
+          "exact_output_held_weighted_agreement": 0.14640896720328428,
+          "exact_output_type_agreement": 0.1836734693877551,
+          "left_seed": 11,
+          "right_seed": 47
+        },
+        {
+          "category_held_weighted_agreement": 0.7766963420821994,
+          "category_type_agreement": 0.7346938775510204,
+          "exact_output_held_weighted_agreement": 0.16509064071220997,
+          "exact_output_type_agreement": 0.16326530612244897,
+          "left_seed": 11,
+          "right_seed": 71
+        },
+        {
+          "category_held_weighted_agreement": 0.6638682596060704,
+          "category_type_agreement": 0.5612244897959183,
+          "exact_output_held_weighted_agreement": 0.11762535172286545,
+          "exact_output_type_agreement": 0.14285714285714285,
+          "left_seed": 11,
+          "right_seed": 89
+        },
+        {
+          "category_held_weighted_agreement": 0.621430877808017,
+          "category_type_agreement": 0.5714285714285714,
+          "exact_output_held_weighted_agreement": 0.06646985562064671,
+          "exact_output_type_agreement": 0.07142857142857142,
+          "left_seed": 11,
+          "right_seed": 107
+        },
+        {
+          "category_held_weighted_agreement": 0.6378984270492182,
+          "category_type_agreement": 0.6020408163265306,
+          "exact_output_held_weighted_agreement": 0.10946076848563126,
+          "exact_output_type_agreement": 0.1326530612244898,
+          "left_seed": 29,
+          "right_seed": 47
+        },
+        {
+          "category_held_weighted_agreement": 0.646893306886849,
+          "category_type_agreement": 0.5612244897959183,
+          "exact_output_held_weighted_agreement": 0.0958531297569076,
+          "exact_output_type_agreement": 0.10204081632653061,
+          "left_seed": 29,
+          "right_seed": 71
+        },
+        {
+          "category_held_weighted_agreement": 0.8363854421329397,
+          "category_type_agreement": 0.7448979591836735,
+          "exact_output_held_weighted_agreement": 0.1876931592785645,
+          "exact_output_type_agreement": 0.16326530612244897,
+          "left_seed": 29,
+          "right_seed": 89
+        },
+        {
+          "category_held_weighted_agreement": 0.7952857604133032,
+          "category_type_agreement": 0.6632653061224489,
+          "exact_output_held_weighted_agreement": 0.16426034411181328,
+          "exact_output_type_agreement": 0.12244897959183673,
+          "left_seed": 29,
+          "right_seed": 107
+        },
+        {
+          "category_held_weighted_agreement": 0.6713870565985516,
+          "category_type_agreement": 0.6938775510204082,
+          "exact_output_held_weighted_agreement": 0.10300290603810139,
+          "exact_output_type_agreement": 0.1326530612244898,
+          "left_seed": 47,
+          "right_seed": 71
+        },
+        {
+          "category_held_weighted_agreement": 0.6684810184971631,
+          "category_type_agreement": 0.6122448979591837,
+          "exact_output_held_weighted_agreement": 0.13436966649753218,
+          "exact_output_type_agreement": 0.14285714285714285,
+          "left_seed": 47,
+          "right_seed": 89
+        },
+        {
+          "category_held_weighted_agreement": 0.5758568199640205,
+          "category_type_agreement": 0.5204081632653061,
+          "exact_output_held_weighted_agreement": 0.12062364500207574,
+          "exact_output_type_agreement": 0.14285714285714285,
+          "left_seed": 47,
+          "right_seed": 107
+        },
+        {
+          "category_held_weighted_agreement": 0.7647492965542692,
+          "category_type_agreement": 0.6530612244897959,
+          "exact_output_held_weighted_agreement": 0.13653766317634577,
+          "exact_output_type_agreement": 0.1326530612244898,
+          "left_seed": 71,
+          "right_seed": 89
+        },
+        {
+          "category_held_weighted_agreement": 0.6915448129526269,
+          "category_type_agreement": 0.6326530612244898,
+          "exact_output_held_weighted_agreement": 0.15485031597398405,
+          "exact_output_type_agreement": 0.12244897959183673,
+          "left_seed": 71,
+          "right_seed": 107
+        },
+        {
+          "category_held_weighted_agreement": 0.845795470270769,
+          "category_type_agreement": 0.7040816326530612,
+          "exact_output_held_weighted_agreement": 0.21292495041284193,
+          "exact_output_type_agreement": 0.19387755102040816,
+          "left_seed": 89,
+          "right_seed": 107
+        }
+      ],
+      "primary_real_runs": [
+        {
+          "accepted_moves": 716,
+          "config": "primary_42L_4D_34S_7N_11W",
+          "held_metrics": {
+            "decoded_characters": 68367,
+            "decoded_words": 15775,
+            "destroyed_bits_per_character": -4.351466365604461,
+            "empty_chunks": 13,
+            "real_bits_per_character": -2.6423956986329937,
+            "real_lexicon_character_fraction": 0.7652229876987435,
+            "real_minus_destroyed_bits_per_character": 1.7090706669714668
+          },
+          "iterations": 8000,
+          "language": "old_italian",
+          "model_kind": "real",
+          "seed": 11,
+          "train_objective": -2.6939014373057124
+        },
+        {
+          "accepted_moves": 686,
+          "config": "primary_42L_4D_34S_7N_11W",
+          "held_metrics": {
+            "decoded_characters": 64544,
+            "decoded_words": 15771,
+            "destroyed_bits_per_character": -4.335481146284962,
+            "empty_chunks": 5,
+            "real_bits_per_character": -2.698833670353318,
+            "real_lexicon_character_fraction": 0.8100985374318295,
+            "real_minus_destroyed_bits_per_character": 1.6366474759316436
+          },
+          "iterations": 8000,
+          "language": "old_italian",
+          "model_kind": "real",
+          "seed": 29,
+          "train_objective": -2.7142545934740236
+        },
+        {
+          "accepted_moves": 663,
+          "config": "primary_42L_4D_34S_7N_11W",
+          "held_metrics": {
+            "decoded_characters": 66131,
+            "decoded_words": 15917,
+            "destroyed_bits_per_character": -4.384891542335553,
+            "empty_chunks": 5,
+            "real_bits_per_character": -2.621592865051833,
+            "real_lexicon_character_fraction": 0.7846244575161422,
+            "real_minus_destroyed_bits_per_character": 1.76329867728372
+          },
+          "iterations": 8000,
+          "language": "old_italian",
+          "model_kind": "real",
+          "seed": 47,
+          "train_objective": -2.690802124710445
+        },
+        {
+          "accepted_moves": 717,
+          "config": "primary_42L_4D_34S_7N_11W",
+          "held_metrics": {
+            "decoded_characters": 64637,
+            "decoded_words": 15811,
+            "destroyed_bits_per_character": -4.378543164398403,
+            "empty_chunks": 32,
+            "real_bits_per_character": -2.736854818985252,
+            "real_lexicon_character_fraction": 0.769218868449959,
+            "real_minus_destroyed_bits_per_character": 1.6416883454131506
+          },
+          "iterations": 8000,
+          "language": "old_italian",
+          "model_kind": "real",
+          "seed": 71,
+          "train_objective": -2.777693101184137
+        },
+        {
+          "accepted_moves": 684,
+          "config": "primary_42L_4D_34S_7N_11W",
+          "held_metrics": {
+            "decoded_characters": 68176,
+            "decoded_words": 15709,
+            "destroyed_bits_per_character": -4.432032539375615,
+            "empty_chunks": 7,
+            "real_bits_per_character": -2.6010602624318016,
+            "real_lexicon_character_fraction": 0.8033618868810138,
+            "real_minus_destroyed_bits_per_character": 1.8309722769438137
+          },
+          "iterations": 8000,
+          "language": "old_italian",
+          "model_kind": "real",
+          "seed": 89,
+          "train_objective": -2.6521526659879022
+        },
+        {
+          "accepted_moves": 695,
+          "config": "primary_42L_4D_34S_7N_11W",
+          "held_metrics": {
+            "decoded_characters": 68704,
+            "decoded_words": 15683,
+            "destroyed_bits_per_character": -4.355231052935964,
+            "empty_chunks": 8,
+            "real_bits_per_character": -2.5525174551234793,
+            "real_lexicon_character_fraction": 0.7600139729855613,
+            "real_minus_destroyed_bits_per_character": 1.8027135978124849
+          },
+          "iterations": 8000,
+          "language": "old_italian",
+          "model_kind": "real",
+          "seed": 107,
+          "train_objective": -2.6275414277141724
+        }
+      ],
+      "sensitivity_runs": [
+        {
+          "accepted_moves": 485,
+          "config": "sensitivity_36L_4D_40S_7N_11W",
+          "held_metrics": {
+            "decoded_characters": 68284,
+            "decoded_words": 15697,
+            "destroyed_bits_per_character": -4.381428581011418,
+            "empty_chunks": 10,
+            "real_bits_per_character": -2.668151571583507,
+            "real_lexicon_character_fraction": 0.7804170816003749,
+            "real_minus_destroyed_bits_per_character": 1.7132770094279108
+          },
+          "iterations": 4000,
+          "language": "old_italian",
+          "model_kind": "real",
+          "seed": 311,
+          "train_objective": -2.7971752952268445
+        },
+        {
+          "accepted_moves": 530,
+          "config": "sensitivity_36L_4D_40S_7N_11W",
+          "held_metrics": {
+            "decoded_characters": 65430,
+            "decoded_words": 15784,
+            "destroyed_bits_per_character": -4.433597979211831,
+            "empty_chunks": 6,
+            "real_bits_per_character": -2.859131522905108,
+            "real_lexicon_character_fraction": 0.7422741861531408,
+            "real_minus_destroyed_bits_per_character": 1.5744664563067234
+          },
+          "iterations": 4000,
+          "language": "old_italian",
+          "model_kind": "real",
+          "seed": 329,
+          "train_objective": -2.8975006225458273
+        },
+        {
+          "accepted_moves": 446,
+          "config": "sensitivity_36L_4D_40S_7N_11W",
+          "held_metrics": {
+            "decoded_characters": 64879,
+            "decoded_words": 15426,
+            "destroyed_bits_per_character": -4.409443663016738,
+            "empty_chunks": 15,
+            "real_bits_per_character": -2.762241182850766,
+            "real_lexicon_character_fraction": 0.759876077004886,
+            "real_minus_destroyed_bits_per_character": 1.6472024801659721
+          },
+          "iterations": 4000,
+          "language": "old_italian",
+          "model_kind": "real",
+          "seed": 347,
+          "train_objective": -2.8229787838221663
+        },
+        {
+          "accepted_moves": 473,
+          "config": "sensitivity_46L_4D_30S_7N_11W",
+          "held_metrics": {
+            "decoded_characters": 61886,
+            "decoded_words": 15420,
+            "destroyed_bits_per_character": -4.418361732230529,
+            "empty_chunks": 7,
+            "real_bits_per_character": -2.7730147366530016,
+            "real_lexicon_character_fraction": 0.7551788772905019,
+            "real_minus_destroyed_bits_per_character": 1.645346995577527
+          },
+          "iterations": 4000,
+          "language": "old_italian",
+          "model_kind": "real",
+          "seed": 311,
+          "train_objective": -2.9072548677175134
+        },
+        {
+          "accepted_moves": 524,
+          "config": "sensitivity_46L_4D_30S_7N_11W",
+          "held_metrics": {
+            "decoded_characters": 62686,
+            "decoded_words": 15389,
+            "destroyed_bits_per_character": -4.4305404071051155,
+            "empty_chunks": 11,
+            "real_bits_per_character": -2.7962482679664102,
+            "real_lexicon_character_fraction": 0.722378202469451,
+            "real_minus_destroyed_bits_per_character": 1.6342921391387053
+          },
+          "iterations": 4000,
+          "language": "old_italian",
+          "model_kind": "real",
+          "seed": 329,
+          "train_objective": -2.9496728002105983
+        },
+        {
+          "accepted_moves": 502,
+          "config": "sensitivity_46L_4D_30S_7N_11W",
+          "held_metrics": {
+            "decoded_characters": 65612,
+            "decoded_words": 16012,
+            "destroyed_bits_per_character": -4.326335221737131,
+            "empty_chunks": 7,
+            "real_bits_per_character": -2.76085164327798,
+            "real_lexicon_character_fraction": 0.7557611412546485,
+            "real_minus_destroyed_bits_per_character": 1.5654835784591514
+          },
+          "iterations": 4000,
+          "language": "old_italian",
+          "model_kind": "real",
+          "seed": 347,
+          "train_objective": -2.8679897229709823
+        }
+      ],
+      "stable_category_units_all_starts": 22,
+      "stable_exact_mapping_units_all_starts": 1,
+      "stable_held_fragment_folios": 20,
+      "stable_held_fragments_at_75pct": 84,
+      "stable_held_reference_word_folios": 19,
+      "stable_held_reference_words_at_75pct": 71
+    }
+  },
+  "unit_sequences_sha256": "3ee0841e211314b72719acbbf79ed3a6dc7bfc3c157734f54dbdac92ac458fdf"
+}
