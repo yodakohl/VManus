@@ -14471,3 +14471,41 @@ material. They justify the procedural syntax as a workshop analogy only;they
 do not prove a Voynich word meaning. The next no-new-page route is to compress
 the254 completed actions into a small predictive compound/scope phrasebook,
 with the six host rivals still visible. Open no page,root,parser or substring.
+
+## GDT596 factorizes every concrete bath clause into typing, reference and phrase cards
+
+GDT596 no longer treats GDT595's17 selection-route labels as17 meanings. Five
+ordered typing cards cover every one of254 action slots:T01 written typed
+carrier100,T02 carrierless blocker Station25,T03 bound typed reference74,T04
+stable AIN/OR type12 and T05 Body-first43. Their exact object profiles sum to
+100 Körper,122 Stationsansatz,15 Portion,15 unit and2 Strom. At the shortest
+level these are three workshop operators:type-read112,typed-reference-copy74
+and host-default68.
+
+Reference direction is a separate factor.70 left sources after the last cut
+render anaphorically,8 right shared complements plus E2952's packet tie render
+definitely,and175 local or default objects render definitely. The5×3 table has
+seven occupied cells and zero form conflict. In particular5 local AIN/OR types
+say `dieselbe`,while7 reset type defaults say `die`,without splitting the
+underlying type card.
+
+Seven object lemmas and four determiner cells yield11 observed noun phrases.
+The remaining clause uses252 `im Bad` frames,2 `im Badbetrieb` flow frames and
+15 modifier fragments. AIIN_FILL plus a following grade binds first;ordinary
+one/two/many list composition then reproduces all40 observed modifier
+sequences.247 actions contain one participant NP,6 contain2 and1 contains3;
+the selected object is first in251 and second in E1433,E1648,E1795. All254
+complete clauses replay byte-exactly and validation passes101/101. All five
+typing cards occur on every admitted bath page;right-or-tie scope occurs on5/6.
+
+A separate manual workshop deck keeps exact replay distinct from fluent
+speech.16 clauses retain their object but need a better participant,location,
+path or grade scope.6 retain an object rival,and E3523 retains a mechanism fork
+between right shared complement and discontinuous discourse anaphora. E2952
+(Station/Portion) and E3224(Body/Station) alone are immediate strong object
+forks. All23 selected defaults remain active;no card becomes empty or stopped.
+
+Use GDT596 as the current compact bath phrasebook. The next no-new-page route
+is to mirror the five typing plus three reference cards over complete CH,K,P,T,
+CHD and other non-SH workshop actions on the same six pages. Preserve the23
+review cards and all host rivals;open no page,root,parser or substring.

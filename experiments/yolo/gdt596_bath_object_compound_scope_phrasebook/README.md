@@ -1,0 +1,17 @@
+# GDT596 — kompositionelles Bad-Objekt- und Scope-Phrasebook
+
+Status: `PASS_254_EXACT_COMPOSITIONAL_REPLAYS__5_TYPING_CARDS__3_REFERENCE_SCOPE_CARDS__100_WRITTEN__25_BLOCKER__74_BOUND_REFERENCE__12_AIN_OR_TYPE__43_BODY_DEFAULT__70_LEFT_ANAPHORIC__9_RIGHT_OR_TIE_DEFINITE__175_LOCAL_OR_DEFAULT_DEFINITE__7_LEMMAS__11_OBJECT_FORMS__15_MODIFIER_FRAGMENTS__40_OBSERVED_SEQUENCES__184_DEFINITE__70_ANAPHORIC__247_SINGLE_7_MULTI_PARTICIPANT__0_EXCEPTIONS__23_WORKSHOP_REVIEWS__16_STYLE__6_OBJECT_RIVAL__1_BINDING_RIVAL__2_IMMEDIATE_OBJECT_FORKS`
+
+GDT596 komprimiert die 254 vollständig konkreten GDT595-Badeaktionen in fünf
+Typkarten und drei davon unabhängige Bezugskarten. Sieben Objektlemmas, vier
+Artikelregeln, zwei Badrahmen, fünfzehn Modifikatoren und drei Listenregeln
+rekonstruieren alle Klauseln exakt. AIIN-Füllung bleibt dabei ausdrücklich ein
+Modifikator und kein Patient.
+
+```bash
+python3 experiments/yolo/gdt596_bath_object_compound_scope_phrasebook/src/run.py
+python3 experiments/yolo/gdt596_bath_object_compound_scope_phrasebook/src/validate.py
+```
+
+Siehe `REPORT.md`, `METHOD.md` und
+`artifacts/GDT596_COMPOUND_SCOPE_PHRASEBOOK.md`.
