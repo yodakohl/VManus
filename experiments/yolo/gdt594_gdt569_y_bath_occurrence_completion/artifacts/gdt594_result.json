@@ -1,0 +1,81 @@
+{
+  "bath_action_count": 254,
+  "candidate_count": 49,
+  "changed_statement_count": 49,
+  "completion_object_profile": {
+    "BODY": 30,
+    "FLOW": 2,
+    "STATION": 17
+  },
+  "context_witness_event_distance_max": 10,
+  "context_witness_event_distance_min": 1,
+  "experiment_id": "GDT594",
+  "final_object_profile": {
+    "BATH_OBJECT": 46,
+    "BATH_UNIT": 13,
+    "BODY": 83,
+    "FLOW": 2,
+    "PORTION": 12,
+    "STATION": 98
+  },
+  "host_atom_scope_conflict_event_ids": [
+    "G407-E1658",
+    "G407-E3426",
+    "G407-E3673"
+  ],
+  "input_sha256": {
+    "gdt416_clauses": "cffae521ba93d96446537584e35fa9a4fe4b6e34330ebf7e955ad725f7c70561",
+    "gdt515_events": "6615c3874d09a2e0043e56ac9d71317d138b8fb675cc56f4ab3d866f5b8fa346",
+    "gdt559_transitions": "cdfe39e1c198df928deff41e97b31be804efe398e9804829d7eb1f84cb995dcd",
+    "gdt569_states": "0971ba866bf9a3f03d735c9da65545e45b9fabae545ae9b921beecac64ff43bf",
+    "gdt581_aliases": "27203f5e2b3c76134eae63082be4a9a4739f8e9507ff599854b1c221e20cd295",
+    "gdt581_slots": "3adb073e7a572e3f71876d156db9142e1ab324d455e11a797dc2bbd351496176",
+    "gdt582_defaults": "dc96a9c10fc5cad003f56ae3547820969b0b59e59c3ac892e05447a9df184b5e",
+    "gdt584_hosts": "b890858697b6dbbdd64fa4cbadff1a208ce57726c637f9e4a99f93472d4ba0e1",
+    "gdt590_slots": "0b7d034985de2f21ee82447151d4fcfe41fda299d813f52e99bf07c861a3d299",
+    "gdt593_actions": "080cf13ed15f076fa254139af7b3e0eac4d674135a9263414d7853f8ae92d293",
+    "gdt593_statements": "5389e81acf612badd75b227a4b93ec0e61eb1866cc3ba3c6c3df7f031a77cb3b",
+    "lines": "7520dd4c11f4d23c8492e4b2a52cc0fcbda6d9fc88a96ead8f1c31081a4d7ed2"
+  },
+  "manual_reader_profile": {
+    "FLOW_MUST_BE_READ_OPERATIONALLY": 2,
+    "READABLE_TWO_WAY": 11,
+    "STRAIGHTFORWARD_WORKING_READING": 35,
+    "SURROUNDING_CONTROL_PROSE_FRAGMENTED": 1
+  },
+  "physical_paragraph_crossing_event_ids": [
+    "G407-E2537",
+    "G407-E2628"
+  ],
+  "reference_realization_profile": {
+    "ANAPHORIC_SAME_OBJECT_SCOPE": 20,
+    "DEFINITE_BODY_AT_TARGET_AFTER_READER_RESET": 2,
+    "DEFINITE_BODY_AT_TARGET_AFTER_STATEMENT_RESET": 27
+  },
+  "remaining_cold_bath_object_default_count": 44,
+  "remaining_gdt569_specific_candidate_count": 0,
+  "retained_statement_count": 744,
+  "same_statement_reader_reset_event_ids": [
+    "G407-E1431",
+    "G407-E3768"
+  ],
+  "scope_profile": {
+    "OWNER_DEFAULT_RESET": 27,
+    "SAME_OBJECT_SCOPE": 20,
+    "SAME_STATEMENT_READER_RESET": 2
+  },
+  "semantic_host_reset_event_ids": [
+    "G407-E1431",
+    "G407-E1658",
+    "G407-E3426",
+    "G407-E3673",
+    "G407-E3768"
+  ],
+  "source_kind_profile": {
+    "OWNER_DEFAULT": 27,
+    "SAME_STATEMENT_EVENT": 22
+  },
+  "statement_count": 793,
+  "status": "PASS_49_Y_OCCURRENCE_COMPLETIONS__17_LOCAL_STATION__2_LOCAL_FLOW__1_LOCAL_BODY__29_RESET_BODY_FIRST__20_ANAPHORIC__29_DEFINITE__254_OBJECTS__49_STATEMENTS_CHANGED__44_COLD_DEFAULTS_REMAIN",
+  "working_rule_de": "Die 49 verbliebenen Y-Badegut-Kandidaten werden ausschließlich auf Vorkommensebene konkretisiert. Innerhalb desselben sichtbaren Objektsegments übernimmt das Ziel den exakten Donortyp: siebzehnmal Stationsansatz, zweimal Strom und einmal Körper. Ein Reset zählt nur, wenn sein geschriebenes Kontrollatom nach der Y-Quelle steht; dadurch bleiben E1658, E3426 und E3673 lokal, obwohl die ältere semantische Hostreihenfolge eine Grenze dazwischen anzeigt. Hinter zwei echten post-donor Readerresets oder 27 Satzresets wird Y am blockerfreien SH-Badziel körpernah als Körper-first neu gesetzt. Die GDT569-Kontextfassung, die Stationsalternative und der neutrale Badegut-Satz bleiben sichtbar. Y wird nicht global zu Körper, Station oder Strom."
+}

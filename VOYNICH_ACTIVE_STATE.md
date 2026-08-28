@@ -14412,3 +14412,29 @@ split already audited:within the same object scope preserve15 Stationsansatz
 and2 Strom donors;after reset use32 blocker-free SH target readings as
 Body-first. Do not globalize Y=Body;retain the old GDT569 donor interpretation
 and neutral Badegut at every target. Open no page,root,parser or substring.
+
+## GDT594 resolves all forty-nine Y bath candidates by written atom order
+
+GDT594 gives every remaining specific Y+Badegut candidate a concrete
+occurrence default. The final source split is22 SAME_STATEMENT_EVENT and27
+OWNER_DEFAULT. Written source/control atom order makes20 of the22 local:
+17 Stationsansatz,2 operational Strom and1 Körper. Only E1431 and E3768 have
+a control cut strictly after the donor and before the SH object use. Together
+with27 owner/statement resets,this yields29 definite Body-first targets.
+
+An initial GDT584-host-order reading produced17 local/32 reset. The discrepancy
+is real and retained,not hidden:E1656 is OT+Y,E3425 OT+EE+Y,and E3672 follows
+the earlier OT+AIIN with OL+AL+Y. Their fresh Y is at or after the cut;GDT559
+records the successor as NEXT_INHERITS_CURRENT_ARGUMENT. Thus E1658 reads
+`denselben Körper`,and E3426/E3673 read `denselben Stationsansatz`. The old
+host-reset Body clauses remain explicit rivals in a three-row conflict table.
+
+All49 GDT569 context clauses,Badegut clauses and Body/Station/Flow alternatives
+remain visible.49/793 statements change,744 remain GDT593-byte-identical,and
+the twelve prior AIN/OR promotions remain untouched. Manual workshop reading
+marks35 straightforward,11 genuine two-way,2 operational-flow and1 fragmented
+control passage. The254 profile is83 Body,98 Station,46 Badegut,13 unit,12
+portion and2 flow. Exactly44 cold defaults remain:17 AIIN fill-only and27 with
+no GDT569 state. Next classify those44 from already admitted target and episode
+context before assigning more occurrence defaults. Open no page,root,parser or
+substring. Validation is117/117.
