@@ -1,0 +1,375 @@
+{
+  "artifact_hashes": {
+    "anchor_categories.tsv": "113a6ebfa52f6817d00342dacb1b2ae23d0fe5e437ce691804c79099522b949d",
+    "calibration_complete_mappings.tsv": "9217a2fac2bead7fa9911d0f47eb7f1b7d7d6b84d0d577d918bb8524eb5f487d",
+    "calibration_grid.tsv": "e8cf0703704e6c0a3dda676ca33aae35e227d3e19535ecd98fb365cb3a5e1766",
+    "category_diagnostics.tsv": "852f38277d466017a021c50b429841a93d0e869f75ffb96ea713a87dae85c1ab",
+    "non_w_exact_matches.tsv": "d66be2e563b6d6cc3b55bb9db59d0321b51202859353dab58deec5fca5f49bb9",
+    "result.json": "33651c6f60e8e29587b2c96757d5e804cc5ee23ca9092ea58054a2979041069e",
+    "synthetic_control_meta.json": "f827d3a6c27301ae3887c8c6caa1bb193ec5978856d6f070e64b4b92116a0fa9",
+    "synthetic_oracle_mapping.tsv": "f662ce065fd70991097f26f2f46db8fe3e33846d5acd7da3cf207ae0a1669ed0",
+    "target_complete_mappings.tsv": "a2e59bf5c06bbd2f44e95803f923f09de98eb7a958ffa76c7693b20c969452b2",
+    "target_summary.json": "70b974a686e396fadedc8425cc8fb1809abb094982cd35f8cc2a8817ca366583"
+  },
+  "checks": [
+    {
+      "check": "canonical GDT606 unit hash",
+      "observed": "3ee0841e211314b72719acbbf79ed3a6dc7bfc3c157734f54dbdac92ac458fdf",
+      "status": "PASS"
+    },
+    {
+      "check": "canonical inventory 98",
+      "observed": 98,
+      "status": "PASS"
+    },
+    {
+      "check": "canonical train chunks 20336",
+      "observed": 20336,
+      "status": "PASS"
+    },
+    {
+      "check": "canonical held chunks 9838",
+      "observed": 9838,
+      "status": "PASS"
+    },
+    {
+      "check": "canonical 68/23 folio split",
+      "observed": [
+        68,
+        23
+      ],
+      "status": "PASS"
+    },
+    {
+      "check": "98 unique anchor rows",
+      "observed": [
+        98,
+        98
+      ],
+      "status": "PASS"
+    },
+    {
+      "check": "anchor allocation 42/4/34/7/11",
+      "observed": {
+        "D": 4,
+        "L": 42,
+        "N": 7,
+        "S": 34,
+        "W": 11
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "five qok units assigned W",
+      "observed": [
+        [
+          "qokEdy",
+          "W"
+        ],
+        [
+          "qokEy",
+          "W"
+        ],
+        [
+          "qokaI",
+          "W"
+        ],
+        [
+          "qokaN",
+          "W"
+        ],
+        [
+          "qokedy",
+          "W"
+        ]
+      ],
+      "status": "PASS"
+    },
+    {
+      "check": "control exact chunk lengths",
+      "observed": null,
+      "status": "PASS"
+    },
+    {
+      "check": "control zero encoding failure",
+      "observed": 0,
+      "status": "PASS"
+    },
+    {
+      "check": "control all 98 units",
+      "observed": 1.0,
+      "status": "PASS"
+    },
+    {
+      "check": "control rank frequency matched",
+      "observed": 0.9998852399441501,
+      "status": "PASS"
+    },
+    {
+      "check": "control JS below .05",
+      "observed": 0.03432120115816337,
+      "status": "PASS"
+    },
+    {
+      "check": "five coupling values",
+      "observed": [
+        "0.0",
+        "0.03",
+        "0.1",
+        "0.3",
+        "1.0"
+      ],
+      "status": "PASS"
+    },
+    {
+      "check": "lambda .10 selected by utility",
+      "observed": "0.1",
+      "status": "PASS"
+    },
+    {
+      "check": "selected stability .8163",
+      "observed": "0.8163265306122449",
+      "status": "PASS"
+    },
+    {
+      "check": "selected held char .3374",
+      "observed": "0.3373630008571373",
+      "status": "PASS"
+    },
+    {
+      "check": "coupling increases stability",
+      "observed": [
+        "0.37755102040816324",
+        "0.8163265306122449"
+      ],
+      "status": "PASS"
+    },
+    {
+      "check": "complete calibration map",
+      "observed": 2940,
+      "status": "PASS"
+    },
+    {
+      "check": "selected control W has 66 rows",
+      "observed": 66,
+      "status": "PASS"
+    },
+    {
+      "check": "all eleven W maps six-view stable",
+      "observed": {
+        "C": [
+          "omnibus"
+        ],
+        "E": [
+          "eorum"
+        ],
+        "S": [
+          "proelio"
+        ],
+        "aN": [
+          "atque"
+        ],
+        "al": [
+          "neque"
+        ],
+        "ar": [
+          "caesar"
+        ],
+        "d": [
+          "castris"
+        ],
+        "o": [
+          "exercitum"
+        ],
+        "ok": [
+          "propter"
+        ],
+        "ot": [
+          "quibus"
+        ],
+        "t": [
+          "quod"
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "all eleven stable W maps wrong",
+      "observed": 0,
+      "status": "PASS"
+    },
+    {
+      "check": "control diagnostic five categories",
+      "observed": [
+        "D",
+        "L",
+        "N",
+        "S",
+        "W"
+      ],
+      "status": "PASS"
+    },
+    {
+      "check": "control L recovery .9246",
+      "observed": "0.9246031746031746",
+      "status": "PASS"
+    },
+    {
+      "check": "control D and N exact",
+      "observed": null,
+      "status": "PASS"
+    },
+    {
+      "check": "control W zero recovery",
+      "observed": "0.0",
+      "status": "PASS"
+    },
+    {
+      "check": "complete target maps",
+      "observed": 3528,
+      "status": "PASS"
+    },
+    {
+      "check": "target map languages",
+      "observed": [
+        "latin",
+        "middle_high_german",
+        "old_italian"
+      ],
+      "status": "PASS"
+    },
+    {
+      "check": "target categories unchanged",
+      "observed": null,
+      "status": "PASS"
+    },
+    {
+      "check": "all target language condition view groups",
+      "observed": 36,
+      "status": "PASS"
+    },
+    {
+      "check": "Latin syllable stability 1/34",
+      "observed": 1,
+      "status": "PASS"
+    },
+    {
+      "check": "Old Italian syllable stability 0/34",
+      "observed": 0,
+      "status": "PASS"
+    },
+    {
+      "check": "MHG syllable stability 2/34",
+      "observed": 2,
+      "status": "PASS"
+    },
+    {
+      "check": "eight non-W exact matches",
+      "observed": 8,
+      "status": "PASS"
+    },
+    {
+      "check": "non-W matches Latin only",
+      "observed": [
+        "latin"
+      ],
+      "status": "PASS"
+    },
+    {
+      "check": "non-W matches repetitive only",
+      "observed": [
+        "cccc",
+        "iiii",
+        "sese"
+      ],
+      "status": "PASS"
+    },
+    {
+      "check": "non-W matches explicitly non-readings",
+      "observed": null,
+      "status": "PASS"
+    },
+    {
+      "check": "result binds canonical unit hash",
+      "observed": "3ee0841e211314b72719acbbf79ed3a6dc7bfc3c157734f54dbdac92ac458fdf",
+      "status": "PASS"
+    },
+    {
+      "check": "result hard failure",
+      "observed": "FAIL: decoder cannot recover the planted control key reliably; target consensus is not semantic evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "result selected lambda",
+      "observed": 0.1,
+      "status": "PASS"
+    },
+    {
+      "check": "result no semantic interpretation",
+      "observed": "FAIL: decoder cannot recover the planted control key reliably; target consensus is not semantic evidence",
+      "status": "PASS"
+    },
+    {
+      "check": "upstream 65-check validation pass",
+      "observed": [
+        "PASS",
+        65
+      ],
+      "status": "PASS"
+    },
+    {
+      "check": "decoder binds canonical unit hash",
+      "observed": null,
+      "status": "PASS"
+    },
+    {
+      "check": "decoder has no private paths",
+      "observed": null,
+      "status": "PASS"
+    },
+    {
+      "check": "report phrase CONSENSUS_STABILITY_INCREASES__WHOLE_WORD_KEY_STABLE_BUT_WRONG",
+      "observed": "CONSENSUS_STABILITY_INCREASES__WHOLE_WORD_KEY_STABLE_BUT_WRONG",
+      "status": "PASS"
+    },
+    {
+      "check": "report phrase FAIL \u2014 no concrete reading",
+      "observed": "FAIL \u2014 no concrete reading",
+      "status": "PASS"
+    },
+    {
+      "check": "report phrase All eleven W carriers are perfectly stable and all eleven are wrong",
+      "observed": "All eleven W carriers are perfectly stable and all eleven are wrong",
+      "status": "PASS"
+    },
+    {
+      "check": "report phrase only 20/34 are stable",
+      "observed": "only 20/34 are stable",
+      "status": "PASS"
+    },
+    {
+      "check": "report phrase repetitive forms rather than a coherent passage",
+      "observed": "repetitive forms rather than a coherent passage",
+      "status": "PASS"
+    }
+  ],
+  "checks_failed": 0,
+  "checks_passed": 49,
+  "claim_ceiling": "decoder control and target non-injection audit only; no Voynich word, language, plaintext or meaning",
+  "decision": "CONSENSUS_STABILITY_INCREASES__WHOLE_WORD_KEY_STABLE_BUT_WRONG",
+  "input_hashes": {
+    "experiments/yolo/gdt606_mixed_nomenclator_decoder/artifacts/unit_sequences.json": "3ee0841e211314b72719acbbf79ed3a6dc7bfc3c157734f54dbdac92ac458fdf"
+  },
+  "schema": "gdt610-consensus-control-validation-v1",
+  "sealed_data": {
+    "f84": "FORBIDDEN_AND_ABSENT",
+    "f84r": "FORBIDDEN_AND_ABSENT"
+  },
+  "source_hashes": {
+    "PREREGISTRATION.md": "3c4a5fe46e5676abd97c2e0f70c17449219f8f327194e70b3cf0edd8ec822969",
+    "REPORT.md": "9b898d9d6375738ab1274b613b3fd0b36274a82e0372d51f356da7db6c7b113d",
+    "src/consensus_carrier_decoder.py": "552ffb78fcb1ae19f636ff88f7d6e22120573e3f7752a75da12e85ba298765f1",
+    "src/validate.py": "79c49e7b570a8bae028058b89aaa1165c734c3444a51bdf63d8eb0adf5d98b72"
+  },
+  "status": "PASS"
+}

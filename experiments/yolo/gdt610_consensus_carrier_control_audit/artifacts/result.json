@@ -1,0 +1,390 @@
+{
+  "anchor_category_counts": {
+    "D": 4,
+    "L": 42,
+    "N": 7,
+    "S": 34,
+    "W": 11
+  },
+  "calibration_selected_coupling": 0.1,
+  "calibration_selected_metrics": {
+    "all_member_exact_occurrence_weighted_fraction": 0.8768201223029883,
+    "all_member_exact_type_fraction": 0.8163265306122449,
+    "consensus_held_occurrence_weighted_key_accuracy": 0.6758153051340007,
+    "consensus_type_key_accuracy": 0.7959183673469388,
+    "coupling": 0.1,
+    "mean_held_occurrence_weighted_key_accuracy": 0.671856020419146,
+    "mean_held_plaintext_character_accuracy": 0.3373630008571373,
+    "mean_modal_type_fraction": 0.945578231292517,
+    "mean_train_objective": -2.135976730700045,
+    "mean_type_key_accuracy": 0.7755102040816326,
+    "selection_eligible": 1,
+    "selection_utility": 2.601055755970161
+  },
+  "control": {
+    "encoding_failures": 0,
+    "exact_chunk_length_sequence": true,
+    "frequency_rank_relabeling": "descending control counts paired to descending frozen-target counts",
+    "held_chunks": 9838,
+    "train_chunks": 20336,
+    "train_frequency_js_divergence_bits": 0.03432120115816337,
+    "train_frequency_rank_spearman": 0.9998852399441501,
+    "train_inventory_coverage": 1.0
+  },
+  "coupled_carrier_aligned_exact_reference_folios": 69,
+  "coupled_carrier_aligned_exact_reference_rows": 2974,
+  "decision": "FAIL: decoder cannot recover the planted control key reliably; target consensus is not semantic evidence",
+  "input_unit_sha256": "3ee0841e211314b72719acbbf79ed3a6dc7bfc3c157734f54dbdac92ac458fdf",
+  "interpretation": "hard comparison complete: control failure invalidates target consensus as semantic evidence",
+  "schema": "gdt605-consensus-carrier-result-v1",
+  "target": {
+    "latin": {
+      "coupled": {
+        "held_metrics": [
+          {
+            "member": 0,
+            "real_minus_destroyed_bits_per_transition": 0.3199093142861416,
+            "reference_lexicon_character_fraction": 0.29620090148100453
+          },
+          {
+            "member": 1,
+            "real_minus_destroyed_bits_per_transition": 0.28944995847756577,
+            "reference_lexicon_character_fraction": 0.2985012967340662
+          },
+          {
+            "member": 2,
+            "real_minus_destroyed_bits_per_transition": 0.3407053244751684,
+            "reference_lexicon_character_fraction": 0.30107601366952985
+          },
+          {
+            "member": 3,
+            "real_minus_destroyed_bits_per_transition": 0.33978834251746615,
+            "reference_lexicon_character_fraction": 0.29255697597025543
+          },
+          {
+            "member": 4,
+            "real_minus_destroyed_bits_per_transition": 0.35087511686028683,
+            "reference_lexicon_character_fraction": 0.30741331115577425
+          },
+          {
+            "member": 5,
+            "real_minus_destroyed_bits_per_transition": 0.36688536457905707,
+            "reference_lexicon_character_fraction": 0.289183172293498
+          }
+        ],
+        "mean_real_minus_destroyed_bits_per_transition": 0.33460223686594764,
+        "mean_reference_lexicon_character_fraction": 0.29748861188402137,
+        "objectives": [
+          -3.672756190916647,
+          -3.6845272222180023,
+          -3.7330341657556696,
+          -3.6628129233136644,
+          -3.7279969489703464,
+          -3.6790509520385113
+        ],
+        "stability": {
+          "all_member_exact_occurrence_weighted_fraction": 0.2709357332410292,
+          "all_member_exact_type_fraction": 0.336734693877551,
+          "mean_modal_type_fraction": 0.7346938775510201
+        },
+        "view_record_counts": [
+          17157,
+          16038,
+          15773,
+          19152,
+          14993,
+          18567
+        ]
+      },
+      "uncoupled": {
+        "held_metrics": [
+          {
+            "member": 0,
+            "real_minus_destroyed_bits_per_transition": 0.3196918790797474,
+            "reference_lexicon_character_fraction": 0.2806368350122205
+          },
+          {
+            "member": 1,
+            "real_minus_destroyed_bits_per_transition": 0.2833656965876488,
+            "reference_lexicon_character_fraction": 0.2954561093653233
+          },
+          {
+            "member": 2,
+            "real_minus_destroyed_bits_per_transition": 0.3414700486039342,
+            "reference_lexicon_character_fraction": 0.292743953294412
+          },
+          {
+            "member": 3,
+            "real_minus_destroyed_bits_per_transition": 0.3472661349049441,
+            "reference_lexicon_character_fraction": 0.292227479443245
+          },
+          {
+            "member": 4,
+            "real_minus_destroyed_bits_per_transition": 0.3333060258658113,
+            "reference_lexicon_character_fraction": 0.2990477071005917
+          },
+          {
+            "member": 5,
+            "real_minus_destroyed_bits_per_transition": 0.34576264335120804,
+            "reference_lexicon_character_fraction": 0.2777306006288586
+          }
+        ],
+        "mean_real_minus_destroyed_bits_per_transition": 0.3284770713988823,
+        "mean_reference_lexicon_character_fraction": 0.2896404474741085,
+        "objectives": [
+          -3.6759680957867715,
+          -3.680327877984324,
+          -3.7130728842231533,
+          -3.658635206727186,
+          -3.7291332457967856,
+          -3.6816118738823715
+        ],
+        "stability": {
+          "all_member_exact_occurrence_weighted_fraction": 0.18550824968270452,
+          "all_member_exact_type_fraction": 0.19387755102040816,
+          "mean_modal_type_fraction": 0.6105442176870748
+        },
+        "view_record_counts": [
+          17157,
+          16038,
+          15773,
+          19152,
+          14993,
+          18567
+        ]
+      }
+    },
+    "middle_high_german": {
+      "coupled": {
+        "held_metrics": [
+          {
+            "member": 0,
+            "real_minus_destroyed_bits_per_transition": 0.2046065468416775,
+            "reference_lexicon_character_fraction": 0.2977545236538042
+          },
+          {
+            "member": 1,
+            "real_minus_destroyed_bits_per_transition": 0.24876155062394592,
+            "reference_lexicon_character_fraction": 0.2865246355781281
+          },
+          {
+            "member": 2,
+            "real_minus_destroyed_bits_per_transition": 0.2572712709783292,
+            "reference_lexicon_character_fraction": 0.2574144076034129
+          },
+          {
+            "member": 3,
+            "real_minus_destroyed_bits_per_transition": 0.22567408676575076,
+            "reference_lexicon_character_fraction": 0.28048254132677286
+          },
+          {
+            "member": 4,
+            "real_minus_destroyed_bits_per_transition": 0.21074085766656908,
+            "reference_lexicon_character_fraction": 0.26325107647920265
+          },
+          {
+            "member": 5,
+            "real_minus_destroyed_bits_per_transition": 0.2687839535749889,
+            "reference_lexicon_character_fraction": 0.26865800306027887
+          }
+        ],
+        "mean_real_minus_destroyed_bits_per_transition": 0.23597304440854355,
+        "mean_reference_lexicon_character_fraction": 0.27568086461693325,
+        "objectives": [
+          -3.6078916006953854,
+          -3.647535864224514,
+          -3.651783931980156,
+          -3.607545131370069,
+          -3.640526070259218,
+          -3.601161638712839
+        ],
+        "stability": {
+          "all_member_exact_occurrence_weighted_fraction": 0.25409022729895003,
+          "all_member_exact_type_fraction": 0.3673469387755102,
+          "mean_modal_type_fraction": 0.7108843537414966
+        },
+        "view_record_counts": [
+          17157,
+          16038,
+          15773,
+          19152,
+          14993,
+          18567
+        ]
+      },
+      "uncoupled": {
+        "held_metrics": [
+          {
+            "member": 0,
+            "real_minus_destroyed_bits_per_transition": 0.21735675194761514,
+            "reference_lexicon_character_fraction": 0.2935526344190464
+          },
+          {
+            "member": 1,
+            "real_minus_destroyed_bits_per_transition": 0.23075554931365455,
+            "reference_lexicon_character_fraction": 0.28399666505770327
+          },
+          {
+            "member": 2,
+            "real_minus_destroyed_bits_per_transition": 0.2603347951039316,
+            "reference_lexicon_character_fraction": 0.26765645718757475
+          },
+          {
+            "member": 3,
+            "real_minus_destroyed_bits_per_transition": 0.26539660913185564,
+            "reference_lexicon_character_fraction": 0.29870974737070366
+          },
+          {
+            "member": 4,
+            "real_minus_destroyed_bits_per_transition": 0.21347942697426728,
+            "reference_lexicon_character_fraction": 0.26454945391669765
+          },
+          {
+            "member": 5,
+            "real_minus_destroyed_bits_per_transition": 0.2544192010728101,
+            "reference_lexicon_character_fraction": 0.2706804355826893
+          }
+        ],
+        "mean_real_minus_destroyed_bits_per_transition": 0.24029038892402238,
+        "mean_reference_lexicon_character_fraction": 0.27985756558906916,
+        "objectives": [
+          -3.593440593674309,
+          -3.647453330588907,
+          -3.644338914092558,
+          -3.586014799421805,
+          -3.636972148363755,
+          -3.592733696537114
+        ],
+        "stability": {
+          "all_member_exact_occurrence_weighted_fraction": 0.19859236183223722,
+          "all_member_exact_type_fraction": 0.19387755102040816,
+          "mean_modal_type_fraction": 0.5918367346938777
+        },
+        "view_record_counts": [
+          17157,
+          16038,
+          15773,
+          19152,
+          14993,
+          18567
+        ]
+      }
+    },
+    "old_italian": {
+      "coupled": {
+        "held_metrics": [
+          {
+            "member": 0,
+            "real_minus_destroyed_bits_per_transition": 0.21336712889288315,
+            "reference_lexicon_character_fraction": 0.32037591805179744
+          },
+          {
+            "member": 1,
+            "real_minus_destroyed_bits_per_transition": 0.23133827918111313,
+            "reference_lexicon_character_fraction": 0.3302923240731778
+          },
+          {
+            "member": 2,
+            "real_minus_destroyed_bits_per_transition": 0.20389437885455136,
+            "reference_lexicon_character_fraction": 0.3152890435464504
+          },
+          {
+            "member": 3,
+            "real_minus_destroyed_bits_per_transition": 0.25176826165377947,
+            "reference_lexicon_character_fraction": 0.31333960398427513
+          },
+          {
+            "member": 4,
+            "real_minus_destroyed_bits_per_transition": 0.29824604031729607,
+            "reference_lexicon_character_fraction": 0.3215147711913497
+          },
+          {
+            "member": 5,
+            "real_minus_destroyed_bits_per_transition": 0.2552255497881643,
+            "reference_lexicon_character_fraction": 0.33237246257448766
+          }
+        ],
+        "mean_real_minus_destroyed_bits_per_transition": 0.2423066064479646,
+        "mean_reference_lexicon_character_fraction": 0.32219735390358967,
+        "objectives": [
+          -3.446145054011138,
+          -3.4447760248877857,
+          -3.5021791519196213,
+          -3.4462692431426856,
+          -3.4226450349248227,
+          -3.460900961179173
+        ],
+        "stability": {
+          "all_member_exact_occurrence_weighted_fraction": 0.25782854505595937,
+          "all_member_exact_type_fraction": 0.3163265306122449,
+          "mean_modal_type_fraction": 0.7040816326530616
+        },
+        "view_record_counts": [
+          17157,
+          16038,
+          15773,
+          19152,
+          14993,
+          18567
+        ]
+      },
+      "uncoupled": {
+        "held_metrics": [
+          {
+            "member": 0,
+            "real_minus_destroyed_bits_per_transition": 0.2527090292517787,
+            "reference_lexicon_character_fraction": 0.32545353258895054
+          },
+          {
+            "member": 1,
+            "real_minus_destroyed_bits_per_transition": 0.25808379113540125,
+            "reference_lexicon_character_fraction": 0.3262562783587703
+          },
+          {
+            "member": 2,
+            "real_minus_destroyed_bits_per_transition": 0.21306342326011957,
+            "reference_lexicon_character_fraction": 0.32137606586298145
+          },
+          {
+            "member": 3,
+            "real_minus_destroyed_bits_per_transition": 0.24551317713321333,
+            "reference_lexicon_character_fraction": 0.3157703839829771
+          },
+          {
+            "member": 4,
+            "real_minus_destroyed_bits_per_transition": 0.2897668676109288,
+            "reference_lexicon_character_fraction": 0.31997379849098717
+          },
+          {
+            "member": 5,
+            "real_minus_destroyed_bits_per_transition": 0.2546074437236845,
+            "reference_lexicon_character_fraction": 0.3463304423875811
+          }
+        ],
+        "mean_real_minus_destroyed_bits_per_transition": 0.25229062201918767,
+        "mean_reference_lexicon_character_fraction": 0.3258600836120413,
+        "objectives": [
+          -3.431776276186789,
+          -3.4348071383729186,
+          -3.5023641053056447,
+          -3.434227099199845,
+          -3.4278894949227476,
+          -3.4567701004297007
+        ],
+        "stability": {
+          "all_member_exact_occurrence_weighted_fraction": 0.15394023306795893,
+          "all_member_exact_type_fraction": 0.1326530612244898,
+          "mean_modal_type_fraction": 0.5578231292517009
+        },
+        "view_record_counts": [
+          17157,
+          16038,
+          15773,
+          19152,
+          14993,
+          18567
+        ]
+      }
+    }
+  }
+}
