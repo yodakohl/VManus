@@ -1,0 +1,105 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "May establish blind end-to-end recovery of the modern public-capacity Naibbe control with supplied whitespace token boundaries. It may not establish that Voynich uses Naibbe or assign a Voynich plaintext, language, sound, lexeme, meaning, or f84 result.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt603_naibbe_end_to_end_control/src/run.py",
+    "validate": "python3 experiments/yolo/gdt603_naibbe_end_to_end_control/src/validate.py"
+  },
+  "created": "2026-08-28",
+  "dependencies": [
+    "GDT601",
+    "GDT602"
+  ],
+  "experiment_id": "GDT603",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt601_naibbe_literal_key_attack/src/run.py",
+      "role": "pinned source specifications and character model",
+      "sha256": "d9e1bbeb2d11050de2aa5406aa66ff13141a58b6f9a31f8c627835dbda4098e7"
+    },
+    {
+      "path": "experiments/yolo/gdt602_naibbe_blind_key_recovery/src/run.py",
+      "role": "capacity-constrained unknown-key solver",
+      "sha256": "0d9e4f6cecbd34037e63cec83fe963c42e0f6883e3dd59c69d1521e5f0490767"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt603_naibbe_end_to_end_control/README.md",
+      "role": "experiment entry point",
+      "sha256": "c656067299afa18693c60d89711ddbecadadbade78de68a3545b7f58f4e919bf"
+    },
+    {
+      "path": "experiments/yolo/gdt603_naibbe_end_to_end_control/METHOD.md",
+      "role": "blind segmentation, key recovery and evaluation method",
+      "sha256": "9195e546667a49f5a8c53bef6533569532642146da8455bd2e4828983dc00ad1"
+    },
+    {
+      "path": "experiments/yolo/gdt603_naibbe_end_to_end_control/PREREGISTRATION.md",
+      "role": "primary public-capacity decision contract",
+      "sha256": "a3d3ea6164c01bc2556a472e453c99ca6ddc79cc7fee53803ea595440b723ad4"
+    },
+    {
+      "path": "experiments/yolo/gdt603_naibbe_end_to_end_control/REPORT.md",
+      "role": "primary report",
+      "sha256": "d3ada3f029d0936e2ba36264a257f7281e6d5e3a73f4a0039bad48386406761d"
+    },
+    {
+      "path": "experiments/yolo/gdt603_naibbe_end_to_end_control/src/run.py",
+      "role": "deterministic blind segmenter, key solver and post-freeze evaluator",
+      "sha256": "3f8af7b3179e6e758dd8e8cf3757511a3bd3d9db91bf27077726c68a13dd608d"
+    },
+    {
+      "path": "experiments/yolo/gdt603_naibbe_end_to_end_control/src/validate.py",
+      "role": "independent artifact validator",
+      "sha256": "d1e5d7dfbf8d5f5a387a6a9f6aa1c1869990f3a7dccc1ddd37aa26457dfada26"
+    },
+    {
+      "path": "experiments/yolo/gdt603_naibbe_end_to_end_control/artifacts/README.md",
+      "role": "artifact guide",
+      "sha256": "b29575962032a8d191a765ab7094e3e718d18fd4c2d8bbf759923f5144a9822b"
+    },
+    {
+      "path": "experiments/yolo/gdt603_naibbe_end_to_end_control/artifacts/gdt603_blind_freeze.json",
+      "role": "complete truth-free segmentation and key freeze",
+      "sha256": "3336202aec8fe8d6f7b15df588ebe99730db3f3d384cec0184fee6109fceefa1"
+    },
+    {
+      "path": "experiments/yolo/gdt603_naibbe_end_to_end_control/artifacts/gdt603_blind_segmentations.tsv",
+      "role": "complete three-variant token segmentation maps",
+      "sha256": "11ba17022955f2d2bf40dbfcd2517a45dc21b4da455630805c3369bffa17f613"
+    },
+    {
+      "path": "experiments/yolo/gdt603_naibbe_end_to_end_control/artifacts/gdt603_recovered_keys.tsv",
+      "role": "complete recovered state-specific keys",
+      "sha256": "e49f8c7ab4da9a2f08a75c4fb9522d131a8bbe16f30a598bd09eccaa6095b188"
+    },
+    {
+      "path": "experiments/yolo/gdt603_naibbe_end_to_end_control/artifacts/gdt603_result.json",
+      "role": "compact post-freeze result",
+      "sha256": "f17ca417bc0a082c259ee62887b0cf9ca774cde64352e308a533bee93365e1a7"
+    },
+    {
+      "path": "experiments/yolo/gdt603_naibbe_end_to_end_control/artifacts/gdt603_validation.json",
+      "role": "26-check validation record",
+      "sha256": "e9554790917a3137d5ba66ce1a47ec3ef9cea38c567d4c45ef2a5133d156c300"
+    }
+  ],
+  "question": "Can the public-capacity Naibbe architecture be recovered end to end from ciphertext tokens without internal U/P/S boundaries, key, table, or aligned plaintext?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "naibbe_end_to_end_control",
+  "status": "END_TO_END_NAIBBE_CONTROL_RECOVERED_AT_PUBLIC_CAPACITY",
+  "title": "Blind end-to-end Naibbe control",
+  "updated": "2026-08-28",
+  "validation": {
+    "artifact": "experiments/yolo/gdt603_naibbe_end_to_end_control/artifacts/gdt603_validation.json",
+    "status": "PASS"
+  }
+}

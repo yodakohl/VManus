@@ -1,0 +1,390 @@
+{
+  "claim_ceiling": "Establishes end-to-end recovery only for the modern Naibbe control with given whitespace token boundaries and public architecture. It does not establish that Voynich uses Naibbe, does not recover Voynich plaintext, and does not license the exploratory U=115 selector.",
+  "configuration": {
+    "key_iterations": 40000,
+    "key_restarts": 2,
+    "key_seed_base": 20260828,
+    "navigation_u_sizes": [
+      115,
+      132
+    ],
+    "navigation_warning": "U=115 has deficient pre-oracle selector provenance and is never the primary claim",
+    "primary_reason": "public capacity-saturated U inventory; no oracle-tuned size selector",
+    "primary_u_size": 138,
+    "state_capacity": 138
+  },
+  "data_separation": {
+    "blind_freeze_sha256": "3336202aec8fe8d6f7b15df588ebe99730db3f3d384cec0184fee6109fceefa1",
+    "blind_phase_does_not_read": [
+      "published Naibbe table",
+      "aligned plaintext",
+      "true segmentation",
+      "true key"
+    ],
+    "blind_phase_reads": [
+      "pinned Naibbe ciphertext",
+      "pinned independent Caesar Latin corpus",
+      "public 23-letter by six-table capacity"
+    ],
+    "oracle_phase_starts_after_freeze": true
+  },
+  "decision_rule": "primary U=138 exact segmentation >=95%, end-to-end edit accuracy >=94%, and key accuracy given exact segmentation >=99%",
+  "evaluations": [
+    {
+      "boundary_f1": 0.9742189024220297,
+      "boundary_precision": 0.9708365737140318,
+      "boundary_recall": 0.977624881132181,
+      "end_to_end_edit_accuracy": 0.9664140118918714,
+      "exact_decoded_token_rate": 0.9743412725808307,
+      "exact_segmentation_accuracy_occurrence": 0.9745713956966977,
+      "exact_segmentation_majority_accuracy_type": 0.9907142857142858,
+      "inventories": {
+        "P": 131,
+        "S": 133,
+        "U": 115
+      },
+      "key_accuracy_given_exact_segmentation": 0.999844227661273,
+      "key_accuracy_on_covered_true_units": 0.9998270062469966,
+      "key_occurrence_coverage": 0.9882980946410592,
+      "key_type_accuracy_on_intersection": 0.9945205479452055,
+      "key_type_intersection": 365,
+      "predicted_bigram_tokens": 18002,
+      "predicted_characters": 52766,
+      "state_accuracy_occurrence": 0.975750776665516,
+      "state_majority_accuracy_type": 0.9925,
+      "token_occurrences": 34764,
+      "token_types": 5600,
+      "top_segmentation_error_classes": [
+        {
+          "count": 234,
+          "predicted_cut": 2,
+          "predicted_state": "B",
+          "truth_cut": null,
+          "truth_state": "U"
+        },
+        {
+          "count": 188,
+          "predicted_cut": null,
+          "predicted_state": "U",
+          "truth_cut": 2,
+          "truth_state": "B"
+        },
+        {
+          "count": 181,
+          "predicted_cut": 3,
+          "predicted_state": "B",
+          "truth_cut": null,
+          "truth_state": "U"
+        },
+        {
+          "count": 140,
+          "predicted_cut": null,
+          "predicted_state": "U",
+          "truth_cut": 1,
+          "truth_state": "B"
+        },
+        {
+          "count": 35,
+          "predicted_cut": 5,
+          "predicted_state": "B",
+          "truth_cut": null,
+          "truth_state": "U"
+        },
+        {
+          "count": 34,
+          "predicted_cut": 4,
+          "predicted_state": "B",
+          "truth_cut": null,
+          "truth_state": "U"
+        },
+        {
+          "count": 31,
+          "predicted_cut": null,
+          "predicted_state": "U",
+          "truth_cut": 4,
+          "truth_state": "B"
+        },
+        {
+          "count": 21,
+          "predicted_cut": 2,
+          "predicted_state": "B",
+          "truth_cut": 1,
+          "truth_state": "B"
+        },
+        {
+          "count": 10,
+          "predicted_cut": 1,
+          "predicted_state": "B",
+          "truth_cut": 2,
+          "truth_state": "B"
+        },
+        {
+          "count": 9,
+          "predicted_cut": 3,
+          "predicted_state": "B",
+          "truth_cut": 1,
+          "truth_state": "B"
+        },
+        {
+          "count": 1,
+          "predicted_cut": 2,
+          "predicted_state": "B",
+          "truth_cut": 3,
+          "truth_state": "B"
+        }
+      ],
+      "true_bigram_tokens": 17877,
+      "true_characters": 52641,
+      "u_size": 115
+    },
+    {
+      "boundary_f1": 0.9692251276409691,
+      "boundary_precision": 0.9775805166723569,
+      "boundary_recall": 0.9610113553728254,
+      "end_to_end_edit_accuracy": 0.9601641306206189,
+      "exact_decoded_token_rate": 0.9693360948107237,
+      "exact_segmentation_accuracy_occurrence": 0.9697963410424577,
+      "exact_segmentation_majority_accuracy_type": 0.9891071428571429,
+      "inventories": {
+        "P": 131,
+        "S": 133,
+        "U": 132
+      },
+      "key_accuracy_given_exact_segmentation": 0.9996856210948245,
+      "key_accuracy_on_covered_true_units": 0.9996740547588006,
+      "key_occurrence_coverage": 0.990786649189795,
+      "key_type_accuracy_on_intersection": 0.991869918699187,
+      "key_type_intersection": 369,
+      "predicted_bigram_tokens": 17574,
+      "predicted_characters": 52338,
+      "state_accuracy_occurrence": 0.970975722011276,
+      "state_majority_accuracy_type": 0.9908928571428571,
+      "token_occurrences": 34764,
+      "token_types": 5600,
+      "top_segmentation_error_classes": [
+        {
+          "count": 303,
+          "predicted_cut": null,
+          "predicted_state": "U",
+          "truth_cut": 2,
+          "truth_state": "B"
+        },
+        {
+          "count": 226,
+          "predicted_cut": null,
+          "predicted_state": "U",
+          "truth_cut": 1,
+          "truth_state": "B"
+        },
+        {
+          "count": 147,
+          "predicted_cut": 3,
+          "predicted_state": "B",
+          "truth_cut": null,
+          "truth_state": "U"
+        },
+        {
+          "count": 137,
+          "predicted_cut": 2,
+          "predicted_state": "B",
+          "truth_cut": null,
+          "truth_state": "U"
+        },
+        {
+          "count": 96,
+          "predicted_cut": null,
+          "predicted_state": "U",
+          "truth_cut": 3,
+          "truth_state": "B"
+        },
+        {
+          "count": 35,
+          "predicted_cut": 5,
+          "predicted_state": "B",
+          "truth_cut": null,
+          "truth_state": "U"
+        },
+        {
+          "count": 34,
+          "predicted_cut": 4,
+          "predicted_state": "B",
+          "truth_cut": null,
+          "truth_state": "U"
+        },
+        {
+          "count": 31,
+          "predicted_cut": null,
+          "predicted_state": "U",
+          "truth_cut": 4,
+          "truth_state": "B"
+        },
+        {
+          "count": 21,
+          "predicted_cut": 2,
+          "predicted_state": "B",
+          "truth_cut": 1,
+          "truth_state": "B"
+        },
+        {
+          "count": 10,
+          "predicted_cut": 1,
+          "predicted_state": "B",
+          "truth_cut": 2,
+          "truth_state": "B"
+        },
+        {
+          "count": 9,
+          "predicted_cut": 3,
+          "predicted_state": "B",
+          "truth_cut": 1,
+          "truth_state": "B"
+        },
+        {
+          "count": 1,
+          "predicted_cut": 2,
+          "predicted_state": "B",
+          "truth_cut": 3,
+          "truth_state": "B"
+        }
+      ],
+      "true_bigram_tokens": 17877,
+      "true_characters": 52641,
+      "u_size": 132
+    },
+    {
+      "boundary_f1": 0.9668334888455339,
+      "boundary_precision": 0.9775300171526586,
+      "boundary_recall": 0.9563685182077529,
+      "end_to_end_edit_accuracy": 0.9568017324898843,
+      "exact_decoded_token_rate": 0.9669485674836037,
+      "exact_segmentation_accuracy_occurrence": 0.9674088137153377,
+      "exact_segmentation_majority_accuracy_type": 0.9880357142857142,
+      "inventories": {
+        "P": 131,
+        "S": 133,
+        "U": 138
+      },
+      "key_accuracy_given_exact_segmentation": 0.9996845923355937,
+      "key_accuracy_on_covered_true_units": 0.9996740547588006,
+      "key_occurrence_coverage": 0.990786649189795,
+      "key_type_accuracy_on_intersection": 0.991869918699187,
+      "key_type_intersection": 369,
+      "predicted_bigram_tokens": 17490,
+      "predicted_characters": 52254,
+      "state_accuracy_occurrence": 0.9685594292946726,
+      "state_majority_accuracy_type": 0.9898214285714285,
+      "token_occurrences": 34764,
+      "token_types": 5600,
+      "top_segmentation_error_classes": [
+        {
+          "count": 324,
+          "predicted_cut": null,
+          "predicted_state": "U",
+          "truth_cut": 2,
+          "truth_state": "B"
+        },
+        {
+          "count": 253,
+          "predicted_cut": null,
+          "predicted_state": "U",
+          "truth_cut": 1,
+          "truth_state": "B"
+        },
+        {
+          "count": 147,
+          "predicted_cut": 3,
+          "predicted_state": "B",
+          "truth_cut": null,
+          "truth_state": "U"
+        },
+        {
+          "count": 137,
+          "predicted_cut": 2,
+          "predicted_state": "B",
+          "truth_cut": null,
+          "truth_state": "U"
+        },
+        {
+          "count": 116,
+          "predicted_cut": null,
+          "predicted_state": "U",
+          "truth_cut": 3,
+          "truth_state": "B"
+        },
+        {
+          "count": 47,
+          "predicted_cut": null,
+          "predicted_state": "U",
+          "truth_cut": 4,
+          "truth_state": "B"
+        },
+        {
+          "count": 35,
+          "predicted_cut": 5,
+          "predicted_state": "B",
+          "truth_cut": null,
+          "truth_state": "U"
+        },
+        {
+          "count": 34,
+          "predicted_cut": 4,
+          "predicted_state": "B",
+          "truth_cut": null,
+          "truth_state": "U"
+        },
+        {
+          "count": 21,
+          "predicted_cut": 2,
+          "predicted_state": "B",
+          "truth_cut": 1,
+          "truth_state": "B"
+        },
+        {
+          "count": 9,
+          "predicted_cut": 3,
+          "predicted_state": "B",
+          "truth_cut": 1,
+          "truth_state": "B"
+        },
+        {
+          "count": 9,
+          "predicted_cut": 1,
+          "predicted_state": "B",
+          "truth_cut": 2,
+          "truth_state": "B"
+        },
+        {
+          "count": 1,
+          "predicted_cut": 2,
+          "predicted_state": "B",
+          "truth_cut": 3,
+          "truth_state": "B"
+        }
+      ],
+      "true_bigram_tokens": 17877,
+      "true_characters": 52641,
+      "u_size": 138
+    }
+  ],
+  "experiment_id": "GDT603",
+  "question": "Can the public-capacity Naibbe architecture be recovered end to end from ciphertext tokens without internal U/P/S boundaries, key, table, or aligned plaintext?",
+  "sources": {
+    "caesar": {
+      "sha256": "84ac8411841a4d8f5f4a49b6a2cd1f466917c6a5af72916d5e0b2b1ecb2f659c",
+      "url": "https://raw.githubusercontent.com/lrozanova/voynich-units/956a7c4fc39981f4d116fa3f4edfccce6d065571/voynich_decipherment_repro_bundle/decipherment_attack_v6/lm_corpora/caesar_la.txt"
+    },
+    "ciphertext": {
+      "sha256": "9cdf2de12f371ac7efdb2e78713f229ada508286c1717758184238a59cd64326",
+      "url": "https://raw.githubusercontent.com/greshko/naibbe-cipher/f2675ec5dd275268bc64dd48ea64fc0e0e9827a2/encrypted/nathist_output_ciphertext.txt"
+    },
+    "plaintext_evaluation_only": {
+      "sha256": "4979b6826c75dd47b90d6c95ac212a34cd3735b1151ca2a524e9d13b4112e93b",
+      "url": "https://raw.githubusercontent.com/greshko/naibbe-cipher/f2675ec5dd275268bc64dd48ea64fc0e0e9827a2/respaced_plaintext/nathist_pre_encryption_respaced_plaintext.txt"
+    },
+    "table_evaluation_only": {
+      "sha256": "4e7cfd54b7ec66515d39a51e11ec97e8e19b643b0b189124eebc3982e707dcec",
+      "url": "https://raw.githubusercontent.com/greshko/naibbe-cipher/f2675ec5dd275268bc64dd48ea64fc0e0e9827a2/references/naibbe_tables.csv"
+    }
+  },
+  "status": "END_TO_END_NAIBBE_CONTROL_RECOVERED_AT_PUBLIC_CAPACITY"
+}

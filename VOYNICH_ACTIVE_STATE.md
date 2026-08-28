@@ -6,7 +6,7 @@ Updated: 2026-08-28. This is the full claim registry. For routine work, read
 
 ## Outcome
 
-### Decipherment reset (GDT601–GDT602)
+### Decipherment reset (GDT601–GDT603)
 
 No concrete GDT409+ German value is confirmed manuscript content. The
 independent survivor audit has `SURVIVES = ∅` for form-to-denotation claims;
@@ -23,6 +23,14 @@ giving the optimizer the table, plaintext, or true key: 52,626/52,641 control
 characters and 391/396 types. This identifies the remaining bottleneck as blind
 segmentation. It is a control-cipher result, not a Voynich key. No target
 Voynich row and no f84/f84r material enters GDT602.
+
+GDT603 closes that control bottleneck. Its primary public-capacity U=138 model
+freezes every segmentation and key before opening the table or aligned
+plaintext, then recovers 96.7409% exact state-plus-cut segmentations, 96.6949%
+exact tokens and 95.6802% normalized plaintext characters end to end; key
+accuracy after an exact segmentation is 99.9685%. U=115 and U=132 remain
+navigation only. This licenses an unchanged held-folio target falsifier, not a
+Voynich reading; the Naibbe architecture itself remains unestablished.
 
 ### Noncanonical twenty-six-page sidequest (GDT414)
 
