@@ -1,0 +1,187 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "May select or reject only the repaired synthetic CORE_RUN/MACRO generator, objective, and blind recovery. It may not fit Voynich target data or assign a Voynich unit, word, sound, language, plaintext, object, operation, or meaning; f84/f84r are forbidden.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt614_core_run_macro_recovery/src/run.py",
+    "validate": "python3 experiments/yolo/gdt614_core_run_macro_recovery/src/validate.py"
+  },
+  "created": "2026-08-29",
+  "dependencies": [
+    "GDT608",
+    "GDT609",
+    "GDT612",
+    "GDT613"
+  ],
+  "experiment_id": "GDT614",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt608_compositional_stem_orientation/artifacts/merge_tree.tsv",
+      "role": "published directed 98-unit tree and all 64 named merges",
+      "sha256": "2098c71be9da13b483cf2561e06412276d8c60aa32e72520e8877f8f5d53090a"
+    },
+    {
+      "path": "experiments/yolo/gdt609_historical_mixed_abbreviation_prior/artifacts/model_v1.json",
+      "role": "published historical mixed-abbreviation role family",
+      "sha256": "0c9219bd02e063758806b58a174cbf546fdf0f3c5853ed3c98dcfa422abbe5f0"
+    },
+    {
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/artifacts/reference_splits/synthetic_train.txt",
+      "role": "frozen natural-Latin synthetic train partition",
+      "sha256": "466f1568a9a387c4b091a6c1679c78ee136919ca7c959bd8742afdda3d272e78"
+    },
+    {
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/artifacts/reference_splits/synthetic_held.txt",
+      "role": "frozen natural-Latin synthetic held partition",
+      "sha256": "7fa47a1396870cf32d00748bbb213e993e853239a57b425796df26ac8e5f04bd"
+    },
+    {
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/artifacts/reference_splits/lm_fit.txt",
+      "role": "frozen LM_A fit partition and sole mutation-candidate source",
+      "sha256": "2255b67ffb1b41bf1c327b97fb5b7c87acec70947aeeb3b75143d55a2af1c412"
+    },
+    {
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/artifacts/reference_splits/lm_confirm.txt",
+      "role": "frozen independent LM_B confirmation partition",
+      "sha256": "73d40ca54cc2fec3e7f1a5df4994a5cd394f4cbee2dacf966aa81c59518246a1"
+    },
+    {
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/artifacts/compiled_model.json",
+      "role": "published V1 compiler/tree binding for exact V2 delta and validator audit",
+      "sha256": "e171acac3b3d921f8234f222888223f2ef278409edf5e797d541a623d6b3f250"
+    },
+    {
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/artifacts/length_card_profile.json",
+      "role": "published failed V1 deck for exact two-card length-delta audit",
+      "sha256": "9e6c4a6412efe39e924bd360d3edd9d53cd1210ff801c5a72c9d12cefeb1079e"
+    },
+    {
+      "path": "experiments/yolo/gdt612_historical_fst34_target_attack/artifacts/units.tsv",
+      "role": "published 98-unit identifiers and recursive child pointers",
+      "sha256": "8fc32a38dbe47a5d738698ccccd7289fe3d533e9e5d870624da11f0fc5d19180"
+    },
+    {
+      "path": "experiments/yolo/gdt612_historical_fst34_target_attack/artifacts/keys/synthetic/seed_7001/primitive_mapping.tsv",
+      "role": "archived synthetic pseudokey diagnostic seed 7001 primitives",
+      "sha256": "ec33df734cc8e6414ef099d189391791d8ec3f051cf6aa8506497d1274d44852"
+    },
+    {
+      "path": "experiments/yolo/gdt612_historical_fst34_target_attack/artifacts/keys/synthetic/seed_7001/merge_overrides.tsv",
+      "role": "archived synthetic pseudokey diagnostic seed 7001 overrides",
+      "sha256": "f7c32926ce410f766138d560a13e8fe9ecf58c3094827da445fe5f10aff877f0"
+    },
+    {
+      "path": "experiments/yolo/gdt612_historical_fst34_target_attack/artifacts/keys/synthetic/seed_7002/primitive_mapping.tsv",
+      "role": "archived synthetic pseudokey diagnostic seed 7002 primitives",
+      "sha256": "6833c05919a3c1a4ea7accce8065fd8f68bb1fbfe1473bb4d1b093e46e880a98"
+    },
+    {
+      "path": "experiments/yolo/gdt612_historical_fst34_target_attack/artifacts/keys/synthetic/seed_7002/merge_overrides.tsv",
+      "role": "archived synthetic pseudokey diagnostic seed 7002 overrides",
+      "sha256": "35ce9156de54268c201a9cefe6e213151c855332c787b22b0de9d0de66716521"
+    },
+    {
+      "path": "experiments/yolo/gdt612_historical_fst34_target_attack/artifacts/keys/synthetic/seed_7003/primitive_mapping.tsv",
+      "role": "archived synthetic pseudokey diagnostic seed 7003 primitives",
+      "sha256": "c2e5fa9c6177d57bf864d46b0052e203ab66fd6e10aaae45899a18f41093d0f2"
+    },
+    {
+      "path": "experiments/yolo/gdt612_historical_fst34_target_attack/artifacts/keys/synthetic/seed_7003/merge_overrides.tsv",
+      "role": "archived synthetic pseudokey diagnostic seed 7003 overrides",
+      "sha256": "fdd8a2edd201eacf5074b6e2f640c4e5e880825ae388d72914143dd107d63448"
+    },
+    {
+      "path": "experiments/yolo/gdt612_historical_fst34_target_attack/artifacts/keys/synthetic/seed_7004/primitive_mapping.tsv",
+      "role": "archived synthetic pseudokey diagnostic seed 7004 primitives",
+      "sha256": "05a0de92630b38c76c3107948478e39385b61c7b3533b1263007ab39aa73c473"
+    },
+    {
+      "path": "experiments/yolo/gdt612_historical_fst34_target_attack/artifacts/keys/synthetic/seed_7004/merge_overrides.tsv",
+      "role": "archived synthetic pseudokey diagnostic seed 7004 overrides",
+      "sha256": "e63713385e65a95384fb4098b2cf602a3a2a849e9e1d0ac1d61e81f0037138e1"
+    },
+    {
+      "path": "experiments/yolo/gdt612_historical_fst34_target_attack/artifacts/keys/synthetic/seed_7005/primitive_mapping.tsv",
+      "role": "archived synthetic pseudokey diagnostic seed 7005 primitives",
+      "sha256": "11dbdae04f5a761d2315fbffb65fcdbcf22a6fcad5510680d46c4f5eddd03410"
+    },
+    {
+      "path": "experiments/yolo/gdt612_historical_fst34_target_attack/artifacts/keys/synthetic/seed_7005/merge_overrides.tsv",
+      "role": "archived synthetic pseudokey diagnostic seed 7005 overrides",
+      "sha256": "6b1009066bb26a897ca05e284df602507146209bb4e0320e737dea1ccb9b35c7"
+    },
+    {
+      "path": "experiments/yolo/gdt612_historical_fst34_target_attack/artifacts/keys/synthetic/seed_7006/primitive_mapping.tsv",
+      "role": "archived synthetic pseudokey diagnostic seed 7006 primitives",
+      "sha256": "5ab1de6085da7c2a4e7879c03d656e9415c0ada4cc4c41ca65163991428aa022"
+    },
+    {
+      "path": "experiments/yolo/gdt612_historical_fst34_target_attack/artifacts/keys/synthetic/seed_7006/merge_overrides.tsv",
+      "role": "archived synthetic pseudokey diagnostic seed 7006 overrides",
+      "sha256": "7df961d833529ef220421803b1effba99651acabe4c46b3e3ad2729161b01235"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt614_core_run_macro_recovery/README.md",
+      "role": "registered synthetic-only experiment entry point",
+      "sha256": "f8d1eabfe56a6d13cbf4e08bc175f4f1d8ac69e11d8d5ba76bbf97eae59fe630"
+    },
+    {
+      "path": "experiments/yolo/gdt614_core_run_macro_recovery/METHOD.md",
+      "role": "registered repaired method and claim ceiling",
+      "sha256": "96e55d91f1c0a6a1bb15e5f64d433668b179f1a80cbf6347a97188587574bb54"
+    },
+    {
+      "path": "experiments/yolo/gdt614_core_run_macro_recovery/PREREGISTRATION.md",
+      "role": "prospective construction, oracle, and recovery gates",
+      "sha256": "552b3ee1cda663157c793ab30434aa67aef3ab534a94117bdb62e8d33b9600d1"
+    },
+    {
+      "path": "experiments/yolo/gdt614_core_run_macro_recovery/HISTORICAL_MODEL_NOTE.md",
+      "role": "historical source audit and frozen profile interpretation",
+      "sha256": "f78c50b80cdeba9601a1e432d1a8f87110849d8c9cf0f931381601b73465fa84"
+    },
+    {
+      "path": "experiments/yolo/gdt614_core_run_macro_recovery/artifacts/REGISTERED_MODEL.json",
+      "role": "frozen V2 grammar, deck, primitive assignment, thresholds, and seeds",
+      "sha256": "ed841dc254a961650a8bda8bdc6024b67655f6bdc96e5dab2aec02f1686ecc42"
+    },
+    {
+      "path": "experiments/yolo/gdt614_core_run_macro_recovery/artifacts/REGISTERED_TRANSITIONS.tsv",
+      "role": "frozen complete V2 transition catalog",
+      "sha256": "bf26bfeaa258a65e3c22a8e035cf6ddec30557307ebc9c7619c662b12324271e"
+    },
+    {
+      "path": "experiments/yolo/gdt614_core_run_macro_recovery/src/run.py",
+      "role": "registered placeholder runner before implementation",
+      "sha256": "82819fe5a84a0829820ca95f647e4af71c932f5e7bbce9662cd7b8c4d43f15aa"
+    },
+    {
+      "path": "experiments/yolo/gdt614_core_run_macro_recovery/src/validate.py",
+      "role": "registered placeholder validator before implementation",
+      "sha256": "82819fe5a84a0829820ca95f647e4af71c932f5e7bbce9662cd7b8c4d43f15aa"
+    },
+    {
+      "path": "experiments/yolo/gdt614_core_run_macro_recovery/artifacts/README.md",
+      "role": "registered artifact placeholder",
+      "sha256": "ea2dd7229bd1ccb3a4d1f5b78ce4c5f2ab6587b32efedcd5bd829d3d2e5a26be"
+    }
+  ],
+  "question": "Can the minimal GDT613 repair construct three observation-complete natural truth worlds and make all 34 primitive cards, eight paid merge cards, 64 merge behaviors, transitions, and held plaintext blindly recoverable?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "core_run_macro_recovery",
+  "status": "REGISTERED_UNSCORED",
+  "title": "Observation-complete CORE_RUN/MACRO recovery",
+  "updated": "2026-08-29",
+  "validation": {
+    "artifact": null,
+    "status": "NOT_RUN"
+  }
+}

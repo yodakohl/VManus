@@ -1,0 +1,22 @@
+transition_id	from_state	to_state	condition
+T01_PREFIX_FIRST	WORD_START	PREFIX	first prefix before body
+T02_PREFIX_STACK	PREFIX	PREFIX	second prefix before body
+T03_LITERAL_FIRST	BODY_START	LITERAL	first core term is literal
+T04_SYLLABIC_FIRST	BODY_START	SYLLABIC	first core term is syllabic
+T05_SHORT_FIRST	BODY_START	SHORT_CARD	first core term is paid short
+T06_MACRO_FIRST	BODY_START	MACRO_CORE	first core term is macro
+T07_LITERAL_ADJACENT	CORE_TERM	LITERAL	adjacent literal in same core run
+T08_SYLLABIC_ADJACENT	CORE_TERM	SYLLABIC	adjacent syllabic in same core run
+T09_SHORT_ADJACENT	CORE_TERM	SHORT_CARD	adjacent paid short in same core run
+T10_MACRO_ADJACENT	CORE_TERM	MACRO_CORE	adjacent macro in same core run
+T11_CONNECTOR_INTERNAL	CORE_RUN	CONNECTOR	internal connector between core runs
+T12_LITERAL_AFTER_CONNECTOR	CONNECTOR	LITERAL	literal starts next core run
+T13_SYLLABIC_AFTER_CONNECTOR	CONNECTOR	SYLLABIC	syllabic starts next core run
+T14_SHORT_AFTER_CONNECTOR	CONNECTOR	SHORT_CARD	paid short starts next core run
+T15_MACRO_AFTER_CONNECTOR	CONNECTOR	MACRO_CORE	macro starts next core run
+T16_CONTEXT_PRE_LITERAL	CORE_POSITION	CONTEXT_LITERAL	context mark before literal
+T17_CONTEXT_POST_LITERAL	CORE_POSITION	LITERAL_CONTEXT	context mark after literal
+T18_SUFFIX_FIRST	CORE_RUN	SUFFIX	first suffix after body
+T19_SUFFIX_STACK	SUFFIX	SUFFIX	second suffix after body
+T20_NULL_LEFT_EDGE	EVENT_START	NULL	layout null before word
+T21_NULL_RIGHT_EDGE	WORD_END	NULL	layout null after word
