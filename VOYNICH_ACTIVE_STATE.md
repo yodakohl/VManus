@@ -1,10 +1,28 @@
 # Voynich active state — structural reset baseline
 
-Updated: 2026-08-27. This is the full claim registry. For routine work, read
+Updated: 2026-08-28. This is the full claim registry. For routine work, read
 `VOYNICH_CURRENT_ROUTE.md` first and open only the relevant sections here and in
 `experiments/semantic_assumptions/ACTIVE_EXPERIMENT_LEDGER.tsv`.
 
 ## Outcome
+
+### Decipherment reset (GDT601–GDT602)
+
+No concrete GDT409+ German value is confirmed manuscript content. The
+independent survivor audit has `SURVIVES = ∅` for form-to-denotation claims;
+the values below remain an explicitly noncanonical working edition only.
+
+GDT601 rejects Michael A. Greshko's complete published Naibbe table as a
+literal key. Its shipped Pliny control has 100% strict table coverage and a
+Latin order score `z=147.24`, whereas 91 f84-free physical Voynich folios have
+79.86% event coverage but Latin and Italian `z=-2.33` against within-run order
+nulls. Designed surface coverage does not produce plaintext.
+
+GDT602 recovers an unknown Naibbe key after oracle U/P/S segmentation without
+giving the optimizer the table, plaintext, or true key: 52,626/52,641 control
+characters and 391/396 types. This identifies the remaining bottleneck as blind
+segmentation. It is a control-cipher result, not a Voynich key. No target
+Voynich row and no f84/f84r material enters GDT602.
 
 ### Noncanonical twenty-six-page sidequest (GDT414)
 

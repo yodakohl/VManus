@@ -1,0 +1,127 @@
+{
+  "capacity_mdl_final": {
+    "characters": 52641,
+    "correct_characters": 52626,
+    "correct_types": 391,
+    "type_accuracy": 0.9873737373737373,
+    "types": 396,
+    "weighted_character_accuracy": 0.99971505100587
+  },
+  "capacity_mdl_identical_keys_across_seeds": false,
+  "capacity_mdl_seeds": [
+    {
+      "characters": 52641,
+      "correct_characters": 52626,
+      "correct_types": 391,
+      "score_bits_per_event": -3.695096748253649,
+      "seed": 1,
+      "type_accuracy": 0.9873737373737373,
+      "types": 396,
+      "weighted_character_accuracy": 0.99971505100587
+    },
+    {
+      "characters": 52641,
+      "correct_characters": 52626,
+      "correct_types": 391,
+      "score_bits_per_event": -3.6950967482536514,
+      "seed": 2,
+      "type_accuracy": 0.9873737373737373,
+      "types": 396,
+      "weighted_character_accuracy": 0.99971505100587
+    },
+    {
+      "characters": 52641,
+      "correct_characters": 52626,
+      "correct_types": 391,
+      "score_bits_per_event": -3.695096748253649,
+      "seed": 3,
+      "type_accuracy": 0.9873737373737373,
+      "types": 396,
+      "weighted_character_accuracy": 0.99971505100587
+    }
+  ],
+  "claim_ceiling": "Demonstrates near-exact unknown-key recovery for the public six-table Naibbe model conditional on oracle U/P/S segmentation. It is not an end-to-end segmentation result and does not decode Voynich.",
+  "data_separation": {
+    "evaluation_only": [
+      "aligned plaintext",
+      "published table",
+      "true key"
+    ],
+    "solver_does_not_receive": [
+      "aligned plaintext",
+      "published surface-to-letter table",
+      "true key"
+    ],
+    "solver_receives": [
+      "state-tagged oracle-segmented surface IDs",
+      "line boundaries",
+      "23-letter alphabet",
+      "public six-table capacity",
+      "independent Caesar char-4 model"
+    ]
+  },
+  "experiment_id": "GDT602",
+  "problem": {
+    "alphabet_letters": "abcdefghilmnopqrstuvxyz",
+    "characters": 52641,
+    "lm_events_including_line_boundaries": 53703,
+    "nonempty_lines": 1063,
+    "observed_state_specific_types": 396,
+    "public_capacity": "at most six surface types per state and plaintext letter",
+    "states": [
+      "U",
+      "P",
+      "S"
+    ]
+  },
+  "sources": {
+    "caesar_la.txt": {
+      "sha256": "84ac8411841a4d8f5f4a49b6a2cd1f466917c6a5af72916d5e0b2b1ecb2f659c",
+      "url": "https://raw.githubusercontent.com/lrozanova/voynich-units/956a7c4fc39981f4d116fa3f4edfccce6d065571/voynich_decipherment_repro_bundle/decipherment_attack_v6/lm_corpora/caesar_la.txt"
+    },
+    "divina_commedia.txt": {
+      "sha256": "aafa15bbc0644dac7680ce3d0e4494b99775fbc83394cb7ad88145a0f8d6b31e",
+      "url": "https://raw.githubusercontent.com/greshko/naibbe-cipher/f2675ec5dd275268bc64dd48ea64fc0e0e9827a2/input/examples/divina_commedia.txt"
+    },
+    "naibbe_tables.csv": {
+      "sha256": "4e7cfd54b7ec66515d39a51e11ec97e8e19b643b0b189124eebc3982e707dcec",
+      "url": "https://raw.githubusercontent.com/greshko/naibbe-cipher/f2675ec5dd275268bc64dd48ea64fc0e0e9827a2/references/naibbe_tables.csv"
+    },
+    "nathist_output_ciphertext.txt": {
+      "sha256": "9cdf2de12f371ac7efdb2e78713f229ada508286c1717758184238a59cd64326",
+      "url": "https://raw.githubusercontent.com/greshko/naibbe-cipher/f2675ec5dd275268bc64dd48ea64fc0e0e9827a2/encrypted/nathist_output_ciphertext.txt"
+    },
+    "nathist_pre_encryption_respaced_plaintext.txt": {
+      "sha256": "4979b6826c75dd47b90d6c95ac212a34cd3735b1151ca2a524e9d13b4112e93b",
+      "url": "https://raw.githubusercontent.com/greshko/naibbe-cipher/f2675ec5dd275268bc64dd48ea64fc0e0e9827a2/respaced_plaintext/nathist_pre_encryption_respaced_plaintext.txt"
+    }
+  },
+  "status": "NAIBBE_KEY_RECOVERED_CONDITIONAL_ON_ORACLE_SEGMENTATION",
+  "truth_key_score_bits_per_event": -3.6993825456432847,
+  "typicality": {
+    "capacity_mdl": {
+      "order_2_bits_per_event": -0.15167359405156347,
+      "order_3_bits_per_event": -0.6346913924792209,
+      "order_4_bits_per_event": -1.7253125748175444
+    },
+    "truth": {
+      "order_2_bits_per_event": -0.15468981290316725,
+      "order_3_bits_per_event": -0.6395665375233751,
+      "order_4_bits_per_event": -1.7309200437220515
+    },
+    "unconstrained_ml": {
+      "order_2_bits_per_event": -1.8628422459325193,
+      "order_3_bits_per_event": -1.9512395839172825,
+      "order_4_bits_per_event": -2.2224002844753135
+    }
+  },
+  "unconstrained_ml": {
+    "characters": 52641,
+    "correct_characters": 10035,
+    "correct_types": 37,
+    "score_bits_per_event": -3.5830958489054563,
+    "type_accuracy": 0.09343434343434344,
+    "types": 396,
+    "weighted_character_accuracy": 0.19063087707300394
+  }
+}

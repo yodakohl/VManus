@@ -1,0 +1,89 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "May establish unknown-key recovery for the public six-table Naibbe model conditional on oracle U/P/S segmentation; may not claim end-to-end segmentation, Voynich plaintext, language, sound, lexeme, or meaning.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt602_naibbe_blind_key_recovery/src/run.py",
+    "validate": "python3 experiments/yolo/gdt602_naibbe_blind_key_recovery/src/validate.py"
+  },
+  "created": "2026-08-28",
+  "dependencies": [
+    "GDT601"
+  ],
+  "experiment_id": "GDT602",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt601_naibbe_literal_key_attack/src/run.py",
+      "role": "hash-bound source fetch and character-model implementation",
+      "sha256": "d9e1bbeb2d11050de2aa5406aa66ff13141a58b6f9a31f8c627835dbda4098e7"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt602_naibbe_blind_key_recovery/README.md",
+      "role": "experiment entry point",
+      "sha256": "90f5d6b56f649691d9e70f364c3d459dc997b69853f32d3b8d247d5e1517a340"
+    },
+    {
+      "path": "experiments/yolo/gdt602_naibbe_blind_key_recovery/METHOD.md",
+      "role": "blind-key recovery method",
+      "sha256": "1fd75757979f3ff13757164b92684b93cb5166a0c117f3d9b7bdde72ba1a320f"
+    },
+    {
+      "path": "experiments/yolo/gdt602_naibbe_blind_key_recovery/PREREGISTRATION.md",
+      "role": "decision rules and claim ceiling",
+      "sha256": "14724a1768071145d99641f50f73f8cca7f8ca9d2f691be7ef311020581103cb"
+    },
+    {
+      "path": "experiments/yolo/gdt602_naibbe_blind_key_recovery/REPORT.md",
+      "role": "primary report",
+      "sha256": "d5ca492cd9ae78a0185aba07beeee6c62fba0082e8ca25751945465984619230"
+    },
+    {
+      "path": "experiments/yolo/gdt602_naibbe_blind_key_recovery/src/run.py",
+      "role": "deterministic blind-key recovery runner",
+      "sha256": "0d9e4f6cecbd34037e63cec83fe963c42e0f6883e3dd59c69d1521e5f0490767"
+    },
+    {
+      "path": "experiments/yolo/gdt602_naibbe_blind_key_recovery/src/validate.py",
+      "role": "independent recovery validator",
+      "sha256": "75fe5ad378b2ad92555abebce2886b82ef9dd3d23673bb11c64b954898314d5c"
+    },
+    {
+      "path": "experiments/yolo/gdt602_naibbe_blind_key_recovery/artifacts/README.md",
+      "role": "artifact guide",
+      "sha256": "dee0f49ae8d51cef04b9331d5bd20180613ce426ed4edfed2bfe832a253b428b"
+    },
+    {
+      "path": "experiments/yolo/gdt602_naibbe_blind_key_recovery/artifacts/gdt602_result.json",
+      "role": "compact result",
+      "sha256": "37091b49d31bc5ee7e204d342d1890e1a2b4420f2f283ba56973bc65a9f3ee48"
+    },
+    {
+      "path": "experiments/yolo/gdt602_naibbe_blind_key_recovery/artifacts/gdt602_recovered_key.tsv",
+      "role": "recovered state-specific key",
+      "sha256": "c49657ee15e1fa6a5771fb4e6c1eabd77d5bf95d5a1047c23cb246f7f3d34d8b"
+    },
+    {
+      "path": "experiments/yolo/gdt602_naibbe_blind_key_recovery/artifacts/gdt602_validation.json",
+      "role": "validation record",
+      "sha256": "4e9f4ab164e4606f5c8d1793d16f7179ef2b9a4ae7ca601580b374c6827f8ef1"
+    }
+  ],
+  "question": "Can the unknown Naibbe surface-to-letter key be recovered without key or aligned plaintext once U/P/S segmentation is supplied?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "naibbe_blind_key_recovery",
+  "status": "NAIBBE_KEY_RECOVERED_CONDITIONAL_ON_ORACLE_SEGMENTATION",
+  "title": "Blind Naibbe-key recovery after segmentation",
+  "updated": "2026-08-28",
+  "validation": {
+    "artifact": "experiments/yolo/gdt602_naibbe_blind_key_recovery/artifacts/gdt602_validation.json",
+    "status": "PASS"
+  }
+}

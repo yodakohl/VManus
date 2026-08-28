@@ -1,0 +1,97 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "May reject the exact published Naibbe table under normal orientation and the executable gap model; may not reject all verbose/homophonic ciphers or assign Voynich plaintext, language, sound, lexeme, or meaning.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt601_naibbe_literal_key_attack/src/run.py",
+    "validate": "python3 experiments/yolo/gdt601_naibbe_literal_key_attack/src/validate.py"
+  },
+  "created": "2026-08-28",
+  "dependencies": [
+    "GDT188",
+    "GDT190",
+    "GDT191",
+    "GDT327"
+  ],
+  "experiment_id": "GDT601",
+  "inputs": [
+    {
+      "path": "gdt327_joint_tuple_interlinear.tsv",
+      "role": "f84-free folio allow-list source",
+      "sha256": "7eba46774be44992064cc114f67329723ac7bf589321b0d763fb7f7f748cc1e9"
+    },
+    {
+      "path": "transcription/voynich_zl3b_lines.tsv",
+      "role": "guarded-query transcription source; f84 and f84r remain forbidden",
+      "sha256": "7520dd4c11f4d23c8492e4b2a52cc0fcbda6d9fc88a96ead8f1c31081a4d7ed2"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt601_naibbe_literal_key_attack/README.md",
+      "role": "experiment entry point",
+      "sha256": "bb01f0b9563567dab15cc5a6effe23a4a26d5c9ed04a4ee08a11f1994cf53abf"
+    },
+    {
+      "path": "experiments/yolo/gdt601_naibbe_literal_key_attack/METHOD.md",
+      "role": "literal-key attack method",
+      "sha256": "649cbd120eef1a53ad4ce87bd2e62278d7cbdf5c5ac56d5103f175b375243af5"
+    },
+    {
+      "path": "experiments/yolo/gdt601_naibbe_literal_key_attack/PREREGISTRATION.md",
+      "role": "decision rules and claim ceiling",
+      "sha256": "8d4cf7d82133d78c94c36acb0552e036737752a27def5944cea810cc2d00def9"
+    },
+    {
+      "path": "experiments/yolo/gdt601_naibbe_literal_key_attack/REPORT.md",
+      "role": "primary report",
+      "sha256": "f107a2df27d074752ce0f93751bbf3710971ebd443e29ec2718f886519b54859"
+    },
+    {
+      "path": "experiments/yolo/gdt601_naibbe_literal_key_attack/src/run.py",
+      "role": "deterministic corpus builder and scorer",
+      "sha256": "d9e1bbeb2d11050de2aa5406aa66ff13141a58b6f9a31f8c627835dbda4098e7"
+    },
+    {
+      "path": "experiments/yolo/gdt601_naibbe_literal_key_attack/src/validate.py",
+      "role": "independent result validator",
+      "sha256": "5b75ce5ac6c941645c44c4eebae7fdb47e249fc503beac61e1673f8343551dc4"
+    },
+    {
+      "path": "experiments/yolo/gdt601_naibbe_literal_key_attack/artifacts/README.md",
+      "role": "artifact guide",
+      "sha256": "666830626974b6c1c3c5c6e27fe1d1b23f8be1c1bb7da5782912d9251d11b072"
+    },
+    {
+      "path": "experiments/yolo/gdt601_naibbe_literal_key_attack/artifacts/gdt601_result.json",
+      "role": "compact result",
+      "sha256": "50d130f91bc5d8b1ba7f311005cc5c0a79a4656960865f97c61bca1213a3c192"
+    },
+    {
+      "path": "experiments/yolo/gdt601_naibbe_literal_key_attack/artifacts/gdt601_top_chance_readings.tsv",
+      "role": "highest-scoring local chance strings",
+      "sha256": "3805f4e64943f3f9f029f635e407f82c3c230fd595d59b8eec8d0e333592bd4e"
+    },
+    {
+      "path": "experiments/yolo/gdt601_naibbe_literal_key_attack/artifacts/gdt601_validation.json",
+      "role": "validation record",
+      "sha256": "e0c88ded2cae95f0c00b10a6191a5310eb20967ff4e0a04cb8bc36a057ffcb97"
+    }
+  ],
+  "question": "Does the published Naibbe table literally decode an f84-free 91-folio Voynich corpus into ordered Latin or Italian signal?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "naibbe_literal_key_attack",
+  "status": "LITERAL_NAIBBE_KEY_REJECTED_ON_F84_FREE_91_FOLIO_CORPUS",
+  "title": "Literal Naibbe-key attack",
+  "updated": "2026-08-28",
+  "validation": {
+    "artifact": "experiments/yolo/gdt601_naibbe_literal_key_attack/artifacts/gdt601_validation.json",
+    "status": "PASS"
+  }
+}
