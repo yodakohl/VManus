@@ -1,0 +1,142 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "May select or reject only a synthetic same-role primitive/output binding and its inherited V2 generator, oracle, and recovery stack. It may not fit Voynich target data or assign a Voynich unit, sound, language, word, plaintext, object, operation, or meaning; f84/f84r are forbidden.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt615_joint_output_permutation_recovery/src/run.py",
+    "validate": "python3 experiments/yolo/gdt615_joint_output_permutation_recovery/src/validate.py"
+  },
+  "created": "2026-08-29",
+  "dependencies": [
+    "GDT608",
+    "GDT612",
+    "GDT613",
+    "GDT614"
+  ],
+  "experiment_id": "GDT615",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt608_compositional_stem_orientation/artifacts/merge_tree.tsv",
+      "role": "published directed 64-merge tree",
+      "sha256": "2098c71be9da13b483cf2561e06412276d8c60aa32e72520e8877f8f5d53090a"
+    },
+    {
+      "path": "experiments/yolo/gdt612_historical_fst34_target_attack/artifacts/units.tsv",
+      "role": "published 98-unit identifiers and recursive child pointers",
+      "sha256": "8fc32a38dbe47a5d738698ccccd7289fe3d533e9e5d870624da11f0fc5d19180"
+    },
+    {
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/artifacts/reference_splits/synthetic_train.txt",
+      "role": "frozen carrier-train plaintext and sole Stage-0 design partition",
+      "sha256": "466f1568a9a387c4b091a6c1679c78ee136919ca7c959bd8742afdda3d272e78"
+    },
+    {
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/artifacts/reference_splits/synthetic_held.txt",
+      "role": "single-use held confirmation after all three train worlds are committed",
+      "sha256": "7fa47a1396870cf32d00748bbb213e993e853239a57b425796df26ac8e5f04bd"
+    },
+    {
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/artifacts/reference_splits/lm_fit.txt",
+      "role": "frozen LM_A fit partition",
+      "sha256": "2255b67ffb1b41bf1c327b97fb5b7c87acec70947aeeb3b75143d55a2af1c412"
+    },
+    {
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/artifacts/reference_splits/lm_confirm.txt",
+      "role": "LM_B confirmation forbidden through Stage 2",
+      "sha256": "73d40ca54cc2fec3e7f1a5df4994a5cd394f4cbee2dacf966aa81c59518246a1"
+    },
+    {
+      "path": "experiments/yolo/gdt614_core_run_macro_recovery/artifacts/REGISTERED_MODEL.json",
+      "role": "fixed V2 grammar, role inventory, deck and macro licenses",
+      "sha256": "ed841dc254a961650a8bda8bdc6024b67655f6bdc96e5dab2aec02f1686ecc42"
+    },
+    {
+      "path": "experiments/yolo/gdt614_core_run_macro_recovery/artifacts/REGISTERED_TRANSITIONS.tsv",
+      "role": "fixed complete 21-transition catalog",
+      "sha256": "bf26bfeaa258a65e3c22a8e035cf6ddec30557307ebc9c7619c662b12324271e"
+    },
+    {
+      "path": "experiments/yolo/gdt614_core_run_macro_recovery/PREREGISTRATION.md",
+      "role": "inherited full-world, oracle, and recovery thresholds",
+      "sha256": "552b3ee1cda663157c793ab30434aa67aef3ab534a94117bdb62e8d33b9600d1"
+    },
+    {
+      "path": "experiments/yolo/gdt614_core_run_macro_recovery/REPORT.md",
+      "role": "exact fixed-binding 18-versus-8 failure",
+      "sha256": "54c25233e4b6e27dc56f7bc5e3aed91144b26d34abcd8216c5e731adc5212035"
+    },
+    {
+      "path": "experiments/yolo/gdt614_core_run_macro_recovery/artifacts/necessary_merge_bound.tsv",
+      "role": "published fixed-binding 64-node bound for regression",
+      "sha256": "5dc97f8d4af82d03eab53ee4e6849ed03ac3eff79180c93ab3da3326a6cae839"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt615_joint_output_permutation_recovery/README.md",
+      "role": "registered experiment entry point",
+      "sha256": "a0f6e6bafaad9978367308f2bfec8ad722a71a3660dc61312194ca8b6b48d171"
+    },
+    {
+      "path": "experiments/yolo/gdt615_joint_output_permutation_recovery/METHOD.md",
+      "role": "registered train-only binding and three-world method",
+      "sha256": "390bef0e23f007e645c9d17ef5947e54f3129eddeef5beadb533ab8601cdd519"
+    },
+    {
+      "path": "experiments/yolo/gdt615_joint_output_permutation_recovery/PREREGISTRATION.md",
+      "role": "prospective exact search, reveal, oracle, and recovery contract",
+      "sha256": "283b3d0199064eaeb7f1197ca1fde743bb64e7236fa43e6083ccbdb5261c5485"
+    },
+    {
+      "path": "experiments/yolo/gdt615_joint_output_permutation_recovery/artifacts/README.md",
+      "role": "registered artifact inventory",
+      "sha256": "d89fa01d5554b8a0cc5a00dcb54f02afeeba5a471e2c2f0bc5612c3e862ad724"
+    },
+    {
+      "path": "experiments/yolo/gdt615_joint_output_permutation_recovery/artifacts/REGISTERED_SEARCH.json",
+      "role": "frozen card pools, inputs, exact objectives, and reveal policy",
+      "sha256": "138cb3860a9927e8095534b293836271797a654e5e2797e12b0fadb0689e2089"
+    },
+    {
+      "path": "experiments/yolo/gdt615_joint_output_permutation_recovery/artifacts/REGISTERED_TRAIN_SUBSTRINGS.txt",
+      "role": "frozen 28,101-entry Stage-0 train substring table",
+      "sha256": "5b6859d8656f63cf8e8cf89221ae8ff1dea345e135a6cd012248b9b4c4ff14a9"
+    },
+    {
+      "path": "experiments/yolo/gdt615_joint_output_permutation_recovery/artifacts/REGISTERED_VALIDATION.json",
+      "role": "430-check train-only registration audit",
+      "sha256": "447e0a4edca6c3252d24d0758453ccda355519e04e11029409ae41778f3897c1"
+    },
+    {
+      "path": "experiments/yolo/gdt615_joint_output_permutation_recovery/src/prepare.py",
+      "role": "deterministic train-only substring-table generator",
+      "sha256": "fddf096c06b3d797e93cb76e5a6193cfd493f285c9a158f02e25eb45dd498b08"
+    },
+    {
+      "path": "experiments/yolo/gdt615_joint_output_permutation_recovery/src/run.py",
+      "role": "prospective Stage-0 runner entry point",
+      "sha256": "82819fe5a84a0829820ca95f647e4af71c932f5e7bbce9662cd7b8c4d43f15aa"
+    },
+    {
+      "path": "experiments/yolo/gdt615_joint_output_permutation_recovery/src/validate.py",
+      "role": "independent train-only registration validator",
+      "sha256": "4375550800eff5a3f3b1597e11c19b06505fa5cf57a14a20a999ffff02fb06f4"
+    }
+  ],
+  "question": "Can a train-only exact same-role output-to-primitive binding reduce the all-64 paid-subtree requirement to at most eight, support three complete train worlds, transfer unchanged to held, and then pass the inherited oracle and blind-recovery gates?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "joint_output_permutation_recovery",
+  "status": "REGISTERED_UNSCORED",
+  "title": "Joint primitive/output binding recovery",
+  "updated": "2026-08-29",
+  "validation": {
+    "artifact": "experiments/yolo/gdt615_joint_output_permutation_recovery/artifacts/REGISTERED_VALIDATION.json",
+    "status": "PASS"
+  }
+}
