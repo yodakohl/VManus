@@ -14079,3 +14079,48 @@ rederives all1,921 first-match decisions and passes25/25. Use GDT583 above the
 unchanged GDT582 dictionary:the fine verbs are replaceable occurrence voices,
 not manuscript lexemes. Next scan only the591 affected statements for bad
 collocations,then refine the80 learned names;open no new page/parser/root.
+
+## GDT584 composes the contextual verbs into statement-wide reader grammar
+
+The GDT583 collocation audit is complete on the same closed thirty-page base.
+Three independent passes read all25 directional cases,all145 fine material
+readings,all51 grade-T and all13 form-T occurrences;the whole-statement pass
+scanned all591 affected statements and manually read40 difficult statements
+covering all five registers and all29 old rule families.
+
+The largest defect was editorial rather than semantic. The GDT583 renderer
+printed each event before later packets carrying arguments for the same exact
+GDT581 governor,creating1,149 detached `beim …` fragments in327 statements and
+1,761 lowercase sentence starts in424. GDT584 groups the complete written
+packets statement-wide by unchanged `primary_governor_key`. All12,707 written
+slots partition once into6,289 hosts;845 hosts span multiple event packets,and
+all62 remotely supplied fine arguments now appear at their licensing verb.
+Every packet event and slot remains separate in the exact host trace. Reader
+deduplication suppresses423 repeated argument slots without deleting any.
+
+Fifty bounded contextual meanings change. Thirty-four narrow:the relation-only
+G407-E3488 T becomes outlet-side regulation;liquid-hosted G407-E4570 T becomes
+tempering;only G407-E4476/E4490 retain dry→grind;three wet-preceded sieve cases
+become strain,one direct-AIN strain becomes sieve,five grind cases become wet
+trituration,five OR-only soaks become unit holding,and16 remaining grind labels
+become the more honest material-comminution voice. Fifteen broad fallbacks
+upgrade to5 wet AIIN+Y CHD,8 settle-before-strain SH and2 post-wet taking-off S
+readings. One stage-only sieve returns to broad separation. Another218 running
+slots receive grammar-only rephrasing that removes embedded object or grade
+nouns. Ten warm sequences now explicitly say warm holding;11 cool and2 dry
+directions remain.
+
+The release rebuilds1,623 affected running events,158 local cards,591
+statements and20 fixed passages. Before/after issue counts,all1,921 target
+dispositions,all6,289 host phrases,the40-statement review deck and exact traces
+are public. Independent validation passes40/40,including hashes,source
+projection,host partition,remote-argument stitches,named readings,sealed pages
+and output identity.
+
+Use GDT584 as the current action reader above GDT583 and unchanged GDT582
+portable roots. It is an exploratory machine reading,not plaintext;106
+statements still exceed100 words and35 exceed200 after OT/DY paragraphing. The
+next closed-page route is the80 learned class×name types across109 owner-bound
+name slots:consolidate repeated substance/plant-part defaults and inspect
+possible compounds while keeping every function shell,owner and page fixed.
+Open no new page/parser/root or portable verb meaning.
