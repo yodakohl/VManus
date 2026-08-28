@@ -14387,3 +14387,28 @@ candidate:49 Y,8 AIN and4 OR. The next no-new-page route should first turn the
 the49 Y candidates with the existing Body/Station blockers and local donors.
 Do not open a page,root,parser or substring segmentation. Validation is112/112
 including byte-identical rebuild and the E3243 two-slot/one-event guard.
+
+## GDT593 promotes twelve stable AIN/OR bath types without globalizing Y
+
+GDT593 takes only the8 AIN and4 OR members of GDT592's61 specific cold
+GDT569 candidates. AIN becomes Anwendungsportion and OR becomes the unit
+class. Five targets have a written source in the same GDT592 object scope and
+therefore read anaphorically:E1560/E1778/E2608/E2997/E3134. Seven targets lie
+after a reader or statement reset and receive only the definite target type,
+not an assertion of identical object. Thus local OR is Stationseinheit while
+reset OR is Badeinheit;the alternate unit phrase and every old Badegut clause
+remain visible.
+
+The GDT581 source split is6 SAME_STATEMENT_EVENT and6 OWNER_DEFAULT. At owner
+defaults the last written AIN/OR is stored only as context witness,never
+relabeled as a local donor. E3314 is the single same-statement source separated
+by OT/PARAGRAPH_AFTER. All12 source/witness paths remain in one physical
+paragraph. Only12/793 statements change and781 stay byte-identical. The254
+object profile becomes53 Body,81 Station,95 Badegut,13 unit and12 portion;
+93 cold defaults remain.
+
+The next no-new-page pass is the49 Y reserve. Use the occurrence-level model-B
+split already audited:within the same object scope preserve15 Stationsansatz
+and2 Strom donors;after reset use32 blocker-free SH target readings as
+Body-first. Do not globalize Y=Body;retain the old GDT569 donor interpretation
+and neutral Badegut at every target. Open no page,root,parser or substring.

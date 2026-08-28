@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **591**
-- Experiment-associated tracked files: **8,909** (986.9 MiB)
-- Structured GDT337+ experiments: **256**
+- Experiments indexed: **592**
+- Experiment-associated tracked files: **8,925** (992.2 MiB)
+- Structured GDT337+ experiments: **257**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT593 | GDT593_gdt569_bath_candidate_promotion | `PASS_12_STABLE_ROOT_PROMOTIONS__8_AIN_PORTION__4_OR_UNIT__5_ANAPHORIC_SAME_SCOPE__7_RESET_TYPE_DEFAULTS__254_OBJECTS__12_STATEMENTS_CHANGED__93_COLD_DEFAULTS_REMAIN` | [report](../experiments/yolo/gdt593_gdt569_bath_candidate_promotion/REPORT.md) | 16 | 5.3 MiB | 7 | STRUCTURED_YOLO |
 | GDT592 | GDT592_bath_object_completion | `PASS_254_BATH_ACTION_OBJECTS__149_OBJECTLESS_PLUS_5_FILL_ONLY_PATCHED__53_BODY__81_STATION__107_BATH_OBJECT__9_UNIT__4_PORTION__13_LOCAL_HANDOFFS__11_EPISODE_CARRIES__132_STATEMENTS__2_GDT569_DIVERGENCES_RETAINED` | [report](../experiments/yolo/gdt592_bath_object_completion/REPORT.md) | 22 | 5.2 MiB | 9 | STRUCTURED_YOLO |
 | GDT591 | GDT591_bath_episode_continuity | `PASS_92_BATH_HOST_CONTINUITY__64_STATEMENTS__17_PARAGRAPHS__28_STATEMENT_TRANSITIONS__14_BLOCKER_LICENSED_SWITCHES__39_REMOTE_CARRIERS__E2652_UNIQUE_BUT_LAYOUT_COMPACT` | [report](../experiments/yolo/gdt591_bath_episode_continuity/REPORT.md) | 19 | 236.8 KiB | 7 | STRUCTURED_YOLO |
 | GDT590 | GDT590_focused_bath_body_station_adjudication | `PASS_FOUR_BATH_FORKS_BODY_DEFAULT__52_OF_92_CLEAN_BODY__40_BLOCKED_STATION__FOUR_READER_PATCHES` | [report](../experiments/yolo/gdt590_focused_bath_body_station_adjudication/REPORT.md) | 19 | 4.9 MiB | 4 | STRUCTURED_YOLO |
