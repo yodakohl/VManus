@@ -1,0 +1,8 @@
+default_card_order	gdt584_rule_id	action_root	default_object_class	default_lemma_de	typing_card_id	reason_de	total_occurrence_count	carrierless_occurrence_count	default_used_count
+1	CHD_BIO_TREAT	CHD	STATION	Stationsansatz	T05_WORKPIECE_DEFAULT	Ohne passende Quelle bleibt der bereits vorhandene Ansatz-Default konkret als Stationsansatz.	199	84	40
+2	S_BIO_DIVERT	S	FLOW	Strom	T02_ACTION_INTERNAL_OBJECT	UMLEITEN besitzt in der vorhandenen Regel bereits den Strom als internes Arbeitsobjekt.	32	24	24
+3	S_REST_SELECT	S	UNIT	Stationseinheit	T04_STABLE_CLASS_DEFAULT	WÄHLEN besitzt ohne Träger den sichtbaren Einheitsplatz; Biological konkretisiert ihn als Stationseinheit.	72	35	6
+4	T_AFTER_SH_COOL	T	BODY	Körper	T05_WORKPIECE_DEFAULT	ABKÜHLEN übernimmt vorrangig sein unmittelbar vorangehendes Badobjekt; Körper ist nur der nie benötigte Notdefault.	7	1	0
+5	T_BIO_RELATION_REGULATE	T	STATION	Stationsansatz	T05_WORKPIECE_DEFAULT	Die Relationsregulierung übernimmt vorrangig das Badobjekt desselben Ereignisses; Stationsansatz bleibt Notdefault.	1	1	0
+6	T_BIO_STATION_REGULATE	T	CONDITION	Stationsbedingung	T02_ACTION_INTERNAL_OBJECT	Die trägerlose Regel nennt bereits die Stationsbedingung; ein früheres Materialobjekt ersetzt sie nicht.	52	16	16
+7	T_PHYSICAL_GRADE_TEMPER	T	STATION	Stationsansatz	T05_WORKPIECE_DEFAULT	TEMPERIEREN übernimmt eine passende Werkstückquelle; ohne Quelle bleibt der Stationsansatz.	33	16	10
