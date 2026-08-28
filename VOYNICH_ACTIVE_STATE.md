@@ -14295,3 +14295,32 @@ their already admitted visual and paragraph context,then either install the
 body-first branch or return it to an explicit alternative. Do not auto-apply a
 manual override,infer real-object counts from repeat roots,open an unreleased
 page or create a contained-substring parser.
+
+## GDT590 installs the four clean bath forks as body-first working readings
+
+GDT590 enumerates all four GDT589 rest forks rather than sampling them. Across
+the complete92 `SH_BIO_BATHE` hosts with Y,the unified blocker rule now yields
+48 pre-existing clean body hosts plus4 body+fill adjudications and40 blocked
+station hosts. The11 `BIOLOGICAL_BATH_FILL` packets split into5 fill-only,
+4 body+fill and2 blocked station+fill. AIIN remains Badfüllung and does not
+reclassify an otherwise clean Y. This changes exactly4/1,243 slots and4/793
+statements;789 statements and every old repeat channel remain byte-identical.
+
+The four working strengths are E3182 very high,E2637 high,E2404 medium-high
+and E2652 exploratory. E3182 produces a coherent grade-II body bath followed
+by grade-I body bath;E2637 contains a clean cheey versus L-blocked lsheey
+contrast. E2652 remains the main rival because bare SH is unique and its Y is
+written remotely in the following E2653 qolchey carrier.
+
+The independent image pass is deliberately nonconfirmatory. All four targets
+are prose rather than exact figure/object labels and none has a word-level
+visual owner. Image-only proximity leans body only at E2637 and station or
+apparatus at E2404,E2652 and E3182. Complete-host and sentence composition
+therefore select body overall while station remains visible at all four. Do
+not promote Patient or a global Y=body lexeme.
+
+Use GDT590 as the current occurrence-bound bath reading over the unchanged
+GDT589 intake. The next no-new-page route is a bath-episode continuity audit
+over already admitted statements,with E2652 as the primary stress case. Keep
+GDT581/GDT584 grammar and remote attachments fixed;open no page,root,parser or
+contained-substring segmentation.
