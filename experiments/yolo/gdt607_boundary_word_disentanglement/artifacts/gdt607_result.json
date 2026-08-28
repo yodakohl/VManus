@@ -1,0 +1,1918 @@
+{
+  "artifacts": {
+    "gdt607_complete_mappings.tsv": "1f4e63a4a59f4814f5acbf88144b885403399c87733313919f607edb1529bdad",
+    "gdt607_target_category_grid.tsv": "3c678aa72db3f7764c2cf45b89ed48e89a721fa14ddc4df56c95000b2356eadb",
+    "gdt607_unit_structural_features.tsv": "414214d7b883d0fbb23fbefb4ab5488b6b288e5625d39807f7ae66bf7077accb"
+  },
+  "claim_ceiling": "Exploratory separation of boundary-only and whole-word output roles; no category or generated output is a word, sound or meaning.",
+  "configs": {
+    "B0_W11": {
+      "B": 0,
+      "D": 4,
+      "L": 42,
+      "N": 7,
+      "S": 34,
+      "W": 11
+    },
+    "B11_W0": {
+      "B": 11,
+      "D": 4,
+      "L": 42,
+      "N": 7,
+      "S": 34,
+      "W": 0
+    },
+    "B3_W8": {
+      "B": 3,
+      "D": 4,
+      "L": 42,
+      "N": 7,
+      "S": 34,
+      "W": 8
+    },
+    "B6_W5": {
+      "B": 6,
+      "D": 4,
+      "L": 42,
+      "N": 7,
+      "S": 34,
+      "W": 5
+    },
+    "B8_W3": {
+      "B": 8,
+      "D": 4,
+      "L": 42,
+      "N": 7,
+      "S": 34,
+      "W": 3
+    }
+  },
+  "iterations": 8000,
+  "reference_sources": {
+    "caesar_la.txt": "84ac8411841a4d8f5f4a49b6a2cd1f466917c6a5af72916d5e0b2b1ecb2f659c",
+    "divina_commedia.txt": "aafa15bbc0644dac7680ce3d0e4494b99775fbc83394cb7ad88145a0f8d6b31e",
+    "mhg/Erec-conll.txt": "367cc2e9d0b60aadee501c187864dea97c77af41303f216986cfa35575f43675",
+    "mhg/Iwein-conll.txt": "5b43f962da24d5b438ff93f64f30036087fe37d1cd5863c0bd29e764957b6a6f",
+    "mhg/Parzival-conll.txt": "9d7ef5fd1842f6197121b654eb3c57a307ff01a9698768e27be069732afdf5cf",
+    "mhg/Rolandslied-conll.txt": "46b078128c6932759d56a6a4bf13f9c3bf84d88f7a8d0e35fca31670cc0191fa",
+    "mhg/Willehalm-conll.txt": "abee7d5d1aee54fa944e0d311d4645455503d4fc0bbd9ef919c46a9cfd10e7fe"
+  },
+  "run_metrics": [
+    {
+      "accepted_moves": 706,
+      "config": "B0_W11",
+      "held_metrics": {
+        "decoded_characters": 78517,
+        "decoded_words": 15759,
+        "destroyed_bits_per_character": -4.768737868040356,
+        "empty_chunks": 26,
+        "real_bits_per_character": -2.560550556648571,
+        "real_lexicon_character_fraction": 0.7083306799801317,
+        "real_minus_destroyed_bits_per_character": 2.208187311391785
+      },
+      "iterations": 8000,
+      "language": "latin",
+      "model_kind": "real",
+      "seed": 11,
+      "train_objective": -2.7435396511517895
+    },
+    {
+      "accepted_moves": 703,
+      "config": "B0_W11",
+      "held_metrics": {
+        "decoded_characters": 78000,
+        "decoded_words": 15365,
+        "destroyed_bits_per_character": -4.619534614331751,
+        "empty_chunks": 30,
+        "real_bits_per_character": -2.5658872149480882,
+        "real_lexicon_character_fraction": 0.7386025641025641,
+        "real_minus_destroyed_bits_per_character": 2.053647399383663
+      },
+      "iterations": 8000,
+      "language": "latin",
+      "model_kind": "real",
+      "seed": 29,
+      "train_objective": -2.71766016244377
+    },
+    {
+      "accepted_moves": 629,
+      "config": "B0_W11",
+      "held_metrics": {
+        "decoded_characters": 79151,
+        "decoded_words": 15894,
+        "destroyed_bits_per_character": -4.469309642803818,
+        "empty_chunks": 8,
+        "real_bits_per_character": -2.5178655209814433,
+        "real_lexicon_character_fraction": 0.7494030397594471,
+        "real_minus_destroyed_bits_per_character": 1.9514441218223753
+      },
+      "iterations": 8000,
+      "language": "latin",
+      "model_kind": "real",
+      "seed": 47,
+      "train_objective": -2.7421771242952384
+    },
+    {
+      "accepted_moves": 703,
+      "config": "B0_W11",
+      "held_metrics": {
+        "decoded_characters": 78052,
+        "decoded_words": 15599,
+        "destroyed_bits_per_character": -4.464867689459405,
+        "empty_chunks": 5,
+        "real_bits_per_character": -2.562853458419405,
+        "real_lexicon_character_fraction": 0.710910674934659,
+        "real_minus_destroyed_bits_per_character": 1.90201423104
+      },
+      "iterations": 8000,
+      "language": "latin",
+      "model_kind": "real",
+      "seed": 71,
+      "train_objective": -2.7659134107044383
+    },
+    {
+      "accepted_moves": 680,
+      "config": "B0_W11",
+      "held_metrics": {
+        "decoded_characters": 77962,
+        "decoded_words": 15587,
+        "destroyed_bits_per_character": -4.4512014106021836,
+        "empty_chunks": 11,
+        "real_bits_per_character": -2.456830055470434,
+        "real_lexicon_character_fraction": 0.7415279238603422,
+        "real_minus_destroyed_bits_per_character": 1.9943713551317501
+      },
+      "iterations": 8000,
+      "language": "latin",
+      "model_kind": "real",
+      "seed": 89,
+      "train_objective": -2.687589185196656
+    },
+    {
+      "accepted_moves": 651,
+      "config": "B0_W11",
+      "held_metrics": {
+        "decoded_characters": 81294,
+        "decoded_words": 15741,
+        "destroyed_bits_per_character": -4.587460468605978,
+        "empty_chunks": 6,
+        "real_bits_per_character": -2.4870120626348142,
+        "real_lexicon_character_fraction": 0.7442615691194923,
+        "real_minus_destroyed_bits_per_character": 2.100448405971164
+      },
+      "iterations": 8000,
+      "language": "latin",
+      "model_kind": "real",
+      "seed": 107,
+      "train_objective": -2.6855290149782767
+    },
+    {
+      "accepted_moves": 592,
+      "config": "B11_W0",
+      "held_metrics": {
+        "decoded_characters": 46669,
+        "decoded_words": 9947,
+        "destroyed_bits_per_character": -4.423217539060847,
+        "empty_chunks": 26,
+        "real_bits_per_character": -4.080979670864184,
+        "real_lexicon_character_fraction": 0.1021663202554158,
+        "real_minus_destroyed_bits_per_character": 0.3422378681966632
+      },
+      "iterations": 8000,
+      "language": "latin",
+      "model_kind": "real",
+      "seed": 11,
+      "train_objective": -4.4238450155312705
+    },
+    {
+      "accepted_moves": 679,
+      "config": "B11_W0",
+      "held_metrics": {
+        "decoded_characters": 45898,
+        "decoded_words": 9879,
+        "destroyed_bits_per_character": -4.409499692241334,
+        "empty_chunks": 19,
+        "real_bits_per_character": -4.175283877342393,
+        "real_lexicon_character_fraction": 0.1040132467645649,
+        "real_minus_destroyed_bits_per_character": 0.2342158148989406
+      },
+      "iterations": 8000,
+      "language": "latin",
+      "model_kind": "real",
+      "seed": 29,
+      "train_objective": -4.506790656086739
+    },
+    {
+      "accepted_moves": 684,
+      "config": "B11_W0",
+      "held_metrics": {
+        "decoded_characters": 45411,
+        "decoded_words": 9970,
+        "destroyed_bits_per_character": -4.60112675611861,
+        "empty_chunks": 59,
+        "real_bits_per_character": -4.143736745337126,
+        "real_lexicon_character_fraction": 0.11301226575058906,
+        "real_minus_destroyed_bits_per_character": 0.45739001078148406
+      },
+      "iterations": 8000,
+      "language": "latin",
+      "model_kind": "real",
+      "seed": 47,
+      "train_objective": -4.497421379399121
+    },
+    {
+      "accepted_moves": 621,
+      "config": "B11_W0",
+      "held_metrics": {
+        "decoded_characters": 47737,
+        "decoded_words": 9931,
+        "destroyed_bits_per_character": -4.407688239918251,
+        "empty_chunks": 13,
+        "real_bits_per_character": -4.20756951345617,
+        "real_lexicon_character_fraction": 0.11182101933510694,
+        "real_minus_destroyed_bits_per_character": 0.2001187264620807
+      },
+      "iterations": 8000,
+      "language": "latin",
+      "model_kind": "real",
+      "seed": 71,
+      "train_objective": -4.545929554973088
+    },
+    {
+      "accepted_moves": 697,
+      "config": "B11_W0",
+      "held_metrics": {
+        "decoded_characters": 45946,
+        "decoded_words": 9896,
+        "destroyed_bits_per_character": -4.431950064810349,
+        "empty_chunks": 28,
+        "real_bits_per_character": -4.291434538483876,
+        "real_lexicon_character_fraction": 0.09881164845688417,
+        "real_minus_destroyed_bits_per_character": 0.14051552632647246
+      },
+      "iterations": 8000,
+      "language": "latin",
+      "model_kind": "real",
+      "seed": 89,
+      "train_objective": -4.593468565448221
+    },
+    {
+      "accepted_moves": 646,
+      "config": "B11_W0",
+      "held_metrics": {
+        "decoded_characters": 46406,
+        "decoded_words": 9859,
+        "destroyed_bits_per_character": -4.4023373727534825,
+        "empty_chunks": 8,
+        "real_bits_per_character": -4.2425755912587375,
+        "real_lexicon_character_fraction": 0.07873981812696634,
+        "real_minus_destroyed_bits_per_character": 0.15976178149474488
+      },
+      "iterations": 8000,
+      "language": "latin",
+      "model_kind": "real",
+      "seed": 107,
+      "train_objective": -4.5167169962604286
+    },
+    {
+      "accepted_moves": 695,
+      "config": "B3_W8",
+      "held_metrics": {
+        "decoded_characters": 73684,
+        "decoded_words": 14597,
+        "destroyed_bits_per_character": -4.529804627733089,
+        "empty_chunks": 32,
+        "real_bits_per_character": -2.770910485322105,
+        "real_lexicon_character_fraction": 0.6492454264155041,
+        "real_minus_destroyed_bits_per_character": 1.758894142410984
+      },
+      "iterations": 8000,
+      "language": "latin",
+      "model_kind": "real",
+      "seed": 11,
+      "train_objective": -3.0923388727493815
+    },
+    {
+      "accepted_moves": 683,
+      "config": "B3_W8",
+      "held_metrics": {
+        "decoded_characters": 74186,
+        "decoded_words": 14692,
+        "destroyed_bits_per_character": -4.584903580068579,
+        "empty_chunks": 10,
+        "real_bits_per_character": -2.8813877667291052,
+        "real_lexicon_character_fraction": 0.6047367427816569,
+        "real_minus_destroyed_bits_per_character": 1.7035158133394734
+      },
+      "iterations": 8000,
+      "language": "latin",
+      "model_kind": "real",
+      "seed": 29,
+      "train_objective": -3.12070223437012
+    },
+    {
+      "accepted_moves": 640,
+      "config": "B3_W8",
+      "held_metrics": {
+        "decoded_characters": 73733,
+        "decoded_words": 14586,
+        "destroyed_bits_per_character": -4.615349449029823,
+        "empty_chunks": 32,
+        "real_bits_per_character": -2.7911462213935736,
+        "real_lexicon_character_fraction": 0.6113409192627454,
+        "real_minus_destroyed_bits_per_character": 1.8242032276362496
+      },
+      "iterations": 8000,
+      "language": "latin",
+      "model_kind": "real",
+      "seed": 47,
+      "train_objective": -3.0660693653618214
+    },
+    {
+      "accepted_moves": 671,
+      "config": "B3_W8",
+      "held_metrics": {
+        "decoded_characters": 67477,
+        "decoded_words": 14102,
+        "destroyed_bits_per_character": -4.390258791288832,
+        "empty_chunks": 13,
+        "real_bits_per_character": -2.7469183002384066,
+        "real_lexicon_character_fraction": 0.6626406034648843,
+        "real_minus_destroyed_bits_per_character": 1.6433404910504257
+      },
+      "iterations": 8000,
+      "language": "latin",
+      "model_kind": "real",
+      "seed": 71,
+      "train_objective": -3.0899420553954062
+    },
+    {
+      "accepted_moves": 675,
+      "config": "B3_W8",
+      "held_metrics": {
+        "decoded_characters": 73297,
+        "decoded_words": 14734,
+        "destroyed_bits_per_character": -4.686346052871989,
+        "empty_chunks": 8,
+        "real_bits_per_character": -2.72346608041046,
+        "real_lexicon_character_fraction": 0.6806144862681965,
+        "real_minus_destroyed_bits_per_character": 1.9628799724615285
+      },
+      "iterations": 8000,
+      "language": "latin",
+      "model_kind": "real",
+      "seed": 89,
+      "train_objective": -2.99003243311104
+    },
+    {
+      "accepted_moves": 662,
+      "config": "B3_W8",
+      "held_metrics": {
+        "decoded_characters": 68537,
+        "decoded_words": 14575,
+        "destroyed_bits_per_character": -4.674075969143932,
+        "empty_chunks": 31,
+        "real_bits_per_character": -2.91829553224325,
+        "real_lexicon_character_fraction": 0.6319798065278609,
+        "real_minus_destroyed_bits_per_character": 1.7557804369006824
+      },
+      "iterations": 8000,
+      "language": "latin",
+      "model_kind": "real",
+      "seed": 107,
+      "train_objective": -3.1435265149659566
+    },
+    {
+      "accepted_moves": 665,
+      "config": "B6_W5",
+      "held_metrics": {
+        "decoded_characters": 63630,
+        "decoded_words": 12957,
+        "destroyed_bits_per_character": -4.358365091393458,
+        "empty_chunks": 34,
+        "real_bits_per_character": -3.0291311368346707,
+        "real_lexicon_character_fraction": 0.4978154958352978,
+        "real_minus_destroyed_bits_per_character": 1.3292339545587872
+      },
+      "iterations": 8000,
+      "language": "latin",
+      "model_kind": "real",
+      "seed": 11,
+      "train_objective": -3.4018931664633447
+    },
+    {
+      "accepted_moves": 605,
+      "config": "B6_W5",
+      "held_metrics": {
+        "decoded_characters": 64785,
+        "decoded_words": 13197,
+        "destroyed_bits_per_character": -4.3962639010483775,
+        "empty_chunks": 4,
+        "real_bits_per_character": -3.0819757360962763,
+        "real_lexicon_character_fraction": 0.46830284788145404,
+        "real_minus_destroyed_bits_per_character": 1.314288164952101
+      },
+      "iterations": 8000,
+      "language": "latin",
+      "model_kind": "real",
+      "seed": 29,
+      "train_objective": -3.4195267446189406
+    },
+    {
+      "accepted_moves": 679,
+      "config": "B6_W5",
+      "held_metrics": {
+        "decoded_characters": 61801,
+        "decoded_words": 13006,
+        "destroyed_bits_per_character": -4.583925711286841,
+        "empty_chunks": 10,
+        "real_bits_per_character": -3.0570854015150624,
+        "real_lexicon_character_fraction": 0.533955761233637,
+        "real_minus_destroyed_bits_per_character": 1.5268403097717778
+      },
+      "iterations": 8000,
+      "language": "latin",
+      "model_kind": "real",
+      "seed": 47,
+      "train_objective": -3.385815623204161
+    },
+    {
+      "accepted_moves": 689,
+      "config": "B6_W5",
+      "held_metrics": {
+        "decoded_characters": 63172,
+        "decoded_words": 13035,
+        "destroyed_bits_per_character": -4.618195512536203,
+        "empty_chunks": 40,
+        "real_bits_per_character": -3.0957002954412243,
+        "real_lexicon_character_fraction": 0.49669157221553856,
+        "real_minus_destroyed_bits_per_character": 1.5224952170949788
+      },
+      "iterations": 8000,
+      "language": "latin",
+      "model_kind": "real",
+      "seed": 71,
+      "train_objective": -3.450637067525557
+    },
+    {
+      "accepted_moves": 604,
+      "config": "B6_W5",
+      "held_metrics": {
+        "decoded_characters": 62065,
+        "decoded_words": 13047,
+        "destroyed_bits_per_character": -4.467945595314118,
+        "empty_chunks": 31,
+        "real_bits_per_character": -3.0321948798075313,
+        "real_lexicon_character_fraction": 0.5221461371143157,
+        "real_minus_destroyed_bits_per_character": 1.4357507155065874
+      },
+      "iterations": 8000,
+      "language": "latin",
+      "model_kind": "real",
+      "seed": 89,
+      "train_objective": -3.3605524980529844
+    },
+    {
+      "accepted_moves": 609,
+      "config": "B6_W5",
+      "held_metrics": {
+        "decoded_characters": 58687,
+        "decoded_words": 12917,
+        "destroyed_bits_per_character": -4.352275730343627,
+        "empty_chunks": 36,
+        "real_bits_per_character": -3.111696785778317,
+        "real_lexicon_character_fraction": 0.5460664201611941,
+        "real_minus_destroyed_bits_per_character": 1.2405789445653104
+      },
+      "iterations": 8000,
+      "language": "latin",
+      "model_kind": "real",
+      "seed": 107,
+      "train_objective": -3.475119005155959
+    },
+    {
+      "accepted_moves": 705,
+      "config": "B8_W3",
+      "held_metrics": {
+        "decoded_characters": 57851,
+        "decoded_words": 11864,
+        "destroyed_bits_per_character": -4.573339930262422,
+        "empty_chunks": 28,
+        "real_bits_per_character": -3.422785251482701,
+        "real_lexicon_character_fraction": 0.3798724309000709,
+        "real_minus_destroyed_bits_per_character": 1.1505546787797203
+      },
+      "iterations": 8000,
+      "language": "latin",
+      "model_kind": "real",
+      "seed": 11,
+      "train_objective": -3.7844391004732594
+    },
+    {
+      "accepted_moves": 672,
+      "config": "B8_W3",
+      "held_metrics": {
+        "decoded_characters": 55773,
+        "decoded_words": 11893,
+        "destroyed_bits_per_character": -4.505883853691239,
+        "empty_chunks": 35,
+        "real_bits_per_character": -3.4055797723848875,
+        "real_lexicon_character_fraction": 0.3649436107076901,
+        "real_minus_destroyed_bits_per_character": 1.1003040813063514
+      },
+      "iterations": 8000,
+      "language": "latin",
+      "model_kind": "real",
+      "seed": 29,
+      "train_objective": -3.780869869413189
+    },
+    {
+      "accepted_moves": 666,
+      "config": "B8_W3",
+      "held_metrics": {
+        "decoded_characters": 57210,
+        "decoded_words": 12597,
+        "destroyed_bits_per_character": -4.479737589274751,
+        "empty_chunks": 41,
+        "real_bits_per_character": -3.3664007616420975,
+        "real_lexicon_character_fraction": 0.41877294179339275,
+        "real_minus_destroyed_bits_per_character": 1.1133368276326532
+      },
+      "iterations": 8000,
+      "language": "latin",
+      "model_kind": "real",
+      "seed": 47,
+      "train_objective": -3.8146288188567925
+    },
+    {
+      "accepted_moves": 642,
+      "config": "B8_W3",
+      "held_metrics": {
+        "decoded_characters": 57070,
+        "decoded_words": 11892,
+        "destroyed_bits_per_character": -4.600357473111704,
+        "empty_chunks": 7,
+        "real_bits_per_character": -3.431287466538403,
+        "real_lexicon_character_fraction": 0.3844576835465218,
+        "real_minus_destroyed_bits_per_character": 1.1690700065733015
+      },
+      "iterations": 8000,
+      "language": "latin",
+      "model_kind": "real",
+      "seed": 71,
+      "train_objective": -3.791754393032954
+    },
+    {
+      "accepted_moves": 625,
+      "config": "B8_W3",
+      "held_metrics": {
+        "decoded_characters": 58643,
+        "decoded_words": 11898,
+        "destroyed_bits_per_character": -4.383013801550676,
+        "empty_chunks": 32,
+        "real_bits_per_character": -3.3687601196759234,
+        "real_lexicon_character_fraction": 0.3790904285251437,
+        "real_minus_destroyed_bits_per_character": 1.0142536818747525
+      },
+      "iterations": 8000,
+      "language": "latin",
+      "model_kind": "real",
+      "seed": 89,
+      "train_objective": -3.7907254473454026
+    },
+    {
+      "accepted_moves": 645,
+      "config": "B8_W3",
+      "held_metrics": {
+        "decoded_characters": 53815,
+        "decoded_words": 12157,
+        "destroyed_bits_per_character": -4.459285473991376,
+        "empty_chunks": 37,
+        "real_bits_per_character": -3.335104805971878,
+        "real_lexicon_character_fraction": 0.4468828393570566,
+        "real_minus_destroyed_bits_per_character": 1.1241806680194983
+      },
+      "iterations": 8000,
+      "language": "latin",
+      "model_kind": "real",
+      "seed": 107,
+      "train_objective": -3.733844393438035
+    },
+    {
+      "accepted_moves": 670,
+      "config": "B0_W11",
+      "held_metrics": {
+        "decoded_characters": 76309,
+        "decoded_words": 15846,
+        "destroyed_bits_per_character": -4.309998201835407,
+        "empty_chunks": 2,
+        "real_bits_per_character": -2.6365290465863227,
+        "real_lexicon_character_fraction": 0.7595172260152799,
+        "real_minus_destroyed_bits_per_character": 1.673469155249085
+      },
+      "iterations": 8000,
+      "language": "middle_high_german",
+      "model_kind": "real",
+      "seed": 11,
+      "train_objective": -2.879150851543704
+    },
+    {
+      "accepted_moves": 725,
+      "config": "B0_W11",
+      "held_metrics": {
+        "decoded_characters": 76941,
+        "decoded_words": 16035,
+        "destroyed_bits_per_character": -4.381593080051927,
+        "empty_chunks": 16,
+        "real_bits_per_character": -2.6631687255042973,
+        "real_lexicon_character_fraction": 0.784471218206158,
+        "real_minus_destroyed_bits_per_character": 1.71842435454763
+      },
+      "iterations": 8000,
+      "language": "middle_high_german",
+      "model_kind": "real",
+      "seed": 29,
+      "train_objective": -2.9474098882511104
+    },
+    {
+      "accepted_moves": 700,
+      "config": "B0_W11",
+      "held_metrics": {
+        "decoded_characters": 74795,
+        "decoded_words": 15656,
+        "destroyed_bits_per_character": -4.267884503100623,
+        "empty_chunks": 12,
+        "real_bits_per_character": -2.6413371228304277,
+        "real_lexicon_character_fraction": 0.7878601510796176,
+        "real_minus_destroyed_bits_per_character": 1.626547380270195
+      },
+      "iterations": 8000,
+      "language": "middle_high_german",
+      "model_kind": "real",
+      "seed": 47,
+      "train_objective": -2.8629271898683313
+    },
+    {
+      "accepted_moves": 760,
+      "config": "B0_W11",
+      "held_metrics": {
+        "decoded_characters": 73684,
+        "decoded_words": 15586,
+        "destroyed_bits_per_character": -4.304606112985389,
+        "empty_chunks": 27,
+        "real_bits_per_character": -2.715786649983071,
+        "real_lexicon_character_fraction": 0.7472857065305901,
+        "real_minus_destroyed_bits_per_character": 1.5888194630023176
+      },
+      "iterations": 8000,
+      "language": "middle_high_german",
+      "model_kind": "real",
+      "seed": 71,
+      "train_objective": -2.9359154345583747
+    },
+    {
+      "accepted_moves": 703,
+      "config": "B0_W11",
+      "held_metrics": {
+        "decoded_characters": 73264,
+        "decoded_words": 15851,
+        "destroyed_bits_per_character": -4.328975347061307,
+        "empty_chunks": 27,
+        "real_bits_per_character": -2.6593537655380817,
+        "real_lexicon_character_fraction": 0.7783358811967679,
+        "real_minus_destroyed_bits_per_character": 1.6696215815232247
+      },
+      "iterations": 8000,
+      "language": "middle_high_german",
+      "model_kind": "real",
+      "seed": 89,
+      "train_objective": -2.9058338884637
+    },
+    {
+      "accepted_moves": 712,
+      "config": "B0_W11",
+      "held_metrics": {
+        "decoded_characters": 70909,
+        "decoded_words": 15661,
+        "destroyed_bits_per_character": -4.2275738636156435,
+        "empty_chunks": 9,
+        "real_bits_per_character": -2.7082721638999754,
+        "real_lexicon_character_fraction": 0.7755715071429579,
+        "real_minus_destroyed_bits_per_character": 1.5193016997156679
+      },
+      "iterations": 8000,
+      "language": "middle_high_german",
+      "model_kind": "real",
+      "seed": 107,
+      "train_objective": -2.8974887768314925
+    },
+    {
+      "accepted_moves": 646,
+      "config": "B11_W0",
+      "held_metrics": {
+        "decoded_characters": 42450,
+        "decoded_words": 10202,
+        "destroyed_bits_per_character": -4.567115276518435,
+        "empty_chunks": 144,
+        "real_bits_per_character": -4.271958939242995,
+        "real_lexicon_character_fraction": 0.22765606595995289,
+        "real_minus_destroyed_bits_per_character": 0.29515633727543966
+      },
+      "iterations": 8000,
+      "language": "middle_high_german",
+      "model_kind": "real",
+      "seed": 11,
+      "train_objective": -4.559152087210886
+    },
+    {
+      "accepted_moves": 682,
+      "config": "B11_W0",
+      "held_metrics": {
+        "decoded_characters": 43503,
+        "decoded_words": 10229,
+        "destroyed_bits_per_character": -4.549777332164813,
+        "empty_chunks": 18,
+        "real_bits_per_character": -4.241540535429094,
+        "real_lexicon_character_fraction": 0.21249109256832863,
+        "real_minus_destroyed_bits_per_character": 0.30823679673571985
+      },
+      "iterations": 8000,
+      "language": "middle_high_german",
+      "model_kind": "real",
+      "seed": 29,
+      "train_objective": -4.563526069202684
+    },
+    {
+      "accepted_moves": 670,
+      "config": "B11_W0",
+      "held_metrics": {
+        "decoded_characters": 43798,
+        "decoded_words": 10060,
+        "destroyed_bits_per_character": -4.491709768463684,
+        "empty_chunks": 81,
+        "real_bits_per_character": -4.159240405008643,
+        "real_lexicon_character_fraction": 0.2232522032969542,
+        "real_minus_destroyed_bits_per_character": 0.3324693634550405
+      },
+      "iterations": 8000,
+      "language": "middle_high_german",
+      "model_kind": "real",
+      "seed": 47,
+      "train_objective": -4.554715605702698
+    },
+    {
+      "accepted_moves": 678,
+      "config": "B11_W0",
+      "held_metrics": {
+        "decoded_characters": 43689,
+        "decoded_words": 9912,
+        "destroyed_bits_per_character": -4.512322682435437,
+        "empty_chunks": 34,
+        "real_bits_per_character": -4.38073167040362,
+        "real_lexicon_character_fraction": 0.19480876193092084,
+        "real_minus_destroyed_bits_per_character": 0.13159101203181756
+      },
+      "iterations": 8000,
+      "language": "middle_high_german",
+      "model_kind": "real",
+      "seed": 71,
+      "train_objective": -4.612865229704415
+    },
+    {
+      "accepted_moves": 658,
+      "config": "B11_W0",
+      "held_metrics": {
+        "decoded_characters": 44774,
+        "decoded_words": 10164,
+        "destroyed_bits_per_character": -4.496050758207114,
+        "empty_chunks": 35,
+        "real_bits_per_character": -4.183705043780846,
+        "real_lexicon_character_fraction": 0.20058516103095547,
+        "real_minus_destroyed_bits_per_character": 0.31234571442626824
+      },
+      "iterations": 8000,
+      "language": "middle_high_german",
+      "model_kind": "real",
+      "seed": 89,
+      "train_objective": -4.566297812005472
+    },
+    {
+      "accepted_moves": 685,
+      "config": "B11_W0",
+      "held_metrics": {
+        "decoded_characters": 44258,
+        "decoded_words": 10270,
+        "destroyed_bits_per_character": -4.417603840496861,
+        "empty_chunks": 15,
+        "real_bits_per_character": -4.126476614835339,
+        "real_lexicon_character_fraction": 0.23496317050024854,
+        "real_minus_destroyed_bits_per_character": 0.2911272256615212
+      },
+      "iterations": 8000,
+      "language": "middle_high_german",
+      "model_kind": "real",
+      "seed": 107,
+      "train_objective": -4.474350495482711
+    },
+    {
+      "accepted_moves": 672,
+      "config": "B3_W8",
+      "held_metrics": {
+        "decoded_characters": 65425,
+        "decoded_words": 14786,
+        "destroyed_bits_per_character": -4.220061357424628,
+        "empty_chunks": 23,
+        "real_bits_per_character": -2.8849849026423726,
+        "real_lexicon_character_fraction": 0.6892472296522736,
+        "real_minus_destroyed_bits_per_character": 1.3350764547822553
+      },
+      "iterations": 8000,
+      "language": "middle_high_german",
+      "model_kind": "real",
+      "seed": 11,
+      "train_objective": -3.229593259672134
+    },
+    {
+      "accepted_moves": 662,
+      "config": "B3_W8",
+      "held_metrics": {
+        "decoded_characters": 64337,
+        "decoded_words": 14601,
+        "destroyed_bits_per_character": -4.318810161848092,
+        "empty_chunks": 32,
+        "real_bits_per_character": -2.894222462949671,
+        "real_lexicon_character_fraction": 0.7030635559631316,
+        "real_minus_destroyed_bits_per_character": 1.424587698898421
+      },
+      "iterations": 8000,
+      "language": "middle_high_german",
+      "model_kind": "real",
+      "seed": 29,
+      "train_objective": -3.203879073622822
+    },
+    {
+      "accepted_moves": 737,
+      "config": "B3_W8",
+      "held_metrics": {
+        "decoded_characters": 62682,
+        "decoded_words": 14487,
+        "destroyed_bits_per_character": -4.2487753450717145,
+        "empty_chunks": 23,
+        "real_bits_per_character": -3.0576072365934834,
+        "real_lexicon_character_fraction": 0.6793656871191092,
+        "real_minus_destroyed_bits_per_character": 1.191168108478231
+      },
+      "iterations": 8000,
+      "language": "middle_high_german",
+      "model_kind": "real",
+      "seed": 47,
+      "train_objective": -3.3764350797012077
+    },
+    {
+      "accepted_moves": 692,
+      "config": "B3_W8",
+      "held_metrics": {
+        "decoded_characters": 64105,
+        "decoded_words": 14238,
+        "destroyed_bits_per_character": -4.510486301346254,
+        "empty_chunks": 51,
+        "real_bits_per_character": -2.913644754651504,
+        "real_lexicon_character_fraction": 0.6945948053973949,
+        "real_minus_destroyed_bits_per_character": 1.5968415466947494
+      },
+      "iterations": 8000,
+      "language": "middle_high_german",
+      "model_kind": "real",
+      "seed": 71,
+      "train_objective": -3.1820035742821244
+    },
+    {
+      "accepted_moves": 710,
+      "config": "B3_W8",
+      "held_metrics": {
+        "decoded_characters": 59552,
+        "decoded_words": 14202,
+        "destroyed_bits_per_character": -4.183902571116856,
+        "empty_chunks": 17,
+        "real_bits_per_character": -2.9140323792210463,
+        "real_lexicon_character_fraction": 0.7186828318108544,
+        "real_minus_destroyed_bits_per_character": 1.2698701918958095
+      },
+      "iterations": 8000,
+      "language": "middle_high_german",
+      "model_kind": "real",
+      "seed": 89,
+      "train_objective": -3.1378105774054217
+    },
+    {
+      "accepted_moves": 699,
+      "config": "B3_W8",
+      "held_metrics": {
+        "decoded_characters": 62579,
+        "decoded_words": 14315,
+        "destroyed_bits_per_character": -4.258757954519208,
+        "empty_chunks": 39,
+        "real_bits_per_character": -2.866739848801884,
+        "real_lexicon_character_fraction": 0.7427731347576663,
+        "real_minus_destroyed_bits_per_character": 1.392018105717324
+      },
+      "iterations": 8000,
+      "language": "middle_high_german",
+      "model_kind": "real",
+      "seed": 107,
+      "train_objective": -3.2021549520226453
+    },
+    {
+      "accepted_moves": 691,
+      "config": "B6_W5",
+      "held_metrics": {
+        "decoded_characters": 58843,
+        "decoded_words": 12895,
+        "destroyed_bits_per_character": -4.31630261015063,
+        "empty_chunks": 52,
+        "real_bits_per_character": -3.1793948091394264,
+        "real_lexicon_character_fraction": 0.5778427340550278,
+        "real_minus_destroyed_bits_per_character": 1.136907801011203
+      },
+      "iterations": 8000,
+      "language": "middle_high_german",
+      "model_kind": "real",
+      "seed": 11,
+      "train_objective": -3.5123763835335056
+    },
+    {
+      "accepted_moves": 648,
+      "config": "B6_W5",
+      "held_metrics": {
+        "decoded_characters": 56356,
+        "decoded_words": 12934,
+        "destroyed_bits_per_character": -4.24946600840168,
+        "empty_chunks": 14,
+        "real_bits_per_character": -3.0846137058459777,
+        "real_lexicon_character_fraction": 0.6383881041947619,
+        "real_minus_destroyed_bits_per_character": 1.1648523025557023
+      },
+      "iterations": 8000,
+      "language": "middle_high_german",
+      "model_kind": "real",
+      "seed": 29,
+      "train_objective": -3.401651892171124
+    },
+    {
+      "accepted_moves": 731,
+      "config": "B6_W5",
+      "held_metrics": {
+        "decoded_characters": 56166,
+        "decoded_words": 12866,
+        "destroyed_bits_per_character": -4.394776040331191,
+        "empty_chunks": 38,
+        "real_bits_per_character": -3.1135847179202,
+        "real_lexicon_character_fraction": 0.6353487875227005,
+        "real_minus_destroyed_bits_per_character": 1.2811913224109914
+      },
+      "iterations": 8000,
+      "language": "middle_high_german",
+      "model_kind": "real",
+      "seed": 47,
+      "train_objective": -3.554198119003459
+    },
+    {
+      "accepted_moves": 729,
+      "config": "B6_W5",
+      "held_metrics": {
+        "decoded_characters": 60696,
+        "decoded_words": 13227,
+        "destroyed_bits_per_character": -4.368259224415896,
+        "empty_chunks": 35,
+        "real_bits_per_character": -3.143248431446282,
+        "real_lexicon_character_fraction": 0.5883748517200474,
+        "real_minus_destroyed_bits_per_character": 1.2250107929696141
+      },
+      "iterations": 8000,
+      "language": "middle_high_german",
+      "model_kind": "real",
+      "seed": 71,
+      "train_objective": -3.5347238101661067
+    },
+    {
+      "accepted_moves": 700,
+      "config": "B6_W5",
+      "held_metrics": {
+        "decoded_characters": 59141,
+        "decoded_words": 13403,
+        "destroyed_bits_per_character": -4.469530477179934,
+        "empty_chunks": 81,
+        "real_bits_per_character": -3.1830239508286073,
+        "real_lexicon_character_fraction": 0.628126003956646,
+        "real_minus_destroyed_bits_per_character": 1.2865065263513262
+      },
+      "iterations": 8000,
+      "language": "middle_high_german",
+      "model_kind": "real",
+      "seed": 89,
+      "train_objective": -3.505967153005679
+    },
+    {
+      "accepted_moves": 696,
+      "config": "B6_W5",
+      "held_metrics": {
+        "decoded_characters": 57662,
+        "decoded_words": 12992,
+        "destroyed_bits_per_character": -4.427918687352195,
+        "empty_chunks": 75,
+        "real_bits_per_character": -3.3576942686659286,
+        "real_lexicon_character_fraction": 0.5164926641462315,
+        "real_minus_destroyed_bits_per_character": 1.070224418686266
+      },
+      "iterations": 8000,
+      "language": "middle_high_german",
+      "model_kind": "real",
+      "seed": 107,
+      "train_objective": -3.6501917227035174
+    },
+    {
+      "accepted_moves": 637,
+      "config": "B8_W3",
+      "held_metrics": {
+        "decoded_characters": 51495,
+        "decoded_words": 12119,
+        "destroyed_bits_per_character": -4.274708191186802,
+        "empty_chunks": 14,
+        "real_bits_per_character": -3.421548881632917,
+        "real_lexicon_character_fraction": 0.5032333236236528,
+        "real_minus_destroyed_bits_per_character": 0.8531593095538852
+      },
+      "iterations": 8000,
+      "language": "middle_high_german",
+      "model_kind": "real",
+      "seed": 11,
+      "train_objective": -3.727859385187949
+    },
+    {
+      "accepted_moves": 676,
+      "config": "B8_W3",
+      "held_metrics": {
+        "decoded_characters": 52409,
+        "decoded_words": 11757,
+        "destroyed_bits_per_character": -4.5788147172602605,
+        "empty_chunks": 53,
+        "real_bits_per_character": -3.624850568571289,
+        "real_lexicon_character_fraction": 0.447900169818161,
+        "real_minus_destroyed_bits_per_character": 0.953964148688971
+      },
+      "iterations": 8000,
+      "language": "middle_high_german",
+      "model_kind": "real",
+      "seed": 29,
+      "train_objective": -3.9957516167860603
+    },
+    {
+      "accepted_moves": 715,
+      "config": "B8_W3",
+      "held_metrics": {
+        "decoded_characters": 53665,
+        "decoded_words": 12595,
+        "destroyed_bits_per_character": -4.528421033412398,
+        "empty_chunks": 59,
+        "real_bits_per_character": -3.4728662131052697,
+        "real_lexicon_character_fraction": 0.5069598434733998,
+        "real_minus_destroyed_bits_per_character": 1.0555548203071285
+      },
+      "iterations": 8000,
+      "language": "middle_high_german",
+      "model_kind": "real",
+      "seed": 47,
+      "train_objective": -3.898362367641713
+    },
+    {
+      "accepted_moves": 672,
+      "config": "B8_W3",
+      "held_metrics": {
+        "decoded_characters": 51156,
+        "decoded_words": 11770,
+        "destroyed_bits_per_character": -4.362478323431204,
+        "empty_chunks": 41,
+        "real_bits_per_character": -3.6700785715525077,
+        "real_lexicon_character_fraction": 0.4350222847759794,
+        "real_minus_destroyed_bits_per_character": 0.6923997518786963
+      },
+      "iterations": 8000,
+      "language": "middle_high_german",
+      "model_kind": "real",
+      "seed": 71,
+      "train_objective": -4.006861788050523
+    },
+    {
+      "accepted_moves": 689,
+      "config": "B8_W3",
+      "held_metrics": {
+        "decoded_characters": 51080,
+        "decoded_words": 12089,
+        "destroyed_bits_per_character": -4.312790773627286,
+        "empty_chunks": 33,
+        "real_bits_per_character": -3.3527974678843457,
+        "real_lexicon_character_fraction": 0.558672670321065,
+        "real_minus_destroyed_bits_per_character": 0.9599933057429405
+      },
+      "iterations": 8000,
+      "language": "middle_high_german",
+      "model_kind": "real",
+      "seed": 89,
+      "train_objective": -3.7041862567034314
+    },
+    {
+      "accepted_moves": 714,
+      "config": "B8_W3",
+      "held_metrics": {
+        "decoded_characters": 53291,
+        "decoded_words": 11715,
+        "destroyed_bits_per_character": -4.387731832832629,
+        "empty_chunks": 24,
+        "real_bits_per_character": -3.483500608438535,
+        "real_lexicon_character_fraction": 0.4368655120001501,
+        "real_minus_destroyed_bits_per_character": 0.9042312243940942
+      },
+      "iterations": 8000,
+      "language": "middle_high_german",
+      "model_kind": "real",
+      "seed": 107,
+      "train_objective": -3.8732667971924952
+    },
+    {
+      "accepted_moves": 716,
+      "config": "B0_W11",
+      "held_metrics": {
+        "decoded_characters": 68367,
+        "decoded_words": 15775,
+        "destroyed_bits_per_character": -4.351466365604461,
+        "empty_chunks": 13,
+        "real_bits_per_character": -2.6423956986329937,
+        "real_lexicon_character_fraction": 0.7652229876987435,
+        "real_minus_destroyed_bits_per_character": 1.7090706669714668
+      },
+      "iterations": 8000,
+      "language": "old_italian",
+      "model_kind": "real",
+      "seed": 11,
+      "train_objective": -2.6939014373057124
+    },
+    {
+      "accepted_moves": 686,
+      "config": "B0_W11",
+      "held_metrics": {
+        "decoded_characters": 64544,
+        "decoded_words": 15771,
+        "destroyed_bits_per_character": -4.335481146284962,
+        "empty_chunks": 5,
+        "real_bits_per_character": -2.698833670353318,
+        "real_lexicon_character_fraction": 0.8100985374318295,
+        "real_minus_destroyed_bits_per_character": 1.6366474759316436
+      },
+      "iterations": 8000,
+      "language": "old_italian",
+      "model_kind": "real",
+      "seed": 29,
+      "train_objective": -2.7142545934740236
+    },
+    {
+      "accepted_moves": 663,
+      "config": "B0_W11",
+      "held_metrics": {
+        "decoded_characters": 66131,
+        "decoded_words": 15917,
+        "destroyed_bits_per_character": -4.384891542335553,
+        "empty_chunks": 5,
+        "real_bits_per_character": -2.621592865051833,
+        "real_lexicon_character_fraction": 0.7846244575161422,
+        "real_minus_destroyed_bits_per_character": 1.76329867728372
+      },
+      "iterations": 8000,
+      "language": "old_italian",
+      "model_kind": "real",
+      "seed": 47,
+      "train_objective": -2.690802124710445
+    },
+    {
+      "accepted_moves": 717,
+      "config": "B0_W11",
+      "held_metrics": {
+        "decoded_characters": 64637,
+        "decoded_words": 15811,
+        "destroyed_bits_per_character": -4.378543164398403,
+        "empty_chunks": 32,
+        "real_bits_per_character": -2.736854818985252,
+        "real_lexicon_character_fraction": 0.769218868449959,
+        "real_minus_destroyed_bits_per_character": 1.6416883454131506
+      },
+      "iterations": 8000,
+      "language": "old_italian",
+      "model_kind": "real",
+      "seed": 71,
+      "train_objective": -2.777693101184137
+    },
+    {
+      "accepted_moves": 684,
+      "config": "B0_W11",
+      "held_metrics": {
+        "decoded_characters": 68176,
+        "decoded_words": 15709,
+        "destroyed_bits_per_character": -4.432032539375615,
+        "empty_chunks": 7,
+        "real_bits_per_character": -2.6010602624318016,
+        "real_lexicon_character_fraction": 0.8033618868810138,
+        "real_minus_destroyed_bits_per_character": 1.8309722769438137
+      },
+      "iterations": 8000,
+      "language": "old_italian",
+      "model_kind": "real",
+      "seed": 89,
+      "train_objective": -2.6521526659879022
+    },
+    {
+      "accepted_moves": 695,
+      "config": "B0_W11",
+      "held_metrics": {
+        "decoded_characters": 68704,
+        "decoded_words": 15683,
+        "destroyed_bits_per_character": -4.355231052935964,
+        "empty_chunks": 8,
+        "real_bits_per_character": -2.5525174551234793,
+        "real_lexicon_character_fraction": 0.7600139729855613,
+        "real_minus_destroyed_bits_per_character": 1.8027135978124849
+      },
+      "iterations": 8000,
+      "language": "old_italian",
+      "model_kind": "real",
+      "seed": 107,
+      "train_objective": -2.6275414277141724
+    },
+    {
+      "accepted_moves": 702,
+      "config": "B11_W0",
+      "held_metrics": {
+        "decoded_characters": 40435,
+        "decoded_words": 10690,
+        "destroyed_bits_per_character": -4.419443163260071,
+        "empty_chunks": 23,
+        "real_bits_per_character": -3.775400107113221,
+        "real_lexicon_character_fraction": 0.31022628910597255,
+        "real_minus_destroyed_bits_per_character": 0.6440430561468501
+      },
+      "iterations": 8000,
+      "language": "old_italian",
+      "model_kind": "real",
+      "seed": 11,
+      "train_objective": -3.9267064063381
+    },
+    {
+      "accepted_moves": 702,
+      "config": "B11_W0",
+      "held_metrics": {
+        "decoded_characters": 39397,
+        "decoded_words": 10755,
+        "destroyed_bits_per_character": -4.363927503839068,
+        "empty_chunks": 45,
+        "real_bits_per_character": -3.8371305321576603,
+        "real_lexicon_character_fraction": 0.35510318044521155,
+        "real_minus_destroyed_bits_per_character": 0.5267969716814076
+      },
+      "iterations": 8000,
+      "language": "old_italian",
+      "model_kind": "real",
+      "seed": 29,
+      "train_objective": -3.9578855121742955
+    },
+    {
+      "accepted_moves": 769,
+      "config": "B11_W0",
+      "held_metrics": {
+        "decoded_characters": 38877,
+        "decoded_words": 10874,
+        "destroyed_bits_per_character": -4.3952562840487035,
+        "empty_chunks": 43,
+        "real_bits_per_character": -3.713434171019517,
+        "real_lexicon_character_fraction": 0.3849062427656455,
+        "real_minus_destroyed_bits_per_character": 0.681822113029186
+      },
+      "iterations": 8000,
+      "language": "old_italian",
+      "model_kind": "real",
+      "seed": 47,
+      "train_objective": -3.8639044319868967
+    },
+    {
+      "accepted_moves": 716,
+      "config": "B11_W0",
+      "held_metrics": {
+        "decoded_characters": 38651,
+        "decoded_words": 10435,
+        "destroyed_bits_per_character": -4.322705895195352,
+        "empty_chunks": 30,
+        "real_bits_per_character": -3.757041146428475,
+        "real_lexicon_character_fraction": 0.3382059972575095,
+        "real_minus_destroyed_bits_per_character": 0.5656647487668767
+      },
+      "iterations": 8000,
+      "language": "old_italian",
+      "model_kind": "real",
+      "seed": 71,
+      "train_objective": -3.8701228536821404
+    },
+    {
+      "accepted_moves": 670,
+      "config": "B11_W0",
+      "held_metrics": {
+        "decoded_characters": 38480,
+        "decoded_words": 10825,
+        "destroyed_bits_per_character": -4.38432425065724,
+        "empty_chunks": 46,
+        "real_bits_per_character": -3.7621169870577593,
+        "real_lexicon_character_fraction": 0.3215956340956341,
+        "real_minus_destroyed_bits_per_character": 0.622207263599481
+      },
+      "iterations": 8000,
+      "language": "old_italian",
+      "model_kind": "real",
+      "seed": 89,
+      "train_objective": -3.8828390270867814
+    },
+    {
+      "accepted_moves": 707,
+      "config": "B11_W0",
+      "held_metrics": {
+        "decoded_characters": 40968,
+        "decoded_words": 11245,
+        "destroyed_bits_per_character": -4.427605262526308,
+        "empty_chunks": 19,
+        "real_bits_per_character": -4.049045786413407,
+        "real_lexicon_character_fraction": 0.23393868385081037,
+        "real_minus_destroyed_bits_per_character": 0.37855947611290136
+      },
+      "iterations": 8000,
+      "language": "old_italian",
+      "model_kind": "real",
+      "seed": 107,
+      "train_objective": -4.192294904410456
+    },
+    {
+      "accepted_moves": 706,
+      "config": "B3_W8",
+      "held_metrics": {
+        "decoded_characters": 59048,
+        "decoded_words": 14787,
+        "destroyed_bits_per_character": -4.222720615022635,
+        "empty_chunks": 41,
+        "real_bits_per_character": -2.906720956597572,
+        "real_lexicon_character_fraction": 0.6555344804227069,
+        "real_minus_destroyed_bits_per_character": 1.3159996584250635
+      },
+      "iterations": 8000,
+      "language": "old_italian",
+      "model_kind": "real",
+      "seed": 11,
+      "train_objective": -2.991463522906706
+    },
+    {
+      "accepted_moves": 679,
+      "config": "B3_W8",
+      "held_metrics": {
+        "decoded_characters": 57907,
+        "decoded_words": 14376,
+        "destroyed_bits_per_character": -4.319020929542001,
+        "empty_chunks": 37,
+        "real_bits_per_character": -2.7998327856254943,
+        "real_lexicon_character_fraction": 0.7229523200994699,
+        "real_minus_destroyed_bits_per_character": 1.5191881439165067
+      },
+      "iterations": 8000,
+      "language": "old_italian",
+      "model_kind": "real",
+      "seed": 29,
+      "train_objective": -2.9260801480624616
+    },
+    {
+      "accepted_moves": 646,
+      "config": "B3_W8",
+      "held_metrics": {
+        "decoded_characters": 62225,
+        "decoded_words": 14921,
+        "destroyed_bits_per_character": -4.343356473743656,
+        "empty_chunks": 70,
+        "real_bits_per_character": -2.8301627644514507,
+        "real_lexicon_character_fraction": 0.7438650060265167,
+        "real_minus_destroyed_bits_per_character": 1.5131937092922048
+      },
+      "iterations": 8000,
+      "language": "old_italian",
+      "model_kind": "real",
+      "seed": 47,
+      "train_objective": -2.978768241540811
+    },
+    {
+      "accepted_moves": 662,
+      "config": "B3_W8",
+      "held_metrics": {
+        "decoded_characters": 59876,
+        "decoded_words": 14648,
+        "destroyed_bits_per_character": -4.337722967145336,
+        "empty_chunks": 11,
+        "real_bits_per_character": -2.7966573557961474,
+        "real_lexicon_character_fraction": 0.7225432560625292,
+        "real_minus_destroyed_bits_per_character": 1.5410656113491878
+      },
+      "iterations": 8000,
+      "language": "old_italian",
+      "model_kind": "real",
+      "seed": 71,
+      "train_objective": -2.8725050728341337
+    },
+    {
+      "accepted_moves": 699,
+      "config": "B3_W8",
+      "held_metrics": {
+        "decoded_characters": 58995,
+        "decoded_words": 14297,
+        "destroyed_bits_per_character": -4.398429312372937,
+        "empty_chunks": 15,
+        "real_bits_per_character": -2.82109235482503,
+        "real_lexicon_character_fraction": 0.7267226036104755,
+        "real_minus_destroyed_bits_per_character": 1.5773369575479073
+      },
+      "iterations": 8000,
+      "language": "old_italian",
+      "model_kind": "real",
+      "seed": 89,
+      "train_objective": -2.914680634796844
+    },
+    {
+      "accepted_moves": 720,
+      "config": "B3_W8",
+      "held_metrics": {
+        "decoded_characters": 58788,
+        "decoded_words": 14243,
+        "destroyed_bits_per_character": -4.357300789957073,
+        "empty_chunks": 12,
+        "real_bits_per_character": -2.703823165159982,
+        "real_lexicon_character_fraction": 0.7469381506429884,
+        "real_minus_destroyed_bits_per_character": 1.6534776247970908
+      },
+      "iterations": 8000,
+      "language": "old_italian",
+      "model_kind": "real",
+      "seed": 107,
+      "train_objective": -2.8765456591366774
+    },
+    {
+      "accepted_moves": 689,
+      "config": "B6_W5",
+      "held_metrics": {
+        "decoded_characters": 55050,
+        "decoded_words": 12851,
+        "destroyed_bits_per_character": -4.40019888551044,
+        "empty_chunks": 29,
+        "real_bits_per_character": -3.04665396123281,
+        "real_lexicon_character_fraction": 0.5890281562216167,
+        "real_minus_destroyed_bits_per_character": 1.3535449242776298
+      },
+      "iterations": 8000,
+      "language": "old_italian",
+      "model_kind": "real",
+      "seed": 11,
+      "train_objective": -3.1856219374296435
+    },
+    {
+      "accepted_moves": 730,
+      "config": "B6_W5",
+      "held_metrics": {
+        "decoded_characters": 55063,
+        "decoded_words": 13661,
+        "destroyed_bits_per_character": -4.38844584622789,
+        "empty_chunks": 46,
+        "real_bits_per_character": -3.032946616787727,
+        "real_lexicon_character_fraction": 0.622269037284565,
+        "real_minus_destroyed_bits_per_character": 1.3554992294401633
+      },
+      "iterations": 8000,
+      "language": "old_italian",
+      "model_kind": "real",
+      "seed": 29,
+      "train_objective": -3.2001065034365452
+    },
+    {
+      "accepted_moves": 707,
+      "config": "B6_W5",
+      "held_metrics": {
+        "decoded_characters": 52548,
+        "decoded_words": 13192,
+        "destroyed_bits_per_character": -4.311397978753701,
+        "empty_chunks": 16,
+        "real_bits_per_character": -3.020614849949756,
+        "real_lexicon_character_fraction": 0.6371127350232169,
+        "real_minus_destroyed_bits_per_character": 1.2907831288039442
+      },
+      "iterations": 8000,
+      "language": "old_italian",
+      "model_kind": "real",
+      "seed": 47,
+      "train_objective": -3.189701010992925
+    },
+    {
+      "accepted_moves": 669,
+      "config": "B6_W5",
+      "held_metrics": {
+        "decoded_characters": 55238,
+        "decoded_words": 13372,
+        "destroyed_bits_per_character": -4.2772191973322276,
+        "empty_chunks": 37,
+        "real_bits_per_character": -3.0956147492368156,
+        "real_lexicon_character_fraction": 0.5732466780115139,
+        "real_minus_destroyed_bits_per_character": 1.181604448095412
+      },
+      "iterations": 8000,
+      "language": "old_italian",
+      "model_kind": "real",
+      "seed": 71,
+      "train_objective": -3.2468433025664565
+    },
+    {
+      "accepted_moves": 631,
+      "config": "B6_W5",
+      "held_metrics": {
+        "decoded_characters": 54239,
+        "decoded_words": 13369,
+        "destroyed_bits_per_character": -4.305529278801821,
+        "empty_chunks": 26,
+        "real_bits_per_character": -2.947735802749072,
+        "real_lexicon_character_fraction": 0.6678957945389848,
+        "real_minus_destroyed_bits_per_character": 1.3577934760527488
+      },
+      "iterations": 8000,
+      "language": "old_italian",
+      "model_kind": "real",
+      "seed": 89,
+      "train_objective": -3.083562103300946
+    },
+    {
+      "accepted_moves": 711,
+      "config": "B6_W5",
+      "held_metrics": {
+        "decoded_characters": 53909,
+        "decoded_words": 13630,
+        "destroyed_bits_per_character": -4.406875137875969,
+        "empty_chunks": 9,
+        "real_bits_per_character": -3.0709156076083963,
+        "real_lexicon_character_fraction": 0.659908364095049,
+        "real_minus_destroyed_bits_per_character": 1.3359595302675724
+      },
+      "iterations": 8000,
+      "language": "old_italian",
+      "model_kind": "real",
+      "seed": 107,
+      "train_objective": -3.165061270398641
+    },
+    {
+      "accepted_moves": 671,
+      "config": "B8_W3",
+      "held_metrics": {
+        "decoded_characters": 47575,
+        "decoded_words": 12429,
+        "destroyed_bits_per_character": -4.290832855750658,
+        "empty_chunks": 20,
+        "real_bits_per_character": -3.202302662022477,
+        "real_lexicon_character_fraction": 0.6067472411981083,
+        "real_minus_destroyed_bits_per_character": 1.0885301937281813
+      },
+      "iterations": 8000,
+      "language": "old_italian",
+      "model_kind": "real",
+      "seed": 11,
+      "train_objective": -3.4289885744593986
+    },
+    {
+      "accepted_moves": 685,
+      "config": "B8_W3",
+      "held_metrics": {
+        "decoded_characters": 47377,
+        "decoded_words": 12559,
+        "destroyed_bits_per_character": -4.387586100389414,
+        "empty_chunks": 58,
+        "real_bits_per_character": -3.4079707552497145,
+        "real_lexicon_character_fraction": 0.5404310108280389,
+        "real_minus_destroyed_bits_per_character": 0.9796153451396993
+      },
+      "iterations": 8000,
+      "language": "old_italian",
+      "model_kind": "real",
+      "seed": 29,
+      "train_objective": -3.542672582775734
+    },
+    {
+      "accepted_moves": 733,
+      "config": "B8_W3",
+      "held_metrics": {
+        "decoded_characters": 46845,
+        "decoded_words": 12493,
+        "destroyed_bits_per_character": -4.316489276195656,
+        "empty_chunks": 13,
+        "real_bits_per_character": -3.3540012704179105,
+        "real_lexicon_character_fraction": 0.561511367275056,
+        "real_minus_destroyed_bits_per_character": 0.9624880057777457
+      },
+      "iterations": 8000,
+      "language": "old_italian",
+      "model_kind": "real",
+      "seed": 47,
+      "train_objective": -3.4452683136680524
+    },
+    {
+      "accepted_moves": 688,
+      "config": "B8_W3",
+      "held_metrics": {
+        "decoded_characters": 45864,
+        "decoded_words": 12152,
+        "destroyed_bits_per_character": -4.359681279671211,
+        "empty_chunks": 14,
+        "real_bits_per_character": -3.2905514537301968,
+        "real_lexicon_character_fraction": 0.5618785975928833,
+        "real_minus_destroyed_bits_per_character": 1.0691298259410145
+      },
+      "iterations": 8000,
+      "language": "old_italian",
+      "model_kind": "real",
+      "seed": 71,
+      "train_objective": -3.4530340071046988
+    },
+    {
+      "accepted_moves": 690,
+      "config": "B8_W3",
+      "held_metrics": {
+        "decoded_characters": 49421,
+        "decoded_words": 12055,
+        "destroyed_bits_per_character": -4.491873667078397,
+        "empty_chunks": 45,
+        "real_bits_per_character": -3.1569125783638188,
+        "real_lexicon_character_fraction": 0.5341251694623743,
+        "real_minus_destroyed_bits_per_character": 1.3349610887145777
+      },
+      "iterations": 8000,
+      "language": "old_italian",
+      "model_kind": "real",
+      "seed": 89,
+      "train_objective": -3.340627998283618
+    },
+    {
+      "accepted_moves": 733,
+      "config": "B8_W3",
+      "held_metrics": {
+        "decoded_characters": 48146,
+        "decoded_words": 12835,
+        "destroyed_bits_per_character": -4.432226610213302,
+        "empty_chunks": 21,
+        "real_bits_per_character": -3.310370658940286,
+        "real_lexicon_character_fraction": 0.5808582229053296,
+        "real_minus_destroyed_bits_per_character": 1.1218559512730157
+      },
+      "iterations": 8000,
+      "language": "old_italian",
+      "model_kind": "real",
+      "seed": 107,
+      "train_objective": -3.4951956692139134
+    }
+  ],
+  "runs": 90,
+  "schema": "gdt607-boundary-word-disentanglement-v1",
+  "seeds": [
+    11,
+    29,
+    47,
+    71,
+    89,
+    107
+  ],
+  "summaries": {
+    "latin": {
+      "B0_W11": {
+        "held_real_minus_destroyed_range": [
+          1.90201423104,
+          2.208187311391785
+        ],
+        "mean_category_held_agreement": 0.7554684256653905,
+        "minimum_category_held_agreement": 0.650076110521703,
+        "train_objective_range": [
+          -2.7659134107044383,
+          -2.6855290149782767
+        ]
+      },
+      "B11_W0": {
+        "held_real_minus_destroyed_range": [
+          0.14051552632647246,
+          0.45739001078148406
+        ],
+        "mean_category_held_agreement": 0.7131417500807232,
+        "minimum_category_held_agreement": 0.5942156003505696,
+        "train_objective_range": [
+          -4.593468565448221,
+          -4.4238450155312705
+        ]
+      },
+      "B3_W8": {
+        "held_real_minus_destroyed_range": [
+          1.6433404910504257,
+          1.9628799724615285
+        ],
+        "mean_category_held_agreement": 0.6457155157833233,
+        "minimum_category_held_agreement": 0.5057890124083214,
+        "train_objective_range": [
+          -3.1435265149659566,
+          -2.99003243311104
+        ]
+      },
+      "B6_W5": {
+        "held_real_minus_destroyed_range": [
+          1.2405789445653104,
+          1.5268403097717778
+        ],
+        "mean_category_held_agreement": 0.6491443332257023,
+        "minimum_category_held_agreement": 0.5593892707228193,
+        "train_objective_range": [
+          -3.475119005155959,
+          -3.3605524980529844
+        ]
+      },
+      "B8_W3": {
+        "held_real_minus_destroyed_range": [
+          1.0142536818747525,
+          1.1690700065733015
+        ],
+        "mean_category_held_agreement": 0.7249504128419207,
+        "minimum_category_held_agreement": 0.6568568660916094,
+        "train_objective_range": [
+          -3.8146288188567925,
+          -3.733844393438035
+        ]
+      }
+    },
+    "middle_high_german": {
+      "B0_W11": {
+        "held_real_minus_destroyed_range": [
+          1.5193016997156679,
+          1.71842435454763
+        ],
+        "mean_category_held_agreement": 0.6809508433660839,
+        "minimum_category_held_agreement": 0.5136768301120901,
+        "train_objective_range": [
+          -2.9474098882511104,
+          -2.8629271898683313
+        ]
+      },
+      "B11_W0": {
+        "held_real_minus_destroyed_range": [
+          0.13159101203181756,
+          0.3324693634550405
+        ],
+        "mean_category_held_agreement": 0.6999400341344159,
+        "minimum_category_held_agreement": 0.5301905069422022,
+        "train_objective_range": [
+          -4.612865229704415,
+          -4.474350495482711
+        ]
+      },
+      "B3_W8": {
+        "held_real_minus_destroyed_range": [
+          1.191168108478231,
+          1.5968415466947494
+        ],
+        "mean_category_held_agreement": 0.6108522840844443,
+        "minimum_category_held_agreement": 0.5145071267124868,
+        "train_objective_range": [
+          -3.3764350797012077,
+          -3.1378105774054217
+        ]
+      },
+      "B6_W5": {
+        "held_real_minus_destroyed_range": [
+          1.070224418686266,
+          1.2865065263513262
+        ],
+        "mean_category_held_agreement": 0.6254347525254855,
+        "minimum_category_held_agreement": 0.43304580469578857,
+        "train_objective_range": [
+          -3.6501917227035174,
+          -3.401651892171124
+        ]
+      },
+      "B8_W3": {
+        "held_real_minus_destroyed_range": [
+          0.6923997518786963,
+          1.0555548203071285
+        ],
+        "mean_category_held_agreement": 0.6195488721804512,
+        "minimum_category_held_agreement": 0.4834171317865215,
+        "train_objective_range": [
+          -4.006861788050523,
+          -3.7041862567034314
+        ]
+      }
+    },
+    "old_italian": {
+      "B0_W11": {
+        "held_real_minus_destroyed_range": [
+          1.6366474759316436,
+          1.8309722769438137
+        ],
+        "mean_category_held_agreement": 0.6937743130833218,
+        "minimum_category_held_agreement": 0.562110798468564,
+        "train_objective_range": [
+          -2.777693101184137,
+          -2.6275414277141724
+        ]
+      },
+      "B11_W0": {
+        "held_real_minus_destroyed_range": [
+          0.37855947611290136,
+          0.681822113029186
+        ],
+        "mean_category_held_agreement": 0.6375017297845842,
+        "minimum_category_held_agreement": 0.4678721343235389,
+        "train_objective_range": [
+          -4.192294904410456,
+          -3.8639044319868967
+        ]
+      },
+      "B3_W8": {
+        "held_real_minus_destroyed_range": [
+          1.3159996584250635,
+          1.6534776247970908
+        ],
+        "mean_category_held_agreement": 0.599701708258376,
+        "minimum_category_held_agreement": 0.5048664606301029,
+        "train_objective_range": [
+          -2.991463522906706,
+          -2.8725050728341337
+        ]
+      },
+      "B6_W5": {
+        "held_real_minus_destroyed_range": [
+          1.181604448095412,
+          1.3577934760527488
+        ],
+        "mean_category_held_agreement": 0.5883573965588819,
+        "minimum_category_held_agreement": 0.47829696941740857,
+        "train_objective_range": [
+          -3.2468433025664565,
+          -3.083562103300946
+        ]
+      },
+      "B8_W3": {
+        "held_real_minus_destroyed_range": [
+          0.9624880057777457,
+          1.3349610887145777
+        ],
+        "mean_category_held_agreement": 0.566834263573043,
+        "minimum_category_held_agreement": 0.44102587757737904,
+        "train_objective_range": [
+          -3.542672582775734,
+          -3.340627998283618
+        ]
+      }
+    }
+  },
+  "target_structure": {
+    "C": {
+      "first_fraction": 0.6933895921237694,
+      "last_fraction": 0.005625879043600563,
+      "middle_fraction": 0.3037974683544304,
+      "occurrences": 711,
+      "standalone_fraction": 0.0028129395218002813
+    },
+    "d": {
+      "first_fraction": 0.4991624790619765,
+      "last_fraction": 0.19765494137353434,
+      "middle_fraction": 0.3098827470686767,
+      "occurrences": 597,
+      "standalone_fraction": 0.006700167504187605
+    },
+    "o": {
+      "first_fraction": 0.31198686371100165,
+      "last_fraction": 0.2988505747126437,
+      "middle_fraction": 0.4154351395730706,
+      "occurrences": 609,
+      "standalone_fraction": 0.026272577996715927
+    },
+    "ol": {
+      "first_fraction": 0.4044943820224719,
+      "last_fraction": 0.5463483146067416,
+      "middle_fraction": 0.19241573033707865,
+      "occurrences": 712,
+      "standalone_fraction": 0.14325842696629212
+    },
+    "y": {
+      "first_fraction": 0.33212996389891697,
+      "last_fraction": 0.6389891696750902,
+      "middle_fraction": 0.06859205776173286,
+      "occurrences": 554,
+      "standalone_fraction": 0.039711191335740074
+    }
+  },
+  "unit_sequences_sha256": "3ee0841e211314b72719acbbf79ed3a6dc7bfc3c157734f54dbdac92ac458fdf"
+}

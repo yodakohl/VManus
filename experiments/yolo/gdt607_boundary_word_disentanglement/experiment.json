@@ -1,0 +1,160 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "All 8,820 boundary-grid assignments and 10,277 target-context events are retained to expose category migration, matched controls, and carrier-level counterexamples without selection.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "May correct GDT606's W-bucket confound and assign train-to-held formal opener, head, closer, boundary/standalone and connector roles. It may not assign any unit a word, morpheme, sound, language or meaning.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt607_boundary_word_disentanglement/src/run.py",
+    "validate": "python3 experiments/yolo/gdt607_boundary_word_disentanglement/src/validate.py"
+  },
+  "created": "2026-08-28",
+  "dependencies": [
+    "GDT604",
+    "GDT606"
+  ],
+  "experiment_id": "GDT607",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt606_mixed_nomenclator_decoder/artifacts/guarded_rows.tsv",
+      "role": "published f84-free guarded rows and 68/23 folio split",
+      "sha256": "d6674f3d54edc49590c884b5d703cb032b966c1abd4da6338093795ce1f31ef9"
+    },
+    {
+      "path": "experiments/yolo/gdt606_mixed_nomenclator_decoder/artifacts/unit_sequences.json",
+      "role": "published 98-unit train and held hard-chunk sequences",
+      "sha256": "3ee0841e211314b72719acbbf79ed3a6dc7bfc3c157734f54dbdac92ac458fdf"
+    },
+    {
+      "path": "experiments/yolo/gdt606_mixed_nomenclator_decoder/artifacts/complete_mappings.tsv",
+      "role": "published GDT606 category trace for architecture audit",
+      "sha256": "005ddec8e5b67763c9ccfd1d3244e44c1e68d8c0c6c46a2c7d7edcc36fa4aabe"
+    },
+    {
+      "path": "experiments/yolo/gdt604_naibbe_frozen_target_attack/src/fetch_references.py",
+      "role": "hash-pinned public Latin, Old Italian and Middle High German reference fetcher",
+      "sha256": "ae1e84dd90db20c07987c06bff33c692637cf2eb1238fc5e7b1a03302bb44d26"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt607_boundary_word_disentanglement/README.md",
+      "role": "experiment entry point",
+      "sha256": "1ec10d72adc0ba0f0bd9df634cf2ca324325c028c27b80ad46f8bab57f9da3ee"
+    },
+    {
+      "path": "experiments/yolo/gdt607_boundary_word_disentanglement/METHOD.md",
+      "role": "role-audit and boundary-capacity method",
+      "sha256": "6d45bf218914a44cf46f32e2cbef11f85cb2a544125b316bd15047aea8d00529"
+    },
+    {
+      "path": "experiments/yolo/gdt607_boundary_word_disentanglement/PREREGISTRATION.md",
+      "role": "attack contract and input bindings",
+      "sha256": "5e697aa58655c0fd8b465a44b0ce231d949b295219254c11e747b3886936a2ab"
+    },
+    {
+      "path": "experiments/yolo/gdt607_boundary_word_disentanglement/REPORT.md",
+      "role": "primary combined report",
+      "sha256": "f0246c846ed975340e8c148357754f5f2e7e0b4d22cdd8f1ba99f5434d85abe0"
+    },
+    {
+      "path": "experiments/yolo/gdt607_boundary_word_disentanglement/src/context_role_attack.py",
+      "role": "end-to-end distributional role attack",
+      "sha256": "66e33ddcd68de439ecef64cc3b92b543f543f29b7bbf6f729ebad9bfd7abf7ff"
+    },
+    {
+      "path": "experiments/yolo/gdt607_boundary_word_disentanglement/src/validate_roles.py",
+      "role": "independent 153-check role validator",
+      "sha256": "edd07a9ef6128c145503046352e46a503b66cbc148feb50e67ce8319ae887ac4"
+    },
+    {
+      "path": "experiments/yolo/gdt607_boundary_word_disentanglement/src/boundary_word_attack.py",
+      "role": "90-key explicit boundary-capacity solver",
+      "sha256": "fbb715b4858195db253394ad64f8455fc79cde89dd5c79376bd5f99f76075590"
+    },
+    {
+      "path": "experiments/yolo/gdt607_boundary_word_disentanglement/src/analyze.py",
+      "role": "combined category and role analysis",
+      "sha256": "9342d16817291922d6d2f55623cd40643dafc99115c2f40d804df8f066bf6acd"
+    },
+    {
+      "path": "experiments/yolo/gdt607_boundary_word_disentanglement/src/run.py",
+      "role": "end-to-end reproduction runner",
+      "sha256": "61b2083ff5dc94a49a9b9226a37fee443c6d1ee353336ef8c03f57dd9adab8cd"
+    },
+    {
+      "path": "experiments/yolo/gdt607_boundary_word_disentanglement/src/validate.py",
+      "role": "independent 316-check experiment validator",
+      "sha256": "a72d1f35203920a6e0ef39697b9d2c4a5b896a4689117b0a461aa70483cb1873"
+    },
+    {
+      "path": "experiments/yolo/gdt607_boundary_word_disentanglement/artifacts/gdt607_result.json",
+      "role": "complete 90-key boundary-capacity metrics",
+      "sha256": "1f3b48e001359178dedc8e534d7270ac5e03868ef3221c907c6b9a5390886cdf"
+    },
+    {
+      "path": "experiments/yolo/gdt607_boundary_word_disentanglement/artifacts/gdt607_complete_mappings.tsv",
+      "role": "all 8,820 unit/category/output assignments",
+      "sha256": "1f4e63a4a59f4814f5acbf88144b885403399c87733313919f607edb1529bdad"
+    },
+    {
+      "path": "experiments/yolo/gdt607_boundary_word_disentanglement/artifacts/gdt607_target_category_grid.tsv",
+      "role": "five-target migration counts by language and capacity",
+      "sha256": "3c678aa72db3f7764c2cf45b89ed48e89a721fa14ddc4df56c95000b2356eadb"
+    },
+    {
+      "path": "experiments/yolo/gdt607_boundary_word_disentanglement/artifacts/gdt607_unit_structural_features.tsv",
+      "role": "train and held unit boundary features",
+      "sha256": "414214d7b883d0fbb23fbefb4ab5488b6b288e5625d39807f7ae66bf7077accb"
+    },
+    {
+      "path": "experiments/yolo/gdt607_boundary_word_disentanglement/artifacts/gdt607_analysis.json",
+      "role": "compact confound correction and next route",
+      "sha256": "5299c2ff2e94cad034fc0f8a9d36171b4af5d7d0a3920e3b6f53a6b321bc9077"
+    },
+    {
+      "path": "experiments/yolo/gdt607_boundary_word_disentanglement/artifacts/gdt607_formal_role_defaults.tsv",
+      "role": "five retained formal-role defaults",
+      "sha256": "ce2214da41a165ff5fed74c9d08b2c142b937a549896a2abb1973468db50f9c2"
+    },
+    {
+      "path": "experiments/yolo/gdt607_boundary_word_disentanglement/artifacts/gdt607_validation.json",
+      "role": "316-check combined validation record",
+      "sha256": "84c583526055b1b2f4a26597393181f1b8cf89192588835c78066fb1702a21b1"
+    },
+    {
+      "path": "experiments/yolo/gdt607_boundary_word_disentanglement/artifacts/role_attack/ARTIFACT_MANIFEST.json",
+      "role": "hash binding for full role-audit outputs",
+      "sha256": "acea4691cc26c82c03b22372fe957eb0e34a2ccd5ddbf200f12a86557e9757d0"
+    },
+    {
+      "path": "experiments/yolo/gdt607_boundary_word_disentanglement/artifacts/role_attack/RESULT.json",
+      "role": "complete role-audit statistics",
+      "sha256": "3499a1141e2433c21bfd5a4305a9fa0eace1e10e54c1551efdbfc366d60369ee"
+    },
+    {
+      "path": "experiments/yolo/gdt607_boundary_word_disentanglement/artifacts/role_attack/VALIDATION.json",
+      "role": "153-check role-audit validation",
+      "sha256": "092fa6c7e668b473adda52be5e485680274810b944ec591ad349db74bb886282"
+    },
+    {
+      "path": "experiments/yolo/gdt607_boundary_word_disentanglement/artifacts/role_attack/target_occurrences.tsv",
+      "role": "all 10,277 target events with local and manuscript context",
+      "sha256": "b57d2b2ec41feae3e9cb6f5650afbaba060ec5672788fe2844366b374d02ffe7"
+    }
+  ],
+  "question": "Does GDT606's stable W membership identify whole forms, pure boundaries, or a fixed-capacity output bucket mixing several transferable formal roles?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "boundary_word_disentanglement",
+  "status": "W_BUCKET_CONFUND_CORRECTED__FIVE_DISTINCT_OUTPUT_BEARING_FORMAL_ROLES",
+  "title": "Boundary/word-bucket disentanglement",
+  "updated": "2026-08-28",
+  "validation": {
+    "artifact": "experiments/yolo/gdt607_boundary_word_disentanglement/artifacts/gdt607_validation.json",
+    "status": "PASS"
+  }
+}

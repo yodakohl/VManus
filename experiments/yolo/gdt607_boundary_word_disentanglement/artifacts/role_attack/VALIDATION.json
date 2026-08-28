@@ -1,0 +1,985 @@
+{
+  "analysis_manifest_sha256": "acea4691cc26c82c03b22372fe957eb0e34a2ccd5ddbf200f12a86557e9757d0",
+  "checks": [
+    {
+      "detail": "d6674f3d54edc49590c884b5d703cb032b966c1abd4da6338093795ce1f31ef9",
+      "name": "input hash: guarded_rows.tsv",
+      "status": "PASS"
+    },
+    {
+      "detail": "3ee0841e211314b72719acbbf79ed3a6dc7bfc3c157734f54dbdac92ac458fdf",
+      "name": "input hash: unit_sequences.json",
+      "status": "PASS"
+    },
+    {
+      "detail": "005ddec8e5b67763c9ccfd1d3244e44c1e68d8c0c6c46a2c7d7edcc36fa4aabe",
+      "name": "input hash: complete_mappings.tsv",
+      "status": "PASS"
+    },
+    {
+      "detail": "2a43d309b78392781ab9111c00dcead82424d648ad820fd02f1479dbb33e7997",
+      "name": "input hash: category_stability_all_configs_latin.tsv",
+      "status": "PASS"
+    },
+    {
+      "detail": "069023255a729b0918f7298ca5482f9bfa6fa1815541098f801db7ddc4704169",
+      "name": "input hash: category_stability_all_configs_old_italian.tsv",
+      "status": "PASS"
+    },
+    {
+      "detail": "998a6f093584f26321bc4e4ef2f88171ff245383eecb786adde7fe98733e81b5",
+      "name": "input hash: category_stability_all_configs_middle_high_german.tsv",
+      "status": "PASS"
+    },
+    {
+      "detail": 4165,
+      "name": "guarded row count",
+      "status": "PASS"
+    },
+    {
+      "detail": "f84/f84r prefix absent",
+      "name": "sealed selectors absent from guarded rows",
+      "status": "PASS"
+    },
+    {
+      "detail": 180,
+      "name": "exact allowed page count",
+      "status": "PASS"
+    },
+    {
+      "detail": 91,
+      "name": "physical folio count",
+      "status": "PASS"
+    },
+    {
+      "detail": "68",
+      "name": "train physical folio count",
+      "status": "PASS"
+    },
+    {
+      "detail": "23",
+      "name": "held physical folio count",
+      "status": "PASS"
+    },
+    {
+      "detail": 180,
+      "name": "page selector table exactly matches guarded rows",
+      "status": "PASS"
+    },
+    {
+      "detail": "44094942f412ae956f9a793fc2b447233251c79f61700f06689fb61c78e1312c",
+      "name": "page selector table hash",
+      "status": "PASS"
+    },
+    {
+      "detail": 98,
+      "name": "unit inventory count",
+      "status": "PASS"
+    },
+    {
+      "detail": 20336,
+      "name": "train hard chunk count",
+      "status": "PASS"
+    },
+    {
+      "detail": 9838,
+      "name": "held hard chunk count",
+      "status": "PASS"
+    },
+    {
+      "detail": 43335,
+      "name": "train unit events",
+      "status": "PASS"
+    },
+    {
+      "detail": 21679,
+      "name": "held unit events",
+      "status": "PASS"
+    },
+    {
+      "detail": 98,
+      "name": "train observed unit types",
+      "status": "PASS"
+    },
+    {
+      "detail": 97,
+      "name": "held observed unit types",
+      "status": "PASS"
+    },
+    {
+      "detail": [],
+      "name": "zero held-only units",
+      "status": "PASS"
+    },
+    {
+      "detail": 727,
+      "name": "raw guarded paragraph-group count",
+      "status": "PASS"
+    },
+    {
+      "detail": 725,
+      "name": "paragraphs with reconstructed unit events",
+      "status": "PASS"
+    },
+    {
+      "detail": 1825,
+      "name": "target count train:ol",
+      "status": "PASS"
+    },
+    {
+      "detail": 712,
+      "name": "target count held:ol",
+      "status": "PASS"
+    },
+    {
+      "detail": 1554,
+      "name": "target count train:y",
+      "status": "PASS"
+    },
+    {
+      "detail": 554,
+      "name": "target count held:y",
+      "status": "PASS"
+    },
+    {
+      "detail": 1445,
+      "name": "target count train:C",
+      "status": "PASS"
+    },
+    {
+      "detail": 711,
+      "name": "target count held:C",
+      "status": "PASS"
+    },
+    {
+      "detail": 1144,
+      "name": "target count train:d",
+      "status": "PASS"
+    },
+    {
+      "detail": 597,
+      "name": "target count held:d",
+      "status": "PASS"
+    },
+    {
+      "detail": 1126,
+      "name": "target count train:o",
+      "status": "PASS"
+    },
+    {
+      "detail": 609,
+      "name": "target count held:o",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "C": 23,
+        "d": 23,
+        "o": 23,
+        "ol": 23,
+        "y": 23
+      },
+      "name": "all targets occur on every held folio",
+      "status": "PASS"
+    },
+    {
+      "detail": 0.6933895921237694,
+      "name": "independent structural rate held:C:chunk_initial",
+      "status": "PASS"
+    },
+    {
+      "detail": 0.005625879043600563,
+      "name": "independent structural rate held:C:chunk_final",
+      "status": "PASS"
+    },
+    {
+      "detail": 0.20804195804195805,
+      "name": "independent structural rate train:d:line_initial",
+      "status": "PASS"
+    },
+    {
+      "detail": 0.17587939698492464,
+      "name": "independent structural rate held:d:line_initial",
+      "status": "PASS"
+    },
+    {
+      "detail": 0.711068211068211,
+      "name": "independent structural rate train:y:chunk_final",
+      "status": "PASS"
+    },
+    {
+      "detail": 0.6389891696750902,
+      "name": "independent structural rate held:y:chunk_final",
+      "status": "PASS"
+    },
+    {
+      "detail": 0.029601029601029602,
+      "name": "independent structural rate train:y:paragraph_final",
+      "status": "PASS"
+    },
+    {
+      "detail": 0.04151624548736462,
+      "name": "independent structural rate held:y:paragraph_final",
+      "status": "PASS"
+    },
+    {
+      "detail": 0.12054794520547946,
+      "name": "independent structural rate train:ol:standalone",
+      "status": "PASS"
+    },
+    {
+      "detail": 0.14325842696629212,
+      "name": "independent structural rate held:ol:standalone",
+      "status": "PASS"
+    },
+    {
+      "detail": 0.33570159857904086,
+      "name": "independent structural rate train:o:chunk_initial",
+      "status": "PASS"
+    },
+    {
+      "detail": 0.31198686371100165,
+      "name": "independent structural rate held:o:chunk_initial",
+      "status": "PASS"
+    },
+    {
+      "detail": 0.23268206039076378,
+      "name": "independent structural rate train:o:chunk_final",
+      "status": "PASS"
+    },
+    {
+      "detail": 0.2988505747126437,
+      "name": "independent structural rate held:o:chunk_final",
+      "status": "PASS"
+    },
+    {
+      "detail": 4704,
+      "name": "complete mappings count",
+      "status": "PASS"
+    },
+    {
+      "detail": [
+        6,
+        6
+      ],
+      "name": "real primary W stability latin:ol",
+      "status": "PASS"
+    },
+    {
+      "detail": [
+        6,
+        6
+      ],
+      "name": "real primary W stability latin:y",
+      "status": "PASS"
+    },
+    {
+      "detail": [
+        6,
+        6
+      ],
+      "name": "real primary W stability latin:C",
+      "status": "PASS"
+    },
+    {
+      "detail": [
+        6,
+        6
+      ],
+      "name": "real primary W stability latin:d",
+      "status": "PASS"
+    },
+    {
+      "detail": [
+        6,
+        6
+      ],
+      "name": "real primary W stability latin:o",
+      "status": "PASS"
+    },
+    {
+      "detail": [
+        6,
+        6
+      ],
+      "name": "real primary W stability old_italian:ol",
+      "status": "PASS"
+    },
+    {
+      "detail": [
+        6,
+        6
+      ],
+      "name": "real primary W stability old_italian:y",
+      "status": "PASS"
+    },
+    {
+      "detail": [
+        6,
+        6
+      ],
+      "name": "real primary W stability old_italian:C",
+      "status": "PASS"
+    },
+    {
+      "detail": [
+        6,
+        6
+      ],
+      "name": "real primary W stability old_italian:d",
+      "status": "PASS"
+    },
+    {
+      "detail": [
+        6,
+        6
+      ],
+      "name": "real primary W stability old_italian:o",
+      "status": "PASS"
+    },
+    {
+      "detail": [
+        6,
+        6
+      ],
+      "name": "real primary W stability middle_high_german:ol",
+      "status": "PASS"
+    },
+    {
+      "detail": [
+        6,
+        6
+      ],
+      "name": "real primary W stability middle_high_german:y",
+      "status": "PASS"
+    },
+    {
+      "detail": [
+        6,
+        6
+      ],
+      "name": "real primary W stability middle_high_german:C",
+      "status": "PASS"
+    },
+    {
+      "detail": [
+        6,
+        6
+      ],
+      "name": "real primary W stability middle_high_german:d",
+      "status": "PASS"
+    },
+    {
+      "detail": [
+        6,
+        6
+      ],
+      "name": "real primary W stability middle_high_german:o",
+      "status": "PASS"
+    },
+    {
+      "detail": [
+        12,
+        12
+      ],
+      "name": "all-real W count latin:ol",
+      "status": "PASS"
+    },
+    {
+      "detail": [
+        4,
+        4
+      ],
+      "name": "destroyed W count latin:ol",
+      "status": "PASS"
+    },
+    {
+      "detail": [
+        12,
+        12
+      ],
+      "name": "all-real W count latin:y",
+      "status": "PASS"
+    },
+    {
+      "detail": [
+        4,
+        4
+      ],
+      "name": "destroyed W count latin:y",
+      "status": "PASS"
+    },
+    {
+      "detail": [
+        12,
+        11
+      ],
+      "name": "all-real W count latin:C",
+      "status": "PASS"
+    },
+    {
+      "detail": [
+        4,
+        1
+      ],
+      "name": "destroyed W count latin:C",
+      "status": "PASS"
+    },
+    {
+      "detail": [
+        12,
+        11
+      ],
+      "name": "all-real W count latin:d",
+      "status": "PASS"
+    },
+    {
+      "detail": [
+        4,
+        3
+      ],
+      "name": "destroyed W count latin:d",
+      "status": "PASS"
+    },
+    {
+      "detail": [
+        12,
+        12
+      ],
+      "name": "all-real W count latin:o",
+      "status": "PASS"
+    },
+    {
+      "detail": [
+        4,
+        0
+      ],
+      "name": "destroyed W count latin:o",
+      "status": "PASS"
+    },
+    {
+      "detail": [
+        12,
+        12
+      ],
+      "name": "all-real W count old_italian:ol",
+      "status": "PASS"
+    },
+    {
+      "detail": [
+        4,
+        4
+      ],
+      "name": "destroyed W count old_italian:ol",
+      "status": "PASS"
+    },
+    {
+      "detail": [
+        12,
+        12
+      ],
+      "name": "all-real W count old_italian:y",
+      "status": "PASS"
+    },
+    {
+      "detail": [
+        4,
+        3
+      ],
+      "name": "destroyed W count old_italian:y",
+      "status": "PASS"
+    },
+    {
+      "detail": [
+        12,
+        12
+      ],
+      "name": "all-real W count old_italian:C",
+      "status": "PASS"
+    },
+    {
+      "detail": [
+        4,
+        4
+      ],
+      "name": "destroyed W count old_italian:C",
+      "status": "PASS"
+    },
+    {
+      "detail": [
+        12,
+        12
+      ],
+      "name": "all-real W count old_italian:d",
+      "status": "PASS"
+    },
+    {
+      "detail": [
+        4,
+        3
+      ],
+      "name": "destroyed W count old_italian:d",
+      "status": "PASS"
+    },
+    {
+      "detail": [
+        12,
+        12
+      ],
+      "name": "all-real W count old_italian:o",
+      "status": "PASS"
+    },
+    {
+      "detail": [
+        4,
+        4
+      ],
+      "name": "destroyed W count old_italian:o",
+      "status": "PASS"
+    },
+    {
+      "detail": [
+        12,
+        12
+      ],
+      "name": "all-real W count middle_high_german:ol",
+      "status": "PASS"
+    },
+    {
+      "detail": [
+        4,
+        4
+      ],
+      "name": "destroyed W count middle_high_german:ol",
+      "status": "PASS"
+    },
+    {
+      "detail": [
+        12,
+        12
+      ],
+      "name": "all-real W count middle_high_german:y",
+      "status": "PASS"
+    },
+    {
+      "detail": [
+        4,
+        4
+      ],
+      "name": "destroyed W count middle_high_german:y",
+      "status": "PASS"
+    },
+    {
+      "detail": [
+        12,
+        11
+      ],
+      "name": "all-real W count middle_high_german:C",
+      "status": "PASS"
+    },
+    {
+      "detail": [
+        4,
+        0
+      ],
+      "name": "destroyed W count middle_high_german:C",
+      "status": "PASS"
+    },
+    {
+      "detail": [
+        12,
+        11
+      ],
+      "name": "all-real W count middle_high_german:d",
+      "status": "PASS"
+    },
+    {
+      "detail": [
+        4,
+        3
+      ],
+      "name": "destroyed W count middle_high_german:d",
+      "status": "PASS"
+    },
+    {
+      "detail": [
+        12,
+        12
+      ],
+      "name": "all-real W count middle_high_german:o",
+      "status": "PASS"
+    },
+    {
+      "detail": [
+        4,
+        0
+      ],
+      "name": "destroyed W count middle_high_german:o",
+      "status": "PASS"
+    },
+    {
+      "detail": 0.7306479018009955,
+      "name": "independent W-frequency Spearman",
+      "status": "PASS"
+    },
+    {
+      "detail": 0.9444444444444444,
+      "name": "non-target W counterexample ar",
+      "status": "PASS"
+    },
+    {
+      "detail": 0.9166666666666666,
+      "name": "non-target W counterexample s",
+      "status": "PASS"
+    },
+    {
+      "detail": 0.8611111111111112,
+      "name": "non-target W counterexample or",
+      "status": "PASS"
+    },
+    {
+      "detail": 0.8611111111111112,
+      "name": "non-target W counterexample k",
+      "status": "PASS"
+    },
+    {
+      "detail": 0.9890909090909091,
+      "name": "independent standalone counterclass rate qokaI",
+      "status": "PASS"
+    },
+    {
+      "detail": 0.0,
+      "name": "standalone counterclass real W zero qokaI",
+      "status": "PASS"
+    },
+    {
+      "detail": 0.9809160305343512,
+      "name": "independent standalone counterclass rate qokaN",
+      "status": "PASS"
+    },
+    {
+      "detail": 0.0,
+      "name": "standalone counterclass real W zero qokaN",
+      "status": "PASS"
+    },
+    {
+      "detail": 0.9829931972789115,
+      "name": "independent standalone counterclass rate qokEdy",
+      "status": "PASS"
+    },
+    {
+      "detail": 0.0,
+      "name": "standalone counterclass real W zero qokEdy",
+      "status": "PASS"
+    },
+    {
+      "detail": 0.9838056680161943,
+      "name": "independent standalone counterclass rate qokedy",
+      "status": "PASS"
+    },
+    {
+      "detail": 0.0,
+      "name": "standalone counterclass real W zero qokedy",
+      "status": "PASS"
+    },
+    {
+      "detail": 0.9717314487632509,
+      "name": "independent standalone counterclass rate qokEy",
+      "status": "PASS"
+    },
+    {
+      "detail": 0.0,
+      "name": "standalone counterclass real W zero qokEy",
+      "status": "PASS"
+    },
+    {
+      "detail": "FORBIDDEN_AND_ABSENT",
+      "name": "result sealed-data declaration",
+      "status": "PASS"
+    },
+    {
+      "detail": 10277,
+      "name": "result target event count",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "held": 3183,
+        "train": 7094
+      },
+      "name": "result target train/held counts",
+      "status": "PASS"
+    },
+    {
+      "detail": 0.6456134129410045,
+      "name": "held balanced identity accuracy",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "conditional_permutations": 200,
+        "permutation_strata": "section x hand x chunk_pos"
+      },
+      "name": "conditional permutation construction",
+      "status": "PASS"
+    },
+    {
+      "detail": 0.004975124378109453,
+      "name": "conditional permutation p-value",
+      "status": "PASS"
+    },
+    {
+      "detail": 0.6492670778117013,
+      "name": "local-neighbour ablation dominates",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "features": [
+          "section",
+          "hand",
+          "currier"
+        ],
+        "held_accuracy": 0.24222431668237512,
+        "held_balanced_accuracy": 0.22236731249571817,
+        "held_gain_over_train_prior_bits_per_event": -0.07371001725091375,
+        "held_log_loss_bits": 2.4076910180307443
+      },
+      "name": "metadata ablation non-predictive",
+      "status": "PASS"
+    },
+    {
+      "detail": 10,
+      "name": "ten held pairwise AUCs",
+      "status": "PASS"
+    },
+    {
+      "detail": 0.8501549786904301,
+      "name": "minimum held pairwise AUC",
+      "status": "PASS"
+    },
+    {
+      "detail": 0.7306479018009955,
+      "name": "W-frequency result agrees",
+      "status": "PASS"
+    },
+    {
+      "detail": -0.13512584081049847,
+      "name": "W-standalone correlation negative",
+      "status": "PASS"
+    },
+    {
+      "detail": 10277,
+      "name": "target occurrence table length",
+      "status": "PASS"
+    },
+    {
+      "detail": [
+        "C",
+        "d",
+        "o",
+        "ol",
+        "y"
+      ],
+      "name": "target occurrence units exact",
+      "status": "PASS"
+    },
+    {
+      "detail": "safe",
+      "name": "target occurrence selector safety",
+      "status": "PASS"
+    },
+    {
+      "detail": [
+        "C",
+        "d",
+        "o",
+        "ol",
+        "y"
+      ],
+      "name": "default role table unit set",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "C": "strict_hard_chunk_opener_or_local_head",
+        "d": "chunk_and_physical_line_head_carrier",
+        "o": "flexible_bidirectional_connector",
+        "ol": "boundary_and_occasional_standalone_carrier",
+        "y": "chunk_line_and_paragraph_closure_carrier"
+      },
+      "name": "default structural roles exact",
+      "status": "PASS"
+    },
+    {
+      "detail": "reject",
+      "name": "shared-role rejection recorded",
+      "status": "PASS"
+    },
+    {
+      "detail": "supported",
+      "name": "architecture alternative recorded",
+      "status": "PASS"
+    },
+    {
+      "detail": [
+        "qokEdy",
+        "qokEy",
+        "qokaI",
+        "qokaN",
+        "qokedy"
+      ],
+      "name": "standalone counterclass units exact",
+      "status": "PASS"
+    },
+    {
+      "detail": "66e33ddcd68de439ecef64cc3b92b543f543f29b7bbf6f729ebad9bfd7abf7ff",
+      "name": "analysis source hash sealed",
+      "status": "PASS"
+    },
+    {
+      "detail": "3499a1141e2433c21bfd5a4305a9fa0eace1e10e54c1551efdbfc366d60369ee",
+      "name": "analysis output hash: RESULT.json",
+      "status": "PASS"
+    },
+    {
+      "detail": "e906962c7507390426d9e1895d5390ab2e0289045e09d487f61c64c4d56fdb60",
+      "name": "analysis output hash: architecture_unit_audit.tsv",
+      "status": "PASS"
+    },
+    {
+      "detail": "ad65180f8a9b02057d1d93ee45cafd712c13893153ba497aaebbf46cba4e9e8a",
+      "name": "analysis output hash: category_trace.tsv",
+      "status": "PASS"
+    },
+    {
+      "detail": "3087a24dc500f6e6d0797fb80d5989c5e3e5048501d7666cb47b1953fdd08092",
+      "name": "analysis output hash: classifier_confusion.tsv",
+      "status": "PASS"
+    },
+    {
+      "detail": "d2d0a2c03a7bc1170a7b667f99bea2740e90c5087053030f20659edfd7d9f458",
+      "name": "analysis output hash: folio_rates.tsv",
+      "status": "PASS"
+    },
+    {
+      "detail": "ea209cb609805b9b1b4ed0699cd04da124c40e2e4ec755d3496e4f4891dc1d12",
+      "name": "analysis output hash: group_vs_frequency_controls.tsv",
+      "status": "PASS"
+    },
+    {
+      "detail": "44094942f412ae956f9a793fc2b447233251c79f61700f06689fb61c78e1312c",
+      "name": "analysis output hash: guarded_page_selection.tsv",
+      "status": "PASS"
+    },
+    {
+      "detail": "697e32ba9884c93cdadc5b22e6d14289c779185b549cd977960fbcbde3010cbd",
+      "name": "analysis output hash: metadata_rates.tsv",
+      "status": "PASS"
+    },
+    {
+      "detail": "3424aa00c6439054a17e33e82c943599bd2946cc2a89030cbaa22bbfbbd0654c",
+      "name": "analysis output hash: pairwise_substitution.tsv",
+      "status": "PASS"
+    },
+    {
+      "detail": "b57d2b2ec41feae3e9cb6f5650afbaba060ec5672788fe2844366b374d02ffe7",
+      "name": "analysis output hash: target_occurrences.tsv",
+      "status": "PASS"
+    },
+    {
+      "detail": "e97b6d7fca46bfdeb274110857076402e363a8822ee6b5337bd8b6b3debf5326",
+      "name": "analysis output hash: target_structural_summary.tsv",
+      "status": "PASS"
+    },
+    {
+      "detail": "b2fd13981ac40f0abd250aa4bc981cf6f0624fda683fe2c2c948f3f6bf3d212e",
+      "name": "analysis output hash: top_neighbors.tsv",
+      "status": "PASS"
+    },
+    {
+      "detail": "96dce2f274a3fbca9391b581776c96c7a2133baa80fa4dc82880c4173d172291",
+      "name": "analysis output hash: unit_structural_summary.tsv",
+      "status": "PASS"
+    },
+    {
+      "detail": "6484be493818586c54c0ac56a7d15a11767781585a4c8b685912c25049a9fe74",
+      "name": "analysis output hash: unit_vs_matched_control.tsv",
+      "status": "PASS"
+    },
+    {
+      "detail": "MULTIPLE_STABLE_FORMAL_SUBROLES__NO_SHARED_SEMANTIC_DEFAULT",
+      "name": "report claim present: MULTIPLE_STABLE_FORMAL_SUBROLES__NO_SHARED_SEMANTIC_DEFAULT",
+      "status": "PASS"
+    },
+    {
+      "detail": "hard-chunk/physical-line head carrier",
+      "name": "report claim present: hard-chunk/physical-line head carrier",
+      "status": "PASS"
+    },
+    {
+      "detail": "recipe/formula-closure-like",
+      "name": "report claim present: recipe/formula-closure-like",
+      "status": "PASS"
+    },
+    {
+      "detail": "flexible bidirectional connector",
+      "name": "report claim present: flexible bidirectional connector",
+      "status": "PASS"
+    },
+    {
+      "detail": "0.7306",
+      "name": "report claim present: 0.7306",
+      "status": "PASS"
+    },
+    {
+      "detail": "qokaN",
+      "name": "report claim present: qokaN",
+      "status": "PASS"
+    },
+    {
+      "detail": "no internal distributional statistic here identifies any default word meaning",
+      "name": "report claim present: no internal distributional statistic here identifies any default word meaning",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "category_stability_all_configs_latin.tsv": "2a43d309b78392781ab9111c00dcead82424d648ad820fd02f1479dbb33e7997",
+        "category_stability_all_configs_middle_high_german.tsv": "998a6f093584f26321bc4e4ef2f88171ff245383eecb786adde7fe98733e81b5",
+        "category_stability_all_configs_old_italian.tsv": "069023255a729b0918f7298ca5482f9bfa6fa1815541098f801db7ddc4704169",
+        "complete_mappings.tsv": "005ddec8e5b67763c9ccfd1d3244e44c1e68d8c0c6c46a2c7d7edcc36fa4aabe",
+        "guarded_rows.tsv": "d6674f3d54edc49590c884b5d703cb032b966c1abd4da6338093795ce1f31ef9",
+        "unit_sequences.json": "3ee0841e211314b72719acbbf79ed3a6dc7bfc3c157734f54dbdac92ac458fdf"
+      },
+      "name": "source inputs unchanged during validation",
+      "status": "PASS"
+    }
+  ],
+  "checks_failed": 0,
+  "checks_passed": 153,
+  "claim_ceiling": "formal distributional defaults only; no word meaning, sound, language, or plaintext",
+  "decision": "MULTIPLE_STABLE_FORMAL_SUBROLES__NO_SHARED_SEMANTIC_DEFAULT",
+  "input_hashes": {
+    "category_stability_all_configs_latin.tsv": "2a43d309b78392781ab9111c00dcead82424d648ad820fd02f1479dbb33e7997",
+    "category_stability_all_configs_middle_high_german.tsv": "998a6f093584f26321bc4e4ef2f88171ff245383eecb786adde7fe98733e81b5",
+    "category_stability_all_configs_old_italian.tsv": "069023255a729b0918f7298ca5482f9bfa6fa1815541098f801db7ddc4704169",
+    "complete_mappings.tsv": "005ddec8e5b67763c9ccfd1d3244e44c1e68d8c0c6c46a2c7d7edcc36fa4aabe",
+    "guarded_rows.tsv": "d6674f3d54edc49590c884b5d703cb032b966c1abd4da6338093795ce1f31ef9",
+    "unit_sequences.json": "3ee0841e211314b72719acbbf79ed3a6dc7bfc3c157734f54dbdac92ac458fdf"
+  },
+  "schema": "gdt606-role-attack-validation-v1",
+  "sealed_data": {
+    "f84": "FORBIDDEN_AND_ABSENT",
+    "f84r": "FORBIDDEN_AND_ABSENT"
+  },
+  "status": "PASS",
+  "supplemental_artifact_hashes": {
+    "PREREGISTRATION.md": "038b7b2e3c5926a283a4db23d696598611f4859f987b8cd5b55ec9ad9e241112",
+    "REPORT.md": "456e56b7b06fe18ef1de72b13d0f0a855c2de566dd04761dd3be03845d66e02a",
+    "default_role_table.tsv": "bfe22bc6d3298d57ed0e97776103cb3b8d6fa795b8b563a332808ae8c9c47ddd",
+    "role_hypothesis_tests.tsv": "4c4f852d246e160adea68c180cef723c3f3ae4ddd2e69467a98e3e6f81f8ddbb",
+    "src/context_role_attack.py": "66e33ddcd68de439ecef64cc3b92b543f543f29b7bbf6f729ebad9bfd7abf7ff",
+    "src/validate_roles.py": "edd07a9ef6128c145503046352e46a503b66cbc148feb50e67ce8319ae887ac4",
+    "standalone_counterclass.tsv": "c807e08c29aaaa4ce649b99fe401fe7b3df2264e0f0f721878f19fa71dc5a73d"
+  }
+}
