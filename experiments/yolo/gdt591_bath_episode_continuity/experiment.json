@@ -1,0 +1,197 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "A no-new-page continuity audit of the fixed GDT590 body/station working readings over all 92 Y-bath hosts, 64 statements, 17 physical paragraphs, and the exact 953-host E2652 comparator population. It changes no slot, statement, attachment, grammar rule, root, surface, or page. Episode coherence is editorial working support, not independent denotation, and the station reading remains visible at E2652. The pass confirms no Voynich lexeme, stem, plaintext, language, syntax, patient, anatomy, substance, process, illness, healing, historical codebook, image chronology, parser, segmentation, or unseen-page prediction.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt591_bath_episode_continuity/src/run.py",
+    "validate": "python3 experiments/yolo/gdt591_bath_episode_continuity/src/validate.py"
+  },
+  "created": "2026-08-28",
+  "dependencies": ["GDT515", "GDT581", "GDT582", "GDT584", "GDT587", "GDT589", "GDT590"],
+  "experiment_id": "GDT591",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt590_focused_bath_body_station_adjudication/artifacts/gdt590_92_bath_y_analogy_matrix.tsv",
+      "role": "complete fixed 92-host body versus station bath inventory",
+      "sha256": "2e1231f2e8a5d88824ca0f6442d3584698a0d785eac13882bdb959d655aa7afe"
+    },
+    {
+      "path": "experiments/yolo/gdt590_focused_bath_body_station_adjudication/artifacts/gdt590_4_bath_fork_adjudications.tsv",
+      "role": "four body-first clauses and retained station alternatives",
+      "sha256": "7e7542e9ca563edac6675a0e503dcd2ea5c8ac00079ad45ca7e3c5e24d9105d5"
+    },
+    {
+      "path": "experiments/yolo/gdt590_focused_bath_body_station_adjudication/artifacts/gdt590_4_host_visual_contexts.tsv",
+      "role": "fixed target layout and image-dissent notes",
+      "sha256": "d2c9ea014b59480d885999453d97b6c5624cd998b750a60a3f172e96a5ec33c8"
+    },
+    {
+      "path": "experiments/yolo/gdt590_focused_bath_body_station_adjudication/artifacts/gdt590_793_body_adjudicated_statement_reader.tsv",
+      "role": "complete frozen statement reader",
+      "sha256": "10d0270e2bbf731ed00365b44cdeab0ecd14c77e4ba1a027e7448e3c7dd95f90"
+    },
+    {
+      "path": "experiments/yolo/gdt590_focused_bath_body_station_adjudication/artifacts/gdt590_1243_adjudicated_slot_replay.tsv",
+      "role": "complete fixed carrier-slot readings",
+      "sha256": "0b7d034985de2f21ee82447151d4fcfe41fda299d813f52e99bf07c861a3d299"
+    },
+    {
+      "path": "experiments/yolo/gdt589_full_host_carrier_intake_replay/artifacts/gdt589_953_complete_host_replay.tsv",
+      "role": "complete admitted host population for exact-signature census",
+      "sha256": "12b71118610220300e0b923b4ccc811747c51f108e1f15d3d8a7336b68926191"
+    },
+    {
+      "path": "experiments/yolo/gdt584_statement_collocation_polish/artifacts/gdt584_statement_wide_host_phrases.tsv",
+      "role": "fixed host order, controls, and reader-boundary markers",
+      "sha256": "b890858697b6dbbdd64fa4cbadff1a208ce57726c637f9e4a99f93472d4ba0e1"
+    },
+    {
+      "path": "experiments/yolo/gdt587_action_conditioned_carrier_nouns/artifacts/gdt587_candidate_statement_host_phrases.tsv",
+      "role": "fixed action-conditioned host clauses and anchors",
+      "sha256": "530cd7db5f31b3f549f11dc186ee1a505b59e3ed75747a0ff77cd4e26d13a43c"
+    },
+    {
+      "path": "experiments/yolo/gdt587_action_conditioned_carrier_nouns/artifacts/gdt587_1243_action_conditioned_carrier_assignments.tsv",
+      "role": "complete carrier-to-action assignments",
+      "sha256": "56093dbbbdef81eaf521e3ad24f502595f941bbe5bb7c9fe6981c9827e1c2b25"
+    },
+    {
+      "path": "experiments/yolo/gdt581_grammar_content_boundary_audit/artifacts/gdt581_5672_focus_reconciliation.tsv",
+      "role": "fixed attachment geometry and boundary-crossing evidence",
+      "sha256": "03759c615dbd837202831bdc9df8999dafdd7480adc1b9e4a88c28c3699e5932"
+    },
+    {
+      "path": "experiments/yolo/gdt581_grammar_content_boundary_audit/artifacts/gdt581_15889_complete_slot_ledger.tsv",
+      "role": "fixed slot boundary class and realization scope",
+      "sha256": "3adb073e7a572e3f71876d156db9142e1ab324d455e11a797dc2bbd351496176"
+    },
+    {
+      "path": "experiments/yolo/gdt582_concrete_stem_default_fill/artifacts/gdt582_15889_complete_default_ledger.tsv",
+      "role": "frozen pre-GDT590 owner and default trace for E2652",
+      "sha256": "dc96a9c10fc5cad003f56ae3547820969b0b59e59c3ac892e05447a9df184b5e"
+    },
+    {
+      "path": "experiments/yolo/gdt515_second_random_four_page_full_admission/artifacts/gdt515_5122_running_event_edition.tsv",
+      "role": "fixed event identities, loci, and surfaces",
+      "sha256": "6615c3874d09a2e0043e56ac9d71317d138b8fb675cc56f4ab3d866f5b8fa346"
+    },
+    {
+      "path": "transcription/voynich_zl3b_lines.tsv",
+      "role": "guarded physical-line and paragraph boundaries on the six bath pages",
+      "sha256": "7520dd4c11f4d23c8492e4b2a52cc0fcbda6d9fc88a96ead8f1c31081a4d7ed2"
+    },
+    {
+      "path": "transcription/zl3b_layout_aware_reading_units.tsv",
+      "role": "guarded exact layout-aware EVA for target loci",
+      "sha256": "290e27ff13ad3867ccfaf85a7ca294370e45f61811a0555082165abdc89deef7"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt591_bath_episode_continuity/METHOD.md",
+      "role": "fixed population, continuity method, remote definition, and claim ceiling",
+      "sha256": "a1a2826596529bbcf3394382fb88daf9cb970a56a59e7eac26d3bc990e23c747"
+    },
+    {
+      "path": "experiments/yolo/gdt591_bath_episode_continuity/README.md",
+      "role": "experiment entry point and commands",
+      "sha256": "cd8c1eb61b8631d7648e37c15c1fffd04df20eaf2059ae33bf8335c79abe17da"
+    },
+    {
+      "path": "experiments/yolo/gdt591_bath_episode_continuity/REPORT.md",
+      "role": "primary bath-episode continuity and E2652 report",
+      "sha256": "db2b32d000fa8fc93059251a2bc04a428b7ee7b9fcb58f6a913b1e9aaeb40cdd"
+    },
+    {
+      "path": "experiments/yolo/gdt591_bath_episode_continuity/artifacts/README.md",
+      "role": "artifact guide",
+      "sha256": "6a95e4be1edc3c6b536f355b775f9305de6c206c2051b6abd19cf983e441e567"
+    },
+    {
+      "path": "experiments/yolo/gdt591_bath_episode_continuity/artifacts/GDT591_BATH_EPISODE_READER.md",
+      "role": "four targets and nine mixed-statement working passages",
+      "sha256": "208feb5fd318173058427367387e5c528ea8f3b7307db033aa3cbece10619c4e"
+    },
+    {
+      "path": "experiments/yolo/gdt591_bath_episode_continuity/artifacts/gdt591_92_bath_y_host_continuity.tsv",
+      "role": "complete 92-host continuity inventory",
+      "sha256": "ea231f24ccc524a07d2b49d7eac7c5bc85afa382d0f5d2d383338d0d3adfd3ef"
+    },
+    {
+      "path": "experiments/yolo/gdt591_bath_episode_continuity/artifacts/gdt591_64_bath_y_statement_sequences.tsv",
+      "role": "all statement-level bath-role sequences",
+      "sha256": "0ee49fb3e2adaf201dc6f0026603170290f14b450b676830c535f48cd0f55283"
+    },
+    {
+      "path": "experiments/yolo/gdt591_bath_episode_continuity/artifacts/gdt591_17_bath_y_paragraph_sequences.tsv",
+      "role": "all physical-paragraph bath-role sequences",
+      "sha256": "207c17bad3d6da541cc2063995de51c2bfba8f03415bf223a145fe4d14b95424"
+    },
+    {
+      "path": "experiments/yolo/gdt591_bath_episode_continuity/artifacts/gdt591_28_intra_statement_bath_y_transitions.tsv",
+      "role": "complete statement transition deck",
+      "sha256": "f4b7be263118e81808a6c4c1b19c17976e901a1a2033a2217d685826b18d2d0d"
+    },
+    {
+      "path": "experiments/yolo/gdt591_bath_episode_continuity/artifacts/gdt591_75_intra_paragraph_bath_y_transitions.tsv",
+      "role": "complete physical-paragraph transition deck",
+      "sha256": "3dae7e66f13f470a006d02adac12e03ff2fbfc3e849a781cf1c8c79615c8e7f9"
+    },
+    {
+      "path": "experiments/yolo/gdt591_bath_episode_continuity/artifacts/gdt591_39_remote_bath_carrier_attachments.tsv",
+      "role": "all event-remote carrier attachment traces",
+      "sha256": "033fdffe57bce9a55c2db999bfc9ff3fd094663ce99fded7be262dc6dca9deee"
+    },
+    {
+      "path": "experiments/yolo/gdt591_bath_episode_continuity/artifacts/gdt591_7_e2652_comparator_ladder.tsv",
+      "role": "exact target and six partial comparators",
+      "sha256": "524355bcc7124f83a601a1495bca439a7425e1e03290d2d3b56068c275f11864"
+    },
+    {
+      "path": "experiments/yolo/gdt591_bath_episode_continuity/artifacts/gdt591_4_target_episode_stress.tsv",
+      "role": "four target layout and retained-alternative rows",
+      "sha256": "3475bc7f4809147aea2f83f10f676a24a815c99ac22ade26e04140861c837b7f"
+    },
+    {
+      "path": "experiments/yolo/gdt591_bath_episode_continuity/artifacts/gdt591_result.json",
+      "role": "compact counts, profiles, conclusion, and input hashes",
+      "sha256": "929f8f94a43641c8943ea41c9a5231aa46bd6d4a51787cfaad27db20986af7c0"
+    },
+    {
+      "path": "experiments/yolo/gdt591_bath_episode_continuity/artifacts/gdt591_validation.json",
+      "role": "83 executable population, attachment, comparator, and rebuild checks",
+      "sha256": "95c569fe6bc682fcb17d0d442ac61cc01382c5a380a735122ea205c2ed9eac5b"
+    },
+    {
+      "path": "experiments/yolo/gdt591_bath_episode_continuity/src/continuity_model.py",
+      "role": "guarded continuity builder and reader renderer",
+      "sha256": "feaa2f137192ace57bd62a8d43d8471605c6153a991e9ca168b6a51b6efaffed"
+    },
+    {
+      "path": "experiments/yolo/gdt591_bath_episode_continuity/src/run.py",
+      "role": "reproducible artifact compiler",
+      "sha256": "16d79439942b51a5b0163fcf37a75b8fa177f863cfd3b85c2df5e15552a70a26"
+    },
+    {
+      "path": "experiments/yolo/gdt591_bath_episode_continuity/src/validate.py",
+      "role": "independent complete-population and byte-rebuild validator",
+      "sha256": "2cb4a09051490626ae88a985884fb84073ab78103b6633b901f70ebf1f0acb38"
+    }
+  ],
+  "question": "Does the GDT590 body-versus-station bath reading remain coherent across complete statements and physical paragraphs, and does episode continuity materially strengthen the unique all-remote bare-SH case E2652?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "bath_episode_continuity",
+  "status": "PASS_92_BATH_HOST_CONTINUITY__64_STATEMENTS__17_PARAGRAPHS__28_STATEMENT_TRANSITIONS__14_BLOCKER_LICENSED_SWITCHES__39_REMOTE_CARRIERS__E2652_UNIQUE_BUT_LAYOUT_COMPACT",
+  "title": "Bath-episode continuity with E2652 stress test",
+  "updated": "2026-08-28",
+  "validation": {
+    "artifact": "experiments/yolo/gdt591_bath_episode_continuity/artifacts/gdt591_validation.json",
+    "status": "PASS"
+  }
+}

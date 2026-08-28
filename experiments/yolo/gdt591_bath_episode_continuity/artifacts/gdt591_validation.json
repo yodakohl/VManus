@@ -1,0 +1,506 @@
+{
+  "checks": [
+    {
+      "check_id": "RESULT_STATUS",
+      "check_ordinal": 1,
+      "detail": "PASS_92_BATH_HOST_CONTINUITY__64_STATEMENTS__17_PARAGRAPHS__28_STATEMENT_TRANSITIONS__14_BLOCKER_LICENSED_SWITCHES__39_REMOTE_CARRIERS__E2652_UNIQUE_BUT_LAYOUT_COMPACT",
+      "status": "PASS"
+    },
+    {
+      "check_id": "INPUT_HASHES",
+      "check_ordinal": 2,
+      "detail": "15 fixed inputs",
+      "status": "PASS"
+    },
+    {
+      "check_id": "COMPLETE_COMPARATOR_POPULATION",
+      "check_ordinal": 3,
+      "detail": "953",
+      "status": "PASS"
+    },
+    {
+      "check_id": "COMPLETE_GOVERNOR_KEYS_UNIQUE",
+      "check_ordinal": 4,
+      "detail": "953 exact keys; event IDs need not be unique",
+      "status": "PASS"
+    },
+    {
+      "check_id": "NO_NEW_PAGE",
+      "check_ordinal": 5,
+      "detail": "6 already admitted pages represented",
+      "status": "PASS"
+    },
+    {
+      "check_id": "SEALED_F84_ABSENT",
+      "check_ordinal": 6,
+      "detail": "no f84/f84r row",
+      "status": "PASS"
+    },
+    {
+      "check_id": "HOSTS_IN_MEMORY_REBUILD",
+      "check_ordinal": 7,
+      "detail": "92 rows",
+      "status": "PASS"
+    },
+    {
+      "check_id": "STATEMENTS_IN_MEMORY_REBUILD",
+      "check_ordinal": 8,
+      "detail": "64 rows",
+      "status": "PASS"
+    },
+    {
+      "check_id": "PARAGRAPHS_IN_MEMORY_REBUILD",
+      "check_ordinal": 9,
+      "detail": "17 rows",
+      "status": "PASS"
+    },
+    {
+      "check_id": "STATEMENT_TRANSITIONS_IN_MEMORY_REBUILD",
+      "check_ordinal": 10,
+      "detail": "28 rows",
+      "status": "PASS"
+    },
+    {
+      "check_id": "PARAGRAPH_TRANSITIONS_IN_MEMORY_REBUILD",
+      "check_ordinal": 11,
+      "detail": "75 rows",
+      "status": "PASS"
+    },
+    {
+      "check_id": "REMOTE_IN_MEMORY_REBUILD",
+      "check_ordinal": 12,
+      "detail": "39 rows",
+      "status": "PASS"
+    },
+    {
+      "check_id": "COMPARATORS_IN_MEMORY_REBUILD",
+      "check_ordinal": 13,
+      "detail": "7 rows",
+      "status": "PASS"
+    },
+    {
+      "check_id": "TARGETS_IN_MEMORY_REBUILD",
+      "check_ordinal": 14,
+      "detail": "4 rows",
+      "status": "PASS"
+    },
+    {
+      "check_id": "RESULT_IN_MEMORY_REBUILD",
+      "check_ordinal": 15,
+      "detail": "compact result exact",
+      "status": "PASS"
+    },
+    {
+      "check_id": "READER_IN_MEMORY_REBUILD",
+      "check_ordinal": 16,
+      "detail": "reader exact",
+      "status": "PASS"
+    },
+    {
+      "check_id": "BATH_HOST_COUNT",
+      "check_ordinal": 17,
+      "detail": "92",
+      "status": "PASS"
+    },
+    {
+      "check_id": "BATH_HOST_UNIQUE",
+      "check_ordinal": 18,
+      "detail": "92 governors",
+      "status": "PASS"
+    },
+    {
+      "check_id": "GDT584_BATH_PHRASE_EXACT_ONE",
+      "check_ordinal": 19,
+      "detail": "92/92 exact governor joins",
+      "status": "PASS"
+    },
+    {
+      "check_id": "GDT587_BATH_PHRASE_EXACT_ONE",
+      "check_ordinal": 20,
+      "detail": "92/92 exact governor joins",
+      "status": "PASS"
+    },
+    {
+      "check_id": "BATH_PAGE_COUNT",
+      "check_ordinal": 21,
+      "detail": "six fixed bath pages",
+      "status": "PASS"
+    },
+    {
+      "check_id": "HOST_ROLE_PROFILE",
+      "check_ordinal": 22,
+      "detail": "Counter({'BODY': 52, 'STATION': 40})",
+      "status": "PASS"
+    },
+    {
+      "check_id": "HOST_ROLE_BLOCKER_INVARIANT",
+      "check_ordinal": 23,
+      "detail": "52 clean body / 40 blocked station",
+      "status": "PASS"
+    },
+    {
+      "check_id": "Y_SLOT_PROFILE",
+      "check_ordinal": 24,
+      "detail": "{'BODY': 55, 'STATION': 57}",
+      "status": "PASS"
+    },
+    {
+      "check_id": "CARRIER_SLOT_COUNT",
+      "check_ordinal": 25,
+      "detail": "127",
+      "status": "PASS"
+    },
+    {
+      "check_id": "CARRIER_ROOT_PROFILE",
+      "check_ordinal": 26,
+      "detail": "Counter({'Y': 112, 'AIIN': 6, 'OR': 5, 'AIN': 4})",
+      "status": "PASS"
+    },
+    {
+      "check_id": "DIRECT_CARRIER_COUNT",
+      "check_ordinal": 27,
+      "detail": "88",
+      "status": "PASS"
+    },
+    {
+      "check_id": "REMOTE_CARRIER_COUNT_FROM_HOSTS",
+      "check_ordinal": 28,
+      "detail": "39",
+      "status": "PASS"
+    },
+    {
+      "check_id": "HOST_CARRIER_PARTITION",
+      "check_ordinal": 29,
+      "detail": "direct + remote = complete carrier count at 92/92 hosts",
+      "status": "PASS"
+    },
+    {
+      "check_id": "BATH_FILL_ROLE_PROFILE",
+      "check_ordinal": 30,
+      "detail": "Counter({('BODY', False): 48, ('STATION', False): 38, ('BODY', True): 4, ('STATION', True): 2})",
+      "status": "PASS"
+    },
+    {
+      "check_id": "NO_READER_BOUNDARY_INSIDE_BATH_HOST",
+      "check_ordinal": 31,
+      "detail": "92/92",
+      "status": "PASS"
+    },
+    {
+      "check_id": "STATEMENT_COUNT",
+      "check_ordinal": 32,
+      "detail": "64",
+      "status": "PASS"
+    },
+    {
+      "check_id": "STATEMENT_CLASS_PROFILE",
+      "check_ordinal": 33,
+      "detail": "Counter({'BODY_ONLY': 30, 'STATION_ONLY': 25, 'MIXED_BODY_STATION': 9})",
+      "status": "PASS"
+    },
+    {
+      "check_id": "STATEMENT_HOST_COUNT_PROFILE",
+      "check_ordinal": 34,
+      "detail": "Counter({1: 50, 2: 7, 3: 5, 9: 1, 4: 1})",
+      "status": "PASS"
+    },
+    {
+      "check_id": "MIXED_STATEMENT_SEQUENCES",
+      "check_ordinal": 35,
+      "detail": "{'G407-S085': 'STATION→BODY→BODY', 'G407-S119': 'BODY→BODY→STATION→BODY→STATION→BODY→BODY→BODY→BODY', 'G407-S382': 'BODY→STATION', 'G407-S392': 'BODY→STATION→BODY→STATION', 'G407-S455': 'BODY→STATION', 'G407-S495': 'STATION→BODY→BODY', 'G407-S531': 'STATION→BODY→BODY', 'G407-S538': 'STATION→BODY', 'G407-S599': 'BODY→STATION→STATION'}",
+      "status": "PASS"
+    },
+    {
+      "check_id": "GDT590_READER_FROZEN",
+      "check_ordinal": 36,
+      "detail": "64/64 statements unchanged",
+      "status": "PASS"
+    },
+    {
+      "check_id": "FOUR_BODY_CLAUSE_PATCHES",
+      "check_ordinal": 37,
+      "detail": "four exact GDT590 host clauses retained",
+      "status": "PASS"
+    },
+    {
+      "check_id": "STATEMENT_TRANSITION_COUNT",
+      "check_ordinal": 38,
+      "detail": "28",
+      "status": "PASS"
+    },
+    {
+      "check_id": "STATEMENT_TRANSITION_PROFILE",
+      "check_ordinal": 39,
+      "detail": "Counter({('BODY', 'BODY'): 10, ('STATION', 'BODY'): 7, ('BODY', 'STATION'): 7, ('STATION', 'STATION'): 4})",
+      "status": "PASS"
+    },
+    {
+      "check_id": "STATEMENT_SWITCH_COUNT",
+      "check_ordinal": 40,
+      "detail": "14",
+      "status": "PASS"
+    },
+    {
+      "check_id": "SWITCH_NEW_GOVERNOR",
+      "check_ordinal": 41,
+      "detail": "14/14",
+      "status": "PASS"
+    },
+    {
+      "check_id": "TRANSITIONS_SAME_PHYSICAL_PARAGRAPH",
+      "check_ordinal": 42,
+      "detail": "28/28",
+      "status": "PASS"
+    },
+    {
+      "check_id": "SWITCH_BLOCKER_LICENSE",
+      "check_ordinal": 43,
+      "detail": "14/14",
+      "status": "PASS"
+    },
+    {
+      "check_id": "CONTROLLED_SWITCH_COUNT",
+      "check_ordinal": 44,
+      "detail": "7",
+      "status": "PASS"
+    },
+    {
+      "check_id": "CONTROLLED_SWITCH_ROOT_PROFILE",
+      "check_ordinal": 45,
+      "detail": "Counter({'OL': 5, 'OT': 2})",
+      "status": "PASS"
+    },
+    {
+      "check_id": "CONTROL_TOKEN_PROFILE",
+      "check_ordinal": 46,
+      "detail": "Counter({'OL': 6, 'OT': 2})",
+      "status": "PASS"
+    },
+    {
+      "check_id": "SWITCH_READER_BOUNDARY_COUNT",
+      "check_ordinal": 47,
+      "detail": "2/14 reader-boundary crossings, 0/14 physical-paragraph crossings",
+      "status": "PASS"
+    },
+    {
+      "check_id": "PARAGRAPH_COUNT",
+      "check_ordinal": 48,
+      "detail": "17",
+      "status": "PASS"
+    },
+    {
+      "check_id": "PARAGRAPH_CLASS_PROFILE",
+      "check_ordinal": 49,
+      "detail": "Counter({'MIXED_BODY_STATION': 11, 'BODY_ONLY': 4, 'STATION_ONLY': 2})",
+      "status": "PASS"
+    },
+    {
+      "check_id": "PARAGRAPH_TRANSITION_COUNT",
+      "check_ordinal": 50,
+      "detail": "75",
+      "status": "PASS"
+    },
+    {
+      "check_id": "PARAGRAPH_TRANSITION_PROFILE",
+      "check_ordinal": 51,
+      "detail": "Counter({('BODY', 'BODY'): 25, ('STATION', 'BODY'): 18, ('BODY', 'STATION'): 17, ('STATION', 'STATION'): 15})",
+      "status": "PASS"
+    },
+    {
+      "check_id": "PARAGRAPH_SWITCH_COUNT",
+      "check_ordinal": 52,
+      "detail": "35",
+      "status": "PASS"
+    },
+    {
+      "check_id": "PARAGRAPH_SWITCH_SCOPE",
+      "check_ordinal": 53,
+      "detail": "Counter({'NO': 21, 'YES': 14})",
+      "status": "PASS"
+    },
+    {
+      "check_id": "REMOTE_ROW_COUNT",
+      "check_ordinal": 54,
+      "detail": "39",
+      "status": "PASS"
+    },
+    {
+      "check_id": "REMOTE_HOST_COUNT",
+      "check_ordinal": 55,
+      "detail": "27",
+      "status": "PASS"
+    },
+    {
+      "check_id": "REMOTE_HOST_ROLE_PROFILE",
+      "check_ordinal": 56,
+      "detail": "Counter({'STATION': 18, 'BODY': 9})",
+      "status": "PASS"
+    },
+    {
+      "check_id": "REMOTE_ROOT_PROFILE",
+      "check_ordinal": 57,
+      "detail": "Counter({'Y': 25, 'AIIN': 6, 'AIN': 4, 'OR': 4})",
+      "status": "PASS"
+    },
+    {
+      "check_id": "REMOTE_GEOMETRY_PROFILE",
+      "check_ordinal": 58,
+      "detail": "Counter({'PREVIOUS_CARD_ACTION': 19, 'INHERITED_ACTION': 12, 'BOUNDED_NEXT_CARD_ACTION': 8})",
+      "status": "PASS"
+    },
+    {
+      "check_id": "REMOTE_LOOKAHEAD_PROFILE",
+      "check_ordinal": 59,
+      "detail": "31 zero / 8 one",
+      "status": "PASS"
+    },
+    {
+      "check_id": "REMOTE_FIXED_GOVERNORS",
+      "check_ordinal": 60,
+      "detail": "39/39",
+      "status": "PASS"
+    },
+    {
+      "check_id": "REMOTE_NO_BOUNDARY_CROSS",
+      "check_ordinal": 61,
+      "detail": "39/39",
+      "status": "PASS"
+    },
+    {
+      "check_id": "REMOTE_SCOPE_PROFILE",
+      "check_ordinal": 62,
+      "detail": "39 running object functions under primary governor",
+      "status": "PASS"
+    },
+    {
+      "check_id": "REMOTE_ASSIGNMENT_LOCALITY",
+      "check_ordinal": 63,
+      "detail": "39/39 remain inside exact phrase statement and owner",
+      "status": "PASS"
+    },
+    {
+      "check_id": "E2652_REMOTE_TRACE",
+      "check_ordinal": 64,
+      "detail": "daiin before / qolchey after bare SH",
+      "status": "PASS"
+    },
+    {
+      "check_id": "COMPARATOR_COUNT",
+      "check_ordinal": 65,
+      "detail": "7",
+      "status": "PASS"
+    },
+    {
+      "check_id": "COMPARATOR_EVENT_SET",
+      "check_ordinal": 66,
+      "detail": "fixed ladder",
+      "status": "PASS"
+    },
+    {
+      "check_id": "E2652_EXACT_SIGNATURE_UNIQUE",
+      "check_ordinal": 67,
+      "detail": "one AIIN|SH|Y + direct SH host among 953",
+      "status": "PASS"
+    },
+    {
+      "check_id": "COMPARATOR_TARGET_ONLY_EXACT",
+      "check_ordinal": 68,
+      "detail": "E2652 only",
+      "status": "PASS"
+    },
+    {
+      "check_id": "COMPARATOR_EXACT_GOVERNOR_JOIN",
+      "check_ordinal": 69,
+      "detail": "no event-only multi-action collision",
+      "status": "PASS"
+    },
+    {
+      "check_id": "E2652_ALL_REMOTE_BARE_SH",
+      "check_ordinal": 70,
+      "detail": "unique exact structure",
+      "status": "PASS"
+    },
+    {
+      "check_id": "TARGET_COUNT",
+      "check_ordinal": 71,
+      "detail": "4",
+      "status": "PASS"
+    },
+    {
+      "check_id": "TARGET_EVENT_SET",
+      "check_ordinal": 72,
+      "detail": "four GDT590 targets",
+      "status": "PASS"
+    },
+    {
+      "check_id": "TARGET_BODY_FIRST",
+      "check_ordinal": 73,
+      "detail": "4/4",
+      "status": "PASS"
+    },
+    {
+      "check_id": "TARGET_STATION_VISIBLE",
+      "check_ordinal": 74,
+      "detail": "4/4",
+      "status": "PASS"
+    },
+    {
+      "check_id": "E2652_LAYOUT_COMPACT",
+      "check_ordinal": 75,
+      "detail": "event-remote but W1-W3 adjacent",
+      "status": "PASS"
+    },
+    {
+      "check_id": "F82_LAYOUT_INTERRUPTION_RETAINED",
+      "check_ordinal": 76,
+      "detail": "f82r.1 internal break visible",
+      "status": "PASS"
+    },
+    {
+      "check_id": "READER_TARGET_COUNT",
+      "check_ordinal": 77,
+      "detail": "four targets",
+      "status": "PASS"
+    },
+    {
+      "check_id": "READER_MIXED_STATEMENT_COUNT",
+      "check_ordinal": 78,
+      "detail": "nine mixed statements",
+      "status": "PASS"
+    },
+    {
+      "check_id": "READER_REMOTE_DEFINITION",
+      "check_ordinal": 79,
+      "detail": "spatial ambiguity removed",
+      "status": "PASS"
+    },
+    {
+      "check_id": "READER_STATION_RIVAL",
+      "check_ordinal": 80,
+      "detail": "alternative visible",
+      "status": "PASS"
+    },
+    {
+      "check_id": "INLINE_SIZE_CAP",
+      "check_ordinal": 81,
+      "detail": "every generated artifact at or below five MB",
+      "status": "PASS"
+    },
+    {
+      "check_id": "REBUILD_EXIT",
+      "check_ordinal": 82,
+      "detail": "exit 0",
+      "status": "PASS"
+    },
+    {
+      "check_id": "BYTE_IDENTICAL_REBUILD",
+      "check_ordinal": 83,
+      "detail": "10 generated artifacts",
+      "status": "PASS"
+    }
+  ],
+  "checks_passed": 83,
+  "checks_total": 83,
+  "experiment_id": "GDT591",
+  "status": "PASS"
+}

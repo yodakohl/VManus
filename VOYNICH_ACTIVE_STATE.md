@@ -14324,3 +14324,29 @@ GDT589 intake. The next no-new-page route is a bath-episode continuity audit
 over already admitted statements,with E2652 as the primary stress case. Keep
 GDT581/GDT584 grammar and remote attachments fixed;open no page,root,parser or
 contained-substring segmentation.
+
+## GDT591 carries the body/station split through complete bath episodes
+
+GDT591 orders all92 fixed Y-bath hosts twice:inside their64 statements and
+inside17 physical ZL3b paragraphs on the same six admitted bath pages. The
+host inventory remains52 clean Body versus40 blocker-marked Station,with112 Y
+slots and127 total carriers. The28 statement-level transitions split10
+Body→Body,4 Station→Station,7 Body→Station and7 Station→Body. All14 role
+switches occur at a new SH governor,remain in one physical paragraph and
+exactly follow the blocker transition;7 also contain an OL/OT control host.
+
+The39 event-remote carriers lie in27 hosts and retain every GDT581 attachment:
+19 previous-card,12 inherited and8 one-card-lookahead,with zero owner or
+statement crossing. Remote now means only a different source event from the
+action anchor,not physical distance. At E2652 the AIIN before and Y after bare
+SH are event-remote but visibly adjacent as `daiin-sh-qolchey` on f77r.41
+W1-W3. This raises the body-first reading to medium working strength,but its
+exact `AIIN|SH|Y`/direct-`SH` signature occurs only1/953 and Station remains
+the strongest explicit rival.
+
+Use GDT591 as continuity support without changing any slot or statement. The
+next no-new-page route should fill every one of254 `SH_BIO_BATHE` actions with
+an explicit bath object:written GDT590 Body/Station first,then OR unit or AIN
+portion,then local blocker Station,then same-episode carry,and otherwise
+neutral Bath object. Keep AIIN as fill only and mark all carried/generic
+objects as editorial defaults;open no page,root,parser or new denotation.
