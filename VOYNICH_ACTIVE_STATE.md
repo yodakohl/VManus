@@ -14167,3 +14167,40 @@ Use GDT585 as the replaceable name layer above GDT584. Next inject all109
 defaults into one complete793-statement reader while retaining legacy rivals
 and the primary grammar;then re-read the19 group contexts on the same pages.
 Open no new page,root or automatic substring parser.
+
+## GDT586 installs the name layer in the complete two-part reader
+
+The complete integration corrects the literal GDT585 route. Of the109 values,
+107 fixed name spans belong to89 local cards and have no edge to any running
+event or statement;only two owner-local `LOCAL_X` values belong to the793
+running statements. The current complete reader therefore contains two
+page-grouped but structurally separate layers:793 statements and744 local
+cards. Shared physical page is display navigation only.
+
+The statement layer selects all591 GDT584-polished paragraphs and the202
+remaining GDT582 paragraphs. Exactly G515-S046 changes from `Krankheit oder
+Beschwerde` to `Beschwerde`,and G515-S050 changes from `Heilmittel oder
+Heilwirkung` to `Heilmittel`;the other791 statements remain byte-exact to the
+selected base. The local layer selects158 GDT584 and586 GDT582 base cards;
+GDT585 becomes the grammar-aware primary on89 cards carrying107 names,while
+the other655 cards remain byte-exact. Every changed unit retains its full old
+reader and exact slot trace.
+
+An exact `slot_id` join repairs the rival channel:all60 stellar assignments
+whose GDT585 legacy field said `NONE` recover their real GDT582 values such as
+`Sternringstelle 35`. No raw-core substitution is used. All19 groups/21 source
+events are local. C007 expands to four cards in R078 and C010 to two cards in
+R085;these strengthen a continued two-field ring record and a left terminal
+connection chain. C001 restores source order—right flower form with OT before
+left flower form—while reverse left-to-right order remains visual only. C017
+stays a three-object instruction. C019 is explicitly visual-only:its proposed
+endpoints are separate R129/R131 owners with R130/OKAIN between them.
+Validation passes55/55.
+
+Use GDT586 as the complete current working reader above GDT585/GDT584. It is an
+exploratory two-layer edition,not plaintext,and local cards may never inherit a
+running sentence. The next useful test is application of the fixed short-value,
+learned-value,plant-organ,stock,connection and multi-name roles to further
+user-released pages. Without such a release no further closed-page rewrite
+follows automatically;open no new page/root/parser and never segment contained
+substrings automatically.
