@@ -1,0 +1,769 @@
+{
+  "assignment_class_counts": {
+    "BATH_OR_OUTLET_STATION": 7,
+    "DRUG_OR_INGREDIENT_OBJECT": 38,
+    "OWNER_BOUND_LOCAL_X": 2,
+    "PICTURED_PLANT": 2,
+    "STAR_BEARING_RING_POSITION": 60
+  },
+  "canonical_compound_count": 18,
+  "claim": "Complete replaceable name atlas with fixed spans and shells, image-conditioned primary roles, explicit legacy aliases, and separate composition hypotheses.",
+  "claim_ceiling": "Exploratory working meanings only; no recovered plaintext, species identity, substance identity, pronunciation, or portable substring lexicon.",
+  "counts": {
+    "compounds": 19,
+    "families": 5,
+    "history": 10,
+    "images": 4,
+    "labels": 89,
+    "local_x": 2,
+    "slots": 109,
+    "types": 80
+  },
+  "cross_class_raw_core_collisions": [
+    "cho",
+    "d",
+    "dy",
+    "e",
+    "ody",
+    "y",
+    "yd",
+    "yt"
+  ],
+  "drug_visual_context_counts": {
+    "APOTHECARY_CONTAINER_LABEL": 7,
+    "PICTURED_PLANT_FRAGMENT_LABEL": 29,
+    "TWO_LINE_CONTAINER_PLANT_BOUNDARY_LABEL": 2
+  },
+  "experiment_id": "GDT585",
+  "forbidden_pages": [
+    "f84",
+    "f84r"
+  ],
+  "gdt476_changed_name_labels": [
+    "P1008-E0350",
+    "P1008-E0365",
+    "P1008-E0367",
+    "P1008-E0459",
+    "P1008-E1039",
+    "P1008-E1040"
+  ],
+  "input_sha256": {
+    "address_interlinear": "1668013305dc419fa29c77087248685711e25bb74086a7a592704cb5ffae77ec",
+    "concrete_statements": "e8d4ab7411a56f9e71daf56eea074981f85fd31fd8fae748746b339ad0ec4482",
+    "content_slots": "bfe8005166f784ca4c8346c1e15eec6c0bb810f3a0d1d0647be3d4e8ed9874e3",
+    "event_triptych": "a221ab715e7af5b2f680f37eb09273b1240e02fe176ad81d1e13b5e0f4d1d052",
+    "name_slots": "9011dc01a9e141bf7d202bd290805b0da0a3bd2ce3a88e8e2b2b03e3300b9d6a",
+    "name_types": "54405aa2567addd6a99ecc1e189bc9a818b5430d12839610b5634cad681ca3cc",
+    "polished_statements": "753f4822aa83d309d9a2e93cf004e05cc1d0c6177016e74966a86a62a416eb42",
+    "tie_decisions": "a40109a0ad37a751bde6f1bad2e6a2e9203240c7f1dfab089ef7fd4957edfe53"
+  },
+  "legacy_palette_policy": "PRESERVED_AS_EXPLICIT_RIVAL_NOT_ERASED",
+  "model_snapshot": {
+    "bath_types": {
+      "chd": {
+        "composition_atom_de": "linker Speiseanschluss",
+        "default_de": "linker Speiseanschluss",
+        "legacy_house_alias_de": "erw\u00e4rmtes Becken",
+        "name_role": "LEFT_TERMINAL_SUBCLASS",
+        "semantic_family": "LEFT_SOURCE_CONNECTION",
+        "strongest_rival_de": "erw\u00e4rmtes Becken",
+        "working_basis": "LEFT_SOURCE_SIDE_IN_D_PLUS_CHD_END_LABEL"
+      },
+      "d": {
+        "composition_atom_de": "Endfigur d",
+        "default_de": "Endfigur",
+        "legacy_house_alias_de": "Ablauf",
+        "name_role": "COMMON_END_STATION_CLASS",
+        "semantic_family": "SYMMETRIC_HUMAN_TERMINAL",
+        "strongest_rival_de": "Ablauf oder Endstelle",
+        "working_basis": "TWO_SYMMETRIC_HUMAN_END_LABELS"
+      },
+      "edy": {
+        "composition_atom_de": "rechter Endanschluss",
+        "default_de": "rechter Endanschluss",
+        "legacy_house_alias_de": "K\u00fchlablauf",
+        "name_role": "RIGHT_TERMINAL_SUBCLASS",
+        "semantic_family": "RIGHT_EXTRACTION_TERMINAL",
+        "strongest_rival_de": "K\u00fchlablauf",
+        "working_basis": "RIGHT_HUMAN_ENDPOINT_IN_D_PLUS_EDY_LABEL__NO_COOLING_MARK"
+      },
+      "kchs": {
+        "composition_atom_de": "linker Anschlusskopf",
+        "default_de": "linker Anschlusskopf",
+        "legacy_house_alias_de": "Zulaufrohr",
+        "name_role": "INNER_CONNECTION_HEAD",
+        "semantic_family": "LEFT_INNER_CONNECTION_HEAD",
+        "strongest_rival_de": "Zulaufrohr",
+        "working_basis": "FIRST_INNER_HEAD_AFTER_LEFT_TERMINAL"
+      },
+      "ork": {
+        "composition_atom_de": "mittlerer Tropfkopf",
+        "default_de": "mittlerer Tropfkopf",
+        "legacy_house_alias_de": "Badebecken",
+        "name_role": "INNER_OUTLET_HEAD",
+        "semantic_family": "CENTRAL_DRIP_OUTLET_HEAD",
+        "strongest_rival_de": "Badebecken",
+        "working_basis": "TEXT_BELOW_DARK_BLUE_DRIPPING_HEAD__NO_BASIN"
+      },
+      "sor": {
+        "composition_atom_de": "rechter Spr\u00fchkopf",
+        "default_de": "rechter Spr\u00fchkopf",
+        "legacy_house_alias_de": "Sitz- oder Behandlungsstation",
+        "name_role": "INNER_TARGET_HEAD",
+        "semantic_family": "RIGHT_TARGET_SPRAY_HEAD",
+        "strongest_rival_de": "Sitz- oder Behandlungsstation",
+        "working_basis": "RIGHT_INNER_HEAD_WITH_AL_TARGET_FRAME__NO_VISIBLE_SEAT"
+      }
+    },
+    "compound_overrides": {
+      "G474-B001": {
+        "primary_reading_de": "Linke Bl\u00fctenform oiil; daneben als n\u00e4chste die rechte Bl\u00fctenform eeeon derselben einzigen Pflanze.",
+        "reason_de": "Eine Wurzel, ein St\u00e4ngel und eine Pflanze; die Labels stehen symmetrisch bei den beiden Seitenbl\u00fctenk\u00f6pfen.",
+        "semantic_mode": "TWO_FLOWER_FORMS_ONE_PICTURED_PLANT",
+        "source_kind": "TWO_LABEL_SAME_OWNER_BUNDLE",
+        "strongest_rival_de": "Hauptname und weiterer Name oder Beiname derselben Pflanzenart"
+      },
+      "GDT585-CONTEXT-F89R-DCHOS-YOR": {
+        "primary_reading_de": "Rote Fingerwurzel dchos mit benachbartem Rinden- oder Trockenvorrat yor.",
+        "reason_de": "Zwei Zeilen bilden optisch ein Grenzlabel zwischen unterem Gef\u00e4\u00df und Pflanzenfragment.",
+        "semantic_mode": "ROOT_AND_DRY_STOCK_BOUNDARY_PACKAGE",
+        "source_kind": "TWO_LINE_VISUAL_BOUNDARY_PAIR",
+        "strongest_rival_de": "Ingwerwurzel und Zimtrinde als altes Alias-Paar"
+      },
+      "P1003-E0081": {
+        "primary_reading_de": "Am linken Quellende steht die Bedien- oder Badendenfigur d beim Quell- oder Speiseanschluss chd.",
+        "reason_de": "D und CHD teilen das linke menschliche Endlabel; kein W\u00e4rmemarker ist sichtbar.",
+        "semantic_mode": "LEFT_HUMAN_TERMINAL_PACKAGE",
+        "source_kind": "MULTI_NAME_LABEL",
+        "strongest_rival_de": "Ablauf plus erw\u00e4rmtes Becken"
+      },
+      "P1003-E0088": {
+        "primary_reading_de": "Am anderen Ende folgt bei der Bedien- oder Badendenfigur d der rechte Entnahme- oder Endanschluss edy.",
+        "reason_de": "D und EDY teilen das rechte menschliche Endlabel; kein K\u00fchlmarker ist sichtbar.",
+        "semantic_mode": "RIGHT_HUMAN_TERMINAL_PACKAGE",
+        "source_kind": "MULTI_NAME_LABEL",
+        "strongest_rival_de": "Ablauf gefolgt von K\u00fchlablauf"
+      },
+      "P1003-E0554": {
+        "primary_reading_de": "Wurzeldroge d in oder mit Salben- oder Fettgrundlage am.",
+        "reason_de": "Das Label sitzt am Pflanzen- oder Gef\u00e4\u00dfobjekt; D ist im Bilddeck \u00fcberwiegend Wurzel.",
+        "semantic_mode": "ROOT_DRUG_IN_PREPARATION_BASE",
+        "source_kind": "MULTI_NAME_LABEL",
+        "strongest_rival_de": "Wasser-Schmalz-Paar nach der alten Werkstattpalette"
+      },
+      "P1003-E0555": {
+        "primary_reading_de": "Derselbe Kraut- oder Pflanzenreferent y wird zweimal aufgenommen.",
+        "reason_de": "Beide Slots sind Y und stehen an demselben Pflanzenfragment.",
+        "semantic_mode": "REPEATED_SAME_PLANT_REFERENCE",
+        "source_kind": "MULTI_NAME_LABEL",
+        "strongest_rival_de": "zweistufige Weinzubereitung nach der alten Werkstattpalette"
+      },
+      "P1003-E0557": {
+        "primary_reading_de": "Wurzel d der langbl\u00e4ttrigen Mutterpflanze oder Art DA.",
+        "reason_de": "Ein einziges Pflanzenfragment tr\u00e4gt D und DA beidseits der AR-Bez\u00fcge.",
+        "semantic_mode": "ROOT_PART_OF_NAMED_PLANT",
+        "source_kind": "MULTI_NAME_LABEL",
+        "strongest_rival_de": "Wasser-Mehl-Paste nach der alten Werkstattpalette"
+      },
+      "P1008-E1176": {
+        "primary_reading_de": "Blatt- oder Krautteil s zusammen mit der Wurzel d derselben Pflanzendroge.",
+        "reason_de": "Das Mehrkernlabel sitzt an einem Pflanzenfragment, nicht an einer sichtbaren Fl\u00fcssigkeit.",
+        "semantic_mode": "LEAF_AND_ROOT_PACKAGE",
+        "source_kind": "MULTI_NAME_LABEL",
+        "strongest_rival_de": "Sole oder Salzl\u00f6sung nach der alten Werkstattpalette"
+      },
+      "P1008-E1177": {
+        "primary_reading_de": "Bl\u00fcten- oder Fruchtstand sy der Kraut- oder Pflanzenform y.",
+        "reason_de": "SY und Y stehen gemeinsam an einem sichtbaren Bl\u00fcten- oder Fruchtstand.",
+        "semantic_mode": "INFLORESCENCE_OF_HERB_PACKAGE",
+        "source_kind": "MULTI_NAME_LABEL",
+        "strongest_rival_de": "vitriolhaltige Weinl\u00f6sung nach der alten Werkstattpalette"
+      },
+      "P1008-E1182": {
+        "primary_reading_de": "Halte Blattdroge s, Wurzelstock oiin und Pflanzenkern e desselben Pflanzenfragments zum Zielgef\u00e4\u00df und fahre fort.",
+        "reason_de": "GDT474s SH+OL-Anweisung bleibt; nur die drei sichtbaren Pflanzenrollen ersetzen die Hausaliase.",
+        "semantic_mode": "THREE_PART_PLANT_INSTRUCTION",
+        "source_kind": "MULTI_NAME_LABEL",
+        "strongest_rival_de": "Salz, Myrrhe und Weihrauch als dreiteilige Arzneimischung"
+      },
+      "P1008-E1412": {
+        "primary_reading_de": "Blattdroge yt der grauwurzligen Mutterpflanze oder Art EM.",
+        "reason_de": "YT und EM stehen am selben Pflanzenfragment mit AR-Teil-von-Bezug.",
+        "semantic_mode": "LEAF_PART_OF_NAMED_PLANT",
+        "source_kind": "MULTI_NAME_LABEL",
+        "strongest_rival_de": "Salbei- und Rautenblatt als Kr\u00e4utermischung"
+      }
+    },
+    "drug_types": {
+      "ak": {
+        "composition_atom_de": "Knollendroge",
+        "default_de": "rundbl\u00e4ttrige Knollendroge",
+        "legacy_house_alias_de": "Gew\u00fcrznelkenknospe",
+        "name_role": "BOTANICAL_DRUG_HEAD",
+        "plant_part_de": "Knolle mit Rundbl\u00e4ttern",
+        "semantic_family": "ROOT_DRUG",
+        "strongest_rival_de": "Gew\u00fcrznelkenknospe als alter Werkstattalias",
+        "substance_head_de": "AK-Pflanzendroge",
+        "working_basis": "IMAGE_PLANT_FRAGMENT"
+      },
+      "am": {
+        "composition_atom_de": "Salbengrundlage",
+        "default_de": "Salbengrundlage",
+        "legacy_house_alias_de": "Schmalz",
+        "name_role": "COMPOUND_BASE_ATOM",
+        "plant_part_de": "NONE",
+        "semantic_family": "PREPARATION_BASE",
+        "strongest_rival_de": "Schmalz",
+        "substance_head_de": "Fettgrundlage",
+        "working_basis": "D_PLUS_AM_COMPOUND__LEGACY_BASE_ALIAS"
+      },
+      "cheo": {
+        "composition_atom_de": "Faserwurzeltyp CHEO",
+        "default_de": "dunkle Faserwurzeldroge",
+        "legacy_house_alias_de": "Essig",
+        "name_role": "BOTANICAL_DRUG_HEAD",
+        "plant_part_de": "Faserwurzel",
+        "semantic_family": "CHEO_FIBRE_ROOT_FAMILY",
+        "strongest_rival_de": "Essig als alter Werkstattalias",
+        "substance_head_de": "CHEO-Pflanzendroge",
+        "working_basis": "IMAGE_PLANT_FRAGMENT__FORMAL_CHEO_FAMILY"
+      },
+      "cheosdy": {
+        "composition_atom_de": "CHEO-Wurzelvariante",
+        "default_de": "geb\u00e4nderte Faserwurzel der CHEO-Familie",
+        "legacy_house_alias_de": "Eigelb",
+        "name_role": "BOTANICAL_FAMILY_VARIANT",
+        "plant_part_de": "geb\u00e4nderte Faserwurzel",
+        "semantic_family": "CHEO_FIBRE_ROOT_FAMILY",
+        "strongest_rival_de": "Eigelb als alter Werkstattalias",
+        "substance_head_de": "CHEO-Pflanzendroge",
+        "working_basis": "IMAGE_PLANT_FRAGMENT__FORMAL_CHEO_FAMILY"
+      },
+      "cho": {
+        "composition_atom_de": "zweifarbige Langwurzel",
+        "default_de": "zweifarbige Langwurzel",
+        "legacy_house_alias_de": "Schwefel",
+        "name_role": "BOTANICAL_DRUG_HEAD",
+        "plant_part_de": "Langwurzel",
+        "semantic_family": "ROOT_DRUG",
+        "strongest_rival_de": "Schwefel als alter Werkstattalias",
+        "substance_head_de": "CHO-Pflanzendroge",
+        "working_basis": "IMAGE_PLANT_FRAGMENT"
+      },
+      "cphe": {
+        "composition_atom_de": "Knollenwurzel",
+        "default_de": "knollige Wurzeldroge mit Blatttrieb",
+        "legacy_house_alias_de": "Milch",
+        "name_role": "BOTANICAL_DRUG_HEAD",
+        "plant_part_de": "Knollenwurzel mit Blatttrieb",
+        "semantic_family": "ROOT_DRUG",
+        "strongest_rival_de": "Milch als alter Werkstattalias",
+        "substance_head_de": "CPHE-Pflanzendroge",
+        "working_basis": "IMAGE_PLANT_FRAGMENT"
+      },
+      "d": {
+        "composition_atom_de": "Wurzel",
+        "default_de": "Wurzeldroge",
+        "legacy_house_alias_de": "Wasser",
+        "name_role": "ROOT_PART_ATOM",
+        "plant_part_de": "Wurzel",
+        "semantic_family": "COMPOSITIONAL_PLANT_PART",
+        "strongest_rival_de": "Wasser als alter Werkstattanker",
+        "substance_head_de": "ownerlokale Pflanzendroge",
+        "working_basis": "FOUR_ROOT_IMAGES__TWO_CONTAINER_OCCURRENCES__COMPOUND_GRAPH"
+      },
+      "da": {
+        "composition_atom_de": "Pflanzenname DA",
+        "default_de": "langbl\u00e4ttrige Mutterpflanze DA",
+        "legacy_house_alias_de": "Mehl",
+        "name_role": "PLANT_TAXON_ATOM",
+        "plant_part_de": "ganze Mutterpflanze",
+        "semantic_family": "LEARNED_PLANT_HEAD",
+        "strongest_rival_de": "Mehl als alter Werkstattalias",
+        "substance_head_de": "Pflanzenkern DA",
+        "working_basis": "D_PLUS_DA_PART_OF_COMPOSITION__IMAGE_PLANT_FRAGMENT"
+      },
+      "dchos": {
+        "composition_atom_de": "CHOS-Fingerwurzel",
+        "default_de": "rote Fingerwurzel",
+        "legacy_house_alias_de": "Ingwerwurzel",
+        "name_role": "BOTANICAL_DRUG_HEAD",
+        "plant_part_de": "rote Fingerwurzel",
+        "semantic_family": "CHOS_CHOR_FIBRE_ROOT_FAMILY",
+        "strongest_rival_de": "Ingwerwurzel",
+        "substance_head_de": "DCHOS-Pflanzendroge",
+        "working_basis": "TWO_LINE_BOUNDARY_LABEL__FORMAL_CHOS_CHOR_FAMILY"
+      },
+      "dordy": {
+        "composition_atom_de": "Speicherwurzel",
+        "default_de": "gro\u00dfe Speicherwurzel",
+        "legacy_house_alias_de": "Butter",
+        "name_role": "BOTANICAL_DRUG_HEAD",
+        "plant_part_de": "Speicherwurzel",
+        "semantic_family": "ROOT_DRUG",
+        "strongest_rival_de": "Butter als alter Werkstattalias",
+        "substance_head_de": "DORDY-Pflanzendroge",
+        "working_basis": "IMAGE_PLANT_FRAGMENT"
+      },
+      "dy": {
+        "composition_atom_de": "Wurzel mit Krautform",
+        "default_de": "bl\u00fchende Wurzeldroge",
+        "legacy_house_alias_de": "Kalk",
+        "name_role": "ROOT_WITH_AERIAL_FORM",
+        "plant_part_de": "bl\u00fchende Wurzelpflanze",
+        "semantic_family": "D_Y_ROOT_HERB_FAMILY",
+        "strongest_rival_de": "Kalk als alter Werkstattalias",
+        "substance_head_de": "DY-Pflanzendroge",
+        "working_basis": "OTOLD_VS_OTOLDY_MINIMAL_PAIR__IMAGE_PLANT_FRAGMENT"
+      },
+      "e": {
+        "composition_atom_de": "Pflanzenname E",
+        "default_de": "breitbl\u00e4ttrige Mutterpflanze E",
+        "legacy_house_alias_de": "Weihrauch",
+        "name_role": "PLANT_TAXON_ATOM",
+        "plant_part_de": "ganze Mutterpflanze",
+        "semantic_family": "LEARNED_PLANT_HEAD",
+        "strongest_rival_de": "Weihrauch als alter Werkstattalias",
+        "substance_head_de": "Pflanzenkern E",
+        "working_basis": "S_PLUS_OIIN_PLUS_E_COMPOSITION__IMAGE_PLANT_FRAGMENT"
+      },
+      "em": {
+        "composition_atom_de": "Pflanzenname EM",
+        "default_de": "grauwurzelige Mutterpflanze EM",
+        "legacy_house_alias_de": "Rautenblatt",
+        "name_role": "PLANT_TAXON_ATOM",
+        "plant_part_de": "ganze Mutterpflanze",
+        "semantic_family": "LEARNED_PLANT_HEAD",
+        "strongest_rival_de": "Raute als Pflanzenidentit\u00e4t",
+        "substance_head_de": "Pflanzenkern EM",
+        "working_basis": "YT_PLUS_EM_PART_OF_COMPOSITION__IMAGE_PLANT_FRAGMENT"
+      },
+      "od": {
+        "composition_atom_de": "Harzvorrat",
+        "default_de": "Harzvorrat",
+        "legacy_house_alias_de": "Harz",
+        "name_role": "CONTAINER_CONTENT_HEAD",
+        "plant_part_de": "NONE",
+        "semantic_family": "APOTHECARY_CONTAINER_DEFAULT",
+        "strongest_rival_de": "anderer Trockenvorrat im Gef\u00e4\u00df",
+        "substance_head_de": "Harz",
+        "working_basis": "IMAGE_CONTAINER__LEGACY_ALIAS_RETAINED"
+      },
+      "ody": {
+        "composition_atom_de": "bl\u00fchende Knollenwurzel",
+        "default_de": "bl\u00fchende Knollenwurzel",
+        "legacy_house_alias_de": "Bienenwachs",
+        "name_role": "BOTANICAL_DRUG_HEAD",
+        "plant_part_de": "Ring- oder Knollenwurzel",
+        "semantic_family": "ROOT_DRUG",
+        "strongest_rival_de": "Bienenwachs als alter Werkstattalias",
+        "substance_head_de": "ODY-Pflanzendroge",
+        "working_basis": "IMAGE_PLANT_FRAGMENT"
+      },
+      "oiin": {
+        "composition_atom_de": "Wurzelstock",
+        "default_de": "Wurzelstock",
+        "legacy_house_alias_de": "Myrrhe",
+        "name_role": "RHIZOME_PART_ATOM",
+        "plant_part_de": "Wurzelstock",
+        "semantic_family": "COMPOSITIONAL_PLANT_PART",
+        "strongest_rival_de": "Myrrhe als alter Werkstattalias",
+        "substance_head_de": "E-Pflanzendroge",
+        "working_basis": "S_PLUS_OIIN_PLUS_E_COMPOSITION__IMAGE_PLANT_FRAGMENT"
+      },
+      "opchor": {
+        "composition_atom_de": "CHOR-Faserwurzel",
+        "default_de": "haarige Faserwurzel",
+        "legacy_house_alias_de": "Safranbl\u00fcte",
+        "name_role": "BOTANICAL_DRUG_HEAD",
+        "plant_part_de": "haarige Faserwurzel",
+        "semantic_family": "CHOS_CHOR_FIBRE_ROOT_FAMILY",
+        "strongest_rival_de": "Safranbl\u00fcte als alter Werkstattalias",
+        "substance_head_de": "OPCHOR-Pflanzendroge",
+        "working_basis": "IMAGE_ROOT__FORMAL_CHOS_CHOR_FAMILY"
+      },
+      "opchos": {
+        "composition_atom_de": "CHOS-Faserwurzel",
+        "default_de": "lange Faserwurzel",
+        "legacy_house_alias_de": "Gummi arabicum",
+        "name_role": "BOTANICAL_DRUG_HEAD",
+        "plant_part_de": "lange Faserwurzel",
+        "semantic_family": "CHOS_CHOR_FIBRE_ROOT_FAMILY",
+        "strongest_rival_de": "Gummi arabicum als alter Werkstattalias",
+        "substance_head_de": "OPCHOS-Pflanzendroge",
+        "working_basis": "IMAGE_ROOT__FORMAL_CHOS_CHOR_FAMILY"
+      },
+      "opor": {
+        "composition_atom_de": "helle Fingerwurzel",
+        "default_de": "helle Fingerwurzel",
+        "legacy_house_alias_de": "Pfefferkorn oder Samen",
+        "name_role": "BOTANICAL_DRUG_HEAD",
+        "plant_part_de": "Fingerwurzel",
+        "semantic_family": "ROOT_DRUG",
+        "strongest_rival_de": "Pfefferkorn oder Samen als alter Werkstattalias",
+        "substance_head_de": "OPOR-Pflanzendroge",
+        "working_basis": "IMAGE_PLANT_FRAGMENT"
+      },
+      "or": {
+        "composition_atom_de": "helle Wurzeldroge",
+        "default_de": "helle Wurzeldroge",
+        "legacy_house_alias_de": "Oliven\u00f6l",
+        "name_role": "BOTANICAL_DRUG_OR_STOCK_HEAD",
+        "plant_part_de": "Wurzel",
+        "semantic_family": "OTORA_ROOT_FAMILY",
+        "strongest_rival_de": "Oliven\u00f6l als alter Werkstattalias",
+        "substance_head_de": "helle OR-Wurzeldroge",
+        "working_basis": "IMAGE_ROOT_AND_CONTAINER__CROSS_PAGE_REPEAT"
+      },
+      "ora": {
+        "composition_atom_de": "OTORA-Wurzelvariante",
+        "default_de": "mehrfingrige Bl\u00fctenwurzel",
+        "legacy_house_alias_de": "Eiwei\u00df",
+        "name_role": "BOTANICAL_DRUG_HEAD",
+        "plant_part_de": "mehrfingrige Bl\u00fctenwurzel",
+        "semantic_family": "OTORA_ROOT_FAMILY",
+        "strongest_rival_de": "Eiwei\u00df als alter Werkstattalias",
+        "substance_head_de": "ORA-Wurzeldroge",
+        "working_basis": "IMAGE_PLANT_FRAGMENT__FORMAL_OTORA_FAMILY"
+      },
+      "qk": {
+        "composition_atom_de": "helle Speicherwurzel",
+        "default_de": "gro\u00dfe helle Speicherwurzel",
+        "legacy_house_alias_de": "Asche",
+        "name_role": "BOTANICAL_DRUG_HEAD",
+        "plant_part_de": "Speicherwurzel",
+        "semantic_family": "ROOT_DRUG",
+        "strongest_rival_de": "Asche als alter Werkstattalias",
+        "substance_head_de": "QK-Pflanzendroge",
+        "working_basis": "IMAGE_PLANT_FRAGMENT"
+      },
+      "s": {
+        "composition_atom_de": "Blatt oder Kraut",
+        "default_de": "Blattdroge",
+        "legacy_house_alias_de": "Salz",
+        "name_role": "LEAF_PART_ATOM",
+        "plant_part_de": "Blatt oder Kraut",
+        "semantic_family": "COMPOSITIONAL_PLANT_PART",
+        "strongest_rival_de": "Salz als alter Werkstattanker",
+        "substance_head_de": "ownerlokale Pflanzendroge",
+        "working_basis": "TWO_PLANT_IMAGES__MULTI_PART_COMPOUNDS"
+      },
+      "sy": {
+        "composition_atom_de": "Bl\u00fctenstand",
+        "default_de": "Bl\u00fctenstand",
+        "legacy_house_alias_de": "Vitriol",
+        "name_role": "INFLORESCENCE_PART_ATOM",
+        "plant_part_de": "Bl\u00fcten- oder Fruchtstand",
+        "semantic_family": "COMPOSITIONAL_PLANT_PART",
+        "strongest_rival_de": "Vitriol als alter Werkstattalias",
+        "substance_head_de": "Y-Krautdroge",
+        "working_basis": "SY_PLUS_Y_COMPOSITION__IMAGE_PLANT_FRAGMENT"
+      },
+      "y": {
+        "composition_atom_de": "Kraut- oder Pflanzenform",
+        "default_de": "Krautdroge",
+        "legacy_house_alias_de": "Wein",
+        "name_role": "AERIAL_PLANT_ATOM",
+        "plant_part_de": "Kraut oder oberirdischer Teil",
+        "semantic_family": "COMPOSITIONAL_PLANT_PART",
+        "strongest_rival_de": "Wein als alter Werkstattanker",
+        "substance_head_de": "ownerlokale Pflanzendroge",
+        "working_basis": "THREE_PLANT_IMAGES__REPEATED_COMPOUNDS"
+      },
+      "yd": {
+        "composition_atom_de": "Bindemittelvorrat",
+        "default_de": "Honigvorrat",
+        "legacy_house_alias_de": "Honig",
+        "name_role": "CONTAINER_CONTENT_HEAD",
+        "plant_part_de": "NONE",
+        "semantic_family": "APOTHECARY_CONTAINER_DEFAULT",
+        "strongest_rival_de": "anderer Arzneivorrat im Gef\u00e4\u00df",
+        "substance_head_de": "Honig",
+        "working_basis": "IMAGE_CONTAINER__LEGACY_ALIAS_RETAINED"
+      },
+      "yko": {
+        "composition_atom_de": "Gef\u00e4\u00dfvorrat",
+        "default_de": "Arzneivorrat",
+        "legacy_house_alias_de": "Alaun",
+        "name_role": "CONTAINER_CONTENT_HEAD",
+        "plant_part_de": "NONE",
+        "semantic_family": "APOTHECARY_CONTAINER_DEFAULT",
+        "strongest_rival_de": "Alaunvorrat",
+        "substance_head_de": "Alaun oder anderer Arzneivorrat",
+        "working_basis": "IMAGE_CONTAINER__LEGACY_ALIAS_RETAINED_AS_CANDIDATE"
+      },
+      "yor": {
+        "composition_atom_de": "Rinden- oder Trockenvorrat",
+        "default_de": "Trockendroge",
+        "legacy_house_alias_de": "Zimtrinde",
+        "name_role": "CONTAINER_OR_DRUG_HEAD",
+        "plant_part_de": "Rinde m\u00f6glich",
+        "semantic_family": "APOTHECARY_BOUNDARY_DEFAULT",
+        "strongest_rival_de": "Zimtrinde",
+        "substance_head_de": "YOR-Trockendroge",
+        "working_basis": "TWO_LINE_BOUNDARY_LABEL__LEGACY_ALIAS_RETAINED_AS_CANDIDATE"
+      },
+      "yt": {
+        "composition_atom_de": "Blatt",
+        "default_de": "Blattdroge",
+        "legacy_house_alias_de": "Salbeiblatt",
+        "name_role": "LEAF_PART_ATOM",
+        "plant_part_de": "Blatt",
+        "semantic_family": "COMPOSITIONAL_PLANT_PART",
+        "strongest_rival_de": "Salbeiblatt",
+        "substance_head_de": "EM-Pflanzendroge",
+        "working_basis": "YT_PLUS_EM_PART_OF_COMPOSITION__IMAGE_PLANT_FRAGMENT"
+      }
+    },
+    "family_reconciliations": [
+      {
+        "decision": "ONE_VISIBLE_ROOT_DRUG_FAMILY_WITH_STOCK_AND_VARIANT",
+        "family_id": "GDT585-F01",
+        "lead_kind": "FORMAL_FAMILY",
+        "member_raw_cores": "or|ora",
+        "new_defaults_de": "helle Wurzeldroge|mehrfingrige Bl\u00fctenwurzel",
+        "old_defaults_de": "Oliven\u00f6l|Eiwei\u00df",
+        "prediction_de": "Weitere OTORA-Mitglieder sollten Wurzelmaterial oder dessen Vorrat benennen.",
+        "reason_de": "OR wiederholt sich an Gef\u00e4\u00df und heller Wurzel; ORA sitzt an einer mehrfingrigen Bl\u00fctenwurzel. Die exakte OTORA-Serie bleibt damit botanisch zusammen.",
+        "source_surfaces": "otoram|otora|otorain",
+        "surface_family": "otora"
+      },
+      {
+        "decision": "ONE_VISIBLE_FIBRE_ROOT_FAMILY",
+        "family_id": "GDT585-F02",
+        "lead_kind": "FORMAL_FAMILY",
+        "member_raw_cores": "cheo|cheosdy",
+        "new_defaults_de": "dunkle Faserwurzeldroge|geb\u00e4nderte Faserwurzel der CHEO-Familie",
+        "old_defaults_de": "Essig|Eigelb",
+        "prediction_de": "Weitere CHEO-Mitglieder sollten Faserwurzelvarianten oder deren Vorrat tragen.",
+        "reason_de": "Beide Namenskerne stehen an sichtbaren Wurzelfragmenten und teilen CHEO; Essig und Eigelb werden als alte Werkstattaliase bewahrt, aber nicht mehr prim\u00e4r.",
+        "source_surfaces": "cheocthy|cheody|cheosdy|opcheor",
+        "surface_family": "cheo"
+      },
+      {
+        "decision": "VISIBLE_FIBRE_OR_FINGER_ROOT_SERIES",
+        "family_id": "GDT585-F03",
+        "lead_kind": "FORMAL_FAMILY",
+        "member_raw_cores": "cho|opchos|opchor|dchos",
+        "new_defaults_de": "zweifarbige Langwurzel|lange Faserwurzel|haarige Faserwurzel|rote Fingerwurzel",
+        "old_defaults_de": "Schwefel|Gummi arabicum|Safranbl\u00fcte|Ingwerwurzel",
+        "prediction_de": "CHOS/CHOR in neuen Namensslots sollte bevorzugt an faserigen Wurzelteilen stehen.",
+        "reason_de": "Die formal verwandten CHOS/CHOR-Kerne stehen s\u00e4mtlich an langen, haarigen oder fingerartigen Wurzelformen; OP und D bleiben m\u00f6gliche Unterserienmarker.",
+        "source_surfaces": "ararchodaiin|opchosam|opchoroiin|okshdchos",
+        "surface_family": "chos_or_chor"
+      },
+      {
+        "decision": "WHOLE_CORE_MINIMAL_PAIR_CONTRAST__NO_D_PLUS_Y_SEGMENTATION_CLAIM",
+        "family_id": "GDT585-F04",
+        "lead_kind": "COMPOSITION_HYPOTHESIS",
+        "member_raw_cores": "d|dy",
+        "new_defaults_de": "Wurzeldroge|bl\u00fchende Wurzeldroge",
+        "old_defaults_de": "Wasser|Kalk",
+        "prediction_de": "Weitere D/DY-Ganzkernpaare sollten Wurzel- und bl\u00fchende Pflanzenform kontrastieren.",
+        "reason_de": "Das minimale Schalenpaar OTOLD/OTOLDY trennt den Ganzkern D von einer sichtbar bl\u00fchenden DY-Form; DY wird dabei nicht automatisch als D+Y segmentiert.",
+        "source_surfaces": "otold|otoldy",
+        "surface_family": "otold_minimal_pair"
+      },
+      {
+        "decision": "OCCURRENCE_LEVEL_PLANT_PART_MICROPACKAGES__NO_STRING_SEGMENTATION",
+        "family_id": "GDT585-F05",
+        "lead_kind": "COMPOSITION_HYPOTHESIS",
+        "member_raw_cores": "d|da|s|sy|y|oiin|e|yt|em",
+        "new_defaults_de": "Wurzel-von-Pflanze|Blatt-und-Wurzel|Bl\u00fctenstand-von-Kraut|Blatt-Wurzelstock-Pflanze|Blatt-von-Pflanze",
+        "old_defaults_de": "Wasser+Mehl|Salz+Wasser|Vitriol+Wein|Salz+Myrrhe+Weihrauch|Salbei+Raute",
+        "prediction_de": "Neue Mehrkernlabels an Pflanzenfragmenten sollten wieder Organ und Mutterpflanze koppeln.",
+        "reason_de": "Die Mehrkernlabels sitzen jeweils an einem Pflanzenfragment. Technische H\u00fcllen bleiben erhalten, w\u00e4hrend die gelernten Kerne als Organ plus Pflanzenreferent komponieren.",
+        "source_surfaces": "dararda|saldam|sydarary|saloiinsheol|ytarem",
+        "surface_family": "part_of_plant_packages"
+      }
+    ],
+    "historical_sources": [
+      {
+        "date": "first quarter of the 15th century",
+        "does_not_support": "no Voynich name or ingredient identity",
+        "manuscript": "MS.5262",
+        "model_use": "supports recipe/catalogue coexistence and learned ingredient lists",
+        "observed_practice": "129-item medical recipe collection with compound herbal remedies",
+        "region": "Worcestershire, England",
+        "repository": "Wellcome Collection",
+        "source_id": "GDT585-H01",
+        "url": "https://wellcomecollection.org/works/nuckbt25"
+      },
+      {
+        "date": "mid 15th century",
+        "does_not_support": "no mapping to cheo, or, ora or ody",
+        "manuscript": "MS.683",
+        "model_use": "supports vinegar/oil/wax as one plausible workshop palette",
+        "observed_practice": "recipes explicitly combine strong vinegar, medicinal oil and wax in preparations",
+        "region": "north-east Italy",
+        "repository": "Wellcome Collection",
+        "source_id": "GDT585-H02",
+        "url": "https://wellcomecollection.org/works/w6ne7k4t"
+      },
+      {
+        "date": "early 15th century",
+        "does_not_support": "no Voynich family identification",
+        "manuscript": "MS.140",
+        "model_use": "supports separate liquid, oil and mineral families in a technical codebook",
+        "observed_practice": "compilation treats medicinal waters, oils and salts beside technical operations",
+        "region": "Italy",
+        "repository": "Wellcome Collection",
+        "source_id": "GDT585-H03",
+        "url": "https://wellcomecollection.org/works/actgjagb"
+      },
+      {
+        "date": "1462",
+        "does_not_support": "no mapping to yt, e, oiin or another Voynich core",
+        "manuscript": "MS.117",
+        "model_use": "supports explicit plant-part and resin/aromatic catalogue heads",
+        "observed_practice": "recipe inventory names sage leaves, incense and mastic as concrete materia",
+        "region": "Italy",
+        "repository": "Wellcome Collection",
+        "source_id": "GDT585-H04",
+        "url": "https://wellcomecollection.org/works/abjb4cfh"
+      },
+      {
+        "date": "mid 15th century",
+        "does_not_support": "no Voynich plaintext or plant identity",
+        "manuscript": "MS.418",
+        "model_use": "supports a learned plant name inside a reusable preparation frame",
+        "observed_practice": "indexed recipes for medicinal waters made from plants",
+        "region": "France",
+        "repository": "Wellcome Collection",
+        "source_id": "GDT585-H05",
+        "url": "https://wellcomecollection.org/works/f6nzyzh4"
+      },
+      {
+        "date": "about 1440",
+        "does_not_support": "no identity for eeeon, oiil or a pharmaceutical core",
+        "manuscript": "Sloane MS 4016",
+        "model_use": "supports learned whole names and alternate names beside one pictured plant",
+        "observed_practice": "illustrated herbal with learned plant captions and synonym-like naming",
+        "region": "northern Italy",
+        "repository": "British Library",
+        "source_id": "GDT585-H06",
+        "url": "https://searcharchives.bl.uk/catalog/040-002116409"
+      },
+      {
+        "date": "early 15th century",
+        "does_not_support": "no specific Voynich plant or root identification",
+        "manuscript": "MS.574",
+        "model_use": "supports plant-image labels as plant or plant-part nomenclature",
+        "observed_practice": "illustrated herbal organized around pictured medicinal plants",
+        "region": "northern Italy",
+        "repository": "Wellcome Collection",
+        "source_id": "GDT585-H07",
+        "url": "https://wellcomecollection.org/works/yuykkdvs"
+      },
+      {
+        "date": "about 1420",
+        "does_not_support": "no equation of a Voynich ring core with a calendar field",
+        "manuscript": "Royal MS 17 A XVI",
+        "model_use": "supports short reusable ring values beside longer learned figure values",
+        "observed_practice": "calendar layout combines positions, pictorial entries and repeating short values",
+        "region": "England",
+        "repository": "British Library",
+        "source_id": "GDT585-H08",
+        "url": "https://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Royal_MS_17_A_XVI"
+      },
+      {
+        "date": "1408",
+        "does_not_support": "no recovered Voynich calendar, star name or date",
+        "manuscript": "Add MS 46143",
+        "model_use": "supports separating a ring value from the position supplied by panel and locus",
+        "observed_practice": "calendar entries reuse compact values inside a position-bearing page structure",
+        "region": "western Europe",
+        "repository": "British Library",
+        "source_id": "GDT585-H09",
+        "url": "https://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Add_MS_46143"
+      },
+      {
+        "date": "15th century manuscript; modern digital surrogate",
+        "does_not_support": "no species or substance identification by image alone",
+        "manuscript": "Beinecke MS 408 official scan",
+        "model_use": "anchors the primary image-conditioned name roles used in this atlas",
+        "observed_practice": "f88v and f89r visibly juxtapose containers and many detached plant fragments",
+        "region": "Beinecke Library",
+        "repository": "Yale University Library",
+        "source_id": "GDT585-H10",
+        "url": "https://collections.library.yale.edu/catalog/2002046?child_oid=1006233"
+      }
+    ],
+    "local_x_types": {
+      "RUNNING:G515-E0410@2": {
+        "composition_atom_de": "Beschwerdestichwort",
+        "default_de": "Beschwerde",
+        "legacy_house_alias_de": "Krankheit oder Beschwerde",
+        "name_role": "OWNER_BOUND_INDICATION",
+        "semantic_family": "INDICATION_OR_ILLNESS",
+        "strongest_rival_de": "Indikation oder Krankheit",
+        "working_basis": "OWNER_LOCAL_F66R_TEXT_BLOCK_02"
+      },
+      "RUNNING:G515-E0438@2": {
+        "composition_atom_de": "Heilmittelstichwort",
+        "default_de": "Heilmittel",
+        "legacy_house_alias_de": "Heilmittel oder Heilwirkung",
+        "name_role": "OWNER_BOUND_REMEDY",
+        "semantic_family": "REMEDY_OR_HEALING",
+        "strongest_rival_de": "Heilwirkung",
+        "working_basis": "OWNER_LOCAL_F66R_TEXT_BLOCK_03"
+      }
+    },
+    "plant_types": {
+      "eeeon": {
+        "composition_atom_de": "rechte Bl\u00fctenform B",
+        "default_de": "rechte Bl\u00fctenform",
+        "legacy_house_alias_de": "ganze bl\u00fchende Heilpflanze",
+        "name_role": "OT_MARKED_RIGHT_FLOWER_FORM",
+        "semantic_family": "ONE_PICTURED_PLANT_TWO_FLOWER_FORMS",
+        "strongest_rival_de": "weiterer Pflanzenname oder Beiname derselben Art",
+        "working_basis": "ONE_ROOT_ONE_STEM__LABEL_NEXT_TO_RIGHT_SIDE_FLOWER"
+      },
+      "oiil": {
+        "composition_atom_de": "linke Bl\u00fctenform A",
+        "default_de": "linke Bl\u00fctenform",
+        "legacy_house_alias_de": "ganze Heilpflanze B",
+        "name_role": "PLAIN_LEFT_FLOWER_FORM",
+        "semantic_family": "ONE_PICTURED_PLANT_TWO_FLOWER_FORMS",
+        "strongest_rival_de": "Hauptname derselben Pflanze",
+        "working_basis": "ONE_ROOT_ONE_STEM__LABEL_NEXT_TO_LEFT_SIDE_FLOWER"
+      }
+    }
+  },
+  "output_sha256": {
+    "audit": "0155bb86deff87d4acbec6fb840ac06cf74b21e4a6464261da2c52d47961c8d5",
+    "book": "ac72a077eda7801ae708aed84729669485d269bebe22c769973c0d2372313651",
+    "compounds": "15add3fa23dd9040b6621f1ba3d48bfeadc1377b9a3c7af19e2ff6fdc504de51",
+    "families": "709dbc819d46c5d784e0a02b1487f7cd7000b081dacdd620162b88d60ff24bc8",
+    "history": "12f7010722716bf35fc5f56c00cd25558b6ea24db1589a5e8c829423c9b8baf8",
+    "images": "b03cefdef2438c5cd0045ed2923e3ee961b4c5b231273b9140ea5b4daf9faed1",
+    "labels": "cc5903797c29f374faa6a3cb3e3faeb0b13f75660d957dac65a5f097fabc69c0",
+    "local_x": "6fc091aaea68a15ee861b205e33c312ce569a87892402e89f3664bb685f742fa",
+    "slots": "49cc77388e5af0b7fc35cdce858716d353cc8833d9153ac4d8946d5a82ac4ffe",
+    "types": "99357346b8bba82b6ae80c9c585a577e7c8c703294bd687c02c59cec67dd43ac"
+  },
+  "primary_shifts": {
+    "chos_or_chor": "Faser- oder Fingerwurzelfamilie",
+    "d": "Wurzeldroge",
+    "or": "helle Wurzeldroge",
+    "s": "Blattdroge",
+    "y": "Krautdroge"
+  },
+  "source_sha256": {
+    "model": "018d6a1831395c98e9d6077ec4ef1a26eb14a6201c60bb9c6bf6eab933de6c63",
+    "run": "753e12c7c022d89dcd89bdd5a28c9d021e82a83c0031654cf9cbf110c667f587"
+  },
+  "star_repeat_profile": {
+    "repeated_slots": 27,
+    "repeated_types": 10,
+    "singleton_slots": 33,
+    "singleton_types": 33,
+    "type_role_profiles": {
+      "repeated_both": 3,
+      "repeated_first": 7,
+      "singleton_first": 30,
+      "singleton_later": 3
+    }
+  },
+  "status": "PASS_80_CLASS_CORE_TYPES__109_OWNER_CONTENT_SLOTS__89_NAME_LABELS__18_CANONICAL_GROUPS_PLUS_1_VISUAL_CONTEXT_PAIR"
+}

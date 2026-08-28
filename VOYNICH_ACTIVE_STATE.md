@@ -14124,3 +14124,46 @@ next closed-page route is the80 learned class×name types across109 owner-bound
 name slots:consolidate repeated substance/plant-part defaults and inspect
 possible compounds while keeping every function shell,owner and page fixed.
 Open no new page/parser/root or portable verb meaning.
+
+## GDT585 rebuilds the learned-name deck from images and compositions
+
+The closed-page name audit is complete. All107 fixed GDT581 name spans plus
+the two owner-local `LOCAL_X` contents now have one primary default,an explicit
+old GDT582 house alias and a strongest rival. The80 class×core types remain
+class-keyed:43 ring/figure values,29 Pharma names,6 bath/connection names and2
+f17r plant names occupy89 name-bearing events. Eight raw strings collide across
+classes and therefore never share a dictionary key.
+
+Manual review reused only the four already admitted GDT459 Yale surrogates.
+Among38 Pharma slots,29 sit on visible plant fragments,7 on six container
+labels and2 on a two-line container/fragment boundary. This makes the current
+primary composition atoms `d=Wurzeldroge`,`y=Krautdroge`,`s=Blattdroge` and
+`or=helle Wurzeldroge`; CHO/CHOS/CHOR is a long/fibre/finger-root family.
+GDT582's water,wine,salt,oil and all other concrete substance aliases remain
+published in the rival channel rather than being discarded. The six f77r
+values now follow the visible left-to-right itinerary—end figure,feed or
+connection heads,drip/spray heads and right end connection—without unseen
+warm/cool/basin properties. The two f17r forms are left and right flower forms
+of one pictured plant; main-name+byname remains the strongest alternative.
+
+The old43 numbered star positions were first-occurrence ordinals,not predicted
+meanings. GDT585 replaces them with10 recurring short ring/calendar values
+covering27 slots and33 learned singleton figure/star values;panel,ring,locus and
+occurrence role carry position. Three formal families(OTORA,CHEO,CHO(S/R)) and
+two explicit occurrence-level composition leads are published. Every longer
+core also carries a segmentation status:contained strings in `dy`,`ody`,
+`dordy`,`yor`,`opor` or `opchor` are not automatically portable stems.
+
+There are18 canonical paired/grouped readings:8 celestial,2 bath,7 Pharma and
+the same-object f17r bundle. Their GDT474/GDT476 grammar remains primary—11
+catalogue and7 instruction readings—while organ-of-plant or figure+attribute
+is a separate creative hypothesis. One additional `dchos/yor` two-line visual
+boundary pair is explicitly marked noncanonical. The two `LOCAL_X` owners keep
+`Beschwerde` and `Heilmittel` as separate local defaults. Independent
+validation passes45/45,including exact source projections,the six GDT476 model
+changes,the29/7/2 image census,all image hashes and zero forbidden pages.
+
+Use GDT585 as the replaceable name layer above GDT584. Next inject all109
+defaults into one complete793-statement reader while retaining legacy rivals
+and the primary grammar;then re-read the19 group contexts on the same pages.
+Open no new page,root or automatic substring parser.
