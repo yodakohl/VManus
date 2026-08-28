@@ -14047,3 +14047,35 @@ Use GDT582 as the new exploratory default basis on the same thirty pages. Next
 improve the80 learned class×name types and then add only passage-coherent
 object×grade/owner subreadings for CHD,T,SH and S. There is no held-out
 new-surface parser or new-page transfer result;open no new page yet.
+
+## GDT583 gives CHD/T/SH/S occurrence-bound concrete verb voices
+
+The four broad GDT582 action classes now have a complete second layer without
+changing their portable cores. All1,921 fixed action slots—T384,SH794,CHD341
+andS402—receive exactly1 of29 ordered context rules. Each decision uses only
+its fixed GDT581 direct governor,complete governor host (including an already
+licensed remote argument),register/owner class and immediate same-card action
+neighbors. No surface,slot,root,event or page is added.
+
+The strongest new directional split is sequence-based rather than grade-based:
+Herbal/Pharma T→SH gives10 warm-before-steep readings;physical SH→T gives12
+cool-after-hold readings;and the three f95v Herbal/Pharma T→CHD cases receive a
+bold local dry-before-grind voice. Grade alone yields only temper-to-grade.
+Thus G407-E3036 remains grade-tempering and G407-E0297 form/stage setting,
+while G407-E4496 warms,G407-E1758 cools and G407-E4476 dries.
+
+Complete argument hosts add34 S+AIIN strain,16 S portion/form sieve,15 S+Y
+separate,44 Biological S+relation divert,17 SH+AIIN steep,40 SH
+material+grade/form soak,254 pictured-Biological SH bad/station-hold and23 dry
+Herbal/Pharma CHD grind voices. The12 observed GDT507 CH→SH shared-argument
+bridges override imagery and remain hold;the lone Biological S→CHD carrier
+remains select then treat. Broad fallbacks remain visible for101 physical T,
+272 SH,162 S and39 CHD cases.
+
+The compiler rebuilds1,623 affected running events,158 local cards and591
+statements with every slot/governor/rule in the exact trace. A separate reader
+channel smooths the fixed20 passages,four per register. Independent validation
+rederives all1,921 first-match decisions and passes25/25. Use GDT583 above the
+unchanged GDT582 dictionary:the fine verbs are replaceable occurrence voices,
+not manuscript lexemes. Next scan only the591 affected statements for bad
+collocations,then refine the80 learned names;open no new page/parser/root.
