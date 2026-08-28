@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **588**
-- Experiment-associated tracked files: **8,849** (976.4 MiB)
-- Structured GDT337+ experiments: **253**
+- Experiments indexed: **589**
+- Experiment-associated tracked files: **8,868** (981.4 MiB)
+- Structured GDT337+ experiments: **254**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT590 | GDT590_focused_bath_body_station_adjudication | `PASS_FOUR_BATH_FORKS_BODY_DEFAULT__52_OF_92_CLEAN_BODY__40_BLOCKED_STATION__FOUR_READER_PATCHES` | [report](../experiments/yolo/gdt590_focused_bath_body_station_adjudication/REPORT.md) | 19 | 4.9 MiB | 4 | STRUCTURED_YOLO |
 | GDT589 | GDT589_full_host_carrier_intake_replay | `PASS_953_COMPLETE_HOST_REPLAY__910_AUTO_EXACT__41_MANUAL_VISIBLE__2_SOURCE_FALLTHROUGH_EXACT__117_REPEAT_HOST_OVERLAY` | [report](../experiments/yolo/gdt589_full_host_carrier_intake_replay/REPORT.md) | 24 | 6.9 MiB | 5 | STRUCTURED_YOLO |
 | GDT588 | GDT588_carrier_transfer_readiness_deck | `PASS_1243_SELECTION_MOBILITY__970_EXACT__146_SAME_CELL__121_REGISTER_ROOT__6_PAGE_PRIVATE__74_SPECIAL_PACKET_HOSTS__13_MULTIPLICITY_REPAIRS` | [report](../experiments/yolo/gdt588_carrier_transfer_readiness_deck/REPORT.md) | 28 | 5.5 MiB | 6 | STRUCTURED_YOLO |
 | GDT587 | GDT587_action_conditioned_carrier_nouns | `PASS_1243_ACTION_CONDITIONED_CARRIERS__953_EXACT_ACTION_HOSTS__136_OBSERVED_ACTION_ROOT_CELLS__793_STATEMENTS__744_LOCAL_CARDS__ZERO_GLOBAL_ROOT_CHANGE` | [report](../experiments/yolo/gdt587_action_conditioned_carrier_nouns/REPORT.md) | 21 | 8.7 MiB | 7 | STRUCTURED_YOLO |
