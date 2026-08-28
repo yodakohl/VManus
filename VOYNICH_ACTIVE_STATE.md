@@ -13979,3 +13979,34 @@ audit pass. Use GDT580 as the current readable edition. Next run one bounded
 grammar-to-content boundary audit:each future content carrier must have one
 audible host before any concrete substance,plant part,process or ailment is
 inserted. Open no page and add no root.
+
+## GDT581 fixes the grammar-to-content boundary before semantic filling
+
+The current thirty-page edition now has one explicit primary host for every
+written running occurrence, every local component and every delimited name
+span. Its 15,889 slots split disjointly into 13,702 open content carriers and
+2,187 control-only slots. The 4,026 inherited action/object values remain
+aliases to written or owner sources and do not create phantom dictionary
+positions. The local layer stays separate at 744 cards,1,973 components and107
+owner-bound name spans.
+
+All5,672 focus occurrences were replayed against the final GDT580 recipes.
+Eight visible reconciliations suffice:four position moves,two selector-forced
+head switches,one stale L deletion and one AIIN insertion. A separate audible
+head audit repairs269 focus links in232 events. Of these,228 speak an exact
+action/owner head and41 grades correctly speak their GDT558 control envelope.
+The25 remote AL/AR slots divide into23 repaired cases and the two already
+explicit G515-E0379 prior-T slots. The three hard cases E0385,E3963 and E0523
+retain occurrence-specific heads rather than collapsing identical root names.
+
+Every repaired event names all its written action,focus,modifier and control
+slots;zero of the514 written running slots inside those events disappears.
+All5,122 events and793 statements reconstruct GDT580 exactly. The independent
+validator passes68/68 source-based checks and the separate manual voice audit
+passes all269 repairs.
+
+Use GDT581 as the fixed host atlas for the next content pass. Concrete working
+defaults may be inserted only into the13,702 open carriers;start with
+high-frequency ACTION/OBJECT candidates and demand compositional reuse across
+their existing host frames before minting another stem. The German voice is
+still editorial structure,not a confirmed translation. Open no new page.

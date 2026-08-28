@@ -1,0 +1,762 @@
+{
+  "check_count": 68,
+  "checks": [
+    {
+      "check_id": "V001_INPUT_CARDINALITIES",
+      "expected": {
+        "gdt407_attachments": 5051,
+        "gdt416_clauses": 4576,
+        "gdt416_inherited_actions": 1598,
+        "gdt416_inherited_arguments": 2096,
+        "gdt471_name_templates": 89,
+        "gdt472_complete_templates": 107,
+        "gdt479_local_events": 183,
+        "gdt513_local_events": 510,
+        "gdt515_attachments": 621,
+        "gdt515_local_51": 51,
+        "gdt515_local_cards": 744,
+        "gdt515_old_events": 5122,
+        "gdt539_context_events": 546,
+        "gdt558_grade_assignments": 333,
+        "gdt558_grade_hazards": 18,
+        "gdt567_voice_cards": 39,
+        "gdt568_action_cells": 45,
+        "gdt577_repeat_slots": 125,
+        "gdt579_scope_slots": 34,
+        "gdt580_events": 5122,
+        "gdt580_pages": 30,
+        "gdt580_slots": 6,
+        "gdt580_statements": 793
+      },
+      "observed": {
+        "gdt407_attachments": 5051,
+        "gdt416_clauses": 4576,
+        "gdt416_inherited_actions": 1598,
+        "gdt416_inherited_arguments": 2096,
+        "gdt471_name_templates": 89,
+        "gdt472_complete_templates": 107,
+        "gdt479_local_events": 183,
+        "gdt513_local_events": 510,
+        "gdt515_attachments": 621,
+        "gdt515_local_51": 51,
+        "gdt515_local_cards": 744,
+        "gdt515_old_events": 5122,
+        "gdt539_context_events": 546,
+        "gdt558_grade_assignments": 333,
+        "gdt558_grade_hazards": 18,
+        "gdt567_voice_cards": 39,
+        "gdt568_action_cells": 45,
+        "gdt577_repeat_slots": 125,
+        "gdt579_scope_slots": 34,
+        "gdt580_events": 5122,
+        "gdt580_pages": 30,
+        "gdt580_slots": 6,
+        "gdt580_statements": 793
+      },
+      "status": "PASS"
+    },
+    {
+      "check_id": "V002_SEALED_F84_ABSENT",
+      "expected": [],
+      "observed": [],
+      "status": "PASS"
+    },
+    {
+      "check_id": "V003_RUNNING_SLOT_SOURCE_TOTAL",
+      "expected": 13809,
+      "observed": 13809,
+      "status": "PASS"
+    },
+    {
+      "check_id": "V004_RUNNING_SLOT_SOURCE_BALANCE",
+      "expected": {
+        "CONTENT_CARRIER": 11938,
+        "CONTROL_HOST_ONLY": 1871
+      },
+      "observed": {
+        "CONTENT_CARRIER": 11938,
+        "CONTROL_HOST_ONLY": 1871
+      },
+      "status": "PASS"
+    },
+    {
+      "check_id": "V005_LOCAL_CARD_SOURCE_PARTITION",
+      "expected": 744,
+      "observed": 744,
+      "status": "PASS"
+    },
+    {
+      "check_id": "V006_LOCAL_PARTITION_COUNTS",
+      "expected": {
+        "GDT479_MICRORECORD_183": 183,
+        "GDT513_REMAINDER_510": 510,
+        "GDT515_NEW_LOCAL_51": 51
+      },
+      "observed": {
+        "GDT479_MICRORECORD_183": 183,
+        "GDT513_REMAINDER_510": 510,
+        "GDT515_NEW_LOCAL_51": 51
+      },
+      "status": "PASS"
+    },
+    {
+      "check_id": "V007_LOCAL_COMPONENT_SOURCE_TOTAL",
+      "expected": 1973,
+      "observed": 1973,
+      "status": "PASS"
+    },
+    {
+      "check_id": "V008_LOCAL_COMPONENT_SOURCE_BALANCE",
+      "expected": {
+        "CONTENT_CARRIER": 1657,
+        "CONTROL_HOST_ONLY": 316
+      },
+      "observed": {
+        "CONTENT_CARRIER": 1657,
+        "CONTROL_HOST_ONLY": 316
+      },
+      "status": "PASS"
+    },
+    {
+      "check_id": "V009_NAME_SLOT_SOURCE_TOTAL",
+      "expected": 107,
+      "observed": 107,
+      "status": "PASS"
+    },
+    {
+      "check_id": "V010_NAME_SLOT_CLASS_COUNTS",
+      "expected": {
+        "BATH_OR_OUTLET_STATION": 7,
+        "DRUG_OR_INGREDIENT_OBJECT": 38,
+        "PICTURED_PLANT": 2,
+        "STAR_BEARING_RING_POSITION": 60
+      },
+      "observed": {
+        "BATH_OR_OUTLET_STATION": 7,
+        "DRUG_OR_INGREDIENT_OBJECT": 38,
+        "PICTURED_PLANT": 2,
+        "STAR_BEARING_RING_POSITION": 60
+      },
+      "status": "PASS"
+    },
+    {
+      "check_id": "V011_NAME_CORE_TYPE_COUNTS",
+      "expected": [
+        72,
+        80
+      ],
+      "observed": [
+        72,
+        80
+      ],
+      "status": "PASS"
+    },
+    {
+      "check_id": "V012_RUNNING_ARTIFACT_EXACT_SOURCE_SLOTS",
+      "expected": 13809,
+      "observed": 13809,
+      "status": "PASS"
+    },
+    {
+      "check_id": "V013_LOCAL_COMPONENT_ARTIFACT_EXACT_SOURCE_SLOTS",
+      "expected": 1973,
+      "observed": 1973,
+      "status": "PASS"
+    },
+    {
+      "check_id": "V014_NAME_ARTIFACT_EXACT_SOURCE_SPANS",
+      "expected": 107,
+      "observed": 107,
+      "status": "PASS"
+    },
+    {
+      "check_id": "V015_LOCAL_CARD_ARTIFACT_EXACT_SOURCE_HOSTS",
+      "expected": 744,
+      "observed": 744,
+      "status": "PASS"
+    },
+    {
+      "check_id": "V016_COMPLETE_SLOT_EXACT_SOURCE_UNIVERSE",
+      "expected": 15889,
+      "observed": 15889,
+      "status": "PASS"
+    },
+    {
+      "check_id": "V017_COMPLETE_SLOT_BALANCE",
+      "expected": {
+        "CONTENT_CARRIER": 13702,
+        "CONTROL_HOST_ONLY": 2187
+      },
+      "observed": {
+        "CONTENT_CARRIER": 13702,
+        "CONTROL_HOST_ONLY": 2187
+      },
+      "status": "PASS"
+    },
+    {
+      "check_id": "V018_CONTENT_CARRIER_PROJECTION",
+      "expected": 13702,
+      "observed": 13702,
+      "status": "PASS"
+    },
+    {
+      "check_id": "V019_CONTROL_HOST_PROJECTION",
+      "expected": 2187,
+      "observed": 2187,
+      "status": "PASS"
+    },
+    {
+      "check_id": "V020_ZERO_UNOWNED_COMPLETE_SLOTS",
+      "expected": [],
+      "observed": [],
+      "status": "PASS"
+    },
+    {
+      "check_id": "V021_FOCUS_SOURCE_DELETE",
+      "expected": [
+        "G515-A00165"
+      ],
+      "observed": [
+        "G515-A00165"
+      ],
+      "status": "PASS"
+    },
+    {
+      "check_id": "V022_FOCUS_SOURCE_COORDINATE_CHANGES",
+      "expected": [
+        "G515-A00245",
+        "G515-A00258",
+        "G515-A00403",
+        "G515-A00404",
+        "G515-A00407",
+        "G515-A00422"
+      ],
+      "observed": [
+        "G515-A00245",
+        "G515-A00258",
+        "G515-A00403",
+        "G515-A00404",
+        "G515-A00407",
+        "G515-A00422"
+      ],
+      "status": "PASS"
+    },
+    {
+      "check_id": "V023_FOCUS_5672_EXACT_SOURCE_RECONCILIATION",
+      "expected": 5672,
+      "observed": 5672,
+      "status": "PASS"
+    },
+    {
+      "check_id": "V024_EVERY_FINAL_FOCUS_POSITION_HOSTED_ONCE",
+      "expected": 5672,
+      "observed": 5672,
+      "status": "PASS"
+    },
+    {
+      "check_id": "V025_EIGHT_FINAL_RECIPE_RECONCILIATIONS",
+      "expected": [
+        "('G515-A00165', 'G515-E0182', 'DELETE_STALE_FOCUS')",
+        "('G515-A00245', 'G515-E0244', 'PURE_OCCURRENCE_POSITION_UPDATE')",
+        "('G515-A00258', 'G515-E0253', 'PURE_OCCURRENCE_POSITION_UPDATE')",
+        "('G515-A00403', 'G515-E0423', 'SELECTOR_FORCED_PRIMARY_HEAD_SWITCH')",
+        "('G515-A00404', 'G515-E0423', 'PURE_OCCURRENCE_POSITION_UPDATE')",
+        "('G515-A00407', 'G515-E0426', 'SELECTOR_FORCED_PRIMARY_HEAD_SWITCH')",
+        "('G515-A00422', 'G515-E0437', 'PURE_OCCURRENCE_POSITION_UPDATE')",
+        "('NONE', 'G515-E0253', 'INSERT_NEW_FINAL_FOCUS')"
+      ],
+      "observed": [
+        "('G515-A00165', 'G515-E0182', 'DELETE_STALE_FOCUS')",
+        "('G515-A00245', 'G515-E0244', 'PURE_OCCURRENCE_POSITION_UPDATE')",
+        "('G515-A00258', 'G515-E0253', 'PURE_OCCURRENCE_POSITION_UPDATE')",
+        "('G515-A00403', 'G515-E0423', 'SELECTOR_FORCED_PRIMARY_HEAD_SWITCH')",
+        "('G515-A00404', 'G515-E0423', 'PURE_OCCURRENCE_POSITION_UPDATE')",
+        "('G515-A00407', 'G515-E0426', 'SELECTOR_FORCED_PRIMARY_HEAD_SWITCH')",
+        "('G515-A00422', 'G515-E0437', 'PURE_OCCURRENCE_POSITION_UPDATE')",
+        "('NONE', 'G515-E0253', 'INSERT_NEW_FINAL_FOCUS')"
+      ],
+      "status": "PASS"
+    },
+    {
+      "check_id": "V026_333_GRADE_SOURCE_COORDINATES",
+      "expected": 333,
+      "observed": 333,
+      "status": "PASS"
+    },
+    {
+      "check_id": "V027_GRADE_HOST_MODE_BALANCE",
+      "expected": {
+        "CONTROL_CARRIED_GRADE_VALUE": 182,
+        "VISIBLE_SAME_BLOCK_ACTION_CHAIN": 151
+      },
+      "observed": {
+        "CONTROL_CARRIED_GRADE_VALUE": 182,
+        "VISIBLE_SAME_BLOCK_ACTION_CHAIN": 151
+      },
+      "status": "PASS"
+    },
+    {
+      "check_id": "V028_GRADE_ARTIFACT_EXACT_SOURCE_COPY",
+      "expected": 333,
+      "observed": 333,
+      "status": "PASS"
+    },
+    {
+      "check_id": "V029_18_HAZARDS_EXACT_SOURCE_COPY",
+      "expected": 18,
+      "observed": 18,
+      "status": "PASS"
+    },
+    {
+      "check_id": "V030_ALL_GRADE_ASSIGNMENTS_JOIN_FOCUS_HOSTS",
+      "expected": 333,
+      "observed": 333,
+      "status": "PASS"
+    },
+    {
+      "check_id": "V031_4026_ALIASES_EXACT_SOURCE_DERIVATION",
+      "expected": 4026,
+      "observed": 4026,
+      "status": "PASS"
+    },
+    {
+      "check_id": "V032_ALIAS_SOURCE_KIND_BALANCE",
+      "expected": {
+        "('ACTION_ALIAS', 'OWNER_DEFAULT')": 264,
+        "('ACTION_ALIAS', 'SAME_STATEMENT_EVENT')": 1477,
+        "('OBJECT_ALIAS', 'OWNER_DEFAULT')": 484,
+        "('OBJECT_ALIAS', 'SAME_STATEMENT_EVENT')": 1801
+      },
+      "observed": {
+        "('ACTION_ALIAS', 'OWNER_DEFAULT')": 264,
+        "('ACTION_ALIAS', 'SAME_STATEMENT_EVENT')": 1477,
+        "('OBJECT_ALIAS', 'OWNER_DEFAULT')": 484,
+        "('OBJECT_ALIAS', 'SAME_STATEMENT_EVENT')": 1801
+      },
+      "status": "PASS"
+    },
+    {
+      "check_id": "V033_1810_NON_GRADE_MODIFIER_POSITIONS",
+      "expected": 1810,
+      "observed": 1810,
+      "status": "PASS"
+    },
+    {
+      "check_id": "V034_SIX_NON_GRADE_SCOPE_HEADS",
+      "expected": {
+        "('G515-E0069', 2)": "ACTION:G515-E0069@1:P",
+        "('G515-E0069', 4)": "ACTION:G515-E0069@5:CH",
+        "('G515-E0385', 1)": "ACTION:G515-E0383@4:R",
+        "('G515-E0385', 3)": "ACTION:G515-E0383@4:R",
+        "('G515-E0472', 2)": "ACTION:G515-E0472@1:T",
+        "('G515-E0472', 5)": "ACTION:G515-E0472@3:SH"
+      },
+      "observed": {
+        "('G515-E0069', 2)": "ACTION:G515-E0069@1:P",
+        "('G515-E0069', 4)": "ACTION:G515-E0069@5:CH",
+        "('G515-E0385', 1)": "ACTION:G515-E0383@4:R",
+        "('G515-E0385', 3)": "ACTION:G515-E0383@4:R",
+        "('G515-E0472', 2)": "ACTION:G515-E0472@1:T",
+        "('G515-E0472', 5)": "ACTION:G515-E0472@3:SH"
+      },
+      "status": "PASS"
+    },
+    {
+      "check_id": "V035_NEGATIVE_LOOKBEHIND_BLOCKS_D_STELLE",
+      "expected": null,
+      "observed": null,
+      "status": "PASS"
+    },
+    {
+      "check_id": "V036_BARE_FUEHRE_OL_CONTROL_GUARD",
+      "expected": [
+        null,
+        [
+          "K",
+          "f\u00fchre"
+        ]
+      ],
+      "observed": [
+        null,
+        [
+          "K",
+          "f\u00fchre"
+        ]
+      ],
+      "status": "PASS"
+    },
+    {
+      "check_id": "V037_269_IMPERATIVE_SELECTOR_ROWS",
+      "expected": 269,
+      "observed": 269,
+      "status": "PASS"
+    },
+    {
+      "check_id": "V038_232_IMPERATIVE_SELECTOR_EVENTS",
+      "expected": 232,
+      "observed": 232,
+      "status": "PASS"
+    },
+    {
+      "check_id": "V039_IMPERATIVE_SELECTOR_GEOMETRY",
+      "expected": {
+        "BOUNDED_NEXT_CARD_ACTION": 98,
+        "INHERITED_ACTION": 19,
+        "OWNER_ONLY": 128,
+        "PREVIOUS_CARD_ACTION": 24
+      },
+      "observed": {
+        "BOUNDED_NEXT_CARD_ACTION": 98,
+        "INHERITED_ACTION": 19,
+        "OWNER_ONLY": 128,
+        "PREVIOUS_CARD_ACTION": 24
+      },
+      "status": "PASS"
+    },
+    {
+      "check_id": "V040_IMPERATIVE_SELECTOR_SOURCE_BALANCE",
+      "expected": {
+        "G407": 261,
+        "G515": 8
+      },
+      "observed": {
+        "G407": 261,
+        "G515": 8
+      },
+      "status": "PASS"
+    },
+    {
+      "check_id": "V041_PHYSICAL_SELECTOR_VS_EFFECTIVE_VOICE_HEADS",
+      "expected": true,
+      "observed": true,
+      "status": "PASS"
+    },
+    {
+      "check_id": "V042_41_GRADE_CONTROL_VOICE_REPAIRS",
+      "expected": {
+        "EXPLICIT_PRIMARY_HEAD_BLOCK": 228,
+        "GRADE_CONTROL_ENVELOPE_BEATS_EVENT_WIDE_ACTION": 41
+      },
+      "observed": {
+        "EXPLICIT_PRIMARY_HEAD_BLOCK": 228,
+        "GRADE_CONTROL_ENVELOPE_BEATS_EVENT_WIDE_ACTION": 41
+      },
+      "status": "PASS"
+    },
+    {
+      "check_id": "V043_TWO_E0379_SAFE_EXCEPTIONS",
+      "expected": [
+        "('G515-A00356', 'G515-E0379', 'G515-E0378@3:T')",
+        "('G515-A00357', 'G515-E0379', 'G515-E0378@3:T')"
+      ],
+      "observed": [
+        "('G515-A00356', 'G515-E0379', 'G515-E0378@3:T')",
+        "('G515-A00357', 'G515-E0379', 'G515-E0378@3:T')"
+      ],
+      "status": "PASS"
+    },
+    {
+      "check_id": "V044_E0379_SAFE_IDS_NOT_REPAIRED",
+      "expected": [],
+      "observed": [],
+      "status": "PASS"
+    },
+    {
+      "check_id": "V045_E0385_AUDIBLE_ROOT_IS_R_NOT_D_STELLE_T",
+      "expected": [
+        "R",
+        "kennzeichne"
+      ],
+      "observed": [
+        "R",
+        "kennzeichne"
+      ],
+      "status": "PASS"
+    },
+    {
+      "check_id": "V046_E3963_SAME_ROOT_OCCURRENCE_FORCED",
+      "expected": [
+        "SAME_ROOT_DIFFERENT_ACTION_OCCURRENCE",
+        "G407-E3962@4:CH",
+        "CH"
+      ],
+      "observed": [
+        "SAME_ROOT_DIFFERENT_ACTION_OCCURRENCE",
+        "G407-E3962@4:CH",
+        "CH"
+      ],
+      "status": "PASS"
+    },
+    {
+      "check_id": "V047_25_CROSS_CARD_RELATION_IDENTITIES",
+      "expected": 25,
+      "observed": 25,
+      "status": "PASS"
+    },
+    {
+      "check_id": "V048_CROSS_CARD_RELATION_DISPOSITION_23_PLUS_2",
+      "expected": {
+        "EXPLICIT_HEAD_BLOCK_REPAIR": 23,
+        "SAFE_ALREADY_EXPLICIT_GDT580": 2
+      },
+      "observed": {
+        "EXPLICIT_HEAD_BLOCK_REPAIR": 23,
+        "SAFE_ALREADY_EXPLICIT_GDT580": 2
+      },
+      "status": "PASS"
+    },
+    {
+      "check_id": "V049_E3963_CROSS_RELATION_OCCURRENCE_FLAG",
+      "expected": [
+        "YES",
+        "G407-E3962",
+        "4"
+      ],
+      "observed": [
+        "YES",
+        "G407-E3962",
+        "4"
+      ],
+      "status": "PASS"
+    },
+    {
+      "check_id": "V050_232_EVENT_REPAIR_IDENTITIES",
+      "expected": 232,
+      "observed": 232,
+      "status": "PASS"
+    },
+    {
+      "check_id": "V051_REPAIRED_EVENT_FULL_LINK_TOTALS",
+      "expected": [
+        292,
+        62
+      ],
+      "observed": [
+        292,
+        62
+      ],
+      "status": "PASS"
+    },
+    {
+      "check_id": "V052_ALL_292_FOCUS_AND_62_MODIFIER_LINKS_ONCE",
+      "expected": [
+        292,
+        62,
+        true,
+        true
+      ],
+      "observed": [
+        292,
+        62,
+        true,
+        true
+      ],
+      "status": "PASS"
+    },
+    {
+      "check_id": "V053_EVENT_REPAIR_CLASS_PROJECTIONS",
+      "expected": true,
+      "observed": true,
+      "status": "PASS"
+    },
+    {
+      "check_id": "V054_EVENT_REPAIR_GDT580_BACKCHANNELS",
+      "expected": true,
+      "observed": true,
+      "status": "PASS"
+    },
+    {
+      "check_id": "V055_E0385_EXPLICIT_R_OK_R_ORDER",
+      "expected": "R\u2192OK\u2192R",
+      "observed": "R\u2192OK\u2192R",
+      "status": "PASS"
+    },
+    {
+      "check_id": "V056_E3963_PREVIOUS_VS_LOCAL_CH_OCCURRENCES",
+      "expected": true,
+      "observed": true,
+      "status": "PASS"
+    },
+    {
+      "check_id": "V057_ALL_269_SELECTED_BLOCKS_EXACTLY_EMBEDDED",
+      "expected": true,
+      "observed": true,
+      "status": "PASS"
+    },
+    {
+      "check_id": "V058_5122_EVENT_IDENTITIES",
+      "expected": 5122,
+      "observed": 5122,
+      "status": "PASS"
+    },
+    {
+      "check_id": "V059_5122_EXACT_GDT580_EVENT_ROUNDTRIPS",
+      "expected": 5122,
+      "observed": 5122,
+      "status": "PASS"
+    },
+    {
+      "check_id": "V060_EVENT_TARGET_REPAIR_PARTITION",
+      "expected": true,
+      "observed": true,
+      "status": "PASS"
+    },
+    {
+      "check_id": "V061_793_STATEMENT_IDENTITIES",
+      "expected": 793,
+      "observed": 793,
+      "status": "PASS"
+    },
+    {
+      "check_id": "V062_793_EXACT_GDT580_STATEMENT_ROUNDTRIPS",
+      "expected": true,
+      "observed": true,
+      "status": "PASS"
+    },
+    {
+      "check_id": "V063_STATEMENTS_REBUILT_FROM_FIXED_EVENTS",
+      "expected": true,
+      "observed": true,
+      "status": "PASS"
+    },
+    {
+      "check_id": "V064_30_PAGE_IDENTITIES",
+      "expected": 30,
+      "observed": 30,
+      "status": "PASS"
+    },
+    {
+      "check_id": "V065_PAGE_LOCAL_TOTALS",
+      "expected": [
+        744,
+        1973,
+        107
+      ],
+      "observed": [
+        744,
+        1973,
+        107
+      ],
+      "status": "PASS"
+    },
+    {
+      "check_id": "V066_RESULT_METRICS_MATCH_DERIVATION",
+      "expected": {
+        "complete_slot_count": 15889,
+        "content_carrier_count": 13702,
+        "control_host_only_count": 2187,
+        "event_count": 5122,
+        "exact_gdt580_event_roundtrip_count": 5122,
+        "exact_gdt580_statement_roundtrip_count": 793,
+        "final_recipe_reconciliation_count": 8,
+        "focus_host_count": 5672,
+        "focus_voice_repair_count": 269,
+        "fully_represented_focus_count_in_repaired_events": 292,
+        "fully_represented_non_grade_modifier_count_in_repaired_events": 62,
+        "inherited_alias_count": 4026,
+        "local_card_count": 744,
+        "local_component_count": 1973,
+        "name_slot_count": 107,
+        "page_count": 30,
+        "safe_already_explicit_focus_count": 2,
+        "statement_count": 793,
+        "voice_repaired_event_count": 232,
+        "zero_unowned_slot_count": 0
+      },
+      "observed": {
+        "complete_slot_count": 15889,
+        "content_carrier_count": 13702,
+        "control_host_only_count": 2187,
+        "event_count": 5122,
+        "exact_gdt580_event_roundtrip_count": 5122,
+        "exact_gdt580_statement_roundtrip_count": 793,
+        "final_recipe_reconciliation_count": 8,
+        "focus_host_count": 5672,
+        "focus_voice_repair_count": 269,
+        "fully_represented_focus_count_in_repaired_events": 292,
+        "fully_represented_non_grade_modifier_count_in_repaired_events": 62,
+        "inherited_alias_count": 4026,
+        "local_card_count": 744,
+        "local_component_count": 1973,
+        "name_slot_count": 107,
+        "page_count": 30,
+        "safe_already_explicit_focus_count": 2,
+        "statement_count": 793,
+        "voice_repaired_event_count": 232,
+        "zero_unowned_slot_count": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "check_id": "V067_RESULT_INPUT_HASHES",
+      "expected": {
+        "gdt407_attachments": "7aa578194bef07f066f0aeb5e9c560d8592641163772d8c8bdb5e38cf30a64a7",
+        "gdt416_clauses": "cffae521ba93d96446537584e35fa9a4fe4b6e34330ebf7e955ad725f7c70561",
+        "gdt416_inherited_actions": "f80228bfbe6b0ba5749eb4073c98372609f4002d0e70f60e89f12b9119ec6500",
+        "gdt416_inherited_arguments": "67943cff1964352196bcd01f798c51c564c518d93debfd23a563950143628f7c",
+        "gdt471_name_templates": "e201da880c5dbdc2b6df0f5d601719ad7e0b2d4d109fc3c57877a74ae006c1dd",
+        "gdt472_complete_templates": "6ebd16bf39df288e4e9c6dfdd71e09c292aa3861793936bf07562977bfb48d87",
+        "gdt479_local_events": "1827be00bcedf800d4d91344c85d890df7367811413c17adeba0fc4ccf37187a",
+        "gdt513_local_events": "98d447a4856e72dc639929f2e646ba6dd51e9ddaf4ba825dff40c2f5d3cfebf8",
+        "gdt515_attachments": "aa10e6310c94e48435d0dcc362d385cbe28ef572d141ac079d8941a0e6383252",
+        "gdt515_local_51": "0f3a564e375971bb94603acc856da6180da563b55a1e7a6cce8ba5dbbea0bb16",
+        "gdt515_local_cards": "39207ac70d88d8bd14665471ffded436cbdd851eec071d8c1e7b62fb5ad434f2",
+        "gdt515_old_events": "6615c3874d09a2e0043e56ac9d71317d138b8fb675cc56f4ab3d866f5b8fa346",
+        "gdt539_context_events": "4554b8b4cb1697c8f6f544a75505a8a695b4d2043aeceeb9f5922eb21f73843d",
+        "gdt558_grade_assignments": "582567612c5cb447a57f45b3c67399468f8953ff34f1aa7a5fd2fddeb4e1a3a8",
+        "gdt558_grade_hazards": "f5378d84e078e138fc352bde38955bdaa109003b3bd8853c2fdad5bc28b0da00",
+        "gdt567_voice_cards": "8e479eca1d85f64f84ccfce686c71af9bcaf7d4ce386f0e88d14e7a11b689dd4",
+        "gdt568_action_cells": "9d220449d92cd4f2b69071b23ec15ca09ec3d4dfc9d058744a8ea1d6c64b5e42",
+        "gdt577_repeat_slots": "d1e6d28d7dc84234824f60e1e4d5d0d22b890adf90f6b77a8c851a66e06b2878",
+        "gdt579_scope_slots": "b1e12dd6f1310d97fea7c507d548d78748ff9193a887d81fed4434a0bc9b4ace",
+        "gdt580_events": "641c50491c80a1e1895dfed828e5ef7b96f583cfad9b7d6943882940d70f3ca8",
+        "gdt580_pages": "fd18b84300aebdb6a92bf09fe87fc040384d30b56405279cfec9f584458af1a7",
+        "gdt580_slots": "a95c0b2ad55b317d4cb704e294139715fb5d439be5163d32b49dc405ea128392",
+        "gdt580_statements": "3e45a37833b4474f9780e242dffd245f103c24c2502c890ffbc26324ed88b60d"
+      },
+      "observed": {
+        "gdt407_attachments": "7aa578194bef07f066f0aeb5e9c560d8592641163772d8c8bdb5e38cf30a64a7",
+        "gdt416_clauses": "cffae521ba93d96446537584e35fa9a4fe4b6e34330ebf7e955ad725f7c70561",
+        "gdt416_inherited_actions": "f80228bfbe6b0ba5749eb4073c98372609f4002d0e70f60e89f12b9119ec6500",
+        "gdt416_inherited_arguments": "67943cff1964352196bcd01f798c51c564c518d93debfd23a563950143628f7c",
+        "gdt471_name_templates": "e201da880c5dbdc2b6df0f5d601719ad7e0b2d4d109fc3c57877a74ae006c1dd",
+        "gdt472_complete_templates": "6ebd16bf39df288e4e9c6dfdd71e09c292aa3861793936bf07562977bfb48d87",
+        "gdt479_local_events": "1827be00bcedf800d4d91344c85d890df7367811413c17adeba0fc4ccf37187a",
+        "gdt513_local_events": "98d447a4856e72dc639929f2e646ba6dd51e9ddaf4ba825dff40c2f5d3cfebf8",
+        "gdt515_attachments": "aa10e6310c94e48435d0dcc362d385cbe28ef572d141ac079d8941a0e6383252",
+        "gdt515_local_51": "0f3a564e375971bb94603acc856da6180da563b55a1e7a6cce8ba5dbbea0bb16",
+        "gdt515_local_cards": "39207ac70d88d8bd14665471ffded436cbdd851eec071d8c1e7b62fb5ad434f2",
+        "gdt515_old_events": "6615c3874d09a2e0043e56ac9d71317d138b8fb675cc56f4ab3d866f5b8fa346",
+        "gdt539_context_events": "4554b8b4cb1697c8f6f544a75505a8a695b4d2043aeceeb9f5922eb21f73843d",
+        "gdt558_grade_assignments": "582567612c5cb447a57f45b3c67399468f8953ff34f1aa7a5fd2fddeb4e1a3a8",
+        "gdt558_grade_hazards": "f5378d84e078e138fc352bde38955bdaa109003b3bd8853c2fdad5bc28b0da00",
+        "gdt567_voice_cards": "8e479eca1d85f64f84ccfce686c71af9bcaf7d4ce386f0e88d14e7a11b689dd4",
+        "gdt568_action_cells": "9d220449d92cd4f2b69071b23ec15ca09ec3d4dfc9d058744a8ea1d6c64b5e42",
+        "gdt577_repeat_slots": "d1e6d28d7dc84234824f60e1e4d5d0d22b890adf90f6b77a8c851a66e06b2878",
+        "gdt579_scope_slots": "b1e12dd6f1310d97fea7c507d548d78748ff9193a887d81fed4434a0bc9b4ace",
+        "gdt580_events": "641c50491c80a1e1895dfed828e5ef7b96f583cfad9b7d6943882940d70f3ca8",
+        "gdt580_pages": "fd18b84300aebdb6a92bf09fe87fc040384d30b56405279cfec9f584458af1a7",
+        "gdt580_slots": "a95c0b2ad55b317d4cb704e294139715fb5d439be5163d32b49dc405ea128392",
+        "gdt580_statements": "3e45a37833b4474f9780e242dffd245f103c24c2502c890ffbc26324ed88b60d"
+      },
+      "status": "PASS"
+    },
+    {
+      "check_id": "V068_RESULT_STRUCTURAL_SEMANTIC_GUARDS",
+      "expected": [
+        true,
+        true
+      ],
+      "observed": [
+        true,
+        true
+      ],
+      "status": "PASS"
+    }
+  ],
+  "experiment_id": "GDT581",
+  "failed_check_count": 0,
+  "passed_check_count": 68,
+  "status": "PASS_68_SOURCE_BASED_CHECKS__15889_SLOTS__269_FOCUS_REPAIRS__232_EVENTS__5122_ROUNDTRIPS",
+  "validator": "INDEPENDENT_SOURCE_BASED_BOUNDARY_AUDIT"
+}

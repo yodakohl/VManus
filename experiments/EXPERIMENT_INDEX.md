@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **579**
-- Experiment-associated tracked files: **8,642** (887.3 MiB)
-- Structured GDT337+ experiments: **244**
+- Experiments indexed: **580**
+- Experiment-associated tracked files: **8,673** (911.4 MiB)
+- Structured GDT337+ experiments: **245**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT581 | GDT581_grammar_content_boundary_audit | `PASS_15889_COMPLETE_SLOTS__13702_CONTENT_CARRIERS__2187_CONTROL_SLOTS__4026_INHERITED_ALIASES__5672_FOCUS_HOSTS__8_FINAL_RECIPE_RECONCILIATIONS__269_FOCUS_VOICE_REPAIRS__232_EVENT_REPAIRS__2_SAFE_EXPLICIT_REMOTE_SLOTS__744_LOCAL_CARD_HOSTS__1973_LOCAL_COMPONENTS__107_NAME_SLOTS__ZERO_UNOWNED_SLOTS__5122_EXACT_ROUNDTRIPS` | [report](../experiments/yolo/gdt581_grammar_content_boundary_audit/REPORT.md) | 31 | 24.1 MiB | 15 | STRUCTURED_YOLO |
 | GDT580 | GDT580_adjacent_relation_resumption_voice | `PASS_3_RAW_ADJACENT_RELATION_PAIRS__1_MODIFIER_RESUMPTION_OPERATOR__3_EXPLICIT_FORMS__6_WRITTEN_SLOTS__3_EVENT_CARDS__5122_EXACT_ROUNDTRIPS` | [report](../experiments/yolo/gdt580_adjacent_relation_resumption_voice/REPORT.md) | 17 | 3.9 MiB | 5 | STRUCTURED_YOLO |
 | GDT579 | GDT579_mixed_outer_inner_scope_voice | `PASS_17_SCOPE_PAIRS__7_ADJACENT_FACTORIZED__10_INTERRUPTED_SLOT_EXPLICIT__34_SCOPE_SLOTS__15_INTERVENING_ATOMS__27_ORDERED_MODIFIER_FRAGMENTS__5122_EXACT_ROUNDTRIPS` | [report](../experiments/yolo/gdt579_mixed_outer_inner_scope_voice/REPORT.md) | 21 | 3.7 MiB | 8 | STRUCTURED_YOLO |
 | GDT578 | GDT578_event_keyed_interrupted_modifier_voice | `PASS_5_ATTACHMENT_CLASSES__3_PROSE_FRAMES__20_HEAD_VOICES__58_EVENT_CARDS__60_GROUPS__121_REPEAT_SLOTS__173_ORDERED_MODIFIER_FRAGMENTS__61_PARTICLES__5122_EXACT_ROUNDTRIPS__ONE_CONFLICT_UNCHANGED` | [report](../experiments/yolo/gdt578_event_keyed_interrupted_modifier_voice/REPORT.md) | 21 | 3.7 MiB | 6 | STRUCTURED_YOLO |
