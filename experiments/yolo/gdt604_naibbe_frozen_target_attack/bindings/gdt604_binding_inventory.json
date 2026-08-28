@@ -1,0 +1,207 @@
+{
+  "schema": "gdt604-binding-inventory-v1",
+  "decision": "LM_DRIVEN_PSEUDOTEXT_NO_READING",
+  "certified_environment": {
+    "python": "3.12.3",
+    "numpy": "1.26.4",
+    "workers": 9,
+    "wall_seconds": 111.55,
+    "cpu_seconds": 849.22,
+    "max_rss_kib": 93952
+  },
+  "repository_bindings": {
+    "certification_commit": "8d8e6388e9de2968088ac1cc86c041edff1d76ee",
+    "vmanus_exp_sha256": "53b69eec8412b54d1248fd52d91c06e0eabc7f436b9015d0cfdb0746606c1528",
+    "gdt327_allowlist_sha256": "7eba46774be44992064cc114f67329723ac7bf589321b0d763fb7f7f748cc1e9",
+    "guarded_target_sha256": "d9186790969641f5dce9fb75d697bd926310936248d7214ef804ba29d0a1e413",
+    "train_rows_sha256": "28bbfbbae5a2c622263ac0b0a182d8e73be94abc74223644e2662ba0939461f2",
+    "held_rows_sha256": "1fe1497ae6e63e1b37fe27ae72354c7e080b9cff798f3bd757e6965af2302825"
+  },
+  "reference_sources": {
+    "caesar_la.txt": "84ac8411841a4d8f5f4a49b6a2cd1f466917c6a5af72916d5e0b2b1ecb2f659c",
+    "divina_commedia.txt": "aafa15bbc0644dac7680ce3d0e4494b99775fbc83394cb7ad88145a0f8d6b31e",
+    "mhg/Erec-conll.txt": "367cc2e9d0b60aadee501c187864dea97c77af41303f216986cfa35575f43675",
+    "mhg/Iwein-conll.txt": "5b43f962da24d5b438ff93f64f30036087fe37d1cd5863c0bd29e764957b6a6f",
+    "mhg/Parzival-conll.txt": "9d7ef5fd1842f6197121b654eb3c57a307ff01a9698768e27be069732afdf5cf",
+    "mhg/Rolandslied-conll.txt": "46b078128c6932759d56a6a4bf13f9c3bf84d88f7a8d0e35fca31670cc0191fa",
+    "mhg/Willehalm-conll.txt": "abee7d5d1aee54fa944e0d311d4645455503d4fc0bbd9ef919c46a9cfd10e7fe"
+  },
+  "reference_urls": {
+    "caesar_la.txt": "https://raw.githubusercontent.com/lrozanova/voynich-units/956a7c4fc39981f4d116fa3f4edfccce6d065571/voynich_decipherment_repro_bundle/decipherment_attack_v6/lm_corpora/caesar_la.txt",
+    "divina_commedia.txt": "https://raw.githubusercontent.com/greshko/naibbe-cipher/f2675ec5dd275268bc64dd48ea64fc0e0e9827a2/input/examples/divina_commedia.txt",
+    "mhg/Erec-conll.txt": "https://raw.githubusercontent.com/NoraKet/MHG4SNA/3eddc3dc1620cf400c152d9ed8915416cb8d6d7a/conll%20downloads/Erec-conll.txt",
+    "mhg/Iwein-conll.txt": "https://raw.githubusercontent.com/NoraKet/MHG4SNA/3eddc3dc1620cf400c152d9ed8915416cb8d6d7a/conll%20downloads/Iwein-conll.txt",
+    "mhg/Parzival-conll.txt": "https://raw.githubusercontent.com/NoraKet/MHG4SNA/3eddc3dc1620cf400c152d9ed8915416cb8d6d7a/conll%20downloads/Parzival-conll.txt",
+    "mhg/Rolandslied-conll.txt": "https://raw.githubusercontent.com/NoraKet/MHG4SNA/3eddc3dc1620cf400c152d9ed8915416cb8d6d7a/conll%20downloads/Rolandslied-conll.txt",
+    "mhg/Willehalm-conll.txt": "https://raw.githubusercontent.com/NoraKet/MHG4SNA/3eddc3dc1620cf400c152d9ed8915416cb8d6d7a/conll%20downloads/Willehalm-conll.txt"
+  },
+  "files": [
+    {
+      "path": "bindings/gdt604_validation.json",
+      "role": "independent_live_validation_result",
+      "sha256": "fd5caa9cdf2c55cb023b2fb443464a63909cdab7bdb02f3f784846cdc9d93691"
+    },
+    {
+      "path": "README.md",
+      "role": "execution_and_limitations",
+      "sha256": "0f1962d4c4d2c7cc6024718eac7d386cacb10ff8f444b98ffe6302beb37284e9"
+    },
+    {
+      "path": "src/common.py",
+      "role": "portable_path_and_hash_helpers",
+      "sha256": "1cfc2bce4bd9a6555e6e890342dd70d01ef6b165b9a35990ef3f8be6ebd34388"
+    },
+    {
+      "path": "src/fetch_references.py",
+      "role": "pinned_reference_fetcher",
+      "sha256": "ae1e84dd90db20c07987c06bff33c692637cf2eb1238fc5e7b1a03302bb44d26"
+    },
+    {
+      "path": "src/normalize_legacy_freezes.py",
+      "role": "legacy_to_portable_metadata_migration",
+      "sha256": "a7712c870ac542f40e9eab6b223aa3def7fefee3e9675f8b3c26caa9f15fb886"
+    },
+    {
+      "path": "src/pipeline.py",
+      "role": "guard_segment_key_evaluate_pipeline",
+      "sha256": "a4ff916fdb40a5a4f53a33a8d35dbb8220bd12024cbe7d055a709c1dcea8a4db"
+    },
+    {
+      "path": "src/portable_factorizer.py",
+      "role": "ciphertext_only_poisson_factorizer",
+      "sha256": "32c868e5f764ddb822fd28176a63c1841dad814df6aa177db5a29e148a055042"
+    },
+    {
+      "path": "src/portable_keylib.py",
+      "role": "capacity_constrained_key_solver",
+      "sha256": "41072bff93d38299b6ea22f312684cbfc9e011e45d1276e10d1b8964bf9f797a"
+    },
+    {
+      "path": "src/run_all.py",
+      "role": "full_36_key_runner",
+      "sha256": "2f218e9df7bdc64546a0015ef584050a9089d0952dd741916858717aa281d29a"
+    },
+    {
+      "path": "src/validate_bundle.py",
+      "role": "independent_validator",
+      "sha256": "c0cbf387f9f253902d2b0416d23e576c454a3a03c64bb98a1e6cd282fc0e4e3a"
+    },
+    {
+      "path": "artifacts/GDT604_TARGET_ATTACK_PREREG.md",
+      "role": "preregistration",
+      "sha256": "47d54ab3b180d4cf1fdc57fd3bbd0f69af866ad39ff61879b72a19ec742c8d97"
+    },
+    {
+      "path": "artifacts/GDT604_TARGET_ATTACK_REPORT.md",
+      "role": "primary_report",
+      "sha256": "c2cd0a4f484abf34ee94d89d1afef357a2821a73ea91f78c4ba35312adf3d400"
+    },
+    {
+      "path": "artifacts/GDT604_TOP_LINES_FULL.md",
+      "role": "complete_top_line_appendix",
+      "sha256": "01cc06f5b1e94adab78128c31e8dbc96eee79ead413defe70a342f509efdf43b"
+    },
+    {
+      "path": "artifacts/gdt604_folio_split.json",
+      "role": "physical_folio_split_freeze",
+      "sha256": "02fea4b3445ad8d8d766c74af382e860247aa3e8b4b47c35d72d21f0d250d796"
+    },
+    {
+      "path": "artifacts/gdt604_target_segmentation_freeze.json",
+      "role": "relative_segmentation_manifest",
+      "sha256": "7a7aaa901871003de3dc6daffc079ab016695d3c743157034202831fb7cf0e36"
+    },
+    {
+      "path": "artifacts/gdt604_target_segmentation_u115.json",
+      "role": "navigation_segmentation_freeze",
+      "sha256": "be9ab5fbed6109ede96765a2e28c0bd81fd5b68e7221e4f17206af367b55a9d4"
+    },
+    {
+      "path": "artifacts/gdt604_target_segmentation_u132.json",
+      "role": "navigation_segmentation_freeze",
+      "sha256": "e1a73509a0c3d70e75ad73ca2e87a5c40a81c1345693fc3e47bc1e53498a7880"
+    },
+    {
+      "path": "artifacts/gdt604_target_segmentation_u138.json",
+      "role": "confirmatory_segmentation_freeze",
+      "sha256": "cc2df74c86553a2c1c9575f728cda8efdf6775736ed6a5251608a4383627d76f"
+    },
+    {
+      "path": "artifacts/gdt604_target_segmentation_u138_trainonly.json",
+      "role": "pre_key_train_only_segmentation",
+      "sha256": "e742393ec666308f5d29c412814a10f9e38d35053626c1e619e0e77d5ebfa5fc"
+    },
+    {
+      "path": "artifacts/gdt604_target_key_freeze.json",
+      "role": "portable_36_key_freeze",
+      "sha256": "4409cb99beded2c5ffb7a94c48d82bb895ac4dfafccb3498c5a921af50958a2d"
+    },
+    {
+      "path": "artifacts/gdt604_target_result.json",
+      "role": "portable_held_result",
+      "sha256": "ddf807c856f314320ff118b047a165d8add38162682f57f427789d500267dcfc"
+    },
+    {
+      "path": "artifacts/gdt604_reference_calibration.json",
+      "role": "held_reference_calibration",
+      "sha256": "86ea19d54adbcd814b0b20925f7a9e7038b3d38b111e76d088c978aef8a18a1d"
+    },
+    {
+      "path": "artifacts/gdt604_top_lines_latin.tsv",
+      "role": "complete_latin_top_lines",
+      "sha256": "8d6f0c1e33e817a5cbb3b63175a5daebeb0184f7dba3188f857d01b08769d5ba"
+    },
+    {
+      "path": "artifacts/gdt604_top_lines_old_italian.tsv",
+      "role": "complete_old_italian_top_lines",
+      "sha256": "e8c63a795d3bdfeabb56061242251066d21aa759a7acf82760675a13b05a36c0"
+    },
+    {
+      "path": "artifacts/gdt604_top_lines_middle_high_german.tsv",
+      "role": "complete_middle_high_german_top_lines",
+      "sha256": "db4260999e3af50a17b47b33bf93416c9bce69a25f3365180697d6d69a304afa"
+    }
+  ],
+  "legacy_local_provenance": {
+    "sources": {
+      "gdt604_guarded_materialize.py": "1d5f53225310ae846be4b5d33821c3bc5b6cd31043ed38bc20a96228775f1c6c",
+      "gdt604_split_guarded_rows.py": "21c159e8fb4d2f1e5bb46a5ef0ace0cf6c3d202ae2592547dafe49df6d86022b",
+      "gdt604_segment_target.py": "b547c5f358db52f50cc2cb3b51aacd09ba9355153341eedaa95199c130354d05",
+      "gdt604_make_train_segmentation.py": "1ab3044a01f1139acc0fb57f2aa97da438e672e47fc22318fe7a8fee8e3ac4a5",
+      "gdt604_fit_target_keys.py": "f6aedc66ef1a45ea929706df2ca083e3024450d69a5807c3245ffcfdf9cc0911",
+      "gdt604_evaluate_held.py": "d1723a46086188fa267678144d12bcefee3047253d3ca25e84c6819579cea423",
+      "gdt604_reference_calibration.py": "da64863fdbb699492ea75eb19f7bbb769839a4d1ac67d9347a292ce25871e0fb",
+      "gdt604_render_top_lines.py": "5c48af1211c8823b74d87fc597cd3c62c9a13bef2953e8c1b359b98f6e4034f5",
+      "naibbe_blind_segment.py": "afb2bb3ead5fb991f956b3e0667a6336d7cbaabb716414e9a9a9bb28c60457bb",
+      "naibbe_blind_key.py": "10fbc8c5eb4dd18272e3c609ea7dc0a4c7610a538c78a398a79f5426be24b57e"
+    },
+    "intermediate_rows": {
+      "gdt604_target_rows.tsv": "d9186790969641f5dce9fb75d697bd926310936248d7214ef804ba29d0a1e413",
+      "gdt604_train_rows.tsv": "28bbfbbae5a2c622263ac0b0a182d8e73be94abc74223644e2662ba0939461f2",
+      "gdt604_held_rows.tsv": "1fe1497ae6e63e1b37fe27ae72354c7e080b9cff798f3bd757e6965af2302825"
+    },
+    "machine_local_metadata_hashes": {
+      "gdt604_target_segmentation_freeze.json": "d457cdfaf18c19aa3a3ac143bdeedab4340698cb70bb355e9fcbcc7f6f745649",
+      "gdt604_target_key_freeze.json": "e6742b374985dbac4b8734b8d20e74d6c3a55362f88befb8f34d8b7ad4bade76",
+      "gdt604_target_result.json": "7ab3801571f878f5c30a6ae90e379ee2b269a33125f9ebd2c5dd04a6c5357f70",
+      "GDT604_TARGET_ATTACK_REPORT.md": "41937fb835399cbdddf3e44ece82a8a116e8dc245d27987afdc481ce59b27810"
+    }
+  },
+  "execution_order": [
+    "fetch and hash-check seven reference files",
+    "validate published pre-key freezes and guarded target query",
+    "materialize 180 explicitly allow-listed pages through query-tsv",
+    "recompute 68/23 physical-folio split and row hashes",
+    "load hash-bound U=138 pre-key segmentation",
+    "fit 36 real/destroyed language keys at 50000 iterations",
+    "score all 36 keys on 23 held folios with 32 within-run nulls",
+    "recompute gates, top 20 rows per language, and reference calibration",
+    "validate byte hashes, gate logic, selector safety, and privacy"
+  ],
+  "known_limitations": [
+    "The legacy segmentation refit has insertion-sensitive tie ordering; exact reproduction begins from the published pre-key segmentation freeze.",
+    "Byte-identical numeric output is certified only for CPython 3.12.3 and NumPy 1.26.4.",
+    "The validator binds reference bytes but does not establish their historical representativeness.",
+    "The validator never opens sealed target rows and therefore checks their exclusion through the guarded query contract rather than direct inspection."
+  ]
+}

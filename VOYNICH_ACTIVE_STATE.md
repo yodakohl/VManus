@@ -6,7 +6,7 @@ Updated: 2026-08-28. This is the full claim registry. For routine work, read
 
 ## Outcome
 
-### Decipherment reset (GDT601–GDT603)
+### Decipherment reset (GDT601–GDT605)
 
 No concrete GDT409+ German value is confirmed manuscript content. The
 independent survivor audit has `SURVIVES = ∅` for form-to-denotation claims;
@@ -31,6 +31,31 @@ exact tokens and 95.6802% normalized plaintext characters end to end; key
 accuracy after an exact segmentation is 99.9685%. U=115 and U=132 remain
 navigation only. This licenses an unchanged held-folio target falsifier, not a
 Voynich reading; the Naibbe architecture itself remains unestablished.
+
+GDT604 executes that target falsifier on the GDT327-derived 91-folio page set,
+with 68 physical folios training every dictionary and key and 23 held. The
+primary U/P/S=138/138/138 dictionaries cover 88.638% of training and 86.451%
+of held token occurrences but only about 64% of types. Latin, Old Italian and
+Middle High German all produce high within-key order scores, yet every
+real-language key yields a negative real-minus-destroyed target differential
+and the six restarts agree on only 0.055–0.498% of held decoded occurrences.
+The matched readable references have positive differentials. The exact
+whitespace-token U/P/S target architecture is therefore language-model-driven
+pseudotext, not a reading. GDT604 does not reject variable-length units or
+mixed nomenclators.
+
+GDT605 identifies the replacement unit scale. A 64-merge collapsed-glyph
+inventory learned on 68 folios contains 98 boundary-aware units; the 23 held
+folios contain 97 and introduce no new unit type. Without seeing separator
+certainty, erased-space units cross 185/749 held uncertain separators (24.70%)
+but only 575/8,570 certain spaces (6.71%) and 5/97 drawing interruptions
+(5.15%); uncertain exceeds certain independently on 22/23 held folios. The
+production inventory therefore joins uncertain separators but preserves
+certain and drawing boundaries. Exact one-unit-to-one-letter Latin and Old
+Italian mappings remain less typical under the real models and share at most
+30% of held-weighted key assignments. The live decoder must allow a historical
+mixture of homophonic letters, doubles, syllables, nulls and a small word
+nomenclator over these 98 units. No unit yet has a sound, lexeme or meaning.
 
 ### Noncanonical twenty-six-page sidequest (GDT414)
 

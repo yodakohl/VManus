@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **601**
-- Experiment-associated tracked files: **9,096** (1011.9 MiB)
-- Structured GDT337+ experiments: **266**
+- Experiments indexed: **603**
+- Experiment-associated tracked files: **9,147** (1013.8 MiB)
+- Structured GDT337+ experiments: **268**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,8 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT605 | GDT605_multisymbol_unit_alphabet | `STABLE_98_UNIT_ALPHABET__ONE_LETTER_READING_REJECTED` | [report](../experiments/yolo/gdt605_multisymbol_unit_alphabet/REPORT.md) | 18 | 125.9 KiB | 4 | STRUCTURED_YOLO |
+| GDT604 | GDT604_naibbe_frozen_target_attack | `LM_DRIVEN_PSEUDOTEXT_NO_READING` | [report](../experiments/yolo/gdt604_naibbe_frozen_target_attack/REPORT.md) | 33 | 1.8 MiB | 4 | STRUCTURED_YOLO |
 | GDT603 | GDT603_naibbe_end_to_end_control | `END_TO_END_NAIBBE_CONTROL_RECOVERED_AT_PUBLIC_CAPACITY` | [report](../experiments/yolo/gdt603_naibbe_end_to_end_control/REPORT.md) | 13 | 1.0 MiB | 2 | STRUCTURED_YOLO |
 | GDT602 | GDT602_naibbe_blind_key_recovery | `NAIBBE_KEY_RECOVERED_CONDITIONAL_ON_ORACLE_SEGMENTATION` | [report](../experiments/yolo/gdt602_naibbe_blind_key_recovery/REPORT.md) | 11 | 42.7 KiB | 1 | STRUCTURED_YOLO |
 | GDT601 | GDT601_naibbe_literal_key_attack | `LITERAL_NAIBBE_KEY_REJECTED_ON_F84_FREE_91_FOLIO_CORPUS` | [report](../experiments/yolo/gdt601_naibbe_literal_key_attack/REPORT.md) | 11 | 40.0 KiB | 4 | STRUCTURED_YOLO |

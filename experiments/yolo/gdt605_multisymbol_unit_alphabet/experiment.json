@@ -1,0 +1,142 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "May establish a stable train-only collapsed-glyph unit inventory below unreliable source spaces and reject exact one-unit-to-one-letter Latin or Old Italian substitution. It may not identify a language, plaintext, sound, lexeme, word boundary or meaning.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt605_multisymbol_unit_alphabet/src/run.py",
+    "validate": "python3 experiments/yolo/gdt605_multisymbol_unit_alphabet/src/validate.py"
+  },
+  "created": "2026-08-28",
+  "dependencies": [
+    "GDT327",
+    "GDT601",
+    "GDT602",
+    "GDT604"
+  ],
+  "experiment_id": "GDT605",
+  "inputs": [
+    {
+      "path": "gdt327_joint_tuple_interlinear.tsv",
+      "role": "f84-free 180-page and 91-folio allow-list source",
+      "sha256": "7eba46774be44992064cc114f67329723ac7bf589321b0d763fb7f7f748cc1e9"
+    },
+    {
+      "path": "transcription/voynich_zl3b_lines.tsv",
+      "role": "guarded EVA and IVTFF-separator source; f84 and f84r forbidden",
+      "sha256": "7520dd4c11f4d23c8492e4b2a52cc0fcbda6d9fc88a96ead8f1c31081a4d7ed2"
+    },
+    {
+      "path": "experiments/yolo/gdt601_naibbe_literal_key_attack/src/run.py",
+      "role": "pinned reference sources and character model",
+      "sha256": "d9e1bbeb2d11050de2aa5406aa66ff13141a58b6f9a31f8c627835dbda4098e7"
+    },
+    {
+      "path": "experiments/yolo/gdt602_naibbe_blind_key_recovery/src/run.py",
+      "role": "capacity-constrained homophone solver for the narrow letter attack",
+      "sha256": "0d9e4f6cecbd34037e63cec83fe963c42e0f6883e3dd59c69d1521e5f0490767"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt605_multisymbol_unit_alphabet/README.md",
+      "role": "experiment entry point",
+      "sha256": "fa262f0fdb5e59f472d78c9e07ea5cf10e29ea456890757e8f587ab3633dc76b"
+    },
+    {
+      "path": "experiments/yolo/gdt605_multisymbol_unit_alphabet/METHOD.md",
+      "role": "guarded separator, boundary-aware BPE and letter-attack method",
+      "sha256": "d1ce7e298982ed6382af91bec0335e9def9e6af419a872a7625f169ed89728cd"
+    },
+    {
+      "path": "experiments/yolo/gdt605_multisymbol_unit_alphabet/PREREGISTRATION.md",
+      "role": "exploratory held-split analysis contract",
+      "sha256": "594d50c17dc08a053cddf86468b7c2fc74794c4961524931fb5ffd6a23ce8ae2"
+    },
+    {
+      "path": "experiments/yolo/gdt605_multisymbol_unit_alphabet/REPORT.md",
+      "role": "primary report",
+      "sha256": "44cf08b69f9b182c413f493312eec9b6b3c1e759c6f2e6c32f7248b79174e57d"
+    },
+    {
+      "path": "experiments/yolo/gdt605_multisymbol_unit_alphabet/src/run.py",
+      "role": "guarded end-to-end reproduction runner",
+      "sha256": "8493a32cc659b0e4b933494fe12fbcec66d73e1752d9a04bd7855c2a3e372a8e"
+    },
+    {
+      "path": "experiments/yolo/gdt605_multisymbol_unit_alphabet/src/validate.py",
+      "role": "independent live-query and artifact validator",
+      "sha256": "6e59ad6c1010fa7a68532a1d162ebdbcd9a38f0386e61922a7c14a8474d0c6b1"
+    },
+    {
+      "path": "experiments/yolo/gdt605_multisymbol_unit_alphabet/src/separator_crossing.py",
+      "role": "separator-class crossing analysis",
+      "sha256": "921c6617615980ed41bf70c8cdf574aa2a15621832e7842dd9dd3621461bf8e8"
+    },
+    {
+      "path": "experiments/yolo/gdt605_multisymbol_unit_alphabet/src/unit_inventory.py",
+      "role": "boundary-aware unit inventory builder",
+      "sha256": "f444bca4adfbdb72cbaf80a68acb938d39f87dd5ad01ad545118f6ee0cc0d1c3"
+    },
+    {
+      "path": "experiments/yolo/gdt605_multisymbol_unit_alphabet/src/boundary_letter_attack.py",
+      "role": "narrow exact-letter Latin and Old Italian attack",
+      "sha256": "94ec59c567affa508a38ae035853f2bc2b9271ccd3b3273050d64b644ef05359"
+    },
+    {
+      "path": "experiments/yolo/gdt605_multisymbol_unit_alphabet/artifacts/README.md",
+      "role": "artifact guide",
+      "sha256": "1ee6a4a7d3b8cb39e17a3b5ba3c204ec9fd65855c1a6aa67eda7e7be73bb7847"
+    },
+    {
+      "path": "experiments/yolo/gdt605_multisymbol_unit_alphabet/artifacts/gdt605_unit_result.json",
+      "role": "compact boundary-aware inventory result",
+      "sha256": "c2d293c121f1ee01fe0ddcbe4647c77f5f94796b4ecc4b1adc554cc2f740c3d9"
+    },
+    {
+      "path": "experiments/yolo/gdt605_multisymbol_unit_alphabet/artifacts/gdt605_unit_inventory.tsv",
+      "role": "complete 98-unit train and held inventory",
+      "sha256": "ade74733200e941ddc66285988eb1498ac98e87ad374cad11ac412ce42893e82"
+    },
+    {
+      "path": "experiments/yolo/gdt605_multisymbol_unit_alphabet/artifacts/gdt605_bpe_merges.tsv",
+      "role": "complete ordered 64-merge list",
+      "sha256": "4625c9389ead390907e4ac74e65bc158236f02b439c69cf3b09157f0cd6ca539"
+    },
+    {
+      "path": "experiments/yolo/gdt605_multisymbol_unit_alphabet/artifacts/gdt605_separator_crossing.json",
+      "role": "train, held and per-folio separator crossing result",
+      "sha256": "87574fb3e2a3d16274ffba5b5c773f1a4821ec73df416b57164b3b729c6eb145"
+    },
+    {
+      "path": "experiments/yolo/gdt605_multisymbol_unit_alphabet/artifacts/gdt605_boundary_latin.json",
+      "role": "three-start boundary-aware exact-letter Latin attack",
+      "sha256": "b332a9ccca8f3dfdd5f26e675380caba0061501314b9b5feb5a26a732f1c41f2"
+    },
+    {
+      "path": "experiments/yolo/gdt605_multisymbol_unit_alphabet/artifacts/gdt605_boundary_old_italian.json",
+      "role": "three-start boundary-aware exact-letter Old Italian attack",
+      "sha256": "6542d068376866a63b96c7985ba423dfaa9881c757d64e84c832e6c1eb034ff7"
+    },
+    {
+      "path": "experiments/yolo/gdt605_multisymbol_unit_alphabet/artifacts/gdt605_validation.json",
+      "role": "52-check live-query validation record",
+      "sha256": "fabe55d86ac46e5686e61a0ea5bdc9a27c3d05b5859cef636d8136d703ee7f72"
+    }
+  ],
+  "question": "Do train-only recurrent collapsed-glyph units recover the distinction between uncertain and certain Voynich separators on held folios, and can the resulting stable inventory support an ordinary one-unit-to-one-letter reading?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "multisymbol_unit_alphabet",
+  "status": "STABLE_98_UNIT_ALPHABET__ONE_LETTER_READING_REJECTED",
+  "title": "Boundary-aware multisymbol unit alphabet",
+  "updated": "2026-08-28",
+  "validation": {
+    "artifact": "experiments/yolo/gdt605_multisymbol_unit_alphabet/artifacts/gdt605_validation.json",
+    "status": "PASS"
+  }
+}

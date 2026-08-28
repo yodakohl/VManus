@@ -1,0 +1,228 @@
+{
+  "artifact_sha256": {
+    "gdt605_boundary_latin.json": "b332a9ccca8f3dfdd5f26e675380caba0061501314b9b5feb5a26a732f1c41f2",
+    "gdt605_boundary_old_italian.json": "6542d068376866a63b96c7985ba423dfaa9881c757d64e84c832e6c1eb034ff7",
+    "gdt605_bpe_merges.tsv": "4625c9389ead390907e4ac74e65bc158236f02b439c69cf3b09157f0cd6ca539",
+    "gdt605_separator_crossing.json": "87574fb3e2a3d16274ffba5b5c773f1a4821ec73df416b57164b3b729c6eb145",
+    "gdt605_unit_inventory.tsv": "ade74733200e941ddc66285988eb1498ac98e87ad374cad11ac412ce42893e82",
+    "gdt605_unit_result.json": "c2d293c121f1ee01fe0ddcbe4647c77f5f94796b4ecc4b1adc554cc2f740c3d9"
+  },
+  "checks": [
+    {
+      "check": "hash gdt605_unit_result.json",
+      "passed": true
+    },
+    {
+      "check": "hash gdt605_unit_inventory.tsv",
+      "passed": true
+    },
+    {
+      "check": "hash gdt605_bpe_merges.tsv",
+      "passed": true
+    },
+    {
+      "check": "hash gdt605_separator_crossing.json",
+      "passed": true
+    },
+    {
+      "check": "hash gdt605_boundary_latin.json",
+      "passed": true
+    },
+    {
+      "check": "hash gdt605_boundary_old_italian.json",
+      "passed": true
+    },
+    {
+      "check": "unit schema",
+      "passed": true
+    },
+    {
+      "check": "unit decision",
+      "passed": true
+    },
+    {
+      "check": "unit guarded binding",
+      "passed": true
+    },
+    {
+      "check": "68/23 split labels",
+      "passed": true
+    },
+    {
+      "check": "98/97 unit types",
+      "passed": true
+    },
+    {
+      "check": "zero held OOV",
+      "passed": true
+    },
+    {
+      "check": "fourteen unresolved rows",
+      "passed": true
+    },
+    {
+      "check": "98 inventory rows",
+      "passed": true
+    },
+    {
+      "check": "all held units seen in train",
+      "passed": true
+    },
+    {
+      "check": "inventory train occurrence total",
+      "passed": true
+    },
+    {
+      "check": "inventory held occurrence total",
+      "passed": true
+    },
+    {
+      "check": "64 ordered merges",
+      "passed": true
+    },
+    {
+      "check": "separator guarded binding",
+      "passed": true
+    },
+    {
+      "check": "separator alignment",
+      "passed": true
+    },
+    {
+      "check": "held uncertain count",
+      "passed": true
+    },
+    {
+      "check": "held certain count",
+      "passed": true
+    },
+    {
+      "check": "held drawing count",
+      "passed": true
+    },
+    {
+      "check": "22/23 held-folio sign",
+      "passed": true
+    },
+    {
+      "check": "held crossing ratio above 3.6",
+      "passed": true
+    },
+    {
+      "check": "latin attack language",
+      "passed": true
+    },
+    {
+      "check": "latin attack decision",
+      "passed": true
+    },
+    {
+      "check": "latin attack inventory",
+      "passed": true
+    },
+    {
+      "check": "latin three real starts",
+      "passed": true
+    },
+    {
+      "check": "latin every real differential negative",
+      "passed": true
+    },
+    {
+      "check": "latin unstable held-weighted keys",
+      "passed": true
+    },
+    {
+      "check": "old_italian attack language",
+      "passed": true
+    },
+    {
+      "check": "old_italian attack decision",
+      "passed": true
+    },
+    {
+      "check": "old_italian attack inventory",
+      "passed": true
+    },
+    {
+      "check": "old_italian three real starts",
+      "passed": true
+    },
+    {
+      "check": "old_italian every real differential negative",
+      "passed": true
+    },
+    {
+      "check": "old_italian unstable held-weighted keys",
+      "passed": true
+    },
+    {
+      "check": "live guarded digest",
+      "passed": true
+    },
+    {
+      "check": "live guarded capacity",
+      "passed": true
+    },
+    {
+      "check": "privacy src/unit_inventory.py",
+      "passed": true
+    },
+    {
+      "check": "privacy src/run.py",
+      "passed": true
+    },
+    {
+      "check": "privacy src/boundary_letter_attack.py",
+      "passed": true
+    },
+    {
+      "check": "privacy src/validate.py",
+      "passed": true
+    },
+    {
+      "check": "privacy src/separator_crossing.py",
+      "passed": true
+    },
+    {
+      "check": "privacy artifacts/gdt605_unit_inventory.tsv",
+      "passed": true
+    },
+    {
+      "check": "privacy artifacts/gdt605_bpe_merges.tsv",
+      "passed": true
+    },
+    {
+      "check": "privacy artifacts/gdt605_boundary_old_italian.json",
+      "passed": true
+    },
+    {
+      "check": "privacy artifacts/gdt605_unit_result.json",
+      "passed": true
+    },
+    {
+      "check": "privacy artifacts/gdt605_boundary_latin.json",
+      "passed": true
+    },
+    {
+      "check": "privacy artifacts/gdt605_separator_crossing.json",
+      "passed": true
+    },
+    {
+      "check": "privacy artifacts/README.md",
+      "passed": true
+    },
+    {
+      "check": "privacy scan covered files",
+      "passed": true
+    }
+  ],
+  "checks_passed": 52,
+  "decision": "STABLE_98_UNIT_ALPHABET__ONE_LETTER_READING_REJECTED",
+  "experiment_id": "GDT605",
+  "sealed_data": {
+    "f84": "FORBIDDEN_AND_ABSENT",
+    "f84r": "FORBIDDEN_AND_ABSENT"
+  },
+  "status": "PASS"
+}

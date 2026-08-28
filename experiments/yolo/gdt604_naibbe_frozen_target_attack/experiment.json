@@ -1,0 +1,202 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "May reject the exact public-capacity whitespace-token U/P/S target attack after a successful end-to-end control. It may not reject mixed-length nomenclators, learned units crossing observed separators, other cipher families, or assign Voynich plaintext, language, sounds, lexemes or meanings.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt604_naibbe_frozen_target_attack/src/run.py",
+    "validate": "python3 experiments/yolo/gdt604_naibbe_frozen_target_attack/src/validate.py"
+  },
+  "created": "2026-08-28",
+  "dependencies": [
+    "GDT327",
+    "GDT601",
+    "GDT602",
+    "GDT603"
+  ],
+  "experiment_id": "GDT604",
+  "inputs": [
+    {
+      "path": "gdt327_joint_tuple_interlinear.tsv",
+      "role": "f84-free 180-page and 91-folio allow-list source",
+      "sha256": "7eba46774be44992064cc114f67329723ac7bf589321b0d763fb7f7f748cc1e9"
+    },
+    {
+      "path": "transcription/voynich_zl3b_lines.tsv",
+      "role": "guarded-query target source; f84 and f84r remain forbidden",
+      "sha256": "7520dd4c11f4d23c8492e4b2a52cc0fcbda6d9fc88a96ead8f1c31081a4d7ed2"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt604_naibbe_frozen_target_attack/README.md",
+      "role": "portable execution and limitations guide",
+      "sha256": "0f1962d4c4d2c7cc6024718eac7d386cacb10ff8f444b98ffe6302beb37284e9"
+    },
+    {
+      "path": "experiments/yolo/gdt604_naibbe_frozen_target_attack/METHOD.md",
+      "role": "frozen target method",
+      "sha256": "7fefdb0232020fba2d2b3a18bb2be329e22d466dd024b4658960a98564e4e77d"
+    },
+    {
+      "path": "experiments/yolo/gdt604_naibbe_frozen_target_attack/PREREGISTRATION.md",
+      "role": "target decision contract",
+      "sha256": "01c2792157ffd6a452a8f2d8ba2617c6123d27e04b7741dcdadc78a7d80ec907"
+    },
+    {
+      "path": "experiments/yolo/gdt604_naibbe_frozen_target_attack/REPORT.md",
+      "role": "primary compact report",
+      "sha256": "54e7232c5cca3621cf2d74c8b95189eeab512b390e9d8b222091ce59e76e37ef"
+    },
+    {
+      "path": "experiments/yolo/gdt604_naibbe_frozen_target_attack/src/run.py",
+      "role": "standard portable runner entry point",
+      "sha256": "8b8b50eac0caa3ade04ddb72bdc5ecf4ce67757f62825db8fd1c01577e0e6268"
+    },
+    {
+      "path": "experiments/yolo/gdt604_naibbe_frozen_target_attack/src/validate.py",
+      "role": "standard independent-validator entry point",
+      "sha256": "3513477bc1c48a2200f6baedf98db8d0bfd9a6d753deca00df48ba3bd33f8b53"
+    },
+    {
+      "path": "experiments/yolo/gdt604_naibbe_frozen_target_attack/src/run_all.py",
+      "role": "full guarded 36-key reproduction runner",
+      "sha256": "2f218e9df7bdc64546a0015ef584050a9089d0952dd741916858717aa281d29a"
+    },
+    {
+      "path": "experiments/yolo/gdt604_naibbe_frozen_target_attack/src/validate_bundle.py",
+      "role": "288-check structural, binding and live-target validator",
+      "sha256": "c0cbf387f9f253902d2b0416d23e576c454a3a03c64bb98a1e6cd282fc0e4e3a"
+    },
+    {
+      "path": "experiments/yolo/gdt604_naibbe_frozen_target_attack/src/pipeline.py",
+      "role": "guard, key-fit and held-evaluation pipeline",
+      "sha256": "a4ff916fdb40a5a4f53a33a8d35dbb8220bd12024cbe7d055a709c1dcea8a4db"
+    },
+    {
+      "path": "experiments/yolo/gdt604_naibbe_frozen_target_attack/src/portable_factorizer.py",
+      "role": "auditable ciphertext-only U/P/S factorizer",
+      "sha256": "32c868e5f764ddb822fd28176a63c1841dad814df6aa177db5a29e148a055042"
+    },
+    {
+      "path": "experiments/yolo/gdt604_naibbe_frozen_target_attack/src/portable_keylib.py",
+      "role": "capacity-constrained homophone-key solver",
+      "sha256": "41072bff93d38299b6ea22f312684cbfc9e011e45d1276e10d1b8964bf9f797a"
+    },
+    {
+      "path": "experiments/yolo/gdt604_naibbe_frozen_target_attack/src/common.py",
+      "role": "portable path, hash and TSV helpers",
+      "sha256": "1cfc2bce4bd9a6555e6e890342dd70d01ef6b165b9a35990ef3f8be6ebd34388"
+    },
+    {
+      "path": "experiments/yolo/gdt604_naibbe_frozen_target_attack/src/fetch_references.py",
+      "role": "commit- and hash-pinned reference fetcher",
+      "sha256": "ae1e84dd90db20c07987c06bff33c692637cf2eb1238fc5e7b1a03302bb44d26"
+    },
+    {
+      "path": "experiments/yolo/gdt604_naibbe_frozen_target_attack/src/normalize_legacy_freezes.py",
+      "role": "auditable migration from legacy freezes to portable relative metadata",
+      "sha256": "a7712c870ac542f40e9eab6b223aa3def7fefee3e9675f8b3c26caa9f15fb886"
+    },
+    {
+      "path": "experiments/yolo/gdt604_naibbe_frozen_target_attack/artifacts/GDT604_TARGET_ATTACK_PREREG.md",
+      "role": "byte-bound preregistration",
+      "sha256": "47d54ab3b180d4cf1fdc57fd3bbd0f69af866ad39ff61879b72a19ec742c8d97"
+    },
+    {
+      "path": "experiments/yolo/gdt604_naibbe_frozen_target_attack/artifacts/GDT604_TARGET_ATTACK_REPORT.md",
+      "role": "complete target report",
+      "sha256": "c2cd0a4f484abf34ee94d89d1afef357a2821a73ea91f78c4ba35312adf3d400"
+    },
+    {
+      "path": "experiments/yolo/gdt604_naibbe_frozen_target_attack/artifacts/GDT604_TOP_LINES_FULL.md",
+      "role": "complete unstable-reading appendix",
+      "sha256": "01cc06f5b1e94adab78128c31e8dbc96eee79ead413defe70a342f509efdf43b"
+    },
+    {
+      "path": "experiments/yolo/gdt604_naibbe_frozen_target_attack/artifacts/gdt604_folio_split.json",
+      "role": "68/23 physical-folio split freeze",
+      "sha256": "02fea4b3445ad8d8d766c74af382e860247aa3e8b4b47c35d72d21f0d250d796"
+    },
+    {
+      "path": "experiments/yolo/gdt604_naibbe_frozen_target_attack/artifacts/gdt604_target_segmentation_u115.json",
+      "role": "U115 navigation segmentation",
+      "sha256": "be9ab5fbed6109ede96765a2e28c0bd81fd5b68e7221e4f17206af367b55a9d4"
+    },
+    {
+      "path": "experiments/yolo/gdt604_naibbe_frozen_target_attack/artifacts/gdt604_target_segmentation_u132.json",
+      "role": "U132 navigation segmentation",
+      "sha256": "e1a73509a0c3d70e75ad73ca2e87a5c40a81c1345693fc3e47bc1e53498a7880"
+    },
+    {
+      "path": "experiments/yolo/gdt604_naibbe_frozen_target_attack/artifacts/gdt604_target_segmentation_u138.json",
+      "role": "primary U138 segmentation",
+      "sha256": "cc2df74c86553a2c1c9575f728cda8efdf6775736ed6a5251608a4383627d76f"
+    },
+    {
+      "path": "experiments/yolo/gdt604_naibbe_frozen_target_attack/artifacts/gdt604_target_segmentation_u138_trainonly.json",
+      "role": "pre-key train-only U138 freeze",
+      "sha256": "e742393ec666308f5d29c412814a10f9e38d35053626c1e619e0e77d5ebfa5fc"
+    },
+    {
+      "path": "experiments/yolo/gdt604_naibbe_frozen_target_attack/artifacts/gdt604_target_segmentation_freeze.json",
+      "role": "relative segmentation manifest",
+      "sha256": "7a7aaa901871003de3dc6daffc079ab016695d3c743157034202831fb7cf0e36"
+    },
+    {
+      "path": "experiments/yolo/gdt604_naibbe_frozen_target_attack/artifacts/gdt604_target_key_freeze.json",
+      "role": "portable 36-key freeze",
+      "sha256": "4409cb99beded2c5ffb7a94c48d82bb895ac4dfafccb3498c5a921af50958a2d"
+    },
+    {
+      "path": "experiments/yolo/gdt604_naibbe_frozen_target_attack/artifacts/gdt604_target_result.json",
+      "role": "compact held-folio result",
+      "sha256": "ddf807c856f314320ff118b047a165d8add38162682f57f427789d500267dcfc"
+    },
+    {
+      "path": "experiments/yolo/gdt604_naibbe_frozen_target_attack/artifacts/gdt604_reference_calibration.json",
+      "role": "matched readable-reference calibration",
+      "sha256": "86ea19d54adbcd814b0b20925f7a9e7038b3d38b111e76d088c978aef8a18a1d"
+    },
+    {
+      "path": "experiments/yolo/gdt604_naibbe_frozen_target_attack/artifacts/gdt604_top_lines_latin.tsv",
+      "role": "twenty unstable Latin-optimized lines",
+      "sha256": "8d6f0c1e33e817a5cbb3b63175a5daebeb0184f7dba3188f857d01b08769d5ba"
+    },
+    {
+      "path": "experiments/yolo/gdt604_naibbe_frozen_target_attack/artifacts/gdt604_top_lines_old_italian.tsv",
+      "role": "twenty unstable Old-Italian-optimized lines",
+      "sha256": "e8c63a795d3bdfeabb56061242251066d21aa759a7acf82760675a13b05a36c0"
+    },
+    {
+      "path": "experiments/yolo/gdt604_naibbe_frozen_target_attack/artifacts/gdt604_top_lines_middle_high_german.tsv",
+      "role": "twenty unstable Middle-High-German-optimized lines",
+      "sha256": "db4260999e3af50a17b47b33bf93416c9bce69a25f3365180697d6d69a304afa"
+    },
+    {
+      "path": "experiments/yolo/gdt604_naibbe_frozen_target_attack/bindings/gdt604_binding_inventory.json",
+      "role": "complete portable file, reference and provenance inventory",
+      "sha256": "6e385593751c2904c2d4202c213ce12cf1a1f3c0f65fe09921bcf45824cff3e3"
+    },
+    {
+      "path": "experiments/yolo/gdt604_naibbe_frozen_target_attack/bindings/gdt604_validation.json",
+      "role": "independent live-target validation record",
+      "sha256": "fd5caa9cdf2c55cb023b2fb443464a63909cdab7bdb02f3f784846cdc9d93691"
+    }
+  ],
+  "question": "Does the GDT603-recoverable public Naibbe U/P/S architecture yield one stable held-folio language reading when learned only from 68 f84-free Voynich physical folios?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "naibbe_frozen_target_attack",
+  "status": "LM_DRIVEN_PSEUDOTEXT_NO_READING",
+  "title": "Frozen Naibbe target attack",
+  "updated": "2026-08-28",
+  "validation": {
+    "artifact": "experiments/yolo/gdt604_naibbe_frozen_target_attack/bindings/gdt604_validation.json",
+    "status": "PASS"
+  }
+}
