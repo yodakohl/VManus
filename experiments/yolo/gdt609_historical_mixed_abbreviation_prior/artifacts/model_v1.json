@@ -1,0 +1,174 @@
+{
+  "model_id": "HISTORICAL_MIXED_ABBREVIATION_FST_34_V1",
+  "status": "recommended_decoder_prior_not_historical_identification",
+  "scope": {
+    "purpose": "A concrete capacity and composition prior for a future blinded compositional decoder.",
+    "historical_core": [
+      "late-medieval common scribal abbreviation grammar",
+      "medical/recipe specialist overlay"
+    ],
+    "calibrators_only": [
+      "notae iuris",
+      "early Italian diplomatic nomenclator",
+      "mensural notation"
+    ],
+    "explicit_nonclaims": [
+      "No candidate identifies the target language, semantics, script or author.",
+      "No source attests exactly this 34-symbol allocation.",
+      "Observed structural roles are not translations."
+    ]
+  },
+  "primitive_capacity": {
+    "total": 34,
+    "buckets": [
+      {
+        "role": "literal_carrier",
+        "count": 18,
+        "emission_length_min": 1,
+        "emission_length_max": 1,
+        "position": "core",
+        "historical_basis": "ordinary retained letters in suspensions and contractions"
+      },
+      {
+        "role": "syllabic_carrier",
+        "count": 4,
+        "emission_length_min": 1,
+        "emission_length_max": 3,
+        "position": "core",
+        "historical_basis": "syllabic abbreviations and special signs"
+      },
+      {
+        "role": "prefix_operator",
+        "count": 3,
+        "emission_length_min": 1,
+        "emission_length_max": 3,
+        "position": "before_first_core",
+        "historical_basis": "per/par/pre/pro and con/com-like expansions"
+      },
+      {
+        "role": "suffix_operator",
+        "count": 3,
+        "emission_length_min": 1,
+        "emission_length_max": 3,
+        "position": "after_last_core",
+        "historical_basis": "nasal line, -us, -ur, -is/-es and truncation endings"
+      },
+      {
+        "role": "connector",
+        "count": 2,
+        "emission_length_min": 1,
+        "emission_length_max": 3,
+        "position": "between_cores_or_penalized_chunk_edge",
+        "historical_basis": "et/cum/ana-like connective signs or forms"
+      },
+      {
+        "role": "context_abbreviation_mark",
+        "count": 2,
+        "emission_length_min": 1,
+        "emission_length_max": 3,
+        "position": "adjacent_to_carrier",
+        "historical_basis": "marks whose expansion depends on nearest letters"
+      },
+      {
+        "role": "wholeform_logogram",
+        "count": 1,
+        "emission_length_min": 2,
+        "emission_length_max": 8,
+        "position": "entire_chunk_or_typed_recipe_slot",
+        "historical_basis": "whole contractions and specialist Recipe/ana/unit signs"
+      },
+      {
+        "role": "null_layout",
+        "count": 1,
+        "emission_length_min": 0,
+        "emission_length_max": 0,
+        "position": "chunk_edge_or_layout",
+        "historical_basis": "cipher null calibration only; not required by abbreviation practice"
+      }
+    ],
+    "hardness": "soft bucket counts except total=34; permit +/-1 swaps among adjacent functional buckets under an explicit complexity cost"
+  },
+  "composition": {
+    "chunk_grammar_ebnf": [
+      "CHUNK := NULL* (CONNECTOR? BODY CONNECTOR? | CONNECTOR | BOUNDARY_COMPOUND) NULL*",
+      "BODY := WHOLE | PREFIX{0,2} CORE (CONNECTOR CORE){0,3} SUFFIX{0,2}",
+      "CORE := LITERAL | SYLLABIC | CONTEXT_MARK LITERAL | LITERAL CONTEXT_MARK",
+      "BOUNDARY_COMPOUND := CONNECTOR SUFFIX"
+    ],
+    "states": [
+      "START",
+      "LEFT",
+      "CORE",
+      "LINK",
+      "RIGHT",
+      "WHOLE",
+      "END"
+    ],
+    "contextual_allomorphs_per_primitive_max": 3,
+    "composite_output_length_max": 12,
+    "edge_connector_penalty_required": true,
+    "connector_only_chunk_penalty_required": true
+  },
+  "frequent_compounds": {
+    "observed_merge_nodes": 64,
+    "default": "decode compositionally from primitive roles and emissions",
+    "lexicalized_override_max": 8,
+    "wholeform_override_max": 4,
+    "override_emission_length_min": 2,
+    "override_emission_length_max": 8,
+    "requirements": [
+      "An override must beat the compositional parse on frozen held folios after its description-length cost.",
+      "Standalone rate alone is forbidden as evidence for a wholeform override.",
+      "Related singleton compounds must share a family template or pay separately; five qok-family members may not receive five free macros.",
+      "No override may be selected only because it occupies a frequency bucket."
+    ]
+  },
+  "null_policy": {
+    "primitive_slots_max": 1,
+    "primitive_slot_may_be_inactive": true,
+    "merge_level_nulls_primary_model_max": 0,
+    "token_mass_max": 0.03,
+    "post_failure_extension": "At most one additional layout-null merge after the primary model fails, reported separately.",
+    "rationale": "The early Tranchedini comparator reports one null in a much larger flat inventory; abbreviation marks normally expand material rather than erase it."
+  },
+  "structural_anchor_priors": {
+    "C": {
+      "preferred_roles": ["prefix_operator", "syllabic_carrier"],
+      "evidence": "held chunk-initial 0.6934 and chunk-final 0.0056",
+      "semantic_claim": null
+    },
+    "d": {
+      "preferred_roles": ["prefix_operator", "syllabic_carrier"],
+      "evidence": "held chunk-initial 0.4992 and line-initial 0.1759",
+      "semantic_claim": null
+    },
+    "y": {
+      "preferred_roles": ["suffix_operator", "context_abbreviation_mark"],
+      "evidence": "held chunk-final 0.6390 and line-final 0.2347",
+      "semantic_claim": null
+    },
+    "o": {
+      "preferred_roles": ["connector"],
+      "evidence": "held initial 0.3120, final 0.2989, middle 0.4154",
+      "semantic_claim": null
+    },
+    "ol": {
+      "preferred_roles": ["boundary_compound", "lexicalized_override"],
+      "evidence": "held chunk-final 0.5463 and standalone 0.1433",
+      "semantic_claim": null
+    },
+    "qok_singleton_family": {
+      "preferred_roles": ["compositional_compound", "family_shared_override"],
+      "forbidden_inference": "standalone_implies_word_or_long_output",
+      "evidence": "five members have held standalone 0.9444-1.0000 but 0/36 W assignments"
+    }
+  },
+  "evaluation_gates": {
+    "blinded_fit": true,
+    "role_and_emission_freeze_before_held": true,
+    "multiple_starts_required": true,
+    "report_frequency_bucket_controls": true,
+    "report_primary_and_post_failure_models_separately": true,
+    "semantic_success_requires_readability_plus_stability_not_lexicon_bonus_alone": true
+  }
+}
