@@ -1,0 +1,108 @@
+{
+  "runtime": {
+    "synthetic": {
+      "jobs": 6,
+      "max_job_wall_seconds": 32.18230480197235,
+      "min_job_wall_seconds": 31.039651036000578,
+      "sum_cpu_proxy_wall_seconds": 190.39672621295904
+    },
+    "target": {
+      "jobs": 27,
+      "max_job_wall_seconds": 24.74314837899874,
+      "min_job_wall_seconds": 20.49675112499972,
+      "sum_cpu_proxy_wall_seconds": 597.6866267659352
+    }
+  },
+  "schema": "historical34-e2e-evaluation-v1",
+  "source_hashes": {
+    "decoder.cpp": "ea03ee9699c86c9ce8790354c3d3bbbeb23cffbb3db38a7b05103b32008b7f12",
+    "evaluate.py": "bc1c8497db72a80301835b8c87f474e5df9b7dba4a7f56e9c72fce176a0209ad",
+    "make_synthetic.py": "2f453b24298bc57c47f3c1cf91cdc6e3c35e8ea0194e0719e1d563d3206df082",
+    "prepare.py": "9b5c49fa9ac70c260b01987e3e254de90fcba18a4badc48112b60ff2d47aa07a",
+    "prepared_manifest": "681acd170624d22e2b17f3fce78b32f76301f921a468bd63554e05ed0a11a537",
+    "run_all.py": "2f3418f2622e84d90dfcf115ae7bb3870edfede5c31adb9d65398f790ff3b564"
+  },
+  "synthetic": {
+    "held_char_similarity_range": [
+      0.122298504,
+      0.170529235
+    ],
+    "held_exact_rate_range": [
+      0.0,
+      0.000824402
+    ],
+    "override_exact_range": [
+      0,
+      0
+    ],
+    "primitive_role_exact_range": [
+      9,
+      15
+    ],
+    "primitive_role_output_exact_range": [
+      0,
+      4
+    ],
+    "restart_primitive_pair_agreement_mean": 0.13725490196078433,
+    "runs": 6,
+    "truth_decode_rate": 1.0
+  },
+  "target": {
+    "best_held_paragraph": {
+      "decoded_paragraph": "royy / oytex / roy doz olex / royoex / roytex / oyroex / royroyex / doz o disiu q / oyt disiu doz nex || n disiu ex / royoylex / royo disiu q / zam lex / royoex / oylex / royoex / royoex / doz oylex / doz oytex || l zam ex / roytyex / l disiu poylex / royoyex / roytex",
+      "language": "middle_high_german",
+      "letters": 178,
+      "lexicon_char_coverage": "0.275280898876",
+      "line_count": 3,
+      "order_signal_bits_per_letter": "6.341926591265",
+      "page": "f103r",
+      "paragraph_id": "f103r:p18",
+      "physical_folio": "f103",
+      "seed": 3103
+    },
+    "destroyed_jobs": 9,
+    "held_chunks_per_job": 9838,
+    "held_folios": 23,
+    "held_paragraphs": 255,
+    "jobs": 27,
+    "real_jobs": 18,
+    "stability": [
+      {
+        "language": "latin",
+        "primitive_role_output_pairwise_agreement": "0.090196078431",
+        "primitive_role_pairwise_agreement": "0.447058823529",
+        "stable_held_source_position_coverage": "0.000000000000",
+        "stable_span_reference_words": 0,
+        "stable_unit_reference_words": 0,
+        "unanimous_held_word_spans": 0,
+        "unanimous_primitive_role_output_of_34": 0,
+        "unanimous_unit_output_of_98": 0,
+        "unit_output_pairwise_agreement": "0.048979591837"
+      },
+      {
+        "language": "old_italian",
+        "primitive_role_output_pairwise_agreement": "0.072549019608",
+        "primitive_role_pairwise_agreement": "0.429411764706",
+        "stable_held_source_position_coverage": "0.000000000000",
+        "stable_span_reference_words": 0,
+        "stable_unit_reference_words": 0,
+        "unanimous_held_word_spans": 0,
+        "unanimous_primitive_role_output_of_34": 0,
+        "unanimous_unit_output_of_98": 0,
+        "unit_output_pairwise_agreement": "0.044897959184"
+      },
+      {
+        "language": "middle_high_german",
+        "primitive_role_output_pairwise_agreement": "0.096078431373",
+        "primitive_role_pairwise_agreement": "0.427450980392",
+        "stable_held_source_position_coverage": "0.000000000000",
+        "stable_span_reference_words": 0,
+        "stable_unit_reference_words": 0,
+        "unanimous_held_word_spans": 0,
+        "unanimous_primitive_role_output_of_34": 0,
+        "unanimous_unit_output_of_98": 0,
+        "unit_output_pairwise_agreement": "0.055102040816"
+      }
+    ]
+  }
+}
