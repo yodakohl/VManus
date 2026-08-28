@@ -126,8 +126,8 @@
   "outputs": [
     {
       "path": "experiments/yolo/gdt614_core_run_macro_recovery/README.md",
-      "role": "registered synthetic-only experiment entry point",
-      "sha256": "f8d1eabfe56a6d13cbf4e08bc175f4f1d8ac69e11d8d5ba76bbf97eae59fe630"
+      "role": "final synthetic-only experiment entry point",
+      "sha256": "d8b9917f0cfdee38358f19fd26e6bcc4637e477bd26bd109d786af21fc47de13"
     },
     {
       "path": "experiments/yolo/gdt614_core_run_macro_recovery/METHOD.md",
@@ -145,6 +145,21 @@
       "sha256": "f78c50b80cdeba9601a1e432d1a8f87110849d8c9cf0f931381601b73465fa84"
     },
     {
+      "path": "experiments/yolo/gdt614_core_run_macro_recovery/REPORT.md",
+      "role": "final decision and exact 18-versus-8 necessary bound",
+      "sha256": "54c25233e4b6e27dc56f7bc5e3aed91144b26d34abcd8216c5e731adc5212035"
+    },
+    {
+      "path": "experiments/yolo/gdt614_core_run_macro_recovery/DEVIATIONS.md",
+      "role": "fail-fast execution and skipped-gate audit",
+      "sha256": "30aec456de0e440b9c9c2ea9f0647cba381d7dd786aada35d5a8b7b7d73fbb73"
+    },
+    {
+      "path": "experiments/yolo/gdt614_core_run_macro_recovery/requirements.txt",
+      "role": "pinned exact-solver dependency",
+      "sha256": "44b296966bca1bc445ade56faef88eac0a97a1f840a5ac50e065f527f4f3f257"
+    },
+    {
       "path": "experiments/yolo/gdt614_core_run_macro_recovery/artifacts/REGISTERED_MODEL.json",
       "role": "frozen V2 grammar, deck, primitive assignment, thresholds, and seeds",
       "sha256": "ed841dc254a961650a8bda8bdc6024b67655f6bdc96e5dab2aec02f1686ecc42"
@@ -156,18 +171,48 @@
     },
     {
       "path": "experiments/yolo/gdt614_core_run_macro_recovery/src/run.py",
-      "role": "registered placeholder runner before implementation",
-      "sha256": "82819fe5a84a0829820ca95f647e4af71c932f5e7bbce9662cd7b8c4d43f15aa"
+      "role": "fail-fast necessary-bound runner",
+      "sha256": "df263c59f98c75193c81c14dbc15e7293bd9b16e71a8a38cff4cd73db3631bfa"
+    },
+    {
+      "path": "experiments/yolo/gdt614_core_run_macro_recovery/src/necessary_bound.py",
+      "role": "exact raw-support and subtree hitting-set implementation",
+      "sha256": "dcdab8f1b2a65270834574dc7fb9f7974f8ac3baf9b1801f35642b19e250442a"
     },
     {
       "path": "experiments/yolo/gdt614_core_run_macro_recovery/src/validate.py",
-      "role": "registered placeholder validator before implementation",
-      "sha256": "82819fe5a84a0829820ca95f647e4af71c932f5e7bbce9662cd7b8c4d43f15aa"
+      "role": "independent bound and witness validator",
+      "sha256": "fb9011a25eca644d78c6608b09822c7b0f2018523e9d4256d322d62031ca540d"
     },
     {
       "path": "experiments/yolo/gdt614_core_run_macro_recovery/artifacts/README.md",
-      "role": "registered artifact placeholder",
-      "sha256": "ea2dd7229bd1ccb3a4d1f5b78ce4c5f2ab6587b32efedcd5bd829d3d2e5a26be"
+      "role": "final compact artifact inventory",
+      "sha256": "34feeb69aad8f76f685c49c7b7499b44fea95e729b3bfcfb4d418ca009a8894d"
+    },
+    {
+      "path": "experiments/yolo/gdt614_core_run_macro_recovery/artifacts/RESULTS.json",
+      "role": "compact exact decision summary",
+      "sha256": "64d0dc69e20ab860e0f970f19d40bad89a3ce779c63ec66d299a42d7f8a88a9a"
+    },
+    {
+      "path": "experiments/yolo/gdt614_core_run_macro_recovery/artifacts/VALIDATION.json",
+      "role": "independent 398-check validation",
+      "sha256": "c3f1e9972f743363a21e5e32906765ee5e887681ed5b0e7beea4fc2338a6df92"
+    },
+    {
+      "path": "experiments/yolo/gdt614_core_run_macro_recovery/artifacts/input_manifest.tsv",
+      "role": "consumed input paths, sizes, and hashes",
+      "sha256": "409ec4fdcb97db18284031d0ec375921ada36145cdca37f6e546254a738f923d"
+    },
+    {
+      "path": "experiments/yolo/gdt614_core_run_macro_recovery/artifacts/necessary_merge_bound.tsv",
+      "role": "64-node raw render, support, and affecting-subtree audit",
+      "sha256": "5dc97f8d4af82d03eab53ee4e6849ed03ac3eff79180c93ab3da3326a6cae839"
+    },
+    {
+      "path": "experiments/yolo/gdt614_core_run_macro_recovery/artifacts/minimum_hitting_witness.tsv",
+      "role": "deterministic exact 18-node minimum witness",
+      "sha256": "8aa6b21cffb27bed914b6e1d6dbc5889fed29754bcfa771f30cabb2468fd39aa"
     }
   ],
   "question": "Can the minimal GDT613 repair construct three observation-complete natural truth worlds and make all 34 primitive cards, eight paid merge cards, 64 merge behaviors, transitions, and held plaintext blindly recoverable?",
@@ -177,11 +222,11 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "core_run_macro_recovery",
-  "status": "REGISTERED_UNSCORED",
+  "status": "TRUTH_GENERATOR_INFEASIBLE",
   "title": "Observation-complete CORE_RUN/MACRO recovery",
   "updated": "2026-08-29",
   "validation": {
-    "artifact": null,
-    "status": "NOT_RUN"
+    "artifact": "experiments/yolo/gdt614_core_run_macro_recovery/artifacts/VALIDATION.json",
+    "status": "PASS"
   }
 }
