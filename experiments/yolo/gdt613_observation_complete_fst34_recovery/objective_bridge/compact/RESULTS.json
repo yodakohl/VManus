@@ -1,0 +1,78 @@
+{
+  "claim_ceiling": "Local objective bridge only; no global recovery, historical key, Voynich language, plaintext, or translation claim.",
+  "decision": "PURE_LATIN_CE_FAILS_AT_LEAST_ONE_DECLARED_BRIDGE_GATE",
+  "input_count": 20,
+  "local_structure_invariance_failures": [],
+  "models": [
+    "LEGACY_CONTINUOUS_CHUNK__FULL_REFERENCE",
+    "LEGACY_CONTINUOUS_CHUNK__LM_FIT_40",
+    "LEGACY_CONTINUOUS_CHUNK__LM_CONFIRM_20",
+    "LEGACY_CONTINUOUS_CHUNK__SYNTHETIC_HELD_ONLY",
+    "RESET_MATCHED_WORD__FULL_REFERENCE",
+    "RESET_MATCHED_WORD__LM_FIT_40",
+    "RESET_MATCHED_WORD__LM_CONFIRM_20",
+    "RESET_MATCHED_WORD__SYNTHETIC_HELD_ONLY"
+  ],
+  "mutation_universe": {
+    "candidate_inventory": "published GDT612 latin_real_candidates.tsv",
+    "count": 1888,
+    "same_output_length": true,
+    "same_overrides": true,
+    "same_role": true
+  },
+  "primary_local_decoys_beating_truth_by_model": {
+    "LEGACY_CONTINUOUS_CHUNK__FULL_REFERENCE": [
+      "P21_q_TO_x",
+      "P28_que_TO_qua"
+    ],
+    "LEGACY_CONTINUOUS_CHUNK__LM_CONFIRM_20": [
+      "P21_q_TO_x",
+      "P28_que_TO_qua"
+    ],
+    "LEGACY_CONTINUOUS_CHUNK__LM_FIT_40": [
+      "P21_q_TO_x",
+      "P28_que_TO_qua",
+      "P32_in_TO_et"
+    ],
+    "LEGACY_CONTINUOUS_CHUNK__SYNTHETIC_HELD_ONLY": [
+      "P28_que_TO_qua"
+    ],
+    "RESET_MATCHED_WORD__FULL_REFERENCE": [
+      "P21_q_TO_x",
+      "P28_que_TO_qua"
+    ],
+    "RESET_MATCHED_WORD__LM_CONFIRM_20": [
+      "P21_q_TO_x",
+      "P28_que_TO_qua"
+    ],
+    "RESET_MATCHED_WORD__LM_FIT_40": [
+      "P21_q_TO_x",
+      "P28_que_TO_qua",
+      "P32_in_TO_et"
+    ],
+    "RESET_MATCHED_WORD__SYNTHETIC_HELD_ONLY": [
+      "P28_que_TO_qua"
+    ]
+  },
+  "primary_local_decoys_beating_truth_in_every_model": [
+    "P28_que_TO_qua"
+  ],
+  "primary_weight_scheme": "event_count_PRIMARY",
+  "schema": "gdt613-scratch-pure-latin-ce-v1",
+  "train_chunk_types": 4326,
+  "train_event_count": 14553,
+  "triggered_falsifiers": [
+    "F_LOCAL_LEGACY_CONTINUOUS_CHUNK__FULL_REFERENCE",
+    "F_LOCAL_LEGACY_CONTINUOUS_CHUNK__LM_FIT_40",
+    "F_LOCAL_LEGACY_CONTINUOUS_CHUNK__LM_CONFIRM_20",
+    "F_LOCAL_LEGACY_CONTINUOUS_CHUNK__SYNTHETIC_HELD_ONLY",
+    "F_LOCAL_RESET_MATCHED_WORD__FULL_REFERENCE",
+    "F_LOCAL_RESET_MATCHED_WORD__LM_FIT_40",
+    "F_LOCAL_RESET_MATCHED_WORD__LM_CONFIRM_20",
+    "F_LOCAL_RESET_MATCHED_WORD__SYNTHETIC_HELD_ONLY"
+  ],
+  "truth_unique_rank1_all_primary_local_panels": false,
+  "truth_unique_rank1_all_primary_seven_key_panels": true,
+  "zero_exposure_mutation_ties_per_panel": 232,
+  "zero_exposure_primitive_count": 4
+}

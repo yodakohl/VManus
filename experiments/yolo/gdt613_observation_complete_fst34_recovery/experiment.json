@@ -3,7 +3,7 @@
     "large_artifact_justification": "",
     "max_inline_bytes": 5000000
   },
-  "claim_ceiling": "May select or reject the synthetic generator, generative objective, exact-FST implementation and optimizer. It may not fit target Voynich data, assign a Voynich unit, word, sound, language, plaintext or meaning, or use f84/f84r material.",
+  "claim_ceiling": "Rejects only the registered exact flattened-piece grammar, simultaneous merge/card-child coverage gates, and frozen natural-Latin length/WHOLE deck. No Voynich target fit, unit value, word, sound, language, plaintext or meaning; no f84/f84r material.",
   "commands": {
     "run": "python3 experiments/yolo/gdt613_observation_complete_fst34_recovery/src/run.py",
     "validate": "python3 experiments/yolo/gdt613_observation_complete_fst34_recovery/src/validate.py"
@@ -18,60 +18,380 @@
   "inputs": [
     {
       "path": "experiments/yolo/gdt608_compositional_stem_orientation/artifacts/merge_tree.tsv",
-      "role": "published directed 64-merge composition tree",
+      "role": "directed 64-merge composition tree",
       "sha256": "2098c71be9da13b483cf2561e06412276d8c60aa32e72520e8877f8f5d53090a"
     },
     {
       "path": "experiments/yolo/gdt609_historical_mixed_abbreviation_prior/artifacts/model_v1.json",
-      "role": "exact historical FST34 specification to compile and execute",
+      "role": "historical FST34 model",
       "sha256": "0c9219bd02e063758806b58a174cbf546fdf0f3c5853ed3c98dcfa422abbe5f0"
     },
     {
       "path": "experiments/yolo/gdt612_historical_fst34_target_attack/artifacts/latin_real_words.txt",
-      "role": "hash-bound normalized Latin reference to partition before truth generation",
+      "role": "normalized Latin reference for registered split",
       "sha256": "82adaef7c8fa937e90a376a24a2cfce171150b1ef33f83f6585809d83dda3f26"
     },
     {
-      "path": "experiments/yolo/gdt612_historical_fst34_target_attack/artifacts/units.tsv",
-      "role": "published 98-unit tree identifiers for synthetic control",
-      "sha256": "8fc32a38dbe47a5d738698ccccd7289fe3d533e9e5d870624da11f0fc5d19180"
+      "path": "experiments/yolo/gdt612_historical_fst34_target_attack/artifacts/reference_packs/latin_real_candidates.tsv",
+      "role": "synthetic objective-bridge input latin_candidates",
+      "sha256": "41ceffdb45c3ff19f3d598426477d47987de6b11bea763ee6cf2463b92e220f4"
+    },
+    {
+      "path": "experiments/yolo/gdt612_historical_fst34_target_attack/artifacts/reference_packs/latin_real_words.txt",
+      "role": "synthetic objective-bridge input latin_words",
+      "sha256": "82adaef7c8fa937e90a376a24a2cfce171150b1ef33f83f6585809d83dda3f26"
     },
     {
       "path": "experiments/yolo/gdt612_historical_fst34_target_attack/artifacts/primitives.tsv",
-      "role": "published 34 primitive identifiers and structural features",
+      "role": "synthetic objective-bridge input primitives",
       "sha256": "3a5e89dbd89c5c833db4884cadff0ccbdc438e9ce8e832be0bc1b7e3df636ae6"
+    },
+    {
+      "path": "experiments/yolo/gdt612_historical_fst34_target_attack/artifacts/keys/synthetic/seed_7001/merge_overrides.tsv",
+      "role": "synthetic objective-bridge input seed_7001_overrides",
+      "sha256": "f7c32926ce410f766138d560a13e8fe9ecf58c3094827da445fe5f10aff877f0"
+    },
+    {
+      "path": "experiments/yolo/gdt612_historical_fst34_target_attack/artifacts/keys/synthetic/seed_7001/primitive_mapping.tsv",
+      "role": "synthetic objective-bridge input seed_7001_primitives",
+      "sha256": "ec33df734cc8e6414ef099d189391791d8ec3f051cf6aa8506497d1274d44852"
+    },
+    {
+      "path": "experiments/yolo/gdt612_historical_fst34_target_attack/artifacts/keys/synthetic/seed_7002/merge_overrides.tsv",
+      "role": "synthetic objective-bridge input seed_7002_overrides",
+      "sha256": "35ce9156de54268c201a9cefe6e213151c855332c787b22b0de9d0de66716521"
+    },
+    {
+      "path": "experiments/yolo/gdt612_historical_fst34_target_attack/artifacts/keys/synthetic/seed_7002/primitive_mapping.tsv",
+      "role": "synthetic objective-bridge input seed_7002_primitives",
+      "sha256": "6833c05919a3c1a4ea7accce8065fd8f68bb1fbfe1473bb4d1b093e46e880a98"
+    },
+    {
+      "path": "experiments/yolo/gdt612_historical_fst34_target_attack/artifacts/keys/synthetic/seed_7003/merge_overrides.tsv",
+      "role": "synthetic objective-bridge input seed_7003_overrides",
+      "sha256": "fdd8a2edd201eacf5074b6e2f640c4e5e880825ae388d72914143dd107d63448"
+    },
+    {
+      "path": "experiments/yolo/gdt612_historical_fst34_target_attack/artifacts/keys/synthetic/seed_7003/primitive_mapping.tsv",
+      "role": "synthetic objective-bridge input seed_7003_primitives",
+      "sha256": "c2e5fa9c6177d57bf864d46b0052e203ab66fd6e10aaae45899a18f41093d0f2"
+    },
+    {
+      "path": "experiments/yolo/gdt612_historical_fst34_target_attack/artifacts/keys/synthetic/seed_7004/merge_overrides.tsv",
+      "role": "synthetic objective-bridge input seed_7004_overrides",
+      "sha256": "e63713385e65a95384fb4098b2cf602a3a2a849e9e1d0ac1d61e81f0037138e1"
+    },
+    {
+      "path": "experiments/yolo/gdt612_historical_fst34_target_attack/artifacts/keys/synthetic/seed_7004/primitive_mapping.tsv",
+      "role": "synthetic objective-bridge input seed_7004_primitives",
+      "sha256": "05a0de92630b38c76c3107948478e39385b61c7b3533b1263007ab39aa73c473"
+    },
+    {
+      "path": "experiments/yolo/gdt612_historical_fst34_target_attack/artifacts/keys/synthetic/seed_7005/merge_overrides.tsv",
+      "role": "synthetic objective-bridge input seed_7005_overrides",
+      "sha256": "6b1009066bb26a897ca05e284df602507146209bb4e0320e737dea1ccb9b35c7"
+    },
+    {
+      "path": "experiments/yolo/gdt612_historical_fst34_target_attack/artifacts/keys/synthetic/seed_7005/primitive_mapping.tsv",
+      "role": "synthetic objective-bridge input seed_7005_primitives",
+      "sha256": "11dbdae04f5a761d2315fbffb65fcdbcf22a6fcad5510680d46c4f5eddd03410"
+    },
+    {
+      "path": "experiments/yolo/gdt612_historical_fst34_target_attack/artifacts/keys/synthetic/seed_7006/merge_overrides.tsv",
+      "role": "synthetic objective-bridge input seed_7006_overrides",
+      "sha256": "7df961d833529ef220421803b1effba99651acabe4c46b3e3ad2729161b01235"
+    },
+    {
+      "path": "experiments/yolo/gdt612_historical_fst34_target_attack/artifacts/keys/synthetic/seed_7006/primitive_mapping.tsv",
+      "role": "synthetic objective-bridge input seed_7006_primitives",
+      "sha256": "5ab1de6085da7c2a4e7879c03d656e9415c0ada4cc4c41ca65163991428aa022"
+    },
+    {
+      "path": "experiments/yolo/gdt612_historical_fst34_target_attack/artifacts/synthetic_held.tsv",
+      "role": "synthetic objective-bridge input synthetic_held",
+      "sha256": "588d0b269102f96f7a1db3d0c9967e83a87e2c6cb8da03fa08cbb0e6fd3033de"
+    },
+    {
+      "path": "experiments/yolo/gdt612_historical_fst34_target_attack/artifacts/synthetic_train_chunks.tsv",
+      "role": "synthetic objective-bridge input train_chunks",
+      "sha256": "dc6a154345d82772d32d8d7f100a81b8d48af622b9b2323f44bbdcfacc3010cd"
+    },
+    {
+      "path": "experiments/yolo/gdt612_historical_fst34_target_attack/artifacts/synthetic_truth_overrides.tsv",
+      "role": "synthetic objective-bridge input truth_overrides",
+      "sha256": "a789a39518a50090c1c9e6c6843bf306759b295f1488e65b8dadc4510ff2de04"
+    },
+    {
+      "path": "experiments/yolo/gdt612_historical_fst34_target_attack/artifacts/synthetic_truth_primitives.tsv",
+      "role": "synthetic objective-bridge input truth_primitives",
+      "sha256": "0529bdee6f70e54ea5b3cfabfff863e50002547e03e2509601cebaaa7cfe79ac"
+    },
+    {
+      "path": "experiments/yolo/gdt612_historical_fst34_target_attack/artifacts/units.tsv",
+      "role": "synthetic objective-bridge input units",
+      "sha256": "8fc32a38dbe47a5d738698ccccd7289fe3d533e9e5d870624da11f0fc5d19180"
     }
   ],
   "outputs": [
     {
-      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/README.md",
-      "role": "registered synthetic-only experiment entry point",
-      "sha256": "08e1fcdf93f3fbc0b40fad386bb2ce857ea09abe86475ed9005474f066cf4046"
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/DEVIATIONS.md",
+      "role": "public report, method, registration or routing document",
+      "sha256": "5d211b38cba398ecd42723327b730d5fa8516f589815a1fd55dc4a1b7667dc0d"
     },
     {
       "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/METHOD.md",
-      "role": "registered corrected method and claim ceiling",
-      "sha256": "08c0e01881ec08f604a44d9c9b9e1aafb53a40bde50147f629d0ae3928c77610"
+      "role": "public report, method, registration or routing document",
+      "sha256": "830780fcdde844be4cf173e3729fee2228fdcd4d5fd63e75d3a890aa6c02fb12"
     },
     {
       "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/PREREGISTRATION.md",
-      "role": "prospective observability, oracle and recovery gates",
+      "role": "public report, method, registration or routing document",
       "sha256": "3c1342dcb1e1894ede1c34ca52d33eebc1a6d5cdb8e7d2fe75c32fbca4757996"
     },
     {
-      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/src/run.py",
-      "role": "registered placeholder runner before implementation",
-      "sha256": "82819fe5a84a0829820ca95f647e4af71c932f5e7bbce9662cd7b8c4d43f15aa"
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/README.md",
+      "role": "public report, method, registration or routing document",
+      "sha256": "684d9181bd36db09e0b38b6fd1ce646ce077e0853f18cc0612323e42bd7107c5"
     },
     {
-      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/src/validate.py",
-      "role": "registered placeholder validator before implementation",
-      "sha256": "82819fe5a84a0829820ca95f647e4af71c932f5e7bbce9662cd7b8c4d43f15aa"
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/REPORT.md",
+      "role": "public report, method, registration or routing document",
+      "sha256": "66a3f848c34c99cbaa4a7120c234596047dbd3ff5abd210ca216ff9e52c19d4e"
+    },
+    {
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/artifacts/PREPARED_MANIFEST.json",
+      "role": "compact reproducibility or result artifact",
+      "sha256": "8020e28c8909206edb1dadada7866330a628c7a7a0b14ae8fb1c4e75194cd219"
     },
     {
       "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/artifacts/README.md",
-      "role": "registered artifact placeholder",
-      "sha256": "ae7d2d91af4d6362aeda38582b1790d3bf29b968555d177b21dfec9aaf2be83f"
+      "role": "public report, method, registration or routing document",
+      "sha256": "728bc2f8e95d7f5dd782585244d77867ccb0454ebb2142f60c7a9877e4148be7"
+    },
+    {
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/artifacts/RESULTS.json",
+      "role": "compact reproducibility or result artifact",
+      "sha256": "020258535c5b035eeaef05a644261be424e647c2dfc062717b0c7985d199628e"
+    },
+    {
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/artifacts/VALIDATION.json",
+      "role": "compact reproducibility or result artifact",
+      "sha256": "2dd66e3d6950735f5bffc54f36c4ef8b60858a874ef2b1b80b4dfdf34b5f4cfa"
+    },
+    {
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/artifacts/compiled_model.json",
+      "role": "compact reproducibility or result artifact",
+      "sha256": "e171acac3b3d921f8234f222888223f2ef278409edf5e797d541a623d6b3f250"
+    },
+    {
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/artifacts/grammar_scope_bridge.json",
+      "role": "compact reproducibility or result artifact",
+      "sha256": "c9b5710da835a56f4432283895a3a8c1b3073ecf2bfa03aa902a30bfd8c4577e"
+    },
+    {
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/artifacts/grammar_scope_bridge.tsv",
+      "role": "compact reproducibility or result artifact",
+      "sha256": "426e1e479f44bde8cad7d22db1472fdfe2cb6d16a65630e89c2136cb17cac04d"
+    },
+    {
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/artifacts/grammar_scope_failures.tsv",
+      "role": "compact reproducibility or result artifact",
+      "sha256": "9a81431adf388186e737698c21a065060d33566139527c8ae85fb4c4dc00803d"
+    },
+    {
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/artifacts/grammar_substring_counts.tsv",
+      "role": "compact reproducibility or result artifact",
+      "sha256": "794b4fe6f2e3a977e183c287f24c5fda7c207336737880d0bb087f9e8eb53452"
+    },
+    {
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/artifacts/length_card_profile.json",
+      "role": "compact reproducibility or result artifact",
+      "sha256": "9e6c4a6412efe39e924bd360d3edd9d53cd1210ff801c5a72c9d12cefeb1079e"
+    },
+    {
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/artifacts/length_deck_feasibility.json",
+      "role": "compact reproducibility or result artifact",
+      "sha256": "532f73db3b2c294633e113cd5cc7cd2fb4600b017ed35769a4453949149e3ff4"
+    },
+    {
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/artifacts/length_deck_ngram_capacity.tsv",
+      "role": "compact reproducibility or result artifact",
+      "sha256": "fb54f44f28545a2414a7d408a410f3b2e4f9107869524fac66a211e040ddcb6f"
+    },
+    {
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/artifacts/raw_leaf_merge_bound.json",
+      "role": "compact reproducibility or result artifact",
+      "sha256": "38e93d29068dfa6ee0e1605b84f9871dffc2e2246b208184b3e9a334cd2c008d"
+    },
+    {
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/artifacts/reference_split_manifest.tsv",
+      "role": "compact reproducibility or result artifact",
+      "sha256": "9df9c5616a52485e85101dedb142e6814030263d9323c165da724c3fcb49328f"
+    },
+    {
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/artifacts/reference_splits/lm_confirm.txt",
+      "role": "compact reproducibility or result artifact",
+      "sha256": "73d40ca54cc2fec3e7f1a5df4994a5cd394f4cbee2dacf966aa81c59518246a1"
+    },
+    {
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/artifacts/reference_splits/lm_fit.txt",
+      "role": "compact reproducibility or result artifact",
+      "sha256": "2255b67ffb1b41bf1c327b97fb5b7c87acec70947aeeb3b75143d55a2af1c412"
+    },
+    {
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/artifacts/reference_splits/synthetic_held.txt",
+      "role": "compact reproducibility or result artifact",
+      "sha256": "7fa47a1396870cf32d00748bbb213e993e853239a57b425796df26ac8e5f04bd"
+    },
+    {
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/artifacts/reference_splits/synthetic_train.txt",
+      "role": "compact reproducibility or result artifact",
+      "sha256": "466f1568a9a387c4b091a6c1679c78ee136919ca7c959bd8742afdda3d272e78"
+    },
+    {
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/artifacts/relaxed_control_witness.json",
+      "role": "compact reproducibility or result artifact",
+      "sha256": "03a4ac1e3b3cb057d4edad771b0cbb0854aea61ee82daa022d55ee9d65ab4ff6"
+    },
+    {
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/artifacts/relaxed_role_assignment.tsv",
+      "role": "compact reproducibility or result artifact",
+      "sha256": "77ef23edba7fcf8e923152bbf6429f05301d4c3e5b5425ccea9c85aaea894eb4"
+    },
+    {
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/artifacts/structural_input_hashes.tsv",
+      "role": "compact reproducibility or result artifact",
+      "sha256": "cd9c4c9e2d84e656a1d5eb3a045c7c66df41d6d89fa33a44642efe9b286bbb4f"
+    },
+    {
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/artifacts/structural_queries.tsv",
+      "role": "compact reproducibility or result artifact",
+      "sha256": "36d193734b83505dcdf6fe27e6bfa22c49f1d56f6f243d026ccbd331611a3c89"
+    },
+    {
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/artifacts/wholeform_envelope_capacity.tsv",
+      "role": "compact reproducibility or result artifact",
+      "sha256": "12491f92dea5ab35fab1c510c488bda73817f0cad9a6adbfe6a2c00ed703ef10"
+    },
+    {
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/objective_bridge/PREREGISTRATION.md",
+      "role": "public report, method, registration or routing document",
+      "sha256": "d5a4b4be95e104cbaa89ebbe7220054b38b873b81e9c17536c6e9d38898d4144"
+    },
+    {
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/objective_bridge/README.md",
+      "role": "public report, method, registration or routing document",
+      "sha256": "eb2e941e099bb5dbae32023d4d710e3985a355f6f98f1ae7786dc2461d3b6837"
+    },
+    {
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/objective_bridge/REPORT.md",
+      "role": "public report, method, registration or routing document",
+      "sha256": "ec91e7f968ecd63525cd5721d2e8bb0645b932887dcb0a17611f8e27a593a746"
+    },
+    {
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/objective_bridge/compact/INDEPENDENT_VALIDATION.json",
+      "role": "compact reproducibility or result artifact",
+      "sha256": "339b6b2f11ff091f442aad0a37d3c59a1f6c084567eb7a789d8ffccc52eb11ff"
+    },
+    {
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/objective_bridge/compact/RESULTS.json",
+      "role": "compact reproducibility or result artifact",
+      "sha256": "85b4b8af47691cad021d5680e88ff889dce5a00b3e7fe99110252d0418c81672"
+    },
+    {
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/objective_bridge/compact/VALIDATION.json",
+      "role": "compact reproducibility or result artifact",
+      "sha256": "5b0267dc5adccb3885211ac72d97cf710aae0f2b8ab18891bb85af89d21d8586"
+    },
+    {
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/objective_bridge/compact/hard_falsifiers.tsv",
+      "role": "compact reproducibility or result artifact",
+      "sha256": "221f39a3200aa8338dead1361767fea43fcd451a86357a428b5bb75fd5b8c165"
+    },
+    {
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/objective_bridge/compact/input_manifest.tsv",
+      "role": "compact reproducibility or result artifact",
+      "sha256": "e42c2236b6ac997b4a8f1979888a3b40a09d5789a39ea299875aeb8b0a534455"
+    },
+    {
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/objective_bridge/compact/key_rank_summary.tsv",
+      "role": "compact reproducibility or result artifact",
+      "sha256": "c34f327b034583f68c96a44649f87f52f61e3cb82446e1a08d2dee9fa9243ed2"
+    },
+    {
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/objective_bridge/compact/key_scores.tsv",
+      "role": "compact reproducibility or result artifact",
+      "sha256": "d3f41bbf35e434705b6d004998d9e069f904354a417a8786251c8184da86bf11"
+    },
+    {
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/objective_bridge/compact/local_truth_rank_summary.tsv",
+      "role": "compact reproducibility or result artifact",
+      "sha256": "f4d8e2d97f88e5f2ca425686669934710e8109f83977891c0e339fdefe8d1abe"
+    },
+    {
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/objective_bridge/compact/mutation_catalog.tsv",
+      "role": "compact reproducibility or result artifact",
+      "sha256": "3b4ce38cce8429e98db0d780aa0f5959c132dacf804f13d5a2c6f13a0bca2e2f"
+    },
+    {
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/objective_bridge/compact/reference_split_audit.tsv",
+      "role": "compact reproducibility or result artifact",
+      "sha256": "29d2beb44f658ef44ba2efdf6fd33ef7ca16ea3958fb80a0fd2bcb15d569d602"
+    },
+    {
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/objective_bridge/compact/zero_exposure_tie_audit.tsv",
+      "role": "compact reproducibility or result artifact",
+      "sha256": "61c5518a45a8cfeb1c7c6c2d87d651310bb67d110a0ef4f299a333afeca3be2e"
+    },
+    {
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/objective_bridge/gdt613_bridge_audit.py",
+      "role": "reproduction or validation source",
+      "sha256": "7654b7bc5d2508637198483c0cb7e95c5b61cfc1a33be6e5a234a82aa2f79be5"
+    },
+    {
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/objective_bridge/validate_bridge.py",
+      "role": "reproduction or validation source",
+      "sha256": "85adc13ce5ecbcb4e14201848e50d083d872abcf1ddb2b3f9060583f440e758e"
+    },
+    {
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/requirements.txt",
+      "role": "compact reproducibility or result artifact",
+      "sha256": "44b296966bca1bc445ade56faef88eac0a97a1f840a5ac50e065f527f4f3f257"
+    },
+    {
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/src/fst.py",
+      "role": "reproduction or validation source",
+      "sha256": "38f0b28c0759eec40639f1444acdbbf3bbd9261b70cf9f157f5e73a10284035e"
+    },
+    {
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/src/grammar_scope_bridge.py",
+      "role": "reproduction or validation source",
+      "sha256": "f592d6689f1dc1def6688d5433ef042e9ac25b0fb12853c6dc1b42e8168d84c3"
+    },
+    {
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/src/length_deck_audit.py",
+      "role": "reproduction or validation source",
+      "sha256": "040f8893ea9f16163f6d61fc740c036a4b32eac683c9051a86e0e3efeaa65abc"
+    },
+    {
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/src/prepare.py",
+      "role": "reproduction or validation source",
+      "sha256": "bf4eb2077a5abcc8897f25ddad97dd2ad89666dc2b565644c12223aa7b6a3bf0"
+    },
+    {
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/src/run.py",
+      "role": "reproduction or validation source",
+      "sha256": "ccb4dea45a1149b34169d93198a1c6264f57d258030b1e2384e6e644b68410f4"
+    },
+    {
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/src/structural_model.py",
+      "role": "reproduction or validation source",
+      "sha256": "0257551bd1767b77edf2075ff901824b9d7e4e9a0e5f51a90a166117d8460ead"
+    },
+    {
+      "path": "experiments/yolo/gdt613_observation_complete_fst34_recovery/src/validate.py",
+      "role": "reproduction or validation source",
+      "sha256": "297e1694494c50d61aa0cfa1b5a58b46e8bee9f8999dcf501b803cfb58456e8b"
     }
   ],
   "question": "Can an exact GDT609 FST34 implementation recover natural planted plaintext and every primitive and paid merge card once every parameter is directly observable under a generative language objective?",
@@ -81,11 +401,11 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "observation_complete_fst34_recovery",
-  "status": "REGISTERED_UNSCORED",
+  "status": "MODEL_SCOPE_UNDERSPECIFIED_OR_INFEASIBLE",
   "title": "Observation-complete FST34 recovery",
-  "updated": "2026-08-28",
+  "updated": "2026-08-29",
   "validation": {
-    "artifact": null,
-    "status": "NOT_RUN"
+    "artifact": "experiments/yolo/gdt613_observation_complete_fst34_recovery/artifacts/VALIDATION.json",
+    "status": "PASS"
   }
 }

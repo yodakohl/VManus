@@ -1,0 +1,1215 @@
+{
+  "frequent_compounds": {
+    "default": "decode compositionally from primitive roles and emissions",
+    "lexicalized_override_max": 8,
+    "observed_merge_nodes": 64,
+    "override_emission_length_max": 8,
+    "override_emission_length_min": 2,
+    "requirements": [
+      "An override must beat the compositional parse on frozen held folios after its description-length cost.",
+      "Standalone rate alone is forbidden as evidence for a wholeform override.",
+      "Related singleton compounds must share a family template or pay separately; five qok-family members may not receive five free macros.",
+      "No override may be selected only because it occupies a frequency bucket."
+    ],
+    "wholeform_override_max": 4
+  },
+  "grammar": {
+    "chunk_grammar_ebnf": [
+      "CHUNK := NULL* (CONNECTOR? BODY CONNECTOR? | CONNECTOR | BOUNDARY_COMPOUND) NULL*",
+      "BODY := WHOLE | PREFIX{0,2} CORE (CONNECTOR CORE){0,3} SUFFIX{0,2}",
+      "CORE := LITERAL | SYLLABIC | CONTEXT_MARK LITERAL | LITERAL CONTEXT_MARK",
+      "BOUNDARY_COMPOUND := CONNECTOR SUFFIX"
+    ],
+    "composite_output_length_max": 12,
+    "connector_only_chunk_penalty_required": true,
+    "contextual_allomorphs_per_primitive_max": 3,
+    "edge_connector_penalty_required": true,
+    "states": [
+      "START",
+      "LEFT",
+      "CORE",
+      "LINK",
+      "RIGHT",
+      "WHOLE",
+      "END"
+    ]
+  },
+  "merge_count": 64,
+  "merges": [
+    {
+      "leaves": [
+        "d",
+        "y"
+      ],
+      "left": "d",
+      "left_unit_id": 7,
+      "rank": 1,
+      "right": "y",
+      "right_unit_id": 1,
+      "unit": "dy",
+      "unit_id": 25
+    },
+    {
+      "leaves": [
+        "o",
+        "k"
+      ],
+      "left": "o",
+      "left_unit_id": 8,
+      "rank": 2,
+      "right": "k",
+      "right_unit_id": 11,
+      "unit": "ok",
+      "unit_id": 9
+    },
+    {
+      "leaves": [
+        "o",
+        "l"
+      ],
+      "left": "o",
+      "left_unit_id": 8,
+      "rank": 3,
+      "right": "l",
+      "right_unit_id": 23,
+      "unit": "ol",
+      "unit_id": 0
+    },
+    {
+      "leaves": [
+        "a",
+        "N"
+      ],
+      "left": "a",
+      "left_unit_id": 49,
+      "rank": 4,
+      "right": "N",
+      "right_unit_id": 56,
+      "unit": "aN",
+      "unit_id": 6
+    },
+    {
+      "leaves": [
+        "C",
+        "e"
+      ],
+      "left": "C",
+      "left_unit_id": 2,
+      "rank": 5,
+      "right": "e",
+      "right_unit_id": 20,
+      "unit": "Ce",
+      "unit_id": 15
+    },
+    {
+      "leaves": [
+        "o",
+        "t"
+      ],
+      "left": "o",
+      "left_unit_id": 8,
+      "rank": 6,
+      "right": "t",
+      "right_unit_id": 14,
+      "unit": "ot",
+      "unit_id": 10
+    },
+    {
+      "leaves": [
+        "q",
+        "o",
+        "k"
+      ],
+      "left": "q",
+      "left_unit_id": 71,
+      "rank": 7,
+      "right": "ok",
+      "right_unit_id": 9,
+      "unit": "qok",
+      "unit_id": 16
+    },
+    {
+      "leaves": [
+        "a",
+        "r"
+      ],
+      "left": "a",
+      "left_unit_id": 49,
+      "rank": 8,
+      "right": "r",
+      "right_unit_id": 42,
+      "unit": "ar",
+      "unit_id": 3
+    },
+    {
+      "leaves": [
+        "a",
+        "l"
+      ],
+      "left": "a",
+      "left_unit_id": 49,
+      "rank": 9,
+      "right": "l",
+      "right_unit_id": 23,
+      "unit": "al",
+      "unit_id": 12
+    },
+    {
+      "leaves": [
+        "o",
+        "r"
+      ],
+      "left": "o",
+      "left_unit_id": 8,
+      "rank": 10,
+      "right": "r",
+      "right_unit_id": 42,
+      "unit": "or",
+      "unit_id": 4
+    },
+    {
+      "leaves": [
+        "S",
+        "e"
+      ],
+      "left": "S",
+      "left_unit_id": 13,
+      "rank": 11,
+      "right": "e",
+      "right_unit_id": 20,
+      "unit": "Se",
+      "unit_id": 28
+    },
+    {
+      "leaves": [
+        "a",
+        "I"
+      ],
+      "left": "a",
+      "left_unit_id": 49,
+      "rank": 12,
+      "right": "I",
+      "right_unit_id": 89,
+      "unit": "aI",
+      "unit_id": 26
+    },
+    {
+      "leaves": [
+        "d",
+        "a",
+        "N"
+      ],
+      "left": "d",
+      "left_unit_id": 7,
+      "rank": 13,
+      "right": "aN",
+      "right_unit_id": 6,
+      "unit": "daN",
+      "unit_id": 17
+    },
+    {
+      "leaves": [
+        "E",
+        "y"
+      ],
+      "left": "E",
+      "left_unit_id": 22,
+      "rank": 14,
+      "right": "y",
+      "right_unit_id": 1,
+      "unit": "Ey",
+      "unit_id": 31
+    },
+    {
+      "leaves": [
+        "C",
+        "e",
+        "d",
+        "y"
+      ],
+      "left": "Ce",
+      "left_unit_id": 15,
+      "rank": 15,
+      "right": "dy",
+      "right_unit_id": 25,
+      "unit": "Cedy",
+      "unit_id": 18
+    },
+    {
+      "leaves": [
+        "q",
+        "o",
+        "t"
+      ],
+      "left": "q",
+      "left_unit_id": 71,
+      "rank": 16,
+      "right": "ot",
+      "right_unit_id": 10,
+      "unit": "qot",
+      "unit_id": 19
+    },
+    {
+      "leaves": [
+        "C",
+        "y"
+      ],
+      "left": "C",
+      "left_unit_id": 2,
+      "rank": 17,
+      "right": "y",
+      "right_unit_id": 1,
+      "unit": "Cy",
+      "unit_id": 21
+    },
+    {
+      "leaves": [
+        "E",
+        "d",
+        "y"
+      ],
+      "left": "E",
+      "left_unit_id": 22,
+      "rank": 18,
+      "right": "dy",
+      "right_unit_id": 25,
+      "unit": "Edy",
+      "unit_id": 33
+    },
+    {
+      "leaves": [
+        "e",
+        "d",
+        "y"
+      ],
+      "left": "e",
+      "left_unit_id": 20,
+      "rank": 19,
+      "right": "dy",
+      "right_unit_id": 25,
+      "unit": "edy",
+      "unit_id": 34
+    },
+    {
+      "leaves": [
+        "o",
+        "d",
+        "y"
+      ],
+      "left": "o",
+      "left_unit_id": 8,
+      "rank": 20,
+      "right": "dy",
+      "right_unit_id": 25,
+      "unit": "ody",
+      "unit_id": 24
+    },
+    {
+      "leaves": [
+        "C",
+        "o",
+        "l"
+      ],
+      "left": "C",
+      "left_unit_id": 2,
+      "rank": 21,
+      "right": "ol",
+      "right_unit_id": 0,
+      "unit": "Col",
+      "unit_id": 29
+    },
+    {
+      "leaves": [
+        "C",
+        "e",
+        "y"
+      ],
+      "left": "Ce",
+      "left_unit_id": 15,
+      "rank": 22,
+      "right": "y",
+      "right_unit_id": 1,
+      "unit": "Cey",
+      "unit_id": 30
+    },
+    {
+      "leaves": [
+        "a",
+        "i"
+      ],
+      "left": "a",
+      "left_unit_id": 49,
+      "rank": 23,
+      "right": "i",
+      "right_unit_id": 61,
+      "unit": "ai",
+      "unit_id": 51
+    },
+    {
+      "leaves": [
+        "e",
+        "y"
+      ],
+      "left": "e",
+      "left_unit_id": 20,
+      "rank": 24,
+      "right": "y",
+      "right_unit_id": 1,
+      "unit": "ey",
+      "unit_id": 32
+    },
+    {
+      "leaves": [
+        "o",
+        "d"
+      ],
+      "left": "o",
+      "left_unit_id": 8,
+      "rank": 25,
+      "right": "d",
+      "right_unit_id": 7,
+      "unit": "od",
+      "unit_id": 35
+    },
+    {
+      "leaves": [
+        "S",
+        "e",
+        "d",
+        "y"
+      ],
+      "left": "Se",
+      "left_unit_id": 28,
+      "rank": 26,
+      "right": "dy",
+      "right_unit_id": 25,
+      "unit": "Sedy",
+      "unit_id": 36
+    },
+    {
+      "leaves": [
+        "a",
+        "m"
+      ],
+      "left": "a",
+      "left_unit_id": 49,
+      "rank": 27,
+      "right": "m",
+      "right_unit_id": 81,
+      "unit": "am",
+      "unit_id": 37
+    },
+    {
+      "leaves": [
+        "o",
+        "l",
+        "k"
+      ],
+      "left": "ol",
+      "left_unit_id": 0,
+      "rank": 28,
+      "right": "k",
+      "right_unit_id": 11,
+      "unit": "olk",
+      "unit_id": 38
+    },
+    {
+      "leaves": [
+        "y",
+        "k"
+      ],
+      "left": "y",
+      "left_unit_id": 1,
+      "rank": 29,
+      "right": "k",
+      "right_unit_id": 11,
+      "unit": "yk",
+      "unit_id": 39
+    },
+    {
+      "leaves": [
+        "C",
+        "o",
+        "r"
+      ],
+      "left": "C",
+      "left_unit_id": 2,
+      "rank": 30,
+      "right": "or",
+      "right_unit_id": 4,
+      "unit": "Cor",
+      "unit_id": 40
+    },
+    {
+      "leaves": [
+        "y",
+        "t"
+      ],
+      "left": "y",
+      "left_unit_id": 1,
+      "rank": 31,
+      "right": "t",
+      "right_unit_id": 14,
+      "unit": "yt",
+      "unit_id": 41
+    },
+    {
+      "leaves": [
+        "q",
+        "o"
+      ],
+      "left": "q",
+      "left_unit_id": 71,
+      "rank": 32,
+      "right": "o",
+      "right_unit_id": 8,
+      "unit": "qo",
+      "unit_id": 43
+    },
+    {
+      "leaves": [
+        "C",
+        "o"
+      ],
+      "left": "C",
+      "left_unit_id": 2,
+      "rank": 33,
+      "right": "o",
+      "right_unit_id": 8,
+      "unit": "Co",
+      "unit_id": 44
+    },
+    {
+      "leaves": [
+        "d",
+        "a",
+        "l"
+      ],
+      "left": "d",
+      "left_unit_id": 7,
+      "rank": 34,
+      "right": "al",
+      "right_unit_id": 12,
+      "unit": "dal",
+      "unit_id": 45
+    },
+    {
+      "leaves": [
+        "d",
+        "a",
+        "r"
+      ],
+      "left": "d",
+      "left_unit_id": 7,
+      "rank": 35,
+      "right": "ar",
+      "right_unit_id": 3,
+      "unit": "dar",
+      "unit_id": 47
+    },
+    {
+      "leaves": [
+        "C",
+        "d",
+        "y"
+      ],
+      "left": "C",
+      "left_unit_id": 2,
+      "rank": 36,
+      "right": "dy",
+      "right_unit_id": 25,
+      "unit": "Cdy",
+      "unit_id": 48
+    },
+    {
+      "leaves": [
+        "K",
+        "y"
+      ],
+      "left": "K",
+      "left_unit_id": 54,
+      "rank": 37,
+      "right": "y",
+      "right_unit_id": 1,
+      "unit": "Ky",
+      "unit_id": 50
+    },
+    {
+      "leaves": [
+        "a",
+        "i",
+        "r"
+      ],
+      "left": "ai",
+      "left_unit_id": 51,
+      "rank": 38,
+      "right": "r",
+      "right_unit_id": 42,
+      "unit": "air",
+      "unit_id": 52
+    },
+    {
+      "leaves": [
+        "T",
+        "y"
+      ],
+      "left": "T",
+      "left_unit_id": 46,
+      "rank": 39,
+      "right": "y",
+      "right_unit_id": 1,
+      "unit": "Ty",
+      "unit_id": 53
+    },
+    {
+      "leaves": [
+        "S",
+        "e",
+        "y"
+      ],
+      "left": "Se",
+      "left_unit_id": 28,
+      "rank": 40,
+      "right": "y",
+      "right_unit_id": 1,
+      "unit": "Sey",
+      "unit_id": 55
+    },
+    {
+      "leaves": [
+        "k",
+        "y"
+      ],
+      "left": "k",
+      "left_unit_id": 11,
+      "rank": 41,
+      "right": "y",
+      "right_unit_id": 1,
+      "unit": "ky",
+      "unit_id": 58
+    },
+    {
+      "leaves": [
+        "q",
+        "o",
+        "k",
+        "a",
+        "I"
+      ],
+      "left": "qok",
+      "left_unit_id": 16,
+      "rank": 42,
+      "right": "aI",
+      "right_unit_id": 26,
+      "unit": "qokaI",
+      "unit_id": 60
+    },
+    {
+      "leaves": [
+        "S",
+        "o"
+      ],
+      "left": "S",
+      "left_unit_id": 13,
+      "rank": 43,
+      "right": "o",
+      "right_unit_id": 8,
+      "unit": "So",
+      "unit_id": 59
+    },
+    {
+      "leaves": [
+        "o",
+        "p"
+      ],
+      "left": "o",
+      "left_unit_id": 8,
+      "rank": 44,
+      "right": "p",
+      "right_unit_id": 27,
+      "unit": "op",
+      "unit_id": 62
+    },
+    {
+      "leaves": [
+        "S",
+        "o",
+        "l"
+      ],
+      "left": "S",
+      "left_unit_id": 13,
+      "rank": 45,
+      "right": "ol",
+      "right_unit_id": 0,
+      "unit": "Sol",
+      "unit_id": 63
+    },
+    {
+      "leaves": [
+        "q",
+        "o",
+        "k",
+        "a",
+        "N"
+      ],
+      "left": "qok",
+      "left_unit_id": 16,
+      "rank": 46,
+      "right": "aN",
+      "right_unit_id": 6,
+      "unit": "qokaN",
+      "unit_id": 64
+    },
+    {
+      "leaves": [
+        "q",
+        "o",
+        "k",
+        "E",
+        "d",
+        "y"
+      ],
+      "left": "qok",
+      "left_unit_id": 16,
+      "rank": 47,
+      "right": "Edy",
+      "right_unit_id": 33,
+      "unit": "qokEdy",
+      "unit_id": 65
+    },
+    {
+      "leaves": [
+        "q",
+        "o",
+        "k",
+        "a",
+        "l"
+      ],
+      "left": "qok",
+      "left_unit_id": 16,
+      "rank": 48,
+      "right": "al",
+      "right_unit_id": 12,
+      "unit": "qokal",
+      "unit_id": 66
+    },
+    {
+      "leaves": [
+        "q",
+        "o",
+        "k",
+        "e",
+        "d",
+        "y"
+      ],
+      "left": "qok",
+      "left_unit_id": 16,
+      "rank": 49,
+      "right": "edy",
+      "right_unit_id": 34,
+      "unit": "qokedy",
+      "unit_id": 67
+    },
+    {
+      "leaves": [
+        "C",
+        "E"
+      ],
+      "left": "C",
+      "left_unit_id": 2,
+      "rank": 50,
+      "right": "E",
+      "right_unit_id": 22,
+      "unit": "CE",
+      "unit_id": 68
+    },
+    {
+      "leaves": [
+        "e",
+        "o",
+        "l"
+      ],
+      "left": "e",
+      "left_unit_id": 20,
+      "rank": 51,
+      "right": "ol",
+      "right_unit_id": 0,
+      "unit": "eol",
+      "unit_id": 70
+    },
+    {
+      "leaves": [
+        "S",
+        "y"
+      ],
+      "left": "S",
+      "left_unit_id": 13,
+      "rank": 52,
+      "right": "y",
+      "right_unit_id": 1,
+      "unit": "Sy",
+      "unit_id": 69
+    },
+    {
+      "leaves": [
+        "C",
+        "E",
+        "y"
+      ],
+      "left": "C",
+      "left_unit_id": 2,
+      "rank": 53,
+      "right": "Ey",
+      "right_unit_id": 31,
+      "unit": "CEy",
+      "unit_id": 72
+    },
+    {
+      "leaves": [
+        "C",
+        "e",
+        "o",
+        "l"
+      ],
+      "left": "Ce",
+      "left_unit_id": 15,
+      "rank": 54,
+      "right": "ol",
+      "right_unit_id": 0,
+      "unit": "Ceol",
+      "unit_id": 73
+    },
+    {
+      "leaves": [
+        "d",
+        "a",
+        "I"
+      ],
+      "left": "d",
+      "left_unit_id": 7,
+      "rank": 55,
+      "right": "aI",
+      "right_unit_id": 26,
+      "unit": "daI",
+      "unit_id": 74
+    },
+    {
+      "leaves": [
+        "o",
+        "s"
+      ],
+      "left": "o",
+      "left_unit_id": 8,
+      "rank": 56,
+      "right": "s",
+      "right_unit_id": 5,
+      "unit": "os",
+      "unit_id": 75
+    },
+    {
+      "leaves": [
+        "q",
+        "o",
+        "l"
+      ],
+      "left": "q",
+      "left_unit_id": 71,
+      "rank": 57,
+      "right": "ol",
+      "right_unit_id": 0,
+      "unit": "qol",
+      "unit_id": 76
+    },
+    {
+      "leaves": [
+        "l",
+        "k"
+      ],
+      "left": "l",
+      "left_unit_id": 23,
+      "rank": 58,
+      "right": "k",
+      "right_unit_id": 11,
+      "unit": "lk",
+      "unit_id": 77
+    },
+    {
+      "leaves": [
+        "q",
+        "o",
+        "k",
+        "E",
+        "y"
+      ],
+      "left": "qok",
+      "left_unit_id": 16,
+      "rank": 59,
+      "right": "Ey",
+      "right_unit_id": 31,
+      "unit": "qokEy",
+      "unit_id": 78
+    },
+    {
+      "leaves": [
+        "o",
+        "k",
+        "a",
+        "N"
+      ],
+      "left": "ok",
+      "left_unit_id": 9,
+      "rank": 60,
+      "right": "aN",
+      "right_unit_id": 6,
+      "unit": "okaN",
+      "unit_id": 79
+    },
+    {
+      "leaves": [
+        "o",
+        "k",
+        "a",
+        "l"
+      ],
+      "left": "ok",
+      "left_unit_id": 9,
+      "rank": 61,
+      "right": "al",
+      "right_unit_id": 12,
+      "unit": "okal",
+      "unit_id": 80
+    },
+    {
+      "leaves": [
+        "o",
+        "t",
+        "a",
+        "l"
+      ],
+      "left": "ot",
+      "left_unit_id": 10,
+      "rank": 62,
+      "right": "al",
+      "right_unit_id": 12,
+      "unit": "otal",
+      "unit_id": 82
+    },
+    {
+      "leaves": [
+        "o",
+        "k",
+        "y"
+      ],
+      "left": "ok",
+      "left_unit_id": 9,
+      "rank": 63,
+      "right": "y",
+      "right_unit_id": 1,
+      "unit": "oky",
+      "unit_id": 83
+    },
+    {
+      "leaves": [
+        "o",
+        "t",
+        "y"
+      ],
+      "left": "ot",
+      "left_unit_id": 10,
+      "rank": 64,
+      "right": "y",
+      "right_unit_id": 1,
+      "unit": "oty",
+      "unit_id": 84
+    }
+  ],
+  "null_policy": {
+    "merge_level_nulls_primary_model_max": 0,
+    "post_failure_extension": "At most one additional layout-null merge after the primary model fails, reported separately.",
+    "primitive_slot_may_be_inactive": true,
+    "primitive_slots_max": 1,
+    "rationale": "The early Tranchedini comparator reports one null in a much larger flat inventory; abbreviation marks normally expand material rather than erase it.",
+    "token_mass_max": 0.03
+  },
+  "override_cards": [
+    {
+      "card_id": "short:1",
+      "output_length": 2,
+      "type": "short"
+    },
+    {
+      "card_id": "short:2",
+      "output_length": 2,
+      "type": "short"
+    },
+    {
+      "card_id": "short:3",
+      "output_length": 3,
+      "type": "short"
+    },
+    {
+      "card_id": "short:4",
+      "output_length": 3,
+      "type": "short"
+    },
+    {
+      "card_id": "wholeform:1",
+      "output_length": 3,
+      "type": "wholeform"
+    },
+    {
+      "card_id": "wholeform:2",
+      "output_length": 4,
+      "type": "wholeform"
+    },
+    {
+      "card_id": "wholeform:3",
+      "output_length": 5,
+      "type": "wholeform"
+    },
+    {
+      "card_id": "wholeform:4",
+      "output_length": 6,
+      "type": "wholeform"
+    }
+  ],
+  "override_transitions": {
+    "note": "GDT609 defines paid nonwhole residual cards but not a separate FST state; GDT613 types each nonwhole card as one CORE syllabic carrier.",
+    "short": "syllabic_carrier",
+    "wholeform": "wholeform_logogram"
+  },
+  "primitive_cards": [
+    {
+      "card_id": "literal_carrier:1",
+      "output_length": 1,
+      "role": "literal_carrier"
+    },
+    {
+      "card_id": "literal_carrier:2",
+      "output_length": 1,
+      "role": "literal_carrier"
+    },
+    {
+      "card_id": "literal_carrier:3",
+      "output_length": 1,
+      "role": "literal_carrier"
+    },
+    {
+      "card_id": "literal_carrier:4",
+      "output_length": 1,
+      "role": "literal_carrier"
+    },
+    {
+      "card_id": "literal_carrier:5",
+      "output_length": 1,
+      "role": "literal_carrier"
+    },
+    {
+      "card_id": "literal_carrier:6",
+      "output_length": 1,
+      "role": "literal_carrier"
+    },
+    {
+      "card_id": "literal_carrier:7",
+      "output_length": 1,
+      "role": "literal_carrier"
+    },
+    {
+      "card_id": "literal_carrier:8",
+      "output_length": 1,
+      "role": "literal_carrier"
+    },
+    {
+      "card_id": "literal_carrier:9",
+      "output_length": 1,
+      "role": "literal_carrier"
+    },
+    {
+      "card_id": "literal_carrier:10",
+      "output_length": 1,
+      "role": "literal_carrier"
+    },
+    {
+      "card_id": "literal_carrier:11",
+      "output_length": 1,
+      "role": "literal_carrier"
+    },
+    {
+      "card_id": "literal_carrier:12",
+      "output_length": 1,
+      "role": "literal_carrier"
+    },
+    {
+      "card_id": "literal_carrier:13",
+      "output_length": 1,
+      "role": "literal_carrier"
+    },
+    {
+      "card_id": "literal_carrier:14",
+      "output_length": 1,
+      "role": "literal_carrier"
+    },
+    {
+      "card_id": "literal_carrier:15",
+      "output_length": 1,
+      "role": "literal_carrier"
+    },
+    {
+      "card_id": "literal_carrier:16",
+      "output_length": 1,
+      "role": "literal_carrier"
+    },
+    {
+      "card_id": "literal_carrier:17",
+      "output_length": 1,
+      "role": "literal_carrier"
+    },
+    {
+      "card_id": "literal_carrier:18",
+      "output_length": 1,
+      "role": "literal_carrier"
+    },
+    {
+      "card_id": "syllabic_carrier:1",
+      "output_length": 1,
+      "role": "syllabic_carrier"
+    },
+    {
+      "card_id": "syllabic_carrier:2",
+      "output_length": 2,
+      "role": "syllabic_carrier"
+    },
+    {
+      "card_id": "syllabic_carrier:3",
+      "output_length": 2,
+      "role": "syllabic_carrier"
+    },
+    {
+      "card_id": "syllabic_carrier:4",
+      "output_length": 3,
+      "role": "syllabic_carrier"
+    },
+    {
+      "card_id": "prefix_operator:1",
+      "output_length": 1,
+      "role": "prefix_operator"
+    },
+    {
+      "card_id": "prefix_operator:2",
+      "output_length": 2,
+      "role": "prefix_operator"
+    },
+    {
+      "card_id": "prefix_operator:3",
+      "output_length": 3,
+      "role": "prefix_operator"
+    },
+    {
+      "card_id": "suffix_operator:1",
+      "output_length": 1,
+      "role": "suffix_operator"
+    },
+    {
+      "card_id": "suffix_operator:2",
+      "output_length": 2,
+      "role": "suffix_operator"
+    },
+    {
+      "card_id": "suffix_operator:3",
+      "output_length": 3,
+      "role": "suffix_operator"
+    },
+    {
+      "card_id": "connector:1",
+      "output_length": 1,
+      "role": "connector"
+    },
+    {
+      "card_id": "connector:2",
+      "output_length": 2,
+      "role": "connector"
+    },
+    {
+      "card_id": "context_abbreviation_mark:1",
+      "output_length": 1,
+      "role": "context_abbreviation_mark"
+    },
+    {
+      "card_id": "context_abbreviation_mark:2",
+      "output_length": 2,
+      "role": "context_abbreviation_mark"
+    },
+    {
+      "card_id": "wholeform_logogram:1",
+      "output_length": 4,
+      "role": "wholeform_logogram"
+    },
+    {
+      "card_id": "null_layout:1",
+      "output_length": 0,
+      "role": "null_layout"
+    }
+  ],
+  "qok_family": [
+    "qok",
+    "qokEdy",
+    "qokEy",
+    "qokaI",
+    "qokaN",
+    "qokal",
+    "qokedy"
+  ],
+  "schema": "gdt613-compiled-fst34-v1",
+  "source_model_id": "HISTORICAL_MIXED_ABBREVIATION_FST_34_V1",
+  "source_model_sha256": "0c9219bd02e063758806b58a174cbf546fdf0f3c5853ed3c98dcfa422abbe5f0",
+  "structural_anchor_priors": {
+    "C": {
+      "evidence": "held chunk-initial 0.6934 and chunk-final 0.0056",
+      "preferred_roles": [
+        "prefix_operator",
+        "syllabic_carrier"
+      ],
+      "semantic_claim": null
+    },
+    "d": {
+      "evidence": "held chunk-initial 0.4992 and line-initial 0.1759",
+      "preferred_roles": [
+        "prefix_operator",
+        "syllabic_carrier"
+      ],
+      "semantic_claim": null
+    },
+    "o": {
+      "evidence": "held initial 0.3120, final 0.2989, middle 0.4154",
+      "preferred_roles": [
+        "connector"
+      ],
+      "semantic_claim": null
+    },
+    "ol": {
+      "evidence": "held chunk-final 0.5463 and standalone 0.1433",
+      "preferred_roles": [
+        "boundary_compound",
+        "lexicalized_override"
+      ],
+      "semantic_claim": null
+    },
+    "qok_singleton_family": {
+      "evidence": "five members have held standalone 0.9444-1.0000 but 0/36 W assignments",
+      "forbidden_inference": "standalone_implies_word_or_long_output",
+      "preferred_roles": [
+        "compositional_compound",
+        "family_shared_override"
+      ]
+    },
+    "y": {
+      "evidence": "held chunk-final 0.6390 and line-final 0.2347",
+      "preferred_roles": [
+        "suffix_operator",
+        "context_abbreviation_mark"
+      ],
+      "semantic_claim": null
+    }
+  },
+  "unit_count": 98
+}

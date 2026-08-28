@@ -2,8 +2,9 @@
 
 ## Question
 
-Can an exact GDT609 FST34 implementation recover natural planted plaintext and
-all 42 primitive/merge cards once every parameter is directly observable?
+Can the nominal exact-allocation submodel of GDT609 FST34 recover natural
+planted plaintext and all 42 primitive/merge cards once every parameter is
+directly observable, and is the published grammar scope executable as written?
 
 ## Inputs
 
@@ -32,6 +33,13 @@ directly over the normalized Latin alphabet; it never selects reference words.
 Moves exchange complete role/length cards, mutate one output character, or
 move/mutate a paid merge card. Output length is not a free move.
 
+The registered fixed 18/4/3/3/2/2/1/1 card inventory is the nominal submodel;
+GDT609's paid soft bucket swaps remain a later ablation. The published EBNF is
+first interpreted literally over flattened primitive pieces. Its unresolved
+outer-unit/primitive scope is audited before any scored recovery and may stop
+this run rather than being silently widened. `DEVIATIONS.md` records these
+pre-score clarifications.
+
 The primary term is real-reference character cross-entropy of the complete
 decoded chunk stream, including boundaries. There is no real-minus-destroyed
 term and no dictionary reward. FST violations, connector edge/only use and
@@ -53,3 +61,19 @@ This experiment may select or reject a synthetic generator, exact-FST
 implementation, objective and optimizer. It cannot assign a Voynich unit, word,
 sound, language, plaintext or meaning. A later target experiment is allowed
 only after the synthetic gates pass without repair from held results.
+
+## Executed pre-world feasibility stop
+
+Before outputs are chosen, an exact finite-domain solver assigns all primitive
+roles and eight typed merge cards, recursively propagates card or child role
+sequences through the 64-node tree and requires each relevant child sequence
+to be a substring of some exact legal chunk.  The strict registered query is
+unsatisfiable; dropping only the card-child counterpart gate is satisfiable.
+
+A separate necessary capacity audit counts fixed output cards by length and
+natural-Latin substrings meeting the registered `8 train word types / 16 held
+events` exposure floor.  Its one-character capacity is 21 for 23 required
+cards.  It also exhausts the optional two-connector envelope around WHOLE and
+finds at most 5/4/3/3 train word types for lengths 3/4/5/6, below eight for all
+five scored whole parameters.  Either pre-world failure triggers the registered infeasibility stop;
+therefore no oracle, recovery or target score is executed.

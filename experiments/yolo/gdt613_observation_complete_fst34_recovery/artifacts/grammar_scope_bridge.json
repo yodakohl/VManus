@@ -1,0 +1,73 @@
+{
+  "claim_ceiling": "post-run diagnostic only; no target, meaning, or model repair",
+  "decision": "GDT613 must solve exact-scope natural-world feasibility or stop; the diagnostic run grammar requires a new model identifier",
+  "headline": {
+    "diagnostic_run_train_legal_events": 14461,
+    "diagnostic_run_train_total_events": 14553,
+    "exact_train_legal_events": 1922,
+    "exact_train_total_events": 14553
+  },
+  "inputs_sha256": {
+    "held": "588d0b269102f96f7a1db3d0c9967e83a87e2c6cb8da03fa08cbb0e6fd3033de",
+    "train": "dc6a154345d82772d32d8d7f100a81b8d48af622b9b2323f44bbdcfacc3010cd",
+    "truth_overrides": "a789a39518a50090c1c9e6c6843bf306759b295f1488e65b8dadc4510ff2de04",
+    "truth_primitives": "0529bdee6f70e54ea5b3cfabfff863e50002547e03e2509601cebaaa7cfe79ac",
+    "units": "8fc32a38dbe47a5d738698ccccd7289fe3d533e9e5d870624da11f0fc5d19180"
+  },
+  "models": {
+    "diagnostic_v2": "unregistered adjacent complete CORE run at each exact CORE position",
+    "exact": "published GDT609 flattened-piece EBNF with one CORE per unconnected body segment"
+  },
+  "schema": "gdt613-grammar-scope-bridge-v1",
+  "status": "EXACT_SCOPE_MISMATCH_ON_OLD_PLANTED_WORLD",
+  "summary": [
+    {
+      "illegal_body_events": 12539,
+      "interior_null_events": 92,
+      "legal_event_rate": "0.132068989212",
+      "legal_events": 1922,
+      "legal_type_rate": "0.011789181692",
+      "legal_types": 51,
+      "model": "GDT609_EXACT_SINGLE_CORE",
+      "split": "train",
+      "total_events": 14553,
+      "total_types": 4326
+    },
+    {
+      "illegal_body_events": 0,
+      "interior_null_events": 92,
+      "legal_event_rate": "0.993678279393",
+      "legal_events": 14461,
+      "legal_type_rate": "0.978733240869",
+      "legal_types": 4234,
+      "model": "DIAGNOSTIC_V2_ADJACENT_CORE_RUN",
+      "split": "train",
+      "total_events": 14553,
+      "total_types": 4326
+    },
+    {
+      "illegal_body_events": 3117,
+      "interior_null_events": 17,
+      "legal_event_rate": "0.138774388568",
+      "legal_events": 505,
+      "legal_type_rate": "0.138774388568",
+      "legal_types": 505,
+      "model": "GDT609_EXACT_SINGLE_CORE",
+      "split": "held",
+      "total_events": 3639,
+      "total_types": 3639
+    },
+    {
+      "illegal_body_events": 60,
+      "interior_null_events": 17,
+      "legal_event_rate": "0.978840340753",
+      "legal_events": 3562,
+      "legal_type_rate": "0.978840340753",
+      "legal_types": 3562,
+      "model": "DIAGNOSTIC_V2_ADJACENT_CORE_RUN",
+      "split": "held",
+      "total_events": 3639,
+      "total_types": 3639
+    }
+  ]
+}

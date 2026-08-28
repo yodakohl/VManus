@@ -1,0 +1,54 @@
+{
+  "claim_ceiling": "Rejects only this exact flattened-piece scope plus registered simultaneous coverage/card-child gates; no output, Latin recovery, target, or meaning claim.",
+  "decision": "MODEL_SCOPE_UNDERSPECIFIED_OR_INFEASIBLE",
+  "inputs_sha256": {
+    "merge_tree": "2098c71be9da13b483cf2561e06412276d8c60aa32e72520e8877f8f5d53090a",
+    "model": "0c9219bd02e063758806b58a174cbf546fdf0f3c5853ed3c98dcfa422abbe5f0",
+    "primitives": "3a5e89dbd89c5c833db4884cadff0ccbdc438e9ce8e832be0bc1b7e3df636ae6"
+  },
+  "next_route": "Register adjacent carrier runs, type former WHOLE cards as embeddable macro cores, move at least two functional length-one cards to length two, then repeat natural-Latin oracle/recovery and open no target before it passes.",
+  "query_results": [
+    {
+      "forbid_all_qok_whole": false,
+      "query": "STRICT_REGISTERED_QOK_ONLY",
+      "query_sha256": "a5ecde890875ee2e5ac38032da178043dcf7855242d1db06f049bc6ff9f5a6ee",
+      "skip_card_child_gate": false,
+      "solver": "z3",
+      "solver_version": "4.15.3",
+      "status": "unsat"
+    },
+    {
+      "forbid_all_qok_whole": true,
+      "query": "STRICT_SENSITIVITY_ALL_QOK_FAMILY",
+      "query_sha256": "24152a5a78440228238f5e38939fa9ca09039816cc061f66fc83d2cf97d4caa4",
+      "skip_card_child_gate": false,
+      "solver": "z3",
+      "solver_version": "4.15.3",
+      "status": "unsat"
+    },
+    {
+      "forbid_all_qok_whole": false,
+      "query": "CONTROL_DROP_CARD_CHILD_GATE",
+      "query_sha256": "1fd4c317f0b56c1cf51e08f5b2ec0e2385a6c1c3d58044bab1c80a02c44f3004",
+      "skip_card_child_gate": true,
+      "solver": "z3",
+      "solver_version": "4.15.3",
+      "status": "sat"
+    }
+  ],
+  "reason": "Three pre-world necessary conditions fail: the strict flattened-piece EBNF has no 34-role plus 4-short/4-whole-card assignment satisfying all 64 direct/default composition witnesses and every paid card child witness; the frozen deck also requires 23 unique one-character outputs where only 21 frozen-Latin values meet the registered exposure thresholds, and no WHOLE length reaches eight train word types through the published connector-only envelope.",
+  "relaxed_control": {
+    "cards_with_illegal_unoverridden_children": [
+      "daN",
+      "dal",
+      "dar",
+      "air",
+      "daI"
+    ],
+    "count": 5,
+    "status": "sat"
+  },
+  "schema": "gdt613-results-v1",
+  "solver_version": "4.15.3",
+  "status": "STOPPED_BEFORE_TRUTH_WORLD_OR_TARGET"
+}

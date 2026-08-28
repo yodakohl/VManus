@@ -1,0 +1,124 @@
+{
+  "claim_ceiling": "Necessary substring-capacity upper bound only; role position and joint word segmentation can reduce feasibility further but cannot repair this deficit.",
+  "decision": "FIXED_LENGTH_DECK_INFEASIBLE_FOR_FROZEN_NATURAL_LATIN_SPLITS",
+  "eligible_one_character_values": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g",
+    "h",
+    "i",
+    "l",
+    "m",
+    "n",
+    "o",
+    "p",
+    "q",
+    "r",
+    "s",
+    "t",
+    "u",
+    "v",
+    "x"
+  ],
+  "held_tokens": 2052,
+  "held_word_types": 1059,
+  "minimum_length1_to_length2_moves_for_uniqueness_only": 1,
+  "minimum_length1_to_length2_moves_with_registered_exposure": 2,
+  "one_character_cards_required": 23,
+  "one_character_slots": [
+    "connector",
+    "context_abbreviation_mark",
+    "literal_carrier",
+    "literal_carrier",
+    "literal_carrier",
+    "literal_carrier",
+    "literal_carrier",
+    "literal_carrier",
+    "literal_carrier",
+    "literal_carrier",
+    "literal_carrier",
+    "literal_carrier",
+    "literal_carrier",
+    "literal_carrier",
+    "literal_carrier",
+    "literal_carrier",
+    "literal_carrier",
+    "literal_carrier",
+    "literal_carrier",
+    "literal_carrier",
+    "prefix_operator",
+    "suffix_operator",
+    "syllabic_carrier"
+  ],
+  "one_character_values_meeting_8_train_types_and_16_held_events": 21,
+  "one_character_values_observed": 22,
+  "schema": "gdt613-length-deck-audit-v1",
+  "train_tokens": 6157,
+  "train_word_types": 2595,
+  "whole_envelope_upper_bounds": [
+    {
+      "connector_length1": "m",
+      "connector_length2": "ri",
+      "maximum_train_word_types": 5,
+      "whole_length": 3,
+      "whole_output": "ora",
+      "witness_train_word_types": [
+        "mora",
+        "moram",
+        "morari",
+        "ora",
+        "oram"
+      ]
+    },
+    {
+      "connector_length1": "s",
+      "connector_length2": "se",
+      "maximum_train_word_types": 4,
+      "whole_length": 4,
+      "whole_output": "natu",
+      "witness_train_word_types": [
+        "natu",
+        "natus",
+        "senatu",
+        "senatus"
+      ]
+    },
+    {
+      "connector_length1": "s",
+      "connector_length2": "ad",
+      "maximum_train_word_types": 3,
+      "whole_length": 5,
+      "whole_output": "ventu",
+      "witness_train_word_types": [
+        "adventu",
+        "adventus",
+        "ventus"
+      ]
+    },
+    {
+      "connector_length1": "e",
+      "connector_length2": "ad",
+      "maximum_train_word_types": 3,
+      "whole_length": 6,
+      "whole_output": "ventum",
+      "witness_train_word_types": [
+        "adventum",
+        "eventum",
+        "ventum"
+      ]
+    }
+  ],
+  "whole_parameters": {
+    "override_length3": 1,
+    "override_length4": 1,
+    "override_length5": 1,
+    "override_length6": 1,
+    "primitive_length4": 1
+  },
+  "whole_parameters_reaching_train_threshold": 0,
+  "whole_train_word_type_threshold": 8
+}
