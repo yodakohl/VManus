@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Independent registration audit for GDT615 (train-only; no held reveal)."""
+"""Registration plus published Stage-0 audit for GDT615 (no held reveal)."""
 
 from __future__ import annotations
 
@@ -62,7 +62,14 @@ def main() -> int:
             raise AssertionError(f"{name}: {detail}")
 
     check("experiment_id", manifest["experiment_id"] == "GDT615")
-    check("status", manifest["status"] == "REGISTERED_UNSCORED")
+    check(
+        "status",
+        manifest["status"]
+        in {
+            "REGISTERED_UNSCORED",
+            "STAGE0_MAPPING_CERTIFICATE_PASS__STAGE1_NOT_RUN",
+        },
+    )
     check("sealed_f84", manifest["sealed_data"]["f84"] == "FORBIDDEN")
     check("sealed_f84r", manifest["sealed_data"]["f84r"] == "FORBIDDEN")
     check("no_held_stage0_mount", not registered["partition_access"]["stage0_and_stage1_processes_have_readable_held_mount"])
@@ -159,6 +166,11 @@ def main() -> int:
         json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8"
     )
     print(f"REGISTERED_VALIDATION_PASS {result['checks_passed']}/{result['checks_total']}")
+    stage0_commit = ART / "stage0/STAGE0_MAPPING_COMMIT.json"
+    if stage0_commit.is_file():
+        from stage0_validate import main as validate_stage0
+
+        return validate_stage0([])
     return 0
 
 

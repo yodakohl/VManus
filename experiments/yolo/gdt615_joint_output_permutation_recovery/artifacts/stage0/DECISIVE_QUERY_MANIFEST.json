@@ -1,0 +1,212 @@
+{
+  "base_encoding_sha256": "e1dbf2d780bdebb1079fa2ee51d79c5d5c3cdefb0bd4551522e19e6afef20561",
+  "full_query_log_sha256": "fc4c476f26b82e496e76e09559b3de64b8e2cd9d964a7252dd8e4e4b090a8b7c",
+  "note": "The JSONL records the delta for each query; effective_context records the complete accumulated formula used for the decisive boundary checks.",
+  "queries": [
+    {
+      "claim": "existence",
+      "effective_context": [
+        "same-role card-to-primitive bijection over all 34 slots",
+        "exact registered train-substring MDD membership for all 64 raw renders",
+        "for each unsupported render, at least one hit in its inclusive merge subtree",
+        "at most 8 merge-node hits"
+      ],
+      "logged_constraint": {
+        "core_hit_maximum": 8
+      },
+      "phase": "existence",
+      "query_id": "Q0001",
+      "result": "sat"
+    },
+    {
+      "claim": "support_55_exists",
+      "effective_context": [
+        "same-role card-to-primitive bijection over all 34 slots",
+        "exact registered train-substring MDD membership for all 64 raw renders",
+        "for each unsupported render, at least one hit in its inclusive merge subtree",
+        "at most 8 merge-node hits",
+        "support >= 55"
+      ],
+      "logged_constraint": {
+        "support_at_least": 55
+      },
+      "phase": "support_boundary_sat",
+      "query_id": "Q0006",
+      "result": "sat"
+    },
+    {
+      "claim": "support_56_excluded",
+      "effective_context": [
+        "same-role card-to-primitive bijection over all 34 slots",
+        "exact registered train-substring MDD membership for all 64 raw renders",
+        "for each unsupported render, at least one hit in its inclusive merge subtree",
+        "at most 8 merge-node hits",
+        "support >= 56"
+      ],
+      "logged_constraint": {
+        "support_at_least": 56
+      },
+      "phase": "support_boundary_unsat",
+      "query_id": "Q0007",
+      "result": "unsat"
+    },
+    {
+      "claim": "cover_4_exists_at_support_55",
+      "effective_context": [
+        "same-role card-to-primitive bijection over all 34 slots",
+        "exact registered train-substring MDD membership for all 64 raw renders",
+        "for each unsupported render, at least one hit in its inclusive merge subtree",
+        "at most 8 merge-node hits",
+        "support = 55",
+        "hit count <= 4"
+      ],
+      "logged_constraint": {
+        "core_hit_at_most": 4
+      },
+      "phase": "cover_boundary_sat",
+      "query_id": "Q0011",
+      "result": "sat"
+    },
+    {
+      "claim": "cover_3_excluded_at_support_55",
+      "effective_context": [
+        "same-role card-to-primitive bijection over all 34 slots",
+        "exact registered train-substring MDD membership for all 64 raw renders",
+        "for each unsupported render, at least one hit in its inclusive merge subtree",
+        "at most 8 merge-node hits",
+        "support = 55",
+        "hit count <= 3"
+      ],
+      "logged_constraint": {
+        "core_hit_at_most": 3
+      },
+      "phase": "cover_boundary_unsat",
+      "query_id": "Q0012",
+      "result": "unsat"
+    },
+    {
+      "claim": "final_key_exists",
+      "effective_context": [
+        "same-role card-to-primitive bijection over all 34 slots",
+        "exact registered train-substring MDD membership for all 64 raw renders",
+        "for each unsupported render, at least one hit in its inclusive merge subtree",
+        "at most 8 merge-node hits",
+        "support = 55",
+        "hit count <= 4",
+        "card-ID key = ['N01', 'Y03', 'K01', 'S03', 'L02', 'Y01', 'L03', 'P01', 'K02', 'L01', 'L05', 'Y02', 'L09', 'L16', 'L06', 'P02', 'L08', 'C01', 'L10', 'L13', 'C02', 'S01', 'M01', 'L04', 'L11', 'L12', 'Y04', 'L15', 'L14', 'S02', 'L17', 'P03', 'L07', 'L18']"
+      ],
+      "logged_constraint": {
+        "minimum_cover": 4,
+        "support": 55
+      },
+      "phase": "final_key_sat",
+      "query_id": "Q0190",
+      "result": "sat"
+    },
+    {
+      "claim": "earlier_key_excluded",
+      "effective_context": [
+        "same-role card-to-primitive bijection over all 34 slots",
+        "exact registered train-substring MDD membership for all 64 raw renders",
+        "for each unsupported render, at least one hit in its inclusive merge subtree",
+        "at most 8 merge-node hits",
+        "support = 55",
+        "hit count <= 4",
+        "card-ID key lexicographically precedes ['N01', 'Y03', 'K01', 'S03', 'L02', 'Y01', 'L03', 'P01', 'K02', 'L01', 'L05', 'Y02', 'L09', 'L16', 'L06', 'P02', 'L08', 'C01', 'L10', 'L13', 'C02', 'S01', 'M01', 'L04', 'L11', 'L12', 'Y04', 'L15', 'L14', 'S02', 'L17', 'P03', 'L07', 'L18']"
+      ],
+      "logged_constraint": {
+        "core_hit_at_most": 4,
+        "key_less_than": [
+          "N01",
+          "Y03",
+          "K01",
+          "S03",
+          "L02",
+          "Y01",
+          "L03",
+          "P01",
+          "K02",
+          "L01",
+          "L05",
+          "Y02",
+          "L09",
+          "L16",
+          "L06",
+          "P02",
+          "L08",
+          "C01",
+          "L10",
+          "L13",
+          "C02",
+          "S01",
+          "M01",
+          "L04",
+          "L11",
+          "L12",
+          "Y04",
+          "L15",
+          "L14",
+          "S02",
+          "L17",
+          "P03",
+          "L07",
+          "L18"
+        ],
+        "support": 55
+      },
+      "phase": "lexicographic_key_predecessor_unsat",
+      "query_id": "Q0191",
+      "result": "unsat"
+    },
+    {
+      "claim": "canonical_cover_exists",
+      "effective_context": [
+        "same-role card-to-primitive bijection over all 34 slots",
+        "exact registered train-substring MDD membership for all 64 raw renders",
+        "for each unsupported render, at least one hit in its inclusive merge subtree",
+        "at most 8 merge-node hits",
+        "support = 55",
+        "hit count = 4",
+        "card-ID key = ['N01', 'Y03', 'K01', 'S03', 'L02', 'Y01', 'L03', 'P01', 'K02', 'L01', 'L05', 'Y02', 'L09', 'L16', 'L06', 'P02', 'L08', 'C01', 'L10', 'L13', 'C02', 'S01', 'M01', 'L04', 'L11', 'L12', 'Y04', 'L15', 'L14', 'S02', 'L17', 'P03', 'L07', 'L18']",
+        "ascending cover tuple = [2, 3, 14, 23]"
+      ],
+      "logged_constraint": {
+        "ascending_merge_ranks": [
+          2,
+          3,
+          14,
+          23
+        ]
+      },
+      "phase": "canonical_cover_sat",
+      "query_id": "Q0192",
+      "result": "sat"
+    },
+    {
+      "claim": "earlier_cover_excluded",
+      "effective_context": [
+        "same-role card-to-primitive bijection over all 34 slots",
+        "exact registered train-substring MDD membership for all 64 raw renders",
+        "for each unsupported render, at least one hit in its inclusive merge subtree",
+        "at most 8 merge-node hits",
+        "support = 55",
+        "hit count = 4",
+        "card-ID key = ['N01', 'Y03', 'K01', 'S03', 'L02', 'Y01', 'L03', 'P01', 'K02', 'L01', 'L05', 'Y02', 'L09', 'L16', 'L06', 'P02', 'L08', 'C01', 'L10', 'L13', 'C02', 'S01', 'M01', 'L04', 'L11', 'L12', 'Y04', 'L15', 'L14', 'S02', 'L17', 'P03', 'L07', 'L18']",
+        "ascending cover tuple lexicographically precedes [2, 3, 14, 23]"
+      ],
+      "logged_constraint": {
+        "tuple_less_than": [
+          2,
+          3,
+          14,
+          23
+        ]
+      },
+      "phase": "canonical_cover_predecessor_unsat",
+      "query_id": "Q0193",
+      "result": "unsat"
+    }
+  ],
+  "schema": "gdt615-stage0-decisive-query-contexts-v1",
+  "status": "PASS"
+}

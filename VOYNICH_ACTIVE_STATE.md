@@ -14679,19 +14679,25 @@ GDT613 executes the pre-world feasibility gate and stops as `MODEL_SCOPE_UNDERSP
 
 GDT614 prospectively freezes `HISTORICAL_MIXED_ABBREVIATION_FST_34_CORE_RUN_MACRO_V2` with21 one-character cards, hosted context, internal carrier runs, five side-licensed macros, edge layout null and eight paid merges, then stops at the first necessary all-64 carrier bound as `TRUTH_GENERATOR_INFEASIBLE`. Under its fixed primitive/output binding only19/64 raw merge renders occur in both frozen Latin partitions and45 fail. A failed node can change only if itself or a recursive merge descendant is paid; the exact subtree hitting set is UNSAT at17 and has a deterministic SAT witness at18, ten above the registered budget. The bound ignores grammar, all21 transitions, macro licenses, collisions, child counterparts and ordered tilings, so those stricter stages cannot rescue the binding. Generator outputs repeat byte-identically and the independent validator passes398/398 checks. Reject the arbitrary output-to-primitive binding, not the fixed deck or CORE_RUN family. Next select the within-role binding jointly with this bound and freeze only a mapping whose exact minimum is at most8 before resuming ordered traces, twelve oracle panels and blind recovery. Historically this remains an abbreviation profile only; nomenclator macros/cipher nulls are separate. No Voynich value, language, plaintext or meaning is assigned.
 
-GDT615 is now `REGISTERED_UNSCORED`. It keeps all34 roles, the complete
-role-wise output-card deck, eight paid cards,64 directed merges and the V2
-grammar fixed, but searches the full same-role output permutation against a
-frozen28,101-entry train-only substring table. The exact hierarchy is maximum
-raw-supported merge count, minimum inclusive-DAG cover, then the
-lexicographically first complete card binding; heuristics, frequency
-objectives and fallback incumbents cannot pass. Under this corrected
-train-only relation the old GDT614 binding is25/64 with exact minimum15, not
-the historical combined-partition18, and still fails the budget8 control.
-Any selected binding is committed before full train construction; W0,W1 and
-W2 plus their actual4-short/4-macro paid locations are all committed before a
-single held reveal. A later failure cannot trigger a second binding or seed
-attempt under GDT615. Registration validation passes430/430 checks. Next run
-and independently certify the global Stage0 optimum. This remains a synthetic
-instrument calibration and assigns no Voynich value, word, language,
-plaintext or meaning; f84/f84r remain forbidden.
+GDT615 Stage0 is now
+`STAGE0_MAPPING_CERTIFICATE_PASS__STAGE1_NOT_RUN`. It keeps all34 roles,the
+complete role-wise output deck,eight paid cards,64 directed merges and V2
+grammar fixed and solves the full same-role output permutation against the
+frozen28,101-entry train-only substring table. Two independent exact
+implementations agree on the global canonical result:55/64 raw-supported
+merges,exact inclusive-DAG cover minimum4,canonical ranks2/3/14/23,and the
+same complete34-card key. Support56 is UNSAT;at support55 cover3 is UNSAT;
+all earlier tied card keys and cover tuples are excluded. The old GDT614
+binding replays at25/64 and exact minimum15. The primary stable files repeat
+byte-identically;430/430 registration and81/81 scored validation checks pass.
+The immutable mapping commit SHA256 is
+`edb909f41ced2c17e5b8cbe55189adb5736dc03b3893bfc6e6582c46b443a262`.
+
+This pass is only the prospectively registered permissive necessary bound;
+its four cover ranks are not actual paid locations. W0,W1,W2,ordered traces,
+top-level tilings,oracle,recovery and Held are not run. Stage1 must consume
+the exact mapping hash and first audit the forced `Ey=E·y→hoi` child
+counterpart before any full solver:if the registered direct paid-child span is
+impossible on train,GDT615 stops without a second mapping,seed or Held reveal.
+No Voynich value,word,language,plaintext,object,operation or meaning is
+assigned;f84/f84r remain forbidden.

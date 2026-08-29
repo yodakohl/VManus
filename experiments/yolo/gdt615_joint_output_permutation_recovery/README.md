@@ -1,6 +1,6 @@
 # GDT615 — joint primitive/output binding recovery
 
-Status: `REGISTERED_UNSCORED`
+Status: `STAGE0_MAPPING_CERTIFICATE_PASS__STAGE1_NOT_RUN`
 
 GDT614 failed because a post-hoc deck was bound arbitrarily to primitive IDs:
 45/64 raw merge renders then lacked common carrier support, and their minimum
@@ -11,10 +11,13 @@ train only and freezes that mapping plus its canonical minimum-cover
 certificate. All three complete train worlds then choose their actual eight
 paid locations and are committed before held is opened once.
 
-No ordered truth world, oracle, recovery, or target stage opens until an exact
-solver certifies a train mapping with a paid-subtree minimum of at most eight
-and the inherited grammar constructs all three train worlds. Held can only
-confirm or terminate that unchanged bundle; it cannot select a replacement.
+Two independent exact implementations now agree on the complete canonical
+mapping: 55/64 raw train-supported merges and an exact relaxed cover minimum
+of four. The immutable mapping commit is published; Stage 1 has not yet chosen
+actual paid locations or constructed an ordered truth world. Held can only
+confirm or terminate the later unchanged three-world bundle; it cannot select
+a replacement.
 
 See `METHOD.md`, `PREREGISTRATION.md`, and
-`artifacts/REGISTERED_SEARCH.json`.
+`REPORT.md`. The public Stage-0 certificate begins at
+`artifacts/stage0/STAGE0_MAPPING_COMMIT.json`.
