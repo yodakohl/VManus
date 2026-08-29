@@ -15577,3 +15577,47 @@ one-hole queue has62 lines/61 surfaces,24 strict.
 Next GDT639 corrects underread strict holes rather than adding generic prose,
 starting with shy,chotaiin,cthar and remaining quality/form compounds. It uses
 the same all-occurrence exact-surface rule and opens no page or image.
+
+## GDT639 repairs eight strict holes without deleting visible fields
+
+GDT639 stays on the same guarded179 pages and begins from the complete set of
+24 clean V15 one-hole surfaces. Every surface receives a nonempty concrete
+default. Eight can already be bound component by component and are rendered
+sequentially at all332 complete-surface occurrences before entry into V16:
+qotchor11=cold-dry drug portion,dchol21=measure of dry material,
+chotaiin8=dry preparation cold gradeIII,cthar14=CTH-drug fractionI and in the
+Herbal leaf/herb fractionI,chear44=dry fractionI,odaiim1=preparation measureIII,
+okeey138=hot preparation binding-stageII,and shy95=moist base form.
+
+The repairs preserve information that the earlier flat suggestions lost.
+qotchor contains qo+t,ch and or;chotaiin contains ch+o,t and III;cthar/chear
+retain ar only inside their exact whole forms;odaiim does not globalize aiim or
+terminal m;and shy is sh+y,never the parser-forbidden s+hy. The observed
+shy/shey/sheey/sheeey ladder95/232/127/5 parallels
+chy/chey/cheey/cheeey162/314/158/8. Across the332 rows,59 contexts are already
+concrete-compatible,214 remain opaque and59 carry a reader-boundary warning;
+none has a hard component collision or nonsense verdict.
+
+V16 preserves all272 V15 rows and appends8 exact-whole cards=280;the executable
+glossary grows225→233 and known token positions9259→9591. Complete multi-token
+lines grow30→39 and clean exact lines20→28. New readings include
+f37v.7 qotchor daiin=cold-dry drug portion,quantityIII;
+f32r.19 dol dchol dan=material measure,measure of dry material,qualityI;
+f56v.15 otchol chol chol daiin chotaiin=cold-dry preparation material,two dry
+materials,qualityIII,dry preparation coldIII;and
+f83r.36 sor aiin shy shey lshedy qoky=seed portion,quantityIII,moist base,
+moist bound,soaked drug-wood,hot base form.
+
+Sixteen strict forms keep explicit defaults outside V16 rather than reverting
+to blank or generic text. keechy/chokshy await field order or two-scope binding;
+yty/ytaiin await the outer Y role;cpholdy/cheockhy/chckhal/ckhy await opaque
+heads or segmentation;the remaining singleton and carrier forms each retain a
+named local barrier. The independent validator passes47164 checks and
+byte-replays all16 builder artifacts.
+
+The eight cards close nine lines while exposing four formerly two-hole lines as
+new strict one-hole predictions. GDT640 should therefore attack qotomody at
+f37r.6,qotor at f37v.16,okal at f25r.6 and chotcheol at f49r.11 first,using
+their newly concrete neighbors and complete form ladders before returning to
+the weaker Y/CKH holds. No new page,image,f1r,f84*,GDT418 value,generic filler,
+bare body or absent-cell transfer.

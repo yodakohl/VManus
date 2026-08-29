@@ -284,8 +284,8 @@ The complete route memory remains in
 `experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv` and the full
 ledger. Use those files for a proposed-route duplicate audit, not on every turn.
 ## Next useful route
-GDT638 audits15 reader-stable hole compounds sequentially across396 full-surface occurrences.13 exact cards enter V15:cthoiin/choiin/cthey/cthor,qotchol/otchol/kcho,chkaiin/chtain,doiin/dol/oaiir/qoky;keechy stays held for field order and singleton chokshy for unscoped dry/moist collision. V15=272 dictionary rows/225 executable surfaces;complete multi-token lines16→30 and clean7→20;one-hole65→62(24 clean).The14 new lines include cthey=CTH-drug formI,chkaiin=hot-dryIII,chtain=cold-dryII,doiin=preparation measure/formIII,dol=material measure and qoky=hot base form. Audit=85 concrete-compatible,260 opaque,50 reader warnings,1 hard collision;no accepted contradiction.
-Next GDT639 repairs underread strict holes beginning shy,chotaiin,cthar and remaining quality/form compounds,again using all-occurrence exact-surface promotion. No f1r,new page/image,GDT418 import,generic filler,bare-body or absent-cell transfer.
+GDT639 gives all24 strict V15 holes concrete defaults and promotes8 exact component-complete forms over332 occurrences:qotchor=cold-dry drug portion,dchol=measure of dry material,chotaiin=dry preparation coldIII,cthar=CTH/herbal leaf-drug fractionI,chear=dry fractionI,odaiim=preparation measureIII,okeey=hot preparation bindingII,shy=moist base form. V16=280 dictionary rows/233 surfaces;complete lines30→39,clean20→28;known positions+332. Nine lines close;16 explicit defaults remain held only for named scope/body barriers. Validator passes47164 checks and byte-replays16 outputs.
+Next GDT640 attacks the four strict holes newly exposed by those cards:qotomody at f37r.6,qotor at f37v.16,okal at f25r.6,chotcheol at f49r.11. Bind every visible field,render all occurrences,and then revisit keechy/chokshy/yty/ytaiin. No f1r,new page/image,GDT418 import,generic filler,naked-body or absent-cell transfer.
 ## Primary routing references
 
 - `experiments/semantic_assumptions/grammar/CONFIRMED_GRAMMAR.md`
