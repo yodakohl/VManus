@@ -2,7 +2,7 @@
 
 Registered: 2026-08-29
 
-Current status: `STAGE_A_WIDTH_ONLY_REDIRECT_STOP__CANONICAL_PRIMARY_REGISTERED`
+Current status: `STAGE1_RESOLVED__GLOBAL_DELTA_MINUS_ONE__STAGE_B_AUTHORIZED_NOT_EXECUTED`
 
 Original registration status: `PROFILE_REGISTERED__NO_IMAGE_REQUEST_EXECUTED`
 
@@ -130,3 +130,15 @@ The separately public `FALLBACK_AMENDMENT.md` and
 adjacent-pair branch at literal canonical sizes: scan 25 at 1200x1733, then scan
 27 at 1200x1847. Both must be acquired and manually read before a delta can be
 selected. The cumulative BSB cap becomes ten; Stage B remains forbidden.
+
+## Stage-1 outcome
+
+Both adjacent requests subsequently succeeded without redirects. Scan 25 is
+`VISIBLE` for the Balsam entry and visibly labels it `Balsami.`; scan 27 is
+`VISIBLY_ABSENT` and instead includes `bos agrestis`. The primary reader and
+two independent manual readers agree. The frozen rule therefore selects delta
+`-1` and canvases 25/75/164/96/101. The exact request evidence, manifest
+binding, rights nodes, observations, page objects, and five literal BSB URLs
+are now in `artifacts/STAGE1_RESOLUTION.json` and summarized in
+`STAGE1_RESULT.md`. Their publication satisfies the Stage-B gate; no Stage-B
+request or running-source-entry transcription has yet occurred.

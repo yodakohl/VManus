@@ -24,6 +24,9 @@ BASE_REL = Path("experiments/yolo/gdt619_five_source_page_acquisition")
 BASE = ROOT / BASE_REL
 PROFILE_REL = BASE_REL / "artifacts/REGISTERED_REQUEST_PROFILE.json"
 VALIDATION_REL = BASE_REL / "artifacts/REGISTERED_VALIDATION.json"
+STAGE1_REL = BASE_REL / "artifacts/STAGE1_RESOLUTION.json"
+STAGE1_RESULT_REL = BASE_REL / "STAGE1_RESULT.md"
+STAGE1_SHA256 = "95457d96fd7c8e4980c3e92bd1a4ac5009daf27090946b91407bbd476eb0d422"
 REDIRECT_STOP_REL = BASE_REL / "artifacts/STAGE_A_REDIRECT_STOP.json"
 REDIRECT_AMENDMENT_REL = BASE_REL / "REDIRECT_AMENDMENT.md"
 PRIMARY_OBSERVATION_REL = BASE_REL / "artifacts/STAGE_A_PRIMARY_OBSERVATION.json"
@@ -87,7 +90,7 @@ class Audit:
         return {
             "checks": self.rows,
             "decision": (
-                "PRIMARY_SCAN26_VISIBLY_ABSENT__CANONICAL_ADJACENT_PAIR_REGISTERED"
+                "STAGE1_RESOLVED__GLOBAL_DELTA_MINUS_ONE__STAGE_B_AUTHORIZED_NOT_EXECUTED"
                 if self.passed
                 else "REGISTRATION_VALIDATION_FAILURE"
             ),
@@ -111,6 +114,7 @@ def main() -> int:
     builder = load_builder()
     profile_path = ROOT / PROFILE_REL
     validation_path = ROOT / VALIDATION_REL
+    stage1_path = ROOT / STAGE1_REL
     manifest_path = ROOT / MANIFEST_REL
     profile = json.loads(profile_path.read_text(encoding="utf-8"))
     manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
@@ -487,7 +491,7 @@ def main() -> int:
         }
         and stage1.get("selected_page_object_types")
         == {
-            "body": "object{id:str,type:Image,format:image/jpeg,width:int,height:int,service:object}",
+            "body": "object{id:str,type:Image,format:image/jpeg,width:int,height:int,service:list[exactly_1 object]}",
             "candidate_id": "str",
             "canvas_id": "str",
             "canvas_ordinal": "int",
@@ -882,9 +886,85 @@ def main() -> int:
             for path in BASE.rglob("*")
         ),
     )
+    stage1 = json.loads(stage1_path.read_text(encoding="utf-8")) if stage1_path.is_file() else {}
     audit.check(
-        "stage1_resolution_not_present",
-        not (BASE / "artifacts/STAGE1_RESOLUTION.json").exists(),
+        "stage1_artifact_exact_hash_and_frozen_generation_status",
+        stage1_path.is_file()
+        and digest(stage1_path) == STAGE1_SHA256
+        and stage1.get("schema_version") == 1
+        and stage1.get("status") == "STAGE1_RESOLVED__STAGE_B_URLS_PUBLICLY_UNBOUND",
+    )
+    calibration_result = stage1.get("calibration", {})
+    audit.check(
+        "stage1_delta_and_observations_exact",
+        calibration_result.get("branch") == "ADJACENT_SCAN_FALLBACK"
+        and calibration_result.get("selected_global_delta") == -1
+        and [(row.get("scan"), row.get("observation")) for row in calibration_result.get("observations", [])]
+        == [(26, "VISIBLY_ABSENT"), (25, "VISIBLE"), (27, "VISIBLY_ABSENT")],
+    )
+    evidence = stage1.get("request_evidence", {})
+    expected_thumbnails = [
+        (26, "https://api.digitale-sammlungen.de/iiif/image/v3/bsb00107549_00026/full/1200,1790/0/default.jpg", 443716, "2121ec99849a7aac5d19dd10779b0d503bbb1e0a6220915375b0688891d202f3", 1200, 1790, "VISIBLY_ABSENT"),
+        (25, "https://api.digitale-sammlungen.de/iiif/image/v3/bsb00107549_00025/full/1200,1733/0/default.jpg", 458741, "bc193b2a31b751d4c538abdd15a5ebe33bf5514ab4f5d31f7b1d01c10be62778", 1200, 1733, "VISIBLE"),
+        (27, "https://api.digitale-sammlungen.de/iiif/image/v3/bsb00107549_00027/full/1200,1847/0/default.jpg", 331053, "b1f2e7c02e5bfa4985190a6564aef397b46da6e12833dabc78142639bf688dd8", 1200, 1847, "VISIBLY_ABSENT"),
+    ]
+    actual_thumbnails = []
+    thumbnail_contract_ok = True
+    for row in evidence.get("thumbnails", []):
+        observation = row.get("manual_observation", {})
+        dimensions = row.get("decoded_dimensions", {})
+        url = row.get("url", "")
+        actual_thumbnails.append((observation.get("scan"), url, row.get("observed_bytes"), row.get("raw_sha256"), dimensions.get("width"), dimensions.get("height"), observation.get("observation")))
+        thumbnail_contract_ok &= row.get("http_status") == 200 and row.get("final_url") == url and row.get("redirect_attempts") == 0 and row.get("url_sha256") == hashlib.sha256(url.encode()).hexdigest()
+    audit.check("stage1_three_thumbnail_rows_exact", actual_thumbnails == expected_thumbnails and thumbnail_contract_ok)
+    expected_pages = [
+        ("DEV01", "f10v", 25, 1707, 2466),
+        ("DEV02", "f35v", 75, 1707, 2581),
+        ("DEV03", "f80r", 164, 1707, 2562),
+        ("DEV04", "f46r", 96, 1707, 2591),
+        ("DEV05", "f48v", 101, 1707, 2581),
+    ]
+    actual_pages = []
+    page_contract_ok = True
+    for row in stage1.get("selected_pages", []):
+        body = row.get("body", {})
+        ordinal = row.get("canvas_ordinal")
+        services = body.get("service", [])
+        service = services[0] if isinstance(services, list) and len(services) == 1 else {}
+        service_id = f"https://api.digitale-sammlungen.de/iiif/image/v3/bsb00107549_{ordinal:05d}" if isinstance(ordinal, int) else ""
+        actual_pages.append((row.get("candidate_id"), row.get("folio"), ordinal, body.get("width"), body.get("height")))
+        page_contract_ok &= row.get("canvas_id") == f"https://api.digitale-sammlungen.de/iiif/presentation/v3/bsb00107549/canvas/{ordinal}" and service == {"id": service_id, "profile": "level2", "type": "ImageService3"} and body.get("id") == f"{service_id}/full/max/0/default.jpg" and row.get("stage_b_url") == body.get("id") and body.get("type") == "Image" and body.get("format") == "image/jpeg"
+    audit.check("stage1_five_pages_and_stage_b_urls_exact", actual_pages == expected_pages and page_contract_ok)
+    audit.check(
+        "stage1_manifest_and_request_summary_exact",
+        stage1.get("manifest") == {"bytes": 261778, "sha256": "6f25dbd8a0baff9a681e8c486a9a883ed704671c155a7cfd81775e9f2a235fd3", "url": "https://api.digitale-sammlungen.de/iiif/presentation/v3/bsb00107549/manifest"}
+        and evidence.get("failure_count") == 1 and evidence.get("intent_count") == 5 and evidence.get("success_count") == 4
+        and evidence.get("journal_sha256") == "46d652c4128ae06cfe73cb8eb32a2819257cbda7008b99c7aab9920e0070ea73"
+        and evidence.get("minimum_bsb_spacing_seconds") == 4.000818967819214,
+    )
+
+    def public_strings(value):
+        if isinstance(value, str):
+            yield value
+        elif isinstance(value, dict):
+            for key, child in value.items():
+                yield str(key)
+                yield from public_strings(child)
+        elif isinstance(value, list):
+            for child in value:
+                yield from public_strings(child)
+
+    strings = list(public_strings(stage1))
+    private_names = ["stage_a_state.json", "REQUEST_JOURNAL.jsonl", "STAGE1_RESOLUTION_DRAFT.json", "REDIRECT_RECOVERY_AUTHORIZATION.json", "CANONICAL_FALLBACK_AUTHORIZATION.json", "STAGE_A_EXCLUSIVE.lock"]
+    private_prefixes = tuple("/" + part + "/" for part in ("tmp", "home"))
+    audit.check(
+        "stage1_no_private_paths_or_names",
+        all(
+            not text.startswith("/")
+            and all(prefix not in text for prefix in private_prefixes)
+            for text in strings
+        )
+        and all(name not in "\n".join(strings) for name in private_names),
     )
 
     audit.check(
@@ -892,7 +972,7 @@ def main() -> int:
         manifest.get("experiment_id") == "GDT619"
         and manifest.get("slug") == "five_source_page_acquisition"
         and manifest.get("status")
-        == "PRIMARY_SCAN26_VISIBLY_ABSENT__CANONICAL_ADJACENT_PAIR_REGISTERED"
+        == "STAGE1_RESOLVED__GLOBAL_DELTA_MINUS_ONE__STAGE_B_AUTHORIZED_NOT_EXECUTED"
         and manifest.get("sealed_data") == {"f84": "FORBIDDEN", "f84r": "FORBIDDEN"},
     )
     audit.check("manifest_dependency", manifest.get("dependencies") == ["GDT618"])
@@ -916,10 +996,12 @@ def main() -> int:
         str(BASE_REL / "PREREGISTRATION.md"),
         str(REDIRECT_AMENDMENT_REL),
         str(FALLBACK_AMENDMENT_REL),
+        str(STAGE1_RESULT_REL),
         str(BASE_REL / "artifacts/README.md"),
         str(PROFILE_REL),
         str(REDIRECT_STOP_REL),
         str(PRIMARY_OBSERVATION_REL),
+        str(STAGE1_REL),
         str(VALIDATION_REL),
         str(ACQUIRE_REL),
         str(REQUIREMENTS_REL),

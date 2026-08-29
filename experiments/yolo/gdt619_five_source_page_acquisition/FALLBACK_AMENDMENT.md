@@ -2,7 +2,7 @@
 
 Published: 2026-08-29
 
-Status: `PRIMARY_SCAN26_VISIBLY_ABSENT__CANONICAL_ADJACENT_PAIR_REGISTERED`
+Status: `SUPERSEDED_BY_PUBLIC_STAGE1_RESOLUTION`
 
 ## Concrete primary result
 
@@ -56,8 +56,11 @@ After both images are manually read, exactly one `VISIBLE` plus one
 `VISIBLY_ABSENT` selects delta -1 or +1 under the original rule. Any ambiguous,
 double-visible, double-absent, redirect, transport, or decode outcome stops.
 
-The current result rules scan 26 out as the Balsamus rubric page and supplies a
-specific adjacent-page prediction. It does not yet verify scan 25, select a
-global shift, transcribe a source entry, open a Voynich target, or assign a
-Voynich sign, word, plant, plaintext, or meaning. `f84` and `f84r` remain
-forbidden.
+The adjacent pair subsequently resolved exactly as registered: scan 25 is
+`VISIBLE` with the illustrated label `Balsami.`, while scan 27 is
+`VISIBLY_ABSENT` and visibly labels `bos agrestis`. The selected global delta
+is therefore `-1`. `STAGE1_RESULT.md` and
+`artifacts/STAGE1_RESOLUTION.json` publish the complete result and five
+literal Stage-B URLs. No running source entry or Voynich target has been
+transcribed, and no Voynich sign, word, plant, plaintext, or meaning is
+assigned. `f84` and `f84r` remain forbidden.

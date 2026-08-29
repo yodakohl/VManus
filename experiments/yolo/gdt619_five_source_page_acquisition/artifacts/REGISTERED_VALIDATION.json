@@ -217,7 +217,27 @@
       "status": "PASS"
     },
     {
-      "check": "stage1_resolution_not_present",
+      "check": "stage1_artifact_exact_hash_and_frozen_generation_status",
+      "status": "PASS"
+    },
+    {
+      "check": "stage1_delta_and_observations_exact",
+      "status": "PASS"
+    },
+    {
+      "check": "stage1_three_thumbnail_rows_exact",
+      "status": "PASS"
+    },
+    {
+      "check": "stage1_five_pages_and_stage_b_urls_exact",
+      "status": "PASS"
+    },
+    {
+      "check": "stage1_manifest_and_request_summary_exact",
+      "status": "PASS"
+    },
+    {
+      "check": "stage1_no_private_paths_or_names",
       "status": "PASS"
     },
     {
@@ -245,11 +265,11 @@
       "status": "PASS"
     }
   ],
-  "decision": "PRIMARY_SCAN26_VISIBLY_ABSENT__CANONICAL_ADJACENT_PAIR_REGISTERED",
+  "decision": "STAGE1_RESOLVED__GLOBAL_DELTA_MINUS_ONE__STAGE_B_AUTHORIZED_NOT_EXECUTED",
   "experiment_id": "GDT619",
   "failed": 0,
-  "passed": 61,
+  "passed": 66,
   "schema_version": 1,
   "status": "PASS",
-  "total": 61
+  "total": 66
 }

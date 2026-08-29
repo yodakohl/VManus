@@ -14866,3 +14866,16 @@ with—but does not establish—scan26=f11r and scan25 as delta-1. A new hash-bo
 amendment authorizes only canonical scan25 at
 1200x1733 followed by scan27 at1200x1847;the cumulative BSB cap is10 and StageB
 remains locked until both manual observations and a public Stage1 resolution.
+
+The adjacent pair now resolves the locator. Scan25 succeeded at458,741 bytes,
+1200x1733,SHA256 `bc193b2a...2778` and is manually `VISIBLE`:the entry is
+Balsam and the illustrated label reads `Balsami.`. Scan27 succeeded at331,053
+bytes,1200x1847,SHA256 `b1f2e7c0...8dd8` and is `VISIBLY_ABSENT`;the distinct
+animal label `bos agrestis` is visible. The primary reader and two independent
+manual readers agree. The frozen rule selects global delta-1 and Clm canvases
+25/75/164/96/101. Public `STAGE1_RESOLUTION.json` SHA256
+`95457d96...d422` binds their exact five Stage-B URLs. An audit correction
+computes minimum BSB spacing over all durable intents(4.000818967819214s)and
+fixes the IIIF service schema from object to one-element list;neither changes
+the observations,delta,pages or hashes. StageB is authorized but unexecuted;
+no five-entry running text or Voynich target has been opened.

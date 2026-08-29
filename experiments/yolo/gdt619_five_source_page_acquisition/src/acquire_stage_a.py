@@ -896,6 +896,16 @@ def journal_rows(private_dir: Path) -> list[dict[str, Any]]:
     return [json.loads(line) for line in path.read_text(encoding="utf-8").splitlines()]
 
 
+def minimum_intent_spacing(rows: list[dict[str, Any]]) -> float:
+    spacings = [
+        float(row["seconds_since_previous_bsb_completion"])
+        for row in rows
+        if row.get("event") == "REQUEST_INTENT"
+        and row.get("seconds_since_previous_bsb_completion") is not None
+    ]
+    return min(spacings) if spacings else MINIMUM_BSB_SPACING_SECONDS
+
+
 def build_resolution_draft(
     private_dir: Path,
     state: dict[str, Any],
@@ -962,12 +972,9 @@ def build_resolution_draft(
             }
         )
     rows = journal_rows(private_dir)
-    spacings = [
-        float(row["seconds_since_previous_bsb_completion"])
-        for row in rows
-        if row.get("event") == "REQUEST_SUCCESS"
-        and row.get("seconds_since_previous_bsb_completion") is not None
-    ]
+    # Rate limiting governs request starts, including an intent whose request
+    # later fails.  Derive the public minimum from the durable pre-network
+    # intent rows rather than from successes only.
     journal_path = private_dir / "REQUEST_JOURNAL.jsonl"
     return {
         "calibration": {
@@ -984,7 +991,7 @@ def build_resolution_draft(
             "failure_count": sum(row.get("event", "").endswith("FAILURE") for row in rows),
             "intent_count": sum(row.get("event") == "REQUEST_INTENT" for row in rows),
             "journal_sha256": hashlib.sha256(journal_path.read_bytes()).hexdigest(),
-            "minimum_bsb_spacing_seconds": min(spacings) if spacings else MINIMUM_BSB_SPACING_SECONDS,
+            "minimum_bsb_spacing_seconds": minimum_intent_spacing(rows),
             "success_count": sum(row.get("event") == "REQUEST_SUCCESS" for row in rows),
             "thumbnails": evidence_rows,
         },
@@ -1155,6 +1162,13 @@ def self_test() -> dict[str, Any]:
     checks.append(("original_primary_absent_authorizes_registered_fallback", primary_observation_action("VISIBLY_ABSENT", False) == "AUTHORIZE_REGISTERED_FALLBACK"))
     checks.append(("recovered_primary_absent_requires_new_public_amendment", primary_observation_action("VISIBLY_ABSENT", True) == "STOP_FALLBACK_REQUIRES_PUBLIC_AMENDMENT"))
     checks.append(("recovered_primary_visible_can_resolve_stage1", primary_observation_action("VISIBLE", True) == "RESOLVE_STAGE1"))
+    spacing_rows = [
+        {"event": "REQUEST_INTENT", "seconds_since_previous_bsb_completion": 4.25},
+        {"event": "REQUEST_FAILURE", "seconds_since_previous_bsb_completion": 4.25},
+        {"event": "REQUEST_INTENT", "seconds_since_previous_bsb_completion": 4.125},
+        {"event": "REQUEST_SUCCESS", "seconds_since_previous_bsb_completion": 4.5},
+    ]
+    checks.append(("minimum_spacing_uses_all_intents_including_failed_requests", minimum_intent_spacing(spacing_rows) == 4.125))
     jpeg_buffer = io.BytesIO()
     Image.new("RGB", (1200, 1792), (1, 2, 3)).save(jpeg_buffer, format="JPEG")
     synthetic_jpeg = jpeg_buffer.getvalue()

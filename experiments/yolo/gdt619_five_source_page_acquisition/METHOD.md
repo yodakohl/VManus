@@ -59,7 +59,7 @@ before any Stage-B request.
 The five Clm URLs are the manifest-advertised Image API v3 bodies with
 `/full/max/0/default.jpg`. Their service objects are exactly `ImageService3`,
 profile `level2`; their exact widths are all 1707 and heights are
-2547/2563/2624/2576/2587. The five Gallica URLs are the registered Image API
+2466/2581/2562/2591/2581 after the selected delta `-1`. The five Gallica URLs are the registered Image API
 1.1 native full resources. `default` and `native` are deliberately not
 interchanged: the witnesses advertise different Image API generations.
 
@@ -118,10 +118,10 @@ treated as permission.
 
 ## Decision rule and claim ceiling
 
-This registration's only passing decision is
-`PROFILE_REGISTERED__NO_IMAGE_REQUEST_EXECUTED`. Future acquisition may end in
-`TEN_SOURCE_PAGES_ACQUIRED__TARGET_UNOPENED`, `SOURCE_PAGE_ACQUISITION_FAILURE`,
-or `SOURCE_LOCATOR_FAILURE` under the registered rules.
+Stage A has passed with
+`STAGE1_RESOLVED__GLOBAL_DELTA_MINUS_ONE__STAGE_B_AUTHORIZED_NOT_EXECUTED`.
+Future Stage-B acquisition may end in `TEN_SOURCE_PAGES_ACQUIRED__TARGET_UNOPENED`
+or `SOURCE_PAGE_ACQUISITION_FAILURE` under the registered rules.
 
 No outcome in this experiment establishes a Voynich correspondence, botanical
 identification, sign value, lexeme, language, plaintext, or translation.
@@ -155,3 +155,19 @@ sizes only. An exact offline gate binds the post-observation state/journal and
 scan-26 JPEG. The network phase must then request scan 25 at 1200x1733 and scan
 27 at 1200x1847, in order, and validate both exact dimensions. Its cumulative
 BSB cap is ten; no delta is selected until both manual observations are present.
+
+## Executed adjacent-pair result
+
+The canonical adjacent requests succeeded in order without redirects. Scan 25
+fully decoded at 1200x1733 and is `VISIBLE`; the illustrated Balsam label reads
+`Balsami.`. Scan 27 fully decoded at 1200x1847 and is `VISIBLY_ABSENT`; the
+distinct label `bos agrestis` is visible. The primary reader and two independent
+manual readers agree. The registered decision rule therefore selects global
+delta `-1`, yielding Clm canvases 25/75/164/96/101.
+
+The canonical `artifacts/STAGE1_RESOLUTION.json` binds the exact manifest,
+journal hash, three response hashes and dimensions, observations, rights, five
+selected page objects, and literal Stage-B URLs. Its spacing summary uses all
+durable request intents, including the failed width-only request; the minimum
+is 4.000818967819214 seconds. Its publication authorizes but does not execute
+Stage B. No source running text or Voynich target has been opened.

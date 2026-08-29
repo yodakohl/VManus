@@ -467,7 +467,7 @@ def build_profile() -> dict:
                     "status": "str=STAGE1_RESOLVED__STAGE_B_URLS_PUBLICLY_UNBOUND",
                 },
                 "selected_page_object_types": {
-                    "body": "object{id:str,type:Image,format:image/jpeg,width:int,height:int,service:object}",
+                    "body": "object{id:str,type:Image,format:image/jpeg,width:int,height:int,service:list[exactly_1 object]}",
                     "candidate_id": "str",
                     "canvas_id": "str",
                     "canvas_ordinal": "int",

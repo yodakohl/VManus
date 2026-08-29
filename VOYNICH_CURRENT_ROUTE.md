@@ -284,10 +284,10 @@ The complete route memory remains in
 `experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv` and the full
 ledger. Use those files for a proposed-route duplicate audit, not on every turn.
 ## Next useful route
-Publish GDT619 scan26 result:Balsamus absent,Borax/Bos visible;then request only
-canonical scans25(1200x1733) and27(1200x1847) and manually resolve the shift.
-After public Stage1,acquire five Lat.6823/Clm pages for Balsamus,Cerfolium,
-Liquiritia,Cucurbita,Diptamus;double-read Latin+12 tokens before any target.
+GDT619 Stage1 selects Clm delta-1 and canvases25/75/164/96/101;publish the
+resolution,then register a capped exactly-once StageB acquirer before any GET.
+Acquire the frozen five Clm then five Lat.6823 pages;double-read each Latin
+heading+12 running tokens with Clm as control before opening any target.
 ## Primary routing references
 
 - `experiments/semantic_assumptions/grammar/CONFIRMED_GRAMMAR.md`
