@@ -284,8 +284,8 @@ The complete route memory remains in
 `experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv` and the full
 ledger. Use those files for a proposed-route duplicate audit, not on every turn.
 ## Next useful route
-GDT630 corrects the135 fused/separate count to86 coreful OL quality phrases,19 bare OL and30 OR. All6 fused cells have56 separate counterparts;fusion is an inner BASE+dN spelling,not a hidden whole clause. Eleven immediate visible parts yield5 part-before and6 part-after clauses;9 are reader-normalized,8 exact. New readings include `chor qotol daiin=plant part:cold III`,`cthy qokol daiin=leaf drug:hot III`,twice `chol daiin cthy=leaf drug:dry III`,and f8 `sholdaiin/shol daiin shor=reproductive head:moist III`. Dose and adjacent-cell rivals remain. V7 has38 entries;179 checks pass.
-Next GDT631 test the twice-preposed `chcthy` as possible `ch+cthy=dry leaf material` against the full inherited cth family and analogous k/t/sh+cth forms,using admitted material only;open no page/image and keep qotor plus substring-only matches OPEN.
+GDT631 replaces isolated `chcthy` with productive direct CTH composition:408 bare,115 strict ch- and36 sh-prefixed tokens;17/5 rests have naked bases,simple k/t rows are empty. f21 gives `sh cthey↔shcthey`;the common terminal slot holds cthy6/chcthy3/shcthy1. Repeated clauses include4/4 `chcthy qokain=dry CTH material:hot II` and3/3 each `qokaiin/qotain shcthy=moist CTH material:hot III/cold II`. All4 immediate same-axis degree contacts agree,but f24 `chcthy shol` and f20 `shol chcthy` keep dry/moist provisional. Global output is CTH drug material;Herbal narrows to leaf/herb material. V8=47;166 checks.
+Next GDT632 test exact `ch/sh+(NONE|e|o|eo)+cth+R` as one interfix lattice with the same panel,no new page/image;keep e/o OPEN unless the lattice predicts them.
 ## Primary routing references
 
 - `experiments/semantic_assumptions/grammar/CONFIRMED_GRAMMAR.md`

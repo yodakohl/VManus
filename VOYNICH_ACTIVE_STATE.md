@@ -15272,3 +15272,47 @@ repeated open nominal head. GDT630 passes179 checks. Next test chcthy against
 the complete inherited cth family and analogous k/t/sh+cth forms on admitted
 material only;open no new page/image and do not treat substring resemblance as
 proof.
+
+## GDT631 promotes a productive ch/sh plus CTH material family
+
+GDT631 exhausts direct `cth+R`,`ch+cth+R`,`sh+cth+R`,`k+cth+R` and
+`t+cth+R` surfaces on the unchanged guarded179-page panel. Strictly against
+GDT625's69 published naked bases,the counts are408 bare,115 ch-prefixed and36
+sh-prefixed tokens;17 ch and5 sh surfaces have an exact naked-rest
+counterpart. The primary triple is `cthy:chcthy:shcthy=92:75:29`,with
+85:69:26 triple-exact tokens. Five remainders (`y,ey,dy,edy,al`) carry both ch
+and sh;simple k and t counterparts are absent.
+
+The decomposition now has direct boundary evidence. On f21r.9 ZL3b/RF1b read
+`sh cthey` while IT2a reads `shcthey` over the same character span. No reader
+splits source `chcthy` internally,but its complete unit varies at outer
+boundaries in `chcthydain↔chcthy dain`,`l chcthy↔lchcthy`,and pairwise
+`chcthykedy↔chcthy kedy`. The frame `daiin __ <line-end>` contains6 cthy,3
+chcthy and1 shcthy targets;9/10 are triple exact. Thus the three forms occupy
+the same material/part slot even when the common words are orthographically
+learned wholes.
+
+Seven repeated concrete frames survive. `chcthy qokain` is4/4 stable and reads
+dry CTH material:hot degreeII;the reverse `qokain chcthy` occurs four times,
+three stable. `qokaiin shcthy` and `qotain shcthy` are each3/3 stable and read
+moist CTH material:hot III and cold II. `chaiin chcthy` is2/2 stable. f45r.3
+retains the exact bracket `chcthy kchol daiin=dry leaf/herb material:hot-dry
+III`;f93r.21 retains `shol daiin shcthy=moist III:moist CTH material`.
+
+The semantic qualification remains explicit. All four immediate degree
+contacts that test the same moisture axis match ch=dry/sh=moist,but a broader
+24-neighbor quality panel has14 matches,6 opposites and4 orthogonal contacts.
+The sharpest exact warning is f24v.8 `chcthy shol`;f20v.3 repeats `shol
+chcthy`. These may be adjacent technical cells,but they prevent a forced
+meaning. Because naked cthy is90/92 Herbal while the prefixed forms cross
+sections,the global default is dry/moist CTH plant or drug material;only Herbal
+narrows it to leaf/herb material. A binary technical-class reading stays live.
+
+One triple-exact `tchcthy` permits a low singleton default cold-dry CTH
+material;one unstable `oshctho` is a wrapped moist lead. They do not create a
+thermal grid. Three dated comparators show that part head,compact hot/dry codes
+and degree co-occur in real c.1390–1450 materia-medica microentries without
+equating their letters to Voynich glyphs. V8 retains all38 V7 rows and adds
+nine entries;GDT631 passes166 checks. Next use the same panel to test the
+larger `ch/sh+(NONE|e|o|eo)+cth+R` lattice,keeping e/o meanings open and
+opening no page or image.

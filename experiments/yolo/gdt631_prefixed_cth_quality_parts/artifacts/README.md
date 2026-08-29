@@ -1,0 +1,23 @@
+# GDT631 artifacts
+
+- `PAGE_ALLOWLIST.tsv`: 179 explizit zugelassene, f1r-/f84-freie Seiten.
+- `PREFIXED_CTH_OCCURRENCES.tsv`: nackte und direkt ch/sh/k/t-präfigierte CTH-Token.
+- `PREFIX_REMAINDER_MATRIX.tsv`: Restparadigma mit Nullzellen.
+- `PREFIX_REMAINDER_MINIMAL_PAIRS.tsv`: strenge Paare gegen publizierte nackte Basen.
+- `CROSS_READER_PREFIX_REALIZATIONS.tsv`: Leserstatus jedes präfigierten Quelltokens.
+- `CROSS_READER_PREFIX_BOUNDARY_BRIDGES.tsv`: interne Fusions-/Spaltbrücke.
+- `TARGET_OUTER_BOUNDARY_BRIDGES.tsv`: äußere Grenzvariation um `chcthy`.
+- `LOCAL_PREFIX_CONTRASTS.tsv`: Gleichrest-Kontraste innerhalb einer Zeile.
+- `SHARED_PART_SLOT_FRAMES.tsv`: gemeinsames `daiin __ <LINE_END>`-Frame.
+- `PREFIXED_CTH_QUALITY_CONTACTS.tsv`: Gradkontakte bis Distanz drei.
+- `PREFIXED_CTH_LOCAL_QUALITY_NEIGHBORS.tsv`: direkte Qualitätsnachbarn samt Gegenkontakten.
+- `QUALITY_CONTACT_SUMMARY.tsv`: Basis-/Präfixvergleich und eindeutige Zielvorkommen.
+- `REPEATED_CLAUSE_FRAMES.tsv`: wiederholte konkrete Mikroklammern.
+- `CONCRETE_CLAUSES_V3.tsv`: 34 leserstabile lokale Arbeitsübersetzungen.
+- `SECTION_PREFIX_PROFILE.tsv`: Sektionen und Hände.
+- `EXTENDED_CTH_FACTOR_GRID.tsv`: o/qo-, `tchcthy`- und `oshctho`-Leads.
+- `HISTORICAL_COMPOSITION_COMPARATORS.tsv`: drei zeitnahe Vergleichsstellen.
+- `INHERITED_VISUAL_SCOPE.tsv`: geerbte Bildurteile; keine neue Bildseite.
+- `PREFIX_ROLE_RANKING.tsv`: konkurrierende Arbeitsmodelle.
+- `WORKING_DICTIONARY_V8.tsv`: V7 plus neun neue Defaults.
+- `RESULT.json`, `VALIDATION.json`: gebundene Zusammenfassung und Replay-Prüfung.
