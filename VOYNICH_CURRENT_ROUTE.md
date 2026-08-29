@@ -284,8 +284,8 @@ The complete route memory remains in
 `experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv` and the full
 ledger. Use those files for a proposed-route duplicate audit, not on every turn.
 ## Next useful route
-GDT635 keeps179 pages and separates initial p/s/r/l from sh,standalone,internal,terminal and GDT418 signs. Counts=503/801/332/1224;760 exact bodies,144 shared,24 four-way. Primary heads:p=pulvis/Pulver,s=semen/Samen,r=radix/Wurzel,l=lignum/Drogenholz;sal,resina,liquor/extract remain rivals. Bodies aiin/chedy/shedy/ol/or give20/20 concrete cells(639 tokens,477 reader-exact);10 spans/22 tokens are fully glossed(7 exact,8 split-normalized). p/s are entry heads,r/l internal ingredient heads;headed aIII=type/batchIII,d+aIII=dose/measureIII. V12=132 unchanged+24 scoped=156;17773 checks/16-output byte replay pass.
-Next GDT636 gives the other19 four-way bodies short concrete values on the same material. Preserve both head subclasses;no generic prose,GDT418 values,new pages/images or local globalization.
+GDT636 completes the same179-page four-head grid:19 residual bodies/76 forms/527 tokens/398 reader-exact,all with short scoped defaults;V13=156 inherited+95 scoped=251. ar/air/aiir=FraktionI/II/III,or=Portion;al=RohstoffformI,ol=Material;on/oin/oiin/oiiin=ZubereitungsformI-IV;am is MaßI and adds entry-close only line-final(mixing rival);ody=finished/prepared,not cooling. ar/or coexist48 lines,al/ol20;all527 contexts,6 contrast pairs,2 exact ar frames and14 spans/42 tokens published. p/s first128/285,r/l first16/242 and226 internal/final;2526 checks/13-output replay pass.
+Next GDT637 extends the observed aiir/oiiin/aim/aiim ladder cells and applies V13 to every already opened line to rank one-unknown-slot passages. Freeze all GDT636 values;no f1r,new page/image,GDT418 import,generic filler or bare-surface globalization.
 ## Primary routing references
 
 - `experiments/semantic_assumptions/grammar/CONFIRMED_GRAMMAR.md`

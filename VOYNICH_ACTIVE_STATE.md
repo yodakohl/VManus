@@ -15483,7 +15483,34 @@ rows:all132 V11 rows unchanged plus four scoped initial heads and20 attested
 whole forms. The independent validator passes17773 checks and byte-replays all
 16 builder artifacts.
 
-Next GDT636 stays on the same material and gives the remaining19 four-way
-bodies short concrete defaults,using same-line/exact-frame passages and the
-p/s versus r/l subclass split. No generic prose,GDT418 values,new page or
-image is admitted.
+## GDT636 completes all residual four-head meanings through a small field system
+
+GDT636 stays on the same guarded179-page scope and opens no image. The19
+residual GDT635 bodies give76/76 attested p/s/r/l forms,527 headed tokens and
+398 all-reader exact surfaces. All527 occurrences are published with physical
+line,position,neighbors and reader status. p/s contribute285 tokens with128
+line starts; r/l contribute242 with only16 starts and226 internal/final,so the
+entry-material versus internal-ingredient subclass split remains intact.
+
+The best working composition is now ch/sh=dry/moist,y/e-y/ee-y=base/formI/
+formII,o=preparation,d-y=result,a+minims=value,d+a+minims=dose,L=material,
+R=part and m=measure. ar/air/aiir form FraktionI/II/III;
+on/oin/oiin/oiiin form preparationI/II/III/IV;am/aim/aiim form measureI/II/III,
+with an additional entry-close reading only in line-final position. ar and or coexist in48 lines,forcing FraktionI versus
+Portion;al and ol coexist in20,forcing RohstoffformI versus general/prepared
+Material. Six total coexistence pairs also separate dry/moist states from
+their result forms. ody is corrected from cooling to finished/prepared because
+o+d+y contains neither the k heat nor t cold head.
+
+Fourteen concrete spans/42 tokens include f4r.12 soiin chaiin chaiin=seed
+preparationIII,dryIII,dryIII;f49r.12 podaiin cheo kcho daiin chcthy=powder
+preparation doseIII,dry preparation,hot-dry preparation,doseIII,dry leaf/herb
+material;f106v.38 rody raiin=prepared root,batchIII;and f77r.7 soral=seed raw-
+material portion. Nine spans are all-reader exact. V13 preserves all156 V12
+rows and adds19 scoped bodies+76 scoped forms=251. The validator passes2526
+checks and byte-replays13 builder outputs.
+
+Next GDT637 freezes these values,extends already observed aiir/oiiin/aim/aiim
+head cells and uses V13 to rank all already opened lines with exactly one
+unknown slot. The purpose is rapid complete-passage growth without reopening
+f1r,adding a page/image,importing GDT418 values or globalizing bare surfaces.
