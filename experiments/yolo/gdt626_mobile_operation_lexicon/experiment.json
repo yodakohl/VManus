@@ -1,0 +1,59 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "The largest retained table is a compact 5,176-row occurrence atlas required to reproduce the four-cell bound, same-head paradigms, alternate-reading stability, quality and part compounds, and d-family resegmentation. It is under one megabyte and contains no image bytes.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "GDT626 promotes a bounded four-cell written suffix and uses I/II/III/IV as the current exploratory default by analogy with medieval final-j recipe numerals. It promotes degree readings only on inherited quality heads and unresolved amount, dose, degree, or class values on plant-part heads. It resegments daiin as d+III and downgrades an atomic operation or conjunction reading. It does not prove glyph identity, absolute units, numerical semantics on every head, the inherited quality orientation, a language, or complete plaintext.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt626_mobile_operation_lexicon/src/run.py",
+    "validate": "python3 experiments/yolo/gdt626_mobile_operation_lexicon/src/validate.py"
+  },
+  "created": "2026-08-29",
+  "dependencies": ["GDT623", "GDT624", "GDT625"],
+  "experiment_id": "GDT626",
+  "inputs": [
+    {"path": "transcription/voynich_zl3b_tokens.tsv", "role": "mixed token table queried only through the explicit 179-page allow-list", "sha256": "6a061a26edc05ff37dc386c2215774c229a5ff087d3091e68bdd4983a6c007aa"},
+    {"path": "transcription/voynich_cross_transcription_lines.tsv", "role": "mixed ZL3b IT2a RF1b line table queried only through explicit selector allow-values", "sha256": "ff3a4559004a29764c60102326de154b29fbba06a2a206bdd76d7feda432e16c"},
+    {"path": "experiments/yolo/gdt624_productive_quality_shell_grid/artifacts/PAGE_ALLOWLIST.tsv", "role": "canonical f1r-free and f84-free 179-page selector allow-list", "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483"},
+    {"path": "experiments/yolo/gdt623_temperament_orientation_frequency/artifacts/WORKING_DICTIONARY_V2.tsv", "role": "inherited hot cold dry moist and plant-part working layer", "sha256": "7b93228a2b43d6544bf43955289a92e2f26046a739a07d12a91291f3b513b3ef"},
+    {"path": "experiments/yolo/gdt624_productive_quality_shell_grid/artifacts/PRODUCTIVE_READER.tsv", "role": "inherited productive quality-shell reader", "sha256": "01124c05e8ca3042694cf654a5ff488e179a6b3c2feef4e5c63aaec3d2210a2c"},
+    {"path": "experiments/yolo/gdt625_ordered_quality_state_transitions/artifacts/RESULT.json", "role": "current cth Blattgut and local operation synthesis", "sha256": "317f04f6ff6d44f31d3c938bbc3b70afdf90c02a1e48f253ac3dac372644610a"},
+    {"path": "experiments/yolo/gdt626_mobile_operation_lexicon/artifacts/HISTORICAL_NUMERAL_COMPARATORS.tsv", "role": "nine dated recipe numeral quality-degree and transcription comparators", "sha256": "873372b70d9707efa9b214877d3c311baa0c8a00bedd19b764c5ebf30c556210"},
+    {"path": "experiments/yolo/gdt626_mobile_operation_lexicon/artifacts/MANUAL_VISUAL_JUDGMENTS.tsv", "role": "five bounded judgments using no newly opened image", "sha256": "828190a4c238e8532edc697018106dffd6a8b323201006f199b07199625e8352"}
+  ],
+  "outputs": [
+    {"path": "experiments/yolo/gdt626_mobile_operation_lexicon/README.md", "role": "short result and working compound table", "sha256": "533879d35ceb86dcce1c3384e53251ef41b390a9942c9bc83a8dfaf18a692cc2"},
+    {"path": "experiments/yolo/gdt626_mobile_operation_lexicon/METHOD.md", "role": "guarded minim paradigm and compound-reader method", "sha256": "72ae9739533e02ad8f9da55c9ea0e2c12ef48d7e9ab4ce15b95e6cf6ad31bede"},
+    {"path": "experiments/yolo/gdt626_mobile_operation_lexicon/REPORT.md", "role": "primary four-value and concrete compound report", "sha256": "e1f8c803562e1d1b2ea74b0df0f7ce61ee8d11e0bc73c22c3268641d1458cc3d"},
+    {"path": "experiments/yolo/gdt626_mobile_operation_lexicon/artifacts/README.md", "role": "artifact inventory", "sha256": "c34e7773f9e98f4fff8d1e7179bb585b5f54b4abca585c4a9ada7168f572e89c"},
+    {"path": "experiments/yolo/gdt626_mobile_operation_lexicon/artifacts/PAGE_ALLOWLIST.tsv", "role": "canonical guarded page scope", "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483"},
+    {"path": "experiments/yolo/gdt626_mobile_operation_lexicon/artifacts/MINIM_SUFFIX_OCCURRENCES.tsv", "role": "5,176 minim-suffix occurrences", "sha256": "1dcadf3b62123621d126ca43c62f43f8f00f7fd10ec294ca5d5950ae7b1dff4f"},
+    {"path": "experiments/yolo/gdt626_mobile_operation_lexicon/artifacts/MINIM_VALUE_TOTALS.tsv", "role": "four value totals and line profiles", "sha256": "73a9c6c92b9ea2c4578a5e00e5c2e7ded29fcbaf040fbeff4afd9005f10961f7"},
+    {"path": "experiments/yolo/gdt626_mobile_operation_lexicon/artifacts/VALUE_CONTEXT_PROFILES.tsv", "role": "section and hand conditioning profiles", "sha256": "aac54ccabbdb2fbeae8d218a2ba6a88ad973107291ec3f9012bc813c5d694975"},
+    {"path": "experiments/yolo/gdt626_mobile_operation_lexicon/artifacts/MINIM_FAMILY_SUMMARY.tsv", "role": "545 head paradigms", "sha256": "da48ba0041048298947ace1d9cbba69032d80f9e6377861e6b90e32b1c65dd7e"},
+    {"path": "experiments/yolo/gdt626_mobile_operation_lexicon/artifacts/FOUR_CELL_FAMILIES.tsv", "role": "fifteen complete I-IV heads", "sha256": "b7788637c269049675a02a886353269eaaf021ddadf533b203cf6ed075fdd31c"},
+    {"path": "experiments/yolo/gdt626_mobile_operation_lexicon/artifacts/MIXED_VALUE_LINES.tsv", "role": "136 same-head mixed-value lines", "sha256": "12fda3f21d48a838864990c83fcfe5c46fad04cf4e8f1bb849d3bdbc69476848"},
+    {"path": "experiments/yolo/gdt626_mobile_operation_lexicon/artifacts/READING_VALUE_TOTALS.tsv", "role": "alternate-reading value totals", "sha256": "815e75bc9f200972117dc0079603f2797f5e1de8174b17cc422ff9bc29d2ed95"},
+    {"path": "experiments/yolo/gdt626_mobile_operation_lexicon/artifacts/QUALITY_VALUE_COMPOUNDS.tsv", "role": "47 quality-plus-value occurrences", "sha256": "a5d50cd0c6bec5bc4e3f93f49a02cfbcadd28b80cb8b699d7914635341103009"},
+    {"path": "experiments/yolo/gdt626_mobile_operation_lexicon/artifacts/QUALITY_VALUE_MATRIX.tsv", "role": "complete registered quality-value grid", "sha256": "4d4575538d717bbef2a3bc8b6a30f6af21d4e8e4cdf997f90cb703788e790f2f"},
+    {"path": "experiments/yolo/gdt626_mobile_operation_lexicon/artifacts/PART_VALUE_COMPOUNDS.tsv", "role": "28 plant-part-plus-value occurrences", "sha256": "b57e2c4637ce0efe0c1cc14e69de134445ebc71cf084fe8662dbcb0f1a320a8a"},
+    {"path": "experiments/yolo/gdt626_mobile_operation_lexicon/artifacts/DA_VALUE_CONTEXTS.tsv", "role": "948 da-family contexts", "sha256": "baa2df8516cc4929be8c435a4d8ef5518d4f13432ee52bc363ff176061783344"},
+    {"path": "experiments/yolo/gdt626_mobile_operation_lexicon/artifacts/ROLE_RIVAL_RANKING.tsv", "role": "six semantic and structural rivals", "sha256": "5dc5e941c5433f006c294dc89f20580db0ffe19d8b74d5072f043cb911b132b8"},
+    {"path": "experiments/yolo/gdt626_mobile_operation_lexicon/artifacts/WORKING_DICTIONARY_V3.tsv", "role": "eighteen-entry compositional working reader", "sha256": "2cbde17a45247fd2fa923312143f937a1217e097bdb6cb4859ab3df107d04412"},
+    {"path": "experiments/yolo/gdt626_mobile_operation_lexicon/artifacts/CONCRETE_LOCAL_READINGS.tsv", "role": "nine concrete local readings", "sha256": "26d4a83142ad5a61fe3d4d1286676eb2431482539c13053dde4f8f29d5e7caa0"},
+    {"path": "experiments/yolo/gdt626_mobile_operation_lexicon/artifacts/HISTORICAL_NUMERAL_COMPARATORS.tsv", "role": "historical numeral and degree comparators", "sha256": "873372b70d9707efa9b214877d3c311baa0c8a00bedd19b764c5ebf30c556210"},
+    {"path": "experiments/yolo/gdt626_mobile_operation_lexicon/artifacts/MANUAL_VISUAL_JUDGMENTS.tsv", "role": "manual layout and image judgments", "sha256": "828190a4c238e8532edc697018106dffd6a8b323201006f199b07199625e8352"},
+    {"path": "experiments/yolo/gdt626_mobile_operation_lexicon/artifacts/RESULT.json", "role": "canonical synthesis and bound evidence hashes", "sha256": "9bc9fbcbea45b2f37095b14c4a2de4b83b1b2cd795d4517fed36c5419f6a5420"},
+    {"path": "experiments/yolo/gdt626_mobile_operation_lexicon/artifacts/VALIDATION.json", "role": "deterministic replay and privacy certificate", "sha256": "4ce41b19e3287465efdbaa2a3bb8d364810eda9711020562be4152507085eb6c"},
+    {"path": "experiments/yolo/gdt626_mobile_operation_lexicon/src/run.py", "role": "deterministic guarded builder", "sha256": "5ace842f4f0e1aedaabf492b143a24bda9c00a3d5070dc5251fbf06247630986"},
+    {"path": "experiments/yolo/gdt626_mobile_operation_lexicon/src/validate.py", "role": "byte-replay count provenance and privacy validator", "sha256": "37e2f313156411535198ca121c6c264c0a0546a14acdcebdb0f6b7ba93194e94"}
+  ],
+  "question": "Can a mobile word between known part and quality carriers receive a concrete operation meaning, or does its internal paradigm identify a compositional value system?",
+  "schema_version": 1,
+  "sealed_data": {"f84": "FORBIDDEN", "f84r": "FORBIDDEN"},
+  "slug": "mobile_operation_lexicon",
+  "status": "FOUR_CELL_MINIM_VALUE_READER__QUALITY_DEGREES_COMPOSE__DAIIN_RESEGMENTED",
+  "title": "Four-cell minim values and concrete quality-degree compounds",
+  "updated": "2026-08-29",
+  "validation": {"artifact": "experiments/yolo/gdt626_mobile_operation_lexicon/artifacts/VALIDATION.json", "status": "PASS"}
+}

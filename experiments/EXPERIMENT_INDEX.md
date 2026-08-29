@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **623**
-- Experiment-associated tracked files: **9,767** (1.0 GiB)
-- Structured GDT337+ experiments: **288**
+- Experiments indexed: **624**
+- Experiment-associated tracked files: **9,793** (1.0 GiB)
+- Structured GDT337+ experiments: **289**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,6 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
+| GDT626 | GDT626_mobile_operation_lexicon | `FOUR_CELL_MINIM_VALUE_READER__QUALITY_DEGREES_COMPOSE__DAIIN_RESEGMENTED` | [report](../experiments/yolo/gdt626_mobile_operation_lexicon/REPORT.md) | 26 | 917.5 KiB | 3 | STRUCTURED_YOLO |
 | GDT625 | GDT625_ordered_quality_state_transitions | `CTHY_BLATTGUT_PROMOTED__STATE_PATHS_SPLIT_PART_CONTRAST_FROM_PROCESS` | [report](../experiments/yolo/gdt625_ordered_quality_state_transitions/REPORT.md) | 24 | 362.7 KiB | 2 | STRUCTURED_YOLO |
 | GDT624 | GDT624_productive_quality_shell_grid | `COMPLETE_48_CELL_SURFACE_LATTICE__COMPOSITIONAL_QUALITY_CORE_WORKING_READER` | [report](../experiments/yolo/gdt624_productive_quality_shell_grid/REPORT.md) | 24 | 235.2 KiB | 2 | STRUCTURED_YOLO |
 | GDT623 | GDT623_temperament_orientation_frequency | `WORKING_TRANSLATION_V2__MOISTURE_AXIS_FLIPPED__LOCAL_ATTACHMENT_REPAIRED` | [report](../experiments/yolo/gdt623_temperament_orientation_frequency/REPORT.md) | 30 | 190.6 KiB | 2 | STRUCTURED_YOLO |

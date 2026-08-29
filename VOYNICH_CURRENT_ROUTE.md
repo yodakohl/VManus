@@ -284,10 +284,9 @@ The complete route memory remains in
 `experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv` and the full
 ledger. Use those files for a proposed-route duplicate audit, not on every turn.
 ## Next useful route
-GDT625 expands the quality tail to1,162 tokens/200 surfaces and finds535 successive local pairs,63 moisture flips and6 dry→moist→dry paths;state order becomes an operation only when one carrier spans both states.
-Its concrete gain is `cth-=vegetative plant-part family`,`cthy=leaf material/leaf drug`:92 tokens,90 Herbal,85 three-reading stable,408-token root family,32 part contacts and12 immediate quality contacts.
-f29v.4 now reads primarily `[otshy okaiin][cthy oltchy]=cold-moist preparation/material;leaf drug cold-dry`,not an automatic drying sequence. Historical mixed codebooks keep operations as separate verbs or short frames.
-Next GDT626 ranks mobile operation words around `cthy,dair,shor` and changed result states,starting with low `otar=then/until/process`,and searches the carrier→operation→medium/time→result architecture without opening another image page.
+GDT626 replaces the generic operation with a four-cell value suffix. The safe panel has5,176 `^(.*a)(i*)n$` tokens/545 heads:102/1,565/3,404/105 `-an/-ain/-aiin/-aiiin`,15 complete I–IV heads,136 mixed lines and no fifth cell. Default I/II/III/IV follows medieval final-j numerals;conditioned inflection remains the rival.
+Concrete compounds are `qokchain/qokchaiin=hot-dry degree II/III`,`qotchain/qotchaiin=cold-dry degree II/III`,and `cthan/cthain/cthaiin=leaf drug value I/II/III`,with part-side unit open. `dan/dain/daiin/daiiin` is17/193/721/17;`daiin=d+III`,not operation/conjunction;d head and binding remain open.
+Next GDT627 separates degree,amount/dose and grammatical-grade heads under fixed frames,starting cth/chor/da. Use only admitted material;open no page or image.
 ## Primary routing references
 
 - `experiments/semantic_assumptions/grammar/CONFIRMED_GRAMMAR.md`

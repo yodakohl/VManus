@@ -15098,3 +15098,41 @@ therefore an object,not the bridge verb. `otar` is the first low candidate for
 two moist→dry bridges versus zero dry→moist. Next search mobile operation words
 around `cthy,dair,shor` in carrier→operation→medium/time→result frames without
 opening another image page. The deterministic validator passes107 checks.
+
+## GDT626 promotes a four-cell value suffix and resegments `daiin`
+
+The mobile-operation search found no concrete verb, but it exposed a stronger
+compositional layer. Across the guarded179-page panel,5,176 tokens under545
+heads match `^(.*a)(i*)n$`. The visible internal minim slot is absolutely
+bounded at zero through three:102 `-an`,1,565 `-ain`,3,404 `-aiin`,105
+`-aiiin`,and no longer form. Twenty-eight heads contain the first three cells
+and15 contain all four. There are136 physical lines with at least two values
+under the same head;96 are stable in all alternate readings. f42v.2 contains
+`dan dain ... daiin=I II ... III`;f38v.6 is completely reading-stable as
+`daiin daiiin dain dain=III IV II II`.
+
+The current practical default reads `-an/-ain/-aiin/-aiiin` as I/II/III/IV,
+following the exact medieval medical final-j series `j/ij/iij/iiij`. This is a
+mechanism match,not a claim that EVA n is Latin j. A lexically or grammatically
+conditioned four-grade inflection remains serious:the III share among II+III is
+.821 in Herbal versus.455 in Biological material and.840 for Hand1 versus.608
+for Hand2. Random allography is no longer adequate because different values
+coexist stably on the same line.
+
+The value reader predicts whole compounds. Forty-seven quality-value tokens on
+33 pages include `qokchain/qokchaiin=hot-dry degree II/III` and
+`qotchain/qotchaiin=cold-dry degree II/III`;the historical Galenic degree
+architecture is directly attested in early15th-century MS.542 and c.1400
+Pal.lat.1234. Twenty-eight known part-value tokens include20 cth forms:
+`cthan/cthain/cthaiin=leaf or above-ground drug material value I/II/III`.
+On f18r.5 `cthaiin` occurs inside a visible part sequence;f18r.12 independently
+has `qokchy cthy=hot-dry leaf material`. The part-side unit remains open among
+amount,dose,degree and technical class;do not read literal numbers of leaves or
+a specific measure.
+
+The da family is17/193/721/17. `daiin` is now `d+III`,with unknown d head and
+open attachment direction,not “take”,“work”,“and” or an empty item marker.
+Its recurrent carrier-bridge placement leaves a secondary learned list-linking
+use possible. The next route classifies heads and fixed frames by degree,
+amount/dose and grammatical-grade behavior before opening another page or
+image. GDT626 passes119 deterministic checks.
