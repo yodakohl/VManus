@@ -1,0 +1,120 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "The six retained responses are the complete official catalogue/IIIF metadata freeze; no image bytes are retained and every file is below 1 MB.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "The present stage may bind only the official catalogue metadata and IIIF manifests for BnF Latin 6823, Masson 116, and Sloane 4016 and register the future five-folio exact-plaintext gate. It opens no Voynich target and assigns no Voynich primitive, sound, word, language, plaintext, object, operation, plant, or meaning; f84/f84r and all image bytes are forbidden.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt617_triple_herbal_plaintext_transducer/src/acquire_sources.py --execute-registered-source-acquisition",
+    "validate": "python3 experiments/yolo/gdt617_triple_herbal_plaintext_transducer/src/validate.py"
+  },
+  "created": "2026-08-29",
+  "dependencies": [
+    "GDT352",
+    "GDT605"
+  ],
+  "experiment_id": "GDT617",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt617_triple_herbal_plaintext_transducer/artifacts/source_freeze/bnf_lat6823_catalog.xml",
+      "role": "exact fetched official Gallica OAI wrapper; the stable complete-record canonical hash is additionally frozen in REGISTERED_SOURCE_BINDINGS.json",
+      "sha256": "99898684d77d4e5444861f5c1dcf8eef9c61871a1b43ee3e6306522304b8bf31"
+    },
+    {
+      "path": "experiments/yolo/gdt617_triple_herbal_plaintext_transducer/artifacts/source_freeze/bnf_lat6823_manifest.json",
+      "role": "official Gallica IIIF manifest for BnF Latin 6823; metadata links only, no canvas fetched",
+      "sha256": "f22ea8cf697c5598f914bd92e101dd2da62a60df59561d67ef7384d5f5de7187"
+    },
+    {
+      "path": "experiments/yolo/gdt617_triple_herbal_plaintext_transducer/artifacts/source_freeze/masson116_catalog.json",
+      "role": "official Beaux-Arts Paris Omeka item metadata for Masson 116",
+      "sha256": "12a855c6f8bf5c7087d65cb605d31edcfd487b4b4ae61343c45efe21d2024385"
+    },
+    {
+      "path": "experiments/yolo/gdt617_triple_herbal_plaintext_transducer/artifacts/source_freeze/masson116_manifest.json",
+      "role": "official Beaux-Arts Paris IIIF manifest for Masson 116; metadata links only, no canvas fetched",
+      "sha256": "846e000f5a05a1e232b7f39b40a22c10ca116c198a9397604807e5f0d88f074f"
+    },
+    {
+      "path": "experiments/yolo/gdt617_triple_herbal_plaintext_transducer/artifacts/source_freeze/sloane4016_catalog.json",
+      "role": "official British Library Search Archives JSON for Sloane MS 4016",
+      "sha256": "eba2603f877c6b7c3dbe5222e95159caa0537cec9938aba728658eaaabb147db"
+    },
+    {
+      "path": "experiments/yolo/gdt617_triple_herbal_plaintext_transducer/artifacts/source_freeze/sloane4016_manifest.json",
+      "role": "official British Library IIIF manifest for Sloane MS 4016; metadata links only, no canvas fetched",
+      "sha256": "607f98404cb733caf4bacb70047175aaf88e75735af18436511a8eee1cc55e10"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt617_triple_herbal_plaintext_transducer/METHOD.md",
+      "role": "registered source acquisition, concordance, five-folio panel, and exact-transducer method",
+      "sha256": "0ab357a0237d5062ca318bf60f0b2de3fd856e406c8837f6d978dc6f0a1a36d6"
+    },
+    {
+      "path": "experiments/yolo/gdt617_triple_herbal_plaintext_transducer/PREREGISTRATION.md",
+      "role": "prospective source-only and downstream exact-plaintext contract",
+      "sha256": "43ee1c9cdf23762ffd888ee41f155b9600f1e3f50cbce9dcd288e7225b8ae9bd"
+    },
+    {
+      "path": "experiments/yolo/gdt617_triple_herbal_plaintext_transducer/README.md",
+      "role": "experiment entry point and current source-only status",
+      "sha256": "9de49be4695c935225ae9775d582e32b1026b561c301eac3245ea33010791563"
+    },
+    {
+      "path": "experiments/yolo/gdt617_triple_herbal_plaintext_transducer/artifacts/README.md",
+      "role": "compact artifact inventory and no-image notice",
+      "sha256": "05f43e92b8993943961311466d96c18c0b87380503bf51b8bf370ca2d2d19e6f"
+    },
+    {
+      "path": "experiments/yolo/gdt617_triple_herbal_plaintext_transducer/artifacts/REGISTERED_SOURCE_BINDINGS.json",
+      "role": "six-response allow-list, official identities, hash bindings, canvas counts, rights notices, and downstream gate",
+      "sha256": "f4bffe9a24931a175c726a9e0cc1dca9c73cbd69053c78cb1345357a6cc58089"
+    },
+    {
+      "path": "experiments/yolo/gdt617_triple_herbal_plaintext_transducer/artifacts/source_freeze/SOURCE_ACQUISITION.json",
+      "role": "deterministic exact-six request log, redirect audit, and derived zero canvas/image/target counters",
+      "sha256": "67e1beedf357eee026425b679bc8ab28a075d013a24db67cb89cb4c22db00e30"
+    },
+    {
+      "path": "experiments/yolo/gdt617_triple_herbal_plaintext_transducer/artifacts/source_freeze/SOURCE_HASHES.tsv",
+      "role": "compact raw/binding hash and canvas-count table",
+      "sha256": "e7587ed5aaa70e60fac8f8746751a3764f9c9661c61b18f480a3cbcff45ca75a"
+    },
+    {
+      "path": "experiments/yolo/gdt617_triple_herbal_plaintext_transducer/src/acquire_sources.py",
+      "role": "exact-allowlist metadata acquisition, pre-follow redirect blocker, request logger, and replay validator",
+      "sha256": "ed6a2f904e55275bfc289db2d1d5bd73f7593fe889cd8fc330ad85cf9c74ef94"
+    },
+    {
+      "path": "experiments/yolo/gdt617_triple_herbal_plaintext_transducer/src/run.py",
+      "role": "hard stop proving that no target run is registered",
+      "sha256": "b63ab6a7c79e60dba2c02126650247281f355c085f818ac1cb121bd8dd09e1ef"
+    },
+    {
+      "path": "experiments/yolo/gdt617_triple_herbal_plaintext_transducer/src/validate.py",
+      "role": "registration, manifest binding, exact-request, guard self-test, source-freeze, gate, and no-image validator",
+      "sha256": "f21045a6f55663eeb21171b8d81530d650b63b08ba54e1a33c831f4aa0efa5d5"
+    },
+    {
+      "path": "experiments/yolo/gdt617_triple_herbal_plaintext_transducer/artifacts/REGISTERED_VALIDATION.json",
+      "role": "prospective source registration, manifest-binding, request-guard, and local-freeze audit",
+      "sha256": "333b94e54f3426021f9513a6f71e2ef8204bca46fa93196603783fc9d5896762"
+    }
+  ],
+  "question": "Can three institutionally documented witnesses of one illustrated-herbal transmission chain provide at least five exact external entry plaintexts, and can one global primitive-to-0..3-Latin-letter transducer learned on four distinct Voynich folios reproduce an untouched fifth folio's exact heading plus twelve content words?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "triple_herbal_plaintext_transducer",
+  "status": "SOURCE_REGISTERED_UNSCORED",
+  "title": "Triple-herbal exact-plaintext transducer",
+  "updated": "2026-08-29",
+  "validation": {
+    "artifact": "experiments/yolo/gdt617_triple_herbal_plaintext_transducer/artifacts/REGISTERED_VALIDATION.json",
+    "status": "PASS"
+  }
+}

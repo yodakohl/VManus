@@ -14711,7 +14711,7 @@ constraint is enforced before committing another key.
 No Voynich value,word,language,plaintext,object,operation or meaning is
 assigned;f84/f84r remain forbidden.
 
-## GDT616 registers joint binding before another key can be committed
+## GDT616 closes the joint FST34/V2 binding family
 
 GDT616 removes GDT615's ordering error by solving the same-role34-card mapping
 and all eight actual paid-card assignments in one TRAIN-only formula. For every
@@ -14721,16 +14721,105 @@ in the frozen28,101-entry TRAIN substring relation,whether or not the node is
 paid;every paid output differs from its child;all eight named paid cards occur
 once at distinct nodes;and exact `qok` alone is barred from a macro card.
 
-Stage-A SAT freezes nothing. Stage B must search the complete Stage-A-feasible
-mapping/paid space jointly with full ordered W0 traces and nonoverlapping
-98-unit tilings,then construct and commit three complete TRAIN worlds before
-Held or LM-confirm can be opened. The GDT615 chosen mapping,raw-support score
-and relaxed cover are explicitly excluded from GDT616 inputs and objectives.
+Both complete exact Stage-A solvers return
+`NO_JOINT_CHILD_FEASIBLE_BINDING`. They range jointly over the full same-role
+mapping and all real paid assignments,so no second key can be selected around
+the GDT615 `Ey→hoi` failure. Primary,independent and comparison artifacts are
+bound at SHA256 prefixes `d87d925f`,`38b7e774` and `e098d63d`;the terminal
+validator also binds both corrected diagnostics below. The GDT615 chosen
+mapping,raw-support score and relaxed cover were excluded from GDT616 inputs
+and objectives.
+
+A corrected post-terminal diagnostic weakens all eight paid-card constraints
+from exactly once to at most once and still finds a subset-minimal23-group
+UNSAT core. It needs only the literal-carrier bijection,19 named merge ranks
+and at-most-once caps for `de`,`di`,`ent`;dropping any one group is SAT. Thus at
+least one of those three short outputs must repeat across the retained ranks,
+while the registered model requires every card at exactly one rank. Deleting
+all exact-use constraints without replacement caps is SAT and is not the
+diagnosis. A provisional24-group label list was withdrawn before publication
+after an emission-order mismatch;the corrected artifact and its exact replay
+source are hash-bound.
+
+The exact adjacent relaxation then keeps all eight distinct paid locations,
+uses every paid card once and preserves every effective TRAIN gate,but permits
+an out-of-TRAIN unoverridden child composition at counted paid nodes. Complete
+64-rank sweeps are UNSAT for zero through three breaks and SAT at exactly four.
+Only ranks `14/18/45/47/49/59` can participate;one representative uses
+`14/45/47/49` (`Ey/Sol/qokEdy/qokedy`) and overrides synthetic child strings
+`hoa/hire/tinhora/tinura` with `ere/runt/con/erunt`. This identifies the nearest
+generator defect;none of those strings is a Voynich reading or meaning.
 
 The registration artifact is byte-stable at SHA256
 `281fe360e6e3eda19323f5e62a99fe4822546b136f7ca91b85fdf4552e565aae`.
-Primary and independently written finite-domain solvers pass9/9 and7/7 own
-tests and agree on21/21 one-node plus128/128 recursive differential cases.
-No full-data run has occurred. The next action is the frozen dual-solver Stage-A
-execution;no Held,target,page,f84/f84r,Voynich value,word,language,plaintext,
-object,operation or meaning has been opened or assigned.
+Stage B,W0,W1,W2,Held,LM-confirm,oracle and recovery do not run because the
+necessary bound is UNSAT. Close only the registered synthetic FST34/V2
+configuration,not composition,abbreviation,Latin,ciphering or natural language
+in general. Next acquire a provenance-clean external five-folio entry/plaintext
+relation rather than repair this generator. No target,page,f84/f84r,Voynich
+value,word,language,plaintext,object,operation or meaning was opened or assigned.
+
+## GDT617 binds a three-witness external plaintext route
+
+GDT617 registers official catalogue metadata and IIIF manifests for BnF Latin
+6823, Beaux-Arts Paris Masson 116 and British Library Sloane 4016 without
+opening a Voynich page. The institutional records identify Latin 6823 as a
+Latin text-bearing *Liber de herbis et plantis*, say that most Masson 116 plant
+iconography was copied from Latin 6823, and describe Sloane 4016 as a copy of
+Masson 116. This is an external transmission chain, not a Voynich
+correspondence.
+
+The source freeze contains exactly six registered metadata requests: three
+catalogue responses and three IIIF manifests. A pre-follow redirect handler
+blocks every follow-up URL; the retained request log derives zero redirect,
+non-allow-listed, canvas, image and target requests. All six bindings replay,
+the three manifests contain 513/187/235 canvases, and the registration passes
+42/42 checks. The Gallica OAI record is prospectively bound through a canonical
+complete-record extraction; its volatile raw wrapper is retained and separately
+hashed.
+
+The next action is source-only concordance: obtain at least five concrete entry
+identities and exact Latin headings/content from the documented herbal family
+before any target pairing. A later five-folio target packet must use four
+discovery folios and one untouched held folio under one global primitive-to-
+0..3-Latin-letter transducer. No macro, word key, page key or held retuning is
+licensed; no Voynich value, word, plaintext or meaning is currently assigned.
+
+The source registry was locally byte-fixed before a parallel historical search
+exposed published three-witness entry candidates, but it had not yet reached a
+public commit. Those source candidates are therefore developmental. This does
+not contaminate a Voynich target—the target remained unopened—but any later
+four-discovery/one-held target panel requires its own prior public contract.
+
+The developmental source search nominates five nonreused candidate
+four-witness locator joins:
+`Balsamus` (Lat.6823 f25v / Clm28531 f10v / Masson116 p96 / Sloane4016
+f10v), `Cerfolium` (f44v/f35v/p68/f30v), `Citruli`
+(f42v/f40r/p77/f32v), `Cucurbita` (f42r/f46r/p121/f36r), and `Diptamus`
+(f57v/f48v/p126/f37v). For each item Wagner prints all three
+Clm/Masson/Sloane locators explicitly,while the official Mandragore notice
+separately supplies the Lat.6823 folio and a transcribed Latin rubric. The
+fourth join is still by normalized lemma identity,not one published four-column
+line. Lat.6823 must be the sole scoring plaintext,while the later,incomplete and
+textually different Clm28531 serves only as an independent locator/reading
+control. Exact headings and twelve running text tokens remain to be
+double-transcribed before any source entry is usable.
+
+## GDT618 registers the five-entry source reading deck
+
+GDT618 converts that developmental lead into a source-only machine-readable
+plan. Its stronger nonreused deck is `Balsamus` (Lat.6823 f25v / Clm f10v /
+Masson p96 / Sloane f10v),`Cerfolium` (f44v/f35v/p68/f30v),`Citruli`
+(f42v/f40r/p77/f32v),`Cucurbita` (f42r/f46r/p121/f36r),and `Diptamus`
+(f57v/f48v/p126/f37v). Each Lat.6823 row has an official Mandragore Latin
+rubric;each Wagner row prints all three Clm/Masson/Sloane locators explicitly.
+The Gallica canvas/service bindings are respectively f58/f96/f92/f91/f122.
+
+The plan is byte-bound at SHA256 prefix `6cd4bca1` and passes46/46 checks.
+Registration made zero network requests and opened zero source images or
+Voynich data. Lat.6823 alone will supply the heading plus first twelve running
+tokens;two readers must transcribe it independently and retain both raw
+readings,a difference ledger and reconciled scoring bytes. Clm is a separate
+locator/reading control and may not repair Lat.6823. Next publish this plan,
+then bind an exact image-request profile before acquiring only those external
+source pages. No Voynich target opens until all five source packets exist.

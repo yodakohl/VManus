@@ -6,7 +6,7 @@
   "claim_ceiling": "May select or reject only the joint child-feasible synthetic primitive/output binding, eight actual paid merge assignments, and inherited synthetic generator/recovery stack. It may not fit Voynich target data or assign a Voynich unit, sound, word, language, plaintext, object, operation, or meaning; f84/f84r are forbidden.",
   "commands": {
     "run": "python3 experiments/yolo/gdt616_joint_child_feasible_binding/src/run.py --execute-registered --output-root gdt616-stage-a-run --time-limit-seconds 43200",
-    "validate": "python3 experiments/yolo/gdt616_joint_child_feasible_binding/src/validate.py"
+    "validate": "python3 experiments/yolo/gdt616_joint_child_feasible_binding/src/validate_result.py"
   },
   "created": "2026-08-29",
   "dependencies": [
@@ -96,13 +96,18 @@
     },
     {
       "path": "experiments/yolo/gdt616_joint_child_feasible_binding/README.md",
-      "role": "registered experiment entry point",
-      "sha256": "7e04fd5aaeab14b5eca284edb9270c56e80294a11ceb5a516e13bb49a5e24003"
+      "role": "terminal experiment entry point and validation command",
+      "sha256": "fa9049558f2ff7bc190cbb3b659719968f47a28fa88d9b6216fbc61720288812"
+    },
+    {
+      "path": "experiments/yolo/gdt616_joint_child_feasible_binding/REPORT.md",
+      "role": "terminal Stage-A result, exact minimum adjacent relaxation, scope, and route consequence",
+      "sha256": "0f002f5f541a7758b17c8aff985ccb2e28de2ef626625f48cb8327cbddb2a4a5"
     },
     {
       "path": "experiments/yolo/gdt616_joint_child_feasible_binding/artifacts/README.md",
-      "role": "prospective compact artifact inventory",
-      "sha256": "0ff28b82d2b80af31ba631786fafc15cf5cf54d4c96a5ce3eda58a03f249563a"
+      "role": "terminal compact artifact inventory",
+      "sha256": "93bccaa74d5887c5243b50892b918460a13c69764d2a19bf641bb2cbf431e398"
     },
     {
       "path": "experiments/yolo/gdt616_joint_child_feasible_binding/artifacts/REGISTERED_SEARCH.json",
@@ -113,6 +118,36 @@
       "path": "experiments/yolo/gdt616_joint_child_feasible_binding/artifacts/REGISTERED_VALIDATION.json",
       "role": "40-check prospective registration audit",
       "sha256": "a4bf1986da3daf10b50dd8befa2da589343637ee09b14cd25ad19249ea8f091a"
+    },
+    {
+      "path": "experiments/yolo/gdt616_joint_child_feasible_binding/artifacts/stage_a/COMPARISON.json",
+      "role": "dual-solver terminal decision and artifact-hash comparison",
+      "sha256": "e098d63da66b49134e2277e5646639a20cc3b6a8c840b22394da284a1f14aa2c"
+    },
+    {
+      "path": "experiments/yolo/gdt616_joint_child_feasible_binding/artifacts/stage_a/INDEPENDENT_RESULT.json",
+      "role": "independent exact finite-domain Stage-A UNSAT result",
+      "sha256": "38b7e7741850791731946d9bc963f3ad44d5147eb267e0387d6c57b71f601361"
+    },
+    {
+      "path": "experiments/yolo/gdt616_joint_child_feasible_binding/artifacts/stage_a/PRIMARY_RESULT.json",
+      "role": "primary exact Z3 Stage-A UNSAT result and structural certificate",
+      "sha256": "d87d925fff5c7e185a256dacf53619b72a8fe430e2db21ce6f6232f2e906faef"
+    },
+    {
+      "path": "experiments/yolo/gdt616_joint_child_feasible_binding/artifacts/stage_a/RELAXATION_DIAGNOSTIC.json",
+      "role": "complete exact k=1..4 rank sweeps and representative minimum-four paid-child TRAIN-gate relaxation witness",
+      "sha256": "b2f3ee9254e2e1fc0973b0d407f0cdb5c45ac2e58ca91718525db87c078fd59c"
+    },
+    {
+      "path": "experiments/yolo/gdt616_joint_child_feasible_binding/artifacts/stage_a/UNSAT_CORE_DIAGNOSTIC.json",
+      "role": "corrected 23-group subset-minimal post-terminal contradiction diagnosis and drop-one replay",
+      "sha256": "2c81f2ba6aae266c04ef460d50969dc673de2f5456937a944522dcf75436ab38"
+    },
+    {
+      "path": "experiments/yolo/gdt616_joint_child_feasible_binding/artifacts/stage_a/VALIDATION.json",
+      "role": "101-check strict-result, corrected-core, exact-relaxation, and access-boundary validation",
+      "sha256": "853f52650148c7a6f56850b9d8e4eb74ed1f5cea28567befbc468b85d06e92f5"
     },
     {
       "path": "experiments/yolo/gdt616_joint_child_feasible_binding/requirements.txt",
@@ -127,7 +162,12 @@
     {
       "path": "experiments/yolo/gdt616_joint_child_feasible_binding/src/validate.py",
       "role": "registration and access-boundary validator",
-      "sha256": "fde3a0cc3f356bebca458b693d4a0efc46d73194b0daac0526a06da9c715e60f"
+      "sha256": "6f596782175c1f5579537eed5f02eac46f962fc4cc97bfaa6cbcf9db50a867e8"
+    },
+    {
+      "path": "experiments/yolo/gdt616_joint_child_feasible_binding/src/validate_result.py",
+      "role": "terminal Stage-A strict-result, corrected-core, exact-relaxation, hash, and access-boundary validator",
+      "sha256": "9d7f785306f44aeac055b3c1be64fc8ee02e976adbf2eb83792fd3baeac0f0df"
     },
     {
       "path": "experiments/yolo/gdt616_joint_child_feasible_binding/src/run.py",
@@ -148,6 +188,16 @@
       "path": "experiments/yolo/gdt616_joint_child_feasible_binding/src/independent_bound.py",
       "role": "independent finite-domain Z3 Stage-A solver with embedded self-tests",
       "sha256": "014d2363fd38be7979d1286afbb639cb294b0001a3fa34b05109730439804f15"
+    },
+    {
+      "path": "experiments/yolo/gdt616_joint_child_feasible_binding/src/diagnose_unsat_core.py",
+      "role": "reproducer and byte-checker for the corrected post-terminal 23-group core",
+      "sha256": "f5af33c7ee5c8e6918dbfa707453d12ac9be14c87632b6237c79a54fdbbbb102"
+    },
+    {
+      "path": "experiments/yolo/gdt616_joint_child_feasible_binding/src/diagnose_relaxation.py",
+      "role": "exact minimum paid-child TRAIN-gate relaxation sweeper and representative-witness producer",
+      "sha256": "2662f87d01fbecf6e00a27105ae9e2d8283e9e3da2e39ca2f07ffd1c61829ec2"
     }
   ],
   "question": "Can the fixed GDT608/GDT614 inventory jointly choose a same-role primitive binding, all eight actual paid merge locations and cards, and a complete TRAIN-only world while exposing every merge's unoverridden recursive child span, and can three such committed worlds pass held, oracle, and recovery?",
@@ -157,11 +207,11 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "joint_child_feasible_binding",
-  "status": "REGISTERED_UNSCORED",
+  "status": "NO_JOINT_CHILD_FEASIBLE_BINDING",
   "title": "Joint child-feasible primitive and paid binding",
   "updated": "2026-08-29",
   "validation": {
-    "artifact": "experiments/yolo/gdt616_joint_child_feasible_binding/artifacts/REGISTERED_VALIDATION.json",
+    "artifact": "experiments/yolo/gdt616_joint_child_feasible_binding/artifacts/stage_a/VALIDATION.json",
     "status": "PASS"
   }
 }

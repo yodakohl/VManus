@@ -1,0 +1,4379 @@
+{
+  "access": {
+    "f84_or_f84r_opened": false,
+    "held_or_lm_confirm_opened": false,
+    "voynich_target_or_meaning_opened": false
+  },
+  "boundary_queries": [
+    {
+      "evidence": "hash-verified terminal primary+independent PASS comparison",
+      "paid_child_train_gate_violations_equal": 0,
+      "status": "UNSAT"
+    },
+    {
+      "evidence": "complete 64-rank participation sweep",
+      "paid_child_train_gate_violations_equal": 1,
+      "status": "UNSAT"
+    },
+    {
+      "evidence": "complete 64-rank participation sweep",
+      "paid_child_train_gate_violations_equal": 2,
+      "status": "UNSAT"
+    },
+    {
+      "evidence": "complete 64-rank participation sweep",
+      "paid_child_train_gate_violations_equal": 3,
+      "status": "UNSAT"
+    },
+    {
+      "evidence": "complete 64-rank participation sweep",
+      "paid_child_train_gate_violations_equal": 4,
+      "status": "SAT"
+    }
+  ],
+  "counts": {
+    "effective_value_universe": 7740,
+    "merges": 64,
+    "paid_cards": 8,
+    "primitives": 34,
+    "train_relation_tuples": 23295,
+    "train_substrings": 28101
+  },
+  "decision_preserved": "NO_JOINT_CHILD_FEASIBLE_BINDING",
+  "diagnostic_result": "SAT_AFTER_MINIMUM_CHILD_TRAIN_GATE_RELAXATION",
+  "input_sha256": {
+    "gdt615_terminal": "f9f1e0ee8096d191ab454971c1e6218fed29586881d6cafbc9b790bff4332f3e",
+    "gdt616_registration": "281fe360e6e3eda19323f5e62a99fe4822546b136f7ca91b85fdf4552e565aae",
+    "merge_tree": "2098c71be9da13b483cf2561e06412276d8c60aa32e72520e8877f8f5d53090a",
+    "registered_model": "ed841dc254a961650a8bda8bdc6024b67655f6bdc96e5dab2aec02f1686ecc42",
+    "registered_search": "138cb3860a9927e8095534b293836271797a654e5e2797e12b0fadb0689e2089",
+    "registered_transitions": "bf26bfeaa258a65e3c22a8e035cf6ddec30557307ebc9c7619c662b12324271e",
+    "train_substrings": "5b6859d8656f63cf8e8cf89221ae8ff1dea345e135a6cd012248b9b4c4ff14a9"
+  },
+  "minimum_relaxation": {
+    "all_other_registered_stage_a_constraints_unchanged": true,
+    "child_train_gate_violations": 4,
+    "effective_train_gate_violations": 0,
+    "exact_registered_paid_cards_used": 8,
+    "paid_budget_changed": false,
+    "total_train_gate_violations": 4
+  },
+  "minimum_relaxation_rank_summary": {
+    "feasible_merges": [
+      "Ey",
+      "Edy",
+      "Sol",
+      "qokEdy",
+      "qokedy",
+      "qokEy"
+    ],
+    "feasible_rank_count": 6,
+    "feasible_ranks": [
+      14,
+      18,
+      45,
+      47,
+      49,
+      59
+    ],
+    "representative_anchor_rank": 14,
+    "representative_violation_merges": [
+      "Ey",
+      "Sol",
+      "qokEdy",
+      "qokedy"
+    ],
+    "representative_violation_ranks": [
+      14,
+      45,
+      47,
+      49
+    ]
+  },
+  "model_scope": {
+    "interpretation": "This locates the smallest boundary failure of the synthetic Stage-A world. It does not revise the registered UNSAT decision or establish a Voynich value or meaning.",
+    "kept": [
+      "complete same-role primitive/output-card bijection",
+      "all eight registered paid cards used once at eight distinct merge nodes",
+      "recursive directed left-to-right child concatenation",
+      "all 64 effective merge outputs nonempty and in frozen TRAIN",
+      "all default child compositions in frozen TRAIN",
+      "paid output differs from its unoverridden child composition",
+      "qok paid-macro prohibition"
+    ],
+    "relaxed_only": "At the counted paid nodes, the unoverridden child concatenation may miss frozen TRAIN; the paid effective output still must be in TRAIN."
+  },
+  "paid_budget_diagnostic": {
+    "reason": "The model is SAT after the minimum TRAIN-gate relaxation while retaining exactly the registered eight distinct paid locations and using every registered paid card exactly once.",
+    "status": "NOT_NEEDED_FOR_MINIMUM_REPAIR"
+  },
+  "rank_feasibility": [
+    {
+      "can_participate_in_a_minimum_relaxation": false,
+      "merge": "dy",
+      "query_count": 1,
+      "rank": 1,
+      "sat_queries": 0,
+      "status": "UNSAT",
+      "unsat_queries": 1
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": false,
+      "merge": "ok",
+      "query_count": 1,
+      "rank": 2,
+      "sat_queries": 0,
+      "status": "UNSAT",
+      "unsat_queries": 1
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": false,
+      "merge": "ol",
+      "query_count": 1,
+      "rank": 3,
+      "sat_queries": 0,
+      "status": "UNSAT",
+      "unsat_queries": 1
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": false,
+      "merge": "aN",
+      "query_count": 1,
+      "rank": 4,
+      "sat_queries": 0,
+      "status": "UNSAT",
+      "unsat_queries": 1
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": false,
+      "merge": "Ce",
+      "query_count": 1,
+      "rank": 5,
+      "sat_queries": 0,
+      "status": "UNSAT",
+      "unsat_queries": 1
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": false,
+      "merge": "ot",
+      "query_count": 1,
+      "rank": 6,
+      "sat_queries": 0,
+      "status": "UNSAT",
+      "unsat_queries": 1
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": false,
+      "merge": "qok",
+      "query_count": 1,
+      "rank": 7,
+      "sat_queries": 0,
+      "status": "UNSAT",
+      "unsat_queries": 1
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": false,
+      "merge": "ar",
+      "query_count": 1,
+      "rank": 8,
+      "sat_queries": 0,
+      "status": "UNSAT",
+      "unsat_queries": 1
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": false,
+      "merge": "al",
+      "query_count": 1,
+      "rank": 9,
+      "sat_queries": 0,
+      "status": "UNSAT",
+      "unsat_queries": 1
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": false,
+      "merge": "or",
+      "query_count": 1,
+      "rank": 10,
+      "sat_queries": 0,
+      "status": "UNSAT",
+      "unsat_queries": 1
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": false,
+      "merge": "Se",
+      "query_count": 1,
+      "rank": 11,
+      "sat_queries": 0,
+      "status": "UNSAT",
+      "unsat_queries": 1
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": false,
+      "merge": "aI",
+      "query_count": 1,
+      "rank": 12,
+      "sat_queries": 0,
+      "status": "UNSAT",
+      "unsat_queries": 1
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": false,
+      "merge": "daN",
+      "query_count": 1,
+      "rank": 13,
+      "sat_queries": 0,
+      "status": "UNSAT",
+      "unsat_queries": 1
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": true,
+      "merge": "Ey",
+      "query_count": 1,
+      "rank": 14,
+      "sat_queries": 1,
+      "status": "SAT",
+      "unsat_queries": 0
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": false,
+      "merge": "Cedy",
+      "query_count": 1,
+      "rank": 15,
+      "sat_queries": 0,
+      "status": "UNSAT",
+      "unsat_queries": 1
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": false,
+      "merge": "qot",
+      "query_count": 1,
+      "rank": 16,
+      "sat_queries": 0,
+      "status": "UNSAT",
+      "unsat_queries": 1
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": false,
+      "merge": "Cy",
+      "query_count": 1,
+      "rank": 17,
+      "sat_queries": 0,
+      "status": "UNSAT",
+      "unsat_queries": 1
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": true,
+      "merge": "Edy",
+      "query_count": 1,
+      "rank": 18,
+      "sat_queries": 1,
+      "status": "SAT",
+      "unsat_queries": 0
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": false,
+      "merge": "edy",
+      "query_count": 1,
+      "rank": 19,
+      "sat_queries": 0,
+      "status": "UNSAT",
+      "unsat_queries": 1
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": false,
+      "merge": "ody",
+      "query_count": 1,
+      "rank": 20,
+      "sat_queries": 0,
+      "status": "UNSAT",
+      "unsat_queries": 1
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": false,
+      "merge": "Col",
+      "query_count": 1,
+      "rank": 21,
+      "sat_queries": 0,
+      "status": "UNSAT",
+      "unsat_queries": 1
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": false,
+      "merge": "Cey",
+      "query_count": 1,
+      "rank": 22,
+      "sat_queries": 0,
+      "status": "UNSAT",
+      "unsat_queries": 1
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": false,
+      "merge": "ai",
+      "query_count": 1,
+      "rank": 23,
+      "sat_queries": 0,
+      "status": "UNSAT",
+      "unsat_queries": 1
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": false,
+      "merge": "ey",
+      "query_count": 1,
+      "rank": 24,
+      "sat_queries": 0,
+      "status": "UNSAT",
+      "unsat_queries": 1
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": false,
+      "merge": "od",
+      "query_count": 1,
+      "rank": 25,
+      "sat_queries": 0,
+      "status": "UNSAT",
+      "unsat_queries": 1
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": false,
+      "merge": "Sedy",
+      "query_count": 1,
+      "rank": 26,
+      "sat_queries": 0,
+      "status": "UNSAT",
+      "unsat_queries": 1
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": false,
+      "merge": "am",
+      "query_count": 1,
+      "rank": 27,
+      "sat_queries": 0,
+      "status": "UNSAT",
+      "unsat_queries": 1
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": false,
+      "merge": "olk",
+      "query_count": 1,
+      "rank": 28,
+      "sat_queries": 0,
+      "status": "UNSAT",
+      "unsat_queries": 1
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": false,
+      "merge": "yk",
+      "query_count": 1,
+      "rank": 29,
+      "sat_queries": 0,
+      "status": "UNSAT",
+      "unsat_queries": 1
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": false,
+      "merge": "Cor",
+      "query_count": 1,
+      "rank": 30,
+      "sat_queries": 0,
+      "status": "UNSAT",
+      "unsat_queries": 1
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": false,
+      "merge": "yt",
+      "query_count": 1,
+      "rank": 31,
+      "sat_queries": 0,
+      "status": "UNSAT",
+      "unsat_queries": 1
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": false,
+      "merge": "qo",
+      "query_count": 1,
+      "rank": 32,
+      "sat_queries": 0,
+      "status": "UNSAT",
+      "unsat_queries": 1
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": false,
+      "merge": "Co",
+      "query_count": 1,
+      "rank": 33,
+      "sat_queries": 0,
+      "status": "UNSAT",
+      "unsat_queries": 1
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": false,
+      "merge": "dal",
+      "query_count": 1,
+      "rank": 34,
+      "sat_queries": 0,
+      "status": "UNSAT",
+      "unsat_queries": 1
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": false,
+      "merge": "dar",
+      "query_count": 1,
+      "rank": 35,
+      "sat_queries": 0,
+      "status": "UNSAT",
+      "unsat_queries": 1
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": false,
+      "merge": "Cdy",
+      "query_count": 1,
+      "rank": 36,
+      "sat_queries": 0,
+      "status": "UNSAT",
+      "unsat_queries": 1
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": false,
+      "merge": "Ky",
+      "query_count": 1,
+      "rank": 37,
+      "sat_queries": 0,
+      "status": "UNSAT",
+      "unsat_queries": 1
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": false,
+      "merge": "air",
+      "query_count": 1,
+      "rank": 38,
+      "sat_queries": 0,
+      "status": "UNSAT",
+      "unsat_queries": 1
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": false,
+      "merge": "Ty",
+      "query_count": 1,
+      "rank": 39,
+      "sat_queries": 0,
+      "status": "UNSAT",
+      "unsat_queries": 1
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": false,
+      "merge": "Sey",
+      "query_count": 1,
+      "rank": 40,
+      "sat_queries": 0,
+      "status": "UNSAT",
+      "unsat_queries": 1
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": false,
+      "merge": "ky",
+      "query_count": 1,
+      "rank": 41,
+      "sat_queries": 0,
+      "status": "UNSAT",
+      "unsat_queries": 1
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": false,
+      "merge": "qokaI",
+      "query_count": 1,
+      "rank": 42,
+      "sat_queries": 0,
+      "status": "UNSAT",
+      "unsat_queries": 1
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": false,
+      "merge": "So",
+      "query_count": 1,
+      "rank": 43,
+      "sat_queries": 0,
+      "status": "UNSAT",
+      "unsat_queries": 1
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": false,
+      "merge": "op",
+      "query_count": 1,
+      "rank": 44,
+      "sat_queries": 0,
+      "status": "UNSAT",
+      "unsat_queries": 1
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": true,
+      "merge": "Sol",
+      "query_count": 1,
+      "rank": 45,
+      "sat_queries": 1,
+      "status": "SAT",
+      "unsat_queries": 0
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": false,
+      "merge": "qokaN",
+      "query_count": 1,
+      "rank": 46,
+      "sat_queries": 0,
+      "status": "UNSAT",
+      "unsat_queries": 1
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": true,
+      "merge": "qokEdy",
+      "query_count": 1,
+      "rank": 47,
+      "sat_queries": 1,
+      "status": "SAT",
+      "unsat_queries": 0
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": false,
+      "merge": "qokal",
+      "query_count": 1,
+      "rank": 48,
+      "sat_queries": 0,
+      "status": "UNSAT",
+      "unsat_queries": 1
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": true,
+      "merge": "qokedy",
+      "query_count": 1,
+      "rank": 49,
+      "sat_queries": 1,
+      "status": "SAT",
+      "unsat_queries": 0
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": false,
+      "merge": "CE",
+      "query_count": 1,
+      "rank": 50,
+      "sat_queries": 0,
+      "status": "UNSAT",
+      "unsat_queries": 1
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": false,
+      "merge": "eol",
+      "query_count": 1,
+      "rank": 51,
+      "sat_queries": 0,
+      "status": "UNSAT",
+      "unsat_queries": 1
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": false,
+      "merge": "Sy",
+      "query_count": 1,
+      "rank": 52,
+      "sat_queries": 0,
+      "status": "UNSAT",
+      "unsat_queries": 1
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": false,
+      "merge": "CEy",
+      "query_count": 1,
+      "rank": 53,
+      "sat_queries": 0,
+      "status": "UNSAT",
+      "unsat_queries": 1
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": false,
+      "merge": "Ceol",
+      "query_count": 1,
+      "rank": 54,
+      "sat_queries": 0,
+      "status": "UNSAT",
+      "unsat_queries": 1
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": false,
+      "merge": "daI",
+      "query_count": 1,
+      "rank": 55,
+      "sat_queries": 0,
+      "status": "UNSAT",
+      "unsat_queries": 1
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": false,
+      "merge": "os",
+      "query_count": 1,
+      "rank": 56,
+      "sat_queries": 0,
+      "status": "UNSAT",
+      "unsat_queries": 1
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": false,
+      "merge": "qol",
+      "query_count": 1,
+      "rank": 57,
+      "sat_queries": 0,
+      "status": "UNSAT",
+      "unsat_queries": 1
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": false,
+      "merge": "lk",
+      "query_count": 1,
+      "rank": 58,
+      "sat_queries": 0,
+      "status": "UNSAT",
+      "unsat_queries": 1
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": true,
+      "merge": "qokEy",
+      "query_count": 1,
+      "rank": 59,
+      "sat_queries": 1,
+      "status": "SAT",
+      "unsat_queries": 0
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": false,
+      "merge": "okaN",
+      "query_count": 1,
+      "rank": 60,
+      "sat_queries": 0,
+      "status": "UNSAT",
+      "unsat_queries": 1
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": false,
+      "merge": "okal",
+      "query_count": 1,
+      "rank": 61,
+      "sat_queries": 0,
+      "status": "UNSAT",
+      "unsat_queries": 1
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": false,
+      "merge": "otal",
+      "query_count": 1,
+      "rank": 62,
+      "sat_queries": 0,
+      "status": "UNSAT",
+      "unsat_queries": 1
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": false,
+      "merge": "oky",
+      "query_count": 1,
+      "rank": 63,
+      "sat_queries": 0,
+      "status": "UNSAT",
+      "unsat_queries": 1
+    },
+    {
+      "can_participate_in_a_minimum_relaxation": false,
+      "merge": "oty",
+      "query_count": 1,
+      "rank": 64,
+      "sat_queries": 0,
+      "status": "UNSAT",
+      "unsat_queries": 1
+    }
+  ],
+  "rank_sweeps": [
+    {
+      "paid_child_train_gate_violations_equal": 1,
+      "rows": [
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "dy",
+          "query_count": 1,
+          "rank": 1,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "ok",
+          "query_count": 1,
+          "rank": 2,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "ol",
+          "query_count": 1,
+          "rank": 3,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "aN",
+          "query_count": 1,
+          "rank": 4,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "Ce",
+          "query_count": 1,
+          "rank": 5,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "ot",
+          "query_count": 1,
+          "rank": 6,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "qok",
+          "query_count": 1,
+          "rank": 7,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "ar",
+          "query_count": 1,
+          "rank": 8,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "al",
+          "query_count": 1,
+          "rank": 9,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "or",
+          "query_count": 1,
+          "rank": 10,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "Se",
+          "query_count": 1,
+          "rank": 11,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "aI",
+          "query_count": 1,
+          "rank": 12,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "daN",
+          "query_count": 1,
+          "rank": 13,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "Ey",
+          "query_count": 1,
+          "rank": 14,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "Cedy",
+          "query_count": 1,
+          "rank": 15,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "qot",
+          "query_count": 1,
+          "rank": 16,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "Cy",
+          "query_count": 1,
+          "rank": 17,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "Edy",
+          "query_count": 1,
+          "rank": 18,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "edy",
+          "query_count": 1,
+          "rank": 19,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "ody",
+          "query_count": 1,
+          "rank": 20,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "Col",
+          "query_count": 1,
+          "rank": 21,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "Cey",
+          "query_count": 1,
+          "rank": 22,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "ai",
+          "query_count": 1,
+          "rank": 23,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "ey",
+          "query_count": 1,
+          "rank": 24,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "od",
+          "query_count": 1,
+          "rank": 25,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "Sedy",
+          "query_count": 1,
+          "rank": 26,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "am",
+          "query_count": 1,
+          "rank": 27,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "olk",
+          "query_count": 1,
+          "rank": 28,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "yk",
+          "query_count": 1,
+          "rank": 29,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "Cor",
+          "query_count": 1,
+          "rank": 30,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "yt",
+          "query_count": 1,
+          "rank": 31,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "qo",
+          "query_count": 1,
+          "rank": 32,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "Co",
+          "query_count": 1,
+          "rank": 33,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "dal",
+          "query_count": 1,
+          "rank": 34,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "dar",
+          "query_count": 1,
+          "rank": 35,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "Cdy",
+          "query_count": 1,
+          "rank": 36,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "Ky",
+          "query_count": 1,
+          "rank": 37,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "air",
+          "query_count": 1,
+          "rank": 38,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "Ty",
+          "query_count": 1,
+          "rank": 39,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "Sey",
+          "query_count": 1,
+          "rank": 40,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "ky",
+          "query_count": 1,
+          "rank": 41,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "qokaI",
+          "query_count": 1,
+          "rank": 42,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "So",
+          "query_count": 1,
+          "rank": 43,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "op",
+          "query_count": 1,
+          "rank": 44,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "Sol",
+          "query_count": 1,
+          "rank": 45,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "qokaN",
+          "query_count": 1,
+          "rank": 46,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "qokEdy",
+          "query_count": 1,
+          "rank": 47,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "qokal",
+          "query_count": 1,
+          "rank": 48,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "qokedy",
+          "query_count": 1,
+          "rank": 49,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "CE",
+          "query_count": 1,
+          "rank": 50,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "eol",
+          "query_count": 1,
+          "rank": 51,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "Sy",
+          "query_count": 1,
+          "rank": 52,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "CEy",
+          "query_count": 1,
+          "rank": 53,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "Ceol",
+          "query_count": 1,
+          "rank": 54,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "daI",
+          "query_count": 1,
+          "rank": 55,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "os",
+          "query_count": 1,
+          "rank": 56,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "qol",
+          "query_count": 1,
+          "rank": 57,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "lk",
+          "query_count": 1,
+          "rank": 58,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "qokEy",
+          "query_count": 1,
+          "rank": 59,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "okaN",
+          "query_count": 1,
+          "rank": 60,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "okal",
+          "query_count": 1,
+          "rank": 61,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "otal",
+          "query_count": 1,
+          "rank": 62,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "oky",
+          "query_count": 1,
+          "rank": 63,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "oty",
+          "query_count": 1,
+          "rank": 64,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        }
+      ]
+    },
+    {
+      "paid_child_train_gate_violations_equal": 2,
+      "rows": [
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "dy",
+          "query_count": 1,
+          "rank": 1,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "ok",
+          "query_count": 1,
+          "rank": 2,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "ol",
+          "query_count": 1,
+          "rank": 3,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "aN",
+          "query_count": 1,
+          "rank": 4,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "Ce",
+          "query_count": 1,
+          "rank": 5,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "ot",
+          "query_count": 1,
+          "rank": 6,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "qok",
+          "query_count": 1,
+          "rank": 7,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "ar",
+          "query_count": 1,
+          "rank": 8,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "al",
+          "query_count": 1,
+          "rank": 9,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "or",
+          "query_count": 1,
+          "rank": 10,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "Se",
+          "query_count": 1,
+          "rank": 11,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "aI",
+          "query_count": 1,
+          "rank": 12,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "daN",
+          "query_count": 1,
+          "rank": 13,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "Ey",
+          "query_count": 1,
+          "rank": 14,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "Cedy",
+          "query_count": 1,
+          "rank": 15,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "qot",
+          "query_count": 1,
+          "rank": 16,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "Cy",
+          "query_count": 1,
+          "rank": 17,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "Edy",
+          "query_count": 1,
+          "rank": 18,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "edy",
+          "query_count": 1,
+          "rank": 19,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "ody",
+          "query_count": 1,
+          "rank": 20,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "Col",
+          "query_count": 1,
+          "rank": 21,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "Cey",
+          "query_count": 1,
+          "rank": 22,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "ai",
+          "query_count": 1,
+          "rank": 23,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "ey",
+          "query_count": 1,
+          "rank": 24,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "od",
+          "query_count": 1,
+          "rank": 25,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "Sedy",
+          "query_count": 1,
+          "rank": 26,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "am",
+          "query_count": 1,
+          "rank": 27,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "olk",
+          "query_count": 1,
+          "rank": 28,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "yk",
+          "query_count": 1,
+          "rank": 29,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "Cor",
+          "query_count": 1,
+          "rank": 30,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "yt",
+          "query_count": 1,
+          "rank": 31,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "qo",
+          "query_count": 1,
+          "rank": 32,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "Co",
+          "query_count": 1,
+          "rank": 33,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "dal",
+          "query_count": 1,
+          "rank": 34,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "dar",
+          "query_count": 1,
+          "rank": 35,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "Cdy",
+          "query_count": 1,
+          "rank": 36,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "Ky",
+          "query_count": 1,
+          "rank": 37,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "air",
+          "query_count": 1,
+          "rank": 38,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "Ty",
+          "query_count": 1,
+          "rank": 39,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "Sey",
+          "query_count": 1,
+          "rank": 40,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "ky",
+          "query_count": 1,
+          "rank": 41,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "qokaI",
+          "query_count": 1,
+          "rank": 42,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "So",
+          "query_count": 1,
+          "rank": 43,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "op",
+          "query_count": 1,
+          "rank": 44,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "Sol",
+          "query_count": 1,
+          "rank": 45,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "qokaN",
+          "query_count": 1,
+          "rank": 46,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "qokEdy",
+          "query_count": 1,
+          "rank": 47,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "qokal",
+          "query_count": 1,
+          "rank": 48,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "qokedy",
+          "query_count": 1,
+          "rank": 49,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "CE",
+          "query_count": 1,
+          "rank": 50,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "eol",
+          "query_count": 1,
+          "rank": 51,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "Sy",
+          "query_count": 1,
+          "rank": 52,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "CEy",
+          "query_count": 1,
+          "rank": 53,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "Ceol",
+          "query_count": 1,
+          "rank": 54,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "daI",
+          "query_count": 1,
+          "rank": 55,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "os",
+          "query_count": 1,
+          "rank": 56,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "qol",
+          "query_count": 1,
+          "rank": 57,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "lk",
+          "query_count": 1,
+          "rank": 58,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "qokEy",
+          "query_count": 1,
+          "rank": 59,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "okaN",
+          "query_count": 1,
+          "rank": 60,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "okal",
+          "query_count": 1,
+          "rank": 61,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "otal",
+          "query_count": 1,
+          "rank": 62,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "oky",
+          "query_count": 1,
+          "rank": 63,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "oty",
+          "query_count": 1,
+          "rank": 64,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        }
+      ]
+    },
+    {
+      "paid_child_train_gate_violations_equal": 3,
+      "rows": [
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "dy",
+          "query_count": 1,
+          "rank": 1,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "ok",
+          "query_count": 1,
+          "rank": 2,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "ol",
+          "query_count": 1,
+          "rank": 3,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "aN",
+          "query_count": 1,
+          "rank": 4,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "Ce",
+          "query_count": 1,
+          "rank": 5,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "ot",
+          "query_count": 1,
+          "rank": 6,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "qok",
+          "query_count": 1,
+          "rank": 7,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "ar",
+          "query_count": 1,
+          "rank": 8,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "al",
+          "query_count": 1,
+          "rank": 9,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "or",
+          "query_count": 1,
+          "rank": 10,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "Se",
+          "query_count": 1,
+          "rank": 11,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "aI",
+          "query_count": 1,
+          "rank": 12,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "daN",
+          "query_count": 1,
+          "rank": 13,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "Ey",
+          "query_count": 1,
+          "rank": 14,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "Cedy",
+          "query_count": 1,
+          "rank": 15,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "qot",
+          "query_count": 1,
+          "rank": 16,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "Cy",
+          "query_count": 1,
+          "rank": 17,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "Edy",
+          "query_count": 1,
+          "rank": 18,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "edy",
+          "query_count": 1,
+          "rank": 19,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "ody",
+          "query_count": 1,
+          "rank": 20,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "Col",
+          "query_count": 1,
+          "rank": 21,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "Cey",
+          "query_count": 1,
+          "rank": 22,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "ai",
+          "query_count": 1,
+          "rank": 23,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "ey",
+          "query_count": 1,
+          "rank": 24,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "od",
+          "query_count": 1,
+          "rank": 25,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "Sedy",
+          "query_count": 1,
+          "rank": 26,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "am",
+          "query_count": 1,
+          "rank": 27,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "olk",
+          "query_count": 1,
+          "rank": 28,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "yk",
+          "query_count": 1,
+          "rank": 29,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "Cor",
+          "query_count": 1,
+          "rank": 30,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "yt",
+          "query_count": 1,
+          "rank": 31,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "qo",
+          "query_count": 1,
+          "rank": 32,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "Co",
+          "query_count": 1,
+          "rank": 33,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "dal",
+          "query_count": 1,
+          "rank": 34,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "dar",
+          "query_count": 1,
+          "rank": 35,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "Cdy",
+          "query_count": 1,
+          "rank": 36,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "Ky",
+          "query_count": 1,
+          "rank": 37,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "air",
+          "query_count": 1,
+          "rank": 38,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "Ty",
+          "query_count": 1,
+          "rank": 39,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "Sey",
+          "query_count": 1,
+          "rank": 40,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "ky",
+          "query_count": 1,
+          "rank": 41,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "qokaI",
+          "query_count": 1,
+          "rank": 42,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "So",
+          "query_count": 1,
+          "rank": 43,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "op",
+          "query_count": 1,
+          "rank": 44,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "Sol",
+          "query_count": 1,
+          "rank": 45,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "qokaN",
+          "query_count": 1,
+          "rank": 46,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "qokEdy",
+          "query_count": 1,
+          "rank": 47,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "qokal",
+          "query_count": 1,
+          "rank": 48,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "qokedy",
+          "query_count": 1,
+          "rank": 49,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "CE",
+          "query_count": 1,
+          "rank": 50,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "eol",
+          "query_count": 1,
+          "rank": 51,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "Sy",
+          "query_count": 1,
+          "rank": 52,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "CEy",
+          "query_count": 1,
+          "rank": 53,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "Ceol",
+          "query_count": 1,
+          "rank": 54,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "daI",
+          "query_count": 1,
+          "rank": 55,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "os",
+          "query_count": 1,
+          "rank": 56,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "qol",
+          "query_count": 1,
+          "rank": 57,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "lk",
+          "query_count": 1,
+          "rank": 58,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "qokEy",
+          "query_count": 1,
+          "rank": 59,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "okaN",
+          "query_count": 1,
+          "rank": 60,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "okal",
+          "query_count": 1,
+          "rank": 61,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "otal",
+          "query_count": 1,
+          "rank": 62,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "oky",
+          "query_count": 1,
+          "rank": 63,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_this_relaxation_count": false,
+          "merge": "oty",
+          "query_count": 1,
+          "rank": 64,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        }
+      ]
+    },
+    {
+      "paid_child_train_gate_violations_equal": 4,
+      "rows": [
+        {
+          "can_participate_in_a_minimum_relaxation": false,
+          "merge": "dy",
+          "query_count": 1,
+          "rank": 1,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": false,
+          "merge": "ok",
+          "query_count": 1,
+          "rank": 2,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": false,
+          "merge": "ol",
+          "query_count": 1,
+          "rank": 3,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": false,
+          "merge": "aN",
+          "query_count": 1,
+          "rank": 4,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": false,
+          "merge": "Ce",
+          "query_count": 1,
+          "rank": 5,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": false,
+          "merge": "ot",
+          "query_count": 1,
+          "rank": 6,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": false,
+          "merge": "qok",
+          "query_count": 1,
+          "rank": 7,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": false,
+          "merge": "ar",
+          "query_count": 1,
+          "rank": 8,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": false,
+          "merge": "al",
+          "query_count": 1,
+          "rank": 9,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": false,
+          "merge": "or",
+          "query_count": 1,
+          "rank": 10,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": false,
+          "merge": "Se",
+          "query_count": 1,
+          "rank": 11,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": false,
+          "merge": "aI",
+          "query_count": 1,
+          "rank": 12,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": false,
+          "merge": "daN",
+          "query_count": 1,
+          "rank": 13,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": true,
+          "merge": "Ey",
+          "query_count": 1,
+          "rank": 14,
+          "sat_queries": 1,
+          "status": "SAT",
+          "unsat_queries": 0
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": false,
+          "merge": "Cedy",
+          "query_count": 1,
+          "rank": 15,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": false,
+          "merge": "qot",
+          "query_count": 1,
+          "rank": 16,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": false,
+          "merge": "Cy",
+          "query_count": 1,
+          "rank": 17,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": true,
+          "merge": "Edy",
+          "query_count": 1,
+          "rank": 18,
+          "sat_queries": 1,
+          "status": "SAT",
+          "unsat_queries": 0
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": false,
+          "merge": "edy",
+          "query_count": 1,
+          "rank": 19,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": false,
+          "merge": "ody",
+          "query_count": 1,
+          "rank": 20,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": false,
+          "merge": "Col",
+          "query_count": 1,
+          "rank": 21,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": false,
+          "merge": "Cey",
+          "query_count": 1,
+          "rank": 22,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": false,
+          "merge": "ai",
+          "query_count": 1,
+          "rank": 23,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": false,
+          "merge": "ey",
+          "query_count": 1,
+          "rank": 24,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": false,
+          "merge": "od",
+          "query_count": 1,
+          "rank": 25,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": false,
+          "merge": "Sedy",
+          "query_count": 1,
+          "rank": 26,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": false,
+          "merge": "am",
+          "query_count": 1,
+          "rank": 27,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": false,
+          "merge": "olk",
+          "query_count": 1,
+          "rank": 28,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": false,
+          "merge": "yk",
+          "query_count": 1,
+          "rank": 29,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": false,
+          "merge": "Cor",
+          "query_count": 1,
+          "rank": 30,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": false,
+          "merge": "yt",
+          "query_count": 1,
+          "rank": 31,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": false,
+          "merge": "qo",
+          "query_count": 1,
+          "rank": 32,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": false,
+          "merge": "Co",
+          "query_count": 1,
+          "rank": 33,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": false,
+          "merge": "dal",
+          "query_count": 1,
+          "rank": 34,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": false,
+          "merge": "dar",
+          "query_count": 1,
+          "rank": 35,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": false,
+          "merge": "Cdy",
+          "query_count": 1,
+          "rank": 36,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": false,
+          "merge": "Ky",
+          "query_count": 1,
+          "rank": 37,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": false,
+          "merge": "air",
+          "query_count": 1,
+          "rank": 38,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": false,
+          "merge": "Ty",
+          "query_count": 1,
+          "rank": 39,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": false,
+          "merge": "Sey",
+          "query_count": 1,
+          "rank": 40,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": false,
+          "merge": "ky",
+          "query_count": 1,
+          "rank": 41,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": false,
+          "merge": "qokaI",
+          "query_count": 1,
+          "rank": 42,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": false,
+          "merge": "So",
+          "query_count": 1,
+          "rank": 43,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": false,
+          "merge": "op",
+          "query_count": 1,
+          "rank": 44,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": true,
+          "merge": "Sol",
+          "query_count": 1,
+          "rank": 45,
+          "sat_queries": 1,
+          "status": "SAT",
+          "unsat_queries": 0
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": false,
+          "merge": "qokaN",
+          "query_count": 1,
+          "rank": 46,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": true,
+          "merge": "qokEdy",
+          "query_count": 1,
+          "rank": 47,
+          "sat_queries": 1,
+          "status": "SAT",
+          "unsat_queries": 0
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": false,
+          "merge": "qokal",
+          "query_count": 1,
+          "rank": 48,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": true,
+          "merge": "qokedy",
+          "query_count": 1,
+          "rank": 49,
+          "sat_queries": 1,
+          "status": "SAT",
+          "unsat_queries": 0
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": false,
+          "merge": "CE",
+          "query_count": 1,
+          "rank": 50,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": false,
+          "merge": "eol",
+          "query_count": 1,
+          "rank": 51,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": false,
+          "merge": "Sy",
+          "query_count": 1,
+          "rank": 52,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": false,
+          "merge": "CEy",
+          "query_count": 1,
+          "rank": 53,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": false,
+          "merge": "Ceol",
+          "query_count": 1,
+          "rank": 54,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": false,
+          "merge": "daI",
+          "query_count": 1,
+          "rank": 55,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": false,
+          "merge": "os",
+          "query_count": 1,
+          "rank": 56,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": false,
+          "merge": "qol",
+          "query_count": 1,
+          "rank": 57,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": false,
+          "merge": "lk",
+          "query_count": 1,
+          "rank": 58,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": true,
+          "merge": "qokEy",
+          "query_count": 1,
+          "rank": 59,
+          "sat_queries": 1,
+          "status": "SAT",
+          "unsat_queries": 0
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": false,
+          "merge": "okaN",
+          "query_count": 1,
+          "rank": 60,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": false,
+          "merge": "okal",
+          "query_count": 1,
+          "rank": 61,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": false,
+          "merge": "otal",
+          "query_count": 1,
+          "rank": 62,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": false,
+          "merge": "oky",
+          "query_count": 1,
+          "rank": 63,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        },
+        {
+          "can_participate_in_a_minimum_relaxation": false,
+          "merge": "oty",
+          "query_count": 1,
+          "rank": 64,
+          "sat_queries": 0,
+          "status": "UNSAT",
+          "unsat_queries": 1
+        }
+      ]
+    }
+  ],
+  "representative_breaks": [
+    {
+      "child_composition": "hoa",
+      "child_composition_in_train": false,
+      "effective_output": "ere",
+      "left": "E",
+      "left_effective_output": "ho",
+      "merge": "Ey",
+      "mode": "PAID",
+      "paid_card_id": "short:4",
+      "paid_card_role": "short_card",
+      "rank": 14,
+      "right": "y",
+      "right_effective_output": "a"
+    },
+    {
+      "child_composition": "hire",
+      "child_composition_in_train": false,
+      "effective_output": "runt",
+      "left": "S",
+      "left_effective_output": "h",
+      "merge": "Sol",
+      "mode": "PAID",
+      "paid_card_id": "macro:2",
+      "paid_card_role": "macro_core",
+      "rank": 45,
+      "right": "ol",
+      "right_effective_output": "ire"
+    },
+    {
+      "child_composition": "tinhora",
+      "child_composition_in_train": false,
+      "effective_output": "con",
+      "left": "qok",
+      "left_effective_output": "tin",
+      "merge": "qokEdy",
+      "mode": "PAID",
+      "paid_card_id": "macro:1",
+      "paid_card_role": "macro_core",
+      "rank": 47,
+      "right": "Edy",
+      "right_effective_output": "hora"
+    },
+    {
+      "child_composition": "tinura",
+      "child_composition_in_train": false,
+      "effective_output": "erunt",
+      "left": "qok",
+      "left_effective_output": "tin",
+      "merge": "qokedy",
+      "mode": "PAID",
+      "paid_card_id": "macro:3",
+      "paid_card_role": "macro_core",
+      "rank": 49,
+      "right": "edy",
+      "right_effective_output": "ura"
+    }
+  ],
+  "representative_witness": {
+    "actual_paid_locations": [
+      {
+        "card_id": "short:3",
+        "child_composition": "eq",
+        "child_composition_in_train": true,
+        "merge": "aN",
+        "output": "ent",
+        "output_length": 3,
+        "rank": 4,
+        "role": "short_card",
+        "side_license": null
+      },
+      {
+        "card_id": "short:1",
+        "child_composition": "hu",
+        "child_composition_in_train": true,
+        "merge": "Se",
+        "output": "de",
+        "output_length": 2,
+        "rank": 11,
+        "role": "short_card",
+        "side_license": null
+      },
+      {
+        "card_id": "short:4",
+        "child_composition": "hoa",
+        "child_composition_in_train": false,
+        "merge": "Ey",
+        "output": "ere",
+        "output_length": 3,
+        "rank": 14,
+        "role": "short_card",
+        "side_license": null
+      },
+      {
+        "card_id": "short:2",
+        "child_composition": "ent",
+        "child_composition_in_train": true,
+        "merge": "ai",
+        "output": "di",
+        "output_length": 2,
+        "rank": 23,
+        "role": "short_card",
+        "side_license": null
+      },
+      {
+        "card_id": "macro:2",
+        "child_composition": "hire",
+        "child_composition_in_train": false,
+        "merge": "Sol",
+        "output": "runt",
+        "output_length": 4,
+        "rank": 45,
+        "role": "macro_core",
+        "side_license": "LEFT_HOST"
+      },
+      {
+        "card_id": "macro:1",
+        "child_composition": "tinhora",
+        "child_composition_in_train": false,
+        "merge": "qokEdy",
+        "output": "con",
+        "output_length": 3,
+        "rank": 47,
+        "role": "macro_core",
+        "side_license": "RIGHT_HOST"
+      },
+      {
+        "card_id": "macro:3",
+        "child_composition": "tinura",
+        "child_composition_in_train": false,
+        "merge": "qokedy",
+        "output": "erunt",
+        "output_length": 5,
+        "rank": 49,
+        "role": "macro_core",
+        "side_license": "STANDALONE_OR_LEFT_HOST"
+      },
+      {
+        "card_id": "macro:4",
+        "child_composition": "ina",
+        "child_composition_in_train": true,
+        "merge": "oky",
+        "output": "reliqu",
+        "output_length": 6,
+        "rank": 63,
+        "role": "macro_core",
+        "side_license": "RIGHT_HOST"
+      }
+    ],
+    "merge_replay": [
+      {
+        "child_composition": "ra",
+        "child_composition_in_train": true,
+        "effective_output": "ra",
+        "left": "d",
+        "left_effective_output": "r",
+        "merge": "dy",
+        "mode": "DEFAULT",
+        "paid_card_id": null,
+        "paid_card_role": null,
+        "rank": 1,
+        "right": "y",
+        "right_effective_output": "a"
+      },
+      {
+        "child_composition": "in",
+        "child_composition_in_train": true,
+        "effective_output": "in",
+        "left": "o",
+        "left_effective_output": "i",
+        "merge": "ok",
+        "mode": "DEFAULT",
+        "paid_card_id": null,
+        "paid_card_role": null,
+        "rank": 2,
+        "right": "k",
+        "right_effective_output": "n"
+      },
+      {
+        "child_composition": "ire",
+        "child_composition_in_train": true,
+        "effective_output": "ire",
+        "left": "o",
+        "left_effective_output": "i",
+        "merge": "ol",
+        "mode": "DEFAULT",
+        "paid_card_id": null,
+        "paid_card_role": null,
+        "rank": 3,
+        "right": "l",
+        "right_effective_output": "re"
+      },
+      {
+        "child_composition": "eq",
+        "child_composition_in_train": true,
+        "effective_output": "ent",
+        "left": "a",
+        "left_effective_output": "e",
+        "merge": "aN",
+        "mode": "PAID",
+        "paid_card_id": "short:3",
+        "paid_card_role": "short_card",
+        "rank": 4,
+        "right": "N",
+        "right_effective_output": "q"
+      },
+      {
+        "child_composition": "u",
+        "child_composition_in_train": true,
+        "effective_output": "u",
+        "left": "C",
+        "left_effective_output": "",
+        "merge": "Ce",
+        "mode": "DEFAULT",
+        "paid_card_id": null,
+        "paid_card_role": null,
+        "rank": 5,
+        "right": "e",
+        "right_effective_output": "u"
+      },
+      {
+        "child_composition": "ib",
+        "child_composition_in_train": true,
+        "effective_output": "ib",
+        "left": "o",
+        "left_effective_output": "i",
+        "merge": "ot",
+        "mode": "DEFAULT",
+        "paid_card_id": null,
+        "paid_card_role": null,
+        "rank": 6,
+        "right": "t",
+        "right_effective_output": "b"
+      },
+      {
+        "child_composition": "tin",
+        "child_composition_in_train": true,
+        "effective_output": "tin",
+        "left": "q",
+        "left_effective_output": "t",
+        "merge": "qok",
+        "mode": "DEFAULT",
+        "paid_card_id": null,
+        "paid_card_role": null,
+        "rank": 7,
+        "right": "ok",
+        "right_effective_output": "in"
+      },
+      {
+        "child_composition": "eque",
+        "child_composition_in_train": true,
+        "effective_output": "eque",
+        "left": "a",
+        "left_effective_output": "e",
+        "merge": "ar",
+        "mode": "DEFAULT",
+        "paid_card_id": null,
+        "paid_card_role": null,
+        "rank": 8,
+        "right": "r",
+        "right_effective_output": "que"
+      },
+      {
+        "child_composition": "ere",
+        "child_composition_in_train": true,
+        "effective_output": "ere",
+        "left": "a",
+        "left_effective_output": "e",
+        "merge": "al",
+        "mode": "DEFAULT",
+        "paid_card_id": null,
+        "paid_card_role": null,
+        "rank": 9,
+        "right": "l",
+        "right_effective_output": "re"
+      },
+      {
+        "child_composition": "ique",
+        "child_composition_in_train": true,
+        "effective_output": "ique",
+        "left": "o",
+        "left_effective_output": "i",
+        "merge": "or",
+        "mode": "DEFAULT",
+        "paid_card_id": null,
+        "paid_card_role": null,
+        "rank": 10,
+        "right": "r",
+        "right_effective_output": "que"
+      },
+      {
+        "child_composition": "hu",
+        "child_composition_in_train": true,
+        "effective_output": "de",
+        "left": "S",
+        "left_effective_output": "h",
+        "merge": "Se",
+        "mode": "PAID",
+        "paid_card_id": "short:1",
+        "paid_card_role": "short_card",
+        "rank": 11,
+        "right": "e",
+        "right_effective_output": "u"
+      },
+      {
+        "child_composition": "etur",
+        "child_composition_in_train": true,
+        "effective_output": "etur",
+        "left": "a",
+        "left_effective_output": "e",
+        "merge": "aI",
+        "mode": "DEFAULT",
+        "paid_card_id": null,
+        "paid_card_role": null,
+        "rank": 12,
+        "right": "I",
+        "right_effective_output": "tur"
+      },
+      {
+        "child_composition": "rent",
+        "child_composition_in_train": true,
+        "effective_output": "rent",
+        "left": "d",
+        "left_effective_output": "r",
+        "merge": "daN",
+        "mode": "DEFAULT",
+        "paid_card_id": null,
+        "paid_card_role": null,
+        "rank": 13,
+        "right": "aN",
+        "right_effective_output": "ent"
+      },
+      {
+        "child_composition": "hoa",
+        "child_composition_in_train": false,
+        "effective_output": "ere",
+        "left": "E",
+        "left_effective_output": "ho",
+        "merge": "Ey",
+        "mode": "PAID",
+        "paid_card_id": "short:4",
+        "paid_card_role": "short_card",
+        "rank": 14,
+        "right": "y",
+        "right_effective_output": "a"
+      },
+      {
+        "child_composition": "ura",
+        "child_composition_in_train": true,
+        "effective_output": "ura",
+        "left": "Ce",
+        "left_effective_output": "u",
+        "merge": "Cedy",
+        "mode": "DEFAULT",
+        "paid_card_id": null,
+        "paid_card_role": null,
+        "rank": 15,
+        "right": "dy",
+        "right_effective_output": "ra"
+      },
+      {
+        "child_composition": "tib",
+        "child_composition_in_train": true,
+        "effective_output": "tib",
+        "left": "q",
+        "left_effective_output": "t",
+        "merge": "qot",
+        "mode": "DEFAULT",
+        "paid_card_id": null,
+        "paid_card_role": null,
+        "rank": 16,
+        "right": "ot",
+        "right_effective_output": "ib"
+      },
+      {
+        "child_composition": "a",
+        "child_composition_in_train": true,
+        "effective_output": "a",
+        "left": "C",
+        "left_effective_output": "",
+        "merge": "Cy",
+        "mode": "DEFAULT",
+        "paid_card_id": null,
+        "paid_card_role": null,
+        "rank": 17,
+        "right": "y",
+        "right_effective_output": "a"
+      },
+      {
+        "child_composition": "hora",
+        "child_composition_in_train": true,
+        "effective_output": "hora",
+        "left": "E",
+        "left_effective_output": "ho",
+        "merge": "Edy",
+        "mode": "DEFAULT",
+        "paid_card_id": null,
+        "paid_card_role": null,
+        "rank": 18,
+        "right": "dy",
+        "right_effective_output": "ra"
+      },
+      {
+        "child_composition": "ura",
+        "child_composition_in_train": true,
+        "effective_output": "ura",
+        "left": "e",
+        "left_effective_output": "u",
+        "merge": "edy",
+        "mode": "DEFAULT",
+        "paid_card_id": null,
+        "paid_card_role": null,
+        "rank": 19,
+        "right": "dy",
+        "right_effective_output": "ra"
+      },
+      {
+        "child_composition": "ira",
+        "child_composition_in_train": true,
+        "effective_output": "ira",
+        "left": "o",
+        "left_effective_output": "i",
+        "merge": "ody",
+        "mode": "DEFAULT",
+        "paid_card_id": null,
+        "paid_card_role": null,
+        "rank": 20,
+        "right": "dy",
+        "right_effective_output": "ra"
+      },
+      {
+        "child_composition": "ire",
+        "child_composition_in_train": true,
+        "effective_output": "ire",
+        "left": "C",
+        "left_effective_output": "",
+        "merge": "Col",
+        "mode": "DEFAULT",
+        "paid_card_id": null,
+        "paid_card_role": null,
+        "rank": 21,
+        "right": "ol",
+        "right_effective_output": "ire"
+      },
+      {
+        "child_composition": "ua",
+        "child_composition_in_train": true,
+        "effective_output": "ua",
+        "left": "Ce",
+        "left_effective_output": "u",
+        "merge": "Cey",
+        "mode": "DEFAULT",
+        "paid_card_id": null,
+        "paid_card_role": null,
+        "rank": 22,
+        "right": "y",
+        "right_effective_output": "a"
+      },
+      {
+        "child_composition": "ent",
+        "child_composition_in_train": true,
+        "effective_output": "di",
+        "left": "a",
+        "left_effective_output": "e",
+        "merge": "ai",
+        "mode": "PAID",
+        "paid_card_id": "short:2",
+        "paid_card_role": "short_card",
+        "rank": 23,
+        "right": "i",
+        "right_effective_output": "nt"
+      },
+      {
+        "child_composition": "ua",
+        "child_composition_in_train": true,
+        "effective_output": "ua",
+        "left": "e",
+        "left_effective_output": "u",
+        "merge": "ey",
+        "mode": "DEFAULT",
+        "paid_card_id": null,
+        "paid_card_role": null,
+        "rank": 24,
+        "right": "y",
+        "right_effective_output": "a"
+      },
+      {
+        "child_composition": "ir",
+        "child_composition_in_train": true,
+        "effective_output": "ir",
+        "left": "o",
+        "left_effective_output": "i",
+        "merge": "od",
+        "mode": "DEFAULT",
+        "paid_card_id": null,
+        "paid_card_role": null,
+        "rank": 25,
+        "right": "d",
+        "right_effective_output": "r"
+      },
+      {
+        "child_composition": "dera",
+        "child_composition_in_train": true,
+        "effective_output": "dera",
+        "left": "Se",
+        "left_effective_output": "de",
+        "merge": "Sedy",
+        "mode": "DEFAULT",
+        "paid_card_id": null,
+        "paid_card_role": null,
+        "rank": 26,
+        "right": "dy",
+        "right_effective_output": "ra"
+      },
+      {
+        "child_composition": "ed",
+        "child_composition_in_train": true,
+        "effective_output": "ed",
+        "left": "a",
+        "left_effective_output": "e",
+        "merge": "am",
+        "mode": "DEFAULT",
+        "paid_card_id": null,
+        "paid_card_role": null,
+        "rank": 27,
+        "right": "m",
+        "right_effective_output": "d"
+      },
+      {
+        "child_composition": "iren",
+        "child_composition_in_train": true,
+        "effective_output": "iren",
+        "left": "ol",
+        "left_effective_output": "ire",
+        "merge": "olk",
+        "mode": "DEFAULT",
+        "paid_card_id": null,
+        "paid_card_role": null,
+        "rank": 28,
+        "right": "k",
+        "right_effective_output": "n"
+      },
+      {
+        "child_composition": "an",
+        "child_composition_in_train": true,
+        "effective_output": "an",
+        "left": "y",
+        "left_effective_output": "a",
+        "merge": "yk",
+        "mode": "DEFAULT",
+        "paid_card_id": null,
+        "paid_card_role": null,
+        "rank": 29,
+        "right": "k",
+        "right_effective_output": "n"
+      },
+      {
+        "child_composition": "ique",
+        "child_composition_in_train": true,
+        "effective_output": "ique",
+        "left": "C",
+        "left_effective_output": "",
+        "merge": "Cor",
+        "mode": "DEFAULT",
+        "paid_card_id": null,
+        "paid_card_role": null,
+        "rank": 30,
+        "right": "or",
+        "right_effective_output": "ique"
+      },
+      {
+        "child_composition": "ab",
+        "child_composition_in_train": true,
+        "effective_output": "ab",
+        "left": "y",
+        "left_effective_output": "a",
+        "merge": "yt",
+        "mode": "DEFAULT",
+        "paid_card_id": null,
+        "paid_card_role": null,
+        "rank": 31,
+        "right": "t",
+        "right_effective_output": "b"
+      },
+      {
+        "child_composition": "ti",
+        "child_composition_in_train": true,
+        "effective_output": "ti",
+        "left": "q",
+        "left_effective_output": "t",
+        "merge": "qo",
+        "mode": "DEFAULT",
+        "paid_card_id": null,
+        "paid_card_role": null,
+        "rank": 32,
+        "right": "o",
+        "right_effective_output": "i"
+      },
+      {
+        "child_composition": "i",
+        "child_composition_in_train": true,
+        "effective_output": "i",
+        "left": "C",
+        "left_effective_output": "",
+        "merge": "Co",
+        "mode": "DEFAULT",
+        "paid_card_id": null,
+        "paid_card_role": null,
+        "rank": 33,
+        "right": "o",
+        "right_effective_output": "i"
+      },
+      {
+        "child_composition": "rere",
+        "child_composition_in_train": true,
+        "effective_output": "rere",
+        "left": "d",
+        "left_effective_output": "r",
+        "merge": "dal",
+        "mode": "DEFAULT",
+        "paid_card_id": null,
+        "paid_card_role": null,
+        "rank": 34,
+        "right": "al",
+        "right_effective_output": "ere"
+      },
+      {
+        "child_composition": "reque",
+        "child_composition_in_train": true,
+        "effective_output": "reque",
+        "left": "d",
+        "left_effective_output": "r",
+        "merge": "dar",
+        "mode": "DEFAULT",
+        "paid_card_id": null,
+        "paid_card_role": null,
+        "rank": 35,
+        "right": "ar",
+        "right_effective_output": "eque"
+      },
+      {
+        "child_composition": "ra",
+        "child_composition_in_train": true,
+        "effective_output": "ra",
+        "left": "C",
+        "left_effective_output": "",
+        "merge": "Cdy",
+        "mode": "DEFAULT",
+        "paid_card_id": null,
+        "paid_card_role": null,
+        "rank": 36,
+        "right": "dy",
+        "right_effective_output": "ra"
+      },
+      {
+        "child_composition": "xa",
+        "child_composition_in_train": true,
+        "effective_output": "xa",
+        "left": "K",
+        "left_effective_output": "x",
+        "merge": "Ky",
+        "mode": "DEFAULT",
+        "paid_card_id": null,
+        "paid_card_role": null,
+        "rank": 37,
+        "right": "y",
+        "right_effective_output": "a"
+      },
+      {
+        "child_composition": "dique",
+        "child_composition_in_train": true,
+        "effective_output": "dique",
+        "left": "ai",
+        "left_effective_output": "di",
+        "merge": "air",
+        "mode": "DEFAULT",
+        "paid_card_id": null,
+        "paid_card_role": null,
+        "rank": 38,
+        "right": "r",
+        "right_effective_output": "que"
+      },
+      {
+        "child_composition": "uma",
+        "child_composition_in_train": true,
+        "effective_output": "uma",
+        "left": "T",
+        "left_effective_output": "um",
+        "merge": "Ty",
+        "mode": "DEFAULT",
+        "paid_card_id": null,
+        "paid_card_role": null,
+        "rank": 39,
+        "right": "y",
+        "right_effective_output": "a"
+      },
+      {
+        "child_composition": "dea",
+        "child_composition_in_train": true,
+        "effective_output": "dea",
+        "left": "Se",
+        "left_effective_output": "de",
+        "merge": "Sey",
+        "mode": "DEFAULT",
+        "paid_card_id": null,
+        "paid_card_role": null,
+        "rank": 40,
+        "right": "y",
+        "right_effective_output": "a"
+      },
+      {
+        "child_composition": "na",
+        "child_composition_in_train": true,
+        "effective_output": "na",
+        "left": "k",
+        "left_effective_output": "n",
+        "merge": "ky",
+        "mode": "DEFAULT",
+        "paid_card_id": null,
+        "paid_card_role": null,
+        "rank": 41,
+        "right": "y",
+        "right_effective_output": "a"
+      },
+      {
+        "child_composition": "tinetur",
+        "child_composition_in_train": true,
+        "effective_output": "tinetur",
+        "left": "qok",
+        "left_effective_output": "tin",
+        "merge": "qokaI",
+        "mode": "DEFAULT",
+        "paid_card_id": null,
+        "paid_card_role": null,
+        "rank": 42,
+        "right": "aI",
+        "right_effective_output": "etur"
+      },
+      {
+        "child_composition": "hi",
+        "child_composition_in_train": true,
+        "effective_output": "hi",
+        "left": "S",
+        "left_effective_output": "h",
+        "merge": "So",
+        "mode": "DEFAULT",
+        "paid_card_id": null,
+        "paid_card_role": null,
+        "rank": 43,
+        "right": "o",
+        "right_effective_output": "i"
+      },
+      {
+        "child_composition": "io",
+        "child_composition_in_train": true,
+        "effective_output": "io",
+        "left": "o",
+        "left_effective_output": "i",
+        "merge": "op",
+        "mode": "DEFAULT",
+        "paid_card_id": null,
+        "paid_card_role": null,
+        "rank": 44,
+        "right": "p",
+        "right_effective_output": "o"
+      },
+      {
+        "child_composition": "hire",
+        "child_composition_in_train": false,
+        "effective_output": "runt",
+        "left": "S",
+        "left_effective_output": "h",
+        "merge": "Sol",
+        "mode": "PAID",
+        "paid_card_id": "macro:2",
+        "paid_card_role": "macro_core",
+        "rank": 45,
+        "right": "ol",
+        "right_effective_output": "ire"
+      },
+      {
+        "child_composition": "tinent",
+        "child_composition_in_train": true,
+        "effective_output": "tinent",
+        "left": "qok",
+        "left_effective_output": "tin",
+        "merge": "qokaN",
+        "mode": "DEFAULT",
+        "paid_card_id": null,
+        "paid_card_role": null,
+        "rank": 46,
+        "right": "aN",
+        "right_effective_output": "ent"
+      },
+      {
+        "child_composition": "tinhora",
+        "child_composition_in_train": false,
+        "effective_output": "con",
+        "left": "qok",
+        "left_effective_output": "tin",
+        "merge": "qokEdy",
+        "mode": "PAID",
+        "paid_card_id": "macro:1",
+        "paid_card_role": "macro_core",
+        "rank": 47,
+        "right": "Edy",
+        "right_effective_output": "hora"
+      },
+      {
+        "child_composition": "tinere",
+        "child_composition_in_train": true,
+        "effective_output": "tinere",
+        "left": "qok",
+        "left_effective_output": "tin",
+        "merge": "qokal",
+        "mode": "DEFAULT",
+        "paid_card_id": null,
+        "paid_card_role": null,
+        "rank": 48,
+        "right": "al",
+        "right_effective_output": "ere"
+      },
+      {
+        "child_composition": "tinura",
+        "child_composition_in_train": false,
+        "effective_output": "erunt",
+        "left": "qok",
+        "left_effective_output": "tin",
+        "merge": "qokedy",
+        "mode": "PAID",
+        "paid_card_id": "macro:3",
+        "paid_card_role": "macro_core",
+        "rank": 49,
+        "right": "edy",
+        "right_effective_output": "ura"
+      },
+      {
+        "child_composition": "ho",
+        "child_composition_in_train": true,
+        "effective_output": "ho",
+        "left": "C",
+        "left_effective_output": "",
+        "merge": "CE",
+        "mode": "DEFAULT",
+        "paid_card_id": null,
+        "paid_card_role": null,
+        "rank": 50,
+        "right": "E",
+        "right_effective_output": "ho"
+      },
+      {
+        "child_composition": "uire",
+        "child_composition_in_train": true,
+        "effective_output": "uire",
+        "left": "e",
+        "left_effective_output": "u",
+        "merge": "eol",
+        "mode": "DEFAULT",
+        "paid_card_id": null,
+        "paid_card_role": null,
+        "rank": 51,
+        "right": "ol",
+        "right_effective_output": "ire"
+      },
+      {
+        "child_composition": "ha",
+        "child_composition_in_train": true,
+        "effective_output": "ha",
+        "left": "S",
+        "left_effective_output": "h",
+        "merge": "Sy",
+        "mode": "DEFAULT",
+        "paid_card_id": null,
+        "paid_card_role": null,
+        "rank": 52,
+        "right": "y",
+        "right_effective_output": "a"
+      },
+      {
+        "child_composition": "ere",
+        "child_composition_in_train": true,
+        "effective_output": "ere",
+        "left": "C",
+        "left_effective_output": "",
+        "merge": "CEy",
+        "mode": "DEFAULT",
+        "paid_card_id": null,
+        "paid_card_role": null,
+        "rank": 53,
+        "right": "Ey",
+        "right_effective_output": "ere"
+      },
+      {
+        "child_composition": "uire",
+        "child_composition_in_train": true,
+        "effective_output": "uire",
+        "left": "Ce",
+        "left_effective_output": "u",
+        "merge": "Ceol",
+        "mode": "DEFAULT",
+        "paid_card_id": null,
+        "paid_card_role": null,
+        "rank": 54,
+        "right": "ol",
+        "right_effective_output": "ire"
+      },
+      {
+        "child_composition": "retur",
+        "child_composition_in_train": true,
+        "effective_output": "retur",
+        "left": "d",
+        "left_effective_output": "r",
+        "merge": "daI",
+        "mode": "DEFAULT",
+        "paid_card_id": null,
+        "paid_card_role": null,
+        "rank": 55,
+        "right": "aI",
+        "right_effective_output": "etur"
+      },
+      {
+        "child_composition": "ic",
+        "child_composition_in_train": true,
+        "effective_output": "ic",
+        "left": "o",
+        "left_effective_output": "i",
+        "merge": "os",
+        "mode": "DEFAULT",
+        "paid_card_id": null,
+        "paid_card_role": null,
+        "rank": 56,
+        "right": "s",
+        "right_effective_output": "c"
+      },
+      {
+        "child_composition": "tire",
+        "child_composition_in_train": true,
+        "effective_output": "tire",
+        "left": "q",
+        "left_effective_output": "t",
+        "merge": "qol",
+        "mode": "DEFAULT",
+        "paid_card_id": null,
+        "paid_card_role": null,
+        "rank": 57,
+        "right": "ol",
+        "right_effective_output": "ire"
+      },
+      {
+        "child_composition": "ren",
+        "child_composition_in_train": true,
+        "effective_output": "ren",
+        "left": "l",
+        "left_effective_output": "re",
+        "merge": "lk",
+        "mode": "DEFAULT",
+        "paid_card_id": null,
+        "paid_card_role": null,
+        "rank": 58,
+        "right": "k",
+        "right_effective_output": "n"
+      },
+      {
+        "child_composition": "tinere",
+        "child_composition_in_train": true,
+        "effective_output": "tinere",
+        "left": "qok",
+        "left_effective_output": "tin",
+        "merge": "qokEy",
+        "mode": "DEFAULT",
+        "paid_card_id": null,
+        "paid_card_role": null,
+        "rank": 59,
+        "right": "Ey",
+        "right_effective_output": "ere"
+      },
+      {
+        "child_composition": "inent",
+        "child_composition_in_train": true,
+        "effective_output": "inent",
+        "left": "ok",
+        "left_effective_output": "in",
+        "merge": "okaN",
+        "mode": "DEFAULT",
+        "paid_card_id": null,
+        "paid_card_role": null,
+        "rank": 60,
+        "right": "aN",
+        "right_effective_output": "ent"
+      },
+      {
+        "child_composition": "inere",
+        "child_composition_in_train": true,
+        "effective_output": "inere",
+        "left": "ok",
+        "left_effective_output": "in",
+        "merge": "okal",
+        "mode": "DEFAULT",
+        "paid_card_id": null,
+        "paid_card_role": null,
+        "rank": 61,
+        "right": "al",
+        "right_effective_output": "ere"
+      },
+      {
+        "child_composition": "ibere",
+        "child_composition_in_train": true,
+        "effective_output": "ibere",
+        "left": "ot",
+        "left_effective_output": "ib",
+        "merge": "otal",
+        "mode": "DEFAULT",
+        "paid_card_id": null,
+        "paid_card_role": null,
+        "rank": 62,
+        "right": "al",
+        "right_effective_output": "ere"
+      },
+      {
+        "child_composition": "ina",
+        "child_composition_in_train": true,
+        "effective_output": "reliqu",
+        "left": "ok",
+        "left_effective_output": "in",
+        "merge": "oky",
+        "mode": "PAID",
+        "paid_card_id": "macro:4",
+        "paid_card_role": "macro_core",
+        "rank": 63,
+        "right": "y",
+        "right_effective_output": "a"
+      },
+      {
+        "child_composition": "iba",
+        "child_composition_in_train": true,
+        "effective_output": "iba",
+        "left": "ot",
+        "left_effective_output": "ib",
+        "merge": "oty",
+        "mode": "DEFAULT",
+        "paid_card_id": null,
+        "paid_card_role": null,
+        "rank": 64,
+        "right": "y",
+        "right_effective_output": "a"
+      }
+    ],
+    "paid_child_span_violation_ranks": [
+      14,
+      45,
+      47,
+      49
+    ],
+    "primitive_mapping": [
+      {
+        "card_id": "N01",
+        "length": 0,
+        "output": "",
+        "primitive_id": "C",
+        "role": "null_layout",
+        "side_license": null
+      },
+      {
+        "card_id": "Y03",
+        "length": 2,
+        "output": "ho",
+        "primitive_id": "E",
+        "role": "syllabic_carrier",
+        "side_license": null
+      },
+      {
+        "card_id": "K02",
+        "length": 2,
+        "output": "in",
+        "primitive_id": "F",
+        "role": "connector",
+        "side_license": null
+      },
+      {
+        "card_id": "S03",
+        "length": 3,
+        "output": "tur",
+        "primitive_id": "I",
+        "role": "suffix_operator",
+        "side_license": null
+      },
+      {
+        "card_id": "L18",
+        "length": 1,
+        "output": "x",
+        "primitive_id": "K",
+        "role": "literal_carrier",
+        "side_license": null
+      },
+      {
+        "card_id": "Y01",
+        "length": 1,
+        "output": "q",
+        "primitive_id": "N",
+        "role": "syllabic_carrier",
+        "side_license": null
+      },
+      {
+        "card_id": "L14",
+        "length": 1,
+        "output": "s",
+        "primitive_id": "P",
+        "role": "literal_carrier",
+        "side_license": null
+      },
+      {
+        "card_id": "P01",
+        "length": 1,
+        "output": "h",
+        "primitive_id": "S",
+        "role": "prefix_operator",
+        "side_license": null
+      },
+      {
+        "card_id": "K01",
+        "length": 2,
+        "output": "um",
+        "primitive_id": "T",
+        "role": "connector",
+        "side_license": null
+      },
+      {
+        "card_id": "L04",
+        "length": 1,
+        "output": "e",
+        "primitive_id": "a",
+        "role": "literal_carrier",
+        "side_license": null
+      },
+      {
+        "card_id": "L08",
+        "length": 1,
+        "output": "l",
+        "primitive_id": "b",
+        "role": "literal_carrier",
+        "side_license": null
+      },
+      {
+        "card_id": "Y02",
+        "length": 2,
+        "output": "hi",
+        "primitive_id": "c",
+        "role": "syllabic_carrier",
+        "side_license": null
+      },
+      {
+        "card_id": "L13",
+        "length": 1,
+        "output": "r",
+        "primitive_id": "d",
+        "role": "literal_carrier",
+        "side_license": null
+      },
+      {
+        "card_id": "L16",
+        "length": 1,
+        "output": "u",
+        "primitive_id": "e",
+        "role": "literal_carrier",
+        "side_license": null
+      },
+      {
+        "card_id": "L05",
+        "length": 1,
+        "output": "f",
+        "primitive_id": "f",
+        "role": "literal_carrier",
+        "side_license": null
+      },
+      {
+        "card_id": "P03",
+        "length": 3,
+        "output": "pro",
+        "primitive_id": "g",
+        "role": "prefix_operator",
+        "side_license": null
+      },
+      {
+        "card_id": "L06",
+        "length": 1,
+        "output": "g",
+        "primitive_id": "h",
+        "role": "literal_carrier",
+        "side_license": null
+      },
+      {
+        "card_id": "C01",
+        "length": 2,
+        "output": "nt",
+        "primitive_id": "i",
+        "role": "context_abbreviation_mark",
+        "side_license": null
+      },
+      {
+        "card_id": "L09",
+        "length": 1,
+        "output": "m",
+        "primitive_id": "j",
+        "role": "literal_carrier",
+        "side_license": null
+      },
+      {
+        "card_id": "L10",
+        "length": 1,
+        "output": "n",
+        "primitive_id": "k",
+        "role": "literal_carrier",
+        "side_license": null
+      },
+      {
+        "card_id": "C02",
+        "length": 2,
+        "output": "re",
+        "primitive_id": "l",
+        "role": "context_abbreviation_mark",
+        "side_license": null
+      },
+      {
+        "card_id": "S01",
+        "length": 1,
+        "output": "d",
+        "primitive_id": "m",
+        "role": "suffix_operator",
+        "side_license": null
+      },
+      {
+        "card_id": "M01",
+        "length": 4,
+        "output": "ibus",
+        "primitive_id": "n",
+        "role": "macro_core",
+        "side_license": "LEFT_HOST"
+      },
+      {
+        "card_id": "L07",
+        "length": 1,
+        "output": "i",
+        "primitive_id": "o",
+        "role": "literal_carrier",
+        "side_license": null
+      },
+      {
+        "card_id": "L11",
+        "length": 1,
+        "output": "o",
+        "primitive_id": "p",
+        "role": "literal_carrier",
+        "side_license": null
+      },
+      {
+        "card_id": "L15",
+        "length": 1,
+        "output": "t",
+        "primitive_id": "q",
+        "role": "literal_carrier",
+        "side_license": null
+      },
+      {
+        "card_id": "Y04",
+        "length": 3,
+        "output": "que",
+        "primitive_id": "r",
+        "role": "syllabic_carrier",
+        "side_license": null
+      },
+      {
+        "card_id": "L03",
+        "length": 1,
+        "output": "c",
+        "primitive_id": "s",
+        "role": "literal_carrier",
+        "side_license": null
+      },
+      {
+        "card_id": "L02",
+        "length": 1,
+        "output": "b",
+        "primitive_id": "t",
+        "role": "literal_carrier",
+        "side_license": null
+      },
+      {
+        "card_id": "S02",
+        "length": 2,
+        "output": "us",
+        "primitive_id": "u",
+        "role": "suffix_operator",
+        "side_license": null
+      },
+      {
+        "card_id": "L12",
+        "length": 1,
+        "output": "p",
+        "primitive_id": "v",
+        "role": "literal_carrier",
+        "side_license": null
+      },
+      {
+        "card_id": "P02",
+        "length": 2,
+        "output": "pr",
+        "primitive_id": "x",
+        "role": "prefix_operator",
+        "side_license": null
+      },
+      {
+        "card_id": "L01",
+        "length": 1,
+        "output": "a",
+        "primitive_id": "y",
+        "role": "literal_carrier",
+        "side_license": null
+      },
+      {
+        "card_id": "L17",
+        "length": 1,
+        "output": "v",
+        "primitive_id": "z",
+        "role": "literal_carrier",
+        "side_license": null
+      }
+    ],
+    "replay_checks": {
+      "all_41_nonempty_card_outputs_global_distinct": true,
+      "all_64_recursive_effective_outputs_exact": true,
+      "all_child_compositions_in_train": false,
+      "all_child_compositions_nonempty": true,
+      "all_default_child_compositions_in_train": true,
+      "all_effective_outputs_in_train": true,
+      "all_effective_outputs_nonempty": true,
+      "complete_same_role_bijection": true,
+      "every_paid_card_used_once": true,
+      "exactly_eight_distinct_paid_locations": true,
+      "paid_output_differs_from_child_composition": true,
+      "qok_paid_macro_forbidden": true,
+      "strict_paid_child_gate": false
+    }
+  },
+  "schema": "gdt616-stage-a-relaxation-diagnostic-v1",
+  "solver": {
+    "backend": "Z3 finite-domain integer/Boolean tables",
+    "parallel_rank_workers": 32,
+    "query_count": 257,
+    "random_seed": 0,
+    "representative_witness_selection": [
+      "minimum paid-child TRAIN-gate violation count",
+      "lowest feasible violation rank as a fixed anchor",
+      "Z3 fixed random seed 0 completion; no mapping/card tiebreak claim"
+    ],
+    "sat_queries": 7,
+    "unsat_queries": 250,
+    "z3_version": "4.15.3"
+  },
+  "source_sha256": "2662f87d01fbecf6e00a27105ae9e2d8283e9e3da2e39ca2f07ffd1c61829ec2",
+  "terminal_artifact_sha256": {
+    "comparison": "e098d63da66b49134e2277e5646639a20cc3b6a8c840b22394da284a1f14aa2c",
+    "independent_bound_source": "014d2363fd38be7979d1286afbb639cb294b0001a3fa34b05109730439804f15",
+    "independent_result": "38b7e7741850791731946d9bc963f3ad44d5147eb267e0387d6c57b71f601361",
+    "primary_result": "d87d925fff5c7e185a256dacf53619b72a8fe430e2db21ce6f6232f2e906faef"
+  }
+}

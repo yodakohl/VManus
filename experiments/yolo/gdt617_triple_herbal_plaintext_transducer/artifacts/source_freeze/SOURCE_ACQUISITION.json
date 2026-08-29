@@ -1,0 +1,175 @@
+{
+  "canvas_requests": 0,
+  "decision": "SOURCE_BINDING_PASS__TARGET_UNOPENED",
+  "experiment_id": "GDT617",
+  "image_requests": 0,
+  "registry_sha256": "f4bffe9a24931a175c726a9e0cc1dca9c73cbd69053c78cb1345357a6cc58089",
+  "request_audit": {
+    "allowlist_sha256": "58f14beda1bc896c788c245e59f1463f3cedae4e57f73403f8741f7d2f9027f9",
+    "allowlisted_initial_requests": 6,
+    "canvas_requests": 0,
+    "image_requests": 0,
+    "non_allowlisted_requests": 0,
+    "redirect_attempts": 0,
+    "redirect_followed": 0,
+    "redirect_log": [],
+    "request_log": [
+      {
+        "content_type": "application/xml",
+        "method": "GET",
+        "resource_class": "CATALOGUE_METADATA",
+        "response_url": "https://gallica.bnf.fr/services/OAIRecord?ark=btv1b6000517p",
+        "sequence": 1,
+        "source_id": "BNF_LAT6823_CATALOG",
+        "status": 200,
+        "url": "https://gallica.bnf.fr/services/OAIRecord?ark=btv1b6000517p"
+      },
+      {
+        "content_type": "application/json",
+        "method": "GET",
+        "resource_class": "IIIF_MANIFEST_METADATA",
+        "response_url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000517p/manifest.json",
+        "sequence": 2,
+        "source_id": "BNF_LAT6823_MANIFEST",
+        "status": 200,
+        "url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000517p/manifest.json"
+      },
+      {
+        "content_type": "application/json",
+        "method": "GET",
+        "resource_class": "CATALOGUE_METADATA",
+        "response_url": "https://alexandrine-bibnum.beauxartsparis.fr/api/items/223335",
+        "sequence": 3,
+        "source_id": "MASSON116_CATALOG",
+        "status": 200,
+        "url": "https://alexandrine-bibnum.beauxartsparis.fr/api/items/223335"
+      },
+      {
+        "content_type": "application/ld+json",
+        "method": "GET",
+        "resource_class": "IIIF_MANIFEST_METADATA",
+        "response_url": "https://alexandrine-bibnum.beauxartsparis.fr/iiif/2/223335/manifest",
+        "sequence": 4,
+        "source_id": "MASSON116_MANIFEST",
+        "status": 200,
+        "url": "https://alexandrine-bibnum.beauxartsparis.fr/iiif/2/223335/manifest"
+      },
+      {
+        "content_type": "application/json",
+        "method": "GET",
+        "resource_class": "CATALOGUE_METADATA",
+        "response_url": "https://searcharchives.bl.uk/catalog/040-002116409.json",
+        "sequence": 5,
+        "source_id": "SLOANE4016_CATALOG",
+        "status": 200,
+        "url": "https://searcharchives.bl.uk/catalog/040-002116409.json"
+      },
+      {
+        "content_type": "application/json",
+        "method": "GET",
+        "resource_class": "IIIF_MANIFEST_METADATA",
+        "response_url": "https://bl.digirati.io/iiif/ark:/81055/vdc_100165172997.0x000001",
+        "sequence": 6,
+        "source_id": "SLOANE4016_MANIFEST",
+        "status": 200,
+        "url": "https://bl.digirati.io/iiif/ark:/81055/vdc_100165172997.0x000001"
+      }
+    ],
+    "requests_completed": 6,
+    "requests_started": 6,
+    "resource_counts": {
+      "CATALOGUE_METADATA": 3,
+      "IIIF_MANIFEST_METADATA": 3
+    },
+    "target_requests": 0
+  },
+  "source_count": 6,
+  "sources": [
+    {
+      "binding_bytes": 2310,
+      "binding_mode": "BNF_OAI_RECORD_CANONICAL_V1",
+      "binding_sha256": "3a9e1d8ddad676b2554b63fcf3b5706e508e85cf07f9c691cad9a664206d5109",
+      "canvas_count": null,
+      "content_type": "application/xml",
+      "filename": "bnf_lat6823_catalog.xml",
+      "raw_bytes": 3050,
+      "raw_sha256": "99898684d77d4e5444861f5c1dcf8eef9c61871a1b43ee3e6306522304b8bf31",
+      "source_id": "BNF_LAT6823_CATALOG",
+      "source_kind": "OFFICIAL_CATALOGUE_METADATA",
+      "url": "https://gallica.bnf.fr/services/OAIRecord?ark=btv1b6000517p",
+      "witness_id": "BNF_LAT6823"
+    },
+    {
+      "binding_bytes": 530561,
+      "binding_mode": "RAW_BYTES",
+      "binding_sha256": "f22ea8cf697c5598f914bd92e101dd2da62a60df59561d67ef7384d5f5de7187",
+      "canvas_count": 513,
+      "content_type": "application/json",
+      "filename": "bnf_lat6823_manifest.json",
+      "raw_bytes": 530561,
+      "raw_sha256": "f22ea8cf697c5598f914bd92e101dd2da62a60df59561d67ef7384d5f5de7187",
+      "source_id": "BNF_LAT6823_MANIFEST",
+      "source_kind": "OFFICIAL_IIIF_MANIFEST",
+      "url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000517p/manifest.json",
+      "witness_id": "BNF_LAT6823"
+    },
+    {
+      "binding_bytes": 21272,
+      "binding_mode": "RAW_BYTES",
+      "binding_sha256": "12a855c6f8bf5c7087d65cb605d31edcfd487b4b4ae61343c45efe21d2024385",
+      "canvas_count": null,
+      "content_type": "application/json",
+      "filename": "masson116_catalog.json",
+      "raw_bytes": 21272,
+      "raw_sha256": "12a855c6f8bf5c7087d65cb605d31edcfd487b4b4ae61343c45efe21d2024385",
+      "source_id": "MASSON116_CATALOG",
+      "source_kind": "OFFICIAL_CATALOGUE_METADATA",
+      "url": "https://alexandrine-bibnum.beauxartsparis.fr/api/items/223335",
+      "witness_id": "MASSON116"
+    },
+    {
+      "binding_bytes": 178164,
+      "binding_mode": "RAW_BYTES",
+      "binding_sha256": "846e000f5a05a1e232b7f39b40a22c10ca116c198a9397604807e5f0d88f074f",
+      "canvas_count": 187,
+      "content_type": "application/ld+json",
+      "filename": "masson116_manifest.json",
+      "raw_bytes": 178164,
+      "raw_sha256": "846e000f5a05a1e232b7f39b40a22c10ca116c198a9397604807e5f0d88f074f",
+      "source_id": "MASSON116_MANIFEST",
+      "source_kind": "OFFICIAL_IIIF_MANIFEST",
+      "url": "https://alexandrine-bibnum.beauxartsparis.fr/iiif/2/223335/manifest",
+      "witness_id": "MASSON116"
+    },
+    {
+      "binding_bytes": 17807,
+      "binding_mode": "RAW_BYTES",
+      "binding_sha256": "eba2603f877c6b7c3dbe5222e95159caa0537cec9938aba728658eaaabb147db",
+      "canvas_count": null,
+      "content_type": "application/json",
+      "filename": "sloane4016_catalog.json",
+      "raw_bytes": 17807,
+      "raw_sha256": "eba2603f877c6b7c3dbe5222e95159caa0537cec9938aba728658eaaabb147db",
+      "source_id": "SLOANE4016_CATALOG",
+      "source_kind": "OFFICIAL_CATALOGUE_METADATA",
+      "url": "https://searcharchives.bl.uk/catalog/040-002116409.json",
+      "witness_id": "SLOANE4016"
+    },
+    {
+      "binding_bytes": 494013,
+      "binding_mode": "RAW_BYTES",
+      "binding_sha256": "607f98404cb733caf4bacb70047175aaf88e75735af18436511a8eee1cc55e10",
+      "canvas_count": 235,
+      "content_type": "application/json",
+      "filename": "sloane4016_manifest.json",
+      "raw_bytes": 494013,
+      "raw_sha256": "607f98404cb733caf4bacb70047175aaf88e75735af18436511a8eee1cc55e10",
+      "source_id": "SLOANE4016_MANIFEST",
+      "source_kind": "OFFICIAL_IIIF_MANIFEST",
+      "url": "https://bl.digirati.io/iiif/ark:/81055/vdc_100165172997.0x000001",
+      "witness_id": "SLOANE4016"
+    }
+  ],
+  "target_requests": 0,
+  "witness_count": 3
+}

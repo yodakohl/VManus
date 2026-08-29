@@ -6,9 +6,9 @@ The authoritative scientific status remains
 
 ## Inventory
 
-- Experiments indexed: **614**
-- Experiment-associated tracked files: **9,573** (1.0 GiB)
-- Structured GDT337+ experiments: **279**
+- Experiments indexed: **616**
+- Experiment-associated tracked files: **9,610** (1.0 GiB)
+- Structured GDT337+ experiments: **281**
 - IDs without a ledger entry: **165**
 - Full machine-readable paths, manifests, dependencies, questions, and claim ceilings: [`EXPERIMENT_INDEX.tsv`](EXPERIMENT_INDEX.tsv)
   (`UNREGISTERED` means absent from the authoritative active ledger; it does not mean that files or branch-local results are absent.)
@@ -20,7 +20,9 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT616 | GDT616_joint_child_feasible_binding | `REGISTERED_UNSCORED` | [report](../experiments/yolo/gdt616_joint_child_feasible_binding/PREREGISTRATION.md) | 14 | 160.0 KiB | 4 | STRUCTURED_YOLO |
+| GDT618 | GDT618_four_witness_herbal_concordance | `REPOSITORY_CHECK_ROUTE_CAP_CORRECTION` | [report](../experiments/yolo/gdt618_four_witness_herbal_concordance/PREREGISTRATION.md) | 9 | 55.4 KiB | 1 | STRUCTURED_YOLO |
+| GDT617 | GDT617_triple_herbal_plaintext_transducer | `HIGHER_EVIDENCE_LOCATOR_SET_CORRECTION` | [report](../experiments/yolo/gdt617_triple_herbal_plaintext_transducer/PREREGISTRATION.md) | 18 | 1.3 MiB | 2 | STRUCTURED_YOLO |
+| GDT616 | GDT616_joint_child_feasible_binding | `POST_TERMINAL_MINIMUM_GATE_RELAXATION_PASS` | [report](../experiments/yolo/gdt616_joint_child_feasible_binding/REPORT.md) | 24 | 393.5 KiB | 4 | STRUCTURED_YOLO |
 | GDT615 | GDT615_joint_output_permutation_recovery | `MAPPING_BOUND_PASS__FULL_WORLD_INFEASIBLE` | [report](../experiments/yolo/gdt615_joint_output_permutation_recovery/REPORT.md) | 54 | 1.5 MiB | 4 | STRUCTURED_YOLO |
 | GDT614 | GDT614_core_run_macro_recovery | `TRUTH_GENERATOR_INFEASIBLE` | [report](../experiments/yolo/gdt614_core_run_macro_recovery/REPORT.md) | 19 | 98.6 KiB | 4 | STRUCTURED_YOLO |
 | GDT613 | GDT613_observation_complete_fst34_recovery | `MODEL_SCOPE_UNDERSPECIFIED_OR_INFEASIBLE` | [report](../experiments/yolo/gdt613_observation_complete_fst34_recovery/REPORT.md) | 53 | 2.0 MiB | 3 | STRUCTURED_YOLO |

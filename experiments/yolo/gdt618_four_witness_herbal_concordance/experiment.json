@@ -1,0 +1,89 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "No large artifact is retained. The 62,861,131-byte Wagner PDF remains external and is bound by exact URL, byte count, and SHA-256 only.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "This registration binds only five developmental four-witness source locator rows, exact historical-source identities, five Latin 6823 canvas/service identities, and a future manual double-transcription contract. It opens no source image or Voynich material, verifies no four-witness join, and assigns no Voynich sign, word, language, object, operation, plant, plaintext, or meaning.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt618_four_witness_herbal_concordance/src/run.py --check",
+    "validate": "python3 experiments/yolo/gdt618_four_witness_herbal_concordance/src/validate.py"
+  },
+  "created": "2026-08-29",
+  "dependencies": [
+    "GDT617"
+  ],
+  "experiment_id": "GDT618",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt617_triple_herbal_plaintext_transducer/artifacts/REGISTERED_SOURCE_BINDINGS.json",
+      "role": "inherited GDT617 exact six-response official source registry",
+      "sha256": "f4bffe9a24931a175c726a9e0cc1dca9c73cbd69053c78cb1345357a6cc58089"
+    },
+    {
+      "path": "experiments/yolo/gdt617_triple_herbal_plaintext_transducer/artifacts/REGISTERED_VALIDATION.json",
+      "role": "inherited GDT617 42/42 source-binding and no-target validation",
+      "sha256": "333b94e54f3426021f9513a6f71e2ef8204bca46fa93196603783fc9d5896762"
+    },
+    {
+      "path": "experiments/yolo/gdt617_triple_herbal_plaintext_transducer/artifacts/source_freeze/bnf_lat6823_manifest.json",
+      "role": "locally frozen official BnF manifest used only to verify five exact Latin 6823 canvas and image-service identities; no canvas or image fetched",
+      "sha256": "f22ea8cf697c5598f914bd92e101dd2da62a60df59561d67ef7384d5f5de7187"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt618_four_witness_herbal_concordance/METHOD.md",
+      "role": "source-only witness roles, manual reading protocol, token contract, and decision ceiling",
+      "sha256": "553a619fd0d3712e6309412341951ade3b227ad76e3ca909e8d80c111f02089d"
+    },
+    {
+      "path": "experiments/yolo/gdt618_four_witness_herbal_concordance/PREREGISTRATION.md",
+      "role": "developmental exposure statement, frozen five-row deck, and no-target access boundary",
+      "sha256": "3a06a57c4f50e8fde57195e48400797dfdb62e4748da913397155d645fed4c33"
+    },
+    {
+      "path": "experiments/yolo/gdt618_four_witness_herbal_concordance/README.md",
+      "role": "experiment entry point and source-plan-only status",
+      "sha256": "e598106e963752ed218cd1304c1e7106504e9a5fdb95cd54d137fd0835330165"
+    },
+    {
+      "path": "experiments/yolo/gdt618_four_witness_herbal_concordance/artifacts/README.md",
+      "role": "compact artifact inventory and explicit no-image/no-PDF notice",
+      "sha256": "e155a685061ea9ada9a2de849c2156c9c7439126d836fa4d3e12fe266ce7e9f1"
+    },
+    {
+      "path": "experiments/yolo/gdt618_four_witness_herbal_concordance/artifacts/REGISTERED_SOURCE_PLAN.json",
+      "role": "canonical source identities, exact URLs and hashes, five locators/canvas bindings, witness roles, and transcription contract",
+      "sha256": "6cd4bca1e4d7877471b39b19444bc17298a0d64134b7f89a126dd35fe25ff6d1"
+    },
+    {
+      "path": "experiments/yolo/gdt618_four_witness_herbal_concordance/src/run.py",
+      "role": "deterministic registration-plan builder and byte-for-byte checker",
+      "sha256": "8fca4da35bb53e17b266bf1749e12e5c22f12fba9abbf413de2baae49b8344d4"
+    },
+    {
+      "path": "experiments/yolo/gdt618_four_witness_herbal_concordance/src/validate.py",
+      "role": "offline source-role, canvas-binding, access, manifest, and reproducibility validator",
+      "sha256": "99d540821629554b19c27d1a1fb8effc453f33efb11424fcc89f5c89c6cb4620"
+    },
+    {
+      "path": "experiments/yolo/gdt618_four_witness_herbal_concordance/artifacts/REGISTERED_VALIDATION.json",
+      "role": "deterministic source-plan and manifest audit",
+      "sha256": "7da058e7231fa673e7bdc34d21dd4f5e2848c521c4b86892f7fcf4c8b2b5df27"
+    }
+  ],
+  "question": "Can five exposed developmental locator leads be converted into verified four-witness herbal entries with Latin 6823 as the sole exact heading-plus-twelve-token scoring text and Clm 28531 as a separate manual-reading control?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "four_witness_herbal_concordance",
+  "status": "SOURCE_PLAN_REGISTERED__NO_IMAGES_OPENED",
+  "title": "Four-witness herbal source concordance",
+  "updated": "2026-08-29",
+  "validation": {
+    "artifact": "experiments/yolo/gdt618_four_witness_herbal_concordance/artifacts/REGISTERED_VALIDATION.json",
+    "status": "PASS"
+  }
+}

@@ -46,7 +46,11 @@ def main() -> int:
     train = set(train_path.read_text(encoding="ascii").splitlines())
 
     check("experiment_id", manifest.get("experiment_id") == "GDT616")
-    check("registered_status", manifest.get("status") == "REGISTERED_UNSCORED")
+    check(
+        "registered_status",
+        manifest.get("status")
+        in {"REGISTERED_UNSCORED", "NO_JOINT_CHILD_FEASIBLE_BINDING"},
+    )
     check("sealed_f84", manifest.get("sealed_data", {}).get("f84") == "FORBIDDEN")
     check("sealed_f84r", manifest.get("sealed_data", {}).get("f84r") == "FORBIDDEN")
     check("registration_schema", registered.get("schema") == "gdt616-joint-child-feasible-binding-registration-v1")

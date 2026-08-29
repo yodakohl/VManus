@@ -1,0 +1,167 @@
+{
+  "acquisition_scope": "OFFICIAL_CATALOGUE_AND_IIIF_MANIFEST_BYTES_ONLY",
+  "decision_if_pass": "SOURCE_BINDING_PASS__TARGET_UNOPENED",
+  "downstream_gate": {
+    "discovery_folios": 4,
+    "held_content_words": 12,
+    "held_folios": 1,
+    "held_requirement": "EXACT_REGISTERED_LATIN_HEADING_PLUS_FIRST_TWELVE_CONTENT_WORDS",
+    "minimum_distinct_target_physical_folios": 5,
+    "model": "ONE_GLOBAL_PRIMITIVE_TO_ZERO_THROUGH_THREE_LATIN_LETTERS",
+    "no_context_keys": true,
+    "no_macros": true,
+    "no_page_or_folio_keys": true,
+    "source_witnesses_per_entry": 3
+  },
+  "experiment_id": "GDT617",
+  "forbidden_access": [
+    "VOYNICH_PAGE",
+    "VOYNICH_TRANSCRIPTION",
+    "F84",
+    "F84R",
+    "IIIF_CANVAS",
+    "IMAGE_BYTES",
+    "OCR",
+    "AUTOMATIC_IMAGE_CLASSIFICATION",
+    "TARGET_NAME_PAIRING"
+  ],
+  "max_bytes_per_response": 1000000,
+  "schema_version": 1,
+  "sources": [
+    {
+      "accept": "application/xml",
+      "binding_mode": "BNF_OAI_RECORD_CANONICAL_V1",
+      "expected_binding_bytes": 2310,
+      "expected_binding_sha256": "3a9e1d8ddad676b2554b63fcf3b5706e508e85cf07f9c691cad9a664206d5109",
+      "expected_content_type_prefixes": [
+        "application/xml",
+        "text/xml"
+      ],
+      "filename": "bnf_lat6823_catalog.xml",
+      "institution": "Bibliotheque_nationale_de_France",
+      "license_notice": "Catalogue metadata response identifies the manuscript as public domain; institution terms remain authoritative.",
+      "required_utf8_markers": [
+        "oai:bnf.fr:gallica/ark:/12148/btv1b6000517p",
+        "Bibliothèque nationale de France. Département des Manuscrits. Latin 6823",
+        "Liber de herbis et plantis"
+      ],
+      "source_id": "BNF_LAT6823_CATALOG",
+      "source_kind": "OFFICIAL_CATALOGUE_METADATA",
+      "url": "https://gallica.bnf.fr/services/OAIRecord?ark=btv1b6000517p",
+      "witness_id": "BNF_LAT6823"
+    },
+    {
+      "accept": "application/json, application/ld+json",
+      "binding_mode": "RAW_BYTES",
+      "expected_binding_bytes": 530561,
+      "expected_binding_sha256": "f22ea8cf697c5598f914bd92e101dd2da62a60df59561d67ef7384d5f5de7187",
+      "expected_canvas_count": 513,
+      "expected_content_type_prefixes": [
+        "application/json",
+        "application/ld+json"
+      ],
+      "filename": "bnf_lat6823_manifest.json",
+      "institution": "Bibliotheque_nationale_de_France",
+      "license_notice": "Gallica conditions: https://gallica.bnf.fr/html/und/conditions-dutilisation-des-contenus-de-gallica",
+      "required_utf8_markers": [
+        "Bibliothèque nationale de France. Département des Manuscrits. Latin 6823",
+        "btv1b6000517p",
+        "manifest.json"
+      ],
+      "source_id": "BNF_LAT6823_MANIFEST",
+      "source_kind": "OFFICIAL_IIIF_MANIFEST",
+      "url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000517p/manifest.json",
+      "witness_id": "BNF_LAT6823"
+    },
+    {
+      "accept": "application/json",
+      "binding_mode": "RAW_BYTES",
+      "expected_binding_bytes": 21272,
+      "expected_binding_sha256": "12a855c6f8bf5c7087d65cb605d31edcfd487b4b4ae61343c45efe21d2024385",
+      "expected_content_type_prefixes": [
+        "application/json"
+      ],
+      "filename": "masson116_catalog.json",
+      "institution": "Beaux_Arts_de_Paris",
+      "license_notice": "Official Beaux-Arts Paris digital-library item metadata; institution terms remain authoritative.",
+      "required_utf8_markers": [
+        "Ms.Mas 116 Tractatus de herbis",
+        "223335",
+        "Lat.6823"
+      ],
+      "source_id": "MASSON116_CATALOG",
+      "source_kind": "OFFICIAL_CATALOGUE_METADATA",
+      "url": "https://alexandrine-bibnum.beauxartsparis.fr/api/items/223335",
+      "witness_id": "MASSON116"
+    },
+    {
+      "accept": "application/json, application/ld+json",
+      "binding_mode": "RAW_BYTES",
+      "expected_binding_bytes": 178164,
+      "expected_binding_sha256": "846e000f5a05a1e232b7f39b40a22c10ca116c198a9397604807e5f0d88f074f",
+      "expected_canvas_count": 187,
+      "expected_content_type_prefixes": [
+        "application/json",
+        "application/ld+json"
+      ],
+      "filename": "masson116_manifest.json",
+      "institution": "Beaux_Arts_de_Paris",
+      "license_notice": "Manifest declares http://rightsstatements.org/vocab/CNE/1.0/.",
+      "required_utf8_markers": [
+        "Ms.Mas 116 Tractatus de herbis",
+        "223335",
+        "rightsstatements.org/vocab/CNE/1.0"
+      ],
+      "source_id": "MASSON116_MANIFEST",
+      "source_kind": "OFFICIAL_IIIF_MANIFEST",
+      "url": "https://alexandrine-bibnum.beauxartsparis.fr/iiif/2/223335/manifest",
+      "witness_id": "MASSON116"
+    },
+    {
+      "accept": "application/json",
+      "binding_mode": "RAW_BYTES",
+      "expected_binding_bytes": 17807,
+      "expected_binding_sha256": "eba2603f877c6b7c3dbe5222e95159caa0537cec9938aba728658eaaabb147db",
+      "expected_content_type_prefixes": [
+        "application/json"
+      ],
+      "filename": "sloane4016_catalog.json",
+      "institution": "British_Library",
+      "license_notice": "British Library catalogue text is CC BY except where otherwise stated.",
+      "required_utf8_markers": [
+        "Sloane MS 4016",
+        "040-002116409",
+        "vdc_100165172997.0x000001",
+        "Masson 116"
+      ],
+      "source_id": "SLOANE4016_CATALOG",
+      "source_kind": "OFFICIAL_CATALOGUE_METADATA",
+      "url": "https://searcharchives.bl.uk/catalog/040-002116409.json",
+      "witness_id": "SLOANE4016"
+    },
+    {
+      "accept": "application/json, application/ld+json",
+      "binding_mode": "RAW_BYTES",
+      "expected_binding_bytes": 494013,
+      "expected_binding_sha256": "607f98404cb733caf4bacb70047175aaf88e75735af18436511a8eee1cc55e10",
+      "expected_canvas_count": 235,
+      "expected_content_type_prefixes": [
+        "application/json",
+        "application/ld+json"
+      ],
+      "filename": "sloane4016_manifest.json",
+      "institution": "British_Library",
+      "license_notice": "Manifest usage terms: public domain in most countries other than the UK; https://www.bl.uk/help/how-to-reuse-images-of-unpublished-manuscripts",
+      "required_utf8_markers": [
+        "Sloane MS 4016",
+        "vdc_100165172997.0x000001",
+        "Public Domain in most countries other than the UK"
+      ],
+      "source_id": "SLOANE4016_MANIFEST",
+      "source_kind": "OFFICIAL_IIIF_MANIFEST",
+      "url": "https://bl.digirati.io/iiif/ark:/81055/vdc_100165172997.0x000001",
+      "witness_id": "SLOANE4016"
+    }
+  ],
+  "user_agent": "VManus-GDT617-source-freeze/1.0 (metadata-only)"
+}

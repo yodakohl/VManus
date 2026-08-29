@@ -1,0 +1,68 @@
+{
+  "access": {
+    "f84_or_f84r_opened": false,
+    "held_or_lm_confirm_opened": false,
+    "voynich_target_or_meaning_opened": false
+  },
+  "claim_ceiling": "Synthetic train-only necessary recursive-span world; no Voynich unit, sound, language, word, plaintext, object, operation, or meaning.",
+  "decision": "NO_JOINT_CHILD_FEASIBLE_BINDING",
+  "diagnostic_relaxation_status": "NOT_RUN_AFTER_TERMINAL_STRICT_UNSAT",
+  "exact_boundary_queries": [
+    {
+      "paid_child_span_violations_equal": 0,
+      "status": "UNSAT"
+    }
+  ],
+  "input_paths": {
+    "gdt615_terminal": "experiments/yolo/gdt615_joint_output_permutation_recovery/artifacts/stage1/STAGE1_RESULT.json",
+    "gdt616_registration": "experiments/yolo/gdt616_joint_child_feasible_binding/artifacts/REGISTERED_SEARCH.json",
+    "merge_tree": "experiments/yolo/gdt608_compositional_stem_orientation/artifacts/merge_tree.tsv",
+    "registered_model": "experiments/yolo/gdt614_core_run_macro_recovery/artifacts/REGISTERED_MODEL.json",
+    "registered_search": "experiments/yolo/gdt615_joint_output_permutation_recovery/artifacts/REGISTERED_SEARCH.json",
+    "registered_transitions": "experiments/yolo/gdt614_core_run_macro_recovery/artifacts/REGISTERED_TRANSITIONS.tsv",
+    "train_substrings": "experiments/yolo/gdt615_joint_output_permutation_recovery/artifacts/REGISTERED_TRAIN_SUBSTRINGS.txt"
+  },
+  "input_sha256": {
+    "gdt615_terminal": "f9f1e0ee8096d191ab454971c1e6218fed29586881d6cafbc9b790bff4332f3e",
+    "gdt616_registration": "281fe360e6e3eda19323f5e62a99fe4822546b136f7ca91b85fdf4552e565aae",
+    "merge_tree": "2098c71be9da13b483cf2561e06412276d8c60aa32e72520e8877f8f5d53090a",
+    "registered_model": "ed841dc254a961650a8bda8bdc6024b67655f6bdc96e5dab2aec02f1686ecc42",
+    "registered_search": "138cb3860a9927e8095534b293836271797a654e5e2797e12b0fadb0689e2089",
+    "registered_transitions": "bf26bfeaa258a65e3c22a8e035cf6ddec30557307ebc9c7619c662b12324271e",
+    "train_substrings": "5b6859d8656f63cf8e8cf89221ae8ff1dea345e135a6cd012248b9b4c4ff14a9"
+  },
+  "minimum_paid_child_span_violations": null,
+  "model_counts": {
+    "assertions_before_query_fixes": 1281,
+    "effective_value_universe": 7740,
+    "merge_nodes": 64,
+    "paid_cards": 8,
+    "primitive_cards": 34,
+    "primitives": 34,
+    "train_relation_tuples": 23295,
+    "train_substrings": 28101
+  },
+  "omitted_stricter_constraints": [
+    "ordered WORD/CORE_RUN grammar and complete legal parses",
+    "macro LEFT_HOST/RIGHT_HOST licenses except qok paid-macro prohibition",
+    "eight-train-type scored-card exposure floors",
+    "multiplicity-preserving labelled traces and nonoverlapping 98-unit tilings",
+    "21 transitions, focal-incidence rank, and null-mass bounds",
+    "W1/W2 generation, held, LM-confirm, oracle, and blind recovery"
+  ],
+  "schema": "gdt616-independent-joint-child-bound-v1",
+  "solver": {
+    "backend": "z3 finite-domain integer/Boolean tables",
+    "deterministic_greedy_witness_order": [
+      "registered strict paid-child span constraints fixed",
+      "primitive card IDs in registered primitive order",
+      "ascending (merge rank, paid card ID) pair sequence"
+    ],
+    "query_count": 1,
+    "sat_queries": 0,
+    "unsat_queries": 1,
+    "z3_version": "4.15.3"
+  },
+  "strict_joint_child_span_status": "UNSAT",
+  "witness": null
+}

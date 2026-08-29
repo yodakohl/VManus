@@ -1,0 +1,587 @@
+{
+  "counts": {
+    "merges": 64,
+    "paid_cards": 8,
+    "primitives": 34,
+    "train_substrings": 28101
+  },
+  "decision": "NO_JOINT_CHILD_FEASIBLE_BINDING",
+  "input_sha256": {
+    "GDT616_REGISTERED_SEARCH.json": "281fe360e6e3eda19323f5e62a99fe4822546b136f7ca91b85fdf4552e565aae",
+    "REGISTERED_MODEL.json": "ed841dc254a961650a8bda8bdc6024b67655f6bdc96e5dab2aec02f1686ecc42",
+    "REGISTERED_TRAIN_SUBSTRINGS.txt": "5b6859d8656f63cf8e8cf89221ae8ff1dea345e135a6cd012248b9b4c4ff14a9",
+    "merge_tree.tsv": "2098c71be9da13b483cf2561e06412276d8c60aa32e72520e8877f8f5d53090a"
+  },
+  "queries": [
+    {
+      "constraint": {},
+      "phase": "existence",
+      "query": 1,
+      "status": "unsat"
+    }
+  ],
+  "query_count": 1,
+  "schema": "gdt616-primary-joint-child-feasible-bound-v1",
+  "scope": {
+    "deferred": [
+      "host-side macro placement except the static qok prohibition",
+      "full grammar and ordered multiplicity-preserving parses",
+      "nonoverlapping 98-unit tilings and transition exposure",
+      "frequency/exposure objectives and three-world construction"
+    ],
+    "included": [
+      "complete same-role primitive/output bijection",
+      "exactly eight distinct paid merge locations via a complete paid-card bijection",
+      "recursive directed left-to-right effective outputs",
+      "every one of 64 child compositions in TRAIN_SUBSTRINGS",
+      "every one of 64 effective merge outputs nonempty and in TRAIN_SUBSTRINGS",
+      "paid output differs from its child composition",
+      "qok paid-macro prohibition"
+    ],
+    "kind": "permissive necessary relaxation",
+    "sat_consequence": "The full Stage-A-feasible space may enter a joint Stage-B search. The canonical witness does not freeze a mapping or paid assignment for W0.",
+    "semantic_claim": "none",
+    "unsat_consequence": "The stricter inherited world is infeasible because every omitted condition can only remove assignments."
+  },
+  "solver": {
+    "name": "Z3",
+    "version": "4.15.3"
+  },
+  "source_sha256": "f99785892749ddafc999b8bb2145ee67cdfe5b7c75635012c271ee140c3dc381",
+  "structural_certificate": {
+    "certificate_sha256": "c3edc62413379fbefa046353558202be097ec84d7bfe0076892e145d806c43d0",
+    "model": "EXACT_FINITE_TRAIN_ONLY_NECESSARY_STAGE_A",
+    "relation_rows_total": 23295,
+    "relations": [
+      {
+        "allowed_child_rows": 233,
+        "child_domain_size": 233,
+        "effective_domain_size": 241,
+        "merge": "dy",
+        "rank": 1,
+        "relation_sha256": "8c8cf5943ac84376f2f6eba3d7c8800b21a1f0f6a68e1263719df1d47079481c"
+      },
+      {
+        "allowed_child_rows": 233,
+        "child_domain_size": 233,
+        "effective_domain_size": 241,
+        "merge": "ok",
+        "rank": 2,
+        "relation_sha256": "8c8cf5943ac84376f2f6eba3d7c8800b21a1f0f6a68e1263719df1d47079481c"
+      },
+      {
+        "allowed_child_rows": 17,
+        "child_domain_size": 17,
+        "effective_domain_size": 23,
+        "merge": "ol",
+        "rank": 3,
+        "relation_sha256": "34f6278ead3a5fda8f12199e2e116bcd8a2e95dae49f6818a3cd238464410bc6"
+      },
+      {
+        "allowed_child_rows": 28,
+        "child_domain_size": 28,
+        "effective_domain_size": 36,
+        "merge": "aN",
+        "rank": 4,
+        "relation_sha256": "86fe6722684ff226def46add58623ffc014d7bdf8f441a3f0757770d841800c2"
+      },
+      {
+        "allowed_child_rows": 18,
+        "child_domain_size": 18,
+        "effective_domain_size": 26,
+        "merge": "Ce",
+        "rank": 5,
+        "relation_sha256": "4a3e5bef1856e32c792274fa9be1b46dc720e13f3ddadebeb239744ff1e54151"
+      },
+      {
+        "allowed_child_rows": 233,
+        "child_domain_size": 233,
+        "effective_domain_size": 241,
+        "merge": "ot",
+        "rank": 6,
+        "relation_sha256": "8c8cf5943ac84376f2f6eba3d7c8800b21a1f0f6a68e1263719df1d47079481c"
+      },
+      {
+        "allowed_child_rows": 1455,
+        "child_domain_size": 1455,
+        "effective_domain_size": 1457,
+        "merge": "qok",
+        "rank": 7,
+        "relation_sha256": "00054cca20b598f4f257612e083128d6dfbdb032aab52d3b01b83eea1d9edbff"
+      },
+      {
+        "allowed_child_rows": 28,
+        "child_domain_size": 28,
+        "effective_domain_size": 36,
+        "merge": "ar",
+        "rank": 8,
+        "relation_sha256": "86fe6722684ff226def46add58623ffc014d7bdf8f441a3f0757770d841800c2"
+      },
+      {
+        "allowed_child_rows": 17,
+        "child_domain_size": 17,
+        "effective_domain_size": 23,
+        "merge": "al",
+        "rank": 9,
+        "relation_sha256": "34f6278ead3a5fda8f12199e2e116bcd8a2e95dae49f6818a3cd238464410bc6"
+      },
+      {
+        "allowed_child_rows": 28,
+        "child_domain_size": 28,
+        "effective_domain_size": 36,
+        "merge": "or",
+        "rank": 10,
+        "relation_sha256": "86fe6722684ff226def46add58623ffc014d7bdf8f441a3f0757770d841800c2"
+      },
+      {
+        "allowed_child_rows": 21,
+        "child_domain_size": 21,
+        "effective_domain_size": 29,
+        "merge": "Se",
+        "rank": 11,
+        "relation_sha256": "4924d8930e9bdaa88d20290f3dbf92fd9f0c353ef2eccf4952fa76fc1983dee6"
+      },
+      {
+        "allowed_child_rows": 35,
+        "child_domain_size": 35,
+        "effective_domain_size": 43,
+        "merge": "aI",
+        "rank": 12,
+        "relation_sha256": "5b10891ce9602609d95f205fd971847d8e1c6dc3b0329104758f3ba083a311cb"
+      },
+      {
+        "allowed_child_rows": 128,
+        "child_domain_size": 128,
+        "effective_domain_size": 135,
+        "merge": "daN",
+        "rank": 13,
+        "relation_sha256": "988b406e929d764d918952073520dbb43a512f859c5690c0645fac80583565c3"
+      },
+      {
+        "allowed_child_rows": 16,
+        "child_domain_size": 16,
+        "effective_domain_size": 24,
+        "merge": "Ey",
+        "rank": 14,
+        "relation_sha256": "d6efa8ed223f250077aa606b5361c6d0741376a6b1250b4d11ca0d9ad6d4f00e"
+      },
+      {
+        "allowed_child_rows": 1618,
+        "child_domain_size": 1618,
+        "effective_domain_size": 1622,
+        "merge": "Cedy",
+        "rank": 15,
+        "relation_sha256": "006858eab0aacebc6d8896332d04c795f37e411be75d372668674b7b678ae392"
+      },
+      {
+        "allowed_child_rows": 1455,
+        "child_domain_size": 1455,
+        "effective_domain_size": 1459,
+        "merge": "qot",
+        "rank": 16,
+        "relation_sha256": "00054cca20b598f4f257612e083128d6dfbdb032aab52d3b01b83eea1d9edbff"
+      },
+      {
+        "allowed_child_rows": 18,
+        "child_domain_size": 18,
+        "effective_domain_size": 26,
+        "merge": "Cy",
+        "rank": 17,
+        "relation_sha256": "4a3e5bef1856e32c792274fa9be1b46dc720e13f3ddadebeb239744ff1e54151"
+      },
+      {
+        "allowed_child_rows": 25,
+        "child_domain_size": 25,
+        "effective_domain_size": 33,
+        "merge": "Edy",
+        "rank": 18,
+        "relation_sha256": "4fbdbbcc204b6dc819dd3b846ed549d0f76f7e63e2df56fdb328f28dd16c0419"
+      },
+      {
+        "allowed_child_rows": 1455,
+        "child_domain_size": 1455,
+        "effective_domain_size": 1459,
+        "merge": "edy",
+        "rank": 19,
+        "relation_sha256": "00054cca20b598f4f257612e083128d6dfbdb032aab52d3b01b83eea1d9edbff"
+      },
+      {
+        "allowed_child_rows": 1455,
+        "child_domain_size": 1455,
+        "effective_domain_size": 1459,
+        "merge": "ody",
+        "rank": 20,
+        "relation_sha256": "00054cca20b598f4f257612e083128d6dfbdb032aab52d3b01b83eea1d9edbff"
+      },
+      {
+        "allowed_child_rows": 23,
+        "child_domain_size": 23,
+        "effective_domain_size": 23,
+        "merge": "Col",
+        "rank": 21,
+        "relation_sha256": "708a3941020bac890537f92cf5d3246ae63e193e1cdeed53a637e2dce0c5a82b"
+      },
+      {
+        "allowed_child_rows": 295,
+        "child_domain_size": 295,
+        "effective_domain_size": 303,
+        "merge": "Cey",
+        "rank": 22,
+        "relation_sha256": "7db29fb83bea50606827031928838e01641a741586f706667f5884052470fe8a"
+      },
+      {
+        "allowed_child_rows": 17,
+        "child_domain_size": 17,
+        "effective_domain_size": 23,
+        "merge": "ai",
+        "rank": 23,
+        "relation_sha256": "34f6278ead3a5fda8f12199e2e116bcd8a2e95dae49f6818a3cd238464410bc6"
+      },
+      {
+        "allowed_child_rows": 233,
+        "child_domain_size": 233,
+        "effective_domain_size": 241,
+        "merge": "ey",
+        "rank": 24,
+        "relation_sha256": "8c8cf5943ac84376f2f6eba3d7c8800b21a1f0f6a68e1263719df1d47079481c"
+      },
+      {
+        "allowed_child_rows": 233,
+        "child_domain_size": 233,
+        "effective_domain_size": 241,
+        "merge": "od",
+        "rank": 25,
+        "relation_sha256": "8c8cf5943ac84376f2f6eba3d7c8800b21a1f0f6a68e1263719df1d47079481c"
+      },
+      {
+        "allowed_child_rows": 269,
+        "child_domain_size": 268,
+        "effective_domain_size": 276,
+        "merge": "Sedy",
+        "rank": 26,
+        "relation_sha256": "6c642b33a8c0d52a00d57a3a40d9acf75cf79b97b56426a77df2de5039d889df"
+      },
+      {
+        "allowed_child_rows": 35,
+        "child_domain_size": 35,
+        "effective_domain_size": 43,
+        "merge": "am",
+        "rank": 27,
+        "relation_sha256": "5b10891ce9602609d95f205fd971847d8e1c6dc3b0329104758f3ba083a311cb"
+      },
+      {
+        "allowed_child_rows": 111,
+        "child_domain_size": 111,
+        "effective_domain_size": 119,
+        "merge": "olk",
+        "rank": 28,
+        "relation_sha256": "ff96c05bfc86c2431e4be20f06873a1779d48a38afc2ea1cdb69094dac73544a"
+      },
+      {
+        "allowed_child_rows": 233,
+        "child_domain_size": 233,
+        "effective_domain_size": 241,
+        "merge": "yk",
+        "rank": 29,
+        "relation_sha256": "8c8cf5943ac84376f2f6eba3d7c8800b21a1f0f6a68e1263719df1d47079481c"
+      },
+      {
+        "allowed_child_rows": 36,
+        "child_domain_size": 36,
+        "effective_domain_size": 36,
+        "merge": "Cor",
+        "rank": 30,
+        "relation_sha256": "a79f75bdcbb9b35ef0303168a98545a7ad0070ac1022f38644a6cd10ffecc75c"
+      },
+      {
+        "allowed_child_rows": 233,
+        "child_domain_size": 233,
+        "effective_domain_size": 241,
+        "merge": "yt",
+        "rank": 31,
+        "relation_sha256": "8c8cf5943ac84376f2f6eba3d7c8800b21a1f0f6a68e1263719df1d47079481c"
+      },
+      {
+        "allowed_child_rows": 233,
+        "child_domain_size": 233,
+        "effective_domain_size": 241,
+        "merge": "qo",
+        "rank": 32,
+        "relation_sha256": "8c8cf5943ac84376f2f6eba3d7c8800b21a1f0f6a68e1263719df1d47079481c"
+      },
+      {
+        "allowed_child_rows": 18,
+        "child_domain_size": 18,
+        "effective_domain_size": 26,
+        "merge": "Co",
+        "rank": 33,
+        "relation_sha256": "4a3e5bef1856e32c792274fa9be1b46dc720e13f3ddadebeb239744ff1e54151"
+      },
+      {
+        "allowed_child_rows": 130,
+        "child_domain_size": 130,
+        "effective_domain_size": 136,
+        "merge": "dal",
+        "rank": 34,
+        "relation_sha256": "26d4a5c188c9954f518be498a21f97eb413eac6830b3bf7210df1cd5b0b68e9d"
+      },
+      {
+        "allowed_child_rows": 128,
+        "child_domain_size": 128,
+        "effective_domain_size": 135,
+        "merge": "dar",
+        "rank": 35,
+        "relation_sha256": "988b406e929d764d918952073520dbb43a512f859c5690c0645fac80583565c3"
+      },
+      {
+        "allowed_child_rows": 241,
+        "child_domain_size": 241,
+        "effective_domain_size": 241,
+        "merge": "Cdy",
+        "rank": 36,
+        "relation_sha256": "9f2993f75e4f200b988cd981e786693966c6e659ac2c70477627a580207b8203"
+      },
+      {
+        "allowed_child_rows": 233,
+        "child_domain_size": 233,
+        "effective_domain_size": 241,
+        "merge": "Ky",
+        "rank": 37,
+        "relation_sha256": "8c8cf5943ac84376f2f6eba3d7c8800b21a1f0f6a68e1263719df1d47079481c"
+      },
+      {
+        "allowed_child_rows": 4,
+        "child_domain_size": 4,
+        "effective_domain_size": 12,
+        "merge": "air",
+        "rank": 38,
+        "relation_sha256": "3d119269056542c4820265eea7e897878f140737effa2ef4cf74299a2f317db1"
+      },
+      {
+        "allowed_child_rows": 24,
+        "child_domain_size": 24,
+        "effective_domain_size": 32,
+        "merge": "Ty",
+        "rank": 39,
+        "relation_sha256": "be56b7d08ad04daf14c9d1c2d06322e8508cb6db06156dcb37991153b58fcd29"
+      },
+      {
+        "allowed_child_rows": 130,
+        "child_domain_size": 130,
+        "effective_domain_size": 138,
+        "merge": "Sey",
+        "rank": 40,
+        "relation_sha256": "afbffbeac136cbb7a4feb52e626b3767104c42e12fad9870d26033e43c6a0bbf"
+      },
+      {
+        "allowed_child_rows": 233,
+        "child_domain_size": 233,
+        "effective_domain_size": 241,
+        "merge": "ky",
+        "rank": 41,
+        "relation_sha256": "8c8cf5943ac84376f2f6eba3d7c8800b21a1f0f6a68e1263719df1d47079481c"
+      },
+      {
+        "allowed_child_rows": 568,
+        "child_domain_size": 568,
+        "effective_domain_size": 576,
+        "merge": "qokaI",
+        "rank": 42,
+        "relation_sha256": "6c79b834abe2d107b00f30b4606dcc723c93f8ebcd522e29036a565de0b96a85"
+      },
+      {
+        "allowed_child_rows": 21,
+        "child_domain_size": 21,
+        "effective_domain_size": 29,
+        "merge": "So",
+        "rank": 43,
+        "relation_sha256": "4924d8930e9bdaa88d20290f3dbf92fd9f0c353ef2eccf4952fa76fc1983dee6"
+      },
+      {
+        "allowed_child_rows": 233,
+        "child_domain_size": 233,
+        "effective_domain_size": 241,
+        "merge": "op",
+        "rank": 44,
+        "relation_sha256": "8c8cf5943ac84376f2f6eba3d7c8800b21a1f0f6a68e1263719df1d47079481c"
+      },
+      {
+        "allowed_child_rows": 2,
+        "child_domain_size": 2,
+        "effective_domain_size": 10,
+        "merge": "Sol",
+        "rank": 45,
+        "relation_sha256": "4c06189fb58a15a4545efebded624e4a64e3ee12553ba8c49d1c81f3a57f68be"
+      },
+      {
+        "allowed_child_rows": 425,
+        "child_domain_size": 425,
+        "effective_domain_size": 433,
+        "merge": "qokaN",
+        "rank": 46,
+        "relation_sha256": "3895761046663d6cd6f03a612e9aca6afeeff2c54f3bdc4b4fa34b62d91706d8"
+      },
+      {
+        "allowed_child_rows": 359,
+        "child_domain_size": 359,
+        "effective_domain_size": 367,
+        "merge": "qokEdy",
+        "rank": 47,
+        "relation_sha256": "fe0ef861108c5a8f2cb35370c8b7bcbb2a5e017e46b530d9f067b6eeae2c5409"
+      },
+      {
+        "allowed_child_rows": 449,
+        "child_domain_size": 449,
+        "effective_domain_size": 457,
+        "merge": "qokal",
+        "rank": 48,
+        "relation_sha256": "bc7c9139b34705c0953f0425cb49483cee8f045774d7bebf5947ea66a0c54c46"
+      },
+      {
+        "allowed_child_rows": 4471,
+        "child_domain_size": 4470,
+        "effective_domain_size": 4478,
+        "merge": "qokedy",
+        "rank": 49,
+        "relation_sha256": "c2222dca04b7811b2433f2d7d96a7b238a6d01bf0db8a03afff0d2c2d63be61b"
+      },
+      {
+        "allowed_child_rows": 4,
+        "child_domain_size": 4,
+        "effective_domain_size": 12,
+        "merge": "CE",
+        "rank": 50,
+        "relation_sha256": "dd0740a43e83cc4c4c49b879794c62c306278de6e3d14b76de0a1d844c625b6a"
+      },
+      {
+        "allowed_child_rows": 130,
+        "child_domain_size": 130,
+        "effective_domain_size": 136,
+        "merge": "eol",
+        "rank": 51,
+        "relation_sha256": "26d4a5c188c9954f518be498a21f97eb413eac6830b3bf7210df1cd5b0b68e9d"
+      },
+      {
+        "allowed_child_rows": 21,
+        "child_domain_size": 21,
+        "effective_domain_size": 29,
+        "merge": "Sy",
+        "rank": 52,
+        "relation_sha256": "4924d8930e9bdaa88d20290f3dbf92fd9f0c353ef2eccf4952fa76fc1983dee6"
+      },
+      {
+        "allowed_child_rows": 24,
+        "child_domain_size": 24,
+        "effective_domain_size": 24,
+        "merge": "CEy",
+        "rank": 53,
+        "relation_sha256": "127fc66a68ab000fc485159e8c60c5158615e9018f4352523e494c11bf7f40ac"
+      },
+      {
+        "allowed_child_rows": 145,
+        "child_domain_size": 145,
+        "effective_domain_size": 151,
+        "merge": "Ceol",
+        "rank": 54,
+        "relation_sha256": "d1e17af0010cd25dc8d8fc5c6f78966646e4e754551ab38a6d841c065b2c3fee"
+      },
+      {
+        "allowed_child_rows": 187,
+        "child_domain_size": 187,
+        "effective_domain_size": 194,
+        "merge": "daI",
+        "rank": 55,
+        "relation_sha256": "802c7b8e0c3a0ea12c8fe8cba36b3352d42c667ca7886b8d9659fe27727f1e1c"
+      },
+      {
+        "allowed_child_rows": 233,
+        "child_domain_size": 233,
+        "effective_domain_size": 241,
+        "merge": "os",
+        "rank": 56,
+        "relation_sha256": "8c8cf5943ac84376f2f6eba3d7c8800b21a1f0f6a68e1263719df1d47079481c"
+      },
+      {
+        "allowed_child_rows": 130,
+        "child_domain_size": 130,
+        "effective_domain_size": 136,
+        "merge": "qol",
+        "rank": 57,
+        "relation_sha256": "26d4a5c188c9954f518be498a21f97eb413eac6830b3bf7210df1cd5b0b68e9d"
+      },
+      {
+        "allowed_child_rows": 20,
+        "child_domain_size": 20,
+        "effective_domain_size": 28,
+        "merge": "lk",
+        "rank": 58,
+        "relation_sha256": "d594b6ff6c3c3b9deda42c978bd79aabc9db799838d06a8c448e0d6d7a19960b"
+      },
+      {
+        "allowed_child_rows": 349,
+        "child_domain_size": 349,
+        "effective_domain_size": 357,
+        "merge": "qokEy",
+        "rank": 59,
+        "relation_sha256": "d7016759a656f14bd94bb2f1766a1762140b67f76489c79c02cae02f6b938021"
+      },
+      {
+        "allowed_child_rows": 338,
+        "child_domain_size": 338,
+        "effective_domain_size": 346,
+        "merge": "okaN",
+        "rank": 60,
+        "relation_sha256": "9657d92ee85784d8e1322c9df91c5d6a25e52585a96b90f87ed2fa7c77086791"
+      },
+      {
+        "allowed_child_rows": 330,
+        "child_domain_size": 330,
+        "effective_domain_size": 337,
+        "merge": "okal",
+        "rank": 61,
+        "relation_sha256": "0b754d7354e88cce97f1542ad79eddaf7ab8ddbae8562d129d7dcb7ff7e109fc"
+      },
+      {
+        "allowed_child_rows": 330,
+        "child_domain_size": 330,
+        "effective_domain_size": 337,
+        "merge": "otal",
+        "rank": 62,
+        "relation_sha256": "0b754d7354e88cce97f1542ad79eddaf7ab8ddbae8562d129d7dcb7ff7e109fc"
+      },
+      {
+        "allowed_child_rows": 1459,
+        "child_domain_size": 1459,
+        "effective_domain_size": 1464,
+        "merge": "oky",
+        "rank": 63,
+        "relation_sha256": "5122d7789aafb13d2eeb25f5d8acba1cf09335c9b490cf2b73f773f3b420dee5"
+      },
+      {
+        "allowed_child_rows": 1459,
+        "child_domain_size": 1459,
+        "effective_domain_size": 1464,
+        "merge": "oty",
+        "rank": 64,
+        "relation_sha256": "5122d7789aafb13d2eeb25f5d8acba1cf09335c9b490cf2b73f773f3b420dee5"
+      }
+    ],
+    "semantics": {
+      "child": "left effective output concatenated with right effective output",
+      "child_gate": "every merge child composition is an exact TRAIN substring",
+      "default_effective": "child composition",
+      "deferred_macro_gates": [
+        "LEFT_HOST",
+        "RIGHT_HOST",
+        "STANDALONE_OR_LEFT_HOST"
+      ],
+      "effective_gate": "every merge effective output is a nonempty exact TRAIN substring",
+      "paid_assignment": "each paid card exactly once; at most one paid card per merge",
+      "paid_effective": "assigned paid output, distinct from child composition",
+      "primitive_binding": "same-role bijection",
+      "static_macro_gate": "macro paid cards forbidden at exact merge qok"
+    },
+    "value_count": 7740,
+    "value_table_sha256": "4cb6f7939fcaa75ca55294c4d3593ea518e80d680e9d95922144026238f48afb"
+  }
+}
