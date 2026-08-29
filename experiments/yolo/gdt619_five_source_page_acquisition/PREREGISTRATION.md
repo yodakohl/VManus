@@ -116,3 +116,17 @@ The separately public `REDIRECT_AMENDMENT.md` and
 hashes and authorize only a new request to the literal canonical scan-26 URL.
 The saved manifest must be reused offline. Redirects, retries, fallback images,
 Stage B, source reading, and Voynich access remain forbidden by this amendment.
+
+## Post-correction primary observation and adjacent pair
+
+The canonical scan-26 request succeeded at 1200x1790, 443,716 bytes, SHA-256
+`2121ec99849a7aac5d19dd10779b0d503bbb1e0a6220915375b0688891d202f3`.
+Two manual readers agree that the required `Balsamus` rubric is visibly absent;
+the page instead labels the central plant `Borax.` and the lower animal `Bos.`.
+Wagner's bound appendix places `Balsamus` at f10v and `Borax` at f11r.
+
+The separately public `FALLBACK_AMENDMENT.md` and
+`artifacts/STAGE_A_PRIMARY_OBSERVATION.json` therefore authorize the original
+adjacent-pair branch at literal canonical sizes: scan 25 at 1200x1733, then scan
+27 at 1200x1847. Both must be acquired and manually read before a delta can be
+selected. The cumulative BSB cap becomes ten; Stage B remains forbidden.

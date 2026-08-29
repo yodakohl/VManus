@@ -26,6 +26,8 @@ PROFILE_REL = BASE_REL / "artifacts/REGISTERED_REQUEST_PROFILE.json"
 VALIDATION_REL = BASE_REL / "artifacts/REGISTERED_VALIDATION.json"
 REDIRECT_STOP_REL = BASE_REL / "artifacts/STAGE_A_REDIRECT_STOP.json"
 REDIRECT_AMENDMENT_REL = BASE_REL / "REDIRECT_AMENDMENT.md"
+PRIMARY_OBSERVATION_REL = BASE_REL / "artifacts/STAGE_A_PRIMARY_OBSERVATION.json"
+FALLBACK_AMENDMENT_REL = BASE_REL / "FALLBACK_AMENDMENT.md"
 MANIFEST_REL = BASE_REL / "experiment.json"
 ACQUIRE_REL = BASE_REL / "src/acquire_stage_a.py"
 REQUIREMENTS_REL = BASE_REL / "requirements.txt"
@@ -85,7 +87,7 @@ class Audit:
         return {
             "checks": self.rows,
             "decision": (
-                "STAGE_A_WIDTH_ONLY_REDIRECT_STOP__CANONICAL_PRIMARY_REGISTERED"
+                "PRIMARY_SCAN26_VISIBLY_ABSENT__CANONICAL_ADJACENT_PAIR_REGISTERED"
                 if self.passed
                 else "REGISTRATION_VALIDATION_FAILURE"
             ),
@@ -113,6 +115,9 @@ def main() -> int:
     profile = json.loads(profile_path.read_text(encoding="utf-8"))
     manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
     redirect_stop = json.loads((ROOT / REDIRECT_STOP_REL).read_text(encoding="utf-8"))
+    primary_observation = json.loads(
+        (ROOT / PRIMARY_OBSERVATION_REL).read_text(encoding="utf-8")
+    )
 
     audit.check(
         "profile_is_canonical_builder_output",
@@ -644,7 +649,7 @@ def main() -> int:
         "redirect_recovery_is_local_authorized_and_canonical_only",
         acquirer.CANONICAL_PRIMARY_THUMBNAIL_URL
         == "https://api.digitale-sammlungen.de/iiif/image/v3/bsb00107549_00026/full/1200,1790/0/default.jpg"
-        and acquirer.RECOVERY_ALLOWLIST == {acquirer.CANONICAL_PRIMARY_THUMBNAIL_URL}
+        and acquirer.CANONICAL_PRIMARY_THUMBNAIL_URL in acquirer.RECOVERY_ALLOWLIST
         and acquirer.PRIMARY_THUMBNAIL_URL not in acquirer.RECOVERY_ALLOWLIST
         and acquirer.PRE_RECOVERY_STATE_SHA256
         == redirect_stop["observed_execution"]["pre_recovery_state"]["sha256"]
@@ -652,6 +657,101 @@ def main() -> int:
         == redirect_stop["observed_execution"]["pre_recovery_journal"]["sha256"]
         and callable(acquirer.authorize_redirect_recovery)
         and callable(acquirer.resume_canonical_primary),
+    )
+    audit.check(
+        "canonical_fallback_amendment_code_exact",
+        acquirer.CANONICAL_FALLBACK_URLS
+        == [
+            "https://api.digitale-sammlungen.de/iiif/image/v3/bsb00107549_00025/full/1200,1733/0/default.jpg",
+            "https://api.digitale-sammlungen.de/iiif/image/v3/bsb00107549_00027/full/1200,1847/0/default.jpg",
+        ]
+        and acquirer.FALLBACK_AMENDMENT_STATE_SHA256
+        == primary_observation["observed_execution"]["pre_fallback_state"]["sha256"]
+        and acquirer.FALLBACK_AMENDMENT_JOURNAL_SHA256
+        == primary_observation["observed_execution"]["pre_fallback_journal"]["sha256"]
+        and acquirer.FALLBACK_AMENDMENT_PRIMARY_SHA256
+        == primary_observation["observed_execution"]["canonical_primary_success"]["raw_sha256"]
+        and callable(acquirer.authorize_canonical_fallback)
+        and callable(acquirer.resume_canonical_fallback)
+        and callable(acquirer.validate_canonical_fallback_authorization),
+    )
+    primary_manual = primary_observation.get("manual_observation", {})
+    primary_confirmation = primary_observation.get("manual_reading_confirmation", {})
+    primary_execution = primary_observation.get("observed_execution", {})
+    primary_success = primary_execution.get("canonical_primary_success", {})
+    fallback_amendment = primary_observation.get("fallback_amendment", {})
+    audit.check(
+        "primary_observation_identity_and_manual_consensus_exact",
+        primary_observation.get("schema_version") == 1
+        and primary_observation.get("experiment_id") == "GDT619"
+        and primary_observation.get("status")
+        == "PRIMARY_SCAN26_VISIBLY_ABSENT__CANONICAL_ADJACENT_PAIR_REGISTERED"
+        and primary_manual.get("scan") == 26
+        and primary_manual.get("balsamus_result") == "VISIBLY_ABSENT"
+        and primary_manual.get("automatic_classification_used") is False
+        and primary_manual.get("botanical_similarity_used") is False
+        and [row.get("reading") for row in primary_manual.get("observed_labels", [])]
+        == ["Borax.", "Bos."]
+        and primary_confirmation.get("reader_count") == 2
+        and primary_confirmation.get("result")
+        == "AGREEMENT_ON_VISIBLY_ABSENT_AND_BORAX_BOS_LABELS",
+    )
+    audit.check(
+        "primary_canonical_request_evidence_exact",
+        primary_execution.get("base_public_commit")
+        == "449f62dc830fded612a99356dee15f09fb132af3"
+        and primary_success.get("sequence") == 3
+        and primary_success.get("url") == acquirer.CANONICAL_PRIMARY_THUMBNAIL_URL
+        and primary_success.get("final_url") == acquirer.CANONICAL_PRIMARY_THUMBNAIL_URL
+        and primary_success.get("http_status") == 200
+        and primary_success.get("redirect_attempts") == 0
+        and primary_success.get("observed_bytes") == 443716
+        and primary_success.get("raw_sha256") == acquirer.FALLBACK_AMENDMENT_PRIMARY_SHA256
+        and primary_success.get("decoded_dimensions") == {"height": 1790, "width": 1200}
+        and primary_execution.get("pre_fallback_state")
+        == {
+            "request_sequence": 3,
+            "sha256": acquirer.FALLBACK_AMENDMENT_STATE_SHA256,
+            "status": "STOPPED_CANONICAL_PRIMARY_VISIBLY_ABSENT__FALLBACK_REQUIRES_PUBLIC_AMENDMENT",
+            "unresolved_attempt": None,
+        }
+        and primary_execution.get("pre_fallback_journal", {}).get("sha256")
+        == acquirer.FALLBACK_AMENDMENT_JOURNAL_SHA256,
+    )
+    fallback_requests = fallback_amendment.get("authorized_requests", [])
+    audit.check(
+        "primary_observation_canonical_pair_and_cap_exact",
+        [row.get("url") for row in fallback_requests] == acquirer.CANONICAL_FALLBACK_URLS
+        and fallback_amendment.get("authorization_basis")
+        == "ORIGINAL_RULE__PRIMARY_VISIBLY_ABSENT_AUTHORIZES_BOTH_ADJACENT_SCANS"
+        and [row.get("decoded_dimensions_required") for row in fallback_requests]
+        == [{"height": 1733, "width": 1200}, {"height": 1847, "width": 1200}]
+        and all(
+            row.get("url_sha256")
+            == hashlib.sha256(row.get("url", "").encode("utf-8")).hexdigest()
+            for row in fallback_requests
+        )
+        and fallback_amendment.get("manifest_refetch_authorized") is False
+        and fallback_amendment.get("follow_redirects") is False
+        and fallback_amendment.get("retries") == 0
+        and fallback_amendment.get(
+            "total_bsb_request_cap_including_consumed_redirect_and_future_stage_b"
+        )
+        == 10,
+    )
+    historical = primary_observation.get("historical_crosscheck", {})
+    audit.check(
+        "primary_observation_wagner_crosscheck_bounded",
+        historical.get("source_sha256")
+        == "8f57e7aaee4fe049ecf3fbf201ba2bf13bd6c446438ed59098afe2d28ee7a4fe"
+        and historical.get("used_pdf_page") == 220
+        and historical.get("wagner_rows")
+        == [
+            {"clm28531_folio": "f10v", "headword": "Balsamus"},
+            {"clm28531_folio": "f11r", "headword": "Borax"},
+        ]
+        and historical.get("working_inference")
+        == "POST_HOC_CONSISTENCY_ONLY__WAGNER_MAPS_BORAX_TO_F11R__NO_PAGE_IDENTITY_OR_SHIFT_SELECTED",
     )
     amendment = redirect_stop.get("amendment", {})
     observed = redirect_stop.get("observed_execution", {})
@@ -792,7 +892,7 @@ def main() -> int:
         manifest.get("experiment_id") == "GDT619"
         and manifest.get("slug") == "five_source_page_acquisition"
         and manifest.get("status")
-        == "STAGE_A_WIDTH_ONLY_REDIRECT_STOP__CANONICAL_PRIMARY_REGISTERED"
+        == "PRIMARY_SCAN26_VISIBLY_ABSENT__CANONICAL_ADJACENT_PAIR_REGISTERED"
         and manifest.get("sealed_data") == {"f84": "FORBIDDEN", "f84r": "FORBIDDEN"},
     )
     audit.check("manifest_dependency", manifest.get("dependencies") == ["GDT618"])
@@ -815,9 +915,11 @@ def main() -> int:
         str(BASE_REL / "METHOD.md"),
         str(BASE_REL / "PREREGISTRATION.md"),
         str(REDIRECT_AMENDMENT_REL),
+        str(FALLBACK_AMENDMENT_REL),
         str(BASE_REL / "artifacts/README.md"),
         str(PROFILE_REL),
         str(REDIRECT_STOP_REL),
+        str(PRIMARY_OBSERVATION_REL),
         str(VALIDATION_REL),
         str(ACQUIRE_REL),
         str(REQUIREMENTS_REL),

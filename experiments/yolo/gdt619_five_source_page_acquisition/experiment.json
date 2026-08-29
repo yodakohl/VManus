@@ -1,9 +1,9 @@
 {
   "artifact_policy": {
-    "large_artifact_justification": "No image or external metadata response bytes are retained in the repository. Four developmental metadata responses and the executed manifest response are represented by exact URL, byte count, and SHA-256; the redirect stop is a compact JSON artifact.",
+    "large_artifact_justification": "No image or external metadata response bytes are retained in the repository. Metadata responses and the private inspected scan-26 JPEG are represented by exact URL, byte count, dimensions, response metadata, and SHA-256; both amendments are compact JSON artifacts.",
     "max_inline_bytes": 5000000
   },
-  "claim_ceiling": "GDT619 has one exact manifest success and one width-only scan-26 redirect stop before follow-up or image-body read. The public correction authorizes one hash-bound canonical scan-26 request only. It verifies no source locator, opens no source image or Voynich material, and assigns no Voynich sign, word, language, plant, plaintext, or meaning.",
+  "claim_ceiling": "Canonical scan 26 is manually ruled out as the visible Balsamus rubric page and instead visibly labels Borax and Bos; Wagner supplies only a post-observation consistency clue for scan 25. The public hash-bound amendment authorizes only canonical scans 25 then 27. It has not selected a global shift, verified a source locator, opened Voynich material, or assigned a Voynich sign, word, language, plant, plaintext, or meaning.",
   "commands": {
     "run": "python3 experiments/yolo/gdt619_five_source_page_acquisition/src/run.py --check",
     "validate": "python3 experiments/yolo/gdt619_five_source_page_acquisition/src/validate.py"
@@ -24,7 +24,12 @@
     {
       "path": "experiments/yolo/gdt619_five_source_page_acquisition/METHOD.md",
       "role": "metadata mapping, calibration, full-page acquisition, logging, rights, and decision method",
-      "sha256": "5581b25c379a764d1335ba7d919a8dd2b4308c07e02c3621eefbd560e8313960"
+      "sha256": "4871353cdd1878792e25b99b0b00df725fd0136f598b4c3bf37251ea0aeae381"
+    },
+    {
+      "path": "experiments/yolo/gdt619_five_source_page_acquisition/FALLBACK_AMENDMENT.md",
+      "role": "public canonical scan-26 observation and adjacent-pair request amendment",
+      "sha256": "fb79bbc0db266bdf6bb7c0b9672c49f3d1e467529fca0cfa9f186f1c563df2ab"
     },
     {
       "path": "experiments/yolo/gdt619_five_source_page_acquisition/REDIRECT_AMENDMENT.md",
@@ -34,17 +39,17 @@
     {
       "path": "experiments/yolo/gdt619_five_source_page_acquisition/PREREGISTRATION.md",
       "role": "public two-stage request, access-boundary, calibration, and Stage-B lock",
-      "sha256": "fa32d82effe2b49db16e7f1f0f860fee5663ae0ead6adf0c260fe4595ae26769"
+      "sha256": "794cfbfec6e6ed998a25a233e72ecc5737de33d3806908d1b4f7e01248751091"
     },
     {
       "path": "experiments/yolo/gdt619_five_source_page_acquisition/README.md",
       "role": "compact profile status and entry point",
-      "sha256": "9fdca683bba9563d84966eaf316a666f0fad8fff1679123924e04160c7a18c77"
+      "sha256": "ad291dce1c8b38c552f896c5fa4e15ddcbe1d4285e0ab419efb3713b477e909d"
     },
     {
       "path": "experiments/yolo/gdt619_five_source_page_acquisition/artifacts/README.md",
       "role": "registration artifact inventory and no-image notice",
-      "sha256": "f8e520aa2967f167c3a747aef692ebb80dc0688cd40503e2f257bac85d66c9ff"
+      "sha256": "d7a0c404210f97394280745331912cefdeb0b4f1e07c9c3c59e141932ac2ebac"
     },
     {
       "path": "experiments/yolo/gdt619_five_source_page_acquisition/artifacts/REGISTERED_REQUEST_PROFILE.json",
@@ -57,6 +62,11 @@
       "sha256": "8d197e1b3f72b57984a6bcabb7cac1914d1d40883b1966c2c313b04c7ae3e542"
     },
     {
+      "path": "experiments/yolo/gdt619_five_source_page_acquisition/artifacts/STAGE_A_PRIMARY_OBSERVATION.json",
+      "role": "compact canonical scan-26 request, manual-reading, historical-crosscheck, and fallback-authorization evidence",
+      "sha256": "0286f1f56bd96a9da5d98984fdc8e970455efb622e8d13978a3ef6ab48404526"
+    },
+    {
       "path": "experiments/yolo/gdt619_five_source_page_acquisition/requirements.txt",
       "role": "exact Pillow runtime pin for full JPEG validation",
       "sha256": "2ea4551718a5b6779227e26956103791b7d0a87aca1610fbd4566d5da80988e3"
@@ -64,7 +74,7 @@
     {
       "path": "experiments/yolo/gdt619_five_source_page_acquisition/src/acquire_stage_a.py",
       "role": "inert-at-import Stage-A acquisition state machine with exact redirect recovery, private journaling, and offline self-test",
-      "sha256": "14549e0d02c9e956c1a468c50fa21ed96a134644dbdcff51d5cddb37adc54a40"
+      "sha256": "98258190d18718ca533e1acc13e445edf37d1446e1934745102b7714471cd78c"
     },
     {
       "path": "experiments/yolo/gdt619_five_source_page_acquisition/src/run.py",
@@ -74,12 +84,12 @@
     {
       "path": "experiments/yolo/gdt619_five_source_page_acquisition/src/validate.py",
       "role": "offline dependency, mapping, request, access, rights, manifest, and reproducibility validator",
-      "sha256": "84adedf16f8474460335e96ee1c1a3b9a73ca2e4b4eb5e976044759a98939241"
+      "sha256": "26adf58679dbd0eb985a8199b71ef08fb27d78704cfe809d19b6988c82b156f8"
     },
     {
       "path": "experiments/yolo/gdt619_five_source_page_acquisition/artifacts/REGISTERED_VALIDATION.json",
       "role": "deterministic registration and redirect-amendment audit",
-      "sha256": "8b27a3af64d7617571aff2c3b16322d2c7152642624996e4b84e2c6bdc1a3422"
+      "sha256": "5f876aed3446b75f97bf376ca98059e797d08984213a6be596db60a8778cd8d6"
     }
   ],
   "question": "Can the five GDT618 Latin 6823 scoring pages and five Clm 28531 control pages be acquired through one reproducible institution-specific IIIF request profile without opening any source image or Voynich material during registration?",
@@ -89,7 +99,7 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "five_source_page_acquisition",
-  "status": "STAGE_A_WIDTH_ONLY_REDIRECT_STOP__CANONICAL_PRIMARY_REGISTERED",
+  "status": "PRIMARY_SCAN26_VISIBLY_ABSENT__CANONICAL_ADJACENT_PAIR_REGISTERED",
   "title": "Five source-page acquisition profile",
   "updated": "2026-08-29",
   "validation": {

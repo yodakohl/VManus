@@ -284,10 +284,10 @@ The complete route memory remains in
 `experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv` and the full
 ledger. Use those files for a proposed-route duplicate audit, not on every turn.
 ## Next useful route
-Publish GDT619's hash-bound redirect recovery,then reuse the saved manifest and
-request only canonical Balsamus scan26 at1200x1790;publish manual rubric result.
-Then acquire five Lat.6823/Clm pages for Balsamus,Cerfolium,Liquiritia,
-Cucurbita,Diptamus;double-read Latin heading+12 tokens before any Voynich target.
+Publish GDT619 scan26 result:Balsamus absent,Borax/Bos visible;then request only
+canonical scans25(1200x1733) and27(1200x1847) and manually resolve the shift.
+After public Stage1,acquire five Lat.6823/Clm pages for Balsamus,Cerfolium,
+Liquiritia,Cucurbita,Diptamus;double-read Latin+12 tokens before any target.
 ## Primary routing references
 
 - `experiments/semantic_assumptions/grammar/CONFIRMED_GRAMMAR.md`

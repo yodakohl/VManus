@@ -1,0 +1,137 @@
+{
+  "claim_ceiling": "SCAN26_MANUALLY_EXCLUDES_A_VISIBLE_BALSAMUS_RUBRIC__BORAX_BOS_ARE_CONTEXTUAL_LABEL_READINGS_ONLY__NO_GLOBAL_SHIFT_OR_SOURCE_LOCATOR_YET__NO_VOYNICH_ACCESS_OR_MEANING",
+  "experiment_id": "GDT619",
+  "fallback_amendment": {
+    "authorization_basis": "ORIGINAL_RULE__PRIMARY_VISIBLY_ABSENT_AUTHORIZES_BOTH_ADJACENT_SCANS",
+    "authorization_order": [
+      "PUBLISH_THIS_OBSERVATION_AND_FALLBACK_RECOVERY_CODE",
+      "OFFLINE_AUTHORIZATION_MUST_MATCH_BOUND_STATE_AND_JOURNAL",
+      "REQUEST_CANONICAL_SCAN25_THEN_CANONICAL_SCAN27",
+      "MANUALLY_RECORD_BOTH_RUBRIC_OBSERVATIONS"
+    ],
+    "authorized_requests": [
+      {
+        "canonical_height_basis": "DERIVED_NOT_OBSERVED__FLOOR_1200_TIMES_2466_DIVIDED_BY_1707",
+        "decoded_dimensions_required": {
+          "height": 1733,
+          "width": 1200
+        },
+        "request_order": 4,
+        "scan": 25,
+        "url": "https://api.digitale-sammlungen.de/iiif/image/v3/bsb00107549_00025/full/1200,1733/0/default.jpg",
+        "url_sha256": "231f610b6ec6c1e773943ccfe5a581e9714d4839010ff4e89e00f52fdbf915e5"
+      },
+      {
+        "canonical_height_basis": "DERIVED_NOT_OBSERVED__FLOOR_1200_TIMES_2628_DIVIDED_BY_1707",
+        "decoded_dimensions_required": {
+          "height": 1847,
+          "width": 1200
+        },
+        "request_order": 5,
+        "scan": 27,
+        "url": "https://api.digitale-sammlungen.de/iiif/image/v3/bsb00107549_00027/full/1200,1847/0/default.jpg",
+        "url_sha256": "443cc69203554ffb15d34303e4f9a38f2d44ce5e6408283c324994cba4335e4a"
+      }
+    ],
+    "follow_redirects": false,
+    "manifest_refetch_authorized": false,
+    "maximum_thumbnail_bytes_each": 5000000,
+    "retries": 0,
+    "total_bsb_request_cap_including_consumed_redirect_and_future_stage_b": 10
+  },
+  "historical_crosscheck": {
+    "source_role": "WAGNER_DISSERTATION_PDF__APPENDIX_1_TRIPLE_CONCORDANCE",
+    "source_sha256": "8f57e7aaee4fe049ecf3fbf201ba2bf13bd6c446438ed59098afe2d28ee7a4fe",
+    "used_pdf_page": 220,
+    "wagner_rows": [
+      {
+        "clm28531_folio": "f10v",
+        "headword": "Balsamus"
+      },
+      {
+        "clm28531_folio": "f11r",
+        "headword": "Borax"
+      }
+    ],
+    "working_inference": "POST_HOC_CONSISTENCY_ONLY__WAGNER_MAPS_BORAX_TO_F11R__NO_PAGE_IDENTITY_OR_SHIFT_SELECTED"
+  },
+  "manual_observation": {
+    "automatic_classification_used": false,
+    "balsamus_result": "VISIBLY_ABSENT",
+    "botanical_similarity_used": false,
+    "inspection_target": "VISIBLE_RUBRICS_AND_LABELS_ONLY",
+    "observed_labels": [
+      {
+        "confidence": "HIGH",
+        "location": "CENTRAL_LEFT_WITHIN_PLANT_DRAWING",
+        "reading": "Borax."
+      },
+      {
+        "confidence": "HIGH",
+        "location": "LOWER_RIGHT_ABOVE_BOVINE_DRAWING",
+        "reading": "Bos."
+      }
+    ],
+    "recorded_utc": "2026-08-29T05:47:42.404932+00:00",
+    "scan": 26
+  },
+  "manual_reading_confirmation": {
+    "independent_reader": {
+      "balsamus_rubric_result": "VISIBLY_ABSENT",
+      "method": "MANUAL_LOCAL_IMAGE_INSPECTION_ONLY",
+      "observed_labels": [
+        "Borax.",
+        "Bos."
+      ],
+      "qualification": "A_TINY_RUNNING_TEXT_OCCURRENCE_IS_NOT_EXCLUDED__THE_REQUIRED_VISIBLE_RUBRIC_IS_ABSENT"
+    },
+    "reader_count": 2,
+    "result": "AGREEMENT_ON_VISIBLY_ABSENT_AND_BORAX_BOS_LABELS"
+  },
+  "observed_execution": {
+    "base_public_commit": "449f62dc830fded612a99356dee15f09fb132af3",
+    "canonical_primary_success": {
+      "decoded_dimensions": {
+        "height": 1790,
+        "width": 1200
+      },
+      "defined_delay_seconds": 0.0,
+      "final_url": "https://api.digitale-sammlungen.de/iiif/image/v3/bsb00107549_00026/full/1200,1790/0/default.jpg",
+      "http_status": 200,
+      "observed_bytes": 443716,
+      "raw_sha256": "2121ec99849a7aac5d19dd10779b0d503bbb1e0a6220915375b0688891d202f3",
+      "redirect_attempts": 0,
+      "request_started_utc": "2026-08-29T05:47:12.720915+00:00",
+      "response_completed_utc": "2026-08-29T05:47:13.125620+00:00",
+      "response_headers": {
+        "content_length": "443716",
+        "content_type": "image/jpeg",
+        "etag": "W/\"10cc3c382b13ad9246b74708d03528d294522c558727bd2ed4a242bfb7cf0c3f\"",
+        "last_modified": "Fri, 23 Sep 2016 13:11:17 GMT"
+      },
+      "sequence": 3,
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v3/bsb00107549_00026/full/1200,1790/0/default.jpg"
+    },
+    "pre_fallback_journal": {
+      "event_counts": {
+        "FAILURE_PRESERVED": 1,
+        "MANUAL_RUBRIC_OBSERVATION": 1,
+        "RATE_DELAY_STARTED": 1,
+        "REDIRECT_RECOVERY_AUTHORIZED": 1,
+        "REQUEST_FAILURE": 1,
+        "REQUEST_INTENT": 3,
+        "REQUEST_SUCCESS": 2
+      },
+      "row_count": 10,
+      "sha256": "e2e76380b009ba162931f3bf566d50a8192f162afdfb5b68494a6d3423d3eda6"
+    },
+    "pre_fallback_state": {
+      "request_sequence": 3,
+      "sha256": "81d23efae382c5980d6a6b895a99b261a30636909c58529b76bd87b2bea62503",
+      "status": "STOPPED_CANONICAL_PRIMARY_VISIBLY_ABSENT__FALLBACK_REQUIRES_PUBLIC_AMENDMENT",
+      "unresolved_attempt": null
+    }
+  },
+  "schema_version": 1,
+  "status": "PRIMARY_SCAN26_VISIBLY_ABSENT__CANONICAL_ADJACENT_PAIR_REGISTERED"
+}

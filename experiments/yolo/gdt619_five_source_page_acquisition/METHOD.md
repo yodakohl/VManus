@@ -146,3 +146,12 @@ A canonical `VISIBLY_ABSENT` observation stops and cannot enter the original
 fallback transition without another public amendment. Counting the consumed
 width-only request, the amended canonical-visible direct path is capped at
 eight BSB requests rather than the original profile's historical seven.
+
+The actual canonical scan-26 observation is `VISIBLY_ABSENT`: two manual
+readers see `Borax.` and `Bos.`, not a `Balsamus` rubric. The bound Wagner
+appendix independently orders f10v `Balsamus` immediately before f11r `Borax`,
+so the new amendment restores the original two-neighbor control at canonical
+sizes only. An exact offline gate binds the post-observation state/journal and
+scan-26 JPEG. The network phase must then request scan 25 at 1200x1733 and scan
+27 at 1200x1847, in order, and validate both exact dimensions. Its cumulative
+BSB cap is ten; no delta is selected until both manual observations are present.

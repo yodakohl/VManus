@@ -14856,3 +14856,13 @@ correction binds the pre-recovery state SHA256 `8b78a38d...6783`,journal SHA256
 `f3011ae9...2cc6`,and canonical URL SHA256 `bab59a55...aa15`;only a hash-exact
 offline recovery followed by that one canonical request is now allowed.
 Manifest refetch,fallbacks and Stage B remain forbidden.
+
+After that public correction,the canonical scan26 request succeeded:443,716
+bytes,1200x1790,SHA256 `2121ec99...02f3`,HTTP200,zero redirects. Two manual
+readers agree that `Balsamus` is visibly absent;the central plant is labelled
+`Borax.` and the lower bovine `Bos.`. Wagner's bound appendix places Balsamus at
+f10v and Borax at the immediately following f11r,so the image is consistent
+with—but does not establish—scan26=f11r and scan25 as delta-1. A new hash-bound
+amendment authorizes only canonical scan25 at
+1200x1733 followed by scan27 at1200x1847;the cumulative BSB cap is10 and StageB
+remains locked until both manual observations and a public Stage1 resolution.

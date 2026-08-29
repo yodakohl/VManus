@@ -74,11 +74,18 @@ def thumbnail_url(scan: int) -> str:
 
 PRIMARY_THUMBNAIL_URL = thumbnail_url(26)
 CANONICAL_PRIMARY_THUMBNAIL_URL = f"{service_id(26)}/full/1200,1790/0/default.jpg"
+CANONICAL_FALLBACK_URLS = [
+    f"{service_id(25)}/full/1200,1733/0/default.jpg",
+    f"{service_id(27)}/full/1200,1847/0/default.jpg",
+]
+FALLBACK_AMENDMENT_STATE_SHA256 = "81d23efae382c5980d6a6b895a99b261a30636909c58529b76bd87b2bea62503"
+FALLBACK_AMENDMENT_JOURNAL_SHA256 = "e2e76380b009ba162931f3bf566d50a8192f162afdfb5b68494a6d3423d3eda6"
+FALLBACK_AMENDMENT_PRIMARY_SHA256 = "2121ec99849a7aac5d19dd10779b0d503bbb1e0a6220915375b0688891d202f3"
 PRE_RECOVERY_STATE_SHA256 = "8b78a38dff45b6a25587b8156e36a6639d9f9e034ad058468fb6a0fcfb056783"
 PRE_RECOVERY_JOURNAL_SHA256 = "f3011ae956b0f7afb49b94355b3ac92f4bb06edf8d366825458aaa0450eb2cc6"
 FALLBACK_THUMBNAIL_URLS = [thumbnail_url(25), thumbnail_url(27)]
 ALLOWLIST = {MANIFEST_URL, PRIMARY_THUMBNAIL_URL, *FALLBACK_THUMBNAIL_URLS}
-RECOVERY_ALLOWLIST = {CANONICAL_PRIMARY_THUMBNAIL_URL}
+RECOVERY_ALLOWLIST = {CANONICAL_PRIMARY_THUMBNAIL_URL, *CANONICAL_FALLBACK_URLS}
 
 
 def pending_urls_for_status(status: str) -> list[str]:
@@ -347,6 +354,157 @@ def resume_canonical_primary(private_dir: Path) -> None:
     )
 
 
+def authorize_canonical_fallback(private_dir: Path) -> None:
+    """Offline amendment bound to the exact observed post-scan26 state bytes."""
+    state_file = state_path(private_dir)
+    journal_file = private_dir / "REQUEST_JOURNAL.jsonl"
+    state_bytes = state_file.read_bytes()
+    journal_bytes = journal_file.read_bytes()
+    if sha256_bytes(state_bytes) != FALLBACK_AMENDMENT_STATE_SHA256:
+        raise ValueError("fallback amendment state SHA-256 differs")
+    if sha256_bytes(journal_bytes) != FALLBACK_AMENDMENT_JOURNAL_SHA256:
+        raise ValueError("fallback amendment journal SHA-256 differs")
+    state = json.loads(state_bytes)
+    if state.get("status") != "STOPPED_CANONICAL_PRIMARY_VISIBLY_ABSENT__FALLBACK_REQUIRES_PUBLIC_AMENDMENT":
+        raise ValueError("fallback amendment status differs")
+    validate_manifest((private_dir / "clm28531_manifest.json").read_bytes())
+    primary_bytes = (private_dir / "scan26_primary.jpg").read_bytes()
+    if validate_canonical_primary_thumbnail(primary_bytes) != {"height": 1790, "width": 1200}:
+        raise ValueError("canonical scan26 decoded dimensions differ")
+    if sha256_bytes(primary_bytes) != FALLBACK_AMENDMENT_PRIMARY_SHA256:
+        raise ValueError("canonical scan26 SHA-256 differs from the public observation")
+    rows = journal_rows(private_dir)
+    successes = [r for r in rows if r.get("event") == "REQUEST_SUCCESS" and r.get("url") == CANONICAL_PRIMARY_THUMBNAIL_URL]
+    if len(successes) != 1 or successes[0].get("raw_sha256") != sha256_bytes(primary_bytes) or successes[0].get("observed_bytes") != len(primary_bytes):
+        raise ValueError("canonical scan26 success record differs from saved bytes")
+    observations = [r for r in rows if r.get("event") == "MANUAL_RUBRIC_OBSERVATION" and r.get("scan") == 26]
+    if len(observations) != 1 or observations[0].get("observation") != "VISIBLY_ABSENT":
+        raise ValueError("scan26 VISIBLY_ABSENT observation is not uniquely bound")
+    expected_names = {
+        "GDT619_PRIVATE_OWNER.json",
+        "REDIRECT_RECOVERY_AUTHORIZATION.json",
+        "REQUEST_JOURNAL.jsonl",
+        "STAGE_A_EXCLUSIVE.lock",
+        "clm28531_manifest.json",
+        "scan26_primary.jpg",
+        "stage_a_state.json",
+    }
+    if {path.name for path in private_dir.iterdir()} != expected_names:
+        raise ValueError("private directory differs from the public pre-fallback packet")
+    auth_path = private_dir / "CANONICAL_FALLBACK_AUTHORIZATION.json"
+    if auth_path.exists():
+        raise ValueError("canonical fallback was already authorized")
+    authorization = {
+        "authorized_urls_in_order": CANONICAL_FALLBACK_URLS,
+        "experiment_id": "GDT619",
+        "manifest_sha256": MANIFEST_SHA256,
+        "source_journal_sha256": FALLBACK_AMENDMENT_JOURNAL_SHA256,
+        "source_state_sha256": FALLBACK_AMENDMENT_STATE_SHA256,
+        "status": "CANONICAL_FALLBACK_AUTHORIZED__SCAN25_PENDING",
+    }
+    private_write(auth_path, canonical_bytes(authorization))
+    state["status"] = "CANONICAL_FALLBACK_AUTHORIZED__SCAN25_PENDING"
+    state["canonical_fallback_authorization_sha256"] = sha256_bytes(canonical_bytes(authorization))
+    save_state(private_dir, state)
+    append_journal(private_dir, {"event": "CANONICAL_FALLBACK_AUTHORIZED", **authorization})
+
+
+def validate_canonical_fallback_authorization(
+    private_dir: Path,
+    state: dict[str, Any],
+) -> dict[str, Any]:
+    auth_path = private_dir / "CANONICAL_FALLBACK_AUTHORIZATION.json"
+    auth = json.loads(auth_path.read_text(encoding="utf-8"))
+    expected = {
+        "authorized_urls_in_order": CANONICAL_FALLBACK_URLS,
+        "experiment_id": "GDT619",
+        "manifest_sha256": MANIFEST_SHA256,
+        "source_journal_sha256": FALLBACK_AMENDMENT_JOURNAL_SHA256,
+        "source_state_sha256": FALLBACK_AMENDMENT_STATE_SHA256,
+        "status": "CANONICAL_FALLBACK_AUTHORIZED__SCAN25_PENDING",
+    }
+    if auth != expected:
+        raise ValueError("canonical fallback authorization content differs")
+    if state.get("canonical_fallback_authorization_sha256") != sha256_bytes(canonical_bytes(auth)):
+        raise ValueError("canonical fallback authorization hash differs")
+    journal_lines = (private_dir / "REQUEST_JOURNAL.jsonl").read_bytes().splitlines(keepends=True)
+    parsed = [json.loads(line) for line in journal_lines]
+    auth_indices = [
+        index
+        for index, row in enumerate(parsed)
+        if row.get("event") == "CANONICAL_FALLBACK_AUTHORIZED"
+    ]
+    if len(auth_indices) != 1:
+        raise ValueError("canonical fallback authorization journal event is not unique")
+    auth_index = auth_indices[0]
+    if parsed[auth_index] != {"event": "CANONICAL_FALLBACK_AUTHORIZED", **auth}:
+        raise ValueError("canonical fallback authorization journal event differs")
+    if sha256_bytes(b"".join(journal_lines[:auth_index])) != FALLBACK_AMENDMENT_JOURNAL_SHA256:
+        raise ValueError("pre-authorization fallback journal bytes changed")
+    validate_manifest((private_dir / "clm28531_manifest.json").read_bytes())
+    if state.get("status") == "CANONICAL_FALLBACK_AUTHORIZED__SCAN25_PENDING":
+        if auth_index != len(parsed) - 1:
+            raise ValueError("scan25-pending journal contains post-authorization events")
+    elif state.get("status") == "CANONICAL_SCAN25_ACQUIRED__SCAN27_PENDING":
+        successes = [
+            row
+            for row in parsed
+            if row.get("event") == "REQUEST_SUCCESS"
+            and row.get("url") == CANONICAL_FALLBACK_URLS[0]
+        ]
+        intents = [
+            row
+            for row in parsed
+            if row.get("event") == "REQUEST_INTENT"
+            and row.get("url") == CANONICAL_FALLBACK_URLS[0]
+        ]
+        if len(intents) != 1 or len(successes) != 1:
+            raise ValueError("canonical scan25 request history differs")
+        saved = (private_dir / "scan25_fallback.jpg").read_bytes()
+        _validate_exact_thumbnail(saved, 1733)
+        if (
+            successes[0].get("raw_sha256") != sha256_bytes(saved)
+            or successes[0].get("observed_bytes") != len(saved)
+        ):
+            raise ValueError("canonical scan25 success differs from saved bytes")
+        if any(
+            row.get("event") == "REQUEST_INTENT"
+            and row.get("url") == CANONICAL_FALLBACK_URLS[1]
+            for row in parsed
+        ):
+            raise ValueError("canonical scan27 already has an intent")
+    else:
+        raise ValueError("canonical fallback state is not resumable")
+    return auth
+
+
+def resume_canonical_fallback(private_dir: Path) -> None:
+    state = load_state(private_dir)
+    validate_canonical_fallback_authorization(private_dir, state)
+    if state.get("status") == "CANONICAL_FALLBACK_AUTHORIZED__SCAN25_PENDING":
+        acquire_one(
+            private_dir, state, filename="scan25_fallback.jpg", maximum_bytes=THUMBNAIL_MAX_BYTES,
+            resource_class="IIIF_IMAGE_V3_THUMBNAIL", success_status="CANONICAL_SCAN25_ACQUIRED__SCAN27_PENDING",
+            url=CANONICAL_FALLBACK_URLS[0], validator=lambda data: _validate_exact_thumbnail(data, 1733),
+        )
+        state = load_state(private_dir)
+        validate_canonical_fallback_authorization(private_dir, state)
+    if state.get("status") != "CANONICAL_SCAN25_ACQUIRED__SCAN27_PENDING":
+        raise ValueError("canonical fallback resume requires scan25-pending or scan27-pending state")
+    acquire_one(
+        private_dir, state, filename="scan27_fallback.jpg", maximum_bytes=THUMBNAIL_MAX_BYTES,
+        resource_class="IIIF_IMAGE_V3_THUMBNAIL", success_status="FALLBACK_ACQUIRED_AWAITING_OBSERVATIONS",
+        url=CANONICAL_FALLBACK_URLS[1], validator=lambda data: _validate_exact_thumbnail(data, 1847),
+    )
+
+
+def _validate_exact_thumbnail(data: bytes, height: int) -> dict[str, int]:
+    result = validate_thumbnail(data)
+    if result != {"height": height, "width": 1200}:
+        raise ValueError(f"canonical thumbnail dimensions differ from 1200x{height}")
+    return result
+
+
 def save_state(private_dir: Path, state: dict[str, Any]) -> None:
     private_write(state_path(private_dir), canonical_bytes(state))
 
@@ -528,7 +686,12 @@ def acquire_one(
 ) -> dict[str, Any]:
     if url not in ALLOWLIST | RECOVERY_ALLOWLIST:
         raise ValueError("URL is absent from the exact Stage-A allowlist")
-    if url in RECOVERY_ALLOWLIST and state.get("status") != "CANONICAL_PRIMARY_REDIRECT_RECOVERY_AUTHORIZED":
+    recovery_states = {
+        CANONICAL_PRIMARY_THUMBNAIL_URL: {"CANONICAL_PRIMARY_REDIRECT_RECOVERY_AUTHORIZED"},
+        CANONICAL_FALLBACK_URLS[0]: {"CANONICAL_FALLBACK_AUTHORIZED__SCAN25_PENDING"},
+        CANONICAL_FALLBACK_URLS[1]: {"CANONICAL_SCAN25_ACQUIRED__SCAN27_PENDING"},
+    }
+    if url in RECOVERY_ALLOWLIST and state.get("status") not in recovery_states[url]:
         raise ValueError("canonical recovery URL lacks local authorization")
     journal = private_dir / "REQUEST_JOURNAL.jsonl"
     if journal.exists() and any(
@@ -748,7 +911,7 @@ def build_resolution_draft(
         allowed_urls = (
             {PRIMARY_THUMBNAIL_URL, CANONICAL_PRIMARY_THUMBNAIL_URL}
             if scan == 26
-            else {thumbnail_url(scan)}
+            else ({thumbnail_url(25), CANONICAL_FALLBACK_URLS[0]} if scan == 25 else {thumbnail_url(27), CANONICAL_FALLBACK_URLS[1]})
         )
         matches = [row for row in successes if row.get("url") in allowed_urls]
         if len(matches) != 1:
@@ -759,7 +922,7 @@ def build_resolution_draft(
         validation = (
             validate_canonical_primary_thumbnail(saved)
             if url == CANONICAL_PRIMARY_THUMBNAIL_URL
-            else validate_thumbnail(saved)
+            else (_validate_exact_thumbnail(saved, 1733) if url == CANONICAL_FALLBACK_URLS[0] else (_validate_exact_thumbnail(saved, 1847) if url == CANONICAL_FALLBACK_URLS[1] else validate_thumbnail(saved)))
         )
         if len(saved) != success.get("observed_bytes") or sha256_bytes(saved) != success.get("raw_sha256"):
             raise ValueError(f"scan {scan}: saved bytes differ from acquisition success record")
@@ -979,8 +1142,11 @@ def self_test() -> dict[str, Any]:
     checks.append(("pillow_version_exact", PILLOW_VERSION == "10.2.0"))
     checks.append(("thumbnail_urls_v3_width1200", thumbnail_url(26).endswith("/full/1200,/0/default.jpg")))
     checks.append(("allowlist_exact_four", ALLOWLIST == {MANIFEST_URL, thumbnail_url(25), thumbnail_url(26), thumbnail_url(27)}))
-    checks.append(("recovery_allowlist_exact_one", RECOVERY_ALLOWLIST == {CANONICAL_PRIMARY_THUMBNAIL_URL}))
+    checks.append(("recovery_allowlist_exact_three", RECOVERY_ALLOWLIST == {CANONICAL_PRIMARY_THUMBNAIL_URL, *CANONICAL_FALLBACK_URLS}))
     checks.append(("canonical_recovery_dimensions_literal", CANONICAL_PRIMARY_THUMBNAIL_URL.endswith("/full/1200,1790/0/default.jpg")))
+    checks.append(("canonical_fallback_urls_literal", CANONICAL_FALLBACK_URLS == [f"{service_id(25)}/full/1200,1733/0/default.jpg", f"{service_id(27)}/full/1200,1847/0/default.jpg"]))
+    checks.append(("fallback_amendment_hashes_literal", FALLBACK_AMENDMENT_STATE_SHA256 == "81d23efae382c5980d6a6b895a99b261a30636909c58529b76bd87b2bea62503" and FALLBACK_AMENDMENT_JOURNAL_SHA256 == "e2e76380b009ba162931f3bf566d50a8192f162afdfb5b68494a6d3423d3eda6"))
+    checks.append(("fallback_primary_image_hash_literal", FALLBACK_AMENDMENT_PRIMARY_SHA256 == "2121ec99849a7aac5d19dd10779b0d503bbb1e0a6220915375b0688891d202f3"))
     checks.append(("published_pre_recovery_hashes_literal", PRE_RECOVERY_STATE_SHA256 == "8b78a38dff45b6a25587b8156e36a6639d9f9e034ad058468fb6a0fcfb056783" and PRE_RECOVERY_JOURNAL_SHA256 == "f3011ae956b0f7afb49b94355b3ac92f4bb06edf8d366825458aaa0450eb2cc6"))
     checks.append(("fallback_left", select_fallback_delta("VISIBLE", "VISIBLY_ABSENT") == -1))
     checks.append(("fallback_right", select_fallback_delta("VISIBLY_ABSENT", "VISIBLE") == 1))
@@ -1102,7 +1268,7 @@ def self_test() -> dict[str, Any]:
 def main() -> int:
     parser = argparse.ArgumentParser()
     subparsers = parser.add_subparsers(dest="command", required=True)
-    for command in ("acquire-primary", "acquire-fallback", "authorize-redirect-recovery", "resume-canonical-primary"):
+    for command in ("acquire-primary", "acquire-fallback", "authorize-redirect-recovery", "resume-canonical-primary", "authorize-canonical-fallback", "resume-canonical-fallback"):
         subparser = subparsers.add_parser(command)
         subparser.add_argument("--private-dir", required=True)
     record_primary_parser = subparsers.add_parser("record-primary")
@@ -1135,6 +1301,10 @@ def main() -> int:
                 authorize_redirect_recovery(private_dir)
             elif args.command == "resume-canonical-primary":
                 resume_canonical_primary(private_dir)
+            elif args.command == "authorize-canonical-fallback":
+                authorize_canonical_fallback(private_dir)
+            elif args.command == "resume-canonical-fallback":
+                resume_canonical_fallback(private_dir)
     except Exception as exc:
         print(f"FAIL {type(exc).__name__}: {exc}", file=sys.stderr)
         return 1
