@@ -125,3 +125,24 @@ or `SOURCE_LOCATOR_FAILURE` under the registered rules.
 
 No outcome in this experiment establishes a Voynich correspondence, botanical
 identification, sign value, lexeme, language, plaintext, or translation.
+
+## Executed redirect stop and recovery method
+
+The first Stage-A run produced one byte-identical manifest success and one
+scan-26 redirect stop. It did not follow the redirect or read an image body.
+The public correction in `REDIRECT_AMENDMENT.md` adds two explicit commands:
+`authorize-redirect-recovery` is offline-only and accepts only the exact
+published pre-recovery state/journal hashes, manifest hash, request history,
+redirect detail, and five-file private packet; `resume-canonical-primary`
+accepts only that authorization and requests only
+`/full/1200,1790/0/default.jpg`.
+
+The manifest and old width-only URL cannot be resent. The canonical response
+must fully decode as exactly 1200x1790. The Stage-1 evidence builder accepts
+the canonical URL as the actual scan-26 evidence URL. No fallback or Stage-B
+request is added by this correction.
+
+A canonical `VISIBLY_ABSENT` observation stops and cannot enter the original
+fallback transition without another public amendment. Counting the consumed
+width-only request, the amended canonical-visible direct path is capped at
+eight BSB requests rather than the original profile's historical seven.

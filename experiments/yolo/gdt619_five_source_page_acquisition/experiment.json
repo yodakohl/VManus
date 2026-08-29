@@ -1,9 +1,9 @@
 {
   "artifact_policy": {
-    "large_artifact_justification": "No image or external metadata response bytes are retained. Four developmentally accessed official metadata responses are bound by exact URL, byte count, and SHA-256 in the compact request profile.",
+    "large_artifact_justification": "No image or external metadata response bytes are retained in the repository. Four developmental metadata responses and the executed manifest response are represented by exact URL, byte count, and SHA-256; the redirect stop is a compact JSON artifact.",
     "max_inline_bytes": 5000000
   },
-  "claim_ceiling": "This registration binds only a future two-stage acquisition of five Latin 6823 scoring pages and five Clm 28531 control pages. It executes no image request, verifies no source locator, opens no Voynich material, and assigns no Voynich sign, word, language, plant, plaintext, or meaning.",
+  "claim_ceiling": "GDT619 has one exact manifest success and one width-only scan-26 redirect stop before follow-up or image-body read. The public correction authorizes one hash-bound canonical scan-26 request only. It verifies no source locator, opens no source image or Voynich material, and assigns no Voynich sign, word, language, plant, plaintext, or meaning.",
   "commands": {
     "run": "python3 experiments/yolo/gdt619_five_source_page_acquisition/src/run.py --check",
     "validate": "python3 experiments/yolo/gdt619_five_source_page_acquisition/src/validate.py"
@@ -24,27 +24,37 @@
     {
       "path": "experiments/yolo/gdt619_five_source_page_acquisition/METHOD.md",
       "role": "metadata mapping, calibration, full-page acquisition, logging, rights, and decision method",
-      "sha256": "e53408a608c7b4be12652fb426f39f6f169afbf93e0d1c59b4b0bd6ed2acba26"
+      "sha256": "5581b25c379a764d1335ba7d919a8dd2b4308c07e02c3621eefbd560e8313960"
+    },
+    {
+      "path": "experiments/yolo/gdt619_five_source_page_acquisition/REDIRECT_AMENDMENT.md",
+      "role": "public observed-redirect correction and hash-bound canonical-primary recovery contract",
+      "sha256": "6559eaa7b474cdb0f8ce0ef86f6b3ad37d15341e92539b18c1c0f80d84945321"
     },
     {
       "path": "experiments/yolo/gdt619_five_source_page_acquisition/PREREGISTRATION.md",
       "role": "public two-stage request, access-boundary, calibration, and Stage-B lock",
-      "sha256": "051edd0e97483e338028a8cf63c07e0f8bc1d6fe24652181f5750bfe76aebbec"
+      "sha256": "fa32d82effe2b49db16e7f1f0f860fee5663ae0ead6adf0c260fe4595ae26769"
     },
     {
       "path": "experiments/yolo/gdt619_five_source_page_acquisition/README.md",
       "role": "compact profile status and entry point",
-      "sha256": "28ed9b354da2805b3d49888dadc415bb00320bf3be17cb38a49af7b57c524b33"
+      "sha256": "9fdca683bba9563d84966eaf316a666f0fad8fff1679123924e04160c7a18c77"
     },
     {
       "path": "experiments/yolo/gdt619_five_source_page_acquisition/artifacts/README.md",
       "role": "registration artifact inventory and no-image notice",
-      "sha256": "b7343f41a98677557df6e047b1790abae95b86b8750e8fd2829252d58273d700"
+      "sha256": "f8e520aa2967f167c3a747aef692ebb80dc0688cd40503e2f257bac85d66c9ff"
     },
     {
       "path": "experiments/yolo/gdt619_five_source_page_acquisition/artifacts/REGISTERED_REQUEST_PROFILE.json",
       "role": "canonical metadata bindings, exact page map, thumbnail calibration, full-page URLs, governance, rights, provenance, and fail stops",
       "sha256": "7ee7e0e60ff1d9419f713c57623e85e376211c97664e534a6678c3ed7bac5e81"
+    },
+    {
+      "path": "experiments/yolo/gdt619_five_source_page_acquisition/artifacts/STAGE_A_REDIRECT_STOP.json",
+      "role": "compact first-execution failure evidence and exact canonical-primary authorization",
+      "sha256": "8d197e1b3f72b57984a6bcabb7cac1914d1d40883b1966c2c313b04c7ae3e542"
     },
     {
       "path": "experiments/yolo/gdt619_five_source_page_acquisition/requirements.txt",
@@ -53,8 +63,8 @@
     },
     {
       "path": "experiments/yolo/gdt619_five_source_page_acquisition/src/acquire_stage_a.py",
-      "role": "inert-at-import Stage-A acquisition state machine with private journaling and offline self-test",
-      "sha256": "810fc5ca1110d52b9b7d20ff393757545d929dc1d8307d7ddedc89a22dad9f76"
+      "role": "inert-at-import Stage-A acquisition state machine with exact redirect recovery, private journaling, and offline self-test",
+      "sha256": "14549e0d02c9e956c1a468c50fa21ed96a134644dbdcff51d5cddb37adc54a40"
     },
     {
       "path": "experiments/yolo/gdt619_five_source_page_acquisition/src/run.py",
@@ -64,12 +74,12 @@
     {
       "path": "experiments/yolo/gdt619_five_source_page_acquisition/src/validate.py",
       "role": "offline dependency, mapping, request, access, rights, manifest, and reproducibility validator",
-      "sha256": "d380f55b61b2027112f53efacf825c71b9dc6c9d4315e7f305a81992571c0ec1"
+      "sha256": "84adedf16f8474460335e96ee1c1a3b9a73ca2e4b4eb5e976044759a98939241"
     },
     {
       "path": "experiments/yolo/gdt619_five_source_page_acquisition/artifacts/REGISTERED_VALIDATION.json",
-      "role": "deterministic no-image request-registration audit",
-      "sha256": "2e7d9d719f663bf3d1e22b5c3cd2708edbbe895442590592b06f56608e83ce44"
+      "role": "deterministic registration and redirect-amendment audit",
+      "sha256": "8b27a3af64d7617571aff2c3b16322d2c7152642624996e4b84e2c6bdc1a3422"
     }
   ],
   "question": "Can the five GDT618 Latin 6823 scoring pages and five Clm 28531 control pages be acquired through one reproducible institution-specific IIIF request profile without opening any source image or Voynich material during registration?",
@@ -79,7 +89,7 @@
     "f84r": "FORBIDDEN"
   },
   "slug": "five_source_page_acquisition",
-  "status": "PROFILE_REGISTERED__NO_IMAGE_REQUEST_EXECUTED",
+  "status": "STAGE_A_WIDTH_ONLY_REDIRECT_STOP__CANONICAL_PRIMARY_REGISTERED",
   "title": "Five source-page acquisition profile",
   "updated": "2026-08-29",
   "validation": {

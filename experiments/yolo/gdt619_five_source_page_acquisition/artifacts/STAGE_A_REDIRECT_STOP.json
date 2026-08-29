@@ -1,0 +1,108 @@
+{
+  "amendment": {
+    "authorized_canonical_primary_request": {
+      "decoded_dimensions_required": {
+        "height": 1790,
+        "width": 1200
+      },
+      "maximum_response_bytes": 5000000,
+      "url": "https://api.digitale-sammlungen.de/iiif/image/v3/bsb00107549_00026/full/1200,1790/0/default.jpg",
+      "url_sha256": "bab59a55fd7dd5c9a012ecb7f4bac8d2f1e652783fdc5845bc63726da514aa15"
+    },
+    "authorization_order": [
+      "PUBLISH_THIS_ARTIFACT_AND_RECOVERY_CODE",
+      "OFFLINE_RECOVERY_MUST_MATCH_THE_BOUND_PRE_RECOVERY_STATE_AND_JOURNAL",
+      "REQUEST_ONLY_THE_LITERAL_CANONICAL_PRIMARY_URL"
+    ],
+    "fallback_urls_authorized_by_this_amendment": [],
+    "follow_redirects": false,
+    "manifest_refetch_authorized": false,
+    "old_width_only_url_permanently_retired": true,
+    "old_width_only_url_resend_authorized": false,
+    "request_caps": {
+      "current_direct_branch_including_consumed_redirect_and_future_stage_b": 8,
+      "current_fallback_branch": "FORBIDDEN_PENDING_SEPARATE_PUBLIC_AMENDMENT",
+      "original_profile_direct_branch_historical": 7,
+      "original_profile_fallback_branch_historical": 9
+    },
+    "retries": 0
+  },
+  "claim_ceiling": "ONE_MANIFEST_SUCCESS_AND_ONE_PRE_BODY_REDIRECT_STOP__NO_SOURCE_IMAGE_BYTES__NO_RUBRIC_READING__NO_LOCATOR_RESOLUTION__NO_VOYNICH_ACCESS_OR_MEANING",
+  "experiment_id": "GDT619",
+  "observed_execution": {
+    "base_public_commit": "996acd25505c1eb37f5a60b89d3825a4c69ade9f",
+    "image_attempt": {
+      "failure_detail": "RedirectBlocked: redirect blocked before follow-up request: https://api.digitale-sammlungen.de/iiif/image/v3/bsb00107549_00026/full/1200,/0/default.jpg -> https://api.digitale-sammlungen.de/iiif/image/v3/bsb00107549_00026/full/1200,1790/0/default.jpg",
+      "follow_up_request_sent": false,
+      "redirect_http_status": "NOT_RECORDED",
+      "image_body_bytes_read_or_stored": 0,
+      "intent_written_utc": "2026-08-29T05:30:54.636044+00:00",
+      "new_location": "https://api.digitale-sammlungen.de/iiif/image/v3/bsb00107549_00026/full/1200,1790/0/default.jpg",
+      "new_location_sha256": "bab59a55fd7dd5c9a012ecb7f4bac8d2f1e652783fdc5845bc63726da514aa15",
+      "old_url": "https://api.digitale-sammlungen.de/iiif/image/v3/bsb00107549_00026/full/1200,/0/default.jpg",
+      "old_url_sha256": "129095b946d9906f36be3f7b7d177aedbee588c01fd40b789f14cb6b305ff7bd",
+      "request_started_utc": "2026-08-29T05:30:54.663729+00:00",
+      "saved_image_or_failure_body_file_count": 0,
+      "sequence": 2,
+      "status": "REDIRECT_BLOCKED_BEFORE_FOLLOW_UP"
+    },
+    "manifest_success": {
+      "final_url": "https://api.digitale-sammlungen.de/iiif/presentation/v3/bsb00107549/manifest",
+      "http_status": 200,
+      "intent_written_utc": "2026-08-29T05:30:50.290806+00:00",
+      "observed_bytes": 261778,
+      "raw_sha256": "6f25dbd8a0baff9a681e8c486a9a883ed704671c155a7cfd81775e9f2a235fd3",
+      "redirect_attempts": 0,
+      "request_started_utc": "2026-08-29T05:30:50.302365+00:00",
+      "response_completed_utc": "2026-08-29T05:30:50.635218+00:00",
+      "sequence": 1,
+      "url": "https://api.digitale-sammlungen.de/iiif/presentation/v3/bsb00107549/manifest",
+      "url_sha256": "5438fa2c3c962924814bbffeb438d5345cacc2ce46fba263f33e4885cd053500"
+    },
+    "manifest_scan_geometry": [
+      {
+        "body_height": 2466,
+        "body_width": 1707,
+        "canonical_1200_height": 1733,
+        "canonical_height_basis": "DERIVED_NOT_OBSERVED__FLOOR_1200_TIMES_HEIGHT_DIVIDED_BY_WIDTH",
+        "canvas_ordinal": 25,
+        "service_id": "https://api.digitale-sammlungen.de/iiif/image/v3/bsb00107549_00025"
+      },
+      {
+        "body_height": 2547,
+        "body_width": 1707,
+        "canonical_1200_height": 1790,
+        "canonical_height_basis": "OBSERVED_REDIRECT_LOCATION",
+        "canvas_ordinal": 26,
+        "service_id": "https://api.digitale-sammlungen.de/iiif/image/v3/bsb00107549_00026"
+      },
+      {
+        "body_height": 2628,
+        "body_width": 1707,
+        "canonical_1200_height": 1847,
+        "canonical_height_basis": "DERIVED_NOT_OBSERVED__FLOOR_1200_TIMES_HEIGHT_DIVIDED_BY_WIDTH",
+        "canvas_ordinal": 27,
+        "service_id": "https://api.digitale-sammlungen.de/iiif/image/v3/bsb00107549_00027"
+      }
+    ],
+    "pre_recovery_journal": {
+      "event_counts": {
+        "FAILURE_PRESERVED": 1,
+        "RATE_DELAY_STARTED": 1,
+        "REQUEST_FAILURE": 1,
+        "REQUEST_INTENT": 2,
+        "REQUEST_SUCCESS": 1
+      },
+      "row_count": 6,
+      "sha256": "f3011ae956b0f7afb49b94355b3ac92f4bb06edf8d366825458aaa0450eb2cc6"
+    },
+    "pre_recovery_state": {
+      "request_sequence": 2,
+      "sha256": "8b78a38dff45b6a25587b8156e36a6639d9f9e034ad058468fb6a0fcfb056783",
+      "status": "STOPPED_FAILURE",
+      "unresolved_attempt_url": "https://api.digitale-sammlungen.de/iiif/image/v3/bsb00107549_00026/full/1200,/0/default.jpg"
+    }
+  },
+  "schema_version": 1,
+  "status": "STAGE_A_WIDTH_ONLY_REDIRECT_STOP__CANONICAL_PRIMARY_REGISTERED"
+}

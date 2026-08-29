@@ -2,7 +2,9 @@
 
 Registered: 2026-08-29
 
-Status: `PROFILE_REGISTERED__NO_IMAGE_REQUEST_EXECUTED`
+Current status: `STAGE_A_WIDTH_ONLY_REDIRECT_STOP__CANONICAL_PRIMARY_REGISTERED`
+
+Original registration status: `PROFILE_REGISTERED__NO_IMAGE_REQUEST_EXECUTED`
 
 ## Dependency and access boundary
 
@@ -100,3 +102,17 @@ preserved verbatim; `/rights` is
 Registration licenses only a future source-image acquisition. It verifies no
 locator, reads no source text, opens no Voynich material, and supplies no
 Voynich sign, word, language, plant, plaintext, or meaning.
+
+## Post-registration Stage-A correction
+
+The first execution fetched the exact registered manifest and then received a
+BSB redirect from the registered scan-26 width-only request to the literal
+size `1200,1790`. The no-redirect handler stopped before a follow-up request;
+zero image body bytes were read or saved. The original request remains a
+failed, permanently nonrepeatable intent.
+
+The separately public `REDIRECT_AMENDMENT.md` and
+`artifacts/STAGE_A_REDIRECT_STOP.json` bind the pre-recovery state and journal
+hashes and authorize only a new request to the literal canonical scan-26 URL.
+The saved manifest must be reused offline. Redirects, retries, fallback images,
+Stage B, source reading, and Voynich access remain forbidden by this amendment.

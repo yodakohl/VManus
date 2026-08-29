@@ -165,6 +165,26 @@
       "status": "PASS"
     },
     {
+      "check": "redirect_recovery_is_local_authorized_and_canonical_only",
+      "status": "PASS"
+    },
+    {
+      "check": "redirect_stop_artifact_identity_and_zero_image_bytes",
+      "status": "PASS"
+    },
+    {
+      "check": "redirect_stop_exact_urls_hashes_and_recovery_limits",
+      "status": "PASS"
+    },
+    {
+      "check": "canonical_recovery_cannot_enter_original_fallback",
+      "status": "PASS"
+    },
+    {
+      "check": "redirect_stop_manifest_geometry_exact",
+      "status": "PASS"
+    },
+    {
       "check": "pillow_runtime_and_pin_exact",
       "status": "PASS"
     },
@@ -205,11 +225,11 @@
       "status": "PASS"
     }
   ],
-  "decision": "PROFILE_REGISTERED__NO_IMAGE_REQUEST_EXECUTED",
+  "decision": "STAGE_A_WIDTH_ONLY_REDIRECT_STOP__CANONICAL_PRIMARY_REGISTERED",
   "experiment_id": "GDT619",
   "failed": 0,
-  "passed": 51,
+  "passed": 56,
   "schema_version": 1,
   "status": "PASS",
-  "total": 51
+  "total": 56
 }

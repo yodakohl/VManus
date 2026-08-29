@@ -24,6 +24,8 @@ BASE_REL = Path("experiments/yolo/gdt619_five_source_page_acquisition")
 BASE = ROOT / BASE_REL
 PROFILE_REL = BASE_REL / "artifacts/REGISTERED_REQUEST_PROFILE.json"
 VALIDATION_REL = BASE_REL / "artifacts/REGISTERED_VALIDATION.json"
+REDIRECT_STOP_REL = BASE_REL / "artifacts/STAGE_A_REDIRECT_STOP.json"
+REDIRECT_AMENDMENT_REL = BASE_REL / "REDIRECT_AMENDMENT.md"
 MANIFEST_REL = BASE_REL / "experiment.json"
 ACQUIRE_REL = BASE_REL / "src/acquire_stage_a.py"
 REQUIREMENTS_REL = BASE_REL / "requirements.txt"
@@ -83,7 +85,7 @@ class Audit:
         return {
             "checks": self.rows,
             "decision": (
-                "PROFILE_REGISTERED__NO_IMAGE_REQUEST_EXECUTED"
+                "STAGE_A_WIDTH_ONLY_REDIRECT_STOP__CANONICAL_PRIMARY_REGISTERED"
                 if self.passed
                 else "REGISTRATION_VALIDATION_FAILURE"
             ),
@@ -110,6 +112,7 @@ def main() -> int:
     manifest_path = ROOT / MANIFEST_REL
     profile = json.loads(profile_path.read_text(encoding="utf-8"))
     manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    redirect_stop = json.loads((ROOT / REDIRECT_STOP_REL).read_text(encoding="utf-8"))
 
     audit.check(
         "profile_is_canonical_builder_output",
@@ -638,6 +641,117 @@ def main() -> int:
         and sorted(acquirer.OBSERVATIONS) == sorted(calibration.get("allowed_observation_enum", [])),
     )
     audit.check(
+        "redirect_recovery_is_local_authorized_and_canonical_only",
+        acquirer.CANONICAL_PRIMARY_THUMBNAIL_URL
+        == "https://api.digitale-sammlungen.de/iiif/image/v3/bsb00107549_00026/full/1200,1790/0/default.jpg"
+        and acquirer.RECOVERY_ALLOWLIST == {acquirer.CANONICAL_PRIMARY_THUMBNAIL_URL}
+        and acquirer.PRIMARY_THUMBNAIL_URL not in acquirer.RECOVERY_ALLOWLIST
+        and acquirer.PRE_RECOVERY_STATE_SHA256
+        == redirect_stop["observed_execution"]["pre_recovery_state"]["sha256"]
+        and acquirer.PRE_RECOVERY_JOURNAL_SHA256
+        == redirect_stop["observed_execution"]["pre_recovery_journal"]["sha256"]
+        and callable(acquirer.authorize_redirect_recovery)
+        and callable(acquirer.resume_canonical_primary),
+    )
+    amendment = redirect_stop.get("amendment", {})
+    observed = redirect_stop.get("observed_execution", {})
+    image_attempt = observed.get("image_attempt", {})
+    manifest_success = observed.get("manifest_success", {})
+    pre_state = observed.get("pre_recovery_state", {})
+    pre_journal = observed.get("pre_recovery_journal", {})
+    canonical_request = amendment.get("authorized_canonical_primary_request", {})
+    audit.check(
+        "redirect_stop_artifact_identity_and_zero_image_bytes",
+        redirect_stop.get("schema_version") == 1
+        and redirect_stop.get("experiment_id") == "GDT619"
+        and redirect_stop.get("status")
+        == "STAGE_A_WIDTH_ONLY_REDIRECT_STOP__CANONICAL_PRIMARY_REGISTERED"
+        and image_attempt.get("status") == "REDIRECT_BLOCKED_BEFORE_FOLLOW_UP"
+        and image_attempt.get("follow_up_request_sent") is False
+        and image_attempt.get("image_body_bytes_read_or_stored") == 0
+        and image_attempt.get("saved_image_or_failure_body_file_count") == 0
+        and image_attempt.get("redirect_http_status") == "NOT_RECORDED",
+    )
+    audit.check(
+        "redirect_stop_exact_urls_hashes_and_recovery_limits",
+        image_attempt.get("old_url") == acquirer.PRIMARY_THUMBNAIL_URL
+        and image_attempt.get("new_location") == acquirer.CANONICAL_PRIMARY_THUMBNAIL_URL
+        and image_attempt.get("old_url_sha256")
+        == hashlib.sha256(acquirer.PRIMARY_THUMBNAIL_URL.encode("utf-8")).hexdigest()
+        and image_attempt.get("new_location_sha256")
+        == hashlib.sha256(acquirer.CANONICAL_PRIMARY_THUMBNAIL_URL.encode("utf-8")).hexdigest()
+        and canonical_request.get("url") == acquirer.CANONICAL_PRIMARY_THUMBNAIL_URL
+        and canonical_request.get("url_sha256") == image_attempt.get("new_location_sha256")
+        and canonical_request.get("decoded_dimensions_required")
+        == {"height": 1790, "width": 1200}
+        and amendment.get("manifest_refetch_authorized") is False
+        and amendment.get("old_width_only_url_resend_authorized") is False
+        and amendment.get("old_width_only_url_permanently_retired") is True
+        and amendment.get("fallback_urls_authorized_by_this_amendment") == []
+        and amendment.get("request_caps")
+        == {
+            "current_direct_branch_including_consumed_redirect_and_future_stage_b": 8,
+            "current_fallback_branch": "FORBIDDEN_PENDING_SEPARATE_PUBLIC_AMENDMENT",
+            "original_profile_direct_branch_historical": 7,
+            "original_profile_fallback_branch_historical": 9,
+        }
+        and amendment.get("follow_redirects") is False
+        and amendment.get("retries") == 0
+        and observed.get("base_public_commit")
+        == "996acd25505c1eb37f5a60b89d3825a4c69ade9f"
+        and manifest_success.get("url") == acquirer.MANIFEST_URL
+        and manifest_success.get("url_sha256")
+        == hashlib.sha256(acquirer.MANIFEST_URL.encode("utf-8")).hexdigest()
+        and manifest_success.get("observed_bytes") == acquirer.MANIFEST_BYTES
+        and manifest_success.get("raw_sha256") == acquirer.MANIFEST_SHA256
+        and pre_state
+        == {
+            "request_sequence": 2,
+            "sha256": acquirer.PRE_RECOVERY_STATE_SHA256,
+            "status": "STOPPED_FAILURE",
+            "unresolved_attempt_url": acquirer.PRIMARY_THUMBNAIL_URL,
+        }
+        and pre_journal
+        == {
+            "event_counts": {
+                "FAILURE_PRESERVED": 1,
+                "RATE_DELAY_STARTED": 1,
+                "REQUEST_FAILURE": 1,
+                "REQUEST_INTENT": 2,
+                "REQUEST_SUCCESS": 1,
+            },
+            "row_count": 6,
+            "sha256": acquirer.PRE_RECOVERY_JOURNAL_SHA256,
+        },
+    )
+    audit.check(
+        "canonical_recovery_cannot_enter_original_fallback",
+        acquirer.primary_observation_action("VISIBLE", True) == "RESOLVE_STAGE1"
+        and acquirer.primary_observation_action("VISIBLY_ABSENT", True)
+        == "STOP_FALLBACK_REQUIRES_PUBLIC_AMENDMENT"
+        and acquirer.primary_observation_action("VISIBLY_ABSENT", False)
+        == "AUTHORIZE_REGISTERED_FALLBACK",
+    )
+    geometry = observed.get("manifest_scan_geometry", [])
+    audit.check(
+        "redirect_stop_manifest_geometry_exact",
+        [
+            (
+                row.get("canvas_ordinal"),
+                row.get("body_width"),
+                row.get("body_height"),
+                row.get("canonical_1200_height"),
+                row.get("canonical_height_basis"),
+            )
+            for row in geometry
+        ]
+        == [
+            (25, 1707, 2466, 1733, "DERIVED_NOT_OBSERVED__FLOOR_1200_TIMES_HEIGHT_DIVIDED_BY_WIDTH"),
+            (26, 1707, 2547, 1790, "OBSERVED_REDIRECT_LOCATION"),
+            (27, 1707, 2628, 1847, "DERIVED_NOT_OBSERVED__FLOOR_1200_TIMES_HEIGHT_DIVIDED_BY_WIDTH"),
+        ],
+    )
+    audit.check(
         "pillow_runtime_and_pin_exact",
         acquirer.PILLOW_VERSION == "10.2.0"
         and (ROOT / REQUIREMENTS_REL).read_text(encoding="utf-8") == "Pillow==10.2.0\n",
@@ -677,7 +791,8 @@ def main() -> int:
         "manifest_identity_status_and_seals",
         manifest.get("experiment_id") == "GDT619"
         and manifest.get("slug") == "five_source_page_acquisition"
-        and manifest.get("status") == "PROFILE_REGISTERED__NO_IMAGE_REQUEST_EXECUTED"
+        and manifest.get("status")
+        == "STAGE_A_WIDTH_ONLY_REDIRECT_STOP__CANONICAL_PRIMARY_REGISTERED"
         and manifest.get("sealed_data") == {"f84": "FORBIDDEN", "f84r": "FORBIDDEN"},
     )
     audit.check("manifest_dependency", manifest.get("dependencies") == ["GDT618"])
@@ -699,8 +814,10 @@ def main() -> int:
         str(BASE_REL / "README.md"),
         str(BASE_REL / "METHOD.md"),
         str(BASE_REL / "PREREGISTRATION.md"),
+        str(REDIRECT_AMENDMENT_REL),
         str(BASE_REL / "artifacts/README.md"),
         str(PROFILE_REL),
+        str(REDIRECT_STOP_REL),
         str(VALIDATION_REL),
         str(ACQUIRE_REL),
         str(REQUIREMENTS_REL),

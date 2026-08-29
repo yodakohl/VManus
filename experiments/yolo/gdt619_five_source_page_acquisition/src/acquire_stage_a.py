@@ -73,8 +73,12 @@ def thumbnail_url(scan: int) -> str:
 
 
 PRIMARY_THUMBNAIL_URL = thumbnail_url(26)
+CANONICAL_PRIMARY_THUMBNAIL_URL = f"{service_id(26)}/full/1200,1790/0/default.jpg"
+PRE_RECOVERY_STATE_SHA256 = "8b78a38dff45b6a25587b8156e36a6639d9f9e034ad058468fb6a0fcfb056783"
+PRE_RECOVERY_JOURNAL_SHA256 = "f3011ae956b0f7afb49b94355b3ac92f4bb06edf8d366825458aaa0450eb2cc6"
 FALLBACK_THUMBNAIL_URLS = [thumbnail_url(25), thumbnail_url(27)]
 ALLOWLIST = {MANIFEST_URL, PRIMARY_THUMBNAIL_URL, *FALLBACK_THUMBNAIL_URLS}
+RECOVERY_ALLOWLIST = {CANONICAL_PRIMARY_THUMBNAIL_URL}
 
 
 def pending_urls_for_status(status: str) -> list[str]:
@@ -239,6 +243,110 @@ def load_state(private_dir: Path) -> dict[str, Any]:
     return state
 
 
+def authorize_redirect_recovery(private_dir: Path) -> None:
+    """Offline-only one-shot migration for the observed scan-26 width redirect."""
+    state_file = state_path(private_dir)
+    journal_file = private_dir / "REQUEST_JOURNAL.jsonl"
+    if not state_file.is_file() or not journal_file.is_file():
+        raise ValueError("redirect recovery requires existing state and journal")
+    state_bytes = state_file.read_bytes()
+    state = json.loads(state_bytes)
+    journal_bytes = journal_file.read_bytes()
+    rows = journal_rows(private_dir)
+    attempt = state.get("unresolved_attempt")
+    failure_detail = state.get("failure", {}).get("detail", "")
+    expected_fragment = f"{PRIMARY_THUMBNAIL_URL} -> {CANONICAL_PRIMARY_THUMBNAIL_URL}"
+    if sha256_bytes(state_bytes) != PRE_RECOVERY_STATE_SHA256:
+        raise ValueError("state bytes do not match the published pre-recovery hash")
+    if sha256_bytes(journal_bytes) != PRE_RECOVERY_JOURNAL_SHA256:
+        raise ValueError("journal bytes do not match the published pre-recovery hash")
+    if (
+        not isinstance(attempt, dict)
+        or attempt.get("url") != PRIMARY_THUMBNAIL_URL
+        or state.get("status") != "STOPPED_FAILURE"
+        or state.get("request_sequence") != 2
+        or state.get("failure", {}).get("code") != "TRANSPORT_FAILURE"
+        or "RedirectBlocked" not in failure_detail
+        or expected_fragment not in failure_detail
+    ):
+        raise ValueError("state does not bind the exact observed redirect stop")
+    old_intents = [r for r in rows if r.get("event") == "REQUEST_INTENT" and r.get("url") == PRIMARY_THUMBNAIL_URL]
+    old_failures = [r for r in rows if r.get("event") == "REQUEST_FAILURE" and r.get("url") == PRIMARY_THUMBNAIL_URL]
+    if len(old_intents) != 1 or len(old_failures) != 1 or expected_fragment not in old_failures[0].get("detail", ""):
+        raise ValueError("journal does not contain exactly one matching redirect failure")
+    if any(r.get("event") == "REQUEST_SUCCESS" and r.get("url") == PRIMARY_THUMBNAIL_URL for r in rows):
+        raise ValueError("old width-only URL has image success bytes")
+    manifest_data = (private_dir / "clm28531_manifest.json").read_bytes()
+    validate_manifest(manifest_data)
+    manifest_success = [r for r in rows if r.get("event") == "REQUEST_SUCCESS" and r.get("url") == MANIFEST_URL]
+    if len(manifest_success) != 1 or manifest_success[0].get("raw_sha256") != MANIFEST_SHA256:
+        raise ValueError("manifest success binding differs")
+    intents = [r for r in rows if r.get("event") == "REQUEST_INTENT"]
+    successes = [r for r in rows if r.get("event") == "REQUEST_SUCCESS"]
+    if len(intents) != 2 or len(successes) != 1:
+        raise ValueError("journal contains requests outside the published redirect stop")
+    forbidden_files = [
+        private_dir / "scan26_primary.jpg",
+        private_dir / "STAGE1_RESOLUTION_DRAFT.json",
+    ]
+    if any(path.exists() for path in forbidden_files) or any(private_dir.glob("failed_*.bin")):
+        raise ValueError("image, failure-body, or Stage-1 bytes exist")
+    expected_names = {
+        "GDT619_PRIVATE_OWNER.json",
+        "REQUEST_JOURNAL.jsonl",
+        "STAGE_A_EXCLUSIVE.lock",
+        "clm28531_manifest.json",
+        "stage_a_state.json",
+    }
+    if {path.name for path in private_dir.iterdir()} != expected_names:
+        raise ValueError("private directory contains bytes outside the published pre-recovery packet")
+    if (private_dir / "REDIRECT_RECOVERY_AUTHORIZATION.json").exists():
+        raise ValueError("redirect recovery was already authorized")
+    authorization = {
+        "authorized_url": CANONICAL_PRIMARY_THUMBNAIL_URL,
+        "experiment_id": "GDT619",
+        "manifest_sha256": MANIFEST_SHA256,
+        "old_url_permanently_forbidden": PRIMARY_THUMBNAIL_URL,
+        "source_journal_sha256": sha256_bytes(journal_bytes),
+        "source_state_sha256": sha256_bytes(state_bytes),
+        "status": "CANONICAL_PRIMARY_REDIRECT_RECOVERY_AUTHORIZED",
+    }
+    private_write(private_dir / "REDIRECT_RECOVERY_AUTHORIZATION.json", canonical_bytes(authorization))
+    state["unresolved_attempt"] = None
+    state["status"] = "CANONICAL_PRIMARY_REDIRECT_RECOVERY_AUTHORIZED"
+    state["redirect_recovery_authorization_sha256"] = sha256_bytes(canonical_bytes(authorization))
+    save_state(private_dir, state)
+    append_journal(private_dir, {"event": "REDIRECT_RECOVERY_AUTHORIZED", **authorization})
+
+
+def resume_canonical_primary(private_dir: Path) -> None:
+    state = load_state(private_dir)
+    auth_path = private_dir / "REDIRECT_RECOVERY_AUTHORIZATION.json"
+    authorization = json.loads(auth_path.read_text(encoding="utf-8"))
+    if state.get("status") != "CANONICAL_PRIMARY_REDIRECT_RECOVERY_AUTHORIZED":
+        raise ValueError("canonical resume requires the authorized recovery state")
+    if authorization.get("authorized_url") != CANONICAL_PRIMARY_THUMBNAIL_URL or authorization.get("manifest_sha256") != MANIFEST_SHA256:
+        raise ValueError("redirect recovery authorization differs")
+    if state.get("redirect_recovery_authorization_sha256") != sha256_bytes(canonical_bytes(authorization)):
+        raise ValueError("state does not hash-bind recovery authorization")
+    journal_lines = (private_dir / "REQUEST_JOURNAL.jsonl").read_bytes().splitlines(keepends=True)
+    if not journal_lines:
+        raise ValueError("recovery journal is empty")
+    last = json.loads(journal_lines[-1])
+    if last.get("event") != "REDIRECT_RECOVERY_AUTHORIZED" or last.get("authorized_url") != CANONICAL_PRIMARY_THUMBNAIL_URL:
+        raise ValueError("recovery authorization is not the last journal event")
+    if sha256_bytes(b"".join(journal_lines[:-1])) != authorization.get("source_journal_sha256"):
+        raise ValueError("pre-authorization journal bytes changed")
+    validate_manifest((private_dir / "clm28531_manifest.json").read_bytes())
+    acquire_one(
+        private_dir, state, filename="scan26_primary.jpg",
+        maximum_bytes=THUMBNAIL_MAX_BYTES, resource_class="IIIF_IMAGE_V3_THUMBNAIL",
+        success_status="PRIMARY_ACQUIRED_AWAITING_OBSERVATION",
+        url=CANONICAL_PRIMARY_THUMBNAIL_URL,
+        validator=validate_canonical_primary_thumbnail,
+    )
+
+
 def save_state(private_dir: Path, state: dict[str, Any]) -> None:
     private_write(state_path(private_dir), canonical_bytes(state))
 
@@ -398,6 +506,15 @@ def validate_thumbnail(data: bytes) -> dict[str, int]:
     return {"height": height, "width": width}
 
 
+def validate_canonical_primary_thumbnail(data: bytes) -> dict[str, int]:
+    dimensions = validate_thumbnail(data)
+    if dimensions != {"height": 1790, "width": 1200}:
+        raise ValueError(
+            "canonical primary thumbnail dimensions differ from registered 1200x1790"
+        )
+    return dimensions
+
+
 def acquire_one(
     private_dir: Path,
     state: dict[str, Any],
@@ -409,8 +526,10 @@ def acquire_one(
     url: str,
     validator: Callable[[bytes], Any],
 ) -> dict[str, Any]:
-    if url not in ALLOWLIST:
+    if url not in ALLOWLIST | RECOVERY_ALLOWLIST:
         raise ValueError("URL is absent from the exact Stage-A allowlist")
+    if url in RECOVERY_ALLOWLIST and state.get("status") != "CANONICAL_PRIMARY_REDIRECT_RECOVERY_AUTHORIZED":
+        raise ValueError("canonical recovery URL lacks local authorization")
     journal = private_dir / "REQUEST_JOURNAL.jsonl"
     if journal.exists() and any(
         row.get("url") == url and row.get("event") in {"REQUEST_INTENT", "REQUEST_SUCCESS"}
@@ -597,6 +716,18 @@ def select_fallback_delta(scan25: str, scan27: str) -> int | None:
     return None
 
 
+def primary_observation_action(observation: str, recovered_canonical: bool) -> str:
+    if observation == "VISIBLE":
+        return "RESOLVE_STAGE1"
+    if observation == "VISIBLY_ABSENT":
+        return (
+            "STOP_FALLBACK_REQUIRES_PUBLIC_AMENDMENT"
+            if recovered_canonical
+            else "AUTHORIZE_REGISTERED_FALLBACK"
+        )
+    return "STOP_AMBIGUOUS_OR_UNREADABLE"
+
+
 def journal_rows(private_dir: Path) -> list[dict[str, Any]]:
     path = private_dir / "REQUEST_JOURNAL.jsonl"
     return [json.loads(line) for line in path.read_text(encoding="utf-8").splitlines()]
@@ -614,13 +745,22 @@ def build_resolution_draft(
     required_scans = [26] if branch == "PRIMARY_SCAN26_VISIBLE" else [26, 25, 27]
     evidence_rows = []
     for scan in required_scans:
-        url = thumbnail_url(scan)
-        matches = [row for row in successes if row.get("url") == url]
+        allowed_urls = (
+            {PRIMARY_THUMBNAIL_URL, CANONICAL_PRIMARY_THUMBNAIL_URL}
+            if scan == 26
+            else {thumbnail_url(scan)}
+        )
+        matches = [row for row in successes if row.get("url") in allowed_urls]
         if len(matches) != 1:
             raise ValueError(f"scan {scan}: expected exactly one acquisition success record")
         success = matches[0]
+        url = success["url"]
         saved = (private_dir / success["filename"]).read_bytes()
-        validation = validate_thumbnail(saved)
+        validation = (
+            validate_canonical_primary_thumbnail(saved)
+            if url == CANONICAL_PRIMARY_THUMBNAIL_URL
+            else validate_thumbnail(saved)
+        )
         if len(saved) != success.get("observed_bytes") or sha256_bytes(saved) != success.get("raw_sha256"):
             raise ValueError(f"scan {scan}: saved bytes differ from acquisition success record")
         observation_matches = [row for row in state["observations"] if row.get("scan") == scan]
@@ -770,10 +910,20 @@ def record_primary(private_dir: Path, observation: str) -> None:
     if state.get("status") != "PRIMARY_ACQUIRED_AWAITING_OBSERVATION":
         raise ValueError("record-primary requires PRIMARY_ACQUIRED_AWAITING_OBSERVATION")
     record_observation(private_dir, state, 26, observation)
-    if observation == "VISIBLE":
+    action = primary_observation_action(
+        observation,
+        recovered_canonical="redirect_recovery_authorization_sha256" in state,
+    )
+    if action == "RESOLVE_STAGE1":
         finish_resolution(private_dir, state, "PRIMARY_SCAN26_VISIBLE", 0)
-    elif observation == "VISIBLY_ABSENT":
+    elif action == "AUTHORIZE_REGISTERED_FALLBACK":
         state["status"] = "PRIMARY_VISIBLY_ABSENT__FALLBACK_AUTHORIZED"
+        save_state(private_dir, state)
+    elif action == "STOP_FALLBACK_REQUIRES_PUBLIC_AMENDMENT":
+        state["status"] = (
+            "STOPPED_CANONICAL_PRIMARY_VISIBLY_ABSENT__"
+            "FALLBACK_REQUIRES_PUBLIC_AMENDMENT"
+        )
         save_state(private_dir, state)
     else:
         state["status"] = "STOPPED_PRIMARY_AMBIGUOUS_OR_UNREADABLE"
@@ -782,6 +932,8 @@ def record_primary(private_dir: Path, observation: str) -> None:
 
 def acquire_fallback(private_dir: Path) -> None:
     state = load_state(private_dir)
+    if "redirect_recovery_authorization_sha256" in state:
+        raise ValueError("redirect amendment authorizes no fallback request")
     if state.get("status") not in {"PRIMARY_VISIBLY_ABSENT__FALLBACK_AUTHORIZED", "SCAN25_ACQUIRED__SCAN27_PENDING"}:
         raise ValueError("fallback requires recorded primary VISIBLY_ABSENT")
     if state.get("status") == "PRIMARY_VISIBLY_ABSENT__FALLBACK_AUTHORIZED":
@@ -827,14 +979,29 @@ def self_test() -> dict[str, Any]:
     checks.append(("pillow_version_exact", PILLOW_VERSION == "10.2.0"))
     checks.append(("thumbnail_urls_v3_width1200", thumbnail_url(26).endswith("/full/1200,/0/default.jpg")))
     checks.append(("allowlist_exact_four", ALLOWLIST == {MANIFEST_URL, thumbnail_url(25), thumbnail_url(26), thumbnail_url(27)}))
+    checks.append(("recovery_allowlist_exact_one", RECOVERY_ALLOWLIST == {CANONICAL_PRIMARY_THUMBNAIL_URL}))
+    checks.append(("canonical_recovery_dimensions_literal", CANONICAL_PRIMARY_THUMBNAIL_URL.endswith("/full/1200,1790/0/default.jpg")))
+    checks.append(("published_pre_recovery_hashes_literal", PRE_RECOVERY_STATE_SHA256 == "8b78a38dff45b6a25587b8156e36a6639d9f9e034ad058468fb6a0fcfb056783" and PRE_RECOVERY_JOURNAL_SHA256 == "f3011ae956b0f7afb49b94355b3ac92f4bb06edf8d366825458aaa0450eb2cc6"))
     checks.append(("fallback_left", select_fallback_delta("VISIBLE", "VISIBLY_ABSENT") == -1))
     checks.append(("fallback_right", select_fallback_delta("VISIBLY_ABSENT", "VISIBLE") == 1))
     checks.append(("fallback_double_visible_stops", select_fallback_delta("VISIBLE", "VISIBLE") is None))
     checks.append(("fallback_ambiguous_stops", select_fallback_delta("AMBIGUOUS_OR_UNREADABLE", "VISIBLE") is None))
+    checks.append(("original_primary_absent_authorizes_registered_fallback", primary_observation_action("VISIBLY_ABSENT", False) == "AUTHORIZE_REGISTERED_FALLBACK"))
+    checks.append(("recovered_primary_absent_requires_new_public_amendment", primary_observation_action("VISIBLY_ABSENT", True) == "STOP_FALLBACK_REQUIRES_PUBLIC_AMENDMENT"))
+    checks.append(("recovered_primary_visible_can_resolve_stage1", primary_observation_action("VISIBLE", True) == "RESOLVE_STAGE1"))
     jpeg_buffer = io.BytesIO()
     Image.new("RGB", (1200, 1792), (1, 2, 3)).save(jpeg_buffer, format="JPEG")
     synthetic_jpeg = jpeg_buffer.getvalue()
     checks.append(("real_jpeg_full_decode", jpeg_dimensions(synthetic_jpeg) == (1200, 1792)))
+    canonical_buffer = io.BytesIO()
+    Image.new("RGB", (1200, 1790), (1, 2, 3)).save(canonical_buffer, format="JPEG")
+    checks.append(("canonical_primary_dimensions_accept", validate_canonical_primary_thumbnail(canonical_buffer.getvalue()) == {"height": 1790, "width": 1200}))
+    wrong_canonical_rejected = False
+    try:
+        validate_canonical_primary_thumbnail(synthetic_jpeg)
+    except ValueError:
+        wrong_canonical_rejected = True
+    checks.append(("canonical_primary_wrong_height_rejected", wrong_canonical_rejected))
     truncated_rejected = False
     try:
         jpeg_dimensions(synthetic_jpeg[:100])
@@ -935,7 +1102,7 @@ def self_test() -> dict[str, Any]:
 def main() -> int:
     parser = argparse.ArgumentParser()
     subparsers = parser.add_subparsers(dest="command", required=True)
-    for command in ("acquire-primary", "acquire-fallback"):
+    for command in ("acquire-primary", "acquire-fallback", "authorize-redirect-recovery", "resume-canonical-primary"):
         subparser = subparsers.add_parser(command)
         subparser.add_argument("--private-dir", required=True)
     record_primary_parser = subparsers.add_parser("record-primary")
@@ -964,6 +1131,10 @@ def main() -> int:
                 acquire_fallback(private_dir)
             elif args.command == "record-fallback":
                 record_fallback(private_dir, args.scan25_observation, args.scan27_observation)
+            elif args.command == "authorize-redirect-recovery":
+                authorize_redirect_recovery(private_dir)
+            elif args.command == "resume-canonical-primary":
+                resume_canonical_primary(private_dir)
     except Exception as exc:
         print(f"FAIL {type(exc).__name__}: {exc}", file=sys.stderr)
         return 1

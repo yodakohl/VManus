@@ -14847,3 +14847,12 @@ symlink/path guards and complete public hash/timing evidence. Stage B remains
 locked until the Stage1 resolution is public. Profile SHA256 is
 `7ee7e0e6...5e81`;offline self-tests pass25/25 and runtime validation53/53.
 No source image,Voynich target,word,plaintext or meaning has yet been opened.
+
+The first Stage-A execution then fetched the exact registered manifest
+(261,778 bytes,SHA256 `6f25dbd8...5fd3`) and stopped on the scan26 width-only
+request before following BSB's redirect to literal size `1200,1790`. No image
+body byte or JPEG was saved or opened. The old URL is retired. A public
+correction binds the pre-recovery state SHA256 `8b78a38d...6783`,journal SHA256
+`f3011ae9...2cc6`,and canonical URL SHA256 `bab59a55...aa15`;only a hash-exact
+offline recovery followed by that one canonical request is now allowed.
+Manifest refetch,fallbacks and Stage B remain forbidden.
