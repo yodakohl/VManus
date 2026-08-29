@@ -192,7 +192,7 @@ schwächeren Y-, CKH- und Einzelbeleg-Reste.
 
 ## Reproduzierbarkeit und Grenze
 
-Der unabhängige Validator führt 47.082 Einzelprüfungen aus und erzeugt alle
+Der unabhängige Validator führt 47.164 Einzelprüfungen aus und erzeugt alle
 16 Builder-Artefakte bytegleich neu. Er bestätigt den vollständigen
 24-Oberflächen-Zensus, die 332 Zielvorkommen, die acht Aufnahmeentscheidungen,
 das unveränderte V15-Präfix, 280 V16-Zeilen, 39 vollständige Passagen und alle
