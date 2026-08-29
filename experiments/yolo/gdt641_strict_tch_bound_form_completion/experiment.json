@@ -1,0 +1,253 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "The approximately 2.3 MB artifact set retains the 4,128-row V18 coverage and complete one-hole/complete editions needed for exact downstream replay; it contains no images, and mixed transcription sources are accessed only through guarded explicit-page projections.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "GDT641 tests exactly the two reader-exact strict TCH holes exposed by GDT640. tcheor and chetchy survive all seven occurrences and enter V18 only as complete exact surfaces, adding two strict-complete lines. No E, OR, CHE, TCH, Y, substring, wrapper, naked body or absent cell is newly globalized. These are replaceable technical-codebook readings, not confirmed plaintext, phonetics, historical words or a language identification.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt641_strict_tch_bound_form_completion/src/run.py",
+    "validate": "python3 experiments/yolo/gdt641_strict_tch_bound_form_completion/src/validate.py"
+  },
+  "created": "2026-08-30",
+  "dependencies": [
+    "GDT624",
+    "GDT625",
+    "GDT628",
+    "GDT633",
+    "GDT640"
+  ],
+  "experiment_id": "GDT641",
+  "inputs": [
+    {
+      "path": "experiments/yolo/gdt624_productive_quality_shell_grid/REPORT.md",
+      "role": "TCH quality shell, e-stage and f29 part-quality interpretation",
+      "sha256": "30eef6793c7f8f11f0248eb7f4edff360b0596f4d762a250c91cc06f3fee2129"
+    },
+    {
+      "path": "experiments/yolo/gdt624_productive_quality_shell_grid/artifacts/GRID_CELLS.tsv",
+      "role": "complete quality-form lattice and TCH form ladder",
+      "sha256": "8014c397ce86191bf3fb1f524ff2a1a54592d93c89b486abda57f99557a2e718"
+    },
+    {
+      "path": "experiments/yolo/gdt624_productive_quality_shell_grid/artifacts/LOCAL_HERBAL_BINDINGS.tsv",
+      "role": "f29 shor-chetchy local part-quality contact",
+      "sha256": "397cbdaa79960702fd9d604929f2bc6579239a4c38c7bfc80eb41b82c1b65899"
+    },
+    {
+      "path": "experiments/yolo/gdt625_ordered_quality_state_transitions/REPORT.md",
+      "role": "bound TCH cold-dry interpretation and local readings",
+      "sha256": "56a3e9fc0ffc623f57b1fa6ff9c5dc73cfb610731081992a97e932cb19b34db4"
+    },
+    {
+      "path": "experiments/yolo/gdt625_ordered_quality_state_transitions/artifacts/ANCHOR_QUALITY_CONTACTS.tsv",
+      "role": "part-to-quality anchor contacts",
+      "sha256": "d3a6de345d3d06742e0dfb6d39221ba47e9d2d5483ed4b7ac6c62ab4d992e6b6"
+    },
+    {
+      "path": "experiments/yolo/gdt625_ordered_quality_state_transitions/artifacts/TERMINAL_QUALITY_OCCURRENCES.tsv",
+      "role": "complete terminal-quality census including chetchy",
+      "sha256": "f213bd912c9974a711132824197a2a429247496ad40237726035567b12ad15a3"
+    },
+    {
+      "path": "experiments/yolo/gdt628_chol_measure_frame/REPORT.md",
+      "role": "OL/OR material-part and degree/amount semantics",
+      "sha256": "c66cdf8f4c7766ec1f32a9f2eeae1bf599fff95386c2f93fa71733cd1f279264"
+    },
+    {
+      "path": "experiments/yolo/gdt628_chol_measure_frame/artifacts/OL_OR_QUALITY_CARRIER_MATRIX.tsv",
+      "role": "bound OL/OR carrier cells supporting tcheor",
+      "sha256": "9b110ae4f37c3591149306a8f794d027374ce88c90358977a4eaede8024361d9"
+    },
+    {
+      "path": "experiments/yolo/gdt633_cth_interfix_semantic_contrasts/REPORT.md",
+      "role": "outer ch+e dry-attributive architecture",
+      "sha256": "9e1b792cd3344a6eccfd05b390676bc00b27aa129f3d852a06b2785e97eb6a02"
+    },
+    {
+      "path": "experiments/yolo/gdt633_cth_interfix_semantic_contrasts/artifacts/WORKING_DICTIONARY_V10.tsv",
+      "role": "frozen dry-attributive che shell value",
+      "sha256": "a69edeecf457a78ef777e4aa0c929e7bd3f48a806275eee0fb89ed0f2d648f9c"
+    },
+    {
+      "path": "experiments/yolo/gdt640_downstream_component_prediction/REPORT.md",
+      "role": "frozen target predictions and V17 interpretation",
+      "sha256": "68d7a1089e298c0050f40a68a00fdb67507a0902691b516be00e532bf96aeb41"
+    },
+    {
+      "path": "experiments/yolo/gdt640_downstream_component_prediction/artifacts/ALL_LINE_CONCRETE_COVERAGE_V17.tsv",
+      "role": "frozen V17 complete-population coverage baseline",
+      "sha256": "9cf76509759e419dd4f6417ef42ede24777affd9d17039c9a9758eb5294073ca"
+    },
+    {
+      "path": "experiments/yolo/gdt640_downstream_component_prediction/artifacts/COMPLETE_PASSAGES_V17.tsv",
+      "role": "frozen forty-two-line V17 complete baseline",
+      "sha256": "212cf7f051e5916dcb048fa5d26ff6192da3929ebef42a0c293829d5c8b86142"
+    },
+    {
+      "path": "experiments/yolo/gdt640_downstream_component_prediction/artifacts/ONE_UNKNOWN_PASSAGES_V17.tsv",
+      "role": "frozen V17 one-hole frontier containing both strict targets",
+      "sha256": "25f13d4e3cf1bb3f016835cf7dd70fcd89febe8b45b9fb86dc23ff1d1b67d248"
+    },
+    {
+      "path": "experiments/yolo/gdt640_downstream_component_prediction/artifacts/PAGE_ALLOWLIST.tsv",
+      "role": "inherited 179-page f1r-free and f84-free scope",
+      "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483"
+    },
+    {
+      "path": "experiments/yolo/gdt640_downstream_component_prediction/artifacts/RESULT.json",
+      "role": "bound V17 result, guards and coverage totals",
+      "sha256": "5b8d26709e080ed81898ec83958cb4849c8c7eb01bcdbeb5a9513f8b2b84f8cd"
+    },
+    {
+      "path": "experiments/yolo/gdt640_downstream_component_prediction/artifacts/V17_EXACT_TOKEN_GLOSSARY.tsv",
+      "role": "frozen executable 236-surface V17 glossary",
+      "sha256": "6bf8c8862fe937015b07e9d5989e4dbaf9c2a7243b1e0d1bc5d766b8491ab459"
+    },
+    {
+      "path": "experiments/yolo/gdt640_downstream_component_prediction/artifacts/WORKING_DICTIONARY_V17.tsv",
+      "role": "complete inherited 283-entry dictionary prefix",
+      "sha256": "d5d1d15b9c5326787d69245050ccebaf978ea2aa4a6df1d353189fad9cb9cb67"
+    },
+    {
+      "path": "experiments/yolo/gdt640_downstream_component_prediction/src/run.py",
+      "role": "guarded V17 builder and line-coverage helpers",
+      "sha256": "bc9ef06f0f5e3a98f4620234a92b6b37f4214bbf323a8627cb569e5fff2cb344"
+    },
+    {
+      "path": "transcription/voynich_cross_transcription_lines.tsv",
+      "role": "alternate-reader source queried only through guarded explicit-page projection",
+      "sha256": "ff3a4559004a29764c60102326de154b29fbba06a2a206bdd76d7feda432e16c"
+    },
+    {
+      "path": "transcription/voynich_zl3b_tokens.tsv",
+      "role": "token source queried only through guarded explicit-page projection",
+      "sha256": "6a061a26edc05ff37dc386c2215774c229a5ff087d3091e68bdd4983a6c007aa"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt641_strict_tch_bound_form_completion/METHOD.md",
+      "role": "frozen two-target all-occurrence method and decision ceiling",
+      "sha256": "36f35288b7b07c3854c0051e4cc3e4379d8721c707b88856a334e08a0e3ee644"
+    },
+    {
+      "path": "experiments/yolo/gdt641_strict_tch_bound_form_completion/README.md",
+      "role": "short result and execution entry point",
+      "sha256": "8b19c743caa2679f9df50c6702874e48ad5338b1c67f07978a7fd24963157eab"
+    },
+    {
+      "path": "experiments/yolo/gdt641_strict_tch_bound_form_completion/REPORT.md",
+      "role": "primary component, passage, historical and next-route report",
+      "sha256": "d7496b7d35e5c4e8ae6bb322cf16b0c810c86f4653f4af72fa61203b768d0f4c"
+    },
+    {
+      "path": "experiments/yolo/gdt641_strict_tch_bound_form_completion/artifacts/README.md",
+      "role": "artifact map and retention explanation",
+      "sha256": "a2260c109b0007656eebe0a2bc44c5a2636eda261e747fa262f72c8e30dc9779"
+    },
+    {
+      "path": "experiments/yolo/gdt641_strict_tch_bound_form_completion/artifacts/ACCEPTED_WHOLE_SURFACE_DEFAULTS.tsv",
+      "role": "two accepted exact-whole V18 cards",
+      "sha256": "03376d2a75552bd2bd466812e2c87594a0a456b43a1bdb7e9d70cce15bfddfb0"
+    },
+    {
+      "path": "experiments/yolo/gdt641_strict_tch_bound_form_completion/artifacts/ALL_LINE_CONCRETE_COVERAGE_V18.tsv",
+      "role": "scope-sensitive V18 coverage for all 4,128 physical lines",
+      "sha256": "dff9508e2c68564fd28066a87559c0102cd1a656a0be22a955b8e0ff31a032cc"
+    },
+    {
+      "path": "experiments/yolo/gdt641_strict_tch_bound_form_completion/artifacts/ALL_OCCURRENCE_SEMANTIC_AUDIT.tsv",
+      "role": "all seven complete target occurrences rendered before decision",
+      "sha256": "97c20af7b4b0652eb23f17fbbdc6693e19bd83401b8380a4175bb7db27851a52"
+    },
+    {
+      "path": "experiments/yolo/gdt641_strict_tch_bound_form_completion/artifacts/COMPLETE_PASSAGES_V18.tsv",
+      "role": "forty-four fully covered V18 multi-token lines",
+      "sha256": "323f8bac16c0691494bc9969284160f4927a357dce594fe5578650ea26a3718b"
+    },
+    {
+      "path": "experiments/yolo/gdt641_strict_tch_bound_form_completion/artifacts/COMPONENT_BINDING_AUDIT.tsv",
+      "role": "six source-bound target component justifications",
+      "sha256": "f21ca88eeaffec77f1ed24f3ee9b09ca6781351571924ac9f181260439b3b918"
+    },
+    {
+      "path": "experiments/yolo/gdt641_strict_tch_bound_form_completion/artifacts/FORM_FAMILY_ATLAS.tsv",
+      "role": "fifteen observed TCH/E/OL/OR and CHE/CHO sister forms",
+      "sha256": "ccbbce3c7a1c208a4f39231af88905ed58138ae055763bfa1db1c5690ccad1d0"
+    },
+    {
+      "path": "experiments/yolo/gdt641_strict_tch_bound_form_completion/artifacts/NEWLY_COMPLETED_LINES.tsv",
+      "role": "two newly completed literal and smoothed readings",
+      "sha256": "9e017cf68673fc975aa24e5122a5e7a9cc9041d66109b4ad9514da00dce74ff2"
+    },
+    {
+      "path": "experiments/yolo/gdt641_strict_tch_bound_form_completion/artifacts/ONE_UNKNOWN_PASSAGES_V18.tsv",
+      "role": "sixty-line V18 one-hole frontier",
+      "sha256": "abc915a855acb0fd8b23c4e2bd2d656350efd92b449d9dca1f286831824db826"
+    },
+    {
+      "path": "experiments/yolo/gdt641_strict_tch_bound_form_completion/artifacts/PAGE_ALLOWLIST.tsv",
+      "role": "inherited guarded page allow-list",
+      "sha256": "f0def5a04bd91443cf4770c78f1b67e62cac2060627d8de38faba27899188483"
+    },
+    {
+      "path": "experiments/yolo/gdt641_strict_tch_bound_form_completion/artifacts/RESULT.json",
+      "role": "hash-bound experiment result",
+      "sha256": "508d182b9d0d8d518c2d3880acc99f66a07f2fcb1e420a65a7b5613cb4b7c4ff"
+    },
+    {
+      "path": "experiments/yolo/gdt641_strict_tch_bound_form_completion/artifacts/ROUND_COVERAGE_COUNTS.tsv",
+      "role": "coverage deltas after each promotion",
+      "sha256": "9ae5d90b2b5fda1d6c1472b11183c71e2d9cc734ae3f2dfa6fecdc14468c9f18"
+    },
+    {
+      "path": "experiments/yolo/gdt641_strict_tch_bound_form_completion/artifacts/SEQUENTIAL_DECISION_LEDGER.tsv",
+      "role": "ordered accept decisions and dictionary hash chain",
+      "sha256": "da213c77f27155f357f2c6b0682c3fb9b9902ae965e4beab8193c28bc1b1619b"
+    },
+    {
+      "path": "experiments/yolo/gdt641_strict_tch_bound_form_completion/artifacts/TARGET_DECISION_DECK.tsv",
+      "role": "two GDT640-frozen targets, rivals and final decisions",
+      "sha256": "a2253210cefb73f9d3e62c140d09ba4b50f20d7b86de11805e9f48b78dba04f7"
+    },
+    {
+      "path": "experiments/yolo/gdt641_strict_tch_bound_form_completion/artifacts/V18_EXACT_TOKEN_GLOSSARY.tsv",
+      "role": "238 executable exact token surfaces with scope state",
+      "sha256": "23ea76159513ae7b35b2d6350730d2fd852f5afbbca5cfff432f9722f71da121"
+    },
+    {
+      "path": "experiments/yolo/gdt641_strict_tch_bound_form_completion/artifacts/VALIDATION.json",
+      "role": "independent guarded-census and byte-replay certificate",
+      "sha256": "fae90349e99ad5c3591cd922f3c9ff8f3fc029c0e411426b6c3a4b79a9a05383"
+    },
+    {
+      "path": "experiments/yolo/gdt641_strict_tch_bound_form_completion/artifacts/WORKING_DICTIONARY_V18.tsv",
+      "role": "complete 285-entry dictionary preserving every V17 row",
+      "sha256": "cc942385d161725301cdc321f99b1c86ba7f9de703d4051fbf569218a6501410"
+    },
+    {
+      "path": "experiments/yolo/gdt641_strict_tch_bound_form_completion/src/run.py",
+      "role": "deterministic guarded strict-TCH completion builder",
+      "sha256": "7d0bea901c3a5668f0275ca8aa802194758ef182c15d60e5c24a7e63cfbe902e"
+    },
+    {
+      "path": "experiments/yolo/gdt641_strict_tch_bound_form_completion/src/validate.py",
+      "role": "independent census, prefix, component and byte-replay validator",
+      "sha256": "2523e16ecb8b4bdfa1d72c7886f1d1421b40e15588ee50884d10e55726275657"
+    }
+  ],
+  "question": "Do the two reader-exact strict one-hole forms exposed by GDT640 admit concrete component-preserving meanings that survive their complete seven-occurrence circuits?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "strict_tch_bound_form_completion",
+  "status": "PASS_2_STRICT_TCH_EXACT_DEFAULTS__2_NEW_COMPLETE_LINES",
+  "title": "Strict TCH bound-form completion",
+  "updated": "2026-08-30",
+  "validation": {
+    "artifact": "experiments/yolo/gdt641_strict_tch_bound_form_completion/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}

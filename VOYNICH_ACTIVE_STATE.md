@@ -15665,3 +15665,44 @@ Three old two-hole lines now enter the one-hole frontier. GDT641 starts with
 the two strict exact forms tcheor at f15r.12 and chetchy at f37v.8,then tests
 reader-unstable odaiin at f10r.12 and qotomody's M field. No new page,image,
 f1r,f84*,GDT418 value,generic filler,bare body or absent-cell transfer.
+
+## GDT641 completes the two strict TCH holes without dropping either dry field
+
+GDT641 stays on the guarded179-page V17 scope and consumes exactly the two
+reader-exact strict holes frozen by GDT640. tcheor occurs3 times and chetchy4;
+all seven complete target surfaces are exact in ZL3b,IT2a and RF1b. Four
+contexts have enough already concrete neighbours for a positive local reading
+and three remain opaque;there is no reader-boundary or hard semantic conflict.
+
+tcheor=tch+e+or is a cold-dry drug part. Its exact sister lattice is
+tchol/tchor=16/21 and tcheol/tcheor=6/3,with the separate
+tchy/tchey/tcheey ladder27/18/6. The e field is expressed by German adjective
+binding rather than the metaword bound;the cold-dry drug-portion reading stays
+the explicit rival.
+
+chetchy is corrected from the underinformative GDT640 sketch to
+ch+e+tch+y=dried drug;cold-dry,base form. It is not a CTH leaf form. The outer
+ch+e carries a physically dried attributed drug while the inner tch retains
+the cold-dry quality class and y the base form. This double scope has direct
+historical architectural comparators:early-fifteenth-century Wellcome MS542
+places drug/part heads beside hot/dry abbreviations and grades;VI Fc29 calls
+galangal a herb or dry root;Pal.lat.1234 combines grade tables,dose and materia
+medica;the older Victoria Fragm.Lat.4 explicitly lets physically dried seed and
+root be dry in degreeII. None identifies a Voynich value.
+
+V18 preserves all283 V17 rows and adds the two exact-whole cards=285;the
+glossary grows236→238 and known positions9741→9748. Complete multi-token lines
+grow42→44 and clean exact lines31→33;one-hole lines fall62→60 and clean19→17.
+The new complete readings are f15r.12=cold drug portion,flower/fruit head,
+cold-dry drug part,dry base,leaf/herb classIII,moist gradeI;and f37v.8=cold
+drug portion,dry preparation formIII,dried drug cold-dry base form,gradeIII.
+The independent validator passes341 checks and byte-replays all14 builder
+artifacts plus RESULT.
+
+No new one-hole line appears. Route-check returns GDT628–630 and GDT633 as the
+relevant carrier primaries but no prior exact-whole completion of the next
+surface set. The next pass audits cheol142=dry drug material,cheor71=dry drug
+part and tcheol6=cold-dry drug material separately across every occurrence,
+retaining part/portion and degree/amount rivals. After that remain strict
+keechy,chokshy,qotomody and reader-unstable odaiin. No component or absent
+surface is promoted by prediction alone.

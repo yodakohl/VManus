@@ -284,8 +284,8 @@ The complete route memory remains in
 `experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv` and the full
 ledger. Use those files for a proposed-route duplicate audit, not on every turn.
 ## Next useful route
-GDT640 tests the four strict holes exposed in advance by GDT639 over151 occurrences. qotor=cold drug portion(26),okal=preparation from hot raw material formI(123),and chotcheol=dry preparation from cold-dry drug material(1) enter V17 and close3 clean lines;chotcheol is corrected to cho+tch+e+ol from GDT625's bound TCH block. qotomody retains cold preparation-measure,finished base form but stays held because internal m is unbound. V17=283 dictionary rows/236 surfaces;complete39→42,clean28→31;known positions+150. Validator passes165 checks and byte-replays16 outputs.
-Next GDT641 attacks the newly exposed strict tcheor at f15r.12 and chetchy at f37v.8,then reader-unstable odaiin at f10r.12 and qotomody's M field. No f1r,new page/image,GDT418 import,generic filler,naked-body or absent-cell transfer.
+GDT641 promotes the two reader-exact strict holes exposed by GDT640 after all7 occurrences: tcheor=tch+e+or=cold-dry drug part(3),and chetchy=ch+e+tch+y=dried drug;cold-dry base form(4).The latter is not CTH and keeps both written dry scopes.V18=285 dictionary rows/238 surfaces;known positions9748;complete42→44,clean31→33;one-hole62→60.The audit has4 concrete-compatible and3 opaque contexts,zero reader or hard conflicts;341 checks pass.No new one-hole line appears.
+Next audit exact cheol(142)=dry drug material,cheor(71)=dry drug part and tcheol(6)=cold-dry drug material through separate all-occurrence circuits;GDT628–630 keep part/portion and degree/amount rivals explicit.Then return to strict keechy,chokshy,qotomody and reader-unstable odaiin.No f1r,new page/image,GDT418 import,generic filler,bare component or absent-cell transfer.
 ## Primary routing references
 
 - `experiments/semantic_assumptions/grammar/CONFIRMED_GRAMMAR.md`
