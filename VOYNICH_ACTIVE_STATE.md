@@ -14808,22 +14808,24 @@ double-transcribed before any source entry is usable.
 ## GDT618 registers the five-entry source reading deck
 
 GDT618 converts that developmental lead into a source-only machine-readable
-plan. Its stronger nonreused deck is `Balsamus` (Lat.6823 f25v / Clm f10v /
-Masson p96 / Sloane f10v),`Cerfolium` (f44v/f35v/p68/f30v),`Citruli`
-(f42v/f40r/p77/f32v),`Cucurbita` (f42r/f46r/p121/f36r),and `Diptamus`
-(f57v/f48v/p126/f37v). Each Lat.6823 row has an official Mandragore Latin
-rubric;each Wagner row prints all three Clm/Masson/Sloane locators explicitly.
-The Gallica canvas/service bindings are respectively f58/f96/f92/f91/f122.
+plan. Its first deck incorrectly counted Latin 6823 f42v `Citruli` and f42r
+`Cucurbita` as different physical folios. The corrected nonreused deck is
+`Balsamus` (Lat.6823 f25v / Clm f10v / Masson p96 / Sloane f10v),`Cerfolium`
+(f44v/f35v/p68/f30v),`Liquiritia` (f85v/f80r/p209/f53v),`Cucurbita`
+(f42r/f46r/p121/f36r),and `Diptamus` (f57v/f48v/p126/f37v). Each Lat.6823 row
+has an official Mandragore rubric locator;each Wagner row prints all three
+Clm/Masson/Sloane locators. Gallica canvases are f58/f96/f178/f91/f122.
 
 The first public plan was byte-bound at SHA256 prefix `6cd4bca1` and passed
 46/46 checks. Its subsequent access-language audit corrects “zero network
 requests” to “zero builder/validator requests”:the developmental research had
 already accessed BSB manifest metadata,five Mandragore notices and Wagner's
 PDF,but no external manuscript page image or Voynich data.
-The corrected plan is byte-bound at SHA256 prefix `24bb75a1` and passes47/47
-checks. Lat.6823 alone will supply the heading plus first twelve running
-tokens;two readers must transcribe it independently and retain both raw
-readings,a difference ledger and reconciled scoring bytes. Clm is a separate
-locator/reading control and may not repair Lat.6823. Next publish this plan,
-then bind an exact image-request profile before acquiring only those external
-source pages. No Voynich target opens until all five source packets exist.
+That access-language correction was byte-bound at SHA256 prefix `24bb75a1`.
+The later physical-folio correction replaces `Citruli` with exact-name
+`Liquiritia`;Mandragore gives f85v and `de liquiritia. rubrica`,while Wagner
+gives Clm f80r/Masson p209/Sloane f53v. Its plan SHA256 is `2df86904...9502`
+and runtime validation passes52/52. The replacement search accessed official
+Mandragore HTML metadata and the already hash-bound Wagner PDF/text,but no
+manuscript image or Voynich material. Lat.6823 alone supplies the heading plus
+first twelve running tokens;Clm remains a control and may not repair it.

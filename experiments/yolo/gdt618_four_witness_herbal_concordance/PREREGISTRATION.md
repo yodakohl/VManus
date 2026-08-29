@@ -2,7 +2,7 @@
 
 Registered: 2026-08-29
 
-Status: `SOURCE_PLAN_REGISTERED__NO_IMAGES_OPENED`
+Status: `SOURCE_PLAN_CORRECTED__NONREUSED_PHYSICAL_FOLIOS__NO_IMAGES_OPENED`
 
 ## Exposure statement
 
@@ -13,13 +13,15 @@ as blind, sealed, held, or prospectively selected. No Voynich page,
 transcription, candidate pairing, score, or mapping was opened while forming
 this source deck.
 
-The developmental search did access the official BSB manifest metadata, the
-five Mandragore notice pages, and Wagner's PDF before public registration.
-Those accesses supplied the openly declared locator deck and PDF hash; the BSB
-manifest and PDF are not retained here. No external manuscript page image,
-Voynich material, or target feature was opened. The zero-request counter below
-therefore describes the deterministic registration builder and validator, not
-the earlier disclosed source research.
+Developmental metadata network access occurred during the initial source
+search and the later physical-folio replacement search. The research requested
+official Mandragore search and notice HTML metadata, including the `Liquiritia`
+notice and alternative candidates, and consulted/downloaded the already
+hash-bound Wagner PDF/text. The exact aggregate request count is not asserted.
+The BSB manifest and Wagner PDF are not retained here. No external manuscript
+image bytes, Voynich material, or target feature were opened. Every zero-network
+counter below describes only the deterministic registration builder and
+validator, not the disclosed developmental research.
 
 ## Frozen witness roles
 
@@ -37,26 +39,43 @@ the later manual source pass.
 
 ## Frozen candidate rows
 
+### Registered correction and deviation
+
+The first version incorrectly counted `f42v` and `f42r` as distinct because it
+tested complete locator strings. DEV03 `Citruli` and DEV04 `Cucurbita`
+therefore reused physical leaf 42 of Latin 6823, violating GDT617's explicit
+nonreused-physical-folio gate. This is a material correction, not a new result:
+`Citruli` is superseded and DEV03 is replaced by `Liquiritia`; the other four
+retained rows are unchanged. Future validation strips the terminal `r`/`v`
+before checking every witness. The replacement search used official Mandragore
+HTML metadata and the already hash-bound Wagner PDF/text as disclosed above;
+the aggregate request count is not asserted. It opened no manuscript image
+bytes or Voynich material.
+
 1. `Balsamus`: Latin 6823 f25v (Gallica canvas/service f58; Mandragore
    `cgfbt113999s`); Clm 28531 f10v; Masson 116 p96; Sloane 4016 f10v; Wagner
    PDF page 220.
 2. `Cerfolium`: Latin 6823 f44v (f96; `cgfbt114071j`); Clm 28531 f35v;
    Masson 116 p68; Sloane 4016 f30v; Wagner PDF page 222.
-3. `Citruli`: Latin 6823 f42v (f92; `cgfbt1140616`); Clm 28531 f40r; Masson
-   116 p77; Sloane 4016 f32v; Wagner PDF page 222.
+3. `Liquiritia`: Latin 6823 f85v (f178; native 3284×4557;
+   `cgfbt114231s`, rubric `de liquiritia. rubrica`); Clm 28531 f80r; Masson
+   116 p209; Sloane 4016 f53v; Wagner PDF page 225.
 4. `Cucurbita`: Latin 6823 f42r (f91; `cgfbt114059w`); Clm 28531 f46r;
    Masson 116 p121; Sloane 4016 f36r; Wagner PDF page 222.
 5. `Diptamus`: Latin 6823 f57v (f122; `cgfbt114128s`); Clm 28531 f48v;
    Masson 116 p126; Sloane 4016 f37v; Wagner PDF page 222.
 
-No locator is reused within a witness. The exact full Gallica canvas and
-service IDs are frozen in `REGISTERED_SOURCE_PLAN.json`; no image URL or image
-request parameters are registered in this pass.
+No physical leaf is reused within a witness after a terminal recto/verso letter
+is removed. The exact full Gallica canvas and service IDs are frozen in
+`REGISTERED_SOURCE_PLAN.json`; no image URL or image request parameters are
+registered in this pass.
 
-`Ciclamen` and `Cubebe` are recorded only as superseded developmental leads.
-They were replaced before this registration by rows satisfying the stronger
-mechanical rule: one exact direct-rubric Mandragore record plus all three
-explicit Wagner locators.
+`Ciclamen` and `Cubebe` remain recorded as superseded developmental leads.
+They were replaced before the first registration by rows satisfying the
+stronger mechanical rule: one exact direct-rubric Mandragore record plus all
+three explicit Wagner locators. `Citruli` is separately recorded as superseded
+after registration because its Latin 6823 side reused `Cucurbita`'s physical
+leaf.
 
 ## Frozen transcription contract
 
@@ -74,10 +93,12 @@ used to fill or silently normalize Latin 6823.
 ## Frozen access boundary
 
 The registration builder and validator perform zero network requests and open
-zero canvases,page images,Voynich pages,Voynich transcriptions,source-to-target
-pairs,or target features. They read only already frozen GDT617 metadata files
-to bind source identities. The preceding exposure statement separately records
-the developmental metadata/PDF access. `f84` and `f84r` remain forbidden.
+zero canvases, page images, Voynich pages, Voynich transcriptions,
+source-to-target pairs, or target features. They read only already frozen
+GDT617 metadata files to bind source identities. The preceding exposure
+statement separately records the developmental HTML-metadata and Wagner
+PDF/text network access, for which no exact aggregate request count is asserted.
+`f84` and `f84r` remain forbidden.
 
 The later source-reading pass may request only the registered external witness
 resources needed for these five rows. Its exact image-request profile must be

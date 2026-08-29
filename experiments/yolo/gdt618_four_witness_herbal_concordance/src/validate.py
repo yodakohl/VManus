@@ -28,6 +28,8 @@ GDT617_REGISTRY_REL = Path("experiments/yolo/gdt617_triple_herbal_plaintext_tran
 GDT617_VALIDATION_REL = Path("experiments/yolo/gdt617_triple_herbal_plaintext_transducer/artifacts/REGISTERED_VALIDATION.json")
 BNF_MANIFEST_REL = Path("experiments/yolo/gdt617_triple_herbal_plaintext_transducer/artifacts/source_freeze/bnf_lat6823_manifest.json")
 HEX64 = re.compile(r"^[0-9a-f]{64}$")
+SIDE_SUFFIX = re.compile(r"[rv]$", re.IGNORECASE)
+REGISTRATION_STATUS = "SOURCE_PLAN_CORRECTED__NONREUSED_PHYSICAL_FOLIOS__NO_IMAGES_OPENED"
 
 
 def digest(path: Path) -> str:
@@ -36,6 +38,11 @@ def digest(path: Path) -> str:
 
 def canonical_bytes(value: dict) -> bytes:
     return (json.dumps(value, indent=2, sort_keys=True, ensure_ascii=False) + "\n").encode("utf-8")
+
+
+def physical_leaf(locator: str) -> str:
+    """Collapse a side-qualified locator to its physical leaf identifier."""
+    return SIDE_SUFFIX.sub("", locator)
 
 
 def load_builder():
@@ -63,7 +70,7 @@ class Audit:
         passed = sum(row["status"] == "PASS" for row in self.rows)
         return {
             "checks": self.rows,
-            "decision": "SOURCE_PLAN_REGISTERED__NO_IMAGES_OPENED" if self.passed else "REGISTRATION_VALIDATION_FAILURE",
+            "decision": REGISTRATION_STATUS if self.passed else "REGISTRATION_VALIDATION_FAILURE",
             "experiment_id": "GDT618",
             "failed": len(self.rows) - passed,
             "passed": passed,
@@ -90,8 +97,8 @@ def main() -> int:
 
     audit.check("plan_is_canonical_builder_output", plan_path.read_bytes() == expected_plan)
     audit.check("plan_schema_and_experiment", plan.get("schema_version") == 1 and plan.get("experiment_id") == "GDT618")
-    audit.check("registration_decision", plan.get("decision") == "SOURCE_PLAN_REGISTERED__NO_IMAGES_OPENED")
-    audit.check("developmental_exposure_declared", plan.get("candidate_selection_status") == "DEVELOPMENTAL__PREPUBLICATION_EXPOSURE_DECLARED")
+    audit.check("registration_decision", plan.get("decision") == REGISTRATION_STATUS)
+    audit.check("developmental_exposure_and_correction_declared", plan.get("candidate_selection_status") == "DEVELOPMENTAL__EXPOSURE_AND_POSTREGISTRATION_CORRECTION_DECLARED")
     audit.check("claim_ceiling", plan.get("claim_ceiling") == "SOURCE_PLAN_ONLY__NO_VERIFIED_CONCORDANCE__NO_VOYNICH_VALUE_OR_MEANING")
 
     inherited = plan.get("inherited_gdt617", {})
@@ -120,7 +127,7 @@ def main() -> int:
     audit.check("three_external_bindings", len(external) == 3)
     audit.check("bsb_official_manifest_exact_url", ext_roles.get("OFFICIAL_CLM28531_IIIF_PRESENTATION_MANIFEST", {}).get("url") == "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00107549/manifest")
     audit.check("wagner_stable_landing_exact_url", ext_roles.get("WAGNER_DISSERTATION_STABLE_LANDING", {}).get("url") == "https://freidok.uni-freiburg.de/data/2936")
-    audit.check("wagner_pdf_exact_binding", wagner.get("url") == "https://freidok.uni-freiburg.de/files/2936/ETC8E6ksNFx7t_Bv/Diss_Eva_Wagner.pdf" and wagner.get("bytes") == 62861131 and wagner.get("sha256") == "8f57e7aaee4fe049ecf3fbf201ba2bf13bd6c446438ed59098afe2d28ee7a4fe" and wagner.get("used_pdf_pages") == [220, 222])
+    audit.check("wagner_pdf_exact_binding", wagner.get("url") == "https://freidok.uni-freiburg.de/files/2936/ETC8E6ksNFx7t_Bv/Diss_Eva_Wagner.pdf" and wagner.get("bytes") == 62861131 and wagner.get("sha256") == "8f57e7aaee4fe049ecf3fbf201ba2bf13bd6c446438ed59098afe2d28ee7a4fe" and wagner.get("used_pdf_pages") == [220, 222, 225])
     audit.check(
         "external_source_access_disclosed",
         {
@@ -130,15 +137,16 @@ def main() -> int:
             "OFFICIAL_CLM28531_IIIF_PRESENTATION_MANIFEST": "DEVELOPMENTALLY_ACCESSED_METADATA_ONLY__NOT_RETAINED",
             "WAGNER_DISSERTATION_STABLE_LANDING": "DEVELOPMENTALLY_ACCESSED_METADATA_ONLY__NOT_RETAINED",
             "WAGNER_DISSERTATION_PDF__APPENDIX_1_TRIPLE_CONCORDANCE": "DEVELOPMENTALLY_ACCESSED_AND_HASH_BOUND__NOT_RETAINED_IN_GIT",
-        },
+        }
+        and wagner.get("access_detail") == "CONSULTED_AND_DOWNLOADED_DURING_DEVELOPMENTAL_RESEARCH__PDF_TEXT_USED_FOR_EXPLICIT_ROWS",
     )
 
     expected_candidates = [
-        ("DEV01", "Balsamus", "f25v", "f58", "f10v", "p96", "f10v", "cgfbt113999s", 220),
-        ("DEV02", "Cerfolium", "f44v", "f96", "f35v", "p68", "f30v", "cgfbt114071j", 222),
-        ("DEV03", "Citruli", "f42v", "f92", "f40r", "p77", "f32v", "cgfbt1140616", 222),
-        ("DEV04", "Cucurbita", "f42r", "f91", "f46r", "p121", "f36r", "cgfbt114059w", 222),
-        ("DEV05", "Diptamus", "f57v", "f122", "f48v", "p126", "f37v", "cgfbt114128s", 222),
+        ("DEV01", "Balsamus", "f25v", "f58", "f10v", "p96", "f10v", "cgfbt113999s", 220, None, None),
+        ("DEV02", "Cerfolium", "f44v", "f96", "f35v", "p68", "f30v", "cgfbt114071j", 222, None, None),
+        ("DEV03", "Liquiritia", "f85v", "f178", "f80r", "p209", "f53v", "cgfbt114231s", 225, "de liquiritia. rubrica", {"height": 4557, "width": 3284}),
+        ("DEV04", "Cucurbita", "f42r", "f91", "f46r", "p121", "f36r", "cgfbt114059w", 222, None, None),
+        ("DEV05", "Diptamus", "f57v", "f122", "f48v", "p126", "f37v", "cgfbt114128s", 222, None, None),
     ]
     actual_candidates = []
     for row in plan.get("candidates", []):
@@ -159,13 +167,19 @@ def main() -> int:
                 row.get("locators", {}).get("SLOANE4016"),
                 rubric.get("ark_id"),
                 wagner_row.get("pdf_page"),
+                rubric.get("rubric"),
+                binding.get("native_dimensions"),
             )
         )
     audit.check("five_candidate_rows_exact", actual_candidates == expected_candidates)
     audit.check("mechanical_candidate_selection_rule", plan.get("candidate_selection_rule") == "DIRECT_LAT6823_RUBRIC_ARK_PLUS_EXPLICIT_WAGNER_CLM_MASSON_SLOANE_LOCATORS")
     audit.check("candidate_status_provisional", all(row.get("locator_status") == "PROVISIONAL_FOUR_WITNESS_JOIN__MANUAL_VERIFICATION_REQUIRED" for row in plan.get("candidates", [])))
-    audit.check("locators_unique_within_each_witness", all(len({row["locators"][witness] for row in plan["candidates"]}) == 5 for witness in ("BNF_LAT6823", "BSB_CLM28531", "MASSON116", "SLOANE4016")))
+    witnesses = ("BNF_LAT6823", "BSB_CLM28531", "MASSON116", "SLOANE4016")
+    audit.check("locator_strings_unique_within_each_witness", all(len({row["locators"][witness] for row in plan["candidates"]}) == 5 for witness in witnesses))
+    audit.check("recto_verso_collapse_to_one_physical_leaf", physical_leaf("f42v") == "f42" and physical_leaf("f42r") == "f42")
+    audit.check("physical_leaf_numbers_distinct_within_each_witness", all(len({physical_leaf(row["locators"][witness]) for row in plan["candidates"]}) == 5 for witness in witnesses))
     evidence_ok = True
+    expected_wagner_pages = {row[0]: row[8] for row in expected_candidates}
     for row in plan["candidates"]:
         rubric = row["locator_evidence"]["lat6823_direct_rubric"]
         wagner_row = row["locator_evidence"]["wagner_explicit_triple"]
@@ -174,11 +188,37 @@ def main() -> int:
         evidence_ok &= wagner_row == {
             "clm28531": row["locators"]["BSB_CLM28531"],
             "masson116": row["locators"]["MASSON116"],
-            "pdf_page": 220 if row["candidate_id"] == "DEV01" else 222,
+            "pdf_page": expected_wagner_pages[row["candidate_id"]],
             "sloane4016": row["locators"]["SLOANE4016"],
         }
     audit.check("direct_rubric_and_explicit_wagner_evidence", evidence_ok)
-    audit.check("superseded_leads_recorded", plan.get("superseded_developmental_leads") == [{"headword": "Ciclamen", "reason": "REPLACED_BY_STRONGER_DIRECT_RUBRIC_PLUS_EXPLICIT_WAGNER_ROW"}, {"headword": "Cubebe", "reason": "REPLACED_BY_STRONGER_DIRECT_RUBRIC_PLUS_EXPLICIT_WAGNER_ROW"}])
+    audit.check("superseded_leads_recorded", plan.get("superseded_developmental_leads") == [{"headword": "Ciclamen", "reason": "REPLACED_BY_STRONGER_DIRECT_RUBRIC_PLUS_EXPLICIT_WAGNER_ROW"}, {"headword": "Cubebe", "reason": "REPLACED_BY_STRONGER_DIRECT_RUBRIC_PLUS_EXPLICIT_WAGNER_ROW"}, {"headword": "Citruli", "reason": "SUPERSEDED_AFTER_REGISTRATION__BNF_LAT6823_PHYSICAL_LEAF_F42_COLLISION_WITH_CUCURBITA"}])
+    audit.check(
+        "physical_leaf_collision_correction_recorded",
+        plan.get("correction")
+        == {
+            "collision_candidate_id": "DEV04",
+            "collision_headword": "Cucurbita",
+            "collision_lat6823_locator": "f42r",
+            "collision_physical_leaf": "f42",
+            "corrected": "2026-08-29",
+            "correction_builder_network_requests": 0,
+            "correction_input": "DEVELOPMENTAL_OFFICIAL_HTML_METADATA_AND_HASH_BOUND_WAGNER_RESEARCH_PLUS_ALREADY_FROZEN_BNF_MANIFEST_METADATA",
+            "correction_validator_network_requests": 0,
+            "developmental_metadata_network_access": "OCCURRED__EXACT_AGGREGATE_REQUEST_COUNT_NOT_ASSERTED",
+            "mandragore_access_scope": "OFFICIAL_SEARCH_AND_NOTICE_HTML_METADATA_ONLY__INCLUDED_LIQUIRITIA_AND_ALTERNATIVE_CANDIDATES",
+            "manuscript_image_bytes_opened": 0,
+            "original_candidate_id": "DEV03",
+            "original_headword": "Citruli",
+            "original_lat6823_locator": "f42v",
+            "reason": "INITIAL_VALIDATOR_COMPARED_SIDE_QUALIFIED_STRINGS__F42V_AND_F42R_REUSE_ONE_PHYSICAL_LEAF",
+            "replacement_candidate_id": "DEV03",
+            "replacement_headword": "Liquiritia",
+            "replacement_lat6823_locator": "f85v",
+            "voynich_material_opened": 0,
+            "wagner_pdf_text_access": "CONSULTED_AND_DOWNLOADED__PDF_ALREADY_HASH_BOUND",
+        },
+    )
 
     frozen_manifest = json.loads((ROOT / BNF_MANIFEST_REL).read_text(encoding="utf-8"))
     canvases_by_label = {canvas["label"]: canvas for canvas in frozen_manifest["sequences"][0]["canvases"]}
@@ -193,6 +233,14 @@ def main() -> int:
         canvas_bindings_ok &= binding.get("derived_from_frozen_manifest_sha256") == digest(ROOT / BNF_MANIFEST_REL)
         canvas_bindings_ok &= binding.get("image_request_profile") == "UNREGISTERED__FIX_ONLY_AFTER_PUBLIC_SOURCE_PLAN_AND_BEFORE_REQUEST"
     audit.check("lat6823_canvas_service_bindings_match_frozen_manifest", canvas_bindings_ok)
+    liquiritia = next((row for row in plan["candidates"] if row["candidate_id"] == "DEV03"), {})
+    liquiritia_canvas = canvases_by_label.get("85v", {})
+    audit.check(
+        "liquiritia_native_dimensions_match_frozen_manifest",
+        liquiritia.get("lat6823_canvas_binding", {}).get("native_dimensions") == {"height": 4557, "width": 3284}
+        and liquiritia_canvas.get("height") == 4557
+        and liquiritia_canvas.get("width") == 3284,
+    )
     audit.check("future_image_profile_deferred", plan.get("future_image_request_policy") == "PROFILE_MUST_BE_PUBLICLY_REGISTERED_AFTER_THIS_PLAN_AND_BEFORE_ANY_IMAGE_REQUEST")
 
     contract = plan.get("transcription_contract", {})
@@ -205,17 +253,29 @@ def main() -> int:
     audit.check("differences_reconciled", contract.get("difference_policy") == "RECORD_EVERY_DIFFERENCE_AND_RECONCILE_BEFORE_RESULT")
     audit.check("result_fields_complete", contract.get("result_fields") == ["READER_A_RAW", "READER_B_RAW", "DIFFERENCE_LEDGER", "RECONCILED_DIPLOMATIC", "NORMALIZATION_LEDGER", "EXACT_SCORING_BYTES"])
 
-    audit.check("zero_prohibited_registration_access", plan.get("access_audit") and all(value == 0 for value in plan["access_audit"].values()))
+    audit.check("deterministic_tooling_zero_network_and_prohibited_access", plan.get("access_audit") and all(value == 0 for value in plan["access_audit"].values()))
+    exposure = plan.get("developmental_exposure_audit", {})
     audit.check(
-        "developmental_exposure_exactly_disclosed",
-        plan.get("developmental_exposure_audit")
+        "developmental_metadata_network_access_exactly_disclosed",
+        exposure
         == {
             "bsb_manifest_metadata_accessed_before_public_registration": True,
-            "mandragore_notice_pages_accessed_before_public_registration": 5,
-            "wagner_pdf_accessed_before_public_registration": True,
-            "external_source_page_images_opened": 0,
+            "developmental_metadata_network_access_occurred": True,
+            "developmental_metadata_network_request_count": "NOT_ASSERTED",
+            "external_source_manuscript_image_bytes_opened": 0,
+            "mandragore_access_scope": "OFFICIAL_SEARCH_AND_NOTICE_HTML_METADATA_ONLY__INCLUDED_LIQUIRITIA_AND_ALTERNATIVE_CANDIDATES",
             "voynich_material_opened": 0,
+            "wagner_pdf_text_access": "CONSULTED_AND_DOWNLOADED__PDF_ALREADY_HASH_BOUND",
         },
+    )
+    correction = plan.get("correction", {})
+    audit.check(
+        "developmental_request_count_not_asserted",
+        exposure.get("developmental_metadata_network_request_count") == "NOT_ASSERTED"
+        and correction.get("developmental_metadata_network_access") == "OCCURRED__EXACT_AGGREGATE_REQUEST_COUNT_NOT_ASSERTED"
+        and "network_requests" not in correction
+        and correction.get("correction_builder_network_requests") == 0
+        and correction.get("correction_validator_network_requests") == 0,
     )
     forbidden = set(plan.get("forbidden_access", []))
     audit.check("sealed_folios_forbidden_in_plan", {"F84", "F84R"}.issubset(forbidden))
@@ -225,7 +285,7 @@ def main() -> int:
     audit.check("wagner_pdf_not_retained", not any(path.is_file() and path.suffix.lower() == ".pdf" for path in BASE.rglob("*")))
 
     audit.check("manifest_identity", manifest.get("experiment_id") == "GDT618" and manifest.get("slug") == "four_witness_herbal_concordance")
-    audit.check("manifest_status", manifest.get("status") == "SOURCE_PLAN_REGISTERED__NO_IMAGES_OPENED")
+    audit.check("manifest_status", manifest.get("status") == REGISTRATION_STATUS)
     audit.check("manifest_sealed_data", manifest.get("sealed_data") == {"f84": "FORBIDDEN", "f84r": "FORBIDDEN"})
     audit.check("manifest_dependency", manifest.get("dependencies") == ["GDT617"])
     audit.check("manifest_validation_binding", manifest.get("validation") == {"artifact": str(VALIDATION_REL), "status": "PASS"})

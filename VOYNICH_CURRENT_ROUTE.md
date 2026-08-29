@@ -284,10 +284,10 @@ The complete route memory remains in
 `experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv` and the full
 ledger. Use those files for a proposed-route duplicate audit, not on every turn.
 ## Next useful route
-Publish GDT618's source plan,then bind exact image requests for only its five
-Lat.6823 and Clm28531 pages. Independently double-read Balsamus,Cerfolium,Citruli,
-Cucurbita,Diptamus;score only Lat.6823's exact heading+12 running tokens and use
-Clm only as control. Open no Voynich target before all five source packets exist.
+Publish corrected GDT618,then GDT619's exact v3 image profile for only five
+Lat.6823/Clm pages. Double-read Balsamus,Cerfolium,Liquiritia,Cucurbita,Diptamus;
+score only Lat.6823's heading+12 running tokens and use Clm only as control.
+Open no Voynich target before all five concrete source packets exist.
 ## Primary routing references
 
 - `experiments/semantic_assumptions/grammar/CONFIRMED_GRAMMAR.md`

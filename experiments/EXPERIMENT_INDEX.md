@@ -20,7 +20,7 @@ GDT337, new work must use `experiments/yolo/gdtNNN_<slug>/`.
 
 | ID | Latest ledger entry | Status | Primary report | Files | Size | Dependencies | Layout |
 |---|---|---|---|---:|---:|---:|---|
-| GDT618 | GDT618_four_witness_herbal_concordance | `DEVELOPMENTAL_NETWORK_ACCESS_DISCLOSURE_CORRECTION` | [report](../experiments/yolo/gdt618_four_witness_herbal_concordance/PREREGISTRATION.md) | 9 | 58.1 KiB | 1 | STRUCTURED_YOLO |
+| GDT618 | GDT618_four_witness_herbal_concordance | `PHYSICAL_FOLIO_COLLISION_CORRECTED` | [report](../experiments/yolo/gdt618_four_witness_herbal_concordance/PREREGISTRATION.md) | 9 | 72.2 KiB | 1 | STRUCTURED_YOLO |
 | GDT617 | GDT617_triple_herbal_plaintext_transducer | `HIGHER_EVIDENCE_LOCATOR_SET_CORRECTION` | [report](../experiments/yolo/gdt617_triple_herbal_plaintext_transducer/PREREGISTRATION.md) | 18 | 1.3 MiB | 2 | STRUCTURED_YOLO |
 | GDT616 | GDT616_joint_child_feasible_binding | `POST_TERMINAL_MINIMUM_GATE_RELAXATION_PASS` | [report](../experiments/yolo/gdt616_joint_child_feasible_binding/REPORT.md) | 24 | 393.5 KiB | 4 | STRUCTURED_YOLO |
 | GDT615 | GDT615_joint_output_permutation_recovery | `MAPPING_BOUND_PASS__FULL_WORLD_INFEASIBLE` | [report](../experiments/yolo/gdt615_joint_output_permutation_recovery/REPORT.md) | 54 | 1.5 MiB | 4 | STRUCTURED_YOLO |

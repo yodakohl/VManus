@@ -27,15 +27,23 @@ Those bindings identify:
 GDT618 additionally registers the official BSB IIIF Presentation manifest for
 Clm 28531. It was inspected as developmental metadata before public
 registration but is not retained here. Eva-Maria Wagner's dissertation was
-likewise accessed during the declared source search and is bound as an external
-large source at its University of Freiburg landing page and PDF URL: 62,861,131
-bytes, SHA-256
+likewise consulted and downloaded during the declared developmental source
+research and is bound as an external large source at its University of Freiburg
+landing page and PDF URL: 62,861,131 bytes, SHA-256
 `8f57e7aaee4fe049ecf3fbf201ba2bf13bd6c446438ed59098afe2d28ee7a4fe`.
 The PDF is not retained in Git.
 
-The exact URLs,access disclosure and all inherited source hashes are
+The physical-folio replacement search also made network requests to official
+Mandragore search and notice HTML metadata for `Liquiritia` and alternative
+candidates, and consulted/downloaded the already hash-bound Wagner PDF/text.
+The exact aggregate number of developmental metadata requests is not asserted.
+This was metadata/source-text research only: no manuscript image bytes and no
+Voynich material were opened.
+
+The exact URLs, access disclosure, and all inherited source hashes are
 machine-readable in `artifacts/REGISTERED_SOURCE_PLAN.json`. The deterministic
-builder and validator perform no network request. The five Latin 6823
+builder and validator perform no network requests; that tooling fact is kept
+distinct from the developmental research access above. The five Latin 6823
 canvas/service identities were derived
 from GDT617's already frozen BnF manifest; no canvas or image bytes were
 requested. Five exact BnF Mandragore ARKs register the direct Latin-rubric
@@ -45,20 +53,40 @@ opened.
 
 ## Developmental candidate deck
 
+### Correction and deviation
+
+The initial GDT618 deck violated GDT617's requirement that no retained entry
+reuse a physical folio within any witness. It registered DEV03 `Citruli` at
+Latin 6823 `f42v` and DEV04 `Cucurbita` at `f42r`. Those are different locator
+strings but the recto and verso of the same physical leaf. The initial method's
+claim that all locators were distinct, and the validator's side-sensitive
+uniqueness check, were therefore insufficient.
+
+The corrected deck supersedes `Citruli` and places `Liquiritia` in DEV03. No
+other retained row changes. The replacement search used the developmental
+official-HTML-metadata and hash-bound Wagner access disclosed above. The
+aggregate metadata-request count is not asserted. No manuscript image bytes or
+Voynich material were opened. The executable gate now removes a final `r`/`v`
+from every locator before checking uniqueness separately in each witness.
+
 | Candidate | Latin 6823 | Gallica canvas / service suffix | Clm 28531 | Masson 116 | Sloane 4016 |
 |---|---:|---:|---:|---:|---:|
 | Balsamus | f25v | f58 | f10v | p96 | f10v |
 | Cerfolium | f44v | f96 | f35v | p68 | f30v |
-| Citruli | f42v | f92 | f40r | p77 | f32v |
+| Liquiritia | f85v | f178 (3284×4557) | f80r | p209 | f53v |
 | Cucurbita | f42r | f91 | f46r | p121 | f36r |
 | Diptamus | f57v | f122 | f48v | p126 | f37v |
 
-All locators are distinct within each witness. They are developmental leads,
-not verified entries. Wagner PDF pages 220 and 222 explicitly bind the last
-three witness columns beginning with Clm 28531. The Latin 6823 column instead
-has a direct-rubric Mandragore ARK per row and is not supplied by Wagner.
-`Ciclamen` and `Cubebe` were replaced before registration because they lacked
-this mechanically stronger direct-rubric-plus-explicit-Wagner combination.
+After terminal side letters are removed, all physical-leaf locators are
+distinct within each witness. They are developmental leads, not verified
+entries. Wagner PDF pages 220, 222, and 225 explicitly bind the last three
+witness columns beginning with Clm 28531. The Latin 6823 column instead has a
+direct-rubric Mandragore ARK per row and is not supplied by Wagner. The
+`Liquiritia` Mandragore record is `cgfbt114231s`, with rubric `de liquiritia.
+rubrica`. `Ciclamen` and `Cubebe` were replaced before the first registration
+because they lacked this mechanically stronger direct-rubric-plus-explicit-
+Wagner combination. `Citruli` is superseded only because its Latin 6823 side
+collides physically with retained `Cucurbita`.
 
 ## Manual source pass
 
@@ -100,7 +128,8 @@ Voynich pairing.
 
 The registered source-only outcomes are:
 
-- `SOURCE_PLAN_REGISTERED__NO_IMAGES_OPENED` for this registration;
+- `SOURCE_PLAN_CORRECTED__NONREUSED_PHYSICAL_FOLIOS__NO_IMAGES_OPENED` for
+  this corrected registration;
 - `FOUR_WITNESS_LOCATOR_FAILURE` if any proposed four-way locator cannot be
   verified;
 - `INDEPENDENT_READING_UNRESOLVED` if the required readings or reconciliation

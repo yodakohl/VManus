@@ -13,7 +13,7 @@
       "status": "PASS"
     },
     {
-      "check": "developmental_exposure_declared",
+      "check": "developmental_exposure_and_correction_declared",
       "status": "PASS"
     },
     {
@@ -77,7 +77,15 @@
       "status": "PASS"
     },
     {
-      "check": "locators_unique_within_each_witness",
+      "check": "locator_strings_unique_within_each_witness",
+      "status": "PASS"
+    },
+    {
+      "check": "recto_verso_collapse_to_one_physical_leaf",
+      "status": "PASS"
+    },
+    {
+      "check": "physical_leaf_numbers_distinct_within_each_witness",
       "status": "PASS"
     },
     {
@@ -89,7 +97,15 @@
       "status": "PASS"
     },
     {
+      "check": "physical_leaf_collision_correction_recorded",
+      "status": "PASS"
+    },
+    {
       "check": "lat6823_canvas_service_bindings_match_frozen_manifest",
+      "status": "PASS"
+    },
+    {
+      "check": "liquiritia_native_dimensions_match_frozen_manifest",
       "status": "PASS"
     },
     {
@@ -129,11 +145,15 @@
       "status": "PASS"
     },
     {
-      "check": "zero_prohibited_registration_access",
+      "check": "deterministic_tooling_zero_network_and_prohibited_access",
       "status": "PASS"
     },
     {
-      "check": "developmental_exposure_exactly_disclosed",
+      "check": "developmental_metadata_network_access_exactly_disclosed",
+      "status": "PASS"
+    },
+    {
+      "check": "developmental_request_count_not_asserted",
       "status": "PASS"
     },
     {
@@ -181,11 +201,11 @@
       "status": "PASS"
     }
   ],
-  "decision": "SOURCE_PLAN_REGISTERED__NO_IMAGES_OPENED",
+  "decision": "SOURCE_PLAN_CORRECTED__NONREUSED_PHYSICAL_FOLIOS__NO_IMAGES_OPENED",
   "experiment_id": "GDT618",
   "failed": 0,
-  "passed": 45,
+  "passed": 50,
   "schema_version": 1,
   "status": "PASS",
-  "total": 45
+  "total": 50
 }

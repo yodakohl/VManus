@@ -3,13 +3,14 @@
     "image_request_profiles_registered": 0,
     "page_images_opened": 0,
     "registration_builder_network_requests": 0,
+    "registration_validator_network_requests": 0,
     "source_canvases_opened": 0,
     "target_features_opened": 0,
     "voynich_pages_opened": 0,
     "voynich_transcriptions_opened": 0
   },
   "candidate_selection_rule": "DIRECT_LAT6823_RUBRIC_ARK_PLUS_EXPLICIT_WAGNER_CLM_MASSON_SLOANE_LOCATORS",
-  "candidate_selection_status": "DEVELOPMENTAL__PREPUBLICATION_EXPOSURE_DECLARED",
+  "candidate_selection_status": "DEVELOPMENTAL__EXPOSURE_AND_POSTREGISTRATION_CORRECTION_DECLARED",
   "candidates": [
     {
       "candidate_id": "DEV01",
@@ -73,32 +74,37 @@
     },
     {
       "candidate_id": "DEV03",
-      "developmental_headword": "Citruli",
+      "developmental_headword": "Liquiritia",
       "lat6823_canvas_binding": {
-        "canvas_id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000517p/canvas/f92",
+        "canvas_id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000517p/canvas/f178",
         "derived_from_frozen_manifest_sha256": "f22ea8cf697c5598f914bd92e101dd2da62a60df59561d67ef7384d5f5de7187",
         "image_request_profile": "UNREGISTERED__FIX_ONLY_AFTER_PUBLIC_SOURCE_PLAN_AND_BEFORE_REQUEST",
-        "image_service_id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000517p/f92"
+        "image_service_id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000517p/f178",
+        "native_dimensions": {
+          "height": 4557,
+          "width": 3284
+        }
       },
       "locator_evidence": {
         "lat6823_direct_rubric": {
-          "ark_id": "cgfbt1140616",
+          "ark_id": "cgfbt114231s",
           "authority": "BNF_MANDRAGORE",
-          "url": "https://mandragore.bnf.fr/ark:/12148/cgfbt1140616"
+          "rubric": "de liquiritia. rubrica",
+          "url": "https://mandragore.bnf.fr/ark:/12148/cgfbt114231s"
         },
         "wagner_explicit_triple": {
-          "clm28531": "f40r",
-          "masson116": "p77",
-          "pdf_page": 222,
-          "sloane4016": "f32v"
+          "clm28531": "f80r",
+          "masson116": "p209",
+          "pdf_page": 225,
+          "sloane4016": "f53v"
         }
       },
       "locator_status": "PROVISIONAL_FOUR_WITNESS_JOIN__MANUAL_VERIFICATION_REQUIRED",
       "locators": {
-        "BNF_LAT6823": "f42v",
-        "BSB_CLM28531": "f40r",
-        "MASSON116": "p77",
-        "SLOANE4016": "f32v"
+        "BNF_LAT6823": "f85v",
+        "BSB_CLM28531": "f80r",
+        "MASSON116": "p209",
+        "SLOANE4016": "f53v"
       }
     },
     {
@@ -163,13 +169,37 @@
     }
   ],
   "claim_ceiling": "SOURCE_PLAN_ONLY__NO_VERIFIED_CONCORDANCE__NO_VOYNICH_VALUE_OR_MEANING",
-  "decision": "SOURCE_PLAN_REGISTERED__NO_IMAGES_OPENED",
+  "correction": {
+    "collision_candidate_id": "DEV04",
+    "collision_headword": "Cucurbita",
+    "collision_lat6823_locator": "f42r",
+    "collision_physical_leaf": "f42",
+    "corrected": "2026-08-29",
+    "correction_builder_network_requests": 0,
+    "correction_input": "DEVELOPMENTAL_OFFICIAL_HTML_METADATA_AND_HASH_BOUND_WAGNER_RESEARCH_PLUS_ALREADY_FROZEN_BNF_MANIFEST_METADATA",
+    "correction_validator_network_requests": 0,
+    "developmental_metadata_network_access": "OCCURRED__EXACT_AGGREGATE_REQUEST_COUNT_NOT_ASSERTED",
+    "mandragore_access_scope": "OFFICIAL_SEARCH_AND_NOTICE_HTML_METADATA_ONLY__INCLUDED_LIQUIRITIA_AND_ALTERNATIVE_CANDIDATES",
+    "manuscript_image_bytes_opened": 0,
+    "original_candidate_id": "DEV03",
+    "original_headword": "Citruli",
+    "original_lat6823_locator": "f42v",
+    "reason": "INITIAL_VALIDATOR_COMPARED_SIDE_QUALIFIED_STRINGS__F42V_AND_F42R_REUSE_ONE_PHYSICAL_LEAF",
+    "replacement_candidate_id": "DEV03",
+    "replacement_headword": "Liquiritia",
+    "replacement_lat6823_locator": "f85v",
+    "voynich_material_opened": 0,
+    "wagner_pdf_text_access": "CONSULTED_AND_DOWNLOADED__PDF_ALREADY_HASH_BOUND"
+  },
+  "decision": "SOURCE_PLAN_CORRECTED__NONREUSED_PHYSICAL_FOLIOS__NO_IMAGES_OPENED",
   "developmental_exposure_audit": {
     "bsb_manifest_metadata_accessed_before_public_registration": true,
-    "external_source_page_images_opened": 0,
-    "mandragore_notice_pages_accessed_before_public_registration": 5,
+    "developmental_metadata_network_access_occurred": true,
+    "developmental_metadata_network_request_count": "NOT_ASSERTED",
+    "external_source_manuscript_image_bytes_opened": 0,
+    "mandragore_access_scope": "OFFICIAL_SEARCH_AND_NOTICE_HTML_METADATA_ONLY__INCLUDED_LIQUIRITIA_AND_ALTERNATIVE_CANDIDATES",
     "voynich_material_opened": 0,
-    "wagner_pdf_accessed_before_public_registration": true
+    "wagner_pdf_text_access": "CONSULTED_AND_DOWNLOADED__PDF_ALREADY_HASH_BOUND"
   },
   "experiment_id": "GDT618",
   "external_sources": [
@@ -186,6 +216,7 @@
       "url": "https://freidok.uni-freiburg.de/data/2936"
     },
     {
+      "access_detail": "CONSULTED_AND_DOWNLOADED_DURING_DEVELOPMENTAL_RESEARCH__PDF_TEXT_USED_FOR_EXPLICIT_ROWS",
       "access_status": "DEVELOPMENTALLY_ACCESSED_AND_HASH_BOUND__NOT_RETAINED_IN_GIT",
       "bytes": 62861131,
       "institution": "Albert_Ludwigs_Universitaet_Freiburg",
@@ -194,7 +225,8 @@
       "url": "https://freidok.uni-freiburg.de/files/2936/ETC8E6ksNFx7t_Bv/Diss_Eva_Wagner.pdf",
       "used_pdf_pages": [
         220,
-        222
+        222,
+        225
       ]
     }
   ],
@@ -260,6 +292,10 @@
     {
       "headword": "Cubebe",
       "reason": "REPLACED_BY_STRONGER_DIRECT_RUBRIC_PLUS_EXPLICIT_WAGNER_ROW"
+    },
+    {
+      "headword": "Citruli",
+      "reason": "SUPERSEDED_AFTER_REGISTRATION__BNF_LAT6823_PHYSICAL_LEAF_F42_COLLISION_WITH_CUCURBITA"
     }
   ],
   "transcription_contract": {

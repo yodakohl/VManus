@@ -19,6 +19,7 @@ def find_repo_root(start: Path) -> Path:
 ROOT = find_repo_root(Path(__file__).resolve())
 BASE = ROOT / "experiments/yolo/gdt618_four_witness_herbal_concordance"
 PLAN_PATH = BASE / "artifacts/REGISTERED_SOURCE_PLAN.json"
+REGISTRATION_STATUS = "SOURCE_PLAN_CORRECTED__NONREUSED_PHYSICAL_FOLIOS__NO_IMAGES_OPENED"
 
 
 def build_plan() -> dict:
@@ -55,30 +56,52 @@ def build_plan() -> dict:
         },
     ]
     candidate_values = [
-        ("DEV01", "Balsamus", "f25v", "f58", "f10v", "p96", "f10v", "cgfbt113999s", 220),
-        ("DEV02", "Cerfolium", "f44v", "f96", "f35v", "p68", "f30v", "cgfbt114071j", 222),
-        ("DEV03", "Citruli", "f42v", "f92", "f40r", "p77", "f32v", "cgfbt1140616", 222),
-        ("DEV04", "Cucurbita", "f42r", "f91", "f46r", "p121", "f36r", "cgfbt114059w", 222),
-        ("DEV05", "Diptamus", "f57v", "f122", "f48v", "p126", "f37v", "cgfbt114128s", 222),
+        ("DEV01", "Balsamus", "f25v", "f58", "f10v", "p96", "f10v", "cgfbt113999s", 220, None, None, None),
+        ("DEV02", "Cerfolium", "f44v", "f96", "f35v", "p68", "f30v", "cgfbt114071j", 222, None, None, None),
+        ("DEV03", "Liquiritia", "f85v", "f178", "f80r", "p209", "f53v", "cgfbt114231s", 225, "de liquiritia. rubrica", 3284, 4557),
+        ("DEV04", "Cucurbita", "f42r", "f91", "f46r", "p121", "f36r", "cgfbt114059w", 222, None, None, None),
+        ("DEV05", "Diptamus", "f57v", "f122", "f48v", "p126", "f37v", "cgfbt114128s", 222, None, None, None),
     ]
     candidates = []
-    for candidate_id, headword, lat, gallica_leaf, clm, masson, sloane, mandragore_ark, wagner_page in candidate_values:
+    for (
+        candidate_id,
+        headword,
+        lat,
+        gallica_leaf,
+        clm,
+        masson,
+        sloane,
+        mandragore_ark,
+        wagner_page,
+        rubric,
+        native_width,
+        native_height,
+    ) in candidate_values:
+        canvas_binding = {
+            "canvas_id": f"https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000517p/canvas/{gallica_leaf}",
+            "derived_from_frozen_manifest_sha256": "f22ea8cf697c5598f914bd92e101dd2da62a60df59561d67ef7384d5f5de7187",
+            "image_request_profile": "UNREGISTERED__FIX_ONLY_AFTER_PUBLIC_SOURCE_PLAN_AND_BEFORE_REQUEST",
+            "image_service_id": f"https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000517p/{gallica_leaf}",
+        }
+        direct_rubric = {
+            "ark_id": mandragore_ark,
+            "authority": "BNF_MANDRAGORE",
+            "url": f"https://mandragore.bnf.fr/ark:/12148/{mandragore_ark}",
+        }
+        if native_width is not None and native_height is not None:
+            canvas_binding["native_dimensions"] = {
+                "height": native_height,
+                "width": native_width,
+            }
+        if rubric is not None:
+            direct_rubric["rubric"] = rubric
         candidates.append(
             {
                 "candidate_id": candidate_id,
                 "developmental_headword": headword,
-                "lat6823_canvas_binding": {
-                    "canvas_id": f"https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000517p/canvas/{gallica_leaf}",
-                    "derived_from_frozen_manifest_sha256": "f22ea8cf697c5598f914bd92e101dd2da62a60df59561d67ef7384d5f5de7187",
-                    "image_request_profile": "UNREGISTERED__FIX_ONLY_AFTER_PUBLIC_SOURCE_PLAN_AND_BEFORE_REQUEST",
-                    "image_service_id": f"https://gallica.bnf.fr/iiif/ark:/12148/btv1b6000517p/{gallica_leaf}",
-                },
+                "lat6823_canvas_binding": canvas_binding,
                 "locator_evidence": {
-                    "lat6823_direct_rubric": {
-                        "ark_id": mandragore_ark,
-                        "authority": "BNF_MANDRAGORE",
-                        "url": f"https://mandragore.bnf.fr/ark:/12148/{mandragore_ark}",
-                    },
+                    "lat6823_direct_rubric": direct_rubric,
                     "wagner_explicit_triple": {
                         "clm28531": clm,
                         "masson116": masson,
@@ -99,6 +122,7 @@ def build_plan() -> dict:
         "access_audit": {
             "image_request_profiles_registered": 0,
             "registration_builder_network_requests": 0,
+            "registration_validator_network_requests": 0,
             "page_images_opened": 0,
             "source_canvases_opened": 0,
             "target_features_opened": 0,
@@ -107,16 +131,40 @@ def build_plan() -> dict:
         },
         "developmental_exposure_audit": {
             "bsb_manifest_metadata_accessed_before_public_registration": True,
-            "mandragore_notice_pages_accessed_before_public_registration": 5,
-            "wagner_pdf_accessed_before_public_registration": True,
-            "external_source_page_images_opened": 0,
+            "developmental_metadata_network_access_occurred": True,
+            "developmental_metadata_network_request_count": "NOT_ASSERTED",
+            "external_source_manuscript_image_bytes_opened": 0,
+            "mandragore_access_scope": "OFFICIAL_SEARCH_AND_NOTICE_HTML_METADATA_ONLY__INCLUDED_LIQUIRITIA_AND_ALTERNATIVE_CANDIDATES",
             "voynich_material_opened": 0,
+            "wagner_pdf_text_access": "CONSULTED_AND_DOWNLOADED__PDF_ALREADY_HASH_BOUND",
         },
-        "candidate_selection_status": "DEVELOPMENTAL__PREPUBLICATION_EXPOSURE_DECLARED",
+        "candidate_selection_status": "DEVELOPMENTAL__EXPOSURE_AND_POSTREGISTRATION_CORRECTION_DECLARED",
         "candidate_selection_rule": "DIRECT_LAT6823_RUBRIC_ARK_PLUS_EXPLICIT_WAGNER_CLM_MASSON_SLOANE_LOCATORS",
         "candidates": candidates,
         "claim_ceiling": "SOURCE_PLAN_ONLY__NO_VERIFIED_CONCORDANCE__NO_VOYNICH_VALUE_OR_MEANING",
-        "decision": "SOURCE_PLAN_REGISTERED__NO_IMAGES_OPENED",
+        "correction": {
+            "collision_candidate_id": "DEV04",
+            "collision_headword": "Cucurbita",
+            "collision_lat6823_locator": "f42r",
+            "collision_physical_leaf": "f42",
+            "corrected": "2026-08-29",
+            "correction_builder_network_requests": 0,
+            "correction_input": "DEVELOPMENTAL_OFFICIAL_HTML_METADATA_AND_HASH_BOUND_WAGNER_RESEARCH_PLUS_ALREADY_FROZEN_BNF_MANIFEST_METADATA",
+            "correction_validator_network_requests": 0,
+            "developmental_metadata_network_access": "OCCURRED__EXACT_AGGREGATE_REQUEST_COUNT_NOT_ASSERTED",
+            "mandragore_access_scope": "OFFICIAL_SEARCH_AND_NOTICE_HTML_METADATA_ONLY__INCLUDED_LIQUIRITIA_AND_ALTERNATIVE_CANDIDATES",
+            "manuscript_image_bytes_opened": 0,
+            "original_candidate_id": "DEV03",
+            "original_headword": "Citruli",
+            "original_lat6823_locator": "f42v",
+            "reason": "INITIAL_VALIDATOR_COMPARED_SIDE_QUALIFIED_STRINGS__F42V_AND_F42R_REUSE_ONE_PHYSICAL_LEAF",
+            "replacement_candidate_id": "DEV03",
+            "replacement_headword": "Liquiritia",
+            "replacement_lat6823_locator": "f85v",
+            "voynich_material_opened": 0,
+            "wagner_pdf_text_access": "CONSULTED_AND_DOWNLOADED__PDF_ALREADY_HASH_BOUND",
+        },
+        "decision": REGISTRATION_STATUS,
         "experiment_id": "GDT618",
         "external_sources": [
             {
@@ -133,6 +181,7 @@ def build_plan() -> dict:
             },
             {
                 "access_status": "DEVELOPMENTALLY_ACCESSED_AND_HASH_BOUND__NOT_RETAINED_IN_GIT",
+                "access_detail": "CONSULTED_AND_DOWNLOADED_DURING_DEVELOPMENTAL_RESEARCH__PDF_TEXT_USED_FOR_EXPLICIT_ROWS",
                 "bytes": 62861131,
                 "institution": "Albert_Ludwigs_Universitaet_Freiburg",
                 "role": "WAGNER_DISSERTATION_PDF__APPENDIX_1_TRIPLE_CONCORDANCE",
@@ -140,7 +189,8 @@ def build_plan() -> dict:
                 "url": "https://freidok.uni-freiburg.de/files/2936/ETC8E6ksNFx7t_Bv/Diss_Eva_Wagner.pdf",
                 "used_pdf_pages": [
                     220,
-                    222
+                    222,
+                    225
                 ],
             },
         ],
@@ -175,6 +225,10 @@ def build_plan() -> dict:
             {
                 "headword": "Cubebe",
                 "reason": "REPLACED_BY_STRONGER_DIRECT_RUBRIC_PLUS_EXPLICIT_WAGNER_ROW"
+            },
+            {
+                "headword": "Citruli",
+                "reason": "SUPERSEDED_AFTER_REGISTRATION__BNF_LAT6823_PHYSICAL_LEAF_F42_COLLISION_WITH_CUCURBITA"
             }
         ],
         "transcription_contract": {
