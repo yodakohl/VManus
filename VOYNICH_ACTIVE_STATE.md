@@ -15202,3 +15202,34 @@ V4 rows plus13 OL/OR additions. GDT628 passes184 deterministic checks. Next
 compare f27r.6 `chor cholaiin` with f32v.10 `chor chol daiin` and the three
 `choldaiin` sites to recover the smallest complete part+quality+degree clause
 without opening new material.
+
+## GDT629 recovers a replicated `chor` part–quality–degree clause
+
+GDT629 triangulates eight already admitted loci across ZL3b,IT2a and RF1b;
+no new page or image is opened. f21r.12 and f32v.10 both contain the exact
+three-token sequence `chor chol daiin` in all three alternate readings. The
+smallest current working clause is therefore
+`chor|chol|daiin=plant/reproductive part:dry degree III`. The separated form
+retains `plant part/dry material:three portions` as an explicit live rival,
+but that rival does not economically cover direct `cholaiin` or the inherited
+OL quality lattice.
+
+At f49r.6 and f100r.22 ZL3b/RF1b read `choldaiin` while IT2a reads
+`chol daiin` at the same physical span. Removing only that reader-supplied
+space gives identical characters,so fused and separated dry-III expressions
+are now exact boundary variants. f27r.6 is deliberately not folded into this
+claim:ZL3b has `chor cholaiin`,IT2a `chor chol chaiin`,and RF1b
+`chor cholchaiin`;the latter two contain an additional ch. All three preserve
+the part+dry-III working slots,but the direct surface clause remains
+ZL3b-provisional. The three fused-d loci have no immediate demonstrated part
+anchor.
+
+All43 GDT628 chol-value contexts are reclassified:3 complete immediate-part
+clauses,7 with a nearby part,and33 quality phrases whose outer carrier remains
+open;35 expressions are triple-reader stable. Every one of65 tokens on the
+eight ZL target lines receives either a concrete inherited/composed default or
+an explicit OPEN status;35 OPEN tokens receive no generic filler. V6 retains
+all28 V5 rows and adds four clause/boundary entries. GDT629 passes132 checks.
+Next compare the outer attachment of all15 fused OL+dN expressions with the120
+separate OL dN expressions,using only admitted material,to seek recurrent
+visible part/stuff heads beyond chor rather than inventing a hidden carrier.
