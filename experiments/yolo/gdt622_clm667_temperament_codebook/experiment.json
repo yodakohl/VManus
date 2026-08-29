@@ -1,0 +1,190 @@
+{
+  "artifact_policy": {
+    "large_artifact_justification": "Only compact source observations, candidate metadata, selected alternate readings, counts, and result tables are retained. No manuscript image bytes are committed.",
+    "max_inline_bytes": 5000000
+  },
+  "claim_ceiling": "Clm 667 confirms the historical whole-name plus compositional temperament-code mechanism. GDT622 supplies a concrete exploratory four-corner Voynich quality reader, four target-span page readings, and one visual label hypothesis. It does not establish the plant identities, name-carrier meanings, headword-to-code attachment, degree values, language, phonetics, full plaintext, or a complete manuscript solution.",
+  "commands": {
+    "run": "python3 experiments/yolo/gdt622_clm667_temperament_codebook/src/run.py",
+    "validate": "python3 experiments/yolo/gdt622_clm667_temperament_codebook/src/validate.py"
+  },
+  "created": "2026-08-29",
+  "dependencies": [
+    "GDT327",
+    "GDT621"
+  ],
+  "experiment_id": "GDT622",
+  "inputs": [
+    {
+      "path": "gdt327_joint_tuple_interlinear.tsv",
+      "role": "f84-free structural page inventory",
+      "sha256": "7eba46774be44992064cc114f67329723ac7bf589321b0d763fb7f7f748cc1e9"
+    },
+    {
+      "path": "transcription/voynich_zl3b_tokens.tsv",
+      "role": "mixed ZL3b token table opened only through explicit guarded selectors",
+      "sha256": "6a061a26edc05ff37dc386c2215774c229a5ff087d3091e68bdd4983a6c007aa"
+    },
+    {
+      "path": "transcription/sources/ZL3b-n.txt",
+      "role": "native ZL3b alternate-reading source with selector-first sealed-row rejection",
+      "sha256": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc"
+    },
+    {
+      "path": "transcription/sources/IT2a-n.txt",
+      "role": "native IT2a alternate-reading source with selector-first sealed-row rejection",
+      "sha256": "7f27a8b0feed8f6de0a99900df6bf912dd1d295c38e5f830bac8b41c3f536fb5"
+    },
+    {
+      "path": "transcription/sources/RF1b-e.txt",
+      "role": "native RF1b alternate-reading source with selector-first sealed-row rejection",
+      "sha256": "e7d3238e35743e06c63367a933909ec37b1e2de7ada3a1b449447eafa1918782"
+    },
+    {
+      "path": "experiments/yolo/gdt621_manual_source_double_reading/artifacts/SOURCE_DOUBLE_READING_RESULT.json",
+      "role": "canonical GDT621 source-reading result",
+      "sha256": "2d0586ab41795d870fb89b44dd5edf5b18530dc8bb16b8d4cc0f0709786135c1"
+    },
+    {
+      "path": "experiments/yolo/gdt621_manual_source_double_reading/FINAL_RESULT.md",
+      "role": "corrected GDT621 source meanings including liquorice root and Cerfolium culinary use",
+      "sha256": "54a8a18181bf236db7c367b2afbbc14c68169d41963a53294f1dd34d12c40e93"
+    },
+    {
+      "path": "experiments/yolo/gdt622_clm667_temperament_codebook/artifacts/SOURCE_OBSERVATIONS.tsv",
+      "role": "28 manually read official Clm 667 code rows",
+      "sha256": "bd0329ce4b8a1364b725325f00cee4630cb9d897bb3ca1758c9c12a00a479e83"
+    },
+    {
+      "path": "experiments/yolo/gdt622_clm667_temperament_codebook/artifacts/SOURCE_PROVENANCE.tsv",
+      "role": "official manifest and plant-proposal provenance bindings",
+      "sha256": "fadc9218476a0569499cf9ee0b7a8e830ccc488cf9783714674b33444710168e"
+    },
+    {
+      "path": "experiments/yolo/gdt622_clm667_temperament_codebook/artifacts/CANDIDATE_DECK.tsv",
+      "role": "eleven explicit candidate pages with identity-source scope",
+      "sha256": "54023e8fea291221018198ac088e71d61a242359941f7da9824b13bb41308be7"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments/yolo/gdt622_clm667_temperament_codebook/README.md",
+      "role": "experiment entry point and commands",
+      "sha256": "ec26036375cc18be5803f558bb523629d451119ebfe84368f96aefde3fcd0738"
+    },
+    {
+      "path": "experiments/yolo/gdt622_clm667_temperament_codebook/METHOD.md",
+      "role": "historical comparator, compositional reader, candidate, and sensitivity method",
+      "sha256": "c1e08f80cee034889f30362ea2597e6f7b923e7e1213fd0d08e28ca4e0557381"
+    },
+    {
+      "path": "experiments/yolo/gdt622_clm667_temperament_codebook/REPORT.md",
+      "role": "primary concrete working-reader report",
+      "sha256": "3478e452acb278d18839076ed15570be66c90b72bc33dcb15d0789cab63cb5e2"
+    },
+    {
+      "path": "experiments/yolo/gdt622_clm667_temperament_codebook/artifacts/README.md",
+      "role": "artifact inventory and boundaries",
+      "sha256": "cf740205ba0e32fcbcebb7ff844c30ad2f2161fa85ceef99873db1f20523229b"
+    },
+    {
+      "path": "experiments/yolo/gdt622_clm667_temperament_codebook/artifacts/ALTERNATE_READING_EVIDENCE.tsv",
+      "role": "selected ZL3b IT2a RF1b readings",
+      "sha256": "9aa0bfc84017b2dc76c03686f09705304325beb518ba517cf2e094d6e38c6ac1"
+    },
+    {
+      "path": "experiments/yolo/gdt622_clm667_temperament_codebook/artifacts/BLOCK_EVIDENCE.tsv",
+      "role": "nine local windows with contradictions and Herbal-A baselines",
+      "sha256": "0ca98d09d5b6855aa7b28a865a896a44c22a4976232a7b0c472cec9b48d267b2"
+    },
+    {
+      "path": "experiments/yolo/gdt622_clm667_temperament_codebook/artifacts/CANDIDATE_ALIGNMENT.tsv",
+      "role": "name quality and degree loci with distance",
+      "sha256": "3db2ebf5d5be97d783756994c649043f0c0614263b661c6c652a6ccd3ada021b"
+    },
+    {
+      "path": "experiments/yolo/gdt622_clm667_temperament_codebook/artifacts/CANDIDATE_FAMILY_OCCURRENCES.tsv",
+      "role": "all candidate-page family occurrences",
+      "sha256": "59ec2b81b7fad5a238bf1bb970d70f1e325df825f932707a9ed7def290430e3c"
+    },
+    {
+      "path": "experiments/yolo/gdt622_clm667_temperament_codebook/artifacts/CANDIDATE_FAMILY_SUMMARY.tsv",
+      "role": "candidate-page family summary",
+      "sha256": "3cb35ba21c899a592a01b85739bee221249d4d731c41ba7fd6895662408fdd49"
+    },
+    {
+      "path": "experiments/yolo/gdt622_clm667_temperament_codebook/artifacts/DECK_ORIENTATION_COMPARISON.tsv",
+      "role": "external versus internal candidate-deck orientation comparison",
+      "sha256": "cac70190bc59adb4f6d0b5a98fc6a3966664fec4e3c47c053421958b878ad54b"
+    },
+    {
+      "path": "experiments/yolo/gdt622_clm667_temperament_codebook/artifacts/DEGREE_PAIR_MATRIX.tsv",
+      "role": "quality-surface plus degree-family adjacency matrix",
+      "sha256": "44352300b8851dca6c8bce760d24d52652460a83267ed4ab11411dea9f890cee"
+    },
+    {
+      "path": "experiments/yolo/gdt622_clm667_temperament_codebook/artifacts/EXACT_FORM_OCCURRENCES.tsv",
+      "role": "exact eight-form quality inventory",
+      "sha256": "89810301972b7eb5d3cf7141ad9a37ee105bf49460000015b6f5071dc8a14216"
+    },
+    {
+      "path": "experiments/yolo/gdt622_clm667_temperament_codebook/artifacts/MARKER_PREVALENCE.tsv",
+      "role": "degree-candidate corpus prevalence",
+      "sha256": "b69edcf1aad9be790785bff8e054fda8a6345f7cfdb06c070f618a93ff7e37ff"
+    },
+    {
+      "path": "experiments/yolo/gdt622_clm667_temperament_codebook/artifacts/MINIMAL_PAIR_EVIDENCE.tsv",
+      "role": "thirteen exact single-axis within-line pairs",
+      "sha256": "20f488d9be7f4fd9e4911b87900346859b4611419395b66d63fac1f08e7bcd64"
+    },
+    {
+      "path": "experiments/yolo/gdt622_clm667_temperament_codebook/artifacts/ORIENTATION_COMPARISON.tsv",
+      "role": "all eight axis assignments on preferred external candidates",
+      "sha256": "39fa1b6306fd70e306d62a975121bf5ddd7f0150453b6cd9881a1a3831df6b83"
+    },
+    {
+      "path": "experiments/yolo/gdt622_clm667_temperament_codebook/artifacts/RESULT.json",
+      "role": "canonical historical mechanism and Voynich working-reader result",
+      "sha256": "7b7902cc05528717cb98634bca9f56b8eecec30d28e0e1096c193b69e0149c8e"
+    },
+    {
+      "path": "experiments/yolo/gdt622_clm667_temperament_codebook/artifacts/VALIDATION.json",
+      "role": "182 deterministic replay schema provenance and privacy checks",
+      "sha256": "708b79170c0f5d0df64037fc2b03761b17224b88dc995d1f1b7d2eddd6537953"
+    },
+    {
+      "path": "experiments/yolo/gdt622_clm667_temperament_codebook/artifacts/WORKING_DICTIONARY.tsv",
+      "role": "layered historical and exploratory dictionary",
+      "sha256": "1190196940a03b21555982d6deb4f753f627ec7eb119b1b26378c188e9022890"
+    },
+    {
+      "path": "experiments/yolo/gdt622_clm667_temperament_codebook/artifacts/WORKING_TRANSLATION.tsv",
+      "role": "separated source expectations target-span readings and unmapped content",
+      "sha256": "8aec5c3f497440974642fc8c006abb0e3c980c1ec69f3a009b205f3d63bbe129"
+    },
+    {
+      "path": "experiments/yolo/gdt622_clm667_temperament_codebook/src/run.py",
+      "role": "deterministic guarded builder",
+      "sha256": "76772573b03296dbe6f34399d5d0ad27892b1270ffe38ca74245cfc663bdb96e"
+    },
+    {
+      "path": "experiments/yolo/gdt622_clm667_temperament_codebook/src/validate.py",
+      "role": "offline replay schema provenance and privacy validator",
+      "sha256": "2813b6de5d7111ee4c5fee8a359b243bdca8b59bb88a757b1e166bfec75671f3"
+    }
+  ],
+  "question": "Can a real late-medieval whole-name plus compositional temperament codebook supply short concrete default meanings for recurrent Voynich Herbal forms?",
+  "schema_version": 1,
+  "sealed_data": {
+    "f84": "FORBIDDEN",
+    "f84r": "FORBIDDEN"
+  },
+  "slug": "clm667_temperament_codebook",
+  "status": "CONCRETE_COMPOSITIONAL_WORKING_TRANSLATION_V1",
+  "title": "Clm 667 temperament codebook",
+  "updated": "2026-08-29",
+  "validation": {
+    "artifact": "experiments/yolo/gdt622_clm667_temperament_codebook/artifacts/VALIDATION.json",
+    "status": "PASS"
+  }
+}

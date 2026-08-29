@@ -14939,3 +14939,33 @@ framework with Macer,Isaac and other layers. The concrete reusable slots are
 lemma/alias,hot-cold,moist-dry,degree,authority,plant part/morphology,
 apothecary choice,power,indication and administration. Next use rare splice
 points and remaining illustrated witnesses before any Voynich target pairing.
+
+## GDT622 opens the concrete temperament-codebook reader
+
+Official BSB Clm 667 (catalogued 1481–1490;Hartmann Schedel provenance,not
+authorship) supplies the sought historical hybrid mechanism. Twenty-eight
+manual rows show a learned drug name followed by `(c|f) [degree]?
+(s|h) [degree]?`,with `c/f=hot/cold`,`s/h=dry/moist`,barred `p=degree I`,and
+numeric degrees through IV. This mechanism is historical fact;its Voynich
+analogue remains a working model.
+
+The leading target orientation is `qo+(k/t)+(ch/sh)+(y/ey)`,with `k=hot`,
+`t=cold`,`ch=moist`,`sh=dry`,and `qo` as quality wrapper. All eight `-y/-ey`
+surface spellings exist and thirteen exact within-line pairs change only one
+axis. On four pre-existing external plant proposals this orientation leads all
+eight assignments by local count,8/13 versus6/13;on the internal direct-image
+deck it is first by count but second by binary page contact. Treat the values as
+concrete exploratory defaults,not fixed glyph meanings.
+
+Current ranked page readings are f38r Balsam,f3r Diptam,f45r liquorice,f24r
+Cucurbita,and f41v chervil-like/Cerfolium. Only f38r places provisional name and
+selected quality on one line. f3r and f24r place them12 and11 lines apart;
+f24r also has adjacent opposing `qokchy qotchy`,and f3r `qokshey` is ZL3b/RF1b
+against IT2a `qokchey`. Names therefore remain page-level carrier hypotheses.
+
+Degree throughput defaults are unmarked/`otaiin`/adjacent `(q)okol daiin` for
+I/II/III. `otaiin` is common(81/181 safe pages),absence is common(94/181),and
+only the III package is relatively rare(9 events on8 pages,including both
+Diptam candidates). Bare `dain/daiin/daiiin` remains unordered. Four concrete
+target spans now read hot/cold plus moist/dry;source-only facts such as liquorice
+root and Cerfolium culinary use remain explicitly unmapped.

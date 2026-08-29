@@ -284,10 +284,10 @@ The complete route memory remains in
 `experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv` and the full
 ledger. Use those files for a proposed-route duplicate audit, not on every turn.
 ## Next useful route
-GDT621 completes five source pairs after public checkpoint `2ab45096...`:all
-Clm labels match and Latin remains frozen;result SHA `64581c4a...e219`. Later
-full-context reading corrects `vel frutex`,`radix cuiusdam`,`teste Ysaac` and
-`colitur`. Next exploit these exact slots/source family;Voynich stays unopened.
+GDT622 finds a real 1481–1490 comparator:learned drug names plus compositional hot/cold and dry/moist codes.
+The leading reader is `qo+(k/t)+(ch/sh)`,with `k/t=hot/cold`,`ch/sh=moist/dry`;13 exact minimal pairs
+and all four corners exist. f38r Balsam is strongest;next attach the same code
+to repeated names/records without changing values. Degree and names stay open.
 ## Primary routing references
 
 - `experiments/semantic_assumptions/grammar/CONFIRMED_GRAMMAR.md`
