@@ -284,8 +284,8 @@ The complete route memory remains in
 `experiments/semantic_assumptions/CLOSED_ROUTE_FAMILIES.tsv` and the full
 ledger. Use those files for a proposed-route duplicate audit, not on every turn.
 ## Next useful route
-GDT639 gives all24 strict V15 holes concrete defaults and promotes8 exact component-complete forms over332 occurrences:qotchor=cold-dry drug portion,dchol=measure of dry material,chotaiin=dry preparation coldIII,cthar=CTH/herbal leaf-drug fractionI,chear=dry fractionI,odaiim=preparation measureIII,okeey=hot preparation bindingII,shy=moist base form. V16=280 dictionary rows/233 surfaces;complete lines30→39,clean20→28;known positions+332. Nine lines close;16 explicit defaults remain held only for named scope/body barriers. Validator passes47164 checks and byte-replays16 outputs.
-Next GDT640 attacks the four strict holes newly exposed by those cards:qotomody at f37r.6,qotor at f37v.16,okal at f25r.6,chotcheol at f49r.11. Bind every visible field,render all occurrences,and then revisit keechy/chokshy/yty/ytaiin. No f1r,new page/image,GDT418 import,generic filler,naked-body or absent-cell transfer.
+GDT640 tests the four strict holes exposed in advance by GDT639 over151 occurrences. qotor=cold drug portion(26),okal=preparation from hot raw material formI(123),and chotcheol=dry preparation from cold-dry drug material(1) enter V17 and close3 clean lines;chotcheol is corrected to cho+tch+e+ol from GDT625's bound TCH block. qotomody retains cold preparation-measure,finished base form but stays held because internal m is unbound. V17=283 dictionary rows/236 surfaces;complete39→42,clean28→31;known positions+150. Validator passes165 checks and byte-replays16 outputs.
+Next GDT641 attacks the newly exposed strict tcheor at f15r.12 and chetchy at f37v.8,then reader-unstable odaiin at f10r.12 and qotomody's M field. No f1r,new page/image,GDT418 import,generic filler,naked-body or absent-cell transfer.
 ## Primary routing references
 
 - `experiments/semantic_assumptions/grammar/CONFIRMED_GRAMMAR.md`

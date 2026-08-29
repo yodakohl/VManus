@@ -15621,3 +15621,47 @@ f37r.6,qotor at f37v.16,okal at f25r.6 and chotcheol at f49r.11 first,using
 their newly concrete neighbors and complete form ladders before returning to
 the weaker Y/CKH holds. No new page,image,f1r,f84*,GDT418 value,generic filler,
 bare body or absent-cell transfer.
+
+## GDT640 validates three downstream predictions and keeps one complete hold
+
+GDT640 stays on the same guarded179 pages and consumes exactly the four strict
+V16 one-hole forms frozen by GDT639 before their occurrence circuits. The
+targets have151 occurrences:qotomody1,qotor26,okal123,chotcheol1. Their compact
+family atlas contains24 observed sister forms. All four receive complete
+field-preserving readings;three enter V17 after all-occurrence rendering and
+qotomody remains a concrete hold.
+
+qotor=qo+t+or is a cold drug portion. The qokol/qokor=88/29 and
+qotol/qotor=43/26 OL/OR grid repeats under dry quality in qokchol/qokchor=15/8
+and qotchol/qotchor=13/11. okal=o+k+al is a preparation from hot raw material,
+formI. Its complete o/qo×k/t×al/ar field contains okal/okar/otal/otar=
+123/119/119/123 and qokal/qokar/qotal/qotar=180/153/57/61. Both values apply
+only to their exact whole surfaces and globalize neither or nor al.
+
+The first chotcheol parse was corrected during the independent historical
+audit. GDT625's1162-row terminal family already binds chotchy,chotchey and
+chotchedy as prefix cho plus the complete tch=cold-dry block. Therefore
+chotcheol=cho+tch+e+ol,not ch+o+t+ch+e+ol,and reads dry preparation from
+cold-dry drug material. The singleton is exact in all three readers;neither
+cheol nor any substring is promoted.
+
+qotomody receives the explicit reading cold preparation-measure,finished base
+form under qot+o+m+ody. It closes f37r.6 in trial but remains outside V17:
+qotody occurs10 times,while qotom,qotokody and qotomody occur once each;the
+internal m cannot be licensed from GDT636's scoped am ladder or its mostly
+terminal uses. The reading is retained rather than rejected or blanked.
+
+The151-row audit yields91 concrete-compatible,34 opaque,25 reader-boundary and
+one unbound-component verdict,with zero hard semantic collisions. V17 preserves
+all280 V16 rows and adds qotor,okal,chotcheol=283;the glossary grows233→236 and
+known positions9591→9741. Complete multi-token lines grow39→42 and clean exact
+lines28→31. The three new readings are f37v.16=cold drug portion,quantityIII,
+dry preparation coldIII;f25r.6=preparation from hot raw material formI,dry
+preparation coldIII;and f49r.11=dry preparation from cold-dry drug material,
+measure of dry material. The independent validator passes165 checks and
+byte-replays all16 outputs.
+
+Three old two-hole lines now enter the one-hole frontier. GDT641 starts with
+the two strict exact forms tcheor at f15r.12 and chetchy at f37v.8,then tests
+reader-unstable odaiin at f10r.12 and qotomody's M field. No new page,image,
+f1r,f84*,GDT418 value,generic filler,bare body or absent-cell transfer.
